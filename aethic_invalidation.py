@@ -31,7 +31,7 @@ directly. Each detector is specified as a set of slit indices (0-indexed)
 representing which slits cause it to fire (OR logic).
 
 Reference:
-  Newton, A. (2025). Aethic Reasoning: A Comprehensive Solution to the
+  Benander, A. (2025). Aethic Reasoning: A Comprehensive Solution to the
   Quantum Measurement Problem. https://philpapers.org/rec/BENARA-5
 """
 
