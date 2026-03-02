@@ -10,23 +10,20 @@ Companion code for [*Aethic Reasoning: A Comprehensive Solution to the Quantum M
 ## The Algorithm
 
 ```
-Given n slits and a set of detectors:
+Given n slits and a set of detectors (each fires for some subset of slits):
 
-1. For each slit, compute its signature:
+1. For each slit, compute its detector signature:
      sig(s) = which detectors fire when only s is open
 
-2. Group slits into equivalence classes:
-     slits with identical signatures are one class
+2. Group slits by identical signature into equivalence classes.
+     Slits in the same class are observationally indistinguishable.
 
-3. For each subset S of the powerset:
-     if S = ∅                        → VALID
-     if S is exactly one full class  → VALID
-     if S ⊂ one class (proper)      → INVALID (P2)
-     if S spans multiple classes     → INVALID (P3)
+3. For each subset S of the powerset (each candidate superposition):
+     if S = ∅                   → VALID
+     if S = one full class      → VALID  (no contradiction reachable)
+     if S ⊂ one class (proper)  → P2: specificity no observer can access
+     if S spans multiple classes → P3: future observer could find contradiction
 ```
-
-**P2 (Second Postulate)** — the subset asserts a specificity the detectors cannot support.  
-**P3 (Third Postulate)** — the detectors can distinguish members, creating an accessible contradiction (checkmate).
 
 ## Papers
 
