@@ -226,6 +226,26 @@
             </div>
         </div>
 
+        <!-- Pseudocode -->
+        <div class="card" style="margin-bottom:2.5rem; border-color:rgba(251,191,36,0.15);">
+            <span class="card-tag" style="color:var(--text-dim);background:rgba(100,116,139,0.08);border:1px solid rgba(100,116,139,0.15);">Pseudocode</span>
+            <h2>The Core Algorithm</h2>
+            <p>The entire invalidation logic, reduced to its essentials:</p>
+            <pre style="padding:1rem; background:rgba(0,0,0,0.3); border:1px solid rgba(100,116,139,0.12); border-radius:0.4rem; font-family:'SF Mono','Cascadia Code','Consolas',monospace; font-size:0.78rem; color:#c4b5fd; line-height:1.7; overflow-x:auto; white-space:pre;">Given n slits and a set of detectors:
+
+1. For each slit, compute its signature:
+     sig(s) = which detectors fire when only s is open
+
+2. Group slits into equivalence classes:
+     slits with identical signatures are one class
+
+3. For each subset S of the powerset:
+     if S = ∅                        → VALID
+     if S is exactly one full class  → VALID
+     if S ⊂ one class (proper)      → INVALID (P2)
+     if S spans multiple classes     → INVALID (P3)</pre>
+        </div>
+
         <div class="footer-links">
             <a href="https://github.com/brunchwnewton/aethic-code">
                 <span class="arrow">→</span> Browse all source files on GitHub
