@@ -37,3 +37,7 @@ Given n slits and a set of detectors:
 ## License
 
 MIT
+
+## Note on Scope
+
+The Aethic postulates are fully general, inductive principles governing the logical structure of reality. The code in this repository does not implement the postulates themselves—it is an AI-generated algorithm (produced by Claude Opus 4.6) for a more narrow special case: OR-type detector configurations in multi-slit setups. This special case was devised by Ajax Benander as a pedagogical tool in the *Prelude to Active Reasoning* section of the [main paper](https://philpapers.org/rec/BENARA-5), serving as an accessible interface to the full integral. In particular, the Third Postulate carries a two-generational ontological structure (the "checkmate" condition) that this simplified algorithm streamlines into a direct check. These demonstrations are a stress-test for the postulates against a tractable case, not a logically equivalent reduction of them.
