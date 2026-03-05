@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
     {% include goatcounter.html %}
+    <title>{{ page.title | default: site.title | default: "Aethus" }}</title>
 </head>
 <body>
     {{ content }}
