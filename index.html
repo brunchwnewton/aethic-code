@@ -278,8 +278,8 @@ layout: default
 
         <!-- ═══ Tab Navigation ═══ -->
         <nav class="tab-nav">
-            <button class="active" onclick="switchTab('code')">Code &amp; Demos</button>
-            <button onclick="switchTab('media')">Presentations &amp; Media</button>
+            <button class="active" onclick="switchTab('code')" id="btn-code">Code &amp; Demos</button>
+            <button onclick="switchTab('media')" id="btn-media">Presentations &amp; Media</button>
         </nav>
 
         <!-- ═══════════════════════════════════════ -->
@@ -462,6 +462,9 @@ layout: default
 
     <script>
         function switchTab(tab) {
+            // Update hash without scrolling
+            history.replaceState(null, null, '#' + tab);
+    
             // Hide all sections
             document.querySelectorAll('.tab-section').forEach(function(el) {
                 el.classList.remove('active');
@@ -472,16 +475,20 @@ layout: default
             });
             // Activate selected
             document.getElementById('tab-' + tab).classList.add('active');
-            // Find and activate the clicked button
-            var buttons = document.querySelectorAll('.tab-nav button');
-            buttons.forEach(function(btn) {
-                if ((tab === 'code' && btn.textContent.indexOf('Code') !== -1) ||
-                    (tab === 'media' && btn.textContent.indexOf('Presentations') !== -1)) {
-                    btn.classList.add('active');
-                }
-            });
+            document.getElementById('btn-' + tab).classList.add('active');
         }
-
+    
+        // On page load, check the hash and switch to that tab
+        function loadTabFromHash() {
+            var hash = window.location.hash.replace('#', '');
+            if (hash === 'code' || hash === 'media') {
+                switchTab(hash);
+            }
+        }
+    
+        loadTabFromHash();
+        window.addEventListener('hashchange', loadTabFromHash);
+    
         // Fetch and display the Python source inline when requested
         fetch('aethic_invalidation.py')
             .then(function(r) { return r.text(); })
