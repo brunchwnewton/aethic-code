@@ -40,7 +40,7 @@ layout: default
 
         /* ── Header ── */
         header {
-            margin-bottom: 2.5rem;
+            margin-bottom: 1.5rem;
         }
 
         h1 {
@@ -63,6 +63,54 @@ layout: default
             border-bottom: 1px solid rgba(139, 92, 246, 0.3);
         }
         .subtitle a:hover { border-color: var(--violet); }
+
+        /* ── Tab Nav ── */
+        .tab-nav {
+            display: flex;
+            gap: 0;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .tab-nav button {
+            background: none;
+            border: none;
+            color: var(--text-dim);
+            font-family: inherit;
+            font-size: 0.85rem;
+            font-weight: 500;
+            padding: 0.7rem 1.2rem;
+            cursor: pointer;
+            position: relative;
+            transition: color 0.2s;
+        }
+
+        .tab-nav button:hover {
+            color: var(--text-muted);
+        }
+
+        .tab-nav button.active {
+            color: var(--violet);
+        }
+
+        .tab-nav button.active::after {
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: var(--violet);
+            border-radius: 1px 1px 0 0;
+        }
+
+        .tab-section {
+            display: none;
+        }
+
+        .tab-section.active {
+            display: block;
+        }
 
         /* ── Cards ── */
         .cards {
@@ -106,6 +154,18 @@ layout: default
             color: var(--amber);
             background: rgba(251, 191, 36, 0.08);
             border: 1px solid rgba(251, 191, 36, 0.2);
+        }
+
+        .tag-presentation {
+            color: #f472b6;
+            background: rgba(244, 114, 182, 0.08);
+            border: 1px solid rgba(244, 114, 182, 0.2);
+        }
+
+        .tag-video {
+            color: #f87171;
+            background: rgba(248, 113, 113, 0.08);
+            border: 1px solid rgba(248, 113, 113, 0.2);
         }
 
         .card h2 {
@@ -160,6 +220,24 @@ layout: default
             color: var(--text);
         }
 
+        /* ── Video embed ── */
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            border: none;
+            border-radius: 0.5rem;
+        }
+
         /* ── Footer links ── */
         .footer-links {
             padding-top: 1.5rem;
@@ -192,52 +270,61 @@ layout: default
         <header>
             <h1>Aethic Reasoning</h1>
             <p class="subtitle">
-                Code and interactive demonstrations accompanying the paper
+                Resources accompanying the paper
                 <a href="https://philpapers.org/rec/BENARA-5"><em>Aethic Reasoning: A Comprehensive Solution to the Quantum Measurement Problem</em></a>
                 by Ajax Benander.
             </p>
         </header>
 
-        <div class="cards">
-            <!-- Interactive Demo -->
-            <div class="card">
-                <span class="card-tag tag-interactive">Interactive</span>
-                <h2>Powerset Invalidation Demo</h2>
-                <p>
-                    Configure slits and detectors, then watch the Second and Third Postulates
-                    prune the powerset of candidate agreeing superpositions in real time.
-                    Runs entirely in your browser.
-                </p>
-                <div class="card-actions">
-                    <a href="demo.html" class="btn-primary">▶ Launch Demo</a>
-                    <a href="demo.html" download class="btn-secondary">↓ Download HTML</a>
+        <!-- ═══ Tab Navigation ═══ -->
+        <nav class="tab-nav">
+            <button class="active" onclick="switchTab('code')">Code &amp; Demos</button>
+            <button onclick="switchTab('media')">Presentations &amp; Media</button>
+        </nav>
+
+        <!-- ═══════════════════════════════════════ -->
+        <!-- CODE TAB -->
+        <!-- ═══════════════════════════════════════ -->
+        <div id="tab-code" class="tab-section active">
+            <div class="cards">
+                <!-- Interactive Demo -->
+                <div class="card">
+                    <span class="card-tag tag-interactive">Interactive</span>
+                    <h2>Powerset Invalidation Demo</h2>
+                    <p>
+                        Configure slits and detectors, then watch the Second and Third Postulates
+                        prune the powerset of candidate agreeing superpositions in real time.
+                        Runs entirely in your browser.
+                    </p>
+                    <div class="card-actions">
+                        <a href="demo.html" class="btn-primary">▶ Launch Demo</a>
+                        <a href="demo.html" download class="btn-secondary">↓ Download HTML</a>
+                    </div>
+                </div>
+
+                <!-- Python Algorithm -->
+                <div class="card">
+                    <span class="card-tag tag-algorithm">Algorithm</span>
+                    <h2>Python — Bare-Bones Invalidation</h2>
+                    <p>
+                        The core classification algorithm in plain Python with no dependencies.
+                        Computes detector signatures, equivalence classes, and labels each
+                        powerset element as Valid, P2, or P3. Includes worked examples.
+                    </p>
+                    <div class="card-actions">
+                        <a href="aethic_invalidation.py" class="btn-primary">↓ Download .py</a>
+                        <a href="#python-source" class="btn-secondary" onclick="document.getElementById('python-source').style.display='block'; this.style.display='none'; return false;">View Source</a>
+                    </div>
+                    <pre id="python-source" style="display:none; margin-top:1rem; padding:1rem; background:rgba(0,0,0,0.3); border:1px solid rgba(100,116,139,0.15); border-radius:0.4rem; font-family:'SF Mono','Cascadia Code','Consolas',monospace; font-size:0.72rem; color:#94a3b8; overflow-x:auto; line-height:1.55; max-height:500px; overflow-y:auto; white-space:pre;"></pre>
                 </div>
             </div>
 
-            <!-- Python Algorithm -->
-            <div class="card">
-                <span class="card-tag tag-algorithm">Algorithm</span>
-                <h2>Python — Bare-Bones Invalidation</h2>
-                <p>
-                    The core classification algorithm in plain Python with no dependencies.
-                    Computes detector signatures, equivalence classes, and labels each
-                    powerset element as Valid, P2, or P3. Includes worked examples.
-                </p>
-                <div class="card-actions">
-                    <a href="aethic_invalidation.py" class="btn-primary">↓ Download .py</a>
-                    <a href="#python-source" class="btn-secondary" onclick="document.getElementById('python-source').style.display='block'; this.style.display='none'; return false;">View Source</a>
-                </div>
-                <!-- Inline source viewer (hidden by default) -->
-                <pre id="python-source" style="display:none; margin-top:1rem; padding:1rem; background:rgba(0,0,0,0.3); border:1px solid rgba(100,116,139,0.15); border-radius:0.4rem; font-family:'SF Mono','Cascadia Code','Consolas',monospace; font-size:0.72rem; color:#94a3b8; overflow-x:auto; line-height:1.55; max-height:500px; overflow-y:auto; white-space:pre;"></pre>
-            </div>
-        </div>
-
-        <!-- Pseudocode -->
-        <div class="card" style="margin-bottom:2.5rem; border-color:rgba(251,191,36,0.15);">
-            <span class="card-tag" style="color:var(--text-dim);background:rgba(100,116,139,0.08);border:1px solid rgba(100,116,139,0.15);">Pseudocode</span>
-            <h2>The Core Algorithm</h2>
-            <p>The entire invalidation logic, reduced to its essentials:</p>
-            <pre style="padding:1rem; background:rgba(0,0,0,0.3); border:1px solid rgba(100,116,139,0.12); border-radius:0.4rem; font-family:'SF Mono','Cascadia Code','Consolas',monospace; font-size:0.78rem; color:#c4b5fd; line-height:1.7; overflow-x:auto; white-space:pre;">Given n slits and a set of detectors (each fires for some subset of slits):
+            <!-- Pseudocode -->
+            <div class="card" style="margin-bottom:2.5rem; border-color:rgba(251,191,36,0.15);">
+                <span class="card-tag" style="color:var(--text-dim);background:rgba(100,116,139,0.08);border:1px solid rgba(100,116,139,0.15);">Pseudocode</span>
+                <h2>The Core Algorithm</h2>
+                <p>The entire invalidation logic, reduced to its essentials:</p>
+                <pre style="padding:1rem; background:rgba(0,0,0,0.3); border:1px solid rgba(100,116,139,0.12); border-radius:0.4rem; font-family:'SF Mono','Cascadia Code','Consolas',monospace; font-size:0.78rem; color:#c4b5fd; line-height:1.7; overflow-x:auto; white-space:pre;">Given n slits and a set of detectors (each fires for some subset of slits):
 
 1. For each slit, compute its detector signature:
      sig(s) = which detectors fire when only s is open
@@ -250,35 +337,113 @@ layout: default
      if S = one full class      → VALID  (no contradiction reachable)
      if S ⊂ one class (proper)  → P2: specificity no observer can access
      if S spans multiple classes → P3: future observer could find contradiction</pre>
+            </div>
+
+            <!-- Note on scope -->
+            <div style="margin-bottom:2rem; padding:1rem 1.25rem; border:1px solid rgba(100,116,139,0.12); border-radius:0.5rem; background:rgba(100,116,139,0.03);">
+                <p style="font-size:0.75rem; color:var(--text-dim); line-height:1.7;">
+                    <strong style="color:var(--text-muted);">A note on scope and attribution.</strong>
+                    The Aethic postulates are intended as fully general, inductive principles
+                    governing the logical structure of reality. The code here does not implement
+                    the postulates themselves — rather, it is an AI-generated algorithm
+                    (produced by Claude Opus 4.6) for a more narrow special case: OR-type detector
+                    configurations in multi-slit setups. This special case was devised by
+                    Ajax Benander as a pedagogical tool in
+                    <a href="https://philpapers.org/archive/BENARA-5.pdf#:~:text=A%20Prelude%20to%20Active%20Reasoning" style="color:var(--text-muted);border-bottom:1px solid rgba(100,116,139,0.3);"><em>A Prelude to Active Reasoning</em></a>
+                    (§10 of the main paper),
+                    serving as an accessible interface to the full integral. The underlying
+                    physics of partial which-path information affecting interference is
+                    well-established in quantum mechanics; what is original to Benander is
+                    the Aethic formulation — framing the problem as powerset pruning over
+                    equivalence classes derived from detector signatures, classified by the
+                    Second and Third Postulates. In particular, the Third Postulate carries
+                    a two-generational ontological structure (the "checkmate" condition)
+                    that this simplified algorithm streamlines into a direct check: whether
+                    a slit is traversed outside a detector's reading while another is inside.
+                    This criterion is what the AI was asked to implement. These demonstrations
+                    are a stress-test for the postulates against a tractable case, not a
+                    logically equivalent reduction of them.
+                </p>
+            </div>
         </div>
 
-        <!-- Note on scope -->
-        <div style="margin-bottom:2rem; padding:1rem 1.25rem; border:1px solid rgba(100,116,139,0.12); border-radius:0.5rem; background:rgba(100,116,139,0.03);">
-            <p style="font-size:0.75rem; color:var(--text-dim); line-height:1.7;">
-                <strong style="color:var(--text-muted);">A note on scope and attribution.</strong>
-                The Aethic postulates are intended as fully general, inductive principles
-                governing the logical structure of reality. The code here does not implement
-                the postulates themselves — rather, it is an AI-generated algorithm
-                (produced by Claude Opus 4.6) for a more narrow special case: OR-type detector
-                configurations in multi-slit setups. This special case was devised by
-                Ajax Benander as a pedagogical tool in
-                <a href="https://philpapers.org/archive/BENARA-5.pdf#:~:text=A%20Prelude%20to%20Active%20Reasoning" style="color:var(--text-muted);border-bottom:1px solid rgba(100,116,139,0.3);"><em>A Prelude to Active Reasoning</em></a>
-                (§10 of the main paper),
-                serving as an accessible interface to the full integral. The underlying
-                physics of partial which-path information affecting interference is
-                well-established in quantum mechanics; what is original to Benander is
-                the Aethic formulation — framing the problem as powerset pruning over
-                equivalence classes derived from detector signatures, classified by the
-                Second and Third Postulates. In particular, the Third Postulate carries
-                a two-generational ontological structure (the "checkmate" condition)
-                that this simplified algorithm streamlines into a direct check: whether
-                a slit is traversed outside a detector's reading while another is inside.
-                This criterion is what the AI was asked to implement. These demonstrations
-                are a stress-test for the postulates against a tractable case, not a
-                logically equivalent reduction of them.
-            </p>
+        <!-- ═══════════════════════════════════════ -->
+        <!-- MEDIA TAB -->
+        <!-- ═══════════════════════════════════════ -->
+        <div id="tab-media" class="tab-section">
+            <div class="cards">
+
+                <!-- Slide Deck -->
+                <div class="card">
+                    <span class="card-tag tag-presentation">Presentation</span>
+                    <h2>Aethic Reasoning Slide Deck 1</h2>
+                    <p>
+                        A slide deck intended for a future video on Aethic reasoning. Covers the basics in an intended 15 minutes of runtime. 
+                    </p>
+                    <div class="card-actions">
+                        <a href="files/Aethic_YouTube_Presentation.pptx.pdf" class="btn-primary">↓ Download PDF</a>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <span class="card-tag tag-presentation">Presentation</span>
+                    <h2>Aethic Reasoning Slide Deck 2</h2>
+                    <p>
+                        The slide deck from Ajax's presentation at the RIT Math Club on April 26, 2025. Covers the extrusion principle, Aethic structure, the soccer field thought experiment, and the double-slit derivation.
+                    </p>
+                    <div class="card-actions">
+                        <a href="files/Aethic_Reasoning_Slides_PiRIT.pptx.pdf" class="btn-primary">↓ Download PDF</a>
+                    </div>
+                </div>
+
+                <!-- YouTube: Measurement Problem -->
+                <div class="card">
+                    <span class="card-tag tag-video">Video</span>
+                    <h2>Did I Just Solve the Measurement Problem?</h2>
+                    <p>
+                        Ajax's first public presentation of Aethic Reasoning, covering the three postulates and the double-slit derivation. October 19, 2023.
+                    </p>
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/_XDr8mNfGRk" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                    <div class="card-actions">
+                        <a href="https://www.youtube.com/@BrunchWithNewton" class="btn-secondary">Visit YouTube Channel</a>
+                    </div>
+                </div>
+
+                <!-- YouTube: Fermi Paradox -->
+                <div class="card">
+                    <span class="card-tag tag-video">Video</span>
+                    <h2>Does the Aethus Solve the Fermi Paradox?</h2>
+                    <p>
+                        The companion video introducing Acespective Reasoning: anthropic
+                        parameters, the Accordance Principle, and the Rare Earth derivation.
+                        October 19, 2023.
+                    </p>
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/pX_1WrcWi04" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                </div>
+
+                <!-- YouTube: Here's How You Solve -->
+                <div class="card">
+                    <span class="card-tag tag-video">Video</span>
+                    <h2>Here's How You Solve Quantum Physics</h2>
+                    <p>
+                        A more detailed walkthrough of the full Aethic framework.
+                        November 12, 2023.
+                    </p>
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/rxsPpyi7QHY" allowfullscreen loading="lazy"></iframe>
+                    </div>
+                </div>
+
+            </div>
         </div>
 
+        <!-- ═══════════════════════════════════════ -->
+        <!-- FOOTER (shared) -->
+        <!-- ═══════════════════════════════════════ -->
         <div class="footer-links">
             <a href="https://github.com/brunchwnewton/aethic-code">
                 <span class="arrow">→</span> Browse all source files on GitHub
@@ -296,13 +461,34 @@ layout: default
     </div>
 
     <script>
+        function switchTab(tab) {
+            // Hide all sections
+            document.querySelectorAll('.tab-section').forEach(function(el) {
+                el.classList.remove('active');
+            });
+            // Deactivate all buttons
+            document.querySelectorAll('.tab-nav button').forEach(function(btn) {
+                btn.classList.remove('active');
+            });
+            // Activate selected
+            document.getElementById('tab-' + tab).classList.add('active');
+            // Find and activate the clicked button
+            var buttons = document.querySelectorAll('.tab-nav button');
+            buttons.forEach(function(btn) {
+                if ((tab === 'code' && btn.textContent.indexOf('Code') !== -1) ||
+                    (tab === 'media' && btn.textContent.indexOf('Presentations') !== -1)) {
+                    btn.classList.add('active');
+                }
+            });
+        }
+
         // Fetch and display the Python source inline when requested
         fetch('aethic_invalidation.py')
-            .then(r => r.text())
-            .then(text => {
+            .then(function(r) { return r.text(); })
+            .then(function(text) {
                 document.getElementById('python-source').textContent = text;
             })
-            .catch(() => {
+            .catch(function() {
                 document.getElementById('python-source').textContent = '(Could not load file — download it instead.)';
             });
     </script>
