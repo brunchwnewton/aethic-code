@@ -379,7 +379,7 @@ layout: default
 <body>
     <div class="container">
         <div style="margin-bottom:1rem;">
-            <a href="./" style="color:#64748b;text-decoration:none;font-size:0.8rem;display:inline-flex;align-items:center;gap:0.3rem;transition:color 0.2s;" onmouseover="this.style.color='#c4b5fd'" onmouseout="this.style.color='#64748b'">← Back to Code &amp; Demos</a>
+            <a href="./#code" style="color:#64748b;text-decoration:none;font-size:0.8rem;display:inline-flex;align-items:center;gap:0.3rem;transition:color 0.2s;" onmouseover="this.style.color='#c4b5fd'" onmouseout="this.style.color='#64748b'">← Back to Code &amp; Demos</a>
         </div>
         <header>
             <h1>Aethic Powerset Invalidation</h1>
@@ -456,6 +456,20 @@ layout: default
         let nSlits = 3;
         let detectors = []; // each: Set of slit indices
 
+        function saveSlitsToHash() {
+            history.replaceState(null, null, '#slits=' + nSlits);
+        }
+        
+        function loadSlitsFromHash() {
+            var hash = window.location.hash.replace('#', '');
+            if (hash.indexOf('slits=') === 0) {
+                var n = parseInt(hash.split('=')[1], 10);
+                if (!isNaN(n)) {
+                    nSlits = Math.max(2, Math.min(6, n));
+                }
+            }
+        }
+
         // ── Initialization ──
 
         function init() {
@@ -476,7 +490,7 @@ layout: default
                 const btn = document.createElement('button');
                 btn.textContent = n;
                 if (n === nSlits) btn.classList.add('active');
-                btn.addEventListener('click', () => { nSlits = n; init(); });
+                btn.addEventListener('click', () => { nSlits = n; saveSlitsToHash(); init(); });
                 el.appendChild(btn);
             }
         }
@@ -692,6 +706,7 @@ layout: default
 
         document.getElementById('reset-btn').addEventListener('click', init);
 
+        loadSlitsFromHash();
         init();
     })();
     </script>
