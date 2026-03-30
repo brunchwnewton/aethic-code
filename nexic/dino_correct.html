@@ -352,7 +352,7 @@
 
   <div class="callout hidden" id="callout">
     <strong>The Anatomy Paradigm:</strong> A <em>Dakotaraptor</em> overpowers a big cat
-    the same way a big cat overpowers a naked human.<br>
+    the same way a big cat overpowers an unarmed human.<br>
     The fight is measured in <em>seconds</em>.
   </div>
 
@@ -382,7 +382,7 @@
     </p>
     <p>
       The <em>anatomy correction</em> rescales dinosaurs by ~12.7&times; so that a
-      Dakotaraptor overpowers a big cat the way a big cat overpowers a naked human.
+      Dakotaraptor overpowers a big cat the way a big cat overpowers an unarmed human.
       Mesozoic non-dinosaurs get &radic; correction (~3.6&times;). All scores are normalized
       where Big Cat ≡ 100.
     </p>
@@ -392,7 +392,53 @@
          target="_blank" rel="noopener"
          style="color:#71717a;text-decoration:underline;text-underline-offset:2px">
         Carnivora.net Interspecific Conflict Directory</a>.
-      Power ratings fitted via Bradley-Terry model. Anatomy correction is the author's hypothesis.
+      Power ratings fitted via Bradley-Terry model.
+    </p>
+    <p style="margin-top:8px;font-size:11px;color:#52525b;line-height:1.7">
+      <strong style="color:#71717a">On the calibration:</strong>
+      The anatomy correction is my hypothesis, constrained so that
+      Dakotaraptor/Big&nbsp;Cat = Big&nbsp;Cat/unarmed&nbsp;Human — that is, equal
+      log-spacing, or equivalently, the same multiplicative ratio. This is not an arbitrary
+      choice: it is the point at which the anatomical difference is already most viscerally
+      intuitive to us. Everyone understands that a big cat takes down an unarmed human in seconds —
+      not because the cat is heavier, but because its claws, jaws, and reflexes are
+      purpose-built weapons against which bare skin and flat teeth are simply not viable.
+      The thesis is that a Dakotaraptor's sickle claws, massive jaw length,
+      height — it is looking down at the tiger from above — and startling agility
+      despite its size do the same to a big cat: the fight is over before it begins, for
+      exactly the same anatomical reasons, scaled up one rung.
+    </p>
+    <p style="margin-top:8px;font-size:11px;color:#52525b;line-height:1.7">
+      <strong style="color:#71717a">The broader claim:</strong>
+      The Mesozoic was an unrecognizable planet. Once theropod dinosaurs evolved, they
+      contaminated the environment in a way that is difficult to overstate — body plans
+      refined over 160 million years into killing machines of a kind the Cenozoic simply
+      never reproduced. Think of it less as "dinosaurs were big" and more like an alien
+      invasion that already happened: the land was overrun, and by any measure of
+      evolutionary fitness, mammals had no answer. Our ancestors survived the Dark Era
+      (the formal term from my framework) not by competing with theropods but by hiding
+      from them — nocturnal, burrowing, small. The entire mammalian cognitive
+      architecture, from the limbic system to the structure of our senses, was forged
+      under that predation pressure.
+    </p>
+    <p style="margin-top:6px;font-size:11px;color:#52525b;line-height:1.7">
+      And then, somehow, it ended. The Chicxulub impactor struck at precisely the angle,
+      velocity, and location needed to terminate the theropod regime while preserving the
+      mammalian lineages that would eventually produce us. Assemble the hundred most
+      brilliant strategists in human history, grant them any technology, and ask them to
+      solve this problem — they would almost certainly fail. The variables are too
+      numerous, the margins too fine. That the specific impact configuration managed to
+      end this runaway system of anatomical escalation is, in my framework, capital-M
+      Miraculous: not a coincidence, but the kind of event whose staggering improbability
+      is constitutive of, rather than incidental to, our existence as observers.
+    </p>
+    <p style="margin-top:8px;font-size:11px;color:#52525b">
+      For the formal framework:
+      <a href="https://philarchive.org/archive/BENNRD"
+         target="_blank" rel="noopener"
+         style="color:#71717a;text-decoration:underline;text-underline-offset:2px"
+         >Nexic Reasoning: Defining a Generalized Calculus Over Anthropic Parameters</a>
+      (Benander, 2024).
     </p>
   </div>
 </div>
@@ -436,7 +482,7 @@ const DATA = [
   {n:"Dire Wolf",c:14.1,r:14.1,t:"n"},
   {n:"Velociraptor mongoliensis",c:1.05,r:13.32,t:"d"},
   {n:"Grey Wolf",c:6.65,r:6.65,t:"n"},
-  {n:"Human (naked)",c:3.64,r:3.64,t:"n"},
+  {n:"Human (unarmed)",c:3.64,r:3.64,t:"n"},
   {n:"Pteranodon longiceps",c:0.92,r:3.28,t:"m"},
   {n:"Coyote",c:0.72,r:0.72,t:"n"},
   {n:"Bobcat",c:0.78,r:0.78,t:"n"},
@@ -461,7 +507,7 @@ DATA.forEach(d => {
   const parts = d.n.split(' ');
   // If first word is capitalized genus and second is lowercase species epithet, shorten
   if (parts.length >= 2 && /^[A-Z]/.test(parts[0]) && /^[a-z]/.test(parts[1])
-      && !['(Killer','(naked)'].includes(parts[1])) {
+      && !['(Killer','(unarmed)'].includes(parts[1])) {
     SHORT[d.n] = parts[0]; // genus only
   } else {
     SHORT[d.n] = d.n;
@@ -474,7 +520,7 @@ SHORT['African Bush Elephant'] = 'Elephant';
 SHORT['Great White Shark'] = 'Great White';
 SHORT['Saltwater Crocodile'] = 'Saltwater Croc';
 SHORT['BIG CAT ≡ 100'] = 'BIG CAT ≡ 100';
-SHORT['Human (naked)'] = 'Human';
+SHORT['Human (unarmed)'] = 'Human';
 SHORT['Siberian Tiger'] = 'Siberian Tiger';
 SHORT['African Lion'] = 'African Lion';
 SHORT['Grizzly Bear'] = 'Grizzly Bear';
