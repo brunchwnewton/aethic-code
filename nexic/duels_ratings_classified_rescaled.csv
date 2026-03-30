@@ -1,0 +1,2077 @@
+rank,animal,crowd_score,normalized,rescaled,category
+1,Futalognkosaurus dukei,14810.461832,144926.7555,1845573.9141,dinosaur
+2,Allosaurus fragilis (pack of 2/3),14236.424119,139309.5489,1774041.4365,dinosaur
+3,Phuwiangosaurus sirindhornae,10666.112778,104372.5129,1329134.7516,dinosaur
+4,Utahraptor ostrommaysorum (pack of 10),8282.402731,81046.8822,1032093.8401,dinosaur
+5,Allosaurus fragilis (pack of 4),7796.293578,76290.0945,971518.3914,dinosaur
+6,Allosaurus fragilis (pack of 5),7190.433048,70361.4880,896020.3817,dinosaur
+7,Eotriceratops xerinsularis,4487.493804,43912.0619,559199.4091,dinosaur
+8,Albertosaurus sarcophagus (pack of 4/5),2538.962634,24844.8442,316387.3794,dinosaur
+9,Shantungosaurus giganteus,2285.208849,22361.7540,284766.3961,dinosaur
+10,Apatosaurus ajax,2094.041631,20491.1003,260944.5035,dinosaur
+11,Ankylosaurus magniventris,1747.297115,17098.0557,217735.6798,dinosaur
+12,Tyrannosaurus rex,1662.535702,16268.6288,207173.3183,dinosaur
+13,Dacentrurus armatus,1638.825069,16036.6100,204218.6686,dinosaur
+14,Astrodon johnstoni,1339.156476,13104.2236,166876.1101,dinosaur
+15,Giganotosaurus carolinii,1317.562295,12892.9152,164185.1976,dinosaur
+16,Triceratops horridus,1276.744915,12493.4995,159098.8274,dinosaur
+17,Tyrannotitan chubutensis,1255.021995,12280.9314,156391.8723,dinosaur
+18,Mapusaurus roseae (pack of 2),1110.618107,10867.8771,138397.2917,dinosaur
+19,Zhuchengtyrannus magnus,1093.186903,10697.3052,136225.1397,dinosaur
+20,Pliosaurus spp. (a large one!),3460.202757,33859.5761,120829.4929,mesozoic-other
+21,Maip macrothorax,969.353779,9485.5447,120793.9407,dinosaur
+22,Orca Pod (of 8-10),11096.400405,108583.0629,108583.0629,non-mesozoic
+23,Diplodocus carnegii,854.137496,8358.1037,106436.5109,dinosaur
+24,Megacephalosaurus eulerti,2464.721386,24118.3616,86067.5100,mesozoic-other
+25,Mapusaurus roseae,685.415619,6707.0874,85411.5963,dinosaur
+26,Acrocanthosaurus atokensis,683.643150,6689.7430,85190.7239,dinosaur
+27,Torvosaurus tanneri,628.396285,6149.1286,78306.2544,dinosaur
+28,Titanoceratops ouranos,627.772240,6143.0221,78228.4903,dinosaur
+29,Carcharodontosaurus saharicus,625.714057,6122.8819,77972.0143,dinosaur
+30,Albertosaurus sarcophagus,618.610422,6053.3697,77086.8100,dinosaur
+31,Shonisaurus popularis,2089.651081,20448.1369,72970.1403,mesozoic-other
+32,Brygmophyseter shigensis (pod of 5),7092.774448,69405.8565,69405.8565,non-mesozoic
+33,Lambeosaurus spp.,534.195069,5227.3291,66567.5720,dinosaur
+34,Allosaurus fragilis (pack of 2),532.321926,5208.9996,66334.1543,dinosaur
+35,Brontosaurus excelsus,519.382537,5082.3821,64721.7401,dinosaur
+36,Euoplocephalus tutus,481.051576,4707.2971,59945.2097,dinosaur
+37,Pycnonemosaurus nevesi (pack of 3),477.721397,4674.7099,59530.2266,dinosaur
+38,Livyatan melvillei,5933.423721,58061.1097,58061.1097,non-mesozoic
+39,Deinosuchus riograndensis (float of 3),1605.443658,15709.9585,56061.7272,mesozoic-other
+40,Spinosaurus aegyptiacus,448.718420,4390.9032,55916.0828,dinosaur
+41,Carcharodontosaurus iguidensis,446.979837,4373.8904,55699.4331,dinosaur
+42,Prognathodon saturator,1568.118132,15344.7121,54758.3284,mesozoic-other
+43,Orca Pod (of 5),5549.494109,54304.1929,54304.1929,non-mesozoic
+44,Thalattoarchon saurophagis,1521.747880,14890.9592,53139.0897,mesozoic-other
+45,Suchomimus tenerensis (2),425.160466,4160.3785,52980.4590,dinosaur
+46,Deinosuchus riograndensis,1500.641191,14684.4212,52402.0489,mesozoic-other
+47,Carcharocles megalodon,5010.293982,49027.8871,49027.8871,non-mesozoic
+48,Pliosaurus funkei,1403.049282,13729.4422,48994.1617,mesozoic-other
+49,Rugops primus (pack of 4),392.631544,3842.0690,48926.9372,dinosaur
+50,Stegosaurus stenops,391.727157,3833.2191,48814.2389,dinosaur
+51,Deinocheirus mirificus,367.167504,3592.8924,45753.7905,dinosaur
+52,Shunosaurus jiangyiensis,354.228611,3466.2797,44141.4381,dinosaur
+53,Torosaurus latus,346.975689,3395.3067,43237.6308,dinosaur
+54,Kronosaurus queenslandicus,1216.027987,11899.3582,42463.4206,mesozoic-other
+55,Daspletosaurus torosus,314.484479,3077.3662,39188.8084,dinosaur
+56,Siats meekerorum,299.516002,2930.8932,37323.5438,dinosaur
+57,Yutyrannus huali,293.865078,2875.5965,36619.3660,dinosaur
+58,Sigilmassasaurus brevicollis,285.440936,2793.1626,35569.6096,dinosaur
+59,Orca Pod (of 4),3451.843646,33777.7786,33777.7786,non-mesozoic
+60,Styracosaurus albertensis,267.807349,2620.6104,33372.2380,dinosaur
+61,Mosasaurus hoffmannii,945.592306,9253.0285,33019.8682,mesozoic-other
+62,Purussaurus brasiliensis (float of 5),3347.370773,32755.4664,32755.4664,non-mesozoic
+63,Sperm Whale (Bull),3341.130814,32694.4058,32694.4058,non-mesozoic
+64,Tarbosaurus bataar,261.694416,2560.7927,32610.4880,dinosaur
+65,Eocarcharia dinops,260.779987,2551.8446,32496.5384,dinosaur
+66,Borson's Mastodon,3269.715853,31995.5796,31995.5796,non-mesozoic
+67,Tylosaurus proriger,909.503778,8899.8867,31759.6650,mesozoic-other
+68,Orca Pod (of 3),3240.963564,31714.2260,31714.2260,non-mesozoic
+69,Spinosaurus aegypticus,246.033898,2407.5478,30658.9861,dinosaur
+70,Blue Whale,3091.875868,30255.3386,30255.3386,non-mesozoic
+71,Saurophaganax maximus,239.343328,2342.0777,29825.2551,dinosaur
+72,Asian Straight-tusked Elephant,3034.572855,29694.6039,29694.6039,non-mesozoic
+73,Ceratosaurus nasicornis (pack of 2/3),215.035229,2104.2124,26796.1535,dinosaur
+74,Yangchuanosaurus shangyouensis,211.261470,2067.2846,26325.8947,dinosaur
+75,Australovenator wintonensis,202.275418,1979.3522,25206.1171,dinosaur
+76,Allosaurus fragilis,190.426963,1863.4099,23729.6473,dinosaur
+77,Irritator challengeri,180.359431,1764.8948,22475.1034,dinosaur
+78,Shastasaurus sikkanniensis,602.166047,5892.4544,21027.5013,mesozoic-other
+79,Paraceratherium spp.,2148.846035,21027.3851,21027.3851,non-mesozoic
+80,Sachicasaurus vitae,597.776148,5849.4974,20874.2071,mesozoic-other
+81,Straight-tusked Elephant,2124.439722,20788.5588,20788.5588,non-mesozoic
+82,Gastonia burgei,152.348997,1490.8006,18984.6433,dinosaur
+83,Therizinosaurus cheloniformis,151.199269,1479.5500,18841.3724,dinosaur
+84,Himalayasaurus tibetensis,530.377137,5189.9690,18520.6489,mesozoic-other
+85,Nanshiungosaurus brevispinus,147.743239,1445.7313,18410.7066,dinosaur
+86,Brygmophyseter shigensis (pod of 4),1753.707424,17160.7834,17160.7834,non-mesozoic
+87,Pentaceratops sternbergii,132.169773,1293.3382,16470.0526,dinosaur
+88,Suchomimus tenerensis,131.761499,1289.3431,16419.1764,dinosaur
+89,Saltriovenator zanellai,126.571534,1238.5570,15772.4401,dinosaur
+90,Orca Pod (of 2),1578.757559,15448.8235,15448.8235,non-mesozoic
+91,Bowhead Whale,1552.252467,15189.4597,15189.4597,non-mesozoic
+92,African Bush Elephant Cows (herd of 4),1504.141260,14718.6708,14718.6708,non-mesozoic
+93,Skorpiovenator bustingorryi,117.099910,1145.8731,14592.1540,dinosaur
+94,Amargasaurus cazaui,116.543975,1140.4331,14522.8773,dinosaur
+95,Stegosaurus ungulatus,114.709323,1122.4802,14294.2561,dinosaur
+96,Deinonychus antirrhopus (pack of 5/6),111.719548,1093.2240,13921.6917,dinosaur
+97,Nasutoceratops titusi,107.370651,1050.6681,13379.7632,dinosaur
+98,Temnodontosaurus platyodon,380.028984,3718.7475,13270.5256,mesozoic-other
+99,Parasaurolophus spp.,106.325274,1040.4387,13249.4958,dinosaur
+100,Sperm Whale,1321.143192,12927.9558,12927.9558,non-mesozoic
+101,Fasolasuchus tenax,360.868946,3531.2582,12601.4615,mesozoic-other
+102,American Lion (pride of 20),1253.230518,12263.4010,12263.4010,non-mesozoic
+103,Cymbospondylus youngorum,348.196255,3407.2505,12158.9340,mesozoic-other
+104,Humpback Whale,1221.368190,11951.6144,11951.6144,non-mesozoic
+105,Oxalaia quilombensis,95.696010,936.4267,11924.9529,dinosaur
+106,Rhoetosaurus brownei,88.401702,865.0488,11015.9884,dinosaur
+107,Orca (Ross Sea - Type C),1125.517328,11013.6724,11013.6724,non-mesozoic
+108,Carcharocles chubutensis,1099.904653,10763.0413,10763.0413,non-mesozoic
+109,Majungasaurus crenatissimus,85.307274,834.7685,10630.3829,dinosaur
+110,Afrovenator abakensis,81.774132,800.1951,10190.1080,dinosaur
+111,Bryde's Whale,1029.112140,10070.3061,10070.3061,non-mesozoic
+112,North Pacific Right Whale,1022.135662,10002.0382,10002.0382,non-mesozoic
+113,Carcharocles angustidens,1007.059777,9854.5142,9854.5142,non-mesozoic
+114,Steppe Mammoth,985.134078,9639.9618,9639.9618,non-mesozoic
+115,Deinonychus antirrhopus (pack of 4),76.825118,751.7669,9573.3972,dinosaur
+116,Prognathodon spp.,267.275857,2615.4095,9333.2121,mesozoic-other
+117,Southern Mammoth,953.219736,9327.6662,9327.6662,non-mesozoic
+118,Liopleurodon ferox,260.147041,2545.6510,9084.2755,mesozoic-other
+119,Rajasaurus narmadensis,72.019800,704.7448,8974.5928,dinosaur
+120,Nanuqsaurus hoglundi,69.037309,675.5598,8602.9361,dinosaur
+121,Gorgosaurus libratus (pack of 2 -3),67.745565,662.9196,8441.9682,dinosaur
+122,Sinraptor dongi,66.021584,646.0497,8227.1380,dinosaur
+123,Edmontosaurus Annectens,64.746394,633.5714,8068.2329,dinosaur
+124,Globidens alabamaensis,221.848582,2170.8840,7746.9020,mesozoic-other
+125,Purussaurus brasiliensis,775.222988,7585.8912,7585.8912,non-mesozoic
+126,Gorgosaurus libratus,60.004142,587.1664,7477.2874,dinosaur
+127,Utahraptor ostrommaysorum (pack of 2),58.900475,576.3665,7339.7563,dinosaur
+128,Ceratosaurus nasicornis,58.730339,574.7017,7318.5551,dinosaur
+129,Kentrosaurus aethiopicus,58.404264,571.5109,7277.9220,dinosaur
+130,American Lion (Coalition of 3),736.995901,7211.8227,7211.8227,non-mesozoic
+131,Iguanodon bernissartensis,56.990961,557.6811,7101.8063,dinosaur
+132,Metriacanthosaurus parkeri,56.453968,552.4264,7034.8901,dinosaur
+133,Cretoxyrhina mantelli,201.174217,1968.5765,7024.9579,mesozoic-other
+134,Alectrosaurus olseni,55.591915,543.9909,6927.4672,dinosaur
+135,Carnotaurus sastrei,52.586971,514.5862,6553.0125,dinosaur
+136,Siamotyrannus isanensis,50.299317,492.2005,6267.9414,dinosaur
+137,Deinosuchus rugosus,177.235392,1734.3247,6189.0196,mesozoic-other
+138,Gargoyleosaurus parkpinorum,49.201567,481.4585,6131.1477,dinosaur
+139,Edmontosaurus annectens,48.385734,473.4753,6029.4844,dinosaur
+140,Thanos simonattoi,48.026741,469.9624,5984.7493,dinosaur
+141,Megaraptor namunhuaiquii,46.771631,457.6806,5828.3464,dinosaur
+142,Perucetus colossus,590.526256,5778.5541,5778.5541,non-mesozoic
+143,Tenontosaurus tilletti,45.512075,445.3553,5671.3895,dinosaur
+144,Sarcosuchus imperator,159.395219,1559.7510,5566.0448,mesozoic-other
+145,Asiatic Lion (pride of 4/5),561.708935,5496.5641,5496.5641,non-mesozoic
+146,Cryolophosaurus ellioti,43.915457,429.7317,5472.4304,dinosaur
+147,Shaochilong maortuensis,43.619280,426.8335,5435.5230,dinosaur
+148,Otodus obliquus,551.445245,5396.1295,5396.1295,non-mesozoic
+149,Aletopelta coombsi,42.642209,417.2724,5313.7674,dinosaur
+150,Utahceratops gettyi,42.282693,413.7544,5268.9670,dinosaur
+151,Teratophoneus curriei,38.511180,376.8485,4798.9880,dinosaur
+152,Arabian Elephant,484.435443,4740.4097,4740.4097,non-mesozoic
+153,American Lion (Coalition of 3 - 5),484.135100,4737.4707,4737.4707,non-mesozoic
+154,Gigantoraptor erlianensis,36.313412,355.3424,4525.1179,dinosaur
+155,Hesperosaurus mjosi,36.124959,353.4983,4501.6342,dinosaur
+156,Teratosaurus spp.,34.130276,333.9795,4253.0711,dinosaur
+157,Columbian Mammoth,428.988972,4197.8421,4197.8421,non-mesozoic
+158,Utahraptor ostrommaysorum,33.437496,327.2003,4166.7418,dinosaur
+159,Rhamphosuchus crassidens,420.287246,4112.6919,4112.6919,non-mesozoic
+160,Baryonyx walkeri,31.783037,311.0107,3960.5749,dinosaur
+161,Paraceratherium bugtiense,396.570264,3880.6110,3880.6110,non-mesozoic
+162,Basilosaurus cetoides,391.067942,3826.7684,3826.7684,non-mesozoic
+163,Rhomaleosaurus spp.,108.707221,1063.7470,3796.0314,mesozoic-other
+164,"Neanderthal (armed with spears, troop of 10)",379.613497,3714.6818,3714.6818,non-mesozoic
+165,Ekrixinatosaurus novasi,28.126960,275.2344,3504.9808,dinosaur
+166,Sperm Whale (Cow),350.431353,3429.1219,3429.1219,non-mesozoic
+167,Anancus arvernensis,348.283971,3408.1088,3408.1088,non-mesozoic
+168,Herrerasaurus ischigualastensis,27.288074,267.0256,3400.4448,dinosaur
+169,Deinotherium thraceiensis,338.835485,3315.6513,3315.6513,non-mesozoic
+170,Leedsichthys problematicus,94.662351,926.3119,3305.5878,mesozoic-other
+171,Smilosuchus gregorii,87.341607,854.6753,3049.9490,mesozoic-other
+172,Orca (Killer Whale),303.537950,2970.2497,2970.2497,non-mesozoic
+173,African (Cape) Buffalo (herd of 10),302.835251,2963.3735,2963.3735,non-mesozoic
+174,Saurosuchus galilei,84.784662,829.6545,2960.6611,mesozoic-other
+175,Tylosaurus nepaeolicus,84.282825,824.7438,2943.1371,mesozoic-other
+176,American Mastodon,296.005930,2896.5457,2896.5457,non-mesozoic
+177,Lion Coalition of 5 Lions,289.439641,2832.2917,2832.2917,non-mesozoic
+178,Erythrosuchus africanus,80.730341,789.9812,2819.0851,mesozoic-other
+179,Rugops primus,21.780835,213.1349,2714.1720,dinosaur
+180,Vorombe titan,275.966921,2700.4553,2700.4553,non-mesozoic
+181,Dakotaraptor steini,21.535492,210.7341,2683.5991,dinosaur
+182,Elasmotherium sibiricum,269.536258,2637.5285,2637.5285,non-mesozoic
+183,Asiatic Lioness (pride of 3),262.374912,2567.4517,2567.4517,non-mesozoic
+184,Alioramus remotus,20.263024,198.2824,2525.0332,dinosaur
+185,Prestosuchus chiniquensis,70.562014,690.4797,2464.0095,mesozoic-other
+186,Deinonychus antirrhopus (pack of 3/4),19.689276,192.6681,2453.5369,dinosaur
+187,Common Bottlenose Dolphin (pod of 6/7),247.554170,2422.4243,2422.4243,non-mesozoic
+188,Megalosaurus bucklandii,19.270188,188.5671,2401.3131,dinosaur
+189,Smilodon populator (pride of 3),244.442519,2391.9755,2391.9755,non-mesozoic
+190,Barinasuchus arveloi,223.178091,2183.8939,2183.8939,non-mesozoic
+191,African Bush Elephant (cow),220.960587,2162.1946,2162.1946,non-mesozoic
+192,Eurasian Cave Lion (Coalition of 3),216.230234,2115.9061,2115.9061,non-mesozoic
+193,Woolly Rhinoceros,211.028171,2065.0017,2065.0017,non-mesozoic
+194,Crocodylus thorbjarnarsoni,208.348334,2038.7783,2038.7783,non-mesozoic
+195,Woolly Mammoth,208.112028,2036.4659,2036.4659,non-mesozoic
+196,Smilodon fatalis (coalition of 3/4),205.239011,2008.3522,2008.3522,non-mesozoic
+197,African Lion (Coalition of 3/4),198.833667,1945.6732,1945.6732,non-mesozoic
+198,Eurasian Cave Lion (Coalition of 2),184.638680,1806.7691,1806.7691,non-mesozoic
+199,Megatherium americanum,182.258170,1783.4748,1783.4748,non-mesozoic
+200,Brygmophyseter shigensis,178.770994,1749.3513,1749.3513,non-mesozoic
+201,Achillobator giganticus,14.034806,137.3366,1748.9172,dinosaur
+202,Sumatran Elephant,178.195002,1743.7149,1743.7149,non-mesozoic
+203,Arsinoitherium zitteli,175.983390,1722.0734,1722.0734,non-mesozoic
+204,Neovenator salerii,13.790716,134.9481,1718.5005,dinosaur
+205,Dilophosaurus wetherilli,13.774523,134.7896,1716.4826,dinosaur
+206,Deuterosaurus spp.,13.543648,132.5304,1687.7126,dinosaur
+207,Homotherium crenatidens,168.202446,1645.9335,1645.9335,non-mesozoic
+208,Smok wawelski,47.047238,460.3775,1642.8788,mesozoic-other
+209,American Lion (Coalition of 2/3),166.659037,1630.8305,1630.8305,non-mesozoic
+210,Spotted Hyenas (clan of 15),160.556994,1571.1194,1571.1194,non-mesozoic
+211,Tropical Bottlenose Whale (pod of 2),159.644227,1562.1876,1562.1876,non-mesozoic
+212,Asian Elephant,159.643740,1562.1828,1562.1828,non-mesozoic
+213,Smilodon fatalis (coalition of 5),156.288852,1529.3538,1529.3538,non-mesozoic
+214,Megacamelus merriami,155.099610,1517.7166,1517.7166,non-mesozoic
+215,African Forest Elephant,151.916472,1486.5682,1486.5682,non-mesozoic
+216,Marshosaurus bicentesimus,11.395906,111.5139,1420.0764,dinosaur
+217,Velociraptor mongoliensis (pack of 12),10.843575,106.1091,1351.2488,dinosaur
+218,Monolophosaurus jiangi,10.599571,103.7214,1320.8428,dinosaur
+219,African Bush Elephant,134.775086,1318.8323,1318.8323,non-mesozoic
+220,Doedicurus clavicaudatus,134.481667,1315.9611,1315.9611,non-mesozoic
+221,Europasaurus holgeri,10.478044,102.5322,1305.6990,dinosaur
+222,Orkoraptor burkei,10.473429,102.4870,1305.1239,dinosaur
+223,Indian (Greater One-horned) Rhinoceros,132.973113,1301.1993,1301.1993,non-mesozoic
+224,Smilodon fatalis (coalition of 2),132.217499,1293.8052,1293.8052,non-mesozoic
+225,Aucasaurus garridoi,10.062848,98.4693,1253.9602,dinosaur
+226,Parahelicoprion spp.,124.257648,1215.9147,1215.9147,non-mesozoic
+227,Dire Wolf (pack of 10- 12),124.093607,1214.3095,1214.3095,non-mesozoic
+228,White Rhinoceros,123.855923,1211.9836,1211.9836,non-mesozoic
+229,Rhabdodon spp.,9.710336,95.0198,1210.0327,dinosaur
+230,Lioness (pride of 4),117.771828,1152.4481,1152.4481,non-mesozoic
+231,Astrapotherium magnum,117.646701,1151.2237,1151.2237,non-mesozoic
+232,Dunkleosteus terrelli,115.902009,1134.1511,1134.1511,non-mesozoic
+233,Smilodon fatalis (coalition of 4),115.751953,1132.6828,1132.6828,non-mesozoic
+234,Great White Shark,115.640274,1131.5899,1131.5899,non-mesozoic
+235,Stegodon trigonocephalus,112.339963,1099.2950,1099.2950,non-mesozoic
+236,Leptosuchus spp.,31.315390,306.4346,1093.5263,mesozoic-other
+237,Orca Cow (Ross Sea - Type C),110.382963,1080.1449,1080.1449,non-mesozoic
+238,Gojirasaurus quayi,8.650955,84.6533,1078.0202,dinosaur
+239,American Lion (Coalition of 2),109.128469,1067.8691,1067.8691,non-mesozoic
+240,Wapiti Lake Grey Wolf Pack,108.086527,1057.6733,1057.6733,non-mesozoic
+241,African (Cape) Buffaloes (2),100.265081,981.1371,981.1371,non-mesozoic
+242,Platybelodon spp.,100.241913,980.9103,980.9103,non-mesozoic
+243,Hippopotamus (cow),99.943480,977.9900,977.9900,non-mesozoic
+244,Lion (Coalition of 3),96.850106,947.7201,947.7201,non-mesozoic
+245,Archelon ischyros,26.943345,263.6522,940.8555,mesozoic-other
+246,False Killer Whale,95.632107,935.8014,935.8014,non-mesozoic
+247,Pachycephalosaurus wyomingensis,7.497395,73.3652,934.2718,dinosaur
+248,Northwestern Wolf (Pack of 8),95.067533,930.2768,930.2768,non-mesozoic
+249,Moros intrepidus (pack of 2),7.436795,72.7722,926.7202,dinosaur
+250,Lioness (pride of 6),94.227452,922.0562,922.0562,non-mesozoic
+251,Smilodon populator (pride of 2),93.780057,917.6783,917.6783,non-mesozoic
+252,Savuti Pride,92.435294,904.5192,904.5192,non-mesozoic
+253,Zygophyseter varolai,91.649923,896.8340,896.8340,non-mesozoic
+254,Megacerops coloradensis,91.105221,891.5039,891.5039,non-mesozoic
+255,Long-finned Pilot Whale,90.484787,885.4327,885.4327,non-mesozoic
+256,Gallimimus bullatus,6.985130,68.3525,870.4370,dinosaur
+257,Archaic Humans (group of 3 - 5) armed with spear,85.834729,839.9298,839.9298,non-mesozoic
+258,Lion (Coalition of 3/4),84.918826,830.9673,830.9673,non-mesozoic
+259,Hippopotamus gorgops,83.433551,816.4333,816.4333,non-mesozoic
+260,American Lion (Coalition of 4),83.393456,816.0409,816.0409,non-mesozoic
+261,Postosuchus kirkpatricki,23.086910,225.9154,806.1896,mesozoic-other
+262,Epicyon haydeni (pack of 5),81.459183,797.1132,797.1132,non-mesozoic
+263,Helicoprion clerci,80.982920,792.4528,792.4528,non-mesozoic
+264,Lisowicia bojani,77.032130,753.7926,753.7926,non-mesozoic
+265,Palaeoloxodon mnaidriensis,76.016160,743.8509,743.8509,non-mesozoic
+266,Sibotherium ka,75.954481,743.2473,743.2473,non-mesozoic
+267,Northern Elephant Seal,75.405202,737.8724,737.8724,non-mesozoic
+268,Saivodus striatus,74.943290,733.3524,733.3524,non-mesozoic
+269,Pleistocene North American Jaguar,73.955499,723.6864,723.6864,non-mesozoic
+270,Anteosaurus magnificus,73.186012,716.1567,716.1567,non-mesozoic
+271,Asian Elephant (cow),72.850976,712.8782,712.8782,non-mesozoic
+272,Minmi paravertebra,5.333875,52.1943,664.6694,dinosaur
+273,Diprotodon optatum,67.827012,663.7166,663.7166,non-mesozoic
+274,Pacific Walrus,66.020977,646.0437,646.0437,non-mesozoic
+275,Dorudon serratus,66.009420,645.9306,645.9306,non-mesozoic
+276,Carbonemys cofrinii,65.575254,641.6821,641.6821,non-mesozoic
+277,Anzu wyliei,5.071891,49.6306,632.0228,dinosaur
+278,Chilotherium wimani,63.739131,623.7149,623.7149,non-mesozoic
+279,Rhizodus hibberti,63.034594,616.8207,616.8207,non-mesozoic
+280,False Killer Whale (cow),62.961783,616.1082,616.1082,non-mesozoic
+281,Ophthalmosaurus icenicus,17.459682,170.8505,609.6881,mesozoic-other
+282,Mastodonsaurus spp.,17.238391,168.6851,601.9607,mesozoic-other
+283,Black Rhinoceros,60.636246,593.3518,593.3518,non-mesozoic
+284,Arctodus simus,59.754300,584.7216,584.7216,non-mesozoic
+285,Arizonasaurus babbitti,4.687531,45.8695,584.1266,dinosaur
+286,Spotted Hyenas (clan of 6-8),59.385716,581.1148,581.1148,non-mesozoic
+287,Wood Bison (herd of 3),57.317288,560.8744,560.8744,non-mesozoic
+288,Smilodon populator (pride of 4),56.951378,557.2938,557.2938,non-mesozoic
+289,Hippopotamus,56.475575,552.6379,552.6379,non-mesozoic
+290,Steppe Brown Bear,56.471323,552.5962,552.5962,non-mesozoic
+291,Short-finned Pilot Whale,55.821652,546.2389,546.2389,non-mesozoic
+292,Estemmenosuchus uralensis,55.742073,545.4602,545.4602,non-mesozoic
+293,Asiatic Lion (coalition of 2),55.528429,543.3696,543.3696,non-mesozoic
+294,Daeodon shoshonensis,55.491474,543.0080,543.0080,non-mesozoic
+295,Smilodon populator (coalition of 2),55.484602,542.9408,542.9408,non-mesozoic
+296,Saltwater Crocodile,55.476312,542.8596,542.8596,non-mesozoic
+297,African (Cape) Buffaloes (Herd of 4),54.858072,536.8099,536.8099,non-mesozoic
+298,Lion (Coalition of 2/3),54.654025,534.8132,534.8132,non-mesozoic
+299,Lion (Coalition of 4),54.591026,534.1967,534.1967,non-mesozoic
+300,African Lion (Coalition of 2),54.018285,528.5922,528.5922,non-mesozoic
+301,Simbakubwa kutokaafrika,53.932779,527.7555,527.7555,non-mesozoic
+302,African (Cape) Buffalo (herd of 3),52.231517,511.1079,511.1079,non-mesozoic
+303,Arctodus simus (sow),52.016284,509.0018,509.0018,non-mesozoic
+304,Jefferson's Ground Sloth,51.276701,501.7646,501.7646,non-mesozoic
+305,Arctotherium angustidens,51.099911,500.0347,500.0347,non-mesozoic
+306,Lion (Coalition of 2),50.985062,498.9108,498.9108,non-mesozoic
+307,African (Cape) Buffalo (herd of 4),50.593705,495.0812,495.0812,non-mesozoic
+308,Salmon Shark (salmon/river battle),50.320348,492.4063,492.4063,non-mesozoic
+309,Antarctic (Southern) Minke Whale,49.342871,482.8413,482.8413,non-mesozoic
+310,Sillosuchus longicervix,13.813559,135.1716,482.3663,mesozoic-other
+311,Timurlengia euotica,3.865306,37.8237,481.6668,dinosaur
+312,Aurochs,49.030790,479.7874,479.7874,non-mesozoic
+313,Dakosaurus maximus,13.724486,134.3000,479.2559,mesozoic-other
+314,Titanoboa cerrejonensis,48.641611,475.9791,475.9791,non-mesozoic
+315,European Cave Bear,47.157646,461.4579,461.4579,non-mesozoic
+316,Greenland Shark,46.045453,450.5746,450.5746,non-mesozoic
+317,Megalochoerus khinzikebirus,45.247400,442.7653,442.7653,non-mesozoic
+318,Giant (Long-horned) Bison,45.050076,440.8344,440.8344,non-mesozoic
+319,Pelorovis antiquus,44.306297,433.5562,433.5562,non-mesozoic
+320,Dhole (Pack of 12),44.247926,432.9850,432.9850,non-mesozoic
+321,Dholes (Large Pack),43.852793,429.1185,429.1185,non-mesozoic
+322,Agriotherium africanum,43.320211,423.9069,423.9069,non-mesozoic
+323,Bull Shark (in shallow water),43.202698,422.7570,422.7570,non-mesozoic
+324,Machairodus lahayishupup,42.562096,416.4885,416.4885,non-mesozoic
+325,Spotted Hyenas (clan of 4),42.545879,416.3298,416.3298,non-mesozoic
+326,Epicyon haydeni (pack of 4),42.303688,413.9598,413.9598,non-mesozoic
+327,Harlan's Ground Sloth,41.912792,410.1347,410.1347,non-mesozoic
+328,Southern Elephant Seal,41.869136,409.7076,409.7076,non-mesozoic
+329,Spotted Hyenas (clan of 10),41.412699,405.2411,405.2411,non-mesozoic
+330,Elasmosaurus platyurus,11.582678,113.3415,404.4645,mesozoic-other
+331,Rauisuchus tiradentes,11.561276,113.1321,403.7171,mesozoic-other
+332,West African Lion,40.414482,395.4731,395.4731,non-mesozoic
+333,Giant (Short-faced) Hyena (clan of 3),40.181910,393.1973,393.1973,non-mesozoic
+334,Zuniceratops christopheri,3.002206,29.3779,374.1135,dinosaur
+335,Nile Crocodile,38.130171,373.1202,373.1202,non-mesozoic
+336,Polar Bear,37.655298,368.4733,368.4733,non-mesozoic
+337,Atlantic Walrus,36.902839,361.1102,361.1102,non-mesozoic
+338,Lioness (pride of 2),36.616779,358.3110,358.3110,non-mesozoic
+339,Great White Shark (male),36.143897,353.6836,353.6836,non-mesozoic
+340,Lion (coalition of 5),35.990273,352.1803,352.1803,non-mesozoic
+341,Dire Wolf (pack of 5),35.843247,350.7416,350.7416,non-mesozoic
+342,Tiger Shark,35.668912,349.0357,349.0357,non-mesozoic
+343,Andrewsarchus mongoliensis,35.591982,348.2829,348.2829,non-mesozoic
+344,Grey Wolf (pack of 10),35.324715,345.6676,345.6676,non-mesozoic
+345,Pleistocene Polar Bear,35.140727,343.8672,343.8672,non-mesozoic
+346,Metamynodon planifrons,34.885066,341.3654,341.3654,non-mesozoic
+347,Deinonychus antirrhopus,2.738945,26.8018,341.3078,dinosaur
+348,Deinonychus antirrhopus (pack of 2),2.712343,26.5414,337.9928,dinosaur
+349,Megalania prisca,34.420368,336.8181,336.8181,non-mesozoic
+350,Smilodon populator,33.866219,331.3956,331.3956,non-mesozoic
+351,Sarkastodon mongoliensis,33.748240,330.2411,330.2411,non-mesozoic
+352,Batrachotomus kupferzellensis,9.266705,90.6787,323.5912,mesozoic-other
+353,Amphicyon ingens,33.042169,323.3319,323.3319,non-mesozoic
+354,Tapinocephalus atherstonei,32.738217,320.3576,320.3576,non-mesozoic
+355,Hatzegopteryx thambema,9.100397,89.0513,317.7838,mesozoic-other
+356,Spotted Hyenas (clan of 5/6),32.296835,316.0385,316.0385,non-mesozoic
+357,Maraapunisaurus fragillimus,2.530049,24.7576,315.2766,dinosaur
+358,Acrophyseter deinodon,31.848716,311.6534,311.6534,non-mesozoic
+359,Megistotherium osteothlastes,31.324113,306.5200,306.5200,non-mesozoic
+360,Pygmy Mammoth,31.131044,304.6307,304.6307,non-mesozoic
+361,Dire Wolf (pack of 8),30.879623,302.1704,302.1704,non-mesozoic
+362,Inostrancevia alexandri,30.875932,302.1343,302.1343,non-mesozoic
+363,Dromornis stirtoni,30.704278,300.4546,300.4546,non-mesozoic
+364,Arctic Wolf (Pack of 8-10),30.555800,299.0017,299.0017,non-mesozoic
+365,Cymbospondylus buchseri,8.457706,82.7623,295.3412,mesozoic-other
+366,Coastal Brown Bear,29.964944,293.2199,293.2199,non-mesozoic
+367,Florida Black Bear,29.857801,292.1715,292.1715,non-mesozoic
+368,American Bison,29.415312,287.8415,287.8415,non-mesozoic
+369,Xenosmilus hodsonae,29.370917,287.4071,287.4071,non-mesozoic
+370,Whale Shark,29.262544,286.3466,286.3466,non-mesozoic
+371,Proterosuchus spp.,8.041078,78.6854,280.7926,mesozoic-other
+372,Ohmdenosaurus liasicus,2.219956,21.7232,276.6351,dinosaur
+373,Mylodon darwini,28.250766,276.4459,276.4459,non-mesozoic
+374,Machairodus horribilis,28.052821,274.5090,274.5090,non-mesozoic
+375,Plains Bison,27.797665,272.0121,272.0121,non-mesozoic
+376,Tiger,27.745517,271.5018,271.5018,non-mesozoic
+377,Indian Gaur,27.554914,269.6367,269.6367,non-mesozoic
+378,Quetzalcoatlus northropi,7.534744,73.7307,263.1115,mesozoic-other
+379,Kodiak Bear,26.830861,262.5515,262.5515,non-mesozoic
+380,Western Gorilla (troop of 3),26.817574,262.4215,262.4215,non-mesozoic
+381,Megalochelys atlas,26.805520,262.3036,262.3036,non-mesozoic
+382,Lion (Pride of 10),26.662555,260.9046,260.9046,non-mesozoic
+383,European Hippopotamus,26.478628,259.1048,259.1048,non-mesozoic
+384,Kaprosuchus saharicus,7.322328,71.6521,255.6940,mesozoic-other
+385,Borneo Pygmy Elephant,26.119226,255.5879,255.5879,non-mesozoic
+386,Giant (Short-faced) Hyena (clan of 5),26.086176,255.2645,255.2645,non-mesozoic
+387,Equus giganteus,26.036963,254.7829,254.7829,non-mesozoic
+388,Percrocuta spp. (clan of 4/5),25.984462,254.2692,254.2692,non-mesozoic
+389,Walrus,25.197198,246.5654,246.5654,non-mesozoic
+390,Giraffe,25.087709,245.4941,245.4941,non-mesozoic
+391,Trochosuchus acutus,7.017213,68.6665,245.0395,mesozoic-other
+392,Grey Wolf (Pack of 8/9),25.008365,244.7176,244.7176,non-mesozoic
+393,Barbourofelis fricki,24.845873,243.1276,243.1276,non-mesozoic
+394,American Lion,24.732763,242.0208,242.0208,non-mesozoic
+395,Phoberomys pattersoni,24.624373,240.9601,240.9601,non-mesozoic
+396,Northwestern Wolf (pack of 7/8),24.578048,240.5068,240.5068,non-mesozoic
+397,African Wild Dog (pack of 12),24.497003,239.7137,239.7137,non-mesozoic
+398,Dire Wolves (pack of 3),24.298828,237.7745,237.7745,non-mesozoic
+399,Sumatran Rhinoceros,24.284903,237.6382,237.6382,non-mesozoic
+400,Quinkana fortirostrum,23.480521,229.7670,229.7670,non-mesozoic
+401,Quercylurus major,23.214049,227.1595,227.1595,non-mesozoic
+402,Einiosaurus procurvicornis,1.818018,17.7901,226.5484,dinosaur
+403,Meraxes gigas,1.811557,17.7269,225.7433,dinosaur
+404,Smilodon fatalis,22.961718,224.6903,224.6903,non-mesozoic
+405,Aurochs (Pleistocene),22.885825,223.9477,223.9477,non-mesozoic
+406,Inland Grizzly Bear,22.874026,223.8322,223.8322,non-mesozoic
+407,Grey Wolves (pack of 3),22.624363,221.3891,221.3891,non-mesozoic
+408,Mapusaurus roseae (Pack of 7),1.760488,17.2271,219.3794,dinosaur
+409,Sivatherium giganteum,22.310694,218.3198,218.3198,non-mesozoic
+410,Xiphiorhynchus rotundus,22.005988,215.3381,215.3381,non-mesozoic
+411,(Wild) Water Buffalo,21.999025,215.2699,215.2699,non-mesozoic
+412,Lythronax argestes,1.643265,16.0801,204.7719,dinosaur
+413,Epicyon haydeni (pack of 3),20.860368,204.1277,204.1277,non-mesozoic
+414,Blikanasaurus cromptoni,1.636733,16.0161,203.9580,dinosaur
+415,Mourasuchus amazoniensis,20.537389,200.9672,200.9672,non-mesozoic
+416,Wood Bison,20.532622,200.9206,200.9206,non-mesozoic
+417,Neanderthals (3) (armed with spears),20.085715,196.5474,196.5474,non-mesozoic
+418,Pseudocyon sansaniensis,19.796584,193.7181,193.7181,non-mesozoic
+419,Southern Bottlenose Whale,19.723902,193.0069,193.0069,non-mesozoic
+420,American Crocodile,19.614421,191.9356,191.9356,non-mesozoic
+421,Ussuri Brown Bear,19.571124,191.5119,191.5119,non-mesozoic
+422,Grey Wolf (Pack of 3/4 adults),19.325374,189.1071,189.1071,non-mesozoic
+423,Narwhal,19.319452,189.0492,189.0492,non-mesozoic
+424,Irish Elk,19.222574,188.1012,188.1012,non-mesozoic
+425,Western Moose,19.105491,186.9555,186.9555,non-mesozoic
+426,Alaskan Penisula Brown Bear,19.101946,186.9208,186.9208,non-mesozoic
+427,Clidastes propython,5.344321,52.2965,186.6225,mesozoic-other
+428,Ichthyosaurus somersetensis,5.337502,52.2298,186.3844,mesozoic-other
+429,Concavenator corcovatus,1.493186,14.6115,186.0702,dinosaur
+430,Broad-fronted Moose,18.747648,183.4538,183.4538,non-mesozoic
+431,Smilodon fatalis (female),18.662790,182.6234,182.6234,non-mesozoic
+432,Dhole (Pack of 10),18.399554,180.0476,180.0476,non-mesozoic
+433,Florida Short-faced (Cave) Bear,18.349238,179.5552,179.5552,non-mesozoic
+434,Dinofelis spp.,18.315608,179.2261,179.2261,non-mesozoic
+435,Gigantopithecus blacki (coalition of 2),18.207089,178.1642,178.1642,non-mesozoic
+436,Asiatic Lioness (pride of 2),18.038174,176.5113,176.5113,non-mesozoic
+437,Shortfin Mako Shark,17.877150,174.9356,174.9356,non-mesozoic
+438,Spotted Hyenas (clan of 6),17.856420,174.7328,174.7328,non-mesozoic
+439,Grey Wolf (Pack of 5),17.530861,171.5470,171.5470,non-mesozoic
+440,Pleistocene Jaguar,17.502431,171.2688,171.2688,non-mesozoic
+441,Ancient Bison,17.443294,170.6902,170.6902,non-mesozoic
+442,Kerberos langebadreae,17.308333,169.3695,169.3695,non-mesozoic
+443,Steller's (Northern) Sea Lion,17.049247,166.8342,166.8342,non-mesozoic
+444,American Alligator,16.993972,166.2933,166.2933,non-mesozoic
+445,Velociraptor mongoliensis (pack of 4),1.333488,13.0488,166.1697,dinosaur
+446,Polar Bear (sow),16.912058,165.4918,165.4918,non-mesozoic
+447,Orca (female),16.865216,165.0334,165.0334,non-mesozoic
+448,Kamchatka Brown Bear,16.671328,163.1361,163.1361,non-mesozoic
+449,Giant Beaver,16.621636,162.6499,162.6499,non-mesozoic
+450,Syrian Brown Bear,16.531086,161.7638,161.7638,non-mesozoic
+451,Rubidgea atrox,16.471496,161.1807,161.1807,non-mesozoic
+452,Pacific Sleeper Shark,16.421458,160.6910,160.6910,non-mesozoic
+453,African Wild Dog (pack of 8),16.301432,159.5165,159.5165,non-mesozoic
+454,Argentinosaurus huinculensis,1.279323,12.5187,159.4201,dinosaur
+455,Suskityrannus hazelae,1.272017,12.4472,158.5097,dinosaur
+456,Barbary Lion,16.024009,156.8018,156.8018,non-mesozoic
+457,Aurochs (Holocene),16.009390,156.6588,156.6588,non-mesozoic
+458,Lion,15.988556,156.4549,156.4549,non-mesozoic
+459,Hyaenodon gigas,15.987219,156.4418,156.4418,non-mesozoic
+460,European Jaguar,15.863335,155.2296,155.2296,non-mesozoic
+461,Amphicyon frendens,15.778914,154.4035,154.4035,non-mesozoic
+462,Woods Bison,15.613429,152.7841,152.7841,non-mesozoic
+463,Broad-fronted (Giant) Moose,15.449504,151.1801,151.1801,non-mesozoic
+464,Dinocrocuta gigantea (clan of 3),15.404186,150.7366,150.7366,non-mesozoic
+465,Atlas Bear,15.306814,149.7838,149.7838,non-mesozoic
+466,Ngandong Tiger,15.285969,149.5798,149.5798,non-mesozoic
+467,Gaur,15.213038,148.8661,148.8661,non-mesozoic
+468,American Scimitar,15.172985,148.4742,148.4742,non-mesozoic
+469,Orinoco Crocodile,15.150685,148.2560,148.2560,non-mesozoic
+470,Megantereon cultridens,15.069685,147.4634,147.4634,non-mesozoic
+471,Brown Hyena (clan of 2),15.032736,147.1018,147.1018,non-mesozoic
+472,Grizzly Bear,15.002422,146.8052,146.8052,non-mesozoic
+473,Wanhsien Tiger,14.904597,145.8479,145.8479,non-mesozoic
+474,Kubanochoerus gigas,14.778733,144.6163,144.6163,non-mesozoic
+475,Tibetan Mastiffs(2),14.696073,143.8074,143.8074,non-mesozoic
+476,African (Cape) Buffalo,14.624242,143.1045,143.1045,non-mesozoic
+477,Wild Yak,14.608791,142.9533,142.9533,non-mesozoic
+478,Kodiak bear,14.565477,142.5295,142.5295,non-mesozoic
+479,Sauroposeidon proteles,1.141104,11.1662,142.1962,dinosaur
+480,Arabian Wolf (pack of 5/6),14.395716,140.8683,140.8683,non-mesozoic
+481,Velociraptor mongoliensis (pack of 3),1.116411,10.9246,139.1192,dinosaur
+482,Glyptodon clavipes,14.186138,138.8175,138.8175,non-mesozoic
+483,Amphicyon major,14.138739,138.3537,138.3537,non-mesozoic
+484,Spotted Hyena (clan of 3),13.993436,136.9318,136.9318,non-mesozoic
+485,Liliensternus liliensterni,1.069626,10.4668,133.2891,dinosaur
+486,Arctic Wolf (Pack of 2),13.582875,132.9143,132.9143,non-mesozoic
+487,Harpagolestes immanis,13.482774,131.9348,131.9348,non-mesozoic
+488,Grey Wolf (Pack of 4),13.450458,131.6185,131.6185,non-mesozoic
+489,Eurasian Brown Bear,13.437368,131.4904,131.4904,non-mesozoic
+490,Eodromaeus murphi,1.053452,10.3085,131.2737,dinosaur
+491,Eoraptor lunensis,1.053452,10.3085,131.2737,dinosaur
+492,Mexican Grizzly Bear,13.324879,130.3897,130.3897,non-mesozoic
+493,Trinil Tiger,13.314242,130.2856,130.2856,non-mesozoic
+494,Bluntnose Sixgill Shark,13.310034,130.2444,130.2444,non-mesozoic
+495,Shortfin Mako,13.266898,129.8223,129.8223,non-mesozoic
+496,European Scimitar,13.170427,128.8783,128.8783,non-mesozoic
+497,Onchopristis numida,3.689111,36.0995,128.8229,mesozoic-other
+498,Megantereon whitei,13.138349,128.5644,128.5644,non-mesozoic
+499,Interior Grizzly Bear,12.911745,126.3470,126.3470,non-mesozoic
+500,East Siberian Brown Bear,12.895350,126.1866,126.1866,non-mesozoic
+501,Epicyon haydeni (pack of 2),12.865854,125.8979,125.8979,non-mesozoic
+502,Basking Shark,12.835587,125.6018,125.6018,non-mesozoic
+503,Proborhyaena gigantea,12.828688,125.5342,125.5342,non-mesozoic
+504,Chianina,12.816479,125.4148,125.4148,non-mesozoic
+505,Ischigualastia jenseni,12.708691,124.3600,124.3600,non-mesozoic
+506,Northwestern Wolf (pack of 2),12.670243,123.9838,123.9838,non-mesozoic
+507,Iberian (Spanish) Fighting Bull,12.545652,122.7646,122.7646,non-mesozoic
+508,Atlantic Blue Marlin,12.395303,121.2934,121.2934,non-mesozoic
+509,Giganotosaurus carolinii (pack of 3),0.972532,9.5166,121.1900,dinosaur
+510,Southern Elephant Seal (cow),12.225213,119.6290,119.6290,non-mesozoic
+511,Giant (Short-faced) Hyena (clan of 4),12.221624,119.5939,119.5939,non-mesozoic
+512,Dire Wolf (pack of 2),12.115205,118.5525,118.5525,non-mesozoic
+513,Cyldesdale (Draught Horse),11.948158,116.9179,116.9179,non-mesozoic
+514,Bully Kuttas (3),11.924277,116.6842,116.6842,non-mesozoic
+515,Grey Wolf (Pack of 4/5),11.847013,115.9281,115.9281,non-mesozoic
+516,Pelorovis spp.,11.728233,114.7658,114.7658,non-mesozoic
+517,Banteng,11.721731,114.7022,114.7022,non-mesozoic
+518,Alaskan Moose,11.672152,114.2170,114.2170,non-mesozoic
+519,Collared Peccary (Javelina) (pack of 4),11.648740,113.9879,113.9879,non-mesozoic
+520,Amphimachairodus kabir,11.336584,110.9334,110.9334,non-mesozoic
+521,Gryposuchus croizati,11.313209,110.7046,110.7046,non-mesozoic
+522,Kodiak Bear (sow),11.299637,110.5718,110.5718,non-mesozoic
+523,Cinnamon Black Bear,11.145055,109.0592,109.0592,non-mesozoic
+524,Eremotherium spp.,11.096971,108.5886,108.5886,non-mesozoic
+525,Dogo Argentino (pack of 3/4),11.076999,108.3932,108.3932,non-mesozoic
+526,Caucasian Shepherd Dogs (2),11.066795,108.2934,108.2934,non-mesozoic
+527,Clymene (Short-snouted Spinner) Dolphin,11.020243,107.8378,107.8378,non-mesozoic
+528,Cheetah (coalition of 4),10.989633,107.5383,107.5383,non-mesozoic
+529,Northwestern Wolf (pack of 6),10.965401,107.3012,107.3012,non-mesozoic
+530,Xiphactinus audax,10.943030,107.0823,107.0823,non-mesozoic
+531,Brown Bear,10.941205,107.0644,107.0644,non-mesozoic
+532,Eurasian Cave Lion,10.929229,106.9472,106.9472,non-mesozoic
+533,Grey Wolf (Pack of 6),10.912813,106.7866,106.7866,non-mesozoic
+534,Dromaeosauroides bornholmensis,0.852346,8.3406,106.2133,dinosaur
+535,Common Chimpanzee (troop of 15),10.843575,106.1091,106.1091,non-mesozoic
+536,European Bison (Wisent),10.809572,105.7763,105.7763,non-mesozoic
+537,Josephoartigasia monesi,10.786954,105.5550,105.5550,non-mesozoic
+538,Natodomeri Lion,10.719581,104.8957,104.8957,non-mesozoic
+539,Eastern Gorilla (troop of 3 - 4),10.647511,104.1905,104.1905,non-mesozoic
+540,Swordfish,10.646464,104.1802,104.1802,non-mesozoic
+541,Gastornis gigantea (2),10.610901,103.8322,103.8322,non-mesozoic
+542,Walrus (Bull),10.580021,103.5301,103.5301,non-mesozoic
+543,Shire Horse,10.520752,102.9501,102.9501,non-mesozoic
+544,Giant Otter Romp (5 - 6),10.482176,102.5726,102.5726,non-mesozoic
+545,Bengal Tigress,10.467179,102.4259,102.4259,non-mesozoic
+546,Giant Otter Romp (8),10.346725,101.2472,101.2472,non-mesozoic
+547,Pygmy Sperm Whale,10.345579,101.2360,101.2360,non-mesozoic
+548,Gigantophis garstini,10.292732,100.7188,100.7188,non-mesozoic
+549,Cave Hyena (clan of 2),10.248482,100.2858,100.2858,non-mesozoic
+550,Siberian Tiger,10.160022,99.4202,99.4202,non-mesozoic
+551,Dinocrocuta gigantea,10.151464,99.3365,99.3365,non-mesozoic
+552,Black Caiman,10.133492,99.1606,99.1606,non-mesozoic
+553,Beluga,9.872164,96.6034,96.6034,non-mesozoic
+554,Indochinese Tiger,9.851991,96.4060,96.4060,non-mesozoic
+555,Archaeotherium mortoni,9.827138,96.1628,96.1628,non-mesozoic
+556,Patagonian Panther,9.810244,95.9975,95.9975,non-mesozoic
+557,Himalayan Black Bear,9.740847,95.3184,95.3184,non-mesozoic
+558,Mugger (Marsh) Crocodile,9.643466,94.3655,94.3655,non-mesozoic
+559,Early Middle Pleistocene European Cave Lion,9.576095,93.7062,93.7062,non-mesozoic
+560,Eastern Gorilla (coalition of 3),9.516152,93.1197,93.1197,non-mesozoic
+561,Alioramus altai,0.743217,7.2727,92.6144,dinosaur
+562,Chasmosaurus belli,0.740110,7.2423,92.2272,dinosaur
+563,Holmesina septentrionalis,9.311100,91.1131,91.1131,non-mesozoic
+564,Bengal Tiger,9.140624,89.4449,89.4449,non-mesozoic
+565,African Lion,9.025130,88.3148,88.3148,non-mesozoic
+566,Dire Wolf (pack of 3),8.941891,87.5003,87.5003,non-mesozoic
+567,Marsupial Lion,8.889745,86.9900,86.9900,non-mesozoic
+568,Proterosuchus fergusi,2.452062,23.9945,85.6254,mesozoic-other
+569,Nile Crocodile (female),8.718931,85.3185,85.3185,non-mesozoic
+570,Bull Shark,8.656241,84.7051,84.7051,non-mesozoic
+571,Archaeoindris fontoynonti (2),8.643852,84.5838,84.5838,non-mesozoic
+572,Denversaurus schlessmani,0.675338,6.6085,84.1558,dinosaur
+573,Koolasuchus cleelandi,2.392173,23.4084,83.5341,mesozoic-other
+574,African Wild Dog (pack of 10),8.450872,82.6954,82.6954,non-mesozoic
+575,Grizzly Bear (sow),8.189014,80.1330,80.1330,non-mesozoic
+576,European Ice Age Leopard,8.096475,79.2275,79.2275,non-mesozoic
+577,Ussuri Brown Bear (sow),8.007185,78.3538,78.3538,non-mesozoic
+578,Morelet's Crocodile,7.995064,78.2351,78.2351,non-mesozoic
+579,Asiatic Lion,7.953600,77.8294,77.8294,non-mesozoic
+580,Himalayan Brown Bear,7.850166,76.8173,76.8173,non-mesozoic
+581,Torvosaurus gurneyi,0.612600,5.9946,76.3378,dinosaur
+582,Diabloceratops eatoni,0.610423,5.9733,76.0666,dinosaur
+583,Belgian Blue,7.740679,75.7459,75.7459,non-mesozoic
+584,Barren Ground Grizzly Bear,7.646187,74.8212,74.8212,non-mesozoic
+585,Western Lowland Gorilla (male troop of 2),7.610603,74.4730,74.4730,non-mesozoic
+586,Northwestern Wolf (pack of 2/3),7.577099,74.1452,74.1452,non-mesozoic
+587,Spotted Hyenas (clan of 3),7.556156,73.9402,73.9402,non-mesozoic
+588,Armadillosuchus arrudai,7.508153,73.4705,73.4705,non-mesozoic
+589,Snow Leopard (mating pair),7.435177,72.7564,72.7564,non-mesozoic
+590,Chapalmalania altaefrontis,7.311762,71.5487,71.5487,non-mesozoic
+591,Tiger Shark (female),7.290506,71.3407,71.3407,non-mesozoic
+592,Lioness,7.288510,71.3212,71.3212,non-mesozoic
+593,Enhydriodon omoensis,7.164507,70.1078,70.1078,non-mesozoic
+594,Saltwater Crocodile (cow),7.089738,69.3761,69.3761,non-mesozoic
+595,Caspian Tiger,7.069165,69.1748,69.1748,non-mesozoic
+596,Brontornis burmeisteri,7.038555,68.8753,68.8753,non-mesozoic
+597,Leopard Seal,7.010603,68.6018,68.6018,non-mesozoic
+598,Akita Inu (pack of 5),6.938073,67.8920,67.8920,non-mesozoic
+599,Dhole (Pack of 6),6.938073,67.8920,67.8920,non-mesozoic
+600,Dire Wolves (pack of 2),6.798629,66.5275,66.5275,non-mesozoic
+601,Placerias hesternus,6.741163,65.9652,65.9652,non-mesozoic
+602,Bactrian Camel,6.652503,65.0976,65.0976,non-mesozoic
+603,Kelenken guillermoi,6.599787,64.5818,64.5818,non-mesozoic
+604,Moros intrepidus,0.513987,5.0296,64.0494,dinosaur
+605,Common Eland,6.463158,63.2448,63.2448,non-mesozoic
+606,Barylambda faberi,6.438851,63.0069,63.0069,non-mesozoic
+607,Alano Españols (2),6.429311,62.9136,62.9136,non-mesozoic
+608,Longdan Tiger,6.421761,62.8397,62.8397,non-mesozoic
+609,Spotted Hyena (clan of 2),6.386629,62.4959,62.4959,non-mesozoic
+610,Tibetan Blue Bear,6.350499,62.1424,62.1424,non-mesozoic
+611,African (Cape) Buffalo (cow),6.327097,61.9134,61.9134,non-mesozoic
+612,Siberian Tigress,6.096646,59.6583,59.6583,non-mesozoic
+613,Dromedary (Arabian) Camel,6.095562,59.6477,59.6477,non-mesozoic
+614,Pygmy Killer Whale,6.071868,59.4158,59.4158,non-mesozoic
+615,Sumatran Tigress,6.009130,58.8019,58.8019,non-mesozoic
+616,Black Caiman (cow),5.958171,58.3033,58.3033,non-mesozoic
+617,Eastern Gorilla (coalition of 2),5.909426,57.8263,57.8263,non-mesozoic
+618,Great Hammerhead Shark,5.884446,57.5818,57.5818,non-mesozoic
+619,African Lioness,5.881160,57.5497,57.5497,non-mesozoic
+620,Nguni (Bull),5.846744,57.2129,57.2129,non-mesozoic
+621,Haida Gwaii Black Bear,5.842613,57.1725,57.1725,non-mesozoic
+622,Bali Tigress,5.801275,56.7680,56.7680,non-mesozoic
+623,Caucasian Shepherd Dogs (5),5.741238,56.1805,56.1805,non-mesozoic
+624,Brown Hyena (clan of 3),5.725519,56.0267,56.0267,non-mesozoic
+625,Grevy's (Imperial) Zebra,5.693029,55.7087,55.7087,non-mesozoic
+626,Sri Lankan Sloth Bear,5.632982,55.1212,55.1212,non-mesozoic
+627,Muskox,5.627613,55.0686,55.0686,non-mesozoic
+628,Epicyon haydeni,5.606365,54.8607,54.8607,non-mesozoic
+629,African Forest Buffalo,5.593704,54.7368,54.7368,non-mesozoic
+630,Shasta Ground Sloth,5.579904,54.6018,54.6018,non-mesozoic
+631,Orca (Transient female),5.567623,54.4816,54.4816,non-mesozoic
+632,Giant Freshwater Stingray (whipray),5.564627,54.4523,54.4523,non-mesozoic
+633,Thalassocnus spp.,5.559902,54.4060,54.4060,non-mesozoic
+634,American Black Bear,5.553838,54.3467,54.3467,non-mesozoic
+635,African Wild Dog (pack of 5),5.548144,54.2910,54.2910,non-mesozoic
+636,Porbeagle Shark,5.547078,54.2806,54.2806,non-mesozoic
+637,Grey Wolf (pack of 3),5.546873,54.2785,54.2785,non-mesozoic
+638,Asiatic Black Bear,5.544688,54.2572,54.2572,non-mesozoic
+639,North American Jaguar,5.522532,54.0404,54.0404,non-mesozoic
+640,Giant Warthog,5.445949,53.2910,53.2910,non-mesozoic
+641,Neanderthal (armed with a spear),5.423935,53.0755,53.0755,non-mesozoic
+642,Cuban Crocodile,5.420077,53.0378,53.0378,non-mesozoic
+643,Indarctos oregonensis,5.417784,53.0154,53.0154,non-mesozoic
+644,Black Marlin,5.406647,52.9064,52.9064,non-mesozoic
+645,Archaic Human (armed with spear),5.363077,52.4800,52.4800,non-mesozoic
+646,Geosaurus spp.,1.493186,14.6115,52.1417,mesozoic-other
+647,Gigantopithecus blacki,5.328145,52.1382,52.1382,non-mesozoic
+648,Rottweilers (8),5.291358,51.7782,51.7782,non-mesozoic
+649,Entelodon spp.,5.290874,51.7735,51.7735,non-mesozoic
+650,Asiatic Lioness,5.269916,51.5684,51.5684,non-mesozoic
+651,Water Buffalo,5.251417,51.3874,51.3874,non-mesozoic
+652,Red Wolf (pack of 3),5.237017,51.2465,51.2465,non-mesozoic
+653,Coelophysis bauri (pack of 3),0.409152,4.0037,50.9856,dinosaur
+654,Common Bottlenose Dolphin,5.206461,50.9475,50.9475,non-mesozoic
+655,Malayan Tigress,5.186053,50.7478,50.7478,non-mesozoic
+656,Cheetah (coalition of 3),5.127692,50.1767,50.1767,non-mesozoic
+657,Smilodon gracilis,5.107413,49.9782,49.9782,non-mesozoic
+658,Salmon Shark,5.040752,49.3259,49.3259,non-mesozoic
+659,Ankalagon saurognathus,4.943254,48.3719,48.3719,non-mesozoic
+660,Sumatran Tiger,4.942298,48.3625,48.3625,non-mesozoic
+661,Jaguar,4.938265,48.3231,48.3231,non-mesozoic
+662,Oceanic Whitetip Shark,4.914178,48.0874,48.0874,non-mesozoic
+663,Blue Jay,4.904529,47.9929,47.9929,non-mesozoic
+664,Collared Peccary (Javelina) (pack of 6),4.863320,47.5897,47.5897,non-mesozoic
+665,Longfin Mako Shark,4.862923,47.5858,47.5858,non-mesozoic
+666,Siamese Crocodile,4.791596,46.8878,46.8878,non-mesozoic
+667,Jaguaress,4.787570,46.8484,46.8484,non-mesozoic
+668,Dogo Argentino (pack of 5),4.717905,46.1667,46.1667,non-mesozoic
+669,Highland Cattle Bull,4.689165,45.8855,45.8855,non-mesozoic
+670,Protocyon troglodytes (pack of 2),4.668755,45.6858,45.6858,non-mesozoic
+671,Brachycrus spp.,4.653148,45.5331,45.5331,non-mesozoic
+672,Tibetan Mastiff (pack of 5),4.648135,45.4840,45.4840,non-mesozoic
+673,Titanis walleri,4.615354,45.1632,45.1632,non-mesozoic
+674,Dhole (Pack of 4/5),4.601769,45.0303,45.0303,non-mesozoic
+675,Central Asian Shepherd Dog (Alabai) (pack of 3),4.554023,44.5631,44.5631,non-mesozoic
+676,Pantanal Jaguar,4.501975,44.0538,44.0538,non-mesozoic
+677,Pygmy Hippopotamus,4.495032,43.9858,43.9858,non-mesozoic
+678,Ussuri Wild Boar,4.489810,43.9347,43.9347,non-mesozoic
+679,Olive Baboon (Troop of 5),4.478315,43.8222,43.8222,non-mesozoic
+680,Dimetrodon grandis,4.453901,43.5833,43.5833,non-mesozoic
+681,Baikal Seal,4.445498,43.5011,43.5011,non-mesozoic
+682,Megapiranha paranensis (shoal of 5),4.405421,43.1089,43.1089,non-mesozoic
+683,Neapolitan Mastiffs (2),4.400046,43.0563,43.0563,non-mesozoic
+684,Mexican Wolf (pack of 3),4.382683,42.8864,42.8864,non-mesozoic
+685,Gobi Bear,4.359084,42.6555,42.6555,non-mesozoic
+686,Western Lowland Gorilla,4.355345,42.6189,42.6189,non-mesozoic
+687,South American Sea Lion,4.354320,42.6089,42.6089,non-mesozoic
+688,California Sea Lion,4.344731,42.5151,42.5151,non-mesozoic
+689,Barbourofelis morrisi,4.334996,42.4198,42.4198,non-mesozoic
+690,Przewalski's Horse,4.304250,42.1189,42.1189,non-mesozoic
+691,Dogo Argentino (pack of 6-8),4.272388,41.8072,41.8072,non-mesozoic
+692,Grey Wolves (pack of 2),4.225578,41.3491,41.3491,non-mesozoic
+693,Colossal Squid,4.223515,41.3289,41.3289,non-mesozoic
+694,Risso's Dolphin,4.194840,41.0483,41.0483,non-mesozoic
+695,Eastern Lowland Gorilla,4.180266,40.9057,40.9057,non-mesozoic
+696,Northwestern Wolf (pack of 7),4.123039,40.3457,40.3457,non-mesozoic
+697,Central Asian Shepherd Dog (Alabai) (pack of 6),4.074277,39.8686,39.8686,non-mesozoic
+698,(YNP) Cinnamon Black Bear,4.056382,39.6934,39.6934,non-mesozoic
+699,African Wild Dog (pack of 4),4.018187,39.3197,39.3197,non-mesozoic
+700,European (German) Wasp,4.001337,39.1548,39.1548,non-mesozoic
+701,White Sturgeon,3.970173,38.8499,38.8499,non-mesozoic
+702,Gemsbok,3.963209,38.7817,38.7817,non-mesozoic
+703,Stenonychosaurus inequalis,0.309961,3.0331,38.6251,dinosaur
+704,Ambulocetus natans,3.920262,38.3615,38.3615,non-mesozoic
+705,Smalltooth Sawfish,3.878481,37.9526,37.9526,non-mesozoic
+706,Steppe Wolf (pack of 2),3.835091,37.5280,37.5280,non-mesozoic
+707,Spotted Hyena (female),3.820929,37.3894,37.3894,non-mesozoic
+708,Dhole (Pack of 3/4),3.817257,37.3535,37.3535,non-mesozoic
+709,Giant Eland,3.784362,37.0316,37.0316,non-mesozoic
+710,Roosevelt Elk,3.784001,37.0281,37.0281,non-mesozoic
+711,Giant Forest Hog,3.783937,37.0275,37.0275,non-mesozoic
+712,Sloth Bear,3.771869,36.9094,36.9094,non-mesozoic
+713,Cantabrian Brown Bear,3.682539,36.0352,36.0352,non-mesozoic
+714,Cave Hyena,3.658967,35.8046,35.8046,non-mesozoic
+715,Striped Hyena (clan of 3),3.621013,35.4332,35.4332,non-mesozoic
+716,Tibetan Mastiff (pack of 3),3.546378,34.7028,34.7028,non-mesozoic
+717,Cape Mountain Zebra,3.545861,34.6978,34.6978,non-mesozoic
+718,Asiatic Wild Ass (Onager),3.488498,34.1365,34.1365,non-mesozoic
+719,Dhole (Pack of 5),3.482193,34.0748,34.0748,non-mesozoic
+720,Spotted Hyenas (clan of 2),3.392785,33.1999,33.1999,non-mesozoic
+721,Albanosmilus jourdani,3.350671,32.7878,32.7878,non-mesozoic
+722,Piraiba,3.347543,32.7572,32.7572,non-mesozoic
+723,Bali Tiger,3.344492,32.7273,32.7273,non-mesozoic
+724,Okapi,3.340565,32.6889,32.6889,non-mesozoic
+725,Protoceratops andrewsi,0.259768,2.5419,32.3704,dinosaur
+726,African Crowned Eagle (male),3.307925,32.3695,32.3695,non-mesozoic
+727,Ussuri Black Bear,3.278905,32.0855,32.0855,non-mesozoic
+728,Western Gorilla,3.261782,31.9179,31.9179,non-mesozoic
+729,Ganges River Dolphin,3.260888,31.9092,31.9092,non-mesozoic
+730,Northwestern Wolf (pack of 3),3.257826,31.8792,31.8792,non-mesozoic
+731,Philippine (Mindoro) Crocodile,3.250709,31.8096,31.8096,non-mesozoic
+732,Common Chimpanzee (troop of 6),3.233889,31.6450,31.6450,non-mesozoic
+733,Dinofelis piveteaui,3.204685,31.3592,31.3592,non-mesozoic
+734,Neanderthal (with spear),3.195026,31.2647,31.2647,non-mesozoic
+735,Savannah Cat,3.183180,31.1488,31.1488,non-mesozoic
+736,Kolponomos spp.,3.182856,31.1456,31.1456,non-mesozoic
+737,Ethiopian Wolf (Simian Jackal),3.122798,30.5579,30.5579,non-mesozoic
+738,Oculudentavis khaungraae,0.860863,8.4239,30.0611,mesozoic-other
+739,Rottweilers (4),3.005989,29.4149,29.4149,non-mesozoic
+740,Giant (Short-faced) Hyena (clan of 2),2.995579,29.3130,29.3130,non-mesozoic
+741,Mexican Jaguar,2.956710,28.9327,28.9327,non-mesozoic
+742,Sri Lankan Leopard,2.939369,28.7630,28.7630,non-mesozoic
+743,House Mouse,2.925130,28.6237,28.6237,non-mesozoic
+744,Dogo Argentino (pack of 3),2.870660,28.0906,28.0906,non-mesozoic
+745,Pleistocene Cougar,2.862948,28.0152,28.0152,non-mesozoic
+746,Tusotheuthis longa,0.794444,7.7740,27.7418,mesozoic-other
+747,Bold Jumping Spider,2.824014,27.6342,27.6342,non-mesozoic
+748,Silvertip Shark,2.801144,27.4104,27.4104,non-mesozoic
+749,Eurasian Wolf (pack of 2),2.797000,27.3699,27.3699,non-mesozoic
+750,Grey Wolf (Pack of 2),2.774836,27.1530,27.1530,non-mesozoic
+751,Syrian Brown Bear (sow),2.760420,27.0119,27.0119,non-mesozoic
+752,European Elk,2.751859,26.9281,26.9281,non-mesozoic
+753,Thylacosmilus atrox,2.728907,26.7035,26.7035,non-mesozoic
+754,Neanderthal (armed),2.712343,26.5414,26.5414,non-mesozoic
+755,South Asian River Dolphin,2.712343,26.5414,26.5414,non-mesozoic
+756,Collared Peccary (Javelina) (squadron of 6),2.696914,26.3905,26.3905,non-mesozoic
+757,Takin,2.694077,26.3627,26.3627,non-mesozoic
+758,O'Halloran Hounds (2),2.683700,26.2612,26.2612,non-mesozoic
+759,Tamaraw (Mindoro Pygmy Buffalo),2.678364,26.2089,26.2089,non-mesozoic
+760,Kyhytysuka sachicarum,0.743217,7.2727,25.9530,mesozoic-other
+761,Metriorhynchus brevirostris,0.743217,7.2727,25.9530,mesozoic-other
+762,American Black Bear (sow),2.644702,25.8795,25.8795,non-mesozoic
+763,Tule Elk,2.640213,25.8356,25.8356,non-mesozoic
+764,Leopard,2.635484,25.7893,25.7893,non-mesozoic
+765,Secodontosaurus obtusidens,2.630728,25.7428,25.7428,non-mesozoic
+766,Leopard (male),2.623722,25.6743,25.6743,non-mesozoic
+767,Cougar,2.616211,25.6008,25.6008,non-mesozoic
+768,Giant Blue Robber Fly,2.583519,25.2808,25.2808,non-mesozoic
+769,House Pseudoscorpion,2.583519,25.2808,25.2808,non-mesozoic
+770,Pike Pirahna,2.583519,25.2808,25.2808,non-mesozoic
+771,Striped Dolphin,2.583519,25.2808,25.2808,non-mesozoic
+772,Australian Emporer Dragonfly,2.579004,25.2367,25.2367,non-mesozoic
+773,False Gharial,2.530160,24.7587,24.7587,non-mesozoic
+774,Kiang,2.493343,24.3984,24.3984,non-mesozoic
+775,Giant Teratorn (flock of 3),2.478913,24.2572,24.2572,non-mesozoic
+776,Phorusrhacos longissimus,2.469479,24.1649,24.1649,non-mesozoic
+777,Wild Horse,2.469014,24.1604,24.1604,non-mesozoic
+778,Giant (Short-faced) Hyena,2.457366,24.0464,24.0464,non-mesozoic
+779,Bald-faced Hornet,2.440555,23.8819,23.8819,non-mesozoic
+780,Sable Antelope,2.418056,23.6617,23.6617,non-mesozoic
+781,Albertonectes vanderveldei,0.675338,6.6085,23.5826,mesozoic-other
+782,Megalictis ferox,2.404336,23.5275,23.5275,non-mesozoic
+783,Indo-Pacific Bottlenose Dolphin,2.336680,22.8654,22.8654,non-mesozoic
+784,African Leopard,2.332010,22.8197,22.8197,non-mesozoic
+785,Spectacled Bear,2.326966,22.7704,22.7704,non-mesozoic
+786,Lioness (pride of 5 -7),2.322280,22.7245,22.7245,non-mesozoic
+787,Kangals (3),2.308524,22.5899,22.5899,non-mesozoic
+788,Common Kestrel,2.306392,22.5690,22.5690,non-mesozoic
+789,Painted Moray,2.306392,22.5690,22.5690,non-mesozoic
+790,Eurasian Wolf (Dog),2.306392,22.5690,22.5690,non-mesozoic
+791,Giant Devil (Goonch) Catfish,2.306392,22.5690,22.5690,non-mesozoic
+792,Mountain Tapir,2.266009,22.1739,22.1739,non-mesozoic
+793,Coyote (pack of 4/5),2.264678,22.1609,22.1609,non-mesozoic
+794,Cheetah (coalition of 5),2.264245,22.1566,22.1566,non-mesozoic
+795,Eastern Gorilla,2.259564,22.1108,22.1108,non-mesozoic
+796,Basilosaurus spp.,2.238082,21.9006,21.9006,non-mesozoic
+797,Nile Crocodile (Cow),2.238082,21.9006,21.9006,non-mesozoic
+798,Mountain Zebra,2.220100,21.7246,21.7246,non-mesozoic
+799,European Cave Bear (sow),2.218781,21.7117,21.7117,non-mesozoic
+800,Morelet's Crocodile,2.211292,21.6384,21.6384,non-mesozoic
+801,Persian Leopard,2.179511,21.3275,21.3275,non-mesozoic
+802,Bullockornis planei,2.178639,21.3189,21.3189,non-mesozoic
+803,Sambar Deer,2.178557,21.3181,21.3181,non-mesozoic
+804,Dark Mantis Shrimp,2.176727,21.3002,21.3002,non-mesozoic
+805,Australian Freshwater Crocodile,2.167734,21.2122,21.2122,non-mesozoic
+806,Macrauchenia patagonica,2.162265,21.1587,21.1587,non-mesozoic
+807,Eastern Subterranean Termite (Soldier),2.158508,21.1219,21.1219,non-mesozoic
+808,Indochinese Leopard,2.157194,21.1091,21.1091,non-mesozoic
+809,Dogo Argentinos (2),2.151484,21.0532,21.0532,non-mesozoic
+810,Dogo Argentino (pack of 6),2.143300,20.9731,20.9731,non-mesozoic
+811,Western Camel,2.141913,20.9595,20.9595,non-mesozoic
+812,African Wild Dog (pack of 3),2.112170,20.6685,20.6685,non-mesozoic
+813,Plains (Common) Zebra,2.106383,20.6119,20.6119,non-mesozoic
+814,Mountain Gorilla,2.105461,20.6028,20.6028,non-mesozoic
+815,Homo floresiensis (unarmed),2.097869,20.5286,20.5286,non-mesozoic
+816,Chacma Baboon (troop of 6),2.094863,20.4991,20.4991,non-mesozoic
+817,Bucktooth Tetra,2.089024,20.4420,20.4420,non-mesozoic
+818,Crown-of-Thorns Starfish,2.089024,20.4420,20.4420,non-mesozoic
+819,Portuguese Man o' War,2.089024,20.4420,20.4420,non-mesozoic
+820,Ravine Trapdoor Spider,2.089024,20.4420,20.4420,non-mesozoic
+821,Stone (Brown) Centipede,2.089024,20.4420,20.4420,non-mesozoic
+822,Yellow-throated Martens (richness of 3/4),2.089024,20.4420,20.4420,non-mesozoic
+823,Brazilian Porcupine,2.089024,20.4420,20.4420,non-mesozoic
+824,Cretan Dwarf Mammoth,2.089024,20.4420,20.4420,non-mesozoic
+825,West African Lungfish,2.089024,20.4420,20.4420,non-mesozoic
+826,Florida Panther,2.054685,20.1060,20.1060,non-mesozoic
+827,German Shepherds (3),2.048664,20.0471,20.0471,non-mesozoic
+828,African Wild Dog (pack of 8 - 10),1.998586,19.5570,19.5570,non-mesozoic
+829,Brazilian Dogo (pack of 4),1.996915,19.5407,19.5407,non-mesozoic
+830,Western Scrub Jay,1.991481,19.4875,19.4875,non-mesozoic
+831,Owen's Panther,1.981969,19.3944,19.3944,non-mesozoic
+832,Boerboels (2),1.981708,19.3919,19.3919,non-mesozoic
+833,Central American Snapping Turtle,1.975533,19.3314,19.3314,non-mesozoic
+834,Amur Leopard,1.964679,19.2252,19.2252,non-mesozoic
+835,Cheetah (female),1.956500,19.1452,19.1452,non-mesozoic
+836,Dire Wolf (Eastern subspecies),1.954558,19.1262,19.1262,non-mesozoic
+837,Spotted Hyena (Serengeti male),1.922480,18.8123,18.8123,non-mesozoic
+838,Nilgai,1.905887,18.6499,18.6499,non-mesozoic
+839,Komodo Dragon,1.894772,18.5412,18.5412,non-mesozoic
+840,Common Green Darner,1.892023,18.5143,18.5143,non-mesozoic
+841,Sandbar Shark,1.887427,18.4693,18.4693,non-mesozoic
+842,Largetooth Sawfish,1.872326,18.3215,18.3215,non-mesozoic
+843,European Hornet,1.870064,18.2994,18.2994,non-mesozoic
+844,North American Cougar (female),1.844609,18.0503,18.0503,non-mesozoic
+845,Kermode Bear,1.840396,18.0091,18.0091,non-mesozoic
+846,Percrocuta spp.,1.827129,17.8792,17.8792,non-mesozoic
+847,Spotted Hyenas (2),1.826865,17.8767,17.8767,non-mesozoic
+848,Dingo (pack of 5),1.820204,17.8115,17.8115,non-mesozoic
+849,Giant Asian Mantis,1.818018,17.7901,17.7901,non-mesozoic
+850,Tosa Inus (3),1.817278,17.7828,17.7828,non-mesozoic
+851,Eastern Pondhawk,1.813747,17.7483,17.7483,non-mesozoic
+852,Brazilian Wandering Spider,1.811557,17.7269,17.7269,non-mesozoic
+853,Carrion Crow (murder of 3),1.811557,17.7269,17.7269,non-mesozoic
+854,European Sturgeon (Beluga),1.811557,17.7269,17.7269,non-mesozoic
+855,Gray Four-eyed Opossum,1.811557,17.7269,17.7269,non-mesozoic
+856,Smooth Newt,1.811557,17.7269,17.7269,non-mesozoic
+857,South China Tiger,1.811557,17.7269,17.7269,non-mesozoic
+858,Barbary Stag,1.811557,17.7269,17.7269,non-mesozoic
+859,Blue Petrel,1.811557,17.7269,17.7269,non-mesozoic
+860,Omus dejeani,1.811557,17.7269,17.7269,non-mesozoic
+861,Common Chimpanzee (troop of 5),1.809129,17.7031,17.7031,non-mesozoic
+862,Caucasian Shepherd Dogs (6),1.781630,17.4340,17.4340,non-mesozoic
+863,Great Tit,1.756105,17.1842,17.1842,non-mesozoic
+864,Asiatic Black Bear (sow),1.755507,17.1784,17.1784,non-mesozoic
+865,Mountain Lioness,1.739904,17.0257,17.0257,non-mesozoic
+866,American Mammoth Jackstock (Donkey),1.736879,16.9961,16.9961,non-mesozoic
+867,Ysengrinia spp.,1.736879,16.9961,16.9961,non-mesozoic
+868,Devil's Coach-horse Beetle,1.731068,16.9392,16.9392,non-mesozoic
+869,Manticora imperator,1.728240,16.9116,16.9116,non-mesozoic
+870,Microleo attenboroughi,1.728240,16.9116,16.9116,non-mesozoic
+871,Spiny Dogfish,1.728240,16.9116,16.9116,non-mesozoic
+872,Green Anaconda,1.720364,16.8345,16.8345,non-mesozoic
+873,Wild Boar,1.693783,16.5744,16.5744,non-mesozoic
+874,Shiras' Moose,1.689292,16.5305,16.5305,non-mesozoic
+875,Arabian Fat-tailed Scorpion,1.680150,16.4410,16.4410,non-mesozoic
+876,Mexican Jaguaress,1.674889,16.3895,16.3895,non-mesozoic
+877,Presa Canarios (2),1.669061,16.3325,16.3325,non-mesozoic
+878,African Golden Wolves (pack of 4),1.653843,16.1836,16.1836,non-mesozoic
+879,Cougar (male from New Mexico),1.646836,16.1150,16.1150,non-mesozoic
+880,Iriomote Cat,1.645784,16.1047,16.1047,non-mesozoic
+881,Alaskan Moose (cow),1.643265,16.0801,16.0801,non-mesozoic
+882,Prairie Yellowjacket,1.643265,16.0801,16.0801,non-mesozoic
+883,Two-spotted Ground Beetles (2),1.643265,16.0801,16.0801,non-mesozoic
+884,Bengal Cat,1.643265,16.0801,16.0801,non-mesozoic
+885,Cynthiacetus maxwelli,1.643265,16.0801,16.0801,non-mesozoic
+886,Epomis dejeani,1.643265,16.0801,16.0801,non-mesozoic
+887,European Badger,1.643265,16.0801,16.0801,non-mesozoic
+888,White-lipped Peccary (group of 2/3),1.642208,16.0697,16.0697,non-mesozoic
+889,Bongo,1.640239,16.0504,16.0504,non-mesozoic
+890,Bullet Ant,1.621937,15.8714,15.8714,non-mesozoic
+891,Inostrancevia latifrons,1.620002,15.8524,15.8524,non-mesozoic
+892,Burrunan Dolphin,1.611678,15.7710,15.7710,non-mesozoic
+893,Otodus auriculatus,1.605948,15.7149,15.7149,non-mesozoic
+894,Texas Brown Tarantula,1.605948,15.7149,15.7149,non-mesozoic
+895,Mountain Anoa,1.590777,15.5664,15.5664,non-mesozoic
+896,Bobbit Worm,1.578799,15.4492,15.4492,non-mesozoic
+897,Collared Peccary (Javelina) (pack of 3),1.571318,15.3760,15.3760,non-mesozoic
+898,Peacock Mantis Shrimp,1.570415,15.3672,15.3672,non-mesozoic
+899,Sri Lankan Sloth Bear (sow),1.569412,15.3574,15.3574,non-mesozoic
+900,Sand Tiger (Grey Nurse) Shark,1.567662,15.3402,15.3402,non-mesozoic
+901,Indian Gharial (Gavial),1.549994,15.1674,15.1674,non-mesozoic
+902,Black Wildebeest (White-tailed Gnu),1.543852,15.1073,15.1073,non-mesozoic
+903,White-lipped Peccary (group of 5),1.541488,15.0841,15.0841,non-mesozoic
+904,Australian Box Jellyfish (Sea Wasp),1.535891,15.0294,15.0294,non-mesozoic
+905,Eastern Gorilla (Silverback),1.535181,15.0224,15.0224,non-mesozoic
+906,Cougar (female),1.525838,14.9310,14.9310,non-mesozoic
+907,Giant Vinegaroon,1.499453,14.6728,14.6728,non-mesozoic
+908,Lion (Coalition of 5),1.499453,14.6728,14.6728,non-mesozoic
+909,Spotted Hyena (clan of 4),1.499254,14.6708,14.6708,non-mesozoic
+910,Brazilian Puma,1.499060,14.6689,14.6689,non-mesozoic
+911,Spectacled Caiman (female),1.499060,14.6689,14.6689,non-mesozoic
+912,Giant Anteater (female),1.499060,14.6689,14.6689,non-mesozoic
+913,Hesperocyon spp. (pack of 2),1.497083,14.6496,14.6496,non-mesozoic
+914,Boomslang,1.497083,14.6496,14.6496,non-mesozoic
+915,Microtityus jaumei,1.497083,14.6496,14.6496,non-mesozoic
+916,Water Bug,1.497083,14.6496,14.6496,non-mesozoic
+917,Rocky Mountain Elk,1.494999,14.6292,14.6292,non-mesozoic
+918,Ankylorhiza tiedemani,1.493186,14.6115,14.6115,non-mesozoic
+919,Grey Butcherbird,1.493186,14.6115,14.6115,non-mesozoic
+920,Hemicyon sansaniensis,1.493186,14.6115,14.6115,non-mesozoic
+921,Brown (Norway) Rat (female),1.493186,14.6115,14.6115,non-mesozoic
+922,Cretan Deer,1.493186,14.6115,14.6115,non-mesozoic
+923,Eastern Screech Owl,1.493186,14.6115,14.6115,non-mesozoic
+924,Hurdia victoria,1.493186,14.6115,14.6115,non-mesozoic
+925,New Guinea Crocodile,1.493186,14.6115,14.6115,non-mesozoic
+926,Odontomachus monticola,1.493186,14.6115,14.6115,non-mesozoic
+927,Prairie Yellowjackets (6),1.493186,14.6115,14.6115,non-mesozoic
+928,Spotted Eagle Ray,1.485947,14.5406,14.5406,non-mesozoic
+929,Giant Cheetah,1.476842,14.4515,14.4515,non-mesozoic
+930,Homo erectus (armed with spear),1.475918,14.4425,14.4425,non-mesozoic
+931,American Cheetah,1.460963,14.2962,14.2962,non-mesozoic
+932,Etruscan Shrew,1.460022,14.2869,14.2869,non-mesozoic
+933,Running Hyena,1.449414,14.1831,14.1831,non-mesozoic
+934,Giant Teratorn (flock of 2),1.449307,14.1821,14.1821,non-mesozoic
+935,Cheetah (coalition of 3/4),1.443280,14.1231,14.1231,non-mesozoic
+936,Greater Kudu,1.442834,14.1188,14.1188,non-mesozoic
+937,Dire Wolf,1.441244,14.1032,14.1032,non-mesozoic
+938,Plionarctos edensis,1.436534,14.0571,14.0571,non-mesozoic
+939,Common Quail,1.427523,13.9689,13.9689,non-mesozoic
+940,Amazon (Boto) River Dolphin,1.424974,13.9440,13.9440,non-mesozoic
+941,Homo floresiensis (group of 4) (armed with clubs),1.424365,13.9380,13.9380,non-mesozoic
+942,Lake Darner,1.422334,13.9182,13.9182,non-mesozoic
+943,Hyneria lindae,1.420017,13.8955,13.8955,non-mesozoic
+944,Giant Squid,1.415530,13.8516,13.8516,non-mesozoic
+945,Argali (Mountain Sheep),1.407646,13.7744,13.7744,non-mesozoic
+946,American Scimitar (coalition of 2),1.403014,13.7291,13.7291,non-mesozoic
+947,Red-Bellied Piranha,1.397349,13.6737,13.6737,non-mesozoic
+948,Common Chimpanzee (troop of 3),1.394682,13.6476,13.6476,non-mesozoic
+949,Northern Caiman Lizard,1.389632,13.5981,13.5981,non-mesozoic
+950,Ornithomimus edmontonicus,0.109033,1.0669,13.5869,dinosaur
+951,English Mastiffs (2/3),1.386512,13.5676,13.5676,non-mesozoic
+952,Green Tiger Beetle,1.381706,13.5206,13.5206,non-mesozoic
+953,Atlantic Goliath Grouper Fish,1.376841,13.4730,13.4730,non-mesozoic
+954,Giant Otter Romp (3),1.370511,13.4110,13.4110,non-mesozoic
+955,Velociraptor mongoliensis,0.106927,1.0463,13.3245,dinosaur
+956,Spotted Hyena,1.359449,13.3028,13.3028,non-mesozoic
+957,Auvergne Bear,1.357239,13.2812,13.2812,non-mesozoic
+958,Harp Seal,1.354602,13.2554,13.2554,non-mesozoic
+959,Sun Bear,1.348625,13.1969,13.1969,non-mesozoic
+960,Rainbow Lorikeet,1.345416,13.1655,13.1655,non-mesozoic
+961,Lappet-faced Vultures (venue of 5),1.342128,13.1333,13.1333,non-mesozoic
+962,Simocyon batalleri,1.323236,12.9484,12.9484,non-mesozoic
+963,Wolf Cichlid,1.323130,12.9474,12.9474,non-mesozoic
+964,Indian Boar,1.322492,12.9412,12.9412,non-mesozoic
+965,Dogo Argentino (pack of 2),1.316473,12.8823,12.8823,non-mesozoic
+966,Macroeuphractus outesi,1.314168,12.8597,12.8597,non-mesozoic
+967,Fila Brasileiro (Pack of 3),1.310883,12.8276,12.8276,non-mesozoic
+968,Glacier Bear,1.307733,12.7967,12.7967,non-mesozoic
+969,Dromaeosaurus albertensis,0.101615,0.9943,12.6625,dinosaur
+970,Ruby-throated Hummingbird,1.289125,12.6146,12.6146,non-mesozoic
+971,Dwyer's Snake,1.288047,12.6041,12.6041,non-mesozoic
+972,Water Deer,1.288047,12.6041,12.6041,non-mesozoic
+973,Great Diving Beetle,1.288047,12.6041,12.6041,non-mesozoic
+974,Elk,1.265192,12.3804,12.3804,non-mesozoic
+975,Snow Leopardess,1.263472,12.3636,12.3636,non-mesozoic
+976,Haast's Eagles (2),1.261699,12.3463,12.3463,non-mesozoic
+977,Humans (2),1.256312,12.2936,12.2936,non-mesozoic
+978,Roan Antelope,1.255410,12.2847,12.2847,non-mesozoic
+979,Livestock Gaurdian Donkey,1.251088,12.2424,12.2424,non-mesozoic
+980,Spotted Hyena (male),1.247637,12.2087,12.2087,non-mesozoic
+981,Giant Triton,1.244509,12.1781,12.1781,non-mesozoic
+982,Kangals (2),1.237295,12.1075,12.1075,non-mesozoic
+983,Himalayan Wolves (pack of 2 - 3),1.237271,12.1072,12.1072,non-mesozoic
+984,African Wild Ass,1.235927,12.0941,12.0941,non-mesozoic
+985,Northwestern Wolf (pack of 5),1.228257,12.0190,12.0190,non-mesozoic
+986,Sloth Bear (sow),1.211891,11.8589,11.8589,non-mesozoic
+987,Blackspot Shark,1.211891,11.8589,11.8589,non-mesozoic
+988,Jaragua Dwarf Gecko,1.211891,11.8589,11.8589,non-mesozoic
+989,Chacma Baboon (troop of 5),1.206565,11.8068,11.8068,non-mesozoic
+990,American Bulldogs (pack of 3),1.204922,11.7907,11.7907,non-mesozoic
+991,Blue (Common) Wildebeest,1.200250,11.7450,11.7450,non-mesozoic
+992,Cookiecutter Shark,1.187811,11.6232,11.6232,non-mesozoic
+993,Fire Salamander,1.187811,11.6232,11.6232,non-mesozoic
+994,Southern River Otter,1.187811,11.6232,11.6232,non-mesozoic
+995,Cyprus Dwarf Elephant,1.184360,11.5895,11.5895,non-mesozoic
+996,African Tigerfish,1.171376,11.4624,11.4624,non-mesozoic
+997,Indian Wolf (pack of 3/4),1.167895,11.4284,11.4284,non-mesozoic
+998,Giant Panda,1.164612,11.3962,11.3962,non-mesozoic
+999,Pleistocene African Lion,1.164208,11.3923,11.3923,non-mesozoic
+1000,Nimravus brachyops,1.162203,11.3727,11.3727,non-mesozoic
+1001,Coyote (pack of 4),1.157068,11.3224,11.3224,non-mesozoic
+1002,Red Deer,1.155172,11.3039,11.3039,non-mesozoic
+1003,Lesser Stripetail Scorpion,1.152324,11.2760,11.2760,non-mesozoic
+1004,Daphoenodon spp.,1.146011,11.2142,11.2142,non-mesozoic
+1005,Neanderthal (unarmed),1.140922,11.1644,11.1644,non-mesozoic
+1006,Dhole (Pack of 6/7),1.121927,10.9785,10.9785,non-mesozoic
+1007,American Foxhound (pack of 4),1.120569,10.9653,10.9653,non-mesozoic
+1008,Boverisuchus magnifrons,1.111960,10.8810,10.8810,non-mesozoic
+1009,Thylacine (hunting pair),1.106556,10.8281,10.8281,non-mesozoic
+1010,Lappet-faced Vulture (venue of 3),1.103383,10.7971,10.7971,non-mesozoic
+1011,African Rock Python,1.095502,10.7200,10.7200,non-mesozoic
+1012,Bush Dog (pack of 8),1.083917,10.6066,10.6066,non-mesozoic
+1013,Red Bull Ant,1.081137,10.5794,10.5794,non-mesozoic
+1014,Komodo Dragon (male),1.080047,10.5687,10.5687,non-mesozoic
+1015,Indian Leopard,1.078420,10.5528,10.5528,non-mesozoic
+1016,Tosa Inus (2),1.073336,10.5031,10.5031,non-mesozoic
+1017,Cowtail Stingray,1.071088,10.4811,10.4811,non-mesozoic
+1018,Brazilian she-Puma,1.066171,10.4329,10.4329,non-mesozoic
+1019,Giant Short-faced Kangaroo,1.061739,10.3896,10.3896,non-mesozoic
+1020,(Eastern) Black Carpenter Ant,1.053452,10.3085,10.3085,non-mesozoic
+1021,African Crowned Eagle (female),1.053452,10.3085,10.3085,non-mesozoic
+1022,Alaskan Moose (bull),1.053452,10.3085,10.3085,non-mesozoic
+1023,Arizona Bark Scorpion,1.053452,10.3085,10.3085,non-mesozoic
+1024,Atlantic Sailfish,1.053452,10.3085,10.3085,non-mesozoic
+1025,Australian (Common) Blue-tongued Skink,1.053452,10.3085,10.3085,non-mesozoic
+1026,Beringian Wolf,1.053452,10.3085,10.3085,non-mesozoic
+1027,Bluff Downs Giant Python,1.053452,10.3085,10.3085,non-mesozoic
+1028,Bornean Tiger,1.053452,10.3085,10.3085,non-mesozoic
+1029,Eastern Barred Bandicoot,1.053452,10.3085,10.3085,non-mesozoic
+1030,Eurasian Hoopoe,1.053452,10.3085,10.3085,non-mesozoic
+1031,European Bee-eater,1.053452,10.3085,10.3085,non-mesozoic
+1032,European Green Woodpecker,1.053452,10.3085,10.3085,non-mesozoic
+1033,European Hedgehog,1.053452,10.3085,10.3085,non-mesozoic
+1034,Giant Green Anemone,1.053452,10.3085,10.3085,non-mesozoic
+1035,Greater Banded Hornet,1.053452,10.3085,10.3085,non-mesozoic
+1036,Green Kingfisher,1.053452,10.3085,10.3085,non-mesozoic
+1037,Harpy Eagle (male),1.053452,10.3085,10.3085,non-mesozoic
+1038,Land Mullet,1.053452,10.3085,10.3085,non-mesozoic
+1039,Lion's Mane Jellyfish,1.053452,10.3085,10.3085,non-mesozoic
+1040,Miracinonyx trumani,1.053452,10.3085,10.3085,non-mesozoic
+1041,Mountain Bluebird (flock of 5),1.053452,10.3085,10.3085,non-mesozoic
+1042,North American Wheel Bug,1.053452,10.3085,10.3085,non-mesozoic
+1043,Pterygotus grandidentatus,1.053452,10.3085,10.3085,non-mesozoic
+1044,Sambir Lion,1.053452,10.3085,10.3085,non-mesozoic
+1045,Shining Bronze-cuckoo,1.053452,10.3085,10.3085,non-mesozoic
+1046,Six-spot Ground Beetle,1.053452,10.3085,10.3085,non-mesozoic
+1047,Tartarocyon cazanavei,1.053452,10.3085,10.3085,non-mesozoic
+1048,Titanophoneus potens,1.053452,10.3085,10.3085,non-mesozoic
+1049,Titanosuchus ferox,1.053452,10.3085,10.3085,non-mesozoic
+1050,Wood Bison (cow),1.053452,10.3085,10.3085,non-mesozoic
+1051,Magnificent Sea Anemone,1.024774,10.0279,10.0279,non-mesozoic
+1052,Atlantic Portuguese Man o' War,1.024402,10.0242,10.0242,non-mesozoic
+1053,Tibetan Mastiffs (2),1.006681,9.8508,9.8508,non-mesozoic
+1054,Plains (Common) Zebra (Stallion),1.005138,9.8357,9.8357,non-mesozoic
+1055,Kangals (5),1.003318,9.8179,9.8179,non-mesozoic
+1056,Rottweilers (3),1.003263,9.8174,9.8174,non-mesozoic
+1057,Bipalium kewense,1.000456,9.7899,9.7899,non-mesozoic
+1058,Vaquita,0.999544,9.7810,9.7810,non-mesozoic
+1059,Himalayan Wolf (pack of 2),0.998818,9.7739,9.7739,non-mesozoic
+1060,Mbu Puffer,0.998772,9.7734,9.7734,non-mesozoic
+1061,Leopardess,0.998693,9.7726,9.7726,non-mesozoic
+1062,American Bald Eagles (2),0.998494,9.7707,9.7707,non-mesozoic
+1063,Ursavus elmensis,0.988863,9.6765,9.6765,non-mesozoic
+1064,Citipati osmolskae,0.076920,0.7527,9.5852,dinosaur
+1065,Giant Otter Romp (2/3),0.968387,9.4761,9.4761,non-mesozoic
+1066,Mandrill (coalition of 2),0.968013,9.4724,9.4724,non-mesozoic
+1067,Eurasian Lynx (male),0.963834,9.4315,9.4315,non-mesozoic
+1068,Red-footed Cannibalfly,0.963418,9.4275,9.4275,non-mesozoic
+1069,Bearded (Square Flipper) Seal,0.959574,9.3898,9.3898,non-mesozoic
+1070,Dhole (Pack of 3),0.959526,9.3894,9.3894,non-mesozoic
+1071,Dhole (Pack of 4),0.959507,9.3892,9.3892,non-mesozoic
+1072,Spotted Hyenas (clan of 5),0.953232,9.3278,9.3278,non-mesozoic
+1073,Stone Centipede,0.942733,9.2250,9.2250,non-mesozoic
+1074,Synoplotherium vorax,0.939196,9.1904,9.1904,non-mesozoic
+1075,European Medicinal Leech,0.934291,9.1424,9.1424,non-mesozoic
+1076,Guineafowl Puffer,0.934291,9.1424,9.1424,non-mesozoic
+1077,Megapiranha paranensis,0.934291,9.1424,9.1424,non-mesozoic
+1078,European Dwarf Mantis,0.931357,9.1137,9.1137,non-mesozoic
+1079,Giant Forest Ant,0.930593,9.1063,9.1063,non-mesozoic
+1080,Kitti's Hog-nosed Bat,0.929067,9.0913,9.0913,non-mesozoic
+1081,Common Chimpanzee (troop of 2),0.917627,8.9794,8.9794,non-mesozoic
+1082,Colorado Potato Beetle,0.915726,8.9608,8.9608,non-mesozoic
+1083,Titan Triggerfish,0.915726,8.9608,8.9608,non-mesozoic
+1084,Cantabrian Brown Bear (sow),0.915726,8.9608,8.9608,non-mesozoic
+1085,Black Mouth Curs (2),0.912814,8.9323,8.9323,non-mesozoic
+1086,Mishmi Takin,0.896942,8.7770,8.7770,non-mesozoic
+1087,Neanderthal (both unarmed),0.889158,8.7008,8.7008,non-mesozoic
+1088,Snow Leopard,0.885495,8.6650,8.6650,non-mesozoic
+1089,Mangrove Snapper,0.884657,8.6568,8.6568,non-mesozoic
+1090,Velociraptor mongoliensis (pack of 2),0.069265,0.6778,8.6313,dinosaur
+1091,Blue-eyed Darner,0.880336,8.6145,8.6145,non-mesozoic
+1092,Cheetah (male),0.878342,8.5950,8.5950,non-mesozoic
+1093,Cheetah (coalition of 2),0.877162,8.5834,8.5834,non-mesozoic
+1094,Common Warthog (sow),0.876476,8.5767,8.5767,non-mesozoic
+1095,Giant Trevally,0.874119,8.5536,8.5536,non-mesozoic
+1096,Indian Crested Porcupine,0.866059,8.4748,8.4748,non-mesozoic
+1097,Fang's Pufferfish,0.861584,8.4310,8.4310,non-mesozoic
+1098,Australian Giant Mantis,0.861584,8.4310,8.4310,non-mesozoic
+1099,Nuralagus rex,0.861584,8.4310,8.4310,non-mesozoic
+1100,Desert Warthog,0.860244,8.4179,8.4179,non-mesozoic
+1101,Giant Grouper,0.859980,8.4153,8.4153,non-mesozoic
+1102,Belgian Malinois (2),0.857735,8.3933,8.3933,non-mesozoic
+1103,Dwarf Sperm Whale,0.855688,8.3733,8.3733,non-mesozoic
+1104,Eastern Gorilla (female),0.852328,8.3404,8.3404,non-mesozoic
+1105,African Wild Dog (pack of 2),0.851834,8.3356,8.3356,non-mesozoic
+1106,Common Warthog,0.843433,8.2534,8.2534,non-mesozoic
+1107,Ocellated Skink,0.834935,8.1702,8.1702,non-mesozoic
+1108,Galgo Patagonico,0.834924,8.1701,8.1701,non-mesozoic
+1109,Megarian Banded Centipede,0.833380,8.1550,8.1550,non-mesozoic
+1110,Maine Coon Cat,0.833161,8.1528,8.1528,non-mesozoic
+1111,Reticulated Python,0.824156,8.0647,8.0647,non-mesozoic
+1112,Eurasian Wolf,0.821206,8.0359,8.0359,non-mesozoic
+1113,Atlantic Torpedo,0.819252,8.0167,8.0167,non-mesozoic
+1114,Iberian Wolf,0.818453,8.0089,8.0089,non-mesozoic
+1115,Gastornis gigantea,0.807962,7.9063,7.9063,non-mesozoic
+1116,Tundra Wolf,0.800860,7.8368,7.8368,non-mesozoic
+1117,Blue Shark,0.798921,7.8178,7.8178,non-mesozoic
+1118,Common Chimpanzee (troop of 4),0.796091,7.7901,7.7901,non-mesozoic
+1119,Wonambi naracoortensi,0.792730,7.7572,7.7572,non-mesozoic
+1120,Steppe Bison,0.790983,7.7401,7.7401,non-mesozoic
+1121,Staghounds (2),0.783367,7.6656,7.6656,non-mesozoic
+1122,Red River Hog,0.781500,7.6473,7.6473,non-mesozoic
+1123,East European Shepherds (2),0.780045,7.6331,7.6331,non-mesozoic
+1124,Golden-ringed Dragonfly,0.776081,7.5943,7.5943,non-mesozoic
+1125,Lowland Anoa,0.767764,7.5129,7.5129,non-mesozoic
+1126,Asiatic Cheetah (coalition of 3 - 4),0.767104,7.5064,7.5064,non-mesozoic
+1127,Sea Gooseberry,0.763835,7.4745,7.4745,non-mesozoic
+1128,Balearic Islands Cave Goat,0.743217,7.2727,7.2727,non-mesozoic
+1129,Black Rat (male),0.743217,7.2727,7.2727,non-mesozoic
+1130,Eastern Grey Squirrel,0.743217,7.2727,7.2727,non-mesozoic
+1131,Emerald Cuckoo Wasp,0.743217,7.2727,7.2727,non-mesozoic
+1132,Hall's New Guinea Crocodile,0.743217,7.2727,7.2727,non-mesozoic
+1133,Rosecone Cuttlefish,0.743217,7.2727,7.2727,non-mesozoic
+1134,Texas Horned Lizard,0.743217,7.2727,7.2727,non-mesozoic
+1135,Grey Shrikethrush (mated pair),0.743217,7.2727,7.2727,non-mesozoic
+1136,Mukupirna nambensis,0.743217,7.2727,7.2727,non-mesozoic
+1137,Brown Hyena,0.742924,7.2698,7.2698,non-mesozoic
+1138,Goliath Tigerfish,0.741639,7.2573,7.2573,non-mesozoic
+1139,Four-toed Hedgehog,0.741282,7.2538,7.2538,non-mesozoic
+1140,Jack Jumper Ant,0.741282,7.2538,7.2538,non-mesozoic
+1141,Predaceous Diving Beetle,0.741282,7.2538,7.2538,non-mesozoic
+1142,Hyracotherium leporinum,0.741282,7.2538,7.2538,non-mesozoic
+1143,Hyaenodon horridus,0.740615,7.2472,7.2472,non-mesozoic
+1144,Giant Otter (Boar),0.740304,7.2442,7.2442,non-mesozoic
+1145,Broad-snouted Caiman,0.740304,7.2442,7.2442,non-mesozoic
+1146,Tasmanian Giant Crab (male),0.740304,7.2442,7.2442,non-mesozoic
+1147,Giant Black Camel Spider,0.740110,7.2423,7.2423,non-mesozoic
+1148,Dinopithecus ingens (troop of 3),0.739060,7.2320,7.2320,non-mesozoic
+1149,Little Fire Ants (2 - 3),0.738564,7.2272,7.2272,non-mesozoic
+1150,Red Imported Fire Ant,0.733335,7.1760,7.1760,non-mesozoic
+1151,African Leopard (Congo),0.722885,7.0737,7.0737,non-mesozoic
+1152,Northwestern Wolf,0.716571,7.0120,7.0120,non-mesozoic
+1153,Patriofelis ferox,0.716409,7.0104,7.0104,non-mesozoic
+1154,Rhodesian Ridgebacks (2),0.708516,6.9331,6.9331,non-mesozoic
+1155,Boston Terrier,0.708288,6.9309,6.9309,non-mesozoic
+1156,Sun Bear (boar),0.707119,6.9195,6.9195,non-mesozoic
+1157,Yacare Caiman,0.704474,6.8936,6.8936,non-mesozoic
+1158,Brown Fur Seal,0.700168,6.8514,6.8514,non-mesozoic
+1159,Borophagus parvus,0.697476,6.8251,6.8251,non-mesozoic
+1160,Marimbondo-tatu,0.692114,6.7726,6.7726,non-mesozoic
+1161,Western Black Widow Spider,0.692114,6.7726,6.7726,non-mesozoic
+1162,Basilosaurus isus,0.691031,6.7620,6.7620,non-mesozoic
+1163,Common Garter Snake,0.691031,6.7620,6.7620,non-mesozoic
+1164,Rottweilers (2),0.690403,6.7559,6.7559,non-mesozoic
+1165,Dingo (pack of 3/4),0.689785,6.7498,6.7498,non-mesozoic
+1166,Arabian Leopard,0.686975,6.7223,6.7223,non-mesozoic
+1167,Ganges Shark,0.685789,6.7107,6.7107,non-mesozoic
+1168,Grey Wolf,0.679730,6.6515,6.6515,non-mesozoic
+1169,Bighorn Sheep,0.676552,6.6204,6.6204,non-mesozoic
+1170,Eurasian (European) Beaver,0.675338,6.6085,6.6085,non-mesozoic
+1171,Grivet,0.675338,6.6085,6.6085,non-mesozoic
+1172,House Centipede,0.675338,6.6085,6.6085,non-mesozoic
+1173,Dromedary (Arabian) Camel (cow),0.675338,6.6085,6.6085,non-mesozoic
+1174,Giant Northern Termite,0.675338,6.6085,6.6085,non-mesozoic
+1175,Stygian Robber,0.675338,6.6085,6.6085,non-mesozoic
+1176,East Timor Giant Rat,0.674305,6.5984,6.5984,non-mesozoic
+1177,American Black Bear (sow from Montana),0.673874,6.5941,6.5941,non-mesozoic
+1178,Mainland Serow,0.671521,6.5711,6.5711,non-mesozoic
+1179,Great Grey (Northern) Shrike,0.667570,6.5325,6.5325,non-mesozoic
+1180,East Indian Harvesting Ants (2),0.666698,6.5239,6.5239,non-mesozoic
+1181,Texas Longhorn,0.660913,6.4673,6.4673,non-mesozoic
+1182,Common Thresher Shark,0.660647,6.4647,6.4647,non-mesozoic
+1183,Western Gorilla (female),0.660125,6.4596,6.4596,non-mesozoic
+1184,Northern Fur Seal,0.657638,6.4353,6.4353,non-mesozoic
+1185,Pampas Fox,0.655630,6.4156,6.4156,non-mesozoic
+1186,Cape Leopard,0.644895,6.3106,6.3106,non-mesozoic
+1187,Australian Giant Cuttlefish,0.642133,6.2835,6.2835,non-mesozoic
+1188,Numbat,0.642133,6.2835,6.2835,non-mesozoic
+1189,Saga pedo,0.642133,6.2835,6.2835,non-mesozoic
+1190,Baird's Beaked Whale,0.641593,6.2783,6.2783,non-mesozoic
+1191,Alpine Mastiff,0.641021,6.2727,6.2727,non-mesozoic
+1192,South Island Giant Moa,0.635341,6.2171,6.2171,non-mesozoic
+1193,West Caucasian Tur,0.631898,6.1834,6.1834,non-mesozoic
+1194,Greater Blue-ringed Octopus,0.622731,6.0937,6.0937,non-mesozoic
+1195,Himalayan Wolf,0.622483,6.0913,6.0913,non-mesozoic
+1196,South American (Brazilian) Tapir,0.620229,6.0692,6.0692,non-mesozoic
+1197,Honey Badger (male),0.619957,6.0665,6.0665,non-mesozoic
+1198,Asiatic Cheetah,0.619824,6.0652,6.0652,non-mesozoic
+1199,African Leopardess,0.616400,6.0317,6.0317,non-mesozoic
+1200,Wakaleo vanderleuri,0.616323,6.0310,6.0310,non-mesozoic
+1201,Barbary Sheep,0.612600,5.9946,5.9946,non-mesozoic
+1202,Common Tern,0.612600,5.9946,5.9946,non-mesozoic
+1203,Megacephala virginica,0.612600,5.9946,5.9946,non-mesozoic
+1204,Common Buzzard,0.612600,5.9946,5.9946,non-mesozoic
+1205,Domestic Yak,0.612600,5.9946,5.9946,non-mesozoic
+1206,Horse-leech,0.612600,5.9946,5.9946,non-mesozoic
+1207,Kaluga Sturgeon,0.612600,5.9946,5.9946,non-mesozoic
+1208,Mombasa Golden Starburst Tarantula,0.612600,5.9946,5.9946,non-mesozoic
+1209,Painted Coral Snake,0.612600,5.9946,5.9946,non-mesozoic
+1210,Greater Arid-land Katydid,0.610423,5.9733,5.9733,non-mesozoic
+1211,Cimarrón Uruguayo (2),0.609690,5.9661,5.9661,non-mesozoic
+1212,Chain Pickerel,0.602059,5.8914,5.8914,non-mesozoic
+1213,Bush Dog (pack of 4),0.599934,5.8706,5.8706,non-mesozoic
+1214,Anatolian Shepherd Dog,0.596375,5.8358,5.8358,non-mesozoic
+1215,House Sparrow,0.593371,5.8064,5.8064,non-mesozoic
+1216,Pasimachus depressus,0.586077,5.7350,5.7350,non-mesozoic
+1217,Dwarf Crocodile,0.585603,5.7304,5.7304,non-mesozoic
+1218,Burmese Python,0.584913,5.7236,5.7236,non-mesozoic
+1219,Sun Bear (sow),0.577306,5.6492,5.6492,non-mesozoic
+1220,Brown Hyena (male),0.577255,5.6487,5.6487,non-mesozoic
+1221,Dingo (pack of 2/3),0.574559,5.6223,5.6223,non-mesozoic
+1222,Chacma Baboon (troop of 2),0.574030,5.6171,5.6171,non-mesozoic
+1223,American Robin,0.568821,5.5662,5.5662,non-mesozoic
+1224,Olive Baboon (troop of 4),0.568101,5.5591,5.5591,non-mesozoic
+1225,Synthetoceras tricornatus,0.563724,5.5163,5.5163,non-mesozoic
+1226,Northern Boa,0.561752,5.4970,5.4970,non-mesozoic
+1227,White-tailed Deer,0.559046,5.4705,5.4705,non-mesozoic
+1228,Malayan Tapir,0.556926,5.4498,5.4498,non-mesozoic
+1229,Bushpig,0.555313,5.4340,5.4340,non-mesozoic
+1230,Indian Pangolin,0.552846,5.4098,5.4098,non-mesozoic
+1231,Spectacled (Common) Caiman,0.550496,5.3868,5.3868,non-mesozoic
+1232,Northern Quoll,0.548420,5.3665,5.3665,non-mesozoic
+1233,Electric Eel,0.539763,5.2818,5.2818,non-mesozoic
+1234,Spotted Hyena (large female),0.539670,5.2809,5.2809,non-mesozoic
+1235,Reindeer (Caribou),0.539066,5.2750,5.2750,non-mesozoic
+1236,Cape Leopardess,0.534376,5.2291,5.2291,non-mesozoic
+1237,Archaic Human,0.531906,5.2049,5.2049,non-mesozoic
+1238,American Hog-nosed Skunk,0.531234,5.1984,5.1984,non-mesozoic
+1239,Punganur Dwarf Cattle (Bull),0.531234,5.1984,5.1984,non-mesozoic
+1240,Wallago Catfish,0.531234,5.1984,5.1984,non-mesozoic
+1241,Beroid Comb Jelly,0.531234,5.1984,5.1984,non-mesozoic
+1242,Chinese Goral,0.531234,5.1984,5.1984,non-mesozoic
+1243,Giant Water Bug,0.531234,5.1984,5.1984,non-mesozoic
+1244,Morning Sun Star,0.531234,5.1984,5.1984,non-mesozoic
+1245,Red-headed Mouse Spider,0.531234,5.1984,5.1984,non-mesozoic
+1246,Woodlouse Spider,0.531234,5.1984,5.1984,non-mesozoic
+1247,Clouded Leopardess,0.531214,5.1982,5.1982,non-mesozoic
+1248,Saint Bernard,0.530372,5.1899,5.1899,non-mesozoic
+1249,Fisher (male),0.528994,5.1764,5.1764,non-mesozoic
+1250,Neanderthal,0.528286,5.1695,5.1695,non-mesozoic
+1251,Mountain Goat,0.528195,5.1686,5.1686,non-mesozoic
+1252,Siberian Husky (3),0.524612,5.1336,5.1336,non-mesozoic
+1253,Striped Hyena,0.521697,5.1050,5.1050,non-mesozoic
+1254,Psittacosaurus lujiatunensis,0.040425,0.3956,5.0375,dinosaur
+1255,East African Wild Dog,0.514617,5.0357,5.0357,non-mesozoic
+1256,Caracal (female),0.514207,5.0317,5.0317,non-mesozoic
+1257,Homo floresiensis (armed with a spear),0.512185,5.0120,5.0120,non-mesozoic
+1258,Olive Baboon (troop of 6),0.500565,4.8982,4.8982,non-mesozoic
+1259,Dimetrodon angelensis,0.495853,4.8521,4.8521,non-mesozoic
+1260,Orca,0.495853,4.8521,4.8521,non-mesozoic
+1261,Baird's Tapir,0.493757,4.8316,4.8316,non-mesozoic
+1262,Dusky Dolphin,0.491502,4.8096,4.8096,non-mesozoic
+1263,Giant Otter Romp (4),0.485369,4.7495,4.7495,non-mesozoic
+1264,Jagdterriers (pack of 2),0.485200,4.7479,4.7479,non-mesozoic
+1265,Arctic Wolf,0.485198,4.7479,4.7479,non-mesozoic
+1266,Dutch Shepherd (pack of 3),0.482415,4.7206,4.7206,non-mesozoic
+1267,Swamp Darner,0.482283,4.7193,4.7193,non-mesozoic
+1268,Northwestern She-wolf,0.481167,4.7084,4.7084,non-mesozoic
+1269,West Indian Ocean Coelacanth,0.481167,4.7084,4.7084,non-mesozoic
+1270,Flat Needlefish,0.481167,4.7084,4.7084,non-mesozoic
+1271,Western Jackdaw,0.481167,4.7084,4.7084,non-mesozoic
+1272,American Feral Pig,0.481119,4.7080,4.7080,non-mesozoic
+1273,English Mastiff,0.480916,4.7060,4.7060,non-mesozoic
+1274,Spatterdock Darner,0.480162,4.6986,4.6986,non-mesozoic
+1275,Northern Elephant Seal (Bull),0.477875,4.6762,4.6762,non-mesozoic
+1276,Giant Pangolin,0.477416,4.6717,4.6717,non-mesozoic
+1277,German Shepherds (2),0.472458,4.6232,4.6232,non-mesozoic
+1278,Bornean Orangutan,0.470048,4.5996,4.5996,non-mesozoic
+1279,Jaekelopterus rhenaniae,0.465057,4.5508,4.5508,non-mesozoic
+1280,Yellow Anaconda,0.463779,4.5383,4.5383,non-mesozoic
+1281,Pleistocene Coyote,0.463660,4.5371,4.5371,non-mesozoic
+1282,Woodward's Eagle,0.461434,4.5153,4.5153,non-mesozoic
+1283,Bush Dog (pack of 6/7),0.459832,4.4997,4.4997,non-mesozoic
+1284,Sphenacodon ferox,0.459459,4.4960,4.4960,non-mesozoic
+1285,Tayras (5),0.457565,4.4775,4.4775,non-mesozoic
+1286,American Akitas (2),0.456522,4.4673,4.4673,non-mesozoic
+1287,Snowshoe Hare,0.452834,4.4312,4.4312,non-mesozoic
+1288,Giant Anteater,0.452273,4.4257,4.4257,non-mesozoic
+1289,Anachlysictis gracilis,0.441158,4.3169,4.3169,non-mesozoic
+1290,Clouded Leopard (male),0.434483,4.2516,4.2516,non-mesozoic
+1291,Bullmastiff,0.433723,4.2442,4.2442,non-mesozoic
+1292,Bully Kutta,0.430385,4.2115,4.2115,non-mesozoic
+1293,Bed Bug,0.429554,4.2034,4.2034,non-mesozoic
+1294,Blue Whale Catfish,0.429554,4.2034,4.2034,non-mesozoic
+1295,La Plata Dolphin (pod of 3),0.429554,4.2034,4.2034,non-mesozoic
+1296,Red Paper Wasp,0.429554,4.2034,4.2034,non-mesozoic
+1297,Steppe Wolf,0.421348,4.1231,4.1231,non-mesozoic
+1298,Bush Dog (pack of 7),0.419707,4.1070,4.1070,non-mesozoic
+1299,Human (male),0.418169,4.0920,4.0920,non-mesozoic
+1300,Arapaima (Pirarucu),0.416738,4.0780,4.0780,non-mesozoic
+1301,Dinopithecus ingens,0.414935,4.0603,4.0603,non-mesozoic
+1302,Coastal Carpet Python,0.414083,4.0520,4.0520,non-mesozoic
+1303,Borophagus diversidens,0.413998,4.0511,4.0511,non-mesozoic
+1304,African Wild Dog (pack of 7),0.412837,4.0398,4.0398,non-mesozoic
+1305,Central Asian Shepherd Dog (Alabai),0.412410,4.0356,4.0356,non-mesozoic
+1306,Central European Boar,0.410801,4.0199,4.0199,non-mesozoic
+1307,Rocky Mountain Bighorn Sheep,0.410322,4.0152,4.0152,non-mesozoic
+1308,Saint Bernards (2),0.409410,4.0063,4.0063,non-mesozoic
+1309,Gastornis parisiensis,0.409152,4.0037,4.0037,non-mesozoic
+1310,Sea Otter (Romp of 2),0.409152,4.0037,4.0037,non-mesozoic
+1311,Asiatic Golden Cat,0.405728,3.9702,3.9702,non-mesozoic
+1312,Indian Python,0.404860,3.9617,3.9617,non-mesozoic
+1313,Coelophysis bauri,0.031354,0.3068,3.9071,dinosaur
+1314,Ostrich,0.397571,3.8904,3.8904,non-mesozoic
+1315,Eastern Coyote (Coywolf),0.396890,3.8837,3.8837,non-mesozoic
+1316,Brown hyena,0.396080,3.8758,3.8758,non-mesozoic
+1317,Blacktip Shark,0.395824,3.8733,3.8733,non-mesozoic
+1318,Dhole (Pack of 2),0.385709,3.7743,3.7743,non-mesozoic
+1319,Lystrosaurus maccaigi,0.383218,3.7500,3.7500,non-mesozoic
+1320,Mexican Wolf (pack of 2),0.382685,3.7447,3.7447,non-mesozoic
+1321,Dogo Argentino,0.375462,3.6741,3.6741,non-mesozoic
+1322,Giant Armadillo,0.375194,3.6714,3.6714,non-mesozoic
+1323,Alano Español,0.373156,3.6515,3.6515,non-mesozoic
+1324,Neanderthal (pack of 4),0.372390,3.6440,3.6440,non-mesozoic
+1325,Human,0.372323,3.6433,3.6433,non-mesozoic
+1326,Obdurodon tharalkooschild,0.368247,3.6035,3.6035,non-mesozoic
+1327,Bush Dog (pack of 5),0.363624,3.5582,3.5582,non-mesozoic
+1328,Egyptian Mongoose,0.355773,3.4814,3.4814,non-mesozoic
+1329,Key Deer (Doe),0.355374,3.4775,3.4775,non-mesozoic
+1330,Human (strong male),0.354679,3.4707,3.4707,non-mesozoic
+1331,Alligator Gar,0.349464,3.4197,3.4197,non-mesozoic
+1332,Marsh Deer,0.349198,3.4171,3.4171,non-mesozoic
+1333,Coyote (pack of 2),0.348533,3.4105,3.4105,non-mesozoic
+1334,Karelian Bear Dogs (3),0.341915,3.3458,3.3458,non-mesozoic
+1335,Collared Peccary (Javelina) (pack of 2),0.340099,3.3280,3.3280,non-mesozoic
+1336,Eurasian Lynx (female),0.339496,3.3221,3.3221,non-mesozoic
+1337,Olive Python,0.338991,3.3172,3.3172,non-mesozoic
+1338,Kalahari Cheetah,0.338790,3.3152,3.3152,non-mesozoic
+1339,Caucasian Shepherd Dog,0.337266,3.3003,3.3003,non-mesozoic
+1340,Ankole-Watusi,0.336839,3.2961,3.2961,non-mesozoic
+1341,Bonelli's Eagle (female),0.335485,3.2829,3.2829,non-mesozoic
+1342,Pteranodon longiceps,0.093924,0.9191,3.2798,mesozoic-other
+1343,Yacare Caiman (on land),0.334573,3.2739,3.2739,non-mesozoic
+1344,Burr Lee Bullstag,0.333453,3.2630,3.2630,non-mesozoic
+1345,Armbruster's Wolf,0.332371,3.2524,3.2524,non-mesozoic
+1346,Great Danes (2),0.331850,3.2473,3.2473,non-mesozoic
+1347,Scalloped Hammerhead,0.331575,3.2446,3.2446,non-mesozoic
+1348,Chinese Alligator,0.331151,3.2405,3.2405,non-mesozoic
+1349,Seawolf (Atlantic Wolffish),0.328064,3.2102,3.2102,non-mesozoic
+1350,Steller's Sea Cow,0.327276,3.2025,3.2025,non-mesozoic
+1351,Dinictis felina,0.327258,3.2024,3.2024,non-mesozoic
+1352,Spiny-tailed Monitor,0.326871,3.1986,3.1986,non-mesozoic
+1353,Bigclaw Snapping Shrimp,0.326771,3.1976,3.1976,non-mesozoic
+1354,Linheraptor exquisitus,0.025439,0.2489,3.1700,dinosaur
+1355,Eastern Wolf,0.321428,3.1453,3.1453,non-mesozoic
+1356,Swinford Bandog,0.320494,3.1362,3.1362,non-mesozoic
+1357,Andalgalornis steulleti,0.320487,3.1361,3.1361,non-mesozoic
+1358,Giant Otter,0.320087,3.1322,3.1322,non-mesozoic
+1359,Lesser Kudu,0.319386,3.1253,3.1253,non-mesozoic
+1360,Tosa Inu,0.317099,3.1030,3.1030,non-mesozoic
+1361,Haast's Eagle,0.314529,3.0778,3.0778,non-mesozoic
+1362,Andean Condors (2),0.313556,3.0683,3.0683,non-mesozoic
+1363,Neapolitan Mastiff,0.307705,3.0110,3.0110,non-mesozoic
+1364,Alligator Snapping Turtle,0.303927,2.9741,2.9741,non-mesozoic
+1365,Sunda Clouded Leopard,0.303888,2.9737,2.9737,non-mesozoic
+1366,Dhole (female),0.300016,2.9358,2.9358,non-mesozoic
+1367,Great Blue Skimmer,0.299076,2.9266,2.9266,non-mesozoic
+1368,Rottweiler,0.298180,2.9178,2.9178,non-mesozoic
+1369,European Rabbit,0.297657,2.9127,2.9127,non-mesozoic
+1370,Mexican Wolf,0.297540,2.9116,2.9116,non-mesozoic
+1371,Staffordshire Bull Terriers (3),0.294820,2.8849,2.8849,non-mesozoic
+1372,Proterogyrinus scheeleri,0.294015,2.8771,2.8771,non-mesozoic
+1373,Cane (Giant) Toad,0.293911,2.8760,2.8760,non-mesozoic
+1374,Šarplaninac,0.292281,2.8601,2.8601,non-mesozoic
+1375,Archaeoindris fontoynonti,0.291892,2.8563,2.8563,non-mesozoic
+1376,Mountain Bluebird,0.291701,2.8544,2.8544,non-mesozoic
+1377,Sea Otter,0.291631,2.8537,2.8537,non-mesozoic
+1378,Aardvark,0.291441,2.8519,2.8519,non-mesozoic
+1379,Vechur Cattle,0.290077,2.8385,2.8385,non-mesozoic
+1380,Bush Dogs (pack 4/5),0.288891,2.8269,2.8269,non-mesozoic
+1381,American Bulldog,0.287721,2.8155,2.8155,non-mesozoic
+1382,Theriodictis platensis,0.287556,2.8139,2.8139,non-mesozoic
+1383,Cheetah,0.286439,2.8029,2.8029,non-mesozoic
+1384,Red Kangaroo,0.285898,2.7976,2.7976,non-mesozoic
+1385,White-headed Vultures (3),0.285176,2.7906,2.7906,non-mesozoic
+1386,Bili Ape,0.284076,2.7798,2.7798,non-mesozoic
+1387,American Pit Bull Terriers (3),0.282779,2.7671,2.7671,non-mesozoic
+1388,Tibetan Mastiff,0.281624,2.7558,2.7558,non-mesozoic
+1389,New Guinea Singing Dog,0.279774,2.7377,2.7377,non-mesozoic
+1390,Boa Constrictor,0.278144,2.7218,2.7218,non-mesozoic
+1391,Homo erectus,0.270869,2.6506,2.6506,non-mesozoic
+1392,Ekorus ekakeran,0.268390,2.6263,2.6263,non-mesozoic
+1393,Ethiopian Wolf (Simian jackal) (pack of 2),0.265801,2.6010,2.6010,non-mesozoic
+1394,Kalahari Cheetah (female),0.263551,2.5790,2.5790,non-mesozoic
+1395,Giant Otter Romp (2),0.262753,2.5712,2.5712,non-mesozoic
+1396,Fila Brasileiro,0.260811,2.5521,2.5521,non-mesozoic
+1397,Guanaco,0.256537,2.5103,2.5103,non-mesozoic
+1398,Clouded Leopard,0.256348,2.5085,2.5085,non-mesozoic
+1399,Brazilian Whiteknee Tarantula,0.255880,2.5039,2.5039,non-mesozoic
+1400,Bloodhound,0.255536,2.5005,2.5005,non-mesozoic
+1401,Pakicetus inachus,0.253502,2.4806,2.4806,non-mesozoic
+1402,Olive Baboon (troop of 2),0.253391,2.4795,2.4795,non-mesozoic
+1403,Wolverine,0.252653,2.4723,2.4723,non-mesozoic
+1404,Dhole (pack of 2),0.252217,2.4681,2.4681,non-mesozoic
+1405,Capybara,0.247363,2.4206,2.4206,non-mesozoic
+1406,Cane Corso,0.245526,2.4026,2.4026,non-mesozoic
+1407,Lappet-faced Vultures (venue of 3),0.240544,2.3538,2.3538,non-mesozoic
+1408,Pyrenean Mountain Dog,0.240507,2.3535,2.3535,non-mesozoic
+1409,Mandrill,0.234128,2.2910,2.2910,non-mesozoic
+1410,Wakaleo schouteni,0.233857,2.2884,2.2884,non-mesozoic
+1411,Jagdterriers (pack of3/4),0.231605,2.2664,2.2664,non-mesozoic
+1412,Giant Teratorn,0.230261,2.2532,2.2532,non-mesozoic
+1413,Northern River Shark,0.229633,2.2471,2.2471,non-mesozoic
+1414,Mackenzie Valley Wolf,0.228807,2.2390,2.2390,non-mesozoic
+1415,Harpy Eagle (pair),0.228615,2.2371,2.2371,non-mesozoic
+1416,Hapalops spp.,0.227941,2.2305,2.2305,non-mesozoic
+1417,North American Beaver,0.225995,2.2115,2.2115,non-mesozoic
+1418,Grey Wolf (female),0.225940,2.2109,2.2109,non-mesozoic
+1419,Common Chimpanzee,0.225084,2.2025,2.2025,non-mesozoic
+1420,Ornitholestes hermanni,0.017434,0.1706,2.1725,dinosaur
+1421,Warthog (Boar),0.221432,2.1668,2.1668,non-mesozoic
+1422,Patterdale Terriers (2),0.219679,2.1497,2.1497,non-mesozoic
+1423,Northwestern Wolf (female),0.217023,2.1237,2.1237,non-mesozoic
+1424,Asian Straight-tusked Elephant (herd of 3),0.216131,2.1149,2.1149,non-mesozoic
+1425,Blacknose Shark,0.214483,2.0988,2.0988,non-mesozoic
+1426,Rosy Wolfsnail,0.212710,2.0815,2.0815,non-mesozoic
+1427,German Cockroach,0.211458,2.0692,2.0692,non-mesozoic
+1428,Kangal,0.210881,2.0636,2.0636,non-mesozoic
+1429,Spectacled Caiman,0.209115,2.0463,2.0463,non-mesozoic
+1430,Australian Kelpie,0.203672,1.9930,1.9930,non-mesozoic
+1431,Blue Land Crab,0.202813,1.9846,1.9846,non-mesozoic
+1432,Egyptian Wolf,0.202683,1.9833,1.9833,non-mesozoic
+1433,Red-tailed Boa,0.199925,1.9564,1.9564,non-mesozoic
+1434,Southern Cassowary,0.196314,1.9210,1.9210,non-mesozoic
+1435,Hokkaido Inu,0.196192,1.9198,1.9198,non-mesozoic
+1436,African Crested Porcupine,0.196057,1.9185,1.9185,non-mesozoic
+1437,Yamaceratops dorngobiensis,0.015300,0.1497,1.9066,dinosaur
+1438,Arabian Wolf,0.193349,1.8920,1.8920,non-mesozoic
+1439,Transmontano Mastiff,0.193270,1.8912,1.8912,non-mesozoic
+1440,Neotropical Otter,0.192579,1.8845,1.8845,non-mesozoic
+1441,Eastern Wolf (pack of 2),0.191679,1.8757,1.8757,non-mesozoic
+1442,Eurasian Lynx,0.189642,1.8557,1.8557,non-mesozoic
+1443,Paranthropus robustus,0.188187,1.8415,1.8415,non-mesozoic
+1444,Asian (Sand) Badger,0.187176,1.8316,1.8316,non-mesozoic
+1445,Presa Canario,0.187073,1.8306,1.8306,non-mesozoic
+1446,Wahoo,0.184546,1.8059,1.8059,non-mesozoic
+1447,Northern Coyote,0.184238,1.8028,1.8028,non-mesozoic
+1448,Indonesian Wild Boar,0.184036,1.8009,1.8009,non-mesozoic
+1449,Czechoslovakian Wolfdog,0.183853,1.7991,1.7991,non-mesozoic
+1450,Chacoan Peccary,0.180853,1.7697,1.7697,non-mesozoic
+1451,Grey Reef Shark,0.180303,1.7643,1.7643,non-mesozoic
+1452,North Sulawesi Babirusa,0.180014,1.7615,1.7615,non-mesozoic
+1453,Australian Blacktip Shark,0.179246,1.7540,1.7540,non-mesozoic
+1454,Giant Fossa,0.179000,1.7516,1.7516,non-mesozoic
+1455,Drill,0.178979,1.7514,1.7514,non-mesozoic
+1456,Two-spined Trapjaw Ant,0.178755,1.7492,1.7492,non-mesozoic
+1457,Siberian Ibex,0.176750,1.7296,1.7296,non-mesozoic
+1458,Vietnamese Centipede,0.176614,1.7282,1.7282,non-mesozoic
+1459,Italian Wolf,0.176186,1.7241,1.7241,non-mesozoic
+1460,Eurasian Otter,0.176071,1.7229,1.7229,non-mesozoic
+1461,Bush Dog (pack of 3),0.175721,1.7195,1.7195,non-mesozoic
+1462,Spotted-necked Otter,0.175697,1.7193,1.7193,non-mesozoic
+1463,Yellow-throated Martens (3),0.173991,1.7026,1.7026,non-mesozoic
+1464,American Red Fox (skulk of 2),0.173630,1.6990,1.6990,non-mesozoic
+1465,Yellow Spotted False Monitor,0.171788,1.6810,1.6810,non-mesozoic
+1466,Northern Luzon Giant Cloud Rat,0.169247,1.6562,1.6562,non-mesozoic
+1467,Cinereous (Eurasian Black) Vulture (venue of 3),0.169101,1.6547,1.6547,non-mesozoic
+1468,Boerboel,0.167914,1.6431,1.6431,non-mesozoic
+1469,Goldsaddle Goatfish (school of 6),0.165559,1.6201,1.6201,non-mesozoic
+1470,Emperor Penguin,0.165402,1.6185,1.6185,non-mesozoic
+1471,Bonobo,0.164995,1.6145,1.6145,non-mesozoic
+1472,Wolverine (boar),0.164790,1.6125,1.6125,non-mesozoic
+1473,Arabian Leopardess,0.164225,1.6070,1.6070,non-mesozoic
+1474,Eastern Coyotes (2),0.162060,1.5858,1.5858,non-mesozoic
+1475,Blue (Grand Cayman) Iguana,0.160158,1.5672,1.5672,non-mesozoic
+1476,Lappet-faced Vulture (venue of 2),0.159369,1.5595,1.5595,non-mesozoic
+1477,Crested Eagle,0.158807,1.5540,1.5540,non-mesozoic
+1478,Guinean Barracuda,0.155351,1.5202,1.5202,non-mesozoic
+1479,Scrub (Amethystine) Python,0.154232,1.5092,1.5092,non-mesozoic
+1480,Leonberger,0.153498,1.5020,1.5020,non-mesozoic
+1481,Pacific Electric Ray,0.152179,1.4891,1.4891,non-mesozoic
+1482,Whollydooleya tomnpatrichorum,0.152037,1.4877,1.4877,non-mesozoic
+1483,Didelphodon vorax,0.149123,1.4592,1.4592,non-mesozoic
+1484,Mesohippus spp.,0.148521,1.4533,1.4533,non-mesozoic
+1485,Great Barracuda,0.145619,1.4249,1.4249,non-mesozoic
+1486,Alaskan Malamute,0.145112,1.4200,1.4200,non-mesozoic
+1487,Mule Deer,0.144172,1.4108,1.4108,non-mesozoic
+1488,Thylacine,0.143656,1.4057,1.4057,non-mesozoic
+1489,Common Wombat,0.142991,1.3992,1.3992,non-mesozoic
+1490,Broad Stingray,0.142654,1.3959,1.3959,non-mesozoic
+1491,Giant Snakeheads (breeding pair),0.140047,1.3704,1.3704,non-mesozoic
+1492,East European Shepherd,0.139239,1.3625,1.3625,non-mesozoic
+1493,Rocky Mountain Mule Deer,0.138211,1.3525,1.3525,non-mesozoic
+1494,Anjumara (Wolf Fish),0.137248,1.3430,1.3430,non-mesozoic
+1495,North Pacific Giant Octopus,0.137062,1.3412,1.3412,non-mesozoic
+1496,American Pit Bull Terriers (2),0.136370,1.3344,1.3344,non-mesozoic
+1497,Collared Peccary (Javelina),0.136186,1.3326,1.3326,non-mesozoic
+1498,Dingo,0.135898,1.3298,1.3298,non-mesozoic
+1499,African Wild Dog,0.135759,1.3285,1.3285,non-mesozoic
+1500,Wild Turkey (rafter of 5),0.135473,1.3257,1.3257,non-mesozoic
+1501,Eastern Wolf (female),0.134381,1.3150,1.3150,non-mesozoic
+1502,Roadside Hawk,0.132925,1.3007,1.3007,non-mesozoic
+1503,German Shepherd,0.132377,1.2954,1.2954,non-mesozoic
+1504,Muskellunge,0.131223,1.2841,1.2841,non-mesozoic
+1505,Southern African Wildcat,0.129681,1.2690,1.2690,non-mesozoic
+1506,Rhodesian Ridgeback,0.128836,1.2607,1.2607,non-mesozoic
+1507,Chinese Giant Salamander,0.127903,1.2516,1.2516,non-mesozoic
+1508,English Bull Terrier,0.127575,1.2484,1.2484,non-mesozoic
+1509,Golden Eagle (aerie of 2),0.127443,1.2471,1.2471,non-mesozoic
+1510,White-lipped Peccary,0.126790,1.2407,1.2407,non-mesozoic
+1511,Boxer,0.126440,1.2373,1.2373,non-mesozoic
+1512,Akita Inu,0.125155,1.2247,1.2247,non-mesozoic
+1513,Bull Arab,0.123202,1.2056,1.2056,non-mesozoic
+1514,Dhole,0.122212,1.1959,1.1959,non-mesozoic
+1515,Cape Bushbuck (Imbabala),0.120972,1.1838,1.1838,non-mesozoic
+1516,Smooth-fronted Caiman,0.120779,1.1819,1.1819,non-mesozoic
+1517,Tiktaalik roseae,0.119886,1.1731,1.1731,non-mesozoic
+1518,Bush Dog (pack of 2),0.119821,1.1725,1.1725,non-mesozoic
+1519,Staffordshire Bull Terrier,0.119059,1.1650,1.1650,non-mesozoic
+1520,Hamadryas Baboon,0.118493,1.1595,1.1595,non-mesozoic
+1521,Belgian Malinois,0.117579,1.1506,1.1506,non-mesozoic
+1522,Papuan Python,0.117260,1.1474,1.1474,non-mesozoic
+1523,Ocelot,0.114728,1.1227,1.1227,non-mesozoic
+1524,European Dhole,0.114028,1.1158,1.1158,non-mesozoic
+1525,Lappet-faced Vultures (venue of 2/3),0.113920,1.1148,1.1148,non-mesozoic
+1526,Eurasian Badger,0.112419,1.1001,1.1001,non-mesozoic
+1527,Hyacinth Macaw,0.112132,1.0973,1.0973,non-mesozoic
+1528,American Pitbull Terrier,0.111993,1.0959,1.0959,non-mesozoic
+1529,King Cobra,0.111515,1.0912,1.0912,non-mesozoic
+1530,Australopithecus africanus,0.111240,1.0885,1.0885,non-mesozoic
+1531,American Staffordshire Terrier (Amstaff),0.110602,1.0823,1.0823,non-mesozoic
+1532,Bonobo (Pygmy Chimpanzee),0.110582,1.0821,1.0821,non-mesozoic
+1533,Greyhound,0.110182,1.0782,1.0782,non-mesozoic
+1534,Chacma Baboon,0.109873,1.0752,1.0752,non-mesozoic
+1535,Colossus Penguin,0.109492,1.0714,1.0714,non-mesozoic
+1536,American Pit Bull Terrier,0.108742,1.0641,1.0641,non-mesozoic
+1537,Ocelot (male),0.108439,1.0611,1.0611,non-mesozoic
+1538,Human (female),0.108347,1.0602,1.0602,non-mesozoic
+1539,Olive Baboon,0.108135,1.0581,1.0581,non-mesozoic
+1540,Wolverine (female),0.106913,1.0462,1.0462,non-mesozoic
+1541,Honey Badger,0.105525,1.0326,1.0326,non-mesozoic
+1542,Indian Wolf,0.105465,1.0320,1.0320,non-mesozoic
+1543,Eastern Coyote,0.104646,1.0240,1.0240,non-mesozoic
+1544,Bigeye Thresher Shark,0.103966,1.0174,1.0174,non-mesozoic
+1545,Honey Badger (sow),0.103181,1.0097,1.0097,non-mesozoic
+1546,African Golden Cat,0.100624,0.9846,0.9846,non-mesozoic
+1547,Caspian Seal,0.099920,0.9778,0.9778,non-mesozoic
+1548,Yi qi,0.007835,0.0767,0.9763,dinosaur
+1549,Canadian Lynx,0.099763,0.9762,0.9762,non-mesozoic
+1550,Whitetip Reef Shark,0.098259,0.9615,0.9615,non-mesozoic
+1551,Asian Golden Cat,0.097978,0.9588,0.9588,non-mesozoic
+1552,Patagornis marshi,0.097190,0.9510,0.9510,non-mesozoic
+1553,Impala,0.097058,0.9498,0.9498,non-mesozoic
+1554,Caracal,0.096210,0.9415,0.9415,non-mesozoic
+1555,Fishing Cat,0.095256,0.9321,0.9321,non-mesozoic
+1556,Common Collared Lizard,0.094752,0.9272,0.9272,non-mesozoic
+1557,Central Bearded Dragon,0.094666,0.9263,0.9263,non-mesozoic
+1558,Gull Dong,0.094561,0.9253,0.9253,non-mesozoic
+1559,Gelada,0.094205,0.9218,0.9218,non-mesozoic
+1560,Kea,0.093727,0.9172,0.9172,non-mesozoic
+1561,Perentie,0.093613,0.9160,0.9160,non-mesozoic
+1562,Clouded Shepherd,0.092835,0.9084,0.9084,non-mesozoic
+1563,Harpy Eagle,0.092676,0.9069,0.9069,non-mesozoic
+1564,Dwarf Cassowary,0.092162,0.9018,0.9018,non-mesozoic
+1565,Red Wolf,0.091413,0.8945,0.8945,non-mesozoic
+1566,African Brush-tailed Porcupine,0.089863,0.8793,0.8793,non-mesozoic
+1567,Mexican Coyote,0.088788,0.8688,0.8688,non-mesozoic
+1568,Golden Dorado,0.088382,0.8649,0.8649,non-mesozoic
+1569,Giant Moray,0.088025,0.8614,0.8614,non-mesozoic
+1570,Guinea Baboon,0.087729,0.8585,0.8585,non-mesozoic
+1571,Sand (Gould's) Goanna,0.087594,0.8571,0.8571,non-mesozoic
+1572,Asian Water Monitor,0.087390,0.8551,0.8551,non-mesozoic
+1573,Indonesian Wild Boar (Banded Pig),0.087372,0.8550,0.8550,non-mesozoic
+1574,Maned Wolf (coalition of 2),0.086367,0.8451,0.8451,non-mesozoic
+1575,Iberian Lynx,0.085643,0.8381,0.8381,non-mesozoic
+1576,Red-Bellied Piranha (school of 8-10),0.085118,0.8329,0.8329,non-mesozoic
+1577,Paranthropus boisei,0.084990,0.8317,0.8317,non-mesozoic
+1578,Australian Cattle Dog (Blue or Red Heeler),0.084952,0.8313,0.8313,non-mesozoic
+1579,Malagasy Crowned Eagle,0.084913,0.8309,0.8309,non-mesozoic
+1580,Pulmonoscorpius kirktonensis,0.084675,0.8286,0.8286,non-mesozoic
+1581,Lappet-faced Vultures (venue of 4),0.084613,0.8280,0.8280,non-mesozoic
+1582,Carpet Python,0.084436,0.8262,0.8262,non-mesozoic
+1583,Nile Monitor (Leguan),0.084371,0.8256,0.8256,non-mesozoic
+1584,Asian Giant Hornets (2),0.083951,0.8215,0.8215,non-mesozoic
+1585,Cuvier's Dwarf Caiman,0.083805,0.8201,0.8201,non-mesozoic
+1586,Galápagos Islands Feral Dog,0.082925,0.8115,0.8115,non-mesozoic
+1587,Merriam's Teratorn,0.082018,0.8026,0.8026,non-mesozoic
+1588,Cape Grey Mongoose,0.081183,0.7944,0.7944,non-mesozoic
+1589,Ivory-billed Woodpecker,0.080365,0.7864,0.7864,non-mesozoic
+1590,Australian Staghound,0.080330,0.7861,0.7861,non-mesozoic
+1591,(Eastern) Dire Wolf,0.080320,0.7860,0.7860,non-mesozoic
+1592,Colombian White-faced Capuchin (group of 5),0.079832,0.7812,0.7812,non-mesozoic
+1593,Bobcat,0.079785,0.7807,0.7807,non-mesozoic
+1594,Meadow Vole,0.079146,0.7745,0.7745,non-mesozoic
+1595,Alexander Archipelago Wolf,0.078858,0.7717,0.7717,non-mesozoic
+1596,Common Snapping Turtle,0.078663,0.7698,0.7698,non-mesozoic
+1597,Fawn Antechinus,0.078277,0.7660,0.7660,non-mesozoic
+1598,Water Monitor,0.078091,0.7642,0.7642,non-mesozoic
+1599,Archaeopteryx lithographica,0.006132,0.0600,0.7641,dinosaur
+1600,Tasmanian Giant Crab,0.077789,0.7612,0.7612,non-mesozoic
+1601,Giant Swan,0.077500,0.7584,0.7584,non-mesozoic
+1602,Ring-necked Cobra (Rinkhal),0.077123,0.7547,0.7547,non-mesozoic
+1603,Angolan White-throated Monitor,0.076702,0.7506,0.7506,non-mesozoic
+1604,Arthropleura armata,0.076625,0.7498,0.7498,non-mesozoic
+1605,Green Moray (Eel),0.076064,0.7443,0.7443,non-mesozoic
+1606,Doberman Pinscher,0.075592,0.7397,0.7397,non-mesozoic
+1607,Irish Wolfhound,0.075177,0.7356,0.7356,non-mesozoic
+1608,Airedale Terriers (2),0.075047,0.7344,0.7344,non-mesozoic
+1609,Red-legged Seriema (Crested Cariama),0.074871,0.7326,0.7326,non-mesozoic
+1610,Machaeroides eothen,0.073888,0.7230,0.7230,non-mesozoic
+1611,Coyote,0.073745,0.7216,0.7216,non-mesozoic
+1612,Repenomamus giganticus,0.073528,0.7195,0.7195,non-mesozoic
+1613,Argus Monitor,0.072789,0.7123,0.7123,non-mesozoic
+1614,Black-thighed Falconet,0.072549,0.7099,0.7099,non-mesozoic
+1615,Labrador Retriever,0.071905,0.7036,0.7036,non-mesozoic
+1616,Harris's Hawk (pair of 2),0.071865,0.7032,0.7032,non-mesozoic
+1617,American Lobster,0.071633,0.7010,0.7010,non-mesozoic
+1618,Compsognathus longipes,0.005624,0.0550,0.7008,dinosaur
+1619,Chital,0.071181,0.6965,0.6965,non-mesozoic
+1620,Forest Cobra,0.071006,0.6948,0.6948,non-mesozoic
+1621,Red-headed Vultures (2),0.070187,0.6868,0.6868,non-mesozoic
+1622,Crocodile Monitor,0.069901,0.6840,0.6840,non-mesozoic
+1623,Nomura's Jellyfish,0.069775,0.6828,0.6828,non-mesozoic
+1624,Airedale Terrier,0.067355,0.6591,0.6591,non-mesozoic
+1625,Eurasian Eagle-owl,0.067268,0.6582,0.6582,non-mesozoic
+1626,Brongersma's Short-tailed Python,0.066834,0.6540,0.6540,non-mesozoic
+1627,Northern Blue-tongued Skink,0.066782,0.6535,0.6535,non-mesozoic
+1628,American Badger,0.066517,0.6509,0.6509,non-mesozoic
+1629,Jumbo (or Humboldt) Squid,0.066088,0.6467,0.6467,non-mesozoic
+1630,Black-backed Jackal (females) (pack of 2),0.065638,0.6423,0.6423,non-mesozoic
+1631,Yellow Baboon,0.065577,0.6417,0.6417,non-mesozoic
+1632,Great Grey Owl,0.065433,0.6403,0.6403,non-mesozoic
+1633,Arabian Red Fox,0.064700,0.6331,0.6331,non-mesozoic
+1634,Asian Giant Hornets (4 - 5),0.064242,0.6286,0.6286,non-mesozoic
+1635,Deerhound,0.063966,0.6259,0.6259,non-mesozoic
+1636,Homo floresiensis (Armed with club),0.063880,0.6251,0.6251,non-mesozoic
+1637,Gull Terrier,0.061524,0.6020,0.6020,non-mesozoic
+1638,American Akita,0.061481,0.6016,0.6016,non-mesozoic
+1639,Blacktip Reef Shark,0.061044,0.5973,0.5973,non-mesozoic
+1640,Knight Anole,0.060661,0.5936,0.5936,non-mesozoic
+1641,Great Nicobar Serpent Eagle,0.060626,0.5933,0.5933,non-mesozoic
+1642,European (Eurasian) Otter,0.060511,0.5921,0.5921,non-mesozoic
+1643,Ocelot (female),0.060077,0.5879,0.5879,non-mesozoic
+1644,Tasmanian Devil,0.059904,0.5862,0.5862,non-mesozoic
+1645,North American River Otter,0.059671,0.5839,0.5839,non-mesozoic
+1646,Cimarrón Uruguayo,0.059464,0.5819,0.5819,non-mesozoic
+1647,Ethiopian Wolf (Simian jackal),0.059433,0.5816,0.5816,non-mesozoic
+1648,Spur-winged Goose,0.059289,0.5802,0.5802,non-mesozoic
+1649,Vulturine Guineafowl,0.059073,0.5781,0.5781,non-mesozoic
+1650,Binturong (Asian Bearcat),0.058495,0.5724,0.5724,non-mesozoic
+1651,Maned Wolf,0.057360,0.5613,0.5613,non-mesozoic
+1652,Elongate Tigerfish,0.057137,0.5591,0.5591,non-mesozoic
+1653,Black-headed Python,0.056605,0.5539,0.5539,non-mesozoic
+1654,Pygmy Python,0.056542,0.5533,0.5533,non-mesozoic
+1655,Gaboon Viper,0.056083,0.5488,0.5488,non-mesozoic
+1656,Montane Solitary Eagle,0.055964,0.5476,0.5476,non-mesozoic
+1657,African Fish Eagle,0.055947,0.5475,0.5475,non-mesozoic
+1658,Bonobo (Pygmy Chimpanzee) (female),0.054829,0.5365,0.5365,non-mesozoic
+1659,Fallow Deer,0.053814,0.5266,0.5266,non-mesozoic
+1660,Gila Monster,0.053675,0.5252,0.5252,non-mesozoic
+1661,Indian Hog Deer,0.053601,0.5245,0.5245,non-mesozoic
+1662,Palm-nut Vulture,0.053400,0.5225,0.5225,non-mesozoic
+1663,Serval (female),0.053250,0.5211,0.5211,non-mesozoic
+1664,Carrion Crow,0.053194,0.5205,0.5205,non-mesozoic
+1665,Golden Eagle,0.052508,0.5138,0.5138,non-mesozoic
+1666,Harris's Hawk (group of 3),0.052460,0.5133,0.5133,non-mesozoic
+1667,Small-spotted Catshark,0.051751,0.5064,0.5064,non-mesozoic
+1668,Blue Crab,0.050569,0.4948,0.4948,non-mesozoic
+1669,Least Weasel,0.050550,0.4947,0.4947,non-mesozoic
+1670,Lycaenops ornatus,0.050502,0.4942,0.4942,non-mesozoic
+1671,European Conger,0.050453,0.4937,0.4937,non-mesozoic
+1672,Andean Condor,0.050076,0.4900,0.4900,non-mesozoic
+1673,Indian Wolf Snake,0.049990,0.4892,0.4892,non-mesozoic
+1674,Bobcat (female),0.049466,0.4840,0.4840,non-mesozoic
+1675,African Golden Wolf,0.049460,0.4840,0.4840,non-mesozoic
+1676,Maned Wolf (coalition of 3),0.049309,0.4825,0.4825,non-mesozoic
+1677,Brown (Norway) Rat (mischief of 3),0.049272,0.4821,0.4821,non-mesozoic
+1678,Rock Monitor,0.048764,0.4772,0.4772,non-mesozoic
+1679,Brown Hare,0.048713,0.4767,0.4767,non-mesozoic
+1680,California Sheep Head,0.048202,0.4717,0.4717,non-mesozoic
+1681,Philippine Eagle,0.048090,0.4706,0.4706,non-mesozoic
+1682,Black-and-chestnut Eagle,0.048057,0.4703,0.4703,non-mesozoic
+1683,Robust Clubhook Squid,0.047837,0.4681,0.4681,non-mesozoic
+1684,Greater Rhea,0.047547,0.4653,0.4653,non-mesozoic
+1685,Boryaena tuberata,0.047293,0.4628,0.4628,non-mesozoic
+1686,Hooded Crow,0.047203,0.4619,0.4619,non-mesozoic
+1687,Tokay Gecko,0.047032,0.4602,0.4602,non-mesozoic
+1688,Common Dwarf Mongoose,0.046740,0.4574,0.4574,non-mesozoic
+1689,Amur Leopard Cat,0.046689,0.4569,0.4569,non-mesozoic
+1690,Norwegian Forest Cat,0.046029,0.4504,0.4504,non-mesozoic
+1691,Jaguarundi,0.044788,0.4383,0.4383,non-mesozoic
+1692,Marine Iguana,0.044240,0.4329,0.4329,non-mesozoic
+1693,Golden Jackal,0.044139,0.4319,0.4319,non-mesozoic
+1694,European Pine Marten,0.044137,0.4319,0.4319,non-mesozoic
+1695,American Bully,0.043755,0.4282,0.4282,non-mesozoic
+1696,Fossa,0.042919,0.4200,0.4200,non-mesozoic
+1697,Cubera Snapper,0.042792,0.4187,0.4187,non-mesozoic
+1698,Sand Cat,0.042365,0.4146,0.4146,non-mesozoic
+1699,Borhyaena tuberata,0.041842,0.4094,0.4094,non-mesozoic
+1700,South American Bushmaster,0.041766,0.4087,0.4087,non-mesozoic
+1701,African Savanna Hare,0.041744,0.4085,0.4085,non-mesozoic
+1702,Lappet-faced Vulture,0.041389,0.4050,0.4050,non-mesozoic
+1703,Amblycheila cylindriformis,0.041249,0.4036,0.4036,non-mesozoic
+1704,African Wildcat,0.040657,0.3978,0.3978,non-mesozoic
+1705,Stoat (Short-tailed Weasel),0.040477,0.3961,0.3961,non-mesozoic
+1706,Sable,0.040409,0.3954,0.3954,non-mesozoic
+1707,Borzoi,0.039993,0.3913,0.3913,non-mesozoic
+1708,Amazonian Giant (Peruvian Giant Yellowleg) Centipede,0.039933,0.3908,0.3908,non-mesozoic
+1709,Indian Peafowl,0.039798,0.3894,0.3894,non-mesozoic
+1710,Yellow-throated Martens (2),0.039641,0.3879,0.3879,non-mesozoic
+1711,Asian Golden Eagle (Berkut),0.039611,0.3876,0.3876,non-mesozoic
+1712,Collared Owlet,0.039581,0.3873,0.3873,non-mesozoic
+1713,Zebra Mantis Shrimp,0.039564,0.3872,0.3872,non-mesozoic
+1714,Anomalocaris spp.,0.039492,0.3864,0.3864,non-mesozoic
+1715,Martial Eagle,0.039391,0.3855,0.3855,non-mesozoic
+1716,Crocodile Monitor (large male),0.039091,0.3825,0.3825,non-mesozoic
+1717,Black Swan,0.038940,0.3810,0.3810,non-mesozoic
+1718,African Civet,0.038779,0.3795,0.3795,non-mesozoic
+1719,Border Collie,0.038524,0.3770,0.3770,non-mesozoic
+1720,Miniature Bull Terrier,0.038261,0.3744,0.3744,non-mesozoic
+1721,Eurasian Sparrowhawk,0.038245,0.3742,0.3742,non-mesozoic
+1722,Emperor Scorpion,0.038175,0.3736,0.3736,non-mesozoic
+1723,Black-backed Jackal,0.038097,0.3728,0.3728,non-mesozoic
+1724,Siberian Husky,0.037962,0.3715,0.3715,non-mesozoic
+1725,Plain-breasted Hawk,0.037783,0.3697,0.3697,non-mesozoic
+1726,Cinereous (Eurasian Black) Vulture,0.037366,0.3656,0.3656,non-mesozoic
+1727,Serval,0.037361,0.3656,0.3656,non-mesozoic
+1728,Pasimachus californicus,0.036228,0.3545,0.3545,non-mesozoic
+1729,Homo floresiensis,0.035977,0.3521,0.3521,non-mesozoic
+1730,Yellow-throated Marten (Richness of 4),0.035820,0.3505,0.3505,non-mesozoic
+1731,Fuegian Steamer Duck,0.035717,0.3495,0.3495,non-mesozoic
+1732,Repenomamus robustus,0.035477,0.3472,0.3472,non-mesozoic
+1733,Crab-eating Fox (monogamic pair),0.035360,0.3460,0.3460,non-mesozoic
+1734,Lace Monitor,0.034650,0.3391,0.3391,non-mesozoic
+1735,Brown Pelican,0.034613,0.3387,0.3387,non-mesozoic
+1736,Elf Owl,0.034444,0.3370,0.3370,non-mesozoic
+1737,Hammer-headed Bat,0.034225,0.3349,0.3349,non-mesozoic
+1738,Kulang Asil,0.034143,0.3341,0.3341,non-mesozoic
+1739,Saiga Antelope,0.033240,0.3253,0.3253,non-mesozoic
+1740,Jungle Cat,0.032972,0.3226,0.3226,non-mesozoic
+1741,Roe Deer,0.032903,0.3220,0.3220,non-mesozoic
+1742,African Crowned Eagle,0.032771,0.3207,0.3207,non-mesozoic
+1743,Cooper's Hawk,0.032592,0.3189,0.3189,non-mesozoic
+1744,Nile Monitor,0.032369,0.3167,0.3167,non-mesozoic
+1745,Muskrat,0.031933,0.3125,0.3125,non-mesozoic
+1746,Tropical Screech Owl,0.031594,0.3092,0.3092,non-mesozoic
+1747,Falkland Islands Wolf (Warrah),0.031559,0.3088,0.3088,non-mesozoic
+1748,Goliath Bird Eating Spider,0.031529,0.3085,0.3085,non-mesozoic
+1749,Leopard Cat,0.031452,0.3078,0.3078,non-mesozoic
+1750,Southern Tamandua (Lesser Anteater),0.031331,0.3066,0.3066,non-mesozoic
+1751,Eastern Diamondback Rattlesnake,0.031272,0.3060,0.3060,non-mesozoic
+1752,American Bald Eagle,0.030908,0.3024,0.3024,non-mesozoic
+1753,Ground (Temminck's) Pangolin,0.030676,0.3002,0.3002,non-mesozoic
+1754,Blue Racer,0.030030,0.2939,0.2939,non-mesozoic
+1755,Western Marsh Harrier,0.029945,0.2930,0.2930,non-mesozoic
+1756,Wedge-tailed Eagle,0.029799,0.2916,0.2916,non-mesozoic
+1757,Fisher,0.029765,0.2913,0.2913,non-mesozoic
+1758,Indian (Common) Gray Mongoose,0.029761,0.2912,0.2912,non-mesozoic
+1759,Tayra,0.029649,0.2901,0.2901,non-mesozoic
+1760,Culpeo Zorro (Andean Fox),0.029592,0.2896,0.2896,non-mesozoic
+1761,Steller's Sea Eagle,0.029538,0.2890,0.2890,non-mesozoic
+1762,North Andean Deer (Taruca),0.029538,0.2890,0.2890,non-mesozoic
+1763,Verreaux's (African Black) Eagle,0.029294,0.2867,0.2867,non-mesozoic
+1764,Brown (Norway) Rat,0.029222,0.2859,0.2859,non-mesozoic
+1765,Thick-billed Raven,0.029214,0.2859,0.2859,non-mesozoic
+1766,Collared Pika,0.029173,0.2855,0.2855,non-mesozoic
+1767,Garganornis ballmanni,0.029173,0.2855,0.2855,non-mesozoic
+1768,Side-striped Jackal,0.029156,0.2853,0.2853,non-mesozoic
+1769,Goliath Heron,0.029141,0.2852,0.2852,non-mesozoic
+1770,Jagdterrier,0.028847,0.2823,0.2823,non-mesozoic
+1771,Oriental Hornet (swarm of 20),0.028799,0.2818,0.2818,non-mesozoic
+1772,Brontoscorpio anglicus,0.028721,0.2810,0.2810,non-mesozoic
+1773,Thomson's Gazelle,0.028716,0.2810,0.2810,non-mesozoic
+1774,American Bullfrog,0.028639,0.2802,0.2802,non-mesozoic
+1775,European Hamster,0.028267,0.2766,0.2766,non-mesozoic
+1776,Wildcat,0.028066,0.2746,0.2746,non-mesozoic
+1777,Indian Black Scorpion,0.027954,0.2735,0.2735,non-mesozoic
+1778,Red Junglefowl,0.027850,0.2725,0.2725,non-mesozoic
+1779,Cape Griffon (Vulture),0.027827,0.2723,0.2723,non-mesozoic
+1780,Northern Bald Eagle,0.027735,0.2714,0.2714,non-mesozoic
+1781,Fishing Cat (female),0.027591,0.2700,0.2700,non-mesozoic
+1782,Sia ferox,0.027540,0.2695,0.2695,non-mesozoic
+1783,Marabou Stork,0.026917,0.2634,0.2634,non-mesozoic
+1784,Madagascar (Malagasy) Ground Boa,0.026914,0.2634,0.2634,non-mesozoic
+1785,White-backed Vulture,0.026740,0.2617,0.2617,non-mesozoic
+1786,Wandering Albatross,0.026605,0.2603,0.2603,non-mesozoic
+1787,Royal Antelope,0.026363,0.2580,0.2580,non-mesozoic
+1788,Black-chested Buzzard-eagle,0.026362,0.2580,0.2580,non-mesozoic
+1789,Common Raccoon,0.026181,0.2562,0.2562,non-mesozoic
+1790,West African Gaboon Viper,0.026061,0.2550,0.2550,non-mesozoic
+1791,Red Grouper,0.025817,0.2526,0.2526,non-mesozoic
+1792,Tasmanian Wedge-tailed Eagle,0.025747,0.2519,0.2519,non-mesozoic
+1793,Darwin's (Lesser) Rhea,0.025369,0.2482,0.2482,non-mesozoic
+1794,Arctic Hare,0.025366,0.2482,0.2482,non-mesozoic
+1795,Eastern Grey Kangaroo,0.025071,0.2453,0.2453,non-mesozoic
+1796,American Crow,0.024981,0.2444,0.2444,non-mesozoic
+1797,Black Drongo,0.024844,0.2431,0.2431,non-mesozoic
+1798,Bush Dog,0.024740,0.2421,0.2421,non-mesozoic
+1799,Short-eared Owl,0.024371,0.2385,0.2385,non-mesozoic
+1800,Megalara garuda,0.024292,0.2377,0.2377,non-mesozoic
+1801,New Zealand Longfin Eel,0.024274,0.2375,0.2375,non-mesozoic
+1802,Steppe Polecat,0.024179,0.2366,0.2366,non-mesozoic
+1803,Brown Snake Eagle,0.023923,0.2341,0.2341,non-mesozoic
+1804,Scottish Wildcat,0.023909,0.2340,0.2340,non-mesozoic
+1805,Desert Monitor,0.023515,0.2301,0.2301,non-mesozoic
+1806,Emu,0.023199,0.2270,0.2270,non-mesozoic
+1807,Boerbel,0.023120,0.2262,0.2262,non-mesozoic
+1808,Porcupine River Stingray,0.023061,0.2257,0.2257,non-mesozoic
+1809,White-headed Vultures (2),0.022988,0.2249,0.2249,non-mesozoic
+1810,Short-eared Dog (Small-eared Zorro),0.022677,0.2219,0.2219,non-mesozoic
+1811,Golden Tree (Ornate Flying) Snake,0.022345,0.2187,0.2187,non-mesozoic
+1812,African Bullfrog,0.022276,0.2180,0.2180,non-mesozoic
+1813,European Wildcat,0.022269,0.2179,0.2179,non-mesozoic
+1814,Bateleur,0.022179,0.2170,0.2170,non-mesozoic
+1815,White-headed Vulture,0.022153,0.2168,0.2168,non-mesozoic
+1816,Rusty-spotted Cat,0.022078,0.2160,0.2160,non-mesozoic
+1817,Patterdale Terrier,0.022020,0.2155,0.2155,non-mesozoic
+1818,Red-Bellied Piranha (school of 2),0.021975,0.2150,0.2150,non-mesozoic
+1819,Scottish Wild Cat,0.021963,0.2149,0.2149,non-mesozoic
+1820,African Clawless Otter,0.021809,0.2134,0.2134,non-mesozoic
+1821,Southern Ground-hornbills (2),0.021603,0.2114,0.2114,non-mesozoic
+1822,White-tailed Hawk,0.021528,0.2107,0.2107,non-mesozoic
+1823,Greater Roadrunner,0.021249,0.2079,0.2079,non-mesozoic
+1824,Thylophorops lorenzinii,0.021023,0.2057,0.2057,non-mesozoic
+1825,Little Brown Bat,0.020860,0.2041,0.2041,non-mesozoic
+1826,Spotted-tail (Tiger) Quoll,0.020553,0.2011,0.2011,non-mesozoic
+1827,Southern Giant Petrel,0.020546,0.2011,0.2011,non-mesozoic
+1828,Greater Grison,0.020444,0.2001,0.2001,non-mesozoic
+1829,Shoebill,0.020068,0.1964,0.1964,non-mesozoic
+1830,Red-headed Vulture,0.019558,0.1914,0.1914,non-mesozoic
+1831,Eastern (Common) Brown Snake,0.019425,0.1901,0.1901,non-mesozoic
+1832,Giant Snakehead,0.019366,0.1895,0.1895,non-mesozoic
+1833,Great Horned Owl,0.019091,0.1868,0.1868,non-mesozoic
+1834,Argentine Black and White Tegu,0.019082,0.1867,0.1867,non-mesozoic
+1835,Goliath Frog,0.018959,0.1855,0.1855,non-mesozoic
+1836,Burrowing Owl,0.018712,0.1831,0.1831,non-mesozoic
+1837,Sunda Leopard Cat,0.018635,0.1824,0.1824,non-mesozoic
+1838,Northern Grasshopper Mouse,0.018313,0.1792,0.1792,non-mesozoic
+1839,Shar Pei,0.018021,0.1763,0.1763,non-mesozoic
+1840,Lar Gibbon,0.017909,0.1752,0.1752,non-mesozoic
+1841,Blue Iguana,0.017874,0.1749,0.1749,non-mesozoic
+1842,Tibetan (Sand) Fox,0.017843,0.1746,0.1746,non-mesozoic
+1843,Fahaka Pufferfish,0.017794,0.1741,0.1741,non-mesozoic
+1844,Pygmy Coral Snake,0.017787,0.1741,0.1741,non-mesozoic
+1845,Mute Swan,0.017624,0.1725,0.1725,non-mesozoic
+1846,Asian Giant Hornet,0.017535,0.1716,0.1716,non-mesozoic
+1847,Slender Mongoose,0.017489,0.1711,0.1711,non-mesozoic
+1848,Tibetan Macaque,0.017479,0.1710,0.1710,non-mesozoic
+1849,Cuban Rock Iguana,0.017374,0.1700,0.1700,non-mesozoic
+1850,Black-footed Cat,0.017367,0.1699,0.1699,non-mesozoic
+1851,Royal (Ball) Python,0.017346,0.1697,0.1697,non-mesozoic
+1852,Alexandrine Parakeet,0.017200,0.1683,0.1683,non-mesozoic
+1853,Black Hawk-eagle,0.017118,0.1675,0.1675,non-mesozoic
+1854,Hyaenodon mustelinus,0.017068,0.1670,0.1670,non-mesozoic
+1855,Booted Eagle,0.016963,0.1660,0.1660,non-mesozoic
+1856,North American Porcupine,0.016891,0.1653,0.1653,non-mesozoic
+1857,Southern Mussurana,0.016837,0.1648,0.1648,non-mesozoic
+1858,Wild Turkey,0.016806,0.1645,0.1645,non-mesozoic
+1859,White-tailed Dunnart,0.016549,0.1619,0.1619,non-mesozoic
+1860,Cuban Giant Owl,0.016451,0.1610,0.1610,non-mesozoic
+1861,Eastern Indigo Snake,0.016419,0.1607,0.1607,non-mesozoic
+1862,Redeye (Black) Piranha,0.016399,0.1605,0.1605,non-mesozoic
+1863,Pallas's Cat,0.016376,0.1602,0.1602,non-mesozoic
+1864,American Kestrel,0.016366,0.1601,0.1601,non-mesozoic
+1865,Spotted Owl,0.016281,0.1593,0.1593,non-mesozoic
+1866,Marbled Cat,0.016175,0.1583,0.1583,non-mesozoic
+1867,Common Vampire Bat,0.016103,0.1576,0.1576,non-mesozoic
+1868,Gambian Pouched Rat,0.015918,0.1558,0.1558,non-mesozoic
+1869,Gobiconodon spp.,0.015913,0.1557,0.1557,non-mesozoic
+1870,Bonelli's Eagle,0.015893,0.1555,0.1555,non-mesozoic
+1871,House Crow,0.015840,0.1550,0.1550,non-mesozoic
+1872,Blue Jay (band of 5),0.015580,0.1525,0.1525,non-mesozoic
+1873,White-tailed Sea Eagle,0.015473,0.1514,0.1514,non-mesozoic
+1874,Jack Russell Terrier,0.015389,0.1506,0.1506,non-mesozoic
+1875,Black Rat,0.015382,0.1505,0.1505,non-mesozoic
+1876,Southern Grasshopper Mouse,0.015229,0.1490,0.1490,non-mesozoic
+1877,Bornean Bay Cat,0.015216,0.1489,0.1489,non-mesozoic
+1878,Bearded Vulture,0.015144,0.1482,0.1482,non-mesozoic
+1879,White-tailed Jackrabbit,0.014935,0.1461,0.1461,non-mesozoic
+1880,Raccoon Dog,0.014709,0.1439,0.1439,non-mesozoic
+1881,Common Eider,0.014621,0.1431,0.1431,non-mesozoic
+1882,Brown Paper Wasp,0.014579,0.1427,0.1427,non-mesozoic
+1883,Red Fox,0.014498,0.1419,0.1419,non-mesozoic
+1884,Red Kite,0.014455,0.1414,0.1414,non-mesozoic
+1885,Fer de Lance (Lancehead Pit Viper),0.014428,0.1412,0.1412,non-mesozoic
+1886,Sectretary Bird,0.014388,0.1408,0.1408,non-mesozoic
+1887,Sharpe's Grysbok,0.014277,0.1397,0.1397,non-mesozoic
+1888,Rüppell's Griffon Vulture,0.014109,0.1381,0.1381,non-mesozoic
+1889,American Black Vulture,0.014054,0.1375,0.1375,non-mesozoic
+1890,American Marten,0.014042,0.1374,0.1374,non-mesozoic
+1891,Ferruginous Hawk,0.014000,0.1370,0.1370,non-mesozoic
+1892,Red Panda,0.013965,0.1367,0.1367,non-mesozoic
+1893,Brazilian Giant Tawny Red Tarantula,0.013910,0.1361,0.1361,non-mesozoic
+1894,Australian Magpies (2),0.013817,0.1352,0.1352,non-mesozoic
+1895,Rhesus Macaque,0.013766,0.1347,0.1347,non-mesozoic
+1896,Tawny Eagle,0.013736,0.1344,0.1344,non-mesozoic
+1897,Asian Small-clawed Otter,0.013545,0.1325,0.1325,non-mesozoic
+1898,Corsac Fox,0.013360,0.1307,0.1307,non-mesozoic
+1899,Standard Poodle,0.013277,0.1299,0.1299,non-mesozoic
+1900,Yellow-throated Marten,0.013226,0.1294,0.1294,non-mesozoic
+1901,Gray Fox,0.013182,0.1290,0.1290,non-mesozoic
+1902,Mussurana,0.013071,0.1279,0.1279,non-mesozoic
+1903,Lesser Grison,0.012968,0.1269,0.1269,non-mesozoic
+1904,Great Black-backed Gull,0.012889,0.1261,0.1261,non-mesozoic
+1905,Chinese Desert (or Mountain) Cat,0.012667,0.1240,0.1240,non-mesozoic
+1906,Magnificent Frigatebird,0.012508,0.1224,0.1224,non-mesozoic
+1907,Laughing Kookaburra,0.012478,0.1221,0.1221,non-mesozoic
+1908,Red-tailed Hawk,0.012377,0.1211,0.1211,non-mesozoic
+1909,Toque Macaque,0.012278,0.1201,0.1201,non-mesozoic
+1910,Peregrine Falcon,0.012247,0.1198,0.1198,non-mesozoic
+1911,Pygmy (Short-tailed) Monitor,0.012101,0.1184,0.1184,non-mesozoic
+1912,Bearded Vulture (Lammergeier),0.011961,0.1170,0.1170,non-mesozoic
+1913,Auckland Tree Weta (male),0.011961,0.1170,0.1170,non-mesozoic
+1914,Margay,0.011868,0.1161,0.1161,non-mesozoic
+1915,White-throated Monitor,0.011765,0.1151,0.1151,non-mesozoic
+1916,Egyptian Giant Solpugid,0.011733,0.1148,0.1148,non-mesozoic
+1917,Coconut (Robber) Crab,0.011571,0.1132,0.1132,non-mesozoic
+1918,Wild Turkey (rafter of 2),0.011542,0.1129,0.1129,non-mesozoic
+1919,Turkey Vulture,0.011501,0.1125,0.1125,non-mesozoic
+1920,Silvery Marmoset,0.011157,0.1092,0.1092,non-mesozoic
+1921,Shiba Inu,0.011156,0.1092,0.1092,non-mesozoic
+1922,Asiatic Wildcat,0.011125,0.1089,0.1089,non-mesozoic
+1923,Great Skua (Bonxie),0.011119,0.1088,0.1088,non-mesozoic
+1924,Mangrove Monitor,0.011043,0.1081,0.1081,non-mesozoic
+1925,Banded Mongoose,0.010990,0.1075,0.1075,non-mesozoic
+1926,Rook,0.010950,0.1072,0.1072,non-mesozoic
+1927,Bengal (Common Indian) Monitor,0.010927,0.1069,0.1069,non-mesozoic
+1928,Himalayan Red Panda,0.010871,0.1064,0.1064,non-mesozoic
+1929,Trumpeter Swan,0.010870,0.1064,0.1064,non-mesozoic
+1930,Eurasian Eagle Owl,0.010840,0.1061,0.1061,non-mesozoic
+1931,Southern Ground-hornbill,0.010818,0.1059,0.1059,non-mesozoic
+1932,Common Green Iguana,0.010812,0.1058,0.1058,non-mesozoic
+1933,Himalayan Vulture,0.010736,0.1051,0.1051,non-mesozoic
+1934,Northern Pike,0.010646,0.1042,0.1042,non-mesozoic
+1935,Geoffroy's Cat,0.010626,0.1040,0.1040,non-mesozoic
+1936,Barbary Macaque,0.010578,0.1035,0.1035,non-mesozoic
+1937,Black-billed Magpie,0.010557,0.1033,0.1033,non-mesozoic
+1938,Pampas Deer,0.010377,0.1015,0.1015,non-mesozoic
+1939,Anatolian Predatory Bush-cricket,0.010348,0.1013,0.1013,non-mesozoic
+1940,Vervet Monkey,0.010308,0.1009,0.1009,non-mesozoic
+1941,Gyrfalcon,0.010253,0.1003,0.1003,non-mesozoic
+1942,Common Octopus,0.010234,0.1001,0.1001,non-mesozoic
+1943,Common Raven,0.010176,0.0996,0.0996,non-mesozoic
+1944,Spectral Bat,0.010044,0.0983,0.0983,non-mesozoic
+1945,Common (Small-spotted) Genet,0.009841,0.0963,0.0963,non-mesozoic
+1946,Common Barn Owl,0.009513,0.0931,0.0931,non-mesozoic
+1947,Crab-eating Fox,0.009327,0.0913,0.0913,non-mesozoic
+1948,American Mink,0.009292,0.0909,0.0909,non-mesozoic
+1949,European Honey Buzzard,0.009287,0.0909,0.0909,non-mesozoic
+1950,Eastern (or Asian) Imperial Eagle,0.009179,0.0898,0.0898,non-mesozoic
+1951,Horrid King Assassin Bug,0.009098,0.0890,0.0890,non-mesozoic
+1952,Butler's Garter Snake,0.009018,0.0882,0.0882,non-mesozoic
+1953,Great Flying Fox,0.009001,0.0881,0.0881,non-mesozoic
+1954,Cozumel Raccoon,0.008961,0.0877,0.0877,non-mesozoic
+1955,O Shamo' (Shamo Chicken),0.008925,0.0873,0.0873,non-mesozoic
+1956,Bengal Cat (female),0.008879,0.0869,0.0869,non-mesozoic
+1957,Verreaux's (Giant) Eagle-Owl,0.008765,0.0858,0.0858,non-mesozoic
+1958,Patas Monkey,0.008741,0.0855,0.0855,non-mesozoic
+1959,Cape Fox,0.008667,0.0848,0.0848,non-mesozoic
+1960,Western Pygmy Marmoset,0.008656,0.0847,0.0847,non-mesozoic
+1961,Fennec Fox,0.008447,0.0827,0.0827,non-mesozoic
+1962,Surinam Horned Frog,0.008413,0.0823,0.0823,non-mesozoic
+1963,Gentoo Penguin,0.008392,0.0821,0.0821,non-mesozoic
+1964,Coastal Taipan,0.008356,0.0818,0.0818,non-mesozoic
+1965,Red-throated Loon,0.008354,0.0817,0.0817,non-mesozoic
+1966,Spot-bellied Eagle-owl,0.008332,0.0815,0.0815,non-mesozoic
+1967,Sugar Glider,0.008250,0.0807,0.0807,non-mesozoic
+1968,Little Owl,0.008244,0.0807,0.0807,non-mesozoic
+1969,Canada Goose,0.008224,0.0805,0.0805,non-mesozoic
+1970,Northern Goshawk,0.008087,0.0791,0.0791,non-mesozoic
+1971,Japanese Spider Crab,0.007862,0.0769,0.0769,non-mesozoic
+1972,King Brown (Mulga) Snake,0.007814,0.0765,0.0765,non-mesozoic
+1973,Snowy (Arctic) Owl,0.007799,0.0763,0.0763,non-mesozoic
+1974,Molina's Hog-nosed Skunk,0.007730,0.0756,0.0756,non-mesozoic
+1975,Russian Toy Terrier,0.007715,0.0755,0.0755,non-mesozoic
+1976,Common Raven (unkindness of 4),0.007684,0.0752,0.0752,non-mesozoic
+1977,Asian House Shrew,0.007487,0.0733,0.0733,non-mesozoic
+1978,Mertens' Water Monitor,0.007361,0.0720,0.0720,non-mesozoic
+1979,Savannah Monitor,0.007275,0.0712,0.0712,non-mesozoic
+1980,Brown Skua,0.007269,0.0711,0.0711,non-mesozoic
+1981,American Red Fox,0.007258,0.0710,0.0710,non-mesozoic
+1982,Tawny Frogmouth,0.007120,0.0697,0.0697,non-mesozoic
+1983,Beelzebufo ampinga,0.001993,0.0195,0.0696,mesozoic-other
+1984,Secretary Bird,0.006948,0.0680,0.0680,non-mesozoic
+1985,Osprey,0.006925,0.0678,0.0678,non-mesozoic
+1986,Indian Eagle-owl,0.006890,0.0674,0.0674,non-mesozoic
+1987,Giant Petaltail,0.006791,0.0665,0.0665,non-mesozoic
+1988,White-bellied Sea Eagle,0.006740,0.0660,0.0660,non-mesozoic
+1989,Arctic Fox,0.006687,0.0654,0.0654,non-mesozoic
+1990,Sulphur-crested Cockatoo,0.006642,0.0650,0.0650,non-mesozoic
+1991,Giant Huntsman Spider,0.006577,0.0644,0.0644,non-mesozoic
+1992,Miniature Fox Terrier,0.006513,0.0637,0.0637,non-mesozoic
+1993,Proailurus lemanensis,0.006481,0.0634,0.0634,non-mesozoic
+1994,Giant Desert Centipede,0.006434,0.0630,0.0630,non-mesozoic
+1995,Dragon Headed Katydid,0.006336,0.0620,0.0620,non-mesozoic
+1996,South American Coati,0.006303,0.0617,0.0617,non-mesozoic
+1997,Roe Deer (Doe),0.006298,0.0616,0.0616,non-mesozoic
+1998,Myrmecia brevinoda,0.006291,0.0616,0.0616,non-mesozoic
+1999,Pygmy Hog,0.006230,0.0610,0.0610,non-mesozoic
+2000,Lettered Araçari,0.006228,0.0609,0.0609,non-mesozoic
+2001,Cobalt Blue Tarantula,0.006007,0.0588,0.0588,non-mesozoic
+2002,Snow Petrel,0.005882,0.0576,0.0576,non-mesozoic
+2003,Eastern Garter Snake,0.005863,0.0574,0.0574,non-mesozoic
+2004,Indian Peacock,0.005861,0.0574,0.0574,non-mesozoic
+2005,Herring Gull,0.005757,0.0563,0.0563,non-mesozoic
+2006,Oncilla (Little Spotted Cat),0.005452,0.0534,0.0534,non-mesozoic
+2007,Shih Tzu,0.005292,0.0518,0.0518,non-mesozoic
+2008,King Vulture,0.005121,0.0501,0.0501,non-mesozoic
+2009,Aardwolf,0.005099,0.0499,0.0499,non-mesozoic
+2010,Papuan Harpy Eagle,0.005074,0.0497,0.0497,non-mesozoic
+2011,Triconodon mordax,0.004940,0.0483,0.0483,non-mesozoic
+2012,Giant Desert Hairy Scorpion,0.004912,0.0481,0.0481,non-mesozoic
+2013,Mallard Duck,0.004886,0.0478,0.0478,non-mesozoic
+2014,Striped Skunk,0.004882,0.0478,0.0478,non-mesozoic
+2015,Chinese Mantis,0.004713,0.0461,0.0461,non-mesozoic
+2016,Hercules Beetle,0.004691,0.0459,0.0459,non-mesozoic
+2017,Striped Polecat,0.004635,0.0454,0.0454,non-mesozoic
+2018,Great Blue Heron,0.004632,0.0453,0.0453,non-mesozoic
+2019,Elephant Beetle,0.004622,0.0452,0.0452,non-mesozoic
+2020,Giant Golden-crowned Flying-fox,0.004590,0.0449,0.0449,non-mesozoic
+2021,Feral Cat,0.004566,0.0447,0.0447,non-mesozoic
+2022,Tarantula Hawk Wasp,0.004534,0.0444,0.0444,non-mesozoic
+2023,Pig-nosed Turtle,0.004489,0.0439,0.0439,non-mesozoic
+2024,Venezuelan Red Howler,0.004132,0.0404,0.0404,non-mesozoic
+2025,Grey Heron,0.004094,0.0401,0.0401,non-mesozoic
+2026,Reeves's Muntjac,0.003978,0.0389,0.0389,non-mesozoic
+2027,Blakiston's Fish-owl,0.003888,0.0380,0.0380,non-mesozoic
+2028,Inland Taipan (Fierce Snake),0.003882,0.0380,0.0380,non-mesozoic
+2029,Southern Crested Caracara,0.003858,0.0378,0.0378,non-mesozoic
+2030,Virginia Opossum,0.003742,0.0366,0.0366,non-mesozoic
+2031,Klipspringer,0.003722,0.0364,0.0364,non-mesozoic
+2032,Malay Chicken,0.003663,0.0358,0.0358,non-mesozoic
+2033,Collared Mangabey,0.003615,0.0354,0.0354,non-mesozoic
+2034,Desmarest's Hutia,0.003598,0.0352,0.0352,non-mesozoic
+2035,Northern (Abyssinian) Ground Hornbill,0.003546,0.0347,0.0347,non-mesozoic
+2036,Mexican Beaded LIzard,0.003397,0.0332,0.0332,non-mesozoic
+2037,Loggerhead Shrike,0.003395,0.0332,0.0332,non-mesozoic
+2038,Manticora Tiger Beetle,0.003395,0.0332,0.0332,non-mesozoic
+2039,Eugryllacris guomashan,0.003340,0.0327,0.0327,non-mesozoic
+2040,Russian Blue,0.003300,0.0323,0.0323,non-mesozoic
+2041,Chihuahua,0.003275,0.0320,0.0320,non-mesozoic
+2042,Black-footed Ferret,0.003268,0.0320,0.0320,non-mesozoic
+2043,Australian (Torresian) Crow,0.003254,0.0318,0.0318,non-mesozoic
+2044,Powerful Owl,0.003191,0.0312,0.0312,non-mesozoic
+2045,Emerald Tree Boa,0.003108,0.0304,0.0304,non-mesozoic
+2046,Malayan Civet,0.003099,0.0303,0.0303,non-mesozoic
+2047,Pallas's Fish Eagle,0.003087,0.0302,0.0302,non-mesozoic
+2048,Sago pedo,0.003054,0.0299,0.0299,non-mesozoic
+2049,Brown Crab,0.003047,0.0298,0.0298,non-mesozoic
+2050,White-tailed Mongoose,0.002985,0.0292,0.0292,non-mesozoic
+2051,Two-spotted Ground Beetle,0.002976,0.0291,0.0291,non-mesozoic
+2052,Serama (Rooster),0.002920,0.0286,0.0286,non-mesozoic
+2053,Harris's Hawk,0.002908,0.0285,0.0285,non-mesozoic
+2054,Nine-banded Armadillo,0.002867,0.0281,0.0281,non-mesozoic
+2055,Blond Capuchins (2),0.002792,0.0273,0.0273,non-mesozoic
+2056,Black Mamba,0.002731,0.0267,0.0267,non-mesozoic
+2057,Black-tailed Rattlesnake,0.002717,0.0266,0.0266,non-mesozoic
+2058,Western Siberian Eagle Owl,0.002691,0.0263,0.0263,non-mesozoic
+2059,Gold Tegu,0.002579,0.0252,0.0252,non-mesozoic
+2060,Dalmatian Pelican,0.002456,0.0240,0.0240,non-mesozoic
+2061,Woma Python,0.002263,0.0221,0.0221,non-mesozoic
+2062,African (Common) Puff Adder,0.002203,0.0216,0.0216,non-mesozoic
+2063,Malay (Rooster),0.002188,0.0214,0.0214,non-mesozoic
+2064,Common Ravens (2),0.002059,0.0201,0.0201,non-mesozoic
+2065,Grey Fox (Vixen),0.001953,0.0191,0.0191,non-mesozoic
+2066,Hooded Vulture,0.001941,0.0190,0.0190,non-mesozoic
+2067,Border Terrier,0.001926,0.0188,0.0188,non-mesozoic
+2068,Island Fox,0.001916,0.0187,0.0187,non-mesozoic
+2069,Wood Stork,0.001818,0.0178,0.0178,non-mesozoic
+2070,Egyptian Vulture,0.001785,0.0175,0.0175,non-mesozoic
+2071,Common Kingsnake,0.001747,0.0171,0.0171,non-mesozoic
+2072,Wallace's Giant Bee,0.001269,0.0124,0.0124,non-mesozoic
+2073,Big Brown Bat,0.001219,0.0119,0.0119,non-mesozoic
+2074,Cozumel (Pygmy) Raccoon,0.001165,0.0114,0.0114,non-mesozoic
+2075,Western Diamondback Rattlesnake,0.001138,0.0111,0.0111,non-mesozoic
+2076,Banded Krait,0.000527,0.0052,0.0052,non-mesozoic
