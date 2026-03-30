@@ -1,0 +1,212 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Dark Era — Weight vs. Combat Power</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=JetBrains+Mono:wght@400;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  body{background:#08080a;color:#d4d4d8;font-family:'DM Sans',sans-serif;-webkit-font-smoothing:antialiased}
+  .container{max-width:960px;margin:0 auto;padding:32px 24px 48px}
+  .back a{color:#71717a;text-decoration:none;font-size:13px;transition:color .2s}
+  .back a:hover{color:#ef4444}
+  .header{text-align:center;margin:16px 0 24px;position:relative}
+  .header::after{content:'';position:absolute;bottom:-12px;left:50%;transform:translateX(-50%);width:60px;height:2px;background:linear-gradient(90deg,transparent,#ef4444,transparent)}
+  .header h1{font-family:'Playfair Display',serif;font-size:clamp(22px,3.5vw,32px);font-weight:700;color:#fff;letter-spacing:-.5px;margin-bottom:6px}
+  .header h1 em{color:#ef4444;font-style:italic}
+  .header p{font-size:13px;color:#71717a;max-width:580px;margin:0 auto;line-height:1.5}
+  .callout{text-align:center;font-size:14px;color:#fca5a5;margin-bottom:18px;line-height:1.6}
+  .callout strong{color:#fff}
+  .legend{display:flex;justify-content:center;gap:24px;margin-bottom:12px;flex-wrap:wrap}
+  .legend-item{display:flex;align-items:center;gap:6px;font-size:12px;color:#9ca3af}
+  .legend-dot{width:10px;height:10px;border-radius:50%}
+  .chart-wrap{position:relative;background:#0c0c10;border:1px solid #2a2a30;border-radius:12px;padding:16px 12px 12px;margin-bottom:20px}
+  canvas{display:block;width:100%;cursor:crosshair}
+  .tt{position:fixed;pointer-events:none;background:#1e1e24;border:1px solid #3a3a44;border-radius:6px;padding:8px 12px;font-size:12px;z-index:100;box-shadow:0 8px 24px rgba(0,0,0,.6);opacity:0;transition:opacity .12s}
+  .tt.vis{opacity:1}
+  .tt-name{font-weight:700;margin-bottom:3px}
+  .tt-row{display:flex;justify-content:space-between;gap:16px;color:#9ca3af}
+  .tt-row span:last-child{font-family:'JetBrains Mono',monospace;color:#e5e5e5}
+  .tt-ratio{color:#ef4444;font-weight:600;margin-top:3px}
+  .footer{margin-top:20px;padding:14px 18px;background:#111114;border:1px solid #2a2a30;border-radius:8px;font-size:11px;color:#52525b;line-height:1.7}
+  .footer strong{color:#9ca3af}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="back"><a href="../">← Back to index</a></div>
+  <div class="header">
+    <h1>The <em>Dark Era</em></h1>
+    <p>Weight vs. combat power for theropod dinosaurs and mammals, fitted via median regression. The gap between them is what our ancestors lived inside.</p>
+  </div>
+  <div class="callout">
+    At our ancestor's size (100 g), a theropod has a <strong>56×</strong> advantage.<br>
+    A 3 kg Compsognathus vs. a rat-sized mammal: <strong>3,700× mismatch</strong>.
+  </div>
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div>Theropod dinosaurs</div>
+    <div class="legend-item"><div class="legend-dot" style="background:#71717a"></div>Mammals (corrected)</div>
+    <div class="legend-item"><div class="legend-dot" style="background:rgba(234,179,8,.3);border:1px dashed #eab308"></div>Gap = anatomy advantage</div>
+  </div>
+  <div class="chart-wrap"><canvas id="cv" height="520"></canvas></div>
+  <div class="tt" id="tip">
+    <div class="tt-name" id="tN"></div>
+    <div class="tt-row"><span>Weight</span><span id="tW"></span></div>
+    <div class="tt-row"><span>Score</span><span id="tS"></span></div>
+    <div class="tt-ratio" id="tR"></div>
+  </div>
+  <div class="footer">
+    <p style="margin-bottom:8px">
+      <strong>How this works:</strong> Each dot is an animal with a known body mass and a crowd-sourced combat score (Bradley-Terry model, >2,000 matchups, anatomy-corrected). Median regression fits a power law to each group, robust to outlier votes. Mammals below 9 kg are re-anchored onto the reliable fit to correct for crowd noise while preserving relative differences.
+    </p>
+    <p>
+      <strong>What the gap means:</strong> The vertical distance between the curves is the anatomy advantage. A theropod and a mammal of equal mass are not equal fighters. The theropod's body plan gives it a built-in multiplier that mass cannot overcome. This gap is largest at the smallest sizes, exactly where our Mesozoic ancestors lived.
+    </p>
+  </div>
+</div>
+<script>
+const D=[
+  {n:"Yi qi",w:.4,s:1},{n:"Archaeopteryx",w:.9,s:.8},
+  {n:"Compsognathus",w:3,s:.7},{n:"Coelophysis",w:20,s:3.9},
+  {n:"Velociraptor",w:15,s:13.3},{n:"Stenonychosaurus",w:50,s:38.6},
+  {n:"Deinonychus",w:73,s:341.3},{n:"Moros",w:78,s:64},
+  {n:"Dakotaraptor",w:250,s:2683.6},{n:"Utahraptor",w:500,s:4166.7},
+  {n:"Ceratosaurus",w:700,s:7318.6},{n:"Carnotaurus",w:1500,s:6553},
+  {n:"Allosaurus",w:2000,s:23730},{n:"T. rex",w:8400,s:207173},
+];
+const M=[
+  {n:"Red Fox",w:6,s:.13},{n:"Bobcat",w:9,s:.78},
+  {n:"Honey Badger",w:11,s:1.03},{n:"Coyote",w:14,s:.72},
+  {n:"Grey Wolf",w:40,s:6.65},{n:"Spotted Hyena",w:55,s:13.3},
+  {n:"Leopard",w:60,s:25.8},{n:"Cougar",w:70,s:25.6},
+  {n:"Human",w:70,s:3.64},{n:"Lion",w:190,s:156.5},
+  {n:"Tiger",w:220,s:271.5},{n:"Smilodon",w:220,s:224.7},
+  {n:"Grizzly Bear",w:270,s:146.8},{n:"Polar Bear",w:450,s:368.5},
+  {n:"Arctodus simus",w:800,s:584.7},
+];
+const FT={C:.87,b:1.23},FM={C:.0291,b:1.506};
+function pr(f,w){return f.C*Math.pow(w,f.b)}
+
+const cv=document.getElementById('cv'),cx=cv.getContext('2d'),
+      tip=document.getElementById('tip'),dpr=window.devicePixelRatio||1;
+const CH=520,PAD={t:36,r:36,b:52,l:72};
+const LWn=Math.log10(.8),LWx=Math.log10(10000),LSn=Math.log10(.08),LSx=Math.log10(400000);
+
+function rz(){const w=cv.parentElement.getBoundingClientRect().width;cv.width=w*dpr;cv.height=CH*dpr;cv.style.height=CH+'px';cx.setTransform(dpr,0,0,dpr,0,0)}
+function cW(){return cv.width/dpr}
+function xp(lw){return PAD.l+(lw-LWn)/(LWx-LWn)*(cW()-PAD.l-PAD.r)}
+function yp(ls){return PAD.t+(1-(ls-LSn)/(LSx-LSn))*(CH-PAD.t-PAD.b)}
+
+function draw(){
+  const W=cW();cx.clearRect(0,0,W,CH);
+
+  // Grid
+  cx.strokeStyle='#16161c';cx.lineWidth=.5;
+  for(let lw=0;lw<=4;lw++){const px=xp(lw);cx.beginPath();cx.moveTo(px,PAD.t);cx.lineTo(px,CH-PAD.b);cx.stroke()}
+  for(let ls=0;ls<=5;ls++){const py=yp(ls);cx.beginPath();cx.moveTo(PAD.l,py);cx.lineTo(W-PAD.r,py);cx.stroke()}
+
+  // Axis tick labels
+  cx.fillStyle='#3f3f46';cx.font='10px "JetBrains Mono",monospace';cx.textAlign='center';
+  [[0,'1 kg'],[1,'10 kg'],[2,'100 kg'],[3,'1 t'],[4,'10 t']].forEach(([v,t])=>cx.fillText(t,xp(v),CH-PAD.b+18));
+  cx.textAlign='right';
+  [[0,'1'],[1,'10'],[2,'100'],[3,'1k'],[4,'10k'],[5,'100k']].forEach(([v,t])=>{if(v>=LSn&&v<=LSx)cx.fillText(t,PAD.l-10,yp(v)+4)});
+
+  // Axis titles
+  cx.save();cx.fillStyle='#52525b';cx.font='12px "DM Sans",sans-serif';cx.textAlign='center';
+  cx.fillText('Body Mass',W/2,CH-4);
+  cx.translate(14,CH/2);cx.rotate(-Math.PI/2);
+  cx.fillText('Combat Score (anatomy-corrected)',0,0);cx.restore();
+
+  // Gap fill
+  const N=300;cx.beginPath();
+  for(let i=0;i<=N;i++){const lw=LWn+(LWx-LWn)*i/N,w=Math.pow(10,lw);cx.lineTo(xp(lw),yp(Math.log10(pr(FT,w))))}
+  for(let i=N;i>=0;i--){const lw=LWn+(LWx-LWn)*i/N,w=Math.pow(10,lw);cx.lineTo(xp(lw),yp(Math.max(Math.log10(pr(FM,w)),LSn)))}
+  cx.closePath();cx.fillStyle='rgba(234,179,8,.05)';cx.fill();
+
+  // Curves
+  function crv(f,c){cx.beginPath();cx.strokeStyle=c;cx.lineWidth=2.5;
+    for(let i=0;i<=N;i++){const lw=LWn+(LWx-LWn)*i/N,w=Math.pow(10,lw),py=yp(Math.log10(pr(f,w)));
+      i===0?cx.moveTo(xp(lw),py):cx.lineTo(xp(lw),py)}cx.stroke()}
+  crv(FT,'#ef4444');crv(FM,'#6b7280');
+
+  // Dots
+  function dot(arr,c){arr.forEach(d=>{
+    const lw=Math.log10(d.w),ls=Math.log10(Math.max(d.s,1e-6));
+    if(lw<LWn||lw>LWx||ls<LSn||ls>LSx)return;
+    const px=xp(lw),py=yp(ls);
+    cx.beginPath();cx.arc(px,py,4.5,0,Math.PI*2);
+    cx.fillStyle=c;cx.globalAlpha=.65;cx.fill();cx.globalAlpha=1;
+  })}
+  dot(D,'#ef4444');dot(M,'#9ca3af');
+
+  // Ancestor
+  const aw=.1,ams=pr(FM,aw),ats=pr(FT,aw),alw=Math.log10(aw);
+  if(alw>=LWn){
+    const ax=xp(alw),amy=yp(Math.log10(ams)),aty=yp(Math.log10(ats));
+    cx.beginPath();cx.setLineDash([3,4]);cx.strokeStyle='#eab30855';cx.lineWidth=1.5;
+    cx.moveTo(ax,amy);cx.lineTo(ax,aty);cx.stroke();cx.setLineDash([]);
+    cx.fillStyle='#eab308';cx.font='bold 11px "JetBrains Mono",monospace';cx.textAlign='center';
+    cx.fillText(Math.round(ats/ams)+'×',ax,(amy+aty)/2+4);
+    cx.beginPath();cx.arc(ax,amy,7,0,Math.PI*2);
+    cx.fillStyle='#eab308';cx.globalAlpha=.85;cx.fill();cx.globalAlpha=1;
+    cx.strokeStyle='#eab30888';cx.lineWidth=2;cx.stroke();
+  }
+
+  // Labels with leader lines
+  const L=[
+    {n:"T. rex",w:8400,s:207173,c:'#fca5a5',ox:-6,oy:-14,a:'right'},
+    {n:"Allosaurus",w:2000,s:23730,c:'#fca5a5',ox:8,oy:-8,a:'left'},
+    {n:"Dakotaraptor",w:250,s:2683.6,c:'#fca5a5',ox:8,oy:-8,a:'left'},
+    {n:"Deinonychus",w:73,s:341.3,c:'#fca5a5',ox:8,oy:-8,a:'left'},
+    {n:"Velociraptor",w:15,s:13.3,c:'#fca5a5',ox:8,oy:-10,a:'left'},
+    {n:"Compsognathus",w:3,s:.7,c:'#fca5a5',ox:6,oy:16,a:'left'},
+    {n:"Tiger",w:220,s:271.5,c:'#9ca3af',ox:-6,oy:-10,a:'right'},
+    {n:"Polar Bear",w:450,s:368.5,c:'#9ca3af',ox:8,oy:4,a:'left'},
+    {n:"Grey Wolf",w:40,s:6.65,c:'#9ca3af',ox:-6,oy:14,a:'right'},
+    {n:"Human",w:70,s:3.64,c:'#71717a',ox:8,oy:14,a:'left'},
+    {n:"Bobcat",w:9,s:.78,c:'#71717a',ox:-6,oy:14,a:'right'},
+    {n:"★ Our ancestor",w:.1,s:null,c:'#eab308',ox:10,oy:-4,a:'left',anc:true},
+  ];
+
+  cx.font='10px "DM Sans",sans-serif';
+  L.forEach(l=>{
+    const lw=l.anc?Math.log10(.1):Math.log10(l.w);
+    const ls=l.anc?Math.log10(pr(FM,.1)):Math.log10(Math.max(l.s,1e-6));
+    if(lw<LWn||lw>LWx)return;
+    const dx=xp(lw),dy=yp(ls),lx=dx+l.ox,ly=dy+l.oy;
+    // Leader line
+    cx.beginPath();cx.strokeStyle=l.c+'30';cx.lineWidth=.8;
+    cx.moveTo(dx,dy);cx.lineTo(lx,ly);cx.stroke();
+    // Text
+    cx.fillStyle=l.c;cx.textAlign=l.a;cx.fillText(l.n,lx,ly);
+  });
+}
+
+// Hover
+const ALL=[...D.map(d=>({...d,t:'d',col:'#fca5a5'})),...M.map(d=>({...d,t:'m',col:'#9ca3af'}))];
+cv.addEventListener('mousemove',e=>{
+  const r=cv.getBoundingClientRect(),mx=e.clientX-r.left,my=e.clientY-r.top;
+  let best=null,bd=24;
+  ALL.forEach(d=>{const lw=Math.log10(d.w),ls=Math.log10(Math.max(d.s,1e-6));
+    if(lw<LWn||lw>LWx||ls<LSn||ls>LSx)return;
+    const dist=Math.hypot(mx-xp(lw),my-yp(ls));if(dist<bd){bd=dist;best=d}});
+  if(best){
+    document.getElementById('tN').textContent=best.n;
+    document.getElementById('tN').style.color=best.col;
+    document.getElementById('tW').textContent=best.w>=1?best.w.toFixed(0)+' kg':(best.w*1000).toFixed(0)+' g';
+    document.getElementById('tS').textContent=best.s>=1?best.s.toFixed(1):best.s<.01?best.s.toExponential(1):best.s.toFixed(3);
+    const of=best.t==='d'?FM:FT,os=pr(of,best.w),rat=best.t==='d'?best.s/os:os/best.s;
+    document.getElementById('tR').textContent=(best.t==='d'?'Theropod':'Mammal')+' at this weight: '+rat.toFixed(0)+'× '+(best.t==='d'?'advantage':'disadvantage');
+    tip.classList.add('vis');tip.style.left=(e.clientX+16)+'px';tip.style.top=(e.clientY-20)+'px';
+  }else tip.classList.remove('vis');
+});
+cv.addEventListener('mouseleave',()=>tip.classList.remove('vis'));
+
+rz();draw();window.addEventListener('resize',()=>{rz();draw()});
+</script>
+</body>
+</html>
