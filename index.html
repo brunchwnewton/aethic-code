@@ -280,6 +280,7 @@ layout: default
         <nav class="tab-nav">
             <button class="active" onclick="switchTab('code')" id="btn-code">Code &amp; Demos</button>
             <button onclick="switchTab('media')" id="btn-media">Presentations &amp; Media</button>
+            <button onclick="switchTab('nexic')" id="btn-nexic">Nexic Reasoning</button>
         </nav>
 
         <!-- ═══════════════════════════════════════ -->
@@ -412,6 +413,28 @@ layout: default
         </div>
 
         <!-- ═══════════════════════════════════════ -->
+        <!-- NEXIC TAB -->
+        <!-- ═══════════════════════════════════════ -->
+        <div id="tab-nexic" class="tab-section">
+            <div class="cards">
+                <div class="card">
+                    <span class="card-tag tag-interactive">Interactive</span>
+                    <h2>Dinosaur Recalibration — Paradigm Slider</h2>
+                    <p>
+                        How much do we underestimate dinosaurs? Crowd-sourced combat ratings
+                        reflect a weight-based paradigm. Drag the slider to correct for
+                        anatomy — the thing that actually won Mesozoic fights. Based on
+                        Bradley-Terry model fits over &gt;2,000 matchup votes.
+                    </p>
+                    <div class="card-actions">
+                        <a href="nexic/dino_correct.html" class="btn-primary">▶ Launch Demo</a>
+                        <a href="nexic/dino_correct.html" download class="btn-secondary">↓ Download HTML</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ═══════════════════════════════════════ -->
         <!-- FOOTER (shared) -->
         <!-- ═══════════════════════════════════════ -->
         <div class="footer-links">
@@ -451,7 +474,7 @@ layout: default
         // On page load, check the hash and switch to that tab
         function loadTabFromHash() {
             var hash = window.location.hash.replace('#', '');
-            if (hash === 'code' || hash === 'media') {
+            if (hash === 'code' || hash === 'media' || hash === 'nexic') {
                 switchTab(hash);
             }
         }
