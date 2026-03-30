@@ -334,20 +334,19 @@ def main(csv_path):
     print(f"\n  Our Mesozoic ancestor (~{ancestor_weight}kg, rat-sized):")
     print(f"    Predicted score: {ancestor_score:.6f}")
 
-    # What size theropod is an equal match?
-    # solve: C_t * w^b_t = ancestor_score
-    # w = (ancestor_score / C_t)^(1/b_t)
-    equal_theropod_weight = math.exp((math.log(ancestor_score) - a_t) / b_t)
-    print(f"    Equally matched theropod weight: {equal_theropod_weight*1000:.1f}g")
-    print(f"    (A theropod just {equal_theropod_weight*1000:.0f}g could take our ancestor)")
-
-    # What theropod was actually hunting them?
-    hunter_weights = [0.5, 3, 15]  # Tiny raptor to Velociraptor class
-    print(f"\n  Likely hunters of rat-sized mammals:")
-    for hw in hunter_weights:
+    # What realistic theropods were hunting them?
+    # (Smallest known theropods ~400g: Yi qi, Epidexipteryx)
+    hunter_weights = [0.4, 3, 15]  # Yi qi-class to Velociraptor-class
+    hunter_names = [
+        "Yi qi-class (400g, smallest known theropods)",
+        "Compsognathus-class (3kg)",
+        "Velociraptor-class (15kg)",
+    ]
+    print(f"\n  Realistic hunters of rat-sized mammals:")
+    for hw, hname in zip(hunter_weights, hunter_names):
         h_score = predict(a_t, b_t, hw)
         ratio = h_score / ancestor_score
-        print(f"    {hw}kg theropod: score {h_score:.4f} vs ancestor {ancestor_score:.6f} = {ratio:.0f}× mismatch")
+        print(f"    {hname}: {ratio:.0f}× mismatch")
 
     # ── Export data for visualization ──
     print(f"\n{'=' * 70}")
