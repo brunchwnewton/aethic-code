@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How Much Do We Underestimate Dinosaurs?</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=JetBrains+Mono:wght@400;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #08080a;
+    --surface: #111114;
+    --surface2: #19191e;
+    --border: #2a2a30;
+    --text: #d4d4d8;
+    --text-dim: #71717a;
+    --text-faint: #3f3f46;
+    --dino: #ef4444;
+    --dino-glow: #dc262620;
+    --dino-text: #fca5a5;
+    --dino-bar: #dc2626;
+    --meso: #3b82f6;
+    --meso-text: #93c5fd;
+    --meso-bar: #2563eb;
+    --mammal: #6b7280;
+    --mammal-bar: #4b5563;
+    --mammal-text: #9ca3af;
+    --bench: #eab308;
+    --bench-bar: #ca8a04;
+  }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 32px 24px 48px;
+  }
+
+  /* ── Header ── */
+  .header {
+    text-align: center;
+    margin-bottom: 28px;
+    position: relative;
+  }
+  .header::after {
+    content: '';
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--dino), transparent);
+  }
+  .header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(24px, 4vw, 36px);
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+  }
+  .header h1 em {
+    color: var(--dino);
+    font-style: italic;
+  }
+  .header p {
+    font-size: 14px;
+    color: var(--text-dim);
+    max-width: 560px;
+    margin: 0 auto;
+    line-height: 1.5;
+  }
+
+  /* ── Slider Panel ── */
+  .slider-panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+  }
+  .slider-labels {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .slider-label-left, .slider-label-right {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+  .slider-label-left { color: var(--text-dim); }
+  .slider-label-right { color: var(--dino); }
+  .slider-center {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-dim);
+    transition: color 0.3s;
+    text-align: center;
+  }
+  .slider-center .factor {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    color: var(--text-faint);
+    margin-left: 6px;
+  }
+
+  /* Range input styling */
+  input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(90deg, var(--mammal-bar), var(--dino-bar));
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    border: 3px solid var(--dino);
+    cursor: grab;
+    box-shadow: 0 0 12px var(--dino-glow);
+    transition: box-shadow 0.2s;
+  }
+  input[type="range"]::-webkit-slider-thumb:active { cursor: grabbing; }
+  input[type="range"]::-moz-range-thumb {
+    width: 20px; height: 20px; border-radius: 50%;
+    background: #fff; border: 3px solid var(--dino); cursor: grab;
+  }
+
+  .slider-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 14px;
+  }
+  .btn {
+    padding: 6px 20px;
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .btn-ghost {
+    background: var(--surface2);
+    color: var(--text-dim);
+    border: 1px solid var(--border);
+  }
+  .btn-ghost:hover { border-color: var(--text-dim); color: var(--text); }
+  .btn-primary {
+    background: var(--dino-bar);
+    color: #fff;
+  }
+  .btn-primary:hover { background: var(--dino); }
+  .btn-primary.playing { background: var(--mammal-bar); }
+
+  /* ── Callout ── */
+  .callout {
+    background: linear-gradient(135deg, #1a0808, var(--surface));
+    border: 1px solid var(--dino-glow);
+    border-radius: 8px;
+    padding: 14px 20px;
+    margin-bottom: 18px;
+    font-size: 14px;
+    color: var(--dino-text);
+    text-align: center;
+    line-height: 1.6;
+    transition: opacity 0.4s, max-height 0.4s;
+    overflow: hidden;
+  }
+  .callout strong { color: #fff; }
+  .callout em { font-style: italic; }
+  .callout.hidden { opacity: 0; max-height: 0; padding: 0 20px; margin-bottom: 0; border: 0; }
+
+  /* ── Legend ── */
+  .legend {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    color: var(--text-dim);
+    font-weight: 500;
+  }
+  .legend-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+  }
+
+  /* ── Chart ── */
+  .chart {
+    position: relative;
+  }
+  .chart-row {
+    display: flex;
+    align-items: center;
+    height: 26px;
+    transition: opacity 0.1s;
+    position: relative;
+  }
+  .chart-row:hover { opacity: 1 !important; }
+  .chart-row:hover .bar-fill { filter: brightness(1.2); }
+  .chart-row:hover .animal-name { color: #fff !important; }
+
+  .rank-num {
+    width: 28px;
+    flex-shrink: 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 9px;
+    color: var(--text-faint);
+    text-align: right;
+    padding-right: 6px;
+  }
+
+  .animal-name {
+    width: 148px;
+    flex-shrink: 0;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: right;
+    padding-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: color 0.15s, font-weight 0.15s;
+  }
+
+  .bar-container {
+    flex: 1;
+    height: 18px;
+    position: relative;
+  }
+  .bar-fill {
+    height: 100%;
+    border-radius: 2px 3px 3px 2px;
+    transition: width 0.12s ease-out;
+    position: relative;
+  }
+  .ref-line-100 {
+    position: absolute;
+    top: 0; bottom: 0;
+    width: 1px;
+    background: var(--bench);
+    opacity: 0.15;
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  .score-label {
+    width: 70px;
+    flex-shrink: 0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 10px;
+    color: var(--text-faint);
+    text-align: right;
+    padding-left: 6px;
+  }
+
+  /* ── Tooltip ── */
+  .tooltip {
+    position: fixed;
+    pointer-events: none;
+    background: #1e1e24;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 12px;
+    z-index: 100;
+    min-width: 180px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: opacity 0.15s;
+  }
+  .tooltip.visible { opacity: 1; }
+  .tooltip-name { font-weight: 700; margin-bottom: 4px; }
+  .tooltip-row { display: flex; justify-content: space-between; gap: 12px; color: var(--text-dim); }
+  .tooltip-row span:last-child { font-family: 'JetBrains Mono', monospace; color: var(--text); }
+  .tooltip-correction { color: var(--dino); font-weight: 600; margin-top: 4px; }
+
+  /* ── Footer ── */
+  .footer {
+    margin-top: 24px;
+    padding: 16px 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 12px;
+    color: var(--text-dim);
+    line-height: 1.7;
+  }
+  .footer strong { color: var(--text); }
+  .footer em { color: var(--dino-text); font-style: normal; font-weight: 600; }
+
+  @media (max-width: 600px) {
+    .animal-name { width: 100px; font-size: 10px; }
+    .rank-num { width: 20px; font-size: 8px; }
+    .score-label { width: 50px; font-size: 9px; }
+    .slider-labels { flex-direction: column; gap: 4px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">
+    <h1>How Much Do We <em>Underestimate</em> Dinosaurs?</h1>
+    <p>Crowd-sourced combat ratings reflect a weight-based paradigm. Drag the slider to correct for anatomy — the thing that actually won Mesozoic fights.</p>
+  </div>
+
+  <div class="slider-panel">
+    <div class="slider-labels">
+      <span class="slider-label-left">Weight Paradigm</span>
+      <span class="slider-center" id="paradigmLabel">
+        Crowd Consensus
+        <span class="factor" id="factorLabel"></span>
+      </span>
+      <span class="slider-label-right">Anatomy Paradigm</span>
+    </div>
+    <input type="range" id="slider" min="0" max="1000" value="0">
+    <div class="slider-buttons">
+      <button class="btn btn-ghost" id="resetBtn">Reset</button>
+      <button class="btn btn-primary" id="animateBtn">&#9654; Animate</button>
+    </div>
+  </div>
+
+  <div class="callout hidden" id="callout">
+    <strong>The Anatomy Paradigm:</strong> A <em>Dakotaraptor</em> overpowers a big cat
+    the same way a big cat overpowers a naked human.<br>
+    The fight is measured in <em>seconds</em>.
+  </div>
+
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:var(--dino-bar)"></div>Dinosaur</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--meso-bar)"></div>Mesozoic Other</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--mammal-bar)"></div>Extant / Cenozoic</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--bench-bar)"></div>Big Cat Benchmark</div>
+  </div>
+
+  <div class="chart" id="chart"></div>
+
+  <div class="tooltip" id="tooltip">
+    <div class="tooltip-name" id="ttName"></div>
+    <div class="tooltip-row"><span>Score</span><span id="ttScore"></span></div>
+    <div class="tooltip-row"><span>Crowd baseline</span><span id="ttCrowd"></span></div>
+    <div class="tooltip-correction" id="ttCorrection"></div>
+  </div>
+
+  <div class="footer">
+    <p style="margin-bottom:8px">
+      <strong>How this works:</strong> Power ratings are fitted from &gt;2,000 crowd-sourced
+      matchup votes using a Bradley-Terry model. The crowd rates animals through a
+      <strong>weight paradigm</strong> — heavier animals score higher. But Mesozoic animals
+      fought with body plans refined over 160 million years: sickle claws, crushing jaws,
+      horns, clubs, and armor purpose-built for killing.
+    </p>
+    <p>
+      The <em>anatomy correction</em> rescales dinosaurs by ~12.7&times; so that a
+      Dakotaraptor overpowers a big cat the way a big cat overpowers a naked human.
+      Mesozoic non-dinosaurs get &radic; correction (~3.6&times;). All scores are normalized
+      where Big Cat ≡ 100.
+    </p>
+    <p style="margin-top:8px;font-size:11px;color:#52525b">
+      Matchup data sourced from the
+      <a href="https://carnivora.net/interspecific-conflict-directory-t37.html"
+         target="_blank" rel="noopener"
+         style="color:#71717a;text-decoration:underline;text-underline-offset:2px">
+        Carnivora.net Interspecific Conflict Directory</a>.
+      Power ratings fitted via Bradley-Terry model. Anatomy correction is the author's hypothesis.
+    </p>
+  </div>
+</div>
+
+<script>
+const DATA = [
+  {n:"Ankylosaurus magniventris",c:17098.06,r:217735.68,t:"d"},
+  {n:"Tyrannosaurus rex",c:16268.63,r:207173.32,t:"d"},
+  {n:"Triceratops horridus",c:12493.5,r:159098.83,t:"d"},
+  {n:"Spinosaurus aegyptiacus",c:4390.9,r:55916.08,t:"d"},
+  {n:"Pliosaurus funkei",c:13729.44,r:48994.16,t:"m"},
+  {n:"Stegosaurus stenops",c:3833.22,r:48814.24,t:"d"},
+  {n:"Mosasaurus hoffmannii",c:9253.03,r:33019.87,t:"m"},
+  {n:"Allosaurus fragilis",c:1863.41,r:23729.65,t:"d"},
+  {n:"Carnotaurus sastrei",c:514.59,r:6553.01,t:"d"},
+  {n:"Sarcosuchus imperator",c:1559.75,r:5566.04,t:"m"},
+  {n:"Utahraptor ostrommaysorum",c:327.2,r:4166.74,t:"d"},
+  {n:"Orca (Killer Whale)",c:2970.25,r:2970.25,t:"n"},
+  {n:"Dakotaraptor steini",c:210.73,r:2683.6,t:"d"},
+  {n:"Dilophosaurus wetherilli",c:134.8,r:1716.5,t:"d"},
+  {n:"Protoceratops andrewsi",c:2.5,r:32.4,t:"d"},
+  {n:"Moros intrepidus",c:5.0,r:64.0,t:"d"},
+  {n:"Coelophysis bauri",c:0.3,r:3.9,t:"d"},
+  {n:"Woolly Mammoth",c:2036.47,r:2036.47,t:"n"},
+  {n:"African Bush Elephant",c:1318.83,r:1318.83,t:"n"},
+  {n:"Great White Shark",c:1131.59,r:1131.59,t:"n"},
+  {n:"Short-faced Bear",c:584.72,r:584.72,t:"n",fn:"Arctodus simus"},
+  {n:"Hippopotamus",c:552.64,r:552.64,t:"n"},
+  {n:"Saltwater Crocodile",c:542.86,r:542.86,t:"n"},
+  {n:"Polar Bear",c:368.47,r:368.47,t:"n"},
+  {n:"Deinonychus antirrhopus",c:26.8,r:341.31,t:"d"},
+  {n:"Tiger",c:271.5,r:271.5,t:"n"},
+  {n:"Quetzalcoatlus northropi",c:73.73,r:263.11,t:"m"},
+  {n:"Smilodon fatalis",c:224.69,r:224.69,t:"n"},
+  {n:"Lion",c:156.45,r:156.45,t:"n"},
+  {n:"Grizzly Bear",c:146.81,r:146.81,t:"n"},
+  {n:"BIG CAT ≡ 100",c:100,r:100,t:"b"},
+  {n:"Siberian Tiger",c:99.42,r:99.42,t:"n"},
+  {n:"African Lion",c:88.31,r:88.31,t:"n"},
+  {n:"Leopard",c:25.79,r:25.79,t:"n"},
+  {n:"Dire Wolf",c:14.1,r:14.1,t:"n"},
+  {n:"Velociraptor mongoliensis",c:1.05,r:13.32,t:"d"},
+  {n:"Grey Wolf",c:6.65,r:6.65,t:"n"},
+  {n:"Human (naked)",c:3.64,r:3.64,t:"n"},
+  {n:"Pteranodon longiceps",c:0.92,r:3.28,t:"m"},
+  {n:"Coyote",c:0.72,r:0.72,t:"n"},
+  {n:"Bobcat",c:0.78,r:0.78,t:"n"},
+  {n:"Harpy Eagle",c:0.91,r:0.91,t:"n"},
+  {n:"Caracal",c:0.94,r:0.94,t:"n"},
+  {n:"Honey Badger",c:1.03,r:1.03,t:"n"},
+  {n:"Golden Eagle",c:0.51,r:0.51,t:"n"},
+  {n:"Red Fox",c:0.14,r:0.14,t:"n"},
+  {n:"Goliath Birdeater",c:0.31,r:0.31,t:"n",fn:"Goliath Bird Eating Spider"},
+];
+
+const COLORS = {
+  d: { bar: '#dc2626', text: '#fca5a5', label: 'Dinosaur' },
+  m: { bar: '#2563eb', text: '#93c5fd', label: 'Mesozoic Other' },
+  n: { bar: '#4b5563', text: '#9ca3af', label: 'Extant / Cenozoic' },
+  b: { bar: '#ca8a04', text: '#eab308', label: 'Benchmark' },
+};
+
+// Short display name (strip binomial for compact display)
+const SHORT = {};
+DATA.forEach(d => {
+  const parts = d.n.split(' ');
+  // If first word is capitalized genus and second is lowercase species epithet, shorten
+  if (parts.length >= 2 && /^[A-Z]/.test(parts[0]) && /^[a-z]/.test(parts[1])
+      && !['(Killer','(naked)'].includes(parts[1])) {
+    SHORT[d.n] = parts[0]; // genus only
+  } else {
+    SHORT[d.n] = d.n;
+  }
+});
+// Override some for clarity
+SHORT['Tyrannosaurus rex'] = 'T. rex';
+SHORT['Orca (Killer Whale)'] = 'Orca';
+SHORT['African Bush Elephant'] = 'Elephant';
+SHORT['Great White Shark'] = 'Great White';
+SHORT['Saltwater Crocodile'] = 'Saltwater Croc';
+SHORT['BIG CAT ≡ 100'] = 'BIG CAT ≡ 100';
+SHORT['Human (naked)'] = 'Human';
+SHORT['Siberian Tiger'] = 'Siberian Tiger';
+SHORT['African Lion'] = 'African Lion';
+SHORT['Grizzly Bear'] = 'Grizzly Bear';
+SHORT['Polar Bear'] = 'Polar Bear';
+SHORT['Grey Wolf'] = 'Grey Wolf';
+SHORT['Dire Wolf'] = 'Dire Wolf';
+SHORT['Short-faced Bear'] = 'Short-faced Bear';
+SHORT['Woolly Mammoth'] = 'Woolly Mammoth';
+
+const slider = document.getElementById('slider');
+const chart = document.getElementById('chart');
+const callout = document.getElementById('callout');
+const paradigmLabel = document.getElementById('paradigmLabel');
+const factorLabel = document.getElementById('factorLabel');
+const animateBtn = document.getElementById('animateBtn');
+const resetBtn = document.getElementById('resetBtn');
+const tooltip = document.getElementById('tooltip');
+const ttName = document.getElementById('ttName');
+const ttScore = document.getElementById('ttScore');
+const ttCrowd = document.getElementById('ttCrowd');
+const ttCorrection = document.getElementById('ttCorrection');
+
+let t = 0;
+let animating = false;
+let animId = null;
+
+function lerpLog(a, b, t) {
+  const la = Math.log(Math.max(a, 0.01));
+  const lb = Math.log(Math.max(b, 0.01));
+  return Math.exp(la + (lb - la) * t);
+}
+
+function fmt(v) {
+  if (v >= 100000) return (v/1000).toFixed(0) + 'k';
+  if (v >= 10000) return (v/1000).toFixed(1) + 'k';
+  if (v >= 1000) return (v/1000).toFixed(1) + 'k';
+  if (v >= 100) return v.toFixed(0);
+  if (v >= 10) return v.toFixed(1);
+  if (v >= 1) return v.toFixed(1);
+  return v.toFixed(2);
+}
+
+function render() {
+  const items = DATA.map(d => ({
+    ...d,
+    current: lerpLog(d.c, d.r, t),
+    mult: d.r / d.c,
+  })).sort((a, b) => b.current - a.current);
+
+  const maxVal = Math.max(...items.map(i => i.current));
+  const minLog = Math.log10(0.3);
+  const maxLog = Math.log10(maxVal);
+  const range = maxLog - minLog;
+  const ref100 = ((Math.log10(100) - minLog) / range) * 100;
+
+  // Update slider label
+  const dinoFactor = lerpLog(1, 12.73, t);
+  if (t < 0.02) {
+    paradigmLabel.innerHTML = 'Crowd Consensus<span class="factor"></span>';
+    paradigmLabel.style.color = '';
+  } else if (t > 0.98) {
+    paradigmLabel.innerHTML = `Anatomy Paradigm<span class="factor">Dino ×${dinoFactor.toFixed(1)}</span>`;
+    paradigmLabel.style.color = '#ef4444';
+  } else {
+    paradigmLabel.innerHTML = `Blended (${Math.round(t*100)}%)<span class="factor">Dino ×${dinoFactor.toFixed(1)}</span>`;
+    paradigmLabel.style.color = '';
+  }
+
+  // Callout
+  callout.classList.toggle('hidden', t < 0.4);
+
+  // Build chart HTML
+  let html = '';
+  items.forEach((item, i) => {
+    const logVal = Math.log10(Math.max(item.current, 0.3));
+    const barW = Math.max(((logVal - minLog) / range) * 100, 0.3);
+    const col = COLORS[item.t];
+    const isDino = item.t === 'd';
+    const isBench = item.t === 'b';
+    const nameWeight = (isDino && t > 0.05) ? 700 : isBench ? 700 : 400;
+    const nameColor = isBench ? col.text : (isDino && t > 0.05) ? col.text : '#9ca3af';
+    const barOpacity = isBench ? 0.5 : 0.75;
+
+    html += `<div class="chart-row" data-idx="${i}" style="opacity:0.88">
+      <div class="rank-num">${i + 1}</div>
+      <div class="animal-name" style="color:${nameColor};font-weight:${nameWeight}">${SHORT[item.n] || item.n}</div>
+      <div class="bar-container">
+        <div class="ref-line-100" style="left:${ref100}%"></div>
+        <div class="bar-fill" style="width:${barW}%;background:${col.bar};opacity:${barOpacity};${isDino && t > 0.05 ? 'box-shadow:0 0 '+(t*12)+'px '+col.bar+'60;' : ''}"></div>
+      </div>
+      <div class="score-label">${fmt(item.current)}</div>
+    </div>`;
+  });
+  chart.innerHTML = html;
+
+  // Attach hover events
+  chart.querySelectorAll('.chart-row').forEach((row, idx) => {
+    const item = items[idx];
+    row.addEventListener('mouseenter', (e) => {
+      const col = COLORS[item.t];
+      ttName.textContent = item.fn || item.n;
+      ttName.style.color = col.text;
+      ttScore.textContent = fmt(item.current);
+      ttCrowd.textContent = fmt(item.c);
+      if (item.mult > 1.01 && t > 0.01) {
+        const curMult = lerpLog(1, item.mult, t);
+        ttCorrection.textContent = `Correction: ×${curMult.toFixed(1)}`;
+        ttCorrection.style.display = '';
+      } else {
+        ttCorrection.style.display = 'none';
+      }
+      tooltip.classList.add('visible');
+    });
+    row.addEventListener('mousemove', (e) => {
+      tooltip.style.left = (e.clientX + 16) + 'px';
+      tooltip.style.top = (e.clientY - 20) + 'px';
+    });
+    row.addEventListener('mouseleave', () => {
+      tooltip.classList.remove('visible');
+    });
+  });
+}
+
+slider.addEventListener('input', () => {
+  t = slider.value / 1000;
+  if (animating) { cancelAnimationFrame(animId); animating = false; animateBtn.classList.remove('playing'); }
+  render();
+});
+
+resetBtn.addEventListener('click', () => {
+  t = 0;
+  slider.value = 0;
+  if (animating) { cancelAnimationFrame(animId); animating = false; }
+  animateBtn.textContent = '▶ Animate';
+  animateBtn.classList.remove('playing');
+  render();
+});
+
+animateBtn.addEventListener('click', () => {
+  if (animating) return;
+  animating = true;
+  animateBtn.classList.add('playing');
+  animateBtn.textContent = 'Playing...';
+  const startT = t;
+  const targetT = startT < 0.5 ? 1 : 0;
+  const startTime = performance.now();
+  const duration = 9000;
+
+  function tick(now) {
+    const elapsed = now - startTime;
+    let p = Math.min(elapsed / duration, 1);
+    // Ease in-out cubic
+    p = p < 0.5 ? 4*p*p*p : 1 - Math.pow(-2*p + 2, 3) / 2;
+    t = startT + (targetT - startT) * p;
+    slider.value = Math.round(t * 1000);
+    render();
+    if (elapsed < duration) {
+      animId = requestAnimationFrame(tick);
+    } else {
+      animating = false;
+      animateBtn.classList.remove('playing');
+      animateBtn.textContent = t > 0.5 ? '◀ Reverse' : '▶ Animate';
+    }
+  }
+  animId = requestAnimationFrame(tick);
+});
+
+// Initial render
+render();
+</script>
+</body>
+</html>
