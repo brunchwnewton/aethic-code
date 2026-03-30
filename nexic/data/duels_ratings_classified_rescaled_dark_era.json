@@ -1,0 +1,474 @@
+{
+  "theropods": {
+    "points": [
+      {
+        "name": "Yi qi",
+        "weight": 0.4,
+        "score": 0.9763
+      },
+      {
+        "name": "Archaeopteryx lithographica",
+        "weight": 0.9,
+        "score": 0.7641
+      },
+      {
+        "name": "Compsognathus longipes",
+        "weight": 3,
+        "score": 0.7008
+      },
+      {
+        "name": "Eodromaeus murphi",
+        "weight": 5,
+        "score": 131.2737
+      },
+      {
+        "name": "Eoraptor lunensis",
+        "weight": 10,
+        "score": 131.2737
+      },
+      {
+        "name": "Linheraptor exquisitus",
+        "weight": 12,
+        "score": 3.17
+      },
+      {
+        "name": "Ornitholestes hermanni",
+        "weight": 12,
+        "score": 2.1725
+      },
+      {
+        "name": "Dromaeosauroides bornholmensis",
+        "weight": 15,
+        "score": 106.2133
+      },
+      {
+        "name": "Velociraptor mongoliensis",
+        "weight": 15,
+        "score": 13.3245
+      },
+      {
+        "name": "Dromaeosaurus albertensis",
+        "weight": 15,
+        "score": 12.6625
+      },
+      {
+        "name": "Coelophysis bauri",
+        "weight": 20,
+        "score": 3.9071
+      },
+      {
+        "name": "Suskityrannus hazelae",
+        "weight": 30,
+        "score": 158.5097
+      },
+      {
+        "name": "Stenonychosaurus inequalis",
+        "weight": 50,
+        "score": 38.6251
+      },
+      {
+        "name": "Deinonychus antirrhopus",
+        "weight": 73,
+        "score": 341.3078
+      },
+      {
+        "name": "Citipati osmolskae",
+        "weight": 75,
+        "score": 9.5852
+      },
+      {
+        "name": "Moros intrepidus",
+        "weight": 78,
+        "score": 64.0494
+      },
+      {
+        "name": "Liliensternus liliensterni",
+        "weight": 130,
+        "score": 133.2891
+      },
+      {
+        "name": "Timurlengia euotica",
+        "weight": 170,
+        "score": 481.6668
+      },
+      {
+        "name": "Ornithomimus edmontonicus",
+        "weight": 170,
+        "score": 13.5869
+      },
+      {
+        "name": "Marshosaurus bicentesimus",
+        "weight": 200,
+        "score": 1420.0764
+      },
+      {
+        "name": "Anzu wyliei",
+        "weight": 200,
+        "score": 632.0228
+      },
+      {
+        "name": "Herrerasaurus ischigualastensis",
+        "weight": 210,
+        "score": 3400.4448
+      },
+      {
+        "name": "Dakotaraptor steini",
+        "weight": 250,
+        "score": 2683.5991
+      },
+      {
+        "name": "Achillobator giganticus",
+        "weight": 250,
+        "score": 1748.9172
+      },
+      {
+        "name": "Concavenator corcovatus",
+        "weight": 350,
+        "score": 186.0702
+      },
+      {
+        "name": "Dilophosaurus wetherilli",
+        "weight": 400,
+        "score": 1716.4826
+      },
+      {
+        "name": "Gallimimus bullatus",
+        "weight": 440,
+        "score": 870.437
+      },
+      {
+        "name": "Monolophosaurus jiangi",
+        "weight": 475,
+        "score": 1320.8428
+      },
+      {
+        "name": "Utahraptor ostrommaysorum",
+        "weight": 500,
+        "score": 4166.7418
+      }
+    ],
+    "fit": {
+      "C": 0.8695499596976252,
+      "b": 1.23,
+      "r2": 0.43085434109364884
+    }
+  },
+  "mammals": {
+    "points": [
+      {
+        "name": "Etruscan Shrew",
+        "weight": 0.002,
+        "score_crowd": 14.2869,
+        "score_corrected": 2.7172809132825418e-05
+      },
+      {
+        "name": "House Mouse",
+        "weight": 0.02,
+        "score_crowd": 28.6237,
+        "score_corrected": 0.0022768414639213457
+      },
+      {
+        "name": "Northern Grasshopper Mouse",
+        "weight": 0.035,
+        "score_crowd": 0.1792,
+        "score_corrected": 3.534913344053079e-05
+      },
+      {
+        "name": "Meadow Vole",
+        "weight": 0.04,
+        "score_crowd": 0.7745,
+        "score_corrected": 0.00018977477653503124
+      },
+      {
+        "name": "Four-toed Hedgehog",
+        "weight": 0.35,
+        "score_crowd": 7.2538,
+        "score_corrected": 0.061883505859027375
+      },
+      {
+        "name": "Fennec Fox",
+        "weight": 1.2,
+        "score_crowd": 0.0827,
+        "score_corrected": 0.005709357744026947
+      },
+      {
+        "name": "Snowshoe Hare",
+        "weight": 1.5,
+        "score_crowd": 4.4312,
+        "score_corrected": 0.45053082555508317
+      },
+      {
+        "name": "Brown Hare",
+        "weight": 3.5,
+        "score_crowd": 0.4767,
+        "score_corrected": 0.20180106700431857
+      },
+      {
+        "name": "Arctic Fox",
+        "weight": 4,
+        "score_crowd": 0.0654,
+        "score_corrected": 0.03390492086335342
+      },
+      {
+        "name": "Feral Cat",
+        "weight": 4,
+        "score_crowd": 0.0447,
+        "score_corrected": 0.023173546828622285
+      },
+      {
+        "name": "Fisher",
+        "weight": 4.5,
+        "score_crowd": 0.2913,
+        "score_corrected": 0.1787945787759743
+      },
+      {
+        "name": "Red Fox",
+        "weight": 6,
+        "score_crowd": 0.1419,
+        "score_corrected": 0.12511954640526188
+      },
+      {
+        "name": "Bobcat",
+        "weight": 9,
+        "score_crowd": 0.7807,
+        "score_corrected": 0.9840149865640437
+      },
+      {
+        "name": "Honey Badger",
+        "weight": 11,
+        "score_crowd": 1.0326,
+        "score_corrected": 1.4438384720167845
+      },
+      {
+        "name": "Canadian Lynx",
+        "weight": 11,
+        "score_crowd": 0.9762,
+        "score_corrected": 1.3649768704075005
+      },
+      {
+        "name": "Ocelot",
+        "weight": 12,
+        "score_crowd": 1.1227,
+        "score_corrected": 1.6187168630856092
+      },
+      {
+        "name": "Caracal",
+        "weight": 13,
+        "score_crowd": 0.9415,
+        "score_corrected": 1.3864868477241985
+      },
+      {
+        "name": "Wolverine",
+        "weight": 14,
+        "score_crowd": 2.4723,
+        "score_corrected": 3.6920835706000226
+      },
+      {
+        "name": "Coyote",
+        "weight": 14,
+        "score_crowd": 0.7216,
+        "score_corrected": 1.0776230653824277
+      },
+      {
+        "name": "Mandrill",
+        "weight": 25,
+        "score_crowd": 2.291,
+        "score_corrected": 3.338057964018717
+      },
+      {
+        "name": "Thylacine",
+        "weight": 25,
+        "score_crowd": 1.4057,
+        "score_corrected": 2.0481484417377174
+      },
+      {
+        "name": "Olive Baboon",
+        "weight": 25,
+        "score_crowd": 1.0581,
+        "score_corrected": 1.5416844747831535
+      },
+      {
+        "name": "Red Wolf",
+        "weight": 27,
+        "score_crowd": 0.8945,
+        "score_corrected": 1.2848341560994834
+      },
+      {
+        "name": "Grey Wolf",
+        "weight": 40,
+        "score_crowd": 6.6515,
+        "score_corrected": 8.78159891761203
+      },
+      {
+        "name": "Bonobo",
+        "weight": 40,
+        "score_crowd": 1.6145,
+        "score_corrected": 2.1315329553461058
+      },
+      {
+        "name": "Cheetah",
+        "weight": 50,
+        "score_crowd": 2.8029,
+        "score_corrected": 3.5279395906847055
+      },
+      {
+        "name": "Common Chimpanzee",
+        "weight": 50,
+        "score_crowd": 2.2025,
+        "score_corrected": 2.772231242100348
+      },
+      {
+        "name": "Spotted Hyena",
+        "weight": 55,
+        "score_crowd": 13.3028,
+        "score_corrected": 16.426256592036307
+      },
+      {
+        "name": "Leopard",
+        "weight": 60,
+        "score_crowd": 25.7893,
+        "score_corrected": 31.31887653090281
+      },
+      {
+        "name": "Dire Wolf",
+        "weight": 68,
+        "score_crowd": 14.1032,
+        "score_corrected": 16.74766109011106
+      },
+      {
+        "name": "Cougar",
+        "weight": 70,
+        "score_crowd": 25.6008,
+        "score_corrected": 30.25196412701542
+      },
+      {
+        "name": "Human",
+        "weight": 70,
+        "score_crowd": 3.6433,
+        "score_corrected": 4.305216278552047
+      },
+      {
+        "name": "African Lion",
+        "weight": 185,
+        "score_crowd": 88.3148,
+        "score_corrected": 93.48928519403017
+      },
+      {
+        "name": "Lion",
+        "weight": 190,
+        "score_crowd": 156.4549,
+        "score_corrected": 165.3291072320948
+      },
+      {
+        "name": "Tiger",
+        "weight": 220,
+        "score_crowd": 271.5018,
+        "score_corrected": 284.37327669646305
+      },
+      {
+        "name": "Smilodon fatalis",
+        "weight": 220,
+        "score_crowd": 224.6903,
+        "score_corrected": 235.34251652442572
+      },
+      {
+        "name": "Bengal Tiger",
+        "weight": 220,
+        "score_crowd": 89.4449,
+        "score_corrected": 93.68534314243024
+      },
+      {
+        "name": "Siberian Tiger",
+        "weight": 230,
+        "score_crowd": 99.4202,
+        "score_corrected": 103.88276132505263
+      },
+      {
+        "name": "Grizzly Bear",
+        "weight": 270,
+        "score_crowd": 146.8052,
+        "score_corrected": 152.20933554066374
+      },
+      {
+        "name": "Polar Bear",
+        "weight": 450,
+        "score_crowd": 368.4733,
+        "score_corrected": 375.6130194088901
+      },
+      {
+        "name": "Arctodus simus",
+        "weight": 800,
+        "score_crowd": 584.7216,
+        "score_corrected": 590.1382895371208
+      }
+    ],
+    "fit": {
+      "C": 0.029128429228891087,
+      "b": 1.506,
+      "r2": 0.7136222772104361
+    },
+    "reliable_threshold_kg": 9
+  },
+  "comparisons": [
+    {
+      "weight": 0.02,
+      "theropod": 0.007072312363654351,
+      "mammal": 8.047634413218338e-05,
+      "context": "Mouse-sized"
+    },
+    {
+      "weight": 0.1,
+      "theropod": 0.05120289767826548,
+      "mammal": 0.0009084835452300588,
+      "context": "Shrew-sized"
+    },
+    {
+      "weight": 0.5,
+      "theropod": 0.3707043178868079,
+      "mammal": 0.010255713785881472,
+      "context": "Rat-sized"
+    },
+    {
+      "weight": 2,
+      "theropod": 2.0396771656730928,
+      "mammal": 0.08273099338151933,
+      "context": "Squirrel-sized"
+    },
+    {
+      "weight": 5,
+      "theropod": 6.295462547914321,
+      "mammal": 0.3288258051257957,
+      "context": "Rabbit-sized"
+    },
+    {
+      "weight": 15,
+      "theropod": 24.315700637655922,
+      "mammal": 1.719928930675768,
+      "context": "Fox-sized (Velociraptor)"
+    },
+    {
+      "weight": 40,
+      "theropod": 81.25092775626588,
+      "mammal": 7.53389238784701,
+      "context": "Wolf-sized"
+    },
+    {
+      "weight": 75,
+      "theropod": 176.04345901400575,
+      "mammal": 19.415980550975235,
+      "context": "Human-sized (Deinonychus)"
+    },
+    {
+      "weight": 250,
+      "theropod": 774.0352692776439,
+      "mammal": 119.01856746260219,
+      "context": "Lion-sized (Dakotaraptor)"
+    },
+    {
+      "weight": 500,
+      "theropod": 1815.6312314938582,
+      "mammal": 338.03828691387713,
+      "context": "Bear-sized (Utahraptor)"
+    }
+  ]
+}
