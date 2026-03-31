@@ -358,7 +358,7 @@ layout: default
 
   <div class="callout hidden" id="callout">
     <strong>The Anatomy Paradigm:</strong> A <em>Dakotaraptor</em> overpowers a big cat
-    the same way a big cat overpowers an unarmed human.<br>
+    the same way a lion overpowers an unarmed human.<br>
     The fight is measured in <em>seconds</em>.
   </div>
 
@@ -388,7 +388,7 @@ layout: default
     </p>
     <p>
       The <em>anatomy correction</em> rescales dinosaurs by ~12.7&times; so that a
-      Dakotaraptor overpowers a big cat the way a big cat overpowers an unarmed human.
+      Dakotaraptor overpowers a big cat the way a lion overpowers an unarmed human.
       Mesozoic non-dinosaurs get &radic; correction (~3.6&times;). All scores are normalized
       where Big Cat ≡ 100.
     </p>
@@ -403,7 +403,7 @@ layout: default
     <p style="margin-top:8px;font-size:11px;color:#52525b;line-height:1.7">
       <strong style="color:#71717a">On the calibration:</strong>
       The anatomy correction is my hypothesis, constrained so that
-      Dakotaraptor/Big&nbsp;Cat = Big&nbsp;Cat/unarmed&nbsp;Human — that is, equal
+      Dakotaraptor/Lion = Lion/unarmed&nbsp;Human — that is, equal
       log-spacing, or equivalently, the same multiplicative ratio. This is not an arbitrary
       choice: it is the point at which the anatomical difference is already most viscerally
       intuitive to us. Everyone understands that a big cat takes down an unarmed human in seconds,
@@ -472,55 +472,59 @@ layout: default
 
 <script>
 const DATA = [
-  {n:"Ankylosaurus magniventris",c:17098.06,r:217735.68,t:"d"},
-  {n:"Tyrannosaurus rex",c:16268.63,r:207173.32,t:"d"},
-  {n:"Triceratops horridus",c:12493.5,r:159098.83,t:"d"},
-  {n:"Spinosaurus aegyptiacus",c:4390.9,r:55916.08,t:"d"},
-  {n:"Pliosaurus funkei",c:13729.44,r:48994.16,t:"m"},
-  {n:"Stegosaurus stenops",c:3833.22,r:48814.24,t:"d"},
-  {n:"Mosasaurus hoffmannii",c:9253.03,r:33019.87,t:"m"},
-  {n:"Allosaurus fragilis",c:1863.41,r:23729.65,t:"d"},
-  {n:"Carnotaurus sastrei",c:514.59,r:6553.01,t:"d"},
-  {n:"Sarcosuchus imperator",c:1559.75,r:5566.04,t:"m"},
-  {n:"Utahraptor ostrommaysorum",c:327.2,r:4166.74,t:"d"},
-  {n:"Orca (Killer Whale)",c:2970.25,r:2970.25,t:"n"},
-  {n:"Dakotaraptor steini",c:210.73,r:2683.6,t:"d"},
-  {n:"Dilophosaurus wetherilli",c:134.8,r:1716.5,t:"d"},
-  {n:"Protoceratops andrewsi",c:2.5,r:32.4,t:"d"},
-  {n:"Moros intrepidus",c:5.0,r:64.0,t:"d"},
-  {n:"Coelophysis bauri",c:0.3,r:3.9,t:"d"},
-  {n:"Woolly Mammoth",c:2036.47,r:2036.47,t:"n"},
-  {n:"African Bush Elephant",c:1318.83,r:1318.83,t:"n"},
-  {n:"Great White Shark",c:1131.59,r:1131.59,t:"n"},
-  {n:"Short-faced Bear",c:584.72,r:584.72,t:"n",fn:"Arctodus simus"},
-  {n:"Hippopotamus",c:552.64,r:552.64,t:"n"},
-  {n:"Saltwater Crocodile",c:542.86,r:542.86,t:"n"},
-  {n:"Polar Bear",c:368.47,r:368.47,t:"n"},
-  {n:"Deinonychus antirrhopus",c:26.8,r:341.31,t:"d"},
-  {n:"Tiger",c:271.5,r:271.5,t:"n"},
-  {n:"Quetzalcoatlus northropi",c:73.73,r:263.11,t:"m"},
-  {n:"Smilodon fatalis",c:224.69,r:224.69,t:"n"},
-  {n:"Lion",c:156.45,r:156.45,t:"n"},
-  {n:"Grizzly Bear",c:146.81,r:146.81,t:"n"},
-  {n:"BIG CAT ≡ 100",c:100,r:100,t:"b"},
-  {n:"Siberian Tiger",c:99.42,r:99.42,t:"n"},
-  {n:"African Lion",c:88.31,r:88.31,t:"n"},
-  {n:"Leopard",c:25.79,r:25.79,t:"n"},
-  {n:"Dire Wolf",c:14.1,r:14.1,t:"n"},
-  {n:"Velociraptor mongoliensis",c:1.05,r:13.32,t:"d"},
-  {n:"Grey Wolf",c:6.65,r:6.65,t:"n"},
-  {n:"Human (unarmed)",c:3.64,r:3.64,t:"n"},
-  {n:"Pteranodon longiceps",c:0.92,r:3.28,t:"m"},
-  {n:"Coyote",c:0.72,r:0.72,t:"n"},
-  {n:"Compsognathus longipes",c:0.06,r:0.70,t:"d"},
-  {n:"Archaeopteryx lithographica",c:0.06,r:0.76,t:"d"},
-  {n:"Bobcat",c:0.78,r:0.78,t:"n"},
-  {n:"Harpy Eagle",c:0.91,r:0.91,t:"n"},
-  {n:"Caracal",c:0.94,r:0.94,t:"n"},
-  {n:"Honey Badger",c:1.03,r:1.03,t:"n"},
-  {n:"Golden Eagle",c:0.51,r:0.51,t:"n"},
-  {n:"Red Fox",c:0.14,r:0.14,t:"n"},
-  {n:"Goliath Birdeater",c:0.31,r:0.31,t:"n",fn:"Goliath Bird Eating Spider"},
+  {n:"Ankylosaurus magniventris",c:11285.96,r:114463.14,t:"d"},
+  {n:"Tyrannosaurus rex",c:10583.97,r:107343.52,t:"d"},
+  {n:"Giganotosaurus carolinii",c:8560.53,r:86821.67,t:"d"},
+  {n:"Triceratops horridus",c:8030.76,r:81448.66,t:"d"},
+  {n:"Spinosaurus aegyptiacus",c:2922.95,r:29644.77,t:"d"},
+  {n:"Stegosaurus stenops",c:2796.75,r:28364.88,t:"d"},
+  {n:"Pliosaurus funkei",c:8229.44,r:26208.00,t:"m"},
+  {n:"Mosasaurus hoffmannii",c:5525.45,r:17596.70,t:"m"},
+  {n:"Allosaurus fragilis",c:1465.63,r:14864.59,t:"d"},
+  {n:"Carnotaurus sastrei",c:382.89,r:3883.33,t:"d"},
+  {n:"Utahraptor ostrommaysorum",c:266.75,r:2705.36,t:"d"},
+  {n:"Orca (Killer Whale)",c:2204.51,r:2204.51,t:"n"},
+  {n:"Dakotaraptor steini",c:191.29,r:1940.07,t:"d"},
+  {n:"Woolly Mammoth",c:1446.97,r:1446.97,t:"n"},
+  {n:"Dilophosaurus wetherilli",c:116.92,r:1185.77,t:"d"},
+  {n:"African Bush Elephant",c:985.42,r:985.42,t:"n"},
+  {n:"Great White Shark",c:852.66,r:852.66,t:"n"},
+  {n:"Short-faced Bear",c:459.11,r:459.11,t:"n",fn:"Arctodus simus"},
+  {n:"Hippopotamus",c:430.36,r:430.36,t:"n"},
+  {n:"Saltwater Crocodile",c:417.21,r:417.21,t:"n"},
+  {n:"Polar Bear",c:305.44,r:305.44,t:"n"},
+  {n:"Deinonychus antirrhopus",c:30.10,r:305.25,t:"d"},
+  {n:"Quetzalcoatlus northropi",c:70.20,r:223.58,t:"m"},
+  {n:"Smilodon fatalis",c:203.02,r:203.02,t:"n"},
+  {n:"Moros intrepidus",c:8.69,r:88.15,t:"d"},
+  {n:"Tiger",c:148.27,r:148.27,t:"n"},
+  {n:"Grizzly Bear",c:132.52,r:132.52,t:"n"},
+  {n:"LION ≡ 100",c:100,r:100,t:"b"},
+  {n:"Siberian Tiger",c:88.44,r:88.44,t:"n"},
+  {n:"African Lion",c:85.32,r:85.32,t:"n"},
+  {n:"Jaguar",c:47.55,r:47.55,t:"n"},
+  {n:"Protoceratops andrewsi",c:3.71,r:37.65,t:"d"},
+  {n:"Leopard",c:29.61,r:29.61,t:"n"},
+  {n:"Cougar",c:30.50,r:30.50,t:"n"},
+  {n:"Dire Wolf",c:17.10,r:17.10,t:"n"},
+  {n:"Spotted Hyena",c:17.26,r:17.26,t:"n"},
+  {n:"Velociraptor mongoliensis",c:1.66,r:16.80,t:"d"},
+  {n:"Grey Wolf",c:9.71,r:9.71,t:"n"},
+  {n:"Coelophysis bauri",c:0.50,r:5.03,t:"d"},
+  {n:"Human",c:5.15,r:5.15,t:"n"},
+  {n:"Rottweiler",c:4.45,r:4.45,t:"n"},
+  {n:"Pteranodon longiceps",c:1.40,r:4.47,t:"m"},
+  {n:"Cheetah",c:4.37,r:4.37,t:"n"},
+  {n:"Wolverine",c:3.86,r:3.86,t:"n"},
+  {n:"German Shepherd",c:2.07,r:2.07,t:"n"},
+  {n:"Human (female)",c:1.84,r:1.84,t:"n"},
+  {n:"Honey Badger",c:1.65,r:1.65,t:"n"},
+  {n:"Yi qi",c:0.12,r:1.26,t:"d"},
+  {n:"Bobcat",c:1.28,r:1.28,t:"n"},
+  {n:"Coyote",c:1.20,r:1.20,t:"n"},
+  {n:"Compsognathus longipes",c:0.09,r:0.93,t:"d"},
+  {n:"Linheraptor exquisitus",c:0.39,r:3.92,t:"d"},
+  {n:"Red Fox",c:0.24,r:0.24,t:"n"},
 ];
 
 const COLORS = {
@@ -544,11 +548,12 @@ DATA.forEach(d => {
 });
 // Override some for clarity
 SHORT['Tyrannosaurus rex'] = 'T. rex';
+SHORT['Linheraptor exquisitus'] = 'Linheraptor';
 SHORT['Orca (Killer Whale)'] = 'Orca';
 SHORT['African Bush Elephant'] = 'Elephant';
 SHORT['Great White Shark'] = 'Great White';
 SHORT['Saltwater Crocodile'] = 'Saltwater Croc';
-SHORT['BIG CAT ≡ 100'] = 'BIG CAT ≡ 100';
+SHORT['LION ≡ 100'] = 'LION ≡ 100';
 SHORT['Human (unarmed)'] = 'Human';
 SHORT['Siberian Tiger'] = 'Siberian Tiger';
 SHORT['African Lion'] = 'African Lion';
@@ -606,7 +611,7 @@ function render() {
   const ref100 = ((Math.log10(100) - minLog) / range) * 100;
 
   // Update slider label
-  const dinoFactor = lerpLog(1, 12.73, t);
+  const dinoFactor = lerpLog(1, 10.14, t);
   if (t < 0.02) {
     paradigmLabel.innerHTML = 'Crowd Consensus<span class="factor"></span>';
     paradigmLabel.style.color = '';
