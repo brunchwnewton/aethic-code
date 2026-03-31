@@ -44,8 +44,8 @@ layout: default
     <p>Weight vs. combat power for theropod dinosaurs and mammals, fitted via median regression. The gap between them is what our ancestors lived inside.</p>
   </div>
   <div class="callout">
-    At our ancestor's size (100 g), a theropod has a <strong>56×</strong> advantage.<br>
-    A 3 kg Compsognathus vs. a rat-sized mammal: <strong>3,700× mismatch</strong>.
+    At our ancestor's size (100 g), a theropod has a <strong>12×</strong> advantage.<br>
+    A 3 kg Compsognathus vs. a rat-sized mammal: <strong>870× mismatch</strong>.
   </div>
   <div class="legend">
     <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div>Theropod dinosaurs</div>
@@ -61,7 +61,7 @@ layout: default
   </div>
   <div class="footer">
     <p style="margin-bottom:8px">
-      <strong>How this works:</strong> Each dot is an animal with a known body mass and a crowd-sourced combat score (Bradley-Terry model, >2,000 matchups, anatomy-corrected). Median regression fits a power law to each group, robust to outlier votes. Mammals below 9 kg are re-anchored onto the reliable fit to correct for crowd noise while preserving relative differences.
+      <strong>How this works:</strong> Each dot is an animal with a known body mass and a crowd-sourced combat score (Bradley-Terry model, ~4,500 matchups, anatomy-corrected, Lion = 100). Median regression fits a power law to each group, robust to outlier votes. Mammals below 1 kg are excluded from the regression due to limited cross-scale calibration in the matchup graph.
     </p>
     <p>
       <strong>What the gap means:</strong> The vertical distance between the curves is the anatomy advantage. A theropod and a mammal of equal mass are not equal fighters. The theropod's body plan gives it a built-in multiplier that mass cannot overcome. This gap is largest at the smallest sizes, exactly where our Mesozoic ancestors lived.
@@ -70,31 +70,45 @@ layout: default
 </div>
 <script>
 const D=[
-  {n:"Yi qi",w:.4,s:1},{n:"Archaeopteryx",w:.9,s:.8},
-  {n:"Compsognathus",w:3,s:.7},{n:"Coelophysis",w:20,s:3.9},
-  {n:"Velociraptor",w:15,s:13.3},{n:"Stenonychosaurus",w:50,s:38.6},
-  {n:"Deinonychus",w:73,s:341.3},{n:"Moros",w:78,s:64},
-  {n:"Dakotaraptor",w:250,s:2683.6},{n:"Utahraptor",w:500,s:4166.7},
-  {n:"Ceratosaurus",w:700,s:7318.6},{n:"Carnotaurus",w:1500,s:6553},
-  {n:"Allosaurus",w:2000,s:23730},{n:"T. rex",w:8400,s:207173},
-];
+  {n:"Yi",w:.4,s:1.3},{n:"Archaeopteryx",w:.9,s:.9},{n:"Compsognathus",w:3,s:.9},
+  {n:"Ornitholestes",w:12,s:2.8},{n:"Linheraptor",w:12,s:3.9},
+  {n:"Velociraptor",w:15,s:16.8},{n:"Dromaeosaurus",w:15,s:16.4},
+  {n:"Coelophysis",w:20,s:5.0},{n:"Suskityrannus",w:30,s:178.2},
+  {n:"Stenonychosaurus",w:50,s:45.5},{n:"Deinonychus",w:73,s:305.3},
+  {n:"Citipati",w:75,s:13.1},{n:"Moros",w:78,s:88.2},
+  {n:"Liliensternus",w:130,s:110.4},{n:"Timurlengia",w:170,s:360.4},
+  {n:"Ornithomimus",w:170,s:12.5},{n:"Marshosaurus",w:200,s:877.6},
+  {n:"Herrerasaurus",w:210,s:2529},{n:"Dakotaraptor",w:250,s:1940},
+  {n:"Achillobator",w:250,s:1277},{n:"Dilophosaurus",w:400,s:1186},
+  {n:"Gallimimus",w:440,s:662},{n:"Utahraptor",w:500,s:2705}
+]
 const M=[
-  {n:"Red Fox",w:6,s:.13},{n:"Bobcat",w:9,s:.78},
-  {n:"Honey Badger",w:11,s:1.03},{n:"Coyote",w:14,s:.72},
-  {n:"Grey Wolf",w:40,s:6.65},{n:"Spotted Hyena",w:55,s:13.3},
-  {n:"Leopard",w:60,s:25.8},{n:"Cougar",w:70,s:25.6},
-  {n:"Human",w:70,s:3.64},{n:"Lion",w:190,s:156.5},
-  {n:"Tiger",w:220,s:271.5},{n:"Smilodon",w:220,s:224.7},
-  {n:"Grizzly Bear",w:270,s:146.8},{n:"Polar Bear",w:450,s:368.5},
-  {n:"Arctodus simus",w:800,s:584.7},
-];
-const FT={C:.87,b:1.23},FM={C:.0291,b:1.506};
+  {n:"Fennec Fox",w:1.2,s:.1},
+  {n:"Brown Hare",w:3.5,s:.6},{n:"Feral Cat",w:4,s:.1},
+  {n:"Arctic Fox",w:4,s:.1},{n:"Fisher",w:4.5,s:.5},
+  {n:"Red Fox",w:6,s:.2},{n:"Bobcat",w:9,s:1.3},
+  {n:"Honey Badger",w:11,s:1.7},{n:"Canadian Lynx",w:11,s:1.6},
+  {n:"Ocelot",w:12,s:1.8},{n:"Caracal",w:13,s:1.5},
+  {n:"Wolverine",w:14,s:3.9},{n:"Coyote",w:14,s:1.2},
+  {n:"Mandrill",w:25,s:3.5},{n:"Thylacine",w:25,s:2.2},
+  {n:"Olive Baboon",w:25,s:1.7},{n:"Red Wolf",w:27,s:1.5},
+  {n:"Grey Wolf",w:40,s:9.7},{n:"Cheetah",w:50,s:4.4},
+  {n:"Common Chimpanzee",w:50,s:3.3},{n:"Spotted Hyena",w:55,s:17.3},
+  {n:"Leopard",w:60,s:29.6},{n:"Dire Wolf",w:68,s:17.1},
+  {n:"Cougar",w:70,s:30.5},{n:"Human",w:70,s:5.2},
+  {n:"African Lion",w:185,s:85.3},{n:"Lion",w:190,s:100},
+  {n:"Smilodon",w:220,s:203},{n:"Tiger",w:220,s:148},
+  {n:"Bengal Tiger",w:220,s:81.3},{n:"Siberian Tiger",w:230,s:88.4},
+  {n:"Grizzly Bear",w:270,s:133},{n:"Polar Bear",w:450,s:305},
+  {n:"Arctodus",w:800,s:459}
+]
+const FT={C:.549,b:1.263},FM={C:.060,b:1.376};
 function pr(f,w){return f.C*Math.pow(w,f.b)}
 
 const cv=document.getElementById('cv'),cx=cv.getContext('2d'),
       tip=document.getElementById('tip'),dpr=window.devicePixelRatio||1;
 const CH=520,PAD={t:36,r:36,b:52,l:72};
-const LWn=Math.log10(.8),LWx=Math.log10(10000),LSn=Math.log10(.08),LSx=Math.log10(400000);
+const LWn=Math.log10(.8),LWx=Math.log10(10000),LSn=Math.log10(.05),LSx=Math.log10(5000);
 
 function rz(){const w=cv.parentElement.getBoundingClientRect().width;cv.width=w*dpr;cv.height=CH*dpr;cv.style.height=CH+'px';cx.setTransform(dpr,0,0,dpr,0,0)}
 function cW(){return cv.width/dpr}
@@ -134,14 +148,27 @@ function draw(){
   crv(FT,'#ef4444');crv(FM,'#6b7280');
 
   // Dots
-  function dot(arr,c){arr.forEach(d=>{
+  function dot(arr,c,type){arr.forEach(d=>{
     const lw=Math.log10(d.w),ls=Math.log10(Math.max(d.s,1e-6));
     if(lw<LWn||lw>LWx||ls<LSn||ls>LSx)return;
     const px=xp(lw),py=yp(ls);
-    cx.beginPath();cx.arc(px,py,4.5,0,Math.PI*2);
-    cx.fillStyle=c;cx.globalAlpha=.65;cx.fill();cx.globalAlpha=1;
+    const isHov=hovered&&hovered.n===d.n&&hovered.w===d.w;
+    cx.beginPath();cx.arc(px,py,isHov?7:4.5,0,Math.PI*2);
+    cx.fillStyle=c;cx.globalAlpha=isHov?1:hovered?.35:.65;cx.fill();cx.globalAlpha=1;
+    if(isHov){
+      // Glow ring
+      cx.beginPath();cx.arc(px,py,11,0,Math.PI*2);
+      cx.strokeStyle=c;cx.lineWidth=2;cx.globalAlpha=.5;cx.stroke();cx.globalAlpha=1;
+      // Label
+      cx.fillStyle='#fff';cx.font='bold 12px "DM Sans",sans-serif';
+      cx.textAlign='center';cx.fillText(d.n,px,py-16);
+      // Weight subtitle
+      cx.fillStyle='#9ca3af';cx.font='10px "JetBrains Mono",monospace';
+      const wt=d.w>=1?d.w.toFixed(0)+' kg':(d.w*1000).toFixed(0)+' g';
+      cx.fillText(wt+' → score '+d.s.toFixed(1),px,py+22);
+    }
   })}
-  dot(D,'#ef4444');dot(M,'#9ca3af');
+  dot(D,'#ef4444','d');dot(M,'#9ca3af','m');
 
   // Ancestor
   const aw=.1,ams=pr(FM,aw),ats=pr(FT,aw),alw=Math.log10(aw);
@@ -156,44 +183,38 @@ function draw(){
     cx.strokeStyle='#eab30888';cx.lineWidth=2;cx.stroke();
   }
 
-  // Labels with leader lines
+  // Labels — minimal static labels (hover handles the rest)
   const L=[
-    {n:"T. rex",w:8400,s:207173,c:'#fca5a5',ox:-6,oy:-14,a:'right'},
-    {n:"Allosaurus",w:2000,s:23730,c:'#fca5a5',ox:8,oy:-8,a:'left'},
-    {n:"Dakotaraptor",w:250,s:2683.6,c:'#fca5a5',ox:8,oy:-8,a:'left'},
-    {n:"Deinonychus",w:73,s:341.3,c:'#fca5a5',ox:8,oy:-8,a:'left'},
-    {n:"Velociraptor",w:15,s:13.3,c:'#fca5a5',ox:8,oy:-10,a:'left'},
-    {n:"Compsognathus",w:3,s:.7,c:'#fca5a5',ox:6,oy:16,a:'left'},
-    {n:"Tiger",w:220,s:271.5,c:'#9ca3af',ox:-6,oy:-10,a:'right'},
-    {n:"Polar Bear",w:450,s:368.5,c:'#9ca3af',ox:8,oy:4,a:'left'},
-    {n:"Grey Wolf",w:40,s:6.65,c:'#9ca3af',ox:-6,oy:14,a:'right'},
-    {n:"Human",w:70,s:3.64,c:'#71717a',ox:8,oy:14,a:'left'},
-    {n:"Bobcat",w:9,s:.78,c:'#71717a',ox:-6,oy:14,a:'right'},
     {n:"★ Our ancestor",w:.1,s:null,c:'#eab308',ox:10,oy:-4,a:'left',anc:true},
   ];
 
   cx.font='10px "DM Sans",sans-serif';
+  const labelAlpha=hovered?.3:1;
   L.forEach(l=>{
     const lw=l.anc?Math.log10(.1):Math.log10(l.w);
     const ls=l.anc?Math.log10(pr(FM,.1)):Math.log10(Math.max(l.s,1e-6));
     if(lw<LWn||lw>LWx)return;
     const dx=xp(lw),dy=yp(ls),lx=dx+l.ox,ly=dy+l.oy;
     // Leader line
+    cx.globalAlpha=labelAlpha;
     cx.beginPath();cx.strokeStyle=l.c+'30';cx.lineWidth=.8;
     cx.moveTo(dx,dy);cx.lineTo(lx,ly);cx.stroke();
     // Text
     cx.fillStyle=l.c;cx.textAlign=l.a;cx.fillText(l.n,lx,ly);
+    cx.globalAlpha=1;
   });
 }
 
 // Hover
 const ALL=[...D.map(d=>({...d,t:'d',col:'#fca5a5'})),...M.map(d=>({...d,t:'m',col:'#9ca3af'}))];
+let hovered=null;
 cv.addEventListener('mousemove',e=>{
   const r=cv.getBoundingClientRect(),mx=e.clientX-r.left,my=e.clientY-r.top;
-  let best=null,bd=24;
+  let best=null,bd=30;
   ALL.forEach(d=>{const lw=Math.log10(d.w),ls=Math.log10(Math.max(d.s,1e-6));
     if(lw<LWn||lw>LWx||ls<LSn||ls>LSx)return;
     const dist=Math.hypot(mx-xp(lw),my-yp(ls));if(dist<bd){bd=dist;best=d}});
+  if(best!==hovered){hovered=best;draw()}
   if(best){
     document.getElementById('tN').textContent=best.n;
     document.getElementById('tN').style.color=best.col;
@@ -204,7 +225,7 @@ cv.addEventListener('mousemove',e=>{
     tip.classList.add('vis');tip.style.left=(e.clientX+16)+'px';tip.style.top=(e.clientY-20)+'px';
   }else tip.classList.remove('vis');
 });
-cv.addEventListener('mouseleave',()=>tip.classList.remove('vis'));
+cv.addEventListener('mouseleave',()=>{tip.classList.remove('vis');if(hovered){hovered=null;draw()}});
 
 rz();draw();window.addEventListener('resize',()=>{rz();draw()});
 </script>
