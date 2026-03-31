@@ -418,17 +418,48 @@ layout: default
         <div id="tab-nexic" class="tab-section">
             <div class="cards">
                 <div class="card">
-                    <span class="card-tag tag-interactive">Interactive</span>
-                    <h2>Dinosaur Recalibration — Paradigm Slider</h2>
+                    <span class="card-tag tag-algorithm">Paper</span>
+                    <h2>Dinosaur Recalibration: Methods and Results</h2>
                     <p>
-                        How much do we underestimate dinosaurs? Crowd-sourced combat ratings
-                        reflect a weight-based paradigm. Drag the slider to correct for
-                        anatomy — the thing that actually won Mesozoic fights. Based on
-                        Bradley-Terry model fits over &gt;2,000 matchup votes.
+                        The technical companion paper. Bradley–Terry model fitting over
+                        ~4,500 crowd-sourced matchups, graph preprocessing, Lion = 100
+                        normalization, anatomy correction (10.14× dino factor), and
+                        weight–score power law regression. Includes a 123-animal
+                        interleaved ranking table.
                     </p>
                     <div class="card-actions">
-                        <a href="nexic/dino-correct.html" class="btn-primary">▶ Launch Demo</a>
-                        <a href="nexic/dino-correct.html" download class="btn-secondary">↓ Download HTML</a>
+                        <a href="nexic/dinosaur-recalibration.pdf" class="btn-primary">↓ Download PDF</a>
+                        <a href="nexic/dark_era_score_analysis.tex" class="btn-secondary">↓ LaTeX Source</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <span class="card-tag tag-interactive">Interactive</span>
+                    <h2>Paradigm Slider</h2>
+                    <p>
+                        How much do we underestimate dinosaurs? Drag the slider from the
+                        crowd's weight-based paradigm to the anatomy-corrected paradigm
+                        and watch the rankings transform. Lion ≡ 100 scale, 53 animals,
+                        10.14× dinosaur correction factor.
+                    </p>
+                    <div class="card-actions">
+                        <a href="nexic/paradigm_slider.html" class="btn-primary">▶ Launch Demo</a>
+                        <a href="nexic/paradigm_slider.html" download class="btn-secondary">↓ Download HTML</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <span class="card-tag tag-interactive">Interactive</span>
+                    <h2>The Dark Era — Weight vs. Combat Power</h2>
+                    <p>
+                        Log-log scatter of body mass versus anatomy-corrected combat score
+                        for theropods and mammals, with median regression power law fits.
+                        Hover any dot to see the mismatch ratio. The gap between the
+                        curves is what our ancestors lived inside for 160 million years.
+                    </p>
+                    <div class="card-actions">
+                        <a href="nexic/dark_era_chart.html" class="btn-primary">▶ Launch Demo</a>
+                        <a href="nexic/dark_era_chart.html" download class="btn-secondary">↓ Download HTML</a>
                     </div>
                 </div>
             </div>
