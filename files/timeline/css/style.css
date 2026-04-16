@@ -1,0 +1,161 @@
+body {
+    background-image: url('../img/Beautiful Night 1.png')
+}
+
+#timeline1 {
+    position: absolute;
+    display: inline-block;
+    width: 1760px;
+    height: 73px;
+    margin: 0px;
+
+}
+
+#cursor1 {
+    background: blue;
+    position:relative;
+    height:162px;
+    width:6px;
+    top: 0px;
+    left: 1760px;
+    cursor:pointer;
+    z-index: 144 !important;
+}
+
+
+#timeline2 {
+    position: absolute;
+    display: inline-block;
+    width: 1760px;
+    height: 73px;
+    margin: 0px;
+    top: 227.5px;
+}
+
+#cursor2 {
+    background: blue;
+    position:relative;
+    height:162px;
+    width:6px;
+    top: 0px;
+    left: 1760px;
+    cursor:pointer;
+    z-index: 144 !important;
+}
+
+
+
+#timeline3 {
+    position: absolute;
+    display: inline-block;
+    width: 1760px;
+    height: 73px;
+    margin: 0px;
+    top: 447.5px;
+}
+
+#cursor3 {
+    background: blue;
+    position:relative;
+    height:162px;
+    width:6px;
+    top: 0px;
+    left: 1760px;
+    cursor:pointer;
+    z-index: 144 !important;
+}
+
+#myaWrite {
+    background: transparent;
+    mix-blend-mode: screen;
+    position: absolute;
+    top: 650px;
+    left: 880px;
+    width: 108px;
+    height: 49px;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    border: 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    z-index: 2304;
+}
+
+#spotlight {
+    background: rgb(3, 0, 0);
+    mix-blend-mode: screen;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 96px;
+    height: 49px;
+    color: white;
+    font-size: 36px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    visibility: hidden;
+}
+
+.Span {
+    border: 0px solid;
+    border-color: rgb(64, 64, 64);
+    color: white;
+    position: absolute;
+}
+
+.Miracle {
+    position: absolute;
+    color: white;
+    cursor:pointer;
+}
+
+.MiraLabel {
+    position: absolute;
+    color: silver;
+    text-align: center;
+    cursor: pointer;
+    z-index: 36;
+}
+
+.Miracle:hover {
+    color: gold;
+}
+.MiraLabel:hover {
+    color: gold;
+}
+
+#test {
+    background: yellowgreen;
+    position:relative;
+    height:162px;
+    width:36px;
+    top: 0px;
+    left: 1760px;
+    cursor:pointer;
+    z-index: 144;
+}
+
+#map {
+    position: absolute;
+    mix-blend-mode: screen;
+    top: 600px;
+    left: 0px;
+    width: 400px;
+    z-index: 0;
+    border: blue 12px;
+}
+
+#momentDesc {
+    position: absolute;
+    mix-blend-mode: screen;
+    top: 600px;
+    left: 1100px;
+    width: 670px;
+    height: 300px;
+    z-index: 0;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border: 0px;
+    visibility: hidden;
+}
