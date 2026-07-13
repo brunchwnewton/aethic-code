@@ -1,692 +1,606 @@
 ---
 layout: default
+title: "Code & Archive — Aethic Reasoning | aethus.org"
+description: "Resources behind the Aethic reasoning papers: the interactive Powerset Invalidation demo, the Python algorithm, slide decks and videos, the dinosaur-recalibration work, and the historical archive including the original 2023 manuscript."
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aethic Reasoning — Code &amp; Demos</title>
-    <style>
-        :root {
-            --bg: #06060e;
-            --bg-card: #0c1018;
-            --border: rgba(100, 116, 139, 0.18);
-            --border-hover: rgba(139, 92, 246, 0.4);
-            --text: #e2e8f0;
-            --text-muted: #94a3b8;
-            --text-dim: #64748b;
-            --violet: #a78bfa;
-            --violet-deep: #8b5cf6;
-            --emerald: #34d399;
-            --amber: #fbbf24;
-        }
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,340;9..144,420;9..144,560&family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+<style>
+/* ============ KIT — "Reality, Indexed" ============ */
+:root{
+  --ink:#1A1B18;--ink-2:#43443E;--ink-3:#6E6F65;
+  --paper:#EEEDE6;--paper-2:#F7F6F0;--paper-3:#E7E5DB;
+  --rule:#D6D4C9;--rule-2:#E4E2D7;
+  --garnet:#7E1D2E;--garnet-2:#9C2A3C;--garnet-wash:rgba(126,29,46,.07);
+  --block:#151610;--block-2:#20211A;--on-block:#EAE9E1;--on-block-2:#9C9A8D;--on-block-3:#75746A;
+  --gold:#9A7B33;--gold-2:#B8942F;--sel:#E3E0D2;--measure:39rem;
+  --display:"Fraunces",Georgia,serif;--body:"Spectral",Georgia,serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth;}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:19px;line-height:1.66;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;font-optical-sizing:auto;}
+::selection{background:var(--sel);}
+a{color:inherit;text-decoration:none;}
+h1,h2,h3,h4{font-family:var(--display);font-weight:400;letter-spacing:-.012em;line-height:1.08;margin:0;}
+em,i{font-style:italic;}strong,b{font-weight:600;}sup{font-size:.66em;line-height:0;}
+.wrap{max-width:var(--measure);margin:0 auto;padding:0 1.6rem;}
+.wide{max-width:66rem;margin:0 auto;padding:0 1.6rem;}
+.mid{max-width:52rem;margin:0 auto;padding:0 1.6rem;}
+.eyebrow{font-family:var(--mono);font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--garnet);font-weight:500;}
+.eyebrow-dim{font-family:var(--mono);font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);font-weight:500;}
+a.link{color:var(--garnet);background-image:linear-gradient(var(--garnet),var(--garnet));background-size:0 1px;background-repeat:no-repeat;background-position:0 100%;transition:background-size .25s ease;}
+a.link:hover{background-size:100% 1px;}
+a:focus-visible{outline:2px solid var(--garnet);outline-offset:3px;border-radius:1px;}
+.rel{font-family:var(--mono);white-space:nowrap;}
+.rel .bar{color:var(--garnet);padding:0 .12em;font-weight:600;}
+.mono{font-family:var(--mono);}
 
-        body {
-            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            line-height: 1.6;
-            min-height: 100vh;
-        }
+/* ---- top nav bar ---- */
+.topbar{position:sticky;top:0;z-index:40;background:rgba(21,22,16,.94);backdrop-filter:saturate(140%) blur(6px);border-bottom:1px solid #2a2b22;}
+.topbar .in{max-width:72rem;margin:0 auto;padding:.62rem 1.6rem;display:flex;align-items:center;gap:1.4rem;}
+.topbar a{color:var(--on-block-2);font-family:var(--mono);font-size:.74rem;letter-spacing:.05em;transition:color .15s;}
+.topbar a:hover{color:var(--on-block);}
+.topbar .brand{color:var(--on-block);letter-spacing:.14em;text-transform:uppercase;font-size:.72rem;}
+.topbar .brand b{color:#fff;font-weight:600;}
+.topbar .brand .bar{color:var(--garnet-2);}
+.topbar nav{margin-left:auto;display:flex;gap:1.3rem;flex-wrap:wrap;}
+@media(max-width:680px){.topbar nav{display:none;}}
 
-        .page {
-            max-width: 640px;
-            margin: 0 auto;
-            padding: 3.5rem 1.5rem 4rem;
-        }
+/* ---- hero / masthead ---- */
+.hero{background:var(--block);color:var(--on-block);position:relative;overflow:hidden;padding:clamp(3.4rem,9vw,6.5rem) 0 clamp(3rem,7vw,5rem);}
+.hero::after{content:"";position:absolute;left:calc(50% - 33rem);top:0;bottom:0;width:1px;background:var(--garnet);opacity:.9;}
+@media(max-width:1090px){.hero::after{left:1.6rem;}}
+.hero .wide{position:relative;z-index:2;}
+.hero .site-id{font-family:var(--mono);font-size:.74rem;letter-spacing:.22em;text-transform:uppercase;color:var(--on-block-2);}
+.hero .site-id b{color:var(--on-block);font-weight:500;}
+.hero-formula{font-family:var(--mono);font-size:clamp(1.05rem,3.2vw,1.6rem);color:var(--on-block-2);margin:2.2rem 0 1.2rem;letter-spacing:.02em;}
+.hero-formula .lit{color:var(--on-block);}
+.hero-formula .bar{color:var(--garnet-2);font-weight:600;}
+.hero h1{font-size:clamp(2.6rem,8vw,5.1rem);color:var(--on-block);letter-spacing:-.02em;line-height:.98;font-weight:340;}
+.hero h1 em{font-style:italic;color:var(--on-block);}
+.hero-sub{max-width:34rem;margin:1.6rem 0 0;font-size:clamp(1.02rem,2.3vw,1.24rem);color:var(--on-block);line-height:1.5;}
+.hero-sub .dim{color:var(--on-block-2);}
+.hero-by{margin-top:1.6rem;font-family:var(--mono);font-size:.76rem;letter-spacing:.05em;color:var(--on-block-3);line-height:1.7;}
+.hero-cta{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:2.3rem;}
+.btn{font-family:var(--mono);font-size:.8rem;letter-spacing:.04em;padding:.72rem 1.15rem;border:1px solid var(--on-block-3);color:var(--on-block);transition:.2s;display:inline-flex;align-items:center;gap:.6ch;cursor:pointer;background:none;}
+.btn:hover{border-color:var(--on-block);background:rgba(255,255,255,.04);}
+.btn.pri{background:var(--garnet);border-color:var(--garnet);color:#fff;}
+.btn.pri:hover{background:var(--garnet-2);border-color:var(--garnet-2);}
+.btn.dark{border-color:var(--rule);color:var(--ink);}
+.btn.dark:hover{border-color:var(--ink);background:var(--paper-2);}
 
-        /* ── Header ── */
-        header {
-            margin-bottom: 1.5rem;
-        }
+/* ---- paper masthead variant (reading pages) ---- */
+.mast{position:relative;padding:clamp(2.8rem,7vw,5rem) 0 clamp(2rem,4vw,3rem);border-bottom:1px solid var(--rule);}
+.mast .wide{position:relative;}
+.mast .kicker{font-family:var(--mono);font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--garnet);}
+.mast h1{font-size:clamp(2.4rem,6.4vw,4.4rem);margin:1.1rem 0 0;letter-spacing:-.02em;line-height:1.0;max-width:20ch;}
+.mast h1 em{font-style:italic;}
+.mast .standfirst{max-width:42rem;margin:1.5rem 0 0;font-size:clamp(1.1rem,2.2vw,1.32rem);line-height:1.5;color:var(--ink-2);}
+.mast .meta{margin-top:1.6rem;font-family:var(--mono);font-size:.75rem;letter-spacing:.04em;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;}
+.mast .meta .rel{color:var(--ink-2);}
+.mast.indexed{padding-left:0;}
+.mast.indexed::before{content:"";position:absolute;left:calc(50% - 33rem);top:clamp(2.8rem,7vw,5rem);bottom:1.5rem;width:2px;background:var(--garnet);}
+@media(max-width:1120px){.mast.indexed::before{left:1.6rem;}}
 
-        h1 {
-            font-size: 1.75rem;
-            font-weight: 400;
-            color: var(--violet);
-            letter-spacing: 0.03em;
-            margin-bottom: 0.5rem;
-        }
+/* ---- sections ---- */
+section{padding:clamp(3rem,7vw,5rem) 0;border-bottom:1px solid var(--rule);}
+section.tight{padding:clamp(2.2rem,5vw,3.4rem) 0;}
+.sec-head{margin-bottom:2.2rem;}
+.sec-head .eyebrow,.sec-head .eyebrow-dim{display:block;margin-bottom:.9rem;}
+.sec-head h2{font-size:clamp(1.7rem,4vw,2.4rem);letter-spacing:-.015em;}
+.sec-head p{max-width:40rem;margin:1rem 0 0;color:var(--ink-2);font-size:1.06rem;line-height:1.55;}
 
-        .subtitle {
-            color: var(--text-muted);
-            font-size: 0.9rem;
-            line-height: 1.6;
-        }
+/* ---- prose ---- */
+.prose p{margin:0 0 1.15em;color:var(--ink-2);}
+.prose p.lead{font-size:1.24rem;line-height:1.52;color:var(--ink);}
+.prose h3{font-size:1.34rem;margin:2.2em 0 .5em;color:var(--ink);letter-spacing:-.01em;}
+.prose h4{font-size:1.06rem;margin:1.8em 0 .4em;color:var(--ink);font-family:var(--body);font-weight:600;letter-spacing:0;}
+.prose strong{color:var(--ink);}
+.prose em{color:inherit;}
+.prose a{color:var(--garnet);background-image:linear-gradient(var(--garnet),var(--garnet));background-size:100% 1px;background-repeat:no-repeat;background-position:0 100%;}
+.prose ul,.prose ol{margin:0 0 1.15em;padding-left:1.3em;color:var(--ink-2);}
+.prose li{margin:.3em 0;}
+.prose ul li::marker{color:var(--garnet);}
+.prose>*:first-child{margin-top:0;}
 
-        .subtitle a {
-            color: var(--violet);
-            text-decoration: none;
-            border-bottom: 1px solid rgba(139, 92, 246, 0.3);
-        }
-        .subtitle a:hover { border-color: var(--violet); }
+/* ---- numbered reading sections with index rail ---- */
+.chapter{padding:clamp(2.6rem,6vw,4.2rem) 0;border-bottom:1px solid var(--rule);}
+.chapter .wide{display:grid;grid-template-columns:4.5rem 1fr;gap:0;align-items:start;}
+.chapter .idx{font-family:var(--mono);font-size:.82rem;color:var(--garnet);font-weight:600;letter-spacing:.06em;position:relative;padding-top:.35rem;}
+.chapter .idx::after{content:"";position:absolute;left:.05rem;top:2.2rem;bottom:-4.2rem;width:1px;background:var(--rule);}
+.chapter:last-of-type .idx::after{display:none;}
+.chapter .body{max-width:39rem;}
+.chapter h2{font-size:clamp(1.55rem,3.6vw,2.15rem);letter-spacing:-.015em;margin-bottom:1.1rem;}
+.chapter .body>.prose>p:first-child{margin-top:0;}
+@media(max-width:720px){
+  .chapter .wide{grid-template-columns:1fr;gap:0;}
+  .chapter .idx{padding-top:0;margin-bottom:.7rem;}
+  .chapter .idx::after{display:none;}
+}
 
-        /* ── Tab Nav ── */
-        .tab-nav {
-            display: flex;
-            gap: 0;
-            margin-bottom: 2rem;
-            border-bottom: 1px solid var(--border);
-        }
+/* ---- callouts / figures / ledger ---- */
+.callout{border-left:2px solid var(--garnet);background:var(--garnet-wash);padding:1.15rem 1.3rem;margin:1.7rem 0;font-size:.99rem;line-height:1.58;color:var(--ink-2);}
+.callout .h{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--garnet);display:block;margin-bottom:.5rem;font-weight:600;}
+.callout p{margin:0 0 .7em;}.callout p:last-child{margin-bottom:0;}
+.callout strong{color:var(--ink);}
 
-        .tab-nav button {
-            background: none;
-            border: none;
-            color: var(--text-dim);
-            font-family: inherit;
-            font-size: 0.85rem;
-            font-weight: 500;
-            padding: 0.7rem 1.2rem;
-            cursor: pointer;
-            position: relative;
-            transition: color 0.2s;
-        }
+.note{border-left:2px solid var(--rule);padding:1.05rem 1.25rem;margin:1.7rem 0;font-family:var(--mono);font-size:.82rem;line-height:1.62;color:var(--ink-3);}
+.note b{color:var(--ink-2);font-weight:600;}
+.notebar{font-family:var(--mono);font-size:.82rem;color:var(--ink-3);line-height:1.6;border-left:2px solid var(--rule);padding-left:1.1rem;margin-top:1.4rem;}
 
-        .tab-nav button:hover {
-            color: var(--text-muted);
-        }
+.formula{font-family:var(--mono);background:var(--paper-2);border:1px solid var(--rule);padding:1.1rem 1.3rem;margin:1.6rem 0;font-size:.92rem;line-height:1.7;color:var(--ink);overflow-x:auto;}
+.formula .c{color:var(--ink-3);}
+.formula .g{color:var(--garnet);font-weight:600;}
+.formula .lbl{display:block;font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);margin-bottom:.55rem;}
 
-        .tab-nav button.active {
-            color: var(--violet);
-        }
+.figure{margin:1.8rem 0;border:1px solid var(--rule);background:var(--paper-2);}
+.figure .cap{font-family:var(--mono);font-size:.74rem;color:var(--ink-3);line-height:1.55;padding:.85rem 1.1rem;border-top:1px solid var(--rule);}
+.figure .cap b{color:var(--ink-2);}
+.figure svg{display:block;width:100%;height:auto;}
 
-        .tab-nav button.active::after {
-            content: '';
-            position: absolute;
-            bottom: -1px;
-            left: 0;
-            right: 0;
-            height: 2px;
-            background: var(--violet);
-            border-radius: 1px 1px 0 0;
-        }
+/* ---- attribute tokens (blank vs stated) ---- */
+.tok{font-family:var(--mono);font-size:.82em;padding:.08em .5ch;border:1px solid var(--garnet);white-space:nowrap;}
+.tok.blank{color:var(--garnet);border-style:dashed;background:none;}
+.tok.stated{color:#fff;background:var(--garnet);border-color:var(--garnet);}
 
-        .tab-section {
-            display: none;
-        }
+/* ---- three-up / two-up grids ---- */
+.moves,.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:var(--rule);border:1px solid var(--rule);margin-top:1rem;}
+.move,.grid3>div{background:var(--paper-2);padding:1.7rem 1.5rem;}
+.move .n,.grid3 .n{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;color:var(--garnet);}
+.move h3,.grid3 h3{font-size:1.16rem;margin:.7rem 0 .5rem;letter-spacing:0;}
+.move p,.grid3 p{margin:0;font-size:.97rem;color:var(--ink-2);line-height:1.55;}
+.split,.grid2{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);border:1px solid var(--rule);}
+.split>div,.grid2>div{background:var(--paper-2);padding:1.7rem 1.5rem;}
+.split h3,.grid2 h3{font-size:1.14rem;margin:.6rem 0 .7rem;letter-spacing:0;}
+.split p,.grid2 p{margin:0 0 .8em;font-size:.97rem;color:var(--ink-2);line-height:1.55;}
+.split p:last-child,.grid2 p:last-child{margin-bottom:0;}
 
-        .tab-section.active {
-            display: block;
-        }
+/* ---- tables ---- */
+.tbl-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1rem 0;}
+.tbl{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:.78rem;min-width:44rem;}
+.tbl th,.tbl td{text-align:left;padding:.62rem .75rem;border-bottom:1px solid var(--rule-2);vertical-align:top;}
+.tbl thead th{border-bottom:1.5px solid var(--ink);font-weight:600;}
+.tbl tbody tr:last-child td{border-bottom:none;}
+.tbl .me{background:var(--garnet-wash);}
+.tbl .me td:first-child{color:var(--garnet);font-weight:600;}
+.tbl-cap{font-family:var(--mono);font-size:.74rem;color:var(--ink-3);margin-top:.9rem;line-height:1.5;max-width:44rem;}
 
-        /* ── Cards ── */
-        .cards {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            margin-bottom: 2.5rem;
-        }
+/* ---- ledger (posted price list) ---- */
+.ledger{border-top:1.5px solid var(--ink);margin:1.4rem 0;}
+.ledger .row{display:grid;grid-template-columns:2.4rem 1fr auto;gap:1rem;align-items:baseline;padding:.72rem 0;border-bottom:1px solid var(--rule);}
+.ledger .q{font-family:var(--mono);font-size:.8rem;color:var(--garnet);font-weight:600;}
+.ledger .d{color:var(--ink-2);font-size:.98rem;line-height:1.45;}
+.ledger .d b{color:var(--ink);}
+.ledger .t{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);white-space:nowrap;text-align:right;}
+@media(max-width:600px){.ledger .row{grid-template-columns:2rem 1fr;}.ledger .t{grid-column:2;text-align:left;margin-top:.15rem;}}
 
-        .card {
-            padding: 1.5rem;
-            border: 1px solid var(--border);
-            border-radius: 0.6rem;
-            background: var(--bg-card);
-            transition: border-color 0.25s, box-shadow 0.25s;
-        }
+/* ---- papers ---- */
+.papers{border-top:1.5px solid var(--ink);}
+.paper{display:block;border-bottom:1px solid var(--rule);padding:1.25rem 0;transition:.15s;}
+.paper:hover{background:var(--paper-2);padding-left:.6rem;padding-right:.6rem;}
+.paper .pt{font-family:var(--display);font-size:1.14rem;color:var(--ink);line-height:1.25;letter-spacing:-.01em;}
+.paper .pm{font-family:var(--mono);font-size:.74rem;letter-spacing:.03em;color:var(--ink-3);margin-top:.45rem;}
+.paper.newest .pt{color:var(--garnet);}
+.paper .flag{display:inline-block;font-family:var(--mono);font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:#fff;background:var(--garnet);padding:.12em .55ch;margin-left:.6ch;vertical-align:middle;}
 
-        .card:hover {
-            border-color: var(--border-hover);
-            box-shadow: 0 2px 20px rgba(139, 92, 246, 0.06);
-        }
+/* ---- nav grid ---- */
+.navgrid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);border:1px solid var(--rule);}
+.navgrid a{background:var(--paper-2);padding:1.4rem 1.4rem;transition:.15s;}
+.navgrid a:hover{background:#fff;}
+.navgrid .nt{font-family:var(--display);font-size:1.12rem;color:var(--ink);letter-spacing:-.01em;}
+.navgrid .nd{font-size:.92rem;color:var(--ink-3);margin-top:.35rem;line-height:1.5;}
+.navgrid .arr{color:var(--garnet);}
 
-        .card-tag {
-            display: inline-block;
-            font-size: 0.65rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            padding: 0.2rem 0.55rem;
-            border-radius: 0.25rem;
-            margin-bottom: 0.6rem;
-        }
+/* ---- dark band (nexic / deep-time) ---- */
+.band{background:var(--block);color:var(--on-block);border-bottom:none;}
+.band .eyebrow{color:var(--gold-2);}
+.band h2,.band h3{color:var(--on-block);}
+.band .sec-head p,.band .prose p{color:var(--on-block-2);}
+.band .prose strong{color:var(--on-block);}
+.band .stat{font-family:var(--mono);color:var(--gold-2);}
+.band a.link{color:var(--gold-2);}
+.band .btn{border-color:var(--on-block-3);color:var(--on-block);}
+.band .btn:hover{border-color:var(--gold-2);}
+.band .callout{border-left-color:var(--gold);background:rgba(154,123,51,.09);color:var(--on-block-2);}
+.band .callout .h{color:var(--gold-2);}
+.band .callout strong{color:var(--on-block);}
 
-        .tag-interactive {
-            color: var(--emerald);
-            background: rgba(52, 211, 153, 0.1);
-            border: 1px solid rgba(52, 211, 153, 0.2);
-        }
+/* ---- disclosure ---- */
+details.disc{border-top:1px solid var(--rule);}
+details.disc>summary{cursor:pointer;list-style:none;padding:1rem 0;display:flex;gap:.9rem;align-items:baseline;font-family:var(--display);font-size:1.1rem;color:var(--ink);transition:color .15s;}
+details.disc>summary:hover{color:var(--garnet);}
+details.disc>summary::-webkit-details-marker{display:none;}
+details.disc>summary .qn{font-family:var(--mono);font-size:.78rem;color:var(--garnet);font-weight:600;flex:none;width:2.4rem;}
+details.disc>summary .mk{margin-left:auto;font-family:var(--mono);color:var(--ink-3);flex:none;transition:transform .2s;}
+details.disc[open]>summary .mk{transform:rotate(45deg);}
+details.disc .ans{padding:0 0 1.5rem 3.3rem;max-width:42rem;}
+details.disc .ans>.prose>p:first-child{margin-top:0;}
+@media(max-width:600px){details.disc .ans{padding-left:0;}}
 
-        .tag-algorithm {
-            color: var(--amber);
-            background: rgba(251, 191, 36, 0.08);
-            border: 1px solid rgba(251, 191, 36, 0.2);
-        }
+/* ---- pull quote ---- */
+.pull{font-family:var(--display);font-size:clamp(1.5rem,3.6vw,2.1rem);line-height:1.24;letter-spacing:-.015em;color:var(--ink);max-width:30ch;margin:2.2rem 0;padding-left:1.3rem;border-left:2px solid var(--garnet);}
+.pull em{font-style:italic;}
 
-        .tag-presentation {
-            color: #f472b6;
-            background: rgba(244, 114, 182, 0.08);
-            border: 1px solid rgba(244, 114, 182, 0.2);
-        }
+/* ---- footer ---- */
+footer.site{background:var(--block);color:var(--on-block-2);padding:3.2rem 0 2.4rem;font-size:.9rem;border-top:1px solid #2a2b22;}
+footer.site a{color:var(--on-block);}footer.site a:hover{color:#fff;}
+footer.site .foot-grid{display:flex;flex-wrap:wrap;gap:2.4rem 3.5rem;justify-content:space-between;}
+footer.site h4{font-family:var(--mono);font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--on-block-3);margin:0 0 .9rem;font-weight:500;}
+footer.site ul{list-style:none;margin:0;padding:0;line-height:2;}
+footer.site .foot-note{color:var(--on-block-3);margin-top:2.6rem;padding-top:1.6rem;border-top:1px solid #2a2b22;font-size:.82rem;line-height:1.6;max-width:52rem;}
 
-        .tag-video {
-            color: #f87171;
-            background: rgba(248, 113, 113, 0.08);
-            border: 1px solid rgba(248, 113, 113, 0.2);
-        }
-
-        .card h2 {
-            font-size: 1.1rem;
-            font-weight: 500;
-            color: var(--text);
-            margin-bottom: 0.4rem;
-        }
-
-        .card p {
-            font-size: 0.85rem;
-            color: var(--text-muted);
-            margin-bottom: 1rem;
-            line-height: 1.6;
-        }
-
-        .card-actions {
-            display: flex;
-            gap: 0.6rem;
-            flex-wrap: wrap;
-        }
-
-        .card-actions a {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.35rem;
-            padding: 0.45rem 0.9rem;
-            border-radius: 0.35rem;
-            font-size: 0.8rem;
-            font-weight: 500;
-            text-decoration: none;
-            transition: all 0.2s;
-        }
-
-        .btn-primary {
-            background: rgba(139, 92, 246, 0.12);
-            border: 1px solid rgba(139, 92, 246, 0.3);
-            color: var(--violet);
-        }
-        .btn-primary:hover {
-            background: rgba(139, 92, 246, 0.2);
-            border-color: var(--violet-deep);
-        }
-
-        .btn-secondary {
-            background: transparent;
-            border: 1px solid var(--border);
-            color: var(--text-muted);
-        }
-        .btn-secondary:hover {
-            border-color: var(--text-dim);
-            color: var(--text);
-        }
-
-        /* ── Video embed ── */
-        .video-wrapper {
-            position: relative;
-            padding-bottom: 56.25%;
-            height: 0;
-            overflow: hidden;
-            border-radius: 0.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .video-wrapper iframe {
-            position: absolute;
-            top: 0; left: 0;
-            width: 100%; height: 100%;
-            border: none;
-            border-radius: 0.5rem;
-        }
-
-        /* ── Footer links ── */
-        .footer-links {
-            padding-top: 1.5rem;
-            border-top: 1px solid var(--border);
-            display: flex;
-            flex-direction: column;
-            gap: 0.6rem;
-        }
-
-        .footer-links a {
-            color: var(--text-dim);
-            text-decoration: none;
-            font-size: 0.8rem;
-            display: flex;
-            align-items: center;
-            gap: 0.4rem;
-            transition: color 0.2s;
-        }
-
-        .footer-links a:hover { color: var(--text-muted); }
-
-        .arrow { font-size: 0.7rem; }
-    </style>
-</head>
-<body>
-    <div class="page">
-        <div style="margin-bottom:1rem;">
-            <a href="../" style="color:var(--text-dim);text-decoration:none;font-size:0.8rem;display:inline-flex;align-items:center;gap:0.3rem;transition:color 0.2s;" onmouseover="this.style.color='var(--violet)'" onmouseout="this.style.color='var(--text-dim)'">← aethus.org</a>
+/* ---- utility ---- */
+.stack>*+*{margin-top:1.1rem;}
+hr.div{border:none;border-top:1px solid var(--rule);margin:2.4rem 0;}
+@media(max-width:820px){.moves,.grid3,.split,.grid2,.navgrid{grid-template-columns:1fr;}}
+@media(max-width:720px){body{font-size:17.5px;}}
+</style>
+<style>
+/* ─── shared top nav ─── */
+.topnav{position:sticky;top:0;z-index:100;background:rgba(21,22,16,.93);backdrop-filter:saturate(140%) blur(8px);-webkit-backdrop-filter:saturate(140%) blur(8px);border-bottom:1px solid #2a2b22;transition:box-shadow .3s;}
+.topnav.scrolled{box-shadow:0 2px 22px rgba(0,0,0,.4);}
+.topnav-in{max-width:72rem;margin:0 auto;padding:.62rem 1.6rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:1.5rem;}
+.topnav-brand{font-family:var(--mono);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--on-block);text-decoration:none;white-space:nowrap;}
+.topnav-brand b{color:#fff;font-weight:600;}
+.topnav-brand .bar{color:var(--garnet-2);}
+.topnav-links{display:flex;align-items:center;gap:1.25rem;}
+.topnav-links a{font-family:var(--mono);font-size:.72rem;letter-spacing:.05em;color:var(--on-block-2);text-decoration:none;position:relative;transition:color .15s;white-space:nowrap;}
+.topnav-links a:hover{color:var(--on-block);}
+.topnav-links a::after{content:'';position:absolute;left:0;bottom:-4px;width:0;height:1.5px;background:var(--garnet-2);transition:width .25s;}
+.topnav-links a:hover::after{width:100%;}
+.topnav-more{position:relative;}
+.topnav-more-btn{font-family:var(--mono);font-size:.72rem;letter-spacing:.05em;color:var(--on-block-2);background:none;border:none;cursor:pointer;padding:0;transition:color .15s;}
+.topnav-more-btn:hover{color:var(--on-block);}
+.topnav-dropdown{display:none;position:absolute;top:calc(100% + 10px);right:0;background:#12130d;border:1px solid #33342a;padding:.35rem 0;min-width:12.5rem;box-shadow:0 10px 30px rgba(0,0,0,.5);}
+.topnav-more.open .topnav-dropdown{display:block;}
+.topnav-dropdown a{display:block;padding:.5rem 1rem;font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--on-block-2);text-decoration:none;transition:background .12s,color .12s;}
+.topnav-dropdown a:hover{color:#fff;background:rgba(158,42,60,.14);}
+.topnav-dropdown a::after{display:none;}
+.topnav-dropdown .sep{height:1px;background:#2a2b22;margin:.35rem 0;}
+@media(max-width:900px){ .topnav-links{gap:.95rem;} .tn-md{display:none;} }
+@media(max-width:640px){ .topnav-in{padding:.62rem 1rem;} .topnav-links{gap:.85rem;} .tn-sm{display:none;} }
+@media(max-width:400px){ .topnav-links{gap:.7rem;} .topnav-links a,.topnav-more-btn{font-size:.68rem;letter-spacing:.03em;} .topnav-brand{font-size:.68rem;letter-spacing:.12em;} }
+</style>
+<nav class="topnav" id="topnav">
+  <div class="topnav-in">
+    <a class="topnav-brand" href="/"><b>aethus</b><span class="bar">.</span>org</a>
+    <div class="topnav-links">
+      <a href="/start-here.html">Start Here</a>
+      <a href="/aethic-reasoning-guide.html#explorer">Aethic Guide</a>
+      <a href="/nexic-reasoning-guide.html" class="tn-sm">Nexic Guide</a>
+      <a href="/faq.html" class="tn-sm">FAQ</a>
+      <a href="/aethic-code/" class="tn-md">Aethic Code</a>
+      <a href="/ajax/" class="tn-md">About Ajax</a>
+      <div class="topnav-more">
+        <button class="topnav-more-btn" onclick="this.parentElement.classList.toggle('open')" aria-haspopup="true" aria-expanded="false">More &#9662;</button>
+        <div class="topnav-dropdown">
+          <a href="/nexic-reasoning-guide.html">Nexic Guide</a>
+          <a href="/faq.html">FAQ</a>
+          <a href="/aethic-code/">Aethic Code</a>
+          <a href="/glossary.html">Glossary</a>
+          <a href="/principles_compendium.html">Principles Compendium</a>
+          <a href="/constraints_map.html">Constraints Map</a>
+          <a href="/ajax/">About Ajax</a>
+          <div class="sep"></div>
+          <a href="/supporting/provenance.html">Provenance</a>
+          <a href="https://philpeople.org/profiles/ajax-benander" target="_blank" rel="noopener">Papers &#8599;</a>
         </div>
-        <header>
-            <h1>Aethic Reasoning</h1>
-            <p class="subtitle">
-                Resources accompanying the paper
-                <a href="https://philpapers.org/rec/BENARA-5"><em>Aethic Reasoning: A Comprehensive Solution to the Quantum Measurement Problem</em></a>
-                by Ajax Benander.
-            </p>
-        </header>
+      </div>
+    </div>
+  </div>
+</nav>
+<script>
+(function(){
+  var tn=document.getElementById('topnav');
+  if(tn){window.addEventListener('scroll',function(){tn.classList.toggle('scrolled',window.scrollY>30);});}
+  document.addEventListener('click',function(e){
+    var m=document.querySelector('.topnav-more');
+    if(m&&!m.contains(e.target)){m.classList.remove('open');var b=m.querySelector('.topnav-more-btn');if(b)b.setAttribute('aria-expanded','false');}
+  });
+  var mb=document.querySelector('.topnav-more-btn');
+  if(mb){mb.addEventListener('click',function(){mb.setAttribute('aria-expanded', mb.parentElement.classList.contains('open')?'true':'false');});}
+})();
+</script>
+<style>
+.res{border:1px solid var(--rule);background:var(--paper-2);padding:1.2rem 1.3rem;}
+.res .rtag{display:inline-block;font-family:var(--mono);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--garnet);border:1px solid var(--garnet);padding:.1em .55ch;margin-bottom:.7rem;}
+.res h3{font-family:var(--display);font-size:1.14rem;color:var(--ink);margin:0 0 .5rem;line-height:1.25;}
+.res .rdesc{color:var(--ink-2);font-size:.96rem;line-height:1.58;margin-bottom:.85rem;}
+.res .vdate{font-family:var(--mono);font-size:.72rem;color:var(--ink-3);white-space:nowrap;}
+.res .ractions{display:flex;gap:.5rem;flex-wrap:wrap;}
+.res .ractions a{font-family:var(--mono);font-size:.72rem;letter-spacing:.02em;padding:.42rem .8rem;border:1px solid var(--ink);color:var(--ink);transition:.12s;}
+.res .ractions a:hover{background:var(--ink);color:var(--paper);}
+.res-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(17rem,1fr));gap:1rem;margin:1.4rem 0;}
+.res.video{grid-column:span 1;}
+.vembed{position:relative;padding-bottom:56.25%;height:0;border:1px solid var(--rule);}
+.vembed iframe{position:absolute;top:0;left:0;width:100%;height:100%;}
+.codeblock{background:var(--block);color:var(--on-block);border:1px solid var(--ink);overflow-x:auto;margin:1.2rem 0;}
+.codeblock .ch{background:rgba(255,255,255,.04);border-bottom:1px solid rgba(255,255,255,.12);padding:.55rem 1rem;font-family:var(--mono);font-size:.66rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-2);}
+.codeblock pre{margin:0;padding:1.1rem 1.2rem;font-family:var(--mono);font-size:.8rem;line-height:1.55;color:var(--on-block);white-space:pre;}
+details.aside{border:1px solid var(--rule);background:var(--paper-2);margin:.8rem 0;}
+details.aside>summary{cursor:pointer;list-style:none;padding:.85rem 1.1rem;font-family:var(--mono);font-size:.74rem;letter-spacing:.02em;color:var(--garnet);display:flex;align-items:center;gap:.7rem;}
+details.aside>summary::-webkit-details-marker{display:none;}
+details.aside>summary .mk{margin-left:auto;transition:transform .2s;}
+details.aside[open]>summary .mk{transform:rotate(45deg);}
+details.aside .inner{padding:0 1.2rem 1.1rem;}
+details.aside .inner p{color:var(--ink-2);font-size:.96rem;line-height:1.62;margin:0 0 .9em;}
+.arch-intro{font-family:var(--mono);font-size:.8rem;color:var(--ink-3);line-height:1.6;border-left:2px solid var(--rule);padding-left:1.1rem;margin:1.2rem 0;}
+</style>
 
-        <!-- ═══ Tab Navigation ═══ -->
-        <nav class="tab-nav">
-            <button class="active" onclick="switchTab('code')" id="btn-code">Code &amp; Demos</button>
-            <button onclick="switchTab('media')" id="btn-media">Presentations &amp; Media</button>
-            <button onclick="switchTab('nexic')" id="btn-nexic">Nexic Reasoning</button>
-            <button onclick="switchTab('archive')" id="btn-archive">Historical Archive</button>
-        </nav>
+<header class="mast indexed">
+  <div class="wide">
+    <div class="kicker">Code &amp; archive &middot; resources behind the papers</div>
+    <h1>The workbench<br>&amp; the <em>record.</em></h1>
+    <p class="standfirst">The live demos, the algorithm, the slide decks and videos, and the historical archive &mdash; the original 2023 manuscript, the earliest code, and the author&rsquo;s own account of how the framework got its words.</p>
+    <div class="meta"><span>interactive &amp; code</span><span>presentations &amp; media</span><span>the historical archive</span></div>
+  </div>
+</header>
 
-        <!-- ═══════════════════════════════════════ -->
-        <!-- CODE TAB -->
-        <!-- ═══════════════════════════════════════ -->
-        <div id="tab-code" class="tab-section active">
-            <div class="cards">
-                <!-- Interactive Demo -->
-                <div class="card">
-                    <span class="card-tag tag-interactive">Interactive</span>
-                    <h2>Powerset Invalidation Demo</h2>
-                    <p>
-                        Configure slits and detectors, then watch the Second and Third Postulates
-                        prune the powerset of candidate agreeing superpositions in real time.
-                        Runs entirely in your browser.
-                    </p>
-                    <div class="card-actions">
-                        <a href="demo.html" class="btn-primary">▶ Launch Demo</a>
-                        <a href="demo.html" download class="btn-secondary">↓ Download HTML</a>
-                    </div>
-                </div>
+<section class="tight">
+  <div class="wide" style="max-width:44rem;">
+    <div class="prose"><p class="lead">Resources accompanying <em>Aethic Reasoning: A Comprehensive Solution to the Quantum Measurement Problem</em> and its companion papers by Ajax Benander. Everything here is downloadable or runs in the browser.</p></div>
+  </div>
+</section>
 
-                <!-- Python Algorithm -->
-                <div class="card">
-                    <span class="card-tag tag-algorithm">Algorithm</span>
-                    <h2>Python — Bare-Bones Invalidation</h2>
-                    <p>
-                        The core classification algorithm in plain Python with no dependencies.
-                        Computes detector signatures, equivalence classes, and labels each
-                        powerset element as Valid, P2, or P3. Includes worked examples.
-                    </p>
-                    <div class="card-actions">
-                        <a href="aethic_invalidation.py" class="btn-primary">↓ Download .py</a>
-                        <a href="#python-source" class="btn-secondary" onclick="document.getElementById('python-source').style.display='block'; this.style.display='none'; return false;">View Source</a>
-                    </div>
-                    <pre id="python-source" style="display:none; margin-top:1rem; padding:1rem; background:rgba(0,0,0,0.3); border:1px solid rgba(100,116,139,0.15); border-radius:0.4rem; font-family:'SF Mono','Cascadia Code','Consolas',monospace; font-size:0.72rem; color:#94a3b8; overflow-x:auto; line-height:1.55; max-height:500px; overflow-y:auto; white-space:pre;"></pre>
-                </div>
-            </div>
+<section class="tight">
+  <div class="wide">
+    <div class="sec-head"><span class="eyebrow">Interactive &amp; code</span><h2>Run the pruning yourself.</h2></div>
+    <div class="res-grid">
+      <article class="res">
+  <span class="rtag">Interactive</span>
+  <h3>Powerset Invalidation Demo</h3>
+  <div class="rdesc">Configure slits and detectors, then watch the Second and Third Postulates prune the powerset of candidate agreeing superpositions in real time. Runs entirely in your browser; the configuration lives in the URL.</div>
+  <div class="ractions"><a href="demo.html">▶ Launch demo</a><a href="demo.html" download>↓ Download HTML</a></div>
+</article>
+      <article class="res">
+  <span class="rtag">Algorithm</span>
+  <h3>Python — bare-bones invalidation</h3>
+  <div class="rdesc">The core classification algorithm in plain Python with no dependencies. Computes detector signatures, equivalence classes, and labels each powerset element Valid, P2, or P3. Reproduced in full below.</div>
+  <div class="ractions"><a href="aethic_invalidation.py" download>↓ Download .py</a><a href="#python-source">View source</a></div>
+</article>
+    </div>
+    <div class="codeblock" id="python-source">
+      <div class="ch">aethic_invalidation.py</div>
+      <pre>from itertools import chain, combinations
 
-            <!-- Pseudocode -->
-            <div class="card" style="margin-bottom:2.5rem; border-color:rgba(251,191,36,0.15);">
-                <span class="card-tag" style="color:var(--text-dim);background:rgba(100,116,139,0.08);border:1px solid rgba(100,116,139,0.15);">Pseudocode</span>
-                <h2>The Core Algorithm</h2>
-                <p>The entire invalidation logic, reduced to its essentials:</p>
-                <pre style="padding:1rem; background:rgba(0,0,0,0.3); border:1px solid rgba(100,116,139,0.12); border-radius:0.4rem; font-family:'SF Mono','Cascadia Code','Consolas',monospace; font-size:0.78rem; color:#c4b5fd; line-height:1.7; overflow-x:auto; white-space:pre;">Given n slits and a set of detectors (each fires for some subset of slits):
+def powerset(iterable):
+    s = list(iterable)
+    return chain.from_iterable(combinations(s, r) for r in range(len(s) + 1))
+
+def classify(n_slits, detectors):
+    """
+    n_slits   : number of slits (indices 0..n_slits-1)
+    detectors : list of sets; each set is the slits one detector watches (OR logic)
+    Returns {subset: label} for every element of the powerset of slits,
+    where label is "VALID", "P2" (too narrow), or "P3" (too broad).
+    """
+    # 1. Each slit's signature = which detectors fire when only it is open.
+    signature = {
+        s: tuple(i for i, d in enumerate(detectors) if s in d)
+        for s in range(n_slits)
+    }
+
+    # 2. Group slits by identical signature into equivalence classes.
+    classes = {}
+    for s in range(n_slits):
+        classes.setdefault(signature[s], set()).add(s)
+
+    def class_of(s):
+        return signature[s]
+
+    # 3. Classify every subset of the powerset.
+    result = {}
+    for subset in powerset(range(n_slits)):
+        subset = frozenset(subset)
+        if not subset:
+            result[subset] = "VALID"                      # empty set
+            continue
+        spanned = {class_of(s) for s in subset}
+        if len(spanned) &gt; 1:
+            result[subset] = "P3"                         # spans classes: checkmate
+        else:
+            full = classes[next(iter(spanned))]
+            result[subset] = "VALID" if subset == full else "P2"
+    return result
+
+if __name__ == "__main__":
+    # Double slit, one detector on slit 0: {A} and {B} valid, {A,B} checkmated.
+    for subset, label in classify(2, [{0}]).items():
+        shown = "".join(chr(65 + s) for s in sorted(subset)) or "Ø"
+        print(f"{shown:&lt;6} {label}")
+</pre>
+    </div>
+    <details class="aside">
+      <summary>The core algorithm, as pseudocode <span class="mk">+</span></summary>
+      <div class="inner">
+        <p style="font-family:var(--mono);font-size:.84rem;white-space:pre-wrap;color:var(--ink-2);">Given n slits and a set of detectors (each fires for some subset of slits):
 
 1. For each slit, compute its detector signature:
-     sig(s) = which detectors fire when only s is open
-
+   sig(s) = which detectors fire when only s is open
 2. Group slits by identical signature into equivalence classes.
-     Slits in the same class are observationally indistinguishable.
-
+   Slits in the same class are observationally indistinguishable.
 3. For each subset S of the powerset (each candidate superposition):
-     if S = ∅                   → VALID
-     if S = one full class      → VALID  (no contradiction reachable)
-     if S ⊂ one class (proper)  → P2: specificity no observer can access
-     if S spans multiple classes → P3: future observer could find contradiction</pre>
-            </div>
-        </div>
+   if S = ∅                  → VALID
+   if S = one full class     → VALID  (no contradiction reachable)
+   if S ⊂ one class (proper)  → P2  (specificity no observer can access)
+   if S spans multiple classes → P3  (a future observer could find contradiction)</p>
+      </div>
+    </details>
+  </div>
+</section>
 
-        <!-- ═══════════════════════════════════════ -->
-        <!-- MEDIA TAB -->
-        <!-- ═══════════════════════════════════════ -->
-        <div id="tab-media" class="tab-section">
-            <div class="cards">
+<section class="tight">
+  <div class="wide">
+    <div class="sec-head"><span class="eyebrow">Presentations &amp; media</span><h2>The framework, presented.</h2></div>
+    <div class="res-grid">
+      <article class="res">
+  <span class="rtag">Slides</span>
+  <h3>Aethic Reasoning — Slide Deck 1</h3>
+  <div class="rdesc">A slide deck intended for a future video on Aethic reasoning. Covers the basics in an intended fifteen-minute runtime.</div>
+  <div class="ractions"><a href="files/Aethic_YouTube_Presentation.pptx.pdf" download>↓ Download PDF</a></div>
+</article>
+      <article class="res">
+  <span class="rtag">Slides</span>
+  <h3>Slide Deck 2 — RIT Math Club</h3>
+  <div class="rdesc">The deck from Ajax’s presentation at the RIT Math Club, April 26, 2025. Covers the extrusion principle, Aethic structure, the soccer-field thought experiment, and the double-slit derivation.</div>
+  <div class="ractions"><a href="files/Aethic_Reasoning_Slides_PiRIT.pptx.pdf" download>↓ Download PDF</a></div>
+</article>
+      <article class="res video">
+  <span class="rtag">Video</span>
+  <h3>Did I Just Solve the Measurement Problem?</h3>
+  <div class="rdesc">Ajax’s first public presentation of Aethic reasoning — a deep dive covering the three postulates and the double-slit derivation. <span class="vdate">Oct 19, 2023</span></div>
+  <div class="vembed"><iframe src="https://www.youtube.com/embed/_XDr8mNfGRk" title="Did I Just Solve the Measurement Problem?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+</article>
+      <article class="res video">
+  <span class="rtag">Video</span>
+  <h3>Does the Aethus Solve the Fermi Paradox?</h3>
+  <div class="rdesc">The companion deep dive introducing Nexic reasoning: anthropic parameters, the Accordance Principle, and the Rare Earth derivation. <span class="vdate">Oct 19, 2023</span></div>
+  <div class="vembed"><iframe src="https://www.youtube.com/embed/pX_1WrcWi04" title="Does the Aethus Solve the Fermi Paradox?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+</article>
+      <article class="res video">
+  <span class="rtag">Video</span>
+  <h3>Here’s How You Solve Quantum Physics</h3>
+  <div class="rdesc">A brief walkthrough of the full Aethic framework. <span class="vdate">Nov 12, 2023</span></div>
+  <div class="vembed"><iframe src="https://www.youtube.com/embed/rxsPpyi7QHY" title="Here’s How You Solve Quantum Physics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+</article>
+      <article class="res">
+  <span class="rtag">Channel</span>
+  <h3>YouTube — Brunch with Newton</h3>
+  <div class="rdesc">The full video series, including the Nexic and dinosaur material, on the author’s channel.</div>
+  <div class="ractions"><a href="https://www.youtube.com/@BrunchWithNewton">Visit channel ↗</a></div>
+</article>
+    </div>
+  </div>
+</section>
 
-                <!-- Slide Deck -->
-                <div class="card">
-                    <span class="card-tag tag-presentation">Presentation</span>
-                    <h2>Aethic Reasoning Slide Deck 1</h2>
-                    <p>
-                        A slide deck intended for a future video on Aethic reasoning. Covers the basics in an intended 15 minutes of runtime. 
-                    </p>
-                    <div class="card-actions">
-                        <a href="files/Aethic_YouTube_Presentation.pptx.pdf" class="btn-primary">↓ Download PDF</a>
-                    </div>
-                </div>
-                
-                <div class="card">
-                    <span class="card-tag tag-presentation">Presentation</span>
-                    <h2>Aethic Reasoning Slide Deck 2</h2>
-                    <p>
-                        The slide deck from Ajax's presentation at the RIT Math Club on April 26, 2025. Covers the extrusion principle, Aethic structure, the soccer field thought experiment, and the double-slit derivation.
-                    </p>
-                    <div class="card-actions">
-                        <a href="files/Aethic_Reasoning_Slides_PiRIT.pptx.pdf" class="btn-primary">↓ Download PDF</a>
-                    </div>
-                </div>
+<section class="tight">
+  <div class="wide">
+    <div class="sec-head"><span class="eyebrow">Nexic &amp; the dinosaurs</span><h2>Deep time, quantified.</h2></div>
+    <div class="res-grid">
+      <article class="res">
+  <span class="rtag">Paper</span>
+  <h3>Dinosaur Recalibration: Methods &amp; Results</h3>
+  <div class="rdesc">The technical companion paper. Bradley–Terry model fitting over ~4,500 crowd-sourced matchups, graph preprocessing, Lion = 100 normalization, anatomy correction (10.14× dino factor), and weight–score power-law regression. Includes a 123-animal interleaved ranking table.</div>
+  <div class="ractions"><a href="nexic/dinosaur-recalibration.pdf" download>↓ Download PDF</a></div>
+</article>
+      <article class="res">
+  <span class="rtag">Interactive</span>
+  <h3>Dinosaur Slider</h3>
+  <div class="rdesc">How much do we underestimate dinosaurs? Drag from the crowd’s weight-based paradigm to the anatomy-corrected one and watch the rankings transform. Lion ≡ 100, 53 animals, 10.14× correction factor.</div>
+  <div class="ractions"><a href="nexic/dino-correct.html">▶ Launch demo</a><a href="nexic/dino-correct.html" download>↓ Download HTML</a></div>
+</article>
+      <article class="res">
+  <span class="rtag">Interactive</span>
+  <h3>The Dark Era — Weight vs. Combat Power</h3>
+  <div class="rdesc">A log-log scatter of body mass versus anatomy-corrected combat score for theropods and mammals, with median power-law fits. Hover any point for its mismatch ratio. The gap between the curves is what our ancestors lived inside for 160 million years.</div>
+  <div class="ractions"><a href="nexic/dark-era-chart.html">▶ Launch demo</a><a href="nexic/dark-era-chart.html" download>↓ Download HTML</a></div>
+</article>
+    </div>
+  </div>
+</section>
 
-                <!-- YouTube: Measurement Problem -->
-                <div class="card">
-                    <span class="card-tag tag-video">Video</span>
-                    <h2>Did I Just Solve the Measurement Problem?</h2>
-                    <p>
-                        Ajax's first public presentation of Aethic Reasoning, a deep dive covering the three postulates and the double-slit derivation. October 19, 2023.
-                    </p>
-                    <div class="video-wrapper">
-                        <iframe src="https://www.youtube.com/embed/_XDr8mNfGRk" allowfullscreen loading="lazy"></iframe>
-                    </div>
-                    <div class="card-actions">
-                        <a href="https://www.youtube.com/@BrunchWithNewton" class="btn-secondary">Visit YouTube Channel</a>
-                    </div>
-                </div>
-
-                <!-- YouTube: Fermi Paradox -->
-                <div class="card">
-                    <span class="card-tag tag-video">Video</span>
-                    <h2>Does the Aethus Solve the Fermi Paradox?</h2>
-                    <p>
-                        The companion deep dive video introducing Nexic Reasoning: anthropic parameters, the Accordance Principle, and the Rare Earth derivation. October 19, 2023.
-                    </p>
-                    <div class="video-wrapper">
-                        <iframe src="https://www.youtube.com/embed/pX_1WrcWi04" allowfullscreen loading="lazy"></iframe>
-                    </div>
-                </div>
-
-                <!-- YouTube: Here's How You Solve -->
-                <div class="card">
-                    <span class="card-tag tag-video">Video</span>
-                    <h2>Here's How You Solve Quantum Physics</h2>
-                    <p>
-                        A brief walkthrough of the full Aethic framework. November 12, 2023.
-                    </p>
-                    <div class="video-wrapper">
-                        <iframe src="https://www.youtube.com/embed/rxsPpyi7QHY" allowfullscreen loading="lazy"></iframe>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- ═══════════════════════════════════════ -->
-        <!-- NEXIC TAB -->
-        <!-- ═══════════════════════════════════════ -->
-        <div id="tab-nexic" class="tab-section">
-            <div class="cards">
-                <div class="card">
-                    <span class="card-tag tag-algorithm">Paper</span>
-                    <h2>Dinosaur Recalibration: Methods and Results</h2>
-                    <p>
-                        The technical companion paper. Bradley\'96Terry model fitting over
-                        ~4,500 crowd-sourced matchups, graph preprocessing, Lion = 100
-                        normalization, anatomy correction (10.14\'d7 dino factor), and
-                        weight\'96score power law regression. Includes a 123-animal
-                        interleaved ranking table.
-                    </p>
-                    <div class="card-actions">
-                        <a href="nexic/dinosaur-recalibration.pdf" class="btn-primary">↓ Download PDF</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <span class="card-tag tag-interactive">Interactive</span>
-                    <h2>Dinosaur Slider</h2>
-                    <p>
-                        How much do we underestimate dinosaurs? Drag the slider from the
-                        crowd's weight-based paradigm to the anatomy-corrected paradigm
-                        and watch the rankings transform. Lion ≡ 100 scale, 53 animals,
-                        10.14\'d7 dinosaur correction factor.
-                    </p>
-                    <div class="card-actions">
-                        <a href="nexic/dino-correct.html" class="btn-primary">▶ Launch Demo</a>
-                        <a href="nexic/dino-correct.html" download class="btn-secondary">↓ Download HTML</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <span class="card-tag tag-interactive">Interactive</span>
-                    <h2>The Dark Era — Weight vs. Combat Power</h2>
-                    <p>
-                        Log-log scatter of body mass versus anatomy-corrected combat score
-                        for theropods and mammals, with median regression power law fits.
-                        Hover any dot to see the mismatch ratio. The gap between the
-                        curves is what our ancestors lived inside for 160 million years.
-                    </p>
-                    <div class="card-actions">
-                        <a href="nexic/dark-era-chart.html" class="btn-primary">▶ Launch Demo</a>
-                        <a href="nexic/dark-era-chart.html" download class="btn-secondary">↓ Download HTML</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- ═══════════════════════════════════════ -->
-        <!-- HISTORICAL ARCHIVE TAB -->
-        <!-- ═══════════════════════════════════════ -->
-        <div id="tab-archive" class="tab-section">
-            <p style="color:var(--text-muted); font-size:0.85rem; margin-bottom:1.5rem; line-height:1.65;">
-                Early artifacts and superseded drafts, kept here for the record. None of these
-                represent the current state of the framework — they document how it got here.
-            </p>
-            <div class="cards">
-
-                <!-- Ajax Grade School Ideas -->
-                <div class="card">
-                    <span class="card-tag" style="color:var(--text-dim);background:rgba(100,116,139,0.08);border:1px solid rgba(100,116,139,0.15);">Historical</span>
-                    <h2>Grade School Ideas</h2>
-                    <p>
-                        Here is a comprehensive doc of all the major ideas I remember having while in grade school!
-                        This was written when I was a senior in high school, which is why it cuts off abruptly toward the end (except for the last entry, which I added later on). 
-                    </p>
-                    <div class="card-actions">
-                        <a href="history/ajax-grade-school-ideas.html" class="btn-primary">▶ Open Doc</a>
-                    </div>
-                </div>
-
-                <!-- Java Elements Program (freshman year) -->
-                <div class="card" style="border-color: rgba(100, 116, 139, 0.25);">
-                    <span class="card-tag" style="color:var(--text-dim);background:rgba(100,116,139,0.08);border:1px solid rgba(100,116,139,0.15);">Early Code</span>
-                    <h2>Elements.java — Spelling Words in Element Symbols</h2>
-                    <p>
-                        The first thing I ever coded outside of block coding (November 3, 2018),
-                        written during my freshman-year intro Java class. The program takes a
-                        word and tries to decompose it into a sequence of element symbols (so
-                        "BaCoN" becomes Ba, Co, N), returning the symbols, atomic numbers, and
-                        full element names if the decomposition succeeds.
-                    </p>
-                    <p>
-                        I asked the teacher if we would be covering lists or arrays, because I
-                        had this program in mind and figured it would need them. He said I would
-                        have to wait for the AP class. So I had to write it using strings
-                        as my only data structure!
-                    </p>
-                    <details style="margin-top:0.8rem; font-size:0.8rem; color:var(--text-muted);">
-                        <summary style="cursor:pointer; color:var(--text-dim); padding:0.3rem 0; user-select:none; transition:color 0.2s;" onmouseover="this.style.color='var(--violet)'" onmouseout="this.style.color='var(--text-dim)'">A note on the algorithm</summary>
-                        <p style="margin-top:0.6rem; padding:0.8rem 1rem; background:rgba(0,0,0,0.2); border-left:2px solid rgba(139,92,246,0.25); border-radius:0 0.3rem 0.3rem 0; line-height:1.65;">
-                            The parser is greedy left-to-right with a one-step lookahead: before
-                            committing to a two-letter symbol, it checks that the remainder of
-                            the word can also start with a valid element. Without the lookahead
-                            the greedy choice occasionally dead-ends on words that are actually
-                            parseable (the one-letter-vs-two-letter ambiguity), and I wanted it
-                            to actually work. The lookahead is only one step deep, so it does
-                            not handle everything a real parser would, but it handles enough to
-                            make the program usable.
-                        </p>
-                    </details>
-                    <div class="card-actions" style="margin-top:1rem;">
-                        <a href="files/Elements.java" class="btn-secondary">↓ Download .java</a>
-                    </div>
-                </div>
-
-                <!-- Timeline (overview / index for the archive) -->
-                <div class="card">
-                    <span class="card-tag tag-interactive">Interactive</span>
-                    <h2>Timeline</h2>
-                    <p>
-                        Here's a program I wrote between December 20, 2020 and September 3, 2021, which attempts
-                        to allow the viewer to get the time period on demand of a given natural history time
-                        measured in millions of years before present. I noticed that Google wasn't actually showing this
-                        info for an arbitary inputted value, and so here I was! 
-                    </p>
-                    <p>
-                        And yeah this was back in the good old days where people had to write every line of code by hand! Remember that!?
-                    </p>
-                    <div class="card-actions">
-                        <a href="files/timeline/index.html" class="btn-primary">▶ Open Timeline</a>
-                    </div>
-                </div>
-
-                <!-- Original Aethic Paper -->
-                <div class="card" style="border-color: rgba(100, 116, 139, 0.25);">
-                    <span class="card-tag" style="color:var(--text-dim);background:rgba(100,116,139,0.08);border:1px solid rgba(100,116,139,0.15);">Historical</span>
-                    <h2>Original Aethic Paper</h2>
-                    <p>
-                        My original Aethic reasoning paper (May 20, 2023), included here to close the gap
-                        as best I can about what it looks like in practice when you have really deep
-                        structural intuitions but only normal ability for pedagogy-in-writing. Aethic reasoning
-                        was actually complete by May 8, 2023, when I came up with the two-general constraint
-                        to capture the self-similarity in an Oliver's Aethus — the full richness was already
-                        swimming inside my head, fully matured, but I could not for the life of me find the
-                        words to explain it.
-                    </p>
-                    <details style="margin-top:0.8rem; font-size:0.8rem; color:var(--text-muted);">
-                        <summary style="cursor:pointer; color:var(--text-dim); padding:0.3rem 0; user-select:none; transition:color 0.2s;" onmouseover="this.style.color='var(--violet)'" onmouseout="this.style.color='var(--text-dim)'">The curse, and how it broke</summary>
-                        <p style="margin-top:0.6rem; padding:0.8rem 1rem; background:rgba(0,0,0,0.2); border-left:2px solid rgba(139,92,246,0.25); border-radius:0 0.3rem 0.3rem 0; line-height:1.65;">
-                            The issue was not that I didn't understand the formalism, because from my perspective it was totally captured — the problem was that I couldn't see it from the reader's perspective, down to every last little confusion and nuance like the unpacking of the union principle. That unpacking is not about me or the principle — it's about forming the mapping between a standard human worldview and the principle, but either is a variable in that function. If I were explaining this to some alien race, then simply put it would not be broken down the way it was, because they would have come to the conversation with a different set of initial assumptions.
-                        </p>
-                        <p style="margin-top:0.6rem; padding:0.8rem 1rem; background:rgba(0,0,0,0.2); border-left:2px solid rgba(139,92,246,0.25); border-radius:0 0.3rem 0.3rem 0; line-height:1.65;">
-                            So the curse of it was that I A) had no one to talk to about what was going on that understood abstract math, because I couldn't get a single professor to engage with me, and B) genuinely lacked the raw pedagogical skill to convey the punch (and yes I say pedagogical rather than formalistic, because when you're in that deep formalistic is a subclass of pedagogical). The miracle of 2024 then was two things: A) I met Dr. Fokoué and he single-handedly saved me from devastation by engaging, and B) something just clicked at the exact right time in my brain, weirdly, like on the timescale of a month, where suddenly I felt like I could decompose mathematical structures into prose better — almost like a kind of intangible precocious maturation that was late to the party or something. The result is that as I read the paper back, I feel this guttural sense of relief in seeing how far I came, because the level to which I was screwed in the moment (due to the pedagogical inability) is hard to overstate.
-                        </p>
-                    </details>
-                    <details style="margin-top:0.8rem; font-size:0.8rem; color:var(--text-muted);">
-                        <summary style="cursor:pointer; color:var(--text-dim); padding:0.3rem 0; user-select:none; transition:color 0.2s;" onmouseover="this.style.color='var(--violet)'" onmouseout="this.style.color='var(--text-dim)'">On the meeting with Dr. Fokoué</summary>
-                        <p style="margin-top:0.6rem; padding:0.8rem 1rem; background:rgba(0,0,0,0.2); border-left:2px solid rgba(139,92,246,0.25); border-radius:0 0.3rem 0.3rem 0; line-height:1.65;">
-                            Also, interestingly, no exposition in the paper, direct or abstract, came from the meeting itself with Dr. Fokoué. What was important about the meeting is that it gave me an entry point to latch onto toward the explanation. I actually met Dr. Fokoué in February I think it was of 2024, and I had been trying several times during conversations with him to explain even one Aethic concept, which finally worked spontaneously on a day in September. I had been writing about 120 pages of the paper in parallel with this, mind you, (due to that sudden formalization ability kicking in), so what happened during the meeting was that I got the definitional hierarchy across to him precisely, (by explaining it with the n-Aethus concept), as well as the superposition-from-blanks concept in the basic sense (ie no mixed decompositions), the extrusion principle table which has Copenhagen as the diagonal (which he found stunning, because it directly connected back to an unrelated observation he made earlier that day about how old paradigms tend to look like subspaces of new ones), and a little bit about probability as weighted Aethae, which you can imagine really piqued his interests, as a statistician! I then got a second concept across to him two weeks later, being the mixed-decomposition premise (which handles edge cases of superpositions): and what's especially interesting is that using my vocabulary at the time of "present versus absent", he had extrapolated a different dependency-graph for how Aethic blanks worked than what I had, so this difference in orientation was itself deeply informative for me to invent the decomposable-vocab. I then did a full rewrite of those two sections in the paper, since as we know being able to transmit the abstraction directly instead of a handful of concrete projections is absolute gold for the framework's existential fate. So, I managed to convey to him maybe 10% of the framework's own direct contents, and really none of the connectives between the contents (which are by weight most of it anyway), but that was more than enough for me to extrapolate the entire structure of the paper around it. That is, the first 1% of that kind of learner-locating context is more crucial than the next 70% combined kind of thing! I think, in fairness, that the fact I was able to pull off this extrapolation itself stems from my same cognitive-expansion that allowed me to extrapolate even the framework itself from the double-slit experiment plus macroscopic world as two inductive boundary conditions of sorts, so once again it's just a sheer miracle that I was there with the chops to do this kind of feat when I needed to. Like, epistemically it was bordering on humanly impossible, but had dropped down several orders of magnitude and so now was at least achievable.
-                        </p>
-                    </details>
-                    <div class="card-actions" style="margin-top:1rem;">
-                        <a href="files/Original_Aethic.pdf" class="btn-secondary">↓ Download PDF</a>
-                        <a href="history/marked_original.html" class="btn-primary" style="margin-left:.5rem;">✦ Read the Marked Paper</a>
-                    </div>
-                    <p style="margin-top:.85rem; font-size:.78rem; color:var(--text-dim); line-height:1.6;">
-                        The <strong style="color:var(--violet)">Marked Paper</strong> annotates this manuscript line by line —
-                        each phrase linked to the principle it was already reaching for — to show the whole framework was present
-                        in 2023, just unable to be named. A study in <em>linguistic masking</em>, and a quiet argument for listening
-                        harder to the next person in that position.
-                    </p>
-                </div>
-
-                <!-- Original Summary Document -->
-                <div class="card">
-                    <span class="card-tag" style="color:var(--text-dim);background:rgba(100,116,139,0.08);border:1px solid rgba(100,116,139,0.15);">Historical</span>
-                    <h2>Original Google Doc Summary Document</h2>
-                    <p>
-                        This file is pulled from a Google Doc I wrote on October 20, 2023 where I outline the basic rules of Aethic reasoning.
-                        I find it interesting how it preserves the initiating concept in Aethic reasoning about replacing the determinate causal chain,
-                        which of course I already had the full formalism for via the extrusion principle's modal facet. But, at once I had great
-                        difficulty at the time in actually articulating this, hence why I find this doc to be an interesting record. 
-                    </p>
-                    <div class="card-actions">
-                        <a href="history/MajorRulesoftheAethus.html" class="btn-primary">▶ Open Doc</a>
-                    </div>
-                </div>
-
-                <!-- Koide Note -->
-                <div class="card" style="border-color: rgba(100, 116, 139, 0.25);">
-                    <span class="card-tag" style="color:var(--text-dim);background:rgba(100,116,139,0.08);border:1px solid rgba(100,116,139,0.15);">Note</span>
-                    <h2>Koide Formula Parametrization Rediscovery</h2>
-                    <p>
-                        A short paper illustrating the "principle of twos" — the hypothesis
-                        that the Born rule's squared amplitudes, chiral decomposition, and the
-                        lepton mass spectrum share a common two-factor structure — by deriving
-                        a trigonometric parametrization of the Koide formula with cyclic 120°
-                        phase shifts.
-                    </p>
-                    <p>
-                        After posting, I learned that the core parametrization
-                        (mass scale + phase angle, cyclic eigenvector structure, δ&nbsp;≈&nbsp;2/9)
-                        was previously obtained by
-                        <a href="https://brannenworks.com/MASSES2.pdf" style="color:var(--violet);text-decoration:none;border-bottom:1px solid rgba(139,92,246,0.3);">Carl Brannen in 2006</a>
-                        via a circulant-matrix approach! The present paper arrived at
-                        the same result independently.
-                        It is retained here to keep a record of that convergence, but there is no use having it on PhilArchive still. The sweet irony, anyway, is that I sort of April Foolsed myself here!
-                    </p>
-                    <details style="margin-top:0.8rem; font-size:0.8rem; color:var(--text-muted);">
-                        <summary style="cursor:pointer; color:var(--text-dim); padding:0.3rem 0; user-select:none; transition:color 0.2s;" onmouseover="this.style.color='var(--violet)'" onmouseout="this.style.color='var(--text-dim)'">Why I searched <em>after</em> timestamping</summary>
-                        <p style="margin-top:0.6rem; padding:0.8rem 1rem; background:rgba(0,0,0,0.2); border-left:2px solid rgba(139,92,246,0.25); border-radius:0 0.3rem 0.3rem 0; line-height:1.65;">
-                            Ok as for why I actually posted first, then searched, it's just because in the scenario where I was actually first, I wanted to make sure I had that timestamp before letting any LLM catch a sight of the idea. I have enough equations and scraps of equations floating around at the moment that my policy is to universally keep all of them out of sight of LLMs until I get a timestamp. Since I'm working in isolation, I probably miscalibrated how easy it was to discover this, because I didn't anticipate there was a formalistic path in addition to my own ontological path. So my bad there! But yeah also it was just a better safe than sorry thing, because I'm a little paranoid about somebody trying to scoop me or something if the LLM logs the equation and they manage to publicize it before I can get my timestamp!
-                        </p>
-                    </details>
-                    <div class="card-actions">
-                        <a href="files/Koide_Formula.pdf" class="btn-secondary">↓ Download PDF</a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <!-- ═══════════════════════════════════════ -->
-        <!-- FOOTER (shared) -->
-        <!-- ═══════════════════════════════════════ -->
-        <div class="footer-links">
-            <a href="https://github.com/brunchwnewton/aethic-code">
-                <span class="arrow">→</span> Browse all source files on GitHub
-            </a>
-            <a href="https://philpapers.org/rec/BENARA-5">
-                <span class="arrow">→</span> Main Paper (PhilPapers)
-            </a>
-            <a href="https://philpapers.org/rec/BENARA-6">
-                <span class="arrow">→</span> Short Paper (PhilPapers)
-            </a>
-            <a href="https://philpapers.org/rec/BENNRD">
-                <span class="arrow">→</span> Nexic Paper (PhilPapers)
-            </a>
-        </div>
+<section class="tight">
+  <div class="wide">
+    <div class="sec-head"><span class="eyebrow">The historical archive</span><h2>How it got here.</h2></div>
+    <div class="arch-intro">Early artifacts and superseded drafts, kept for the record. None of these represent the current state of the framework &mdash; they document how it got here.</div>
+    <div class="res-grid">
+      <article class="res">
+  <span class="rtag">Historical</span>
+  <h3>Grade School Ideas</h3>
+  <div class="rdesc">A comprehensive doc of the major ideas Ajax remembers having in grade school. Written when he was a senior in high school — which is why it cuts off abruptly toward the end (except the last entry, added later).</div>
+  <div class="ractions"><a href="history/ajax-grade-school-ideas.html">▶ Open doc</a></div>
+</article>
+      <article class="res">
+  <span class="rtag">Early code</span>
+  <h3>Elements.java — spelling words in element symbols</h3>
+  <div class="rdesc">The first thing Ajax coded outside of block coding (November 3, 2018), written in a freshman-year intro Java class. It decomposes a word into a sequence of element symbols — “BaCoN” becomes Ba, Co, N — returning the symbols, atomic numbers, and names if the decomposition succeeds.</div>
+  <div class="ractions"><a href="files/Elements.java" download>↓ Download .java</a></div>
+</article>
+      <article class="res">
+  <span class="rtag">Interactive</span>
+  <h3>Timeline — natural-history lookup</h3>
+  <div class="rdesc">A program written Dec 20, 2020 – Sep 3, 2021 that returns the geological time period for any age given in millions of years before present — something Ajax noticed a certain search engine wouldn’t do for arbitrary values.</div>
+  <div class="ractions"><a href="files/timeline/index.html">▶ Open timeline</a></div>
+</article>
+      <article class="res">
+  <span class="rtag">Historical</span>
+  <h3>Original Google Doc Summary</h3>
+  <div class="rdesc">Pulled from a Google Doc written October 20, 2023 outlining the basic rules of Aethic reasoning. It preserves the initiating concept — replacing the determinate causal chain — that the author already had the full formalism for via the extrusion principle’s modal facet, but found hard to articulate at the time.</div>
+  <div class="ractions"><a href="history/MajorRulesoftheAethus.html">▶ Open doc</a></div>
+</article>
     </div>
 
-    <script>
-        function switchTab(tab) {
-            // Update hash without scrolling
-            history.replaceState(null, null, '#' + tab);
-    
-            // Hide all sections
-            document.querySelectorAll('.tab-section').forEach(function(el) {
-                el.classList.remove('active');
-            });
-            // Deactivate all buttons
-            document.querySelectorAll('.tab-nav button').forEach(function(btn) {
-                btn.classList.remove('active');
-            });
-            // Activate selected
-            document.getElementById('tab-' + tab).classList.add('active');
-            document.getElementById('btn-' + tab).classList.add('active');
-        }
-    
-        // On page load, check the hash and switch to that tab
-        function loadTabFromHash() {
-            var hash = window.location.hash.replace('#', '');
-            if (hash === 'code' || hash === 'media' || hash === 'nexic' || hash === 'archive') {
-                switchTab(hash);
-            }
-        }
-    
-        loadTabFromHash();
-        window.addEventListener('hashchange', loadTabFromHash);
-    
-        // Fetch and display the Python source inline when requested
-        fetch('aethic_invalidation.py')
-            .then(function(r) { return r.text(); })
-            .then(function(text) {
-                document.getElementById('python-source').textContent = text;
-            })
-            .catch(function() {
-                document.getElementById('python-source').textContent = '(Could not load file — download it instead.)';
-            });
-    </script>
-</body>
-</html>
+    <article class="res" style="margin-top:.4rem;">
+      <span class="rtag">Historical &middot; the priority instrument</span>
+      <h3>The Original Aethic Paper (May 2023)</h3>
+      <div class="rdesc"><p style="margin:0 0 .8em;">My original Aethic reasoning paper (May 20, 2023), included here to close the gap as best I can about what it looks like in practice when you have really deep structural intuitions but only normal ability for pedagogy-in-writing. Aethic reasoning was actually complete by May 8, 2023, when I came up with the two-general constraint to capture the self-similarity in an Oliver's Aethus — the full richness was already swimming inside my head, fully matured, but I could not for the life of me find the words to explain it.</p></div>
+      <details class="aside"><summary>The curse, and how it broke <span class="mk">+</span></summary><div class="inner"><p>The issue was not that I didn't understand the formalism, because from my perspective it was totally captured — the problem was that I couldn't see it from the reader's perspective, down to every last little confusion and nuance like the unpacking of the union principle. That unpacking is not about me or the principle — it's about forming the mapping between a standard human worldview and the principle, but either is a variable in that function. If I were explaining this to some alien race, then simply put it would not be broken down the way it was, because they would have come to the conversation with a different set of initial assumptions.</p><p>So the curse of it was that I A) had no one to talk to about what was going on that understood abstract math, because I couldn't get a single professor to engage with me, and B) genuinely lacked the raw pedagogical skill to convey the punch (and yes I say pedagogical rather than formalistic, because when you're in that deep formalistic is a subclass of pedagogical). The miracle of 2024 then was two things: A) I met Dr. Fokoué and he single-handedly saved me from devastation by engaging, and B) something just clicked at the exact right time in my brain, weirdly, like on the timescale of a month, where suddenly I felt like I could decompose mathematical structures into prose better — almost like a kind of intangible precocious maturation that was late to the party or something. The result is that as I read the paper back, I feel this guttural sense of relief in seeing how far I came, because the level to which I was screwed in the moment (due to the pedagogical inability) is hard to overstate.</p></div></details>
+      <details class="aside"><summary>On the meeting with Dr. Fokoué <span class="mk">+</span></summary><div class="inner"><p>Also, interestingly, no exposition in the paper, direct or abstract, came from the meeting itself with Dr. Fokoué. What was important about the meeting is that it gave me an entry point to latch onto toward the explanation. I actually met Dr. Fokoué in February I think it was of 2024, and I had been trying several times during conversations with him to explain even one Aethic concept, which finally worked spontaneously on a day in September. I had been writing about 120 pages of the paper in parallel with this, mind you, (due to that sudden formalization ability kicking in), so what happened during the meeting was that I got the definitional hierarchy across to him precisely, (by explaining it with the n-Aethus concept), as well as the superposition-from-blanks concept in the basic sense (ie no mixed decompositions), the extrusion principle table which has Copenhagen as the diagonal (which he found stunning, because it directly connected back to an unrelated observation he made earlier that day about how old paradigms tend to look like subspaces of new ones), and a little bit about probability as weighted Aethae, which you can imagine really piqued his interests, as a statistician! I then got a second concept across to him two weeks later, being the mixed-decomposition premise (which handles edge cases of superpositions): and what's especially interesting is that using my vocabulary at the time of "present versus absent", he had extrapolated a different dependency-graph for how Aethic blanks worked than what I had, so this difference in orientation was itself deeply informative for me to invent the decomposable-vocab. I then did a full rewrite of those two sections in the paper, since as we know being able to transmit the abstraction directly instead of a handful of concrete projections is absolute gold for the framework's existential fate. So, I managed to convey to him maybe 10% of the framework's own direct contents, and really none of the connectives between the contents (which are by weight most of it anyway), but that was more than enough for me to extrapolate the entire structure of the paper around it. That is, the first 1% of that kind of learner-locating context is more crucial than the next 70% combined kind of thing! I think, in fairness, that the fact I was able to pull off this extrapolation itself stems from my same cognitive-expansion that allowed me to extrapolate even the framework itself from the double-slit experiment plus macroscopic world as two inductive boundary conditions of sorts, so once again it's just a sheer miracle that I was there with the chops to do this kind of feat when I needed to. Like, epistemically it was bordering on humanly impossible, but had dropped down several orders of magnitude and so now was at least achievable.</p></div></details>
+      <div class="rdesc" style="margin-top:.9rem;"><p style="margin:0;font-size:.9rem;color:var(--ink-3);">The Marked Paper annotates this manuscript line by line — each phrase linked to the principle it was already reaching for — to show the whole framework was present in 2023, just unable to be named. A study in linguistic masking, and a quiet argument for listening harder to the next person in that position.</p></div>
+      <div class="ractions" style="margin-top:.9rem;">
+        <a href="files/Original_Aethic.pdf" download>↓ Download PDF</a>
+        <a href="history/marked_original.html">✦ Read the marked paper</a>
+      </div>
+    </article>
+
+    <article class="res" style="margin-top:1rem;">
+      <span class="rtag">Note &middot; a documented convergence</span>
+      <h3>Koide Formula Parametrization Rediscovery</h3>
+      <div class="rdesc">
+        <p style="margin:0 0 .8em;">A short paper illustrating the "principle of twos" — the hypothesis that the Born rule's squared amplitudes, chiral decomposition, and the lepton mass spectrum share a common two-factor structure — by deriving a trigonometric parametrization of the Koide formula with cyclic 120° phase shifts.</p>
+        <p style="margin:0 0 .8em;">After posting, I learned that the core parametrization (mass scale + phase angle, cyclic eigenvector structure, δ ≈ 2/9) was previously obtained by Carl Brannen in 2006 via a circulant-matrix approach! The present paper arrived at the same result independently. It is retained here to keep a record of that convergence, but there is no use having it on PhilArchive still. The sweet irony, anyway, is that I sort of April Foolsed myself here!</p>
+      </div>
+      <details class="aside"><summary>Why I searched after timestamping <span class="mk">+</span></summary><div class="inner"><p>Ok as for why I actually posted first, then searched, it's just because in the scenario where I was actually first, I wanted to make sure I had that timestamp before letting any LLM catch a sight of the idea. I have enough equations and scraps of equations floating around at the moment that my policy is to universally keep all of them out of sight of LLMs until I get a timestamp. Since I'm working in isolation, I probably miscalibrated how easy it was to discover this, because I didn't anticipate there was a formalistic path in addition to my own ontological path. So my bad there! But yeah also it was just a better safe than sorry thing, because I'm a little paranoid about somebody trying to scoop me or something if the LLM logs the equation and they manage to publicize it before I can get my timestamp!</p></div></details>
+      <div class="ractions" style="margin-top:.9rem;"><a href="files/Koide_Formula.pdf" download>↓ Download PDF</a><a href="https://brannenworks.com/MASSES2.pdf">Brannen (2006) ↗</a></div>
+    </article>
+  </div>
+</section>
+
+<section>
+  <div class="wide">
+    <div class="sec-head"><span class="eyebrow">Sources &amp; papers</span><h2>Everything, at the source.</h2></div>
+    <div class="navgrid">
+      <a href="https://github.com/brunchwnewton/aethic-code"><div class="nt">Browse on GitHub &#8599;</div><div class="nd">All source files for the demos, the algorithm, and this site.</div></a>
+      <a href="https://philpapers.org/rec/BENARA-5"><div class="nt">Main paper &#8599;</div><div class="nd">Aethic Reasoning: A Comprehensive Solution to the Quantum Measurement Problem.</div></a>
+      <a href="https://philpapers.org/rec/BENARI-3"><div class="nt">In Brief &#8599;</div><div class="nd">The compressed on-ramp — from a counterfactual semantics to the measurement problem.</div></a>
+      <a href="https://philpapers.org/rec/BENNRD"><div class="nt">Nexic paper &#8599;</div><div class="nd">Defining a Generalized Calculus Over Anthropic Parameters.</div></a>
+    </div>
+  </div>
+</section><footer class="site">
+  <div class="wide">
+    <div class="foot-grid">
+      <div>
+        <h4>The framework</h4>
+        <ul>
+          <li><a href="/start-here.html">Start Here</a></li>
+          <li><a href="/aethic-reasoning-guide.html">Aethic Guide</a></li>
+          <li><a href="/nexic-reasoning-guide.html">Nexic Guide</a></li>
+          <li><a href="/constraints_map.html">Threading the Needle</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Reference</h4>
+        <ul>
+          <li><a href="/principles_compendium.html">Compendium</a></li>
+          <li><a href="/glossary.html">Glossary</a></li>
+          <li><a href="/faq.html">Questions &amp; Context</a></li>
+          <li><a href="/supporting/provenance.html">Provenance</a></li>
+<li><a href="/aethic-code/">Aethic Code</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Ajax Benander</h4>
+        <ul>
+          <li><a href="/ajax/">About Ajax</a></li>
+          <li><a href="https://philpeople.org/profiles/ajax-benander">PhilPeople &#8599;</a></li>
+          <li><a href="https://philpapers.org/rec/BENARA-5">PhilPapers &#8599;</a></li>
+          <li><a href="mailto:akb9408@rit.edu">akb9408 [at] rit.edu</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-note">&copy; 2025&ndash;2026 Ajax Benander. Independent research, openly licensed under CC BY-NC-SA 4.0. The framework&rsquo;s fundamentals date to 2022&ndash;2023 and were deposited at PhilArchive in November 2024, nineteen months before any AI involvement; the 2026 assistance was recognition and translation, not construction. Not peer-reviewed &mdash; evaluate the papers on their own terms.</div>
+  </div>
+</footer>
