@@ -238,72 +238,7 @@ hr.div{border:none;border-top:1px solid var(--rule);margin:2.4rem 0;}
 @media(max-width:820px){.moves,.grid3,.split,.grid2,.navgrid{grid-template-columns:1fr;}}
 @media(max-width:720px){body{font-size:17.5px;}}
 </style>
-<style>
-/* ─── shared top nav ─── */
-.topnav{position:sticky;top:0;z-index:100;background:rgba(21,22,16,.93);backdrop-filter:saturate(140%) blur(8px);-webkit-backdrop-filter:saturate(140%) blur(8px);border-bottom:1px solid #2a2b22;transition:box-shadow .3s;}
-.topnav.scrolled{box-shadow:0 2px 22px rgba(0,0,0,.4);}
-.topnav-in{max-width:72rem;margin:0 auto;padding:.62rem 1.6rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:1.5rem;}
-.topnav-brand{font-family:var(--mono);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--on-block);text-decoration:none;white-space:nowrap;}
-.topnav-brand b{color:#fff;font-weight:600;}
-.topnav-brand .bar{color:var(--garnet-2);}
-.topnav-links{display:flex;align-items:center;gap:1.25rem;}
-.topnav-links a{font-family:var(--mono);font-size:.72rem;letter-spacing:.05em;color:var(--on-block-2);text-decoration:none;position:relative;transition:color .15s;white-space:nowrap;}
-.topnav-links a:hover{color:var(--on-block);}
-.topnav-links a::after{content:'';position:absolute;left:0;bottom:-4px;width:0;height:1.5px;background:var(--garnet-2);transition:width .25s;}
-.topnav-links a:hover::after{width:100%;}
-.topnav-more{position:relative;}
-.topnav-more-btn{font-family:var(--mono);font-size:.72rem;letter-spacing:.05em;color:var(--on-block-2);background:none;border:none;cursor:pointer;padding:0;transition:color .15s;}
-.topnav-more-btn:hover{color:var(--on-block);}
-.topnav-dropdown{display:none;position:absolute;top:calc(100% + 10px);right:0;background:#12130d;border:1px solid #33342a;padding:.35rem 0;min-width:12.5rem;box-shadow:0 10px 30px rgba(0,0,0,.5);}
-.topnav-more.open .topnav-dropdown{display:block;}
-.topnav-dropdown a{display:block;padding:.5rem 1rem;font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--on-block-2);text-decoration:none;transition:background .12s,color .12s;}
-.topnav-dropdown a:hover{color:#fff;background:rgba(158,42,60,.14);}
-.topnav-dropdown a::after{display:none;}
-.topnav-dropdown .sep{height:1px;background:#2a2b22;margin:.35rem 0;}
-@media(max-width:900px){ .topnav-links{gap:.95rem;} .tn-md{display:none;} }
-@media(max-width:640px){ .topnav-in{padding:.62rem 1rem;} .topnav-links{gap:.85rem;} .tn-sm{display:none;} }
-@media(max-width:400px){ .topnav-links{gap:.7rem;} .topnav-links a,.topnav-more-btn{font-size:.68rem;letter-spacing:.03em;} .topnav-brand{font-size:.68rem;letter-spacing:.12em;} }
-</style>
-<nav class="topnav" id="topnav">
-  <div class="topnav-in">
-    <a class="topnav-brand" href="/"><b>aethus</b><span class="bar">.</span>org</a>
-    <div class="topnav-links">
-      <a href="/start-here.html">Start Here</a>
-      <a href="/aethic-reasoning-guide.html#explorer">Aethic Guide</a>
-      <a href="/nexic-reasoning-guide.html" class="tn-sm">Nexic Guide</a>
-      <a href="/faq.html" class="tn-sm">FAQ</a>
-      <a href="/aethic-code/" class="tn-md">Aethic Code</a>
-      <a href="/ajax/" class="tn-md">About Ajax</a>
-      <div class="topnav-more">
-        <button class="topnav-more-btn" onclick="this.parentElement.classList.toggle('open')" aria-haspopup="true" aria-expanded="false">More &#9662;</button>
-        <div class="topnav-dropdown">
-          <a href="/nexic-reasoning-guide.html">Nexic Guide</a>
-          <a href="/faq.html">FAQ</a>
-          <a href="/aethic-code/">Aethic Code</a>
-          <a href="/glossary.html">Glossary</a>
-          <a href="/principles_compendium.html">Principles Compendium</a>
-          <a href="/constraints_map.html">Constraints Map</a>
-          <a href="/ajax/">About Ajax</a>
-          <div class="sep"></div>
-          <a href="/supporting/provenance.html">Provenance</a>
-          <a href="https://philpeople.org/profiles/ajax-benander" target="_blank" rel="noopener">Papers &#8599;</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</nav>
-<script>
-(function(){
-  var tn=document.getElementById('topnav');
-  if(tn){window.addEventListener('scroll',function(){tn.classList.toggle('scrolled',window.scrollY>30);});}
-  document.addEventListener('click',function(e){
-    var m=document.querySelector('.topnav-more');
-    if(m&&!m.contains(e.target)){m.classList.remove('open');var b=m.querySelector('.topnav-more-btn');if(b)b.setAttribute('aria-expanded','false');}
-  });
-  var mb=document.querySelector('.topnav-more-btn');
-  if(mb){mb.addEventListener('click',function(){mb.setAttribute('aria-expanded', mb.parentElement.classList.contains('open')?'true':'false');});}
-})();
-</script>
+
 <style>
 .res{border:1px solid var(--rule);background:var(--paper-2);padding:1.2rem 1.3rem;}
 .res .rtag{display:inline-block;font-family:var(--mono);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--garnet);border:1px solid var(--garnet);padding:.1em .55ch;margin-bottom:.7rem;}
@@ -569,38 +504,4 @@ if __name__ == "__main__":
       <a href="https://philpapers.org/rec/BENNRD"><div class="nt">Nexic paper &#8599;</div><div class="nd">Defining a Generalized Calculus Over Anthropic Parameters.</div></a>
     </div>
   </div>
-</section><footer class="site">
-  <div class="wide">
-    <div class="foot-grid">
-      <div>
-        <h4>The framework</h4>
-        <ul>
-          <li><a href="/start-here.html">Start Here</a></li>
-          <li><a href="/aethic-reasoning-guide.html">Aethic Guide</a></li>
-          <li><a href="/nexic-reasoning-guide.html">Nexic Guide</a></li>
-          <li><a href="/constraints_map.html">Threading the Needle</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Reference</h4>
-        <ul>
-          <li><a href="/principles_compendium.html">Compendium</a></li>
-          <li><a href="/glossary.html">Glossary</a></li>
-          <li><a href="/faq.html">Questions &amp; Context</a></li>
-          <li><a href="/supporting/provenance.html">Provenance</a></li>
-<li><a href="/aethic-code/">Aethic Code</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Ajax Benander</h4>
-        <ul>
-          <li><a href="/ajax/">About Ajax</a></li>
-          <li><a href="https://philpeople.org/profiles/ajax-benander">PhilPeople &#8599;</a></li>
-          <li><a href="https://philpapers.org/rec/BENARA-5">PhilPapers &#8599;</a></li>
-          <li><a href="mailto:akb9408@rit.edu">akb9408 [at] rit.edu</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="foot-note">&copy; 2025&ndash;2026 Ajax Benander. Independent research, openly licensed under CC BY-NC-SA 4.0. The framework&rsquo;s fundamentals date to 2022&ndash;2023 and were deposited at PhilArchive in November 2024, nineteen months before any AI involvement; the 2026 assistance was recognition and translation, not construction. Not peer-reviewed &mdash; evaluate the papers on their own terms.</div>
-  </div>
-</footer>
+</section>
