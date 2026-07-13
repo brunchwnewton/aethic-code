@@ -1,714 +1,523 @@
 ---
 layout: default
+title: "Powerset Invalidation — Interactive Demo"
+description: "An interactive tool for Aethic reasoning's Powerset Invalidation Theorem: configure slits and detectors and watch the Second and Third Postulates prune the powerset of candidate superpositions in real time."
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aethic Reasoning — Interactive Powerset Invalidation</title>
-    <style>
-        :root {
-            --bg-deep: #06060e;
-            --bg-card: #0d1117;
-            --bg-hover: #161b22;
-            --border: rgba(100, 116, 139, 0.2);
-            --text: #e2e8f0;
-            --text-muted: #94a3b8;
-            --text-dim: #64748b;
-            --violet: #8b5cf6;
-            --violet-soft: rgba(139, 92, 246, 0.15);
-            --violet-border: rgba(139, 92, 246, 0.3);
-            --violet-text: #c4b5fd;
-            --emerald: #34d399;
-            --emerald-soft: rgba(52, 211, 153, 0.15);
-            --amber: #f59e0b;
-            --red: #ef4444;
-            --blue: #60a5fa;
-            --font-sans: 'Segoe UI', system-ui, -apple-system, sans-serif;
-            --font-mono: 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
-        }
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,340;9..144,420;9..144,560&family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+<style>
+/* ============ KIT — "Reality, Indexed" ============ */
+:root{
+  --ink:#1A1B18;--ink-2:#43443E;--ink-3:#6E6F65;
+  --paper:#EEEDE6;--paper-2:#F7F6F0;--paper-3:#E7E5DB;
+  --rule:#D6D4C9;--rule-2:#E4E2D7;
+  --garnet:#7E1D2E;--garnet-2:#9C2A3C;--garnet-wash:rgba(126,29,46,.07);
+  --block:#151610;--block-2:#20211A;--on-block:#EAE9E1;--on-block-2:#9C9A8D;--on-block-3:#75746A;
+  --gold:#9A7B33;--gold-2:#B8942F;--sel:#E3E0D2;--measure:39rem;
+  --display:"Fraunces",Georgia,serif;--body:"Spectral",Georgia,serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth;}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:19px;line-height:1.66;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;font-optical-sizing:auto;}
+::selection{background:var(--sel);}
+a{color:inherit;text-decoration:none;}
+h1,h2,h3,h4{font-family:var(--display);font-weight:400;letter-spacing:-.012em;line-height:1.08;margin:0;}
+em,i{font-style:italic;}strong,b{font-weight:600;}sup{font-size:.66em;line-height:0;}
+.wrap{max-width:var(--measure);margin:0 auto;padding:0 1.6rem;}
+.wide{max-width:66rem;margin:0 auto;padding:0 1.6rem;}
+.mid{max-width:52rem;margin:0 auto;padding:0 1.6rem;}
+.eyebrow{font-family:var(--mono);font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--garnet);font-weight:500;}
+.eyebrow-dim{font-family:var(--mono);font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-3);font-weight:500;}
+a.link{color:var(--garnet);background-image:linear-gradient(var(--garnet),var(--garnet));background-size:0 1px;background-repeat:no-repeat;background-position:0 100%;transition:background-size .25s ease;}
+a.link:hover{background-size:100% 1px;}
+a:focus-visible{outline:2px solid var(--garnet);outline-offset:3px;border-radius:1px;}
+.rel{font-family:var(--mono);white-space:nowrap;}
+.rel .bar{color:var(--garnet);padding:0 .12em;font-weight:600;}
+.mono{font-family:var(--mono);}
 
-        body {
-            font-family: var(--font-sans);
-            background: var(--bg-deep);
-            color: var(--text);
-            line-height: 1.6;
-            min-height: 100vh;
-        }
+/* ---- top nav bar ---- */
+.topbar{position:sticky;top:0;z-index:40;background:rgba(21,22,16,.94);backdrop-filter:saturate(140%) blur(6px);border-bottom:1px solid #2a2b22;}
+.topbar .in{max-width:72rem;margin:0 auto;padding:.62rem 1.6rem;display:flex;align-items:center;gap:1.4rem;}
+.topbar a{color:var(--on-block-2);font-family:var(--mono);font-size:.74rem;letter-spacing:.05em;transition:color .15s;}
+.topbar a:hover{color:var(--on-block);}
+.topbar .brand{color:var(--on-block);letter-spacing:.14em;text-transform:uppercase;font-size:.72rem;}
+.topbar .brand b{color:#fff;font-weight:600;}
+.topbar .brand .bar{color:var(--garnet-2);}
+.topbar nav{margin-left:auto;display:flex;gap:1.3rem;flex-wrap:wrap;}
+@media(max-width:680px){.topbar nav{display:none;}}
 
-        .container {
-            max-width: 720px;
-            margin: 0 auto;
-            padding: 2rem 1.5rem 4rem;
-        }
+/* ---- hero / masthead ---- */
+.hero{background:var(--block);color:var(--on-block);position:relative;overflow:hidden;padding:clamp(3.4rem,9vw,6.5rem) 0 clamp(3rem,7vw,5rem);}
+.hero::after{content:"";position:absolute;left:calc(50% - 33rem);top:0;bottom:0;width:1px;background:var(--garnet);opacity:.9;}
+@media(max-width:1090px){.hero::after{left:1.6rem;}}
+.hero .wide{position:relative;z-index:2;}
+.hero .site-id{font-family:var(--mono);font-size:.74rem;letter-spacing:.22em;text-transform:uppercase;color:var(--on-block-2);}
+.hero .site-id b{color:var(--on-block);font-weight:500;}
+.hero-formula{font-family:var(--mono);font-size:clamp(1.05rem,3.2vw,1.6rem);color:var(--on-block-2);margin:2.2rem 0 1.2rem;letter-spacing:.02em;}
+.hero-formula .lit{color:var(--on-block);}
+.hero-formula .bar{color:var(--garnet-2);font-weight:600;}
+.hero h1{font-size:clamp(2.6rem,8vw,5.1rem);color:var(--on-block);letter-spacing:-.02em;line-height:.98;font-weight:340;}
+.hero h1 em{font-style:italic;color:var(--on-block);}
+.hero-sub{max-width:34rem;margin:1.6rem 0 0;font-size:clamp(1.02rem,2.3vw,1.24rem);color:var(--on-block);line-height:1.5;}
+.hero-sub .dim{color:var(--on-block-2);}
+.hero-by{margin-top:1.6rem;font-family:var(--mono);font-size:.76rem;letter-spacing:.05em;color:var(--on-block-3);line-height:1.7;}
+.hero-cta{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:2.3rem;}
+.btn{font-family:var(--mono);font-size:.8rem;letter-spacing:.04em;padding:.72rem 1.15rem;border:1px solid var(--ink-3);color:var(--ink);transition:.2s;display:inline-flex;align-items:center;gap:.6ch;cursor:pointer;background:none;}
+.btn:hover{border-color:var(--ink);background:var(--paper-2);}
+.mast .btn,.demo-head .btn{border-color:var(--on-block-3);color:var(--on-block);}
+.mast .btn:hover,.demo-head .btn:hover{border-color:var(--ink);background:var(--paper-2);}
+.btn.pri{background:var(--garnet);border-color:var(--garnet);color:#fff;}
+.btn.pri:hover{background:var(--garnet-2);border-color:var(--garnet-2);}
+.btn.dark{border-color:var(--rule);color:var(--ink);}
+.btn.dark:hover{border-color:var(--ink);background:var(--paper-2);}
+.mast .btn,.band .btn,.demo-head .btn{border-color:var(--on-block-3);color:var(--on-block);}
+.mast .btn:hover,.band .btn:hover,.demo-head .btn:hover{border-color:var(--on-block);background:rgba(255,255,255,.04);}
 
-        header {
-            text-align: center;
-            margin-bottom: 2.5rem;
-            padding-bottom: 1.5rem;
-            border-bottom: 1px solid var(--border);
-        }
+/* ---- paper masthead variant (reading pages) ---- */
+.mast{position:relative;padding:clamp(2.8rem,7vw,5rem) 0 clamp(2rem,4vw,3rem);border-bottom:1px solid var(--rule);}
+.mast .wide{position:relative;}
+.mast .kicker{font-family:var(--mono);font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--garnet);}
+.mast h1{font-size:clamp(2.4rem,6.4vw,4.4rem);margin:1.1rem 0 0;letter-spacing:-.02em;line-height:1.0;max-width:20ch;}
+.mast h1 em{font-style:italic;}
+.mast .standfirst{max-width:42rem;margin:1.5rem 0 0;font-size:clamp(1.1rem,2.2vw,1.32rem);line-height:1.5;color:var(--ink-2);}
+.mast .meta{margin-top:1.6rem;font-family:var(--mono);font-size:.75rem;letter-spacing:.04em;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;}
+.mast .meta .rel{color:var(--ink-2);}
+.mast.indexed{padding-left:0;}
+.mast.indexed::before{content:"";position:absolute;left:calc(50% - 33rem);top:clamp(2.8rem,7vw,5rem);bottom:1.5rem;width:2px;background:var(--garnet);}
+@media(max-width:1120px){.mast.indexed::before{left:1.6rem;}}
 
-        h1 {
-            font-size: 1.6rem;
-            font-weight: 500;
-            color: var(--violet-text);
-            margin-bottom: 0.35rem;
-            letter-spacing: 0.02em;
-        }
+/* ---- sections ---- */
+section{padding:clamp(3rem,7vw,5rem) 0;border-bottom:1px solid var(--rule);}
+section.tight{padding:clamp(2.2rem,5vw,3.4rem) 0;}
+.sec-head{margin-bottom:2.2rem;}
+.sec-head .eyebrow,.sec-head .eyebrow-dim{display:block;margin-bottom:.9rem;}
+.sec-head h2{font-size:clamp(1.7rem,4vw,2.4rem);letter-spacing:-.015em;}
+.sec-head p{max-width:40rem;margin:1rem 0 0;color:var(--ink-2);font-size:1.06rem;line-height:1.55;}
 
-        header p {
-            color: var(--text-muted);
-            font-size: 0.85rem;
-        }
+/* ---- prose ---- */
+.prose p{margin:0 0 1.15em;color:var(--ink-2);}
+.prose p.lead{font-size:1.24rem;line-height:1.52;color:var(--ink);}
+.prose h3{font-size:1.34rem;margin:2.2em 0 .5em;color:var(--ink);letter-spacing:-.01em;}
+.prose h4{font-size:1.06rem;margin:1.8em 0 .4em;color:var(--ink);font-family:var(--body);font-weight:600;letter-spacing:0;}
+.prose strong{color:var(--ink);}
+.prose em{color:inherit;}
+.prose a{color:var(--garnet);background-image:linear-gradient(var(--garnet),var(--garnet));background-size:100% 1px;background-repeat:no-repeat;background-position:0 100%;}
+.prose ul,.prose ol{margin:0 0 1.15em;padding-left:1.3em;color:var(--ink-2);}
+.prose li{margin:.3em 0;}
+.prose ul li::marker{color:var(--garnet);}
+.prose>*:first-child{margin-top:0;}
 
-        header a {
-            color: var(--violet-text);
-            text-decoration: none;
-            border-bottom: 1px solid var(--violet-border);
-        }
+/* ---- numbered reading sections with index rail ---- */
+.chapter{padding:clamp(2.6rem,6vw,4.2rem) 0;border-bottom:1px solid var(--rule);}
+.chapter .wide{display:grid;grid-template-columns:4.5rem 1fr;gap:0;align-items:start;}
+.chapter .idx{font-family:var(--mono);font-size:.82rem;color:var(--garnet);font-weight:600;letter-spacing:.06em;position:relative;padding-top:.35rem;}
+.chapter .idx::after{content:"";position:absolute;left:.05rem;top:2.2rem;bottom:-4.2rem;width:1px;background:var(--rule);}
+.chapter:last-of-type .idx::after{display:none;}
+.chapter .body{max-width:39rem;}
+.chapter h2{font-size:clamp(1.55rem,3.6vw,2.15rem);letter-spacing:-.015em;margin-bottom:1.1rem;}
+.chapter .body>.prose>p:first-child{margin-top:0;}
+@media(max-width:720px){
+  .chapter .wide{grid-template-columns:1fr;gap:0;}
+  .chapter .idx{padding-top:0;margin-bottom:.7rem;}
+  .chapter .idx::after{display:none;}
+}
 
-        header a:hover { border-color: var(--violet); }
+/* ---- callouts / figures / ledger ---- */
+.callout{border-left:2px solid var(--garnet);background:var(--garnet-wash);padding:1.15rem 1.3rem;margin:1.7rem 0;font-size:.99rem;line-height:1.58;color:var(--ink-2);}
+.callout .h{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--garnet);display:block;margin-bottom:.5rem;font-weight:600;}
+.callout p{margin:0 0 .7em;}.callout p:last-child{margin-bottom:0;}
+.callout strong{color:var(--ink);}
 
-        /* ── Sections ── */
-        section { margin-bottom: 2rem; }
+.note{border-left:2px solid var(--rule);padding:1.05rem 1.25rem;margin:1.7rem 0;font-family:var(--mono);font-size:.82rem;line-height:1.62;color:var(--ink-3);}
+.note b{color:var(--ink-2);font-weight:600;}
+.notebar{font-family:var(--mono);font-size:.82rem;color:var(--ink-3);line-height:1.6;border-left:2px solid var(--rule);padding-left:1.1rem;margin-top:1.4rem;}
 
-        h2 {
-            font-size: 0.75rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            color: var(--text-dim);
-            margin-bottom: 0.75rem;
-        }
+.formula{font-family:var(--mono);background:var(--paper-2);border:1px solid var(--rule);padding:1.1rem 1.3rem;margin:1.6rem 0;font-size:.92rem;line-height:1.7;color:var(--ink);overflow-x:auto;}
+.formula .c{color:var(--ink-3);}
+.formula .g{color:var(--garnet);font-weight:600;}
+.formula .lbl{display:block;font-size:.66rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3);margin-bottom:.55rem;}
 
-        /* ── Slit Selector ── */
-        .slit-selector {
-            display: flex;
-            gap: 0.4rem;
-            margin-bottom: 1rem;
-        }
+.figure{margin:1.8rem 0;border:1px solid var(--rule);background:var(--paper-2);}
+.figure .cap{font-family:var(--mono);font-size:.74rem;color:var(--ink-3);line-height:1.55;padding:.85rem 1.1rem;border-top:1px solid var(--rule);}
+.figure .cap b{color:var(--ink-2);}
+.figure svg{display:block;width:100%;height:auto;}
 
-        .slit-selector button {
-            width: 2.4rem;
-            height: 2.4rem;
-            border-radius: 0.375rem;
-            border: 1px solid var(--border);
-            background: transparent;
-            color: var(--text-muted);
-            cursor: pointer;
-            font-family: var(--font-mono);
-            font-size: 0.9rem;
-            transition: all 0.2s;
-        }
+/* ---- attribute tokens (blank vs stated) ---- */
+.tok{font-family:var(--mono);font-size:.82em;padding:.08em .5ch;border:1px solid var(--garnet);white-space:nowrap;}
+.tok.blank{color:var(--garnet);border-style:dashed;background:none;}
+.tok.stated{color:#fff;background:var(--garnet);border-color:var(--garnet);}
 
-        .slit-selector button.active {
-            border-color: var(--emerald);
-            background: var(--emerald-soft);
-            color: var(--emerald);
-        }
+/* ---- three-up / two-up grids ---- */
+.moves,.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:var(--rule);border:1px solid var(--rule);margin-top:1rem;}
+.move,.grid3>div{background:var(--paper-2);padding:1.7rem 1.5rem;}
+.move .n,.grid3 .n{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;color:var(--garnet);}
+.move h3,.grid3 h3{font-size:1.16rem;margin:.7rem 0 .5rem;letter-spacing:0;}
+.move p,.grid3 p{margin:0;font-size:.97rem;color:var(--ink-2);line-height:1.55;}
+.split,.grid2{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);border:1px solid var(--rule);}
+.split>div,.grid2>div{background:var(--paper-2);padding:1.7rem 1.5rem;}
+.split h3,.grid2 h3{font-size:1.14rem;margin:.6rem 0 .7rem;letter-spacing:0;}
+.split p,.grid2 p{margin:0 0 .8em;font-size:.97rem;color:var(--ink-2);line-height:1.55;}
+.split p:last-child,.grid2 p:last-child{margin-bottom:0;}
 
-        .slit-selector button:hover:not(.active) {
-            border-color: var(--text-dim);
-            color: var(--text);
-        }
+/* ---- tables ---- */
+.tbl-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:1rem 0;}
+.tbl{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:.78rem;min-width:44rem;}
+.tbl th,.tbl td{text-align:left;padding:.62rem .75rem;border-bottom:1px solid var(--rule-2);vertical-align:top;}
+.tbl thead th{border-bottom:1.5px solid var(--ink);font-weight:600;}
+.tbl tbody tr:last-child td{border-bottom:none;}
+.tbl .me{background:var(--garnet-wash);}
+.tbl .me td:first-child{color:var(--garnet);font-weight:600;}
+.tbl-cap{font-family:var(--mono);font-size:.74rem;color:var(--ink-3);margin-top:.9rem;line-height:1.5;max-width:44rem;}
 
-        /* ── Slit Visualization ── */
-        .slit-viz {
-            margin-bottom: 1.5rem;
-            display: flex;
-            justify-content: center;
-        }
+/* ---- ledger (posted price list) ---- */
+.ledger{border-top:1.5px solid var(--ink);margin:1.4rem 0;}
+.ledger .row{display:grid;grid-template-columns:2.4rem 1fr auto;gap:1rem;align-items:baseline;padding:.72rem 0;border-bottom:1px solid var(--rule);}
+.ledger .q{font-family:var(--mono);font-size:.8rem;color:var(--garnet);font-weight:600;}
+.ledger .d{color:var(--ink-2);font-size:.98rem;line-height:1.45;}
+.ledger .d b{color:var(--ink);}
+.ledger .t{font-family:var(--mono);font-size:.68rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);white-space:nowrap;text-align:right;}
+@media(max-width:600px){.ledger .row{grid-template-columns:2rem 1fr;}.ledger .t{grid-column:2;text-align:left;margin-top:.15rem;}}
 
-        /* ── Detector Cards ── */
-        .detector-list {
-            display: flex;
-            flex-direction: column;
-            gap: 0.6rem;
-            margin-bottom: 1rem;
-        }
+/* ---- papers ---- */
+.papers{border-top:1.5px solid var(--ink);}
+.paper{display:block;border-bottom:1px solid var(--rule);padding:1.25rem 0;transition:.15s;}
+.paper:hover{background:var(--paper-2);padding-left:.6rem;padding-right:.6rem;}
+.paper .pt{font-family:var(--display);font-size:1.14rem;color:var(--ink);line-height:1.25;letter-spacing:-.01em;}
+.paper .pm{font-family:var(--mono);font-size:.74rem;letter-spacing:.03em;color:var(--ink-3);margin-top:.45rem;}
+.paper.newest .pt{color:var(--garnet);}
+.paper .flag{display:inline-block;font-family:var(--mono);font-size:.64rem;letter-spacing:.12em;text-transform:uppercase;color:#fff;background:var(--garnet);padding:.12em .55ch;margin-left:.6ch;vertical-align:middle;}
 
-        .detector-card {
-            padding: 0.75rem;
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: 0.5rem;
-        }
+/* ---- nav grid ---- */
+.navgrid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);border:1px solid var(--rule);}
+.navgrid a{background:var(--paper-2);padding:1.4rem 1.4rem;transition:.15s;}
+.navgrid a:hover{background:#fff;}
+.navgrid .nt{font-family:var(--display);font-size:1.12rem;color:var(--ink);letter-spacing:-.01em;}
+.navgrid .nd{font-size:.92rem;color:var(--ink-3);margin-top:.35rem;line-height:1.5;}
+.navgrid .arr{color:var(--garnet);}
 
-        .detector-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 0.5rem;
-        }
+/* ---- dark band (nexic / deep-time) ---- */
+.band{background:var(--block);color:var(--on-block);border-bottom:none;}
+.band .eyebrow{color:var(--gold-2);}
+.band h2,.band h3{color:var(--on-block);}
+.band .sec-head p,.band .prose p{color:var(--on-block-2);}
+.band .prose strong{color:var(--on-block);}
+.band .stat{font-family:var(--mono);color:var(--gold-2);}
+.band a.link{color:var(--gold-2);}
+.band .btn{border-color:var(--on-block-3);color:var(--on-block);}
+.band .btn:hover{border-color:var(--gold-2);}
+.band .callout{border-left-color:var(--gold);background:rgba(154,123,51,.09);color:var(--on-block-2);}
+.band .callout .h{color:var(--gold-2);}
+.band .callout strong{color:var(--on-block);}
 
-        .detector-name {
-            color: var(--amber);
-            font-family: var(--font-mono);
-            font-size: 0.85rem;
-            font-weight: 600;
-        }
+/* ---- disclosure ---- */
+details.disc{border-top:1px solid var(--rule);}
+details.disc>summary{cursor:pointer;list-style:none;padding:1rem 0;display:flex;gap:.9rem;align-items:baseline;font-family:var(--display);font-size:1.1rem;color:var(--ink);transition:color .15s;}
+details.disc>summary:hover{color:var(--garnet);}
+details.disc>summary::-webkit-details-marker{display:none;}
+details.disc>summary .qn{font-family:var(--mono);font-size:.78rem;color:var(--garnet);font-weight:600;flex:none;width:2.4rem;}
+details.disc>summary .mk{margin-left:auto;font-family:var(--mono);color:var(--ink-3);flex:none;transition:transform .2s;}
+details.disc[open]>summary .mk{transform:rotate(45deg);}
+details.disc .ans{padding:0 0 1.5rem 3.3rem;max-width:42rem;}
+details.disc .ans>.prose>p:first-child{margin-top:0;}
+@media(max-width:600px){details.disc .ans{padding-left:0;}}
 
-        .detector-summary {
-            color: var(--text-dim);
-            font-family: var(--font-mono);
-            font-size: 0.7rem;
-        }
+/* ---- pull quote ---- */
+.pull{font-family:var(--display);font-size:clamp(1.5rem,3.6vw,2.1rem);line-height:1.24;letter-spacing:-.015em;color:var(--ink);max-width:30ch;margin:2.2rem 0;padding-left:1.3rem;border-left:2px solid var(--garnet);}
+.pull em{font-style:italic;}
 
-        .slit-toggles {
-            display: flex;
-            gap: 0.35rem;
-            flex-wrap: wrap;
-        }
+/* ---- footer ---- */
+footer.site{background:var(--block);color:var(--on-block-2);padding:3.2rem 0 2.4rem;font-size:.9rem;border-top:1px solid #2a2b22;}
+footer.site a{color:var(--on-block);}footer.site a:hover{color:#fff;}
+footer.site .foot-grid{display:flex;flex-wrap:wrap;gap:2.4rem 3.5rem;justify-content:space-between;}
+footer.site h4{font-family:var(--mono);font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--on-block-3);margin:0 0 .9rem;font-weight:500;}
+footer.site ul{list-style:none;margin:0;padding:0;line-height:2;}
+footer.site .foot-note{color:var(--on-block-3);margin-top:2.6rem;padding-top:1.6rem;border-top:1px solid #2a2b22;font-size:.82rem;line-height:1.6;max-width:52rem;}
 
-        .slit-toggle {
-            width: 2.2rem;
-            height: 2.2rem;
-            border-radius: 0.3rem;
-            border: 1px solid var(--border);
-            background: transparent;
-            color: var(--text-muted);
-            cursor: pointer;
-            font-family: var(--font-mono);
-            font-size: 0.8rem;
-            transition: all 0.15s;
-        }
+/* ---- utility ---- */
+.stack>*+*{margin-top:1.1rem;}
+hr.div{border:none;border-top:1px solid var(--rule);margin:2.4rem 0;}
+@media(max-width:820px){.moves,.grid3,.split,.grid2,.navgrid{grid-template-columns:1fr;}}
+@media(max-width:720px){body{font-size:17.5px;}}
+</style>
 
-        .slit-toggle.on {
-            border-color: var(--emerald);
-            background: var(--emerald-soft);
-            color: var(--emerald);
-        }
+<style>
+.demo-head{background:var(--block);color:var(--on-block);}
+.demo-head .wide{max-width:64rem;}
+.demo-head .kicker{color:var(--gold-2);}
+.demo-head h1{color:var(--on-block);font-size:clamp(2rem,5vw,3rem);line-height:1.02;margin:.3rem 0 .8rem;}
+.demo-head h1 em{color:var(--gold-2);font-style:italic;}
+.demo-head p{color:var(--on-block-2);max-width:38rem;font-size:1.02rem;line-height:1.55;margin:0;}
+.demo-head .back{font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--on-block-2);border-bottom:1px solid rgba(255,255,255,.2);}
+.demo-head .back:hover{color:var(--gold-2);}
 
-        .slit-toggle:hover:not(.on) {
-            border-color: var(--text-dim);
-        }
+.tool{max-width:64rem;margin:0 auto;padding:0 1.6rem;}
+.panel{border:1px solid var(--rule);background:var(--paper-2);margin:1.4rem 0;}
+.panel .ph{background:var(--paper,#F7F6F0);border-bottom:1px solid var(--rule,#D6D4C9);padding:.7rem 1.1rem;font-family:var(--mono,"IBM Plex Mono",ui-monospace,Menlo,monospace);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2,#43443E);display:flex;justify-content:space-between;align-items:center;}
+.panel .pb{padding:1.2rem 1.1rem;}
 
-        /* ── Buttons ── */
-        .btn-row {
-            display: flex;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-            margin-bottom: 1.5rem;
-        }
+.slit-count{display:inline-flex;border:1px solid var(--rule);}
+.slit-count button{font-family:var(--mono,"IBM Plex Mono",ui-monospace,Menlo,monospace);font-size:.82rem;padding:.5rem .95rem;background:var(--paper,#F7F6F0);border:none;border-right:1px solid var(--rule,#D6D4C9);color:var(--ink,#1A1B18);cursor:pointer;}
+.slit-count button:last-child{border-right:none;}
+.slit-count button[aria-pressed="true"]{background:var(--ink,#1A1B18);color:var(--paper,#F7F6F0);}
 
-        .btn {
-            padding: 0.5rem 1rem;
-            border-radius: 0.375rem;
-            border: 1px solid;
-            background: transparent;
-            cursor: pointer;
-            font-family: var(--font-sans);
-            font-size: 0.8rem;
-            font-weight: 500;
-            transition: all 0.2s;
-        }
+.det{border:1px solid var(--rule);background:var(--paper);padding:.75rem .85rem;margin-bottom:.7rem;}
+.det .dl{display:flex;justify-content:space-between;align-items:center;margin-bottom:.55rem;}
+.det .dname{font-family:var(--mono);font-size:.74rem;color:var(--ink);font-weight:600;}
+.det .drm{font-family:var(--mono,"IBM Plex Mono",ui-monospace,Menlo,monospace);font-size:.68rem;color:var(--ink-2,#43443E);border:1px solid var(--rule);padding:.15rem .55rem;cursor:pointer;background:none;}
+.det .drm:hover{border-color:var(--garnet);color:var(--garnet);}
+.det .watches{display:flex;gap:.4rem;flex-wrap:wrap;}
+.det .wbtn{font-family:var(--mono,"IBM Plex Mono",ui-monospace,Menlo,monospace);font-size:.72rem;font-weight:600;width:2.2rem;height:2.2rem;border:1px solid var(--rule,#D6D4C9);background:var(--paper,#F7F6F0);color:var(--ink,#1A1B18);cursor:pointer;transition:.12s;}
+.det .wbtn[data-on="true"]{background:var(--garnet,#7E1D2E);color:#fff;border-color:var(--garnet,#7E1D2E);}
+.btn-row{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.3rem;}
+.mini{font-family:var(--mono);font-size:.72rem;letter-spacing:.03em;padding:.5rem .9rem;border:1px solid var(--ink);background:none;color:var(--ink);cursor:pointer;}
+.mini:hover{background:var(--ink);color:var(--paper);}
+.mini.ghost{border-color:var(--rule,#D6D4C9);color:var(--ink-2,#43443E);}
+.mini.ghost:hover{background:var(--paper);border-color:var(--garnet);color:var(--garnet);}
 
-        .btn-add {
-            border-color: var(--violet-border);
-            color: var(--violet-text);
-        }
-        .btn-add:hover { background: var(--violet-soft); }
+.viz canvas{width:100%;height:130px;display:block;border:1px solid var(--rule);background:#111;}
+.viz .cap{font-family:var(--mono,"IBM Plex Mono",ui-monospace,Menlo,monospace);font-size:.72rem;color:var(--ink-2,#43443E);text-align:center;margin-top:.55rem;}
+.classline{font-family:var(--mono);font-size:.8rem;color:var(--ink-2);margin-bottom:1rem;line-height:1.6;}
+.classline b{color:var(--garnet);}
+.pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(4.6rem,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);}
+.pcell{background:var(--paper);padding:.5rem .35rem;font-family:var(--mono);font-size:.72rem;text-align:center;}
+.pcell .st{color:var(--ink);}
+.pcell .vd{display:block;font-size:.54rem;letter-spacing:.05em;text-transform:uppercase;margin-top:.28rem;}
+.pcell.valid{background:rgba(126,29,46,.055);}
+.pcell.valid .st{color:var(--garnet);font-weight:600;}
+.pcell.valid .vd{color:var(--garnet);font-weight:600;}
+.pcell.p2 .vd,.pcell.p3 .vd{color:var(--ink-2,#43443E);}
+.counts3{display:flex;gap:1px;background:var(--rule);border:1px solid var(--rule);margin-top:1rem;}
+.counts3>div{background:var(--paper);flex:1;padding:.8rem;text-align:center;}
+.counts3 .cn{font-family:var(--mono);font-size:1.3rem;color:var(--garnet);}
+.counts3 .cl{font-size:.72rem;color:var(--ink-3);margin-top:.2rem;line-height:1.3;}
+</style>
 
-        .btn-apply {
-            border-color: var(--emerald);
-            color: var(--emerald);
-            background: var(--emerald-soft);
-        }
-        .btn-apply:hover { background: rgba(52, 211, 153, 0.25); }
+<header class="demo-head">
+  <div class="wide" style="padding-top:1.4rem;">
+    <a class="back" href="/aethic-code/">&larr; Code &amp; archive</a>
+  </div>
+  <div class="wide" style="padding-top:1.6rem;">
+    <div class="kicker">Interactive &middot; the pruning, in your browser</div>
+    <h1>Powerset<br><em>invalidation.</em></h1>
+    <p>Configure the slits and detectors, and watch the Second and Third Postulates prune the powerset of candidate agreeing superpositions in real time. Everything runs locally; the configuration lives in the URL, so a setup can be shared by copying the link.</p>
+  </div>
+</header>
 
-        .btn-reset {
-            border-color: rgba(239, 68, 68, 0.3);
-            color: rgba(239, 68, 68, 0.7);
-        }
-        .btn-reset:hover { background: rgba(239, 68, 68, 0.08); }
-
-        .btn-remove {
-            width: 1.5rem;
-            height: 1.5rem;
-            border-radius: 50%;
-            border: 1px solid rgba(239, 68, 68, 0.3);
-            background: transparent;
-            color: rgba(239, 68, 68, 0.6);
-            cursor: pointer;
-            font-size: 0.85rem;
-            line-height: 1;
-            transition: all 0.15s;
-        }
-        .btn-remove:hover {
-            background: rgba(239, 68, 68, 0.1);
-            color: var(--red);
-        }
-
-        /* ── Grid ── */
-        .grid-container { margin-bottom: 0.75rem; }
-
-        .powerset-grid {
-            display: grid;
-            gap: 0.5rem;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        .grid-cell {
-            position: relative;
-            padding: 0.6rem 0.4rem;
-            border-radius: 0.5rem;
-            border: 1px solid;
-            text-align: center;
-            transition: all 0.4s ease;
-        }
-
-        .grid-cell.valid {
-            border-color: var(--violet-border);
-            background: rgba(139, 92, 246, 0.05);
-            opacity: 1;
-        }
-
-        .grid-cell.valid:hover {
-            border-color: rgba(139, 92, 246, 0.6);
-            background: rgba(139, 92, 246, 0.12);
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(139, 92, 246, 0.15);
-        }
-
-        .grid-cell.invalid-p2 {
-            border-color: rgba(96, 165, 250, 0.15);
-            background: rgba(10, 10, 20, 0.3);
-            opacity: 0.35;
-        }
-
-        .grid-cell.invalid-p3 {
-            border-color: rgba(239, 68, 68, 0.15);
-            background: rgba(10, 10, 20, 0.3);
-            opacity: 0.35;
-        }
-
-        .cell-circles {
-            display: flex;
-            justify-content: center;
-            gap: 0.25rem;
-            margin-bottom: 0.3rem;
-        }
-
-        .circle {
-            width: 14px;
-            height: 14px;
-            border-radius: 50%;
-            border: 1.5px solid;
-            transition: all 0.4s;
-        }
-
-        .cell-label {
-            font-family: var(--font-mono);
-            font-size: 0.65rem;
-            transition: color 0.4s;
-        }
-
-        .valid .circle { border-color: rgba(167, 139, 250, 0.7); }
-        .valid .circle.filled { background: rgba(167, 139, 250, 0.8); }
-        .valid .cell-label { color: rgba(167, 139, 250, 0.9); }
-
-        .invalid-p2 .circle { border-color: rgba(96, 165, 250, 0.3); }
-        .invalid-p2 .circle.filled { background: rgba(96, 165, 250, 0.3); }
-        .invalid-p2 .cell-label { color: rgba(96, 165, 250, 0.4); }
-
-        .invalid-p3 .circle { border-color: rgba(239, 68, 68, 0.3); }
-        .invalid-p3 .circle.filled { background: rgba(239, 68, 68, 0.3); }
-        .invalid-p3 .cell-label { color: rgba(239, 68, 68, 0.4); }
-
-        .x-overlay {
-            position: absolute;
-            inset: 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            pointer-events: none;
-        }
-
-        /* ── Caption ── */
-        .caption {
-            text-align: center;
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            line-height: 1.5;
-        }
-
-        /* ── Legend ── */
-        .legend {
-            display: flex;
-            gap: 1.5rem;
-            justify-content: center;
-            margin-bottom: 1rem;
-            flex-wrap: wrap;
-        }
-
-        .legend-item {
-            display: flex;
-            align-items: center;
-            gap: 0.4rem;
-            font-size: 0.75rem;
-            color: var(--text-muted);
-        }
-
-        .legend-swatch {
-            width: 12px;
-            height: 12px;
-            border-radius: 3px;
-        }
-
-        .empty-state {
-            padding: 1rem;
-            border: 1px dashed var(--border);
-            border-radius: 0.5rem;
-            text-align: center;
-            color: var(--text-muted);
-            font-size: 0.8rem;
-        }
-
-        /* ── Small screens ── */
-        .grid-cell.compact { padding: 0.35rem 0.2rem; }
-        .grid-cell.compact .circle { width: 10px; height: 10px; }
-        .grid-cell.compact .cell-label { font-size: 0.5rem; }
-        .grid-cell.compact .cell-circles { gap: 0.15rem; }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div style="margin-bottom:1rem;">
-            <a href="./#code" style="color:#64748b;text-decoration:none;font-size:0.8rem;display:inline-flex;align-items:center;gap:0.3rem;transition:color 0.2s;" onmouseover="this.style.color='#c4b5fd'" onmouseout="this.style.color='#64748b'">← Back to Code &amp; Demos</a>
-        </div>
-        <header>
-            <h1>Aethic Powerset Invalidation</h1>
-            <p>This tool lets you explore how different detector configurations determine which quantum superpositions are physically valid, using the Second and Third Postulate pruning algorithm.</p>
-            <p style="margin-top:0.5rem;">
-                From <a href="https://philpapers.org/rec/BENARA-5">Aethic Reasoning</a> by Ajax Benander.
-            </p>
-        </header>
-
-        <section>
-            <h2>Number of Slits</h2>
-            <div class="slit-selector" id="slit-selector"></div>
-            <div class="slit-viz" id="slit-viz"></div>
-        </section>
-
-        <section>
-            <h2>Detectors</h2>
-            <div class="detector-list" id="detector-list"></div>
-            <div class="btn-row">
-                <button class="btn btn-add" id="add-detector-btn">+ Add Detector</button>
-                <button class="btn btn-apply" id="apply-btn">Apply Postulates</button>
-                <button class="btn btn-reset" id="reset-btn">Reset</button>
-            </div>
-        </section>
-
-        <section>
-            <div class="legend" id="legend" style="display:none;">
-                <div class="legend-item">
-                    <div class="legend-swatch" style="background:rgba(139,92,246,0.5);"></div>
-                    Valid
-                </div>
-                <div class="legend-item">
-                    <div class="legend-swatch" style="background:rgba(96,165,250,0.4);"></div>
-                    P2 — Unknowing
-                </div>
-                <div class="legend-item">
-                    <div class="legend-swatch" style="background:rgba(239,68,68,0.4);"></div>
-                    P3 — Checkmate
-                </div>
-            </div>
-            <div class="grid-container">
-                <div class="powerset-grid" id="powerset-grid"></div>
-            </div>
-            <p class="caption" id="caption"></p>
-        </section>
-
-        <section style="margin-top:2rem; padding-top:1.5rem; border-top:1px solid var(--border);">
-            <h2>How It Works</h2>
-            <p style="font-size:0.85rem; color:var(--text-muted); line-height:1.7;">
-                Each detector watches some subset of slits (OR logic). Two slits that trigger
-                the exact same set of detectors are <em>observationally indistinguishable</em> and
-                form an equivalence class. The powerset of all slits represents every candidate
-                agreeing superposition. The postulates prune it:
-            </p>
-            <p style="font-size:0.85rem; color:var(--blue); margin-top:0.5rem; line-height:1.7;">
-                <strong>P2 (Second Postulate)</strong> removes subsets that are proper subsets of
-                an equivalence class — they assert a specificity the detectors cannot support.
-            </p>
-            <p style="font-size:0.85rem; color:rgba(239,68,68,0.8); margin-top:0.5rem; line-height:1.7;">
-                <strong>P3 (Third Postulate)</strong> removes subsets spanning multiple equivalence
-                classes — the detectors can distinguish members, creating an accessible contradiction
-                (checkmate).
-            </p>
-            <p style="font-size:0.85rem; color:var(--violet-text); margin-top:0.5rem; line-height:1.7;">
-                <strong>Valid</strong> subsets are the empty set and any subset that exactly matches
-                a full equivalence class.
-            </p>
-        </section>
+<section>
+  <div class="tool">
+    <div class="panel">
+      <div class="ph"><span>Slits</span><span id="slitEcho"></span></div>
+      <div class="pb">
+        <div class="slit-count" id="slitCount" role="group" aria-label="Number of slits"></div>
+      </div>
     </div>
 
-    <script>
-    (function() {
-        const LABELS = ['A','B','C','D','E','F'];
-        let nSlits = 3;
-        let detectors = []; // each: Set of slit indices
+    <div class="panel">
+      <div class="ph"><span>Detectors</span><span>OR logic &mdash; a detector fires if the particle takes any slit it watches</span></div>
+      <div class="pb">
+        <div id="detList"></div>
+        <div class="btn-row">
+          <button class="mini" onclick="addDetector()">+ Add detector</button>
+          <button class="mini ghost" onclick="resetDemo()">Reset</button>
+        </div>
+      </div>
+    </div>
 
-        function saveSlitsToHash() {
-            history.replaceState(null, null, '#slits=' + nSlits);
-        }
-        
-        function loadSlitsFromHash() {
-            var hash = window.location.hash.replace('#', '');
-            if (hash.indexOf('slits=') === 0) {
-                var n = parseInt(hash.split('=')[1], 10);
-                if (!isNaN(n)) {
-                    nSlits = Math.max(2, Math.min(6, n));
-                }
-            }
-        }
+    <div class="panel viz">
+      <div class="ph"><span>Detection screen</span><span id="patternKind"></span></div>
+      <div class="pb">
+        <canvas id="screen" width="760" height="130" aria-label="Simulated detection screen"></canvas>
+        <div class="cap" id="screenCap"></div>
+      </div>
+    </div>
 
-        // ── Initialization ──
+    <div class="panel">
+      <div class="ph"><span>The powerset, classified</span><span>each subset = one candidate agreeing superposition</span></div>
+      <div class="pb">
+        <div class="classline" id="classLine"></div>
+        <div class="pgrid" id="pgrid"></div>
+        <div class="counts3">
+          <div><div class="cn" id="cV">0</div><div class="cl">valid</div></div>
+          <div><div class="cn" id="cP2">0</div><div class="cl">P2 &mdash; unknowing<br>(over-specified)</div></div>
+          <div><div class="cn" id="cP3">0</div><div class="cl">P3 &mdash; checkmate<br>(too broad)</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-        function init() {
-            detectors = [];
-            buildSlitSelector();
-            buildSlitViz();
-            buildDetectorList();
-            buildGrid(null);
-            document.getElementById('legend').style.display = 'none';
-        }
+<section class="tight">
+  <div class="wide" style="max-width:44rem;">
+    <div class="sec-head"><span class="eyebrow">How it works</span><h2>Signatures, classes, pruning.</h2></div>
+    <div class="prose">
+      <p>Each detector watches some subset of the slits, firing if the particle takes any of them. A slit&rsquo;s <strong>signature</strong> is the set of detectors that fire when only it is open; two slits with identical signatures are permanently indistinguishable and form one <strong>equivalence class</strong>. The powerset of the slits is every candidate agreeing superposition, and the postulates sort it into exactly three bins.</p>
+      <p><strong>P2 (the blank rule)</strong> removes any subset that is a proper part of a single class &mdash; it asserts a distinction no possible record could support, so it over-specifies and dies. <strong>P3 (the pruning rule)</strong> removes any subset spanning two or more classes &mdash; a future record <em>can</em> tell those members apart, exposing the maintained coherence as contradictory: checkmate. What survives is the empty set and any subset that exactly matches a full equivalence class. Move a detector and the signatures redraw, re-sorting the entire powerset &mdash; the quantum&ndash;classical boundary as live re-classification. The preferred basis falls out for free: it is the detector-induced partition itself.</p>
+    </div>
+    <div class="hero-cta" style="margin-top:1.6rem;">
+      <a class="btn" href="/aethic-reasoning-guide.html">The full layered guide &rarr;</a>
+      <a class="btn" href="/aethic-code/aethic_invalidation.py">The Python version &rarr;</a>
+    </div>
+  </div>
+</section>
 
-        // ── Slit Selector ──
+<script>
+(function(){
+  let nSlits = 3;
+  let detectors = []; // array of Set(slitIndex)
 
-        function buildSlitSelector() {
-            const el = document.getElementById('slit-selector');
-            el.innerHTML = '';
-            for (let n = 2; n <= 6; n++) {
-                const btn = document.createElement('button');
-                btn.textContent = n;
-                if (n === nSlits) btn.classList.add('active');
-                btn.addEventListener('click', () => { nSlits = n; saveSlitsToHash(); init(); });
-                el.appendChild(btn);
-            }
-        }
+  // ---- hash state ----
+  function saveHash(){
+    // format: n|d0a-d0b_d1a-d1b ... (detectors comma-free, slits dash-joined, detectors underscore-joined)
+    const d = detectors.map(s=>[...s].sort((a,b)=>a-b).join('-')).join('_');
+    const h = nSlits + '|' + d;
+    // replaceState throws SecurityError in null-origin contexts (sandboxed
+    // iframes, some file:// setups); fall back to a plain fragment write,
+    // and if even that is blocked, carry on with in-memory state only.
+    try { history.replaceState(null,'','#'+h); return; } catch(e){}
+    try { if(location.hash !== '#'+h) location.hash = h; } catch(e){}
+  }
+  function loadHash(){
+    const h = decodeURIComponent(location.hash.replace(/^#/,''));
+    if(!h) return false;
+    const parts = h.split('|');
+    const n = parseInt(parts[0],10);
+    if(!(n>=2 && n<=6)) return false;
+    nSlits = n;
+    detectors = [];
+    if(parts[1]){
+      for(const dg of parts[1].split('_')){
+        if(dg==='') { detectors.push(new Set()); continue; }
+        const set = new Set(dg.split('-').map(x=>parseInt(x,10)).filter(x=>x>=0 && x<nSlits && !isNaN(x)));
+        detectors.push(set);
+      }
+    }
+    return true;
+  }
 
-        // ── Slit Visualization ──
+  // ---- core classification ----
+  function signatures(){
+    const sig=[];
+    for(let s=0;s<nSlits;s++){
+      const fired=[];
+      detectors.forEach((set,di)=>{ if(set.has(s)) fired.push(di); });
+      sig.push(fired.join(','));
+    }
+    return sig;
+  }
+  function classesOf(sig){
+    const map={};
+    for(let s=0;s<nSlits;s++){ (map[sig[s]]=map[sig[s]]||[]).push(s); }
+    return Object.values(map);
+  }
+  function classifySubset(sub, sig){
+    if(sub.length===0) return 'valid';
+    const cls=new Set(sub.map(s=>sig[s]));
+    if(cls.size>=2) return 'p3';
+    const c=sig[sub[0]]; let full=0; for(let s=0;s<nSlits;s++){ if(sig[s]===c) full++; }
+    return sub.length===full ? 'valid' : 'p2';
+  }
+  function label(sub){ return sub.length ? sub.map(s=>String.fromCharCode(65+s)).join('') : '\u2205'; }
 
-        function buildSlitViz() {
-            const el = document.getElementById('slit-viz');
-            const w = Math.min(500, el.offsetWidth || 500);
-            const gap = w / (nSlits + 1);
-            const slitW = 28;
-            let svg = `<svg width="${w}" height="110" viewBox="0 0 ${w} 110">`;
-            svg += `<rect x="10" y="18" width="${w-20}" height="74" rx="4" fill="rgba(30,41,59,0.5)" stroke="rgba(100,116,139,0.25)" stroke-width="1"/>`;
-            for (let i = 0; i < nSlits; i++) {
-                const cx = gap * (i + 1);
-                svg += `<rect x="${cx-slitW/2}" y="18" width="${slitW}" height="74" rx="2" fill="rgba(139,92,246,0.12)" stroke="rgba(139,92,246,0.45)" stroke-width="1.5"/>`;
-                svg += `<text x="${cx}" y="60" text-anchor="middle" fill="rgba(167,139,250,0.9)" font-family="monospace" font-size="13" font-weight="600">${LABELS[i]}</text>`;
-                svg += `<line x1="${cx}" y1="6" x2="${cx}" y2="18" stroke="rgba(139,92,246,0.25)" stroke-width="1" stroke-dasharray="3,3"/>`;
-                svg += `<line x1="${cx}" y1="92" x2="${cx}" y2="106" stroke="rgba(139,92,246,0.25)" stroke-width="1" stroke-dasharray="3,3"/>`;
-            }
-            svg += `<text x="${w/2}" y="10" text-anchor="middle" fill="${getComputedStyle(document.documentElement).getPropertyValue('--text-dim')}" font-size="9.5">particle source</text>`;
-            svg += `<text x="${w/2}" y="108" text-anchor="middle" fill="${getComputedStyle(document.documentElement).getPropertyValue('--text-dim')}" font-size="9.5">detector screen</text>`;
-            svg += '</svg>';
-            el.innerHTML = svg;
-        }
+  // ---- render ----
+  function render(){
+    // slit count buttons
+    const sc=document.getElementById('slitCount'); sc.innerHTML='';
+    for(let n=2;n<=6;n++){
+      const b=document.createElement('button'); b.textContent=n;
+      b.setAttribute('aria-pressed', n===nSlits);
+      b.onclick=()=>{ nSlits=n; detectors=detectors.map(set=>new Set([...set].filter(x=>x<nSlits))); update(); };
+      sc.appendChild(b);
+    }
+    document.getElementById('slitEcho').textContent = nSlits + ' slits: ' + Array.from({length:nSlits},(_,i)=>String.fromCharCode(65+i)).join(' ');
 
-        // ── Detector List ──
+    // detectors
+    const dl=document.getElementById('detList'); dl.innerHTML='';
+    if(detectors.length===0){
+      dl.innerHTML='<div style="font-family:var(--mono);font-size:.8rem;color:var(--ink-3);">No detectors &mdash; every path shares one signature, so the full set is the only valid superposition. Pure interference. Add a detector to draw a which-path distinction.</div>';
+    }
+    detectors.forEach((set,di)=>{
+      const d=document.createElement('div'); d.className='det';
+      const watchBtns=Array.from({length:nSlits},(_,s)=>`<button class="wbtn" data-on="${set.has(s)}" data-s="${s}">${String.fromCharCode(65+s)}</button>`).join('');
+      d.innerHTML=`<div class="dl"><span class="dname">Detector ${di+1}</span><button class="drm">remove</button></div><div class="watches">${watchBtns}</div>`;
+      d.querySelector('.drm').onclick=()=>{ detectors.splice(di,1); update(); };
+      d.querySelectorAll('.wbtn').forEach(btn=>{
+        btn.onclick=()=>{ const s=+btn.dataset.s; if(set.has(s)) set.delete(s); else set.add(s); update(); };
+      });
+      dl.appendChild(d);
+    });
 
-        function buildDetectorList() {
-            const el = document.getElementById('detector-list');
-            el.innerHTML = '';
-            if (detectors.length === 0) {
-                el.innerHTML = '<div class="empty-state">No detectors. Click "+ Add Detector" to wire one up, or press Apply to see the unobserved case.</div>';
-                return;
-            }
-            detectors.forEach((det, di) => {
-                const card = document.createElement('div');
-                card.className = 'detector-card';
+    const sig=signatures();
+    const classes=classesOf(sig);
+    document.getElementById('classLine').innerHTML='<b>Indistinguishability classes:</b> '+
+      classes.map(c=>'{'+c.map(s=>String.fromCharCode(65+s)).join(',')+'}').join('  ')+' &nbsp;&mdash;&nbsp; '+classes.length+(classes.length===1?' class':' classes');
 
-                // Header
-                const hdr = document.createElement('div');
-                hdr.className = 'detector-header';
-                const name = document.createElement('span');
-                name.className = 'detector-name';
-                name.textContent = String.fromCharCode(0x03B1 + di) + ' blinks if:';
-                hdr.appendChild(name);
+    // powerset grid
+    const grid=document.getElementById('pgrid'); grid.innerHTML='';
+    let nV=0,nP2=0,nP3=0;
+    const total=1<<nSlits;
+    for(let m=0;m<total;m++){
+      const sub=[]; for(let s=0;s<nSlits;s++){ if(m&(1<<s)) sub.push(s); }
+      const v=classifySubset(sub,sig);
+      if(v==='valid')nV++; else if(v==='p2')nP2++; else nP3++;
+      const cell=document.createElement('div'); cell.className='pcell '+v;
+      const vd = v==='valid'?'valid':(v==='p2'?'P2':'P3');
+      cell.innerHTML='<span class="st">'+label(sub)+'</span><span class="vd">'+vd+'</span>';
+      grid.appendChild(cell);
+    }
+    document.getElementById('cV').textContent=nV;
+    document.getElementById('cP2').textContent=nP2;
+    document.getElementById('cP3').textContent=nP3;
 
-                const summary = document.createElement('span');
-                summary.className = 'detector-summary';
-                summary.textContent = det.size > 0
-                    ? [...det].sort().map(s => LABELS[s]).join(' ∨ ')
-                    : '(none)';
-                hdr.appendChild(summary);
+    drawScreen(sig, classes);
+    saveHash();
+  }
 
-                const rm = document.createElement('button');
-                rm.className = 'btn-remove';
-                rm.textContent = '×';
-                rm.addEventListener('click', () => { detectors.splice(di, 1); buildDetectorList(); });
-                hdr.appendChild(rm);
-                card.appendChild(hdr);
+  function drawScreen(sig, classes){
+    const cv=document.getElementById('screen'), ctx=cv.getContext('2d');
+    const W=cv.width,H=cv.height;
+    ctx.fillStyle='#111'; ctx.fillRect(0,0,W,H);
+    // slit positions centered
+    const pos=Array.from({length:nSlits},(_,i)=> (i-(nSlits-1)/2));
+    const k=0.045, spread=90;
+    let vals=[],max=0;
+    for(let px=0;px<W;px++){
+      const x=px-W/2;
+      let I=0;
+      // incoherent sum over classes of |coherent sum within class|^2
+      classes.forEach(c=>{
+        let re=0,im=0;
+        c.forEach(s=>{ const ph=k*pos[s]*x; re+=Math.cos(ph); im+=Math.sin(ph); });
+        I += re*re+im*im;
+      });
+      const env=Math.exp(-(x*x)/(2*spread*spread));
+      I*=env; vals.push(I); if(I>max)max=I;
+    }
+    for(let px=0;px<W;px++){
+      const I=max>0?vals[px]/max:0;
+      const lum=Math.round(255*I);
+      ctx.fillStyle='rgb('+Math.max(lum, Math.round(60*I))+','+Math.round(lum*0.62)+','+Math.round(lum*0.66)+')';
+      ctx.fillRect(px,0,1,H);
+    }
+    // caption
+    const nClasses=classes.length;
+    let cap, kind;
+    if(nClasses===1){ cap='One class \u2014 every path in a single agreeing superposition. Full interference.'; kind='interference'; }
+    else if(nClasses===nSlits){ cap='Every path in its own class \u2014 no coherence survives. Pure particle pattern.'; kind='particle'; }
+    else { cap=nClasses+' classes \u2014 coherence within each, none across. Partial fringes.'; kind='partial'; }
+    document.getElementById('screenCap').textContent=cap;
+    document.getElementById('patternKind').textContent=kind;
+  }
 
-                // Slit toggles
-                const toggles = document.createElement('div');
-                toggles.className = 'slit-toggles';
-                for (let s = 0; s < nSlits; s++) {
-                    const btn = document.createElement('button');
-                    btn.className = 'slit-toggle' + (det.has(s) ? ' on' : '');
-                    btn.textContent = LABELS[s];
-                    btn.addEventListener('click', () => {
-                        if (det.has(s)) det.delete(s); else det.add(s);
-                        buildDetectorList();
-                    });
-                    toggles.appendChild(btn);
-                }
-                card.appendChild(toggles);
-                el.appendChild(card);
-            });
-        }
+  window.addDetector=function(){ detectors.push(new Set()); render(); };
+  window.resetDemo=function(){ nSlits=3; detectors=[]; render(); };
+  function update(){ render(); }
 
-        // ── Core Algorithm ──
-
-        function classify() {
-            const total = Math.pow(2, nSlits);
-
-            // Step 1: Signatures
-            const signatures = [];
-            for (let s = 0; s < nSlits; s++) {
-                const sig = detectors.map(det => det.has(s)).join(',');
-                signatures.push(sig);
-            }
-
-            // Step 2: Equivalence classes
-            const classMap = {};
-            for (let s = 0; s < nSlits; s++) {
-                if (!classMap[signatures[s]]) classMap[signatures[s]] = [];
-                classMap[signatures[s]].push(s);
-            }
-            const eqClasses = Object.values(classMap);
-
-            function isExactClass(slitSet) {
-                return eqClasses.some(cls => {
-                    if (cls.length !== slitSet.length) return false;
-                    const a = slitSet.slice().sort();
-                    const b = cls.slice().sort();
-                    return a.every((v, i) => v === b[i]);
-                });
-            }
-
-            function isWithinOneClass(slitSet) {
-                if (slitSet.length === 0) return true;
-                const first = signatures[slitSet[0]];
-                return slitSet.every(s => signatures[s] === first);
-            }
-
-            // Step 3: Classify
-            const results = [];
-            for (let i = 0; i < total; i++) {
-                const bits = [];
-                for (let b = nSlits - 1; b >= 0; b--) bits.push((i >> b) & 1);
-                const active = [];
-                bits.forEach((b, j) => { if (b) active.push(j); });
-
-                let status;
-                if (active.length === 0) status = 'valid';
-                else if (isExactClass(active)) status = 'valid';
-                else if (isWithinOneClass(active)) status = 'p2';
-                else status = 'p3';
-
-                results.push({ bits, active, status });
-            }
-
-            return { results, eqClasses };
-        }
-
-        // ── Grid Renderer ──
-
-        function buildGrid(data) {
-            const grid = document.getElementById('powerset-grid');
-            const caption = document.getElementById('caption');
-            const total = Math.pow(2, nSlits);
-            const cols = total <= 8 ? 4 : total <= 16 ? 4 : 8;
-            const compact = nSlits >= 5;
-
-            grid.style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
-            grid.innerHTML = '';
-
-            for (let i = 0; i < total; i++) {
-                const bits = [];
-                for (let b = nSlits - 1; b >= 0; b--) bits.push((i >> b) & 1);
-                const active = bits.map((b, j) => b ? LABELS[j] : null).filter(Boolean);
-                const label = active.length === 0 ? '∅' : '{' + active.join(',\u2009') + '}';
-
-                const status = data ? data.results[i].status : 'valid';
-                const cell = document.createElement('div');
-                cell.className = 'grid-cell ' + (status === 'valid' ? 'valid' : status === 'p2' ? 'invalid-p2' : 'invalid-p3');
-                if (compact) cell.classList.add('compact');
-
-                // Circles
-                const circles = document.createElement('div');
-                circles.className = 'cell-circles';
-                bits.forEach(bit => {
-                    const c = document.createElement('div');
-                    c.className = 'circle' + (bit ? ' filled' : '');
-                    circles.appendChild(c);
-                });
-                cell.appendChild(circles);
-
-                // Label
-                const lbl = document.createElement('div');
-                lbl.className = 'cell-label';
-                lbl.textContent = label;
-                cell.appendChild(lbl);
-
-                // X overlay for invalid
-                if (data && status !== 'valid') {
-                    const x = document.createElement('div');
-                    x.className = 'x-overlay';
-                    const sz = compact ? 20 : 28;
-                    const col = status === 'p2' ? 'rgba(96,165,250,0.5)' : 'rgba(239,68,68,0.5)';
-                    x.innerHTML = `<svg width="${sz}" height="${sz}" viewBox="0 0 28 28"><line x1="5" y1="5" x2="23" y2="23" stroke="${col}" stroke-width="1.5"/><line x1="23" y1="5" x2="5" y2="23" stroke="${col}" stroke-width="1.5"/></svg>`;
-                    cell.appendChild(x);
-                }
-
-                grid.appendChild(cell);
-            }
-
-            // Caption
-            if (!data) {
-                caption.textContent = `All ${total} elements of the powerset. Add detectors and press Apply to see the postulates in action.`;
-            } else {
-                const v = data.results.filter(r => r.status === 'valid').length;
-                const p2 = data.results.filter(r => r.status === 'p2').length;
-                const p3 = data.results.filter(r => r.status === 'p3').length;
-                const eqStr = data.eqClasses.map(cls =>
-                    '{' + cls.map(s => LABELS[s]).join(',') + '}'
-                ).join(', ');
-                caption.textContent = `Reduced form: ${v} valid, ${p2} pruned by P2 (unknowing), ${p3} pruned by P3 (checkmate). Equivalence classes: ${eqStr}.`;
-            }
-        }
-
-        // ── Wire Up ──
-
-        document.getElementById('add-detector-btn').addEventListener('click', () => {
-            detectors.push(new Set());
-            buildDetectorList();
-        });
-
-        document.getElementById('apply-btn').addEventListener('click', () => {
-            const data = classify();
-            buildGrid(data);
-            document.getElementById('legend').style.display = 'flex';
-        });
-
-        document.getElementById('reset-btn').addEventListener('click', init);
-
-        loadSlitsFromHash();
-        init();
-    })();
-    </script>
-</body>
-</html>
+  // init
+  if(!loadHash()){ nSlits=3; detectors=[new Set([0])]; }
+  render();
+  window.addEventListener('hashchange',()=>{ if(loadHash()) render(); });
+})();
+</script>
