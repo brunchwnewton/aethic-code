@@ -2,12 +2,21 @@
 
 ## 0. What this document is, and how to read it
 
-This is the analytical provenance companion to the verbatim conversation export
+This is the analytical provenance companion to **two** verbatim conversation
+exports, the author's two Claude conversations of this project in sequence. The
+main export,
 *AI-use provenance record — Aethic reasoning and counterfactual implications*
 (1,697 messages, 2026-06-12T18:43 UTC through 2026-07-24T22:08 UTC; thread SHA-256
 `ce14c407d43d22a96b402b3b9db463268605a76f5a966412d6ee460c446674eb`; source export
 `conversations.json` SHA-256
-`81b2529c489fc9ab041b4e40535d86a5c524881c08e493890dc693b245f7b161`). The export is the
+`81b2529c489fc9ab041b4e40535d86a5c524881c08e493890dc693b245f7b161`), covers the
+Aethic/Nexic corpus collaboration and is what the arc analysis below cites by
+message number. The identity export, *Ajax Benander identity* (246 messages,
+2026-06-11T01:54 UTC through 2026-06-12T19:08 UTC; thread SHA-256
+`8c49b57c6cc3425a56e07daa0472324d5bbff83bb05663323e721f89e4583eb5`; same source
+archive as the main export, record generated 2026-07-25), covers the
+conversation the author designates as the very first, directly preceding the
+main thread --- Arc 0 below. The export is the
 **primary source**: every message in it carries an individual SHA-256, so every claim
 below that cites a message number (written `#N`) can be checked against attested text.
 This document is the **secondary analysis**: an accounting of who contributed what,
@@ -90,17 +99,71 @@ cite their extractions).
 
 ## 3. Arc-by-arc provenance
 
+### Arc 0 — The identity conversation (11–12 June 2026; the identity export's #1–#246)
+
+The conversation the author designates as the very first, directly preceding the
+main thread --- and overlapping its opening hour, running until 2026-06-12T19:08
+UTC against the main thread's 18:43 start. It opens (identity-export #1) with the question ``Who is Ajax Benander?'' and
+becomes, across 246 messages, the first technical engagement with the framework
+--- the conversation in which the division of labor that governs everything
+after was first rehearsed. Concretely, from the export:
+
+- **Author clarifications correcting model readings of his own text.** When the
+  model reported an inconsistency in the disagreeing-superposition treatment,
+  the author identified it as ``just you misunderstanding the centric unfolding
+  concept'' and supplied the correct reading (#9–#11): the time-travel thought
+  experiments (Zoe, Jenny, the Battle of Brémule) are \emph{illustrative} of
+  the extrusion principle --- past events in superposition within a block
+  universe, centric unfolding determining their state --- not independent
+  mechanisms. When the model developed a criterion problem about memory
+  retention, the author introduced the distinction doing the real work: Aethic
+  truth versus Protagorean truth/knowledge --- ``the latter is the memories,
+  the former is metaphysically distinct... its own axiomatic layer established
+  by and for the first postulate'' (#13). Both are cases of the author
+  supplying conceptual structure the model's reading had missed; the model's
+  contribution was pressing the objections that forced the articulation.
+- **Model literature-placement of the author's independently derived concepts.**
+  The conversation's model turns mapped framework ideas onto their literature
+  counterparts by name --- the indexical character of actuality and
+  counterpart-style identity (Lewis), the proper/improper mixture distinction
+  (d'Espagnat), pure versus mixed states derived from first principles before
+  the author knew the terminology, and the two-layer causal structure
+  (Spekkens) --- convergences the model articulated precisely and the author
+  had reached in isolation (#100 and surrounds).
+- **Editorial execution under author direction, the author's voice preserved.**
+  A representative exchange (#97–#98): the author rules on placement of a
+  sentence in his own origin narrative --- ``that's supposed to go right after
+  the curtain of reality line, otherwise it sounds like a hedge'' --- and the
+  model repositions his wording (``hit me like a bullet in a single instant'')
+  unchanged, an early instance of the author's-prose-is-the-spine convention
+  before it had a name.
+
+The identity conversation predates every convention the later record documents
+--- no pass ledger, no referee process, no VERIFY flags, no count-guarded edits,
+no provenance headers; the discipline documented in the arcs below was built,
+not assumed, and this export preserves the collaboration's shape before it
+existed.
+
 ### Arc I — Foundations and first editing rounds (12 June; #1–~#80)
 
-Author: the manuscript itself; the reading program (#1, #3); immediate substantive
-corrections of the model — notably at #3, where the model's claimed *divergence* from
-Spekkens on causality was corrected by the author to a *convergence*, which the model
-then verified and retracted; the semiring reform program (#7: dropping the
-Aethic-subtraction apparatus, constructing the tree as a semiring from the start —
-the author's decision, including the historical note that the ring section predated
-his own settled position); the validity-equivalence distinction and the retirement of
-his own earlier vocabulary (#11, explicitly dating his opaque/translucent concepts as
-two-year-old superseded formalization attempts). Model: the literature mapping; the
+Author: the manuscript itself; the reading program (#1, #3); and immediate
+substantive corrections of the model, two worth unpacking as the pattern's first
+instances. At #3, the model had claimed the framework *diverged* from Spekkens on
+causality; the author corrected this to a *convergence* and directed the model to
+"look up and read about Spekkens's causality papers" — the model searched,
+verified, and retracted, the first documented case of an author correction
+overturning a model's literature claim. At #7, the author made an architectural
+decision with his reasoning stated: the Aethic-subtraction apparatus should be
+dropped because he had since "settled on the idea of dropping negative values
+from the Aethic tree altogether to maintain the ability for invalid Aethae to be
+inequivalent/unique labels," proposing max(A,B) − min(A,B) or |A − B| to
+preserve the disjointness seed-idea, and directing that the ring section be
+softened "to instead construct the Aethic tree as a semiring from the get-go"
+— the decision that fixed the corpus's algebraic signature, with the model then
+executing the monus and semiring reform rounds. At #11 he retired his own earlier
+vocabulary (the opaque/translucent concepts, explicitly dated as two-year-old
+superseded formalization attempts) and commissioned the validity-equivalence
+distinction. Model: the literature mapping; the
 first insertion rounds (nine blocks, changelog, bib entries); an early ~9,700-word
 paper draft (#7–#8 region); and two *logged model errors* from this arc — a negativity
 proposal the author's semiring constraint refuted, and a theorem the model itself
@@ -115,7 +178,12 @@ markers planted; the extrusion-principle rebrand executed; an extended series of
 author-driven corrections to placement, citations, meta-narration, and overclaiming
 (the transcripts log each). The aethic_editor harness: architecture and code
 model-built; specification, operation, and all live runs the author's, on his machine
-with his keys. Provenance-detection and importance-tiering of the paper's own text —
+with his keys. A representative content exchange of this span (#59): the author
+supplied his EPR resolution --- preferred-foliation based, locality as corollary
+--- as a snippet from another paper of his own, directing near-verbatim
+integration as a new subsubsection with the caution ``be extra careful about the
+citations'': author content and author positioning, model installation and
+citation verification. Provenance-detection and importance-tiering of the paper's own text —
 i.e., the corpus's first machine-assisted provenance bookkeeping — date from here.
 
 ### Arc III — The Fable campaign on the long paper (early July; passes 1–~388)
@@ -137,8 +205,10 @@ theory is the author's program (his resolve vocabulary and its gradient appear f
 binding-modes criterion (Definition 1), Lemma 1, Proposition 1, and the corollaries
 were model-drafted from that program and the author's conversational direction, then
 run through referee rounds. **The Nexic campaign:** the Accordance Principle and the
-anthropic framework are the author's pre-existing manuscripts (#179 and the Nexic
-project files); the enhancement passes (theorem proofs, tier structure, differentia
+anthropic framework are the author's pre-existing manuscripts --- at #179 he points
+the model to its source directly: ``The accordance principle comes from my Nexic
+reasoning document... if you want to familiarize yourself with it some more for
+context'' --- the enhancement passes (theorem proofs, tier structure, differentia
 section) are model-drafted under author direction. Papers 5 and 6 drafted as
 extractions, referee-processed.
 
@@ -168,19 +238,33 @@ verbatim mechanism messages.
 The best-documented arc, and the one whose provenance is already audited at section
 level (session report §7b; boundary paper preamble and rendered note). The division:
 
-**Author-originated, with export anchors:** the commission to integrate determinate
-nodes by name and to write out the Nexus assembly integral (#1635); the
-V-versus-D "theft" question with the counterpart-class framing — whether toggling the
-leak switches *between counterpart classes* rather than modulating one counterpart
-(#1641); the region-diameter dial, the whole-Bloch-sphere blank limit
-("everything works as valid"), the joint-intersection third-factor construction, and
-the C→0 blank-limit consistency condition (#1643); the request to bring the long's
-proper/improper mixture discussion up to date (#1645); the sequencing observation —
-the "any" pre-shackled by joint-validity constraints, pre-analyzer to post-analyzer
-(#1651); the subset-graded powerset lattice proposal for n-slit D and the
-mathematical-induction hypothesis (#1653); the centroid-as-establishing-object move
-and the salvage-the-structures directive (#1657); and the commission to work the
-route in full (#1659).
+**Author-originated, with export anchors and the key passages unpacked:** the
+commission to integrate determinate nodes by name and to write out the Nexus
+assembly integral (#1635). The V-versus-D "theft" question with the
+counterpart-class framing (#1641) — whether toggling the leak *steals from* D or
+switches *between counterpart classes*, a question the author posed and the
+model's leak computations then answered (the marker-coupled distinguishability is
+exactly invariant). The physical conception behind the region dial, in the
+author's own words (#1643): a leak might "always be expressible as... creating a
+kind of measurement error in the tags themselves, such that the polarizer
+determinate nodes are not perfect pinpoints on the Bloch sphere, but rather
+spread out regions of arbitrarily-short regional diameter... practically speaking
+this is what I imagine the determinate nodes to look like" — with the
+whole-sphere limit as the blank case and the joint-intersection third factor
+alongside; the model formalized this as the two-dial mixture treatment with the
+C→0 consistency check. The request to bring the long's proper/improper mixture
+discussion up to date (#1645). The sequencing observation (#1651): the "any"
+pre-shackled by joint-validity constraints, pre-analyzer to post-analyzer. The
+method statement at #1653, which set the derivation's ground rules: the author
+asked to see the standard definition of D "so I know what to riff off of,"
+registered a reservation about the centroid's ontological standing while
+accepting its equivalence, raised the triple-slit question (is D even standardly
+defined there?), and proposed the subset-graded powerset lattice with the
+mathematical-induction hypothesis for the n-slit case. And the directive that
+named the whole approach (#1657): "we should, as usual, salvage the existing
+mathematical structures but place the first principles where ideal" — the
+centroid as establishing object — followed by the commission to work the route
+in full (#1659).
 
 **Model-drafted:** the Englert pedagogy and gap itemization; the leak-geometry
 computations and their framework translations; the standard-D chain
@@ -238,15 +322,27 @@ both then retracted by the reviewer*: a collapse two-liner that proved nothing
 claim that silently dropped a non-negativity rider; the paper's header now carries
 a reviewer-error log with the same visibility as drafting errors --- a convention
 this arc established. (iv) *The author's repair, and its small wobble*: the
-author's child/proper-child disambiguation (multiplicative childhood versus
-additive segment with natively strict weights) killed a three-round vacuity
+author's child/proper-child disambiguation --- in his words, a child is ``something
+which you get by multiplying a new'' state in, while a proper child ``is
+specifically a segment from the linear combination,'' weights strictly between
+their totals and zero ``that way, intuitively it's like a segment for which we
+can add back the remainder,'' with the containment fact (all proper children are
+children) stated alongside --- killed a three-round vacuity
 family at its actual root --- the strongest single repair in the paper's history,
 so classified in the header as author-originated --- while its strict upper bound
 was review-repaired for non-dense weight types, closed at the top and flagged for
 the author's sign-off.
 
-**The arc's operative conclusion, quoted from the final report because it is the
-record's most precise statement of the same-family limit**: across five rounds
+**The arc's closing tally (seven rounds, per the final reports)**: findings
+originated in the source span (one), the drafting (several), the review (five,
+counting the seventh round's review-adjacent tension between a review fix and
+adjacent retained text; two verdict-relevant, the rest phrasing-level, each
+ratified into a draft before retraction or repair), and the author's repair
+(one, mild) --- the reviewer the most
+frequent source in the last three rounds even as findings shrank from
+verdict-flippers to phrasing, which the report itself calls the strongest
+argument the log makes for the independent hour. **The mid-arc statement of the
+same-family limit, quoted because it is the record's most precise**: across five rounds
 ``errors have originated in the source manuscript, the drafting, the reviewer
 twice --- both times ratified into the text by the next draft --- and now, mildly,
 in the author's own repair. Every party in the loop has generated at least one...
@@ -354,8 +450,9 @@ disagree, his amendment governs and should be committed alongside.
   they audit; the boundary's four-round series and the act-robustness series both
   travel to the human gate.
 - Deposits: the boundary paper to PhilArchive; the session report and this record
-  to the author's public repository with Wayback Machine snapshots; the export
-  likewise, its hashes binding this document's citations to fixed text.
+  to the author's public repository with Wayback Machine snapshots; both exports
+  likewise, their hashes binding this document's citations to fixed text
+  (identity-export `#N` references are marked as such throughout).
 
 *Record generated 24 July 2026 and updated the same date through the Paper-8 arc
 (pass ledger through 513), within the collaboration it describes; the Paper-8 arc
