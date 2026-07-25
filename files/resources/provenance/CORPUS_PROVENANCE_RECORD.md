@@ -333,12 +333,61 @@ so classified in the header as author-originated --- while its strict upper boun
 was review-repaired for non-dense weight types, closed at the top and flagged for
 the author's sign-off.
 
-**The arc's closing tally (seven rounds, per the final reports)**: findings
-originated in the source span (one), the drafting (several), the review (five,
-counting the seventh round's review-adjacent tension between a review fix and
-adjacent retained text; two verdict-relevant, the rest phrasing-level, each
-ratified into a draft before retraction or repair), and the author's repair
-(one, mild) --- the reviewer the most
+**The arc's close: the author's two rulings.** The review left exactly two
+architectural decisions to the author, and both were ruled and installed. The
+interval ruling: proper-child weights run to the total inclusive, deducible by
+contradiction from the condition that a state be its own proper child --- the
+author's ruling-out argument, recorded as motivation. The clash-grade ruling,
+the deeper of the two: all invalidity in the construction is label-grade ---
+invalid states are ``perfectly consistent with the graph itself,'' passively
+tagged; intrinsic clashes are stipulated tags, contingent in kind (``this apple
+is red all over'' against ``green all over,'' not $1=0$), not logical
+falsehoods; the consistency postulate operates over $T$, deducing tags from
+tags; and reality ``extracts'' at the end by disallowing centric unfolding into
+tagged cases --- the author's backend/frontend architecture, under which $T$
+remains fully well-defined however the tags are placed while the frontend reads
+it, with the phenomenological law of noncontradiction itself derived from the
+arrangement: the existing mystery, in the author's phrase, buried deeper into
+formal ontology. The ruling reshaped Definition 1 (multiplication total, tagged
+combinations standing rather than collapsing) and simplified the associativity
+argument --- an author decision resolving a tension two reviewer rounds had
+circled without authority to settle.
+
+**The arc is closed.** The review's final statement, recorded here because it is
+the precise form of the record's purpose: the mathematics that has been
+*checked* checks --- Definitions 1--5 under both author rulings, the
+equivalence-relation machinery, the fixed-point lemma, the layered no-ring
+argument, the worked example in all four regimes --- and the mathematics that
+has *not* been checked is exactly the six booked obligations plus Hypothesis
+(D)'s discharge, honestly inventoried, with tag-extra-deductivity the fourth
+stipulated axiom. Nothing is silently assumed. Across twelve rounds, errors
+originated in the source, the drafting, the review (five times, twice ratified
+by the review's own subsequent pass), and once, mildly, in an author repair;
+the finding rate fell to zero on new mathematics only in the final two rounds
+--- which, in the review's own closing words, is the best evidence available
+that the draft is stable, and no evidence at all that it is correct, because
+the loop's blind spots are shared across every pass. Two register items
+(pre-ruling vocabulary in the abstract's opening and §2's closing idiom) are
+flagged for the author's copyedit, deliberately not review-triggering. The
+independent algebraist's afternoon --- §4.1's four stipulations, Definitions 1
+and 3--5, §7(a)--(c), the six bookings --- is the step this record was built to
+enable, and the review's last instruction is the record's operative one: send
+it out.
+
+**The arc's closing tally (eleven rounds, closed with the author's two rulings
+verified sound --- the clash-grade ruling judged by the review the best
+architectural decision in the paper since the segment definition, its one
+unpropagated consequence [tag-blind closure] settled and inventoried as a
+stipulation on the consequence relation itself; zero errors found in the new
+mathematics across the final two rounds)**:
+findings
+originated in the source span (one), the drafting (several), the review (six reviewer-originated items
+across nine rounds --- the fifth a missing zerosumfreeness stipulation, the
+sixth the residue rider's inertness under the review's own order stipulation,
+each discovered only when a later reviewer install rubbed against earlier
+reviewer framing; two verdict-relevant, the rest structural or phrasing-level,
+each ratified into a draft before retraction or repair), and the author's
+repair (one, mild) --- the reviewer the most
 frequent source in the last three rounds even as findings shrank from
 verdict-flippers to phrasing, which the report itself calls the strongest
 argument the log makes for the independent hour. **The mid-arc statement of the
