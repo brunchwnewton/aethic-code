@@ -207,6 +207,56 @@ the model's own executed layer (§5 below).
 (options A/B/C on the mode quantifier) and the M2 quantum-wing bridge-lemma
 commission.
 
+### Arc VIII — Paper 8, the algebra face, and the symmetric error record (post-export; pass-ledger anchors 508–513)
+
+**Scope note first**: this arc postdates the hashed export's window (which closes
+2026-07-24T22:08 UTC), so its claims anchor to the pass ledger (passes 508–513), to
+the paper's own in-file audit trail, and to the referee reports the author holds
+verbatim; a refreshed export at the next deposit will extend the hash-attested
+record over it.
+
+**The commission and source**: the author commissioned Paper 8 as the canonical
+``algebra face'' complementing the counterfactual extraction's modal face,
+extracting the long manuscript's weighted-formulation section --- the author's
+two-layer construction, dated May 16, 2026 in his own provenance footnote --- with
+substance kept intact and vocabulary converted to the neutral idiom.
+
+**The five review rounds, and why this arc is the corpus's most complete provenance
+exhibit**: errors originated in *every* party of the loop, and each is logged.
+(i) *Source-manuscript errors, faithfully extracted*: the piecewise
+multiplication declaration (distributivity fails --- referee counterexample) and a
+flawed uniqueness proof, both sitting in the long's author-with-ai-passages span;
+byte-verified against the source before concession. (ii) *Drafting errors*: an
+order-relation miswiring introduced in extraction, abstract overclaims, a third
+recurrence of the fallback-bibliography bug, one garbled install self-caught
+pre-delivery --- and a provenance mislabel in the *flattering* direction (a
+review-proposed construction labeled ``drafting-original''), the mirror image of
+the earlier false-provenance item, corrected with the admission in the header.
+(iii) *Reviewer errors, twice, both ratified into the text by the next draft and
+both then retracted by the reviewer*: a collapse two-liner that proved nothing
+(its conclusion held between already-congruent states) and a structural-forcing
+claim that silently dropped a non-negativity rider; the paper's header now carries
+a reviewer-error log with the same visibility as drafting errors --- a convention
+this arc established. (iv) *The author's repair, and its small wobble*: the
+author's child/proper-child disambiguation (multiplicative childhood versus
+additive segment with natively strict weights) killed a three-round vacuity
+family at its actual root --- the strongest single repair in the paper's history,
+so classified in the header as author-originated --- while its strict upper bound
+was review-repaired for non-dense weight types, closed at the top and flagged for
+the author's sign-off.
+
+**The arc's operative conclusion, quoted from the final report because it is the
+record's most precise statement of the same-family limit**: across five rounds
+``errors have originated in the source manuscript, the drafting, the reviewer
+twice --- both times ratified into the text by the next draft --- and now, mildly,
+in the author's own repair. Every party in the loop has generated at least one...
+[independent review of the live definitions] is no longer merely advisable before
+the next revision --- it's the only step that breaks the pattern the log now
+documents.'' The live surface at close: the proper-child/proper-state/reduced-form
+definitions, one weighted-layer paragraph, and the deletion convention --- an
+afternoon for an independent algebraist, and the single highest-priority item for
+outside human checking in the corpus.
+
 ## 4. Deliverables and their provenance in one line each
 
 - **The long Aethic manuscript**: the author's, pre-existing; collaboration
@@ -227,6 +277,10 @@ commission.
 - **The distinguishability session report**: model-written program record with the
   author's contributions credited inline; referee-corrected across four rounds.
 - **The aethic_editor harness**: model-built, author-operated.
+- **Paper 8 (the weight algebra)**: the author's May-2026 two-layer construction,
+  extracted and vocabulary-converted by the model; five review rounds with the
+  complete four-party error record above; the paper's header carries its own
+  per-artifact audit trail including the corpus's first reviewer-error log.
 - **This document and the conversation export**: export machine-generated from the
   official data archive by the author's tooling; this analysis model-written,
   author-reviewable.
@@ -258,6 +312,14 @@ supplied them, since relabeled as drafting-model recollection.
 paragraph landing inside a %-comment, caught by refusing a render-probe zero); a
 PASS-printed-without-write (an edit reported successful whose file write never
 executed, caught the same way); assorted anchor and regex misfires, each logged.
+
+**Reviewer errors, logged with equal visibility** (the Paper-8 arc's addition to
+the record): two review-proposed claims drafted into the text and refuted by the
+subsequent review --- the collapse two-liner and the totalization claim --- plus a
+review-proposed repair clause that jointly produced a definitional vacuity; the
+convention that reviewer errors are logged beside drafting errors, in the
+artifact's own header, dates from this arc and is itself part of the corpus's
+provenance apparatus now.
 
 **Author positions revised in discussion** (the loop runs both ways, and honesty
 requires saying so): e.g., the bisector-versus-straddle geometry at #1651 (the
@@ -295,6 +357,10 @@ disagree, his amendment governs and should be committed alongside.
   to the author's public repository with Wayback Machine snapshots; the export
   likewise, its hashes binding this document's citations to fixed text.
 
-*Record generated 24 July 2026, within the collaboration it describes; subject to
-the author's amendment and the independent human review that no document in this
-corpus replaces.*
+*Record generated 24 July 2026 and updated the same date through the Paper-8 arc
+(pass ledger through 513), within the collaboration it describes; the Paper-8 arc
+postdates the hashed export's window and should be covered by a refreshed export
+at the next deposit; subject throughout to the author's amendment and the
+independent human review that no document in this corpus replaces --- with the
+Paper-8 definitions named, by the review process itself, as where that review
+should begin.*
