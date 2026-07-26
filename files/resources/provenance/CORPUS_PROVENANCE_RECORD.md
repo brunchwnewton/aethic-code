@@ -374,6 +374,96 @@ and 3--5, §7(a)--(c), the six bookings --- is the step this record was built to
 enable, and the review's last instruction is the record's operative one: send
 it out.
 
+**A cross-branch audit after the close.** The author then ran the newest frozen
+draft past an earlier branch of the same reviewer family --- fresh eyes with no
+investment in the later rounds' repairs. The branch independently confirmed the
+refutation of its own descendant's collapse two-liner (``I confirm and own''),
+verified the rulings-era mathematics end to end, and produced four findings:
+a genuine closure gap (the all-statements state was guaranteed in $U$ by
+nothing --- repaired by an explicit fourth adjunction clause with both
+identities verified); an ontology/prose seam (the deletion idiom of §1 and of
+the physics-face companion reconciled to the tag architecture as the
+realization-excluded reading); a scope clause the tag-blindness commitment
+forces on Hypothesis (D) (``classical consequence'' = the disjointness-excised
+positive fragment, whose Lindenbaum algebra remains distributive); and a ledger
+gap in the review's own favor (the least-orientation error, review-proposed and
+review-corrected, added to the header list for symmetry). The branch also
+demanded --- correctly --- that ledger items be channel-taggable and the
+author's rulings pinned to dated communications (both are: this record and the
+session exports are the pins), and that the sibling deposit codes be evidenced
+rather than trusted (they are: author-supplied from the site's paper directory,
+a dated communication, with the header now saying the gate should still click
+each URL). Its closing caveat completes the record's argument: a loop now
+auditing the auditor remains the same family, and the independent hour goes
+first to the dated communications and the live deposit records.
+
+**A post-freeze author simplification.** After the review's close, the author
+identified that the quotient's first case --- last-common-ancestor
+factorization, glossed since the May formulation as preventing double-counting
+--- is no imposition at all: with multiplication on $T$ the bilinear extension
+of $U$'s, the clause's right side evaluates to its left (basic factoring, the
+ancestor extracted once as a common factor), the double-counting gloss being a
+first-day fossil that outlived the next day's formalism repair. Both papers now
+carry the factorization as a derived identity, the quotient shrunk to the
+same-state clause plus zero-term deletion, with the dividend recorded: the
+normal-form/coefficient lemma reduces toward collect-like-terms bookkeeping and
+the congruence obligation eases. Author-originated, mathematics-simplifying,
+and post-freeze --- flagged for the independent hour's list, whose target it
+changes by making it smaller. The verification round on this simplification
+then produced the arc's largest single contraction: $M$ stipulated a
+commutative semiring with unit, whereupon the multiplication congruence
+discharged in four lines with no appeal to (D) anywhere in the check (an
+earlier draft had booked it under (D), an older one waved it through --- both
+wrong sizes, as the paper now says on its face); $T$ identified as the monoid
+semiring $M[U]$, turning normal forms and coefficients into citations; (D)'s
+footprint reduced to the single consumer coarsest-solution existence; and the
+containment's finite case discharged through the identity. The review's own
+summary of the shift is the record's: this round's checkable mathematics
+mostly discharges obligations rather than booking them, concentrating what
+remains unverifiable almost entirely in this record --- exactly where one
+human hour can audit it. One calibration note the review itself supplied at
+the arc's end, recorded because it is the record's thesis in miniature: the
+first round with zero mathematical errors in fresh material also revealed that
+the review's clean-round verdicts carry error bars --- a stale pointer missed
+for a full round --- which cuts both ways: the loop is converging, and it is
+still a loop.
+
+**The author-layer arc (the pins and rulings, post-export).** The rounds after
+the review's calibration note moved the author layer --- the exact content this
+record exists to pin, recorded here with one honesty note up front: these
+communications post-date the hashed main export (which closes 2026-07-24), so
+**the export must be refreshed before the push** for the pins below to be
+message-number-checkable; until then they pin to this session's continuation.
+The decisions, in sequence: Pin 1, the generator set of the invalidity
+congruence --- standing as the review's default with the author's override
+window reserved, and marked exactly so in the paper's header. Pin 2, the
+``nonzero'' reading --- the author ruled \emph{modulo} the measure-zero class,
+with the semantics stated in his words: measure-zero carriers are not
+invalidated, they ``simply fail to be visible to the third postulate's
+recursive condition,'' unable to come to the aid of preventing invalidity ---
+and alongside it his quotient formulation (``the removal of invalid states is
+just quotienting by validity equivalence,'' states themselves not valued by
+it, which is why tags stand short of the quotient), installed at the
+translation note and subsequently pinned by review refutation to the
+\emph{generated} congruence reading, the two-block alternative being provably
+no congruence. The quantum-logic ruling: the framework imports quantum
+mechanics' time-aspect ontology and strictly not quantum logic's
+nonclassicality, whose generator is the agreeing superposition written into
+the logic as a connective --- span-reading disjunction --- where the framework
+carries agreeing superpositions as content, not connectives. The measure-zero
+class axioms (review-supplied under Pin 2, then superseded): Pin 3, the
+author's further ruling, made visibility \emph{relative} --- ``the third
+postulate ignores anything measure-zero relative to anything else there'' ---
+from which the drafting supplied a magnitude-preorder formalization (flagged
+for verification in the paper itself), with two dividends: the
+multiplicative-absorption question is answered by scale-covariance rather
+than left open, and the exotic-measure probability question is settled ---
+$M$-valued probability is framework-native, the postulate consuming only
+internal comparisons, the $M \to \mathbb{R}_{\geq 0}$ homomorphism surviving
+solely as the empirical contact point. Every item above is channel-tagged in
+the paper's header blocks [R5]--[R8]; the author's words quoted here are from
+the dated session continuation awaiting export refresh.
+
 **The arc's closing tally (eleven rounds, closed with the author's two rulings
 verified sound --- the clash-grade ruling judged by the review the best
 architectural decision in the paper since the segment definition, its one
