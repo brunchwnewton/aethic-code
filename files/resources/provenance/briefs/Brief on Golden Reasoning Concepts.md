@@ -76,7 +76,7 @@ Anyways yes, please ask me if you have any other questions, and then let's write
 
 I should also mention by the way what my intuition for this is that the Pre-versus-Golden split is in practice technically more of a split along “getting arbitrarily close to Golden via some small threshold”. Hence, the difference between a Practical Golden Biosphere and an Ideal Golden Biosphere. The Practical Golden Biosphere is what Golden reasoning assumes our descendants will be within any substantial futures in which we even have descendents around still\! 
 
-## Written up through at 4:09 AM EST, August 1, 2026
+## Written up through at 4:09 PM EST, August 1, 2026
 
 Ok yeah so now the fact that we have our model and categories is fantastic, but it also means I kind of want to try taking it up a notch, and so how much of the specific nature of the mu, etc, remains is part of the question for right now\!  
 Basically the two things that need to give in the model in order to fit my original intuition are the following. 
@@ -87,3 +87,7 @@ Basically the two things that need to give in the model in order to fit my origi
     * So the irony for “Nick Beckstead”’s version of longtermism is that by arguing against helping Africa we deduce from Golden reasoning that he’s arguing for a strict half life on human existence by means of our increase in technostrength spiking our internal danger. 
 
 Hopefully this is helpful clarification at all? Thanks\!
+
+## Written up through at 4:48 PM EST, August 1, 2026
+
+A couple of things I want to point out though is that, like, now the decomposition into R and Theta is pointless since x itself is the technostrength rather than R, right? What else in the paper can be dropped as a relic of the older setup? Thanks\!
