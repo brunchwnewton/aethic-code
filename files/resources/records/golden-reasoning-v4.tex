@@ -1,4 +1,53 @@
 % =====================================================================
+% CORRECTION RECORD (source comments; deliberately not in the body)
+% Claims made during drafting and later withdrawn.  The body states the
+% corrected positions directly rather than narrating the corrections,
+% since drafting history is not the reader's concern; the record is kept
+% here so that it is not lost.
+%
+%  1. rho = 1 was said to be the threshold at which the background drops
+%     out at negative x.  FALSE -- the crest is bounded, so any rho > 0
+%     gives trough dominance there.  rho > 1 is what makes the crest
+%     dominate at large POSITIVE x, i.e. Constraint C1.  Body: Rem.
+%     "What rho = 1 is, and is not".
+%  2. The exponent 1/4 was stated to require rho > 1.  It holds for all
+%     rho > 0; the dominant channel is exponential in x either way.
+%  3. [body-removed] The polar decomposition x = sigma t^{3/2} R cos(Theta) was adopted
+%     with Theta named "technoanatomy".  Withdrawn: R, Theta are
+%     Rayleigh/uniform/independent only because the normalised pair is
+%     isotropic Gaussian, which fails under a transient driver, under
+%     rho < 0, and under conditioning.  Body now forecloses it as an
+%     alternative rather than reporting the withdrawal.  SUPERSEDED:
+%     the passage was cut entirely.  It had no independent use --- the
+%     exact-half theorem is stated on x directly --- so introducing the
+%     decomposition solely to reject it was drafting history in
+%     disguise, and the framing that it is what a reader would first
+%     try was an unsupported claim about reader psychology.
+%  4. The KL comparison 1.16 vs 0.94 nats was offered as strength versus
+%     anatomy.  Those are two halves of one Gaussian coordinate.
+%     Replaced by sign-of-x versus rho.
+%  5. "No terminal stage exists" was asserted as the strongest
+%     anti-Kardashev result.  True of the driftless model only; the
+%     two-condition theorem gives a gated terminal stage.
+%  6. Reciprocity (E3) was reported emergent from E1 and E2, on runs
+%     that had included it.  Re-tested without: asymmetries reach the
+%     maximum 2.0.  It is imposed, not emergent.
+%  7. Mutual singularity of Q and P was listed as unconditional.  It is
+%     critical-regime only.
+%  8. It was conceded that under rho < 0 the extinctionist is closer to
+%     right.  FALSE: halting at x* dominates x = 0 for every rho < 0,
+%     and both carry P(viable) = 0 in any case.
+%  9. The Lindy result was presented as novel.  It is established prior
+%     work (Balbi & Cirkovic; Balbi & Grimaldi; Kipping et al.; Ord);
+%     only the derived exponent is added.  NOTE: this one is a citation
+%     obligation, not a drafting retraction, and REMAINS in the body.
+% 10. Two-boundary physics was proposed as a neighbour for
+%     Past-Alignment.  Withdrawn as a false analogy -- those condition
+%     on complete physical states with dynamics between them.  The
+%     indiscriminate time principle is the correct internal answer.
+% =====================================================================
+
+% =====================================================================
 %  GOLDEN REASONING -- MASTER DOCUMENT
 %  Sections 1-2 assembled 2026-08-01.
 %
@@ -128,6 +177,10 @@
 integrated processes}, Ann.\ Inst.\ Henri Poincar\'e Probab.\ Stat.\
 \textbf{49} (2013), 236--251.
 
+\bibitem[Bri]{Britannica_coal} \emph{Coal: world distribution of coal},
+Encyclop\ae dia Britannica, consulted 2026.
+\bibitem[Mag]{Magoon_coal} M.~Magoon, \emph{The geography of coal
+outside Europe}, From Poverty to Progress, 2026.
 \bibitem[Aet24]{Aethus} A.~Benander, \emph{Aethic Reasoning: A
 Comprehensive Solution to the Quantum Measurement Problem}, November 2024;
 PhilPapers BENARA-5, PhilSci-Archive eprint 25713.
@@ -902,7 +955,13 @@ allow the biosphere to persist past the eventual death of its star.
 \emph{Step two: perturb the record and watch them fail.} Consider
 Aethic perturbations in which the dinosaurs never go extinct, in which
 animal life never evolves at all, or in which Africa does not exist or
-develops very differently. Each removes the capacity:
+develops very differently. Each comparison presupposes that the
+perturbed history and ours share a common term against which a missing
+capacity registers as missing, which ordinary object-individuation
+cannot supply and \S\ref{to:sec} does: what is compared across these
+histories is a Task-Earth and a task-lineage
+(Definition~\ref{to:def:taskobject}), not an Earth and a lineage. With
+that in place, each perturbation removes the capacity:
 
 \begin{itemize}\itemsep2pt
 \item A world in which the dinosaurs persist is one in which, by the
@@ -921,12 +980,17 @@ generalisation is what matters. By the substitution property of the
 Accordance Principle \cite{Nexus}, the argument runs at \emph{any}
 rung: a trait of ours may itself be placed in the conditioning seat, and
 alternative natural histories are then deduced to fail its occurrence
-almost surely. So for any Golden-relevant trait one names, perturbations
+almost surely. The manoeuvre requires the trait to be identifiable in
+histories where it does not occur, which is a task-object
+identification rather than an object one
+(\S\ref{to:sub:licenses}). So for any Golden-relevant trait one names,
+perturbations
 of natural history systematically undermine its occurrence probability.
 
 \begin{corollary}[Local optimality of the record; \textbf{[S]}]
 \label{gc:cor:localopt}
-If for every Golden-relevant trait the perturbed histories systematically
+If for every Golden-relevant trait --- individuated as a task-object,
+per \S\ref{to:sec} --- the perturbed histories systematically
 depress its probability, then our Aethus locally maximises the
 probability of the Golden Point among its neighbours --- and our natural
 history is accordingly the past-light-cone restriction of the optimal
@@ -971,7 +1035,11 @@ world in which Earth simply lacked the resources to begin an industrial
 revolution is a world whose inhabitants are no less observers.
 
 Now select a handful of such attributes: necessary for the Golden Point,
-and unlikely to survive reopening in the Aetherian Nexus. The totality of
+unlikely to survive reopening in the Aetherian Nexus, and admissible in
+the sense of Remark~\ref{gc:rem:boundrequires} --- reopening them must
+leave the dependent structure intact, so that the resulting Aethae
+remain individuated by the same task-objects as ours
+(\S\ref{to:sub:licenses}). The totality of
 the counterfactual Aethae so obtained carries \emph{substantially more}
 Aethic weight than the Aetherian Nexus, while carrying a comparatively
 minute probability of the Golden Point.
@@ -1029,6 +1097,478 @@ dinosaurs-survive world, a wholly lemurine one --- the one that must be
 conditioned on to reproduce the Nexic state of affairs we actually
 observe is the one in which the Golden Point exists.
 \end{corollary}
+
+\subsubsection{Bounding the counterfactual weight}
+\label{gc:subsub:weightbound}
+
+The reductio of \ref{gc:prin:conditioning} turns on a single inequality:
+that the counterfactual Aethae obtained by reopening Golden-Point
+prerequisites carry substantially more weight than the Aetherian Nexus.
+Stated bare, that is an assertion, and an objector may simply deny it ---
+perhaps coal is common given a Carboniferous, perhaps the metallurgical
+sequence is near-forced given hands and fire. This subsection replaces
+the assertion with a construction, a bound, and a statement of exactly
+what empirical input remains outstanding.
+
+\paragraph{The construction.} Fix stated-attributes
+$a_1,\dots,a_k$, each a prerequisite of the Golden Point and none a
+prerequisite of observerhood. Let $\mathcal A$ denote the Aetherian
+Nexus, in which every $a_j$ obtains, and let $\mathcal A_j$ denote the
+Aethus obtained by reopening $a_j$ alone to its logical complement,
+holding the remaining $k-1$ at their realised values.
+
+\begin{lemma}[Disjointness; \textbf{[P]}]\label{gc:lem:disjoint}
+The Aethae $\mathcal A_1,\dots,\mathcal A_k$ are pairwise disjoint, and
+each is disjoint from $\mathcal A$. For $j\neq j'$, the pair
+$\mathcal A_j$ and $\mathcal A_{j'}$ disagree on \emph{both} slot $j$
+and slot $j'$; and $\mathcal A_j$ disagrees with $\mathcal A$ on slot
+$j$.
+\end{lemma}
+
+\begin{proposition}[Weight ratio; \textbf{[P]}]\label{gc:prop:ratio}
+Write $\alpha_j$ for the probability that slot $j$ takes its realised
+value, conditional on the remaining slots taking theirs. Then
+\begin{equation}\label{gc:eq:ratio}
+\frac{W(\mathcal A_j)}{W(\mathcal A)}=\frac{1-\alpha_j}{\alpha_j},
+\end{equation}
+and by Lemma~\ref{gc:lem:disjoint} the single-flip Aethae may be summed:
+\begin{equation}\label{gc:eq:bound}
+R \;:=\; \frac{W_\times}{W(\mathcal A)}
+\;\ge\; R_1 \;=\; \sum_{j=1}^{k}\frac{1-\alpha_j}{\alpha_j}.
+\end{equation}
+\end{proposition}
+
+\begin{remark}[What the bound does and does not require]
+\label{gc:rem:boundrequires}
+Three features of \eqref{gc:eq:bound} are worth isolating, because they
+are what make it usable.
+
+\emph{Independence is not required.} Only disjointness is, and that
+holds by construction. Dependence among the $a_j$ changes what the
+individual ratios \emph{are} --- the $\alpha_j$ become conditional
+rather than marginal, as stated --- but not whether the terms may be
+added. This matters because the attributes at issue are plainly not
+independent, and an argument needing them to be would be unusable.
+
+\emph{It is a lower bound, and deliberately a loose one.} The
+single-flip Aethae are a vanishing fraction of the counterfactual set:
+the full sum over all Aethae differing in at least one slot is
+$\prod_j\alpha_j^{-1}-1$, larger by many orders. But the full sum
+requires the joint structure, and the reductio needs only that $R\gg1$.
+An undercount that suffices is preferable to an exact figure that is
+contestable.
+
+\emph{Admissibility is governed by the Imperfection Magnitude Drop
+criterion.} A perturbation enters the sum only if it leaves the
+dependent structure intact --- if reopening $a_j$ does not re-randomise
+what depends on it. A perturbation that triggers a drop does not yield a
+clean single-slot flip, and Lemma~\ref{gc:lem:disjoint} fails for it.
+Coal in an inaccessible location is admissible on this criterion: it may
+be probabilistically catastrophic without re-randomising the structure
+downstream. A relocation of the lineage's speciation to another
+continent is not, since the material that later mediates the outcome is
+not present there to be held fixed.
+\end{remark}
+
+\paragraph{How large must $R$ be, and how improbable must the
+attributes be?} The reductio requires only $R\gg1$. Evaluating
+\eqref{gc:eq:bound} for $k$ attributes each at probability $\alpha$:
+
+\begin{center}\small
+\begin{tabular}{@{}rrrrr@{}}
+\toprule
+$\alpha$ & $k=1$ & $k=3$ & $k=5$ & $k=8$\\
+\midrule
+$10^{-1}$ & $9$ & $27$ & $45$ & $72$\\
+$10^{-2}$ & $99$ & $297$ & $495$ & $792$\\
+$10^{-3}$ & $999$ & $3.0\times10^{3}$ & $5.0\times10^{3}$ & $8.0\times10^{3}$\\
+$10^{-4}$ & $1.0\times10^{4}$ & $3.0\times10^{4}$ & $5.0\times10^{4}$ & $8.0\times10^{4}$\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\noindent The bar is far lower than the informal argument suggested. A
+\emph{single} attribute at $\alpha=10^{-3}$ delivers $R\sim10^{3}$
+unaided; no portfolio is needed, and the burden reduces to establishing
+one prerequisite as genuinely improbable. Correspondingly, the objection
+that the counterfactual sum might be comparable requires \emph{every}
+candidate prerequisite to have $\alpha$ of order one --- that coal
+placement, metallurgical sequence, and the rest are each more likely
+than not given the rest of the record --- which is a considerably
+stronger claim than the objection is usually asked to bear.
+
+\paragraph{Estimating $\alpha$: the sister-case method.} The remaining
+empirical input is supplied by an instrument the companion already
+develops, and it should be used rather than reconstructed
+\cite{Nexus}.
+
+By the Theorem of Aimless Optimation, Optimation is the Cosmic Nexus
+conditioned on the attribute $H_N$ that an Aetherian exists in one's
+biosphere; and if an attribute $X$ is statistically independent of
+$H_N$, the two Nexae assign it the same weight. Independent attributes
+are therefore \emph{controls}: their observed frequency estimates the
+Cosmic Nexus probability directly, unlifted by conditioning. The
+companion's worked case is the Catarrhini node --- Old World monkeys
+furnish over a hundred extant species across twenty-five million years
+with no attainment of ape-level intelligence, and their fate being
+independent of $H_N$, that frequency transfers as the baseline for our
+own lineage at the same node.
+
+This is exactly the quantity \eqref{gc:eq:bound} requires. For an
+attribute $a_j$ admitting such a control, $\alpha_j$ is read off the
+control's frequency, and its contribution to $R_1$ follows.
+
+\begin{remark}[A corollary on once-only attributes, and the independence
+check that governs it]\label{gc:rem:onceonly}
+A corollary of the same theorem bears on attributes observed exactly
+once, and it is worth stating as an inference rather than a
+consistency claim. Once a first occurrence has secured what the Golden
+Point requires, a \emph{second} occurrence is statistically independent
+of $H_N$ --- it changes nothing about whether an Aetherian exists ---
+and by the theorem it therefore retains its Cosmic Nexus weight and is
+not lifted. Optimation supplies what is required and does not
+overshoot.
+
+The consequence is a discriminating observation. Write $\lambda$ for
+the unconditioned expected count across all opportunities. Under the
+hypothesis that $\lambda\ll1$, Optimation must lift the attribute for
+$H_N$ to obtain, and lifts it to exactly one; \emph{exactly one
+occurrence is what that hypothesis predicts}. Under the hypothesis that
+no lift was needed, occurrences are Poisson at rate $\lambda$ and
+exactly one is a coincidence of probability $\lambda e^{-\lambda}$. The
+likelihood ratio between them is $\left(\lambda
+e^{-\lambda}\right)^{-1}$:
+\begin{center}\small
+\begin{tabular}{@{}rrrrrr@{}}
+\toprule
+$\lambda$ & $1$ & $3$ & $5$ & $10$ & $20$\\
+\midrule
+ratio favouring lift & $2.7$ & $6.7$ & $30$ & $2.2\times10^{3}$ &
+$2.4\times10^{7}$\\
+\bottomrule
+\end{tabular}
+\end{center}
+So a single occurrence tells strongly against the configuration having
+been \emph{common} --- $\lambda\ge5$ is disfavoured thirtyfold or worse
+--- while discriminating only weakly between a genuinely minute
+$\lambda$ and one of order unity. Its evidential role is accordingly to
+exclude the objection that the prerequisites were unremarkable, not to
+supply the magnitude. The magnitude comes from the independent
+per-opportunity estimate, and where that gives $\lambda\ll1$ the
+attribute contributes approximately $1/\lambda$ to $R_1$.
+
+The corollary is only as good as its individuation, and this is where
+the difficulty sits. Rather than proceed directly to an estimate, we
+calibrate the instrument on two attributes for which the data are good.
+Both return nothing, and the pattern in \emph{how} they return nothing
+is what fixes the strategy.
+
+\paragraph{Calibration I: coal.} Britain's coal is the obvious first
+candidate, and it fails at the endowment grain. Carboniferous and
+younger basins are known on virtually every continent --- the
+Appalachians, the Ruhr, the Donets, the Kuznetsk, the Nord-Pas de
+Calais--Saar--Lorraine field, and others --- giving eight or more on any
+reasonable individuation, and Britain's is not the most favourable, the
+Appalachian seams being unusually large and unusually exposed. With
+$\lambda\approx8$ we obtain $\alpha=1-e^{-\lambda}\approx0.9997$ and a
+contribution to $R_1$ of about $3\times10^{-4}$: nil.
+
+The verdict is confirmed by the author whose thesis is most at stake.
+Allen observes that the Ruhr went unexploited not for want of coal but
+because Dutch peat held fuel prices down, removing the return on
+improving Rhine transport; and he draws the counterfactual explicitly,
+that had German coal been developed three centuries earlier the
+industrial revolution might have been a Dutch--German achievement rather
+than a British one \cite{Allen09}. He identifies Belgium, around
+Li\`ege and Mons, as possessing a comparable ratio of wages to energy
+cost. So the claim that the path to the twentieth century ran through
+northern Britain was always about the \emph{conjunction} of cheap energy
+with dear labour and the institutions to exploit both --- never about
+the seams, which were widely available. A reader who recalls that claim
+should read it that way, and the estimator's verdict agrees with Allen
+rather than contradicting him, reached independently and from geology.
+
+\paragraph{Calibration II: domesticable megafauna.} A second candidate,
+drawn from a different literature, fails in the same manner. Diamond's
+count gives fourteen large mammal species domesticated of some hundred
+and forty-eight candidates, with thirteen of the fourteen wild ancestors
+confined to Eurasia \cite{Diamond97} --- a striking asymmetry, and the
+basis of a well-known thesis. But the relevant question for the
+estimator is not how the successes distributed; it is how many
+\emph{continents} possessed a workable endowment. Diamond's own
+candidate counts are seventy-two for Eurasia against fifty-one for
+sub-Saharan Africa, which is not the profile of a rare attribute. Taking
+continents as the opportunities gives $\lambda\approx2$ and a
+contribution of about $0.16$: nil again.
+
+Diamond's \emph{conjunction} does better --- megafauna together with an
+east--west principal axis and the crop package on one landmass gives
+$\lambda\approx0.16$ and a contribution near $5.8$ --- which is a real
+figure, and still four orders below what a single attribute would need
+to carry the reductio alone.
+
+\begin{proposition}[The bound on \emph{parallel} attributes;
+\textbf{[S]}]\label{gc:prop:squeeze}
+The two failures share a cause, and it is structural rather than
+accidental. Call an attribute \emph{parallel} when its opportunities are
+a set of co-existing sites --- landmasses, basins, continents --- so
+that $\lambda=Np$ with $N$ the site count. For an attribute individuated
+at continental scale, $N\approx5$. To obtain
+$(1-\alpha)/\alpha\sim10^{3}$ then requires $\lambda\sim10^{-3}$, hence
+a per-site probability of order $2\times10^{-4}$ --- a claim that cannot
+responsibly be defended for any attribute of the form ``this landmass
+possesses feature $X$''. Deep time can deliver minute $\lambda$ for
+parallel attributes because its site count is astronomical; recent
+history cannot, because its site count is five.
+
+Coal and megafauna are both parallel attributes. That, and not their
+recency, is why they failed.
+\end{proposition}
+
+\paragraph{Serial attributes escape the bound.} Proposition
+\ref{gc:prop:squeeze} is a claim about parallel attributes only, and the
+restriction is not a technicality --- it identifies the wrong turn that
+coal and megafauna represent. An attribute may instead be
+\emph{serial}: a conjunction of successive branch points within a single
+trajectory, each of which had to go one way for the next to be reached.
+
+\begin{proposition}[Serial attributes; \textbf{[S]}]
+\label{gc:prop:cascade}
+Let an attribute consist of $m$ successive branch points, the $i$th
+resolved favourably with probability $p_i$ conditional on its
+predecessors. Then $\alpha=\prod_{i\le m}p_i$ and the contribution to
+$R_1$ is $\alpha^{-1}-1$, which grows \emph{exponentially in $m$}. At
+$p=0.75$ throughout: $m=8$ contributes about $9$, $m=16$ about $99$,
+and $m=25$ about $1.3\times10^{3}$.
+\end{proposition}
+
+\noindent The opportunity structure is what differs. A parallel
+attribute is bounded by how many sites exist, and there are five
+continents. A serial attribute is bounded by how many branch points the
+trajectory contains, and a well-articulated historical episode contains
+many. Recent history is therefore not weak evidence; it was being
+individuated in the form that makes it weak.
+
+This is how the candidates should be stated. Not ``Alexander existed'',
+which is a parallel attribute of no force, but \emph{that he survived
+and succeeded through the entire sequence} --- the wound at the
+Granicus, Issus, Gaugamela, the near-fatal injury among the Malli, the
+absence of a disabling illness before consolidation, and the
+Hellenisation surviving the immediate fragmentation of the empire ---
+each a branch point with its own $p_i$. Likewise the Roman survival of
+the Second Punic War is a sequence, not a fact: the recovery after
+Cannae, Hannibal's failure to march, the holding of the Italian allies,
+Scipio's African campaign. Likewise the passage of Christianity from a
+provincial sect to an imperial religion, and its part in what followed.
+Each such episode is one attribute in \eqref{gc:eq:bound}, and each
+carries a contribution set by the length of its cascade rather than by
+the number of continents.
+
+\begin{remark}[What serial attributes cost]\label{gc:rem:serialcost}
+The gain in magnitude is paid for in the independence check, and the
+price should be stated plainly, since it is where such an estimate would
+fail.
+
+For each branch point one must hold that its failure had no adequate
+\emph{substitute} --- that had Alexander died at the Granicus, the
+Hellenisation of the East does not simply proceed under another
+commander. History is rich in substitutes, and each $p_i$ that admits
+one contributes nothing, since the attribute is then not load-bearing
+for $H_N$ at that step. The estimator's discipline accordingly transfers
+from grain, where it sat for parallel attributes, to substitutability.
+
+Two consequences follow. Cascade length must be counted in
+\emph{substitution-free} branch points, not in dramatic incidents, which
+will reduce $m$ considerably below the narrative count. And the
+per-step probabilities must be conditional on the predecessors, since
+the steps are plainly not independent --- a commander who has survived
+four battles is not a random draw at the fifth. Both corrections push
+$\alpha$ upward, and an honest estimate should expect the eventual
+contribution to fall well short of the naive product.
+\end{remark}
+
+\begin{remark}[Individuate the branch point by its role, not its
+occupant]\label{gc:rem:roleindividuation}
+The substitutability audit has a corollary that governs how each branch
+point must be \emph{stated}, and getting it wrong is the most likely
+route to an inflated estimate.
+
+The counterfactual at each step must be taken over the \emph{role}, not
+over the occupant. The question at the relevant branch point is not
+whether Christianity in particular arose and spread, but whether
+\emph{anything} arose that discharged the role it discharged --- in the
+window, with the reach, and with the consequences for what followed. So
+individuated, the competing cults of the period are not rivals to the
+hypothesis but candidate fillers of the same role, and their availability
+raises $\alpha$ at that step rather than lowering it: where a role admits
+$\kappa$ independent candidates each of probability $q$, the
+role-probability is $1-(1-q)^{\kappa}$, not $q$.
+
+Role individuation is therefore the \emph{conservative} choice, and that
+is precisely its merit. It concedes the substitution objection in
+advance rather than meeting it afterward: a critic who replies that some
+other movement would have served is not refuting the estimate but
+restating the quantity already being estimated. What survives such an
+audit is a residue of steps at which no filler was available with
+comparable probability --- and the claim, where a cascade is offered, is
+about that residue.
+
+It also relocates where improbability may legitimately be found. It is
+not to be sought in the striking identity of the occupant, which is
+where narrative attention naturally goes, but in the narrowness of the
+window in which \emph{any} occupant could have appeared. The
+transitional periods are the interesting ones for that reason, and the
+dramatic incidents largely are not.
+\end{remark}
+
+\begin{remark}[The limitation is present ignorance, not the structure]
+\label{gc:rem:measurement}
+One further honesty is owed about the status of these estimates, and it
+cuts in an unusual direction.
+
+The obstacle to evaluating $\prod_i p_i$ for any actual cascade is not
+that the quantity is ill-defined or that the method is unsound. It is
+that counterfactual history is not yet in a state to supply the
+$p_i$ with defensible error bars --- the substitutability audits and the
+window widths that Remark~\ref{gc:rem:roleindividuation} requires are
+matters on which the discipline has views but not measurements. The
+uncertainty is \emph{ours}, and contemporary; it is not a property of
+the cascades.
+
+Two things follow. The paper should not, and does not, offer a numerical
+cascade estimate: what it offers is the structure
+\eqref{gc:eq:bound}, the serial--parallel distinction, and the
+individuation discipline, with the arithmetic left for inputs that do
+not yet exist. And the expectation that such inputs will exist is a
+substantive bet rather than a certainty --- one that quantitative
+counterfactual history will mature to the point of supplying audited
+branch-point probabilities. If it does, the enumeration becomes
+routine and the bound follows. If it does not, the weight claim remains
+structurally established and empirically unfilled, which is a weaker
+position than we would like and a stronger one than assertion
+\textbf{[O]}.
+\end{remark}
+
+\begin{remark}[An unnamed significance is a prediction, and it has a
+falsification test]\label{gc:rem:unnamed}
+Remark~\ref{gc:rem:measurement} leaves the framework in a position that
+looks, at first, like an unfalsifiable auxiliary. We do not know what
+the establishment of a universalising cult in the late-antique
+Mediterranean forced through downstream; the analysis nonetheless
+concludes that something Golden-relevant was forced through, on the
+strength of \ref{gc:prop:flukes} alone. Stated carelessly this is the
+canonical bad move --- every fluke acquires an unnamed significance,
+nothing counts against the framework, and the Accordance analysis
+becomes a device for dignifying whatever happened.
+
+It is not that, and the reason is that the unnamed significance is a
+\emph{prediction} with a definite content and a definite refutation.
+
+\emph{Content.} For a cascade $C$ satisfying the two admissibility
+conditions --- genuinely improbable, and load-bearing in the sense of
+Remark~\ref{gc:rem:roleindividuation} --- the claim is that there exists
+a consequence of $C$ on which the probability of the Golden Point
+depends, and that it will be identified. The claim is made before the
+consequence is known, which is what makes it a prediction rather than a
+description.
+
+\emph{Refutation.} Exhibit a route to the Golden Point that does not
+require $C$. If the terminus is reachable without the cascade, then
+$C$ was not load-bearing for it, and the predicted consequence does not
+exist to be found. This is the substitutability audit of
+Remark~\ref{gc:rem:serialcost} run at the \emph{terminus} rather than at
+an intermediate --- which is the only place it can be run when the
+intermediate is unnamed, and which is a harder audit rather than an
+easier one, since the chain to be traced is longer.
+
+\emph{And the criterion is diachronic.} A single unnamed significance
+is a debt; a growing ledger of them is a symptom. The framework is
+progressive if the ratio of identified to unidentified consequences
+improves as counterfactual history matures, and degenerating if the
+unnamed list only lengthens while the named one does not. We state this
+as the test we intend the programme to be held to: \emph{if the
+historiography improves and the significances remain unnamed, that
+counts against the framework and is not to be absorbed by it.} The
+passage of time is thereby made a test rather than an excuse, which is
+what the position in Remark~\ref{gc:rem:measurement} would otherwise
+lack.
+
+One asymmetry should be noted, since it limits what confirmation is
+available. Failure to exhibit a $C$-free route is weak evidence at best,
+because such routes are counterfactual claims subject to the same
+immaturity that motivated the remark. The test is therefore one-sided in
+the ordinary way: it can refute a particular significance claim and
+cannot establish one, and the framework's standing rests on
+whether the identifications accumulate.
+\end{remark}
+
+\paragraph{The consequence: aggregate, but of serial attributes.} The
+reductio requires $R\gg1$, not $R>10^{3}$, and $R_1$ is a \emph{sum}.
+Even under the corrections of Remark~\ref{gc:rem:serialcost}, a modest
+stockpile suffices: twenty attributes contributing about ten apiece
+give $R_1\approx200$, and a single well-attested cascade may supply as
+much on its own.
+
+\begin{center}\small
+\begin{tabular}{@{}rrr@{}}
+\toprule
+attributes & each $\approx5$ & each $\approx10$\\
+\midrule
+$10$ & $50$ & $100$\\
+$20$ & $100$ & $200$\\
+$40$ & $200$ & $400$\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\noindent So the programme is an enumeration of serial contingencies,
+each articulated as a cascade and each audited for substitutability. The
+record supplies candidates readily --- the military sequences above; the
+demographic rupture of the Black Death and its effect on the very wage
+structure Allen's account requires; and the theses of \cite{Diamond97}
+beyond megafauna, several of which admit serial rather than parallel
+statement. What the two calibrations established is not that recent
+history is barren but that it must be interrogated along the trajectory
+rather than across the map.
+
+\begin{remark}[Why the negative calibrations are retained]
+\label{gc:rem:whyretain}
+Two attributes were examined and both returned nothing. It would be
+tidier to omit them, and it would be a mistake.
+
+They demonstrate that the instrument has teeth. A method that never
+returns nothing cannot discriminate, and a reader entitled to suspect
+that the estimator was constructed to deliver a congenial answer is
+answered by two cases where it did not. They also fix the grain
+discipline \emph{before} any positive estimate is offered, so that the
+eventual stockpile is credible rather than convenient. And they preempt
+the two objections a reader arrives with --- that coal was surely the
+scarce thing, and that Diamond's asymmetry surely settles the matter ---
+with the estimator's verdict rather than with assertion.
+
+Most importantly, the pattern in the two failures is itself the
+finding. Had one failed and the other succeeded, the first would read as
+a red herring. Both failing, and failing for the same reason, is what
+establishes Proposition~\ref{gc:prop:squeeze} and thereby the
+aggregation strategy. The negative results are load-bearing.
+\end{remark}
+
+This is where the argument's remaining empirical debt sits, and it is
+now specific and bounded. What \eqref{gc:eq:bound} establishes is the
+structure: given the $\alpha_j$, the bound follows. What
+Proposition~\ref{gc:prop:squeeze} establishes is that no single recent
+attribute will supply it, so the debt is a stockpile of order twenty
+contingencies, each estimated by the sister-case method and each passing
+the independence check. The weight claim is accordingly no longer
+asserted but \emph{conditionally computed} --- reduced from a
+plausibility judgement about an unexamined sum to an enumeration of
+bounded terms, each obtained by an instrument calibrated in advance and
+each with its required magnitude stated \textbf{[O]}. What remains owed
+is the enumeration, and \emph{that} is a research task rather than an
+argumentative gap: the terms are individually modest, the sources are
+identified, and the standard each must meet is fixed before any is
+computed.
+\end{remark}
 
 \begin{remark}[The conditioning is not teleological]
 \label{gc:rem:teleology}
@@ -1100,11 +1640,12 @@ discriminates between them. A comparison that could have gone the other
 way is not a circle.
 
 Three ways it could fail, in decreasing order of seriousness. The
-weight claim is the load-bearing one and is asserted rather than
-computed: that the counterfactual sum outweighs the Aetherian Nexus is
-plausible on the grounds that removing improbable prerequisites raises
-probability, but no bound is given here, and a demonstration that the
-sum is comparable or smaller would remove the contradiction. Second, the
+weight claim remains the load-bearing one, though
+\S\ref{gc:subsub:weightbound} has reduced it from an assertion to a
+single measurement: the bound \eqref{gc:eq:bound} is proved, and one
+prerequisite at $\alpha\sim10^{-3}$ suffices, so what would remove the
+contradiction is now the specific demonstration that \emph{every}
+candidate prerequisite has $\alpha$ of order one. Second, the
 argument requires ``observer'' to be robust under exactly these
 perturbations; a sufficiently demanding notion of observerhood --- one
 entailing industrial capacity, say --- would collapse the two
@@ -2080,7 +2621,8 @@ finite threshold.
 \end{proof}
 
 \begin{remark}[What $\rho=1$ is, and is not]\label{tc:rem:rhorole}
-Three separate claims must be kept apart, and an earlier draft of this part conflated the first two.
+Three separate claims must be kept apart, and the first two are easily
+run together.
 \emph{(a)} $\rho=1$ is \emph{not} the threshold for the background to
 drop out at negative $x$; that happens for every $\rho>0$, by
 (i).
@@ -2471,24 +3013,13 @@ $\PP(Z_0<-\varepsilon)>0$; here the constant is exact.
 \emph{Disclaimer, and it is the important one.} This is a statement
 about a \emph{state coordinate}, not about technoanatomy. Every
 biosphere, however well constituted, spends half of logarithmic time
-with $x<0$; the sign of the credit is a phase the system passes
-through and re-enters, not a property it has. Technoanatomy in the
-sense of Definition~\ref{gr1:def:anatomy} is the exponent $\rho$, which
-governs what capacity \emph{does} when acquired and does not fluctuate
-at all. An earlier treatment of this material introduced a polar
-decomposition $x_t=\sigma t^{3/2}R_t\cos\Theta_t$ and named the phase
-$\Theta$ ``technoanatomy''. That naming has been withdrawn, and the
-decomposition with it, for a reason worth recording rather than
-quietly repairing: the modulus and phase are Rayleigh and uniform, and
-independent, only because the normalised pair $(\hat x,Q)$ is isotropic
-Gaussian --- which holds in the driftless, unconditioned case and in no
-other. Under a transient driver, under $\rho<0$, or under conditioning
-on survival, the pair is not isotropic and the construction's every
-distributional claim fails. It described one cell of the classification
-of \S\ref{gr1:sub:twocond} while presenting itself as the model's
-coordinate system. What survives it is this theorem, which needs no
-decomposition, and the measurement of \S\ref{gr:subsub:measured}, which
-is a fact about the sign of $x$.
+with $x<0$; the sign of the credit is a condition the system passes
+through and re-enters, not a property it has. Technoanatomy in the sense
+of Definition~\ref{gr1:def:anatomy} is the exponent $\rho$, which governs
+what capacity \emph{does} when acquired and does not fluctuate at all.
+Nothing about the frequency with which a biosphere is adversely
+positioned bears on whether its capacity is adversely directed, and the
+theorem should not be read as saying otherwise.
 \end{remark}
 
 
@@ -2590,16 +3121,6 @@ $\tfrac12$ and $e^{s}\to\infty$. As $\inf_{u\le t}B_u>0$ a.s.\ for each
 $t$ and $B$ does not tend to zero, $\Lambda_{\infty}=\infty$.
 \end{proof}
 
-\begin{remark}[What the exact half is for]\label{tc:rem:halfuse}
-Theorem~\ref{tc:thm:half} was presented in \S\ref{tc:sub:polar} as a
-sharpening of the driftless case. It is more than that: it is the engine of the
-proof just given. Where the driftless case needed an unbounded integrand,
-the two-channel model needs only that the system spends a positive
-fraction of logarithmic time at unfavourable anatomy --- and the polar
-decomposition says that fraction is exactly one half, for every
-parameter value. Boundedness of the hazard does not buy immortality; it
-merely changes which argument rules it out.
-\end{remark}
 
 \subsubsection{The survival tail and its consequences}\label{sh:subsub:tail}
 
@@ -2751,9 +3272,8 @@ The entry must be read as its author wrote it, which is
 paradigmatic heart of the programme since at least 2022, on the author's
 record, and therefore predating this entry as well. Read that way, every
 one of its claims is recovered below; read unconditionally, two of them
-would appear to fail, and an earlier version of this footnote made
-exactly that error. The correction is recorded because it bears on how
-much the entry anticipates: the answer is all of it.
+would appear to fail. The distinction bears directly on how much the
+entry anticipates, and read correctly the answer is all of it.
 
 Six things are worth marking, since each became a separate part of the
 apparatus. The exponential-against-linear contrast is
@@ -2807,7 +3327,7 @@ $\rho<0$ & rises, $\propto e^{|\rho|x}$ & \emph{the system eats itself}\\
 \begin{remark}[Why this is the right home for the notion]
 \label{gr1:rem:anatomyhome}
 Two things recommend $\rho$ over the phase coordinate $\Theta$ of
-\S\ref{gr1:sub:coords}, with which an earlier treatment conflated it.
+\S\ref{gr1:sub:coords}, with which it is easily conflated.
 First, $\Theta$ is a \emph{state coordinate}: it fluctuates, is uniform
 under $\PP$, and every system occupies every value of it half of
 logarithmic time (Theorem~\ref{tc:thm:half}). Anatomy in the intended
@@ -3557,6 +4077,58 @@ say by survival itself.
 
 
 
+% ---------------------------------------------------------------------
+\subsection*{Where these results are used}\label{gr1:sub:consumers}
+
+This section has been developed as a self-contained account of a hazard
+process, and is readable as one. It is not, however, freestanding within
+this work: each of its principal results has a consumer elsewhere, and
+naming them is the quickest way to see why the section is here rather
+than in a paper of its own.
+
+\emph{The two-condition theorem} (\ref{gr1:thm:twocond}) is the paper's
+most-used result. It supplies the regime trichotomy on which
+\S\ref{gr:subsub:regimes} scopes the General/Golden distinction --- and
+which, as recorded there, restricts the measure-theoretic claim to the
+critical case. It supplies the dominance argument of
+\S\ref{hr:rem:concession}, where the extinctionist option and the
+settled-at-$x_\ast$ option are shown to carry viability probability zero
+alike. And its anatomy factor is what \S\ref{ad:sec} exists to compute.
+
+\emph{Technoanatomy} (Definition~\ref{gr1:def:anatomy}) is consumed
+twice over. \S\ref{gr:sub:extraction} identifies extractive organisation
+with $\rho<0$, which is what converts the Extraction Hypothesis from a
+vocabulary match into a claim about the sign of an exponent; and
+\S\ref{ad:sub:toward} takes the derivation of $\rho$ from institutional
+dynamics as its object, together with an account of why the machinery
+there does not yet reach it.
+
+\emph{The trapped-regime theorem} (\ref{gr1:thm:trapped}) does the work
+in \S\ref{hr:sub:extinction}, where adverse anatomy is shown fatal
+independently of the driver --- the step that makes the argument against
+extinctionism turn on forfeiture rather than on comparative hazard.
+
+\emph{The tolerance collapse} (\ref{gr1:prop:tolerance}) yields the
+ordering constraint invoked in \S\ref{hr:subsub:stakes}: since the
+affordable duration of adverse anatomy decays as $e^{-|\rho|x}$, anatomy
+must be secured before capability accumulates, and a system that
+attends to its arrangement late does so with the least margin it will
+ever have.
+
+\emph{The gauge results} of \S\ref{gr1:sub:coords} recur in a different
+register in \S\ref{to:sub:selection}, where the selection of a
+task-object among the many that individuate a given object is a gauge
+fixing of the same shape: find the quantities the arbitrary choice
+leaves invariant, and state the theory in those.
+
+\emph{And the survivorship interpolation} of \S\ref{gr1:sub:cond} is
+what \S\ref{gr:sec} is about in its entirety --- the Doob limit there
+being the Golden Biosphere, and the local absolute continuity of
+Theorem~\ref{sh:thm:singular} being the epistemic ceiling that
+\S\ref{gr:sub:ceiling} turns against this work's own conclusions as
+firmly as against its targets.
+
+% ---------------------------------------------------------------------
 \section{Golden reasoning}\label{gr:sec}
 
 \begin{quote}\small
@@ -3898,8 +4470,7 @@ exactly $\tfrac12$, for every parameter value and every biosphere.
 Adverse \emph{strength} is therefore not a defect distinguishing some
 biospheres from others but a condition all of them occupy half of
 logarithmic time --- which is precisely why it cannot be what
-``bad anatomy'' means, and why the identification of the two in an
-earlier treatment had to be withdrawn.
+``bad anatomy'' means, and why the two must be kept apart.
 
 \subsubsection{What conditioning does to each coordinate}
 \label{gr:subsub:measured}
@@ -3940,14 +4511,7 @@ by Theorem~\ref{gr1:thm:trapped}, adverse anatomy is eventually fatal
 with certainty, while adverse strength is a condition every biosphere
 occupies half of logarithmic time and survives.
 
-One correction is recorded here rather than buried. An earlier treatment
-compared the conditioned marginals of a polar pair $(R,\Theta)$ and
-reported divergences of $1.16$ against $0.94$ nats, concluding that
-conditioning acts on the two with comparable force. Those were two
-halves of a single Gaussian coordinate, not strength against anatomy,
-and the comparison has been withdrawn along with the decomposition
-(Remark~\ref{gr1:rem:halfuse}). The comparison above replaces it and is
-the one the argument needs.
+
 \end{remark}
 
 \subsubsection{Does conditioning select technoanatomy?}
@@ -4003,11 +4567,10 @@ useful with arbitrary units. Golden reasoning supports three stronger
 objections, of which the first is a theorem.
 
 \emph{(i) The terminal stage exists, and is gated by a variable the
-scale cannot see.} An earlier version of this section asserted that no
-terminal stage exists at all, on the ground that
-$\Lambda_\infty=\infty$ almost surely. That was true of the driftless
-model and false in general, and the correction is not a retreat but a
-sharpening. By Theorem~\ref{gr1:thm:twocond},
+scale cannot see.} It is tempting to argue instead that no terminal
+stage exists at all, since $\Lambda_\infty=\infty$ almost surely --- but
+that holds of the driftless model and not in general, and the stronger
+claim is available. By Theorem~\ref{gr1:thm:twocond},
 \[
 \PP(\text{viable})=\one\{\rho>0\}\cdot
 \frac{s(\mu_0)-s(-\infty)}{s(+\infty)-s(-\infty)},
@@ -4917,9 +5480,8 @@ $-\tfrac14$.
 \noindent One further entry belongs in this column, though it is not a
 premise: \emph{the section's novelty is narrower than its apparatus}.
 The mathematics of \S\ref{gr1:sec} is classical or routine --- the
-$\tfrac14$ exponent is McKean's, the polar decomposition is standard
-Gaussian whitening, the background construction is an application of
-known results on sums of random exponentials --- the Lindy
+$\tfrac14$ exponent is McKean's, the background construction is an
+application of known results on sums of random exponentials --- the Lindy
 conclusion of \S\ref{gr:sub:consequences} is established prior work
 \cite{BC21,BG24,Kip20,Ord23}; and the mechanism behind $\Phi3$ has
 precedents in the collapse and existential-risk literatures
@@ -4935,8 +5497,8 @@ should discount the section accordingly, and the surrounding apparatus
 provides no independent support for them.
 
 One accounting note closes the column, and it governs what all
-six costs are costs \emph{of}. What is unconditional is less than an earlier draft claimed, and the
-ledger states the reduced list: that conditioning selects, that adverse
+six costs are costs \emph{of}. The unconditional list is short, and the
+ledger states it in full: that conditioning selects, that adverse
 anatomy is fatal (Theorem~\ref{gr1:thm:trapped}), and that viability
 requires two conditions rather than one
 (Theorem~\ref{gr1:thm:twocond}). The mutual singularity of $Q$ and
@@ -5204,13 +5766,13 @@ the second is worse.
 
 The argument has a real limit, and stating it is what keeps it honest.
 
-\begin{remark}[The concession withdrawn: adverse anatomy does not
-vindicate the position]\label{hr:rem:concession}
-An earlier draft conceded that under $\rho<0$ the extinctionist is
-closer to right, on the ground that $x\equiv0$ leaves hazard merely at
-background while adverse anatomy drives it upward. The concession was
-wrong on its own terms, and the correction matters because it changes
-which option the argument is really between.
+\begin{remark}[Adverse anatomy does not vindicate the position]
+\label{hr:rem:concession}
+The natural concession at this point is that under $\rho<0$ the
+extinctionist is closer to right, since $x\equiv0$ leaves hazard merely
+at background while adverse anatomy drives it upward. The concession
+should not be made, and seeing why changes which options the argument is
+really between.
 
 \emph{First, the local comparison goes the other way.} A biosphere with
 adverse anatomy that \emph{halts} at the optimum $x_\ast$ of
@@ -5649,7 +6211,7 @@ $|w_{ij}-w_{ji}|=2$: total one-sided devotion. Symmetry must therefore
 be \emph{imposed}, which is why it is a constraint in
 \eqref{ad:eq:model}. Its near-zero value at relaxed optima indicates
 that it is cheap to \emph{satisfy}, not that it is redundant --- an
-inference an earlier draft drew and had to withdraw.
+inference the low value invites and which the test above refuses.
 \end{remark}
 
 \begin{remark}[Normalise by the mean, not the maximum]
