@@ -1,5 +1,16 @@
 % =====================================================================
 % CORRECTION RECORD (source comments; deliberately not in the body)
+% [Pass note] A sweep was made for REACTIVE writing -- passages arguing
+% against a position the reader never held, typically a superseded
+% draft.  Five were converted to direct statement: the exhaustiveness
+% note in Def. "Departure Point"; the intro to Sec. "Grading"; Rem.
+% "Where the variation lies" (formerly "Why the pair suffices", which
+% opened by raising a third-category temptation in order to refuse it);
+% the M-valued-operator open question; and Kardashev objection (i).
+% One "It is tempting" was RETAINED, at Rem. "Softening and
+% re-hardening": a reader meeting a bounded channel beside an unbounded
+% one would genuinely read them as competing, so that is anticipation of
+% an inference the text invites, not defence against a former draft.
 % Claims made during drafting and later withdrawn.  The body states the
 % corrected positions directly rather than narrating the corrections,
 % since drafting history is not the reader's concern; the record is kept
@@ -705,9 +716,33 @@ non-progress.
 
 \emph{This is what makes it the dual of the Golden Point.} That was
 defined as the point past which a biosphere is too capable at self
-preservation to regress past it --- i.e.\ the point past which every
-continuation \emph{avoids} foreclosure. The two are exact mirrors, and
-both are \emph{points} for the same reason: irreversibility. A state
+preservation to regress past it --- which, stated with the quantifiers
+exposed, is the point past which \emph{some} available course has
+\emph{every} continuation avoiding foreclosure. The asymmetry between
+the two is deliberate: departure is $\forall\exists$ --- every course
+admits a foreclosing continuation --- and Goldenness is
+$\exists\forall$ --- some course admits none.
+
+Two $\forall$-statements could not be complements of one another;
+$\exists\forall$ and $\forall\exists$ can be, and
+\S\ref{gc:subsub:cascade} shows that these two are, by exhibiting them
+as the complementary fixed points of De Morgan-dual operators. The
+quantifier asymmetry is therefore not a wrinkle in the duality but its
+mechanism.
+
+The pair is exhaustive on definite states, and an Aethus carries weight
+across both. \S\ref{gc:subsub:grading} makes that precise, since it is
+best stated once the grading is in hand.
+
+The reading this forces is worth stating plainly, since a looser gloss
+would lose it. Goldenness is not the guarantee that nothing can go
+wrong; it is the possession of a \emph{course} along which nothing
+does, whatever the environment answers. It is a claim about available
+strategy, not about the absence of hazard --- which is why a Golden
+biosphere still faces a universe that would destroy it and is Golden
+anyway.
+
+Both are \emph{points} for the same reason: irreversibility. A state
 one may still leave is not a point but a phase, and neither concept is
 about phases.
 
@@ -829,10 +864,16 @@ hazards suffice for departure and are not necessary to it.
 
 \emph{The Golden/Departure duality is a theorem, not a construction.}
 The Golden Point is $\nu F$ --- there exists a route all of whose
-continuations remain safe --- and the Departure Point is $\mu G$. Their
-being exact mirrors is the complementarity of the two fixed points, so
-the duality asserted in Definition~\ref{gc:def:departure} need not be
-stipulated: it is inherited.
+continuations remain safe --- and the Departure Point is $\mu G$. Since
+$G=\neg F\neg$, the two fixed points are complements outright, so the
+duality asserted in Definition~\ref{gc:def:departure} need not be
+stipulated: it is inherited, and the pair is exhaustive.
+
+\emph{The complementarity is a fact about definite states.} The
+fixed-point analysis lives on the Boolean lattice of definite states,
+where the result above is exact. An Aethus is a weighted superposition
+of such states, and what that implies for the categories is taken up in
+\S\ref{gc:subsub:grading}.
 
 \emph{Human extinction sits in the difference
 $\mu G\setminus\mathrm{Base}$.} It is not itself a biosphere-level
@@ -872,27 +913,60 @@ the hazard's. Computing that rate is open \textbf{[O]}.
 
 \begin{proposition}[One permanent floor suffices; \textbf{P} given the
 model]\label{gc:prop:onefloor}
-Advancing requires $\Lambda_\infty<\infty$, which requires
-$h^{\mathrm{tot}}_t\to0$, which --- the total being a \emph{sum} of
-non-negative channels --- requires \emph{every} channel to vanish.
-Hence a single channel possessing a permanent floor, one with no
-remaining route by which it falls arbitrarily again, forecloses on its
-own. One does not need the whole base hazard to have the property, and
-in particular one does not need the internal channel to participate:
-a permanent floor in the external channel alone places the state in
-$\mu G$.
+Suppose some channel $h_j$ of \eqref{tc:eq:hazard} acquires a
+\emph{permanent floor}: there are $c>0$ and $t_0$ with
+$h_j(t)\ge c$ for all $t\ge t_0$, no route remaining by which it falls
+arbitrarily again. Then $\Lambda_\infty=\infty$, so
+$\PP(\Lambda_\infty<\infty)=0$ and the state lies in $\mu G$.
 \end{proposition}
 
-\begin{example}[Human extinction as an Imperfection Magnitude Drop;
-\textbf{[$\Phi$]}]\label{gc:ex:humanIMD}
+\begin{proof}
+The channels are non-negative, so $h^{\mathrm{tot}}\ge h_j$ pointwise,
+and
+\[
+\Lambda_\infty=\int_0^{\infty}h^{\mathrm{tot}}_t\,dt
+\;\ge\;\int_{t_0}^{\infty}h_j(t)\,dt
+\;\ge\;\int_{t_0}^{\infty}c\,dt=\infty. \qedhere
+\]
+\end{proof}
+
+\noindent Two things the proof does \emph{not} use are worth marking,
+since both are tempting and one is false. It uses no property of the
+other channels: in particular the internal channel need not
+participate, and a permanent floor in the external channel alone
+places the state in $\mu G$ --- which is the claim's whole point, that
+one does not need the base hazard entire. And it does not pass through
+``$\Lambda_\infty<\infty$ requires $h^{\mathrm{tot}}_t\to0$'', which
+would be the natural route and is not available: a non-negative
+function may have finite integral without tending to zero, as tall
+narrow spikes of shrinking width show. The floor hypothesis makes the
+detour unnecessary, since it bounds the integrand below on a set of
+infinite measure directly.
+
+\begin{example}[Human extinction as an Imperfection Magnitude Drop]
+\label{gc:ex:humanIMD}
 Human extinction is an Imperfection Magnitude Drop, and for reasons
-that are structural rather than sentimental. The cascade to human
-evolution ran through the human--chimpanzee last common ancestor,
-which no longer exists to be run through again; and the specific
-sequence of climatic and geographical events that brought that lineage
-down to the grasslands has been cashed out, the world now standing at a
-different stage. The pathway is therefore not merely improbable on
-repetition --- it is \emph{unrepeatable}, its preconditions spent.
+that are structural rather than sentimental. The grades differ across
+the parts and are marked where they fall: (A) and (B) below are claims
+about historical individuation \textbf{[$\Phi$]}, their combination
+with Proposition~\ref{gc:prop:onefloor} is \textbf{[P]} given the
+model, and the smallness of $\varepsilon$ is imported at the
+companion's grade (Remark~\ref{gc:rem:twolegs}). Two reasons, kept
+separate because they are referred to separately below:
+
+\begin{description}\itemsep2pt
+\item[\normalfont(A) \emph{The lineage is spent.}] The cascade to human
+evolution ran through the human--chimpanzee last common ancestor, a
+particular historical individual which no longer exists to be run
+through again.
+\item[\normalfont(B) \emph{The setting is spent.}] The specific sequence
+of climatic and geographical events that brought that lineage down to
+the grasslands has been cashed out, the world now standing at a
+different stage.
+\end{description}
+
+\noindent The pathway is therefore not merely improbable on repetition
+--- it is \emph{unrepeatable}, its preconditions spent.
 
 The consequence combines with
 Proposition~\ref{gc:prop:onefloor}. With no muffling agent and no
@@ -901,11 +975,16 @@ floor: it will never again fall. One such channel suffices, so on every
 branch carrying no new muffling agent, human extinction is a Departure
 Point outright --- in the modal sense of
 Definition~\ref{gc:def:departure} and not merely a step toward one.
-Across the full Aethic weight it is an $\varepsilon$-Departure Point in
-the sense of Definition~\ref{gc:def:epsdep}, with $\varepsilon$ the
-weight of the recovery branch; the reasons above are what make that
-$\varepsilon$ small, since they remove the route rather than merely
-lengthening it (Remark~\ref{gc:rem:boltzmann}).
+Across the full Aethic weight the statement is graded rather than
+outright, since some weight survives on branches reaching the Golden
+Point by other routes; $\varepsilon$ is that weight, and
+\S\ref{gc:subsub:grading} gives both its mechanism and its formal
+statement. The reasons above bear on it in a specific way worth keeping
+straight: they make the human route contribute \emph{nothing},
+removing it rather than lengthening it, so whatever $\varepsilon$ is,
+none of it comes from here. What makes $\varepsilon$ small rather than
+merely positive is a separate matter, and is leg two of
+Remark~\ref{gc:rem:twolegs}.
 
 \emph{Why this is not a probability claim, and why that matters.} The
 distinctive move is the conversion of an improbability into an
@@ -957,35 +1036,65 @@ companion's grade.
 \end{remark}
 \end{example}
 
+\subsubsection{Grading, and why two states suffice}
+\label{gc:subsub:grading}
+
+The cascade settles what a Departure Point \emph{is}. What remains is
+that no realistic state satisfies it exactly, since some weight always
+survives on branches that advance --- so the operative statements are
+graded, and the grading attaches to weight rather than to kind.
+
 \begin{remark}[The recovery branch: a genuine Aethic superposition,
 and the grading it supports]\label{gc:rem:boltzmann}
 An Imperfection Magnitude Drop does not drive the probability of later
-recovery to zero. Some minute weight remains on branches in which the
-Golden Point is somehow reattained, and this sits in apparent tension
-with a Departure Point defined by a strict modal quantifier: if
-\emph{some} continuation advances, however faintly, then not every
-continuation fails, and the label should not apply.
+recovery to zero, and it is worth being exact about why not, since the
+mechanism is not the one the phrase ``recovery'' first suggests. What
+remains is not weight on branches in which the \emph{same} route is run
+again: that route is foreclosed by (A) and (B) of
+Example~\ref{gc:ex:humanIMD}, and foreclosed by unavailability rather
+than by improbability, so no weight sits there at all. What remains is
+weight on branches along which some \emph{other} series of events ---
+itself passing through Imperfection Magnitude Drops, as any long
+natural-historical route must --- arrives at the Golden Point by a
+different path entirely. Such routes exist. The High-Contrast Earth
+Hypothesis is what makes them minute: alternatives are not merely
+different from the realised route but multiplicatively distant from it
+in Golden probability, so their total weight is small \cite{Nexus,
+Ben26Optimal}.
 
-\emph{One resolution is unavailable, and saying why fixes the scale of
-the problem.} The companion's visibility semantics holds that carriers
-at negligible weight are not invalidated --- no tag flips --- but fail
-to be visible to the consistency postulate's recursion, and so cannot
-come to the aid of preventing invalidity \cite{WeightAlg}. That
-mechanism does not apply here. The negligibility relation $\ll$ is
-non-Archimedean, stratifying zero weight, null-set presence, and
-null-set presence within a null set; at the real-weights base case the
-measure-zero class is exactly $\{0\}$. A recovery probability of
-$10^{-40}$ is not negligible in that sense but an ordinary positive
-real, hence visible, hence a witness in $S(x)$ --- and the state is
-therefore \emph{not} labeled invalid. Small is not null, and the
-apparatus is careful about the difference.
+The two contributions to the recovery weight are therefore of different
+kinds, and conflating them costs the argument its structure. The human
+route contributes \emph{nothing}, because it is absent from the option
+set. Alternative routes contribute \emph{something small}, because they
+are present but multiplicatively remote. It is the second alone that
+makes $\varepsilon$ positive --- and this is exactly the division of
+labour that Remark~\ref{gc:rem:twolegs} draws between its two legs.
 
-\emph{The correct reading keeps the superposition.} The post-drop state
-is a genuine weighted combination of a departed branch and a recovery
-branch, both valid, in the proportion the physics dictates; nothing is
-rounded and nothing is deleted. What follows is that the Departure
-Point label, taken strictly, does not attach --- and that the honest
-statement is graded rather than binary.
+That small positive weight sits in apparent tension with a Departure
+Point defined by a strict modal quantifier: if \emph{some} continuation
+advances, however faintly, then not every continuation fails, and the
+label should not apply.
+
+\emph{The post-drop state is an Aethic superposition, and that is the
+whole of the resolution.} An Imperfection Magnitude Drop does not
+replace one state by another; it produces a state carrying both a
+departed component and a recovery component, each genuinely stated, in
+whatever proportion the physics dictates \cite{WeightAlg}. Neither
+component is an artefact of description, and neither is deleted by the
+other being large. The recovery branch is therefore \emph{present in
+the Aethus}, not absent from it and merely improbable --- which is
+precisely the condition a strict universal quantifier is sensitive to.
+
+\emph{So the label does not attach, and grading is forced rather than
+chosen.} If a component that advances is genuinely stated, then it is
+false that every continuation fails, and
+Definition~\ref{gc:def:departure} does not apply however small that
+component's weight. What the situation calls for is not a verdict about
+whether the state is departed but a measurement of how much of it is:
+the superposition is graded, so the description of it must be graded
+too. Nothing is rounded and nothing is discarded to reach that
+conclusion --- the grading is read off the state rather than imposed on
+it.
 
 \begin{definition}[$\varepsilon$-Departure Point]\label{gc:def:epsdep}
 A state is an \emph{$\varepsilon$-Departure Point} when the total
@@ -1001,6 +1110,38 @@ a Departure Point, probabilistically}. That is a stronger claim than
 the binary label would have been, not a weaker one: it carries a
 number where the label carried only a verdict, and it is true where the
 label was not.
+
+This settles the question the definition deferred.
+
+\begin{remark}[Where the variation lies]\label{gc:rem:pairsuffices}
+Write $w(A)$ for the total Aethic weight that state $A$ places on
+continuations which advance. The categories are $\nu F$ and $\mu G$,
+complementary and exhaustive on definite states
+(\S\ref{gc:subsub:cascade}). What varies across biospheres is therefore
+not \emph{which} category one occupies but \emph{how weight is
+distributed} across the two: a state at $0<w<1$ is a superposition of
+the pair in the proportion $w:1-w$, exactly as
+Remark~\ref{gc:rem:boltzmann} describes the post-drop state.
+
+Three consequences.
+
+\emph{The weights carry what a finer taxonomy would.} The framework
+supplies Aethic weights already, and $w$ is a number where a category
+would be a verdict; the finer information is in the weight and is
+available without further vocabulary.
+
+\emph{The grading attaches to the state, not to the kind.}
+Definition~\ref{gc:def:epsdep} grades by weight, which is the correct
+place for grading to sit: an $\varepsilon$-Departure Point is a state
+whose Departure-tending weight is $1-\varepsilon$.
+
+\emph{Every actual biosphere is superposed, and this is the subject
+matter.} None is secured and none has $w=0$ while advancing
+continuations remain, so every case of interest carries weight on both
+poles. That is also why \S\ref{gr:sec}'s interpolation $\PP^{(t)}$ is
+the right object: it tracks the redistribution of weight between the
+two, rather than arrival at either.
+\end{remark}
 
 \begin{remark}[Where the strictness survives, and the two layers]
 \label{gc:rem:twolayers}
@@ -1026,10 +1167,9 @@ weighted layer laid over it without disturbing them
 recursion and belongs to the first: $\mu G$ is a set, computed from
 implication alone. The grading of
 Definition~\ref{gc:def:epsdep} belongs to the second. Neither
-displaces the other, and the temptation to make the cascade itself
-graded should be resisted until someone works out what a fixed point of
-an $M$-valued doom operator is --- which is open \textbf{[O]} and is
-the natural next question this remark raises.
+displaces the other. Making the cascade itself graded would require a
+fixed point of an $M$-valued doom operator, which is open \textbf{[O]}
+and is the natural next question this remark raises.
 \end{remark}
 \end{remark}
 
@@ -4978,10 +5118,10 @@ useful with arbitrary units. Golden reasoning supports three stronger
 objections, of which the first is a theorem.
 
 \emph{(i) The terminal stage exists, and is gated by a variable the
-scale cannot see.} It is tempting to argue instead that no terminal
-stage exists at all, since $\Lambda_\infty=\infty$ almost surely --- but
-that holds of the driftless model and not in general, and the stronger
-claim is available. By Theorem~\ref{gr1:thm:twocond},
+scale cannot see.} In the driftless model $\Lambda_\infty=\infty$
+almost surely and no absorbing state of safety exists; in general one
+does, and locating it is what makes the objection bite. By
+Theorem~\ref{gr1:thm:twocond},
 \[
 \PP(\text{viable})=\one\{\rho>0\}\cdot
 \frac{s(\mu_0)-s(-\infty)}{s(+\infty)-s(-\infty)},
