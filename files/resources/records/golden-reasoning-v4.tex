@@ -775,6 +775,98 @@ machinery for commitments already made there, not as generating
 them.}
 \end{definition}
 
+\subsubsection{The implication cascade: departure as a least fixed point}
+\label{gc:subsub:cascade}
+
+Definition~\ref{gc:def:departure} carries a recursion that is worth
+making explicit, because it is already available in the companion
+framework in finished form and because it changes what the model's
+hazard is a hazard \emph{of}.
+
+The internal and external hazards of \eqref{tc:eq:hazard} \emph{imply}
+departure; they are not exhaustive of it. A biosphere may reach a
+configuration from which no route avoids those hazards, and by the
+modal definition that configuration \emph{is} a Departure Point,
+attained before either hazard has fired. The statement ``no matter what
+you do, you reach a Departure Point'' is itself a Departure Point ---
+and since that statement can again be true one step earlier, the
+implication propagates.
+
+\begin{remark}[This is the third postulate's operator, and it is proved]
+\label{gc:rem:thirdpostulate}
+The companion's third postulate supplies exactly this recursion
+\cite{Aethus}. Over states ordered by descent, with $\mathrm{Base}$
+collecting the non-recursive modes, it defines a safety operator and
+its dual
+\begin{align*}
+F(Y)&=\bigl\{A\notin\mathrm{Base}:\ \exists B\sqsubseteq A,\
+\forall C\sqsubseteq B,\ C\in Y\bigr\},\\
+G(X)&=\mathrm{Base}\cup\bigl\{A:\ \forall B\sqsubseteq A,\
+\exists C\sqsubseteq B,\ C\in X\bigr\},
+\end{align*}
+both monotone, so that by Knaster--Tarski the greatest fixed point
+$\nu F$ and least fixed point $\mu G$ exist for arbitrary branching and
+are complements of one another; for finitely-branching trees the
+closure ordinal is at most $\omega$, so the cascade terminates.
+
+Read $\mathrm{Base}$ as departure by internal or external hazard.
+Then $G$ is the doom operator in the sense above --- every route has a
+doomed continuation --- and the Departure Point is
+\begin{equation}\label{gc:eq:departurefix}
+\mathcal{D}\;=\;\mu G\;\supsetneq\;\mathrm{Base}.
+\end{equation}
+Three consequences, each already carried by the companion's
+machinery rather than assumed here.
+
+\emph{The implication is one-directional by design.} The companion
+states the third postulate as an implication and not a biconditional,
+which is precisely the containment in \eqref{gc:eq:departurefix}: the
+hazards suffice for departure and are not necessary to it.
+
+\emph{The Golden/Departure duality is a theorem, not a construction.}
+The Golden Point is $\nu F$ --- there exists a route all of whose
+continuations remain safe --- and the Departure Point is $\mu G$. Their
+being exact mirrors is the complementarity of the two fixed points, so
+the duality asserted in Definition~\ref{gc:def:departure} need not be
+stipulated: it is inherited.
+
+\emph{Human extinction sits in the difference
+$\mu G\setminus\mathrm{Base}$.} It is not itself a biosphere-level
+departure by internal or external hazard,
+since the biosphere persists; but with no muffling agent remaining,
+every continuation reaches $\mathrm{Base}$
+(Proposition~\ref{hr:prop:extinction}). It therefore enters at the
+first step of the cascade. The classical reading --- that human
+extinction is a Departure Point because it is only a matter of time ---
+is the $n=1$ case of the recursion, and \eqref{gc:eq:departurefix} is
+what licenses it.
+\end{remark}
+
+\begin{remark}[The model's hazard is a lower bound]
+\label{gc:rem:hazardlower}
+The consequence for \S\ref{gr1:sec} should be stated plainly, since it
+qualifies every rate in this work. The hazard $h^{\mathrm{tot}}_t$ of
+\eqref{tc:eq:hazard} is the hazard of $\mathrm{Base}$: it prices the
+internal and external mechanisms and nothing else. The hazard of
+\emph{departure} is the hazard of $\mu G$, which by
+\eqref{gc:eq:departurefix} is at least as large and in general strictly
+larger --- because a biosphere departs when its fate is sealed, not
+when the sealing is executed, and the interval between those can be
+long.
+
+So the model's timescales are conservative in a specific direction:
+where it reports a departure time $T$, the Departure Point proper may
+have been passed considerably earlier, and the survival curves of
+\S\ref{gr1:sub:verdict} are upper bounds on the probability of not
+having departed. Nothing in the asymptotic analysis is disturbed by
+this --- a cascade that fires earlier by a bounded lead time leaves
+exponents untouched --- but the quantitative readings inherit it, and
+the anatomy urgency of \S\ref{gr1:subsub:fluct} is sharpened by it: the
+window in which one may still act closes at the cascade's rate, not at
+the hazard's. Computing that rate is open \textbf{[O]}.
+\end{remark}
+
+
 \begin{principle}[Continuity; \textbf{[$\Phi$]}]\label{gc:prin:continuity}
 The struggle our ancestors underwent against the Departure Point in
 natural history is continuous, philosophically and ontologically, with a
@@ -2059,6 +2151,16 @@ statement of what is \emph{not} claimed about the future, together with
 the three hypotheses that exhaust the forward question. And a
 reorganisation of the surrounding work into the development of one
 object, stated in Remark~\ref{gc:rem:reversal}.
+
+\paragraph{Inherited dependency.} Both arguments now depend on
+technoanatomy being a \emph{process} rather than a parameter, for the
+reason given in Remark~\ref{hr:rem:forcesprocess}: under a fixed
+adverse $\rho$ the cascade pronounces the question closed before it is
+asked, and the section's claims are then vacuously true and useless.
+The dynamics of $\rho_t$ are open \textbf{[O]}
+(\S\ref{gr1:subsub:fluct}), so this section's arguments are conditional
+on a piece of the framework that is not yet built. That is a real
+exposure and is not reduced by the arguments' internal soundness.
 
 \paragraph{Not claimed.} That the future cone aligns with the Golden
 Nexus; that the Golden Point will occur; that any of the three
@@ -5905,7 +6007,12 @@ $\PP(\Lambda_\infty<\infty)=0$ identically: \emph{no} continuation
 available to that biosphere advances. The modal quantifier of
 Definition~\ref{gc:def:departure} is therefore satisfied at once, and
 the Departure Point is not a fate awaiting the undisturbed world but
-its present condition. A biosphere left alone has not been preserved;
+its present condition. In the terms of
+\S\ref{gc:subsub:cascade}: $x\equiv0$ lies in
+$\mu G\setminus\mathrm{Base}$ --- it is a departure at which no hazard
+has yet fired, entered by configuration rather than by event. The
+extinctionist proposal is a proposal to enter the cascade
+deliberately. A biosphere left alone has not been preserved;
 it has been placed in the one configuration from which nothing
 leads anywhere. The extinctionist is not choosing a world that
 survives without us. They are choosing a world that cannot go
@@ -6019,6 +6126,29 @@ is that between a bad reason to persist and a live asset one may
 discard.
 \end{remark}
 
+\begin{remark}[Forfeiture is not observable]\label{hr:rem:silentforfeit}
+The cascade of \S\ref{gc:subsub:cascade} adds a feature to the stakes
+argument that is worth stating separately, because it is the feature
+that makes the argument urgent rather than merely large.
+
+A biosphere enters $\mu G$ at the moment the last advancing route
+closes, and by \eqref{gc:eq:departurefix} that moment precedes the
+firing of any hazard --- possibly by a great deal. Nothing marks it.
+There is no event to observe, no loss to register, and by
+\S\ref{gr:sub:ceiling} no finite observation that would distinguish a
+biosphere which has just crossed from one which has not. The
+accumulation is not forfeited in some future catastrophe one might see
+coming and reconsider; it is forfeited silently, at whatever point the
+routes ran out, and the catastrophe is only the execution.
+
+This does not make the stakes argument more permissive --- see the
+limits below --- but it does relocate what the argument is about. It is
+not a claim that a visible disaster would be very bad. It is a claim
+that the relevant transition is invisible, which is why deferring
+attention to anatomy until the danger is legible is deferring it past
+the point where deferral is possible.
+\end{remark}
+
 \begin{remark}[What this does and does not license]\label{hr:rem:stakeslimit}
 The stakes argument establishes an asymmetry between forfeiting and
 never having had, and nothing beyond it. In particular it does not
@@ -6056,6 +6186,43 @@ superexponentially. Supplying capability alone is strictly worse than
 supplying neither: a poorly-constituted biosphere that stagnates sits
 near its hazard floor $h_\ast$, while one that accelerates runs at its
 own cliff.
+
+\begin{remark}[The cascade forces anatomy to be a process]
+\label{hr:rem:forcesprocess}
+Both arguments of this section, taken with
+\S\ref{gc:subsub:cascade}, deliver a verdict on the fixed-$\rho$ model
+that is worth confronting rather than absorbing.
+
+If $\rho<0$ and $\rho$ is a \emph{constant}, then
+Theorem~\ref{gr1:thm:twocond} gives
+$\PP(\Lambda_\infty<\infty)=0$ identically --- at every time, including
+$t=0$. By the modal definition the biosphere is then in $\mu G$ from the
+outset: no continuation available to it ever advances, and it departed
+before anything happened. That is a degenerate verdict. It says the
+question of what such a biosphere should do was settled before it was
+asked, which is not a claim about biospheres but a symptom of the
+model.
+
+The degeneracy has exactly one exit, and it is not a matter of taste.
+It is avoided if and only if $\rho$ can change --- if adverse anatomy
+now leaves open a continuation in which anatomy is not adverse later.
+That is the fluctuating-anatomy setting of
+\S\ref{gr1:subsub:fluct}, where
+Corollary~\ref{gr1:cor:recurrentanatomy} and
+Proposition~\ref{gr1:prop:tolerance} take over, and where the question
+becomes whether the escape is completed in time rather than whether it
+was ever available.
+
+So the cascade converts emergent anatomy from a desirable extension
+into a \emph{requirement of coherence}. A framework that treats
+technoanatomy as a parameter and departure as modal closure will
+pronounce every adverse-anatomy biosphere already lost; only a
+framework in which anatomy has its own dynamics can say the thing this
+section is trying to say, which is that the matter is open and the
+window is closing. The arguments above should be read as holding under
+the fluctuating reading, and the fixed-$\rho$ statements as the
+limiting case in which the window has already shut.
+\end{remark}
 
 \begin{remark}[The two errors are the same error]\label{hr:rem:sameerror}
 Placed side by side, the positions are not opposites but a single
