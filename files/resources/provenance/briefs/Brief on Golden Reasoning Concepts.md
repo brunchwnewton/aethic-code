@@ -162,7 +162,7 @@ Well my one rebuttal though is that rho\<0 doesn't make them RIGHT, it just mean
 
 So to be clear, my argument is that the stakes demand in such a scenario we FORCE THE PUSH FOR RHO TO BE HIGHER, not simply give up and settle on the human extinction option for the inevitable biosphere extinction.
 
-## Written up through 1:14 PM EST, August 5, 2026
+## Written up through 1:38 AM EST, August 5, 2026
 
 Oh I see what you’re saying, ok very cool, thanks\! Actually this is surprisingly doable, all things considered\! Here are my two immediate intuitions:
 
@@ -177,3 +177,24 @@ My particular leaning though—and this important for the perturbation robustnes
 Now we would simply need to streamline this for a bunch of cases, and viola we have for each the counterfactual weight\! To get each individual counterfactual weight, note, one simple thing you could do is take the set of stated-attributes we’ll try to perturb for the particular analysis, perturb exactly one to the logical complement for each, and then because all these Aethae are disjoint (ie each perturbs only one and never the same one, so we’re disjoint in two slots for each) we can simply add them to get the total Aethus. Then it’s simply about comparing the Aethic weight of all these Aethae versus our own with no perturbations, which by the Aethic definition of probability as weight is simply that for each given one, if the probability of the event going our way is alpha, for that other one it’s 1-alpha. Hence, those are the compared weights, or rather if our Aethus has weight x by convention, then the other one is x\*(1-alpha)/alpha if I’m reasoning correctly on that\! So yeah in any case we then add all of these Aethic weights for the others, so the total is going to be a lot greater than x itself I believe\! And technically these others are even an undercount of the alternatives, because they only flip one slot to the logical complement each, so in reality the “alternative” is even greater than what they provide, but if you wanted to actually calculate it you would have to pay attention to where the slots themselves are not independent events and stuff, so it probably isn’t just naive multiplication\!
 
 Anyways, thanks\!
+
+## Written up through 2:06 AM EST, August 5, 2026
+
+So basically the idea is that for each possible probability of Britain-level coal showing up at least somewhere on Earth (basically as a Poisson distribution for random occurrence at that quality threshold anywhere on Earth's land area), if we condition on there being at least one instance (ie Optimation's influence) then for the expected number of times being much higher than one, it's unlikely that it'd be one alone, whereas if the expected number of times is far LESS than one, then it makes perfect sense that we would only have one, because Optimation conditions on it having to happen only once for success, so many more are unhelpful. So, in other words it makes perfect sense that we would see one alone under Optimation if the expected number of times is very very small, but not so much if it's greater than one\! So then my argument is how we might be able to set up a probability statement to try and infer that it is indeed less than one expected time, using the actual stats as a sanity check sort of thing\!
+
+## Written up through 3:37 AM EST, August 5, 2026
+
+Great, thanks\! And another thing worth noting is that the Departure Point is what the internal/external hazard rate in the paper is OF, see\! Rather than "biosphere death", vaguely speaking, which if you think about it is only a special case of "inability to advance past the point". See what I mean? So the other fundamental concept of the event horizon-based futurism concept is that "inability to progress past that point" is considered the more primitive concept of "failure", such that "death of the biosphere" is merely one instance of that. If you will, we extract the phenomenology of failure out from biosphere-death itself, and rendering that phenomenological object itself also naturally extends it to all Departure Point instances. Thanks\!
+
+## Written up through 3:49 AM EST, August 5, 2026
+
+Right, so classically I have considered human extinction a Departure Point event because it's only a matter of time until the biosphere gets wiped out, and I think that still holds up in the current formalism as well\!
+
+## Written up through 3:53 AM EST, August 5, 2026
+
+Also I want to point out the Aethic third postulate-like recursion we might even be able to run here—the internal versus external hazard itself can be something which IMPLIES the Departure Point like a label, but is not exhaustive over the converse, that way we can actually propagate EARLIER Departure Points of just this sense. That is, the statement of “no matter what you do, you reach a Departure Point” is itself a Departure Point, so really the internal versus external danger IMPLY a Departure Point, so the recursion is that we can in actuality have much quicker-timescale hazard rates than those as reaching the Departure Point by the implication cascade. Maybe look up the semiring algebra for the third Aethic postulate for reference\! 
+
+## Written up through 4:09 AM EST, August 5, 2026
+
+By the way, another significant modal aspect I want to mention is that human extinction itself, I take it, would be an IMD, since A) humans evolving came from the human-chimpanzee LCA in particular, which no longer exists to nail the perfect cascade to human evolution, and B) the exact set of climate and geographical events which triggered said species coming down to the grasslands has now been cashed out, as the world exists in a different stage. So, fundamentally speaking, human extinction is genuinely an IMD, and so in the vast majority of the Aethic weight case (except the recovery one) that’s a straight up Departure Point, because even the external danger term will never be dropping again\! Even one such permanently-lasting term which has zero chance of falling arbitrarily again is sufficient to call the Departure Point in the modal sense, as in you don’t need *the whole* base hazard rate to have this property, like internal-included\!   
+Also a tension worth working out/formalizing is how IMDs themselves leave a tiny, Boltzmannian-like miniscule probability of recovery of the Golden Point anyway, so we basically need to figure out how to reconcile that with the actual modal statement of the Departure Point itself—as in, do we round down, or place such in an Aethic superposition over the Aethae, etc etc etc. 
