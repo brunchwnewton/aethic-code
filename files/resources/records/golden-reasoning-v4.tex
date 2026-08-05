@@ -692,33 +692,52 @@ Revolution. It must instead splice two analyses at a joint it has no
 principled way to locate.
 
 \begin{definition}[Departure Point]\label{gc:def:departure}
-The \emph{Departure Point} is the complement of the Golden Point: the
-event at which a biosphere departs from advancement once and for all.
-The primitive is \emph{failure to advance past the point}, and the
-ordering matters. Biological death is not the definition with
-advancement as a gloss; it is one instance of the definition. A
-biosphere may fail to advance by dying, but equally by persisting
-without ever again approaching the Golden Point, or by regressing
-irreversibly --- and all three are the same event under this
-description, differing only in how they are realised.
+The \emph{Departure Point} is the event past which \emph{every}
+continuation fails to advance --- the first moment at which all
+scenarios lead to a failure to advance past that point. The modal
+quantifier is the definition and not an embellishment of it: what is
+being named is the closure of possibility, not the observation of
+non-progress.
 
-What is being extracted is the \emph{phenomenology of failure}, taken
-apart from the particular mechanism of biosphere-death in which it is
-most visible. Once extracted it applies wherever there is a trajectory
-to fail at, which is why the notion carries across the scales that
-Principle~\ref{gc:prin:continuity} needs it to.
+\emph{This is what makes it the dual of the Golden Point.} That was
+defined as the point past which a biosphere is too capable at self
+preservation to regress past it --- i.e.\ the point past which every
+continuation \emph{avoids} foreclosure. The two are exact mirrors, and
+both are \emph{points} for the same reason: irreversibility. A state
+one may still leave is not a point but a phase, and neither concept is
+about phases.
+
+Two consequences of stating it this way.
+
+\emph{Biological death is a mechanism, not the definition.} Death is one
+way a trajectory is foreclosed, and it happens to be the most visible
+one; irreversible loss of the capacity to advance is another, and the
+definition is indifferent between them. What is extracted is the
+\emph{phenomenology of foreclosure}, taken apart from the particular
+mechanism of biosphere-death in which it is most legible --- and once
+extracted it applies wherever there is a trajectory to foreclose,
+which is why the notion carries across the scales
+Principle~\ref{gc:prin:continuity} requires.
+
+\emph{Non-advancement alone does not suffice.} A biosphere that fails
+to progress for an age has not thereby reached its Departure Point; it
+has had a lull, and a lull is reversible. Only when no continuation
+remains that advances has the point been passed. This is the
+distinction that the phrase ``failure to advance'' elides and that the
+quantifier restores.
 
 Two consequences for how the model of \S\ref{gr1:sec} should be read.
 The hazard $h^{\mathrm{tot}}_t$ of \eqref{tc:eq:hazard} is the hazard
-\emph{of the Departure Point}, not of death; the muffling exponent $x$
-is accumulated against that; and every Imperfection Magnitude Drop is a
-movement toward it. And the survival functional
-$\Lambda_\infty=\infty$ is the analytic form of failure-to-advance
-rather than a statement that the biosphere expires --- which is why the
-trapped regime of Proposition~\ref{gr1:prop:trichotomy}(iii) counts as
-a Departure Point outcome even where a biosphere halts at $x_\ast$ and
-persists there indefinitely. Halting is not surviving; it is failing to
-advance at a fixed rate of hazard.
+\emph{of foreclosure}, not of death; the muffling exponent $x$ is
+accumulated against that; and every Imperfection Magnitude Drop is a
+movement toward it. And $\PP(\Lambda_\infty<\infty)=0$ is the analytic
+form of the modal claim --- it says that \emph{no} continuation
+advances, which is precisely the quantifier above. This is why the
+trapped regime of Proposition~\ref{gr1:prop:trichotomy}(iii) has
+departed: not because a biosphere halting at $x_\ast$ has stopped, but
+because with $\rho<0$ the viability probability is identically zero, so
+no continuation available to it advances. Halting is not the departure;
+having nowhere left to go is.
 
 The term is used rather than ``extinction'' deliberately, and the
 reason is the same one that governs the choice of the Golden Point
@@ -3122,12 +3141,14 @@ theorem should not be read as saying otherwise.
 
 \begin{remark}[What $T$ is the time of]\label{gr1:rem:whatTis}
 Throughout this section $T$ is the time of the \emph{Departure Point}
-(Definition~\ref{gc:def:departure}), not of biological death, and
-$h^{\mathrm{tot}}$ is that event's hazard. Biological death is one way
-of realising it; persisting indefinitely without further approach to
-the Golden Point is another, and the analysis does not distinguish
-them, because for the purposes of advancement they are the same
-outcome. Where the classical results imported below speak of survival
+(Definition~\ref{gc:def:departure}) --- the moment past which no
+continuation advances --- not of biological death, and
+$h^{\mathrm{tot}}$ is that event's hazard. Death is one mechanism of
+foreclosure and irreversible loss of the capacity to advance is
+another; the analysis does not distinguish them, because for
+advancement they are the same event. It does, however, distinguish both
+from a mere lull: a biosphere that has stopped progressing but could
+still resume has not reached $T$. Where the classical results imported below speak of survival
 and first passage, the vocabulary is theirs and the referent here is
 departure. Read that way, $\PP(\Lambda_\infty<\infty)$ is the
 probability of \emph{advancing}, not of not dying --- which is what the
@@ -3570,12 +3591,15 @@ exactly.
 
 \begin{remark}[What the theorem computes]\label{gr1:rem:twocondreading}
 By Remark~\ref{gr1:rem:whatTis}, $\PP(\Lambda_\infty<\infty)$ is the
-probability that the biosphere \emph{advances} --- that it does not
-depart. The two-condition theorem below therefore does not say what it
-takes to avoid dying; it says what it takes to keep going, and the two
-factors are the two things keeping going requires. That reading is what
-makes the trapped regime intelligible: a biosphere halting at $x_\ast$
-has not died, and has still departed.
+probability that the biosphere \emph{advances} --- that some
+continuation available to it reaches the Golden Point. The
+two-condition theorem below therefore does not say what it takes to
+avoid dying; it says what it takes for a route to exist at all, and the
+two factors are the two things a route requires. That reading is what
+makes the trapped regime intelligible: with $\rho<0$ the probability is
+identically zero, so a biosphere there has departed in the strict
+sense --- not because it has stopped, but because nothing it can do
+advances.
 \end{remark}
 
 \begin{remark}[Transience is a feedback loop]\label{gr1:rem:feedback}
@@ -5874,13 +5898,16 @@ The reframing of Definition~\ref{gc:def:departure} sharpens what is
 being chosen, and sharpens it against the position. Under a reading on
 which the relevant event is biological death, ``leave nature alone''
 sounds like survival, and the argument must show that death follows
-anyway. Under the reading on which the Departure Point is
-\emph{failure to advance}, no such demonstration is needed: $x\equiv0$
-\emph{is} failure to advance, immediately and by construction, whether
-or not anything dies for a very long time afterwards. A biosphere left
-undisturbed has not been preserved; it has been placed in the one
-configuration from which the Golden Point is unreachable with
-probability one. The extinctionist is not choosing a world that
+anyway. Under the reading on which the Departure Point is the closure of
+possibility, no such demonstration is needed. At $x\equiv0$,
+Proposition~\ref{hr:prop:extinction} gives
+$\PP(\Lambda_\infty<\infty)=0$ identically: \emph{no} continuation
+available to that biosphere advances. The modal quantifier of
+Definition~\ref{gc:def:departure} is therefore satisfied at once, and
+the Departure Point is not a fate awaiting the undisturbed world but
+its present condition. A biosphere left alone has not been preserved;
+it has been placed in the one configuration from which nothing
+leads anywhere. The extinctionist is not choosing a world that
 survives without us. They are choosing a world that cannot go
 anywhere. Destabilisation of the star, a sufficiently
 close hypernova, orbital perturbation by a passing mass --- these do not
