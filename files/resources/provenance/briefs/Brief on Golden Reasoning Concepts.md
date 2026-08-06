@@ -259,3 +259,32 @@ I mean my intuition for this is that again it's totally random in log space. As 
 ## Written up through 8:42 PM EST, August 5, 2026
 
 Amazing, and that's freaking remarkably awesome, then\! That formulation derives HCEH just due to the random hazard rates, right, and also then gets the Optimal Earth conjecture by conditioning on the very Golden Point / asymptotic survivorship limit\! Very very cool\! What are some other open questions, now? Thanks\!
+
+## Written up through 8:55 PM EST, August 5, 2026
+
+Ok so for Q1, my instinct is that the decay coefficient itself decreases exponentially as we traverse the schedule, and that exponential itself is huge---so that at the start of the schedule it's basically cosmically high.
+
+Q2) To be clear, I don't want to OVERWRITE the original form of the internal channel---rather it's heuristically more valuable so long as we can't predict ahead of time what the gates boosting rho actually are, effectively\! I have some ideas for how to work it out, but the default should still be the current form, awaiting the attempted emergence-derivation\!
+
+Q4) Capacity meaning what again? As far as I know the gates are totally stochastic though in the direct sense of the "good" one being based on how easy its later gates are\!
+
+Q6) You mean like the equivalent for this one of the Aethic third postulate's two generations? I mean I'm not sure since I haven't thought much about it, but how well does it work to make it simply a concept of the whole "all paths lead to the Departure Point" rather than merely all paths make the Departure Point exist? If that's not possible, let me know\!
+
+N1) well, the conditioning of Accordance for the past light cone now IS infinite-biosphere-survival, is the idea. So Accordance principle-based-on-Aetherians is an inferential tool, but whatever axioms it helps you infer don't rely on it anyway in any deductive sense, it's just a guide in that sense.
+
+N3) Right, for the part about the caps, come to think of it I suppose we have to cap both sides anyway---ie the fast end AND the slow end, so maybe all we do is actually use a logistic distribution IN log space, since it's linear for most of the time anyway or something like that\! Nothing in particular sets it in the sense that we might imagine getting exactly this graph by measuring the empiricism, so ontologically you can't exactly assert what sets it anyway---you don't have the contextual leverage to do so as a human just meeting this thing in the wild\!
+
+## Written up through 12:55 PM EST, August 6, 2026
+
+Right, that's a good call that some of the content is a bit over the top, however right there are definitely some salvageable parts in there\! Also a simple fix I think for some of it is rebranding the "Golden obligation" thing to not be arbitrarily-traditional obligation in definition, but rather a direct response to the stakes argument. Right?
+
+Also, yes, don't worry about trying to actually stick the whole thing in, what I want is to put a normative ethics section in the paper, which extracts the highlights but without the issues. Thanks\!
+
+As for the skyscraper argument by the way, the idea was simply that post-Departure states are all equivalent, so not taking the climb is 0%-non-Departric, whereas climbing is 1%-non-Departric, thereby making it the superior option by being greater. See what I mean? So it's contingent probability based on your own success rather than the Pascal's wager "it's already decided, but does it turn out to be favorable"
+
+Also note that this is implicitly an attempted first-principles formalization of the action hero trope of "do it for the good of humanity", to be clear\!
+
+## Written up through 1:11 PM EST, August 6, 2026
+
+Something else I want to point out is that I actually DO think there should be a certain obligation to us humans of acting in favor of the Golden Point, per the Golden tendency argument together with the continuity principle’s rendering of importance to the successes of our ancestors and of course the central stakes argument itself\! Also to be clear, I’m predicting a primary initial rebuttal to the paper might be “why not just conclude that the Golden Point isn’t good?”, which I suspect might run through the very lack-of-objective-morality premise—so the entire point of the inclusion of the Golden tendency is to counter this at the root\! Ie a moral derivation of take the Golden Point as good, especially as evidenced by how the past light cone record already aligns with conditioning on it, (so the fact that we’re here to begin with is centrally intertwined with it as if even defining us ontologically-categorically, so if the counter is “but if the Golden Point is objectively bad then we should get out of it asap” to the Golden tendency then I’d refer to our very reality being structured around the Golden Point in the sense of ontologically-intimate conditioning) but then also especially how the Golden tendency rules out the alternative basically\!   
+Also by the way I have an argument—probably in the project files for reference—that trying to even imagine existing without being able to refer to the biosphere for existential first principles is literally impossible, like spacetime without matter according to Mach’s principle sort of\! That is, even concretely we notice that so as to define anything at all we refer to a chain of inferences which terminates at our being a subcomponent of the biosphere, so my argument is yet even stronger: you not only can’t describe reality anymore if you existentially detached yourself from the biosphere, but its ontological coherence itself would break down in some kind of Aethic sense\! Also more reason to refer to the boundary conditions in the future for the biosphere in particular’s survival as intimately positively-intertwined with our existence to begin with\! 
