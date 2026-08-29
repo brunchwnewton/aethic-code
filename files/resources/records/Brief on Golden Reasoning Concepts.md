@@ -533,5 +533,5 @@ By the way, I heard at some point after first developing the Golden Point idea t
 
 By the way for my provenance, check out this link in my grade school doc which records when I first came up with the Golden Point, and how I visualized it at the time.
 
-| https://aethus.org/aethic-code/history/ajax-grade-school-ideas.html\#:\~:text=the%20point%20after%20which,regress%20past%20that%20point |
+| [LINK](https://aethus.org/aethic-code/history/ajax-grade-school-ideas.html#:~:text=the%20point%20after%20which,regress%20past%20that%20point) |
 | :---- |
