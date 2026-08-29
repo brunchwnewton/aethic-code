@@ -524,3 +524,14 @@ Also by the way, I have a perhaps important premise about the ceiling concept it
 ## Written up at 9:38 PM through 9:45 PM ET, August 27, 2026
 
 Oh by the way I had an interesting thought just now: fully hypothetically speaking, suppose we figure out that our Solar System needs a very particular kind of conditioning in order for it to sustain humanity sufficiently for us to eventually be able to leave the Solar System, such as for a hypothetical example the moons of Saturn having lots of water ice in places that might be particularly helpful, like on Mimas or something. Given this, then, if we genuinely need flukes in the geology of the Solar System that only will help us later, but not already necessarily, then if the strong extrapolation hypothesis is true, these features should ALREADY be present in the relevant parts of the Solar System for analysis\! So, a potential means of testing the strong extrapolation hypothesis\! The catch though is that it’s very hard given our epistemic immaturity as a species still to be able to jointly know both what will be needed in the future AND what kind of thing will provide it, so in that more conservative possibility the test might have to be more retrospective, in the sense of our descents saying of us “this feature of Mimas was already visible to them, and ended up being necessary for such and such”. So in that sense the prediction becomes that such features will be visible to our descendants once they sort out the epistemology of Golden Point necessity better\!
+
+## Written up through 6:40 PM ET, August 28, 2026
+
+By the way, I heard at some point after first developing the Golden Point idea that there's some idea called the "Omega Point"??? I just want to check that it's different enough that my idea might be better or at least novel. It's a funny convergence though how both use the word "point" lol\!
+
+## Written up through 5:02 AM ET, August 29, 2026
+
+By the way for my provenance, check out this link in my grade school doc which records when I first came up with the Golden Point, and how I visualized it at the time.
+
+| https://aethus.org/aethic-code/history/ajax-grade-school-ideas.html\#:\~:text=the%20point%20after%20which,regress%20past%20that%20point |
+| :---- |
