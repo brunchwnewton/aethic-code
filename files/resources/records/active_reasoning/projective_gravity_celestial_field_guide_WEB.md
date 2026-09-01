@@ -8,9 +8,9 @@
 >
 > **Conventions.** $G = c = 1$ unless restored; $\ell$ = radius of the base 3-sphere; "total space" = the higher-dimensional arena where matter lives; "base" = the space of fibers, where gravity lives.
 >
-> **Reading guide.** Why the fibration exists and why it is rigid: §0.6. The idea and its purpose: §0–§0.5. Why it must not be sourced: §6. Gravity and the stabilized dilaton (the result that saves the theory): §7, §7.5. The Machian relation and what it does and does not deliver: §10. Electrodynamics: §12.5. What the celestial detour taught: §13.
+> **Reading guide.** Why the fibration exists and why it is rigid: §0.6. The idea and its purpose: §0–§0.5. Why it must not be sourced: §6. Gravity and the stabilized dilaton (the result that saves the theory): §7, §7.5. The Machian relation and what it does and does not deliver: §10. The postulate's consistency and its price: §9.5; the one observable it will eventually face: §9.6. Electrodynamics: §12.5. What the celestial detour taught: §13.
 >
-> **What this theory is.** Kaluza–Klein on $\mathbb{R}_t\times S^1_u\times S^3$ with a **topologically rigid fibration**, a stabilized massive radion, and one postulate: **gravity reads the fiber average.** That postulate is the entire departure from general relativity. The fibration is not sourced by matter and does not respond to it — it is supplied by the winding of a compact scalar, and its existence is a fact about the arena. Earlier editions coupled matter to the fibration as a permittivity; that coupling is bounded by the constancy of the fine-structure constant to be unobservable (§12.5) and has been removed.
+> **What this theory is.** Kaluza–Klein on $\mathbb{R}_t\times S^1_u\times S^3$ with a **topologically rigid fibration**, a stabilized massive radion, and one postulate: **gravity reads the fiber average.** That postulate is the entire departure from general relativity. **The theory is internally consistent** (§9.5: the Bianchi identity closes, the source descends to the quotient conserved, and on the quotient it is an ordinary local causal field theory). Its status with respect to *our* universe is a separate question: this guide is a **drafting-phase** document for a fiber-based projective idea, not a cosmology, and it has no perturbation theory on an expanding background. §9.6 records the one observable the idea will eventually have to face — a bias-free lensing–clustering statistic — as a *signpost*, with the naive extrapolation and the current data both stated, and with the explicit caveat that the extrapolation is heuristic. The fibration is not sourced by matter and does not respond to it — it is supplied by the winding of a compact scalar, and its existence is a fact about the arena. Earlier editions coupled matter to the fibration as a permittivity; that coupling is bounded by the constancy of the fine-structure constant to be unobservable (§12.5) and has been removed.
 
 ---
 
@@ -209,7 +209,7 @@ Three readings. The fiber size is set by the winding, and $w$ is quantized — s
 
 **PPN is restored exactly [D].** With mass $m_\psi = 1/\psi_0$ the scalar is Yukawa-suppressed by $e^{-r/\psi_0}$; at $1$ AU with $\psi_0 = 50\,\mu$m that factor is $e^{-3\times10^{15}}$ — zero for any purpose. The exterior of a body is vacuum Einstein: $\gamma = 1$, Schwarzschild, no fifth force, and the $\tfrac13$ trace-reversal of the 5D reduction never surfaces outside matter. Fifth-force searches then bound $\psi_0$ at roughly tens of microns. **§7.5 is not a tidying step — it is what makes the theory survive the solar system at all**, and it does so with a mechanism the framework already contained.
 
-**The price [O].** At the minimum $\Lambda_4 = \tfrac23\Lambda_5 = -\tfrac12 m_\psi^2 < 0$: the winding-stabilized vacuum is anti-de Sitter, with $|\Lambda_4|$ of order the modulus mass squared. The observed small positive $\Lambda$ needs an uplift of that size — the cosmological-constant problem in Kaluza–Klein dress, shared with the celestial theory's $\Lambda_6$ tuning. The cone theorem's positive $\Lambda = 1/\ell^2$ (§3) belongs to the cone geometry; reconciling it with the Hopf-compactified vacuum's negative $\Lambda_4$ is the open uplift problem.
+**The price [O].** At the minimum $\Lambda_4 = \tfrac23\Lambda_5 = -\tfrac12 m_\psi^2 < 0$: the winding-stabilized vacuum is anti-de Sitter, with $|\Lambda_4|$ of order the modulus mass squared. The observed small positive $\Lambda$ needs an uplift of that size — the cosmological-constant problem in Kaluza–Klein dress, shared with the celestial theory's $\Lambda_6$ tuning. **And an internal tension to record [D].** §3 and §10 assume the closed static arena with $\Lambda_4 = +1/\ell^2 > 0$; the stabilized vacuum here has $\Lambda_4 = -m_\psi^2/2 < 0$. So the static closed universe of the Mach lock is *not* a solution of the stabilized theory. The two sections describe different vacua, and reconciling them *is* the uplift problem.
 
 ---
 
@@ -233,6 +233,57 @@ $$\frac{D\dot x^\mu}{d\lambda} = \frac{p_u^2}{\psi^3}\,\nabla^\mu\psi, \qquad m_
 Its distance from GR is a dial: a source of fiber-width $w$ on a fiber of circumference $L$ puts zero-mode share $0.18/0.53/0.95/1.00$ at $w/L = 0.05/0.15/0.3/0.5$ **[M]**. Fiber-smeared matter reproduces GR exactly; fiber-localized matter is maximally projective. The base Bianchi identity forces $\nabla^\mu S_{\mu\nu} = 0$, and the compact fiber converts 5D conservation into conservation of fiber averages, with $\langle p_u\rangle = \langle p\rangle$ and $\partial_u p_u = 0$ absent fiber flux.
 
 **This postulate is load-bearing.** It is the nonlocality that the seed requires (§0.5). It is a *postulate* precisely because it is not automatic — and its not being automatic is what makes the antipodal image gravitate.
+
+### 9.5 Consistency of the postulate
+
+*Four questions, settled in order. The first two are computations; the last two are the honest reading of what they establish.*
+
+**Does fiber-averaging respect the Bianchi identity? [V]** Integrate 5D conservation $\nabla_A T^{AB} = 0$ over the closed fiber; the $\partial_u$ term drops. With $\sqrt{g_5} = \psi\sqrt{g_4}$ and $\Gamma^\nu_{uu} = -\psi\nabla^\nu\psi$, the base component is
+
+$$\nabla_\mu S^{\mu\nu} = -\frac{\nabla_\mu\psi}{\psi}\,S^{\mu\nu} + \psi\,\nabla^\nu\psi\;S^{uu}$$
+
+— exactly the exchange term of A9, vanishing for constant $\psi$ or for $p_u = p$. In the stabilized theory $\delta\psi/\psi\sim10^{-32}$, so the Bianchi identity holds to that order. The conservation web closes.
+
+**Does it descend to the quotient? [D]** $S([\hat n]) = \oint_{+\hat n} + \oint_{-\hat n}$ is antipodally symmetric by construction; each term is conserved with respect to the pulled-back (symmetric) metric; the covering map is a local isometry. The sum descends to $\mathbb{RP}^3$ and is conserved there.
+
+**What the theory is, seen from the quotient [D].** General relativity on $\mathbb{R}_t\times\mathbb{RP}^3$ (times a stabilized fiber), sourced by the **pushforward** of matter living on the double cover, with light propagating on the cover. Equivalently: GR on $\mathbb{RP}^3$ in which every matter field carries a $\mathbb{Z}_2$ sheet label — gravity blind to the label, Maxwell diagonal in it. On the quotient this is a consistent, local, causal field theory with nothing exotic in it. The seed, viewed from here, is the statement that gravity ignores the sheet label.
+
+**The cost, which the quotient hides and the cover exposes [D].** In the cover, wiggling a lump at $+\hat n$ changes the gravitational field at $-\hat n$ **instantly** — they are one point of the quotient — while light from $+\hat n$ reaches $-\hat n$ only after $t = \pi\ell/c$. **Gravity and light have different causal structures on the cover: a two-speed spacetime.** This is not paradoxical: the static universe supplies a preferred frame, so no tachyonic antitelephone can be built, and the antipode lies $\sim14\times$ beyond the horizon, so nothing of it is observable. But it is a genuine conceptual departure from general relativity, it is the true price of the projective postulate, and it belongs on the record rather than in a footnote.
+
+### 9.6 The local trace — a signpost for eventual testing
+
+*Does the two-speed structure leave any trace a local observer could measure? Under a naive extension to an expanding universe, it does, and the trace is a specific bias-free statistic. This section records what that statistic is, what the theory would predict for it, and what current data say — as a signpost. The extrapolation is heuristic: the guide has no perturbation theory on an expanding background, and none of this bears on the theory's internal consistency (§9.5).*
+
+**The correction to §12's fork.** I previously wrote that in a large fundamental domain "the images are outside the horizon." That is the image *of local matter*. The image *of antipodal matter* is **here**: the postulate sources gravity at $[\hat n]$ from matter at both $\pm\hat n$ at the same time, so the local gravitational potential is
+
+$$\Phi_{\rm here} = \Phi_{\rm local} + \Phi_{\rm image}$$
+
+where $\Phi_{\rm image}$ is the potential of the matter at our antipode, $\sim14$ horizons away — an **independent realisation of the same statistics.**
+
+**The consequence [D, robust to normalisation].** With $\delta_1$ (local) and $\delta_2$ (antipodal) independent fields of equal power, whether the postulate sums or averages them:
+
+| | $\mathrm{Var}(S)/\mathrm{Var}(\delta_1)$ | lensing amplitude ratio | gravity–galaxy cross-correlation $r$ |
+|:--|:--|:--|:--|
+| sum $S = \delta_1+\delta_2$ | $2$ | $\sqrt2$ (41% high) | $1/\sqrt2 = 0.707$ |
+| mean $S = \tfrac12(\delta_1+\delta_2)$ | $\tfrac12$ | $1/\sqrt2$ (29% low) | $1/\sqrt2 = 0.707$ |
+
+**The statistic, pedagogically.** Surveys measure three two-point correlations: galaxy clustering $\langle\delta_g\delta_g\rangle$ (where the light is), cosmic shear $\langle\kappa\kappa\rangle$ (where the gravitating mass is, all of it), and galaxy–galaxy lensing $\langle\delta_g\kappa\rangle$ (where light and mass coincide). Galaxies are biased tracers, $\delta_g = b\,\delta_m$ with $b$ unknown, so $\langle gg\rangle = b^2P$, $\langle g\kappa\rangle = bP$, $\langle\kappa\kappa\rangle = P$, and the ratio
+
+$$r^2 \equiv \frac{\langle g\kappa\rangle^2}{\langle gg\rangle\,\langle\kappa\kappa\rangle}$$
+
+is **bias-free**. $r = 1$ means every piece of gravitating mass has light sitting on it; $r < 1$ means some mass gravitates with no light tracing it. That is exactly what an antipodal image is, which is why $r$ is the right diagnostic and why the prediction cannot be absorbed into $b$.
+
+**The naive prediction.** Galaxies trace $\delta_1$; lensing traces $S$; the sheets are uncorrelated (antipodal correlation of a field with power at $\ell\gtrsim10$ is below $10^{-2}$, computed from the $(-1)^\ell$ parity of $S^3$ harmonics). Hence $r = 1/\sqrt2 \approx 0.71$ (Monte Carlo: $0.7068$), with the lensing amplitude off from clustering by $\sqrt2$ in whichever direction the normalization puts it. In words: **half the lensing power would come from structures with no optical counterpart, uncorrelated with galaxies.**
+
+**Current data, stated carefully.** Galaxy positions come from redshift surveys (SDSS, BOSS, DESI); lensing from imaging surveys (DES, KiDS, HSC) via coherent distortions of background galaxy shapes; the cross-correlation from combining the catalogs. Most "3×2pt" analyses *assume* $r = 1$ on large scales through linear bias rather than measure it, and fit well. Where $r$ is allowed to float it comes out consistent with 1 at roughly the $10$–$20\%$ level. So $r = 0.71$ is **in tension at a couple of sigma — not excluded.** The decisive test would be a dedicated large-scale measurement of $r$. (An earlier draft of this section said "excluded at many sigma"; that overstated the constraint and is withdrawn.)
+
+**The escapes, and what each costs.**
+- *Antipodally symmetric initial conditions* ($\delta_2 = \delta_1$): $r = 1$, the factor is absorbed into $G$, and the theory becomes **general relativity with a redefined constant** — every distinctive feature evaporates.
+- *A time-shifted quotient* $(t,\hat n)\sim(t+\pi\ell/c,-\hat n)$: the image is retarded by $\pi\ell/c \approx 645$ Gyr, $47\times$ the age of the universe — before structure existed. The image is empty, the seed never operates, and the theory is again GR.
+
+$$\boxed{\;\text{Signpost: under naive extension, the seed predicts } r = 1/\sqrt2\text{, bias-free; current data mildly disfavor it; each escape switches the seed off.}\;}$$
+
+*Scope, restated:* this is a heuristic extrapolation of a static model to an expanding universe with an uncorrelated antipode. In the static closed arena of §10 the antipodal twin is forced by the $(\Delta+3)$ theorem and the issue does not arise. The theory's mathematical consistency is settled in §9.5 and untouched here. What §9.6 supplies is the observable the idea will have to meet once it *is* developed into a cosmology — and, at the drafting stage, that is the right thing to know and the wrong thing to be ruled by.
 
 ---
 
@@ -322,6 +373,12 @@ Near the charge this is Reissner–Nordström, **deduced**: the field's own ener
 | E28 | $G_4 = G_5/C$, $C = \psi_0\ln\lambda$: $G$ is a constant of the theory, not an output | [D] |
 | E29 | unstabilized: $\gamma = 1/2$ (excluded); stabilized: $\gamma = 1$ to $e^{-3\times10^{15}}$ at 1 AU | [T/D] |
 | E30 | conditional inversion: $M_{\rm tot} = 3\sqrt2\pi c^2\ln\lambda\,w/8G_5\Lambda_5$, needs $\Lambda_4>0$ | [D] |
+| E31 | $\nabla_\mu S^{\mu\nu} = -(\nabla_\mu\psi/\psi)S^{\mu\nu} + \psi\nabla^\nu\psi\,S^{uu}$: Bianchi closes to $10^{-32}$ | [V] |
+| E32 | the averaged source descends to $\mathbb{RP}^3$ conserved (covering map a local isometry) | [D] |
+| E33 | two-speed cover: gravity links antipodes instantly, light in $\pi\ell/c$; preferred frame, no paradox | [D] |
+| E34 | uncorrelated antipode: $r_{\rm grav,gal} = 1/\sqrt2$, bias-free; mildly disfavored, not excluded (signpost) | [D] |
+| E35 | escapes (symmetric IC; time-shifted quotient) each reduce the theory to GR | [D] |
+| E36 | $w$ conserved by admissibility; $A_u$ not thermally populated | [D] |
 | E27 | $\delta\alpha_{\rm fine}/\alpha_{\rm fine} = 2\pi G\rho\psi_0^2/c^2 \approx 6\times10^{-32}$ (Earth, $50\,\mu$m) | [V] |
 
 ---
@@ -380,7 +437,7 @@ Its properties are inherited, not fitted: collisionless (nothing there to collid
 **The ratio, and an arithmetic worth flagging [S].** With $\Gamma = \mathbb{Z}_2$ each luminous lump has one image, so $\Omega_{\rm dark}/\Omega_{\rm lum} = 1$ in the co-located static picture. With a general free quotient $S^3/\Gamma$ (all admitted by the cone theorem) each lump has $|\Gamma| - 1$ images and the ratio is $|\Gamma| - 1$. The observed $\Omega_c/\Omega_b \approx 5.4$ sits between $|\Gamma| = 6$ and $7$. This is a curiosity, not a fit: it assumes exact $\Gamma$-symmetry of the luminous distribution, which the static sector demands and the dynamical sector does not.
 
 **The tensions, stated honestly [O].**
-1. *Distribution.* Dynamically, the image of a galaxy is a dark galaxy at the antipode, not a halo around the luminous one. Flat rotation curves around *luminous* galaxies are not produced by this mechanism unless the luminous distribution is itself (nearly) $\Gamma$-symmetric — a strong assumption about the universe, or a statement that the fundamental domain exceeds the observable one.
+1. *Distribution.* The image of a local galaxy is a dark galaxy at the antipode; the images *here* are of antipodal matter, uncorrelated with local galaxies. Neither produces halos around luminous galaxies, and the uncorrelated local image field is the $r = 1/\sqrt2$ signpost of §9.6.
 2. *Light on $M_5$.* A12 is a genuine postulate about where the electromagnetic field lives. Its consequences for the base — effective Maxwell equations with fiber-flux charges — must be derived and checked against ordinary electrodynamics.
 3. *The dilaton.* The image gravitates through $S_{\mu\nu}$, but $\psi$ is sourced by $\rho - p$ of the *total-space* matter, which is not $\Gamma$-symmetric. The dark image and its source therefore differ in their dilaton coupling — a distinguishing signature if $\psi$ is light, and irrelevant if it is stabilized (§7).
 
@@ -483,20 +540,20 @@ Six appearances of one selection rule: radiation cannot source the old $f$; need
 
 ## 16 · Open problems
 
-1. **The conservation web** — the Bianchi condition $\nabla^\mu S_{\mu\nu} = 0$ on the fiber-averaged source and its compatibility with the matter conditions $\langle p_u\rangle = \langle p\rangle$. (The $f\leftrightarrow\psi$ dictionary is *closed*: $|\nabla f| = w/\psi$ identically, §7.5.)
-2. **The uplift** — the winding-stabilized vacuum is AdS with $|\Lambda_4|\sim m_\psi^2$; the observed small positive $\Lambda$ requires an uplift of that size (§7.5). Dilaton *stabilization itself* is done.
+1. **The conservation web** — *closed* (§9.5): $\nabla_\mu S^{\mu\nu}$ equals the exchange term of A9, which is $O(10^{-32})$ in the stabilized theory, and the averaged source descends to the quotient conserved. (The $f\leftrightarrow\psi$ dictionary is likewise closed, §7.5.)
+2. **The $A_u$ scalar** — *closed* (§12.5): it couples only to the fiber current, which vanishes for $u$-smeared matter, so it is never thermally populated; thermal $\Delta N_{\rm eff} = 0$. Inflationary production not addressed.
 3. **Light on $M_5$** — *done* (§12.5): ordinary Maxwell survives on the double cover in the dilaton medium, unrefracted; $\alpha_{\rm fine}$ is constant to $10^{-32}$; the tower is unexcited by $u$-smeared matter. Residual: the extra scalar $A_u$ in the radiation budget, and whether any process $u$-localizes charge enough to excite the tower.
-4. **The dark-matter distribution** — halo-like images require near-$\Gamma$-symmetric luminous matter; determine whether the dynamical sector can produce it (§12).
-5. **The projective postulate's consistency** — whether fiber-averaging the source is compatible with local causality and the Bianchi identity beyond linear order.
-6. **The AdS uplift — the single blocking problem.** The stabilized vacuum has $\Lambda_4 = -\tfrac12 m_\psi^2 < 0$, off the observed value by $10^{60}$ (§10). Solving it would convert the Mach lock from a consistency relation into a genuine prediction of $M_{\rm tot}$; leaving it unsolved is what keeps the theory's Machian content uncashed. This framework has no special claim on it.
-7. **The winding sector's dynamics** — can the winding number change?
+4. **The dark-matter application** — *retired* (§12): the topology fork and the acoustic peaks each exclude it independently. The projection-image mechanism stands as a theorem; its observational use does not.
+5. **The projective postulate's consistency** — *settled with a cost* (§9.5): consistent and causal on the quotient; on the cover, gravity connects antipodes instantly while light takes $\pi\ell/c$ — a two-speed causal structure, non-paradoxical in the preferred frame and unobservable beyond the horizon, but a genuine departure from GR. **Its local trace is identified** (§9.6): under naive extension the uncorrelated antipodal image gives $r = 1/\sqrt2$, bias-free, mildly disfavored by current data; each escape switches the seed off. A signpost for when the theory is developed into a cosmology, not a verdict on the draft.
+6. **The AdS uplift — the single blocking problem.** The stabilized vacuum has $\Lambda_4 = -\tfrac12 m_\psi^2 < 0$, off the observed value by $10^{60}$ (§10). Solving it would convert the Mach lock from a consistency relation into a genuine prediction of $M_{\rm tot}$; leaving it unsolved is what keeps the theory's Machian content uncashed. This framework has no special claim on it. And it is now also an *internal* problem: §10's arena has $\Lambda_4>0$, §7.5's vacuum has $\Lambda_4<0$ (see §7.5).
+7. **The winding sector's dynamics** — *closed*: $w$ is the degree of $f: S^1\to S^1$, changeable only through $|\nabla f| = 0$, which admissibility forbids. Conserved.
 8. **Inherited** — the $S^4$ pole question, the tensor-sector projection weight, the lapse-sector correspondence.
 
 ---
 
 ## 17 · Glossary
 
-**Winding** — the period $\oint df = \ln\lambda$ that creates the fibration topologically. · **Rigid fibration** — the fiber field is unsourced; $f = wu$, fixed by the arena. · **Terminus theorem** — the monopole-era no-go, now historical. · **The dial** — zero-mode share vs fiber smearing. · **Projective postulate** — base gravity reads the fiber average; the load-bearing nonlocality. · **The seed** — matter at one point of a fiber, gravity at all of them. · **Projection image** — the gravitational-only copy of a mass at its quotient-mates; the dark-matter candidate. · **Mach lock** — $GM_{\rm tot}/c^2\ell = \pi/2$. · **$p_u$** — conserved, quantized fiber momentum.
+**Winding** — the period $\oint df = \ln\lambda$ that creates the fibration topologically. · **Rigid fibration** — the fiber field is unsourced; $f = wu$, fixed by the arena. · **Terminus theorem** — the monopole-era no-go, now historical. · **The dial** — zero-mode share vs fiber smearing. · **Projective postulate** — base gravity reads the fiber average; the load-bearing nonlocality. Equivalent to GR on $\mathbb{RP}^3$ with a $\mathbb{Z}_2$ sheet label that gravity ignores and Maxwell respects. · **Two-speed cover** — on $S^3$, gravity connects antipodes instantly while light takes $\pi\ell/c$; the postulate's true price. · **The seed** — matter at one point of a fiber, gravity at all of them. · **Projection image** — the gravitational-only copy of a mass at its quotient-mates; the dark-matter candidate. · **Mach lock** — $GM_{\rm tot}/c^2\ell = \pi/2$. · **$p_u$** — conserved, quantized fiber momentum.
 
 ## 18 · Reference card
 
@@ -507,6 +564,8 @@ Six appearances of one selection rule: radiation cannot source the old $f$; need
 | **fiber law** | $\Box f = 0$, $\oint df = \ln\lambda$, $f = wu$ exactly — unsourced, rigid |
 | **seed** | fiber over $[\hat n]$ = two components $\pm\hat n$; topology + projective postulate, no $\alpha$ |
 | **action vs crossing** | antipodal *action* yes (blindness); antipodal *crossing* no (fiber components disjoint, origin removed) |
+| **consistency** | Bianchi closes via the A9 exchange term; descends to $\mathbb{RP}^3$; = GR on $\mathbb{RP}^3$ with a $\mathbb{Z}_2$ sheet label gravity ignores |
+| **the price** | two-speed cover: gravity instant between antipodes, light $\pi\ell/c$; preferred frame; unobservable |
 | **two localizations** | $\mathbb{Z}_2$ $\to$ seed (localized); $u$ $\to$ photon tower (smeared). Independent |
 | **$\alpha_{\rm fine}$** | exactly constant at $\alpha=0$ up to $2\pi G\rho\psi_0^2/c^2 \sim 10^{-32}$ |
 | **Law I ($G$-free)** | $\ell^2R_{\mu\nu} = \ell^2\psi^{-1}\nabla\nabla\psi + 2(\tau - \tfrac13\tau g)$; $\ell^2\Box\psi = -\tfrac43\psi(\tau_u - \tfrac12\tau)$; stabilized: $+\tfrac{\hat\alpha}{2}\ell^2\nabla\nabla\tau$ on the left |
