@@ -1,20 +1,22 @@
 *Here's a note from Ajax:* Ok hello! So what this document is is a snippet of some of my active reasoning dynamical ideas I'm trying to string together. Specifically how it was made was that on August 31, 2026 and the week leading up to it I inputted about a dozen different intuitive constraints into Claude that I had been building up to throughout 2026. Note that in my journal entries I have the records of all of these intuitions as I first stated them months ago through more recently, plus the actual prompts to Claude itself in which I reveal them. A couple of examples are that I was really stuck two months ago with trying to imagine in my 3-sphere model a kind of "shaft" of matter to get at the kind of antipodal-pair dynamics I was looking for, however in quick succession over a couple of days in early August I had the thought that I could instead just use equivalence classes over lines in R4 space, then use the EFEs as a constraint ON THOSE LINES IN THE DEEPER SPACE, and then simply have the base space to it as a kind of RP3 over which orbits actually occur gravitationally. So yeah, basically the process was me having hidden biases in my reasoning together with a clear win condition, and then me gradually figuring out how to shed the biases to bring out the highlights in the win condition. And, well, that brings us to right now---only after I had all these constraints, (like for example I had intuited already that the fibers "bunch up" around mass so as to keep the primary object in the idealized model as defining the "radial direction" for the fibers while at once not actually contributing to the gravity dynamics directly accordingly, so it was meant to be a kind of trade-off between the primary and secondary following the same law while the secondary itself feels the effects of it only and then within those effects actual EFE stuff getting their scope---so yeah to be clear I entirely established the intricate graph-structure of constraints and then fed THAT into the AI, since I can make those graphs due to the months of bias-shedding, while it can simply implement them rather than create them), did I feed them as prompts into Claude, and ecstatically I got to watch it render them into real equations by deducing from what I had set up as well as formalizing some of my looser intuitions (like "bunching" became "dielectric" after my guess to the AI that it might be Poisson's equation was wrong). But yeah, I have all the records of everything in case there's ever a question, but to be clear I'm a guy who designed a very specific painting in my head without owning the paint to actually draw it in equations. Claude provided that paint, and indeed corrected some of my formalism guesses of the constraints, but the painting existed well before Claude painted it. (And indeed I still have a bunch of biases as we speak in things that didn’t yet make it into this brief doc here, as even in the last couple of days I shifted associating one thing with the total space to associating it with the base space, which gives me another angle on inductively landing the next unification of two concepts in the sequence. So in other words it’s still an ongoing process, so much of what will show up in the next draft is something I already have intuited right now, but just haven’t rendered and posted yet).
 
-# Projective Gravity — Dielectric Formulation
+# Projective Gravity — The Minimal Theory
 
-### A Field Guide, third edition
+### A Field Guide, fourth edition
 
 > **Status tags.** **[V]** verified symbolically or numerically in this program · **[M]** measured in a numerical experiment (softened potentials, 2D slices unless noted) · **[T]** established theorem, cited · **[D]** derived here from **[V]/[T]** material · **[S]** sketch · **[O]** open.
 >
 > **Conventions.** $G = c = 1$ unless restored; $\ell$ = radius of the base 3-sphere; "total space" = the higher-dimensional arena where matter lives; "base" = the space of fibers, where gravity lives.
 >
-> **Reading guide.** The idea and its purpose: §0–§0.5. The mechanism: §6. Gravity, the emergent constant, and the stabilized dilaton: §7, §7.5, §10. The seed as a prediction: §12; the electrodynamics that makes it consistent: §12.5. What the celestial detour taught and why it was retired: §13.
+> **Reading guide.** Why the fibration exists and why it is rigid: §0.6. The idea and its purpose: §0–§0.5. Why it must not be sourced: §6. Gravity and the stabilized dilaton (the result that saves the theory): §7, §7.5. The Machian relation and what it does and does not deliver: §10. Electrodynamics: §12.5. What the celestial detour taught: §13.
+>
+> **What this theory is.** Kaluza–Klein on $\mathbb{R}_t\times S^1_u\times S^3$ with a **topologically rigid fibration**, a stabilized massive radion, and one postulate: **gravity reads the fiber average.** That postulate is the entire departure from general relativity. The fibration is not sourced by matter and does not respond to it — it is supplied by the winding of a compact scalar, and its existence is a fact about the arena. Earlier editions coupled matter to the fibration as a permittivity; that coupling is bounded by the constancy of the fine-structure constant to be unobservable (§12.5) and has been removed.
 
 ---
 
 ## 0 · The idea in one paragraph
 
-Gravity lives not on spacetime's full arena but on the **space of fibers** of a foliation; matter inhabits the total space, and gravity sees only its fiber-averaged projection. The founding example fibers Euclidean $\mathbb{R}^4$ by lines through the origin, with base $S^3/\pm = \mathbb{RP}^3$: each line meets the physical 3-sphere at two antipodal points, so the base cannot tell them apart. The first formulation coupled the fibration field to matter as a *charge* and failed catastrophically — every gravitating object captured the fibers around it and smeared into fog. The present formulation repairs this with one structural change: **matter couples to the fibration as a dielectric, not a charge.** It bends and bunches fibers without ever terminating them, the background fibration being supplied *topologically* by a winding condition. The result keeps everything that worked — the cone-generated $\Lambda$, the Kaluza–Klein reduction, the trace taxonomy, the two-population geodesics, the exact-GR limit — while restoring localized masses and Keplerian orbits.
+Gravity lives not on spacetime's full arena but on the **space of fibers** of a foliation; matter inhabits the total space, and gravity sees only its fiber-averaged projection. The founding example fibers Euclidean $\mathbb{R}^4$ by lines through the origin, with base $S^3/\pm = \mathbb{RP}^3$: each line meets the physical 3-sphere at two antipodal points, so the base cannot tell them apart. The first formulation coupled the fibration field to matter as a *charge* and failed catastrophically — every gravitating object captured the fibers around it and smeared into fog (§6.1). The repair is structural: **the fibration is not sourced at all.** It is supplied topologically by the winding of a compact scalar, legal precisely because $\chi(S^1\times S^3) = 0$. Nothing terminates fiber lines, so localized masses and Keplerian orbits survive; and everything the theory derives — the cone-generated $\Lambda$, the Kaluza–Klein reduction, the two-population geodesics, the emergent $G$, the antipodal twin — follows from the arena and the projective postulate, never from a coupling.
 
 ## 0.5 · The seed, and what it is for
 
@@ -28,11 +30,69 @@ The founding requirement — the *seed* — is stated here exactly, because a la
 
 ---
 
+## 0.6 · Why the fibration exists, and why it is rigid
+
+**The cylinder is the fibration [T].** In polar form $\mathbb{R}^4\setminus\{0\}$ is conformally a cylinder:
+
+$$ds^2 = dr^2 + r^2 d\Omega_3^2 = e^{2u}\big[du^2 + d\Omega_3^2\big], \qquad u = \ln r$$
+
+so the **radial direction becomes $\partial_u$**, globally defined and nowhere vanishing because the manifold is a product. The fibration exists for the same reason the cylinder is a cylinder. It is a property of the arena, not of the matter in it — and that is why it exists at all rather than needing to be sourced.
+
+**The one topology this forbids.** Poincaré–Hopf: a nowhere-vanishing vector field exists iff $\chi(M) = 0$. Since $\chi(S^4) = 2$, "fibers radiating from a point of $S^4$" is impossible without two singular poles — precisely the rejected $S^4\setminus\{p,\bar p\}$ candidate. $\chi(S^1\times S^3) = \chi(T^4) = 0$: both admissible. The cylinder is the repair for an intuition that cannot be realized on the sphere.
+
+**The fiber is disconnected, and that is the seed [D].** The scaling group is $\mathbb{R}^*$, *including negatives*, so a punctured line through the origin is **two rays**, $(r,\hat n)$ and $(r,-\hat n)$, and the base is $\mathbb{RP}^3$. Hence:
+
+> The fiber over $[\hat n]$ has **two components** — the $u$-circle at $+\hat n$ and the one at $-\hat n$. The projective postulate integrates over both. A star at $(u_0, +\hat n)$ sources the base at $[\hat n]$, whose lift to $S^3$ has wells at **both** $\pm\hat n$.
+
+**The seed is topology plus the projective postulate.** It requires no coupling and no dynamical response of the fibration whatsoever.
+
+**Action, not crossing [T].** The scaling group factorizes, $\mathbb{R}^* = \mathbb{R}^+\times\mathbb{Z}_2$, so the fiber is (scale circle) $\times\;\mathbb{Z}_2$: **the antipodal link is the discrete $\mathbb{Z}_2$ factor, not a continuous path.** Travelling along the fiber from $(u, +\hat n)$ wraps the $u$-circle and returns at the *same* $\hat n$; the origin, where a line would cross, is not in the manifold at all — it was removed precisely because every line meets there and the fibration degenerates. So:
+
+| concept | holds? | why |
+|:--|:--|:--|
+| antipodal gravitational **action** | **yes** | gravity lives on $\mathbb{RP}^3$, where $\pm\hat n$ *are* one point; the source integrates over both components |
+| antipodal **material** crossing | **no** | components disjoint; no path; origin removed |
+| flux escape into the fiber | **yes** | the radial direction *is* the fiber; $\sigma = -\partial_r(r^3E_r)$ |
+| flux emerging at the **antipode** | **no** | it wraps the compact fiber and returns at the same $\hat n$ |
+
+**The seed is blindness, not crossing** — and that is exactly what keeps the antipode materially empty. A crossing would deliver matter there and destroy the property the seed exists to provide.
+
+**Two independent localizations [D].** A source has a position on the $u$-circle and a choice of $\mathbb{Z}_2$ component. These are unrelated, and they control different physics:
+
+| localization | controls | what the theory needs |
+|:--|:--|:--|
+| **$\mathbb{Z}_2$ component** ($+\hat n$ vs $-\hat n$) | the seed: antipodal gravitational action | matter in **one** component — maximally localized |
+| **$u$-position** on the scale circle | excitation of the massive photon tower (§12.5) and the GR dial (§9) | matter **smeared** — the natural state, since nothing localizes matter internally |
+
+Because the two are independent, ordinary matter can be $u$-smeared (exciting no tower, no Coulomb-law violation) *and* $\mathbb{Z}_2$-localized (full seed) simultaneously. The disconnected fiber decouples what the seed requires from what experiment constrains.
+
+**Why the fibration is not sourced [V].** Two independent reasons. Structurally, sourcing it is fatal: a charge coupling makes every mass a flow endpoint and smears it to background density (§6.1, the terminus theorem). Observationally, even the gentler permittivity coupling of earlier editions is dead: since $\alpha_{\rm fine}\propto1/\psi$, a matter-tracking fiber size would make the fine-structure constant density-dependent, and its constancy forces the response below $2\times10^{-5}$ in ordinary matter — while the cosmic background would need a fiber extent of $10^{-4}$ Planck lengths to orient the fibers at all (§12.5). The fibration is rigid, and the data say so.
+
+**What a rigid fibration costs, and what it does not.** It costs only the *bending*: matter does not bunch fibers, and there is no channel between masses through the fiber field. Every structural result is untouched, because none was ever carried by a coupling:
+
+| survives with a rigid fibration | why |
+|:--|:--|
+| the seed (antipodal gravitational action) | topology + projective postulate (above) |
+| no endpoints, no capture, orbits exist | $f$ is unsourced: $\Box f = 0$ has no flow termini |
+| $\Lambda = 1/\ell^2$ from the cone | pure geometry (§3) |
+| Mach lock, $k$-dial, $G = \pi c^2\ell/2M_{\rm tot}$ | closure of the base (§10) |
+| the $(\Delta_{S^3}+3)$ twin theorem | curvature of $S^3$ (§2) |
+| dilaton stabilization, $m_\psi\psi_0 = w$ | the winding energy (§7.5) |
+| the projective postulate and the GR dial | §9 |
+
+**The minimal theory, in one line.** Kaluza–Klein on $\mathbb{R}_t\times S^1_u\times S^3$ with a topologically rigid fibration, a stabilized massive radion, and one postulate: **gravity reads the fiber average.** That postulate is the theory's entire departure from general relativity.
+
+**On Machian content.** The fibration does not track matter — it is fixed by the arena. The theory's Machian statement is elsewhere and is exact: *the gravitational coupling is determined by the total matter content of the universe*, $GM_{\rm tot}/c^2\ell = \pi/2$ (§10). Closure does the Machian work, not refraction.
+
+**Why not $T^4$ [V].** $\chi(T^4) = 0$ and the arena is flat and parallelizable, but no static matter-filled flat universe exists — solving $\dot a = \ddot a = 0$ at $k = 0$ gives no solution with $\rho > 0$, while $k = +1$ gives the lock $\Lambda = 1/\ell^2$, $\bar\rho = 1/4\pi\ell^2$. The Einstein-static balance *requires* positive spatial curvature. $T^4$ would therefore destroy the Mach lock and with it the emergent $G$; and its flat Laplacian has constants, not dipoles, in its kernel, so the twin theorem would go too. Closure is load-bearing.
+
+---
+
 ## 1 · The founding move and its two constraints
 
 The Newtonian recipe: project the 4-space density onto the base along the radial lines; run Poisson's equation on the sphere. Two constraints were laid down for any dynamical fibration: (1) fibers respond to matter, bunching toward concentrations; (2) symmetric matter corresponds to radial fibers, deviations in one-to-one correspondence.
 
-The dielectric theory answers them thus. Fibers *exist* for a topological reason (the winding, §6) and are *oriented* by matter two ways. A spherically symmetric central concentration preserves exact radiality: a uniform high-permittivity slab transverse to the flow transmits field lines straight through **[V]**. And in the conduction analogy (permittivity as conductivity, the winding as an EMF around the fiber circle) Thomson-type variational principles concentrate flux along high-conductance channels, so a dominant central mass actively *recruits* the fibers through itself **[S]**. Asymmetries bend fibers toward the excess by the funneling of §6.
+The minimal theory answers them by relocating both. Fibers *exist* for a topological reason — the winding of $f$ (§6) — and are *oriented* by the arena rather than by matter: on $\mathbb{R}_u\times S^3$ the fiber direction is $\partial_u$, globally defined and nowhere vanishing because the manifold is a product (§0.6). Constraint 2 therefore holds exactly and by construction — radiality is not maintained against matter, it is what the product structure *is*. Constraint 1 is the one the data retired: matter does not bunch the fibers (§6.3). What replaces it is the projective postulate — matter does not move the fibers, but gravity cannot tell where on a fiber matter sits, and that blindness is what the theory runs on.
 
 ---
 
@@ -70,7 +130,7 @@ generated, never inserted. The fiber direction is a homothety, not a Killing vec
 
 ## 4 · Field content and the twist-free collapse
 
-The total metric decomposes as $15 = 10 + 4 + 1$: base metric $g^{(4)}$, tilt connection $A_\mu$, fiber length $\psi$. Because the fibration is the flow of a closed one-form $df$ — multivalued $f$ is fine; winding does not spoil closedness — the fibers are hypersurface-orthogonal, Frobenius applies, and $A_\mu\equiv0$ **is a theorem**. The sole fiber degree of freedom is the dilaton $\psi$, and "fibers bunching" is a property of the projection map, realized by refraction.
+The total metric decomposes as $15 = 10 + 4 + 1$: base metric $g^{(4)}$, tilt connection $A_\mu$, fiber length $\psi$. Because the fibration is the flow of a closed one-form $df$ — multivalued $f$ is fine; winding does not spoil closedness — the fibers are hypersurface-orthogonal, Frobenius applies, and $A_\mu\equiv0$ **is a theorem**. The sole fiber degree of freedom is the dilaton $\psi$, and "fibers bunching" is not a force field but a property of the projection map.
 
 ---
 
@@ -80,40 +140,26 @@ The candidate total spaces are conformal rescalings of one cylinder $\mathbb{R}_
 
 ---
 
-## 6 · The fiber law: from charge to dielectric
+## 6 · The fiber law: why the fibration is not sourced
 
 ### 6.1 The monopole disease
 
-The original law $\Box_5 f = \kappa T$ makes matter a *charge* of the fibration: every trace-full object is a flow endpoint. The failure was quantitative **[M]**: basin radius $\theta = 1.644\,(m/M)^{1/3}$ — the Hill scaling — so mass fraction and volume fraction coincide and the density contrast is $\approx 1$ (measured $1.03$–$1.27$): *a point mass smears itself to background density.* No shape or extension escapes. The verdict is the **terminus theorem**: under monopole coupling, sourcing the fibration and being orbitable are mutually exclusive. A sign flip repairs nothing — an endpoint is an endpoint.
+The original law $\Box_5 f = \kappa T$ makes matter a *charge* of the fibration: every trace-full object is a flow endpoint. The failure was quantitative **[M]**: basin radius $\theta = 1.644\,(m/M)^{1/3}$ — the Hill scaling — so mass fraction and volume fraction coincide and the density contrast is $\approx 1$ (measured $1.03$–$1.27$): *a point mass smears itself to background density.* No shape or extension escapes. The verdict is the **terminus theorem**: under charge coupling, sourcing the fibration and being orbitable are mutually exclusive. A sign flip repairs nothing — an endpoint is an endpoint.
 
-### 6.2 The dielectric law
+> **The general lesson.** Whether a field is *sourced* or *unsourced* decides whether localized structure can exist in it at all. Source laws create termini; termini destroy the projection; a destroyed projection means no orbits. This is a design principle for any theory carrying an auxiliary geometric field.
 
-> ### ◆ THE FIBRATION LAW
-> $$\boxed{\;\nabla_\mu\big[\varepsilon(T)\,\nabla^\mu f\big] = 0, \qquad \oint_{\rm fiber} df = \ln\lambda, \qquad \varepsilon = 1 - \alpha T\;}$$
-> A **conservation law**: the flux $\varepsilon\nabla f$ is divergence-free, so **fibers never begin or end anywhere** **[M: $\min|\nabla f| > 0$ along every traced line]**. The winding replaces the matter source. Matter *refracts* the flow: an object with $\varepsilon > 1$ draws field lines in and passes them through — funneling half-width $b = 2\varepsilon R/(1+\varepsilon)$ in the 2D slice **[M: predicted $1.667R$ at $\varepsilon = 5$, measured $1.6$–$1.7R$]**.
+### 6.2 The repair: topology instead of a source
 
-### 6.3 The boundedness theorem
+> ### ◆ THE FIBER LAW
+> $$\boxed{\;\Box f = 0, \qquad \oint_{\rm fiber} df = \ln\lambda\;}$$
+> The fibration field is **not sourced by anything.** It exists because $f$ wraps the compact fiber direction with period $\ln\lambda$ — an angle-like compact scalar, legal precisely because $\chi(S^1\times S^3) = 0$ permits a nowhere-vanishing closed one-form (§5). The solution is $f = wu$ exactly, for any base metric and any dilaton profile **[V]**.
 
-For a ball of permittivity $\varepsilon$ in $n$ spatial dimensions **[V]**:
+Three consequences. **No endpoints, ever** — an unsourced field has no flow termini, so the entire basin apparatus of §6.1 is abolished by construction and localized masses are generic. **The fibration is rigid** — fixed by the product structure of the arena, not responding to matter (§0.6). **The dictionary closes** — $|\nabla f| = w/\psi$ on the winding solution, tying the fiber field to the dilaton exactly (§7.5).
 
-$$E_{\rm in} = \frac{n E_0}{\varepsilon + n - 1}, \qquad \frac{\varepsilon E_{\rm in}}{E_0} = \frac{n\varepsilon}{\varepsilon + n - 1}\;\to\; n$$
+### 6.3 The retired coupling
 
-**No object, however massive, can concentrate fibers onto itself by more than a factor of 4.** A mass's base footprint is its fiber-tube, spread by an order-one, dimension-fixed factor. Verified directly: at $\varepsilon = 2, 6, 50, 1000$ in a 2D test the concentration ran $1.36, 1.82, 2.15, 2.20$ — climbing to the ceiling and stopping **[V]**. Localized base masses are generic; the base contains solar systems.
+Earlier editions promoted the law to $\nabla_\mu[\varepsilon(T)\nabla^\mu f] = 0$ with $\varepsilon = 1-\alpha T$, letting matter refract the fibration. It is recorded here as retired, with the bound that retired it: since the stabilized fiber size would track $\varepsilon$ and $\alpha_{\rm fine}\propto1/\psi$, the constancy of the fine-structure constant forces $\varepsilon - 1 < 2\times10^{-5}$ in ordinary matter, and the cosmic background would need a sub-Planckian fiber extent to orient the fibers at $O(1)$ (§12.5) **[V]**. The refraction sector is unobservable, and removing it makes $\alpha_{\rm fine}$ *exactly* constant rather than merely constant to $10^{-5}$. *Radiation was blind to that coupling in any case* ($T = 0 \Rightarrow \varepsilon = 1$) — the fourth appearance of the selection rule (§15).
 
-### 6.4 The taxonomy
-
-| matter | trace $T$ | $\varepsilon$ | fiber behavior |
-|---|---|---|---|
-| dust | $-\rho$ | $1+\alpha\rho > 1$ | **paramagnet** — bunches fibers |
-| **radiation** | $0$ | $=1$ | **blind** — passes unrefracted |
-| stiff | $+2\rho$ | $1-2\alpha\rho<1$ | **diamagnet** — expels fibers |
-| vacuum energy | $-4\rho$ | $1+4\alpha\rho$ | strongly paramagnetic |
-
-The stiff sector has a sharp threshold at $\alpha\rho = \tfrac12$: $\varepsilon\to0$, a **fibration insulator**. $\varepsilon > 0$ joins the admissibility list — it is exactly ellipticity of the fiber equation.
-
-### 6.5 The susceptibility channel
-
-$\varepsilon(T)|\nabla f|^2$ is an interaction energy: trace-full matter is drawn toward fiber bunches, hence toward other masses' funnels. Matter attracts matter through the fiber field, with strength set by $\alpha$ and bounded by the concentration theorem. Benign, interesting, or fatal is the first computation the branch owes **[O]**.
 
 ---
 
@@ -125,41 +171,43 @@ With the twist-free ansatz $g_5 = g^{(4)} + \psi^2 du^2$, the 5D Einstein equati
 > **Budget-normalized ($G$-free) form — the default.** With $\ell \equiv (V/2\pi^2)^{1/3}$ the volume radius and $\bar\epsilon \equiv \mathcal{E}/V$ the mean energy density of the closed slice — global invariants of the solution, privileging no node — and $\tau_{\mu\nu} \equiv S_{\mu\nu}/\bar\epsilon$ the fiber-averaged stress tensor as a fraction of the budget:
 > $$\boxed{\;\ell^2 R^{(4)}_{\mu\nu} \;=\; \ell^2\,\psi^{-1}\nabla_\mu\nabla_\nu\psi \;+\; 2\Big(\tau_{\mu\nu} - \tfrac13\,\tau\,g^{(4)}_{\mu\nu}\Big)\;}$$
 > $$\ell^2\,\Box\psi \;=\; -\frac43\,\psi\Big(\tau_u - \tfrac12\tau\Big) \;\;\to\;\; -\frac23\,\psi\,(\hat\rho - \hat p)\quad\text{under } p_u = p$$
-> Both sides dimensionless; the couplings are the pure numbers $2$ and $\tfrac43$, fixed by the Mach lock $8\pi G\bar\epsilon\ell^2/c^4 = 2$ on the homogeneous background, where the dilaton term vanishes because $\psi_0$ tracks a uniform $\varepsilon$ **[V]**. $G$ appears nowhere; it is a theorem of the solution, $G = \pi c^2\ell/2M_{\rm tot}$ (§10). The unit-conversion job $G$ performed is reassigned to the pair $(\ell,\mathcal{E})$: one length from geometry, one energy from inventory.
+> Both sides dimensionless; the couplings are the pure numbers $2$ and $\tfrac43$, fixed by the Mach lock $8\pi G\bar\epsilon\ell^2/c^4 = 2$ on the homogeneous background, where the dilaton term vanishes because $\psi_0$ tracks a uniform $\varepsilon$ **[V]**. $G$ appears nowhere in the equation; on the static background it equals $\pi c^2\ell/2M_{\rm tot}$ (§10 — a rearrangement, not a derivation). **This is an exact rewriting valid on the static background, not a dynamical law**: normalizing by $\ell(t)$ in an expanding universe would give $\dot G/G = H \approx 7\times10^{-11}$/yr against a lunar-laser-ranging bound of $10^{-13}$/yr, too big by $\sim700\times$ **[V]**. The dynamical theory keeps $G = G_5/C$ constant; §7.5's stabilization is what makes that consistent. The unit-conversion job $G$ performed is reassigned to the pair $(\ell,\mathcal{E})$: one length from geometry, one energy from inventory.
 >
 > **With the stabilized dilaton (§7.5)** the fiber term becomes $-\tfrac{\hat\alpha}{2}\ell^2\nabla_\mu\nabla_\nu\tau$ with $\hat\alpha = \alpha\bar\epsilon$ a pure number, so the full field equation is
 > $$\boxed{\;\ell^2 R^{(4)}_{\mu\nu} + \frac{\hat\alpha}{2}\,\ell^2\,\nabla_\mu\nabla_\nu\tau \;=\; 2\Big(\tau_{\mu\nu} - \tfrac13\,\tau\,g^{(4)}_{\mu\nu}\Big)\;}$$
-> — GR's structure with the five-dimensional $\tfrac13$ and one susceptibility correction, every coefficient a pure number, every dimension carried by $\ell$ and $\tau$.
+> — GR's structure with the five-dimensional $\tfrac13$, every coefficient a pure number, every dimension carried by $\ell$ and $\tau$. ($\hat\alpha = 0$ in this theory; the term is displayed only to locate where a susceptibility coupling would enter.)
 >
 > *Equivalent conventional form* ($G = c = 1$): $R^{(4)}_{\mu\nu} = \psi^{-1}\nabla_\mu\nabla_\nu\psi + 8\pi(S_{\mu\nu} - \tfrac13 S g_{\mu\nu})$, $\;\Box\psi = -\tfrac{16\pi}{3}\psi(p_u - \tfrac12 S)$. Structurally the reduction of static vacuum gravity along a Killing vector; the $\tfrac13$ is the fingerprint of the five-dimensional origin. The source is the **fiber-averaged** stress tensor $S_{\mu\nu} = \oint T_{\mu\nu}\,du$ — the projective postulate at work.
 
-**The dictionary seam [O].** The fiber proper length per unit $f$ is $1/|\nabla f|$, so $\psi$ and $|\nabla f|$ are tied; the dielectric equation fixes $|\nabla f|$ from $\varepsilon$ and the winding, the reduced Einstein equation fixes $\psi$ from matter. Their compatibility is the theory's central consistency question.
+**The dictionary [V].** The fiber proper length per unit $f$ is $1/|\nabla f|$, so $\psi$ and $|\nabla f|$ are tied. On the winding solution the tie is exact — $|\nabla f| = w/\psi$ (§7.5) — so what earlier editions carried as the theory's central consistency seam is closed identically.
 
 **The lesson from the celestial detour, acted on.** A massless fiber-size modulus is a long-range fifth force. The dilaton $\psi$ is exactly such a modulus — and this theory already contains the flux that stabilizes it. §7.5 does the computation.
 
 ### 7.5 Dilaton stabilization by the winding
 
-**The problem.** In vacuum $\Box\psi = 0$: the dilaton is a Brans–Dicke scalar with $\omega = 0$, whose fifth force has Yukawa strength $\alpha = 1/(2\omega+3) = \tfrac13$ and infinite range **[T]** — excluded by solar-system tests at the $10^{-5}$ level. The celestial detour's lesson was that a flux threading the fiber gives the modulus a mass. Here the flux is already present: **the winding of $f$.**
+**The problem, and it is fatal without a fix.** In vacuum $\Box\psi = 0$: the dilaton is a Brans–Dicke scalar with $\omega = 0$. Two consequences, both lethal. Its fifth force has Yukawa strength $\alpha = 1/(2\omega+3) = \tfrac13$ at infinite range **[T]**. And the PPN light-deflection parameter is
 
-**The dictionary closes first [V].** $f = wu$ is an *exact* solution of the dielectric law $\nabla_\mu[\varepsilon\nabla^\mu f] = 0$ for any base-dependent $\varepsilon(x)$ and $\psi(x)$, with $|\nabla f| = w/\psi$. So the §7 seam — $\psi$ versus $1/|\nabla f|$ — is closed by the winding for fiber-smeared matter; refraction is a fiber-*localized*-matter effect ($\varepsilon$ depending on $u$), consistent with the GR dial.
+$$\gamma = \frac{1+\omega}{2+\omega}\bigg|_{\omega=0} = \frac12$$
 
-**The reduction with the winding energy [V].** With $g_5 = g^{(4)} + \psi^2du^2$, $u\sim u+\ln\lambda$, a 5D cosmological constant $\Lambda_5$, and the winding energy $\tfrac12\varepsilon(\nabla f)^2 = \varepsilon w^2/2\psi^2$, the 5D action reduces to Brans–Dicke with $\omega = 0$ and a potential:
+against Cassini's $\gamma - 1 = (2.1\pm2.3)\times10^{-5}$ **[T]**. That is not a tension; it is exclusion by twenty thousand standard deviations. **An unstabilized theory is dead on arrival.** The celestial detour's lesson was that a flux threading the fiber gives the modulus a mass. Here the flux is already present: **the winding of $f$.**
 
-$$S_4 = \ln\lambda\int\sqrt{g_4}\,\Big[\psi R_4 - U(\psi)\Big], \qquad U(\psi) = 2\Lambda_5\,\psi + \frac{\varepsilon w^2}{2\psi}$$
+**The dictionary closes first [V].** $f = wu$ is an *exact* solution of $\Box f = 0$ for any base metric and any $\psi(x)$, with $|\nabla f| = w/\psi$. The §7 seam — $\psi$ versus $1/|\nabla f|$ — is therefore closed by the winding, identically.
 
-In the Einstein frame $\tilde g = (\psi/\psi_0)\,g$, with $x = \psi/\psi_0$ and canonical field $\phi = \sqrt3\ln x$, the potential is $V(x) = 2\Lambda_5/x + \varepsilon w^2/(2\psi_0^2x^3)$.
+**The reduction with the winding energy [V].** With $g_5 = g^{(4)} + \psi^2du^2$, $u\sim u+\ln\lambda$, a 5D cosmological constant $\Lambda_5$, and the winding energy $\tfrac12(\nabla f)^2 = w^2/2\psi^2$, the 5D action reduces to Brans–Dicke with $\omega = 0$ and a potential:
+
+$$S_4 = \ln\lambda\int\sqrt{g_4}\,\Big[\psi R_4 - U(\psi)\Big], \qquad U(\psi) = 2\Lambda_5\,\psi + \frac{w^2}{2\psi}$$
+
+In the Einstein frame $\tilde g = (\psi/\psi_0)\,g$, with $x = \psi/\psi_0$ and canonical field $\phi = \sqrt3\ln x$, the potential is $V(x) = 2\Lambda_5/x + w^2/(2\psi_0^2x^3)$.
 
 **The result [V].** A minimum exists if and only if $\Lambda_5 < 0$, and then
 
-$$\boxed{\;\psi_0^2 = \frac{3\,\varepsilon w^2}{4|\Lambda_5|}, \qquad m_\psi^2 = \frac43|\Lambda_5| = \frac{\varepsilon w^2}{\psi_0^2}, \qquad m_\psi\,\psi_0 = w\sqrt{\varepsilon}\;}$$
+$$\boxed{\;\psi_0^2 = \frac{3\,w^2}{4|\Lambda_5|}, \qquad m_\psi^2 = \frac43|\Lambda_5| = \frac{w^2}{\psi_0^2}, \qquad m_\psi\,\psi_0 = w\;}$$
 
-Three readings. The fiber size is set by the winding, and $w$ is quantized — so $\psi_0$ is fixed by an integer, exactly as the flux integer fixed the fiber in the celestial theory. The modulus Compton wavelength equals the fiber size: $m_\psi\psi_0 = 1$ for one winding in vacuum, the same law $m\lambda\to1$ found there. And the fifth force becomes a Yukawa of strength $\tfrac13$ and range $\psi_0$: torsion-balance searches then bound the fiber at roughly tens of microns.
+Three readings. The fiber size is set by the winding, and $w$ is quantized — so $\psi_0$ is fixed by an integer, exactly as the flux integer fixed the fiber in the celestial theory. The modulus Compton wavelength equals the fiber size: $m_\psi\psi_0 = 1$ for one winding, the same law $m\lambda\to1$ found there. And the fifth force becomes a Yukawa of strength $\tfrac13$ and range $\psi_0$: torsion-balance searches then bound the fiber at roughly tens of microns.
 
-**The modulus tracks matter [D].** Since $\psi_0^2\propto\varepsilon = 1-\alpha T$, the stabilized fiber size responds to the local trace, $\delta\psi_0/\psi_0 = -\alpha T/2$. For fibers far smaller than the matter's variation scale the response is adiabatic, and Law I's dilaton term becomes
+**The modulus responds only gravitationally [D].** With the fibration rigid, $\psi_0$ is a pure constant, and the only response to matter is through Law I's own source: $(\Box - m_\psi^2)\,\delta\psi = \tfrac14\kappa T\psi_0$, saturating deep inside a body at $\delta\psi/\psi_0 = 2\pi G\rho\psi_0^2/c^2$ — about $6\times10^{-32}$ for Earth at a $50\,\mu$m fiber (§12.5). Law I's dilaton term is negligible everywhere outside extreme compact objects.
 
-$$\psi^{-1}\nabla_\mu\nabla_\nu\psi \;\longrightarrow\; -\frac{\alpha}{2}\,\nabla_\mu\nabla_\nu T$$
-
-**the susceptibility channel of §6.5, now a computable correction** — second derivatives of the trace, negligible for smooth distributions, largest at sharp density edges.
+**PPN is restored exactly [D].** With mass $m_\psi = 1/\psi_0$ the scalar is Yukawa-suppressed by $e^{-r/\psi_0}$; at $1$ AU with $\psi_0 = 50\,\mu$m that factor is $e^{-3\times10^{15}}$ — zero for any purpose. The exterior of a body is vacuum Einstein: $\gamma = 1$, Schwarzschild, no fifth force, and the $\tfrac13$ trace-reversal of the 5D reduction never surfaces outside matter. Fifth-force searches then bound $\psi_0$ at roughly tens of microns. **§7.5 is not a tidying step — it is what makes the theory survive the solar system at all**, and it does so with a mechanism the framework already contained.
 
 **The price [O].** At the minimum $\Lambda_4 = \tfrac23\Lambda_5 = -\tfrac12 m_\psi^2 < 0$: the winding-stabilized vacuum is anti-de Sitter, with $|\Lambda_4|$ of order the modulus mass squared. The observed small positive $\Lambda$ needs an uplift of that size — the cosmological-constant problem in Kaluza–Klein dress, shared with the celestial theory's $\Lambda_6$ tuning. The cone theorem's positive $\Lambda = 1/\ell^2$ (§3) belongs to the cone geometry; reconciling it with the Hopf-compactified vacuum's negative $\Lambda_4$ is the open uplift problem.
 
@@ -173,7 +221,7 @@ $$\frac{D\dot x^\mu}{d\lambda} = \frac{p_u^2}{\psi^3}\,\nabla^\mu\psi, \qquad m_
 
 **Neutral matter ($p_u = 0$)** follows base geodesics exactly. Trace-full lumps project to compact base masses (§6.3), so the base contains Schwarzschild-like wells in the closed background, and the closed-universe orbit machinery — exact static solver, rosettes, trapped orbits — describes this theory's actual solar systems.
 
-**Charged matter ($p_u\neq0$)** feels the scalar fifth force, sliding toward large $\psi$. The pinch points of the monopole era **no longer exist**: divergence-free flux with $\varepsilon > 0$ admits no critical points. Particles are gently expelled from paramagnetic interiors and drawn to funnel throats, all effects capped by the factor-$n$ theorem.
+**Charged matter ($p_u\neq0$)** feels the scalar fifth force, sliding toward large $\psi$. The pinch points of the monopole era **no longer exist**: divergence-free flux with $\varepsilon > 0$ admits no critical points. With the fibration rigid, $\psi$ varies only through its own stabilized field equation, so the force is a Yukawa of range $\psi_0$ and is bounded everywhere (§7.5).
 
 ---
 
@@ -198,17 +246,38 @@ $$\boxed{\;\frac{G\,M_{\rm tot}}{c^2\,\ell} = \frac{\pi}{2}\;}$$
 
 Sciama's order-unity Machian relation with its coefficient supplied, exactly.
 
+> **What this relation is, and is not [D].** It is a **consistency relation on static solutions**, not a derivation of $G$. In the reduced theory $G_4 = G_5/C$ with $C = \psi_0\ln\lambda$ the stabilized fiber circumference — both factors constants — so $G$ enters as an input exactly as in general relativity. The static sector has four quantities $(G, \Lambda, \bar\rho, \ell)$ and two equations ($\dot a = \ddot a = 0$), leaving two free: the natural reading takes $G$ and $\Lambda$ as inputs and returns $\ell = 1/\sqrt\Lambda$ and $\bar\rho$. Writing $G = \pi c^2\ell/2M_{\rm tot}$ inverts the same equation; the two readings are algebraically identical and neither is privileged. Earlier editions of this guide presented the inverted form as though $G$ were an *output*. It is not. What the relation genuinely delivers: **$G$ is not independently specifiable in a closed static universe** — one fewer free quantity than a naive count — and the coefficient is $\pi/2$ exactly rather than Sciama's $\sim1$.
+
 **The $k$-dial [V — dynamically confirmed, wobble $10^{-13}$].** With the lumps carrying fraction $k$ of the budget at antipodal nodes, the circular-orbit speed at colatitude $\chi = d/\ell$ is
 
 $$\boxed{\;\frac{v^2(\chi)}{c^2} = k\,\frac{\pi - 2\chi + \sin 2\chi}{2\sin 2\chi}\;}$$
 
 Landmarks: near a node $v^2\to G(M_l/2)/d$ (Kepler, the $\tfrac12$ being the budget's split between the poles); at the equator $v^2/c^2 = k$ exactly, a stationary minimum — **the budget meter**; at parity $k = 1$, light speed at the midpoint, mass-independent. The lone-mass Kepler continuation would give $\tfrac12$ there: the factor of $2$ is the antipode speaking.
 
-**$G$ as theorem [V].**
+**$G$ from the other three [V].**
 
 $$G = \frac{\pi c^2\ell}{2M_{\rm tot}} = \frac{\pi\ell\,v^2_{\rm eq}}{2M_{\rm lumps}} = \frac{c^2}{4\pi\bar\rho\,\ell^2}$$
 
-Measurement protocol: circumference $\to\ell$; midpoint orbit $\to v^2$; inventory $\to M$. A hidden $G$ is recovered to $10^{-10}$.
+Measurement protocol: circumference $\to\ell$; midpoint orbit $\to v^2$; inventory $\to M$. A hidden $G$ is recovered to $10^{-10}$ — a genuine constraint, though (per the caveat above) a rearrangement rather than a derivation.
+
+**The inversion: what the theory could predict instead [D, conditional].** The Machian ambition is not dead — it points the other way. Every link in this chain is a derived relation of the theory:
+
+$$\psi_0 = \sqrt{\frac{3w^2}{4|\Lambda_5|}} \;\to\; C = \psi_0\ln\lambda \;\to\; G_4 = \frac{G_5}{C}, \qquad \Lambda_4 = \tfrac23\Lambda_5 \;\to\; \ell = \frac{1}{\sqrt{\Lambda_4}}$$
+
+Feeding both into the Mach lock returns
+
+$$\boxed{\;M_{\rm tot} = \frac{3\sqrt2\,\pi\,c^2\,\ln\lambda\;w}{8\,G_5\,\Lambda_5}\;}$$
+
+with **every symbol on the right a theory parameter** — $G_5$, $\Lambda_5$, $w$, $\ln\lambda$; nothing observational. So the statement is not "the universe determines $G$" but "**the theory determines the universe**": it would *predict the total mass*. That is the stronger claim of the two, because it can be wrong.
+
+**The condition, not undersold [O].** The inversion requires $\Lambda_4 > 0$, and the stabilized vacuum gives $\Lambda_4 = -m_\psi^2/2 < 0$. The magnitude is worse than the sign:
+
+| $\psi_0$ | $\vert\Lambda_4\vert$ | vs observed $1.1\times10^{-52}\,\mathrm{m^{-2}}$ |
+|:--|:--|:--|
+| $50\,\mu$m | $2\times10^{8}\,\mathrm{m^{-2}}$ | off by $10^{60}$ |
+| $1\,\mu$m | $5\times10^{11}\,\mathrm{m^{-2}}$ | off by $10^{63}$ |
+
+That is the cosmological-constant problem at full strength, and this framework has no special claim on solving it. **The prediction exists in the structure and is unreachable in practice** — one problem stands between the framework and a real prediction, and it is the hardest unsolved problem in the subject.
 
 **Role democracy [V].** In the stereographic chart $r = \tan(\chi/2)$ the two-node potential is $\Phi/c^2 = k(\pi r/8 + \tfrac12 - \pi/8r)$, **identical** under $r\to1/r$: a $-\pi/8r$ pole (the visible mass) plus an isotropic $+\pi r/8$ pull toward chart-infinity (the antipodal node, smeared over the sky only by the chart). "Primary" and "secondary" are frame labels; any node can be sent to infinity, none is privileged. This is the Kelvin transform: the MP metric's constant "1" is a point mass at infinity, exactly.
 
@@ -225,7 +294,7 @@ Near the charge this is Reissner–Nordström, **deduced**: the field's own ener
 | # | identity | status |
 |:--|:--|:--|
 | E1 | $\Lambda\ell^2 = 1$ (closure eigenvalue) | [V] |
-| E2 | $GM_{\rm tot}/c^2\ell = \pi/2$ (Mach lock) | [V] |
+| E2 | $GM_{\rm tot}/c^2\ell = \pi/2$ (Mach lock — a consistency relation on static solutions, §10) | [V] |
 | E3 | $v^2_{\rm eq}/c^2 = M_{\rm lumps}/M_{\rm tot}$ ($k$-dial) | [V] |
 | E4 | $\bar\rho = c^2/4\pi G\ell^2$ | [V] |
 | E5 | $M_{\rm each}(k{=}1) = \pi c^2\ell/4G$ | [V] |
@@ -234,16 +303,26 @@ Near the charge this is Reissner–Nordström, **deduced**: the field's own ener
 | E8 | a single lump circulating a great circle has zero time-averaged dipole | [V] |
 | E9 | charged secondary: $\phi_e\propto\cot\chi$, mass $\propto(\chi-\tfrac\pi2)\cot\chi$, charge $\propto\csc^2\chi$ | [V] |
 | E10 | stereographic self-duality $r\to1/r$ of the two-node potential | [V] |
-| E11 | budget-normalized couplings: $8\pi G\bar\epsilon\ell^2/c^4 = 2$ (Law I), $\tfrac43$ (dilaton), $\hat\alpha$ (susceptibility) — all pure numbers | [V] |
+| E11 | budget-normalized couplings: $8\pi G\bar\epsilon\ell^2/c^4 = 2$ (Law I), $\tfrac43$ (dilaton) — pure numbers | [V] |
 | E12 | fiber-escape identity: $\sigma = -\partial_r(r^3E_r)$ on the slice; net zero for off-slice sources | [V] |
-| E13 | $f = wu$ solves the dielectric law for any $\varepsilon(x),\psi(x)$; $\lvert\nabla f\rvert = w/\psi$ | [V] |
-| E14 | stabilization: $\psi_0^2 = 3\varepsilon w^2/4\lvert\Lambda_5\rvert$; $m_\psi\psi_0 = w\sqrt\varepsilon$ | [V] |
+| E13 | $f = wu$ solves $\Box f = 0$ for any base metric and any $\psi(x)$; $\lvert\nabla f\rvert = w/\psi$ | [V] |
+| E14 | stabilization: $\psi_0^2 = 3w^2/4\lvert\Lambda_5\rvert$; $m_\psi\psi_0 = w$ | [V] |
 | E15 | $\Lambda_4 = \tfrac23\Lambda_5 = -\tfrac12 m_\psi^2$ at the stabilized vacuum | [V] |
 | E16 | charged node: gravity's force vanishes at the equator (both terms); electric force $Q/4\pi\epsilon_0\ell$ there | [V] |
 | E17 | a lump of index contrast $0.03$ shifts the null-ray refocus $0.56°$ off the antipode and blurs it | [V] |
 | E18 | 5D Maxwell reduces to $\nabla_\mu(\psi\mathcal{F}^{\mu\nu}) = \psi\mathcal{J}^\nu - \partial_u(\psi^{-1}\mathcal{F}_u{}^\nu)$: a medium with $\epsilon = 1/\mu = \psi$, $\epsilon\mu = 1$ | [V] |
 | E19 | fiber photon modes are Proca with $m_n = 2\pi n/C_{\rm fiber}$ ($\approx 25$ meV at $50\,\mu$m) | [D] |
 | E20 | light lives on the double cover $S^3$, in the antipodally symmetric metric: lensed at the image, not emitted there | [D] |
+| E21 | $\chi(S^4) = 2$: fibers radiating from a point of $S^4$ are forbidden; $\chi(S^1\times S^3) = 0$ | [T] |
+| E22 | fiber over $[\hat n]$ has two components ($\pm\hat n$): the seed, from topology alone | [D] |
+| E23 | retired coupling: $\delta\alpha_{\rm fine}/\alpha_{\rm fine} = -\alpha\rho/2 \Rightarrow \varepsilon - 1 < 2\times10^{-5}$; primary needs $<10^{-4}\,\ell_{\rm P}$ fiber extent | [V] |
+| E24 | no static matter-filled flat universe: the lock needs $k = +1$ | [V] |
+| E25 | $\mathbb{R}^* = \mathbb{R}^+\times\mathbb{Z}_2$: the antipodal link is the discrete factor, not a path | [T] |
+| E26 | $\mathbb{Z}_2$-localization $\Rightarrow$ the seed; $u$-localization $\Rightarrow$ the Proca tower; independent | [D] |
+| E28 | $G_4 = G_5/C$, $C = \psi_0\ln\lambda$: $G$ is a constant of the theory, not an output | [D] |
+| E29 | unstabilized: $\gamma = 1/2$ (excluded); stabilized: $\gamma = 1$ to $e^{-3\times10^{15}}$ at 1 AU | [T/D] |
+| E30 | conditional inversion: $M_{\rm tot} = 3\sqrt2\pi c^2\ln\lambda\,w/8G_5\Lambda_5$, needs $\Lambda_4>0$ | [D] |
+| E27 | $\delta\alpha_{\rm fine}/\alpha_{\rm fine} = 2\pi G\rho\psi_0^2/c^2 \approx 6\times10^{-32}$ (Earth, $50\,\mu$m) | [V] |
 
 ---
 
@@ -251,13 +330,13 @@ Near the charge this is Reissner–Nordström, **deduced**: the field's own ener
 
 > ### ■ ARENA
 > - **A1.** Total spacetime $M_5 = \mathbb{R}_t\times S^1_u\times S^3$, fiber spacelike and compact.
-> - **A2.** Base $B_4 = \mathbb{R}_t\times\mathbb{RP}^3$ (or $\mathbb{R}_t\times S^3/\Gamma$).
+> - **A2.** Base $B_4 = \mathbb{R}_t\times\mathbb{RP}^3$ (or $\mathbb{R}_t\times S^3/\Gamma$). The fiber over $[\hat n]$ has $|\Gamma|$ components (§0.6) — the source of the seed.
 > - **A3.** $\chi(M_5) = 0$, enabling the winding form.
 > - **A3′.** A 5D cosmological constant $\Lambda_5 < 0$ (required for the winding to stabilize the fiber, §7.5).
 
 > ### ■ FIELDS
 > - **A4.** Base metric $g^{(4)}$ (10).
-> - **A5.** Compact fiber scalar $f$, winding $\oint df = \ln\lambda$; dilaton $\psi$ with $|\nabla f| = w/\psi$ on the winding solution, stabilized at $\psi_0^2 = 3\varepsilon w^2/4|\Lambda_5|$ with mass $1/\psi_0$ (§7.5).
+> - **A5.** Compact fiber scalar $f$, winding $\oint df = \ln\lambda$; dilaton $\psi$ with $|\nabla f| = w/\psi$, stabilized at $\psi_0^2 = 3w^2/4|\Lambda_5|$ with mass $m_\psi = 1/\psi_0$ (§7.5).
 > - **A6.** $A_\mu\equiv0$ by Frobenius.
 
 > ### ◆ LAW I — GRAVITY
@@ -267,21 +346,21 @@ Near the charge this is Reissner–Nordström, **deduced**: the field's own ener
 
 > ### ◆ LAW II — FIBRATION
 > - **A10.** Fibers are the flow lines of $\nabla f$.
-> - **A11.** $\nabla_\mu[\varepsilon(T)\nabla^\mu f] = 0$, $\varepsilon = 1-\alpha T$: **no monopole coupling of matter to $f$.**
+> - **A11.** $\Box f = 0$ with $\oint df = \ln\lambda$: the fibration is **unsourced and rigid**, $f = wu$ exactly. Matter does not couple to $f$ (§6).
 
 > ### ◇ LAW III — ELECTROMAGNETISM (candidate slot)
 > - **A12 (adopted, §12.5).** The electromagnetic 2-form lives on $M_5$ — the double cover $\mathbb{R}_t\times S^1_u\times S^3$, not the gravitational base — with its 5D current supported on charged matter: $d\mathcal{F} = 0$, $d\star_5\mathcal{F} = \star_5\mathcal{J}$. The source-free case $\mathcal{J} = 0$, with charges as winding defects, is the Wheeler option **[S]**. Its reduction is derived in §12.5: ordinary Maxwell survives.
-> - **Gauss's law as fiber escape [V].** In this geometry the fiber *is* the radial direction of $\mathbb{R}^4$ — transverse to the physical 3-sphere. The 4D divergence in polar form, $\nabla\!\cdot\!E = r^{-3}\partial_r(r^3E_r) + r^{-1}\nabla_{S^3}\!\cdot E_\parallel$, gives a source-free field an apparent 3-charge on the slice
+> - **Gauss's law as fiber escape [V].** In this geometry the fiber *is* the radial direction of $\mathbb{R}^4$ — transverse to the physical 3-sphere, so flux genuinely leaves 3-space along it. (It does **not** emerge at the antipode: the compact fiber closes on itself at the same $\hat n$, §0.6.) The 4D divergence in polar form, $\nabla\!\cdot\!E = r^{-3}\partial_r(r^3E_r) + r^{-1}\nabla_{S^3}\!\cdot E_\parallel$, gives a source-free field an apparent 3-charge on the slice
 > $$\sigma(\hat n) = -\,\partial_r\big(r^3E_r\big)\big|_{r=1}$$
-> — Gauss's law on the 3-sphere read as **flux escaping along the fiber, through the interior of the 3-sphere**. For a 4D Coulomb charge just off the slice this yields a sharp positive apparent charge beneath it and a diffuse negative sea, netting zero by Gauss's theorem on the 4-ball. This is the derivation the celestial fibers could not support: there the fiber was directions at a point, and the escape identity had no direction to escape along.
+> — Gauss's law on the 3-sphere read as **flux escaping along the fiber**. For a 4D Coulomb charge just off the slice this yields a sharp positive apparent charge beneath it and a diffuse negative sea, netting zero by Gauss's theorem on the 4-ball. This is the derivation the celestial fibers could not support: there the fiber was directions at a point, and the escape identity had no direction to escape along.
 > - **The loophole.** Net base charge from plumbing alone needs either a drain at the cone point or a **multivalued potential** (the balance theorem holds only for single-valued fields). This theory's fiber field is multivalued by construction, so the winding sector is the natural home of Wheeler's charge-without-charge **[S]**. Its consequence for base electrodynamics is open problem 3.
 
 > ### ▣ DERIVED
 > - **D1.** $\Lambda = 1/\ell^2$ from the cone (§3). **D2.** No fiber endpoints; concentration $\le n$ (§6.3). **D3.** $p_u = 0$ geodesics are base geodesics. **D4.** The static twin is the quotient (§2). **D5.** Mach lock, $k$-dial, $G$ as theorem (§10).
 
-**Admissibility.** $\nabla f$ spacelike, nowhere zero; $\varepsilon > 0$ everywhere; fiber compact; energy conditions on $(\rho, p, p_u)$.
+**Admissibility.** $\nabla f$ spacelike and nowhere zero (automatic on the winding solution); fiber compact; energy conditions on $(\rho, p, p_u)$.
 
-**Free parameters (budget-normalized ledger).** $\hat\alpha$ (susceptibility, pure number) · the winding integer $w$ · one scale, $|\Lambda_5|$ (equivalently the stabilized fiber size $\psi_0$, bounded by fifth-force searches at tens of microns) · the quotient group $\Gamma$ · the equation of state. $G$ is a theorem; $\Lambda\ell^2$ an eigenvalue; $c$ from the causal structure of $M_5$; the dilaton mass is $1/\psi_0$, not a dial.
+**Free parameters of the minimal theory.** The winding integer $w$ · one scale, $|\Lambda_5|$ (equivalently the stabilized fiber size $\psi_0$, bounded by fifth-force searches at tens of microns) · the quotient group $\Gamma$ · the equation of state. That is **one integer, one scale, one discrete choice.** $G$ is a theorem; $\Lambda\ell^2$ an eigenvalue; $c$ from the causal structure of $M_5$; $m_\psi = 1/\psi_0$, not a dial; $\alpha_{\rm fine}$ exactly constant.
 
 ---
 
@@ -294,7 +373,7 @@ $$\boxed{\;\text{dark matter} = \text{the projection image of luminous matter}\;
 Its properties are inherited, not fitted: collisionless (nothing there to collide), non-luminous, non-absorbing, gravitating and lensing with the full mass of its source, and tracking its source exactly through the quotient map.
 
 **Three consistency facts already in hand.**
-- *Radiation is the natural dweller of the total space.* It is blind to the fibration ($\varepsilon = 1$), needs no fiber stress, and cannot source $f$ — the radiation-blindness ledger's six entries are all reasons A12 costs nothing.
+- *Radiation is the natural dweller of the total space.* It needs no fiber stress and cannot source $f$ — the radiation-blindness ledger's six entries are all reasons A12 costs nothing.
 - *The image is diluted, not copied* **[M]**: the base footprint of a dust cloud is spread by a factor $0.25$–$0.75$, of stiff matter concentrated by $\sim15\times$. **The dark image of ordinary matter is more diffuse than its source** — halo-like rather than cusp-like.
 - *The static sector forces symmetric sources* (§2), so in the static idealization luminous matter at $R$ is accompanied by luminous matter at $\bar R$, and each is the other's image: dark matter is then **co-located** with luminous matter, image-for-image.
 
@@ -327,7 +406,26 @@ The base sees **Maxwell in a medium of permittivity $\psi$**, sourced by the fib
 
 $$\boxed{\;\text{A12 passes: the seed's optics are a consequence of the reduction, not an assumption.}\;}$$
 
-**Residuals [O].** The extra scalar's contribution to the radiation budget; the Proca tower's phenomenology if ordinary charges have fiber structure; the $O(\alpha T)$ impedance variation inside matter, a small computable correction to field strengths.
+**The only permittivity here is the dilaton [D].** $\varepsilon_{\rm EM} = \psi$ is the electromagnetic permittivity of the reduced theory; it is unrelated to the retired susceptibility of §6.3, and every result in this section is independent of that coupling.
+
+**Does the photon reveal the fiber? [V]** With the fibration rigid, $\psi_0 = \sqrt{3w^2/4|\Lambda_5|}$ is a **pure constant**, so nothing makes $\alpha_{\rm fine}$ density-dependent. What remains is the *gravitational* sourcing of $\psi$: deep inside a body the response saturates at $\delta\psi/\psi_0 = 2\pi G\rho\psi_0^2/c^2$, hence
+
+| | Earth | neutron star |
+|:--|:--|:--|
+| $\psi_0 = 50\,\mu$m | $6\times10^{-32}$ | $1\times10^{-18}$ |
+| $\psi_0 = 1\,\mu$m | $3\times10^{-35}$ | $5\times10^{-22}$ |
+
+against an observational reach of $10^{-5}$–$10^{-7}$. **Dissolved with roughly 24 orders of margin** — and note the mechanism: the effect scales as $\psi_0^2$, so the same smallness of the fiber that makes the fifth force short-range also kills the varying-$\alpha$ signal. One stabilization, two rescues.
+
+**The tower is not excited [D].** Fully $u$-localized charge would give $O(1)$ Yukawa corrections to Coulomb's law at $r\sim C/2\pi \approx 8\,\mu$m for a $50\,\mu$m fiber — squarely where Casimir and Coulomb-law experiments look, and a genuine problem if it arose. It does not: the seed requires $\mathbb{Z}_2$-localization, not $u$-localization (§0.6), and those are independent. $u$-smeared matter has only the $n=0$ Fourier mode and sources no massive vector, while sitting in one $\mathbb{Z}_2$ component gives the full seed. Both at once, no tension.
+
+**The bound that retired the susceptibility coupling [V].** By Kaluza–Klein counting $1/e_4^2 = \psi L/g_5^2$, so $\alpha_{\rm fine}\propto1/\psi$; and the stabilized fiber tracks matter, $\psi_0\propto\sqrt\varepsilon$. Hence
+
+$$\frac{\delta\alpha_{\rm fine}}{\alpha_{\rm fine}} = -\frac{\alpha\rho}{2}$$
+
+The fine-structure constant would vary with local density. Comparing terrestrial and quasar-absorber values across a $10^{29}$ density contrast at a conservative $10^{-5}$ gives $\alpha\rho_{\rm Earth} < 2\times10^{-5}$, i.e. $\varepsilon - 1 < 2\times10^{-5}$ in ordinary matter. And the primary fares far worse: for the cosmic background to refract at $O(1)$ while local matter stays under bound, it would need a fiber extent below $10^{-4}$ Planck lengths **[V]**. Note the structure — A12 is what lets light see the total space, and A12 is equally what makes the photon a fiber-size meter: one postulate, both consequences. **With the fibration rigid the whole issue vanishes and $\alpha_{\rm fine}$ is exactly constant.**
+
+**Residuals [O].** The extra scalar's contribution to the radiation budget; the Proca tower's phenomenology if ordinary charges have fiber structure.
 
 ---
 
@@ -359,19 +457,19 @@ A second formulation replaced the scale circle by the celestial 2-sphere of null
 | Law III (source-free $\mathcal{F}$, fiber-flux charges) | A12, **with** the fiber-escape derivation the celestial geometry could not supply |
 | $\lambda = a$ (no-flux Kähler point) | superseded there and here: $\psi_0$ from the winding |
 
-**The specification any successor must meet.** Conditions (i)–(iii) of §0.5, *and* dielectric rather than charge coupling. A 2-dimensional fiber meeting the 3-sphere in more than one point wants a 5-dimensional spatial total space; that is the honest generalization of the line-meets-$S^3$-twice picture, not a substitute for it.
+**The specification any successor must meet.** Conditions (i)–(iii) of §0.5, *and* an unsourced fibration rather than a charge coupling. A 2-dimensional fiber meeting the 3-sphere in more than one point wants a 5-dimensional spatial total space; that is the honest generalization of the line-meets-$S^3$-twice picture, not a substitute for it.
 
 ---
 
 ## 14 · Differences from the neighbors
 
-**Versus the monopole formulation.** Same arena, gravity sector, postulate, dial; the sole change is charge $\to$ dielectric, matter source $\to$ winding. Endpoints $\to$ none; basins $\to$ funnels; fog $\to$ localized masses; orbitability inverted from "only trace-free" to "everything."
+**Versus the monopole formulation.** Same arena, gravity sector, postulate, dial; the sole change is that $f$ is unsourced — matter source $\to$ winding. Endpoints $\to$ none; basins $\to$ nothing at all; fog $\to$ localized masses; orbitability inverted from "only trace-free" to "everything."
 
 **Versus straight 5D GR.** Exact agreement iff matter is fiber-smeared; the flat-along-the-ray response of a localized source is the isolated new physics.
 
-**Versus Kaluza–Klein.** Reduction along a homothety-turned-winding rather than an isometry; graviphoton dead by theorem; the fiber field axion-like with a matter-dependent kinetic function — k-essence/disformal-adjacent, second order, ghost-free at $\varepsilon>0$ **[S]**.
+**Versus Kaluza–Klein.** Reduction along a homothety-turned-winding rather than an isometry; graviphoton dead by theorem; the fiber field axion-like (compact, winding) and unsourced. The distinctive addition is not the field content but the **projective postulate** on the source.
 
-**Versus screening theories.** Those suppress a scalar's sourcing; this abolishes sourcing and keeps refraction — closer to metamaterial optics than to modified gravity.
+**Versus screening theories.** Those suppress a scalar's sourcing with a new scale and a new tuning; here the fibration field is simply never sourced, and the one scalar that *is* sourced (the dilaton) is made harmless by a mass the winding supplies. Cheaper by a mechanism.
 
 **Versus particle dark matter.** No new species; the dark component is the quotient image of the luminous one, with distribution and ratio fixed by the topology (§12).
 
@@ -379,18 +477,18 @@ A second formulation replaced the scale circle by the celestial 2-sphere of null
 
 ## 15 · The radiation-blindness ledger
 
-Six appearances of one selection rule: radiation cannot source the old $f$; needs no fiber stress ($p_u = \tfrac12 T = 0$); was the unique capture-free matter of the monopole era; hence alone localized there; is the unique transparent matter of the dielectric era ($\varepsilon = 1$); and is the natural inhabitant of the total space, which is what lets light see the image region as empty (§12). One asterisk: through $\rho - p$ radiation does source the dilaton under $p_u = p$.
+Six appearances of one selection rule: radiation cannot source the old $f$; needs no fiber stress ($p_u = \tfrac12 T = 0$); was the unique capture-free matter of the monopole era; hence alone localized there; was blind to the retired susceptibility coupling ($\varepsilon = 1$); and is the natural inhabitant of the total space, which is what lets light see the image region as empty (§12). One asterisk: through $\rho - p$ radiation does source the dilaton under $p_u = p$.
 
 ---
 
 ## 16 · Open problems
 
-1. **The $f\leftrightarrow\psi$ dictionary** — *closed* for fiber-smeared matter by the winding solution ($|\nabla f| = w/\psi$, §7.5); open for fiber-localized matter, where refraction and the Bianchi condition on $\varepsilon(T)$ interact.
+1. **The conservation web** — the Bianchi condition $\nabla^\mu S_{\mu\nu} = 0$ on the fiber-averaged source and its compatibility with the matter conditions $\langle p_u\rangle = \langle p\rangle$. (The $f\leftrightarrow\psi$ dictionary is *closed*: $|\nabla f| = w/\psi$ identically, §7.5.)
 2. **The uplift** — the winding-stabilized vacuum is AdS with $|\Lambda_4|\sim m_\psi^2$; the observed small positive $\Lambda$ requires an uplift of that size (§7.5). Dilaton *stabilization itself* is done.
-3. **Light on $M_5$** — *done* (§12.5): ordinary Maxwell survives on the double cover in the dilaton medium, unrefracted; the dark image is lensed and dark. Residuals: the extra scalar $A_u$ in the radiation budget; the Proca tower if charges are fiber-localized.
-4. **The dark-matter distribution** — halo-like images require near-$\Gamma$-symmetric luminous matter; determine whether the dielectric dilution plus the dynamical sector can produce it (§12).
-5. **The susceptibility channel** — its strength and sign versus observation.
-6. **The insulator frontier** — solutions with $\varepsilon\to0$ surfaces and their base images.
+3. **Light on $M_5$** — *done* (§12.5): ordinary Maxwell survives on the double cover in the dilaton medium, unrefracted; $\alpha_{\rm fine}$ is constant to $10^{-32}$; the tower is unexcited by $u$-smeared matter. Residual: the extra scalar $A_u$ in the radiation budget, and whether any process $u$-localizes charge enough to excite the tower.
+4. **The dark-matter distribution** — halo-like images require near-$\Gamma$-symmetric luminous matter; determine whether the dynamical sector can produce it (§12).
+5. **The projective postulate's consistency** — whether fiber-averaging the source is compatible with local causality and the Bianchi identity beyond linear order.
+6. **The AdS uplift — the single blocking problem.** The stabilized vacuum has $\Lambda_4 = -\tfrac12 m_\psi^2 < 0$, off the observed value by $10^{60}$ (§10). Solving it would convert the Mach lock from a consistency relation into a genuine prediction of $M_{\rm tot}$; leaving it unsolved is what keeps the theory's Machian content uncashed. This framework has no special claim on it.
 7. **The winding sector's dynamics** — can the winding number change?
 8. **Inherited** — the $S^4$ pole question, the tensor-sector projection weight, the lapse-sector correspondence.
 
@@ -398,7 +496,7 @@ Six appearances of one selection rule: radiation cannot source the old $f$; need
 
 ## 17 · Glossary
 
-**Winding** — the period $\oint df = \ln\lambda$ that creates the fibration topologically. · **Permittivity $\varepsilon(T)$** — matter's refractive coupling to the fiber field. · **Paramagnet / blind / diamagnet / insulator** — dust / radiation / stiff / critical-stiff. · **Funnel** — the bunched fiber tube through a paramagnetic mass; concentration $\le n$. · **Terminus theorem** — the monopole-era no-go, now historical. · **The dial** — zero-mode share vs fiber smearing. · **Projective postulate** — base gravity reads the fiber average; the load-bearing nonlocality. · **The seed** — matter at one point of a fiber, gravity at all of them. · **Projection image** — the gravitational-only copy of a mass at its quotient-mates; the dark-matter candidate. · **Mach lock** — $GM_{\rm tot}/c^2\ell = \pi/2$. · **$p_u$** — conserved, quantized fiber momentum.
+**Winding** — the period $\oint df = \ln\lambda$ that creates the fibration topologically. · **Rigid fibration** — the fiber field is unsourced; $f = wu$, fixed by the arena. · **Terminus theorem** — the monopole-era no-go, now historical. · **The dial** — zero-mode share vs fiber smearing. · **Projective postulate** — base gravity reads the fiber average; the load-bearing nonlocality. · **The seed** — matter at one point of a fiber, gravity at all of them. · **Projection image** — the gravitational-only copy of a mass at its quotient-mates; the dark-matter candidate. · **Mach lock** — $GM_{\rm tot}/c^2\ell = \pi/2$. · **$p_u$** — conserved, quantized fiber momentum.
 
 ## 18 · Reference card
 
@@ -406,18 +504,23 @@ Six appearances of one selection rule: radiation cannot source the old $f$; need
 |:--|:--|
 | **Mellin** | $\Delta_4[r^s\Phi] = r^{s-2}[\Delta_{S^3}+s(s+2)]\Phi$; weight $\int\rho\,r\,dr$ |
 | **cone** | $\mathrm{Ric}_{ij} = \mathrm{Ric}(h)_{ij} - [aa''+(n-1)a'^2]h_{ij}$; vacuum $\iff\mathrm{Ric}(h) = 2h$; $\Lambda = 1/\ell^2$ |
-| **fiber law** | $\nabla\cdot(\varepsilon\nabla f) = 0$, $\varepsilon = 1-\alpha T$, $\oint df = \ln\lambda$; no endpoints; $A_\mu\equiv0$ |
-| **funneling** | $b = 2\varepsilon R/(1+\varepsilon)$; concentration $n\varepsilon/(\varepsilon+n-1)\le n$ |
+| **fiber law** | $\Box f = 0$, $\oint df = \ln\lambda$, $f = wu$ exactly — unsourced, rigid |
+| **seed** | fiber over $[\hat n]$ = two components $\pm\hat n$; topology + projective postulate, no $\alpha$ |
+| **action vs crossing** | antipodal *action* yes (blindness); antipodal *crossing* no (fiber components disjoint, origin removed) |
+| **two localizations** | $\mathbb{Z}_2$ $\to$ seed (localized); $u$ $\to$ photon tower (smeared). Independent |
+| **$\alpha_{\rm fine}$** | exactly constant at $\alpha=0$ up to $2\pi G\rho\psi_0^2/c^2 \sim 10^{-32}$ |
 | **Law I ($G$-free)** | $\ell^2R_{\mu\nu} = \ell^2\psi^{-1}\nabla\nabla\psi + 2(\tau - \tfrac13\tau g)$; $\ell^2\Box\psi = -\tfrac43\psi(\tau_u - \tfrac12\tau)$; stabilized: $+\tfrac{\hat\alpha}{2}\ell^2\nabla\nabla\tau$ on the left |
 | **Law I (conventional)** | $R_{\mu\nu} = \psi^{-1}\nabla\nabla\psi + 8\pi(S - \tfrac13 Sg)$; $\Box\psi = -\tfrac{16\pi}{3}\psi(p_u - \tfrac12 S)$ |
 | **geodesics** | $a^\mu = (p_u^2/\psi^3)\nabla^\mu\psi$; $m_{\rm eff} = \sqrt{1+p_u^2/\psi^2}$ |
 | **GR dial** | zero-mode share $0.18/0.53/0.95/1.00$ at $w/L = 0.05/0.15/0.3/0.5$ |
 | **twin theorem** | $u = \Phi\sin\chi$: $u''+4u = 0$; same-sign poles; $\ker(\Delta+3)$ = dipoles |
-| **Mach lock** | $GM_{\rm tot}/c^2\ell = \pi/2$; $\bar\rho = c^2/4\pi G\ell^2$; $\Lambda\ell^2 = 1$ |
+| **Mach lock** | $GM_{\rm tot}/c^2\ell = \pi/2$ (static consistency relation, not a derivation of $G$); $\bar\rho = c^2/4\pi G\ell^2$; $\Lambda\ell^2 = 1$ |
 | **$k$-dial** | $v^2/c^2 = k(\pi-2\chi+\sin2\chi)/2\sin2\chi$; $v^2_{\rm eq} = kc^2$ |
-| **$G$ theorem** | $G = \pi c^2\ell/2M_{\rm tot} = \pi\ell v^2_{\rm eq}/2M_{\rm lumps}$ |
+| **$G$** | input, $= G_5/C$ with $C = \psi_0\ln\lambda$; on the static background $= \pi c^2\ell/2M_{\rm tot}$ |
+| **PPN** | unstabilized $\gamma = 1/2$ (dead); stabilized $\gamma = 1$ exactly |
+| **inversion** | if $\Lambda_4>0$: $M_{\rm tot}$ predicted from $(G_5,\Lambda_5,w,\ln\lambda)$ — blocked by the $10^{60}$ uplift |
 | **charged node** | $\phi_e\propto\cot\chi$; RN near-zone; opposite-sign partner |
-| **stabilization** | $\psi_0^2 = 3\varepsilon w^2/4\lvert\Lambda_5\rvert$; $m_\psi\psi_0 = w\sqrt\varepsilon$; $\Lambda_4 = \tfrac23\Lambda_5$; Yukawa $\alpha = \tfrac13$, range $\psi_0$ |
+| **stabilization** | $\psi_0^2 = 3w^2/4\lvert\Lambda_5\rvert$; $m_\psi\psi_0 = w$; $\Lambda_4 = \tfrac23\Lambda_5$; Yukawa $\alpha = \tfrac13$, range $\psi_0$ |
 | **fiber escape** | $\sigma = -\partial_r(r^3E_r)$ on $S^3$; winding evades the balance theorem |
 | **electrodynamics** | $\nabla_\mu(\psi\mathcal{F}^{\mu\nu}) = \psi\mathcal{J}^\nu - \partial_u(\psi^{-1}\mathcal{F}_u{}^\nu)$; $\epsilon\mu = 1$; Proca tower $2\pi n/C$; light on the cover, gravity on the quotient |
 | **dark matter** | image of luminous matter under $S^3\to S^3/\Gamma$; ratio $|\Gamma|-1$ if co-located |
