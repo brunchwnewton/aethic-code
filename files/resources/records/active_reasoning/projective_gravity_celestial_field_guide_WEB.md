@@ -12,9 +12,9 @@
 
 ## 0 · How to read this
 
-The architecture is fixed (§5), every hinge fact is verified (§3), and the three computations missing from the earlier prospectus are now done: the **reduction** of the 6-dimensional Einstein condition to the base, in closed form (§6); the **identity of the dielectric 2-form** (§7); and the **geodesic structure**, including the exact force law and the orbits it produces (§9). Two frontier items are settled by classical theorems plus one honest analysis: the **topology of the vacuum** (§10) and the precise **scope of the reality problem** (§11).
+The architecture is fixed (§5), every hinge fact is verified (§3), and the three computations missing from the earlier prospectus are now done: the **reduction** of the 6-dimensional Einstein condition to the base, in closed form (§6); the **identity of the dielectric 2-form** (§7); and the **geodesic structure**, including the exact force law and the orbits it produces (§9). Two frontier items are settled by classical theorems plus one honest analysis: the **topology of the vacuum** (§10) and the precise **scope of the reality problem** (§11). The **reduction with matter** is done and Law I is derived (§6.4); the derivation exposed the fiber size as the decisive parameter, and Law II's flux fixes it (§6.5), leaving Law I equal to GR up to $O(\lambda^2\times\text{curvature})$.
 
-*For the theory in one page, read §2.1, §3, §6, §9, §12. For the idealized universe with every formula $G$-free, §12.5.*
+*For the theory in one page, read §2.1, §3, §6, §9, §12. For the idealized universe with every formula $G$-free, §12.5. For Law I derived rather than postulated, §6.4; for how the flux stabilizes the fiber and makes the result GR, §6.5.*
 
 ---
 
@@ -140,7 +140,7 @@ ASD is not a truncation — it is the integrability condition of $Z$'s complex s
 | # | decision | choice | status |
 |---|---|---|---|
 | 1 | fiber type | $S^2$, the unit sphere in $\Lambda^+$ | made |
-| 2 | fiber structure | conformal only; volume $\to$ base | made |
+| 2 | fiber structure | size stabilized by the Law II flux (§6.5); conformal-only *below the modulus mass* | **revised** |
 | 3 | twist | anti-self-dual | made |
 | 4 | signature | Riemannian lab; Lorentzian by continuation | made (§11) |
 | 5 | topology of $B$ | — | **rigid in vacuum by theorem** (§10) |
@@ -190,8 +190,89 @@ verified to $10^{-10}$ for $a = 0.7,\,1,\,2$ **[V]**. The root $\lambda^2 = a^2$
 > **The transferred scalar is quantized.** The fiber volume, moved to the base as its conformal factor, does not stay free — the total-space equations fix it to two discrete values. Third appearance of the eigenvalue pattern: $\Lambda$ in the closed-universe arc, $\lambda$ here.
 
 > **The complex branch selects $\lambda = a$.** Only $\lambda^2 = a^2$ is Kähler for the AHS complex structure. Requiring $Z$ genuinely complex (decision 3) gives: **the fiber sphere has the same radius as the base sphere.**
+>
+> *Coda (§6.5):* this is the **no-flux** point, and it carries a massless modulus. With Law II's flux switched on the fiber is stabilized at $\lambda^2\simeq\kappa f_0^2$, decoupled from $a$; $Z$ stays complex but is no longer Kähler–Einstein.
 
-*Scope:* with matter the base is not Einstein, $Z$ is not Kähler, and O'Neill correction terms appear **[O, mild]**.
+*Scope of §6.1–6.3:* the founding vacuum. The reduction with matter follows.
+
+### 6.4 The reduction with matter — Law I derived
+
+**Setting.** Base with $W^+=0$ and $\mathrm{Ric}^\circ \neq 0$ (computed on a conformally flat, non-Einstein base — the Weyl-flat sector §11 certifies as fully Lorentzian), fiber radius $\lambda$ constant (decision 2), twistor connection induced by Levi-Civita. Every displayed identity was checked against the brute-force 6D Ricci tensor at generic points **[V]**.
+
+**How matter enters the twist.** With $W^+=0$ the curvature of $\Lambda^+$ is, in an orthonormal frame,
+
+$$\boxed{\;F^a = \frac{s}{12}\,\eta^a \;+\; \frac12\,\big(\mathrm{Ric}^\circ\wedge\eta\big)^a, \qquad (\mathrm{Ric}^\circ\wedge\eta)^a_{bc} \equiv \mathrm{Ric}^\circ_{b\rho}\eta^a_{\rho c} - \mathrm{Ric}^\circ_{c\rho}\eta^a_{\rho b}\;}$$
+
+verified to $10^{-16}$. The self-dual part is the scalar curvature (the instanton, generalized); the anti-self-dual part is the **traceless Ricci with coefficient one-half** — matter twists the celestial spheres through its anisotropic stress alone.
+
+**The three O'Neill blocks** (Riemannian submersion, totally geodesic fibers), for horizontal $X,Y$, vertical $U,V$, fiber point $\mu\in S^2$ **[V, residuals $0.0$]**:
+
+$$\mathrm{Ric}_Z(X,Y) = \mathrm{Ric}_B(X,Y) - \frac{\lambda^2}{2}\,F^a_{X\rho}F^{c}{}_{Y}{}^{\rho}\,(\delta_{ac} - \mu_a\mu_c)$$
+
+$$\mathrm{Ric}_Z(U,V) = \frac{1}{\lambda^2}\hat g(U,V) + \frac{\lambda^4}{4}\,F^a_{\rho\sigma}F^{c\rho\sigma}\,\langle\hat e_a\!\times\!\mu,U\rangle\langle\hat e_c\!\times\!\mu,V\rangle$$
+
+$$|\mathrm{Ric}_Z(X,U)| = \frac{\lambda^2}{2}\,\big|(\nabla^\rho F^a_{\rho X})\,\langle\hat e_a\!\times\!\mu,U\rangle\big|$$
+
+Since $A$ is linear in $\mu$, the geometry side of the 6D Einstein equation contains **only fiber harmonics $\ell\le2$**: $\ell=0$ in the block averages, $\ell=1$ in the mixed block (the Yang–Mills divergence of the twist), $\ell=2$ in the anisotropies. This is exactly the moment content of $T$ (H5): **the projective truncation is exact on both sides of the equation** **[D]**.
+
+**The fiber average of the horizontal correction**, in closed form **[V, residual $0.0$]**:
+
+$$\big\langle \text{twist correction}\big\rangle_{\mu\nu} = -\lambda^2\Big[\Big(\frac{s}{12}\Big)^2 + \frac{1}{12}|\mathrm{Ric}^\circ|^2\Big]g_{\mu\nu} \;-\; \frac{\lambda^2 s}{18}\,\mathrm{Ric}^\circ_{\mu\nu}$$
+
+and of the vertical trace: $\langle\mathrm{tr}(AU,AV)\rangle = \tfrac{\lambda^2}{6}|F|^2 = \tfrac{\lambda^2}{6}\big(\tfrac{s^2}{12} + |\mathrm{Ric}^\circ|^2\big)$ **[V]**.
+
+**The derivation.** Impose $\mathrm{Ric}_Z = \tfrac{\Lambda_6}{2}g_Z + \kappa\,(T^{(6)} - \tfrac14 T^{(6)}g_Z)$ (6D Einstein with cosmological constant, trace-reversed). The vertical block cannot be satisfied by neutral, fiber-momentum-free matter — its left side is $1/\lambda^2$ plus a positive twist term — so it **forces a fiber stress** $\tau_V$; its trace determines $\tau_V$ in terms of the geometry. Substituting $\tau_V$ into the trace-reversal term of the horizontal block, **the $(s/12)^2$ and $|\mathrm{Ric}^\circ|^2$ terms cancel identically** and the 6D $\tfrac14$ becomes the 4D $\tfrac12$ **[V, symbolic]**:
+
+$$\boxed{\;\mathrm{Ric}_{\mu\nu} \;-\; \frac{\lambda^2 s}{18}\,\mathrm{Ric}^\circ_{\mu\nu} \;=\; \Lambda_4\, g_{\mu\nu} \;+\; \kappa\Big(\langle T_{\mu\nu}\rangle - \frac12\langle T\rangle g_{\mu\nu}\Big), \qquad \Lambda_4 = \Lambda_6 - \frac{1}{\lambda^2}\;}$$
+
+**Checks.** In vacuum $\mathrm{Ric}^\circ = 0$ and the remnant vanishes: the base is Einstein with $\Lambda_4$. Both quantized branches return the same base constant — Kähler ($\Lambda_6 = 4/a^2$, $\lambda = a$) and nearly-Kähler ($\Lambda_6 = 5/a^2$, $\lambda^2 = a^2/2$) both give $\Lambda_4 = 3/a^2$, as they must **[V]**. The 1D theory's $\tfrac13$ never appears; the celestial fiber does the trace bookkeeping correctly.
+
+**The remnant.** Write $\beta \equiv 1 - \lambda^2 s/18$. The trace sector obeys $s = 4\Lambda_4 - \kappa T$ exactly as in GR; the traceless sector obeys $\beta\,\mathrm{Ric}^\circ = \kappa T^\circ$, giving a Newtonian limit $G_{\rm eff}/G = (3-\beta)/2\beta$ **[V]**. Two consequences:
+
+- **Vacuum exteriors are exactly GR** for any $\beta\neq0$, since $T^\circ = 0 \Rightarrow \mathrm{Ric}^\circ = 0$: Schwarzschild–de Sitter outside bodies, PPN $\gamma = 1$, no fifth force from this term.
+- **Everywhere else the deviation is $\beta - 1 = -\lambda^2 s/18$** — the fiber area measured against the curvature radius. §6.5 fixes $\lambda$ at the flux scale, where this is $10^{-33}$ in ordinary matter and $10^{-19}$ in a neutron star.
+
+So the remnant is a genuine prediction of the reduction and an unobservably small one. It is also the theory's sharpest internal constraint: it is what makes the fiber size a physical parameter rather than a convention, and §6.5 is the section that determines it.
+
+The $\ell=2$ horizontal block, not used here, equates the fiber-anisotropic part of $F\otimes F$ to the anisotropic stress — the slip relation of §8 derived rather than assumed **[D]**.
+
+*Scope:* Riemannian laboratory, conformally flat sector, constant $\lambda$, the horizontal $\ell=2$ and vertical $\ell=2$ constraints stated but not solved.
+
+### 6.5 The fiber modulus — flux stabilization
+
+**The question.** Is $\lambda$ physical? It enters predictions through $\beta$, so it is not gauge. But nothing determines it: the vertical block of the 6D Einstein equation is *one equation in two unknowns* — the fiber size $\lambda$ and the fiber stress $\tau_V$ — and decision 2, by freezing $\lambda$, silently set $\tau_V$ to "whatever the geometry needs." The 1D theory's trilemma, one level up.
+
+**The candidate.** Law II's $F$ threads the fibers: in vacuum $F$ is the Kähler form, whose vertical component is the fiber's area form — a quantized flux $f_0 = q/4\pi$ through each celestial sphere, $q\in H^2(Z;\mathbb{Z})$. A 2-form flux through a compact fiber is a **Freund–Rubin flux**, and its stress-energy lands in the vertical block: trace-reversed sources $+\tfrac38\kappa|F|^2 g$ (vertical), $-\tfrac18\kappa|F|^2 g$ (horizontal), with $|F|^2 = 2f_0^2/\lambda^4$.
+
+**The result [V].** With flux and twist, the vacuum condition becomes
+
+$$\boxed{\;2\lambda^6 - 3a^2\lambda^4 + a^4\lambda^2 - \kappa f_0^2\,a^4 = 0\;}$$
+
+At $f_0 = 0$ this factors to the old quantization $2\lambda^4 - 3a^2\lambda^2 + a^4 = 0$. For $f_0\neq0$ a **new root** appears, $\lambda^2 \simeq \kappa f_0^2$: *the fiber size is set by the flux integer and decoupled from the universe's radius.* The modulus mass on each branch, $m^2 = -2/\lambda^2 + 2\lambda^2/a^4 + 3\kappa f_0^2/\lambda^4$:
+
+| branch | $m^2$ | status |
+|---|---|---|
+| no flux, nearly-Kähler ($\lambda^2 = a^2/2$) | $-3/a^2$ | tachyonic — unstable |
+| no flux, Kähler ($\lambda = a$) | $0$ | massless modulus — the Brans–Dicke disaster |
+| **flux, small root** ($\lambda^2\simeq\kappa f_0^2$) | $\to +1/\lambda^2$ | **stabilized; modulus mass $= 1/\lambda$** |
+
+**Verdict on the vacuum quantization.** $\lambda = a$ (§6.3) was the *no-flux* Kähler–Einstein point — precisely the unstabilized case whose massless modulus is the long-range dilaton every Kaluza–Klein theory must kill. The flux kills it. $Z$ remains complex; decision 3 needs Hermitian, not Kähler.
+
+**Vacuum selection.** For small flux both the small root and the flux-perturbed Kähler root are stable; the equations do not choose between them. Observation does, twice over. The large-$\lambda$ branch carries a modulus of cosmological Compton wavelength, hence a long-range $\alpha = \tfrac12$ fifth force excluded by solar-system tests. And it fails §6.4's remnant test independently: at $\lambda = a$ the coefficient $\beta$ would be $\tfrac13$ at the cosmological lock — gravity four times too strong — and would cross zero at an overdensity of only $\tfrac12$, making $G_{\rm eff}$ singular inside ordinary matter. The small-$\lambda$ branch has neither pathology and reproduces GR to $10^{-30}$. For flux above a threshold the small root disappears altogether, so the flux quantum must be small in units of $a$.
+
+**Matter and the modulus [D].** Fiber-averaging the vertical trace with the flux stress and neutral matter:
+
+$$(\Box - m^2)\,\delta\lambda = \tfrac14\,\kappa T\,\lambda_0$$
+
+a massive scalar sourced by the matter trace, Compton wavelength $\lambda_0$. A point mass gives $\delta\lambda/\lambda_0 = \tfrac12\Phi_N\,e^{-r/\lambda_0}$: a **Yukawa fifth force** of strength $\alpha = 1/(2\omega+3) = \tfrac12$ (the $d=2$ Kaluza–Klein dilaton has $\omega = -\tfrac12$) and range $\lambda_0$. Torsion-balance searches for $\alpha\sim\tfrac12$ Yukawa forces then bound $\lambda_0$ at roughly the tens-of-microns scale (order of magnitude; coefficient from the standard KK identification).
+
+**What is left of the remnant.** With $\lambda$ small, $\beta - 1 = -\lambda^2 s/18$ and $\delta\lambda/\lambda = \lambda^2 s/4$: at $\lambda = 50\,\mu\text{m}$ these are $10^{-33}$ in water and $10^{-19}$ in a neutron star. **Derived Law I $=$ GR $+\,O(\lambda^2\times\text{curvature})$.** The twist remnant, the modulus response, and the fifth force are one small number.
+
+**Decision 2, reinterpreted.** The fiber is not conformal-only by fiat; it is conformal-only *below the modulus mass* — its size is a heavy field, frozen by being heavy. The transferred-scalar story becomes an effective-theory statement.
+
+**Costs and open ends.** (i) $\Lambda_6 \simeq 6/a^2 + 1/2\lambda^2$: the 6D constant must cancel the flux's large horizontal contribution to leave a small $\Lambda_4$ — the cosmological-constant problem in Kaluza–Klein dress, not solved here. (ii) The $J\neq0$ sector (§9) was computed at $\lambda = a$; at small $\lambda$ the fiber angular momentum $J = \lambda^2\sin^2\theta\,\dot\varphi$ rescales and its phenomenology must be redone. (iii) $\varepsilon = 1-\hat\alpha\tau$ now modulates the *stabilizing* flux: matter refracts $F$, which re-sizes the local fiber, which feeds Law I — **the return channel with a mechanism**, suppressed by $\lambda^2$. (iv) The flux quantum — the gravitational weight of one unit of $[F]$ — is a **new dimensionful input**, equivalently $\lambda$ itself: Law II is homogeneous in $F$, so $F$'s scale enters only through its stress-energy in Law I. The hierarchy $\lambda/\ell\sim10^{-31}$ is not explained here.
+
+*Scope:* vacuum with flux exact; matter response linearized; three branches checked numerically.
 
 ---
 
@@ -241,6 +322,8 @@ Matter is a kinetic distribution $f(x,\hat n)$ — positions *and* directions. I
 ### 9.1 Structure
 
 $Z\to B$ is a Riemannian submersion with totally geodesic fibers **[T]**, so zero fiber velocity projects to a base geodesic. Fiber velocity is angular momentum on $S^2$: an $\mathfrak{so}(3)$ triple, spin-like rather than charge-like, quantized by representation theory rather than winding.
+
+*All of §9 was computed at the no-flux point $\lambda = a$ (§6.3). At the flux-stabilized $\lambda$ of §6.5 the fiber angular momentum $J = \lambda^2\sin^2\theta\,\dot\varphi$ rescales and the numbers below must be redone; the structure (linearity in $J$, magnetic character, cyclotron orbits) is $\lambda$-independent.*
 
 ### 9.2 The force law
 
@@ -323,7 +406,7 @@ The sign of $s$ (equivalently of $\Lambda$) organizes the landscape **[T]**: $s>
 > - **A10.** $W^+(g) = 0$ — equivalently, $Z$ is complex.
 > *Fixes: Ricci (10 of 20 curvature components) and the conformal factor.*
 >
-> *Why this is lighter than the 1D theory's* $\;R^{(4)}_{\mu\nu} = \psi^{-1}\nabla_\mu\nabla_\nu\psi + 8\pi\big(T_{\mu\nu} - \tfrac13 T g_{\mu\nu}\big)$: **(i)** there is no dilaton — conformal-only fibers carry no length modulus, and the one scalar transferred to the base is absorbed into $g_{\mu\nu}$ and then quantized (§6), so no separate field feeds back; **(ii)** the $\tfrac13$ was a fingerprint of a 5-dimensional origin (trace reversal in $D=5$), whereas this is written in native 4-dimensional form; **(iii)** honestly, Law I is *postulated* here, whereas the 1D equation was *derived* by reduction — §6 confirms the postulate in vacuum, but the matter-sector reduction that would add O'Neill corrections is open problem 2. Two-thirds genuine simplification, one-third unfinished work.
+> *Why this is lighter than the 1D theory's* $\;R^{(4)}_{\mu\nu} = \psi^{-1}\nabla_\mu\nabla_\nu\psi + 8\pi\big(T_{\mu\nu} - \tfrac13 T g_{\mu\nu}\big)$: **(i)** there is no dilaton — conformal-only fibers carry no length modulus, and the one scalar transferred to the base is absorbed into $g_{\mu\nu}$ and then quantized (§6), so no separate field feeds back; **(ii)** the $\tfrac13$ was a fingerprint of a 5-dimensional origin (trace reversal in $D=5$), whereas this is written in native 4-dimensional form; **(iii)** Law I is now *derived* (§6.4): fiber-averaging the 6D Einstein equation and eliminating the fiber stress that its vertical block forces yields $\;\mathrm{Ric}_{\mu\nu} - \tfrac{\lambda^2 s}{18}\mathrm{Ric}^\circ_{\mu\nu} = \Lambda_4 g_{\mu\nu} + \kappa\,(T_{\mu\nu} - \tfrac12 T g_{\mu\nu})$ — the postulated form, with the 4D trace-reversal $\tfrac12$ emerging automatically, plus **one algebraic remnant of the twist** that vanishes identically in vacuum. With the fiber flux-stabilized at small $\lambda$ (§6.5) that remnant is $O(\lambda^2\times\text{curvature})$ — below $10^{-30}$ in ordinary matter. The postulate was right; the derivation says *why*, and names the one parameter that could have made it wrong.
 
 > ### ◆ LAW II — FIBRATION (dielectric sector, on the total space)
 > $$dF = 0, \qquad d\star_6(\varepsilon F) = 0, \qquad \varepsilon = 1 - \alpha T, \qquad [F]\in H^2(Z;\mathbb{Z})$$
@@ -350,7 +433,7 @@ The sign of $s$ (equivalently of $\Lambda$) organizes the landscape **[T]**: $s>
 > - **D3.** $J=0$ geodesics project to base geodesics; $J\ne0$ obey Wong's equation, $a_\perp = (J/a^2)\Sigma(v)$ **[V]**.
 > - **D4.** On the ESU, influence at a point refocuses at its antipode at $t = \pi a$ (null-ray theorem) **[V]**; and a *static* configuration requires zero dipole moment, the antipodal partner being the symmetric supply (kernel of $\Delta_{S^3}+3$) **[V]**. Antipodal action arises twice from geometry — dynamically and statically — never by insertion.
 
-**Free parameters (budget-normalised ledger):** $\hat\alpha$ (dielectric susceptibility, pure number, via $\varepsilon = 1-\hat\alpha\tau$) · $[F]\in H^2(Z;\mathbb{Z})$ (integer) · with matter, the topology of $B$. Everything else is supplied: $c$ by the fibers (the conformal structure *is* the null cone), $G$ by the budget ($\pi c^2\ell/2M_{\rm tot}$), $\Lambda\ell^2$ by the closure eigenvalue, $\lambda$ by the reduction quantization. The theory's dials are one real number and one integer.
+**Free parameters (budget-normalised ledger):** $\hat\alpha$ (dielectric susceptibility, pure number, via $\varepsilon = 1-\hat\alpha\tau$) · $[F]\in H^2(Z;\mathbb{Z})$ (integer) · with matter, the topology of $B$. Everything else is supplied: $c$ by the fibers (the conformal structure *is* the null cone), $G$ by the budget ($\pi c^2\ell/2M_{\rm tot}$), $\Lambda\ell^2$ by the closure eigenvalue, $\lambda$ by the flux ($\lambda^2\simeq\kappa f_0^2$, $f_0 = q/4\pi$, §6.5). Honest count: one pure number ($\hat\alpha$), one integer ($[F]$), and **one scale** — the flux quantum, equivalently $\lambda$, bounded by fifth-force searches at tens of microns.
 
 ---
 
@@ -388,7 +471,7 @@ $$\boxed{\;G \;=\; \frac{\pi c^2 \ell}{2M_{\rm tot}} \;=\; \frac{\pi\,\ell\, v^2
 
 *Weak-field static perturbation of the Einstein-static background of radius $\ell$ (conformally flat, exactly admissible), a point mass $M$ carrying charge $Q$ at the pole. All three forms are the same solution; every displayed identity was checked symbolically.*
 
-**Where the partner comes from — mechanism first, Gauss second.** The field lines of the charge do not end: in the total space $d\star\mathcal{F}=0$ makes the flux incompressible, so lines that leave the base along the fiber direction **must re-emerge somewhere** on the base. The re-emergence point is the $-Q$ — an *opposite-sign* twin, because what exits at one mouth of the plumbing enters at the other. On the exact Einstein-static background the exit point is the **antipode**, by the refocusing theorem (every ray from a point reconverges there at optical time $\pi\ell/c$). But the antipode is the *ideal* case, not the rule: once lumps skew the geometry, the re-emergence point is **lensed** — computed on a lensed sphere, a lump of index contrast $0.03$ shifts the exit $0.56^\circ$ off the antipode and blurs the focus; at $0.12$ the shift is $2.3^\circ$ with fourfold larger blur (`flux_reemergence.png`) **[V]**. The exit location is set case by case by the geometry, exactly as the mass sector's antipodal association is. Gauss's theorem on the closed space (total charge zero) is then the *consistency check* on this plumbing, not its cause — and it sits beside the mass sector's twin (same-sign, from the $\ell=1$ dipole obstruction) as the $\ell=0$ member of the pair. The $\pm Q$ mouths are a Law III flux tube, arriving unrequested. *The solution below is the ideal-background case, with the exit at the antipode.*
+**Where the partner comes from.** Gauss's theorem on a closed space makes total charge exactly zero, so a lone $Q$ is inconsistent and a $-Q$ must exist somewhere. *Where* is not fixed by a theorem: the static field lines of the solution below run from $+Q$ to $-Q$ as a conserved tube ($4\pi Q$ through every constant-$\chi$ sphere) **entirely inside the 3-sphere** — they cross it the ordinary way, and nothing leaves the base along any fiber (the celestial fiber over $x$ is $\{x\}\times S^2$; it goes nowhere, and the balance theorem confirms flux dipping into it returns over $x$) **[V]**. The antipode is the **symmetric default** — the zero-dipole placement — not a forced exit; the $\pm Q$ pair is what a Law III flux tube's two mouths would look like if such topology were added, and the null-ray refocusing of §2.1 is a separate statement about causal propagation, not about where a static partner sits. Mass sector: same-sign twin from the $\ell=1$ obstruction; charge sector: opposite-sign twin from the $\ell=0$ one. *The solution below places the partner at the antipode.*
 
 $$\phi_e(\chi) = \frac{Q}{4\pi\epsilon_0\,\ell}\,\cot\chi, \qquad \Delta_{S^3}\phi_e = 0 \text{ away from the poles}$$
 
@@ -421,13 +504,16 @@ Both terms are now **fractions of the universe's budget**: the mass as a share o
 | **E5** | $M_{\rm each}(k{=}1) = \pi c^2\ell/4G$ | [V] |
 | **E6** | $\text{antipodal refocus delay } t = \pi\ell/c;\;\text{null period } 2\pi\ell/c$ | [V] |
 | **E7** | $\text{fiber-influence radius} = (m\ell^2)^{1/3} = \text{Hill scale}$ | [V] |
-| **E8** | $\lambda = \ell \;\text{(fiber radius = base radius, Kähler branch)}$ | [V/T] |
+| **E8** | $\lambda = \ell \;\text{(no-flux Kähler point only; superseded by E15)}$ | [V/T] |
 | **E9** | $\text{couplings of the theory} = \{2,\hat\alpha\},\;\text{pure numbers; dials} = \{\hat\alpha, [F]\}$ | [D] |
 | **E10** | $\Phi\text{-expansions at } r=0 \text{ and } r=\infty \text{ are the same expression}$ | [V] |
-| **E11** | $\text{charged secondary: } \phi_e = \tfrac{Q}{4\pi\epsilon_0\ell}\cot\chi;\;\; -Q \text{ re-emerges at the antipode on the ideal background, lensed elsewhere otherwise}$ | [V] |
+| **E11** | $\text{charged secondary: } \phi_e = \tfrac{Q}{4\pi\epsilon_0\ell}\cot\chi;\;\; \text{field lines stay in } S^3;\; -Q \text{ at the symmetric antipode by choice, not theorem}$ | [V] |
 | **E12** | $\Delta\csc^2\chi = 2\csc^4\chi,\;\; \Delta[(\chi-\tfrac{\pi}{2})\cot\chi] = -2 \;\text{(the two building blocks)}$ | [V] |
 | **E13** | $Q_{\rm ext} = M_{\rm tot}\sqrt{4\pi\epsilon_0 G} = \sqrt{2\pi^2\epsilon_0 c^2\ell M_{\rm tot}} \;\text{(universe's extremal capacity)}$ | [V] |
 | **E14** | $\text{equator: gravity's force } 0 \text{ (both terms), electric force } Q/4\pi\epsilon_0\ell$ | [V] |
+| **E15** | $\text{flux-stabilized fiber: } \lambda^2 \simeq \kappa f_0^2,\;\; f_0 = q/4\pi,\;\; q\in H^2(Z;\mathbb{Z})$ | [V] |
+| **E16** | $\text{modulus mass: } m^2\lambda^2 \to 1;\;\; \text{no-flux Kähler } m^2 = 0,\;\text{nearly-Kähler } m^2 = -3/a^2$ | [V] |
+| **E17** | $\text{modulus fifth force: Yukawa } \alpha = \tfrac12,\; \text{range } \lambda$ | [D] |
 
 
 ---
@@ -453,6 +539,13 @@ Both terms are now **fractions of the universe's budget**: the mass as a share o
 | **I15** | $\text{ESU: every null ray from a point refocuses at its antipode at } t=\pi a$ | [V] |
 | **I16** | $\text{function on } PN \;=\; \text{free-streaming } f(x,\hat n) \text{ (Liouville)}$ | [T] |
 | **I17** | $\ker(\Delta_{S^3}+3) = \text{dipoles} \Rightarrow \text{static sources need zero dipole}$ | [V] |
+| **I18** | $W^+=0:\;\; F_{\Lambda^+} = \tfrac{s}{12}\eta + \tfrac12\,\mathrm{Ric}^\circ\wedge\eta$ | [V] |
+| **I19** | $\text{6D Ricci has fiber harmonics } \ell\le2 \text{ only (both sides of the equation)}$ | [D] |
+| **I20** | $\langle\text{twist}\rangle = -\lambda^2[(s/12)^2 + \tfrac{1}{12}|\mathrm{Ric}^\circ|^2]g - \tfrac{\lambda^2 s}{18}\mathrm{Ric}^\circ$ | [V] |
+| **I21** | $\text{derived Law I: } \mathrm{Ric} - \tfrac{\lambda^2 s}{18}\mathrm{Ric}^\circ = \Lambda_4 g + \kappa(T - \tfrac12 Tg),\;\; \Lambda_4 = \Lambda_6 - 1/\lambda^2$ | [V/D] |
+| **I22** | $\text{vacuum with flux: } 2\lambda^6 - 3a^2\lambda^4 + a^4\lambda^2 - \kappa f_0^2 a^4 = 0$ | [V] |
+| **I23** | $m^2 = -2/\lambda^2 + 2\lambda^2/a^4 + 3\kappa f_0^2/\lambda^4$ | [V] |
+| **I24** | $(\Box - m^2)\delta\lambda = \tfrac14\kappa T\lambda_0$ | [D] |
 
 ## 14 · Admissibility
 
@@ -483,22 +576,22 @@ Both terms are now **fractions of the universe's budget**: the mass as a share o
 
 **The projective postulate dissolves into geometry.** On the $Z\to B$ leg it becomes "$T$ sees only $\ell\le2$" — automatic. On the $Z\to PN$ leg it becomes "influence propagates along null rays" — causality. Both legs of the twistor double fibration are things general relativity already respects. The philosophy that started the program is not refuted; it is *absorbed*, and everything it leaves behind that is genuinely new is the dielectric sector.
 
-**Eigenvalue quantization.** $\Lambda$ from closure; $\lambda$ from the total-space Einstein condition. Both looked like inputs; both are outputs of global conditions.
+**Eigenvalue quantization.** $\Lambda$ from closure; $\lambda$ first from the total-space Einstein condition and then, more truthfully, from the flux integer of Law II (§6.5). Both looked like inputs; both are outputs of global conditions — and the second turned out to be an *integer*.
 
 **The Mach lock.** The same integrate-over-the-closed-manifold trick, third instance: the static closure relation fixes $\bar\rho = c^2/4\pi G a^2$, hence $G M_{\rm tot}/c^2 a = \pi/2$ *exactly* — Sciama's order-unity Machian relation with its coefficient supplied. Combined with the $k$-dial, $v^2_{\rm eq} = (2/\pi)\,G M_{\rm lumps}/a$, so $G = \pi a\, v^2_{\rm eq}/2M_{\rm lumps}$ is *measurable from the equator*: circumference $\to a$, midpoint orbit $\to v^2$, inventory $\to M$. In a closed static universe the coupling is global data, not a dial **[V]**.
 
 **Degree-of-freedom transfer.** The base sees only what lives on it; fiber-to-base transfer is how the Einstein equations come to *see* a degree of freedom — and once seen, it is fixed.
 
-**Pay for the stage.** The cone theorem paid for the sphere with $\Lambda$; the O'Neill terms pay for the twisting with $\pm\lambda^2/a^4$. Nothing geometric is free.
+**Pay for the stage.** The cone theorem paid for the sphere with $\Lambda$; the O'Neill terms pay for the twisting with $\pm\lambda^2/a^4$; the reduction with matter pays $\Lambda_4 = \Lambda_6 - 1/\lambda^2$ — the base's cosmological constant is the total space's minus the fiber's own curvature. Nothing geometric is free.
 
 ---
 
 ## 17 · Open problems
 
 1. **Reality conditions** beyond the Weyl-flat sector (§11) — the frontier, inherited from twistor theory.
-2. **The return channel of $F$.** Matter refracts $F$; what does $F$ do back? Candidates: (a) $F$ carries stress-energy into Law I; (b) $F$ augments the coupling of the $J\ne0$ population (fiber momenta pair naturally with 2-forms); (c) $F$ deforms the *effective conformal structure* — refracted light cones — for some sector. Until one is chosen, Law II listens but does not speak. **The top theory-side gap.**
+2. **The fiber-stress sector — resolved in principle.** The vertical block's demand for fiber stress is met by Law II's $F$ as a Freund–Rubin flux (§6.5), which stabilizes $\lambda$ and gives the modulus mass $1/\lambda$. $F$ *speaks* by holding the fibers open. Remaining: the anisotropic $\ell=2$ constraints, the $\Lambda_6$ tuning, and whether the $\varepsilon$-modulated flux reproduces the dielectric phenomenology of §7 at small $\lambda$.
 3. **The domain of $\varepsilon$.** Is $\varepsilon = 1-\alpha T$ a base function pulled back to $Z$, or genuinely $\varepsilon(x,\hat n) = 1-\alpha' f$ — a direction-dependent permittivity, i.e. *birefringence of the fibration*? The second is more natural for a field on $Z$ and strictly more expressive.
-4. **Reduction with matter** — O'Neill corrections for a non-Einstein base; survival of the Kähler branch; closes the "one-third unfinished" note under Law I. *This is also the $G$-equation*: the conformal split quarantines all dimensionful content into the scale sector — the transferred fiber-volume scalar — so the matter reduction of that sector is where "$G$ as a dynamical output" (the Brans–Dicke road, with our retired 1D dilaton as the historical candidate) would live, upgrading the Mach lock from an inversion to an equation.
+4. **The twist remnant — benign, with a bound.** For flux-stabilized $\lambda$ the remnant and the modulus fifth force are both $O(\lambda^2\times\text{curvature})$; fifth-force searches bound $\lambda$ at tens of microns. Remaining: redo the $J\neq0$ phenomenology (§9) at small $\lambda$, and test whether any observable survives at that scale.
 5. **Conservation web** — the celestial analogue of the 1D exchange-term analysis ($p_u = p$ and its relatives), not yet redone.
 6. **Large-contrast bound** on non-degeneracy of the $\varepsilon$-harmonic $F$; **topology with matter** (ASD's global consequences off the Einstein locus).
 7. **Observational face** — bounds on the $J\ne0$ population from $J$-linear precession; the equatorial $v^2\to1$ law as a null test (any departure isolates $J$).
@@ -525,7 +618,7 @@ Both terms are now **fractions of the universe's budget**: the mass as a share o
 | **matter** | $T^{\mu\nu} = \int f k^\mu k^\nu d\Omega;\quad \ell\le2;\quad 1+3+5=9$ |
 | **reduction** | $\mu_H = 3/a^2 - \lambda^2/a^4,\quad \mu_V = 1/\lambda^2 + \lambda^2/a^4$ |
 | **** | $2\lambda^4 - 3a^2\lambda^2 + a^4 = 0 \Rightarrow \lambda^2/a^2\in\{1/2,1\}$ |
-| **** | $\text{constants } 5/2a^2 \text{ (nearly-Kähler)},\; 2/a^2 \text{ (Kähler)};\;\text{complex branch } \lambda = a$ |
+| **** | $\text{constants } 5/2a^2 \text{ (nearly-Kähler)},\; 2/a^2 \text{ (Kähler)};\;\text{no-flux branch } \lambda = a;\; \text{flux-stabilized } \lambda^2\simeq\kappa f_0^2$ |
 | **fiber law** | $dF = 0,\;\; d\star_6(\varepsilon F) = 0,\;\; \varepsilon = 1-\alpha T;\;\; F = \varepsilon\text{-harmonic rep of } [F]$ |
 | **force** | $a_\perp = (J/a^2)\,\Sigma(v);\;\text{linear in } J,\;\text{quadratic part } 0$ |
 | **orbits** | $\text{stereographic radius } 1/J;\;\; J=0 \Rightarrow \text{exact great circles}$ |
