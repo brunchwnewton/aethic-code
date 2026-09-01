@@ -8,7 +8,7 @@
 >
 > **Conventions.** $G = c = 1$ unless restored; $\ell$ = radius of the base 3-sphere; "total space" = the higher-dimensional arena where matter lives; "base" = the space of fibers, where gravity lives.
 >
-> **Reading guide.** The idea and its purpose: §0–§0.5. The mechanism: §6. Gravity, the emergent constant, and the stabilized dilaton: §7, §7.5, §10. The seed as a prediction: §12. What the celestial detour taught and why it was retired: §13.
+> **Reading guide.** The idea and its purpose: §0–§0.5. The mechanism: §6. Gravity, the emergent constant, and the stabilized dilaton: §7, §7.5, §10. The seed as a prediction: §12; the electrodynamics that makes it consistent: §12.5. What the celestial detour taught and why it was retired: §13.
 
 ---
 
@@ -241,6 +241,9 @@ Near the charge this is Reissner–Nordström, **deduced**: the field's own ener
 | E15 | $\Lambda_4 = \tfrac23\Lambda_5 = -\tfrac12 m_\psi^2$ at the stabilized vacuum | [V] |
 | E16 | charged node: gravity's force vanishes at the equator (both terms); electric force $Q/4\pi\epsilon_0\ell$ there | [V] |
 | E17 | a lump of index contrast $0.03$ shifts the null-ray refocus $0.56°$ off the antipode and blurs it | [V] |
+| E18 | 5D Maxwell reduces to $\nabla_\mu(\psi\mathcal{F}^{\mu\nu}) = \psi\mathcal{J}^\nu - \partial_u(\psi^{-1}\mathcal{F}_u{}^\nu)$: a medium with $\epsilon = 1/\mu = \psi$, $\epsilon\mu = 1$ | [V] |
+| E19 | fiber photon modes are Proca with $m_n = 2\pi n/C_{\rm fiber}$ ($\approx 25$ meV at $50\,\mu$m) | [D] |
+| E20 | light lives on the double cover $S^3$, in the antipodally symmetric metric: lensed at the image, not emitted there | [D] |
 
 ---
 
@@ -267,7 +270,7 @@ Near the charge this is Reissner–Nordström, **deduced**: the field's own ener
 > - **A11.** $\nabla_\mu[\varepsilon(T)\nabla^\mu f] = 0$, $\varepsilon = 1-\alpha T$: **no monopole coupling of matter to $f$.**
 
 > ### ◇ LAW III — ELECTROMAGNETISM (candidate slot)
-> - **A12 (candidate).** The electromagnetic 2-form lives on $M_5$, source-free: $d\mathcal{F} = 0$, $d\star_5\mathcal{F} = 0$. Required by §12: *light propagates on $M_5$*, not on the base.
+> - **A12 (adopted, §12.5).** The electromagnetic 2-form lives on $M_5$ — the double cover $\mathbb{R}_t\times S^1_u\times S^3$, not the gravitational base — with its 5D current supported on charged matter: $d\mathcal{F} = 0$, $d\star_5\mathcal{F} = \star_5\mathcal{J}$. The source-free case $\mathcal{J} = 0$, with charges as winding defects, is the Wheeler option **[S]**. Its reduction is derived in §12.5: ordinary Maxwell survives.
 > - **Gauss's law as fiber escape [V].** In this geometry the fiber *is* the radial direction of $\mathbb{R}^4$ — transverse to the physical 3-sphere. The 4D divergence in polar form, $\nabla\!\cdot\!E = r^{-3}\partial_r(r^3E_r) + r^{-1}\nabla_{S^3}\!\cdot E_\parallel$, gives a source-free field an apparent 3-charge on the slice
 > $$\sigma(\hat n) = -\,\partial_r\big(r^3E_r\big)\big|_{r=1}$$
 > — Gauss's law on the 3-sphere read as **flux escaping along the fiber, through the interior of the 3-sphere**. For a 4D Coulomb charge just off the slice this yields a sharp positive apparent charge beneath it and a diffuse negative sea, netting zero by Gauss's theorem on the 4-ball. This is the derivation the celestial fibers could not support: there the fiber was directions at a point, and the escape identity had no direction to escape along.
@@ -303,6 +306,28 @@ Its properties are inherited, not fitted: collisionless (nothing there to collid
 3. *The dilaton.* The image gravitates through $S_{\mu\nu}$, but $\psi$ is sourced by $\rho - p$ of the *total-space* matter, which is not $\Gamma$-symmetric. The dark image and its source therefore differ in their dilaton coupling — a distinguishing signature if $\psi$ is light, and irrelevant if it is stabilized (§7).
 
 **What would falsify it.** Any dark-matter concentration with no luminous counterpart at its $\Gamma$-image; any luminous concentration whose $\Gamma$-images carry no dark mass. The map is fixed by the topology, so the prediction is rigid.
+
+### 12.5 The electrodynamics check — verdict
+
+*A12 is the load-bearing assumption under the dark-matter reading. Here 5D Maxwell is reduced on the actual geometry $g_5 = g^{(4)} + \psi^2du^2$, $u\sim u+L$, and the base's electrodynamics is read off. The decomposition was checked symbolically on a flat base with $x$-dependent $\psi$ and an arbitrary fiber mode; residual identically zero **[V]**.*
+
+**The reduction [V].** Since $\sqrt{g_5} = \psi\sqrt{g_4}$ and $g^{uu} = \psi^{-2}$, the two components of $\nabla_M\mathcal{F}^{MN} = \mathcal{J}^N$ are exactly
+
+$$\boxed{\;\nabla_\mu\big(\psi\,\mathcal{F}^{\mu\nu}\big) = \psi\,\mathcal{J}^\nu - \partial_u\big(\psi^{-1}\mathcal{F}_u{}^{\nu}\big), \qquad \nabla_\mu\big(\psi^{-1}\mathcal{F}^{\mu}{}_u\big) = \psi\,\mathcal{J}^u\;}$$
+
+The base sees **Maxwell in a medium of permittivity $\psi$**, sourced by the fiber current plus the **fiber-flux escape rate** $-\partial_u(\psi^{-1}\mathcal{F}_u{}^\nu)$ — Gauss's law as plumbing, the structure §A12 anticipated, now derived.
+
+**Four results.**
+1. **Ordinary Maxwell survives.** For the zero mode, $\nabla_\mu(\psi\mathcal{F}^{\mu\nu}) = \psi\mathcal{J}^\nu$ is electrodynamics in a medium with $\epsilon = 1/\mu = \psi$, so $\epsilon\mu = 1$: in the eikonal limit $k^2 = 0$ and **light rides the null geodesics of $g^{(4)}$, unrefracted by the dilaton**, which changes impedance only. With $\psi = \psi_0(1-\alpha T/2)$ the medium is uniform to $O(\alpha T)$ **[V]**.
+2. **The fiber modes form a Proca tower.** In the gauge $A^{(n)}_u = 0$ the escape term becomes a mass, $\nabla_\mu(\psi\mathcal{F}^{\mu\nu}) = (k/\psi)^2A^\nu$ with $m_n = 2\pi n/C_{\rm fiber}$: for a fiber circumference of $50\,\mu$m, $m_1c^2 \approx 25$ meV; for $1\,\mu$m, $1.2$ eV. Sourced only by fiber-*localized* charge; fiber-smeared matter never excites it **[D]**.
+3. **One extra scalar.** The $u$-component's zero mode obeys $\nabla_\mu(\psi^{-1}\nabla^\mu A_u) = \psi\mathcal{J}^u$: a massless base scalar whose Wilson line $\oint A_u\,du$ is the winding loophole of Law III made explicit. A new radiation species **[O]**.
+4. **Apparent charges obey the balance theorem.** The escape term is a total $u$-derivative, so its fiber average vanishes for single-valued fields: smooth source-free configurations put no net charge into the zero-mode photon. Wheeler charges need winding or singular configurations — hence A12's working form admits a 5D current, with the source-free version as an option.
+
+**The dark-matter verdict [D].** The reduction runs along the $u$-circle *only* and lands on $\mathbb{R}_t\times S^3$ — **the double cover**, not the gravitational base $\mathbb{R}_t\times\mathbb{RP}^3$. The electromagnetic field is therefore sourced by the current at $\hat n$ alone, and is under no obligation to be antipodally symmetric. The metric it propagates in is $g^{(4)}$ pulled back from the quotient: **antipodally symmetric, with wells at both $\hat n$ and $-\hat n$** — because the projective postulate symmetrizes every stress tensor it reads, the electromagnetic field's own included. So at the image, light is **lensed and not emitted, absorbed, or scattered.** Two equations on two spaces, with no contradiction: gravity reads the pushforward, Maxwell reads the cover.
+
+$$\boxed{\;\text{A12 passes: the seed's optics are a consequence of the reduction, not an assumption.}\;}$$
+
+**Residuals [O].** The extra scalar's contribution to the radiation budget; the Proca tower's phenomenology if ordinary charges have fiber structure; the $O(\alpha T)$ impedance variation inside matter, a small computable correction to field strengths.
 
 ---
 
@@ -362,7 +387,7 @@ Six appearances of one selection rule: radiation cannot source the old $f$; need
 
 1. **The $f\leftrightarrow\psi$ dictionary** — *closed* for fiber-smeared matter by the winding solution ($|\nabla f| = w/\psi$, §7.5); open for fiber-localized matter, where refraction and the Bianchi condition on $\varepsilon(T)$ interact.
 2. **The uplift** — the winding-stabilized vacuum is AdS with $|\Lambda_4|\sim m_\psi^2$; the observed small positive $\Lambda$ requires an uplift of that size (§7.5). Dilaton *stabilization itself* is done.
-3. **Light on $M_5$** — derive the effective base electrodynamics from A12; check against Maxwell.
+3. **Light on $M_5$** — *done* (§12.5): ordinary Maxwell survives on the double cover in the dilaton medium, unrefracted; the dark image is lensed and dark. Residuals: the extra scalar $A_u$ in the radiation budget; the Proca tower if charges are fiber-localized.
 4. **The dark-matter distribution** — halo-like images require near-$\Gamma$-symmetric luminous matter; determine whether the dielectric dilution plus the dynamical sector can produce it (§12).
 5. **The susceptibility channel** — its strength and sign versus observation.
 6. **The insulator frontier** — solutions with $\varepsilon\to0$ surfaces and their base images.
@@ -394,6 +419,7 @@ Six appearances of one selection rule: radiation cannot source the old $f$; need
 | **charged node** | $\phi_e\propto\cot\chi$; RN near-zone; opposite-sign partner |
 | **stabilization** | $\psi_0^2 = 3\varepsilon w^2/4\lvert\Lambda_5\rvert$; $m_\psi\psi_0 = w\sqrt\varepsilon$; $\Lambda_4 = \tfrac23\Lambda_5$; Yukawa $\alpha = \tfrac13$, range $\psi_0$ |
 | **fiber escape** | $\sigma = -\partial_r(r^3E_r)$ on $S^3$; winding evades the balance theorem |
+| **electrodynamics** | $\nabla_\mu(\psi\mathcal{F}^{\mu\nu}) = \psi\mathcal{J}^\nu - \partial_u(\psi^{-1}\mathcal{F}_u{}^\nu)$; $\epsilon\mu = 1$; Proca tower $2\pi n/C$; light on the cover, gravity on the quotient |
 | **dark matter** | image of luminous matter under $S^3\to S^3/\Gamma$; ratio $|\Gamma|-1$ if co-located |
 | **legacy** | basin $\theta = 1.644(m/M)^{1/3}$, contrast $\approx1$; pinch anisotropy $3$ |
 
