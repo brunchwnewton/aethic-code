@@ -8,7 +8,7 @@
 >
 > **Conventions.** $G = c = 1$ unless restored; $\ell$ = radius of the spatial 3-sphere; $\hat n\in S^3$, $[\hat n]\in\mathbb{RP}^3$; $T_\pm(\hat n) \equiv T(\hat n)\pm T(-\hat n)$ the antipodally even and odd parts of any field on the cover.
 >
-> **Reading guide.** The spin identification and the dimension bookkeeping: §I.5. Distinctness and the root, realized: §II.2b. The second-order construction: §II.3–§II.5. The selection rule: §II.4. The partition theorem: §II.6. What sources it: §II.7. The quantization fork: §II.9. Black holes: §II.10. The conformal root and the placement principle: §II.13. Electromagnetism at second order: §II.14. The geometry of $E$: §II.15. The Lagrangian: §II.16. Laws and axioms of version 3: §II.17. Status and open problems: Part III.
+> **Reading guide.** The spin identification and the dimension bookkeeping: §I.5. Distinctness and the root, realized: §II.2b. The second-order construction: §II.3–§II.5. The selection rule: §II.4. The partition theorem: §II.6. What sources it: §II.7. The quantization fork: §II.9. Black holes: §II.10. The conformal root and the placement principle: §II.13. Electromagnetism at second order: §II.14. The geometry of $E$: §II.15. The Lagrangian: §II.16. Recentering: §II.17. Laws and axioms of version 3: §II.18. Status and open problems: Part III.
 
 ---
 
@@ -433,7 +433,78 @@ Matter and (under §II.14.4's identification) helicity-carrying light couple to 
 
 **The EFE-family constraint as a Lagrangian.** The family of bases is the family of placements (§II.13.5). Classically, the action above selects one member: the placement that appears as the source in Law I. There is no separate "family constraint" — the Einstein equation on the selected base *is* the equation of motion of the gravitational term with the actual matter as source. Quantum mechanically, the path integral over matter configurations is a sum over the family: every placement contributes, weighted by $e^{iS}$, and the two-path phases of §II.14 are the interference between placements that differ by where a single quantum sits on the fiber. **Classical: the Lagrangian picks the family element. Quantum: it sums them.** That is the cleanest statement of what the family is for.
 
-## II.17 Laws and axioms, version 3
+
+## II.17 Recentering
+
+*The transformation that moves the fibration — first seen in §II.13.5 as the motion through the family of bases — is a definite geometric object with a definite group structure. This section defines it, names it, and records what it does at each level of the theory.*
+
+### II.17.1 Definition and group structure [T]
+
+For one mass, the root is $E\sim S^4$ with isometry group $O(5)$. The Hopf structure on $E$ is fixed by a **pole pair** $\{p,\bar p\}$ — the mass and its twin — together with a Hopf axis on the latitude 3-spheres. The stabilizers:
+
+| structure fixed | stabilizer | dimension |
+|:--|:--|:--|
+| nothing | $O(5)$ | $10$ |
+| the pole pair | $SO(4)$ — the isometry group of the spatial $S^3$ | $6$ |
+| pole pair and Hopf axis | $SU(2)_L\times U(1)_R$ | $4$ |
+
+So the family of Hopf structures is $O(5)/(SU(2)_L\times U(1)_R)$, of dimension $6 = 4 + 2$: four for *where the mass is*, two for the axis label of §II.2b. Stripping the relabelling, the physical family is the orbit of pole pairs, $O(5)/SO(4)$.
+
+> **Definition.** A **recentering** is an element of $O(5)$ acting on the conformal root by moving the pole pair. Everything the fibration is built on — the concentric shells (conjugacy classes), the Hopf circles, the monopole and anti-monopole, the gravitational well and its twin — is defined relative to the pole pair, and moves with it.
+
+### II.17.2 What it does at each order [D]
+
+**Second order.** It moves the center of the concentric shells — the mass — and carries the twin, the well, and the monopole with it by the same rotation. This is the lockstep of §II.13.5, named: recentering is the operation under which the even and odd faces of a placement move together.
+
+**First order.** It moves the pole pair $\{0,\infty\}$ of the radial fibration — that is, it moves the **origin of the projective structure**. "Reference point as root" (§II.2b) is thereby a group action: the reference point is the center of the fibration, and recentering is what moves it.
+
+At both orders the fibration has a center and recentering moves it. Hence the name.
+
+### II.17.3 The Kelvin transform is a recentering [V]
+
+The Kelvin transform $x\mapsto -x/|x|^2$ on $\mathbb{R}^4$, pushed to $S^4$ by stereographic projection, is exactly the antipodal map of $S^4$ — the element $-1\in O(5)$ — verified pointwise. So the role democracy of §I.4 (any node as chart-infinity, $r\to1/r$) is the *special* recentering that exchanges the two poles; general recentering moves them anywhere. The first-order Kelvin duality was the $\mathbb{Z}_2$ shadow of a four-dimensional orbit, seen before the root was known.
+
+**Orientation and the twin's sign.** $\det(-1) = -1$ in five dimensions: the pole-swap is orientation-reversing on the root. Orientation reversal flips Chern numbers. So "the twin carries opposite second-order charge" (§II.3) and "the recentering that reaches the twin is a reflection" are the same fact. The anti-monopole is the parity of the transformation that gets you there.
+
+### II.17.4 Conformal, and when isometric [D]
+
+$E$'s metric is $g_E = \Omega_p^2\,g_{S^4}$ — conformal to round, not round, with the factor centered on $p$. An element $\phi\in O(5)$ is an isometry of $g_{S^4}$, hence acts on $g_E$ as
+
+$$\phi^*g_E = \Big(\frac{\Omega_p\circ\phi}{\Omega_p}\Big)^2\,g_E$$
+
+**Recentering is a conformal transformation of the total space**, with a computable factor: the ratio of the conformal factor seen from the new center to that seen from the old. It is a genuine isometry of $g_E$ only when that ratio is $1$ — for the $SO(4)$ fixing the pole pair, and for the Kelvin pole-swap (since $\Omega_{\bar p} = \Omega_p$ by the $p\leftrightarrow\bar p$ symmetry). Every other recentering is conformal but not isometric.
+
+A second, equally true reading: as a map from $E$ to the recentered space $E'$ (Hopf-over-shells about $q$, with metric $\Omega_q^2 g_{S^4}$), recentering is an **isometry** — $\phi^*g_{E'} = g_E$. *Conformal on a fixed $E$; isometric between $E$ and $E'$.* Which one you see depends on whether the metric is carried along or left behind.
+
+### II.17.5 Action on the Ricci tensor of $E$ [V/D]
+
+Two readings, matching the two above.
+
+**Passive (metric carried along).** $\mathrm{Ric}[g_{E'}] = (\phi^{-1})^*\mathrm{Ric}[g_E]$: the curvature pattern of §II.15 — radial Ricci $3$, shell Ricci $-3\cos2\chi/2\sin^2\chi$, $R = 0$ on the shells at $37.8°$ and $142.2°$ — is *translated* to be centered on the new mass. At a fixed point $x$ the Ricci tensor changes because $x$'s distance from the center changed: a point at $\chi = 1.0$ has $R = 5.64$; move the pole $0.2$ toward it and $R(x) = R(0.8) = 3.26$ **[V]**.
+
+**Active (metric left behind).** With $\phi^*g_E = e^{2\omega}g_E$ and $\omega = \ln[(\Omega_p\circ\phi)/\Omega_p]$, the four-dimensional conformal law gives
+
+$$\mathrm{Ric}[e^{2\omega}g] = \mathrm{Ric}[g] - 2\nabla\nabla\omega - (\Box\omega)\,g + 2\,d\omega\otimes d\omega - 2\,|d\omega|^2 g$$
+
+For the Kelvin pole-swap $\omega = 0$ and Ricci is invariant; for a general recentering the correction is nonzero and is the difference between the two centers' curvature patterns.
+
+**Invariants.** The Weyl tensor stays zero — conformal flatness is $O(5)$-invariant. The scalar curvature, $\mathrm{Ric}_{ab}\mathrm{Ric}^{ab}$, and the $R = 0$ shells are the same functions of distance-from-center, recentered. The Poincaré–Hopf indices $(+1,+1)$ move with the poles. The radial Ricci is $3$ from whichever pole is the center.
+
+### II.17.6 When it is a symmetry and when it is a change [D]
+
+With one mass the root is conformally flat, $O(5)$ acts, and recentering is a *symmetry*: every member of the family is the same universe seen from a different center. With many masses the root is not conformally flat (§II.13.4), $O(5)$ is not even conformal, and recentering is a *change of placement* — no transformation law relates $\mathrm{Ric}[E']$ to $\mathrm{Ric}[E]$; both $E'$ and its now-nonzero Weyl tensor are recomputed from the new Hopf-over-shells superposition. The placement principle is the only law that survives: base Ricci (from $T_+$) and $E$-Weyl (from $J_-$) still move together.
+
+The symmetry chain of the vacuum, read as successive breakings:
+
+$$O(5)\;\xrightarrow{\;\text{one mass}\;}\;SO(4)\;\xrightarrow{\;\text{Hopf axis}\;}\;SU(2)\times U(1)\;\xrightarrow{\;\text{many masses}\;}\;\text{trivial}$$
+
+The first arrow is worth pausing on: **the spatial 3-sphere's isometry group $SO(4)$ is what remains of the root's $O(5)$ after a single mass is placed.** The symmetries of space are the symmetries of the arena that one mass failed to break.
+
+### II.17.7 Where it bites: the compactification [D]
+
+Recentering is a symmetry of $E$, but the first-order theory compactifies its root by the dilation $u\to u+\ln\lambda$, and only the $SO(4)$ fixing $\{0,\infty\}$ preserves that quotient. A recentering that moves the origin *off* the spatial 3-sphere — the extra direction of $S^4$ — breaks the compactification. This is open problem 7 as a group fact: **the first order admits only $SO(4)$ of the $O(5)$ recenterings; the second order admits all of them.** Whether the first order should be un-compactified or the second order quotiented is the question that decides which recenterings are physical.
+
+## II.18 Laws and axioms, version 3
 
 > ### ■ ARENA
 > - **A1.** $M_5 = \mathbb{R}_t\times S^1_u\times S^3$, with $S^3\cong SU(2)$.
@@ -461,7 +532,7 @@ Matter and (under §II.14.4's identification) helicity-carrying light couple to 
 > - **A12.** $d\mathcal{F} = 0$, $d\star_5\mathcal{F} = \star_5\mathcal{J}$ on the cover; the photon is a section over the base with Hopf charge $n$ (§II.14), $\mathcal{F}_{\rm eff} = \mathcal{F}_B + \phi F_{\rm Hopf}$ with $\phi_0 = 0$.
 
 > ### ▣ DERIVED
-> - **D1.** $\Lambda = 1/\ell^2$ (cone). **D2.** No endpoints (unsourced $f$). **D3.** The static twin is the quotient. **D4.** Mach relation, $k$-dial. **D5.** $\gamma = 1$ (stabilization). **D6 (new).** The partition: $T_+$ to gravity, $J_-$ to the second-order fiber. **D7 (new).** Twin signs: $(M,Q,g)\to(M,-Q,-g)$. **D8 (new).** The seed is $SU(2)\to SO(3)$. **D9 (new).** $E$ is conformally $S^4\setminus\{p,\bar p\}$; the fiber partition is $E$'s Weyl tensor; the placement principle (§II.13.6).
+> - **D1.** $\Lambda = 1/\ell^2$ (cone). **D2.** No endpoints (unsourced $f$). **D3.** The static twin is the quotient. **D4.** Mach relation, $k$-dial. **D5.** $\gamma = 1$ (stabilization). **D6 (new).** The partition: $T_+$ to gravity, $J_-$ to the second-order fiber. **D7 (new).** Twin signs: $(M,Q,g)\to(M,-Q,-g)$. **D8 (new).** The seed is $SU(2)\to SO(3)$. **D9 (new).** $E$ is conformally $S^4\setminus\{p,\bar p\}$; the fiber partition is $E$'s Weyl tensor; the placement principle (§II.13.6). **D10 (new).** Recentering: $O(5)$ on the root, moving the pole pair; conformal on $E$, isometric $E\to E'$; Kelvin is the pole-swap; $SO(4)$ of space is its residue after one mass (§II.17).
 
 **Free parameters of version 3.** The winding integer $w$ · one scale $|\Lambda_5|$ (equivalently $\psi_0$) · the quotient $\Gamma$ · the equation of state · **and, new: $m_{\rm unit}$ (mass per flux quantum) and $g_2$ (whether and how strongly $F$ gravitates).** Two new constants, both bounded by observation in principle and neither yet bounded in practice.
 
@@ -508,6 +579,10 @@ Matter and (under §II.14.4's identification) helicity-carrying light couple to 
 | two fibers: electric charge on $S^1_u$, monopole charge on $S^1_{\rm Hopf}$ | **[D]** |
 | second order is kinematic: $\alpha = \alpha[\text{placement}]$, no independent action; the two-speed structure is the absence of a kinetic term | **[D]** |
 | classical action selects the family element; the path integral sums the family | **[D]** |
+| recentering $= O(5)$ moving the pole pair; family $O(5)/(SU(2)_L\times U(1)_R)$, physical part $O(5)/SO(4)$ | **[T]** |
+| Kelvin transform $=$ antipodal map of $S^4$ $= -1\in O(5)$, orientation-reversing; hence the twin's opposite charge | **[V/D]** |
+| recentering is conformal on $E$ ($\phi^*g_E = (\Omega_p\circ\phi/\Omega_p)^2 g_E$), isometric $E\to E'$; Ricci translated | **[D/V]** |
+| $SO(4)$ of the spatial sphere $=$ residue of the root's $O(5)$ after one mass | **[D]** |
 
 ## III.2 Open problems of version 3
 
@@ -560,4 +635,6 @@ Matter and (under §II.14.4's identification) helicity-carrying light couple to 
 | **$E$ invariants** | $\mathrm{Ric}_{\chi\chi} = 3$; $R = \tfrac{15}{2} - \tfrac92\cot^2\chi$; Weyl $0$; vol $64\pi^2/3$; isometry $SO(4)\to SU(2)\times U(1)$ |
 | **two fibers** | $S^1_u$: winding, dilaton, electric escape; $S^1_{\rm Hopf}$: spinor phase, monopoles |
 | **action** | 5D EH + winding + EM + Dirac on the cover, with $D = \partial - ie\mathcal{A} - in\alpha[\text{placement}]$; $\alpha$ kinematic |
+| **recentering** | $O(5)$ on the root; moves mass, twin, well, monopole together; conformal on $E$; Kelvin $= -1$ |
+| **symmetry chain** | $O(5)\to SO(4)\to SU(2)\times U(1)\to$ trivial (root, one mass, Hopf axis, many masses) |
 | **does not** | shift frequency (static theorem); keep the twin unmarked |
