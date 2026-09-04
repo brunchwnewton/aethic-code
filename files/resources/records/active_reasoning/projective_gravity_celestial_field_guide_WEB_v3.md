@@ -8,7 +8,7 @@
 >
 > **Conventions.** $G = c = 1$ unless restored; $\ell$ = radius of the spatial 3-sphere; $\hat n\in S^3$, $[\hat n]\in\mathbb{RP}^3$; $T_\pm(\hat n) \equiv T(\hat n)\pm T(-\hat n)$ the antipodally even and odd parts of any field on the cover.
 >
-> **Reading guide.** The spin identification and the dimension bookkeeping: §I.5. Distinctness and the root, realized: §II.2b. The second-order construction: §II.3–§II.5. The selection rule: §II.4. The partition theorem: §II.6. What sources it: §II.7. The quantization fork: §II.9. Black holes: §II.10. The conformal root and the placement principle: §II.13. Electromagnetism at second order: §II.14. Laws and axioms of version 3: §II.15. Status and open problems: Part III.
+> **Reading guide.** The spin identification and the dimension bookkeeping: §I.5. Distinctness and the root, realized: §II.2b. The second-order construction: §II.3–§II.5. The selection rule: §II.4. The partition theorem: §II.6. What sources it: §II.7. The quantization fork: §II.9. Black holes: §II.10. The conformal root and the placement principle: §II.13. Electromagnetism at second order: §II.14. The geometry of $E$: §II.15. The Lagrangian: §II.16. Laws and axioms of version 3: §II.17. Status and open problems: Part III.
 
 ---
 
@@ -347,11 +347,11 @@ Since $\mathcal{F}_{\rm eff} = \mathcal{F}_B + \phi F_{\rm Hopf}$, a constant $\
 
 The Hopf $U(1)$ at a point is rotation about the *radial axis from the mass* — the shells are the conjugacy classes of §I.5. **Hopf charge is angular momentum about that axis.** Spin-1/2 matter carries it intrinsically: the fiber *is* the spinor phase, and a fermion is Hopf-charged by construction. A photon carries it through its **helicity** when propagating radially: $n = \pm1$ for the two circular polarizations.
 
-For a field of Hopf charge $n$, two paths from $p$ to $q$ that together enclose odd-mass $m_-$ acquire the relative phase
+For a field of Hopf charge $n$, two paths from $p$ to $q$ that begin at different points of the second-order fiber and together enclose odd-mass $m_-$ acquire the relative phase — and they remain **coherent**: a definite phase is interference, not decoherence, and it becomes effective decoherence only when $m_-\gg m_{\rm unit}$ randomizes it. This is a consequence of the path integral on a bundle, not an additional quantum postulate; the only non-deducible input is *which* fields carry $n$ —
 
 $$\Delta = n\Big[\frac{\Omega_{\rm enc}}{2} + \frac{2\pi\,m_-}{m_{\rm unit}}\Big]$$
 
-The first term is the Hopf part of the holonomy — half the enclosed solid angle. For a photon this is the **Rytov–Vladimirskii–Berry spin-redirection phase**: the rotation of polarization by the solid angle a light path's direction sweeps, known and observed optics **[T]**. The second-order structure *reproduces* it, which is a consistency check on the identification of the Hopf fiber with the spinor phase. The second term is new.
+The first term is the Hopf part of the holonomy — half the enclosed solid angle. For a **fermion** this is exact: the fiber *is* its spinor phase, and transport around a loop on a shell gives the spin-1/2 Berry phase $\Omega/2$ **[T]**. For a **photon** the identification of Hopf charge with helicity is a proposal **[S]**: it has the *form* of the known Rytov–Vladimirskii–Berry spin-redirection phase (a geometric phase proportional to a solid angle) but on the spatial shell rather than the sphere of propagation directions, and with the spin-1/2 coefficient rather than the spin-1 one. It is a structural consistency, not a coefficient-level reproduction, and it is recorded as such. The second term is new.
 
 So the distinctness principle acts on light as follows: **two photon paths beginning at different points of the second-order fiber are distinct exactly when the photon carries Hopf charge** — helicity, for radial propagation — and indistinguishable for the Hopf-neutral mode. The first-order photon never sees the fiber; its circularly polarized components do. Spin-1 is the distinct-disallowed projection, as the program's spin reading says, and helicity is the spinorial residue that survives it.
 
@@ -370,7 +370,7 @@ a polarization rotation sourced by the antipodally odd part of the enclosed mass
 | cluster, $10^{15}M_\odot$ | $\lvert\Delta\theta\rvert < 3°$ | $> 1\times10^{17}M_\odot$ |
 | cluster, $10^{15}M_\odot$ | $\lvert\Delta\theta\rvert < 0.5°$ | $> 7\times10^{17}M_\odot$ |
 
-**$m_{\rm unit}$ exceeds $10^{14}$–$10^{17}M_\odot$: galactic to cosmological.** The requirement of §II.8 that the twist be negligible at Earth scale — which needed $m_{\rm unit}$ large — is now a measured statement rather than a hope. This also bears on the quantization fork (§II.9): a $U(1)$ fiber with masses quantized in $m_{\rm unit}\gtrsim10^{14}M_\odot$ is untenable (stars exist), which pushes toward the $\mathbb{R}$ fiber, or toward a $U(1)$ whose quantum is not a mass quantization. The fork remains open, but one of its tines has been bent.
+**$m_{\rm unit}$ exceeds $10^{14}$–$10^{17}M_\odot$: galactic to cosmological** — *conditional on the helicity identification of §II.14.4* **[S→D]**; a fermion-interferometric version of the same bound would be unconditional but has no comparable data. The requirement of §II.8 that the twist be negligible at Earth scale — which needed $m_{\rm unit}$ large — is now a measured statement rather than a hope. This also bears on the quantization fork (§II.9): a $U(1)$ fiber with masses quantized in $m_{\rm unit}\gtrsim10^{14}M_\odot$ is untenable (stars exist), which pushes toward the $\mathbb{R}$ fiber, or toward a $U(1)$ whose quantum is not a mass quantization. The fork remains open, but one of its tines has been bent.
 
 ### II.14.6 Summary of the electromagnetic law at second order
 
@@ -382,7 +382,58 @@ a polarization rotation sourced by the antipodally odd part of the enclosed mass
 > - Two-path phase $\Delta = n[\Omega_{\rm enc}/2 + 2\pi m_-/m_{\rm unit}]$: the known spin-redirection phase plus an odd-mass term.
 > - Prediction: polarization rotation $2\pi m_-/m_{\rm unit}$ between lensed images. Bound: $m_{\rm unit}\gtrsim10^{14}$–$10^{17}M_\odot$.
 
-## II.15 Laws and axioms, version 3
+
+## II.15 The geometry of $E$: invariants and Easter eggs
+
+*$E$ was built, not chosen. What it turns out to be is worth recording in full.* Set $\ell = 1$; $g_E = d\chi^2 + 4\sin^2\chi\,g_{S^3}$, a warped product over the unit 3-sphere.
+
+**Curvature [V].** By the warped-product formulas of §I.4 with $f = 2\sin\chi$:
+
+| quantity | value |
+|:--|:--|
+| radial Ricci $\mathrm{Ric}_{\chi\chi}$ | $3$ — *constant, and equal to round $S^4$'s* |
+| shell Ricci (orthonormal eigenvalue) | $\tfrac32 - \tfrac32\cot^2\chi = -\dfrac{3\cos2\chi}{2\sin^2\chi}$ |
+| scalar curvature $R$ | $\tfrac{15}{2} - \tfrac92\cot^2\chi$ |
+| Einstein $G_{\chi\chi}$, $G_{\rm shell}$ | $-\tfrac34 + \tfrac94\cot^2\chi$, $\;\;-\tfrac94 + \tfrac34\cot^2\chi$ |
+| $\mathrm{Ric}_{ab}\mathrm{Ric}^{ab}$ | $\tfrac{63}{4} - \tfrac{27}{2}\cot^2\chi + \tfrac{27}{4}\cot^4\chi$ |
+| Weyl | $0$ (§II.13.4) |
+
+$E$ is not Einstein — the shell Ricci is not proportional to the radial one — but it is **conformally Einstein**, being conformal to round $S^4$. Its scalar curvature is $7.5$ at the equator, changes sign on the shells $\sin^2\chi = 3/8$ ($37.8°$ and $142.2°$ from the mass), and diverges to $-\infty$ at the poles: the monopole singularities read as curvature.
+
+**Easter eggs [V].**
+1. **Volume.** $\mathrm{vol}(E) = 64\pi^2/3$, exactly *half* the round $S^4$ of radius 2.
+2. **The equator carries a round 3-sphere of radius 2** — twice the spatial sphere's radius. The Hopf 3-sphere over the equator is the largest and roundest slice.
+3. **Fiber length** $4\pi\sin\chi$, maximal $4\pi$ at the equator: twice a spatial great circle.
+4. **The radial direction thinks it is on round $S^4$** ($\mathrm{Ric}_{\chi\chi} = 3$ everywhere); only the shells know otherwise.
+5. **Isometry.** $g_E$ has the full $SO(4)$ of the round $S^3$ factor; the Hopf *choice* breaks it to $SU(2)\times U(1)$. The symmetry the fibration breaks is the symmetry the axis label (§II.2b) is a coordinate on.
+6. **Two circle fibers coexist.** The topological $S^1_u$ of the first order (winding, dilaton, the fiber-escape identity) and the geometric $S^1_{\rm Hopf}$ of the second (spinor phase, monopoles). **Electric charge escapes along $S^1_u$; the second-order monopole charge lives on $S^1_{\rm Hopf}$.** The two fibers are the model's electric/magnetic split, realized as two different circles — one nowhere-degenerate and quantized by winding, one degenerating at every mass and quantized by Chern number.
+7. **Conformal to $S^4$ with the mass and twin removed**, Poincaré–Hopf index $+1$ at each (§II.13.1).
+
+## II.16 The Lagrangian, and the second order as kinematics
+
+*The full action of version 3, and the honest status of each term.*
+
+**The full space.** With both fibers, $\mathcal{E} = \mathbb{R}_t\times S^1_u\times E$, six-dimensional, with
+
+$$g_6 = g_4 + \psi^2\,du^2 + L_2^2\,(d\psi_2 + \alpha)^2, \qquad L_2 = 4\pi\ell\sin\chi$$
+
+**The two reductions are not alike.** Reducing on $S^1_u$ is the first-order theory: Law I with the dilaton $\psi$, stabilized by the winding — dynamical, and done. Reducing on $S^1_{\rm Hopf}$ *as Kaluza–Klein* would produce a gauge field $\alpha$ with kinetic term $-\tfrac14L_2^2F_{\rm Hopf}^2$ and a **second radion** $L_2$. But $L_2 = 4\pi\ell\sin\chi$ is fixed by the Hopf geometry; honest KK would make it dynamical and demand a second stabilization, and would make $F_{\rm Hopf}$ a field to be solved for rather than a record of where the masses are. The placement principle (§II.13.6) says the opposite: **$E$ is a kinematic consequence of the placement, and the second order has no independent Lagrangian** **[D]**. The Hopf connection is a functional of the matter configuration, $\alpha = \alpha[\text{placement}]$, not a field with its own action.
+
+**The action of version 3.**
+
+$$S = \underbrace{\int_{M_5}\!\sqrt{-g_5}\,\frac{R_5 - 2\Lambda_5}{16\pi G_5}}_{\text{gravity + dilaton}} \;+\; \underbrace{\int_{M_5}\!\sqrt{-g_5}\,\Big(-\tfrac12(\nabla f)^2\Big)}_{\text{winding}} \;+\; \underbrace{\int_{\rm cover}\!\sqrt{-g_4}\,\Big(-\tfrac14\mathcal{F}_{\mu\nu}\mathcal{F}^{\mu\nu}\Big)}_{\text{EM}} \;+\; \underbrace{\int_{\rm cover}\!\sqrt{-g_4}\,\bar\Psi\big(i\gamma^\mu D_\mu - m\big)\Psi}_{\text{matter}}$$
+
+with the one modification the second order makes: the covariant derivative on the cover is
+
+$$D_\mu = \partial_\mu - ie\,\mathcal{A}_\mu - in\,\alpha_\mu[\text{placement}]$$
+
+Matter and (under §II.14.4's identification) helicity-carrying light couple to the Hopf connection as a **background determined by where matter is**, with integer Hopf charge $n$. Gravity reads the placement's even face through Law I; the holonomy of $\alpha$ reads its odd face. The action is self-referential in the way gravity always is — matter determines the structure it moves in — with one difference: $\alpha$ has no kinetic term, so it responds to the placement *instantaneously*. That is the two-speed structure of §I.4 appearing in the Lagrangian as the absence of a term.
+
+**The fork, recorded.** One may instead promote $\alpha$ to a dynamical KK gauge field with coupling $g_2$ and let the Hopf-charge current source it. Then $F_{\rm Hopf}$ is solved for, Hopf charge is a new quantum number rather than a function of mass and sheet, the odd-mass reading of Law III is lost unless charge correlates with sheet, and $g_2$ enters black-hole extremality (§II.10). This is a different theory — one in which the placement principle fails — and it is the theory §II.10's $g_2$ belongs to. Version 3 as written is the kinematic one.
+
+**The EFE-family constraint as a Lagrangian.** The family of bases is the family of placements (§II.13.5). Classically, the action above selects one member: the placement that appears as the source in Law I. There is no separate "family constraint" — the Einstein equation on the selected base *is* the equation of motion of the gravitational term with the actual matter as source. Quantum mechanically, the path integral over matter configurations is a sum over the family: every placement contributes, weighted by $e^{iS}$, and the two-path phases of §II.14 are the interference between placements that differ by where a single quantum sits on the fiber. **Classical: the Lagrangian picks the family element. Quantum: it sums them.** That is the cleanest statement of what the family is for.
+
+## II.17 Laws and axioms, version 3
 
 > ### ■ ARENA
 > - **A1.** $M_5 = \mathbb{R}_t\times S^1_u\times S^3$, with $S^3\cong SU(2)$.
@@ -404,7 +455,7 @@ a polarization rotation sourced by the antipodally odd part of the enclosed mass
 
 > ### ◆ LAW III — THE SECOND-ORDER CONNECTION (new)
 > - **A10.** $dF = \star J_-/m_{\rm unit}$: **the curvature of the second-order bundle is sourced by the antipodally odd mass current.** Closure ($\int\rho_- = 0$) is automatic. Holonomy around a loop is $2\pi m_-/m_{\rm unit}$.
-> - **A11.** Whether $F$ gravitates (coupling $g_2$) is open; if it does, black holes acquire $P_{\rm eff} = g_2M/m_{\rm unit}$.
+> - **A11.** In version 3 as written, $\alpha$ is **kinematic** — a functional of the placement with no action of its own (§II.16); matter couples to it through $D_\mu = \partial_\mu - ie\mathcal{A}_\mu - in\alpha_\mu$. Promoting it to a dynamical KK gauge field with coupling $g_2$ is the recorded fork, in which black holes acquire $P_{\rm eff} = g_2M/m_{\rm unit}$ (§II.10).
 
 > ### ◆ ELECTROMAGNETISM
 > - **A12.** $d\mathcal{F} = 0$, $d\star_5\mathcal{F} = \star_5\mathcal{J}$ on the cover; the photon is a section over the base with Hopf charge $n$ (§II.14), $\mathcal{F}_{\rm eff} = \mathcal{F}_B + \phi F_{\rm Hopf}$ with $\phi_0 = 0$.
@@ -452,7 +503,11 @@ a polarization rotation sourced by the antipodally odd part of the enclosed mass
 | photon cannot propagate in the $\sim100$ kpc fiber ($1/r^3$); it is a section; $n=0$ is the first-order photon | **[D]** |
 | $\phi_0 = 0$, else every mass is an EM monopole | **[D]** |
 | Hopf charge = angular momentum about the radial axis; helicity for radial photons; the Hopf holonomy reproduces the spin-redirection phase | **[D/T]** |
-| polarization rotation $2\pi m_-/m_{\rm unit}$ between lensed images; $m_{\rm unit}\gtrsim10^{14}$–$10^{17}M_\odot$ | **[D]** |
+| polarization rotation $2\pi m_-/m_{\rm unit}$ between lensed images; $m_{\rm unit}\gtrsim10^{14}$–$10^{17}M_\odot$ | **[S→D]** (conditional on helicity = Hopf charge) |
+| $E$: $\mathrm{Ric}_{\chi\chi} = 3$, $R = \tfrac{15}{2} - \tfrac92\cot^2\chi$, $R = 0$ at $\sin^2\chi = 3/8$; conformally Einstein; vol $= \tfrac12$ round $S^4$ | **[V]** |
+| two fibers: electric charge on $S^1_u$, monopole charge on $S^1_{\rm Hopf}$ | **[D]** |
+| second order is kinematic: $\alpha = \alpha[\text{placement}]$, no independent action; the two-speed structure is the absence of a kinetic term | **[D]** |
+| classical action selects the family element; the path integral sums the family | **[D]** |
 
 ## III.2 Open problems of version 3
 
@@ -501,5 +556,8 @@ a polarization rotation sourced by the antipodally odd part of the enclosed mass
 | **EM at second order** | $\mathcal{F}_{\rm eff} = \mathcal{F}_B + \phi F_{\rm Hopf}$; photon a section, $n=0$ first-order exactly; $\phi_0 = 0$ |
 | **who sees the fiber** | Hopf charge = $J$ about the radial axis; fermions intrinsically; photon helicity radially |
 | **two-path phase** | $n[\Omega_{\rm enc}/2 + 2\pi m_-/m_{\rm unit}]$: spin-redirection phase (known) + odd-mass term (new) |
-| **$m_{\rm unit}$ bound** | polarization of lensed images: $m_{\rm unit} > 10^{14}$–$10^{17}M_\odot$ |
+| **$m_{\rm unit}$ bound** | polarization of lensed images: $m_{\rm unit} > 10^{14}$–$10^{17}M_\odot$ (conditional on helicity identification) |
+| **$E$ invariants** | $\mathrm{Ric}_{\chi\chi} = 3$; $R = \tfrac{15}{2} - \tfrac92\cot^2\chi$; Weyl $0$; vol $64\pi^2/3$; isometry $SO(4)\to SU(2)\times U(1)$ |
+| **two fibers** | $S^1_u$: winding, dilaton, electric escape; $S^1_{\rm Hopf}$: spinor phase, monopoles |
+| **action** | 5D EH + winding + EM + Dirac on the cover, with $D = \partial - ie\mathcal{A} - in\alpha[\text{placement}]$; $\alpha$ kinematic |
 | **does not** | shift frequency (static theorem); keep the twin unmarked |
