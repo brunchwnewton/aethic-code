@@ -10,12 +10,12 @@ description: "An interactive tool for Aethic reasoning's Powerset Invalidation T
 <style>
 /* ============ KIT — "Reality, Indexed" ============ */
 :root{
-  --ink:#1A1B18;--ink-2:#43443E;--ink-3:#6E6F65;
-  --paper:#EEEDE6;--paper-2:#F7F6F0;--paper-3:#E7E5DB;
-  --rule:#D6D4C9;--rule-2:#E4E2D7;
-  --garnet:#7E1D2E;--garnet-2:#9C2A3C;--garnet-wash:rgba(126,29,46,.07);
-  --block:#151610;--block-2:#20211A;--on-block:#EAE9E1;--on-block-2:#9C9A8D;--on-block-3:#75746A;
-  --gold:#9A7B33;--gold-2:#B8942F;--sel:#E3E0D2;--measure:39rem;
+  --ink:#E7ECF5;--ink-2:#B9C3D6;--ink-3:#8593AD;
+  --paper:#0B1220;--paper-2:#111A2C;--paper-3:#182338;
+  --rule:#243250;--rule-2:#1C2740;
+  --garnet:#6FA8FF;--garnet-2:#8FBCFF;--garnet-wash:rgba(111,168,255,.10);
+  --block:#060A12;--block-2:#0D1522;--on-block:#E7ECF5;--on-block-2:#9AA8C4;--on-block-3:#6E7C99;
+  --gold:#D7B56D;--gold-2:#E7C77E;--sel:#243250;--measure:39rem;
   --display:"Fraunces",Georgia,serif;--body:"Spectral",Georgia,serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
 }
 *{box-sizing:border-box;}
@@ -39,7 +39,7 @@ a:focus-visible{outline:2px solid var(--garnet);outline-offset:3px;border-radius
 .mono{font-family:var(--mono);}
 
 /* ---- top nav bar ---- */
-.topbar{position:sticky;top:0;z-index:40;background:rgba(21,22,16,.94);backdrop-filter:saturate(140%) blur(6px);border-bottom:1px solid #2a2b22;}
+.topbar{position:sticky;top:0;z-index:40;background:rgba(6,10,18,.94);backdrop-filter:saturate(140%) blur(6px);border-bottom:1px solid #1C2740;}
 .topbar .in{max-width:72rem;margin:0 auto;padding:.62rem 1.6rem;display:flex;align-items:center;gap:1.4rem;}
 .topbar a{color:var(--on-block-2);font-family:var(--mono);font-size:.74rem;letter-spacing:.05em;transition:color .15s;}
 .topbar a:hover{color:var(--on-block);}
@@ -193,7 +193,7 @@ section.tight{padding:clamp(2.2rem,5vw,3.4rem) 0;}
 /* ---- nav grid ---- */
 .navgrid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--rule);border:1px solid var(--rule);}
 .navgrid a{background:var(--paper-2);padding:1.4rem 1.4rem;transition:.15s;}
-.navgrid a:hover{background:#fff;}
+.navgrid a:hover{background:var(--paper-3);}
 .navgrid .nt{font-family:var(--display);font-size:1.12rem;color:var(--ink);letter-spacing:-.01em;}
 .navgrid .nd{font-size:.92rem;color:var(--ink-3);margin-top:.35rem;line-height:1.5;}
 .navgrid .arr{color:var(--garnet);}
@@ -229,12 +229,12 @@ details.disc .ans>.prose>p:first-child{margin-top:0;}
 .pull em{font-style:italic;}
 
 /* ---- footer ---- */
-footer.site{background:var(--block);color:var(--on-block-2);padding:3.2rem 0 2.4rem;font-size:.9rem;border-top:1px solid #2a2b22;}
+footer.site{background:var(--block);color:var(--on-block-2);padding:3.2rem 0 2.4rem;font-size:.9rem;border-top:1px solid #1C2740;}
 footer.site a{color:var(--on-block);}footer.site a:hover{color:#fff;}
 footer.site .foot-grid{display:flex;flex-wrap:wrap;gap:2.4rem 3.5rem;justify-content:space-between;}
 footer.site h4{font-family:var(--mono);font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--on-block-3);margin:0 0 .9rem;font-weight:500;}
 footer.site ul{list-style:none;margin:0;padding:0;line-height:2;}
-footer.site .foot-note{color:var(--on-block-3);margin-top:2.6rem;padding-top:1.6rem;border-top:1px solid #2a2b22;font-size:.82rem;line-height:1.6;max-width:52rem;}
+footer.site .foot-note{color:var(--on-block-3);margin-top:2.6rem;padding-top:1.6rem;border-top:1px solid #1C2740;font-size:.82rem;line-height:1.6;max-width:52rem;}
 
 /* ---- utility ---- */
 .stack>*+*{margin-top:1.1rem;}
@@ -255,30 +255,30 @@ hr.div{border:none;border-top:1px solid var(--rule);margin:2.4rem 0;}
 
 .tool{max-width:64rem;margin:0 auto;padding:0 1.6rem;}
 .panel{border:1px solid var(--rule);background:var(--paper-2);margin:1.4rem 0;}
-.panel .ph{background:var(--paper,#F7F6F0);border-bottom:1px solid var(--rule,#D6D4C9);padding:.7rem 1.1rem;font-family:var(--mono,"IBM Plex Mono",ui-monospace,Menlo,monospace);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2,#43443E);display:flex;justify-content:space-between;align-items:center;}
+.panel .ph{background:var(--paper,#111A2C);border-bottom:1px solid var(--rule,#243250);padding:.7rem 1.1rem;font-family:var(--mono,"IBM Plex Mono",ui-monospace,Menlo,monospace);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2,#B9C3D6);display:flex;justify-content:space-between;align-items:center;}
 .panel .pb{padding:1.2rem 1.1rem;}
 
 .slit-count{display:inline-flex;border:1px solid var(--rule);}
-.slit-count button{font-family:var(--mono,"IBM Plex Mono",ui-monospace,Menlo,monospace);font-size:.82rem;padding:.5rem .95rem;background:var(--paper,#F7F6F0);border:none;border-right:1px solid var(--rule,#D6D4C9);color:var(--ink,#1A1B18);cursor:pointer;}
+.slit-count button{font-family:var(--mono,"IBM Plex Mono",ui-monospace,Menlo,monospace);font-size:.82rem;padding:.5rem .95rem;background:var(--paper,#111A2C);border:none;border-right:1px solid var(--rule,#243250);color:var(--ink,#E7ECF5);cursor:pointer;}
 .slit-count button:last-child{border-right:none;}
-.slit-count button[aria-pressed="true"]{background:var(--ink,#1A1B18);color:var(--paper,#F7F6F0);}
+.slit-count button[aria-pressed="true"]{background:var(--ink,#E7ECF5);color:var(--paper,#111A2C);}
 
 .det{border:1px solid var(--rule);background:var(--paper);padding:.75rem .85rem;margin-bottom:.7rem;}
 .det .dl{display:flex;justify-content:space-between;align-items:center;margin-bottom:.55rem;}
 .det .dname{font-family:var(--mono);font-size:.74rem;color:var(--ink);font-weight:600;}
-.det .drm{font-family:var(--mono,"IBM Plex Mono",ui-monospace,Menlo,monospace);font-size:.68rem;color:var(--ink-2,#43443E);border:1px solid var(--rule);padding:.15rem .55rem;cursor:pointer;background:none;}
+.det .drm{font-family:var(--mono,"IBM Plex Mono",ui-monospace,Menlo,monospace);font-size:.68rem;color:var(--ink-2,#B9C3D6);border:1px solid var(--rule);padding:.15rem .55rem;cursor:pointer;background:none;}
 .det .drm:hover{border-color:var(--garnet);color:var(--garnet);}
 .det .watches{display:flex;gap:.4rem;flex-wrap:wrap;}
-.det .wbtn{font-family:var(--mono,"IBM Plex Mono",ui-monospace,Menlo,monospace);font-size:.72rem;font-weight:600;width:2.2rem;height:2.2rem;border:1px solid var(--rule,#D6D4C9);background:var(--paper,#F7F6F0);color:var(--ink,#1A1B18);cursor:pointer;transition:.12s;}
-.det .wbtn[data-on="true"]{background:var(--garnet,#7E1D2E);color:#fff;border-color:var(--garnet,#7E1D2E);}
+.det .wbtn{font-family:var(--mono,"IBM Plex Mono",ui-monospace,Menlo,monospace);font-size:.72rem;font-weight:600;width:2.2rem;height:2.2rem;border:1px solid var(--rule,#243250);background:var(--paper,#111A2C);color:var(--ink,#E7ECF5);cursor:pointer;transition:.12s;}
+.det .wbtn[data-on="true"]{background:var(--garnet,#6FA8FF);color:#fff;border-color:var(--garnet,#6FA8FF);}
 .btn-row{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:.3rem;}
 .mini{font-family:var(--mono);font-size:.72rem;letter-spacing:.03em;padding:.5rem .9rem;border:1px solid var(--ink);background:none;color:var(--ink);cursor:pointer;}
 .mini:hover{background:var(--ink);color:var(--paper);}
-.mini.ghost{border-color:var(--rule,#D6D4C9);color:var(--ink-2,#43443E);}
+.mini.ghost{border-color:var(--rule,#243250);color:var(--ink-2,#B9C3D6);}
 .mini.ghost:hover{background:var(--paper);border-color:var(--garnet);color:var(--garnet);}
 
 .viz canvas{width:100%;height:130px;display:block;border:1px solid var(--rule);background:#111;}
-.viz .cap{font-family:var(--mono,"IBM Plex Mono",ui-monospace,Menlo,monospace);font-size:.72rem;color:var(--ink-2,#43443E);text-align:center;margin-top:.55rem;}
+.viz .cap{font-family:var(--mono,"IBM Plex Mono",ui-monospace,Menlo,monospace);font-size:.72rem;color:var(--ink-2,#B9C3D6);text-align:center;margin-top:.55rem;}
 .classline{font-family:var(--mono);font-size:.8rem;color:var(--ink-2);margin-bottom:1rem;line-height:1.6;}
 .classline b{color:var(--garnet);}
 .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(4.6rem,1fr));gap:1px;background:var(--rule);border:1px solid var(--rule);}
@@ -288,7 +288,7 @@ hr.div{border:none;border-top:1px solid var(--rule);margin:2.4rem 0;}
 .pcell.valid{background:rgba(126,29,46,.055);}
 .pcell.valid .st{color:var(--garnet);font-weight:600;}
 .pcell.valid .vd{color:var(--garnet);font-weight:600;}
-.pcell.p2 .vd,.pcell.p3 .vd{color:var(--ink-2,#43443E);}
+.pcell.p2 .vd,.pcell.p3 .vd{color:var(--ink-2,#B9C3D6);}
 .counts3{display:flex;gap:1px;background:var(--rule);border:1px solid var(--rule);margin-top:1rem;}
 .counts3>div{background:var(--paper);flex:1;padding:.8rem;text-align:center;}
 .counts3 .cn{font-family:var(--mono);font-size:1.3rem;color:var(--garnet);}
@@ -476,37 +476,47 @@ hr.div{border:none;border-top:1px solid var(--rule);margin:2.4rem 0;}
   }
 
   function drawScreen(sig, classes){
+    // Far-field (Fraunhofer) multi-slit pattern, computed the way the theorem says:
+    //   I(x) = sinc^2(beta(x)) * SUM over classes of | SUM over slits in class of e^{i k d_s x} |^2
+    // Amplitudes add coherently WITHIN an indistinguishability class (agreeing regime);
+    // intensities add ACROSS classes (disagreeing regime). The single-slit envelope is the
+    // same for every path, so it factors out of every class and multiplies the whole sum.
+    // Normalization is global (by n^2, the fully coherent peak) so brightness is comparable
+    // between configurations: full interference is the brightest pattern, the pure particle
+    // pattern the dimmest, partial cases in between.
     const cv=document.getElementById('screen'), ctx=cv.getContext('2d');
     const W=cv.width,H=cv.height;
     ctx.fillStyle='#111'; ctx.fillRect(0,0,W,H);
-    // slit positions centered
-    const pos=Array.from({length:nSlits},(_,i)=> (i-(nSlits-1)/2));
-    const k=0.045, spread=90;
-    let vals=[],max=0;
+    const pos=Array.from({length:nSlits},(_,i)=> (i-(nSlits-1)/2));   // slit centres, unit spacing
+    const k=2*Math.PI/56;            // fringe period 56 px for unit spacing: ~10 fringes across the screen
+    const aOverD=0.055;              // slit width / slit spacing: sets the diffraction envelope width (first zero just off-screen)
+    const sinc=t=> (Math.abs(t)<1e-9?1:Math.sin(t)/t);
+    let vals=[];
     for(let px=0;px<W;px++){
       const x=px-W/2;
       let I=0;
-      // incoherent sum over classes of |coherent sum within class|^2
       classes.forEach(c=>{
         let re=0,im=0;
         c.forEach(s=>{ const ph=k*pos[s]*x; re+=Math.cos(ph); im+=Math.sin(ph); });
         I += re*re+im*im;
       });
-      const env=Math.exp(-(x*x)/(2*spread*spread));
-      I*=env; vals.push(I); if(I>max)max=I;
+      const env=Math.pow(sinc(k*aOverD*x*Math.PI/2),2);   // single-slit diffraction envelope (first zero at x = W/2 roughly)
+      vals.push(I*env);
     }
+    const norm=nSlits*nSlits;   // global scale: the fully coherent peak
     for(let px=0;px<W;px++){
-      const I=max>0?vals[px]/max:0;
-      const lum=Math.round(255*I);
-      ctx.fillStyle='rgb('+Math.max(lum, Math.round(60*I))+','+Math.round(lum*0.62)+','+Math.round(lum*0.66)+')';
+      const I=Math.min(1, vals[px]/norm);
+      const g=Math.pow(I,0.6);   // mild gamma so faint secondary maxima stay visible
+      const lum=Math.round(255*g);
+      ctx.fillStyle='rgb('+lum+','+Math.round(lum*0.62)+','+Math.round(lum*0.66)+')';
       ctx.fillRect(px,0,1,H);
     }
     // caption
     const nClasses=classes.length;
     let cap, kind;
-    if(nClasses===1){ cap='One class \u2014 every path in a single agreeing superposition. Full interference.'; kind='interference'; }
-    else if(nClasses===nSlits){ cap='Every path in its own class \u2014 no coherence survives. Pure particle pattern.'; kind='particle'; }
-    else { cap=nClasses+' classes \u2014 coherence within each, none across. Partial fringes.'; kind='partial'; }
+    if(nClasses===1){ cap='One class \u2014 every path in a single agreeing superposition. Full interference (peak intensity n\u00b2).'; kind='interference'; }
+    else if(nClasses===nSlits){ cap='Every path in its own class \u2014 no coherence survives. Pure particle pattern: the single-slit envelope alone (peak intensity n).'; kind='particle'; }
+    else { cap=nClasses+' classes \u2014 amplitudes add within each class, intensities add across them. Partial fringes: the visible fringe set is the sum of each class\u2019s own grating pattern.'; kind='partial'; }
     document.getElementById('screenCap').textContent=cap;
     document.getElementById('patternKind').textContent=kind;
   }
