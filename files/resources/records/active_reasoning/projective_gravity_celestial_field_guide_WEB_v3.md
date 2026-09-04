@@ -8,7 +8,7 @@
 >
 > **Conventions.** $G = c = 1$ unless restored; $\ell$ = radius of the spatial 3-sphere; $\hat n\in S^3$, $[\hat n]\in\mathbb{RP}^3$; $T_\pm(\hat n) \equiv T(\hat n)\pm T(-\hat n)$ the antipodally even and odd parts of any field on the cover.
 >
-> **Reading guide.** The spin identification and the dimension bookkeeping: §I.5. Distinctness and the root, realized: §II.2b. The second-order construction: §II.3–§II.5. The selection rule: §II.4. The partition theorem: §II.6. What sources it: §II.7. The quantization fork: §II.9. Black holes: §II.10. Laws and axioms of version 3: §II.13. Status and open problems: Part III.
+> **Reading guide.** The spin identification and the dimension bookkeeping: §I.5. Distinctness and the root, realized: §II.2b. The second-order construction: §II.3–§II.5. The selection rule: §II.4. The partition theorem: §II.6. What sources it: §II.7. The quantization fork: §II.9. Black holes: §II.10. The conformal root and the placement principle: §II.13. Electromagnetism at second order: §II.14. Laws and axioms of version 3: §II.15. Status and open problems: Part III.
 
 ---
 
@@ -243,7 +243,146 @@ The pattern is therefore the same at both levels — a spinor structure ($SU(2)$
 
 **The twin is no longer nothing.** It carries an anti-monopole — a topological defect. Light passing it on two sides picks up the defect's holonomy. Not matter, not reflection, but a phase signature. The antipode stays *materially* dark and becomes *topologically* marked. Whether this is a feature (light can finally see the twin, non-materially) or a cost (the seed wanted nothing there) is a choice, and it should be made deliberately **[D]**.
 
-## II.13 Laws and axioms, version 3
+
+## II.13 The conformal root, the family of bases, and the placement principle
+
+*This section takes the proposal that the conformal class of the second-order total space is the theory's actual root, and unpacks it to the end. Four computations settle what it means; the last of them turns a pair of earlier statements into a single structural principle.*
+
+### II.13.1 $E$ is conformally $S^4$, and the rejected 4-sphere returns
+
+Give $E$ its natural metric — the spatial $\ell^2d\chi^2$ in the interval direction, and over each shell of radius $\ell\sin\chi$ its Hopf 3-sphere at the Riemannian-submersion radius $2\ell\sin\chi$:
+
+$$g_E = \ell^2\,d\chi^2 + 4\ell^2\sin^2\chi\;g_{S^3(1)}, \qquad \chi\in(0,\pi)$$
+
+The reparametrization $\tan(\chi'/2) = \sqrt{\tan(\chi/2)}$ is a smooth bijection of $(0,\pi)$ under which the radial and angular terms match a single conformal factor at every $\chi$ **[V]**. Hence
+
+$$\boxed{\;E \;\text{is conformal to}\; S^4\setminus\{p,\bar p\}, \qquad p = \text{the mass},\;\; \bar p = \text{its twin}\;}$$
+
+The 4-sphere that the program rejected at first order — "fibers radiating from a point of $S^4$," forbidden because $\chi(S^4) = 2$ leaves no room for a nowhere-vanishing fiber — **returns at second order with the obstruction made physical.** The fiber degenerates at exactly two points, the monopole and the anti-monopole, each with index $+1$; their sum is $\chi(S^4) = 2$ **[T]**. Poincaré–Hopf is no longer a veto. It is the reason there are two marked points, and it says which two.
+
+### II.13.2 One conformal root carries the first-order fibration too
+
+The first-order cylinder $\mathbb{R}_u\times S^3 = \mathbb{R}^4\setminus\{0\}$ is likewise conformal to $S^4$ minus two points. So both total spaces are the same conformal 4-manifold, fibered differently:
+
+| order | fibers | removed points | base |
+|:--|:--|:--|:--|
+| first | circles *through* the two points (the radial lines) | $\{0,\infty\}$ | $\mathbb{RP}^3$ — *directions* |
+| second | Hopf circles on the latitude 3-spheres, *avoiding* them | $\{p,\bar p\}$ | $S^3\setminus\{p,\bar p\}$ — *space* |
+
+The conformal group of $S^4$ is $SO(5,1)$, 2-transitive on points, so $\{0,\infty\}$ and $\{p,\bar p\}$ are equivalent pairs **[T]**. **One root, two fibrations, two bases.** The first-order and second-order theories are two members of the family this section is about. *Caveat, held open:* the first-order theory then quotients by the dilation $u\to u+\ln\lambda$, and $E$ carries no such quotient — the conformal roots coincide, the compactifications do not.
+
+### II.13.3 The family of bases, exactly
+
+Free circle actions on the latitude $S^3$, up to conjugacy, are the $(p,q)$ actions $(z_1,z_2)\mapsto(e^{ipt}z_1,e^{iqt}z_2)$ with $\gcd(p,q) = 1$ **[T]**. The $(1,1)$ action is Hopf and its base is a smooth $S^2$ — the member the program started from. Every other $(p,q)$ gives an orbifold base, a weighted projective line with cone points of orders $p$ and $q$. Within $(1,1)$ there is the continuous axis choice of §II.2b, which yields isometric bases with different point-identifications. So:
+
+$$\text{family of bases} \;=\; \{(p,q)\}_{\gcd = 1}\;\times\;S^2_{\rm axis}, \qquad \text{original base} = (1,1)$$
+
+discrete times continuous, with the theory's first base as one point of it. The first-order $\mathbb{Z}_2$ quotient must still be available on whatever base is chosen, which restricts the family to bases admitting a free involution.
+
+### II.13.4 The fiber partition is the Weyl tensor of $E$ [V]
+
+This is the computation that makes the rest of the section true. With the Hopf connection $A = \cos\theta\,d\varphi$ on each latitude, $C_{abcd}C^{abcd} = 0$: conformally flat, as §II.13.1 says. **Perturb the circle partition with the same centers** — $A = (\cos\theta + \epsilon\sin^2\theta)\,d\varphi$, a different way of laying circles between the same monopole and anti-monopole — and
+
+$$C_{abcd}C^{abcd} = \frac{4\epsilon^2\,(16 - 13\sin^2\theta)}{3\sin^4\chi} \;>\; 0$$
+
+$$\boxed{\;\text{The deviation of the fiber partition from Hopf is the Weyl tensor of } E.\;}$$
+
+Any other circle partition between the same centers makes $E$ non-conformally-flat, by an amount equal to how far the fibers were moved. Two consequences follow immediately.
+
+**The Ricci–Weyl partition, realized one level up.** §II.6 said the even/odd split of matter was electric/magnetic rather than Ricci/Weyl, because both pieces are sourced. That was true at the level of the *base*. One level up it is Ricci/Weyl after all:
+
+$$\text{base Ricci} \;\longleftarrow\; T_+, \qquad\qquad E\text{-Weyl} \;\longleftarrow\; J_-$$
+
+The odd mass current does not merely source a $U(1)$ curvature; that curvature *is* the Weyl tensor of the second-order total space in Kaluza–Klein dress. The even part of matter is Ricci on the base; the odd part is Weyl on $E$. The original intuition was correct, with the Weyl tensor living one floor above where it was first sought.
+
+**The conformal class is not fixed; it is the vacuum of the odd sector.** $E\sim S^4$ exactly when there is one mass and its twin — one monopole per shell, the Hopf value. Any additional odd matter deforms the conformal class by the formula above. So the root is not a fixed conformal 4-manifold but *conformally flat $E$ plus a Weyl deformation sourced by $J_-$*, and "the family of fibrations of a fixed root" is the family for fixed odd matter.
+
+### II.13.5 What moves the Einstein tensor, and what does not
+
+The proposal was that shifting the fibration on $E$ yields a new first-order total space, hence a new base, hence a new Einstein tensor — and that by complementarity this is the same as shifting the Hopf fibers. Both halves are correct, with one precision each.
+
+**What does not move it.** Within isometric $U(1)$-fibrations, the curvature $F$ is fixed by the monopole positions; changes of the connection $A$ at fixed $F$ are gauge; and the quotient metric $g_B$ (the horizontal metric of the Kaluza–Klein decomposition) is independent of $A$ **[D]**. So rearranging circles between *fixed* centers changes neither $F$ nor $g_B$ nor the Einstein tensor. "Same centers, different circles" is a relabelling. This is why the base-level partition of §II.6 holds: the Einstein tensor sees only $T_+$, and no gauge motion of the odd sector can reach it.
+
+**What does move it.** For conformally flat $E$ the isometry group is $SO(5)$, and the Hopf-type fibrations are its orbit on point-pairs $\{p,\bar p\}$: **the family of fibrations is the family of where the mass is** **[D]**. Move through it and the gravitational well moves from $p$ to $q$ *and* the monopole moves from $p$ to $q$, by the same rotation of $S^4$. Nothing else can move them, and nothing can move one without the other. With more masses, $E$ acquires Weyl, the isometry group shrinks, the family narrows — and the lockstep persists on what remains.
+
+So the complementarity is exact and it is this: **the Einstein tensor on the base and the Weyl tensor of $E$ are the even and odd faces of one placement of matter.** They are not two dials. They are two shadows of a single choice, and the choice is where the matter is.
+
+### II.13.6 The placement principle
+
+The program has, at several points, stated a pair of facts as though they were separate: that gravity reads the even part and the twist reads the odd part (the partition, §II.6), and that matter selects the fibration (§II.2b). §II.13 shows they are one fact seen twice. Stated once, as a principle of the model's structure:
+
+> ### ■ THE PLACEMENT PRINCIPLE
+> The arena is one conformal 4-manifold — conformally flat in the absence of odd matter, and deformed by it. A placement of matter on this arena is not described by a metric and separately by a fibration; **the placement *is* the fibration.** Its even face is the Ricci curvature of the quotient base, read by gravity through Law I. Its odd face is the Weyl curvature of the total space, read by light through the second-order holonomy. Moving the matter moves both faces together, and nothing else moves either. The fibration is therefore not a convention imposed on the arena: it is the arena's record of where everything is. What *is* conventional is the axis label within the Hopf class — a relabelling of points, not a change of physics — and the conformal factor, which is not conventional at all but is the one scalar the conformal root cannot supply: the dilaton, which the first-order theory already carries for exactly this reason.
+
+**Three things the principle explains that were previously separate.** Why the fibration was found to be rigid at first order (§I.1): rigidity is what "the placement is the fibration" looks like when the placement is homogeneous. Why the dilaton had to exist (§I.4): a conformal class has no scale and Law I needs one, so the metric is conformal class times one field, and that field is $\psi$. And why every attempt to make the fibration respond to matter as a *separate* coupling failed and was retired (the dielectric, §I.8): the fibration already *is* the matter's placement, and a second coupling was a second copy of the same information, which the constancy of $\alpha_{\rm fine}$ duly bounded to zero.
+
+**What the principle does not do.** It does not shift frequencies — the static theorem stands, and a placement is a static datum. It does not choose between the $U(1)$ and $\mathbb{R}$ fibers (§II.9). It does not decide the third order, which remains held open. And it does not, by itself, tell you the placement: it says that once you know where the matter is, you know everything the two fibrations know, and nothing more.
+
+
+## II.14 Electromagnetism on the second-order total space
+
+*The first-order electromagnetic law put $\mathcal{F}$ on the cover $S^3$ and derived that light rides the base's null geodesics unrefracted, sourced only where charge is. The question is how that law adapts to $E$ — and specifically how the distinctness principle acts on light: whether a photon's two paths may begin at different points of the second-order fiber. The answer keeps the first-order photon exactly, identifies which fields see the fiber, reproduces a known optical effect, and produces the first observational bound on $m_{\rm unit}$.*
+
+### II.14.1 The reduction on a non-trivial circle bundle [T/V]
+
+Write the electromagnetic potential on $E$ in the horizontal–vertical frame of the Hopf bundle, $e \equiv d\psi_2 + \alpha$ with $\alpha$ the Hopf connection:
+
+$$\mathcal{A}_E = \mathcal{A}_B + \phi\,e, \qquad d\mathcal{A}_E = \big[\mathcal{F}_B + \phi\,F_{\rm Hopf}\big] + d\phi\wedge e$$
+
+using $de = d\alpha = F_{\rm Hopf}$. The effective field strength on the base is
+
+$$\boxed{\;\mathcal{F}_{\rm eff} = \mathcal{F}_B + \phi\,F_{\rm Hopf}\;}$$
+
+**The second-order monopole field enters the electromagnetic field strength, multiplied by the fiber-component scalar $\phi$.** This is the standard Kaluza–Klein reduction on a bundle with curvature, verified explicitly on the Hopf bundle (the coordinate components differ from the frame components by exactly the horizontal part of $d\phi\wedge\alpha$, as they must). The scalar $\phi$ — the fiber component of $\mathcal{A}_E$ — is new; its zero mode is the Wilson line $\oint\mathcal{A}_E$ around the Hopf circle.
+
+### II.14.2 The photon does not propagate in the fiber [D]
+
+The Hopf fiber over a shell has length $L_2 = 4\pi\ell\sin\chi$ — about $100$ kpc at the equator for $\ell = 8$ kpc. A field free to move along a fiber that long would spread through *four* spatial dimensions at every sub-100-kpc distance, with flux falling as $1/r^3$. Every inverse-square test excludes this. **The photon is therefore a section over the base, labelled by a Hopf charge $n$, not a field propagating in $E$.** The Hopf-neutral photon, $n = 0$, is the first-order photon *exactly*: $\epsilon\mu = 1$, on the cover, unrefracted, sourced only where charge is. First-order behaviour is retained in full.
+
+### II.14.3 The fiber-component scalar has no background [D]
+
+Since $\mathcal{F}_{\rm eff} = \mathcal{F}_B + \phi F_{\rm Hopf}$, a constant $\phi_0$ would make every mass an *electromagnetic* magnetic monopole of charge $\phi_0M/m_{\rm unit}$. No magnetic monopoles are observed, so $\phi_0 = 0$. The scalar survives only as a fluctuation, coupling photons to the odd-sector field through $\phi\,F_{\rm Hopf}$ — a new but suppressed interaction. (This is the Wheeler charge-without-charge option of Law III, and observation switches it off.)
+
+### II.14.4 Which fields see the fiber: the distinct-allowable sector [D/T]
+
+The Hopf $U(1)$ at a point is rotation about the *radial axis from the mass* — the shells are the conjugacy classes of §I.5. **Hopf charge is angular momentum about that axis.** Spin-1/2 matter carries it intrinsically: the fiber *is* the spinor phase, and a fermion is Hopf-charged by construction. A photon carries it through its **helicity** when propagating radially: $n = \pm1$ for the two circular polarizations.
+
+For a field of Hopf charge $n$, two paths from $p$ to $q$ that together enclose odd-mass $m_-$ acquire the relative phase
+
+$$\Delta = n\Big[\frac{\Omega_{\rm enc}}{2} + \frac{2\pi\,m_-}{m_{\rm unit}}\Big]$$
+
+The first term is the Hopf part of the holonomy — half the enclosed solid angle. For a photon this is the **Rytov–Vladimirskii–Berry spin-redirection phase**: the rotation of polarization by the solid angle a light path's direction sweeps, known and observed optics **[T]**. The second-order structure *reproduces* it, which is a consistency check on the identification of the Hopf fiber with the spinor phase. The second term is new.
+
+So the distinctness principle acts on light as follows: **two photon paths beginning at different points of the second-order fiber are distinct exactly when the photon carries Hopf charge** — helicity, for radial propagation — and indistinguishable for the Hopf-neutral mode. The first-order photon never sees the fiber; its circularly polarized components do. Spin-1 is the distinct-disallowed projection, as the program's spin reading says, and helicity is the spinorial residue that survives it.
+
+### II.14.5 The new effect, and the first bound on $m_{\rm unit}$ [D]
+
+Helicity $\pm1$ acquire opposite odd-mass phases, so linear polarization — their superposition — is **rotated** between two paths that enclose odd-mass:
+
+$$\Delta\theta = \frac{2\pi\,m_-}{m_{\rm unit}}$$
+
+a polarization rotation sourced by the antipodally odd part of the enclosed mass, with no counterpart in general relativity for a static, non-rotating mass (the gravitational Faraday effect there requires frame-dragging). The cleanest test is a gravitationally lensed polarized source: its two images enclose the lens, so their polarization angles should differ by $2\pi M_{\rm lens}/m_{\rm unit}$ (the lens's antipodal image being uncorrelated, $m_-\approx M_{\rm lens}$). Lensed-quasar images agree in polarization to a few degrees. Hence:
+
+| lens | bound | $m_{\rm unit}$ |
+|:--|:--|:--|
+| galaxy, $10^{12}M_\odot$ | $\lvert\Delta\theta\rvert < 3°$ | $> 1\times10^{14}M_\odot$ |
+| galaxy, $10^{12}M_\odot$ | $\lvert\Delta\theta\rvert < 0.5°$ | $> 7\times10^{14}M_\odot$ |
+| cluster, $10^{15}M_\odot$ | $\lvert\Delta\theta\rvert < 3°$ | $> 1\times10^{17}M_\odot$ |
+| cluster, $10^{15}M_\odot$ | $\lvert\Delta\theta\rvert < 0.5°$ | $> 7\times10^{17}M_\odot$ |
+
+**$m_{\rm unit}$ exceeds $10^{14}$–$10^{17}M_\odot$: galactic to cosmological.** The requirement of §II.8 that the twist be negligible at Earth scale — which needed $m_{\rm unit}$ large — is now a measured statement rather than a hope. This also bears on the quantization fork (§II.9): a $U(1)$ fiber with masses quantized in $m_{\rm unit}\gtrsim10^{14}M_\odot$ is untenable (stars exist), which pushes toward the $\mathbb{R}$ fiber, or toward a $U(1)$ whose quantum is not a mass quantization. The fork remains open, but one of its tines has been bent.
+
+### II.14.6 Summary of the electromagnetic law at second order
+
+> ### ◆ ELECTROMAGNETISM, VERSION 3
+> - $\mathcal{F}$ lives on the cover $S^3$ as before; the photon is a **section** over the base with Hopf charge $n$, not a field in $E$.
+> - Effective field strength $\mathcal{F}_{\rm eff} = \mathcal{F}_B + \phi F_{\rm Hopf}$, with $\phi_0 = 0$.
+> - The $n = 0$ photon is the first-order photon exactly.
+> - Hopf charge $=$ angular momentum about the radial axis; helicity for radial photons; intrinsic for fermions.
+> - Two-path phase $\Delta = n[\Omega_{\rm enc}/2 + 2\pi m_-/m_{\rm unit}]$: the known spin-redirection phase plus an odd-mass term.
+> - Prediction: polarization rotation $2\pi m_-/m_{\rm unit}$ between lensed images. Bound: $m_{\rm unit}\gtrsim10^{14}$–$10^{17}M_\odot$.
+
+## II.15 Laws and axioms, version 3
 
 > ### ■ ARENA
 > - **A1.** $M_5 = \mathbb{R}_t\times S^1_u\times S^3$, with $S^3\cong SU(2)$.
@@ -268,10 +407,10 @@ The pattern is therefore the same at both levels — a spinor structure ($SU(2)$
 > - **A11.** Whether $F$ gravitates (coupling $g_2$) is open; if it does, black holes acquire $P_{\rm eff} = g_2M/m_{\rm unit}$.
 
 > ### ◆ ELECTROMAGNETISM
-> - **A12.** $d\mathcal{F} = 0$, $d\star_5\mathcal{F} = \star_5\mathcal{J}$ on the cover.
+> - **A12.** $d\mathcal{F} = 0$, $d\star_5\mathcal{F} = \star_5\mathcal{J}$ on the cover; the photon is a section over the base with Hopf charge $n$ (§II.14), $\mathcal{F}_{\rm eff} = \mathcal{F}_B + \phi F_{\rm Hopf}$ with $\phi_0 = 0$.
 
 > ### ▣ DERIVED
-> - **D1.** $\Lambda = 1/\ell^2$ (cone). **D2.** No endpoints (unsourced $f$). **D3.** The static twin is the quotient. **D4.** Mach relation, $k$-dial. **D5.** $\gamma = 1$ (stabilization). **D6 (new).** The partition: $T_+$ to gravity, $J_-$ to the second-order fiber. **D7 (new).** Twin signs: $(M,Q,g)\to(M,-Q,-g)$. **D8 (new).** The seed is $SU(2)\to SO(3)$.
+> - **D1.** $\Lambda = 1/\ell^2$ (cone). **D2.** No endpoints (unsourced $f$). **D3.** The static twin is the quotient. **D4.** Mach relation, $k$-dial. **D5.** $\gamma = 1$ (stabilization). **D6 (new).** The partition: $T_+$ to gravity, $J_-$ to the second-order fiber. **D7 (new).** Twin signs: $(M,Q,g)\to(M,-Q,-g)$. **D8 (new).** The seed is $SU(2)\to SO(3)$. **D9 (new).** $E$ is conformally $S^4\setminus\{p,\bar p\}$; the fiber partition is $E$'s Weyl tensor; the placement principle (§II.13.6).
 
 **Free parameters of version 3.** The winding integer $w$ · one scale $|\Lambda_5|$ (equivalently $\psi_0$) · the quotient $\Gamma$ · the equation of state · **and, new: $m_{\rm unit}$ (mass per flux quantum) and $g_2$ (whether and how strongly $F$ gravitates).** Two new constants, both bounded by observation in principle and neither yet bounded in practice.
 
@@ -303,22 +442,35 @@ The pattern is therefore the same at both levels — a spinor structure ($SU(2)$
 | loosened distinctness realized at levels 0→1 and 1→2; one spinor reaches all of $S^2$ over axis choices | **[D/V]** |
 | reference point as root = the projective postulate; Kelvin duality its two-node case | **[D]** |
 | selection rule: Hopf-over-shells produces $\mathbb{Z}_2$ alone; odd $\Gamma$ excluded; even $\Gamma>2$ needs hand-imposed signs | **[D]** |
+| $E$ conformal to $S^4\setminus\{p,\bar p\}$; Poincaré–Hopf obstruction = the two monopoles | **[V/T]** |
+| first- and second-order total spaces share one conformal root, fibered by circles through vs. avoiding the poles | **[D]** |
+| family of bases $= \{(p,q)\}\times S^2_{\rm axis}$; original base is $(1,1)$ | **[T]** |
+| Weyl$^2(E) = 0$ for Hopf, $= 4\epsilon^2(16-13\sin^2\theta)/3\sin^4\chi$ for a moved partition: the fiber partition is $E$'s Weyl | **[V]** |
+| Ricci–Weyl realized one level up: base Ricci $\leftarrow T_+$, $E$-Weyl $\leftarrow J_-$ | **[D]** |
+| the placement principle: the placement is the fibration; even/odd faces move in lockstep | **[D]** |
+| $\mathcal{F}_{\rm eff} = \mathcal{F}_B + \phi F_{\rm Hopf}$ on the Hopf bundle | **[T/V]** |
+| photon cannot propagate in the $\sim100$ kpc fiber ($1/r^3$); it is a section; $n=0$ is the first-order photon | **[D]** |
+| $\phi_0 = 0$, else every mass is an EM monopole | **[D]** |
+| Hopf charge = angular momentum about the radial axis; helicity for radial photons; the Hopf holonomy reproduces the spin-redirection phase | **[D/T]** |
+| polarization rotation $2\pi m_-/m_{\rm unit}$ between lensed images; $m_{\rm unit}\gtrsim10^{14}$–$10^{17}M_\odot$ | **[D]** |
 
 ## III.2 Open problems of version 3
 
-1. **The quantization fork** (§II.9) — $U(1)$ with quantized masses, or $\mathbb{R}$ with continuous holonomy. The first decision the version owes.
+1. **The quantization fork** (§II.9) — $U(1)$ with quantized masses, or $\mathbb{R}$ with continuous holonomy. The first decision the version owes; the $m_{\rm unit}$ bound of §II.14.5 makes mass-quantization in $m_{\rm unit}$ untenable and tilts it toward $\mathbb{R}$, or toward a $U(1)$ whose quantum is not a mass.
 2. **Does $F$ gravitate, and how strongly?** — $g_2$, and the bound on $g_2/m_{\rm unit}$ from the existence of near-Schwarzschild black holes.
 3. **The spin-2 fork** (§II.7) — whether the six odd stress components need a second metric, and whether that collapses the theory to GR on the cover.
-4. **What sets $m_{\rm unit}$** — the scale at which paths decohere by enclosed matter. Galactic, if the twist is to be negligible locally.
+4. **What sets $m_{\rm unit}$** — now bounded below at $10^{14}$–$10^{17}M_\odot$ by lensed-image polarization (§II.14.5); what fixes it from the theory's side is open.
 5. **The twin's marking** — feature or cost; a deliberate decision about the seed's character.
 6. **The third order** — Hopf tower or spin-2 second metric; *deliberately held open* pending more probing.
-7. **Inherited from version 2** — the AdS uplift ($10^{60}$, the single blocking problem); a law for $\ell$ in the Tully–Fisher sector; the rise beyond the equator; the literature review before anything is called new.
+7. **The compactification mismatch** — the first-order theory quotients its conformal root by the dilation; $E$ does not. Whether $E$ admits a compatible quotient, and what it would mean, is open (§II.13.2).
+8. **Inherited from version 2** — the AdS uplift ($10^{60}$, the single blocking problem); a law for $\ell$ in the Tully–Fisher sector; the rise beyond the equator; the literature review before anything is called new.
 
 ## III.3 The next three moves
 
-1. **Bound $g_2/m_{\rm unit}$ from black-hole observations.** The extremality shift $M^2 = Q^2 + P_{\rm eff}^2$ is a concrete prediction; near-Schwarzschild ringdowns and shadow measurements constrain it.
-2. **Decide the quantization fork by computing both.** Take a smooth distribution, build the $\mathbb{R}$-connection and the $U(1)$-connection with the nearest integer flux, and see which one produces consistent holonomy for the two-path amplitude.
-3. **Write the spin-2 version and check whether it is GR.** If a second metric on the cover sourced by $T_-$ reproduces Einstein on $S^3$, the $U(1)$ choice is what keeps the theory distinct, and that should be known before anything else is built on it.
+1. **Measure the polarization difference between lensed images** — the cleanest test of the second-order structure, already bounding $m_{\rm unit}$; a dedicated measurement on a high-signal lensed quasar or FRB would tighten it by orders of magnitude.
+2. **Bound $g_2/m_{\rm unit}$ from black-hole observations.** The extremality shift $M^2 = Q^2 + P_{\rm eff}^2$ is a concrete prediction; near-Schwarzschild ringdowns and shadow measurements constrain it.
+3. **Decide the quantization fork by computing both.** Take a smooth distribution, build the $\mathbb{R}$-connection and the $U(1)$-connection with the nearest integer flux, and see which one produces consistent holonomy for the two-path amplitude.
+4. **Write the spin-2 version and check whether it is GR.** If a second metric on the cover sourced by $T_-$ reproduces Einstein on $S^3$, the $U(1)$ choice is what keeps the theory distinct, and that should be known before anything else is built on it.
 
 ---
 
@@ -342,4 +494,12 @@ The pattern is therefore the same at both levels — a spinor structure ($SU(2)$
 | **selection rule** | Hopf-over-shells yields $\mathbb{Z}_2$ only; $\lvert\Gamma\rvert$ odd excluded |
 | **distinctness** | sheets at level 0→1; axis choice at level 1→2 (one $\psi$ reaches all $S^2$); matter fixes the axis |
 | **third order** | Hopf tower $S^7\to S^4$ or spin-2; held open |
+| **conformal root** | $E\sim S^4\setminus\{p,\bar p\}$; $g_E = \ell^2d\chi^2 + 4\ell^2\sin^2\chi\,g_{S^3}$; $\tan(\chi'/2) = \sqrt{\tan(\chi/2)}$ |
+| **Weyl of $E$** | $=$ deviation of the fiber partition from Hopf; sourced by $J_-$ |
+| **family of bases** | $\{(p,q)\}\times S^2_{\rm axis}$; the $SO(5)$-orbit of point-pairs for one mass |
+| **placement principle** | the placement is the fibration; Ricci on the base $\leftarrow T_+$, Weyl on $E$ $\leftarrow J_-$, in lockstep |
+| **EM at second order** | $\mathcal{F}_{\rm eff} = \mathcal{F}_B + \phi F_{\rm Hopf}$; photon a section, $n=0$ first-order exactly; $\phi_0 = 0$ |
+| **who sees the fiber** | Hopf charge = $J$ about the radial axis; fermions intrinsically; photon helicity radially |
+| **two-path phase** | $n[\Omega_{\rm enc}/2 + 2\pi m_-/m_{\rm unit}]$: spin-redirection phase (known) + odd-mass term (new) |
+| **$m_{\rm unit}$ bound** | polarization of lensed images: $m_{\rm unit} > 10^{14}$–$10^{17}M_\odot$ |
 | **does not** | shift frequency (static theorem); keep the twin unmarked |
