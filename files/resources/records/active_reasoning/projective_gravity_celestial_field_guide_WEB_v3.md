@@ -8,7 +8,7 @@
 >
 > **Conventions.** $G = c = 1$ unless restored; $\ell$ = radius of the spatial 3-sphere; $\hat n\in S^3$, $[\hat n]\in\mathbb{RP}^3$; $T_\pm(\hat n) \equiv T(\hat n)\pm T(-\hat n)$ the antipodally even and odd parts of any field on the cover.
 >
-> **Reading guide.** The spin identification: §I.5. Distinctness and the root, realized: §II.2b. The second-order construction: §II.3–§II.5. The selection rule: §II.4. The partition theorem: §II.6. What sources it: §II.7. The quantization fork: §II.9. Black holes: §II.10. Laws and axioms of version 3: §II.13. Status and open problems: Part III.
+> **Reading guide.** The spin identification and the dimension bookkeeping: §I.5. Distinctness and the root, realized: §II.2b. The second-order construction: §II.3–§II.5. The selection rule: §II.4. The partition theorem: §II.6. What sources it: §II.7. The quantization fork: §II.9. Black holes: §II.10. Laws and axioms of version 3: §II.13. Status and open problems: Part III.
 
 ---
 
@@ -75,6 +75,24 @@ Read the seed in this language. "Matter at $\hat n$ but not at $-\hat n$" is a s
 
 This is not an analogy. It is an isomorphism of the arena, and it was the first geometric choice made in the program.
 
+**Nothing is overwritten, and space stays three-dimensional.** The identification is a statement about what the spatial 3-sphere already *is* as a manifold; it adds no dimensions and replaces no structure. The gravitational base $\mathbb{RP}^3 = SO(3)$ is likewise three-dimensional. The bookkeeping, kept explicit because the group name will recur at the second order:
+
+| object | dimension | what it is |
+|:--|:--|:--|
+| spatial slice | **3** | $S^3$, which *is* $SU(2)$ |
+| gravitational base | **3** | $\mathbb{RP}^3 = S^3/\mathbb{Z}_2$, which *is* $SO(3)$ |
+| a concentric shell about a mass | 2 | $S^2_\chi$ |
+| the Hopf lift of one shell (§II.3) | 3 | $S^3_{{\rm Hopf},\chi}$ — a *different* 3-sphere, one per shell |
+| the union of all Hopf lifts (§II.3) | **4** | $E$, a $U(1)$-bundle over the 3-D space |
+
+Two different 3-spheres will wear the name $SU(2)$: the spatial one here, and each Hopf one in Part II. They are not the same object.
+
+**The shells are the conjugacy classes [V].** Put the mass at the identity of the spatial $SU(2)$. A point $(\cos\chi,\sin\chi\,\vec m)$ of $S^3$ is the group element $e^{i\chi\,\vec m\cdot\vec\sigma}$ — a rotation by $2\chi$ about the axis $\vec m$ — and conjugacy classes of $SU(2)$ are fixed by $\mathrm{tr}\,U = 2\cos\chi$, i.e. by $\chi$ alone. So:
+
+> **The concentric shells about a mass are the conjugacy classes of $SU(2)$ with the mass at the identity.** Distance from the mass is a rotation angle. The equator ($\mathrm{tr}\,U = 0$) is the class of rotations by $\pi$. The antipode ($\mathrm{tr}\,U = -2$) is $-1$.
+
+Verified: $\mathrm{tr}\,U = 1.911$ at $\chi = 0.3$, exactly $0$ at the equator, exactly $-2$ at the antipode. "Travelling to the antipode is a $2\pi$ rotation" is thereby a statement about *space*, not only about spinors — and it makes the shells chosen for the Hopf lift the *canonical* 2-spheres of the group rather than an arbitrary foliation.
+
 ---
 
 # PART II — THE SECOND-ORDER STRUCTURE
@@ -117,7 +135,11 @@ The two methodological proposals of the program's speculative record — *loosen
 
 ## II.3 The second-order construction: Hopf over the concentric shells
 
-About a mass at $\hat n_0\in S^3$, the colatitude shells $\{\chi = \text{const}\}$ foliate $S^3\setminus\{\pm\hat n_0\}$ by 2-spheres. **Take each shell as the base of a Hopf fibration** $S^3_{\rm Hopf}\to S^2_{\rm shell}$. The union over shells is a 4-manifold $E$ with $S^1$ fibers over $S^3\setminus\{\pm\hat n_0\}$: the second-order total space.
+About a mass at $\hat n_0\in S^3$, the colatitude shells $\{\chi = \text{const}\}$ foliate $S^3\setminus\{\pm\hat n_0\}$ by 2-spheres — the conjugacy classes of §I.5. **Take each shell as the base of a Hopf fibration** $S^3_{{\rm Hopf},\chi}\to S^2_\chi$: each 2-sphere is lifted to its *own* 3-sphere. The union over shells is a 4-manifold $E$ — the second-order total space — which is fibered two ways at once:
+
+$$E \;\to\; (0,\pi) \quad\text{with fiber } S^3_{{\rm Hopf},\chi}, \qquad\qquad E \;\to\; S^3\setminus\{\pm\hat n_0\} \quad\text{with fiber } S^1$$
+
+The first slicing is "each shell lifted to a 3-sphere"; the second is "a Hopf circle over each point of space." **Physical space remains the 3-D $S^3$; $E$ is 4-D and sits over it.** The spatial $S^3$ (first order) and the Hopf $S^3_{{\rm Hopf},\chi}$ (second order, one per shell) are different manifolds that happen to be the same group.
 
 What this is, exactly **[T]**: the Hopf fibration $S^3\to S^2$ is the **charge-1 Dirac monopole bundle** over $S^2$. In $S^3\subset\mathbb{C}^2$ with $(z_1,z_2)\sim(e^{i\phi}z_1,e^{i\phi}z_2)$, the connection is $\alpha = \mathrm{Im}(\bar z_1dz_1 + \bar z_2dz_2)$, its curvature is $F = d\alpha = \tfrac12\,\omega_{S^2}$, and the flux through $S^2$ is $2\pi$ — one quantum. So "Hopf over every concentric shell about a mass" is **a monopole sitting at the mass.** The shells are homotopic, so each carries Chern number $+1$ seen from $\hat n_0$.
 
@@ -213,7 +235,7 @@ $$M^2 = Q^2 + P_{\rm eff}^2$$
 
 The Hopf fibration is $SU(2)\to SU(2)/U(1) = S^2$: **unit spinors mapped to their spin direction** (the Bloch sphere). The fiber is the spinor phase. Its holonomy — half the enclosed solid angle — is the spin-1/2 Berry phase, and around a loop enclosing a hemisphere it is $\pi$: **the spinor changes sign.** So the second-order fiber-antipode is again a spinor sign flip, and the second-order total space over each concentric shell is the space of unit spinors whose direction lies on that shell **[T/V]**.
 
-The pattern is therefore the same at both levels: a spinor structure ($SU(2)$) projected to its direction data ($S^2$ or $SO(3)$), with the projection discarding a $\mathbb{Z}_2$ (the sign) and gravity reading only what survives. Version 3's claim, stated once: *what we call spacetime is the direction data of a spinor structure; the sign is the distinct-disallowed direction; gravity is blind to it and light is not.*
+The pattern is therefore the same at both levels — a spinor structure ($SU(2)$) projected to its direction data ($SO(3)$ at the first order, $S^2_\chi$ at the second), with the projection discarding a sign and gravity reading only what survives — *on different spaces*: the spatial 3-sphere at the first order, each Hopf 3-sphere over a shell at the second (§I.5, bookkeeping). Version 3's claim, stated once: *what we call spacetime is the direction data of a spinor structure; the sign is the distinct-disallowed direction; gravity is blind to it and light is not.*
 
 ## II.12 What the second-order structure does not do
 
@@ -261,7 +283,8 @@ The pattern is therefore the same at both levels: a spinor structure ($SU(2)$) p
 
 | result | tag |
 |:--|:--|
-| $S^3\cong SU(2)$, $\mathbb{RP}^3\cong SO(3)$, antipodal $= -1$: the seed is spin-1/2 vs spin-1 | **[V]** |
+| $S^3\cong SU(2)$, $\mathbb{RP}^3\cong SO(3)$, antipodal $= -1$: the seed is spin-1/2 vs spin-1; space stays 3-D | **[V]** |
+| concentric shells about a mass = conjugacy classes of $SU(2)$; equator = rotations by $\pi$; antipode $= -1$ | **[V]** |
 | Entry 8 = distribution / Frobenius / Chow / holonomy | **[T]** |
 | the discrete twist is $\pi_1(\mathbb{RP}^3) = \mathbb{Z}_2$; two-speed = distinctness | **[V/D]** |
 | Hopf over shells = Dirac monopole at the mass; anti-monopole at the twin, automatically | **[T/V]** |
@@ -303,7 +326,9 @@ The pattern is therefore the same at both levels: a spinor structure ($SU(2)$) p
 
 | topic | statement |
 |:--|:--|
-| **spin identification** | $S^3 = SU(2)$, $\mathbb{RP}^3 = SO(3)$, antipodal $= -1$; the seed is the spinor sign |
+| **spin identification** | $S^3 = SU(2)$, $\mathbb{RP}^3 = SO(3)$, antipodal $= -1$; the seed is the spinor sign; space stays 3-D |
+| **shells** | conjugacy classes of $SU(2)$, mass at the identity; distance = rotation angle |
+| **dimensions** | space 3; base 3; shell 2; Hopf lift of a shell 3; $E$ 4 |
 | **distinctness** | distribution $D$; twist = non-integrability; separation = holonomy |
 | **discrete twist** | $\pi_1(\mathbb{RP}^3) = \mathbb{Z}_2$; two-speed cover |
 | **Hopf extension** | monopole at mass, anti-monopole at twin; fiber length $4\pi\ell\sin\chi$ |
