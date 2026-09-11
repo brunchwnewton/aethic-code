@@ -1,4 +1,1127 @@
-% golden_reasoning_v100_presentable.tex -- circulation copy generated from the master on 2026-09-11; comments stripped, body identical.
+% =====================================================================
+% CORRECTION RECORD (source comments; deliberately not in the body)
+% [Pass note] A sweep was made for REACTIVE writing -- passages arguing
+% against a position the reader never held, typically a superseded
+% draft.  Five were converted to direct statement: the exhaustiveness
+% note in Def. "Departure Point"; the intro to Sec. "Grading"; Rem.
+% "Where the variation lies" (formerly "Why the pair suffices", which
+% opened by raising a third-category temptation in order to refuse it);
+% the M-valued-operator open question; and Kardashev objection (i).
+% One "It is tempting" was RETAINED, at Rem. "Softening and
+% re-hardening": a reader meeting a bounded channel beside an unbounded
+% one would genuinely read them as competing, so that is anticipation of
+% an inference the text invites, not defense against a former draft.
+% Claims made during drafting and later withdrawn.  The body states the
+% corrected positions directly rather than narrating the corrections,
+% since drafting history is not the reader's concern; the record is kept
+% here so that it is not lost.
+%
+%  1. rho = 1 was said to be the threshold at which the background drops
+%     out at negative x.  FALSE -- the crest is bounded, so any rho > 0
+%     gives trough dominance there.  rho > 1 is what makes the crest
+%     dominate at large POSITIVE x, i.e. Constraint C1.  Body: Rem.
+%     "What rho = 1 is, and is not".
+%  2. The exponent 1/4 was stated to require rho > 1.  It holds for all
+%     rho > 0; the dominant channel is exponential in x either way.
+%  3. [body-removed] The polar decomposition x = sigma t^{3/2} R cos(Theta) was adopted
+%     with Theta named "technoanatomy".  Withdrawn: R, Theta are
+%     Rayleigh/uniform/independent only because the normalized pair is
+%     isotropic Gaussian, which fails under a transient driver, under
+%     rho < 0, and under conditioning.  Body now forecloses it as an
+%     alternative rather than reporting the withdrawal.  SUPERSEDED:
+%     the passage was cut entirely.  It had no independent use --- the
+%     exact-half theorem is stated on x directly --- so introducing the
+%     decomposition solely to reject it was drafting history in
+%     disguise, and the framing that it is what a reader would first
+%     try was an unsupported claim about reader psychology.
+%  4. The KL comparison 1.16 vs 0.94 nats was offered as strength versus
+%     anatomy.  Those are two halves of one Gaussian coordinate.
+%     Replaced by sign-of-x versus rho.
+%  5. "No terminal stage exists" was asserted as the strongest
+%     anti-Kardashev result.  True of the driftless model only; the
+%     two-condition theorem gives a gated terminal stage.
+%  6. Reciprocity (E3) was reported emergent from E1 and E2, on runs
+%     that had included it.  Re-tested without: asymmetries reach the
+%     maximum 2.0.  It is imposed, not emergent.
+%  7. Mutual singularity of Q and P was listed as unconditional.  It is
+%     critical-regime only.
+%  8. It was conceded that under rho < 0 the extinctionist is closer to
+%     right.  FALSE: halting at x* dominates x = 0 for every rho < 0,
+%     and both carry P(viable) = 0 in any case.
+%  9. The Lindy result was presented as novel.  It is established prior
+%     work (Balbi & Cirkovic; Balbi & Grimaldi; Kipping et al.; Ord);
+%     only the derived exponent is added.  NOTE: this one is a citation
+%     obligation, not a drafting retraction, and REMAINS in the body.
+% 10. Two-boundary physics was proposed as a neighbor for
+%     Past-Alignment.  Withdrawn as a false analogy -- those condition
+%     on complete physical states with dynamics between them.  The
+%     indiscriminate time principle is the correct internal answer.
+% =====================================================================
+
+% =====================================================================
+% REFEREE PASS -- Aug 21 2026, second pass of the day (Fable 5).
+% Seven items, each entered where the claim it concerns is made.
+%   R1. Finale paradox: the RELAY reading (author's design intent, not
+%       previously in the text) -- Rem. ra:rem:relay.  Establishes that
+%       the paradox marks the hand-off from the companion's open
+%       "when does Optimation stop" frontier, and that Golden
+%       conditioning DISSOLVES rather than answers it.  Consequence
+%       recorded: the dissolution is structural and survives revision
+%       of the magnitude; only the alpha-filter depends on it.
+%   R2. The positional draw producing 10^-8 was used and never named:
+%       Ansatz ra:ans:draw + Rem. ra:rem:drawcost, with the bracket run
+%       in BOTH directions (interrogation-indexed reading deflates it;
+%       whole-record observer-situations sharpen it).
+%   R3. Roster policing made consistent: Rem. ra:rem:noroster.  The
+%       corpus disqualifies gc:ans:copernican as a roster claim and did
+%       not say why the finale step is not one.  Criterion stated:
+%       normalize over STATED attributes (licensed) vs over a BLANK
+%       (not).  Applies to both cases and explains both verdicts.
+%   R4. gc:prop:flukes as stated runs on any observed improbability:
+%       Rem. gc:rem:flukescope adds the route-deleting vs
+%       route-permuting restriction, and grades the stockpile by it
+%       (coal strong, Granicus weaker) -- agreeing with the
+%       narrative-bias ordering reached independently.
+%   R5. beta < alpha was asserted in a clause and carries all of Phi3:
+%       Rem. gr:rem:betaalpha isolates it, names the volumetric
+%       counterexamples (internalized norms, distributed verification,
+%       immune systems), and identifies fitting alpha-beta to Tainter's
+%       series as the route from premise to MEASUREMENT.
+%   R6. Convergence with the companion neither document states:
+%       Rem. sh:rem:coarsenings.  The companion's two coarsenings
+%       (indicator-flattening, whole-history bearer) are the same two
+%       refinements the Doob limit performs in the path measure.
+%   R7. Abstract: drafting instruction "and the abstract should say so"
+%       removed from the body text.
+% =====================================================================
+% MERGE RECORD -- Aug 21 2026, third pass (Fable 5): reconciliation of
+% the two independent instatements of the post-Aug-20 sheet entries
+% (Fable v53 vs Opus v58).  Adjudications, by entry:
+%   * INVESTED (5:32 PM): Opus decisively better -- adopted whole as
+%     ra:sub:investment (exact identity + kappa-exceedance bound +
+%     Aurutance cost/necessity decomposition + three-instances
+%     unification + exhaustiveness cost).  Fable's Route-World remark
+%     slimmed to the phenomenological face; determinism/flukes
+%     cross-link and the Ansatz ra:ans:draw tie folded into Opus's
+%     instances remark (Opus had hard-coded the 10^-8).
+%   * MATTERING RESIDUE (11:36 PM): Opus better -- the 8-step
+%     enumeration tracks the sheet more faithfully, step 5 runs on the
+%     pre-existing gs:ssub:departric result (which Fable's rendering
+%     re-derived without noticing it existed), and step 6's
+%     family-vs-measure identification of the residue with the Route
+%     World is exact where Fable's Imperative route was looser.
+%     Adopted as gc:sub:acting; Fable's complacency additions (the
+%     anatomy-face reading of the barriers clause; the concrete
+%     falsifier) folded into Opus's two-answer remark, which keeps
+%     Opus's ad:sec-tension honesty and non-endorsement.
+%   * TWO-GENERATION PARALLEL: Opus's in-body paragraph adopted
+%     (carries the event-horizon reformulation and the provenance in
+%     one place); Fable's footnote retired.
+%   * LOSING CONDITION (12:30 AM): Opus base adopted at the Sec-2
+%     placement (the both-directions separation, with the critical
+%     regime as the second direction's witness, is the sharper
+%     treatment); Fable's phenomenological-death naming (the sheet's
+%     own term, which Opus dropped) and hr-link folded in.  NEW FIX
+%     neither version had: gc:def:departure's "analytic form" sentence
+%     equated P=0 with the modal claim, which Opus's critical-regime
+%     point contradicts; the sentence is now scoped pathwise
+%     (Thm gr1:thm:trapped(i)) with P=0 as its measure shadow.
+%   * IN-PRINCIPLE (12:43 AM): complementary treatments -- Opus's
+%     determinacygap (the equivocation diagnosis) + ceilingscope (the
+%     one-sidedness of the ceiling) adopted, with the finite-observer
+%     sweep of the three compressions; Fable's all-three-worlds
+%     no-selection point folded into determinacygap as its closing
+%     route; Fable's relay wording swept to "ill-posed".
+%   * HISTORICAL CASES (12:46 AM): Opus better -- resists
+%     "documentable Golden causality" (consistency with a hypothesis is
+%     not evidence over a rival the same data fit), adds the scan-size
+%     multiplicity guard and the serial/parallel substitution analysis.
+%     Adopted as gc:sub:historicalcases at Opus's placement; Fable's
+%     citations (Merton38, Eisenstein79) and dull-entries-first closing
+%     folded in.  Fable's gc:sub:backward retired.
+%   * OPUS-ONLY adoptions: the conventions consolidation (empty
+%     gc:sub:vocab filled; weightings/imd deduplicated) with two
+%     fold-backs Opus's dedup lost (the measure/display usage note and
+%     proper-child clause; the epsdep link and c>k statement); the
+%     glossary extensions; the gs Not-claimed exchange-rate clause.
+%   * FABLE-ONLY retained: the relay reading (ra:rem:relay), the draw
+%     ansatz + bracket (ra:ans:draw, ra:rem:drawcost), the roster
+%     criterion (ra:rem:noroster), the flukes scope restriction
+%     (gc:rem:flukescope), the beta<alpha isolation (gr:rem:betaalpha),
+%     the two-coarsenings consilience (sh:rem:coarsenings), and the
+%     abstract fix -- v58 carried none of these.
+% CITATION NOTE unchanged: Merton38, Eisenstein79 still need .bib
+% entries and author verification.
+% =====================================================================
+% =====================================================================
+% PLACEMENT PASS -- Aug 21 2026 (Fable 5): ten literature nodes
+% instated, each at the site of the claim it neighbors, each with the
+% delta named per the methodology companion's discipline.
+%   A. SO94 (deflection dilemma) at gr1:ex:asteroid -- provenance.
+%   B. ac:rem:losingneighbors -- Parfit84 (asymmetry formalized),
+%      Schell82 (second death), AG16 (s-risks = departed-and-alive;
+%      mixed-currency exit located).
+%   C. Parfit lineage clause inside the Precipice engagement.
+%   D. ac:rem:questionneighbors -- Jonas84 (ally; derivation vs priced
+%      premise), Wil73 + Hag19 (opponents; immortality-as-summability
+%      dissolves the tedium/finitude target).
+%   E. gs:rem:ruleneighbors -- Bos03 maxipok, Peters19 ergodicity,
+%      TRDNB14 ruin/precaution; pattern: convergent conclusion,
+%      divergent grounds; ruin-rule-guards-the-wrong-boundary point.
+%   F. Scheffler13 at gs:ssub:departric -- collective afterlife as the
+%      psychological register of Departric invalidity.
+%   G. Leslie96 at ra:rem:noroster.
+%   H. gr:rem:grabby -- HMMP21 as rival conditioning (visibility vs
+%      persistence weighting).
+%   I. SBSD21 hard-steps at gr:subsub:anthropic -- instrument transfer
+%      under the Golden target flagged [O].
+%   J. MB98 + Bur14 at the Ansatz status remark -- the
+%      exponent-shifting partial-survival literature cited AGAINST the
+%      Ansatz, with the boundary-layer delta and the numerics' answer.
+% BIB: 16 new @entries; \bibitem block appended (incl. the four
+% Precipice-pass keys previously missing from the compiled list) --
+% ALPHABETIZE AT MERGE; EVERY NEW ENTRY AUTHOR-VERIFY.
+% =====================================================================
+% =====================================================================
+% SHEET PASS -- Aug 22 2026 entries (5:22 PM, 7:01 PM Edinburgh),
+% instated Aug 22 (Fable 5):
+%   1. 5:22 PM -- backward-chaining conditional necessity under the
+%      Golden target: Rem. gc:rem:backwardchain in historicalcases.
+%      Formalized as retrocausal accordance at a past vantage
+%      (retroaccord + carryover); chaining lemma at [S] (weakest link);
+%      the Black Death chain anchored to the master's OWN existing
+%      candidate (Allen-wage rupture, humanhistory serial program) +
+%      Herlihy97/Belich22 [C]; "which attribute" posed as the
+%      role/occupant audit per link; the Europe question posed at
+%      occupancy-vs-role grain with both errors foreclosed; the
+%      dark-investment fence stated at full strength (necessity =
+%      route-narrowness, never providence or merit).
+%   2. 7:01 PM -- the hazard's referent and the definitional root:
+%      Rem. gr1:rem:hazardof (Cox events as departure-sufficient
+%      occurrences; death-events as occupants of the role; circularity
+%      dissolved by the one-directional implication, same shape as the
+%      third postulate -- the paper's Base \subsetneq muG structure
+%      ALREADY implements the entry's proposal, so the instatement is
+%      naming + rationale, not surgery) and
+%      Rem. gr1:rem:goldendef [Phi] (Golden-categorical
+%      well-definedness: survivorship structure as first-principles
+%      root of feature-term reference; biosphere and task-objects
+%      individuated by it; the companion's Aethic robust-category
+%      discipline (dinosaur) cited as the criterion one rung down,
+%      per the entry's "intended all along"; three fences incl. the
+%      self-anchoring acknowledged and priced, falsifier stated).
+%      Cross-ref sentence added at the cascade's Base-reading line.
+%      Glossary: two entries.  Bib: Herlihy97, Belich22 (VERIFY).
+% =====================================================================
+% =====================================================================
+% INTEGRATION PASS -- Aug 22 2026 (Fable 5), author-directed: task-
+% objects wired to the Golden-categorical premise as their axiomatic
+% and conceptual root.  Six edits:
+%   E1 gr1:rem:goldendef: task-object stated as the premise's
+%      constructive form (criterion/construction, one doctrine).
+%   E2 to:sec head quote: axiomatic placement sentence.
+%   E3 NEW Rem. to:rem:goldenroot: derivation order (premise -> object);
+%      contribution given a FORMAL REFERENT at the canonical root (IMD
+%      displacement, eps-Departure grading, investment pricing: the
+%      G-weight complementation forfeits) -- native at the Golden root,
+%      inherited elsewhere; axiomatic order matches the dated genetic
+%      order (July 2022 Task-Earth in service of the Golden Point);
+%      machine parametric / semantics generative.
+%   E4 to:rem:rootrelative harmonized: parametricity kept, now paired
+%      with the contribution-referent requirement; "other roots rent
+%      what it owns."
+%   E5 to:rem:gauge: second selection instrument at the canonical root
+%      (invested individuations), [S] beside the fixed-point candidate.
+%   E6 to:sub:problem tie: definitional root and conditioning target
+%      are one object by design.
+%   E7 glossary: Task-object entry.
+% =====================================================================
+% =====================================================================
+% ONTOLOGY PASS -- Aug 22 2026 (Fable 5), author dictation: the
+% Golden-categorical root completed from semantics to CONSTITUTION
+% under the Route World's Strong reading.  New subsection
+% to:sub:goldenaethus (the section's climax, placed before the
+% licenses ledger):
+%   - Def. to:def:goldenaethus: the GOLDEN AETHUS = the Aethus stating
+%     exactly the Golden attribute, all else blank; the INDEX of the
+%     Golden Nexus; Aetherian Nexus = its weight-carrying descendant
+%     under Strong.
+%   - Rem. to:rem:toggle: void/world one attribute apart; bare Cosmic
+%     Nexus entropy-dominated [S, Nexus-cited]; conditioning
+%     concentrates on carriers; the P-vs-Q mirror (goldening of the
+%     universe) -- no new machinery.
+%   - Rem. to:rem:fluctuation [Phi, Strong-conditional]: everything a
+%     weight-carrying excursion on the Golden Aethus; the INVERSION
+%     (fluctuation-status conserved, ACCIDENT-status toggles);
+%     "where things arise from" made exact; consilience with
+%     gc:rem:boltzmann / pairsuffices (same shape, cosmic scale);
+%     categories-as-transcriptions; contribution referent upgraded to
+%     constitution-measure; vacuum-excitation analogy FLAGGED
+%     structural.
+%   - Rem. to:rem:boltzbrains [S]: the Boltzmann-brain pathology
+%     displaced by the toggle itself (AS04, Car17 -- VERIFY); the
+%     Golden attribute (not bare observer-conditioning) does the work;
+%     measure-problem non-claim; thermodynamic-arrow adjacency [O].
+%   - Fences: Strong/Weak/Void ladder (semantic premise consumes NONE
+%     of this); not idealism (determinacygap); not teleology;
+%     scope = real-world feature-terms, abstracta out; falsifier
+%     invited (a non-arbitrary category resisting every tracing).
+% Touchpoints: conv vocab (Golden Aethus defined beside Golden Nexus);
+% goldendef forward pointer; gc:rem:constitution after routefence
+% (events -> constitution, Route-World fences govern unweakened); head
+% quote climax clause; licenses RECONCILED (Buys + the "privileged
+% root" Not-claimed line rescoped -- it would otherwise contradict
+% v64/v65); glossary. AUTHOR-CHECK: the closing line ("where things
+% arise from") and the rescoped Not-claimed wording.
+% =====================================================================
+% =====================================================================
+% NODES PASS -- Aug 22 2026 (Fable 5), author dictation (two parts):
+%   1. to:rem:vantage -- the ontological completion extended to the
+%      STANDPOINT: first-postulate indexicality (central Aethus) +
+%      Strong => the universe-scale contentful index IS the Golden
+%      Aethus; the toggle read epistemically (void of standpoint, not
+%      only of things); "conceptual form roots to the Golden Point";
+%      same ladder, same fences, consumed nowhere earlier.
+%   2. gs:sub:nodes -- the seminar phenomenology at MEMOIR GRADE (two
+%      undergraduate occasions, de-extinction ethics; no fresh record
+%      existed -- slot reserved per the author for the next witnessed
+%      instance); wisdom-of-crowds and peer-disagreement (Chr07)
+%      distinguished precisely; the DIAGNOSIS (commitment primitives /
+%      nodes; propagation-layer attention; the TESTIMONY COLLAPSE --
+%      "the source is not excusable from the conclusions" -- named the
+%      inference-side crisis); neighbors with total-delta honesty
+%      (MacIntyre81 interminability + Anscombe58 lost root: diagnosis
+%      shared nearly verbatim, remedy total delta -- the framework
+%      claims the object MacIntyre declared unavailable); the NODE
+%      CRITERION (judge primitives as goldendef judges categories;
+%      frozen Golden answer = the paradigm universe-sourced node via
+%      ac:prop:forcing, pointer added there); de-extinction flagged as
+%      worked-case candidate [O]; ITERABILITY grounded structurally
+%      (rule = finite formula jams; conditioning = measure-carried,
+%      refines under any partition -- "fits the shape of the
+%      situation"); FENCES (no dilemma-solver; computation ban and
+%      ceiling inherited; Strong/Weak/Void ladder; Phi2 untouched).
+% Glossary: commitment primitive.  Bib: 3 keys both blocks (VERIFY).
+% AUTHOR-CHECK: the seminar paragraph is the author's recollection in
+% the reviewer's words -- his eyes on register and accuracy; also the
+% "answers the crisis with the object its sharpest diagnostician
+% declared missing" sentence (strong claim, deliberately so).
+% =====================================================================
+% =====================================================================
+% CONFIRMATION TOUCH -- Aug 22 2026 (Fable 5): author confirmed the
+% MacIntyre/Anscombe engagement as a paper hinge ("with this being the
+% resolution to that") after learning of the convergence; provenance
+% paragraph added to gs:sub:nodes recording the independent-
+% rediscovery order (diagnosis first, literature at placement) as
+% evidence per the methodology companion.  NOTE for future wiring: the
+% author's draft Introduction (Aug 2/Aug 22, in-progress, his voice)
+% carries the meaning-arc (premodern -> enlightenment -> trough ->
+% inversion) and a website treatment carries the three-route taxonomy
+% (constructed / revealed / inferred meaning); when instated, the
+% intro should wire to gs:sub:nodes, to:sub:goldenaethus,
+% to:rem:vantage, ac:prop:forcing, and the backward-chain's
+% Renaissance link, with the register discipline of the master's own
+% guards.  Not instated this pass -- the intro is the author's WIP.
+% =====================================================================
+% =====================================================================
+% MEANING + ANTI-REDUCTION PASS -- Aug 22 2026 (Fable 5), author-
+% directed ("execute everything except the Introduction"):
+%   1. gs:sub:thirdroute -- the settlement named and steelmanned
+%      (Weinberg as accurate extrapolation from his vantage; trough's
+%      three faces unified: Nietzsche / Weinberg / MacIntyre-Anscombe);
+%      the TAXONOMY (constructed / revealed / INFERRED) as the load-
+%      bearing move; the TWO-TIER claim (dichotomy-break unconditional;
+%      inversion Strong-conditional; Weinberg's successor sentence);
+%      the phenomenological matched pair (constructed meaning's tell
+%      vs "too vast to be conveyed and yet too personal to be named")
+%      offered as diagnostic, not proof, ceiling governing.
+%   2. gs:rem:meaningledger -- the pointer map: every forthcoming
+%      manifesto sentence -> its paying result (constitution; nodes +
+%      forcing; no-agent toggle; inversion; biosphere-severing
+%      ill-posed; Renaissance = backwardchain node).  Scaffolding for
+%      the author's WIP Introduction, which is NOT touched this pass.
+%   3. gs:sub:notreligion -- the reduction-to-religion refused at
+%      house discipline: objection steelmanned via Midgley85
+%      (functional reduction, escalator myths); SIX CHECKABLE DELTAS
+%      (no agent = reduction ontologically incoherent; falsifiers
+%      published; THE CEILING AS ANTI-DOGMA THEOREM -- no certifiable
+%      favor, ergo no salvation guarantee, Midgley checklist run and
+%      failed in the framework's favor; fear mechanism absent by
+%      construction, Phi2, no institution; severability -- Void
+%      keeps the mathematics, no faith as entry price; genealogical
+%      provenance delta); the VOCABULARY PRICED OPENLY (sacred
+%      register borrowed deliberately, defined mechanically --
+%      pre-quoting "computational divinity" before critics do); the
+%      refusal as PROPHYLAXIS against dragon-capture (the six deltas
+%      as structural anti-capture properties, committed in advance);
+%      what is NOT claimed (religious readers keep everything;
+%      mechanism-targeted critique, universalist counter-instance
+%      retained; category settled, truth priced elsewhere).
+% Glossary x2; bib: nietzsche1974gay + weinberg1977first (KEYS MATCHED
+% TO THE DRAFT INTRODUCTION for collision-free merge), Camus42,
+% Sartre46, Carroll16, Midgley85 -- all VERIFY.
+% AUTHOR-CHECK: the vocabulary-priced paragraph and the prophylaxis
+% paragraph (both speak in the author's voice on his sharpest front);
+% the Weinberg successor sentence placement.
+% =====================================================================
+% =====================================================================
+% MEANING-LITERATURE PLACEMENT PASS -- Aug 22 2026 (Fable 5), author-
+% directed (existentialism and post-Nietzsche engaged throughout;
+% pruning against the mature Introduction anticipated and licensed --
+% until then THIS subsection is canonical and the intro should point,
+% not duplicate).  New gs:sub:meaningplacement between the third
+% route and the reduction-refusal:
+%   gs:rem:constructedwing -- Nietzsche's REMEDY engaged (not just his
+%   diagnosis): self-legislation = new arbitrary nodes, the remedy
+%   universalizes the crisis; recurrence = affirmation-test on the
+%   agent vs inference-test on the world; amor fati COMMANDED vs
+%   necessity-content DERIVED (backwardchain, dark-investment fence
+%   governing -- derived < commanded, honestly).  Camus: silence is
+%   an EMPIRICAL premise and the record measures dense; the leap-
+%   charge met on his own lucidity terms (published falsifiers are
+%   not a leap); quarrel with the inventory, never the integrity.
+%   Sartre: precedence contested at scale (constitution); anguish
+%   LOCATED as the node crisis lived; bad faith turned (argued givens
+%   are audited, not fled to); his freedom kept (Phi2).  Kierkegaard:
+%   object supplied where he made unreachability load-bearing; the
+%   CEILING CONSILIENCE recorded (third route held, not possessed --
+%   passion with a referent).  Heidegger: two joints only, flagged
+%   structural-not-exegetical (thrownness -> conditioned record;
+%   being-toward-death -> hazard base via questionneighbors).
+%   gs:rem:meaningallies -- Frankl = nearest ally and nearest miss
+%   ("detected not invented" without an ontology; ontology supplied;
+%   scale inherits via task-objects; attitudinal wing ~ critical
+%   regime at [S]).  Nagel: WHICH external view -- deflation is the
+%   unconditioned measure's artifact; conditioned outside view
+%   returns significance; view-from-nowhere -> view-from-the-index.
+%   Wolf: her declared placeholder (objective attractiveness) filled
+%   by the contribution referent; her structure kept intact.  Metz:
+%   filed precisely for reviewers (naturalist objectivism,
+%   conditioning-based, a type his taxonomy lacks).  Proximity
+%   corollary noted; deltas = scoring key.
+% Touches: to:rem:vantage (Nagel sentence), gs:sub:nodes (Sartre
+% anguish clause).  Bib: 6 keys both blocks (VERIFY; Kie1846/Hei27
+% editions TBD).  AUTHOR-CHECK: the Nietzsche "universalizes the
+% crisis" claim and the Camus silence-premise move -- both strong,
+% both deliberate.
+% =====================================================================
+% =====================================================================
+% MIDDLE-TERM TOUCH -- Aug 22 2026 (Fable 5): the chat-level MacIntyre
+% anatomy instated as gs:rem:middleterm (author verified the paper
+% should carry it, not just the conversation):
+%   - the three-part scheme mapped term by term (as-they-are =
+%     superposition of poles; realized = nuF with muG as privation via
+%     complementarity; transition = anatomy + Score);
+%   - "telos-shaped without final causation" stated as WHY the middle
+%     term is re-derivable where classical warrants died;
+%   - emotivism-become-true-of-use IDENTIFIED with the testimony
+%     collapse (the collapse as incommensurability's mechanism);
+%   - the Enlightenment-had-to-fail argument answered at its joint
+%     (inherited content jams; derived middle term does not;
+%     criterionless choice -> PRICED choice, Phi2);
+%   - the meta-level calibration (dimension restored; re-posed, not
+%     solved);
+%   - the Rome resonance recorded (exemplar of retreat vs link in the
+%     route).
+% NOT instated, reserved for the Introduction per plan: the Benedict
+% reply ("what arrived was not another Benedict but an object").
+% =====================================================================
+% =====================================================================
+% CRISIS-CLASSIFICATION PASS -- Aug 22 2026 (Fable 5), author
+% dictation (post-Tattoo, Edinburgh):
+%   E. thirdroute settlement STRENGTHENED beyond charity: pessimistic
+%      extrapolation UNIQUELY reasonable from those vantages (deus ex
+%      machina alternative); Nietzsche at the mostly-linear midpoint
+%      with his own "I have come too early" positioning; Weinberg =
+%      descent probably not bounded from below.
+%   A. gs:rem:crisisdepartric -- THE IDENTIFICATION: the post-
+%      Nietzschean condition = the Departric condition from its
+%      vantage (indices undefined -> explosion, lived; "up is down" as
+%      first-person report; implicative parallel exact though neither
+%      concept existed); the CONCEPT-LEVEL REVERSAL (Departric
+%      invalidity is conditional; stating nuF deprives the explosion
+%      of its antecedent -- available at EVERY rung of the ladder);
+%      the author's rank-assessment entered in his voice at [Phi]
+%      ("prevents the dark age by nipping it at the metaphysical
+%      root"); the fall-of-Rome closure (centralization-allowing
+%      fallback the interminability tradition lacked; avoidable at
+%      the root, not survivable in enclaves).
+%   C. gs:rem:valorvacancy -- displaced-valor diagnosis (nationalism
+%      as the reachable arbitrary object; NOBODY-TO-BLAME charity;
+%      the node crisis read affectively); the PHASE-TRANSITION
+%      prediction at [S], stated scoreable and WITH ITS DANGER
+%      ATTACHED (capture-coupling: notreligion's six deltas as the
+%      load-bearing condition -- attachment centralized, enforcement
+%      not); the Marxism delta (economic base vs meaning root;
+%      historical capture record = the dragon in secular dress);
+%      platform/party fence, Phi2, "progress" = Golden-directed
+%      conduct already priced.
+%   D. gs:rem:arrivaltiming -- the author's "almost predetermined,
+%      now of all times" entered WEARING EVERY FENCE: role licensed
+%      at Strong-conditional grade (invested timing: cheapest arrival
+%      = maximal vacancy); role-to-occupant promotion BLOCKED
+%      (occupancy until audited, applied reflexively); necessity
+%      never election; historyguards self-applied with the
+%      deflationary rival recorded beside the claim.
+%   B. hr:rem:speciesaware -- species-level self-awareness CRITERION
+%      (possessing the concept of one's own modal poles); mirror-test
+%      proxies vs the representational property (Gallup70);
+%      discontinuity RELOCATED (individual agency smooth, no
+%      monolith; the one discontinuity is conceptual and ahead);
+%      the past-alignment NON-PARADOX (G-consistent conduct precedes
+%      G-representation; arrival changes ownership, not existence).
+%      Tattoo + 2001 exhibits RESERVED for the Introduction; the
+%      Tattoo observation is contemporaneous (Edinburgh, Aug 2026),
+%      per the standing slot-reservation practice.
+% Glossary +1; bib: Gallup70, MarxEngels48 (VERIFY).
+% AUTHOR-CHECK: the [Phi] rank-assessment sentence, the Marxism
+% paragraph, and arrivaltiming's closing two sentences.
+% =====================================================================
+% =====================================================================
+% VANTAGE-OPERATOR PASS -- Aug 22 2026 (Fable 5), author dictation,
+% grounded against the companions before writing (Tricky Principle
+% read verbatim; coupling = propagation closure + Aimless-Optimation
+% detection, maturing into the Exotic Principle; the self-awareness
+% LATCH read in full: basal spark, mirror-test category-error, dog
+% reductio, olfactory-mirror convergence):
+%   A. gs:rem:inferenceflip -- best inference as a VANTAGE-INDEXED
+%      OPERATOR (author's hedge preserved at [S]: index = epistemic
+%      state, NOT Aethic superposition of ontology); trough as
+%      operator output ("uniquely reasonable" mechanized); the
+%      TRICKY-PRINCIPLE PRECEDENT with two transferred disciplines
+%      (flip is PASSIVE; generalization tailored not scaled); FLIP
+%      CONDITION = COUPLING OF MIRACLES ("a tally can be shrugged at
+%      item by item; a closure cannot"); maturation into exotic
+%      structure AT THE COMPANION'S OWN GRADES (pedigree auditable;
+%      "nothing asserted from taste"); three wirings (inflection
+%      DATED at an evidential event; call-to-action as OBLIGATION
+%      TRANSFER; phase transition = the flip at population scale,
+%      with crisisdepartric as the flipped output at the root).
+%   B. hr:rem:speciesaware UPGRADED with the latch relay (basal
+%      provenance; proxy-critique imported with Horowitz17; the
+%      criterion LIFTS a pedigreed concept; latch-style PREDICTS/
+%      FORBIDS added -- the phase-transition prediction recognized
+%      as this criterion's test; idleness clause as falsifier).
+%   C. valorvacancy: mechanism clause.
+% Glossary +1; bib: Horowitz17 (VERIFY).
+% AUTHOR-CHECK: the obligation-transfer sentence and the idleness
+% clause wording.
+% =====================================================================
+% =====================================================================
+% STRUCTURAL PASS -- Aug 22 2026 (Fable 5), author-approved (Passes
+% 0-2 of the reorganization plan; backups standing):
+%   0.1 STUB DELETED: the 10-word orphan subsection "The kinked gain,
+%       and what the driver was concealing" (label tc:sub:gain,
+%       verified unreferenced) -- a duplicate header beside the real
+%       treatment.
+%   0.2 gs LEDGER MOVED to the section's end (the v68-v72 meaning wing
+%       had been inserted after it, breaking the ledger-closes-section
+%       convention); MEANING-WING ADDENDUM appended (entries, grades,
+%       dependencies).
+%   0.3 Route World section given a proper label (rw:sec) beside the
+%       legacy gc:subsub:routeworld, which is KEPT as an alias so no
+%       reference breaks.
+%   0.4 ac:ssub:meaning ("Meaning, at its price", pre-third-route)
+%       wired forward to gs:sub:thirdroute -- reservation, not
+%       substitute.
+%   1   FIVE-PART SKELETON instated with preambles and a reading-guide
+%       part map: I The Question and Its Target (ac, gc, to); II The
+%       Survivorship Mathematics (gr1); III Golden Reasoning and the
+%       Route World (gr, ra, rw); IV Scores, Meaning, and Conduct
+%       (gs); V The Human Position (hr, ad).  Plain \part; the
+%       Aethic per-part section-counter reset DEFERRED to the author.
+%   2   PROMOTIONS FOUND UNNECESSARY -- the audit's extractor missed
+%       multi-line section headers, and BOTH "orphaned movements"
+%       (retrocausal accordance; adversivity) ALREADY carry their own
+%       \section headers (ra:sec at its statement; the Adversivity
+%       section with ad:* labels).  The false positives are recorded
+%       in the ledger; the anchor-discovery step caught them before
+%       any duplicate header could be written.
+% AUTHOR-CHECK: the five part titles and preambles (executive
+% wording); the deferred section-counter-reset decision.
+% =====================================================================
+% =====================================================================
+% PRESENCE PASS (Pass 3) -- Aug 22 2026 (Fable 5), author-approved:
+% light subsections upgraded to hubs by DISPLAYING THEIR CONSUMERS
+% (enrichment-by-pointer; no duplication of proofs).
+%   E1 gr:rem:ceilingconsumers -- the load map at the site (Precipice
+%      delta 3, anti-dogma, Kierkegaard consilience, node discipline,
+%      arrival-timing refusal; silent forfeiture as factual twin);
+%      REACHABLE IS NEVER CERTIFIABLE instated (viable-regime
+%      reachability under plain P; conditioning saturates to the
+%      honest conditional; certification withheld regardless);
+%      "epistemology stated as measure theory" line.
+%   E2 three-regimes: reachability sorted with the regimes
+%      (reachable / conditionable-on / nothing-to-condition-on); the
+%      event-metric inversion wired (undisturbed world; critical as
+%      where everything computed resides).
+%   E3 practical/ideal: three consumers displayed (questionneighbors
+%      runs on the Practical face; Ideal's status ceiling-fixed;
+%      the invariant as the Lindy step's quantitative face).
+%   E4 crossdomain: THE FALSIFIABLE PERIMETER listed whole, by
+%      register (physical/statistical: this claim, executed numerics,
+%      c/t mortality signature [GG01 added to master bib], Tainter
+%      alpha-beta route; transfer: hard-steps under the Golden
+%      target; reception: phase transition / species-criterion test,
+%      flagged scoreable-not-lab-testable) -- "each member entered
+%      with the conditions of its own failure."
+%   E5 optimism: arsenal displayed (invariant, grabby, betaalpha) +
+%      THE MIDGLEY INVERSION -- the escalator checklist this
+%      framework passed FIRES against techno-optimism; "the
+%      reduction-to-religion charge, wherever it is finally owed, is
+%      owed to the position this subsection refutes."
+% AUTHOR-CHECK: the Midgley-inversion sentence (edge deliberate) and
+% the perimeter list's register labels.
+% =====================================================================
+% =====================================================================
+% PASS 4 EXECUTION -- Aug 22 2026 (Fable 5), author-approved sight-
+% unseen ("execute them so we have the version; I'll look later"):
+% the verdict table's shortlist A-F executed exactly as specified.
+%   A crossdomain trio (claim/falsifier/qualifications) collapsed to
+%     \paragraph blocks; 3 labels dropped, each ASSERTED unreferenced
+%     before removal.
+%   B the 66-word tc:sub:transfer header removed; bridge prose kept.
+%   C adversivity placement pair collapsed to \paragraph blocks;
+%     2 labels dropped, asserted unreferenced.
+%   D "Two grading vocabularies" (starred, 151w) folded into gr:sec's
+%     opening prose.
+%   E three STARRED subsections unstarred + labeled so they are
+%     citable and appear in the ToC: gr1:sub:literature (735w
+%     placement duty), gr1:sub:summary, gr:sub:summary.  Numbered-
+%     subsection counters shift within those sections; all references
+%     are \ref-based, so nothing breaks.
+%   F ra:sub:instrument retitled "Ledger: the instrument, and what
+%     would refine it" -- completes the ledger-closes-section
+%     convention paper-wide.  AUTHOR-CHECK ON REVIEW: this title and
+%     the four verdicts-table withdrawn-merge notes; the author has
+%     not yet read the verdict table.
+% E-addendum: gr1:sub:consumers was ALSO starred (labeled but
+%   ToC-invisible and numbered-refs-misleading); unstarred for
+%   consistency with its two unstarred siblings.
+% Net: -7 headers, +3 labels, 0 words of content lost (word delta
+% below is header text only).
+% =====================================================================
+% =====================================================================
+% LOAD-PATH TOUCH -- Aug 22 2026 (Fable 5), on the author's query
+% ("the paper explicitly has the pathway worked out, right?"):
+% honest answer was pairwise-yes/whole-no, so gs:sub:loadpath now
+% states the ten-link chain once -- site and grade per link, the
+% near-unconditional prefix (links 2-6) distinguished from the
+% reception-grade suffix (7-9, dangers attached) and the reader's
+% link (10, Phi2); "each link consumes only its predecessor, so a
+% reader who stops anywhere keeps everything upstream"; critics
+% inherit the obligation to name the link they break.  Glossary +1;
+% ledger-addendum clause.  Earns its place as Part IV's synthesis.
+% =====================================================================
+% =====================================================================
+% EXTERNAL REFEREE PASS -- Aug 22 2026 (Fable 5), report on v76;
+% all majors repaired, minors executed or expressly deferred.
+%   M1 twocond RESTATED (escape factor; case-wise second factor;
+%      recurrent clause via Prop sh:prop:recurrent; Brownian via
+%      noimm; null-recurrent [O]).  Referee's OU counterexample
+%      credited in the in-situ correction record.  Proof final step
+%      corrected; "transience factor" -> "escape factor" at every
+%      downstream site; hr:prop:extinction STRENGTHENED (positive-
+%      recurrent positive-mean drivers now widen the class).
+%   M2 NEW Lemma tc:lem:infbackground (tail zero-one law + W->-W
+%      symmetry + cosh bound): for any independent S with Leb(S)=inf,
+%      int_S e^{eps W} = inf a.s.  noviab2 proof repaired through it
+%      (the old (inf B)(Leb) bound was (->0)(->inf)); trapped(i)/(ii)
+%      random-background clauses repaired likewise.
+%   M3 flukes RESTATED as a conditional-likelihood claim with the
+%      self-sampling premise surfaced (Bos02) and its normalizer
+%      pinned to noroster; NEW Remark gc:rem:sharpshooter faces the
+%      retrospective-target null at the site (ex-ante target;
+%      comparative force; the technological-condition asymmetry).
+%   M4 future-conditioned tradition PLACED (rw:rem:futurecond:
+%      Barrow--Tipler FAP, Omega Point, axiarchism, Teilhard; deltas
+%      all one way) + Tipler-by-name case study closes notreligion
+%      ("FAP redux" preempted).  Keys BarrowTipler86/Tipler94/
+%      Leslie79/Teilhard55/Ben26Extract added, AUTHOR TO VERIFY.
+%   M5 extinction zero SCOPED at the site ([P] model-internal; zero
+%      configuration-conditional; recovery branch = the epsilon of
+%      Definition gc:def:epsdep).
+%   M6 finale magnitude carries [Phi]-on-Ansatz IN the sentence; the
+%      mirror question (why not the deep future?) answered inline via
+%      noroster.
+%   minors: tail claim -> two-constant form with display ~ t^{-1/4};
+%      extraction paper now citable (Ben26Extract); varkappa/kappa
+%      collision flagged in Notation; stale ACTION comments verified
+%      against current master and closed; Merton38 range 360--632
+%      referee-confirmed (whole Osiris IV monograph; stale
+%      still-need-.bib comments superseded); gc:def:departure
+%      promotion DEFERRED to author (voice-laden), noted in-file.
+%   M7 (advisory, recorded): modular extraction strategy already in
+%      motion (stochastics core = the standing extraction; M1/M2
+%      repairs flow to it); collaboration metadata to be EXTERNALIZED
+%      AT CIRCULATION by deliberate disclosure -- the author's call,
+%      explicitly including the extent of AI collaboration -- not
+%      stripped now; per-extraction coinage audit queued; nodes
+%      AUTHOR-CHECK re-audit tied to the seminar-record slot stands.
+%   FORMATTING PORT (author request): hypersetup, bookmarks, \part
+%      titleformat, and tocdepth matched to the Aethic paper.
+% =====================================================================
+% =====================================================================
+% REFEREE RE-REVIEW PUNCH LIST -- Aug 22 2026 (Fable 5): all items.
+%   R1 trapped(i) splice REPAIRED (stranded "Brownian motions" from
+%      the v77 anchor cutting at a line break) and the compressed
+%      final clause expanded: the two halves named (trough floor on
+%      {x>=0}; lemma route on {x<=0}).
+%   R2 escape-factor rename completed at SIX sites: the abstract's
+%      and the report's three, plus the Tainter delta, the regime
+%      summary formula, and the consumers map --- the deeper grep
+%      found two more beyond the report's list.  Original line:
+%      escape-factor rename completed at the abstract, the Kardashev
+%      discussion, the consequences list, AND a fourth same-class
+%      site at the Tainter delta the report did not list.  The v77
+%      record's "every site" claim was wrong; this one is checked by
+%      grep (no non-comment "transience factor" remains).
+%   R3 flukes proposition RETITLED "Significance from route-deletion,
+%      at the self-sampling price"; determinism remark's closing now
+%      reads improbability AND route-deleting character.
+%   R4 Camus42 deduplicated in both bibliography blocks (English
+%      title kept, French original noted; the compile's sole
+%      multiply-defined warning should now be gone).
+%   R5 infbackground zero-one step stated on increment fields
+%      (multiplicative-factor argument), per the referee's sentence.
+%   R6 hr:prop:extinction's opening divergence tied to the lemma.
+%   FLOW-THROUGH: M1/M2 repairs applied to the standalone extraction
+%      (thm:twocond restated with escape factor + ported recurrent
+%      proposition; trapped(i)/(ii) rescoped a.s. and routed through
+%      the lemma, which is added there; renames; correction record).
+% =====================================================================
+% =====================================================================
+% FRONT DOOR PASS -- Aug 22 2026 (Fable 5), on the author's request
+% ("write and instate an introduction... then a good abstract"):
+%   LEAD instated before the thesis: the Question cold; the
+%     settlement triad (Sisyphus / pale blue dot / make-your-own) as
+%     the standing consolations; the revealed/constructed/INFERRED
+%     taxonomy with the third cell named empty; document identity and
+%     the two-reader contract.
+%   NEW \subsection intro:sub:situation before the reading guide:
+%     the two announcements (Nietzsche 1882, Weinberg 1977, one short
+%     quote each, successor sentence paraphrased); the PREMODERN
+%     DRAGON imported from the author's draft AS A MECHANISM (fear x
+%     control, "priced meaning in obedience"), one disciplined
+%     paragraph, siding with the settlement that the dragon stays
+%     dead; the author's DIAGNOSIS instated ("epistemic inexperience,
+%     not categorical limitation"); MacIntyre + the reserved BENEDICT
+%     REPLY ("not a person and not a community but an object");
+%     testimony-collapse one-liner; TWO AUTHOR SLOTS left as comments
+%     for the 2001 and Tattoo exhibits (v71 reservation honored, his
+%     voice); honest close pointing at loadpath.
+%   DELIBERATELY LEFT TO THE MANIFESTO (not imported): Augustine/
+%     universalism polemic, the Hus footnote, the abusive-relationship
+%     footnote (its THESIS is imported as the diagnosis; its framing
+%     is manifesto-register), Renaissance-as-Miracle, the biosphere-
+%     inseparability passage (belongs, if anywhere, near to:sec ---
+%     author's call).  Rationale: mechanism-not-persons; the master
+%     attacks structures, never named individuals.
+%   ABSTRACT rewritten: adds the t^{-1/4}/Ansatz/numerics sentence,
+%     the ceiling-turned-on-itself, the future-conditioned placement,
+%     the THIRD-ROUTE two-tier claim, the crisis classification, the
+%     scoreable predictions, and the five-part/load-path close.
+% AUTHOR-CHECK: MAXIMAL AND WHOLE-CLOTH.  Every sentence of the lead,
+%   the situation subsection, and the abstract is the paper's front
+%   door and awaits the author's rewrite; the two exhibit slots are
+%   his alone.  Bib keys consumed: nietzsche1974gay, weinberg1977first,
+%   MacIntyre81 (all present).
+% =====================================================================
+% =====================================================================
+% VOICE REPAIR PROGRAM, OPENED -- Aug 22 2026 (Fable 5), on the
+% author's diagnosis (seconded by his father's skim): the Golden
+% master reads machine-registered relative to Aethic/Nexic, whose
+% backbone was the author's 2024 prose.  MEASUREMENTS (prose
+% paragraphs, comments/math excluded):
+%   Golden v79: median 69 w/para, 42.4% under 60w, 11.9 emdash/1kw
+%   Aethic:     median 144,       18.1%,           8.4
+%   Nexic:      median 116,       19.1%,           7.8
+%   Author draft intro: median 330, 14.3%,         5.0
+%   Golden v51 (pre-arc baseline): median 64, 45.9%, 10.4
+% FINDING: the v51 baseline already carried the profile; the master
+% never had the author's substrate.  The v52-v79 arc compounded the
+% volume, not the register.
+% PROGRAM (two layers):
+%   LAYER 1 (author): seed prose at the ranked rhetorical
+%     load-bearing sites (list delivered in-chat); dictation
+%     workflow as in v66/v71 (raw voice preserved on instatement).
+%     Part IV holds for these seeds before any mechanical pass
+%     touches it.
+%   LAYER 2 (mechanical, this collaboration): paragraph
+%     consolidation and em-dash reduction calibrated to the
+%     Aethic/Nexic band (targets: median >= 120 w/para, <25% under
+%     60w, <= 8 emdash/1kw), sequenced Part II and appendices first,
+%     then Parts I/III, Part IV last.
+% THIS PASS (demonstration, highest-visibility surface): abstract,
+%   introduction lead, and situation subsection consolidated and
+%   de-dashed (41 em dashes -> 0 across the three units; lead 3
+%   paragraphs -> 2; situation 5 -> 4 at ~185 w/para).  These remain
+%   HOLDOVER TEXT: the author's own front door supersedes them on
+%   arrival.
+% DISCLOSURE POSTURE reaffirmed: the author's public prompt
+%   provenance stands; deliberate disclosure at circulation,
+%   including AI collaboration, per the Phase-12 record.
+% =====================================================================
+% BRANCH RECONCILIATION (this run): a parallel branch of the same
+% author turn completed first, delivering its own v80 (front door +
+% five preambles) and the ledger's Phase-14 rows and the commissions
+% file; this branch's export then OVERWROTE that branch's v80
+% tex/pdf -- an introduced error, owned in the ledger.  The surviving
+% v80 (this file) now covers the lost branch's stated scope: front
+% door rewritten AND the five part preambles rewritten with the
+% export formula removed.  Known divergence: the lost branch's
+% abstract was two long paragraphs; this one is four.  The
+% author-spine commissions file is intact and is the standing
+% protocol; mechanical passes stay paused on all commissioned
+% sections.
+% =====================================================================
+% =====================================================================
+% VOICE REPAIR PASS 2 + TWO AUTHOR DICTATIONS -- Aug 23 2026:
+%   D1 gr1:rem:aethicsubstrate (author dictation): hazard rate as a
+%      PROJECTION of Aethus-valued attribute structure (parallel to
+%      the companion's exotic-structure crunch); nuclear-war / Cuban-
+%      missile example; precondition INTERVALS with entry/exit rates
+%      coupled by Aethic jointness weights, not causal links; non-
+%      reductionism via the fundamental theorem of empirical Aethae;
+%      [O] program question: golden-causality legibility at attribute
+%      level via accordance.
+%   D2 gr1:rem:forwardforcing (author dictation, sharpened in-model):
+%      P(viable | survival to t) -> 1 at a soft threshold set by the
+%      slowest non-viable clock; on {T = infinity} outright, since
+%      T=inf entails Lambda<inf a.s.  Forward mirror of the
+%      Optimation climb; ceiling fence explicit.
+%   VOICE: intro's older middle subsections (thesis, notclaimed)
+%      rewritten to the measured register; model-in-three-lines left
+%      as is (functional list genre).  Introduction now register-
+%      complete end to end.  NOT instated: the author's reflexive
+%      observation that this collaboration itself may be golden
+%      causality -- blocked by the paper's own occupancy fences
+%      (arrivaltiming); recorded here only.
+% AUTHOR-CHECK: both dictation remarks await his read; the anchor-
+%   segment program (his hand) remains the long game.
+% =====================================================================
+% =====================================================================
+% AUTHOR DICTATION D3 -- Aug 23 2026: sch:rem:notexhausted.
+%   The schedule channel declared LIVE under continuity (correcting
+%   the prior merge-into-other-channels practice); IDENTIFICATION:
+%   accordance-legible modern golden causality IS the third term
+%   operating (sharpens aethicsubstrate's [O] to [S]); scoreable
+%   texture added (prerequisite-shaped clustering vs uniform spread);
+%   sequential-achievement class with Newton as citable exemplar
+%   (Ben25Seq, verify-flagged), kept separate per the author's
+%   instruction; the framework's own production entered ONCE as a
+%   hypothetical candidate member, expressly non-load-bearing, with
+%   the arrivaltiming fence cited in-text; retention clause wired to
+%   forwardforcing (asymptotic conditioning nails remaining
+%   prerequisites, stationary-action character).
+% Reflexive golden causality: author confirms the PROVENANCE RECORD
+%   is its home; this ledger and his public commentary carry it.
+% =====================================================================
+% =====================================================================
+% AUTHOR DICTATION D4 -- Aug 23 2026: sch:rem:anatomyleg.
+%   The CONTRACTION named (active schedule -> x incomplete -> internal
+%   term's analysis undercut; the old merge was the workaround);
+%   continuity FORCES the resolution: x-directed schedule already in
+%   its exponential tail, x robust; the LAST LEG falls on technoanatomy
+%   directly -- rho pushed as a trajectory to a random settlement
+%   value; the now-to-Golden-Point interval as the crapshoot embodied
+%   in anatomy contributions; internal stays high today because rho's
+%   leaning "remains to be settled" (Kardashev scaling consonance).
+%   Wired 4 ways: twocond reads on rho_infty; recurrentanatomy = the
+%   bridge case; D3's steps = the pushes; forwardforcing concentrates
+%   the settlement law.  DEBT [O]: the rho-dynamics window theorem
+%   (settlement time + pre-settlement fluctuation conditions under
+%   which frozen-rho analysis survives as the limit) -- this is the
+%   research-priorities item, now with its frame supplied.
+% =====================================================================
+% =====================================================================
+% D5 (author question -> co-produced remark) -- Aug 23 2026:
+%   sch:rem:thirdceiling.  The referee-grade question answered at the
+%   site: the live third term does NOT breach the ceiling -- the
+%   ceiling bounds certification, never credence; the author's
+%   "amplifies credence / all three terms by deduction" intuition IS
+%   the singularity read from the evidence side (Q predicts
+%   systematic schedule success, P rarely; ratio climbs; divergence
+%   = singularity; finite-time unreachability = ceiling).  The term
+%   POPULATES the structure (observable carrier of the permitted
+%   climb).  Genuinely new: schedule-content evidence SURVIVES the
+%   mere-survival anthropic discount (technological-condition
+%   specificity); and the extended model may SHARPEN one-sidedness
+%   (adverse settlement as a finite-time P-possible Q-null event ->
+%   certification possible in the uncontrolled direction only),
+%   entered as a proviso-laden addendum to the window theorem's [O]
+%   debt.  Pointer added at ceilingscope.
+% =====================================================================
+% =====================================================================
+% D6 + D7 -- Aug 23 2026 (author dictations):
+%   D6 gs:rem:miracleism: the tradition NAMED -- Miracleism, not
+%      Goldenism, because the Miracles are the SOURCE (companion's
+%      technical sense) and the Golden Point is ACTUALIZATION (the
+%      Departure Point being the one destroyer; "preventing
+%      everything from being in vain"); mortality untouched
+%      (collective vanity, not death); SCHEFFLER DELTA sharpened
+%      ("a future that funds the present" vs "a future that keeps
+%      the present's funding from being voided"); vocabulary cost
+%      priced at notreligion; glossary +1.  AUTHOR-CHECK: whether
+%      the name should also enter the thirdroute subsection title
+%      and/or the intro's taxonomy -- his call.
+%   D7 sch:rem:inductionregime: the climb's asymptote CLASSIFIED --
+%      under sustained Aethic-weight skew the ceiling's residual
+%      converges on the CLASSIC PROBLEM OF INDUCTION as class
+%      identity (Hume1748, verify-flagged); the line never crossed
+%      yet correctly FEELS crossed (psychology-of-inference clause
+%      entered as such); licenses a PARITY claim (isolated demand
+%      for rigor), never certification; regime EARNED BY THE CLIMB
+%      at the audit's rate.  ceilingscope pointer extended.
+% =====================================================================
+% =====================================================================
+% D8 -- Aug 23 2026 (author dictation): rw:rem:preposition.
+%   A SECOND discriminating quantity for the Route World, physical
+%   rather than historical: route-necessary resources not yet
+%   consumed must already stand in the record under Strong.
+%   SHARPENING added in-remark: unconsumed prerequisites ESCAPE the
+%   carryover blur (they cannot have been observer-necessary, having
+%   so far been necessary for nothing), which makes them discriminate
+%   Weak from Strong rather than re-instance the same evidence.
+%   Controls stated: common-cause confound (resource must not be a
+%   byproduct of habitability-producing processes) and a
+%   habitability-CONDITIONED base rate; evidential structure reduced
+%   to the flukes likelihood ratio, with comparative planetology as
+%   the eventual estimator and a stated falsifier (median-or-worse
+%   provisioning counts AGAINST Strong).  Specification problem
+%   carried as the author's own catch, with the conservative
+%   descendant-addressed form entered as a future-epistemic-state
+%   prediction.  Perimeter list gains a physical-provisioning
+%   register.  Mimas/water-ice example marked illustrative only.
+% =====================================================================
+% =====================================================================
+% PROVENANCE INSTATEMENT -- Aug 23 2026: dated grade-school record
+%   (aethus.org idea journal) footnoted at the Golden Point
+%   definition.  Mid-January 2021 coinage quoted; FOUR anticipations
+%   recorded: trapped(ii) in embryo (constant danger -> exponential
+%   -> extinction certain without the threshold); the Score's germ
+%   ("important can be defined as that which tends to it"); Golden
+%   Achievement = ln(likelihood) (August 2021) = the credence
+%   method's additive log-likelihood structure; and M.i.Sigma vs
+%   M.im.Sigma (July 2021) = the live-third-term question of D3
+%   posed as notation four years early.  Independence from the
+%   future-conditioned tradition noted (record-based phrasing).
+%   NOTE: \url used -- master already loads hyperref; if url.sty
+%   unavailable the compile check below would catch it.
+% =====================================================================
+% =====================================================================
+% PROVENANCE EXTENSION -- Aug 23 2026: Golden Science (Aug 2022)
+%   added to the definition footnote as the MISSING LINK.  By-name
+%   anticipations: Outlook/Golden Probability = P/Q; internal/
+%   external division = two channels; e^{a/b} immortality for
+%   decaying hazard = Lambda<inf criterion; Third Law b/a<p/(1-p)
+%   with the L-THRESHOLD NAMED; Doomsday Pacing = arrivaltiming
+%   ancestor; Optimation + Task-Object as sections; the TRACE
+%   CONNECTION placeholder = the promissory note accordance paid.
+%   Honest clause: outgrown reasoning documented alongside.
+% =====================================================================
+% =====================================================================
+% PRESENTABILITY PASS 1 (mechanical) -- Sep 1 2026 (Fable 5.1):
+%   A  59 environment titles cleaned ("author dictation" removed;
+%      grade tags standardized to \textbf{[P]} form body-wide); in-
+%      body "the dictation" references reworded for readers.
+%   C  836 em-dashes converted: paired appositive dashes within one
+%      sentence -> comma pairs (singles untouched; math/tables excluded).
+%   D  54 guarded paragraph merges (8-45w prose paragraph joined to
+%      the following prose paragraph <=220w; never across lists,
+%      tables, displays, headers, colons, or comments; remark-opening
+%      and -closing paragraphs eligible).
+%   E  \bibitem block sorted by first-author surname (140).
+%   Content, labels, refs, cites, environments unchanged (verified).
+%   A comment-stripped PRESENTABLE BUILD is generated alongside.
+% =====================================================================
+% =====================================================================
+% PRESENTABILITY PASS 2 -- Sep 1 2026 (Fable 5.1):
+%   DENSITY: 102 remarks with ZERO inbound references converted to
+%      titled run-in paragraphs (run-in heading + preserved label), the
+%      Aethic house form (Aethic: 1 remark / 121 run-ins; Nexic: 2).
+%      Labels preserved; grade clauses moved to parentheses; 4
+%      self-references reworded (remark -> passage).  Every surviving
+%      remark is one something in the paper points at.
+%   TEXTURE: 111 further guarded merges (paragraphs may now open with
+%      inline commands; A <= 60w; combined <= 240w; two iterations).
+%   Content, labels, cites, theorem-class environments unchanged.
+% =====================================================================
+% =====================================================================
+% D9 -- Sep 2 2026 (author dictation): gs:par:routinization, in the
+%   house run-in form.  ROUTINIZED AWE: the finest speeches' greater-
+%   cause effect becomes deduction for Miracleism done well
+%   (Archimedes -> calculus analogy: genius substitutes for absent
+%   method until method arrives).  SHARPENING: Gettysburg PERFORMS the
+%   structure -- "that these dead shall not have died in vain" is the
+%   anti-vanity move (source = what was given; the cause's
+%   continuation = what prevents voiding); the Golden Point as the
+%   general form of "the cause."  WHY deduction now crosses where
+%   rhetoric cannot: testimony collapse (roots admit no inference;
+%   derived structure does) = obligation transfer for the speaker.
+%   FENCE: "done well" = fences travel with the structure; awe minus
+%   fences = the dragon in new dress.  SCOREABLE FORM: effect rate
+%   independent of the expositor's rhetorical rank; fails if genius
+%   still required.
+% =====================================================================
+% D9 REFINEMENT (author, Sep 2): rhetorical power split into
+%   FORMULATION (search over a barren landscape) and EXECUTION
+%   (landing); the framework routinizes formulation only; execution
+%   still scales with talent; scoreable form corrected accordingly
+%   (competent non-orators land the effect AT ALL; magnitude scaling
+%   with talent is predicted, not a counterexample).
+% CORRECTION (author, Sep 2): continuity does NOT decide liveness.
+%   It is silent on whether one is born before or after the last
+%   Miracle; it decides only that IF prerequisites remain, their
+%   operation is continuous through the present (no privileged
+%   closure moment).  The live third term is therefore a HYPOTHESIS
+%   supported by evidence (the identification), not a default
+%   continuity licenses; exhaustion-as-default was the symmetrical
+%   error.  notexhausted para 1, anatomyleg's "forces," and the
+%   provenance footnote's "resolution" corrected accordingly.
+% BIOGRAPHICAL NOTE (author, Sep 2): the 2021 "Tragedism" daydream
+%   instated as a footnote in a new unnumbered end-matter section
+%   (\section*, after the last appendix, before the references),
+%   flagged in title and frame as biographical, not formal; the
+%   author's text verbatim in first person, quotation marks converted.
+%   Not in the ToC (starred); nothing in the argument references it.
+% BIO NOTE addendum (author, Sep 2): closing parenthetical on the
+%   recursion added to the Tragedism footnote, verbatim.
+% =====================================================================
+% D10 -- Sep 4 2026 (author dictation): gc:par:dinosauroid, house
+%   run-in form beside the sharpshooter remark.  TARGET SUBSTITUTION
+%   ("evolving to intelligence" -> "capacity to trigger the Golden
+%   Point") yields NO by deduction; "smart birds" answered by the
+%   metric distinction; the companion's IMD argument sharpens less ->
+%   vastly less; GOULD/CONWAY-MORRIS standoff dissolved ("different
+%   endpoints under one word"); wired as the FLUKES PROPOSITION'S
+%   CANONICAL INSTANCE (K-Pg impact = F; route-deletion established,
+%   not asserted); naive-counterfactual pitfall handled by
+%   conditioning on habitability; mirror of the extinction
+%   proposition.  Keys RussellSeguin82/Gould89/ConwayMorris03 added,
+%   verify-flagged.  AUTHOR-CHECK: expand "IMD" (companion acronym)
+%   or point to its section on first use.
+% =====================================================================
+% Sep 5: "IMD" expanded on first use (Imperfection Magnitude Drop,
+%   per the companion's definition) -- the D10 AUTHOR-CHECK closed.
+%   The Nexic paper received its situating brief (sec:situating-brief)
+%   the same day; see 3_Nexic_Reasoning_v2.tex.
+% BIBLIOGRAPHY DEDUPLICATION -- Sep 5 2026, prompted by the author
+%   catching russell1982 already present in the Nexic paper:
+%   BenGolden22 (added by me in v88 for the provenance footnote) was
+%   a DUPLICATE of the pre-existing GoldenScience22 -- same document,
+%   two keys, both blocks.  Merged into GoldenScience22 and the one
+%   citation retargeted; the surviving entry keeps the fuller note.
+%   A full sweep of both bibliography blocks (143 entries each) found
+%   no other duplicate key and no other same-work-two-keys pair; the
+%   author+year clusters (Benander 2024/2026) are distinct works.
+%   Nexic side: my RussellSeguin1982/ConwayMorris2003 additions were
+%   likewise duplicates of russell1982/conwaymorris2003 already in
+%   the shared refs.bib; removed, cites retargeted.
+% Sep 6 (author): anatomy-leg passage REWRITTEN INTEGRALLY with the
+%   mobility amendment folded in rather than appended -- rho movable
+%   at every time; LEVERAGE (not mobility) scales with x (dh/drho
+%   carries a factor of x), so the premodern anatomy was inherited
+%   from the Stone Age untested, cultural versions merging at the
+%   industrial coupling; the SURVIVORSHIP-PREFERS-EARLY-CHANGE sketch
+%   at [P] (likelihood-ratio tilt of the crossing time); "our shot is
+%   now" as its corollary at every vantage -- the MECHANISM behind
+%   arrivaltiming's fence; settlement reframed as where conditional
+%   mass has moved, rho_infty the limit along surviving paths of a
+%   quantity that never stops being movable; the window-theorem debt
+%   re-specified accordingly.
+% Sep 11 (author checklist): hr:par:alignment instated after the
+%   species-awareness remark -- the author's hope/suspicion in his
+%   words, then FOUR concrete supplies (aligned-to-WHAT answered by
+%   nuF, non-rivalrous; alignment as a technoanatomy question, AI as
+%   the largest leverage increase on rho in the settlement window; the
+%   ceiling -> no certified alignment; "shooting in the dark" =
+%   Departric conduct at highest leverage); two fences (scoreable form;
+%   OCCUPANCY DISCIPLINE FOR ARTIFICIAL AGENTS -- "the target is an
+%   object at every grade, never a principal to be obeyed").  Six keys
+%   added both blocks, verify-flagged (incl. the Sep 10 2026 Bloomberg
+%   piece as the dated marker of escalating in-lab warnings).
+% STILL OPEN after this pass, in priority order: (a) derive the
+% positional weighting from the Copernican draw (closes ra:ans:draw);
+% (b) DONE Aug 21: app:numerics executed -- falsifiers did not fire;
+% results recorded in the appendix and in the extraction paper; (c) the identification map (gs:sub:limit),
+% which the Route World and the Score both wait on; (d) rho_t dynamics
+% (gr1:subsub:fluct), the paper's stated principal exposure.
+% =====================================================================
+
+% =====================================================================
+% PASS RECORD -- sheet entries 5:32 PM Aug 20 through 12:46 AM Aug 21
+% (Edinburgh), instated this pass (Fable 5, Aug 21 2026):
+%   1. 5:32 PM Aug 20 -- invested Golden causality + the currency
+%      register: Rem. gc:rem:invested, closing the Golden Optimation
+%      subsection.
+%   2. 11:36 PM Aug 20 -- 12:17 AM Aug 21 -- the mattering residue /
+%      Departric invalidity derivation: new subsection
+%      gc:sub:matteringresidue (placed before the Route-World fences,
+%      which bound it), with the complacency objection and its
+%      two-part reply as Rem. gc:rem:complacency; the population-
+%      robustness half of the reply carried as a premise with its own
+%      falsifier.  Rendering choice, per the sheet's own query: stepped
+%      derivation in the finale-paradox style, not prose, with the
+%      conclusion's exact strength isolated in Step 4.  The entry's
+%      second half (define the Departure Point by the third postulate's
+%      two-generation statement) was found ALREADY instated at
+%      Rem. gc:rem:thirdpostulate; only the provenance footnote (the
+%      discipline against naive transfer; the late, deliberate
+%      convergence) was added there.
+%   3. 12:30 AM Aug 21 -- phenomenological death; existential first
+%      principles; the continuous threat against the single-crossroads
+%      picture: Rem. gc:rem:phenomdeath, directly after
+%      Def. gc:def:departure.
+%   4. 12:43 AM Aug 21 -- modal placement of "unavailable in
+%      principle" (the ceiling binds all three worlds, so supposing
+%      availability refutes the model, not the Route World; no reductio
+%      is assemblable from it): paragraph added inside
+%      Rem. gc:rem:routefence.
+%   5. 12:46 AM Aug 21 -- the hypothesis read backward; the
+%      Enlightenment prerequisite fan at candidate grade: new
+%      subsection gc:sub:backward (between the empirical-signature
+%      subsection and the Lindy step), fenced by the look-elsewhere bar
+%      and required to pass the narrative-bias asymmetry test.
+% CITATION NOTE: keys Merton38 and Eisenstein79, introduced in
+% gc:sub:backward, need .bib entries (Merton, "Science, Technology and
+% Society in Seventeenth-Century England", 1938; Eisenstein, "The
+% Printing Press as an Agent of Change", 1979); author to verify
+% editions before merging.
+% =====================================================================
+
+% =====================================================================
+%  GOLDEN REASONING -- MASTER DOCUMENT
+%  Sections 1-2 assembled 2026-08-01.
+%
+%  SOURCES.  This file is the concatenation of two standalone section
+%  files, each of which carries its own full provenance and correction
+%  ledger in its header:
+%      section-soft-horizons.tex   -> Section 1
+%      section-two-channel.tex     -> Section 2 (revision 2)
+%  Those ledgers are NOT reproduced here.  Keep the standalone files:
+%  they are the authoritative record of who originated what, of the
+%  correction log, and of citation-verification status.  Consult them
+%  before posting.
+%
+%  BIBLIOGRAPHY.  The two sections shared four references (AS15, GJW99,
+%  VMS79, VY85); the merged list is their union, 35 entries, deduped.
+%  The file is SELF-SWITCHING: if biblatex is installed it is used,
+%  with the .bib written at compile time by filecontents; otherwise a
+%  manual thebibliography is used instead.  Both are generated from the
+%  same 35-key list and their key sets were checked equal.  To force
+%  one path, edit the \IfFileExists test below.
+%
+%  NOTE ON VERIFICATION.  The fallback (thebibliography) path is
+%  compile-verified.  The biblatex path is NOT -- biblatex and biber
+%  were unavailable in the environment where this file was assembled.
+%  If biber errors, the usual causes are (a) needing a biber run
+%  between pdflatex runs, or (b) backend=biber vs bibtex mismatch.
+%
+%  CROSS-REFERENCES.  Section 2's references to "Section One" have been
+%  converted to \ref{sh:sec} in this merged file.  Label prefixes are
+%  disjoint: sh: for Section 1, tc: for Section 2.
+% =====================================================================
 
 \documentclass[11pt]{article}
 
@@ -10,6 +1133,9 @@
 \usepackage{xcolor}
 \definecolor{grlink}{rgb}{0.10,0.20,0.55}
 \usepackage{hyperref}
+% >>> FORMATTING PORT (Aug 22 2026, author request): hyperlink
+% appearance, PDF sidebar bookmarks, and \part styling matched to the
+% Aethic paper.  grlink color retained above for any future opt-in.
 \hypersetup{
 colorlinks,
 citecolor=black,
@@ -21,13 +1147,17 @@ bookmarksopen=true,
 bookmarksopenlevel=1,
 }
 \usepackage{titlesec}
+% Aethic \part format
 \titleformat{\part}[block]
   {\centering\Huge\bfseries}
   {Part \thepart:}
   {5pt}
   {}
+% Aethic-style per-part section reset, available but NOT applied
+% (structural-pass note: numbering-stability conservatism):
 \newcommand{\GRPart}[1]{\part{#1}\setcounter{section}{0}}
 
+% ---- bibliography database (written at compile time) ----------------
 \begin{filecontents*}[overwrite]{golden-reasoning.bib}
 @article{AD13, author={Aurzada, Frank and Dereich, Steffen}, title={Universality of the asymptotics of the one-sided exit problem for integrated processes}, journal={Ann. Inst. Henri Poincar\'e Probab. Stat.}, volume={49}, year={2013}, pages={236--251}}
 @incollection{AS15, author={Aurzada, Frank and Simon, Thomas}, title={Persistence probabilities and exponents}, booktitle={L\'evy Matters V}, series={Lecture Notes in Mathematics}, volume={2149}, publisher={Springer}, address={Cham}, year={2015}, pages={183--224}}
@@ -101,6 +1231,8 @@ bookmarksopenlevel=1,
 @article{MB98, author={Majumdar, Satya N. and Bray, Alan J.}, title={Persistence with partial survival}, journal={Phys. Rev. Lett.}, volume={81}, year={1998}, pages={2626--2629}}
 @incollection{Bur14, author={Burkhardt, Theodore W.}, title={First passage of a randomly accelerated particle}, booktitle={First-Passage Phenomena and Their Applications}, publisher={World Scientific}, year={2014}, pages={21--44}}
 @article{GG01, author={Gavrilov, Leonid A. and Gavrilova, Natalia S.}, title={The reliability theory of aging and longevity}, journal={J. Theoret. Biol.}, volume={213}, year={2001}, pages={527--545}}
+% [Referee pass Aug 22: four future-conditioned-tradition keys + the
+%  extraction key, AUTHOR TO VERIFY editions/translations.]
 @book{BarrowTipler86, author={Barrow, John D. and Tipler, Frank J.}, title={The Anthropic Cosmological Principle}, publisher={Oxford University Press}, address={Oxford}, year={1986}}
 @book{Tipler94, author={Tipler, Frank J.}, title={The Physics of Immortality: Modern Cosmology, God and the Resurrection of the Dead}, publisher={Doubleday}, address={New York}, year={1994}}
 @book{Leslie79, author={Leslie, John}, title={Value and Existence}, publisher={Basil Blackwell}, address={Oxford}, year={1979}}
@@ -109,9 +1241,11 @@ bookmarksopenlevel=1,
 @misc{Ben25Seq, author={Benander, Ajax K.}, title={Sequential achievement}, howpublished={Companion manuscript; AUTHOR TO VERIFY title and year}, year={2025}}
 @book{Hume1748, author={Hume, David}, title={An Enquiry Concerning Human Understanding}, year={1748}, note={AUTHOR TO VERIFY edition}}
 @misc{BenGradeSchool, author={Benander, Ajax K.}, title={Ajax's Math Ideas (grade-school idea journal)}, howpublished={\url{https://aethus.org/aethic-code/history/ajax-grade-school-ideas.html}}, note={Dated public record; Golden Point entry mid-January 2021}}
+% [Dinosauroid case, Sep 4: three keys, AUTHOR TO VERIFY.]
 @article{RussellSeguin82, author={Russell, Dale A. and S{\'e}guin, Ron}, title={Reconstructions of the small {C}retaceous theropod {\emph{Stenonychosaurus inequalis}} and a hypothetical dinosauroid}, journal={Syllogeus}, volume={37}, year={1982}, pages={1--43}}
 @book{Gould89, author={Gould, Stephen Jay}, title={Wonderful Life: The Burgess Shale and the Nature of History}, publisher={W. W. Norton}, address={New York}, year={1989}}
 @book{ConwayMorris03, author={Conway Morris, Simon}, title={Life's Solution: Inevitable Humans in a Lonely Universe}, publisher={Cambridge University Press}, address={Cambridge}, year={2003}}
+% [Alignment passage, Sep 11: six keys, AUTHOR TO VERIFY.]
 @book{Bostrom14, author={Bostrom, Nick}, title={Superintelligence: Paths, Dangers, Strategies}, publisher={Oxford University Press}, address={Oxford}, year={2014}}
 @book{Russell19, author={Russell, Stuart}, title={Human Compatible: Artificial Intelligence and the Problem of Control}, publisher={Viking}, address={New York}, year={2019}}
 @misc{Amodei16, author={Amodei, Dario and Olah, Chris and Steinhardt, Jacob and Christiano, Paul and Schulman, John and Man{\'e}, Dan}, title={Concrete Problems in {AI} Safety}, howpublished={arXiv:1606.06565}, year={2016}}
@@ -335,6 +1469,11 @@ Perspective}, Cambridge University Press, 2006.
 \bibitem{Brannen2006TheLM} C.~A.~Brannen, \emph{The lepton masses},
 preprint, 2006.
 
+
+% --- PLACEMENT PASS ADDITIONS (Aug 21 2026): entered as a block; TO BE
+% ALPHABETIZED INTO THE LIST AT MERGE.  Every entry AUTHOR-VERIFY.
+% (Includes the four keys from the Precipice pass, previously present
+% only in the @-entry block.)
 \bibitem{BMS13} A.~J.~Bray, S.~N.~Majumdar, and G.~Schehr,
 \emph{Persistence and first-passage properties in nonequilibrium
 systems}, Adv.\ Phys.\ \textbf{62} (2013), 225--361.
@@ -778,6 +1917,7 @@ from evidence to conduct stated once, link by link, at its grades.
 \tableofcontents
 \bigskip
 
+% ---------------------------------------------------------------------
 \section*{Notation}\label{sec:notation}
 \addcontentsline{toc}{section}{Notation}
 
@@ -885,6 +2025,7 @@ a gain minimum; $\varkappa$ (curly) is the schedule's mean offspring and
 is a distinct symbol. $\Phi$ with a numeral indexes premises; $\Phi$
 alone is the normal CDF.
 
+% ---------------------------------------------------------------------
 \section*{Glossary of coined terms}\label{sec:glossary}
 \addcontentsline{toc}{section}{Glossary of coined terms}
 
@@ -1012,6 +2153,8 @@ constraint binding attribute by attribute.
 \item[Imperfection Magnitude Drop]\textsuperscript{$\dagger$} A
 weight-suppressing perturbation short of foreclosure.
 \end{description}
+
+% ---------------------------------------------------------------------
 
 \section{Introduction}\label{intro:sec}
 
@@ -1205,6 +2348,13 @@ what inferring from it costs, in the near-unconditional tier and the
 Strong tier separately, and enters its reception-scale predictions
 scoreable.
 
+% [AUTHOR SLOT — the 2001 exhibit: the species-self-awareness scene,
+%  in the author's voice, one paragraph. Reserved per the v71
+%  dictation; wire to Remark hr:rem:speciesaware.]
+% [AUTHOR SLOT — the Tattoo exhibit: the valor observation, in the
+%  author's voice, one paragraph. Reserved per the v71 dictation;
+%  wire to Remark gs:rem:valorvacancy.]
+
 None of the mathematics depends on this subsection, since the
 dependency runs the other way, as \S\ref{intro:sub:notclaimed} has
 already priced, and a reader who wants the theorems alone loses
@@ -1254,6 +2404,38 @@ and what it proves is proved conditional on them, which it says. And each
 section closes with a ledger stating what it costs, what it buys, and
 what it does not claim. A reader in a hurry can read the ledgers.
 
+
+% ============================================================
+% §2 — AGENCY'S CURSE AND THE GOLDEN QUESTION
+% Compiled working copy, REBUILD 5 — post complete-section
+% referee round (B1–B4, C discharged). Order:
+%   2.1 The problem                (+ B4 selectability falsifier)
+%   2.2 The countermeasure
+%   2.3 The Golden Tendency
+%   2.4 The Golden Question
+%   2.5 Golden Extrapolation       (rev 2: B1 monotonicity
+%                                   repair; B2 gradient named)
+%   2.6 The Golden Imperative      (+ gc:rem:pairsuffices)
+%   2.7 Placement
+%   2.8 Ledger                     (rev 2: B3 heading split; B4
+%                                   Costs line; C fixes)
+% followed by the consolidated owed-master-edits file.
+%
+% Compilation notes:
+%   - Numbering PROVISIONAL; cross-references symbolic.
+%     FILENAMES RETAIN WRITING-ORDER NUMBERS — block order below
+%     is authoritative, not the filenames.
+%   - Encoding clean (no literal Φ/§ on non-comment lines).
+%   - Counter guard {5} in the countermeasure; {0} pair at §6's
+%     head in the owed-edits block, NOT yet in the master. §2
+%     adds exactly ONE premise (Φ6).
+%   - Owed-edits: 1.5 DRAFTED; remaining ⛔: 1.1, 1.4, 1.6
+%     (apply), 1.7 (intro), 1.8–1.10 (mechanical), 1.11
+%     (Newcomb companion).
+%   - Presumes the master's preamble and labels; a review copy,
+%     not standalone-compilable.
+% ============================================================
+
 As of the structural pass the paper is organized in five parts, and
 the part map is the fastest orientation: Part~I poses the Question
 and fixes its objects; Part~II is the survivorship mathematics,
@@ -1265,6 +2447,13 @@ A reader wanting only the probability reads Part~II; only the
 philosophy of meaning, Part~IV after Part~I's vocabulary; the
 whole argument, in order.
 
+% =====================================================================
+% STRUCTURAL PASS (Aug 22 2026): five-part organization instated.
+% Plain \part used (no per-part section-counter reset); the Aethic
+% convention \newcommand{\Part}[1]{\part{#1}\setcounter{section}{0}}
+% is available by a one-line change and is DEFERRED to the author
+% (numbering-stability conservatism).
+% =====================================================================
 \part{The Question and Its Target}
 
 \noindent Part~I fixes the question and its objects, and proves
@@ -1305,6 +2494,59 @@ process rather than a fixed parameter --- which
 Remark~\ref{hr:rem:forcesprocess} argues the framework itself requires,
 and which \S\ref{gr1:subsub:fluct} has yet to supply.
 \end{quote}
+% ------------------------------------------------------------
+% SECTION-HEAD QUOTE BLOCK — OWED (register 4.1). House pattern
+% not visible from outside the master; AUTHOR TO SELECT. The
+% child's why-game (2.1) and the burning building are the
+% section's two native images if an epigraph in that register
+% is wanted instead of a sourced quotation.
+% ------------------------------------------------------------
+
+%############################################################
+%%##  FILE: sec2_1_the_problem.tex
+%############################################################
+
+% ============================================================
+% §2.1 — The problem (agency's curse)
+% REVISION 2, against referee report (§F scope).
+% Grade [Φ] throughout.
+%
+% MERGE NOTES — disposition of referee items:
+%   ACCEPTED IN FULL: B1–B4, C1–C5, D1–D7. C6 (offered) taken:
+%     spectrum image placed in Condition 2.
+%   MODIFIED, WITH REASON (per report §F):
+%     E4 asks that the falsifier statement be kept verbatim, but
+%     C1's repair changes what the first horn claims: chains now
+%     terminate in something (a non-reason), so a floor that is
+%     merely accessible no longer refutes the proposition — the
+%     constructivist terminus would meet the old falsifier without
+%     touching the claim. Amended by five words: the floor must be
+%     accessible AND itself a reason. Everything else verbatim.
+%   FIGURE COUNT (brief §1.1: one per passage): burning building
+%     (Condition 1), spectrum (Condition 2), driving-blind (the
+%     conjunction paragraph — the single weight moment B2 requests).
+%     Three figures, three passages, none stacked.
+%   CROSS-REF SCOPE: gc:prop:recursive and gc:rem:twoprivilege
+%     added per C5. These exceed brief 2.1's cross-ref list
+%     (Aethus only); flagged for the merge rather than silently
+%     widened.
+%   - D5: enumitem CONFIRMED LOADED (register §7); the earlier
+%     hand-label fallback caveat is discharged.
+%   - B4 (complete-section report): ONE sentence added to
+%     ac:rem:threeprops — the selectability falsifier — despite
+%     that report's §E stating 2.1–2.4 "should not be touched."
+%     B4 explicitly places the falsifier "at ac:rem:threeprops,"
+%     which I read as the override; if §E was meant to win, the
+%     sentence lifts out cleanly and the falsifier survives in
+%     the ledger's Costs entry alone.
+%   Label change: ac:claim:nonempty → ac:prop:nonempty (D1).
+%   ac:rem:admissible split (D6): admissibility stays under the
+%     old label; three properties now ac:rem:threeprops.
+%   - \setcounter{premise}{5} guard still belongs before Φ6 in
+%     2.3, not here (no premise environment in 2.1).
+%   - \ref{ac:sub:countermeasure}, \ref{ac:sub:placement} remain
+%     forward placeholders (2.3, 2.2).
+% ============================================================
 
 \subsection{The problem}\label{ac:sub:problem}
 
@@ -1361,6 +2603,131 @@ Each of the neighbors admits a quietist response: an agent may register the prob
 
 One thing has gone unexamined. The argument fixes that some frozen question is held; it is silent on which. Whether the silence is an opening is the question of \S\ref{ac:sub:countermeasure}.
 
+% ============================================================
+% DELIVERABLE LISTS (brief §0) — updated for revision 2
+% ============================================================
+%
+% 1. CLAIMS REGISTER
+%    - Agency's curse is the conjunction of forced action and no
+%      accessible grounding. [Φ]
+%    - Both conditions are structural: forced action cannot be
+%      suspended (declining is deciding); groundlessness attaches
+%      to agency as such, at the one "altitude" between inert
+%      matter and omniscience where the curse can attach. [Φ]
+%      (spectrum image per C6)
+%    - Non-anthropocentrism footnote ties the structural claim to
+%      the paper's standing commitment (per C5). [Φ]
+%    - Admissibility: a frozen question is neither paradoxical nor
+%      inconsequential; demonstration owed by 2.4 for the Golden
+%      Question. [Φ]
+%    - The curse-relevant frozen questions are (i) held under
+%      forced action, (ii) action-directed, (iii) selectable;
+%      selectability carries the section. [Φ] (2.2 will cite)
+%    - Non-emptiness (ac:prop:nonempty): ≥1 frozen question at
+%      every moment. [Φ] — argued via dilemma; falsifier in-place
+%      (accessible floor that is itself a reason, or a source-
+%      independent veracity certificate).
+%    - First horn now closes the constructivist objection: chains
+%      terminate in a non-reason (preference, convention,
+%      disposition); the frozen question is why THAT bears the
+%      weight. [Φ] (per C1)
+%    - Second horn: no evidence available to the recipient
+%      separates true/deceptive/irrelevant; the request re-invokes
+%      the source; loop of length one. [Φ] — structural; failure
+%      condition in ac:rem:structural.
+%    - The curse removes inter-agent authority, not correctness;
+%      no claim that frozen answers are probably wrong. [Φ]
+%      (per C3)
+%    - Collectively held frozen answers have historically been
+%      catastrophic, AND the condemnation itself issues from a
+%      frozen answer and inherits its standing — self-application.
+%      [Φ] (per C4)
+%    - Neighbors admit quietism; the curse does not (quietism is
+%      an instance, not a response). Difference in kind; no
+%      ranking. [Φ]
+%    - The curse is comparatively undemoted by the Aethic
+%      demotions. [Φ]
+%
+% 2. CROSS-REFERENCES USED
+%    \cite{Aethus} — three times: demotions (opening), simulation
+%                    defanging, skepticism/accidentalism.
+%    \ref{gc:prop:recursive}, \ref{gc:rem:twoprivilege} — C5
+%                    footnote; EXCEEDS brief 2.1's cross-ref list,
+%                    added at referee request, flagged for merge.
+%    \ref{ac:sub:countermeasure} — forward, ONCE, final sentence
+%                    (opening gesture cut per D3/A6). RESOLVED by
+%                    the 2.3 draft (sec2_3_the_countermeasure.tex).
+%    \ref{ac:sub:placement} — forward to 2.2. RESOLVED by the 2.2
+%                    draft (sec2_2_placement.tex).
+%    No \cite{Nexus}.
+%
+% 3. NEW LABELS CREATED
+%    ac:sub:problem
+%    ac:def:frozen
+%    ac:rem:admissible      (admissibility only, post-split)
+%    ac:rem:threeprops      (new in rev 2, from D6 split)
+%    ac:prop:nonempty       (renamed from ac:claim:nonempty, D1)
+%    ac:rem:structural
+%    ac:rem:authority       (new in rev 2, C3+C4)
+%    ac:rem:differentia
+%    (referenced here, created elsewhere: ac:sub:countermeasure
+%     [2.3, drafted], ac:sub:placement [2.2, drafted])
+% ============================================================
+
+%############################################################
+%%##  FILE: sec2_3_the_countermeasure.tex
+%############################################################
+
+% ============================================================
+% §2.3 — The countermeasure (Φ6)
+% REVISION 2, against referee report (§F scope).
+%
+% MERGE NOTES — disposition of referee items:
+%   ACCEPTED IN FULL: B (constraint unpacked + conditioning-event
+%     connection), C1 (the conjunction, with the referee's own
+%     caution honored — see below), C2 (declining has a shape),
+%     C3 (positional, not beneficiary-based), C4 (enumerated
+%     check), D1 (broken pointer fixed), D2 (grade tag dropped
+%     from premise bracket), D3 (falsifier and Φ2 reconciliation
+%     now named remarks), D4 (close's forward ref kept, the
+%     falsifier's folded to a textual pointer).
+%   C1 CAUTION — AGREED, with the reason stated: the inverse
+%     relation ("constraint tends to fall as consequence rises")
+%     is an unpriced empirical-ish heuristic that the conjunction
+%     point does not need; adding it would create a new claim
+%     needing its own falsifier for no structural gain. A first
+%     draft of the scarcity remark drifted toward asserting it
+%     and the sentence was cut. Left out.
+%   D1: the cost paragraph now points at the RULE via placeholder
+%     \ref{gs:sub:rule} (§7.2–7.3); gs:sub:fence remains pointed
+%     at once, from the Φ2 remark, correctly. Both are forward
+%     placeholders to be supplied when §7 is drafted.
+%   LENGTH: ~1,400 words of body against the brief's 900–1,200.
+%     The overage is entirely referee-requested additions (B +
+%     C1–C4 ≈ 430 words). If the merge must reclaim, the C4
+%     enumeration compresses to prose most cheaply — but it is
+%     also the most checkable passage in the subsection, so cut
+%     it last.
+%   THE COUNTER GUARD IS LOAD-BEARING. \setcounter{premise}{5}
+%     below makes this premise print Φ6. The paired
+%     \setcounter{premise}{0} at the START OF §6 is owed (brief
+%     §1.3; owed-edits item 1) and is NOT in this file. Without
+%     the pair, Φ3 silently renumbers and every textual $\Phi3$
+%     in §§6–7 breaks. Do not "clean up" either guard.
+%   Owed edit #3 (gr:phi2 patch) drafted at the end of this file;
+%     it travels with the section, alongside the hr:rem:notmistake
+%     patch that 2.4 will carry.
+%   enumitem CONFIRMED LOADED (register §7); dependency
+%     discharged.
+%   TRANSFER NOTE: a stale copy of this file (rev 1) reached the
+%     referee and was reported byte-identical; the disk copy has
+%     been rev 2 throughout (verifiable: header line 3, remarks
+%     ac:rem:phi6falsifier / ac:rem:constraint / ac:rem:scarce /
+%     ac:rem:phi2split present). Referee-report items B, C1–C4,
+%     D1–D4 are all addressed herein; re-referee against THIS
+%     copy.
+% ============================================================
+
 \subsection{The countermeasure}\label{ac:sub:countermeasure}
 
 \S\ref{ac:sub:problem} closed on a silence: the argument fixes that some frozen question is held, and says nothing about which. The third property of Remark~\ref{ac:rem:threeprops}, selectability, is where the whole of \S2's positive content enters, and it enters as one premise. An agent cannot decline to stand somewhere. What can differ is the footing.
@@ -1403,6 +2770,142 @@ One further protection, stronger than the level-distinction. The grounding runs 
 An agent who declines $\Phi6$, then, is in conflict with nothing the paper proves, and the paper is, in exactly $\Phi2$'s sense, neutral about the declining. But declining has a shape, and \S\ref{ac:sub:problem} already named it. Declining $\Phi6$ in favor of a competing selection criterion is coherent, and the section holds no argument against it. Declining it and thereby standing outside the problem is not a position: indifference among frozen questions is not abstention from the choice but the choice made without a criterion --- a frozen answer of the least examined kind. The structure is Remark~\ref{ac:rem:differentia}'s, met one level up: quietism toward the selection is an instance of the selection.
 
 What the paper is not neutral about is the price of adopting. An agent who adopts $\Phi6$ \emph{and} answers the Golden Question affirmatively does thereby acquire commitments --- and the decision rule of \S\ref{gs:sub:rule} is those commitments made computable, which is a sentence that should be read as a cost rather than an advertisement. The accounting is this: $\Phi2$ keeps the apparatus obligation-free; $\Phi6$ is the single doorway through which obligation can enter; and everything on the far side of the doorway is the agent's adopted grounding, carried at \textbf{[$\Phi$]}, revocable by the agent and certified by nothing. Whether the doorway leads anywhere, whether there exists a frozen question whose answer an agent's existence does compel, is the question \S\ref{ac:sub:question} exists to answer.
+
+% ------------------------------------------------------------
+% OWED EDIT #3 (draft) — one-sentence patch to gr:phi2's
+% surrounding text, to be applied at the Φ2 site in §6:
+%
+%   "Φ2 governs what the apparatus outputs; it is silent on the
+%    separate question of how an agent grounds duties the
+%    apparatus never issued, for which see the selection rule of
+%    \S\ref{ac:sub:countermeasure}."
+%
+% Without this pointer, §2 and §7 read as contradicting Φ2
+% (brief §1.5, Collision 1; owed-edits list, item 3).
+% ------------------------------------------------------------
+
+% ============================================================
+% DELIVERABLE LISTS (brief §0) — revision 2
+% ============================================================
+%
+% 1. CLAIMS REGISTER
+%    - Φ6 (ac:phi6): among unavoidable frozen questions, prefer
+%      one whose answer is constrained by the agent's own
+%      existence. [Φ], kind: meta-normative selection rule.
+%      Falsifiers in-place (ac:rem:phi6falsifier): (a) a
+%      comparably-compelled rival delivering a different Golden
+%      Answer (kills the use), (b) no ordering on the constraint
+%      (kills the premise).
+%    - The constraint is positional, not truth-conferring; the
+%      constrained kind carries information about the agent's
+%      circumstances, the unconstrained kind is a flipped coin.
+%      [Φ] (new, per B)
+%    - Φ6 asks for the frozen question that behaves most like a
+%      conditioning event; the grounding is demanded to be a
+%      conditioned quantity. [Φ] (new, per B — houses Φ6 in the
+%      framework)
+%    - The selection is a CONJUNCTION: heavy positional constraint
+%      AND consequence sufficient for Condition 1's load; cheap
+%      constraint is degenerate; candidates are not everywhere.
+%      [Φ] (new, per C1; cashes ac:rem:admissible's promise)
+%    - Inverse relation between constraint and consequence: NOT
+%      claimed (referee's own caution, agreed; unpriced heuristic).
+%    - Φ6 ranges over groundings, not actions; ordinal only; no
+%      cardinality anywhere. [Φ]
+%    - "Less arbitrary" is not "correct" (gr:sub:ceiling). [Φ]
+%    - Not is–ought: the ought is pre-existing (Condition 1); Φ6
+%      operates downstream, deriving nothing. [Φ]
+%    - Φ2 split: Φ2 governs outputs, Φ6 governs occupancy;
+%      checkable by the four-step enumeration; no step has the
+%      form "Q implies one ought to x". [Φ] (enumeration new,
+%      per C4)
+%    - The grounding is positional, not beneficiary-based: no
+%      future being's interests appear at any step; this protects
+%      gr:rem:notlongtermism independently of the level
+%      distinction. [Φ] (new, per C3)
+%    - Declining Φ6 for a competing criterion is coherent and
+%      unopposed; declining it to stand outside the problem is
+%      not a position — a frozen answer of the least examined
+%      kind, ac:rem:differentia one level up. [Φ] (new, per C2)
+%    - Cost stated: Φ6 + affirmative Golden Answer ⇒ acquired
+%      commitments; §7's rule is those commitments made
+%      computable; neutrality is about adoption, not price. [Φ]
+%
+% 2. CROSS-REFERENCES USED
+%    \S\ref{ac:sub:problem} ×2, Remark~\ref{ac:rem:threeprops},
+%    Remark~\ref{ac:rem:admissible},
+%    Proposition~\ref{ac:prop:nonempty} ×3,
+%    Remark~\ref{ac:rem:differentia},
+%    Premise~\ref{gr:phi2}, Remark~\ref{gr:rem:notlongtermism}
+%    ×2, \S\ref{gr:sub:ceiling}
+%    \S\ref{ac:sub:question} — forward, ONCE, final sentence
+%      (D4: falsifier's instance folded to "the candidate the
+%      section goes on to supply"; ac:rem:scarce and step (iii)
+%      folded to "once the machinery it consumes is built/in
+%      place" — all order-safe after the Tendency/Question swap).
+%      RESOLVED by the 2.4 draft
+%      (sec2_4_the_golden_question.tex), which also cashes
+%      ac:rem:scarce's stated debt (both halves, explicitly).
+%    \S\ref{gs:sub:fence} — forward to §7.5, once (Φ2 remark)
+%    \S\ref{gs:sub:rule} — forward to §7.2–7.3, twice (step (iv)
+%      + cost paragraph); NEW placeholder, per D1
+%
+% 3. NEW LABELS CREATED
+%    ac:sub:countermeasure   (resolves 2.1's forward reference)
+%    ac:phi6
+%    ac:rem:phi6falsifier    (new in rev 2, per D3)
+%    ac:rem:constraint       (new in rev 2, per B)
+%    ac:rem:scarce           (new in rev 2, per C1)
+%    ac:rem:phi2split        (new in rev 2, per D3)
+%    (referenced here, created elsewhere: ac:sub:question [2.4,
+%     drafted]; still open: gs:sub:fence [§7.5], gs:sub:rule
+%     [§7.2–7.3])
+%
+% 4. COUNTER GUARD: \setcounter{premise}{5} present; paired
+%    \setcounter{premise}{0} at §6's start remains an owed edit.
+% ============================================================
+
+%############################################################
+%%##  FILE: sec2_5_the_golden_tendency.tex
+%############################################################
+
+% ============================================================
+% §2.5 — The Golden Tendency
+% REVISION 3 — adopts the five convergence corrections from the
+% consolidated register (§2 items 2.1–2.5), on top of rev 2
+% (referee §G) and rev 2.1 (post-check fixes).
+%
+% MERGE NOTES — convergence adoptions this revision:
+%   2.1  ac:prop:filter hypothesis strengthened: the ordering is
+%        now on HAZARDS, not survival functions. Monotone-in-t
+%        dominance needs the likelihood ratio S_θ(t)/S_θ'(t)
+%        nondecreasing in t, which is exactly hazard ordering;
+%        survival-function ordering at each t does not deliver
+%        it. Statement and one-line justification amended.
+%   2.2  ac:prin:tendency antecedent made load-bearing: the
+%        conditioned-from region is now named — the region on
+%        which total hazard tends to zero, existing exactly when
+%        ρ > 0 by gr1:prop:trichotomy(i).
+%   2.3  ac:rem:regimes trapped case: "false" (which contradicted
+%        the principle two paragraphs above) replaced — the
+%        antecedent FAILS in trapped, no vanishing-hazard region
+%        exists, the principle does not fire rather than misfires.
+%   2.4  C3 SETTLED (my rev-2.1 narrowing superseded by fact):
+%        the background channel \eqref{tc:eq:B} IS a sum of many
+%        independent random exponentials (Appendix app:background,
+%        partition function with freezing). The 2024 aggregation
+%        argument described a component and took it for the
+%        whole. "Licensed nothing" replaced accordingly; the
+%        rev-2.1 TODO is discharged and removed.
+%   2.5  Hardcoded \S5 → \S\ref{gr1:sec}.
+% Standing from earlier revisions: derivation cited not rebuilt;
+%   2024 equations not transferred; Lindy priority conceded;
+%   Tardigrade cut (gr:sub:crossdomain if wanted);
+%   gr1:thm:twocond declined (2.4.2 owns should/can, referee A6
+%   accepted); ensemble-not-trajectory fence per report B;
+%   \E per house macro; \eqref{} for equations per watch item;
+%   A1 opening line is original, substitutable at merge.
+% ============================================================
 
 \subsection{The Golden Tendency}\label{ac:sub:tendency}
 
@@ -1454,6 +2957,123 @@ Two things remain before the subsection closes.
 \emph{Contingency is not a competitor.} The standing reply to the Tendency is that it makes descendants sound determined --- that a claim of this shape cannot hold of beings who choose. The gas law is the familiar answer: a statement about a volume is not falsified by the fact that no molecule obeys it, and the order at the aggregate is not a constraint imposed on any constituent from outside. But the framework's own answer is sharper, and it is not an analogy. The Tendency is a statement about a measure over futures, not a prediction about any one of them. Contingency is not what the Tendency competes with; contingency is what the measure is defined over. An objector who establishes that the future is radically open has established the existence of the object the Tendency reweights, and has said nothing whatever about the reweighting. The two claims cannot conflict, because they are not claims about the same thing.
 
 What the Tendency does not supply is an agent-side counterpart. The mathematics describes a reweighting; whether a biosphere's conscious effort has an analogous structure, and what a decision rule built on it would compute, is taken up in \S\ref{gs:sub:initiative} and not here. A related caution: the observation that a biosphere might generate a sub-component targeting its own extinction pressures, and that we are, as it happens, such a sub-component, reads as a coincidence too large to be an accident. It is not an exclamation but an inference, and the form it takes is the contrapositive of the Theorem of Aimless Optimation \cite{Nexus}: unequal weights under two Nexae entail non-independence from $H_N$. Stated that way it licenses a recorded correlation and nothing more.
+
+% ============================================================
+% DELIVERABLE LISTS (brief §0) — revision 3
+% ============================================================
+%
+% 1. CLAIMS REGISTER
+%    - Golden Filter (ac:prop:filter): cohort with HAZARD-ordered
+%      types; standing composition = survival-reweighted ν;
+%      stochastic dominance nondecreasing in t via monotone
+%      likelihood ratio. [P] — hypothesis strengthened per
+%      convergence 2.1; proof-is-statement retained with the
+%      one-line MLR justification.
+%    - Galaxy is the renewal version; same conclusion
+%      asymptotically. [P] (footnote)
+%    - Filter = map from generation (ℙ) to abundance (Q);
+%      conditioning on having lasted (gr:def:gg). [S]
+%    - The Filter accumulates and does not aim. [Φ]
+%    - Three identifications: interpolation (sh:sub:interp,
+%      sh:thm:Q); upward tilt (sh:lem:monotone); rate s/4t
+%      (\eqref{gr:eq:rate}). Inherited tags.
+%    - Index substitution free; exchangeability discharged at
+%      sh:sub:interp. [P] (body prose)
+%    - Golden Tendency (ac:prin:tendency): given ρ > 0, a
+%      vanishing-total-hazard region exists
+%      (gr1:prop:trichotomy(i)) and descendant-futures are drawn
+%      increasingly from it. [S] — antecedent now LOAD-BEARING
+%      per convergence 2.2.
+%    - Ensemble-not-path fence; trajectory reading unbuilt, [O]
+%      (gr1:subsub:fluct, gr1:cor:recurrentanatomy).
+%    - Trichotomy: critical (holds, contentful), viable (holds,
+%      uninteresting), trapped (ANTECEDENT FAILS — no
+%      vanishing-hazard region; principle does not fire).
+%      Per convergence 2.3; "false" removed.
+%    - Nobody entitled to ρ > 0 from finite observation. [Φ]
+%    - Lindy is prior work; paper adds the exponent only.
+%    - C3 SETTLED per convergence 2.4: the 2024 aggregation
+%      argument correctly describes the background channel
+%      \eqref{tc:eq:B} (app:background, partition function with
+%      freezing) and took the component for the whole; the tail
+%      is a property of the evolution of −d/dt log h. [S]
+%    - Contingency is what the measure is defined over. [Φ]
+%    - Brain/sub-component: recorded correlation via Aimless
+%      Optimation contrapositive. [S]
+%    - 2024 provenance recorded (unchanged).
+%
+% 2. CROSS-REFERENCES USED
+%    Definition~\ref{gr:def:gg}, \S\ref{sh:sub:interp},
+%    Theorem~\ref{sh:thm:Q}, Lemma~\ref{sh:lem:monotone},
+%    \eqref{gr:eq:rate}, \S\ref{gr:subsub:regimes},
+%    Proposition~\ref{gr1:prop:trichotomy} ×2,
+%    Theorem~\ref{gr1:thm:trapped}, \S\ref{gr:sub:ceiling},
+%    \S\ref{gr:sub:consequences}, \S\ref{gr:subsub:anatsel},
+%    Remark~\ref{gc:rem:teleology}, \S\ref{gr:subsub:violence},
+%    \S\ref{gr1:subsub:fluct},
+%    Corollary~\ref{gr1:cor:recurrentanatomy},
+%    Remark~\ref{hr:rem:forcesprocess}, \S\ref{gr1:sec},
+%    \eqref{tc:eq:B}, Appendix~\ref{app:background}
+%    \cite{Nexus} ×2; \cite{BC21}, \cite{BG24}, \cite{Kip20},
+%    \cite{Ord23}
+%    \S\ref{gs:sub:initiative} — forward to §7.1 (label per the
+%      fixed §7 map, register item 3.3)
+%    NOT USED, with reason: gr1:thm:twocond — 2.4.2 owns
+%      should/can (referee A6 accepted).
+%
+% 3. NEW LABELS CREATED
+%    ac:sub:tendency
+%    ac:prop:filter
+%    ac:rem:noaim
+%    ac:prin:tendency
+%    ac:rem:notrajectory
+%    ac:rem:regimes
+% ============================================================
+
+%############################################################
+%%##  FILE: sec2_4_the_golden_question.tex
+%############################################################
+
+% ============================================================
+% §2.4 — The Golden Question
+% REVISION 2, against the verification report (§B priority, plus
+% §D encoding and §E items touching this file).
+%
+% MERGE NOTES — disposition of report items:
+%   B ACCEPTED IN FULL, and the referee's diagnosis was right in
+%     a way my own propagation note concealed: the ensemble
+%     discipline had been applied to the VOCABULARY and not to
+%     the argument's SUBJECT. The nihilist counterexample is
+%     decisive against the rev-1 form — bare asking fails
+%     ac:rem:constraint's own test. Relocated to the ensemble:
+%     the asymmetry now comes from the answer being ACTED ON at
+%     biosphere scale, through ac:prop:filter.
+%   CONVERGED with the referee's 2.4: label ac:prop:forcing
+%     adopted; promoted to a proposition environment per the
+%     recommendation. The referee's own flagged weak joint —
+%     whether acting on the negative NECESSARILY lowers
+%     persistence — is carried here as a near-analytic middle
+%     step with its falsifier stated in the fence, not as a
+%     necessity claim. That is the honest strength: near-analytic
+%     is not analytic, and the exhibit that would break it is
+%     named.
+%   KEPT from rev 1 per the report: the conditioning setup and
+%     "into every system in which the asking is placed, the
+%     asker is placed as well" — explicitly re-purposed as setup
+%     that establishes the question's subject and no more.
+%   PAYOFF adopted: the selection leans on ac:prop:filter (every
+%     cell), not ac:prin:tendency (needs ρ>0) — so the Golden
+%     Answer's selection does not inherit the Tendency's
+%     antecedent, and 2.4.2's should/can separation now falls
+%     out of the mechanism. One sentence added in 2.4.2 to
+%     receive it.
+%   E items: the scientific-method argument CUT from 2.4.4 (it
+%     ran near-verbatim twice; the pointer remains and 2.2 keeps
+%     the argument); $x^*$ → $x_\ast$ per master notation;
+%     encoding per §D throughout.
+%   OWED EDIT #2 (hr:rem:notmistake patch) retained at the foot;
+%     still to be fitted to the remark's actual text.
+% ============================================================
 
 \subsection{The Golden Question}\label{ac:sub:question}
 
@@ -1584,6 +3204,141 @@ should be read as that development's reservation, not its substitute.
 
 One rephrasing is worth naming and not running: that Golden reasoning stands to agency's curse as the scientific method stands to skepticism, with \emph{least circular} and \emph{minimally arbitrary} as the same selection in two vocabularies. The argument that earns the parallel, and the burden the parallel carries, are \S\ref{ac:sub:placement}'s in full.
 
+% ------------------------------------------------------------
+% OWED EDIT #2 (draft) — sentence to be APPENDED to
+% hr:rem:notmistake, fitted to its actual text at merge (I have
+% only the brief's quoted fragments):
+%
+%   "The disclaimer concerns an unconditional verdict issuing
+%    from outside human self-interpretation; the Φ6-conditional
+%    claim of \S\ref{ac:ssub:meaning} is of a different kind ---
+%    an adopted grounding, revocable and certified by nothing ---
+%    and the two are compatible for the reasons given there."
+%
+% Without this pointer, 2.4.3 and hr:rem:notmistake read as
+% contradicting (brief §1.5, Collision 2; owed-edits item 2).
+% 2.4.3 is not to be merged without it.
+% ------------------------------------------------------------
+
+% ============================================================
+% DELIVERABLE LISTS (brief §0) — revision 2
+% ============================================================
+%
+% 1. CLAIMS REGISTER
+%    - The Golden Question stated (quote display). [Φ]
+%    - Not-Descartes contrast (one sentence); full placement at
+%      2.2. [Φ]
+%    - Admissibility discharged: not paradoxical, not
+%      inconsequential (bears on every forced selection). [Φ] —
+%      consequence half of ac:rem:scarce's conjunction; ALSO
+%      supplies step one of the forcing argument.
+%    - Setup: every asking conditions on persistence to date;
+%      establishes the question's subject and NO MORE — bare
+%      asking fails ac:rem:constraint's test (nihilist on the
+%      same branch). [Φ] (rev 2: demoted from argument to setup)
+%    - FORCING (ac:prop:forcing, proposition): in the ensemble of
+%      biospheres holding and ACTING ON a frozen answer at
+%      biosphere scale, survivorship reweights toward the
+%      affirmative; negative-holding hosts thin (ac:prop:filter),
+%      affirmative unpenalized. [Φ] — three steps: consequence
+%      (admissibility), near-analytic middle, reweighting.
+%    - Middle step priced as NEAR-ANALYTIC with falsifier: a
+%      biosphere organizing practice around the negative while
+%      doing no less to persist. (Referee's weak joint, carried
+%      at honest strength rather than as necessity.)
+%    - Bridge (ac:rem:bridge): individual holding is not a lever
+%      on biosphere hazard; position is EVIDENTIAL not causal
+%      (Accordance-record relation; gc:rem:teleology); what
+%      existence narrows is which answer it is evidence for at
+%      biosphere scale, not which answer an individual can hold.
+%      [Φ]
+%    - Fence (ac:rem:forcing): fixes what survivorship selects /
+%      what an asker is positioned to find, not what is the
+%      case; positional not truth-conferring; falsifiers
+%      in-place (middle-step exhibit; symmetric-penalty
+%      coupling; rival question still open). [Φ]
+%    - PAYOFF: selection leans on ac:prop:filter (every cell),
+%      not ac:prin:tendency (ρ>0) — the Golden Answer's
+%      selection does not inherit the Tendency's antecedent;
+%      should/can falls out of the mechanism. [Φ]
+%    - Should/can: gr1:thm:twocond; trapped P(viable)=0;
+%      "the answer is yes and the thing is unavailable."
+%      Extinctionist and settled-at-x_ast viability zero alike
+%      (hr:rem:concession); anatomy-as-process
+%      (hr:rem:forcesprocess). Inherited.
+%    - Meaning claim, Φ6-conditional ONLY; compatibility with
+%      hr:rem:notmistake stated as difference in kind. [Φ]
+%    - Scientific-method parallel NAMED, not run (dedup per §E);
+%      argument and burden at 2.2. [Φ]
+%
+% 2. CROSS-REFERENCES USED
+%    \S\ref{ac:sub:placement} ×2, Remark~\ref{ac:rem:scarce},
+%    Remark~\ref{ac:rem:admissible},
+%    Remark~\ref{ac:rem:constraint} ×2,
+%    Remark~\ref{ac:rem:phi6falsifier}, Remark~\ref{ac:rem:noaim},
+%    \S\ref{ac:sub:countermeasure},
+%    Proposition~\ref{ac:prop:filter} ×4,
+%    Principle~\ref{ac:prin:tendency},
+%    Remark~\ref{gc:rem:teleology},
+%    Theorem~\ref{gr1:thm:twocond}, Theorem~\ref{gr1:thm:trapped},
+%    Remark~\ref{gr:rem:weakpremise},
+%    Remark~\ref{hr:rem:concession},
+%    Remark~\ref{hr:rem:forcesprocess},
+%    Remark~\ref{hr:rem:notmistake}
+%    NOT USED, with reason: gr:sub:ceiling — enters via twocond
+%      and weakpremise; a third restatement of "not correct"
+%      declined (unchanged from rev 1).
+%
+% 3. NEW LABELS CREATED
+%    ac:sub:question
+%    ac:ssub:statement
+%    ac:prop:forcing         (rev 2: converged label with the
+%                             referee's draft; was body prose)
+%    ac:rem:bridge           (new in rev 2)
+%    ac:rem:forcing          (retitled fence; falsifiers updated)
+%    ac:ssub:shouldcan
+%    ac:ssub:meaning
+%    ac:ssub:phrasing
+% ============================================================
+
+%############################################################
+%%##  FILE: sec2_6_extrapolation.tex
+%############################################################
+
+% ============================================================
+% §2.5 (compiled order) — Golden Extrapolation
+% REVISION 2, against the complete-section report (B1, B2, A4).
+% Filename retains WRITING-order numbering; compiled block order
+% is authoritative.
+%
+% MERGE NOTES:
+%   B1 ACCEPTED IN FULL. The generation paragraph was doubly
+%     broken: "each contributed the same thing" is denied by
+%     hr:rem:monotone (contributions increase — the scrapbin's
+%     equality intuition carried through unrepaired), and
+%     gc:rem:twoprivilege was misused to forbid a stakes ranking
+%     when it forbids anchor privilege — a misuse my own closing
+%     distinction refuted three sentences later. Rewritten on
+%     monotonicity alone: a monotone sequence has no interior
+%     maximum, so the superlative is always ahead. The
+%     biosphere/lineage distinction dropped per the report;
+%     human-history comparative retained as the report's
+%     defensible statement.
+%   B2 ACCEPTED IN FULL. The gradient is now NAMED: the
+%     goldening interpolation ℙ^(t) → Q of gr:def:gg, indexed by
+%     age per gr:def:practical, with the number attached
+%     (ε-Goldenness over windows 4εt, gr:prop:ratio +
+%     gr:rem:invariant). This also discharges the A4 fence
+%     concern by construction: ℙ^(t) is a family of measures,
+%     not a path.
+%   NOTATION: \mathcal{F}_s used for the window field per the
+%     report's ℱ_s; verify against the master's macro.
+%   Standing from rev 1: "Dimensional Null Aethus" not used
+%     pending verification; positive form over three denials;
+%     restatement register.
+% ============================================================
+
+% [Placement pass, Aug 21: the Question's published neighbors.]
 \begin{remark}[The Question's neighbors: an ally and two opponents]
 \label{ac:rem:questionneighbors}
 The Golden Question has one close published ally and two standing
@@ -1635,6 +3390,81 @@ Nor is the gradient a figure. It is the family of measures the paper already own
 
 One comparative remains, and the result that governs it is Remark~\ref{hr:rem:monotone}: stakes rise monotonically along the chain, because a step late in it carries the improbability of every step behind it. A monotone sequence has no interior maximum. So the present may well be the most consequential moment in human history, and cannot be the most consequential in the biosphere's --- under monotonicity that superlative is always ahead. The claim ranks no positions; what rises is what is at issue at them, and that is \S\ref{hr:subsub:stakes}'s business.
 
+% ============================================================
+% DELIVERABLE LISTS (brief §0) — revision 2
+% ============================================================
+%
+% 1. CLAIMS REGISTER
+%    - Golden Extrapolation (ac:def:extrapolation): position as
+%      OUTPUT of the conditioning; a point on the goldening
+%      interpolation ℙ^(t) → Q, indexed by age. [Φ] — the
+%      gradient now NAMED (per B2); no independent argument.
+%    - Self-anchoring claims a privilege granted nowhere. [Φ]
+%    - Placement carries a number: ε-Goldenness over windows
+%      4εt, a constant fraction of one's history at every age
+%      (gr:def:practical, gr:prop:ratio, gr:rem:invariant). [Φ]
+%      over cited results.
+%    - ℙ^(t) is a family of measures, not a path — fence met by
+%      construction (ac:rem:notrajectory). [Φ]
+%    - Generation comparative (per B1, rewritten): stakes rise
+%      monotonically (hr:rem:monotone); a monotone sequence has
+%      no interior maximum; possibly the most consequential
+%      moment in HUMAN history, cannot be in the biosphere's —
+%      the superlative is always ahead. No equality claim; no
+%      use of gc:rem:twoprivilege for ranking; no
+%      biosphere/lineage distinction. [Φ]
+%    - Stakes themselves are hr:subsub:stakes's. [Φ]
+%
+% 2. CROSS-REFERENCES USED
+%    \S\ref{sh:sub:interp}, Proposition~\ref{gc:prop:recursive}
+%    ×2, Remark~\ref{gc:rem:twoprivilege} (positioning only, NOT
+%    ranking), Definition~\ref{gr:def:gg},
+%    Definition~\ref{gr:def:practical},
+%    Proposition~\ref{gr:prop:ratio},
+%    Remark~\ref{gr:rem:invariant},
+%    Remark~\ref{ac:rem:notrajectory},
+%    Remark~\ref{hr:rem:monotone}, \S\ref{hr:subsub:stakes}
+%    NOT USED, with reason: "Dimensional Null Aethus" — term
+%      unverified; restore at merge if current.
+%
+% 3. NEW LABELS CREATED
+%    ac:sub:extrapolation
+%    ac:def:extrapolation
+% ============================================================
+
+%############################################################
+%%##  FILE: sec2_7_imperative.tex
+%############################################################
+
+% ============================================================
+% §2.6 (compiled order) — The Golden Imperative
+% Drafted against brief 2.7, at the established register.
+% Filename retains WRITING-order numbering; compiled block order
+% is authoritative.
+%
+% MERGE NOTES:
+%   - The Departric Dichotomy Theorem's IVT/MVT proof (scrapbin
+%     226–251) is NOT transferred in any form (brief §1.4(b),
+%     confirmed by the register's §6 disposition). The dichotomy
+%     is INHERITED from gc:subsub:cascade, where it is
+%     unconditional.
+%   - DE-DUP with hr:sub:environment per brief pitfall and owed
+%     item 1.5: this subsection states the MODAL form only; the
+%     expectancy form stays at §8, with the in-body pointer here
+%     and the §8-side pointer drafted in the owed-edits file
+%     (1.5 now DRAFTED).
+%   - Register §6 dispositions adopted: Broad Landscape's strong
+%     material lands here (life as disagreeing superposition
+%     between Departure and Golden; abiotic-vs-Golden as the
+%     fundamental dichotomy). The generation line went to
+%     Extrapolation. The fish/algae/RNA-world figure stack is
+%     cut — the intermediate-stage claim is stated plainly.
+%     "Immortal struggle," "immunity device," and the unpriced
+%     Rare-Earth "wins almost every time" are cut per brief.
+%   - Grades kept apart per brief: complementarity [P]
+%     (inherited); the imperative reading [Φ], Φ6-conditional.
+% ============================================================
+
 \subsection{The Golden Imperative}\label{ac:sub:imperative}
 
 The mathematics first, because it is already done. By \S\ref{gc:subsub:cascade}, $G = \neg F \neg$, so $\nu F$ and $\mu G$ are complements outright: the dichotomy between reaching the Golden Point and reaching the Departure Point is inherited rather than argued, holds for arbitrary branching, and is exhaustive on definite states. \textbf{[P]}, and nothing in this subsection adds to it. What the subsection adds is a modal reading and a reframing, both carried at \textbf{[$\Phi$]}.
@@ -1645,6 +3475,8 @@ Reaching the Golden Point is the only route by which the Departure Point is avoi
 
 The modal form is exactly as strong as the complementarity beneath it and no stronger: with exactly one of the two points given to occur, avoiding one \emph{is} reaching the other, and the principle is a near-immediate consequence rather than a separate result --- which is the accurate presentation. Calling it an \emph{imperative} is the overlay, and the overlay imports $\Phi6$ and the Golden Answer: an agent who has adopted neither reads the principle as a true disjunction with no instruction in it, and the paper gives them no argument that they are wrong to. The expectancy form of the same claim, that every alternative to the Golden Point carries a finite expectancy, is \S\ref{hr:sub:environment}'s, stated once there; the two forms point at each other and neither is repeated.
 
+% [Merge: Opus placement+content adopted; phenomenological-death naming
+% and hr-link folded in from the Fable instatement.]
 \begin{remark}[Departure is the losing condition, not death]
 \label{ac:rem:losingcondition}
 One consequence of the modal definition should be stated before the
@@ -1734,6 +3566,8 @@ point and confers nothing on the next, which is why
 \S\ref{ac:sub:extrapolation} places one on a gradient rather than past a
 threshold.
 
+% [Placement pass, Aug 21: the losing condition's nearest published
+% neighbors, deltas named per the methodology companion's discipline.]
 \begin{remark}[The losing condition's neighbors, and the deltas]
 \label{ac:rem:losingneighbors}
 Three bodies of writing stand near Remark~\ref{ac:rem:losingcondition},
@@ -1776,6 +3610,91 @@ the framework locates their exit rather than disputing their values.
 
 The reframing is what Definition~\ref{gc:def:departure} already carries, read at full width: the Departure Point is not the destruction of life, it is the inevitability of the destruction --- so a biosphere past its Departure Point differs from the abiotic in tense, not in outcome. Two consequences. \emph{The fundamental dichotomy moves.} The division that matters is not extant against extinct, and not abiotic against biotic, the latter boundary is not an extremum by any fundamental measure, but abiotic-or-Departric against Golden, since the complementarity above is exactly the statement that everything ends up on one side of that line or the other. \emph{Life as it stands is an intermediate.} A biosphere still inside the disagreeing superposition between the two points (Remark~\ref{gc:rem:pairsuffices}) is neither of the things the dichotomy names; its standing is not a category but a pendency, resolved in one direction or the other by the same complementarity. Neither consequence is a demotion, pendency is where all the section's stakes live, but both are $\Phi6$-conditional readings of a \textbf{[P]} result, and the tags do not mix.
 
+% ============================================================
+% DELIVERABLE LISTS (brief §0)
+% ============================================================
+%
+% 1. CLAIMS REGISTER
+%    - Complementarity: νF and μG complements outright via
+%      G = ¬F¬; inherited from gc:subsub:cascade; arbitrary
+%      branching; exhaustive on definite states. [P] — cited,
+%      not re-proved; the scrapbin's IVT/MVT proof not
+%      transferred.
+%    - Golden Imperative (ac:prin:imperative): reaching the
+%      Golden Point is the only route by which the Departure
+%      Point is avoided. [Φ] — modal form; exactly as strong as
+%      the complementarity; near-immediate consequence.
+%    - The imperative READING imports Φ6 + the Golden Answer; a
+%      non-adopter reads a true disjunction with no instruction,
+%      and is given no argument otherwise. [Φ]
+%    - De-dup discharged: modal form here, expectancy form at
+%      hr:sub:environment, mutual pointers (§8 side in owed
+%      file, item 1.5).
+%    - Departure Point = inevitability of destruction, not
+%      destruction (gc:def:departure); a post-Departure
+%      biosphere differs from the abiotic in tense, not outcome.
+%      [Φ] reading of inherited framing.
+%    - Fundamental dichotomy: abiotic-or-Departric vs Golden,
+%      not extant/extinct or abiotic/biotic (the latter not an
+%      extremum by any fundamental measure). [Φ]
+%    - Life inside the superposition is a pendency, not a
+%      category; not a demotion. [Φ]
+%
+% 2. CROSS-REFERENCES USED
+%    \S\ref{gc:subsub:cascade}, Definition~\ref{gc:def:departure},
+%    Remark~\ref{gc:rem:pairsuffices} (added per complete-section
+%    report §C — the w : 1−w result the superposition sentence
+%    invokes), \S\ref{hr:sub:environment}
+%    NOT USED, with reason: gc:eq:departurefix (brief's list) —
+%      the complementarity citation carries the whole load; the
+%      fixed-point equation adds machinery the modal statement
+%      does not consume. Add at merge if the master's usage
+%      pairs them.
+%
+% 3. NEW LABELS CREATED
+%    ac:sub:imperative
+%    ac:prin:imperative
+% ============================================================
+
+%############################################################
+%%##  FILE: sec2_2_placement.tex
+%############################################################
+
+% ============================================================
+% §2.2 — Placement
+% Drafted against brief §5 (deferred subsection, now written,
+% with the argument-first material of 2.1/2.3/2.4/2.5 fixed).
+%
+% MERGE NOTES:
+%   - POSITION (verification report F, recommendation ADOPTED
+%     provisionally, reversible at the author's ruling):
+%     Placement now sits at the END of the argument, before the
+%     ledger — final slot after 2.6/2.7 when they exist. The
+%     reasoning that deferred its WRITING applies to where it
+%     SITS: every reference in this file (Φ6, the Golden
+%     Question, ac:rem:phi6falsifier) is now backward, and the
+%     hinge delta's punchline ("Φ6 is such an operation") lands
+%     on a reader who has met Φ6. All references are symbolic,
+%     so the move costs nothing but renumbering. Filename kept
+%     for continuity; the compiled doc carries the new order.
+%   - CITATION KEYS ARE PLACEHOLDERS: Wittgenstein69,
+%     Mackie77, Camus42, and the trilemma key (Sextus or
+%     Albert1968 — merge to pick per the master's bibliography
+%     style). None verified against the master's .bib.
+%   - The brief names phil_sci.tex as the model for stating a
+%     delta against a near neighbor. I do not have that file;
+%     the deltas below follow the structure the brief attributes
+%     to it (state the similarity honestly, name the delta as
+%     one property, price the addition) and should be checked
+%     against the actual model at merge.
+%   - Spends the material 2.1 and 2.4 were instructed to leave:
+%     the Bacon/Descartes historical placement, the
+%     skepticism↔scientific-method analogy in full, and the
+%     not-Descartes contrast beyond one sentence.
+%   - Grade [Φ] throughout except the fecundity expectation,
+%     which is [O] and priced as such.
+% ============================================================
+
 \subsection{Placement}\label{ac:sub:placement}
 
 The problem and its countermeasure now stand, and four neighbors sit close enough that silence about them would read as either ignorance or identity. This subsection states each delta once, at one property each, and then makes the historical claim the section has so far declined to make --- at its price.
@@ -1791,6 +3710,88 @@ The problem and its countermeasure now stand, and four neighbors sit close enoug
 \emph{The historical claim.} What remains is the analogy the section has been holding back since its first sentence, and it is stated here in full so that its price can be attached in the same breath. Skepticism was never dissolved, and could not be; it was defanged, by a procedure that created a demarcation, the scientific against the ascientific, and the demarcation proved fecund. The procedure's own defense is circular and knows it: to deny the method's standing is to assert a framework in which knowledge and empirical observation are uncorrelated, which defeats the asserting, so the defense is circular and, by its own measure, the least circular available --- no rival argument even bounds its own circularity. The parallel now claimed: agency's curse stands to philosophy as skepticism stood to inquiry; $\Phi6$ creates a demarcation among groundings, constrained by the agent's existence, or not, as the method created one among claims; and \emph{least circular} and \emph{minimally arbitrary} are the same selection expressed in the two vocabularies, which is why the analogy is structural rather than incidental.
 
 The price. Everything in the analogy up to fecundity is a restatement of results already graded --- the demarcation exists if $\Phi6$ selects, and Remark~\ref{ac:rem:phi6falsifier} says what would show it selects nothing. The placement of the present moment beside Bacon and Descartes is a different kind of claim: it asserts that the demarcation will produce work, and that is a forecast, evidentially empty today, carried at \textbf{[O]} and at nothing less. The scientific demarcation earned its history in retrospect, by centuries of what it enabled; this one has enabled \S\ref{ac:sub:question} and \S\ref{gs:sec}, and whether that is the beginning of a comparable retrospect or the whole of a small one is exactly what no one now writing can know. The analogy is offered with its falsifier and its forecast separated, and only the first is asserted.
+
+% ============================================================
+% DELIVERABLE LISTS (brief §0)
+% ============================================================
+%
+% 1. CLAIMS REGISTER
+%    - Hinge delta: resemblance conceded in full; difference =
+%      the three properties of ac:rem:threeprops, with
+%      selectability decisive — Φ6 is inexpressible in the hinge
+%      framework. Neither framework refuted. [Φ]
+%    - Trilemma delta: frozen questions are the dogmatic horn
+%      met from inside; the trilemma is symmetric over stopping
+%      points, Φ6 is a preference over them; the addition is
+%      exactly Φ6-strong. [Φ]
+%    - Error-theory delta: the curse is indifferent to moral
+%      semantics and survives the negation of Mackie's
+%      conclusion; the communication argument (second horn) has
+%      no Mackian counterpart. [Φ]
+%    - Absurdism delta: structural fact vs confrontation;
+%      criterion vs stance; the absurdist's assurance of
+%      unsureness is itself a frozen answer. [Φ]
+%    - Historical analogy, structural part: skepticism defanged
+%      by a demarcation; method's defense least-circular by its
+%      own measure; Φ6's demarcation parallel; least-circular =
+%      minimally-arbitrary identification. [Φ] — priced by
+%      ac:rem:phi6falsifier.
+%    - Historical analogy, fecundity part: placement beside
+%      Bacon/Descartes is a forecast, [O], asserted as a
+%      forecast only; falsifier and forecast explicitly
+%      separated.
+%
+% 2. CROSS-REFERENCES USED
+%    Definition~\ref{ac:def:frozen}, Remark~\ref{ac:rem:threeprops},
+%    Remark~\ref{ac:rem:phi6falsifier} ×2, \S\ref{ac:sub:problem},
+%    \S\ref{ac:sub:question}
+%    \cite{Wittgenstein69}, \cite{Sextus}, \cite{Mackie77},
+%    \cite{Camus42} — ALL PLACEHOLDER KEYS, verify/supply at
+%    merge; trilemma cite may be Albert1968 instead per house
+%    preference.
+%    \S\ref{gs:sec} — forward placeholder \ref per the fixed §7
+%     label map (register 3.3); resolves when §7 is drafted.
+%
+% 3. NEW LABELS CREATED
+%    ac:sub:placement        (resolves forward refs in 2.1, 2.3
+%                             rev 2 note, and 2.4)
+% ============================================================
+
+%############################################################
+%%##  FILE: sec2_8_ledger.tex
+%############################################################
+
+% ============================================================
+% §2.8 (compiled order) — Ledger
+% REVISION 2, against the complete-section report (B3, B4, C).
+%
+% MERGE NOTES:
+%   B3 ACCEPTED: "Inherited dependency" restored to the master's
+%     sense (structural exposure, per gc:sub:ledger's usage);
+%     the bookkeeping inventory relocated under a new "Merge
+%     conditions" heading, kept per A5.
+%   B4 ACCEPTED: selectability now priced — falsifier supplied
+%     at ac:rem:threeprops (the ONE touch to stable 2.1, made
+%     because B4 places it there explicitly; flagged in 2.1's
+%     notes for confirmation against §E's no-reopening
+%     preference) and Costs entry added below.
+%   C: drafting-history clause cut from Buys (the observation
+%     survives in this file's audit-delta note (i), where it
+%     belongs); \ref* → \ref; Costs itemize → enumerate per
+%     gr:sub:ledger.
+%   AUDIT DELTAS from plan (unchanged from rev 1):
+%     (i) the forcing repair added a claim not in the brief —
+%         the Golden Answer's selection is independent of the
+%         Tendency's antecedent. Listed under Buys and priced
+%         under Costs via ac:prop:forcing's falsifiers.
+%     (ii) the trapped-regime disposition changed twice; the
+%         ledger records the final form only.
+%     (iii) forcing's falsifiers are the middle-step exhibit and
+%         the symmetric-penalty coupling; the brief's "asker off
+%         the survival branch" prices only the setup.
+%   FORMAT: enumerate for Costs (matching gr:sub:ledger);
+%     conform the remainder to the master's ledgers at merge.
+% ============================================================
 
 \paragraph{The register of this section, stated for the reader who
 noticed.}\label{ac:rem:register}
@@ -1828,6 +3829,183 @@ theorem says so.
 
 \paragraph{Inherited dependency.} \S\ref{ac:sec} inherits the exposure that \S\ref{gc:sub:ledger} records, and more acutely. Everything after the countermeasure consumes survivorship over futures, and under a fixed adverse $\rho$ there is nothing of the kind to consume: \S\ref{ac:ssub:shouldcan} has nothing to separate, Principle~\ref{ac:prin:imperative} is satisfied vacuously, and the section's claims are then true and useless. The exposure is reduced only where technoanatomy is a process rather than a parameter, and those dynamics are \textbf{[O]} (\S\ref{gr1:subsub:fluct}); Remark~\ref{hr:rem:forcesprocess} is the standing argument that the process is required regardless. The exposure is real and is not reduced by the arguments' internal soundness.
 
+% ============================================================
+% DELIVERABLE LISTS (brief §0) — revision 2
+% ============================================================
+%
+% 1. CLAIMS REGISTER
+%    - No new claims; the ledger prices the section's. New Costs
+%      line: selectability (per B4). Inherited-dependency
+%      exposure restored to the master's sense (per B3):
+%      fixed adverse ρ makes the section vacuously true and
+%      useless; reduced only by [O] anatomy dynamics.
+%    - New Not-claimed line: generational equality of
+%      contribution (disclaims the withdrawn B1 claim, matching
+%      the A3-praised pattern of fencing withdrawn claims).
+%
+% 2. CROSS-REFERENCES USED
+%    Internal: ac:prop:nonempty ×2, ac:rem:threeprops, ac:phi6,
+%    ac:prop:forcing, ac:prop:filter, ac:prin:tendency,
+%    ac:ssub:meaning, ac:def:extrapolation, ac:prin:imperative,
+%    ac:sub:countermeasure, ac:ssub:shouldcan.
+%    Master: gr1:prop:trichotomy, gr:subsub:regimes,
+%    gc:prop:recursive, gc:rem:twoprivilege, hr:rem:monotone,
+%    gc:subsub:cascade, hr:rem:notmistake, gr:sub:ceiling,
+%    sh:thm:Q, sh:lem:monotone, gr1:thm:trapped,
+%    gr1:thm:twocond, gc:rem:teleology, gr:prop:ratio,
+%    gc:sub:ledger, gr1:subsub:fluct, hr:rem:forcesprocess.
+%    Forward: gs:sec, gs:sub:initiative, gs:sub:rule,
+%    gs:sub:fence.
+%
+% 3. NEW LABELS CREATED
+%    ac:sub:ledger
+% ============================================================
+
+%############################################################
+%%##  FILE: sec2_owed_master_edits.tex
+%############################################################
+
+% ============================================================
+% OWED EDITS TO THE MASTER — consolidated patch file for §2
+% (register §1, "the highest-risk category"). These edits live
+% OUTSIDE the new subsection files and are the ones that get
+% lost. Apply at merge; check off in place.
+%
+% Register item numbers retained. Status: [DRAFTED] = patch text
+% below, apply verbatim-ish after fitting to surrounding text;
+% [ACTION] = mechanical, no drafting needed; [PENDING] = blocked
+% on an unwritten subsection; [NOTE] = cannot be drafted from
+% outside the master, instructions only.
+% ============================================================
+
+% ---- 1.1 [DRAFTED] — counter guard, head of §6 --------------
+% Insert immediately before §6's first premise. Pairs with the
+% \setcounter{premise}{5} guard in 2.3 (sec2_3, in place).
+% WITHOUT BOTH, Φ3 renumbers to Φ4 and every textual $\Phi3$ in
+% §§6–7 breaks.
+%
+%   \setcounter{premise}{0} % GUARD — do not remove; pairs with
+%   % \setcounter{premise}{5} in §2.3. §2's premise prints Φ6;
+%   % §6's print Φ1–Φ5 unchanged. See §2.3 merge notes.
+%
+% Guard arithmetic watch (register §7): currently §2 adds exactly
+% ONE premise (Φ6). Neither 2.4, 2.2, nor the drafted §7 plan
+% adds another. If any later draft does, the {5} shifts — recheck
+% both guards before merge.
+
+% ---- 1.2 [DRAFTED] — patch at gr:phi2 -----------------------
+% One sentence at the Φ2 site in §6 (also drafted at the foot of
+% sec2_3; kept in both places deliberately):
+%
+%   "Φ2 governs what the apparatus outputs; it is silent on the
+%    separate question of how an agent grounds duties the
+%    apparatus never issued, for which see the selection rule of
+%    \S\ref{ac:sub:countermeasure}."
+
+% ---- 1.3 [DRAFTED] — patch at hr:rem:notmistake -------------
+% Sentence to APPEND to the remark (also at the foot of sec2_4).
+% MUST be fitted to the remark's actual text, which has not been
+% available to the drafting side:
+%
+%   "The disclaimer concerns an unconditional verdict issuing
+%    from outside human self-interpretation; the Φ6-conditional
+%    claim of \S\ref{ac:ssub:meaning} is of a different kind ---
+%    an adopted grounding, revocable and certified by nothing ---
+%    and the two are compatible for the reasons given there."
+
+% ---- 1.4 [DRAFTED] — sentence at gr1:thm:twocond ------------
+% At the point where the theorem appears:
+%
+%   "The theorem also scopes the Golden Tendency of
+%    \S\ref{ac:sub:tendency}: the forced answer of
+%    \S\ref{ac:ssub:shouldcan} purchases nothing toward the
+%    capacity this theorem separates from it."
+%
+% (Drafted to serve double duty with 2.4.2's citation; trim if
+% the theorem's site already gestures forward.)
+
+% ---- 1.5 [DRAFTED] — de-duplicate hr:sub:environment --------
+% The Imperative subsection now exists and carries the MODAL
+% form with its in-body pointer to §8. The §8-side pointer, to
+% be inserted at hr:sub:environment where the only-route claim
+% currently appears:
+%
+%   "The modal form of this claim --- that the Golden Point is
+%    the only route by which the Departure Point is avoided ---
+%    is stated once, at \S\ref{ac:sub:imperative}; the present
+%    subsection keeps the expectancy form, that every
+%    alternative carries a finite one."
+%
+% Fit to the passage; if §8's sentence already IS the modal
+% form, replace it with the expectancy form and the pointer.
+
+% ---- 1.6 [DRAFTED] — pointer at hr:subsub:stakes ------------
+% One sentence where purpose/stakes are discussed:
+%
+%   "Purpose and its grounding are treated once, in
+%    \S\ref{ac:sub:question}; the present subsection confines
+%    itself to stakes."
+%
+% Fit to the actual passage; the point is a pointer, not a
+% second treatment accreting in either direction.
+
+% ---- 1.7 [NOTE] — §1 Introduction ---------------------------
+% Still empty; must be written knowing §2 exists. The scrapbin's
+% "To begin this paper…" opening presumed this material came
+% first and is unusable as-is. Not a §2 deliverable; scheduling
+% decision owed.
+
+% ---- 1.8 [DONE, verified Aug 22] — stray rule ----------------
+% Current master: no uncommented rule line exists (grep ^==== empty).
+
+% ---- 1.9 [DONE, verified Aug 22] — duplicate preamble --------
+% Current master: exactly one \title/\author/\date and one
+% \allowdisplaybreaks outside comments.  The nine-fold blocks
+% belonged to the pre-merge master this note was written against.
+
+% ---- 1.10 [VERIFIED Aug 22, retained] — uncited bib entries --
+% Britannica_coal, Magoon_coal, CL67, Ric44, Ric45 remain uncited
+% in the master body; retained pending the coal/recurrence
+% material's return, and flagged for every extraction's cut list.
+
+% ---- 1.11 [NOTE] — Newcomb companion ------------------------
+% decision.tex exists in the corpus, keyed AethusDecision.
+% Needed: (a) bib entry; (b) replace the live "VERIFY AT MERGE"
+% footnote at gc:rem:teleology; (c) upgrade that paragraph from
+% "structural parallel alone" to a citation. Requires the
+% companion's actual title/venue for the bib entry — not
+% draftable from here.
+
+% ============================================================
+% LABEL RULINGS ADOPTED (register §3) — for the record
+%   3.1  Φ6 label: ac:phi6 (house pattern gr:phi1…gr:phi5).
+%   3.2  ac:sub:placement: MOOT — 2.2 is now drafted
+%        (sec2_2_placement.tex) and creates the label; no stub
+%        needed, nothing dangles.
+%   3.3  §7 map FIXED and already consistent with all §2 drafts:
+%        gs:sec, gs:sub:initiative (7.1), gs:sub:rule (7.2),
+%        gs:sub:limit (7.3), gs:sub:regimes (7.4),
+%        gs:sub:fence (7.5), gs:sub:ledger (7.6).
+%   3.4  gs:sub:fence mispointer: fixed in 2.3 rev 2 (D1); the
+%        cost paragraph and enumeration step (iv) point at
+%        gs:sub:rule.
+% ============================================================
+
+% ---- E.4 [ACTION] — bib entries for Placement's cites --------
+% Four philosophy citations used in Placement (house-style keys
+% per verification report §E): Wittgenstein69 (On Certainty),
+% Sextus (Outlines of Pyrrhonism), Mackie77 (Ethics: Inventing
+% Right and Wrong), Camus42 (Le Mythe de Sisyphe). None yet in
+% the master's bibliography; entries owed at merge.
+
+% ---- F [RECORD] — Placement moved to end of argument ---------
+% Verification report F recommendation adopted provisionally:
+% Placement sits before the ledger (after 2.6/2.7 when written);
+% everything between shifts up one. All ac: references are
+% symbolic; nothing dangles. REVERSIBLE at the author's ruling —
+% if reversed, restore 2.2's slot and re-check that "Φ6 is such
+% an operation" is survivable for a reader who has not met Φ6.
+
 \section{Continuing from Nexic reasoning}\label{gc:sec}
 
 \begin{quote}\small
@@ -1863,6 +4041,7 @@ hypotheses of \S\ref{gc:sub:extrapolation}, which are stated and not
 adjudicated.
 \end{quote}
 
+% ---------------------------------------------------------------------
 \subsection{Vocabulary and standing conventions}\label{gc:sub:vocab}
 
 \begin{convention}[Terms carried from the companion]\label{gc:conv:vocab}
@@ -1927,6 +4106,7 @@ conditional on an input the section states and does not prove. Nothing
 here is asserted at a grade the argument does not reach.
 \end{convention}
 
+% ---------------------------------------------------------------------
 \subsection{Imported apparatus}\label{gc:sub:imported}
 
 This section consumes results from the companion program as premises,
@@ -2012,6 +4192,8 @@ sum-collapse are the two this section leans on repeatedly, and the
 vocabulary they run in is fixed at \S\ref{gc:sub:vocab}.
 \end{remark}
 
+
+% ---------------------------------------------------------------------
 \subsection{The problem: what does Optimation condition on?}
 \label{gc:sub:problem}
 
@@ -2040,6 +4222,7 @@ condition under which the record was produced ---
 \S\S\ref{gc:sub:pastalign}--\ref{gc:sub:humanhistory}, in two
 independent legs.
 
+% ---------------------------------------------------------------------
 \subsection{Choosing the target: continuity and non-privilege}\label{gc:sub:continuity}
 
 Before the argument for Golden-conditioning, a prior question: why the
@@ -2058,6 +4241,12 @@ conditioning across both the end-Cretaceous impact and the Industrial
 Revolution. It must instead splice two analyses at a joint it has no
 principled way to locate.
 
+% [Referee pass Aug 22, minor 6, DEFERRED TO AUTHOR: the referee
+%  suggests promoting the definition's internal/external division and
+%  the provenance footnote into their own remark so the environment
+%  states the definition alone.  The restructure is voice-laden
+%  (which paragraphs are the definition is an authorial call), so it
+%  is recorded here rather than executed.]
 \begin{definition}[Departure Point]\label{gc:def:departure}
 The \emph{Departure Point} is the event past which \emph{every}
 continuation fails to advance --- the first moment at which all
@@ -3008,6 +5197,15 @@ readings could coincide for activities that were not one, so they are
 neighbors, and the argument here consumes only the second.
 \end{remark}
 
+% ---------------------------------------------------------------------
+% [Instated Aug 21 2026 (Fable 5), author-commissioned: the extended
+%  engagement with the Precipice periodization.  House discipline
+%  applied: the position stated at its strongest before any delta; what
+%  survives stated at the end; the whole fenced from the Route World.
+%  CITATION NOTE: keys Ord20, CSB10, MacAskill22, Ben26Method are NEW
+%  and need .bib verification (Ben26Method's title especially --- it is
+%  the methodology companion and the author should supply the exact
+%  title at merge).]
 \subsubsection{The rival periodization: the Precipice, engaged}
 \label{gc:subsub:precipice}
 
@@ -3191,6 +5389,8 @@ misfiled, confidently and in both directions, as ``a variant of Ord
 with extra mathematics'' and as ``a rejection of existential-risk
 studies.'' It is neither, and the deltas above are the scoring key.
 
+
+% ---------------------------------------------------------------------
 With the target fixed and its motivation stated, the question becomes
 evidential: is there reason to believe the record was in fact produced
 under it? The remainder of the section argues that there is, first by
@@ -3200,6 +5400,7 @@ natural history (\S\ref{gc:sub:conditioning}), one on human history
 (\S\ref{gc:sub:humanhistory}), of which the second does not require
 the premise the first leans on.
 
+% ---------------------------------------------------------------------
 \subsection{What alignment with the target would mean}\label{gc:sub:pastalign}
 
 \subsubsection{Statement}\label{gc:subsub:pastalign-statement}
@@ -3311,10 +5512,13 @@ Golden-relevant trait's probability \emph{undiminished}; what would
 break it is a systematic class of such perturbations.
 \end{remark}
 
+
+% ---------------------------------------------------------------------
 Past-Alignment as stated records an agreement. It does not yet show the
 agreement is more than coincidence, and the two arguments that follow are the
 argument that it is not.
 
+% ---------------------------------------------------------------------
 \subsection{The conditioning principle, and the two arguments for it}\label{gc:sub:conditioning}
 
 Past-Alignment as stated is an observation about agreement. The
@@ -3416,6 +5620,9 @@ weight than our own, and the principle refuses to book our location
 within the lesser one as brute luck.
 \end{proposition}
 
+% [Referee pass, Aug 21: as stated the proposition's template runs on
+% any observed fluke whatever, including incidental ones.  The
+% restriction that makes it sound is stated here.]
 \begin{remark}[What the proposition quantifies over, and the
 counterfactuals it excludes]\label{gc:rem:flukescope}
 The template above, $F$ is improbable, we observe it, therefore $F$
@@ -3537,6 +5744,7 @@ proposition (\S\ref{hr:sub:extinction}): remove the muffling lineage
 and the background stands unmuffled, in the deep past as in the
 counterfactual present.
 
+
 \begin{remark}[This settles the contingency-determinism debate, in one
 direction]\label{gc:rem:determinism}
 Historians divide over whether the path to modernity was contingent or
@@ -3634,11 +5842,14 @@ illustration; the coal is the evidence, and the ordering of
 \S\ref{gc:subsub:stockpile} inverts the rhetorical one deliberately.
 \end{remark}
 
+
+% ---------------------------------------------------------------------
 Both legs concern the past cone, and neither speaks to the future. That
 silence is deliberate, \S\ref{gc:subsub:pastalign-statement} recorded
 it as scope rather than modesty, and the three positions available on
 the forward question are set out next without adjudication.
 
+% ---------------------------------------------------------------------
 \subsection{The contestable case: natural history}\label{gc:sub:naturalhistory}
 
 The same reductio, run on the natural-historical record. Its premise, that observerhood survives the perturbations considered, is
@@ -4259,6 +6470,8 @@ supported by Past-Alignment rather than forced by the contradiction, and
 some third target could in principle serve.
 \end{remark}
 
+
+% ---------------------------------------------------------------------
 Both arguments are now in hand. The natural-history one carries the
 weakness Remark~\ref{gc:rem:circularity} flags, its robustness
 premise is contestable, and the human-history one of
@@ -4266,6 +6479,7 @@ premise is contestable, and the human-history one of
 second has accepted the principle, and the first is then the same
 inference extended into deeper time.
 
+% ---------------------------------------------------------------------
 \subsection{Extrapolating forward: three hypotheses}
 \label{gc:sub:extrapolation}
 
@@ -4544,6 +6758,7 @@ be inferred from occupying it, and \S\ref{ad:sec} the institutional
 machinery that would determine whether a given biosphere reaches it.
 \end{remark}
 
+% ---------------------------------------------------------------------
 \subsection{Ledger}\label{gc:sub:ledger}
 
 \paragraph{Costs.} \emph{Past-Alignment} (\ref{gc:prin:pastalign}) ---
@@ -4622,6 +6837,7 @@ objection runs through a commitment about consciousness whose cost is
 priced in \S\ref{to:sub:identity}.
 \end{quote}
 
+% ---------------------------------------------------------------------
 \subsection{The problem: perturbation requires individuation}
 \label{to:sub:problem}
 
@@ -4653,6 +6869,7 @@ the definitional root of well-formed feature-terms and the
 conditioning target of the perturbation arguments are one object, and
 the coincidence is the design.
 
+% ---------------------------------------------------------------------
 \subsection{The definition}\label{to:sub:definition}
 
 \begin{definition}[Task-object; \textbf{[$\Phi$]}]\label{to:def:taskobject}
@@ -4672,6 +6889,9 @@ serve by a month. The formalization below, the placement against Kripke,
 and the pricing of the identity objection are later.}
 \end{definition}
 
+% [Instates the task-object/Golden-categorical integration: the premise
+% as the concept's axiomatic and conceptual root, per the author's
+% direction of Aug 22.]
 \begin{remark}[The axiomatic root, and what contribution is]
 \label{to:rem:goldenroot}
 Two claims fix this definition's place in the framework, and both run
@@ -4744,6 +6964,8 @@ root, and both are stable features of ordinary usage --- which is
 precisely why ordinary usage cannot serve where the analysis needs
 comparability across perturbation.
 
+
+% ---------------------------------------------------------------------
 \subsection{Relation to Kripke, and the departure}\label{to:sub:kripke}
 
 The distinction between a designator that picks out its object robustly
@@ -4792,6 +7014,8 @@ position is that an Aethic ontology must make task-objects fundamental
 and admit rigid-designator talk only as non-arbitrary shorthand for
 them.
 
+
+% ---------------------------------------------------------------------
 \subsection{The two-way fan, and the selection problem}
 \label{to:sub:selection}
 
@@ -4850,6 +7074,8 @@ candidate, not in place of it; the two would be expected to agree
 where both apply, and testing that agreement is part of the same open
 item.
 
+
+% ---------------------------------------------------------------------
 \subsection{The identity objection, and what answering it costs}
 \label{to:sub:identity}
 
@@ -4893,6 +7119,12 @@ as stated, so contesting it while retaining Aethic reasoning would
 require an extra-centric unfolding proposal, which nothing here
 supplies \textbf{[O]}.
 
+
+% ---------------------------------------------------------------------
+% [Instates the author's ontological-completion dictation (Aug 22): the
+% Golden-categorical root extended from semantics to constitution under
+% the Route World's Strong reading; the Golden Aethus named; the toggle
+% argument; the fluctuation thesis; the Boltzmann displacement; fences.]
 \subsection{The ontological completion: the Golden Aethus}
 \label{to:sub:goldenaethus}
 
@@ -5095,6 +7327,8 @@ entailed by an ontology built for unrelated reasons. We record this as
 provenance rather than as evidence, but it does bear on the charge that
 task-objects are a device fitted to the argument they support.
 
+
+% ---------------------------------------------------------------------
 \subsection{Ledger}\label{to:sub:ledger}
 
 \paragraph{Costs.} \emph{Task-object individuation}
@@ -5258,7 +7492,10 @@ are defined on a filtered probability space satisfying the usual conditions,
 and $W$ denotes a standard one-dimensional Brownian motion.
 \end{convention}
 
+% ---------------------------------------------------------------------
 \subsection{The object}\label{gr1:sub:object}\label{tc:sub:model}\label{sh:sub:model}
+
+% ---------------------------------------------------------------------
 
 \subsubsection{Setup: hazard, credit, and the Kolmogorov diffusion}
 \label{sh:subsub:setup}
@@ -5324,6 +7561,9 @@ probability that immortality is achievable) and \emph{immortality proper}
 ($\PP(T=\infty)$).
 \end{definition}
 
+% [Instates the 7:01 PM Aug 22 sheet entry, first half: the referent of
+% the hazard, the anti-smuggling rationale, and the non-biconditional
+% dissolution of the circularity worry.]
 \begin{remark}[What the hazard is a hazard of]\label{gr1:rem:hazardof}
 A reading question should be settled at the definition, because an
 accusation hangs on it. If the Cox event is glossed ``biosphere
@@ -5362,6 +7602,8 @@ remark fixes is the interpretation layer, and with it the answer the
 smuggling objection receives.
 \end{remark}
 
+% [Instates the 7:01 PM Aug 22 sheet entry, second half: the
+% definitional-root premise.]
 \begin{remark}[Golden-categorical well-definedness; \textbf{[$\Phi$]}]
 \label{gr1:rem:goldendef}
 The preceding remark removes death and biosphere from the root; this
@@ -5660,6 +7902,8 @@ $b=0$ the background could still be doubled, whereas for $b\gtrsim6$ the
 permitted amplification is under a quarter of one percent. Shielding is
 unbounded; amplification is, for practical purposes, forbidden.
 
+
+% ---------------------------------------------------------------------
 \subsubsection{The construction as an iterated operator}
 \label{gr1:subsub:operator}
 
@@ -5879,6 +8123,8 @@ channel, an ordered pair of onsets and a waiting room, at a cost of
 precisely zero asymptotic exponents, and it repays part of the price by
 shrinking the one gap the earlier section had to assume.
 
+
+% ---------------------------------------------------------------------
 \subsection{Coordinates: gauge, strength, anatomy}\label{gr1:sub:coords}\label{tc:sub:polar}
 
 \subsubsection{Dimensional structure, self-similarity, and the gauge orbit}
@@ -5958,6 +8204,7 @@ are exactly the level curves of $\kappa$.
 The sharp form of the slogan, that even the \emph{prefactors} of survival
 asymptotics depend on the data only through a single equivalent timescale, is Proposition~\ref{sh:prop:degrees} below.
 
+% ---------------------------------------------------------------------
 \subsubsection{The sign of the credit, and an exact half}
 \label{gr1:subsub:sign}
 
@@ -6006,6 +8253,8 @@ Nothing about the frequency with which a biosphere is adversely
 positioned bears on whether its capacity is adversely directed, and the
 theorem should not be read as saying otherwise.
 
+
+% ---------------------------------------------------------------------
 \subsection{The verdict: certain departure, infinite expectation}
 \label{gr1:sub:verdict}\label{sh:sub:verdict}
 
@@ -6151,6 +8400,15 @@ Lemma~\ref{tc:lem:infbackground} gives
 $\int_S B_u\,du=\infty$ a.s., whence $\Lambda_{\infty}=\infty$.
 \end{proof}
 
+% CORRECTION RECORD (referee pass, Aug 22 2026): the previous proof
+% concluded from (inf_{u<=t} B_u) x Leb{x<=0}, an indeterminate
+% (->0)x(->inf) product, since inf_t B_t = 0 a.s. -- a fact the paper
+% itself records at Remark gr1:rem:trappedscope.  The gap bit exactly
+% at the Gamma=0 clause the statement advertises.  The lemma above
+% (tail zero-one law + W -> -W symmetry) closes it in the generality
+% the model needs; the theorem's conclusion was true as stated.
+
+
 \subsubsection{The survival tail and its consequences}\label{sh:subsub:tail}
 
 \begin{theorem}[Persistence of integrated Brownian motion; \textbf{[C]}]
@@ -6243,6 +8501,7 @@ boundary, any positive exponent gives certain departure, but deep
 inside the infinite-mean regime, whose boundary is exponent $1$.
 \end{proposition}
 
+% ---------------------------------------------------------------------
 \subsection{Technoanatomy: the sign of the trough exponent}
 \label{gr1:sub:anatomy}
 
@@ -6574,6 +8833,8 @@ creates. Equation~\eqref{gr1:eq:xstar} prices the trap: the best
 achievable hazard $h_\ast$ is a geometric interpolation between the
 external scale $A$ and the internal scale $\Gamma$, weighted by anatomy.
 
+
+% ---------------------------------------------------------------------
 \subsection{Transience, and the two-condition theorem}
 \label{gr1:sub:twocond}
 
@@ -6646,6 +8907,16 @@ for null-recurrent drivers beyond Brownian it is open \textbf{[O]}.
 Both factors are necessary: neither good anatomy without feedback, nor
 feedback without good anatomy, admits viability.
 \end{theorem}
+
+% CORRECTION RECORD (referee pass, Aug 22 2026): the previous
+% statement read the second factor as 0 WHENEVER s(+inf)=inf, which
+% contradicted the appendix's own trichotomy(iv)/recurrent(a) and is
+% false: an Ornstein--Uhlenbeck driver mean-reverting to a positive
+% level has both scale limits infinite yet gives viability 1 (ergodic
+% theorem: x_t/t -> mean > 0).  The counterexample is the referee's;
+% the restatement above routes the both-infinite case through the
+% appendix, which had it right all along.  Downstream wording
+% ("transience factor" -> "escape factor") updated at every site.
 
 \begin{remark}[The forward forcing: survival as asymptotically
 decisive evidence; sketch at \textbf{[P]}, reading at the ladder's
@@ -6823,6 +9094,8 @@ Appendix~\ref{app:horizon}, and it is not a coincidence: both
 trichotomies are the same statement resolved along different axes ---
 one along anatomy, one along the driver.
 
+
+% ---------------------------------------------------------------------
 \subsubsection{The internal channel as a perturbation}
 \label{gr1:subsub:perturb}
 
@@ -6902,6 +9175,9 @@ exponential upper bound, and the asymptotics of any model in which
 $\rho$ carries its own dynamics.
 \end{remark}
 
+
+% ---------------------------------------------------------------------
+% ---------------------------------------------------------------------
 \subsection{The third channel: schedule}\label{sch:sub:schedule}
 
 \eqref{tc:eq:hazard} carries two channels, and
@@ -7989,6 +10265,8 @@ Remark~\ref{gr1:rem:noproxy}'s reservation applies with full force
 throughout: a scored schedule index would be a measurement apparatus
 optimized against, which is the failure the channel exists to price.
 
+% ---------------------------------------------------------------------
+
 \begin{remark}[The third term is not exhausted; \textbf{[S]} with imports at \textbf{[$\Phi$]}]
 \label{sch:rem:notexhausted}
 The working assumption until this remark was that the schedule
@@ -8576,6 +10854,10 @@ absent from state space is therefore real, but it is a feature of the
 ensemble, not of the state: it is crossed by the conditioning parameter
 $t$, which is to say, by survival itself, and never by the system.
 
+
+% [Referee pass, Aug 21: a convergence with the companion that neither
+% document states.  Recorded here because it is evidence about the
+% apparatus rather than about either paper.]
 \paragraph{The same refinement the companion performs, in the path
 measure.}\label{sh:rem:coarsenings}
 One structural agreement with the companion is worth recording, since
@@ -8611,7 +10893,12 @@ the refinements were derived on one side from a measure-theoretic
 limit and on the other from a typicality principle, with no common
 step, and they arrived at the same pair \textbf{[S]}.
 
+
+% ---------------------------------------------------------------------
 \subsection{Summary of the model section}\label{gr1:sub:summary}
+
+% ---------------------------------------------------------------------
+
 
 The system is a Kolmogorov diffusion in $(\mu,D)$ with exponential
 killing; at exponent level it is the persistence problem for integrated
@@ -8667,6 +10954,8 @@ bare background, so the external channel, the smallest term in
 completed, and the state at which it completes is the initial datum
 everything above takes as given.
 
+
+% ---------------------------------------------------------------------
 \begin{remark}[What the hazard rate is a projection of; \textbf{[$\Phi$]} on the companions]
 \label{gr1:rem:aethicsubstrate}
 The hazard rate this section models is not the ontology; it is a
@@ -8767,6 +11056,7 @@ distribution over initial data that \S\ref{gs:sub:limit} needs and does
 not have --- which is a lead toward that section's principal open cost
 rather than a discharge of it.
 
+% ---------------------------------------------------------------------
 \part{Golden Reasoning and the Route World}
 
 \noindent Part~III states what conditioning on the Golden Point
@@ -8782,6 +11072,8 @@ certifiable.
 
 \section{Golden reasoning}\label{gr:sec}
 \setcounter{premise}{0} % GUARD --- pairs with \setcounter{premise}{5} in
+% \S\ref{ac:sub:countermeasure}.  That section's premise prints $\Phi6$; these
+% print $\Phi1$--$\Phi5$ unchanged.  Do not remove either guard.
 
 \begin{quote}\small
 The preceding sections were mathematics. This one is philosophy, and
@@ -8831,6 +11123,7 @@ in the companion's two-column format, on the companion's own principle
 that a priced cost which could never be wrong is not a cost but a
 decoration.
 
+% ---------------------------------------------------------------------
 \subsection{The referent problem}\label{gr:sub:referent}
 
 \begin{premise}[The biospheric referent; \emph{methodological
@@ -8867,6 +11160,8 @@ a civilization, since ``civilization'' carries semantic content, agency, society
 rather than assume. The unit is doing work that ought to be done by
 argument.
 
+
+% ---------------------------------------------------------------------
 \subsection{General and Golden}\label{gr:sub:generalgolden}
 
 \begin{definition}[General and Golden biospheres]\label{gr:def:gg}
@@ -9118,6 +11413,7 @@ question this section does not address and does not need.
 exhibiting an ordering difference that survives a normative reading.
 \end{remark}
 
+% ---------------------------------------------------------------------
 Three consumers of this distinction now sit downstream and should be
 visible from here. The finitude tradition's dissolution runs
 entirely on the Practical face: unbounded lifespan as a convergent
@@ -9274,6 +11570,8 @@ function of the other. They therefore remain distinct diagnostic
 questions rather than two aspects of a single ``advancement'' --- which
 is exactly what a one-dimensional scale cannot represent.
 
+
+% ---------------------------------------------------------------------
 \subsection{What Golden reasoning refutes}\label{gr:sub:refutes}
 
 \subsubsection{The Kardashev scale}\label{gr:subsub:kardashev}
@@ -9335,6 +11633,8 @@ want to. That assertion is exactly what \S\ref{gr:sub:extraction}
 disputes, and it should be recognized as an assertion rather than an
 extrapolation.
 
+
+% [Placement pass, Aug 21: the expansionist selection story engaged.]
 \begin{remark}[The expansionist mirror: grabby selection]
 \label{gr:rem:grabby}
 One modern argument deserves separate notice because it reaches the
@@ -9417,6 +11717,8 @@ over the trajectory, and it is the second that determines what survives
 to be encountered.
 
 \setcounter{premise}{3} % GUARD --- the text names this $\Phi4$; document order
+% would otherwise print $\Phi3$.  Pairs with the {2} guard at the Extraction
+% Hypothesis and the {4} guard at Rarity of origins.
 \begin{premise}[Origin does not transfer; \emph{premise}]
 \label{gr:phi4}
 Facts about the selective regime that produced intelligence in a
@@ -9551,6 +11853,7 @@ what anyone ought to do, by $\Phi2$: what it establishes is that a
 particular argument for neglect, evaluated by its own long-run
 criterion, fails on that criterion.
 
+% ---------------------------------------------------------------------
 \subsection{A prediction outside cosmology}\label{gr:sub:crossdomain}
 
 Most of what this section has established is a re-derivation. The
@@ -9639,6 +11942,7 @@ to the question of whether its unification is more than a restatement.
 We do not know the answer; the point of stating the prediction in this
 form is that someone could find out.
 
+% ---------------------------------------------------------------------
 This prediction no longer stands alone, and the family it belongs to
 is the paper's falsifiable perimeter, listed once so a reader can
 audit it whole. Physical and statistical register: the present
@@ -9665,6 +11969,7 @@ failure.
 \subsection{The Extraction Hypothesis}\label{gr:sub:extraction}
 
 \setcounter{premise}{2} % GUARD --- the text names this $\Phi3$; see the guard
+% at Origin does not transfer.
 \begin{premise}[Extraction Hypothesis; \emph{conjecture-grade}]
 \label{gr:phi3}
 Organization built on unbounded extraction, consuming the resources
@@ -9730,6 +12035,10 @@ domain is then $1-e^{-(\alpha-\beta)x}\to1$; measured against the
 enforcement available to contain it, the unprotected extractive
 interior grows as $V/S\sim e^{(\alpha-\beta)x}$, and internal hazard
 with it:
+% Derivation uses rho = -(alpha-beta): hazard scales with unenforced volume
+% per unit of enforcement, matching gr1:def:anatomy's provenance note,
+% sch:subsub:internalschedule (q = e^{alpha-beta}), ad:sub:toward, and
+% Objection gr:obj:cheap.  All five sites agree.
 \begin{equation}\label{gr:eq:rhoextract}
 h^{\mathrm{int}}\;\sim\;e^{(\alpha-\beta)x}
 \qquad\Longrightarrow\qquad
@@ -9765,6 +12074,9 @@ inward, and in the model's vocabulary this is precisely the
 environment, unbounded above, and with adverse anatomy $\rho<0$ ensuring
 that its costs outrun the crest channel's gains per unit.
 
+% [Referee pass, Aug 21: the derivation names the exponent but the
+% inequality carrying its sign was asserted in one clause.  Isolated
+% here, with what would establish it and what would defeat it.]
 \begin{remark}[The one posited inequality, and what would settle it]
 \label{gr:rem:betaalpha}
 Everything in \eqref{gr:eq:rhoextract} follows from the scalings once
@@ -9895,6 +12207,7 @@ wherever large-scale organization exists, and a falsifier must therefore
 exhibit the scaling rather than assert its negation.
 \end{remark}
 
+% ---------------------------------------------------------------------
 \subsection{Consequences}\label{gr:sub:consequences}
 
 The following are downstream of $\Phi3$ and inherit its status. Each is
@@ -10008,6 +12321,7 @@ reasoning requires a defense of the model. That is a better place for
 the burden to sit, because a model can be wrong in identifiable ways.
 
 \setcounter{premise}{4} % GUARD --- restores the sequence after the two guards
+% above; the text names this $\Phi5$.
 \begin{premise}[Rarity of origins; \emph{imported result}]
 \label{gr:phi5}
 Biospheres are rare: the difficulty lies in origination, not in
@@ -10163,6 +12477,7 @@ argued from scratch, and the ledger's grading of $\Phi3$ should be read
 in that light --- still conjecture-grade, since none of the three
 derivations is a proof, but no longer solitary.
 
+% ---------------------------------------------------------------------
 \subsection{The epistemic ceiling}\label{gr:sub:ceiling}
 
 We close with a limitation which constrains this section's own
@@ -10271,6 +12586,8 @@ structure that the position is built on, and we would regard its absence
 as a warning sign. An argument from survivorship that permitted
 confident identification of survivors would have proved too much.
 
+
+% ---------------------------------------------------------------------
 \subsection{What the section costs and what it buys}
 \label{gr:sub:ledger}
 
@@ -10415,6 +12732,7 @@ selection turned out to act on magnitude categorically and orientation
 quantitatively instead. It is entered here as an expectation and not a
 result.
 
+% ---------------------------------------------------------------------
 \subsection{What this section does not claim}\label{gr:sub:fence}
 
 The fence is stated hard, on the companion's discipline that an
@@ -10449,6 +12767,7 @@ the three is established here, all three could be found false without
 touching a line of \S\ref{gr1:sec}, and that is the
 point of naming them.
 
+% ---------------------------------------------------------------------
 \subsection{Section summary}\label{gr:sub:summary}
 
 The unit is the biosphere ($\Phi1$), because no other term survives the
@@ -10487,6 +12806,45 @@ origins ($\Phi5$), the silence needs no filter ahead. And by the
 epistemic ceiling, none of this can be confirmed by encounter --- a
 limitation that binds this section exactly as tightly as it binds what
 the section argues against.
+
+% ---------------------------------------------------------------------
+
+% ============================================================
+% §7 — GOLDEN SCORES: A DECISION RULE AND ITS LIMITS
+% REVISION 2, against the §7 referee report (B1–B4, C).
+%
+% MERGE NOTES — disposition:
+%   B1 ACCEPTED (shared defect, both drafts): ≍ does not deliver
+%     the limit — bounded ratio only, per the master's own
+%     convention. The derivation now runs on the REFINED form ∼,
+%     which sh:thm:persist + sh:prop:harmonic + GJW99 supply for
+%     the hard-wall functional τ and sh:thm:Q assumes; the
+%     soft-wall Ansatz transfers T to τ at O(1) in the log,
+%     ≍-grade, no upgrade. The recommended statement adopted
+%     nearly verbatim inside gs:prop:score. The qualification is
+%     in the proposition itself, not a footnote.
+%   B2 ACCEPTED: the result is now Proposition gs:prop:score,
+%     tagged [P] given [A] and [C] inputs, in the bracket.
+%   B3 ACCEPTED, both halves: ensemble form stated first (free —
+%     the Tendency at the level of practice, no [O] needed);
+%     the trajectory form ROUTED to where §2 locates trajectory
+%     claims (gr1:subsub:fluct, gr1:cor:recurrentanatomy, [O]
+%     dynamics), which was the report's preferred repair and
+%     adds the missing connection.
+%   B4 ACCEPTED: trapped row finished — the rule collapses to a
+%     comparison of floors h_ast via gr1:eq:xstar, and the
+%     verdict is hr:rem:concession's "move ρ."
+%   C: seven \S2 → \S\ref{ac:sec} (and PROPAGATED into §2's own
+%     bodies, which had the same hardcoding); Claim~\ref for
+%     sh:claim:tail; booktabs table; currency fence added after
+%     Aurutance; §7 quote block still owed (author to select).
+%   A3 RECORD: the Aurutance discrepancy flag identified an
+%     error in the BRIEF, not the source — brief 7.3's gloss
+%     dropped the prior terms; both drafts independently carried
+%     the 2024 full form. Converged; instruction error recorded.
+%   NO PREMISE ENVIRONMENT; guard arithmetic unchanged
+%     (Φ6 in §2, Φ1–Φ5 in §6, Φ7 at adversivity).
+% ============================================================
 
 \section{Retrocausal accordance: the principle, the argument, and the
 target}\label{ra:sec}
@@ -10732,6 +13090,9 @@ received reading has no resource to discharge it. Call this the
 it, and the discharge derives the shape of what one must be conditioned
 on.
 
+% [Referee pass, Aug 21: the relay reading was carried in the author's
+% design intent and not in the text.  Instated here because it changes
+% what the magnitude below is load-bearing for.]
 \begin{remark}[The paradox's two faces, and the relay it marks]
 \label{ra:rem:relay}
 The paradox stated above is the Golden-side face of a question the
@@ -10800,6 +13161,8 @@ companion should be revised to state it that way is for the companion
 \textbf{[O]}.
 \end{remark}
 
+% [Referee pass, Aug 21: the draw producing the 10^{-8} was used and
+% never named.  Named here, with the bracket in both directions.]
 \begin{ansatz}[The positional draw over the record; \textbf{[$\Phi$]}]
 \label{ra:ans:draw}
 The weighting against which the present is assessed as improbable is
@@ -10933,6 +13296,10 @@ fluke with respect to one's future, the accounting future is of this
 shape, and \S\ref{gr:sub:ceiling} forbids anyone from establishing the
 antecedent \textbf{[O]}.
 
+
+% [Referee pass, Aug 21: the paper polices roster inference at
+% gc:rem:copernicancost and not here.  The asymmetry is principled and
+% is stated rather than left for a reader to reconstruct.]
 \begin{remark}[Why this is not the inference the companion disowns]
 \label{ra:rem:noroster}
 An objection arrives from inside the corpus and deserves answering in
@@ -11062,6 +13429,9 @@ $\bigl[\PP(A_1\mid A,H_{\mathrm{in}})/\PP(A_2\mid A,H_{\mathrm{in}})\bigr]
 \,\PP(M\mid A_1)$; the completion of that case is deferred
 \textbf{[O]}.
 
+
+% [Merge: Opus's formal treatment adopted wholesale; alpha instance tied
+% to Ansatz ra:ans:draw; determinism/flukes cross-link folded in.]
 \subsection{Investment: what an expensive route tells you}
 \label{ra:sub:investment}
 
@@ -11488,6 +13858,8 @@ smuggle is the register Remark~\ref{gc:rem:teleology} forbids: no event
 pursues the Golden Point, and Golden causality describes what accounts
 for something, never what something is for.
 
+% [Merge: formal content moved to ra:sub:investment (Opus); this remark
+% keeps the Route-World phenomenological face the sheet asked for.]
 \begin{remark}[Invested Golden causality, as phenomenology]
 \label{gc:rem:invested}
 One element of the phenomenology deserves its name here, because it is
@@ -11979,6 +14351,9 @@ predictions of \S\ref{gs:sec}. The ceiling governs throughout, since
 a satisfied requirement raises the ratio and certifies nothing.
 \end{remark}
 
+% [Merge: Opus's historicalcases + acting adopted as base; Fable's
+% mattering-residue rendering retired; complacency second answer carries
+% the anatomy-face identification and falsifier folded in.]
 \subsection{Why the historical cases do not discriminate}
 \label{gc:sub:historicalcases}
 
@@ -12086,6 +14461,9 @@ Granicus in \S\ref{gc:subsub:stockpile}. Assembling that file is the
 concrete research direction the backward reading opens, and the guards
 above are its methods section.
 
+% [Instates the 5:22 PM Aug 22 sheet entry: backward-chaining
+% conditional necessity; the Black Death chain; the attribute question;
+% the Europe question; the dark-investment fence.]
 \begin{remark}[The chain read backward: necessity propagates through
 prerequisites]\label{gc:rem:backwardchain}
 The material above supports one further operation, and stating it
@@ -12299,6 +14677,8 @@ apply.
 
 \subsection{Fences}\label{gc:sub:routefences}
 
+% [Merge: Opus's determinacygap adopted; Fable's all-three-worlds
+% no-selection point folded in as its closing route.]
 \begin{remark}[Determinate is not accessible, and why the distinction
 cannot be relaxed here]\label{gc:rem:determinacygap}
 An objection is available against the fences below, and it is good enough
@@ -12453,6 +14833,8 @@ framework does mark a change in kind --- and which
 \S\ref{gr:sub:ceiling} forbids anyone from dating.
 \end{remark}
 
+% ---------------------------------------------------------------------
+
 \part{Scores, Meaning, and Conduct}
 
 \noindent Part~IV is the normative and existential engine. The Score
@@ -12594,6 +14976,7 @@ The trapped cell deserves finishing rather than dismissal. Across different anat
 
 The asymmetry deserves its sentence: the rule is \emph{most} informative exactly where survival is \emph{not} achievable, the critical cell, where $P(G) = 0$ and the harmonic structure is richest, and least informative where survival is either assured in measure or foreclosed. \S\ref{gr:subsub:regimes} records the same inversion about the mutual-singularity claim; this is the second instance of that structural fact, and noticing the repetition costs one sentence and buys the pattern.
 
+% [Placement pass, Aug 21: the rule's decision-theoretic neighbors.]
 \paragraph{The rule's neighbors: maxipok, ergodicity, ruin.}\label{gs:rem:ruleneighbors}
 Three decision-flavored literatures sit near the Score, reached from
 premises this work does not share, and the pattern across all three is
@@ -13057,6 +15440,15 @@ comparison where such leverage obtains, and is not a claim that agents
 ordinarily face choices of this kind or should act as though they did.
 \end{remark}
 
+% ---------------------------------------------------------------------
+% ---------------------------------------------------------------------
+% [Instates the author's node dictation (Aug 22): the seminar
+%  phenomenology (memoir grade, two undergraduate occasions), the
+%  commitment-primitive diagnosis, the testimony collapse, the
+%  Golden node-criterion, iterability vs rule-axiomatizations, and
+%  the neighbors (MacIntyre, Anscombe, peer disagreement).  A slot is
+%  reserved per the author: he may supply the observation freshly when
+%  next witnessed; the exhibit upgrades from memoir grade on that day.]
 \subsection{Judging the nodes: commitment primitives and the
 inference-side crisis}\label{gs:sub:nodes}
 
@@ -13240,6 +15632,11 @@ route, which is as compact a statement of the delta as the record
 supplies.
 \end{remark}
 
+% [Instates the author's dictation: the crisis classified as
+%  Departric-from-its-vantage; the concept-level reversal; the
+%  author's assessment of the formulation's rank; the fall-of-Rome
+%  closure.  The 2001 and Tattoo exhibits are reserved for the
+%  Introduction per the author's plan.]
 \begin{remark}[The crisis, classified: Departric from its vantage]
 \label{gs:rem:crisisdepartric}
 The framework can now say what the post-Nietzschean condition
@@ -13302,6 +15699,13 @@ the semantic premise's comparative defense under Void. And $\Phi2$
 stands untouched: a non-arbitrary node is not thereby an obligatory
 one --- the framework prices roots, and the reader still chooses.
 
+% ---------------------------------------------------------------------
+% [Instates the meaning material, author-directed (Aug 22): the third
+%  route promoted to the paper's spine; the meaning ledger as
+%  scaffolding for the forthcoming Introduction (author's WIP, kept
+%  out of this pass by his instruction); citation keys chosen to match
+%  the draft Introduction's own (nietzsche1974gay, weinberg1977first)
+%  so the eventual merge is collision-free.]
 \subsection{The third route: inferred meaning}\label{gs:sub:thirdroute}
 
 The crisis of \S\ref{gs:sub:nodes} has a cultural face, and the
@@ -13352,6 +15756,9 @@ but a dark age; the interminability tradition's forecast
 MacIntyre--Anscombe finding are one trough with three faces, prophetic, physical, academic, and this framework engages all
 three with one object.
 
+% [Instates the author's vantage-operator dictation: the flip
+%  condition named (coupling of Miracles), the Tricky-Principle
+%  precedent, the passive-influence clause, and the wirings.]
 \begin{remark}[The inference operator, and where it flips]
 \label{gs:rem:inferenceflip}
 ``Uniquely reasonable'' can be made mechanical, and the corpus
@@ -13581,6 +15988,14 @@ prices (Remark~\ref{gc:rem:backwardchain}). Each pointer is a
 load-bearing wall behind a rhetorical fa\c{c}ade; the Introduction
 may be read first, but it is paid here.
 
+
+% ---------------------------------------------------------------------
+% [Placement pass against the meaning literature, author-directed
+%  (Aug 22): existentialism and post-Nietzsche thought engaged at the
+%  site of the third route, per house discipline (strongest form
+%  first, deltas named).  The author expects possible pruning once the
+%  Introduction matures; until then this subsection is the canonical
+%  home and the Introduction should point here rather than duplicate.]
 \subsection{The meaning literature, placed}\label{gs:sub:meaningplacement}
 
 The settlement was engaged above as a frame; its interior contains
@@ -13833,6 +16248,34 @@ settles only its \emph{category}, which is what a reduction
 disputes. The route's truth is priced where it is claimed, at the
 tiers and grades stated above, and nowhere else.
 
+
+% ============================================================
+% DELIVERABLE LISTS — revision 2
+% ============================================================
+% 1. CLAIMS REGISTER (deltas from rev 1)
+%    - gs:prop:score NEW as tagged proposition (B2): [P] given
+%      [A]+[C]; hard-wall exact via refined ∼; soft-killing under
+%      strengthened Ansatz; else bounded-factor comparison (B1).
+%    - Initiative expectation restated: ensemble form free (the
+%      Tendency at practice level); trajectory form routed to
+%      gr1:subsub:fluct at [O] (B3) — no trajectory claim made.
+%    - Trapped cell finished (B4): rule collapses to comparison
+%      of h_ast via gr1:eq:xstar; verdict = move ρ
+%      (hr:rem:concession).
+%    - Currency fence added (C): additivity of logarithms only;
+%      no stock to hold, spend, or owe.
+%    - A3 record: the discrepancy flag caught an error in the
+%      BRIEF (gloss dropped prior terms); 2024 form carried,
+%      converged across drafts.
+%    (All rev-1 entries otherwise stand.)
+% 2. CROSS-REFERENCES — as in body; NEW: sh:ansatz ×3,
+%    gr1:eq:xstar ×2, hr:rem:concession, ac:prin:tendency,
+%    ac:rem:notrajectory, gr1:subsub:fluct ×2,
+%    gr1:cor:recurrentanatomy, ac:sec ×7 (was hardcoded \S2);
+%    Claim~ kind word supplied for sh:claim:tail.
+% 3. NEW LABELS — as rev 1 plus gs:prop:score.
+% ============================================================
+
 The objection also has a canonical \emph{case study}, and running
 the checklist against it by name is cheaper than letting a reviewer
 do it first. Tipler's Omega Point \cite{Tipler94,BarrowTipler86} is
@@ -13849,6 +16292,9 @@ exists to preempt, and the six deltas are precisely the distance
 between the Golden Point and the Omega Point;
 Remark~\ref{rw:rem:futurecond} states the placement in full.
 
+% [Instated on the author's query: the chain existed pairwise across
+%  ten remarks; this subsection states it once, whole, so it can be
+%  audited as a unit. Earns its place as Part IV's synthesis.]
 \begin{remark}[The tradition, named: Miracleism]
 \label{gs:rem:miracleism}
 The meaning tradition this part develops has a name in the author's
@@ -14073,6 +16519,11 @@ $\rho<0$ remains the live danger, and this section is as much an
 argument for urgency about anatomy as against despair about presence.
 \end{quote}
 
+% ---------------------------------------------------------------------
+% [Instates the author's species-self-awareness thesis (dictated with
+%  the Tattoo observation, Edinburgh, Aug 2026 --- contemporaneous
+%  this time, per the standing slot-reservation practice; the Tattoo
+%  and 2001 exhibits themselves are reserved for the Introduction).]
 \begin{remark}[Species-level self-awareness: a criterion, and where
 it places the discontinuity]\label{hr:rem:speciesaware}
 The section's two errors share a presupposition worth naming: both
@@ -14203,6 +16654,7 @@ Golden Point is the occupancy claim in machine dress, and the target
 is an object at every grade, never a principal to be obeyed; a
 system aligned to the Golden Point would be aligned to what the
 conditioning is \emph{on}, and to nothing that could speak for it.
+
 
 \subsection{Against extinctionism}\label{hr:sub:extinction}
 
@@ -14464,6 +16916,7 @@ often taken for, and that between an option which changes the indicator
 and options which do not, the model has a determinate preference.
 \end{remark}
 
+% ---------------------------------------------------------------------
 \subsection{Against techno-optimism}\label{hr:sub:optimism}
 
 The opposite error requires less new argument, since the result it
@@ -14531,6 +16984,8 @@ neither end of it. That is why the disagreement between them has proved
 unresolvable by argument along their shared axis: the quantity that
 settles it is not on that axis.
 
+
+% ---------------------------------------------------------------------
 The refutation's arsenal has grown since this subsection was written,
 and the additions belong on display here. The invariant of
 \S\ref{gr:sub:generalgolden} says the operative threshold does not
@@ -14619,6 +17074,7 @@ apparatus, and the difference between a conditional grounding and a verdict
 from outside is the distinction this remark is drawing.
 \end{remark}
 
+% ---------------------------------------------------------------------
 \subsection{Ledger}\label{hr:sub:ledger}
 
 \paragraph{Costs.} \emph{The valuation premise} --- the argument against
@@ -14663,9 +17119,11 @@ either, and against structural balance in particular it has
 \emph{disjoint} ground states.
 \end{quote}
 
+% ---------------------------------------------------------------------
 \subsection{The principle}\label{ad:sub:principle}
 
 \setcounter{premise}{6} % GUARD --- $\Phi6$ is now taken by minimal arbitrariness
+% in \S\ref{ac:sub:countermeasure}; this premise is never cited by number.
 \begin{premise}[Net adversivity balance; \emph{governing principle}]
 \label{ad:phi:balance}
 Each institution assigns every other a signed weight, positive for
@@ -14705,6 +17163,8 @@ where the principle parts from structural balance, in which all-allied
 is a ground state. Everything in \S\ref{ad:sub:placement} turns on this
 one disagreement.
 
+
+% ---------------------------------------------------------------------
 \subsection{Placement: two literatures, and a disjointness}
 \label{ad:sub:placement}
 
@@ -14772,6 +17232,7 @@ appear in either, and we have not found it elsewhere. That is a negative
 search and not a demonstration of novelty, and the claim is held at
 \textbf{[O]} accordingly.
 
+% ---------------------------------------------------------------------
 \subsection{The energy}\label{ad:sub:energy}
 
 Institutions are nodes; $w_{ij}\in[-1,1]$ is $i$'s weight on $j$;
@@ -14870,6 +17331,7 @@ taking roots of it would destroy the sign structure that makes it
 frustration in the first place.
 \end{remark}
 
+% ---------------------------------------------------------------------
 \subsection{Ground states}\label{ad:sub:ground}
 
 \begin{proposition}[Perfect balance requires $n\equiv1\pmod4$;
@@ -14981,6 +17443,8 @@ into a frustrated balanced web. The adversivity term therefore selects
 among Heider's ground states on a criterion Heider does not possess, at
 every weight at which it is present.
 
+
+% ---------------------------------------------------------------------
 \subsection{Two experiments}\label{ad:sub:experiments}
 
 Both motivating cases are simulated by representing the common enemy as
@@ -15080,6 +17544,8 @@ small surplus to shed, and yields the prediction that \emph{threat
 arrival is a sharp transition while threat removal is a slow
 relaxation}. Nothing was inserted to produce this.
 
+
+% ---------------------------------------------------------------------
 \subsection{Toward technoanatomy}\label{ad:sub:toward}
 
 The purpose of this apparatus is to supply what \S\ref{gr1:sec} assumes.
@@ -15112,6 +17578,8 @@ biosphere's $\rho$ is the top of a flow rather than a separate
 posit. And a coordination cost must be added, whose scaling with
 capability is the anatomy the whole construction is for.
 
+
+% ---------------------------------------------------------------------
 \subsection{Ledger}\label{ad:sub:ledger}
 
 \paragraph{Costs.} \emph{The principle} (\ref{ad:phi:balance}) ---
@@ -15143,10 +17611,14 @@ for computation being a relaxation that agrees with it. And a stated,
 checkable route to $\rho$, together with an exact account of why this
 apparatus cannot reach it alone.
 
+% ============================ 
+
+% ---------------------------------------------------------------------
 \appendix
 
 \section{Horizon theory}\label{app:horizon}
 
+% ---------------------------------------------------------------------
 \label{sh:sub:horizon}
 
 \subsection{The driftless horizon is a timescale, and it is maximally
@@ -15595,8 +18067,11 @@ rigorously \textbf{[O]}: the numerical evidence of Molchan--Khokhlov
 from the origin, which correctly returns $\tfrac14$ at $H=\tfrac12$;
 see also \cite{AS15}.
 
+
+% ---------------------------------------------------------------------
 \section{The background as a free energy}\label{app:background}
 
+% ---------------------------------------------------------------------
 \label{tc:sub:background}
 
 The background must be positive, variable, and never near zero.
@@ -15731,8 +18206,10 @@ Converting this to an exponent identity is the moving-boundary
 robustness discussed in the driftless case and surveyed in \cite{AS15}.
 \end{proof}
 
+% ---------------------------------------------------------------------
 \section{The waiting room and the gain profile}\label{app:room}
 
+% ---------------------------------------------------------------------
 \label{tc:sub:room}
 
 \subsection{Two kinds of wall}\label{tc:subsub:twowalls}
@@ -15915,6 +18392,7 @@ a threshold --- but, as Remark~\ref{tc:rem:rhorole}(c) records, it moves
 no exponent. The exchange is favorable and honest, not free.
 \end{remark}
 
+% ---------------------------------------------------------------------
 \subsection{The exact gain}\label{tc:subsub:gain}
 
 \begin{theorem}[Soft-kink gain; \textbf{[P]}]\label{tc:thm:gain}
@@ -16041,6 +18519,8 @@ present one attributes part of it to \emph{where the system is}: the
 same effort buys a full unit of log-hazard reduction under shielding,
 $\rho$ units of damage in a trough, and nothing at all in the void.
 
+
+% ---------------------------------------------------------------------
 \section{Transfer, in detail}\label{app:transfer}
 
 \subsection{Reduction to the driftless case}\label{tc:subsub:reduction}
@@ -16058,6 +18538,7 @@ At $\epsilon=0$, $B\equiv n$; for $x\gg0$, $h^{\mathrm{tot}}\approx
 2ne^{-x}$ since the trough is $O(e^{-\rho x})=o(e^{-x})$.
 \end{proof}
 
+% ---------------------------------------------------------------------
 \subsection{Asymptotics: the driftless case survives intact}
 \label{tc:sub:asymptotics}
 
@@ -16372,8 +18853,10 @@ object of study, and the transform described here is identified as the
 exact limit of the survivorship interpolation.
 \end{remark}
 
+% ---------------------------------------------------------------------
 \section{Reference sheet: the filter at a glance}\label{app:sheet}
 
+% ---------------------------------------------------------------------
 \label{sh:sub:sheet}
 
 This subsection collects, without proof, the quantitative content of the
@@ -16568,8 +19051,11 @@ the kinematics of a system, only the statistics of what drives it ---
 and, when the system is self-similar, only along a one-parameter family
 of shapes.
 
+
+% ---------------------------------------------------------------------
 \section{Specification of numerical tests}\label{app:numerics}
 
+% ---------------------------------------------------------------------
 \label{sh:sub:numerics}
 
 The one load-bearing heuristic, Ansatz~\ref{sh:ansatz}, admits a direct
@@ -16646,6 +19132,7 @@ Corollary~\ref{sh:cor:bessel}; and verify the linear response
 $\beta_t\approx1+s/4t$ at large $t/s$, whose coefficient $\tfrac14$ tests
 Proposition~\ref{sh:prop:rate}.
 
+% ---------------------------------------------------------------------
 \label{tc:sub:numerics}
 
 Four tests specific to this part, additional to the driftless case's. \emph{(i) Freezing.} Simulate $B_t$ for $n\in\{10^{3},10^{4},10^{5}\}$
@@ -16689,6 +19176,11 @@ Remark~\ref{tc:rem:speccorr}(b)); an absence of anatomy selection under
 conditioning (contradicting Theorem~\ref{gr1:thm:trapped}, which makes
 adverse anatomy eventually fatal and hence selectable).
 
+% =====================================================================
+% End matter: biographical, not formal. Placed here, after the last
+% appendix and before the references, so that nothing in the argument
+% is near it, at the author's instruction.
+% =====================================================================
 \section*{A biographical note (not formal)}
 \label{bio:note}
 
@@ -16723,6 +19215,7 @@ all have the first move. A very sci-fi digression indeed!
 future-conditioning, is how eerily much Tragedists serve as an
 allegory for a story that hasn't even happened yet.)''}
 
+% =====================================================================
 \PrintRefs
 
 \end{document}
