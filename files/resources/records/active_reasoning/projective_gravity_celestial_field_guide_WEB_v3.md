@@ -82,7 +82,7 @@ This is not an analogy. It is an isomorphism of the arena, and it was the first 
 | spatial slice | **3** | $S^3$, which *is* $SU(2)$ |
 | gravitational base | **3** | $\mathbb{RP}^3 = S^3/\mathbb{Z}_2$, which *is* $SO(3)$ |
 | a concentric shell about a mass | 2 | $S^2_\chi$ |
-| the Hopf lift of one shell (§II.3) | 3 | $S^3_{{\rm Hopf},\chi}$ — a *different* 3-sphere, one per shell |
+| the Hopf lift of one shell (§II.3) | 3 | $S^3_{ {\rm Hopf},\chi}$ — a *different* 3-sphere, one per shell |
 | the union of all Hopf lifts (§II.3) | **4** | $E$, a $U(1)$-bundle over the 3-D space |
 
 Two different 3-spheres will wear the name $SU(2)$: the spatial one here, and each Hopf one in Part II. They are not the same object.
@@ -135,11 +135,11 @@ The two methodological proposals of the program's speculative record — *loosen
 
 ## II.3 The second-order construction: Hopf over the concentric shells
 
-About a mass at $\hat n_0\in S^3$, the colatitude shells $\{\chi = \text{const}\}$ foliate $S^3\setminus\{\pm\hat n_0\}$ by 2-spheres — the conjugacy classes of §I.5. **Take each shell as the base of a Hopf fibration** $S^3_{{\rm Hopf},\chi}\to S^2_\chi$: each 2-sphere is lifted to its *own* 3-sphere. The union over shells is a 4-manifold $E$ — the second-order total space — which is fibered two ways at once:
+About a mass at $\hat n_0\in S^3$, the colatitude shells $\{\chi = \text{const}\}$ foliate $S^3\setminus\{\pm\hat n_0\}$ by 2-spheres — the conjugacy classes of §I.5. **Take each shell as the base of a Hopf fibration** $S^3_{ {\rm Hopf},\chi}\to S^2_\chi$: each 2-sphere is lifted to its *own* 3-sphere. The union over shells is a 4-manifold $E$ — the second-order total space — which is fibered two ways at once:
 
-$$E \;\to\; (0,\pi) \quad\text{with fiber } S^3_{{\rm Hopf},\chi}, \qquad\qquad E \;\to\; S^3\setminus\{\pm\hat n_0\} \quad\text{with fiber } S^1$$
+$$E \;\to\; (0,\pi) \quad\text{with fiber } S^3_{ {\rm Hopf},\chi}, \qquad\qquad E \;\to\; S^3\setminus\{\pm\hat n_0\} \quad\text{with fiber } S^1$$
 
-The first slicing is "each shell lifted to a 3-sphere"; the second is "a Hopf circle over each point of space." **Physical space remains the 3-D $S^3$; $E$ is 4-D and sits over it.** The spatial $S^3$ (first order) and the Hopf $S^3_{{\rm Hopf},\chi}$ (second order, one per shell) are different manifolds that happen to be the same group.
+The first slicing is "each shell lifted to a 3-sphere"; the second is "a Hopf circle over each point of space." **Physical space remains the 3-D $S^3$; $E$ is 4-D and sits over it.** The spatial $S^3$ (first order) and the Hopf $S^3_{ {\rm Hopf},\chi}$ (second order, one per shell) are different manifolds that happen to be the same group.
 
 What this is, exactly **[T]**: the Hopf fibration $S^3\to S^2$ is the **charge-1 Dirac monopole bundle** over $S^2$. In $S^3\subset\mathbb{C}^2$ with $(z_1,z_2)\sim(e^{i\phi}z_1,e^{i\phi}z_2)$, the connection is $\alpha = \mathrm{Im}(\bar z_1dz_1 + \bar z_2dz_2)$, its curvature is $F = d\alpha = \tfrac12\,\omega_{S^2}$, and the flux through $S^2$ is $2\pi$ — one quantum. So "Hopf over every concentric shell about a mass" is **a monopole sitting at the mass.** The shells are homotopic, so each carries Chern number $+1$ seen from $\hat n_0$.
 
