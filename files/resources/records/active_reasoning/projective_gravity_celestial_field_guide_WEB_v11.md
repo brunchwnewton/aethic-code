@@ -31,8 +31,8 @@ each arrow a quotient by one circle. The fermionic base sits off this tower, map
 
 | term | meaning |
 |:--|:--|
-| **primary** | the dominant central mass $M_c$, at the south pole of $S^4$ |
-| **poles** | the south pole $0$ (the primary) and the north pole $\infty$. The two points where the fibration degenerates. **Not** twins of each other; each is its own twin |
+| **primary** | matter sitting at a pole. Not a mass threshold: the role is positional, and the poles are set by the matter's own principal axis (§II.4) |
+| **poles** | $\pm\hat d$, the two points where the fibration degenerates, located at the matter distribution's principal axis. **Not** twins of each other; each is its own twin. Choosing the polar axis is the same act as choosing the twin map |
 | **equator** | the 3-sphere $\chi = \pi/2$; the reference copy of space |
 | **latitude** (**level 3-sphere**) | a surface $\chi = $ const in $S^4$ |
 | **secondary** | any ordinary mass — a galaxy, a star, Earth — sitting on a latitude |
@@ -58,7 +58,7 @@ The twin comes from the meridians and from nothing else.
 | $T_\pm$ | $T_\pm(\hat n) = T(\hat n)\pm T(-\hat n)$: the even and odd parts of matter under the twin map |
 | **even sector** | $T_+$; what gravity reads |
 | **odd sector** | $T_-$; what the second-order connection reads |
-| **jellium** | the uniform background density of the gravity base, supplied by the primary |
+| **jellium** | the uniform part of the base density. Produced either by matter at a pole (which lies on every meridian) or by matter spread evenly over a latitude. Requires no primary |
 | **conformal factor** $\phi$ | defined by $g_3 = \phi^4g_{S^3}$; $\Omega\equiv\phi^2$ |
 | **fiber length** $L_E$ | the local length scale of the Hopf circle, locked to gravity by $L_E = \Omega L^{\rm ref}$ |
 | **permeability** $\mu(\rho)$ | how matter deflects the meridians in Law II without sourcing them |
@@ -110,9 +110,11 @@ Since $\sigma$ (Part VI) descends to the twin map on $S^4$, and the gravity base
 > $$G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi\,T^+_{\mu\nu}\quad\text{on }\mathbb{R}_t\times\mathbb{RP}^3,\qquad \Lambda = 1/\ell^2$$
 > General relativity on the gravity base, sourced by the meridian-averaged, pair-summed stress-energy. There is no dilaton, no radion, and no extra scalar with a $1/r$ coupling, so PPN $\gamma = 1$ holds trivially.
 
-> ### ◆ LAW II — THE FIBRATION
-> $$\nabla\cdot\big(\mu(\rho)\,\nabla\Phi_u\big) = M_c\,\big[\delta^4(0) - \delta^4(\infty)\big]\quad\text{on }S^4$$
-> The $u$-fibers are the gradient lines of $\Phi_u$. The poles are the only flux endpoints; all other matter enters through the permeability $\mu(\rho)$. The fibration is **kinematic**: it has no action, and nothing couples to it dynamically.
+> ### ◆ LAW II — THE FIBRATION (MACHIAN FORM)
+> $$\nabla\cdot\big(\mu(\rho)\,\nabla\Phi_u\big) = M_{\rm tot}\,\big[\delta^4(\hat d) - \delta^4(-\hat d)\big]\quad\text{on }S^4$$
+> The $u$-fibers are the gradient lines of $\Phi_u$. The two flux endpoints — **the poles** — sit at $\pm\hat d$, where $\hat d$ is the matter distribution's own principal axis: the direction of its dipole $d_A = \int\rho\,x_A\,dV$, or, where the dipole vanishes, the principal axis of its quadrupole. All other matter enters through the permeability $\mu(\rho)$. The fibration is **kinematic**: it has no action, and nothing couples to it dynamically.
+
+**The poles are not an input.** Earlier versions placed them by hand. Here they are determined by the matter, which is what makes the arena Machian: *wherever matter is most concentrated, a pole sits there and at its antipode.* Since choosing the polar axis is the same act as choosing the twin map — the twin map is $-1$ on the 4-plane orthogonal to the axis — **the gravity base itself is determined by the matter distribution** (§II.4).
 
 > ### ◆ LAW III — THE SECOND-ORDER CONNECTION
 > $$dF = 2\pi\star J_-,\qquad J_- = \frac{\rho_-}{m_{\rm unit}}\ \text{smeared along the meridians},\qquad F = d\alpha$$
@@ -137,11 +139,66 @@ with $\hat g$ the gravity-base metric pulled back plus the fiber parts. Varying 
 
 $\mathcal{L}_B$ is written for the self-dual 2-form with the standard caveat that a chiral form admits no simple covariant Lagrangian; Law IV is imposed as a field equation, which is sufficient here since Law IV is not varied against the metric (§VIII.7).
 
-## II.3 No preferred foliation [D]
+## II.3 Covariance, and what Law II does prefer [D/O]
 
-Law I is generally covariant on the four-manifold $\mathbb{R}_t\times\mathbb{RP}^3$. Law II has a covariant five-dimensional form with $\mu$ a function of the trace and the poles two worldlines; its static presentation is a gauge choice. What is preferred is a *fibration of the cover*, which is the theory's definition and is invisible from the gravity base.
+Law I is generally covariant on the four-manifold $\mathbb{R}_t\times\mathbb{RP}^3$.
+
+**Law II is covariant as an equation but elliptic on slices.** Written $\nabla_A(\mu\nabla^A\Phi_u) = J$ it is a scalar equation built from the metric's covariant derivative and transforms correctly under any coordinate change. But it is elliptic on a four-dimensional spatial surface, which means $\Phi_u$ is determined *instantaneously* by the matter on that surface — no initial data, no propagation. **That instantaneity is the point**: it is what makes the fibration kinematic rather than a dynamical field. The price is that an elliptic equation on slices needs a slicing.
+
+On **static** configurations nothing is added: the arena has a timelike Killing vector, and the Killing slicing is canonical — picked out by the geometry rather than imposed. That covers everything computed in this document. For **dynamical** configurations no canonical slicing exists, and Law II owes either a hyperbolic reformulation (losing its kinematic character) or a demonstration that the constraint form yields the same congruence for every slicing. Neither exists **[O]**.
+
+This is the two-speed cover, stated as a property of Law II: gravity links antipodes instantly, light takes $\pi\ell/c$. There is a preferred frame at the level of the cover, and it is unreachable — one cannot access both ends of a twin pair.
 
 ---
+
+## II.4 The Machian axis, and its limits [D/V]
+
+**The flux strength is not the content.** Law II is linear in $\Phi_u$, so rescaling the source rescales $\Phi_u$ — and the gradient *lines* of $k\Phi_u$ are identically those of $\Phi_u$. The fibration *is* those lines, so the flux magnitude sets units and nothing else. **The primary's mass never enters the fibration.** What the law fixes is the *location* of the two zeros, and that is what has been made Machian.
+
+**Some source structure is mandatory.** $\nabla\cdot(\mu\nabla\Phi_u) = 0$ everywhere on a compact manifold forces $\Phi_u$ constant — no fibration at all. Poincaré–Hopf then makes one source and one sink the minimum, since each has index $+1$ and the total must be $\chi(S^4) = 2$. Extra pairs cost saddles.
+
+**Why the zeros must be antipodal.** The fibration must be preserved by the twin map, since that is the deck map of the gravity base. The twin map therefore permutes the zeros, and its fixed points on $S^4$ are exactly the two poles **[V]**. A source–sink pair placed at them lies on *every* meridian, which is why the poles project uniformly onto the base (§I.3) and the base stays smooth. Zeros *swapped* by the twin map would be a twin pair at one latitude — one point of the base, hence a singular point of it. Version 11 takes the first case.
+
+**The three limits, verified [V]:**
+
+| configuration | axis from | result |
+|:--|:--|:--|
+| one dominant mass at $p$ | dipole | axis points **at it**; the mass sits at a pole and its $S^4$-antipode is the empty pole |
+| primary $+$ a $1\%$ secondary | dipole | axis tilts by $0.6°$, of order $M_s/M_p$; **the secondary stays at a latitude, acquires no axis, and captures no field lines** |
+| two equal masses at $S^4$-antipodes | quadrupole | the dipole vanishes; the axis is their separation; **both masses sit at poles** |
+
+**Mass confers no role.** There is no threshold anywhere in Law II: a secondary of any mass, up to and beyond the primary's, enters through $\mu$ and never sources. Growing it tilts the axis continuously, in proportion to its mass, and nothing else. **The small-secondary limit — Keplerian orbits with no capture — therefore holds at every mass ratio, not as an approximation but as a structural fact.**
+
+**And the equal-mass limit dissolves the distinction entirely.** Matter at a pole projects *uniformly* onto the gravity base, because the poles lie on every meridian; that is the content of §I.3. So two equal masses at the two poles are **both jellium**: the base density is perfectly uniform, there are no lumps at all, the gravity base is the bare Einstein static universe, and there is no center of anything. Each mass has $GM/c^2\ell = \pi/4$ and $r_s = \pi\ell/2$, half the antipodal distance, so no horizon difficulty arises. **The primary/secondary distinction does not merely become symmetric — it disappears.**
+
+## II.5 Many masses: the primary is a limiting case, not a role [V/D]
+
+With $n$ comparable masses the dipole points at the **centroid direction**, which is generically empty. Random configurations of equal masses on $S^4$:
+
+| masses | nearest mass to the polar axis |
+|:--:|:--|
+| 2 | $39.7°$ |
+| 3 | $33.5°$ |
+| 5 | $17.1°$ |
+| 10 | $29.4°$ |
+
+**No mass sits at a pole.** Every one is at a latitude, so **all are secondaries and none is the primary** — which is the intended reading, and stronger than the two-mass case.
+
+**A pole is occupied only in the strict dominance limit.** For masses $M$ at $p$ and $m$ at $q$ orthogonal, the axis lies at $\arctan(m/M)$ from $p$: $0.6°$ at $m/M = 0.01$, $5.7°$ at $0.1$, $26.6°$ at $0.5$, $45°$ at $1$. **Any finite competitor displaces the pole off the big mass into empty space**, and only $m/M\to0$ puts it exactly on.
+
+> **The pole is where the fibration degenerates — a geometric feature, like the pole of a latitude–longitude grid. Matter *locates* it, through the principal axis, but need not *occupy* it. The "primary" as a body exists only when one mass dominates strongly enough to sit there.**
+
+**Masses refract; they do not puncture [D/V].** It is tempting to picture $n$ masses as $n$ singularities of the fibration, each with its antipodal partner. That is **not** what Law II gives, and the distinction is the law's whole purpose. The sources sit only at $\pm\hat d$; masses enter through $\mu(\rho)$, which is a *permeability*, and high permeability **concentrates** flux — so lines bend *into* a mass and out the far side without terminating. **$n$ masses give $n$ refraction centers and still exactly two singularities.** Verified in a two-dimensional test with three permeability bumps between a source and a sink: six of nine traced lines are drawn through a mass, and every one continues to the sink; none stops inside **[V]**.
+
+The alternative picture — a singularity at each mass plus its antipode — is $2n$ zeros, which by Poincaré–Hopf requires $2n-2$ saddles: the **watershed foam**, in which each mass owns a basin quotienting to its own base, so a small secondary would acquire a nearby twin of its own and double its effective mass locally. That is precisely what the permeability rule exists to prevent.
+
+**And the jellium does not require a primary.** Uniform base density needs uniformity over $\hat n$, and there are two ways to get it: matter **at a pole**, which lies on every meridian; or matter **spread evenly over a latitude**. The first is the special case; the second is what a realistic near-homogeneous universe does. So the smooth background survives with no primary at all, and closure still fixes the total at $\pi\ell/2$. This refines §I.3's identification of the primary with the jellium, which held for the single-mass configuration.
+
+**The jellium/lump split is therefore a statement about position, not mass:** matter on every meridian (at a pole) or spread evenly over a latitude is jellium; matter concentrated at one $\hat n$ is a lump; closure fixes the sum at $\pi\ell/2$ (§V.2). The orbit parameter $f$ of §V.7 is exactly the lumped share.
+
+**What the emergent-$G$ identity does with all this: nothing [D].** The relation $GM_{\rm tot}/c^2\ell = \pi/2$ follows from Law I and closure alone — the Einstein static universe requires $\bar\rho = 1/4\pi\ell^2$, hence a total of $\bar\rho\cdot2\pi^2\ell^3 = \pi\ell/2$. It never used Law II. **The Machian form leaves it untouched**, and when one mass dominates the theory is identical to the fixed-pole version in every respect.
+
+**Cost, recorded [O].** A nearly homogeneous universe has a small dipole on a large total, and since the fibration's lines are independent of the flux magnitude, the axis is decided entirely by that small residual. As matter rearranges, the axis swings and the gravity base swings with it — so a body's twin would change over time. This touches the seed, the $r = 1/\sqrt2$ signpost, and the involution of Part VI, which is defined by the twin map. Not resolved here.
 
 # PART III — THE SECOND ORDER
 
@@ -315,11 +372,62 @@ Lunar laser ranging gives nothing useful ($M/r\sim10^{-11}$ at the Moon); ringdo
 
 Gauss on a closed section forces a compensating charge *somewhere*, and the seed puts no *interacting* charge at the antipode. With the compensating charge wherever the other charges are, the field of a charge $Q$ is regular at the antipode and vanishes there — verified: $|E|\to0$ linearly. **The twin carries gravitational shape without electromagnetic content.** In version 10 this was read as "the twin is empty"; Part X refines it to "the twin's matter is on the other sheet."
 
-## V.7 Orbits [V]
+## V.7 Orbits and the $v^2$ family [V]
 
-On the gravity base a secondary is a well in the jellium, and closed-universe orbits are retrograde-precessing rosettes: apsidal advance $1.945\pi$ per radial period at small apocenter, falling to $1.836\pi$ in the mid-disk. The kinematic pattern speed $\Omega - \kappa/2$ falls by a factor 10 across a disk where Kepler alone would give 20 — the closure term halves the winding rate of kinematic spirals. At galactic radii in the cosmic arena the closure term is $10^{-7}$ of Kepler.
+**Rosettes and precession.** On the gravity base a secondary is a well in the jellium, and closed-universe orbits are retrograde-precessing rosettes: apsidal advance $1.945\pi$ per radial period at small apocenter, falling to $1.836\pi$ in the mid-disk. The kinematic pattern speed $\Omega-\kappa/2$ falls by a factor 10 across a disk where Kepler alone would give 20 — the closure term halves the winding rate of kinematic spirals. At galactic radii in the cosmic arena the closure term is $10^{-7}$ of Kepler.
 
-## V.8 The static wall [T]
+**The closure plateau.** For a circular orbit at colatitude $\chi$ on $S^3(\ell)$ the effective potential is $\Phi(\chi) + L^2/2\sin^2\chi$; stationarity gives $L^2 = \Phi'(\chi)\sin^3\chi/\cos\chi$, and with $v = L/\sin\chi$,
+
+$$v^2(\chi) = \Phi'(\chi)\tan\chi$$
+
+At the equator $\Phi'(\pi/2) = 0$ by twin symmetry, so by L'Hôpital $v^2_{\rm eq} = -\Phi''(\pi/2)$. Solving the twin-theorem equation for a lump holding a fraction $f = M/M_{\rm tot}$ of the closure mass gives, numerically and converged as the lump shrinks,
+
+$$v^2_{\rm eq} = 2.352\,f = 1.497\,\frac{GM}{\ell}\qquad\text{(consistent with }3GM/2\ell\text{ to }0.2\%)$$
+
+**The value is independent of how the lump is packed** — only the monopole term survives at the equator — and is linear in the lumped mass. **This corrects an earlier quotation of $4GM/\pi\ell = 1.273\,GM/\ell$, which was $15\%$ low [V/R].** Sign and scaling are unchanged: linear in $M$, inverse in $\ell$.
+
+## V.8 The lumped-mass limit [V/D]
+
+The jellium is the pole matter's projection and closure fixes the total at $M_{\rm tot} = \pi\ell/2$, so a secondary of mass $M$ is a lump holding a fraction $f = M/M_{\rm tot}$ of that total — not matter added on top of it. The limit $f\to1$ means *all* of the universe's mass is in one lump at a latitude, with no smooth background left.
+
+| $f$ | $r_s = 2GM/c^2$ | orbital range in $\chi$ |
+|:--:|:--:|:--|
+| $0.1$ | $0.314\,\ell$ | $(0.31,\ \pi)$ |
+| $0.5$ | $1.571\,\ell$ | $(1.57,\ \pi)$ |
+| $0.9$ | $2.827\,\ell$ | $(2.83,\ \pi)$ |
+| $1.0$ | $\pi\ell$ | **none** |
+
+At $f = 1$ the lump's Schwarzschild radius equals $\pi\ell$, the antipodal distance — **the diameter of the universe.** Nothing is outside it; there are no orbits because there is no exterior. The plateau formula reads $v^2_{\rm eq} = 2.352\,c^2$, which is its way of saying the same thing.
+
+**The Keplerian limit, quantified [V].** Near a point mass the Green's function of $(\Delta+3)$ behaves as $1/\sin\chi$, so with $r = \ell\chi$
+
+$$\Phi(r) = -\frac{Gm}{r}\left[1 + \frac{r^2}{6\ell^2} + O(r^4/\ell^4)\right]$$
+
+The closed-universe correction is $4\times10^{-15}$ at $10$ kpc and $4\times10^{-45}$ at $1$ AU, for $\ell = 63$ Gpc. The other correction is the jellium: a uniform background gives a force $\sim+\tfrac{4\pi}{3}G\bar\rho\,r$, which overtakes $Gm/r^2$ only where the enclosed background mass equals $m$ — at $1.2$ Mpc for a $10^{12}M_\odot$ galaxy, and $0.12$ kpc for the Sun. **Inside a galaxy, and throughout any planetary system, motion is Keplerian to parts in $10^{14}$ or better.** The closure terms matter only near the crossover scale and at the equator, where they produce the plateau of §V.7.
+
+**Law II is untroubled by the limit.** A secondary is a permeability bump at any mass, so the flux endpoints stay at the poles and the fibration is intact at $f = 1$. What fails is the *base geometry* — gravity, not the fibration. Under the old reading, where masses sourced $\Phi_u$, a large secondary would have become a rival source and the twin would have been lost; the permeability rule is what makes the limit harmless. Contrast §II.4's *other* limit, two equal masses at the **poles**, where the base stays perfectly homogeneous and no lump exists at all.
+
+## V.9 The two fluxes, compared [V/D]
+
+The fibration flux of Law II and the second-order flux of Law III are both Gauss charges — conserved quantities obtained by integrating a field over an enclosing surface, both additive, both obeying a divergence law. They differ in three ways, and the differences explain why one appears in the metric as a $1/r^2$ term and the other as a background.
+
+| | fibration flux (Law II) | second-order flux (Law III) |
+|:--|:--|:--|
+| sourced by | matter at the poles | secondaries, on their meridians |
+| odd mass $\rho_-$ | **zero** — a pole is its own twin | $M(\hat n) - M(-\hat n)$ |
+| falloff on the cover | $1/r^3$ (four spatial dimensions) | $1/r^2$ (flux through 2-spheres) |
+| image on the gravity base | **uniform: the jellium** | **localized: the $P^2/r^2$ term** |
+| total | $M_{\rm tot} = \pi\ell/2$ | Chern numbers summing to zero |
+
+**The primary carries no second-order charge, for a structural reason.** Law III is sourced by $\rho_- = \rho(\hat n)-\rho(-\hat n)$, and the twin map *fixes* the poles, so at a pole $\rho_- = \rho - \rho = 0$. **The primary's Chern number is zero because the primary is its own twin.** It sources the fibration flux and nothing else; secondaries source the second-order flux and contribute nothing uniform. Cleanly complementary.
+
+**The difference is localization.** Both poles lie on every meridian, so the fibration flux contributes equally to every fiber average and its base image is uniform — and a uniform source gives a background term, not a $1/r^2$ one. The second-order flux is concentrated on a single meridian, so its base image is localized and its energy $|F|^2\sim c^2/r^4$ integrates to the $P^2/r^2$ metric term of §V.5. **Same kind of object; different spread.**
+
+**And the totals coincide exactly [V].** $\bar\rho\cdot\mathrm{Vol}(S^3) = (1/4\pi\ell^2)(2\pi^2\ell^3) = \pi\ell/2 = M_{\rm tot}$, with difference identically zero. The fibration flux *is* the total jellium mass — which is what the $G$ identity says, read as a flux statement.
+
+**The Mach relation is a horizon statement [V].** $r_s(M_{\rm tot}) = 2GM_{\rm tot}/c^2 = \pi\ell$, and $\pi\ell$ is exactly the antipodal distance on $S^3(\ell)$. **The closure mass's Schwarzschild radius is the diameter of the universe:** a closed static universe is marginally its own horizon, and $GM_{\rm tot}/c^2\ell = \pi/2$ is that fact written as a mass.
+
+## V.10 The static wall [T]
 
 On a static geometry Killing energy is conserved and there is no redshift. This is a theorem about the arena, not a gap in it. Every route to Hubble's law within the static theory ends at the seed's own symmetry: the twin's well is *identical* to the source's, and identical wells cannot shift light between them.
 
@@ -580,6 +688,9 @@ The null fiber and its Bondi reading; the Eisenhart–Bargmann lift and the iden
 | "a $2\pi$ rotation is the antipodal map" | conjugation by $-1$ is the identity; the antipodal map is a translation (§IV.3) |
 | "northern light / southern light" | the twin map fixes the poles, and no global sheet label exists (§IX.2) |
 | the Machian rescaling as stated | inconsistent (§X.2) |
+| poles assigned by hand at fixed coordinates | replaced by the Machian axis (§II.4): the poles follow the matter's principal axis |
+| $v^2_{\rm eq} = 4GM/\pi\ell$ | $15\%$ low; the converged value is $1.497\,GM/\ell$ (§V.7) |
+| "Law II's static presentation is a gauge choice" | too strong: Law II is elliptic on slices, hence instantaneous and frame-preferring; canonical only on static solutions (§II.3) |
 | electromagnetism as a 1-form on the cover | replaced by the self-dual 2-form, which has an even chirality a 1-form cannot carry (§VIII.1) |
 
 ## XI.3 Open
@@ -594,7 +705,9 @@ The null fiber and its Bondi reading; the Eisenhart–Bargmann lift and the iden
 8. **$\mu(\rho)$:** nothing selects it; observable only through footprint dilation, bounded by 4.
 9. **Twin parity assignments:** which species are twin-odd.
 10. **Emergent $G$:** requires a $G$-free definition of mass (§X.2).
-11. **Inherited:** the AdS uplift; the two arenas; the literature review.
+11. **Law II in dynamical settings** (§II.3): a hyperbolic reformulation, or a proof that the constraint form gives a slicing-independent congruence.
+12. **The swinging axis** (§II.4): a nearly homogeneous universe fixes the polar axis by a small residual, so the gravity base — and every body's twin — would drift as matter rearranges.
+13. **Inherited:** the AdS uplift; the two arenas; the literature review.
 
 ---
 
@@ -607,10 +720,19 @@ The null fiber and its Bondi reading; the Eisenhart–Bargmann lift and the iden
 | **fermionic base** | $\mathbb{R}_t\times E/\sigma$, 6-D; an identification, non-orientable |
 | **arena** | primary at the south pole, forced by $\chi(S^4) = 2$; latitudes the level sets |
 | **Law I** | $G_{\mu\nu} + \Lambda g_{\mu\nu} = 8\pi T^+_{\mu\nu}$, $\Lambda = 1/\ell^2$; $\gamma = 1$ trivially |
-| **Law II** | $\nabla\cdot(\mu\nabla\Phi_u) = M_c[\delta(0)-\delta(\infty)]$; meridians; weaves, never captures |
+| **Law II** | $\nabla\cdot(\mu\nabla\Phi_u) = M_{\rm tot}[\delta(\hat d)-\delta(-\hat d)]$; poles at the matter's principal axis; weaves, never captures |
+| **Machian axis** | poles at $\pm\hat d$; flux strength is normalization only; no mass threshold; secondary tilts the axis by $O(M_s/M_p)$ |
+| **equal masses at poles** | both are jellium; the base is homogeneous; the primary/secondary distinction dissolves |
+| **$n$ masses** | the axis points at the centroid direction, generically empty: **all are secondaries, none is primary**. A pole is occupied only as $m/M\to0$ |
+| **what a pole is** | the fibration's degeneracy — a geometric feature matter locates but need not occupy |
+| **masses refract** | $n$ masses give $n$ refraction centers and still exactly **two** singularities; lines bend in and out, never terminate |
+| **Keplerian limit** | $\Phi = -Gm/r[1 + r^2/6\ell^2]$; corrections $4\times10^{-15}$ at 10 kpc; jellium crossover at 1.2 Mpc for a galaxy |
+| **$v^2$ plateau** | $v^2_{\rm eq} = 1.497\,GM/\ell$, packing-independent; $f\to1$ gives $r_s = \pi\ell$ and no exterior |
+| **two fluxes** | fibration flux $\to$ uniform (jellium); second-order flux $\to$ localized ($P^2/r^2$). Same Gauss law, different spread |
+| **Mach as horizon** | $r_s(M_{\rm tot}) = \pi\ell$, the antipodal distance |
 | **Law III** | $dF = 2\pi\star J_-$; $L_E = \Omega L^{\rm ref}$; kinematic |
 | **Law IV** | self-dual 2-form $H = dB = \star_6H$; reduces to one photon $+$ one axion |
-| **$G$ identity** | $GM_c/c^2\ell = \pi/2$: a constraint, not a derivation |
+| **$G$ identity** | $GM_{\rm tot}/c^2\ell = \pi/2$: from Law I and closure alone; untouched by the Machian form |
 | **twin theorem** | $(\Delta+3)$; dipole kernel; a lone mass has no static solution |
 | **fiber reading** | $L_H = 2\pi\ell\phi^2$; $\delta L/L = -\Phi$; $E_{ij} = -2[\nabla\nabla\phi]^{\rm TF}$; PNDs along $\nabla L$ |
 | **black holes** | $f = 1 - 2GM/c^2r + GP^2/c^4r^2$, $P = g_2M/m_{\rm unit}$; $M^2\ge Q^2+P^2$; Mercury: $P/M<0.024$ |
