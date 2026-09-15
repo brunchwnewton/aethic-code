@@ -137,7 +137,7 @@ $$S = \int_{\mathbb{R}_t\times\mathbb{RP}^3}\!\!d^4x\,\sqrt{-g}\,\frac{R - 2\Lam
 
 with $\hat g$ the gravity-base metric pulled back plus the fiber parts. Varying $g$ on the base integrates matter over both fibers of each base point, so $T_+$ is the *structure of the action*, not an added rule. **Laws II and III have no action.** The constants are $G$, $\Lambda = 1/\ell^2$, the function $\mu(\rho)$, and $m_{\rm unit}$.
 
-$\mathcal{L}_B$ is written for the self-dual 2-form with the standard caveat that a chiral form admits no simple covariant Lagrangian; Law IV is imposed as a field equation, which is sufficient here since Law IV is not varied against the metric (§VIII.7).
+$\mathcal{L}_B$ cannot be written in simple covariant form: the naive $-\tfrac12\int H\wedge\star H$ vanishes identically on self-dual configurations (§VIII.2). Law IV is therefore imposed as a *field equation*, which is sufficient here since it is not varied against the metric. The known covariant alternatives — Pasti–Sorokin–Tonin, Henneaux–Teitelboim, doubled formalisms — are recorded in §VIII.2 and not adopted.
 
 ## II.3 Covariance, and what Law II does prefer [D/O]
 
@@ -352,7 +352,7 @@ The trace of the Hessian is fixed by the constraint and is the matter; the trace
 
 ## V.5 Charged and rotating black holes [D/O]
 
-**Electric charge.** A charged secondary has the ordinary Reissner–Nordström exterior on the gravity base, since Law IV reduces to ordinary Maxwell (§VIII.4).
+**Electric charge.** A charged secondary has the ordinary Reissner–Nordström exterior on the gravity base, since Law IV reduces to ordinary Maxwell (§VIII.5).
 
 **The second-order flux.** If $E$'s flux gravitates with coupling $g_2$, it adds a Reissner–Nordström-type term with an *effective magnetic charge*:
 
@@ -527,22 +527,55 @@ For spinors, chirality is the eigenvalue of the Clifford volume element. Tensors
 
 **Six-dimensional Lorentzian is exactly where a gauge field can be chiral** — the dimension of the canonical total space. A 1-form, the photon as ordinarily written, can never carry this index, which is why the structure must be placed upstairs on a 2-form.
 
-## VIII.2 The reduction: exactly one photon [T]
+**A note on notation.** The 2-form is written $B$, following the universal convention in which $A$ denotes a 1-form gauge field and $B$ a 2-form. Writing the 2-form as $A$ would collide with that convention everywhere it is read. What *is* adopted, because it carries the right intuition, is the **suppression rule**: a single lower index on $A$ always means the meridian component of $B$,
+$$A_\mu \equiv B_{\mu u},\qquad \tilde A_\mu \equiv B_{\mu\theta}$$
+so "the photon" is the 2-form with its second leg along the meridian, and the second leg is suppressed because it is always $u$.
+
+## VIII.2 The field equation, and why there is no simple action [T]
+
+**The naive action vanishes.** Try $S = -\tfrac12\int H\wedge\star H$ with $H = dB$. On a self-dual configuration $H = \star H$, so $H\wedge\star H = H\wedge H$ — and $H$ is a 3-form, of *odd* degree, so $H\wedge H = -H\wedge H = 0$ identically. **The action is identically zero on exactly the configurations it is meant to describe.** This is the standard obstruction for chiral $p$-forms in $4k+2$ dimensions, and the known ways around it are to impose self-duality as a field equation (what Law IV does), the Pasti–Sorokin–Tonin formalism with an auxiliary scalar and extra gauge symmetry, the Henneaux–Teitelboim action covariant only under a subgroup, or a doubled formalism carrying $B$ and its dual together with a constraint.
+
+**The dynamics is first order, and self-duality is all of it.** The content of Law IV is two lines:
+
+$$H = dB \qquad\text{and}\qquad H = \star_6 H$$
+
+The first gives $dH = 0$ as a Bianchi identity; the second then makes $d\star H = dH = 0$ **automatically**. There is no separate second-order equation of motion.
+
+> **Self-duality *is* the dynamics.** A chiral form obeys a *first-order* field equation, exactly as a Weyl spinor does. That parallel is not an analogy — it is the deepest sense in which this field is chiral in the same way a fermion is.
+
+**And both Maxwell equations descend as Bianchi identities.** In four dimensions $\star^2 = -1$ on 2-forms, so $\tilde F = -\star_4F$. Then:
+
+| upstairs | downstairs |
+|:--|:--|
+| Bianchi for $A$: $dF = 0$ | the homogeneous Maxwell equations |
+| Bianchi for $\tilde A$: $d\tilde F = 0$ | $d\star_4F = 0$ — the **source-free Maxwell equation** |
+
+**Maxwell's dynamical equation is, upstairs, the Bianchi identity of the magnetic potential.** The two halves of Maxwell are one statement above, split by the reduction.
+
+**Sources: electric and magnetic become one object.** With a source, $d\star H = \star j$; but self-duality makes $d\star H = dH$, and $dH = 0$ is an identity whenever $H = dB$. So **a self-dual field cannot carry independent electric and magnetic sources — they are the same source.** Upstairs there is one kind of charged object, a string; which four-dimensional charge it appears as is decided only by which cycle it wraps. The Dirac quantization condition below therefore becomes a relation between the two winding numbers, which is precisely the open question of §VIII.8.
+
+## VIII.3 The reduction: exactly one photon [T]
 
 | component | gives | dof |
 |:--|:--|:--:|
 | $B_{\mu\nu}$ | a 4-D 2-form, dual to a scalar | 1 |
 | $B_{\mu u}$ | a 4-D vector $A_\mu$ — **the photon** | 2 |
 | $B_{\mu\theta}$ | a 4-D vector $\tilde A_\mu$ — its magnetic dual | 2 |
-| $B_{u\theta}$ | a 4-D pseudoscalar | 1 |
+| $B_{u\theta}$ | a 4-D scalar | 1 |
 
-Unconstrained total: 6, which is $\binom42$ **[V]**. Self-duality relates the $(\mu\nu u)$ and $(\mu\nu\theta)$ components:
+Unconstrained total: 6, which is $\binom42$ **[V]**. Self-duality pairs the components of $H$ by how many *fiber* legs they carry, and there are **two** pairings, not one:
+
+**(a) One fiber leg each.** $H_{\mu\nu u}\leftrightarrow H_{\rho\sigma\theta}$, that is
 
 $$H_{\mu\nu u} = \tfrac12\epsilon_{\mu\nu\rho\sigma}H^{\rho\sigma}{}_\theta \qquad\Longleftrightarrow\qquad F = \star_4\tilde F$$
 
-so $\tilde A$ is not independent — it is $A$'s magnetic dual. Three degrees of freedom survive: **one photon and one scalar.**
+so $\tilde A$ is not independent — it is $A$'s magnetic dual. Four degrees of freedom become two: **one photon, not two.**
 
-## VIII.3 Charge is winding [T/D]
+**(b) Zero and two fiber legs.** $H_{\mu\nu\rho}\leftrightarrow H_{\sigma u\theta}$: the 4-D 2-form and the internal scalar are likewise identified. Two become one.
+
+Three degrees of freedom survive: **one photon and one scalar.**
+
+## VIII.4 Charge is winding [T/D]
 
 A $p$-form couples minimally to a $(p-1)$-brane, so a 2-form couples to **strings**. A string wrapping the meridian looks, from four dimensions, like a point particle charged under $A_\mu = B_{\mu u}$; one wrapping the Hopf circle is charged under $\tilde A_\mu$, hence magnetically under $A$.
 
@@ -550,17 +583,19 @@ $$\textbf{electric charge} = \text{winding on the meridian},\qquad \textbf{magne
 
 The meridian *is* the passage route for electric flux — as the cycle a charge winds rather than a field line it travels. And the two windings are exchanged by self-duality, which $\sigma$ flips: **electric–magnetic duality is orientation reversal, the same operation that flips fermion chirality.**
 
-## VIII.4 What survives below [D]
+## VIII.5 What survives below [D]
 
 Ordinary Maxwell: $F = dA$, $\epsilon = \mu_{\rm EM} = 1$, light on null geodesics. The photon comes from $B_{\mu u}$, which carries no Hopf index, so it is the $n = 0$ mode and remains **Hopf-neutral**. Total charge on the compact cover is zero by Gauss. The self-duality is gone, since a four-dimensional 1-form has no middle-degree duality. **Every electromagnetic result of version 10 survives; what is added is the upstairs chirality and the charge–winding identification.**
 
-## VIII.5 The leftover scalar is an axion [D]
+## VIII.6 The leftover scalar carries a shift symmetry [T/D]
 
-$B_{u\theta}$ is a component of a 2-form along two *spatial* directions, so it reduces to a **pseudoscalar**. Pseudoscalars couple derivatively, $\partial_\mu a\,\bar\psi\gamma^\mu\gamma_5\psi$, or topologically, $a\,F\tilde F$ — neither producing a static $1/r$ potential between unpolarized masses.
+The surviving scalar is not $B_{u\theta}$ alone but the combination that pairing (b) identifies with the 4-D 2-form. **Its parity is not fixed by counting spatial indices** — a four-dimensional parity transformation does not act on $u$ or $\theta$ at all, so that argument yields nothing. An earlier statement of this document claimed the survivor is "a pseudoscalar because it has two spatial indices"; the reasoning was wrong **[R]**, and the conclusion survives for a better and stronger reason.
 
-> **It produces no fifth force and does not spoil PPN $\gamma$** — unlike the radion of versions 2 through 5, which was a true scalar with a direct $1/r$ coupling and required the entire winding-stabilization apparatus to survive the solar system. Moving electromagnetism to a 2-form adds a massless field *for free*.
+**Shift symmetry.** The 2-form has the gauge symmetry $B\to B + d\Lambda$. Under the duality of pairing (b), a four-dimensional 2-form is equivalent to a massless scalar, and $B$'s gauge symmetry becomes that scalar's **shift symmetry**, $a\to a + \text{const}$. A shift symmetry forbids a potential and forbids *every* non-derivative coupling, so the field can appear only as $\partial_\mu a$ — derivatively, $\partial_\mu a\,\bar\psi\gamma^\mu\gamma_5\psi$ — or topologically, $a\,F\tilde F$. **Neither gives a static $1/r$ potential between unpolarized masses, and the argument needs no parity assignment.**
 
-## VIII.6 Even and odd chirality, side by side
+> **It produces no fifth force and does not spoil PPN $\gamma$.** Contrast the radion of versions 2 through 5: a geometric modulus whose *value is a physical length*, hence with no shift symmetry, hence coupling directly to the trace of the stress tensor, hence a $1/r$ force — which required the entire winding-stabilization apparatus to survive the solar system. **The difference is symmetry, not spin.** Moving electromagnetism to a 2-form adds a massless field *for free*, and the gauge symmetry that makes it harmless is the same one the 2-form already had.
+
+## VIII.7 Even and odd chirality, side by side
 
 | | odd chirality (fermions) | even chirality (light) |
 |:--|:--|:--|
@@ -574,7 +609,7 @@ $B_{u\theta}$ is a component of a 2-form along two *spatial* directions, so it r
 
 The asymmetry in the fifth row is the point, and it is not imposed: a spinor's chirality survives because spinors exist in every dimension and the operator descends; a form's self-duality does not, because the middle degree changes when the dimension does.
 
-## VIII.7 What must be rechecked [O]
+## VIII.8 What must be rechecked [O]
 
 Whether ordinary point-particle charge is realizable as string winding, and whether winding quantization matches charge quantization. Whether the self-dual 2-form's lack of a simple covariant Lagrangian obstructs anything, given that Law IV is imposed as a field equation. And the joint anomaly condition with the Weyl fermions (§IV.7).
 
@@ -692,11 +727,12 @@ The null fiber and its Bondi reading; the Eisenhart–Bargmann lift and the iden
 | $v^2_{\rm eq} = 4GM/\pi\ell$ | $15\%$ low; the converged value is $1.497\,GM/\ell$ (§V.7) |
 | "Law II's static presentation is a gauge choice" | too strong: Law II is elliptic on slices, hence instantaneous and frame-preferring; canonical only on static solutions (§II.3) |
 | electromagnetism as a 1-form on the cover | replaced by the self-dual 2-form, which has an even chirality a 1-form cannot carry (§VIII.1) |
+| "the leftover scalar is a pseudoscalar because it has two spatial indices" | 4-D parity does not act on $u$ or $\theta$; the survivor is a combination, and its harmlessness comes from shift symmetry instead (§VIII.6) |
 
 ## XI.3 Open
 
 1. **The coupling rule of §IX.6**, in form (b): make the path-lifted sheet label a *coupling* rather than a bookkeeping device. The most substantive unfinished work.
-2. **Point charges as windings** (§VIII.7), and whether winding quantization matches charge quantization.
+2. **Point charges as windings** (§VIII.8), and whether winding quantization matches charge quantization.
 3. **Anomalies:** the six-dimensional Weyl fermions and the self-dual 2-form must cancel together (§IV.7).
 4. **The Pin structure:** which of Pin$^\pm$ the fermionic base admits, and whether the choice is physical.
 5. **Reading (a) versus (b) of the seed:** whether fermions are $\sigma$-equivariant or merely use the fermionic base to define the spinor bundle.
@@ -731,7 +767,11 @@ The null fiber and its Bondi reading; the Eisenhart–Bargmann lift and the iden
 | **two fluxes** | fibration flux $\to$ uniform (jellium); second-order flux $\to$ localized ($P^2/r^2$). Same Gauss law, different spread |
 | **Mach as horizon** | $r_s(M_{\rm tot}) = \pi\ell$, the antipodal distance |
 | **Law III** | $dF = 2\pi\star J_-$; $L_E = \Omega L^{\rm ref}$; kinematic |
-| **Law IV** | self-dual 2-form $H = dB = \star_6H$; reduces to one photon $+$ one axion |
+| **Law IV** | self-dual 2-form $H = dB = \star_6H$; two self-duality pairings give one photon $+$ one shift-symmetric scalar |
+| **its dynamics** | first order: self-duality *is* the equation of motion, as for a Weyl spinor. No simple covariant action exists — the naive one vanishes |
+| **Maxwell from above** | both Maxwell equations descend as Bianchi identities, of $A$ and of $\tilde A$ |
+| **one source** | a self-dual field has no independent electric and magnetic sources: one string, two cycles to wrap |
+| **notation** | $B$ is the 2-form; $A_\mu\equiv B_{\mu u}$, $\tilde A_\mu\equiv B_{\mu\theta}$ — a suppressed second index always means the meridian |
 | **$G$ identity** | $GM_{\rm tot}/c^2\ell = \pi/2$: from Law I and closure alone; untouched by the Machian form |
 | **twin theorem** | $(\Delta+3)$; dipole kernel; a lone mass has no static solution |
 | **fiber reading** | $L_H = 2\pi\ell\phi^2$; $\delta L/L = -\Phi$; $E_{ij} = -2[\nabla\nabla\phi]^{\rm TF}$; PNDs along $\nabla L$ |
@@ -742,7 +782,7 @@ The null fiber and its Bondi reading; the Eisenhart–Bargmann lift and the iden
 | **Dirac from Weyl** | chiral halves at twin points; mass is the twin coupling, local downstairs |
 | **why Weyl** | 6-D Weyl $=$ 4 complex $=$ 8 real $=$ exactly one 4-D Dirac; no phantom duplicate |
 | **charge** | electric $=$ meridian winding; magnetic $=$ Hopf winding; exchanged by $\sigma$ |
-| **the axion** | pseudoscalar, derivative coupling, no fifth force — unlike the retired radion |
+| **the leftover scalar** | protected by the 2-form's gauge symmetry $\to$ a shift symmetry: derivative and topological couplings only, no fifth force. Unlike the radion, which had no shift symmetry |
 | **even vs odd** | fermion chirality survives the quotient; form self-duality cannot |
 | **detection** | which-path is base-only; zero modes add; $n\neq0$ invisible; Aharonov–Bohm through paths |
 | **no global sort** | $E\to E/\sigma$ is a connected double cover: no section; the twin's $\mathbb{Z}_2$ forbids it |
