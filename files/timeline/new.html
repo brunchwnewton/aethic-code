@@ -1,0 +1,1451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Timeline</title>
+<meta name="description" content="What is the meaning of life?">
+<meta name="theme-color" content="#0b1026">
+<link rel="icon" href="img/Symbol%20Icon.ico">
+<script>document.documentElement.classList.add('js')</script>
+<style>
+/* One page, two looks.
+   - Text version (the default): a readable outline of the whole timeline. This is what shows
+     without JavaScript, and what search engines, scrapers and screen readers read.
+   - Interactive version (html.js, set by the one-line script in <head>): the same markup,
+     laid out as three zoomable bands of strata.
+   Each span wears its colour from the international geologic time scale chart (--c, set per span).
+   Gold is kept for the miracles, and moonlight white for "you are here". */
+
+:root {
+  --sky: #0b1026;            /* night, at the top of the page */
+  --rock: #1a1511;           /* basalt, at the bottom */
+  --moon: #f1ebdd;           /* text and cursors */
+  --ash: #a59e8e;            /* secondary text */
+  --gold: #e8b64c;           /* miracles */
+  --glow: #ffd978;           /* a miracle under the pointer */
+  --ink: #17120e;            /* text on light strata */
+  --line: rgb(241 235 221 / .14);
+  --serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', 'TeX Gyre Pagella', 'URW Palladio L', P052, Georgia, serif;
+  --sans: 'Avenir Next Condensed', 'Bahnschrift SemiCondensed', 'Roboto Condensed', sans-serif-condensed, 'TeX Gyre Heros Cn', 'Arial Narrow', 'DejaVu Sans Condensed', sans-serif;
+
+  --lane: 32px;              /* miracle letters, above the strata */
+  --row: 46px;               /* one row of strata */
+  --ruler: 26px;             /* the scale, below the strata */
+  --gap: 44px;               /* between bands, where the zoom funnel sits */
+  --gutter: 12rem;           /* band titles */
+  color-scheme: dark;
+}
+
+[hidden] { display: none !important; }
+
+html { background: var(--rock); }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(180deg, var(--sky) 0, #0f1128 40%, var(--rock) 100%);
+  color: var(--moon);
+  font: 18px/1.6 var(--serif);
+}
+
+::selection { background: rgb(232 182 76 / .35); }
+
+/* ---------- Text version ---------- */
+
+.stage { max-width: 46rem; margin: 0 auto; padding: 4rem 1.5rem 5rem; }
+h1 { margin: 0 0 .75rem; font-size: 2.75rem; font-weight: 600; line-height: 1.1; letter-spacing: -.01em; }
+.intro { margin: 0; font-size: 1.1875rem; color: var(--ash); }
+h2 { margin: 3.5rem 0 1rem; font-size: 1.625rem; font-weight: 600; line-height: 1.25; }
+h3 { margin: 2rem 0 .35rem; font-size: 1.1875rem; font-weight: 600; line-height: 1.35; }
+p { margin: 0 0 1rem; }
+ol { margin: 0; padding: 0; list-style: none; }
+
+.spans li { margin: .2rem 0; }
+.spans .spans { margin: .3rem 0 .8rem .28rem; padding-left: 1.15rem; border-left: 1px solid var(--line); }
+.spans .name { font-weight: 600; }
+.spans .name::before {           /* the span's colour on the time scale chart */
+  content: '';
+  display: inline-block;
+  width: .6em;
+  height: .6em;
+  margin-right: .55em;
+  border-radius: 1px;
+  background: var(--c, var(--ash));
+}
+.info { color: var(--ash); }
+
+.definition { font-style: italic; color: var(--ash); }
+.miracles li { margin: .4rem 0; }
+.miracles .name { font-weight: 600; }
+.symbol { display: inline-block; min-width: 1.5em; font-size: 1.2em; line-height: 1; color: var(--gold); }
+
+.readout, .cursor { display: none; }
+.map { margin: 3.5rem 0 0; }
+.frame { max-width: 480px; }
+#map { display: block; width: 100%; height: auto; }
+figcaption { margin-top: .5rem; font-size: 1rem; color: var(--ash); }
+
+/* ---------- Interactive version ---------- */
+
+.js .stage { max-width: 1800px; padding: 28px clamp(16px, 3vw, 44px) 64px; }
+
+/* Still in the page for search engines and screen readers, just not shown */
+.js .text-only,
+.js .band .info,
+.js .band .marker .name,
+.js .band .spans > li > .spans > li > .spans {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Title, date and where you are */
+.js .masthead { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 18px; margin-bottom: 26px; }
+.js h1 { margin: 0; font-size: 26px; }
+.js .intro { font: 15px/1.4 var(--sans); }
+
+.js .readout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 24rem);
+  align-items: end;
+  gap: 10px 48px;
+  margin-bottom: 34px;
+}
+.js .mya { grid-area: 1 / 1; display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; margin: 0; }
+.js #myaWrite {
+  width: 4.6ch;
+  margin: 0;
+  padding: 0 0 4px;
+  border: 0;
+  border-bottom: 1px solid rgb(241 235 221 / .3);
+  border-radius: 0;
+  background: transparent;
+  color: var(--moon);
+  font: 400 60px/1 var(--serif);
+  font-variant-numeric: lining-nums tabular-nums;
+  text-align: right;
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+@supports (field-sizing: content) {      /* the box hugs the digits, so the number sits on the left margin */
+  .js #myaWrite { width: auto; min-width: 1ch; field-sizing: content; text-align: left; }
+}
+.js #myaWrite::-webkit-inner-spin-button,
+.js #myaWrite::-webkit-outer-spin-button { margin: 0; -webkit-appearance: none; }
+.js #myaWrite:hover { border-bottom-color: rgb(241 235 221 / .6); }
+.js #myaWrite:focus { outline: none; border-bottom-color: var(--moon); }
+.js #myaWrite:focus-visible { outline: 2px solid var(--moon); outline-offset: 6px; }
+.js .mya label { font: italic 26px/1.2 var(--serif); color: var(--ash); }
+.js .here {
+  grid-area: 2 / 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 10px;
+  min-height: 22px;
+  margin: 0;
+  font: 15px/1.45 var(--sans);
+}
+.js .crumb { display: inline-flex; align-items: center; gap: 7px; }
+.js .crumb::before { content: ''; width: 10px; height: 10px; border-radius: 2px; background: var(--c); }
+.js .crumb-sep { color: var(--ash); }
+.js .hint { grid-area: 1 / 2 / 3 / 3; margin: 0; font: 14px/1.5 var(--sans); color: var(--ash); }
+
+/* Bands */
+.js .bands { display: grid; row-gap: var(--gap); }
+.js .band-row {
+  display: grid;
+  grid-template-columns: var(--gutter) minmax(0, 1fr);
+  column-gap: 28px;
+  container: band / inline-size;
+}
+.js .band-head { padding-top: calc(var(--lane) + 3px); }
+.js .band-title { margin: 0; font: 600 19px/1.25 var(--serif); }
+.js .band-range { margin: 5px 0 0; font: 14px/1.35 var(--sans); color: var(--ash); }
+.js .band {
+  position: relative;
+  height: calc(var(--lane) + 2 * var(--row) + var(--ruler));
+  cursor: ew-resize;
+  touch-action: pan-y;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Strata. A list is one row; a nested list is the row below, under its parent span only.
+   --x and --w are percentages of the parent span. */
+.js .band .spans {
+  position: absolute;
+  top: var(--lane);
+  left: 0;
+  width: 100%;
+  height: var(--row);
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.js .band .spans .spans { top: 100%; }
+.js .band .spans > li {
+  --x: 0%;                       /* never inherit a parent span's position */
+  position: absolute;
+  top: 0;
+  left: var(--x);
+  width: var(--w, 0);
+  height: 100%;
+  margin: 0;
+  background: var(--c);
+  color: var(--ink);
+  box-shadow: inset -1px 0 rgb(11 16 38 / .4);
+  container-type: inline-size;   /* lets a name know how wide its span is */
+}
+.js .band .spans .spans > li { box-shadow: inset -1px 0 rgb(11 16 38 / .4), inset 0 1px rgb(11 16 38 / .4); }
+.js .band .spans > li.on-dark { color: var(--moon); }
+.js .band .spans > li.is-hovered,
+.js .band .spans > li.is-partner {     /* the same span in the next band lights up too */
+  z-index: 1;
+  outline: 2px solid var(--moon);
+  outline-offset: -2px;
+}
+.js .band .spans > li > .name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: safe center;  /* a word wider than its span keeps its first letters in view */
+  height: 100%;
+  padding: 0 3px;
+  box-sizing: border-box;
+  overflow: hidden;              /* and is cut off at the span's right edge */
+  font: 500 13px/1.1 var(--sans);
+  letter-spacing: .01em;
+  text-align: center;
+}
+.js .band .spans .name::before { content: none; }
+@container (width < 18px) {      /* too thin for a letter: hide the name (hovering still shows it) */
+  .js .band .spans > li > .name { color: transparent; }
+}
+
+/* Miracles: golden spikes through the strata */
+.js .band .miracles { position: absolute; top: 0; left: 0; width: 100%; height: 0; margin: 0; }
+.js .band .miracle { position: absolute; top: 0; left: var(--x, 0); z-index: 2; margin: 0; }
+.js .band .marker {
+  position: absolute;
+  top: 0;
+  left: -9px;
+  display: block;
+  width: 18px;
+  height: calc(var(--lane) + 2 * var(--row));
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  appearance: none;
+  background: none;
+  color: var(--gold);
+  font: inherit;
+  cursor: pointer;
+  opacity: .4;                   /* still to come at the cursor's time */
+}
+.js .band .is-past .marker { opacity: 1; }
+.js .band .marker::before {      /* the spike's head */
+  content: '';
+  position: absolute;
+  top: calc(var(--lane) - 7px);
+  left: 5px;
+  width: 8px;
+  height: 7px;
+  background: currentColor;
+  clip-path: polygon(0 0, 100% 0, 50% 100%);
+}
+.js .band .marker::after {       /* the spike */
+  content: '';
+  position: absolute;
+  top: calc(var(--lane) - 1px);
+  bottom: 0;
+  left: 8.25px;
+  width: 1.5px;
+  background: currentColor;
+  box-shadow: 0 0 0 .5px rgb(11 16 38 / .6);
+}
+.js .band .symbol {
+  position: absolute;
+  top: calc(var(--lane) - 30px);
+  left: 50%;
+  min-width: 0;
+  transform: translateX(-50%);
+  font: 18px/22px var(--serif);
+  white-space: nowrap;
+  color: inherit;
+}
+.js .band .is-lit .marker { opacity: 1; color: var(--glow); filter: drop-shadow(0 0 5px rgb(255 206 92 / .85)); }
+.js .band .marker:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+/* Cursors */
+.js .cursor {
+  position: absolute;
+  top: calc(var(--lane) - 8px);
+  left: var(--x, 100%);
+  z-index: 3;
+  display: block;
+  width: 18px;
+  height: calc(2 * var(--row) + var(--ruler) + 8px);
+  margin-left: -9px;
+  border-radius: 9px;
+  cursor: ew-resize;
+  touch-action: none;
+}
+.js .cursor::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 9px;
+  left: 8px;
+  width: 2px;
+  background: var(--moon);
+  box-shadow: 0 0 0 1px rgb(11 16 38 / .6);
+}
+.js .cursor::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 3px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--moon);
+  box-shadow: 0 0 0 1px rgb(11 16 38 / .6), 0 1px 4px rgb(0 0 0 / .5);
+}
+.js .cursor:focus-visible { outline: 2px solid var(--moon); outline-offset: 3px; }
+
+/* Scales */
+.js .ticks {
+  position: absolute;
+  top: calc(var(--lane) + 2 * var(--row));
+  left: 0;
+  width: 100%;
+  height: var(--ruler);
+  margin: 0;
+  font: 12.5px/1 var(--sans);
+  font-variant-numeric: tabular-nums;
+  color: var(--ash);
+}
+.js .ticks li { position: absolute; top: 0; left: var(--x); padding-top: 9px; white-space: nowrap; transform: translateX(-50%); }
+.js .ticks li::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: calc(50% - .5px);
+  width: 1px;
+  height: 5px;
+  background: rgb(165 158 142 / .75);
+}
+.js .ticks .at-start { transform: none; }
+.js .ticks .at-start::before { left: 0; }
+.js .ticks .at-end { transform: translateX(-100%); }
+.js .ticks .at-end::before { left: auto; right: 0; }
+
+/* Zoom funnels: the slice of the band above that this band enlarges */
+.js .funnel {
+  -webkit-mask-image: linear-gradient(#000, rgb(0 0 0 / .3));
+  mask-image: linear-gradient(#000, rgb(0 0 0 / .3));   /* fades towards the band it opens onto */
+  position: absolute;
+  top: calc(-1 * var(--gap));
+  left: 0;
+  width: 100%;
+  height: calc(var(--gap) + var(--lane));
+  overflow: visible;
+  pointer-events: none;
+}
+.js .funnel polygon { fill: var(--c); fill-opacity: .14; }
+.js .funnel path { fill: none; stroke: var(--c); stroke-opacity: .6; stroke-width: 1; vector-effect: non-scaling-stroke; }
+.js .band[data-empty] .funnel { display: none; }
+
+.js .band-empty {
+  position: absolute;
+  top: var(--lane);
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: calc(2 * var(--row));
+  margin: 0;
+  padding: 0 24px;
+  background: repeating-linear-gradient(-45deg, rgb(241 235 221 / .05) 0 1px, transparent 1px 10px);
+  box-shadow: inset 0 0 0 1px var(--line);
+  color: var(--ash);
+  font: 15px/1.4 var(--sans);
+  text-align: center;
+  cursor: default;
+}
+.js .band:not([data-empty]) .band-empty { display: none; }
+
+/* The moment, the miracles and the map */
+.js .dock {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, .9fr) minmax(0, 1fr);
+  align-items: start;
+  gap: 44px 56px;
+  margin-top: 64px;
+}
+.js .map { margin: 0; }
+.js .moment-title,
+.js .legend-title { margin: 0; font: 600 26px/1.2 var(--serif); }
+.js .sym { font-weight: 400; color: var(--gold); }
+.js .moment-range { margin: 6px 0 0; font: 14px/1.4 var(--sans); color: var(--ash); }
+.js .moment { display: none; }
+.js .moment.is-now { display: block; }
+.js .moment p { max-width: 62ch; margin: 18px 0 0; font-size: 19px; line-height: 1.65; }
+
+.js .legend .definition { margin: 6px 0 16px; font-size: 16px; }
+.js .legend li { margin: 0; }
+.js .legend .marker {
+  display: grid;
+  grid-template-columns: 1.75em minmax(0, 1fr) auto;
+  align-items: baseline;
+  column-gap: 10px;
+  margin: 0 -10px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  color: var(--ash);
+  cursor: pointer;
+}
+.js .legend .symbol { min-width: 0; font-size: 22px; text-align: center; opacity: .4; }
+.js .legend .name { font-size: 17px; }
+.js .legend .when { font: 14px var(--sans); font-variant-numeric: tabular-nums; color: var(--ash); }
+.js .legend .is-past .marker { color: var(--moon); }
+.js .legend .is-past .symbol { opacity: 1; }
+.js .legend .is-lit .marker { background: rgb(232 182 76 / .14); color: var(--moon); }
+.js .legend .is-lit .symbol { opacity: 1; color: var(--glow); }
+
+.js .frame { position: relative; max-width: none; aspect-ratio: 2 / 1; overflow: hidden; border-radius: 3px; background: rgb(0 0 0 / .3); }
+.js #map { height: 100%; object-fit: contain; mix-blend-mode: screen; }
+.js .map.is-off #map { visibility: hidden; }
+.js .map-note { display: none; }
+.js .map.is-off .map-note {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0 28px;
+  background: repeating-linear-gradient(-45deg, rgb(241 235 221 / .05) 0 1px, transparent 1px 10px);
+  color: var(--ash);
+  font: 15px/1.4 var(--sans);
+  text-align: center;
+}
+.js figcaption { margin-top: 10px; font: 14px/1.4 var(--sans); }
+
+@media (max-width: 1180px) {
+  .js .dock { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); }
+  .js .map { grid-column: 1 / -1; max-width: 560px; }
+}
+
+@media (max-width: 760px) {
+  :root { --row: 42px; --gap: 28px; }
+  .js .readout { grid-template-columns: minmax(0, 1fr); }
+  .js .hint { grid-area: auto; }
+  .js #myaWrite { font-size: 46px; }
+  .js .mya label { font-size: 21px; }
+  .js .band-row { grid-template-columns: minmax(0, 1fr); }
+  .js .band-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 10px; padding: 0 0 2px; }
+  .js .band-title { font-size: 17px; }
+  .js .band-range { margin: 0; }
+  .js .funnel { display: none; }
+  .js .dock { grid-template-columns: minmax(0, 1fr); margin-top: 48px; }
+}
+
+/* Narrow bands: band 1's letters alternate between two lines so neighbours don't collide */
+@container band (width < 900px) {
+  .js #timeline1,
+  .js .band-row:first-child .band-head { --lane: 52px; }
+  .js #timeline1 .miracle:nth-child(even) .symbol { top: calc(var(--lane) - 50px); }
+  .js .band .symbol { font-size: 15px; }
+}
+
+@container band (width < 700px) {
+  .js .ticks .minor { color: transparent; }
+}
+</style>
+</head>
+<body>
+<main class="stage">
+
+<header class="masthead">
+<h1>Timeline</h1>
+<p class="intro">Earth’s history from 4,600 million years ago to today, in eons, eras, periods, epochs and ages, with nine miracles marked along the way.</p>
+</header>
+
+<div class="readout">
+<p class="mya"><input id="myaWrite" type="number" min="0" max="4600" step="1" value="0" inputmode="numeric" autocomplete="off"><label for="myaWrite">million years ago</label></p>
+<p class="here"></p>
+</div>
+
+<div class="bands">
+
+<div class="band-row">
+<div id="timeline1" class="band">
+<div id="cursor1" class="cursor" role="slider" tabindex="0" aria-label="Time cursor for all of Earth’s history" aria-valuemin="0" aria-valuemax="100"></div>
+<h2 class="text-only">Eons, eras, periods, epochs and ages</h2>
+<ol class="spans">
+  <li id="hadean" class="on-dark" data-start="4600" data-end="4000" style="--x:0%;--w:13.0435%;--c:#ae027e"><span class="name">Hadean</span> <span class="info">Eon, 4,600 to 4,000 million years ago</span></li>
+  <li id="archean" data-start="4000" data-end="2500" style="--x:13.0435%;--w:32.6087%;--c:#f0047f"><span class="name">Archean</span> <span class="info">Eon, 4,000 to 2,500 million years ago</span>
+    <ol class="spans">
+      <li id="eoarchean" class="on-dark" data-start="4000" data-end="3600" style="--x:0%;--w:26.6667%;--c:#da037f"><span class="name">Eoarchean</span> <span class="info">Era, 4,000 to 3,600 million years ago</span></li>
+      <li id="paleoarchean" data-start="3600" data-end="3200" style="--x:26.6667%;--w:26.6666%;--c:#f4449f"><span class="name">Paleoarchean</span> <span class="info">Era, 3,600 to 3,200 million years ago</span></li>
+      <li id="mesoarchean" data-start="3200" data-end="2800" style="--x:53.3333%;--w:26.6667%;--c:#f768a9"><span class="name">Mesoarchean</span> <span class="info">Era, 3,200 to 2,800 million years ago</span></li>
+      <li id="neoarchean" data-start="2800" data-end="2500" style="--x:80%;--w:20%;--c:#f99bc1"><span class="name">Neoarchean</span> <span class="info">Era, 2,800 to 2,500 million years ago</span></li>
+    </ol>
+  </li>
+  <li id="proterozoic" data-start="2500" data-end="541" style="--x:45.6522%;--w:42.5869%;--c:#f73563"><span class="name">Proterozoic</span> <span class="info">Eon, 2,500 to 541 million years ago</span>
+    <ol class="spans">
+      <li id="paleoproterozoic" data-start="2500" data-end="1600" style="--x:0%;--w:45.9418%;--c:#f74370"><span class="name">Paleoproterozoic</span> <span class="info">Era, 2,500 to 1,600 million years ago</span>
+        <ol class="spans">
+          <li id="siderian" data-start="2500" data-end="2300" style="--x:0%;--w:22.2222%;--c:#f74f7c"><span class="name">Siderian</span> <span class="info">Period, 2,500 to 2,300 million years ago</span></li>
+          <li id="rhyacian" data-start="2300" data-end="2050" style="--x:22.2222%;--w:27.7778%;--c:#f75b89"><span class="name">Rhyacian</span> <span class="info">Period, 2,300 to 2,050 million years ago</span></li>
+          <li id="orosirian" data-start="2050" data-end="1800" style="--x:50%;--w:27.7778%;--c:#f76898"><span class="name">Orosirian</span> <span class="info">Period, 2,050 to 1,800 million years ago</span></li>
+          <li id="statherian" data-start="1800" data-end="1600" style="--x:77.7778%;--w:22.2222%;--c:#f875a7"><span class="name">Statherian</span> <span class="info">Period, 1,800 to 1,600 million years ago</span></li>
+        </ol>
+      </li>
+      <li id="mesoproterozoic" data-start="1600" data-end="1000" style="--x:45.9418%;--w:30.6279%;--c:#fdb462"><span class="name">Mesoproterozoic</span> <span class="info">Era, 1,600 to 1,000 million years ago</span>
+        <ol class="spans">
+          <li id="calymmian" data-start="1600" data-end="1400" style="--x:0%;--w:33.3333%;--c:#fdc07a"><span class="name">Calymmian</span> <span class="info">Period, 1,600 to 1,400 million years ago</span></li>
+          <li id="ectasian" data-start="1400" data-end="1200" style="--x:33.3333%;--w:33.3334%;--c:#fdcc8a"><span class="name">Ectasian</span> <span class="info">Period, 1,400 to 1,200 million years ago</span></li>
+          <li id="stenian" data-start="1200" data-end="1000" style="--x:66.6667%;--w:33.3333%;--c:#fed99a"><span class="name">Stenian</span> <span class="info">Period, 1,200 to 1,000 million years ago</span></li>
+        </ol>
+      </li>
+      <li id="neoproterozoic" data-start="1000" data-end="541" style="--x:76.5697%;--w:23.4303%;--c:#feb342"><span class="name">Neoproterozoic</span> <span class="info">Era, 1,000 to 541 million years ago</span>
+        <ol class="spans">
+          <li id="tonian" data-start="1000" data-end="720" style="--x:0%;--w:61.0022%;--c:#febf4e"><span class="name">Tonian</span> <span class="info">Period, 1,000 to 720 million years ago</span></li>
+          <li id="cryogenian" data-start="720" data-end="635" style="--x:61.0022%;--w:18.5185%;--c:#fecc5c"><span class="name">Cryogenian</span> <span class="info">Period, 720 to 635 million years ago</span></li>
+          <li id="ediacaran" data-start="635" data-end="541" style="--x:79.5207%;--w:20.4793%;--c:#fed96a"><span class="name">Ediacaran</span> <span class="info">Period, 635 to 541 million years ago</span></li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li id="phanerozoic" data-start="541" data-end="0" style="--x:88.2391%;--w:11.7609%;--c:#9ad9dd"><span class="name">Phanerozoic</span> <span class="info">Eon, 541 million years ago to today</span>
+    <ol class="spans">
+      <li id="dawn" data-formal="Paleozoic" data-start="541" data-end="251.902" style="--x:0%;--w:53.4377%;--c:#99c08d"><span class="name">Dawn</span> <span class="info">Era (Paleozoic), 541 to 251.902 million years ago</span>
+        <ol class="spans">
+          <li id="cambrian" data-start="541" data-end="485.4" style="--x:0%;--w:19.2322%;--c:#7fa056"><span class="name">Cambrian</span> <span class="info">Period, 541 to 485.4 million years ago</span>
+            <ol class="spans">
+              <li id="terreneuvian" data-start="541" data-end="521" style="--x:0%;--w:35.9712%;--c:#8cb06c"><span class="name">Terreneuvian</span> <span class="info">Epoch, 541 to 521 million years ago</span>
+                <ol class="spans">
+                  <li id="fortunian" data-start="541" data-end="529" style="--x:0%;--w:60%"><span class="name">Fortunian</span> <span class="info">Age, 541 to 529 million years ago</span></li>
+                  <li id="stage-2" data-start="529" data-end="521" style="--x:60%;--w:40%"><span class="name">Stage 2</span> <span class="info">Age, 529 to 521 million years ago</span></li>
+                </ol>
+              </li>
+              <li id="series-2" data-start="521" data-end="509" style="--x:35.9712%;--w:21.5828%;--c:#99c078"><span class="name">Series 2</span> <span class="info">Epoch, 521 to 509 million years ago</span>
+                <ol class="spans">
+                  <li id="stage-3" data-start="521" data-end="514" style="--x:0%;--w:58.3333%"><span class="name">Stage 3</span> <span class="info">Age, 521 to 514 million years ago</span></li>
+                  <li id="stage-4" data-start="514" data-end="509" style="--x:58.3333%;--w:41.6667%"><span class="name">Stage 4</span> <span class="info">Age, 514 to 509 million years ago</span></li>
+                </ol>
+              </li>
+              <li id="miaolingian" data-start="509" data-end="497" style="--x:57.554%;--w:21.5827%;--c:#a6cf86"><span class="name">Miaolingian</span> <span class="info">Epoch, 509 to 497 million years ago</span>
+                <ol class="spans">
+                  <li id="wuliuan" data-start="509" data-end="504.5" style="--x:0%;--w:37.5%"><span class="name">Wuliuan</span> <span class="info">Age, 509 to 504.5 million years ago</span></li>
+                  <li id="drumian" data-start="504.5" data-end="500.5" style="--x:37.5%;--w:33.3333%"><span class="name">Drumian</span> <span class="info">Age, 504.5 to 500.5 million years ago</span></li>
+                  <li id="guzhangian" data-start="500.5" data-end="497" style="--x:70.8333%;--w:29.1667%"><span class="name">Guzhangian</span> <span class="info">Age, 500.5 to 497 million years ago</span></li>
+                </ol>
+              </li>
+              <li id="furongian" data-start="497" data-end="485.4" style="--x:79.1367%;--w:20.8633%;--c:#b3e095"><span class="name">Furongian</span> <span class="info">Epoch, 497 to 485.4 million years ago</span>
+                <ol class="spans">
+                  <li id="paibian" data-start="497" data-end="494" style="--x:0%;--w:25.8621%"><span class="name">Paibian</span> <span class="info">Age, 497 to 494 million years ago</span></li>
+                  <li id="jiangshanian" data-start="494" data-end="489.5" style="--x:25.8621%;--w:38.7931%"><span class="name">Jiangshanian</span> <span class="info">Age, 494 to 489.5 million years ago</span></li>
+                  <li id="stage-10" data-start="489.5" data-end="485.4" style="--x:64.6552%;--w:35.3448%"><span class="name">Stage 10</span> <span class="info">Age, 489.5 to 485.4 million years ago</span></li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+          <li id="ordovician" data-start="485.4" data-end="443.8" style="--x:19.2322%;--w:14.3896%;--c:#009270"><span class="name">Ordovician</span> <span class="info">Period, 485.4 to 443.8 million years ago</span>
+            <ol class="spans">
+              <li id="early-ordovician" data-start="485.4" data-end="470" style="--x:0%;--w:37.0192%;--c:#1a9d6f"><span class="name">Early Ordovician</span> <span class="info">Epoch, 485.4 to 470 million years ago</span>
+                <ol class="spans">
+                  <li id="tremadocian" data-start="485.4" data-end="477.7" style="--x:0%;--w:50%"><span class="name">Tremadocian</span> <span class="info">Age, 485.4 to 477.7 million years ago</span></li>
+                  <li id="floian" data-start="477.7" data-end="470" style="--x:50%;--w:50%"><span class="name">Floian</span> <span class="info">Age, 477.7 to 470 million years ago</span></li>
+                </ol>
+              </li>
+              <li id="middle-ordovician" data-start="470" data-end="458.4" style="--x:37.0192%;--w:27.8846%;--c:#4db47e"><span class="name">Middle Ordovician</span> <span class="info">Epoch, 470 to 458.4 million years ago</span>
+                <ol class="spans">
+                  <li id="dapingian" data-start="470" data-end="467.3" style="--x:0%;--w:23.2759%"><span class="name">Dapingian</span> <span class="info">Age, 470 to 467.3 million years ago</span></li>
+                  <li id="darriwilian" data-start="467.3" data-end="458.4" style="--x:23.2759%;--w:76.7241%"><span class="name">Darriwilian</span> <span class="info">Age, 467.3 to 458.4 million years ago</span></li>
+                </ol>
+              </li>
+              <li id="late-ordovician" data-start="458.4" data-end="443.8" style="--x:64.9038%;--w:35.0962%;--c:#7fca93"><span class="name">Late Ordovician</span> <span class="info">Epoch, 458.4 to 443.8 million years ago</span>
+                <ol class="spans">
+                  <li id="sandbian" data-start="458.4" data-end="453" style="--x:0%;--w:36.9863%"><span class="name">Sandbian</span> <span class="info">Age, 458.4 to 453 million years ago</span></li>
+                  <li id="katian" data-start="453" data-end="445.2" style="--x:36.9863%;--w:53.4247%"><span class="name">Katian</span> <span class="info">Age, 453 to 445.2 million years ago</span></li>
+                  <li id="hirnantian" data-start="445.2" data-end="443.8" style="--x:90.411%;--w:9.589%"><span class="name">Hirnantian</span> <span class="info">Age, 445.2 to 443.8 million years ago</span></li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+          <li id="silurian" data-start="443.8" data-end="419.2" style="--x:33.6218%;--w:8.5092%;--c:#b3e1b6"><span class="name">Silurian</span> <span class="info">Period, 443.8 to 419.2 million years ago</span>
+            <ol class="spans">
+              <li id="llandovery" data-start="443.8" data-end="433.4" style="--x:0%;--w:42.2764%;--c:#99d7b3"><span class="name">Llandovery</span> <span class="info">Epoch, 443.8 to 433.4 million years ago</span>
+                <ol class="spans">
+                  <li id="rhuddanian" data-start="443.8" data-end="440.8" style="--x:0%;--w:28.8462%"><span class="name">Rhuddanian</span> <span class="info">Age, 443.8 to 440.8 million years ago</span></li>
+                  <li id="aeronian" data-start="440.8" data-end="438.5" style="--x:28.8462%;--w:22.1153%"><span class="name">Aeronian</span> <span class="info">Age, 440.8 to 438.5 million years ago</span></li>
+                  <li id="telychian" data-start="438.5" data-end="433.4" style="--x:50.9615%;--w:49.0385%"><span class="name">Telychian</span> <span class="info">Age, 438.5 to 433.4 million years ago</span></li>
+                </ol>
+              </li>
+              <li id="wenlock" data-start="433.4" data-end="427.4" style="--x:42.2764%;--w:24.3903%;--c:#b3e1c2"><span class="name">Wenlock</span> <span class="info">Epoch, 433.4 to 427.4 million years ago</span>
+                <ol class="spans">
+                  <li id="sheinwoodian" data-start="433.4" data-end="430.5" style="--x:0%;--w:48.3333%"><span class="name">Sheinwoodian</span> <span class="info">Age, 433.4 to 430.5 million years ago</span></li>
+                  <li id="homerian" data-start="430.5" data-end="427.4" style="--x:48.3333%;--w:51.6667%"><span class="name">Homerian</span> <span class="info">Age, 430.5 to 427.4 million years ago</span></li>
+                </ol>
+              </li>
+              <li id="ludlow" data-start="427.4" data-end="423" style="--x:66.6667%;--w:17.8861%;--c:#bfe6cf"><span class="name">Ludlow</span> <span class="info">Epoch, 427.4 to 423 million years ago</span>
+                <ol class="spans">
+                  <li id="gorstian" data-start="427.4" data-end="425.6" style="--x:0%;--w:40.9091%"><span class="name">Gorstian</span> <span class="info">Age, 427.4 to 425.6 million years ago</span></li>
+                  <li id="ludfordian" data-start="425.6" data-end="423" style="--x:40.9091%;--w:59.0909%"><span class="name">Ludfordian</span> <span class="info">Age, 425.6 to 423 million years ago</span></li>
+                </ol>
+              </li>
+              <li id="pridoli" data-start="423" data-end="419.2" style="--x:84.5528%;--w:15.4472%;--c:#e6f5e1"><span class="name">Pridoli</span> <span class="info">Epoch, 423 to 419.2 million years ago</span>
+                <ol class="spans">
+                  <li id="pridoli-age" data-start="423" data-end="419.2" style="--x:0%;--w:100%"><span class="name">Pridoli</span> <span class="info">Age, 423 to 419.2 million years ago</span></li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+          <li id="devonian" data-start="419.2" data-end="358.9" style="--x:42.131%;--w:20.858%;--c:#cb8c37"><span class="name">Devonian</span> <span class="info">Period, 419.2 to 358.9 million years ago</span>
+            <ol class="spans">
+              <li id="early-devonian" data-start="419.2" data-end="393.3" style="--x:0%;--w:42.9519%;--c:#e5ac4d"><span class="name">Early Devonian</span> <span class="info">Epoch, 419.2 to 393.3 million years ago</span>
+                <ol class="spans">
+                  <li id="lochkovian" data-start="419.2" data-end="410.8" style="--x:0%;--w:32.4324%"><span class="name">Lochkovian</span> <span class="info">Age, 419.2 to 410.8 million years ago</span></li>
+                  <li id="pragian" data-start="410.8" data-end="407.6" style="--x:32.4324%;--w:12.3552%"><span class="name">Pragian</span> <span class="info">Age, 410.8 to 407.6 million years ago</span></li>
+                  <li id="emsian" data-start="407.6" data-end="393.3" style="--x:44.7876%;--w:55.2124%"><span class="name">Emsian</span> <span class="info">Age, 407.6 to 393.3 million years ago</span></li>
+                </ol>
+              </li>
+              <li id="middle-devonian" data-start="393.3" data-end="382.7" style="--x:42.9519%;--w:17.5788%;--c:#f1c868"><span class="name">Middle Devonian</span> <span class="info">Epoch, 393.3 to 382.7 million years ago</span>
+                <ol class="spans">
+                  <li id="eifelian" data-start="393.3" data-end="387.7" style="--x:0%;--w:52.8302%"><span class="name">Eifelian</span> <span class="info">Age, 393.3 to 387.7 million years ago</span></li>
+                  <li id="givetian" data-start="387.7" data-end="382.7" style="--x:52.8302%;--w:47.1698%"><span class="name">Givetian</span> <span class="info">Age, 387.7 to 382.7 million years ago</span></li>
+                </ol>
+              </li>
+              <li id="late-devonian" data-start="382.7" data-end="358.9" style="--x:60.5307%;--w:39.4693%;--c:#f1e19d"><span class="name">Late Devonian</span> <span class="info">Epoch, 382.7 to 358.9 million years ago</span>
+                <ol class="spans">
+                  <li id="frasnian" data-start="382.7" data-end="372.2" style="--x:0%;--w:44.1176%"><span class="name">Frasnian</span> <span class="info">Age, 382.7 to 372.2 million years ago</span></li>
+                  <li id="famennian" data-start="372.2" data-end="358.9" style="--x:44.1176%;--w:55.8824%"><span class="name">Famennian</span> <span class="info">Age, 372.2 to 358.9 million years ago</span></li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+          <li id="carboniferous" data-start="358.9" data-end="298.9" style="--x:62.989%;--w:20.7542%;--c:#67a599"><span class="name">Carboniferous</span> <span class="info">Period, 358.9 to 298.9 million years ago</span>
+            <ol class="spans">
+              <li id="mississippian" data-start="358.9" data-end="323.2" style="--x:0%;--w:59.5%;--c:#678f66"><span class="name">Mississippian</span> <span class="info">Epoch, 358.9 to 323.2 million years ago</span>
+                <ol class="spans">
+                  <li id="tournaisian" data-start="358.9" data-end="346.7" style="--x:0%;--w:34.1737%"><span class="name">Tournaisian</span> <span class="info">Age, 358.9 to 346.7 million years ago</span></li>
+                  <li id="visean" data-start="346.7" data-end="330.9" style="--x:34.1737%;--w:44.2577%"><span class="name">Viséan</span> <span class="info">Age, 346.7 to 330.9 million years ago</span></li>
+                  <li id="serpukhovian" data-start="330.9" data-end="323.2" style="--x:78.4314%;--w:21.5686%"><span class="name">Serpukhovian</span> <span class="info">Age, 330.9 to 323.2 million years ago</span></li>
+                </ol>
+              </li>
+              <li id="pennsylvanian" data-start="323.2" data-end="298.9" style="--x:59.5%;--w:40.5%;--c:#99c2b5"><span class="name">Pennsylvanian</span> <span class="info">Epoch, 323.2 to 298.9 million years ago</span>
+                <ol class="spans">
+                  <li id="bashkirian" data-start="323.2" data-end="315.2" style="--x:0%;--w:32.9218%"><span class="name">Bashkirian</span> <span class="info">Age, 323.2 to 315.2 million years ago</span></li>
+                  <li id="moscovian" data-start="315.2" data-end="307" style="--x:32.9218%;--w:33.7449%"><span class="name">Moscovian</span> <span class="info">Age, 315.2 to 307 million years ago</span></li>
+                  <li id="kasimovian" data-start="307" data-end="303.7" style="--x:66.6667%;--w:13.5802%"><span class="name">Kasimovian</span> <span class="info">Age, 307 to 303.7 million years ago</span></li>
+                  <li id="gzhelian" data-start="303.7" data-end="298.9" style="--x:80.2469%;--w:19.7531%"><span class="name">Gzhelian</span> <span class="info">Age, 303.7 to 298.9 million years ago</span></li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+          <li id="permian" data-start="298.9" data-end="251.902" style="--x:83.7432%;--w:16.2568%;--c:#f04028"><span class="name">Permian</span> <span class="info">Period, 298.9 to 251.902 million years ago</span>
+            <ol class="spans">
+              <li id="cisuralian" data-start="298.9" data-end="272.95" style="--x:0%;--w:55.2151%;--c:#ef5845"><span class="name">Cisuralian</span> <span class="info">Epoch, 298.9 to 272.95 million years ago</span>
+                <ol class="spans">
+                  <li id="asselian" data-start="298.9" data-end="295" style="--x:0%;--w:15.0289%"><span class="name">Asselian</span> <span class="info">Age, 298.9 to 295 million years ago</span></li>
+                  <li id="sakmarian" data-start="295" data-end="290.1" style="--x:15.0289%;--w:18.8825%"><span class="name">Sakmarian</span> <span class="info">Age, 295 to 290.1 million years ago</span></li>
+                  <li id="artinskian" data-start="290.1" data-end="283.5" style="--x:33.9114%;--w:25.4335%"><span class="name">Artinskian</span> <span class="info">Age, 290.1 to 283.5 million years ago</span></li>
+                  <li id="kungurian" data-start="283.5" data-end="272.95" style="--x:59.3449%;--w:40.6551%"><span class="name">Kungurian</span> <span class="info">Age, 283.5 to 272.95 million years ago</span></li>
+                </ol>
+              </li>
+              <li id="guadalupian" data-start="272.95" data-end="259.1" style="--x:55.2151%;--w:29.4694%;--c:#fb745c"><span class="name">Guadalupian</span> <span class="info">Epoch, 272.95 to 259.1 million years ago</span>
+                <ol class="spans">
+                  <li id="roadian" data-start="272.95" data-end="268.8" style="--x:0%;--w:29.9639%"><span class="name">Roadian</span> <span class="info">Age, 272.95 to 268.8 million years ago</span></li>
+                  <li id="wordian" data-start="268.8" data-end="265.1" style="--x:29.9639%;--w:26.7148%"><span class="name">Wordian</span> <span class="info">Age, 268.8 to 265.1 million years ago</span></li>
+                  <li id="capitanian" data-start="265.1" data-end="259.1" style="--x:56.6787%;--w:43.3213%"><span class="name">Capitanian</span> <span class="info">Age, 265.1 to 259.1 million years ago</span></li>
+                </ol>
+              </li>
+              <li id="lopingian" data-start="259.1" data-end="251.902" style="--x:84.6845%;--w:15.3155%;--c:#fba794"><span class="name">Lopingian</span> <span class="info">Epoch, 259.1 to 251.902 million years ago</span>
+                <ol class="spans">
+                  <li id="wuchiapingian" data-start="259.1" data-end="254.14" style="--x:0%;--w:68.908%"><span class="name">Wuchiapingian</span> <span class="info">Age, 259.1 to 254.14 million years ago</span></li>
+                  <li id="changhsingian" data-start="254.14" data-end="251.902" style="--x:68.908%;--w:31.092%"><span class="name">Changhsingian</span> <span class="info">Age, 254.14 to 251.902 million years ago</span></li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li id="dark" data-formal="Mesozoic" data-start="251.902" data-end="66" style="--x:53.4377%;--w:34.3627%;--c:#67c5ca"><span class="name">Dark</span> <span class="info">Era (Mesozoic), 251.902 to 66 million years ago</span>
+        <ol class="spans">
+          <li id="triassic" class="on-dark" data-start="251.902" data-end="201.3" style="--x:0%;--w:27.2197%;--c:#812b92"><span class="name">Triassic</span> <span class="info">Period, 251.902 to 201.3 million years ago</span>
+            <ol class="spans">
+              <li id="early-triassic" class="on-dark" data-start="251.902" data-end="247.2" style="--x:0%;--w:9.2921%;--c:#983999"><span class="name">Early Triassic</span> <span class="info">Epoch, 251.902 to 247.2 million years ago</span>
+                <ol class="spans">
+                  <li id="induan" data-start="251.902" data-end="251.2" style="--x:0%;--w:14.9298%"><span class="name">Induan</span> <span class="info">Age, 251.902 to 251.2 million years ago</span></li>
+                  <li id="olenekian" data-start="251.2" data-end="247.2" style="--x:14.9298%;--w:85.0702%"><span class="name">Olenekian</span> <span class="info">Age, 251.2 to 247.2 million years ago</span></li>
+                </ol>
+              </li>
+              <li id="middle-triassic" data-start="247.2" data-end="237" style="--x:9.2921%;--w:20.1573%;--c:#b168b1"><span class="name">Middle Triassic</span> <span class="info">Epoch, 247.2 to 237 million years ago</span>
+                <ol class="spans">
+                  <li id="anisian" data-start="247.2" data-end="242" style="--x:0%;--w:50.9804%"><span class="name">Anisian</span> <span class="info">Age, 247.2 to 242 million years ago</span></li>
+                  <li id="ladinian" data-start="242" data-end="237" style="--x:50.9804%;--w:49.0196%"><span class="name">Ladinian</span> <span class="info">Age, 242 to 237 million years ago</span></li>
+                </ol>
+              </li>
+              <li id="late-triassic" data-start="237" data-end="201.3" style="--x:29.4494%;--w:70.5506%;--c:#bd8cc3"><span class="name">Late Triassic</span> <span class="info">Epoch, 237 to 201.3 million years ago</span>
+                <ol class="spans">
+                  <li id="carnian" data-start="237" data-end="227" style="--x:0%;--w:28.0112%"><span class="name">Carnian</span> <span class="info">Age, 237 to 227 million years ago</span></li>
+                  <li id="norian" data-start="227" data-end="208.5" style="--x:28.0112%;--w:51.8207%"><span class="name">Norian</span> <span class="info">Age, 227 to 208.5 million years ago</span></li>
+                  <li id="rhaetian" data-start="208.5" data-end="201.3" style="--x:79.8319%;--w:20.1681%"><span class="name">Rhaetian</span> <span class="info">Age, 208.5 to 201.3 million years ago</span></li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+          <li id="jurassic" data-start="201.3" data-end="145" style="--x:27.2197%;--w:30.2848%;--c:#34b2c9"><span class="name">Jurassic</span> <span class="info">Period, 201.3 to 145 million years ago</span>
+            <ol class="spans">
+              <li id="early-jurassic" data-start="201.3" data-end="174.1" style="--x:0%;--w:48.3126%;--c:#42aed0"><span class="name">Early Jurassic</span> <span class="info">Epoch, 201.3 to 174.1 million years ago</span>
+                <ol class="spans">
+                  <li id="hettangian" data-start="201.3" data-end="199.3" style="--x:0%;--w:7.3529%"><span class="name">Hettangian</span> <span class="info">Age, 201.3 to 199.3 million years ago</span></li>
+                  <li id="sinemurian" data-start="199.3" data-end="190.8" style="--x:7.3529%;--w:31.25%"><span class="name">Sinemurian</span> <span class="info">Age, 199.3 to 190.8 million years ago</span></li>
+                  <li id="pliensbachian" data-start="190.8" data-end="182.7" style="--x:38.6029%;--w:29.7795%"><span class="name">Pliensbachian</span> <span class="info">Age, 190.8 to 182.7 million years ago</span></li>
+                  <li id="toarcian" data-start="182.7" data-end="174.1" style="--x:68.3824%;--w:31.6176%"><span class="name">Toarcian</span> <span class="info">Age, 182.7 to 174.1 million years ago</span></li>
+                </ol>
+              </li>
+              <li id="middle-jurassic" data-start="174.1" data-end="163.5" style="--x:48.3126%;--w:18.8277%;--c:#80cfd8"><span class="name">Middle Jurassic</span> <span class="info">Epoch, 174.1 to 163.5 million years ago</span>
+                <ol class="spans">
+                  <li id="aalenian" data-start="174.1" data-end="170.3" style="--x:0%;--w:35.8491%"><span class="name">Aalenian</span> <span class="info">Age, 174.1 to 170.3 million years ago</span></li>
+                  <li id="bajocian" data-start="170.3" data-end="168.3" style="--x:35.8491%;--w:18.8679%"><span class="name">Bajocian</span> <span class="info">Age, 170.3 to 168.3 million years ago</span></li>
+                  <li id="bathonian" data-start="168.3" data-end="166.1" style="--x:54.717%;--w:20.7547%"><span class="name">Bathonian</span> <span class="info">Age, 168.3 to 166.1 million years ago</span></li>
+                  <li id="callovian" data-start="166.1" data-end="163.5" style="--x:75.4717%;--w:24.5283%"><span class="name">Callovian</span> <span class="info">Age, 166.1 to 163.5 million years ago</span></li>
+                </ol>
+              </li>
+              <li id="late-jurassic" data-start="163.5" data-end="145" style="--x:67.1403%;--w:32.8597%;--c:#b3e3ee"><span class="name">Late Jurassic</span> <span class="info">Epoch, 163.5 to 145 million years ago</span>
+                <ol class="spans">
+                  <li id="oxfordian" data-start="163.5" data-end="157.3" style="--x:0%;--w:33.5135%"><span class="name">Oxfordian</span> <span class="info">Age, 163.5 to 157.3 million years ago</span></li>
+                  <li id="kimmeridgian" data-start="157.3" data-end="152.1" style="--x:33.5135%;--w:28.1081%"><span class="name">Kimmeridgian</span> <span class="info">Age, 157.3 to 152.1 million years ago</span></li>
+                  <li id="tithonian" data-start="152.1" data-end="145" style="--x:61.6216%;--w:38.3784%"><span class="name">Tithonian</span> <span class="info">Age, 152.1 to 145 million years ago</span></li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+          <li id="cretaceous" data-start="145" data-end="66" style="--x:57.5045%;--w:42.4955%;--c:#7fc64e"><span class="name">Cretaceous</span> <span class="info">Period, 145 to 66 million years ago</span>
+            <ol class="spans">
+              <li id="early-cretaceous" data-start="145" data-end="100.5" style="--x:0%;--w:56.3291%;--c:#8ccd57"><span class="name">Early Cretaceous</span> <span class="info">Epoch, 145 to 100.5 million years ago</span>
+                <ol class="spans">
+                  <li id="berriasian" data-start="145" data-end="139.8" style="--x:0%;--w:11.6854%"><span class="name">Berriasian</span> <span class="info">Age, 145 to 139.8 million years ago</span></li>
+                  <li id="valanginian" data-start="139.8" data-end="132.9" style="--x:11.6854%;--w:15.5056%"><span class="name">Valanginian</span> <span class="info">Age, 139.8 to 132.9 million years ago</span></li>
+                  <li id="hauterivian" data-start="132.9" data-end="129.4" style="--x:27.191%;--w:7.8652%"><span class="name">Hauterivian</span> <span class="info">Age, 132.9 to 129.4 million years ago</span></li>
+                  <li id="barremian" data-start="129.4" data-end="125" style="--x:35.0562%;--w:9.8876%"><span class="name">Barremian</span> <span class="info">Age, 129.4 to 125 million years ago</span></li>
+                  <li id="aptian" data-start="125" data-end="113" style="--x:44.9438%;--w:26.9663%"><span class="name">Aptian</span> <span class="info">Age, 125 to 113 million years ago</span></li>
+                  <li id="albian" data-start="113" data-end="100.5" style="--x:71.9101%;--w:28.0899%"><span class="name">Albian</span> <span class="info">Age, 113 to 100.5 million years ago</span></li>
+                </ol>
+              </li>
+              <li id="late-cretaceous" data-start="100.5" data-end="66" style="--x:56.3291%;--w:43.6709%;--c:#a6d84a"><span class="name">Late Cretaceous</span> <span class="info">Epoch, 100.5 to 66 million years ago</span>
+                <ol class="spans">
+                  <li id="cenomanian" data-start="100.5" data-end="93.9" style="--x:0%;--w:19.1304%"><span class="name">Cenomanian</span> <span class="info">Age, 100.5 to 93.9 million years ago</span></li>
+                  <li id="turonian" data-start="93.9" data-end="89.8" style="--x:19.1304%;--w:11.8841%"><span class="name">Turonian</span> <span class="info">Age, 93.9 to 89.8 million years ago</span></li>
+                  <li id="coniacian" data-start="89.8" data-end="86.3" style="--x:31.0145%;--w:10.1449%"><span class="name">Coniacian</span> <span class="info">Age, 89.8 to 86.3 million years ago</span></li>
+                  <li id="santonian" data-start="86.3" data-end="83.6" style="--x:41.1594%;--w:7.8261%"><span class="name">Santonian</span> <span class="info">Age, 86.3 to 83.6 million years ago</span></li>
+                  <li id="campanian" data-start="83.6" data-end="72.1" style="--x:48.9855%;--w:33.3333%"><span class="name">Campanian</span> <span class="info">Age, 83.6 to 72.1 million years ago</span></li>
+                  <li id="maastrichtian" data-start="72.1" data-end="66" style="--x:82.3188%;--w:17.6812%"><span class="name">Maastrichtian</span> <span class="info">Age, 72.1 to 66 million years ago</span></li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li id="new" data-formal="Cenozoic" data-start="66" data-end="0" style="--x:87.8004%;--w:12.1996%;--c:#f2f91d"><span class="name">New</span> <span class="info">Era (Cenozoic), 66 million years ago to today</span>
+        <ol class="spans">
+          <li id="paleogene" data-start="66" data-end="23.03" style="--x:0%;--w:65.1061%;--c:#fd9a52"><span class="name">Paleogene</span> <span class="info">Period, 66 to 23.03 million years ago</span>
+            <ol class="spans">
+              <li id="paleocene" data-start="66" data-end="56" style="--x:0%;--w:23.2721%;--c:#fda75f"><span class="name">Paleocene</span> <span class="info">Epoch, 66 to 56 million years ago</span>
+                <ol class="spans">
+                  <li id="danian" data-start="66" data-end="61.6" style="--x:0%;--w:44%"><span class="name">Danian</span> <span class="info">Age, 66 to 61.6 million years ago</span></li>
+                  <li id="selandian" data-start="61.6" data-end="59.2" style="--x:44%;--w:24%"><span class="name">Selandian</span> <span class="info">Age, 61.6 to 59.2 million years ago</span></li>
+                  <li id="thanetian" data-start="59.2" data-end="56" style="--x:68%;--w:32%"><span class="name">Thanetian</span> <span class="info">Age, 59.2 to 56 million years ago</span></li>
+                </ol>
+              </li>
+              <li id="eocene" data-start="56" data-end="33.9" style="--x:23.2721%;--w:51.4312%;--c:#fdb46c"><span class="name">Eocene</span> <span class="info">Epoch, 56 to 33.9 million years ago</span>
+                <ol class="spans">
+                  <li id="ypresian" data-start="56" data-end="47.8" style="--x:0%;--w:37.1041%"><span class="name">Ypresian</span> <span class="info">Age, 56 to 47.8 million years ago</span></li>
+                  <li id="lutetian" data-start="47.8" data-end="41.2" style="--x:37.1041%;--w:29.8642%"><span class="name">Lutetian</span> <span class="info">Age, 47.8 to 41.2 million years ago</span></li>
+                  <li id="bartonian" data-start="41.2" data-end="37.8" style="--x:66.9683%;--w:15.3846%"><span class="name">Bartonian</span> <span class="info">Age, 41.2 to 37.8 million years ago</span></li>
+                  <li id="priabonian" data-start="37.8" data-end="33.9" style="--x:82.3529%;--w:17.6471%"><span class="name">Priabonian</span> <span class="info">Age, 37.8 to 33.9 million years ago</span></li>
+                </ol>
+              </li>
+              <li id="oligocene" data-start="33.9" data-end="23.03" style="--x:74.7033%;--w:25.2967%;--c:#fec07a"><span class="name">Oligocene</span> <span class="info">Epoch, 33.9 to 23.03 million years ago</span>
+                <ol class="spans">
+                  <li id="rupelian" data-start="33.9" data-end="27.8" style="--x:0%;--w:56.1178%"><span class="name">Rupelian</span> <span class="info">Age, 33.9 to 27.8 million years ago</span></li>
+                  <li id="chattian" data-start="27.8" data-end="23.03" style="--x:56.1178%;--w:43.8822%"><span class="name">Chattian</span> <span class="info">Age, 27.8 to 23.03 million years ago</span></li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+          <li id="neogene" data-start="23.03" data-end="2.58" style="--x:65.1061%;--w:30.9848%;--c:#ffe619"><span class="name">Neogene</span> <span class="info">Period, 23.03 to 2.58 million years ago</span>
+            <ol class="spans">
+              <li id="miocene" data-start="23.03" data-end="5.333" style="--x:0%;--w:86.5379%;--c:#ffff00"><span class="name">Miocene</span> <span class="info">Epoch, 23.03 to 5.333 million years ago</span>
+                <ol class="spans">
+                  <li id="aquitanian" data-start="23.03" data-end="20.44" style="--x:0%;--w:14.6352%"><span class="name">Aquitanian</span> <span class="info">Age, 23.03 to 20.44 million years ago</span></li>
+                  <li id="burdigalian" data-start="20.44" data-end="15.97" style="--x:14.6352%;--w:25.2586%"><span class="name">Burdigalian</span> <span class="info">Age, 20.44 to 15.97 million years ago</span></li>
+                  <li id="langhian" data-start="15.97" data-end="13.82" style="--x:39.8938%;--w:12.1489%"><span class="name">Langhian</span> <span class="info">Age, 15.97 to 13.82 million years ago</span></li>
+                  <li id="serravallian" data-start="13.82" data-end="11.63" style="--x:52.0427%;--w:12.375%"><span class="name">Serravallian</span> <span class="info">Age, 13.82 to 11.63 million years ago</span></li>
+                  <li id="tortonian" data-start="11.63" data-end="7.246" style="--x:64.4177%;--w:24.7726%"><span class="name">Tortonian</span> <span class="info">Age, 11.63 to 7.246 million years ago</span></li>
+                  <li id="messinian" data-start="7.246" data-end="5.333" style="--x:89.1903%;--w:10.8097%"><span class="name">Messinian</span> <span class="info">Age, 7.246 to 5.333 million years ago</span></li>
+                </ol>
+              </li>
+              <li id="pliocene" data-start="5.333" data-end="2.58" style="--x:86.5379%;--w:13.4621%;--c:#ffff99"><span class="name">Pliocene</span> <span class="info">Epoch, 5.333 to 2.58 million years ago</span>
+                <ol class="spans">
+                  <li id="zanclean" data-start="5.333" data-end="3.6" style="--x:0%;--w:62.9495%"><span class="name">Zanclean</span> <span class="info">Age, 5.333 to 3.6 million years ago</span></li>
+                  <li id="piacenzian" data-start="3.6" data-end="2.58" style="--x:62.9495%;--w:37.0505%"><span class="name">Piacenzian</span> <span class="info">Age, 3.6 to 2.58 million years ago</span></li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+          <li id="quaternary" data-start="2.58" data-end="0" style="--x:96.0909%;--w:3.9091%;--c:#f9f97f"><span class="name">Quaternary</span> <span class="info">Period, 2.58 million years ago to today</span>
+            <ol class="spans">
+              <li id="pleistocene" data-start="2.58" data-end="0.0117" style="--x:0%;--w:99.5465%;--c:#fff2ae"><span class="name">Pleistocene</span> <span class="info">Epoch, 2.58 to 0.0117 million years ago</span>
+                <ol class="spans">
+                  <li id="gelasian" data-start="2.58" data-end="1.8" style="--x:0%;--w:30.3703%"><span class="name">Gelasian</span> <span class="info">Age, 2.58 to 1.8 million years ago</span></li>
+                  <li id="calabrian" data-start="1.8" data-end="0.774" style="--x:30.3703%;--w:39.9486%"><span class="name">Calabrian</span> <span class="info">Age, 1.8 to 0.774 million years ago</span></li>
+                  <li id="chibanian" data-start="0.774" data-end="0.129" style="--x:70.3189%;--w:25.1139%"><span class="name">Chibanian</span> <span class="info">Age, 0.774 to 0.129 million years ago</span></li>
+                  <li id="late-pleistocene" data-start="0.129" data-end="0.0117" style="--x:95.4328%;--w:4.5672%"><span class="name">Late Pleistocene</span> <span class="info">Age, 0.129 to 0.0117 million years ago</span></li>
+                </ol>
+              </li>
+              <li id="holocene" data-start="0.0117" data-end="0" style="--x:99.5465%;--w:0.4535%;--c:#fef2e0"><span class="name">Holocene</span> <span class="info">Epoch, 0.0117 million years ago to today</span>
+                <ol class="spans">
+                  <li id="greenlandian" data-start="0.0117" data-end="0.0082" style="--x:0%;--w:29.9145%"><span class="name">Greenlandian</span> <span class="info">Age, 0.0117 to 0.0082 million years ago</span></li>
+                  <li id="northgrippian" data-start="0.0082" data-end="0.0042" style="--x:29.9145%;--w:34.1881%"><span class="name">Northgrippian</span> <span class="info">Age, 0.0082 to 0.0042 million years ago</span></li>
+                  <li id="meghalayan" data-start="0.0042" data-end="0" style="--x:64.1026%;--w:35.8974%"><span class="name">Meghalayan</span> <span class="info">Age, 0.0042 million years ago to today</span></li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+</ol>
+<h2 class="text-only">Miracles</h2>
+<p class="definition text-only">A Prerequisite that is also a Fluke.</p>
+<ol class="miracles">
+  <li class="miracle" id="miracle-alpha" data-mya="4500" style="--x:2.1739%"><span class="marker"><span class="symbol" aria-hidden="true">α</span> <span class="name">Alpha</span> <span class="info">Miracle, 4,500 million years ago</span></span></li>
+  <li class="miracle" id="miracle-beta" data-mya="4100" style="--x:10.8696%"><span class="marker"><span class="symbol" aria-hidden="true">β</span> <span class="name">Beta</span> <span class="info">Miracle, 4,100 million years ago</span></span></li>
+  <li class="miracle" id="miracle-gamma" data-mya="3800" style="--x:17.3913%"><span class="marker"><span class="symbol" aria-hidden="true">γ</span> <span class="name">Gamma</span> <span class="info">Miracle, 3,800 million years ago</span></span></li>
+  <li class="miracle" id="miracle-epsilon-start" data-mya="2300" style="--x:50%"><span class="marker"><span class="symbol" aria-hidden="true">ε₀</span> <span class="name">Epsilon Start</span> <span class="info">Miracle, 2,300 million years ago</span></span></li>
+  <li class="miracle" id="miracle-delta" data-mya="2000" style="--x:56.5217%"><span class="marker"><span class="symbol" aria-hidden="true">δ</span> <span class="name">Delta</span> <span class="info">Miracle, 2,000 million years ago</span></span></li>
+  <li class="miracle" id="miracle-epsilon-finish" data-mya="1300" style="--x:71.7391%"><span class="marker"><span class="symbol" aria-hidden="true">ε₁</span> <span class="name">Epsilon Finish</span> <span class="info">Miracle, 1,300 million years ago</span></span></li>
+  <li class="miracle" id="miracle-zeta" data-mya="233.23" style="--x:94.9298%"><span class="marker"><span class="symbol" aria-hidden="true">ζ</span> <span class="name">Zeta</span> <span class="info">Miracle, 233.23 million years ago</span></span></li>
+  <li class="miracle" id="miracle-eta" data-mya="66.01" style="--x:98.565%"><span class="marker"><span class="symbol" aria-hidden="true">η</span> <span class="name">Eta</span> <span class="info">Miracle, 66.01 million years ago</span></span></li>
+  <li class="miracle" id="miracle-theta" data-mya="2" style="--x:99.9565%"><span class="marker"><span class="symbol" aria-hidden="true">θ</span> <span class="name">Theta</span> <span class="info">Miracle, 2 million years ago</span></span></li>
+</ol>
+</div>
+</div>
+
+<div class="band-row">
+<div id="timeline2" class="band">
+<div id="cursor2" class="cursor" role="slider" tabindex="0" aria-label="Time cursor for the current eon" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+</div>
+
+<div class="band-row">
+<div id="timeline3" class="band">
+<div id="cursor3" class="cursor" role="slider" tabindex="0" aria-label="Time cursor for the current era" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+</div>
+
+</div>
+
+<div class="dock">
+<section id="momentDesc" class="moments" aria-labelledby="moments-title">
+<h2 id="moments-title" class="text-only">Moments</h2>
+<article class="moment" id="moment-before-alpha" data-from="4600" data-to="4500">
+<h3 class="text-only">Before Alpha, 4,600 to 4,500 million years ago</h3>
+<p>The Earth coalesces from the raw material at the birth of the Solar System. It goes from a cloud of dust, growing more and more with each new particle, until it has become its full, planetary sized bulk of Essence.</p>
+</article>
+<article class="moment" id="moment-from-alpha-to-beta" data-from="4500" data-to="4100">
+<h3 class="text-only">From Alpha to Beta, 4,500 to 4,100 million years ago</h3>
+<p>The Earth is recovering from its giant impact, now orbited by the baby form our moon. The Hadean wraps up and it appears as though the Solar System is settling down, upon the surface of this dried up rock.</p>
+</article>
+<article class="moment" id="moment-from-beta-to-gamma" data-from="4100" data-to="3800">
+<h3 class="text-only">From Beta to Gamma, 4,100 to 3,800 million years ago</h3>
+<p>The Late Heavy Bombardment booms on in full force. Holes are blown into the surfaces of the planets as the Hadean deals its unexpected second blow. But all the while water accumulates...</p>
+</article>
+</section>
+<figure class="map">
+<div class="frame">
+<video id="map" width="400" controls muted playsinline preload="auto">
+<source src="img/Tectonic%20Plates%20Movement%20Animation.mp4" type="video/mp4">
+</video>
+</div>
+<figcaption>Tectonic plate movement over the last 1,000 million years</figcaption>
+</figure>
+</div>
+
+</main>
+
+<audio id="holySound" preload="auto"><source src="audio/HolySound.wav" type="audio/wav"></audio>
+<!-- Background music, still unused as in 2021 (the play() call in the old page was commented out) -->
+<audio id="music" preload="none"><source src="audio/BG%20Music%201%20Muffle%20-%20Loop.wav" type="audio/wav"></audio>
+
+<script>
+/* Timeline, interactive version.
+   Everything the page says is already in the HTML above. This script only
+   - lays out the bands: copies of the current eon and era, scales, zoom funnels and titles,
+   - moves the three cursors (drag or click a band, use the arrow keys, or type a date),
+   - highlights spans and miracles, plays the miracle sound and scrubs the plate map. */
+(() => {
+  'use strict';
+
+  const EARTH = 4600;        // the timeline starts 4,600 million years ago
+  const EDGE = 0.99999;      // as in 2021, a cursor stops just short of its band's right end,
+                             // so dragging never slips into the next eon or era
+  const MAP_SPAN = 1000;     // the plate animation covers the last 1,000 million years
+  const MAP_LENGTH = 40;     // in 40 seconds
+  const RANKS = ['Eon', 'Era', 'Period', 'Epoch', 'Age'];
+  const STEPS = [0.5, 1, 2, 2.5, 5, 10, 20, 25, 50, 100, 200, 250, 500, 1000];
+  const SVG = 'http://www.w3.org/2000/svg';
+
+  const HINT = 'Type a date, or drag along any band. '
+    + 'Arrow keys nudge a selected cursor (hold Shift for small steps). '
+    + 'Hover a gold line to hear its miracle.';
+  const EMPTY = [
+    '',
+    'Periods begin with the Proterozoic, 2,500 million years ago. Move there or later to see them here.',
+    'Epochs begin with the Phanerozoic, 541 million years ago. Move there or later to see them here.',
+  ];
+  const MAP_NOTE = 'The plate map covers the last 1,000 million years. Move there or later to see it.';
+
+  const $ = (selector, root = document) => root.querySelector(selector);
+  const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
+  const clamp = (value, low, high) => Math.min(high, Math.max(low, value));
+  const rounded = new Intl.NumberFormat('en', { maximumSignificantDigits: 4 });
+  const exact = new Intl.NumberFormat('en', { maximumFractionDigits: 3 });
+
+  function make(tag, className = '', text = '') {
+    const el = document.createElement(tag);
+    if (className) el.className = className;
+    if (text !== '') el.textContent = text;
+    return el;
+  }
+
+  function hide(el) {        // page furniture: screen readers get the same content from the markup
+    el.setAttribute('aria-hidden', 'true');
+    return el;
+  }
+
+  const label = span => `${span.name} ${RANKS[span.level]}`;
+  const when = mya => (mya === 0 ? 'Today' : `${rounded.format(mya)} million years ago`);
+  const keyOf = el => el.id || el.dataset.of;   // copies remember the original's id
+  const isFocusVisible = el => {
+    try { return el.matches(':focus-visible'); } catch { return true; }
+  };
+
+  // A span covers the times after its end, up to and including its start.
+  // The youngest span at each level also covers today.
+  const covers = (span, mya) => mya <= span.start && (mya > span.end || span.end === 0);
+  // How far along a span a time is: 0 at its left (older) end, 1 at its right end...
+  const fractionOf = (mya, span) => (span.start - mya) / (span.start - span.end);
+  // ...and back. Written this way round so that 0 gives exactly span.start.
+  const timeAt = (fraction, span) => span.start - fraction * (span.start - span.end);
+  const percent = fraction => `${+(fraction * 100).toFixed(4)}%`;
+
+  // A scale for a band: round numbers about a tenth of the span apart.
+  function ticks(span) {
+    const list = hide(make('ol', 'ticks'));
+    const step = STEPS.find(s => (span.start - span.end) / s <= 10) || 1000;
+    const first = Math.ceil(span.end / step - 1e-9);
+    const last = Math.floor(span.start / step + 1e-9);
+    for (let i = first; i <= last; i++) {
+      const time = i * step;
+      const fraction = fractionOf(time, span);
+      const tick = make('li', i % 2 ? 'minor' : '', time === 0 ? 'Today' : exact.format(time));
+      if (fraction < 0.025) tick.classList.add('at-start');
+      if (fraction > 0.975) tick.classList.add('at-end');
+      tick.style.setProperty('--x', percent(fraction));
+      list.append(tick);
+    }
+    return list;
+  }
+
+  function start() {
+    const band1 = $('#timeline1');
+    const bandsBox = $('.bands');
+    const readout = $('.readout');
+    const input = $('#myaWrite');
+    const here = $('.here');
+    const momentsBox = $('#momentDesc');
+    const moments = $$('.moment').map(el => ({ el, from: +el.dataset.from, to: +el.dataset.to }));
+    const map = $('#map');
+    const mapFigure = map.closest('.map');
+    const holySound = $('#holySound');
+
+    let mya = 0;                  // million years ago
+    let frame = 0;                // pending redraw
+    let drag = null;              // { band, pointerId } while a cursor is being dragged
+    let hovered = null;           // the span under the pointer
+    let hoveredMiracle = null;    // the miracle under the pointer,
+    let hoverPointer = '';        // and what kind of pointer it is
+    let focusedMiracle = null;    // the miracle with keyboard focus
+    let keepPlaying = false;      // after a click, the sound plays on when the pointer leaves
+    let pendingSeek = null;
+    let shownPath = null;
+    let shownInterval = null;
+
+    // ---------- Read the timeline from the markup ----------
+
+    const readRows = (list, level, inherited) => [...list.children].map(li => {
+      const name = $(':scope > .name', li);
+      const info = $(':scope > .info', li).textContent;
+      name.title = `${name.textContent} ${info}`;     // for names cut off in thin spans
+      const color = li.style.getPropertyValue('--c').trim() || inherited;
+      const span = {
+        li,
+        level,
+        color,
+        name: name.textContent,
+        formal: li.dataset.formal || '',
+        range: info.slice(info.indexOf(', ') + 2),     // "Era (Paleozoic), 541 to …" gives "541 to …"
+        start: +li.dataset.start,
+        end: +li.dataset.end,
+        list: $(':scope > .spans', li),
+        children: [],
+      };
+      if (span.list) span.children = readRows(span.list, level + 1, color);
+      return span;
+    });
+    const whole = { start: EARTH, end: 0, children: readRows($(':scope > .spans', band1), 0, '') };
+
+    // Band 1's miracle markers become buttons: hover to hear one, click to go to it.
+    // Copies elsewhere stay plain text, so the tab order has each miracle once.
+    const miracles = $$(':scope > .miracles > .miracle', band1).map(li => {
+      const template = li.cloneNode(true);
+      const marker = $('.marker', li);
+      const button = make('button', 'marker');
+      button.type = 'button';
+      button.append(...marker.childNodes);
+      marker.replaceWith(button);
+      return {
+        li,
+        template,
+        key: li.id,
+        mya: +li.dataset.mya,
+        name: $('.name', li).textContent,
+        symbol: $('.symbol', li).textContent,
+      };
+    });
+
+    function copyOf(miracle) {
+      const copy = miracle.template.cloneNode(true);
+      copy.removeAttribute('id');
+      copy.dataset.of = miracle.key;
+      return copy;
+    }
+
+    const childAt = (span, time) => span.children.find(child => covers(child, time));
+    function pathAt(time) {       // eon, era, period, epoch, age, as deep as the data goes
+      const path = [];
+      for (let span = childAt(whole, time); span; span = childAt(span, time)) path.push(span);
+      return path;
+    }
+
+    // The stretches between miracles, for the moment panel
+    const intervals = miracles.map((miracle, i) => ({
+      from: i ? miracles[i - 1].mya : EARTH,
+      to: miracle.mya,
+      older: miracles[i - 1] || null,
+      newer: miracle,
+    }));
+    const lastMiracle = miracles[miracles.length - 1];
+    intervals.push({ from: lastMiracle.mya, to: 0, older: lastMiracle, newer: null });
+
+    // ---------- Page furniture ----------
+
+    readout.append(make('p', 'hint', HINT));
+
+    const momentTitle = make('p', 'moment-title');
+    const momentRange = make('p', 'moment-range');
+    const momentHead = hide(make('div', 'moment-head'));
+    momentHead.append(momentTitle, momentRange);
+    $('#moments-title').after(momentHead);
+
+    const legend = hide(make('section', 'legend'));
+    legend.append(make('p', 'legend-title', 'Miracles'));
+    const definition = $('.definition', band1);
+    if (definition) legend.append(make('p', 'definition', definition.textContent));
+    const legendList = make('ol');
+    for (const miracle of miracles) {
+      const copy = copyOf(miracle);
+      const date = $('.info', copy);
+      date.className = 'when';
+      date.textContent = `${exact.format(miracle.mya)} mya`;
+      legendList.append(copy);
+    }
+    legend.append(legendList);
+    momentsBox.after(legend);
+
+    map.controls = false;         // the timeline drives the video now
+    map.parentElement.append(hide(make('p', 'map-note', MAP_NOTE)));
+
+    // ---------- Bands ----------
+
+    const rowsIn = el => $$(':scope > .spans > li, :scope > .spans > li > .spans > li', el);
+
+    const bands = $$('.band', bandsBox).map((el, k) => {
+      const head = hide(make('div', 'band-head'));
+      const title = make('p', 'band-title');
+      const range = make('p', 'band-range');
+      head.append(title, range);
+      el.before(head);
+      const band = { el, k, title, range, cursor: $('.cursor', el), focus: undefined, headSpan: undefined, rows: [] };
+      if (k === 0) {
+        band.focus = whole;
+        band.rows = rowsIn(el);
+        el.append(ticks(whole));
+      } else {
+        el.append(hide(make('p', 'band-empty', EMPTY[k])));
+        const funnel = hide(document.createElementNS(SVG, 'svg'));
+        funnel.setAttribute('class', 'funnel');
+        funnel.setAttribute('viewBox', '0 0 100 100');
+        funnel.setAttribute('preserveAspectRatio', 'none');
+        band.shape = document.createElementNS(SVG, 'polygon');
+        band.sides = document.createElementNS(SVG, 'path');
+        funnel.append(band.shape, band.sides);
+        el.prepend(funnel);
+        band.funnel = funnel;
+      }
+      return band;
+    });
+
+    function heading(band, span) {
+      band.headSpan = span;
+      if (band.k === 0) {
+        band.title.textContent = 'Earth’s history';
+        band.range.textContent = '4,600 million years ago to today';
+      } else if (span) {
+        band.title.textContent = label(span);
+        band.range.textContent = span.formal ? `${span.formal}, ${span.range}` : span.range;
+      } else {
+        band.title.textContent = 'No era';
+        band.range.textContent = 'The Hadean isn’t divided into eras';
+      }
+    }
+
+    // Band 2 shows the current eon and band 3 the current era but, as in 2021, only when that span
+    // has two rows to show: the Archean's eras have no periods, and Proterozoic periods have no epochs.
+    function focusFor(k, path) {
+      if (k === 0) return whole;
+      const span = path[k - 1];
+      return span && span.children.some(child => child.children.length) ? span : null;
+    }
+
+    function build(band, focus) {
+      const { el, cursor } = band;
+      for (const old of $$(':scope > .spans, :scope > .miracles, :scope > .ticks', el)) old.remove();
+      band.focus = focus;
+      band.rows = [];
+      el.toggleAttribute('data-empty', !focus);
+      cursor.hidden = !focus;
+      if (!focus) return;
+      cursor.setAttribute('aria-label', `Time cursor for the ${label(focus)}`);
+
+      // Positions are stored as percentages of the parent span,
+      // so a copy of the span's rows fills the band as it is.
+      const rows = hide(focus.list.cloneNode(true));
+      for (const deeper of $$(':scope > li > .spans > li > .spans', rows)) deeper.remove();
+      for (const info of $$('.info', rows)) info.remove();
+      for (const li of $$('li', rows)) {
+        li.dataset.of = li.id;
+        li.removeAttribute('id');
+      }
+
+      const marks = hide(make('ol', 'miracles'));
+      for (const miracle of miracles) {
+        if (miracle.mya > focus.start || miracle.mya < focus.end) continue;
+        const copy = copyOf(miracle);
+        copy.style.setProperty('--x', percent(fractionOf(miracle.mya, focus)));
+        marks.append(copy);
+      }
+
+      // The funnel runs from this span's slice of the band above to the full width of this band.
+      const above = bands[band.k - 1].focus;
+      const left = +(fractionOf(focus.start, above) * 100).toFixed(4);
+      const right = +(fractionOf(focus.end, above) * 100).toFixed(4);
+      band.shape.setAttribute('points', `${left},0 ${right},0 100,100 0,100`);
+      band.sides.setAttribute('d', `M${left} 0L0 100M${right} 0L100 100`);
+      band.funnel.style.setProperty('--c', focus.color);
+
+      el.append(rows, marks, ticks(focus));
+      band.rows = rowsIn(el);
+    }
+
+    // ---------- Drawing ----------
+
+    function setMya(value) {
+      if (!Number.isFinite(value)) return;
+      mya = clamp(value, 0, EARTH);
+      if (!frame) frame = requestAnimationFrame(render);
+    }
+
+    function render() {
+      frame = 0;
+      const path = pathAt(mya);
+      const deepest = path[path.length - 1];
+      let rebuilt = false;
+
+      for (const band of bands) {
+        const focus = focusFor(band.k, path);
+        if (focus !== band.focus) {
+          build(band, focus);
+          rebuilt = true;
+        }
+        const headSpan = band.k ? path[band.k - 1] || null : whole;
+        if (headSpan !== band.headSpan) heading(band, headSpan);
+        if (!focus) continue;
+        const fraction = fractionOf(mya, focus);
+        band.cursor.style.setProperty('--x', percent(fraction));
+        band.cursor.setAttribute('aria-valuenow', +(fraction * 100).toFixed(2));
+        band.cursor.setAttribute('aria-valuetext', `${when(mya)}, ${label(deepest)}`);
+      }
+      if (rebuilt) {
+        if (hovered && !hovered.isConnected) hovered = null;
+        showHover();
+      }
+
+      if (document.activeElement !== input) input.value = Math.floor(mya);
+      showPath(path);
+      showMiracles();
+      showMoment();
+      showMap();
+    }
+
+    function showPath(path) {
+      const deepest = path[path.length - 1];
+      if (deepest === shownPath) return;
+      shownPath = deepest;
+      const items = [];
+      path.forEach((span, i) => {
+        if (i) items.push(hide(make('span', 'crumb-sep', '›')));
+        const crumb = make('span', 'crumb', label(span));
+        crumb.style.setProperty('--c', span.color);
+        items.push(crumb);
+      });
+      here.replaceChildren(...items);
+    }
+
+    function showHover() {
+      const key = hovered && keyOf(hovered);
+      for (const band of bands) {
+        for (const li of band.rows) {
+          const same = key !== null && keyOf(li) === key;
+          li.classList.toggle('is-hovered', same && li === hovered);
+          li.classList.toggle('is-partner', same && li !== hovered);   // the same span in another band
+        }
+      }
+    }
+
+    function showMiracles() {
+      for (const li of $$('.miracle')) {
+        const key = keyOf(li);
+        li.classList.toggle('is-past', +li.dataset.mya >= mya);   // already happened at the cursor's time
+        li.classList.toggle('is-lit', key === hoveredMiracle || key === focusedMiracle);
+      }
+    }
+
+    function showMoment() {
+      const current = intervals.find(iv => mya <= iv.from && (mya > iv.to || iv.to === 0));
+      if (current !== shownInterval) {
+        shownInterval = current;
+        const { older, newer } = current;
+        const sym = miracle => make('span', 'sym', miracle.symbol);
+        momentTitle.replaceChildren(...(
+          older && newer ? ['From ', sym(older), ` ${older.name} to `, sym(newer), ` ${newer.name}`]
+            : newer ? ['Before ', sym(newer), ` ${newer.name}`]
+              : ['Since ', sym(older), ` ${older.name}`]
+        ));
+        momentRange.textContent = current.to === 0
+          ? `${exact.format(current.from)} million years ago to today`
+          : `${exact.format(current.from)} to ${exact.format(current.to)} million years ago`;
+      }
+      for (const moment of moments) {
+        moment.el.classList.toggle('is-now', mya <= moment.from && mya > moment.to);
+      }
+    }
+
+    // ---------- The plate map ----------
+
+    function seek(time) {
+      if (map.seeking) {
+        pendingSeek = time;       // let the current seek finish first
+      } else if (Math.abs(map.currentTime - time) > 0.001) {
+        map.currentTime = time;
+      }
+    }
+
+    map.addEventListener('seeked', () => {
+      if (pendingSeek === null) return;
+      const time = pendingSeek;
+      pendingSeek = null;
+      seek(time);
+    });
+
+    function showMap() {
+      const off = mya > MAP_SPAN;
+      mapFigure.classList.toggle('is-off', off);
+      if (off) return;
+      const length = Number.isFinite(map.duration) ? map.duration : MAP_LENGTH;
+      seek(clamp((1 - (mya - 1) / MAP_SPAN) * MAP_LENGTH, 0, length));   // the 2021 formula
+    }
+
+    // ---------- The miracle sound ----------
+
+    function playSound() {
+      const playing = holySound.play();
+      if (playing) playing.catch(() => {});   // browsers block sound until the visitor has used the page
+    }
+
+    function pauseSound() {
+      holySound.pause();
+      if (holySound.currentTime > 1.75) holySound.currentTime = 0;
+    }
+
+    function hoverMiracle(key, pointerType = '') {
+      if (key === hoveredMiracle) return;
+      if (hoveredMiracle !== null && hoverPointer !== 'touch' && !keepPlaying) pauseSound();
+      keepPlaying = false;
+      hoveredMiracle = key;
+      hoverPointer = pointerType;
+      if (key !== null && pointerType !== 'touch') playSound();   // on touch screens a tap plays it
+      showMiracles();
+    }
+
+    function goTo(miracle) {
+      keepPlaying = keyOf(miracle) === hoveredMiracle;
+      playSound();
+      setMya(+miracle.dataset.mya);
+    }
+
+    // ---------- Pointer ----------
+
+    bandsBox.addEventListener('pointerover', event => {
+      hovered = event.target.closest('.spans > li');
+      showHover();
+      const miracle = event.target.closest('.miracle');
+      hoverMiracle(miracle && keyOf(miracle), event.pointerType);
+    });
+
+    bandsBox.addEventListener('pointerleave', () => {
+      hovered = null;
+      showHover();
+      hoverMiracle(null);
+    });
+
+    legend.addEventListener('pointerover', event => {
+      const miracle = event.target.closest('.miracle');
+      hoverMiracle(miracle && keyOf(miracle), event.pointerType);
+    });
+
+    legend.addEventListener('pointerleave', () => hoverMiracle(null));
+
+    for (const box of [bandsBox, legend]) {
+      box.addEventListener('click', event => {
+        const marker = event.target.closest('.marker');
+        if (marker) goTo(marker.closest('.miracle'));
+      });
+    }
+
+    function dragTo(event) {
+      const box = drag.band.el.getBoundingClientRect();
+      const fraction = clamp((event.clientX - box.left) / box.width, 0, EDGE);
+      setMya(timeAt(fraction, drag.band.focus));
+    }
+
+    // Press anywhere on a band to move its cursor there, and keep dragging.
+    bandsBox.addEventListener('pointerdown', event => {
+      if (!event.isPrimary || event.button !== 0 || event.target.closest('.marker')) return;
+      const band = bands.find(b => b.el.contains(event.target));
+      if (!band || !band.focus) return;
+      event.preventDefault();                       // no text selection
+      band.cursor.focus({ preventScroll: true });   // the arrow keys carry on from here
+      band.cursor.setPointerCapture(event.pointerId);
+      drag = { band, pointerId: event.pointerId };
+      dragTo(event);
+    });
+
+    bandsBox.addEventListener('pointermove', event => {
+      if (drag && event.pointerId === drag.pointerId) dragTo(event);
+    });
+
+    for (const type of ['pointerup', 'pointercancel', 'lostpointercapture']) {
+      bandsBox.addEventListener(type, event => {
+        if (drag && event.pointerId === drag.pointerId) drag = null;
+      });
+    }
+
+    // ---------- Keyboard ----------
+
+    bandsBox.addEventListener('focusin', event => {
+      const miracle = event.target.closest('.miracle');
+      focusedMiracle = miracle && isFocusVisible(event.target) ? keyOf(miracle) : null;
+      showMiracles();
+    });
+
+    bandsBox.addEventListener('focusout', () => {
+      focusedMiracle = null;
+      showMiracles();
+    });
+
+    for (const band of bands) {
+      band.cursor.addEventListener('keydown', event => {
+        if (!band.focus) return;
+        const now = fractionOf(mya, band.focus);
+        const step = event.shiftKey ? 0.001 : 0.01;
+        let next;
+        switch (event.key) {
+          case 'ArrowRight':      // right is towards today
+          case 'ArrowUp': next = now + step; break;
+          case 'ArrowLeft':       // left is further back
+          case 'ArrowDown': next = now - step; break;
+          case 'PageUp': next = now + 0.1; break;
+          case 'PageDown': next = now - 0.1; break;
+          case 'Home': next = 0; break;
+          case 'End': next = EDGE; break;
+          default: return;
+        }
+        event.preventDefault();
+        setMya(timeAt(clamp(next, 0, EDGE), band.focus));
+      });
+    }
+
+    input.addEventListener('input', () => {
+      const typed = input.valueAsNumber;
+      if (!Number.isFinite(typed)) return;               // empty or half-typed: wait
+      const value = clamp(Math.ceil(typed), 0, EARTH);   // as in 2021: whole numbers from 0 to 4,600
+      if (value !== typed) input.value = value;
+      setMya(value);
+    });
+
+    input.addEventListener('change', () => {
+      input.value = Math.floor(mya);
+    });
+
+    render();
+  }
+
+  try {
+    start();
+  } catch (error) {
+    document.documentElement.classList.remove('js');   // fall back to the text version
+    throw error;
+  }
+})();
+</script>
+</body>
+</html>
