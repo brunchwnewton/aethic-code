@@ -165,11 +165,39 @@ Since we’ve already established just now that Weyl fermions DO NOT admit the p
 Fantastic, thanks, and that's what I like to hear\!\!\! So to be clear what then IS the electromagnetic field itself in the canonical total space, to be clear? And also we indeed now get "the electromagnetic field as we know it" in the gravity base space as the constraint/sanity check, both in terms of the electric monopoles coming from u fiber-flux AND our losing the extra photon even-like chirality due to the general quotienting? And yes good to hear that the dark matter seed can plausibly anyway be recovered if we at least for the time being postulate that even-like chiral photons can't couple to the opposite fermion, hence if we basically run the "visible space" not actually as a quotienting of the canonical total space but rather simply the act of running the involution ONLY over the negative chiral photons and fermions (for the sake of construction, since this matches what the fermionic base space sees, and maybe should BE it rather than the quotient idea, perhaps), we get that now the opposite hemisphere is "invisible" to the photons, hence exactly reproducing the seed\!  
 So yeah, anyways please extensively write v11 now, while making sure to thoroughly construct each piece as before, for encyclopedic effect and all, including what exactly the construction of the electromagnetic field is in actuality in the canonical total space to make it behave as desired. Thanks\!
 
-## Entry 34, 4:34 PM, Sep 15, 2026
+## Entry 35, 4:34 PM, Sep 15, 2026
 
 Cool, thanks\! So to be clear to make sure I land this part right, for another sanity check we do indeed get that positive light in the northern hemisphere and negative light in the southern hemisphere (to match the fermions), is what we would call "light viewing matter", whereas if such light moves into the opposite hemisphere is fails to be able to interact with the fermions any longer. Hence, the dark matter seed. Right???
 
-## Entry 34, 4:43 PM, Sep 15, 2026
+## Entry 36, 4:43 PM, Sep 15, 2026
 
 Right but the idea that I was trying to get at with the involution only on negative chirality thing is something like that spatially, the full 3-sphere space with u maintained still exists for light, as we desired, BUT due to the quotienting of gravity to what we call "physical space" you personally can't pick out privileging over the light that's in the real northern hemisphere versus the real southern hemisphere valuing u, just as how we always value a Dirac fermion rather than each single Weyl fermion pertaining to photons anyway, hence meaning we treat the light upon interaction with the matter as if coming from one spot in physical space despite its really being in two hemispheres (as in when the light-matter chirality matches, we "count" is as one physical location), BUT when the light then moves from there to the opposite hemisphere, we "count" that as a separate point from the former physically/visually, but say it has no matter because the light doesn't interact with anything there. So see that, that's the main conceptual move: it's as if we start defining physical/visual space by moving all the like-interactions to one point, but rather than dissolving the antipode we start valuing it relationally to the start-matter-light-interaction, hence its being a void point in that sense---but we also decouple a single point in the total space as "a single" physical/visual space point, because what really matters is where each stands RELATIVE to the "source" of the given light we're shooting through it, such that if the light matches the hemisphere's canonical chirality it's "the source", whereas otherwise it's "the opposite hemisphere from the source" in the actual physical/visual space.  
 But anyways yes, if possible please carry out the corrections you named to v11 now, while making sure to maintain all self-contained depth to it while you're at it. Thanks\!\!\!
+
+## Entry 37, 4:59 PM, Sep 15, 2026
+
+Excellent, thank you\! Please add all this to v11 now, and oh also one of the versions talked about the extra identity for which the secondary is large enough to be the same mass as the primary I think, so please include that as well especially because it's an interesting test of how the orbits shift under full account of Law II. Also since this might be a different version of Law II than that old one, we might need to recompute it, but in any case it seems interesting as an interplay\! And yeah we have the full v^2 talk as well in v11, yes??? Thanks\!
+
+## Entry 38, 5:09 PM, Sep 15, 2026
+
+Oh also shoot---just making sure Law II doesn't actually PRIVILEGE the primary itself, right??? As in, I was hoping it's general enough so that if we make the secondary its mass, suddenly neither one is privileged? So the seeming privileging of the primary is due to the secondary usually being far less massive, is the idea\! Maybe that's an issue that slipped through the cracks here, since you seem to be using Dirac delta functions for Law II???  
+In other words, I want the "large secondary" to be the good edge case for making the law general, while at once making sure to allow a small secondary not to then disallow Keplerian gravity, as is the whole point of the weaving rather than Poisson Law II in the first place\!\!\!
+
+## Entry 39, 5:17 PM, Sep 15, 2026
+
+Well I was hoping the poles could BE Machian, as in "wherever the greatest amount of matter sits, we place a pole there and at its antipode for complementarity". Is there any way to land this???  
+Hence also why I wanted to make it so that having the secondary be as massive as the primary gives you TWO polar axes of sorts, one for each of them\! So the constraint is that the general Law II equation is Machian in this sense, but ALSO that for a secondary much smaller than the primary, the secondary preserved Keplerian orbits. Thanks\!
+
+## Entry 40, 5:33 PM, Sep 15, 2026
+
+Right so to be clear, if you place n random primaries on S4, right, you indeed get the effect of the u fibers pointing toward each in its vicinity? My intuition is sort of like that you get a bunch of singularities in a field, plus their antipodes of course\! Thanks\!  
+Ok also please load up all the rest of stuff into v11 if not already, and again for one more sanity check if we only have the one primary, and then a really small secondary by comparison, then the orbits about that secondary are indeed Keplerian I would hope, yes??? Thank you\!\!\!
+
+## Entry 40, 5:34 PM, Sep 15, 2026
+
+Ok sounds good to me then, so long as no one of n primaries is privileged I guess lol\!
+
+## Entry 41, 6:27 PM, Sep 15, 2026
+
+Right but I want to be careful about jumping the gun from 2-form to “outright string” and stuff\! For instance, is there at least a feasible a way to reinterpret things without having to stray into string tension material, since for instance we might ultimately get a unique Lagrangian for this anyway? Thanks\!  
+Right my intuition is that it usually tends to be the third option you didn’t think of, hence meaning we should default to going with the ad hoc c and then loop back around to constrain it once we’ve built more abstraction machinery later on. Please fix this now, rather than stumbling into these sorts of assumptions\! Thanks\!
