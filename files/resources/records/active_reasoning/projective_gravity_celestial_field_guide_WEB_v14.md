@@ -6,7 +6,7 @@
 >
 > **What is new relative to version 13.** The arena is **defined by a constraint on its own tangent spaces**, and the construction is turned the right way round. Version 13 built upward: define the cover, take its tangent spaces, attach a sphere of complex structures. Version 14 starts at the top:
 >
-> > **The canonical total space is the space whose tangent spaces are the *complexified* tangent spaces of the middle space, and whose first quotient returns them.**
+> > **The canonical space is the space whose tangent spaces are the *complexified* tangent spaces of the middle space, and whose first quotient returns them.**
 >
 > That space exists, it is unique, and it is completely concrete. The complexification of $S^n$ is the quadric $Q^n = \{z\cdot z = 1\}$; writing $z = x+iy$ splits that one complex equation into $x\cdot x - y\cdot y = 1$ and $x\cdot y = 0$ — which say precisely that $y$ is **tangent** to the sphere at $\hat x$. So
 > $$Q^4 \;=\; TS^4$$
@@ -30,16 +30,16 @@
 
 | term | definition | dim | role |
 |:--|:--|:--:|:--|
-| **canonical total space** | $\mathbb{R}_t\times TS^4$, the complexification of the cover. A point is a point of $S^4$ **plus a tangent vector there**. Defined by the constraint that its tangent spaces be the complexified tangent spaces of the middle space | 9 | where the full structure lives |
+| **canonical space** | $\mathbb{R}_t\times TS^4$, the complexification of the cover. A point is a point of $S^4$ **plus a tangent vector there**. Defined by the constraint that its tangent spaces be the complexified tangent spaces of the middle space | 9 | where the full structure lives |
 | **the fiber** | $T_xS^4$, the tangent space itself — the **imaginary part** of the complexified tangent space. Contractible | 4 | quotiented first |
 | **zero section** | the sub-bundle of zero vectors, canonically $\cong S^4$. **Where non-rotating sources sit** | 4 | §IX.4 |
-| **middle space** | $\mathbb{R}_t\times S^4$: the canonical total space with the fiber quotiented away. Where matter and light live | 5 | matter, light |
+| **middle space** | $\mathbb{R}_t\times S^4$: the canonical space with the fiber quotiented away. Where matter and light live | 5 | matter, light |
 | **cover** | $S^4$: the middle space with its time factor set aside | 4 | the spatial cover |
 | **gravity base** | $\mathbb{R}_t\times\mathbb{RP}^3$: the space of meridians, times time | 4 | Law I |
 | **twistor space** | $\mathbb{CP}^3\to S^4$, the 2-sphere of complex structures on each tangent space. **An encoding**, not the arena: points of $TS^4$ correspond to lines in it | 6 | Penrose–Ward (§IX.3) |
-| **fermionic base** | the canonical total space modulo the involution of Part VI | 9 | where a Dirac spinor is one local object |
+| **fermionic base** | the canonical space modulo the involution of Part VI | 9 | where a Dirac spinor is one local object |
 
-The unqualified phrase "total space" is retired in favor of *canonical total space*. The fibration tower is
+The unqualified phrase "total space" is retired: this document says **canonical space**. The fibration tower is
 
 $$\mathbb{R}_t\times TS^4\ (9)\ \xrightarrow{\ /\,\text{imaginary part}\ }\ \mathbb{R}_t\times S^4\ (5)\ \xrightarrow{\ /\,\text{meridians}\ }\ \mathbb{R}_t\times\mathbb{RP}^3\ (4)$$
 
@@ -101,7 +101,7 @@ The twin comes from the meridians and from nothing else.
 
 ## 0.5 Conventions
 
-$G = c = 1$ unless restored. $\ell$ is the gravity-base radius; $\chi\in[0,\pi]$ the polar angle on $S^4$; $\hat n\in S^3$ a point of a latitude; $\theta$ the Hopf fiber angle. $\alpha$ is the second-order connection with curvature $F = d\alpha$; $B$ the electromagnetic 2-form with strength $H = dB$; $\star$ the Hodge star of the canonical total space. $\Phi$ is the Newtonian potential.
+$G = c = 1$ unless restored. $\ell$ is the gravity-base radius; $\chi\in[0,\pi]$ the polar angle on $S^4$; $\hat n\in S^3$ a point of a latitude; $\theta$ the Hopf fiber angle. $\alpha$ is the second-order connection with curvature $F = d\alpha$; $B$ the electromagnetic 2-form with strength $H = dB$; $\star$ the Hodge star of the canonical space. $\Phi$ is the Newtonian potential.
 
 ---
 
@@ -118,7 +118,7 @@ The cover is $\mathbb{R}_t\times S^4$, with the primary at one pole of the fibra
 *The construction runs downward, not upward. The arena is specified first, by a constraint; the cover is what its first quotient produces.*
 
 > ### ◆ THE CONSTRAINT
-> The canonical total space is the space whose tangent spaces are the **complexified** tangent spaces of the middle space, and whose first quotient returns them.
+> The canonical space is the space whose tangent spaces are the **complexified** tangent spaces of the middle space, and whose first quotient returns them.
 
 **It exists, and it is concrete.** The complexification of $S^n$ is the complex quadric $Q^n = \{z\in\mathbb{C}^{n+1} : z\cdot z = 1\}$. Write $z = x+iy$ with $x,y$ real; the single complex equation splits into two real ones,
 
@@ -148,13 +148,31 @@ The gravity base is the space of meridians, $\mathbb{RP}^3$. Each of its points 
 
 **This is derived, not postulated:** a great circle through the poles crosses the equator twice. The projective postulate of the earliest versions is a theorem of the arena. 
 
-## I.4 The primary is the jellium [D]
+## I.4 What gravity is blind to, and what it is not [D]
+
+*The seed is a blindness. This version changes which things gravity cannot see, so the list is worth stating outright.*
+
+| structure | blind? | why |
+|:--|:--:|:--|
+| **which arc of the meridian** — the twin | **yes** | gravity is defined on the *space of meridians*, so $\hat n$ and $-\hat n$ are one point to it. **This is the seed** |
+| **Law III's $U(1)$ bundle** and its charge | **yes** | a separate structure beside the arena (§III.1); nothing couples it to Law I |
+| **the arena's own tangent fiber** | **no** | it carries the lift vector — the **spin** — and a Kerr exterior differs from a Schwarzschild one |
+
+**The seed never depended on the fiber.** Its mechanism is the meridian quotient alone, and changing what sits *above* $S^4$ does not touch what sits *beside* it on $S^4$. A **lifted** source is no exception: the lift is in the fiber, the twin is in the base, and the two are independent. A rotating body at $\hat n$ still has nothing at $-\hat n$, and gravity still digs both wells **[D]**.
+
+**But the hidden sector has moved.** In version 11 the arena's own fiber was invisible to gravity — that was the Hopf circle, Law III's home. Here the arena's fiber is the tangent space, whose content is angular momentum, and that is perfectly visible.
+
+> **The hidden sector moved out of the arena and onto Law III's separate bundle.** The arena's extra dimensions now carry *observable* content; everything genuinely hidden is collected in one place.
+
+**And one consequence for Part X.** The base-resolution principle turns on $\int_0^{2\pi}e^{in\Delta}d\Delta = 2\pi\delta_{n0}$, which requires a **compact** fiber. The arena's fiber is $\mathbb{R}^4$ and non-compact, so the selection does not apply to it. The principle holds for **Law III's circle fiber**, which is compact — and that is where it always did its work: the photon's Hopf-neutrality, and the invisibility of charged modes. Its domain is Law III's bundle, not the arena **[D]**.
+
+## I.5 The primary is the jellium [D]
 
 Both poles lie on **every** meridian, so $M_c$ contributes equally to every fiber average: seen from the gravity base it is uniform. The uniform background density of the Einstein static universe is the primary's column density, with value fixed by closure (§V.2).
 
-## I.5 The three spaces, related [D]
+## I.6 The three spaces, related [D]
 
-Since $\sigma$ (Part VI) descends to the twin map on $S^4$, and the gravity base already identifies $\hat n$ with $-\hat n$, the fermionic base also maps onto the gravity base. The three form a commuting triangle with the canonical total space at the apex. **The fermionic base is not a dimensional reduction:** $\sigma$ is a free involution, so $E/\sigma$ has the same dimension as $E$; they differ in global structure, not size.
+Since $\sigma$ (Part VI) descends to the twin map on $S^4$, and the gravity base already identifies $\hat n$ with $-\hat n$, the fermionic base also maps onto the gravity base. The three form a commuting triangle with the canonical space at the apex. **The fermionic base is not a dimensional reduction:** $\sigma$ is a free involution, so $E/\sigma$ has the same dimension as $E$; they differ in global structure, not size.
 
 ---
 
@@ -278,7 +296,7 @@ The alternative picture — a singularity at each mass plus its antipode — is 
 
 *Version 13 derived Law III's gauge group from a 2-sphere fiber. That derivation does not survive the change of arena, and saying so is cheaper than pretending otherwise.*
 
-**The new fiber carries no topology.** The canonical total space's fiber is $T_xS^4\cong\mathbb{R}^4$ — **contractible**. A contractible fiber supports no nontrivial circle bundle, no Chern number, and no rotation subgroup with anything to wind around. **So Law III cannot be read off the fiber here.**
+**The new fiber carries no topology.** The canonical space's fiber is $T_xS^4\cong\mathbb{R}^4$ — **contractible**. A contractible fiber supports no nontrivial circle bundle, no Chern number, and no rotation subgroup with anything to wind around. **So Law III cannot be read off the fiber here.**
 
 **It is therefore a posited bundle, as in version 11.** $E$ is a $U(1)$ bundle over $S^4\setminus\Gamma$, with $\Gamma$ the graph of the $N$ secondary meridians through the two poles. Its Chern numbers come from the base's topology, unchanged: $H^2(S^4) = 0$, so the meridians must be removed, and $S^4\setminus\text{circle}\simeq S^2$ gives $H^2 = \mathbb{Z}$, one integer per secondary.
 
@@ -388,13 +406,13 @@ $\tau = \pm1$ is a discrete quantum number **independent of spin and of statisti
 
 Finkelstein–Rubinstein: in any 3-manifold, exchanging two identical particles is *locally* homotopic to rotating one of them by $2\pi$ in place, so the exchange sign equals the frame-$2\pi$ sign, $(-1)^{2s}$. The argument is local and does not see the twin loop. **Anticommutation and the Pauli exclusion principle hold exactly as in ordinary quantum field theory.** Nothing in this arena reaches them.
 
-## IV.7 Why a Weyl field on the canonical total space [T]
+## IV.7 Why a Weyl field on the canonical space [T]
 
 | space | Dirac | Weyl |
 |:--|--:|--:|
 | gravity base (4-D) | 4 complex | 2 complex |
 | cover (5-D) | 4 complex | — (odd dimension) |
-| canonical total space (6-D) | 8 complex | **4 complex** |
+| canonical space (6-D) | 8 complex | **4 complex** |
 
 **A six-dimensional Weyl spinor has 4 complex $=$ 8 real components: exactly one four-dimensional Dirac spinor's worth.** Reduce on the Hopf circle and each mode is an ordinary four-dimensional field:
 
@@ -405,7 +423,7 @@ Finkelstein–Rubinstein: in any 3-manifold, exchanging two identical particles 
 
 > **With the Weyl choice, one field upstairs gives exactly one electron downstairs. With the Dirac choice it gives two identical copies, and an extra rule would be needed to delete one.**
 
-That is the whole simplification. It is not a reframing of a spinor as a polarization vector — that cannot happen in six dimensions, since a spinor index becomes a vector index only in *eight*, through triality. It is that the Weyl box is the right size. Majorana–Weyl spinors exist only in dimensions $\equiv2\bmod8$, so not here; symplectic Majorana–Weyl exists in six but requires pairs. **The minimal chiral fermion on the canonical total space is a Weyl spinor.**
+That is the whole simplification. It is not a reframing of a spinor as a polarization vector — that cannot happen in six dimensions, since a spinor index becomes a vector index only in *eight*, through triality. It is that the Weyl box is the right size. Majorana–Weyl spinors exist only in dimensions $\equiv2\bmod8$, so not here; symplectic Majorana–Weyl exists in six but requires pairs. **The minimal chiral fermion on the canonical space is a Weyl spinor.**
 
 **The cost [O].** Chiral fields in even dimensions can suffer anomalies: a classical symmetry fails under quantization unless the field content is arranged so the failures cancel. In six dimensions this is restrictive, and the self-dual 2-form of Part VIII contributes to the same condition, so the two chiral sectors must be checked together. Unexamined.
 
@@ -612,9 +630,9 @@ $\sigma$ is free and orientation-reversing, so $E/\sigma$ is **non-orientable**.
 
 ## VII.3 The result [D]
 
-> **A Weyl spinor on the canonical total space is a Dirac spinor on the fermionic base, with its two chiral halves at a point and at its twin.**
+> **A Weyl spinor on the canonical space is a Dirac spinor on the fermionic base, with its two chiral halves at a point and at its twin.**
 
-The Dirac mass term is the only thing coupling the chiralities, so **mass becomes a coupling between a point and its twin — local on the fermionic base, twin-connecting seen from the canonical total space.** The fermionic base is where fermion physics is ordinary; the hundred-gigaparsec separation is an artifact of describing it upstairs.
+The Dirac mass term is the only thing coupling the chiralities, so **mass becomes a coupling between a point and its twin — local on the fermionic base, twin-connecting seen from the canonical space.** The fermionic base is where fermion physics is ordinary; the hundred-gigaparsec separation is an artifact of describing it upstairs.
 
 ## VII.4 The twin's field is not independent [D]
 
@@ -710,7 +728,7 @@ $$\mathbb{CP}^3\longrightarrow S^4 = \mathbb{HP}^1,\qquad\text{fiber }\mathbb{CP
 
 canonical, with nothing chosen: over $x$ the fiber is the sphere of complex structures on $T_xS^4$ compatible with metric and orientation, $SO(4)/U(2) = S^2$ — equivalently the sphere of unit self-dual 2-forms.
 
-**Its status here: an encoding, not the arena.** Points of the canonical total space $TS^4$ correspond to **lines** in $\mathbb{CP}^3$ — the two are descriptions of one complexified geometry, and version 14 takes the first as fundamental. The twistor space is retained because Penrose–Ward is stated in its language, and because the evenness argument of §III.1 lives there. It requires only that $S^4$ be a conformal four-manifold; it does **not** require $S^4$ to be a spacetime, and the theory's $S^4$ is *space*.
+**Its status here: an encoding, not the arena.** Points of the canonical space $TS^4$ correspond to **lines** in $\mathbb{CP}^3$ — the two are descriptions of one complexified geometry, and version 14 takes the first as fundamental. The twistor space is retained because Penrose–Ward is stated in its language, and because the evenness argument of §III.1 lives there. It requires only that $S^4$ be a conformal four-manifold; it does **not** require $S^4$ to be a spacetime, and the theory's $S^4$ is *space*.
 
 **The chirality table.** With the layer in place, one $\mathbb{Z}_2$ appears in three sectors:
 
@@ -772,7 +790,7 @@ So *"the source's position has an imaginary part"* and *"the source's twistor li
 
 > Without the layer, $a = J/M$ is an algebraic fact: a coordinate acquired an imaginary part. With it, the same fact is geometric — **the source's line has come out of alignment with a fibration, and $a$ measures the misalignment.** *Rotation is misalignment with a fibration.*
 
-**And in the arena, this is something you can point at [D].** The canonical total space **is** $TS^4$, whose points are (a place) $+$ (a tangent vector). So:
+**And in the arena, this is something you can point at [D].** The canonical space **is** $TS^4$, whose points are (a place) $+$ (a tangent vector). So:
 
 | source | where it sits in the arena | |
 |:--|:--|:--|
@@ -781,7 +799,7 @@ So *"the source's position has an imaginary part"* and *"the source's twistor li
 
 > **The Newman–Janis shift is literally: lift the source off the zero section.** The lift vector *is* the spin — its direction the axis, its length $a = J/M$. Nothing is encoded, nothing is a line: the displacement is a point of the arena, and you can point at it.
 
-This is why the constraint of §I.2 was worth imposing. A source's *complex position* and a *point of the canonical total space* are the same datum, because the arena was built to be the complexification.
+This is why the constraint of §I.2 was worth imposing. A source's *complex position* and a *point of the canonical space* are the same datum, because the arena was built to be the complexification.
 
 **What the real slice shows.** The zero section is the real slice. A source off it has **no location there** — which is why what appears in the real slice is not a point but the **ring** of radius $a$ (below).
 
@@ -832,7 +850,9 @@ Two jobs squarely — rotation made pointable, and the fiber-scale posit removed
 ## X.1 The base-resolution principle
 
 > ### ◆ THE BASE-RESOLUTION PRINCIPLE
-> A detector is a base object. It can record base position and base direction, within its resolution, and nothing else. Two paths in the canonical total space that end at terminal points projecting to the same base point, and arrive with directions whose base projections lie within the detector's resolution, **cannot be distinguished by the detector.** They contribute to one amplitude.
+> A detector is a base object. It can record base position and base direction, within its resolution, and nothing else. Two paths in the canonical space that end at terminal points projecting to the same base point, and arrive with directions whose base projections lie within the detector's resolution, **cannot be distinguished by the detector.** They contribute to one amplitude.
+
+**Its domain [D].** The principle is about **Law III's circle fiber**, not the arena's tangent fiber. Its selection step needs a *compact* fiber (§I.4), and the arena's is $\mathbb{R}^4$.
 
 **Why it is a theorem [D].** A fiber datum is, by definition of the quotient, invariant under the fiber action, hence not a function on the base, hence not recordable. The fiber is unresolvable because the base is a quotient — the same fact that makes gravity blind to it.
 
@@ -944,7 +964,7 @@ The null fiber and its Bondi reading; the Eisenhart–Bargmann lift and the iden
 
 | topic | statement |
 |:--|:--|
-| **canonical total space** | $\mathbb{PT}^*$, 6-D: twistor space of $S^4$ with two sections removed; fibers $\mathbb{C}^* = S^1\times\mathbb{R}$ |
+| **canonical space** | $\mathbb{PT}^*$, 6-D: twistor space of $S^4$ with two sections removed; fibers $\mathbb{C}^* = S^1\times\mathbb{R}$ |
 | **time** | an input, a factor $\mathbb{R}_t$, as in versions 6–11. The complex layer supplies none (§IX.6) |
 | **tower** | $\mathbb{R}_t\times TS^4\,(9)\to\mathbb{R}_t\times S^4\,(5)\to\mathbb{R}_t\times\mathbb{RP}^3\,(4)$; first arrow forgets the imaginary part, second is the seed |
 | **the arena** | defined by a constraint: its tangent spaces are the **complexified** tangent spaces of the middle space. The unique such space is $Q^4 = TS^4$ — horizontal $=$ real, vertical $=$ imaginary |
@@ -1000,7 +1020,8 @@ The null fiber and its Bondi reading; the Eisenhart–Bargmann lift and the iden
 | **detection** | which-path is base-only; zero modes add; $n\neq0$ invisible; Aharonov–Bohm through paths |
 
 
-| **the seed** | matter at $\hat n$, a well at both $\pm\hat n$, **nothing at $-\hat n$**; the twin is empty, and its light could not have arrived anyway ($646$ Gyr) |
+| **the seed** | matter at $\hat n$, a well at both $\pm\hat n$, **nothing at $-\hat n$**; untouched by the change of arena, since it rests on the meridian quotient alone |
+| **what gravity is blind to** | the twin (the seed) and Law III's bundle — **not** the arena's tangent fiber, which carries the spin. The hidden sector now sits entirely on Law III's bundle (§I.4) |
 | **golf ball** | winds $M_g/m_{\rm unit}$ times; Earth dominates beyond $0.56\,\mu$m |
 | **Machian** | literal form inconsistent; the cross term is the realizable form, $<3\times10^{-4}$ |
 | **emergent $G$** | requires $G$-free mass; only the set-aside null fiber supplies one |
