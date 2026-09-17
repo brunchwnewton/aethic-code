@@ -6,7 +6,9 @@
 >
 > **What is new relative to version 11.** The arena is complexified, and time stops being an input. Version 11's canonical total space was $\mathbb{R}_t\times E$: an external time factor times a circle bundle over the 4-sphere. Version 12 replaces both with a single object — **the twistor space of the 4-sphere, with two sections removed.** Its fibers are cylinders $\mathbb{C}^* = S^1\times\mathbb{R}$, and the two directions of that cylinder are the Hopf circle and time. Nothing is deleted: the same six directions appear, packaged as one structure instead of two, and the 4-sphere with its meridians is the *base* of the fibration, untouched.
 >
-> Three things follow. **(1) Time is emergent and geometric:** the twistor fiber over a point is its sphere of compatible complex structures, and time is *latitude* on that sphere, running from a distinguished complex structure to its conjugate. **(2) The anti-self-dual law is native:** the Penrose–Ward correspondence makes anti-self-dual solutions equivalent to holomorphic data on twistor space, and the Kerr metric becomes the real slice of a point mass displaced along a *complex worldline*. **(3) The surgery pays twice:** removing the two sections is what turns the fibers into cylinders *and* what permits a Lorentzian metric at all, since $\chi(\mathbb{CP}^3) = 4\neq0$ forbids one on the compact space.
+> The quotient then splits that cylinder again: **the longitude is quotiented away and the latitude survives as time**, so the gravity base emerges four-dimensional with its time already attached, rather than having one restored at the end (§I.2).
+>
+> Three things follow. **(1) Time is emergent and geometric:** the twistor fiber over a point is its sphere of compatible complex structures, and time is *latitude* on that sphere, running from a distinguished complex structure to its conjugate. **(2) The anti-self-dual law is native:** the Penrose–Ward correspondence makes anti-self-dual solutions equivalent to holomorphic data on twistor space, and the Kerr metric becomes the real slice of a point mass displaced along a *complex worldline*. **(3) The surgery pays twice:** removing the two sections is what turns the fibers into cylinders *and* what permits a Lorentzian metric at all, since $\chi(\mathbb{CP}^3) = 4\neq0$ forbids one on the compact space. A fourth thing falls out unlooked-for: **the seed's own asymmetry is what makes time orientable** (§I.3).
 >
 > **Two reversions, in the interest of staying conservative.** Version 11's self-dual 2-form electromagnetism and its chirality-selective reading of the twin are both **set aside** (§XII.1). Electromagnetism returns to an ordinary Maxwell 1-form, and the twin returns to being **empty of matter**, as in every version before 11. Neither was forced; both were introduced to support a quantum-flavoured programme that this version does not pursue, and the incentive for them went with it. They remain coherent alternatives and can be restored if a later version needs them.
 >
@@ -226,6 +228,24 @@ Since $\sigma$ (Part VI) descends to the twin map on $S^4$, and the gravity base
 
 *Version 11 replaced this with a self-dual 2-form, in order to give light an "even chirality" that the involution could flip — machinery introduced to support a chirality-selective reading of the seed. That reading is set aside here (Part X), so the 1-form is restored. The 2-form remains a coherent alternative and is recorded in §XII.1.*
 
+## II.0 What each law is, and what you deduce from it [D]
+
+*Stated once, so that the four are never confused with one another.*
+
+| | **Law I** | **Law II** | **Law III** | **Law IV** |
+|:--|:--|:--|:--|:--|
+| **is** | Einstein's equations | an elliptic equation for a potential | a first-order equation for a curvature | Maxwell |
+| **lives on** | the gravity base, 4-D | the cover $S^4$ | the fiber's **longitude** | the cover $S^4$ |
+| **determines** | the base metric, hence $\Omega$, hence the fiber's shape | the meridians, hence the twin pairing and the base itself | the connection $\alpha$ | $\mathcal{F}$ |
+| **sourced by** | $T_+$, the **even** part of matter | the poles only; other matter enters as permeability $\mu$ | $J_-$, the **odd** part of matter | electric charge |
+| **status** | **dynamical** — it has an action and it back-reacts | **kinematic** — no action, nothing couples to it | **kinematic** — no action, nothing couples to it | dynamical |
+| **what you deduce** | orbits, tides, redshift, black-hole exteriors, the $v^2$ plateau (Part V) | which points are twins, where the poles sit, what the jellium is (§I.6, §II.4) | Chern numbers on meridians, the Aharonov–Bohm phase, the $P^2/r^2$ term if it gravitates (§V.6) | the photon's kinematics, the twin's electromagnetic emptiness (Part VIII) |
+| **partition slot** | base metric $+$ fiber metric | the meridian fibration itself | 4 of the connection's 8 | — |
+
+**The two kinematic laws are kinematic in the same sense:** they have no action, receive no back-reaction, and are determined instantaneously by the placement of matter. Law I is the only one with dynamics.
+
+**And the area-preserving condition belongs to Law I, not Law III.** It constrains the fiber metric's $2\times2$ block, $\mathrm{diag}(\Omega^2,-\Omega^{-2})$; the connection $\alpha$ is a *1-form on the base*, so it enters the fiber–base cross terms and never that block, and cannot affect its determinant **[D]**. See §V.3 for the condition's scope, which is the weak field.
+
 ## II.1 Why Law II weaves rather than sources [D/V]
 
 With secondary masses as additional same-sign sources of $\Phi_u$, a secondary becomes a critical point; its own field lines are repelled by the center and die at a saddle; and **no fiber through it reaches its antipode** — the twin is lost. With secondaries entering as permeability, the maximum principle forbids interior critical points: every point of $S^4$ lies on exactly one meridian from $0$ to $\infty$, a secondary sits *on* a twin-pair fiber, and the latitudes deform without pinching. In a two-dimensional test with $\mu = 7$ at a mass, seven of seven field lines launched at it passed through and continued **[V]**.
@@ -342,7 +362,7 @@ $E$ is the circle bundle over $S^4\setminus\Gamma$, where $\Gamma$ is the graph 
 
 which is $6\cdot7/2$, the full count for a six-manifold **[V]**. Version 11's one-dimensional fiber gave $15 = 10+1+4$; the extra fiber direction adds two to the fiber metric and four to the connection, and **neither addition is spare**:
 
-- **The fiber metric's three reduce to one.** Area-preservation (§V.3) fixes the determinant, and diagonality kills the $\phi$–$t$ cross term: $3-1-1 = 1$. One function, $\Omega$ — and Law I in the conformally-round sector determines exactly one function, $\phi$, with $\Omega = \phi^2$. **The counts match exactly**, so the fiber's shape is fully fixed by Law I and carries no independent information. *That is the precise sense in which the field equations see only the base: gravity determines the fiber and is not informed by it.* **[V/D]**
+- **The fiber metric's three reduce — to two in general, to one in the weak field.** Diagonality kills the $\phi$–$t$ cross term, leaving $\Omega$ and $N$: two functions, both determined by Law I. *In the weak-field static sector* area-preservation additionally fixes $N = \Omega^{-1}$ (§V.3, with its scope box), leaving one — matching Law I's single conformal factor exactly. Either way **the fiber's shape is fully fixed by Law I and carries no independent information**, which is the precise sense in which the field equations see only the base: gravity determines the fiber and is not informed by it. What is weak-field is only the *tidiness* of the count, not the fact **[V/D]**.
 - **The connection's eight split as four and four.** The circle's 1-form is Law III's $\alpha$. **The time direction's 1-form $\beta$, appearing as $-\Omega^{-2}(dt+\beta)^2$, is the shift vector** — so frame dragging, rotation, and magnetic Weyl now live *inside* the fiber structure. Version 11 stated flatly that magnetic Weyl lives in the shift, "which no fiber carries"; the time fiber carries it, and it is the same slot the complex worldline of §IX.2 deforms **[D]**.
 
 The older, one-dimensional form of the count, still valid level by level:
@@ -459,11 +479,20 @@ $$(\Delta_{S^3} + 3)\,\delta\phi = -2\pi\,\delta\rho_+$$
 
 — the twin-theorem operator, acting on the conformal factor. Write $\Omega\equiv\phi^2$.
 
-**The fiber metric.** Version 11 recorded two separate facts: the Hopf length was $L_H = 2\pi\ell\Omega$, and the lapse obeyed $N\cdot L_H = $ constant. On the twistor cylinder these are **one** fact. Put on the fiber
+**The fiber metric.** Version 11 recorded two separate facts: the Hopf length was $L_H = 2\pi\ell\Omega$, and the lapse obeyed $N\cdot L_H = $ constant *to first order*. On the twistor cylinder these become **one** fact. Put on the fiber
 
 $$ds^2_{\rm fiber} = \Omega^2\big(d\phi + \alpha\big)^2 - \Omega^{-2}\,dt^2$$
 
-Then the longitude's circumference is $2\pi\Omega$ — the old $L_H$ — the lapse along the latitude is $\Omega^{-1}$, and their product is $2\pi$, **independent of $\Omega$** **[V]**.
+Then the longitude's circumference is $2\pi\Omega$ — the old $L_H$ — the lapse along the latitude is $\Omega^{-1}$, and their product is $2\pi$, independent of $\Omega$ **[V]**.
+
+> ### ◆ THE SCOPE OF THE SQUEEZE — read this before using it
+> **The squeeze is a first-order statement and is not exact.** Isotropic Schwarzschild has $N = (1-m/2r)/(1+m/2r)$ while the squeeze demands $N = \Omega^{-1} = (1+m/2r)^{-2}$. Expanding,
+> $$N_{\rm Schw} = 1 - \frac{m}{r} + \frac{m^2}{2r^2},\qquad N_{\rm squeeze} = 1 - \frac{m}{r} + \frac{3m^2}{4r^2}$$
+> They agree to first order and **part at $O(m^2/r^2)$**; the exact product is $N_{\rm Schw}\Omega = 1 - m^2/4r^2$, not $1$ **[V]**.
+>
+> **Imposing it exactly would change the spacetime.** With lapse $\Omega^{-1}$ and spatial metric $\Omega^2$ the line element is $ds^2 = -U^{-2}dt^2 + U^2dx^2$ with $U = \Omega$ — the **Majumdar–Papapetrou** form, which for harmonic $U$ solves Einstein–Maxwell and gives *extremal* Reissner–Nordström, $Q = M$. Every body would be an extremal black hole. **Excluded**, and not rescuable by identifying the charge with the second-order flux, since Mercury bounds $g_2/m_{\rm unit}<0.024$, nowhere near extremal **[V/T]**.
+>
+> **So the squeeze holds where the theory's fiber readings have always held: the weak-field static sector.** Beyond it the fiber metric retains two independent functions, $\Omega$ and $N$, both determined by Law I but not by $N\Omega = 1$ — and the degree-of-freedom count of §III.5 reduces $3\to2$ rather than $3\to1$ there. The tidy match is a weak-field tidiness, not a structural one **[D]**.
 
 > **Gravity acts on the fiber as an area-preserving squeeze: the circle stretches by $\Omega$, time contracts by $\Omega^{-1}$, and the cylinder's area element is untouched.**
 
@@ -703,13 +732,39 @@ It is also the reason the self-dual / anti-self-dual split keeps recurring. Vers
 | light | $\mathcal{F}^\pm = \tfrac12(\mathcal{F}\mp i\star\mathcal{F})$ | Maxwell's **complex** self-dual split; the Newman–Penrose scalars (§VIII.3) |
 | matter | $S^+$ / $S^-$ | Weyl spinors, Part VII |
 
-## IX.2 Kerr from a complex worldline [T/V]
+## IX.2 Kerr from a complex worldline: the construction [T/V]
 
-Take the Schwarzschild potential and displace the source into **imaginary** space:
+*Six steps, each checkable, from Schwarzschild to Kerr with no new input but a displacement into imaginary space.*
+
+**Step 1 — put Schwarzschild in Kerr–Schild form.** Write the metric as flat plus a null-squared term,
+
+$$g_{ab} = \eta_{ab} + 2H\,k_ak_b,\qquad H = \frac{M}{r},\qquad k = \Big(1,\ \frac{x}{r},\frac{y}{r},\frac{z}{r}\Big)$$
+
+with $k$ null and geodesic with respect to *both* $\eta$ and $g$. This is exact, not linearized **[T]**.
+
+**Step 2 — notice the whole solution rests on one harmonic function.** $H$ is built from the Coulomb function $1/r$, and $\nabla^2(1/r) = 0$ away from the origin **[V]**. Everything else in Kerr–Schild form is determined by $k$.
+
+**Step 3 — complexify, and displace the source.** $1/r$ continues holomorphically in $z$, so shift the source along the *imaginary* axis, $z\to z - ia$:
 
 $$\frac{1}{\sqrt{x^2+y^2+z^2}}\ \longrightarrow\ \frac{1}{\sqrt{x^2+y^2+(z-ia)^2}}$$
 
-The real slice of the resulting field is exactly the **Kerr metric**, with $a = J/M$ the spin per unit mass. The complex distance vanishes where $z = 0$ and $x^2+y^2 = a^2$ — Kerr's **ring singularity**, verified **[V]** — and $a = 0$ recovers Schwarzschild. This is the Newman–Janis shift, and in the present arena it says:
+The displaced function is still harmonic — verified, the Laplacian remains zero **[V]** — so it solves the same equation. **Nothing has been added; a source has been moved.**
+
+**Step 4 — find where it becomes singular.** The complex distance vanishes when $x^2+y^2+(z-ia)^2 = 0$. Separating real and imaginary parts gives $-2az = 0$ and $x^2+y^2+z^2 = a^2$, hence
+
+$$z = 0\quad\text{and}\quad x^2+y^2 = a^2$$
+
+**a ring of radius $a$** **[V]**. Schwarzschild's point singularity has become **Kerr's ring**, and $a = 0$ collapses it back to a point.
+
+**Step 5 — read off the real slice.** Introduce the oblate radius $R$ by $\frac{x^2+y^2}{R^2+a^2} + \frac{z^2}{R^2} = 1$. The complex distance is then exactly $R + ia\cos\theta$, and
+
+$$H = \frac{MR^3}{R^4 + a^2z^2}$$
+
+which together with the corresponding null $k$ **is the Kerr metric in Kerr–Schild form** **[T]**.
+
+**Step 6 — identify the parameter.** Computing the angular momentum of the result gives $J = Ma$, so $a = J/M$: **the imaginary displacement *is* the angular momentum per unit mass** **[T]**.
+
+In the present arena this says:
 
 > **A rotating body is a non-rotating body whose worldline has been displaced along an imaginary direction.** Rotation is not extra structure; it is a position in the complexification.
 
@@ -798,6 +853,7 @@ The null fiber and its Bondi reading; the Eisenhart–Bargmann lift and the iden
 | "a $2\pi$ rotation is the antipodal map" | conjugation by $-1$ is the identity; the antipodal map is a translation (§IV.3) |
 | "northern light / southern light" | the twin map fixes the poles, and no global sheet label exists (§X.2) |
 | the Machian rescaling as stated | inconsistent (§X.2) |
+| the squeeze as an **exact** condition | it parts from Schwarzschild at $O(m^2/r^2)$, and imposing it exactly gives Majumdar–Papapetrou — every body extremally charged. Demoted to a weak-field statement (§V.3) |
 | poles assigned by hand at fixed coordinates | replaced by the Machian axis (§II.4): the poles follow the matter's principal axis |
 | $v^2_{\rm eq} = 4GM/\pi\ell$ | $15\%$ low; the converged value is $1.497\,GM/\ell$ (§V.8) |
 | "Law II's static presentation is a gauge choice" | too strong: Law II is elliptic on slices, hence instantaneous and frame-preferring; canonical only on static solutions (§II.3) |
@@ -831,14 +887,18 @@ The null fiber and its Bondi reading; the Eisenhart–Bargmann lift and the iden
 | topic | statement |
 |:--|:--|
 | **canonical total space** | $\mathbb{PT}^*$, 6-D: twistor space of $S^4$ with two sections removed; fibers $\mathbb{C}^* = S^1\times\mathbb{R}$ |
-| **time** | the **radial** direction of the twistor fiber — latitude on the sphere of complex structures, from $J$ to $-J$. Emergent, not posited |
-| **Hopf circle** | the **angular** direction of the same fiber |
-| **tower** | $\mathbb{PT}^*(6)\to S^4(4)\to\mathbb{RP}^3(3)$; time is inside the first fiber |
+| **time** | the **latitude** of the twistor fiber — from $J$ to $-J$ on the sphere of complex structures. Emergent, not posited, and *not* quotiented away |
+| **the split quotient** | longitude quotiented, latitude kept: $\mathbb{PT}^*(6)\to S^4\times\mathbb{R}_t(5)\to\mathbb{RP}^3\times\mathbb{R}_t(4)$. The gravity base is a spacetime from the start |
+| **lossless** | the squeeze makes both fiber directions carry $\Omega$, inversely; deleting the longitude leaves it as the lapse $\Omega^{-1}$ |
+| **three operations** | quotient longitude $\to$ blind to Law III; quotient meridians $\to$ the seed; keep latitude $\to$ sees time and $\Omega$ |
+| **time orientability** | needs $L_1\not\cong L_2$, i.e. $a\neq0$, i.e. $M_-\neq0$: **odd matter orients time**, and the seed supplies it. Not a thermodynamic arrow |
+| **Hopf circle** | the **longitude** of the same fiber; quotiented away in the first arrow |
+
 | **the surgery** | removing two sections does two jobs: cylinder fibers, and a Lorentzian metric ($\chi(\mathbb{CP}^3) = 4\neq0$ forbids one on the compact space) |
 | **sections exist** | over $S^4\setminus\Gamma\simeq S^2$ every rank-2 bundle splits, so $S^- = L_1\oplus L_2$: the meridian removal supplies them |
 | **even linking** | the cylinder's circle bundle is $L_1^*\otimes L_2$ with $c = -2a$: fibers link an **even** number of times, so $M_-/m_{\rm unit}$ must be even |
 | **ASD law** | Penrose–Ward: anti-self-dual solutions $=$ holomorphic data on twistor space. Native here |
-| **Kerr** | the real slice of a mass on a **complex worldline**: $z\to z-ia$; ring singularity at $x^2+y^2 = a^2$; rotation is a position in the complexification |
+| **Kerr, in six steps** | Kerr–Schild form $\to$ one harmonic function $\to$ displace $z\to z-ia$ $\to$ the singularity becomes a **ring** of radius $a$ $\to$ oblate slice gives $H = MR^3/(R^4+a^2z^2)$ $\to$ $J = Ma$. **Rotation is a position in the complexification** (§IX.2) |
 | **gravity base** | $\mathbb{RP}^3$, 3-D; Law I, with time restored from the fiber |
 | **fermionic base** | $\mathbb{PT}^*/\sigma$, 6-D; an identification, non-orientable |
 | **arena** | primary at the south pole, forced by $\chi(S^4) = 2$; latitudes the level sets |
@@ -859,9 +919,10 @@ The null fiber and its Bondi reading; the Eisenhart–Bargmann lift and the iden
 
 
 
+| **what each law is** | I: Einstein on the base, dynamical, from $T_+$. II: the meridians, kinematic, poles only. III: the connection, kinematic, from $J_-$. IV: Maxwell on the cover. Table at §II.0 |
 | **$G$ identity** | $GM_{\rm tot}/c^2\ell = \pi/2$: from Law I and closure alone; untouched by the Machian form |
 | **twin theorem** | $(\Delta+3)$; dipole kernel; a lone mass has no static solution |
-| **Law I on the fiber** | $ds^2_{\rm fiber} = \Omega^2(d\phi+\alpha)^2 - \Omega^{-2}dt^2$: an **area-preserving squeeze**. Circumference $2\pi\Omega$, lapse $\Omega^{-1}$, product fixed. Both directions, oppositely |
+| **Law I on the fiber** | $ds^2_{\rm fiber} = \Omega^2(d\phi+\alpha)^2 - \Omega^{-2}dt^2$: an **area-preserving squeeze**, circumference up and lapse down. **Weak field only** — it parts from Schwarzschild at $O(m^2/r^2)$, and imposing it exactly gives extremal Reissner–Nordström (§V.3) |
 | **the metric** | $ds^2_6 = -\Omega^{-2}dt^2 + \Omega^2(d\phi+\alpha)^2 + \lambda^2du^2 + \phi^4g_{S^3}$; near a mass, isotropic Schwarzschild exactly |
 | **shells** | proper area $4\pi r^2(1+GM/2r)^4$; fiber circumference $2\pi\phi^2$, longest deepest in the well |
 | **fiber reading** | $\delta L/L = -\Phi$; $E_{ij} = -2[\nabla\nabla\phi]^{\rm TF}$; PNDs along $\nabla L$ |
