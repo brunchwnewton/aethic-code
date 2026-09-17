@@ -29,22 +29,22 @@
 | **twistor fiber** | over $x\in S^4$, the sphere $\mathbb{CP}^1$ of complex structures compatible with the metric and orientation at $x$, minus two antipodal points | 2 | supplies the Hopf circle and time |
 | **the removed pair** | at each point a complex structure $J$ and its conjugate $-J$. Their removal makes the fiber a cylinder *and* makes a Lorentzian metric possible | — | §I.2 |
 
-The unqualified phrase "total space" is retired in favor of *canonical total space*. The fibration tower is
+The unqualified phrase "total space" is retired in favor of *canonical total space*. The tower quotients the cylinder fiber's **two directions separately**, and that is the version's organizing move:
 
-$$\mathbb{PT}^*\ (6)\ \longrightarrow\ S^4\ (4)\ \longrightarrow\ \mathbb{RP}^3\ (3)$$
+$$\mathbb{PT}^*\ (6)\ \xrightarrow{\ /\,\text{longitude}\ }\ S^4\times\mathbb{R}_t\ (5)\ \xrightarrow{\ /\,\text{meridians}\ }\ \mathbb{RP}^3\times\mathbb{R}_t\ (4)$$
 
-the first arrow a quotient by the cylinder fiber, the second by the meridians. **Time is not a factor of the tower — it is one of the two fiber directions of the first arrow** (§I.2), restored whenever a four-dimensional spacetime is wanted below. The fermionic base sits off this tower, mapping from the canonical total space and onto the gravity base.
+**The gravity base comes out four-dimensional with its time already attached.** No time factor is posited at the start and none is restored at the end: the longitude is quotiented away and its partner, the latitude, survives as time. The fermionic base sits off this tower, mapping from the canonical total space and onto the gravity base.
 
-The six directions, and where each lives:
+The six directions, and what happens to each:
 
-| direction | count | where |
-|:--|:--:|:--|
-| gravity base $\mathbb{RP}^3$ | 3 | the bottom of the tower |
-| meridian $u$ | 1 | in $S^4$, fibered over $\mathbb{RP}^3$ |
-| Hopf angle $\theta$ | 1 | the **angular** direction of the twistor fiber |
-| time $t$ | 1 | the **radial** direction of the twistor fiber |
+| direction | count | where it lives | fate |
+|:--|:--:|:--|:--|
+| gravity base $\mathbb{RP}^3$ | 3 | the bottom of the tower | kept |
+| meridian $u$ | 1 | in $S^4$, fibered over $\mathbb{RP}^3$ | **quotiented** — this is the seed |
+| Hopf angle $\phi$ | 1 | the **longitude** of the twistor fiber | **quotiented** — this is why gravity cannot see Law III |
+| time $t$ | 1 | the **latitude** of the twistor fiber | **kept** |
 
-Version 11 had the same six, with time an external factor and the Hopf circle a separate bundle. Version 12 packages the last two as one cylinder. **Nothing is added and nothing is deleted.**
+Version 11 had the same six, with time an external factor and the Hopf circle a separate bundle. Version 12 packages those two as one cylinder and then splits it again at the quotient, keeping one half. **Nothing is added and nothing is deleted.**
 
 ## 0.2 Points and places
 
@@ -122,7 +122,37 @@ $$\rho\in\mathbb{R}:\ \text{latitude, from }J\text{ to }-J\ \longrightarrow\ \te
 
 Write $\mathbb{PT}^*$ for the result. The picture: *meridians against a 3-sphere, with a cylinder of complex structures erected over every point — its angle the Hopf phase, its height the time.*
 
-## I.3 The surgery is required twice [T/V]
+**The two directions are quotiented separately, and that is the point.** The longitude carries a free $U(1)$ action (phase rotation on $\mathbb{C}^*$ has no fixed points), so the quotient exists; the meridian action is on the base, so the two commute and the order is immaterial. Quotienting the longitude alone gives an $\mathbb{R}$-bundle over $S^4$ — and an $\mathbb{R}$-bundle is trivial, so the result is $S^4\times\mathbb{R}_t$ **[T]**. Quotienting the meridians then gives $\mathbb{RP}^3\times\mathbb{R}_t$: a four-dimensional spacetime, arrived at without ever positing a time factor.
+
+**And nothing is lost, because of the squeeze.** The fiber metric is $\Omega^2(d\phi+\alpha)^2 - \Omega^{-2}dt^2$ (§V.3). Quotient the longitude and what survives on the base is $-\Omega^{-2}dt^2$ — **the lapse is $\Omega^{-1}$.** The circumference $2\pi\Omega$ is gone, but $\Omega$ itself remains, now as the lapse.
+
+> **The two fiber directions carry the same function, inversely. Deleting one leaves the other holding all of it.** That is why the longitude quotient is lossless for gravity, and it is what the area-preserving form of Law I is *for*.
+
+**What each quotient means, in three lines [D]:**
+
+| operation | consequence |
+|:--|:--|
+| quotient the **longitude** | gravity becomes blind to Law III's connection $\alpha$, which lives on it |
+| quotient the **meridians** | gravity becomes blind to where along $u$ matter sits — **the seed** |
+| keep the **latitude** | gravity sees time, and sees $\Omega$ through the lapse |
+
+Those three lines are the partition principle (§III.5) stated as operations rather than as a count.
+
+## I.3 What orients time [D/S]
+
+The latitude runs from $J$ to $-J$. For *which end is the future* to be globally consistent, the two removed sections must be globally distinguishable — not exchangeable by transport around any loop in the base.
+
+They are the sub-bundles $L_1, L_2$ of the splitting $S^- = L_1\oplus L_2$ (§I.5), with $c_1 = a$ and $-a$. These are isomorphic **iff** $a = -a$, that is iff $a = 0$. And the cylinder's Chern number is $c = -2a$, identified with the second-order flux $M_-/m_{\rm unit}$, so
+
+$$a = 0\ \iff\ M_- = 0\ \iff\ \text{no odd matter}$$
+
+> **If there is odd matter, the two sections are inequivalent and time is orientable.** Were matter exactly twin-symmetric, the sections could be exchanged around a loop and the orientation could fail.
+
+And the seed supplies exactly this: matter sits at $\hat n$ and *not* at $-\hat n$, which is maximally odd, so $M_-\neq0$ identically. **The seed guarantees that time can be oriented.**
+
+**A caution about what this is [S].** This is *time-orientability* — the global statement that a consistent choice of future light cone exists. It is **not** a thermodynamic arrow of time, which is a different and far stronger claim about entropy, and nothing here bears on it. What is established is a link between the seed's asymmetry and the causal structure's global consistency, which no earlier version had.
+
+## I.4 The surgery is required twice [T/V]
 
 Removing the two sections is not a convenience. It is forced, independently, by two things.
 
@@ -130,7 +160,7 @@ Removing the two sections is not a convenience. It is forced, independently, by 
 
 **(ii) To permit a Lorentzian metric at all.** A *compact* manifold admits a Lorentzian metric if and only if its Euler characteristic vanishes. Since $\chi(\mathbb{CP}^n) = n+1$, we have $\chi(\mathbb{CP}^3) = 4\neq0$: **$\mathbb{CP}^3$ admits no Lorentzian metric whatever.** Removing the sections makes it non-compact, and every non-compact manifold admits one. The requirement is not a technicality imported from a field equation: **time is one of the fiber's two directions (§I.2), and it must be timelike.** Without the surgery the arena cannot carry time at all.
 
-## I.4 The sections exist, and the linking is even [T/V]
+## I.5 The sections exist, and the linking is even [T/V]
 
 **The obstruction on the whole sphere.** Two *global* sections of $\mathbb{CP}^3\to S^4$ do not exist: a section is an almost complex structure, and $S^4$ admits none — an almost complex 4-manifold needs $c_1^2 = 2\chi+3\sigma = 4$, but $H^2(S^4) = 0$ forces $c_1 = 0$.
 
@@ -156,7 +186,7 @@ There is no natural square root: the fiber coordinate $\zeta = w_2/w_1$ *is* a s
 
 **Still assumed [O].** A Lorentzian metric is *admitted* by non-compactness, but none has been constructed; whether a natural one exists with the fiber's radial direction timelike is open.
 
-## I.5 The quotient, the base, and the seed [D]
+## I.6 The quotient, the base, and the seed [D]
 
 The gravity base is the space of meridians, $\mathbb{RP}^3$. Each of its points is one great circle through both poles, crossing the equator at $\pm\hat n$. Gravity is defined on $\mathbb{R}_t\times\mathbb{RP}^3$ and reads the fiber average — the integral of the cover's stress-energy along the meridian — which includes both twins by construction.
 
@@ -164,11 +194,11 @@ The gravity base is the space of meridians, $\mathbb{RP}^3$. Each of its points 
 
 **This is derived, not postulated:** a great circle through the poles crosses the equator twice. The projective postulate of the earliest versions is a theorem of the arena. 
 
-## I.6 The primary is the jellium [D]
+## I.7 The primary is the jellium [D]
 
 Both poles lie on **every** meridian, so $M_c$ contributes equally to every fiber average: seen from the gravity base it is uniform. The uniform background density of the Einstein static universe is the primary's column density, with value fixed by closure (§V.2).
 
-## I.7 The three spaces, related [D]
+## I.8 The three spaces, related [D]
 
 Since $\sigma$ (Part VI) descends to the twin map on $S^4$, and the gravity base already identifies $\hat n$ with $-\hat n$, the fermionic base also maps onto the gravity base. The three form a commuting triangle with the canonical total space at the apex. **The fermionic base is not a dimensional reduction:** $\sigma$ is a free involution, so $E/\sigma$ has the same dimension as $E$; they differ in global structure, not size.
 
@@ -228,7 +258,7 @@ This is the two-speed cover, stated as a property of Law II: gravity links antip
 
 **Some source structure is mandatory.** $\nabla\cdot(\mu\nabla\Phi_u) = 0$ everywhere on a compact manifold forces $\Phi_u$ constant — no fibration at all. Poincaré–Hopf then makes one source and one sink the minimum, since each has index $+1$ and the total must be $\chi(S^4) = 2$. Extra pairs cost saddles.
 
-**Why the zeros must be antipodal.** The fibration must be preserved by the twin map, since that is the deck map of the gravity base. The twin map therefore permutes the zeros, and its fixed points on $S^4$ are exactly the two poles **[V]**. A source–sink pair placed at them lies on *every* meridian, which is why the poles project uniformly onto the base (§I.6) and the base stays smooth. Zeros *swapped* by the twin map would be a twin pair at one latitude — one point of the base, hence a singular point of it. Version 11 takes the first case.
+**Why the zeros must be antipodal.** The fibration must be preserved by the twin map, since that is the deck map of the gravity base. The twin map therefore permutes the zeros, and its fixed points on $S^4$ are exactly the two poles **[V]**. A source–sink pair placed at them lies on *every* meridian, which is why the poles project uniformly onto the base (§I.7) and the base stays smooth. Zeros *swapped* by the twin map would be a twin pair at one latitude — one point of the base, hence a singular point of it. Version 11 takes the first case.
 
 **The three limits, verified [V]:**
 
@@ -240,7 +270,7 @@ This is the two-speed cover, stated as a property of Law II: gravity links antip
 
 **Mass confers no role.** There is no threshold anywhere in Law II: a secondary of any mass, up to and beyond the primary's, enters through $\mu$ and never sources. Growing it tilts the axis continuously, in proportion to its mass, and nothing else. **The small-secondary limit — Keplerian orbits with no capture — therefore holds at every mass ratio, not as an approximation but as a structural fact.**
 
-**And the equal-mass limit dissolves the distinction entirely.** Matter at a pole projects *uniformly* onto the gravity base, because the poles lie on every meridian; that is the content of §I.3. So two equal masses at the two poles are **both jellium**: the base density is perfectly uniform, there are no lumps at all, the gravity base is the bare Einstein static universe, and there is no center of anything. Each mass has $GM/c^2\ell = \pi/4$ and $r_s = \pi\ell/2$, half the antipodal distance, so no horizon difficulty arises. **The primary/secondary distinction does not merely become symmetric — it disappears.**
+**And the equal-mass limit dissolves the distinction entirely.** Matter at a pole projects *uniformly* onto the gravity base, because the poles lie on every meridian; that is the content of §I.4. So two equal masses at the two poles are **both jellium**: the base density is perfectly uniform, there are no lumps at all, the gravity base is the bare Einstein static universe, and there is no center of anything. Each mass has $GM/c^2\ell = \pi/4$ and $r_s = \pi\ell/2$, half the antipodal distance, so no horizon difficulty arises. **The primary/secondary distinction does not merely become symmetric — it disappears.**
 
 ## II.5 Many masses: the primary is a limiting case, not a role [V/D]
 
@@ -263,7 +293,7 @@ With $n$ comparable masses the dipole points at the **centroid direction**, whic
 
 The alternative picture — a singularity at each mass plus its antipode — is $2n$ zeros, which by Poincaré–Hopf requires $2n-2$ saddles: the **watershed foam**, in which each mass owns a basin quotienting to its own base, so a small secondary would acquire a nearby twin of its own and double its effective mass locally. That is precisely what the permeability rule exists to prevent.
 
-**And the jellium does not require a primary.** Uniform base density needs uniformity over $\hat n$, and there are two ways to get it: matter **at a pole**, which lies on every meridian; or matter **spread evenly over a latitude**. The first is the special case; the second is what a realistic near-homogeneous universe does. So the smooth background survives with no primary at all, and closure still fixes the total at $\pi\ell/2$. This refines §I.5's identification of the primary with the jellium, which held for the single-mass configuration.
+**And the jellium does not require a primary.** Uniform base density needs uniformity over $\hat n$, and there are two ways to get it: matter **at a pole**, which lies on every meridian; or matter **spread evenly over a latitude**. The first is the special case; the second is what a realistic near-homogeneous universe does. So the smooth background survives with no primary at all, and closure still fixes the total at $\pi\ell/2$. This refines §I.6's identification of the primary with the jellium, which held for the single-mass configuration.
 
 **The jellium/lump split is therefore a statement about position, not mass:** matter on every meridian (at a pole) or spread evenly over a latitude is jellium; matter concentrated at one $\hat n$ is a lump; closure fixes the sum at $\pi\ell/2$ (§V.2). The orbit parameter $f$ of §V.8 is exactly the lumped share.
 
@@ -449,7 +479,7 @@ So it is **not the longitude alone** that carries the gravitational field, and n
 
 $$ds^2_6 = -\Omega^{-2}dt^2 + \Omega^2(d\phi+\alpha)^2 + \lambda^2du^2 + \phi^4g_{S^3}$$
 
-with $\Omega = \phi^2$ from Law I, $\alpha$ the Law III connection (even Chern number, §I.4), $u$ the meridian and $\lambda$ its scale, and $g_{S^3}$ the round metric of the latitude.
+with $\Omega = \phi^2$ from Law I, $\alpha$ the Law III connection (even Chern number, §I.5), $u$ the meridian and $\lambda$ its scale, and $g_{S^3}$ the round metric of the latitude.
 
 **A secondary point mass.** Solve $(\Delta_{S^3}+3)\delta\phi = -2\pi\delta\rho_+$ for a point mass at $\chi = 0$ with its twin. Near the mass the Green's function goes as $1/\sin\chi$, so with $r = \ell\chi$
 
@@ -465,9 +495,9 @@ $$ds^2_4 = -\left(\frac{1-GM/2r}{1+GM/2r}\right)^2dt^2 + \left(1+\frac{GM}{2r}\r
 
 $$A = 4\pi r^2\left(1+\frac{GM}{2r}\right)^4$$
 
-the standard areal radius. Over each shell sits the longitude circle bundle of §I.4, of even Chern number, with total space the lens space $L(|c|,1)$ and fiber circumference $2\pi\Omega = 2\pi\phi^2$ — longest where the shell is deepest in the well.
+the standard areal radius. Over each shell sits the longitude circle bundle of §I.5, of even Chern number, with total space the lens space $L(|c|,1)$ and fiber circumference $2\pi\Omega = 2\pi\phi^2$ — longest where the shell is deepest in the well.
 
-**What remains undetermined [O].** The meridian scale $\lambda$, inherited unfixed from version 11; and the Lorentzian metric's global existence (§I.4).
+**What remains undetermined [O].** The meridian scale $\lambda$, inherited unfixed from version 11; and the Lorentzian metric's global existence (§I.5).
 
 ## V.5 Weyl from the fiber length [V]
 
@@ -702,7 +732,7 @@ The real slice of the resulting field is exactly the **Kerr metric**, with $a = 
 
 ## X.2 The twin, and why it is unobserved [V/D]
 
-The seed is as stated in §I.5: matter at $\hat n$, a gravitational well at both $\pm\hat n$, and **nothing at $-\hat n$**. No selection rule on light is invoked, and none is needed.
+The seed is as stated in §I.6: matter at $\hat n$, a gravitational well at both $\pm\hat n$, and **nothing at $-\hat n$**. No selection rule on light is invoked, and none is needed.
 
 Two facts make the twin unobservable, independently of each other and of any reading.
 
@@ -777,8 +807,8 @@ The null fiber and its Bondi reading; the Eisenhart–Bargmann lift and the iden
 
 ## XII.3 Open
 
-1. **Construct the Lorentzian metric** (§I.4). Non-compactness *admits* one; none has been written down, and whether a natural one exists with the fiber's radial direction timelike is the first thing version 12 owes. *(The section question of the first draft is settled affirmatively — §I.4.)*
-2. **Even flux** (§I.4). The twistor identification forces $M_-/m_{\rm unit}$ to be even. Whether that constrains $m_{\rm unit}$, constrains the admissible masses, or signals that the two circle bundles should not be identified, is open.
+1. **Construct the Lorentzian metric** (§I.5). Non-compactness *admits* one; none has been written down, and whether a natural one exists with the fiber's radial direction timelike is the first thing version 12 owes. *(The section question of the first draft is settled affirmatively — §I.5.)*
+2. **Even flux** (§I.5). The twistor identification forces $M_-/m_{\rm unit}$ to be even. Whether that constrains $m_{\rm unit}$, constrains the admissible masses, or signals that the two circle bundles should not be identified, is open.
 3. **Is the Kerr parameter literally a fiber displacement?** (§IX.2) The complex worldline is a theorem; whether $a$ lives in the shift $\beta$ — the time fiber's own connection (§III.5) — rather than being an analogy, is open, and §III.5 makes it more promising than it looked.
 4. **The meridian scale $\lambda$** (§V.4), inherited unfixed from version 11.
 5. **Anomalies:** whether the six-dimensional Weyl fermions cancel their own (§IV.7).
