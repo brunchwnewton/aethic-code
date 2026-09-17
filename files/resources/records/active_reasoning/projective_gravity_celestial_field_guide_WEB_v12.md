@@ -8,7 +8,9 @@
 >
 > Three things follow. **(1) Time is emergent and geometric:** the twistor fiber over a point is its sphere of compatible complex structures, and time is *latitude* on that sphere, running from a distinguished complex structure to its conjugate. **(2) The anti-self-dual law is native:** the Penrose–Ward correspondence makes anti-self-dual solutions equivalent to holomorphic data on twistor space, and the Kerr metric becomes the real slice of a point mass displaced along a *complex worldline*. **(3) The surgery pays twice:** removing the two sections is what turns the fibers into cylinders *and* what permits a Lorentzian metric at all, since $\chi(\mathbb{CP}^3) = 4\neq0$ forbids one on the compact space.
 >
-> **Carried unchanged from version 11.** The fermionic base and its involution; self-dual 2-form electromagnetism; the relational visible space; and every law, theorem and identity of the gravity base.
+> **Two reversions, in the interest of staying conservative.** Version 11's self-dual 2-form electromagnetism and its chirality-selective reading of the twin are both **set aside** (§XII.1). Electromagnetism returns to an ordinary Maxwell 1-form, and the twin returns to being **empty of matter**, as in every version before 11. Neither was forced; both were introduced to support a quantum-flavoured programme that this version does not pursue, and the incentive for them went with it. They remain coherent alternatives and can be restored if a later version needs them.
+>
+> **Carried unchanged from version 11.** The fermionic base and its involution; every law, theorem and identity of the gravity base; the base-resolution principle.
 >
 > **Tags.** **[V]** verified by computation · **[T]** cited theorem · **[D]** derived here · **[S]** sketch · **[O]** open · **[R]** retired, with reason.
 
@@ -85,9 +87,9 @@ The twin comes from the meridians and from nothing else.
 | **zero mode** | a field component with $n = 0$; the only kind a base detector registers |
 | **twin parity** $\tau$ | $\pm1$ in $\psi(-\hat n) = \tau\psi(\hat n)$, for fields that descend to the gravity base |
 | **odd chirality** | the ordinary chirality of a Weyl spinor: the eigenvalue of the Clifford volume element $\gamma_5$ |
-| **even chirality** | the self-duality of a middle-degree form: whether $H = +\star H$ or $H = -\star H$ |
+| **even chirality** | the self-duality of a 2-form field strength. In four Lorentzian dimensions it is **complex**: $\mathcal{F}^\pm = \tfrac12(\mathcal{F}\mp i\star\mathcal{F})$ |
 | **the seed** | matter sources a gravitational well at both $\pm\hat n$, while light reaches only one of them |
-| **visible space** | not a fourth manifold: the canonical total space *with a basepoint*, sheets labeled by lifting light paths from a source (§X.3) |
+
 
 ## 0.5 Conventions
 
@@ -126,23 +128,47 @@ Removing the two sections is not a convenience. It is forced, independently, by 
 
 **(i) To make the fibers cylinders.** Only then do the Hopf circle and time appear, as §I.2.
 
-**(ii) To permit a Lorentzian metric at all.** A *compact* manifold admits a Lorentzian metric if and only if its Euler characteristic vanishes. Since $\chi(\mathbb{CP}^n) = n+1$, we have $\chi(\mathbb{CP}^3) = 4\neq0$: **$\mathbb{CP}^3$ admits no Lorentzian metric whatever.** Removing the sections makes it non-compact, and every non-compact manifold admits one. Law IV's self-duality requires six-dimensional Lorentzian signature (§VIII.1), so without the surgery there is no Law IV.
+**(ii) To permit a Lorentzian metric at all.** A *compact* manifold admits a Lorentzian metric if and only if its Euler characteristic vanishes. Since $\chi(\mathbb{CP}^n) = n+1$, we have $\chi(\mathbb{CP}^3) = 4\neq0$: **$\mathbb{CP}^3$ admits no Lorentzian metric whatever.** Removing the sections makes it non-compact, and every non-compact manifold admits one. The requirement is not a technicality imported from a field equation: **time is one of the fiber's two directions (§I.2), and it must be timelike.** Without the surgery the arena cannot carry time at all.
 
-**The obstruction, and why the theory evades it [T/O].** Two *global* sections of $\mathbb{CP}^3\to S^4$ do not exist: a section is an almost complex structure, and $S^4$ admits none — an almost complex 4-manifold needs $c_1^2 = 2\chi + 3\sigma = 4$, but $H^2(S^4) = 0$ forces $c_1 = 0$. **But the theory does not work over all of $S^4$**: the arena is $S^4$ minus the secondary meridians, and $S^4\setminus\text{circle}\simeq S^2$, which has $H^2 = \mathbb{Z}$, so $c_1$ need not vanish. The meridian removal already demanded by Law III is the same surgery that lifts this obstruction. Whether sections actually exist over $S^4\setminus\Gamma$ is a computation not yet done, and is the first thing this version owes **[O]**.
+## I.4 The sections exist, and the linking is even [T/V]
 
-## I.4 The quotient, the base, and the seed [D]
+**The obstruction on the whole sphere.** Two *global* sections of $\mathbb{CP}^3\to S^4$ do not exist: a section is an almost complex structure, and $S^4$ admits none — an almost complex 4-manifold needs $c_1^2 = 2\chi+3\sigma = 4$, but $H^2(S^4) = 0$ forces $c_1 = 0$.
+
+**But the arena is not the whole sphere, and there the sections exist [T].** Write $\mathbb{CP}^3 = \mathbb{P}(S^-)$, the projectivization of the negative spinor bundle. Removing two sections requires $S^-$ to split as a sum of line bundles $L_1\oplus L_2$. Over all of $S^4$ a split would force $c_2 = c_1(L_1)c_1(L_2) = 0$, against $c_2(S^-) = 1$ — no split. But the arena is $S^4$ minus the secondary meridians, and
+
+$$S^4\setminus\text{circle}\ \simeq\ S^2$$
+
+over which **every** rank-2 complex bundle splits. **So the sections exist, and the meridian removal already demanded by Law III is exactly the surgery that supplies them.**
+
+**The price: the linking number is even [V].** With $c_1(S^-) = 0$ the splitting needs $c_1(L_2) = -c_1(L_1) = -a$, and the cylinder's circle bundle is $\mathrm{Hom}(L_1,L_2) = L_1^*\otimes L_2$, whose Chern number is
+
+$$c = c_1(L_2) - c_1(L_1) = -2a \qquad\textbf{always even}$$
+
+There is no natural square root: the fiber coordinate $\zeta = w_2/w_1$ *is* a section of $L_1^*\otimes L_2$, and there is nothing to halve. Restricted to a shell — a 2-sphere linking the secondary's meridian once — the total space is therefore the lens space $L(|c|,1)$, with fibers linking $|c|$ times:
+
+| $c$ | total space over a shell | fibers link |
+|:--:|:--|:--:|
+| $1$ | $S^3$ — the genuine Hopf fibration | 1 |
+| $2$ | $L(2,1) = \mathbb{RP}^3$ | 2 |
+| $3$ | $L(3,1)$ | 3 |
+
+> **The fibers do link, so the structure is Hopf-*like*; but the minimal case here is linking 2, not 1.** Consequently **Law III's Chern number $M_-/m_{\rm unit}$ must be even** — the same parity that decides the spin-structure count of §VII.1. Two independent structures imposing one condition **[D]**.
+
+**Still assumed [O].** A Lorentzian metric is *admitted* by non-compactness, but none has been constructed; whether a natural one exists with the fiber's radial direction timelike is open.
+
+## I.5 The quotient, the base, and the seed [D]
 
 The gravity base is the space of meridians, $\mathbb{RP}^3$. Each of its points is one great circle through both poles, crossing the equator at $\pm\hat n$. Gravity is defined on $\mathbb{R}_t\times\mathbb{RP}^3$ and reads the fiber average — the integral of the cover's stress-energy along the meridian — which includes both twins by construction.
 
-> **The seed.** Matter at $(\chi_0,\hat n)$ sources the gravity base at $[\hat n]$, whose lift to the cover has wells at both $\hat n$ and $-\hat n$. Light reaches only one of them.
+> **The seed.** Matter at $(\chi_0,\hat n)$ sources the gravity base at $[\hat n]$, whose lift to the cover has wells at both $\hat n$ and $-\hat n$. **Nothing is at $-\hat n$.** Blindness to which ray, not crossing between them.
 
-**This is derived, not postulated:** a great circle through the poles crosses the equator twice. The projective postulate of the earliest versions is a theorem of the arena. (Version 10 stated the seed as "nothing is at $-\hat n$." Part X refines this: matter may be at both, with light reaching one.)
+**This is derived, not postulated:** a great circle through the poles crosses the equator twice. The projective postulate of the earliest versions is a theorem of the arena. 
 
-## I.5 The primary is the jellium [D]
+## I.6 The primary is the jellium [D]
 
 Both poles lie on **every** meridian, so $M_c$ contributes equally to every fiber average: seen from the gravity base it is uniform. The uniform background density of the Einstein static universe is the primary's column density, with value fixed by closure (§V.2).
 
-## I.6 The three spaces, related [D]
+## I.7 The three spaces, related [D]
 
 Since $\sigma$ (Part VI) descends to the twin map on $S^4$, and the gravity base already identifies $\hat n$ with $-\hat n$, the fermionic base also maps onto the gravity base. The three form a commuting triangle with the canonical total space at the apex. **The fermionic base is not a dimensional reduction:** $\sigma$ is a free involution, so $E/\sigma$ has the same dimension as $E$; they differ in global structure, not size.
 
@@ -166,9 +192,9 @@ Since $\sigma$ (Part VI) descends to the twin map on $S^4$, and the gravity base
 > $\alpha$ is a $U(1)$ connection on the **angular** direction of the twistor fiber over $S^4$; its circumference is locked to gravity by $L_E = \Omega L^{\rm ref}$. Kinematic.
 
 > ### ◆ LAW IV — ELECTROMAGNETISM
-> On the canonical total space, a 2-form gauge field $B_{MN}$ with 3-form strength $H = dB$, subject to self-duality:
-> $$H = \star_6 H$$
-> Its anti-self-dual partner is the opposite even chirality, exchanged with it by $\sigma$. Below, this reduces to ordinary Maxwell with $\epsilon = \mu_{\rm EM} = 1$ (Part VIII).
+> Maxwell on the cover: $\mathcal{F} = d\mathcal{A}$ with $\mathcal{A}$ a **1-form**, and $\epsilon = \mu_{\rm EM} = 1$. Light follows null geodesics; the photon is the zero mode on every fiber and couples to none of them. The cover is compact, so total charge on it is zero.
+
+*Version 11 replaced this with a self-dual 2-form, in order to give light an "even chirality" that the involution could flip — machinery introduced to support a chirality-selective reading of the seed. That reading is set aside here (Part X), so the 1-form is restored. The 2-form remains a coherent alternative and is recorded in §XII.1.*
 
 ## II.1 Why Law II weaves rather than sources [D/V]
 
@@ -202,7 +228,7 @@ This is the two-speed cover, stated as a property of Law II: gravity links antip
 
 **Some source structure is mandatory.** $\nabla\cdot(\mu\nabla\Phi_u) = 0$ everywhere on a compact manifold forces $\Phi_u$ constant — no fibration at all. Poincaré–Hopf then makes one source and one sink the minimum, since each has index $+1$ and the total must be $\chi(S^4) = 2$. Extra pairs cost saddles.
 
-**Why the zeros must be antipodal.** The fibration must be preserved by the twin map, since that is the deck map of the gravity base. The twin map therefore permutes the zeros, and its fixed points on $S^4$ are exactly the two poles **[V]**. A source–sink pair placed at them lies on *every* meridian, which is why the poles project uniformly onto the base (§I.5) and the base stays smooth. Zeros *swapped* by the twin map would be a twin pair at one latitude — one point of the base, hence a singular point of it. Version 11 takes the first case.
+**Why the zeros must be antipodal.** The fibration must be preserved by the twin map, since that is the deck map of the gravity base. The twin map therefore permutes the zeros, and its fixed points on $S^4$ are exactly the two poles **[V]**. A source–sink pair placed at them lies on *every* meridian, which is why the poles project uniformly onto the base (§I.6) and the base stays smooth. Zeros *swapped* by the twin map would be a twin pair at one latitude — one point of the base, hence a singular point of it. Version 11 takes the first case.
 
 **The three limits, verified [V]:**
 
@@ -239,7 +265,7 @@ The alternative picture — a singularity at each mass plus its antipode — is 
 
 **And the jellium does not require a primary.** Uniform base density needs uniformity over $\hat n$, and there are two ways to get it: matter **at a pole**, which lies on every meridian; or matter **spread evenly over a latitude**. The first is the special case; the second is what a realistic near-homogeneous universe does. So the smooth background survives with no primary at all, and closure still fixes the total at $\pi\ell/2$. This refines §I.5's identification of the primary with the jellium, which held for the single-mass configuration.
 
-**The jellium/lump split is therefore a statement about position, not mass:** matter on every meridian (at a pole) or spread evenly over a latitude is jellium; matter concentrated at one $\hat n$ is a lump; closure fixes the sum at $\pi\ell/2$ (§V.2). The orbit parameter $f$ of §V.7 is exactly the lumped share.
+**The jellium/lump split is therefore a statement about position, not mass:** matter on every meridian (at a pole) or spread evenly over a latitude is jellium; matter concentrated at one $\hat n$ is a lump; closure fixes the sum at $\pi\ell/2$ (§V.2). The orbit parameter $f$ of §V.8 is exactly the lumped share.
 
 **What the emergent-$G$ identity does with all this: nothing [D].** The relation $GM_{\rm tot}/c^2\ell = \pi/2$ follows from Law I and closure alone — the Einstein static universe requires $\bar\rho = 1/4\pi\ell^2$, hence a total of $\bar\rho\cdot2\pi^2\ell^3 = \pi\ell/2$. It never used Law II. **The Machian form leaves it untouched**, and when one mass dominates the theory is identical to the fixed-pole version in every respect.
 
@@ -275,7 +301,21 @@ $E$ is the circle bundle over $S^4\setminus\Gamma$, where $\Gamma$ is the graph 
 
 ## III.5 The partition principle [T/V/D]
 
-**Geometric.** A metric on a circle bundle, in coordinates adapted to the fibration, is $h_{ab}dx^adx^b + L^2(d\theta+\alpha)^2$ — base, fiber length, connection — pointwise, with no remainder and no overlap:
+**Geometric.** A metric in coordinates adapted to a fibration splits into base, fiber, and connection, pointwise, with no remainder and no overlap. For the two-dimensional twistor fiber of version 12 the count is
+
+| | | |
+|:--|:--|--:|
+| base metric on $S^4$ | $4\cdot5/2$ | 10 |
+| fiber metric, $2\times2$ symmetric | $2\cdot3/2$ | 3 |
+| connection: one 1-form per fiber direction | $2\times4$ | 8 |
+| **total** | | **21** |
+
+which is $6\cdot7/2$, the full count for a six-manifold **[V]**. Version 11's one-dimensional fiber gave $15 = 10+1+4$; the extra fiber direction adds two to the fiber metric and four to the connection, and **neither addition is spare**:
+
+- **The fiber metric's three reduce to one.** Area-preservation (§V.3) fixes the determinant, and diagonality kills the $\phi$–$t$ cross term: $3-1-1 = 1$. One function, $\Omega$ — and Law I in the conformally-round sector determines exactly one function, $\phi$, with $\Omega = \phi^2$. **The counts match exactly**, so the fiber's shape is fully fixed by Law I and carries no independent information. *That is the precise sense in which the field equations see only the base: gravity determines the fiber and is not informed by it.* **[V/D]**
+- **The connection's eight split as four and four.** The circle's 1-form is Law III's $\alpha$. **The time direction's 1-form $\beta$, appearing as $-\Omega^{-2}(dt+\beta)^2$, is the shift vector** — so frame dragging, rotation, and magnetic Weyl now live *inside* the fiber structure. Version 11 stated flatly that magnetic Weyl lives in the shift, "which no fiber carries"; the time fiber carries it, and it is the same slot the complex worldline of §IX.2 deforms **[D]**.
+
+The older, one-dimensional form of the count, still valid level by level:
 
 | level | total | base | length | connection |
 |:--|--:|--:|--:|--:|
@@ -291,7 +331,7 @@ $E$ is the circle bundle over $S^4\setminus\Gamma$, where $\Gamma$ is the graph 
 
 ## III.6 What sees $E$ [T/D]
 
-Light does not: the photon is the zero mode, and Kaluza–Klein charge is fiber momentum, which is spin-independent. Gravity fixes $E$'s even half and is blind to its odd half. If the flux gravitates with coupling $g_2$, it adds a Reissner–Nordström term (§V.5).
+Light does not: the photon is the zero mode, and Kaluza–Klein charge is fiber momentum, which is spin-independent. Gravity fixes $E$'s even half and is blind to its odd half. If the flux gravitates with coupling $g_2$, it adds a Reissner–Nordström term (§V.6).
 
 ---
 
@@ -381,23 +421,63 @@ $$\frac{GM_c}{c^2\ell} = \frac{\pi}{2}$$
 
 $G$ is a constant of Law I, and the pair $(M_c,\ell)$ is constrained by the requirement that the gravity base be static and closed. **A constraint, not a derivation.** The electric flux through every latitude is zero.
 
-## V.3 Law I as the fiber-length equation [V]
+## V.3 Law I on the fiber: an area-preserving squeeze [V/D]
 
 Weak-field statics are conformally round, $g_3 = \phi^4g_{S^3}$, and the Hamiltonian constraint linearizes about the Einstein static universe to
 
 $$(\Delta_{S^3} + 3)\,\delta\phi = -2\pi\,\delta\rho_+$$
 
-— the twin-theorem operator, acting on the conformal factor. The local Hopf length scale is $L_H = 2\pi\ell\phi^2$, so to first order $\delta L_H/L_H = -\Phi$ and $N\cdot L_H = $ constant: **fibers lengthen in wells by exactly the potential, and space stretches as much as time slows.** For a ball with its twin, $\phi^2 = 2.017$ at the ball's center and identically at the twin, agreeing to $10^{-11}$ **[V]**. $L_H$ is the local length scale, not a circumference.
+— the twin-theorem operator, acting on the conformal factor. Write $\Omega\equiv\phi^2$.
 
-## V.4 Weyl from the fiber length [V]
+**The fiber metric.** Version 11 recorded two separate facts: the Hopf length was $L_H = 2\pi\ell\Omega$, and the lapse obeyed $N\cdot L_H = $ constant. On the twistor cylinder these are **one** fact. Put on the fiber
+
+$$ds^2_{\rm fiber} = \Omega^2\big(d\phi + \alpha\big)^2 - \Omega^{-2}\,dt^2$$
+
+Then the longitude's circumference is $2\pi\Omega$ — the old $L_H$ — the lapse along the latitude is $\Omega^{-1}$, and their product is $2\pi$, **independent of $\Omega$** **[V]**.
+
+> **Gravity acts on the fiber as an area-preserving squeeze: the circle stretches by $\Omega$, time contracts by $\Omega^{-1}$, and the cylinder's area element is untouched.**
+
+So it is **not the longitude alone** that carries the gravitational field, and not the fiber uniformly either: the two directions carry it **oppositely**. "Space stretches as much as time slows" was version 11's way of saying this with the halves separated.
+
+**The weak-field dictionary is unchanged.** $\delta L/L = \delta\Omega/\Omega = 2\delta\phi = -\Phi$, hence $\delta N/N = +\Phi$: ordinary gravitational redshift, now read off the same fiber as the length. For a ball with its twin, $\Omega = 2.017$ at the ball's center and identically at the empty twin, agreeing to $10^{-11}$ **[V]**.
+
+## V.4 The metric, written out [V/D]
+
+*The level of definiteness every law in this document is held to.*
+
+**The six-dimensional line element**, in the conformally-round sector:
+
+$$ds^2_6 = -\Omega^{-2}dt^2 + \Omega^2(d\phi+\alpha)^2 + \lambda^2du^2 + \phi^4g_{S^3}$$
+
+with $\Omega = \phi^2$ from Law I, $\alpha$ the Law III connection (even Chern number, §I.4), $u$ the meridian and $\lambda$ its scale, and $g_{S^3}$ the round metric of the latitude.
+
+**A secondary point mass.** Solve $(\Delta_{S^3}+3)\delta\phi = -2\pi\delta\rho_+$ for a point mass at $\chi = 0$ with its twin. Near the mass the Green's function goes as $1/\sin\chi$, so with $r = \ell\chi$
+
+$$\phi = 1 + \frac{GM}{2r} + O(r^2/\ell^2)$$
+
+— the isotropic Schwarzschild conformal factor. The four-dimensional part of the line element is then
+
+$$ds^2_4 = -\left(\frac{1-GM/2r}{1+GM/2r}\right)^2dt^2 + \left(1+\frac{GM}{2r}\right)^4\big(dr^2 + r^2d\Omega_2^2\big)$$
+
+**isotropic Schwarzschild exactly**, with the closed-universe corrections entering at $O(r^2/\ell^2)$ — $4\times10^{-15}$ at 10 kpc for $\ell = 63$ Gpc (§V.10).
+
+**The shells, metrically.** A shell at coordinate radius $r$ has proper area
+
+$$A = 4\pi r^2\left(1+\frac{GM}{2r}\right)^4$$
+
+the standard areal radius. Over each shell sits the longitude circle bundle of §I.4, of even Chern number, with total space the lens space $L(|c|,1)$ and fiber circumference $2\pi\Omega = 2\pi\phi^2$ — longest where the shell is deepest in the well.
+
+**What remains undetermined [O].** The meridian scale $\lambda$, inherited unfixed from version 11; and the Lorentzian metric's global existence (§I.4).
+
+## V.5 Weyl from the fiber length [V]
 
 $$E_{ij} = -2\big[\nabla_i\nabla_j\phi\big]^{\rm TF},\qquad \phi = \sqrt{L_H/2\pi\ell}$$
 
 The trace of the Hessian is fixed by the constraint and is the matter; the trace-free part is the tidal field. For Schwarzschild the eigenvalues are $(m/r^3)(1,-\tfrac12,-\tfrac12)$ — Petrov type D, with repeated principal null directions $\partial_t\pm\widehat{\nabla L_H}$, the directions of steepest fiber-length change. Type D here is forced by spherical symmetry. Beyond the weak-field static sector the fiber length is one of six metric components: magnetic Weyl lives in the shift, gravitational waves in the transverse-traceless part of the base 2-metric.
 
-## V.5 Charged and rotating black holes [D/O]
+## V.6 Charged and rotating black holes [D/O]
 
-**Electric charge.** A charged secondary has the ordinary Reissner–Nordström exterior on the gravity base, since Law IV reduces to ordinary Maxwell (§VIII.5).
+**Electric charge.** A charged secondary has the ordinary Reissner–Nordström exterior on the gravity base, since Law IV is ordinary Maxwell (§VIII.1).
 
 **The second-order flux.** If $E$'s flux gravitates with coupling $g_2$, it adds a Reissner–Nordström-type term with an *effective magnetic charge*:
 
@@ -411,13 +491,13 @@ $$g_2/m_{\rm unit} = P/M < 0.024$$
 
 Lunar laser ranging gives nothing useful ($M/r\sim10^{-11}$ at the Moon); ringdowns test $P/M$ at the $0.1$–$0.3$ level, weaker. The double pulsar can tighten it **[O]**.
 
-**The twin of a hole.** Same mass (gravity reads $T_+$, chirality- and sign-blind); opposite second-order monopole, $-M_-/m_{\rm unit}$, by the linking number of §III.3; and no independent electromagnetic charge, since the twin's $Q^2/r^2$ term is a **tidal charge** with $\nabla\cdot E = 0$ and $E = 0$ there (§V.6). Rotation is untouched: magnetic Weyl lives in the shift, which no fiber carries (§V.4).
+**The twin of a hole.** Same mass (gravity reads $T_+$, chirality- and sign-blind); opposite second-order monopole, $-M_-/m_{\rm unit}$, by the linking number of §III.3; and no independent electromagnetic charge, since the twin's $Q^2/r^2$ term is a **tidal charge** with $\nabla\cdot E = 0$ and $E = 0$ there (§V.7). Rotation is untouched: magnetic Weyl lives in the shift, which no fiber carries (§V.5).
 
-## V.6 Charge and the twin [V/D]
+## V.7 Charge and the twin [V/D]
 
-Gauss on a closed section forces a compensating charge *somewhere*, and the seed puts no *interacting* charge at the antipode. With the compensating charge wherever the other charges are, the field of a charge $Q$ is regular at the antipode and vanishes there — verified: $|E|\to0$ linearly. **The twin carries gravitational shape without electromagnetic content.** In version 10 this was read as "the twin is empty"; Part X refines it to "the twin's matter is on the other sheet."
+Gauss on a closed section forces a compensating charge *somewhere*, and the seed puts nothing at the antipode. With the compensating charge wherever the other charges are, the field of a charge $Q$ is regular at the antipode and vanishes there — verified: $|E|\to0$ linearly. **The twin carries gravitational shape without electromagnetic content, because it carries no matter at all** (§VIII.2).
 
-## V.7 Orbits and the $v^2$ family [V]
+## V.8 Orbits and the $v^2$ family [V]
 
 **Rosettes and precession.** On the gravity base a secondary is a well in the jellium, and closed-universe orbits are retrograde-precessing rosettes: apsidal advance $1.945\pi$ per radial period at small apocenter, falling to $1.836\pi$ in the mid-disk. The kinematic pattern speed $\Omega-\kappa/2$ falls by a factor 10 across a disk where Kepler alone would give 20 — the closure term halves the winding rate of kinematic spirals. At galactic radii in the cosmic arena the closure term is $10^{-7}$ of Kepler.
 
@@ -431,7 +511,7 @@ $$v^2_{\rm eq} = 2.352\,f = 1.497\,\frac{GM}{\ell}\qquad\text{(consistent with }
 
 **The value is independent of how the lump is packed** — only the monopole term survives at the equator — and is linear in the lumped mass. **This corrects an earlier quotation of $4GM/\pi\ell = 1.273\,GM/\ell$, which was $15\%$ low [V/R].** Sign and scaling are unchanged: linear in $M$, inverse in $\ell$.
 
-## V.8 The lumped-mass limit [V/D]
+## V.9 The lumped-mass limit [V/D]
 
 The jellium is the pole matter's projection and closure fixes the total at $M_{\rm tot} = \pi\ell/2$, so a secondary of mass $M$ is a lump holding a fraction $f = M/M_{\rm tot}$ of that total — not matter added on top of it. The limit $f\to1$ means *all* of the universe's mass is in one lump at a latitude, with no smooth background left.
 
@@ -448,11 +528,11 @@ At $f = 1$ the lump's Schwarzschild radius equals $\pi\ell$, the antipodal dista
 
 $$\Phi(r) = -\frac{Gm}{r}\left[1 + \frac{r^2}{6\ell^2} + O(r^4/\ell^4)\right]$$
 
-The closed-universe correction is $4\times10^{-15}$ at $10$ kpc and $4\times10^{-45}$ at $1$ AU, for $\ell = 63$ Gpc. The other correction is the jellium: a uniform background gives a force $\sim+\tfrac{4\pi}{3}G\bar\rho\,r$, which overtakes $Gm/r^2$ only where the enclosed background mass equals $m$ — at $1.2$ Mpc for a $10^{12}M_\odot$ galaxy, and $0.12$ kpc for the Sun. **Inside a galaxy, and throughout any planetary system, motion is Keplerian to parts in $10^{14}$ or better.** The closure terms matter only near the crossover scale and at the equator, where they produce the plateau of §V.7.
+The closed-universe correction is $4\times10^{-15}$ at $10$ kpc and $4\times10^{-45}$ at $1$ AU, for $\ell = 63$ Gpc. The other correction is the jellium: a uniform background gives a force $\sim+\tfrac{4\pi}{3}G\bar\rho\,r$, which overtakes $Gm/r^2$ only where the enclosed background mass equals $m$ — at $1.2$ Mpc for a $10^{12}M_\odot$ galaxy, and $0.12$ kpc for the Sun. **Inside a galaxy, and throughout any planetary system, motion is Keplerian to parts in $10^{14}$ or better.** The closure terms matter only near the crossover scale and at the equator, where they produce the plateau of §V.8.
 
 **Law II is untroubled by the limit.** A secondary is a permeability bump at any mass, so the flux endpoints stay at the poles and the fibration is intact at $f = 1$. What fails is the *base geometry* — gravity, not the fibration. Under the old reading, where masses sourced $\Phi_u$, a large secondary would have become a rival source and the twin would have been lost; the permeability rule is what makes the limit harmless. Contrast §II.4's *other* limit, two equal masses at the **poles**, where the base stays perfectly homogeneous and no lump exists at all.
 
-## V.9 The two fluxes, compared [V/D]
+## V.10 The two fluxes, compared [V/D]
 
 The fibration flux of Law II and the second-order flux of Law III are both Gauss charges — conserved quantities obtained by integrating a field over an enclosing surface, both additive, both obeying a divergence law. They differ in three ways, and the differences explain why one appears in the metric as a $1/r^2$ term and the other as a background.
 
@@ -466,13 +546,13 @@ The fibration flux of Law II and the second-order flux of Law III are both Gauss
 
 **The primary carries no second-order charge, for a structural reason.** Law III is sourced by $\rho_- = \rho(\hat n)-\rho(-\hat n)$, and the twin map *fixes* the poles, so at a pole $\rho_- = \rho - \rho = 0$. **The primary's Chern number is zero because the primary is its own twin.** It sources the fibration flux and nothing else; secondaries source the second-order flux and contribute nothing uniform. Cleanly complementary.
 
-**The difference is localization.** Both poles lie on every meridian, so the fibration flux contributes equally to every fiber average and its base image is uniform — and a uniform source gives a background term, not a $1/r^2$ one. The second-order flux is concentrated on a single meridian, so its base image is localized and its energy $|F|^2\sim c^2/r^4$ integrates to the $P^2/r^2$ metric term of §V.5. **Same kind of object; different spread.**
+**The difference is localization.** Both poles lie on every meridian, so the fibration flux contributes equally to every fiber average and its base image is uniform — and a uniform source gives a background term, not a $1/r^2$ one. The second-order flux is concentrated on a single meridian, so its base image is localized and its energy $|F|^2\sim c^2/r^4$ integrates to the $P^2/r^2$ metric term of §V.6. **Same kind of object; different spread.**
 
 **And the totals coincide exactly [V].** $\bar\rho\cdot\mathrm{Vol}(S^3) = (1/4\pi\ell^2)(2\pi^2\ell^3) = \pi\ell/2 = M_{\rm tot}$, with difference identically zero. The fibration flux *is* the total jellium mass — which is what the $G$ identity says, read as a flux statement.
 
 **The Mach relation is a horizon statement [V].** $r_s(M_{\rm tot}) = 2GM_{\rm tot}/c^2 = \pi\ell$, and $\pi\ell$ is exactly the antipodal distance on $S^3(\ell)$. **The closure mass's Schwarzschild radius is the diameter of the universe:** a closed static universe is marginally its own horizon, and $GM_{\rm tot}/c^2\ell = \pi/2$ is that fact written as a mass.
 
-## V.10 The static wall [T]
+## V.11 The static wall [T]
 
 On a static geometry Killing energy is conserved and there is no redshift. This is a theorem about the arena, not a gap in it. Every route to Hubble's law within the static theory ends at the seed's own symmetry: the twin's well is *identical* to the source's, and identical wells cannot shift light between them.
 
@@ -557,147 +637,23 @@ Statistics, exclusion, and the Lorentz structure. A Dirac spinor is $(\tfrac12,0
 
 ---
 
-# PART VIII — ELECTROMAGNETISM AND EVEN CHIRALITY
+# PART VIII — ELECTROMAGNETISM
 
-## VIII.1 Why a 2-form, and why six dimensions [T]
+## VIII.1 The law, and what survives [D]
 
-For spinors, chirality is the eigenvalue of the Clifford volume element. Tensors have no such operator — but **middle-degree forms have the Hodge star**, which plays the identical role: it squares to $\pm1$, and where it squares to $+1$ there is a real split into self-dual and anti-self-dual halves. The condition is $\star^2 = (-1)^{p(n-p)+t} = +1$ with $p = n/2$.
+Maxwell on the cover, $\mathcal{F} = d\mathcal{A}$, with $\epsilon = \mu_{\rm EM} = 1$ and light on null geodesics. The photon is the **zero mode** on every fiber — it carries no Hopf charge and no fiber momentum — and therefore couples to nothing in the second order. On the compact cover, total charge is zero by Gauss, and the electric flux through every latitude vanishes (§V.2).
 
-| field, dimension, signature | $\star^2$ | verdict |
-|:--|:--:|:--|
-| 4-D Lorentzian, 2-form $F$ | $-1$ | no real split |
-| 6-D Euclidean, 3-form | $-1$ | no real split |
-| **6-D Lorentzian, 3-form $H$** | $+1$ | **real self-dual / anti-self-dual split exists** |
-| any dimension, 1-form $A$ | — | not middle degree: no self-duality ever |
+## VIII.2 The twin is electromagnetically empty [V/D]
 
-**Six-dimensional Lorentzian is exactly where a gauge field can be chiral** — the dimension of the canonical total space. A 1-form, the photon as ordinarily written, can never carry this index, which is why the structure must be placed upstairs on a 2-form.
+Gauss on a closed section forces a compensating charge somewhere, and the seed puts no matter — and hence no charge — at the antipode. With the compensating charge wherever the other charges are, the field of a charge $Q$ is regular at the antipode and vanishes there, verified: $|E|\to0$ **linearly**. So the twin carries gravitational shape and no electromagnetic content. A charged secondary's twin carries the $Q^2/r^2$ term of the metric as a **tidal charge**, with $\nabla\cdot E = 0$ and $E = 0$ there.
 
-**A note on notation.** The 2-form is written $B$, following the universal convention in which $A$ denotes a 1-form gauge field and $B$ a 2-form. Writing the 2-form as $A$ would collide with that convention everywhere it is read. What *is* adopted, because it carries the right intuition, is the **suppression rule**: a single lower index on $A$ always means the meridian component of $B$,
-$$A_\mu \equiv B_{\mu u},\qquad \tilde A_\mu \equiv B_{\mu\theta}$$
-so "the photon" is the 2-form with its second leg along the meridian, and the second leg is suppressed because it is always $u$.
+## VIII.3 Light still has a chirality — a complex one [T]
 
-## VIII.2 The field equation, and why there is no simple action [T]
+Reverting to a 1-form does not cost light its chirality; it makes it complex rather than real. In four Lorentzian dimensions $\star^2 = -1$ on 2-forms, so the eigenvalues of $\star$ are $\pm i$ and the self-dual split is
 
-**The naive action vanishes.** Try $S = -\tfrac12\int H\wedge\star H$ with $H = dB$. On a self-dual configuration $H = \star H$, so $H\wedge\star H = H\wedge H$ — and $H$ is a 3-form, of *odd* degree, so $H\wedge H = -H\wedge H = 0$ identically. **The action is identically zero on exactly the configurations it is meant to describe.** This is the standard obstruction for chiral $p$-forms in $4k+2$ dimensions, and the known ways around it are to impose self-duality as a field equation (what Law IV does), the Pasti–Sorokin–Tonin formalism with an auxiliary scalar and extra gauge symmetry, the Henneaux–Teitelboim action covariant only under a subgroup, or a doubled formalism carrying $B$ and its dual together with a constraint.
+$$\mathcal{F}^\pm = \tfrac12\big(\mathcal{F} \mp i\star\mathcal{F}\big)$$
 
-**The dynamics is first order, and self-duality is all of it.** The content of Law IV is two lines:
-
-$$H = dB \qquad\text{and}\qquad H = \star_6 H$$
-
-The first gives $dH = 0$ as a Bianchi identity; the second then makes $d\star H = dH = 0$ **automatically**. There is no separate second-order equation of motion.
-
-> **Self-duality *is* the dynamics.** A chiral form obeys a *first-order* field equation, exactly as a Weyl spinor does. That parallel is not an analogy — it is the deepest sense in which this field is chiral in the same way a fermion is.
-
-**And both Maxwell equations descend as Bianchi identities.** In four dimensions $\star^2 = -1$ on 2-forms, so $\tilde F = -\star_4F$. Then:
-
-| upstairs | downstairs |
-|:--|:--|
-| Bianchi for $A$: $dF = 0$ | the homogeneous Maxwell equations |
-| Bianchi for $\tilde A$: $d\tilde F = 0$ | $d\star_4F = 0$ — the **source-free Maxwell equation** |
-
-**Maxwell's dynamical equation is, upstairs, the Bianchi identity of the magnetic potential.** The two halves of Maxwell are one statement above, split by the reduction.
-
-**Sources, conditionally.** *If* the field has sources, self-duality constrains them sharply: $d\star H = \star j$, but self-duality makes $d\star H = dH$, and $dH = 0$ is an identity whenever $H = dB$. So **a self-dual field cannot carry independent electric and magnetic sources — they would be the same source**, appearing as one charge or the other according to which cycle carries it. Whether the field has sources at all, and of what kind, is a separate question that §VIII.5 leaves open; nothing above depends on the answer.
-
-## VIII.3 The reduction: exactly one photon [T]
-
-| component | gives | dof |
-|:--|:--|:--:|
-| $B_{\mu\nu}$ | a 4-D 2-form, dual to a scalar | 1 |
-| $B_{\mu u}$ | a 4-D vector $A_\mu$ — **the photon** | 2 |
-| $B_{\mu\theta}$ | a 4-D vector $\tilde A_\mu$ — its magnetic dual | 2 |
-| $B_{u\theta}$ | a 4-D scalar | 1 |
-
-Unconstrained total: 6, which is $\binom42$ **[V]**. Self-duality pairs the components of $H$ by how many *fiber* legs they carry, and there are **two** pairings, not one:
-
-**(a) One fiber leg each.** $H_{\mu\nu u}\leftrightarrow H_{\rho\sigma\theta}$, that is
-
-$$H_{\mu\nu u} = \tfrac12\epsilon_{\mu\nu\rho\sigma}H^{\rho\sigma}{}_\theta \qquad\Longleftrightarrow\qquad F = \star_4\tilde F$$
-
-so $\tilde A$ is not independent — it is $A$'s magnetic dual. Four degrees of freedom become two: **one photon, not two.**
-
-**(b) Zero and two fiber legs.** $H_{\mu\nu\rho}\leftrightarrow H_{\sigma u\theta}$: the 4-D 2-form and the internal scalar are likewise identified. Two become one.
-
-Three degrees of freedom survive: **one photon and one scalar.**
-
-## VIII.4 Duality is a rotation of the fiber plane [T/D]
-
-**The Hodge star exchanges the two fiber directions.** The canonical total space has exactly *two* fiber directions, $u$ and $\theta$ — so $\theta$ is not "some direction perpendicular to $u$," it is **the other one**, and that is why $\star$ pairs them. A 3-form's index set is replaced by its complement:
-
-$$(\mu,\nu,u)\ \longrightarrow\ (\rho,\sigma,\theta)$$
-
-so $\star H_{\mu\nu u}\sim\epsilon_{\mu\nu\rho\sigma}H^{\rho\sigma}{}_\theta$: **the star swaps the fibers while dualizing the base indices.** The suppression rule of §VIII.1 works for $A$ and $\tilde A$ alike precisely because $u$ and $\theta$ are complementary within the fiber, and that complementarity *is* electric–magnetic duality.
-
-**The duality angle is a geometric rotation.** Rotate the fiber plane by $\alpha$:
-
-$$u' = u\cos\alpha + \theta\sin\alpha,\qquad \theta' = -u\sin\alpha + \theta\cos\alpha$$
-
-The suppression rule then gives $A' = A\cos\alpha + \tilde A\sin\alpha$, hence $F' = F\cos\alpha - \star F\sin\alpha$ — exactly the standard duality rotation of source-free Maxwell.
-
-> **The $SO(2)$ that rotates the meridian into the Hopf circle *is* the electromagnetic duality group.** At $\alpha = 0$, pure electric; at $\pi/2$, pure magnetic.
-
-**And the geometry breaks it.** The rotation is a symmetry of the *field equation* — self-duality is $SO(2)$-covariant — but not of the geometry: the two circles have different lengths and different roles, $u$ being what gravity quotients and $\theta$ carrying Law III's connection. The metric therefore fixes the angle, and fixes it at $\alpha = 0$. **That our charges are electric rather than magnetic is a geometric fact about the fiber, not a selection rule imposed on matter.** Duality here is a broken symmetry, broken by the shape of the fiber.
-
-## VIII.5 What carries charge: three readings, and the default [D/O]
-
-*This section replaces an earlier claim that electric charge **is** meridian winding. That was a conditional stated as a conclusion, and is retired (§XII.2).*
-
-**What is forced.** A $p$-form's *minimal* gauge-invariant coupling is $\int_{(p-1)\text{-brane}}B$, so for a 2-form that is a string.
-
-**What is not forced.** That the theory *contains* such objects. A source-free 2-form is entirely consistent: it propagates, it reduces, and nothing need be charged under it. "Charge is winding" is what strings *would* do if they existed, not a consequence of writing down $B$.
-
-**And an ordinary $U(1)$ is already present on the same circle.** The meridian produces *two* vectors, not one:
-
-| origin | field | charged sources |
-|:--|:--|:--|
-| the metric | graviphoton $g_{\mu u}$ | Kaluza–Klein **momentum** modes — ordinary point particles |
-| the 2-form | $B_{\mu u}$ | **winding** modes — strings |
-
-the standard momentum–winding pair. So point-particle charge is available on the meridian with no extended objects anywhere.
-
-**Three readings:**
-
-| reading | what carries electric charge | cost |
-|:--|:--|:--|
-| **(a)** $B$ sourced by strings | winding number | requires strings, and forces the meridian's proper length to $\sim10^{-19}$ m (§VIII.9) |
-| **(b)** $B$ source-free; charge from the graviphoton | Kaluza–Klein momentum | photon and charge-carrier are different fields; needs a mixing story |
-| **(c)** $B$ source-free; charge from a separately specified $U(1)$ | to be specified | ad hoc |
-
-> **Version 11 adopts (c), deliberately and provisionally.** Readings (a) and (b) each smuggle in a commitment — the existence of strings, or a mixing between the photon and the charge-carrier — that the theory has no independent reason to make. Naming the gap is better than papering over it with borrowed machinery. Constraining (c) is deferred until the theory has enough structure to do it from the inside.
-
-**What survives regardless.** Everything in Part VIII that is a *source-free* statement: the chirality argument of §VIII.1, the field equation and Maxwell-from-Bianchi of §VIII.2, both self-duality pairings and the one-photon reduction of §VIII.3, the duality rotation of §VIII.4, the photon's Hopf-neutrality, and the shift-symmetric scalar. None of these depend on what is charged.
-
-## VIII.6 What survives below [D]
-
-Ordinary Maxwell: $F = dA$, $\epsilon = \mu_{\rm EM} = 1$, light on null geodesics. The photon comes from $B_{\mu u}$, which carries no Hopf index, so it is the $n = 0$ mode and remains **Hopf-neutral**. Total charge on the compact cover is zero by Gauss. The self-duality is gone, since a four-dimensional 1-form has no middle-degree duality. **Every electromagnetic result of version 10 survives; what is added is the upstairs chirality and the charge–winding identification.**
-
-## VIII.7 The leftover scalar carries a shift symmetry [T/D]
-
-The surviving scalar is not $B_{u\theta}$ alone but the combination that pairing (b) identifies with the 4-D 2-form. **Its parity is not fixed by counting spatial indices** — a four-dimensional parity transformation does not act on $u$ or $\theta$ at all, so that argument yields nothing. An earlier statement of this document claimed the survivor is "a pseudoscalar because it has two spatial indices"; the reasoning was wrong **[R]**, and the conclusion survives for a better and stronger reason.
-
-**Shift symmetry.** The 2-form has the gauge symmetry $B\to B + d\Lambda$. Under the duality of pairing (b), a four-dimensional 2-form is equivalent to a massless scalar, and $B$'s gauge symmetry becomes that scalar's **shift symmetry**, $a\to a + \text{const}$. A shift symmetry forbids a potential and forbids *every* non-derivative coupling, so the field can appear only as $\partial_\mu a$ — derivatively, $\partial_\mu a\,\bar\psi\gamma^\mu\gamma_5\psi$ — or topologically, $a\,F\tilde F$. **Neither gives a static $1/r$ potential between unpolarized masses, and the argument needs no parity assignment.**
-
-> **It produces no fifth force and does not spoil PPN $\gamma$.** Contrast the radion of versions 2 through 5: a geometric modulus whose *value is a physical length*, hence with no shift symmetry, hence coupling directly to the trace of the stress tensor, hence a $1/r$ force — which required the entire winding-stabilization apparatus to survive the solar system. **The difference is symmetry, not spin.** Moving electromagnetism to a 2-form adds a massless field *for free*, and the gauge symmetry that makes it harmless is the same one the 2-form already had.
-
-## VIII.8 Even and odd chirality, side by side
-
-| | odd chirality (fermions) | even chirality (light) |
-|:--|:--|:--|
-| carried by | a Weyl spinor | a self-dual 2-form |
-| defined by | the eigenvalue of $\gamma_5$ | whether $H = +\star H$ or $H = -\star H$ |
-| exists when | the dimension is even | the form is middle degree and $\star^2 = +1$ |
-| in the canonical total space | yes: 4 complex components | yes: $\star^2 = +1$ on 3-forms |
-| in the gravity base | **survives** — a fermion is still a fermion | **lost** — consumed relating the two vectors |
-| flipped by $\sigma$ | yes | yes |
-| visible to gravity | via $T_+$, chirality-blind | via $T_{\mu\nu}$, helicity-blind |
-
-The asymmetry in the fifth row is the point, and it is not imposed: a spinor's chirality survives because spinors exist in every dimension and the operator descends; a form's self-duality does not, because the middle degree changes when the dimension does.
-
-## VIII.9 What must be rechecked [O]
-
-Under reading (a) of §VIII.5 only: whether ordinary point-particle charge is realizable as string winding, whether winding quantization matches charge quantization, and the meridian's proper length — a string of tension $T$ wrapping a cycle of length $L$ has mass $TL/c^2$, so an electron requires $L\sim5\times10^{-19}$ m for a QCD-like tension, against $10^{27}$ m for a cosmic meridian. The meridian's proper length is a free scale in this document, so reading (a) would *fix* it rather than contradict anything. Under readings (b) and (c) the question does not arise. Whether the self-dual 2-form's lack of a simple covariant Lagrangian obstructs anything, given that Law IV is imposed as a field equation. And the joint anomaly condition with the Weyl fermions (§IV.7).
-
----
+complex, and standard — it is what the Newman–Penrose scalars $\phi_0,\phi_1,\phi_2$ describe. **In a complexified arena this is native rather than awkward**, and it is the electromagnetic entry in the three-fold chirality table of §IX.1. What is lost relative to version 11 is only the *real* self-duality that a middle-degree form would have carried, and with it the machinery that required six-dimensional Lorentzian signature to exist at all.
 
 # PART IX — THE ANTI-SELF-DUAL LAW, AND KERR
 
@@ -714,7 +670,7 @@ It is also the reason the self-dual / anti-self-dual split keeps recurring. Vers
 | sector | chirality | where it lives |
 |:--|:--|:--|
 | gravity | Weyl tensor $C^+$ / $C^-$ | the base; the ASD half is holomorphic on $\mathbb{PT}^*$ |
-| light | $H = \pm\star H$ | Law IV, the self-dual 2-form |
+| light | $\mathcal{F}^\pm = \tfrac12(\mathcal{F}\mp i\star\mathcal{F})$ | Maxwell's **complex** self-dual split; the Newman–Penrose scalars (§VIII.3) |
 | matter | $S^+$ / $S^-$ | Weyl spinors, Part VII |
 
 ## IX.2 Kerr from a complex worldline [T/V]
@@ -729,9 +685,9 @@ The real slice of the resulting field is exactly the **Kerr metric**, with $a = 
 
 **Why it is an anti-self-dual statement.** The shift acts *holomorphically*, so it deforms one chirality half of the Weyl tensor and leaves the other alone. Kerr's Petrov type D is the real slice of a purely one-chirality complex field — the nonlinear graviton in its simplest instance.
 
-**What it changes downstream [D].** Version 11's black-hole section (§V.5) treated rotation as untouched by the fiber structure, since magnetic Weyl lives in the shift vector. That remains true of the *base* reading. What is new is that rotation now has a home in the arena: the imaginary displacement is a displacement along the twistor fiber's own complex direction, whose real part is time and whose angular part is the Hopf phase. Whether the Kerr parameter $a$ is literally a displacement in that fiber — rather than an analogy — is the second thing this version owes **[O]**.
+**What it changes downstream [D].** Version 11's black-hole section (§V.6) treated rotation as untouched by the fiber structure, since magnetic Weyl lives in the shift vector. That remains true of the *base* reading. What is new is that rotation now has a home in the arena: the imaginary displacement is a displacement along the twistor fiber's own complex direction, whose real part is time and whose angular part is the Hopf phase. Whether the Kerr parameter $a$ is literally a displacement in that fiber — rather than an analogy — is the second thing this version owes **[O]**.
 
-# PART X — DETECTION, AND THE VISIBLE SPACE
+# PART X — DETECTION
 
 ## X.1 The base-resolution principle
 
@@ -744,50 +700,17 @@ The real slice of the resulting field is exactly the **Kerr metric**, with $a = 
 
 **The twist, through paths [T].** Two base paths enclosing $\Sigma$ arrive with fiber phases differing by $n\int_\Sigma F$; the detector cannot resolve the fiber velocities that would distinguish them; they interfere, and the fringe shifts by the flux. This is the Aharonov–Bohm effect. For the photon $n = 0$, and there is no fringe.
 
-## X.2 Two corrections to the naive picture of sheets [V/T]
+## X.2 The twin, and why it is unobserved [V/D]
 
-**The twin map fixes the poles, so there are no hemispheres.** A point of $S^4$ is $x = \cos\chi\,e_5 + \sin\chi\,\hat n$, and the twin map sends $\hat n\to-\hat n$ at fixed $\chi$. At $\chi = 0$ and $\pi$ the point does not move: **the primary is its own twin, and so is infinity** **[V]**. North and south are never exchanged. (Consistent with $\sigma$ acting freely on $E$: the poles lie on every secondary meridian and are already removed.)
+The seed is as stated in §I.5: matter at $\hat n$, a gravitational well at both $\pm\hat n$, and **nothing at $-\hat n$**. No selection rule on light is invoked, and none is needed.
 
-**There is no global sheet label.** To say "this arc is the positive sheet, everywhere" is to give a **section** of the double cover $E\to E/\sigma$. A covering map admits a section exactly when its total space is disconnected; $E$ is a circle bundle over a connected base, hence connected. **No section exists** **[T]**. The obstruction is precisely $\pi_1(\mathbb{RP}^3) = \mathbb{Z}_2$:
+Two facts make the twin unobservable, independently of each other and of any reading.
 
-> **The same $\mathbb{Z}_2$ that creates the twin structure forbids sorting the sheets globally.**
+**It is empty.** There is no matter there to emit, absorb or scatter. Light passes through the twin's well lensed and unobstructed (§V.8).
 
-## X.3 Visible space is relational [D]
+**And its light could not have reached us in any case.** Light takes $\pi\ell/c$ to cross to the antipode, which at $\ell = 63$ Gpc is **646 Gyr** — forty-seven times the age of the universe. Even matter placed there would be unobserved for this reason alone.
 
-A covering map has no global section, but it always has **unique path lifting**: given $s\in E$ and a path $\gamma$ in $E/\sigma$ beginning at $\pi(s)$, there is exactly one lift beginning at $s$ **[T]**. That is strictly weaker than a section, and it is all the construction needs.
-
-> ### ◆ VISIBLE SPACE, RELATIVE TO A SOURCE
-> Fix a source event $s\in E$ — a point together with its sheet. For each light path $\gamma$ emitted from $\pi(s)$, lift $\gamma$ starting at $s$; the lift terminates at one of the two preimages of its endpoint. That endpoint is
-> - **on the source's sheet** if the lift lands where the local matter's chirality matches the light's — interaction occurs, matter is seen;
-> - **the opposite sheet** if it lands on the other preimage — no interaction, and the point reads as **void**.
-
-**Visible space is therefore not a fourth manifold. It is the canonical total space with a basepoint.** The relational structure *is* the basepoint; path lifting makes the labeling well defined without the section that does not exist. This is the precise sense in which a single point of the canonical total space is decoupled from a single point of visible space: what a point is, visually, depends on where it stands relative to the source of the light passing through it.
-
-## X.4 What an observer sees [D]
-
-Each photon travels a definite path, so its lift is definite, so its sheet is definite. **An observer has a definite sky, assembled photon by photon, with no global choice needed.**
-
-A visible source sits at $\hat m$; its twin at $-\hat m$ is a **different sky direction**. Light from the twin arrives on the opposite sheet and does not interact. But gravity reads $T_+$ and is sourced by both.
-
-> **The observer infers mass in a direction where they see nothing.** Gravitational attraction from a direction with no light in it — the seed, stated observationally, with matter present at both twins.
-
-## X.5 The monodromy [D]
-
-Two sources on opposite sheets assign opposite labels — not an inconsistency, but the same physics in opposite-handed labelings. What is absolute is the *relation*: whether a given light path's endpoint matches or does not. Carrying light around a loop generating $\pi_1(\mathbb{RP}^3)$ returns it on the other sheet, so **visibility is path-dependent in principle**. That loop is $\pi\ell/c = 646$ Gyr at $\ell = 63$ Gpc, forty-seven times the age of the universe.
-
-## X.6 What the construction still needs [O]
-
-**If the chirality-matching rule is about individual particle handedness**, it is a maximally parity-violating electromagnetism. Atomic parity violation in cesium is a weak-force effect of relative size $10^{-11}$, matching the Standard Model to half a percent; a chiral photon would make it order one. **Excluded by roughly eleven orders of magnitude.**
-
-**If it is about sheets rather than handedness** — our light couples normally to both chiralities of matter *on our sheet*, and not at all to the other — local physics is unchanged and the bound does not apply. This is the version that can work.
-
-**The obstacle is mass.** A massive fermion's chirality oscillates at $mc^2/\hbar$, which is $8\times10^{20}$ Hz for an electron. If chirality itself were the sheet label, a massive particle would change sheets that fast. Two ways out: **(a)** the mass term *is* the twin coupling (§VII.3), so chirality change is not motion but description at the other end; **(b)** the sheet label is **topological rather than chiral** — which lift of the path the light's history followed — with chirality merely correlated. **(b) is what §X.3 naturally supplies**, since path lifting is a labeling on histories rather than states. Making it a *coupling* rather than a bookkeeping device is the unfinished work.
-
-## X.7 What is doing the work regardless [V]
-
-Light takes $646$ Gyr to cross to the twin against 13.8 Gyr of cosmic age. **The twin is unobserved whether it is empty or full, and whether or not any coupling rule holds.** Part IX is a construction about what the theory *says*, to be held to a structural standard rather than an observational one.
-
----
+*Version 11 explored a reading in which matter sits at both twins and light reaches only its own chirality sheet, requiring a sheet-selective coupling that was never derived and that faced an eleven-order atomic-parity bound in its natural form. That construction is set aside in §XII.1; version 12 keeps the empty twin, which needs no new coupling and no new law.*
 
 # PART XI — TWO TESTS
 
@@ -811,7 +734,7 @@ A spherically symmetric chamber contributes nothing inside, by the shell theorem
 
 **The proposal as stated is inconsistent [D].** Giving the isolated ball Earth's compactness means $r_s\to4\times10^{17}r_s$ with $GM$ fixed. But $r_s = 2GM/c^2$: horizon and Newtonian coupling are **one number** whenever the exterior has a single source. Separating them requires the near field to be sourced by something the far field does not see.
 
-**The realizable form is already present [D].** Law III's flux is such a second source (§V.5). And the flux energy $|F_\oplus + F_g|^2$ contains a **cross term** $2F_\oplus\cdot F_g$ — a source at the ball that exists only when Earth is present, $1.5\times10^9$ times the ball's own term at its surface. In isolation only the self term survives. **The ball's near field genuinely differs alone and near Earth — a Machian effect from the dynamic sector with no new law**, bounded by Mercury at $\delta r_s/r_s < 3\times10^{-4}$.
+**The realizable form is already present [D].** Law III's flux is such a second source (§V.6). And the flux energy $|F_\oplus + F_g|^2$ contains a **cross term** $2F_\oplus\cdot F_g$ — a source at the ball that exists only when Earth is present, $1.5\times10^9$ times the ball's own term at its surface. In isolation only the self term survives. **The ball's near field genuinely differs alone and near Earth — a Machian effect from the dynamic sector with no new law**, bounded by Mercury at $\delta r_s/r_s < 3\times10^{-4}$.
 
 **A local Mach relation fails [V].** Reading $GM/c^2\ell = \pi/2$ with $\ell$ a body's sphere of influence gives $5\times10^{11}G$ for Earth and $3\times10^{22}G$ for the golf ball. The Mach relation closes a *universe*; spheres of influence are not closed universes.
 
@@ -822,6 +745,12 @@ A spherically symmetric chamber contributes nothing inside, by the shell theorem
 # PART XII — SET ASIDE, RETIRED, OPEN
 
 ## XII.1 Set aside: recorded, not assumed
+
+**Self-dual 2-form electromagnetism (version 11's Law IV).** On a six-dimensional Lorentzian space a 2-form $B$ with $H = dB = \star_6H$ is *chiral*: six dimensions is the unique place a gauge field can be, since self-duality needs middle degree and $\star^2 = +1$. Its dynamics is first order — self-duality *is* the field equation, as for a Weyl spinor — with no simple covariant action, since the naive $-\tfrac12\int H\wedge\star H$ vanishes identically on self-dual configurations. Reducing on the two fiber directions gives one photon plus one shift-symmetric scalar, with both Maxwell equations descending as Bianchi identities of $A$ and its magnetic dual. Charge would be carried by strings winding a cycle, or by the graviphoton, or by a separately specified $U(1)$; none was forced. **Set aside because its purpose — giving light an even chirality for the involution to flip — served a reading of the seed that this version does not take.** Coherent, and restorable.
+
+**The chirality-selective visible space (version 11's Part IX).** Matter at both twins, with light of one chirality reaching only its own sheet, so that gravity sees all the matter and light half of it. Built relationally, by lifting light paths from a source, since no global sheet label exists ($E\to E/\sigma$ is a connected double cover). **Set aside because its coupling rule was never derived**: a handedness-based version is excluded by atomic parity violation at eleven orders, and a sheet-based version needs a label that survives the $8\times10^{20}$ Hz chirality oscillation of a massive fermion. The empty twin of §X.2 needs no such rule.
+
+**From versions 7 through 9.**
 
 The null fiber and its Bondi reading; the Eisenhart–Bargmann lift and the identification of the fiber coordinate with the classical action; the Lorentzian real slice of the complexified cover and its de Sitter geometry; the fiber as quantum phase; Law I as semiclassical; the twin as a superposition branch; the fiber product as "visual space." Each is a coherent branch; none is part of version 11.
 
@@ -840,29 +769,30 @@ The null fiber and its Bondi reading; the Eisenhart–Bargmann lift and the iden
 | "northern light / southern light" | the twin map fixes the poles, and no global sheet label exists (§X.2) |
 | the Machian rescaling as stated | inconsistent (§X.2) |
 | poles assigned by hand at fixed coordinates | replaced by the Machian axis (§II.4): the poles follow the matter's principal axis |
-| $v^2_{\rm eq} = 4GM/\pi\ell$ | $15\%$ low; the converged value is $1.497\,GM/\ell$ (§V.7) |
+| $v^2_{\rm eq} = 4GM/\pi\ell$ | $15\%$ low; the converged value is $1.497\,GM/\ell$ (§V.8) |
 | "Law II's static presentation is a gauge choice" | too strong: Law II is elliptic on slices, hence instantaneous and frame-preferring; canonical only on static solutions (§II.3) |
-| electromagnetism as a 1-form on the cover | replaced by the self-dual 2-form, which has an even chirality a 1-form cannot carry (§VIII.1) |
-| "electric charge **is** meridian winding" | a conditional stated as a conclusion: it is what strings would do *if the theory contained them*, which nothing establishes. Demoted to one of three readings (§VIII.5) |
-| "the leftover scalar is a pseudoscalar because it has two spatial indices" | 4-D parity does not act on $u$ or $\theta$; the survivor is a combination, and its harmlessness comes from shift symmetry instead (§VIII.6) |
+
+| self-dual 2-form electromagnetism, and charge as winding | set aside (§XII.1), not refuted: the incentive was a chirality-selective seed that this version does not pursue |
+| the chirality-selective visible space | set aside (§XII.1): its coupling rule was never derived, and the natural form died to atomic parity violation at $10^{11}$ |
 
 ## XII.3 Open
 
-1. **Do sections exist over $S^4\setminus\Gamma$?** (§I.3) The whole construction rests on removing two sections, which do not exist over all of $S^4$; the meridian removal should lift the obstruction, but this has not been checked. **The first thing version 12 owes.**
-2. **Is the Kerr parameter literally a fiber displacement?** (§IX.2) The complex worldline is a theorem; whether $a$ is a displacement along the twistor fiber's own complex direction, rather than an analogy, is open.
-3. **The coupling rule of §X.6**, in form (b): make the path-lifted sheet label a *coupling* rather than a bookkeeping device. The most substantive unfinished work.
-2. **What carries electric charge** (§VIII.5). Reading (c) is the provisional default and is frankly ad hoc; constraining it from inside the theory, rather than importing strings or a mixing story, is the work owed here.
-3. **Anomalies:** the six-dimensional Weyl fermions and the self-dual 2-form must cancel together (§IV.7).
-4. **The Pin structure:** which of Pin$^\pm$ the fermionic base admits, and whether the choice is physical.
-5. **Reading (a) versus (b) of the seed:** whether fermions are $\sigma$-equivariant or merely use the fermionic base to define the spinor bundle.
-6. **The quantization fork:** $m_{\rm unit}$ a particle mass or $\sim10^{14}M_\odot$.
-7. **$g_2/m_{\rm unit}$:** below $0.024$ from Mercury; the double pulsar can tighten it.
-8. **$\mu(\rho)$:** nothing selects it; observable only through footprint dilation, bounded by 4.
-9. **Twin parity assignments:** which species are twin-odd.
-10. **Emergent $G$:** requires a $G$-free definition of mass (§X.2).
-11. **Law II in dynamical settings** (§II.3): a hyperbolic reformulation, or a proof that the constraint form gives a slicing-independent congruence.
-12. **The swinging axis** (§II.4): a nearly homogeneous universe fixes the polar axis by a small residual, so the gravity base — and every body's twin — would drift as matter rearranges.
-13. **Inherited:** the AdS uplift; the two arenas; the literature review.
+1. **Construct the Lorentzian metric** (§I.4). Non-compactness *admits* one; none has been written down, and whether a natural one exists with the fiber's radial direction timelike is the first thing version 12 owes. *(The section question of the first draft is settled affirmatively — §I.4.)*
+2. **Even flux** (§I.4). The twistor identification forces $M_-/m_{\rm unit}$ to be even. Whether that constrains $m_{\rm unit}$, constrains the admissible masses, or signals that the two circle bundles should not be identified, is open.
+3. **Is the Kerr parameter literally a fiber displacement?** (§IX.2) The complex worldline is a theorem; whether $a$ lives in the shift $\beta$ — the time fiber's own connection (§III.5) — rather than being an analogy, is open, and §III.5 makes it more promising than it looked.
+4. **The meridian scale $\lambda$** (§V.4), inherited unfixed from version 11.
+5. **Anomalies:** whether the six-dimensional Weyl fermions cancel their own (§IV.7).
+6. **The Pin structure:** which of Pin$^\pm$ the fermionic base admits, and whether the choice is physical.
+7. **The quantization fork:** $m_{\rm unit}$ a particle mass or $\sim10^{14}M_\odot$.
+8. **$g_2/m_{\rm unit}$:** below $0.024$ from Mercury; the double pulsar can tighten it.
+9. **$\mu(\rho)$:** nothing selects it; observable only through footprint dilation, bounded by 4.
+10. **Twin parity assignments:** which species are twin-odd.
+11. **Emergent $G$:** requires a $G$-free definition of mass (§XI.2).
+12. **Law II in dynamical settings** (§II.3): a hyperbolic reformulation, or a proof that the constraint form gives a slicing-independent congruence.
+13. **The swinging axis** (§II.4): a nearly homogeneous universe fixes the polar axis by a small residual, so the gravity base — and every body's twin — would drift as matter rearranges.
+14. **Inherited:** the AdS uplift; the two arenas; the literature review.
+
+*(Retired with the 2-form: the charge-carrier question, point charges as windings, and the joint anomaly condition. See §XII.1.)*
 
 ---
 
@@ -875,6 +805,8 @@ The null fiber and its Bondi reading; the Eisenhart–Bargmann lift and the iden
 | **Hopf circle** | the **angular** direction of the same fiber |
 | **tower** | $\mathbb{PT}^*(6)\to S^4(4)\to\mathbb{RP}^3(3)$; time is inside the first fiber |
 | **the surgery** | removing two sections does two jobs: cylinder fibers, and a Lorentzian metric ($\chi(\mathbb{CP}^3) = 4\neq0$ forbids one on the compact space) |
+| **sections exist** | over $S^4\setminus\Gamma\simeq S^2$ every rank-2 bundle splits, so $S^- = L_1\oplus L_2$: the meridian removal supplies them |
+| **even linking** | the cylinder's circle bundle is $L_1^*\otimes L_2$ with $c = -2a$: fibers link an **even** number of times, so $M_-/m_{\rm unit}$ must be even |
 | **ASD law** | Penrose–Ward: anti-self-dual solutions $=$ holomorphic data on twistor space. Native here |
 | **Kerr** | the real slice of a mass on a **complex worldline**: $z\to z-ia$; ring singularity at $x^2+y^2 = a^2$; rotation is a position in the complexification |
 | **gravity base** | $\mathbb{RP}^3$, 3-D; Law I, with time restored from the fiber |
@@ -892,28 +824,31 @@ The null fiber and its Bondi reading; the Eisenhart–Bargmann lift and the iden
 | **two fluxes** | fibration flux $\to$ uniform (jellium); second-order flux $\to$ localized ($P^2/r^2$). Same Gauss law, different spread |
 | **Mach as horizon** | $r_s(M_{\rm tot}) = \pi\ell$, the antipodal distance |
 | **Law III** | $dF = 2\pi\star J_-$; $L_E = \Omega L^{\rm ref}$; kinematic |
-| **Law IV** | self-dual 2-form $H = dB = \star_6H$; two self-duality pairings give one photon $+$ one shift-symmetric scalar |
-| **its dynamics** | first order: self-duality *is* the equation of motion, as for a Weyl spinor. No simple covariant action exists — the naive one vanishes |
-| **Maxwell from above** | both Maxwell equations descend as Bianchi identities, of $A$ and of $\tilde A$ |
-| **one source** | a self-dual field has no independent electric and magnetic sources: one string, two cycles to wrap |
-| **notation** | $B$ is the 2-form; $A_\mu\equiv B_{\mu u}$, $\tilde A_\mu\equiv B_{\mu\theta}$ — a suppressed second index always means the meridian |
+| **Law IV** | Maxwell 1-form on the cover, $\epsilon\mu = 1$; photon Hopf-neutral; total charge zero; light's chirality is the complex split $\mathcal{F}^\pm$ |
+
+
+
+
 | **$G$ identity** | $GM_{\rm tot}/c^2\ell = \pi/2$: from Law I and closure alone; untouched by the Machian form |
 | **twin theorem** | $(\Delta+3)$; dipole kernel; a lone mass has no static solution |
-| **fiber reading** | $L_H = 2\pi\ell\phi^2$; $\delta L/L = -\Phi$; $E_{ij} = -2[\nabla\nabla\phi]^{\rm TF}$; PNDs along $\nabla L$ |
+| **Law I on the fiber** | $ds^2_{\rm fiber} = \Omega^2(d\phi+\alpha)^2 - \Omega^{-2}dt^2$: an **area-preserving squeeze**. Circumference $2\pi\Omega$, lapse $\Omega^{-1}$, product fixed. Both directions, oppositely |
+| **the metric** | $ds^2_6 = -\Omega^{-2}dt^2 + \Omega^2(d\phi+\alpha)^2 + \lambda^2du^2 + \phi^4g_{S^3}$; near a mass, isotropic Schwarzschild exactly |
+| **shells** | proper area $4\pi r^2(1+GM/2r)^4$; fiber circumference $2\pi\phi^2$, longest deepest in the well |
+| **fiber reading** | $\delta L/L = -\Phi$; $E_{ij} = -2[\nabla\nabla\phi]^{\rm TF}$; PNDs along $\nabla L$ |
 | **black holes** | $f = 1 - 2GM/c^2r + GP^2/c^4r^2$, $P = g_2M/m_{\rm unit}$; $M^2\ge Q^2+P^2$; Mercury: $P/M<0.024$ |
-| **partition** | base $+$ length $+$ connection; even fills the first two, odd the third; $E$-Weyl $=$ the twist |
+| **partition** | $21 = 10 + 3 + 8$ for the 2-D fiber. Fiber metric $3\to1$ by area-preservation and diagonality, matching Law I's one function. Connection $8 = 4$ (Law III's $\alpha$) $+\,4$ (**the shift** $\beta$: frame dragging now inside the fiber) |
 | **the involution** | $\sigma:(\chi,\hat n,\theta)\mapsto(\chi,-\hat n,-\theta)$; det $=-1$; twin makes it free, reflection makes it reversing |
 | **what $\sigma$ is** | one map flipping odd chirality, even chirality, and the second-order charge |
 | **Dirac from Weyl** | chiral halves at twin points; mass is the twin coupling, local downstairs |
 | **why Weyl** | 6-D Weyl $=$ 4 complex $=$ 8 real $=$ exactly one 4-D Dirac; no phantom duplicate |
-| **duality** | $\star$ swaps the two fiber directions; the $SO(2)$ rotating $u$ into $\theta$ **is** the duality group; broken by the fiber's geometry, which is why charges are electric |
-| **what carries charge** | **open.** $B$ taken source-free; charge from a $U(1)$ to be specified (reading **c**). Strings (a) and graviphoton momentum (b) are alternatives, each with a commitment the theory cannot yet justify |
-| **the leftover scalar** | protected by the 2-form's gauge symmetry $\to$ a shift symmetry: derivative and topological couplings only, no fifth force. Unlike the radion, which had no shift symmetry |
-| **even vs odd** | fermion chirality survives the quotient; form self-duality cannot |
+
+
+
+
 | **detection** | which-path is base-only; zero modes add; $n\neq0$ invisible; Aharonov–Bohm through paths |
-| **no global sort** | $E\to E/\sigma$ is a connected double cover: no section; the twin's $\mathbb{Z}_2$ forbids it |
-| **visible space** | the canonical total space with a basepoint; sheets labeled by lifting light paths |
-| **the seed** | matter at both twins; gravity sees all, light sees half; mass inferred from a dark direction |
+
+
+| **the seed** | matter at $\hat n$, a well at both $\pm\hat n$, **nothing at $-\hat n$**; the twin is empty, and its light could not have arrived anyway ($646$ Gyr) |
 | **golf ball** | winds $M_g/m_{\rm unit}$ times; Earth dominates beyond $0.56\,\mu$m |
 | **Machian** | literal form inconsistent; the cross term is the realizable form, $<3\times10^{-4}$ |
 | **emergent $G$** | requires $G$-free mass; only the set-aside null fiber supplies one |
