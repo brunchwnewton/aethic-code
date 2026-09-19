@@ -45,7 +45,7 @@ survivorship model in another \cite{SurvA}. Both are cited and restated,
 neither presupposed, and the hypothesis is carried throughout at a
 hypothesis's grade. Drafting collaboration: Anthropic Claude (Opus~4.x,
 Fable~5), under the author's direction.}}
-\date{September 2026 --- Working Draft, rev.~1}
+\date{September 2026 --- Working Draft, rev.~3}
 \begin{document}
 \maketitle
 
@@ -108,8 +108,7 @@ explanation is a hypothesis with a stated test.
 accordance, its prior-bound corollary, the conjunction form under
 submultiplicativity, the multiplicity guard, the horizon-indexed
 specialization to survival targets, the identification of the Bayes factor
-with the Doob density, the survivor null and the common baseline, the
-information and the law-specific growth rates, and the limit on
+with the Doob density, the information flux, and the limit on
 certification \cite{TargetedB1}. The survivorship companion supplies the
 model and its $Q$-process \cite{SurvA}. The Nexic companion supplies the
 Accordance Principle at a general target, the Imperfection Magnitude Drop,
@@ -119,13 +118,23 @@ Section~\ref{sec:imports} at its grade.
 
 \emph{What is new.} The target, constructed from the record's side
 (Section~\ref{sec:target}). The hypothesis and its two arguments as model
-comparisons (Section~\ref{sec:conditioning}). The natural-history leg's
-counterfactual weight, bounded from below by the single-flip sum
-(Section~\ref{sec:natural}). The Route World's discriminators and its
-prospective test (Sections~\ref{sec:routeworld} and \ref{sec:protocol}).
-And the fences (Section~\ref{sec:fences}). The retrocausal instrument's
-phenomenology, the finale paradox and the investment reading, is carried
-in the master manuscript and is not part of the hypothesis stated here.
+comparisons (Section~\ref{sec:conditioning}). The natural-history leg's counterfactual weight, bounded from below by the single-flip sum (Section~\ref{sec:natural}). The Route World's discriminators and its prospective test (Sections~\ref{sec:routeworld} and \ref{sec:protocol}). And the fences (Section~\ref{sec:fences}). The retrocausal instrument's phenomenology, the finale paradox and the investment reading, is carried in the master manuscript and is not part of the hypothesis stated here.
+
+
+\emph{Position in the branch.} The Golden branch is four papers in a
+strict order of import, and the arrows do not run backward. The
+survivorship companion \cite{SurvA} owns the stochastic dynamics and the
+conditioned path laws; the theorem companion \cite{TargetedB1} owns the
+general result that a record drawn under a target-conditioned law has
+realized attributes according with the target, and the model-comparison
+and multiplicity machinery, and its core theorem depends on nothing
+Golden; this paper owns the hypothesis that one particular target,
+long-run biospheric survival, explains our record, and its tests; and
+the technoanatomy paper \cite{TechnoC} owns the mechanism by which a
+civilization traverses the survival architecture, downstream of all
+three. No paper cites a downstream one as support for its own claims: the
+hypothesis here is not made true by the mechanism, and the mechanism
+does not assume the hypothesis.
 
 \emph{What is refused.} No agent behind the conditioning. No
 certification of the favorable side, which the imported theorem forbids
@@ -160,10 +169,8 @@ read as one attribute.
 capacity register as missing in a history where it does not occur.
 \item \textbf{The ceiling.} No event of bounded duration perfectly separates
 the conditioned law from the unconditioned one.
-\item \textbf{Log-likelihood growth rate.} The expected growth of
-$\log dQ/d\PP$ per unit time under the actual law; negative under the
-unconditioned law, maximal under the conditioned one; the Route World's
-discriminating statistic.
+\item \textbf{Information flux.} The rate of the relative entropy between
+the two laws; the Route World's discriminating statistic.
 \item \textbf{Route World.} The hypothesis: the record as the past-cone
 restriction of the survivorship-conditioned law.
 \end{itemize}
@@ -2726,8 +2733,13 @@ $G$ as an event does not exist:
 \log\text{-evidence}\;\approx\;-\log q .
 \end{equation}
 For finite information $\Fc_t$ the factor is the density itself,
-$\mathrm{BF}_t=dQ|_{\Fc_t}/d\PP|_{\Fc_t}$, which in the model of
-Section~\ref{sec:imports} is the Doob density the Doob density of \cite{SurvA}: the
+$\mathrm{BF}_t=dQ|_{\Fc_t}/d\PP|_{\Fc_t}$, written generically as
+$Z_t$; in the hard-wall model of Section~\ref{sec:imports} it is the Doob
+density the Doob density of \cite{SurvA}, $Q^{\mathrm{hard}}$, proved, while the
+physically intended soft law $Q^{\mathrm{soft}}$ has density
+$e^{-\int_0^tq}\,g(X_t)/g(X_0)$ conditional on Ansatz~B of \cite{SurvA},
+and every result below that consumes the density says which of the two
+it uses: the
 realized log-evidence is $\ell_t=\log\hm(X_t)-\log\hm(X_0)$, and the
 historical Bayes-factor argument and the stochastic $\hm$-transform are
 one object. The realized $\ell_t$ is the logarithm of a
@@ -2931,16 +2943,21 @@ only, and the realized log-likelihood favors $\PP$ in expectation:
 $\gamma_\PP<0$. \emph{Weak.} The forward cone is weighted by Golden-Point probability, so
 improbabilities arrive at a rate above Cosmic and below what full
 conditioning gives --- and, since Weak's anchor does real work, at a rate
-depending on one's position: the rate $\gamma_R$ under the Weak law
-lies strictly between $\gamma_\PP$ and $\gamma_Q$.
+depending on one's position. No rate prediction exists for Weak until
+its law is specified: a partial-conditioning family $R_\theta$, a
+tempered Doob transform, or a finite-horizon conditioning regime, with
+$\gamma(\theta)=\lim_t\E_{R_\theta}[\ell_t]/t$ computed and the
+ordering $\gamma(0)<\gamma(\theta)<\gamma(1)$ proved, which is open
+\textbf{[O]}.
 
 \emph{Strong.} The conditioning is resolved throughout the cone, so
 required improbabilities arrive at the full conditioned rate, and by
 Proposition~\ref{gc:prop:credence} the realized log-likelihood favors
 $Q$ in expectation at the maximal rate, $\gamma_Q=\lim I_t/t>0$, while
-$\ell_t$ fluctuates about its mean. The discriminating quantity is therefore the sign and size of the
-expected log-likelihood growth under the actual law, and it orders the
-three: negative, intermediate, maximal. Two things bear on reading it.
+$\ell_t$ fluctuates about its mean. The discriminating quantity is therefore the sign of the expected
+log-likelihood growth under the actual law: Void and Strong predict
+opposite signs for the $Q{:}\PP$ log-evidence under their own
+generating laws, and Weak awaits its law. Two things bear on reading it.
 Remark~\ref{gc:rem:carryover} says the label attaching to any given fluke
 is tense-relative, so an observer cannot distinguish the worlds by
 inspecting individual events; only the \emph{rate} discriminates. And by
@@ -2948,7 +2965,8 @@ the identifiability analysis of \S\ref{gc:sub:credencemethod}, the rate
 must be read from the aggregate $\Lc_t$ rather than from a ledger of
 attributed events, since the aggregate does not decompose. What one
 compares is a log-likelihood ratio against a Cosmic-rate baseline: Void
-predicts it stays near zero, Strong that it grows.
+predicts that it falls in expectation, at the rate $-D(\PP\|Q)$, and
+Strong that it grows.
 
 \paragraph{What does not.} By Theorem~\ref{imp:ceiling}, $Q$ and $\PP$
 are mutually absolutely continuous on every finite window and singular
@@ -3366,23 +3384,24 @@ described that way.
 Every [O] tag in the paper is gathered here. The estimate of the
 natural-history leg's exponent $\alpha$ by a direct attribute-level audit
 of the record. The identification map from accordance-legible traces to
-the target's operation.  Strong Past-Alignment, conditional on the
+the target's operation. The formal dissolution of the finale paradox at
+the grade of the draw. Strong Past-Alignment, conditional on the
 cumulative-suppression landscape assumption, which is the Optimal-Earth
 companion's and not this paper's. The landscape premise under which every
-alternative lineage is an Imperfection Magnitude Drop. The synchronization
-of the Departure fixed point with the current Aethic Tree's transitive
-descendant relation, by importing the owner theorem verbatim. The shifted
+alternative lineage is an Imperfection Magnitude Drop. The shifted
 convergence result on which any forward reading of practical Goldenness
-depends. The provisioning base rate. And the Route World itself, entered
-as a hypothesis: what is derived is its structure, what is open is whether
-the record is under it.
+depends. The provisioning base rate. An explicit intermediate law for the Weak reading, a
+partial-conditioning family whose expected log-likelihood growth can be
+computed and ordered between the two rigorous signs. And the Route World
+itself, entered as a hypothesis: what is derived is its structure, what
+is open is whether the record is under it.
 
 \section{Falsifiers}\label{sec:falsifiers}
 
 What would count against the hypothesis, in one place. A Bayes factor
 between the conditioned and observer-conditioned laws, on a predeclared
-statistic, found near or below one. The realized log-likelihood found to
-grow at a negative rate, as the unconditioned law predicts. The provisioning base
+statistic, found near or below one. The information flux measured and
+found at the rate the unconditioned law predicts. The provisioning base
 rate found undistinguished from the habitability-conditioned one. A
 perturbation exhibited that leaves a Golden-relevant trait's Cosmic-Nexus
 weight undiminished, which weakens local alignment, and a systematic class
@@ -3491,6 +3510,7 @@ and Pruning}, working draft, July 2026.
 
 \bibitem{GoldenMaster} A.~Benander, \emph{Golden Reasoning: Soft Horizons, Survivorship, and the Two-Channel Muffled Hazard}, master manuscript, 2026.
 \bibitem{TargetedB1} A.~Benander, \emph{Conditioning a record on its own future: targeted accordance and survivorship-conditioned path measures}, working draft, 2026.
+\bibitem{TechnoC} A.~Benander, \emph{Technoanatomy: civilizational survival as a sign, not a size}, working draft, 2026.
 
 \end{thebibliography}
 \end{document}

@@ -51,7 +51,7 @@ and survivorship theory of a larger framework; the companion
 developments carry the program built on them and are cited, not
 presupposed. Drafting collaboration: Anthropic Claude (Opus~4.x,
 Fable~5), under the author's direction.}}
-\date{September 2026 --- Working Draft, rev.~4}
+\date{September 2026 --- Working Draft, rev.~5}
 
 \begin{document}
 \maketitle
@@ -66,10 +66,11 @@ $\tfrac12$ to $\tfrac14$. The hazard carries two channels: an external
 background, muffled by the accumulated exponent through a bounded
 logistic factor, and an internal term $\Gamma e^{-\rho x}$ the same
 exponent feeds or starves according to the sign of the response
-exponent $\rho$. The paper's claim in one sentence: whether the
-total hazard ever accrued stays finite is decided by the sign of the
-response exponent and not by the magnitude of the accumulated
-capacity, and no event of bounded duration on a surviving path
+exponent $\rho$. The paper's claim in one sentence: the
+total hazard ever accrued stays finite exactly when the response
+exponent is positive and the driver's long-run behavior is favorable,
+so that no magnitude of accumulated capacity substitutes for the sign,
+and no event of bounded duration on a surviving path
 perfectly separates the survivorship-conditioned law from the
 unconditioned one. Three results carry the claim. First, a
 trichotomy in $\rho$: for $\rho\le0$ the viability event
@@ -138,10 +139,19 @@ the event $\{\Lambda_\infty<\infty\}$ that the total hazard ever
 accrued stays finite. Departure with probability one and infinite life
 expectancy are compatible, and both hold in the critical case.
 
-\emph{The claim.} Whether the total hazard ever accrued stays finite
-is decided by the sign of the response exponent and not by the
-magnitude of the accumulated capacity
-(Theorem~\ref{thm:twocond}), and no event of bounded duration on a
+\emph{Position in the branch.} This paper is the root of a four-paper
+branch and imports nothing from the others: the theorem companion on
+target-conditioned records cites it for the survival specialization,
+the Route World companion for the conditioned law it hypothesizes
+governs the record, and the technoanatomy companion for the viability
+theorem and the ceiling; the hard-wall law $Q^{\mathrm{hard}}$ is
+proved here and the soft law $Q^{\mathrm{soft}}$ is conditional on
+Ansatz~\ref{ans:ratio}, and every downstream use says which it consumes.
+
+\emph{The claim.} The total hazard ever accrued stays finite exactly when
+the response exponent is positive and the driver's long-run behavior is
+favorable, so that no magnitude of accumulated capacity substitutes for
+the sign (Theorem~\ref{thm:twocond}), and no event of bounded duration on a
 surviving path perfectly separates the survivorship-conditioned law
 from the unconditioned one (Theorem~\ref{thm:singular}). The rest of the
 paper establishes those two statements and the transfer that connects
@@ -361,10 +371,13 @@ protective against a floor.
 \item If $\rho<0$, $h\to B(1+e^{-b})$ as $x\to-\infty$ and
 $h\to\infty$ as $x\to+\infty$, so that $\inf_xh(x)>0$ for frozen
 $B>0$, which is all the fatality theorem consumes. In the regime
-$|\rho|>1$ there is a unique interior critical point, a minimum, at
-(writing $A:=Be^{b}$, $|\rho|=-\rho$, in the regime $x_\ast\gtrsim b$)
+$|\rho|>1$ there is a unique interior critical point, a minimum, whose location
+is the large-$x$ asymptote of the exact critical-point equation
+$Ky^{r-1}(1+y)^2=1$ below, obtained from $\varsigma_b(x)\sim
+\mathrm{const}\cdot e^{-x}$ (writing $A:=Be^{b}$, $|\rho|=-\rho$):
 \begin{equation}\label{eq:xstar}
-x_\ast=\frac{\log\bigl(A/(|\rho|\Gamma)\bigr)}{1+|\rho|},
+x_\ast\;\sim\;\frac{\log\bigl(A/(|\rho|\Gamma)\bigr)}{1+|\rho|}
+\qquad(x_\ast-b\to+\infty),
 \qquad
 h_\ast=A^{\frac{|\rho|}{1+|\rho|}}\,\Gamma^{\frac{1}{1+|\rho|}}
 \Bigl(|\rho|^{\frac{1}{1+|\rho|}}+|\rho|^{-\frac{|\rho|}{1+|\rho|}}\Bigr).
@@ -825,10 +838,14 @@ but are not treated here. \emph{(I) Saturation} [P] (favorable:
 $\PP(T=\infty)>0$): $\|\PP^{(t)}-\PP(\cdot\mid
 T=\infty)\|_{\mathrm{TV}}\to0$ with every bias bounded by
 $1/\PP(T=\infty)$; no new measure class. \emph{(II) Transformation}
-[C/A] (regularly varying tails, $\PP(T>t)\sim L(t)t^{-\alpha}$; the
-critical case $\alpha=1/4$): the pure Doob limit of
-Theorem~\ref{thm:Q}, locally absolutely continuous, globally singular,
-its kinematic factor \eqref{eq:rate}. \emph{(III) Concentration} [S]
+[C/A] (regularly varying tails that also admit a statewise ratio
+asymptotic, $\PP_x(T>t)\sim g(x)L(t)t^{-\alpha}$; regular variation of
+the scalar tail alone does not determine the state-dependent ratio):
+the clockless Doob or Feynman--Kac transform by $g$, locally absolutely
+continuous, globally singular, with its kinematic factor; the hard-wall
+case $\alpha=1/4$, $g=\hm$, is the proved instance
+(Theorem~\ref{thm:Q}) and the soft case is conditional on
+Ansatz~\ref{ans:ratio}. \emph{(III) Concentration} [S]
 (exponential tails, $\PP(T>t)\sim e^{-\theta t}$): on fixed windows
 the eigen-tilted transform, the quasi-stationary regime with a clock;
 for the linearly adverse driver $d\mu=\nu\,dt+\sigma\,dW$ with
@@ -944,9 +961,10 @@ fitted window: flat to three decimals across two decades.}
 
 \section{Discussion}\label{sec:discussion}
 
-The claim stated at the outset stands as proved: viability is decided
-by the sign of the response exponent and not by the magnitude of the
-accumulated capacity, and no event of bounded duration on a surviving
+The claim stated at the outset stands as proved: viability holds
+exactly when the response exponent is positive and the driver's
+long-run behavior is favorable, no magnitude of accumulated capacity
+substituting for the sign, and no event of bounded duration on a surviving
 path perfectly separates the conditioned law from the unconditioned
 one. One
 empirical signature follows. Under criticality the
