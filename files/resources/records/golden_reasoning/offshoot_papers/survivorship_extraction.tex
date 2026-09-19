@@ -51,7 +51,7 @@ and survivorship theory of a larger framework; the companion
 developments carry the program built on them and are cited, not
 presupposed. Drafting collaboration: Anthropic Claude (Opus~4.x,
 Fable~5), under the author's direction.}}
-\date{September 2026 --- Working Draft, rev.~5}
+\date{September 2026 --- Working Draft, rev.~6}
 
 \begin{document}
 \maketitle
@@ -226,9 +226,10 @@ one-dimensional Brownian motion. Claims are tagged: [P] proved here,
 $\{\Lambda_\infty<\infty\}$. \emph{Credit}: the accumulated exponent
 $x_t=\int_0^t\mu$. \emph{Response exponent}: $\rho$, the sign of
 which decides viability. \emph{Muffling factor}: the bounded logistic
-$\varsigma_b(x)$ attenuating the background. \emph{Escape factor}:
-the driver's probability of escaping to $+\infty$, the second factor of
-Theorem~\ref{thm:twocond}. \emph{Hard wall / soft wall}: killing at
+$\varsigma_b(x)$ attenuating the background. \emph{Driver-viability factor}:
+$V_{\mathrm{drv}}$, the second factor of Theorem~\ref{thm:twocond},
+the driver's escape probability when it is transient and the indicator
+of a positive stationary mean when it is positive recurrent. \emph{Hard wall / soft wall}: killing at
 first hitting of a level, against killing by accrued hazard.
 \emph{Survivorship interpolation}: the family
 $\PP(\cdot\mid T>t)$. \emph{Bias field}: the drift the interpolation
@@ -379,7 +380,7 @@ $Ky^{r-1}(1+y)^2=1$ below, obtained from $\varsigma_b(x)\sim
 x_\ast\;\sim\;\frac{\log\bigl(A/(|\rho|\Gamma)\bigr)}{1+|\rho|}
 \qquad(x_\ast-b\to+\infty),
 \qquad
-h_\ast=A^{\frac{|\rho|}{1+|\rho|}}\,\Gamma^{\frac{1}{1+|\rho|}}
+h_\ast\;\sim\;A^{\frac{|\rho|}{1+|\rho|}}\,\Gamma^{\frac{1}{1+|\rho|}}
 \Bigl(|\rho|^{\frac{1}{1+|\rho|}}+|\rho|^{-\frac{|\rho|}{1+|\rho|}}\Bigr).
 \end{equation}
 For $|\rho|\le1$ the number of interior critical points depends on the
@@ -620,6 +621,29 @@ established, the expansion's radius would collapse exactly at the
 trichotomy's boundary, the signature of a genuine transition.
 \end{proposition}
 
+\begin{theorem}[Adverse credit occupies half of logarithmic time in the
+critical regime; {[P]}]\label{thm:half}
+For the driftless driver, almost surely
+\begin{equation}\label{eq:half}
+\lim_{S\to\infty}\frac1S\,\Leb\bigl\{s\in[0,S]:D_{e^{s}}-D_0<0\bigr\}=\frac12,
+\end{equation}
+so the set of times at which the credit sits below its initial value
+has logarithmic density exactly one half, for every initial datum. The
+statement is confined to the critical recurrent regime and fails for
+any driver whose credit is transient.
+\end{theorem}
+
+\begin{proof}
+$Z_s:=(D_{e^{s}}-D_0)/(\sigma e^{3s/2})$ is a stationary, centered,
+Gaussian, ergodic process, by the Lamperti transform of the integrated
+Brownian motion under its $3/2$-self-similarity, so Birkhoff's ergodic
+theorem gives logarithmic density $\PP(Z_0<0)=\tfrac12$ by symmetry.
+\end{proof}
+
+\noindent The theorem is exported for the technoanatomy companion, which
+reads it as the statement that adverse strength is a generic condition
+in the critical regime and not evidence of adverse anatomy.
+
 \section{Persistence and the transfer}\label{sec:persist}
 
 \begin{theorem}[Persistence of the hard-wall functional; {[C]}]
@@ -702,9 +726,8 @@ In the two-channel model with $\rho>1$ the persistence exponent
 $1/4$ is expected to survive the two-channel perturbation, because
 the $t^{3/2}$ scale of the integrated driver dominates the $t^{1/2}$
 scale of the background's fluctuations, so that under
-Ansatz~\ref{ans:soft} $\log\PP(T>t)=-\tfrac14\log t+O(1)$. The
-derivation in the master manuscript \cite{GoldenMaster} yields the
-more specific form
+Ansatz~\ref{ans:soft} $\log\PP(T>t)=-\tfrac14\log t+O(1)$. A heuristic derivation, not reproduced here and not relied on, suggests
+the more specific form
 \begin{equation}\label{eq:transfer}
 \PP(T>t)\;\asymp\;
 \hm\bigl(\mu_0-\tfrac{\epsilon^2}{2},\,D_0-\log n-b\bigr)\cdot
@@ -852,8 +875,8 @@ for the linearly adverse driver $d\mu=\nu\,dt+\sigma\,dW$ with
 $\nu<0$ the clock is $\theta=3\nu^2/8\sigma^2$ and, at macroscopic
 scale, the conditioned path law collapses onto the deterministic
 optimal profile $\mu_{tv}/t\to\tfrac{|\nu|}4v(2-3v)$, a law of large
-numbers for the rare, derived in the master manuscript
-\cite{GoldenMaster} and cited here. Modes (II) and (III) share $\PP(\Imm)=0$ and are separated by
+numbers for the rare, a large-deviation computation for the linearly
+adverse driver that is stated here at scaling level and not derived. Modes (II) and (III) share $\PP(\Imm)=0$ and are separated by
 the interpolation --- by whether the survivor's measure class is
 approached polynomially, without a clock, or exponentially, with one.
 \end{theorem}
@@ -986,7 +1009,7 @@ survivor's entire trajectory, together with the drift conditioning
 manufactures, and locates the observed-versus-unbiased divergence in
 the measure class itself. The two-condition theorem gives the model's
 structural moral in one line: an index of accumulated capacity tracks
-the escape factor and is silent on the sign that multiplies it, so
+the driver-viability factor and is silent on the sign that multiplies it, so
 no such index can distinguish the ascent that arrives from the ascent
 that is a fall --- and with $\rho<0$, feedback strictly accelerates
 the fall. The interpretation of these results within a larger program, where $x$ and $\rho$ are read as a biosphere's capability and its
