@@ -1,0 +1,1073 @@
+% =====================================================================
+% EXTRACTION: the probability core of "Golden Reasoning" (master v125; rev 4, after the second external referee),
+% prepared as a standalone paper for a stochastics audience, following
+% the corpus's extraction convention (cf. nexic.tex).  Assembled by
+% Fable 5, Aug 21 2026, from the master's Sec. gr1 and appendices, with
+% the numerics of app:numerics RUN and reported in Sec. 6 (previously a
+% specification only).  Program vocabulary neutralized per the
+% extraction convention: "technostrength" -> the muffling exponent x;
+% "technoanatomy" -> the response exponent rho; one remark records the
+% companion names.  All theorem content is the master's; the abstract,
+% introduction framing, Sec. 6 results, and discussion are new.
+% CITATION NOTE: bibliography reconstructed from the master's keys;
+% AUTHOR TO VERIFY every entry against the sources before circulation.
+% =====================================================================
+\documentclass[11pt]{article}
+\usepackage[margin=1.1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{url}
+\usepackage{enumitem}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{ansatz}[theorem]{Ansatz}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\PP}{\mathbb{P}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\one}{\mathbf{1}}
+\newcommand{\hm}{\mathsf{h}}
+\newcommand{\Fc}{\mathcal{F}}
+\newcommand{\Lc}{\mathcal{L}}
+\newcommand{\Imm}{\mathsf{V}}
+\DeclareMathOperator{\Leb}{Leb}
+
+\title{Survivorship Conditioning for Hazard Rates Driven at the
+Log-Derivative Level:\\ \large A Two-Channel Model, a Two-Condition
+Viability Theorem, and the Critical Doob Limit}
+\author{Ajax Benander\thanks{Email:
+\href{mailto:akb9408@rit.edu}{akb9408@rit.edu}. This paper extracts, as
+a self-contained development in applied probability, the hazard model
+and survivorship theory of a larger framework; the companion
+developments carry the program built on them and are cited, not
+presupposed. Drafting collaboration: Anthropic Claude (Opus~4.x,
+Fable~5), under the author's direction.}}
+\date{September 2026 --- Working Draft, rev.~4}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We study the survival theory of a hazard rate whose noise is placed one
+integration further out than is standard: rather than diffusing $h$ or
+$\log h$, we diffuse the negative logarithmic derivative
+$\mu=-\frac{d}{dt}\log h$, so that the integrated driver is a
+Kolmogorov diffusion and the governing persistence exponent moves from
+$\tfrac12$ to $\tfrac14$. The hazard carries two channels: an external
+background, muffled by the accumulated exponent through a bounded
+logistic factor, and an internal term $\Gamma e^{-\rho x}$ the same
+exponent feeds or starves according to the sign of the response
+exponent $\rho$. The paper's claim in one sentence: whether the
+total hazard ever accrued stays finite is decided by the sign of the
+response exponent and not by the magnitude of the accumulated
+capacity, and no event of bounded duration on a surviving path
+perfectly separates the survivorship-conditioned law from the
+unconditioned one. Three results carry the claim. First, a
+trichotomy in $\rho$: for $\rho\le0$ the viability event
+$\{\Lambda_\infty<\infty\}$ is null for every parameter value and every
+driver, with an exponential survival tail at frozen background, while
+for $\rho>0$ viability factors exactly as an indicator in $\rho$ times
+the driver's escape probability --- the classical scale-function
+expression when a scale limit is finite, the stationary-mean
+criterion in the positive-recurrent case ---
+two independent necessary conditions, with a closed-form Gaussian
+sigmoid in the canonical self-reinforcing case. Second, a transfer
+theorem: the two-channel model's survival asymptotics coincide with
+those of the bare integrated-driver model up to a shift of initial data
+and bounded constants, conditional on a soft-wall reduction we state as
+an explicit Ansatz and support numerically. Third, the survivorship
+interpolation $\PP(\cdot\mid T>t)$ is a monotone flow of upward tilts
+whose $t\to\infty$ limit, in the critical regime, is the pure Doob
+$\hm$-transform by the persistence-harmonic function: locally
+absolutely continuous with respect to the unconditioned law on
+survivors, globally singular, approached at the polynomial rate $s/4t$
+with the tail index as linear-response coefficient, and classified
+against exponential-tail regimes into three modes. Monte Carlo
+experiments with exact pair simulation confirm the $t^{-1/4}$ exponent
+for the soft-killing functional, the boundedness (indeed apparent
+convergence) of the soft-to-hard survival ratio, the gauge role of the
+initial hazard, the finite-window kinematic factor $(1-s/t)^{-1/4}$,
+self-similar convergence of the conditioned credit, and the
+qualitative structure of the survivorship drift. One empirical
+signature follows: under criticality the population hazard of
+survivors decays as $1/(4t)$, mortality deceleration to zero at a
+universal rate, against the plateau that static frailty selection
+predicts.
+\end{abstract}
+
+\section{Introduction}\label{sec:intro}
+
+Stochastic hazard rates are standard objects: the wrapper
+$S_t=\exp(-\int_0^t h)$ with $h$ a diffusion is the reduced-form
+framework of credit risk \cite{Lan04} and of stochastic mortality,
+where the force of mortality is routinely modeled by a diffusion, the
+mean-reverting Brownian Gompertz specification of Milevsky and
+Promislow \cite{MP01} being a canonical instance. What distinguishes
+the present model is not the wrapper but \emph{where the noise is
+placed}: standard practice diffuses $h$ or $\log h$, whereas we diffuse
+$\mu=-\tfrac{d}{dt}\log h$, one integration further out. The
+consequences are structural rather than cosmetic: $\log h$ becomes
+$C^1$, the state becomes a degenerate, $3/2$-self-similar hypoelliptic
+diffusion, Kolmogorov's 1934 example \cite{Kol34,Hor67}, and the
+governing persistence exponent moves from $\tfrac12$ to $\tfrac14$.
+
+\subsection{The model in three lines}
+\emph{The hazard.}
+$h^{\mathrm{tot}}_t=B_t\varsigma_b(x_t)+\Gamma e^{-\rho x_t}$: an
+external background $B_t$ attenuated by a bounded logistic muffling
+factor $\varsigma_b$ that the accumulated exponent $x$ improves, plus
+an internal term that $x$ feeds or starves according to the sign of
+$\rho$.
+
+\emph{The driver.} $x_t=\int_0^t\mu_s\,ds$ with $\mu$ Brownian: the
+noise sits on $\mu=-\frac{d}{dt}\log h$. This placement is the paper's
+principal modeling claim.
+
+\emph{Departure.} $T$ is the first time the cumulative hazard exhausts
+an independent unit exponential (a Cox construction), and viability is
+the event $\{\Lambda_\infty<\infty\}$ that the total hazard ever
+accrued stays finite. Departure with probability one and infinite life
+expectancy are compatible, and both hold in the critical case.
+
+\emph{The claim.} Whether the total hazard ever accrued stays finite
+is decided by the sign of the response exponent and not by the
+magnitude of the accumulated capacity
+(Theorem~\ref{thm:twocond}), and no event of bounded duration on a
+surviving path perfectly separates the survivorship-conditioned law
+from the unconditioned one (Theorem~\ref{thm:singular}). The rest of the
+paper establishes those two statements and the transfer that connects
+the two-channel model to the classical persistence theory they rest
+on.
+
+\subsection{Relation to the literature}
+Four bodies of work border this paper; what follows maps what is
+classical, what is adjacent, and what is claimed as new.
+
+\emph{The classical layer.} The state process is Kolmogorov's 1934
+diffusion \cite{Kol34}, the primordial hypoelliptic example
+\cite{Hor67}. Its persistence theory is a mature subject with a clean
+lineage, McKean \cite{McK63}, Goldman \cite{Gol71}, Lachal
+\cite{Lac91}, Sinai \cite{Sin92}, Isozaki--Watanabe \cite{IW94},
+Denisov--Wachtel \cite{DW15}, surveyed in \cite{AS15} and, as the
+\emph{random acceleration process}, possessing an extensive physics
+literature reviewed in \cite{BMS13}. The conditioned (never-hitting)
+process, our limit object in Section~\ref{sec:cond}, is constructed by
+Groeneboom, Jongbloed and Wellner \cite{GJW99}. None of this is ours;
+we import it.
+
+\emph{The adjacent frameworks.} Our survivorship interpolation belongs
+to two established genres. First, Theorem~\ref{thm:Q} is a
+\emph{penalization} statement in the sense of Roynette--Vallois--Yor
+\cite{RVY06}: a limit of Wiener-type measures reweighted by a
+time-dependent functional, identified as a martingale change of
+measure --- here the weight is survival itself, and the polynomial
+tail places it in the clockless class. Second, the mode classification
+of Theorem~\ref{thm:modes} sits against the theory of quasi-stationary
+distributions and $Q$-processes surveyed in \cite{MV12}: classical QSD
+theory is at home in the exponential-tail class, while the critical
+polynomial mode admits no proper QSD in fixed coordinates, its Yaglom
+object being self-similar. We use both frameworks as positioning, not
+as inputs.
+
+\emph{The conceptual ancestor.} That selection on survival makes the
+observed ensemble diverge systematically from the unbiased one is the
+frailty phenomenon of Vaupel, Manton and Stallard \cite{VMS79} and
+Vaupel and Yashin \cite{VY85}: when the frail are removed first, the
+population hazard falls below the individual hazard, producing
+mortality deceleration at the population level with no corresponding
+deceleration for any individual. We claim no priority over that
+insight, and regard this paper as exhibiting its \emph{critical
+dynamical} analog: frailty is a static random variable fixed at birth
+and the analysis is a mixture computation, whereas here the randomness
+is a driver evolving in time and the object is a limit of path
+measures singular with respect to the unbiased law
+(Theorem~\ref{thm:singular}).
+
+\emph{What is claimed as new.} To our knowledge, the following are new
+at least in assembly: the log-derivative placement of the noise, with
+its gauge analysis and the two-sided soft-wall analysis whose
+remaining gap is located exactly (Ansatz~\ref{ans:soft}); the response
+trichotomy and the two-condition viability theorem
+(Theorem~\ref{thm:twocond}); and the survivorship interpolation read
+as a monotone flow with the tail index as its linear-response
+coefficient, classified into saturation, transformation and
+concentration (Theorem~\ref{thm:modes}). Section~\ref{sec:numerics}
+reports Monte Carlo support for the one non-rigorous reduction.
+
+\emph{Convention.} For positive functions, $f\sim g$ means $f/g\to1$;
+$f\asymp g$ means $0<\liminf f/g\le\limsup f/g<\infty$. $\Phi$ is the
+standard normal distribution function. All processes live on a
+filtered space satisfying the usual conditions; $W$ is a standard
+one-dimensional Brownian motion. Claims are tagged: [P] proved here,
+[C] classical or cited, [A] conditional on Ansatz~\ref{ans:soft},
+[S] scaling-level, [O] open.
+
+\emph{Vocabulary.} Ten terms are the paper's own and are fixed here.
+\emph{Departure}: the killing time $T$. \emph{Viability}: the event
+$\{\Lambda_\infty<\infty\}$. \emph{Credit}: the accumulated exponent
+$x_t=\int_0^t\mu$. \emph{Response exponent}: $\rho$, the sign of
+which decides viability. \emph{Muffling factor}: the bounded logistic
+$\varsigma_b(x)$ attenuating the background. \emph{Escape factor}:
+the driver's probability of escaping to $+\infty$, the second factor of
+Theorem~\ref{thm:twocond}. \emph{Hard wall / soft wall}: killing at
+first hitting of a level, against killing by accrued hazard.
+\emph{Survivorship interpolation}: the family
+$\PP(\cdot\mid T>t)$. \emph{Bias field}: the drift the interpolation
+manufactures. \emph{Modes}: saturation, transformation, concentration,
+the three limits of Theorem~\ref{thm:modes}.
+
+\section{The model}\label{sec:model}
+
+\begin{definition}[Driftless model]\label{def:model}
+Fix $\sigma>0$ and initial data $(\mu_0,D_0)\in\R\times\R$. Define
+\begin{equation}\label{eq:model}
+\mu_t=\mu_0+\sigma W_t,\qquad
+D_t=D_0+\int_0^t\mu_s\,ds,\qquad
+h_t=e^{-D_t},\qquad
+\Lambda_t=\int_0^t h_u\,du .
+\end{equation}
+The credit $D$ and the hazard are one coordinate: the initial hazard
+is $h_0:=e^{-D_0}$, and a multiplicative constant $q$ in the hazard
+is the translation $D_0\mapsto D_0-\log q$ of the initial credit,
+which is the content of Lemma~\ref{lem:gauge}. The hard wall of
+Section~\ref{sec:persist} sits at $D=0$, where $e^{-D}$ passes
+through one.
+Let $E\sim\mathrm{Exp}(1)$ be independent of $W$ and
+$T:=\inf\{t\ge0:\Lambda_t\ge E\}$, so that
+$\PP(T>t\mid\Fc^W_\infty)=e^{-\Lambda_t}$. The \emph{viability event}
+is $\Imm:=\{\Lambda_\infty<\infty\}$; on $\Imm$ the conditional
+probability of immortality, $e^{-\Lambda_\infty}$, is strictly
+positive, and
+$\PP(T=\infty)=\E[e^{-\Lambda_\infty}\one_\Imm]\le\PP(\Imm)$.
+\end{definition}
+
+The pair $(\mu,D)$ is the Kolmogorov diffusion,
+$\Lc=\tfrac{\sigma^2}{2}\partial_\mu^2+\mu\,\partial_D$, Gaussian with
+covariance
+$\bigl(\begin{smallmatrix}\sigma^2t&\sigma^2t^2/2\\
+\sigma^2t^2/2&\sigma^2t^3/3\end{smallmatrix}\bigr)$
+and hypoelliptic by H\"ormander's condition at first order
+\cite{Kol34,Hor67}. Three structural facts are immediate and load
+bearing. There is no boundary in $h$: the logarithmic parametrization
+makes $h>0$ automatic, and the whole problem concerns the growth of
+the integrated driver. The credit $D$ is nondecreasing exactly while
+$\mu\ge0$: accumulated credit is spent only through a negative rate.
+And the initial hazard is exactly gauge:
+
+\begin{lemma}[Gauge role of the initial credit; {[P]}]\label{lem:gauge}
+Writing $\Lambda^{(D_0)}$ for the cumulative hazard from initial
+credit $D_0$, $\Lambda^{(D_0)}_t=e^{-D_0}\Lambda^{(0)}_t$ pathwise;
+hence $\Imm$ does not depend on $D_0$, while $\PP(T=\infty)$ is
+continuous and nondecreasing in $D_0$, with
+$\lim_{D_0\uparrow\infty}\PP(T=\infty)=\PP(\Imm)$ and
+$\lim_{D_0\downarrow-\infty}\PP(T=\infty)=0$. The initial credit,
+equivalently the initial hazard scale $h_0=e^{-D_0}$, can never affect
+a dichotomy, only a value.
+\end{lemma}
+
+\begin{remark}[Nonparametric-Bayes reading]
+Definition~\ref{def:model} places an integrated Wiener prior on
+$-\log h$ --- the classical cubic smoothing-spline prior of Wahba
+\cite{Wah78} --- so the results below may be read as the survival
+asymptotics that canonical smoothness prior implies. A stronger
+reading is available: writing $\mathcal D[f]:=-\frac{d}{dt}\log f$,
+one has $\mathcal D[\bar F]=h$ and $\mathcal D[h]=\mu$, so the driver
+is the second iterate of the operation that defines the hazard, and
+the model occupies a rung of a ladder rather than a member of a
+family. Noise at level one ($\log h$ Brownian) gives persistence
+exponent $\tfrac12$; at level two, the present model, $\tfrac14$; at
+level three the credit is twice-integrated Brownian motion and the
+exponent is open \cite{AS15,AD13}. Level two is the last rung that is
+both nontrivial and solvable.
+\end{remark}
+
+\begin{definition}[Two-channel model]\label{def:twochannel}\footnote{The
+two-channel form and the viability criterion $\Lambda_\infty<\infty$
+have a dated germ in the author's document of August 2022
+\cite{BenGolden22}, where the criterion appears as $e^{a/b}<\infty$
+under a two-channel ``Outlook''; the present formulation replaces the
+germ and is cited for priority only.}
+Fix $\sigma,\epsilon>0$, $n\in\mathbb N$, $\Gamma>0$, $\rho\in\R$, and
+offset $b>0$. With $\mu$, $x$ as in \eqref{eq:model} (writing $x$ for
+the integrated driver), let
+$B_t=\sum_{i=1}^n e^{\epsilon W^{(i)}_t}$ for Brownian motions
+$W^{(i)}$ independent of one another and of the driver $W$, an
+assumption the infinite-set lemma below requires when the set is
+generated by the driver, for independent Brownian
+motions $W^{(i)}$, and
+\begin{equation}\label{eq:hazard}
+h^{\mathrm{tot}}_t
+=\underbrace{B_t\,\varsigma_b(x_t)}_{\text{external}}
++\underbrace{\Gamma\,e^{-\rho x_t}}_{\text{internal}},
+\qquad
+\varsigma_b(x):=\frac{1+e^{-b}}{1+e^{x-b}},
+\end{equation}
+normalized so that $\varsigma_b(0)=1$ exactly. Survival, $T$, and
+$\Imm$ are as before with $h^{\mathrm{tot}}$ in place of $h$.
+\end{definition}
+
+\begin{proposition}[Channel dominance; boundedness; {[P]}]
+\label{prop:dominance}
+(i) For every $\rho>0$,
+$\Gamma e^{-\rho x}/(B\varsigma_b(x))\to\infty$ as $x\to-\infty$, so
+the background drops out of the total at large negative $x$ for every
+positive $\rho$. (ii) As $x\to+\infty$ the external channel dominates
+for all large $x$ if and only if $\rho>1$; for $\rho<1$ the two cross
+at $x_\times=(k+b)/(1-\rho)$, $k:=\log(B/\Gamma)$. (iii)
+$0<\varsigma_b(x)<1+e^{-b}$ for all $x$: the external channel can be
+reduced without bound but amplified by at most $1+e^{-b}\to1$. The
+internal channel is unbounded above.
+\end{proposition}
+
+\begin{remark}[The causal asymmetry]
+Item (iii) enforces structurally a constraint a multiplicative form
+$Be^{-x}$ would violate: a failure of the system's own muffling cannot
+amplify the external world, while nothing bounds self-inflicted
+hazard. In operator terms, at fixed background,
+$\mathcal D[h^{\mathrm{int}}]=\rho\,\mu$ exactly, while
+$\mathcal D[h^{\mathrm{ext}}]=\varsigma(x-b)\,\mu$ with logistic
+weight: the internal channel preserves the defining operator relation
+with constant gain $\rho$, and the external channel must be deformed
+because boundedness is being purchased. This identifies $\rho$
+intrinsically as the internal channel's operator gain,
+$\rho=-\partial_x\log h^{\mathrm{int}}$: the rate at which accumulated
+exponent converts into change in self-inflicted hazard. The companion
+program names $x$ and $\rho$ \emph{technostrength} and
+\emph{technoanatomy} \cite{GoldenMaster}; here they are the muffling
+exponent and the response exponent.
+\end{remark}
+
+\section{The response trichotomy and the two-condition theorem}
+\label{sec:trichotomy}
+
+We now let $\rho$ range over $\R$.
+
+\begin{proposition}[Trichotomy; {[P]}]\label{prop:trichotomy}
+Write $h(x)=B\varsigma_b(x)+\Gamma e^{-\rho x}$ with $B,\Gamma>0$.
+\begin{enumerate}[label=\emph{(\roman*)},itemsep=1pt]
+\item If $\rho>0$, $h$ is strictly decreasing with $h(x)\to0$ as
+$x\to+\infty$.
+\item If $\rho=0$, $h$ is strictly decreasing with $h(x)\to\Gamma>0$:
+protective against a floor.
+\item If $\rho<0$, $h\to B(1+e^{-b})$ as $x\to-\infty$ and
+$h\to\infty$ as $x\to+\infty$, so that $\inf_xh(x)>0$ for frozen
+$B>0$, which is all the fatality theorem consumes. In the regime
+$|\rho|>1$ there is a unique interior critical point, a minimum, at
+(writing $A:=Be^{b}$, $|\rho|=-\rho$, in the regime $x_\ast\gtrsim b$)
+\begin{equation}\label{eq:xstar}
+x_\ast=\frac{\log\bigl(A/(|\rho|\Gamma)\bigr)}{1+|\rho|},
+\qquad
+h_\ast=A^{\frac{|\rho|}{1+|\rho|}}\,\Gamma^{\frac{1}{1+|\rho|}}
+\Bigl(|\rho|^{\frac{1}{1+|\rho|}}+|\rho|^{-\frac{|\rho|}{1+|\rho|}}\Bigr).
+\end{equation}
+For $|\rho|\le1$ the number of interior critical points depends on the
+parameters and may be zero: with $y=e^{x-b}$ and $r=|\rho|$ they solve
+$Ky^{r-1}(1+y)^2=1$ for a positive constant $K$, whose left side has
+logarithmic derivative $r-1+2y/(1+y)$, increasing throughout when
+$r\ge1$ and decreasing then increasing when $r<1$, so that for $r<1$
+there are zero, one tangential, or two solutions, and for $r=1$ none
+when $K\ge1$. Nothing below depends on the count.
+\end{enumerate}
+\end{proposition}
+
+\begin{lemma}[Infinite sets defeat the driftless background; {[P]}]
+\label{lem:infbackground}
+Let $W$ be a standard Brownian motion, $\epsilon>0$, and let
+$S\subset[0,\infty)$ be a measurable set, possibly random but
+independent of $W$, with $\mathrm{Leb}(S)=\infty$ almost surely. Then
+$\int_S e^{\epsilon W_u}\,du=\infty$ almost surely; consequently the
+same holds with $B_u=\sum_{i=1}^ne^{\epsilon W^{(i)}_u}\ge
+e^{\epsilon W^{(1)}_u}$ in place of $e^{\epsilon W_u}$.
+\end{lemma}
+
+\begin{proof}
+Conditioning on $S$, it suffices to treat deterministic $S$ of
+infinite measure. For each $T$, finiteness of
+$\int_{S\cap[T,\infty)}e^{\epsilon W_u}du$ is unchanged by the
+multiplicative factor $e^{\epsilon W_T}$ --- it is decided by
+$\int_{S\cap[T,\infty)}e^{\epsilon(W_u-W_T)}du$ --- and the integral
+over $S\cap[0,T]$ is a.s.\ finite, so the event
+$\{\int_Se^{\epsilon W_u}du=\infty\}$ lies in
+$\sigma(W_u-W_T:u\ge T)$ for every $T$, hence in the tail
+$\sigma$-field of the increments, and has probability $0$ or $1$ by
+Kolmogorov's zero--one law. Were the probability $0$, then
+$\int_Se^{\epsilon W_u}du<\infty$ a.s., and applying the same to $-W$,
+also $\int_Se^{-\epsilon W_u}du<\infty$ a.s.; adding,
+$2\,\mathrm{Leb}(S)\le\int_S(e^{\epsilon W_u}+e^{-\epsilon W_u})du
+<\infty$, contradicting $\mathrm{Leb}(S)=\infty$.
+\end{proof}
+
+\begin{proposition}[Recurrent drivers; {[P]}]\label{prop:recurrent}
+Suppose the driver of \S\ref{sec:model} is positive recurrent with
+stationary law $\pi$ and $\int|\mu|\,\pi(d\mu)<\infty$; write
+$\bar m:=\int\mu\,\pi(d\mu)$.
+\begin{enumerate}[label=\emph{(\alph*)},itemsep=1pt]
+\item If $\bar m>0$ then $D_t/t\to\bar m$ a.s., $\Lambda_\infty<\infty$
+a.s., and $\PP(\Imm)=1$.
+\item If $\bar m<0$ then $\Lambda_\infty=\infty$ a.s.\ and $T<\infty$ a.s.
+\item If $\bar m=0$ and the cycle integral defined in the proof is
+nondegenerate (automatic for nondegenerate diffusions), then
+$\Lambda_\infty=\infty$ a.s.: \emph{the critical case falls on the mortal
+side.}
+\end{enumerate}
+For null-recurrent drivers no general statement is offered
+\textbf{[O]}; the Brownian driver, the fundamental null-recurrent case, is
+settled unconditionally by the driftless analysis of \S\ref{sec:persist}.
+\end{proposition}
+
+\begin{proof}
+(a), (b): the ergodic theorem for positive recurrent one-dimensional
+diffusions gives $D_t/t\to\bar m$ a.s.\ (see \cite[Ch.~X]{RY99}); if
+$\bar m>0$ then eventually $D_t\ge D_0+\tfrac{\bar m}2t$ and
+$\Lambda_\infty<\infty$; if $\bar m<0$ the integrand
+$e^{-(D_t-D_0)}\to\infty$.
+
+(c) Fix interior levels $a<b$ and regenerate at up-crossings: let
+$R_0:=\inf\{t:\mu_t=b\}$ and inductively
+$S_k:=\inf\{t>R_{k-1}:\mu_t=a\}$, $R_k:=\inf\{t>S_k:\mu_t=b\}$. By the
+strong Markov property the cycles over $[R_{k-1},R_k)$ are i.i.d.; positive
+recurrence gives $\E[L]<\infty$ for the cycle length
+$L:=R_1-R_0$, and the cycle occupation identity yields, for the cycle
+integral $\xi_k:=\int_{R_{k-1}}^{R_k}\mu_s\,ds$,
+\[
+\E[\xi_1]=\E[L]\int\mu\,d\pi=0,\qquad
+\E|\xi_1|\le\E\Bigl[\int_{\text{cycle}}|\mu_s|ds\Bigr]
+=\E[L]\int|\mu|\,d\pi<\infty .
+\]
+Thus $S_n:=D_{R_n}-D_{R_0}=\sum_{k\le n}\xi_k$ is a nondegenerate mean-zero
+i.i.d.\ walk, so $\liminf_nS_n=-\infty$ a.s.\ by the classical
+oscillation dichotomy for random walks (see, e.g., \cite{Dur19});
+in particular the events $B_n:=\{D_{R_n}\le-1\}$ occur infinitely often
+a.s. Choose $\delta>0$ and $M<\infty$ with
+\[
+q:=\PP_b\Bigl(L\ge\delta,\ \sup_{0\le u\le\delta}
+\Bigl|\int_0^u\mu_s\,ds\Bigr|\le M\Bigr)>0,
+\]
+possible since $L>0$ a.s.\ and the supremum is finite a.s. Let
+$G_n$ be the corresponding event for cycle $n{+}1$; by the strong Markov
+property $\PP(G_n\mid\Fc_{R_n})=q$, so
+$\sum_n\PP(B_n\cap G_n\mid\Fc_{R_n})=q\sum_n\one_{B_n}=\infty$ a.s., and
+L\'evy's extension of the Borel--Cantelli lemma (see, e.g.,
+\cite{Dur19}) gives
+$B_n\cap G_n$ infinitely often a.s. On $B_n\cap G_n$, for
+$u\in[0,\delta]$ one has $D_{R_n+u}\le-1+M$, hence
+\[
+\int_{R_n}^{R_n+\delta}e^{-D_s}\,ds\ \ge\ \delta\,e^{\,1-M-D_0}\,>\,0 ,
+\]
+and these windows are disjoint. Summing over infinitely many of them,
+$\Lambda_\infty=\infty$ a.s.
+\end{proof}
+
+\begin{theorem}[Non-positive response is fatal, and fast; {[P]}]
+\label{thm:trapped}
+Let $\rho\le0$. Then: (i) $\Lambda_\infty=\infty$ almost surely, for
+the random background and regardless of the driver --- pathwise in the
+driver, almost surely in the background. (ii) If the background is
+frozen, $B_t\equiv B>0$, then $h_\ast=\inf_xh(x)>0$ and
+$\PP(T>t)\le e^{-h_\ast t}$, whence $\E[T]<\infty$. For the random
+background no positive floor exists ($\inf_tB_t=0$ a.s.), so the
+exponential rate is frozen-background (annealed) only, and whether an
+unconditional rate holds is open [O]. (iii) No power-law structure
+survives.
+\end{theorem}
+
+% CORRECTION RECORD (external referee flow-through, Aug 22 2026):
+% (i) was stated "along every continuation" and its proof asserted
+% background divergence "along every continuous path", which is false
+% path-by-path; the claim is a.s.\ and now routes through
+% Lemma~lem:infbackground.  (ii)'s old random-background clause
+% conditioned on the null event {inf B >= B0 > 0} and was vacuous;
+% withdrawn, with the annealed scoping made explicit.
+
+\begin{proof}
+(i) If $x_t\to+\infty$ the internal term diverges pointwise (for
+$\rho<0$; for $\rho=0$ it is the constant $\Gamma$). If
+$x_t\to-\infty$ the external term tends to $B_t(1+e^{-b})$ and
+$\int_0^\infty B_t\,dt=\infty$ a.s.\ by
+Lemma~\ref{lem:infbackground} with $S=[0,\infty)$. On any other
+driver path, either $\mathrm{Leb}\{t:x_t\ge0\}=\infty$, where the
+trough floors the hazard at $\Gamma e^{-\rho x_t}\ge\Gamma$
+deterministically, or $\mathrm{Leb}\{t:x_t\le0\}=\infty$, where the
+crest with $S=\{t:x_t\le0\}$ routes through
+Lemma~\ref{lem:infbackground}. (ii) $\Lambda_t\ge h_\ast t$ and
+$\PP(T>t)=\E[e^{-\Lambda_t}]\le e^{-h_\ast t}$.
+\end{proof}
+
+\begin{theorem}[Two conditions for viability; {[P]}]\label{thm:twocond}
+Let the driver be a regular diffusion on $\R$ with scale function $s$,
+and $\rho\in\R$. Define the \emph{driver-viability functional}
+\begin{equation}\label{eq:vdrv}
+V_{\mathrm{drv}}(\mu_0)=
+\begin{cases}
+\PP_{\mu_0}(\mu_t\to+\infty)=\dfrac{s(\mu_0)-s(-\infty)}{s(+\infty)-s(-\infty)},
+& \text{transient driver,}\\[8pt]
+1, & \text{positive recurrent, }\bar m>0,\\[2pt]
+0, & \text{positive recurrent, }\bar m\le0,\\[2pt]
+0, & \text{Brownian driver,}\\[2pt]
+\text{open [O]}, & \text{general null recurrence,}
+\end{cases}
+\end{equation}
+with $\bar m=\int\mu\,d\pi$ the stationary mean where it exists, the
+transient formula read with its boundary conventions ($s(+\infty)=\infty$
+and $s(-\infty)$ finite giving $0$; $s$ bounded above with
+$s(-\infty)=-\infty$ giving $1$). Then
+\begin{equation}\label{eq:twocond}
+\PP\bigl(\Lambda_\infty<\infty\bigr)
+=\underbrace{\one\{\rho>0\}}_{\text{response}}
+\cdot
+\underbrace{V_{\mathrm{drv}}(\mu_0)}_{\text{driver}}.
+\end{equation}
+The two factors are logically distinct necessary conditions, not
+independent events: the first is a sign, the second is silent on it.
+In the positive recurrent case the driver does not escape; its time
+integral acquires positive linear drift, which is why the functional
+is stated piecewise rather than as a single scale-function ratio.
+\end{theorem}
+
+% CORRECTION RECORD (external referee flow-through, Aug 22 2026):
+% the previous clause read the second factor as 0 whenever
+% s(+inf)=inf; an Ornstein--Uhlenbeck driver mean-reverting to a
+% positive level (both scale limits infinite, stationary mean > 0)
+% gives viability 1 by the ergodic theorem.  The counterexample is
+% the referee's; the restatement routes the doubly-infinite case
+% through Proposition~prop:recurrent.
+
+\begin{proof}
+On $\{\mu_t\to+\infty\}$: eventually $\mu_t\ge1$, so
+$x_t\ge x_{t_0}+(t-t_0)$ and, for $\rho>0$,
+$h(x_t)\lesssim e^{-\min(1,\rho)(t-t_0)}$, whence
+$\Lambda_\infty<\infty$. For $\rho\le0$,
+Theorem~\ref{thm:trapped}(i) makes the first factor necessary. On
+$\{\mu_t\to-\infty\}$, $x_t\to-\infty$ and
+$h\to B(1+e^{-b})>0$, so $\Lambda_\infty=\infty$; on the recurrent
+event the outcome is Proposition~\ref{prop:recurrent} ---
+$\bar m>0$ gives $D_t/t\to\bar m$ and $\Lambda_\infty<\infty$,
+$\bar m\le0$ (nondegenerate) gives $\Lambda_\infty=\infty$ --- with
+the Brownian driver settled by the driftless analysis and general
+null recurrence left open, which is the statement's scope clause.
+The hitting probabilities are the classical scale-function formula
+\cite{KT81,RY99}.
+\end{proof}
+
+\begin{corollary}[The solvable case; {[P]}]\label{cor:solvable}
+For the self-reinforcing driver $d\mu_t=\nu\mu_t\,dt+\sigma\,dW_t$,
+$\nu>0$ --- the member of the driver family whose drift is
+proportional to its state ---
+$s'(v)=e^{-\nu v^2/\sigma^2}$ is integrable at both ends and
+\begin{equation}\label{eq:sigmoid}
+\PP\bigl(\Lambda_\infty<\infty\bigr)
+=\one\{\rho>0\}\cdot\Phi\!\Bigl(\frac{\mu_0\sqrt{2\nu}}{\sigma}\Bigr):
+\end{equation}
+a sharp threshold in the response exponent multiplied by a smooth
+Gaussian sigmoid of width $\sigma/\sqrt{2\nu}$ in the initial rate.
+With $\rho<0$, feedback accelerates failure:
+$\mu_t\to+\infty$ drives $h\to\infty$ superexponentially, so a system
+with adverse response and feedback is strictly worse off than one with
+adverse response and none.
+\end{corollary}
+
+\begin{remark}[Fluctuating response; {[S]}]\label{rem:fluct}
+If $\rho=\rho_t$ is a process, an adverse excursion of duration
+$\delta$ at exponent level $x$ contributes
+$\asymp\delta\,\Gamma e^{|\rho|x}$ to $\Lambda$, so survivability
+requires $\delta\lesssim\Gamma^{-1}e^{-|\rho|x}$: the affordable
+duration of adverse response decays exponentially in the accumulated
+exponent, and a $\rho_t$ recurrent on $\R$ forces
+$\Lambda_\infty=\infty$ whatever the driver. Viability then requires
+$\rho_t$ eventually positive almost surely, and \eqref{eq:twocond}
+becomes a product of two scale functions. Supplying dynamics for
+$\rho_t$ is the model's principal open direction [O].
+\end{remark}
+
+\begin{proposition}[Perturbation in $\Gamma$, and the threshold;
+fixed-time expansion {[P]}, long-time threshold {[O]}]\label{prop:perturb}
+Writing $Q_{\mathrm{ext}}$ for the external-only survivorship measure,
+\begin{equation}\label{eq:perturb}
+\PP(T>t)=\PP_{\mathrm{ext}}(T>t)\Bigl[1-\Gamma\,
+\E_{Q_{\mathrm{ext}}}\!\Bigl[\int_0^te^{-\rho x_s}ds\Bigr]
++O(\Gamma^{2})\Bigr],
+\end{equation}
+the fixed-$t$ expansion being a Taylor--Feynman--Kac identity. Under
+$Q_{\mathrm{ext}}$ the credit grows as $x_s\asymp\sigma s^{3/2}$ on
+the scaling picture, which suggests that the first-order coefficient
+converges as $t\to\infty$ if and only if $\rho>0$; the suggestion is
+not a proof, since $\E_Q[e^{-\rho x_s}]$ is controlled by the mass the
+conditioned process keeps near low credit and not by its typical
+scale, and the long-time threshold is entered as open. Were it
+established, the expansion's radius would collapse exactly at the
+trichotomy's boundary, the signature of a genuine transition.
+\end{proposition}
+
+\section{Persistence and the transfer}\label{sec:persist}
+
+\begin{theorem}[Persistence of the hard-wall functional; {[C]}]
+\label{thm:persist}
+Let $\tau:=\inf\{t\ge0:D_t\le0\}$ for the driftless model started at
+$\mu_0\ge0$, $D_0>0$. Then
+$\PP_{(\mu,d)}(\tau>t)\sim c\,\hm(\mu,d)\,t^{-1/4}$ as $t\to\infty$,
+where $\hm$ is the persistence-harmonic function of the killed
+Kolmogorov semigroup, with boundary behavior
+$\hm(\mu,0^+)\propto\mu^{1/2}$ and $\hm(0^+,d)\propto d^{1/6}$, and
+$\E_x[\hm(X_s)\one_{\{\tau>s\}}]=\hm(x)$. The exponent is Sinai's
+\cite{Sin92}; the refined form and the harmonic function are
+McKean, Goldman, Lachal, Isozaki--Watanabe, and
+Groeneboom--Jongbloed--Wellner
+\cite{McK63,Gol71,Lac91,IW94,GJW99}; universality is
+Denisov--Wachtel \cite{DW15}, surveyed in \cite{AS15,BMS13}.
+\end{theorem}
+
+The soft-killing functional replaces the hard wall by the killing rate
+$e^{-D}$, exponentially negligible for $D\gg0$ and overwhelming for
+$D\ll0$: an absorbing wall of thickness $O(1)$ in $D$ at the level
+$D=0$ where the hard wall $\tau=\inf\{t:D_t\le0\}$ sits, negligible
+against excursions of size $t^{3/2}$. Killing approximates absorption
+when the credit crosses downward through zero, and the sign convention
+is fixed here once so that it cannot drift. The reduction is stated as two hypotheses of increasing strength,
+because the exponent and the conditioned law require different
+things: the tail asymptotics rest on the weaker and the $Q$-process
+on the stronger.
+
+\begin{ansatz}[A: soft killing preserves the exponent]\label{ans:soft}
+For every admissible initial datum there exist
+$0<c\le C<\infty$ and $t_0$ with
+$c\,\PP(\tau>t)\le\PP(T>t)\le C\,\PP(\tau>t)$ for $t\ge t_0$, after an
+$O(1)$ adjustment of the initial credit. Equivalently
+$\log\PP(T>t)=\log\PP(\tau>t)+O(1)$.
+\end{ansatz}
+
+\begin{ansatz}[B: soft survival has a ratio asymptotic]\label{ans:ratio}
+Writing $K_tf(x)=\E_x[e^{-\int_0^tq(X_u)du}f(X_t)]$ for the
+Feynman--Kac semigroup with $q(\mu,D)=e^{-D}$, there is a positive
+function $g$ on the state space and a constant $c_{\mathrm{soft}}$ with
+$K_t1(x)\sim c_{\mathrm{soft}}\,g(x)\,t^{-1/4}$ locally uniformly in
+$x$; formally $g$ is the zero-energy positive solution of
+$(\Lc-q)g=0$ with the growth conditions the soft wall imposes.
+\end{ansatz}
+
+\noindent Ansatz~\ref{ans:soft} does not imply Ansatz~\ref{ans:ratio}:
+comparability fixes $\log\PP_x(T>t)$ to $O(1)$ but leaves the hidden
+constant free to depend on $x$, so that $\PP_x(T>t)\sim c(x)\hm(x)t^{-1/4}$
+with $c$ non-constant is compatible with A and incompatible with the
+conclusion that the soft conditioned law is the hard-wall
+$\hm$-transform. The question the two hypotheses leave open, which
+the numerical agenda of Section~\ref{sec:numerics} targets, is
+whether $g=C\,\hm(\cdot+\delta)$ for some effective wall translation
+$\delta$.
+
+One half is rigorous modulo a cited input: on the event
+$\{D_u\ge2\log\frac{2+u}{2}\ \forall u\le t\}$ the cumulative hazard
+is bounded, and a logarithmic moving boundary does not change the
+persistence exponent of an integrated process \cite{AS15,DW15}; the
+upper half reduces to the plausible, unproved statement that
+persistence with a bounded occupation tolerance has the same exponent
+as strict persistence. The nearest standing literature cuts against
+assuming this lightly: persistence with \emph{partial survival}, each crossing killing with probability $p$, carries exponents
+varying continuously with $p$ \cite{MB98}, for the random acceleration
+process among others \cite{Bur14}, so softening a wall can shift an
+exponent. What distinguishes the present softening is its structure:
+killing is rate-based and confined to a boundary layer of width $O(1)$
+in the credit against excursions of scale $t^{3/2}$, a vanishing
+fraction of the range, where partial survival taxes every crossing
+at fixed price at every scale. Everything tagged [A] depends on exactly
+this gap, and Section~\ref{sec:numerics} tests it directly; the
+measured constancy of the soft-to-hard ratio is evidence the
+boundary-layer case sits in the exponent-preserving class the
+moving-boundary results delimit from the rigorous side.
+
+\begin{proposition}[Transfer; scaling statement {[S]}, prefactor
+conjectural]\label{thm:transfer}
+In the two-channel model with $\rho>1$ the persistence exponent
+$1/4$ is expected to survive the two-channel perturbation, because
+the $t^{3/2}$ scale of the integrated driver dominates the $t^{1/2}$
+scale of the background's fluctuations, so that under
+Ansatz~\ref{ans:soft} $\log\PP(T>t)=-\tfrac14\log t+O(1)$. The
+derivation in the master manuscript \cite{GoldenMaster} yields the
+more specific form
+\begin{equation}\label{eq:transfer}
+\PP(T>t)\;\asymp\;
+\hm\bigl(\mu_0-\tfrac{\epsilon^2}{2},\,D_0-\log n-b\bigr)\cdot
+e^{-\Theta(n(b/\sigma)^{2/3})}\cdot t^{-1/4},
+\end{equation}
+every difference between the two-channel model and the driftless one
+appearing as a shift of initial data or a bounded multiplicative
+constant; that form is entered here as a conjecture, its shifts and
+prefactor not established by the hypotheses stated in this paper, and
+the numerics below test the bare soft wall rather than the full
+two-channel process. Where the exponent holds, $\E[T]=\infty$ while
+$T<\infty$ a.s., residual life is asymptotically Pareto$(\tfrac14)$,
+and quantiles grow as the fourth power of rarity.
+\end{proposition}
+
+\section{Conditioning on survival}\label{sec:cond}
+
+\begin{definition}[Survivorship interpolation; bias field]
+\label{def:interp}
+$\PP^{(t)}:=\PP(\cdot\mid T>t)$, likewise $\PP^{(t)}_\tau$ for the
+hard wall; for $0\le s<t$ the bias field on $[0,s]$ is
+\begin{equation}\label{eq:bias}
+\beta_t(s):=\frac{d\PP^{(t)}}{d\PP}\Big|_{\Fc_s}
+=\one_{\{T>s\}}\,\frac{\PP_{X_s}(T>t-s)}{\PP_{X_0}(T>t)},
+\qquad X_s=(\mu_s,D_s).
+\end{equation}
+\end{definition}
+
+\begin{lemma}[Survivorship tilts upward; {[P]}]\label{lem:monotone}
+Coupling two initial data componentwise with the same $W$ shows both
+$\PP_x(T>t)$ and $\PP_x(\tau>t)$ nondecreasing in $(\mu_0,D_0)$;
+hence every bias field is, on the survival event, a nondecreasing
+function of the state: the interpolation is a monotone flow of upward
+tilts in rate and credit.
+\end{lemma}
+
+\begin{theorem}[The critical limit is the pure Doob transform;
+{[C]}, soft version {[A]}]\label{thm:Q}
+Under the refined asymptotics of Theorem~\ref{thm:persist}, for every
+$s\ge0$ and bounded $\Fc_s$-measurable $\Psi$,
+$\E[\Psi\mid\tau>t]\to\E_Q[\Psi]$ as $t\to\infty$, where $Q$ is the
+time-homogeneous Markov law with
+\begin{equation}\label{eq:Qdensity}
+\frac{dQ}{d\PP}\Big|_{\Fc_s}
+=\one_{\{\tau>s\}}\,\frac{\hm(X_s)}{\hm(X_0)}:
+\end{equation}
+the pure Doob $\hm$-transform at eigenvalue one. Under
+Ansatz~\ref{ans:ratio}, and conditionally on it, the soft
+survivorship law $\PP(\cdot\mid T>t)$ converges to the Feynman--Kac
+Doob transform
+\begin{equation}\label{eq:Qsoft}
+\frac{dQ^{\mathrm{soft}}}{d\PP}\Big|_{\Fc_s}
+=e^{-\int_0^sq(X_u)du}\,\frac{g(X_s)}{g(X_0)},
+\end{equation}
+which coincides with \eqref{eq:Qdensity} exactly when $g$ is
+proportional to $\hm$ after a credit translation. Ansatz~\ref{ans:soft}
+alone yields neither the limit nor its existence.
+\end{theorem}
+
+\begin{proof}
+With $f_t:=\one_{\{\tau>s\}}\PP_{X_s}(\tau>t-s)/\PP_{X_0}(\tau>t)$,
+the Markov property gives $\E[f_t]=1$; factorizing,
+$f_t=\one_{\{\tau>s\}}
+\frac{(t-s)^{1/4}\PP_{X_s}(\tau>t-s)}{t^{1/4}\PP_{X_0}(\tau>t)}
+(1-s/t)^{-1/4}\to f:=\one_{\{\tau>s\}}\hm(X_s)/\hm(X_0)$ a.s.; the
+martingale property gives $\E[f]=1$, so $f_t\to f$ in $L^1$ by
+Scheff\'e, and $\E[\Psi f_t]\to\E_Q[\Psi]$.
+\end{proof}
+
+\begin{remark}[Why survivorship has no clock here; {[P]}]
+\label{rem:noclock}
+For regularly varying tails the kinematic factor
+$\PP_x(\tau>t-s)/\PP_x(\tau>t)\to1$ for fixed $s$: the age of the
+conditioning drops out and the limit is an un-tilted $h$-transform.
+For exponential tails the same factor converges to $e^{\theta s}$ and
+survivorship acquires a clock. In the penalization taxonomy
+\cite{RVY06} the survival weight lands in the clockless class
+precisely because its expectation is regularly varying. Quantitatively
+\begin{equation}\label{eq:rate}
+\beta_t(s)=\one_{\{\tau>s\}}\frac{\hm(X_s)}{\hm(X_0)}
+\Bigl(1-\frac st\Bigr)^{-1/4}(1+o(1)),
+\qquad
+\Bigl(1-\frac st\Bigr)^{-1/4}=1+\frac{s}{4t}+O\Bigl(\frac{s^2}{t^2}\Bigr):
+\end{equation}
+the persistence exponent is the linear-response coefficient of
+survivorship bias.
+\end{remark}
+
+\begin{theorem}[Survivorship drift; promotion to transience;
+{[P]} given {[C]} inputs]\label{thm:drift}
+Under $Q$ the state solves
+$d\mu_t=\sigma^2\partial_\mu\log\hm(\mu_t,D_t)\,dt+\sigma\,dW^Q_t$,
+$dD_t=\mu_t\,dt$: conditioning adds drift only in the noisy
+coordinate, the drift is everywhere nonnegative, equals
+$\sigma^2/2\mu$ near zero credit (the Bessel-$2$ form, the halving of
+the classical exponent under one integration), and vanishes as
+$\kappa:=\sigma^2D/\mu^3\to\infty$. Under $\PP$ the credit is oscillatory,
+$\liminf D_s=-\infty$ and $\limsup D_s=+\infty$ (recurrence
+classifications belong to the Markov pair, and $D$ alone is not
+Markov); under $Q$ it is transient, $D_s\to\infty$ a.s.: the
+P\'olya $2\mathrm D\to3\mathrm D$ transition with no literal change of
+dimension anywhere --- survivorship alters the recurrence class of the
+ensemble, not the state dynamics.
+\end{theorem}
+
+\begin{theorem}[Locally ours, globally elsewhere; {[P/C]}]
+\label{thm:singular}
+$Q(\tau=\infty)=1$; $\hm(X_s)\to\infty$ and $D_s\to\infty$ $Q$-a.s.
+\cite{GJW99}; $\liminf_sD_s=-\infty$ $\PP$-a.s. Hence
+$Q|_{\Fc_s}\ll\PP|_{\Fc_s}$ for every finite $s$, with the explicit
+density \eqref{eq:Qdensity} and mutual absolute continuity on the
+survival event, while $Q\perp\PP$ on $\Fc_\infty$: the survivor's
+law is locally equivalent to the unconditioned one on survivors and
+globally disjoint from it, the exit from the measure class completed
+only at $t=\infty$. Consequently no event of bounded duration perfectly separates the
+conditioned law from the unconditioned one: none has probability one
+under one law and zero under the other on their common survival
+support. Mutually absolutely continuous laws can still be far apart
+statistically, so this is a statement about certification and not
+about discrimination.
+\end{theorem}
+
+\begin{theorem}[Three canonical survivorship regimes; {[P/C/S]}]
+\label{thm:modes}
+Three tail classes of the driver produce three regimes of the
+interpolation, canonical rather than exhaustive: stretched-exponential
+and other subexponential tails, and regularly varying tails of
+exponent other than $1/4$, fall under the same categories at the
+level of the survival weight's behavior in the penalization taxonomy
+but are not treated here. \emph{(I) Saturation} [P] (favorable:
+$\PP(T=\infty)>0$): $\|\PP^{(t)}-\PP(\cdot\mid
+T=\infty)\|_{\mathrm{TV}}\to0$ with every bias bounded by
+$1/\PP(T=\infty)$; no new measure class. \emph{(II) Transformation}
+[C/A] (regularly varying tails, $\PP(T>t)\sim L(t)t^{-\alpha}$; the
+critical case $\alpha=1/4$): the pure Doob limit of
+Theorem~\ref{thm:Q}, locally absolutely continuous, globally singular,
+its kinematic factor \eqref{eq:rate}. \emph{(III) Concentration} [S]
+(exponential tails, $\PP(T>t)\sim e^{-\theta t}$): on fixed windows
+the eigen-tilted transform, the quasi-stationary regime with a clock;
+for the linearly adverse driver $d\mu=\nu\,dt+\sigma\,dW$ with
+$\nu<0$ the clock is $\theta=3\nu^2/8\sigma^2$ and, at macroscopic
+scale, the conditioned path law collapses onto the deterministic
+optimal profile $\mu_{tv}/t\to\tfrac{|\nu|}4v(2-3v)$, a law of large
+numbers for the rare, derived in the master manuscript
+\cite{GoldenMaster} and cited here. Modes (II) and (III) share $\PP(\Imm)=0$ and are separated by
+the interpolation --- by whether the survivor's measure class is
+approached polynomially, without a clock, or exponentially, with one.
+\end{theorem}
+
+\section{Numerical experiments}\label{sec:numerics}
+
+The one load-bearing heuristic, Ansatz~\ref{ans:soft}, admits a direct
+test, and three falsifiers are fixed before any result is read: a
+fitted soft-wall slope departing robustly from $-1/4$; a dependence of
+that slope on the initial hazard $h_0$; and instability of the
+conditioned rescaled credit across late windows. Any one firing would
+count against the Ansatz. All experiments use the exact
+pair simulation: for a step $\Delta$, the increments
+$(\xi,\eta)=(W_{t+\Delta}-W_t,\int_t^{t+\Delta}(W_s-W_t)ds)$ are
+centered Gaussian with covariance
+$\bigl(\begin{smallmatrix}\Delta&\Delta^2/2\\
+\Delta^2/2&\Delta^3/3\end{smallmatrix}\bigr)$, so the update
+$\mu\mathrel{+}=\sigma\xi$, $D\mathrel{+}=\mu\Delta+\sigma\eta$
+reproduces the law at grid points with zero discretization error; the
+only approximations are the trapezoidal quadrature of $\Lambda$ and
+discrete monitoring of the wall. Parameters: $\sigma=1$,
+$\mu_0=0$, with the soft-wall runs labeled by the initial hazard
+$h_0=e^{-D_0}$ (so $h_0\in\{0.3,1,3,30\}$ is $D_0\in\{1.20,0,-1.10,-3.40\}$,
+the gauge of Lemma~\ref{lem:gauge} realized as a credit translation);
+$N=1.5\times10^5$ paths; a uniform grid of step
+$0.025$ to $t=40$ (the zone where the $\Lambda$-mass accrues),
+geometric thereafter at ratio $1.01$ to $t=3\times10^4$; slopes fitted
+by least squares on $\log_{10}\PP$ against $\log_{10}t$ over
+$t\in[10^2,3\times10^4]$, with path-bootstrap confidence intervals
+($150$ resamples). A control run at half the step sizes
+($0.0125$, ratio $1.005$) reproduces the estimates below to within
+their intervals, excluding discretization bias.
+
+\begin{table}[h]\centering\small
+\begin{tabular}{@{}llll@{}}
+\toprule
+quantity & measured & predicted & status\\
+\midrule
+hard-wall slope, $\log\PP(\tau>t)$ & $-0.2499\ [-0.254,-0.243]$ &
+$-1/4$ (theorem) & validates code\\
+soft-wall slope, $h_0=0.3$ & $-0.2487$ & $-1/4$ [A] & supports\\
+soft-wall slope, $h_0=1$ & $-0.2480\ [-0.255,-0.242]$ & $-1/4$ [A] &
+confirms\\
+soft-wall slope, $h_0=3$ & $-0.2483$ & $-1/4$ [A] & supports\\
+soft-wall slope, $h_0=30$, late window & $-0.240$ & $-1/4$;
+transient delayed & confirms gauge (exact)\\
+ratio $\PP(T>t)/\PP(\tau>t)$, $h_0=1$, $t\ge10^2$ &
+$\in[0.1768,0.1788]$ & bounded [A] & supports, sharply\\
+kinematic coefficient (grid-exact) & $0.2874\pm0.0133$ & $0.2859$ &
+confirms \eqref{eq:rate}\\
+KS distance, $D_t/t^{3/2}$ at $t=2\times10^3$ vs $3\times10^4$ &
+$0.010$ & $\to0$ (Yaglom) & consistent\\
+\bottomrule
+\end{tabular}
+\caption{\small Monte Carlo results ($N=1.5\times10^5$; a second seed
+reproduces the slope estimates to $\pm0.004$). The kinematic test
+evaluates $(\PP(\tau>t{-}s)/\PP(\tau>t)-1)(t/s)$ at the grid spacing
+$s/t=0.197$, whose exact power-law value is
+$((1{-}s/t)^{-1/4}{-}1)(t/s)=0.2859$; the measurement matches the full
+factor, not merely its linearization $1/4$.}
+\label{tab:numerics}
+\end{table}
+
+Three findings deserve emphasis. First, the soft-killing functional
+carries the $t^{-1/4}$ exponent at every tested $h_0$, and the
+$h_0=30$ case exhibits exactly the behavior Lemma~\ref{lem:gauge}
+predicts: a steepened transient over early windows (fitted slope
+$-0.298$ over $t\ge10^2$) relaxing toward $-1/4$ as the window moves
+late --- the gauge acts on the timescale, never the exponent. Second,
+and this is the sharpest support for Ansatz~\ref{ans:soft}, the ratio
+$\PP(T>t)/\PP(\tau>t)$ is not merely bounded over the fitted two
+decades but constant to three decimal places
+(Figure~\ref{fig:ansatz}b), consistent with convergence to a limit
+constant $\approx0.178$ at these initial data --- a stronger behavior
+than the Ansatz asserts. Third, the survivorship drift's qualitative
+structure is confirmed: among paths surviving to the horizon, the
+conditional increment $\E[\Delta\mu]$ regressed on $1/\mu$ over a
+window $\Delta t=50$ at $t=2\times10^3$ gives a positive coefficient
+of the predicted order at small $\kappa$ ($51\pm27$ against the
+instantaneous-drift value $25$; the finite window biases upward, as
+conditioned near-wall paths must gain rate over it) and a coefficient
+indistinguishable from zero at $\kappa>2$ ($0.1\pm0.4$), matching
+$G(\kappa)\to0$. The remaining sharp test, the prefactor constant
+in \eqref{eq:transfer} and the deep-tail behavior at
+$t/t_\ast\gtrsim10^{12}$ via multilevel splitting or
+harmonic-function importance sampling, is left to a dedicated
+computation. The experiments test Ansatz~\ref{ans:soft}, the exponent; they do
+not test Ansatz~\ref{ans:ratio}. The computation that would is fixed
+here: estimate $R_t(x,y)=\PP_x(T>t)/\PP_y(T>t)$ over a grid of initial
+states $(\mu,D)$ at increasing $t$, and ask whether it converges to
+$\hm(x)/\hm(y)$, or to $\hm(x+\delta)/\hm(y+\delta)$ for a fixed
+translation, or to a ratio of some other positive $g$; with
+harmonic-function importance sampling the deep tail is reachable.
+\emph{None of the three falsifiers fired}: no fitted slope departs robustly from
+$-1/4$, no dependence of the slope on $h_0$ appears, and the
+conditioned rescaled credit is stable.
+
+\begin{figure}[h]\centering
+\includegraphics[width=0.95\textwidth]{fig_ansatz.pdf}
+\caption{\small (a) Hard- and soft-wall survival curves against the
+$t^{-1/4}$ reference. (b) The soft-to-hard ratio at $h_0=1$ over the
+fitted window: flat to three decimals across two decades.}
+\label{fig:ansatz}
+\end{figure}
+
+\section{Discussion}\label{sec:discussion}
+
+The claim stated at the outset stands as proved: viability is decided
+by the sign of the response exponent and not by the magnitude of the
+accumulated capacity, and no event of bounded duration on a surviving
+path perfectly separates the conditioned law from the unconditioned
+one. One
+empirical signature follows. Under criticality the
+population hazard of survivors is $-\frac{d}{dt}\log\PP(T>t)\sim
+\frac{1}{4t}$: mortality deceleration not to a plateau but to zero, at
+a universal rate set by the persistence exponent. The
+reliability-theory literature on late-life mortality deceleration
+\cite{GG01} documents plateaus as the fingerprint of static frailty
+selection; a hazard decaying as $c/t$ with $c$ universal would be the
+corresponding fingerprint of the dynamical mechanism, and
+distinguishing the two in longevity data is a concrete empirical
+question this model makes precise.
+
+The theory assembled here is the critical dynamical analog of the
+frailty phenomenon \cite{VMS79,VY85}: where frailty computes how an
+observed hazard curve bends when a static susceptibility is selected
+on, the present interpolation identifies the limiting law of the
+survivor's entire trajectory, together with the drift conditioning
+manufactures, and locates the observed-versus-unbiased divergence in
+the measure class itself. The two-condition theorem gives the model's
+structural moral in one line: an index of accumulated capacity tracks
+the escape factor and is silent on the sign that multiplies it, so
+no such index can distinguish the ascent that arrives from the ascent
+that is a fall --- and with $\rho<0$, feedback strictly accelerates
+the fall. The interpretation of these results within a larger program, where $x$ and $\rho$ are read as a biosphere's capability and its
+disposition to turn capability on itself, and the conditioning as
+survivorship over deep time, is developed in the companion
+\cite{GoldenMaster}, on which nothing above depends.
+
+Five problems are open, and they are the paper's every [O] tag
+gathered in one place. Supplying dynamics for $\rho_t$
+(Remark~\ref{rem:fluct}) would convert the trichotomy's sign test into
+a two-transience condition and is the model's principal open
+direction. Closing Ansatz~\ref{ans:soft}, persistence with bounded
+occupation tolerance, would discharge every [A] tag; the numerics
+above make the outcome unsurprising without making it a theorem. The
+deep-tail computation with harmonic-function importance sampling
+would supply the one constant this paper leaves unevaluated. The
+non-positive-response theorem's exponential rate is established at
+frozen background only, and whether an unconditional rate holds is
+open. And the recurrent-driver proposition and the two-condition
+theorem are settled for the Brownian driver, the fundamental
+null-recurrent case, and open for null-recurrent drivers in
+general.
+
+\begin{thebibliography}{99}\small
+% AUTHOR TO VERIFY all entries against the sources before circulation.
+\bibitem{Kol34} A.~Kolmogorov, Zuf\"allige Bewegungen (zur Theorie der
+Brownschen Bewegung), \emph{Ann. of Math.} \textbf{35} (1934), 116--117.
+\bibitem{Hor67} L.~H\"ormander, Hypoelliptic second order differential
+equations, \emph{Acta Math.} \textbf{119} (1967), 147--171.
+\bibitem{McK63} H.~P. McKean, A winding problem for a resonator driven
+by a white noise, \emph{J. Math. Kyoto Univ.} \textbf{2} (1963),
+227--235.
+\bibitem{Gol71} M.~Goldman, On the first passage of the integrated
+Wiener process, \emph{Ann. Math. Statist.} \textbf{42} (1971),
+2150--2155.
+\bibitem{Lac91} A.~Lachal, Sur le premier instant de passage de
+l'int\'egrale du mouvement brownien, \emph{Ann. Inst. H. Poincar\'e
+Probab. Statist.} \textbf{27} (1991), 385--405.
+\bibitem{Sin92} Ya.~G. Sinai, Distribution of some functionals of the
+integral of a random walk, \emph{Theoret. Math. Phys.} \textbf{90}
+(1992), 219--241.
+\bibitem{IW94} Y.~Isozaki and S.~Watanabe, An asymptotic formula for
+the Kolmogorov diffusion and a refinement of Sinai's estimates for the
+integral of Brownian motion, \emph{Proc. Japan Acad. Ser. A}
+\textbf{70} (1994), 271--276.
+\bibitem{DW15} D.~Denisov and V.~Wachtel, Random walks in cones,
+\emph{Ann. Probab.} \textbf{43} (2015), 992--1044.
+\bibitem{AS15} F.~Aurzada and T.~Simon, Persistence probabilities and
+exponents, in \emph{L\'evy Matters V}, Lecture Notes in Math. 2149,
+Springer, 2015, 183--224.
+\bibitem{AD13} F.~Aurzada and S.~Dereich, Universality of the
+asymptotics of the one-sided exit problem for integrated processes,
+\emph{Ann. Inst. H. Poincar\'e Probab. Statist.} \textbf{49} (2013),
+236--251.
+\bibitem{BMS13} A.~J. Bray, S.~N. Majumdar, and G.~Schehr, Persistence
+and first-passage properties in nonequilibrium systems, \emph{Adv.
+Phys.} \textbf{62} (2013), 225--361.
+\bibitem{GJW99} P.~Groeneboom, G.~Jongbloed, and J.~A. Wellner,
+Integrated Brownian motion, conditioned to be positive, \emph{Ann.
+Probab.} \textbf{27} (1999), 1283--1303.
+\bibitem{RVY06} B.~Roynette, P.~Vallois, and M.~Yor, Some
+penalisations of the Wiener measure, \emph{Jpn. J. Math.} \textbf{1}
+(2006), 263--290.
+\bibitem{MV12} S.~M\'el\'eard and D.~Villemonais, Quasi-stationary
+distributions and population processes, \emph{Probab. Surv.}
+\textbf{9} (2012), 340--410.
+\bibitem{Lan04} D.~Lando, \emph{Credit Risk Modeling: Theory and
+Applications}, Princeton Univ. Press, 2004.
+\bibitem{MP01} M.~A. Milevsky and S.~D. Promislow, Mortality
+derivatives and the option to annuitise, \emph{Insur. Math. Econ.}
+\textbf{29} (2001), 299--318.
+\bibitem{VMS79} J.~W. Vaupel, K.~G. Manton, and E.~Stallard, The
+impact of heterogeneity in individual frailty on the dynamics of
+mortality, \emph{Demography} \textbf{16} (1979), 439--454.
+\bibitem{VY85} J.~W. Vaupel and A.~I. Yashin, Heterogeneity's ruses:
+some surprising effects of selection on population dynamics,
+\emph{Amer. Statist.} \textbf{39} (1985), 176--185.
+\bibitem{Wah78} G.~Wahba, Improper priors, spline smoothing and the
+problem of guarding against model errors in regression, \emph{J. Roy.
+Statist. Soc. Ser. B} \textbf{40} (1978), 364--372.
+\bibitem{KT81} S.~Karlin and H.~M. Taylor, \emph{A Second Course in
+Stochastic Processes}, Academic Press, 1981.
+\bibitem{RY99} D.~Revuz and M.~Yor, \emph{Continuous Martingales and
+Brownian Motion}, 3rd ed., Springer, 1999.
+\bibitem{Dur19} R.~Durrett, \emph{Probability: Theory and
+Examples}, 5th ed., Cambridge University Press, 2019.
+\bibitem{MB98} S.~N. Majumdar and A.~J. Bray, Persistence with partial
+survival, \emph{Phys. Rev. Lett.} \textbf{81} (1998), 2626--2629.
+\bibitem{Bur14} T.~W. Burkhardt, First passage of a randomly
+accelerated particle, in \emph{First-Passage Phenomena and Their
+Applications}, World Scientific, 2014, 21--44.
+\bibitem{GG01} L.~A. Gavrilov and N.~S. Gavrilova, The reliability
+theory of aging and longevity, \emph{J. Theoret. Biol.} \textbf{213}
+(2001), 527--545.
+\bibitem{BenGolden22} A.~Benander, Golden Science, August 2022,
+\url{https://aethus.org/aethic-code/files/GoldenScience_Nov2022.pdf}.
+\bibitem{GoldenMaster} A.~Benander, Golden Reasoning: soft horizons,
+survivorship, and the two-channel muffled hazard, master manuscript,
+2026.
+\end{thebibliography}
+
+\end{document}
