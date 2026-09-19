@@ -1461,6 +1461,22 @@
 %   requires an explicit law [O]; "stays near zero" -> falls at rate
 %   -D(P||Q); hard/soft API (Q^hard proved, Q^soft conditional on
 %   Ansatz B) stated at the credence proposition.
+% Sep 21 -- FIFTH ROUND (package review, second) flowed through.
+%   Technoanatomy corrections: (C1) the per-gate survival factor is the
+%   LAPLACE TRANSFORM lambda/(lambda+B+Gamma), not exp(-(B+Gamma)/lambda);
+%   fixed point restated, random-rate form u = E[Lambda/(Lambda+h)
+%   (pi + (1-pi)u^r)]; (C2) the completion kernel carries (mu, x, rho)
+%   and V_drv takes mu; (C3) "recurrent anatomy is fatal whatever the
+%   driver" REPLACED by the overlap theorem (Leb{rho<=-a, x>=b} = inf
+%   => Lambda = inf), general fluctuating anatomy [O]; (C4) the MLR
+%   proof's unconditional sign replaced by the monotonicity hypothesis
+%   (x>=0 over the leverage window); (C5) simulation SEs corrected to
+%   the survivor counts (~26 at T=4 -> SE ~0.07), the two experiments
+%   separated, importance-sampling rerun [O].  Route World: "maximal
+%   rate" -> "Q-expected rate".  Half-time scope fixed in the coords
+%   prose.  Package: the half-time theorem exported to Survivorship
+%   (A) so Technoanatomy's citation resolves; GoldenMaster removed as a
+%   load-bearing API from A and C.
 % STILL OPEN after this pass, in priority order: (a) derive the
 % positional weighting from the Copernican draw (closes ra:ans:draw);
 % (b) DONE Aug 21: app:numerics executed -- falsifiers did not fire;
@@ -9805,13 +9821,19 @@ The affordable duration of adverse anatomy therefore decays
 \emph{exponentially in technostrength}.
 \end{proposition}
 
-\begin{corollary}[Recurrent anatomy is fatal; \textbf{[S]}]
+\begin{corollary}[Adverse anatomy overlapping positive strength is
+fatal; \textbf{[P]} given the model]
 \label{gr1:cor:recurrentanatomy}
-If $\rho_t$ is recurrent on $\R$, if anatomy returns to negative
-values infinitely often, then $\Lambda_\infty=\infty$ almost surely,
-\emph{whatever the driver}. Each negative excursion occurring at
-technostrength $x_t$ contributes $e^{|\rho|x_t}$, and along any path on
-which strength accumulates this diverges superexponentially. Viability
+If there exist $a,b>0$ with
+$\Leb\{t:\rho_t\le-a,\ x_t\ge b\}=\infty$ almost surely, then
+$\Lambda_\infty=\infty$ almost surely, since on that set the internal
+term satisfies $\Gamma e^{-\rho_tx_t}\ge\Gamma e^{ab}$. Recurrence of
+$\rho$ alone does not suffice: the internal term explodes only where
+negative anatomy coincides with positive strength, and a negative
+excursion of $\rho$ that systematically coincides with $x_t\le0$ costs
+nothing. What fluctuating anatomy implies in general, when the
+excursions of $\rho$ and of $x$ are not coupled by hypothesis, is open
+\textbf{[O]}. Viability
 therefore requires $\rho_t$ to be eventually positive almost surely,
 transient upward, or absorbed above some $\rho_c>0$, and the
 two-condition theorem becomes a \emph{two-transience} condition:
@@ -10509,25 +10531,31 @@ offset weighting rather than replace it. It does, and the derivation
 also says what the offset is \emph{made of}. By Proposition~\ref{sch:prop:gating} a biosphere pays $B+\Gamma$ while
 incomplete --- the background unshielded, and the internal channel at its
 bare coefficient. Debt is therefore paid in hazard: clearing $Z$ gates at
-rate $\lambda$ costs $D/\lambda$ in exposure, and a branch's survival
-weight is $e^{-(B+\Gamma)\cdot(\text{total gates fired})/\lambda}$.
+rate $\lambda$ costs $D/\lambda$ in expected exposure, and since each
+gate's waiting time is exponential the survival weight it contributes
+is the Laplace transform $\E[e^{-(B+\Gamma)T}]=\lambda/(\lambda+B+\Gamma)$,
+not $e^{-(B+\Gamma)/\lambda}$; the two agree to first order in
+$(B+\Gamma)/\lambda$ and differ beyond it.
 
 \begin{proposition}[Completion weight as a least fixed point;
 \textbf{[P]}]\label{sch:prop:fixedpoint}
-Let $s:=e^{-(B+\Gamma)/\lambda}$ be the survival factor per gate-time.
-Where $\lambda$ is itself drawn per gate, the correct single-$\lambda$
-surrogate for the mean log-weight is the \emph{harmonic} mean
-$\bigl(\E[\lambda^{-1}]\bigr)^{-1}$, since $-\log u$ is to first order
-linear in $1/\lambda$ --- which for a lognormal law is
-$\lambda_{\mathrm{geo}}e^{-s_\lambda^{2}/2}$, smaller than the geometric
-mean, so passage costs and contrasts both exceed what
-geometric-mean substitution would give. The
-expected completion weight from a single owed gate is the least root
-$u\in[0,1]$ of
+Let $s:=\lambda/(\lambda+B+\Gamma)$ be the survival factor per gate, the
+Laplace transform of the gate's exponential waiting time at the
+incomplete state's hazard. The expected completion weight from a single
+owed gate is the least root $u\in[0,1]$ of
 \begin{equation}\label{sch:eq:fixedpoint}
-u\;=\;s\,f(u)\;=\;s\bigl(\pi+(1-\pi)u^{\,r}\bigr),
+u\;=\;s\,f(u)\;=\;\frac{\lambda}{\lambda+B+\Gamma}\bigl(\pi+(1-\pi)u^{\,r}\bigr),
 \end{equation}
-and from $n$ initial gates it is $u^{\,n}$. For small $B/\lambda$,
+and from $n$ initial gates it is $u^{\,n}$. Where the rates are drawn
+per gate the fixed point is taken in expectation over the draw,
+\begin{equation}\label{sch:eq:fixedpointrandom}
+u\;=\;\E\!\left[\frac{\Lambda}{\Lambda+B+\Gamma}\bigl(\pi+(1-\pi)u^{\,r}\bigr)\right],
+\qquad\Lambda=\sum_j\lambda_j,\quad\pi=\frac{\lambda_1}{\Lambda},
+\end{equation}
+so that no single-rate surrogate is needed; to first order in
+$(B+\Gamma)/\lambda$ the harmonic mean $(\E[\lambda^{-1}])^{-1}$ is the
+surrogate that reproduces the mean log-weight, smaller than the
+geometric mean for a lognormal law by the factor $e^{-s_\lambda^2/2}$. For small $B/\lambda$,
 \begin{equation}\label{sch:eq:expansion}
 -\log u\;=\;\frac{B+\Gamma}{\lambda}\cdot\frac{1}{1-\varkappa}
 +O\!\left(\left(\tfrac{B}{\lambda}\right)^{2}\right),
@@ -10750,15 +10778,19 @@ with $\tau$ the completion time and $X_\tau=(\mu_\tau,D_\tau)$ the
 Definition~\ref{tc:def:model}, and not the schedule's debt $Z$, which is
 zero at $\tau$ by construction. The second stage is Theorem~\ref{gr1:thm:twocond} evaluated at the
 completion state, and the composite is written as a kernel rather than
-a product. Let $K_{\mathrm{sch}}(dx,d\rho)$ be the \emph{surviving-completion
-subprobability kernel}, the law of the state the schedule leaves at
-$\tau$ weighted by survival to $\tau$,
-$K_{\mathrm{sch}}(A)=\E[e^{-\Lambda_\tau}\one\{\tau<\infty,\,(x_\tau,\rho_\tau)\in A\}]$.
+a product. Let $K_{\mathrm{sch}}(d\mu,dx,d\rho)$ be the \emph{surviving-completion
+subprobability kernel}, the law of the full state the schedule leaves
+at $\tau$, driver, strength, and anatomy, weighted by survival to
+$\tau$,
+$K_{\mathrm{sch}}(A)=\E[e^{-\Lambda_\tau}\one\{\tau<\infty,\,(\mu_\tau,x_\tau,\rho_\tau)\in A\}]$.
 Then
 \begin{equation}\label{sch:eq:threecond}
 \PP\bigl(\text{advance}\bigr)
-=\int\one\{\rho>0\}\,V_{\mathrm{drv}}(x)\,K_{\mathrm{sch}}(dx,d\rho),
+=\int\one\{\rho>0\}\,V_{\mathrm{drv}}(\mu)\,K_{\mathrm{sch}}(d\mu,dx,d\rho),
 \end{equation}
+the driver-viability functional taking the driver coordinate $\mu$ as
+its argument, the strength coordinate entering through the survival
+weight and the prefactors and not through the event-level factor,
 with $V_{\mathrm{drv}}$ the driver-viability functional of
 \eqref{gr1:eq:vdrv}. The three ingredients are then visible without
 being multiplied: schedule failure is mass $K_{\mathrm{sch}}$ fails to
@@ -11199,10 +11231,16 @@ below still holds, but its iteration over gates is not a theorem.
 
 \begin{proof}[Sketch]
 Two paths identical except at one anatomy-directed gate differ in
-accumulated hazard by the integral of $\Gamma(e^{-\rho^{\mathrm{adv}}x_t}-e^{-\rho^{\mathrm{fav}}x_t})>0$
-over the time the two anatomies differ, so the favorable path's
-survival weight exceeds the adverse path's by the exponential of that
-integral; conditioning on survival therefore reweights each gate's
+accumulated hazard by the integral of
+$\Gamma(e^{-\rho^{\mathrm{adv}}x_t}-e^{-\rho^{\mathrm{fav}}x_t})$ over the
+time the two anatomies differ, which is positive where $x_t>0$ and
+negative where $x_t<0$; the proposition's hypothesis that the
+cumulative hazard is monotone decreasing in every favorable increment
+is exactly the requirement that the integral be positive, which holds
+when $x_t\ge0$ over the leverage window, the regime the live-term
+hypothesis places the modern era in, and is what the proof relies on
+rather than the pointwise sign. Under it the favorable path's survival
+weight exceeds the adverse path's by the exponential of that integral; conditioning on survival therefore reweights each gate's
 resolution by a factor increasing in the favorability of its
 increment, and each resolution time by a factor decreasing in the
 time, which is the likelihood-ratio tilt stated. Under the stated conditions the survival weight is totally positive of
@@ -12448,19 +12486,29 @@ Gaussian update of Lemma~\ref{sh:lem:exact} for the driver-credit pair
 and forward Euler for the background exponentials, at step
 $\Delta=10^{-3}$. Conditioning on $\{T>t\}$ was performed by rejection, particles were killed by the Cox rule and the survivors reweighted
 uniformly, so the conditioned estimates are $\PP^{(T)}$ estimates and
-not $Q$ estimates, exactly as the column headings below say. Standard
-errors on the tabled probabilities are binomial and never exceed
-$0.004$; the median-$x$ and quantile-$\rho$ entries carry bootstrap
-errors of comparable size. \emph{Every $\PP(\rho>0\mid\text{survived})$
+not $Q$ estimates, exactly as the column headings below say. Standard errors are binomial and are governed by the number of
+\emph{survivors}, not of particles: at $T=4$ the survival probability
+$2.2\times10^{-4}$ leaves about $26$ survivors of $1.2\times10^{5}$, so
+the conditional probability $0.839$ carries a standard error near
+$0.07$, and at $T=6$ about $23$ survivors give a comparable error; the
+unconditioned entries, with $10^5$ effective samples, carry errors
+below $0.004$. The conditional-anatomy figures are therefore read for
+direction only, and a rerun by importance sampling, sequential Monte
+Carlo, or splitting, with thousands of effective survivors, is owed
+before any calibration is claimed \textbf{[O]}. \emph{Every $\PP(\rho>0\mid\text{survived})$
 figure is prior-dependent}: $\rho\sim\mathrm{Unif}(-1,3)$ was chosen to
 place a quarter of the mass on adverse anatomy and has no other
 justification, and the $0.75\to0.84$ movement should be read as the
 direction and rough magnitude of selection under that prior rather than
 as a calibrated number. Code and seeds are available on request.
 
-The following are simulation results for the two-channel model of
-\S\ref{gr1:sec} at $\sigma=1$, $\epsilon=0.05$, $n=3$, $b=3$, $\rho=2.5$,
-$k=6$, conditioning horizon $T=4$, $N=1.2\times10^{5}$ particles.
+Two experiments are reported, and they are distinct. The strength rows
+below are from the two-channel model of \S\ref{gr1:sec} at fixed
+anatomy, $\sigma=1$, $\epsilon=0.05$, $n=3$, $b=3$, $\rho=2.5$, $k=6$,
+conditioning horizon $T=4$, $N=1.2\times10^{5}$ particles. The anatomy
+rows are from a separate run in which $\rho$ is drawn from the prior
+$\mathrm{Unif}(-1,3)$ per particle and everything else is as above; its
+survivor counts are the small ones just stated.
 
 \begin{center}\small
 \begin{tabular}{@{}lrr@{}}
@@ -12495,8 +12543,8 @@ fast, and reversibly. Anatomy is a fixed structural parameter, so it can
 be selected only through the accumulated hazard cost of never changing
 --- slow, and irreversibly. Anatomy is the slower and the more decisive:
 by Theorem~\ref{gr1:thm:trapped}, adverse anatomy is eventually fatal
-with certainty, while adverse strength is a condition every biosphere
-occupies half of logarithmic time and survives.
+with certainty, while adverse strength is a condition a biosphere in the critical
+recurrent regime occupies half of logarithmic time and survives.
 
 \end{remark}
 
@@ -15263,7 +15311,7 @@ ordering $\gamma(0)<\gamma(\theta)<\gamma(1)$ proved, which is open
 \emph{Strong.} The conditioning is resolved throughout the cone, so
 required improbabilities arrive at the full conditioned rate, and by
 Proposition~\ref{gc:prop:credence} the realized log-likelihood favors
-$Q$ in expectation at the maximal rate, $\gamma_Q=\lim I_t/t>0$, while
+$Q$ in expectation at the $Q$-expected rate, $\gamma_Q=\lim I_t/t>0$, while
 $\ell_t$ fluctuates about its mean. The discriminating quantity is therefore the sign of the expected
 log-likelihood growth under the actual law: Void and Strong predict
 opposite signs for the $Q{:}\PP$ log-evidence under their own
