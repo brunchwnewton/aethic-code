@@ -1,0 +1,545 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1.1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs,enumitem,url,xcolor}
+\usepackage[colorlinks=true,linkcolor=blue!50!black,citecolor=blue!50!black,urlcolor=blue!50!black]{hyperref}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\PP}{\mathbb{P}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\one}{\mathbf{1}}
+\newcommand{\Fc}{\mathcal{F}}
+\newcommand{\hm}{\mathfrak{h}}
+\DeclareMathOperator{\KL}{D_{\mathrm{KL}}}
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{hypothesis}[theorem]{Hypothesis}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\title{Conditioning a Record on Its Own Future:\\ \large Targeted Accordance and Survivorship-Conditioned Path Measures}
+\author{Ajax Benander\thanks{Email:
+\href{mailto:akb9408@rit.edu}{akb9408@rit.edu}. The survivorship model and
+its $Q$-process limit are proved in a companion in applied probability
+\cite{SurvA} and imported here; the attribute-level apparatus descends from
+the Nexic companion \cite{Nexus}. The empirical hypothesis that the record of
+natural history is drawn under the survivorship-conditioned law, and its
+consequences, are developed in a separate companion \cite{RouteWorld}, so
+that the theorems here and the hypothesis there carry their different
+grades separately. Drafting collaboration: Anthropic Claude (Opus~4.x,
+Fable~5), under the author's direction.}}
+\date{September 2026 --- Working Draft, rev.~2}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+A future condition can reshape the statistical profile of earlier events
+without anything in the future acting on the past: conditioning a law over
+histories on a future event reweights the entire path, and the Doob
+transform is the standard form of that reweighting. This paper states the
+attribute-level consequence and keeps it separate from the inference the
+consequence does not license. The claim in one sentence: if the realized
+member of a binary partition of the past is drawn under a law conditioned
+on a future target, then for every $\kappa>1$ the realized member is, with
+probability at least $1-1/(1+\kappa)$, within a $\kappa$-fold exceedance
+of being the more target-productive member, a statement indifferent to the
+target's tense; and whether a given record is drawn under such a law is a
+separate hypothesis, tested by comparing measures. Four things follow at
+their stated grades. The theorem, with its one-line proof. Its
+specialization to survival targets, where the critical regime forbids
+conditioning on a null event and the right object is the horizon family
+$\{T>t\}$ with the $Q$-process as its limit. The between-model layer: the
+Bayes factor between a survivorship-conditioned and an unconditioned law,
+which at finite information is the Doob density itself, so that a
+historical model comparison and a stochastic $h$-transform are one object;
+the realized log-evidence fluctuates and the monotone quantity is the
+relative entropy, whose rate is the information flux. And the limit on
+certification: the two laws are mutually absolutely continuous on every
+finite horizon and singular only at infinity, so no event of bounded
+duration separates them with probability one, while statistical
+discrimination remains available and is what the Bayes factor measures.
+A conjunction of predeclared attributes sharpens the theorem
+multiplicatively under submultiplicativity, and the multiplicity guard
+that any retrospective scan owes is stated as part of the result.
+\end{abstract}
+
+\section{Introduction}\label{sec:intro}
+
+Conditioning a stochastic process on a future event is standard. The
+process conditioned to avoid absorption indefinitely, the $Q$-process, is
+constructed as a limit of finite-horizon conditionings and realized as a
+Doob $h$-transform by the persistence-harmonic function; the penalization
+literature treats a broad class of such conditionings uniformly
+\cite{RVY06,MV12,CV16}. What is standard in probability has a
+consequence in the interpretation of records that is not usually drawn,
+and this paper draws it at the level of attributes. If a history is
+sampled under a law conditioned on a future target, then each realized
+attribute of that history, read against its complement, is constrained by
+the target in a way the unconditioned law does not impose: the realized
+member is typically the more target-productive of its pair, and a
+quantitative bound says how typically. Nothing in the bound requires the
+future to act on the past. The conditioning is a statement about which
+histories are in the support and with what weight, and the past of a
+weighted history carries the weight's fingerprints.
+
+The paper's discipline is to keep two statements apart that are easy to
+run together. The first is a theorem: \emph{under} a target-conditioned
+draw, realized attributes accord with the target. The second is an
+inference: \emph{because} a realized attribute accords with a target, the
+record was drawn under conditioning on it. The second does not follow
+from the first. It is a comparison between rival laws for the record, and
+it is answered by a Bayes factor, not by the theorem. Both are stated
+here, in that order, and the theorem's proof is placed beside the
+disclaimer of the inference so that the two cannot be confused.
+
+\emph{The claim, in one sentence.} If the realized member of a binary
+partition of the past is drawn under a law conditioned on a future
+target, then for every $\kappa>1$ it is, with probability at least
+$1-1/(1+\kappa)$, within a $\kappa$-fold exceedance of being the more
+target-productive member, a statement indifferent to the target's tense;
+whether a given record is drawn under such a law is a separate hypothesis,
+tested by comparing measures.
+
+\emph{What is imported.} The survivorship companion \cite{SurvA} proves
+the model in which survival targets are specialized here, the
+finite-horizon conditioned laws and their $Q$-process limit in the
+critical regime, and the theorem that the limit is locally absolutely
+continuous with respect to the unconditioned law on survivors and
+globally singular. The Nexic companion \cite{Nexus} supplies the
+attribute-level setting: an information state as a set of stated
+attributes with the unstated blank, the postulate that a realized
+attribute is drawn by its parent-conditional weights, and the exceedance
+modality. Each is restated in Section~\ref{sec:setting} at its grade.
+
+\emph{What is new.} The theorem in its general form
+(Section~\ref{sec:theorem}), stated for an arbitrary target and proved
+in one line, with its prior-bound corollary in joint-event form and its
+conjunction form under the correct dependence assumption. The
+specialization to survival targets through the horizon family
+(Section~\ref{sec:survival}), which removes the zero-probability
+conditioning that a naive statement of the survival target commits. The
+between-model layer (Section~\ref{sec:models}): the Bayes factor between
+conditioned and unconditioned laws identified with the Doob density at
+finite information, and the information flux as the monotone statistic
+the realized evidence lacks. The limit on certification
+(Section~\ref{sec:ceiling}) stated at its exact strength. And the
+protocol under which the theorem's application to a real record is a
+prospective test rather than a retrospective fit
+(Section~\ref{sec:protocol}).
+
+\emph{What is refused.} No claim that any actual record is drawn under a
+future-conditioned law is made here; that is the companion's hypothesis
+\cite{RouteWorld}, and it is carried there at a hypothesis's grade. No
+retrocausal mechanism is invoked anywhere. And no result below certifies
+anything about a record from finite data, which Section~\ref{sec:ceiling}
+proves impossible.
+
+\section{Setting}\label{sec:setting}
+
+\begin{definition}[Laws over histories, and partitions of the past]
+\label{def:setting}
+Let $(\Omega,\Fc,\PP)$ carry a law over histories, with a filtration
+$(\Fc_t)$ recording the history to time $t$. An \emph{attribute} is an
+$\Fc_\infty$-measurable event; a \emph{binary partition} of the past by
+an attribute is a pair $\{A,A'\}$ with $A'=\Omega\setminus A$ and
+$0<\PP(A)<1$. The \emph{realized member} $A^\ast$ is the member of the
+pair that obtains, and $A^{\ast\prime}$ its complement. A \emph{target} is
+an attribute $B$ with $\PP(B)>0$, and the \emph{$B$-conditioned law} is
+$\PP_B:=\PP(\,\cdot\mid B)$. Nothing in the definition orders $A$ and $B$
+in time: an attribute of the history's future is an attribute.
+\end{definition}
+
+\begin{definition}[Information states and the draw; from \cite{Nexus}]
+\label{def:draw}
+An information state fixes a set of stated attributes and treats the
+unstated as blank rather than as unspecified. The \emph{draw} is the
+postulate that at each open attribute the realized member is distributed
+by the parent-conditional weights of the law in force; under $\PP$ the
+weights are $\PP(A),\PP(A')$, and under $\PP_B$ they are
+$\PP(A\mid B),\PP(A'\mid B)$. The modality $\lesssim$ used below is the
+\emph{exceedance form}: $X\lesssim Y$ abbreviates the family of statements
+that $X\ge\kappa Y$ has probability at most $1/(1+\kappa)$ for every
+$\kappa>1$, the probability taken over the draw.
+\end{definition}
+
+\begin{definition}[The survivorship model; from \cite{SurvA}]
+\label{def:model}
+A history carries a hazard process $h_t>0$ and a killing time $T$ with
+$\PP(T>t\mid\Fc^{h}_\infty)=e^{-\Lambda_t}$, $\Lambda_t=\int_0^th$. The
+finite-horizon conditioned laws are $Q_t:=\PP(\,\cdot\mid T>t)$. In the
+\emph{critical regime}, $\PP(T=\infty)=0$ while $\E[T]=\infty$, and the
+$Q$-process is the limit $Q:=\lim_{t\to\infty}Q_t$ on each $\Fc_s$, which
+exists and is the Doob transform by the persistence-harmonic function
+$\hm$: $dQ/d\PP|_{\Fc_s}=\one_{\{T>s\}}\hm(X_s)/\hm(X_0)$ in the hard-wall
+model, with the soft-wall version conditional on the ratio hypothesis the
+companion states.
+\end{definition}
+
+\begin{theorem}[Locally ours, globally elsewhere; \textbf{[P]} in \cite{SurvA}]
+\label{thm:singular}
+In the critical regime $Q|_{\Fc_s}\ll\PP|_{\Fc_s}$ for every finite $s$,
+with mutual absolute continuity on the survival event, while $Q\perp\PP$
+on $\Fc_\infty$.
+\end{theorem}
+
+\section{Future-targeted accordance}\label{sec:theorem}
+
+\begin{theorem}[Future-targeted accordance]\label{thm:accordance}
+Let $\{A,A'\}$ be a binary partition of the past and $B$ a target, and
+suppose the realized member $A^\ast$ is drawn under $\PP_B$. Then for every
+$\kappa>1$,
+\begin{equation}\label{eq:accordance}
+\PP_B\!\left[\frac{\PP(B\mid A^{\ast\prime})}{\PP(B\mid A^\ast)}
+\;\ge\;\kappa\,\frac{\PP(A^\ast)}{\PP(A^{\ast\prime})}\right]
+\;\le\;\frac{1}{1+\kappa}.
+\end{equation}
+Equivalently, under the $B$-conditioned draw,
+$\PP(B\mid A^{\ast\prime})/\PP(B\mid A^\ast)\lesssim\PP(A^\ast)/\PP(A^{\ast\prime})$.
+\end{theorem}
+
+\begin{proof}
+By Bayes, for either member $C$ of the pair,
+$\PP(B\mid C')/\PP(B\mid C)=\bigl(\PP(C'\mid B)/\PP(C\mid B)\bigr)\cdot
+\bigl(\PP(C)/\PP(C')\bigr)$, so the event in \eqref{eq:accordance} is
+$\{\PP(A^{\ast\prime}\mid B)/\PP(A^\ast\mid B)\ge\kappa\}$, that the
+realized member carries $B$-conditioned weight $w:=\PP(A^\ast\mid B)\le
+1/(1+\kappa)$. For $\kappa>1$ the threshold is below one half, so at most
+one member of the pair has conditioned weight below it. Under $\PP_B$ that
+member, if it exists, is realized with probability equal to its
+conditioned weight, which is at most $1/(1+\kappa)$; if it does not exist
+the event is empty.
+\end{proof}
+
+\begin{remark}[What the theorem says, and what it does not]
+\label{rem:scope}
+The outer probability in \eqref{eq:accordance} is $\PP_B$. The theorem
+says that a record drawn under conditioning on $B$ has realized
+attributes that typically accord with $B$: the more $B$-productive member
+of each pair is typically the one realized, to within an exceedance the
+draw prices. It does not say that a record whose realized attributes
+accord with $B$ was drawn under $\PP_B$. That is a comparison between
+$\PP_B$ and rival laws for the record, and it is Section~\ref{sec:models}.
+The theorem is a within-model statement; the inference is between-model;
+and the whole discipline of applying this result to an actual record is
+to keep them apart. Nothing in the statement or the proof distinguishes a
+target in the past from one in the future: $B$ is an attribute, and the
+draw is the same draw.
+\end{remark}
+
+\begin{corollary}[The prior bound, in joint-event form]\label{cor:prior}
+Fix a member $A$ of the pair with $\PP(A)=p<\tfrac12$. Under the
+$B$-conditioned draw, the joint event that $A$ is realized and is the
+less $B$-productive member has probability at most $p$:
+\begin{equation}\label{eq:prior}
+\PP_B\bigl[\,A^\ast=A\ \text{and}\ \PP(B\mid A')\ge\PP(B\mid A)\,\bigr]\;\le\;p.
+\end{equation}
+\end{corollary}
+
+\begin{proof}
+$\PP(B\mid A')\ge\PP(B\mid A)$ holds exactly when $w:=\PP(A\mid B)\le p$,
+by the Bayes identity in the proof above with $\kappa=(1-p)/p$. Under
+$\PP_B$ the member $A$ is realized with probability $w$, so the joint
+event has probability $w\,\one\{w\le p\}\le p$.
+\end{proof}
+
+\noindent The corollary is the precise form of the slogan that a rare
+realized attribute establishes its own significance: given the
+$B$-conditioned draw, a rare member is realized-and-unproductive with
+probability at most its own prior. The slogan is a within-model
+diagnostic, and it is not evidence for the draw.
+
+\begin{proposition}[Conjunction: the stockpile]\label{prop:stockpile}
+Let $F_1,\dots,F_n$ be a predeclared family of attributes with priors
+$p_i=\PP(F_i)$, let $F=\bigcap_iF_i$, and suppose the family is
+\emph{submultiplicative}, $\PP(F)\le\prod_ip_i$, which holds with
+equality under independence and holds under negative association. Then,
+under the $B$-conditioned draw of the partition $\{F,F'\}$,
+\begin{equation}\label{eq:stockpile}
+\PP_B\bigl[\,A^\ast=F\ \text{and}\ \PP(B\mid F')\ge\PP(B\mid F)\,\bigr]
+\;\le\;\PP(F)\;\le\;\prod_ip_i:
+\end{equation}
+the joint event that the conjunction is realized and is the less
+$B$-productive member of its pair has probability at most the product
+of the priors, which tightens multiplicatively in $n$ while the
+complement, the union of the $F_i'$, accumulates weight $1-\prod_ip_i$.
+Positive association gives $\PP(F)\ge\prod_ip_i$ and defeats the bound;
+it is not a sufficient condition.
+\end{proposition}
+
+\begin{proof}
+Corollary~\ref{cor:prior} applied to the fixed member $F$ of the
+partition $\{F,F'\}$ gives the first inequality when $\PP(F)<\tfrac12$;
+the second is submultiplicativity.
+\end{proof}
+
+\begin{proposition}[The multiplicity guard: expectation and tail]
+\label{prop:guard}
+If $n$ partitions are interrogated under the $B$-conditioned draw and
+$N$ counts those whose realized member exhibits a $\kappa$-fold
+exceedance of \eqref{eq:accordance}, then $\E[N]\le n/(1+\kappa)$; and,
+with no assumption on the dependence among the partitions,
+\begin{equation}\label{eq:tail}
+\Pr[N\ge m]\;\le\;\frac{n}{m(1+\kappa)},\qquad
+\Pr[N\ge1]\;\le\;\frac{n}{1+\kappa},
+\end{equation}
+by Markov's inequality and the union bound respectively. Under
+independence or a stated dependence structure the tail sharpens.
+Exceeding the expectation is not significance: a declared family is
+scored against the tail \eqref{eq:tail}, and a family whose size $n$ is
+not declared cannot be scored at all.
+\end{proposition}
+
+\begin{proof}
+Linearity of expectation over the $n$ indicators, each of probability
+at most $1/(1+\kappa)$ by Theorem~\ref{thm:accordance}; Markov on $N$;
+and the union bound on the $n$ events.
+\end{proof}
+
+\section{Survival targets and the horizon family}\label{sec:survival}
+
+The target of most interest is indefinite survival, and in the critical
+regime it cannot be conditioned on directly: $\{T=\infty\}$ is null, and
+$\PP(\,\cdot\mid T=\infty)$ is undefined. The right objects are the
+horizon events.
+
+\begin{theorem}[Horizon-indexed accordance]\label{thm:horizon}
+Let $B_t=\{T>t\}$ and $Q_t=\PP(\,\cdot\mid B_t)$. For every finite $t$ and
+every binary partition $\{A,A'\}$ of $\Fc_s$, $s<t$, if the realized member
+is drawn under $Q_t$ then \eqref{eq:accordance} holds with $B=B_t$ and
+$\PP_B=Q_t$. In the critical regime, as $t\to\infty$ the conditioned law
+$Q_t$ converges to the $Q$-process on $\Fc_s$, and for each cell
+\begin{equation}\label{eq:cellconv}
+\frac{\PP(T>t\mid A)}{\PP(T>t)}\;\longrightarrow\;\frac{Q(A)}{\PP(A)}
+\;=\;\E_\PP[Z_s\mid A],
+\end{equation}
+so that
+\begin{equation}\label{eq:ratioconv}
+\frac{\PP(T>t\mid A')}{\PP(T>t\mid A)}\;\longrightarrow\;
+\frac{Q(A')/\PP(A')}{Q(A)/\PP(A)}.
+\end{equation}
+\end{theorem}
+
+\begin{proof}
+The first statement is Theorem~\ref{thm:accordance} with the target
+$B_t$. For \eqref{eq:cellconv},
+$\PP(T>t\mid A)/\PP(T>t)=\E_\PP[\one_A\,\PP(T>t\mid\Fc_s)/\PP(T>t)]/\PP(A)$,
+and by Definition~\ref{def:model} $\PP(T>t\mid\Fc_s)/\PP(T>t)\to Z_s$
+in $L^1(\PP)$ on the survival event, giving $\E_\PP[Z_s\one_A]/\PP(A)
+=Q(A)/\PP(A)$; \eqref{eq:ratioconv} is the quotient of two instances.
+\end{proof}
+
+\begin{remark}[The ideal limit is a limit]\label{rem:limit}
+Every statement about ``conditioning on indefinite survival'' in this
+paper and its companions is to be read through Theorem~\ref{thm:horizon}:
+a statement at finite horizon, and then a limit. The $Q$-process is not a
+conditional probability on a null event, and expressions of the form
+$\PP(G\mid A)$ with $G$ the event of indefinite survival are shorthand for
+$\lim_t\PP(B_t\mid A)$ where that limit exists. In the survivorship model
+the persistence-harmonic function $\hm$ is what the limit produces, and
+the attribute-level ratios are ratios of its averages.
+\end{remark}
+
+\section{Rival laws for a record: the between-model layer}
+\label{sec:models}
+
+\begin{definition}[Hypotheses about the outer measure]\label{def:hyps}
+For a record with law $\PP$ and a target family $B_t$, let $H_\PP$ be the
+hypothesis that the record's realized attributes are drawn under $\PP$
+(no conditioning), and $H_Q$ the hypothesis that they are drawn under
+$Q$ (the survivorship-conditioned law, through its horizon family). Other
+targets, an observer-existence condition among them, define other
+hypotheses in the same way.
+\end{definition}
+
+\begin{proposition}[The Bayes factor is the Doob density]\label{prop:bf}
+For a predeclared record statistic $E\in\Fc_s$, the Bayes factor between
+the conditioned and unconditioned laws is
+\begin{equation}\label{eq:bf}
+\mathrm{BF}_{Q:\PP}(E)=\frac{Q(E)}{\PP(E)},
+\end{equation}
+and on the full information $\Fc_s$ it is the likelihood ratio
+$Z_s:=dQ|_{\Fc_s}/d\PP|_{\Fc_s}$, which in the survivorship model is the
+Doob density $\one_{\{T>s\}}\hm(X_s)/\hm(X_0)$. If $E$ is required by the
+target, $Q(E)\approx1$, and rare under $\PP$, $\PP(E)=q$, then
+$\mathrm{BF}_{Q:\PP}(E)\approx1/q$.
+\end{proposition}
+
+\begin{proof}
+\eqref{eq:bf} is the definition of the Bayes factor for a simple event;
+on $\Fc_s$ the factor is the Radon--Nikodym density by definition, and the
+density's form is Definition~\ref{def:model}.
+\end{proof}
+
+\begin{remark}[The null for a surviving observer is the survivor law,
+not raw $\PP$]\label{rem:survnull}
+Under raw $\PP$ there is positive mass on $\{T\le s\}$, where
+$Z_s=0$ and $\log Z_s=-\infty$. That is correct as mathematics and
+wrong as a null for an observer whose record already exists at $s$:
+current survival is evidence both hypotheses share, and a comparison
+that leaves it in credits the conditioned law for the trivial fact that
+the observation was made. The null for the observed surviving cohort is
+$\PP^{\mathrm{surv}}_s:=\PP(\,\cdot\mid T>s)$, against which the
+likelihood ratio on $\Fc_s$ is
+\begin{equation}\label{eq:survlr}
+\frac{dQ}{d\PP^{\mathrm{surv}}_s}\Big|_{\Fc_s}=\PP(T>s)\,\frac{\hm(X_s)}{\hm(X_0)},
+\end{equation}
+finite on the whole cohort. More generally every rival law in a
+comparison is conditioned on the common baseline $C$ the record fixes,
+observers existing now and survival to the observation time, and the
+Bayes factor is $\PP(E\mid C,H_1)/\PP(E\mid C,H_2)$, so that no part of
+it is earned by evidence both rivals already had to explain.
+\end{remark}
+
+\begin{remark}[Why this and not the theorem carries the inference]
+\label{rem:whybf}
+A low-probability realization under $H_\PP$ is not a contradiction of
+$H_\PP$; it is evidence against it, and \eqref{eq:bf} says how much. The
+attribute-level accordance of Theorem~\ref{thm:accordance} tells one what
+to expect of a record if $H_Q$ holds; the Bayes factor tells one whether
+$H_Q$ holds better than a rival. A record can accord with $Q$ at every
+interrogated attribute and still be better explained by a rival law that
+also predicts those attributes, which is why the comparison must name its
+rival and predeclare its statistic. The same object, the Doob density,
+serves both layers: within the model it is the weight by which the
+conditioning tilts each path, and between models it is the evidence the
+tilted path carries.
+\end{remark}
+
+\begin{definition}[Realized evidence, information, and flux]\label{def:info}
+Let $Z_t=dQ|_{\Fc_t}/d\PP|_{\Fc_t}$ and $\ell_t=\log Z_t$, the realized
+log-evidence. Since $Z$ is a $\PP$-martingale, $\ell_t$ is not monotone
+along a path: new observations can favor $Q$, then $\PP$. The monotone
+quantity is the \emph{information}
+\begin{equation}\label{eq:info}
+I_t:=\E_Q[\ell_t]=\KL\bigl(Q|_{\Fc_t}\,\big\|\,\PP|_{\Fc_t}\bigr),
+\end{equation}
+nondecreasing in $t$ as the filtration grows, with
+$\E_\PP[\ell_t]=-\KL(\PP|_{\Fc_t}\|Q|_{\Fc_t})\le0$. Where differentiable,
+$\mathcal J_t:=dI_t/dt$ is the \emph{information flux}.
+\end{definition}
+
+\begin{proposition}[Discriminating rival laws by the law of the evidence]
+\label{prop:discriminate}
+Under $H_Q$ the realized log-evidence has mean $I_t\ge0$ and, in the
+critical regime of the survivorship model, $I_t\to\infty$; under $H_\PP$
+it has mean $-\KL(\PP_t\|Q_t)\le0$. The two hypotheses are therefore
+discriminated by the distribution of $\ell_t$, of which the flux is the
+summary, and not by any monotone accumulation along a single path, which
+does not exist.
+\end{proposition}
+
+\begin{proof}
+The means are \eqref{eq:info} and its $\PP$-counterpart; divergence under
+$H_Q$ in the critical regime follows from Theorem~\ref{thm:singular},
+since mutual singularity on $\Fc_\infty$ forces the relative entropy to
+diverge.
+\end{proof}
+
+\section{The limit on certification}\label{sec:ceiling}
+
+\begin{theorem}[No bounded observation certifies the law]\label{thm:ceiling}
+In the critical regime, for every finite $s$, no event in $\Fc_s$ has
+probability one under $Q$ and probability zero under $\PP$ on the
+survival event, nor conversely. Consequently no observation of bounded
+duration certifies whether a surviving record is drawn under $Q$ or under
+$\PP$; certification is available only on $\Fc_\infty$, where the laws are
+singular.
+\end{theorem}
+
+\begin{proof}
+Mutual absolute continuity on the survival event at every finite $s$ is
+Theorem~\ref{thm:singular}; an event of probability one under one law and
+zero under the other would violate it.
+\end{proof}
+
+\begin{remark}[Certification against discrimination]\label{rem:certify}
+The theorem forbids perfect separation and nothing more. Mutually
+absolutely continuous laws can be statistically far apart, and
+Proposition~\ref{prop:bf} is exactly the measure of how far: a Bayes
+factor of $10^{8}$ on a finite window is discrimination of a high order,
+and it is not certification, because the same window has positive
+probability under both laws. The theorem is turned on this paper's own
+subject matter deliberately: whatever a record's attributes say in favor
+of $H_Q$, they say it at a Bayes factor and never at probability one.
+\end{remark}
+
+\section{A protocol for applying the theorem to a record}
+\label{sec:protocol}
+
+The theorem applies to any record with a law and a target. Its
+application to an actual record faces the retrospective-target objection
+in its full force: any realized history, read backward, contains rare
+attributes that are prerequisites of whatever it happens to contain, so a
+set of attributes selected after the fact and found to accord with a
+target chosen after the fact establishes nothing. Two of the objection's
+three freedoms are closed by the theorem's form: the target is fixed
+before the record is read, and the alternative to each attribute is its
+complement, not an analyst's choice of class. The third freedom, which
+attributes to interrogate, is not closed by any theorem, and the
+multiplicity guard prices it only when the scan is declared. The protocol
+is therefore prospective.
+
+\begin{definition}[Prospective test of a target hypothesis]\label{def:protocol}
+Declare, before the observation interval: (i) the target family $B_t$ and
+the rival law; (ii) the attribute family $F_1,\dots,F_n$, with $n$ fixed;
+(iii) the baseline priors $p_i$ under the rival law and the dependence
+assumption on the family (independence, or negative association, or a
+stated bound on $\PP(\bigcap F_i)$); (iv) the record statistic $E$ whose
+Bayes factor \eqref{eq:bf} will be reported; (v) the stopping rule and
+the multiplicity budget $n/(1+\kappa)$ at the $\kappa$ to be scored. Then
+observe. A retrospective exercise on an existing record, however
+suggestive, is hypothesis-generating and is reported as such.
+\end{definition}
+
+\section{Open problems}\label{sec:open}
+
+Every open item is gathered here. The soft-wall ratio hypothesis on which
+the survivorship model's $Q$-process rests is open in the companion
+\cite{SurvA}, and Theorem~\ref{thm:horizon}'s second statement inherits
+it. The convergence of $Q_t$ on a window shifted to the present, the law
+of $(X_{t+u})_{u\le s}$ given survival to $t$, is a different statement
+from convergence on an early window and is not established; every claim
+about a surviving record's \emph{future} behavior waits on it. A finite,
+monotone evidence budget under which a Copernican position statement
+would be well posed is not defined, and no Lindy-type result is claimed.
+And the extension of the multiplicity guard from a fixed family to a
+sequentially chosen one, with a stopping rule, is stated as a protocol
+requirement rather than proved as a bound.
+
+\section{Conclusion}\label{sec:conclusion}
+
+The claim stated at the outset stands as proved. If the realized member
+of a binary partition of the past is drawn under a law conditioned on a
+future target, then for every $\kappa>1$ it is, with probability at least
+$1-1/(1+\kappa)$, within a $\kappa$-fold exceedance of being the more
+target-productive member, and the statement is indifferent to the
+target's tense; whether a given record is drawn under such a law is a
+separate hypothesis, tested by comparing measures, and the measure of
+that comparison is the Doob density. The future does nothing to the past
+in any of this. A conditioned law has a support and a weight, and the
+past of a weighted history carries the weight; that is the whole of what
+``conditioning a record on its own future'' means, and it is enough to
+make the companion's hypothesis about the record of natural history a
+hypothesis with a stated test rather than a reading with a stated
+feeling.
+
+\begin{thebibliography}{99}\small
+\bibitem{SurvA} A.~Benander, \emph{Survivorship conditioning for hazard
+rates driven at the log-derivative level}, working draft, 2026.
+\bibitem{Nexus} A.~Benander, \emph{Nexic Reasoning}, companion manuscript,
+2026.
+\bibitem{RouteWorld} A.~Benander, \emph{The Route World: a Golden-reasoning
+hypothesis of biospheric natural history}, working draft, 2026.
+\bibitem{RVY06} B.~Roynette, P.~Vallois, and M.~Yor, \emph{Some penalisations
+of the Wiener measure}, Japanese J.\ Math.\ \textbf{1} (2006), 263--290.
+\bibitem{MV12} S.~M\'el\'eard and D.~Villemonais, \emph{Quasi-stationary
+distributions and population processes}, Probab.\ Surveys \textbf{9} (2012),
+340--410.
+\bibitem{CV16} N.~Champagnat and D.~Villemonais, \emph{Exponential
+convergence to quasi-stationary distribution and $Q$-process}, Probab.\
+Theory Relat.\ Fields \textbf{164} (2016), 243--283 (AUTHOR TO VERIFY).
+\end{thebibliography}
+\end{document}
