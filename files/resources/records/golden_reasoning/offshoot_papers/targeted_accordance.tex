@@ -31,7 +31,7 @@ consequences, are developed in a separate companion \cite{RouteWorld}, so
 that the theorems here and the hypothesis there carry their different
 grades separately. Drafting collaboration: Anthropic Claude (Opus~4.x,
 Fable~5), under the author's direction.}}
-\date{September 2026 --- Working Draft, rev.~2}
+\date{September 2026 --- Working Draft, rev.~3}
 \begin{document}
 \maketitle
 
@@ -130,6 +130,17 @@ protocol under which the theorem's application to a real record is a
 prospective test rather than a retrospective fit
 (Section~\ref{sec:protocol}).
 
+\emph{Position in the branch.} This paper's core theorem
+(Sections~\ref{sec:setting}--\ref{sec:theorem}) depends on nothing
+Golden and on no sibling; it is a statement about arbitrary target
+conditioning. Its survival specialization (Section~\ref{sec:survival})
+imports the survivorship companion \cite{SurvA}, which is the root of
+the branch; the Route World companion \cite{RouteWorld} imports this
+paper and the survivorship one to state its hypothesis; and the
+technoanatomy companion, downstream of all three, imports whatever it
+uses directly. No downstream paper is cited here as support for
+anything.
+
 \emph{What is refused.} No claim that any actual record is drawn under a
 future-conditioned law is made here; that is the companion's hypothesis
 \cite{RouteWorld}, and it is carried there at a hypothesis's grade. No
@@ -171,11 +182,19 @@ A history carries a hazard process $h_t>0$ and a killing time $T$ with
 $\PP(T>t\mid\Fc^{h}_\infty)=e^{-\Lambda_t}$, $\Lambda_t=\int_0^th$. The
 finite-horizon conditioned laws are $Q_t:=\PP(\,\cdot\mid T>t)$. In the
 \emph{critical regime}, $\PP(T=\infty)=0$ while $\E[T]=\infty$, and the
-$Q$-process is the limit $Q:=\lim_{t\to\infty}Q_t$ on each $\Fc_s$, which
-exists and is the Doob transform by the persistence-harmonic function
-$\hm$: $dQ/d\PP|_{\Fc_s}=\one_{\{T>s\}}\hm(X_s)/\hm(X_0)$ in the hard-wall
-model, with the soft-wall version conditional on the ratio hypothesis the
-companion states.
+$Q$-process is the limit $Q:=\lim_{t\to\infty}Q_t$ on each $\Fc_s$.
+Everything in this paper is written for the abstract density
+\[
+Z_s:=\frac{dQ}{d\PP}\Big|_{\Fc_s},
+\]
+and two specializations are imported at their grades: the hard-wall
+law, proved, $Z^{\mathrm{hard}}_s=\one_{\{\tau>s\}}\hm(X_s)/\hm(X_0)$ with
+$\hm$ the persistence-harmonic function; and the soft-wall law,
+conditional on the companion's ratio hypothesis (its Ansatz B),
+$Z^{\mathrm{soft}}_s=e^{-\int_0^sq(X_u)du}\,g(X_s)/g(X_0)$, which
+coincides with the hard-wall density exactly when $g$ is proportional to
+$\hm$ after a credit translation. No result below depends on which
+specialization is in force.
 \end{definition}
 
 \begin{theorem}[Locally ours, globally elsewhere; \textbf{[P]} in \cite{SurvA}]
@@ -360,9 +379,9 @@ the conditioned and unconditioned laws is
 \begin{equation}\label{eq:bf}
 \mathrm{BF}_{Q:\PP}(E)=\frac{Q(E)}{\PP(E)},
 \end{equation}
-and on the full information $\Fc_s$ it is the likelihood ratio
-$Z_s:=dQ|_{\Fc_s}/d\PP|_{\Fc_s}$, which in the survivorship model is the
-Doob density $\one_{\{T>s\}}\hm(X_s)/\hm(X_0)$. If $E$ is required by the
+and on the full information $\Fc_s$ it is the likelihood ratio $Z_s$ of
+Definition~\ref{def:model}, the hard-wall Doob density or the soft
+Feynman--Kac density according to the specialization in force. If $E$ is required by the
 target, $Q(E)\approx1$, and rare under $\PP$, $\PP(E)=q$, then
 $\mathrm{BF}_{Q:\PP}(E)\approx1/q$.
 \end{proposition}
@@ -384,8 +403,9 @@ the observation was made. The null for the observed surviving cohort is
 $\PP^{\mathrm{surv}}_s:=\PP(\,\cdot\mid T>s)$, against which the
 likelihood ratio on $\Fc_s$ is
 \begin{equation}\label{eq:survlr}
-\frac{dQ}{d\PP^{\mathrm{surv}}_s}\Big|_{\Fc_s}=\PP(T>s)\,\frac{\hm(X_s)}{\hm(X_0)},
+\frac{dQ}{d\PP^{\mathrm{surv}}_s}\Big|_{\Fc_s}=\PP(T>s)\,Z_s,
 \end{equation}
+which in the hard-wall specialization is $\PP(T>s)\,\hm(X_s)/\hm(X_0)$,
 finite on the whole cohort. More generally every rival law in a
 comparison is conditioned on the common baseline $C$ the record fixes,
 observers existing now and survival to the observation time, and the

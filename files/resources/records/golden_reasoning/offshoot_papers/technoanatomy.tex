@@ -1,0 +1,2666 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1.1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs,graphicx,enumitem,url,xcolor}
+\usepackage[colorlinks=true,linkcolor=blue!50!black,citecolor=blue!50!black,urlcolor=blue!50!black]{hyperref}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\PP}{\mathbb{P}}
+\newcommand{\R}{\mathbb{R}}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator{\Cov}{Cov}
+\DeclareMathOperator{\Leb}{Leb}
+\newcommand{\eqd}{\overset{d}{=}}
+\newcommand{\one}{\mathbf{1}}
+\newcommand{\Imm}{\mathcal{I}}
+\newcommand{\Fc}{\mathcal{F}}
+\newcommand{\Lc}{\mathcal{L}}
+\newcommand{\hm}{\mathfrak{h}}
+\newcommand{\Ac}{\mathcal{A}}
+\newcommand{\Sc}{\mathsf{S}}
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{claim}[theorem]{Claim}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{ansatz}[theorem]{Ansatz}
+\newtheorem{convention}[theorem]{Convention}
+\newtheorem{constraint}{Constraint}
+\newtheorem{principle}{Principle}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{premise}{Premise}
+\newtheorem{objection}[theorem]{Objection}
+\renewcommand{\thepremise}{$\Phi$\arabic{premise}}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\title{Technoanatomy:\\ \large Civilizational Survival as a Sign, Not a Size}
+\author{Ajax Benander\thanks{Email:
+\href{mailto:akb9408@rit.edu}{akb9408@rit.edu}. This paper develops the
+existential-risk consequences of a survivorship model proved in a companion in
+applied probability \cite{SurvA}, with the target it discusses owned by
+the Route World companion \cite{RouteWorld} and the target-conditioning
+machinery by the theorem companion \cite{TargetedB1}; all are cited and
+restated, none presupposed. Drafting
+collaboration: Anthropic Claude (Opus~4.x, Fable~5), under the author's
+direction.}}
+\date{September 2026 --- Working Draft, rev.~2}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Existential-risk practice manages the wrong quantity. Its ledgers price
+events, its progress measures index accumulated capacity, and both are
+silent on the variable a survivorship model proves decisive: the sign of
+what added capacity does to a civilization's internal hazard, here called
+technoanatomy. The claim in one sentence: capability magnitude cannot substitute for
+favorable anatomy, viability requiring favorable anatomy together with
+favorable driver dynamics and a prerequisite schedule that is actually
+cleared; on the schedule model entered here, whose leak law is
+stipulated, the sign is being settled now at the highest leverage in the
+record and conditioning on survival prefers that it be settled early;
+and no event of bounded duration can certify which way it has gone. Four consequences
+are drawn. The metric critique: an index of capability ranks worlds wrong
+in both directions, and the Kardashev scale measures visibility, not
+viability. The schedule: a third hazard channel, the gated sequence of
+prerequisites a civilization must land, is formalized as a discounted
+branching process feeding the survivorship model through a
+surviving-completion kernel, with its derailment hazard, its modern-era
+term acting on the anatomy rather than the capacity, a survival-time
+threshold past which conditioning switches from favoring the unpushed
+schedule to favoring the optimally pushed one, and a
+survivorship-prefers-early-change result under stated monotone-coupling
+conditions; the leak law that makes the modern era the schedule's
+high-leverage stage is stipulated, and every consequence that depends on
+it is carried at that grade.
+The rival periodization: the Precipice is engaged at its strongest and
+three deltas are stated, in the quantity, the shape of time, and the
+endpoint. And the two errors about the human role, extinctionism and
+techno-optimism, refuted as mirror misreadings of one theorem. The
+ceiling's institutional reading closes the paper: a governance built for
+the regime where all the survivorship structure lives, with humility in
+the objective rather than in the disclaimer, and no certified safety
+anywhere.
+\end{abstract}
+
+\section{Introduction}\label{sec:intro}
+
+The existential-risk field has, in a generation, built a serious
+literature on how a civilization might end. It has not built an account
+of what decides whether one can last, and the gap is not one of effort
+but of quantity. The field's instruments price events: the probability
+of a pandemic, a war, an unaligned system, summed and discounted into a
+risk this century. Its progress measures index accumulated capacity:
+energy captured, computation available, the Kardashev rungs. This paper
+argues, from a theorem proved in a companion, that both instruments are
+silent on the variable that decides survival, and that the silence is
+structural rather than a matter of calibration. A civilization's added
+capacity does two things at once: it muffles the hazards arriving from
+outside, and it feeds a channel of hazard that arises from inside.
+Whether indefinite survival is possible turns on the sign of the second
+effect, not on the size of the first, and an index of capacity cannot
+see the sign because the sign is not a function of what the index
+measures.
+
+\emph{The claim, in one sentence.} Whether a biosphere can survive
+indefinitely is decided by the sign of what added capacity does to its
+internal hazard and not by the magnitude of its capacity; that sign is
+being settled now, at the highest leverage in the record; conditioning
+on survival prefers that it be settled early; and no finite observation
+can certify which way it has gone.
+
+\emph{What is imported.} The companion in applied probability
+\cite{SurvA} proves the two-condition theorem on which the claim rests,
+the model it is stated in, and the ceiling theorem that no finite
+observation of a surviving path distinguishes the survivorship-conditioned
+law from the unconditioned one. The theorem companion \cite{TargetedB1} supplies the general
+machinery for records drawn under target-conditioned laws, used here
+only where a result consumes it directly. The Route World companion
+\cite{RouteWorld} owns the Golden Point as the nullification of the
+external hazard, the Continuity Principle that lets one target be
+conditioned on across the record, and the hypothesis that this target
+applies to our history; this paper imports the target as a definition
+and discusses the hypothesis only as an application. Each import is
+restated in Section~\ref{sec:imports} at its grade; nothing later
+depends on more than is stated there.
+\emph{Position in the branch.} The Golden branch is four papers in a
+strict order of import. The survivorship companion \cite{SurvA} owns the
+hazard model, the viability theorem, and the hard-wall and soft-wall
+conditioned laws; the theorem companion \cite{TargetedB1} owns the general
+result on records drawn under target-conditioned laws and the
+model-comparison machinery; the Route World companion \cite{RouteWorld}
+owns the Golden Point, the Continuity Principle, and the hypothesis that
+this target explains our record; and this paper, downstream of all
+three, owns the strength/anatomy distinction, the prerequisite schedule,
+and the mechanism and policy consequences. Nothing here is offered as
+support for the Route World hypothesis, and nothing here assumes it: the
+paper asks what a civilization's hazard architecture looks like if the
+survivorship model is the right dynamical model, and discusses the
+Route World only as an application.
+
+
+\emph{What is new.} The reading of the viability theorem as a statement
+about two state variables, strength and anatomy
+(Section~\ref{sec:coords}). The schedule channel
+(Section~\ref{sec:schedule}): the sequence of gated prerequisites a
+civilization must land, formalized as a discounted branching process
+with log-spread rates, its derailment hazard, its modern-era term acting
+on the anatomy rather than on the capacity, the surviving-completion
+kernel through which it feeds the survivorship model, the survival-time
+threshold past which conditioning switches from favoring the unpushed
+schedule to favoring the optimally pushed one, and the front-loading
+result under stated monotone-coupling conditions. The two applications
+(Sections~\ref{sec:refutes} and \ref{sec:precipice}): the Kardashev
+scale as the cleanest case of strength against anatomy, and the
+Precipice as the cleanest comparison with existential-risk practice,
+with three deltas stated. The remaining consequences are collected as a
+discussion (Section~\ref{sec:discussion}).
+
+\emph{What is refused.} No certified safety, anywhere, including the
+paper's own favorable conclusions; no claim that the sign has been
+settled favorably; no occupant of the decisive moment, which the
+prefers-early result shows is felt at every moment. These are stated once
+in Section~\ref{sec:fences}.
+
+\emph{Grades.} [P] proved here or in a companion; [S] scaling-level or
+structural, argued without proof; [$\Phi$] a stipulative commitment; [O]
+open, with its specification.
+
+\section{Vocabulary}\label{sec:vocab}
+\begin{itemize}[itemsep=2pt]
+\item \textbf{Technostrength} $x$: accumulated capacity, the integral of
+the log-derivative driver; the quantity progress indices measure.
+\item \textbf{Technoanatomy} $\rho$: the sign of what added capacity does
+to the internal hazard; the decisive variable.
+\item \textbf{Escape factor}: the driver's probability of escaping to
+infinity; the second, sign-blind necessary condition.
+\item \textbf{Departure / Golden Point}: the irreversible loss of a
+biosphere's future, and its complement, the state past which the
+external hazard is driven to zero.
+\item \textbf{Schedule}: the gated sequence of prerequisites, each a race
+among competing clocks, that a civilization must land.
+\item \textbf{Gate, clock, leak}: one prerequisite; one candidate route
+through it; the decay of capacity that incompleteness imposes.
+\item \textbf{Derailment hazard} $\sigma_t$: the rate at which a wrong
+clock fires first at the open gate; the schedule's contribution to the
+hazard of Departure.
+\item \textbf{Anatomy-directed gate}: a gate whose resolution acts on
+$\rho$ rather than on $x$; the modern era's kind.
+\item \textbf{Settlement}: the point past which the survivorship-conditioned
+mass of $\rho$ has largely moved; not a freezing.
+\item \textbf{Leverage}: the sensitivity of the hazard to $\rho$, which
+scales with $x$; why the anatomy was invisible in the deep past.
+\item \textbf{The ceiling}: the imported theorem that no finite
+observation certifies which measure a surviving record is under.
+\item \textbf{Live third term}: the hypothesis, entered on evidence, that
+the schedule is not yet exhausted.
+\end{itemize}
+
+\section{Imported results}\label{sec:imports}
+
+\begin{definition}[The model; from \cite{SurvA}]\label{imp:model}
+The total hazard is $h_t=B_t\varsigma_b(x_t)+\Gamma e^{-\rho x_t}$: an
+external background $B$ muffled by a bounded logistic factor of the
+accumulated capacity $x_t=\int_0^t\mu$, plus an internal term the same
+capacity feeds or starves according to the sign of the response exponent
+$\rho$; the driver $\mu$ is Brownian, so the noise sits on
+$-\frac{d}{dt}\log h$. Departure is the killing time $T$; viability is
+the event $\{\Lambda_\infty<\infty\}$ that the total hazard ever accrued
+stays finite.
+\end{definition}
+
+\begin{definition}[The Golden Point; from \cite{RouteWorld}]\label{imp:goldenpoint}
+The Golden Point is the state past which the external channel is driven
+to zero and viability obtains; the Route World companion constructs its
+complement, the Departure Point, as the least fixed point of an
+implication cascade over the record, and shows by its Continuity
+Principle that the same target bears on every lineage in the record.
+That companion's hypothesis, that our record is drawn under conditioning
+on this target, is not assumed here.
+\end{definition}
+
+\begin{theorem}[Two conditions for viability; \textbf{[P]} in \cite{SurvA}]
+\label{imp:twocond}
+For $\rho\le0$ viability is null for every parameter value and every
+driver. For $\rho>0$,
+$\PP(\Lambda_\infty<\infty)=\one\{\rho>0\}\,V_{\mathrm{drv}}(\mu_0)$, with
+$V_{\mathrm{drv}}$ the driver-viability functional, stated piecewise:
+the scale-function escape probability for a transient driver, the
+indicator of a positive stationary mean for a positive recurrent one,
+zero for the Brownian driver, and open for general null recurrence. The
+two factors are logically distinct necessary conditions, not independent
+events: the first is a sign and the second is silent on it. No index of
+accumulated capacity distinguishes the ascent that arrives from the
+ascent that is a fall.
+\end{theorem}
+
+\begin{theorem}[The ceiling; \textbf{[P]} in \cite{SurvA}]\label{imp:ceiling}
+In the critical regime the survivorship-conditioned law converges, in the
+hard-wall model, to the Doob transform by the persistence-harmonic
+function, $Q^{\mathrm{hard}}$, proved, with the soft-wall law
+$Q^{\mathrm{soft}}$ conditional on the companion's ratio hypothesis;
+either is locally absolutely continuous with respect to the
+unconditioned law on survivors and globally singular. No finite observation of a surviving path certifies
+which measure a record is under.
+\end{theorem}
+
+\section{Technostrength and technoanatomy}\label{sec:coords}
+
+\subsection{Technostrength and technoanatomy}\label{gr:sub:coords}
+
+\begin{definition}[The two coordinates]\label{gr:def:coords}
+\emph{Technostrength} is the muffling exponent $x_t$: the capacity the
+biosphere has accumulated, positive when its own organization holds its
+hazard below background and negative when it holds it above.
+\emph{Technoanatomy} is the exponent $\rho$ of
+the master document \cite{GoldenMaster}, the sign of
+$-\partial_x\log h^{\mathrm{int}}$: whether acquiring capacity lowers or
+raises the biosphere's hazard \emph{to itself}.
+
+The two are of different kinds, and keeping them apart is the whole of
+what follows. Technostrength is a \emph{state coordinate}: it
+fluctuates, and by the half-time theorem of \cite{SurvA} every biosphere, however well constituted, spends exactly half of logarithmic time
+with $x<0$. Technoanatomy is a \emph{structural property}: it does not
+fluctuate at all, it says what capacity does when acquired, and
+$\rho<0$ names the biosphere whose own strength is turned against it,
+which is what the master document \cite{GoldenMaster} means by eating oneself.
+\emph{Adverse strength} is $x<0$; \emph{adverse anatomy} is $\rho<0$,
+and only the second is a defect.
+\end{definition}
+
+Two results of Section~\ref{sec:imports} are worth restating in this vocabulary because
+they are counterintuitive. \emph{Technostrength is not cumulative --- in the critical regime.}
+Under a recurrent driver $x$ oscillates on scale $t^{3/2}$ and returns
+to every level infinitely often: it is not a stock that accumulates but
+a magnitude that fluctuates, so a framework treating it as monotonically
+increasing has the wrong kind of object. Under a \emph{transient} driver
+it does accumulate, and the ladder picture is locally right --- which is
+the concession the master document \cite{GoldenMaster} makes precise and prices.
+
+\emph{Every biosphere is adversely configured half the time.} By
+the half-time theorem of \cite{SurvA} the set $\{t:x_t<0\}$ has logarithmic density
+exactly $\tfrac12$, for every parameter value and every biosphere.
+Adverse \emph{strength} is therefore not a defect distinguishing some
+biospheres from others but a condition all of them occupy half of
+logarithmic time --- which is precisely why it cannot be what
+``bad anatomy'' means, and why the two must be kept apart.
+
+\subsection{What conditioning does to each coordinate}
+\label{gr:subsub:measured}
+
+\paragraph{Numerical methods.} All figures reported in this subsection,
+in \S\ref{gr:subsub:anatsel}, in the master document \cite{GoldenMaster}, and in
+the numerical check under the master document \cite{GoldenMaster} were
+produced by direct Monte Carlo on the two-channel model, using the exact
+Gaussian update of the master document \cite{GoldenMaster} for the driver-credit pair
+and forward Euler for the background exponentials, at step
+$\Delta=10^{-3}$. Conditioning on $\{T>t\}$ was performed by rejection, particles were killed by the Cox rule and the survivors reweighted
+uniformly, so the conditioned estimates are $\PP^{(T)}$ estimates and
+not $Q$ estimates, exactly as the column headings below say. Standard
+errors on the tabled probabilities are binomial and never exceed
+$0.004$; the median-$x$ and quantile-$\rho$ entries carry bootstrap
+errors of comparable size. \emph{Every $\PP(\rho>0\mid\text{survived})$
+figure is prior-dependent}: $\rho\sim\mathrm{Unif}(-1,3)$ was chosen to
+place a quarter of the mass on adverse anatomy and has no other
+justification, and the $0.75\to0.84$ movement should be read as the
+direction and rough magnitude of selection under that prior rather than
+as a calibrated number. Code and seeds are available on request.
+
+The following are simulation results for the two-channel model of
+Section~\ref{sec:imports} at $\sigma=1$, $\epsilon=0.05$, $n=3$, $b=3$, $\rho=2.5$,
+$k=6$, conditioning horizon $T=4$, $N=1.2\times10^{5}$ particles.
+
+\begin{center}\small
+\begin{tabular}{@{}lrr@{}}
+\toprule
+& General ($\PP$) & Conditioned ($\PP^{(4)}$)\\
+\midrule
+$\PP(x<0)$ (adverse strength) & $0.501$ & $0.0037$\\
+median $x/\sigma T^{3/2}$ & $-0.001$ & $+1.085$\\
+$\PP(\rho>0)$, $\rho\sim\mathrm{Unif}(-1,3)$ & $0.750$ & $0.839$\\
+$5\%$ quantile of $\rho$ & $-0.80$ & $-0.44$\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\noindent The two $\rho$ rows depend on the prior $\mathrm{Unif}(-1,3)$
+placed on anatomy, which is a choice and not a result; the $x$ rows do
+not.
+
+\begin{remark}[Truncation versus rescaling]\label{gr:rem:truncresc}
+Two numbers, and they differ in kind rather than in force.
+Adverse strength is suppressed by a factor of $137$ --- abruptly, and
+within a few multiples of the intrinsic timescale. Technoanatomy is
+selected too, but \emph{gradually}: $\PP(\rho>0)$ moves from $0.75$ to
+$0.839$ at the same horizon, reaching $0.909$ only by $T=6$, with the
+negative tail truncating steadily ($5\%$ quantile $-0.80\to-0.44\to
+-0.14$).
+
+The asymmetry is structural rather than incidental, and it follows from
+what the two objects are. Strength is a state coordinate, so
+conditioning pushes it out of a half-space it can and does re-enter ---
+fast, and reversibly. Anatomy is a fixed structural parameter, so it can
+be selected only through the accumulated hazard cost of never changing
+--- slow, and irreversibly. Anatomy is the slower and the more decisive:
+by Theorem~\ref{imp:twocond}, adverse anatomy is eventually fatal
+with certainty, while adverse strength is a condition every biosphere
+occupies half of logarithmic time and survives.
+
+\end{remark}
+
+\subsection{Does conditioning select technoanatomy?}
+\label{gr:subsub:anatsel}
+
+The measurement above concerns technostrength, a state coordinate; the
+claim the argument needs is about technoanatomy, a structural parameter,
+which therefore cannot be selected \emph{within} a trajectory. It can be
+selected across an ensemble, and that is directly computable: place a
+prior on $\rho$, evolve, and reweight by survival. Taking
+$\rho\sim\mathrm{Uniform}(-1,3)$, so that $\PP(\rho>0)=0.75$ a priori:
+
+\begin{center}\small
+\begin{tabular}{@{}rrrr@{}}
+\toprule
+$T$ & $\PP(\text{survive})$ & $\PP(\rho>0\mid\text{survived})$ &
+$5\%$ quantile of $\rho$\\
+\midrule
+$2$ & $2.8\times10^{-3}$ & $0.745$ & $-0.80$\\
+$4$ & $2.2\times10^{-4}$ & $0.839$ & $-0.44$\\
+$6$ & $1.9\times10^{-4}$ & $0.909$ & $-0.14$\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\noindent Survivorship does select for positive technoanatomy, and the
+adverse tail truncates steadily. But the selection is \emph{gradual}
+where the strength truncation was abrupt: adverse strength falls by a
+factor of $137$ at $T=4$, while $\PP(\rho>0)$ has moved only from
+$0.75$ to $0.84$ at the same horizon. Anatomy is the slower and the more
+decisive: by Theorem~\ref{imp:twocond} an adverse $\rho$ is
+eventually fatal with certainty, while adverse strength is a condition
+every biosphere occupies half of logarithmic time and survives.
+
+\paragraph{The coordinates stay separable.}\label{gr:rem:separable}
+Strength and anatomy cannot fuse under conditioning, and the reason is
+structural rather than measured: $\rho$ is a parameter of the model and
+$x$ a functional of the path, so no amount of conditioning makes one a
+function of the other. They therefore remain distinct diagnostic
+questions rather than two aspects of a single ``advancement'' --- which
+is exactly what a one-dimensional scale cannot represent.
+
+
+
+\section{The third channel: the schedule}\label{sec:schedule}
+
+
+Definition~\ref{imp:model} carries two channels, and
+the master document \cite{GoldenMaster} records that they do not exhaust the
+hazard of departure: $h^{\mathrm{tot}}$ prices $\mathrm{Base}$ and
+nothing else, while the hazard of departure is the hazard of $\mu G$,
+which by the master document \cite{GoldenMaster} is at least as large and in general
+strictly larger. That remark calls the larger rate open \textbf{[O]}. This subsection is a first attempt at it. The claim is modest: the rate
+has a computable shape, the shape is a third channel, and the
+distribution it needs is one the companion already supplies.
+
+\subsection{A collision of vocabulary, settled first}
+\label{sch:subsub:vocab}
+
+\begin{convention}[Endogenous, internal, schedule]\label{sch:conv:internal}
+The companion divides departure into \emph{external}, inflicted from
+outside the biosphere, and \emph{internal}, defined there as the
+complement: the remaining cases, all occurring within the biosphere's
+scope \cite{Nexus}. That category is a residue and is correspondingly
+wide; the companion's own instance of it is a biosphere too
+underdeveloped to reach a milestone given its resources and timing,
+which is a scheduling failure and not a self-inflicted one.
+
+The internal channel of Definition~\ref{imp:model} is narrower: hazard the
+biosphere inflicts on itself with capacity it has acquired, whose
+response to that capacity is the technoanatomy $\rho$ of
+the master document \cite{GoldenMaster}.
+
+The two senses are a category and one of its members. This work uses
+\emph{endogenous} for the companion's residue and reserves
+\emph{internal} for the channel:
+\begin{equation}\label{sch:eq:partition}
+\text{endogenous}\;=\;\underbrace{\text{internal}}_{\text{capacity
+turned inward}}\;+\;\underbrace{\text{schedule}}_{\text{derailment
+before capacity can be held}}\;+\;\cdots
+\end{equation}
+The ellipsis is substantive. A category defined by exclusion is not
+shown exhausted by exhibiting two members, and nothing here claims these
+are the last.\footnote{The rename is a convention of this work and is
+offered rather than imposed; \emph{non-external} and \emph{endemic}
+would serve. One point of order regardless of the choice: the companion
+is deposited, so a reader arriving from the deposit will meet
+\emph{internal doomsday} in the residue sense, and the convention is
+owed to bridge the two states of that text whether or not the term is
+changed there.}
+\end{convention}
+
+\subsection{The schedule}\label{sch:subsub:model}
+
+\begin{definition}[Schedule; \textbf{[S]}]\label{sch:def:schedule}
+A \emph{schedule} is a sequence of $n$ gates to be passed in order. At
+gate $k$ there are $m$ competing exponential clocks with rates
+$\lambda_{k,1},\dots,\lambda_{k,m}$, the first corresponding to the
+realized option. Write
+\begin{equation}\label{sch:eq:clocks}
+\lambda_k=\sum_{j=1}^{m}\lambda_{k,j},
+\qquad
+\pi_k=\frac{\lambda_{k,1}}{\lambda_k},
+\end{equation}
+so that gate $k$ fires at rate $\lambda_k$ and resolves to the realized
+option with probability $\pi_k$. Write $k_t$ for the number of gates
+passed by time $t$. The \emph{onset state} is $k=n$: the first state at
+which the muffling exponent $x$ of the master document \cite{GoldenMaster} can be held at all.
+\end{definition}
+
+The rates are the primitives and $\lambda_k,\pi_k$ are read off them,
+which matters because it is the per-option rates a natural-historical
+account would estimate --- not a tempo and a fallibility chosen
+separately. Stage dependence is retained deliberately. The reason the object is a
+\emph{sequence} rather than a set is that each event's effect depends on
+the state its predecessor left: the climatic and ecological
+baton-passing that carried a lineage down from the trees is not a set of
+independent draws, and a constant $\pi$ would model it as one.
+Stage-dependent $\pi_k$ is the minimum that preserves the structure;
+state-dependent $\pi(\cdot)$ is what the picture actually asks for, and
+is not supplied here \textbf{[O]}.
+
+One point of scope, since it is a natural worry and the construction
+already absorbs it. An event later in the sequence arriving before its
+predecessors needs no transition of its own: it is one of the $m$
+options competing at the gate it arrives at, and resolving to it is a
+wrong resolution like any other. The $m-1$ non-realized options are not
+a homogeneous class, each carries its own rate by
+Definition~\ref{sch:def:rates} and its own consequence, so
+heterogeneity of failure is present without being labeled by type. What
+the chain does not carry is partial progress within a gate: it is Markov
+between them, which is a simplification and is chosen rather than
+derived.
+
+The discreteness is a limitation of the same kind as calling Earth a
+sphere. Exotic structure in the ordering is not recoverable from a chain
+over $m^n$ articulable realizations; the shape of the dependence is, and
+that is what is wanted here.
+
+\subsection{Where the rates come from}\label{sch:subsub:rates}
+
+Definition~\ref{sch:def:schedule} takes the per-option rates as given.
+One specification of how they are drawn is worth carrying, because it
+determines more than it looks like it should.
+
+\begin{definition}[Log-spread rates; \textbf{[S]}]\label{sch:def:rates}
+At each gate the $m$ rates are drawn afresh and independently with
+$Y_{k,j}:=\log\lambda_{k,j}$ i.i.d.\ from a \emph{symmetric log-spread
+family} $F$: a law with finite variance and tails tempered as the
+application requires, a shortest feasible time bounding the fast end
+and a longest tolerable one the slow; and \emph{which option is the
+realized one is independent of its rate}. The correct option may be the
+fastest of the $m$, or the slowest, and nothing about the draw favors
+either. Every consequence below uses only that the $Y_{k,j}$ are
+i.i.d.\ under $F$, so that a log-rate gap $Y_i-Y_j$ is symmetric about
+zero. The canonical instance is $F=N(\mu,\sigma^2)$, the lognormal
+rate, which carries its own justification: a log-rate that is a sum of
+many independent multiplicative contributions is normal by the central
+limit theorem, so the law is inherited rather than chosen.
+\end{definition}
+
+Three consequences, in ascending order of how much they change. \emph{The waiting time is set by the correct option's own rate.} A gate
+fires at $\lambda_k=\sum_j\lambda_{k,j}$ and resolves correctly with
+probability $\pi_k=\lambda_{k,1}/\lambda_k$, so the expected number of
+attempts before a correct resolution is $1/\pi_k$ and each costs
+$1/\lambda_k$. The product is $1/\lambda_{k,1}$: however many wrong
+options crowd the gate, what a biosphere waits on is the realized
+option's own clock. Exposure per gate is therefore log-spread along with
+the rate, and the difference between a lucky gate and an unlucky one is
+orders of magnitude of waiting rather than a factor.
+
+\emph{The contrast between options is a random order of magnitude, with
+the sign withheld.} $\log(\lambda_{k,1}/\lambda_{k,j})=Y_{k,1}-Y_{k,j}$ is a
+difference of two i.i.d.\ draws from $F$: symmetric about zero, spread
+across the range, and committing to no direction. That is the shape of the High-Contrast
+Earth Hypothesis, and the correspondence is exact rather than
+suggestive --- the Hypothesis asserts a random order of magnitude between
+independently constructed alternatives and \emph{deliberately withholds
+the sign}, with the Strong Accordance Principle supplying direction
+separately. \eqref{sch:def:rates} supplies the same shape from a
+mechanical premise about competing clocks, and the direction arrives the
+same way it does there: from conditioning, below. So the Hypothesis
+acquires a microfoundation at the gate level, and does not have to be
+imported as a posit at this scale --- though what replaces it is another
+\textbf{[S]}, and the trade is one posit for a more checkable one rather
+than a derivation from nothing.
+
+The correspondence should be stated at the right strength, since it is
+not an identity of distributions. By \eqref{sch:eq:cefff} the contrast a
+perturbation carries is $r\log_{10}(1+(B+\Gamma)/\lambda)$, which in the
+regime supplying many orders (Remark~\ref{sch:rem:tension}) is $r$ times
+a \emph{log-rate gap} --- and under Definition~\ref{sch:def:rates} a
+log-rate gap is a difference of i.i.d.\ draws from $F$, hence symmetric
+and spread across orders with no committed sign. The companion states
+the Hypothesis as uniform rather than normal. What the collapse
+consumes, however, is not the shape but two functionals of it, the
+typical contrast $\E[c]$ and the averaged one
+$-\log_{10}\E[10^{-c}]$, and both are defined for either law. So the
+construction is compatible with the Hypothesis in the sense the argument
+uses it, without reproducing its stated distribution.
+
+The scale of the spread is a further matter, and the accurate thing to say is not that it awaits measurement. Nothing available to an observer
+inside a biosphere fixes what \emph{sets} the range over which competing
+rates are distributed: one meets the distribution already running, with
+no vantage from which its parameters could be explained rather than
+merely estimated. That is Theorem~\ref{imp:ceiling}'s structure applied one
+level down, and the scale is scoped as uncertifiable for the reason
+$\rho$ is, rather than listed as a parameter someone has yet to
+supply.
+
+\emph{And conditioning selects the fast-correct branch, which is why the
+realized path looks optimal.} Exposure at gate $k$ is $1/\lambda_{k,1}$,
+paid at hazard $B+\Gamma$ by Proposition~\ref{sch:prop:gating}, so a
+branch's survival weight carries $\exp\{-(B+\Gamma)/\lambda_{k,1}\}$ at
+every gate. Branches in which the realized option happened to be slow
+pay exponentially for it. Conditioning on survival therefore selects,
+gate by gate, for histories in which the correct option was among the
+fastest available --- not because anything chose them, but because the
+alternatives were charged for the wait.
+
+That is the mechanism, and should be stated as one. Under the Cosmic Nexus the
+realized option is a random draw and is usually slow; under conditioning
+one is overwhelmingly likely to find oneself on a branch where it was
+fast at gate after gate. The appearance of an optimal path threaded
+through a combinatorial mess is what survivorship does to a log-spread
+rate landscape, and requires no optimization to produce it. This is the
+Optimal-Earth phenomenology arriving from the schedule's own machinery
+rather than being assumed alongside it \cite{Nexus, Ben26Optimal}.
+
+\subsection{Incompleteness decays capacity}\label{sch:subsub:leak}
+
+The first commitment is that until the schedule completes, the muffling
+exponent cannot be held. This departs from
+Definition~\ref{imp:model}, which states that there is no capacity
+parameter and no leak; the departure is deliberate and is confined.
+
+\begin{definition}[Staged leak; \textbf{[S]}]\label{sch:def:leak}
+Replace the master document \cite{GoldenMaster} by
+\begin{equation}\label{sch:eq:leak}
+dx_t=\mu_t\,dt-\gamma_{k_t}x_t\,dt,
+\qquad
+d\mu_t=-\nu_{k_t}\mu_t\,dt+\sigma\,dW_t,
+\end{equation}
+with $\gamma_k,\nu_k$ nonincreasing in $k$ and $\gamma_n=\nu_n=0$. The
+schedule of coefficients is \emph{geometric}: each closed gate
+multiplies the leak by a constant factor,
+\begin{equation}\label{sch:eq:geomleak}
+\gamma_k=\gamma_0\,\varphi^{\,k},\qquad
+\varphi=(\gamma_{n-1}/\gamma_0)^{1/(n-1)}<1,
+\end{equation}
+with $\gamma_0$ enormous, so that before any gate is closed the credit
+is pinned at the origin to a degree with no practical upper bound, and $\gamma_n=0$ at completion.
+\end{definition}
+
+The solution of the first equation is
+$x_t=\int_0^te^{-\gamma_k(t-s)}\mu_s\,ds$: the credit is still the
+integral of the driver, accumulated additively, with each increment
+buffered by a multiplicative decay from the moment it lands. The leak is
+not an alternative to the master document \cite{GoldenMaster} but a discounting of it. The second equation is the same commitment one derivative up, and it is
+what the picture requires rather than an extra assumption. The driver
+$\mu=-\tfrac{d}{dt}\log h$ is an \emph{improvement rate}, and a rate of
+improvement is something an agent supplies. Before the onset state there
+is none, so $\mu$ is not a free random walk either: neither the stock nor
+the rate is sustained, and the two dampings are one absence expressed at
+two levels. A biosphere's ancestors do not hold a small amount of
+technostrength --- they hold none, and what the pair of equations says is
+that excursions away from zero are transient rather than accumulated.
+
+At stage $k$ the deterministic part obeys $\tfrac{d}{dt}\log x=-\gamma_k$:
+capacity acquired before completion bleeds away at a rate each completed
+gate reduces. The leak is by hand, and making it emergent, $\gamma$
+falling out of the schedule's own structure rather than being assigned
+to it, is the model's natural next target \textbf{[O]}.
+
+\paragraph{What a closed gate buys, and why almost none of it is
+bought early.}\label{sch:rem:backloaded}
+\eqref{sch:eq:geomleak} makes gates equal in $\log\gamma$ rather than in
+$\gamma$, and the consequence for the payoff is severe enough to state
+on its own. The credit a biosphere can sustain at stage $k$ scales as
+$1/\gamma_k=\varphi^{-k}/\gamma_0$, so it grows \emph{geometrically} in
+gates closed. But the hazard depends on the credit \emph{exponentially}, both channels of Definition~\ref{imp:model} do, by construction, so the
+relief a closed gate delivers goes as
+$\exp\{-\rho C\varphi^{-k}/\gamma_0\}$, doubly exponential in $k$.
+Closing the last gate is worth more than closing all the others
+together, by a margin that is not close.
+
+With $\gamma_0$ enormous the reading sharpens. The early gates take a
+biosphere from a credit that is unimaginably pinned to one merely very
+pinned, which is no relief at all in the only currency the hazard reads.
+Practical relief arrives in the final stretch, and a schedule
+half-climbed is nearer in hazard to one not begun than to one completed. Set this beside the master document \cite{GoldenMaster}, which has stakes rising
+monotonically for combinatorial reasons --- a late step carries the
+improbability of every step behind it. The present observation is a
+second and independent reason for the same monotonicity, arriving from
+the leak's geometry rather than the chain's combinatorics. Two arguments
+of different provenance agreeing on the profile is a better position
+than either alone.
+
+\begin{remark}[The existing model is the completed case]
+\label{sch:rem:limit}
+$\gamma_n=0$ is not a convenience. It makes
+Definition~\ref{imp:model} the $k=n$ boundary case of
+\eqref{sch:eq:leak} exactly, so nothing proved in
+Section~\ref{sec:imports} is disturbed: the
+persistence exponent $\tfrac14$, the trichotomy, the two-condition
+theorem and the survivorship interpolation are all statements about the
+completed regime, and this channel prefixes them rather than amending
+them.
+
+The price is that the incomplete regime has its own asymptotics --- and
+they can be given, which is the next proposition's business. The
+persistence problem is not the one the master document \cite{GoldenMaster} solves, and
+its exponent does not carry.
+\end{remark}
+
+\begin{proposition}[The incomplete regime has no polynomial tail;
+\textbf{[S]}]\label{sch:prop:exponent}
+Under \eqref{sch:eq:leak} with $\gamma_k,\nu_k>0$ held fixed, the pair
+$(\mu,x)$ is a two-dimensional linear system with both eigenvalues
+negative, driven by white noise; it is therefore ergodic with a
+stationary Gaussian law centered at the origin. Persistence of $x$ is then
+persistence of a stationary Gaussian process, which decays
+\emph{exponentially}:
+\begin{equation}\label{sch:eq:incompletetail}
+\PP\bigl(x\ \text{stays positive to }t\bigr)\;\asymp\;e^{-\theta(\gamma_k,\nu_k)\,t},
+\qquad \theta>0 .
+\end{equation}
+No power law survives. The rate $\theta$ is not given in closed form
+here; persistence rates for stationary Gaussian processes are generally
+not, and \eqref{sch:eq:incompletetail} identifies the class rather than
+the constant.\footnote{Simulation at $\sigma=1$, $8\times10^{4}$ paths.
+With $\gamma=1$ and the driver \emph{undamped} ($\nu=0$) the decay is a
+power law, fitted slope $-0.476$, log--log correlation $0.9995$, which is the damped randomly accelerated particle and is not the regime
+this definition describes. With the driver damped, the fit inverts
+decisively: at $(\gamma,\nu)=(1,0.5)$ and $(1,1)$ the correlations
+against $t$ are $1.0000$ and $0.9999$ with rates $0.222$ and $0.312$,
+against log--log correlations of $0.975$ and $0.985$.}
+\end{proposition}
+
+\paragraph{What incompleteness costs, and what completion buys.}\label{sch:rem:suspends}
+The contrast with the completed regime is not a change of exponent but a
+change of kind, and it is the sharpest thing the channel says about why
+the schedule is worth climbing.
+
+Section~\ref{sec:imports} establishes that the completed model departs with
+probability one and yet has infinite life expectancy: the tail is
+$t^{-1/4}$, residual life is Pareto, quantiles grow as the fourth power
+of rarity, and the effective hazard is $1/4t$ --- falling at every age.
+By \eqref{sch:eq:incompletetail} the incomplete regime has none of it.
+An exponential tail has finite expectation, memoryless residual life,
+quantiles growing logarithmically, and a hazard that does not fall at
+all. \emph{Every consequence of the master document \cite{GoldenMaster} is a
+consequence of having completed}, and none of it is available before.
+
+Two readings follow, and the second is structural. The Lindy structure is a \emph{reward} rather than a property. A
+biosphere before its onset state is not on a fat tail at low altitude;
+it is on a thin one, and no amount of waiting improves its position,
+since an exponential is memoryless. What completing the schedule buys is
+not more of the same but a different tail entirely.
+
+And the floor is the trapped regime's floor with one difference that
+matters. Theorem~\ref{imp:twocond}(ii) gives $\PP(T>t)\le e^{-h_\ast t}$
+for adverse anatomy at frozen background, and \eqref{sch:eq:incompletetail}
+gives an
+exponential floor for incompleteness. The two are structurally alike and
+disposed of oppositely: the anatomy floor cannot be left, since $\rho$ is
+a parameter, while the schedule floor is \emph{closable} --- $\gamma_k$
+and $\nu_k$ vanish at completion, and the debt that stands between is
+payable whenever the criterion of \S\ref{sch:subsub:open} holds. An
+incomplete biosphere and a trapped one sit on the same kind of tail; only
+one of them can get off it.
+
+A biosphere may of course be both, and the two floors then compose
+exactly rather than competing. If $h^{\mathrm{tot}}\ge h_\ast$ then
+$\PP(T>t)=e^{-h_\ast t}\,\E\bigl[e^{-\int(h^{\mathrm{tot}}-h_\ast)}\bigr]$
+identically, a constant floor factors out of the exponential
+functional, leaving the damped-persistence problem for the recentered
+hazard with its own rate $\tilde\theta$. So
+$\theta_{\mathrm{joint}}=h_\ast+\tilde\theta$: neither floor governs, they
+\emph{add}, and the interventions are correspondingly separable.
+Completing the schedule removes $\tilde\theta$ and not $h_\ast$; moving
+$\rho$ removes $h_\ast$ and not $\tilde\theta$. A biosphere that is both
+trapped and incomplete must do both things, and doing either buys exactly
+its own term.
+
+\subsection{The schedule gates the external channel}
+\label{sch:subsub:gating}
+
+Completing the chain confers no capacity. It confers only the ability to
+\emph{hold} capacity --- which sounds like a small thing and is not,
+because of what Definition~\ref{imp:model} does at $x=0$.
+
+\begin{proposition}[An unheld $x$ leaves the crest at bare background;
+\textbf{[P]}]\label{sch:prop:gating}
+By the normalization of Definition~\ref{imp:model}, $\varsigma_b(0)=1$
+exactly, so $h^{\mathrm{crest}}\big|_{x=0}=B_t$; and the trough does not
+vanish there either, since $\Gamma e^{-\rho\cdot0}=\Gamma$. A biosphere
+that cannot hold $x$ therefore faces the external background unshielded
+\emph{and} pays the internal channel's full coefficient, at total
+$h^{\mathrm{tot}}\big|_{x=0}=B_t+\Gamma$. Its cumulative hazard is
+$\Lambda_t=\int_0^t(B_u+\Gamma)\,du\to\infty$, and
+$\PP(\Lambda_\infty<\infty)=0$ identically --- for every parameter
+value, every anatomy $\rho$, and every driver. The configuration and its
+consequences are those of the master document \cite{GoldenMaster}.
+\end{proposition}
+
+\begin{remark}[The external term is small only because the schedule
+succeeded]\label{sch:rem:reliance}
+Read at $x>0$ the crest channel is the least of the model's worries: it
+is bounded above by the master document \cite{GoldenMaster}, it is shielded
+without limit as capacity accumulates, and beside an unbounded internal
+channel it looks like one measly term. That reading presupposes what the
+schedule supplies. Run the dependency out. Shielding is the factor $\varsigma_b(x)$;
+$\varsigma_b$ shields only for $x>0$; $x$ can be held only at $k=n$; and
+$k=n$ is reached through $n$ gates each of which can go $m-1$ ways
+wrong. \emph{So the survivability of the external channel is downstream
+of the schedule entire.} The cosmic background does not become more
+dangerous when the schedule fails; it becomes the only thing that
+happens, which is the sentence the master document \cite{GoldenMaster} writes
+about a biosphere whose muffling agent has been removed.
+
+That is not a coincidence of phrasing. \emph{An incomplete schedule and
+the extinctionist's withdrawn world are the same configuration.} Both
+are $x$-cannot-be-held; both sit at bare $B_t$; both are
+the master document \cite{GoldenMaster}'s case; and both lie in
+$\mu G\setminus\mathrm{Base}$ by the target construction of the Route World companion \cite{RouteWorld} --- departed
+by configuration rather than by event, with no hazard yet fired. The
+channel therefore does not merely add a term. It exhibits the model's
+apparently smallest channel as conditional on its largest improbability.
+\end{remark}
+
+\subsection{Failure incurs debt, not weight}\label{sch:subsub:debt}
+
+What a wrong gate costs can now be said, and the natural first answer is
+the wrong one. Treating a wrong gate as multiplying an onset weight
+makes that weight a primitive, a number the model is handed rather
+than one it produces, and leaves the cascade of
+the target construction of the Route World companion \cite{RouteWorld} inexpressible, since a single multiplicative
+factor has nowhere to put the recursion by which an Imperfection
+Magnitude Drop's residual carries continuations of its own.
+
+\begin{definition}[Debt; \textbf{[S]}]\label{sch:def:debt}
+A wrong gate does not suppress a weight. It \emph{incurs debt}: $r$
+further gate-successes are owed, from the state now occupied, before
+completion is reached. Write $Z_t$ for the outstanding debt, with
+$Z_0=n$. Each firing consumes one gate and, with probability $1-\pi$,
+adds $r$:
+\begin{equation}\label{sch:eq:debt}
+Z\;\longmapsto\;
+\begin{cases}
+Z-1 & \text{with probability }\pi,\\
+Z-1+r & \text{with probability }1-\pi .
+\end{cases}
+\end{equation}
+\emph{Completion} is the event $Z=0$.
+\end{definition}
+
+The natural-historical reading is the one that motivates it. Human
+extinction does not leave the biosphere holding a fractional prospect;
+it leaves it owing a further sequence, some other lineage must run
+its own improbable gymnastics from wherever the world now stands, and
+the onset state recedes by exactly that sequence's length. Debt
+postpones a deadline. It does not discount a prize.
+
+$r$ need not be a primitive, and the model is better if it is not. Read
+the schedule as a tree whose paths each carry a definite number of
+events, differing between paths: a wrong turn then places the biosphere
+on a longer path, and \emph{the excess length is the debt}. On that
+reading \eqref{sch:eq:debt} is the induced dynamics on \emph{events
+remaining} rather than a further posit, $r$ is a structural property of
+the tree rather than a parameter, and whether it correlates with the
+rates, assumed away above, becomes a question about how the tree
+is built. Nothing downstream changes, since the induced dynamics is
+\eqref{sch:eq:debt}.
+
+Two things follow immediately and neither was available before. \emph{The win condition is binary.} A branch either clears its debt or
+does not, and any branch that clears it completes --- however deep the
+debt ran, and with no residual weight to carry. The grading that a
+weight formulation would posit emerges instead from the
+\emph{distribution} over branches. \emph{And the recursion is structural.} Debt spawns debt: the extra
+gates are gates, they can go wrong, and going wrong incurs more. That is
+the cascade's shape, and the object it makes is standard.
+
+\begin{proposition}[The debt process is Galton--Watson; \textbf{[P]}]
+\label{sch:prop:gw}
+Under Definition~\ref{sch:def:debt}, $Z$ is the population of a
+Galton--Watson process with offspring probability generating function
+\begin{equation}\label{sch:eq:pgf}
+f(u)\;=\;\pi+(1-\pi)\,u^{\,r},
+\qquad\text{mean offspring}\quad \varkappa\;=\;r(1-\pi).
+\end{equation}
+Completion is extinction of $Z$. Hence completion occurs almost surely
+if and only if $\varkappa\le1$, and for $\varkappa>1$ the probability of never
+completing is $1-q^{\,n}$, where $q$ is the least root of $q=f(q)$ in
+$[0,1]$.
+\end{proposition}
+
+\begin{remark}[A phase transition in the schedule's own structure]
+\label{sch:rem:criticality}
+$\varkappa=r(1-\pi)=1$ is a sharp threshold, and it is not a restatement of
+anything already in the paper. Below it, debt clears with probability one: however unlucky a biosphere
+is, it owes a finite sequence and eventually pays it. Above it, a
+positive fraction of branches accumulate debt without bound, cycling
+into ever-deeper obligation, each new gate as fallible as the last, and those branches never reach the state at which $x$ can be held. The
+transition sits at $r=1/(1-\pi)$: a biosphere may tolerate large debt
+per failure if failures are rare, or frequent failures if each is cheap,
+and the product is what decides.
+
+The threshold is structurally the anatomy threshold's sibling. $\rho=0$
+divides configurations by whether acquired capacity protects; $\varkappa=1$
+divides them by whether incurred debt is payable. Both are sign tests on
+a structural parameter, both are sharp, and neither is visible in any
+magnitude the system displays.
+\end{remark}
+
+\begin{remark}[Under log-spread rates the criterion is the geometric
+mean; \textbf{[P]}]\label{sch:rem:bpre}
+Definition~\ref{sch:def:rates} redraws the rates at every gate, so
+$\pi_k$, and with it $\varkappa_k=r(1-\pi_k)$, is not a deterministic
+sequence but an i.i.d.\ random one. The debt process is then a branching
+process in a \emph{random} environment rather than a varying one, and the
+criterion changes accordingly. By the Smith--Wilkinson criterion, under the standard nondegeneracy
+and integrability conditions on the environment, completion is almost
+sure when
+\begin{equation}\label{sch:eq:bpre}
+\E\bigl[\log \varkappa\bigr]\;\le\;0,
+\end{equation}
+the critical case included, and $\E[\log\varkappa]>0$ permits a positive
+probability of never completing: the criterion is the \emph{geometric}
+mean of the offspring means, and not $\E[\varkappa]<1$.
+
+The two disagree, and the direction of the disagreement matters. By
+Jensen $\E[\log \varkappa]\le\log\E[\varkappa]$, so a schedule may complete with
+probability one while its \emph{arithmetic} mean offspring exceeds
+unity. Using $\E[\varkappa]$ is therefore not a conservative simplification but
+a wrong answer in the pessimistic direction: it condemns schedules that
+in fact clear.\footnote{Simulation, Poisson offspring, $4000$ trials
+each. With $\varkappa$ equal to $0.1$ or $5$ with equal probability,
+$\E[\varkappa]=2.55$ and $\E[\log \varkappa]=-0.348$: the arithmetic criterion calls it
+supercritical, the geometric criterion subcritical, and completion is
+observed with frequency $1.000$. Where the two criteria agree, $\varkappa\in\{0.5,3\}$ and $\varkappa\in\{0.9,1.6\}$, both geometrically supercritical, completion frequencies are $0.738$ and $0.690$.}
+
+One caution about what the criterion certifies. \eqref{sch:eq:bpre}
+settles whether the debt clears \emph{eventually}; it does not say when.
+Under a random environment the probability of not having completed by
+stage $n$ decays at the tilted rate
+$\gamma^\ast=-\min_{0\le s\le1}\log\E[\varkappa^{\,s}]$, which is bounded
+above by $|\E\log\varkappa|$ and can fall far below it: for the
+$\varkappa\in\{0.1,5\}$ environment above, $\gamma^\ast=0.0158$ at
+$s^\ast=0.092$ against $|\E\log\varkappa|=0.347$, a factor of
+twenty-two.\footnote{The rate identity is the standard large-deviation
+form for subcritical branching in a random environment; the polynomial
+correction depends on the subcriticality class.} Certain completion and
+timely completion are therefore different questions, and only the first
+is settled here \textbf{[O]}.
+
+The reading is the one this work keeps arriving at. A geometric mean is
+what a typical realization experiences; an arithmetic mean is what an
+ensemble average reports. The quenched quantity governs, exactly as
+Remark~\ref{sch:rem:gap2} says it does for the completion weight, and
+here it governs the dichotomy itself rather than only the rate.
+\end{remark}
+
+\paragraph{Unrecoverable failures, and a doom weight from the
+schedule alone.}\label{sch:rem:defective}
+Definition~\ref{sch:def:debt} makes every failure recoverable at a
+price. Some plausibly are not, an event arriving before its
+prerequisites may foreclose rather than cost, and the natural
+encoding is $r=\infty$, which is to say a \emph{defective} offspring
+law. Let a gate resolve correctly with probability $\pi$, recoverably
+with probability $q_1$ at debt $r$, and unrecoverably with probability
+$q_2=1-\pi-q_1$. Then
+\begin{equation}\label{sch:eq:defective}
+f(u)=\pi+q_1u^{\,r},\qquad f(1)=\pi+q_1<1,
+\end{equation}
+so $u=1$ is not a fixed point and the least root of $u=f(u)$ lies
+strictly below one \emph{whatever} the recoverable branch does.
+Completion probability is bounded away from one by $q_2$ alone, and
+subcriticality of the recoverable branch does not rescue it.
+
+Two consequences. The schedule now produces a positive doom weight
+unaided, a nonzero probability of never reaching the onset state,
+computed from $(\pi,q_1,q_2,r)$ and nothing else, which is a second
+concrete instance of the graded object
+Remark~\ref{sch:rem:mvalued} discusses. And the question whether
+foreclosing options dominate acquires two answers rather than one: at
+fixed mean offspring the second factorial moment enters the survival
+bounds, so they may dominate the \emph{probability} of non-completion
+while leaving the mean untouched.\footnote{Checked
+against direct simulation of \eqref{sch:eq:debt} with a killing branch,
+$4\times10^{4}$ trials each: at $(\pi,q_1,r)=(0.85,0.10,3)$ the least
+root is $0.9306$ against $0.9310$ simulated; at $(0.70,0.25,2)$,
+$0.9046$ against $0.9040$; at $(0.60,0.35,2)$, $0.8571$ against
+$0.8557$.}
+
+\subsection{The offset weighting, emergent}\label{sch:subsub:emergent}
+
+The constraint on this formulation was that it reproduce the companion's
+offset weighting rather than replace it. It does, and the derivation
+also says what the offset is \emph{made of}. By Proposition~\ref{sch:prop:gating} a biosphere pays $B+\Gamma$ while
+incomplete --- the background unshielded, and the internal channel at its
+bare coefficient. Debt is therefore paid in hazard: clearing $Z$ gates at
+rate $\lambda$ costs $D/\lambda$ in exposure, and a branch's survival
+weight is $e^{-(B+\Gamma)\cdot(\text{total gates fired})/\lambda}$.
+
+\begin{proposition}[Completion weight as a least fixed point;
+\textbf{[P]}]\label{sch:prop:fixedpoint}
+Let $s:=e^{-(B+\Gamma)/\lambda}$ be the survival factor per gate-time.
+Where $\lambda$ is itself drawn per gate, the correct single-$\lambda$
+surrogate for the mean log-weight is the \emph{harmonic} mean
+$\bigl(\E[\lambda^{-1}]\bigr)^{-1}$, since $-\log u$ is to first order
+linear in $1/\lambda$ --- which for a lognormal law is
+$\lambda_{\mathrm{geo}}e^{-s_\lambda^{2}/2}$, smaller than the geometric
+mean, so passage costs and contrasts both exceed what
+geometric-mean substitution would give. The
+expected completion weight from a single owed gate is the least root
+$u\in[0,1]$ of
+\begin{equation}\label{sch:eq:fixedpoint}
+u\;=\;s\,f(u)\;=\;s\bigl(\pi+(1-\pi)u^{\,r}\bigr),
+\end{equation}
+and from $n$ initial gates it is $u^{\,n}$. For small $B/\lambda$,
+\begin{equation}\label{sch:eq:expansion}
+-\log u\;=\;\frac{B+\Gamma}{\lambda}\cdot\frac{1}{1-\varkappa}
++O\!\left(\left(\tfrac{B}{\lambda}\right)^{2}\right),
+\qquad \varkappa=r(1-\pi)<1 .
+\end{equation}
+\end{proposition}
+
+\begin{proof}
+\eqref{sch:eq:fixedpoint} is the total-progeny functional equation for a
+Galton--Watson process weighted by $s$ per individual. For
+\eqref{sch:eq:expansion}, write $u=1-\varepsilon$ and expand:
+$1-\varepsilon=(1-(B+\Gamma)/\lambda)(1-\varkappa\varepsilon)+O(\varepsilon^{2})$
+gives $\varepsilon(1-\varkappa)=(B+\Gamma)/\lambda$. The factor $1/(1-\varkappa)$ is the expected total
+progeny per individual, as it must be.
+\end{proof}
+
+\paragraph{What the offset is made of, and where the recursion
+went.}\label{sch:rem:cefff}
+Two effects separate cleanly, and the separation is this subsection's
+return.
+
+\emph{Contrast per unit of depth.} A single wrong gate adds $r$ gates,
+each exponential at rate $\lambda$, so the added waiting is
+$\mathrm{Gamma}(r,\lambda)$ and the weight multiplies by
+$\E[e^{-hT}]=(1+h/\lambda)^{-r}$ with $h:=B+\Gamma$. Matching to the
+companion's $10^{-c_{\mathrm{eff}}}$,
+\begin{equation}\label{sch:eq:cefff}
+c_{\mathrm{eff}}\;=\;r\,\log_{10}\!\Bigl(1+\frac{B+\Gamma}{\lambda}\Bigr),
+\end{equation}
+exactly and with no approximation. The deterministic-exposure reading, $r/\lambda$ of waiting at hazard $B+\Gamma$, giving
+$(B+\Gamma)r/\lambda\ln10$, is the $\lambda\gg B+\Gamma$ limit of it
+and \emph{overstates} the contrast elsewhere, since $\log(1+x)<x$. The
+direction of that error is worth naming: it makes the companion's
+collapse look easier than it is, so \eqref{sch:eq:cefff} is what should
+be used. The High-Contrast Earth
+Hypothesis's ``extremely many orders'' is thereby not a posit but a
+reading: one gets many orders when the background is high, the debt
+large, or the tempo slow.
+
+\emph{Depth accumulated.} The recursion does not change
+\eqref{sch:eq:cefff}; the branching factor $1/(1-\varkappa)$ cancels out of the
+per-depth contrast exactly. What it changes is how much depth there is:
+expected total gates fired per owed gate is $1/(1-\varkappa)$, so a biosphere
+near criticality accumulates depth without the contrast per unit of it
+worsening at all. The recursion inflates the exposure, not the exchange
+rate --- and inflates it without bound as $\varkappa\to1$.
+
+The separation identifies two independent levers. A biosphere may be
+badly placed because each failure is expensive ($c_{\mathrm{eff}}$
+large) or because failures compound ($\varkappa$ near one), and the two are not
+the same defect.
+
+\begin{remark}[Contrast wants slow gates; survival wants fast ones]
+\label{sch:rem:tension}
+\eqref{sch:eq:cefff} has two limits and they pull opposite ways, which
+is a structural fact about the channel rather than a defect of it. Where gates are fast against the standing hazard, $\lambda\gg B+\Gamma$,
+the contrast is $c_{\mathrm{eff}}\approx r(B+\Gamma)/\lambda\ln10$ ---
+small. Wrong turns cost little, passage is cheap, and alternatives are
+barely suppressed: there is nothing to collapse a sum over.
+
+Where gates are slow, $\lambda\ll B+\Gamma$, the contrast is
+$c_{\mathrm{eff}}\approx r\log_{10}\bigl((B+\Gamma)/\lambda\bigr)$ --- a
+\emph{log-rate gap}, hence many orders of magnitude whenever the gap is
+large. But the same slowness prices survival at
+$(\lambda/(B+\Gamma))^{\,r}$ per wrong turn, which is astronomically
+small. So the regime supplying the companion's contrast is the regime in which
+the realized history had to be enormously lucky, and the two are one
+fact seen from either end. That is not a tension to be resolved but the
+Miracle phenomenology in rate coordinates: high contrast between natural
+histories and low probability of the realized one are not independent
+observations.
+\end{remark}
+
+\begin{remark}[The collapse is a claim about shares, not about
+likelihood]\label{sch:rem:absolute}
+A companion point, and the one most easily misread. The sum-collapse
+establishes that the realized ordering carries a share of order unity
+\emph{of the total}. It says nothing whatever about the size of that
+total, and under a log-scale randomization the total is minute. Two facts about extremes make this precise. The best of $m$ draws from a
+spread log-rate law is not far above the field: the maximum of $m$
+normals sits $\sqrt{2\ln m}$ deviations above the mean asymptotically,
+and only $1.54$ deviations at $m=10$ --- so the optimum is not
+qualitatively better than a typical option, it is the same law read at
+its edge. And the optimum still faces the standing hazard: with
+$\lambda\ll B+\Gamma$ the weight of even the best option at a gate is
+$\approx\lambda/(B+\Gamma)$, orders below one, and $n$ gates multiply
+those orders.
+
+A worked instance makes the two magnitudes visible together. Take
+$\log_{10}\lambda$ normal with mean $15$ decades below $B+\Gamma$ and
+deviation $3$, with $m=10$, $n=20$, $r=3$. The best option at a gate
+sits $4.6$ decades above typical; the weight of the all-best path is
+about $10^{-208}$; a single wrong turn costs $c_{\mathrm{eff}}\approx31$
+decades; and the collapse condition $c_{\mathrm{eff}}>\log_{10}(n(m-1))
+=2.26$ is met roughly fourteen times over.\footnote{Direct simulation,
+$2\times10^{5}$ draws; the extreme-value theory agrees to two decimals,
+$\mu+1.5388s=-10.38$ against $-10.39$ observed.}
+
+So relative dominance is overwhelming and absolute weight is
+$10^{-208}$, and the two are not in tension --- both follow from the
+same spread, which is what makes one alternative dominate its rivals and
+what makes all of them improbable. The reading to avoid is therefore
+explicit: \emph{the highest-weight ordering is not the likely ordering}.
+Nothing in the companion's apparatus, and nothing here, converts a share
+of a small number into a large one. This is the same discipline
+the master document \cite{GoldenMaster} applies to the survivor's own position, and
+it applies with more force here because the numbers are worse.
+\end{remark}
+
+\begin{remark}[Which contrast the collapse consumes]\label{sch:rem:n2}
+A random contrast does not enter the companion's sum-collapse the way a
+deterministic one does, and the difference has to be recorded. An alternative at depth $\Delta$ is suppressed by
+$10^{-\sum_{i\le\Delta}c_i}$, so with independent draws the per-tier
+factor is $(\E[10^{-c}])^{\Delta}$ and the binomial closes at
+$\bigl(1+(b-1)\E[10^{-c}]\bigr)^{n}$. The operative quantity is
+therefore $-\log_{10}\E[10^{-c}]$, not $\E[c]$, and by Jensen the first
+is strictly smaller. The gap is severe rather than technical: for $c$
+uniform on $(0,2M)$ the averaged contrast is $\log_{10}(2M\ln10)$,
+growing only \emph{logarithmically} in the spread; for $c$ normal with
+mean $\mu$ and deviation $s$ it is $\mu-s^{2}\ln10/2$, negative once
+$s\gtrsim\sqrt{2\mu/\ln10}$.\footnote{At $\E[c]=10$: uniform on
+$(0,20)$ gives $1.66$; normal with $s=2$ gives $5.45$; normal with $s=3$
+gives $-0.36$. Direct sampling understates the collapse, four million
+draws return $1.25$ for the last, because $\E[10^{-c}]$ is carried by
+a tail sampling does not reach, which is itself the point.}
+
+The resolution is the one this work keeps reaching. The averaged
+contrast is dominated by alternatives no one encounters; the claim the
+collapse is used for concerns the share carried by the \emph{realized}
+configuration, which is quenched. One refinement to ``runs on $\E[c]$'':
+the quenched tier weight is a sum of order $\bigl(n(b-1)\bigr)^{\Delta}$
+lognormal terms and is extreme-value dominated at small $\Delta$, so the
+binding constraint sits at the shallowest tier and carries a fluctuation
+allowance,
+\begin{equation}\label{sch:eq:quenchedcrit}
+\bar c\;>\;\log_{10}\bigl(n(b-1)\bigr)
+\;+\;\frac{s\sqrt{2\ln\bigl(n(b-1)\bigr)}}{\ln10},
+\end{equation}
+relaxing toward the $\E[c]$ form as $\Delta$ grows, since the fluctuation
+scales as $\sqrt\Delta$ against a mean linear in $\Delta$. At $s=3$,
+$n=20$, $b=10$ the threshold moves from $2.26$ to $6.45$, which
+$\E[c]=10$ still clears. The companion's
+own hedge, that its deterministic use is the union-bounded envelope
+of an almost-sure claim, points the same way. So the collapse
+survives randomization in the quenched reading and fails in the annealed
+one, and a reader wanting the annealed statement needs a contrast far
+larger than $\E[c]$ suggests \textbf{[O]}.
+\end{remark}
+
+\begin{remark}[This is the graded cascade, in one concrete case]
+\label{sch:rem:mvalued}
+the master document \cite{GoldenMaster} keeps the cascade's Boolean recursion and the
+$\varepsilon$-grading of the Route World companion \cite{RouteWorld} in separate
+layers, and records what would join them: a fixed point of an
+$M$-valued doom operator, called open \textbf{[O]} and named there as
+the natural next question.
+
+\eqref{sch:eq:fixedpoint} is an instance of exactly that object. The map
+$u\mapsto s\,f(u)$ is monotone on $[0,1]$, its least fixed point is the
+graded analog of $\mu G$'s least fixed point on the Boolean lattice,
+and the grading it carries is a weight rather than a label. The
+completion probability is therefore \emph{computed} as a fixed point
+rather than assigned, which is what the two-layer remark asks for.
+
+The claim should be taken at its size. This is a single-type process
+carrying one number, not the $M$-valued operator over the full lattice
+of states the general construction would need; what is exhibited is the
+first concrete case and the shape it confirms. What the case does supply is the general construction's
+\emph{definition}, and the choice is not the obvious one. The Boolean
+cascade characterizes $\mu G$ modally: every course admits a foreclosing
+continuation, which is a fact about the state space. A graded version
+cannot be built on that, because a modal fact carries no measure. It can
+be built on the dynamical reading, \emph{all paths lead to} the
+Departure Point, rather than all courses make it exist, since that is
+a hitting statement, and the measure of paths hitting a set is
+canonically the \emph{least} fixed point of the associated operator.
+\eqref{sch:eq:fixedpoint} is exactly such a hitting measure, which is why
+it arrived as a least fixed point without anyone imposing it.
+
+Two things follow for the general construction. The operator to build is
+the one whose fixed point is the hitting measure of the departure set,
+and Kleene iteration from $\bot$ reaches it wherever the weight algebra's
+multiplication is Scott-continuous. And the projection back to the
+Boolean layer is a \emph{threshold} rather than a linear map, Boolean
+$\mu G$ is where the surviving weight is zero, not where the graded value
+takes a particular magnitude, so the consistency requirement is
+$\mathrm{eval}(u)=\one\{u=0\}$, and it should be imposed at definition
+time rather than proved afterwards. Whether the construction so specified
+generalizes to the lattice remains open \textbf{[O]}.
+\end{remark}
+
+\begin{remark}[Which rate an observer should use]\label{sch:rem:gap2}
+The completion weight $u^{\,n}$ is an expectation over branches, and
+near criticality it is dominated by the rare branch that incurred little
+debt: by \eqref{sch:eq:expansion} the \emph{mean} total progeny is
+$1/(1-\varkappa)$, while the median sits far below it. An observer reasoning
+about their own history should therefore not use the mean. Expected
+completion weight is carried by branches that got lucky early, and a
+biosphere is not entitled to assume it is on one --- the same
+quenched--annealed discipline the reference sheet records for the
+survivorship transform.\footnote{The same gap is recorded for the survivorship transform in the master document \cite{GoldenMaster}; the two are instances of one phenomenon rather than one result applied twice.}
+\end{remark}
+
+\subsection{The composite}\label{sch:subsub:composite}
+
+The schedule does not win Golden-Point probability. It wins the
+probability of reaching the one state at which $x$ stops decaying, and
+everything the model already proves takes over from there. That gives
+the total a two-stage shape:
+\begin{equation}\label{sch:eq:composite}
+\PP(\text{advance})
+=\underbrace{\PP\bigl(Z\ \text{clears}\bigr)}_{\text{schedule:
+\eqref{sch:eq:fixedpoint}}}
+\;\times\;
+\underbrace{\E\Bigl[\PP\bigl(\Lambda_\infty<\infty\mid X_{\tau}\bigr)
+\Bigr]}_{\text{the model, from the completion state}},
+\end{equation}
+with $\tau$ the completion time and $X_\tau=(\mu_\tau,D_\tau)$ the
+\emph{model's} state at that moment --- the Kolmogorov pair of
+Definition~\ref{imp:model}, and not the schedule's debt $Z$, which is
+zero at $\tau$ by construction. The second stage is Theorem~\ref{imp:twocond} evaluated at the
+completion state, and the composite is written as a kernel rather than
+a product. Let $K_{\mathrm{sch}}(dx,d\rho)$ be the \emph{surviving-completion
+subprobability kernel}, the law of the state the schedule leaves at
+$\tau$ weighted by survival to $\tau$,
+$K_{\mathrm{sch}}(A)=\E[e^{-\Lambda_\tau}\one\{\tau<\infty,\,(x_\tau,\rho_\tau)\in A\}]$.
+Then
+\begin{equation}\label{sch:eq:threecond}
+\PP\bigl(\text{advance}\bigr)
+=\int\one\{\rho>0\}\,V_{\mathrm{drv}}(x)\,K_{\mathrm{sch}}(dx,d\rho),
+\end{equation}
+with $V_{\mathrm{drv}}$ the driver-viability functional of
+Theorem~\ref{imp:twocond}. The three ingredients are then visible without
+being multiplied: schedule failure is mass $K_{\mathrm{sch}}$ fails to
+deliver, bad anatomy is the indicator, and bad driver dynamics is
+$V_{\mathrm{drv}}$; and $u^{\,n}$ of \eqref{sch:eq:fixedpoint} is the
+total mass of $K_{\mathrm{sch}}$ in the homogeneous model, a
+survival-discounted completion weight, $\E[s^N\one\{\text{completion}\}]$
+in the gate-count representation, which reduces to the completion
+probability only at $s=1$. The composite becomes a product only under
+independence or a deterministic completion state, neither of which the
+model supplies.
+
+\paragraph{The three factors are not of one kind.}\label{sch:rem:threefactor}
+Anatomy \emph{annihilates}: $\rho\le0$ gives zero, not a small number,
+by Theorem~\ref{imp:twocond}. The schedule \emph{attenuates}: a
+wrong gate costs debt, and debt cleared is completion, so the factor is
+drastically minute and never quite zero --- which is what it is to be an
+Imperfection Magnitude Drop in the companion's exact sense \cite{Nexus}.
+So the schedule factor is the residual $\varepsilon$ of
+the Route World companion \cite{RouteWorld} computed rather than named, and the
+channel's connection to the cascade is an identification rather than an
+analogy.
+
+\paragraph{The decomposition is hierarchical, not a product.}\label{sch:rem:hierarchical}
+\eqref{sch:eq:composite} should be read exactly. It is not an
+independence factorization, $X_\tau$ depends on how long the debt
+took to clear, so the two factors are not independent, but a
+hierarchical decomposition, and what makes it usable is that the
+influence runs one way. The schedule's law is autonomous: $\lambda_k$
+and $\pi_k$ consult the gate count and nothing else, so the schedule may
+be solved first, without reference to the driver. The leak then carries
+the schedule's verdict into the driver through $\gamma_{k_t}$, and the
+model runs from the state that leaves. Schedule, then driver, then
+model, with no arrow back.
+
+That one-directionality is what a state-dependent schedule threatens,
+and it threatens it in only one of the two ways such dependence can be
+read. Let $\pi$ depend on the schedule's own \emph{configuration}, which gates are closed, in what order, with what debt outstanding, and the schedule remains autonomous, since configuration is generated by
+the schedule itself. It becomes a multitype branching process, with
+types the configurations and criticality governed by the top Lyapunov
+exponent of products of mean matrices rather than by the scalar
+criterion of \S\ref{sch:subsub:open}, and the hierarchy survives intact.
+Let $\pi$ instead depend on the \emph{driver}, on $x_t$ or $\mu_t$, and the schedule consults what it was supposed to precede. The
+hierarchy collapses, \eqref{sch:eq:action} becomes a genuine control
+problem, and the optimal history must trade action spent early against
+exposure shortened.
+
+The baton-passing picture that motivates state dependence is of the
+first kind: what an event does depends on the state its predecessor
+left, which is configuration. So the version the natural-historical
+reading requires costs a multitype upgrade and not the control problem.
+Whether the driver \emph{also} influences gate outcomes is a modeling
+question about the world rather than a mathematical one, and the answer
+adopted here is that it does not. Gate outcomes are stochastic in the
+direct sense: what makes an option the realized one is a fact about the
+onward schedule it opens, not about the credit held when it fires. The
+hierarchy therefore holds, \eqref{sch:eq:action} does not become a
+control problem, and the multitype upgrade is the whole cost of state
+dependence.
+
+One refinement that adoption invites is recorded rather than pursued. If
+an option is realized in virtue of the ease of the gates it opens, then
+correctness is not a label attached to one of the $m$ branches but a
+\emph{derived} property of the subtree below it --- which makes the
+schedule a tree carrying a value function rather than a sequence with a
+marked option, and makes the realized path something survivorship picks
+out rather than something given in advance. That is consistent with
+Definition~\ref{sch:def:rates}, whose independence claim concerns an
+option's \emph{own} rate and not its descendants'. Whether the tree
+formulation reproduces the sequence one at the level of
+\eqref{sch:eq:fixedpoint} is open \textbf{[O]}.
+
+\begin{remark}[Only the asymptote selects the schedule]
+\label{sch:rem:asymptote}
+The channel prices what climbing costs. Whether anything \emph{selects}
+for climbing is a separate question, and the answer separates the two
+conditioning events this work uses.
+
+\emph{Finite horizons do not select it.} Condition on $\{T>t\}$ for any
+finite $t$. A biosphere that never completes its schedule sits at bare
+background with its internal channel at its bare coefficient, by
+Proposition~\ref{sch:prop:gating}, and survives to $t$ with probability
+$e^{-(B+\Gamma)t}>0$. The un-climbed branches therefore carry
+positive weight under every finite-horizon conditioning, and the lucky
+route, survive by not being struck, and never pay the schedule at all, remains in the support throughout.
+
+\emph{The asymptote does.} Condition instead on the viability event
+$\Imm=\{\Lambda_\infty<\infty\}$ of Definition~\ref{imp:model}. By
+Proposition~\ref{sch:prop:gating},
+$\PP\bigl(\Imm\mid\text{schedule incomplete}\bigr)=0$ \emph{exactly} ---
+not small. The exclusion is at the level of support rather than of
+weight, and it is the only conditioning in this work that achieves it. So the schedule is selected for by the asymptotic condition and by
+nothing weaker. Between the finite horizon and the asymptote there is a
+threshold, and it is the mechanism by which conditioning on survival
+pushes a lineage up the schedule at all.
+
+\begin{proposition}[The survival-time threshold for pushing the
+schedule; \textbf{[P]} given the model]\label{sch:prop:threshold}
+Consider a biosphere whose histories fall into two classes: the
+\emph{unpushed}, which never complete the schedule and survive to $t$
+with probability $e^{-(B+\Gamma)t}$, and the \emph{pushed}, which
+complete it, an event of unconditional probability $p$, and thereafter
+survive with probability $\asymp Ct^{-1/4}$ in the critical regime
+(the persistence tail of \cite{SurvA}) or with positive probability in the viable
+one. Then:
+\begin{enumerate}[label=\emph{(\roman*)},itemsep=2pt]
+\item the posterior weight of the pushed class given survival to $t$ is
+\begin{equation}\label{sch:eq:pushposterior}
+\PP(\text{pushed}\mid T>t)=\frac{p\,Ct^{-1/4}}{p\,Ct^{-1/4}+(1-p)e^{-(B+\Gamma)t}}
+\;\longrightarrow\;1\qquad(t\to\infty);
+\end{equation}
+\item there is a threshold $T_\ast$, the solution of
+$p\,CT_\ast^{-1/4}=(1-p)e^{-(B+\Gamma)T_\ast}$, so that
+\begin{equation}\label{sch:eq:threshold}
+T_\ast=\frac{1}{B+\Gamma}\Bigl[\log\frac{1-p}{pC}+\tfrac14\log T_\ast\Bigr]
+\;=\;\frac{\log(1/p)}{B+\Gamma}\,\bigl(1+o(1)\bigr)\qquad(p\to0),
+\end{equation}
+below which the conditioned law favors the unpushed class and above
+which it favors the pushed class, the switch being sharp because one
+weight is exponential in $t$ and the other polynomial: rarity of
+pushing, however extreme, enters the threshold only through
+$\log(1/p)$, so a one-in-a-trillion push moves $T_\ast$ by about
+$28/(B+\Gamma)$ and no more;
+\item within the pushed class, conditioning on survival to $t$ weights
+each route $r$ through the schedule by its survival weight, and as
+$t\to\infty$ the ratio of two routes' weights converges to the ratio of
+their persistence-harmonic prefactors at completion,
+$\hm(X^{(r)}_\tau)/\hm(X^{(r')}_{\tau'})$ (the conditioned-law theorem of \cite{SurvA}), so the
+conditioned law concentrates on the routes that maximize the
+survival-weighted completion state, the \emph{optimal route} through
+the schedule in the sense of \eqref{sch:eq:action};
+\item conditioning on asymptotic survival, $t\to\infty$, lies past
+$T_\ast$ for every parameter value, so the asymptotically conditioned
+law prefers the pushed-and-optimally-routed class outright, with the
+unpushed class excluded at the level of support by
+Proposition~\ref{sch:prop:gating}.
+\end{enumerate}
+\end{proposition}
+
+\begin{proof}
+(i) is Bayes on the two-class mixture with the stated survival
+probabilities; the limit follows because $t^{-1/4}$ dominates
+$e^{-(B+\Gamma)t}$. (ii) is the balance equation of (i) solved for
+$T_\ast$, with the asymptotic form from neglecting the logarithmic
+term. (iii): conditioning on $\{T>t\}$ weights a route by
+$\PP(T>t\mid\text{route})$, which by the conditioned-law theorem of \cite{SurvA} is
+$\asymp C\,\hm(X_\tau)\,t^{-1/4}$ with the prefactor set by the completion
+state, so ratios of route weights converge to ratios of $\hm$ at
+completion; the route maximizing that prefactor is the maximizer of
+\eqref{sch:eq:action}. (iv): $T_\ast<\infty$ for every $p>0$, $C>0$,
+$B+\Gamma>0$, and the support exclusion is
+Proposition~\ref{sch:prop:gating}.
+\end{proof}
+
+The proposition is the mechanism behind the ladder. A lineage
+conditioned on asymptotic survival is one whose schedule was pushed,
+since every unpushed history is exponentially suppressed past $T_\ast$
+and excluded at the asymptote; and among pushed histories the
+conditioning concentrates on the optimal route, since the survival
+weight of a route is its harmonic prefactor at completion. Below the
+threshold, the same conditioning says the opposite, that not pushing is
+the likelier history, because pushing is rare and the exponential
+penalty for not having pushed has not yet accumulated. This is why an
+amoeba lineage, read under asymptotic conditioning, is read as having
+been pushed up the ladder, and why the situational contingencies the
+Optimal-Earth companion catalogues fall out of the conditioning rather
+than being posited beside it: reaching the threshold at all is
+exponentially less likely on every unpushed route. The crossover
+recedes as $C$ falls, and $C$ is set by the state completion leaves
+(Remark~\ref{sch:rem:initialdata}), so a biosphere completing into a
+poor state finds the schedule worth having climbed only at horizons
+that run toward the asymptote; the threshold's dependence on $C$ is
+again logarithmic.
+
+The reading is the one that matters for what this channel is for.
+\emph{Nothing about surviving a finite stretch gives a reason to climb.}
+Only conditioning on there being no last moment makes the climb pay ---
+which is why the schedule appears in the record of a biosphere whose
+history was conditioned, and would not appear in the record of one that
+had merely lasted.
+\end{remark}
+
+\begin{remark}[The schedule supplies the initial data the model assumes]
+\label{sch:rem:initialdata}
+\eqref{sch:eq:composite} makes an identification that should be stated plainly:
+\emph{the completion state is the initial datum} that
+the master document \cite{GoldenMaster} takes as given. The model begins where the
+schedule ends, and the schedule delivers not a point but a distribution
+over points --- shaped by how long the debt took to clear and how far
+$x$ decayed while it did.
+
+By the master document \cite{GoldenMaster} the initial data are gauge: they act
+through prefactors and timescales, never through exponents. So the
+schedule cannot move the persistence exponent $\tfrac14$, cannot move
+the trichotomy, and cannot move the two-condition theorem. What it sets
+is the prefactor --- and by the master document \cite{GoldenMaster} the prefactor
+is proportional to the persistence-harmonic function $\hm$ of the
+starting state. That is the same $\hm$ the Golden Score computes
+(the master document \cite{GoldenMaster}), and the master document \cite{GoldenMaster} records as
+its principal cost that no map exists from a decision to a point in
+$(\mu,D)$. The schedule produces exactly such points. Whether decisions
+bearing on a biosphere's schedule, on $\lambda$, on $\pi$, on debt
+incurred, thereby acquire computable harmonic values is the first
+place a candidate identification map might be found. We flag it as a
+lead and claim nothing \textbf{[O]}.
+\end{remark}
+
+\begin{remark}[The variational form, stated and not solved]
+\label{sch:rem:variational}
+The second factor of \eqref{sch:eq:composite} is a conditioned path
+problem, and the master document \cite{GoldenMaster} already names the tool: the
+adverse-drift rate and its front-load-then-coast profile come from the
+Cameron--Martin action by Cauchy--Schwarz, the model's analog of an
+Euler--Lagrange computation and the natural processing step wherever a
+conditioned path law is wanted at large-deviation scale.
+
+The composite asks for that computation across both stages. One seeks
+the path minimizing
+\begin{equation}\label{sch:eq:action}
+S[\mu]\;=\;\int_0^{\infty}\left[\frac{\dot\mu_t^{2}}{2\sigma^{2}}
+\;+\;h\bigl(x_t,k_t\bigr)\right]dt
+\end{equation}
+subject to \eqref{sch:eq:leak}, to the debt dynamics
+\eqref{sch:eq:debt}, and to $\Lambda_\infty<\infty$: a least-action path
+through a landscape whose running cost is the hazard and whose
+constraint is the schedule. The pathfinding reading is exact rather than
+figurative --- the action is a length and the optimal history a geodesic
+in it.
+
+Two features of the answer are predictable without solving it, and both
+are checks on a solution's behavior. The running cost during
+incompleteness is $B$ and is \emph{independent of the driver}, since $x$
+is not held and $\varsigma_b(0)=1$; so the schedule stage contributes a
+term the driver cannot optimize against, and the variational freedom
+lives entirely after $\tau$. And because \eqref{sch:eq:composite}
+factorizes, the optimal post-completion profile is the existing one,
+started from the distribution Remark~\ref{sch:rem:initialdata}
+describes rather than from a chosen point.
+
+Whether the stages remain separable once $\lambda$ or $\pi$ depends on
+the state, which the baton-passing picture requires, is the
+substantive question and is open \textbf{[O]}. If they do not,
+\eqref{sch:eq:action} becomes a genuine control problem rather than a
+factorized one, and the optimal history would trade early action against
+schedule exposure in a way the present separation forbids.
+\end{remark}
+
+\subsection{The internal channel is probably a schedule too}
+\label{sch:subsub:internalschedule}
+
+One structural claim precedes the open list, because it is
+the channel's clearest suggestion about the rest of the model and because
+it is an inference the Continuity Principle licenses rather than a
+speculation laid beside it. the Continuity Principle of the Route World companion \cite{RouteWorld} holds that hazard-lowering across
+mediations is one activity and not a family of analogs. The schedule
+represents pre-onset hazard as gates. If continuity is taken at the width
+the master document \cite{GoldenMaster} states it, then post-onset internal
+hazard should be representable the same way, and the trough's smooth
+exponential should be a coarse-graining of gates not yet identified.
+
+\begin{remark}[The trough's exponential is geometric compounding;
+\textbf{[S]}]\label{sch:rem:internalgates}
+Take $h^{\mathrm{int}}$ proportional to the count of \emph{unpatched
+failure modes} carried at capacity $x$. Suppose each increment of
+capacity both creates modes and passes gates that patch them, and write
+$q$ for the fraction left unpatched per unit of capacity. Then
+$\text{unpatched}(x)=\text{unpatched}(0)\,q^{\,x}$, so
+\begin{equation}\label{sch:eq:internalgates}
+h^{\mathrm{int}}(x)\;=\;\Gamma q^{\,x}\;=\;\Gamma e^{-\rho x},
+\qquad \rho=\ln(1/q).
+\end{equation}
+So geometric compounding of per-gate patch rates \emph{would} produce
+the exponential of Definition~\ref{imp:model}, with $\Gamma$ the count at
+$x=0$. The construction is offered at that strength and no more: it
+exhibits a mechanism yielding the observed form, not evidence that this
+is the mechanism. Definition~\ref{imp:model} remains the paper's statement of
+the internal channel, nothing downstream is rewritten in gate
+coordinates, and the construction's use is heuristic --- it says what one
+would look for, and becomes a derivation only if the gates are named.
+
+Three things follow, and the second is the reason to record this. \emph{The anatomy trichotomy becomes a compounding test.}
+the master document \cite{GoldenMaster} divides on the sign of $\rho$;
+under \eqref{sch:eq:internalgates} that is $q$ against $1$ --- patching
+outpacing creation, matching it, or falling behind. \emph{And it is then the same test the schedule already runs.}
+Remark~\ref{sch:rem:criticality} calls $\varkappa=1$ the anatomy threshold's
+sibling. Under this construction they are not siblings but one test
+applied twice: both ask whether a compounding factor exceeds unity, and
+they differ only in what indexes the compounding --- gate count for the
+schedule's debt, capacity for the trough's unpatched modes. That is what
+continuity predicts, and finding it is a check on the principle rather
+than a use of it.
+
+\emph{The construction agrees with the one the paper already has.}
+the master document \cite{GoldenMaster} derives $\rho=-(\alpha-\beta)$ from boundary
+scaling --- an extractive domain growing as $e^{\alpha x}$ against
+enforcement growing as $e^{\beta x}$. Under \eqref{sch:eq:internalgates}
+that is $q=e^{\alpha-\beta}$, so $q>1$ exactly when $\alpha>\beta$, and
+the two microfoundations return the same condition by different routes.
+Neither is derived from the other.
+\end{remark}
+
+What is missing is the thing the reformulation is for: \emph{which
+events}. The schedule channel names its gates as natural-historical
+transitions, and the internal channel's gates would be whatever a
+biosphere must get right for acquired capacity not to be turned inward
+--- institutional, presumably, and the master document \cite{GoldenMaster} is where a
+candidate list would come from. Until they are named, the smooth rate is the correct representation, and the reason needs precise statement: a
+smooth hazard is the \emph{annealed} description of an unidentified jump
+process, so by the discipline of Remark~\ref{sch:rem:gap2} it flatters
+the typical history. An observer using Definition~\ref{imp:model}'s trough to
+reason about their own biosphere is using a mean carried by branches that
+patched luckily \textbf{[O]}.
+
+\subsection{What is open}\label{sch:subsub:open}
+
+\emph{Depth-dependent debt.} $r$ and $\pi$ are constant, so all failures
+cost alike. Two quantities must be kept apart before that is repaired,
+since they are easily run together and only one of them is ordered by
+position. \emph{Stakes}, what failing forfeits, rise monotonically
+along the chain, by the master document \cite{GoldenMaster}: a late step carries
+the improbability of every step behind it. \emph{Debt}, what
+recovering costs, does not. An early gate may carry enormous $r$: a
+biosphere without its moon, or with one a third the size, owes a
+compensating sequence for axial stabilization and tides at the
+\emph{first} gate rather than the last, and it is not obvious that any
+finite sequence discharges it. Severity is not ordered by position, and
+a model that assumed it was would misplace the worst gates.
+
+Repairing this makes $Z$ a branching process in a varying environment,
+$\varkappa_k=r_k(1-\pi_k)$ a sequence rather than a number, and the criterion a
+condition on \emph{products} rather than on any single term: writing
+$S_k=\prod_{j<k}\varkappa_j$, completion is almost sure when
+$\sum_k S_k^{-1}=\infty$ and has positive failure probability when the
+sum converges, under a uniform second-moment condition on the offspring
+laws. For constant $\varkappa$ this recovers $\varkappa\le1$. The reading is worth
+having: one catastrophic gate does not doom a schedule whose remaining
+gates are benign enough, since it is the geometric mean of the $\varkappa_k$
+that decides, a single spike is survivable in a way a raised floor is
+not, with the caveat that under Definition~\ref{sch:def:rates} the
+environment is random rather than merely varying, so the operative
+criterion is \eqref{sch:eq:bpre} and the sum below describes the
+deterministic case. The question of whether a deeper drop costs more
+\emph{per unit of debt} is answered there rather than here, and answered
+negatively: the rates are redrawn at each gate and correctness is
+independent of them, so severity is neither constant nor monotone in
+depth but resampled, and it is the distribution rather than any trend
+that carries the structure. The same harmonic sum gives the rate and not
+merely the dichotomy:
+two-sided bounds of Agresti type put the probability of not having
+completed by stage $n$ comparable to $\bigl(\sum_{k\le n}S_k^{-1}
+\bigr)^{-1}$, up to the second-moment factor, so the quantitative form
+comes free with the criterion and is what a bridge to
+Proposition~\ref{sch:prop:exponent}'s timing statements would consume
+\textbf{[O]}.
+
+\emph{State-dependent gates.} $\lambda(\cdot)$ and $\pi(\cdot)$ are what
+the baton-passing picture requires and what
+Remark~\ref{sch:rem:variational} identifies as deciding whether the
+composite factorizes. \emph{The leak is assigned rather than emergent}, and the incomplete
+regime's asymptotics remain unknown (Remark~\ref{sch:rem:limit}). \emph{And the parameters are unmeasured.} $B$, $\lambda$, $\pi$, $r$ and
+$n$ are what the companion's serial-attribute program
+(the master document \cite{GoldenMaster}) would supply --- and \eqref{sch:eq:cefff}
+makes that program's task easier rather than harder, since
+$c_{\mathrm{eff}}$ need no longer be estimated directly but follows from
+three quantities a historian might plausibly bound.
+the master document \cite{GoldenMaster}'s reservation applies with full force
+throughout: a scored schedule index would be a measurement apparatus
+optimized against, which is the failure the channel exists to price.
+
+
+\subsection{The modern-era term, formalized}\label{sch:subsub:modernterm}
+
+The three passages that follow this subsubsection carry the
+schedule's modern-era argument in prose --- the live-term
+hypothesis, the identification of accordance-legible golden
+causality with the term's operation, and the assignment of the
+term's last leg to the technoanatomy --- and a reader is owed the
+formal content underneath them before the prose is read. The
+argument of the subsection as a whole then runs in one line: the
+schedule is a sequence of gated clocks (Definition~\ref{sch:def:schedule})
+with log-spread rates (Definition~\ref{sch:def:rates}) whose
+incompleteness leaks the credit (Definition~\ref{sch:def:leak}) and
+gates the external channel (Proposition~\ref{sch:prop:gating}); the
+term's contribution to the hazard of Departure is the derailment
+hazard defined next; the hypothesis that the schedule is not yet
+exhausted is entered on evidence rather than principle; under it the
+remaining gates act on the anatomy rather than the credit, with a
+settlement law the conditioning front-loads; and none of this
+disturbs the ceiling, whose residual the last passage classifies.
+
+\begin{definition}[Derailment hazard, and anatomy-directed gates;
+\textbf{[S]}]\label{sch:def:derailment}
+With the schedule in the state $k_t$ of Definition~\ref{sch:def:schedule},
+the \emph{derailment hazard} is the instantaneous rate at which any
+wrong option at the open gate fires first,
+\begin{equation}\label{sch:eq:derailment}
+\sigma_t\;:=\;\lambda_{k_t}\bigl(1-\pi_{k_t}\bigr),
+\end{equation}
+and it is the schedule's contribution to the hazard \emph{of the
+Departure Point} in the implication sense of
+Definition~\ref{imp:goldenpoint}: a derailment is a Departure-sufficient
+occurrence carrying the Aethic weight of the derailed branch, which
+under the extra-successes reading adds gates to the schedule rather
+than closing it outright. The term is high exactly when a gate with a
+large total rate and a small favorable share stands open, and that is
+the formal content of the phrase ``high stakes toward landing the next
+Miracle.'' Gates $k\le n$ are \emph{credit-directed}: their closure
+lowers the leak of \eqref{sch:eq:geomleak}. Gates $k>n$, if any, are
+\emph{anatomy-directed}: their resolution does not act on the credit
+but on the anatomy, the option $j$ that fires at gate $k$ contributing
+an increment $\Delta_{k}^{(j)}$ with $\Delta_{k}^{(1)}>0$ for the
+realized-favorable option and the wrong options adverse, so that
+\begin{equation}\label{sch:eq:rhoprocess}
+\rho_t\;=\;\rho_0+\sum_{n<k\le k_t}\Delta_{k}^{(j_k)},
+\qquad
+\rho_\infty\;=\;\lim_{t\to\infty}\rho_t,
+\end{equation}
+$j_k$ being the option that fired at gate $k$. The two-condition
+theorem reads on $\rho_\infty$.
+\end{definition}
+
+\begin{proposition}[Front-loaded settlement under monotone coupling;
+\textbf{[C]} given the stated conditions]\label{sch:prop:settlement}
+Under Definition~\ref{sch:def:derailment} and the live-term
+hypothesis, suppose that the anatomy increments at the anatomy-directed
+gates are totally ordered, that the law of each subsequent gate is
+conditionally independent of the past given the current anatomy, and
+that the cumulative hazard is monotone decreasing in every favorable
+increment and in every earlier favorable resolution time. Then
+conditioning on survival induces a monotone-likelihood-ratio tilt
+toward larger final anatomy and toward earlier crossing to $\rho>0$: the
+conditional law of $\rho_\infty$ dominates the unconditioned law and
+the conditional law of the crossing time is earlier, both in the
+likelihood-ratio order. Without the conditions the one-gate comparison
+below still holds, but its iteration over gates is not a theorem.
+\end{proposition}
+
+\begin{proof}[Sketch]
+Two paths identical except at one anatomy-directed gate differ in
+accumulated hazard by the integral of $\Gamma(e^{-\rho^{\mathrm{adv}}x_t}-e^{-\rho^{\mathrm{fav}}x_t})>0$
+over the time the two anatomies differ, so the favorable path's
+survival weight exceeds the adverse path's by the exponential of that
+integral; conditioning on survival therefore reweights each gate's
+resolution by a factor increasing in the favorability of its
+increment, and each resolution time by a factor decreasing in the
+time, which is the likelihood-ratio tilt stated. Under the stated conditions the survival weight is totally positive of
+order two in each increment and each resolution time, so the tilt by
+survival preserves the likelihood-ratio order coordinatewise and the
+one-gate comparison iterates over the gates; without them the tilts need
+not compound in the likelihood-ratio order. The exact conditions, including the
+finiteness of hazard accumulated before crossing and the leverage
+factor $x_t$ that makes the tilt vanish while the credit is small,
+are the window theorem's debt (\S\ref{sch:rem:anatomyleg}).
+\end{proof}
+
+\begin{remark}[The third term is not exhausted; \textbf{[S]} with imports at \textbf{[$\Phi$]}]
+\label{sch:rem:notexhausted}
+The working assumption until this remark was that the schedule
+channel belonged mostly to the record: the evolutionary ladder
+climbed, the term's modern residue mergeable into the internal and
+external channels. The correction the author supplies is more
+careful than a reversal of that assumption, and it should be stated
+at its exact strength. The continuity principle does not decide
+whether the present lies before or after the last prerequisite; it
+is silent on whether one should or should not have been born after
+the last major Miracle. What it decides is conditional: \emph{if}
+prerequisites remain, their operation runs continuously through the
+present, since nothing in the conditioning marks the modern day as
+a privileged moment at which the schedule closed. The live third
+term is therefore a hypothesis, not a default that continuity
+licenses, and the prior practice's error was symmetrical: it treated
+exhaustion as the default, which continuity licenses no more than
+it licenses liveness. What the hypothesis has in its favor is not a
+principle but evidence, and the next paragraph says which.
+
+The author's central move is then an identification, and it is
+what supplies the evidence just promised. What the
+accordance principle under Golden conditioning renders legible as
+golden causality in the modern record, the specific
+accordance-yielding attributes physically observable as they occur,
+is not a separate phenomenon that happens to be visible; it is the
+third term operating. The standing conviction that golden causality
+is more visible than the internal and external channels would
+suggest is on this reading not a resolution artifact of the
+attribute level (the master document \cite{GoldenMaster}); it is
+channel identity, accordance-legible concentrations being schedule
+steps landing. This sharpens that remark's open question into an
+identification carried at \textbf{[S]}, and it carries a scoreable
+texture, entered here with the conditions of its failure: if the
+identification holds, the rarity audit should find modern
+concentrations clustering on prerequisite-shaped structures rather
+than spreading uniformly over the record, and a uniform spread would
+count against it.
+
+The class of events in question is the sequential-achievement class
+\cite{Ben25Seq}, and its citable historical exemplar keeps the
+discussion honest about magnitudes: Newton's occurrence when he
+occurred, the quantile of intellectual horsepower struck at that
+point of the process, was an event of low probability relative to
+the alternatives, individually improbable and collectively required,
+which is the signature of a schedule step. The general claim leans
+on the class, and on the expectation that most of its modern members
+have not yet been identified; no single member is load-bearing.
+
+One candidate modern member should be named exactly once, because
+naming it is the only way to fence it correctly. The production of
+the present framework by its date is itself an event whose
+probability was low relative to the alternatives, given how many
+things had to go right to lead to it, and it is therefore a formally
+admissible candidate instance of the class. Like any modern fluke it
+is available to the inference of the flukes proposition of the Route World companion \cite{RouteWorld} at
+the audit's rate: its route-deleting character must be established
+case by case against the retrospective-target null of
+the theorem companion \cite{TargetedB1}, and where it is established the
+fluke moves credence toward the Route World exactly as any observed
+schedule step does (Remark~\ref{sch:rem:thirdceiling}), since the
+ceiling constrains the certification of the stochastic terms' law and
+places no bound on credence drawn from the third term's observable
+steps. Two things, and only two, are barred. The member may not be
+made load-bearing for the class thesis, which stands on the class,
+because the fluke hypothesis may simply be true of any one member.
+And the occupant inference is barred by
+the occupancy discipline of the master \cite{GoldenMaster}: from ``this production was a
+schedule step'' nothing follows about its author being the Golden
+Point's arrival or agent, the role being permitted and the occupant
+refused. The class carries the general argument; a member may carry
+its own case.
+
+None of the riskiness a live third term adds changes the conditional
+picture, and this is the author's retention clause. The forward
+forcing of Remark~\ref{gr1:rem:forwardforcing} reads on this channel
+too: under conditioning at the asymptotic future, in character much
+like a stationary-action principle, the conditional law concentrates
+on schedules that complete, because reaching the Golden Point
+outweighs the third term's hazard once the conditioning is
+asymptotic. The prerequisites still standing are, under that
+conditioning, nailed with conditional probability approaching one,
+which retains in the forward direction exactly what the Optimation
+climb established in the backward one.
+\end{remark}
+
+\paragraph{The last leg falls on the anatomy (design at \textbf{[S]},
+one sketch at \textbf{[P]}, debt at \textbf{[O]}).}\label{sch:rem:anatomyleg}
+The reason the third term was tangled with the internal channel in
+the first place deserves to be named, because it was a formal
+problem and not a confusion. An active schedule registers the
+technostrength $x$ as incomplete, and an $x$ still being established
+undercuts the internal term's own analysis, which reads its muffling
+against a mature credit; a live third term therefore appeared to
+break the very channel it feeds, and merging the term's modern
+presence into the other two was the workaround. The preceding
+passage removes the workaround without removing the problem, since
+on the live-term hypothesis the term operates now, and given that
+hypothesis the resolution is forced rather than merely permitted:
+the $x$-directed component of the schedule must already sit in its
+exponential-tail regime by the modern day, with $x$ robust, so the
+term's remaining incompleteness before the Golden Point has to act
+somewhere other than the credit.
+
+The author's proposal is that it acts on the technoanatomy
+directly, and the proposal is best stated together with a fact
+about $\rho$ that the record disguises. The technoanatomy is
+movable at every time with equal ease; what varies across history is
+not its mobility but its \emph{leverage}, which scales with the
+credit, since the internal term $\Gamma e^{-\rho x}$ is insensitive
+to $\rho$ when $x$ is small and grows in sensitivity as $x$ grows,
+$\partial h/\partial\rho$ carrying a factor of $x$. In the deep past
+the anatomy therefore appeared frozen because the technopower that
+would have exposed it was low, and the honest description of the
+premodern record is that the species rode on a technoanatomy
+inherited from the Stone Age without its value being tested, each
+culture carrying a version of its own, the versions merging into a
+single biosphere-level sign only when the industrial era coupled
+them and raised $x$ to where the sign began to matter. The last leg
+of the schedule is then this: with leverage now high, the remaining
+pushes act on $\rho$ as a trajectory, and the interval between the
+present and the Golden Point is exactly the crapshoot of pulling
+this off, embodied in technoanatomy contributions, the doing of
+things right or the failing to. The modern-day constraint that
+motivated the old merge is satisfied rather than violated: the
+internal hazard remains high on the whole historical timeline's
+present because the leaning of $\rho$, now that it counts, remains
+to be settled, which is consonant with the scaling observation of
+\S\ref{gr:subsub:kardashev}, a present-configuration scale-up
+collapsing, worse than ideal now yet with significant potential for
+improvement.
+
+What ``settled'' means under this design is fixed by one sketch,
+stated at \textbf{[P]} because it is an easy likelihood-ratio
+statement once the model is in hand. Let $\tau$ be the time at which
+$\rho$ crosses to its favorable side along a path, and compare two
+paths identical except that one crosses at $\tau_1$ and the other at
+$\tau_2>\tau_1$. The earlier crosser accumulates less hazard by
+$\Gamma\!\int_{\tau_1}^{\tau_2}\bigl(e^{-\rho_{\mathrm{adv}}x_t}
+-e^{-\rho_{\mathrm{fav}}x_t}\bigr)\,dt>0$, so its survival weight
+exceeds the later crosser's by the exponential of that quantity, and
+conditioning on survival reweights the unconditioned law of $\tau$
+by a factor decreasing in $\tau$: the conditional law of the
+crossing time is stochastically earlier than the unconditioned one,
+in the likelihood-ratio order. This is the \emph{survivorship prefers
+early change} statement, and it has a corollary that should be read
+carefully because the record tempts a misreading of it. From inside
+any surviving history that has not yet crossed, the conditional
+hazard of crossing is elevated, so every present looks like the
+moment at which the shot must be taken. That appearance is real as a
+statement about the conditioned law and misleading as a statement
+about capacity: the species can move $\rho$ just as much later as
+now, and what changes with delay is only that fewer surviving
+histories have it happening late, more survivors sprouting from the
+histories in which hazard was lowered earlier. The feeling that our
+shot is now is therefore a corollary of the preference for early
+change, present at every vantage the conditioning produces, and not
+evidence that the present vantage is special; this is the mechanism
+behind the refusal recorded at the occupancy discipline of the master \cite{GoldenMaster},
+which forbade the occupant claim before its cause was known.
+Settlement, accordingly, is not a freezing of $\rho$ but the point
+past which the conditional mass has largely moved, and $\rho_\infty$
+is the limit along surviving paths of a quantity that never stops
+being movable. The formal statement of both the process and its
+front-loaded settlement is Definition~\ref{sch:def:derailment} and
+Proposition~\ref{sch:prop:settlement}.
+
+The design wires into the standing structure at four points. The
+two-condition theorem reads on the settled value: viability becomes
+the indicator of $\rho_\infty>0$ times the escape factor with
+$\rho_\infty$ random, so the modern era is the era in which the
+indicator's argument is being determined, by pushes that could in
+principle have come at any time and are, under conditioning, front
+loaded. The fluctuating-anatomy corollary
+(Corollary~\ref{gr1:cor:recurrentanatomy}) is the bridge case,
+fluctuation before settlement. The preceding passage's
+identification gains its mechanism, the accordance-legible steps
+being the pushes. And the forward forcing extends to the settlement
+law: under asymptotic conditioning the law of $\rho_\infty$
+concentrates on the favorable side, for the reason
+Remark~\ref{gr1:rem:forwardforcing} states, and the preference for
+early change is that concentration's temporal profile.
+
+The formal debt this passage enters, at \textbf{[O]}, is the
+$\rho$-dynamics window theorem it presupposes, now specified by the
+sketch above: the leverage statement made exact, conditions on the
+crossing-time law and on the pre-crossing fluctuation under which
+the frozen-$\rho$ analysis survives as the limit along surviving
+paths, and the hazard accumulated before crossing remaining finite
+under stated tail conditions so that the theorem's conditional
+structure reads on $\rho_\infty$ unchanged. This is the best
+well-idealised model the author can presently state, and it is
+entered as design rather than result.
+
+\begin{remark}[The third term and the ceiling; \textbf{[S]}, with the
+theorem untouched]\label{sch:rem:thirdceiling}
+The natural next question, and the one a referee should ask, is
+whether a live and observable third term breaches the epistemic
+ceiling, since watching schedule steps land successfully amplifies
+credence that the asymptotic conditioning is the explanation, and
+under the conditioning one does well on all three terms by deduction.
+The answer is that the theorem is untouched while the texture
+changes, because the ceiling bounds certification of which measure
+the stochastic terms' law is under and never bounded credence, least
+of all credence drawn from the third term, whose steps are
+observable events rather than a law to be certified. Locally the two measures are equivalent, so every finite
+audit outcome has positive probability under both and no bounded
+observation decides the matter; but the likelihood ratio between
+them is free to climb without limit, and the amplification the
+question describes is exactly that climb. Indeed the deduction is
+the singularity read from the evidence side: the conditioned law
+predicts systematic schedule success where the unconditioned law
+predicts it rarely, each audited success multiplies the ratio, the
+divergence of the accumulated evidence is the mutual singularity at
+infinity, and its unreachability at finite times is the ceiling. The
+live third term does not breach the structure; it populates it,
+supplying the concrete observable carrier along which the permitted
+climb occurs.
+
+What the term genuinely adds is evidence that survives the
+mere-survival discount. Survival to the present is blunted by
+observer conditioning, as the fence on
+Remark~\ref{gr1:rem:forwardforcing} records, but the manner of the
+successes is finer-grained than survival: their prerequisite shape,
+their accordance structure, and the technological-condition
+specificity to which observer-conditioning is provably indifferent,
+which is where the comparative force of
+the flukes proposition of the Route World companion \cite{RouteWorld} lives after its restatement. The
+schedule channel is therefore the channel in which admissible
+evidence accumulates, the place where the deflation ``we would
+observe this regardless'' fails. The discipline is retained in full:
+amplification proceeds only at the audit's rate, route-deletion
+established case by case against the retrospective-target null
+(the theorem companion \cite{TargetedB1}), the clustering texture of
+Remark~\ref{sch:rem:notexhausted} standing as the scoreable check,
+and ``the only explanation'' read throughout as ``favored over the
+stated rivals,'' at \textbf{[S]}.
+
+One consequence for the extended model is entered with the window
+theorem's debt rather than asserted. If settlement occurs at a
+finite time and the settled value were observable, an adverse
+settlement would be a finite-time event of positive probability
+under the unconditioned law and probability zero under the
+conditioned one, so the extended model may permit certification in
+the uncontrolled direction while the consoling direction remains
+uncertifiable forever, preserving and sharpening the one-sidedness
+that the master document \cite{GoldenMaster} already records. Two provisos
+attach: local equivalence before settlement is to be verified for
+the extended model, and $\rho_\infty$ is a structural parameter
+whose direct observability is itself an idealization. Nothing here
+is consumed by the ceiling's standing dependents; the dependency
+runs toward the window theorem.
+\end{remark}
+
+\begin{remark}[The extreme-induction regime; \textbf{[S]}, regime-conditional]\label{sch:rem:inductionregime}
+The preceding remark describes a climb; this one classifies its
+asymptote. Suppose the skew of Aethic weight toward the Route World
+continues through enough Aethic time that the Route World comes to
+hold arbitrarily close to the whole of the weight. The ceiling never
+closes, by the theorem, and the question worth a remark is what the
+residual gap has become by then. The author's answer is that it
+converges categorically on the classic problem of induction: the
+live doubt remaining is of the same class as the doubt that the sun
+does not rise tomorrow, given the establishing of one's lifetime as
+the induction base \cite{Hume1748}. This is offered as class
+identity rather than analogy, since the remaining ways of being
+wrong are the Humean ways, and those attach equally to every piece
+of our most reliable ontological understanding. The phenomenology
+follows: human inference auto-interprets questions of that class as
+closed, because everything we treat as known already carries exactly
+that residual, so the ceiling's line, though never crossed, comes to
+feel crossed, and the feeling is not an error about the theorem but
+a correct classification of what the residual has become.
+
+What the regime licenses is a parity claim, and what it does not
+license is certification, and the two must be kept apart at the
+usual price. Once the residual is Humean, refusing closure here
+while granting it to gravity is an isolated demand for rigor, and
+the framework may say so; the theorem meanwhile stands untouched,
+the determinacy and the access split exactly as
+the master document \cite{GoldenMaster} left them. And the regime itself is
+conditional in a way the discipline will not waive: the skew must
+actually have accumulated, at the audit's rate, under the preceding
+remark's rules, so the classification is earned by the climb rather
+than assumed at its foot. The clause about human auto-interpretation
+is a psychology-of-inference observation and is entered as such, at
+\textbf{[S]}, alongside the rest.
+\end{remark}
+
+
+\section{Conditioning, forcing, and the settlement of the anatomy}\label{sec:forcing}
+
+\begin{remark}[The forward forcing: survival as asymptotically
+decisive evidence; sketch at \textbf{[P]}, reading at the ladder's
+grades]\label{gr1:rem:forwardforcing}
+A configuration-level consequence of the theorem deserves its own
+statement, because it is the forward-time mirror of the conditioning
+argument's past-direction climb. Let the configuration, the sign
+$\rho$ together with the driver class, be drawn from any prior that
+gives positive mass to the viable set, the configurations for which
+the theorem's product is positive. Non-viable configurations have
+survival probabilities decaying to zero, exponentially in the trapped
+regime and polynomially in the critical one, while viable
+configurations hold a positive limit, so the conditional probability
+of viability given survival to time $t$ tends to one: there is a soft
+threshold in $t$, set by the slowest non-viable clock, past which a
+surviving system is almost certainly in the configuration the
+two-condition theorem describes. On the event of survival forever the
+statement is no longer asymptotic but outright, since $T=\infty$
+entails $\Lambda_\infty<\infty$ almost surely and hence the viable
+configuration itself. In the author's words: each attribute
+intersection of the biosphere surviving through proper time $t$ tilts
+the disagreeing superposition of poles, the tilt becomes
+asymptotically decisive, and under full conditioning on indefinite
+survival the competence the Golden Point marks is not made likely but
+implied, there being a threshold beyond which surviving with
+non-Golden dangers of any kind still standing becomes arbitrarily
+unlikely. This is the to-the-future extension of the past-direction
+result that the same conditioning forces the evolutionary climb by
+which the Golden Point is reachable at all, the end-Cretaceous impact
+standing among the record's clearest instances as one of the bigger
+deadlocks which we fought through with Golden conditioning. Two fences hold
+unchanged. The mixture sketch is stated for the model's configuration
+space, with the identification of the viable configuration as the
+Golden Point's marker carried at the framework's usual grades and not
+at \textbf{[P]}; and the epistemic ceiling governs exactly as before,
+because this remark concerns the conditional law and not any
+observer's epistemic state, so survival so far, at any finite time,
+certifies nothing for the one surviving.
+\end{remark}
+
+\begin{corollary}[Recurrent anatomy is fatal; \textbf{[S]}]
+\label{gr1:cor:recurrentanatomy}
+If $\rho_t$ is recurrent on $\R$, if anatomy returns to negative
+values infinitely often, then $\Lambda_\infty=\infty$ almost surely,
+\emph{whatever the driver}. Each negative excursion occurring at
+technostrength $x_t$ contributes $e^{|\rho|x_t}$, and along any path on
+which strength accumulates this diverges superexponentially. Viability
+therefore requires $\rho_t$ to be eventually positive almost surely,
+transient upward, or absorbed above some $\rho_c>0$, and the
+two-condition theorem becomes a \emph{two-transience} condition:
+$\PP(\text{viable})=\PP(\rho_t\text{ eventually favorable and }x_t\text{
+viable})$, a joint probability, which is a product of two scale
+functions only when the anatomy and the driver are independent, and
+the anatomy generated by the schedule is not.
+\end{corollary}
+
+\section{Application: the Kardashev scale, and what the sign result refutes}\label{sec:refutes}
+
+\subsection{What Golden reasoning refutes}\label{gr:sub:refutes}
+
+\subsection{The Kardashev scale}\label{gr:subsub:kardashev}
+
+The usual complaint against Kardashev's scale \cite{Kar64} is that its
+thresholds, planetary, stellar, galactic energy capture, are
+arbitrary. That complaint is correct but weak, since a scale may be
+useful with arbitrary units. Golden reasoning supports three stronger
+objections, of which the first is a theorem.
+
+\emph{(i) The terminal stage exists, and is gated by a variable the
+scale cannot see.} In the driftless model $\Lambda_\infty=\infty$
+almost surely and no absorbing state of safety exists; in general one
+does, and locating it is what makes the objection bite. By
+Theorem~\ref{imp:twocond},
+\[
+\PP(\text{viable})=\one\{\rho>0\}\cdot
+\frac{s(\mu_0)-s(-\infty)}{s(+\infty)-s(-\infty)},
+\]
+so there \emph{is} an absorbing state of safety --- and reaching it
+requires two conditions, of which Kardashev's scale tracks at most one.
+The escape factor is the accumulation of capacity, which energy
+capture does index, however crudely. The anatomy factor is not on the
+scale at all: $\rho$ does not appear in energy capture, is not
+monotone in it, and cannot be inferred from it.
+
+The objection is therefore not that the ladder has no top but that
+\emph{climbing it is neither necessary nor sufficient for reaching the
+top}. Worse, by the master document \cite{GoldenMaster}, a biosphere with
+$\rho<0$ that climbs fast does not merely fail to arrive: its hazard
+diverges superexponentially in the very capacity the scale is
+measuring. A scale indexed on capture alone cannot distinguish the
+ascent that arrives from the ascent that is a fall. That last point is
+the vulnerable-world hypothesis \cite{Bostrom19} restated with a
+continuous parameter in place of a discrete draw, and
+the master document \cite{GoldenMaster} sets out what is and is not shared.
+
+\emph{(ii) The indexed quantity is not monotone.} Technostrength is
+stationary and recurrent in logarithmic time
+(Definition~\ref{gr:def:coords}). A ladder presumes a quantity that
+ratchets. Energy capture may of course ratchet while technostrength does
+not --- but then energy capture is not tracking the quantity that
+governs survival, which returns us to (iii). \emph{(iii) A magnitude index cannot represent categorical selection.}
+By Remark~\ref{gr:rem:truncresc}, survivorship truncates technoanatomy
+while merely rescaling technostrength. A one-dimensional index of
+magnitude has no coordinate in which to express a deleted half-space. It
+is not that Kardashev measures the less important variable, that
+claim is false, and was corrected above, but that it measures the one
+whose selection is quantitative, and is structurally unable to express
+the one whose selection is categorical.
+
+\paragraph{On Dyson spheres.}\label{gr:rem:dyson}
+Dyson's proposal \cite{Dys60} is often read as the natural
+Type~II signature. Under Golden reasoning it is better read as a
+\emph{hypothesis about technoanatomy} disguised as one about
+technostrength: it asserts not merely that a biosphere could capture
+stellar output but that a long-lived one would be organized so as to
+want to. That assertion is exactly what the master document \cite{GoldenMaster}
+disputes, and it should be recognized as an assertion rather than an
+extrapolation.
+
+
+\begin{remark}[The expansionist mirror: grabby selection]
+\label{gr:rem:grabby}
+One modern argument deserves separate notice because it reaches the
+Kardashev picture from selection reasoning --- this framework's own
+instrument. The grabby-aliens model observes that loud, expansionist
+civilizations dominate what is \emph{visible}, and runs anthropic
+timing arguments under that weighting \cite{HMMP21}. Read beside this
+section, that is a rival conditioning: weight by volume occupied and
+the typical survivor is an expander; weight by persistence and the
+two-condition theorem makes expansion-rate orthogonal to the factor
+that decides. The two conditionings are not in contradiction, one
+asks what is seen, the other what survives, but they license
+opposite extrapolations from the same record, and conflating them
+reproduces the Kardashev error at the level of selection effects:
+visibility-weighting smuggles in the assumption that the seen and the
+persisting are the same ensemble, which is exactly what the trough
+channel denies. The framework's quarrel is therefore not with the
+grabby model's arithmetic but with any normative or predictive reading
+of it that takes loudness for viability; Theorem~\ref{imp:ceiling} bounds
+what either conditioning can claim to certify.
+\end{remark}
+
+\subsection{The violent-aliens thesis}\label{gr:subsub:violence}
+
+The thesis in view holds that intelligence evolves preferentially in
+predators, hence that advanced biospheres are likely to be predatory or
+violent. We engage the position rather than any proponent.
+
+\begin{quote}\small
+``It was the saying of Bion, that though the boys throw stones at frogs
+in sport, yet the frogs do not die in sport but in earnest.''
+\hfill --- Plutarch, \emph{Moralia} \cite{Plutarch}
+\end{quote}
+
+\noindent The line is Bion of Borysthenes', preserved by Plutarch, who
+deploys it against hunting for sport; it has since been borrowed by
+astrobiological writing as the image of what a technologically superior
+biosphere might do to an inferior one. It is the right epigraph for this
+subsection because it names the assumption at issue more exactly than
+the conquest analogies usually offered. The serious form of the
+violent-aliens thesis is not that an advanced biosphere would hate us.
+It is that we would be \emph{beneath its consideration} --- that its
+power could be spent across the boundary between itself and us
+casually, without the expenditure ever rising to the level of a
+decision. The stones are thrown in sport. That is the claim, and any
+reply pitched at malice misses it.
+
+The image also fixes what the reply must not do. It must not argue that
+such a biosphere would be kind, since kindness is not what the thesis
+denies; nor that it would have outgrown violence, since sport is not
+violence in the relevant sense. What it must do is address the
+\emph{scaling}: whether a biosphere can be arranged so that power is
+spendable in that manner and still arrive at the scale where the
+spending would matter. Our own route to the present framework
+began from exactly this observation, three years before the model
+existed, and Section~\ref{sec:imports} records the entry.
+
+Before the model is brought to bear, a further placement is needed, because the \emph{conclusion} here is the one most likely to be mistaken
+for a new one and it is not. The conclusion, that anything old enough to encounter must be
+peaceable, is a standing argument in SETI, sometimes called the
+\emph{technological adolescence} argument, and it long predates this
+paper: a civilization reaching the capacity to destroy itself must
+either become socially responsible or fail to persist, so whatever
+survives has already made that transition. Cooper documents the
+argument and its currency, and also supplies the standing rebuttal: that
+it conflates altruism with amiability, that it is typically asserted
+rather than derived, and that it presumes a trajectory of moral
+improvement for which there is no evidence \cite{Cooper19}. Nothing
+below claims the conclusion as new. What is at issue is whether a
+mechanism can be supplied that survives Cooper's objection.
+
+The inference under dispute has the form: predatory origin
+$\Rightarrow$ predatory maturity. Golden reasoning denies the
+implication, on the grounds that it neglects the conditioning that must
+be applied before any encounter can be contemplated. Any biosphere one could meet is old; any biosphere
+that is old is drawn from $\PP^{(t)}$ for large $t$, not from $\PP$; and
+$\PP^{(t)}\to Q$, under which technoanatomy is truncated. Whatever
+selection operated at origin, a second and stronger selection operates
+over the trajectory, and it is the second that determines what survives
+to be encountered.
+
+\setcounter{premise}{3} % GUARD --- the text names this $\Phi4$; document order
+\begin{premise}[Origin does not transfer; \emph{premise}]
+\label{gr:phi4}
+Facts about the selective regime that produced intelligence in a
+biosphere do not, without further argument, transfer to the selective
+regime that governs that biosphere's persistence at world scale. The two
+regimes act on different units, at different scales, over different
+timescales.
+\end{premise}
+
+$\Phi4$ is not exotic; it is the ordinary observation that a trait
+adaptive for an organism in a population need not be adaptive for a
+biosphere in a universe. What the model adds is that the second regime
+is not merely different but \emph{stronger} in the relevant sense: it
+deletes a half-space of configurations, and it does so with a force
+measured in \S\ref{gr:subsub:measured}.
+
+What the model contributes to the frogs case in particular is a reply
+that never mentions disposition. A biosphere that can spend power
+casually across a self/other boundary is one that maintains such a
+boundary and enforces it --- and by the master document \cite{GoldenMaster} the
+enforcement of a boundary is interface-like while the domain it encloses
+is volume-like, so the arrangement carries $\rho<0$ by
+the master document \cite{GoldenMaster}. By the master document \cite{GoldenMaster} its
+viability probability is then exactly zero. The stone-throwers are not
+ruled out because they would have grown kind; they are ruled out
+because the organization that permits stone-throwing at that scale is
+the organization the scaling argument says cannot reach that scale. The
+frogs survive not by the boys' mercy but by the boys' having imploded
+before attaining the requisite size --- which is, in a form Bion would
+have recognized, the square--cube law again.
+
+Three further features distinguish this from the folk argument, and they
+are exactly the three points Cooper's rebuttal presses on. \emph{It is not
+a moral claim.} What is selected is $\rho$, the sign of
+$-\partial_x\log h^{\mathrm{int}}$ --- a structural property of how a
+biosphere is arranged, carrying no implication that its members are
+kind, and applying identically to a biosphere with no members in the
+relevant sense at all. The conflation of altruism with amiability has
+nothing to attach to. \emph{It is not asserted but measured.}
+\S\ref{gr:subsub:anatsel} exhibits the selection on $\rho$ and finds it
+\emph{gradual}, $0.75$ to $0.91$ over the horizons computed, where the folk argument implicitly treats the filtering as complete.
+\emph{And it is not a trajectory.} Nothing here says biospheres improve;
+$\rho$ does not change at all in the fixed model, and what conditioning
+does is reweight an ensemble, not move a system along a path. The
+selection is Darwinian in form rather than developmental, which is
+what the folk version gets wrong and Cooper is right to object to.
+
+This much, however, only establishes that predatory maturity is not
+\emph{inherited}. To conclude that it is positively \emph{selected
+against}, one needs the identification of predation with negative
+technoanatomy. That identification is a philosophical premise, and it is
+the subject of the next subsection. Everything in
+the master document \cite{GoldenMaster} is downstream of it.
+
+\subsection{Trajectory arguments for internal neglect}
+\label{gr:subsub:neglect}
+
+A third target belongs here, and it lies inside the biosphere rather
+than out among the aliens. Longtermism in its strong form holds that
+what most matters about our actions is their effect on the very long
+run \cite{GM21}; and a recurring corollary within that literature is
+that resources directed at the welfare of some populations do less for
+the long-run future than the same resources directed elsewhere, so that
+broad investment in the worse-off is not what a future-oriented agent
+should fund. We engage the corollary as a position and name no one, as
+with the violent-aliens thesis.
+
+The position is already under sustained criticism, and it is worth being
+exact about how the present objection differs, because the difference is
+what makes it worth adding. The standing critiques are \emph{external}:
+they fault longtermism on ethical and political grounds --- as an
+ideology with damaging real-world effects and a flawed underlying moral
+theory \cite{Crary23}, and as a doctrine whose cosmic accounting
+licenses the discounting of present suffering \cite{Torres21}. Those
+objections deny the framework's premises. The objection developed here
+does the opposite: it \emph{grants} the long-run criterion entirely, and
+shows the position failing by that criterion, on the framework's own
+terms and in its own currency. If it succeeds it is therefore not an
+alternative to the ethical critiques but a complement of a different
+kind --- an internal result rather than an external one.
+
+Stated at its strongest it is not a callous argument but an
+optimization: interventions differ in long-run leverage, a
+future-oriented agent should allocate to high-leverage interventions,
+and if the leverage of some interventions is low then funding them is a
+loss measured against the future. Nothing in that reasoning is invalid.
+The question is whether the leverage calculation is complete. Golden reasoning says it is not, and the missing term is technoanatomy.
+No new premise is required, and this is the point worth making: a
+position of this kind is $\Phi3$ with the boundary drawn \emph{inside}.
+Writing off part of a system is the maintenance of a self/resource
+distinction across an internal interface, a region of the biosphere
+to which protection is not extended, which is structurally the same
+object as the extractive boundary of the master document \cite{GoldenMaster}, and it
+inherits the same scaling. Enforcement of an internal boundary is
+interface-like; the interior it excludes is volume-like; so by
+the master document \cite{GoldenMaster} the arrangement carries $\rho<0$, and
+the master document \cite{GoldenMaster} applies verbatim.
+
+The consequence is that the position is self-undermining in its own
+currency, and sharply rather than rhetorically. By
+the master document \cite{GoldenMaster}(ii) a biosphere with $\rho<0$ has
+viability probability \emph{exactly zero} however much capacity it
+acquires; by (i) its viability is zero where a $\rho>0$ biosphere's is
+positive; and by
+the master document \cite{GoldenMaster} acquiring capacity faster makes its
+position worse, since $x\to\infty$ with $\rho<0$ drives hazard to
+infinity superexponentially. An argument that trades internal cohesion
+for external capacity, offered in the name of the long-run future, is
+therefore an argument for a shortened one --- not because neglect is
+distasteful, which the model cannot see, but because the boundary it
+requires is the structure the model identifies as fatal.
+
+The thought experiment that makes this concrete is worth stating,
+because it isolates the variable. Hold a society's technoanatomy fixed
+at whatever value its present arrangements realize, and scale its
+technostrength to galactic magnitude. If $\rho\ge0$, nothing goes
+wrong. If $\rho<0$, the hazard does not rise gently but spikes as
+$e^{|\rho|x}$: at every scale the same arrangement supplies more
+micro-opportunities for the system to act against itself, and each
+opens further ones. The elephant-sized ant of
+the master document \cite{GoldenMaster} is exactly this, and the square--cube
+law is exactly why.
+
+Four fences, because this is the section's most contestable
+application. It refutes a \emph{class} of positions, any that trades
+internal cohesion for external capacity, and not any author's wider
+view, nor longtermism as such: a longtermism that valued internal
+cohesion would be untouched, and the argument is in that sense a
+constraint on longtermist reasoning rather than a refutation of it. It is downstream of $\Phi3$ and inherits its conjecture grade;
+reject $\Phi3$ and this goes with it. And it establishes nothing about
+what anyone ought to do, by $\Phi2$: what it establishes is that a
+particular argument for neglect, evaluated by its own long-run
+criterion, fails on that criterion.
+
+
+\section{Application: the Precipice, engaged}\label{sec:precipice}
+
+\label{gc:subsub:precipice}
+
+The continuity principle has a standing rival, and it is the most
+serious one the field possesses: the periodization of Ord's
+\emph{Precipice} \cite{Ord20}. This work owes it a direct engagement
+--- not because the rivalry is total, but for the opposite reason. Of
+everything in the existential-risk literature, the Precipice's central
+definition is the nearest approach to the losing condition as this
+framework draws it, and the methodology companion's discipline applies
+with full force to nearest neighbors \cite{Ben26Method}: where a
+position is close, the deltas must be named exactly, because a dense
+neighborhood is precisely where a distinct position gets misfiled as a
+variant of what each reader already holds. The deltas here are three, the quantity, the shape of time, and the endpoint, and each is
+stated below after the position itself is stated at its strongest.
+
+\paragraph{The position, at its strongest.} The Precipice defines an
+existential catastrophe not as extinction but as \emph{the destruction
+of humanity's long-term potential} --- explicitly including
+unrecoverable collapse and unrecoverable dystopia alongside extinction
+--- and argues that humanity entered, in 1945, a period different in
+kind from all prior history: capability has outrun wisdom, anthropogenic
+risk now exceeds the natural background by orders of magnitude (the
+book's considered figures: something like one in six per century
+against roughly one in ten thousand), the period is short by
+civilizational standards, and the task it sets is \emph{existential
+security} --- risk brought low and locked low --- after which a Long
+Reflection can settle what the future is for. It is the most careful
+and most quantified statement of its picture in the literature, its
+treatment of its own uncertainties is honest, and its definition is
+modal in spirit: ``destruction of potential'' is closure-of-possibility
+language, and the inclusion of non-extinction catastrophes is exactly
+the concession that death and loss come apart. The definition
+descends from Parfit's asymmetry \cite{Parfit84}
+(the master document \cite{GoldenMaster}), and the descent matters below:
+what the Precipice inherits from Parfit is the intuition, and what it
+does not inherit, because nothing in the lineage supplies it, is
+a formal object for the intuition to be \emph{about}. All of that should be
+said before any of what follows, because what follows is not a
+dismissal. It is the claim that the Precipice's definition is right,
+that its own operationalization does not honor it, and that the
+periodization built on that operationalization inverts in the cases
+that decide.
+
+\paragraph{Delta one: the quantity. The ledger reverts to events.}
+The Precipice's definition points at membership in $\mu G$, a
+configuration property, the closure of possibility
+(the Route World companion \cite{RouteWorld},
+the master document \cite{GoldenMaster}), but its arithmetic is
+risk-per-century of catastrophe \emph{events}. The two come apart in
+both directions, and the separations are not corner cases; they are
+this framework's central theorems. A biosphere can be departed with no
+catastrophe on any ledger: past $\mu G$ nothing has yet happened, hazards fire later, members are unaware
+(the master document \cite{GoldenMaster}), and the sharpest instance is
+the undisturbed world of the master \cite{GoldenMaster}, which minimizes
+per-century catastrophe probability on the event bookkeeping and is
+already departed on the modal one: the safest world the ledger can
+describe is a lost world. And a biosphere can be undeparted while the
+event bookkeeping condemns it: in the critical regime departure is
+certain, expectancy is nonetheless infinite, advancing continuations
+exist, and everything the survivorship theory computes is computed
+there --- a world an event metric writes off with probability one is
+the world in which the entire structure of hope resides. So a ranking
+of worlds by existential-catastrophe probability misorders them
+relative to the quantity the Precipice's own definition names, and
+this framework's position is not that Ord's definition is wrong but
+that it deserves a formalization his ledger cannot give it: the
+framework sides with the definition against the arithmetic.
+
+\paragraph{Delta two: the shape of time. Gradient, not age.} The
+Precipice's picture is a threshold crossed --- one short age, different
+in kind, bracketed by Trinity on one side and by security or ruin on
+the other. Against this the framework sets three results it did not
+build for the purpose. First, continuity
+(the Continuity Principle of the Route World companion \cite{RouteWorld}, and the cascade of
+the target construction of the Route World companion \cite{RouteWorld}): the Departure Point has been available at
+every moment of the biosphere's history, the record's Miracles are
+earlier rounds of the same engagement rather than preliminaries to a
+modern one, and what 1945 changed is mediation and magnitude ---
+never the arrival of a losing condition that was absent before.
+Second, and this is the part that preserves everything the Precipice
+is right to insist on: the stakes claim is not disputed but
+\emph{re-derived}, and strengthened. the master document \cite{GoldenMaster}
+obtains by combinatorial construction what the Precipice obtains by
+periodization, each moment carries the highest stakes the lineage
+has yet faced, because a failure late in the chain forfeits the whole
+accumulated product, and a monotone sequence distinguishes every
+later point over every earlier one without distinguishing any point
+categorically (the master document \cite{GoldenMaster},
+the master document \cite{GoldenMaster}). The gradient picture therefore keeps
+the urgency and discards only the step. Third, the quantitative heart
+of the kind-claim, the ratio of anthropogenic to natural risk, divides a numerator estimated by judgment by a denominator estimated
+from the track record, and the track record is precisely what
+survivorship conditioning prices: a record read under conditioning on
+its reader shows rare natural catastrophe whether or not the
+underlying rates were kind. The literature knows this as anthropic
+shadow \cite{CSB10}, and the Precipice acknowledges it; the delta is
+that this framework supplies the machinery
+(Theorem~\ref{imp:ceiling}) in which the caveat stops being a footnote and
+becomes the subject --- the bias field is explicit, its magnitude is
+computable in-model, and ``natural risk is small'' and ``we are among
+survivors'' are hypotheses the finite record cannot separate. A
+periodization whose different-in-kind claim rests on that ratio rests
+on the one number the framework's own theorems say a survivor cannot
+read off their record.
+
+\paragraph{Delta three: the endpoint. Security decomposes.} The
+Precipice's terminal state, existential security, is risk
+brought low \emph{and known to be low}: a far side, reached and
+certified, on which the Long Reflection can convene. The framework
+decomposes this into one component it preserves and one it proves
+unavailable. Risk brought low is anatomy work, $\rho$ held
+positive, patching capacity maintained against acquired capability, and it is continuous, never completed, with the losing condition
+permanently adjacent; on this the two pictures can trade freely.
+Known to be low is a certification, and the ceiling
+(Theorem~\ref{imp:ceiling}, the master document \cite{GoldenMaster})
+forbids it to any finite observer: no bounded record places a
+biosphere on the favorable side, forfeiture itself is silent
+(the master document \cite{GoldenMaster}), and the unavailability points in
+exactly the direction that would have been consoling. So ``the
+Precipice, safely passed'' is not a state anyone could know themselves
+to occupy, and a research program whose success condition is
+unobservable in principle has misdrawn its own finish line --- the
+metaphor is doing load-bearing work the theory cannot support, since a
+precipice is the kind of thing that has a far side, and a
+superposition one inhabits is not. What replaces the finish line is
+not despair but the correct object: maintenance of the anatomy
+condition, graded and continuous, with the Golden Point as
+$\nu F$, a modal fixed point one may be inside without ever
+certifying it, rather than security as a date.
+
+\paragraph{A corollary: the hinge dissolves rather than resolves.}
+The debate downstream of the Precipice, whether the present is the
+``hinge of history'' \cite{MacAskill22, GM21}, is conducted on a
+shared assumption this framework denies: that hingeness is
+categorical, so that the present either is or is not the special
+moment. The framework's answer is neither side's. Every present is the
+hingiest yet, by the monotone-stakes construction --- so the
+influence-skeptic's base-rate argument attacks a claim the framework
+never makes --- and no present is categorically special, by
+continuity and by the tense-relativity of the conditioning's labels
+(the master document \cite{GoldenMaster}) --- so the hinge-proponent's
+conclusion is an artifact of reading a label that moves with the
+observer as a property of the moment. A graded hinge is had for free;
+a categorical one is unavailable; and the binary framing, not either
+answer to it, is what the formalism removes.
+
+\paragraph{What survives, and the fences.} Much survives, and it
+should be listed rather than implied: the urgency (re-derived, by
+construction rather than by period); the dominance of the
+anthropogenic channel (the trough channel is the unbounded one, and
+the framework gives that asymmetry a functional form rather than an
+estimate); the priority of risk-work over expansion (the
+anti-Kardashev results agree with the Precipice against the
+accelerationists); and most of the book's concrete policy content,
+which re-grounds without loss on the gradient picture. What does not
+survive is the quantity, the age, and the finish line. Three fences
+bound the engagement. Nothing here consumes the Route World --- the
+counter runs from the losing-condition analysis, the monotone-stakes
+construction, and the ceiling, so a reader who rejects every
+conditioning argument in this section keeps deltas one and three
+whole and loses only the third prong of delta two. Nothing here
+disputes the Precipice's numbers by offering rivals --- the
+framework's claim is that the decisive ratio is unreadable from a
+survivor's record, which is a reason to compute less, not
+differently. And nothing here diminishes the practical convergence:
+a reader persuaded by the Precipice to work on existential risk has
+been persuaded of the right conduct, on this framework's own showing
+(the master document \cite{GoldenMaster}), by an argument whose bookkeeping this
+subsection corrects and whose urgency it keeps.
+
+\paragraph{The provenance pattern, recorded once.} The engagement
+instantiates the methodology companion's criterion exactly
+\cite{Ben26Method}: the nearest neighbor's \emph{definition} already
+contains the correction, destruction of potential \emph{is}
+closure of possibility, while the neighborhood's density is what
+kept the modal formalization unoccupied, each camp filing the vacancy
+as territory already held. The prediction that discipline makes about
+reception is stated here so it can be scored: this engagement will be
+misfiled, confidently and in both directions, as ``a variant of Ord
+with extra mathematics'' and as ``a rejection of existential-risk
+studies.'' It is neither, and the deltas above are the scoring key.
+
+
+With the target fixed and its motivation stated, the question becomes
+evidential: is there reason to believe the record was in fact produced
+under it? The remainder of the section argues that there is, first by
+saying what alignment with such a target would look like
+(the master document \cite{GoldenMaster}), then by two model comparisons, one on
+natural history (the Route World companion \cite{RouteWorld}), one on human history
+(the master document \cite{GoldenMaster}), of which the second does not require
+the premise the first leans on.
+
+
+\section{What is not claimed}\label{sec:fences}
+
+\subsection{What this section does not claim}\label{gr:sub:fence}
+
+The fence is stated hard, on the companion's discipline that an
+apparatus which prices what it claims must also refuse what it does not
+\cite{Ben26Optimal}. It is not claimed that any observed system is Golden, ideally or
+practically; by Theorem~\ref{imp:ceiling} the ideal version is
+unknowable to any finite observer (the master document \cite{GoldenMaster}) and
+the practical version is out of reach for want of an ensemble. It is not claimed that the companion's cosmic
+weighting and the path measure $\PP$ of
+Section~\ref{sec:imports} are the same object; that
+identification is flagged as unperformed in
+the master document \cite{GoldenMaster} and nothing here depends on it. It is not
+claimed that any individual biosphere, ours included, will behave as
+$the master document \cite{GoldenMaster}$ describes; those are statements about a
+conditional distribution. No normative conclusion is claimed
+($\Phi2$). And the companion's natural-historical program, its
+conjectures, its bounds, its paleontological predictions, is not
+claimed, imported, or re-argued; $\Phi5$ enters as a stated result and
+nowhere else.
+
+One thing remains on the far side of the fence, because a fence is
+legible only if what it excludes can be seen. A program built on this
+section would inherit three commitments, stated here as refusable rather
+than as claims. It would be committed to the boundary-cost scaling of
+$\Phi3$ showing up in institutional and ecological data, not merely in
+argument. It would be committed to the truncation/rescaling asymmetry
+appearing in survivorship-selected populations generally. And it would
+be committed to the exponent's dependence on noise placement, $\tfrac14$
+for integrated drivers, $\tfrac12$ for Brownian ones, being visible
+in any domain where hazard dynamics can be measured directly. None of
+the three is established here, all three could be found false without
+touching a line of Section~\ref{sec:imports}, and that is the
+point of naming them.
+
+
+\section{Open problems}\label{sec:open}
+
+Every [O] tag in the paper is gathered here, and the numerical
+experiments' code and seeds are to be archived at a fixed repository
+with the exact environment and commit hash before circulation (AUTHOR
+TO SUPPLY). The largest is the
+$\rho$-dynamics window theorem the schedule presupposes: the leverage
+statement made exact, conditions on the crossing-time law and on the
+pre-crossing fluctuation under which the frozen-$\rho$ analysis survives
+as the limit along surviving paths, and finiteness of the hazard
+accumulated before crossing. The
+offset weighting of the schedule is emergent at scaling level and its
+constant is unevaluated. The leak law is stipulated, and its emergence
+from the schedule is open; every claim about the modern era's leverage
+is conditional on it. The front-loaded settlement result holds under
+stated monotone-coupling conditions, and whether the schedule's own
+dynamics satisfy them is open. The estimate
+of the anatomy's two constants from collapse-era returns data, along the
+Tainter route, is specified and not run. The fluctuating-anatomy
+corollary's bridge case is stated and its rate is open. Whether the
+internal channel is itself a schedule is argued at scaling level. The
+schedule's identification map, from accordance-legible steps in the
+record to the term's operation, is specified and not built. And the
+Precipice engagement's third delta, that security decomposes rather than
+arrives, is a structural claim awaiting a case in which a claimed security
+is shown to have decomposed.
+
+\section{Falsifiers}\label{sec:falsifiers}
+
+What would count against the paper's claims, in one place. Against the
+sign result's reading: a civilization exhibited whose capacity index
+tracks its viability across the sign change, which the theorem forbids
+and which would therefore refute the model rather than the reading.
+Against the schedule: a record in which prerequisites land at rates
+that do not spread logarithmically, or an open gate whose derailment
+hazard is unrelated to its favorable share. Against the prefers-early
+result: a surviving-path record in which the crossing to favorable
+anatomy is not front-loaded relative to the unconditioned law. Against
+the Precipice deltas: an event-priced ledger shown to track survival
+across a gradient reversal; a hinge shown to resolve rather than
+dissolve; a security shown not to decompose. Against the two errors'
+refutation: a configuration in which removing the muffling agent leaves
+viability positive, or one in which capacity alone, with adverse sign,
+delivers it. Against the ceiling no falsifier is offered, because it is a
+theorem; what it forbids is reading any of these, unfired, as
+certification.
+
+\section{Discussion: consequences and applications}\label{sec:discussion}
+
+The mechanism above has consequences that are not part of its
+mathematics, and they are collected here at the grade of applications
+rather than carried as sections of their own. What the sign result
+refutes beyond the Kardashev scale, the two errors about the human role,
+extinctionism and techno-optimism as mirror misreadings of one theorem,
+the environmental value that follows from the muffling agent's removal,
+the institutional reading of the ceiling, and the consequences for SETI
+and for governance were argued at length in earlier drafts and are
+retained in the master manuscript \cite{GoldenMaster}. The two carried
+here as applications, the Kardashev scale as the cleanest case of
+strength against anatomy and the Precipice as the cleanest comparison
+with existential-risk practice, are the ones the mechanism bears on most
+directly, and a reader who accepts the schedule mathematics and neither
+application has lost nothing the paper claims.
+
+\section{Conclusion}\label{sec:conclusion}
+
+The claim stated at the outset stands at its grades. Whether a biosphere
+can survive indefinitely is decided by the sign of what added capacity
+does to its internal hazard and not by the magnitude of its capacity,
+which is a theorem; the sign is being settled now at the highest
+leverage in the record, which is the schedule's modern-era term read on
+the design this paper enters; conditioning on survival prefers that it
+be settled early, which is the front-loading result and the mechanism
+behind every present's sense that it is the decisive one; and no finite
+observation can certify which way it has gone, which is the ceiling. The
+practice that follows is not a new ledger but a different quantity on
+the old one: an audit of what each added capacity does to the sign, in
+place of a tally of what could go wrong; a governance built for the
+regime where all the survivorship structure lives, rather than one that
+writes that regime off because an event metric condemned it; and
+humility placed in the objective, where the theorem puts it, rather than
+in the disclaimer. The Kardashev scale measures how visible a
+civilization is. The variable that decides whether it lasts is not on
+any scale, because it is a sign.
+
+\begin{thebibliography}{99}\small
+\bibitem{Ben25Seq} A.~K.~Benander, \emph{Sequential achievement},
+companion manuscript (AUTHOR TO VERIFY title and year).
+\bibitem{Ben26Method} A.~Benander, methodology companion (title to be
+supplied by the author at merge), working draft, 2026.
+\bibitem{Ben26Optimal} A.~Benander, \emph{The Optimal Earth: A
+Paradigmatic Re-Rendition of Natural History from Coupled
+Improbability}, working draft, 2026.
+
+\bibitem{Bostrom19} N.~Bostrom, \emph{The vulnerable world
+hypothesis}, Global Policy \textbf{10} (2019), no.~4, 455--476.
+
+\bibitem{CSB10} M.~M.~{\'C}irkovi{\'c}, A.~Sandberg, and N.~Bostrom,
+\emph{Anthropic shadow: observation selection effects and human
+extinction risks}, Risk Analysis \textbf{30} (2010), 1495--1506.
+\bibitem{Cooper19} K.~Cooper, \emph{The Contact Paradox:
+Challenging Our Assumptions in the Search for Extraterrestrial
+Intelligence}, Bloomsbury Sigma, London, 2019.
+
+\bibitem{Crary23} A.~Crary, \emph{The toxic ideology of
+longtermism}, Radical Philosophy \textbf{2} (2023), no.~14, 49--57.
+
+\bibitem{Dys60} F.~J.~Dyson, \emph{Search for artificial stellar
+sources of infrared radiation}, Science \textbf{131} (1960), no.~3414,
+1667--1668.
+
+\bibitem{GM21} H.~Greaves and W.~MacAskill, \emph{The case for
+strong longtermism}, Global Priorities Institute Working Paper 5-2021,
+University of Oxford, 2021.
+
+\bibitem{HMMP21} R.~Hanson, D.~Martin, C.~McCarter, and J.~Paulson,
+\emph{If loud aliens explain human earliness, quiet aliens are also
+rare}, Astrophys.\ J. \textbf{922} (2021), 182.
+\bibitem{Hume1748} D.~Hume, \emph{An Enquiry Concerning Human
+Understanding}, 1748 (AUTHOR TO VERIFY edition).
+\bibitem{Kar64} N.~S.~Kardashev, \emph{Transmission of
+information by extraterrestrial civilizations}, Soviet Astronomy
+\textbf{8} (1964), 217--221; Russian original, Astron.\ Zh.\
+\textbf{41} (1964), 282--287.
+
+\bibitem{MacAskill22} W.~MacAskill, \emph{Are we living at the hinge of
+history?}, in Ethics and Existence: The Legacy of Derek Parfit, Oxford
+University Press, 2022.
+\bibitem{Nexus} A.~Benander, \emph{Nexic Reasoning: Defining
+a Generalized Calculus Over Anthropic Parameters}, 2024,
+\texttt{doi:10.31219/osf.io/jvkcp}.
+
+\bibitem{Ord20} T.~Ord, \emph{The Precipice: Existential Risk and the
+Future of Humanity}, Bloomsbury, London, 2020.
+\bibitem{Parfit84} D.~Parfit, \emph{Reasons and Persons}, Oxford
+University Press, Oxford, 1984.
+\bibitem{Plutarch} Plutarch, \emph{Whether Land or Sea Animals Are
+Cleverer} (\emph{De sollertia animalium}), \S7, in \emph{Moralia};
+the saying is attributed there to Bion of Borysthenes.
+
+\bibitem{Torres21} \'E.~P.~Torres, \emph{Against longtermism},
+Aeon, 2021.
+
+\bibitem{GoldenMaster} A.~Benander, \emph{Golden Reasoning: Soft Horizons, Survivorship, and the Two-Channel Muffled Hazard}, master manuscript, 2026.
+\bibitem{RouteWorld} A.~Benander, \emph{The Route World: a Golden-reasoning hypothesis of biospheric natural history}, working draft, 2026.
+\bibitem{SurvA} A.~Benander, \emph{Survivorship conditioning for hazard rates driven at the log-derivative level}, working draft, 2026.
+\bibitem{TargetedB1} A.~Benander, \emph{Conditioning a record on its own future: targeted accordance and survivorship-conditioned path measures}, working draft, 2026.
+
+\end{thebibliography}
+\end{document}
