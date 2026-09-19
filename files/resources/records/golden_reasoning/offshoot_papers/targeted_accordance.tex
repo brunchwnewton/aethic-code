@@ -32,7 +32,7 @@ Route World hypothesis, not cited here so that the dependency runs one
 way, and the theorems here and the hypothesis there carry their
 different grades separately. Drafting collaboration: Anthropic Claude (Opus~4.x,
 Fable~5), under the author's direction.}}
-\date{September 2026 --- Working Draft, rev.~4}
+\date{September 2026 --- Working Draft, rev.~5}
 \begin{document}
 \maketitle
 
@@ -199,7 +199,8 @@ $\hm$ after a credit translation. No result below depends on which
 specialization is in force.
 \end{definition}
 
-\begin{theorem}[Locally ours, globally elsewhere; \textbf{[P]} in \cite{SurvA}]
+\begin{theorem}[Locally ours, globally elsewhere; \textbf{[P]} for the
+hard-wall law, \textbf{[C]} for the soft-wall law, in \cite{SurvA}]
 \label{thm:singular}
 In the critical regime $Q|_{\Fc_s}\ll\PP|_{\Fc_s}$ for every finite $s$,
 with mutual absolute continuity on the survival event, while $Q\perp\PP$
@@ -387,11 +388,14 @@ hypotheses in the same way.
 \end{definition}
 
 \begin{proposition}[The Bayes factor is the Doob density]\label{prop:bf}
-For a predeclared record statistic $E\in\Fc_s$, the Bayes factor between
-the conditioned and unconditioned laws is
+For a predeclared record statistic $E\in\Fc_s$, and with both laws
+conditioned on the common baseline $C$ of Remark~\ref{rem:survnull}
+wherever an observer's record is compared, the Bayes factor between the
+conditioned and unconditioned laws is
 \begin{equation}\label{eq:bf}
-\mathrm{BF}_{Q:\PP}(E)=\frac{Q(E)}{\PP(E)},
+\mathrm{BF}_{Q:\PP}(E)=\frac{Q(E\mid C)}{\PP(E\mid C)},
 \end{equation}
+which reads $Q(E)/\PP(E)$ when no baseline is shared;
 and on the full information $\Fc_s$ it is the likelihood ratio $Z_s$ of
 Definition~\ref{def:model}, the hard-wall Doob density or the soft
 Feynman--Kac density according to the specialization in force. If $E$ is required by the
@@ -473,7 +477,8 @@ diverge.
 
 \section{The limit on certification}\label{sec:ceiling}
 
-\begin{theorem}[No bounded observation certifies the law]\label{thm:ceiling}
+\begin{theorem}[No bounded observation certifies the law; grade as
+Theorem~\ref{thm:singular}]\label{thm:ceiling}
 In the critical regime, for every finite $s$, no event in $\Fc_s$ has
 probability one under $Q$ and probability zero under $\PP$ on the
 survival event, nor conversely. Consequently no observation of bounded
