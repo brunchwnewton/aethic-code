@@ -45,7 +45,7 @@ cited and restated, neither presupposed, and no downstream paper is
 cited. Drafting
 collaboration: Anthropic Claude (Opus~4.x, Fable~5), under the author's
 direction.}}
-\date{September 2026 --- Working Draft, rev.~3}
+\date{September 2026 --- Working Draft, rev.~4}
 \begin{document}
 \maketitle
 
@@ -69,7 +69,8 @@ branching process feeding the survivorship model through a
 surviving-completion kernel, with its derailment hazard, its modern-era
 term acting on the anatomy rather than the capacity, a survival-time
 threshold past which conditioning switches from favoring the unpushed
-schedule to favoring the optimally pushed one, and a
+schedule to favoring the pushed one, survival-weighted toward better
+completion states, and a
 survivorship-prefers-early-change result under stated monotone-coupling
 conditions; the leak law that makes the modern era the schedule's
 high-leverage stage is stipulated, and every consequence that depends on
@@ -110,8 +111,8 @@ schedule that is cleared, none of which a capacity index measures; on
 the schedule model entered here, whose leak law is stipulated, the sign
 is being settled now at the highest leverage in the record, conditioning
 on survival prefers that it be settled early, and past a survival-time
-threshold the same conditioning prefers the schedule pushed and pushed
-optimally; and no event of bounded duration can certify which way it
+threshold the same conditioning prefers the schedule pushed, tilted
+toward better completion states; and no event of bounded duration can certify which way it
 has gone.
 
 \emph{What is imported.} The companion in applied probability
@@ -153,7 +154,7 @@ with log-spread rates, its derailment hazard, its modern-era term acting
 on the anatomy rather than on the capacity, the surviving-completion
 kernel through which it feeds the survivorship model, the survival-time
 threshold past which conditioning switches from favoring the unpushed
-schedule to favoring the optimally pushed one, and the front-loading
+schedule to favoring the pushed one, tilted toward better completion states, and the front-loading
 result under stated monotone-coupling conditions. The two applications
 (Sections~\ref{sec:refutes} and \ref{sec:precipice}): the Kardashev
 scale as the cleanest case of strength against anatomy, and the
@@ -274,8 +275,9 @@ raises the biosphere's hazard \emph{to itself}.
 
 The two are of different kinds, and keeping them apart is the whole of
 what follows. Technostrength is a \emph{state coordinate}: it
-fluctuates, and by Theorem~\ref{imp:half} every biosphere, however well constituted, spends exactly half of logarithmic time
-with $x<0$. Technoanatomy is a \emph{structural property}: it does not
+fluctuates, and by Theorem~\ref{imp:half} a biosphere in the
+critical driftless regime, however well constituted, spends exactly half
+of logarithmic time with its credit below its initial level. Technoanatomy is a \emph{structural property}: it does not
 fluctuate at all, it says what capacity does when acquired, and
 $\rho<0$ names the biosphere whose own strength is turned against it,
 which is what the survivorship companion \cite{SurvA} means by eating oneself.
@@ -403,7 +405,8 @@ factor of $137$ at $T=4$, while $\PP(\rho>0)$ has moved only from
 $0.75$ to $0.84$ at the same horizon. Anatomy is the slower and the more
 decisive: by Theorem~\ref{imp:twocond} an adverse $\rho$ is
 eventually fatal with certainty, while adverse strength is a condition
-every biosphere occupies half of logarithmic time and survives.
+a biosphere in the critical regime occupies half of logarithmic time and
+survives.
 
 \paragraph{The coordinates stay separable.}\label{gr:rem:separable}
 Strength and anatomy cannot fuse under conditioning, and the reason is
@@ -625,10 +628,16 @@ with $\gamma_0$ enormous, so that before any gate is closed the credit
 is pinned at the origin to a degree with no practical upper bound, and $\gamma_n=0$ at completion.
 \end{definition}
 
-The solution of the first equation is
-$x_t=\int_0^te^{-\gamma_k(t-s)}\mu_s\,ds$: the credit is still the
-integral of the driver, accumulated additively, with each increment
-buffered by a multiplicative decay from the moment it lands. The leak is
+The solution of the first equation, with the stage index varying along
+the path, is
+\[
+x_t=e^{-\int_0^t\gamma_{k_u}du}\,x_0+\int_0^te^{-\int_s^t\gamma_{k_u}du}\,\mu_s\,ds,
+\]
+which reduces to the convolution $\int_0^te^{-\gamma_k(t-s)}\mu_s\,ds$
+only conditional on remaining at one stage $k$ throughout $[0,t]$: the
+credit is still the integral of the driver, accumulated additively,
+with each increment buffered by a multiplicative decay from the moment
+it lands, the decay rate being whatever stage is open when it lands. The leak is
 not an alternative to the survivorship companion \cite{SurvA} but a discounting of it. The second equation is the same commitment one derivative up, and it is
 what the picture requires rather than an extra assumption. The driver
 $\mu=-\tfrac{d}{dt}\log h$ is an \emph{improvement rate}, and a rate of
@@ -639,9 +648,10 @@ two levels. A biosphere's ancestors do not hold a small amount of
 technostrength --- they hold none, and what the pair of equations says is
 that excursions away from zero are transient rather than accumulated.
 
-At stage $k$ the deterministic part obeys $\tfrac{d}{dt}\log x=-\gamma_k$:
-capacity acquired before completion bleeds away at a rate each completed
-gate reduces. The leak is by hand, and making it emergent, $\gamma$
+At stage $k$, with the forcing $\mu$ switched off, the homogeneous part
+obeys $\tfrac{d}{dt}\log x=-\gamma_k$: capacity acquired before
+completion bleeds away at a rate each completed gate reduces, the
+forced process adding the driver's increments on top of that decay. The leak is by hand, and making it emergent, $\gamma$
 falling out of the schedule's own structure rather than being assigned
 to it, is the model's natural next target \textbf{[O]}.
 
@@ -764,9 +774,19 @@ Completing the chain confers no capacity. It confers only the ability to
 because of what Definition~\ref{imp:model} does at $x=0$.
 
 \begin{proposition}[An unheld $x$ leaves the crest at bare background;
-\textbf{[P]}]\label{sch:prop:gating}
-By the normalization of Definition~\ref{imp:model}, $\varsigma_b(0)=1$
-exactly, so $h^{\mathrm{crest}}\big|_{x=0}=B_t$; and the trough does not
+\textbf{[P]} in the pinned schedule model]\label{sch:prop:gating}
+Two models of the incomplete state are used in this section and are
+kept apart. In the \emph{pinned schedule model} the credit is
+identically zero while the schedule is incomplete, $x\equiv0$; in the
+\emph{leaky schedule refinement} of Definition~\ref{sch:def:leak} the
+incomplete credit is a damped stochastic process, $dx=\mu\,dt-\gamma_kx\,dt$.
+This proposition, the completion-weight fixed point
+\eqref{sch:eq:fixedpoint}, and the threshold proposition below are
+exact for the pinned model and are surrogate, scaling-level statements
+for the leaky refinement, in which the incomplete hazard is
+$B_t+\Gamma e^{-\rho x_t}$ with $x_t$ small rather than zero. In the
+pinned model, by the normalization of Definition~\ref{imp:model},
+$\varsigma_b(0)=1$ exactly, so $h^{\mathrm{crest}}\big|_{x=0}=B_t$; and the trough does not
 vanish there either, since $\Gamma e^{-\rho\cdot0}=\Gamma$. A biosphere
 that cannot hold $x$ therefore faces the external background unshielded
 \emph{and} pays the internal channel's full coefficient, at total
@@ -1206,21 +1226,14 @@ survivorship transform.\footnote{The same gap is recorded for the survivorship t
 The schedule does not win Golden-Point probability. It wins the
 probability of reaching the one state at which $x$ stops decaying, and
 everything the model already proves takes over from there. That gives
-the total a two-stage shape:
-\begin{equation}\label{sch:eq:composite}
-\PP(\text{advance})
-=\underbrace{\PP\bigl(Z\ \text{clears}\bigr)}_{\text{schedule:
-\eqref{sch:eq:fixedpoint}}}
-\;\times\;
-\underbrace{\E\Bigl[\PP\bigl(\Lambda_\infty<\infty\mid X_{\tau}\bigr)
-\Bigr]}_{\text{the model, from the completion state}},
-\end{equation}
-with $\tau$ the completion time and $X_\tau=(\mu_\tau,D_\tau)$ the
-\emph{model's} state at that moment --- the Kolmogorov pair of
-Definition~\ref{imp:model}, and not the schedule's debt $Z$, which is
-zero at $\tau$ by construction. The second stage is Theorem~\ref{imp:twocond} evaluated at the
-completion state, and the composite is written as a kernel rather than
-a product. Let $K_{\mathrm{sch}}(d\mu,dx,d\rho)$ be the \emph{surviving-completion
+the total a two-stage shape, schedule then model, with $\tau$ the
+completion time and $X_\tau=(\mu_\tau,D_\tau)$ the \emph{model's} state
+at that moment, the Kolmogorov pair of Definition~\ref{imp:model}
+and not the schedule's debt $Z$, which is zero at $\tau$ by
+construction.\label{sch:eq:composite} The second stage is
+Theorem~\ref{imp:twocond} evaluated at the completion state, and the
+composite is written as a kernel and not as a product, because the
+completion state depends on how the schedule was cleared. Let $K_{\mathrm{sch}}(d\mu,dx,d\rho)$ be the \emph{surviving-completion
 subprobability kernel}, the law of the full state the schedule leaves
 at $\tau$, driver, strength, and anatomy, weighted by survival to
 $\tau$,
@@ -1257,11 +1270,10 @@ channel's connection to the cascade is an identification rather than an
 analogy.
 
 \paragraph{The decomposition is hierarchical, not a product.}\label{sch:rem:hierarchical}
-\eqref{sch:eq:composite} should be read exactly. It is not an
-independence factorization, $X_\tau$ depends on how long the debt
-took to clear, so the two factors are not independent, but a
-hierarchical decomposition, and what makes it usable is that the
-influence runs one way. The schedule's law is autonomous: $\lambda_k$
+\eqref{sch:eq:threecond} should be read exactly. It is not an
+independence factorization, since $X_\tau$ depends on how long the debt
+took to clear, but a hierarchical decomposition through the kernel, and
+what makes it usable is that the influence runs one way. The schedule's law is autonomous: $\lambda_k$
 and $\pi_k$ consult the gate count and nothing else, so the schedule may
 be solved first, without reference to the driver. The leak then carries
 the schedule's verdict into the driver through $\gamma_{k_t}$, and the
@@ -1305,21 +1317,24 @@ option's \emph{own} rate and not its descendants'. Whether the tree
 formulation reproduces the sequence one at the level of
 \eqref{sch:eq:fixedpoint} is open \textbf{[O]}.
 
-\begin{remark}[Only the asymptote selects the schedule]
+\begin{remark}[Finite horizons select the schedule; the asymptote
+excludes its absence]
 \label{sch:rem:asymptote}
 The channel prices what climbing costs. Whether anything \emph{selects}
 for climbing is a separate question, and the answer separates the two
 conditioning events this work uses.
 
-\emph{Finite horizons do not select it.} Condition on $\{T>t\}$ for any
-finite $t$. A biosphere that never completes its schedule sits at bare
+\emph{Finite horizons select but do not exclude.} Condition on
+$\{T>t\}$ for any finite $t$; by Proposition~\ref{sch:prop:threshold}
+the conditioning favors completion increasingly with $t$, but never
+removes the alternative from the support. A biosphere that never completes its schedule sits at bare
 background with its internal channel at its bare coefficient, by
 Proposition~\ref{sch:prop:gating}, and survives to $t$ with probability
 $e^{-(B+\Gamma)t}>0$. The un-climbed branches therefore carry
 positive weight under every finite-horizon conditioning, and the lucky
 route, survive by not being struck, and never pay the schedule at all, remains in the support throughout.
 
-\emph{The asymptote does.} Condition instead on the viability event
+\emph{The asymptote excludes.} Condition instead on the viability event
 $\Imm=\{\Lambda_\infty<\infty\}$ of Definition~\ref{imp:model}. By
 Proposition~\ref{sch:prop:gating},
 $\PP\bigl(\Imm\mid\text{schedule incomplete}\bigr)=0$ \emph{exactly} ---
@@ -1361,13 +1376,17 @@ each route $r$ through the schedule by its survival weight, and as
 $t\to\infty$ the ratio of two routes' weights converges to the ratio of
 their persistence-harmonic prefactors at completion,
 $\hm(X^{(r)}_\tau)/\hm(X^{(r')}_{\tau'})$ (the conditioned-law theorem of \cite{SurvA}), so the
-conditioned law concentrates on the routes that maximize the
-survival-weighted completion state, the \emph{optimal route} through
-the schedule in the sense of \eqref{sch:eq:action};
+conditioned law \emph{tilts} the completed-route distribution by the
+persistence-harmonic prefactor at completion, toward better completion
+states; two routes with prefactors in the ratio $2{:}1$ keep limiting
+weights in that ratio, and concentration on the route maximizing
+\eqref{sch:eq:action}, the optimal route, follows only in a further
+limit in which the prefactor contrasts diverge, entered as
+\textbf{[S]};
 \item conditioning on asymptotic survival, $t\to\infty$, lies past
 $T_\ast$ for every parameter value, so the asymptotically conditioned
-law prefers the pushed-and-optimally-routed class outright, with the
-unpushed class excluded at the level of support by
+law prefers the pushed class outright, tilted toward better completion
+states, with the unpushed class excluded at the level of support by
 Proposition~\ref{sch:prop:gating}.
 \end{enumerate}
 \end{proposition}
@@ -1381,8 +1400,9 @@ term. (iii): conditioning on $\{T>t\}$ weights a route by
 $\PP(T>t\mid\text{route})$, which by the conditioned-law theorem of \cite{SurvA} is
 $\asymp C\,\hm(X_\tau)\,t^{-1/4}$ with the prefactor set by the completion
 state, so ratios of route weights converge to ratios of $\hm$ at
-completion; the route maximizing that prefactor is the maximizer of
-\eqref{sch:eq:action}. (iv): $T_\ast<\infty$ for every $p>0$, $C>0$,
+completion, which is the tilt; concentration would require the ratio of
+the maximal prefactor to every other to diverge, which no hypothesis
+here supplies. (iv): $T_\ast<\infty$ for every $p>0$, $C>0$,
 $B+\Gamma>0$, and the support exclusion is
 Proposition~\ref{sch:prop:gating}.
 \end{proof}
@@ -1391,8 +1411,10 @@ The proposition is the mechanism behind the ladder. A lineage
 conditioned on asymptotic survival is one whose schedule was pushed,
 since every unpushed history is exponentially suppressed past $T_\ast$
 and excluded at the asymptote; and among pushed histories the
-conditioning concentrates on the optimal route, since the survival
-weight of a route is its harmonic prefactor at completion. Below the
+conditioning tilts toward the better-completing routes, since the
+survival weight of a route is its harmonic prefactor at completion,
+and reaches the optimal route only in the limit of diverging
+contrasts. Below the
 threshold, the same conditioning says the opposite, that not pushing is
 the likelier history, because pushing is rare and the exponential
 penalty for not having pushed has not yet accumulated. This is why an
@@ -1662,12 +1684,16 @@ gates are totally ordered, that the law of each subsequent gate is
 conditionally independent of the past given the current anatomy, and
 that the cumulative hazard is monotone decreasing in every favorable
 increment and in every earlier favorable resolution time. Then
-conditioning on survival induces a monotone-likelihood-ratio tilt
-toward larger final anatomy and toward earlier crossing to $\rho>0$: the
-conditional law of $\rho_\infty$ dominates the unconditioned law and
-the conditional law of the crossing time is earlier, both in the
-likelihood-ratio order. Without the conditions the one-gate comparison
-below still holds, but its iteration over gates is not a theorem.
+conditioning on survival tilts the law of the final anatomy upward and
+the law of the crossing time to $\rho>0$ earlier in the sense of
+first-order stochastic dominance. If in addition the survival weight
+is log-supermodular, totally positive of order two, in the increments
+and the resolution times jointly, the tilt holds in the
+likelihood-ratio order. Coordinatewise monotonicity with conditional
+independence gives the dominance and not the likelihood-ratio order;
+the stronger conclusion needs the stronger hypothesis. Without the
+conditions the one-gate comparison below still holds, but its
+iteration over gates is not a theorem.
 \end{proposition}
 
 \begin{proof}[Sketch]
@@ -2574,9 +2600,15 @@ accumulated before crossing. The
 offset weighting of the schedule is emergent at scaling level and its
 constant is unevaluated. The leak law is stipulated, and its emergence
 from the schedule is open; every claim about the modern era's leverage
-is conditional on it. The front-loaded settlement result holds under
-stated monotone-coupling conditions, and whether the schedule's own
-dynamics satisfy them is open. The estimate
+is conditional on it. The front-loaded settlement result holds in first-order stochastic
+dominance under stated monotone-coupling conditions and in the
+likelihood-ratio order only under total positivity, and whether the
+schedule's own dynamics satisfy either is open. The pinned schedule
+model is exact and the leaky refinement is a surrogate, and the
+completion-weight fixed point for the leaky refinement is open.
+Concentration of the survival-conditioned route distribution on the
+optimal route, beyond the harmonic tilt, requires a diverging-contrast
+limit not established. The estimate
 of the anatomy's two constants from collapse-era returns data, along the
 Tainter route, is specified and not run. The fluctuating-anatomy
 corollary's bridge case is stated and its rate is open. Whether the
@@ -2641,8 +2673,8 @@ kernel; on the schedule model entered here, the sign is being settled
 now at the highest leverage in the record, which is the modern-era term
 read on a stipulated leak law; conditioning on survival prefers that it
 be settled early under stated monotone-coupling conditions, and past a
-survival-time threshold prefers the schedule pushed and pushed
-optimally, which is the mechanism of the ladder; and no event of bounded
+survival-time threshold prefers the schedule pushed, tilted toward
+better completion states, which is the mechanism of the ladder; and no event of bounded
 duration can certify which way it has gone, which is the ceiling. The
 practice that follows is not a new ledger but a different quantity on
 the old one: an audit of what each added capacity does to the sign, in
