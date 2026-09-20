@@ -6,7 +6,7 @@ layout: default
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>How Much Do We Underestimate Dinosaurs?</title>
+<title>How Much Do We Underestimate Dinosaurs? — Probabilistic Anatomy Paradigm</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=JetBrains+Mono:wght@400;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -286,6 +286,62 @@ layout: default
     padding-left: 6px;
   }
 
+
+
+  /* ── Model summary ── */
+  .model-strip {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 8px;
+    margin: -4px 0 18px;
+  }
+
+  .model-stat {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 10px 12px;
+    text-align: center;
+  }
+
+  .model-stat span {
+    display: block;
+    font-size: 9px;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 4px;
+  }
+
+  .model-stat strong {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .sigma-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+
+  .btn-sigma {
+    padding: 5px 9px;
+    font-size: 10px;
+    background: transparent;
+    color: var(--text-dim);
+    border: 1px solid var(--border);
+  }
+
+  .btn-sigma:hover, .btn-sigma.active {
+    border-color: var(--dino);
+    color: var(--dino-text);
+    background: var(--dino-glow);
+  }
+
   /* ── Tooltip ── */
   .tooltip {
     position: fixed;
@@ -326,6 +382,7 @@ layout: default
     .rank-num { width: 20px; font-size: 8px; }
     .score-label { width: 50px; font-size: 9px; }
     .slider-labels { flex-direction: column; gap: 4px; }
+    .model-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   }
 </style>
 </head>
@@ -337,35 +394,50 @@ layout: default
   </div>
   <div class="header">
     <h1>How Much Do We <em>Underestimate</em> Dinosaurs?</h1>
-    <p>Crowd-sourced combat ratings reflect a weight-based paradigm. Drag the slider to correct for anatomy — the thing that actually won Mesozoic fights.</p>
+    <p>Crowd-sourced Bradley–Terry ratings provide the baseline. Drag the slider through a probabilistic anatomy correction whose median dinosaur factor is 4.19×.</p>
   </div>
 
   <div class="slider-panel">
     <div class="slider-labels">
-      <span class="slider-label-left">Weight Paradigm</span>
+      <span class="slider-label-left">Crowd Baseline</span>
       <span class="slider-center" id="paradigmLabel">
         Crowd Consensus
         <span class="factor" id="factorLabel"></span>
       </span>
-      <span class="slider-label-right">Anatomy Paradigm</span>
+      <span class="slider-label-right">Anatomy Model (+2σ)</span>
     </div>
-    <input type="range" id="slider" min="0" max="1000" value="0">
+    <input type="range" id="slider" min="0" max="1000" value="0" aria-label="Anatomy correction strength">
     <div class="slider-buttons">
-      <button class="btn btn-ghost" id="resetBtn">Reset</button>
-      <button class="btn btn-primary" id="animateBtn">&#9654; Animate</button>
+      <button class="btn btn-ghost" id="resetBtn">Crowd baseline</button>
+      <button class="btn btn-primary" id="medianBtn">Median 4.19×</button>
+      <button class="btn btn-ghost" id="animateBtn">&#9654; Animate</button>
+    </div>
+    <div class="sigma-buttons" aria-label="Calibration presets">
+      <button class="btn btn-sigma" data-factor="2.536">−2σ</button>
+      <button class="btn btn-sigma" data-factor="3.260">−1σ</button>
+      <button class="btn btn-sigma" data-factor="4.189">Median</button>
+      <button class="btn btn-sigma" data-factor="5.384">+1σ</button>
+      <button class="btn btn-sigma" data-factor="6.919">+2σ</button>
     </div>
   </div>
 
   <div class="callout hidden" id="callout">
-    <strong>The Anatomy Paradigm:</strong> A <em>Dakotaraptor</em> overpowers a big cat
-    the same way a lion overpowers an unarmed human.<br>
-    The fight is measured in <em>seconds</em>.
+    <strong>The Probabilistic Anatomy Paradigm:</strong> the dinosaur multiplier is modeled as lognormal,
+    with median <strong>4.19×</strong>. The chart treats that median as the headline anatomy calibration and
+    lets you explore its log-space uncertainty.
+  </div>
+
+  <div class="model-strip">
+    <div class="model-stat"><span>Median dinosaur factor</span><strong>4.189×</strong></div>
+    <div class="model-stat"><span>1σ multiplicative factor</span><strong>×/÷ 1.285</strong></div>
+    <div class="model-stat"><span>1σ dinosaur band</span><strong>3.26–5.38×</strong></div>
+    <div class="model-stat"><span>2σ dinosaur band</span><strong>2.54–6.92×</strong></div>
   </div>
 
   <div class="legend">
     <div class="legend-item"><div class="legend-dot" style="background:var(--dino-bar)"></div>Dinosaur</div>
     <div class="legend-item"><div class="legend-dot" style="background:var(--meso-bar)"></div>Mesozoic Other</div>
-    <div class="legend-item"><div class="legend-dot" style="background:var(--mammal-bar)"></div>Extant / Cenozoic</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--mammal-bar)"></div>Baseline / unscaled</div>
     <div class="legend-item"><div class="legend-dot" style="background:var(--bench-bar)"></div>Big Cat Benchmark</div>
   </div>
 
@@ -375,22 +447,41 @@ layout: default
     <div class="tooltip-name" id="ttName"></div>
     <div class="tooltip-row"><span>Score</span><span id="ttScore"></span></div>
     <div class="tooltip-row"><span>Crowd baseline</span><span id="ttCrowd"></span></div>
+    <div class="tooltip-row"><span>Calibration</span><span id="ttSigma"></span></div>
     <div class="tooltip-correction" id="ttCorrection"></div>
   </div>
 
   <div class="footer">
     <p style="margin-bottom:8px">
-      <strong>How this works:</strong> Power ratings are fitted from &gt;2,000 crowd-sourced
-      matchup votes using a Bradley-Terry model. The crowd rates animals through a
-      <strong>weight paradigm</strong> — heavier animals score higher. But Mesozoic animals
-      fought with body plans refined over 160 million years: sickle claws, crushing jaws,
-      horns, clubs, and armor purpose-built for killing.
+      <strong>What the chart is doing:</strong> the baseline ratings come from a Bradley–Terry fit to
+      approximately 4,494 crowd-sourced matchup entries. The votes do <strong>not</strong> empirically identify
+      a dinosaur anatomy advantage. Instead, the crowd ranking is treated as a Cenozoic-calibrated baseline,
+      and the anatomy multiplier is an explicit sensitivity model placed on top of it.
     </p>
-    <p>
-      The <em>anatomy correction</em> rescales dinosaurs by ~12.7&times; so that a
-      Dakotaraptor overpowers a big cat the way a lion overpowers an unarmed human.
-      Mesozoic non-dinosaurs get &radic; correction (~3.6&times;). All scores are normalized
-      where Big Cat ≡ 100.
+    <p style="margin-bottom:8px">
+      <strong>The anatomy model:</strong>
+      <em>log F<sub>anat</sub> ~ N(1.43251, 0.25091²)</em>. Its median is 4.189×; one log-space standard
+      deviation is a multiplicative ×/÷1.285, giving 3.26–5.38×, and two give 2.54–6.92×.
+      Non-dinosaurian Mesozoic reptiles retain the visualization's deliberately weaker convention
+      <em>F<sub>meso</sub> = √F<sub>anat</sub></em>, whose median is 2.047×. The uncertainty here is calibration
+      uncertainty only, not uncertainty in the Bradley–Terry fit, taxonomy, mass estimates, or crowd composition.
+    </p>
+    <p style="margin-bottom:8px">
+      <strong>Where the distribution came from:</strong> two elicitation anchors were used only to fit the
+      lognormal model. A strong Dakotaraptor/Lion/Human geometric-spacing calibration implied about 10.14×;
+      a deliberate one-step log shrinkage gives 3.18×. Repeating the geometric-spacing idea with Utahraptor
+      gives about 7.27×. Because the lower anchor is already conservatively shrunk, the log-space center is
+      weighted 2:1 toward it, and the spread is chosen so that 15% of the probability lies outside the two
+      anchors. Once those parameters are fixed, the anchors are retired: the visualization speaks in medians
+      and standard deviations instead.
+    </p>
+    <p style="margin-bottom:8px">
+      <strong>The broader hypothesis:</strong> people may be systematically Cenozoic-calibrated. We have lived
+      our entire evolutionary and cultural experience after the disappearance of non-avian dinosaurs, in an
+      ecological regime opened by the K–Pg transition. If that transition represented a major release in the
+      background selection pressure on mammals, then ordinary intuition may underweight how much weapon geometry,
+      leverage, posture, armor, and attack mechanics mattered in heavily armed Mesozoic body plans. That is the
+      motivating "paradigm-blindness" thesis; it is <strong>not</strong> something the crowd data prove.
     </p>
     <p style="margin-top:8px;font-size:11px;color:#52525b">
       Matchup data sourced from the
@@ -398,139 +489,86 @@ layout: default
          target="_blank" rel="noopener"
          style="color:#71717a;text-decoration:underline;text-underline-offset:2px">
         Carnivora.net Interspecific Conflict Directory</a>.
-      Power ratings fitted via Bradley-Terry model.
-    </p>
-    <p style="margin-top:8px;font-size:11px;color:#52525b;line-height:1.7">
-      <strong style="color:#71717a">On the calibration:</strong>
-      The anatomy correction is my hypothesis, constrained so that
-      Dakotaraptor/Lion = Lion/unarmed&nbsp;Human — that is, equal
-      log-spacing, or equivalently, the same multiplicative ratio. This is not an arbitrary
-      choice: it is the point at which the anatomical difference is already most viscerally
-      intuitive to us. Everyone understands that a big cat takes down an unarmed human in seconds,
-      not because the cat is heavier, but because its claws, jaws, and reflexes are
-      purpose-built weapons against which bare skin and flat teeth are simply not viable.
-      The thesis is that a Dakotaraptor's sickle claws, jaw (it is looking
-      down at the tiger from above), and startling agility despite its size
-      do the same to a big cat: the fight is over before it begins, for exactly
-      the same anatomical reasons, scaled up one rung. Consider the jaws alone,
-      fully fleshed out as they actually were in life: a meter-long wall of
-      straight weaponry, serrated teeth lining an enormous lever arm. Think
-      about how much arm length alone affects a tennis serve. The jaw is the
-      arm length. A crocodile is already terrifying, and its jaws work from
-      below with limited leverage. A Dakotaraptor swings that lever from above,
-      with the full mechanics of its posture behind it. That difference in
-      leverage is basically the 12× correction in a single image. This is why
-      the fight is exactly like tiger vs. human. I don't care if
-      the tiger is swatting, or fleeing, or biting, the Dakotaraptor wraps its jaws
-      around the tiger's entire skull uninhibited.
-    </p>
-    <p style="margin-top:8px;font-size:11px;color:#52525b;line-height:1.7">
-      <strong style="color:#71717a">The broader claim:</strong>
-      The Mesozoic was an unrecognizable planet. Once theropod dinosaurs evolved, they
-      contaminated the environment in a way that is difficult to overstate. Body plans
-      refined over 160 million years into killing machines of a kind the Cenozoic simply
-      never reproduced. Think of it less as "dinosaurs were big" and more like an alien
-      invasion that already happened: the land was overrun, and by any measure of
-      evolutionary fitness, mammals had no answer. Our ancestors survived the Dark Era
-      (the formal term from my framework) not by competing with theropods but by hiding
-      from them: nocturnal, burrowing, small. The entire mammalian cognitive
-      architecture, from the limbic system to the structure of our senses, was forged
-      under that predation pressure.
-    </p>
-    <p style="margin-top:6px;font-size:11px;color:#52525b;line-height:1.7">
-      And then, somehow, it ended. The Chicxulub impactor struck at precisely the angle,
-      velocity, and location needed to terminate the theropod regime while preserving the
-      mammalian lineages that would eventually produce us. Assemble the hundred most
-      brilliant strategists in human history, grant them any technology, and ask them to
-      solve this problem. They would almost certainly fail. The variables are too
-      numerous, the margins too fine. That the specific impact configuration managed to
-      end this runaway system of anatomical escalation is, in my framework, capital-M
-      Miraculous: not a coincidence, but the kind of event whose staggering improbability
-      is constitutive of, rather than incidental to, our existence as observers.
-    </p>
-    <p style="margin-top:6px;font-size:11px;color:#52525b;line-height:1.7">
-      Also, p.s., somebody really needs to make a handheld-style CGI video of a
-      Dakotaraptor going against a tiger from within this paradigmatic view of mine.
-      It's going to be horrifying to watch (think dino Game of Thrones) but it sure
-      will get the point across! Seriously though, think about what seeing one saltwater
-      crocodile come out of the water online does to your perception. Nobody has had
-      that moment with dinosaurs yet, which is why people haven't calibrated what we're
-      dealing with here. If you do the math, the fight between a Dakotaraptor
-      and a tiger is less a fight and more a slaughter. Unpleasant as all hell, but it
-      really makes you appreciate what our ancestors sacrificed to get us here!
+      Power ratings fitted via Bradley–Terry model.
     </p>
     <p style="margin-top:8px;font-size:11px;color:#52525b">
-      For the formal framework:
-      <a href="https://philarchive.org/archive/BENNRD"
+      For the broader framework:
+      <a href="https://philarchive.org/archive/BENNRD.pdf"
          target="_blank" rel="noopener"
-         style="color:#71717a;text-decoration:underline;text-underline-offset:2px"
-         >Nexic Reasoning: Defining a Generalized Calculus Over Anthropic Parameters</a>
-      (Benander, 2024).
+         style="color:#71717a;text-decoration:underline;text-underline-offset:2px">Nexic Reasoning</a>
+      (Benander, 2024; later framework revisions ongoing).
     </p>
   </div>
 </div>
 
 <script>
+// September 2026 probabilistic anatomy-paradigm revision.
 const DATA = [
-  {n:"Ankylosaurus magniventris",c:11285.96,r:114463.14,t:"d"},
-  {n:"Tyrannosaurus rex",c:10583.97,r:107343.52,t:"d"},
-  {n:"Giganotosaurus carolinii",c:8560.53,r:86821.67,t:"d"},
-  {n:"Triceratops horridus",c:8030.76,r:81448.66,t:"d"},
-  {n:"Spinosaurus aegyptiacus",c:2922.95,r:29644.77,t:"d"},
-  {n:"Stegosaurus stenops",c:2796.75,r:28364.88,t:"d"},
-  {n:"Pliosaurus funkei",c:8229.44,r:26208.00,t:"m"},
-  {n:"Mosasaurus hoffmannii",c:5525.45,r:17596.70,t:"m"},
-  {n:"Allosaurus fragilis",c:1465.63,r:14864.59,t:"d"},
-  {n:"Carnotaurus sastrei",c:382.89,r:3883.33,t:"d"},
-  {n:"Utahraptor ostrommaysorum",c:266.75,r:2705.36,t:"d"},
+  {n:"Ankylosaurus magniventris",c:11285.96,r:47276.89,t:"d"},
+  {n:"Tyrannosaurus rex",c:10583.97,r:44336.25,t:"d"},
+  {n:"Giganotosaurus carolinii",c:8560.53,r:35860.06,t:"d"},
+  {n:"Triceratops horridus",c:8030.76,r:33640.85,t:"d"},
+  {n:"Spinosaurus aegyptiacus",c:2922.95,r:12244.24,t:"d"},
+  {n:"Stegosaurus stenops",c:2796.75,r:11715.59,t:"d"},
+  {n:"Pliosaurus funkei",c:8229.44,r:16843.23,t:"m"},
+  {n:"Mosasaurus hoffmannii",c:5525.45,r:11308.96,t:"m"},
+  {n:"Allosaurus fragilis",c:1465.63,r:6139.52,t:"d"},
+  {n:"Carnotaurus sastrei",c:382.89,r:1603.93,t:"d"},
+  {n:"Utahraptor ostrommaysorum",c:266.75,r:1117.42,t:"d"},
   {n:"Orca (Killer Whale)",c:2204.51,r:2204.51,t:"n"},
-  {n:"Dakotaraptor steini",c:191.29,r:1940.07,t:"d"},
+  {n:"Dakotaraptor steini",c:191.29,r:801.31,t:"d"},
   {n:"Woolly Mammoth",c:1446.97,r:1446.97,t:"n"},
-  {n:"Dilophosaurus wetherilli",c:116.92,r:1185.77,t:"d"},
+  {n:"Dilophosaurus wetherilli",c:116.92,r:489.78,t:"d"},
   {n:"African Bush Elephant",c:985.42,r:985.42,t:"n"},
   {n:"Great White Shark",c:852.66,r:852.66,t:"n"},
   {n:"Short-faced Bear",c:459.11,r:459.11,t:"n",fn:"Arctodus simus"},
   {n:"Hippopotamus",c:430.36,r:430.36,t:"n"},
   {n:"Saltwater Crocodile",c:417.21,r:417.21,t:"n"},
   {n:"Polar Bear",c:305.44,r:305.44,t:"n"},
-  {n:"Deinonychus antirrhopus",c:30.10,r:305.25,t:"d"},
-  {n:"Quetzalcoatlus northropi",c:70.20,r:223.58,t:"m"},
+  {n:"Deinonychus antirrhopus",c:30.10,r:126.09,t:"d"},
+  {n:"Quetzalcoatlus northropi",c:70.20,r:143.68,t:"m"},
   {n:"Smilodon fatalis",c:203.02,r:203.02,t:"n"},
-  {n:"Moros intrepidus",c:8.69,r:88.15,t:"d"},
+  {n:"Moros intrepidus",c:8.69,r:36.40,t:"d"},
   {n:"Tiger",c:148.27,r:148.27,t:"n"},
   {n:"Grizzly Bear",c:132.52,r:132.52,t:"n"},
-  {n:"LION ≡ 100",c:100,r:100,t:"b"},
+  {n:"LION ≡ 100",c:100,r:100.00,t:"b"},
   {n:"Siberian Tiger",c:88.44,r:88.44,t:"n"},
   {n:"African Lion",c:85.32,r:85.32,t:"n"},
   {n:"Jaguar",c:47.55,r:47.55,t:"n"},
-  {n:"Protoceratops andrewsi",c:3.71,r:37.65,t:"d"},
+  {n:"Protoceratops andrewsi",c:3.71,r:15.54,t:"d"},
   {n:"Leopard",c:29.61,r:29.61,t:"n"},
   {n:"Cougar",c:30.50,r:30.50,t:"n"},
   {n:"Dire Wolf",c:17.10,r:17.10,t:"n"},
   {n:"Spotted Hyena",c:17.26,r:17.26,t:"n"},
-  {n:"Velociraptor mongoliensis",c:1.66,r:16.80,t:"d"},
+  {n:"Velociraptor mongoliensis",c:1.66,r:6.95,t:"d"},
   {n:"Grey Wolf",c:9.71,r:9.71,t:"n"},
-  {n:"Coelophysis bauri",c:0.50,r:5.03,t:"d"},
+  {n:"Coelophysis bauri",c:0.50,r:2.09,t:"d"},
   {n:"Human",c:5.15,r:5.15,t:"n"},
   {n:"Rottweiler",c:4.45,r:4.45,t:"n"},
-  {n:"Pteranodon longiceps",c:1.40,r:4.47,t:"m"},
+  {n:"Pteranodon longiceps",c:1.40,r:2.87,t:"m"},
   {n:"Cheetah",c:4.37,r:4.37,t:"n"},
   {n:"Wolverine",c:3.86,r:3.86,t:"n"},
   {n:"German Shepherd",c:2.07,r:2.07,t:"n"},
   {n:"Human (female)",c:1.84,r:1.84,t:"n"},
   {n:"Honey Badger",c:1.65,r:1.65,t:"n"},
-  {n:"Yi qi",c:0.12,r:1.26,t:"d"},
+  {n:"Yi qi",c:0.12,r:0.50,t:"d"},
   {n:"Bobcat",c:1.28,r:1.28,t:"n"},
   {n:"Coyote",c:1.20,r:1.20,t:"n"},
-  {n:"Compsognathus longipes",c:0.09,r:0.93,t:"d"},
-  {n:"Linheraptor exquisitus",c:0.39,r:3.92,t:"d"},
+  {n:"Compsognathus longipes",c:0.09,r:0.38,t:"d"},
+  {n:"Linheraptor exquisitus",c:0.39,r:1.63,t:"d"},
   {n:"Red Fox",c:0.24,r:0.24,t:"n"},
 ];
+
+const DINO_MEDIAN = 4.189;
+const LOG_MU = 1.43251;
+const LOG_SIGMA = 0.25091;
+const DINO_MAX = 6.919; // +2 log-space SD
+const MESO_EXPONENT = 0.5;
 
 const COLORS = {
   d: { bar: '#dc2626', text: '#fca5a5', label: 'Dinosaur' },
   m: { bar: '#2563eb', text: '#93c5fd', label: 'Mesozoic Other' },
-  n: { bar: '#4b5563', text: '#9ca3af', label: 'Extant / Cenozoic' },
+  n: { bar: '#4b5563', text: '#9ca3af', label: 'Baseline / unscaled' },
   b: { bar: '#ca8a04', text: '#eab308', label: 'Benchmark' },
 };
 
@@ -570,12 +608,14 @@ const callout = document.getElementById('callout');
 const paradigmLabel = document.getElementById('paradigmLabel');
 const factorLabel = document.getElementById('factorLabel');
 const animateBtn = document.getElementById('animateBtn');
+const medianBtn = document.getElementById('medianBtn');
 const resetBtn = document.getElementById('resetBtn');
 const tooltip = document.getElementById('tooltip');
 const ttName = document.getElementById('ttName');
 const ttScore = document.getElementById('ttScore');
 const ttCrowd = document.getElementById('ttCrowd');
 const ttCorrection = document.getElementById('ttCorrection');
+const ttSigma = document.getElementById('ttSigma');
 
 let t = 0;
 let animating = false;
@@ -597,11 +637,34 @@ function fmt(v) {
   return v.toFixed(2);
 }
 
+function factorFromT(x) {
+  // Logarithmic path from the uncorrected crowd scale (1×) to +2σ (6.919×).
+  return Math.exp(Math.log(DINO_MAX) * x);
+}
+
+function tFromFactor(f) {
+  return Math.log(f) / Math.log(DINO_MAX);
+}
+
+function calibrationLabel(f) {
+  if (f < 1.03) return 'Crowd baseline';
+  const z = (Math.log(f) - LOG_MU) / LOG_SIGMA;
+  if (Math.abs(z) < 0.04) return 'Median';
+  if (Math.abs(z - 1) < 0.04) return '+1σ';
+  if (Math.abs(z + 1) < 0.04) return '−1σ';
+  if (Math.abs(z - 2) < 0.04) return '+2σ';
+  if (Math.abs(z + 2) < 0.04) return '−2σ';
+  if (f < 2.536) return 'Bridge from crowd baseline';
+  return `${z >= 0 ? '+' : ''}${z.toFixed(2)}σ`;
+}
+
 function render() {
+  const dinoFactor = factorFromT(t);
+  const mesoFactor = Math.pow(dinoFactor, MESO_EXPONENT);
   const items = DATA.map(d => ({
     ...d,
-    current: lerpLog(d.c, d.r, t),
-    mult: d.r / d.c,
+    current: d.c * (d.t === 'd' ? dinoFactor : d.t === 'm' ? mesoFactor : 1),
+    mult: d.t === 'd' ? dinoFactor : d.t === 'm' ? mesoFactor : 1,
   })).sort((a, b) => b.current - a.current);
 
   const maxVal = Math.max(...items.map(i => i.current));
@@ -610,23 +673,24 @@ function render() {
   const range = maxLog - minLog;
   const ref100 = ((Math.log10(100) - minLog) / range) * 100;
 
-  // Update slider label
-  const dinoFactor = lerpLog(1, 10.14, t);
-  if (t < 0.02) {
-    paradigmLabel.innerHTML = 'Crowd Consensus<span class="factor"></span>';
+  const calName = calibrationLabel(dinoFactor);
+  if (dinoFactor < 1.03) {
+    paradigmLabel.innerHTML = 'Crowd Consensus<span class="factor">Dino ×1.00</span>';
     paradigmLabel.style.color = '';
-  } else if (t > 0.98) {
-    paradigmLabel.innerHTML = `Anatomy Paradigm<span class="factor">Dino ×${dinoFactor.toFixed(1)}</span>`;
+  } else if (Math.abs(dinoFactor - DINO_MEDIAN) < 0.02) {
+    paradigmLabel.innerHTML = `Median Anatomy Paradigm<span class="factor">Dino ×${dinoFactor.toFixed(2)}</span>`;
     paradigmLabel.style.color = '#ef4444';
   } else {
-    paradigmLabel.innerHTML = `Blended (${Math.round(t*100)}%)<span class="factor">Dino ×${dinoFactor.toFixed(1)}</span>`;
-    paradigmLabel.style.color = '';
+    paradigmLabel.innerHTML = `${calName}<span class="factor">Dino ×${dinoFactor.toFixed(2)}</span>`;
+    paradigmLabel.style.color = dinoFactor >= 2.536 ? '#fca5a5' : '';
   }
 
-  // Callout
-  callout.classList.toggle('hidden', t < 0.4);
+  callout.classList.toggle('hidden', dinoFactor < 2.0);
 
-  // Build chart HTML
+  document.querySelectorAll('.btn-sigma').forEach(btn => {
+    btn.classList.toggle('active', Math.abs(dinoFactor - parseFloat(btn.dataset.factor)) < 0.025);
+  });
+
   let html = '';
   items.forEach((item, i) => {
     const logVal = Math.log10(Math.max(item.current, 0.3));
@@ -634,8 +698,9 @@ function render() {
     const col = COLORS[item.t];
     const isDino = item.t === 'd';
     const isBench = item.t === 'b';
-    const nameWeight = (isDino && t > 0.05) ? 700 : isBench ? 700 : 400;
-    const nameColor = isBench ? col.text : (isDino && t > 0.05) ? col.text : '#9ca3af';
+    const highlighted = (item.t === 'd' || item.t === 'm') && dinoFactor > 1.03;
+    const nameWeight = highlighted ? 700 : isBench ? 700 : 400;
+    const nameColor = isBench ? col.text : highlighted ? col.text : '#9ca3af';
     const barOpacity = isBench ? 0.5 : 0.75;
 
     html += `<div class="chart-row" data-idx="${i}" style="opacity:0.88">
@@ -643,25 +708,26 @@ function render() {
       <div class="animal-name" style="color:${nameColor};font-weight:${nameWeight}">${SHORT[item.n] || item.n}</div>
       <div class="bar-container">
         <div class="ref-line-100" style="left:${ref100}%"></div>
-        <div class="bar-fill" style="width:${barW}%;background:${col.bar};opacity:${barOpacity};${isDino && t > 0.05 ? 'box-shadow:0 0 '+(t*12)+'px '+col.bar+'60;' : ''}"></div>
+        <div class="bar-fill" style="width:${barW}%;background:${col.bar};opacity:${barOpacity};${highlighted ? 'box-shadow:0 0 '+(Math.min(t,1)*12)+'px '+col.bar+'60;' : ''}"></div>
       </div>
       <div class="score-label">${fmt(item.current)}</div>
     </div>`;
   });
   chart.innerHTML = html;
 
-  // Attach hover events
   chart.querySelectorAll('.chart-row').forEach((row, idx) => {
     const item = items[idx];
-    row.addEventListener('mouseenter', (e) => {
+    row.addEventListener('mouseenter', () => {
       const col = COLORS[item.t];
       ttName.textContent = item.fn || item.n;
       ttName.style.color = col.text;
       ttScore.textContent = fmt(item.current);
       ttCrowd.textContent = fmt(item.c);
-      if (item.mult > 1.01 && t > 0.01) {
-        const curMult = lerpLog(1, item.mult, t);
-        ttCorrection.textContent = `Correction: ×${curMult.toFixed(1)}`;
+      ttSigma.textContent = item.t === 'd' ? calibrationLabel(dinoFactor)
+        : item.t === 'm' ? `√ dinosaur factor (${mesoFactor.toFixed(2)}×)`
+        : 'Unscaled';
+      if (item.mult > 1.01) {
+        ttCorrection.textContent = `Correction: ×${item.mult.toFixed(2)}`;
         ttCorrection.style.display = '';
       } else {
         ttCorrection.style.display = 'none';
@@ -672,9 +738,7 @@ function render() {
       tooltip.style.left = (e.clientX + 16) + 'px';
       tooltip.style.top = (e.clientY - 20) + 'px';
     });
-    row.addEventListener('mouseleave', () => {
-      tooltip.classList.remove('visible');
-    });
+    row.addEventListener('mouseleave', () => tooltip.classList.remove('visible'));
   });
 }
 
@@ -693,20 +757,41 @@ resetBtn.addEventListener('click', () => {
   render();
 });
 
+medianBtn.addEventListener('click', () => {
+  t = tFromFactor(DINO_MEDIAN);
+  slider.value = Math.round(t * 1000);
+  if (animating) { cancelAnimationFrame(animId); animating = false; }
+  animateBtn.classList.remove('playing');
+  animateBtn.textContent = '◀ Reverse';
+  render();
+});
+
+document.querySelectorAll('.btn-sigma').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const f = parseFloat(btn.dataset.factor);
+    t = tFromFactor(f);
+    slider.value = Math.round(t * 1000);
+    if (animating) { cancelAnimationFrame(animId); animating = false; }
+    animateBtn.classList.remove('playing');
+    animateBtn.textContent = f > 1.05 ? '◀ Reverse' : '▶ Animate';
+    render();
+  });
+});
+
 animateBtn.addEventListener('click', () => {
   if (animating) return;
   animating = true;
   animateBtn.classList.add('playing');
   animateBtn.textContent = 'Playing...';
   const startT = t;
-  const targetT = startT < 0.5 ? 1 : 0;
+  const medianT = tFromFactor(DINO_MEDIAN);
+  const targetT = factorFromT(startT) < 1.05 ? medianT : 0;
   const startTime = performance.now();
-  const duration = 9000;
+  const duration = 7000;
 
   function tick(now) {
     const elapsed = now - startTime;
     let p = Math.min(elapsed / duration, 1);
-    // Ease in-out cubic
     p = p < 0.5 ? 4*p*p*p : 1 - Math.pow(-2*p + 2, 3) / 2;
     t = startT + (targetT - startT) * p;
     slider.value = Math.round(t * 1000);
@@ -716,7 +801,7 @@ animateBtn.addEventListener('click', () => {
     } else {
       animating = false;
       animateBtn.classList.remove('playing');
-      animateBtn.textContent = t > 0.5 ? '◀ Reverse' : '▶ Animate';
+      animateBtn.textContent = targetT > 0 ? '◀ Reverse' : '▶ Animate';
     }
   }
   animId = requestAnimationFrame(tick);
