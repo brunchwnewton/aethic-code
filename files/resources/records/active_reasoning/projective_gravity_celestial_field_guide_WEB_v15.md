@@ -1,4 +1,4 @@
-# Projective Gravity — Version 15.2
+# Projective Gravity — Version 15.3
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases
 
@@ -49,7 +49,7 @@ Conflating them was the error that made the seed look like a postulate.
 | **shell** | the set of points at fixed nonzero distance from a source worldline, within its normal space |
 | **complex shell** $\Sigma^\mathbb{C}_{\gamma,R}$ | the same at fixed *complex* radius about a *complex* worldline: an affine quadric, a complex surface |
 | **spin phase** $U(1)_H$ | the compact fiber of the shell lift; the physical real form of the complex stabilizer $\mathbb{C}^\times$ |
-| **meridian** | a leaf of the one-dimensional foliation $U_{\rm mer}$ of the middle space. In the static limit, a great circle of $S^4$ through both poles |
+| **meridian** | a leaf of the one-dimensional **meridian structure** $U_{\rm mer}$ — regular as a foliation away from controlled singular sets. In the static limit, a great circle of $S^4$ through both poles, and there the structure is a **pencil**, not a foliation: distinct meridians meet at the poles |
 | **twin** | given $x\in B_{\rm rep}$, the other point $\tau x$ of the same meridian, with $\tau^2 = 1$ and $q(x) = q(\tau x)$ |
 | **barren twin** | a twin carrying no matter, at which gravitational curvature is nevertheless nonzero. **The seed** |
 | **$T_\pm$** | $T_\pm(x) = T(x)\pm T(\tau x)$: the even and odd parts of matter under the twin map |
@@ -62,7 +62,7 @@ Conflating them was the error that made the seed look like a postulate.
 
 $$E^{(6)}\ \xrightarrow{\ /\,U(1)_H\ }\ \mathcal{M}^{(5)}\ \xrightarrow{\ /\,U_{\rm mer}\ }\ B_{\rm grav}^{(4)},\qquad B_{\rm rep}^{(4)}\hookrightarrow\mathcal{M}^{(5)}$$
 
-Verified consistent: a circle quotient drops one dimension, a one-dimensional foliation quotient drops one more, and an embedded hypersurface of a five-manifold is four-dimensional **[V]**. Two distinct losses of information occur, and they must not be confused:
+Verified consistent: a circle quotient drops one dimension, a one-dimensional meridian quotient drops one more, and an embedded hypersurface of a five-manifold is four-dimensional **[V]**. Two distinct losses of information occur, and they must not be confused:
 
 | quotient | what is forgotten |
 |:--|:--|
@@ -209,20 +209,31 @@ Gravity does not ask which representative in $q^{-1}(b)$ holds the matter. It as
 > up to whatever density factor an action supplies. **The map $dr$ is what makes the sum well-typed**: tensors at $x$ and $\tau x$ live in different tangent spaces and cannot be added until the quotient supplies the identification. The shorthand $T^{(g)}([x]) = T(x)+T(\tau x)$ is this expression with that step suppressed. The same solution fixes the canonical fiber length (§III.2). Law I introduces **no additional scalar degree of freedom** — no dilaton, no radion, nothing with a $1/r$ coupling. **But recovery of the observed PPN parameters does not follow from that alone here**, because photons and detectors live on $B_{\rm rep}$ while Law I solves on $B_{\rm grav}$: it additionally requires the induced metric on $B_{\rm rep}$ to reproduce general relativity's optical metric, and the map $g_G\to g_{\rm rep}$ has not been derived **[O]**.
 
 > ### ◆ LAW II — THE MERIDIANS
-> The middle space carries a one-dimensional foliation $U_{\rm mer}$. The representational base resolves its representatives; gravity quotients it. In the static spherical limit it must reduce to the great circles of $S^4$ through both poles, with quotient $\mathbb{RP}^3$. The general equation selecting the foliation is **open** **[O]**.
+> The middle space carries a one-dimensional **meridian structure** $U_{\rm mer}$, regular as a foliation away from controlled singular sets. (In the static limit it is a *pencil*: distinct meridians meet at the poles, so it is not a foliation of all of $S^4$ — §VIII.1.) The representational base resolves its representatives; gravity quotients it. In the static spherical limit it must reduce to the great circles of $S^4$ through both poles, with quotient $\mathbb{RP}^3$. The general equation selecting the foliation is **open** **[O]**.
 
-> ### ◆ LAW III — THE CANONICAL CONNECTION STRUCTURE
-> *Not a field equation: there is no dynamics here, and the name is kept only for continuity with earlier versions.*
+> ### ◆ STRUCTURE III — THE CANONICAL CONNECTION
+> *Numbered III for continuity with earlier versions, but **not a law**: there is no field equation here, and calling it one would misdescribe the document's own architecture.*
 > The canonical fiber carries a connection $\mathcal{A}_H$ with curvature $F_H = d\mathcal{A}_H$. Its **topological class is fixed by the spin geometry**: $c_1 = \pm1$ on every shell, the Hopf class, independent of the source's mass or any parameter. The reference connection is the canonical Hopf connection, and deformations away from it leave $c_1$ untouched, since $\int_{S^2}d\alpha = 0$. In an adapted metric they appear as **two local connection cross-components**, whose gauge-invariant content is fixed only after quotienting the $U(1)$ gauge freedom $A\mapsto A+d\lambda$ (§III.3). **Nothing in this version sources them, and no matter-coupling law is asserted** **[O]**.
 
 > ### ◆ LAW IV — ELECTROMAGNETISM
 > Maxwell on $B_{\rm rep}$, with $\epsilon = \mu_{\rm EM} = 1$. Light resolves meridian representatives and does **not** perform the gravity quotient. The field lives downstairs, so its pullback to $E$ is **$U(1)_H$-invariant** — it does not couple to the fiber. (Earlier drafts called it a "zero mode," which implies a Kaluza–Klein expansion this version does not perform; see §X.1.)
 
-## III.1 What each law is, and what you deduce from it [D]
+## III.1 What each is, and what you deduce from it [D]
 
-| | **Law 0** | **Law I** | **Law II** | **Law III** | **Law IV** |
+The epistemic architecture, at a glance:
+
+| | role |
+|:--|:--|
+| **Law 0** | existence and ontology |
+| **Law I** | dynamics |
+| **Law II** | meridian structure |
+| **Structure III** | canonical connection — no dynamics |
+| **Law IV** | electromagnetism |
+
+
+| | **Law 0** | **Law I** | **Law II** | **Structure III** | **Law IV** |
 |:--|:--|:--|:--|:--|:--|
-| **is** | an existence axiom | Einstein's equations | a singular pencil | a **connection structure**, not a field equation | Maxwell |
+| **is** | an existence axiom | Einstein's equations | a meridian structure, a **pencil** where singular | a **connection structure**, not a field equation | Maxwell |
 | **lives on** | $E$ | $B_{\rm grav}$ | $\mathcal{M}$ | the canonical fiber | $B_{\rm rep}$ |
 | **determines** | the arena and its fiber | $g_G$, hence $\Omega$, hence $L_H$ | the twin pairing and $B_{\rm grav}$ | $\mathcal{A}_H$ | $\mathcal{F}$ |
 | **sourced by** | — | $T_+$, the **even** part | the primary's degeneracies | **nothing** — the class is fixed at $c_1 = \pm1$ | charge |
@@ -235,15 +246,23 @@ In the conformal/static sector, with $g_{\rm spatial} = \Omega^2g_{\rm ref}$ and
 
 $$L_H = \Omega\,L_H^{\rm ref},\qquad\text{so to first order}\qquad \frac{\delta L_H}{L_H} = -\Phi$$
 
-**Fibers lengthen in wells by exactly the potential, and space stretches as much as time slows.**
+> **To first order, the fiber-length increase tracks the Newtonian potential**, and space stretches as much as time slows. The qualifier is not decorative: the relation parts company with Schwarzschild at $O(m^2/r^2)$, as the scope box below shows.
 
 > **Gravity does not create the fiber — the spin geometry supplies it (Part I). Gravity determines its metric size.**
 
-**The direction of explanation, stated carefully [D/O].** It would overstate the case to say the fiber length *causes* base gravity. Until an action is exhibited in which varying the canonical metric yields Einstein's equation downstairs, the defensible relation is an **encoding**:
+**The direction, stated carefully [D/O].** The defensible relation is **one-way**:
 
-$$g_G \quad\Longleftrightarrow\quad L_H$$
+$$g_G\ \longmapsto\ L_H = \mathcal{F}[g_G]$$
 
-Law I solves the base geometry; the canonical metric is constrained so that its fiber length *records* that solution. If such an action is later found, the arrow may be reversed and base gravity called emergent from the fiber. **Not yet.**
+Law I solves the base geometry; the canonical metric is then constrained so that its fiber length records part of that solution.
+
+> **A two-way relation would be much stronger, and is not claimed.** $g_G$ is a metric; $L_H$ is a single scalar function. One scalar cannot in general reconstruct four-dimensional geometry — this document itself separately carries a lapse $N$, a conformal factor $\phi$, and a meridian scale $\kappa$ (§IV.5). A statement $L_H\Leftrightarrow g_G$ would hold only in a restricted one-function sector, and no such sector has been isolated here **[O]**.
+
+**And the future emergence claim is a different one.** If an action is later exhibited in which varying the *full* canonical metric yields Einstein's equation downstairs, what that would establish is
+
+$$\hat g\ \Longrightarrow\ g_G$$
+
+**not** $L_H\Rightarrow g_G$. The six-dimensional metric carries far more than its fiber length, and conflating the two would claim emergence from a scalar that only emergence from the whole metric could support. That distinction is likely to matter later.
 
 *Scope.* This is a first-order statement. Isotropic Schwarzschild has $N = (1-m/2r)/(1+m/2r)$ while $N = \Omega^{-1}$ would require $(1+m/2r)^{-2}$; expanding, $1-m/r+m^2/2r^2$ against $1-m/r+3m^2/4r^2$ — they agree to first order and part at $O(m^2/r^2)$, with $N\Omega = 1-m^2/4r^2$ **[V]**. Imposing $N\Omega = 1$ exactly gives the Majumdar–Papapetrou form and hence extremal Reissner–Nordström, $Q = M$ — every body an extremal black hole, **excluded** **[V/T]**. Deriving the locking from an action, rather than imposing it, is open **[O]**.
 
@@ -275,7 +294,7 @@ The two are **local connection cross-components** of an adapted metric, not two 
 > ### ◆ A NOTE ON THE TAGS IN THIS PART
 > Every result below was verified or derived **in the architecture of versions 6 through 14**. They are stated in full because they are the theory's content, but within version 15 they carry the tag **[C]** — *conditional on the static regression of §VIII.1*. Where a bracket below reads $[V]$ or $[D]$, it records the status of the original computation, not a claim that the result has been re-established here.
 >
-> **What the condition now amounts to is much less than it was.** §VIII.1 discharges the central link — Law II's static limit really does give great-circle meridians with quotient $\mathbb{RP}^3$, and that is now *derived* rather than required. What remains conditional is the step from the derived static geometry to each specific number.
+> **What the condition amounts to.** §VIII.1 splits the static limit into two parts: an **assumption [S]** that the meridian structure is the antipodal great-circle pencil, and a **derivation [D]** that such a pencil has quotient $\mathbb{RP}^3$. *The static limit as a whole is therefore not derived* — only its quotient is, and only given the pencil. Everything below is conditional on the assumption as well as on the remaining regression steps.
 
 ## IV.1 The twin theorem [V]
 
@@ -307,7 +326,7 @@ The Hessian's trace is the matter; its trace-free part is the tidal field. For S
 
 $$ds^2 = -N^2dt^2 + L_H^2\big(d\theta+\alpha\big)^2 + \kappa^2du^2 + \phi^4g_{S^3}$$
 
-with $N$ and $L_H$ from Law I, $\alpha$ the Law III connection, $u$ the meridian and $\kappa$ its scale. For a point mass, $\phi = 1 + GM/2r + O(r^2/\ell^2)$, and the four-dimensional part is **isotropic Schwarzschild exactly**:
+with $N$ and $L_H$ from Law I, $\alpha$ the connection of Structure III, $u$ the meridian and $\kappa$ its scale. For a point mass, $\phi = 1 + GM/2r + O(r^2/\ell^2)$, and the four-dimensional part is **isotropic Schwarzschild exactly**:
 
 $$ds^2_4 = -\left(\frac{1-GM/2r}{1+GM/2r}\right)^2dt^2 + \left(1+\frac{GM}{2r}\right)^4\big(dr^2+r^2d\Omega_2^2\big)$$
 
@@ -558,7 +577,7 @@ Variation with respect to $g_G$ should produce the meridian-reduced source; cons
 | "representational middle space" / "quotiented middle space" | both are **bases**; the middle space is the single derived five-dimensional layer |
 | a real $S^2$ shell used *before* complexification | at the analytic level it is the affine quadric; the 2-sphere is its real form (§I.2) |
 | the projective null-cone quadric as the default source shell | that object belongs to null-direction geometry, not fixed-radius shells (§I.7) |
-| $TS^4$ as the arena (version 14) | replaced; it made the fiber contractible and cost Law III its home |
+| $TS^4$ as the arena (version 14) | replaced; it made the fiber contractible and cost the connection structure its home |
 | an external fundamental $\mathbb{R}_t$ | time belongs to the Lorentzian real structure |
 | the Hopf fiber *as* Kerr rotation | rotation is complex worldline displacement; the fiber is the shell's spin lift (§VI.2) |
 | an extra $U(1)$ with no spin-geometric origin | the circle is now the compact real form of $\mathbb{C}^\times\subset SL(2,\mathbb{C})$ (§I.3) |
@@ -583,6 +602,9 @@ Variation with respect to $g_G$ should produce the meridian-reduced source; cons
 | "nothing is added; a source is moved" | the complex shift supplies the Kerr complex structure, but the full metric also needs the Kerr–Schild null-congruence construction and a reality prescription, and generalized Newman–Janis is ambiguous away from special cases (§VI.1) |
 | $q^*g_G$ as the metric felt on the representational base | $q$ is a submersion, so $q^*g_G$ is **degenerate** along the meridian. The right object is $r^*g_G$ with $r = q\circ\iota$ (§V.1) |
 | reading the two $\pi_1$ factors as two independent quantum numbers | an associated-bundle representation problem, not a homotopy count; §VII.4 is now tagged open |
+| the biconditional $g_G\Leftrightarrow L_H$ | a single scalar cannot in general reconstruct a four-dimensional metric; only the one-way map $g_G\mapsto L_H$ is defensible (§III.2) |
+| describing the **static limit** as derived | only its *quotient* is derived, and only given the antipodal great-circle pencil, which remains an assumption (§VIII.1) |
+| calling $U_{\rm mer}$ a foliation without qualification | in the static case distinct meridians meet at the poles, so it is a **pencil**, not a foliation of all of $S^4$ (Law II) |
 | $v^2_{\rm eq} = 4GM/\pi\ell$ | 15% low; the converged value is $1.497\,GM/\ell$ (§IV.8) |
 | $N\Omega = 1$ as an **exact** condition | it gives Majumdar–Papapetrou and hence extremal charge for every body (§III.2) |
 | time as emergent from a fiber's latitude (version 12) | a type error: a complex structure has $J^2 = -1$, no real eigenvectors, and *pairs* directions where time must *select* one |
@@ -592,7 +614,7 @@ Variation with respect to $g_G$ should produce the meridian-reduced source; cons
 1. **The global $E$** (§II.1b). Part I's shell lives on the *normal space*, a space of vectors; passing to nearby points of the middle space uses the exponential map, which is local, with curvature, cut loci and caustics obstructing it globally. Whether **one** six-dimensional $E$ restricts to the unit Hopf bundle around **every** worldline at once is unproved. **The version's central construction problem** — and a sharper one than what it replaces, since the local spin geometry is settled and only the gluing is not. (The cohomological obstruction of §II.1a is separate and is handled by the meridian removal.)
 2. **Deriving the fiber-length locking** from an action (§III.2). Until then $g_G\Leftrightarrow L_H$ is an encoding, not a causal claim, and the explanatory arrow cannot be reversed.
 3. **The two open connection components** (§III.3). Deliberately unassigned. If the theory later says what they do, that will be a result; asserting it now would not be.
-4. **The meridian foliation in the general dynamical case** (Law II). The static limit is now derived (§VIII.1); away from maximal symmetry nothing selects the leaves. And **why the leaves are closed** remains the sharpest sub-question, since closure is what forces the bisection and hence the seed (§II.3).
+4. **What selects the meridian structure** (Law II) — in the static case *and* the general one. §VIII.1 derives the quotient $S^3/\pm = \mathbb{RP}^3$ **given** the antipodal great-circle pencil, but nothing derives the pencil: it is an assumption there, and away from maximal symmetry nothing selects the leaves at all. **Why the leaves are closed** remains the sharpest sub-question, since closure is what forces the bisection and hence the seed (§II.3).
 5. **Time:** an input, belonging to the Lorentzian real structure; its uniqueness is not derived, and three routes to deriving it have failed.
 6. **The remainder of the static regression** (§VIII.1): the quotient metric, its Green's function, and the orbit equations. The *geometric* link — great circles with quotient $\mathbb{RP}^3$ — is now discharged.
 7. **The dark-sector calculation** (§VIII.4, item 10) — what stress-energy an observer infers by applying Einstein's equation on $B_{\rm rep}$ instead of $B_{\rm grav}$. **The theory's sharpest quantitative target.** It is not a prediction until it is computed, and computing it is what would turn this architecture into phenomenology.
@@ -601,7 +623,9 @@ Variation with respect to $g_G$ should produce the meridian-reduced source; cons
 10. **Emergent $G$** (§VIII.3): an open coupling problem — define an operationally appropriate mass variable and show a candidate coupling fills both the inertial and gravitational roles.
 11. **Inherited:** the AdS uplift; the two arenas; the literature review.
 
-**A research branch worth opening, not folding in [O].** A referee has pointed to work of June 2026 (Kim, *Phys. Rev. Lett.*) deriving Kerr as a nonlinear superposition of self-dual and anti-self-dual Taub–NUT instantons, presented as a physical derivation of the Newman–Janis relation. That post-dates this author's reliable knowledge and is recorded on the referee's citation rather than independently verified. If it holds it bears directly on the original motivation for looking at self-dual structure at all — and it is the right thing to explore **next**, rather than to restructure this version around.
+**A research branch worth opening, not folding in [T/O].** Kim, *Phys. Rev. Lett.* **136**, 231401 (9 June 2026), "Newman–Janis Algorithm from Taub–Newman–Unti–Tamburino Instantons," derives the Kerr metric as a **nonlinear superposition of self-dual and anti-self-dual Taub–NUT instantons** and interprets this as a physical derivation of the Newman–Janis relation. *(This post-dates the present author's reliable knowledge; the citation was supplied and verified by a referee.)*
+
+It bears directly on the motivation for looking at self-dual structure in the first place, and it addresses exactly the gap flagged in §VI.1 — that the complex shift alone is not a complete derivation. **It does not validate the canonical construction here**, and this version is not restructured around it. It is the natural next branch.
 
 **The constant count.** The theory's explicit constants are now just $G$ and $\Lambda = 1/\ell^2$, plus whatever the eventual Law II dynamics introduces. **$m_{\rm unit}$ and $g_2$ went with the flux sector**, and the permeability function $\mu(\rho)$ went with the old Law II, whose equation this version no longer contains — it was an orphan in the previous draft and is removed (§X.1).
 
@@ -624,7 +648,7 @@ Variation with respect to $g_G$ should produce the meridian-reduced source; cons
 | **the centrepiece** | **spin geometry fixes the fiber's topology; gravity fixes only its metric length** |
 | **Law I** | Einstein on $B_{\rm grav}$, source $T^{(g)}_b = \sum_{r^{-1}(b)}((dr)^{-1})^*T$ with $r = q\circ\iota$; also fixes $L_H = \Omega L_H^{\rm ref}$ |
 | **the metric light feels** | $g^{(G)}_{\rm rep} = r^*g_G$, **not** $q^*g_G$ — the latter is degenerate along the meridian |
-| **the arrow** | $g_G\Leftrightarrow L_H$, an **encoding**. Not a causal claim until an action reverses it |
+| **the arrow** | one-way: $g_G\mapsto L_H = \mathcal{F}[g_G]$. A scalar cannot reconstruct a metric, so no biconditional is claimed; and a future emergence result would be $\hat g\Rightarrow g_G$, not $L_H\Rightarrow g_G$ |
 | **$G$ identity** | $GM_c/c^2\ell = \pi/2$; equivalently $r_s(M_c) = \pi\ell$, the antipodal distance |
 | **metric decomposition** | $6 = 3+1+2$ on the real shell ✓ — a block count of *components*, not propagating degrees of freedom. $3+1$ from Law I; the last **2 left open** |
 | **black holes** | ordinary Schwarzschild, or Reissner–Nordström with the ordinary $Q$. No second charge |
@@ -637,4 +661,6 @@ Variation with respect to $g_G$ should produce the meridian-reduced source; cons
 | **Chern class** | $c_1 = \pm1$ on every shell, **fixed by spin geometry** — not mass-dependent, no $m_{\rm unit}$, no fork |
 | **golf ball** | its shells carry exactly what Earth's do. No competition, no crossover, no winding counts |
 | **free constants** | $G$ and $\Lambda$, plus whatever Law II's dynamics brings. $m_{\rm unit}$, $g_2$ and $\mu(\rho)$ all retired |
+| **the static limit** | pencil **[S]** $+$ quotient $S^3/\pm = \mathbb{RP}^3$ **[D]**. The limit as a whole is *not* derived — only its quotient, and only given the pencil |
+| **Structure III** | a connection structure, **not a law**: no field equation, $c_1 = \pm1$ fixed, two local cross-components with $A\mapsto A+d\lambda$ unquotiented |
 | **the obstruction** | $H^2(S^4) = 0$: Law 0 needs the secondary meridians removed, as every earlier version did |
