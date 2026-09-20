@@ -10,6 +10,12 @@
 > $$\mathbb{C}^\times\ \longrightarrow\ SL(2,\mathbb{C})\ \longrightarrow\ Q^2_{\rm aff}\cong SL(2,\mathbb{C})/\mathbb{C}^\times$$
 > whose compact real form is the ordinary Hopf fibration $U(1)\to SU(2)\simeq S^3\to S^2$. **So the Hopf character is no longer decoration. It is the compact real form of the complex spin geometry belonging to an isotropic shell**, and it was the right guess for the wrong reason in every version that assumed it.
 >
+> **The centrepiece.**
+> $$\boxed{\ \text{spin geometry fixes the fiber's topology;}\qquad\text{gravity fixes only its metric length.}\ }$$
+> These are different kinds of information. The spin structure says what the fiber **is** — $U(1)\hookrightarrow SU(2)\simeq S^3\to S^2$ with $c_1 = \pm1$ — and Law I says how large that already-existing circle is at each base point, $L_H = \mathcal{F}[g_G]$. Changing $L_H$ does not change the Chern class or make it a different bundle. One fixed spin-derived Hopf bundle, whose fibers stretch and contract with the gravitational geometry.
+>
+> **What this version retires.** Because the fiber is now *derived*, its Chern class is **fixed at $\pm1$** — not a free integer. That contradicts the inherited second-order sector, in which $c_1 = M_-/m_{\rm unit}$ was mass-dependent with a free parameter. **The whole flux branch therefore goes** (§X.1): the quantum $m_{\rm unit}$, the quantization fork, mass-proportional winding counts, the Reissner–Nordström-like charge $P$ and its Mercury bound, and the candidate source law $dF_H = 2\pi\star J_-$. This is not a loss of content but the removal of an inconsistency — and it takes two free parameters with it.
+>
 > **The seed, in one line.**
 > > Light resolves a representative in $B_{\rm rep}$; gravity resolves only its meridian class in $B_{\rm grav}$.
 >
@@ -182,7 +188,7 @@ Gravity does not ask which representative in $q^{-1}(b)$ holds the matter. It as
 > The middle space carries a one-dimensional foliation $U_{\rm mer}$. The representational base resolves its representatives; gravity quotients it. In the static spherical limit it must reduce to the great circles of $S^4$ through both poles, with quotient $\mathbb{RP}^3$. The general equation selecting the foliation is **open** **[O]**.
 
 > ### ◆ LAW III — THE CONNECTION
-> The canonical fiber carries a connection $\mathcal{A}_H$ with curvature $F_H = d\mathcal{A}_H$. The candidate odd-sector law is $dF_H \overset{?}{=} 2\pi\star J_-$, with $J_- = \rho_-/m_{\rm unit}$. **Not promoted to a law until the source coupling is derived** **[O]**.
+> The canonical fiber carries a connection $\mathcal{A}_H$ with curvature $F_H = d\mathcal{A}_H$. Its **topological class is fixed by the spin geometry**: $c_1 = \pm1$ on every shell, the Hopf class, independent of the source's mass or any parameter. The reference connection is the canonical Hopf connection. **Deformations away from it are two geometrical degrees of freedom per shell (§III.3), and nothing in this version sources them.** No matter-coupling law is asserted **[O]**.
 
 > ### ◆ LAW IV — ELECTROMAGNETISM
 > Maxwell on $B_{\rm rep}$, with $\epsilon = \mu_{\rm EM} = 1$. Light resolves meridian representatives and does **not** perform the gravity quotient. The photon is the zero mode on the canonical fiber and couples to none of it.
@@ -194,9 +200,9 @@ Gravity does not ask which representative in $q^{-1}(b)$ holds the matter. It as
 | **is** | an existence axiom | Einstein's equations | a foliation | a first-order curvature law | Maxwell |
 | **lives on** | $E$ | $B_{\rm grav}$ | $\mathcal{M}$ | the canonical fiber | $B_{\rm rep}$ |
 | **determines** | the arena and its fiber | $g_G$, hence $\Omega$, hence $L_H$ | the twin pairing and $B_{\rm grav}$ | $\mathcal{A}_H$ | $\mathcal{F}$ |
-| **sourced by** | — | $T_+$, the **even** part | the primary's degeneracies | $J_-$, the **odd** part (candidate) | charge |
-| **status** | structural | **dynamical** | kinematic | kinematic, **unproved coupling** | dynamical |
-| **what you deduce** | the Hopf lift on every shell (§I.4) | orbits, tides, redshift, black-hole exteriors, the $v^2$ plateau (Part IV) | which points are twins; the seed (Part V) | Chern numbers on meridians; the Aharonov–Bohm phase | the photon's kinematics; the twin's optical barrenness |
+| **sourced by** | — | $T_+$, the **even** part | the primary's degeneracies | **nothing** — the class is fixed at $c_1 = \pm1$ | charge |
+| **status** | structural | **dynamical** | kinematic | kinematic, **unsourced** | dynamical |
+| **what you deduce** | the Hopf lift on every shell, with $c_1 = \pm1$ (§I.4) | orbits, tides, redshift, black-hole exteriors, the $v^2$ plateau (Part IV) | which points are twins; the seed (Part V) | the Aharonov–Bohm phase of the fixed Hopf class | the photon's kinematics; the twin's optical barrenness |
 
 ## III.2 Law I locks the fiber length [S]
 
@@ -206,7 +212,13 @@ $$L_H = \Omega\,L_H^{\rm ref},\qquad\text{so to first order}\qquad \frac{\delta 
 
 **Fibers lengthen in wells by exactly the potential, and space stretches as much as time slows.**
 
-> The reading is cleaner than in earlier versions: **gravity does not create the fiber — the spin geometry supplies it (Part I). Gravity determines its metric size.**
+> **Gravity does not create the fiber — the spin geometry supplies it (Part I). Gravity determines its metric size.**
+
+**The direction of explanation, stated carefully [D/O].** It would overstate the case to say the fiber length *causes* base gravity. Until an action is exhibited in which varying the canonical metric yields Einstein's equation downstairs, the defensible relation is an **encoding**:
+
+$$g_G \quad\Longleftrightarrow\quad L_H$$
+
+Law I solves the base geometry; the canonical metric is constrained so that its fiber length *records* that solution. If such an action is later found, the arrow may be reversed and base gravity called emergent from the fiber. **Not yet.**
 
 *Scope.* This is a first-order statement. Isotropic Schwarzschild has $N = (1-m/2r)/(1+m/2r)$ while $N = \Omega^{-1}$ would require $(1+m/2r)^{-2}$; expanding, $1-m/r+m^2/2r^2$ against $1-m/r+3m^2/4r^2$ — they agree to first order and part at $O(m^2/r^2)$, with $N\Omega = 1-m^2/4r^2$ **[V]**. Imposing $N\Omega = 1$ exactly gives the Majumdar–Papapetrou form and hence extremal Reissner–Nordström, $Q = M$ — every body an extremal black hole, **excluded** **[V/T]**. Deriving the locking from an action, rather than imposing it, is open **[O]**.
 
@@ -214,16 +226,20 @@ $$L_H = \Omega\,L_H^{\rm ref},\qquad\text{so to first order}\qquad \frac{\delta 
 
 A metric on the three-manifold $S^3$ has $3\cdot4/2 = 6$ components. Adapted to the circle bundle $S^3\to S^2$:
 
-| block | count | candidate content |
+| block | count | content |
 |:--|--:|:--|
-| shell 2-metric | 3 | even gravitational geometry |
-| fiber length $L_H$ | 1 | even gravitational scale |
-| connection cross-terms | 2 | odd / placement sector |
+| shell 2-metric | 3 | the base geometry, from Law I |
+| fiber length $L_H$ | 1 | the gravitational fiber scale, from Law I |
+| connection geometry | 2 | **open** — unassigned freedom |
 | **total** | **6** | ✓ **[V]** |
 
 So the attractive $3+1+2$ partition survives — **on the physical real slice**. Version 15 does not assert it for the full complex shell; the complex homogeneous bundle is the analytic parent, and the real slice is where the metric count is performed.
 
-**Only half is structurally motivated [O].** Quotient gravity determines the even base geometry and Law I locks the fiber length to it — that is the $3+1$. That odd matter must occupy the remaining $2$ is a conjecture until the coupling is derived. **The reason for retaining it is stronger than before**: the connection is no longer attached to an arbitrary circle, but to the compact real fiber of the spin-shell lift, and the real-shell metric leaves exactly two components beyond base and length.
+**Three of the six are assigned; two are not [D].** Gravity determines the shell geometry and Law I locks the fiber length to it — that is the $3+1$. The remaining $2$ are **left open**, deliberately.
+
+> Earlier versions assigned those two to the odd matter sector, $T_-\to2$. **That assignment is retired** (§X.1). It was made because there happened to be two of them, which is not a reason; and in this version it is worse than unmotivated, since sourcing the connection by matter would have to move the Chern class, which the spin geometry has already fixed at $\pm1$.
+
+The two components are ordinary geometrical freedom in the connection — deformations away from the canonical Hopf connection, which leave $c_1$ untouched. They may remain unassigned until the theory itself says what they do.
 
 ---
 
@@ -267,17 +283,15 @@ $$ds^2_4 = -\left(\frac{1-GM/2r}{1+GM/2r}\right)^2dt^2 + \left(1+\frac{GM}{2r}\r
 
 with closure corrections at $O(r^2/\ell^2)$ — $4\times10^{-15}$ at 10 kpc for $\ell = 63$ Gpc. Shells have proper area $4\pi r^2(1+GM/2r)^4$. The meridian scale $\kappa$ remains undetermined **[O]**.
 
-## IV.6 Black holes [D/O]
+## IV.6 Black holes [T]
 
-If the canonical flux gravitates with coupling $g_2$, it adds a Reissner–Nordström term with an effective charge:
+Nothing in this version adds a charge to a black hole. A neutral secondary has the ordinary Schwarzschild exterior on the gravity base; a charged one has ordinary Reissner–Nordström,
 
-$$f(r) = 1 - \frac{2GM}{c^2r} + \frac{GP^2}{c^4r^2},\qquad P = g_2\frac{M}{m_{\rm unit}}$$
+$$f(r) = 1 - \frac{2GM}{c^2r} + \frac{GQ^2}{c^4r^2},\qquad M^2\geq Q^2$$
 
-The Newtonian term is untouched; the horizon moves to $r_\pm = (GM/c^2)(1\pm\sqrt{1-P^2/M^2})$; extremality tightens to $M^2\geq Q^2+P^2$ **universally**, since every hole carries $P\propto M$. Mercury's perihelion bounds it: the repulsive term shifts the advance by $-(P/M)^2/6$, and agreement to $10^{-4}$ gives
+with $Q$ the ordinary electric charge and no additional contribution.
 
-$$g_2/m_{\rm unit} = P/M < 0.024$$
-
-Lunar ranging gives nothing useful; ringdowns test $P/M$ only at the $0.1$–$0.3$ level. The double pulsar can tighten it **[O]**.
+> Earlier versions carried a second charge $P = g_2M/m_{\rm unit}$, built from the flux sector, which tightened extremality to $M^2\geq Q^2+P^2$ universally and was bounded by Mercury at $g_2/m_{\rm unit}<0.024$. **All of that is retired** (§X.1): with the fiber's Chern class fixed at $\pm1$ by spin geometry, there is no mass-proportional flux to gravitate and no parameter to bound.
 
 ## IV.7 Charge and the twin [V/D]
 
@@ -409,17 +423,27 @@ with $S^3\hookrightarrow S^4\xrightarrow{/\text{meridians}}\mathbb{RP}^3$ spatia
 
 **Order of recovery, as a regression test and not an assumption [O]:** derive the static real form of the middle space; recover the meridian quotient; derive the quotient metric and its Green's function; recover the geodesic and orbit equations; **only then** reassert the results of Part IV.
 
-## VIII.2 The golf ball [V/D]
+## VIII.2 The golf ball [D]
 
-Does a golf ball in a vacuum chamber on Earth enclose its own flux? **Topologically yes** — Law III is linear, and for a small sphere around it $\frac{1}{2\pi}\int F = M_g/m_{\rm unit}$ exactly; Chern numbers add and are localized, and Earth cannot smear away an integer. **Geometrically Earth dominates** — the flux falls as $N/2r^2$, the same law as gravity, and the ball's field exceeds Earth's only inside $r = R_\oplus\sqrt{M_g/M_\oplus} = 0.56\,\mu$m, which is precisely its gravitational neutral point.
+*The question was: does a small body get a Hopf structure of its own, or does a large nearby body dominate?*
 
-**The quantization fork decides whether there is any winding at all.** With $m_{\rm unit} = m_p$ the ball winds $2.7\times10^{25}$ times and Earth $3.6\times10^{51}$; with $m_{\rm unit}\sim10^{14}M_\odot$ both wind zero times and the whole sector is absent from the solar system. A spherically symmetric chamber contributes nothing inside, by the shell theorem. Nothing in the laboratory detects either answer: the photon is neutral under the fiber.
+**In this version the question has a clean answer, and a different one from before.** The fiber is supplied by spin geometry, and every shell about every worldline carries the same class:
+
+$$c_1 = \pm1$$
+
+independent of the body's mass, its neighbours, or any parameter. **A golf ball's shells carry exactly what Earth's shells carry.** There is no competition, no crossover radius, no dependence on what else is nearby — because the structure is a fact about the rotation group acting on a shell, not a tally of matter.
+
+> Earlier versions answered this with a mass-proportional winding number, $M/m_{\rm unit}$ — $2.7\times10^{25}$ for the ball and $3.6\times10^{51}$ for Earth — together with a "quantization fork" over the value of $m_{\rm unit}$ and a crossover at $0.56\,\mu$m where Earth's flux overtook the ball's. **All of that is retired** (§X.1). It presupposed a posited circle whose class matter was free to set; here the circle is derived and its class is fixed.
+
+**What remains testable is nothing, here.** The class is the same everywhere, so it distinguishes no two situations, and the photon is neutral under the fiber in any case.
 
 ## VIII.3 The Machian direction [T/D/V]
 
 Vacuum general relativity already has the symmetry $(g,M)\to(\lambda^2g,\lambda M)$: every Schwarzschild exterior *is* a rescaled copy of every other, with mass the scale. So "isomorphic shells up to scale" is true and yields nothing new — the scale it fixes is mass, not size, and compactness $r_s/R$ ($1.4\times10^{-9}$ for Earth, $3.2\times10^{-27}$ for a golf ball) is untouched.
 
-Rescaling $r_s$ with $GM$ fixed is **inconsistent**, since $r_s = 2GM/c^2$ is one number whenever the exterior has a single source. The realizable version is already present: the flux energy $|F_\oplus+F_g|^2$ has a **cross term** that exists only when Earth is present, $1.5\times10^9$ times the ball's own term at its surface — so the ball's near field genuinely differs alone and near Earth. Bounded by Mercury at $\delta r_s/r_s<3\times10^{-4}$ **[D]**.
+Rescaling $r_s$ with $GM$ fixed is **inconsistent**, since $r_s = 2GM/c^2$ is one number whenever the exterior has a single source. Separating the horizon from the far-field coupling would require the near field to be sourced by something the far field does not see.
+
+> Earlier versions offered one: the flux energy $|F_\oplus+F_g|^2$ has a cross term present only when Earth is, giving the ball a near field that differs alone and in company, bounded by Mercury at $3\times10^{-4}$. **That is retired with the flux sector** (§X.1). **So the Machian proposal now has no realizable form in the theory at all** — which is the honest position, and worth stating rather than leaving a retired mechanism standing in for one.
 
 **A local Mach relation fails [V]:** reading $GM/c^2\ell = \pi/2$ with $\ell$ a sphere of influence gives $5\times10^{11}G$ for Earth and $3\times10^{22}G$ for the golf ball. The Mach relation closes a *universe*.
 
@@ -432,7 +456,7 @@ Rescaling $r_s$ with $GM$ fixed is **inconsistent**, since $r_s = 2GM/c^2$ is on
 3. Define the complex normal bundle and shell lift along a general non-null complex worldline.
 4. Carry the shell lift consistently through Schwarzschild $\to$ Kerr.
 5. **Derive** $L_H = \Omega L_H^{\rm ref}$ rather than impose it.
-6. Determine whether $T_-$ genuinely occupies the two connection components.
+6. Determine whether the two open connection components have any role at all, from the action rather than by assignment.
 7. Derive the meridian foliation from canonical data.
 8. Recover $S^4\to\mathbb{RP}^3$ and the barren twin.
 9. Re-derive the $v^2$ family in the recovered static sector.
@@ -448,7 +472,7 @@ A successful action should make both information reductions automatic:
 
 $$S = S_{\rm EH}[B_{\rm grav},g_G] + S_{\rm matter}[B_{\rm rep},\psi,A] + S_{\rm can}[E,\hat g,\mathcal{A}_H,U_{\rm mer}]$$
 
-Variation with respect to $g_G$ should produce the meridian-reduced source; constraints on the canonical metric should produce the fiber-length locking; and the connection equation should either derive the $J_-$ law or show that it was the wrong use of the remaining freedom. **Until such an action exists, the split is architectural rather than final.**
+Variation with respect to $g_G$ should produce the meridian-reduced source; constraints on the canonical metric should produce the fiber-length locking; and if the canonical connection's two open components are to acquire a role, it must come from there rather than from an assignment made by hand. **Until such an action exists, the split is architectural rather than final.**
 
 ---
 
@@ -467,25 +491,34 @@ Variation with respect to $g_G$ should produce the meridian-reduced source; cons
 | the Hopf fiber *as* Kerr rotation | rotation is complex worldline displacement; the fiber is the shell's spin lift (§VI.2) |
 | an extra $U(1)$ with no spin-geometric origin | the circle is now the compact real form of $\mathbb{C}^\times\subset SL(2,\mathbb{C})$ (§I.3) |
 | geometric Weyl spinor $\Rightarrow$ quantum Grassmann fermion | blocked by type (§VII.2) |
+| **the entire second-order flux sector** | **inconsistent with this version's own foundation.** A derived fiber has a *fixed* Chern class, $c_1 = \pm1$; the flux sector required $c_1 = M_-/m_{\rm unit}$, mass-dependent with a free parameter. Both cannot hold, and it is the posited one that goes |
+| the flux quantum $m_{\rm unit}$ | no role: $c_1$ is not a ratio of masses |
+| the quantization fork ($m_p$ versus $\sim10^{14}M_\odot$) | there is nothing left to quantize |
+| mass-proportional winding counts ($2.7\times10^{25}$ for a golf ball) | every shell carries $c_1 = \pm1$ whatever the body's mass (§VIII.2) |
+| the charge $P = g_2M/m_{\rm unit}$, its $P^2/r^2$ term, and $M^2\geq Q^2+P^2$ | no such charge exists (§IV.6) |
+| the Mercury bound $g_2/m_{\rm unit}<0.024$ | it bounded a parameter that is gone |
+| the Machian cross term $2F_\oplus\!\cdot\!F_g$ | built from the flux energy; the Machian proposal now has **no** realizable form (§VIII.3) |
+| $dF_H = 2\pi\star J_-$, even as a candidate | sourcing the connection by matter would have to move a Chern class that spin geometry has fixed |
+| the assignment $T_-\to$ the two connection components | made because there happened to be two of them, which is not a reason (§III.3) |
 | $v^2_{\rm eq} = 4GM/\pi\ell$ | 15% low; the converged value is $1.497\,GM/\ell$ (§IV.8) |
 | $N\Omega = 1$ as an **exact** condition | it gives Majumdar–Papapetrou and hence extremal charge for every body (§III.2) |
 | time as emergent from a fiber's latitude (version 12) | a type error: a complex structure has $J^2 = -1$, no real eigenvectors, and *pairs* directions where time must *select* one |
 
 ## X.2 Open
 
-1. **Global existence of $E$**, and the meridian-removal obstruction of §II.1 — Law 0 cannot hold over an unpunctured $S^4$, since $H^2(S^4) = 0$ makes every circle bundle trivial and every shell restriction $S^2\times S^1$ rather than $S^3$ **[V]**. **The first thing this version owes.**
-2. **The odd-sector coupling** (§III.3): whether $T_-$ occupies the two connection components.
-3. **Deriving the fiber-length locking** from an action (§III.2).
-4. **The meridian foliation's equation** (Law II).
-5. **Time:** an input, belonging to the Lorentzian real structure; its uniqueness is not derived.
-6. **The static regression** (§VIII.1), in the stated order.
-7. **The dark-sector calculation** (§VIII.4, item 10) — the theory's sharpest available prediction.
-8. **The quantization fork:** $m_{\rm unit}$ a particle mass or $\sim10^{14}M_\odot$.
-9. **$g_2/m_{\rm unit}$:** below $0.024$ from Mercury; the double pulsar can tighten it.
-10. **The meridian scale $\kappa$** (§IV.5).
-11. **Twin parity assignments** (§VII.4).
-12. **Emergent $G$** (§VIII.3): requires a $G$-free definition of mass.
-13. **Inherited:** the AdS uplift; the two arenas; the literature review.
+1. **Global existence of $E$**, and the meridian-removal obstruction of §II.1 — Law 0 cannot hold over an unpunctured $S^4$, since $H^2(S^4) = 0$ makes every circle bundle trivial and every shell restriction $S^2\times S^1$ rather than $S^3$ **[V]**. **The first thing this version owes**, and now the *only* place topology enters the fiber's existence.
+2. **Deriving the fiber-length locking** from an action (§III.2). Until then $g_G\Leftrightarrow L_H$ is an encoding, not a causal claim, and the explanatory arrow cannot be reversed.
+3. **The two open connection components** (§III.3). Deliberately unassigned. If the theory later says what they do, that will be a result; asserting it now would not be.
+4. **The meridian foliation's equation** (Law II), and in particular **why its leaves are closed** — which is what forces the bisection and hence the seed (§II.3).
+5. **Time:** an input, belonging to the Lorentzian real structure; its uniqueness is not derived, and three routes to deriving it have failed.
+6. **The static regression** (§VIII.1), in the stated order. Everything in Part IV is downstream of it.
+7. **The dark-sector calculation** (§VIII.4, item 10) — what stress-energy an observer infers by applying Einstein's equation on $B_{\rm rep}$ instead of $B_{\rm grav}$. **The theory's sharpest available prediction, and now its only quantitative one.**
+8. **The meridian scale $\kappa$** (§IV.5).
+9. **Twin parity assignments** (§VII.4).
+10. **Emergent $G$** (§VIII.3): requires a $G$-free definition of mass.
+11. **Inherited:** the AdS uplift; the two arenas; the literature review.
+
+**The constant count.** With the flux sector retired the theory's free constants are $G$, $\Lambda = 1/\ell^2$, and the function $\mu(\rho)$. **$m_{\rm unit}$ and $g_2$ are gone** — two parameters removed along with the inconsistency.
 
 ---
 
@@ -503,14 +536,19 @@ Variation with respect to $g_G$ should produce the meridian-reduced source; cons
 | **physical real form** | $U(1)\to SU(2)\simeq S^3\to S^2$; the Hopf fibration, **recovered not assumed** |
 | **why not bolted on** | $SL(2,\mathbb{C})$ is already the Newman–Penrose spin group |
 | **why isotropic** | shell and lift are homogeneous; the fiber is a stabilizer, not a chosen longitude |
+| **the centrepiece** | **spin geometry fixes the fiber's topology; gravity fixes only its metric length** |
 | **Law I** | Einstein on $B_{\rm grav}$ with $T^{(g)} = T(x)+T(\tau x)$; also fixes $L_H = \Omega L_H^{\rm ref}$ |
+| **the arrow** | $g_G\Leftrightarrow L_H$, an **encoding**. Not a causal claim until an action reverses it |
 | **$G$ identity** | $GM_c/c^2\ell = \pi/2$; equivalently $r_s(M_c) = \pi\ell$, the antipodal distance |
-| **partition** | $6 = 3+1+2$ on the real shell $S^3\to S^2$ ✓; only $3+1$ is motivated |
-| **black holes** | $f = 1-2GM/c^2r+GP^2/c^4r^2$, $P = g_2M/m_{\rm unit}$; $M^2\geq Q^2+P^2$; $P/M<0.024$ |
+| **partition** | $6 = 3+1+2$ on the real shell ✓. $3+1$ from Law I; the last **2 left open**, not assigned to $T_-$ |
+| **black holes** | ordinary Schwarzschild, or Reissner–Nordström with the ordinary $Q$. No second charge |
 | **$v^2$ plateau** | $1.497\,GM/\ell$, packing-independent; at $f = 1$, $r_s = \pi\ell$ and no exterior |
 | **Keplerian limit** | corrections $4\times10^{-15}$ at 10 kpc; jellium crossover at 1.2 Mpc for a galaxy |
 | **Kerr** | complex worldline displacement, $a = J/M$; ring at $x^2+y^2 = a^2$; shells follow the displaced center |
 | **rotation vs fiber** | rotation is **not** winding around the fiber; four jobs, four structures |
 | **time** | an input, from the Lorentzian real structure |
 | **Grassmann parity** | not derived, and blocked by type |
+| **Chern class** | $c_1 = \pm1$ on every shell, **fixed by spin geometry** — not mass-dependent, no $m_{\rm unit}$, no fork |
+| **golf ball** | its shells carry exactly what Earth's do. No competition, no crossover, no winding counts |
+| **free constants** | $G$, $\Lambda$, $\mu(\rho)$. $m_{\rm unit}$ and $g_2$ retired with the flux sector |
 | **the obstruction** | $H^2(S^4) = 0$: Law 0 needs the secondary meridians removed, as every earlier version did |
