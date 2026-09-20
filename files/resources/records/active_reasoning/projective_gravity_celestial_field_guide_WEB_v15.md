@@ -1,4 +1,4 @@
-# Projective Gravity — Version 15
+# Projective Gravity — Version 15.1
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases
 
@@ -193,22 +193,23 @@ Gravity does not ask which representative in $q^{-1}(b)$ holds the matter. It as
 > ### ◆ LAW II — THE MERIDIANS
 > The middle space carries a one-dimensional foliation $U_{\rm mer}$. The representational base resolves its representatives; gravity quotients it. In the static spherical limit it must reduce to the great circles of $S^4$ through both poles, with quotient $\mathbb{RP}^3$. The general equation selecting the foliation is **open** **[O]**.
 
-> ### ◆ LAW III — THE CONNECTION
+> ### ◆ LAW III — THE CANONICAL CONNECTION STRUCTURE
+> *Not a field equation: there is no dynamics here, and the name is kept only for continuity with earlier versions.*
 > The canonical fiber carries a connection $\mathcal{A}_H$ with curvature $F_H = d\mathcal{A}_H$. Its **topological class is fixed by the spin geometry**: $c_1 = \pm1$ on every shell, the Hopf class, independent of the source's mass or any parameter. The reference connection is the canonical Hopf connection, and deformations away from it — which leave $c_1$ untouched, since $\int_{S^2}d\alpha = 0$ — are two geometrical degrees of freedom per shell (§III.3). **Nothing in this version sources them, and no matter-coupling law is asserted** **[O]**.
 
 > ### ◆ LAW IV — ELECTROMAGNETISM
-> Maxwell on $B_{\rm rep}$, with $\epsilon = \mu_{\rm EM} = 1$. Light resolves meridian representatives and does **not** perform the gravity quotient. The photon is the zero mode on the canonical fiber and couples to none of it.
+> Maxwell on $B_{\rm rep}$, with $\epsilon = \mu_{\rm EM} = 1$. Light resolves meridian representatives and does **not** perform the gravity quotient. The field lives downstairs, so its pullback to $E$ is **$U(1)_H$-invariant** — it does not couple to the fiber. (Earlier drafts called it a "zero mode," which implies a Kaluza–Klein expansion this version does not perform; see §X.1.)
 
 ## III.1 What each law is, and what you deduce from it [D]
 
 | | **Law 0** | **Law I** | **Law II** | **Law III** | **Law IV** |
 |:--|:--|:--|:--|:--|:--|
-| **is** | an existence axiom | Einstein's equations | a foliation | a first-order curvature law | Maxwell |
+| **is** | an existence axiom | Einstein's equations | a singular pencil | a **connection structure**, not a field equation | Maxwell |
 | **lives on** | $E$ | $B_{\rm grav}$ | $\mathcal{M}$ | the canonical fiber | $B_{\rm rep}$ |
 | **determines** | the arena and its fiber | $g_G$, hence $\Omega$, hence $L_H$ | the twin pairing and $B_{\rm grav}$ | $\mathcal{A}_H$ | $\mathcal{F}$ |
 | **sourced by** | — | $T_+$, the **even** part | the primary's degeneracies | **nothing** — the class is fixed at $c_1 = \pm1$ | charge |
 | **status** | structural | **dynamical** | kinematic | kinematic, **unsourced** | dynamical |
-| **what you deduce** | the Hopf lift on every shell, with $c_1 = \pm1$ (§I.4) | orbits, tides, redshift, black-hole exteriors, the $v^2$ plateau (Part IV) | which points are twins; the seed (Part V) | the Aharonov–Bohm phase of the fixed Hopf class | the photon's kinematics; the twin's optical barrenness |
+| **what you deduce** | the Hopf lift on every shell, with $c_1 = \pm1$ (§I.4) | orbits, tides, redshift, black-hole exteriors, the $v^2$ plateau (Part IV) | which points are twins; the seed (Part V) | connection holonomy relative to the canonical Hopf connection | the photon's kinematics; the twin's optical barrenness |
 
 ## III.2 Law I locks the fiber length [S]
 
@@ -228,9 +229,9 @@ Law I solves the base geometry; the canonical metric is constrained so that its 
 
 *Scope.* This is a first-order statement. Isotropic Schwarzschild has $N = (1-m/2r)/(1+m/2r)$ while $N = \Omega^{-1}$ would require $(1+m/2r)^{-2}$; expanding, $1-m/r+m^2/2r^2$ against $1-m/r+3m^2/4r^2$ — they agree to first order and part at $O(m^2/r^2)$, with $N\Omega = 1-m^2/4r^2$ **[V]**. Imposing $N\Omega = 1$ exactly gives the Majumdar–Papapetrou form and hence extremal Reissner–Nordström, $Q = M$ — every body an extremal black hole, **excluded** **[V/T]**. Deriving the locking from an action, rather than imposing it, is open **[O]**.
 
-## III.3 The degree-of-freedom split, on the physical real shell [V/S]
+## III.3 The metric-component decomposition, on the physical real shell [V/S]
 
-A metric on the three-manifold $S^3$ has $3\cdot4/2 = 6$ components. Adapted to the circle bundle $S^3\to S^2$:
+A metric on the three-manifold $S^3$ has $3\cdot4/2 = 6$ components. Adapted to the circle bundle $S^3\to S^2$ they decompose as below. **This is a block count of metric components, not of physical propagating degrees of freedom** — gauge and diffeomorphism freedom would have to be removed for that, and is not:
 
 | block | count | content |
 |:--|--:|:--|
@@ -330,9 +331,13 @@ $$\Phi(r) = -\frac{Gm}{r}\left[1+\frac{r^2}{6\ell^2}+O(r^4/\ell^4)\right]$$
 
 The closure correction is $4\times10^{-15}$ at 10 kpc and $4\times10^{-45}$ at 1 AU. The jellium's correction overtakes $Gm/r^2$ only where the enclosed background mass equals $m$: **1.2 Mpc for a $10^{12}M_\odot$ galaxy, 0.12 kpc for the Sun.** Inside any galaxy and throughout any planetary system, motion is Keplerian to better than a part in $10^{14}$.
 
-## IV.11 The static wall [T]
+## IV.11 The static wall [T/V]
 
-On a static geometry Killing energy is conserved and there is no redshift. **A theorem about the arena, not a gap in it.** Every route to Hubble's law within the static theory ends at the seed's own symmetry: the twin's well is identical to the source's, and identical wells cannot shift light between them.
+> **Identical twin wells cannot generate a relative gravitational redshift between themselves.**
+
+A static geometry has a timelike Killing vector, so Killing energy is conserved along null geodesics and $1+z = \sqrt{g_{tt}(\text{receiver})/g_{tt}(\text{emitter})}$. When emitter and receiver sit in **identical** wells the lapses are equal and $z = 0$ identically **[V]**. Since the seed makes the twin's well identical to the source's, no shift can arise between them, and every route to Hubble's law within the static theory ends there.
+
+*A stronger sentence carried by earlier drafts — "on a static geometry there is no redshift" — is **false** and is retired (§X.1): Schwarzschild is static and redshifts ($z = 0.21$ from $6M$ to $100M$, $0.73$ from $3M$ to infinity)* **[V]**. *What staticity forbids is cosmological redshift from expansion, not gravitational redshift.*
 
 ---
 
@@ -426,33 +431,44 @@ The frame bundle of $\mathbb{RP}^3 = SO(3)$ is $SO(3)\times SO(3)$, with $\pi_1 
 
 # PART VIII — STATIC REGRESSION AND TESTS
 
-## VIII.1 The static limit, derived [D/V]
+## VIII.1 The static great-circle realization [S/D]
 
-*Earlier drafts listed this as a requirement on Law II and a regression test. It is neither: in the static limit it follows, and the derivation is short.*
+*An earlier draft claimed to **derive** this from topology. That claim is withdrawn — three steps of it were wrong (§X.1). What follows is an exact construction of the realization, with its one assumption marked as an assumption.*
 
 The intended specialization is
 
 $$\mathcal{M}_{\rm static}\sim\mathbb{R}_t\times S^4,\qquad B_{\rm rep}^{\rm static}\sim\mathbb{R}_t\times S^3,\qquad B_{\rm grav}^{\rm static}\sim\mathbb{R}_t\times\mathbb{RP}^3$$
 
-with $S^3\hookrightarrow S^4\xrightarrow{/\text{meridians}}\mathbb{RP}^3$ spatially. Dimensions: $1+4 = 5$, $1+3 = 4$, $1+3 = 4$ **[V]**.
+with dimensions $1+4 = 5$, $1+3 = 4$, $1+3 = 4$ **[V]**.
 
-**Step 1 — the foliation must be singular, minimally at two points [T].** $\chi(S^4) = 2\neq0$, so $S^4$ admits no nowhere-zero vector field. And $S^4$ is **simply connected**, so any line field lifts to a vector field — hence no nowhere-zero *line* field either. A one-dimensional foliation therefore has singularities of total index $2$, and the minimum is two points of index $+1$: a source and a sink.
+### The assumption [S]
 
-**Step 2 — closed leaves force every leaf through both singular points [D].** A non-closed leaf runs from source to sink and stops. To close, it must return, and the only route back is through the singular points again. So each leaf is a loop meeting both. *And v15 requires closed leaves independently*: closure is what makes the intersection with $B_{\rm rep}$ even, hence $\tau$ an involution, hence the seed (§II.3).
+> **In the static limit, the meridian structure is the antipodal great-circle pencil.** It is a *pencil*, not a foliation: distinct meridians meet at the two poles, which form a common singular set. Nothing in Law 0 or in the topology of $S^4$ forces this, and it is adopted as a structural choice.
 
-**Step 3 — maximal symmetry places the singular points antipodally and makes the leaves geodesics [D].** The static limit *is* the maximally symmetric case; that is what "static and homogeneous" means. The isometries of a round $S^4$ fixing two points form $SO(4)$ only when the points are antipodal, and an $SO(4)$-invariant family of curves joining them, with no preferred winding, consists of geodesics.
+### The construction, and the quotient [D/V]
 
-**Step 4 — geodesics through a point of a round sphere all reconverge at its antipode [T].** So the geodesics through the source are exactly the great circles, every one passes through the sink, and the family fills $S^4$.
+Embed $S^4\subset\mathbb{R}^5$ and fix an axis $p\in S^4$, with poles $\pm p$. For each unit vector $n$ in the 3-sphere of $p^\perp$, form the **2-plane**
 
-**Step 5 — the leaf space [V].** A great circle through the poles is determined by its equatorial crossing, and it crosses at **both** $\hat n$ and $-\hat n$. Leaves therefore correspond to $S^3/\pm$, of dimension $4-1 = 3$:
+$$P_n = \operatorname{span}(p,n),\qquad C_n = P_n\cap S^4$$
 
-$$\boxed{\ \text{leaf space} = \mathbb{RP}^3\ }$$
+Then $C_n$ is a great circle through both poles — verified: every point $\cos t\,p+\sin t\,n$ has unit norm, and $t = 0,\pi$ give $\pm p$ **[V]**. And since a plane is unchanged by negating a spanning vector,
 
-> **Law II's static limit is derived, not required.** Great-circle meridians with quotient $\mathbb{RP}^3$ follow from three things: the arena is $S^4$; the leaves are closed; the static limit is maximally symmetric. Of these the second is required by the seed anyway and the third is what "static" *means* — so only the first is a posit, and it was already one.
+$$P_n = P_{-n}\quad\Longrightarrow\quad C_n = C_{-n}$$
 
-**What this discharges, and what it does not.** The central link of the regression is closed: the results of Part IV are no longer conditional on an unproved reduction of Law II. **The general dynamical foliation remains open** — away from maximal symmetry Step 3 fails and nothing selects the leaves — but that is now a statement about the dynamical case alone, and the static sector where Part IV lives is secure.
+verified pointwise **[V]**. So the meridians are in bijection with $S^3$ modulo the antipodal map:
 
-**The remaining regression, in order [O]:** derive the quotient metric and its Green's function on the recovered $\mathbb{RP}^3$; recover the geodesic and orbit equations; **then** reassert the numbers of §IV.8.
+$$\boxed{\ \text{space of meridians} = S^3/\{\pm1\} = \mathbb{RP}^3\ }$$
+
+**exactly**, with no index theory, no foliation language, and no claim about closed orbits. And the bisection follows immediately: $C_n$ meets the equatorial $S^3$ at $n$ and at $-n$, the two points of §II.3.
+
+### What is derived, and what is not
+
+$$\text{antipodal great-circle pencil}\ \Longrightarrow\ \mathbb{RP}^3\qquad\textbf{[D]}$$
+$$\text{Law 0} + \text{topology}\ \Longrightarrow\ \text{antipodal great-circle pencil}\qquad\textbf{[O]}$$
+
+The first is exact. The second is **not available**, and the attempt to supply it is retired (§X.1).
+
+**The remaining regression, in order [O]:** derive the quotient metric and its Green's function on $\mathbb{RP}^3$; recover the geodesic and orbit equations; **then** reassert the numbers of §IV.8.
 
 ## VIII.2 The golf ball [D]
 
@@ -466,7 +482,7 @@ independent of the body's mass, its neighbours, or any parameter. **A golf ball'
 
 > Earlier versions answered this with a mass-proportional winding number, $M/m_{\rm unit}$ — $2.7\times10^{25}$ for the ball and $3.6\times10^{51}$ for Earth — together with a "quantization fork" over the value of $m_{\rm unit}$ and a crossover at $0.56\,\mu$m where Earth's flux overtook the ball's. **All of that is retired** (§X.1). It presupposed a posited circle whose class matter was free to set; here the circle is derived and its class is fixed.
 
-**What remains testable is nothing, here.** The class is the same everywhere, so it distinguishes no two situations, and the photon is neutral under the fiber in any case.
+**What remains testable is nothing, here.** The class is the same everywhere, so it distinguishes no two situations, and Maxwell's pullback is $U(1)_H$-invariant in any case.
 
 ## VIII.3 The Machian direction [T/D/V]
 
@@ -478,7 +494,7 @@ Rescaling $r_s$ with $GM$ fixed is **inconsistent**, since $r_s = 2GM/c^2$ is on
 
 **A local Mach relation fails [V]:** reading $GM/c^2\ell = \pi/2$ with $\ell$ a sphere of influence gives $5\times10^{11}G$ for Earth and $3\times10^{22}G$ for the golf ball. The Mach relation closes a *universe*.
 
-**Emergent $G$ [D]:** $G$ is emergent iff mass has a $G$-free definition, and general relativity has none — ADM and Komar masses are defined through $G$. The Hamiltonian constraint holds on every slice but constrains the product $G\rho$ and cannot separate the factors.
+**Emergent $G$ [O]:** an open coupling problem, not a theorem. ADM and Komar masses carry $G$ in the conventional normalization, but matter Lagrangians contain inertial and rest-mass parameters that require no solution of Einstein's equations. The real difficulty is to define an operationally appropriate mass variable and show that a candidate emergent coupling reproduces **both** the inertial and the gravitational roles. *An earlier categorical claim — that $G$ is emergent iff mass has a $G$-free definition, and general relativity has none — is too strong and is retired* (§X.1).
 
 ## VIII.4 The required constructions [O]
 
@@ -531,6 +547,13 @@ Variation with respect to $g_G$ should produce the meridian-reduced source; cons
 | the Machian cross term $2F_\oplus\!\cdot\!F_g$ | built from the flux energy; the Machian proposal now has **no** realizable form (§VIII.3) |
 | the *integrated flux law* $c_1 = M_-/m_{\rm unit}$ | it makes the Chern class mass-dependent, and spin geometry has fixed it at $\pm1$. *(Note the narrow scope: a connection may still vary with $c_1$ fixed — $\int d\alpha = 0$. What is retired is the flux law, not connection dynamics as such.)* |
 | the assignment $T_-\to$ the two connection components | made because there happened to be two of them, which is not a reason (§III.3) |
+| the claim that the static meridian structure was **derived** from topology | three errors: Poincaré–Hopf gives only the index *sum*, not two index-$+1$ zeros; "foliation" is the wrong word, since distinct meridians meet at the poles (it is a singular **pencil**); and closed orbits need not pass through zeros at all — integral curves do not continue through them (§VIII.1) |
+| "on a static geometry there is no redshift" | **false.** Schwarzschild is static and redshifts: $z = 0.21$ from $6M$ to $100M$ **[V]**. Staticity forbids *cosmological* redshift; the true statement is the narrower twin one (§IV.11) |
+| the permeability $\mu(\rho)$ | orphaned: the old Law II equation it belonged to is not part of this version |
+| "$G$ is emergent iff mass has a $G$-free definition, and GR has none" | too categorical; matter Lagrangians carry rest-mass parameters independently. An open coupling problem (§VIII.3) |
+| calling Maxwell's field a **zero mode** on the fiber | implies a Kaluza–Klein expansion this version does not perform; the field lives downstairs and its pullback is $U(1)_H$-invariant (Law IV) |
+| calling the fixed Hopf class an **Aharonov–Bohm phase** | a class gives a nontrivial bundle and a connection gives holonomy, but an observable phase needs a coupled field — and nothing couples here (§III.1) |
+| "degree-of-freedom split" as a label for $6 = 3+1+2$ | it is a block count of metric *components*; physical degrees of freedom require removing gauge and diffeomorphism freedom (§III.3) |
 | $v^2_{\rm eq} = 4GM/\pi\ell$ | 15% low; the converged value is $1.497\,GM/\ell$ (§IV.8) |
 | $N\Omega = 1$ as an **exact** condition | it gives Majumdar–Papapetrou and hence extremal charge for every body (§III.2) |
 | time as emergent from a fiber's latitude (version 12) | a type error: a complex structure has $J^2 = -1$, no real eigenvectors, and *pairs* directions where time must *select* one |
@@ -544,12 +567,12 @@ Variation with respect to $g_G$ should produce the meridian-reduced source; cons
 5. **Time:** an input, belonging to the Lorentzian real structure; its uniqueness is not derived, and three routes to deriving it have failed.
 6. **The remainder of the static regression** (§VIII.1): the quotient metric, its Green's function, and the orbit equations. The *geometric* link — great circles with quotient $\mathbb{RP}^3$ — is now discharged.
 7. **The dark-sector calculation** (§VIII.4, item 10) — what stress-energy an observer infers by applying Einstein's equation on $B_{\rm rep}$ instead of $B_{\rm grav}$. **The theory's sharpest quantitative target.** It is not a prediction until it is computed, and computing it is what would turn this architecture into phenomenology.
-8. **The meridian scale $\kappa$** (§IV.5).
+8. **The meridian scale $\kappa$** (§IV.5), which the eventual Law II dynamics must fix.
 9. **Twin parity assignments** (§VII.4).
-10. **Emergent $G$** (§VIII.3): requires a $G$-free definition of mass.
+10. **Emergent $G$** (§VIII.3): an open coupling problem — define an operationally appropriate mass variable and show a candidate coupling fills both the inertial and gravitational roles.
 11. **Inherited:** the AdS uplift; the two arenas; the literature review.
 
-**The constant count.** With the flux sector retired the theory's free constants are $G$, $\Lambda = 1/\ell^2$, and the function $\mu(\rho)$. **$m_{\rm unit}$ and $g_2$ are gone** — two parameters removed along with the inconsistency.
+**The constant count.** The theory's explicit constants are now just $G$ and $\Lambda = 1/\ell^2$, plus whatever the eventual Law II dynamics introduces. **$m_{\rm unit}$ and $g_2$ went with the flux sector**, and the permeability function $\mu(\rho)$ went with the old Law II, whose equation this version no longer contains — it was an orphan in the previous draft and is removed (§X.1).
 
 ---
 
@@ -571,7 +594,7 @@ Variation with respect to $g_G$ should produce the meridian-reduced source; cons
 | **Law I** | Einstein on $B_{\rm grav}$ with $T^{(g)} = T(x)+T(\tau x)$; also fixes $L_H = \Omega L_H^{\rm ref}$ |
 | **the arrow** | $g_G\Leftrightarrow L_H$, an **encoding**. Not a causal claim until an action reverses it |
 | **$G$ identity** | $GM_c/c^2\ell = \pi/2$; equivalently $r_s(M_c) = \pi\ell$, the antipodal distance |
-| **partition** | $6 = 3+1+2$ on the real shell ✓. $3+1$ from Law I; the last **2 left open**, not assigned to $T_-$ |
+| **metric decomposition** | $6 = 3+1+2$ on the real shell ✓ — a block count of *components*, not propagating degrees of freedom. $3+1$ from Law I; the last **2 left open** |
 | **black holes** | ordinary Schwarzschild, or Reissner–Nordström with the ordinary $Q$. No second charge |
 | **$v^2$ plateau** | $1.497\,GM/\ell$, packing-independent; at $f = 1$, $r_s = \pi\ell$ and no exterior |
 | **Keplerian limit** | corrections $4\times10^{-15}$ at 10 kpc; jellium crossover at 1.2 Mpc for a galaxy |
@@ -581,5 +604,5 @@ Variation with respect to $g_G$ should produce the meridian-reduced source; cons
 | **Grassmann parity** | not derived, and blocked by type |
 | **Chern class** | $c_1 = \pm1$ on every shell, **fixed by spin geometry** — not mass-dependent, no $m_{\rm unit}$, no fork |
 | **golf ball** | its shells carry exactly what Earth's do. No competition, no crossover, no winding counts |
-| **free constants** | $G$, $\Lambda$, $\mu(\rho)$. $m_{\rm unit}$ and $g_2$ retired with the flux sector |
+| **free constants** | $G$ and $\Lambda$, plus whatever Law II's dynamics brings. $m_{\rm unit}$, $g_2$ and $\mu(\rho)$ all retired |
 | **the obstruction** | $H^2(S^4) = 0$: Law 0 needs the secondary meridians removed, as every earlier version did |
