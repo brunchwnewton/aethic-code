@@ -1,1706 +1,516 @@
-# Projective Gravity — Version 15.2
+# Projective Gravity — Version 15
 
-## Canonical Total Space First:
-## the Complex Hopf Lift of Worldline Shells, a Derived Full Middle Space, and Two Base Spaces
+### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases
 
-> **Status.** Architectural draft. Version 15.2 corrects the hierarchy of v15 and replaces the provisional real-shell Hopf construction by its natural **complex-isotropic analogue**.
+> **What this document is.** A complete, self-contained statement of the theory. It assumes no earlier document: every term is defined in Part 0, every law is stated with its equation, and every identity imported from an earlier version is restated in full rather than cited.
 >
-> **Axiomatic object.** The fundamental object is the **canonical total space**
-> \[
-> E.
-> \]
-> The full middle space is not fundamental. It is derived by quotienting the canonical spin/Hopf fiber:
-> \[
-> \boxed{
-> E\xrightarrow{/\,U(1)_H}\mathcal M.
-> }
-> \]
-> Analytically, the corresponding complex construction is modeled shellwise by
-> \[
-> \boxed{
-> \mathbb C^\times
-> \longrightarrow
-> SL(2,\mathbb C)
-> \longrightarrow
-> Q_{\rm aff}^2
-> \cong
-> SL(2,\mathbb C)/\mathbb C^\times.
-> }
-> \]
-> The ordinary Hopf fibration is its compact real form:
-> \[
-> \boxed{
-> U(1)
-> \longrightarrow
-> SU(2)\simeq S^3
-> \longrightarrow
-> S^2.
-> }
-> \]
+> **The architectural change.** Versions 6 through 14 posited a space and then decorated it with a fiber. Version 15 inverts the order. The **canonical space** $E$ is the axiom; the middle space is *derived* from it by quotienting a circle; and the middle space then has **two** four-dimensional readouts, which earlier versions ran together — one where matter and light are localized, one where gravity acts.
 >
-> **Why this is the right replacement for the old Hopf shell.** A shell of fixed nonzero complex radius around a complex worldline is not a real \(S^2\). In the complexified three-dimensional normal space it is an affine complex quadric
-> \[
-> \Sigma_{\gamma,R}^{\mathbb C}
-> =
-> \{\xi:g_{\mathbb C}(\xi,\xi)=R^2,\;
-> g_{\mathbb C}(\xi,\dot\gamma)=0\},
-> \]
-> a complex surface. After rescaling \(R\), its isotropic homogeneous model is
-> \[
-> Q_{\rm aff}^2\simeq SL(2,\mathbb C)/\mathbb C^\times.
-> \]
-> Thus the complex spin group itself supplies the shell's canonical total-space lift. On the physical Lorentzian real slice about a timelike worldline, the normal space becomes ordinary Euclidean \(\mathbb R^3\), the shell becomes \(S^2\), \(SL(2,\mathbb C)\) reduces to its compact spatial spin subgroup \(SU(2)\), and the fiber becomes the usual \(U(1)\) Hopf circle.
+> **What the fiber now is.** A shell of fixed nonzero radius about a *complex* source worldline is not a real 2-sphere: in the complexified normal space it is the affine quadric $Q^2_{\rm aff}$, a complex surface. And that surface is a homogeneous space of the complex spin group,
+> $$\mathbb{C}^\times\ \longrightarrow\ SL(2,\mathbb{C})\ \longrightarrow\ Q^2_{\rm aff}\cong SL(2,\mathbb{C})/\mathbb{C}^\times$$
+> whose compact real form is the ordinary Hopf fibration $U(1)\to SU(2)\simeq S^3\to S^2$. **So the Hopf character is no longer decoration. It is the compact real form of the complex spin geometry belonging to an isotropic shell**, and it was the right guess for the wrong reason in every version that assumed it.
 >
-> **The resulting division of labor**
-> \[
-> \boxed{
-> \begin{array}{rcl}
-> SL(2,\mathbb C) &:& \text{complex-isotropic spin lift of a complex shell},\\
-> \mathbb C^\times &:& \text{complexified axial/spin-fiber stabilizer},\\
-> SU(2) &:& \text{physical compact spin lift},\\
-> U(1)_H &:& \text{physical Hopf/spin phase fiber},\\
-> \text{Law I} &:& \text{metric length of that physical fiber},\\
-> \text{Law III candidate} &:& \text{its connection/odd-placement content}.
-> \end{array}
-> }
-> \]
+> **The seed, in one line.**
+> > Light resolves a representative in $B_{\rm rep}$; gravity resolves only its meridian class in $B_{\rm grav}$.
 >
-> The crucial point is that the Hopf character is no longer topological decoration. It is the **compact real form of the complex spin homogeneous space appropriate to an isotropic complex shell**.
->
-> **The two base spaces.** After the first quotient produces the full middle space \(\mathcal M\), that middle space has two physically distinct four-dimensional readouts:
->
-> - the **representational base space** \(B_{\rm rep}\), where matter and light are localized;
-> - the **quotiented base space** \(B_{\rm grav}\), obtained by quotienting the middle-space meridians and used by gravity.
->
-> Therefore
-> \[
-> \boxed{
-> E
-> \xrightarrow{/\,U(1)_H}
-> \mathcal M
-> \quad
-> \begin{matrix}
-> \supset B_{\rm rep}\\[-2pt]
-> \downarrow /\,U_{\rm mer}
-> \end{matrix}
-> \quad
-> B_{\rm grav}.
-> }
-> \]
->
-> **The seed**
->
-> > **Light resolves a representative in \(B_{\rm rep}\); gravity resolves only its meridian class in \(B_{\rm grav}\).**
->
-> **The axiom order**
->
-> > **Canonical total space first. Full middle space second. The two base spaces third.**
->
-> **Tags.** **[T]** standard/cited mathematics or physics · **[D]** derived from the adopted definitions · **[S]** structural proposal/sketch · **[O]** open · **[R]** retired.
+> **Tags.** **[T]** standard or cited · **[V]** verified by computation here · **[D]** derived from the adopted definitions · **[S]** structural proposal · **[O]** open · **[R]** retired, with reason.
 
 ---
 
-# PART 0 — THE CORRECTED HIERARCHY
+# PART 0 — VOCABULARY AND THE HIERARCHY
 
-## 0.1 Four layers, not three
+## 0.1 The four layers
 
-The v15.2 hierarchy is:
+Earlier versions had three layers and conflated two of them. Version 15 has four.
 
-\[
-\boxed{
-\text{canonical total space}
-\to
-\text{full middle space}
-\to
-\begin{cases}
-\text{representational base}\\
-\text{quotiented gravity base}
-\end{cases}
-}
-\]
+| layer | symbol | what it is | $\dim_\mathbb{R}$ |
+|:--|:--|:--|:--:|
+| **canonical space** | $E$ | the axiom. A circle bundle whose restriction to every source shell is the compact real form of the complex spin lift | 6 |
+| **middle space** | $\mathcal{M} = E/U(1)_H$ | **derived**, by forgetting the spin phase | 5 |
+| **representational base** | $B_{\rm rep}\hookrightarrow\mathcal{M}$ | an *embedded* Lorentzian hypersurface. Where matter, light and detectors live | 4 |
+| **gravity base** | $B_{\rm grav} = \mathcal{M}/U_{\rm mer}$ | a *quotient* by the meridian foliation. Where Law I acts | 4 |
 
-More precisely,
+The two bases have the same dimension and arise by opposite operations:
 
-\[
-\boxed{
-E
-\xrightarrow{\pi_H}
-\mathcal M=E/U(1)_H.
-}
-\]
+$$B_{\rm rep} = \text{a resolved representative},\qquad B_{\rm grav} = \text{an equivalence class}$$
 
-The full middle space carries a one-dimensional real meridian foliation \(U_{\rm mer}\). Its quotient is
+Conflating them was the error that made the seed look like a postulate.
 
-\[
-\boxed{
-q:\mathcal M\to B_{\rm grav}
-=
-\mathcal M/U_{\rm mer}.
-}
-\]
+## 0.2 Terms
 
-The representational base is instead an embedded resolved hypersurface,
+| term | meaning |
+|:--|:--|
+| **shell** | the set of points at fixed nonzero distance from a source worldline, within its normal space |
+| **complex shell** $\Sigma^\mathbb{C}_{\gamma,R}$ | the same at fixed *complex* radius about a *complex* worldline: an affine quadric, a complex surface |
+| **spin phase** $U(1)_H$ | the compact fiber of the shell lift; the physical real form of the complex stabilizer $\mathbb{C}^\times$ |
+| **meridian** | a leaf of the one-dimensional foliation $U_{\rm mer}$ of the middle space. In the static limit, a great circle of $S^4$ through both poles |
+| **twin** | given $x\in B_{\rm rep}$, the other point $\tau x$ of the same meridian, with $\tau^2 = 1$ and $q(x) = q(\tau x)$ |
+| **barren twin** | a twin carrying no matter, at which gravitational curvature is nevertheless nonzero. **The seed** |
+| **$T_\pm$** | $T_\pm(x) = T(x)\pm T(\tau x)$: the even and odd parts of matter under the twin map |
+| **jellium** | the uniform background density of the gravity base, supplied by the primary |
+| **primary** | the dominant mass at a degeneracy of the meridian foliation |
+| **conformal factor** | $\phi$, with $g_3 = \phi^4g_{\rm ref}$ and $\Omega\equiv\phi^2$ |
+| **fiber length** $L_H$ | the circumference the canonical metric assigns the $U(1)_H$ orbit |
 
-\[
-\boxed{
-\iota:B_{\rm rep}\hookrightarrow\mathcal M.
-}
-\]
+## 0.3 The tower
 
-The two base spaces have the same physical dimension but arise by fundamentally different operations:
+$$E^{(6)}\ \xrightarrow{\ /\,U(1)_H\ }\ \mathcal{M}^{(5)}\ \xrightarrow{\ /\,U_{\rm mer}\ }\ B_{\rm grav}^{(4)},\qquad B_{\rm rep}^{(4)}\hookrightarrow\mathcal{M}^{(5)}$$
 
-\[
-\boxed{
-B_{\rm rep}=\text{resolved representative},
-\qquad
-B_{\rm grav}=\text{equivalence class}.
-}
-\]
+Verified consistent: a circle quotient drops one dimension, a one-dimensional foliation quotient drops one more, and an embedded hypersurface of a five-manifold is four-dimensional **[V]**. Two distinct losses of information occur, and they must not be confused:
+
+| quotient | what is forgotten |
+|:--|:--|
+| $E\to\mathcal{M}$ | the **spin phase** |
+| $\mathcal{M}\to B_{\rm grav}$ | **where along the meridian** the matter sits |
+
+## 0.4 What is axiomatic
+
+The primitive data are $\big(E,\ \hat g,\ U(1)_H,\ \mathcal{A}_H,\ \rho_E,\ \mathcal{U}_{\rm mer}\big)$: the canonical space, its metric, the fiber action, its connection, the real-analytic structure needed to complexify shells, and the meridian foliation of the quotient. Everything else — the middle space, both bases, the seed — is derived. **The theory is top-down.**
 
 ---
 
-## 0.2 Dimensions in the physical real form
+# PART I — THE COMPLEX SHELL AND ITS SPIN LIFT
 
-The intended physical dimensions are
+*This part supplies the fiber. It is the version's substantive addition, and it is the reason the Hopf structure is no longer an assumption.*
 
-\[
-\dim_{\mathbb R}B_{\rm rep}=4,
-\]
+## I.1 The complex worldline and its normal space [T/S]
 
-\[
-\dim_{\mathbb R}\mathcal M=5,
-\]
+Let $\Gamma_\mathbb{C} = \{\gamma(\tau)\}$ be the analytic complex worldline of a source, with non-null tangent, $g_\mathbb{C}(\dot\gamma,\dot\gamma)\neq0$. At each $\gamma(\tau)$ the **complex normal space** is
 
-\[
-\dim_{\mathbb R}E=6,
-\]
+$$N_\gamma = \{\xi : g_\mathbb{C}(\xi,\dot\gamma) = 0\}$$
 
-\[
-\dim_{\mathbb R}B_{\rm grav}=4.
-\]
+complex three-dimensional — the complexification of the ordinary spatial rest space about a real timelike worldline.
 
-Thus
+## I.2 A complex shell is an affine quadric [T]
 
-\[
-\boxed{
-E^{(6)}
-\xrightarrow{/U(1)}
-\mathcal M^{(5)}
-\xrightarrow{/U_{\rm mer}}
-B_{\rm grav}^{(4)}
-}
-\]
+A shell of nonzero complex squared radius $R^2$ is
 
-while
+$$\Sigma^\mathbb{C}_{\gamma,R} = \{\xi\in N_\gamma : g_\mathbb{C}(\xi,\xi) = R^2\}$$
 
-\[
-\boxed{
-B_{\rm rep}^{(4)}
-\hookrightarrow
-\mathcal M^{(5)}.
-}
-\]
+Choosing an orthonormal complex frame and rescaling,
 
-The complex shell geometry used to define the first lift is not obtained by naively doubling this dimension count. It is the analytic continuation of the **local shell structure** and is described separately in Part II.
+$$\Sigma^\mathbb{C}_{\gamma,R}\ \cong\ Q^2_{\rm aff} = \{(z_1,z_2,z_3)\in\mathbb{C}^3 : z_1^2+z_2^2+z_3^2 = 1\}$$
 
----
+**a complex surface, not a real 2-sphere.** Its symmetry group is the complex rotation group $SO(3,\mathbb{C})$, whose spin double cover is $Spin(3,\mathbb{C})\cong SL(2,\mathbb{C})$.
 
-## 0.3 What is axiomatic
+## I.3 The complex Hopf lift [T/V]
 
-The primitive data are provisionally
+$SO(3,\mathbb{C})$ acts **transitively** on the affine quadric — any non-null vector of given norm rotates to any other — with stabilizer the complex torus $SO(2,\mathbb{C}) = \mathbb{C}^\times$. Lifting to the double cover:
 
-\[
-\boxed{
-(E,\hat g,\mathcal A_H,\rho_E,\mathcal U_{\rm mer},\ldots).
-}
-\]
+$$\boxed{\ \mathbb{C}^\times\ \hookrightarrow\ SL(2,\mathbb{C})\ \twoheadrightarrow\ Q^2_{\rm aff}\cong SL(2,\mathbb{C})/\mathbb{C}^\times\ }$$
 
-Here:
+Checked by dimension: $\dim_\mathbb{R}SL(2,\mathbb{C}) - \dim_\mathbb{R}\mathbb{C}^\times = 6-2 = 4 = \dim_\mathbb{R}Q^2_{\rm aff}$ **[V]**.
 
-- \(E\) is the canonical total space;
-- \(\hat g\) is its physical metric;
-- \(U(1)_H\) is the compact physical fiber action;
-- \(\mathcal A_H\) is the corresponding principal connection;
-- \(\rho_E\) denotes the analytic/real-structure data needed to extend to complexified shells;
-- \(\mathcal U_{\rm mer}\) is the meridian structure after the Hopf quotient.
+**This is the complex Hopf shell.** The old Hopfian character survives complexification not by pretending the complex shell is still a 2-sphere, but by complexifying the *homogeneous-space relation itself*.
 
-The full middle space is then
+## I.4 The physical real form is exactly the Hopf fibration [T/V]
 
-\[
-\mathcal M=E/U(1)_H.
-\]
+For a timelike source on the Lorentzian real slice, the normal rest space is ordinary Euclidean three-space, and each piece passes to its compact real form:
 
-Thus the theory is explicitly **top-down**.
+| complex | real | check |
+|:--|:--|:--|
+| $Q^2_{\rm aff}$ | $S^2$ | $z_1^2+z_2^2+z_3^2 = 1$ with $z$ real *is* the unit 2-sphere |
+| $SL(2,\mathbb{C})$ | $SU(2)\simeq S^3$ | maximal compact subgroup |
+| $\mathbb{C}^\times$ | $U(1)$ | maximal compact subgroup |
 
-It does not posit \(\mathcal M\) and then decorate it with a circle.
+$$\boxed{\ U(1)\ \hookrightarrow\ SU(2)\simeq S^3\ \twoheadrightarrow\ S^2\ }$$
+
+with $3-1 = 2 = \dim S^2$ **[V]**. So the earlier versions' assertion — *every spherical shell lifts to a Hopf 3-sphere* — is **recovered as the physical real form** of the complex statement, rather than imposed before complexification.
+
+## I.5 Why this is isotropic [T/D]
+
+The shell is defined by the invariant condition $g_\mathbb{C}(\xi,\xi) = R^2$ alone. The rotation group acts transitively on it, so no angular direction is preferred; and the lift $SL(2,\mathbb{C})\to SL(2,\mathbb{C})/\mathbb{C}^\times$ is likewise homogeneous. **The fiber is not attached by choosing a longitude. It is the stabilizer of the spin-group action.** On the real form, $SU(2)\to SU(2)/U(1)\simeq S^2$ is equally isotropic under ordinary rotations — which is the precise sense in which the magnetic/isotropic motivation of the original picture is preserved.
+
+## I.6 Why the fiber is not bolted on [T]
+
+$SL(2,\mathbb{C})$ is not introduced to manufacture a bundle. **It is already the spin group of four-dimensional Lorentzian two-spinor geometry** — the group under which Newman–Penrose spinors transform. The same algebraic object appears in two places at once:
+
+$$SL(2,\mathbb{C}) = \text{the spacetime spin group} = \text{the isotropy lift of a complex shell}$$
+
+That coincidence is the argument. Every earlier version had to *assume* a circle; here the circle is the compact part of a group the theory already contains.
+
+## I.7 What the complex shell is **not** [T]
+
+At a point of complexified four-dimensional spacetime, the projectivized complex null cone is a different object — a projective quadric built from two independent chiral spinors, natural for **null directions**. The shell used here represents **fixed nonzero radius in the complexified rest space of a non-null worldline**. These must not be conflated:
+
+$$\text{null-direction quadric}\ \neq\ \text{fixed-radius worldline shell}$$
+
+The affine quadric is preferred because its three pieces complexify *together* and its real limits are exactly the three wanted (§I.4). The projective version does not have the $S^2$ limit for a source shell.
 
 ---
 
-# PART I — THE REPRESENTATIONAL BASE
+# PART II — THE CANONICAL SPACE AND THE TWO BASES
 
-## I.1 Ordinary Lorentzian spacetime remains the conservative stopping point [T/S]
+## II.1 Law 0 [S/O]
 
-The representational base is a four-dimensional Lorentzian spin spacetime
+> ### ◆ LAW 0 — THE CANONICAL SPACE
+> There exists a canonical space $E$ such that: (i) its quotient by the compact fiber action is the middle space, $\mathcal{M} = E/U(1)_H$; (ii) near a source worldline, its analytic continuation restricted to every nonzero-radius complex shell is the homogeneous bundle $\mathbb{C}^\times\to SL(2,\mathbb{C})\to Q^2_{\rm aff}$; (iii) on the physical rest-space shell this reduces to $U(1)\to SU(2)\to S^2$; (iv) the fiber carries a connection $\mathcal{A}_H$; (v) the metric $\hat g$ gives the compact fiber a length $L_H$.
 
-\[
-(B_{\rm rep},g_{\rm rep}),
-\qquad
-\operatorname{sig}(g_{\rm rep})=(-,+,+,+).
-\]
+**An obstruction that must be stated [V/O].** Condition (iii) cannot hold over an *unpunctured* static middle space. Since $H^2(S^4) = 0$, every circle bundle over $\mathbb{R}_t\times S^4$ is trivial, and a trivial bundle restricts to $S^2\times S^1$ on each shell — **not** to $S^3$. The Hopf lift requires Chern number $1$ on the shell, which requires the secondary meridians to be removed, exactly as versions 6 through 14 did: $S^4\setminus\text{circle}\simeq S^2$ has $H^2 = \mathbb{Z}$. **So Law 0 must be stated over $\mathcal{M}$ minus the secondary meridians**, and the draft architecture inherits that surgery rather than escaping it. Global existence and uniqueness of $E$ remain open.
 
-Matter and Maxwell fields are localized here.
+## II.2 The middle space is derived [D]
 
-A detector event is
+$$\mathcal{M} = E/U(1)_H$$
 
-\[
-x\in B_{\rm rep}.
-\]
+Nothing in this version may treat $\mathcal{M}$ as more fundamental than $E$. The quotient discards the spin phase while retaining the meridian-completed localization geometry. **This is the first loss of information in the tower.**
 
-The representational base is therefore the operational spacetime of optical and material localization.
+## II.3 The representational base is a bisection, not a section [S/O]
 
-Where Newman–Janis is used, \(B_{\rm rep}\) is assumed real-analytic and extended locally to
+$B_{\rm rep}$ is an embedded Lorentzian hypersurface $\iota:B_{\rm rep}\hookrightarrow\mathcal{M}$ where matter is localized, Maxwell fields live, detectors receive light, and Newman–Janis is interpreted.
 
-\[
-B_{{\rm rep},\mathbb C}.
-\]
+In the old static picture, the equatorial $S^3$ met each meridian at **two** points, $\hat n$ and $-\hat n$. The general statement is
 
-No twistor space is fundamental.
+$$L_b\cap B_{\rm rep} = \{x,\ \tau x\},\qquad \tau^2 = 1,\qquad q(x) = q(\tau x) = b$$
 
----
+so $B_{\rm rep}$ is a **bisection**: two points per gravity fiber, not one. **And the second point may be barren.** This is where the seed lives, and stating it as a bisection rather than a section is what makes the seed a consequence instead of a postulate.
 
-## I.2 Newman–Penrose spinors live here [T]
+## II.4 The gravity base is a quotient [S]
 
-A Newman–Penrose null tetrad
+$$B_{\rm grav} = \mathcal{M}/U_{\rm mer}$$
 
-\[
-(\ell^a,n^a,m^a,\bar m^a)
-\]
-
-can be generated from a two-spinor dyad
-
-\[
-(o^A,\iota^A)
-\]
-
-by
-
-\[
-\ell^{AA'}=o^A\bar o^{A'},
-\qquad
-n^{AA'}=\iota^A\bar\iota^{A'},
-\]
-
-\[
-m^{AA'}=o^A\bar\iota^{A'},
-\qquad
-\bar m^{AA'}=\iota^A\bar o^{A'}.
-\]
-
-This is sufficient for:
-
-- null propagation;
-- Weyl spinors;
-- Petrov classification;
-- principal null directions;
-- Maxwell scalars;
-- the repeated principal null congruences of Kerr.
-
-Twistor theory may later encode special congruences, but none is required to define the v15.2 arena.
+Gravity does not ask which representative in $q^{-1}(b)$ holds the matter. It asks only for the reduced source assigned to the class.
 
 ---
 
-## I.3 Time [S/O]
+# PART III — THE LAWS
 
-Time is not appended as a fundamental factor
+> ### ◆ LAW I — GRAVITY
+> $$G_{\mu\nu}[g_G] + \Lambda g^G_{\mu\nu} = 8\pi G\,T^{(g)}_{\mu\nu}\qquad\text{on } B_{\rm grav},\qquad \Lambda = 1/\ell^2$$
+> with the source obtained by meridian reduction of resolved matter. In the discrete twin limit, $T^{(g)}([x]) = T(x) + T(\tau x)$. The same solution fixes the canonical fiber length (§III.2). There is no dilaton, no radion, and no extra scalar with a $1/r$ coupling, so PPN $\gamma = 1$ holds trivially.
 
-\[
-\mathbb R_t.
-\]
+> ### ◆ LAW II — THE MERIDIANS
+> The middle space carries a one-dimensional foliation $U_{\rm mer}$. The representational base resolves its representatives; gravity quotients it. In the static spherical limit it must reduce to the great circles of $S^4$ through both poles, with quotient $\mathbb{RP}^3$. The general equation selecting the foliation is **open** **[O]**.
 
-The physical representational base is selected as a Lorentzian real form of the analytic geometry.
+> ### ◆ LAW III — THE CONNECTION
+> The canonical fiber carries a connection $\mathcal{A}_H$ with curvature $F_H = d\mathcal{A}_H$. The candidate odd-sector law is $dF_H \overset{?}{=} 2\pi\star J_-$, with $J_- = \rho_-/m_{\rm unit}$. **Not promoted to a law until the source coupling is derived** **[O]**.
 
-Thus
+> ### ◆ LAW IV — ELECTROMAGNETISM
+> Maxwell on $B_{\rm rep}$, with $\epsilon = \mu_{\rm EM} = 1$. Light resolves meridian representatives and does **not** perform the gravity quotient. The photon is the zero mode on the canonical fiber and couples to none of it.
 
-\[
-\boxed{
-\text{time belongs to the Lorentzian real structure}.
-}
-\]
+## III.1 What each law is, and what you deduce from it [D]
 
-Version 15.2 does not yet claim to have derived the uniqueness of that real structure.
+| | **Law 0** | **Law I** | **Law II** | **Law III** | **Law IV** |
+|:--|:--|:--|:--|:--|:--|
+| **is** | an existence axiom | Einstein's equations | a foliation | a first-order curvature law | Maxwell |
+| **lives on** | $E$ | $B_{\rm grav}$ | $\mathcal{M}$ | the canonical fiber | $B_{\rm rep}$ |
+| **determines** | the arena and its fiber | $g_G$, hence $\Omega$, hence $L_H$ | the twin pairing and $B_{\rm grav}$ | $\mathcal{A}_H$ | $\mathcal{F}$ |
+| **sourced by** | — | $T_+$, the **even** part | the primary's degeneracies | $J_-$, the **odd** part (candidate) | charge |
+| **status** | structural | **dynamical** | kinematic | kinematic, **unproved coupling** | dynamical |
+| **what you deduce** | the Hopf lift on every shell (§I.4) | orbits, tides, redshift, black-hole exteriors, the $v^2$ plateau (Part IV) | which points are twins; the seed (Part V) | Chern numbers on meridians; the Aharonov–Bohm phase | the photon's kinematics; the twin's optical barrenness |
 
-That remains an explicit open problem.
+## III.2 Law I locks the fiber length [S]
 
----
+In the conformal/static sector, with $g_{\rm spatial} = \Omega^2g_{\rm ref}$ and $\Omega = \phi^2$:
 
-# PART II — COMPLEX WORLDLINES AND THEIR ISOTROPIC SHELLS
+$$L_H = \Omega\,L_H^{\rm ref},\qquad\text{so to first order}\qquad \frac{\delta L_H}{L_H} = -\Phi$$
 
-## II.1 The complex worldline [T/S]
+**Fibers lengthen in wells by exactly the potential, and space stretches as much as time slows.**
 
-Let
+> The reading is cleaner than in earlier versions: **gravity does not create the fiber — the spin geometry supplies it (Part I). Gravity determines its metric size.**
 
-\[
-\Gamma_{\mathbb C}
-=
-\{\gamma(\tau)\}
-\subset
-B_{{\rm rep},\mathbb C}
-\]
+*Scope.* This is a first-order statement. Isotropic Schwarzschild has $N = (1-m/2r)/(1+m/2r)$ while $N = \Omega^{-1}$ would require $(1+m/2r)^{-2}$; expanding, $1-m/r+m^2/2r^2$ against $1-m/r+3m^2/4r^2$ — they agree to first order and part at $O(m^2/r^2)$, with $N\Omega = 1-m^2/4r^2$ **[V]**. Imposing $N\Omega = 1$ exactly gives the Majumdar–Papapetrou form and hence extremal Reissner–Nordström, $Q = M$ — every body an extremal black hole, **excluded** **[V/T]**. Deriving the locking from an action, rather than imposing it, is open **[O]**.
 
-be the analytic complex worldline associated with a source.
+## III.3 The degree-of-freedom split, on the physical real shell [V/S]
 
-Assume its tangent is non-null in the region under consideration:
-
-\[
-g_{\mathbb C}(\dot\gamma,\dot\gamma)\neq0.
-\]
-
-At \(\gamma(\tau)\), define the complex normal space
-
-\[
-N_\gamma
-=
-\{\xi:
-g_{\mathbb C}(\xi,\dot\gamma)=0\}.
-\]
-
-This is complex three-dimensional.
-
-It is the complexification of the ordinary spatial rest space about a timelike real worldline.
-
----
-
-## II.2 A complex shell is an affine quadric [T]
-
-A shell of nonzero complex squared radius \(R^2\) is
-
-\[
-\boxed{
-\Sigma_{\gamma,R}^{\mathbb C}
-=
-\{
-\xi\in N_\gamma:
-g_{\mathbb C}(\xi,\xi)=R^2
-\}.
-}
-\]
-
-After choosing an orthonormal complex frame in \(N_\gamma\) and rescaling \(R\neq0\),
-
-\[
-\Sigma_{\gamma,R}^{\mathbb C}
-\cong
-Q_{\rm aff}^2
-=
-\{
-(z_1,z_2,z_3)\in\mathbb C^3:
-z_1^2+z_2^2+z_3^2=1
-\}.
-\]
-
-This is a **complex surface**, not a real two-sphere.
-
-Its rotational symmetry is the complex rotation group
-
-\[
-SO(3,\mathbb C),
-\]
-
-and its spin double cover is
-
-\[
-Spin(3,\mathbb C)
-\cong
-SL(2,\mathbb C).
-\]
-
----
-
-## II.3 The complex Hopf analogue [T]
-
-The affine complex quadric is the homogeneous space
-
-\[
-\boxed{
-Q_{\rm aff}^2
-\cong
-SL(2,\mathbb C)/\mathbb C^\times,
-}
-\]
-
-where \(\mathbb C^\times\) is the diagonal complex torus stabilizing a chosen direction.
-
-Therefore there is a canonical principal bundle
-
-\[
-\boxed{
-\mathbb C^\times
-\hookrightarrow
-SL(2,\mathbb C)
-\twoheadrightarrow
-Q_{\rm aff}^2.
-}
-\]
-
-This is adopted as the **complex Hopf shell** of v15.2.
-
-It is the correct sense in which the old Hopfian character survives complexification.
-
-It is not obtained by pretending the complex shell is still \(S^2\).
-
-It is obtained by complexifying the homogeneous-space relation itself.
-
----
-
-## II.4 The physical real form is exactly Hopf [T]
-
-For a timelike source on the physical Lorentzian real slice, the normal rest space is ordinary Euclidean three-space.
-
-Then
-
-\[
-Q_{\rm aff}^2
-\quad\longrightarrow\quad
-S^2,
-\]
-
-the compact spin group is
-
-\[
-SL(2,\mathbb C)
-\quad\longrightarrow\quad
-SU(2)\simeq S^3,
-\]
-
-and
-
-\[
-\mathbb C^\times
-\quad\longrightarrow\quad
-U(1).
-\]
-
-Hence
-
-\[
-\boxed{
-U(1)
-\hookrightarrow
-SU(2)\simeq S^3
-\twoheadrightarrow
-S^2.
-}
-\]
-
-The old statement
-
-> “every spherical shell lifts to a Hopf \(S^3\)”
-
-is therefore recovered **as the physical real form of the new complex-isotropic statement**, rather than imposed before complexification.
-
----
-
-## II.5 Why this is isotropic [T/D]
-
-The shell is defined only by the invariant quadratic condition
-
-\[
-g_{\mathbb C}(\xi,\xi)=R^2.
-\]
-
-The complex rotation group acts transitively on it.
-
-No angular direction is preferred.
-
-The canonical shell lift is likewise homogeneous:
-
-\[
-SL(2,\mathbb C)
-\to
-SL(2,\mathbb C)/\mathbb C^\times.
-\]
-
-Thus the fiber is not attached by choosing a special longitude on a complex shell.
-
-It is the stabilizer fiber of the spin-group action itself.
-
-On the physical real form,
-
-\[
-SU(2)\to SU(2)/U(1)\simeq S^2
-\]
-
-is equally isotropic under ordinary rotations.
-
-This is the sense in which the new construction preserves the magnetic/isotropic motivation of the original Hopf picture.
-
----
-
-# PART III — WHY THIS FIBER IS NOT BOLTED ON
-
-## III.1 The same spin group already underlies NP [T]
-
-The group
-
-\[
-SL(2,\mathbb C)
-\]
-
-is not introduced solely to manufacture a shell bundle.
-
-It is already the spin group underlying four-dimensional Lorentzian two-spinor geometry.
-
-Thus the same algebraic object occurs in two places:
-
-\[
-\boxed{
-SL(2,\mathbb C)
-=
-\text{spacetime spin group}
-}
-\]
-
-and
-
-\[
-\boxed{
-SL(2,\mathbb C)
-=
-\text{complex-isotropic total shell over }
-Q_{\rm aff}^2.
-}
-\]
-
-Version 15.2 treats this coincidence as structural evidence that the canonical shell fiber is closer to the correct type than the ad hoc \(U(1)\) of earlier versions.
-
-It is not yet a proof that all of the canonical total space must be a spin bundle.
-
----
-
-## III.2 The fiber's compact part is the spin/Hopf phase [T/S]
-
-The complex fiber is
-
-\[
-\mathbb C^\times
-\simeq
-\mathbb R_+\times U(1)
-\]
-
-as a real Lie group.
-
-The \(U(1)\) factor is the compact physical phase/stabilizer that survives on the real shell.
-
-The \(\mathbb R_+\) factor belongs to complex scaling and is not interpreted as an additional compact physical dimension.
-
-Thus the physical canonical fiber remains one circle:
-
-\[
-\boxed{
-U(1)_H.
-}
-\]
-
-This is exactly the dimensional economy wanted from v6.
-
----
-
-## III.3 NP determines the type; gravity determines the metric size [S]
-
-Spin geometry fixes the group and topology:
-
-\[
-U(1)_H
-\hookrightarrow
-SU(2)
-\to
-S^2.
-\]
-
-It does **not** determine a physically variable circumference for the \(U(1)\) orbit.
-
-That is separate metric information.
-
-Version 15.2 therefore imposes the division
-
-\[
-\boxed{
-\text{spin geometry determines the fiber type;}
-\qquad
-\text{gravity determines its length.}
-}
-\]
-
-This is the central bridge back to v6.
-
----
-
-# PART IV — THE CANONICAL TOTAL SPACE
-
-## IV.1 Axiom 0 [S/O]
-
-The canonical total space \(E\) is the physical real form of an analytic spin-fibered geometry satisfying:
-
-1. its quotient by \(U(1)_H\) is the full middle space,
-   \[
-   \mathcal M=E/U(1)_H;
-   \]
-2. near a source worldline, its analytic continuation restricted to every nonzero complex-radius shell is locally the complex homogeneous bundle
-   \[
-   \mathbb C^\times
-   \to
-   SL(2,\mathbb C)
-   \to
-   Q_{\rm aff}^2;
-   \]
-3. on the physical rest-space shell this reduces to
-   \[
-   U(1)
-   \to
-   SU(2)
-   \to
-   S^2;
-   \]
-4. the fiber has a canonical connection \(\mathcal A_H\);
-5. the total-space metric \(\hat g\) gives the compact physical fiber a length \(L_H\).
-
-The global existence and uniqueness of such an \(E\) over the complete middle geometry remain open.
-
----
-
-## IV.2 The full middle space is derived [D]
-
-The full middle space is
-
-\[
-\boxed{
-\mathcal M
-=
-E/U(1)_H.
-}
-\]
-
-Nothing in v15.2 is allowed to treat \(\mathcal M\) as more fundamental than \(E\).
-
-The quotient discards the compact spin/Hopf phase while retaining the meridian-completed localization geometry.
-
-This is the first information loss in the tower.
-
----
-
-## IV.3 The first quotient versus the second quotient
-
-There are two distinct quotients.
-
-### Hopf/spin quotient
-
-\[
-\boxed{
-E
-\xrightarrow{/U(1)_H}
-\mathcal M.
-}
-\]
-
-What is forgotten: compact spin/Hopf phase.
-
-### Gravitational meridian quotient
-
-\[
-\boxed{
-\mathcal M
-\xrightarrow{/U_{\rm mer}}
-B_{\rm grav}.
-}
-\]
-
-What is forgotten: where along the gravitational meridian the resolved matter sits.
-
-These must not be conflated.
-
----
-
-# PART V — THE TWO BASE SPACES
-
-## V.1 The representational base [S]
-
-The representational base is a Lorentzian hypersurface
-
-\[
-\boxed{
-\iota:B_{\rm rep}\hookrightarrow\mathcal M.
-}
-\]
-
-It is where:
-
-- matter is localized;
-- Maxwell fields are localized;
-- detectors receive light;
-- Newman–Janis is interpreted through the corresponding analytic continuation.
-
-The representational base resolves a point on a meridian.
-
----
-
-## V.2 It is generically a bisection [S/O]
-
-The old \(S^4\) seed had an equatorial \(S^3\) meeting one meridian at two points
-
-\[
-\hat n,
-\qquad
--\hat n.
-\]
-
-The abstract replacement is
-
-\[
-L_b\cap B_{\rm rep}
-=
-\{x,\tau x\},
-\]
-
-with
-
-\[
-\tau^2=1
-\]
-
-and
-
-\[
-q(x)=q(\tau x)=b.
-\]
-
-Thus \(B_{\rm rep}\) is more accurately a **bisection** than a one-point-per-fiber section.
-
-The second point can be barren.
-
----
-
-## V.3 The quotiented base [S]
-
-The gravity base is
-
-\[
-\boxed{
-B_{\rm grav}
-=
-\mathcal M/U_{\rm mer}.
-}
-\]
-
-Gravity does not ask which representative in
-
-\[
-q^{-1}(b)
-\]
-
-contains the matter.
-
-It asks only for the reduced source assigned to the class \(b\).
-
----
-
-# PART VI — LAW I AS THE HOPF-FIBER-LENGTH EQUATION
-
-## VI.1 Gravity on the quotiented base [S]
-
-Einstein dynamics is imposed on
-
-\[
-B_{\rm grav}:
-\]
-
-\[
-\boxed{
-G_{\mu\nu}[g_G]
-+
-\Lambda g^G_{\mu\nu}
-=
-8\pi G_N T^{(g)}_{\mu\nu}.
-}
-\]
-
-The gravitational source is obtained by meridian reduction of resolved matter.
-
-In the discrete twin limit,
-
-\[
-\boxed{
-T^{(g)}_{\mu\nu}([x])
-=
-T_{\mu\nu}(x)
-+
-T_{\mu\nu}(\tau x).
-}
-\]
-
-The fully covariant tensor pushforward remains to be derived from the action.
-
----
-
-## VI.2 Gravity constrains the canonical fiber length [S]
-
-The canonical total-space metric is required to assign a physical circumference to the compact \(U(1)_H\) orbit.
-
-In the conformal/static sector retain the v6 relation
-
-\[
-\boxed{
-L_H
-=
-\Omega L_H^{\rm ref},
-}
-\]
-
-where the quotient spatial metric is written
-
-\[
-g_{\rm spatial}
-=
-\Omega^2 g_{\rm ref}
-\]
-
-or, equivalently in the old notation,
-
-\[
-g_3=\phi^4g_{\rm ref},
-\qquad
-\Omega=\phi^2.
-\]
-
-In the weak field,
-
-\[
-\boxed{
-\frac{\delta L_H}{L_H}
-=
--\Phi.
-}
-\]
-
-The interpretation is now cleaner than in v6:
-
-> gravity does not create the \(U(1)\) fiber; the spin geometry supplies it. Gravity determines its metric size.
-
-A future action should derive this locking rather than leave it as an independent rule.
-
----
-
-## VI.3 The old degree-of-freedom split survives on the physical real shell [S]
-
-On a real physical \(S^2\) shell, its canonical lift is \(S^3\).
-
-A three-dimensional metric has six independent components.
-
-Relative to the bundle decomposition, these split as
-
-\[
-\boxed{
-6=3+1+2.
-}
-\]
-
-Interpretation:
+A metric on the three-manifold $S^3$ has $3\cdot4/2 = 6$ components. Adapted to the circle bundle $S^3\to S^2$:
 
 | block | count | candidate content |
 |:--|--:|:--|
 | shell 2-metric | 3 | even gravitational geometry |
-| Hopf fiber length | 1 | even gravitational scale \(L_H\) |
-| connection cross-terms | 2 | odd/placement sector |
+| fiber length $L_H$ | 1 | even gravitational scale |
+| connection cross-terms | 2 | odd / placement sector |
+| **total** | **6** | ✓ **[V]** |
 
-Thus v6's attractive partition can survive **on the physical real slice**.
+So the attractive $3+1+2$ partition survives — **on the physical real slice**. Version 15 does not assert it for the full complex shell; the complex homogeneous bundle is the analytic parent, and the real slice is where the metric count is performed.
 
-Version 15.2 does not naively assert a \(3+1+2\) count for the full complex shell. The complex homogeneous bundle is its analytic parent; the real slice is where the physical metric count is performed.
-
----
-
-# PART VII — THE CONNECTION AND THE OLD SECOND ORDER
-
-## VII.1 The canonical connection [T/S]
-
-A principal \(U(1)\) bundle carries a connection
-
-\[
-\mathcal A_H
-\]
-
-with curvature
-
-\[
-F_H=d\mathcal A_H.
-\]
-
-On a symmetric physical shell, the reference connection is the ordinary Hopf connection.
-
-Analytically it extends to the \(\mathbb C^\times\) connection on the complex homogeneous lift.
+**Only half is structurally motivated [O].** Quotient gravity determines the even base geometry and Law I locks the fiber length to it — that is the $3+1$. That odd matter must occupy the remaining $2$ is a conjecture until the coupling is derived. **The reason for retaining it is stronger than before**: the connection is no longer attached to an arbitrary circle, but to the compact real fiber of the spin-shell lift, and the real-shell metric leaves exactly two components beyond base and length.
 
 ---
 
-## VII.2 Candidate odd-placement law [S/O]
+# PART IV — IDENTITIES AND THEOREMS
 
-The old v6 second-order law was
+*These are the durable results of versions 6 through 14. They are stated here in full because they are the theory's content; each must be re-derived in the new architecture rather than assumed, and Part VIII lists that as a regression test.*
 
-\[
-dF
-=
-2\pi\star J_-,
-\]
+## IV.1 The twin theorem [V]
 
-with odd/twin-asymmetric matter sourcing the connection sector.
+The static operator on the closed gravity base is $\Delta_{S^3}+3$. Its Green's function has a **same-sign** pole at the antipode; its kernel is the dipoles; so a source must have zero dipole, and **a lone mass has no static solution**. A ball at the pole has dipole $0.169\neq0$, and a numerical solve returns the kernel mode as its symptom. **The twin is forced, not permitted.**
 
-Version 15.2 retains this only as a **candidate**:
+## IV.2 Closure and the $G$ identity [D]
 
-\[
-\boxed{
-dF_H
-\stackrel{?}{=}
-2\pi\star J_-.
-}
-\]
+The gravity base is the Einstein static universe: $\Lambda = 1/\ell^2$, $\bar\rho = 1/4\pi\ell^2$. The meridian flux through every latitude is $M_c$, and closure fixes it:
 
-The reason for retaining it is now stronger than before:
+$$\frac{GM_c}{c^2\ell} = \frac{\pi}{2}$$
 
-- the connection is no longer attached to an arbitrary circle bundle;
-- the circle is the compact real fiber of the complex spin-shell lift;
-- the real-shell metric naturally leaves exactly two connection components beyond the base metric and fiber length.
+**A constraint, not a derivation.** And it is a horizon statement: $r_s(M_c) = 2GM_c/c^2 = \pi\ell$, exactly the antipodal distance on $S^3(\ell)$ — a closed static universe is marginally its own horizon.
 
-What remains unproved is why \(T_-\) or \(J_-\) must source this particular connection.
+## IV.3 Law I as the fiber-length equation [V]
 
-That bridge is open.
+Weak-field statics are conformally round, and the Hamiltonian constraint linearizes to
 
----
+$$(\Delta_{S^3}+3)\,\delta\phi = -2\pi\,\delta\rho_+$$
 
-## VII.3 Magnetic interpretation [S]
+the twin-theorem operator acting on the conformal factor. For a ball with its twin, $\phi^2 = 2.017$ at the ball's center and identically at the **empty** twin, agreeing to $10^{-11}$ **[V]**.
 
-The magnetic analogy is geometric, not merely verbal.
+## IV.4 Weyl from the fiber length [V]
 
-The physical compact fiber is \(U(1)\).
+$$E_{ij} = -2\big[\nabla_i\nabla_j\phi\big]^{\rm TF},\qquad \phi = \sqrt{L_H/2\pi\ell}$$
 
-Its connection can have nontrivial holonomy and curvature.
+The Hessian's trace is the matter; its trace-free part is the tidal field. For Schwarzschild the eigenvalues are $(m/r^3)(1,-\tfrac12,-\tfrac12)$ — Petrov type D, with repeated principal null directions along $\partial_t\pm\widehat{\nabla L_H}$, the directions of steepest fiber-length change.
 
-The complex parent is the \(\mathbb C^\times\) stabilizer inside the complex spin lift.
+## IV.5 The metric, written out [V/D]
 
-The construction is rotationally isotropic on the real shell and \(SO(3,\mathbb C)\)-homogeneous on the complex shell.
+$$ds^2 = -N^2dt^2 + L_H^2\big(d\theta+\alpha\big)^2 + \kappa^2du^2 + \phi^4g_{S^3}$$
 
-This is the precise v15.2 meaning of **analogue-isotropy**.
+with $N$ and $L_H$ from Law I, $\alpha$ the Law III connection, $u$ the meridian and $\kappa$ its scale. For a point mass, $\phi = 1 + GM/2r + O(r^2/\ell^2)$, and the four-dimensional part is **isotropic Schwarzschild exactly**:
 
----
+$$ds^2_4 = -\left(\frac{1-GM/2r}{1+GM/2r}\right)^2dt^2 + \left(1+\frac{GM}{2r}\right)^4\big(dr^2+r^2d\Omega_2^2\big)$$
 
-# PART VIII — NEWMAN–JANIS AND KERR
+with closure corrections at $O(r^2/\ell^2)$ — $4\times10^{-15}$ at 10 kpc for $\ell = 63$ Gpc. Shells have proper area $4\pi r^2(1+GM/2r)^4$. The meridian scale $\kappa$ remains undetermined **[O]**.
 
-## VIII.1 Kerr remains a representational-base complex deformation [T]
+## IV.6 Black holes [D/O]
 
-The Newman–Janis construction acts on the complexification of the four-dimensional representational base.
+If the canonical flux gravitates with coupling $g_2$, it adds a Reissner–Nordström term with an effective charge:
 
-Schematically,
+$$f(r) = 1 - \frac{2GM}{c^2r} + \frac{GP^2}{c^4r^2},\qquad P = g_2\frac{M}{m_{\rm unit}}$$
 
-\[
-\boxed{
-B_{\rm rep}
-\hookrightarrow
-B_{{\rm rep},\mathbb C}
-\xrightarrow{\text{complex shift}}
-B_{{\rm rep},\mathbb C}
-\xrightarrow{\text{real slice}}
-B_{\rm rep}^{\rm Kerr}.
-}
-\]
+The Newtonian term is untouched; the horizon moves to $r_\pm = (GM/c^2)(1\pm\sqrt{1-P^2/M^2})$; extremality tightens to $M^2\geq Q^2+P^2$ **universally**, since every hole carries $P\propto M$. Mercury's perihelion bounds it: the repulsive term shifts the advance by $-(P/M)^2/6$, and agreement to $10^{-4}$ gives
 
-For Schwarzschild,
+$$g_2/m_{\rm unit} = P/M < 0.024$$
 
-\[
-a\to0
-\quad\Rightarrow\quad
-\text{Kerr}\to\text{Schwarzschild}.
-\]
+Lunar ranging gives nothing useful; ringdowns test $P/M$ only at the $0.1$–$0.3$ level. The double pulsar can tighten it **[O]**.
 
-The spin parameter is
+## IV.7 Charge and the twin [V/D]
 
-\[
-a=J/M.
-\]
+Gauss on a closed section forces a compensating charge somewhere, and the seed puts nothing at the twin. With the compensator wherever the other charges are, the field of a charge $Q$ is regular at the twin and vanishes there — verified, $|E|\to0$ **linearly**. **The twin carries gravitational shape with no electromagnetic content**; a charged secondary's twin holds the $Q^2/r^2$ term as a *tidal* charge with $\nabla\cdot E = 0$ and $E = 0$.
+
+## IV.8 Orbits and the $v^2$ family [V]
+
+On the gravity base a secondary is a well in the jellium, and closed-universe orbits are retrograde-precessing rosettes: apsidal advance $1.945\pi$ per radial period at small apocenter, falling to $1.836\pi$ mid-disk. The kinematic pattern speed $\Omega-\kappa/2$ falls by a factor 10 across a disk where Kepler alone gives 20 — **the closure term halves the winding rate of kinematic spirals.**
+
+For circular orbits at colatitude $\chi$, $v^2(\chi) = \Phi'(\chi)\tan\chi$, and at the equator $\Phi'(\pi/2) = 0$ by twin symmetry, so $v^2_{\rm eq} = -\Phi''(\pi/2)$. Solving for a lump holding a fraction $f$ of the closure mass gives, converged as the lump shrinks,
+
+$$v^2_{\rm eq} = 2.352\,f = 1.497\,\frac{GM}{\ell}$$
+
+**independent of how the lump is packed** — only the monopole survives at the equator. *(This corrects an earlier quotation of $4GM/\pi\ell$, which was 15% low* **[V/R]***.)*
+
+## IV.9 The lumped-mass limit [V/D]
+
+Closure fixes the total at $M_{\rm tot} = \pi\ell/2$, so a secondary of mass $M$ holds a fraction $f = M/M_{\rm tot}$ of it. At $f = 1$ the lump's Schwarzschild radius is $\pi\ell$ — **the antipodal distance, the diameter of the universe.** Nothing is outside it; there are no orbits because there is no exterior. Law II is untroubled: the foliation is intact at $f = 1$; what fails is the base geometry.
+
+## IV.10 The Keplerian limit, quantified [V]
+
+Near a point mass the Green's function goes as $1/\sin\chi$, so with $r = \ell\chi$,
+
+$$\Phi(r) = -\frac{Gm}{r}\left[1+\frac{r^2}{6\ell^2}+O(r^4/\ell^4)\right]$$
+
+The closure correction is $4\times10^{-15}$ at 10 kpc and $4\times10^{-45}$ at 1 AU. The jellium's correction overtakes $Gm/r^2$ only where the enclosed background mass equals $m$: **1.2 Mpc for a $10^{12}M_\odot$ galaxy, 0.12 kpc for the Sun.** Inside any galaxy and throughout any planetary system, motion is Keplerian to better than a part in $10^{14}$.
+
+## IV.11 The static wall [T]
+
+On a static geometry Killing energy is conserved and there is no redshift. **A theorem about the arena, not a gap in it.** Every route to Hubble's law within the static theory ends at the seed's own symmetry: the twin's well is identical to the source's, and identical wells cannot shift light between them.
 
 ---
 
-## VIII.2 The canonical shells follow the complex worldline [S]
+# PART V — THE SEED
 
-If the source center is represented by a complex worldline
+## V.1 Light resolves; gravity quotients [S/T]
 
-\[
-\Gamma_{\mathbb C},
-\]
+Matter and Maxwell fields live on $B_{\rm rep}$. An optical event is a point $x\in B_{\rm rep}$, so **light distinguishes $x$ from $\tau x$**: the electromagnetic field is not meridian-averaged.
 
-then the canonical shell construction is centered on that worldline.
+Gravity first applies $q:\mathcal{M}\to B_{\rm grav}$, and $q(x) = q(\tau x)$. So its operation is
 
-At every worldline point and radius,
+$$\text{gravity} = q^*\circ\,\text{Einstein}\,\circ q_*$$
 
-\[
-\Sigma_{\gamma,R}^{\mathbb C}
-\cong
-Q_{\rm aff}^2
-\]
+push the resolved source down to the class, solve, pull the solution back up.
 
-and its lift is
+## V.2 The barren twin [D/S]
 
-\[
-SL(2,\mathbb C).
-\]
+Take $T(x)\neq0$ and $T(\tau x) = 0$. The quotiented source is $T^{(g)}([x]) = T(x)$, and the metric solved at $[x]$ lifts to **both** representatives. Therefore
 
-Thus Kerr's complex displacement moves the **center of the entire complex-isotropic shell system**.
+$$T(\tau x) = 0\qquad\text{while}\qquad \text{curvature at }\tau x\neq0$$
 
-It does not require interpreting rotation as literal winding around the Hopf fiber.
+> **This is the seed.** No dark particle has been placed at the twin. The discrepancy is a difference in **resolution** — light resolves a representative, gravity resolves a class — and the two bases of Part 0 are what make that sentence sayable.
 
-This keeps the roles separate:
+## V.3 Why the twin is unobserved, twice over [V]
 
-\[
-\boxed{
-\text{Kerr rotation}
-=
-\text{complex worldline displacement},
-}
-\]
-
-\[
-\boxed{
-\text{Hopf fiber}
-=
-\text{spin/isotropy lift of the shell}.
-}
-\]
+It is **empty**: no matter to emit, absorb or scatter, and electromagnetically barren by §IV.7. And its light could not have arrived in any case: the crossing time is $\pi\ell/c = 646$ Gyr at $\ell = 63$ Gpc, forty-seven times the age of the universe. **Two independent reasons, neither requiring a new coupling.**
 
 ---
 
-## VIII.3 Why this is better than v14's \(TS^4\) picture
+# PART VI — NEWMAN–JANIS AND KERR
 
-Version 14 tried to interpret Kerr as lifting a source off the zero section of a tangent bundle.
+## VI.1 The construction, in six steps [T/V]
 
-Version 15.2 instead says:
+**1.** Put Schwarzschild in Kerr–Schild form, $g_{ab} = \eta_{ab}+2Hk_ak_b$ with $H = M/r$ and $k$ null and geodesic for both metrics. Exact, not linearized.
 
-- complexified spacetime handles the Newman–Janis move;
-- \(SL(2,\mathbb C)\) spin geometry handles the isotropic shell lift;
-- the meridian structure handles the dark-matter seed;
-- Einstein dynamics handles fiber length.
+**2.** Note the whole solution rests on one harmonic function: $\nabla^2(1/r) = 0$ away from the origin **[V]**.
 
-No one construction is asked to do all four jobs.
+**3.** Complexify and displace the source along the imaginary axis, $z\to z-ia$:
 
----
+$$\frac{1}{\sqrt{x^2+y^2+z^2}}\ \longrightarrow\ \frac{1}{\sqrt{x^2+y^2+(z-ia)^2}}$$
 
-## VIII.4 The \(g=2\) signpost [T/O]
+still harmonic **[V]** — *nothing is added; a source is moved.*
 
-Kerr–Newman satisfies
+**4.** The complex distance vanishes where $-2az = 0$ and $x^2+y^2+z^2 = a^2$, i.e. $z = 0$ and $x^2+y^2 = a^2$: **a ring of radius $a$** **[V]**. Schwarzschild's point singularity has become Kerr's ring.
 
-\[
-J=Ma,
-\qquad
-\mu=Qa,
-\]
+**5.** With the oblate radius $R$ defined by $\frac{x^2+y^2}{R^2+a^2}+\frac{z^2}{R^2} = 1$, the complex distance is $R+ia\cos\theta$ and $H = MR^3/(R^4+a^2z^2)$ — **Kerr in Kerr–Schild form**.
 
-hence
+**6.** The angular momentum is $J = Ma$, so $a = J/M$: **the imaginary displacement is the spin per unit mass.**
 
-\[
-\mu=\frac{Q}{M}J,
-\]
+## VI.2 Where this happens, and where it does not [S/D]
 
-the conventional \(g=2\) relation.
+Newman–Janis acts on the **complexification of the representational base**:
 
-Complex-worldline approaches to Einstein–Maxwell theory provide a further reason to keep the complex center structure visible.
+$$B_{\rm rep}\hookrightarrow B_{{\rm rep},\mathbb{C}}\xrightarrow{\text{shift}}B_{{\rm rep},\mathbb{C}}\xrightarrow{\text{real slice}}B_{\rm rep}^{\rm Kerr}$$
 
-Version 15.2 treats this as a **future bridge target**, not a derivation of the electron.
+And the canonical shells **follow the complex worldline**: at every point and radius the shell is $Q^2_{\rm aff}$ with lift $SL(2,\mathbb{C})$, so the displacement moves the center of the entire shell system. Two roles stay separate:
 
----
+$$\text{Kerr rotation} = \text{complex worldline displacement},\qquad \text{the fiber} = \text{the shell's spin lift}$$
 
-# PART IX — LIGHT VERSUS GRAVITY
+> **Rotation is not winding around the fiber.** Earlier versions tried to make one construction carry rotation, the seed, the fiber and the dynamics at once. Here complexified spacetime handles Newman–Janis, spin geometry handles the shell lift, the meridians handle the seed, and Einstein's equations handle the fiber length. **No single construction is asked to do all four jobs.**
 
-## IX.1 Light resolves before the meridian quotient [S/T]
+## VI.3 The $g = 2$ signpost [T/O]
 
-Matter and Maxwell fields live on
-
-\[
-B_{\rm rep}.
-\]
-
-An optical event is
-
-\[
-x\in B_{\rm rep}.
-\]
-
-Light therefore distinguishes
-
-\[
-x
-\neq
-\tau x.
-\]
-
-The electromagnetic field is not meridian-averaged.
+Kerr–Newman satisfies $J = Ma$ and $\mu = Qa$, hence $\mu = (Q/M)J$ — the conventional $g = 2$ relation. Complex-worldline approaches to Einstein–Maxwell give a further reason to keep the complex center visible. **A future bridge target, not a derivation of the electron.**
 
 ---
 
-## IX.2 Gravity sources after the meridian quotient [S]
+# PART VII — SPIN, AND THE CATEGORY FIREWALL
 
-Gravity first applies
+## VII.1 What the spin geometry does supply [T]
 
-\[
-q:\mathcal M\to B_{\rm grav}.
-\]
+Newman–Penrose two-spinors transform under $SL(2,\mathbb{C})$ — the same group that lifts the complex shell (§I.6). The canonical fiber's compact part is therefore the spin phase, and the theory may legitimately constrain: spin structures, phase holonomy, chirality, principal spinors, allowed connections, topological charge, geometric relations among mass, charge and rotation, and the availability of zero modes.
 
-Thus
+## VII.2 What it does not [T]
 
-\[
-q(x)=q(\tau x).
-\]
+$$\text{spinorial shell geometry}\ \not\Rightarrow\ \text{fermionic anticommutation}$$
 
-The conceptual operation is
+Newman–Penrose spinors are **classical, commuting** geometric spinors. Grassmann-odd quantum fields are a further structure, and the implication is blocked by type, not by difficulty: a Grassmann number satisfies $\theta^2 = 0$, which is what makes $\psi^\dagger(x)^2 = 0$ and hence the exclusion principle, and nothing in a spin bundle produces it. **Any such derivation remains open.**
 
-\[
-\boxed{
-T_{\rm resolved}
-\xrightarrow{q_*}
-T_{\rm grav}
-\xrightarrow{\rm Einstein}
-g_G
-\xrightarrow{q^*}
-g_{\rm resolved}^{\rm grav}.
-}
-\]
+## VII.3 Statistics and exclusion, unchanged [T]
 
-In shorthand,
+Finkelstein–Rubinstein: in any 3-manifold, exchanging two identical particles is *locally* homotopic to rotating one by $2\pi$ in place, so the exchange sign equals the frame-$2\pi$ sign $(-1)^{2s}$. The argument is local and does not see the twin loop. **Anticommutation and the Pauli exclusion principle hold exactly as in ordinary quantum field theory.**
 
-\[
-\boxed{
-\text{gravity}
-=
-q^*
-\circ
-{\rm Einstein}
-\circ
-q_*.
-}
-\]
+## VII.4 Twin parity [T/D]
+
+The frame bundle of $\mathbb{RP}^3 = SO(3)$ is $SO(3)\times SO(3)$, with $\pi_1 = \mathbb{Z}_2\times\mathbb{Z}_2$: **two independent** generators, a frame rotation (giving spin) and a trip around the twin loop (giving a parity $\tau = \pm1$). $\tau$ is a discrete quantum number independent of spin and statistics, and it is fixed by the sign a field acquires on transport through the primary. Which species are twin-odd is open **[O]**.
 
 ---
 
-## IX.3 The barren twin [D/S]
+# PART VIII — STATIC REGRESSION AND TESTS
 
-Take
+## VIII.1 The old geometry must be recovered, not assumed [S/O]
 
-\[
-T(x)\neq0,
-\qquad
-T(\tau x)=0.
-\]
+The intended static specialization is
 
-The quotiented source is nevertheless
+$$\mathcal{M}_{\rm static}\sim\mathbb{R}_t\times S^4,\qquad B_{\rm rep}^{\rm static}\sim\mathbb{R}_t\times S^3,\qquad B_{\rm grav}^{\rm static}\sim\mathbb{R}_t\times\mathbb{RP}^3$$
 
-\[
-T^{(g)}([x])
-=
-T(x).
-\]
+with $S^3\hookrightarrow S^4\xrightarrow{/\text{meridians}}\mathbb{RP}^3$ spatially, and over every physical shell the compact canonical lift $U(1)\to S^3\to S^2$. Dimensions check: $1+4 = 5$, $1+3 = 4$, $1+3 = 4$ **[V]**.
 
-The gravity metric solved at \([x]\) lifts to both resolved representatives.
+**Order of recovery, as a regression test and not an assumption [O]:** derive the static real form of the middle space; recover the meridian quotient; derive the quotient metric and its Green's function; recover the geodesic and orbit equations; **only then** reassert the results of Part IV.
 
-Therefore
+## VIII.2 The golf ball [V/D]
 
-\[
-\boxed{
-T(\tau x)=0
-\quad\text{while}\quad
-\text{gravitational curvature at }\tau x\neq0.
-}
-\]
+Does a golf ball in a vacuum chamber on Earth enclose its own flux? **Topologically yes** — Law III is linear, and for a small sphere around it $\frac{1}{2\pi}\int F = M_g/m_{\rm unit}$ exactly; Chern numbers add and are localized, and Earth cannot smear away an integer. **Geometrically Earth dominates** — the flux falls as $N/2r^2$, the same law as gravity, and the ball's field exceeds Earth's only inside $r = R_\oplus\sqrt{M_g/M_\oplus} = 0.56\,\mu$m, which is precisely its gravitational neutral point.
 
-This is the seed.
+**The quantization fork decides whether there is any winding at all.** With $m_{\rm unit} = m_p$ the ball winds $2.7\times10^{25}$ times and Earth $3.6\times10^{51}$; with $m_{\rm unit}\sim10^{14}M_\odot$ both wind zero times and the whole sector is absent from the solar system. A spherically symmetric chamber contributes nothing inside, by the shell theorem. Nothing in the laboratory detects either answer: the photon is neutral under the fiber.
 
-No dark particle has been placed at the twin.
+## VIII.3 The Machian direction [T/D/V]
 
-The discrepancy is a difference in **resolution**.
+Vacuum general relativity already has the symmetry $(g,M)\to(\lambda^2g,\lambda M)$: every Schwarzschild exterior *is* a rescaled copy of every other, with mass the scale. So "isomorphic shells up to scale" is true and yields nothing new — the scale it fixes is mass, not size, and compactness $r_s/R$ ($1.4\times10^{-9}$ for Earth, $3.2\times10^{-27}$ for a golf ball) is untouched.
 
----
+Rescaling $r_s$ with $GM$ fixed is **inconsistent**, since $r_s = 2GM/c^2$ is one number whenever the exterior has a single source. The realizable version is already present: the flux energy $|F_\oplus+F_g|^2$ has a **cross term** that exists only when Earth is present, $1.5\times10^9$ times the ball's own term at its surface — so the ball's near field genuinely differs alone and near Earth. Bounded by Mercury at $\delta r_s/r_s<3\times10^{-4}$ **[D]**.
 
-# PART X — STATIC \(S^4\) REGRESSION
+**A local Mach relation fails [V]:** reading $GM/c^2\ell = \pi/2$ with $\ell$ a sphere of influence gives $5\times10^{11}G$ for Earth and $3\times10^{22}G$ for the golf ball. The Mach relation closes a *universe*.
 
-## X.1 The old geometry must be recovered, not assumed [S/O]
+**Emergent $G$ [D]:** $G$ is emergent iff mass has a $G$-free definition, and general relativity has none — ADM and Komar masses are defined through $G$. The Hamiltonian constraint holds on every slice but constrains the product $G\rho$ and cannot separate the factors.
 
-The intended static real specialization is
+## VIII.4 The required constructions [O]
 
-\[
-\boxed{
-\mathcal M_{\rm static}
-\sim
-\mathbb R_t\times S^4
-}
-\]
-
-at the level of the derived full middle space.
-
-The representational base becomes
-
-\[
-\boxed{
-B_{\rm rep}^{\rm static}
-\sim
-\mathbb R_t\times S^3,
-}
-\]
-
-and the quotient base becomes
-
-\[
-\boxed{
-B_{\rm grav}^{\rm static}
-\sim
-\mathbb R_t\times\mathbb{RP}^3.
-}
-\]
-
-Spatially,
-
-\[
-S^3
-\hookrightarrow
-S^4
-\xrightarrow{/\,\text{meridians}}
-\mathbb{RP}^3.
-\]
-
-Above every physical \(S^2\) shell in the representational geometry sits the compact real canonical shell
-
-\[
-S^3
-\]
-
-through
-
-\[
-U(1)\to S^3\to S^2.
-\]
-
-Thus the full v6 picture is recovered as the **compact real/static specialization** of the new complex spin-shell architecture.
+1. Construct an explicit $E$ whose shell restrictions are the stated $SL(2,\mathbb{C})$ lifts, over $\mathcal{M}$ minus the secondary meridians (§II.1), with a smooth five-dimensional quotient away from controlled singular loci.
+2. Show the complex bundle's reduction to $U(1)\to SU(2)\to S^2$ on the Lorentzian slice, covariantly.
+3. Define the complex normal bundle and shell lift along a general non-null complex worldline.
+4. Carry the shell lift consistently through Schwarzschild $\to$ Kerr.
+5. **Derive** $L_H = \Omega L_H^{\rm ref}$ rather than impose it.
+6. Determine whether $T_-$ genuinely occupies the two connection components.
+7. Derive the meridian foliation from canonical data.
+8. Recover $S^4\to\mathbb{RP}^3$ and the barren twin.
+9. Re-derive the $v^2$ family in the recovered static sector.
+10. Compute what stress-energy an observer infers by applying Einstein's equation on $B_{\rm rep}$ instead of $B_{\rm grav}$ — **the dark-sector prediction**.
+11. Verify the twin stays optically barren.
+12. Keep the spin-statistics firewall: do not identify the geometric spin lift with Grassmann parity.
 
 ---
 
-## X.2 Orbit laws are regression tests [O]
+# PART IX — THE ACTION TARGET [O]
 
-The old closed-universe orbit laws, closure relation, and \(v^2\) family do not automatically survive an architectural rewrite.
+A successful action should make both information reductions automatic:
 
-They must be recovered in this order:
+$$S = S_{\rm EH}[B_{\rm grav},g_G] + S_{\rm matter}[B_{\rm rep},\psi,A] + S_{\rm can}[E,\hat g,\mathcal{A}_H,U_{\rm mer}]$$
 
-1. derive the static real form of the middle space;
-2. recover the meridian quotient;
-3. derive the quotient metric and Green function;
-4. recover the old geodesic/orbit equations;
-5. only then reassert the \(v^2\) family.
-
-This is a regression test, not an assumption.
+Variation with respect to $g_G$ should produce the meridian-reduced source; constraints on the canonical metric should produce the fiber-length locking; and the connection equation should either derive the $J_-$ law or show that it was the wrong use of the remaining freedom. **Until such an action exists, the split is architectural rather than final.**
 
 ---
 
-# PART XI — WHAT THE COMPLEX SHELL IS NOT
+# PART X — RETIRED AND OPEN
 
-## XI.1 Not merely the projectivized null cone
+## X.1 Retired, with reasons
 
-At a point of fully complexified four-dimensional spacetime, the projectivized complex null cone is a different useful object, a projective quadric related to two independent chiral projective spinors.
-
-That object is natural for **null directions**.
-
-The shell used here instead represents **fixed nonzero complex spatial radius in the complexified rest space of a non-null worldline**.
-
-Thus:
-
-\[
-\boxed{
-\text{null-direction quadric}
-\neq
-\text{fixed-radius worldline shell}.
-}
-\]
-
-Version 15.2 uses the latter for the canonical shell lift.
-
-This prevents a type confusion between optical null directions and spatial shells around the source.
-
----
-
-## XI.2 Why the affine quadric is preferable here
-
-The fixed-radius shell has exactly the desired real limit:
-
-\[
-Q_{\rm aff}^2
-\rightsquigarrow
-S^2.
-\]
-
-Its spin-homogeneous lift has exactly the desired real limit:
-
-\[
-SL(2,\mathbb C)
-\rightsquigarrow
-SU(2)\simeq S^3.
-\]
-
-Its fiber has exactly the desired real limit:
-
-\[
-\mathbb C^\times
-\rightsquigarrow
-U(1).
-\]
-
-So the three pieces complexify together:
-
-\[
-\boxed{
-\begin{array}{ccc}
-\mathbb C^\times &\to& SL(2,\mathbb C)\\
-&&\downarrow\\
-&&Q_{\rm aff}^2
-\end{array}
-}
-\]
-
-becomes
-
-\[
-\boxed{
-\begin{array}{ccc}
-U(1)&\to&S^3\\
-&&\downarrow\\
-&&S^2.
-\end{array}
-}
-\]
-
-That is the isotropic complex analogue sought here.
-
----
-
-# PART XII — CATEGORY FIREWALL
-
-## XII.1 Spin geometry does not yet derive Grassmann parity [T]
-
-The appearance of \(SL(2,\mathbb C)\), \(SU(2)\), and spinors does not derive quantum fermionic statistics.
-
-NP spinors are classical commuting geometric spinors.
-
-Grassmann-odd quantum fields are a further quantum/statistical structure.
-
-Therefore
-
-\[
-\boxed{
-\text{spinorial shell geometry}
-\not\Rightarrow
-\text{fermionic anticommutation}.
-}
-\]
-
-Any such derivation remains open.
-
----
-
-## XII.2 What can legitimately emerge geometrically
-
-The new canonical total space may plausibly constrain:
-
-- spin structures;
-- phase holonomy;
-- chirality;
-- principal spinors;
-- allowed bundle connections;
-- topological charge;
-- geometric relations among mass, charge, and rotation;
-- the availability of particular zero modes.
-
-Those are the appropriate next targets.
-
----
-
-# PART XIII — MINIMAL LAW SET
-
-## LAW 0 — CANONICAL TOTAL SPACE [S/O]
-
-There exists a canonical total space \(E\) whose local analytic shell geometry around every admissible complex source worldline is the complex Hopf homogeneous bundle
-
-\[
-\boxed{
-\mathbb C^\times
-\to
-SL(2,\mathbb C)
-\to
-SL(2,\mathbb C)/\mathbb C^\times.
-}
-\]
-
-Its physical compact real shell is
-
-\[
-\boxed{
-U(1)\to SU(2)\to S^2.
-}
-\]
-
-The full middle space is derived by quotienting the physical \(U(1)\) fiber.
-
----
-
-## LAW I — GRAVITY [S]
-
-Einstein dynamics is imposed on the quotiented base
-
-\[
-B_{\rm grav}
-=
-\mathcal M/U_{\rm mer}
-\]
-
-with meridian-reduced source.
-
-The same gravitational solution constrains the canonical Hopf-fiber length:
-
-\[
-\boxed{
-L_H=\Omega L_H^{\rm ref}
-}
-\]
-
-in the conformal/static sector.
-
----
-
-## LAW II — MERIDIANS [S/O]
-
-The derived full middle space carries a one-dimensional meridian foliation \(U_{\rm mer}\).
-
-The representational base resolves its representatives.
-
-Gravity quotients it.
-
-In the static spherical limit this structure must reduce to the great-circle meridians of \(S^4\) with quotient \(\mathbb{RP}^3\).
-
-The general dynamical equation selecting the meridians remains open.
-
----
-
-## LAW III — CONNECTION / ODD SECTOR [O]
-
-The canonical Hopf connection is \(\mathcal A_H\) with
-
-\[
-F_H=d\mathcal A_H.
-\]
-
-The candidate old odd-sector law is
-
-\[
-dF_H
-\stackrel{?}{=}
-2\pi\star J_-.
-\]
-
-This is not promoted to a law until the source coupling is derived.
-
----
-
-## LAW IV — LIGHT [T/S]
-
-Maxwell and matter fields live on \(B_{\rm rep}\).
-
-Light resolves meridian representatives and does not perform the gravity quotient.
-
----
-
-# PART XIV — THE DEGREE-OF-FREEDOM TARGET
-
-The old v6 counting was attractive because on each real shell the total metric data split naturally into
-
-\[
-\boxed{
-6=3+1+2.
-}
-\]
-
-Version 15.2 gives those slots cleaner geometric names:
-
-\[
-\boxed{
-\begin{array}{ccl}
-3&=&\text{metric of the physical shell }S^2,\\
-1&=&\text{metric length of the spin/Hopf }U(1),\\
-2&=&\text{connection cross-terms}.
-\end{array}
-}
-\]
-
-The intended assignment remains
-
-\[
-\boxed{
-T_+
-\longrightarrow
-(3+1)
-}
-\]
-
-and
-
-\[
-\boxed{
-T_-
-\longrightarrow
-2.
-}
-\]
-
-But only the first half is currently structurally motivated:
-
-- quotient gravity determines the even base geometry;
-- Law I locks the Hopf-fiber length to it.
-
-The second half remains a conjecture until odd matter is shown to source the canonical connection.
-
----
-
-# PART XV — THE ACTION TARGET
-
-A successful action should make both information reductions automatic.
-
-Schematically,
-
-\[
-S
-=
-S_{\rm EH}[B_{\rm grav},g_G]
-+
-S_{\rm matter}[B_{\rm rep},\psi,A;\ldots]
-+
-S_{\rm can}[E,\hat g,\mathcal A_H,U_{\rm mer};\ldots].
-\]
-
-Variation with respect to \(g_G\) should produce the meridian-reduced source.
-
-Variation or constraint equations involving the canonical metric should produce the fiber-length locking.
-
-The connection equation should either derive the old \(J_-\) law or show that it was the wrong use of the remaining degrees of freedom.
-
-Until such an action exists, the split is architectural rather than final.
-
----
-
-# PART XVI — REQUIRED TESTS
-
-1. **Global canonical space.** Construct an explicit \(E\) whose shell restrictions are the stated \(SL(2,\mathbb C)\) homogeneous lifts and whose physical quotient is a smooth five-dimensional middle space away from controlled singular loci.
-2. **Real structure.** Show explicitly how the complex shell bundle reduces to \(U(1)\to SU(2)\to S^2\) on the Lorentzian physical slice.
-3. **Worldline covariance.** Define the complex normal bundle and shell lift covariantly along a general non-null complex worldline.
-4. **Kerr regression.** Perform Schwarzschild \(\to\) Kerr by Newman–Janis or equivalent complex-worldline methods while carrying the canonical shell lift consistently.
-5. **Fiber-length law.** Derive rather than merely impose \(L_H=\Omega L_H^{\rm ref}\).
-6. **Connection law.** Determine whether \(T_-\) genuinely occupies the two real connection degrees of freedom.
-7. **Meridian construction.** Derive the one-dimensional middle-space meridian foliation from canonical data.
-8. **Static \(S^4\) regression.** Recover \(S^4\to\mathbb{RP}^3\) and the barren twin.
-9. **Orbit regression.** Re-derive the old \(v^2\) family in the recovered static sector.
-10. **Dark-sector calculation.** Compute what stress-energy a local observer would infer by applying Einstein's equation on the representational base instead of the quotiented base.
-11. **Electromagnetic separation.** Verify that the twin remains optically/electromagnetically barren.
-12. **Spin-statistics firewall.** Do not identify the geometric spin lift with Grassmann parity without a separate quantum derivation.
-
----
-
-# PART XVII — WHAT v15.2 RETIRES
-
-| previous idea | v15.2 verdict |
+| item | reason |
 |:--|:--|
-| full middle space as the axiom | **[R]** — it is derived from the canonical total space |
-| representational “middle space” terminology | **[R]** — it is the representational **base space** |
-| quotiented “middle space” terminology | **[R]** — it is the quotiented **base space** |
-| real \(S^2\) shell used before complexification | **[R]** at the analytic level |
-| provisional \(\mathbb{CP}^1_L\times\mathbb{CP}^1_R\) bi-Hopf shell as the default | **[R]** for fixed-radius source shells; that projective quadric belongs to null/projective-direction geometry |
-| \(TS^4\) as the canonical arena | **[R]** |
-| external fundamental \(\mathbb R_t\) | **[R]** |
-| Hopf fiber as Kerr rotation itself | **[R]** |
-| arbitrary extra \(U(1)\) with no spin-geometric origin | **[R]** |
-| geometric Weyl spinor \(\Rightarrow\) quantum Grassmann fermion | **[R]** |
+| the middle space as the axiom | it is **derived** from the canonical space (§II.2) |
+| "representational middle space" / "quotiented middle space" | both are **bases**; the middle space is the single derived five-dimensional layer |
+| a real $S^2$ shell used *before* complexification | at the analytic level it is the affine quadric; the 2-sphere is its real form (§I.2) |
+| the projective null-cone quadric as the default source shell | that object belongs to null-direction geometry, not fixed-radius shells (§I.7) |
+| $TS^4$ as the arena (version 14) | replaced; it made the fiber contractible and cost Law III its home |
+| an external fundamental $\mathbb{R}_t$ | time belongs to the Lorentzian real structure |
+| the Hopf fiber *as* Kerr rotation | rotation is complex worldline displacement; the fiber is the shell's spin lift (§VI.2) |
+| an extra $U(1)$ with no spin-geometric origin | the circle is now the compact real form of $\mathbb{C}^\times\subset SL(2,\mathbb{C})$ (§I.3) |
+| geometric Weyl spinor $\Rightarrow$ quantum Grassmann fermion | blocked by type (§VII.2) |
+| $v^2_{\rm eq} = 4GM/\pi\ell$ | 15% low; the converged value is $1.497\,GM/\ell$ (§IV.8) |
+| $N\Omega = 1$ as an **exact** condition | it gives Majumdar–Papapetrou and hence extremal charge for every body (§III.2) |
+| time as emergent from a fiber's latitude (version 12) | a type error: a complex structure has $J^2 = -1$, no real eigenvectors, and *pairs* directions where time must *select* one |
+
+## X.2 Open
+
+1. **Global existence of $E$**, and the meridian-removal obstruction of §II.1 — Law 0 cannot hold over an unpunctured $S^4$, since $H^2(S^4) = 0$ makes every circle bundle trivial and every shell restriction $S^2\times S^1$ rather than $S^3$ **[V]**. **The first thing this version owes.**
+2. **The odd-sector coupling** (§III.3): whether $T_-$ occupies the two connection components.
+3. **Deriving the fiber-length locking** from an action (§III.2).
+4. **The meridian foliation's equation** (Law II).
+5. **Time:** an input, belonging to the Lorentzian real structure; its uniqueness is not derived.
+6. **The static regression** (§VIII.1), in the stated order.
+7. **The dark-sector calculation** (§VIII.4, item 10) — the theory's sharpest available prediction.
+8. **The quantization fork:** $m_{\rm unit}$ a particle mass or $\sim10^{14}M_\odot$.
+9. **$g_2/m_{\rm unit}$:** below $0.024$ from Mercury; the double pulsar can tighten it.
+10. **The meridian scale $\kappa$** (§IV.5).
+11. **Twin parity assignments** (§VII.4).
+12. **Emergent $G$** (§VIII.3): requires a $G$-free definition of mass.
+13. **Inherited:** the AdS uplift; the two arenas; the literature review.
 
 ---
 
-# PART XVIII — WHAT v15.2 RECOVERS FROM v6
-
-Version 6 had the durable insight that a physical \(S^2\) shell about a secondary could lift to a Hopf \(S^3\), with total-space metric data splitting into
-
-\[
-3+1+2.
-\]
-
-It also treated gravity on the meridian quotient and matter/light on the resolved geometry.
-
-Version 15.2 keeps both ideas but changes their foundation.
-
-The old real Hopf shell
-
-\[
-U(1)\to S^3\to S^2
-\]
-
-is now the compact real form of
-
-\[
-\boxed{
-\mathbb C^\times
-\to
-SL(2,\mathbb C)
-\to
-Q_{\rm aff}^2.
-}
-\]
-
-Thus the original Hopfian intuition survives, but at a deeper and more natural level.
-
----
-
-# PART XIX — REFERENCE CARD, VERSION 15.2
+## Reference card, version 15
 
 | topic | statement |
 |:--|:--|
-| **axiom** | canonical total space \(E\), not the middle space |
-| **first quotient** | \(E/U(1)_H=\mathcal M\), the full middle space |
-| **representational base** | \(B_{\rm rep}\hookrightarrow\mathcal M\), Lorentzian spacetime where matter/light localize |
-| **gravity base** | \(B_{\rm grav}=\mathcal M/U_{\rm mer}\) |
-| **seed** | distinct resolved representatives lie on one gravity meridian |
-| **complex source shell** | fixed-radius affine complex quadric \(Q_{\rm aff}^2\) in the complexified normal 3-space |
-| **complex Hopf analogue** | \(\mathbb C^\times\to SL(2,\mathbb C)\to SL(2,\mathbb C)/\mathbb C^\times\cong Q_{\rm aff}^2\) |
-| **physical Hopf shell** | \(U(1)\to SU(2)\simeq S^3\to S^2\) |
-| **why isotropic** | shell and lift are homogeneous under \(SO(3,\mathbb C)\) / \(SL(2,\mathbb C)\); no direction selected |
-| **why spinorial** | the total shell uses the same \(SL(2,\mathbb C)\) spin group as 4D Lorentzian two-spinors |
-| **fiber length** | supplied by canonical metric; constrained by gravity, \(L_H=\Omega L_H^{\rm ref}\) in static/conformal sector |
-| **connection** | canonical \(U(1)\) connection; old \(T_-\) sourcing remains a candidate |
-| **Kerr** | complex worldline/Newman–Janis deformation of representational spacetime; shells follow the displaced complex worldline |
-| **time** | belongs to Lorentzian real structure; uniqueness not derived |
-| **twistors** | optional later encoding, not fundamental |
-| **Grassmann parity** | not derived |
-| **static target** | \(\mathcal M_{\rm static}\sim\mathbb R_t\times S^4\), \(B_{\rm rep}\sim\mathbb R_t\times S^3\), \(B_{\rm grav}\sim\mathbb R_t\times\mathbb{RP}^3\) |
-| **next construction** | explicit global \(E\) whose shell restrictions are \(SL(2,\mathbb C)\to Q_{\rm aff}^2\) and whose middle-space meridians recover the seed |
-
----
-
-# External anchors
-
-1. The affine quadric \(Q_{[2]}\) is a homogeneous complex surface
-   \[
-   Q_{[2]}=SL(2,\mathbb C)/\mathbb C^\times,
-   \]
-   with compact real orbit \(S^2\).
-2. The ordinary Hopf fibration may be written in homogeneous-space form
-   \[
-   U(1)\to SU(2)\to SU(2)/U(1)\simeq S^2.
-   \]
-3. Four-dimensional Lorentzian two-spinors transform under \(SL(2,\mathbb C)\), the same complex spin group appearing in the shell lift.
-4. Newman–Janis acts at the level of complexified four-dimensional spacetime/null tetrads; twistor space is not required for the Schwarzschild-to-Kerr step.
-
----
-
-# One-sentence version
-
-> **Version 15.2 axiomatizes a canonical total space whose shells around complex source worldlines are lifted by the complexified Hopf geometry \(\mathbb C^\times\to SL(2,\mathbb C)\to Q_{\rm aff}^2\); quotienting its compact physical \(U(1)\) gives the full middle space, whose resolved Lorentzian bisection is the representational base for light and matter while its meridian quotient is the base seen by gravity.**
+| **axiom** | the canonical space $E$, not the middle space |
+| **first quotient** | $E/U(1)_H = \mathcal{M}$, the middle space; forgets the spin phase |
+| **second quotient** | $\mathcal{M}/U_{\rm mer} = B_{\rm grav}$; forgets where along the meridian |
+| **representational base** | $B_{\rm rep}\hookrightarrow\mathcal{M}$, a **bisection**: two points per gravity fiber |
+| **the seed** | light resolves a representative, gravity resolves a class; the second point may be **barren** |
+| **complex shell** | $\Sigma^\mathbb{C}_{\gamma,R}\cong Q^2_{\rm aff}$, an affine quadric in the complexified normal 3-space |
+| **complex Hopf lift** | $\mathbb{C}^\times\to SL(2,\mathbb{C})\to SL(2,\mathbb{C})/\mathbb{C}^\times$; $6-2 = 4$ ✓ |
+| **physical real form** | $U(1)\to SU(2)\simeq S^3\to S^2$; the Hopf fibration, **recovered not assumed** |
+| **why not bolted on** | $SL(2,\mathbb{C})$ is already the Newman–Penrose spin group |
+| **why isotropic** | shell and lift are homogeneous; the fiber is a stabilizer, not a chosen longitude |
+| **Law I** | Einstein on $B_{\rm grav}$ with $T^{(g)} = T(x)+T(\tau x)$; also fixes $L_H = \Omega L_H^{\rm ref}$ |
+| **$G$ identity** | $GM_c/c^2\ell = \pi/2$; equivalently $r_s(M_c) = \pi\ell$, the antipodal distance |
+| **partition** | $6 = 3+1+2$ on the real shell $S^3\to S^2$ ✓; only $3+1$ is motivated |
+| **black holes** | $f = 1-2GM/c^2r+GP^2/c^4r^2$, $P = g_2M/m_{\rm unit}$; $M^2\geq Q^2+P^2$; $P/M<0.024$ |
+| **$v^2$ plateau** | $1.497\,GM/\ell$, packing-independent; at $f = 1$, $r_s = \pi\ell$ and no exterior |
+| **Keplerian limit** | corrections $4\times10^{-15}$ at 10 kpc; jellium crossover at 1.2 Mpc for a galaxy |
+| **Kerr** | complex worldline displacement, $a = J/M$; ring at $x^2+y^2 = a^2$; shells follow the displaced center |
+| **rotation vs fiber** | rotation is **not** winding around the fiber; four jobs, four structures |
+| **time** | an input, from the Lorentzian real structure |
+| **Grassmann parity** | not derived, and blocked by type |
+| **the obstruction** | $H^2(S^4) = 0$: Law 0 needs the secondary meridians removed, as every earlier version did |
