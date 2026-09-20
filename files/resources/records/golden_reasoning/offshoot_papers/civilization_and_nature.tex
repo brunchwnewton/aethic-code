@@ -46,7 +46,7 @@ a third \cite{RouteWorld}; each is cited and restated, none presupposed
 beyond what is stated, and the conditions under which each conclusion
 holds are named with it. Drafting collaboration: Anthropic Claude
 (Opus~4.x, Fable~5), under the author's direction.}}
-\date{September 2026 --- Working Draft, rev.~5}
+\date{September 2026 --- Working Draft, rev.~6 (frozen)}
 \begin{document}
 \maketitle
 
@@ -58,16 +58,16 @@ extinction would serve the living world. This paper argues, under one
 explicit normative premise and a survivorship model proved in a
 companion, that both fail, and in structurally opposite ways. The claim
 in one sentence: for an agent who values the biosphere's long-run
-persistence, removing its only available hazard-muffling mechanism
-cannot be an environmental improvement, since with capability pinned at
-zero the total hazard has a permanent floor and viability is exactly
-zero; while maximizing capability cannot realize the objective either,
+persistence, removing the mechanism that maintains its hazard-muffling capability,
+so that accumulated capability decays to zero, cannot be an
+environmental improvement, since the total hazard then has a permanent
+floor and viability is exactly zero; while maximizing capability cannot realize the objective either,
 since viability requires a favorable response sign together with
 favorable driver dynamics, and no magnitude of capacity substitutes for
 the sign. Four things are established at their stated grades. The
-two-by-two picture: capability unavailable is nonviable at either sign,
-capability accumulating is potentially viable only at the favorable
-sign, so that the model's live region is accumulating capability with
+two-by-two picture: capability decaying to zero is nonviable at either
+sign, capability accumulating is potentially viable only at the
+favorable sign, so that the model's live region is accumulating capability with
 favorable anatomy and neither elimination nor maximization is its
 optimum. The winner's irony, stated as a proposition rather than a
 sentiment: the viability forfeited by abandoning the prerequisite
@@ -143,9 +143,10 @@ says plainly that survival ranks none of the things two viable policies
 can differ in.
 
 \emph{The claim, in one sentence.} For an agent who values the
-biosphere's long-run persistence, removing its only available
-hazard-muffling mechanism cannot be an environmental improvement, since
-pinned capability leaves a permanent hazard floor and zero viability;
+biosphere's long-run persistence, removing the mechanism that
+maintains its hazard-muffling capability, so that the capability decays
+to zero, cannot be an environmental improvement, since a decayed
+capability leaves a permanent hazard floor and zero viability;
 maximizing capability cannot realize the objective either, since no
 magnitude of capacity substitutes for a favorable response sign; the
 stakes of abandoning the realized route rise with every gate cleared;
@@ -349,9 +350,12 @@ recovery beats the Departure clock is the competing-risks residual
 \end{equation}
 which at constant rates is $r/(h^{(0)}+r)$ and never exceeds one. Deep
 time does not enter as a mechanism that alters a fixed perturbation
-weight; it enters through the ratio of rates, and the claim that a
-post-extinction biosphere does not recover its route is the claim that
-$r$ is small against $B+\Gamma$. The inputs $\alpha$ and $q$ are
+weight; it enters through the competing-risks functional, a ratio of
+rates in the homogeneous case, and the claim that a post-extinction
+biosphere does not recover its route is the claim that $r$ is small
+against $B+\Gamma$ along the path, for which the bound
+$r_t\le\eta h^{(0)}_t\Rightarrow\varepsilon_{\mathrm{succ}}\le\eta/(1+\eta)$
+gives the time-varying form. The inputs $\alpha$ and $q$ are
 unestimated, and the claim is entered at that grade. The Route World
 companion's stronger claim, that successor routes are Golden-suppressed
 under its landscape hypothesis, so that $\PP(\mathcal G\mid\neg C)$ is
@@ -427,8 +431,9 @@ neglects exactly the factor the other over-weights.
 
 The argument against techno-optimism is already in hand and is
 consolidated here: it neglects technoanatomy, and by
-the technoanatomy companion \cite{TechnoC} acceleration without anatomy is not
-merely insufficient but actively worse than stasis
+the technoanatomy companion \cite{TechnoC} capability growth without favorable
+anatomy cannot deliver viability and, once pushed beyond the
+adverse-anatomy hazard minimum, becomes actively self-defeating
 (Section~\ref{sec:optimism}). The argument against extinctionism is new and
 is the section's substance: on the extinctionist's \emph{own} valuation, the biosphere's persistence, removing the biosphere's only
 hazard-lowering agent lowers the thing they mean to protect
@@ -547,8 +552,14 @@ extinction forfeits the only modeled route, and strict preference under
 the persistence criterion requires in addition that the retained route
 have positive value,
 \begin{premise}[Retained option; \textbf{[$\Phi$]}]\label{hr:prem:option}
-$V_{\mathrm{current}}>0$: the currently retained civilizational route has
-positive viability, the anatomy being movable.
+$V_{\mathrm{current}}>0$, where
+$V_{\mathrm{current}}:=\PP_{S_{\mathrm{now}}}\bigl(\text{the state enters
+the positive-viability region before Departure}\bigr)$, the
+probability from the present state $S_{\mathrm{now}}$ that the retained
+civilizational route enters the live region of
+Theorem~\ref{imp:twocond}, the technoanatomy schedule's
+surviving-completion kernel integrated against $\one\{\rho>0\}V_{\mathrm{drv}}$
+supplying its exact form; the premise is that the anatomy is movable.
 \end{premise}
 \noindent Without it the comparison is $0$ against $0$, and an
 extinctionist convinced that $\rho$ is irreversibly adverse retains a
@@ -612,8 +623,8 @@ leads anywhere. The extinctionist is not choosing a world that
 survives without us. They are choosing a world that cannot go
 anywhere. Destabilization of the star, a sufficiently
 close hypernova, orbital perturbation by a passing mass --- these do not
-become less likely because humanity has withdrawn. They become the only
-things that happen. the technoanatomy companion \cite{TechnoC} reaches the same
+become less likely because humanity has withdrawn. Nothing any longer
+counteracts them. the technoanatomy companion \cite{TechnoC} reaches the same
 configuration from the other side: a biosphere that has not completed its
 schedule has not yet acquired what the extinctionist proposes to give up,
 and the two sit at the same bare background.
@@ -1121,17 +1132,21 @@ make the recovery branch a live route rather than a residual.
 
 The claim stated at the outset stands at its grades, and it is a
 conditional. Under Premise~$\Phi_{\mathrm{env}}$ and the model, removing
-the biosphere's only available hazard-muffling mechanism cannot be an
-environmental improvement, because pinned capability leaves a permanent
-hazard floor and viability exactly zero; maximizing capability cannot
+the mechanism that maintains the biosphere's hazard-muffling capability,
+so that the capability decays to zero, cannot be an environmental
+improvement, because a decayed capability leaves a permanent hazard
+floor and viability exactly zero; maximizing capability cannot
 realize the objective either, because no magnitude of capacity
 substitutes for a favorable response sign; the two errors are the two
 ways of leaving the model's one live region; and the stakes of
 abandoning the realized route rise with every gate cleared, which is
 the winner's irony in its exact form. The concession is priced rather
-than argued away, and its price is a ratio of rates. For alignment the
-model supplies a viability constraint external to any party's
-preferences and nothing more, held and never certified. What the model
+than argued away, and its price is a competing-risks functional,
+reducing to a ratio of rates in the homogeneous case. For alignment the
+model supplies a preference-independent viability boundary; treating
+that boundary as a normative constraint depends on the paper's explicit
+persistence-valuing premise, and the boundary is held and never
+certified. What the model
 establishes about the question in the title is therefore this:
 civilizational disappearance is not the restoration of a
 self-sustaining biosphere. It is the removal of the currently realized
