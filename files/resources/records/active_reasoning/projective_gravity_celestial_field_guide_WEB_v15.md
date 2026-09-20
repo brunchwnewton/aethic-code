@@ -1,4 +1,4 @@
-# Projective Gravity — Version 15.1
+# Projective Gravity — Version 15.2
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases
 
@@ -127,13 +127,29 @@ with $3-1 = 2 = \dim S^2$ **[V]**. So the earlier versions' assertion — *every
 
 The shell is defined by the invariant condition $g_\mathbb{C}(\xi,\xi) = R^2$ alone. The rotation group acts transitively on it, so no angular direction is preferred; and the lift $SL(2,\mathbb{C})\to SL(2,\mathbb{C})/\mathbb{C}^\times$ is likewise homogeneous. **The fiber is not attached by choosing a longitude. It is the stabilizer of the spin-group action.** On the real form, $SU(2)\to SU(2)/U(1)\simeq S^2$ is equally isotropic under ordinary rotations — which is the precise sense in which the magnetic/isotropic motivation of the original picture is preserved.
 
-## I.6 Why the fiber is not bolted on [T]
+## I.6 The shell fiber *is* the spinor phase [T/V]
 
-$SL(2,\mathbb{C})$ is not introduced to manufacture a bundle. **It is already the spin group of four-dimensional Lorentzian two-spinor geometry** — the group under which Newman–Penrose spinors transform. The same algebraic object appears in two places at once:
+*Noting that the same group appears twice would be a coincidence-of-names argument. The identification can be made explicit, and it is an equality of **actions**, not of group labels.*
 
-$$SL(2,\mathbb{C}) = \text{the spacetime spin group} = \text{the isotropy lift of a complex shell}$$
+$SL(2,\mathbb{C})$ is already the spin group of four-dimensional Lorentzian two-spinor geometry — the group under which Newman–Penrose spinors transform. The question is whether the $U(1)$ that the shell quotients is the *same* circle as the spinor's phase. It is.
 
-That coincidence is the argument. Every earlier version had to *assume* a circle; here the circle is the compact part of a group the theory already contains.
+**The construction.** Identify a normalized spinor $\psi = (z_1,z_2)^{\mathsf T}\in S^3\subset\mathbb{C}^2$ with the group element
+
+$$U(\psi) = \begin{pmatrix} z_1 & -\bar z_2\\ z_2 & \bar z_1\end{pmatrix}\ \in\ SU(2)$$
+
+which is unitary with unit determinant precisely because $|z_1|^2+|z_2|^2 = 1$ **[V]**. Now act on the right by the diagonal stabilizer
+
+$$h_\theta = \begin{pmatrix} e^{i\theta} & 0\\ 0 & e^{-i\theta}\end{pmatrix}$$
+
+The first column of $U(\psi)h_\theta$ is $e^{i\theta}\psi$ **[V]**.
+
+> **The stabilizer $U(1)$ of $SU(2)/U(1)\simeq S^2$ acts on the normalized spinor column as ordinary phase multiplication.** Not the same group twice — *the same action*.
+
+**And the Hopf map is the quotient by exactly that action [V].** With $n(\psi) = \big(2\,\mathrm{Re}(z_1\bar z_2),\,2\,\mathrm{Im}(z_1\bar z_2),\,|z_1|^2-|z_2|^2\big)$, one has $n(e^{i\theta}\psi) = n(\psi)$ identically — verified. So the shell $S^2$ is the space of spinors modulo phase, and the fiber is the phase.
+
+**The complex version is the same statement [V].** $h_\lambda = \operatorname{diag}(\lambda,\lambda^{-1})\in SL(2,\mathbb{C})$ scales the first column by $\lambda\in\mathbb{C}^\times$ — verified. So the complex stabilizer is complex phase-and-scale on the spinor, and the compact real form recovers pure phase.
+
+**This is the "not bolted on" claim, discharged.** Every earlier version had to *posit* a circle. Here the circle is the spinor phase of a group the theory already contains, acting in the way it already acts.
 
 ## I.7 What the complex shell is **not** [T]
 
@@ -188,14 +204,16 @@ Gravity does not ask which representative in $q^{-1}(b)$ holds the matter. It as
 
 > ### ◆ LAW I — GRAVITY
 > $$G_{\mu\nu}[g_G] + \Lambda g^G_{\mu\nu} = 8\pi G\,T^{(g)}_{\mu\nu}\qquad\text{on } B_{\rm grav},\qquad \Lambda = 1/\ell^2$$
-> with the source obtained by meridian reduction of resolved matter. In the discrete twin limit, $T^{(g)}([x]) = T(x) + T(\tau x)$. The same solution fixes the canonical fiber length (§III.2). Law I introduces **no additional scalar degree of freedom** — no dilaton, no radion, nothing with a $1/r$ coupling. **But recovery of the observed PPN parameters does not follow from that alone here**, because photons and detectors live on $B_{\rm rep}$ while Law I solves on $B_{\rm grav}$: it additionally requires the induced metric on $B_{\rm rep}$ to reproduce general relativity's optical metric, and the map $g_G\to g_{\rm rep}$ has not been derived **[O]**.
+> with the source obtained by meridian reduction of resolved matter. Writing $r := q\circ\iota : B_{\rm rep}\to B_{\rm grav}$, which away from the singular set is a local diffeomorphism on each branch of the bisection, the reduction is
+> $$T^{(g)}_b = \sum_{x\in r^{-1}(b)}\big((dr_x)^{-1}\big)^*T_x$$
+> up to whatever density factor an action supplies. **The map $dr$ is what makes the sum well-typed**: tensors at $x$ and $\tau x$ live in different tangent spaces and cannot be added until the quotient supplies the identification. The shorthand $T^{(g)}([x]) = T(x)+T(\tau x)$ is this expression with that step suppressed. The same solution fixes the canonical fiber length (§III.2). Law I introduces **no additional scalar degree of freedom** — no dilaton, no radion, nothing with a $1/r$ coupling. **But recovery of the observed PPN parameters does not follow from that alone here**, because photons and detectors live on $B_{\rm rep}$ while Law I solves on $B_{\rm grav}$: it additionally requires the induced metric on $B_{\rm rep}$ to reproduce general relativity's optical metric, and the map $g_G\to g_{\rm rep}$ has not been derived **[O]**.
 
 > ### ◆ LAW II — THE MERIDIANS
 > The middle space carries a one-dimensional foliation $U_{\rm mer}$. The representational base resolves its representatives; gravity quotients it. In the static spherical limit it must reduce to the great circles of $S^4$ through both poles, with quotient $\mathbb{RP}^3$. The general equation selecting the foliation is **open** **[O]**.
 
 > ### ◆ LAW III — THE CANONICAL CONNECTION STRUCTURE
 > *Not a field equation: there is no dynamics here, and the name is kept only for continuity with earlier versions.*
-> The canonical fiber carries a connection $\mathcal{A}_H$ with curvature $F_H = d\mathcal{A}_H$. Its **topological class is fixed by the spin geometry**: $c_1 = \pm1$ on every shell, the Hopf class, independent of the source's mass or any parameter. The reference connection is the canonical Hopf connection, and deformations away from it — which leave $c_1$ untouched, since $\int_{S^2}d\alpha = 0$ — are two geometrical degrees of freedom per shell (§III.3). **Nothing in this version sources them, and no matter-coupling law is asserted** **[O]**.
+> The canonical fiber carries a connection $\mathcal{A}_H$ with curvature $F_H = d\mathcal{A}_H$. Its **topological class is fixed by the spin geometry**: $c_1 = \pm1$ on every shell, the Hopf class, independent of the source's mass or any parameter. The reference connection is the canonical Hopf connection, and deformations away from it leave $c_1$ untouched, since $\int_{S^2}d\alpha = 0$. In an adapted metric they appear as **two local connection cross-components**, whose gauge-invariant content is fixed only after quotienting the $U(1)$ gauge freedom $A\mapsto A+d\lambda$ (§III.3). **Nothing in this version sources them, and no matter-coupling law is asserted** **[O]**.
 
 > ### ◆ LAW IV — ELECTROMAGNETISM
 > Maxwell on $B_{\rm rep}$, with $\epsilon = \mu_{\rm EM} = 1$. Light resolves meridian representatives and does **not** perform the gravity quotient. The field lives downstairs, so its pullback to $E$ is **$U(1)_H$-invariant** — it does not couple to the fiber. (Earlier drafts called it a "zero mode," which implies a Kaluza–Klein expansion this version does not perform; see §X.1.)
@@ -237,7 +255,7 @@ A metric on the three-manifold $S^3$ has $3\cdot4/2 = 6$ components. Adapted to 
 |:--|--:|:--|
 | shell 2-metric | 3 | the base geometry, from Law I |
 | fiber length $L_H$ | 1 | the gravitational fiber scale, from Law I |
-| connection geometry | 2 | **open** — unassigned freedom |
+| connection cross-components | 2 | **open** — and *local components*, not gauge-invariant content |
 | **total** | **6** | ✓ **[V]** |
 
 So the attractive $3+1+2$ partition survives — **on the physical real slice**. Version 15 does not assert it for the full complex shell; the complex homogeneous bundle is the analytic parent, and the real slice is where the metric count is performed.
@@ -248,7 +266,7 @@ So the attractive $3+1+2$ partition survives — **on the physical real slice**.
 >
 > **A stronger claim would be wrong, and is not made.** A connection may vary freely while its class stays fixed: under $F\mapsto F+d\alpha$ with $\alpha$ a global 1-form, $\int_{S^2}d\alpha = 0$ by Stokes, so $c_1$ is untouched **[T]**. Connections form an affine space over the 1-forms, all sharing one class. **So fixed $c_1$ does not forbid connection dynamics.** What it forbids is specifically the old *integrated flux law* $c_1\propto M_-/m_{\rm unit}$, which made the class itself mass-dependent. The position here is simply that **the connection is unsourced and its deformations unassigned** — no impossibility claim is needed or made.
 
-The two components are ordinary geometrical freedom in the connection — deformations away from the canonical Hopf connection, which leave $c_1$ untouched. They may remain unassigned until the theory itself says what they do.
+The two are **local connection cross-components** of an adapted metric, not two physical degrees of freedom: a $U(1)$ connection on an $S^2$ patch has two local components, but $A\mapsto A+d\lambda$ is gauge, and the gauge-invariant content is fixed only after that freedom is quotiented. The same discipline applies here as to the six above. They may remain unassigned until the theory itself says what they do.
 
 ---
 
@@ -349,9 +367,13 @@ Matter and Maxwell fields live on $B_{\rm rep}$. An optical event is a point $x\
 
 Gravity first applies $q:\mathcal{M}\to B_{\rm grav}$, and $q(x) = q(\tau x)$. So its operation is
 
-$$\text{gravity} = q^*\circ\,\text{Einstein}\,\circ q_*$$
+$$\text{gravity} = r^*\circ\,\text{Einstein}\,\circ r_*$$
 
-push the resolved source down to the class, solve, pull the solution back up.
+push the resolved source down to the class, solve, pull the solution back up — with **$r = q\circ\iota$ throughout, not $q$** **[T]**. The distinction matters: $q:\mathcal{M}^5\to B_{\rm grav}^4$ is a *submersion*, so $dq$ annihilates the meridian direction and $q^*g_G$ is **degenerate** on $\mathcal{M}$ — a rank-4 form, not a metric. Whereas $r$ is a local diffeomorphism on each branch, so
+
+$$g^{(G)}_{\rm rep} = r^*g_G$$
+
+is a genuine Lorentzian metric on the representational base. **This is the object that determines what light does**, and its relation to general relativity's optical metric is the open PPN question of Law I.
 
 ## V.2 The barren twin [D/S]
 
@@ -375,17 +397,20 @@ It is **empty**: no matter to emit, absorb or scatter, and electromagnetically b
 
 **2.** Note the whole solution rests on one harmonic function: $\nabla^2(1/r) = 0$ away from the origin **[V]**.
 
-**3.** Complexify and displace the source along the imaginary axis, $z\to z-ia$:
+**3.** Complexify and displace the source along the imaginary axis, $z\to z-ia$. **This step supplies the characteristic Kerr complex structure; it is not by itself the whole derivation** — see the caveat below.
 
 $$\frac{1}{\sqrt{x^2+y^2+z^2}}\ \longrightarrow\ \frac{1}{\sqrt{x^2+y^2+(z-ia)^2}}$$
 
-still harmonic **[V]** — *nothing is added; a source is moved.*
+still harmonic **[V]**.
 
 **4.** The complex distance vanishes where $-2az = 0$ and $x^2+y^2+z^2 = a^2$, i.e. $z = 0$ and $x^2+y^2 = a^2$: **a ring of radius $a$** **[V]**. Schwarzschild's point singularity has become Kerr's ring.
 
 **5.** With the oblate radius $R$ defined by $\frac{x^2+y^2}{R^2+a^2}+\frac{z^2}{R^2} = 1$, the complex distance is $R+ia\cos\theta$ and $H = MR^3/(R^4+a^2z^2)$ — **Kerr in Kerr–Schild form**.
 
 **6.** The angular momentum is $J = Ma$, so $a = J/M$: **the imaginary displacement is the spin per unit mass.**
+
+> ### ◆ WHAT THIS SEQUENCE DOES AND DOES NOT ESTABLISH [T/O]
+> **The complex displacement supplies the characteristic Kerr complex structure; recovery of the full metric additionally uses the Kerr–Schild null-congruence construction.** The original Newman–Janis prescription also manipulates a null tetrad and applies a *reality prescription*, and generalized Newman–Janis algorithms are known to be ambiguous away from special cases — different reality prescriptions give different metrics. The six steps above are a faithful account of the *complex-structure* content, not a self-contained derivation, and the earlier phrase "nothing is added; a source is moved" overstated that **[R]**.
 
 ## VI.2 Where this happens, and where it does not [S/D]
 
@@ -423,9 +448,9 @@ Spin–statistics, anticommutation and the Pauli exclusion principle enter this 
 
 *A note on what is not claimed.* Earlier drafts invoked the Finkelstein–Rubinstein argument — that exchanging two identical particles is locally homotopic to rotating one by $2\pi$ — to say statistics proceed as usual. **That invocation is withdrawn** (§X.1). FR is a statement about loops in the configuration space of extended topological solitons, and the exchange/rotation identification depends on that configuration space's topology; it is not a theorem that a spacetime spin bundle by itself delivers fermionic statistics. Unless and until actual soliton configuration spaces are constructed here, the safe and sufficient statement is the one above, resting on §VII.2.
 
-## VII.4 Twin parity [T/D]
+## VII.4 Twin parity [O]
 
-The frame bundle of $\mathbb{RP}^3 = SO(3)$ is $SO(3)\times SO(3)$, with $\pi_1 = \mathbb{Z}_2\times\mathbb{Z}_2$: **two independent** generators, a frame rotation (giving spin) and a trip around the twin loop (giving a parity $\tau = \pm1$). $\tau$ is a discrete quantum number independent of spin and statistics, and it is fixed by the sign a field acquires on transport through the primary. Which species are twin-odd is open **[O]**.
+The frame bundle of $\mathbb{RP}^3 = SO(3)$ is $SO(3)\times SO(3)$, with $\pi_1 = \mathbb{Z}_2\times\mathbb{Z}_2$: **two independent** generators, a frame rotation (giving spin) and a trip around the twin loop (giving a parity $\tau = \pm1$). It is tempting to read the two $\mathbb{Z}_2$ factors as two independent particle quantum numbers. **That reading is not established, and the section is tagged open for that reason.** $\mathbb{RP}^3$ does have two spin structures, since $H^1(\mathbb{RP}^3;\mathbb{Z}_2) = \mathbb{Z}_2$; but the relation between the base loop, the frame rotation, the *chosen* spin structure, and a genuinely independent label on a field is subtler than reading off two factors of $\pi_1$. Settling it is an associated-bundle representation problem, not a homotopy count, and it has not been worked through here **[O]**.
 
 ---
 
@@ -554,6 +579,10 @@ Variation with respect to $g_G$ should produce the meridian-reduced source; cons
 | calling Maxwell's field a **zero mode** on the fiber | implies a Kaluza–Klein expansion this version does not perform; the field lives downstairs and its pullback is $U(1)_H$-invariant (Law IV) |
 | calling the fixed Hopf class an **Aharonov–Bohm phase** | a class gives a nontrivial bundle and a connection gives holonomy, but an observable phase needs a coupled field — and nothing couples here (§III.1) |
 | "degree-of-freedom split" as a label for $6 = 3+1+2$ | it is a block count of metric *components*; physical degrees of freedom require removing gauge and diffeomorphism freedom (§III.3) |
+| "two geometrical degrees of freedom" for the connection | same error one level down: two *local components*, with $A\mapsto A+d\lambda$ still to be quotiented (§III.3) |
+| "nothing is added; a source is moved" | the complex shift supplies the Kerr complex structure, but the full metric also needs the Kerr–Schild null-congruence construction and a reality prescription, and generalized Newman–Janis is ambiguous away from special cases (§VI.1) |
+| $q^*g_G$ as the metric felt on the representational base | $q$ is a submersion, so $q^*g_G$ is **degenerate** along the meridian. The right object is $r^*g_G$ with $r = q\circ\iota$ (§V.1) |
+| reading the two $\pi_1$ factors as two independent quantum numbers | an associated-bundle representation problem, not a homotopy count; §VII.4 is now tagged open |
 | $v^2_{\rm eq} = 4GM/\pi\ell$ | 15% low; the converged value is $1.497\,GM/\ell$ (§IV.8) |
 | $N\Omega = 1$ as an **exact** condition | it gives Majumdar–Papapetrou and hence extremal charge for every body (§III.2) |
 | time as emergent from a fiber's latitude (version 12) | a type error: a complex structure has $J^2 = -1$, no real eigenvectors, and *pairs* directions where time must *select* one |
@@ -572,6 +601,8 @@ Variation with respect to $g_G$ should produce the meridian-reduced source; cons
 10. **Emergent $G$** (§VIII.3): an open coupling problem — define an operationally appropriate mass variable and show a candidate coupling fills both the inertial and gravitational roles.
 11. **Inherited:** the AdS uplift; the two arenas; the literature review.
 
+**A research branch worth opening, not folding in [O].** A referee has pointed to work of June 2026 (Kim, *Phys. Rev. Lett.*) deriving Kerr as a nonlinear superposition of self-dual and anti-self-dual Taub–NUT instantons, presented as a physical derivation of the Newman–Janis relation. That post-dates this author's reliable knowledge and is recorded on the referee's citation rather than independently verified. If it holds it bears directly on the original motivation for looking at self-dual structure at all — and it is the right thing to explore **next**, rather than to restructure this version around.
+
 **The constant count.** The theory's explicit constants are now just $G$ and $\Lambda = 1/\ell^2$, plus whatever the eventual Law II dynamics introduces. **$m_{\rm unit}$ and $g_2$ went with the flux sector**, and the permeability function $\mu(\rho)$ went with the old Law II, whose equation this version no longer contains — it was an orphan in the previous draft and is removed (§X.1).
 
 ---
@@ -588,10 +619,11 @@ Variation with respect to $g_G$ should produce the meridian-reduced source; cons
 | **complex shell** | $\Sigma^\mathbb{C}_{\gamma,R}\cong Q^2_{\rm aff}$, an affine quadric in the complexified normal 3-space |
 | **complex Hopf lift** | $\mathbb{C}^\times\to SL(2,\mathbb{C})\to SL(2,\mathbb{C})/\mathbb{C}^\times$; $6-2 = 4$ ✓ |
 | **physical real form** | $U(1)\to SU(2)\simeq S^3\to S^2$; the Hopf fibration, **recovered not assumed** |
-| **why not bolted on** | $SL(2,\mathbb{C})$ is already the Newman–Penrose spin group |
+| **why not bolted on** | not a coincidence of group names: right multiplication by $\operatorname{diag}(e^{i\theta},e^{-i\theta})$ sends the spinor column to $e^{i\theta}\psi$, so the shell's $U(1)$ **is** the spinor phase, acting as it already acts (§I.6) |
 | **why isotropic** | shell and lift are homogeneous; the fiber is a stabilizer, not a chosen longitude |
 | **the centrepiece** | **spin geometry fixes the fiber's topology; gravity fixes only its metric length** |
-| **Law I** | Einstein on $B_{\rm grav}$ with $T^{(g)} = T(x)+T(\tau x)$; also fixes $L_H = \Omega L_H^{\rm ref}$ |
+| **Law I** | Einstein on $B_{\rm grav}$, source $T^{(g)}_b = \sum_{r^{-1}(b)}((dr)^{-1})^*T$ with $r = q\circ\iota$; also fixes $L_H = \Omega L_H^{\rm ref}$ |
+| **the metric light feels** | $g^{(G)}_{\rm rep} = r^*g_G$, **not** $q^*g_G$ — the latter is degenerate along the meridian |
 | **the arrow** | $g_G\Leftrightarrow L_H$, an **encoding**. Not a causal claim until an action reverses it |
 | **$G$ identity** | $GM_c/c^2\ell = \pi/2$; equivalently $r_s(M_c) = \pi\ell$, the antipodal distance |
 | **metric decomposition** | $6 = 3+1+2$ on the real shell ✓ — a block count of *components*, not propagating degrees of freedom. $3+1$ from Law I; the last **2 left open** |
