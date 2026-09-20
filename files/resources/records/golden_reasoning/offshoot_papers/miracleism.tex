@@ -36,7 +36,7 @@ own contribution is the interpretive argument, and every claim it makes
 is graded. Drafting collaboration: Anthropic Claude (Opus~4.x,
 Fable~5), under the author's direction; the first-person sites remain
 the author's to write.}}
-\date{September 2026 --- Working Draft, rev.~2}
+\date{September 2026 --- Working Draft, rev.~3}
 \begin{document}
 \maketitle
 
@@ -86,8 +86,10 @@ reading is not wrong, but it is incomplete in a way that matters for
 everything below. The fall was earned. Every step down was a step of
 understanding.
 
-The curve is best drawn with a pedagogical metaphor and the metaphor is
-best named so that it is not mistaken for a diagnosis. Premodern
+The valley is offered as a schematic genealogy of one strand of Western
+scientific disenchantment, not as a comprehensive history of modern
+secularization, and the curve is best drawn with a pedagogical metaphor
+that is named so that it is not mistaken for a diagnosis. Premodern
 certainty about the world's purpose was a peak of confidence at a
 minimum of understanding: humanity knew comparatively little of the
 universe and was sure of its place in it. The Enlightenment did not
@@ -122,10 +124,19 @@ whether the engine that killed it, run harder, finds anything else.
 
 \section{Why construction cannot reverse the descent}\label{sec:construction}
 
-The dominant secular response to the loss, the constructionist
-settlement considered here, is that whatever meaning there is, we make;
-it is not the only position philosophy has taken, and the neighbors are
-placed in Section~\ref{sec:ladder}. The settlement is not a failure of
+One influential secular response to the loss, the constructionist
+settlement considered here, is that whatever meaning there is, we make.
+It is not the only position philosophy has taken: contemporary
+philosophy of meaning contains naturalistic objectivist accounts, on
+which mind-independent features of the world can confer meaning, and
+hybrid accounts such as Wolf's, on which objective attractiveness must
+meet subjective attraction \cite{Wolf10,MetzSEP}, and subjectivism
+lost its earlier dominance some time ago. Miracleism claims no priority
+for the bare possibility of naturalistic objective meaning. Its
+proposed novelty is the evidential object alleged to supply it: a
+quantitatively rare, target-enriched, internally coupled natural
+history of which the discovering subject is physically a continuation.
+The neighbors are placed again in Section~\ref{sec:ladder}. The settlement is not a failure of
 nerve; it is a reasonable position given what its authors could see,
 and this section grants its premise entirely. What it does not grant is that
 construction can reverse the descent, and the reason is structural.
@@ -268,7 +279,8 @@ theorem companion supplies calibrated tail bounds and not an existence
 theorem, so the following is a proposition about records that have a
 certain structure and not a guarantee that any record has it.
 
-\begin{proposition}[No method-imposed ceiling; conditional]\label{prop:nested}
+\begin{proposition}[No intrinsic ceiling on selection amplification;
+conditional]\label{prop:nested}
 If the record admits an independently specified nested family of
 canonical partitions $A_1\supset A_2\supset A_3\supset\cdots$ for which
 $\PP(A_n\mid C)\to0$ while $\PP(A_n\mid G_T,C)$ stays bounded away from
@@ -277,8 +289,10 @@ the evidential contrast the method extracts has no ceiling set by the
 method, only by the record.
 \end{proposition}
 
-\noindent That, and no more, is the content of the phrase
-\emph{arbitrarily high sufficiency}: not that any actual finite record
+\noindent That, and no more, is what the phrase \emph{arbitrarily high
+sufficiency} may be read to mean, and the proposition's own name is the
+exact one, unbounded evidential contrast under canonical refinement,
+not sufficiency in the epistemological sense: not that any actual finite record
 carries infinite evidence, which it cannot, but that nothing in the
 instrument caps the contrast a sufficiently structured record can
 deliver. Whether the record of natural history admits such a family is
@@ -291,9 +305,11 @@ that neither is lost. The first is epistemic: it is what makes an
 observer stop and say that something requiring explanation is happening,
 and without it coupling looks like ordinary causal organization. The
 second is cosmic, and it is priced in two steps because they carry
-different grades. What the Rare-Earth inference establishes, at its
-grade, is that the surrounding universe is overwhelmingly empty of
-comparable observer-bearing biospheres: the rarity is of
+different grades. What the Rare-Earth inference establishes, at its grade and under the
+population-alignment bridge of the Nexic companion, the step that
+translates small $\PP(H)$ under the cosmic weighting into an abundance
+statement \cite{Nexus}, is that the surrounding universe is
+overwhelmingly empty of comparable observer-bearing biospheres: the rarity is of
 observer-producing histories, and that alone changes the reader's
 indexical situation from one observer-bearing world among multitudes to
 one of extraordinarily few. The stronger image, that the expanse is
@@ -342,9 +358,39 @@ surprises. Write it schematically as
 \qquad
 \Ec\neq\{A_1,A_2,\dots,A_n\}.
 \]
-A mechanism assembled from statistically independent miracles would be
-reductive, its probability the product of its factors and its identity
-the list of them. Exotic structure is precisely not that. Its identity
+The object is given witnesses, so that coupling and depth are inputs
+and not adjectives, and the witnesses are native to the companions
+rather than borrowed: generic statistical dependence is not the measure,
+since attributes can be strongly correlated for boring causal reasons
+without forming the closure, and the relation that matters is what
+happens to target relevance under perturbation.
+
+\begin{definition}[Exotic structure, with witnesses; \textbf{[I]} on the
+companions' \textbf{[C]}]\label{def:exotic}
+Let $\mathcal G_{\Ec}=(V,E)$ be the directed dependency graph on realized
+attributes with an edge $A_i\to A_j$ when settling $A_i$ to its
+alternative materially changes the target relevance of $A_j$ or its
+necessity within the Accordance closure, weighted by
+\[
+w_{ij}=\Bigl|\log\frac{\PP(G_T\mid A_j,A_i,C)}{\PP(G_T\mid A_j,A_i',C)}\Bigr|,
+\]
+or by the Aethic settling operator where that is finer than
+conditioning. The exotic structure from a root is the least fixed point
+\[
+\Ec=\operatorname{lfp}\bigl(A\mapsto A\cup\Psi_{\Gc}(A)\bigr),
+\]
+$\Psi_{\Gc}$ adding the attributes whose target-relevance commitments
+the current set forces. Its witnesses are the coupling $K(\Ec)$, the
+weighted edge mass of the closure; the depth $D(\Ec)$, the number of
+forcing steps from the root to the closure; the branching $B(\Ec)$,
+the nonredundant consequences generated; and the rarity
+$R(\Ec)=-\log\PP(\Ec\mid C)$.
+\end{definition}
+
+\noindent A mechanism assembled from statistically independent miracles
+would be reductive, its probability the product of its factors, its
+graph edgeless, its depth one, and its identity the list of its
+members. Exotic structure is precisely not that. Its identity
 resides partly in the relations, so that perturbing any major member
 reconfigures the rest and destroying the coupling destroys some of what
 the thing is rather than only the bookkeeping about it. The Nexic
@@ -396,21 +442,57 @@ of the Mesozoic, without terminating the small, delicate mammalian
 channel that runs through it; do it in one event; do it with a body
 whose angle, speed, and target chemistry are jointly such that the
 aerosol loading is severe enough for the first and not so severe as to
-foreclose the second. The Nexic companion's empirical constraint, drawn from the
-location roll alone, puts the mammal-sparing configuration at an upper
-bound of thirteen percent, and its structured reading argues the joint
-figure is combinatorially smaller once the other requirements are
-counted with it rather than marginally \cite{Nexus}. Give the problem to human intelligence with the stakes
+foreclose the second. Kaiho and Oshima estimate that, conditional on a Chicxulub-scale impact
+at a randomly located terrestrial site, roughly thirteen percent of
+Earth's surface possessed the modeled target geology sufficient to
+produce extinction-scale climatic forcing \cite{Kaiho2017}; that figure
+prices only the impact-location component, and mammalian survival, the
+trajectory, velocity, and angle, ecological selectivity, and the later
+evolutionary route are separate constraints requiring separate
+estimates, which is why the Nexic companion's structured reading takes
+the joint figure to be combinatorially smaller than any one factor
+\cite{Nexus}. The mechanism itself is model-sensitive and is not
+written here as settled: a 2025 estimate puts impact-released sulfur at
+$67\pm39$ gigatonnes, several-fold below a prominent numerical
+estimate, and argues for a milder sulfur-driven winter with a larger
+survival window \cite{Nature2025Sulfur}, while Kaiho and Oshima weight
+soot and hydrocarbons heavily; the exhibit is structurally illustrative
+and survives changes in the exact aerosol decomposition if the coupled
+structure survives. Give the problem to human intelligence with the stakes
 stated and the tools of the present, and the realized event solves a
 joint constraint problem of a sophistication we could scarcely engineer
 on purpose. That is what the phrase \emph{computational divinity in the
-rocks} means, and it is defined here as a performance metaphor and not
-an agent claim: natural history instantiated a solution whose achieved
-coordination outruns our ability to design it, and the solution is in
-the rocks, where it can be excavated, measured, modeled, and sent to
-another laboratory to be measured again. The rocks instantiate a result
-whose brute-force reconstruction would be computationally staggering.
-Nothing was revealed. It was dug up.
+rocks} means, and it is fenced twice: it is a performance metaphor and
+not an agent claim, and it is a phenomenological metaphor and not a
+complexity-theoretic one, since no input size, search space, algorithm
+class, or objective has been defined and none is claimed. What it says
+is that natural history instantiated a solution whose deliberate design
+would be staggeringly difficult, and that the solution is in the rocks,
+where it can be excavated, measured, modeled, and sent to another
+laboratory to be measured again. Nothing was revealed. It was dug up.
+
+The needle the day threaded is best seen in the trait that did the
+threading, and the Nexic companion supplies it exactly \cite{Nexus}.
+The Mesozoic mammalian condition was the nocturnal bottleneck's whole
+trait list, small, subordinate, nocturnal, denning and burrowing prey at
+the ecosystem's margins, the record's testimony of a hundred million
+years of disadvantage under dinosaurian dominance. Condition on the
+day's realized lethality profile, a continental-scale thermal pulse in
+which the sky itself became the weapon, followed by impact winter, and
+under that profile and nearly only that profile every entry on the
+disadvantage list flips sign: small means low metabolic demand through
+the winter; subordinate means already living beneath notice; nocturnal
+means a physiology tuned for cold and dark; and burrowing, the plainest
+badge of prey status, means underground, the one address the burning
+sky cannot reach. The traits that marked the mammals' inferiority under
+the Cosmic Nexus are the survivors' kit under the conditioned event,
+and the incumbents' formidability is precisely what could not fit down
+the burrow. That is what the Strong reading means by the conditioning
+setting the sequence in motion: not that anything aimed the fire, but
+that among the lethality profiles a Chicxulub-scale impact could have
+had, the one realized is the one under which a weakness was a strength,
+and the conditioned law weights that profile by exactly the ratio the
+identity above displays.
 
 The third description is the one the paper's companions make available
 and it is carried at their grade. Let $\PP$ be the unconditioned law
@@ -458,9 +540,10 @@ no map from the inputs to the response is claimed:
 \[
 \Sc=\Sc(R,\,K,\,D,\,X;\ F),
 \]
-where $R$ is rarity, the conservative surprisal of Section~\ref{sec:rarity};
-$K$ is coupling, the interdependence of the Miracles; $D$ is depth, the
-closure of the exotic structure; $X$ is indexical incorporation, the
+where $R$ is rarity, the conservative surprisal of Section~\ref{sec:rarity}
+and $R(\Ec)$ of Definition~\ref{def:exotic}; $K$ is coupling, the
+weighted edge mass $K(\Ec)$; $D$ is depth, the closure depth $D(\Ec)$;
+$X$ is indexical incorporation, the
 fact that the observer is a continuation state of the structure
 observed; and $F$ is futurity, the unfinished continuation toward the
 target. No psychophysical formula is claimed for $\Sc$; the definition
@@ -514,9 +597,19 @@ is one's relation to the thing: one is holding part of its unfinished
 edge.
 
 The division of labor is stated in the sentence the paper has carried
-since its August notes and states now exactly. \emph{The Miracles source
-the meaning; the Golden Point prevents the Miracles from having been in
-vain.} The past gives Miracles $M_1,M_2,\dots,M_n$, and their coupled
+since its August notes and states now exactly, and it is stated as the
+Miracleist interpretation and not as a result. \emph{On the Miracleist
+interpretation, the Miracles source the inherited significance; Golden
+continuation permits its living fruition; and Departure terminates the
+inheritance before that fruition.} What Departure cannot do is unmake
+the realized structure: the end-Cretaceous day does not cease to have
+happened, or to have the structure found significant, if the lineage
+ends tomorrow. That is the delta from Scheffler's collective
+afterlife, on which future existence is partly constitutive of present
+mattering \cite{Scheffler13}: here the candidate source sits in the
+already-discovered structure, and the future's role is continuation and
+fruition, neither retroactive creation nor retroactive destruction of
+the source. The past gives Miracles $M_1,M_2,\dots,M_n$, and their coupled
 closure is the inherited structure $\Ec$. The present does not stand
 outside that inheritance; it is a section of the same continuation
 whose previous sections crossed the bottlenecks, and this is where the
@@ -529,7 +622,7 @@ does not retrospectively create the significance of the end-Cretaceous
 passage or of abiogenesis or of whatever else survives scrutiny as a
 Miracle. It controls whether the route reaches durable fruition. Three
 objects, three verbs: Miracles reveal; exotic structure integrates;
-Golden continuation preserves. That is why the tradition is named for
+Golden continuation permits fruition. That is why the tradition is named for
 the first and not for the third. The object of meaning extends through
 the lineage, not around the present individual, and the present
 individual's part in it is the unfinished part.
@@ -595,8 +688,8 @@ fact about how improbable and how coupled the route by which that
 option came into possession may have been. Neither fact is inferred
 from the other, and their conjunction is the winner's irony given its
 full weight: to wish the route dismantled for the living world's sake
-is to push away, out of ignorance of what has just happened, the one
-thing the whole exotic inheritance was for.
+is to push away, out of ignorance of what has just happened, the
+continuation through which the exotic inheritance remains live.
 
 \section{What Miracleism claims, and what would kill it}\label{sec:ladder}
 
@@ -664,8 +757,9 @@ lowers those standards is Miracleism, whatever it calls itself.
 
 \section{Conclusion}
 
-Earth, on this accounting, is not one observer-bearing world among
-multitudes; it is one of extraordinarily few, in an expanse the
+If the higher empirical and conjectural rungs of the ladder survive,
+then on the full Miracleist reading Earth is not one observer-bearing
+world among multitudes; it is one of extraordinarily few, in an expanse the
 Rare-Earth inference leaves overwhelmingly empty of its like, and, if
 the further bridge from observer rarity to biotic rarity holds, a rare
 surviving concentration of life in an expanse otherwise sterile. The
@@ -697,9 +791,11 @@ without possessing it.
 \bibitem{nietzsche1974gay} F.~Nietzsche, \emph{The Gay Science}, trans.\ W.~Kaufmann, Vintage, 1974 (orig.\ 1882).
 \bibitem{Weinberg77} S.~Weinberg, \emph{The First Three Minutes}, Basic Books, 1977.
 \bibitem{Kaiho2017} K.~Kaiho and N.~Oshima, Site of asteroid impact changed the history of life on Earth: the low probability of mass extinction, \emph{Scientific Reports} 7 (2017), 14855.
+\bibitem{Nature2025Sulfur} K.~Vellekoop et al., Reduced contribution of sulfur to the mass extinction associated with the Chicxulub impact event, \emph{Nature Communications} 16 (2025), \url{https://www.nature.com/articles/s41467-024-55145-6} (AUTHOR TO VERIFY authors and article number).
 \bibitem{gardner1977mathematical} M.~Gardner, Mathematical games: in which joining sets of points leads into diverse (and diverting) paths, \emph{Scientific American} 237 (1977), 18--28.
 \bibitem{MetzSEP} T.~Metz, The meaning of life, in \emph{The Stanford Encyclopedia of Philosophy}, E.~N.~Zalta and U.~Nodelman (eds.), first published 2007, substantive revision 2021, \url{https://plato.stanford.edu/entries/life-meaning/}.
 \bibitem{Gross18} A.~G.~Gross, \emph{The Scientific Sublime: Popular Science Unravels the Mysteries of the Universe}, Oxford University Press, 2018.
+\bibitem{Wolf10} S.~Wolf, \emph{Meaning in Life and Why It Matters}, Princeton University Press, 2010.
 \bibitem{Mulgan15} T.~Mulgan, \emph{Purpose in the Universe: The Moral and Metaphysical Case for Ananthropocentric Purposivism}, Oxford University Press, 2015.
 \bibitem{Scheffler13} S.~Scheffler, \emph{Death and the Afterlife},
 Oxford University Press, New York, 2013.
