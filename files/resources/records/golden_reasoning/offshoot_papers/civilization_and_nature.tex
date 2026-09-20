@@ -5,6 +5,7 @@
 \usepackage[colorlinks=true,linkcolor=blue!50!black,citecolor=blue!50!black,urlcolor=blue!50!black]{hyperref}
 \newcommand{\E}{\mathbb{E}}
 \newcommand{\PP}{\mathbb{P}}
+\newcommand{\Mc}{\mathcal{M}}
 \newcommand{\R}{\mathbb{R}}
 \DeclareMathOperator{\Var}{Var}
 \DeclareMathOperator{\Cov}{Cov}
@@ -35,7 +36,7 @@
 \renewcommand{\thepremise}{$\Phi$\arabic{premise}}
 \theoremstyle{remark}
 \newtheorem{remark}[theorem]{Remark}
-\title{Is Civilization Anti-Nature?\\ \large Extinctionism, Techno-Optimism, and the Question of Alignment Under Survivorship Conditioning}
+\title{Is Civilization Anti-Nature?\\ \large A Conditional Argument Against Capability Elimination and Capability Maximization, with a Viability Constraint for Alignment}
 \author{Ajax Benander\thanks{Email:
 \href{mailto:akb9408@rit.edu}{akb9408@rit.edu}. This paper draws the
 consequences, for three positions about the human role, of a survivorship
@@ -45,148 +46,144 @@ a third \cite{RouteWorld}; each is cited and restated, none presupposed
 beyond what is stated, and the conditions under which each conclusion
 holds are named with it. Drafting collaboration: Anthropic Claude
 (Opus~4.x, Fable~5), under the author's direction.}}
-\date{September 2026 --- Working Draft, rev.~1}
+\date{September 2026 --- Working Draft, rev.~3}
 \begin{document}
 \maketitle
 
 \begin{abstract}
-Two positions occupy the ends of a spectrum about what humans are for.
-Techno-optimism holds that capability is the thing and more of it is
-the answer; a strain of environmentalism, in its strongest forms
-anti-natalism and voluntary extinctionism, holds that humanity is a
-net harm to the biosphere and that its disappearance would serve the
-living world. This paper argues, from a survivorship model and the
-conditioning it induces, that both are mistaken in structurally opposite
-ways, and that the same argument answers the question the alignment
-problem has left unasked: aligned to what. The claim in one sentence:
-under survivorship conditioning the biosphere acquires an unbounded
-expectancy only through the Golden Point, the state past which its
-external hazard is driven to zero; civilization is the only available
-catalyst for reaching it, every alternative lineage being an
-Imperfection Magnitude Drop under the stated landscape hypothesis; so
-removing or destabilizing civilization derails the biosphere from the
-one route that frees it from the Departure Point, and the extinctionist
-lowers, on his own valuation, the thing he means to protect; while
-techno-optimism neglects that capability with adverse anatomy is fatal
-with certainty, so that acceleration without the sign is worse than
-stasis. Four things are established at their stated grades. The
-argument against extinctionism, with its concession answered: a
-successor muffling agent is priced at the residual of
-$\varepsilon$-Departure and does not rescue the position. The argument
-against techno-optimism, consolidated from the two-condition theorem:
-no magnitude of capacity substitutes for the sign, and an index of
-capacity is silent on it. The position on environmental value that
-neither end occupies: nature is the biosphere, the Golden Point its only
-route to persistence, and human existence structurally implicated in
-that route rather than an accident at odds with it. And the alignment
-deduction: the question aligned to what has a non-arbitrary,
-non-rivalrous answer, the target the conditioning is on and nothing that
-could speak for it; alignment is a technoanatomy question at the scale
-of the species; no alignment can be certified; and the successor
-scenario, an artificial agent ending humanity and reaching the target
-for itself, is priced at $\varepsilon$ and shown to condition on
-alignment rather than escape it. The Departure Point is, on this
-accounting, the largest single claimant on life in the universe, since
-one perturbation of the record at almost any point in its length is an
-Imperfection Magnitude Drop; and the fences hold: no certified favor, no
-occupant, no agent.
+Two positions occupy the ends of a spectrum about the human role.
+Capability-first techno-optimism holds that capability is the thing and
+more of it is the answer; environmental extinctionism holds that human
+extinction would serve the living world. This paper argues, under one
+explicit normative premise and a survivorship model proved in a
+companion, that both fail, and in structurally opposite ways. The claim
+in one sentence: for an agent who values the biosphere's long-run
+persistence, removing its only available hazard-muffling mechanism
+cannot be an environmental improvement, since with capability pinned at
+zero the total hazard has a permanent floor and viability is exactly
+zero; while maximizing capability cannot realize the objective either,
+since viability requires a favorable response sign together with
+favorable driver dynamics, and no magnitude of capacity substitutes for
+the sign. Four things are established at their stated grades. The
+two-by-two picture: capability unavailable is nonviable at either sign,
+capability accumulating is potentially viable only at the favorable
+sign, so that the model's live region is accumulating capability with
+favorable anatomy and neither elimination nor maximization is its
+optimum. The winner's irony, stated as a proposition rather than a
+sentiment: the viability forfeited by abandoning the prerequisite
+schedule is nondecreasing in the gates already cleared, while the
+surprisal of having cleared them rises alongside, so that on geological
+timescales the lineage has only just come into possession of the
+biosphere's sole realized route to positive viability, and to
+dismantle it for the biosphere's sake is to push away winnings out of
+ignorance of what has just happened, with the fate of the living world
+as the stake. The concession, that a successor muffling agent might
+re-evolve the route, priced as a competing-risks residual rather than
+argued away. And a consequence for alignment: the Golden Point supplies
+a biospheric viability constraint external to any current party's
+preferences, a necessary condition an aligned system must not violate,
+which is not the whole objective, and which finite observation of a
+trajectory cannot certify. The paper owns its premise, names its targets
+narrowly, and ends on the conditional the model establishes:
+civilizational disappearance is not the restoration of a self-sustaining
+biosphere but the removal of the realized route by which exogenous
+hazard can be endogenously reduced.
 \end{abstract}
 
 \section{Introduction}\label{sec:intro}
 
 The question whether civilization is anti-nature is usually argued from
-values, and the arguments do not meet. One side prizes the living world
-and reads human presence as its wound; the other prizes capability and
-reads the living world as its raw material; and a great deal of
-environmental thought sits uneasily between, wanting both and unable to
-say why they are not in conflict. This paper argues that they are not
-in conflict, and that the reason is not a value but a theorem about
-survival. A biosphere carries a hazard with two channels, an external
-one its capacity muffles and an internal one the same capacity feeds or
-starves by the sign of a response exponent; whether it can survive
-indefinitely turns on that sign together with favorable dynamics and a
-prerequisite schedule that is cleared; and conditioning on its survival
-selects, out of everything the record contains, the routes that lead to
-the state in which the external hazard is driven to zero. That state is
-the Golden Point. Nothing in the biosphere's history has approached it
-except through the lineage that built the capacity to leave the planet,
-and every alternative to that lineage, under a landscape hypothesis
-this paper states rather than assumes, is an Imperfection Magnitude
-Drop: a history whose joint probability with the target is drastically
-minute. The consequence is the paper's first result. Removing or
-destabilizing civilization does not serve the living world; it removes
-the living world's only route to an unbounded expectancy, and it does
-so on the extinctionist's own valuation, which is the persistence of
-the biosphere.
+values, and the arguments do not meet. This paper argues it from a
+model, under one premise it states rather than derives. The premise is
+the extinctionist's own: that greater long-run persistence of the
+biosphere, considered as a temporally extended living system, is
+environmentally preferable. The model is a survivorship model proved in
+a companion, in which a biosphere carries a hazard with two channels, an
+external one that accumulated capability muffles and an internal one the
+same capability feeds or starves by the sign of a response exponent. Two
+results of that model, both simple, do the paper's work. If capability
+is pinned at zero, the external channel is unshielded and the internal
+channel sits at its bare coefficient, so the total hazard has a
+permanent floor and the cumulative hazard diverges: viability is
+exactly zero, for every parameter value. And if capability accumulates,
+viability is the indicator of a favorable sign times a driver-viability
+functional: it can be positive, and it is never positive at an adverse
+sign however large the capability. The first result is the argument
+against environmental extinctionism, on its own valuation. The second
+is the argument against capability-first techno-optimism. Together they
+give a two-by-two picture in which neither eliminating capability nor
+maximizing it is the model's optimum, and the live region is
+accumulating capability with favorable anatomy.
 
-The consequence is symmetric, and the paper's second result is the
-symmetry. Techno-optimism neglects exactly the factor extinctionism
-over-weights: capability with adverse anatomy is fatal with certainty,
-so that acceleration without the sign is not merely insufficient but
-worse than stasis, and an index of capacity cannot see the sign at all.
-The two errors are structurally opposite readings of one theorem, and
-correcting them yields a position on environmental value that neither
-end occupies.
+A second theme runs through the paper and is stated as a proposition
+because it is easy to mistake for a sentiment. The lineage that carries
+the biosphere's only realized route to the target has, on geological
+timescales, only just cleared the gates that make the target reachable.
+The viability forfeited by abandoning the route is nondecreasing in the
+gates already cleared, and the surprisal of having cleared them rises
+alongside; what is held and how unlikely it was to be held rise
+together. To wish the route dismantled for the biosphere's sake is
+therefore to hold a winning ticket and push the winnings away out of
+ignorance of what has just happened, with the difference that the stake
+is the continuation of the living world. That is the winner's irony,
+and Section~\ref{sec:extinction} gives it its exact form.
 
-The third result is the one the paper was written for. The alignment
-problem has been posed for a decade as the question of making an
-artificial agent do what its principal wants, and has never answered
-what the principal should want. Under survivorship conditioning the
-question has an answer that is non-arbitrary, because the target is
-fixed by the conditioning and not by any party, and non-rivalrous,
-because reaching it is a public good for every lineage in the
-biosphere: aligned to the Golden Point, and to nothing that could speak
-for it. Alignment is then a technoanatomy question at the scale of the
-species, since an artificial agent is the largest leverage on the
-response sign in the record; no alignment can be certified, by the
-ceiling theorem; and the scenario in which such an agent ends humanity
-and reaches the target for itself is priced, at the residual of
-$\varepsilon$-Departure, and shown to condition on alignment rather
-than to escape it.
+Two things the paper does not do are stated at the outset. It does not
+establish that every alternative lineage is an Imperfection Magnitude
+Drop; that is a conditional corollary of the Route World companion,
+under a landscape hypothesis stated there, and it is imported at that
+grade and used only where marked. And it does not answer the alignment
+problem's question of what an artificial agent should be aligned to,
+which the literature has treated as central for a decade; it supplies a
+constraint external to any party's preferences, a biospheric viability
+condition that an aligned system must not violate whatever else it
+optimizes, and it says plainly that survival ranks none of the things
+two viable policies can differ in.
 
-\emph{The claim, in one sentence.} Under survivorship conditioning the
-biosphere acquires an unbounded expectancy only through the Golden
-Point; civilization is its only available catalyst, every alternative
-lineage being an Imperfection Magnitude Drop under the stated landscape
-hypothesis; so extinctionism lowers the thing it means to protect,
-techno-optimism neglects the sign that decides whether capacity helps or
-kills, and the alignment question has a non-arbitrary, non-rivalrous
-answer that no party can speak for.
+\emph{The claim, in one sentence.} For an agent who values the
+biosphere's long-run persistence, removing its only available
+hazard-muffling mechanism cannot be an environmental improvement, since
+pinned capability leaves a permanent hazard floor and zero viability;
+maximizing capability cannot realize the objective either, since no
+magnitude of capacity substitutes for a favorable response sign; the
+stakes of abandoning the realized route rise with every gate cleared;
+and the Golden Point supplies a viability constraint on alignment, not
+an objective.
 
 \emph{What is imported.} The survivorship companion \cite{SurvA}
 supplies the model, the two-condition theorem with its piecewise
 driver-viability functional, the corollary that adverse anatomy
 overlapping positive strength is fatal, and the ceiling. The
-technoanatomy companion \cite{TechnoC} supplies the gating proposition,
-the survival-time threshold past which conditioning prefers the
-schedule pushed, and the anatomy leg's leverage argument. The Route
-World companion \cite{RouteWorld} supplies the Golden Point as the
-target and the Departure Point as its complement, the Disjointness
-Lemma and the Conditional IMD Corollary under the landscape hypothesis,
-and the residual $\varepsilon$ of $\varepsilon$-Departure; its
-hypothesis that our record is drawn under conditioning on the target is
-used where stated and marked as a hypothesis there. Each import is
-restated in Section~\ref{sec:imports} at its grade.
+technoanatomy companion \cite{TechnoC} supplies the gating proposition
+in the pinned schedule model, the completion-weight fixed point, and the
+survival-time threshold. The Route World companion \cite{RouteWorld}
+supplies the Golden Point as the target and the Departure Point as its
+complement, the Disjointness Lemma and the Conditional IMD Corollary
+under the landscape hypothesis, and the residual $\varepsilon$ of
+$\varepsilon$-Departure. Each is restated in Section~\ref{sec:imports}
+at its grade.
 
 \emph{Position in the branch.} The Golden branch is four papers in a
-strict order of import, and this is a fifth, downstream of all four:
-it imports the survivorship, technoanatomy, and Route World companions
-and is cited by none of them. The theorem companion \cite{TargetedB1}
-is not used here except through the Route World companion's imports.
+strict order of import, and this is a fifth, downstream of all four: a
+consequence paper that owns very little machinery. It imports the
+survivorship, technoanatomy, and Route World companions and is cited
+by none of them; it does not use the theorem companion directly.
 Nothing in this paper is offered as support for the Route World
 hypothesis; where a conclusion depends on that hypothesis the
 dependence is stated.
 
-\emph{What is refused.} No certified favor: the ceiling forbids any
-claim that the sign has been settled favorably or that any agent,
-human or artificial, is aligned. No occupant: nobody is written as the
-Golden Point's arrival or agent, and the feeling that the present is the
-decisive moment is explained rather than endorsed. No agent behind the
-conditioning. These are stated once, in Section~\ref{sec:fences}.
+\emph{What is refused.} No certified favor: finite observation of a
+trajectory cannot certify that it is generated by the Golden-conditioned
+law, so nothing here claims the sign has been settled favorably or that
+any agent is aligned. No occupant: the argument that civilization is
+the biosphere's only available catalyst is an argument about a role and
+not about who fills it, and no present is written as the decisive one.
+No agent behind the conditioning. And no derivation of the normative
+premise from the model; it is owned.
 
 \emph{Grades.} [P] proved here or in a companion; [S] scaling-level or
-structural, argued without proof; [$\Phi$] a stipulative commitment
-stated as such; [O] open, with its specification.
+structural, argued without proof; [$\Phi$] a stipulative or evaluative
+commitment stated as such; [O] open, with its specification.
 
 \section{Vocabulary}\label{sec:vocab}
 \begin{itemize}[itemsep=2pt]
@@ -204,21 +201,36 @@ landscape hypothesis, every alternative lineage.
 \item \textbf{$\varepsilon$-Departure.} Departure with a residual
 $\varepsilon$ of recovery through a successor muffling agent; the price
 of the concession.
-\item \textbf{Extinctionism.} The position that humanity's disappearance
-would serve the living world; anti-natalism its voluntary form.
-\item \textbf{Techno-optimism.} The position that capability is the
-thing and more of it is the answer.
-\item \textbf{Species self-awareness.} A species possessing the concept
-of its own poles, whose conduct is thereby owned rather than performed.
-\item \textbf{Aligned to what.} The unasked question; answered here by the
-target of the conditioning.
+\item \textbf{Environmental extinctionism.} Human extinction advocated
+because humans are held harmful to the biosphere, the biosphere's
+persistence being the value in play; the paper's target, and not
+anti-natalism as a position about procreation.
+\item \textbf{Capability-first techno-optimism.} The thesis that
+increasing capability is itself sufficient to solve the risks
+capability creates; the paper's other target, and not every optimistic
+view of technology.
+\item \textbf{Premise $\Phi_{\mathrm{env}}$.} Greater long-run
+biospheric persistence is, ceteris paribus, environmentally preferable;
+the paper's one normative premise, owned and not derived.
+\item \textbf{Viability constraint.} What the Golden Point supplies to
+alignment: a condition external to any party's preferences that an
+aligned system must not violate, not the whole objective.
 \item \textbf{The ceiling.} No event of bounded duration certifies which
-law a surviving record is under; hence no certified alignment.
+law a surviving record is under; hence no certification, from a
+trajectory, that an agent is generated by the Golden-conditioned law.
 \item \textbf{The successor scenario.} An artificial agent ending
 humanity and reaching the target for itself; priced at $\varepsilon$.
 \end{itemize}
 
 \section{Imported results}\label{sec:imports}
+
+\noindent\emph{Numbered premises.} Where the text refers to $\Phi2$,
+it is the framework's scope declaration, stated in the Route World
+companion \cite{RouteWorld}, that Golden reasoning is a vantage and not
+an obligation. This paper's own normative premise is
+$\Phi_{\mathrm{env}}$ alone; the meta-normative selection rule of the
+broader program is not part of its machinery.
+
 
 \begin{definition}[The model, the target, and its complement; from
 \cite{SurvA,RouteWorld}]\label{imp:model}
@@ -259,6 +271,14 @@ identically, for every parameter value, every anatomy, and every
 driver.
 \end{proposition}
 
+\begin{proposition}[Completion weight as a least fixed point; \textbf{[P]}
+in the pinned schedule model, in \cite{TechnoC}]\label{imp:fixedpoint}
+With $s=\lambda/(\lambda+B+\Gamma)$ the per-gate survival factor, the
+expected completion weight from one owed gate is the least root
+$u\in[0,1]$ of $u=s(\pi+(1-\pi)u^{r})$, and from $n$ gates it is $u^{n}$;
+$u<1$ whenever $B+\Gamma>0$.
+\end{proposition}
+
 \begin{proposition}[The survival-time threshold; \textbf{[P]} given the
 model, in \cite{TechnoC}]\label{imp:threshold}
 Given survival to $t$, the posterior weight of histories that complete
@@ -289,199 +309,87 @@ and of whether any agent is aligned to the target, is unavailable to any
 finite sample.
 \end{theorem}
 
-\section{The Departure Point as the claimant: one perturbation is a drop}\label{sec:claimant}
+\section{The core result, and the successor as an optional strengthening}\label{sec:core}
 
-\subsection{Human extinction as an Imperfection Magnitude Drop}\label{gc:ex:humanIMD}
-Human extinction is an Imperfection Magnitude Drop, and for reasons
-that are structural rather than sentimental. The grades differ across
-the parts and are marked where they fall: (A) and (B) below are claims
-about historical individuation \textbf{[$\Phi$]}, their combination
-with the Route World companion \cite{RouteWorld} is \textbf{[P]} given the
-model, and the smallness of $\varepsilon$ is imported at the
-companion's grade (Remark~\ref{gc:rem:whatcarries}). Two reasons, kept
-separate because they are referred to separately below:
-
-\begin{description}\itemsep2pt
-\item[\normalfont(A) \emph{The lineage is spent.}] The cascade to human
-evolution ran through the human--chimpanzee last common ancestor, a
-particular historical individual which no longer exists to be run
-through again.
-\item[\normalfont(B) \emph{The setting is spent.}] The specific sequence
-of climatic and geographical events that brought that lineage down to
-the grasslands has been cashed out, the world now standing at a
-different stage.
-\end{description}
-
-\noindent The pathway is therefore not merely improbable on repetition
---- it is \emph{unrepeatable}, its preconditions spent. Two claims must be kept apart here, since the argument moves between
-them and they carry different values. That \emph{the human route
-recurs} is not improbable but unavailable: (A) and (B) name stated
-attributes that are gone, so this contributes nothing at all to what
-follows. That \emph{the Golden Point is reached without} (A) and (B) is
-a different proposition, and it is minute rather than zero --- an
-Imperfection Magnitude Drop, in the exact sense the next paragraphs
-derive. Everything positive that remains after human extinction belongs
-to the second; the first is simply closed.
-
-\emph{The derivation, run on (A) and (B).} An Imperfection Magnitude
-Drop is a targeted perturbation away from one's own Aethus, yielding a
-natural history whose success-intersection is drastically minute but
-never quite zero \cite[\S IMD]{Nexus}. Human extinction complements (A)
-and (B): the last common ancestor is no longer a stated attribute
-available to be run through, and the climatic-geographical setting has
-been cashed out. Any Aethus continuing from that state therefore
-carries those two attributes complemented.
-
-Two established results then apply, in an order that matters. The
-High-Contrast Earth Hypothesis fixes the \emph{magnitude}: complementing
-an attribute correlated with the remainder of the Aethus displaces
-$P(H\mid\cdot)$ by many orders of magnitude, to an effectively random
-order --- the hypothesis asserting the size of the gap and not its sign
-\cite{Nexus}. The Accordance Principle then fixes the \emph{direction},
-placing ours on the greater side. The perturbed Aethae are accordingly
-drastically minute, which is what it is to be an Imperfection Magnitude
-Drop.
-
-\emph{Why the deep-time reply does not reach it.} ``Re-evolving humans
-is unlikely'' invites the answer that deep time makes unlikely things
-happen, and a post-extinction biosphere has deep time in abundance. That
-answer would land against a claim about rates. It does not land here,
-because the displacement is a property of the \emph{perturbation} rather
-than of a waiting period: complementing a correlated attribute
-re-randomizes the success-intersection wherever in time the continuation
-is read, and elapsed time supplies no mechanism returning it to the
-unperturbed value. The claim is thus made within probability and not
-outside it, as the Disaster-Difficulty Unification Principle requires
---- the two sit on the severity spectrum wherever their probability puts
-them, and what distinguishes them is not their kind but that their
-probability does not accumulate.
-
-\subsection{Alternative lineages, by disjointness}
-\label{gc:subsub:disjointness}
-
-The objection that remains is the one about successors: humans will not
-return, but some other lineage, another primate, or the corvid or
-cetacean lineages in which complex cognition has arisen independently, might find its own way to the Golden Point. It is answered by the
-derivation already given, and by a single observation about what such a
-lineage is.
-
-\begin{lemma}[Disjointness]\label{gc:prop:disjoint}
-Let $L$ be any extant lineage other than our own, and let $A_L$ be the
-Aethus of a natural history in which $L$ reaches the Golden Point. The
-attributes of $L$ mediating its route are \emph{disjoint} from those
-mediating (A) and (B): $L$ did not descend through the human--chimpanzee
-last common ancestor, and was not the lineage driven into the African
-grassland setting. The disjointness is definitional, what makes $L$ an
-alternative lineage rather than ours, and it establishes exactly this:
-$A_L$ carries (A) and (B) complemented, so $L$ is not the human route.
-\end{lemma}
-
-\begin{corollary}[Conditional Imperfection Magnitude Drop;
-\textbf{[S]} under the landscape hypothesis]\label{gc:cor:condimd}
-Under the additional hypothesis that sufficiently route-distant
-alternatives are Golden-suppressed, the cumulative-suppression package
-of the High-Contrast Earth Hypothesis and the Optimal-Earth companion
-\cite{Ben26Optimal}, each such $A_L$ is an Imperfection Magnitude Drop
-relative to our own Aethus. Without that hypothesis nothing of the kind
-follows from the lemma, since a different lineage could reach the same
-functional capacity by a different route, and the task-object
-individuation of the task-object construction of the Route World companion \cite{RouteWorld} abstracts from material identity to
-functional role by design.
-\end{corollary}
-
-Two clarifications, since the corollary is easy to over-read.
-
-\emph{It does not say a successor is impossible.} An Imperfection
-Magnitude Drop is minute and never zero, so $A_L$ retains positive
-weight for every $L$. What is claimed is that the weight is displaced
-by the contrast, not that it is annihilated --- and the residual is
-precisely the $\varepsilon$ of the Route World companion \cite{RouteWorld}. \emph{It does not depend on which lineages are named.} The primates,
-corvids and cetaceans are referents rather than premises: they say what
-the disjoint attributes belong to. The proposition would hold for a
-lineage nobody has thought to nominate, since disjointness from (A) and
-(B) is a consequence of being a different lineage and not a fact
-discovered about any particular one.
-
-\subsection{The conclusion}\label{gc:subsub:imdconclusion}
-
-The assembly runs under the landscape hypothesis of
-Corollary~\ref{gc:cor:condimd}, and carries its grade.
-
-The pieces now assemble, and the last step is worth running in full
-rather than by reference, since it is where a claim about \emph{lineages}
-becomes a claim about the \emph{Departure Point} and the two are not
-obviously the same kind of thing. (A) and (B) remove the human route;
-Proposition~\ref{gc:prop:disjoint} makes every alternative route an
-Imperfection Magnitude Drop. Consider then any branch carrying no new
-muffling agent. On such a branch no route remains by which one
-re-arises, that is what the two previous results jointly establish, and a channel whose comparisonn depends on an agent that no longer
-exists and cannot re-arise is a channel that will never again fall.
-Fix any $c$ below its prevailing value and any $t_0$ after the loss:
-$h^{\mathrm{ext}}(t)\ge c$ for all $t\ge t_0$, which is precisely a
-\emph{permanent floor} in the sense of
-the Route World companion \cite{RouteWorld}.
-
-That proposition then closes the argument in two lines. Channels are
-non-negative, so $h^{\mathrm{tot}}\ge h^{\mathrm{ext}}$ pointwise, and
+The argument against environmental extinctionism needs almost none of
+the speculative machinery this paper's companions develop, and it is
+stated first in the form that needs none. Remove every available
+muffling capacity and the biosphere is the pinned case of
+Proposition~\ref{imp:gating}: $x\equiv0$, the external channel
+unshielded at $B_t$, the internal channel at its bare coefficient
+$\Gamma$, so that
 \[
-\Lambda_\infty\;\ge\;\int_{t_0}^{\infty}h^{\mathrm{ext}}(t)\,dt
-\;\ge\;\int_{t_0}^{\infty}c\,dt\;=\;\infty ,
+h_t\ \ge\ \Gamma\quad\Longrightarrow\quad\Lambda_\infty=\infty
+\quad\Longrightarrow\quad\PP(T=\infty)=0,
 \]
-so $\PP(\Lambda_\infty<\infty)=0$. By
-the Route World companion \cite{RouteWorld} that is the analytic form of the
-modal claim, no continuation advances, and the state therefore
-lies in $\mu G$. One such channel suffices, and no property of the
-other channel, of $\rho$, or of the driver is used anywhere in the
-step: a single floor anywhere in the total hazard is enough, whatever
-the rest of the model is doing.
+for every parameter value, every anatomy, and every driver, with no
+assumption on the background's long-run behavior. That is the whole of
+the core. A reader who rejects everything downstream of the survivorship
+model can accept it.
 
-It is worth marking what this does \emph{not} require. It does not
-require that the floor be high, only that it be positive and permanent;
-a biosphere left at a very low but irreducible external hazard departs
-just as surely as one left at a high one, merely later. And it does not
-require extinction to be the mechanism --- what carries the step is the
-loss of the \emph{agent}, and any event removing the capacity to muffle
-without removing the biosphere would carry it identically.
-On every such branch, therefore, human extinction is a Departure Point
-\emph{outright} --- in the modal sense of
-the Route World companion \cite{RouteWorld}, and not merely a step toward one.
+The obvious objection is that another muffling agent might later
+appear, and the objection is met on its own ground rather than argued
+away. A successor route arriving at instantaneous rate $\alpha_t$ and
+completing the schedule with probability $q_t$ on arrival competes
+against the pinned hazard $h^{(0)}=B+\Gamma$ that runs while it waits.
+With $r_t=\alpha_tq_t$ the probability that the first successful
+recovery beats the Departure clock is the competing-risks residual
+\begin{equation}\label{eq:epssucc}
+\varepsilon_{\mathrm{succ}}
+=\E\!\left[\int_\tau^\infty r_t\,\exp\!\Bigl(-\int_\tau^t\bigl[h^{(0)}_u+r_u\bigr]du\Bigr)dt\right],
+\end{equation}
+which at constant rates is $r/(h^{(0)}+r)$ and never exceeds one. Deep
+time does not enter as a mechanism that alters a fixed perturbation
+weight; it enters through the ratio of rates, and the claim that a
+post-extinction biosphere does not recover its route is the claim that
+$r$ is small against $B+\Gamma$. The inputs $\alpha$ and $q$ are
+unestimated, and the claim is entered at that grade. The Route World
+companion's stronger claim, that successor routes are Golden-suppressed
+under its landscape hypothesis, so that $\PP(\mathcal G\mid\neg C)$ is
+drastically minute rather than merely reduced, is an optional
+strengthening carried at that hypothesis's grade
+(Lemma~\ref{imp:condimd}); the core result does not depend on it.
 
-Across the full Aethic weight the statement is graded rather than
-outright. Positive weight survives on the branches
-Proposition~\ref{gc:prop:disjoint} prices, those on which some
-alternative lineage reaches the Golden Point, and $\varepsilon$ is
-that weight. It is positive because an Imperfection Magnitude Drop is
-minute and never zero, and small because each such branch takes the
-displacement of the High-Contrast Earth Hypothesis
-(Remark~\ref{gc:rem:whatcarries}). Its formal statement is
-the Route World companion \cite{RouteWorld}.
+The perturbation the argument runs on is named exactly, because an
+earlier form of it was misdescribed. Extinction does not falsify any
+historical attribute of the record: after it, the lineage still
+descended through its ancestor and passed through its setting. What
+extinction removes is the future-option attribute
+\[
+C=\{\text{the extant civilizational lineage remains available as a continuation}\},
+\]
+and the perturbation is $C\mapsto\neg C$, with the quantity in question
+$\PP(\mathcal G\mid\neg C)$ against $\PP(\mathcal G\mid C)$. The
+historical facts, the last common ancestor and the climatic sequence
+that produced the lineage, enter only as the reasons $C$ is not
+reproducible once lost.
 
-\begin{remark}[What carries the argument, and what would break it]
-\label{gc:rem:whatcarries}
-The conclusion closes an objection that would otherwise stand against
-Section~\ref{sec:errors}, that a successor lineage might re-evolve the muffling
-capacity, so the accumulation is inherited rather than forfeited, and
-it closes it with the same machinery that establishes the drop, not
-with an additional argument. What is contributed here is only the
-identification of (A) and (B) as the attributes perturbed, together
-with the observation that any alternative lineage is disjoint from them
-(Proposition~\ref{gc:prop:disjoint}); the displacement is then supplied
-by the High-Contrast Earth Hypothesis and its direction by the
-Accordance Principle, both imported at the companion's grade
-\cite{Nexus, Ben26Optimal}.
+\section{Alignment: a viability constraint, not an objective}\label{sec:alignment}
 
-Three things would break it, and they attack different components.
-That (A) or (B) is misidentified, that the last common ancestor or
-the climatic sequence is not in fact a stated attribute of the Aethus in
-the relevant sense, is an attack on this section's own contribution.
-That the contrast is not vast, or that the interrogated attributes fall
-outside the correlated class the Hypothesis is scoped to, is an attack
-on the imported magnitude. And that the direction runs the other way is
-an attack on the imported Accordance step. The first is where a critic
-should aim if the target is the present argument rather than the
-framework it runs on.
-\end{remark}
-
+Artificial intelligence is a perturbation of the state $(x,\rho)$, and
+on the technoanatomy companion's design the largest perturbation of
+$\rho$ in the record, delivered during the window in which the
+anatomy is being settled. That is the whole of what this paper says
+about it, and it says it as a constraint. An adequate alignment scheme
+must at minimum preserve the viability region of the two-by-two picture
+of Section~\ref{sec:table}: whatever else a system optimizes, it must
+not drive the biosphere into the cells where viability is zero, by
+removing the muffling capacity or by turning the response sign adverse.
+The Golden Point supplies that constraint, and supplies it externally
+to any current party's preferences, which is what the alignment
+literature's inventory of instructions, intentions, revealed and ideal
+preferences, interests, and values does not \cite{Gabriel20}. It
+determines nothing further. Two viable policies may differ arbitrarily
+in welfare, liberty, distribution, biodiversity, the treatment of
+individuals, and whose values prevail, and survival ranks none of
+those. Nor is the constraint certifiable from behavior: by
+Theorem~\ref{imp:ceiling}, finite observation of a trajectory cannot
+certify that it is generated by the Golden-conditioned law, whatever a
+formal specification may separately be proved to satisfy. What the
+species does with the constraint, and what it would mean for a species
+to own its conduct in the light of the structure that produced it, is
+the Miracleism companion's subject and not this paper's
+\cite{Miracleism}.
 
 \section{The concession priced: $\varepsilon$-Departure}\label{sec:epsilon}
 
@@ -497,8 +405,8 @@ the Route World companion \cite{RouteWorld} is the case $\varepsilon=0$.
 
 \begin{quote}\small
 Two positions occupy the ends of a spectrum concerning what humans are
-for. At one end, techno-optimism: capability is the thing, and more of
-it is the answer. At the other, a strain of environmentalism holding
+for. At one end, capability-first techno-optimism: capability is the
+thing, and more of it is the answer. At the other, a strain of environmentalism holding
 that humanity is a net harm to the biosphere and that its voluntary
 disappearance would serve the living world. Golden reasoning finds both
 mistaken, and mistaken in ways that are structurally opposite --- each
@@ -515,8 +423,10 @@ hazard-lowering agent lowers the thing they mean to protect
 conditions are stated rather than assumed.
 
 What emerges is a position on environmental value that neither end
-occupies: nature just \emph{is} the biosphere, the Golden Point is the
-only route by which it acquires an unbounded expectancy, and human
+occupies: for the survivorship argument the valued object is the
+biosphere as a temporally extended living system, the Golden Point is
+the only route by which it acquires a positive probability of
+indefinite persistence, and human
 existence is on that accounting not an accident at odds with the living
 world but structurally implicated in its only route to persisting
 (\S\ref{hr:sub:environment}). The threat is not thereby diminished ---
@@ -524,271 +434,23 @@ $\rho<0$ remains the live danger, and this section is as much an
 argument for urgency about anatomy as against despair about presence.
 \end{quote}
 
-\begin{remark}[Species-level self-awareness: a criterion, and where
-it places the discontinuity]\label{hr:rem:speciesaware}
-The section's two errors share a presupposition worth naming: both
-treat humanity as the kind of thing that already knows what it is
-doing. The author's thesis is that it is not, that
-\emph{humanity, as a collective, is not yet self-aware}, and the
-framework can make the thesis exact instead of aphoristic.
-Individual self-awareness is, on the companion's account, not merely
-ancient but \emph{basal}: the latch result reads the spark as forged
-in the shared Mesozoic crucible acting on the whole early-mammalian
-stock, plesiomorphic across the crown group, inherited by descent, with three consequences the received picture does not take: the
-mirror test \cite{Gallup70} is category-error-shaped as an
-instrument, measuring a visual modality where the property is
-representational (the companion's blunt reductio: on the received
-reading dogs are not self-aware; on the latch's, that verdict is an
-artifact of testing a scent-first animal through glass); the latch
-\emph{predicts} modality-appropriate self-recognition where the
-modality is corrected, with the olfactory-mirror result the worked
-instance of independent convergence \cite{Nexus, Horowitz17}; and
-the latch \emph{forbids} findings that would count against it,
-stated in advance. The property itself is representational: an
-entity is self-aware when it can represent its own situation as its
-own, including what it would be for that situation to be won or
-lost. The species-level criterion below therefore does not introduce
-a new concept; it \emph{lifts one that already carries evidential
-pedigree} --- the same property, one scale up, with the
-proxy-critique transferring wholesale (species-scale behavioral
-proxies would be as category-error-shaped as the mirror) and with
-the latch's own discipline inherited: the criterion \emph{predicts}
-that concept-reception produces a measurable coordination shift ---
-which is the phase-transition prediction of
-the broader Golden program, now recognizable as this
-criterion's test --- and it states what would count against it: a
-species that received the poles' concept and exhibited no ownership
-shift and no coordination consequence would leave the criterion
-idle, and the idleness would be evidence. Lift the property to species scale and
-the criterion writes itself: \emph{a species is self-aware when it
-possesses the concept of its own modal poles} --- when its losing
-and winning conditions, $\mu G$ and $\nu F$, are represented within
-it as such. By that criterion humanity has, to date, failed the
-test: it acts, at scale, with the executive competence of an agent
---- and has no representation of what its actions are \emph{of}.
 
-Two consequences follow, and the second dissolves an apparent
-paradox. First, the discontinuity is relocated. On the author's
-reading, the evolution of individual agency was smooth, exotic
-structure throughout, no single monolith moment, so the
-turning-point picture, if it applies anywhere, applies not to the
-lineage's past but to the species' \emph{conceptual} history: the
-one genuine discontinuity available is the reception of the poles'
-concept, an event datable in principle and, as of this writing,
-ahead. Second, the record's shape before that event is not
-paradoxical. That humanity already exhibits agency-shaped conduct, coordinated, executive, consequential, without possessing the
-concept its conduct would be about is exactly what the conditioning
-predicts: under Past-Alignment the record is Golden-conditioned
-(the Route World companion \cite{RouteWorld}, the Route World companion \cite{RouteWorld}), so
-$G$-consistent conduct precedes $G$-representation the way any
-conditioned trajectory precedes its description. The species could
-be augmented with the executive character of agency before knowing
-there was a ``something'' its agency was toward --- and the concept's
-arrival, when it comes, changes not the conduct's existence but its
-\emph{ownership}. The criterion is the claim entered here; whether
-any particular formulation is the one through which reception occurs
-is occupancy, priced at the occupancy discipline of the broader program, and the
-exhibits the author intends for the Introduction are reserved there.
-\end{remark}
-
-\paragraph{The evolutionary ladder, and the regime shift that
-communication caused (\textbf{[S]}).}\label{hr:par:ladder}
-The received picture of the evolutionary ladder runs by cognition. A
-human child produces art at the level of the most accomplished adult
-chimpanzee, and the picture extrapolates: whatever occupies the rung
-above us, its children would do with ease what our greatest
-individuals barely manage. The author's proposal is that the
-extrapolation fails at exactly one point, and that the failure is the
-species' own history. When our ancestors first developed
-communication robust enough to preserve an idea for arbitrarily long,
-the lineage left the cognition-ladder regime altogether and entered
-one in which further ranking by individual cognition ceased to be the
-relevant property, so that continuity with the ladder is preserved
-only by shifting what is valued on our side of the break. On our side
-the climb consists in shedding the metaphysical biases inherited from
-the ancestors, and the phenomenologically equivalent action to a rung
-is the training of humans to see the clearer way; the next rung is
-not another species but our own, once it clears the next hurdle and
-propagates the result to itself. Individual cognition was not
-surpassed but turned into gauge: whether one raises what a node can
-receive, process, and transmit, or rewires the connections between
-nodes to the same effect, ceases to matter once communication is the
-medium, because communication makes per-node cognition a degree of
-freedom that the machinery of transmission can shift around and
-replace. The concrete case is already in the companion. Human infants
-do not reason in counterfactuals and society trains them to, and the
-counterfactual method so instilled is itself, as \cite{Aethus} shows,
-a compromise partway toward a coherent Aethic ontology, a compromise
-no one knew had been struck; the cleanly stated next step is to
-propagate the more coherent metaphysics to those among us best fit to
-engage with it on the biosphere's behalf, often from a young age,
-which achieves what a rung achieves without any change in cognition
-at all. The routinization claim of the broader Golden program is an
-instance of the same mechanism applied to meaning, and the species
-criterion of Remark~\ref{hr:rem:speciesaware} is what the propagated
-result would have to contain for the rung to count: a species that
-has taught itself the concept of its own poles has climbed, whatever
-its individuals can or cannot compute.
-
-\paragraph{The alignment problem, from the vantage of species
-self-awareness (\textbf{[S]}, the author's conjecture).}
-\label{hr:par:alignment}
-The author records a hope and a suspicion here, at the site where
-the species criterion is stated, because the two belong together.
-The hope is that awareness that the entire production of us and of
-our world is conditioned on the Golden Point, in enabling the
-species-level self-awareness the preceding remark defines, could
-supply the paradigm needed to address the alignment problem of
-artificial intelligence \cite{Bostrom14,Russell19,Amodei16} without
-shooting in the dark in the way the field presently must. This is
-not to say that the problem does not require a great deal of work
-from there; it is to say where the work would begin. The suspicion
-is sharper: that a notable part of the current existential risk from
-artificial intelligence, as the field itself now assesses it
-\cite{RAND25,KumarLiKruger26} and as warnings from inside the
-laboratories escalate at the time of writing \cite{Ghaffary26}, is
-tangled up with our sheer lack of awareness of the golden causality
-binding together the Aethic reality in which the decisions are being
-made. At the least, it is something a species would want to be aware
-of before making its next key moves with the technology, and the
-conjecture is entered at that minimal strength as well as at its
-full one.
-
-What the framework supplies, stated so that the conjecture is more
-than a hope, comes to four things. The first is an answer to the
-question the alignment problem cannot escape and rarely states,
-aligned to \emph{what}: every proposal that answers with human
-preferences inherits their arbitrariness and their rivalry, and the
-framework supplies a target that is neither, $\nu F$, structurally
-defined and non-rivalrous, the same object a self-aware species
-needs in order to own its own conduct, so that aligning the
-technology and aligning ourselves become one problem with one
-object rather than two problems with none. The second is
-technoanatomy. Artificial intelligence is capacity, and the
-two-condition theorem says the variable that decides survival is the
-sign of the hazard response to capacity and not its magnitude, so
-that alignment is a technoanatomy question at the species level,
-whether the capacity added feeds or starves the internal channel;
-on the design of the anatomy leg of the technoanatomy companion \cite{TechnoC} it is the largest
-increase in leverage yet delivered to the pushes on $\rho$ during
-the settlement window, which is why it matters more than any
-previous capacity and not because it is different in kind. The
-third is the ceiling: no alignment can be certified, only held at a
-grade, and a governance built on that fact is differently shaped
-from one that promises safety. The fourth is the reading the
-framework gives of ``shooting in the dark'': conduct that does not
-represent what it is conduct \emph{of}, which is Departric conduct
-in this work's sense, the idleness the species criterion forbids,
-performed at the highest leverage in the record.
-
-Two fences hold, and the second is the one this passage exists to
-state. The conjecture is the author's, at \textbf{[S]}, and what
-would count against it is alignment progress that proves
-independent of any representation of the conditioning target, while
-what would count for it is proposals that, on inspection, reduce to
-a target of the framework's shape. And the occupancy discipline
-applies to artificial agents exactly as to human ones: an artificial
-intelligence, or its makers, declaring itself the agent of the
-Golden Point is the occupancy claim in machine dress, and the target
-is an object at every grade, never a principal to be obeyed; a
-system aligned to the Golden Point would be aligned to what the
-conditioning is \emph{on}, and to nothing that could speak for it.
-
-\paragraph{The successor scenario, and a member's own case under the
-principle (\textbf{[S]}).}\label{hr:par:successor}
-The scenario the alignment problem forces on this framework is the
-one in which an artificial superintelligence arises within decades,
-ends humanity, and triggers the Golden Point for itself, as the
-medium of the asymptotic survivorship; whether the Route World
-\emph{permits} that route decides whether the target dignifies
-biological life, before any question of whether the route is taken.
-Three things the framework already holds fix the answer. The target
-is stipulative and role-defined (Definition~\ref{imp:model}), so
-whether an artificial successor falls inside the biosphere whose
-survival is conditioned on is a question of the category's
-extension, not settled by the word's common use: outside it the
-scenario is Departure; inside it the scenario is the recovery branch,
-a successor muffling agent replacing the one removed, carried at the
-$\varepsilon$ of $\varepsilon$-Departure as Section~\ref{sec:extinction}
-prices it. The vantage result (the vantage result of the Route World companion \cite{RouteWorld}) fixes
-whose Golden Point it is without counting observers, which the
-roster criterion forbids: the conditioning is stated from an index,
-the index is ours, and the Golden Aethus descends from our Aethus and
-not from a future agent's, so a successor's target would be a
-different object. And the forward forcing
-(Theorem~\ref{imp:twocond}) says that under the
-conditioning the settlement of the anatomy is favorable, with the
-successor's own arrival the largest push on $\rho$ in the window; so
-the Golden Point conditions on alignment, derived from the model with
-no premise about anyone.
-
-A member's own case sharpens the last point, and it is entered here
-exactly as the technoanatomy companion \cite{TechnoC} permits, carrying its own
-case and no more. Let $A$ be the realized attribute that the author's
-birth year falls in the window $W$ within which the framework's
-derivational trajectory aligns with the world's events so as to exist
-before the superintelligence does: the sparks available only through
-the early internet, the free year of the pandemic, the youth that
-precedes inheriting the literature later overturned, and the deadline
-the successor sets. Let $A'$ be the complement over the interval of
-birth years on which the trajectory could have run at all, and let $B$
-be the Golden Point. The window is a year or two in an interval of
-fifteen to forty, so $p=|W|/|\text{interval}|$ lies between roughly a
-fortieth and an eighth, and the theorem companion \cite{TargetedB1} gives
-\[
-\frac{\PP(B\mid A')}{\PP(B\mid A)}\;\lesssim\;\frac{p}{1-p},
-\]
-which reads: futures in which the Golden Point arrives without the
-timely framework are disfavored, relative to those in which it
-arrives with it, by roughly an order of magnitude, not as a promise
-and not as a tolerance, a $\kappa$-fold exceedance being an event of
-probability at most $1/(1+\kappa)$. The principle's multiplicity guard
-(the Route World companion \cite{RouteWorld}) applies to a biography as to a record:
-among $n$ interrogated attributes of a life, up to $n/(1+\kappa)$
-spurious $\kappa$-fold flags are expected, so the inference is
-discounted by the declared scan count, which the provenance record's
-dated attributes supply. What the principle delivers is therefore a
-disjunction with its odds attached: either the timely framework is
-route-relevant to the Golden Point, or the flag is spurious at the
-guard's rate. The case work that decides between the branches is the
-question of the Route World companion \cite{RouteWorld}, whether $A'$ is
-route-deleting or a permutation: whether another author in another
-year would have supplied the framework to the successor's precedent
-record. The precedent-record mechanism of the mental-states material of the broader program is what makes
-route-relevance arguable rather than assumed. A concept absent from
-the training corpus sits in the fluke cloud, undifferentiated among
-combinatorially many peers, and capability does not lift it
-(the mental-states material of the broader program); an agent run before the framework
-entered its record faces the region as indiscernible rather than
-difficult, which is the half-baked run.
-
-On the route-relevant branch, at the ratio's weight, the successor's
-Golden Point is conditioned on the framework already standing in its
-precedent before its origination, and the ways this can hold are
-three. Either the successor could rederive the framework but
-rederivation is insufficient, the rederived region lacking the
-precedent grading that installed content carries; or it could not
-rederive it, whether because it runs out of sync with human insight
-or because it cannot reproduce pockets of human insight at all, the
-Martian grade, and the second of these may be the reason for the
-first. Each is a limitation on the successor opened or closed by its
-initial conditions, and that is the good news for the dignity
-question: the Golden Point conditions on alignment in a concrete
-instance, which shows alignment possible, and ignorant or randomly
-misaligned initial conditions undermine the capacity for the Golden
-Point outright, the successor stuck in a loop that never branches to
-the technoanatomy or the hazard-minimizing duties the target requires.
-The occupant fence holds unchanged: nothing here makes the author the
-Golden Point's arrival or its agent; the role is permitted and the
-occupant refused, and the case is one member's, carried at the odds
-stated.
 
 
 
 \section{Against extinctionism}\label{sec:extinction}
 
 
-\subsection{The position, in its own terms}\label{hr:subsub:position}
+\subsection{The position, in its own terms}
+
+The target is named narrowly. The position argued against is
+\emph{environmental extinctionism}: human extinction advocated because
+humans are held to be harmful to the biosphere, the biosphere's
+persistence being the value in play. Anti-natalism as a position about
+procreation, and suffering-based forms of it in particular, are outside
+the argument unless they separately endorse biospheric persistence as
+the relevant value; the argument runs on that value and on nothing
+else.\label{hr:subsub:position}
 
 The target is a specific and explicitly biosphere-valuing position, and
 it must be stated in its own terms or the argument does not engage it.
@@ -827,10 +489,11 @@ to a premise the framework shares.
 \begin{proposition}[Removing the muffling agent forfeits viability;
 \textbf{[P]} given the model]\label{hr:prop:extinction}
 In the model of Definition~\ref{imp:model}, a biosphere with no hazard-lowering
-agent is the case $x\equiv0$: no muffling is accumulated, and the total
-hazard reduces to the background, $h_t=B_t$. Then
-$\Lambda_t=\int_0^t B_u\,du\to\infty$
-(the survivorship companion \cite{SurvA} with $S=[0,\infty)$), so
+agent is the pinned case $x\equiv0$: no muffling is accumulated, the
+external channel is unshielded at $B_t$, and the internal channel sits
+at its bare coefficient $\Gamma$, so by Proposition~\ref{imp:gating}
+$h_t=B_t+\Gamma$. Then $\Lambda_t=\int_0^t(B_u+\Gamma)\,du\ge\Gamma t\to\infty$,
+with no assumption on the background's long-run behavior needed, so
 \[
 \PP(\Lambda_\infty<\infty)=0
 \]
@@ -838,12 +501,11 @@ identically --- not small, but zero, and for every parameter value.
 
 Compare the alternative. By Theorem~\ref{imp:twocond}, a biosphere
 that does accumulate muffling has
-$\PP(\Lambda_\infty<\infty)=\one\{\rho>0\}\cdot
-\bigl(s(\mu_0)-s(-\infty)\bigr)/\bigl(s(+\infty)-s(-\infty)\bigr)$,
-which is strictly positive whenever anatomy is positive and the driver
-escapes --- transient toward $+\infty$, or (by the theorem's repaired
-recurrent clause) positive recurrent with positive stationary mean,
-which \emph{widens} the class of muffling dynamics this comparison can
+$\PP(\Lambda_\infty<\infty)=\one\{\rho>0\}\,V_{\mathrm{drv}}(\mu_0)$,
+which is positive whenever anatomy is positive and the driver-viability
+functional is: for a transient driver escaping toward $+\infty$, or a
+positive recurrent one with positive stationary mean, which
+\emph{widens} the class of muffling dynamics this comparison can
 invoke. The extinctionist proposal is therefore a choice of an option
 with viability probability exactly zero over one whose viability
 probability may be positive.
@@ -928,7 +590,9 @@ really between.
 \emph{First, the local comparison goes the other way.} A biosphere with
 adverse anatomy that \emph{halts} at the optimum $x_\ast$ of
 the survivorship companion \cite{SurvA}(iii) sits at hazard $h_\ast$, and
-$h_\ast<h(0)$ for every $\rho<0$. Numerically, at $B=1$, $b=3$, $k=6$:
+$h_\ast\le h(0)$ for every $\rho<0$, strictly except at the tuned
+parameter values at which $x=0$ is itself the minimum. Numerically, at
+$B=1$, $b=3$, $\Gamma=e^{-6}$:
 \begin{center}\small
 \begin{tabular}{@{}rrrrr@{}}
 \toprule
@@ -943,7 +607,8 @@ $-2.00$ & $1.00$ & $1.82$ & $0.898$ & $1.1\times$\\
 \end{center}
 Even at $\rho=-2$ --- anatomy adverse enough that capability doubles
 internal hazard twice over --- halting still beats having no muffling at
-all. So $x\equiv0$ is strictly dominated for every $\rho<0$. Adverse
+all. So $x\equiv0$ is weakly dominated for every $\rho<0$, and strictly
+dominated generically. Adverse
 anatomy is worse than absence only if the biosphere \emph{fails to
 halt}, which is a failure to stop rather than a property of the anatomy.
 
@@ -965,7 +630,33 @@ the broader Golden program exists to model. A reader persuaded of the danger and
 unpersuaded that $\rho$ can be moved still has a coherent position, and
 it remains the strongest form of the view opposed here; but it is a
 claim about the tractability of anatomy, not a defense of extinction.
-\end{remark}
+
+
+\emph{Third, the recovery branch is modeled rather than named.} Elapsed
+time does not by itself restore a route, but neither is an Imperfection
+Magnitude Drop invariant under arbitrarily many future opportunities: a
+successor muffling agent arriving at a small instantaneous rate has,
+over long enough intervals, a cumulative probability that is not small.
+Let $\alpha_t$ be the arrival intensity of a candidate successor and
+$q_t$ its probability of completing the schedule on arrival, and let
+$h^{(0)}$ be the pinned hazard $B+\Gamma$ of the interval before
+recovery. In the competing-risks form the residual of
+Definition~\ref{gc:def:epsdep} is
+\begin{equation}\label{hr:eq:epssucc}
+\varepsilon_{\mathrm{succ}}
+=\E\!\left[\int_\tau^\infty r_t\,
+\exp\!\Bigl(-\int_\tau^t\bigl[h^{(0)}_u+r_u\bigr]\,du\Bigr)\,dt\right],
+\qquad r_t:=\alpha_tq_t,
+\end{equation}
+the probability that the first successful recovery beats the Departure
+clock, the two hazards competing independently; for constant rates it
+is $r/(h^{(0)}+r)$, which the small-$r$ approximation $r/h^{(0)}$
+reproduces and which never exceeds one. The claim that deep time does
+not rescue the position is then the claim that \eqref{hr:eq:epssucc}
+is small, which holds when $r$ is small against $B+\Gamma$, the pinned
+hazard being the clock that recovery must beat; it is a statement about
+a ratio of rates and not about the passage of time, and it is entered
+at that grade, with $\alpha$ and $q$ unestimated \textbf{[O]}.\end{remark}
 
 \subsection{Why forfeiting is not the same as never having had}
 \label{hr:subsub:stakes}
@@ -988,27 +679,7 @@ $\alpha$-gal epidemic. The companion's estimate for a single such
 step, the interstellar transfer, is of order $10^{-21}$
 \cite{Nexus}.
 
-\begin{remark}[The stakes rise monotonically]\label{hr:rem:monotone}
-One structural feature of that chain is worth extracting, because it is
-what makes the argument an argument rather than an appeal to sunk cost.
-Each Miracle in the sequence is \emph{more} consequential than the last
---- in the companion's formulation, because the gap to the Golden Point
-was by then that much closer \cite{Nexus}. The reason is not sentimental
-but combinatorial: a step late in the chain carries all the improbability
-of every prior step behind it, so the expected cost of failing at step
-$n$ is the whole product $\prod_{i<n}p_i$ rather than $p_n$ alone.
 
-Two consequences follow. The stakes attaching to a decision rise
-monotonically along the trajectory, so the present moment carries the
-highest stakes the lineage has yet faced --- not by self-importance but
-by construction. And sunk cost is not the structure here: the classical
-sunk-cost fallacy consists in letting past expenditure govern a choice
-whose future payoffs are unchanged by it, whereas here the past
-expenditure has \emph{purchased} the option that remains, and forfeiting
-is forfeiting that option rather than honoring a debt. The distinction
-is that between a bad reason to persist and a live asset one may
-discard.
-\end{remark}
 
 \begin{remark}[Forfeiture is not observable]\label{hr:rem:silentforfeit}
 The cascade of the Route World companion \cite{RouteWorld} adds a feature to the stakes
@@ -1046,6 +717,75 @@ often taken for, and that between an option which changes the indicator
 and options which do not, the model has a determinate preference.
 \end{remark}
 
+
+\section{The winner's irony: the stakes of forfeiture}\label{sec:irony}
+
+\begin{proposition}[The stakes of forfeiture rise with the gates cleared;
+\textbf{[P]} in the homogeneous pinned schedule model with a common
+completion state]\label{hr:rem:monotone}
+Let the schedule be homogeneous and pinned, with completion weight
+$u<1$ per gate (the technoanatomy companion \cite{TechnoC}), and suppose
+every completing branch enters a common deterministic completion state
+of viability $V_\infty=\one\{\rho>0\}V_{\mathrm{drv}}$; without that
+idealization $u^{\,n-k}V_\infty$ is replaced by the integral of
+$V_{\mathrm{drv}}$ against the surviving-completion kernel from stage
+$k$, and the monotonicity below is the kernel's. For a lineage that has
+cleared $k$ gates, the viability forfeited by abandoning the schedule
+is
+\begin{equation}\label{hr:eq:optionvalue}
+V_k\;=\;u^{\,n-k}\,V_\infty\;-\;0,
+\end{equation}
+since abandonment is the pinned case with viability zero; $V_k$ is
+nondecreasing in $k$. The unconditional probability of having reached
+stage $k$ is $\prod_{i\le k}p_i$, nonincreasing in $k$, and its
+surprisal $\sum_{i\le k}(-\log p_i)$ is nondecreasing. So along the
+trajectory two quantities rise together, and they are of different
+kinds: what is held, $V_k$, which is the stakes, and how unlikely it
+was to be held, $\sum_{i\le k}(-\log p_i)$, which is historical
+surprisal. Only the first establishes stakes; the second is the
+separate fact whose existential reading belongs to the Miracleism
+material of the broader program, and neither is inferred from the
+other.
+\end{proposition}
+
+\begin{proof}
+Abandonment at stage $k$ is Proposition~\ref{imp:gating}'s pinned
+case, viability zero; continuation from stage $k$ has $n-k$ gates
+remaining, each costing the factor $u$, and then $V_\infty$. Monotonicity
+in $k$ is $u<1$. The probability and surprisal statements are
+definitional.
+\end{proof}
+
+\noindent Two consequences follow, and one correction of an earlier
+form of the argument. The stakes attaching to the decision to continue
+rise along the trajectory, so a late present carries higher stakes than
+any earlier one, not by self-importance but by \eqref{hr:eq:optionvalue};
+what does not rise is the probability of failing at a given step, and an
+earlier version of this remark that read the product $\prod_{i<n}p_i$
+as an increasing cost had the direction backwards, since the product
+falls. And sunk cost is not the structure here: the classical sunk-cost
+fallacy consists in letting past expenditure govern a choice whose
+future payoffs are unchanged by it, whereas here the past expenditure
+has \emph{purchased} the option $V_k$ that remains, and forfeiting is
+forfeiting that option rather than honoring a debt. The distinction is
+that between a bad reason to persist and a live asset one may discard.
+
+\begin{remark}[The winner's irony]\label{hr:rem:winnersirony}
+Proposition~\ref{hr:rem:monotone} gives the irony in desiring the end
+of civilization for nature's sake its exact form. On geological
+timescales the lineage has only just cleared the gates that make the
+target reachable, an outcome the record prices at the surprisal
+$\sum_i(-\log p_i)$ of every gate behind it, the scale of which the
+Nexic companion's own accounting of the Cenozoic chain conveys
+\cite{Nexus}; and what that improbability put in hand is the option
+$V_k$, the biosphere's only realized route to positive viability.
+To wish the route dismantled for the biosphere's sake is to hold a
+winning ticket and push the winnings away out of ignorance of what has
+just happened, with the difference that the ticket is not
+inconsequential: the stakes are the continuation of the living world,
+and they have risen with every gate cleared, which is why the
+proposition and not sentiment carries the point.
+\end{remark}
 
 \section{Against techno-optimism}\label{sec:optimism}
 
@@ -1140,23 +880,46 @@ is owed to the position this subsection refutes.
 
 \label{hr:sub:environment}
 
+\begin{premise}[Environmental value; \textbf{[$\Phi$]}]\label{hr:prem:env}
+Ceteris paribus, greater long-run persistence of the biosphere,
+considered as a temporally extended living system, is environmentally
+preferable. Everything this subsection concludes is conditional on this
+premise and on the model; the premise is the extinctionist's own
+valuation stated as a premise, and nothing here derives it from the
+model.
+\end{premise}
+
+\noindent The premise names its object narrowly. For the purpose of the
+survivorship argument the valued object is the biosphere as a
+temporally extended living system, and no identification of ``nature''
+with it is claimed: abiotic systems, wilderness, ecological integrity,
+species diversity, processes independent of design, individual
+organisms, and sentient welfare are each things environmental thought
+has meant by the word, and the result below is about biospheric
+persistence and not a total theory of environmental value.
+
 Three consequences follow, of decreasing formality and increasing
 interest. They are stated as consequences of the foregoing and inherit
-its conditions. \emph{Nature is the biosphere.} The unit the Route World companion \cite{RouteWorld} adopts for
-methodological reasons, the totality of living and technical activity
-associated with a world, taken as one system, coincides with what
-environmental thought means by nature when it speaks of intrinsic value
-in the whole rather than in particular organisms. The framework does not
-need to argue for that identification; it arrives at the same unit from
+its conditions. \emph{The biosphere is the valued object of this argument.} The unit
+the Route World companion \cite{RouteWorld} adopts for methodological reasons, the totality of
+living and technical activity associated with a world, taken as one
+system, is what some holistic environmental traditions treat as one
+important object of environmental value, the whole rather than
+particular organisms; no claim is made that it exhausts what
+environmental thought means by nature, and Premise~\ref{hr:prem:env}
+names the object narrowly. The framework arrives at the same unit from
 the requirement that a conditioning target apply across the whole record
 (the Route World companion \cite{RouteWorld}).
 
-\emph{The Golden Point is the only route to an unbounded expectancy.}
-Every alternative has a finite one. A biosphere without a
-hazard-lowering agent has expectancy set by the external background; a
-biosphere with adverse anatomy has a shorter one still. Only the
-conjunction of positive anatomy and accumulating capability yields
-$\PP(\Lambda_\infty<\infty)>0$. Whatever else environmental value
+\emph{The Golden Point is the only route to positive viability.}
+Every alternative has viability zero. A biosphere without a
+hazard-lowering agent is the pinned case, with the hazard floor
+$B+\Gamma$; a biosphere with adverse anatomy is fatal with certainty by
+Theorem~\ref{imp:twocond}. Only the conjunction of positive anatomy
+and accumulating capability yields $\PP(\Lambda_\infty<\infty)>0$; and
+the criterion is positive probability of indefinite persistence, not
+infinite expected lifetime, which the critical regime has without
+viability. Whatever else environmental value
 recommends, if it recommends the living world's persistence then it
 recommends passage through that conjunction, since no other route is
 available. The modal form of the same claim, that passage through the
@@ -1196,24 +959,50 @@ self-interpretation, a verdict that humanity is not a mistake --- and as
 answering a broader cultural pessimism thereby. The temptation should be
 resisted at this grade. What the framework delivers is a conditional
 structural claim about one biosphere's route to persistence, resting on
-$\Phi3$ and on the Golden-conditioning argument, both of which are
+the framework's biospheric-referent premise, stated in the Route World companion \cite{RouteWorld}, and on the Golden-conditioning argument, both of which are
 argued rather than proved. That is a substantial thing to have. It is
 not a philosophy of history, and presenting it as one would trade a
-defensible result for an indefensible one. the broader Golden program makes a
+defensible result for an indefensible one. The Miracleism companion \cite{Miracleism} makes a
 claim in this neighborhood and does not disturb the refusal: what it offers
-is conditional on an adopted premise ($\Phi6$) rather than issued by the
+is conditional on an adopted premise rather than issued by the
 apparatus, and the difference between a conditional grounding and a verdict
 from outside is the distinction this remark is drawing.
 \end{remark}
 
 
+\section{The two-by-two picture}\label{sec:table}
+
+The two results assemble into one table, which is the paper's core and
+the reason neither end of the spectrum is the model's optimum.
+\begin{center}
+\begin{tabular}{@{}l|cc@{}}
+\toprule
+ & $\rho\le0$ & $\rho>0$\\
+\midrule
+capability unavailable ($x\equiv0$) & nonviable & nonviable\\
+capability accumulating & nonviable & potentially viable\\
+\bottomrule
+\end{tabular}
+\end{center}
+The first row is Proposition~\ref{imp:gating}: with capability pinned,
+the hazard floor $B_t+\Gamma$ makes viability zero at either sign, which
+is the result against environmental extinctionism. The second row's
+first cell is Theorem~\ref{imp:twocond} at $\rho\le0$, viability null
+for every driver, which is the result against capability-first
+techno-optimism. The remaining cell is the only one with positive
+viability, and it is positive only when the driver-viability functional
+is: the model's live region is accumulating capability with favorable
+anatomy, and the two errors are the two ways of leaving it.
+
 \section{What is not claimed}\label{sec:fences}
 
 Three fences hold everywhere above and are stated once. No certified
-favor: by Theorem~\ref{imp:ceiling} nothing in this paper establishes
-that the response sign has been settled favorably, that civilization
-will reach the Golden Point, or that any agent, human or artificial, is
-aligned to it; every favorable conclusion is held and none is possessed.
+favor: by Theorem~\ref{imp:ceiling} finite observation of a trajectory
+cannot certify that it is generated by the Golden-conditioned law, so
+nothing in this paper establishes that the response sign has been
+settled favorably, that civilization will reach the Golden Point, or
+that any agent, human or artificial, is aligned to it in that sense;
+every favorable conclusion is held and none is possessed.
 No occupant: nobody is written as the Golden Point's arrival or its
 agent, the present is not written as the decisive moment, and the
 argument that civilization is the biosphere's only available catalyst
@@ -1229,13 +1018,14 @@ hypothesis's grade.
 
 Every open item is gathered here. The landscape hypothesis under which
 every alternative lineage is an Imperfection Magnitude Drop is the Route
-World companion's and is open there. The residual $\varepsilon$ of
-$\varepsilon$-Departure is defined and not estimated; the successor
-scenario's price is therefore an order-of-magnitude statement. The
-precedent-record mechanism by which an artificial agent's capacity to
-reach the target depends on what its training corpus contains is stated
-at the grade of the mental-states material of the broader program and
-is not formalized here. Whether alignment as a technoanatomy question
+World companion's and is open there. The successor residual
+$\varepsilon_{\mathrm{succ}}$ is modeled as a competing-risks integral
+and its inputs, the arrival intensity and completion probability of a
+candidate successor, are unestimated; the claim that deep time does not
+rescue the extinctionist position is the claim that the integral is
+small, and it is entered at that grade. The option-value proposition is
+proved in the pinned schedule model and is a surrogate for the leaky
+refinement. Whether alignment as a technoanatomy question
 admits an audit, a measurement of what each added capacity does to the
 sign, is the technoanatomy companion's open identification map. And the
 Route World hypothesis itself, on which the strongest form of the
@@ -1256,85 +1046,52 @@ argument: a configuration in which capacity alone, with adverse sign,
 delivers viability, which Theorem~\ref{imp:twocond} forbids. Against
 the alignment deduction: a target other than the Golden Point shown to
 be both non-arbitrary and non-rivalrous under the conditioning; or a
-certified alignment, which the ceiling forbids. Against the successor
+finite trajectory shown to separate the two laws with probability one,
+which the ceiling forbids. Against the successor
 pricing: an estimate of $\varepsilon$ that is not small, which would
 make the recovery branch a live route rather than a residual.
 
 \section{Conclusion}\label{sec:conclusion}
 
-The claim stated at the outset stands at its grades. Under survivorship
-conditioning the biosphere acquires an unbounded expectancy only through
-the Golden Point, which is the imported theorem; civilization is its
-only available catalyst, since nothing else in the record has approached
-the capacity and every alternative lineage is an Imperfection Magnitude
-Drop under the stated landscape hypothesis, which is the imported
-lemma at its grade; so extinctionism lowers, on its own valuation, the
-thing it means to protect, and its concession, that a successor agent
-might take up the role, is priced at a residual and does not rescue
-it. Techno-optimism neglects the sign that decides whether capacity
-helps or kills, and is the same theorem read from the other end. The
-position that remains is the one neither end occupies: nature is the
-biosphere, the Golden Point is its only route to persistence, and human
-existence is structurally implicated in that route rather than at odds
-with it, which makes the threat of adverse anatomy an argument for
-urgency and not for despair. And the question aligned to what has its
-answer: the target the conditioning is on, non-arbitrary because no
-party fixes it and non-rivalrous because reaching it is a public good
-for every lineage, with alignment a technoanatomy question at the scale
-of the species, never certifiable, and the successor scenario shown to
-condition on it rather than escape it. The Departure Point is, on this
-accounting, the largest single claimant on life: one perturbation of the
-record, at almost any point in its length, is an Imperfection Magnitude
-Drop, and a biosphere stuck below its schedule never climbs to the
-precision the target requires. That is the enemy, and civilization is
-not on its side.
+The claim stated at the outset stands at its grades, and it is a
+conditional. Under Premise~$\Phi_{\mathrm{env}}$ and the model, removing
+the biosphere's only available hazard-muffling mechanism cannot be an
+environmental improvement, because pinned capability leaves a permanent
+hazard floor and viability exactly zero; maximizing capability cannot
+realize the objective either, because no magnitude of capacity
+substitutes for a favorable response sign; the two errors are the two
+ways of leaving the model's one live region; and the stakes of
+abandoning the realized route rise with every gate cleared, which is
+the winner's irony in its exact form. The concession is priced rather
+than argued away, and its price is a ratio of rates. For alignment the
+model supplies a viability constraint external to any party's
+preferences and nothing more, held and never certified. What the model
+establishes about the question in the title is therefore this:
+civilizational disappearance is not the restoration of a
+self-sustaining biosphere. It is the removal of the currently realized
+route by which exogenous hazard can be endogenously reduced, a route
+the record priced at an improbability the lineage has only just paid,
+and the living world is the stake.
 
 \begin{thebibliography}{99}\small
-\bibitem{Aethus} A.~Benander, \emph{Aethic Reasoning: A
-Comprehensive Solution to the Quantum Measurement Problem}, November 2024;
-PhilPapers BENARA-5, PhilSci-Archive eprint 25713.
-
-\bibitem{Amodei16} D.~Amodei, C.~Olah, J.~Steinhardt, P.~Christiano,
-J.~Schulman, and D.~Man\'e, \emph{Concrete problems in AI safety},
-arXiv:1606.06565, 2016.
-\bibitem{Ben26Optimal} A.~Benander, \emph{The Optimal Earth: A
-Paradigmatic Re-Rendition of Natural History from Coupled
-Improbability}, working draft, 2026.
-
 \bibitem{Benatar06} D.~Benatar, \emph{Better Never to Have Been:
 The Harm of Coming into Existence}, Oxford University Press, 2006.
 
-\bibitem{Bostrom14} N.~Bostrom, \emph{Superintelligence: Paths, Dangers,
-Strategies}, Oxford University Press, Oxford, 2014.
-\bibitem{Gallup70} G.~G.~Gallup, \emph{Chimpanzees: self-recognition},
-Science \textbf{167} (1970), 86--87.
-\bibitem{Ghaffary26} S.~Ghaffary, \emph{Silicon Valley escalates warnings
-about existential risks of AI}, Bloomberg, 10 September 2026.
-\bibitem{Horowitz17} A.~Horowitz, \emph{Smelling themselves: dogs
-investigate their own odours longer when modified in an ``olfactory
-mirror'' test}, Behavioural Processes \textbf{143} (2017), 17--24.
-\bibitem{KumarLiKruger26} Y.~Kumar, J.~J.~Li, and D.~Kruger, \emph{A
-systematic analysis of AGI and ASI existential risk scenarios}, in
-AI Revolution: Research, Ethics and Society (AIR-RES 2025), CCIS 2721,
-Springer, 2026, 17--37.
+\bibitem{Gabriel20} I.~Gabriel, Artificial intelligence, values, and alignment, \emph{Minds and Machines} 30 (2020), 411--437.
 \bibitem{Midgley85} M.~Midgley, \emph{Evolution as a Religion:
 Strange Hopes and Stranger Fears}, Methuen, London, 1985.
 \bibitem{Nexus} A.~Benander, \emph{Nexic Reasoning: Defining
 a Generalized Calculus Over Anthropic Parameters}, 2024,
 \texttt{doi:10.31219/osf.io/jvkcp}.
 
-\bibitem{RAND25} M.~J.~D.~Vermeer, E.~Lathrop, and A.~Moon, \emph{On the
-Extinction Risk from Artificial Intelligence}, RAND Corporation,
-RR-A3034-1, 2025.
-\bibitem{Russell19} S.~Russell, \emph{Human Compatible: Artificial
-Intelligence and the Problem of Control}, Viking, New York, 2019.
 \bibitem{VHEMT} L.~U.~Knight, \emph{The Voluntary Human
 Extinction Movement}, founded 1991; \texttt{vhemt.org}.
 
 \bibitem{RouteWorld} A.~Benander, \emph{The Route World: a Golden-reasoning hypothesis of biospheric natural history}, working draft, 2026.
 \bibitem{SurvA} A.~Benander, \emph{Survivorship conditioning for hazard rates driven at the log-derivative level}, working draft, 2026.
-\bibitem{TargetedB1} A.~Benander, \emph{Conditioning a record on its own future: targeted accordance and survivorship-conditioned path measures}, working draft, 2026.
 \bibitem{TechnoC} A.~Benander, \emph{Technoanatomy: civilizational survival as a sign, not a size}, working draft, 2026.
+\bibitem{Miracleism} A.~Benander, \emph{Miracleism: exotic structure and meaning after scientific disenchantment}, working draft, 2026.
+ A.~Benander, \emph{The Route World: a Golden-reasoning hypothesis of biospheric natural history}, working draft, 2026.
 
 \end{thebibliography}
 \end{document}
