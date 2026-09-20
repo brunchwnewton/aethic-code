@@ -36,7 +36,7 @@ own contribution is the interpretive argument, and every claim it makes
 is graded. Drafting collaboration: Anthropic Claude (Opus~4.x,
 Fable~5), under the author's direction; the first-person sites remain
 the author's to write.}}
-\date{September 2026 --- Working Draft, rev.~1}
+\date{September 2026 --- Working Draft, rev.~2}
 \begin{document}
 \maketitle
 
@@ -122,10 +122,12 @@ whether the engine that killed it, run harder, finds anything else.
 
 \section{Why construction cannot reverse the descent}\label{sec:construction}
 
-The modern settlement's answer to the loss is that whatever meaning
-there is, we make. The settlement is not a failure of nerve; it is the
-only reasonable position given what its authors could see, and this
-section grants its premise entirely. What it does not grant is that
+The dominant secular response to the loss, the constructionist
+settlement considered here, is that whatever meaning there is, we make;
+it is not the only position philosophy has taken, and the neighbors are
+placed in Section~\ref{sec:ladder}. The settlement is not a failure of
+nerve; it is a reasonable position given what its authors could see,
+and this section grants its premise entirely. What it does not grant is that
 construction can reverse the descent, and the reason is structural.
 
 Consider a person who begins with no externally licensed meaning and
@@ -141,10 +143,16 @@ structure by
 \pi(M)=\begin{cases} I,&\text{the terminal significance is supplied by the agent or the human community,}\\
 E,&\text{the terminal significance was encountered in the world and not put there.}\end{cases}
 \]
-Self-authored perturbation satisfies $\pi(T(M))=\pi(M)=I$ for every $T$.
-No rearrangement of internally authored purposes, however grand,
-produces the thing the announcements took away, which was not a purpose
-of any particular size but a purpose of the other provenance class:
+Self-authored perturbation satisfies $\pi(T(M))=\pi(M)=I$ for every $T$,
+and the statement is close to definitional, since $T$ was defined as
+self-authored; that is its strength and its limit. It is not a proof
+that constructed meaning is not meaning, and the paper does not read it
+as one. It is the narrower and better result that self-authorship
+cannot reproduce the particular external provenance that disenchantment
+removed. No rearrangement of internally authored purposes, however
+grand, produces the thing the announcements took away, which was not a
+purpose of any particular size but a purpose of the other provenance
+class:
 something the person did not put into the world, did not choose to care
 about, and encountered as larger than the scale on which they
 ordinarily manufacture goals. This is the near-topological intuition
@@ -161,7 +169,7 @@ meaning, which it does not exhaust. \emph{Authored}: I supply the
 significance. \emph{Received}: another alleged authority tells me the
 significance. \emph{Discovered}: the world supplies evidence from which
 I find it. The premodern religious source is predominantly received.
-The modern reconstruction is predominantly authored. The third cell's
+The constructionist reconstruction is predominantly authored. The third cell's
 defining property is not that reasoning is used, since one reasons about
 authored and received beliefs alike; it is that the source of warrant is
 an independently encountered natural fact, so that valuation is
@@ -195,25 +203,36 @@ listed in Section~\ref{sec:ladder}; here their content is what matters.
 \begin{definition}[The two magnitudes]\label{def:magnitudes}
 Let $A^\ast$ be an independently specified configuration of the record,
 $C$ the common baseline of observers existing now and the biosphere
-having survived to the present, and $\Gc$ the target. The
-\emph{surprisal} of $A^\ast$ is
+having survived to the present, and $G_T=\{T_{\mathrm{dep}}>T\}$ the
+horizon event that the biosphere survives to horizon $T$, the target
+being read through the horizon family because in the critical regime
+the event of indefinite survival is null and cannot be conditioned on
+directly \cite{SurvA,TargetedB1}. The \emph{surprisal} of $A^\ast$ is
 \[
 I(A^\ast)=-\log\PP(A^\ast\mid C),
 \]
-and its \emph{selection amplification} under the target is
+and its \emph{selection amplification} at horizon $T$ is
 \[
-\Mc(A^\ast;\Gc)=\log\frac{\PP(A^\ast\mid\Gc,C)}{\PP(A^\ast\mid C)}
-=\log\frac{\PP(\Gc\mid A^\ast,C)}{\PP(\Gc\mid C)},
+\Mc_T(A^\ast;\Gc)=\log\frac{\PP(A^\ast\mid G_T,C)}{\PP(A^\ast\mid C)}
+=\log\frac{\PP(G_T\mid A^\ast,C)}{\PP(G_T\mid C)},
 \]
-the second equality by Bayes. A configuration is a candidate Miracle
-when both are large: rare under the baseline, and enormously enriched by
-the target the history appears to serve.
+the second equality by Bayes at every finite $T$; where the companions
+have established the limiting conditioned law, the amplification under
+the target is $\Mc(A^\ast;\Gc)=\lim_{T\to\infty}\Mc_T(A^\ast;\Gc)$, and
+every expression below written with $\Gc$ is shorthand for that limit
+where it exists and for the finite-horizon form otherwise. A
+configuration is a candidate Miracle when both magnitudes are large:
+rare under the baseline, and enormously enriched by the target the
+history appears to serve.
 \end{definition}
 
 The distinction is what defeats the cheapest objection, that every
 sufficiently detailed history is improbable. Correct, and irrelevant.
-The shuffled deck has $I$ of about $226$ bits and $\Mc$ of zero: nothing
-about any target enriches one ordering over another. A Miracle in the
+The shuffled deck has $I$ of about $226$ bits and $\Mc$ of zero for any
+target independent of the deck's ordering: nothing about such a target
+enriches one ordering over another, and a target invented to prefer a
+particular permutation fails the independent-specification guard
+below. A Miracle in the
 sense this paper needs is not a rare event. It is a rare event that the
 target amplifies, and the amplification is a statement about the record
 and the target, not about the fineness of a description.
@@ -244,37 +263,54 @@ ordinary, the required improbability of the independently specified,
 target-amplified configurations remains beyond familiar human scales.
 
 One more thing the magnitudes can do is named here because the phrase
-it licenses has been misread. The theorem companion lets one construct
-a nested family of increasingly stringent, independently legitimate
-attributes $A_1\supset A_2\supset A_3\supset\cdots$, each a canonical
-partition of the record, for which the baseline probability falls while
-the target-conditioned mass does not collapse correspondingly. If
-$\PP(A_n\mid C)\to0$ while $\PP(A_n\mid\Gc,C)$ stays bounded away from
-zero, the evidential contrast $\Mc(A_n;\Gc)$ grows without fixed bound.
-That is the exact content of the phrase \emph{arbitrarily high
-sufficiency}: not that any actual finite record carries infinite
-evidence, which it cannot, but that the contrast the method can extract
-from a record has no ceiling set by the method, only by the record.
-The canonical-partition requirement is what keeps this from being
-redescription, and it is essential.
+it licenses has been misread, and it is stated as a conditional. The
+theorem companion supplies calibrated tail bounds and not an existence
+theorem, so the following is a proposition about records that have a
+certain structure and not a guarantee that any record has it.
+
+\begin{proposition}[No method-imposed ceiling; conditional]\label{prop:nested}
+If the record admits an independently specified nested family of
+canonical partitions $A_1\supset A_2\supset A_3\supset\cdots$ for which
+$\PP(A_n\mid C)\to0$ while $\PP(A_n\mid G_T,C)$ stays bounded away from
+zero uniformly in $T$, then $\Mc_T(A_n;\Gc)\to\infty$ as $n\to\infty$:
+the evidential contrast the method extracts has no ceiling set by the
+method, only by the record.
+\end{proposition}
+
+\noindent That, and no more, is the content of the phrase
+\emph{arbitrarily high sufficiency}: not that any actual finite record
+carries infinite evidence, which it cannot, but that nothing in the
+instrument caps the contrast a sufficiently structured record can
+deliver. Whether the record of natural history admits such a family is
+an empirical question the Nexic program addresses and this paper does
+not settle; and the canonical-partition requirement is what keeps the
+proposition from being satisfiable by redescription.
 
 Rarity does two jobs in the argument and they are separated here so
 that neither is lost. The first is epistemic: it is what makes an
 observer stop and say that something requiring explanation is happening,
 and without it coupling looks like ordinary causal organization. The
-second is cosmic. If the Rare-Earth inference holds strongly enough, the
-surrounding cosmos becomes, in the biotic sense, overwhelmingly empty,
-and the indexical situation of the reader changes from one living world
-among multitudes to one extraordinarily rare surviving concentration of
-life inside an otherwise sterile expanse. The second world gives
-everything below far greater stakes, and it is a consequence of the
-probability and of nothing else.
+second is cosmic, and it is priced in two steps because they carry
+different grades. What the Rare-Earth inference establishes, at its
+grade, is that the surrounding universe is overwhelmingly empty of
+comparable observer-bearing biospheres: the rarity is of
+observer-producing histories, and that alone changes the reader's
+indexical situation from one observer-bearing world among multitudes to
+one of extraordinarily few. The stronger image, that the expanse is
+sterile of life altogether, requires an additional bridge from observer
+rarity to biotic rarity, since simple or even complex non-observer life
+could in principle be common while observer-bearing histories remain
+fantastically rare; that bridge is an empirical conjecture carried at
+its own grade and is not part of the inference. The conservative version
+is what the paper relies on, and it already gives everything below far
+greater stakes; the ambitious version, where it is used, is marked.
 
 What the magnitudes deliver, at the end of this section and before any
 interpretation, is the scale the Nexic companion conveys by the only
 analogy that fits: one can establish that a number is enormous, as one
-establishes that Graham's number exceeds any tower of exponentials one
-can write, while remaining unable to form a remotely proportionate
+establishes that Graham's number, rigorously defined by a compact
+recursive notation, lies utterly beyond ordinary numerical
+representation, while remaining unable to form a remotely proportionate
 intuitive representation of it \cite{gardner1977mathematical}. The
 proposition that this route occupied an extraordinarily tiny fraction
 of baseline possibility space can be fully understood as a fact and
@@ -336,11 +372,17 @@ the route to us than any other, and it is the day the exhibit is built
 on \cite{Nexus}.
 
 The ordinary description first, and nothing in it is rejected. An
-impactor struck a shallow, sulfur-rich sea at an angle, velocity, and
-location that loaded the atmosphere with sulfate aerosols and drove a
-mass extinction of the required magnitude \cite{Kaiho2017}. The
-dominant theropod regime, entrenched across every large-bodied niche for
-a hundred and thirty million years, ended. Small, fragile, endothermic
+impactor struck a shallow, sulfur-rich sea, and the target's chemistry
+loaded the atmosphere with sulfate aerosols that drove a mass
+extinction of the required magnitude; Kaiho and Oshima estimate that
+only a small fraction of the Earth's surface would have produced that
+outcome \cite{Kaiho2017}, and the angle and velocity enter the
+companion's fuller accounting separately \cite{Nexus}. The dominant
+dinosaurian regime ended: about a hundred and thirty-five million years
+of ecological dominance measured from the end-Triassic, out of a reign
+of roughly a hundred and sixty million years measured from the group's
+origin, the two intervals being distinguished here so that neither
+figure is misread as the other. Small, fragile, endothermic
 mammalian lineages, the ones that would carry the primate line, survived
 in enough number and in enough places to radiate into the vacated
 world. Every clause of that is natural history, and every clause has an
@@ -354,12 +396,11 @@ of the Mesozoic, without terminating the small, delicate mammalian
 channel that runs through it; do it in one event; do it with a body
 whose angle, speed, and target chemistry are jointly such that the
 aerosol loading is severe enough for the first and not so severe as to
-foreclose the second. The Nexic companion's empirical constraint puts
-the mammal-sparing configuration at no more than thirteen percent of
-impact configurations that end the regime at all, and its structured
-reading argues the figure is combinatorially smaller still once the
-joint requirements are counted rather than the marginal ones
-\cite{Nexus}. Give the problem to human intelligence with the stakes
+foreclose the second. The Nexic companion's empirical constraint, drawn from the
+location roll alone, puts the mammal-sparing configuration at an upper
+bound of thirteen percent, and its structured reading argues the joint
+figure is combinatorially smaller once the other requirements are
+counted with it rather than marginally \cite{Nexus}. Give the problem to human intelligence with the stakes
 stated and the tools of the present, and the realized event solves a
 joint constraint problem of a sophistication we could scarcely engineer
 on purpose. That is what the phrase \emph{computational divinity in the
@@ -373,13 +414,16 @@ Nothing was revealed. It was dug up.
 
 The third description is the one the paper's companions make available
 and it is carried at their grade. Let $\PP$ be the unconditioned law
-over histories and $Q_\Gc=\PP(\,\cdot\mid\Gc)$ the law conditioned on the
-target, read through the horizon family the survivorship companion
-requires. For any event $E$ of the record,
+over histories, $Q_T=\PP(\,\cdot\mid G_T)$ the law conditioned on
+survival to horizon $T$, and $Q=\lim_TQ_T$ the limiting conditioned law
+where the survivorship companion has established it; conditioning on
+indefinite survival as an event is never written, since in the critical
+regime that event is null. For any event $E$ of the record and any finite horizon $T$,
 \[
-\frac{\PP(E\mid\Gc,C)}{\PP(E\mid C)}=\frac{\PP(\Gc\mid E,C)}{\PP(\Gc\mid C)},
+\frac{\PP(E\mid G_T,C)}{\PP(E\mid C)}=\frac{\PP(G_T\mid E,C)}{\PP(G_T\mid C)},
 \]
-so that if the end-Cretaceous configuration is enormously important to
+an identity at every $T$, with the limiting conditioned law $Q$ entering
+only where the survivorship companion has established it; so that if the end-Cretaceous configuration is enormously important to
 getting from the Mesozoic to the Golden continuation, the whole joint
 configuration of the day is enormously overweighted under the
 target-conditioned law. Under the Route World hypothesis, that the law
@@ -409,7 +453,8 @@ given its own name for that reason.
 \begin{definition}[The Nexic sublime; \textbf{[I]}]\label{def:sublime}
 The Nexic sublime is the encounter with exotic structure, analytically
 decomposed into four components with a fifth added by the Golden
-companion:
+companion, written as a \emph{signature} and not as a function, since
+no map from the inputs to the response is claimed:
 \[
 \Sc=\Sc(R,\,K,\,D,\,X;\ F),
 \]
@@ -431,8 +476,8 @@ indexical continuity establishes intimacy; and Golden continuation
 establishes futurity. The first is the Graham's-number side, the
 magnitude one can know and not render. The second and third are what
 makes the object feel articulate rather than inert: not a bag of lucky
-events but a knot. The fourth is what makes it unlike every sublime that
-came before it, and it deserves the paragraph.
+events but a knot. The fourth is what distinguishes the Nexic sublime as defined here
+from the sublime of scale, and it deserves the paragraph.
 
 The traditional sublime is a relation between a small human and a vast
 external thing, a mountain, a storm, the night sky, the numbers. The
@@ -531,11 +576,14 @@ name is kept because the source-term should name the source.
 A hard line is drawn here and kept. That the inherited structure is
 profoundly significant does not formally entail any particular ought,
 and the paper does not pretend that probability delivers morality. What
-it does supply is an existentially non-arbitrary source of valuation
-from which conditional norms follow: a person who has apprehended the
-structure and values its not being squandered finds that preserving and
-completing the route is an instrumental consequence of what they
-already value, and the Golden-ethics premise that the companion papers
+it proposes is the exotic inheritance as an existentially non-arbitrary
+\emph{object} of valuation, from which conditional norms would follow:
+exotic structure establishes an externally encountered object, and
+whether encountering it gives an agent a reason to value its
+continuation is the interpretive Miracleist thesis and not a result. A
+person who has apprehended the structure and values its not being
+squandered finds that preserving and completing the route is an
+instrumental consequence of what they already value, and the Golden-ethics premise that the companion papers
 state as a naked primitive, that for an agent adopting the biosphere's
 persistence as terminally valuable increases in the target's
 probability count positively, is here given the thing it was missing,
@@ -616,9 +664,12 @@ lowers those standards is Miracleism, whatever it calls itself.
 
 \section{Conclusion}
 
-Earth, on this accounting, is not one living world among multitudes. It
-is a rare surviving concentration of life in an expanse that the same
-mathematics leaves overwhelmingly empty, and the route that brought it
+Earth, on this accounting, is not one observer-bearing world among
+multitudes; it is one of extraordinarily few, in an expanse the
+Rare-Earth inference leaves overwhelmingly empty of its like, and, if
+the further bridge from observer rarity to biotic rarity holds, a rare
+surviving concentration of life in an expanse otherwise sterile. The
+route that brought it
 from its first replicators to the reader is not a sequence of accidents
 but a knot: a coupled structure in which the end-Cretaceous day and the
 bottlenecks before and after it stand where they stand because the
@@ -647,7 +698,7 @@ without possessing it.
 \bibitem{Weinberg77} S.~Weinberg, \emph{The First Three Minutes}, Basic Books, 1977.
 \bibitem{Kaiho2017} K.~Kaiho and N.~Oshima, Site of asteroid impact changed the history of life on Earth: the low probability of mass extinction, \emph{Scientific Reports} 7 (2017), 14855.
 \bibitem{gardner1977mathematical} M.~Gardner, Mathematical games: in which joining sets of points leads into diverse (and diverting) paths, \emph{Scientific American} 237 (1977), 18--28.
-\bibitem{MetzSEP} T.~Metz, The meaning of life, in \emph{The Stanford Encyclopedia of Philosophy}, E.~N.~Zalta and U.~Nodelman (eds.), 2023 (AUTHOR TO VERIFY edition).
+\bibitem{MetzSEP} T.~Metz, The meaning of life, in \emph{The Stanford Encyclopedia of Philosophy}, E.~N.~Zalta and U.~Nodelman (eds.), first published 2007, substantive revision 2021, \url{https://plato.stanford.edu/entries/life-meaning/}.
 \bibitem{Gross18} A.~G.~Gross, \emph{The Scientific Sublime: Popular Science Unravels the Mysteries of the Universe}, Oxford University Press, 2018.
 \bibitem{Mulgan15} T.~Mulgan, \emph{Purpose in the Universe: The Moral and Metaphysical Case for Ananthropocentric Purposivism}, Oxford University Press, 2015.
 \bibitem{Scheffler13} S.~Scheffler, \emph{Death and the Afterlife},
