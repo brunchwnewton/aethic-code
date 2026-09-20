@@ -152,7 +152,13 @@ The affine quadric is preferred because its three pieces complexify *together* a
 > ### ◆ LAW 0 — THE CANONICAL SPACE
 > There exists a canonical space $E$ such that: (i) its quotient by the compact fiber action is the middle space, $\mathcal{M} = E/U(1)_H$; (ii) near a source worldline, its analytic continuation restricted to every nonzero-radius complex shell is the homogeneous bundle $\mathbb{C}^\times\to SL(2,\mathbb{C})\to Q^2_{\rm aff}$; (iii) on the physical rest-space shell this reduces to $U(1)\to SU(2)\to S^2$; (iv) the fiber carries a connection $\mathcal{A}_H$; (v) the metric $\hat g$ gives the compact fiber a length $L_H$.
 
-**An obstruction that must be stated [V/O].** Condition (iii) cannot hold over an *unpunctured* static middle space. Since $H^2(S^4) = 0$, every circle bundle over $\mathbb{R}_t\times S^4$ is trivial, and a trivial bundle restricts to $S^2\times S^1$ on each shell — **not** to $S^3$. The Hopf lift requires Chern number $1$ on the shell, which requires the secondary meridians to be removed, exactly as versions 6 through 14 did: $S^4\setminus\text{circle}\simeq S^2$ has $H^2 = \mathbb{Z}$. **So Law 0 must be stated over $\mathcal{M}$ minus the secondary meridians**, and the draft architecture inherits that surgery rather than escaping it. Global existence and uniqueness of $E$ remain open.
+**Two obstructions, and the second is the real problem.**
+
+**(a) The cohomological one [V].** Condition (iii) cannot hold over an *unpunctured* static middle space: $H^2(S^4) = 0$, so every circle bundle over $\mathbb{R}_t\times S^4$ is trivial, and a trivial bundle restricts to $S^2\times S^1$ on each shell — **not** $S^3$. The Hopf lift needs $c_1 = \pm1$ on the shell, which needs the secondary meridians removed, exactly as versions 6 through 14 did: $S^4\setminus\text{circle}\simeq S^2$ has $H^2 = \mathbb{Z}$. **Law 0 must therefore be stated over $\mathcal{M}$ minus the secondary meridians**; the architecture inherits that surgery rather than escaping it.
+
+**(b) The global one, which is now the main construction problem [O].** Part I builds its shell on the **normal space** $N_\gamma$ — a space of *vectors*, not of spacetime points. Passing from normal vectors to nearby points of the middle space uses the exponential map, and that identification is **local**: curvature, cut loci and caustics obstruct it globally. So even granting (a), it does not follow that **one** global six-dimensional $E$ restricts to the unit Hopf bundle around **every** source worldline simultaneously.
+
+> **That is the version's central open construction**, and it is a sharper problem than the ones it replaces. The local spin geometry of Part I is settled mathematics; whether it glues is not.
 
 ## II.2 The middle space is derived [D]
 
@@ -182,13 +188,13 @@ Gravity does not ask which representative in $q^{-1}(b)$ holds the matter. It as
 
 > ### ◆ LAW I — GRAVITY
 > $$G_{\mu\nu}[g_G] + \Lambda g^G_{\mu\nu} = 8\pi G\,T^{(g)}_{\mu\nu}\qquad\text{on } B_{\rm grav},\qquad \Lambda = 1/\ell^2$$
-> with the source obtained by meridian reduction of resolved matter. In the discrete twin limit, $T^{(g)}([x]) = T(x) + T(\tau x)$. The same solution fixes the canonical fiber length (§III.2). There is no dilaton, no radion, and no extra scalar with a $1/r$ coupling, so PPN $\gamma = 1$ holds trivially.
+> with the source obtained by meridian reduction of resolved matter. In the discrete twin limit, $T^{(g)}([x]) = T(x) + T(\tau x)$. The same solution fixes the canonical fiber length (§III.2). Law I introduces **no additional scalar degree of freedom** — no dilaton, no radion, nothing with a $1/r$ coupling. **But recovery of the observed PPN parameters does not follow from that alone here**, because photons and detectors live on $B_{\rm rep}$ while Law I solves on $B_{\rm grav}$: it additionally requires the induced metric on $B_{\rm rep}$ to reproduce general relativity's optical metric, and the map $g_G\to g_{\rm rep}$ has not been derived **[O]**.
 
 > ### ◆ LAW II — THE MERIDIANS
 > The middle space carries a one-dimensional foliation $U_{\rm mer}$. The representational base resolves its representatives; gravity quotients it. In the static spherical limit it must reduce to the great circles of $S^4$ through both poles, with quotient $\mathbb{RP}^3$. The general equation selecting the foliation is **open** **[O]**.
 
 > ### ◆ LAW III — THE CONNECTION
-> The canonical fiber carries a connection $\mathcal{A}_H$ with curvature $F_H = d\mathcal{A}_H$. Its **topological class is fixed by the spin geometry**: $c_1 = \pm1$ on every shell, the Hopf class, independent of the source's mass or any parameter. The reference connection is the canonical Hopf connection. **Deformations away from it are two geometrical degrees of freedom per shell (§III.3), and nothing in this version sources them.** No matter-coupling law is asserted **[O]**.
+> The canonical fiber carries a connection $\mathcal{A}_H$ with curvature $F_H = d\mathcal{A}_H$. Its **topological class is fixed by the spin geometry**: $c_1 = \pm1$ on every shell, the Hopf class, independent of the source's mass or any parameter. The reference connection is the canonical Hopf connection, and deformations away from it — which leave $c_1$ untouched, since $\int_{S^2}d\alpha = 0$ — are two geometrical degrees of freedom per shell (§III.3). **Nothing in this version sources them, and no matter-coupling law is asserted** **[O]**.
 
 > ### ◆ LAW IV — ELECTROMAGNETISM
 > Maxwell on $B_{\rm rep}$, with $\epsilon = \mu_{\rm EM} = 1$. Light resolves meridian representatives and does **not** perform the gravity quotient. The photon is the zero mode on the canonical fiber and couples to none of it.
@@ -237,7 +243,9 @@ So the attractive $3+1+2$ partition survives — **on the physical real slice**.
 
 **Three of the six are assigned; two are not [D].** Gravity determines the shell geometry and Law I locks the fiber length to it — that is the $3+1$. The remaining $2$ are **left open**, deliberately.
 
-> Earlier versions assigned those two to the odd matter sector, $T_-\to2$. **That assignment is retired** (§X.1). It was made because there happened to be two of them, which is not a reason; and in this version it is worse than unmotivated, since sourcing the connection by matter would have to move the Chern class, which the spin geometry has already fixed at $\pm1$.
+> Earlier versions assigned those two to the odd matter sector, $T_-\to2$. **That assignment is retired** (§X.1) — it was made because there happened to be two of them, which is not a reason.
+>
+> **A stronger claim would be wrong, and is not made.** A connection may vary freely while its class stays fixed: under $F\mapsto F+d\alpha$ with $\alpha$ a global 1-form, $\int_{S^2}d\alpha = 0$ by Stokes, so $c_1$ is untouched **[T]**. Connections form an affine space over the 1-forms, all sharing one class. **So fixed $c_1$ does not forbid connection dynamics.** What it forbids is specifically the old *integrated flux law* $c_1\propto M_-/m_{\rm unit}$, which made the class itself mass-dependent. The position here is simply that **the connection is unsourced and its deformations unassigned** — no impossibility claim is needed or made.
 
 The two components are ordinary geometrical freedom in the connection — deformations away from the canonical Hopf connection, which leave $c_1$ untouched. They may remain unassigned until the theory itself says what they do.
 
@@ -245,7 +253,10 @@ The two components are ordinary geometrical freedom in the connection — deform
 
 # PART IV — IDENTITIES AND THEOREMS
 
-*These are the durable results of versions 6 through 14. They are stated here in full because they are the theory's content; each must be re-derived in the new architecture rather than assumed, and Part VIII lists that as a regression test.*
+> ### ◆ A NOTE ON THE TAGS IN THIS PART
+> Every result below was verified or derived **in the architecture of versions 6 through 14**. They are stated in full because they are the theory's content, but within version 15 they carry the tag **[C]** — *conditional on the static regression of §VIII.1*. Where a bracket below reads $[V]$ or $[D]$, it records the status of the original computation, not a claim that the result has been re-established here.
+>
+> **What the condition now amounts to is much less than it was.** §VIII.1 discharges the central link — Law II's static limit really does give great-circle meridians with quotient $\mathbb{RP}^3$, and that is now *derived* rather than required. What remains conditional is the step from the derived static geometry to each specific number.
 
 ## IV.1 The twin theorem [V]
 
@@ -401,9 +412,11 @@ $$\text{spinorial shell geometry}\ \not\Rightarrow\ \text{fermionic anticommutat
 
 Newman–Penrose spinors are **classical, commuting** geometric spinors. Grassmann-odd quantum fields are a further structure, and the implication is blocked by type, not by difficulty: a Grassmann number satisfies $\theta^2 = 0$, which is what makes $\psi^\dagger(x)^2 = 0$ and hence the exclusion principle, and nothing in a spin bundle produces it. **Any such derivation remains open.**
 
-## VII.3 Statistics and exclusion, unchanged [T]
+## VII.3 Statistics and exclusion are inputs, unchanged [T]
 
-Finkelstein–Rubinstein: in any 3-manifold, exchanging two identical particles is *locally* homotopic to rotating one by $2\pi$ in place, so the exchange sign equals the frame-$2\pi$ sign $(-1)^{2s}$. The argument is local and does not see the twin loop. **Anticommutation and the Pauli exclusion principle hold exactly as in ordinary quantum field theory.**
+Spin–statistics, anticommutation and the Pauli exclusion principle enter this theory **exactly as they enter ordinary quantum field theory**, and nothing in v15 modifies, derives or threatens them.
+
+*A note on what is not claimed.* Earlier drafts invoked the Finkelstein–Rubinstein argument — that exchanging two identical particles is locally homotopic to rotating one by $2\pi$ — to say statistics proceed as usual. **That invocation is withdrawn** (§X.1). FR is a statement about loops in the configuration space of extended topological solitons, and the exchange/rotation identification depends on that configuration space's topology; it is not a theorem that a spacetime spin bundle by itself delivers fermionic statistics. Unless and until actual soliton configuration spaces are constructed here, the safe and sufficient statement is the one above, resting on §VII.2.
 
 ## VII.4 Twin parity [T/D]
 
@@ -413,15 +426,33 @@ The frame bundle of $\mathbb{RP}^3 = SO(3)$ is $SO(3)\times SO(3)$, with $\pi_1 
 
 # PART VIII — STATIC REGRESSION AND TESTS
 
-## VIII.1 The old geometry must be recovered, not assumed [S/O]
+## VIII.1 The static limit, derived [D/V]
 
-The intended static specialization is
+*Earlier drafts listed this as a requirement on Law II and a regression test. It is neither: in the static limit it follows, and the derivation is short.*
+
+The intended specialization is
 
 $$\mathcal{M}_{\rm static}\sim\mathbb{R}_t\times S^4,\qquad B_{\rm rep}^{\rm static}\sim\mathbb{R}_t\times S^3,\qquad B_{\rm grav}^{\rm static}\sim\mathbb{R}_t\times\mathbb{RP}^3$$
 
-with $S^3\hookrightarrow S^4\xrightarrow{/\text{meridians}}\mathbb{RP}^3$ spatially, and over every physical shell the compact canonical lift $U(1)\to S^3\to S^2$. Dimensions check: $1+4 = 5$, $1+3 = 4$, $1+3 = 4$ **[V]**.
+with $S^3\hookrightarrow S^4\xrightarrow{/\text{meridians}}\mathbb{RP}^3$ spatially. Dimensions: $1+4 = 5$, $1+3 = 4$, $1+3 = 4$ **[V]**.
 
-**Order of recovery, as a regression test and not an assumption [O]:** derive the static real form of the middle space; recover the meridian quotient; derive the quotient metric and its Green's function; recover the geodesic and orbit equations; **only then** reassert the results of Part IV.
+**Step 1 — the foliation must be singular, minimally at two points [T].** $\chi(S^4) = 2\neq0$, so $S^4$ admits no nowhere-zero vector field. And $S^4$ is **simply connected**, so any line field lifts to a vector field — hence no nowhere-zero *line* field either. A one-dimensional foliation therefore has singularities of total index $2$, and the minimum is two points of index $+1$: a source and a sink.
+
+**Step 2 — closed leaves force every leaf through both singular points [D].** A non-closed leaf runs from source to sink and stops. To close, it must return, and the only route back is through the singular points again. So each leaf is a loop meeting both. *And v15 requires closed leaves independently*: closure is what makes the intersection with $B_{\rm rep}$ even, hence $\tau$ an involution, hence the seed (§II.3).
+
+**Step 3 — maximal symmetry places the singular points antipodally and makes the leaves geodesics [D].** The static limit *is* the maximally symmetric case; that is what "static and homogeneous" means. The isometries of a round $S^4$ fixing two points form $SO(4)$ only when the points are antipodal, and an $SO(4)$-invariant family of curves joining them, with no preferred winding, consists of geodesics.
+
+**Step 4 — geodesics through a point of a round sphere all reconverge at its antipode [T].** So the geodesics through the source are exactly the great circles, every one passes through the sink, and the family fills $S^4$.
+
+**Step 5 — the leaf space [V].** A great circle through the poles is determined by its equatorial crossing, and it crosses at **both** $\hat n$ and $-\hat n$. Leaves therefore correspond to $S^3/\pm$, of dimension $4-1 = 3$:
+
+$$\boxed{\ \text{leaf space} = \mathbb{RP}^3\ }$$
+
+> **Law II's static limit is derived, not required.** Great-circle meridians with quotient $\mathbb{RP}^3$ follow from three things: the arena is $S^4$; the leaves are closed; the static limit is maximally symmetric. Of these the second is required by the seed anyway and the third is what "static" *means* — so only the first is a posit, and it was already one.
+
+**What this discharges, and what it does not.** The central link of the regression is closed: the results of Part IV are no longer conditional on an unproved reduction of Law II. **The general dynamical foliation remains open** — away from maximal symmetry Step 3 fails and nothing selects the leaves — but that is now a statement about the dynamical case alone, and the static sector where Part IV lives is secure.
+
+**The remaining regression, in order [O]:** derive the quotient metric and its Green's function on the recovered $\mathbb{RP}^3$; recover the geodesic and orbit equations; **then** reassert the numbers of §IV.8.
 
 ## VIII.2 The golf ball [D]
 
@@ -460,7 +491,7 @@ Rescaling $r_s$ with $GM$ fixed is **inconsistent**, since $r_s = 2GM/c^2$ is on
 7. Derive the meridian foliation from canonical data.
 8. Recover $S^4\to\mathbb{RP}^3$ and the barren twin.
 9. Re-derive the $v^2$ family in the recovered static sector.
-10. Compute what stress-energy an observer infers by applying Einstein's equation on $B_{\rm rep}$ instead of $B_{\rm grav}$ — **the dark-sector prediction**.
+10. Compute what stress-energy an observer infers by applying Einstein's equation on $B_{\rm rep}$ instead of $B_{\rm grav}$ — **the dark-sector target**, and the calculation that would make the architecture phenomenological.
 11. Verify the twin stays optically barren.
 12. Keep the spin-statistics firewall: do not identify the geometric spin lift with Grassmann parity.
 
@@ -498,7 +529,7 @@ Variation with respect to $g_G$ should produce the meridian-reduced source; cons
 | the charge $P = g_2M/m_{\rm unit}$, its $P^2/r^2$ term, and $M^2\geq Q^2+P^2$ | no such charge exists (§IV.6) |
 | the Mercury bound $g_2/m_{\rm unit}<0.024$ | it bounded a parameter that is gone |
 | the Machian cross term $2F_\oplus\!\cdot\!F_g$ | built from the flux energy; the Machian proposal now has **no** realizable form (§VIII.3) |
-| $dF_H = 2\pi\star J_-$, even as a candidate | sourcing the connection by matter would have to move a Chern class that spin geometry has fixed |
+| the *integrated flux law* $c_1 = M_-/m_{\rm unit}$ | it makes the Chern class mass-dependent, and spin geometry has fixed it at $\pm1$. *(Note the narrow scope: a connection may still vary with $c_1$ fixed — $\int d\alpha = 0$. What is retired is the flux law, not connection dynamics as such.)* |
 | the assignment $T_-\to$ the two connection components | made because there happened to be two of them, which is not a reason (§III.3) |
 | $v^2_{\rm eq} = 4GM/\pi\ell$ | 15% low; the converged value is $1.497\,GM/\ell$ (§IV.8) |
 | $N\Omega = 1$ as an **exact** condition | it gives Majumdar–Papapetrou and hence extremal charge for every body (§III.2) |
@@ -506,13 +537,13 @@ Variation with respect to $g_G$ should produce the meridian-reduced source; cons
 
 ## X.2 Open
 
-1. **Global existence of $E$**, and the meridian-removal obstruction of §II.1 — Law 0 cannot hold over an unpunctured $S^4$, since $H^2(S^4) = 0$ makes every circle bundle trivial and every shell restriction $S^2\times S^1$ rather than $S^3$ **[V]**. **The first thing this version owes**, and now the *only* place topology enters the fiber's existence.
+1. **The global $E$** (§II.1b). Part I's shell lives on the *normal space*, a space of vectors; passing to nearby points of the middle space uses the exponential map, which is local, with curvature, cut loci and caustics obstructing it globally. Whether **one** six-dimensional $E$ restricts to the unit Hopf bundle around **every** worldline at once is unproved. **The version's central construction problem** — and a sharper one than what it replaces, since the local spin geometry is settled and only the gluing is not. (The cohomological obstruction of §II.1a is separate and is handled by the meridian removal.)
 2. **Deriving the fiber-length locking** from an action (§III.2). Until then $g_G\Leftrightarrow L_H$ is an encoding, not a causal claim, and the explanatory arrow cannot be reversed.
 3. **The two open connection components** (§III.3). Deliberately unassigned. If the theory later says what they do, that will be a result; asserting it now would not be.
-4. **The meridian foliation's equation** (Law II), and in particular **why its leaves are closed** — which is what forces the bisection and hence the seed (§II.3).
+4. **The meridian foliation in the general dynamical case** (Law II). The static limit is now derived (§VIII.1); away from maximal symmetry nothing selects the leaves. And **why the leaves are closed** remains the sharpest sub-question, since closure is what forces the bisection and hence the seed (§II.3).
 5. **Time:** an input, belonging to the Lorentzian real structure; its uniqueness is not derived, and three routes to deriving it have failed.
-6. **The static regression** (§VIII.1), in the stated order. Everything in Part IV is downstream of it.
-7. **The dark-sector calculation** (§VIII.4, item 10) — what stress-energy an observer infers by applying Einstein's equation on $B_{\rm rep}$ instead of $B_{\rm grav}$. **The theory's sharpest available prediction, and now its only quantitative one.**
+6. **The remainder of the static regression** (§VIII.1): the quotient metric, its Green's function, and the orbit equations. The *geometric* link — great circles with quotient $\mathbb{RP}^3$ — is now discharged.
+7. **The dark-sector calculation** (§VIII.4, item 10) — what stress-energy an observer infers by applying Einstein's equation on $B_{\rm rep}$ instead of $B_{\rm grav}$. **The theory's sharpest quantitative target.** It is not a prediction until it is computed, and computing it is what would turn this architecture into phenomenology.
 8. **The meridian scale $\kappa$** (§IV.5).
 9. **Twin parity assignments** (§VII.4).
 10. **Emergent $G$** (§VIII.3): requires a $G$-free definition of mass.
