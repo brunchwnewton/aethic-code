@@ -1,4 +1,4 @@
-# Projective Gravity — Version 15.6
+# Projective Gravity — Version 15.7
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases
 
@@ -51,7 +51,7 @@ Conflating them was the error that made the seed look like a postulate.
 | **spin phase** $U(1)_H$ | the compact fiber of the shell lift; the physical real form of the complex stabilizer $\mathbb{C}^\times$ |
 | **meridian** | a leaf of the one-dimensional **meridian structure** $U_{\rm mer}$. *Standard usage in this document:* $U_{\rm mer}$ is a **meridian structure**; its **regular part** is a foliation; its **static singular case** is a **pencil**, since distinct meridians meet at the poles. In the static limit a leaf is a great circle of $S^4$ through both poles |
 | **twin** | given $x\in B_{\rm rep}$, the other point $\tau x$ of the same meridian, with $\tau^2 = 1$ and $q(x) = q(\tau x)$ |
-| **barren twin** | a twin carrying no matter, at which gravitational curvature is nevertheless nonzero. **The seed.** In the static pencil, topologically forced for matter of a single Hopf class (§V.4) |
+| **barren twin** | a twin carrying no matter, at which gravitational curvature is nevertheless nonzero. **The seed.** In the static pencil its shells carry the Hopf sign opposite to its partner's (§V.4); whether that *forces* barrenness is open |
 | **$T_\pm$** | $T_\pm(x) = T(x)\pm T(\tau x)$: the even and odd parts of matter under the twin map |
 | **jellium** | the uniform background density of the gravity base, supplied by the primary |
 | **primary** | the dominant mass at a degeneracy of the meridian structure |
@@ -82,6 +82,12 @@ Everything else — the middle space, its meridian structure, both bases, the se
 $$E\ \Longrightarrow\ (\mathcal{M},\ \mathcal{U}_{\rm mer})\ \Longrightarrow\ B_{\rm grav}$$
 
 **The theory is top-down**, functorially and not just rhetorically. *(A previous revision listed $\mathcal{U}_{\rm mer}$ itself among the primitives while calling it "the meridian structure of the quotient" — one layer too low, since the quotient is not primitive.)*
+
+**The real structure $\rho_E$, defined [S/T].** $E$ is real-analytic, so it sits inside a complexification $E_\mathbb{C}$, carrying an **antiholomorphic involution**
+
+$$\rho_E:E_\mathbb{C}\to E_\mathbb{C},\qquad\rho_E^2 = 1,\qquad E = \operatorname{Fix}(\rho_E)$$
+
+For reality to descend through the tower, $\rho_E$ must satisfy two compatibilities. **With the fiber:** writing $\mathbb{C}^\times$ for the complexified fiber group, $\rho_E(\lambda\cdot x) = \bar\lambda^{-1}\cdot\rho_E(x)$. The map $\lambda\mapsto\bar\lambda^{-1}$ fixes exactly $|\lambda| = 1$ **[V]**, so the compact $U(1)_H$ — and nothing larger — preserves $E$: the physical real form of §I.4, stated as a condition rather than observed. **With the meridian datum:** $d\rho_E$ preserves the complexification of $\widehat{\mathcal{U} }_{\rm mer}$, so its real part is what descends. *Whether $E_\mathbb{C}$ is primitive — the complex-first reading — or merely the complexification of a real-analytic $E$ is a choice this version need not make locally, where the two agree. It matters globally: a real-analytic manifold has a complexification only as a germ, so the complex-first reading makes the global-$E$ problem (§X.2, item 1) a problem about constructing a global $E_\mathbb{C}$* **[O]**.
 
 *What the upstairs datum carries [T].* Lifts of a given line field downstairs are not unique: two lifts differ by a $U(1)_H$-invariant vertical component, which projects to zero. The lift horizontal with respect to $\mathcal{A}_H$ is canonical, and choosing it adds nothing beyond the connection already present.
 
@@ -157,7 +163,7 @@ The first column of $U(\psi)h_\theta$ is $e^{i\theta}\psi$ **[V]**.
 
 > **Given the timelike direction $u$ that defines the physical rest-space shell and its $SU(2)$ stabilizer, the shell's $U(1)$ stabilizer acts on a normalized spinor as ordinary spinor phase.** Not the same group twice — *the same action*.
 
-**Relative to what [T/V].** The qualifier is not decorative. $SL(2,\mathbb{C})$ does not preserve $|z_1|^2+|z_2|^2$: a boost $\operatorname{diag}(e^{\eta/2},e^{-\eta/2})$ takes a unit spinor to norm $0.506$ at $\eta = 0.8$, while $SU(2)$ keeps it at $1$ **[V]**. The positive-definite spinor norm is $u_{AA'}\psi^A\bar\psi^{A'}$ and needs a timelike $u$; $SU(2)$ is exactly its stabilizer. So "normalized," "$S^3\subset\mathbb{C}^2$" and "phase" are all defined relative to $u$ — **the same $u$ whose stabilizer is the diagonal $SL(2,\mathbb{C})$ of §X.3.** Stated this way §I.6 and §X.3 are one fact seen twice, rather than an observer-independent claim sitting beside an observer-dependent one.
+**Relative to what [T/V].** The qualifier is not decorative. $SL(2,\mathbb{C})$ does not preserve $|z_1|^2+|z_2|^2$: the boost $\operatorname{diag}(e^{\eta/2},e^{-\eta/2})$ takes the unit spinor $\psi = (0,1)$ to norm $e^{-\eta/2}$ — $0.670$ at $\eta = 0.8$ — while $SU(2)$ keeps every unit spinor at $1$ **[V]**. (For unit $\psi$ the boosted norm ranges over $[e^{-\eta/2},e^{\eta/2}]$.) The positive-definite spinor norm is $u_{AA'}\psi^A\bar\psi^{A'}$ and needs a timelike $u$; $SU(2)$ is exactly its stabilizer. So "normalized," "$S^3\subset\mathbb{C}^2$" and "phase" are all defined relative to $u$ — **the same $u$ whose stabilizer is the diagonal $SL(2,\mathbb{C})$ of §X.3.** Stated this way §I.6 and §X.3 are one fact seen twice, rather than an observer-independent claim sitting beside an observer-dependent one.
 
 **And the Hopf map is the quotient by exactly that action [V].** With $n(\psi) = \big(2\,\mathrm{Re}(z_1\bar z_2),\,2\,\mathrm{Im}(z_1\bar z_2),\,|z_1|^2-|z_2|^2\big)$, one has $n(e^{i\theta}\psi) = n(\psi)$ identically — verified. So the shell $S^2$ is the space of spinors modulo phase, and the fiber is the phase.
 
@@ -194,7 +200,7 @@ which permits a nontrivial circle bundle **[T]**. More is true, though not neede
 
 $$H^2\big(S^4\setminus\Gamma;\mathbb{Z}\big)\cong\tilde H_1(\Gamma;\mathbb{Z})\cong\mathbb{Z}^{2N-1}$$
 
-— one integer per arc, less one relation. That relation turns out to bear directly on the seed (§V.4). **Law 0 must therefore be stated over $\mathcal{M}$ minus the secondary meridians**; the architecture inherits that surgery rather than escaping it.
+— one integer per arc, less one relation. That relation pairs the Hopf signs of each meridian's two crossings (§V.4). **Law 0 must therefore be stated over $\mathcal{M}$ minus the secondary meridians**; the architecture inherits that surgery rather than escaping it.
 
 **(b) The global one, which is now the main construction problem [O].** Part I builds its shell on the **normal space** $N_\gamma$ — a space of *vectors*, not of spacetime points. Passing from normal vectors to nearby points of the middle space uses the exponential map, and that identification is **local**: curvature, cut loci and caustics obstruct it globally. So even granting (a), it does not follow that **one** global six-dimensional $E$ restricts to the unit Hopf bundle around **every** source worldline simultaneously.
 
@@ -237,7 +243,7 @@ Gravity does not ask which representative in $q^{-1}(b)$ holds the matter. It as
 
 > ### ◆ STRUCTURE III — THE CANONICAL CONNECTION
 > *Numbered III for continuity with earlier versions, but **not a law**: there is no field equation here, and calling it one would misdescribe the document's own architecture.*
-> The canonical fiber carries a connection $\mathcal{A}_H$ with curvature $F_H = d\mathcal{A}_H$. Its **topological class is fixed by the spin geometry**: each oriented shell **about a source** carries the **unit Hopf class $c_1 = 1$** — or $c_1 = -1$ under the opposite *global* orientation convention, which is one convention for the whole construction and not a choice made shell by shell. Shells about a **barren twin** then carry the *opposite* class — **forced by the topology, not chosen** (§V.4). It is independent of the source's mass and of any parameter. The reference connection is the canonical Hopf connection, and deformations away from it leave $c_1$ untouched, since $\int_{S^2}d\alpha = 0$. In an adapted metric they appear as **two local connection cross-components**, whose gauge-invariant content is fixed only after quotienting the $U(1)$ gauge freedom $A\mapsto A+d\lambda$ (§III.3). **Nothing in this version sources them, and no matter-coupling law is asserted** **[O]**.
+> The canonical fiber carries a connection $\mathcal{A}_H$ with curvature $F_H = d\mathcal{A}_H$. Its **topological type is fixed by the spin geometry**: every relevant linking shell carries a unit class, $|c_1| = 1$, with total space $S^3$. The **sign** is induced globally — by the chosen orientation, the embedding, and the restriction map — and is neither chosen shell by shell nor set by whether matter is present; in particular the two crossings of one meridian carry *opposite* induced signs (§V.4). It is independent of the source's mass and of any parameter. The reference connection is the canonical Hopf connection, and deformations away from it leave $c_1$ untouched, since $\int_{S^2}d\alpha = 0$. In an adapted metric they appear as **two local connection cross-components**, whose gauge-invariant content is fixed only after quotienting the $U(1)$ gauge freedom $A\mapsto A+d\lambda$ (§III.3). **Nothing in this version sources them, and no matter-coupling law is asserted** **[O]**.
 
 > ### ◆ LAW IV — ELECTROMAGNETISM
 > Maxwell on $B_{\rm rep}$, with $\epsilon = \mu_{\rm EM} = 1$. Light resolves meridian representatives and does **not** perform the gravity quotient. The field lives downstairs, so its pullback to $E$ is **$U(1)_H$-invariant** — it does not couple to the fiber. (Earlier drafts called it a "zero mode," which implies a Kaluza–Klein expansion this version does not perform; see §X.1.)
@@ -382,7 +388,7 @@ $$v^2_{\rm eq} = 2.352\,f = 1.497\,\frac{GM}{\ell}$$
 
 ## IV.9 The lumped-mass limit [V/D]
 
-Closure fixes the total at $M_{\rm tot} = \pi\ell/2$, so a secondary of mass $M$ holds a fraction $f = M/M_{\rm tot}$ of it. At $f = 1$ the lump's Schwarzschild radius is $\pi\ell$ — **the antipodal distance, the diameter of the universe.** Nothing is outside it; there are no orbits because there is no exterior. Law II is untroubled: the foliation is intact at $f = 1$; what fails is the base geometry.
+Closure fixes the total at $M_{\rm tot} = \pi\ell/2$, so a secondary of mass $M$ holds a fraction $f = M/M_{\rm tot}$ of it. At $f = 1$ the lump's Schwarzschild radius is $\pi\ell$ — **the antipodal distance, the diameter of the universe.** Nothing is outside it; there are no orbits because there is no exterior. Law II is untroubled: the meridian structure is intact at $f = 1$; what fails is the base geometry.
 
 ## IV.10 The Keplerian limit, quantified [V]
 
@@ -432,9 +438,9 @@ It is **empty**: no matter to emit, absorb or scatter, and electromagnetically b
 
 ---
 
-## V.4 Kirchhoff at the poles: the barren twin, topologically forced [T/V/D]
+## V.4 Kirchhoff at the poles: topological twin-sign pairing [T/V]
 
-*§V.2 took the barren twin as a configuration — matter at $x$, none at $\tau x$. In the static pencil it is more than that: the topology forbids the alternative.*
+*The two resolved crossings of a meridian turn out to carry globally constrained, oppositely oriented Hopf restrictions. This section establishes that, and states precisely what it does **not** establish about where matter may sit.*
 
 **The conservation law [T].** Alexander duality identifies a circle bundle over $S^4\setminus\Gamma$ with a 1-cycle $z = \sum_e a_e\,e$ on the graph $\Gamma$ of §II.1, where $a_e$ is the bundle's class on the small linking sphere of arc $e$. Every arc runs from pole to pole, so
 
@@ -448,17 +454,25 @@ $$\sum_{\text{all }2N\text{ crossing points }x} c_{\rm out}(x) = 0$$
 
 **The one-meridian case, checked independently [V].** Pull the Hopf bundle back along the retraction $S^4\setminus C\to S^2$, $x\mapsto(x_2,x_3,x_4)/|\cdot|$, with $C$ the meridian. On the outward shell about the source its degree is $+1$; about the twin, **$-1$**. Two independent computations, one answer: $c_{\rm out}(\hat n)+c_{\rm out}(-\hat n) = 0$.
 
-**The consequence [D].** Every source's rest space inherits its orientation from the same oriented, time-oriented $B_{\rm rep}$, and Part I's construction is identical at each; so every *source* shell carries the same outward class, $+1$. Then:
+**What is established: a sign pairing, independent of occupancy [V].**
 
-| setting | what the topology forces |
-|:--|:--|
-| one secondary | its twin carries $-1$, so **a source cannot sit at its own twin point**: $+1+1\neq0$. The twin is barren — exactly |
-| $N$ secondaries | sources contribute $+S$, so barren crossings carry $-S$ in total. **Not every crossing can be occupied** |
-| $N$ secondaries, with every shell of the pencil lifting to $S^3$ | **each meridian carries exactly one source ($+1$) and one barren twin ($-1$).** Verified by enumeration for $N\leq4$: the $2^N$ allowed configurations are precisely the choices of which crossing holds the source |
+> **The two crossings of a meridian carry opposite induced Hopf signs.** For one meridian, $c_{\rm out}(\hat n) = -c_{\rm out}(-\hat n)$; for $N$ meridians, the outward classes at all $2N$ crossings sum to zero.
 
-> **In the static pencil, the seed configuration is forced.** §V.2's premise — matter at $x$, none at $\tau x$ — is what the topology of $\mathcal{M}$ minus the meridians permits, given one Hopf class for matter. The barren twin stops being a choice of initial data and becomes a constraint.
+This is a property of the **global bundle, the orientation, and the restriction map** — it holds whether or not matter sits at either crossing. Accordingly Structure III is stated with $|c_1| = 1$ on every relevant linking shell and the sign *induced*, not assigned by occupancy.
 
-**What this does not establish [O].** The result holds in the static great-circle pencil, itself an assumption (§VIII.1); for point-like sources; and, in its strong form, with unit classes on barren shells as well as source shells, which Law 0 as stated does not demand. **And it has one loophole, stated plainly:** everything assumes matter carries a single Hopf class. Matter of the *opposite* class could occupy a twin, since $+1-1 = 0$. So the precise statement is: *a source's twin is barren, or hosts matter of the opposite Hopf class.* Part I supplies only one class, and so gives "barren." Whether a second class exists — and whether it would be new matter or something already known — is open.
+**What is not established: that matter must avoid a sign [O].** An earlier draft of this section concluded that the barren twin is topologically forced. **That inference is withdrawn** (§X.1). It ran: Part I's construction is identical at every source, so every *source* shell carries $+1$; the twin carries $-1$; so the twin cannot host a source. The middle step silently read Law 0 as fixing the **sign** at source shells relative to their outward orientation. Law 0 fixes the bundle *type* — $|c_1| = 1$, total space $S^3$ — and nothing more. Demanding the sign at source shells specifically is an **extra axiom**, and a telling one: it would make the sign at a crossing depend on whether matter sits there, so that topology would depend on matter content — precisely what the centrepiece disavows.
+
+**An explicit counterexample [V].** Take the retraction bundle above with sources at *both* crossings of one meridian. Its outward degrees are $+1$ and $-1$; each source shell has $|c_1| = 1$, so Law 0 is satisfied at both. **A doubly occupied meridian is allowed.** What topology fixes is the pairing of signs, not the occupancy.
+
+**What would turn pairing into barrenness.** An additional theorem or axiom of the form
+
+$$\text{ordinary matter worldlines are compatible with only one induced Hopf sign}$$
+
+— a **matter-selection rule**. It is not in the theory: Structure III is explicitly unsourced, with no matter coupling, so nothing currently ties matter to the sign. *Were* such a rule derived, the conclusion would follow, and it would be strong: with unit classes on every shell of the pencil, the allowed configurations would then be exactly one source and one barren twin per meridian — verified by enumeration for $N\leq4$, where the $2^N$ survivors are precisely the choices of which crossing holds the source **[V, conditional]**.
+
+**Nor is $-1$ a matter class [O].** It would be premature to say a twin could host "matter of the opposite Hopf class": nothing yet establishes that matter fields carry a Hopf-sign label at all. The prior question is whether the sign is **a property of the bundle's restriction and orientation alone, or a representation carried by a matter field**. Only the second could support a selection rule — and deriving one, rather than declaring it, would make barrenness genuinely forced, a considerably stronger result than asserting it.
+
+**Scope.** Everything here assumes the static great-circle pencil, itself an assumption (§VIII.1), and point-like sources.
 
 # PART VI — NEWMAN–JANIS AND KERR
 
@@ -570,11 +584,11 @@ The first is exact. The second is **not available**, and the attempt to supply i
 
 *The question was: does a small body get a Hopf structure of its own, or does a large nearby body dominate?*
 
-**In this version the question has a clean answer, and a different one from before.** The fiber is supplied by spin geometry, and every shell about every worldline carries the same class:
+**In this version the question has a clean answer, and a different one from before.** The fiber is supplied by spin geometry, and every shell about every worldline carries a unit class:
 
-$$c_1 = 1\quad\text{(one global orientation convention; }-1\text{ under the opposite)}$$
+$$|c_1| = 1$$
 
-independent of the body's mass, its neighbours, or any parameter — and **not** a sign chosen afresh on each shell. **A golf ball's shells carry exactly what Earth's shells carry.** There is no competition, no crossover radius, no dependence on what else is nearby — because the structure is a fact about the rotation group acting on a shell, not a tally of matter.
+independent of the body's mass, its neighbours, or any parameter, with the sign induced globally by orientation and restriction rather than chosen per shell (Structure III). **A golf ball's shells carry the same unit class as Earth's.** There is no competition, no crossover radius, no dependence on what else is nearby — because the structure is a fact about the rotation group acting on a shell, not a tally of matter.
 
 > Earlier versions answered this with a mass-proportional winding number, $M/m_{\rm unit}$ — $2.7\times10^{25}$ for the ball and $3.6\times10^{51}$ for Earth — together with a "quantization fork" over the value of $m_{\rm unit}$ and a crossover at $0.56\,\mu$m where Earth's flux overtook the ball's. **All of that is retired** (§X.1). It presupposed a posited circle whose class matter was free to set; here the circle is derived and its class is fixed.
 
@@ -613,7 +627,7 @@ Rescaling $r_s$ with $GM$ fixed is **inconsistent**, since $r_s = 2GM/c^2$ is on
 
 A successful action should make both information reductions automatic:
 
-$$S = S_{\rm EH}[B_{\rm grav},g_G] + S_{\rm matter}[B_{\rm rep},\psi,A] + S_{\rm can}[E,\hat g,\mathcal{A}_H,U_{\rm mer}]$$
+$$S = S_{\rm EH}[B_{\rm grav},g_G] + S_{\rm matter}[B_{\rm rep},\psi,A] + S_{\rm can}\big[E,\hat g,\mathcal{A}_H,\widehat{\mathcal{U} }_{\rm mer},\rho_E\big]$$
 
 Variation with respect to $g_G$ should produce the meridian-reduced source; constraints on the canonical metric should produce the fiber-length locking; and if the canonical connection's two open components are to acquire a role, it must come from there rather than from an assignment made by hand. **Until such an action exists, the split is architectural rather than final.**
 
@@ -660,7 +674,10 @@ Variation with respect to $g_G$ should produce the meridian-reduced source; cons
 | "smooth 1-knots in $S^4$ exist" (a previous revision) | **false.** Circles in $S^4$ are unknotted (homotopic embeddings are isotopic once $m\geq2n+2$). The homotopy statement $S^4\setminus S^1\simeq S^2$ that this tried to retire was *correct*; Alexander duality is simply all the argument needs (§II.1) |
 | Taub–NUT "round at an isolated radius" | a unit error: it compared an unnormalized fiber coordinate with angles, and "$r = 1-2m$" adds a number to a length. Normalized, $c/b = 2m/(r+2m)$ — squashed for every $r>0$, round only at the nut (§X.3) |
 | listing $\mathcal{U}_{\rm mer}$ itself as primitive | one layer too low: the primitive is the projectable $\widehat{\mathcal{U} }_{\rm mer}\subset TE$, and $\mathcal{U}_{\rm mer} = d\pi_H(\widehat{\mathcal{U} }_{\rm mer})$ descends (§0.4) |
-| "$c_1 = \pm1$ on every shell" | reads as a per-shell binary choice. One *global* orientation convention fixes the unit Hopf class everywhere (Structure III) |
+| "$c_1 = \pm1$ on every shell", and then "one global convention gives $c_1 = 1$ everywhere" | the first reads as a per-shell binary choice; the second overcorrects. $|c_1| = 1$ on every relevant linking shell, with the **sign induced globally** by orientation and restriction — so one meridian's two crossings carry opposite signs (Structure III, §V.4) |
+| **"the barren twin is topologically forced"** (§V.4, previous revision) | the topology fixes the **pairing** of Hopf signs, not the occupancy. The inference read Law 0 as fixing the sign at source shells — an unstated matter-selection rule, and one that would make topology depend on matter content. A doubly occupied meridian satisfies Law 0 ($+1$ and $-1$, both unit) **[V]** |
+| calling $-1$ a class of **matter** | nothing establishes that matter fields carry a Hopf-sign label; whether the sign is a bundle property or a representation is the prior question (§V.4) |
+| "norm $0.506$" in the boost example | it was a *squared* norm for an unspecified spinor. For $\psi = (0,1)$ the norm is $e^{-0.4} = 0.670$ (§I.6) |
 | $v^2_{\rm eq} = 4GM/\pi\ell$ | 15% low; the converged value is $1.497\,GM/\ell$ (§IV.8) |
 | $N\Omega = 1$ as an **exact** condition | it gives Majumdar–Papapetrou and hence extremal charge for every body (§III.2) |
 | time as emergent from a fiber's latitude (version 12) | a type error: a complex structure has $J^2 = -1$, no real eigenvectors, and *pairs* directions where time must *select* one |
@@ -670,7 +687,7 @@ Variation with respect to $g_G$ should produce the meridian-reduced source; cons
 1. **The global $E$** (§II.1b). Part I's shell lives on the *normal space*, a space of vectors; passing to nearby points of the middle space uses the exponential map, which is local, with curvature, cut loci and caustics obstructing it globally. Whether **one** six-dimensional $E$ restricts to the unit Hopf bundle around **every** worldline at once is unproved. **The version's central construction problem** — and a sharper one than what it replaces, since the local spin geometry is settled and only the gluing is not. (The cohomological obstruction of §II.1a is separate and is handled by the meridian removal.)
 2. **Deriving the fiber-length locking** from an action (§III.2). Until then $g_G\mapsto L_H$ remains an **imposed encoding constraint**, not a derived consequence of any canonical dynamics — and the arrow cannot be reversed. Note also that the reversal a future action would supply is $\hat g\Rightarrow g_G$, from the *full* canonical metric, not $L_H\Rightarrow g_G$.
 3. **The two open connection components** (§III.3). Deliberately unassigned. If the theory later says what they do, that will be a result; asserting it now would not be.
-4. **Whether matter comes in a second Hopf class** (§V.4). If not, the barren twin is forced in the static pencil; if so, a twin may host matter of the opposite class. Either answer is informative.
+4. **Whether matter occupancy respects the Hopf sign** (§V.4). Topology pairs each meridian's two crossings with opposite signs; nothing yet ties matter to either. The prior question: is the sign a property of the bundle's restriction alone, or a representation carried by a matter field? A derived matter-selection rule would make the barren twin genuinely forced — a much stronger result than declaring it.
 5. **What selects the meridian structure** (Law II) — in the static case *and* the general one. §VIII.1 derives the quotient $S^3/\pm = \mathbb{RP}^3$ **given** the antipodal great-circle pencil, but nothing derives the pencil: it is an assumption there, and away from maximal symmetry nothing selects the leaves at all. **Why the leaves are closed** remains the sharpest sub-question, since closure is what forces the bisection and hence the seed (§II.3).
 6. **Time:** an input, belonging to the Lorentzian real structure; its uniqueness is not derived, and three routes to deriving it have failed.
 7. **The remainder of the static regression** (§VIII.1): the quotient metric, its Green's function, and the orbit equations. The *geometric* link — great circles with quotient $\mathbb{RP}^3$ — is now discharged.
@@ -790,12 +807,12 @@ If that diagram commutes, chiral composition would be intrinsic enough to surviv
 | **rotation vs fiber** | rotation is **not** winding around the fiber; four jobs, four structures |
 | **time** | an input, from the Lorentzian real structure |
 | **Grassmann parity** | not derived, and blocked by type |
-| **Chern class** | the **unit Hopf class** on every oriented shell, fixed by spin geometry. One global orientation convention, not a per-shell sign; not mass-dependent, no $m_{\rm unit}$, no fork |
+| **Chern class** | $|c_1| = 1$ on every relevant linking shell, fixed by spin geometry; the **sign is induced globally** by orientation, embedding and restriction — not chosen per shell, not set by occupancy. Not mass-dependent, no $m_{\rm unit}$, no fork |
 | **golf ball** | its shells carry exactly what Earth's do. No competition, no crossover, no winding counts |
 | **free constants** | $G$ and $\Lambda$, plus whatever Law II's dynamics brings. $m_{\rm unit}$, $g_2$ and $\mu(\rho)$ all retired |
 | **the static limit** | pencil **[S]** $+$ quotient $S^3/\pm = \mathbb{RP}^3$ **[D]**. The limit as a whole is *not* derived — only its quotient, and only given the pencil |
-| **Structure III** | a connection structure, **not a law**: no field equation, the unit Hopf class fixed, two local cross-components with $A\mapsto A+d\lambda$ unquotiented |
+| **Structure III** | a connection structure, **not a law**: no field equation, $|c_1| = 1$ with induced sign, two local cross-components with $A\mapsto A+d\lambda$ unquotiented |
 | **the obstruction** | $H^2(S^4) = 0$: Law 0 needs the secondary meridians removed, as every earlier version did |
 | **chiral bridge** | $SL(2,\mathbb{C})_{\rm shell} = \Delta SL(2,\mathbb{C})\subset SL(2,\mathbb{C})_L\times SL(2,\mathbb{C})_R$; SD Taub–NUT shells are Hopf. But reciprocal warp factors and Berger squashing ($c/b = 2m/(r+2m)$) block the metric, and $u$ is presupposed, so no time (§X.3) |
-| **Kirchhoff at the poles** | Hopf classes on the $2N$ meridian arcs sum to zero, so outward classes at all equatorial crossings cancel. With one Hopf class for matter, **a source's twin is forced barren** and carries $-1$ — the seed as a constraint, not a choice (§V.4) |
-| **primitive data** | all on $E$, including a projectable $\widehat{\mathcal{U} }_{\rm mer}\subset TE$; the meridian structure descends as $d\pi_H(\widehat{\mathcal{U} }_{\rm mer})$ |
+| **Kirchhoff at the poles** | Hopf classes on the $2N$ meridian arcs sum to zero, so outward classes at all equatorial crossings cancel: **each meridian's two crossings carry opposite induced signs.** A sign *pairing*, independent of occupancy. Barrenness would follow only from a matter-selection rule the theory does not contain (§V.4) |
+| **primitive data** | all on $E$: a projectable $\widehat{\mathcal{U} }_{\rm mer}\subset TE$, whose image $d\pi_H(\widehat{\mathcal{U} }_{\rm mer})$ is the meridian structure; and $\rho_E$, an antiholomorphic involution of $E_\mathbb{C}$ with $E = \operatorname{Fix}(\rho_E)$, compatible with $U(1)_H$ via $\lambda\mapsto\bar\lambda^{-1}$ |
