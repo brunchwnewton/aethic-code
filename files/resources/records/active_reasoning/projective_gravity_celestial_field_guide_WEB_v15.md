@@ -1,4 +1,4 @@
-# Projective Gravity — Version 15.4
+# Projective Gravity — Version 15.5
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases
 
@@ -213,7 +213,7 @@ Gravity does not ask which representative in $q^{-1}(b)$ holds the matter. It as
 > up to whatever density factor an action supplies. **The map $dr$ is what makes the sum well-typed**: tensors at $x$ and $\tau x$ live in different tangent spaces and cannot be added until the quotient supplies the identification. The shorthand $T^{(g)}([x]) = T(x)+T(\tau x)$ is this expression with that step suppressed. The same solution fixes the canonical fiber length (§III.2). Law I introduces **no additional scalar degree of freedom** — no dilaton, no radion, nothing with a $1/r$ coupling. **But recovery of the observed PPN parameters does not follow from that alone here**, because photons and detectors live on $B_{\rm rep}$ while Law I solves on $B_{\rm grav}$: it additionally requires the induced metric on $B_{\rm rep}$ to reproduce general relativity's optical metric, and the map $g_G\to g_{\rm rep}$ has not been derived **[O]**.
 
 > ### ◆ LAW II — THE MERIDIANS
-> The middle space carries a one-dimensional **meridian structure** $U_{\rm mer}$, regular as a foliation away from controlled singular sets. (In the static limit it is a *pencil*: distinct meridians meet at the poles, so it is not a foliation of all of $S^4$ — §VIII.1.) The representational base resolves its representatives; gravity quotients it. In the static spherical limit it must reduce to the great circles of $S^4$ through both poles, with quotient $\mathbb{RP}^3$. The general equation selecting the foliation is **open** **[O]**.
+> The middle space carries a one-dimensional **meridian structure** $U_{\rm mer}$, regular as a foliation away from controlled singular sets. (In the static limit it is a *pencil*: distinct meridians meet at the poles, so it is not a foliation of all of $S^4$ — §VIII.1.) The representational base resolves its representatives; gravity quotients it. In the static spherical limit it must reduce to the great circles of $S^4$ through both poles, with quotient $\mathbb{RP}^3$. The general equation selecting the meridian structure is **open** **[O]**.
 
 > ### ◆ STRUCTURE III — THE CANONICAL CONNECTION
 > *Numbered III for continuity with earlier versions, but **not a law**: there is no field equation here, and calling it one would misdescribe the document's own architecture.*
@@ -283,7 +283,7 @@ A metric on the three-manifold $S^3$ has $3\cdot4/2 = 6$ components. Adapted to 
 
 So the attractive $3+1+2$ partition survives — **on the physical real slice**. Version 15 does not assert it for the full complex shell; the complex homogeneous bundle is the analytic parent, and the real slice is where the metric count is performed.
 
-**Three of the six are assigned; two are not [D].** Gravity determines the shell geometry and Law I locks the fiber length to it — that is the $3+1$. The remaining $2$ are **left open**, deliberately.
+**Four of the six are assigned; two are not [D].** Gravity determines the shell geometry and Law I locks the fiber length to it — that is the $3+1$. The remaining $2$ are **left open**, deliberately.
 
 > Earlier versions assigned those two to the odd matter sector, $T_-\to2$. **That assignment is retired** (§X.1) — it was made because there happened to be two of them, which is not a reason.
 >
@@ -422,7 +422,7 @@ It is **empty**: no matter to emit, absorb or scatter, and electromagnetically b
 
 **3.** Complexify and displace the source along the imaginary axis, $z\to z-ia$. **This step supplies the characteristic Kerr complex structure; it is not by itself the whole derivation** — see the caveat below.
 
-$$\frac{1}{\sqrt{x^2+y^2+z^2}}\ \longrightarrow\ \frac{1}{\sqrt{x^2+y^2+(z-ia)^2}}$$
+$$\frac{1}{\sqrt{x^2+y^2+z^2} }\ \longrightarrow\ \frac{1}{\sqrt{x^2+y^2+(z-ia)^2} }$$
 
 still harmonic **[V]**.
 
@@ -439,7 +439,7 @@ still harmonic **[V]**.
 
 Newman–Janis acts on the **complexification of the representational base**:
 
-$$B_{\rm rep}\hookrightarrow B_{{\rm rep},\mathbb{C}}\xrightarrow{\text{shift}}B_{{\rm rep},\mathbb{C}}\xrightarrow{\text{real slice}}B_{\rm rep}^{\rm Kerr}$$
+$$B_{\rm rep}\hookrightarrow B_{ {\rm rep},\mathbb{C} }\xrightarrow{\text{shift} }B_{ {\rm rep},\mathbb{C} }\xrightarrow{\text{real slice} }B_{\rm rep}^{\rm Kerr}$$
 
 And the canonical shells **follow the complex worldline**: at every point and radius the shell is $Q^2_{\rm aff}$ with lift $SL(2,\mathbb{C})$, so the displacement moves the center of the entire shell system. Two roles stay separate:
 
@@ -637,6 +637,72 @@ It bears directly on the motivation for looking at self-dual structure in the fi
 
 ---
 
+## X.3 Chiral composition: two bridges and two obstructions [T/V/O]
+
+*Kim's result (§X.2) suggests a bridge to the chiral sector. Two parts of it are established, two are blocked, and one is a stated theorem target. None is folded into the architecture.*
+
+### Bridge 1 — the shell group is the diagonal of the chiral pair [T]
+
+Complexified four-dimensional spin geometry factorizes, and the stabilizer of a non-null direction $u$ sits **diagonally** inside it:
+
+$$Spin(4,\mathbb{C})\cong SL(2,\mathbb{C})_L\times SL(2,\mathbb{C})_R\ \supset\ \Delta SL(2,\mathbb{C}) = SL(2,\mathbb{C})_{\rm shell},\qquad g\mapsto(g,g)$$
+
+whose compact form is the familiar $Spin(3)\cong SU(2)\hookrightarrow Spin(4)\cong SU(2)_L\times SU(2)_R$. **This is standard group theory, and it places the shell group of Part I rather than positing it.** The whole chain reads
+
+$$Spin(4,\mathbb{C})\ \xrightarrow{\ \text{stabilize }u\ }\ SL(2,\mathbb{C})_{\rm diag}\ \xrightarrow{\ /\,\mathbb{C}^\times\ }\ Q^2_{\rm aff}\ \xrightarrow{\ \text{real form}\ }\ S^2$$
+
+with dimensions $12\to6\to4\to2$ **[V]**. Given $u$, the rest of §I.2–§I.4 is much less arbitrary than it looked: **one shell spin group is the diagonal residue of two chiral spin groups.**
+
+### Bridge 2 — self-dual Taub–NUT carries the same shell type [T]
+
+In Gibbons–Hawking form $ds^2 = V^{-1}(d\tau+\omega)^2+V\,d\mathbf{x}^2$ with $\nabla\times\omega = \nabla V$, the potential $\omega$ is a Dirac monopole and each constant-radius three-surface is a circle bundle over the angular $S^2$ — for unit charge, the Hopf fibration $S^1\to S^3\to S^2$. **So the elementary chiral constituents of Kim's construction carry the same shell *type* as the canonical shells here.** More than a coincidence of names.
+
+### Obstruction 1 — but not the same shell *geometry*, in two independent ways [V]
+
+**(a) The scaling is inverse.** Taub–NUT has fiber length $\propto V^{-1/2}$ against base scale $\propto V^{+1/2}$, so approaching the source the **fiber shortens**:
+
+| $r/m$ | $V$ | fiber | base |
+|--:|--:|--:|--:|
+| 10 | 1.200 | 0.913 | 1.095 |
+| 1 | 3.000 | 0.577 | 1.732 |
+| 0.3 | 7.667 | 0.361 | 2.769 |
+
+Law I says the opposite: $L_H = \Omega L_H^{\rm ref}$ with base scale also $\propto\Omega$, and $\delta L_H/L_H = -\Phi$ with $\Phi<0$ in a well, so **the canonical fiber lengthens inward**.
+
+**(b) The shell is squashed.** A round $S^3$ in Hopf form has equal fiber and base coefficients; Taub–NUT's ratio is $1/V^2r^2 = (2m+r)^{-2}$, equal to one only at an isolated radius. Generically a **Berger sphere**, not a round one **[V]**.
+
+> **The shells agree as bundles and disagree as geometries.** So "derive the fiber-length locking inside the chiral Taub–NUT sector" is not available: done naively it gives the wrong sign *and* the wrong metric. The sharp question is instead **why the same Hopf topology should carry a reciprocal metric law** — and no answer should be adopted merely because it repairs the sign.
+
+### Obstruction 2 — this branch cannot derive time [D]
+
+The timelike direction $u$ is presupposed **three times over**: by $N_\gamma = \{\xi:g_\mathbb{C}(\xi,\dot\gamma) = 0\}$, which needs $\dot\gamma$; by Kim's stationary composition, which uses $u^\mu$; and by Bridge 1 itself, since *which* diagonal depends on which direction is stabilized.
+
+> **A composition law defined on this shell architecture cannot derive $u$, because $u$ already defines the architecture on which it acts.** This closes the chiral route to time in the present version. Rebuilding $E$ *prior* to choosing a real form or a non-null direction, and showing a diagonal reduction emerges dynamically, would be a different and more foundational version — not a result available here.
+
+### The theorem target — an equivariance test, stated without prejudging [O]
+
+Kim's composition contains a bilinear $\ell^{\dot\alpha\alpha}\propto\tilde o_+^{\dot\alpha}o_-^{\alpha}$. Let $U(1)_H\subset SL(2,\mathbb{C})_{\rm diag}$ act on the two principal-spinor lines with weights $q_\pm$. Then the composed null field descends through the Hopf quotient exactly when
+
+$$\boxed{\ q_+ + q_- = 0\ }$$
+
+verified as the condition: with $h_\theta = \operatorname{diag}(e^{i\theta},e^{-i\theta})$ acting diagonally, opposite-weight lines give an invariant bilinear and same-weight lines do not **[V]**.
+
+*An earlier formulation of this test — "identify $U(1)_H$ with the anti-diagonal of $U(1)_L\times U(1)_R$" — is retired* **[R]**. It conflated two different objects: the **diagonal $SL(2,\mathbb{C})$**, which is a spacetime spin-group embedding, with an **anti-diagonal $\mathbb{C}^\times$**, which is the projective rescaling redundancy of a bilinear's two representatives. $U(1)_H$ lies in the diagonal, and the cancellation must come from *representation content*, not from relocating the subgroup by fiat. Stated as a weight condition, it is something to prove rather than to assume.
+
+### What the branch is actually for [S]
+
+Not time, and not the fiber-length locking. The natural job is
+
+$$\star:\ \mathcal{D}_{\rm SD}\times\mathcal{D}_{\rm ASD}\ \longrightarrow\ \mathcal{D}_{\rm real}$$
+
+— **how non-chiral gravitational geometry is assembled from chiral constituents** — and whether $\star$ lifts to $E$ and commutes with both reductions:
+
+$$\pi_H(D_+\star_E D_-) \overset{?}{=} \pi_H(D_+)\star_\mathcal{M}\pi_H(D_-),\qquad q(D_+\star_\mathcal{M}D_-)\overset{?}{=} q(D_+)\star_G q(D_-)$$
+
+If that diagram commutes, chiral composition would be intrinsic enough to survive **both** of this theory's information-losing maps. That is a better prize than another account of the fiber.
+
+---
+
 ## Reference card, version 15
 
 | topic | statement |
@@ -670,3 +736,4 @@ It bears directly on the motivation for looking at self-dual structure in the fi
 | **the static limit** | pencil **[S]** $+$ quotient $S^3/\pm = \mathbb{RP}^3$ **[D]**. The limit as a whole is *not* derived — only its quotient, and only given the pencil |
 | **Structure III** | a connection structure, **not a law**: no field equation, the unit Hopf class fixed, two local cross-components with $A\mapsto A+d\lambda$ unquotiented |
 | **the obstruction** | $H^2(S^4) = 0$: Law 0 needs the secondary meridians removed, as every earlier version did |
+| **chiral bridge** | $SL(2,\mathbb{C})_{\rm shell} = \Delta SL(2,\mathbb{C})\subset SL(2,\mathbb{C})_L\times SL(2,\mathbb{C})_R$; SD Taub–NUT shells are Hopf. But inverse scaling *and* Berger squashing block the metric, and $u$ is presupposed, so no time (§X.3) |
