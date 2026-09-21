@@ -1,4 +1,4 @@
-# Projective Gravity — Version 15.5
+# Projective Gravity — Version 15.6
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases
 
@@ -51,7 +51,7 @@ Conflating them was the error that made the seed look like a postulate.
 | **spin phase** $U(1)_H$ | the compact fiber of the shell lift; the physical real form of the complex stabilizer $\mathbb{C}^\times$ |
 | **meridian** | a leaf of the one-dimensional **meridian structure** $U_{\rm mer}$. *Standard usage in this document:* $U_{\rm mer}$ is a **meridian structure**; its **regular part** is a foliation; its **static singular case** is a **pencil**, since distinct meridians meet at the poles. In the static limit a leaf is a great circle of $S^4$ through both poles |
 | **twin** | given $x\in B_{\rm rep}$, the other point $\tau x$ of the same meridian, with $\tau^2 = 1$ and $q(x) = q(\tau x)$ |
-| **barren twin** | a twin carrying no matter, at which gravitational curvature is nevertheless nonzero. **The seed** |
+| **barren twin** | a twin carrying no matter, at which gravitational curvature is nevertheless nonzero. **The seed.** In the static pencil, topologically forced for matter of a single Hopf class (§V.4) |
 | **$T_\pm$** | $T_\pm(x) = T(x)\pm T(\tau x)$: the even and odd parts of matter under the twin map |
 | **jellium** | the uniform background density of the gravity base, supplied by the primary |
 | **primary** | the dominant mass at a degeneracy of the meridian structure |
@@ -71,7 +71,19 @@ Verified consistent: a circle quotient drops one dimension, a one-dimensional me
 
 ## 0.4 What is axiomatic
 
-The primitive data are $\big(E,\ \hat g,\ U(1)_H,\ \mathcal{A}_H,\ \rho_E,\ \mathcal{U}_{\rm mer}\big)$: the canonical space, its metric, the fiber action, its connection, the real-analytic structure needed to complexify shells, and the meridian structure of the quotient. Everything else — the middle space, both bases, the seed — is derived. **The theory is top-down.**
+The primitive data are $\big(E,\ \hat g,\ U(1)_H,\ \mathcal{A}_H,\ \rho_E,\ \widehat{\mathcal{U} }_{\rm mer}\big)$ — **all living on $E$**: the canonical space, its metric, the fiber action, its connection, the real-analytic structure needed to complexify shells, and an upstairs meridian datum.
+
+That last is a rank-one structure $\widehat{\mathcal{U} }_{\rm mer}\subset TE$, regular away from the preimage of a controlled singular set, which is (i) **$U(1)_H$-invariant**, $(R_\theta)_*\widehat{\mathcal{U} }_{\rm mer} = \widehat{\mathcal{U} }_{\rm mer}$, and (ii) **transverse to the fibers**, $\widehat{\mathcal{U} }_{\rm mer}\cap\ker d\pi_H = 0$. Invariance makes its image independent of the point chosen on each fiber; transversality keeps that image rank one. So it is projectable, and the middle space's meridian structure is *defined* as the image:
+
+$$\mathcal{U}_{\rm mer} = d\pi_H\big(\widehat{\mathcal{U} }_{\rm mer}\big)$$
+
+Everything else — the middle space, its meridian structure, both bases, the seed — then genuinely **descends**:
+
+$$E\ \Longrightarrow\ (\mathcal{M},\ \mathcal{U}_{\rm mer})\ \Longrightarrow\ B_{\rm grav}$$
+
+**The theory is top-down**, functorially and not just rhetorically. *(A previous revision listed $\mathcal{U}_{\rm mer}$ itself among the primitives while calling it "the meridian structure of the quotient" — one layer too low, since the quotient is not primitive.)*
+
+*What the upstairs datum carries [T].* Lifts of a given line field downstairs are not unique: two lifts differ by a $U(1)_H$-invariant vertical component, which projects to zero. The lift horizontal with respect to $\mathcal{A}_H$ is canonical, and choosing it adds nothing beyond the connection already present.
 
 ---
 
@@ -143,7 +155,9 @@ $$h_\theta = \begin{pmatrix} e^{i\theta} & 0\\ 0 & e^{-i\theta}\end{pmatrix}$$
 
 The first column of $U(\psi)h_\theta$ is $e^{i\theta}\psi$ **[V]**.
 
-> **The stabilizer $U(1)$ of $SU(2)/U(1)\simeq S^2$ acts on the normalized spinor column as ordinary phase multiplication.** Not the same group twice — *the same action*.
+> **Given the timelike direction $u$ that defines the physical rest-space shell and its $SU(2)$ stabilizer, the shell's $U(1)$ stabilizer acts on a normalized spinor as ordinary spinor phase.** Not the same group twice — *the same action*.
+
+**Relative to what [T/V].** The qualifier is not decorative. $SL(2,\mathbb{C})$ does not preserve $|z_1|^2+|z_2|^2$: a boost $\operatorname{diag}(e^{\eta/2},e^{-\eta/2})$ takes a unit spinor to norm $0.506$ at $\eta = 0.8$, while $SU(2)$ keeps it at $1$ **[V]**. The positive-definite spinor norm is $u_{AA'}\psi^A\bar\psi^{A'}$ and needs a timelike $u$; $SU(2)$ is exactly its stabilizer. So "normalized," "$S^3\subset\mathbb{C}^2$" and "phase" are all defined relative to $u$ — **the same $u$ whose stabilizer is the diagonal $SL(2,\mathbb{C})$ of §X.3.** Stated this way §I.6 and §X.3 are one fact seen twice, rather than an observer-independent claim sitting beside an observer-dependent one.
 
 **And the Hopf map is the quotient by exactly that action [V].** With $n(\psi) = \big(2\,\mathrm{Re}(z_1\bar z_2),\,2\,\mathrm{Im}(z_1\bar z_2),\,|z_1|^2-|z_2|^2\big)$, one has $n(e^{i\theta}\psi) = n(\psi)$ identically — verified. So the shell $S^2$ is the space of spinors modulo phase, and the fiber is the phase.
 
@@ -174,7 +188,13 @@ The affine quadric is preferred because its three pieces complexify *together* a
 
 $$H^2\big(S^4\setminus S^1;\mathbb{Z}\big)\ \cong\ \tilde H_1(S^1;\mathbb{Z})\ \cong\ \mathbb{Z}$$
 
-which permits a nontrivial circle bundle **[T]**. *Earlier drafts asserted the stronger claim that the complement is homotopy equivalent to $S^2$. That holds for the standard unknotted embedding but not in general — 1-knots in $S^4$ exist, and a knotted complement can differ in $\pi_1$ and in higher homotopy. Duality sees only the homology of the removed circle, so it gives $H^2 = \mathbb{Z}$ either way, and the weaker statement carries no embedding debt* **[R]**. **Law 0 must therefore be stated over $\mathcal{M}$ minus the secondary meridians**; the architecture inherits that surgery rather than escaping it.
+which permits a nontrivial circle bundle **[T]**. More is true, though not needed: smooth circles in $S^4$ are **unknotted** — homotopic embeddings of an $n$-manifold in an $m$-manifold are isotopic once $m\geq2n+2$, here $4\geq4$, and $\pi_1(S^4) = 0$ makes every circle homotopic to every other. Since $S^4 = (S^1\times D^3)\cup_{S^1\times S^2}(D^2\times S^2)$, the complement of a tubular neighbourhood is $D^2\times S^2\simeq S^2$ **[T]**. *A previous revision of this section claimed smooth 1-knots in $S^4$ exist and treated the homotopy statement as an embedding debt. That was wrong and is retired (§X.1); knotting in $S^4$ begins with embedded 2-spheres.* Alexander duality nonetheless remains all the argument uses.
+
+**With $N$ secondaries the removed set is a graph [T].** In the static pencil every meridian passes through both poles, so $\Gamma$ has two vertices and $2N$ arcs, and
+
+$$H^2\big(S^4\setminus\Gamma;\mathbb{Z}\big)\cong\tilde H_1(\Gamma;\mathbb{Z})\cong\mathbb{Z}^{2N-1}$$
+
+— one integer per arc, less one relation. That relation turns out to bear directly on the seed (§V.4). **Law 0 must therefore be stated over $\mathcal{M}$ minus the secondary meridians**; the architecture inherits that surgery rather than escaping it.
 
 **(b) The global one, which is now the main construction problem [O].** Part I builds its shell on the **normal space** $N_\gamma$ — a space of *vectors*, not of spacetime points. Passing from normal vectors to nearby points of the middle space uses the exponential map, and that identification is **local**: curvature, cut loci and caustics obstruct it globally. So even granting (a), it does not follow that **one** global six-dimensional $E$ restricts to the unit Hopf bundle around **every** source worldline simultaneously.
 
@@ -217,7 +237,7 @@ Gravity does not ask which representative in $q^{-1}(b)$ holds the matter. It as
 
 > ### ◆ STRUCTURE III — THE CANONICAL CONNECTION
 > *Numbered III for continuity with earlier versions, but **not a law**: there is no field equation here, and calling it one would misdescribe the document's own architecture.*
-> The canonical fiber carries a connection $\mathcal{A}_H$ with curvature $F_H = d\mathcal{A}_H$. Its **topological class is fixed by the spin geometry**: each oriented shell carries the **unit Hopf class $c_1 = 1$** — or $c_1 = -1$ under the opposite *global* orientation convention, which is one convention for the whole construction and not a choice made shell by shell. It is independent of the source's mass and of any parameter. The reference connection is the canonical Hopf connection, and deformations away from it leave $c_1$ untouched, since $\int_{S^2}d\alpha = 0$. In an adapted metric they appear as **two local connection cross-components**, whose gauge-invariant content is fixed only after quotienting the $U(1)$ gauge freedom $A\mapsto A+d\lambda$ (§III.3). **Nothing in this version sources them, and no matter-coupling law is asserted** **[O]**.
+> The canonical fiber carries a connection $\mathcal{A}_H$ with curvature $F_H = d\mathcal{A}_H$. Its **topological class is fixed by the spin geometry**: each oriented shell **about a source** carries the **unit Hopf class $c_1 = 1$** — or $c_1 = -1$ under the opposite *global* orientation convention, which is one convention for the whole construction and not a choice made shell by shell. Shells about a **barren twin** then carry the *opposite* class — **forced by the topology, not chosen** (§V.4). It is independent of the source's mass and of any parameter. The reference connection is the canonical Hopf connection, and deformations away from it leave $c_1$ untouched, since $\int_{S^2}d\alpha = 0$. In an adapted metric they appear as **two local connection cross-components**, whose gauge-invariant content is fixed only after quotienting the $U(1)$ gauge freedom $A\mapsto A+d\lambda$ (§III.3). **Nothing in this version sources them, and no matter-coupling law is asserted** **[O]**.
 
 > ### ◆ LAW IV — ELECTROMAGNETISM
 > Maxwell on $B_{\rm rep}$, with $\epsilon = \mu_{\rm EM} = 1$. Light resolves meridian representatives and does **not** perform the gravity quotient. The field lives downstairs, so its pullback to $E$ is **$U(1)_H$-invariant** — it does not couple to the fiber. (Earlier drafts called it a "zero mode," which implies a Kaluza–Klein expansion this version does not perform; see §X.1.)
@@ -411,6 +431,34 @@ $$T(\tau x) = 0\qquad\text{while}\qquad \text{curvature at }\tau x\neq0$$
 It is **empty**: no matter to emit, absorb or scatter, and electromagnetically barren by §IV.7. And its light could not have arrived in any case: the crossing time is $\pi\ell/c = 646$ Gyr at $\ell = 63$ Gpc, forty-seven times the age of the universe. **Two independent reasons, neither requiring a new coupling.**
 
 ---
+
+## V.4 Kirchhoff at the poles: the barren twin, topologically forced [T/V/D]
+
+*§V.2 took the barren twin as a configuration — matter at $x$, none at $\tau x$. In the static pencil it is more than that: the topology forbids the alternative.*
+
+**The conservation law [T].** Alexander duality identifies a circle bundle over $S^4\setminus\Gamma$ with a 1-cycle $z = \sum_e a_e\,e$ on the graph $\Gamma$ of §II.1, where $a_e$ is the bundle's class on the small linking sphere of arc $e$. Every arc runs from pole to pole, so
+
+$$\partial z = \Big(\sum_e a_e\Big)\big((-p)-p\big) = 0\qquad\Longleftrightarrow\qquad\sum_e a_e = 0$$
+
+The Hopf classes on the $2N$ arcs, oriented pole-outward, sum to zero: **Hopf class is conserved through the poles** — Kirchhoff's law at a vertex.
+
+**The sign dictionary [V].** Slide each arc's linking sphere along the arc to the equator. It becomes the shell about that crossing point in $B_{\rm rep}$ with its **outward** orientation — and with the *same* sign at every crossing, since every pole-outward arc crosses the equator heading south (verified by direct orientation computation: sign $-1$ at both $\hat n$ and $-\hat n$ for pole-outward arcs, but $-1$ and $+1$ for the loop-oriented meridian). So in $B_{\rm rep}$'s own terms:
+
+$$\sum_{\text{all }2N\text{ crossing points }x} c_{\rm out}(x) = 0$$
+
+**The one-meridian case, checked independently [V].** Pull the Hopf bundle back along the retraction $S^4\setminus C\to S^2$, $x\mapsto(x_2,x_3,x_4)/|\cdot|$, with $C$ the meridian. On the outward shell about the source its degree is $+1$; about the twin, **$-1$**. Two independent computations, one answer: $c_{\rm out}(\hat n)+c_{\rm out}(-\hat n) = 0$.
+
+**The consequence [D].** Every source's rest space inherits its orientation from the same oriented, time-oriented $B_{\rm rep}$, and Part I's construction is identical at each; so every *source* shell carries the same outward class, $+1$. Then:
+
+| setting | what the topology forces |
+|:--|:--|
+| one secondary | its twin carries $-1$, so **a source cannot sit at its own twin point**: $+1+1\neq0$. The twin is barren — exactly |
+| $N$ secondaries | sources contribute $+S$, so barren crossings carry $-S$ in total. **Not every crossing can be occupied** |
+| $N$ secondaries, with every shell of the pencil lifting to $S^3$ | **each meridian carries exactly one source ($+1$) and one barren twin ($-1$).** Verified by enumeration for $N\leq4$: the $2^N$ allowed configurations are precisely the choices of which crossing holds the source |
+
+> **In the static pencil, the seed configuration is forced.** §V.2's premise — matter at $x$, none at $\tau x$ — is what the topology of $\mathcal{M}$ minus the meridians permits, given one Hopf class for matter. The barren twin stops being a choice of initial data and becomes a constraint.
+
+**What this does not establish [O].** The result holds in the static great-circle pencil, itself an assumption (§VIII.1); for point-like sources; and, in its strong form, with unit classes on barren shells as well as source shells, which Law 0 as stated does not demand. **And it has one loophole, stated plainly:** everything assumes matter carries a single Hopf class. Matter of the *opposite* class could occupy a twin, since $+1-1 = 0$. So the precise statement is: *a source's twin is barren, or hosts matter of the opposite Hopf class.* Part I supplies only one class, and so gives "barren." Whether a second class exists — and whether it would be new matter or something already known — is open.
 
 # PART VI — NEWMAN–JANIS AND KERR
 
@@ -609,7 +657,9 @@ Variation with respect to $g_G$ should produce the meridian-reduced source; cons
 | the biconditional $g_G\Leftrightarrow L_H$ | a single scalar cannot in general reconstruct a four-dimensional metric; only the one-way map $g_G\mapsto L_H$ is defensible (§III.2) |
 | describing the **static limit** as derived | only its *quotient* is derived, and only given the antipodal great-circle pencil, which remains an assumption (§VIII.1) |
 | calling $U_{\rm mer}$ a foliation without qualification | in the static case distinct meridians meet at the poles, so it is a **pencil**, not a foliation of all of $S^4$ (Law II) |
-| "$S^4\setminus\text{circle}\simeq S^2$" | true for the unknotted embedding but stronger than needed; 1-knots in $S^4$ exist. Alexander duality gives $H^2 = \mathbb{Z}$ regardless, which is all the argument uses (§II.1) |
+| "smooth 1-knots in $S^4$ exist" (a previous revision) | **false.** Circles in $S^4$ are unknotted (homotopic embeddings are isotopic once $m\geq2n+2$). The homotopy statement $S^4\setminus S^1\simeq S^2$ that this tried to retire was *correct*; Alexander duality is simply all the argument needs (§II.1) |
+| Taub–NUT "round at an isolated radius" | a unit error: it compared an unnormalized fiber coordinate with angles, and "$r = 1-2m$" adds a number to a length. Normalized, $c/b = 2m/(r+2m)$ — squashed for every $r>0$, round only at the nut (§X.3) |
+| listing $\mathcal{U}_{\rm mer}$ itself as primitive | one layer too low: the primitive is the projectable $\widehat{\mathcal{U} }_{\rm mer}\subset TE$, and $\mathcal{U}_{\rm mer} = d\pi_H(\widehat{\mathcal{U} }_{\rm mer})$ descends (§0.4) |
 | "$c_1 = \pm1$ on every shell" | reads as a per-shell binary choice. One *global* orientation convention fixes the unit Hopf class everywhere (Structure III) |
 | $v^2_{\rm eq} = 4GM/\pi\ell$ | 15% low; the converged value is $1.497\,GM/\ell$ (§IV.8) |
 | $N\Omega = 1$ as an **exact** condition | it gives Majumdar–Papapetrou and hence extremal charge for every body (§III.2) |
@@ -620,14 +670,15 @@ Variation with respect to $g_G$ should produce the meridian-reduced source; cons
 1. **The global $E$** (§II.1b). Part I's shell lives on the *normal space*, a space of vectors; passing to nearby points of the middle space uses the exponential map, which is local, with curvature, cut loci and caustics obstructing it globally. Whether **one** six-dimensional $E$ restricts to the unit Hopf bundle around **every** worldline at once is unproved. **The version's central construction problem** — and a sharper one than what it replaces, since the local spin geometry is settled and only the gluing is not. (The cohomological obstruction of §II.1a is separate and is handled by the meridian removal.)
 2. **Deriving the fiber-length locking** from an action (§III.2). Until then $g_G\mapsto L_H$ remains an **imposed encoding constraint**, not a derived consequence of any canonical dynamics — and the arrow cannot be reversed. Note also that the reversal a future action would supply is $\hat g\Rightarrow g_G$, from the *full* canonical metric, not $L_H\Rightarrow g_G$.
 3. **The two open connection components** (§III.3). Deliberately unassigned. If the theory later says what they do, that will be a result; asserting it now would not be.
-4. **What selects the meridian structure** (Law II) — in the static case *and* the general one. §VIII.1 derives the quotient $S^3/\pm = \mathbb{RP}^3$ **given** the antipodal great-circle pencil, but nothing derives the pencil: it is an assumption there, and away from maximal symmetry nothing selects the leaves at all. **Why the leaves are closed** remains the sharpest sub-question, since closure is what forces the bisection and hence the seed (§II.3).
-5. **Time:** an input, belonging to the Lorentzian real structure; its uniqueness is not derived, and three routes to deriving it have failed.
-6. **The remainder of the static regression** (§VIII.1): the quotient metric, its Green's function, and the orbit equations. The *geometric* link — great circles with quotient $\mathbb{RP}^3$ — is now discharged.
-7. **The dark-sector calculation** (§VIII.4, item 10) — what stress-energy an observer infers by applying Einstein's equation on $B_{\rm rep}$ instead of $B_{\rm grav}$. **The theory's sharpest quantitative target.** It is not a prediction until it is computed, and computing it is what would turn this architecture into phenomenology.
-8. **The meridian scale $\kappa$** (§IV.5), which the eventual Law II dynamics must fix.
-9. **Twin parity assignments** (§VII.4).
-10. **Emergent $G$** (§VIII.3): an open coupling problem — define an operationally appropriate mass variable and show a candidate coupling fills both the inertial and gravitational roles.
-11. **Inherited:** the AdS uplift; the two arenas; the literature review.
+4. **Whether matter comes in a second Hopf class** (§V.4). If not, the barren twin is forced in the static pencil; if so, a twin may host matter of the opposite class. Either answer is informative.
+5. **What selects the meridian structure** (Law II) — in the static case *and* the general one. §VIII.1 derives the quotient $S^3/\pm = \mathbb{RP}^3$ **given** the antipodal great-circle pencil, but nothing derives the pencil: it is an assumption there, and away from maximal symmetry nothing selects the leaves at all. **Why the leaves are closed** remains the sharpest sub-question, since closure is what forces the bisection and hence the seed (§II.3).
+6. **Time:** an input, belonging to the Lorentzian real structure; its uniqueness is not derived, and three routes to deriving it have failed.
+7. **The remainder of the static regression** (§VIII.1): the quotient metric, its Green's function, and the orbit equations. The *geometric* link — great circles with quotient $\mathbb{RP}^3$ — is now discharged.
+8. **The dark-sector calculation** (§VIII.4, item 10) — what stress-energy an observer infers by applying Einstein's equation on $B_{\rm rep}$ instead of $B_{\rm grav}$. **The theory's sharpest quantitative target.** It is not a prediction until it is computed, and computing it is what would turn this architecture into phenomenology.
+9. **The meridian scale $\kappa$** (§IV.5), which the eventual Law II dynamics must fix.
+10. **Twin parity assignments** (§VII.4).
+11. **Emergent $G$** (§VIII.3): an open coupling problem — define an operationally appropriate mass variable and show a candidate coupling fills both the inertial and gravitational roles.
+12. **Inherited:** the AdS uplift; the two arenas; the literature review.
 
 **A research branch worth opening, not folding in [T/O].** Kim, *Phys. Rev. Lett.* **136**, 231401 (9 June 2026), "Newman–Janis Algorithm from Taub–Newman–Unti–Tamburino Instantons," derives the Kerr metric as a **nonlinear superposition of self-dual and anti-self-dual Taub–NUT instantons** and interprets this as a physical derivation of the Newman–Janis relation. *(This post-dates the present author's reliable knowledge; the citation was supplied and verified by a referee.)*
 
@@ -657,19 +708,28 @@ with dimensions $12\to6\to4\to2$ **[V]**. Given $u$, the rest of §I.2–§I.4 i
 
 In Gibbons–Hawking form $ds^2 = V^{-1}(d\tau+\omega)^2+V\,d\mathbf{x}^2$ with $\nabla\times\omega = \nabla V$, the potential $\omega$ is a Dirac monopole and each constant-radius three-surface is a circle bundle over the angular $S^2$ — for unit charge, the Hopf fibration $S^1\to S^3\to S^2$. **So the elementary chiral constituents of Kim's construction carry the same shell *type* as the canonical shells here.** More than a coincidence of names.
 
-### Obstruction 1 — but not the same shell *geometry*, in two independent ways [V]
+### Obstruction 1 — the same bundle, the reciprocal warp [V]
 
-**(a) The scaling is inverse.** Taub–NUT has fiber length $\propto V^{-1/2}$ against base scale $\propto V^{+1/2}$, so approaching the source the **fiber shortens**:
+With $V = 1+2m/r$ and a dimensionless Hopf angle $\psi$, Taub–NUT's constant-$r$ slice is
 
-| $r/m$ | $V$ | fiber | base |
-|--:|--:|--:|--:|
-| 10 | 1.200 | 0.913 | 1.095 |
-| 1 | 3.000 | 0.577 | 1.732 |
-| 0.3 | 7.667 | 0.361 | 2.769 |
+$$g_r = Vr^2\,d\Omega_2^2 + 4m^2V^{-1}\big(d\psi+\cos\theta\,d\phi\big)^2$$
 
-Law I says the opposite: $L_H = \Omega L_H^{\rm ref}$ with base scale also $\propto\Omega$, and $\delta L_H/L_H = -\Phi$ with $\Phi<0$ in a well, so **the canonical fiber lengthens inward**.
+so with $b$ the horizontal scale and $c$ the Hopf-fiber scale, $b^2 = Vr^2$ and $c^2 = 4m^2V^{-1}$.
 
-**(b) The shell is squashed.** A round $S^3$ in Hopf form has equal fiber and base coefficients; Taub–NUT's ratio is $1/V^2r^2 = (2m+r)^{-2}$, equal to one only at an isolated radius. Generically a **Berger sphere**, not a round one **[V]**.
+**(a) The warp factors are reciprocal.** The horizontal coefficient carries $V$; the vertical carries $V^{-1}$. Law I does the opposite of reciprocal — it warps base metric and fiber *alike*, both by $\Omega^2$. **That is the obstruction**, and it is stated in the warp factors deliberately: the physical radius of a fixed-coordinate shell also carries the factor $r$, and in Taub–NUT both physical scales in fact shrink toward the nut. *(An earlier table here showed the warp $V^{1/2}$ under a heading suggesting a physical length; withdrawn.)*
+
+**(b) The shell is squashed everywhere except the nut.**
+
+$$\frac cb = \frac{2m}{r+2m}$$
+
+| $r/m$ | $V$ | $c/b$ |
+|--:|--:|--:|
+| 10 | 1.200 | 0.167 |
+| 1 | 3.000 | 0.667 |
+| 0.3 | 7.667 | 0.870 |
+| 0.01 | 201.0 | 0.995 |
+
+A **Berger sphere** for every $r>0$ — most squashed far away — and round only in the limit $r\to0$ **[V]**. *An earlier formula, $1/V^2r^2$, compared an unnormalized fiber coordinate with dimensionless angles, and its "round at $r = 1-2m$" added a pure number to a length. Retired (§X.1).*
 
 > **The shells agree as bundles and disagree as geometries.** So "derive the fiber-length locking inside the chiral Taub–NUT sector" is not available: done naively it gives the wrong sign *and* the wrong metric. The sharp question is instead **why the same Hopf topology should carry a reciprocal metric law** — and no answer should be adopted merely because it repairs the sign.
 
@@ -681,11 +741,11 @@ The timelike direction $u$ is presupposed **three times over**: by $N_\gamma = \
 
 ### The theorem target — an equivariance test, stated without prejudging [O]
 
-Kim's composition contains a bilinear $\ell^{\dot\alpha\alpha}\propto\tilde o_+^{\dot\alpha}o_-^{\alpha}$. Let $U(1)_H\subset SL(2,\mathbb{C})_{\rm diag}$ act on the two principal-spinor lines with weights $q_\pm$. Then the composed null field descends through the Hopf quotient exactly when
+Kim's composition contains a bilinear $\ell^{\dot\alpha\alpha}\propto\tilde o_+^{\dot\alpha}o_-^{\alpha}$. Let $U(1)_H\subset SL(2,\mathbb{C})_{\rm diag}$ act on the two principal-spinor lines with weights $q_\pm$. Then the **necessary and sufficient local phase-invariance condition for that bilinear** is
 
 $$\boxed{\ q_+ + q_- = 0\ }$$
 
-verified as the condition: with $h_\theta = \operatorname{diag}(e^{i\theta},e^{-i\theta})$ acting diagonally, opposite-weight lines give an invariant bilinear and same-weight lines do not **[V]**.
+verified: with $h_\theta = \operatorname{diag}(e^{i\theta},e^{-i\theta})$ acting diagonally, opposite-weight lines give an invariant bilinear and same-weight lines do not **[V]**. *Local, not global:* full descent of the composed field through $E\to\mathcal{M}$ needs more — compatible normalizations, patches, connections and gluing. The weight condition is the algebraic core of that theorem, not the whole of it.
 
 *An earlier formulation of this test — "identify $U(1)_H$ with the anti-diagonal of $U(1)_L\times U(1)_R$" — is retired* **[R]**. It conflated two different objects: the **diagonal $SL(2,\mathbb{C})$**, which is a spacetime spin-group embedding, with an **anti-diagonal $\mathbb{C}^\times$**, which is the projective rescaling redundancy of a bilinear's two representatives. $U(1)_H$ lies in the diagonal, and the cancellation must come from *representation content*, not from relocating the subgroup by fiat. Stated as a weight condition, it is something to prove rather than to assume.
 
@@ -736,4 +796,6 @@ If that diagram commutes, chiral composition would be intrinsic enough to surviv
 | **the static limit** | pencil **[S]** $+$ quotient $S^3/\pm = \mathbb{RP}^3$ **[D]**. The limit as a whole is *not* derived — only its quotient, and only given the pencil |
 | **Structure III** | a connection structure, **not a law**: no field equation, the unit Hopf class fixed, two local cross-components with $A\mapsto A+d\lambda$ unquotiented |
 | **the obstruction** | $H^2(S^4) = 0$: Law 0 needs the secondary meridians removed, as every earlier version did |
-| **chiral bridge** | $SL(2,\mathbb{C})_{\rm shell} = \Delta SL(2,\mathbb{C})\subset SL(2,\mathbb{C})_L\times SL(2,\mathbb{C})_R$; SD Taub–NUT shells are Hopf. But inverse scaling *and* Berger squashing block the metric, and $u$ is presupposed, so no time (§X.3) |
+| **chiral bridge** | $SL(2,\mathbb{C})_{\rm shell} = \Delta SL(2,\mathbb{C})\subset SL(2,\mathbb{C})_L\times SL(2,\mathbb{C})_R$; SD Taub–NUT shells are Hopf. But reciprocal warp factors and Berger squashing ($c/b = 2m/(r+2m)$) block the metric, and $u$ is presupposed, so no time (§X.3) |
+| **Kirchhoff at the poles** | Hopf classes on the $2N$ meridian arcs sum to zero, so outward classes at all equatorial crossings cancel. With one Hopf class for matter, **a source's twin is forced barren** and carries $-1$ — the seed as a constraint, not a choice (§V.4) |
+| **primitive data** | all on $E$, including a projectable $\widehat{\mathcal{U} }_{\rm mer}\subset TE$; the meridian structure descends as $d\pi_H(\widehat{\mathcal{U} }_{\rm mer})$ |
