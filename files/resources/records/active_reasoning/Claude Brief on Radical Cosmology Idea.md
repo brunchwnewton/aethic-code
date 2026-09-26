@@ -462,3 +462,29 @@ By the way I also came up with the intuition that maybe however we ultimately de
 ## Entry 100, 7:15 PM, Sep 22, 2026
 
 Right and also notice how the gravitational well of a given galaxy (as far as I’m aware doesn’t have extra content “as if” there were more matter in the normal direction as if forming an isotropic ball in place of the disk) in being apparently limited to the disk in the plane does appear to imply that however far back centrades branch from gravity as information-loss, it’s only after we’ve already locked in the reduction from the underlying space as drives the normal direction to the galaxy losing closure in visual space. So yeah in that sense it really is as if the gravity base is directly a quotient on the visual space, so we have to be careful to imply that whatever effect matters for dropping the normal direction for the visual space also applies at least up to correspondence existing in the gravity base space\!
+
+## Entry 101, 5:06 PM, Sep 26, 2026
+
+Ok thanks\! The next key thing I want to handle is understanding the significance of how length in the Hopf fibers realizes as curvature in the actual middle space spacetime metric. That is, I have an intuition already for standard quantum mechanical Berry phase material on the Bloch sphere, for which the area swept between two paths as they travel to a destination IS the Hopfian fiber angular distance between the start point and closed path end point, so I want to understand if there is any geometric or conceptual analogue at all in this picture where if you wrote up a closed path in the middle space, something would be significant about either its enclosed area or some kind of prescribed fiber displacement in the canonical space. Anyways, thanks for the help\!
+
+## Entry 102, 5:22 PM, Sep 26, 2026
+
+Something else I'm curious about by the way is a potential quantity tracking the "projective gravity-ness" very specifically in such pairs of open paths. That is, I'm imagining that since locally about one of those secondary mass things on the 3-sphere of the middle space, we're so "zoomed in" compared to the radius of the 3-sphere that the 3-sphere leaf itself appears effectively "flat" we can imagine that there are exactly properties about pairs of paths (for instance those which are separate in the canonical space but quotient to the same single path in the middle space) which get shaken up only when we truly account for the non-flat curvature of the 3-sphere leaf in general\! See what I'm trying to go for here? Various candidates have included non-integrability concepts for the Hopf fibration, or whatever else, but basically now I want to push for something which in this sense gives us freer degrees of freedom which in the "local universe" about the secondary get squashed, thereby operating almost like a gauge into the path conditions of the wider 3-sphere (where ultimately the real ambition is to consider a law of physics or two as merely occupying this flat-3-sphere regime, such that it becomes richer in the full picture when we account for that extra dual-path freedom). So, what are some of the best candidates that immediately jump out to you??? Anyways, thanks for the help\!
+
+## Entry 103, 5:39 PM, Sep 26, 2026
+
+Ok cool---but here's a more specific possibility actually: supposing we enforce that two paths share the same starting point and ending point in the middle space, what constraint can we put on those paths as they exist in the canonical space such that they are enforced to have to line up exactly with one another in the middle space if the radius of the 3-sphere is very large, but otherwise they can literally move apart so long as the endpoints are the same still on the 3-sphere still??? Thanks\!
+
+## Entry 104, 5:56 PM, Sep 26, 2026
+
+Right on the feature rather than bug thing btw, because I ALSO want a small secondary mass on the 3-sphere, locally Schwarzschild and all, NOT to enable the paths to separate\! But yeah I very well think we found my desired constraint\!
+
+## Entry 105, 6:08 PM, Sep 26, 2026
+
+Ok please now set up a markdown brief for the Claude AI I'm using to implement this new material into v18 of projective gravity: to be clear, the idea is that we are specifically trying to find exactly the right tweak either to electromagnetism, the quantum mechanics of photons, or the pair, so that this constraint, as generalizes "a photon has to take a single geodesic through spacetime", IS the new generally permissible replacement for a photon having to take a single geodesic. So I can't tell if quantum mechanics already permits that but we just have to enforce that this general constraint is still "a stable equilibrium point" under the stationary action limit of the path integral or something (as opposed to enforcing only the two paths having to be aligned can be a stable equilibrium point), or if it's about loosening the path integral directly. Anyways, thanks\!
+
+And yes by the way I want to confirm that I really like this idea, and I can get to this later but I think the extreme gravitational lensing take might also be a feature rather than a bug, since projective gravity is already explicitly a dark matter model, and so dives into those kind of questions\!
+
+## Entry 106, 6:23 PM, Sep 26, 2026
+
+Awesome, thanks\! How does v18 look now, based on all this? Oh and also please explain to me how the semiclassical equilibrium constraint sorts out, because I think that's one of the more elegant procedural ideas of the pass, especially if it can land this Jacbi-based law we've scoped out exactly\! Thanks\!
