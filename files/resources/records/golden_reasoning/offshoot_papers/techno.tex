@@ -1,8 +1,196 @@
+\begin{filecontents}[overwrite]{tech_fallback.bib}
+% Fallback copies of canonical corpus entries, loaded after the shared refs.bib,
+% which loads first and so wins every duplicate key (biber first-wins).
+% Every key below is canonical in the corpus bibliography of September 19, 2026.
+@misc{AethusMethodology,
+  author       = {Benander, Ajax},
+  title        = {Inductive Reasoning as Art, Not Algorithm: Criteria and a Dated Genealogy for Inference-Driven Discovery},
+  year         = {2026},
+  howpublished = {Manuscript},
+  url          = {https://aethus.org},
+  note         = {The methodology companion; the split discovery--justification
+                  firewall, graded provenance, and the discovery criteria.}
+}
+@misc{AethusOptimalEarth,
+  author       = {Benander, Ajax},
+  title        = {The Optimal Earth: A Paradigmatic Re-Rendition of Natural History from Coupled Improbability},
+  year         = {2026},
+  howpublished = {Preprint},
+  url          = {https://aethus.org},
+  note         = {The natural-history extension; the conditional observer-mass
+                  concentration theorem and the Optimal-Earth Conjecture.}
+}
+@article{Nexus,
+  author      = {Benander, Ajax},
+  title       = {Nexic Reasoning: Defining a Generalized Calculus Over Anthropic Parameters},
+  year        = {2024},
+  month       = {December},
+  url         = {https://philpapers.org/rec/BENNRD},
+  doi         = {10.31219/osf.io/jvkcp},
+  note        = {Manuscript; the anthropic wing's master, successive deposits
+                 December 2024--2026. Also at \url{https://osf.io/jvkcp}.
+                 This version: September 2026.}
+}
+@misc{Outliers,
+  author       = {Benander, Ajax},
+  title        = {Sequential Achievement and the Sharp Crossover in Outlier Productivity},
+  year         = {2026},
+  howpublished = {Preprint},
+  url          = {https://philpapers.org/rec/BENSAA-11},
+  note         = {The outlier-productivity study; first drafted March 2026.}
+}
+\end{filecontents}
+\begin{filecontents}[overwrite]{tech_refs.bib}
+% Policy: these locals cover what the shared refs.bib does not yet hold; refs.bib,
+% loading first, wins any duplicate-key collision with its richer canonical
+% entries.
+% MIGRATE AT MERGE --- Golden-branch siblings, absent from the September 19, 2026
+% canonical file. Add these to the shared refs.bib, whereupon (refs.bib loading
+% first) the copies below become shadowed. The key SurvA, recorded under
+% AethusGolden in that file, names GoldenSurvivorship, a distinct work.
+@misc{GoldenSurvivorship,
+  author       = {Benander, Ajax},
+  title        = {Survivorship Conditioning for Hazard Rates Driven at the Log-Derivative Level},
+  year         = {2026},
+  howpublished = {Working draft},
+  url          = {https://aethus.org},
+  note         = {The Golden branch's root extraction; the two-condition viability
+                  theorem with its piecewise driver-viability functional, the
+                  hard-wall and soft-wall conditioned laws, the certification
+                  ceiling, and the half-time theorem.}
+}
+@misc{GoldenTargeted,
+  author       = {Benander, Ajax},
+  title        = {Conditioning a Record on Its Own Future: Targeted Accordance and Survivorship-Conditioned Path Measures},
+  year         = {2026},
+  howpublished = {Working draft},
+  url          = {https://aethus.org},
+  note         = {The theorem extraction; future-targeted accordance under the
+                  conditioned draw, the multiplicity guard, and the Bayes-factor
+                  reading. Imports only GoldenSurvivorship.}
+}
+
+% External citations. Those not yet in the shared refs.bib should migrate there
+% at the author's merge; duplicates resolve in refs.bib's favor.
+@article{Bostrom19,
+  author  = {Bostrom, Nick},
+  title   = {The vulnerable world hypothesis},
+  journal = {Global Policy},
+  volume  = {10},
+  number  = {4},
+  year    = {2019},
+  pages   = {455--476}
+}
+@article{CSB10,
+  author  = {{\'C}irkovi{\'c}, Milan M. and Sandberg, Anders and Bostrom, Nick},
+  title   = {Anthropic shadow: observation selection effects and human extinction risks},
+  journal = {Risk Analysis},
+  volume  = {30},
+  year    = {2010},
+  pages   = {1495--1506}
+}
+@book{Cooper19,
+  author    = {Cooper, Keith},
+  title     = {The Contact Paradox: Challenging Our Assumptions in the Search for Extraterrestrial Intelligence},
+  publisher = {Bloomsbury Sigma},
+  address   = {London},
+  year      = {2019}
+}
+@article{Crary23,
+  author  = {Crary, Alice},
+  title   = {The toxic ideology of longtermism},
+  journal = {Radical Philosophy},
+  volume  = {2},
+  number  = {14},
+  year    = {2023},
+  pages   = {49--57}
+}
+@article{Dys60,
+  author  = {Dyson, Freeman J.},
+  title   = {Search for artificial stellar sources of infrared radiation},
+  journal = {Science},
+  volume  = {131},
+  number  = {3414},
+  year    = {1960},
+  pages   = {1667--1668}
+}
+@techreport{GM21,
+  author      = {Greaves, Hilary and MacAskill, William},
+  title       = {The case for strong longtermism},
+  institution = {Global Priorities Institute, University of Oxford},
+  type        = {Working Paper},
+  number      = {5-2021},
+  year        = {2021}
+}
+@article{HMMP21,
+  author  = {Hanson, Robin and Martin, Daniel and McCarter, Calvin and Paulson, Jonathan},
+  title   = {If loud aliens explain human earliness, quiet aliens are also rare},
+  journal = {The Astrophysical Journal},
+  volume  = {922},
+  year    = {2021},
+  pages   = {182}
+}
+@misc{Hume1748,
+  author       = {Hume, David},
+  title        = {An Enquiry Concerning Human Understanding},
+  year         = {1748},
+  howpublished = {London: A. Millar},
+  note         = {AUTHOR TO VERIFY the edition cited}
+}
+@article{Kar64,
+  author  = {Kardashev, N. S.},
+  title   = {Transmission of information by extraterrestrial civilizations},
+  journal = {Soviet Astronomy},
+  volume  = {8},
+  year    = {1964},
+  pages   = {217--221},
+  note    = {Russian original, \emph{Astronomicheskii Zhurnal} \textbf{41} (1964), 282--287.}
+}
+@incollection{MacAskill22,
+  author    = {MacAskill, William},
+  title     = {Are we living at the hinge of history?},
+  booktitle = {Ethics and Existence: The Legacy of Derek Parfit},
+  publisher = {Oxford University Press},
+  year      = {2022}
+}
+@book{Ord20,
+  author    = {Ord, Toby},
+  title     = {The Precipice: Existential Risk and the Future of Humanity},
+  publisher = {Bloomsbury},
+  address   = {London},
+  year      = {2020}
+}
+@book{Parfit84,
+  author    = {Parfit, Derek},
+  title     = {Reasons and Persons},
+  publisher = {Oxford University Press},
+  address   = {Oxford},
+  year      = {1984}
+}
+@misc{Plutarch,
+  author       = {Plutarch},
+  title        = {Whether Land or Sea Animals Are Cleverer (\emph{De sollertia animalium}), in \emph{Moralia}},
+  howpublished = {Classical source, cited by section},
+  note         = {\S7; the saying is attributed there to Bion of Borysthenes.}
+}
+@misc{Torres21,
+  author       = {Torres, {\'E}mile P.},
+  title        = {Against longtermism},
+  howpublished = {Aeon},
+  year         = {2021}
+}
+\end{filecontents}
 \documentclass[11pt]{article}
 \usepackage[margin=1.1in]{geometry}
 \usepackage{amsmath,amssymb,amsthm,mathtools}
 \usepackage{booktabs,graphicx,enumitem,url,xcolor}
 \usepackage[colorlinks=true,linkcolor=blue!50!black,citecolor=blue!50!black,urlcolor=blue!50!black]{hyperref}
+\usepackage[style=numeric, sorting=none]{biblatex}
+% Load order: refs.bib first, so canonical entries win duplicate-key resolution (biber first-wins).
+\addbibresource{refs.bib}
+\addbibresource{tech_fallback.bib}
+\addbibresource{tech_refs.bib}
+\renewcommand*{\bibfont}{\small}
 \newcommand{\E}{\mathbb{E}}
 \newcommand{\PP}{\mathbb{P}}
 \newcommand{\R}{\mathbb{R}}
@@ -39,8 +227,8 @@
 \author{Ajax Benander\thanks{Email:
 \href{mailto:akb9408@rit.edu}{akb9408@rit.edu}. This paper develops the
 existential-risk consequences of a survivorship model proved in a companion in
-applied probability \cite{SurvA}, with the target-conditioning
-machinery owned by the theorem companion \cite{TargetedB1}; both are
+applied probability \cite{GoldenSurvivorship}, with the target-conditioning
+machinery owned by the theorem companion \cite{GoldenTargeted}; both are
 cited and restated, neither presupposed, and no downstream paper is
 cited. Drafting
 collaboration: Anthropic Claude (Opus~4.x, Fable~5), under the author's
@@ -60,7 +248,7 @@ favorable driver dynamics and a prerequisite schedule that is actually
 cleared; on the schedule model entered here, whose leak law is
 stipulated, the sign is being settled now at the highest leverage in the
 record and conditioning on survival prefers that it be settled early;
-and no event of bounded duration can certify which way it has gone. Four consequences
+and no event of bounded duration certifies which path law generated the record, which is the narrower claim the certification limit supports. Inability to certify which path law generated a finite record does not by itself imply inability to identify an anatomy parameter through other measurements. Four consequences
 are drawn. The metric critique: an index of capability ranks worlds wrong
 in both directions, and the Kardashev scale measures visibility, not
 viability. The schedule: a third hazard channel, the gated sequence of
@@ -112,14 +300,13 @@ the schedule model entered here, whose leak law is stipulated, the sign
 is being settled now at the highest leverage in the record, conditioning
 on survival prefers that it be settled early, and past a survival-time
 threshold the same conditioning prefers the schedule pushed, tilted
-toward better completion states; and no event of bounded duration can certify which way it
-has gone.
+toward better completion states; and no event of bounded duration certifies which path law generated the record, which is the narrower claim the certification limit supports.
 
 \emph{What is imported.} The companion in applied probability
-\cite{SurvA} proves the two-condition theorem on which the claim rests,
+\cite{GoldenSurvivorship} proves the two-condition theorem on which the claim rests,
 the model it is stated in, and the ceiling theorem that no finite
 observation of a surviving path distinguishes the survivorship-conditioned
-law from the unconditioned one. The theorem companion \cite{TargetedB1} supplies the general
+law from the unconditioned one. The theorem companion \cite{GoldenTargeted} supplies the general
 machinery for records drawn under target-conditioned laws, used here
 only where a result consumes it directly. The target this paper works with is the survivorship companion's own
 viability event, the state past which the external channel is driven to
@@ -132,10 +319,10 @@ Section~\ref{sec:imports} at its grade; nothing later depends on more
 than is stated there.
 \emph{Position in the branch.} The Golden branch is four papers in a
 strict order of import, and the citation graph runs the same way as the
-logic. The survivorship companion \cite{SurvA} is the root and owns the
+logic. The survivorship companion \cite{GoldenSurvivorship} is the root and owns the
 hazard model, the viability theorem, the half-time theorem, and the
 hard-wall and soft-wall conditioned laws; the theorem companion
-\cite{TargetedB1} owns the general result on records drawn under
+\cite{GoldenTargeted} owns the general result on records drawn under
 target-conditioned laws and the model-comparison machinery, and imports
 only the survivorship companion; this paper imports both and owns the
 strength/anatomy distinction, the prerequisite schedule, and the
@@ -204,7 +391,7 @@ the schedule is not yet exhausted.
 
 \section{Imported results}\label{sec:imports}
 
-\begin{definition}[The model; from \cite{SurvA}]\label{imp:model}
+\begin{definition}[The model; from \cite{GoldenSurvivorship}]\label{imp:model}
 The total hazard is $h_t=B_t\varsigma_b(x_t)+\Gamma e^{-\rho x_t}$: an
 external background $B$ muffled by a bounded logistic factor of the
 accumulated capacity $x_t=\int_0^t\mu$, plus an internal term the same
@@ -215,7 +402,7 @@ the event $\{\Lambda_\infty<\infty\}$ that the total hazard ever accrued
 stays finite.
 \end{definition}
 
-\begin{definition}[The viability target; from \cite{SurvA}]\label{imp:goldenpoint}
+\begin{definition}[The viability target; from \cite{GoldenSurvivorship}]\label{imp:goldenpoint}
 The target is the survivorship companion's viability event, the state
 past which the external channel is driven to zero and the total hazard
 ever accrued stays finite; its complement is Departure. The names
@@ -226,7 +413,7 @@ record is drawn under conditioning on this target, belong to the
 downstream Route World companion and are not assumed.
 \end{definition}
 
-\begin{theorem}[Two conditions for viability; \textbf{[P]} in \cite{SurvA}]
+\begin{theorem}[Two conditions for viability; \textbf{[P]} in \cite{GoldenSurvivorship}]
 \label{imp:twocond}
 For $\rho\le0$ viability is null for every parameter value and every
 driver. For $\rho>0$,
@@ -242,7 +429,7 @@ ascent that is a fall.
 \end{theorem}
 
 \begin{theorem}[Adverse credit occupies half of logarithmic time in the
-critical regime; \textbf{[P]} in \cite{SurvA}]\label{imp:half}
+critical regime; \textbf{[P]} in \cite{GoldenSurvivorship}]\label{imp:half}
 For the driftless driver, the set of times at which the credit sits below
 its initial value has logarithmic density exactly one half, almost
 surely, for every initial datum; the statement is confined to the
@@ -250,7 +437,7 @@ critical recurrent regime and fails for any driver whose credit is
 transient.
 \end{theorem}
 
-\begin{theorem}[The ceiling; \textbf{[P]} in \cite{SurvA}]\label{imp:ceiling}
+\begin{theorem}[The ceiling; \textbf{[P]} in \cite{GoldenSurvivorship}]\label{imp:ceiling}
 In the critical regime the survivorship-conditioned law converges, in the
 hard-wall model, to the Doob transform by the persistence-harmonic
 function, $Q^{\mathrm{hard}}$, proved, with the soft-wall law
@@ -269,7 +456,7 @@ which measure a record is under.
 biosphere has accumulated, positive when its own organization holds its
 hazard below background and negative when it holds it above.
 \emph{Technoanatomy} is the exponent $\rho$ of
-the survivorship companion \cite{SurvA}, the sign of
+the survivorship companion \cite{GoldenSurvivorship}, the sign of
 $-\partial_x\log h^{\mathrm{int}}$: whether acquiring capacity lowers or
 raises the biosphere's hazard \emph{to itself}.
 
@@ -280,7 +467,7 @@ critical driftless regime, however well constituted, spends exactly half
 of logarithmic time with its credit below its initial level. Technoanatomy is a \emph{structural property}: it does not
 fluctuate at all, it says what capacity does when acquired, and
 $\rho<0$ names the biosphere whose own strength is turned against it,
-which is what the survivorship companion \cite{SurvA} means by eating oneself.
+which is what the survivorship companion \cite{GoldenSurvivorship} means by eating oneself.
 \emph{Adverse strength} is $x<0$; \emph{adverse anatomy} is $\rho<0$,
 and only the second is a defect.
 \end{definition}
@@ -307,9 +494,9 @@ logarithmic time --- which is precisely why it cannot be what
 
 \paragraph{Numerical methods.} All figures reported in this subsection,
 in \S\ref{gr:subsub:anatsel}, in the broader Golden program, and in
-the numerical check under the survivorship companion \cite{SurvA} were
+the numerical check under the survivorship companion \cite{GoldenSurvivorship} were
 produced by direct Monte Carlo on the two-channel model, using the exact
-Gaussian update of the survivorship companion \cite{SurvA} for the driver-credit pair
+Gaussian update of the survivorship companion \cite{GoldenSurvivorship} for the driver-credit pair
 and forward Euler for the background exponentials, at step
 $\Delta=10^{-3}$. Conditioning on $\{T>t\}$ was performed by rejection, particles were killed by the Cox rule and the survivors reweighted
 uniformly, so the conditioned estimates are $\PP^{(T)}$ estimates and
@@ -445,7 +632,7 @@ which is a scheduling failure and not a self-inflicted one.
 The internal channel of Definition~\ref{imp:model} is narrower: hazard the
 biosphere inflicts on itself with capacity it has acquired, whose
 response to that capacity is the technoanatomy $\rho$ of
-the survivorship companion \cite{SurvA}.
+the survivorship companion \cite{GoldenSurvivorship}.
 
 The two senses are a category and one of its members. This work uses
 \emph{endogenous} for the companion's residue and reserves
@@ -481,7 +668,7 @@ realized option. Write
 so that gate $k$ fires at rate $\lambda_k$ and resolves to the realized
 option with probability $\pi_k$. Write $k_t$ for the number of gates
 passed by time $t$. The \emph{onset state} is $k=n$: the first state at
-which the muffling exponent $x$ of the survivorship companion \cite{SurvA} can be held at all.
+which the muffling exponent $x$ of the survivorship companion \cite{GoldenSurvivorship} can be held at all.
 \end{definition}
 
 The rates are the primitives and $\lambda_k,\pi_k$ are read off them,
@@ -601,7 +788,7 @@ fast at gate after gate. The appearance of an optimal path threaded
 through a combinatorial mess is what survivorship does to a log-spread
 rate landscape, and requires no optimization to produce it. This is the
 Optimal-Earth phenomenology arriving from the schedule's own machinery
-rather than being assumed alongside it \cite{Nexus, Ben26Optimal}.
+rather than being assumed alongside it \cite{Nexus,AethusOptimalEarth}.
 
 \subsection{Incompleteness decays capacity}\label{sch:subsub:leak}
 
@@ -611,7 +798,7 @@ Definition~\ref{imp:model}, which states that there is no capacity
 parameter and no leak; the departure is deliberate and is confined.
 
 \begin{definition}[Staged leak; \textbf{[S]}]\label{sch:def:leak}
-Replace the survivorship companion \cite{SurvA} and the survivorship companion \cite{SurvA} by
+Replace the survivorship companion \cite{GoldenSurvivorship} and the survivorship companion \cite{GoldenSurvivorship} by
 \begin{equation}\label{sch:eq:leak}
 dx_t=\mu_t\,dt-\gamma_{k_t}x_t\,dt,
 \qquad
@@ -638,7 +825,7 @@ only conditional on remaining at one stage $k$ throughout $[0,t]$: the
 credit is still the integral of the driver, accumulated additively,
 with each increment buffered by a multiplicative decay from the moment
 it lands, the decay rate being whatever stage is open when it lands. The leak is
-not an alternative to the survivorship companion \cite{SurvA} but a discounting of it. The second equation is the same commitment one derivative up, and it is
+not an alternative to the survivorship companion \cite{GoldenSurvivorship} but a discounting of it. The second equation is the same commitment one derivative up, and it is
 what the picture requires rather than an extra assumption. The driver
 $\mu=-\tfrac{d}{dt}\log h$ is an \emph{improvement rate}, and a rate of
 improvement is something an agent supplies. Before the onset state there
@@ -692,7 +879,7 @@ them.
 
 The price is that the incomplete regime has its own asymptotics --- and
 they can be given, which is the next proposition's business. The
-persistence problem is not the one the survivorship companion \cite{SurvA} solves, and
+persistence problem is not the one the survivorship companion \cite{GoldenSurvivorship} solves, and
 its exponent does not carry.
 \end{remark}
 
@@ -728,11 +915,11 @@ the schedule is worth climbing.
 Section~\ref{sec:imports} establishes that the completed model departs with
 probability one and yet has infinite life expectancy: the tail is
 $t^{-1/4}$, residual life is Pareto, quantiles grow as the fourth power
-of rarity, and the effective hazard is $1/4t$ --- falling at every age.
+of rarity, and the effective hazard is $1/4t$ --- falling at every age. The threshold is a late-time crossover asymptotic: an asymptotic $C\,t^{-1/4}$ cannot be inserted into the exact posterior formula to establish a unique switch at every time.
 By \eqref{sch:eq:incompletetail} the incomplete regime has none of it.
 An exponential tail has finite expectation, memoryless residual life,
 quantiles growing logarithmically, and a hazard that does not fall at
-all. \emph{Every consequence of the survivorship companion \cite{SurvA} is a
+all. \emph{Every consequence of the survivorship companion \cite{GoldenSurvivorship} is a
 consequence of having completed}, and none of it is available before.
 
 Two readings follow, and the second is structural. The Lindy structure is a \emph{reward} rather than a property. A
@@ -800,7 +987,7 @@ consequences are those of the broader Golden program.
 \begin{remark}[The external term is small only because the schedule
 succeeded]\label{sch:rem:reliance}
 Read at $x>0$ the crest channel is the least of the model's worries: it
-is bounded above by the survivorship companion \cite{SurvA}, it is shielded
+is bounded above by the survivorship companion \cite{GoldenSurvivorship}, it is shielded
 without limit as capacity accumulates, and beside an unbounded internal
 channel it looks like one measly term. That reading presupposes what the
 schedule supplies. Run the dependency out. Shielding is the factor $\varsigma_b(x)$;
@@ -1349,9 +1536,8 @@ schedule; \textbf{[P]} given the model]\label{sch:prop:threshold}
 Consider a biosphere whose histories fall into two classes: the
 \emph{unpushed}, which never complete the schedule and survive to $t$
 with probability $e^{-(B+\Gamma)t}$, and the \emph{pushed}, which
-complete it, an event of unconditional probability $p$, and thereafter
-survive with probability $\asymp Ct^{-1/4}$ in the critical regime
-(the persistence tail of \cite{SurvA}) or with positive probability in the viable
+complete it, an event of unconditional probability $p$, and thereafter survive with probability asymptotically $C t^{-1/4}$ as $t \to \infty$ in the critical regime, completion assumed to occur at a time of finite mean before $t$, the posterior statement below being asymptotic in $t$ and not exact at any finite $t$
+(the persistence tail of \cite{GoldenSurvivorship}) or with positive probability in the viable
 one. Then:
 \begin{enumerate}[label=\emph{(\roman*)},itemsep=2pt]
 \item the posterior weight of the pushed class given survival to $t$ is
@@ -1375,7 +1561,7 @@ $28/(B+\Gamma)$ and no more;
 each route $r$ through the schedule by its survival weight, and as
 $t\to\infty$ the ratio of two routes' weights converges to the ratio of
 their persistence-harmonic prefactors at completion,
-$\hm(X^{(r)}_\tau)/\hm(X^{(r')}_{\tau'})$ (the conditioned-law theorem of \cite{SurvA}), so the
+$\hm(X^{(r)}_\tau)/\hm(X^{(r')}_{\tau'})$ (the conditioned-law theorem of \cite{GoldenSurvivorship}), so the
 conditioned law \emph{tilts} the completed-route distribution by the
 persistence-harmonic prefactor at completion, toward better completion
 states; two routes with prefactors in the ratio $2{:}1$ keep limiting
@@ -1397,7 +1583,7 @@ probabilities; the limit follows because $t^{-1/4}$ dominates
 $e^{-(B+\Gamma)t}$. (ii) is the balance equation of (i) solved for
 $T_\ast$, with the asymptotic form from neglecting the logarithmic
 term. (iii): conditioning on $\{T>t\}$ weights a route by
-$\PP(T>t\mid\text{route})$, which by the conditioned-law theorem of \cite{SurvA} is
+$\PP(T>t\mid\text{route})$, which by the conditioned-law theorem of \cite{GoldenSurvivorship} is
 $\asymp C\,\hm(X_\tau)\,t^{-1/4}$ with the prefactor set by the completion
 state, so ratios of route weights converge to ratios of $\hm$ at
 completion, which is the tilt; concentration would require the ratio of
@@ -1441,16 +1627,16 @@ had merely lasted.
 \label{sch:rem:initialdata}
 \eqref{sch:eq:composite} makes an identification that should be stated plainly:
 \emph{the completion state is the initial datum} that
-the survivorship companion \cite{SurvA} takes as given. The model begins where the
+the survivorship companion \cite{GoldenSurvivorship} takes as given. The model begins where the
 schedule ends, and the schedule delivers not a point but a distribution
 over points --- shaped by how long the debt took to clear and how far
 $x$ decayed while it did.
 
-By the survivorship companion \cite{SurvA} the initial data are gauge: they act
+By the survivorship companion \cite{GoldenSurvivorship} the initial data are gauge: they act
 through prefactors and timescales, never through exponents. So the
 schedule cannot move the persistence exponent $\tfrac14$, cannot move
 the trichotomy, and cannot move the two-condition theorem. What it sets
-is the prefactor --- and by the survivorship companion \cite{SurvA} the prefactor
+is the prefactor --- and by the survivorship companion \cite{GoldenSurvivorship} the prefactor
 is proportional to the persistence-harmonic function $\hm$ of the
 starting state. That is the same $\hm$ the Golden Score computes
 (the broader Golden program), and the broader Golden program records as
@@ -1465,7 +1651,7 @@ lead and claim nothing \textbf{[O]}.
 \begin{remark}[The variational form, stated and not solved]
 \label{sch:rem:variational}
 The second factor of \eqref{sch:eq:composite} is a conditioned path
-problem, and the survivorship companion \cite{SurvA} already names the tool: the
+problem, and the survivorship companion \cite{GoldenSurvivorship} already names the tool: the
 adverse-drift rate and its front-load-then-coast profile come from the
 Cameron--Martin action by Cauchy--Schwarz, the model's analog of an
 Euler--Lagrange computation and the natural processing step wherever a
@@ -1536,7 +1722,7 @@ coordinates, and the construction's use is heuristic --- it says what one
 would look for, and becomes a derivation only if the gates are named.
 
 Three things follow, and the second is the reason to record this. \emph{The anatomy trichotomy becomes a compounding test.}
-the survivorship companion \cite{SurvA} divides on the sign of $\rho$;
+the survivorship companion \cite{GoldenSurvivorship} divides on the sign of $\rho$;
 under \eqref{sch:eq:internalgates} that is $q$ against $1$ --- patching
 outpacing creation, matching it, or falling behind. \emph{And it is then the same test the schedule already runs.}
 Remark~\ref{sch:rem:criticality} calls $\varkappa=1$ the anatomy threshold's
@@ -1620,7 +1806,7 @@ $n$ are what the companion's serial-attribute program
 makes that program's task easier rather than harder, since
 $c_{\mathrm{eff}}$ need no longer be estimated directly but follows from
 three quantities a historian might plausibly bound.
-the survivorship companion \cite{SurvA}'s reservation applies with full force
+the survivorship companion \cite{GoldenSurvivorship}'s reservation applies with full force
 throughout: a scored schedule index would be a measurement apparatus
 optimized against, which is the failure the channel exists to price.
 
@@ -1749,7 +1935,7 @@ is not a separate phenomenon that happens to be visible; it is the
 third term operating. The standing conviction that golden causality
 is more visible than the internal and external channels would
 suggest is on this reading not a resolution artifact of the
-attribute level (the survivorship companion \cite{SurvA}); it is
+attribute level (the survivorship companion \cite{GoldenSurvivorship}); it is
 channel identity, accordance-legible concentrations being schedule
 steps landing. This sharpens that remark's open question into an
 identification carried at \textbf{[S]}, and it carries a scoreable
@@ -1760,7 +1946,7 @@ than spreading uniformly over the record, and a uniform spread would
 count against it.
 
 The class of events in question is the sequential-achievement class
-\cite{Ben25Seq}, and its citable historical exemplar keeps the
+\cite{Outliers}, and its citable historical exemplar keeps the
 discussion honest about magnitudes: Newton's occurrence when he
 occurred, the quantile of intellectual horsepower struck at that
 point of the process, was an event of low probability relative to
@@ -1778,7 +1964,7 @@ admissible candidate instance of the class. Like any modern fluke it
 is available to the inference of the downstream Route World hypothesis at
 the audit's rate: its route-deleting character must be established
 case by case against the retrospective-target null of
-the theorem companion \cite{TargetedB1}, and where it is established the
+the theorem companion \cite{GoldenTargeted}, and where it is established the
 fluke moves credence toward the Route World exactly as any observed
 schedule step does (Remark~\ref{sch:rem:thirdceiling}), since the
 ceiling constrains the certification of the stochastic terms' law and
@@ -1953,7 +2139,7 @@ evidence accumulates, the place where the deflation ``we would
 observe this regardless'' fails. The discipline is retained in full:
 amplification proceeds only at the audit's rate, route-deletion
 established case by case against the retrospective-target null
-(the theorem companion \cite{TargetedB1}), the clustering texture of
+(the theorem companion \cite{GoldenTargeted}), the clustering texture of
 Remark~\ref{sch:rem:notexhausted} standing as the scoreable check,
 and ``the only explanation'' read throughout as ``favored over the
 stated rivals,'' at \textbf{[S]}.
@@ -2063,14 +2249,7 @@ negative anatomy coincides with positive strength, and a negative
 excursion of $\rho$ that systematically coincides with $x_t\le0$ costs
 nothing. What fluctuating anatomy implies in general, when the
 excursions of $\rho$ and of $x$ are not coupled by hypothesis, is open
-\textbf{[O]}. Viability
-therefore requires $\rho_t$ to be eventually positive almost surely,
-transient upward, or absorbed above some $\rho_c>0$, and the
-two-condition theorem becomes a \emph{two-transience} condition:
-$\PP(\text{viable})=\PP(\rho_t\text{ eventually favorable and }x_t\text{
-viable})$, a joint probability, which is a product of two scale
-functions only when the anatomy and the driver are independent, and
-the anatomy generated by the schedule is not.
+\textbf{[O]}. Viability does not therefore require $\rho_t$ to be eventually positive: a viable driver with $x_t/t \to 1$ and anatomy negative only on intervals $[n, n + e^{-3n}]$ has negative anatomy recurring arbitrarily late with summable hazard contributions, and positivity alone does not control the magnitude of $\rho_t x_t$. The general dynamic question is the integrability of $e^{-\rho_t x_t}$, and the earlier \emph{two-transience} reading of the two-condition theorem is withdrawn until stronger assumptions establish it, the overlap result above being what is proved. Whether viability admits any product decomposition over anatomy and driver is a separate conjecture, precisely specifiable only once the coupling of their excursions is fixed, and it is not asserted here.
 \end{corollary}
 
 \section{Application: the Kardashev scale, and what the sign result refutes}\label{sec:refutes}
@@ -2103,7 +2282,7 @@ monotone in it, and cannot be inferred from it.
 
 The objection is therefore not that the ladder has no top but that
 \emph{climbing it is neither necessary nor sufficient for reaching the
-top}. Worse, by the survivorship companion \cite{SurvA}, a biosphere with
+top}. Worse, by the survivorship companion \cite{GoldenSurvivorship}, a biosphere with
 $\rho<0$ that climbs fast does not merely fail to arrive: its hazard
 diverges superexponentially in the very capacity the scale is
 measuring. A scale indexed on capture alone cannot distinguish the
@@ -2323,7 +2502,7 @@ the broader Golden program(ii) a biosphere with $\rho<0$ has
 viability probability \emph{exactly zero} however much capacity it
 acquires; by (i) its viability is zero where a $\rho>0$ biosphere's is
 positive; and by
-the survivorship companion \cite{SurvA} acquiring capacity faster makes its
+the survivorship companion \cite{GoldenSurvivorship} acquiring capacity faster makes its
 position worse, since $x\to\infty$ with $\rho<0$ drives hazard to
 infinity superexponentially. An argument that trades internal cohesion
 for external capacity, offered in the name of the long-run future, is
@@ -2365,7 +2544,7 @@ serious one the field possesses: the periodization of Ord's
 everything in the existential-risk literature, the Precipice's central
 definition is the nearest approach to the losing condition as this
 framework draws it, and the methodology companion's discipline applies
-with full force to nearest neighbors \cite{Ben26Method}: where a
+with full force to nearest neighbors \cite{AethusMethodology}: where a
 position is close, the deltas must be named exactly, because a dense
 neighborhood is precisely where a distinct position gets misfiled as a
 variant of what each reader already holds. The deltas here are three, the quantity, the shape of time, and the endpoint, and each is
@@ -2488,7 +2667,7 @@ certifying it, rather than security as a date.
 
 \paragraph{A corollary: the hinge dissolves rather than resolves.}
 The debate downstream of the Precipice, whether the present is the
-``hinge of history'' \cite{MacAskill22, GM21}, is conducted on a
+``hinge of history'' \cite{MacAskill22,GM21}, is conducted on a
 shared assumption this framework denies: that hingeness is
 categorical, so that the present either is or is not the special
 moment. The framework's answer is neither side's. Every present is the
@@ -2528,7 +2707,7 @@ subsection corrects and whose urgency it keeps.
 
 \paragraph{The provenance pattern, recorded once.} The engagement
 instantiates the methodology companion's criterion exactly
-\cite{Ben26Method}: the nearest neighbor's \emph{definition} already
+\cite{AethusMethodology}: the nearest neighbor's \emph{definition} already
 contains the correction, destruction of potential \emph{is}
 closure of possibility, while the neighborhood's density is what
 kept the modal formalization unoccupied, each camp filing the vacancy
@@ -2555,7 +2734,7 @@ the premise the first leans on.
 
 The fence is stated hard, on the companion's discipline that an
 apparatus which prices what it claims must also refuse what it does not
-\cite{Ben26Optimal}. It is not claimed that any observed system is Golden, ideally or
+\cite{AethusOptimalEarth}. It is not claimed that any observed system is Golden, ideally or
 practically; by Theorem~\ref{imp:ceiling} the ideal version is
 unknowable to any finite observer (the broader Golden program) and
 the practical version is out of reach for want of an ensemble. It is not claimed that the companion's cosmic
@@ -2686,66 +2865,5 @@ in the disclaimer. The Kardashev scale measures how visible a
 civilization is. The variable that decides whether it lasts is not on
 any scale, because it is a sign.
 
-\begin{thebibliography}{99}\small
-\bibitem{Ben25Seq} A.~K.~Benander, \emph{Sequential achievement},
-companion manuscript (AUTHOR TO VERIFY title and year).
-\bibitem{Ben26Method} A.~Benander, methodology companion (title to be
-supplied by the author at merge), working draft, 2026.
-\bibitem{Ben26Optimal} A.~Benander, \emph{The Optimal Earth: A
-Paradigmatic Re-Rendition of Natural History from Coupled
-Improbability}, working draft, 2026.
-
-\bibitem{Bostrom19} N.~Bostrom, \emph{The vulnerable world
-hypothesis}, Global Policy \textbf{10} (2019), no.~4, 455--476.
-
-\bibitem{CSB10} M.~M.~{\'C}irkovi{\'c}, A.~Sandberg, and N.~Bostrom,
-\emph{Anthropic shadow: observation selection effects and human
-extinction risks}, Risk Analysis \textbf{30} (2010), 1495--1506.
-\bibitem{Cooper19} K.~Cooper, \emph{The Contact Paradox:
-Challenging Our Assumptions in the Search for Extraterrestrial
-Intelligence}, Bloomsbury Sigma, London, 2019.
-
-\bibitem{Crary23} A.~Crary, \emph{The toxic ideology of
-longtermism}, Radical Philosophy \textbf{2} (2023), no.~14, 49--57.
-
-\bibitem{Dys60} F.~J.~Dyson, \emph{Search for artificial stellar
-sources of infrared radiation}, Science \textbf{131} (1960), no.~3414,
-1667--1668.
-
-\bibitem{GM21} H.~Greaves and W.~MacAskill, \emph{The case for
-strong longtermism}, Global Priorities Institute Working Paper 5-2021,
-University of Oxford, 2021.
-
-\bibitem{HMMP21} R.~Hanson, D.~Martin, C.~McCarter, and J.~Paulson,
-\emph{If loud aliens explain human earliness, quiet aliens are also
-rare}, Astrophys.\ J. \textbf{922} (2021), 182.
-\bibitem{Hume1748} D.~Hume, \emph{An Enquiry Concerning Human
-Understanding}, 1748 (AUTHOR TO VERIFY edition).
-\bibitem{Kar64} N.~S.~Kardashev, \emph{Transmission of
-information by extraterrestrial civilizations}, Soviet Astronomy
-\textbf{8} (1964), 217--221; Russian original, Astron.\ Zh.\
-\textbf{41} (1964), 282--287.
-
-\bibitem{MacAskill22} W.~MacAskill, \emph{Are we living at the hinge of
-history?}, in Ethics and Existence: The Legacy of Derek Parfit, Oxford
-University Press, 2022.
-\bibitem{Nexus} A.~Benander, \emph{Nexic Reasoning: Defining
-a Generalized Calculus Over Anthropic Parameters}, 2024,
-\texttt{doi:10.31219/osf.io/jvkcp}.
-
-\bibitem{Ord20} T.~Ord, \emph{The Precipice: Existential Risk and the
-Future of Humanity}, Bloomsbury, London, 2020.
-\bibitem{Parfit84} D.~Parfit, \emph{Reasons and Persons}, Oxford
-University Press, Oxford, 1984.
-\bibitem{Plutarch} Plutarch, \emph{Whether Land or Sea Animals Are
-Cleverer} (\emph{De sollertia animalium}), \S7, in \emph{Moralia};
-the saying is attributed there to Bion of Borysthenes.
-
-\bibitem{Torres21} \'E.~P.~Torres, \emph{Against longtermism},
-Aeon, 2021.
-
-\bibitem{SurvA} A.~Benander, \emph{Survivorship conditioning for hazard rates driven at the log-derivative level}, working draft, 2026.
-\bibitem{TargetedB1} A.~Benander, \emph{Conditioning a record on its own future: targeted accordance and survivorship-conditioned path measures}, working draft, 2026.
-
-\end{thebibliography}
+\printbibliography
 \end{document}
