@@ -524,3 +524,12 @@ Very cool, thanks\! So to confirm, right, we still have that central constraint 
 ## Entry 114, 6:38 PM, Sep 27, 2026
 
 Great, thanks, and glad to hear\! Sure sounds good to write any of this in, but also I want to check in that we also have our eye on the bigger ambition in doing so: even if only up to a higher abstraction rather than "precisely", the two Born paths you always have to get for a photon IS somehow a manifestation of the same thing that gives you the two connections on the spacetime manifold\! As in, in the least to some extent one is the analogue to gravity of what the other is for quantum particles, while both being instances of a single representation-independent "thing" so to speak\! Do you have any visibility into how to pursue this premise too, and if so please work it into v20 directly. Thank you\!\!\!
+
+## Entry 115, 6:41 PM, Sep 27, 2026
+
+Great, thanks, and glad to hear\! Sure sounds good to write any of this in, but also I want to check in that we also have our eye on the bigger ambition in doing so: even if only up to a higher abstraction rather than "precisely", the two Born paths you always have to get for a photon IS somehow a manifestation of the same thing that gives you the two connections on the spacetime manifold\! As in, in the least to some extent one is the analogue to gravity of what the other is for quantum particles, while both being instances of a single representation-independent "thing" so to speak\! Do you have any visibility into how to pursue this premise too, and if so please work it into v20 directly. Thank you\!\!\!  
+(And by the way one possible starting representation of this deeper idea is that you get almost a kind of gauge flexibility of sorts, in that you can offload construction/constraints toward uniquely defining the degrees of freedom of the system from quantum dual paths onto the Weyl decomp, and vice versa---that's the abstraction level where I'd start\!\!\!).
+
+## Entry 116, 6:46 PM, Sep 27, 2026
+
+Ha lol of COURSE it's possible\! Damn I've still got it\!
