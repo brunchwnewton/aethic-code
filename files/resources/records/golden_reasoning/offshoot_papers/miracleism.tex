@@ -1,9 +1,202 @@
+\begin{filecontents}[overwrite]{mir_fallback.bib}
+% Fallback copies of canonical corpus entries, loaded after the shared refs.bib,
+% which loads first and so wins every duplicate key (biber first-wins).
+% Every key below is canonical in the corpus bibliography of September 19, 2026.
+@article{Aethus,
+  author      = {Benander, Ajax},
+  title       = {Aethic Reasoning: A Comprehensive Solution to the Quantum Measurement Problem},
+  year        = {2024},
+  month       = {November},
+  url         = {https://philpapers.org/rec/BENARA-5},
+  eprint      = {https://philsci-archive.pitt.edu/id/eprint/25713},
+  eprinttype  = {Alternative URL},
+  note        = {Manuscript; the complete development of the framework, successive
+                 deposits November 2024--2026. PhilArchive version history at
+                 \url{https://philarchive.org/versions/BENARA-5}. This version: September 2026.}
+}
+@misc{AethusOptimalEarth,
+  author       = {Benander, Ajax},
+  title        = {The Optimal Earth: A Paradigmatic Re-Rendition of Natural History from Coupled Improbability},
+  year         = {2026},
+  howpublished = {Preprint},
+  url          = {https://aethus.org},
+  note         = {The natural-history extension; the conditional observer-mass
+                  concentration theorem and the Optimal-Earth Conjecture.}
+}
+@article{Nexus,
+  author      = {Benander, Ajax},
+  title       = {Nexic Reasoning: Defining a Generalized Calculus Over Anthropic Parameters},
+  year        = {2024},
+  month       = {December},
+  url         = {https://philpapers.org/rec/BENNRD},
+  doi         = {10.31219/osf.io/jvkcp},
+  note        = {Manuscript; the anthropic wing's master, successive deposits
+                 December 2024--2026. Also at \url{https://osf.io/jvkcp}.
+                 This version: September 2026.}
+}
+\end{filecontents}
+\begin{filecontents}[overwrite]{mir_refs.bib}
+% Policy: these locals cover what the shared refs.bib does not yet hold; refs.bib,
+% loading first, wins any duplicate-key collision with its richer canonical
+% entries.
+% MIGRATE AT MERGE --- Golden-branch siblings, absent from the September 19, 2026
+% canonical file. Add these to the shared refs.bib, whereupon (refs.bib loading
+% first) the copies below become shadowed. The key SurvA, recorded under
+% AethusGolden in that file, names GoldenSurvivorship, a distinct work.
+@misc{GoldenSurvivorship,
+  author       = {Benander, Ajax},
+  title        = {Survivorship Conditioning for Hazard Rates Driven at the Log-Derivative Level},
+  year         = {2026},
+  howpublished = {Working draft},
+  url          = {https://aethus.org},
+  note         = {The Golden branch's root extraction; the two-condition viability
+                  theorem with its piecewise driver-viability functional, the
+                  hard-wall and soft-wall conditioned laws, the certification
+                  ceiling, and the half-time theorem.}
+}
+@misc{GoldenTargeted,
+  author       = {Benander, Ajax},
+  title        = {Conditioning a Record on Its Own Future: Targeted Accordance and Survivorship-Conditioned Path Measures},
+  year         = {2026},
+  howpublished = {Working draft},
+  url          = {https://aethus.org},
+  note         = {The theorem extraction; future-targeted accordance under the
+                  conditioned draw, the multiplicity guard, and the Bayes-factor
+                  reading. Imports only GoldenSurvivorship.}
+}
+@misc{GoldenRouteWorld,
+  author       = {Benander, Ajax},
+  title        = {The Route World: A Golden-Reasoning Hypothesis of Biospheric Natural History},
+  year         = {2026},
+  howpublished = {Working draft},
+  url          = {https://aethus.org},
+  note         = {The terminal synthesis of the technical branch; the Golden Point,
+                  the Departure Point, the Continuity Principle, and the
+                  conditioned-record hypothesis with its prospective test.}
+}
+@misc{GoldenCivNature,
+  author       = {Benander, Ajax},
+  title        = {Is Civilization Anti-Nature? A Conditional Argument Against Capability Elimination and Capability Maximization, with a Viability Constraint for Alignment},
+  year         = {2026},
+  howpublished = {Working draft},
+  url          = {https://aethus.org},
+  note         = {The application extraction; the capability-decay lemma, the
+                  two-by-two viability picture, the winner's irony, and the
+                  biospheric viability boundary for alignment.}
+}
+
+% External citations. Those not yet in the shared refs.bib should migrate there
+% at the author's merge; duplicates resolve in refs.bib's favor.
+@article{Burrow25,
+  author  = {Pinkert, Stefan and Reuber, Vanessa and Krug, Lisa-Maria and Heidrich, Lea and Rehling, Finn and Brandl, Roland and Farwig, Nina},
+  title   = {Burrowing facilitated the survival of mammals in harsh and fluctuating climates},
+  journal = {Current Biology},
+  volume  = {35},
+  number  = {8},
+  year    = {2025},
+  pages   = {1779--1790.e3},
+  doi     = {10.1016/j.cub.2025.02.064}
+}
+@article{During22,
+  author  = {During, Melanie A. D. and others},
+  title   = {The {M}esozoic terminated in boreal spring},
+  journal = {Nature},
+  volume  = {603},
+  year    = {2022},
+  pages   = {91--94}
+}
+@book{Goff23,
+  author    = {Goff, Philip},
+  title     = {Why? The Purpose of the Universe},
+  publisher = {Oxford University Press},
+  year      = {2023}
+}
+@book{Gross18,
+  author    = {Gross, Alan G.},
+  title     = {The Scientific Sublime: Popular Science Unravels the Mysteries of the Universe},
+  publisher = {Oxford University Press},
+  year      = {2018}
+}
+@article{Kaiho2017,
+  author  = {Kaiho, Kunio and Oshima, Naga},
+  title   = {Site of asteroid impact changed the history of life on {E}arth: the low probability of mass extinction},
+  journal = {Scientific Reports},
+  volume  = {7},
+  year    = {2017},
+  pages   = {14855}
+}
+@incollection{MetzSEP,
+  author    = {Metz, Thaddeus},
+  title     = {The meaning of life},
+  booktitle = {The Stanford Encyclopedia of Philosophy},
+  editor    = {Zalta, Edward N. and Nodelman, Uri},
+  publisher = {Metaphysics Research Lab, Stanford University},
+  year      = {2021},
+  url       = {https://plato.stanford.edu/entries/life-meaning/},
+  note      = {First published 2007; substantive revision 2021.}
+}
+@book{Mulgan15,
+  author    = {Mulgan, Tim},
+  title     = {Purpose in the Universe: The Moral and Metaphysical Case for Ananthropocentric Purposivism},
+  publisher = {Oxford University Press},
+  year      = {2015}
+}
+@article{Nature2025Sulfur,
+  author  = {Rodiouchkina, Katerina and Goderis, Steven and Senel, Cem Berk and others},
+  title   = {Reduced contribution of sulfur to the mass extinction associated with the {C}hicxulub impact event},
+  journal = {Nature Communications},
+  volume  = {16},
+  year    = {2025},
+  pages   = {620}
+}
+@book{Scheffler13,
+  author    = {Scheffler, Samuel},
+  title     = {Death and the Afterlife},
+  publisher = {Oxford University Press},
+  address   = {New York},
+  year      = {2013}
+}
+@book{Weinberg77,
+  author    = {Weinberg, Steven},
+  title     = {The First Three Minutes},
+  publisher = {Basic Books},
+  year      = {1977}
+}
+@book{Wolf10,
+  author    = {Wolf, Susan},
+  title     = {Meaning in Life and Why It Matters},
+  publisher = {Princeton University Press},
+  year      = {2010}
+}
+@article{gardner1977mathematical,
+  author  = {Gardner, Martin},
+  title   = {Mathematical games: in which joining sets of points leads into diverse (and diverting) paths},
+  journal = {Scientific American},
+  volume  = {237},
+  year    = {1977},
+  pages   = {18--28}
+}
+@book{nietzsche1974gay,
+  author    = {Nietzsche, Friedrich},
+  title     = {The Gay Science},
+  translator = {Kaufmann, Walter},
+  publisher = {Vintage},
+  year      = {1974},
+  note      = {Original 1882.}
+}
+\end{filecontents}
 \documentclass[11pt]{article}
 \usepackage[margin=1.1in]{geometry}
 \usepackage{amsmath,amssymb,amsthm,mathtools}
 \usepackage{mathrsfs}
 \usepackage{booktabs,enumitem,url,xcolor}
 \usepackage[colorlinks=true,linkcolor=blue!50!black,citecolor=blue!50!black,urlcolor=blue!50!black]{hyperref}
+\usepackage[style=numeric, sorting=none]{biblatex}
+% Load order: refs.bib first, so canonical entries win duplicate-key resolution (biber first-wins).
+\addbibresource{refs.bib}
+\addbibresource{mir_fallback.bib}
+\addbibresource{mir_refs.bib}
+\renewcommand*{\bibfont}{\small}
 \newcommand{\E}{\mathbb{E}}
 \newcommand{\PP}{\mathbb{P}}
 \newcommand{\R}{\mathbb{R}}
@@ -29,14 +222,14 @@
 paper that imports its technical results rather than re-proving them:
 the Accordance Principle, the Rare-Earth inference, the High-Contrast
 Earth Hypothesis, and Optimal Earth from the Nexic companions
-\cite{Nexus,Ben26Optimal}; the survivorship model and its ceiling from
-\cite{SurvA}; future-targeted accordance from \cite{TargetedB1}; and the
-Golden Point and the Route World hypothesis from \cite{RouteWorld}. Its
+\cite{Nexus,AethusOptimalEarth}; the survivorship model and its ceiling from
+\cite{GoldenSurvivorship}; future-targeted accordance from \cite{GoldenTargeted}; and the
+Golden Point and the Route World hypothesis from \cite{GoldenRouteWorld}. Its
 own contribution is the interpretive argument, and every claim it makes
 is graded. Drafting collaboration: Anthropic Claude (Opus~4.x,
 Fable~5), under the author's direction; the first-person sites remain
 the author's to write.}}
-\date{September 2026 --- Working Draft, rev.~6.2}
+\date{September 2026 --- Working Draft, rev.~7.2}
 \begin{document}
 \maketitle
 
@@ -65,7 +258,7 @@ object into a live responsibility. That responsibility does not require a
 prior metaphysical tag of human worthiness: Miracleism treats moral
 predicates as attaching first to choices and trajectories, with
 person-level labels at most summaries of dispositions rather than
-primitive moral essences. The paper proceeds in the order the discovery would: the
+primitive moral essences. The paper proceeds in the order the proposed discovery would: the
 epistemic valley from premodern certainty through Nietzsche and
 Weinberg, in which the downward inference was rational on the evidence
 available; why construction cannot reverse the descent, stated as a
@@ -217,13 +410,13 @@ Accordance Principle is the constraint that Bayes' theorem returns from
 a Copernican draw together with the existence of the conditioning
 target: a realized attribute's prior improbability is compensated by
 its relevance to the target, with $\kappa$-fold violations confined to
-probability $1/(1+\kappa)$ \cite{Nexus,TargetedB1}. Run on the record,
+probability $1/(1+\kappa)$ \cite{Nexus,GoldenTargeted}. Run on the record,
 the principle yields the Rare-Earth inference under stated antecedents,
 and, with the High-Contrast Earth Hypothesis, the Optimal-Earth
 program: the realized natural history is not one ordinary member of a
 large equivalence class of living worlds but sits in an extraordinarily
 narrow region of the space of possible histories, and in a region the
-target picks out \cite{Ben26Optimal}. The grades of these steps are
+target picks out \cite{AethusOptimalEarth}. The grades of these steps are
 listed in Section~\ref{sec:ladder}; here their content is what matters.
 
 \begin{definition}[The two magnitudes]\label{def:magnitudes}
@@ -233,7 +426,7 @@ having survived to the present, and $G_T=\{T_{\mathrm{dep}}>T\}$ the
 horizon event that the biosphere survives to horizon $T$, the target
 being read through the horizon family because in the critical regime
 the event of indefinite survival is null and cannot be conditioned on
-directly \cite{SurvA,TargetedB1}. The \emph{surprisal} of $A^\ast$ is
+directly \cite{GoldenSurvivorship,GoldenTargeted}. The \emph{surprisal} of $A^\ast$ is
 \[
 I(A^\ast)=-\log\PP(A^\ast\mid C),
 \]
@@ -294,12 +487,9 @@ theorem companion supplies calibrated tail bounds and not an existence
 theorem, so the following is a proposition about records that have a
 certain structure and not a guarantee that any record has it.
 
-\begin{proposition}[No intrinsic ceiling on selection amplification;
-conditional]\label{prop:nested}
+\begin{proposition}[Unbounded amplification along a joint limit; conditional]\label{prop:nested}
 If the record admits an independently specified nested family of
-canonical partitions $A_1\supset A_2\supset A_3\supset\cdots$ for which
-$\PP(A_n\mid C)\to0$ while $\PP(A_n\mid G_T,C)$ stays bounded away from
-zero uniformly in $T$, then $\Mc_T(A_n;\Gc)\to\infty$ as $n\to\infty$:
+canonical partitions $A_1\supset A_2\supset A_3\supset\cdots$ for which $\PP(A_n \mid C) \to 0$ while, along a joint limit $T_n \to \infty$ with $\PP(G_{T_n} \mid C) \to 0$, $\PP(A_n \mid G_{T_n}, C)$ stays bounded away from zero, then $\Mc_{T_n}(A_n;\Gc) \to \infty$ as $n \to \infty$; at any fixed finite horizon $T$ with $\PP(G_T \mid C) > 0$ the amplification is bounded by $-\log \PP(G_T \mid C)$, a ceiling independent of descriptive refinement, so the absence of a ceiling is a statement about the joint limit and the order in which it is taken, never about a fixed horizon:
 the evidential contrast the method extracts has no ceiling set by the
 method, only by the record.
 \end{proposition}
@@ -386,37 +576,58 @@ structure, graded \textbf{[I]} on the companions' \textbf{[C]}, and not a
 proved consequence of Accordance alone; the ladder of
 Section~\ref{sec:ladder} is not suspended by the notation.
 
-\begin{definition}[Exotic structure, with witnesses; \textbf{[I]} on the
+\begin{definition}[Exotic structure, with higher-order witnesses; \textbf{[I]} on the
 companions' \textbf{[C]}]\label{def:exotic}
 Fix an admissible attribute basis $\mathfrak A_C$, chosen independently
 of any coupling claim, and quotient it by the framework's validity
 equivalence, $[A]=\{B:B\equiv^{V}_{C}A\}$, so that the vertices below
-lie in $\mathfrak A_C/{\equiv^{V}_{C}}$. For attributes $A_i,A_j$ let
+lie in $\mathfrak A_C/{\equiv^{V}_{C}}$. Fix a target attribute $A_j$
+and a nonempty context set $S\subseteq V\setminus\{A_j\}$. For each
+$i\in S$ write $A_i^{(1)}=A_i$ and $A_i^{(0)}=A_i'$, and for an
+assignment $\epsilon_S\in\{0,1\}^{S}$ let
+$\operatorname{Set}_{\epsilon_S}$ jointly settle every member of $S$
+to the state selected by $\epsilon_S$. Define the target effect of
+$A_j$ in that settled context by
 \[
-\Delta_j(A_i)=\log\frac{\PP\bigl(G_T\mid\operatorname{Set}_{A_i}(A_j,C)\bigr)}
-{\PP\bigl(G_T\mid\operatorname{Set}_{A_i}(A_j',C)\bigr)}
+\Delta_j(\epsilon_S)=
+\log\frac{\PP\bigl(G_T\mid
+\operatorname{Set}_{\epsilon_S}(A_j,C)\bigr)}
+{\PP\bigl(G_T\mid
+\operatorname{Set}_{\epsilon_S}(A_j',C)\bigr)}.
 \]
-be the log target effect of $A_j$ with $A_i$ settled, computed under
-the Aethic settling operator $\operatorname{Set}$ \cite{Aethus};
-ordinary conditioning, $\PP(G_T\mid A_j,A_i,C)$ against
-$\PP(G_T\mid A_j',A_i,C)$, is the special case in which both settled
-configurations are admissible and of positive weight, and where they
-are not, settling supplies the counterfactual and conditioning is not
-used. The dependency graph $\mathcal G_{\Ec}=(V,E)$ carries an edge
-$A_i\to A_j$ with weight
+This is computed under the Aethic settling operator
+$\operatorname{Set}$ \cite{Aethus}; ordinary conditioning is the
+special case in which the settled configurations are admissible and of
+positive weight. The pure interaction of the context $S$ on $A_j$ is
+the discrete mixed difference
 \[
-w_{ij}=\bigl|\Delta_j(A_i)-\Delta_j(A_i')\bigr|,
+\iota_{S\to j}
+=
+\sum_{\epsilon_S\in\{0,1\}^{S}}
+(-1)^{|S|-\sum_{i\in S}\epsilon_i}\,
+\Delta_j(\epsilon_S).
 \]
-the amount by which settling $A_i$ rather than its alternative changes
-$A_j$'s target effect. The finite witness $w_{ij}$ is defined on the positive-survival
-subgraph, where all four settled configurations carry positive target
-probability; structural zero-survival cases, in which settling forces
-$\PP(G_T\mid\cdot)=0$, enter $\Psi_{\Gc}$ as forcing relations rather
-than as finite edge weights, so that absolute incompatibilities belong
-to the closure structure and no difference of infinities arises. The
-\emph{null} is target-separability, $A_i\perp_{\Gc}A_j$ iff
-$\Delta_j(A_i)=\Delta_j(A_i')$, so that $w_{ij}=0$ means exactly that
-$A_i$ contributes nothing to $A_j$'s target role.
+For $S=\{A_i\}$ this reduces to
+$\iota_{\{i\}\to j}=\Delta_j(A_i)-\Delta_j(A_i')$, so the previous
+pairwise witness is recovered exactly as
+$w_{ij}=|\iota_{\{i\}\to j}|$. The dependency object is therefore a
+weighted directed \emph{interaction hypergraph}
+$\mathcal H_{\Ec}=(V,\mathcal H)$, carrying a hyperedge
+$S\to A_j$ whenever $\iota_{S\to j}\neq0$, with weight
+$|\iota_{S\to j}|$. A nonzero hyperedge says that the joint settled
+configuration of $S$ changes $A_j$'s target role in a way not exhausted
+by lower-order interaction terms.
+
+The finite interaction witness is used only on the positive-survival
+settling cube, where every target probability entering the mixed
+difference is positive. Structural zero-survival cases, in which a
+settling forces $\PP(G_T\mid\cdot)=0$, enter $\Psi_{\Gc}$ as forcing
+relations rather than as infinite hyperedge weights, so that absolute
+incompatibilities belong to the closure structure and no difference of
+infinities arises. At order $S$, the null is \emph{target-separability},
+$\iota_{S\to j}=0$; full target-separability requires this at every
+nonempty admissible order, not merely for singletons.
+
 Let $\Psi_{\Gc}$ be the monotone forcing operator that adds the
 attributes whose target-relevance commitments the current set forces,
 and define
@@ -432,40 +643,59 @@ A^{(0)}=A_{\mathrm{root}},\quad
 A^{(m+1)}=A^{(m)}\cup\Psi_{\Gc}\bigl(A^{(m)}\bigr),
 \]
 that is, the least fixed point containing $A_{\mathrm{root}}$; for a
-finite closure this is $\Ec=A^{(D)}$ at the first stabilization step. Its witnesses are the coupling
-$K(\Ec)=\sum_{(i,j)\in E}w_{ij}$; the depth
-$D(\Ec)=\min\{m:A^{(m+1)}=A^{(m)}\}$ for a finite closure; and the
+finite closure this is $\Ec=A^{(D)}$ at the first stabilization step.
+Its witnesses are the higher-order coupling
+\[
+K(\Ec)=\sum_{(S\to j)\in\mathcal H}|\iota_{S\to j}|,
+\]
+the depth
+$D(\Ec)=\min\{m:A^{(m+1)}=A^{(m)}\}$ for a finite closure, and the
 rarity of the realized conjunction the closure represents,
 $R(\Ec)=-\log\PP\bigl(\bigcap_{A\in V(\Ec)}A\mid C\bigr)$.
 \end{definition}
 
-\noindent Two guards accompany the definition. The null is
-target-separability and not statistical independence, because
-baseline-independent attributes can be jointly decisive for a target:
-two independent fair bits are each irrelevant alone and together
-determine their exclusive or, so an edgeless graph is defined by
-$w_{ij}=0$ and $\Psi_{\Gc}(A)=\varnothing$ and is never inferred from
-ordinary independence. And exotic grade is defined only on description classes modulo
-target-information-preserving refinement: if a refinement
-$A\mapsto\{A_1,\dots,A_m\}$ of a basis attribute carries jointly no
+\noindent Two guards accompany the definition. First, the null is
+higher-order target-separability and not statistical independence.
+Pairwise tests are insufficient. Let $A,B,C$ be independent fair
+bits and let a binary target $G$ be generated by a noisy parity rule:
+for some $0<\epsilon<\tfrac12$,
+\[
+\PP(G=1\mid A,B,C)=
+\begin{cases}
+1-\epsilon,&A\oplus B\oplus C=1,\\
+\epsilon,&A\oplus B\oplus C=0.
+\end{cases}
+\]
+Marginalizing the un-set bit makes every singleton context
+pairwise target-separable, while fixing the other two bits makes their
+joint mixed difference on the third nonzero. Thus a genuinely
+higher-order target coupling can be invisible to every pairwise witness
+even when all probabilities remain strictly positive. The hyperedge
+witness is introduced precisely so that such synergy cannot be
+misclassified as an edgeless reductive list. Ordinary dependence is
+neither necessary nor sufficient for the coupling claimed here.
+
+Second, exotic grade is defined only on description classes modulo
+refinements that preserve target information. If a basis attribute $A$
+is refined into $A_1,\dots,A_m$ and that refinement carries jointly no
 target-relevance information beyond $A$, the two descriptions are
 identified, and $K$, $D$, and $R$ are \emph{required to descend} to
-that quotient, duplicated edge weights being aggregated rather than
-summed. This is an admissibility condition on the basis and the
-witnesses, not a theorem derived from the definitions: the raw sum
-$K=\sum w_{ij}$ does not prove its own representation invariance, and
-a basis on which the witnesses fail to descend is inadmissible. It is
-the granularity guard that the microdescription guard on rarity
-requires here too. A
-mechanism assembled from target-separable pieces would be reductive,
-its graph edgeless, its depth zero, and its identity the list of its
-members. Exotic structure is precisely not that. Its identity
-resides partly in the relations, so that perturbing any major member
-reconfigures the rest and destroying the coupling destroys some of what
-the thing is rather than only the bookkeeping about it. The Nexic
-companion calls the optimal Aethus a knot, its parts standing where they
-do because the others do, and that is the word: organic rather than
-reductive. Rarity supplies the contrast. Coupling supplies the life.
+that quotient, duplicated interaction mass being aggregated rather
+than multiplied by redescription. This is an admissibility condition
+on the basis and the witnesses, not a theorem derived from the
+definitions: the raw hyperedge sum does not prove its own representation
+invariance, and a basis on which the witnesses fail to descend is
+inadmissible. It is the granularity guard that the microdescription
+guard on rarity requires here too. A mechanism with no forcing
+relations and no target interaction at any admissible order would be
+reductive, its interaction hypergraph empty, its depth zero, and its
+identity the list of its members. Exotic structure is precisely not
+that. Its identity resides partly in the relations, so that perturbing a
+major member reconfigures the rest and destroying the coupling destroys
+some of what the thing is rather than only the bookkeeping about it.
+The Nexic companion calls the optimal Aethus a knot, its parts standing
+where they do because the others do, and that is the word: organic
+rather than reductive. Rarity supplies the contrast. Coupling supplies the life.
 
 So the hierarchy of discovery is three stages and not one. Rarity, which
 makes one look. Coupling, which turns a list of accidents into a
@@ -560,10 +790,13 @@ preparation whose signs reverse under the day's realized lethality
 profile, a continental-scale thermal pulse in which the sky itself
 became the weapon, followed by impact winter. Under that profile, on
 that reading, the entries on the disadvantage list flip sign together:
-small means low metabolic demand through the winter; subordinate means
-already living beneath notice; nocturnality may have carried physiological traits
-useful under prolonged low light and disrupted temperatures; and burrowing, the plainest badge of prey status, means
-underground, the one address the burning sky cannot reach. The traits
+small body size can reduce absolute energetic requirements and increase
+refuge flexibility through the winter; pre-existing occupancy of marginal,
+generalist, fossorial, or low-trophic niches can reduce dependence on the
+collapsing dominant food web; nocturnality may have carried physiological
+traits useful under prolonged low light and disrupted temperatures; and
+burrowing, the plainest badge of prey status in the interpretation, can
+provide refuge substantially shielded from the immediate thermal pulse. The traits
 that marked the mammals' inferiority under the Cosmic Nexus are the
 survivors' kit under the conditioned event, and the incumbents'
 formidability is precisely what could not fit down the burrow. That is
@@ -605,7 +838,7 @@ what that looks like from inside the record.
 
 \section{The Nexic sublime}\label{sec:sublime}
 
-Only now does the paper ask what the discovery does to a person, and it
+Only now does the paper ask what the discovery, should it be secured, does to a person, and it
 answers by decomposition rather than by definition, because the
 phenomenon it points at is partly ostensive and a definition would
 explain it away. The scientific sublime has a literature of its own,
@@ -623,7 +856,7 @@ no map from the inputs to the response is claimed:
 \Sc=\Sc(R,\,K,\,D,\,X;\ F),
 \]
 where $R$ is rarity, the conservative surprisal of Section~\ref{sec:rarity}
-and $R(\Ec)$ of Definition~\ref{def:exotic}; $K$ is coupling, the edge
+and $R(\Ec)$ of Definition~\ref{def:exotic}; $K$ is coupling, the higher-order interaction
 mass $K(\Ec)$; $D$ is depth, the iteration depth $D(\Ec)$ and the
 recursively articulated substructure exposed as the closure is unpacked;
 $X$ is indexical incorporation, the fact that the observer is a
@@ -634,16 +867,19 @@ identifies the objective inputs and leaves the resulting phenomenology
 where it belongs.
 \end{definition}
 
-The components map onto the four things probability was shown to do
-and the one thing exotic structure adds. Probability establishes
-scarcity, and with the Rare-Earth inference the cosmic emptiness that
-gives the structure its stakes; coupling establishes structure;
-indexical continuity establishes intimacy; and Golden continuation
-establishes futurity. The first is the Graham's-number side, the
-magnitude one can know and not render. The second and third are what
-makes the object feel articulate rather than inert: not a bag of lucky
-events but a knot. The fourth is what distinguishes the Nexic sublime as defined here
-from the sublime of scale, and it deserves the paragraph.
+The five components do different work. $R$ supplies scarcity and,
+under the Rare-Earth bridge, the cosmic emptiness that gives the
+contrast its scale. $K$ supplies non-reductive articulation: not a bag
+of lucky events but a knot. $D$ supplies recursive depth, the fact that
+resolving one node can expose further coupled prerequisites beneath it.
+$X$ supplies intimacy by placing the observer inside the structure as a
+continuation state rather than outside it as a spectator. $F$ supplies
+the unfinished future, making the inheritance something that can still
+reach fruition or be forfeited. $R$ is the Graham's-number side, a
+magnitude one can know and fail to render; $K$ and $D$ are what make the
+object structurally alive rather than merely improbable; $X$ is what
+distinguishes the Nexic sublime as defined here from a sublime of scale
+alone; and $F$ turns contemplation into a live continuation problem.
 
 The affective sign of that conjunction is part of what the name marks,
 and Miracleism makes a stronger claim than that awe is merely available.
@@ -655,6 +891,25 @@ nervous system to feel awe, and affect supplies no evidence for the
 framework. But a response that registers only the scalar probability
 and not the scarcity, coupling, depth, indexical incorporation, and open
 futurity has not yet taken in the whole object Miracleism is naming.
+
+\begin{premise}[Fitting-awe bridge; \textbf{[$\Phi$]}]\label{prem:awe}
+Awe is defeasibly fitting toward an object when adequate apprehension
+reveals a conjunction of cognitive vastness or depth, non-reductive
+structured unity, and an indexically consequential relation between the
+observer and stakes extending beyond the observer's ordinary local
+horizon.
+\end{premise}
+
+\noindent The bridge is value-theoretic rather than probabilistic. If
+the empirical ladder holds, $R$ and $D$ supply the vastness and depth,
+$K$ supplies the structured unity, and $X$ together with $F$ supplies
+the indexical and temporally extended stakes. Premise~\ref{prem:awe}
+then yields the paper's fittingness claim. The claim is defeasible and
+non-exclusive: curiosity, fear, admiration, grief, and gratitude-like
+recognition can rationally coexist with awe. What the bridge denies is
+only that a response which leaves the object's scale, unity, and
+indexical stakes wholly unregistered counts as an equally adequate
+apprehension of the object as described.
 
 Cosmic scarcity can first present as a graveyard: isolation, fragility,
 and the familiar slide from emptiness toward dread or nihilism. On the
@@ -733,8 +988,8 @@ the discoverer. That is a stranger fact than learning that something
 unlikely happened before one was born, and it is the exact content of
 the phrase that stands at the literary center of this paper, \emph{too
 vast to be conveyed and too personal to be named}. Vast has now been
-earned, by rarity, contrast, coupling, and cosmic scarcity. Personal has
-now been earned, by descent: the reader is physically downstream of
+warranted by rarity, contrast, coupling, and cosmic scarcity. Personal
+has now been warranted by descent: the reader is physically downstream of
 exactly the route the exhibit described. That language then fails to
 convey their conjunction is not a defect in the argument. The failure of
 representation is part of the phenomenon. One discovers something
@@ -742,12 +997,10 @@ radically outside one's authorship and then discovers that one is made
 out of its continuation, and the recursion, small human contained in
 the vast exotic thing contemplated, is what the name marks.
 
-\section{Species self-awareness: the collective form of indexical
-incorporation}\label{sec:selfaware}
+\section{Golden species self-awareness}\label{sec:selfaware}
 
 The fourth component of the sublime has a collective form, and the
-paper states it here because it is the point at which the discovery
-stops being something that happens to a reader and becomes something
+paper states it here because it is the point at which the discovery, if secured, stops being something that happens to a reader and becomes something
 that happens to a species. The property is representational and it is
 the Nexic companion's: an entity is self-aware when it can represent its
 own situation as its own, including what it would be for that situation
@@ -759,11 +1012,18 @@ shaped, the mirror test measuring a visual modality where the property
 is representational, so no species-scale proxy is proposed here either.
 Lift the property to the species and the criterion writes itself.
 
-\begin{definition}[Species self-awareness; \textbf{[I]}]\label{def:selfaware}
-A species is self-aware when it possesses the concept of its own modal
-poles: when its losing and winning conditions, the Departure Point and
-the Golden Point, are represented within it as such.
+\begin{definition}[Golden species self-awareness; \textbf{[I]}]\label{def:selfaware}
+A species has \emph{Golden species self-awareness}, or species-level
+modal self-location, when it possesses the concept of its own Golden and
+Departure poles: its modeled losing and winning conditions are
+represented within it as conditions of its own continuation.
 \end{definition}
+
+\noindent The modifier \emph{Golden} is load-bearing. The definition is
+not a claim that a species lacking this vocabulary is therefore not
+self-aware in the ordinary philosophy-of-mind or comparative-cognition
+sense. It names a narrower representational achievement: collective
+self-location between the framework's own modal poles.
 
 \noindent By that criterion humanity has, to date, not passed. It acts
 at scale with the executive competence of an agent, coordinated,
@@ -791,31 +1051,42 @@ humanity already exhibits agency-shaped conduct without possessing the
 concept its conduct would be about is exactly what the conditioning
 predicts: under Past-Alignment the record is Golden-conditioned, so
 target-consistent conduct precedes target-representation the way any
-conditioned trajectory precedes its description \cite{RouteWorld}. The
+conditioned trajectory precedes its description \cite{GoldenRouteWorld}. The
 species could be augmented with the executive character of agency
 before knowing there was a something its agency was toward, and the
 concept's arrival, when it comes, changes not the conduct's existence
 but its \emph{ownership}. That ownership is what the civilization
-companion pointed forward to and did not develop \cite{CivNat}: a
+companion pointed forward to and did not develop \cite{GoldenCivNature}: a
 species that possesses the concept of its poles can own its conduct
 with its largest leverage on the response sign, which is the one
 sentence this paper adds to that companion's viability constraint.
 
-The criterion carries its own test and its own fences, and both are
-stated so that the section is not read as a sociology. The test is that
-concept-reception should produce an ownership shift and a coordination
-consequence; a species that received the poles' concept and exhibited
-neither would leave the criterion idle, and the idleness would be
-evidence against it. The paper predicts the shift and does not model
-its magnitude, size, or speed, which are empirical questions it does not
-pretend to have answered. The fences are the ones the whole paper
-carries. Whether any particular formulation is the one through which
+The criterion carries a research prediction schema and its own
+fences, and both are stated so that the section is not mistaken for a
+completed sociology. The proposed reception effect has two components.
+An \emph{ownership shift} would be a measurable increase in agents'
+explicit self-location of their civilization's choices between the
+represented Golden and Departure poles; a \emph{coordination
+consequence} would be a measurable change in cross-agent or
+institutional coordination around preserving the live continuation
+option. Those phrases are not yet a test. A test requires, in advance,
+a measurement instrument, comparison group, exposure or reception
+criterion, time window, and effect statistic. Until those are supplied,
+the claim is a prospective research schema rather than a confirmed or
+failed prediction. Under a preregistered operationalization, reception
+with neither effect would count against this motivational extension,
+not against Bayes' theorem or the upstream survival mathematics. The
+fences are the ones the whole paper carries. Whether any particular formulation is the one through which
 reception occurs is occupancy, and is refused: the criterion is the
 claim entered here, not a claim that this page is the arrival. And
 possession of the concept is not endorsement of the hypothesis: a
 species can represent its poles and remain uncertain whether its record
 is drawn under conditioning on one of them, and that uncertainty, held
 correctly, is itself a form of the awareness the criterion names.
+
+\paragraph{Cultural vacancy and nonlinear uptake.} The prospective reception claim admits a stronger sociological motivation than speculation about whether a sufficiently compelling philosophy might become popular, and it is stated here at the strength the surrounding literatures support and no more.\footnote{This paragraph and the next were drafted on 2026-09-26 from the author's statement of the thesis, first framed by the author in 2019 at the coining of ``Miracleism,'' and from a literature-checked recommendation the author obtained; the neighboring literatures are the sociology of modernity on meaning-formation after the loss of inherited cosmological authority (Seidman; Hervieu-L\'eger on the gaps rational certainty leaves; Besecke on a public conversation about transcendent meaning outside religious institutions), media scholarship on audience fragmentation and on the shared attention that survives it, the meaning-in-life literature's analysis of coherence, purpose and existential mattering, and the collective-effervescence and shared-identity research on the states a common object can produce. Full references are to be supplied and verified before submission.} Modern societies plainly continue to generate personal purposes, relationships, identities and locally meaningful commitments; the claim is not that secular people ordinarily experience life as meaningless. The narrower vacancy concerns a widely credible \emph{external} frame of significance: a common account capable of locating human life at once within natural history, cosmic scarcity and collective futurity, in a structure not authored to satisfy the need it answers. That vacancy has recognizable neighbors. The weakening of inherited cosmological authority has long been analyzed as creating problems of shared meaning and new pressures toward meaning-formation, while contemporary media systems have fragmented common cultural attention; at the same time neither shared attention nor the demand for coherence, purpose and mattering has disappeared. Miracleism therefore advances a \emph{Cultural Vacancy Hypothesis}: the conjunction of weakened inherited external warrant, persistent demand for existential significance, and fragmentation of common cultural objects creates an unusually high-value niche for an externally grounded naturalistic frame capable of satisfying all three at once.
+
+Nothing in the hypothesis establishes that Miracleism will occupy that niche; it motivates a stronger prospective prediction than arbitrary popularity, and the prediction is the paper's own. If the empirical ladder of \autoref{sec:ladder} survives and its object becomes communicable at sufficient resolution, uptake may be nonlinear: once a critical population recognizes the same exotic history as both externally discovered and indexically its own, the framework may generate the shared attention, collective self-location and motivational reinforcement that rapid diffusion requires. In that restricted sense Miracleism predicts the possibility of a new \emph{shared civilizational frame}, and the word ``monoculture'' that the author has used for it is to be read so: not cultural homogeneity, many cultures, aesthetics, religions and ways of life persisting, but one broadly shared discovery about the situation humanity inhabits, as Newtonian physics or the fact of evolution became common intellectual background without making anyone's food the same. The strongest version is a phase-transition claim: a sufficiently well-supported account of Earth's exotic natural history could function less like one more worldview in a marketplace of worldviews and more like a missing explanatory object around which previously fragmented existential concerns reorganize, the key that fits a lock the culture has been describing without naming. This is a research hypothesis and not an assumption of the preceding argument; its eventual tests concern diffusion rates, cross-cultural retention, convergence in species-level self-location, and corresponding changes in long-horizon motivation and coordination, under the same preregistration discipline the reception schema above demands.
 
 The proposed motivational consequence is stronger than optimism and
 narrower than a political program. Before the poles are represented,
@@ -831,7 +1102,7 @@ initiative against it. The species can understand itself as holding a
 torch it did not manufacture and as having genuine leverage over whether
 that inheritance is squandered or carried forward. If the companion
 models are right that the present lies near the transition at which that
-leverage is unusually large, then species self-awareness is correspondingly
+leverage is unusually large, then Golden species self-awareness is correspondingly
 time-sensitive: knowing what the action is \emph{of} matters most while
 the action can still change which pole is reached.
 
@@ -955,11 +1226,15 @@ structural rather than ceremonial: to be ``in the conversation with the
 Golden Point'' is to occupy a state from which the inherited option can
 still be advanced or lost. Realized position is sufficient for inherited
 responsibility: the prior question is not whether we deserve to be here,
-but what follows once we understand where ``here'' is. The significance of the position rises with
-the amount of coupled prerequisite structure already cleared, not
-because sunk cost creates value by itself, but because those cleared
-prerequisites alter the live option set of the continuation. That is the
-winner's irony in experiential form.
+but what follows once we understand where ``here'' is. The
+civilization-and-nature companion gives one exact schedule model in which
+the retained continuation option is nondecreasing as gates are cleared.
+That is not promoted here into a universal law that every later historical
+moment carries greater stakes than every earlier one. The experiential
+point is narrower: cleared prerequisites can change the live option set,
+and where the relevant continuation model shows that they do, forfeiting
+the route means forfeiting an option that did not exist before those gates
+were crossed. That is the winner's irony in its properly scoped form.
 
 Nor is the Golden Point a device for retroactively certifying every
 Miracle attribution. Reaching it would instead supply unusually strong
@@ -994,7 +1269,7 @@ preventing it from having been in vain. Source in the record,
 fruition in the future, vanity as the single failure
 mode; individual mortality is untouched, since the guarantee is
 against collective vanity and not against death, the moments
-remaining mortal exactly as the Route World companion \cite{RouteWorld} prices them.
+remaining mortal exactly as the Route World companion \cite{GoldenRouteWorld} prices them.
 
 The nearest published neighbor makes the division sharp. Scheffler's
 collective-afterlife conjecture holds that much of what matters to
@@ -1010,7 +1285,7 @@ structure to reach living fruition, never retroactive erasure of its
 realized significance. One vocabulary cost is priced where all such costs are
 priced: the term Miracle carries the companion's technical sense
 throughout, and the religious overtone the word invites is exactly
-the misfiling that the Golden-ethics material of the Route World companion \cite{RouteWorld} exists to refuse; the
+the misfiling that the Golden-ethics material of the Route World companion \cite{GoldenRouteWorld} exists to refuse; the
 name is kept because the source-term should name the source.
 \end{remark}
 
@@ -1021,7 +1296,21 @@ claim that awe is fitting is therefore not yet the claim that a specific
 action is obligatory. What the paper proposes is the exotic inheritance
 as an existentially non-arbitrary \emph{object} of valuation, from which
 conditional norms can follow once an agent treats its continuation as
-something not to be squandered. Exotic structure establishes an
+something not to be squandered.
+
+\begin{premise}[Care bridge; \textbf{[$\Phi$]}]\label{prem:care}
+If an agent adequately apprehends itself as a continuation of a
+non-authored, extraordinarily scarce, internally structured history
+whose live continuation can still be preserved or forfeited, that
+relation supplies a defeasible reason to care about the continuation.
+It does not by itself supply a categorical duty or rank competing
+reasons.
+\end{premise}
+
+\noindent Premise~\ref{prem:care} is the value-theoretic step that the
+probability theory cannot perform. It distinguishes a \emph{reason for
+care} from the weaker claim that the record merely offers a new object
+onto which arbitrary preference could be projected. Exotic structure establishes an
 externally encountered object; Miracleism's interpretive claim is that
 adequately apprehending that object supplies a non-authored reason for
 care rather than merely a new object onto which arbitrary preference may
@@ -1033,14 +1322,17 @@ persistence as terminally valuable increases in the target's
 probability count positively, is here given the thing it was missing,
 a reason a person might adopt it that is not itself another authored
 purpose. The civilization-and-nature companion proves, separately, that
-the option the route represents grows more valuable with every
-prerequisite cleared \cite{CivNat}; this paper supplies the separate
-fact about how improbable and how coupled the route by which that
-option came into possession may have been. Neither fact is inferred
-from the other, and their conjunction is the winner's irony given its
-full weight: to wish the route dismantled for the living world's sake
-is to push away, out of ignorance of what has just happened, the
-continuation through which the exotic inheritance remains live.
+in its homogeneous pinned gate schedule the retained continuation option
+is nondecreasing in the gates already cleared \cite{GoldenCivNature}; it explicitly
+does not claim that profile as a universal theorem of historical time.
+This paper supplies the separate fact about how improbable and how coupled
+the route by which that option came into possession may have been. Neither
+fact is inferred from the other, and their conjunction is the winner's
+irony given its full weight: to wish the route dismantled for the living
+world's sake is to push away, out of ignorance of what has just happened,
+the continuation through which the exotic inheritance remains live.
+
+\paragraph{A dated conjecture, kept separate.} The cultural hypothesis above and the Golden Point are linked in the author's own expectation by a chain, Miracleist discovery, species self-location, motivation and coordination, uptake of Golden reasoning, technological and institutional maturation, the Golden Point, and the author has held, since at least the 2022 Golden science paper, the conjecture that the Golden Point may precede conventional forecasts of Kardashev Type~I status, with a working expectation of the twenty-second or twenty-third century. That timescale is recorded here as a dated authorial conjecture and nothing more: no literature calibrates it, and Amara's law, that technology is overestimated in the near term and underestimated in the long term, is a forecasting heuristic and not a quantity from which a century follows. The one piece of the chain with a formal home is the last: the Kardashev scale classifies energy use and by itself encodes nothing about anatomy, alignment, endogenous-hazard control or viability, so ``Type~I implies the Golden Point'' is false by definition; what the framework conjectures is that a civilization able to close the ordinary Type~I capability bundle \emph{sustainably}, under the Technoanatomy companion's closure and efficiency premises, has probably already crossed the Golden Point. That claim belongs to the Technoanatomy companion and the Golden Point discussion, where the closure clause can be priced, and it is only pointed to here.
 
 \section{What Miracleism claims, and what would kill it}\label{sec:ladder}
 
@@ -1158,27 +1450,5 @@ living fruition, is not yet decided. Miracleism is the name for holding
 that without possessing it, and for recognizing that the torch is real
 even though no hand passed it to us.
 
-\begin{thebibliography}{99}\small
-\bibitem{Nexus} A.~Benander, \emph{Nexic Reasoning}, companion manuscript, 2026.
-\bibitem{Ben26Optimal} A.~Benander, \emph{Optimal Earth}, companion manuscript, 2026.
-\bibitem{Aethus} A.~Benander, \emph{Aethic Reasoning}, companion manuscript, 2026.
-\bibitem{SurvA} A.~Benander, \emph{Survivorship conditioning for hazard rates driven at the log-derivative level}, working draft, 2026.
-\bibitem{TargetedB1} A.~Benander, \emph{Conditioning a record on its own future: targeted accordance and survivorship-conditioned path measures}, working draft, 2026.
-\bibitem{RouteWorld} A.~Benander, \emph{The Route World: a Golden-reasoning hypothesis of biospheric natural history}, working draft, 2026.
-\bibitem{CivNat} A.~Benander, \emph{Is civilization anti-nature? A conditional argument against capability elimination and capability maximization}, working draft, 2026.
-\bibitem{nietzsche1974gay} F.~Nietzsche, \emph{The Gay Science}, trans.\ W.~Kaufmann, Vintage, 1974 (orig.\ 1882).
-\bibitem{Weinberg77} S.~Weinberg, \emph{The First Three Minutes}, Basic Books, 1977.
-\bibitem{Kaiho2017} K.~Kaiho and N.~Oshima, Site of asteroid impact changed the history of life on Earth: the low probability of mass extinction, \emph{Scientific Reports} 7 (2017), 14855.
-\bibitem{Nature2025Sulfur} K.~Rodiouchkina, S.~Goderis, C.~B.~Senel, et al., Reduced contribution of sulfur to the mass extinction associated with the Chicxulub impact event, \emph{Nature Communications} 16 (2025), 620.
-\bibitem{Burrow25} S.~Pinkert, V.~Reuber, L.-M.~Krug, L.~Heidrich, F.~Rehling, R.~Brandl, and N.~Farwig, Burrowing facilitated the survival of mammals in harsh and fluctuating climates, \emph{Current Biology} 35(8) (2025), 1779--1790.e3, doi:10.1016/j.cub.2025.02.064.
-\bibitem{During22} M.~A.~D.~During et al., The Mesozoic terminated in boreal spring, \emph{Nature} 603 (2022), 91--94.
-\bibitem{gardner1977mathematical} M.~Gardner, Mathematical games: in which joining sets of points leads into diverse (and diverting) paths, \emph{Scientific American} 237 (1977), 18--28.
-\bibitem{MetzSEP} T.~Metz, The meaning of life, in \emph{The Stanford Encyclopedia of Philosophy}, E.~N.~Zalta and U.~Nodelman (eds.), first published 2007, substantive revision 2021, \url{https://plato.stanford.edu/entries/life-meaning/}.
-\bibitem{Gross18} A.~G.~Gross, \emph{The Scientific Sublime: Popular Science Unravels the Mysteries of the Universe}, Oxford University Press, 2018.
-\bibitem{Wolf10} S.~Wolf, \emph{Meaning in Life and Why It Matters}, Princeton University Press, 2010.
-\bibitem{Mulgan15} T.~Mulgan, \emph{Purpose in the Universe: The Moral and Metaphysical Case for Ananthropocentric Purposivism}, Oxford University Press, 2015.
-\bibitem{Scheffler13} S.~Scheffler, \emph{Death and the Afterlife},
-Oxford University Press, New York, 2013.
-\bibitem{Goff23} P.~Goff, \emph{Why? The Purpose of the Universe}, Oxford University Press, 2023.
-\end{thebibliography}
+\printbibliography
 \end{document}
