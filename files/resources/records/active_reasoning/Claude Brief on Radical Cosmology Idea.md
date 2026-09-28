@@ -554,3 +554,15 @@ Ok for me again: also by the way hopefully v21 makes some tangible improvements 
 ## Entry 121, 9:51 PM, Sep 27, 2026
 
 By the way, I just want to check if there's some kind of actual duality thing at play with the off the galaxy plane thing too, which would be interesting if it works\! As in, almost treating the galaxy as a fixed point to it? If not though (as in if we've found something different or better) that's cool too, I just have a sense that might be an interesting interplay with the complexified stuff\!
+
+## Entry 122, 10:27 PM, Sep 27, 2026
+
+Also by the way to be clear, is the intersection of two real forms idea literally that rho\_E and sigma are each individually on equal footing (in that one is not more privileged than the other in the total complexified spacetime canonical space manifold) but the plane of the galaxy is that which is a fixed point under BOTH??? That would be super elegant/ambitious if it's what you're saying, and I didn't even think of that until I saw your intersection notation there\! Thanks\!
+
+## Entry 123, 10:31 PM, Sep 27, 2026
+
+Ok for fun let's try to allow v22 to pursue this very equal-footing idea of the involutions, so please write Claude a brief for such. Thanks\!
+
+## Entry 124, 10:56 PM, Sep 27, 2026
+
+Oh and by the way—something else I’m kind of wondering about is if we might try imagining the dual paths-as-aligned zoomed in regime thing as enabling the “canonical normal direction” which on the full galaxy regime is rather strictly aligned one way up to a dual path indexing scheme thing to be actually super variable by comparison—that is sort of like how if the paths are almost perfectly aligned with one another, then I would imagine they can “change orientation” of the direction vector between them super sharply as compared to what far away dual paths can do (although that’s just a brute heuristic intuition rather than an actual explicit proposal)—such that maybe even the equatorial plane of each given Kerr black hole IS selected by this very same common real intersection 2-form thing when we’re talking specifically about the path-aligned regime, whereas in the full 3-sphere regime this reduces instead in some sense to the privileged galaxy normal direction\! See what I’m trying to get at pretty much??? Thanks\!
