@@ -816,12 +816,27 @@ $\delta$ at exponent level $x$ contributes
 $\asymp\delta\,\Gamma e^{|\rho|x}$ to $\Lambda$, so survivability
 requires $\delta\lesssim\Gamma^{-1}e^{-|\rho|x}$: the affordable
 duration of adverse response decays exponentially in the accumulated
-exponent, and a $\rho_t$ recurrent on $\R$ forces
-$\Lambda_\infty=\infty$ whatever the driver. Viability then requires
-$\rho_t$ eventually positive almost surely, and \eqref{eq:twocond}
-becomes a product of two scale functions. Supplying dynamics for
+exponent. Recurrence of $\rho_t$ alone does not force
+$\Lambda_\infty=\infty$: the internal term explodes only where adverse
+anatomy coincides with positive credit, which is the overlap condition
+of Corollary~\ref{cor:overlap}. Viability then requires $\rho_t$
+eventually positive almost surely, and \eqref{eq:twocond} becomes a
+joint probability, a product of two scale functions only when the
+anatomy and the driver are independent. Supplying dynamics for
 $\rho_t$ is the model's principal open direction [O].
 \end{remark}
+
+\begin{corollary}[Adverse anatomy overlapping positive credit is fatal;
+{[P]}]\label{cor:overlap}
+If there exist $a,b>0$ with
+$\Leb\{t:\rho_t\le-a,\ x_t\ge b\}=\infty$ almost surely, then
+$\Lambda_\infty=\infty$ almost surely, since on that set the internal
+term satisfies $\Gamma e^{-\rho_tx_t}\ge\Gamma e^{ab}$. A negative
+excursion of $\rho$ that systematically coincides with $x_t\le0$ costs
+nothing, so recurrence of $\rho$ is not by itself fatal; what
+fluctuating anatomy implies in general, when the excursions of $\rho$
+and of $x$ are not coupled by hypothesis, is open [O].
+\end{corollary}
 
 \begin{proposition}[Perturbation in $\Gamma$, and the threshold;
 fixed-time expansion {[P]}, long-time threshold {[O]}]\label{prop:perturb}
@@ -1128,8 +1143,9 @@ $t\in[10^2,3\times10^4]$, with path-bootstrap confidence intervals
 ($0.0125$, ratio $1.005$) reproduces the estimates below to within
 their intervals, excluding discretization bias.
 
-\begin{table}[h]\centering\small
-\begin{tabular}{@{}llll@{}}
+\begin{table}[h]\centering\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}p{0.34\linewidth}p{0.22\linewidth}p{0.18\linewidth}p{0.20\linewidth}@{}}
 \toprule
 quantity & measured & predicted & status\\
 \midrule
