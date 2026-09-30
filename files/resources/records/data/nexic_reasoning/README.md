@@ -37,9 +37,20 @@ python3 sealevel_surrogates.py
 | `contingent_bounds_mc.py` | Computed coordinates: the impact–province coincidence and the size window's upper edge | Coincidence at ±100 kyr: Monte Carlo median 0.0418, 95th percentile 0.0494 | about 30 s |
 | `impact_example.py` | The impact chain as one fully specified event, at the declared inputs (Phanerozoic window, 3 impacts of *D* > 10 km per Gyr), with sensitivity rows | *P*(*E*) = 0.0022; bound on *P*(*H*) 0.044 (conjunction rule) and 0.354 (realized-cell rule) | under 1 s |
 | `sealevel_surrogates.py` | The Intrinsic Frequency sea-level surrogate test, re-implemented from the paper's stated procedure | `77/5000 fired -> P_LC=0.0154 Wilson95=[0.0123,0.0192]` | about 1 min |
+| `sealevel_sensitivity.py` | Run-to-run spread across ten seeds, and the loosened-criteria family (thresholds relaxed by 0.10, 0.25 and 0.50 sd; touch criteria dropped) | spread sd 0.0032 vs binomial 0.0035; ratio 74 at the exact extremes, 22 at the 0.10-sd tolerance (the paper's canonical figure), 9, 4; 40 without the touch criteria | about 3 min |
 | `sealevel_three_curves.py` | The same test on records independent of the Haq synthesis, with the band and smoothing rescaled to each record's sampling | New Jersey (Kominz 2008): `65/5000 fired -> P_LC=0.0130`; Ray 2019: `274/5000`; the long-term combined curve: `3611/5000`, the case the test does not apply to | under 1 min |
 
 The sea-level script's options reproduce the robustness table: `--sigma` (smoothing width), `--low` and `--high` (band edges), `--ddof`, `--col 2` (GTS2012 ages), `--resample` (uniform grid spacing in Myr), `--n` (number of surrogates) and `--seed`.
+
+## The original script
+
+`original/surrogate_analysis.py` is the author's original analysis script, included unmodified, with its data file `original/sea levels.csv` (the same NOAA digitization as `haq1987_sealevel.txt`, with column headers). It runs the same pipeline with the same parameters as `sealevel_surrogates.py`, differing in three details: its variability is a population standard deviation through a uniform filter rather than a centered sample standard deviation, it averages duplicate ages, and it is unseeded, so its count varies from run to run by about ±8 at this rate. Run it from inside the `original` folder, since it reads its data file from the working directory:
+
+```
+cd original && python3 surrogate_analysis.py run
+```
+
+A rerun gave `59/5000 surrogates fired, P = 0.0118 (Wilson 95% CI 0.0092 – 0.0152)`, against the paper's original 67 and the re-implementation's 77; all three lie within one another's intervals. `python3 surrogate_analysis.py diagnose` prints the calibrated thresholds.
 
 ## Data
 
@@ -55,4 +66,4 @@ The sea-level script's options reproduce the robustness table: `--sigma` (smooth
 
 ## Provenance
 
-The scripts were written by Claude Fable 5.1 (Anthropic) with the author in 2026. The sea-level script re-implements the long Nexic paper's stated procedure without access to the original code; its random seed is fixed at 1987, so the quoted run reproduces exactly.
+The scripts were written by Claude Fable 5.1 (Anthropic) with the author in 2026. The sea-level script re-implements the long Nexic paper's stated procedure and was written independently of the original script, which is included unmodified in `original/`; its random seed is fixed at 1987, so the quoted run reproduces exactly.
