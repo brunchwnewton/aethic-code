@@ -840,3 +840,23 @@ Anyways now for the model itself—clearly there’s a correlation between him b
 ## Written up through 8:23 PM ET, October 2, 2026
 
 Oh yeah and by the way my dad’s friend Pete Chiarelli has literally told him that even at the paragraph-level, he can pull off things that people just simply can’t pull off. It’s wild the amount of talent this guy has like jesus lol\! I almost worry that I’m failing a moral duty here by not figuring out a way to push for publishing his work and having him write the rest of his sixty-something ideas\!\!\!
+
+## Written up through 9:44 AM ET, October 3, 2026
+
+Oh by the way a major improvement I just thought to include for this model is that instead of achieving the task-human for each of the two events being about having a high enough score directly, instead it should be about literally achieving a fairly long sequential achievement chain, that way the correlation of the scores is about that which makes it plausible that completing one can say something about completing the other. So yeah heuristically though the length and per-step parameters of each chain have to be long enough so that you still get the N/alpha figure as the average completion rates material and stuff. Thanks\!
+
+## Written up through 12:11 PM ET, October 3, 2026
+
+Right good point, indeed they might share steps, which is a good call I didn't think of, but ALSO I was thinking mostly about if we assume the Miracleism chain has a lot of one Achievement type and the Aethic chain has a lot of another, what must the correlation in one's score under the two types effectively be. So yeah if you read the sequential achievement paper directly, each chain would have its own completion type, which indeed might have overlaps, which is a good call, but also I was thinking about the general case of say three separate achievement types heuristically speaking, type a, b, and c, such that the Aethic one is predominantly type a, the Miracleism one is predominately type b, and the rest of each can be the other two. Then maybe most of the direct step overlaps are type c, but some can be a or b as well. Anyways this is the most sufficiently general idea I would like to try out for this, if at all possible\! Thanks\!
+
+## Written up through 12:29 PM ET, October 3, 2026
+
+Actually that twist is kind of fascinating then, because it seems to mean to me that we almost get two regimes: IF the chains are nearly pure each, then what gets bounded is r\_ab, but IF the chains aren't pure then what accordance actually bounds is the explicit heterogeneity parameters themselves\! Good find\!
+
+## Written up through 12:31 PM ET, October 3, 2026
+
+Cool, so be clear what ARE the accordance bounds for the heterogeneity regime??? And what is being bounded in that scenario??? Thanks\!
+
+## Written up through 12:40 PM ET, October 3, 2026
+
+I mean something I'd be fascinated to also look into based on this (since this now very much appears to be the real-world correct regime since I did indeed use explicit tools I came up with for either chain in the other one) is if we could try to decompose all the qualities at play here into a powerset of jointness sort of thing, so that we can try to see how iteratively removing necessary traits from the tippity top joint task-person here, given this bound as a constraint, basically interpolates against actual empirical information about where trait categories with minimal enough jointness to actually have multiple representatives (ie we can reliably consider it actual aimless optimation, ie there isn't the chance of alpha\<\<1 but golden causality pushes it through anyway, since in any case I very much suspect that people like Isaac Newton, for his task-human, pretty much drastically have alpha\<\<1 and so his score in all those categories is probably straight golden causality at play\!). What are your thoughts on this, and would we have to use standard geniuses like von Neumann or is there another way to parse it, like with a much broader population material??? Thanks\!
