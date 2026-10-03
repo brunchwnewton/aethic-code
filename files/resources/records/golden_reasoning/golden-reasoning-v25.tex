@@ -2998,9 +2998,7 @@ price, and the price is displayed before anything is purchased.
 \subsection{The thesis}\label{intro:sub:thesis}
 
 Capacity to act on the world is usually treated as the quantity that
-decides whether a civilisation lasts, and this work argues that it is
-the wrong quantity, because the right one is a sign rather than a
-magnitude. Consider a system facing hazard from two directions, an
+decides whether a civilisation lasts, and this work argues that it is insufficient by itself, because the sign of the response to added capability matters alongside its magnitude, and event-level and response-level estimates can both matter. Consider a system facing hazard from two directions, an
 external background it can learn to muffle and an internal channel
 that its own capacity feeds. Accumulating capacity lowers the first
 and does something to the second, and what it does to the second is a
@@ -6542,8 +6540,7 @@ $\PP(E\mid H_G)\approx1$ because the target requires them. Then
 \begin{equation}\label{gc:eq:bfGO}
 \mathrm{BF}_{G:O}(E)=\frac{\PP(E\mid H_G)}{\PP(E\mid H_O)}\approx\frac1q,
 \end{equation}
-which is enormous when $q$ is small and is exactly how much evidence
-the record supplies for the Golden target over the observer target.
+which is large when $q$ is small \emph{provided} the evidence is highly probable under the Golden model and sufficiently improbable under the observer-conditioned rival; the construction supplies neither likelihood, and the empirical work is establishing those two antecedents.
 The principle asserts that this factor favors $H_G$ by orders of
 magnitude, and the weight bound of \S\ref{gc:sub:naturalhistory} is
 the estimate of $q$ that gives the factor its size. Both hypotheses are
@@ -6653,9 +6650,7 @@ since a permutation admitted into the conjunction inflates the bound
 without adding linkage. And the members must be interrogated under a
 declared scan count, the multiplicity guard of
 \S\ref{gc:rem:noisefloor} applying to the stockpile as to any member.
-The guard has two forms and they are distinct: the expected number of
-spurious $\kappa$-fold flags among $n$ interrogated pairs is at most
-$n/(1+\kappa)$, and the tail is bounded without any independence
+The guard has two forms and they are distinct: the expected number of $\kappa$-fold exceedances among $n$ interrogated pairs under $Q$ is at most $n/(1+\kappa)$, a bound on $Q$'s own exceedances and not a false-positive calibration for accepting $Q$ against a rival, and the tail is bounded without any independence
 assumption by Markov, $\Pr[N\ge m]\le n/(m(1+\kappa))$, with the
 familywise form $\Pr[N\ge1]\le n/(1+\kappa)$ by the union bound.
 Exceeding the expectation is not significance; a declared family is
@@ -10043,7 +10038,7 @@ exists, $\inf_tB_t=0$ a.s.\ (Remark~\ref{gr1:rem:trappedscope}), and no exponent
 pathwise, its recurrent-driver case routed through
 Lemma~\ref{tc:lem:infbackground}.
 
-\emph{(iii) In either case no power-law structure survives}: neither the
+\emph{(iii) In the frozen-background case no power-law structure survives, and in the random-background case the question is open [O], almost-sure death not excluding polynomial survival tails}: neither the
 $t^{-1/4}$ tail, nor infinite life expectancy, nor Pareto residual life,
 nor the Lindy reading of \S\ref{gr1:sub:verdict}.
 \end{theorem}
@@ -10930,7 +10925,7 @@ weight formulation would posit emerges instead from the
 gates are gates, they can go wrong, and going wrong incurs more. That is
 the cascade's shape, and the object it makes is standard.
 
-\begin{proposition}[The debt process is Galton--Watson; \textbf{[P]}]
+\begin{proposition}[The debt process is an exploration queue of a Galton--Watson tree; \textbf{[P]}]
 \label{sch:prop:gw}
 Under Definition~\ref{sch:def:debt}, $Z$ is the population of a
 Galton--Watson process with offspring probability generating function
@@ -11730,8 +11725,7 @@ realized-favorable option and the wrong options adverse, so that
 \qquad
 \rho_\infty\;=\;\lim_{t\to\infty}\rho_t,
 \end{equation}
-$j_k$ being the option that fired at gate $k$. The two-condition
-theorem reads on $\rho_\infty$.
+$j_k$ being the option that fired at gate $k$. The two-condition theorem reads on $\rho_\infty$ only under an additional assumption that the theorem itself does not supply: the condition it consumes is integrability of the response along the path, which a limit of the response parameter does not determine, so the reading holds where the response is eventually constant after finitely many gates, which the gate construction here provides, and is otherwise an extension not proved in the hazard paper.
 \end{definition}
 
 \begin{proposition}[Front-loaded settlement under monotone coupling;
@@ -11945,11 +11939,7 @@ being movable. The formal statement of both the process and its
 front-loaded settlement is Definition~\ref{sch:def:derailment} and
 Proposition~\ref{sch:prop:settlement}.
 
-The design wires into the standing structure at four points. The
-two-condition theorem reads on the settled value: viability becomes
-the indicator of $\rho_\infty>0$ times the driver-viability factor with
-$\rho_\infty$ random, so the modern era is the era in which the
-indicator's argument is being determined, by pushes that could in
+The design wires into the standing structure at four points. The two-condition theorem reads on the settled value on the eventual-constancy assumption just stated: viability becomes the indicator of $\rho_\infty>0$ times the driver-viability factor with $\rho_\infty$ random, so the modern era is the era in which the indicator's argument is being determined, by pushes that could in
 principle have come at any time and are, under conditioning, front
 loaded. The fluctuating-anatomy corollary
 (Corollary~\ref{gr1:cor:recurrentanatomy}) is the bridge case,
