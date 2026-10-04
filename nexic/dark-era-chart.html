@@ -10,30 +10,45 @@ layout: default
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=JetBrains+Mono:wght@400;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
 <style>
   *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-  body{background:#08080a;color:#d4d4d8;font-family:'DM Sans',sans-serif;-webkit-font-smoothing:antialiased}
+  :root{--bg:#08080a;--surface:#111114;--surface2:#19191e;--border:#2a2a30;--text:#d4d4d8;--text-dim:#71717a;--text-faint:#3f3f46;
+    --dino:#ef4444;--dino-glow:#dc262620;--dino-text:#fca5a5;--dino-bar:#dc2626;--mammal:#6b7280;--mammal-bar:#4b5563;--mammal-text:#9ca3af;--bench:#eab308;--bench-bar:#ca8a04}
+  body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
   .container{max-width:960px;margin:0 auto;padding:32px 24px 48px}
-  .back a{color:#71717a;text-decoration:none;font-size:13px;transition:color .2s}
-  .back a:hover{color:#ef4444}
-  .header{text-align:center;margin:16px 0 24px;position:relative}
-  .header::after{content:'';position:absolute;bottom:-12px;left:50%;transform:translateX(-50%);width:60px;height:2px;background:linear-gradient(90deg,transparent,#ef4444,transparent)}
-  .header h1{font-family:'Playfair Display',serif;font-size:clamp(22px,3.5vw,32px);font-weight:700;color:#fff;letter-spacing:-.5px;margin-bottom:6px}
-  .header h1 em{color:#ef4444;font-style:italic}
-  .header p{font-size:13px;color:#71717a;max-width:580px;margin:0 auto;line-height:1.5}
-  .callout{text-align:center;font-size:14px;color:#fca5a5;margin-bottom:18px;line-height:1.6}
-  .callout strong{color:#fff}
-  .legend{display:flex;justify-content:center;gap:24px;margin-bottom:12px;flex-wrap:wrap}
-  .legend-item{display:flex;align-items:center;gap:6px;font-size:12px;color:#9ca3af}
-  .legend-dot{width:10px;height:10px;border-radius:50%}
-  .chart-wrap{position:relative;background:#0c0c10;border:1px solid #2a2a30;border-radius:12px;padding:16px 12px 12px;margin-bottom:20px}
-  canvas{display:block;width:100%;cursor:crosshair}
-  .tt{position:fixed;pointer-events:none;background:#1e1e24;border:1px solid #3a3a44;border-radius:6px;padding:8px 12px;font-size:12px;z-index:100;box-shadow:0 8px 24px rgba(0,0,0,.6);opacity:0;transition:opacity .12s}
+  .back a{color:var(--text-dim);text-decoration:none;font-size:13px;display:inline-flex;align-items:center;gap:4px;transition:color .2s}
+  .back a:hover{color:var(--dino)}
+  .header{text-align:center;margin:16px 0 30px;position:relative}
+  .header::after{content:'';position:absolute;bottom:-14px;left:50%;transform:translateX(-50%);width:60px;height:2px;background:linear-gradient(90deg,transparent,var(--dino),transparent)}
+  .header h1{font-family:'Playfair Display',serif;font-size:clamp(24px,4vw,36px);font-weight:700;color:#fff;letter-spacing:-.5px;line-height:1.2;margin-bottom:8px}
+  .header h1 em{color:var(--dino);font-style:italic}
+  .header p{font-size:13px;color:var(--text-dim);max-width:600px;margin:0 auto;line-height:1.55}
+  .deck{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:center;margin:0 0 14px}
+  .deck .lbl{font-size:11px;color:var(--text-dim);letter-spacing:.06em;text-transform:uppercase;margin-right:4px}
+  .btn{padding:6px 14px;font-size:12px;font-family:'DM Sans',sans-serif;font-weight:600;border:1px solid var(--border);border-radius:6px;cursor:pointer;background:var(--surface);color:var(--mammal-text);transition:all .15s}
+  .btn:hover{border-color:#3f3f46;color:#fff}
+  .btn.active{background:var(--dino-bar);border-color:var(--dino-bar);color:#fff}
+  .btn:focus-visible{outline:2px solid var(--bench);outline-offset:2px}
+  .callout{background:linear-gradient(135deg,#1a0808,var(--surface));border:1px solid var(--dino-glow);border-radius:8px;padding:14px 20px;margin-bottom:16px;font-size:14px;color:var(--dino-text);text-align:center;line-height:1.65}
+  .callout strong{color:#fff;font-family:'JetBrains Mono',monospace}
+  .callout .band{color:var(--text-dim);font-size:12px}
+  .legend{display:flex;justify-content:center;gap:20px;margin-bottom:12px;flex-wrap:wrap}
+  .legend-item{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--mammal-text)}
+  .legend-dot{width:10px;height:10px;border-radius:50%;flex:none}
+  .legend-line{width:22px;height:0;border-top:2px dashed var(--text-dim);flex:none}
+  .legend-band{width:22px;height:10px;background:rgba(239,68,68,.14);border:1px solid rgba(239,68,68,.35);flex:none}
+  .chart-wrap{position:relative;background:#0c0c10;border:1px solid var(--border);border-radius:12px;padding:12px 8px 8px;margin-bottom:20px}
+  canvas{display:block;width:100%;cursor:crosshair;touch-action:none}
+  .tt{position:fixed;pointer-events:none;background:#1e1e24;border:1px solid #3a3a44;border-radius:6px;padding:8px 12px;font-size:12px;z-index:100;box-shadow:0 8px 24px rgba(0,0,0,.6);opacity:0;transition:opacity .12s;max-width:260px}
   .tt.vis{opacity:1}
   .tt-name{font-weight:700;margin-bottom:3px}
-  .tt-row{display:flex;justify-content:space-between;gap:16px;color:#9ca3af}
+  .tt-row{display:flex;justify-content:space-between;gap:16px;color:var(--mammal-text)}
   .tt-row span:last-child{font-family:'JetBrains Mono',monospace;color:#e5e5e5}
-  .tt-ratio{color:#ef4444;font-weight:600;margin-top:3px}
-  .footer{margin-top:20px;padding:14px 18px;background:#111114;border:1px solid #2a2a30;border-radius:8px;font-size:11px;color:#52525b;line-height:1.7}
-  .footer strong{color:#9ca3af}
+  .tt-ratio{color:var(--dino);font-weight:600;margin-top:4px}
+  .footer{margin-top:20px;padding:16px 20px;background:var(--surface);border:1px solid var(--border);border-radius:8px;font-size:12px;color:var(--text-dim);line-height:1.7}
+  .footer strong{color:var(--mammal-text)}
+  .footer a{color:var(--text-dim);text-decoration:underline;text-underline-offset:2px}
+  .footer a:hover{color:var(--dino)}
+  .fit{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--text-faint);text-align:center;margin:-10px 0 16px}
+  @media (max-width:640px){.container{padding:20px 12px 36px}.callout{font-size:13px;padding:12px 14px}.btn{padding:6px 10px;font-size:11px}}
 </style>
 </head>
 <body>
@@ -41,193 +56,174 @@ layout: default
   <div class="back"><a href="../">← Back to index</a></div>
   <div class="header">
     <h1>The <em>Dark Era</em></h1>
-    <p>Weight vs. combat power for theropod dinosaurs and mammals, fitted via median regression. The gap between them is what our ancestors lived inside.</p>
+    <p>Weight versus combat power for theropod dinosaurs and mammals, with the <a href="dino-correct.html" style="color:#9ca3af">companion page's</a> anatomy calibration applied to the theropods. The gap between the curves is what our Mesozoic ancestors lived inside.</p>
   </div>
-  <div class="callout">
-    At our ancestor's size (100 g), a theropod has a <strong>12×</strong> advantage.<br>
-    A 3 kg Compsognathus vs. a rat-sized mammal: <strong>870× mismatch</strong>.
+
+  <div class="deck" role="group" aria-label="Anatomy calibration">
+    <span class="lbl">Theropod calibration</span>
+    <button class="btn" data-f="1" title="Crowd Bradley–Terry baseline, no anatomy factor">Crowd baseline</button>
+    <button class="btn" data-f="2.536">−2σ · 2.54×</button>
+    <button class="btn active" data-f="4.189">Median · 4.19×</button>
+    <button class="btn" data-f="6.919">+2σ · 6.92×</button>
   </div>
+
+  <div class="callout" id="callout" aria-live="polite"></div>
+  <div class="fit" id="fitline"></div>
+
   <div class="legend">
-    <div class="legend-item"><div class="legend-dot" style="background:#ef4444"></div>Theropod dinosaurs</div>
-    <div class="legend-item"><div class="legend-dot" style="background:#71717a"></div>Mammals (corrected)</div>
-    <div class="legend-item"><div class="legend-dot" style="background:rgba(234,179,8,.3);border:1px dashed #eab308"></div>Gap = anatomy advantage</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--dino)"></div>Theropod dinosaurs</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--mammal-text)"></div>Mammals (crowd baseline)</div>
+    <div class="legend-item"><div class="legend-band"></div>Theropod ±2σ band</div>
+    <div class="legend-item"><div class="legend-line"></div>Extrapolated below the fitted data</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--bench)"></div>Our 100 g ancestor</div>
   </div>
-  <div class="chart-wrap"><canvas id="cv" height="520"></canvas></div>
+
+  <div class="chart-wrap"><canvas id="cv" aria-label="Log–log chart of combat score against body mass for theropods and mammals" role="img"></canvas></div>
   <div class="tt" id="tip">
     <div class="tt-name" id="tN"></div>
-    <div class="tt-row"><span>Weight</span><span id="tW"></span></div>
+    <div class="tt-row"><span>Mass</span><span id="tW"></span></div>
     <div class="tt-row"><span>Score</span><span id="tS"></span></div>
+    <div class="tt-row" id="tBrow"><span>Crowd baseline</span><span id="tB"></span></div>
     <div class="tt-ratio" id="tR"></div>
   </div>
+
   <div class="footer">
-    <p style="margin-bottom:8px">
-      <strong>How this works:</strong> Each dot is an animal with a known body mass and a crowd-sourced combat score (Bradley-Terry model, ~4,500 matchups, anatomy-corrected, Lion = 100). Median regression fits a power law to each group, robust to outlier votes. Mammals below 1 kg are excluded from the regression due to limited cross-scale calibration in the matchup graph.
-    </p>
-    <p>
-      <strong>What the gap means:</strong> The vertical distance between the curves is the anatomy advantage. A theropod and a mammal of equal mass are not equal fighters. The theropod's body plan gives it a built-in multiplier that mass cannot overcome. This gap is largest at the smallest sizes, exactly where our Mesozoic ancestors lived.
-    </p>
+    <p style="margin-bottom:8px"><strong>How this works:</strong> each dot is an animal with a body mass and a crowd-sourced combat score, the same Bradley–Terry baseline the <a href="dino-correct.html">recalibration page</a> uses (about 4,494 matchups, Lion = 100). Theropod scores are multiplied by that page's anatomy factor: a lognormal model with median 4.19× and ×/÷1.285 per log-space standard deviation, so the 2σ band runs from 2.54× to 6.92×. Mammals carry the baseline unchanged. The buttons select the calibration; the shaded band shows the ±2σ range around the theropod curve.</p>
+    <p style="margin-bottom:8px"><strong>The fits:</strong> a power law per group, fitted here in the browser by median regression (least absolute deviations in log–log space), which is robust to outlier votes. Mammals below 1 kg are excluded from the fit, since the matchup graph has little cross-scale calibration there; the curves are drawn dashed where they extrapolate below the fitted data. Because the anatomy factor multiplies every theropod score by the same number, it shifts the theropod curve without changing its exponent.</p>
+    <p><strong>What the gap means:</strong> the vertical distance between the curves is the anatomy advantage at equal mass. It is a sensitivity model placed on the crowd baseline, not something the votes identify, which is why the page shows the band rather than a single curve. The headline figures above are computed from the fits at the selected calibration; the ancestor marker sits at 100 g, below the mammal data, on the extrapolated part of the curves.</p>
   </div>
 </div>
 <script>
+// Body mass (kg) and crowd Bradley–Terry baseline score (Lion = 100), shared with dino-correct.html where the animal appears there.
 const D=[
-  {n:"Yi",w:.4,s:1.3},{n:"Archaeopteryx",w:.9,s:.9},{n:"Compsognathus",w:3,s:.9},
-  {n:"Ornitholestes",w:12,s:2.8},{n:"Linheraptor",w:12,s:3.9},
-  {n:"Velociraptor",w:15,s:16.8},{n:"Dromaeosaurus",w:15,s:16.4},
-  {n:"Coelophysis",w:20,s:5.0},{n:"Suskityrannus",w:30,s:178.2},
-  {n:"Stenonychosaurus",w:50,s:45.5},{n:"Deinonychus",w:73,s:305.3},
-  {n:"Citipati",w:75,s:13.1},{n:"Moros",w:78,s:88.2},
-  {n:"Liliensternus",w:130,s:110.4},{n:"Timurlengia",w:170,s:360.4},
-  {n:"Ornithomimus",w:170,s:12.5},{n:"Marshosaurus",w:200,s:877.6},
-  {n:"Herrerasaurus",w:210,s:2529},{n:"Dakotaraptor",w:250,s:1940},
-  {n:"Achillobator",w:250,s:1277},{n:"Dilophosaurus",w:400,s:1186},
-  {n:"Gallimimus",w:440,s:662},{n:"Utahraptor",w:500,s:2705}
-]
+  {n:"Yi qi",w:.4,c:.12},{n:"Archaeopteryx",w:.9,c:.09},{n:"Compsognathus",w:3,c:.09},
+  {n:"Ornitholestes",w:12,c:.28},{n:"Linheraptor",w:12,c:.39},
+  {n:"Velociraptor",w:15,c:1.66},{n:"Dromaeosaurus",w:15,c:1.62},
+  {n:"Coelophysis",w:20,c:.50},{n:"Suskityrannus",w:30,c:17.6},
+  {n:"Stenonychosaurus",w:50,c:4.49},{n:"Deinonychus",w:73,c:30.10},
+  {n:"Citipati",w:75,c:1.29},{n:"Moros",w:78,c:8.69},
+  {n:"Liliensternus",w:130,c:10.9},{n:"Timurlengia",w:170,c:35.5},
+  {n:"Ornithomimus",w:170,c:1.23},{n:"Marshosaurus",w:200,c:86.5},
+  {n:"Herrerasaurus",w:210,c:249.4},{n:"Dakotaraptor",w:250,c:191.29},
+  {n:"Achillobator",w:250,c:125.9},{n:"Dilophosaurus",w:400,c:116.92},
+  {n:"Gallimimus",w:440,c:65.3},{n:"Utahraptor",w:500,c:266.75}
+];
 const M=[
-  {n:"Fennec Fox",w:1.2,s:.1},
-  {n:"Brown Hare",w:3.5,s:.6},{n:"Feral Cat",w:4,s:.1},
-  {n:"Arctic Fox",w:4,s:.1},{n:"Fisher",w:4.5,s:.5},
-  {n:"Red Fox",w:6,s:.2},{n:"Bobcat",w:9,s:1.3},
-  {n:"Honey Badger",w:11,s:1.7},{n:"Canadian Lynx",w:11,s:1.6},
-  {n:"Ocelot",w:12,s:1.8},{n:"Caracal",w:13,s:1.5},
-  {n:"Wolverine",w:14,s:3.9},{n:"Coyote",w:14,s:1.2},
-  {n:"Mandrill",w:25,s:3.5},{n:"Thylacine",w:25,s:2.2},
-  {n:"Olive Baboon",w:25,s:1.7},{n:"Red Wolf",w:27,s:1.5},
-  {n:"Grey Wolf",w:40,s:9.7},{n:"Cheetah",w:50,s:4.4},
-  {n:"Common Chimpanzee",w:50,s:3.3},{n:"Spotted Hyena",w:55,s:17.3},
-  {n:"Leopard",w:60,s:29.6},{n:"Dire Wolf",w:68,s:17.1},
-  {n:"Cougar",w:70,s:30.5},{n:"Human",w:70,s:5.2},
-  {n:"African Lion",w:185,s:85.3},{n:"Lion",w:190,s:100},
-  {n:"Smilodon",w:220,s:203},{n:"Tiger",w:220,s:148},
-  {n:"Bengal Tiger",w:220,s:81.3},{n:"Siberian Tiger",w:230,s:88.4},
-  {n:"Grizzly Bear",w:270,s:133},{n:"Polar Bear",w:450,s:305},
-  {n:"Arctodus",w:800,s:459}
-]
-const FT={C:.549,b:1.263},FM={C:.060,b:1.376};
+  {n:"Fennec Fox",w:1.2,c:.1},{n:"Brown Hare",w:3.5,c:.6},{n:"Feral Cat",w:4,c:.1},
+  {n:"Arctic Fox",w:4,c:.1},{n:"Fisher",w:4.5,c:.5},{n:"Red Fox",w:6,c:.24},
+  {n:"Bobcat",w:9,c:1.28},{n:"Honey Badger",w:11,c:1.65},{n:"Canadian Lynx",w:11,c:1.6},
+  {n:"Ocelot",w:12,c:1.8},{n:"Caracal",w:13,c:1.5},{n:"Wolverine",w:14,c:3.86},
+  {n:"Coyote",w:14,c:1.2},{n:"Mandrill",w:25,c:3.5},{n:"Thylacine",w:25,c:2.2},
+  {n:"Olive Baboon",w:25,c:1.7},{n:"Red Wolf",w:27,c:1.5},{n:"Grey Wolf",w:40,c:9.71},
+  {n:"Cheetah",w:50,c:4.37},{n:"Common Chimpanzee",w:50,c:3.3},{n:"Spotted Hyena",w:55,c:17.26},
+  {n:"Leopard",w:60,c:29.61},{n:"Dire Wolf",w:68,c:17.10},{n:"Cougar",w:70,c:30.50},
+  {n:"Human",w:70,c:5.15},{n:"African Lion",w:185,c:85.32},{n:"Lion",w:190,c:100},
+  {n:"Smilodon",w:220,c:203.02},{n:"Tiger",w:220,c:148.27},{n:"Bengal Tiger",w:220,c:81.3},
+  {n:"Siberian Tiger",w:230,c:88.44},{n:"Grizzly Bear",w:270,c:132.52},{n:"Polar Bear",w:450,c:305.44},
+  {n:"Arctodus",w:800,c:459.11}
+];
+// The companion page's anatomy model: log F ~ N(1.43251, 0.25091^2); median 4.189, ±2σ = 2.536 / 6.919.
+const LOG_MU=1.43251,LOG_SIGMA=0.25091,F_LO=Math.exp(LOG_MU-2*LOG_SIGMA),F_HI=Math.exp(LOG_MU+2*LOG_SIGMA);
+let F=Math.exp(LOG_MU);
+
+// Median regression (least absolute deviations) of log10 score on log10 mass, by iteratively reweighted least squares.
+function lad(pts){
+  const x=pts.map(p=>Math.log10(p.w)),y=pts.map(p=>Math.log10(Math.max(p.c,1e-3)));let wts=x.map(()=>1),a=0,b=1;
+  for(let it=0;it<80;it++){
+    let s0=0,sx=0,sy=0,sxx=0,sxy=0;
+    for(let i=0;i<x.length;i++){const w=wts[i];s0+=w;sx+=w*x[i];sy+=w*y[i];sxx+=w*x[i]*x[i];sxy+=w*x[i]*y[i]}
+    const det=s0*sxx-sx*sx;if(Math.abs(det)<1e-12)break;
+    b=(s0*sxy-sx*sy)/det;a=(sy-b*sx)/s0;
+    wts=x.map((xi,i)=>1/Math.max(Math.abs(y[i]-(a+b*xi)),1e-3));
+  }
+  return {C:Math.pow(10,a),b:b};
+}
+const FT=lad(D),FM=lad(M.filter(m=>m.w>=1));
+const TMIN=Math.min(...D.map(d=>d.w)),MMIN=1;
 function pr(f,w){return f.C*Math.pow(w,f.b)}
+function fmtW(w){return w>=1000?(w/1000).toFixed(w>=10000?0:1)+' t':w>=1?w.toFixed(w>=10?0:1)+' kg':(w*1000).toFixed(0)+' g'}
+function fmtS(s){return s>=1000?(s/1000).toFixed(1)+'k':s>=100?s.toFixed(0):s>=10?s.toFixed(1):s>=1?s.toFixed(2):s.toFixed(3)}
 
-const cv=document.getElementById('cv'),cx=cv.getContext('2d'),
-      tip=document.getElementById('tip'),dpr=window.devicePixelRatio||1;
-const CH=520,PAD={t:36,r:36,b:52,l:72};
-const LWn=Math.log10(.8),LWx=Math.log10(10000),LSn=Math.log10(.05),LSx=Math.log10(5000);
+const cv=document.getElementById('cv'),cx=cv.getContext('2d'),tip=document.getElementById('tip'),dpr=window.devicePixelRatio||1;
+let CH=520;const PAD={t:28,r:28,b:50,l:62};
+const LWn=Math.log10(.03),LWx=Math.log10(10000);
+let LSn=Math.log10(.0004),LSx=Math.log10(20000);
+let hovered=null;
 
-function rz(){const w=cv.parentElement.getBoundingClientRect().width;cv.width=w*dpr;cv.height=CH*dpr;cv.style.height=CH+'px';cx.setTransform(dpr,0,0,dpr,0,0)}
+function layout(){const w=cv.parentElement.getBoundingClientRect().width-16;CH=Math.max(340,Math.min(560,Math.round(w*.62)));cv.width=w*dpr;cv.height=CH*dpr;cv.style.height=CH+'px';cx.setTransform(dpr,0,0,dpr,0,0)}
 function cW(){return cv.width/dpr}
 function xp(lw){return PAD.l+(lw-LWn)/(LWx-LWn)*(cW()-PAD.l-PAD.r)}
 function yp(ls){return PAD.t+(1-(ls-LSn)/(LSx-LSn))*(CH-PAD.t-PAD.b)}
 
+function curve(f,mult,c,lo,hi,dashBelow){
+  const N=240;let started=false;
+  const seg=(from,to,dashed)=>{cx.beginPath();cx.setLineDash(dashed?[5,5]:[]);cx.strokeStyle=c;cx.lineWidth=dashed?1.6:2.5;cx.globalAlpha=dashed?.7:1;
+    for(let i=0;i<=N;i++){const lw=from+(to-from)*i/N,w=Math.pow(10,lw),ls=Math.log10(mult*pr(f,w));if(ls<LSn-1)continue;const px=xp(lw),py=yp(Math.max(ls,LSn-.02));i===0?cx.moveTo(px,py):cx.lineTo(px,py)}
+    cx.stroke();cx.setLineDash([]);cx.globalAlpha=1};
+  const lb=Math.log10(dashBelow);seg(lo,Math.min(lb,hi),true);seg(Math.max(lb,lo),hi,false);
+}
 function draw(){
   const W=cW();cx.clearRect(0,0,W,CH);
-
-  // Grid
   cx.strokeStyle='#16161c';cx.lineWidth=.5;
-  for(let lw=0;lw<=4;lw++){const px=xp(lw);cx.beginPath();cx.moveTo(px,PAD.t);cx.lineTo(px,CH-PAD.b);cx.stroke()}
-  for(let ls=0;ls<=5;ls++){const py=yp(ls);cx.beginPath();cx.moveTo(PAD.l,py);cx.lineTo(W-PAD.r,py);cx.stroke()}
-
-  // Axis tick labels
+  for(let lw=-1;lw<=4;lw++){const px=xp(lw);cx.beginPath();cx.moveTo(px,PAD.t);cx.lineTo(px,CH-PAD.b);cx.stroke()}
+  for(let ls=-3;ls<=4;ls++){const py=yp(ls);cx.beginPath();cx.moveTo(PAD.l,py);cx.lineTo(W-PAD.r,py);cx.stroke()}
   cx.fillStyle='#3f3f46';cx.font='10px "JetBrains Mono",monospace';cx.textAlign='center';
-  [[0,'1 kg'],[1,'10 kg'],[2,'100 kg'],[3,'1 t'],[4,'10 t']].forEach(([v,t])=>cx.fillText(t,xp(v),CH-PAD.b+18));
+  [[-1,'100 g'],[0,'1 kg'],[1,'10 kg'],[2,'100 kg'],[3,'1 t'],[4,'10 t']].forEach(([v,t])=>cx.fillText(t,xp(v),CH-PAD.b+16));
   cx.textAlign='right';
-  [[0,'1'],[1,'10'],[2,'100'],[3,'1k'],[4,'10k'],[5,'100k']].forEach(([v,t])=>{if(v>=LSn&&v<=LSx)cx.fillText(t,PAD.l-10,yp(v)+4)});
-
-  // Axis titles
-  cx.save();cx.fillStyle='#52525b';cx.font='12px "DM Sans",sans-serif';cx.textAlign='center';
-  cx.fillText('Body Mass',W/2,CH-4);
-  cx.translate(14,CH/2);cx.rotate(-Math.PI/2);
-  cx.fillText('Combat Score (anatomy-corrected)',0,0);cx.restore();
-
-  // Gap fill
-  const N=300;cx.beginPath();
-  for(let i=0;i<=N;i++){const lw=LWn+(LWx-LWn)*i/N,w=Math.pow(10,lw);cx.lineTo(xp(lw),yp(Math.log10(pr(FT,w))))}
-  for(let i=N;i>=0;i--){const lw=LWn+(LWx-LWn)*i/N,w=Math.pow(10,lw);cx.lineTo(xp(lw),yp(Math.max(Math.log10(pr(FM,w)),LSn)))}
-  cx.closePath();cx.fillStyle='rgba(234,179,8,.05)';cx.fill();
-
-  // Curves
-  function crv(f,c){cx.beginPath();cx.strokeStyle=c;cx.lineWidth=2.5;
-    for(let i=0;i<=N;i++){const lw=LWn+(LWx-LWn)*i/N,w=Math.pow(10,lw),py=yp(Math.log10(pr(f,w)));
-      i===0?cx.moveTo(xp(lw),py):cx.lineTo(xp(lw),py)}cx.stroke()}
-  crv(FT,'#ef4444');crv(FM,'#6b7280');
-
-  // Dots
-  function dot(arr,c,type){arr.forEach(d=>{
-    const lw=Math.log10(d.w),ls=Math.log10(Math.max(d.s,1e-6));
-    if(lw<LWn||lw>LWx||ls<LSn||ls>LSx)return;
-    const px=xp(lw),py=yp(ls);
-    const isHov=hovered&&hovered.n===d.n&&hovered.w===d.w;
-    cx.beginPath();cx.arc(px,py,isHov?7:4.5,0,Math.PI*2);
-    cx.fillStyle=c;cx.globalAlpha=isHov?1:hovered?.35:.65;cx.fill();cx.globalAlpha=1;
-    if(isHov){
-      // Glow ring
-      cx.beginPath();cx.arc(px,py,11,0,Math.PI*2);
-      cx.strokeStyle=c;cx.lineWidth=2;cx.globalAlpha=.5;cx.stroke();cx.globalAlpha=1;
-      // Label
-      cx.fillStyle='#fff';cx.font='bold 12px "DM Sans",sans-serif';
-      cx.textAlign='center';cx.fillText(d.n,px,py-16);
-      // Weight subtitle
-      cx.fillStyle='#9ca3af';cx.font='10px "JetBrains Mono",monospace';
-      const wt=d.w>=1?d.w.toFixed(0)+' kg':(d.w*1000).toFixed(0)+' g';
-      cx.fillText(wt+' → score '+d.s.toFixed(1),px,py+22);
-    }
-  })}
-  dot(D,'#ef4444','d');dot(M,'#9ca3af','m');
-
-  // Ancestor
-  const aw=.1,ams=pr(FM,aw),ats=pr(FT,aw),alw=Math.log10(aw);
-  if(alw>=LWn){
-    const ax=xp(alw),amy=yp(Math.log10(ams)),aty=yp(Math.log10(ats));
-    cx.beginPath();cx.setLineDash([3,4]);cx.strokeStyle='#eab30855';cx.lineWidth=1.5;
-    cx.moveTo(ax,amy);cx.lineTo(ax,aty);cx.stroke();cx.setLineDash([]);
-    cx.fillStyle='#eab308';cx.font='bold 11px "JetBrains Mono",monospace';cx.textAlign='center';
-    cx.fillText(Math.round(ats/ams)+'×',ax,(amy+aty)/2+4);
-    cx.beginPath();cx.arc(ax,amy,7,0,Math.PI*2);
-    cx.fillStyle='#eab308';cx.globalAlpha=.85;cx.fill();cx.globalAlpha=1;
-    cx.strokeStyle='#eab30888';cx.lineWidth=2;cx.stroke();
-  }
-
-  // Labels — minimal static labels (hover handles the rest)
-  const L=[
-    {n:"★ Our ancestor",w:.1,s:null,c:'#eab308',ox:10,oy:-4,a:'left',anc:true},
-  ];
-
-  cx.font='10px "DM Sans",sans-serif';
-  const labelAlpha=hovered?.3:1;
-  L.forEach(l=>{
-    const lw=l.anc?Math.log10(.1):Math.log10(l.w);
-    const ls=l.anc?Math.log10(pr(FM,.1)):Math.log10(Math.max(l.s,1e-6));
-    if(lw<LWn||lw>LWx)return;
-    const dx=xp(lw),dy=yp(ls),lx=dx+l.ox,ly=dy+l.oy;
-    // Leader line
-    cx.globalAlpha=labelAlpha;
-    cx.beginPath();cx.strokeStyle=l.c+'30';cx.lineWidth=.8;
-    cx.moveTo(dx,dy);cx.lineTo(lx,ly);cx.stroke();
-    // Text
-    cx.fillStyle=l.c;cx.textAlign=l.a;cx.fillText(l.n,lx,ly);
-    cx.globalAlpha=1;
+  [[-3,'0.001'],[-2,'0.01'],[-1,'0.1'],[0,'1'],[1,'10'],[2,'100'],[3,'1k'],[4,'10k']].forEach(([v,t])=>{if(v>=LSn&&v<=LSx)cx.fillText(t,PAD.l-8,yp(v)+4)});
+  cx.save();cx.fillStyle='#52525b';cx.font='12px "DM Sans",sans-serif';cx.textAlign='center';cx.fillText('Body mass',W/2,CH-4);
+  cx.translate(13,CH/2);cx.rotate(-Math.PI/2);cx.fillText('Combat score (Lion = 100, log scale)',0,0);cx.restore();
+  // the ±2σ band around the theropod curve
+  if(F>1.001){const N=240;cx.beginPath();
+    for(let i=0;i<=N;i++){const lw=LWn+(LWx-LWn)*i/N,w=Math.pow(10,lw);cx.lineTo(xp(lw),yp(Math.max(Math.log10(F_HI*pr(FT,w)),LSn)))}
+    for(let i=N;i>=0;i--){const lw=LWn+(LWx-LWn)*i/N,w=Math.pow(10,lw);cx.lineTo(xp(lw),yp(Math.max(Math.log10(F_LO*pr(FT,w)),LSn)))}
+    cx.closePath();cx.fillStyle='rgba(239,68,68,.10)';cx.fill()}
+  // the gap fill between the two curves
+  {const N=240;cx.beginPath();
+    for(let i=0;i<=N;i++){const lw=LWn+(LWx-LWn)*i/N,w=Math.pow(10,lw);cx.lineTo(xp(lw),yp(Math.max(Math.log10(F*pr(FT,w)),LSn)))}
+    for(let i=N;i>=0;i--){const lw=LWn+(LWx-LWn)*i/N,w=Math.pow(10,lw);cx.lineTo(xp(lw),yp(Math.max(Math.log10(pr(FM,w)),LSn)))}
+    cx.closePath();cx.fillStyle='rgba(234,179,8,.05)';cx.fill()}
+  curve(FM,1,'#6b7280',LWn,LWx,MMIN);curve(FT,F,'#ef4444',LWn,LWx,TMIN);
+  const dot=(arr,mult,c,type)=>arr.forEach(d=>{
+    const s=mult*d.c,lw=Math.log10(d.w),ls=Math.log10(Math.max(s,1e-6));if(lw<LWn||lw>LWx||ls<LSn||ls>LSx)return;
+    const px=xp(lw),py=yp(ls),isH=hovered&&hovered.n===d.n&&hovered.t===type;
+    cx.beginPath();cx.arc(px,py,isH?7:4.5,0,Math.PI*2);cx.fillStyle=c;cx.globalAlpha=isH?1:hovered?.35:.7;cx.fill();cx.globalAlpha=1;
+    if(isH){cx.beginPath();cx.arc(px,py,11,0,Math.PI*2);cx.strokeStyle=c;cx.lineWidth=2;cx.globalAlpha=.5;cx.stroke();cx.globalAlpha=1;
+      cx.fillStyle='#fff';cx.font='bold 12px "DM Sans",sans-serif';cx.textAlign='center';cx.fillText(d.n,px,py-16)}
   });
+  dot(M,1,'#9ca3af','m');dot(D,F,'#ef4444','d');
+  // our 100 g ancestor
+  const aw=.1,ams=pr(FM,aw),ats=F*pr(FT,aw),ax=xp(Math.log10(aw)),amy=yp(Math.log10(ams)),aty=yp(Math.log10(ats));
+  cx.beginPath();cx.setLineDash([3,4]);cx.strokeStyle='#eab30866';cx.lineWidth=1.5;cx.moveTo(ax,amy);cx.lineTo(ax,aty);cx.stroke();cx.setLineDash([]);
+  cx.beginPath();cx.arc(ax,amy,7,0,Math.PI*2);cx.fillStyle='#eab308';cx.globalAlpha=.9;cx.fill();cx.globalAlpha=1;cx.strokeStyle='#eab30888';cx.lineWidth=2;cx.stroke();
+  cx.fillStyle='#eab308';cx.font='bold 11px "JetBrains Mono",monospace';cx.textAlign='left';
+  if(F>1.001)cx.fillText((ats/ams).toFixed(1)+'×',ax+10,(amy+aty)/2+4);
+  cx.font='10px "DM Sans",sans-serif';cx.fillText('★ our ancestor, 100 g',ax+10,amy+14);
 }
-
-// Hover
-const ALL=[...D.map(d=>({...d,t:'d',col:'#fca5a5'})),...M.map(d=>({...d,t:'m',col:'#9ca3af'}))];
-let hovered=null;
-cv.addEventListener('mousemove',e=>{
-  const r=cv.getBoundingClientRect(),mx=e.clientX-r.left,my=e.clientY-r.top;
-  let best=null,bd=30;
-  ALL.forEach(d=>{const lw=Math.log10(d.w),ls=Math.log10(Math.max(d.s,1e-6));
-    if(lw<LWn||lw>LWx||ls<LSn||ls>LSx)return;
-    const dist=Math.hypot(mx-xp(lw),my-yp(ls));if(dist<bd){bd=dist;best=d}});
-  if(best!==hovered){hovered=best;draw()}
-  if(best){
-    document.getElementById('tN').textContent=best.n;
-    document.getElementById('tN').style.color=best.col;
-    document.getElementById('tW').textContent=best.w>=1?best.w.toFixed(0)+' kg':(best.w*1000).toFixed(0)+' g';
-    document.getElementById('tS').textContent=best.s>=1?best.s.toFixed(1):best.s<.01?best.s.toExponential(1):best.s.toFixed(3);
-    const of=best.t==='d'?FM:FT,os=pr(of,best.w),rat=best.t==='d'?best.s/os:os/best.s;
-    document.getElementById('tR').textContent=(best.t==='d'?'Theropod':'Mammal')+' at this weight: '+rat.toFixed(0)+'× '+(best.t==='d'?'advantage':'disadvantage');
-    tip.classList.add('vis');tip.style.left=(e.clientX+16)+'px';tip.style.top=(e.clientY-20)+'px';
-  }else tip.classList.remove('vis');
-});
+function updateText(){
+  const g=F*pr(FT,.1)/pr(FM,.1),gl=F_LO*pr(FT,.1)/pr(FM,.1),gh=F_HI*pr(FT,.1)/pr(FM,.1);
+  const comp=F*.09/pr(FM,.3),cl=F_LO*.09/pr(FM,.3),ch=F_HI*.09/pr(FM,.3);
+  document.getElementById('callout').innerHTML=F>1.001
+    ?`At our ancestor's size, 100 g, a theropod of equal mass scores <strong>${g.toFixed(1)}×</strong> a mammal <span class="band">(${gl.toFixed(1)}–${gh.toFixed(1)}× across the 2σ band)</span>.<br>A 3 kg Compsognathus against a 300 g mammal: <strong>${comp.toFixed(0)}×</strong> mismatch <span class="band">(${cl.toFixed(0)}–${ch.toFixed(0)}×)</span>.`
+    :`Crowd baseline, no anatomy factor: at 100 g the two fitted curves nearly coincide (<strong>${g.toFixed(1)}×</strong>), and a 3 kg Compsognathus against a 300 g mammal is <strong>${comp.toFixed(0)}×</strong>. The companion page's calibration is what opens the gap; select it above.`;
+  document.getElementById('fitline').textContent=`fits · theropods: score = ${(F*FT.C).toPrecision(3)} · mass^${FT.b.toFixed(3)}   mammals: score = ${FM.C.toPrecision(3)} · mass^${FM.b.toFixed(3)}   (median regression, log–log; F = ${F.toFixed(3)}×)`;
+}
+document.querySelectorAll('.deck .btn').forEach(b=>b.addEventListener('click',()=>{F=parseFloat(b.dataset.f);document.querySelectorAll('.deck .btn').forEach(x=>x.classList.toggle('active',x===b));updateText();draw()}));
+const ALL=[...D.map(d=>({...d,t:'d'})),...M.map(d=>({...d,t:'m'}))];
+function pick(mx,my){let best=null,bd=28;ALL.forEach(d=>{const s=(d.t==='d'?F:1)*d.c,lw=Math.log10(d.w),ls=Math.log10(Math.max(s,1e-6));if(lw<LWn||lw>LWx||ls<LSn||ls>LSx)return;const dist=Math.hypot(mx-xp(lw),my-yp(ls));if(dist<bd){bd=dist;best=d}});return best}
+function showTip(best,clientX,clientY){
+  const s=(best.t==='d'?F:1)*best.c;document.getElementById('tN').textContent=best.n;document.getElementById('tN').style.color=best.t==='d'?'#fca5a5':'#9ca3af';
+  document.getElementById('tW').textContent=fmtW(best.w);document.getElementById('tS').textContent=fmtS(s);
+  document.getElementById('tBrow').style.display=best.t==='d'&&F>1.001?'flex':'none';document.getElementById('tB').textContent=fmtS(best.c)+' × '+F.toFixed(2);
+  const other=best.t==='d'?pr(FM,best.w):F*pr(FT,best.w),rat=s/other;
+  document.getElementById('tR').textContent=best.t==='d'?`${rat>=1?rat.toFixed(1)+'× the':'1/'+(1/rat).toFixed(1)+' of the'} fitted mammal at this mass`:`${(1/rat).toFixed(1)}× below the fitted theropod at this mass`;
+  tip.classList.add('vis');const tw=tip.offsetWidth||220;tip.style.left=Math.min(clientX+16,window.innerWidth-tw-8)+'px';tip.style.top=Math.max(8,clientY-20)+'px';
+}
+function onMove(e){const r=cv.getBoundingClientRect(),p=e.touches?e.touches[0]:e,mx=p.clientX-r.left,my=p.clientY-r.top,best=pick(mx,my);
+  if(best!==hovered){hovered=best;draw()}if(best)showTip(best,p.clientX,p.clientY);else tip.classList.remove('vis')}
+cv.addEventListener('mousemove',onMove);cv.addEventListener('pointerdown',onMove);
 cv.addEventListener('mouseleave',()=>{tip.classList.remove('vis');if(hovered){hovered=null;draw()}});
-
-rz();draw();window.addEventListener('resize',()=>{rz();draw()});
+layout();updateText();draw();window.addEventListener('resize',()=>{layout();draw()});
 </script>
 </body>
 </html>
