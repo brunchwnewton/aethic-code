@@ -1,50 +1,59 @@
-# Bradley–Terry refit (Dinosaur Recalibration, October 2026)
+# Dinosaur Recalibration — data pipeline
 
-`bt_refit.py` regenerates the crowd ratings from the scraped matchup file, so the fitted CSV can always be rebuilt:
+Everything needed to go from the Carnivora.net Interspecific Conflict Directory to the numbers in *Dinosaur Recalibration* (revised October 2026) and on the interactive pages.
+
+| step | file | does | writes |
+|---|---|---|---|
+| 1 | `1_link_scraper.py` | collects the matchup thread links (original scraper) | `versus_links.txt` |
+| 2 | `2_scrape_duels.py` | scrapes each matchup's poll (original scraper) | `duel.csv` (tab-separated) |
+| 3 | `3_bt_fit.py` | Bradley–Terry fit, African Lion = 100, standard errors | `outputs/bt_scores.csv` |
+| 4 | `4_categorize.py` | dinosaur / Mesozoic-other / baseline classes, Permian flag | `outputs/bt_scores_classified.csv` |
+| 5 | `5_rescale_dinos.py` | the lognormal anatomy model and median rescaling | `outputs/bt_scores_african_lion_100.csv`, `outputs/anatomy_model.json` |
+| 6 | `6_curve_fit.py` | weight–score fits, equal-mass ratios, Dark Era table | `outputs/weight_score.json`, `outputs/dark_era_table.csv` |
+| 7 | `7_cultural_inflation.py` | cultural inflation of iconic generic names, felt strength | `outputs/cultural_inflation.csv`, `outputs/cultural_inflation.json` |
+
+`duels.csv` is the scraped data the paper uses (comma-separated, no header: animal A, animal B, P(A beats B), votes); step 3 also accepts step 2's tab-separated output directly. The `outputs/` folder holds the results of a full run, so nothing needs re-running to read them.
+
+## Running
 
 ```
-python3 bt_refit.py duels.csv
+pip install -r requirements.txt
+python3 3_bt_fit.py duels.csv
+python3 4_categorize.py
+python3 5_rescale_dinos.py
+python3 6_curve_fit.py
+python3 7_cultural_inflation.py duels.csv
 ```
 
-It needs Python 3 with `numpy`, `pandas`, `scipy` and `networkx`, runs in under a minute, and writes two files:
+Steps 3–7 run offline and take about a minute each. `verify_bradley_terry.py` (optional; needs scikit-learn) checks that step 3's objective is the Bradley–Terry likelihood, that its solution satisfies the Bradley–Terry score equations, and that an independent solver reproduces it. Steps 1–2 re-scrape the forum and need the internet. The forum's polls keep changing, so a fresh scrape will not reproduce `duels.csv` exactly.
 
-- `bt_scores_african_lion_100.csv` — every animal of the fitted graph (1,758), ranked.
-- `bt_refit_summary.json` — pipeline counts and the elicited anatomy model.
-
-## Columns of `bt_scores_african_lion_100.csv`
+## The main output: `outputs/bt_scores_african_lion_100.csv`
 
 | column | meaning |
 |---|---|
-| `rank` | rank by crowd score |
-| `animal` | cleaned name |
-| `score` | crowd Bradley–Terry score, **African Lion = 100** |
-| `log_score` | natural-log strength relative to the African Lion |
-| `se_log` | standard error of `log_score` (inverse penalized observed information) |
+| `score` | crowd Bradley–Terry score, African Lion = 100 |
+| `log_score`, `se_log` | natural-log strength relative to the African Lion, and its standard error |
 | `real_matchups`, `real_votes` | retained real matchups and their votes |
-| `class` | `dinosaur`, `mesozoic-other` or `baseline` (by genus; paper, Section 5) |
+| `class` | `dinosaur`, `mesozoic-other` or `baseline` |
 | `permian` | Permian control animal (baseline class) |
-| `median_factor` | 3.451 for dinosaurs, 1.858 (its square root) for Mesozoic-other, 1 otherwise |
+| `median_factor` | 3.473 for dinosaurs, 1.864 for Mesozoic-other, 1 for baseline |
 | `median_score` | `score × median_factor` |
-| `band1_low`, `band1_high` | one-log-SD calibration band (×/÷1.206 dinosaurs, ×/÷1.098 Mesozoic-other) |
+| `band1_low`, `band1_high` | one-log-SD calibration band |
 
-## Pipeline
+## What replaced what
 
-As described in the paper (Sections 2–6):
+The earlier processing scripts (`3_power_assembler.py`, `4_categorizer.py`, `5_rescale_dinos.py`, `6_curve_fit.py`) are superseded by steps 3–6 here.
 
-1. **Name cleaning.** An ASCII allowlist, plus a corrections dictionary for the 24 names carrying U+FFFD. Ten corrupted names merge with their clean twins.
-2. **Filtering.** Matchups outside [5%, 95%] are excluded from the fitted graph.
-3. **Main component.** The largest connected component of the filtered graph is kept.
-4. **Gender pseudo-matchups.** Male beats base and base beats female, each at p = 0.60, weight 10.
-5. **Group-to-solo pseudo-matchups.** Group beats solo with probability N^0.7/(N^0.7+1), weight 3.
-6. **Fit.** Weighted Bradley–Terry likelihood with an L2 penalty of 0.01 on log-strengths, maximized by L-BFGS; standard errors from the inverse Hessian.
-7. **Normalization.** African Lion = 100.
-8. **Classes and the anatomy model.** Genus-based scaling classes, then the elicited lognormal anatomy model: the ladder Dakotaraptor/African Lion = African Lion/Human, shrunk once in log space, with Utahraptor as the second anchor, 2:1 log centring and 15% outside the anchors. The result is log F ~ N(1.23870, 0.18756²), median 3.451×.
+- **Step 3** keeps the earlier script's model: a penalized Bradley–Terry fit, which `3_power_assembler.py` already was. It adds:
+  - restriction to the largest connected component, since a Bradley–Terry scale is only defined within a connected graph;
+  - the gender and group-to-solo pseudo-matchups;
+  - ASCII name cleaning with explicit corrections, plus an alias list merging 24 spelling, case and alternate-name variants of one animal, such as *Spinosaurus aegypticus* into *aegyptiacus* and "Orca" into "Orca (Killer Whale)", so that each animal's votes land on one entry, and correcting six plain typos;
+  - exact Newton polishing after L-BFGS, so the Bradley–Terry score equations hold to machine precision;
+  - normalization to African Lion = 100 instead of median = 1;
+  - standard errors.
 
-## Differences from the original (lost) export
-
-- **Not reproduced: the original pipeline's three manual augmentations**, whose lists were not preserved:
-  - the 12 island bridges;
-  - the generic/regional duplicate links (50%, weight 20);
-  - the subspecies links (size-adjusted, weight 10).
-- **Fewer animals.** The refit keeps the 1,758-animal main component rather than 1,819. Four animals of the earlier paper tables sat in formerly bridged clusters and are absent: Water Buffalo, Savannah Cat, House Mouse, Etruscan Shrew.
-- **Close agreement elsewhere.** Without the duplicate links every generic entry is placed by its own votes. Most animals agree with the earlier export to within about 5% on the African Lion scale (rank correlation 0.996). The culturally iconic generics, Lion and Tiger above all, sit much higher relative to their own populations than the linked fit had them. The paper's cultural-inflation section analyses exactly this.
+  The original export's manual island bridges, generic/regional duplicate links and subspecies links are not reproduced, because their lists were not preserved. As a result, 1,743 animals are fitted rather than 1,819, and generic entries such as "Lion" are placed by their own votes.
+- **Step 4** keeps the earlier categorizer's 537 manual overrides, genus lists, name suffixes and group-stripping rule verbatim. It drops the Wikipedia lookup, so classification is offline and reproducible. Eight names that no rule decides default to baseline: dogs, a bird, a lizard and a Pleistocene snake, all correctly. Six fixes, each listed in the file with its reason, correct five cases where the name rules misfire and one override: *Trochosuchus acutus*, a Permian therocephalian that the original override had filed as a Mesozoic crocodile.
+- **Step 5** replaces the "big cat = 100" benchmark and the single fixed dinosaur factor with the elicited lognormal anatomy model, log F ~ N(1.24511, 0.18923²) with median 3.473×. The calibration ladder is anchored on the African Lion; the generic-Lion version, 6.92×, is reported as a sensitivity.
+- **Step 6** replaces the slope grid search with exact median regression. It also drops the small-mammal re-anchoring, excluding mammals below 1 kg instead as the paper states, and adds the crowd's own equal-mass ratio.
+- **Step 7** is new: the cultural-inflation analysis of Section 8.

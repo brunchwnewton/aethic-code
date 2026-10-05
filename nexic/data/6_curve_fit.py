@@ -1,397 +1,76 @@
-"""
-Dark Era Hunting Dynamics: Weight vs. Combat Score
-====================================================
-Fits power-law curves (score = a * weight^b) via MEDIAN REGRESSION
-separately for:
-  1. Theropod dinosaurs
-  2. Mammals (mouse-to-bear size range)
+#!/usr/bin/env python3
+"""Step 6 — weight-score analysis (replaces the earlier 6_curve_fit.py).
 
-Median regression minimizes absolute errors instead of squared errors,
-making it robust to crowd-data outliers while preserving the central
-tendency (wisdom-of-the-crowd median, like a gumball-jar estimate).
+Usage:  python3 6_curve_fit.py     reads outputs/bt_scores_african_lion_100.csv and outputs/anatomy_model.json
+                                   -> outputs/weight_score.json, outputs/dark_era_table.csv
 
-Then extrapolates both curves to visualize the ecological gap that
-defined the Mesozoic Dark Era for our ancestors.
+Power laws s = C w^b fitted in log-log space by median regression (least absolute deviations), solved exactly: an optimal
+line passes through two data points, so every pair is tried. What changed from the earlier script: the exact solution
+replaces a slope grid search; the small-mammal re-anchoring is dropped, mammals below 1 kg being excluded instead, as the
+paper states; the mammal sample omits the culturally inflated generic Lion and Tiger (paper, Section 8); and the crowd's
+own equal-mass ratio is computed for all and for carnivorous theropods, with bootstrap bands (paper, Section 9.3).
+Masses are those of the paper's appendices and the interactive chart."""
+import json, itertools
+import numpy as np, pandas as pd
 
-Usage:
-    python dark_era_curves.py duels_ratings_classified_rescaled.csv
-"""
-
-import csv
-import math
-import sys
-import json
-
-
-# ─────────────────────────────────────────────────────────────
-# Weight estimates (kg) from paleontological literature
-# Only including solo entries (no packs) with known weights
-# ─────────────────────────────────────────────────────────────
-
-# Theropod dinosaurs: genus → estimated weight in kg
-THEROPOD_WEIGHTS = {
-    # Large raptors / mid theropods
-    "Utahraptor ostrommaysorum": 500,
-    "Dakotaraptor steini": 250,
-    "Achillobator giganticus": 250,
-    "Deinonychus antirrhopus": 73,
-    "Velociraptor mongoliensis": 15,
-    "Dromaeosaurus albertensis": 15,
-    "Linheraptor exquisitus": 12,
-    "Suskityrannus hazelae": 30,
-    "Moros intrepidus": 78,
-    "Timurlengia euotica": 170,
-    # Small theropods
-    "Coelophysis bauri": 20,
-    "Compsognathus longipes": 3,
-    "Ornitholestes hermanni": 12,
-    "Archaeopteryx lithographica": 0.9,
-    "Yi qi": 0.4,
-    "Eodromaeus murphi": 5,
-    "Eoraptor lunensis": 10,
-    "Liliensternus liliensterni": 130,
-    # Ornithomimids and oviraptorosaurs
-    "Gallimimus bullatus": 440,
-    "Ornithomimus edmontonicus": 170,
-    "Citipati osmolskae": 75,
-    "Anzu wyliei": 200,
-    # Troodontids
-    "Stenonychosaurus inequalis": 50,  # = Troodon
-    "Dromaeosauroides bornholmensis": 15,
-    # Mid-size theropods
-    "Dilophosaurus wetherilli": 400,
-    "Herrerasaurus ischigualastensis": 210,
-    "Monolophosaurus jiangi": 475,
-    "Marshosaurus bicentesimus": 200,
-    "Concavenator corcovatus": 350,
-}
-
-# Mammals: name → estimated weight in kg (extant or well-known extinct)
-MAMMAL_WEIGHTS = {
-    # Tiny
-    "Etruscan Shrew": 0.002,
-    "House Mouse": 0.02,
-    "Meadow Vole": 0.04,
-    "Northern Grasshopper Mouse": 0.035,
-    "Four-toed Hedgehog": 0.35,
-    "Snowshoe Hare": 1.5,
-    "Brown Hare": 3.5,
-    "Feral Cat": 4,
-    "Red Fox": 6,
-    "Arctic Fox": 4,
-    "Fennec Fox": 1.2,
-    "Honey Badger": 11,
-    "Fisher": 4.5,
-    "Wolverine": 14,
-    "Bobcat": 9,
-    "Canadian Lynx": 11,
-    "Caracal": 13,
-    "Coyote": 14,
-    "Ocelot": 12,
-    "Red Wolf": 27,
-    "Grey Wolf": 40,
-    "Dire Wolf": 68,
-    "Leopard": 60,
-    "Cheetah": 50,
-    "Cougar": 70,
-    "Spotted Hyena": 55,
-    "Lion": 190,
-    "Tiger": 220,
-    "Siberian Tiger": 230,
-    "Bengal Tiger": 220,
-    "African Lion": 185,
-    "Grizzly Bear": 270,
-    "Polar Bear": 450,
-    "Gorilla": 160,
-    "Common Chimpanzee": 50,
-    "Bonobo": 40,
-    "Mandrill": 25,
-    "Olive Baboon": 25,
-    "Human": 70,
-    # Extinct mammals
-    "Smilodon fatalis": 220,
-    "Dire Wolf": 68,
-    "Arctodus simus": 800,
-    "Thylacine": 25,
-}
+THEROPODS = {  # kg; the 23 theropods of the paper's Appendix A (False = excluded from the carnivorous subsample)
+    'Yi qi': (0.4, False), 'Archaeopteryx lithographica': (0.9, True), 'Compsognathus longipes': (3, True), 'Ornitholestes hermanni': (12, True),
+    'Linheraptor exquisitus': (12, True), 'Velociraptor mongoliensis': (15, True), 'Dromaeosaurus albertensis': (15, True), 'Coelophysis bauri': (20, True),
+    'Suskityrannus hazelae': (30, True), 'Stenonychosaurus inequalis': (50, True), 'Deinonychus antirrhopus': (73, True), 'Citipati osmolskae': (75, False),
+    'Moros intrepidus': (78, True), 'Liliensternus liliensterni': (130, True), 'Timurlengia euotica': (170, True), 'Ornithomimus edmontonicus': (170, False),
+    'Marshosaurus bicentesimus': (200, True), 'Herrerasaurus ischigualastensis': (210, True), 'Dakotaraptor steini': (250, True),
+    'Achillobator giganticus': (250, True), 'Dilophosaurus wetherilli': (400, True), 'Gallimimus bullatus': (440, False), 'Utahraptor ostrommaysorum': (500, True)}
+MAMMALS = {  # kg; mammals of at least 1 kg
+    'Fennec Fox': 1.2, 'Brown Hare': 3.5, 'Feral Cat': 4, 'Arctic Fox': 4, 'Fisher': 4.5, 'Red Fox': 6, 'Bobcat': 9, 'Honey Badger': 11, 'Canadian Lynx': 11,
+    'Ocelot': 12, 'Caracal': 13, 'Wolverine': 14, 'Coyote': 14, 'Mandrill': 25, 'Thylacine': 25, 'Olive Baboon': 25, 'Red Wolf': 27, 'Grey Wolf': 40,
+    'Cheetah': 50, 'Common Chimpanzee': 50, 'Spotted Hyena': 55, 'Leopard': 60, 'Dire Wolf': 68, 'Cougar': 70, 'Human': 70, 'African Lion': 185,
+    'Lion': 190, 'Smilodon fatalis': 220, 'Tiger': 220, 'Bengal Tiger': 220, 'Siberian Tiger': 230, 'Grizzly Bear': 270, 'Polar Bear': 450, 'Arctodus simus': 800}
+GENERIC = {'Lion', 'Tiger'}
 
 
-def load_rescaled(csv_path):
-    """Load the rescaled ratings CSV."""
+def lad(pts):
+    """Exact least-absolute-deviation line of log10 s on log10 w; returns (C, b)."""
+    x = np.log10([p[0] for p in pts]); y = np.log10([max(p[1], 1e-3) for p in pts]); best = None
+    for i, j in itertools.combinations(range(len(x)), 2):
+        if abs(x[i] - x[j]) < 1e-12: continue
+        b = (y[j] - y[i]) / (x[j] - x[i]); a = y[i] - b * x[i]; s = np.abs(y - a - b * x).sum()
+        if best is None or s < best[0] - 1e-12: best = (s, a, b)
+    return 10**best[1], best[2]
+
+
+def pr(f, w): return f[0] * w**f[1]
+
+
+def main():
+    df = pd.read_csv('outputs/bt_scores_african_lion_100.csv'); S = dict(zip(df.animal, df.score))
+    model = json.load(open('outputs/anatomy_model.json'))['model']; F, sig = model['median'], model['sigma']
+    th_all = [(w, S[n]) for n, (w, c) in THEROPODS.items()]; th_carn = [(w, S[n]) for n, (w, c) in THEROPODS.items() if c]
+    mam = [(w, S[n]) for n, w in MAMMALS.items() if n not in GENERIC]; mam_gen = [(w, S[n]) for n, w in MAMMALS.items()]
+    fT, fC, fM, fMg = lad(th_all), lad(th_carn), lad(mam), lad(mam_gen)
+    out = dict(fits=dict(theropods=fT, theropods_carnivorous=fC, mammals=fM, mammals_with_generic_lion_tiger=fMg,
+                         theropods_median_calibrated=(fT[0] * F, fT[1]), theropods_median_band=(fT[0] * F * np.exp(-sig), fT[0] * F * np.exp(sig))))
     rows = []
-    with open(csv_path, "r", encoding="utf-8-sig") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            rows.append(row)
-    return rows
+    for w, ctx in [(.02, 'Mouse-sized'), (.1, 'Rat-sized illustrative mammal'), (2, 'Squirrel-sized'), (15, 'Fox-sized (Velociraptor)'),
+                   (75, 'Human-sized (Deinonychus)'), (250, 'Lion-sized (Dakotaraptor)'), (500, 'Bear-sized (Utahraptor)')]:
+        t = pr(fT, w) * F; rows.append(dict(weight_kg=w, theropod_median=t, theropod_band_low=t * np.exp(-sig), theropod_band_high=t * np.exp(sig), mammal=pr(fM, w), ratio=t / pr(fM, w), context=ctx))
+    out['dark_era_table'] = rows; pd.DataFrame(rows).to_csv('outputs/dark_era_table.csv', index=False, float_format='%.6g')
+    out['median_ratio_1kg'] = pr(fT, 1) * F / pr(fM, 1); out['mammal_score_100g'] = pr(fM, .1)
+    out['cross_mass_ratios_vs_100g_mammal'] = {f'{w} kg': pr(fT, w) * F / pr(fM, .1) for w in (.4, 3, 15)}
+    rng = np.random.default_rng(7); eq = {}
+    for name, tp in [('carnivorous', th_carn), ('all', th_all)]:
+        eq[name] = {'without_generic': {f'{w} kg': pr(lad(tp), w) / pr(fM, w) for w in (1, 30, 300)},
+                    'with_generic': {f'{w} kg': pr(lad(tp), w) / pr(fMg, w) for w in (1, 30, 300)}}
+        boot = {30: [], 300: []}
+        for _ in range(1000):
+            a = lad([tp[i] for i in rng.integers(0, len(tp), len(tp))]); m = lad([mam[i] for i in rng.integers(0, len(mam), len(mam))])
+            for w in boot: boot[w].append(pr(a, w) / pr(m, w))
+        eq[name]['bootstrap_90'] = {f'{w} kg': [float(np.percentile(v, 5)), float(np.percentile(v, 95))] for w, v in boot.items()}
+    out['equal_mass_crowd_ratio'] = eq
+    json.dump(out, open('outputs/weight_score.json', 'w'), indent=1, default=float)
+    print(f"theropods (median-calibrated) s = {fT[0]*F:.4f} w^{fT[1]:.3f} | mammals s = {fM[0]:.4f} w^{fM[1]:.3f} | carnivorous (crowd) s = {fC[0]:.4f} w^{fC[1]:.3f}")
+    c = eq['carnivorous']; print(f"crowd equal-mass ratio, carnivorous: 30 kg {c['without_generic']['30 kg']:.2f} {c['bootstrap_90']['30 kg']}, 300 kg {c['without_generic']['300 kg']:.2f} {c['bootstrap_90']['300 kg']}")
+    print("wrote outputs/weight_score.json, outputs/dark_era_table.csv")
 
 
-def match_weights(rows, weight_dict, category):
-    """Match animals to their weight estimates."""
-    matched = []
-    for r in rows:
-        name = r["animal"]
-        if r["category"] != category:
-            continue
-        # Skip groups
-        nl = name.lower()
-        if any(x in nl for x in ["pack", "coalition", "pride", "group", "troop",
-                                   "pair", "romp", "(2)", "(3)", "(4)", "(5)"]):
-            continue
-        if name in weight_dict:
-            matched.append({
-                "name": name,
-                "weight_kg": weight_dict[name],
-                "rescaled": float(r["rescaled"]),
-                "crowd": float(r["normalized"]),
-            })
-    return matched
-
-
-def fit_power_law(data):
-    """Fit log(score) = a + b*log(weight) via MEDIAN regression.
-
-    Minimizes sum of absolute errors instead of squared errors,
-    making the fit robust to outliers (wisdom-of-the-crowd median).
-    Returns (a, b) where score = exp(a) * weight^b.
-    """
-    n = len(data)
-    if n < 3:
-        return None, None
-
-    xs = [math.log(d["weight_kg"]) for d in data]
-    ys = [math.log(d["rescaled"]) for d in data]
-
-    def median_val(vals):
-        s = sorted(vals)
-        n = len(s)
-        return s[n // 2] if n % 2 == 1 else (s[n // 2 - 1] + s[n // 2]) / 2
-
-    # Grid search: for each slope b, optimal intercept = median(y - b*x)
-    best_b, best_a, best_err = 0, 0, float("inf")
-    for b_int in range(0, 3000):
-        b = b_int / 1000
-        residuals = [y - b * x for x, y in zip(xs, ys)]
-        a = median_val(residuals)
-        err = sum(abs(y - a - b * x) for x, y in zip(xs, ys))
-        if err < best_err:
-            best_err = err
-            best_b = b
-            best_a = a
-
-    # Compute pseudo-R² (based on absolute deviations)
-    median_y = median_val(ys)
-    total_abs = sum(abs(y - median_y) for y in ys)
-    r_pseudo = 1 - best_err / total_abs if total_abs > 0 else 0
-
-    return best_a, best_b, r_pseudo
-
-
-def predict(a, b, weight_kg):
-    """Predict score from weight using fitted power law."""
-    return math.exp(a + b * math.log(weight_kg))
-
-
-def main(csv_path):
-    rows = load_rescaled(csv_path)
-    print(f"Loaded {len(rows)} entries.\n")
-
-    # ── Match weights ──
-    theropods = match_weights(rows, THEROPOD_WEIGHTS, "dinosaur")
-    mammals = match_weights(rows, MAMMAL_WEIGHTS, "non-mesozoic")
-
-    theropods.sort(key=lambda d: d["weight_kg"])
-    mammals.sort(key=lambda d: d["weight_kg"])
-
-    print(f"{'=' * 70}")
-    print(f"THEROPODS WITH WEIGHT ESTIMATES ({len(theropods)} matched)")
-    print(f"{'=' * 70}")
-    print(f"  {'Name':<40s} {'Weight (kg)':>12s} {'Rescaled':>10s}")
-    print(f"  {'-'*40} {'-'*12} {'-'*10}")
-    for d in theropods:
-        print(f"  {d['name']:<40s} {d['weight_kg']:>10.1f}kg {d['rescaled']:>10.1f}")
-
-    print(f"\n{'=' * 70}")
-    print(f"MAMMALS WITH WEIGHT ESTIMATES ({len(mammals)} matched)")
-    print(f"{'=' * 70}")
-    print(f"  {'Name':<40s} {'Weight (kg)':>12s} {'Rescaled':>10s}")
-    print(f"  {'-'*40} {'-'*12} {'-'*10}")
-    for d in mammals:
-        print(f"  {d['name']:<40s} {d['weight_kg']:>10.2f}kg {d['rescaled']:>10.1f}")
-
-    # ── Fit theropod power law (median regression, full range) ──
-    print(f"\n{'=' * 70}")
-    print("MEDIAN POWER LAW FITS: score = C × weight^b")
-    print("(Robust to outliers — tracks the crowd's central tendency)")
-    print(f"{'=' * 70}")
-
-    a_t, b_t, r2_t = fit_power_law(theropods)
-    C_t = math.exp(a_t) if a_t is not None else None
-
-    print(f"\n  Theropods:  score = {C_t:.3f} × weight^{b_t:.3f}   (pseudo-R² = {r2_t:.3f}, n={len(theropods)})")
-
-    # ── Fit mammals with re-anchoring ──
-    # The crowd can't calibrate tiny mammals against large ones (comedy votes),
-    # but CAN relatively rank animals within a size class. Strategy:
-    #   1. Fit the reliable range (>= threshold) with median regression
-    #   2. Re-anchor small mammals onto that slope, preserving relative differences
-    #   3. Refit on the full corrected dataset
-
-    RELIABLE_THRESHOLD = 9  # kg (bobcat and up)
-    print(f"\n  Mammal re-anchoring (reliable threshold: {RELIABLE_THRESHOLD}kg):")
-
-    reliable = [d for d in mammals if d["weight_kg"] >= RELIABLE_THRESHOLD]
-    unreliable = [d for d in mammals if d["weight_kg"] < RELIABLE_THRESHOLD]
-
-    # Fit reliable range only
-    a_rel, b_rel, r2_rel = fit_power_law(reliable)
-    C_rel = math.exp(a_rel)
-    print(f"    Reliable fit (n={len(reliable)}): score = {C_rel:.4f} × weight^{b_rel:.3f}")
-
-    # Fit unreliable range locally (to extract relative differences)
-    if len(unreliable) >= 3:
-        a_loc, b_loc, _ = fit_power_law(unreliable)
-    else:
-        a_loc, b_loc = a_rel, b_rel  # fallback
-
-    print(f"    Local small-mammal fit (n={len(unreliable)}): exponent = {b_loc:.3f} (vs reliable {b_rel:.3f})")
-
-    # Re-anchor: sigmoid blend from corrected (small) to original (large)
-    log_thresh = math.log(RELIABLE_THRESHOLD)
-    k_blend = 1.5  # sigmoid steepness
-
-    for d in mammals:
-        lw = math.log(d["weight_kg"])
-        ls = math.log(d["rescaled"])
-        blend = 1 / (1 + math.exp(k_blend * (lw - log_thresh)))
-
-        # Residual from local fit (relative position among peers)
-        local_residual = ls - (a_loc + b_loc * lw)
-        # Re-anchored = global prediction + local residual
-        reanchored = (a_rel + b_rel * lw) + local_residual
-        # Blend between original and re-anchored
-        corrected_log = (1 - blend) * ls + blend * reanchored
-        d["corrected"] = math.exp(corrected_log)
-        d["blend"] = blend
-
-    # Refit on corrected values
-    corrected_mammals = [{"weight_kg": d["weight_kg"], "rescaled": d["corrected"]}
-                         for d in mammals]
-    a_m, b_m, r2_m = fit_power_law(corrected_mammals)
-    C_m = math.exp(a_m) if a_m is not None else None
-
-    print(f"    Corrected full fit (n={len(mammals)}): score = {C_m:.4f} × weight^{b_m:.3f}  (pseudo-R² = {r2_m:.3f})")
-
-    # Show re-anchoring effect on small mammals
-    print(f"\n    Re-anchored small mammals:")
-    for d in mammals:
-        if d["weight_kg"] < RELIABLE_THRESHOLD:
-            print(f"      {d['name']:<30s} {d['weight_kg']:>7.3f}kg  "
-                  f"crowd={d['rescaled']:>8.2f} → corrected={d['corrected']:>8.4f}  "
-                  f"(blend={d['blend']:.0%})")
-
-    print(f"\n  FINAL FITS:")
-    print(f"    Theropods:  score = {C_t:.3f} × weight^{b_t:.3f}")
-    print(f"    Mammals:    score = {C_m:.4f} × weight^{b_m:.3f}")
-    print(f"    Intercept ratio at 1kg: {C_t/C_m:.1f}× theropod advantage")
-    if b_m != b_t:
-        cross = (C_t / C_m) ** (1 / (b_m - b_t))
-        print(f"    Theoretical crossover: {cross:.0f} kg ({'never' if cross > 1e6 else f'{cross:.0f}kg'})")
-
-    # ── Compare at key weight classes ──
-    print(f"\n{'=' * 70}")
-    print("DARK ERA DYNAMICS: Theropod vs Mammal at same weight")
-    print(f"{'=' * 70}")
-    print(f"  {'Weight':>10s}  {'Theropod':>12s}  {'Mammal':>12s}  {'Ratio':>8s}  {'Context'}")
-    print(f"  {'-'*10}  {'-'*12}  {'-'*12}  {'-'*8}  {'-'*30}")
-
-    comparisons = [
-        (0.02, "Mouse-sized"),
-        (0.1, "Shrew-sized"),
-        (0.5, "Rat-sized"),
-        (2, "Squirrel-sized"),
-        (5, "Rabbit-sized"),
-        (15, "Fox-sized (Velociraptor)"),
-        (40, "Wolf-sized"),
-        (75, "Human-sized (Deinonychus)"),
-        (250, "Lion-sized (Dakotaraptor)"),
-        (500, "Bear-sized (Utahraptor)"),
-    ]
-
-    for weight, context in comparisons:
-        t_score = predict(a_t, b_t, weight)
-        m_score = predict(a_m, b_m, weight)
-        ratio = t_score / m_score
-        print(f"  {weight:>8.1f}kg  {t_score:>12.1f}  {m_score:>12.1f}  {ratio:>7.1f}×  {context}")
-
-    # ── Dark Era ancestor scenario ──
-    print(f"\n{'=' * 70}")
-    print("THE DARK ERA: What our ancestors faced")
-    print(f"{'=' * 70}")
-    ancestor_weight = 0.1  # ~100g, rat-sized Mesozoic mammal
-    ancestor_score = predict(a_m, b_m, ancestor_weight)
-
-    print(f"\n  Our Mesozoic ancestor (~{ancestor_weight}kg, rat-sized):")
-    print(f"    Predicted score: {ancestor_score:.6f}")
-
-    # What realistic theropods were hunting them?
-    # (Smallest known theropods ~400g: Yi qi, Epidexipteryx)
-    hunter_weights = [0.4, 3, 15]  # Yi qi-class to Velociraptor-class
-    hunter_names = [
-        "Yi qi-class (400g, smallest known theropods)",
-        "Compsognathus-class (3kg)",
-        "Velociraptor-class (15kg)",
-    ]
-    print(f"\n  Realistic hunters of rat-sized mammals:")
-    for hw, hname in zip(hunter_weights, hunter_names):
-        h_score = predict(a_t, b_t, hw)
-        ratio = h_score / ancestor_score
-        print(f"    {hname}: {ratio:.0f}× mismatch")
-
-    # ── Export data for visualization ──
-    print(f"\n{'=' * 70}")
-    print("EXPORTING DATA FOR VISUALIZATION")
-    print(f"{'=' * 70}")
-
-    viz_data = {
-        "theropods": {
-            "points": [{"name": d["name"], "weight": d["weight_kg"], "score": d["rescaled"]}
-                       for d in theropods],
-            "fit": {"C": C_t, "b": b_t, "r2": r2_t},
-        },
-        "mammals": {
-            "points": [{"name": d["name"], "weight": d["weight_kg"],
-                        "score_crowd": d["rescaled"],
-                        "score_corrected": d.get("corrected", d["rescaled"])}
-                       for d in mammals],
-            "fit": {"C": C_m, "b": b_m, "r2": r2_m},
-            "reliable_threshold_kg": RELIABLE_THRESHOLD,
-        },
-        "comparisons": [
-            {"weight": w, "theropod": predict(a_t, b_t, w),
-             "mammal": predict(a_m, b_m, w), "context": c}
-            for w, c in comparisons
-        ],
-    }
-
-    out_json = csv_path.rsplit(".", 1)[0] + "_dark_era.json"
-    with open(out_json, "w") as f:
-        json.dump(viz_data, f, indent=2)
-    print(f"  Saved to {out_json}")
-
-    # Also write a simple CSV of the comparison table
-    out_csv = csv_path.rsplit(".", 1)[0] + "_dark_era_comparison.csv"
-    with open(out_csv, "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["weight_kg", "theropod_score", "mammal_score", "ratio", "context"])
-        for weight, context in comparisons:
-            t_score = predict(a_t, b_t, weight)
-            m_score = predict(a_m, b_m, weight)
-            writer.writerow([weight, f"{t_score:.2f}", f"{m_score:.2f}",
-                           f"{t_score/m_score:.2f}", context])
-    print(f"  Saved to {out_csv}")
-
-
-if __name__ == "__main__":
-    csv_path = sys.argv[1] if len(sys.argv) > 1 else "duels_ratings_classified_rescaled.csv"
-    main(csv_path)
+if __name__ == '__main__':
+    main()
