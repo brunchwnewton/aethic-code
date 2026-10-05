@@ -37,11 +37,11 @@
 \maketitle
 
 \begin{abstract}
-This note fits Bradley--Terry (BT) power ratings to the 4,494 crowd-sourced animal-combat matchup entries of the Carnivora.net Interspecific Conflict Directory and asks how the resulting ranking changes under an explicit uncertainty model for a hypothesized dinosaur ``anatomy advantage.'' The motivating claim is not that the crowd data themselves identify such an advantage. Rather, the crowd scale is treated as a Cenozoic-calibrated baseline and the anatomy correction as an elicited sensitivity parameter. Scores are normalized so that the African Lion $=100$. This revision refits the BT model from the original scraped matchups, the earlier fitted export having been lost, and re-elicits the anatomy model on the refit. The elicitation places Dakotaraptor above the African Lion by the African Lion's ratio over an unarmed human, shrinks that $7.89\times$ calibration once in log space to $2.81\times$, and pairs it with a direct $5.21\times$ Utahraptor calibration, giving
+This note fits Bradley--Terry (BT) power ratings to the 4,494 crowd-sourced animal-combat matchup entries of the Carnivora.net Interspecific Conflict Directory and asks how the resulting ranking changes under an explicit uncertainty model for a hypothesized dinosaur ``anatomy advantage.'' The motivating claim is not that the crowd data themselves identify such an advantage. Rather, the crowd scale is treated as a Cenozoic-calibrated baseline and the anatomy correction as an elicited sensitivity parameter. Scores are normalized so that the African Lion $=100$. This revision refits the BT model from the original scraped matchups, the earlier fitted export having been lost, and re-elicits the anatomy model on the refit. The elicitation places Dakotaraptor above the African Lion by the African Lion's ratio over an unarmed human, shrinks that $7.96\times$ calibration once in log space to $2.82\times$, and pairs it with a direct $5.26\times$ Utahraptor calibration, giving
 \[
-\log F_{\rm anat}\sim\mathcal N(1.23870,\,0.18756^2),
+\log F_{\rm anat}\sim\mathcal N(1.24512,\,0.18929^2),
 \]
-whose median is $3.451\times$ and whose two-log-SD band is $2.37$--$5.02\times$. At the median correction, a crowd Velociraptor score of about 1.86 becomes about 6.42, Deinonychus about 119, Dakotaraptor about 766, Utahraptor about 1,159, and Tyrannosaurus about 46,500. Two further analyses use the refit's raw votes. Generic names are not inflated over their own populations in general, but culturally iconic ones are: across 28 vetted generic/population groups the random-effects mean log-gap is $-0.02$, against $+0.22$ (about $1.24\times$) for the 13 icons, and a skew-normal fitted to the icons has location $+0.024$, so that with the skew turned off an icon's generic name lands on its populations and the skew carries the inflation. Composing that one-sided inflation with the anatomy model gives a log-skew-normal ``felt strength'' whose location is exactly the anatomy median, with a felt median of $4.05\times$; anchoring the ladder on the generic Lion instead would give $6.86\times$, the inflation entering squared. At equal body mass the crowd rates carnivorous theropods at or below mammals ($0.57\times$ at 30 kg, $0.98\times$ at 300 kg), the weight-paradigm signature the hypothesis posits. The exercise remains a transparent sensitivity analysis, not an empirical estimate of dinosaur combat performance, but the probabilistic formulation makes the anatomical hypothesis explicit, graded, and falsifiable in principle.
+whose median is $3.473\times$ and whose two-log-SD band is $2.38$--$5.07\times$. At the median correction, a crowd Velociraptor score of about 1.83 becomes about 6.37, Deinonychus about 120, Dakotaraptor about 768, Utahraptor about 1,161, and Tyrannosaurus about 41,400. Two further analyses use the refit's raw votes. Generic names are not inflated over their own populations in general, but culturally iconic ones are: across 28 vetted generic/population groups the random-effects mean log-gap is about zero, against $+0.22$ (about $1.25\times$) for the 13 icons, and a skew-normal fitted to the icons has location $+0.047$, so that with the skew turned off an icon's generic name lands on its populations and the skew carries the inflation. Composing that one-sided inflation with the anatomy model gives a log-skew-normal ``felt strength'' whose location is exactly the anatomy median, with a felt median of $4.02\times$; anchoring the ladder on the generic Lion instead would give $6.92\times$, the inflation entering squared. At equal body mass the crowd rates carnivorous theropods at or below mammals ($0.57\times$ at 30 kg, $0.97\times$ at 300 kg), the weight-paradigm signature the hypothesis posits. The exercise remains a transparent sensitivity analysis, not an empirical estimate of dinosaur combat performance, but the probabilistic formulation makes the anatomical hypothesis explicit, graded, and falsifiable in principle.
 \end{abstract}
 
 \tableofcontents
@@ -71,7 +71,7 @@ The paper remains an exploratory technical companion to the public visualization
 The raw data consists of pairwise animal-combat matchups scraped from the Carnivora.net Interspecific Conflict Directory~\cite{carnivora}. Each matchup records two animals, a win probability for the first animal as inferred from site-user voting, and the number of votes. The scraped file contains 4,494 matchup entries spanning 2,369 unique animal names.
 
 \subsection{Unicode normalization}
-The source contains corrupted Unicode characters (U+FFFD replacement characters from encoding errors) in 24 names. We apply an allowlist-based cleaning procedure: retain only ASCII letters, digits, and common punctuation; replace corrupted characters with a space at word boundaries and delete them within words; and resolve the 24 affected names through a manual corrections dictionary. Cleaning merges ten corrupted names with their clean twins, leaving 2,359 animals.
+The source contains corrupted Unicode characters (U+FFFD replacement characters from encoding errors) in 24 names. We apply an allowlist-based cleaning procedure: retain only ASCII letters, digits, and common punctuation; replace corrupted characters with a space at word boundaries and delete them within words; and resolve the 24 affected names through a manual corrections dictionary. Cleaning merges ten corrupted names with their clean twins. An alias list then merges spelling, case and alternate-name variants of one animal, so that each animal's votes land on one entry (\textit{Spinosaurus aegypticus} into \textit{aegyptiacus}, Orca into Orca (Killer Whale), Woods Bison into Wood Bison, Kodiak bear into Kodiak Bear, and twenty others), and corrects six plain typos; together they remove 25 duplicate names, leaving 2,334 animals.
 
 \subsection{Filtering}
 Matchups with reported win probabilities below 5\% or above 95\% are excluded from the fitted graph: 582 entries, 572 of them at exactly 0\% or 100\%. This is a stability choice, not a claim that near-unanimous matchups contain no information. Extreme proportions can create near-separation and dominate a finite-score BT fit when vote counts and graph connectivity are uneven. No threshold-sensitivity analysis is reported here, so conclusions that depend strongly on the truncation should not be treated as robust.
@@ -82,7 +82,7 @@ Matchups with reported win probabilities below 5\% or above 95\% are excluded fr
 The raw matchup graph contains disconnected components and weakly anchored entries. In a Bradley--Terry model, disconnected components do not possess a data-determined relative location on a common score scale. The preprocessing therefore keeps one connected graph and adds explicit pseudo-matchups to regularize some of its entries. These pseudo-observations are modeling assumptions, not independent biological measurements.
 
 \subsection{Graph cleanup}
-283 animals have only 0\% or 100\% matchups and leave with the filter. The filtered graph then has two-animal islands, 112 pairs holding 224 animals, and 24 larger islands holding 93 animals, beside a main component of 1,758 animals joined by 3,731 retained real matchups carrying 59,248 votes. The original pipeline joined thirteen of the larger islands to the main component with twelve manual bridge pseudo-matchups and kept 1,819 animals; the bridge list was not preserved, so this refit uses the main component alone. Four animals of the earlier tables (Etruscan Shrew, House Mouse, Savannah Cat, Water Buffalo) belong to formerly bridged clusters and are absent below.
+281 animals have only 0\% or 100\% matchups and leave with the filter. The filtered graph then has two-animal islands, 108 pairs holding 216 animals, and 24 larger islands holding 93 animals, beside a main component of 1,743 animals joined by 3,735 retained real matchups carrying 59,295 votes. The original pipeline joined thirteen of the larger islands to the main component with twelve manual bridge pseudo-matchups and kept 1,819 animals; the bridge list was not preserved, so this refit uses the main component alone. Four animals of the earlier tables (Etruscan Shrew, House Mouse, Savannah Cat, Water Buffalo) belong to formerly bridged clusters and are absent below.
 
 \subsection{Gender constraints}
 For animals with male, female, and base entries, we add two pseudo-matchups designed to pull the base score toward the geometric mean of the male and female scores: the male entry beats the base with probability $p$, and the base beats the female entry with probability $p$. In isolation the construction gives
@@ -92,13 +92,13 @@ For animals with male, female, and base entries, we add two pseudo-matchups desi
 We use $p=0.60$ at pseudo-weight 10. In the full graph these constraints regularize rather than force equality. Three animals in the main component have all three entries, giving 6 pseudo-matchups.
 
 \subsection{Group-to-solo scaling}
-Entries such as ``Grey Wolf (pack of 5)'' are linked to the solo entry with $P=N^{0.7}/(N^{0.7}+1)$ at pseudo-weight 3, ranges such as ``coalition of 3/4'' taking their midpoint. The exponent $0.7$ is a heuristic for diminishing returns from imperfect coordination; it is not estimated from the Carnivora data. The refit links 275 group entries to their solo entries; 29 group entries have no solo counterpart in the main component and are left unlinked.
+Entries such as ``Grey Wolf (pack of 5)'' are linked to the solo entry with $P=N^{0.7}/(N^{0.7}+1)$ at pseudo-weight 3, ranges such as ``coalition of 3/4'' taking their midpoint. The exponent $0.7$ is a heuristic for diminishing returns from imperfect coordination; it is not estimated from the Carnivora data. The refit links 279 group entries to their solo entries; 24 group entries have no solo counterpart in the main component and are left unlinked.
 
 \subsection{Duplicate and subspecies links}
 The original pipeline also linked generic/regional duplicates by 50\% pseudo-matchups at weight 20 and subspecies by size-adjusted pseudo-matchups at weight 10, from manual lists that were not preserved. The refit omits them, so every generic entry, Lion or Tiger as much as any other, is placed by its own votes. That changes little for most animals and a great deal for the cultural icons, whose gaps over their own populations the links had damped (Section~\ref{sec:inflation}).
 
 \subsection{Summary}
-The refit adds 281 synthetic matchups (6 gender, 275 group-to-solo) to 3,731 real matchups over a connected graph of 1,758 animals.
+The refit adds 285 synthetic matchups (6 gender, 279 group-to-solo) to 3,735 real matchups over a connected graph of 1,743 animals.
 
 \section{Bradley--Terry Model}
 \label{sec:bt}
@@ -107,9 +107,9 @@ Each animal $i$ receives a latent strength $\pi_i>0$ with
 \begin{equation}
 P(i\text{ beats }j)=\frac{\pi_i}{\pi_i+\pi_j}.
 \end{equation}
-Writing $\theta_i=\log\pi_i$, we maximize a weighted BT log-likelihood with $L_2$ penalty $\lambda=0.01$, by L-BFGS. Real matchup vote totals supply fractional win/loss counts; pseudo-matchups use their assigned pseudo-weights. Scores are normalized after fitting so that African Lion $=100$, and standard errors for log-scores come from the inverse of the penalized observed information.
+Writing $\theta_i=\log\pi_i$, we maximize a weighted BT log-likelihood with $L_2$ penalty $\lambda=0.01$, by L-BFGS followed by exact Newton steps, until the BT score equations (each animal's observed wins equal to its expected wins, plus the penalty term) hold to machine precision. Real matchup vote totals supply fractional win/loss counts; pseudo-matchups use their assigned pseudo-weights. Scores are normalized after fitting so that African Lion $=100$, and standard errors for log-scores come from the inverse of the penalized observed information.
 
-Against the earlier export, rescaled to the same African Lion $=100$ scale, the refit agrees to a median of 4.6\% on 27 reference animals, 25 of them within 10\%, with rank correlation 0.996. The exceptions are the generic Lion and Tiger, now $1.43\times$ and $1.68\times$ higher relative to their populations than in the linked fit, the effect of removing the duplicate links. The fitted scores accompany this paper (Section~\ref{sec:code}).
+Against the earlier export, rescaled to the same African Lion $=100$ scale, the refit agrees to a median of 4.8\% on 27 reference animals, 24 of them within 10\%, with rank correlation 0.994. The generic Lion and Tiger sit $1.43\times$ and $1.69\times$ higher relative to their populations than in the linked fit, the effect of removing the duplicate links; Orca and \textit{Spinosaurus} move by about a fifth, the effect of merging their spelling variants. The fitted scores accompany this paper (Section~\ref{sec:code}).
 
 The BT score should be interpreted as a one-dimensional summary of this particular voting graph. Real combat is context-dependent, and a one-dimensional latent ordering cannot encode all matchup-specific interactions.
 
@@ -120,41 +120,41 @@ Animals are assigned to three scaling categories:
 \begin{enumerate}
 \item \textbf{Baseline / unscaled}: extant animals, Cenozoic and Paleozoic extinct species, synapsids, and Mesozoic mammals.
 \item \textbf{Dinosaur}: non-avian Dinosauria from the Mesozoic.
-\item \textbf{Mesozoic-other}: pterosaurs, marine reptiles, Mesozoic crocodylomorphs, and other non-dinosaurian Mesozoic reptiles represented in the dataset.
+\item \textbf{Mesozoic-other}: the other Mesozoic animals apart from synapsids: pterosaurs, marine reptiles, Mesozoic crocodylomorphs and other non-dinosaurian reptiles, and the Mesozoic fishes, sharks, amphibians and invertebrates.
 \end{enumerate}
-The first category is intentionally called baseline rather than ``non-Mesozoic'' because it includes Mesozoic mammals. Classes are assigned by genus: the refit has 145 dinosaur entries, pack entries included, 47 Mesozoic-other and 1,566 baseline. Mesozoic non-reptiles, the fishes, sharks, cephalopods, insects and amphibians, are baseline, following the definitions above. The 12 Permian entries are singled out in Section~\ref{sec:permian} as a control class: unscaled, and carrying neither a dinosaur-specific mystique nor a lived-with cultural familiarity.
+The first category is intentionally called baseline rather than ``non-Mesozoic'' because it includes Mesozoic mammals. Classes are assigned by the original categorizer's manual overrides and its genus and name rules, run offline, with six documented corrections: five where a name rule misfires (the ``-saurus'' suffix had made dinosaurs of the pseudosuchians \textit{Teratosaurus} and \textit{Arizonasaurus} and of the Permian synapsid \textit{Deuterosaurus}) and one override, the Permian therocephalian \textit{Trochosuchus}, which had been filed as a Mesozoic crocodile. The refit has 147 dinosaur entries, pack entries included, 58 Mesozoic-other and 1,538 baseline. The 14 Permian entries are singled out in Section~\ref{sec:permian} as a control class: unscaled, and carrying neither a dinosaur-specific mystique nor a lived-with cultural familiarity.
 
 \section{The Probabilistic Anatomy Paradigm}
 \label{sec:rescale}
 
 \subsection{Calibration ladder}
-All scores use African Lion $=100$, and the fitted Human score is $5.72$. The strong calibration places Dakotaraptor above the African Lion by the same multiplicative ratio by which the African Lion lies above Human:
+All scores use African Lion $=100$, and the fitted Human score is $5.68$. The strong calibration places Dakotaraptor above the African Lion by the same multiplicative ratio by which the African Lion lies above Human:
 \[
-\frac{D_{\rm target}}{100}=\frac{100}{5.72},
-\qquad D_{\rm target}=1,750.
+\frac{D_{\rm target}}{100}=\frac{100}{5.68},
+\qquad D_{\rm target}=1,760.
 \]
-Against Dakotaraptor's crowd score of about $221.8$, this gives a direct factor of approximately $7.89\times$.
+Against Dakotaraptor's crowd score of about $221.1$, this gives a direct factor of approximately $7.96\times$.
 
 That value is retained only as a motivating extreme calibration. A single conservative log-space shrinkage toward the uncorrected crowd scale gives
 \[
-L=\sqrt{7.89}=2.81.
+L=\sqrt{7.96}=2.82.
 \]
-As a second calibration, use Utahraptor rather than Dakotaraptor in the same construction. The refit gives Utahraptor a crowd score of about $335.8$; requiring its target score to be $1,750$ therefore gives
+As a second calibration, use Utahraptor rather than Dakotaraptor in the same construction. The refit gives Utahraptor a crowd score of about $334.3$; requiring its target score to be $1,760$ therefore gives
 \[
-U=\frac{1,750}{335.8}\approx5.21.
+U=\frac{1,760}{334.3}\approx5.26.
 \]
-The two numbers $L=2.81$ and $U=5.21$ are not declared confidence bounds. They are elicitation anchors: one deliberately shrunken and one direct but based on the more conservative Utahraptor comparison.
+The two numbers $L=2.82$ and $U=5.26$ are not declared confidence bounds. They are elicitation anchors: one deliberately shrunken and one direct but based on the more conservative Utahraptor comparison.
 
-The ladder is anchored on the African Lion, a population, rather than on the generic Lion. The generic name is culturally inflated over its populations (Section~\ref{sec:inflation}), and the anchor enters the construction squared: on the generic Lion, with its refit score of $167.4$, the same steps give $D_{\rm target}=4,902$, a strong factor of $22.1\times$ and an elicited median of $6.86\times$, with two-log-SD band $3.45$--$13.64\times$. The earlier export, whose duplicate links pulled Lion toward its populations, gave $4.19\times$ on the generic Lion. The population anchor is stable across the two fits, $3.38\times$ on the earlier export and $3.45\times$ here, which is the reason to state the hypothesis on it.
+The ladder is anchored on the African Lion, a population, rather than on the generic Lion. The generic name is culturally inflated over its populations (Section~\ref{sec:inflation}), and the anchor enters the construction squared: on the generic Lion, with its refit score of $167.8$, the same steps give $D_{\rm target}=4,953$, a strong factor of $22.4\times$ and an elicited median of $6.92\times$, with two-log-SD band $3.46$--$13.84\times$. The earlier export, whose duplicate links pulled Lion toward its populations, gave $4.19\times$ on the generic Lion. The population anchor is stable across the two fits, $3.38\times$ on the earlier export and $3.47\times$ here, which is the reason to state the hypothesis on it.
 
 \subsection{Lognormal uncertainty model}
 The anatomy factor $F_{\rm anat}$ is modeled in log space. Because the lower anchor has already undergone an explicit conservative shrinkage while the upper anchor is an unshrunk direct calibration, the center is intentionally pulled two-to-one toward the lower value:
 \begin{equation}
-\mu=\frac{2}{3}\log 2.81+\frac{1}{3}\log 5.21=1.23870.
+\mu=\frac{2}{3}\log 2.82+\frac{1}{3}\log 5.26=1.24512.
 \end{equation}
 Thus the median factor is
 \begin{equation}
-\widetilde F_{\rm anat}=e^\mu=2.81^{2/3}\,5.21^{1/3}=3.451.
+\widetilde F_{\rm anat}=e^\mu=2.82^{2/3}\,5.26^{1/3}=3.473.
 \end{equation}
 The log-space standard deviation is then chosen so that the total probability outside the two elicitation anchors is 15\%:
 \begin{equation}
@@ -163,7 +163,7 @@ The log-space standard deviation is then chosen so that the total probability ou
 \end{equation}
 Numerically,
 \begin{equation}
-\boxed{\log F_{\rm anat}\sim\mathcal N(1.23870,0.18756^2).}
+\boxed{\log F_{\rm anat}\sim\mathcal N(1.24512,0.18929^2).}
 \label{eq:lognormal}
 \end{equation}
 Because the center is closer to the lower anchor, the two elicitation tails are asymmetric: approximately 13.6\% lies below $L$ and 1.4\% above $U$. This asymmetry is intentional. Once Eq.~\eqref{eq:lognormal} has been specified, however, the original anchors are no longer used as an interpretive interval; downstream analysis is stated directly in terms of the median and standard deviations of the fitted lognormal model.
@@ -174,14 +174,14 @@ Because the center is closer to the lower anchor, the two elicitation tails are 
 \toprule
 Quantity & Value \\
 \midrule
-Log-space mean $\mu$ & 1.23870 \\
-Log-space SD $\sigma$ & 0.18756 \\
-Median $e^\mu$ & $3.451\times$ \\
-Multiplicative 1-log-SD factor $e^\sigma$ & $1.206\times$ \\
-One-log-SD band & $2.861$--$4.163\times$ \\
-Two-log-SD band & $2.372$--$5.022\times$ \\
-Linear-scale mean & $3.512\times$ \\
-Linear-scale SD & $0.665$ \\
+Log-space mean $\mu$ & 1.24512 \\
+Log-space SD $\sigma$ & 0.18929 \\
+Median $e^\mu$ & $3.473\times$ \\
+Multiplicative 1-log-SD factor $e^\sigma$ & $1.208\times$ \\
+One-log-SD band & $2.874$--$4.197\times$ \\
+Two-log-SD band & $2.379$--$5.072\times$ \\
+Linear-scale mean & $3.536\times$ \\
+Linear-scale SD & $0.675$ \\
 \bottomrule
 \end{tabular}
 \caption{Parameters of the elicited anatomy-factor distribution. For a lognormal distribution, multiplicative log-space bands are more informative than a symmetric linear $\pm$ standard deviation.}
@@ -193,10 +193,10 @@ The visualization places non-dinosaurian Mesozoic reptiles halfway between the b
 \[
 F_{\rm meso}=F_{\rm anat}^{1/2}.
 \]
-Hence $F_{\rm meso}$ is itself lognormal with median $\sqrt{3.451}=1.858$ and log-space SD $0.18756/2=0.09378$. This remains a visualization heuristic rather than a biomechanical estimate.
+Hence $F_{\rm meso}$ is itself lognormal with median $\sqrt{3.473}=1.864$ and log-space SD $0.18929/2=0.09465$. This remains a visualization heuristic rather than a biomechanical estimate.
 
 \subsection{How uncertainty propagates}
-Conditional on a fixed crowd BT score $S_i$, a dinosaur's corrected score is $S_iF_{\rm anat}$. Its median is therefore $3.451S_i$, and its one-log-SD interval is obtained by dividing and multiplying the median by $1.206$. For Mesozoic-other entries, the corresponding one-log-SD factor is $e^{\sigma/2}=1.098$. These bands represent calibration uncertainty only; they do not include uncertainty in the BT fit, crowd composition, body-mass estimates, taxonomy, or graph construction.
+Conditional on a fixed crowd BT score $S_i$, a dinosaur's corrected score is $S_iF_{\rm anat}$. Its median is therefore $3.473S_i$, and its one-log-SD interval is obtained by dividing and multiplying the median by $1.208$. For Mesozoic-other entries, the corresponding one-log-SD factor is $e^{\sigma/2}=1.099$. These bands represent calibration uncertainty only; they do not include uncertainty in the BT fit, crowd composition, body-mass estimates, taxonomy, or graph construction.
 
 \section{Median-Calibrated Ranking}
 \label{sec:results}
@@ -210,23 +210,23 @@ Table~\ref{tab:rescaled} gives representative scores under the median anatomy co
 \toprule
 Animal & Crowd & Median corrected & 1-log-SD band & Median factor \\
 \midrule
-\textit{Tyrannosaurus rex} & 13,460 & 46,452 & 38,508--56,036 & $3.45\times$ \\
-\textit{Utahraptor ostrommaysorum} & 336 & 1,159 & 961--1,398 & $3.45\times$ \\
-\textit{Dakotaraptor steini} & 222 & 766 & 635--923 & $3.45\times$ \\
-\textit{Deinonychus antirrhopus} & 34.5 & 119 & 98.7--144 & $3.45\times$ \\
-\textit{Velociraptor mongoliensis} & 1.86 & 6.42 & 5.32--7.74 & $3.45\times$ \\
-\textit{Mosasaurus hoffmannii} & 7,928 & 14,727 & 13,409--16,175 & $1.86\times$ \\
+\textit{Tyrannosaurus rex} & 11,910 & 41,366 & 34,232--49,986 & $3.47\times$ \\
+\textit{Utahraptor ostrommaysorum} & 334 & 1,161 & 961--1,403 & $3.47\times$ \\
+\textit{Dakotaraptor steini} & 221 & 768 & 636--928 & $3.47\times$ \\
+\textit{Deinonychus antirrhopus} & 34.6 & 120 & 99.5--145 & $3.47\times$ \\
+\textit{Velociraptor mongoliensis} & 1.83 & 6.37 & 5.27--7.70 & $3.47\times$ \\
+\textit{Mosasaurus hoffmannii} & 6,595 & 12,291 & 11,181--13,512 & $1.86\times$ \\
 African Lion & 100 & 100 & -- & $1.00\times$ \\
-Lion & 167 & 167 & -- & $1.00\times$ \\
-Tiger & 292 & 292 & -- & $1.00\times$ \\
-Human & 5.72 & 5.72 & -- & $1.00\times$ \\
+Lion & 168 & 168 & -- & $1.00\times$ \\
+Tiger & 293 & 293 & -- & $1.00\times$ \\
+Human & 5.68 & 5.68 & -- & $1.00\times$ \\
 \bottomrule
 \end{tabular}
 \caption{Selected animals under the probabilistic anatomy paradigm (African Lion $=100$). Baseline entries are unchanged. Dinosaur and Mesozoic-other intervals reflect calibration uncertainty only.}
 \label{tab:rescaled}
 \end{table}
 
-A useful sanity check is Velociraptor. The median model raises its crowd score from about 1.86 to about 6.42 rather than catapulting it into large-carnivore territory; its one-log-SD calibration band is roughly 5.32--7.74. The same model nevertheless produces substantial changes at larger dromaeosaurid scales: Deinonychus has median score about 119, Dakotaraptor about 766, and Utahraptor about 1,159. In the 119-animal interleaving of Appendix~\ref{app:interleaved}, Deinonychus lies just above the Siberian Tiger and the African Lion, Dakotaraptor below the Great White Shark and the White Rhinoceros but above Arctodus and the Saltwater Crocodile, and Utahraptor just below the African Bush Elephant.
+A useful sanity check is Velociraptor. The median model raises its crowd score from about 1.83 to about 6.37 rather than catapulting it into large-carnivore territory; its one-log-SD calibration band is roughly 5.27--7.70. The same model nevertheless produces substantial changes at larger dromaeosaurid scales: Deinonychus has median score about 120, Dakotaraptor about 768, and Utahraptor about 1,161. In the 119-animal interleaving of Appendix~\ref{app:interleaved}, Deinonychus lies just above the Siberian Tiger and the African Lion, Dakotaraptor below the Great White Shark and the White Rhinoceros but above Arctodus and the Saltwater Crocodile, and Utahraptor just below the African Bush Elephant.
 
 \section{Cultural Score Inflation}
 \label{sec:inflation}
@@ -246,34 +246,34 @@ Table~\ref{tab:inflation_pairs} lists them, with standard errors from the fit's 
 \toprule
 Generic entry & Score & Populations & Pop.\ geo.\ mean & Ratio & $\eta$ & SE & Matchups \\
 \midrule
-Tiger$^{\ast}$ & 292 & 4 & 89.8 & $3.25$ & $+1.18$ & $0.22$ & 2 \\
-Leopardess$^{\ast}$ & 15.6 & 3 & 6.29 & $2.48$ & $+0.91$ & $0.29$ & 6 \\
-Jaguaress$^{\ast}$ & 61.9 & 1 & 26.2 & $2.36$ & $+0.86$ & $0.30$ & 8 \\
-Bighorn Sheep & 9.61 & 1 & 5.82 & $1.65$ & $+0.50$ & $0.51$ & 7 \\
-Wild Boar & 20.6 & 2 & 12.7 & $1.62$ & $+0.48$ & $0.43$ & 19 \\
-Leopard$^{\ast}$ & 34.6 & 8 & 21.6 & $1.60$ & $+0.47$ & $0.12$ & 29 \\
-American Bison$^{\ast}$ & 294 & 1 & 204 & $1.44$ & $+0.37$ & $0.24$ & 11 \\
-Lioness$^{\ast}$ & 84.3 & 2 & 66.6 & $1.27$ & $+0.24$ & $0.21$ & 19 \\
-Red Panda & 0.261 & 1 & 0.210 & $1.25$ & $+0.22$ & $0.73$ & 3 \\
-Lion$^{\ast}$ & 167 & 3 & 136 & $1.23$ & $+0.21$ & $0.43$ & 10 \\
-Wedge-tailed Eagle & 0.547 & 1 & 0.478 & $1.15$ & $+0.14$ & $0.89$ & 5 \\
+Tiger$^{\ast}$ & 293 & 4 & 89.8 & $3.27$ & $+1.18$ & $0.22$ & 2 \\
+Leopardess$^{\ast}$ & 15.3 & 3 & 6.21 & $2.46$ & $+0.90$ & $0.29$ & 6 \\
+Jaguaress$^{\ast}$ & 62.2 & 1 & 26.0 & $2.39$ & $+0.87$ & $0.30$ & 8 \\
+Wild Boar & 20.6 & 2 & 9.65 & $2.14$ & $+0.76$ & $0.27$ & 19 \\
+Bighorn Sheep & 9.58 & 1 & 5.80 & $1.65$ & $+0.50$ & $0.51$ & 7 \\
+Leopard$^{\ast}$ & 35.1 & 8 & 21.6 & $1.62$ & $+0.48$ & $0.12$ & 29 \\
+American Bison$^{\ast}$ & 293 & 1 & 197 & $1.49$ & $+0.40$ & $0.23$ & 11 \\
+Red Panda & 0.255 & 1 & 0.189 & $1.35$ & $+0.30$ & $0.68$ & 3 \\
+Lioness$^{\ast}$ & 84.4 & 2 & 67.1 & $1.26$ & $+0.23$ & $0.21$ & 19 \\
+Lion$^{\ast}$ & 168 & 3 & 136 & $1.23$ & $+0.21$ & $0.43$ & 10 \\
+Wedge-tailed Eagle & 0.539 & 1 & 0.470 & $1.15$ & $+0.14$ & $0.89$ & 5 \\
 Grizzly Bear$^{\ast}$ & 161 & 3 & 142 & $1.14$ & $+0.13$ & $0.25$ & 22 \\
-Jaguar$^{\ast}$ & 55.4 & 3 & 52.6 & $1.05$ & $+0.05$ & $0.27$ & 30 \\
-Water Monitor & 1.38 & 1 & 1.53 & $0.90$ & $-0.11$ & $0.38$ & 7 \\
-Brown Bear$^{\ast}$ & 124 & 9 & 146 & $0.85$ & $-0.17$ & $0.51$ & 2 \\
-Mule Deer & 2.39 & 1 & 2.89 & $0.83$ & $-0.19$ & $1.05$ & 2 \\
-Red Fox & 0.279 & 2 & 0.404 & $0.69$ & $-0.37$ & $0.70$ & 19 \\
-Mountain Zebra & 30.3 & 1 & 46.2 & $0.66$ & $-0.42$ & $0.45$ & 4 \\
-Leopard Cat & 0.579 & 1 & 0.893 & $0.65$ & $-0.43$ & $0.90$ & 4 \\
-Cheetah$^{\ast}$ & 4.75 & 2 & 7.49 & $0.63$ & $-0.46$ & $0.30$ & 39 \\
-Coyote & 1.35 & 3 & 2.21 & $0.61$ & $-0.49$ & $0.31$ & 21 \\
-Sloth Bear & 44.2 & 1 & 73.3 & $0.60$ & $-0.50$ & $0.26$ & 26 \\
-Gaur$^{\ast}$ & 150 & 1 & 285 & $0.52$ & $-0.64$ & $0.23$ & 10 \\
-Walrus$^{\ast}$ & 257 & 2 & 502 & $0.51$ & $-0.67$ & $0.36$ & 12 \\
-Elk & 14.9 & 3 & 29.7 & $0.50$ & $-0.69$ & $0.56$ & 1 \\
-African Wild Dog & 2.42 & 1 & 9.24 & $0.26$ & $-1.34$ & $0.33$ & 25 \\
-Carpet Python & 1.57 & 1 & 7.68 & $0.20$ & $-1.59$ & $1.21$ & 2 \\
-White-throated Monitor & 0.217 & 1 & 1.42 & $0.15$ & $-1.88$ & $1.46$ & 1 \\
+Jaguar$^{\ast}$ & 55.5 & 3 & 52.8 & $1.05$ & $+0.05$ & $0.27$ & 30 \\
+Water Monitor & 1.31 & 1 & 1.49 & $0.88$ & $-0.13$ & $0.38$ & 7 \\
+Brown Bear$^{\ast}$ & 124 & 9 & 146 & $0.85$ & $-0.16$ & $0.51$ & 2 \\
+Mule Deer & 2.35 & 1 & 2.92 & $0.80$ & $-0.22$ & $1.05$ & 2 \\
+Red Fox & 0.276 & 2 & 0.393 & $0.70$ & $-0.35$ & $0.70$ & 19 \\
+Cheetah$^{\ast}$ & 4.68 & 2 & 7.09 & $0.66$ & $-0.41$ & $0.29$ & 39 \\
+Mountain Zebra & 30.3 & 1 & 46.1 & $0.66$ & $-0.42$ & $0.45$ & 4 \\
+Leopard Cat & 0.561 & 1 & 0.874 & $0.64$ & $-0.44$ & $0.90$ & 4 \\
+Coyote & 1.34 & 3 & 2.21 & $0.61$ & $-0.50$ & $0.31$ & 21 \\
+Sloth Bear & 44.3 & 1 & 73.6 & $0.60$ & $-0.51$ & $0.26$ & 26 \\
+Gaur$^{\ast}$ & 148 & 1 & 284 & $0.52$ & $-0.65$ & $0.22$ & 10 \\
+Walrus$^{\ast}$ & 256 & 2 & 499 & $0.51$ & $-0.67$ & $0.36$ & 12 \\
+Elk & 14.9 & 3 & 29.8 & $0.50$ & $-0.69$ & $0.56$ & 1 \\
+African Wild Dog & 2.39 & 1 & 9.15 & $0.26$ & $-1.34$ & $0.33$ & 25 \\
+Carpet Python & 1.53 & 1 & 7.53 & $0.20$ & $-1.59$ & $1.21$ & 2 \\
+White-throated Monitor & 0.213 & 1 & 1.40 & $0.15$ & $-1.88$ & $1.46$ & 1 \\
 \bottomrule
 \end{tabular}
 \caption{Generic entries against the geometric mean of their vetted populations (African Lion $=100$). $\eta$ is the log-gap and SE its standard error from the fit; ``Matchups'' counts the generic entry's real matchups. Asterisks mark the thirteen culturally iconic generics.}
@@ -293,21 +293,21 @@ X=\xi+\omega\sqrt{1-\delta^2}\,Z_1+\omega\delta\,|Z_0|,\qquad Z_0,Z_1\overset{\r
 in which the last term is a one-sided excess and the rest is symmetric about $\xi$. Removing the excess, the second way to turn the skew off, leaves $\mathcal N(\xi,\omega^2(1-\delta^2))$, again centred at $\xi$. The location is the one parameter both deformations leave in place, and the skew's whole contribution to the mean, $\omega\delta\sqrt{2/\pi}$, is the inflation.
 
 \subsection{Estimating the inflation}
-Across all twenty-eight groups, generic names are not inflated: the random-effects mean log-gap is $-0.02\pm0.13$, with between-group SD 0.54, and a skew-normal fitted to all of them skews to the left (shape $-2.01$) without improving on a normal (likelihood-ratio statistic 1.19). The groups divide, however. For the thirteen culturally iconic generics marked in Table~\ref{tab:inflation_pairs}, the big cats and their female forms, the brown and grizzly bears, and the large iconic ungulates and pinnipeds of the set, the random-effects mean is $+0.22\pm0.16$, about $1.24\times$; for the other fifteen it is $-0.38\pm0.16$ (one-sided Mann--Whitney $p=0.021$). The split is exploratory, the icon list being a judgment, but its direction has a plausible reading: named populations are often the large, famous forms, the coastal carpet python or the Indian gaur, so a generic name falls below them unless it is itself an icon, whose cultural image lifts it. The inflation is a property of icons, not of generic names.
+Across all twenty-eight groups, generic names are not inflated: the random-effects mean log-gap is $0.00\pm0.13$, with between-group SD 0.55, and a skew-normal fitted to all of them skews to the left (shape $-2.00$) without improving on a normal (likelihood-ratio statistic 1.09). The groups divide, however. For the thirteen culturally iconic generics marked in Table~\ref{tab:inflation_pairs}, the big cats and their female forms, the brown and grizzly bears, and the large iconic ungulates and pinnipeds of the set, the random-effects mean is $+0.22\pm0.16$, about $1.25\times$; for the other fifteen it is $-0.31\pm0.20$ (one-sided Mann--Whitney $p=0.019$). The split is exploratory, the icon list being a judgment, but its direction has a plausible reading: named populations are often the large, famous forms, the coastal carpet python or the Indian gaur, so a generic name falls below them unless it is itself an icon, whose cultural image lifts it. The inflation is a property of icons, not of generic names.
 
-A skew-normal fitted to the icons' gaps realizes the construction above: location $\xi=+0.024$, scale $\omega=0.583$, shape $\alpha=0.38$ ($\delta=0.36$). With the skew turned off, an icon's generic name lands on its populations to within 2.4\%; the one-sided component has scale $s_I=\omega\delta=0.208$ and contributes a mean excess of $0.166$, about $1.18\times$, while the symmetric component, with SD $0.54$, is dispersion between icons rather than culture. At thirteen groups the shape is not identified (likelihood-ratio statistic against a normal $0.001$), so the decomposition is illustrative; the generic Tiger's large gap, in particular, rests on two real matchups.
+A skew-normal fitted to the icons' gaps realizes the construction above: location $\xi=+0.047$, scale $\omega=0.578$, shape $\alpha=0.34$ ($\delta=0.33$). With the skew turned off, an icon's generic name lands on its populations to within 4.8\%; the one-sided component has scale $s_I=\omega\delta=0.188$ and contributes a mean excess of $0.150$, about $1.16\times$, while the symmetric component, with SD $0.55$, is dispersion between icons rather than culture. At thirteen groups the shape is not identified (likelihood-ratio statistic against a normal $0.000$), so the decomposition is illustrative; the generic Tiger's large gap, in particular, rests on two real matchups.
 
 \subsection{Felt strength: the inflation applied to the anatomy-corrected scores}
 The anatomy model treats a dinosaur's crowd score $S$ as an underestimate and its corrected score $S\,F_{\rm anat}$ as the actual. A culture that had lived alongside dinosaurs would, by the analogy above, report not the actual but the actual inflated as the crowd inflates its own icons. Call that the felt strength,
 \begin{equation}
 S_{\rm felt}=S\,F_{\rm anat}\,I,\qquad \log F_{\rm anat}\sim\mathcal N(\mu,\sigma^2),\qquad \log I=s_I|Z_0| ,
 \end{equation}
-with $s_I=0.208$ the icons' one-sided scale. Representation~\eqref{eq:snrep} makes the composition exact: a normal plus an independent half-normal is skew-normal, so
+with $s_I=0.188$ the icons' one-sided scale. Representation~\eqref{eq:snrep} makes the composition exact: a normal plus an independent half-normal is skew-normal, so
 \begin{equation}
 \log\frac{S_{\rm felt}}{S}\sim\mathrm{SN}\!\left(\xi=\mu,\ \ \omega=\sqrt{\sigma^2+s_I^2},\ \ \alpha=\frac{s_I}{\sigma}\right),
 \label{eq:felt}
 \end{equation}
-which with $\mu=1.23870$ and $\sigma=0.18756$ gives $\omega=0.280$ and $\alpha=1.11$ ($\delta=0.74$). The location is exactly the anatomy model's centre, $e^{\xi}=3.451$, and turning the skew off by removing the inflation component leaves $\mathcal N(\mu,\omega^2(1-\delta^2))=\mathcal N(\mu,\sigma^2)$, which is Eq.~\eqref{eq:lognormal} itself: the location parameter is the actual, and the skew is the culture. The felt factor has median $4.05\times$ and geometric mean $4.07\times$, against the actual median $3.45\times$; its 5th, 16th, 84th and 95th percentiles are 2.84, 3.26, 5.10, 5.97$\times$. A Monte Carlo check of Eq.~\eqref{eq:felt} with $2\times10^6$ draws reproduces these quantiles to three decimals. Table~\ref{tab:felt} applies it to representative dinosaurs.
+which with $\mu=1.24512$ and $\sigma=0.18929$ gives $\omega=0.267$ and $\alpha=0.99$ ($\delta=0.70$). The location is exactly the anatomy model's centre, $e^{\xi}=3.473$, and turning the skew off by removing the inflation component leaves $\mathcal N(\mu,\omega^2(1-\delta^2))=\mathcal N(\mu,\sigma^2)$, which is Eq.~\eqref{eq:lognormal} itself: the location parameter is the actual, and the skew is the culture. The felt factor has median $4.02\times$ and geometric mean $4.04\times$, against the actual median $3.47\times$; its 5th, 16th, 84th and 95th percentiles are 2.83, 3.24, 5.03, 5.85$\times$. A Monte Carlo check of Eq.~\eqref{eq:felt} with $2\times10^6$ draws reproduces these quantiles to three decimals. Table~\ref{tab:felt} applies it to representative dinosaurs.
 
 \begin{table}[H]
 \centering
@@ -316,11 +316,11 @@ which with $\mu=1.23870$ and $\sigma=0.18756$ gives $\omega=0.280$ and $\alpha=1
 \toprule
 Animal & Crowd & Actual (median) & Felt (median) & Felt 90\% band \\
 \midrule
-\textit{Velociraptor mongoliensis} & 1.86 & 6.42 & 7.53 & 5.29--11.1 \\
-\textit{Deinonychus antirrhopus} & 34.5 & 119 & 140 & 98.1--206 \\
-\textit{Dakotaraptor steini} & 222 & 766 & 898 & 631--1,324 \\
-\textit{Utahraptor ostrommaysorum} & 336 & 1,159 & 1,359 & 955--2,004 \\
-\textit{Tyrannosaurus rex} & 13,460 & 46,452 & 54,471 & 38,277--80,343 \\
+\textit{Velociraptor mongoliensis} & 1.83 & 6.37 & 7.36 & 5.19--10.7 \\
+\textit{Deinonychus antirrhopus} & 34.6 & 120 & 139 & 98.1--203 \\
+\textit{Dakotaraptor steini} & 221 & 768 & 888 & 626--1,294 \\
+\textit{Utahraptor ostrommaysorum} & 334 & 1,161 & 1,342 & 947--1,956 \\
+\textit{Tyrannosaurus rex} & 11,910 & 41,366 & 47,818 & 33,732--69,674 \\
 \bottomrule
 \end{tabular}
 \caption{Actual and felt scores (African Lion $=100$). The felt band combines anatomy-factor and cultural-inflation uncertainty through Eq.~\eqref{eq:felt}; neither includes uncertainty in the BT fit or in the fitted inflation.}
@@ -331,7 +331,7 @@ The felt score is an analogy, not a measurement: it asks what the crowd would re
 
 \subsection{A Permian control class}
 \label{sec:permian}
-The Permian animals in the refit, \textit{Dimetrodon} and the sphenacodonts, the gorgonopsians and dinocephalians among the synapsids, and the eugeneodont \textit{Helicoprion}, are classified as baseline and receive no anatomy factor. They are a natural control for both constructions of this paper, since they carry neither a dinosaur-specific mystique nor a lived-with cultural familiarity. If the crowd's low equal-mass ratio for theropods (Section~\ref{sec:equalmass}) reflects unfamiliar body plans in general, Permian predators should show a similarly low ratio; if it reflects something specific to dinosaurs, they should sit closer to mammals of equal mass. Table~\ref{tab:permian} gives their crowd scores: \textit{Dimetrodon grandis} at 51.4, about half the African Lion, \textit{Inostrancevia alexandri} at 314, \textit{Anteosaurus magnificus} at 721. The equal-mass comparison additionally requires mass estimates, which the matchup data do not carry, so it is specified rather than reported here.
+The Permian animals in the refit, the sphenacodonts \textit{Dimetrodon}, \textit{Sphenacodon} and \textit{Secodontosaurus}, the gorgonopsians, the dinocephalians, the therocephalian \textit{Trochosuchus} and the dicynodont \textit{Lystrosaurus maccaigi} among the other synapsids, and the eugeneodont fishes \textit{Helicoprion} and \textit{Parahelicoprion}, are classified as baseline and receive no anatomy factor. They are a natural control for both constructions of this paper, since they carry neither a dinosaur-specific mystique nor a lived-with cultural familiarity. If the crowd's low equal-mass ratio for theropods (Section~\ref{sec:equalmass}) reflects unfamiliar body plans in general, Permian predators should show a similarly low ratio; if it reflects something specific to dinosaurs, they should sit closer to mammals of equal mass. Table~\ref{tab:permian} gives their crowd scores: \textit{Dimetrodon grandis} at 51.5, about half the African Lion, \textit{Inostrancevia alexandri} at 312, \textit{Anteosaurus magnificus} at 717. The equal-mass comparison additionally requires mass estimates, which the matchup data do not carry, so it is specified rather than reported here.
 
 \begin{table}[H]
 \centering
@@ -340,18 +340,20 @@ The Permian animals in the refit, \textit{Dimetrodon} and the sphenacodonts, the
 \toprule
 Animal & Crowd score \\
 \midrule
-\textit{Anteosaurus magnificus} & 721 \\
-\textit{Helicoprion clerci} & 691 \\
-\textit{Estemmenosuchus uralensis} & 570 \\
-\textit{Inostrancevia alexandri} & 314 \\
-\textit{Tapinocephalus atherstonei} & 304 \\
+\textit{Parahelicoprion spp.} & 1,293 \\
+\textit{Anteosaurus magnificus} & 717 \\
+\textit{Helicoprion clerci} & 569 \\
+\textit{Estemmenosuchus uralensis} & 568 \\
+\textit{Inostrancevia alexandri} & 312 \\
+\textit{Tapinocephalus atherstonei} & 303 \\
 \textit{Rubidgea atrox} & 165 \\
-\textit{Trochosuchus acutus} & 81.4 \\
-\textit{Dimetrodon grandis} & 51.4 \\
-\textit{Secodontosaurus obtusidens} & 31.0 \\
-\textit{Sphenacodon ferox} & 7.44 \\
-\textit{Lystrosaurus maccaigi} & 5.81 \\
-\textit{Lycaenops ornatus} & 0.886 \\
+\textit{Deuterosaurus spp.} & 146 \\
+\textit{Trochosuchus acutus} & 81.5 \\
+\textit{Dimetrodon grandis} & 51.5 \\
+\textit{Secodontosaurus obtusidens} & 31.1 \\
+\textit{Sphenacodon ferox} & 7.31 \\
+\textit{Lystrosaurus maccaigi} & 5.79 \\
+\textit{Lycaenops ornatus} & 0.867 \\
 \bottomrule
 \end{tabular}
 \caption{The Permian control class in the refit (African Lion $=100$, unscaled).}
@@ -369,12 +371,12 @@ We fit descriptive power laws $s=Cw^b$ in log-space using median regression,
 solved exactly, since an optimum passes through two data points. Masses are those of the earlier tables and the interactive chart. Mammals below 1 kg are excluded because the matchup graph provides weak cross-scale calibration there, and the mammal sample also omits the generic Lion and Tiger, whose scores carry the cultural inflation of Section~\ref{sec:inflation}; the theropod sample begins around 0.4 kg. Predictions below those ranges are extrapolations. The curves remain descriptive rather than precision biological scaling laws.
 
 \subsection{Median anatomy-paradigm fit}
-Multiplying every theropod score by a common factor shifts the fitted log-intercept but leaves the exponent unchanged. At the median factor $3.451\times$,
+Multiplying every theropod score by a common factor shifts the fitted log-intercept but leaves the exponent unchanged. At the median factor $3.473\times$,
 \begin{align}
-\text{Theropods:}\quad s_{\rm med} &= 0.172\,w^{1.328}, \\
-\text{Mammals ($\geq1$ kg):}\quad s &= 0.0717\,w^{1.344}.
+\text{Theropods:}\quad s_{\rm med} &= 0.170\,w^{1.331}, \\
+\text{Mammals ($\geq1$ kg):}\quad s &= 0.0694\,w^{1.351}.
 \end{align}
-The theropod coefficient carries the same anatomy-factor uncertainty as $F_{\rm anat}$: its one-log-SD coefficient band is approximately $0.143$--$0.208$. The median theropod/mammal ratio at 1 kg is about $2.41\times$. As before, that vertical separation is not independently discovered by the regression; it is largely introduced by the anatomy calibration. The exponents are close, $1.328$ against $1.344$, so for the full theropod sample the median ratio declines only slightly with mass; restricted to carnivorous theropods the ordering of the exponents reverses (Section~\ref{sec:equalmass}).
+The theropod coefficient carries the same anatomy-factor uncertainty as $F_{\rm anat}$: its one-log-SD coefficient band is approximately $0.140$--$0.205$. The median theropod/mammal ratio at 1 kg is about $2.45\times$. As before, that vertical separation is not independently discovered by the regression; it is largely introduced by the anatomy calibration. The exponents are close, $1.331$ against $1.351$, so for the full theropod sample the median ratio declines only slightly with mass; restricted to carnivorous theropods the ordering of the exponents reverses (Section~\ref{sec:equalmass}).
 
 \begin{table}[H]
 \centering
@@ -384,13 +386,13 @@ The theropod coefficient carries the same anatomy-factor uncertainty as $F_{\rm 
 \toprule
 Weight (kg) & Theropod median & Theropod 1-SD band & Mammal & Median ratio & Context \\
 \midrule
-0.02 & 0.0010 & 0.0008--0.0012 & 0.0004 & 2.56$\times$ & Mouse-sized \\
-0.1 & 0.0081 & 0.0067--0.0098 & 0.0032 & 2.50$\times$ & Rat-sized illustrative mammal \\
-2 & 0.433 & 0.359--0.522 & 0.182 & 2.38$\times$ & Squirrel-sized \\
-15 & 6.29 & 5.21--7.59 & 2.73 & 2.30$\times$ & Fox-sized (\textit{Velociraptor}) \\
-75 & 53.3 & 44.2--64.3 & 23.8 & 2.25$\times$ & Human-sized (\textit{Deinonychus}) \\
-250 & 264 & 219--318 & 120 & 2.20$\times$ & Lion-sized (\textit{Dakotaraptor}) \\
-500 & 663 & 549--799 & 304 & 2.18$\times$ & Bear-sized (\textit{Utahraptor}) \\
+0.02 & 0.0009 & 0.0008--0.0011 & 0.0004 & 2.64$\times$ & Mouse-sized \\
+0.1 & 0.0079 & 0.0066--0.0096 & 0.0031 & 2.56$\times$ & Rat-sized illustrative mammal \\
+2 & 0.427 & 0.353--0.516 & 0.177 & 2.41$\times$ & Squirrel-sized \\
+15 & 6.24 & 5.17--7.54 & 2.69 & 2.32$\times$ & Fox-sized (\textit{Velociraptor}) \\
+75 & 53.2 & 44.0--64.3 & 23.7 & 2.25$\times$ & Human-sized (\textit{Deinonychus}) \\
+250 & 264 & 219--319 & 120 & 2.19$\times$ & Lion-sized (\textit{Dakotaraptor}) \\
+500 & 665 & 550--803 & 307 & 2.16$\times$ & Bear-sized (\textit{Utahraptor}) \\
 \bottomrule
 \end{tabular}
 \caption{Equal-mass predictions under the median anatomy model (African Lion $=100$). The theropod band is one log-space standard deviation of calibration uncertainty. Rows below 1 kg extrapolate the mammal fit; rows below 0.4 kg also extrapolate the theropod fit.}
@@ -399,7 +401,7 @@ Weight (kg) & Theropod median & Theropod 1-SD band & Mammal & Median ratio & Con
 
 \subsection{The crowd's own equal-mass ratio}
 \label{sec:equalmass}
-The ratio of the two fitted curves at equal mass, computed on the crowd baseline before any anatomy factor, asks whether the crowd already credits a theropod's body plan once size is fixed. On the crowd baseline the mammal fit is $s=0.0717\,w^{1.344}$, or $0.0614\,w^{1.407}$ with the generic Lion and Tiger included; the full theropod sample gives $0.0500\,w^{1.328}$ and the nineteen carnivorous theropods, excluding \textit{Yi qi}, \textit{Citipati} and the ornithomimids, $0.0181\,w^{1.581}$. Table~\ref{tab:equalmass} gives the crowd's own ratio.
+The ratio of the two fitted curves at equal mass, computed on the crowd baseline before any anatomy factor, asks whether the crowd already credits a theropod's body plan once size is fixed. On the crowd baseline the mammal fit is $s=0.0694\,w^{1.351}$, or $0.0591\,w^{1.413}$ with the generic Lion and Tiger included; the full theropod sample gives $0.0489\,w^{1.331}$ and the nineteen carnivorous theropods, excluding \textit{Yi qi}, \textit{Citipati} and the ornithomimids, $0.0181\,w^{1.581}$. Table~\ref{tab:equalmass} gives the crowd's own ratio.
 
 \begin{table}[H]
 \centering
@@ -410,27 +412,27 @@ The ratio of the two fitted curves at equal mass, computed on the crowd baseline
 \cmidrule(lr){2-3}\cmidrule(lr){4-5}
 Mass & with Lion, Tiger & without & with Lion, Tiger & without \\
 \midrule
-1 kg & 0.30 & 0.25 & 0.81 & 0.70 \\
-30 kg & 0.54 & 0.57 \ (0.30--1.42) & 0.62 & 0.66 \ (0.29--1.60) \\
-300 kg & 0.80 & 0.98 \ (0.45--1.68) & 0.52 & 0.64 \ (0.19--1.26) \\
+1 kg & 0.31 & 0.26 & 0.83 & 0.70 \\
+30 kg & 0.54 & 0.57 \ (0.29--1.41) & 0.63 & 0.66 \ (0.29--1.56) \\
+300 kg & 0.80 & 0.97 \ (0.45--1.67) & 0.52 & 0.63 \ (0.19--1.25) \\
 \bottomrule
 \end{tabular}
 \caption{The crowd's equal-mass ratio of theropod to mammal fitted scores, before any anatomy factor; ``with'' and ``without'' refer to the generic Lion and Tiger in the mammal sample. Parentheses give 90\% bootstrap bands from 1,000 resamples of both groups. The 1 kg row lies at the edge of the mammal data.}
 \label{tab:equalmass}
 \end{table}
 
-Across the range where both groups have data, the crowd rates a carnivorous theropod at roughly half to equal of a mammal of the same mass, $0.57\times$ at 30 kg and $0.98\times$ at 300 kg, with bands that reach parity but sit mostly below it. That is the signature the weight-paradigm premise predicts, visible in the votes themselves, and it is consistent with the hypothesis without proving it. The mass dependence depends on the sample: the full theropod set's ratio declines with mass, while the carnivorous set's rises, because the small carnivorous theropods are the ones the crowd rates furthest below equal-mass mammals. The Dark Era interpretation below should be read with that in mind, and the 100 g region remains extrapolation for both groups.
+Across the range where both groups have data, the crowd rates a carnivorous theropod at roughly half to equal of a mammal of the same mass, $0.57\times$ at 30 kg and $0.97\times$ at 300 kg, with bands that reach parity but sit mostly below it. That is the signature the weight-paradigm premise predicts, visible in the votes themselves, and it is consistent with the hypothesis without proving it. The mass dependence depends on the sample: the full theropod set's ratio declines with mass, while the carnivorous set's rises, because the small carnivorous theropods are the ones the crowd rates furthest below equal-mass mammals. The Dark Era interpretation below should be read with that in mind, and the 100 g region remains extrapolation for both groups.
 
 \subsection{Dark Era interpretation}
 The interactive essay describes the deeper intuition in deliberately vivid terms: our baseline intuitions were formed after the disappearance of the non-avian dinosaur regime, and we may therefore treat a comparatively relaxed Cenozoic ecology as normal rather than historically exceptional \cite{benanderDino2026}. The statistical model here translates only one part of that thesis: the possibility that crowd judgments systematically underweight combat-specialized anatomy relative to body mass.
 
-At the median calibration, a 100 g mammal receives a fitted mammal score of about $0.0032$. Comparing that baseline with the median theropod regression at 0.4 kg, 3 kg, and 15 kg gives cross-mass score ratios of roughly $16\times$, $229\times$, and $1,939\times$, respectively. Those numbers are model-generated score ratios, not predator--prey mortality probabilities or measurements of selection intensity.
+At the median calibration, a 100 g mammal receives a fitted mammal score of about $0.0031$. Comparing that baseline with the median theropod regression at 0.4 kg, 3 kg, and 15 kg gives cross-mass score ratios of roughly $16\times$, $237\times$, and $2,019\times$, respectively. Those numbers are model-generated score ratios, not predator--prey mortality probabilities or measurements of selection intensity.
 
 The qualitative background is compatible with evidence for a long nocturnal phase in mammalian evolution and with strong ecological restructuring around the K--Pg boundary \cite{maor2017nocturnal,wilson2012multituberculates}. At the same time, Mesozoic mammals were ecologically more diverse than the old picture of uniformly tiny nocturnal insectivores suggests \cite{hu2005repenomamus}. The present score model therefore does not establish the stronger claim that theropod predation caused the mammalian limbic system, sensory architecture, or later human cognition. Those belong to a separate historical hypothesis requiring independent comparative and fossil evidence.
 
 \section{Discussion}
 
-The probabilistic formulation is an improvement over a single deterministic multiplier in one specific sense: it makes the uncertainty judgment explicit. The model no longer says ``dinosaurs are $10.14\times$ stronger than the crowd thinks,'' as the first version did. It says: conditional on the anatomy-paradigm hypothesis and the chosen elicitation, the correction factor has median $3.45\times$ and log-space SD $0.188$. Readers can therefore see how much of the ranking is stable under moderate movement in the calibration.
+The probabilistic formulation is an improvement over a single deterministic multiplier in one specific sense: it makes the uncertainty judgment explicit. The model no longer says ``dinosaurs are $10.14\times$ stronger than the crowd thinks,'' as the first version did. It says: conditional on the anatomy-paradigm hypothesis and the chosen elicitation, the correction factor has median $3.47\times$ and log-space SD $0.189$. Readers can therefore see how much of the ranking is stable under moderate movement in the calibration.
 
 The statistical appearance of Eq.~\eqref{eq:lognormal} should not be confused with data-driven inference. The distribution is \emph{elicited}, not estimated from independent dinosaur combat outcomes. Its center reflects a two-to-one modeling judgment toward the more conservative calibration, and its dispersion is chosen by assigning 15\% total mass outside the two elicitation anchors. In Bayesian language it is closer to a prior or sensitivity distribution than to a posterior. Its value is transparency: the subjective step is now parameterized rather than hidden.
 
@@ -442,7 +444,7 @@ What survives these caveats is a useful exploratory object. The BT refit yields 
 
 \section{Code and Data Availability}
 \label{sec:code}
-The BT refit is reproducible from the scraped matchup file with the accompanying scripts for name cleaning, fitting, classification and rescaling. Its output, \texttt{bt\_scores\_african\_lion\_100.csv}, lists every animal of the main component with its score (African Lion $=100$), log-score and standard error, real matchups and votes, scaling class, Permian flag, median anatomy factor, median corrected score and one-log-SD band. The pipeline, source data, and interactive visualizations are available at
+The BT refit is reproducible from the scraped matchup file with the accompanying pipeline: the original scrapers (steps 1--2), the Bradley--Terry fit (step 3), the classification (step 4), the anatomy rescaling (step 5), the weight--score analysis (step 6) and the cultural-inflation analysis (step 7). Its main output, \texttt{bt\_scores\_african\_lion\_100.csv}, lists every animal of the main component with its score (African Lion $=100$), log-score and standard error, real matchups and votes, scaling class, Permian flag, median anatomy factor, median corrected score and one-log-SD band. The pipeline, source data, and interactive visualizations are available at
 \begin{center}
 \url{https://github.com/brunchwnewton/aethic-code/tree/main/nexic}
 \end{center}
@@ -453,7 +455,7 @@ and the public interactive essay is at \url{https://aethus.org/aethic-code/nexic
 \section{Theropod Weight Estimates Under the Median Anatomy Model}
 \label{app:theropod_weights}
 
-The following scores are the refit's theropod crowd scores multiplied by the median factor $3.451\times$. Masses are those of the earlier export. The one-log-SD column reflects anatomy-factor uncertainty only.
+The following scores are the refit's theropod crowd scores multiplied by the median factor $3.473\times$. Masses are those of the earlier export. The one-log-SD column reflects anatomy-factor uncertainty only.
 
 \small
 \begin{longtable}{llrrr}
@@ -461,29 +463,29 @@ The following scores are the refit's theropod crowd scores multiplied by the med
 Theropod & Clade & Weight (kg) & Median score & 1-log-SD band \\
 \midrule
 \endhead
-\textit{Yi qi} & Scansoriopterygid & 0.4 & 0.400 & 0.332--0.483 \\
-\textit{Archaeopteryx lithographica} & Basal avialan & 0.9 & 0.351 & 0.291--0.423 \\
-\textit{Compsognathus longipes} & Compsognathid & 3 & 0.355 & 0.295--0.429 \\
-\textit{Ornitholestes hermanni} & Maniraptoran & 12 & 1.07 & 0.884--1.29 \\
-\textit{Linheraptor exquisitus} & Dromaeosaurid & 12 & 1.49 & 1.23--1.80 \\
-\textit{Velociraptor mongoliensis} & Dromaeosaurid & 15 & 6.42 & 5.32--7.74 \\
-\textit{Dromaeosaurus albertensis} & Dromaeosaurid & 15 & 6.29 & 5.21--7.59 \\
-\textit{Coelophysis bauri} & Coelophysid & 20 & 1.94 & 1.61--2.34 \\
-\textit{Suskityrannus hazelae} & Tyrannosauroid & 30 & 67.0 & 55.6--80.9 \\
-\textit{Stenonychosaurus inequalis} & Troodontid & 50 & 17.4 & 14.5--21.0 \\
-\textit{Deinonychus antirrhopus} & Dromaeosaurid & 73 & 119 & 98.7--144 \\
-\textit{Citipati osmolskae} & Oviraptorid & 75 & 5.01 & 4.15--6.04 \\
-\textit{Moros intrepidus} & Tyrannosauroid & 78 & 27.1 & 22.5--32.7 \\
-\textit{Liliensternus liliensterni} & Coelophysoid & 130 & 43.5 & 36.0--52.4 \\
-\textit{Timurlengia euotica} & Tyrannosauroid & 170 & 141 & 117--170 \\
-\textit{Ornithomimus edmontonicus} & Ornithomimid & 170 & 4.95 & 4.10--5.97 \\
-\textit{Marshosaurus bicentesimus} & Megalosauroid & 200 & 414 & 343--499 \\
-\textit{Herrerasaurus ischigualastensis} & Herrerasaurid & 210 & 1,033 & 856--1,246 \\
-\textit{Dakotaraptor steini} & Dromaeosaurid & 250 & 766 & 635--923 \\
-\textit{Achillobator giganticus} & Dromaeosaurid & 250 & 524 & 435--633 \\
-\textit{Dilophosaurus wetherilli} & Dilophosaurid & 400 & 493 & 408--594 \\
-\textit{Gallimimus bullatus} & Ornithomimid & 440 & 271 & 224--326 \\
-\textit{Utahraptor ostrommaysorum} & Dromaeosaurid & 500 & 1,159 & 961--1,398 \\
+\textit{Yi qi} & Scansoriopterygid & 0.4 & 0.377 & 0.312--0.455 \\
+\textit{Archaeopteryx lithographica} & Basal avialan & 0.9 & 0.327 & 0.270--0.395 \\
+\textit{Compsognathus longipes} & Compsognathid & 3 & 0.356 & 0.295--0.431 \\
+\textit{Ornitholestes hermanni} & Maniraptoran & 12 & 1.04 & 0.863--1.26 \\
+\textit{Linheraptor exquisitus} & Dromaeosaurid & 12 & 1.48 & 1.22--1.79 \\
+\textit{Velociraptor mongoliensis} & Dromaeosaurid & 15 & 6.37 & 5.27--7.70 \\
+\textit{Dromaeosaurus albertensis} & Dromaeosaurid & 15 & 6.24 & 5.17--7.54 \\
+\textit{Coelophysis bauri} & Coelophysid & 20 & 1.89 & 1.56--2.28 \\
+\textit{Suskityrannus hazelae} & Tyrannosauroid & 30 & 67.4 & 55.8--81.4 \\
+\textit{Stenonychosaurus inequalis} & Troodontid & 50 & 17.3 & 14.3--20.9 \\
+\textit{Deinonychus antirrhopus} & Dromaeosaurid & 73 & 120 & 99.5--145 \\
+\textit{Citipati osmolskae} & Oviraptorid & 75 & 4.95 & 4.10--5.99 \\
+\textit{Moros intrepidus} & Tyrannosauroid & 78 & 27.2 & 22.5--32.8 \\
+\textit{Liliensternus liliensterni} & Coelophysoid & 130 & 43.8 & 36.2--52.9 \\
+\textit{Timurlengia euotica} & Tyrannosauroid & 170 & 142 & 117--172 \\
+\textit{Ornithomimus edmontonicus} & Ornithomimid & 170 & 5.00 & 4.13--6.04 \\
+\textit{Marshosaurus bicentesimus} & Megalosauroid & 200 & 418 & 346--505 \\
+\textit{Herrerasaurus ischigualastensis} & Herrerasaurid & 210 & 1,039 & 860--1,255 \\
+\textit{Dakotaraptor steini} & Dromaeosaurid & 250 & 768 & 636--928 \\
+\textit{Achillobator giganticus} & Dromaeosaurid & 250 & 527 & 436--636 \\
+\textit{Dilophosaurus wetherilli} & Dilophosaurid & 400 & 494 & 409--597 \\
+\textit{Gallimimus bullatus} & Ornithomimid & 440 & 273 & 226--330 \\
+\textit{Utahraptor ostrommaysorum} & Dromaeosaurid & 500 & 1,161 & 961--1,403 \\
 \bottomrule
 \caption{Theropod points used in the weight--score regression after median recalibration (African Lion $=100$).}
 \label{tab:theropod_weights}
@@ -494,7 +496,7 @@ Theropod & Clade & Weight (kg) & Median score & 1-log-SD band \\
 \section{Interleaved Median Rankings: Mammals and Dinosaurs}
 \label{app:interleaved}
 
-Table~\ref{tab:interleaved} re-ranks 119 animals of the earlier 123-animal selection using the refit, the median anatomy factor $3.451\times$ for dinosaurs and the median Mesozoic-other factor $1.858\times$; four animals of that selection (Etruscan Shrew, House Mouse, Savannah Cat, Water Buffalo) are absent from the refit (Section~\ref{sec:preprocess}). Dinosaurs are marked $\blacktriangle$ and Mesozoic non-dinosaurs $\triangle$; unmarked entries are baseline, and the African Lion, the scale's benchmark, is set in bold. Masses are those of the earlier export. Every dinosaur score has the same multiplicative calibration uncertainty $\times/\div1.206$ at one log-space standard deviation; Mesozoic-other scores use $\times/\div1.098$.
+Table~\ref{tab:interleaved} re-ranks 119 animals of the earlier 123-animal selection using the refit, the median anatomy factor $3.473\times$ for dinosaurs and the median Mesozoic-other factor $1.864\times$; four animals of that selection (Etruscan Shrew, House Mouse, Savannah Cat, Water Buffalo) are absent from the refit (Section~\ref{sec:preprocess}). Dinosaurs are marked $\blacktriangle$ and Mesozoic non-dinosaurs $\triangle$; unmarked entries are baseline, and the African Lion, the scale's benchmark, is set in bold. Masses are those of the earlier export. Every dinosaur score has the same multiplicative calibration uncertainty $\times/\div1.208$ at one log-space standard deviation; Mesozoic-other scores use $\times/\div1.099$.
 
 \small
 \begin{longtable}{rrllc}
@@ -502,125 +504,125 @@ Table~\ref{tab:interleaved} re-ranks 119 animals of the earlier 123-animal selec
 \# & Median score & Animal & Weight & \\
 \midrule
 \endhead
-1 & 49,707 & \textit{Ankylosaurus magniventris} & 6.0\,t & $\blacktriangle$ \\
-2 & 46,452 & \textit{Tyrannosaurus rex} & 8.4\,t & $\blacktriangle$ \\
-3 & 37,553 & \textit{Giganotosaurus carolinii} & 6.5\,t & $\blacktriangle$ \\
-4 & 35,232 & \textit{Triceratops horridus} & 9.0\,t & $\blacktriangle$ \\
-5 & 23,924 & \textit{Diplodocus carnegii} & 13\,t & $\blacktriangle$ \\
-6 & 15,498 & \textit{Euoplocephalus tutus} & 2.5\,t & $\blacktriangle$ \\
-7 & 14,727 & \textit{Mosasaurus hoffmannii} & 5.0\,t & $\triangle$ \\
-8 & 14,499 & \textit{Brontosaurus excelsus} & 15\,t & $\blacktriangle$ \\
-9 & 12,740 & \textit{Spinosaurus aegyptiacus} & 7.0\,t & $\blacktriangle$ \\
-10 & 12,211 & \textit{Stegosaurus stenops} & 3.5\,t & $\blacktriangle$ \\
-11 & 9,701 & \textit{Daspletosaurus torosus} & 2.5\,t & $\blacktriangle$ \\
-12 & 8,524 & \textit{Styracosaurus albertensis} & 2.7\,t & $\blacktriangle$ \\
-13 & 7,337 & \textit{Tarbosaurus bataar} & 5.0\,t & $\blacktriangle$ \\
-14 & 6,547 & \textit{Allosaurus fragilis} & 2.0\,t & $\blacktriangle$ \\
-15 & 3,755 & Columbian Mammoth & 10.0\,t &  \\
-16 & 3,315 & \textit{Parasaurolophus spp.} & 2.5\,t & $\blacktriangle$ \\
-17 & 2,764 & Orca (Killer Whale) & 5.4\,t &  \\
-18 & 1,961 & Woolly Rhinoceros & 2.5\,t &  \\
-19 & 1,832 & \textit{Iguanodon bernissartensis} & 3.5\,t & $\blacktriangle$ \\
-20 & 1,821 & Woolly Mammoth & 6.0\,t &  \\
-21 & 1,712 & \textit{Carnotaurus sastrei} & 1.5\,t & $\blacktriangle$ \\
-22 & 1,697 & \textit{Edmontosaurus annectens} & 4\,t & $\blacktriangle$ \\
-23 & 1,686 & Megatherium americanum & 4.0\,t &  \\
-24 & 1,208 & African Bush Elephant & 6.0\,t &  \\
-25 & 1,159 & \textit{Utahraptor ostrommaysorum} & 500\,kg & $\blacktriangle$ \\
-26 & 1,153 & White Rhinoceros & 2.3\,t &  \\
-27 & 1,114 & Great White Shark & 1.1\,t &  \\
-28 & 1,033 & \textit{Herrerasaurus ischigualastensis} & 210\,kg & $\blacktriangle$ \\
-29 & 766 & \textit{Dakotaraptor steini} & 250\,kg & $\blacktriangle$ \\
-30 & 572 & Arctodus simus & 800\,kg &  \\
-31 & 548 & Saltwater Crocodile & 450\,kg &  \\
+1 & 45,828 & \textit{Ankylosaurus magniventris} & 6.0\,t & $\blacktriangle$ \\
+2 & 41,366 & \textit{Tyrannosaurus rex} & 8.4\,t & $\blacktriangle$ \\
+3 & 33,186 & \textit{Giganotosaurus carolinii} & 6.5\,t & $\blacktriangle$ \\
+4 & 32,238 & \textit{Triceratops horridus} & 9.0\,t & $\blacktriangle$ \\
+5 & 21,187 & \textit{Diplodocus carnegii} & 13\,t & $\blacktriangle$ \\
+6 & 15,491 & \textit{Euoplocephalus tutus} & 2.5\,t & $\blacktriangle$ \\
+7 & 12,946 & \textit{Brontosaurus excelsus} & 15\,t & $\blacktriangle$ \\
+8 & 12,291 & \textit{Mosasaurus hoffmannii} & 5.0\,t & $\triangle$ \\
+9 & 11,635 & \textit{Stegosaurus stenops} & 3.5\,t & $\blacktriangle$ \\
+10 & 9,636 & \textit{Spinosaurus aegyptiacus} & 7.0\,t & $\blacktriangle$ \\
+11 & 9,432 & \textit{Daspletosaurus torosus} & 2.5\,t & $\blacktriangle$ \\
+12 & 8,416 & \textit{Styracosaurus albertensis} & 2.7\,t & $\blacktriangle$ \\
+13 & 6,504 & \textit{Allosaurus fragilis} & 2.0\,t & $\blacktriangle$ \\
+14 & 6,433 & \textit{Tarbosaurus bataar} & 5.0\,t & $\blacktriangle$ \\
+15 & 4,075 & Columbian Mammoth & 10.0\,t &  \\
+16 & 3,311 & \textit{Parasaurolophus spp.} & 2.5\,t & $\blacktriangle$ \\
+17 & 3,151 & Orca (Killer Whale) & 5.4\,t &  \\
+18 & 1,942 & Woolly Rhinoceros & 2.5\,t &  \\
+19 & 1,857 & \textit{Edmontosaurus annectens} & 4\,t & $\blacktriangle$ \\
+20 & 1,815 & \textit{Iguanodon bernissartensis} & 3.5\,t & $\blacktriangle$ \\
+21 & 1,729 & Woolly Mammoth & 6.0\,t &  \\
+22 & 1,719 & \textit{Carnotaurus sastrei} & 1.5\,t & $\blacktriangle$ \\
+23 & 1,659 & Megatherium americanum & 4.0\,t &  \\
+24 & 1,161 & \textit{Utahraptor ostrommaysorum} & 500\,kg & $\blacktriangle$ \\
+25 & 1,160 & African Bush Elephant & 6.0\,t &  \\
+26 & 1,146 & White Rhinoceros & 2.3\,t &  \\
+27 & 1,122 & Great White Shark & 1.1\,t &  \\
+28 & 1,039 & \textit{Herrerasaurus ischigualastensis} & 210\,kg & $\blacktriangle$ \\
+29 & 768 & \textit{Dakotaraptor steini} & 250\,kg & $\blacktriangle$ \\
+30 & 580 & Arctodus simus & 800\,kg &  \\
+31 & 549 & Saltwater Crocodile & 450\,kg &  \\
 32 & 529 & Hippopotamus & 1.5\,t &  \\
-33 & 524 & \textit{Achillobator giganticus} & 250\,kg & $\blacktriangle$ \\
-34 & 493 & \textit{Dilophosaurus wetherilli} & 400\,kg & $\blacktriangle$ \\
-35 & 414 & \textit{Marshosaurus bicentesimus} & 200\,kg & $\blacktriangle$ \\
-36 & 383 & Polar Bear & 450\,kg &  \\
-37 & 345 & Smilodon populator & 400\,kg &  \\
-38 & 294 & American Bison & 900\,kg &  \\
-39 & 292 & Tiger & 220\,kg &  \\
-40 & 289 & \textit{Pachycephalosaurus wyomingensis} & 450\,kg & $\blacktriangle$ \\
-41 & 271 & \textit{Gallimimus bullatus} & 440\,kg & $\blacktriangle$ \\
-42 & 267 & Kodiak Bear & 600\,kg &  \\
+33 & 527 & \textit{Achillobator giganticus} & 250\,kg & $\blacktriangle$ \\
+34 & 494 & \textit{Dilophosaurus wetherilli} & 400\,kg & $\blacktriangle$ \\
+35 & 418 & \textit{Marshosaurus bicentesimus} & 200\,kg & $\blacktriangle$ \\
+36 & 381 & Polar Bear & 450\,kg &  \\
+37 & 343 & Smilodon populator & 400\,kg &  \\
+38 & 293 & Tiger & 220\,kg &  \\
+39 & 293 & American Bison & 900\,kg &  \\
+40 & 290 & \textit{Pachycephalosaurus wyomingensis} & 450\,kg & $\blacktriangle$ \\
+41 & 273 & \textit{Gallimimus bullatus} & 440\,kg & $\blacktriangle$ \\
+42 & 261 & Kodiak Bear & 600\,kg &  \\
 43 & 246 & Smilodon fatalis & 220\,kg &  \\
-44 & 217 & (Wild) Water Buffalo & 900\,kg &  \\
-45 & 208 & \textit{Anzu wyliei} & 200\,kg & $\blacktriangle$ \\
-46 & 204 & Wood Bison & 900\,kg &  \\
-47 & 188 & American Alligator & 230\,kg &  \\
-48 & 167 & Lion & 190\,kg &  \\
+44 & 215 & (Wild) Water Buffalo & 900\,kg &  \\
+45 & 210 & \textit{Anzu wyliei} & 200\,kg & $\blacktriangle$ \\
+46 & 197 & Wood Bison & 900\,kg &  \\
+47 & 194 & American Alligator & 230\,kg &  \\
+48 & 168 & Lion & 190\,kg &  \\
 49 & 161 & Grizzly Bear & 270\,kg &  \\
-50 & 156 & \textit{Quetzalcoatlus northropi} & 250\,kg & $\triangle$ \\
-51 & 141 & \textit{Timurlengia euotica} & 170\,kg & $\blacktriangle$ \\
-52 & 128 & Alaskan Moose & 600\,kg &  \\
-53 & 119 & \textit{Deinonychus antirrhopus} & 73\,kg & $\blacktriangle$ \\
+50 & 157 & \textit{Quetzalcoatlus northropi} & 250\,kg & $\triangle$ \\
+51 & 142 & \textit{Timurlengia euotica} & 170\,kg & $\blacktriangle$ \\
+52 & 129 & Alaskan Moose & 600\,kg &  \\
+53 & 120 & \textit{Deinonychus antirrhopus} & 73\,kg & $\blacktriangle$ \\
 54 & 106 & Siberian Tiger & 230\,kg &  \\
 55 & 100 & \textbf{African Lion} & \textbf{185\,kg} &  \\
 56 & 96.8 & Bengal Tiger & 220\,kg &  \\
-57 & 67.0 & \textit{Suskityrannus hazelae} & 30\,kg & $\blacktriangle$ \\
-58 & 55.4 & Jaguar & 96\,kg &  \\
-59 & 43.6 & Western Gorilla & 160\,kg &  \\
-60 & 43.5 & \textit{Liliensternus liliensterni} & 130\,kg & $\blacktriangle$ \\
-61 & 34.6 & Cougar & 70\,kg &  \\
-62 & 34.6 & Leopard & 60\,kg &  \\
-63 & 27.3 & Eastern Gorilla & 160\,kg &  \\
-64 & 27.1 & \textit{Moros intrepidus} & 78\,kg & $\blacktriangle$ \\
-65 & 25.7 & Komodo Dragon & 70\,kg &  \\
-66 & 22.3 & Green Anaconda & 30\,kg &  \\
+57 & 67.4 & \textit{Suskityrannus hazelae} & 30\,kg & $\blacktriangle$ \\
+58 & 55.5 & Jaguar & 96\,kg &  \\
+59 & 43.8 & Western Gorilla & 160\,kg &  \\
+60 & 43.8 & \textit{Liliensternus liliensterni} & 130\,kg & $\blacktriangle$ \\
+61 & 35.1 & Leopard & 60\,kg &  \\
+62 & 35.1 & Cougar & 70\,kg &  \\
+63 & 27.4 & Eastern Gorilla & 160\,kg &  \\
+64 & 27.2 & \textit{Moros intrepidus} & 78\,kg & $\blacktriangle$ \\
+65 & 25.6 & Komodo Dragon & 70\,kg &  \\
+66 & 22.4 & Green Anaconda & 30\,kg &  \\
 67 & 20.6 & Wild Boar & 80\,kg &  \\
 68 & 20.1 & Dire Wolf & 68\,kg &  \\
-69 & 19.4 & Spotted Hyena & 55\,kg &  \\
-70 & 17.4 & \textit{Stenonychosaurus inequalis} & 50\,kg & $\blacktriangle$ \\
+69 & 19.3 & Spotted Hyena & 55\,kg &  \\
+70 & 17.3 & \textit{Stenonychosaurus inequalis} & 50\,kg & $\blacktriangle$ \\
 71 & 14.9 & Elk & 330\,kg &  \\
-72 & 14.0 & \textit{Protoceratops andrewsi} & 180\,kg & $\blacktriangle$ \\
+72 & 13.9 & \textit{Protoceratops andrewsi} & 180\,kg & $\blacktriangle$ \\
 73 & 11.3 & Common Warthog & 80\,kg &  \\
-74 & 11.1 & Grey Wolf & 40\,kg &  \\
-75 & 8.79 & Burmese Python & 90\,kg &  \\
-76 & 8.07 & Neanderthal & 78\,kg &  \\
-77 & 7.08 & Bornean Orangutan & 75\,kg &  \\
-78 & 6.64 & Human (male) & 80\,kg &  \\
-79 & 6.61 & Neapolitan Mastiff & 60\,kg &  \\
-80 & 6.42 & \textit{Velociraptor mongoliensis} & 15\,kg & $\blacktriangle$ \\
-81 & 6.33 & Ostrich & 110\,kg &  \\
-82 & 6.29 & \textit{Dromaeosaurus albertensis} & 15\,kg & $\blacktriangle$ \\
-83 & 6.26 & Dogo Argentino & 43\,kg &  \\
-84 & 5.72 & Human & 70\,kg &  \\
-85 & 5.36 & Caucasian Shepherd Dog & 55\,kg &  \\
-86 & 5.01 & \textit{Citipati osmolskae} & 75\,kg & $\blacktriangle$ \\
-87 & 5.01 & Rottweiler & 50\,kg &  \\
-88 & 4.95 & \textit{Ornithomimus edmontonicus} & 170\,kg & $\blacktriangle$ \\
-89 & 4.86 & Tibetan Mastiff & 55\,kg &  \\
-90 & 4.75 & Cheetah & 50\,kg &  \\
-91 & 4.71 & Red Kangaroo & 85\,kg &  \\
-92 & 4.35 & Wolverine & 14\,kg &  \\
-93 & 3.88 & Mandrill & 25\,kg &  \\
-94 & 3.68 & Common Chimpanzee & 50\,kg &  \\
-95 & 3.54 & Kangal & 55\,kg &  \\
-96 & 3.19 & Southern Cassowary & 60\,kg &  \\
-97 & 2.94 & \textit{Pteranodon longiceps} & 25\,kg & $\triangle$ \\
-98 & 2.83 & Boerboel & 65\,kg &  \\
-99 & 2.51 & Thylacine & 25\,kg &  \\
-100 & 2.28 & German Shepherd & 34\,kg &  \\
-101 & 2.17 & \textit{Psittacosaurus lujiatunensis} & 20\,kg & $\blacktriangle$ \\
-102 & 2.04 & Human (female) & 55\,kg &  \\
-103 & 2.02 & Ocelot & 12\,kg &  \\
-104 & 1.94 & \textit{Coelophysis bauri} & 20\,kg & $\blacktriangle$ \\
-105 & 1.92 & King Cobra & 6\,kg &  \\
-106 & 1.86 & American Pit Bull Terrier & 27\,kg &  \\
-107 & 1.85 & Honey Badger & 11\,kg &  \\
-108 & 1.77 & Bonobo (Pygmy Chimpanzee) & 40\,kg &  \\
-109 & 1.71 & Caracal & 13\,kg &  \\
-110 & 1.69 & Fishing Cat & 10\,kg &  \\
-111 & 1.49 & \textit{Linheraptor exquisitus} & 12\,kg & $\blacktriangle$ \\
-112 & 1.45 & Bobcat & 9\,kg &  \\
-113 & 1.35 & Coyote & 14\,kg &  \\
-114 & 1.26 & Labrador Retriever & 30\,kg &  \\
-115 & 1.07 & \textit{Ornitholestes hermanni} & 12\,kg & $\blacktriangle$ \\
-116 & 0.430 & Brown (Norway) Rat & 300\,g &  \\
-117 & 0.400 & \textit{Yi qi} & 400\,g & $\blacktriangle$ \\
-118 & 0.355 & \textit{Compsognathus longipes} & 3\,kg & $\blacktriangle$ \\
-119 & 0.351 & \textit{Archaeopteryx lithographica} & 900\,g & $\blacktriangle$ \\
+74 & 10.8 & Grey Wolf & 40\,kg &  \\
+75 & 8.68 & Burmese Python & 90\,kg &  \\
+76 & 8.30 & Neanderthal & 78\,kg &  \\
+77 & 6.98 & Bornean Orangutan & 75\,kg &  \\
+78 & 6.56 & Human (male) & 80\,kg &  \\
+79 & 6.47 & Neapolitan Mastiff & 60\,kg &  \\
+80 & 6.37 & \textit{Velociraptor mongoliensis} & 15\,kg & $\blacktriangle$ \\
+81 & 6.25 & Ostrich & 110\,kg &  \\
+82 & 6.24 & \textit{Dromaeosaurus albertensis} & 15\,kg & $\blacktriangle$ \\
+83 & 6.19 & Dogo Argentino & 43\,kg &  \\
+84 & 5.68 & Human & 70\,kg &  \\
+85 & 5.30 & Caucasian Shepherd Dog & 55\,kg &  \\
+86 & 5.00 & \textit{Ornithomimus edmontonicus} & 170\,kg & $\blacktriangle$ \\
+87 & 4.95 & \textit{Citipati osmolskae} & 75\,kg & $\blacktriangle$ \\
+88 & 4.91 & Rottweiler & 50\,kg &  \\
+89 & 4.68 & Cheetah & 50\,kg &  \\
+90 & 4.64 & Red Kangaroo & 85\,kg &  \\
+91 & 4.61 & Tibetan Mastiff & 55\,kg &  \\
+92 & 4.29 & Wolverine & 14\,kg &  \\
+93 & 3.79 & Mandrill & 25\,kg &  \\
+94 & 3.63 & Common Chimpanzee & 50\,kg &  \\
+95 & 3.47 & Kangal & 55\,kg &  \\
+96 & 3.13 & Southern Cassowary & 60\,kg &  \\
+97 & 2.91 & \textit{Pteranodon longiceps} & 25\,kg & $\triangle$ \\
+98 & 2.51 & Bonobo (Pygmy Chimpanzee) & 40\,kg &  \\
+99 & 2.47 & Thylacine & 25\,kg &  \\
+100 & 2.39 & Boerboel & 65\,kg &  \\
+101 & 2.25 & German Shepherd & 34\,kg &  \\
+102 & 2.04 & \textit{Psittacosaurus lujiatunensis} & 20\,kg & $\blacktriangle$ \\
+103 & 2.02 & Human (female) & 55\,kg &  \\
+104 & 1.99 & Ocelot & 12\,kg &  \\
+105 & 1.89 & \textit{Coelophysis bauri} & 20\,kg & $\blacktriangle$ \\
+106 & 1.87 & King Cobra & 6\,kg &  \\
+107 & 1.84 & American Pit Bull Terrier & 27\,kg &  \\
+108 & 1.82 & Honey Badger & 11\,kg &  \\
+109 & 1.69 & Caracal & 13\,kg &  \\
+110 & 1.67 & Fishing Cat & 10\,kg &  \\
+111 & 1.48 & \textit{Linheraptor exquisitus} & 12\,kg & $\blacktriangle$ \\
+112 & 1.43 & Bobcat & 9\,kg &  \\
+113 & 1.34 & Coyote & 14\,kg &  \\
+114 & 1.24 & Labrador Retriever & 30\,kg &  \\
+115 & 1.04 & \textit{Ornitholestes hermanni} & 12\,kg & $\blacktriangle$ \\
+116 & 0.402 & Brown (Norway) Rat & 300\,g &  \\
+117 & 0.377 & \textit{Yi qi} & 400\,g & $\blacktriangle$ \\
+118 & 0.356 & \textit{Compsognathus longipes} & 3\,kg & $\blacktriangle$ \\
+119 & 0.327 & \textit{Archaeopteryx lithographica} & 900\,g & $\blacktriangle$ \\
 \bottomrule
 \caption{Interleaved ranking under the median probabilistic anatomy paradigm (African Lion $=100$). The table is ordered by median score; calibration uncertainty is described in the text rather than repeated row by row.}
 \label{tab:interleaved}
