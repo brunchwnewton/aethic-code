@@ -1,0 +1,146 @@
+{
+ "fits": {
+  "theropods": [
+   0.048869982632742594,
+   1.3312016577181736
+  ],
+  "theropods_carnivorous": [
+   0.018062530549943334,
+   1.5811017102424345
+  ],
+  "mammals": [
+   0.0693735465655592,
+   1.3509287704242476
+  ],
+  "mammals_with_generic_lion_tiger": [
+   0.05910505127348834,
+   1.412918955696144
+  ],
+  "theropods_median_calibrated": [
+   0.16974344165444658,
+   1.3312016577181736
+  ],
+  "theropods_median_band": [
+   0.14047039138356726,
+   0.205116791523848
+  ]
+ },
+ "dark_era_table": [
+  {
+   "weight_kg": 0.02,
+   "theropod_median": 0.00092922592374152,
+   "theropod_band_low": 0.0007689765679280301,
+   "theropod_band_high": 0.0011228701281234539,
+   "mammal": 0.0003515656524735473,
+   "ratio": 2.6431078155777388,
+   "context": "Mouse-sized"
+  },
+  {
+   "weight_kg": 0.1,
+   "theropod_median": 0.007917559683219217,
+   "theropod_band_low": 0.0065521394916020995,
+   "theropod_band_high": 0.0095675239237024,
+   "mammal": 0.0030921825639953922,
+   "ratio": 2.5605084820700177,
+   "context": "Rat-sized illustrative mammal"
+  },
+  {
+   "weight_kg": 2,
+   "theropod_median": 0.4270951431870149,
+   "theropod_band_low": 0.3534405885538323,
+   "theropod_band_high": 0.5160987935208635,
+   "mammal": 0.17695546483233018,
+   "ratio": 2.4135741927591696,
+   "context": "Squirrel-sized"
+  },
+  {
+   "weight_kg": 15,
+   "theropod_median": 6.243205599123052,
+   "theropod_band_low": 5.166535598955321,
+   "theropod_band_high": 7.544246121289233,
+   "mammal": 2.691593159438546,
+   "ratio": 2.3195205327484767,
+   "context": "Fox-sized (Velociraptor)"
+  },
+  {
+   "weight_kg": 75,
+   "theropod_median": 53.19583933542431,
+   "theropod_band_low": 44.02196808661602,
+   "theropod_band_high": 64.28148139657159,
+   "mammal": 23.673807092435965,
+   "ratio": 2.247033572915315,
+   "context": "Human-sized (Deinonychus)"
+  },
+  {
+   "weight_kg": 250,
+   "theropod_median": 264.20115883301696,
+   "theropod_band_low": 218.63843352968638,
+   "theropod_band_high": 319.258838447685,
+   "mammal": 120.40375874164208,
+   "ratio": 2.1942932811585227,
+   "context": "Lion-sized (Dakotaraptor)"
+  },
+  {
+   "weight_kg": 500,
+   "theropod_median": 664.7622474373621,
+   "theropod_band_low": 550.1208892926903,
+   "theropod_band_high": 803.2940653937906,
+   "mammal": 307.1214338963106,
+   "ratio": 2.1644931745851292,
+   "context": "Bear-sized (Utahraptor)"
+  }
+ ],
+ "median_ratio_1kg": 2.446803573665303,
+ "mammal_score_100g": 0.0030921825639953922,
+ "cross_mass_ratios_vs_100g_mammal": {
+  "0.4 kg": 16.210241213680842,
+  "3 kg": 236.9586035401781,
+  "15 kg": 2019.0287830406237
+ },
+ "equal_mass_crowd_ratio": {
+  "carnivorous": {
+   "without_generic": {
+    "1 kg": 0.2603662554987574,
+    "30 kg": 0.5696105689692361,
+    "300 kg": 0.9677228120033163
+   },
+   "with_generic": {
+    "1 kg": 0.3056004547964128,
+    "30 kg": 0.5414773784771696,
+    "300 kg": 0.79755946282857
+   },
+   "bootstrap_90": {
+    "30 kg": [
+     0.2945893985780707,
+     1.4135348482298846
+    ],
+    "300 kg": [
+     0.4478776731013119,
+     1.6665694747763584
+    ]
+   }
+  },
+  "all": {
+   "without_generic": {
+    "1 kg": 0.704446940543246,
+    "30 kg": 0.6587322861262139,
+    "300 kg": 0.6294798564694855
+   },
+   "with_generic": {
+    "1 kg": 0.8268325901049222,
+    "30 kg": 0.6261973545458553,
+    "300 kg": 0.5187927885547123
+   },
+   "bootstrap_90": {
+    "30 kg": [
+     0.29477110020967007,
+     1.5575365990677366
+    ],
+    "300 kg": [
+     0.19285265102515575,
+     1.2539851949274408
+    ]
+   }
+  }
+ }
+}

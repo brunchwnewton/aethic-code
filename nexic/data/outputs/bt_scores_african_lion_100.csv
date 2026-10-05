@@ -1,0 +1,1744 @@
+rank,animal,score,log_score,se_log,real_matchups,real_votes,class,permian,median_factor,median_score,band1_low,band1_high
+1,Futalognkosaurus dukei,106128,6.96723,0.678694,1,19,dinosaur,False,3.47337,368622,305051,445440
+2,Phuwiangosaurus sirindhornae,79237.6,6.67504,1.47405,1,4,dinosaur,False,3.47337,275221,227758,332576
+3,Orca Pod (of 8-10),68741.9,6.53294,0.565941,2,39,baseline,False,1,68741.9,68741.9,68741.9
+4,Utahraptor ostrommaysorum (pack of 10),52190,6.25748,0.568057,1,25,dinosaur,False,3.47337,181275,150013,219052
+5,Allosaurus fragilis (pack of 4),45323.6,6.11641,0.585703,2,18,dinosaur,False,3.47337,157426,130277,190232
+6,Brygmophyseter shigensis (pod of 5),43458.9,6.0744,0.54634,2,33,baseline,False,1,43458.9,43458.9,43458.9
+7,Livyatan melvillei,38956.8,5.96504,0.441525,7,216,baseline,False,1,38956.8,38956.8,38956.8
+8,Orca Pod (of 5),34629.2,5.84728,0.537274,2,51,baseline,False,1,34629.2,34629.2,34629.2
+9,Carcharocles megalodon,33110.5,5.80243,0.429895,8,309,baseline,False,1,33110.5,33110.5,33110.5
+10,Allosaurus fragilis (pack of 5),32942.4,5.79735,0.846478,1,8,dinosaur,False,3.47337,114421,94688.6,138266
+11,Eotriceratops xerinsularis,32892.2,5.79582,1.02133,2,9,dinosaur,False,3.47337,114247,94544.3,138055
+12,Allosaurus fragilis (pack of 2/3),30392.5,5.71678,1.03163,1,9,dinosaur,False,3.47337,105564,87359.3,127563
+13,Megacephalosaurus eulerti,25936.3,5.55823,1.50215,1,3,mesozoic-other,False,1.8637,48337.4,43972.3,53135.8
+14,Borson's Mastodon,23752.5,5.47027,0.520753,3,23,baseline,False,1,23752.5,23752.5,23752.5
+15,Pliosaurus spp. (a large one!),22848.3,5.43146,0.535026,2,40,mesozoic-other,False,1.8637,42582.3,38736.9,46809.4
+16,Orca Pod (of 3),22537.9,5.41778,0.532767,2,31,baseline,False,1,22537.9,22537.9,22537.9
+17,Purussaurus brasiliensis (float of 5),22083.4,5.39741,0.607737,1,17,baseline,False,1,22083.4,22083.4,22083.4
+18,Sperm Whale (Bull),22024.8,5.39475,0.450647,4,108,baseline,False,1,22024.8,22024.8,22024.8
+19,Asian Straight-tusked Elephant,21649.5,5.37757,0.300922,11,207,baseline,False,1,21649.5,21649.5,21649.5
+20,Orca Pod (of 4),21368.5,5.3645,0.628479,1,18,baseline,False,1,21368.5,21368.5,21368.5
+21,Blue Whale,20076.8,5.30215,0.470725,4,117,baseline,False,1,20076.8,20076.8,20076.8
+22,Albertosaurus sarcophagus (pack of 4/5),18061.3,5.19636,0.677089,1,8,dinosaur,False,3.47337,62733.5,51914.9,75806.8
+23,Shantungosaurus giganteus,16390.6,5.0993,0.429849,3,35,dinosaur,False,3.47337,56930.6,47112.6,68794.5
+24,Thalattoarchon saurophagis,15919.5,5.07013,0.964789,2,11,mesozoic-other,False,1.8637,29669.1,26989.9,32614.4
+25,Straight-tusked Elephant,15328.9,5.03232,0.336246,4,83,baseline,False,1,15328.9,15328.9,15328.9
+26,Apatosaurus ajax,15043.4,5.01353,0.820012,1,7,dinosaur,False,3.47337,52251.3,43240.3,63140.1
+27,Shonisaurus popularis,14767.8,4.99503,1.01897,1,5,mesozoic-other,False,1.8637,27522.7,25037.3,30254.9
+28,Dacentrurus armatus,14269.8,4.96073,1.0605,1,7,dinosaur,False,3.47337,49564.3,41016.7,59893.1
+29,Basilosaurus spp.,13219.4,4.88427,0.797535,1,11,baseline,False,1,13219.4,13219.4,13219.4
+30,Ankylosaurus magniventris,13194,4.88235,0.316591,6,104,dinosaur,False,3.47337,45827.6,37924.4,55377.8
+31,Deinosuchus riograndensis (float of 3),12184.5,4.80275,0.597211,1,20,mesozoic-other,False,1.8637,22708.2,20657.6,24962.5
+32,Tyrannosaurus rex,11909.5,4.77992,0.248966,23,691,dinosaur,False,3.47337,41366.1,34232.3,49986.5
+33,Deinosuchus riograndensis,11645.1,4.75747,0.294061,9,144,mesozoic-other,False,1.8637,21702.9,19743.1,23857.4
+34,Bryde's Whale,11637.3,4.7568,1.05126,1,6,baseline,False,1,11637.3,11637.3,11637.3
+35,Prognathodon saturator,11286.1,4.72616,0.676985,1,10,mesozoic-other,False,1.8637,21033.9,19134.4,23121.9
+36,Orca Pod (of 2),11047.8,4.70482,0.491689,4,36,baseline,False,1,11047.8,11047.8,11047.8
+37,Orca (Ross Sea - Type C),10936.7,4.69471,0.545324,1,44,baseline,False,1,10936.7,10936.7,10936.7
+38,Kronosaurus queenslandicus,10226.9,4.6276,0.404882,5,58,mesozoic-other,False,1.8637,19059.8,17338.7,20951.9
+39,Tyrannotitan chubutensis,10070.6,4.61221,0.545871,2,23,dinosaur,False,3.47337,34978.9,28946.6,42268.3
+40,African Bush Elephant Cows (herd of 4),10052.4,4.6104,0.439874,1,29,baseline,False,1,10052.4,10052.4,10052.4
+41,Bowhead Whale,9879.52,4.59305,0.605401,2,32,baseline,False,1,9879.52,9879.52,9879.52
+42,Pliosaurus funkei,9715.39,4.5763,0.424783,7,103,mesozoic-other,False,1.8637,18106.5,16471.4,19904
+43,Astrodon johnstoni,9641.7,4.56868,0.926245,1,6,dinosaur,False,3.47337,33489.2,27713.8,40468.1
+44,Giganotosaurus carolinii,9554.38,4.55959,0.284594,9,180,dinosaur,False,3.47337,33185.9,27462.8,40101.6
+45,Humpback Whale,9501.3,4.55401,0.453366,5,56,baseline,False,1,9501.3,9501.3,9501.3
+46,Triceratops horridus,9281.48,4.53061,0.284915,12,192,dinosaur,False,3.47337,32238,26678.4,38956.2
+47,Brygmophyseter shigensis (pod of 4),8984,4.49803,0.859422,1,5,baseline,False,1,8984,8984,8984
+48,Paraceratherium spp.,8710.86,4.46716,0.778735,2,21,baseline,False,1,8710.86,8710.86,8710.86
+49,Sperm Whale,8561.27,4.44983,0.48112,7,103,baseline,False,1,8561.27,8561.27,8561.27
+50,Southern Mammoth,8496.74,4.44227,0.566822,1,16,baseline,False,1,8496.74,8496.74,8496.74
+51,American Lion (pride of 20),8490.02,4.44148,0.62047,1,14,baseline,False,1,8490.02,8490.02,8490.02
+52,Tylosaurus proriger,8413.39,4.43241,0.386553,3,51,mesozoic-other,False,1.8637,15680,14264,17236.6
+53,Carcharocles angustidens,8247.03,4.41244,0.450064,4,37,baseline,False,1,8247.03,8247.03,8247.03
+54,Mapusaurus roseae (pack of 2),8217.13,4.40881,0.806792,1,4,dinosaur,False,3.47337,28541.1,23619.1,34488.9
+55,Carcharocles chubutensis,8149.38,4.40053,0.408664,5,66,baseline,False,1,8149.38,8149.38,8149.38
+56,Zhuchengtyrannus magnus,7835.68,4.36127,1.07284,1,6,dinosaur,False,3.47337,27216.2,22522.6,32887.9
+57,Maip macrothorax,7824.47,4.35984,0.819741,1,8,dinosaur,False,3.47337,27177.3,22490.4,32840.8
+58,Steppe Mammoth,7121.93,4.26576,0.334217,7,104,baseline,False,1,7121.93,7121.93,7121.93
+59,Purussaurus brasiliensis,6897.13,4.23369,0.265354,11,211,baseline,False,1,6897.13,6897.13,6897.13
+60,North Pacific Right Whale,6756.01,4.21302,0.646662,2,20,baseline,False,1,6756.01,6756.01,6756.01
+61,Mosasaurus hoffmannii,6595.12,4.18891,0.396658,11,184,mesozoic-other,False,1.8637,12291.3,11181.3,13511.5
+62,Diplodocus carnegii,6099.94,4.11086,0.39855,4,48,dinosaur,False,3.47337,21187.3,17533.5,25602.6
+63,Albertosaurus sarcophagus,6028.61,4.0991,0.500536,2,33,dinosaur,False,3.47337,20939.6,17328.5,25303.2
+64,Otodus obliquus,5209.51,3.95307,0.342575,6,86,baseline,False,1,5209.51,5209.51,5209.51
+65,Mapusaurus roseae,5104.05,3.93262,0.362569,5,64,dinosaur,False,3.47337,17728.2,14670.9,21422.7
+66,Torvosaurus tanneri,5047.26,3.92143,0.394938,8,67,dinosaur,False,3.47337,17531,14507.7,21184.3
+67,Acrocanthosaurus atokensis,4876.75,3.88706,0.318252,9,100,dinosaur,False,3.47337,16938.7,14017.6,20468.7
+68,Titanoceratops ouranos,4513.5,3.80966,0.87053,1,6,dinosaur,False,3.47337,15677,12973.5,18944
+69,Euoplocephalus tutus,4459.97,3.79773,0.545748,2,24,dinosaur,False,3.47337,15491.1,12819.6,18719.4
+70,Carcharodontosaurus saharicus,4307.51,3.76295,0.325218,6,87,dinosaur,False,3.47337,14961.6,12381.4,18079.5
+71,Sachicasaurus vitae,4190.79,3.73547,0.756538,1,10,mesozoic-other,False,1.8637,7810.36,7105.05,8585.69
+72,Shastasaurus sikkanniensis,4138.2,3.72285,0.63922,2,18,mesozoic-other,False,1.8637,7712.35,7015.89,8477.95
+73,Columbian Mammoth,4074.93,3.70744,0.434264,3,36,baseline,False,1,4074.93,4074.93,4074.93
+74,Rhamphosuchus crassidens,3976.8,3.68306,0.607939,1,16,baseline,False,1,3976.8,3976.8,3976.8
+75,Lambeosaurus spp.,3944.59,3.67493,1.2799,1,3,dinosaur,False,3.47337,13701,11338.2,16556.2
+76,Perucetus colossus,3867.49,3.65519,0.995252,1,6,baseline,False,1,3867.49,3867.49,3867.49
+77,Brontosaurus excelsus,3727.22,3.61825,0.619073,2,21,dinosaur,False,3.47337,12946,10713.4,15643.9
+78,American Lion (Coalition of 3),3699.58,3.6108,0.796671,1,16,baseline,False,1,3699.58,3699.58,3699.58
+79,Himalayasaurus tibetensis,3678.31,3.60504,0.536948,3,33,mesozoic-other,False,1.8637,6855.26,6236.19,7535.77
+80,Sperm Whale (Cow),3640.6,3.59473,0.449441,1,28,baseline,False,1,3640.6,3640.6,3640.6
+81,Temnodontosaurus platyodon,3629.63,3.59172,0.455663,3,30,mesozoic-other,False,1.8637,6764.53,6153.66,7436.04
+82,Pycnonemosaurus nevesi (pack of 3),3586.43,3.57974,0.772447,1,9,dinosaur,False,3.47337,12457,10308.7,15052.9
+83,Arabian Elephant,3570.1,3.57518,0.323508,7,102,baseline,False,1,3570.1,3570.1,3570.1
+84,Asiatic Lion (pride of 4/5),3401.78,3.52689,0.74183,1,11,baseline,False,1,3401.78,3401.78,3401.78
+85,Allosaurus fragilis (pack of 2),3372.6,3.51827,0.940531,1,2,dinosaur,False,3.47337,11714.3,9694.1,14155.5
+86,Carcharodontosaurus iguidensis,3367.22,3.51667,0.392817,4,50,dinosaur,False,3.47337,11695.6,9678.63,14132.9
+87,Deinocheirus mirificus,3351.31,3.51194,0.46875,3,29,dinosaur,False,3.47337,11640.3,9632.9,14066.1
+88,Stegosaurus stenops,3349.81,3.51149,0.311738,7,83,dinosaur,False,3.47337,11635.1,9628.59,14059.8
+89,"Neanderthal (armed with spears, troop of 10)",3289.56,3.49334,0.727657,1,9,baseline,False,1,3289.56,3289.56,3289.56
+90,Shunosaurus jiangyiensis,3289.42,3.4933,0.65363,2,16,dinosaur,False,3.47337,11425.4,9455.01,13806.3
+91,American Lion (Coalition of 3 - 5),3282.39,3.49116,0.720771,1,17,baseline,False,1,3282.39,3282.39,3282.39
+92,Fasolasuchus tenax,3208.77,3.46847,0.355922,6,61,mesozoic-other,False,1.8637,5980.18,5440.14,6573.82
+93,Basilosaurus cetoides,3179.32,3.45925,0.460541,6,42,baseline,False,1,3179.32,3179.32,3179.32
+94,Orca (Killer Whale),3151.45,3.45045,0.243056,17,380,baseline,False,1,3151.45,3151.45,3151.45
+95,Anancus arvernensis,3027.28,3.41025,1.1285,1,4,baseline,False,1,3027.28,3027.28,3027.28
+96,Suchomimus tenerensis (2),2966.91,3.39011,0.656559,1,13,dinosaur,False,3.47337,10305.2,8528,12452.7
+97,Paraceratherium bugtiense,2962.74,3.3887,0.393274,6,84,baseline,False,1,2962.74,2962.74,2962.74
+98,Prognathodon spp.,2894.05,3.36524,0.500665,2,20,mesozoic-other,False,1.8637,5393.63,4906.56,5929.06
+99,Cymbospondylus youngorum,2856.68,3.35224,1.08972,1,4,mesozoic-other,False,1.8637,5323.99,4843.21,5852.5
+100,Spinosaurus aegyptiacus,2774.2,3.32295,0.239439,18,425,dinosaur,False,3.47337,9635.82,7974.08,11643.9
+101,Lion Coalition of 5 Lions,2718.48,3.30266,0.485694,1,35,baseline,False,1,2718.48,2718.48,2718.48
+102,Daspletosaurus torosus,2715.39,3.30152,0.293683,11,133,dinosaur,False,3.47337,9431.55,7805.03,11397
+103,Yutyrannus huali,2608.08,3.2612,0.394158,8,63,dinosaur,False,3.47337,9058.82,7496.59,10946.6
+104,Vorombe titan,2605.02,3.26003,1.20774,1,11,baseline,False,1,2605.02,2605.02,2605.02
+105,Eocarcharia dinops,2575.46,3.24861,0.925248,1,5,dinosaur,False,3.47337,8945.52,7402.82,10809.7
+106,Deinotherium thraceiensis,2562.69,3.24364,0.568996,2,21,baseline,False,1,2562.69,2562.69,2562.69
+107,Liopleurodon ferox,2547.65,3.23776,0.257139,8,129,mesozoic-other,False,1.8637,4748.05,4319.28,5219.38
+108,Torosaurus latus,2441.32,3.19512,0.609816,2,14,dinosaur,False,3.47337,8479.6,7017.26,10246.7
+109,Styracosaurus albertensis,2422.93,3.18756,0.40097,3,37,dinosaur,False,3.47337,8415.73,6964.4,10169.5
+110,African (Cape) Buffalo (herd of 10),2360.53,3.16147,0.626252,1,12,baseline,False,1,2360.53,2360.53,2360.53
+111,Siats meekerorum,2335.51,3.15081,0.740284,2,10,dinosaur,False,3.47337,8112.09,6713.12,9802.59
+112,Elasmotherium sibiricum,2306,3.1381,0.29285,7,125,baseline,False,1,2306,2306,2306
+113,American Mastodon,2299.37,3.13522,0.327141,5,99,baseline,False,1,2299.37,2299.37,2299.37
+114,Globidens alabamaensis,2159.51,3.07247,0.56755,2,19,mesozoic-other,False,1.8637,4024.67,3661.23,4424.2
+115,Cretoxyrhina mantelli,2044.44,3.01771,0.308783,5,86,mesozoic-other,False,1.8637,3810.22,3466.14,4188.46
+116,Australovenator wintonensis,2032.78,3.01199,1.01524,1,8,dinosaur,False,3.47337,7060.59,5842.96,8531.97
+117,African Bush Elephant (cow),2030.28,3.01076,0.300565,6,100,baseline,False,1,2030.28,2030.28,2030.28
+118,Barinasuchus arveloi,1998.67,2.99507,0.302177,10,93,baseline,False,1,1998.67,1998.67,1998.67
+119,Common Bottlenose Dolphin (pod of 6/7),1997.09,2.99428,0.592262,1,13,baseline,False,1,1997.09,1997.09,1997.09
+120,Crocodylus thorbjarnarsoni,1983.27,2.98733,0.208527,15,219,baseline,False,1,1983.27,1983.27,1983.27
+121,Rugops primus (pack of 4),1963.24,2.97718,0.862135,1,8,dinosaur,False,3.47337,6819.06,5643.08,8240.1
+122,Woolly Rhinoceros,1942.21,2.96641,0.403658,4,39,baseline,False,1,1942.21,1942.21,1942.21
+123,Smilodon populator (pride of 3),1922.82,2.95638,0.563208,1,15,baseline,False,1,1922.82,1922.82,1922.82
+124,Yangchuanosaurus shangyouensis,1890.18,2.93926,1.16376,1,5,dinosaur,False,3.47337,6565.29,5433.08,7933.45
+125,Allosaurus fragilis,1872.4,2.92981,0.223793,17,228,dinosaur,False,3.47337,6503.53,5381.97,7858.83
+126,Brygmophyseter shigensis,1859.49,2.92289,0.312176,8,90,baseline,False,1,1859.49,1859.49,1859.49
+127,Tarbosaurus bataar,1852.12,2.91892,0.315495,9,125,dinosaur,False,3.47337,6433.09,5323.68,7773.71
+128,Homotherium crenatidens,1816.7,2.89961,1.15935,1,9,baseline,False,1,1816.7,1816.7,1816.7
+129,Irritator challengeri,1805.86,2.89362,0.973375,1,10,dinosaur,False,3.47337,6272.42,5190.71,7579.54
+130,Sigilmassasaurus brevicollis,1775.61,2.87673,0.687984,1,10,dinosaur,False,3.47337,6167.35,5103.76,7452.58
+131,Ceratosaurus nasicornis (pack of 2/3),1746.72,2.86032,0.643644,1,9,dinosaur,False,3.47337,6067,5020.72,7331.32
+132,Saurophaganax maximus,1731.66,2.85166,0.33194,6,91,dinosaur,False,3.47337,6014.69,4977.43,7268.11
+133,Woolly Mammoth,1728.86,2.85005,0.294542,7,130,baseline,False,1,1728.86,1728.86,1728.86
+134,Eurasian Cave Lion (Coalition of 3),1682.02,2.82258,0.554588,1,22,baseline,False,1,1682.02,1682.02,1682.02
+135,Megatherium americanum,1658.59,2.80855,0.266882,12,148,baseline,False,1,1658.59,1658.59,1658.59
+136,Arsinoitherium zitteli,1655.51,2.80669,0.390909,5,40,baseline,False,1,1655.51,1655.51,1655.51
+137,Sumatran Elephant,1645.98,2.80092,0.512028,2,19,baseline,False,1,1645.98,1645.98,1645.98
+138,Deinosuchus rugosus,1640.94,2.79786,0.289571,10,144,mesozoic-other,False,1.8637,3058.22,2782.04,3361.8
+139,Tropical Bottlenose Whale (pod of 2),1556.02,2.74472,0.915083,1,5,baseline,False,1,1556.02,1556.02,1556.02
+140,Smilodon fatalis (coalition of 3/4),1550.49,2.74115,0.661575,1,12,baseline,False,1,1550.49,1550.49,1550.49
+141,Gastonia burgei,1538.24,2.73322,0.772886,2,12,dinosaur,False,3.47337,5342.87,4421.47,6456.29
+142,Asian Elephant,1516.93,2.71928,0.358723,4,47,baseline,False,1,1516.93,1516.93,1516.93
+143,Eurasian Cave Lion (Coalition of 2),1505.8,2.71191,0.460154,1,30,baseline,False,1,1505.8,1505.8,1505.8
+144,Nanshiungosaurus brevispinus,1503.7,2.71051,1.04579,1,6,dinosaur,False,3.47337,5222.9,4322.19,6311.32
+145,Sarcosuchus imperator,1495.18,2.70483,0.254672,10,157,mesozoic-other,False,1.8637,2786.56,2534.92,3063.18
+146,Megacamelus merriami,1488.41,2.70029,0.886952,1,7,baseline,False,1,1488.41,1488.41,1488.41
+147,Spotted Hyenas (clan of 15),1474.94,2.6912,0.532196,1,24,baseline,False,1,1474.94,1474.94,1474.94
+148,African Lion (Coalition of 3/4),1443.67,2.66978,0.602053,1,16,baseline,False,1,1443.67,1443.67,1443.67
+149,Asiatic Lioness (pride of 3),1433.56,2.66274,0.763399,1,15,baseline,False,1,1433.56,1433.56,1433.56
+150,African Forest Elephant,1424.3,2.65627,0.271389,4,93,baseline,False,1,1424.3,1424.3,1424.3
+151,Therizinosaurus cheloniformis,1356.58,2.60755,0.346558,5,56,dinosaur,False,3.47337,4711.9,3899.31,5693.83
+152,American Lion (Coalition of 2/3),1310.24,2.57279,0.598567,2,25,baseline,False,1,1310.24,1310.24,1310.24
+153,Parahelicoprion spp.,1292.82,2.55941,0.733697,1,10,baseline,True,1,1292.82,1292.82,1292.82
+154,Suchomimus tenerensis,1272.21,2.54334,0.349651,5,45,dinosaur,False,3.47337,4418.85,3656.8,5339.71
+155,Doedicurus clavicaudatus,1244.73,2.5215,0.294564,12,100,baseline,False,1,1244.73,1244.73,1244.73
+156,Smilodon fatalis (coalition of 5),1181.05,2.46899,0.666998,1,9,baseline,False,1,1181.05,1181.05,1181.05
+157,Dunkleosteus terrelli,1164.23,2.45464,0.2516,13,178,baseline,False,1,1164.23,1164.23,1164.23
+158,African Bush Elephant,1159.92,2.45094,0.240547,20,326,baseline,False,1,1159.92,1159.92,1159.92
+159,Indian (Greater One-horned) Rhinoceros,1152.9,2.44486,0.315557,6,105,baseline,False,1,1152.9,1152.9,1152.9
+160,Astrapotherium magnum,1150.23,2.44255,1.17062,1,4,baseline,False,1,1150.23,1150.23,1150.23
+161,White Rhinoceros,1146.4,2.43921,0.207933,22,368,baseline,False,1,1146.4,1146.4,1146.4
+162,Saltriovenator zanellai,1131.53,2.42615,0.554627,2,22,dinosaur,False,3.47337,3930.22,3252.44,4749.25
+163,Great White Shark,1121.93,2.41764,0.172335,22,566,baseline,False,1,1121.93,1121.93,1121.93
+164,Smilodon fatalis (coalition of 2),1110.18,2.40711,0.394919,2,35,baseline,False,1,1110.18,1110.18,1110.18
+165,Dire Wolf (pack of 10- 12),1092.46,2.39102,0.509571,1,19,baseline,False,1,1092.46,1092.46,1092.46
+166,Pentaceratops sternbergii,1085.17,2.38432,0.588621,3,19,dinosaur,False,3.47337,3769.19,3119.18,4554.67
+167,Skorpiovenator bustingorryi,1078.29,2.37796,0.702686,2,10,dinosaur,False,3.47337,3745.3,3099.4,4525.79
+168,Orca Cow (Ross Sea - Type C),1073.98,2.37396,0.724288,1,8,baseline,False,1,1073.98,1073.98,1073.98
+169,Amargasaurus cazaui,1064.28,2.36489,0.598577,1,16,dinosaur,False,3.47337,3696.64,3059.13,4466.99
+170,Rhomaleosaurus spp.,1058.66,2.35959,0.829233,1,6,mesozoic-other,False,1.8637,1973.02,1794.85,2168.88
+171,Nasutoceratops titusi,1031.38,2.33348,0.376829,5,40,dinosaur,False,3.47337,3582.36,2964.57,4328.9
+172,Stegodon trigonocephalus,1028.28,2.33047,0.949599,1,5,baseline,False,1,1028.28,1028.28,1028.28
+173,Smilodon fatalis (coalition of 4),1020.31,2.3227,0.538493,2,23,baseline,False,1,1020.31,1020.31,1020.31
+174,American Lion (Coalition of 2),1012.35,2.31486,0.355883,2,48,baseline,False,1,1012.35,1012.35,1012.35
+175,Hippopotamus (cow),958.196,2.25988,0.243078,5,127,baseline,False,1,958.196,958.196,958.196
+176,Parasaurolophus spp.,953.227,2.25468,1.27321,1,3,dinosaur,False,3.47337,3310.91,2739.93,4000.88
+177,False Killer Whale,948.168,2.24936,0.238906,9,128,baseline,False,1,948.168,948.168,948.168
+178,Platybelodon spp.,947.334,2.24848,1.20024,1,3,baseline,False,1,947.334,947.334,947.334
+179,Wapiti Lake Grey Wolf Pack,941.217,2.242,0.481899,2,26,baseline,False,1,941.217,941.217,941.217
+180,Lioness (pride of 4),933.35,2.23361,0.578066,1,17,baseline,False,1,933.35,933.35,933.35
+181,Stegosaurus ungulatus,932.304,2.23249,1.17648,1,6,dinosaur,False,3.47337,3238.24,2679.79,3913.06
+182,Long-finned Pilot Whale,924.408,2.22398,1.08637,1,5,baseline,False,1,924.408,924.408,924.408
+183,Savuti Pride,905.126,2.2029,0.362431,2,56,baseline,False,1,905.126,905.126,905.126
+184,Lion (Coalition of 3),900.231,2.19748,0.234867,7,139,baseline,False,1,900.231,900.231,900.231
+185,Zygophyseter varolai,862.658,2.15485,0.772498,1,8,baseline,False,1,862.658,862.658,862.658
+186,Smilodon populator (pride of 2),854.891,2.1458,0.327922,4,65,baseline,False,1,854.891,854.891,854.891
+187,Megacerops coloradensis,845.952,2.13529,0.37371,5,47,baseline,False,1,845.952,845.952,845.952
+188,Tylosaurus nepaeolicus,840.249,2.12853,0.604021,2,22,mesozoic-other,False,1.8637,1565.97,1424.56,1721.42
+189,Gorgosaurus libratus (pack of 2 -3),836.186,2.12368,0.821323,1,5,dinosaur,False,3.47337,2904.38,2403.51,3509.63
+190,Saurosuchus galilei,827.411,2.11313,0.495045,4,21,mesozoic-other,False,1.8637,1542.04,1402.79,1695.12
+191,Smilosuchus gregorii,823.124,2.10794,0.476292,4,30,mesozoic-other,False,1.8637,1534.05,1395.52,1686.34
+192,Archaic Humans (group of 3 - 5) armed with spear,808.718,2.09028,0.469846,1,24,baseline,False,1,808.718,808.718,808.718
+193,Majungasaurus crenatissimus,802.082,2.08204,0.383265,5,48,dinosaur,False,3.47337,2785.93,2305.48,3366.49
+194,Northwestern Wolf (Pack of 8),797.669,2.07652,0.541797,1,16,baseline,False,1,797.669,797.669,797.669
+195,Hippopotamus gorgops,788.594,2.06508,0.2121,16,281,baseline,False,1,788.594,788.594,788.594
+196,American Lion (Coalition of 4),771.238,2.04283,0.553287,1,13,baseline,False,1,771.238,771.238,771.238
+197,Northern Elephant Seal,756.569,2.02362,0.230568,8,131,baseline,False,1,756.569,756.569,756.569
+198,Erythrosuchus africanus,752.779,2.0186,0.404628,6,40,mesozoic-other,False,1.8637,1402.95,1276.26,1542.22
+199,Lioness (pride of 6),752.488,2.01821,0.709085,1,19,baseline,False,1,752.488,752.488,752.488
+200,Afrovenator abakensis,750.638,2.01575,0.573416,2,16,dinosaur,False,3.47337,2607.24,2157.61,3150.57
+201,Lion (Coalition of 3/4),747.691,2.01182,0.428495,1,27,baseline,False,1,747.691,747.691,747.691
+202,African (Cape) Buffaloes (2),744.246,2.0072,0.578596,1,12,baseline,False,1,744.246,744.246,744.246
+203,Oxalaia quilombensis,737.802,1.99851,0.542157,3,24,dinosaur,False,3.47337,2562.66,2120.72,3096.7
+204,Deinonychus antirrhopus (pack of 5/6),733.28,1.99236,0.77184,1,7,dinosaur,False,3.47337,2546.95,2107.72,3077.72
+205,Palaeoloxodon mnaidriensis,728.124,1.9853,0.534754,2,16,baseline,False,1,728.124,728.124,728.124
+206,Sibotherium ka,721.52,1.97619,1.29338,1,3,baseline,False,1,721.52,721.52,721.52
+207,Saivodus striatus,719.441,1.9733,1.20725,1,3,baseline,False,1,719.441,719.441,719.441
+208,Anteosaurus magnificus,717.205,1.97019,0.226815,14,131,baseline,True,1,717.205,717.205,717.205
+209,Rajasaurus narmadensis,685.515,1.925,1.43912,1,2,dinosaur,False,3.47337,2381.05,1970.42,2877.24
+210,Nanuqsaurus hoglundi,681.942,1.91978,0.25246,9,88,dinosaur,False,3.47337,2368.64,1960.15,2862.24
+211,Lisowicia bojani,673.988,1.90804,0.397221,4,46,baseline,False,1,673.988,673.988,673.988
+212,Rhoetosaurus brownei,669.939,1.90202,1.20111,1,5,dinosaur,False,3.47337,2326.94,1925.65,2811.86
+213,Leedsichthys problematicus,669.909,1.90197,1.14781,1,10,mesozoic-other,False,1.8637,1248.51,1135.76,1372.45
+214,Deinonychus antirrhopus (pack of 4),659.451,1.88624,0.461117,3,26,dinosaur,False,3.47337,2290.52,1895.51,2767.84
+215,Chilotherium wimani,650.183,1.87208,0.607555,3,20,baseline,False,1,650.183,650.183,650.183
+216,Diprotodon optatum,648.295,1.86918,0.350386,6,50,baseline,False,1,648.295,648.295,648.295
+217,Dorudon serratus,647.58,1.86807,1.29435,1,4,baseline,False,1,647.58,647.58,647.58
+218,Pacific Walrus,637.875,1.85297,0.530708,2,21,baseline,False,1,637.875,637.875,637.875
+219,Prestosuchus chiniquensis,633.786,1.84654,0.384718,5,55,mesozoic-other,False,1.8637,1181.19,1074.52,1298.44
+220,Carbonemys cofrinii,633.469,1.84604,0.425654,3,26,baseline,False,1,633.469,633.469,633.469
+221,Asian Elephant (cow),633.2,1.84562,0.639279,1,14,baseline,False,1,633.2,633.2,633.2
+222,Epicyon haydeni (pack of 5),621.257,1.82657,0.717443,1,9,baseline,False,1,621.257,621.257,621.257
+223,Rhizodus hibberti,610.247,1.80869,0.31925,6,59,baseline,False,1,610.247,610.247,610.247
+224,Sinraptor dongi,591.691,1.77781,1.20025,1,5,dinosaur,False,3.47337,2055.16,1700.74,2483.44
+225,False Killer Whale (cow),587.263,1.7703,0.578894,1,14,baseline,False,1,587.263,587.263,587.263
+226,Arctodus simus,579.511,1.75702,0.178699,18,316,baseline,False,1,579.511,579.511,579.511
+227,Spotted Hyenas (clan of 6-8),576.132,1.75117,0.429727,1,38,baseline,False,1,576.132,576.132,576.132
+228,Alectrosaurus olseni,572.171,1.74427,0.821237,1,7,dinosaur,False,3.47337,1987.36,1644.63,2401.51
+229,Helicoprion clerci,569.093,1.73887,1.15778,1,16,baseline,True,1,569.093,569.093,569.093
+230,Black Rhinoceros,568.782,1.73833,0.192957,19,335,baseline,False,1,568.782,568.782,568.782
+231,Estemmenosuchus uralensis,568.078,1.73709,1.20413,1,3,baseline,True,1,568.078,568.078,568.078
+232,Ceratosaurus nasicornis,564.123,1.7301,0.202169,17,217,dinosaur,False,3.47337,1959.41,1621.5,2367.73
+233,Kentrosaurus aethiopicus,556.698,1.71685,0.379912,4,38,dinosaur,False,3.47337,1933.62,1600.16,2336.57
+234,Saltwater Crocodile,548.584,1.70217,0.1565,20,586,baseline,False,1,548.584,548.584,548.584
+235,Short-finned Pilot Whale,548.097,1.70128,0.380251,3,35,baseline,False,1,548.097,548.097,548.097
+236,Utahraptor ostrommaysorum (pack of 2),538.317,1.68328,0.343453,5,49,dinosaur,False,3.47337,1869.77,1547.32,2259.42
+237,Jefferson's Ground Sloth,537.682,1.6821,0.479518,2,21,baseline,False,1,537.682,537.682,537.682
+238,Edmontosaurus annectens,534.714,1.67656,0.513896,3,28,dinosaur,False,3.47337,1857.26,1536.97,2244.3
+239,Daeodon shoshonensis,534.325,1.67583,0.186599,21,251,baseline,False,1,534.325,534.325,534.325
+240,Gorgosaurus libratus,532.286,1.67201,0.473237,6,39,dinosaur,False,3.47337,1848.83,1529.99,2234.11
+241,Hippopotamus,528.9,1.66563,0.181272,18,432,baseline,False,1,528.9,528.9,528.9
+242,Arctodus simus (sow),527.219,1.66245,0.49697,1,18,baseline,False,1,527.219,527.219,527.219
+243,Smilodon populator (coalition of 2),525.474,1.65913,0.637836,1,10,baseline,False,1,525.474,525.474,525.474
+244,African Lion (Coalition of 2),523.055,1.65452,0.266201,7,93,baseline,False,1,523.055,523.055,523.055
+245,Metriacanthosaurus parkeri,523.053,1.65451,0.644848,2,13,dinosaur,False,3.47337,1816.76,1503.45,2195.35
+246,Smilodon populator (pride of 4),522.988,1.65439,0.448648,1,27,baseline,False,1,522.988,522.988,522.988
+247,Iguanodon bernissartensis,522.465,1.65339,0.636546,3,16,dinosaur,False,3.47337,1814.71,1501.76,2192.89
+248,Wood Bison (herd of 3),517.655,1.64414,0.473758,1,22,baseline,False,1,517.655,517.655,517.655
+249,Lion (Coalition of 2),507.161,1.62366,0.176222,10,262,baseline,False,1,507.161,507.161,507.161
+250,Salmon Shark (salmon/river battle),503.295,1.61601,0.676572,1,15,baseline,False,1,503.295,503.295,503.295
+251,Gargoyleosaurus parkpinorum,499.142,1.60772,0.652846,1,10,dinosaur,False,3.47337,1733.7,1434.72,2095
+252,African (Cape) Buffaloes (Herd of 4),497.574,1.60457,0.450422,1,26,baseline,False,1,497.574,497.574,497.574
+253,Lion (Coalition of 4),496.946,1.60331,0.648817,2,11,baseline,False,1,496.946,496.946,496.946
+254,Carnotaurus sastrei,494.91,1.5992,0.211431,14,229,dinosaur,False,3.47337,1719,1422.55,2077.23
+255,Bull Shark (in shallow water),494.101,1.59757,0.731717,1,19,baseline,False,1,494.101,494.101,494.101
+256,Siamotyrannus isanensis,488.745,1.58667,1.40397,1,2,dinosaur,False,3.47337,1697.59,1404.83,2051.36
+257,Antarctic (Southern) Minke Whale,488.049,1.58524,1.26863,2,17,baseline,False,1,488.049,488.049,488.049
+258,Steppe Brown Bear,487.89,1.58492,0.577546,2,31,baseline,False,1,487.89,487.89,487.89
+259,Pleistocene North American Jaguar,482.331,1.57346,1.00596,3,52,baseline,False,1,482.331,482.331,482.331
+260,Thanos simonattoi,479.384,1.56733,0.599755,2,22,dinosaur,False,3.47337,1665.08,1377.93,2012.07
+261,Simbakubwa kutokaafrika,475.654,1.55952,0.325535,5,81,baseline,False,1,475.654,475.654,475.654
+262,Arctotherium angustidens,474.402,1.55689,0.196078,16,282,baseline,False,1,474.402,474.402,474.402
+263,Greenland Shark,471.703,1.55118,0.340997,3,49,baseline,False,1,471.703,471.703,471.703
+264,Aurochs,470.022,1.54761,0.245532,7,118,baseline,False,1,470.022,470.022,470.022
+265,Lion (Coalition of 2/3),466.062,1.53915,0.577533,1,18,baseline,False,1,466.062,466.062,466.062
+266,Dholes (Large Pack),464.629,1.53607,0.499238,1,30,baseline,False,1,464.629,464.629,464.629
+267,European Cave Bear,459.477,1.52492,0.187417,9,220,baseline,False,1,459.477,459.477,459.477
+268,Smok wawelski,456.039,1.51741,1.28623,1,3,mesozoic-other,False,1.8637,849.919,773.167,934.29
+269,African (Cape) Buffalo (herd of 4),455.715,1.5167,0.57941,1,21,baseline,False,1,455.715,455.715,455.715
+270,Titanoboa cerrejonensis,452.833,1.51035,0.215997,12,203,baseline,False,1,452.833,452.833,452.833
+271,Cryolophosaurus ellioti,450.801,1.50586,0.321941,6,63,dinosaur,False,3.47337,1565.8,1295.77,1892.1
+272,Tenontosaurus tilletti,449.099,1.50207,0.513563,2,17,dinosaur,False,3.47337,1559.89,1290.88,1884.96
+273,Megalochoerus khinzikebirus,445.509,1.49405,0.710287,2,9,baseline,False,1,445.509,445.509,445.509
+274,Machairodus lahayishupup,439.94,1.48147,0.37098,2,35,baseline,False,1,439.94,439.94,439.94
+275,Shaochilong maortuensis,439.75,1.48104,0.307782,4,55,dinosaur,False,3.47337,1527.41,1264,1845.72
+276,Agriotherium africanum,437.615,1.47617,0.387335,2,30,baseline,False,1,437.615,437.615,437.615
+277,Pelorovis antiquus,430.143,1.45895,0.382104,4,43,baseline,False,1,430.143,430.143,430.143
+278,Giant (Long-horned) Bison,427.779,1.45344,0.299252,6,88,baseline,False,1,427.779,427.779,427.779
+279,African (Cape) Buffalo (herd of 3),423.191,1.44265,0.80498,1,4,baseline,False,1,423.191,423.191,423.191
+280,Megaraptor namunhuaiquii,421.32,1.43822,0.440778,5,54,dinosaur,False,3.47337,1463.4,1211.03,1768.36
+281,Harlan's Ground Sloth,404.909,1.39849,0.363982,4,36,baseline,False,1,404.909,404.909,404.909
+282,Southern Elephant Seal,398.471,1.38246,0.217718,12,225,baseline,False,1,398.471,398.471,398.471
+283,Aletopelta coombsi,396.47,1.37743,0.870523,1,8,dinosaur,False,3.47337,1377.09,1139.6,1664.06
+284,Utahceratops gettyi,393.14,1.36899,0.84573,1,10,dinosaur,False,3.47337,1365.52,1130.03,1650.08
+285,Epicyon haydeni (pack of 4),390.344,1.36186,0.492182,1,16,baseline,False,1,390.344,390.344,390.344
+286,Atlantic Walrus,390.058,1.36113,0.439316,3,34,baseline,False,1,390.058,390.058,390.058
+287,Spotted Hyenas (clan of 10),389.186,1.35889,0.468635,2,29,baseline,False,1,389.186,389.186,389.186
+288,Nile Crocodile,384.474,1.3467,0.170683,17,358,baseline,False,1,384.474,384.474,384.474
+289,Lion (Pride of 10),383.753,1.34483,0.788278,1,7,baseline,False,1,383.753,383.753,383.753
+290,Polar Bear,380.536,1.33641,0.131082,29,875,baseline,False,1,380.536,380.536,380.536
+291,Lioness (pride of 2),376.635,1.32611,0.24503,5,107,baseline,False,1,376.635,376.635,376.635
+292,Great White Shark (male),371.456,1.31226,0.743228,2,31,baseline,False,1,371.456,371.456,371.456
+293,Teratophoneus curriei,366.457,1.29871,1.31541,1,3,dinosaur,False,3.47337,1272.84,1053.33,1538.09
+294,Tiger Shark,365.242,1.29539,0.193077,11,207,baseline,False,1,365.242,365.242,365.242
+295,Giant (Short-faced) Hyena (clan of 3),360.926,1.2835,0.56027,1,19,baseline,False,1,360.926,360.926,360.926
+296,Spotted Hyenas (clan of 4),360.863,1.28333,0.615815,1,14,baseline,False,1,360.863,360.863,360.863
+297,Hesperosaurus mjosi,357.101,1.27285,0.403025,3,34,dinosaur,False,3.47337,1240.34,1026.44,1498.82
+298,Dhole (Pack of 12),350.248,1.25347,0.885973,1,10,baseline,False,1,350.248,350.248,350.248
+299,Dire Wolf (pack of 5),348.721,1.2491,0.403005,4,61,baseline,False,1,348.721,348.721,348.721
+300,Megalania prisca,343.472,1.23393,0.157584,24,375,baseline,False,1,343.472,343.472,343.472
+301,Sarkastodon mongoliensis,343.153,1.23301,0.412907,3,30,baseline,False,1,343.153,343.153,343.153
+302,Smilodon populator,342.868,1.23217,0.124314,43,1203,baseline,False,1,342.868,342.868,342.868
+303,Asiatic Lion (coalition of 2),341.291,1.22756,0.802374,1,5,baseline,False,1,341.291,341.291,341.291
+304,Gigantoraptor erlianensis,339.917,1.22353,0.431675,3,28,dinosaur,False,3.47337,1180.66,977.047,1426.7
+305,Metamynodon planifrons,337.561,1.21658,0.928946,1,5,baseline,False,1,337.561,337.561,337.561
+306,Utahraptor ostrommaysorum,334.291,1.20684,0.146134,28,511,dinosaur,False,3.47337,1161.12,960.876,1403.08
+307,Lion (Coalition of 5),332.443,1.2013,0.49413,3,41,baseline,False,1,332.443,332.443,332.443
+308,Amphicyon ingens,331.239,1.19767,0.19742,13,184,baseline,False,1,331.239,331.239,331.239
+309,Grey Wolf (pack of 10),331.23,1.19764,0.337553,1,42,baseline,False,1,331.23,331.23,331.23
+310,Teratosaurus spp.,328.871,1.19049,0.756167,1,8,mesozoic-other,False,1.8637,612.916,557.567,673.76
+311,Acrophyseter deinodon,326.389,1.18292,0.503024,3,31,baseline,False,1,326.389,326.389,326.389
+312,Andrewsarchus mongoliensis,320.276,1.16401,0.408026,7,74,baseline,False,1,320.276,320.276,320.276
+313,Pleistocene Polar Bear,316.633,1.15257,0.588658,1,22,baseline,False,1,316.633,316.633,316.633
+314,Megistotherium osteothlastes,316.489,1.15212,0.259995,5,85,baseline,False,1,316.489,316.489,316.489
+315,Inostrancevia alexandri,312.482,1.13938,0.191471,17,196,baseline,True,1,312.482,312.482,312.482
+316,Coastal Brown Bear,308.811,1.12756,0.291693,3,65,baseline,False,1,308.811,308.811,308.811
+317,Xenosmilus hodsonae,308.556,1.12673,0.202906,10,148,baseline,False,1,308.556,308.556,308.556
+318,Pygmy Mammoth,305.673,1.11734,0.281998,5,72,baseline,False,1,305.673,305.673,305.673
+319,Tapinocephalus atherstonei,303.287,1.10951,0.9576,2,5,baseline,True,1,303.287,303.287,303.287
+320,Baryonyx walkeri,301.952,1.1051,0.34894,5,60,dinosaur,False,3.47337,1048.79,867.922,1267.35
+321,Herrerasaurus ischigualastensis,299.124,1.09569,0.680058,2,14,dinosaur,False,3.47337,1038.97,859.793,1255.48
+322,Dire Wolf (pack of 8),295.643,1.08398,0.41951,3,30,baseline,False,1,295.643,295.643,295.643
+323,Tiger,293.489,1.07667,0.221681,2,263,baseline,False,1,293.489,293.489,293.489
+324,Arctic Wolf (Pack of 8-10),292.831,1.07442,0.372303,1,33,baseline,False,1,292.831,292.831,292.831
+325,American Bison,292.526,1.07338,0.186478,11,219,baseline,False,1,292.526,292.526,292.526
+326,Plains Bison,292.049,1.07175,0.170921,7,238,baseline,False,1,292.049,292.049,292.049
+327,Dromornis stirtoni,288.003,1.0578,0.695199,3,21,baseline,False,1,288.003,288.003,288.003
+328,Whale Shark,285.095,1.04765,0.532202,2,27,baseline,False,1,285.095,285.095,285.095
+329,Leptosuchus spp.,284.405,1.04523,1.28519,1,3,mesozoic-other,False,1.8637,530.045,482.179,582.662
+330,Indian Gaur,284.238,1.04464,0.158831,11,294,baseline,False,1,284.238,284.238,284.238
+331,Megalochelys atlas,283.994,1.04378,0.876298,1,7,baseline,False,1,283.994,283.994,283.994
+332,Machairodus horribilis,278.546,1.02441,0.431884,3,27,baseline,False,1,278.546,278.546,278.546
+333,Western Gorilla (troop of 3),275.076,1.01188,0.367325,1,36,baseline,False,1,275.076,275.076,275.076
+334,Spotted Hyenas (clan of 5/6),274.576,1.01006,0.591452,1,12,baseline,False,1,274.576,274.576,274.576
+335,Equus giganteus,273.235,1.00516,0.255611,6,77,baseline,False,1,273.235,273.235,273.235
+336,Barbourofelis fricki,270.287,0.994316,0.260402,6,77,baseline,False,1,270.287,270.287,270.287
+337,Archelon ischyros,267.249,0.983012,1.23695,2,9,mesozoic-other,False,1.8637,498.071,453.093,547.514
+338,European Hippopotamus,266.526,0.9803,0.686587,1,16,baseline,False,1,266.526,266.526,266.526
+339,West African Lion,265.01,0.974599,1.17914,1,11,baseline,False,1,265.01,265.01,265.01
+340,Giraffe,263.84,0.970173,0.171415,15,278,baseline,False,1,263.84,263.84,263.84
+341,American Lion,263.379,0.968422,0.138447,19,522,baseline,False,1,263.379,263.379,263.379
+342,Kodiak Bear,261.454,0.96109,0.136488,28,788,baseline,False,1,261.454,261.454,261.454
+343,Ekrixinatosaurus novasi,259.537,0.953729,0.936798,1,10,dinosaur,False,3.47337,901.468,746.005,1089.33
+344,Inland Grizzly Bear,256.536,0.9421,0.442569,2,34,baseline,False,1,256.536,256.536,256.536
+345,Walrus,255.991,0.939971,0.175111,12,271,baseline,False,1,255.991,255.991,255.991
+346,Phoberomys pattersoni,250.009,0.916325,0.770917,1,7,baseline,False,1,250.009,250.009,250.009
+347,Quercylurus major,249.781,0.915414,0.577159,2,22,baseline,False,1,249.781,249.781,249.781
+348,Postosuchus kirkpatricki,249.542,0.914458,0.228345,8,101,mesozoic-other,False,1.8637,465.071,423.073,511.238
+349,Smilodon fatalis,245.598,0.898526,0.142265,28,503,baseline,False,1,245.598,245.598,245.598
+350,Borneo Pygmy Elephant,242.779,0.88698,0.815431,1,11,baseline,False,1,242.779,242.779,242.779
+351,Northwestern Wolf (pack of 7/8),241.16,0.880291,0.452711,1,21,baseline,False,1,241.16,241.16,241.16
+352,Giant (Short-faced) Hyena (clan of 5),239.05,0.871504,0.506629,1,17,baseline,False,1,239.05,239.05,239.05
+353,Sumatran Rhinoceros,237.844,0.866444,0.214669,11,136,baseline,False,1,237.844,237.844,237.844
+354,Grey Wolf (Pack of 8/9),236.379,0.860264,0.394349,1,30,baseline,False,1,236.379,236.379,236.379
+355,Rugops primus,234.857,0.853806,0.302513,4,52,dinosaur,False,3.47337,815.745,675.066,985.74
+356,Quinkana fortirostrum,233.392,0.847549,0.345887,4,39,baseline,False,1,233.392,233.392,233.392
+357,Giant Beaver,231.825,0.840813,1.25777,1,5,baseline,False,1,231.825,231.825,231.825
+358,Sivatherium giganteum,225.218,0.8119,0.358857,5,43,baseline,False,1,225.218,225.218,225.218
+359,Western Moose,224.42,0.808347,0.438458,2,35,baseline,False,1,224.42,224.42,224.42
+360,Mylodon darwini,223.454,0.804035,0.979941,1,13,baseline,False,1,223.454,223.454,223.454
+361,Epicyon haydeni (pack of 3),222.657,0.800461,0.378809,1,30,baseline,False,1,222.657,222.657,222.657
+362,African Wild Dog (pack of 12),222.248,0.798625,0.438109,1,23,baseline,False,1,222.248,222.248,222.248
+363,Dinofelis spp.,221.8,0.796606,0.648017,2,18,baseline,False,1,221.8,221.8,221.8
+364,Dakotaraptor steini,221.106,0.793471,0.258615,6,91,dinosaur,False,3.47337,767.983,635.54,928.025
+365,Grey Wolf (Pack of 3/4 adults),220.91,0.792587,0.580875,1,18,baseline,False,1,220.91,220.91,220.91
+366,Aurochs (Pleistocene),219.465,0.786023,0.636301,2,18,baseline,False,1,219.465,219.465,219.465
+367,American Crocodile,217.029,0.77486,0.276813,5,100,baseline,False,1,217.029,217.029,217.029
+368,Grey Wolves (pack of 3),216.741,0.773533,0.62797,1,15,baseline,False,1,216.741,216.741,216.741
+369,(Wild) Water Buffalo,215.283,0.766783,0.221084,9,152,baseline,False,1,215.283,215.283,215.283
+370,Xiphiorhynchus rotundus,214.983,0.765388,1.11088,1,6,baseline,False,1,214.983,214.983,214.983
+371,Percrocuta spp. (clan of 4/5),213.087,0.756532,0.679524,1,8,baseline,False,1,213.087,213.087,213.087
+372,Neanderthals (3) (armed with spears),211.559,0.749336,0.628074,1,11,baseline,False,1,211.559,211.559,211.559
+373,Irish Elk,206.52,0.725226,0.374181,3,40,baseline,False,1,206.52,206.52,206.52
+374,Mourasuchus amazoniensis,205.672,0.721114,0.803321,2,8,baseline,False,1,205.672,205.672,205.672
+375,Ussuri Brown Bear,204.939,0.717542,0.171796,8,287,baseline,False,1,204.939,204.939,204.939
+376,Pleistocene Jaguar,202.087,0.703529,0.276389,4,98,baseline,False,1,202.087,202.087,202.087
+377,Narwhal,201.014,0.698206,0.372968,3,36,baseline,False,1,201.014,201.014,201.014
+378,Pseudocyon sansaniensis,200.944,0.697857,0.739025,1,8,baseline,False,1,200.944,200.944,200.944
+379,Alioramus remotus,199.84,0.692345,0.694923,2,11,dinosaur,False,3.47337,694.118,574.414,838.767
+380,Wood Bison,196.868,0.677363,0.205856,8,174,baseline,False,1,196.868,196.868,196.868
+381,Broad-fronted Moose,196.652,0.676263,0.77016,1,7,baseline,False,1,196.652,196.652,196.652
+382,Kerberos langebadreae,196.482,0.675399,0.873603,1,6,baseline,False,1,196.482,196.482,196.482
+383,Florida Short-faced (Cave) Bear,195.624,0.671026,0.556256,1,14,baseline,False,1,195.624,195.624,195.624
+384,Florida Black Bear,195.194,0.668823,1.08562,1,28,baseline,False,1,195.194,195.194,195.194
+385,Smilodon fatalis (female),194.709,0.666338,0.460279,1,23,baseline,False,1,194.709,194.709,194.709
+386,Syrian Brown Bear,193.898,0.66216,0.443888,2,28,baseline,False,1,193.898,193.898,193.898
+387,American Alligator,193.74,0.661345,0.16138,20,390,baseline,False,1,193.74,193.74,193.74
+388,Alaskan Peninsula Brown Bear,190.725,0.645663,0.356397,4,52,baseline,False,1,190.725,190.725,190.725
+389,Ophthalmosaurus icenicus,190.459,0.644265,0.712625,2,9,mesozoic-other,False,1.8637,354.958,322.904,390.194
+390,Southern Bottlenose Whale,188.588,0.634394,0.893956,1,6,baseline,False,1,188.588,188.588,188.588
+391,Grey Wolf (Pack of 5),188.424,0.633522,0.253469,4,92,baseline,False,1,188.424,188.424,188.424
+392,Mastodonsaurus spp.,182.622,0.602248,0.358112,4,51,mesozoic-other,False,1.8637,340.352,309.617,374.139
+393,Steller's (Northern) Sea Lion,181.12,0.593992,0.179886,12,217,baseline,False,1,181.12,181.12,181.12
+394,Polar Bear (sow),179.398,0.584434,0.208153,7,149,baseline,False,1,179.398,179.398,179.398
+395,Spotted Hyenas (clan of 6),178.99,0.582158,0.207788,6,137,baseline,False,1,178.99,178.99,178.99
+396,Shortfin Mako Shark,178.449,0.57913,0.225058,9,163,baseline,False,1,178.449,178.449,178.449
+397,Dinocrocuta gigantea (clan of 3),177.685,0.57484,0.775548,1,10,baseline,False,1,177.685,177.685,177.685
+398,Megalosaurus bucklandii,177.315,0.57276,0.688392,4,27,dinosaur,False,3.47337,615.88,509.669,744.225
+399,Megantereon cultridens,176.379,0.567465,0.456253,4,30,baseline,False,1,176.379,176.379,176.379
+400,Orinoco Crocodile,172.017,0.542426,0.257946,4,103,baseline,False,1,172.017,172.017,172.017
+401,Aurochs (Holocene),170.944,0.536168,0.784764,2,7,baseline,False,1,170.944,170.944,170.944
+402,European Jaguar,168.793,0.523503,0.334413,3,52,baseline,False,1,168.793,168.793,168.793
+403,American Scimitar,167.992,0.518748,0.2769,8,90,baseline,False,1,167.992,167.992,167.992
+404,Lion,167.754,0.517328,0.193695,10,568,baseline,False,1,167.754,167.754,167.754
+405,Pacific Sleeper Shark,167.273,0.514459,0.553238,2,20,baseline,False,1,167.273,167.273,167.273
+406,Asiatic Lioness (pride of 2),167.053,0.513142,0.617637,1,9,baseline,False,1,167.053,167.053,167.053
+407,Kamchatka Brown Bear,166.396,0.509203,0.362954,4,45,baseline,False,1,166.396,166.396,166.396
+408,Ancient Bison,166.335,0.508836,0.66953,3,13,baseline,False,1,166.335,166.335,166.335
+409,Hyaenodon gigas,164.897,0.500151,0.218262,8,117,baseline,False,1,164.897,164.897,164.897
+410,Dhole (Pack of 10),164.704,0.49898,0.473232,1,22,baseline,False,1,164.704,164.704,164.704
+411,Rubidgea atrox,164.521,0.497867,0.70476,3,11,baseline,True,1,164.521,164.521,164.521
+412,Barbary Lion,163.4,0.491033,0.645373,3,76,baseline,False,1,163.4,163.4,163.4
+413,Chasmosaurus belli,161.313,0.478173,0.736624,1,15,dinosaur,False,3.47337,560.299,463.673,677.062
+414,Grizzly Bear,161.044,0.476507,0.121028,22,565,baseline,False,1,161.044,161.044,161.044
+415,Megantereon whitei,160.882,0.475503,0.660146,2,16,baseline,False,1,160.882,160.882,160.882
+416,Amphicyon frendens,159.893,0.469335,0.446266,1,25,baseline,False,1,159.893,159.893,159.893
+417,Orca (female),159.645,0.467783,0.530664,1,30,baseline,False,1,159.645,159.645,159.645
+418,Mexican Grizzly Bear,158.965,0.463516,0.527519,1,20,baseline,False,1,158.965,158.965,158.965
+419,Amphicyon major,158.773,0.462305,0.299985,7,80,baseline,False,1,158.773,158.773,158.773
+420,Gigantopithecus blacki (coalition of 2),158.408,0.460003,0.55956,1,17,baseline,False,1,158.408,158.408,158.408
+421,Deinonychus antirrhopus (pack of 3/4),157.999,0.457419,0.653583,1,12,dinosaur,False,3.47337,548.789,454.148,663.152
+422,Kubanochoerus gigas,157.838,0.456398,0.365224,5,36,baseline,False,1,157.838,157.838,157.838
+423,Northwestern Wolf (pack of 2),157.345,0.453272,0.297114,4,114,baseline,False,1,157.345,157.345,157.345
+424,Broad-fronted (Giant) Moose,156.632,0.448729,0.547544,2,15,baseline,False,1,156.632,156.632,156.632
+425,Atlas Bear,156.166,0.445752,0.722965,1,37,baseline,False,1,156.166,156.166,156.166
+426,Wanhsien Tiger,156.161,0.445718,0.414182,4,36,baseline,False,1,156.161,156.161,156.161
+427,Dire Wolves (pack of 3),155.797,0.443385,0.796996,2,25,baseline,False,1,155.797,155.797,155.797
+428,Ngandong Tiger,153.418,0.427998,0.162,11,330,baseline,False,1,153.418,153.418,153.418
+429,African Wild Dog (pack of 8),153.038,0.425518,0.476397,1,19,baseline,False,1,153.038,153.038,153.038
+430,African (Cape) Buffalo,153.03,0.425463,0.14,32,568,baseline,False,1,153.03,153.03,153.03
+431,Achillobator giganticus,151.632,0.416284,0.303089,7,60,dinosaur,False,3.47337,526.674,435.846,636.429
+432,European Scimitar,150.81,0.410849,0.291367,6,65,baseline,False,1,150.81,150.81,150.81
+433,Wild Yak,150.779,0.410645,0.279687,5,65,baseline,False,1,150.779,150.779,150.779
+434,Clymene (Short-snouted Spinner) Dolphin,148.637,0.396334,1.06364,1,7,baseline,False,1,148.637,148.637,148.637
+435,Gaur,147.903,0.391384,0.210559,10,197,baseline,False,1,147.903,147.903,147.903
+436,Deuterosaurus spp.,146.442,0.381458,1.3933,1,2,baseline,True,1,146.442,146.442,146.442
+437,Harpagolestes immanis,146.378,0.381021,1.24433,1,3,baseline,False,1,146.378,146.378,146.378
+438,Proborhyaena gigantea,143.915,0.364051,0.519515,2,16,baseline,False,1,143.915,143.915,143.915
+439,East Siberian Brown Bear,142.807,0.356326,0.594016,1,15,baseline,False,1,142.807,142.807,142.807
+440,Dilophosaurus wetherilli,142.203,0.352084,0.294415,7,77,dinosaur,False,3.47337,493.923,408.744,596.854
+441,Eurasian Brown Bear,140.157,0.33759,0.257481,2,110,baseline,False,1,140.157,140.157,140.157
+442,Bluntnose Sixgill Shark,139.65,0.333966,0.360806,5,46,baseline,False,1,139.65,139.65,139.65
+443,Atlantic Blue Marlin,138.189,0.323452,0.34603,3,41,baseline,False,1,138.189,138.189,138.189
+444,Dakosaurus maximus,137.315,0.317107,0.705673,1,9,mesozoic-other,False,1.8637,255.914,232.803,281.318
+445,Epicyon haydeni (pack of 2),136.834,0.313599,0.365084,4,39,baseline,False,1,136.834,136.834,136.834
+446,Interior Grizzly Bear,135.324,0.302503,0.487034,1,20,baseline,False,1,135.324,135.324,135.324
+447,Ischigualastia jenseni,134.602,0.297155,1.46828,1,3,baseline,False,1,134.602,134.602,134.602
+448,Chianina,134.247,0.294511,0.504665,1,17,baseline,False,1,134.247,134.247,134.247
+449,Glyptodon clavipes,134.158,0.293847,1.13943,1,5,baseline,False,1,134.158,134.158,134.158
+450,Southern Elephant Seal (cow),131.147,0.271148,0.65596,1,11,baseline,False,1,131.147,131.147,131.147
+451,Sillosuchus longicervix,130.24,0.264208,0.85397,3,12,mesozoic-other,False,1.8637,242.728,220.808,266.823
+452,Banteng,129.999,0.262353,0.301367,4,68,baseline,False,1,129.999,129.999,129.999
+453,Rauisuchus tiradentes,129.227,0.256397,0.391659,4,33,mesozoic-other,False,1.8637,240.84,219.091,264.748
+454,Alaskan Moose,128.573,0.251324,0.185305,10,225,baseline,False,1,128.573,128.573,128.573
+455,Iberian (Spanish) Fighting Bull,127.578,0.243561,0.159044,16,369,baseline,False,1,127.578,127.578,127.578
+456,Basking Shark,127.249,0.240974,1.41903,1,14,baseline,False,1,127.249,127.249,127.249
+457,Neovenator salerii,127.149,0.240188,1.17217,1,5,dinosaur,False,3.47337,441.635,365.473,533.669
+458,Cyldesdale (Draught Horse),125.464,0.226846,0.480692,1,21,baseline,False,1,125.464,125.464,125.464
+459,Cinnamon Black Bear,125.161,0.224427,0.70467,1,11,baseline,False,1,125.161,125.161,125.161
+460,Grey Wolf (Pack of 4),124.853,0.22197,0.418475,2,31,baseline,False,1,124.853,124.853,124.853
+461,Himalayan Black Bear,124.638,0.22024,0.45848,1,29,baseline,False,1,124.638,124.638,124.638
+462,Brown Bear,124.12,0.216078,0.498644,2,19,baseline,False,1,124.12,124.12,124.12
+463,Kodiak Bear (sow),123.684,0.212563,0.354891,2,34,baseline,False,1,123.684,123.684,123.684
+464,Eurasian Cave Lion,121.053,0.191059,0.239166,8,125,baseline,False,1,121.053,121.053,121.053
+465,Pygmy Sperm Whale,120.997,0.190593,0.401016,4,33,baseline,False,1,120.997,120.997,120.997
+466,Marshosaurus bicentesimus,120.268,0.184556,0.288161,5,66,dinosaur,False,3.47337,417.735,345.695,504.788
+467,Dire Wolf (pack of 2),119.392,0.177243,0.53849,2,17,baseline,False,1,119.392,119.392,119.392
+468,Giant Otter Romp (5 - 6),119.194,0.175583,0.478404,1,20,baseline,False,1,119.194,119.194,119.194
+469,Bengal Tigress,118.759,0.171923,0.21157,7,221,baseline,False,1,118.759,118.759,118.759
+470,Black Caiman,118.609,0.170661,0.160053,15,393,baseline,False,1,118.609,118.609,118.609
+471,Swordfish,118.394,0.16885,0.306144,6,70,baseline,False,1,118.394,118.394,118.394
+472,Xiphactinus audax,117.195,0.158668,0.501652,3,33,mesozoic-other,False,1.8637,218.416,198.692,240.098
+473,Elasmosaurus platyurus,116.925,0.156363,1.11964,1,7,mesozoic-other,False,1.8637,217.913,198.234,239.545
+474,European Bison (Wisent),116.783,0.155151,0.307435,8,67,baseline,False,1,116.783,116.783,116.783
+475,Shire Horse,115.651,0.145406,0.283558,4,68,baseline,False,1,115.651,115.651,115.651
+476,Mugger (Marsh) Crocodile,115.501,0.14411,0.163589,14,339,baseline,False,1,115.501,115.501,115.501
+477,Arabian Wolf (pack of 5/6),114.774,0.137799,0.802428,1,7,baseline,False,1,114.774,114.774,114.774
+478,Josephoartigasia monesi,113.382,0.125592,0.393299,3,32,baseline,False,1,113.382,113.382,113.382
+479,Gigantophis garstini,112.944,0.121723,0.332325,5,48,baseline,False,1,112.944,112.944,112.944
+480,Amphimachairodus kabir,112.461,0.117438,0.425295,3,32,baseline,False,1,112.461,112.461,112.461
+481,Giant Otter Romp (8),112.081,0.114053,0.966559,1,5,baseline,False,1,112.081,112.081,112.081
+482,Pelorovis spp.,111.662,0.110303,0.720818,1,14,baseline,False,1,111.662,111.662,111.662
+483,Grey Wolf (Pack of 6),111.557,0.109362,0.267048,3,103,baseline,False,1,111.557,111.557,111.557
+484,Grey Wolf (Pack of 4/5),111.255,0.106657,0.481144,2,18,baseline,False,1,111.255,111.255,111.255
+485,Arctic Wolf (Pack of 2),110.883,0.103309,0.602388,2,15,baseline,False,1,110.883,110.883,110.883
+486,Northwestern Wolf (pack of 6),110.783,0.102407,0.316117,1,50,baseline,False,1,110.783,110.783,110.783
+487,European Ice Age Leopard,110.729,0.101917,0.41148,2,52,baseline,False,1,110.729,110.729,110.729
+488,Natodomeri Lion,110.723,0.101861,0.331129,4,58,baseline,False,1,110.723,110.723,110.723
+489,Indochinese Tiger,110.483,0.0996901,0.374915,3,44,baseline,False,1,110.483,110.483,110.483
+490,Giant (Short-faced) Hyena (clan of 4),110.441,0.0993071,0.731016,1,7,baseline,False,1,110.441,110.441,110.441
+491,Dinocrocuta gigantea,110.098,0.0961979,0.171564,15,207,baseline,False,1,110.098,110.098,110.098
+492,Monolophosaurus jiangi,109.647,0.0920954,0.730228,1,9,dinosaur,False,3.47337,380.844,315.166,460.21
+493,Europasaurus holgeri,109.276,0.0887061,0.340112,4,52,dinosaur,False,3.47337,379.556,314.1,458.653
+494,Gryposuchus croizati,108.648,0.0829431,0.808954,2,13,baseline,False,1,108.648,108.648,108.648
+495,Bully Kuttas (3),108.404,0.0806905,0.519977,1,17,baseline,False,1,108.404,108.404,108.404
+496,Common Chimpanzee (troop of 15),108.111,0.0779858,0.591316,1,11,baseline,False,1,108.111,108.111,108.111
+497,Holmesina septentrionalis,107.61,0.0733398,0.641716,1,11,baseline,False,1,107.61,107.61,107.61
+498,Spotted Hyena (clan of 3),107.283,0.0703009,0.783323,1,6,baseline,False,1,107.283,107.283,107.283
+499,Siberian Tiger,105.913,0.0574476,0.148824,17,716,baseline,False,1,105.913,105.913,105.913
+500,Rhabdodon spp.,105.678,0.0552279,1.00468,1,4,dinosaur,False,3.47337,367.059,303.758,443.551
+501,Orkoraptor burkei,105.433,0.0529039,1.16431,1,4,dinosaur,False,3.47337,366.208,303.053,442.523
+502,Gojirasaurus quayi,104.79,0.0467889,1.02648,1,10,dinosaur,False,3.47337,363.974,301.205,439.824
+503,Archaeotherium mortoni,104.489,0.0439075,0.271091,6,69,baseline,False,1,104.489,104.489,104.489
+504,Velociraptor mongoliensis (pack of 12),104.197,0.041111,0.595524,1,11,dinosaur,False,3.47337,361.915,299.501,437.335
+505,Beluga,104.113,0.0403023,0.419885,2,29,baseline,False,1,104.113,104.113,104.113
+506,Trinil Tiger,103.885,0.0381123,0.64666,3,29,baseline,False,1,103.885,103.885,103.885
+507,Walrus (Bull),103.084,0.030374,0.646234,1,22,baseline,False,1,103.084,103.084,103.084
+508,Patagonian Panther,101.244,0.0123591,0.36819,4,45,baseline,False,1,101.244,101.244,101.244
+509,Marsupial Lion,100.72,0.00717458,0.175559,19,260,baseline,False,1,100.72,100.72,100.72
+510,Early Middle Pleistocene European Cave Lion,100.683,0.00680812,0.995745,1,5,baseline,False,1,100.683,100.683,100.683
+511,African Lion,100,0,0,30,817,baseline,False,1,100,100,100
+512,Armadillosuchus arrudai,99.8152,-0.00184925,1.1328,1,4,mesozoic-other,False,1.8637,186.025,169.226,204.492
+513,Collared Peccary (Javelina) (pack of 4),99.7775,-0.00222719,0.657428,1,10,baseline,False,1,99.7775,99.7775,99.7775
+514,Nile Crocodile (female),99.1064,-0.00897624,0.598565,1,15,baseline,False,1,99.1064,99.1064,99.1064
+515,Eastern Gorilla (coalition of 3),99.0825,-0.00921777,0.255032,4,88,baseline,False,1,99.0825,99.0825,99.0825
+516,Snow Leopard (mating pair),98.9042,-0.0110181,0.49079,1,23,baseline,False,1,98.9042,98.9042,98.9042
+517,Bull Shark,98.3803,-0.0163292,0.167292,18,349,baseline,False,1,98.3803,98.3803,98.3803
+518,Hatzegopteryx thambema,98.1118,-0.0190622,0.297841,6,63,mesozoic-other,False,1.8637,182.851,166.338,201.002
+519,Bengal Tiger,96.7563,-0.0329743,0.129336,31,851,baseline,False,1,96.7563,96.7563,96.7563
+520,Eremotherium spp.,96.4103,-0.0365577,1.0977,1,12,baseline,False,1,96.4103,96.4103,96.4103
+521,Eastern Gorilla (troop of 3 - 4),96.1655,-0.0390995,0.598643,1,12,baseline,False,1,96.1655,96.1655,96.1655
+522,Batrachotomus kupferzellensis,96.0017,-0.0408038,0.729183,2,12,mesozoic-other,False,1.8637,178.918,162.761,196.679
+523,Asiatic Lion,95.6812,-0.0441482,0.215485,7,162,baseline,False,1,95.6812,95.6812,95.6812
+524,Aucasaurus garridoi,94.9471,-0.0518498,0.91691,1,10,dinosaur,False,3.47337,329.786,272.913,398.511
+525,Dogo Argentino (pack of 3/4),92.4957,-0.0780082,0.661107,1,9,baseline,False,1,92.4957,92.4957,92.4957
+526,Grizzly Bear (sow),92.4802,-0.0781761,0.190325,9,189,baseline,False,1,92.4802,92.4802,92.4802
+527,Dire Wolf (pack of 3),92.1961,-0.0812521,0.416829,2,28,baseline,False,1,92.1961,92.1961,92.1961
+528,Saltwater Crocodile (cow),90.8233,-0.0962548,0.441163,3,37,baseline,False,1,90.8233,90.8233,90.8233
+529,Ussuri Brown Bear (sow),90.228,-0.102831,0.265676,4,62,baseline,False,1,90.228,90.228,90.228
+530,Himalayan Brown Bear,89.1008,-0.115402,0.435838,1,28,baseline,False,1,89.1008,89.1008,89.1008
+531,Proterosuchus spp.,89.0539,-0.115928,0.924286,1,5,mesozoic-other,False,1.8637,165.97,150.982,182.445
+532,Western Lowland Gorilla (male troop of 2),88.369,-0.123648,0.430241,1,22,baseline,False,1,88.369,88.369,88.369
+533,African Wild Dog (pack of 10),88.3395,-0.123983,0.294881,3,73,baseline,False,1,88.3395,88.3395,88.3395
+534,Chapalmalania altaefrontis,87.265,-0.136221,0.734306,1,8,baseline,False,1,87.265,87.265,87.265
+535,Cymbospondylus buchseri,87.1148,-0.137944,1.13573,1,5,mesozoic-other,False,1.8637,162.356,147.694,178.473
+536,Kaprosuchus saharicus,86.2622,-0.147778,0.400596,2,30,mesozoic-other,False,1.8637,160.767,146.249,176.726
+537,Belgian Blue,85.6046,-0.155431,0.323235,4,51,baseline,False,1,85.6046,85.6046,85.6046
+538,Cheetah (coalition of 4),84.9761,-0.1628,0.793645,1,6,baseline,False,1,84.9761,84.9761,84.9761
+539,Lioness,84.4382,-0.169151,0.172358,19,372,baseline,False,1,84.4382,84.4382,84.4382
+540,Quetzalcoatlus northropi,84.2124,-0.171828,0.252179,7,97,mesozoic-other,False,1.8637,156.946,142.773,172.526
+541,Spotted Hyenas (clan of 3),84.049,-0.17377,0.254527,4,85,baseline,False,1,84.049,84.049,84.049
+542,Pachycephalosaurus wyomingensis,83.5672,-0.179519,0.31548,5,57,dinosaur,False,3.47337,290.26,240.203,350.748
+543,Barren Ground Grizzly Bear,82.071,-0.197585,0.256362,2,70,baseline,False,1,82.071,82.071,82.071
+544,Trochosuchus acutus,81.4716,-0.204916,1.00479,1,4,baseline,True,1,81.4716,81.4716,81.4716
+545,Cave Hyena (clan of 2),79.5341,-0.228985,0.771182,1,9,baseline,False,1,79.5341,79.5341,79.5341
+546,Gallimimus bullatus,78.5135,-0.2419,1.40884,1,2,dinosaur,False,3.47337,272.706,225.677,329.536
+547,Bactrian Camel,77.9303,-0.249356,0.663163,1,10,baseline,False,1,77.9303,77.9303,77.9303
+548,Black Caiman (cow),77.6962,-0.252364,0.455913,2,30,baseline,False,1,77.6962,77.6962,77.6962
+549,Enhydriodon omoensis,77.3822,-0.256414,0.351833,6,48,baseline,False,1,77.3822,77.3822,77.3822
+550,Northwestern Wolf (pack of 2/3),77.0492,-0.260726,0.476778,1,19,baseline,False,1,77.0492,77.0492,77.0492
+551,Sumatran Tigress,76.8869,-0.262834,0.254583,6,144,baseline,False,1,76.8869,76.8869,76.8869
+552,Longdan Tiger,76.6085,-0.266463,0.506334,1,17,baseline,False,1,76.6085,76.6085,76.6085
+553,Brown Hyena (clan of 2),76.5371,-0.267395,0.631972,1,20,baseline,False,1,76.5371,76.5371,76.5371
+554,Dire Wolves (pack of 2),76.4387,-0.268681,0.305759,3,53,baseline,False,1,76.4387,76.4387,76.4387
+555,Bali Tigress,75.1648,-0.285488,0.263306,4,109,baseline,False,1,75.1648,75.1648,75.1648
+556,Leopard Seal,75.0967,-0.286393,0.202997,12,220,baseline,False,1,75.0967,75.0967,75.0967
+557,Tiger Shark (female),75.0615,-0.286862,0.96851,1,18,baseline,False,1,75.0615,75.0615,75.0615
+558,African (Cape) Buffalo (cow),74.8061,-0.290271,0.3259,2,45,baseline,False,1,74.8061,74.8061,74.8061
+559,Brontornis burmeisteri,74.7685,-0.290773,0.276569,7,85,baseline,False,1,74.7685,74.7685,74.7685
+560,Sri Lankan Sloth Bear,73.6316,-0.306096,0.260116,4,96,baseline,False,1,73.6316,73.6316,73.6316
+561,Gastornis gigantea (2),73.5795,-0.306803,0.826408,1,7,baseline,False,1,73.5795,73.5795,73.5795
+562,Caspian Tiger,72.8714,-0.316475,0.649408,2,37,baseline,False,1,72.8714,72.8714,72.8714
+563,Common Eland,72.2338,-0.325262,0.196117,7,160,baseline,False,1,72.2338,72.2338,72.2338
+564,Caucasian Shepherd Dogs (2),72.0052,-0.328431,0.771065,1,9,baseline,False,1,72.0052,72.0052,72.0052
+565,Kelenken guillermoi,71.6933,-0.332773,0.217117,11,145,baseline,False,1,71.6933,71.6933,71.6933
+566,Spotted Hyena (clan of 2),71.6426,-0.333481,0.329372,5,58,baseline,False,1,71.6426,71.6426,71.6426
+567,Tibetan Blue Bear,71.4526,-0.336136,0.313226,4,59,baseline,False,1,71.4526,71.4526,71.4526
+568,Dromedary (Arabian) Camel,71.1039,-0.341029,0.292433,6,67,baseline,False,1,71.1039,71.1039,71.1039
+569,Placerias hesternus,70.9814,-0.342752,0.875355,2,9,baseline,False,1,70.9814,70.9814,70.9814
+570,North American Jaguar,70.8371,-0.344788,0.725455,1,10,baseline,False,1,70.8371,70.8371,70.8371
+571,Cuban Crocodile,70.4534,-0.350219,0.214172,7,155,baseline,False,1,70.4534,70.4534,70.4534
+572,Siberian Tigress,69.2968,-0.366772,0.203723,5,168,baseline,False,1,69.2968,69.2968,69.2968
+573,Grevy's (Imperial) Zebra,69.226,-0.367794,0.340589,2,40,baseline,False,1,69.226,69.226,69.226
+574,Porbeagle Shark,68.9887,-0.371227,1.24437,1,6,baseline,False,1,68.9887,68.9887,68.9887
+575,Malayan Tigress,68.9646,-0.371577,1.1008,1,5,baseline,False,1,68.9646,68.9646,68.9646
+576,Epicyon haydeni,68.7952,-0.374036,0.166418,17,307,baseline,False,1,68.7952,68.7952,68.7952
+577,Asiatic Lioness,67.3856,-0.394739,0.19315,9,198,baseline,False,1,67.3856,67.3856,67.3856
+578,Pygmy Killer Whale,67.1345,-0.398471,0.340386,7,66,baseline,False,1,67.1345,67.1345,67.1345
+579,Ambulocetus natans,67.0052,-0.4004,0.837252,3,14,baseline,False,1,67.0052,67.0052,67.0052
+580,African Lioness,66.8024,-0.403431,0.288888,3,91,baseline,False,1,66.8024,66.8024,66.8024
+581,Megapiranha paranensis (shoal of 5),65.892,-0.417154,1.09159,1,7,baseline,False,1,65.892,65.892,65.892
+582,Muskox,65.692,-0.420193,0.208302,11,160,baseline,False,1,65.692,65.692,65.692
+583,Eastern Gorilla (coalition of 2),65.2765,-0.426538,0.216348,5,126,baseline,False,1,65.2765,65.2765,65.2765
+584,Nguni (Bull),64.9496,-0.431558,0.907763,1,5,baseline,False,1,64.9496,64.9496,64.9496
+585,African Forest Buffalo,64.7244,-0.435032,0.274556,7,69,baseline,False,1,64.7244,64.7244,64.7244
+586,Great Hammerhead Shark,64.6581,-0.436057,0.323417,7,74,baseline,False,1,64.6581,64.6581,64.6581
+587,Giant Freshwater Stingray (whipray),64.568,-0.437452,0.357018,5,46,baseline,False,1,64.568,64.568,64.568
+588,American Black Bear,63.4364,-0.455133,0.138098,26,488,baseline,False,1,63.4364,63.4364,63.4364
+589,Minmi paravertebra,63.2029,-0.458819,0.416225,2,27,dinosaur,False,3.47337,219.527,181.668,265.275
+590,Giant Warthog,63.132,-0.459943,0.565306,1,14,baseline,False,1,63.132,63.132,63.132
+591,Haida Gwaii Black Bear,63.0598,-0.461087,0.380708,4,39,baseline,False,1,63.0598,63.0598,63.0598
+592,Cheetah (coalition of 3),62.8054,-0.465129,0.404014,2,37,baseline,False,1,62.8054,62.8054,62.8054
+593,Ichthyosaurus somersetensis,62.7876,-0.465412,0.633267,2,13,mesozoic-other,False,1.8637,117.017,106.45,128.633
+594,Common Bottlenose Dolphin,62.3982,-0.471634,0.346444,6,60,baseline,False,1,62.3982,62.3982,62.3982
+595,Shasta Ground Sloth,62.3271,-0.472773,0.29908,5,59,baseline,False,1,62.3271,62.3271,62.3271
+596,Thalassocnus spp.,62.3005,-0.473201,0.567351,2,14,baseline,False,1,62.3005,62.3005,62.3005
+597,Jaguaress,62.1591,-0.475473,0.177984,8,260,baseline,False,1,62.1591,62.1591,62.1591
+598,Baikal Seal,62.1212,-0.476082,0.655346,3,21,baseline,False,1,62.1212,62.1212,62.1212
+599,Neanderthal (armed with a spear),62.0393,-0.477403,0.250421,4,74,baseline,False,1,62.0393,62.0393,62.0393
+600,Alano Espanols (2),61.8669,-0.480186,0.374711,2,43,baseline,False,1,61.8669,61.8669,61.8669
+601,Gigantopithecus blacki,61.5233,-0.485755,0.14932,16,309,baseline,False,1,61.5233,61.5233,61.5233
+602,Brown Hyena (clan of 3),61.5,-0.486133,0.347163,2,37,baseline,False,1,61.5,61.5,61.5
+603,Barylambda faberi,61.2831,-0.489665,1.4743,1,3,baseline,False,1,61.2831,61.2831,61.2831
+604,Asiatic Black Bear,61.2502,-0.490204,0.201201,13,202,baseline,False,1,61.2502,61.2502,61.2502
+605,Oceanic Whitetip Shark,61.185,-0.491269,0.48474,3,34,baseline,False,1,61.185,61.185,61.185
+606,Smilodon gracilis,60.8903,-0.496096,0.156274,26,447,baseline,False,1,60.8903,60.8903,60.8903
+607,Red Wolf (pack of 3),60.5773,-0.501251,0.542447,1,18,baseline,False,1,60.5773,60.5773,60.5773
+608,Anzu wyliei,60.4884,-0.502719,0.49551,1,18,dinosaur,False,3.47337,210.098,173.866,253.882
+609,Morelet's Crocodile,60.1417,-0.508467,0.343069,3,46,baseline,False,1,60.1417,60.1417,60.1417
+610,Dhole (Pack of 6),59.9573,-0.511538,0.677249,1,9,baseline,False,1,59.9573,59.9573,59.9573
+611,Protocyon troglodytes (pack of 2),59.8959,-0.512561,1.22414,1,3,baseline,False,1,59.8959,59.8959,59.8959
+612,Akita Inu (pack of 5),59.1821,-0.52455,0.673699,1,9,baseline,False,1,59.1821,59.1821,59.1821
+613,Grey Wolf (pack of 3),58.9335,-0.52876,0.362623,1,34,baseline,False,1,58.9335,58.9335,58.9335
+614,African Wild Dog (pack of 5),58.2681,-0.540115,0.359688,1,36,baseline,False,1,58.2681,58.2681,58.2681
+615,Barbourofelis morrisi,57.6651,-0.550518,0.317179,4,55,baseline,False,1,57.6651,57.6651,57.6651
+616,Caucasian Shepherd Dogs (5),57.5719,-0.552136,0.562501,1,13,baseline,False,1,57.5719,57.5719,57.5719
+617,Indarctos oregonensis,57.4714,-0.553883,0.738638,1,8,baseline,False,1,57.4714,57.4714,57.4714
+618,Sumatran Tiger,57.4013,-0.555103,0.184143,9,224,baseline,False,1,57.4013,57.4013,57.4013
+619,Archaeoindris fontoynonti (2),57.3705,-0.55564,0.791018,1,6,baseline,False,1,57.3705,57.3705,57.3705
+620,Western Lowland Gorilla,56.543,-0.570169,0.27629,5,92,baseline,False,1,56.543,56.543,56.543
+621,Przewalski's Horse,55.8952,-0.581692,0.471976,3,24,baseline,False,1,55.8952,55.8952,55.8952
+622,Salmon Shark,55.5758,-0.587422,0.322955,4,55,baseline,False,1,55.5758,55.5758,55.5758
+623,Jaguar,55.5208,-0.588412,0.141845,30,763,baseline,False,1,55.5208,55.5208,55.5208
+624,Black Marlin,55.3832,-0.590893,0.553056,2,34,baseline,False,1,55.3832,55.3832,55.3832
+625,Pygmy Hippopotamus,55.129,-0.595495,0.225115,8,127,baseline,False,1,55.129,55.129,55.129
+626,Titanis walleri,54.875,-0.600112,0.28354,5,70,baseline,False,1,54.875,54.875,54.875
+627,Siamese Crocodile,54.8465,-0.600633,0.46528,2,23,baseline,False,1,54.8465,54.8465,54.8465
+628,Grey Wolves (pack of 2),53.9812,-0.616535,0.20405,6,171,baseline,False,1,53.9812,53.9812,53.9812
+629,Pantanal Jaguar,53.6849,-0.622038,0.121617,44,1401,baseline,False,1,53.6849,53.6849,53.6849
+630,Clidastes propython,53.655,-0.622595,1.59336,2,14,mesozoic-other,False,1.8637,99.9967,90.9665,109.923
+631,Arizonasaurus babbitti,53.582,-0.623958,0.571763,1,13,mesozoic-other,False,1.8637,99.8606,90.8427,109.774
+632,Ussuri Wild Boar,52.8049,-0.638566,0.163587,19,344,baseline,False,1,52.8049,52.8049,52.8049
+633,Entelodon spp.,52.6325,-0.641836,1.06611,1,11,baseline,False,1,52.6325,52.6325,52.6325
+634,Brachycrus spp.,52.6004,-0.642446,1.39419,1,2,baseline,False,1,52.6004,52.6004,52.6004
+635,Ankalagon saurognathus,52.5883,-0.642677,0.659896,2,15,baseline,False,1,52.5883,52.5883,52.5883
+636,Gobi Bear,52.2795,-0.648567,0.315584,3,47,baseline,False,1,52.2795,52.2795,52.2795
+637,Longfin Mako Shark,52.1635,-0.650788,0.514299,2,21,baseline,False,1,52.1635,52.1635,52.1635
+638,Highland Cattle Bull,52.1151,-0.651716,0.882196,1,7,baseline,False,1,52.1151,52.1151,52.1151
+639,Moros intrepidus (pack of 2),52.0951,-0.652099,0.748661,1,6,dinosaur,False,3.47337,180.945,149.741,218.653
+640,Rottweilers (8),51.834,-0.657124,0.502596,1,24,baseline,False,1,51.834,51.834,51.834
+641,Dimetrodon grandis,51.49,-0.663783,0.267948,6,74,baseline,True,1,51.49,51.49,51.49
+642,Piraiba,51.4527,-0.664506,1.08925,1,6,baseline,False,1,51.4527,51.4527,51.4527
+643,Eastern Lowland Gorilla,51.4065,-0.665405,0.313312,4,64,baseline,False,1,51.4065,51.4065,51.4065
+644,California Sea Lion,51.3681,-0.666153,0.526003,2,22,baseline,False,1,51.3681,51.3681,51.3681
+645,Archaic Human (armed with spear),51.2863,-0.667746,1.1054,1,9,baseline,False,1,51.2863,51.2863,51.2863
+646,African Wild Dog (pack of 4),51.167,-0.670076,0.278521,5,79,baseline,False,1,51.167,51.167,51.167
+647,South American Sea Lion,50.9411,-0.6745,0.303643,5,56,baseline,False,1,50.9411,50.9411,50.9411
+648,Gemsbok,50.3954,-0.685271,0.283542,6,72,baseline,False,1,50.3954,50.3954,50.3954
+649,Ganges River Dolphin,50.3931,-0.685316,1.16365,1,6,baseline,False,1,50.3931,50.3931,50.3931
+650,Dogo Argentino (pack of 5),48.1692,-0.730449,0.393387,3,41,baseline,False,1,48.1692,48.1692,48.1692
+651,Central Asian Shepherd Dog (Alabai) (pack of 3),47.7676,-0.738823,0.488911,1,18,baseline,False,1,47.7676,47.7676,47.7676
+652,Olive Baboon (Troop of 5),47.7274,-0.739664,0.43913,1,22,baseline,False,1,47.7274,47.7274,47.7274
+653,Cave Hyena,47.445,-0.7456,0.315378,4,50,baseline,False,1,47.445,47.445,47.445
+654,(YNP) Cinnamon Black Bear,47.0338,-0.754303,0.649568,1,11,baseline,False,1,47.0338,47.0338,47.0338
+655,Neapolitan Mastiffs (2),46.546,-0.76473,0.52517,1,15,baseline,False,1,46.546,46.546,46.546
+656,Dhole (Pack of 4/5),46.2034,-0.772117,0.611123,1,15,baseline,False,1,46.2034,46.2034,46.2034
+657,Cape Mountain Zebra,46.1014,-0.774326,0.325321,3,53,baseline,False,1,46.1014,46.1014,46.1014
+658,Colossal Squid,45.43,-0.788998,0.271926,8,168,baseline,False,1,45.43,45.43,45.43
+659,Philippine (Mindoro) Crocodile,45.0676,-0.797006,0.799244,1,10,baseline,False,1,45.0676,45.0676,45.0676
+660,Risso's Dolphin,44.7547,-0.803974,0.73892,1,12,baseline,False,1,44.7547,44.7547,44.7547
+661,Giant Forest Hog,44.6119,-0.80717,0.2353,9,105,baseline,False,1,44.6119,44.6119,44.6119
+662,Sloth Bear,44.3258,-0.813603,0.148161,26,428,baseline,False,1,44.3258,44.3258,44.3258
+663,Asiatic Wild Ass (Onager),44.2628,-0.815025,1.15672,1,4,baseline,False,1,44.2628,44.2628,44.2628
+664,Mexican Wolf (pack of 3),44.0987,-0.81874,0.620987,1,10,baseline,False,1,44.0987,44.0987,44.0987
+665,Western Gorilla,43.806,-0.825399,0.154883,15,453,baseline,False,1,43.806,43.806,43.806
+666,Okapi,43.1398,-0.840724,0.320968,4,52,baseline,False,1,43.1398,43.1398,43.1398
+667,Smalltooth Sawfish,43.0968,-0.841721,0.960393,2,7,baseline,False,1,43.0968,43.0968,43.0968
+668,Cantabrian Brown Bear,42.9389,-0.845391,0.434386,2,25,baseline,False,1,42.9389,42.9389,42.9389
+669,Giant Eland,42.8154,-0.848273,0.191111,10,194,baseline,False,1,42.8154,42.8154,42.8154
+670,Dhole (Pack of 5),42.8032,-0.848556,0.385406,1,30,baseline,False,1,42.8032,42.8032,42.8032
+671,Dogo Argentino (pack of 6-8),42.7756,-0.849203,0.493181,1,19,baseline,False,1,42.7756,42.7756,42.7756
+672,Collared Peccary (Javelina) (pack of 6),42.7323,-0.850215,0.696378,1,8,baseline,False,1,42.7323,42.7323,42.7323
+673,Neanderthal (with spear),42.4973,-0.855729,0.617389,1,11,baseline,False,1,42.4973,42.4973,42.4973
+674,Roosevelt Elk,42.1787,-0.863254,0.362355,3,41,baseline,False,1,42.1787,42.1787,42.1787
+675,Northwestern Wolf (pack of 7),41.8583,-0.870879,0.859626,1,9,baseline,False,1,41.8583,41.8583,41.8583
+676,Dhole (Pack of 3/4),41.7157,-0.874293,0.53539,1,15,baseline,False,1,41.7157,41.7157,41.7157
+677,Tibetan Mastiff (pack of 5),41.5244,-0.878888,0.644663,1,18,baseline,False,1,41.5244,41.5244,41.5244
+678,Onchopristis numida,41.2299,-0.886007,1.6666,1,2,mesozoic-other,False,1.8637,76.8401,69.901,84.4679
+679,Timurlengia euotica,40.8712,-0.894744,1.27937,1,4,dinosaur,False,3.47337,141.961,117.479,171.544
+680,White Sturgeon,40.6813,-0.899403,1.23735,1,5,baseline,False,1,40.6813,40.6813,40.6813
+681,Spotted Hyenas (clan of 2),40.1637,-0.912206,0.238214,1,94,baseline,False,1,40.1637,40.1637,40.1637
+682,Kolponomos spp.,40.0298,-0.915546,0.298396,8,57,baseline,False,1,40.0298,40.0298,40.0298
+683,Central Asian Shepherd Dog (Alabai) (pack of 6),40.0119,-0.915994,0.535537,1,16,baseline,False,1,40.0119,40.0119,40.0119
+684,Albanosmilus jourdani,39.9937,-0.916449,0.769304,1,7,baseline,False,1,39.9937,39.9937,39.9937
+685,Bali Tiger,39.6773,-0.924391,0.276231,4,69,baseline,False,1,39.6773,39.6773,39.6773
+686,Mexican Jaguar,38.6142,-0.951551,0.170904,13,332,baseline,False,1,38.6142,38.6142,38.6142
+687,Dinofelis piveteaui,38.3252,-0.959064,0.46885,2,20,baseline,False,1,38.3252,38.3252,38.3252
+688,O'Halloran Hounds (2),37.968,-0.968426,1.21103,1,3,baseline,False,1,37.968,37.968,37.968
+689,Ussuri Black Bear,37.8691,-0.971036,0.393855,3,47,baseline,False,1,37.8691,37.8691,37.8691
+690,Sri Lankan Leopard,37.5255,-0.98015,0.206094,5,203,baseline,False,1,37.5255,37.5255,37.5255
+691,Syrian Brown Bear (sow),37.3061,-0.986013,0.543478,1,16,baseline,False,1,37.3061,37.3061,37.3061
+692,American Black Bear (sow),36.2073,-1.01591,0.28566,5,91,baseline,False,1,36.2073,36.2073,36.2073
+693,Zuniceratops christopheri,36.1397,-1.01778,0.260877,4,82,dinosaur,False,3.47337,125.526,103.879,151.685
+694,Common Chimpanzee (troop of 6),35.7649,-1.0282,0.491649,1,17,baseline,False,1,35.7649,35.7649,35.7649
+695,Northwestern Wolf (pack of 3),35.1841,-1.04458,0.603646,1,14,baseline,False,1,35.1841,35.1841,35.1841
+696,Giant (Short-faced) Hyena (clan of 2),35.0941,-1.04714,0.46454,3,25,baseline,False,1,35.0941,35.0941,35.0941
+697,Leopard,35.0621,-1.04805,0.130094,29,1327,baseline,False,1,35.0621,35.0621,35.0621
+698,Cougar,35.0579,-1.04817,0.131275,52,1495,baseline,False,1,35.0579,35.0579,35.0579
+699,Percrocuta spp.,35.0086,-1.04958,0.975892,1,3,baseline,False,1,35.0086,35.0086,35.0086
+700,Silvertip Shark,34.8171,-1.05506,0.91427,2,17,baseline,False,1,34.8171,34.8171,34.8171
+701,Deinonychus antirrhopus,34.6198,-1.06074,0.142713,27,501,dinosaur,False,3.47337,120.247,99.5101,145.306
+702,Grey Wolf (Pack of 2),34.3398,-1.06887,0.283572,2,58,baseline,False,1,34.3398,34.3398,34.3398
+703,Pleistocene Cougar,34.1417,-1.07465,0.44439,1,25,baseline,False,1,34.1417,34.1417,34.1417
+704,Tule Elk,32.9543,-1.11005,0.365953,5,38,baseline,False,1,32.9543,32.9543,32.9543
+705,Tibetan Mastiff (pack of 3),32.6509,-1.1193,0.580392,1,12,baseline,False,1,32.6509,32.6509,32.6509
+706,Dogo Argentino (pack of 3),32.2658,-1.13116,0.358275,2,35,baseline,False,1,32.2658,32.2658,32.2658
+707,Indochinese Leopard,32.2601,-1.13134,0.603036,1,14,baseline,False,1,32.2601,32.2601,32.2601
+708,Thylacosmilus atrox,32.1684,-1.13419,0.312971,6,62,baseline,False,1,32.1684,32.1684,32.1684
+709,Sable Antelope,31.9765,-1.14017,0.383086,2,31,baseline,False,1,31.9765,31.9765,31.9765
+710,Takin,31.5438,-1.15379,1.23184,1,3,baseline,False,1,31.5438,31.5438,31.5438
+711,Leopard (male),31.2877,-1.16194,0.421486,1,29,baseline,False,1,31.2877,31.2877,31.2877
+712,Kiang,31.2218,-1.16405,0.348557,4,47,baseline,False,1,31.2218,31.2218,31.2218
+713,Wild Horse,31.1605,-1.16602,0.192239,9,178,baseline,False,1,31.1605,31.1605,31.1605
+714,Secodontosaurus obtusidens,31.1231,-1.16722,1.41947,1,2,baseline,True,1,31.1231,31.1231,31.1231
+715,Phorusrhacos longissimus,31.1044,-1.16782,0.376692,3,31,baseline,False,1,31.1044,31.1044,31.1044
+716,Tamaraw (Mindoro Pygmy Buffalo),31.0928,-1.16819,1.2439,1,3,baseline,False,1,31.0928,31.0928,31.0928
+717,Megalictis ferox,30.8375,-1.17644,0.241607,9,105,baseline,False,1,30.8375,30.8375,30.8375
+718,Striped Hyena (clan of 3),30.8219,-1.17694,0.797461,1,5,baseline,False,1,30.8219,30.8219,30.8219
+719,False Gharial,30.6648,-1.18206,0.239346,9,115,baseline,False,1,30.6648,30.6648,30.6648
+720,Giant (Short-faced) Hyena,30.4757,-1.18824,0.189087,12,205,baseline,False,1,30.4757,30.4757,30.4757
+721,Mountain Zebra,30.323,-1.19326,0.347551,4,54,baseline,False,1,30.323,30.323,30.323
+722,Florida Panther,29.8443,-1.20918,0.225065,9,196,baseline,False,1,29.8443,29.8443,29.8443
+723,African Leopard,29.798,-1.21073,0.261854,4,94,baseline,False,1,29.798,29.798,29.798
+724,Rottweilers (4),29.6528,-1.21561,0.564225,1,13,baseline,False,1,29.6528,29.6528,29.6528
+725,Australian Freshwater Crocodile,29.4741,-1.22166,0.285171,6,73,baseline,False,1,29.4741,29.4741,29.4741
+726,Persian Leopard,29.462,-1.22207,0.208515,14,310,baseline,False,1,29.462,29.462,29.462
+727,Proterosuchus fergusi,29.3037,-1.22746,1.22412,1,3,mesozoic-other,False,1.8637,54.6132,49.6814,60.0346
+728,African Wild Dog (pack of 3),29.2809,-1.22824,0.267807,4,92,baseline,False,1,29.2809,29.2809,29.2809
+729,Indo-Pacific Bottlenose Dolphin,29.0269,-1.23695,0.698625,3,29,baseline,False,1,29.0269,29.0269,29.0269
+730,Coyote (pack of 4/5),28.9758,-1.23871,0.318361,2,47,baseline,False,1,28.9758,28.9758,28.9758
+731,European Elk,28.798,-1.24486,0.671858,2,34,baseline,False,1,28.798,28.798,28.798
+732,Amur Leopard,28.488,-1.25569,0.235522,6,150,baseline,False,1,28.488,28.488,28.488
+733,Eurasian Wolf (pack of 2),28.4548,-1.25685,0.861284,1,5,baseline,False,1,28.4548,28.4548,28.4548
+734,Mountain Tapir,28.3892,-1.25916,0.530676,2,15,baseline,False,1,28.3892,28.3892,28.3892
+735,North American Cougar (female),28.0673,-1.27056,0.564343,1,24,baseline,False,1,28.0673,28.0673,28.0673
+736,Running Hyena,27.7451,-1.28211,0.897855,1,8,baseline,False,1,27.7451,27.7451,27.7451
+737,Dire Wolf (Eastern subspecies),27.7225,-1.28292,0.298477,1,58,baseline,False,1,27.7225,27.7225,27.7225
+738,Sambar Deer,27.6725,-1.28473,0.365002,5,43,baseline,False,1,27.6725,27.6725,27.6725
+739,Spectacled Bear,27.5404,-1.28952,0.218784,7,138,baseline,False,1,27.5404,27.5404,27.5404
+740,Eastern Gorilla,27.4269,-1.29365,0.133729,25,618,baseline,False,1,27.4269,27.4269,27.4269
+741,Dogo Argentinos (2),26.9447,-1.31138,0.269661,4,93,baseline,False,1,26.9447,26.9447,26.9447
+742,Ohmdenosaurus liasicus,26.8689,-1.3142,0.675492,3,34,dinosaur,False,3.47337,93.3256,77.2311,112.774
+743,Owen's Panther,26.6269,-1.32325,0.454555,2,25,baseline,False,1,26.6269,26.6269,26.6269
+744,Kangals (3),25.9912,-1.34741,0.274405,4,85,baseline,False,1,25.9912,25.9912,25.9912
+745,Mexican Jaguaress,25.985,-1.34765,0.289454,3,78,baseline,False,1,25.985,25.985,25.985
+746,Mountain Gorilla,25.8774,-1.3518,0.19623,12,221,baseline,False,1,25.8774,25.8774,25.8774
+747,Komodo Dragon,25.5796,-1.36338,0.128824,53,1312,baseline,False,1,25.5796,25.5796,25.5796
+748,Sandbar Shark,25.4731,-1.36755,0.589616,1,12,baseline,False,1,25.4731,25.4731,25.4731
+749,Sand Tiger (Grey Nurse) Shark,25.4598,-1.36807,1.33272,1,5,baseline,False,1,25.4598,25.4598,25.4598
+750,Cheetah (coalition of 5),25.2556,-1.37612,0.281937,5,83,baseline,False,1,25.2556,25.2556,25.2556
+751,Nilgai,24.9902,-1.38669,0.443229,2,25,baseline,False,1,24.9902,24.9902,24.9902
+752,Plains (Common) Zebra,24.7533,-1.39621,0.317518,7,68,baseline,False,1,24.7533,24.7533,24.7533
+753,European Cave Bear (sow),24.621,-1.40157,0.801524,1,12,baseline,False,1,24.621,24.621,24.621
+754,Cougar (female),24.5081,-1.40617,0.281026,4,102,baseline,False,1,24.5081,24.5081,24.5081
+755,Brazilian Dogo (pack of 4),24.2471,-1.41687,0.532948,1,15,baseline,False,1,24.2471,24.2471,24.2471
+756,Koolasuchus cleelandi,24.2462,-1.41691,1.02989,1,17,mesozoic-other,False,1.8637,45.1876,41.1069,49.6733
+757,Spotted Hyena (female),24.1797,-1.41966,0.419743,2,46,baseline,False,1,24.1797,24.1797,24.1797
+758,Asiatic Black Bear (sow),23.9235,-1.43031,0.372978,2,38,baseline,False,1,23.9235,23.9235,23.9235
+759,Bullockornis planei,23.7215,-1.43879,0.840501,1,8,baseline,False,1,23.7215,23.7215,23.7215
+760,Tibetan Mastiffs (2),23.6004,-1.44391,0.325829,3,44,baseline,False,1,23.6004,23.6004,23.6004
+761,Macrauchenia patagonica,23.3614,-1.45409,0.785695,3,22,baseline,False,1,23.3614,23.3614,23.3614
+762,Ysengrinia spp.,23.2679,-1.45809,0.656292,1,10,baseline,False,1,23.2679,23.2679,23.2679
+763,American Mammoth Jackstock (Donkey),23.2679,-1.45809,0.656292,1,10,baseline,False,1,23.2679,23.2679,23.2679
+764,Western Camel,23.1963,-1.46118,1.12219,1,6,baseline,False,1,23.1963,23.1963,23.1963
+765,Spotted Hyenas (2),23.1666,-1.46246,0.537476,1,14,baseline,False,1,23.1666,23.1666,23.1666
+766,Collared Peccary (Javelina) (squadron of 6),23.0806,-1.46618,0.83717,1,6,baseline,False,1,23.0806,23.0806,23.0806
+767,German Shepherds (3),23.0484,-1.46757,0.510994,1,16,baseline,False,1,23.0484,23.0484,23.0484
+768,Spotted Hyena (male),22.43,-1.49477,0.412404,1,22,baseline,False,1,22.43,22.43,22.43
+769,Green Anaconda,22.3516,-1.49827,0.152834,24,467,baseline,False,1,22.3516,22.3516,22.3516
+770,Dogo Argentino (pack of 6),22.3048,-1.50037,0.670181,1,16,baseline,False,1,22.3048,22.3048,22.3048
+771,Largetooth Sawfish,22.2359,-1.50346,0.32166,6,65,baseline,False,1,22.2359,22.2359,22.2359
+772,Gastornis gigantea,21.7358,-1.52621,1.02828,1,6,baseline,False,1,21.7358,21.7358,21.7358
+773,Black Wildebeest (White-tailed Gnu),21.2241,-1.55003,0.356979,3,39,baseline,False,1,21.2241,21.2241,21.2241
+774,Boerboels (2),20.8513,-1.56775,0.570536,1,12,baseline,False,1,20.8513,20.8513,20.8513
+775,Chacma Baboon (troop of 6),20.8451,-1.56805,0.672559,1,10,baseline,False,1,20.8451,20.8451,20.8451
+776,Wild Boar,20.6452,-1.57769,0.196083,19,219,baseline,False,1,20.6452,20.6452,20.6452
+777,Kermode Bear,20.4168,-1.58881,0.625679,1,18,baseline,False,1,20.4168,20.4168,20.4168
+778,Homo erectus (armed with spear),20.1496,-1.60199,0.729708,1,10,baseline,False,1,20.1496,20.1496,20.1496
+779,American Cheetah,20.1345,-1.60274,0.254893,5,86,baseline,False,1,20.1345,20.1345,20.1345
+780,Dire Wolf,20.0567,-1.60661,0.152021,25,587,baseline,False,1,20.0567,20.0567,20.0567
+781,Amazon (Boto) River Dolphin,19.9924,-1.60982,0.348127,3,46,baseline,False,1,19.9924,19.9924,19.9924
+782,Common Chimpanzee (troop of 5),19.9862,-1.61013,0.326087,3,61,baseline,False,1,19.9862,19.9862,19.9862
+783,Burrunan Dolphin,19.8732,-1.6158,1.35483,1,6,baseline,False,1,19.8732,19.8732,19.8732
+784,African Wild Dog (pack of 8 - 10),19.8432,-1.61731,0.555178,1,22,baseline,False,1,19.8432,19.8432,19.8432
+785,Bongo,19.8019,-1.61939,0.340619,4,48,baseline,False,1,19.8019,19.8019,19.8019
+786,Simocyon batalleri,19.7607,-1.62148,0.915705,1,5,baseline,False,1,19.7607,19.7607,19.7607
+787,Giant Cheetah,19.6519,-1.627,0.187065,12,230,baseline,False,1,19.6519,19.6519,19.6519
+788,Giant Teratorn (flock of 3),19.6075,-1.62926,0.831727,1,5,baseline,False,1,19.6075,19.6075,19.6075
+789,Atlantic Goliath Grouper Fish,19.4674,-1.63643,0.852835,2,9,baseline,False,1,19.4674,19.4674,19.4674
+790,Nimravus brachyops,19.4267,-1.63852,1.08411,1,7,baseline,False,1,19.4267,19.4267,19.4267
+791,Suskityrannus hazelae,19.4018,-1.6398,0.643721,1,11,dinosaur,False,3.47337,67.3896,55.7679,81.4331
+792,Shiras' Moose,19.4015,-1.63982,0.493043,2,24,baseline,False,1,19.4015,19.4015,19.4015
+793,Spotted Hyena,19.2843,-1.64588,0.133968,40,1192,baseline,False,1,19.2843,19.2843,19.2843
+794,Homo floresiensis (group of 4) (armed with clubs),19.2197,-1.64924,0.770016,1,7,baseline,False,1,19.2197,19.2197,19.2197
+795,Rocky Mountain Elk,19.0668,-1.65722,0.381998,5,39,baseline,False,1,19.0668,19.0668,19.0668
+796,Auvergne Bear,18.9094,-1.66551,0.437438,4,25,baseline,False,1,18.9094,18.9094,18.9094
+797,Presa Canarios (2),18.9017,-1.66592,0.490331,1,18,baseline,False,1,18.9017,18.9017,18.9017
+798,Indian Gharial (Gavial),18.6835,-1.67753,0.251184,9,122,baseline,False,1,18.6835,18.6835,18.6835
+799,Caucasian Shepherd Dogs (6),18.6086,-1.68155,0.689579,1,13,baseline,False,1,18.6086,18.6086,18.6086
+800,Greater Kudu,18.5388,-1.6853,0.334827,6,63,baseline,False,1,18.5388,18.5388,18.5388
+801,Giant Otter Romp (3),18.4987,-1.68747,0.481372,1,19,baseline,False,1,18.4987,18.4987,18.4987
+802,Hyneria lindae,18.464,-1.68935,0.615959,2,21,baseline,False,1,18.464,18.464,18.464
+803,Neanderthal (unarmed),18.3672,-1.69461,1.08514,1,6,baseline,False,1,18.3672,18.3672,18.3672
+804,Argali (Mountain Sheep),18.3403,-1.69607,0.557855,2,17,baseline,False,1,18.3403,18.3403,18.3403
+805,Common Chimpanzee (troop of 3),17.9782,-1.71601,0.259214,5,92,baseline,False,1,17.9782,17.9782,17.9782
+806,Sun Bear,17.9457,-1.71782,0.143715,40,691,baseline,False,1,17.9457,17.9457,17.9457
+807,Alano Espanol,17.633,-1.7354,1.08796,1,4,baseline,False,1,17.633,17.633,17.633
+808,Tosa Inus (3),17.6257,-1.73581,0.642384,1,11,baseline,False,1,17.6257,17.6257,17.6257
+809,Thylacine (hunting pair),17.5749,-1.7387,0.842905,1,7,baseline,False,1,17.5749,17.5749,17.5749
+810,African Golden Wolves (pack of 4),17.2568,-1.75696,0.753119,1,7,baseline,False,1,17.2568,17.2568,17.2568
+811,Blikanasaurus cromptoni,17.1477,-1.7633,1.08858,1,7,dinosaur,False,3.47337,59.5603,49.2888,71.9722
+812,Brazilian she-Puma,17.0323,-1.77006,0.39901,2,39,baseline,False,1,17.0323,17.0323,17.0323
+813,Humans (2),16.9912,-1.77248,0.38579,2,33,baseline,False,1,16.9912,16.9912,16.9912
+814,Indian Boar,16.9889,-1.77261,0.21773,11,142,baseline,False,1,16.9889,16.9889,16.9889
+815,Coyote (pack of 4),16.9394,-1.77553,0.39517,1,30,baseline,False,1,16.9394,16.9394,16.9394
+816,Cheetah (coalition of 3/4),16.9235,-1.77647,0.395961,1,28,baseline,False,1,16.9235,16.9235,16.9235
+817,Livestock Guardian Donkey,16.8844,-1.77878,0.300367,3,68,baseline,False,1,16.8844,16.8844,16.8844
+818,African Rock Python,16.8829,-1.77887,0.20442,15,250,baseline,False,1,16.8829,16.8829,16.8829
+819,Plionarctos edensis,16.3261,-1.81241,1.09195,1,7,baseline,False,1,16.3261,16.3261,16.3261
+820,Spotted Eagle Ray,16.2299,-1.81832,0.507316,3,27,baseline,False,1,16.2299,16.2299,16.2299
+821,Haast's Eagles (2),16.2007,-1.82012,0.420225,2,24,baseline,False,1,16.2007,16.2007,16.2007
+822,African Wild Ass,15.9323,-1.83682,0.485364,2,21,baseline,False,1,15.9323,15.9323,15.9323
+823,Red Deer,15.8431,-1.84244,0.249894,9,103,baseline,False,1,15.8431,15.8431,15.8431
+824,English Mastiffs (2/3),15.7646,-1.8474,0.482014,1,32,baseline,False,1,15.7646,15.7646,15.7646
+825,Collared Peccary (Javelina) (pack of 3),15.6988,-1.85159,0.704012,1,8,baseline,False,1,15.6988,15.6988,15.6988
+826,Kangals (2),15.6451,-1.85501,0.357599,2,41,baseline,False,1,15.6451,15.6451,15.6451
+827,Cyprus Dwarf Elephant,15.501,-1.86427,0.320464,4,50,baseline,False,1,15.501,15.501,15.501
+828,Mountain Anoa,15.419,-1.86957,1.16438,1,5,baseline,False,1,15.419,15.419,15.419
+829,White-lipped Peccary (group of 2/3),15.3914,-1.87136,0.534564,1,20,baseline,False,1,15.3914,15.3914,15.3914
+830,Leopardess,15.3064,-1.8769,0.252842,6,118,baseline,False,1,15.3064,15.3064,15.3064
+831,Himalayan Wolf (pack of 2),15.2418,-1.88113,0.503786,1,15,baseline,False,1,15.2418,15.2418,15.2418
+832,Blue (Common) Wildebeest,15.2214,-1.88247,0.247394,10,121,baseline,False,1,15.2214,15.2214,15.2214
+833,Chacma Baboon (troop of 5),15.1678,-1.886,0.4177,3,32,baseline,False,1,15.1678,15.1678,15.1678
+834,Synoplotherium vorax,15.1149,-1.88949,1.11644,1,5,baseline,False,1,15.1149,15.1149,15.1149
+835,Giant Squid,15.0763,-1.89205,0.33092,8,114,baseline,False,1,15.0763,15.0763,15.0763
+836,Black Mouth Curs (2),15.0689,-1.89254,0.710867,1,12,baseline,False,1,15.0689,15.0689,15.0689
+837,American Foxhound (pack of 4),15.011,-1.89639,0.699274,1,10,baseline,False,1,15.011,15.011,15.011
+838,Giant Panda,14.925,-1.90213,0.18192,13,277,baseline,False,1,14.925,14.925,14.925
+839,Elk,14.887,-1.90468,0.527956,1,23,baseline,False,1,14.887,14.887,14.887
+840,Roan Antelope,14.837,-1.90805,1.16323,1,4,baseline,False,1,14.837,14.837,14.837
+841,Komodo Dragon (male),14.7806,-1.91186,0.652096,1,14,baseline,False,1,14.7806,14.7806,14.7806
+842,American Bulldogs (pack of 3),14.5239,-1.92938,0.635237,1,11,baseline,False,1,14.5239,14.5239,14.5239
+843,Lappet-faced Vulture (venue of 3),14.4283,-1.93598,0.50901,2,19,baseline,False,1,14.4283,14.4283,14.4283
+844,Dogo Argentino (pack of 2),14.2896,-1.94564,0.546996,2,31,baseline,False,1,14.2896,14.2896,14.2896
+845,Macroeuphractus outesi,14.2842,-1.94602,0.831538,1,10,baseline,False,1,14.2842,14.2842,14.2842
+846,Glacier Bear,14.1989,-1.952,0.557543,2,29,baseline,False,1,14.1989,14.1989,14.1989
+847,Daphoenodon spp.,14.0797,-1.96043,1.08692,1,6,baseline,False,1,14.0797,14.0797,14.0797
+848,Desert Warthog,14.0458,-1.96284,0.535392,1,20,baseline,False,1,14.0458,14.0458,14.0458
+849,Velociraptor mongoliensis (pack of 4),14.0257,-1.96428,0.611987,2,16,dinosaur,False,3.47337,48.7164,40.315,58.8686
+850,Neanderthal (both unarmed),13.9486,-1.96979,0.472579,1,25,baseline,False,1,13.9486,13.9486,13.9486
+851,White-lipped Peccary (group of 5),13.9123,-1.9724,0.841102,1,5,baseline,False,1,13.9123,13.9123,13.9123
+852,Giant Trevally,13.6974,-1.98796,0.63204,2,16,baseline,False,1,13.6974,13.6974,13.6974
+853,Dhole (Pack of 4),13.6323,-1.99273,0.377618,1,31,baseline,False,1,13.6323,13.6323,13.6323
+854,Fila Brasileiro (Pack of 3),13.6262,-1.99317,0.549931,1,19,baseline,False,1,13.6262,13.6262,13.6262
+855,Ursavus elmensis,13.5544,-1.99846,0.606839,3,12,baseline,False,1,13.5544,13.5544,13.5544
+856,Common Warthog (sow),13.5317,-2.00014,0.859636,1,8,baseline,False,1,13.5317,13.5317,13.5317
+857,Indian Leopard,13.4808,-2.0039,0.267422,4,110,baseline,False,1,13.4808,13.4808,13.4808
+858,Common Chimpanzee (troop of 2),13.4739,-2.00442,0.255374,4,87,baseline,False,1,13.4739,13.4739,13.4739
+859,Indian Wolf (pack of 3/4),13.4418,-2.0068,0.466355,1,25,baseline,False,1,13.4418,13.4418,13.4418
+860,Velociraptor mongoliensis (pack of 3),13.3278,-2.01531,0.621628,1,12,dinosaur,False,3.47337,46.2924,38.309,55.9394
+861,Snow Leopard,13.2556,-2.02075,0.141786,38,1034,baseline,False,1,13.2556,13.2556,13.2556
+862,Iberian Wolf,13.2298,-2.0227,0.871973,2,10,baseline,False,1,13.2298,13.2298,13.2298
+863,Giant Short-faced Kangaroo,13.1039,-2.03226,0.482351,2,22,baseline,False,1,13.1039,13.1039,13.1039
+864,Giant Teratorn (flock of 2),13.0781,-2.03423,0.789518,1,6,baseline,False,1,13.0781,13.0781,13.0781
+865,Giant Otter Romp (2/3),12.9725,-2.04234,0.688506,1,11,baseline,False,1,12.9725,12.9725,12.9725
+866,Eurasian Wolf,12.8977,-2.04812,0.264686,5,124,baseline,False,1,12.8977,12.8977,12.8977
+867,Boverisuchus magnifrons,12.8904,-2.04869,1.1346,1,5,baseline,False,1,12.8904,12.8904,12.8904
+868,Cowtail Stingray,12.8502,-2.05181,1.05445,1,10,baseline,False,1,12.8502,12.8502,12.8502
+869,Plains (Common) Zebra (Stallion),12.8018,-2.05559,0.832428,1,10,baseline,False,1,12.8018,12.8018,12.8018
+870,Eastern Gorilla (female),12.7898,-2.05653,0.234225,6,134,baseline,False,1,12.7898,12.7898,12.7898
+871,Tosa Inus (2),12.7775,-2.05749,0.59329,1,12,baseline,False,1,12.7775,12.7775,12.7775
+872,Dhole (Pack of 6/7),12.6844,-2.06479,0.595966,1,12,baseline,False,1,12.6844,12.6844,12.6844
+873,Tundra Wolf,12.683,-2.06491,0.499792,2,23,baseline,False,1,12.683,12.683,12.683
+874,Liliensternus liliensterni,12.601,-2.07139,0.714037,2,11,dinosaur,False,3.47337,43.7679,36.2199,52.8888
+875,Cheetah (coalition of 2),12.5038,-2.07914,0.242959,8,164,baseline,False,1,12.5038,12.5038,12.5038
+876,African Wild Dog (pack of 2),12.3442,-2.09198,0.224285,8,134,baseline,False,1,12.3442,12.3442,12.3442
+877,Indian Crested Porcupine,12.1645,-2.10665,0.63482,2,13,baseline,False,1,12.1645,12.1645,12.1645
+878,Rottweilers (3),12.1114,-2.11103,0.439919,2,24,baseline,False,1,12.1114,12.1114,12.1114
+879,Dhole (Pack of 3),11.8412,-2.13359,0.669919,1,12,baseline,False,1,11.8412,11.8412,11.8412
+880,Borophagus parvus,11.8063,-2.13654,0.579521,2,21,baseline,False,1,11.8063,11.8063,11.8063
+881,Hyaenodon horridus,11.7875,-2.13813,0.46159,3,23,baseline,False,1,11.7875,11.7875,11.7875
+882,Mandrill (coalition of 2),11.7719,-2.13946,0.478153,1,22,baseline,False,1,11.7719,11.7719,11.7719
+883,Galgo Patagonico,11.763,-2.14021,0.416225,2,33,baseline,False,1,11.763,11.763,11.763
+884,Red River Hog,11.6501,-2.14986,0.479719,3,21,baseline,False,1,11.6501,11.6501,11.6501
+885,Asiatic Cheetah (coalition of 3 - 4),11.6016,-2.15403,0.507128,1,19,baseline,False,1,11.6016,11.6016,11.6016
+886,Reticulated Python,11.4358,-2.16842,0.165224,18,357,baseline,False,1,11.4358,11.4358,11.4358
+887,Bush Dog (pack of 8),11.3684,-2.17433,0.421089,1,44,baseline,False,1,11.3684,11.3684,11.3684
+888,Common Warthog,11.344,-2.17648,0.206504,17,205,baseline,False,1,11.344,11.344,11.344
+889,Clouded Leopardess,11.3046,-2.17996,0.645307,1,29,baseline,False,1,11.3046,11.3046,11.3046
+890,Arabian Leopard,11.2864,-2.18158,0.248255,5,123,baseline,False,1,11.2864,11.2864,11.2864
+891,Goliath Tigerfish,11.1298,-2.19554,0.253719,12,155,baseline,False,1,11.1298,11.1298,11.1298
+892,Dromaeosauroides bornholmensis,11.1262,-2.19587,1.21168,1,12,dinosaur,False,3.47337,38.6454,31.9808,46.6988
+893,Kangals (5),11.0335,-2.20423,0.654136,1,20,baseline,False,1,11.0335,11.0335,11.0335
+894,Brown Hyena,10.9694,-2.21006,0.172839,20,359,baseline,False,1,10.9694,10.9694,10.9694
+895,Northwestern Wolf,10.944,-2.21238,0.15291,35,748,baseline,False,1,10.944,10.944,10.944
+896,Yacare Caiman,10.871,-2.21907,0.23932,8,141,baseline,False,1,10.871,10.871,10.871
+897,Grey Wolf,10.8444,-2.22152,0.143699,29,1041,baseline,False,1,10.8444,10.8444,10.8444
+898,Ganges Shark,10.642,-2.24036,0.482019,4,27,baseline,False,1,10.642,10.642,10.642
+899,Lappet-faced Vultures (venue of 5),10.5372,-2.25025,0.943941,1,4,baseline,False,1,10.5372,10.5372,10.5372
+900,Dinopithecus ingens (troop of 3),10.4691,-2.25675,0.788285,1,7,baseline,False,1,10.4691,10.4691,10.4691
+901,Himalayan Wolf,10.4185,-2.26159,0.676305,1,11,baseline,False,1,10.4185,10.4185,10.4185
+902,Common Chimpanzee (troop of 4),10.3464,-2.26853,0.480292,2,21,baseline,False,1,10.3464,10.3464,10.3464
+903,Bearded (Square Flipper) Seal,10.3423,-2.26893,1.04534,1,16,baseline,False,1,10.3423,10.3423,10.3423
+904,East European Shepherds (2),10.3324,-2.26989,0.44816,2,21,baseline,False,1,10.3324,10.3324,10.3324
+905,Cape Leopard,10.3204,-2.27105,0.174229,18,440,baseline,False,1,10.3204,10.3204,10.3204
+906,Lowland Anoa,10.3094,-2.27211,0.337685,6,56,baseline,False,1,10.3094,10.3094,10.3094
+907,Wonambi naracoortensis,10.1574,-2.28696,1.12614,1,10,baseline,False,1,10.1574,10.1574,10.1574
+908,Mainland Serow,10.0355,-2.29904,0.771858,1,7,baseline,False,1,10.0355,10.0355,10.0355
+909,Blue Shark,9.84406,-2.3183,1.06166,4,30,baseline,False,1,9.84406,9.84406,9.84406
+910,Western Gorilla (female),9.80198,-2.32259,0.293257,4,74,baseline,False,1,9.80198,9.80198,9.80198
+911,Giant Grouper,9.80118,-2.32267,1.05202,1,11,baseline,False,1,9.80118,9.80118,9.80118
+912,Bighorn Sheep,9.58094,-2.34539,0.328388,7,54,baseline,False,1,9.58094,9.58094,9.58094
+913,Anatolian Shepherd Dog,9.5374,-2.34995,0.435864,1,25,baseline,False,1,9.5374,9.5374,9.5374
+914,Northern Fur Seal,9.52624,-2.35112,0.703232,1,12,baseline,False,1,9.52624,9.52624,9.52624
+915,Brown Fur Seal,9.43361,-2.36089,0.605576,2,17,baseline,False,1,9.43361,9.43361,9.43361
+916,African Leopardess,9.38584,-2.36597,0.313625,3,77,baseline,False,1,9.38584,9.38584,9.38584
+917,Rhodesian Ridgebacks (2),9.37287,-2.36735,0.395974,3,28,baseline,False,1,9.37287,9.37287,9.37287
+918,Arctic Wolf,9.33625,-2.37127,0.39371,3,48,baseline,False,1,9.33625,9.33625,9.33625
+919,Caracal (female),9.32168,-2.37283,1.06651,1,14,baseline,False,1,9.32168,9.32168,9.32168
+920,Indian Pangolin,9.23721,-2.38193,1.10468,1,6,baseline,False,1,9.23721,9.23721,9.23721
+921,Patriofelis ferox,9.20479,-2.38545,0.519291,4,25,baseline,False,1,9.20479,9.20479,9.20479
+922,East African Wild Dog,9.14902,-2.39152,0.341135,5,73,baseline,False,1,9.14902,9.14902,9.14902
+923,Dwarf Sperm Whale,9.13249,-2.39333,0.796168,1,8,baseline,False,1,9.13249,9.13249,9.13249
+924,Sun Bear (sow),9.05612,-2.40173,0.254767,8,108,baseline,False,1,9.05612,9.05612,9.05612
+925,Electric Eel,9.0386,-2.40367,0.368082,5,62,baseline,False,1,9.0386,9.0386,9.0386
+926,Asiatic Cheetah,8.94702,-2.41385,0.460779,3,50,baseline,False,1,8.94702,8.94702,8.94702
+927,Dwarf Crocodile,8.93342,-2.41537,0.566267,4,33,baseline,False,1,8.93342,8.93342,8.93342
+928,Cape Leopardess,8.87321,-2.42213,0.230134,10,182,baseline,False,1,8.87321,8.87321,8.87321
+929,Dingo (pack of 3/4),8.76157,-2.4348,0.522116,1,21,baseline,False,1,8.76157,8.76157,8.76157
+930,Synthetoceras tricornatus,8.72818,-2.43861,0.867292,1,6,baseline,False,1,8.72818,8.72818,8.72818
+931,Spectacled (Common) Caiman,8.70783,-2.44095,0.23064,14,184,baseline,False,1,8.70783,8.70783,8.70783
+932,Burmese Python,8.6846,-2.44362,0.26847,7,112,baseline,False,1,8.6846,8.6846,8.6846
+933,White-tailed Deer,8.67648,-2.44455,0.310626,6,72,baseline,False,1,8.67648,8.67648,8.67648
+934,Alpine Mastiff,8.65451,-2.44709,0.289599,4,74,baseline,False,1,8.65451,8.65451,8.65451
+935,Bush Dog (pack of 4),8.63113,-2.44979,0.52687,1,27,baseline,False,1,8.63113,8.63113,8.63113
+936,South Island Giant Moa,8.38448,-2.47879,0.405719,5,52,baseline,False,1,8.38448,8.38448,8.38448
+937,Striped Hyena,8.36149,-2.48153,0.1558,30,640,baseline,False,1,8.36149,8.36149,8.36149
+938,Reindeer (Caribou),8.35329,-2.48252,0.293427,3,63,baseline,False,1,8.35329,8.35329,8.35329
+939,Archaic Human,8.34199,-2.48387,0.740219,1,8,baseline,False,1,8.34199,8.34199,8.34199
+940,Neanderthal,8.30114,-2.48878,0.231706,9,135,baseline,False,1,8.30114,8.30114,8.30114
+941,South American (Brazilian) Tapir,8.25002,-2.49495,0.569011,1,21,baseline,False,1,8.25002,8.25002,8.25002
+942,Wakaleo vanderleuri,8.04571,-2.52003,1.06942,2,18,baseline,False,1,8.04571,8.04571,8.04571
+943,Tusotheuthis longa,8.02015,-2.52321,1.874,1,8,mesozoic-other,False,1.8637,14.9471,13.5973,16.4309
+944,Pleistocene Coyote,8.01746,-2.52355,0.804639,1,10,baseline,False,1,8.01746,8.01746,8.01746
+945,Dusky Dolphin,8.00468,-2.52514,0.812646,1,10,baseline,False,1,8.00468,8.00468,8.00468
+946,Woodward's Eagle,7.95269,-2.53166,1.09278,1,6,baseline,False,1,7.95269,7.95269,7.95269
+947,Moros intrepidus,7.82155,-2.54829,0.283392,9,89,dinosaur,False,3.47337,27.1671,22.482,32.8286
+948,Homo floresiensis (armed with a spear),7.82069,-2.5484,0.536127,1,17,baseline,False,1,7.82069,7.82069,7.82069
+949,Rottweilers (2),7.69397,-2.56473,0.298776,5,88,baseline,False,1,7.69397,7.69397,7.69397
+950,Giant Pangolin,7.62057,-2.57432,0.429107,3,28,baseline,False,1,7.62057,7.62057,7.62057
+951,Archaeoindris fontoynonti,7.55758,-2.58262,0.763223,1,12,baseline,False,1,7.55758,7.55758,7.55758
+952,Coastal Carpet Python,7.53318,-2.58585,1.07081,1,8,baseline,False,1,7.53318,7.53318,7.53318
+953,Anachlysictis gracilis,7.52997,-2.58628,1.16264,1,4,baseline,False,1,7.52997,7.52997,7.52997
+954,Northern Quoll,7.52347,-2.58714,1.79489,1,9,baseline,False,1,7.52347,7.52347,7.52347
+955,Chacma Baboon (troop of 2),7.46355,-2.59514,0.531815,2,15,baseline,False,1,7.46355,7.46355,7.46355
+956,Yellow Anaconda,7.4155,-2.6016,0.235,10,127,baseline,False,1,7.4155,7.4155,7.4155
+957,Bushpig,7.4111,-2.60219,0.30188,8,82,baseline,False,1,7.4111,7.4111,7.4111
+958,English Mastiff,7.33002,-2.61319,0.471517,1,22,baseline,False,1,7.33002,7.33002,7.33002
+959,Asiatic Golden Cat,7.30951,-2.61599,0.689774,1,15,baseline,False,1,7.30951,7.30951,7.30951
+960,Sphenacodon ferox,7.30505,-2.6166,0.91564,1,5,baseline,True,1,7.30505,7.30505,7.30505
+961,Common Thresher Shark,7.28438,-2.61944,1.08435,1,10,baseline,False,1,7.28438,7.28438,7.28438
+962,Giant Anteater,7.20385,-2.63056,0.166044,25,461,baseline,False,1,7.20385,7.20385,7.20385
+963,Dingo (pack of 2/3),7.11877,-2.64244,0.674008,1,7,baseline,False,1,7.11877,7.11877,7.11877
+964,Saint Bernard,7.05641,-2.65123,0.462234,1,24,baseline,False,1,7.05641,7.05641,7.05641
+965,Bornean Orangutan,6.98055,-2.66204,0.184339,12,264,baseline,False,1,6.98055,6.98055,6.98055
+966,Steppe Wolf,6.95384,-2.66588,0.246744,6,119,baseline,False,1,6.95384,6.95384,6.95384
+967,Mountain Goat,6.94316,-2.66741,0.531008,3,19,baseline,False,1,6.94316,6.94316,6.94316
+968,Clouded Leopard (male),6.8657,-2.67863,0.552317,1,16,baseline,False,1,6.8657,6.8657,6.8657
+969,Neanderthal (pack of 4),6.8391,-2.68251,0.591699,1,14,baseline,False,1,6.8391,6.8391,6.8391
+970,Bullmastiff,6.81068,-2.68668,0.453475,2,23,baseline,False,1,6.81068,6.81068,6.81068
+971,Indian Python,6.79973,-2.68829,0.514251,1,19,baseline,False,1,6.79973,6.79973,6.79973
+972,Saint Bernards (2),6.79913,-2.68838,0.576225,1,13,baseline,False,1,6.79913,6.79913,6.79913
+973,Spotted Hyena (large female),6.75982,-2.69417,0.565984,1,25,baseline,False,1,6.75982,6.75982,6.75982
+974,German Shepherds (2),6.73668,-2.6976,0.410726,2,27,baseline,False,1,6.73668,6.73668,6.73668
+975,Eastern Wolf (pack of 2),6.71477,-2.70086,0.477852,2,20,baseline,False,1,6.71477,6.71477,6.71477
+976,Olive Baboon (troop of 4),6.65445,-2.70988,0.785991,1,5,baseline,False,1,6.65445,6.65445,6.65445
+977,Human (male),6.56461,-2.72348,0.200984,7,215,baseline,False,1,6.56461,6.56461,6.56461
+978,Siberian Husky (3),6.55372,-2.72514,0.620972,1,10,baseline,False,1,6.55372,6.55372,6.55372
+979,Tayras (5),6.50431,-2.73271,0.584351,1,13,baseline,False,1,6.50431,6.50431,6.50431
+980,Malayan Tapir,6.4834,-2.73593,1.05166,1,10,baseline,False,1,6.4834,6.4834,6.4834
+981,Neapolitan Mastiff,6.47143,-2.73777,0.646964,1,16,baseline,False,1,6.47143,6.47143,6.47143
+982,American Feral Pig,6.46784,-2.73833,0.589059,2,23,baseline,False,1,6.46784,6.46784,6.46784
+983,Blacktip Shark,6.46471,-2.73881,0.7716,2,16,baseline,False,1,6.46471,6.46471,6.46471
+984,Egyptian Mongoose,6.36444,-2.75444,1.34196,1,6,baseline,False,1,6.36444,6.36444,6.36444
+985,Central Asian Shepherd Dog (Alabai),6.30326,-2.7641,0.213841,6,151,baseline,False,1,6.30326,6.30326,6.30326
+986,Bully Kutta,6.25568,-2.77168,0.176523,18,332,baseline,False,1,6.25568,6.25568,6.25568
+987,Ostrich,6.25413,-2.77193,0.203356,12,189,baseline,False,1,6.25413,6.25413,6.25413
+988,Snowshoe Hare,6.23594,-2.77484,1.45149,1,5,baseline,False,1,6.23594,6.23594,6.23594
+989,Bush Dog (pack of 7),6.21535,-2.77815,0.476134,1,20,baseline,False,1,6.21535,6.21535,6.21535
+990,Eurasian Lynx (female),6.19989,-2.78064,0.382676,3,52,baseline,False,1,6.19989,6.19989,6.19989
+991,Olive Baboon (troop of 6),6.1929,-2.78177,0.68459,1,11,baseline,False,1,6.1929,6.1929,6.1929
+992,Dogo Argentino,6.19075,-2.78211,0.159257,23,532,baseline,False,1,6.19075,6.19075,6.19075
+993,Giant Armadillo,6.15036,-2.78866,0.29092,8,73,baseline,False,1,6.15036,6.15036,6.15036
+994,Dinopithecus ingens,6.12302,-2.79311,0.285969,5,81,baseline,False,1,6.12302,6.12302,6.12302
+995,Olive Python,6.01463,-2.81097,0.411743,2,38,baseline,False,1,6.01463,6.01463,6.01463
+996,Baird's Tapir,5.97958,-2.81682,0.519199,2,30,baseline,False,1,5.97958,5.97958,5.97958
+997,Borophagus diversidens,5.9435,-2.82287,0.384197,3,38,baseline,False,1,5.9435,5.9435,5.9435
+998,Rocky Mountain Bighorn Sheep,5.80407,-2.84661,0.423749,3,43,baseline,False,1,5.80407,5.80407,5.80407
+999,Lystrosaurus maccaigi,5.79295,-2.84853,1.46643,1,6,baseline,True,1,5.79295,5.79295,5.79295
+1000,Mexican Wolf (pack of 2),5.79183,-2.84872,0.427734,2,32,baseline,False,1,5.79183,5.79183,5.79183
+1001,Giant Otter Romp (4),5.75606,-2.85492,1.08867,1,6,baseline,False,1,5.75606,5.75606,5.75606
+1002,Jaekelopterus rhenaniae,5.7184,-2.86148,0.814362,3,21,baseline,False,1,5.7184,5.7184,5.7184
+1003,Human,5.68213,-2.86784,0.203438,14,253,baseline,False,1,5.68213,5.68213,5.68213
+1004,Arapaima (Pirarucu),5.64525,-2.87436,0.368206,6,67,baseline,False,1,5.64525,5.64525,5.64525
+1005,Dhole (female),5.638,-2.87564,1.07992,1,11,baseline,False,1,5.638,5.638,5.638
+1006,Kalahari Cheetah,5.61092,-2.88045,0.350832,2,51,baseline,False,1,5.61092,5.61092,5.61092
+1007,Coyote (pack of 2),5.60779,-2.88101,0.321238,2,49,baseline,False,1,5.60779,5.60779,5.60779
+1008,Bush Dog (pack of 5),5.5279,-2.89536,0.476537,2,22,baseline,False,1,5.5279,5.5279,5.5279
+1009,Dinictis felina,5.52186,-2.89646,0.31959,6,52,baseline,False,1,5.52186,5.52186,5.52186
+1010,Yacare Caiman (on land),5.51096,-2.89843,0.48539,1,19,baseline,False,1,5.51096,5.51096,5.51096
+1011,Human (strong male),5.42005,-2.91506,0.213643,9,197,baseline,False,1,5.42005,5.42005,5.42005
+1012,Seawolf (Atlantic Wolffish),5.40641,-2.91759,1.04364,1,5,baseline,False,1,5.40641,5.40641,5.40641
+1013,Burr Lee Bullstag,5.36922,-2.92449,0.480768,2,21,baseline,False,1,5.36922,5.36922,5.36922
+1014,Giant Otter,5.30284,-2.93693,0.219172,13,195,baseline,False,1,5.30284,5.30284,5.30284
+1015,Caucasian Shepherd Dog,5.29829,-2.93779,0.244511,6,123,baseline,False,1,5.29829,5.29829,5.29829
+1016,Andalgalornis steulleti,5.24133,-2.9486,0.370018,3,34,baseline,False,1,5.24133,5.24133,5.24133
+1017,Eastern Wolf,5.19864,-2.95677,0.281068,7,90,baseline,False,1,5.19864,5.19864,5.19864
+1018,Dhole (pack of 2),5.19323,-2.95781,0.295646,4,61,baseline,False,1,5.19323,5.19323,5.19323
+1019,Alligator Gar,5.15802,-2.96462,0.360921,5,55,baseline,False,1,5.15802,5.15802,5.15802
+1020,Marsh Deer,5.1577,-2.96468,0.473349,3,24,baseline,False,1,5.1577,5.1577,5.1577
+1021,Swinford Bandog,5.12077,-2.97187,0.635017,1,12,baseline,False,1,5.12077,5.12077,5.12077
+1022,Chinese Alligator,5.11963,-2.97209,0.297673,4,79,baseline,False,1,5.11963,5.11963,5.11963
+1023,Haast's Eagle,5.10244,-2.97545,0.183547,17,318,baseline,False,1,5.10244,5.10244,5.10244
+1024,Alligator Snapping Turtle,5.07429,-2.98098,0.225447,14,177,baseline,False,1,5.07429,5.07429,5.07429
+1025,Collared Peccary (Javelina) (pack of 2),5.05301,-2.98519,0.512556,3,17,baseline,False,1,5.05301,5.05301,5.05301
+1026,Bush Dog (pack of 6/7),5.03092,-2.98957,0.91589,1,4,baseline,False,1,5.03092,5.03092,5.03092
+1027,Sunda Clouded Leopard,5.02746,-2.99026,0.256754,10,157,baseline,False,1,5.02746,5.02746,5.02746
+1028,New Guinea Singing Dog,5.01279,-2.99318,0.868359,1,12,baseline,False,1,5.01279,5.01279,5.01279
+1029,Mexican Wolf,4.99248,-2.99724,0.22726,8,137,baseline,False,1,4.99248,4.99248,4.99248
+1030,Stenonychosaurus inequalis,4.972,-3.00135,0.427571,2,27,dinosaur,False,3.47337,17.2696,14.2914,20.8684
+1031,American Akitas (2),4.90923,-3.01405,0.662233,1,12,baseline,False,1,4.90923,4.90923,4.90923
+1032,Rottweiler,4.90541,-3.01483,0.249287,6,101,baseline,False,1,4.90541,4.90541,4.90541
+1033,Theriodictis platensis,4.82529,-3.0313,0.661304,1,10,baseline,False,1,4.82529,4.82529,4.82529
+1034,Sarplaninac,4.7929,-3.03803,0.400928,2,30,baseline,False,1,4.7929,4.7929,4.7929
+1035,Tosa Inu,4.74025,-3.04908,0.217299,10,176,baseline,False,1,4.74025,4.74025,4.74025
+1036,Sea Otter,4.73202,-3.05082,0.398635,7,55,baseline,False,1,4.73202,4.73202,4.73202
+1037,Jagdterriers (pack of 2),4.73095,-3.05104,0.741397,1,7,baseline,False,1,4.73095,4.73095,4.73095
+1038,Boa Constrictor,4.72985,-3.05128,0.34549,7,73,baseline,False,1,4.72985,4.72985,4.72985
+1039,Cheetah,4.6827,-3.0613,0.146665,39,1197,baseline,False,1,4.6827,4.6827,4.6827
+1040,Bush Dogs (pack 4/5),4.667,-3.06465,0.627888,1,11,baseline,False,1,4.667,4.667,4.667
+1041,Red Kangaroo,4.64046,-3.07036,0.219469,9,146,baseline,False,1,4.64046,4.64046,4.64046
+1042,Tibetan Mastiff,4.61136,-3.07665,0.274493,4,91,baseline,False,1,4.61136,4.61136,4.61136
+1043,Vechur Cattle,4.59446,-3.08032,0.496742,3,22,baseline,False,1,4.59446,4.59446,4.59446
+1044,American Bulldog,4.58891,-3.08153,0.278226,5,83,baseline,False,1,4.58891,4.58891,4.58891
+1045,Karelian Bear Dogs (3),4.54815,-3.09045,0.795455,1,10,baseline,False,1,4.54815,4.54815,4.54815
+1046,Spiny-tailed Monitor,4.51399,-3.09799,1.18585,1,8,baseline,False,1,4.51399,4.51399,4.51399
+1047,Armbruster's Wolf,4.51217,-3.09839,0.655842,2,16,baseline,False,1,4.51217,4.51217,4.51217
+1048,Aardvark,4.51013,-3.09884,0.287915,7,89,baseline,False,1,4.51013,4.51013,4.51013
+1049,Capybara,4.50625,-3.0997,0.331266,5,60,baseline,False,1,4.50625,4.50625,4.50625
+1050,Staffordshire Bull Terriers (3),4.49739,-3.10167,0.510695,1,17,baseline,False,1,4.49739,4.49739,4.49739
+1051,Proterogyrinus scheelei,4.47434,-3.10681,1.02478,1,6,baseline,False,1,4.47434,4.47434,4.47434
+1052,Great Danes (2),4.44353,-3.11372,1.05151,1,9,baseline,False,1,4.44353,4.44353,4.44353
+1053,Lesser Kudu,4.44209,-3.11404,0.645041,1,17,baseline,False,1,4.44209,4.44209,4.44209
+1054,Kalahari Cheetah (female),4.38739,-3.12644,0.592561,1,22,baseline,False,1,4.38739,4.38739,4.38739
+1055,Bili Ape,4.34916,-3.13519,0.61937,1,18,baseline,False,1,4.34916,4.34916,4.34916
+1056,Central European Boar,4.30894,-3.14448,0.993888,1,16,baseline,False,1,4.30894,4.30894,4.30894
+1057,Clouded Leopard,4.29789,-3.14705,0.151259,37,1020,baseline,False,1,4.29789,4.29789,4.29789
+1058,Wolverine,4.29264,-3.14827,0.155429,40,845,baseline,False,1,4.29264,4.29264,4.29264
+1059,Andean Condors (2),4.28741,-3.14949,0.598492,1,13,baseline,False,1,4.28741,4.28741,4.28741
+1060,Brazilian Whiteknee Tarantula,4.21374,-3.16682,1.27608,1,10,baseline,False,1,4.21374,4.21374,4.21374
+1061,Fila Brasileiro,4.17988,-3.17489,0.456564,3,28,baseline,False,1,4.17988,4.17988,4.17988
+1062,Bloodhound,4.1734,-3.17644,0.481425,1,19,baseline,False,1,4.1734,4.1734,4.1734
+1063,Pakicetus inachus,4.14839,-3.18245,0.33986,7,49,baseline,False,1,4.14839,4.14839,4.14839
+1064,Homo erectus,4.13148,-3.18654,0.459937,1,24,baseline,False,1,4.13148,4.13148,4.13148
+1065,European Rabbit,4.1034,-3.19335,1.15211,2,15,baseline,False,1,4.1034,4.1034,4.1034
+1066,Ekorus ekakeran,4.09283,-3.19593,0.6913,1,11,baseline,False,1,4.09283,4.09283,4.09283
+1067,Scalloped Hammerhead,4.08832,-3.19704,1.33293,1,7,baseline,False,1,4.08832,4.08832,4.08832
+1068,Cane (Giant) Toad,4.03867,-3.20925,1.65293,1,4,baseline,False,1,4.03867,4.03867,4.03867
+1069,Protoceratops andrewsi,4.01129,-3.21606,0.419431,3,29,dinosaur,False,3.47337,13.9327,11.5299,16.8362
+1070,American Pit Bull Terriers (3),3.99641,-3.21977,0.661745,1,12,baseline,False,1,3.99641,3.99641,3.99641
+1071,Wakaleo schouteni,3.98258,-3.22324,0.976069,1,5,baseline,False,1,3.98258,3.98258,3.98258
+1072,Giant Otter Romp (2),3.98027,-3.22382,0.461972,2,24,baseline,False,1,3.98027,3.98027,3.98027
+1073,North American Beaver,3.86061,-3.25434,0.375774,5,46,baseline,False,1,3.86061,3.86061,3.86061
+1074,Giant Teratorn,3.83499,-3.261,0.302872,7,81,baseline,False,1,3.83499,3.83499,3.83499
+1075,Obdurodon tharalkooschild,3.8346,-3.26111,1.38132,1,3,baseline,False,1,3.8346,3.8346,3.8346
+1076,Harpy Eagle (pair),3.81016,-3.2675,0.464257,2,22,baseline,False,1,3.81016,3.81016,3.81016
+1077,Egyptian Wolf,3.80857,-3.26792,1.08459,1,8,baseline,False,1,3.80857,3.80857,3.80857
+1078,Cane Corso,3.79219,-3.27223,0.34422,3,48,baseline,False,1,3.79219,3.79219,3.79219
+1079,Mandrill,3.7885,-3.2732,0.171962,22,399,baseline,False,1,3.7885,3.7885,3.7885
+1080,Olive Baboon (troop of 2),3.74403,-3.28501,0.468289,1,23,baseline,False,1,3.74403,3.74403,3.74403
+1081,Guanaco,3.73597,-3.28716,0.377475,5,57,baseline,False,1,3.73597,3.73597,3.73597
+1082,Grey Wolf (female),3.69147,-3.29914,0.384603,1,32,baseline,False,1,3.69147,3.69147,3.69147
+1083,Australian Kelpie,3.67267,-3.30425,0.563781,2,18,baseline,False,1,3.67267,3.67267,3.67267
+1084,Arabian Wolf,3.66808,-3.3055,0.352128,4,55,baseline,False,1,3.66808,3.66808,3.66808
+1085,White-headed Vultures (3),3.65743,-3.30841,0.676504,2,13,baseline,False,1,3.65743,3.65743,3.65743
+1086,Common Chimpanzee,3.63477,-3.31462,0.148955,31,855,baseline,False,1,3.63477,3.63477,3.63477
+1087,Northern River Shark,3.62247,-3.31802,0.855159,1,7,baseline,False,1,3.62247,3.62247,3.62247
+1088,Hapalops spp.,3.61956,-3.31882,0.874567,1,6,baseline,False,1,3.61956,3.61956,3.61956
+1089,Lappet-faced Vultures (venue of 3),3.57091,-3.33235,0.571183,1,13,baseline,False,1,3.57091,3.57091,3.57091
+1090,Blacknose Shark,3.54907,-3.33848,0.524843,5,41,baseline,False,1,3.54907,3.54907,3.54907
+1091,Ethiopian Wolf (Simian jackal) (pack of 2),3.5125,-3.34884,0.675078,1,11,baseline,False,1,3.5125,3.5125,3.5125
+1092,Asian (Sand) Badger,3.48714,-3.35609,1.13814,1,5,baseline,False,1,3.48714,3.48714,3.48714
+1093,Kangal,3.46875,-3.36138,0.250579,3,116,baseline,False,1,3.46875,3.46875,3.46875
+1094,Red-tailed Boa,3.42747,-3.37335,0.301454,6,62,baseline,False,1,3.42747,3.42747,3.42747
+1095,Northern Coyote,3.41767,-3.37621,0.790711,1,7,baseline,False,1,3.41767,3.41767,3.41767
+1096,Spectacled Caiman,3.41322,-3.37752,0.437151,2,34,baseline,False,1,3.41322,3.41322,3.41322
+1097,Hokkaido Inu,3.41117,-3.37811,0.937883,1,6,baseline,False,1,3.41117,3.41117,3.41117
+1098,Neotropical Otter,3.2766,-3.41836,0.584646,2,16,baseline,False,1,3.2766,3.2766,3.2766
+1099,Czechoslovakian Wolfdog,3.24238,-3.42886,0.782719,1,7,baseline,False,1,3.24238,3.24238,3.24238
+1100,Northwestern Wolf (female),3.23662,-3.43064,0.928442,1,5,baseline,False,1,3.23662,3.23662,3.23662
+1101,African Crested Porcupine,3.23198,-3.43207,0.235584,13,131,baseline,False,1,3.23198,3.23198,3.23198
+1102,Pyrenean Mountain Dog,3.23195,-3.43208,0.91407,1,9,baseline,False,1,3.23195,3.23195,3.23195
+1103,Presa Canario,3.20478,-3.44053,0.417095,2,40,baseline,False,1,3.20478,3.20478,3.20478
+1104,Eurasian Lynx,3.18912,-3.44542,0.153483,39,919,baseline,False,1,3.18912,3.18912,3.18912
+1105,Warthog (Boar),3.15459,-3.45631,0.606072,1,20,baseline,False,1,3.15459,3.15459,3.15459
+1106,Southern Cassowary,3.13499,-3.46254,0.200766,14,234,baseline,False,1,3.13499,3.13499,3.13499
+1107,Wahoo,3.10235,-3.47301,0.680884,2,12,baseline,False,1,3.10235,3.10235,3.10235
+1108,Mackenzie Valley Wolf,3.06568,-3.4849,0.451998,1,72,baseline,False,1,3.06568,3.06568,3.06568
+1109,Akita Inu,3.03757,-3.49411,0.775475,1,7,baseline,False,1,3.03757,3.03757,3.03757
+1110,Giant Fossa,3.00419,-3.50516,0.301565,5,63,baseline,False,1,3.00419,3.00419,3.00419
+1111,Eurasian Otter,2.95242,-3.52255,0.660869,1,13,baseline,False,1,2.95242,2.95242,2.95242
+1112,Grey Reef Shark,2.95215,-3.52264,0.714132,1,11,baseline,False,1,2.95215,2.95215,2.95215
+1113,Transmontano Mastiff,2.94762,-3.52417,0.668474,1,14,baseline,False,1,2.94762,2.94762,2.94762
+1114,Drill,2.94457,-3.52521,0.403227,3,33,baseline,False,1,2.94457,2.94457,2.94457
+1115,Rocky Mountain Mule Deer,2.92413,-3.53217,0.953869,1,9,baseline,False,1,2.92413,2.92413,2.92413
+1116,Vietnamese Centipede,2.90726,-3.53796,1.30652,1,7,baseline,False,1,2.90726,2.90726,2.90726
+1117,Jagdterriers (pack of 3/4),2.90322,-3.53935,0.69226,1,15,baseline,False,1,2.90322,2.90322,2.90322
+1118,Australian Blacktip Shark,2.90156,-3.53992,0.825111,1,8,baseline,False,1,2.90156,2.90156,2.90156
+1119,Arabian Leopardess,2.88106,-3.54701,0.432627,2,27,baseline,False,1,2.88106,2.88106,2.88106
+1120,Italian Wolf,2.87363,-3.54959,0.478554,3,33,baseline,False,1,2.87363,2.87363,2.87363
+1121,Patterdale Terriers (2),2.86586,-3.5523,0.585021,1,12,baseline,False,1,2.86586,2.86586,2.86586
+1122,Paranthropus robustus,2.86498,-3.55261,0.881726,1,6,baseline,False,1,2.86498,2.86498,2.86498
+1123,Emperor Penguin,2.85827,-3.55495,1.30535,1,10,baseline,False,1,2.85827,2.85827,2.85827
+1124,Blue Land Crab,2.80322,-3.5744,1.20365,1,6,baseline,False,1,2.80322,2.80322,2.80322
+1125,East European Shepherd,2.77214,-3.58555,0.556871,1,12,baseline,False,1,2.77214,2.77214,2.77214
+1126,Blue (Grand Cayman) Iguana,2.76109,-3.58954,1.23491,1,6,baseline,False,1,2.76109,2.76109,2.76109
+1127,Chacoan Peccary,2.7431,-3.59608,0.329366,6,56,baseline,False,1,2.7431,2.7431,2.7431
+1128,Eastern Coyotes (2),2.69492,-3.6138,0.398648,1,28,baseline,False,1,2.69492,2.69492,2.69492
+1129,Crested Eagle,2.69473,-3.61387,0.712622,1,11,baseline,False,1,2.69473,2.69473,2.69473
+1130,Cape Bushbuck (Imbabala),2.67847,-3.61993,0.778761,2,10,baseline,False,1,2.67847,2.67847,2.67847
+1131,Goldsaddle Goatfish (school of 6),2.65931,-3.6271,1.31137,1,5,baseline,False,1,2.65931,2.65931,2.65931
+1132,Whollydooleya tomnpatrichorum,2.60106,-3.64925,0.365446,4,43,baseline,False,1,2.60106,2.60106,2.60106
+1133,Wolverine (boar),2.58187,-3.65666,0.619671,1,18,baseline,False,1,2.58187,2.58187,2.58187
+1134,Yellow-throated Martens (3),2.55527,-3.66701,0.504194,3,17,baseline,False,1,2.55527,2.55527,2.55527
+1135,Mesohippus spp.,2.54513,-3.67099,0.767865,1,8,baseline,False,1,2.54513,2.54513,2.54513
+1136,Collared Peccary (Javelina),2.53696,-3.67421,0.220397,15,159,baseline,False,1,2.53696,2.53696,2.53696
+1137,Bush Dog (pack of 3),2.53088,-3.6766,0.580212,2,13,baseline,False,1,2.53088,2.53088,2.53088
+1138,Bonobo (Pygmy Chimpanzee),2.51346,-3.68351,0.276811,6,87,baseline,False,1,2.51346,2.51346,2.51346
+1139,Siberian Ibex,2.49771,-3.6898,1.13737,1,5,baseline,False,1,2.49771,2.49771,2.49771
+1140,Common Wombat,2.49125,-3.69239,0.341607,3,45,baseline,False,1,2.49125,2.49125,2.49125
+1141,Thylacine,2.47043,-3.70078,0.210916,14,185,baseline,False,1,2.47043,2.47043,2.47043
+1142,Pacific Electric Ray,2.45329,-3.70774,1.26112,1,3,baseline,False,1,2.45329,2.45329,2.45329
+1143,Alaskan Malamute,2.4221,-3.72054,0.387004,2,36,baseline,False,1,2.4221,2.4221,2.4221
+1144,North Sulawesi Babirusa,2.41902,-3.72181,1.07973,1,6,baseline,False,1,2.41902,2.41902,2.41902
+1145,Dingo,2.40536,-3.72747,0.188774,18,343,baseline,False,1,2.40536,2.40536,2.40536
+1146,Eastern Wolf (female),2.39115,-3.7334,0.399011,2,31,baseline,False,1,2.39115,2.39115,2.39115
+1147,Great Barracuda,2.38839,-3.73455,0.383229,9,96,baseline,False,1,2.38839,2.38839,2.38839
+1148,Boerboel,2.3867,-3.73526,0.310265,5,93,baseline,False,1,2.3867,2.3867,2.3867
+1149,African Wild Dog,2.38579,-3.73564,0.164507,25,518,baseline,False,1,2.38579,2.38579,2.38579
+1150,Scrub (Amethystine) Python,2.37663,-3.73949,0.746679,2,12,baseline,False,1,2.37663,2.37663,2.37663
+1151,American Red Fox (skulk of 2),2.37132,-3.74172,0.5528,1,20,baseline,False,1,2.37132,2.37132,2.37132
+1152,Yellow Spotted False Monitor,2.36919,-3.74262,0.655233,4,38,baseline,False,1,2.36919,2.36919,2.36919
+1153,Mule Deer,2.34581,-3.75254,0.465747,2,29,baseline,False,1,2.34581,2.34581,2.34581
+1154,Leonberger,2.33561,-3.7569,1.07092,1,6,baseline,False,1,2.33561,2.33561,2.33561
+1155,Guinean Barracuda,2.32737,-3.76043,0.799426,1,12,baseline,False,1,2.32737,2.32737,2.32737
+1156,Northern Luzon Giant Cloud Rat,2.31853,-3.76424,1.22783,1,7,baseline,False,1,2.31853,2.31853,2.31853
+1157,Broad Stingray,2.31845,-3.76427,1.03438,1,4,baseline,False,1,2.31845,2.31845,2.31845
+1158,Ocelot (male),2.31328,-3.7665,0.417902,2,47,baseline,False,1,2.31328,2.31328,2.31328
+1159,Muskellunge,2.31194,-3.76708,0.557612,1,17,baseline,False,1,2.31194,2.31194,2.31194
+1160,Southern African Wildcat,2.29015,-3.77655,1.19236,1,7,baseline,False,1,2.29015,2.29015,2.29015
+1161,Rhodesian Ridgeback,2.25767,-3.79083,0.374156,2,36,baseline,False,1,2.25767,2.25767,2.25767
+1162,German Shepherd,2.25288,-3.79296,0.200338,10,225,baseline,False,1,2.25288,2.25288,2.25288
+1163,North Pacific Giant Octopus,2.23775,-3.7997,0.30379,9,103,baseline,False,1,2.23775,2.23775,2.23775
+1164,Dhole,2.22906,-3.80359,0.17744,26,404,baseline,False,1,2.22906,2.22906,2.22906
+1165,White-lipped Peccary,2.22021,-3.80757,0.316627,7,61,baseline,False,1,2.22021,2.22021,2.22021
+1166,Cinereous (Eurasian Black) Vulture (venue of 3),2.19198,-3.82036,0.826609,1,9,baseline,False,1,2.19198,2.19198,2.19198
+1167,Didelphodon vorax,2.17414,-3.82854,1.63432,1,5,baseline,False,1,2.17414,2.17414,2.17414
+1168,English Bull Terrier,2.14699,-3.8411,0.37569,3,41,baseline,False,1,2.14699,2.14699,2.14699
+1169,Boxer,2.1439,-3.84254,0.629558,1,12,baseline,False,1,2.1439,2.1439,2.1439
+1170,Colossus Penguin,2.09687,-3.86472,0.866796,1,11,baseline,False,1,2.09687,2.09687,2.09687
+1171,Hamadryas Baboon,2.09258,-3.86677,0.432217,3,26,baseline,False,1,2.09258,2.09258,2.09258
+1172,Giant Snakeheads (breeding pair),2.09207,-3.86702,0.965365,1,8,baseline,False,1,2.09207,2.09207,2.09207
+1173,Staffordshire Bull Terrier,2.08173,-3.87197,0.218167,9,174,baseline,False,1,2.08173,2.08173,2.08173
+1174,Smooth-fronted Caiman,2.06324,-3.88089,0.363782,5,43,baseline,False,1,2.06324,2.06324,2.06324
+1175,Anjumara (Wolf Fish),2.05323,-3.88576,0.667343,3,25,baseline,False,1,2.05323,2.05323,2.05323
+1176,Golden Eagle (aerie of 2),2.05228,-3.88622,0.311979,4,63,baseline,False,1,2.05228,2.05228,2.05228
+1177,Lappet-faced Vulture (venue of 2),2.03779,-3.8933,0.754108,1,6,baseline,False,1,2.03779,2.03779,2.03779
+1178,Belgian Malinois,2.02642,-3.8989,0.465645,2,21,baseline,False,1,2.02642,2.02642,2.02642
+1179,American Pit Bull Terriers (2),2.01778,-3.90317,0.41683,4,70,baseline,False,1,2.01778,2.01778,2.01778
+1180,Papuan Python,2.01651,-3.9038,0.386261,3,35,baseline,False,1,2.01651,2.01651,2.01651
+1181,Human (female),2.01504,-3.90453,0.290726,5,79,baseline,False,1,2.01504,2.01504,2.01504
+1182,Chinese Giant Salamander,2.00374,-3.91015,0.761798,2,9,baseline,False,1,2.00374,2.00374,2.00374
+1183,Bull Arab,2.00336,-3.91034,0.437587,3,43,baseline,False,1,2.00336,2.00336,2.00336
+1184,Ocelot,1.99109,-3.91649,0.167528,36,740,baseline,False,1,1.99109,1.99109,1.99109
+1185,Eurasian Badger,1.97901,-3.92257,0.230252,10,139,baseline,False,1,1.97901,1.97901,1.97901
+1186,Bush Dog (pack of 2),1.96619,-3.92907,0.347319,2,40,baseline,False,1,1.96619,1.96619,1.96619
+1187,Eastern Coyote,1.9477,-3.93852,0.226379,10,164,baseline,False,1,1.9477,1.9477,1.9477
+1188,Australopithecus africanus,1.9422,-3.94135,0.918248,1,8,baseline,False,1,1.9422,1.9422,1.9422
+1189,American Staffordshire Terrier (Amstaff),1.90924,-3.95846,0.730212,1,8,baseline,False,1,1.90924,1.90924,1.90924
+1190,European Dhole,1.90129,-3.96264,0.361775,3,48,baseline,False,1,1.90129,1.90129,1.90129
+1191,Greyhound,1.89836,-3.96418,0.350712,3,43,baseline,False,1,1.89836,1.89836,1.89836
+1192,King Cobra,1.8746,-3.97677,0.24832,13,151,baseline,False,1,1.8746,1.8746,1.8746
+1193,Honey Badger (sow),1.87211,-3.9781,0.270668,6,106,baseline,False,1,1.87211,1.87211,1.87211
+1194,Olive Baboon,1.87208,-3.97812,0.196515,12,230,baseline,False,1,1.87208,1.87208,1.87208
+1195,Chacma Baboon,1.86083,-3.98415,0.214159,12,202,baseline,False,1,1.86083,1.86083,1.86083
+1196,Indian Wolf,1.85049,-3.98972,0.246204,7,138,baseline,False,1,1.85049,1.85049,1.85049
+1197,Wolverine (female),1.84319,-3.99367,0.562079,1,14,baseline,False,1,1.84319,1.84319,1.84319
+1198,Lappet-faced Vultures (venue of 2/3),1.83956,-3.99564,0.627448,1,9,baseline,False,1,1.83956,1.83956,1.83956
+1199,American Pit Bull Terrier,1.83911,-3.99589,0.15878,24,668,baseline,False,1,1.83911,1.83911,1.83911
+1200,Roadside Hawk,1.83482,-3.99822,1.22082,1,5,baseline,False,1,1.83482,1.83482,1.83482
+1201,Velociraptor mongoliensis,1.83346,-3.99897,0.182476,21,348,dinosaur,False,3.47337,6.36828,5.27004,7.69539
+1202,Honey Badger,1.82224,-4.00511,0.178993,34,482,baseline,False,1,1.82224,1.82224,1.82224
+1203,African Golden Cat,1.8179,-4.00749,0.249137,10,136,baseline,False,1,1.8179,1.8179,1.8179
+1204,Spotted-necked Otter,1.81737,-4.00778,0.67142,4,17,baseline,False,1,1.81737,1.81737,1.81737
+1205,Canadian Lynx,1.79966,-4.01757,0.214469,11,214,baseline,False,1,1.79966,1.79966,1.79966
+1206,Dromaeosaurus albertensis,1.79745,-4.0188,0.276696,5,77,dinosaur,False,3.47337,6.24321,5.16654,7.54425
+1207,Tiktaalik roseae,1.7665,-4.03617,0.881178,1,8,baseline,False,1,1.7665,1.7665,1.7665
+1208,Indonesian Wild Boar,1.76369,-4.03776,0.405569,5,34,baseline,False,1,1.76369,1.76369,1.76369
+1209,Wild Turkey (rafter of 5),1.74691,-4.04732,0.772033,1,10,baseline,False,1,1.74691,1.74691,1.74691
+1210,Caracal,1.69379,-4.0782,0.177607,22,473,baseline,False,1,1.69379,1.69379,1.69379
+1211,Asian Golden Cat,1.68992,-4.08049,0.361507,6,78,baseline,False,1,1.68992,1.68992,1.68992
+1212,Perentie,1.67508,-4.08931,0.240077,14,187,baseline,False,1,1.67508,1.67508,1.67508
+1213,Fishing Cat,1.67245,-4.09088,0.22922,11,175,baseline,False,1,1.67245,1.67245,1.67245
+1214,Dwarf Cassowary,1.65611,-4.1007,0.562923,4,33,baseline,False,1,1.65611,1.65611,1.65611
+1215,Whitetip Reef Shark,1.65294,-4.10262,0.76372,2,9,baseline,False,1,1.65294,1.65294,1.65294
+1216,Gelada,1.64528,-4.10726,0.367844,6,56,baseline,False,1,1.64528,1.64528,1.64528
+1217,Red Wolf,1.63562,-4.11315,0.314355,4,60,baseline,False,1,1.63562,1.63562,1.63562
+1218,Hyacinth Macaw,1.62745,-4.11816,1.08929,2,16,baseline,False,1,1.62745,1.62745,1.62745
+1219,Mexican Coyote,1.61746,-4.12431,0.391185,4,41,baseline,False,1,1.61746,1.61746,1.61746
+1220,Patagornis marshi,1.61319,-4.12696,0.875069,1,7,baseline,False,1,1.61319,1.61319,1.61319
+1221,Impala,1.61044,-4.12866,0.307813,6,72,baseline,False,1,1.61044,1.61044,1.61044
+1222,Harpy Eagle,1.60818,-4.13007,0.177368,29,470,baseline,False,1,1.60818,1.60818,1.60818
+1223,Sand (Gould's) Goanna,1.60077,-4.13468,1.1659,1,5,baseline,False,1,1.60077,1.60077,1.60077
+1224,Clouded Shepherd,1.57828,-4.14883,0.476303,1,22,baseline,False,1,1.57828,1.57828,1.57828
+1225,Caspian Seal,1.57682,-4.14976,0.798677,1,13,baseline,False,1,1.57682,1.57682,1.57682
+1226,Pteranodon longiceps,1.5608,-4.15997,0.473923,3,30,mesozoic-other,False,1.8637,2.90886,2.64617,3.19762
+1227,Australian Cattle Dog (Blue or Red Heeler),1.54083,-4.17285,0.91925,1,5,baseline,False,1,1.54083,1.54083,1.54083
+1228,Pulmonoscorpius kirktonensis,1.53407,-4.17724,0.820616,1,9,baseline,False,1,1.53407,1.53407,1.53407
+1229,Carpet Python,1.53319,-4.17782,0.598661,2,14,baseline,False,1,1.53319,1.53319,1.53319
+1230,Iberian Lynx,1.52696,-4.18189,0.275908,6,81,baseline,False,1,1.52696,1.52696,1.52696
+1231,Malagasy Crowned Eagle,1.51474,-4.18993,0.553192,2,18,baseline,False,1,1.51474,1.51474,1.51474
+1232,Lappet-faced Vultures (venue of 4),1.5141,-4.19035,0.491509,2,22,baseline,False,1,1.5141,1.5141,1.5141
+1233,Guinea Baboon,1.5079,-4.19445,0.247464,12,138,baseline,False,1,1.5079,1.5079,1.5079
+1234,Giant Swan,1.49122,-4.20557,0.962925,1,5,baseline,False,1,1.49122,1.49122,1.49122
+1235,Gull Dong,1.48912,-4.20698,0.488034,2,28,baseline,False,1,1.48912,1.48912,1.48912
+1236,Asian Water Monitor,1.48773,-4.20792,0.319166,5,71,baseline,False,1,1.48773,1.48773,1.48773
+1237,Cuvier's Dwarf Caiman,1.48678,-4.20856,0.232793,16,158,baseline,False,1,1.48678,1.48678,1.48678
+1238,Merriam's Teratorn,1.46803,-4.22125,1.24861,1,3,baseline,False,1,1.46803,1.46803,1.46803
+1239,Ornithomimus edmontonicus,1.4383,-4.24171,1.12928,1,7,dinosaur,False,3.47337,4.99575,4.13421,6.03682
+1240,Giant Moray,1.4365,-4.24296,0.485583,4,43,baseline,False,1,1.4365,1.4365,1.4365
+1241,Bobcat,1.43204,-4.24607,0.180565,20,488,baseline,False,1,1.43204,1.43204,1.43204
+1242,Maned Wolf (coalition of 2),1.42676,-4.24976,0.42936,1,30,baseline,False,1,1.42676,1.42676,1.42676
+1243,Citipati osmolskae,1.42628,-4.2501,1.4508,1,2,dinosaur,False,3.47337,4.954,4.09966,5.98637
+1244,Airedale Terriers (2),1.41042,-4.26128,0.751967,1,11,baseline,False,1,1.41042,1.41042,1.41042
+1245,Red-Bellied Piranha (school of 8-10),1.40195,-4.2673,1.10781,1,5,baseline,False,1,1.40195,1.40195,1.40195
+1246,Angolan White-throated Monitor,1.40142,-4.26768,1.22215,1,4,baseline,False,1,1.40142,1.40142,1.40142
+1247,Paranthropus boisei,1.39727,-4.27065,0.789265,1,11,baseline,False,1,1.39727,1.39727,1.39727
+1248,Colombian White-faced Capuchin (group of 5),1.37886,-4.28391,0.917308,1,5,baseline,False,1,1.37886,1.37886,1.37886
+1249,Common Snapping Turtle,1.36827,-4.29162,0.509529,3,26,baseline,False,1,1.36827,1.36827,1.36827
+1250,Alexander Archipelago Wolf,1.35036,-4.3048,0.355719,3,49,baseline,False,1,1.35036,1.35036,1.35036
+1251,Argus Monitor,1.33908,-4.31319,0.72993,3,21,baseline,False,1,1.33908,1.33908,1.33908
+1252,Galapagos Islands Feral Dog,1.33759,-4.3143,0.827246,1,10,baseline,False,1,1.33759,1.33759,1.33759
+1253,Coyote,1.33608,-4.31543,0.182295,21,473,baseline,False,1,1.33608,1.33608,1.33608
+1254,Tasmanian Giant Crab,1.32942,-4.32043,0.336382,7,65,baseline,False,1,1.32942,1.32942,1.32942
+1255,Kea,1.32782,-4.32163,1.0218,3,20,baseline,False,1,1.32782,1.32782,1.32782
+1256,Golden Dorado,1.32217,-4.32589,0.495777,5,28,baseline,False,1,1.32217,1.32217,1.32217
+1257,Machaeroides eothen,1.31203,-4.33359,0.579662,2,13,baseline,False,1,1.31203,1.31203,1.31203
+1258,Water Monitor,1.31191,-4.33369,0.281305,7,107,baseline,False,1,1.31191,1.31191,1.31191
+1259,Green Moray (Eel),1.31095,-4.33442,0.683477,1,11,baseline,False,1,1.31095,1.31095,1.31095
+1260,Common Collared Lizard,1.30807,-4.33662,1.38124,1,6,baseline,False,1,1.30807,1.30807,1.30807
+1261,Velociraptor mongoliensis (pack of 2),1.30307,-4.34044,0.437515,3,26,dinosaur,False,3.47337,4.52604,3.7455,5.46924
+1262,Central Bearded Dragon,1.30291,-4.34057,1.22002,3,17,baseline,False,1,1.30291,1.30291,1.30291
+1263,Doberman Pinscher,1.2934,-4.3479,0.267027,5,96,baseline,False,1,1.2934,1.2934,1.2934
+1264,Australian Staghound,1.28433,-4.35493,0.771367,1,15,baseline,False,1,1.28433,1.28433,1.28433
+1265,Bigeye Thresher Shark,1.28234,-4.35648,1.46511,1,9,baseline,False,1,1.28234,1.28234,1.28234
+1266,Forest Cobra,1.28018,-4.35817,0.814332,4,25,baseline,False,1,1.28018,1.28018,1.28018
+1267,Black-thighed Falconet,1.27392,-4.36307,1.07334,1,10,baseline,False,1,1.27392,1.27392,1.27392
+1268,African Brush-tailed Porcupine,1.26781,-4.36788,1.29165,1,6,baseline,False,1,1.26781,1.26781,1.26781
+1269,Repenomamus giganticus,1.26375,-4.37109,0.919285,1,5,baseline,False,1,1.26375,1.26375,1.26375
+1270,Labrador Retriever,1.23656,-4.39284,0.406716,3,37,baseline,False,1,1.23656,1.23656,1.23656
+1271,Crocodile Monitor,1.23351,-4.39531,0.231054,15,210,baseline,False,1,1.23351,1.23351,1.23351
+1272,Cape Grey Mongoose,1.22981,-4.39831,1.64312,1,4,baseline,False,1,1.22981,1.22981,1.22981
+1273,(Eastern) Dire Wolf,1.21809,-4.40788,1.06163,1,8,baseline,False,1,1.21809,1.21809,1.21809
+1274,Ocelot (female),1.20934,-4.4151,0.481244,2,12,baseline,False,1,1.20934,1.20934,1.20934
+1275,American Badger,1.20933,-4.4151,0.222527,13,184,baseline,False,1,1.20933,1.20933,1.20933
+1276,American Lobster,1.18987,-4.43133,0.53901,4,40,baseline,False,1,1.18987,1.18987,1.18987
+1277,Airedale Terrier,1.17514,-4.44378,0.330738,3,52,baseline,False,1,1.17514,1.17514,1.17514
+1278,Irish Wolfhound,1.1747,-4.44416,0.458342,3,52,baseline,False,1,1.1747,1.1747,1.1747
+1279,Ring-necked Cobra (Rinkhal),1.17204,-4.44642,1.33694,2,8,baseline,False,1,1.17204,1.17204,1.17204
+1280,Chital,1.17139,-4.44698,0.609879,2,15,baseline,False,1,1.17139,1.17139,1.17139
+1281,Arthropleura armata,1.16261,-4.4545,1.01395,2,17,baseline,False,1,1.16261,1.16261,1.16261
+1282,Ethiopian Wolf (Simian jackal),1.15399,-4.46195,0.431235,4,36,baseline,False,1,1.15399,1.15399,1.15399
+1283,Brongersma's Short-tailed Python,1.15002,-4.46539,0.735093,1,10,baseline,False,1,1.15002,1.15002,1.15002
+1284,Black-backed Jackal (females) (pack of 2),1.14756,-4.46753,0.590391,1,10,baseline,False,1,1.14756,1.14756,1.14756
+1285,Homo floresiensis (Armed with club),1.14,-4.47414,0.684473,1,10,baseline,False,1,1.14,1.14,1.14
+1286,Red-legged Seriema (Crested Cariama),1.13441,-4.47906,1.14621,2,11,baseline,False,1,1.13441,1.13441,1.13441
+1287,Nomura's Jellyfish,1.13301,-4.48029,1.08317,1,4,baseline,False,1,1.13301,1.13301,1.13301
+1288,American Akita,1.12084,-4.49109,0.486161,3,49,baseline,False,1,1.12084,1.12084,1.12084
+1289,Ivory-billed Woodpecker,1.10476,-4.50555,1.39365,1,4,baseline,False,1,1.10476,1.10476,1.10476
+1290,Tasmanian Devil,1.09817,-4.51152,0.217108,20,250,baseline,False,1,1.09817,1.09817,1.09817
+1291,Yellow Baboon,1.09713,-4.51248,0.656408,1,15,baseline,False,1,1.09713,1.09713,1.09713
+1292,Fawn Antechinus,1.08051,-4.52774,1.40571,1,5,baseline,False,1,1.08051,1.08051,1.08051
+1293,Jumbo (or Humboldt) Squid,1.07802,-4.53004,0.446601,5,45,baseline,False,1,1.07802,1.07802,1.07802
+1294,European (Eurasian) Otter,1.06425,-4.5429,0.405303,6,52,baseline,False,1,1.06425,1.06425,1.06425
+1295,Maned Wolf (coalition of 3),1.05459,-4.55202,0.711031,1,19,baseline,False,1,1.05459,1.05459,1.05459
+1296,Blacktip Reef Shark,1.05429,-4.55231,0.321168,8,91,baseline,False,1,1.05429,1.05429,1.05429
+1297,Montane Solitary Eagle,1.05092,-4.55551,0.994769,1,6,baseline,False,1,1.05092,1.05092,1.05092
+1298,Deerhound,1.04422,-4.5619,0.569591,1,22,baseline,False,1,1.04422,1.04422,1.04422
+1299,Black-headed Python,1.03062,-4.57501,0.587479,4,36,baseline,False,1,1.03062,1.03062,1.03062
+1300,Gull Terrier,1.02938,-4.57621,0.648424,1,16,baseline,False,1,1.02938,1.02938,1.02938
+1301,North American River Otter,1.0254,-4.58009,0.324886,6,69,baseline,False,1,1.0254,1.0254,1.0254
+1302,Meadow Vole,1.02196,-4.58345,1.32021,1,6,baseline,False,1,1.02196,1.02196,1.02196
+1303,Binturong (Asian Bearcat),1.01967,-4.58569,0.354463,5,55,baseline,False,1,1.01967,1.01967,1.01967
+1304,Serval (female),0.999,-4.60617,0.410892,3,40,baseline,False,1,0.999,0.999,0.999
+1305,Andean Condor,0.992318,-4.61288,0.35751,6,46,baseline,False,1,0.992318,0.992318,0.992318
+1306,African Fish Eagle,0.987337,-4.61791,1.25794,2,15,baseline,False,1,0.987337,0.987337,0.987337
+1307,Gaboon Viper,0.974127,-4.63138,0.285466,9,84,baseline,False,1,0.974127,0.974127,0.974127
+1308,African Golden Wolf,0.958022,-4.64805,0.32284,7,64,baseline,False,1,0.958022,0.958022,0.958022
+1309,Maned Wolf,0.95637,-4.64978,0.209897,21,279,baseline,False,1,0.95637,0.95637,0.95637
+1310,Arabian Red Fox,0.954678,-4.65155,1.29547,1,7,baseline,False,1,0.954678,0.954678,0.954678
+1311,Golden Eagle,0.949073,-4.65744,0.206971,18,277,baseline,False,1,0.949073,0.949073,0.949073
+1312,Asian Giant Hornets (2),0.948803,-4.65772,0.780375,2,16,baseline,False,1,0.948803,0.948803,0.948803
+1313,Cimarron Uruguayo,0.947657,-4.65893,1.00436,1,13,baseline,False,1,0.947657,0.947657,0.947657
+1314,Black-and-chestnut Eagle,0.947636,-4.65895,0.683156,3,14,baseline,False,1,0.947636,0.947636,0.947636
+1315,Spur-winged Goose,0.942358,-4.66454,1.87508,1,3,baseline,False,1,0.942358,0.942358,0.942358
+1316,Red-headed Vultures (2),0.9265,-4.68151,0.776974,1,9,baseline,False,1,0.9265,0.9265,0.9265
+1317,Great Grey Owl,0.925616,-4.68247,1.3506,1,5,baseline,False,1,0.925616,0.925616,0.925616
+1318,Bobcat (female),0.923566,-4.68468,0.979602,1,5,baseline,False,1,0.923566,0.923566,0.923566
+1319,Northern Blue-tongued Skink,0.917345,-4.69144,1.48205,2,14,baseline,False,1,0.917345,0.917345,0.917345
+1320,Asian Giant Hornets (4 - 5),0.896393,-4.71455,0.728627,1,16,baseline,False,1,0.896393,0.896393,0.896393
+1321,Pygmy Python,0.88787,-4.7241,0.999115,2,8,baseline,False,1,0.88787,0.88787,0.88787
+1322,Bonobo (Pygmy Chimpanzee) (female),0.885021,-4.72731,1.06852,1,7,baseline,False,1,0.885021,0.885021,0.885021
+1323,Rock Monitor,0.875423,-4.73822,0.34433,6,47,baseline,False,1,0.875423,0.875423,0.875423
+1324,Amur Leopard Cat,0.873705,-4.74018,0.842473,1,6,baseline,False,1,0.873705,0.873705,0.873705
+1325,Lycaenops ornatus,0.867393,-4.74743,0.927362,1,6,baseline,True,1,0.867393,0.867393,0.867393
+1326,Elongate Tigerfish,0.860595,-4.7553,0.690866,3,18,baseline,False,1,0.860595,0.860595,0.860595
+1327,Vulturine Guineafowl,0.856817,-4.7597,1.00802,1,6,baseline,False,1,0.856817,0.856817,0.856817
+1328,Philippine Eagle,0.8561,-4.76054,0.282245,7,97,baseline,False,1,0.8561,0.8561,0.8561
+1329,Greater Rhea,0.85029,-4.76735,1.02016,1,6,baseline,False,1,0.85029,0.85029,0.85029
+1330,Indian Hog Deer,0.850086,-4.76759,1.03161,1,10,baseline,False,1,0.850086,0.850086,0.850086
+1331,Jaguarundi,0.842277,-4.77682,0.229391,16,231,baseline,False,1,0.842277,0.842277,0.842277
+1332,Norwegian Forest Cat,0.838756,-4.78101,0.92611,1,8,baseline,False,1,0.838756,0.838756,0.838756
+1333,Great Nicobar Serpent Eagle,0.834433,-4.78617,0.792928,1,12,baseline,False,1,0.834433,0.834433,0.834433
+1334,California Sheep Head,0.827333,-4.79472,0.565273,2,17,baseline,False,1,0.827333,0.827333,0.827333
+1335,European Conger,0.822186,-4.80096,0.734659,1,14,baseline,False,1,0.822186,0.822186,0.822186
+1336,Knight Anole,0.816826,-4.8075,0.844677,2,14,baseline,False,1,0.816826,0.816826,0.816826
+1337,Siberian Husky,0.808387,-4.81788,0.519672,3,28,baseline,False,1,0.808387,0.808387,0.808387
+1338,Golden Jackal,0.804401,-4.82283,0.258433,9,113,baseline,False,1,0.804401,0.804401,0.804401
+1339,Fallow Deer,0.800162,-4.82811,0.612551,3,25,baseline,False,1,0.800162,0.800162,0.800162
+1340,Small-spotted Catshark,0.797693,-4.8312,0.832159,2,14,baseline,False,1,0.797693,0.797693,0.797693
+1341,Lappet-faced Vulture,0.789122,-4.842,0.214547,23,210,baseline,False,1,0.789122,0.789122,0.789122
+1342,Borhyaena tuberata,0.785477,-4.84663,0.666171,2,14,baseline,False,1,0.785477,0.785477,0.785477
+1343,Robust Clubhook Squid,0.774016,-4.86133,0.780816,2,12,baseline,False,1,0.774016,0.774016,0.774016
+1344,Fossa,0.772916,-4.86275,0.227454,16,204,baseline,False,1,0.772916,0.772916,0.772916
+1345,Gila Monster,0.765649,-4.8722,0.551202,4,36,baseline,False,1,0.765649,0.765649,0.765649
+1346,Brown (Norway) Rat (mischief of 3),0.74298,-4.90226,0.631227,2,17,baseline,False,1,0.74298,0.74298,0.74298
+1347,African Wildcat,0.73912,-4.90747,0.418639,6,74,baseline,False,1,0.73912,0.73912,0.73912
+1348,Carrion Crow,0.732124,-4.91698,0.803639,1,11,baseline,False,1,0.732124,0.732124,0.732124
+1349,Martial Eagle,0.717746,-4.93681,0.235375,16,188,baseline,False,1,0.717746,0.717746,0.717746
+1350,Asian Golden Eagle (Berkut),0.716595,-4.93841,0.348875,4,53,baseline,False,1,0.716595,0.716595,0.716595
+1351,Harris's Hawk (pair of 2),0.710265,-4.94729,0.783915,1,10,baseline,False,1,0.710265,0.710265,0.710265
+1352,Marine Iguana,0.708564,-4.94969,1.6048,1,6,baseline,False,1,0.708564,0.708564,0.708564
+1353,South American Bushmaster,0.70562,-4.95385,0.533279,4,33,baseline,False,1,0.70562,0.70562,0.70562
+1354,African Civet,0.699942,-4.96193,0.290521,6,77,baseline,False,1,0.699942,0.699942,0.699942
+1355,Cubera Snapper,0.699772,-4.96217,0.877289,1,9,baseline,False,1,0.699772,0.699772,0.699772
+1356,Least Weasel,0.69894,-4.96336,0.519804,8,116,baseline,False,1,0.69894,0.69894,0.69894
+1357,Blue Crab,0.698015,-4.96469,0.581457,4,41,baseline,False,1,0.698015,0.698015,0.698015
+1358,American Bully,0.697459,-4.96548,0.97437,1,18,baseline,False,1,0.697459,0.697459,0.697459
+1359,Black-backed Jackal,0.695787,-4.96788,0.240921,16,174,baseline,False,1,0.695787,0.695787,0.695787
+1360,Amblycheila cylindriformis,0.693482,-4.9712,2.06876,1,2,baseline,False,1,0.693482,0.693482,0.693482
+1361,Indian Wolf Snake,0.690459,-4.97557,1.13077,1,4,baseline,False,1,0.690459,0.690459,0.690459
+1362,Miniature Bull Terrier,0.690297,-4.9758,0.568591,2,18,baseline,False,1,0.690297,0.690297,0.690297
+1363,Border Collie,0.675702,-4.99717,0.449528,2,25,baseline,False,1,0.675702,0.675702,0.675702
+1364,Cinereous (Eurasian Black) Vulture,0.675534,-4.99742,0.252463,12,128,baseline,False,1,0.675534,0.675534,0.675534
+1365,Serval,0.670262,-5.00526,0.217389,13,228,baseline,False,1,0.670262,0.670262,0.670262
+1366,Indian Peafowl,0.666801,-5.01043,1.73006,1,12,baseline,False,1,0.666801,0.666801,0.666801
+1367,Black Swan,0.653521,-5.03055,1.64233,2,16,baseline,False,1,0.653521,0.653521,0.653521
+1368,Borzoi,0.652722,-5.03177,0.61404,1,26,baseline,False,1,0.652722,0.652722,0.652722
+1369,Tokay Gecko,0.650465,-5.03524,0.555216,5,72,baseline,False,1,0.650465,0.650465,0.650465
+1370,European Pine Marten,0.646546,-5.04128,0.666539,2,24,baseline,False,1,0.646546,0.646546,0.646546
+1371,Hooded Crow,0.643953,-5.0453,1.13739,2,15,baseline,False,1,0.643953,0.643953,0.643953
+1372,Palm-nut Vulture,0.643189,-5.04649,1.19427,1,6,baseline,False,1,0.643189,0.643189,0.643189
+1373,Common Dwarf Mongoose,0.642098,-5.04818,0.794456,2,16,baseline,False,1,0.642098,0.642098,0.642098
+1374,Nile Monitor,0.639634,-5.05203,0.346292,5,58,baseline,False,1,0.639634,0.639634,0.639634
+1375,Anomalocaris spp.,0.637887,-5.05476,0.702464,4,26,baseline,False,1,0.637887,0.637887,0.637887
+1376,Yellow-throated Martens (2),0.637849,-5.05482,0.541775,1,17,baseline,False,1,0.637849,0.637849,0.637849
+1377,Lace Monitor,0.635399,-5.05867,0.274192,11,111,baseline,False,1,0.635399,0.635399,0.635399
+1378,Harris's Hawk (group of 3),0.63324,-5.06208,0.854463,1,7,baseline,False,1,0.63324,0.63324,0.63324
+1379,Homo floresiensis,0.630692,-5.06611,0.425518,5,46,baseline,False,1,0.630692,0.630692,0.630692
+1380,Zebra Mantis Shrimp,0.62252,-5.07915,0.851797,2,13,baseline,False,1,0.62252,0.62252,0.62252
+1381,Sand Cat,0.621055,-5.08151,0.754599,5,35,baseline,False,1,0.621055,0.621055,0.621055
+1382,Sable,0.620798,-5.08192,1.19796,1,5,baseline,False,1,0.620798,0.620798,0.620798
+1383,Pasimachus californicus,0.615513,-5.09047,1.59371,2,8,baseline,False,1,0.615513,0.615513,0.615513
+1384,Crab-eating Fox (monogamic pair),0.611966,-5.09625,0.694513,1,11,baseline,False,1,0.611966,0.611966,0.611966
+1385,Crocodile Monitor (large male),0.611193,-5.09751,1.04226,1,12,baseline,False,1,0.611193,0.611193,0.611193
+1386,Yellow-throated Marten (Richness of 4),0.60981,-5.09978,0.558078,1,26,baseline,False,1,0.60981,0.60981,0.60981
+1387,Jungle Cat,0.604845,-5.10795,0.391707,4,41,baseline,False,1,0.604845,0.604845,0.604845
+1388,Fuegian Steamer Duck,0.603469,-5.11023,1.57529,1,6,baseline,False,1,0.603469,0.603469,0.603469
+1389,Saiga Antelope,0.60143,-5.11362,1.09453,1,5,baseline,False,1,0.60143,0.60143,0.60143
+1390,African Crowned Eagle,0.59048,-5.13199,0.232387,14,168,baseline,False,1,0.59048,0.59048,0.59048
+1391,Southern Tamandua (Lesser Anteater),0.588576,-5.13522,0.369072,6,45,baseline,False,1,0.588576,0.588576,0.588576
+1392,Psittacosaurus lujiatunensis,0.58841,-5.1355,1.81918,1,2,dinosaur,False,3.47337,2.04376,1.69131,2.46967
+1393,Brown Hare,0.587962,-5.13626,1.23806,2,11,baseline,False,1,0.587962,0.587962,0.587962
+1394,Kulang Asil,0.578898,-5.1518,1.3681,3,15,baseline,False,1,0.578898,0.578898,0.578898
+1395,American Bald Eagle,0.578308,-5.15282,0.251984,12,157,baseline,False,1,0.578308,0.578308,0.578308
+1396,Roe Deer,0.573456,-5.16124,0.776678,2,14,baseline,False,1,0.573456,0.573456,0.573456
+1397,African Savanna Hare,0.572102,-5.16361,1.07057,1,5,baseline,False,1,0.572102,0.572102,0.572102
+1398,Leopard Cat,0.561408,-5.18248,0.388216,4,59,baseline,False,1,0.561408,0.561408,0.561408
+1399,Tayra,0.561098,-5.18303,0.228457,20,217,baseline,False,1,0.561098,0.561098,0.561098
+1400,Brown Pelican,0.555308,-5.1934,0.785479,2,10,baseline,False,1,0.555308,0.555308,0.555308
+1401,Stoat (Short-tailed Weasel),0.55336,-5.19692,0.592412,8,57,baseline,False,1,0.55336,0.55336,0.55336
+1402,Fisher,0.553202,-5.1972,0.208741,24,327,baseline,False,1,0.553202,0.553202,0.553202
+1403,Amazonian Giant (Peruvian Giant Yellowleg) Centipede,0.552839,-5.19786,0.52703,12,123,baseline,False,1,0.552839,0.552839,0.552839
+1404,Collared Owlet,0.547499,-5.20756,1.51674,1,6,baseline,False,1,0.547499,0.547499,0.547499
+1405,Jagdterrier,0.546698,-5.20903,0.255259,10,165,baseline,False,1,0.546698,0.546698,0.546698
+1406,Eastern Diamondback Rattlesnake,0.545595,-5.21105,0.510122,3,25,baseline,False,1,0.545595,0.545595,0.545595
+1407,Coelophysis bauri,0.544331,-5.21337,0.598375,4,30,dinosaur,False,3.47337,1.89066,1.56461,2.28466
+1408,Wedge-tailed Eagle,0.538554,-5.22404,0.342078,5,55,baseline,False,1,0.538554,0.538554,0.538554
+1409,Culpeo Zorro (Andean Fox),0.53854,-5.22406,0.266147,10,113,baseline,False,1,0.53854,0.53854,0.53854
+1410,Verreaux's (African Black) Eagle,0.536779,-5.22734,0.313581,7,71,baseline,False,1,0.536779,0.536779,0.536779
+1411,Steller's Sea Eagle,0.535399,-5.22991,0.273026,11,118,baseline,False,1,0.535399,0.535399,0.535399
+1412,Emperor Scorpion,0.533856,-5.2328,0.560554,8,81,baseline,False,1,0.533856,0.533856,0.533856
+1413,Falkland Islands Wolf (Warrah),0.531083,-5.23801,0.616734,2,15,baseline,False,1,0.531083,0.531083,0.531083
+1414,Ground (Temminck's) Pangolin,0.528384,-5.2431,1.22401,1,3,baseline,False,1,0.528384,0.528384,0.528384
+1415,Side-striped Jackal,0.526739,-5.24622,0.919443,2,14,baseline,False,1,0.526739,0.526739,0.526739
+1416,Fishing Cat (female),0.52519,-5.24917,0.374795,3,38,baseline,False,1,0.52519,0.52519,0.52519
+1417,Plain-breasted Hawk,0.522206,-5.25486,0.741535,1,13,baseline,False,1,0.522206,0.522206,0.522206
+1418,Brontoscorpio anglicus,0.51944,-5.26018,0.726823,2,12,baseline,False,1,0.51944,0.51944,0.51944
+1419,Repenomamus robustus,0.51882,-5.26137,1.22066,3,13,baseline,False,1,0.51882,0.51882,0.51882
+1420,Wildcat,0.517426,-5.26406,0.376076,6,93,baseline,False,1,0.517426,0.517426,0.517426
+1421,Eurasian Sparrowhawk,0.512638,-5.27336,0.692765,3,21,baseline,False,1,0.512638,0.512638,0.512638
+1422,Goliath Heron,0.511944,-5.27471,0.535412,4,32,baseline,False,1,0.511944,0.511944,0.511944
+1423,Northern Bald Eagle,0.501725,-5.29487,0.510917,1,22,baseline,False,1,0.501725,0.501725,0.501725
+1424,Black-chested Buzzard-eagle,0.49787,-5.30259,0.493692,5,37,baseline,False,1,0.49787,0.49787,0.49787
+1425,Cape Griffon (Vulture),0.497289,-5.30375,0.608213,2,14,baseline,False,1,0.497289,0.497289,0.497289
+1426,Garganornis ballmanni,0.49695,-5.30444,1.09395,1,5,baseline,False,1,0.49695,0.49695,0.49695
+1427,North Andean Deer (Taruca),0.495253,-5.30786,0.767988,1,15,baseline,False,1,0.495253,0.495253,0.495253
+1428,Oriental Hornet (swarm of 20),0.493979,-5.31043,1.09337,1,5,baseline,False,1,0.493979,0.493979,0.493979
+1429,Indian Black Scorpion,0.49023,-5.31805,1.16145,1,5,baseline,False,1,0.49023,0.49023,0.49023
+1430,Common Raccoon,0.488275,-5.32205,0.233174,13,200,baseline,False,1,0.488275,0.488275,0.488275
+1431,Marabou Stork,0.48819,-5.32222,0.384575,7,50,baseline,False,1,0.48819,0.48819,0.48819
+1432,Thomson's Gazelle,0.484771,-5.32925,0.804756,1,10,baseline,False,1,0.484771,0.484771,0.484771
+1433,Madagascar (Malagasy) Ground Boa,0.483015,-5.33288,0.757358,1,8,baseline,False,1,0.483015,0.483015,0.483015
+1434,Bush Dog,0.481796,-5.3354,0.214433,20,277,baseline,False,1,0.481796,0.481796,0.481796
+1435,Elf Owl,0.477563,-5.34423,0.67044,5,60,baseline,False,1,0.477563,0.477563,0.477563
+1436,Hammer-headed Bat,0.47294,-5.35396,1.45355,1,5,baseline,False,1,0.47294,0.47294,0.47294
+1437,Tasmanian Wedge-tailed Eagle,0.469798,-5.36062,0.847288,1,7,baseline,False,1,0.469798,0.469798,0.469798
+1438,West African Gaboon Viper,0.466025,-5.36869,1.37014,1,4,baseline,False,1,0.466025,0.466025,0.466025
+1439,Muskrat,0.462996,-5.37521,1.36076,1,10,baseline,False,1,0.462996,0.462996,0.462996
+1440,Sia ferox,0.456013,-5.39041,0.735602,8,65,baseline,False,1,0.456013,0.456013,0.456013
+1441,Wandering Albatross,0.452134,-5.39895,0.734334,2,13,baseline,False,1,0.452134,0.452134,0.452134
+1442,Cooper's Hawk,0.447467,-5.40932,0.652231,3,20,baseline,False,1,0.447467,0.447467,0.447467
+1443,White-headed Vultures (2),0.444424,-5.41615,0.479148,2,19,baseline,False,1,0.444424,0.444424,0.444424
+1444,Eastern Grey Kangaroo,0.442144,-5.42129,0.784091,1,13,baseline,False,1,0.442144,0.442144,0.442144
+1445,Indian (Common) Gray Mongoose,0.44003,-5.42608,0.591178,3,23,baseline,False,1,0.44003,0.44003,0.44003
+1446,Scottish Wildcat,0.438669,-5.42918,0.235108,9,177,baseline,False,1,0.438669,0.438669,0.438669
+1447,Darwin's (Lesser) Rhea,0.437221,-5.43249,1.09225,1,5,baseline,False,1,0.437221,0.437221,0.437221
+1448,Short-eared Dog (Small-eared Zorro),0.4361,-5.43505,0.453948,2,24,baseline,False,1,0.4361,0.4361,0.4361
+1449,Goliath Bird Eating Spider,0.435938,-5.43543,0.494204,16,188,baseline,False,1,0.435938,0.435938,0.435938
+1450,Tropical Screech Owl,0.435871,-5.43558,1.08757,1,8,baseline,False,1,0.435871,0.435871,0.435871
+1451,Emu,0.429689,-5.44986,0.807214,1,12,baseline,False,1,0.429689,0.429689,0.429689
+1452,Patterdale Terrier,0.428278,-5.45315,0.284589,7,88,baseline,False,1,0.428278,0.428278,0.428278
+1453,White-backed Vulture,0.427726,-5.45444,1.46145,2,5,baseline,False,1,0.427726,0.427726,0.427726
+1454,Megalara garuda,0.426673,-5.45691,1.05082,1,7,baseline,False,1,0.426673,0.426673,0.426673
+1455,Linheraptor exquisitus,0.42545,-5.45978,1.03471,1,9,dinosaur,False,3.47337,1.47774,1.2229,1.7857
+1456,Thick-billed Raven,0.42382,-5.46362,0.960124,1,6,baseline,False,1,0.42382,0.42382,0.42382
+1457,Red Grouper,0.42126,-5.46967,1.11239,1,7,baseline,False,1,0.42126,0.42126,0.42126
+1458,New Zealand Longfin Eel,0.418313,-5.4767,1.6003,1,3,baseline,False,1,0.418313,0.418313,0.418313
+1459,Brown Snake Eagle,0.417445,-5.47877,1.69547,1,4,baseline,False,1,0.417445,0.417445,0.417445
+1460,European Wildcat,0.415216,-5.48413,0.331186,8,86,baseline,False,1,0.415216,0.415216,0.415216
+1461,Blue Racer,0.414347,-5.48622,1.24459,1,6,baseline,False,1,0.414347,0.414347,0.414347
+1462,Red Junglefowl,0.404651,-5.5099,0.519627,10,79,baseline,False,1,0.404651,0.404651,0.404651
+1463,Collared Pika,0.402939,-5.51414,1.24534,1,5,baseline,False,1,0.402939,0.402939,0.402939
+1464,Brown (Norway) Rat,0.402395,-5.51549,0.505336,9,91,baseline,False,1,0.402395,0.402395,0.402395
+1465,Porcupine River Stingray,0.400083,-5.52125,0.658686,2,26,baseline,False,1,0.400083,0.400083,0.400083
+1466,American Bullfrog,0.395487,-5.53281,0.956002,4,22,baseline,False,1,0.395487,0.395487,0.395487
+1467,White-headed Vulture,0.39513,-5.53371,0.340512,11,77,baseline,False,1,0.39513,0.39513,0.39513
+1468,European Hamster,0.390904,-5.54446,1.03954,1,5,baseline,False,1,0.390904,0.390904,0.390904
+1469,Bateleur,0.389323,-5.54852,1.40313,2,15,baseline,False,1,0.389323,0.389323,0.389323
+1470,Red-Bellied Piranha (school of 2),0.388375,-5.55095,0.809234,1,10,baseline,False,1,0.388375,0.388375,0.388375
+1471,Red-headed Vulture,0.383696,-5.56308,0.487326,5,25,baseline,False,1,0.383696,0.383696,0.383696
+1472,Thylophorops lorenzinii,0.383692,-5.56308,0.830285,1,8,baseline,False,1,0.383692,0.383692,0.383692
+1473,African Clawless Otter,0.380847,-5.57053,1.02849,1,8,baseline,False,1,0.380847,0.380847,0.380847
+1474,Southern Ground-hornbills (2),0.380336,-5.57187,0.747058,1,6,baseline,False,1,0.380336,0.380336,0.380336
+1475,Western Marsh Harrier,0.379588,-5.57384,1.29301,1,8,baseline,False,1,0.379588,0.379588,0.379588
+1476,Spotted-tail (Tiger) Quoll,0.378993,-5.57541,0.322689,11,92,baseline,False,1,0.378993,0.378993,0.378993
+1477,Greater Grison,0.373355,-5.59039,0.747023,4,30,baseline,False,1,0.373355,0.373355,0.373355
+1478,Royal Antelope,0.361664,-5.62221,0.571991,6,40,baseline,False,1,0.361664,0.361664,0.361664
+1479,Shoebill,0.357129,-5.63483,0.487098,4,40,baseline,False,1,0.357129,0.357129,0.357129
+1480,Argentine Black and White Tegu,0.3544,-5.6425,0.270602,16,145,baseline,False,1,0.3544,0.3544,0.3544
+1481,Steppe Polecat,0.350566,-5.65338,1.36233,1,8,baseline,False,1,0.350566,0.350566,0.350566
+1482,Desert Monitor,0.346374,-5.66541,0.944054,2,15,baseline,False,1,0.346374,0.346374,0.346374
+1483,Short-eared Owl,0.344539,-5.67072,0.882119,2,9,baseline,False,1,0.344539,0.344539,0.344539
+1484,American Crow,0.343985,-5.67233,0.794109,4,19,baseline,False,1,0.343985,0.343985,0.343985
+1485,Black Drongo,0.343244,-5.67448,0.901278,1,7,baseline,False,1,0.343244,0.343244,0.343244
+1486,Eastern (Common) Brown Snake,0.34227,-5.67733,0.939175,3,10,baseline,False,1,0.34227,0.34227,0.34227
+1487,African Bullfrog,0.341649,-5.67914,0.693824,4,37,baseline,False,1,0.341649,0.341649,0.341649
+1488,Sunda Leopard Cat,0.336843,-5.69331,0.644072,2,24,baseline,False,1,0.336843,0.336843,0.336843
+1489,Southern Giant Petrel,0.334261,-5.701,0.543318,6,35,baseline,False,1,0.334261,0.334261,0.334261
+1490,Hyaenodon mustelinus,0.331271,-5.70999,0.675478,1,10,baseline,False,1,0.331271,0.331271,0.331271
+1491,White-tailed Hawk,0.326743,-5.72375,0.675407,2,17,baseline,False,1,0.326743,0.326743,0.326743
+1492,Blue Iguana,0.324709,-5.73,0.491224,3,30,baseline,False,1,0.324709,0.324709,0.324709
+1493,Tibetan (Sand) Fox,0.324508,-5.73062,0.826554,2,17,baseline,False,1,0.324508,0.324508,0.324508
+1494,Giant Snakehead,0.321268,-5.74065,0.524022,4,37,baseline,False,1,0.321268,0.321268,0.321268
+1495,Black Hawk-eagle,0.319896,-5.74493,0.84476,1,9,baseline,False,1,0.319896,0.319896,0.319896
+1496,Cuban Rock Iguana,0.31768,-5.75188,1.12139,1,5,baseline,False,1,0.31768,0.31768,0.31768
+1497,Bonelli's Eagle,0.316861,-5.75446,0.489962,4,31,baseline,False,1,0.316861,0.316861,0.316861
+1498,Rusty-spotted Cat,0.312694,-5.7677,0.408562,7,84,baseline,False,1,0.312694,0.312694,0.312694
+1499,Lar Gibbon,0.310826,-5.77369,0.435025,2,46,baseline,False,1,0.310826,0.310826,0.310826
+1500,North American Porcupine,0.309703,-5.77731,0.8368,2,8,baseline,False,1,0.309703,0.309703,0.309703
+1501,Great Horned Owl,0.309333,-5.77851,0.414485,8,71,baseline,False,1,0.309333,0.309333,0.309333
+1502,Asian Giant Hornet,0.309101,-5.77926,0.73231,12,136,baseline,False,1,0.309101,0.309101,0.309101
+1503,Wild Turkey (rafter of 2),0.306876,-5.78648,0.793861,1,5,baseline,False,1,0.306876,0.306876,0.306876
+1504,Mute Swan,0.3066,-5.78738,0.782844,2,20,baseline,False,1,0.3066,0.3066,0.3066
+1505,Arctic Hare,0.30648,-5.78777,1.48938,1,6,baseline,False,1,0.30648,0.30648,0.30648
+1506,Golden Tree (Ornate Flying) Snake,0.305003,-5.7926,1.32172,1,3,baseline,False,1,0.305003,0.305003,0.305003
+1507,Southern Mussurana,0.303598,-5.79722,0.837008,3,21,baseline,False,1,0.303598,0.303598,0.303598
+1508,Shar Pei,0.301416,-5.80443,1.02836,1,12,baseline,False,1,0.301416,0.301416,0.301416
+1509,Tibetan Macaque,0.301252,-5.80498,0.782628,2,13,baseline,False,1,0.301252,0.301252,0.301252
+1510,Ornitholestes hermanni,0.300166,-5.80859,1.32394,1,3,dinosaur,False,3.47337,1.04259,0.862788,1.25985
+1511,Pallas's Cat,0.297615,-5.81713,0.875437,2,15,baseline,False,1,0.297615,0.297615,0.297615
+1512,Gobiconodon spp.,0.294958,-5.82609,0.957573,1,5,baseline,False,1,0.294958,0.294958,0.294958
+1513,Wild Turkey,0.293737,-5.83024,0.474714,5,50,baseline,False,1,0.293737,0.293737,0.293737
+1514,Greater Roadrunner,0.293125,-5.83233,0.690459,4,28,baseline,False,1,0.293125,0.293125,0.293125
+1515,Jack Russell Terrier,0.29206,-5.83597,0.334874,4,59,baseline,False,1,0.29206,0.29206,0.29206
+1516,Cuban Giant Owl,0.290738,-5.8405,0.432829,5,42,baseline,False,1,0.290738,0.290738,0.290738
+1517,Fahaka Pufferfish,0.2901,-5.8427,1.21594,1,4,baseline,False,1,0.2901,0.2901,0.2901
+1518,Little Brown Bat,0.288296,-5.84894,1.48147,1,5,baseline,False,1,0.288296,0.288296,0.288296
+1519,Marbled Cat,0.287564,-5.85148,1.36959,1,7,baseline,False,1,0.287564,0.287564,0.287564
+1520,Bornean Bay Cat,0.287396,-5.85207,0.560925,1,17,baseline,False,1,0.287396,0.287396,0.287396
+1521,Goliath Frog,0.285485,-5.85874,0.576392,5,31,baseline,False,1,0.285485,0.285485,0.285485
+1522,White-tailed Sea Eagle,0.281051,-5.87439,0.373076,5,46,baseline,False,1,0.281051,0.281051,0.281051
+1523,Red Fox,0.276308,-5.89141,0.228841,19,252,baseline,False,1,0.276308,0.276308,0.276308
+1524,Eastern Indigo Snake,0.275283,-5.89513,1.2899,1,4,baseline,False,1,0.275283,0.275283,0.275283
+1525,Raccoon Dog,0.269288,-5.91714,0.438154,5,50,baseline,False,1,0.269288,0.269288,0.269288
+1526,Redeye (Black) Piranha,0.268592,-5.91973,0.718383,3,20,baseline,False,1,0.268592,0.268592,0.268592
+1527,Booted Eagle,0.263306,-5.93961,0.648598,3,19,baseline,False,1,0.263306,0.263306,0.263306
+1528,American Marten,0.262944,-5.94098,0.661439,1,19,baseline,False,1,0.262944,0.262944,0.262944
+1529,Burrowing Owl,0.262382,-5.94312,0.629029,5,35,baseline,False,1,0.262382,0.262382,0.262382
+1530,Ruppell's Griffon Vulture,0.261693,-5.94576,0.416057,5,35,baseline,False,1,0.261693,0.261693,0.261693
+1531,Red Panda,0.255488,-5.96975,0.552596,3,26,baseline,False,1,0.255488,0.255488,0.255488
+1532,Rhesus Macaque,0.254193,-5.97483,0.336926,7,60,baseline,False,1,0.254193,0.254193,0.254193
+1533,Black-footed Cat,0.253428,-5.97784,0.469668,8,79,baseline,False,1,0.253428,0.253428,0.253428
+1534,Northern Grasshopper Mouse,0.253223,-5.97865,0.862813,6,43,baseline,False,1,0.253223,0.253223,0.253223
+1535,Blue Jay (band of 5),0.251936,-5.98375,0.783721,1,9,baseline,False,1,0.251936,0.251936,0.251936
+1536,Yellow-throated Marten,0.250255,-5.99045,0.282716,11,134,baseline,False,1,0.250255,0.250255,0.250255
+1537,Tawny Eagle,0.249414,-5.99381,0.432074,7,47,baseline,False,1,0.249414,0.249414,0.249414
+1538,Brown Paper Wasp,0.248994,-5.9955,1.69499,1,3,baseline,False,1,0.248994,0.248994,0.248994
+1539,Asiatic Wildcat,0.248885,-5.99593,0.623575,1,14,baseline,False,1,0.248885,0.248885,0.248885
+1540,Asian Small-clawed Otter,0.246799,-6.00435,0.691824,2,16,baseline,False,1,0.246799,0.246799,0.246799
+1541,Fer de Lance (Lancehead Pit Viper),0.246732,-6.00462,0.870576,2,10,baseline,False,1,0.246732,0.246732,0.246732
+1542,Pygmy Coral Snake,0.246094,-6.00721,0.859038,1,10,baseline,False,1,0.246094,0.246094,0.246094
+1543,Royal (Ball) Python,0.245242,-6.01068,0.702057,3,28,baseline,False,1,0.245242,0.245242,0.245242
+1544,Gray Fox,0.244678,-6.01298,0.399088,4,56,baseline,False,1,0.244678,0.244678,0.244678
+1545,Brazilian Giant Tawny Red Tarantula,0.244337,-6.01438,1.04761,1,7,baseline,False,1,0.244337,0.244337,0.244337
+1546,Gambian Pouched Rat,0.243467,-6.01795,1.12983,1,5,baseline,False,1,0.243467,0.243467,0.243467
+1547,Eurasian Eagle-owl,0.243257,-6.01881,0.325156,10,109,baseline,False,1,0.243257,0.243257,0.243257
+1548,Ferruginous Hawk,0.243135,-6.01931,0.559488,3,29,baseline,False,1,0.243135,0.243135,0.243135
+1549,Slender Mongoose,0.238913,-6.03683,1.00576,1,7,baseline,False,1,0.238913,0.238913,0.238913
+1550,Alexandrine Parakeet,0.238499,-6.03856,1.40809,1,4,baseline,False,1,0.238499,0.238499,0.238499
+1551,American Kestrel,0.226046,-6.09219,0.707213,3,28,baseline,False,1,0.226046,0.226046,0.226046
+1552,Yamaceratops dorngobiensis,0.225021,-6.09673,0.895947,2,12,dinosaur,False,3.47337,0.781581,0.646794,0.944457
+1553,Toque Macaque,0.224508,-6.09901,0.93478,1,6,baseline,False,1,0.224508,0.224508,0.224508
+1554,Spotted Owl,0.223798,-6.10218,1.28574,1,3,baseline,False,1,0.223798,0.223798,0.223798
+1555,Bearded Vulture,0.221736,-6.11144,0.377545,7,52,baseline,False,1,0.221736,0.221736,0.221736
+1556,Standard Poodle,0.220696,-6.11614,0.795651,1,11,baseline,False,1,0.220696,0.220696,0.220696
+1557,House Crow,0.219952,-6.11952,1.01985,3,19,baseline,False,1,0.219952,0.219952,0.219952
+1558,White-tailed Jackrabbit,0.218585,-6.12575,1.09375,1,8,baseline,False,1,0.218585,0.218585,0.218585
+1559,Mangrove Monitor,0.216542,-6.13514,1.24862,1,6,baseline,False,1,0.216542,0.216542,0.216542
+1560,Chinese Desert (or Mountain) Cat,0.215208,-6.14132,1.10021,2,18,baseline,False,1,0.215208,0.215208,0.215208
+1561,Red-tailed Hawk,0.214371,-6.14522,0.443825,6,57,baseline,False,1,0.214371,0.214371,0.214371
+1562,Margay,0.214083,-6.14656,0.463043,5,45,baseline,False,1,0.214083,0.214083,0.214083
+1563,Black Rat,0.213697,-6.14837,0.742983,4,28,baseline,False,1,0.213697,0.213697,0.213697
+1564,White-tailed Dunnart,0.21369,-6.1484,1.23598,1,4,baseline,False,1,0.21369,0.21369,0.21369
+1565,White-throated Monitor,0.213468,-6.14944,0.821863,1,9,baseline,False,1,0.213468,0.213468,0.213468
+1566,Coconut (Robber) Crab,0.212544,-6.15377,0.469808,9,78,baseline,False,1,0.212544,0.212544,0.212544
+1567,Mussurana,0.212105,-6.15585,0.706334,2,14,baseline,False,1,0.212105,0.212105,0.212105
+1568,Common Eider,0.212079,-6.15597,0.995417,1,6,baseline,False,1,0.212079,0.212079,0.212079
+1569,Peregrine Falcon,0.210273,-6.16452,0.424624,8,65,baseline,False,1,0.210273,0.210273,0.210273
+1570,Common Vampire Bat,0.207921,-6.17577,1.10038,1,6,baseline,False,1,0.207921,0.207921,0.207921
+1571,Southern Ground-hornbill,0.202656,-6.20142,0.517417,3,18,baseline,False,1,0.202656,0.202656,0.202656
+1572,Geoffroy's Cat,0.201752,-6.20589,0.457823,5,46,baseline,False,1,0.201752,0.201752,0.201752
+1573,Trumpeter Swan,0.201493,-6.20717,0.622007,3,17,baseline,False,1,0.201493,0.201493,0.201493
+1574,Common Octopus,0.200283,-6.2132,1.1191,1,4,baseline,False,1,0.200283,0.200283,0.200283
+1575,Lesser Grison,0.199712,-6.21605,0.860804,1,7,baseline,False,1,0.199712,0.199712,0.199712
+1576,Common Green Iguana,0.198843,-6.22041,0.663923,4,27,baseline,False,1,0.198843,0.198843,0.198843
+1577,Bengal (Common Indian) Monitor,0.197641,-6.22647,0.869145,1,7,baseline,False,1,0.197641,0.197641,0.197641
+1578,Auckland Tree Weta (male),0.197393,-6.22773,1.09365,1,7,baseline,False,1,0.197393,0.197393,0.197393
+1579,Southern Grasshopper Mouse,0.196639,-6.23155,0.752651,7,49,baseline,False,1,0.196639,0.196639,0.196639
+1580,Corsac Fox,0.196305,-6.23326,0.992928,2,13,baseline,False,1,0.196305,0.196305,0.196305
+1581,Sharpe's Grysbok,0.195048,-6.23968,0.991519,1,8,baseline,False,1,0.195048,0.195048,0.195048
+1582,Himalayan Vulture,0.191573,-6.25766,1.01158,2,12,baseline,False,1,0.191573,0.191573,0.191573
+1583,Shiba Inu,0.190925,-6.26105,0.766905,2,29,baseline,False,1,0.190925,0.190925,0.190925
+1584,Great Black-backed Gull,0.190785,-6.26178,0.423089,11,93,baseline,False,1,0.190785,0.190785,0.190785
+1585,Australian Magpies (2),0.189563,-6.2682,0.760408,2,13,baseline,False,1,0.189563,0.189563,0.189563
+1586,Himalayan Red Panda,0.188935,-6.27152,0.488152,3,27,baseline,False,1,0.188935,0.188935,0.188935
+1587,Common Raven (unkindness of 4),0.18753,-6.27898,0.719845,1,6,baseline,False,1,0.18753,0.18753,0.18753
+1588,American Black Vulture,0.186026,-6.28704,0.576739,3,31,baseline,False,1,0.186026,0.186026,0.186026
+1589,Northern Pike,0.185118,-6.29193,1.05189,2,11,baseline,False,1,0.185118,0.185118,0.185118
+1590,Crab-eating Fox,0.184062,-6.29765,0.529633,5,31,baseline,False,1,0.184062,0.184062,0.184062
+1591,Barbary Macaque,0.183214,-6.30227,1.09698,1,7,baseline,False,1,0.183214,0.183214,0.183214
+1592,Red Kite,0.18311,-6.30284,0.730486,3,21,baseline,False,1,0.18311,0.18311,0.18311
+1593,Laughing Kookaburra,0.179143,-6.32474,0.808893,6,30,baseline,False,1,0.179143,0.179143,0.179143
+1594,Eastern (or Asian) Imperial Eagle,0.173888,-6.35452,0.817369,2,17,baseline,False,1,0.173888,0.173888,0.173888
+1595,Gyrfalcon,0.173521,-6.35663,0.474191,3,47,baseline,False,1,0.173521,0.173521,0.173521
+1596,Pampas Deer,0.172079,-6.36497,1.06031,1,7,baseline,False,1,0.172079,0.172079,0.172079
+1597,Banded Mongoose,0.172004,-6.3654,0.633827,2,16,baseline,False,1,0.172004,0.172004,0.172004
+1598,Anatolian Predatory Bush-cricket,0.170302,-6.37535,1.3221,1,4,baseline,False,1,0.170302,0.170302,0.170302
+1599,Verreaux's (Giant) Eagle-Owl,0.167757,-6.39041,0.377743,8,61,baseline,False,1,0.167757,0.167757,0.167757
+1600,Cozumel Raccoon,0.16446,-6.41026,0.877311,1,7,baseline,False,1,0.16446,0.16446,0.16446
+1601,American Red Fox,0.161874,-6.42611,0.472582,2,31,baseline,False,1,0.161874,0.161874,0.161874
+1602,Egyptian Giant Solpugid,0.161554,-6.42809,1.09959,3,52,baseline,False,1,0.161554,0.161554,0.161554
+1603,Bengal Cat (female),0.159803,-6.43899,0.741592,1,12,baseline,False,1,0.159803,0.159803,0.159803
+1604,Manticora imperator,0.158814,-6.44519,1.22388,1,11,baseline,False,1,0.158814,0.158814,0.158814
+1605,Horrid King Assassin Bug,0.157563,-6.4531,0.834707,3,28,baseline,False,1,0.157563,0.157563,0.157563
+1606,Patas Monkey,0.157263,-6.45501,1.20196,1,9,baseline,False,1,0.157263,0.157263,0.157263
+1607,Cape Fox,0.15719,-6.45547,0.438643,6,43,baseline,False,1,0.15719,0.15719,0.15719
+1608,Pygmy (Short-tailed) Monitor,0.156246,-6.46149,1.06143,1,7,baseline,False,1,0.156246,0.156246,0.156246
+1609,Silvery Marmoset,0.154128,-6.47514,0.937127,1,8,baseline,False,1,0.154128,0.154128,0.154128
+1610,Coastal Taipan,0.152632,-6.4849,1.01147,1,5,baseline,False,1,0.152632,0.152632,0.152632
+1611,Vervet Monkey,0.152391,-6.48648,0.986542,1,8,baseline,False,1,0.152391,0.152391,0.152391
+1612,Turkey Vulture,0.152196,-6.48776,0.878673,1,9,baseline,False,1,0.152196,0.152196,0.152196
+1613,Northern Goshawk,0.151692,-6.49107,0.461968,7,84,baseline,False,1,0.151692,0.151692,0.151692
+1614,Great Skua (Bonxie),0.151445,-6.4927,0.611279,3,18,baseline,False,1,0.151445,0.151445,0.151445
+1615,Magnificent Frigatebird,0.150657,-6.49792,1.10461,1,6,baseline,False,1,0.150657,0.150657,0.150657
+1616,Rook,0.149295,-6.507,1.36092,1,11,baseline,False,1,0.149295,0.149295,0.149295
+1617,Black-billed Magpie,0.147696,-6.51777,1.33459,1,3,baseline,False,1,0.147696,0.147696,0.147696
+1618,Common (Small-spotted) Genet,0.145694,-6.53142,0.697966,6,43,baseline,False,1,0.145694,0.145694,0.145694
+1619,Molina's Hog-nosed Skunk,0.144802,-6.53756,0.666307,2,15,baseline,False,1,0.144802,0.144802,0.144802
+1620,King Brown (Mulga) Snake,0.144119,-6.54229,0.734462,3,23,baseline,False,1,0.144119,0.144119,0.144119
+1621,Canada Goose,0.143588,-6.54597,1.0792,1,7,baseline,False,1,0.143588,0.143588,0.143588
+1622,American Mink,0.143397,-6.54731,0.404806,11,102,baseline,False,1,0.143397,0.143397,0.143397
+1623,European Honey Buzzard,0.142433,-6.55406,1.12218,1,4,baseline,False,1,0.142433,0.142433,0.142433
+1624,Key Deer (Doe),0.141372,-6.56153,1.08946,1,10,baseline,False,1,0.141372,0.141372,0.141372
+1625,Spectral Bat,0.138697,-6.58063,0.722929,5,38,baseline,False,1,0.138697,0.138697,0.138697
+1626,Great Flying Fox,0.138216,-6.58411,0.968901,1,6,baseline,False,1,0.138216,0.138216,0.138216
+1627,Gentoo Penguin,0.135109,-6.60684,1.1974,2,10,baseline,False,1,0.135109,0.135109,0.135109
+1628,Spot-bellied Eagle-owl,0.134597,-6.61064,0.913727,1,7,baseline,False,1,0.134597,0.134597,0.134597
+1629,O Shamo' (Shamo Chicken),0.131122,-6.6368,0.591256,2,17,baseline,False,1,0.131122,0.131122,0.131122
+1630,Fennec Fox,0.130006,-6.64534,0.535895,7,65,baseline,False,1,0.130006,0.130006,0.130006
+1631,Japanese Spider Crab,0.129949,-6.64578,1.13279,1,11,baseline,False,1,0.129949,0.129949,0.129949
+1632,Savannah Monitor,0.129746,-6.64735,0.641326,2,15,baseline,False,1,0.129746,0.129746,0.129746
+1633,Mertens' Water Monitor,0.128729,-6.65521,1.43803,1,4,baseline,False,1,0.128729,0.128729,0.128729
+1634,Surinam Horned Frog,0.128502,-6.65698,1.29883,1,4,baseline,False,1,0.128502,0.128502,0.128502
+1635,Secretary Bird,0.128453,-6.65736,0.324191,14,148,baseline,False,1,0.128453,0.128453,0.128453
+1636,Brown Skua,0.127469,-6.66505,0.702214,2,15,baseline,False,1,0.127469,0.127469,0.127469
+1637,Harris's Hawk,0.126728,-6.67088,0.788391,1,12,baseline,False,1,0.126728,0.126728,0.126728
+1638,Butler's Garter Snake,0.124189,-6.69112,1.25176,1,7,baseline,False,1,0.124189,0.124189,0.124189
+1639,Common Raven,0.12235,-6.70604,0.474183,8,83,baseline,False,1,0.12235,0.12235,0.12235
+1640,Indian Eagle-owl,0.122271,-6.70668,1.46454,1,4,baseline,False,1,0.122271,0.122271,0.122271
+1641,White-bellied Sea Eagle,0.121214,-6.71537,0.676038,2,14,baseline,False,1,0.121214,0.121214,0.121214
+1642,Red-throated Loon,0.121207,-6.71542,0.939508,1,9,baseline,False,1,0.121207,0.121207,0.121207
+1643,Common Barn Owl,0.12056,-6.72078,1.01224,2,16,baseline,False,1,0.12056,0.12056,0.12056
+1644,Western Pygmy Marmoset,0.120358,-6.72245,0.897552,3,18,baseline,False,1,0.120358,0.120358,0.120358
+1645,Giant Petaltail,0.119381,-6.73061,0.987679,1,11,baseline,False,1,0.119381,0.119381,0.119381
+1646,Miniature Fox Terrier,0.118308,-6.73963,0.756352,3,26,baseline,False,1,0.118308,0.118308,0.118308
+1647,Roe Deer (Doe),0.116464,-6.75534,1.11709,1,5,baseline,False,1,0.116464,0.116464,0.116464
+1648,Southern Crested Caracara,0.115729,-6.76168,0.699157,2,22,baseline,False,1,0.115729,0.115729,0.115729
+1649,South American Coati,0.11492,-6.76869,0.800395,3,26,baseline,False,1,0.11492,0.11492,0.11492
+1650,Sugar Glider,0.114151,-6.7754,1.4418,1,4,baseline,False,1,0.114151,0.114151,0.114151
+1651,Little Owl,0.113771,-6.77874,0.979132,1,9,baseline,False,1,0.113771,0.113771,0.113771
+1652,Russian Toy Terrier,0.112791,-6.78739,1.27309,1,7,baseline,False,1,0.112791,0.112791,0.112791
+1653,Pygmy Hog,0.111263,-6.80103,1.09935,4,26,baseline,False,1,0.111263,0.111263,0.111263
+1654,Osprey,0.110805,-6.80515,0.517352,4,34,baseline,False,1,0.110805,0.110805,0.110805
+1655,Arctic Fox,0.110736,-6.80578,0.529287,2,28,baseline,False,1,0.110736,0.110736,0.110736
+1656,Proailurus lemanensis,0.109896,-6.81339,1.25001,1,12,baseline,False,1,0.109896,0.109896,0.109896
+1657,Yi qi,0.108465,-6.8265,0.933519,3,25,dinosaur,False,3.47337,0.376739,0.311768,0.455249
+1658,Myrmecia brevinoda,0.108405,-6.82705,1.19495,3,14,baseline,False,1,0.108405,0.108405,0.108405
+1659,Dragon Headed Katydid,0.104365,-6.86503,1.2631,1,6,baseline,False,1,0.104365,0.104365,0.104365
+1660,Asian House Shrew,0.103731,-6.87112,1.06743,3,17,baseline,False,1,0.103731,0.103731,0.103731
+1661,Indian Peacock,0.1027,-6.88111,0.772777,4,25,baseline,False,1,0.1027,0.1027,0.1027
+1662,Compsognathus longipes,0.102602,-6.88206,0.505733,4,39,dinosaur,False,3.47337,0.356375,0.294916,0.43064
+1663,Tawny Frogmouth,0.101927,-6.88867,1.42173,1,3,baseline,False,1,0.101927,0.101927,0.101927
+1664,Snowy (Arctic) Owl,0.101354,-6.89431,0.433043,5,48,baseline,False,1,0.101354,0.101354,0.101354
+1665,Papuan Harpy Eagle,0.100129,-6.90646,0.907869,2,15,baseline,False,1,0.100129,0.100129,0.100129
+1666,Oncilla (Little Spotted Cat),0.0991546,-6.91625,1.06824,1,10,baseline,False,1,0.0991546,0.0991546,0.0991546
+1667,Sulphur-crested Cockatoo,0.0951161,-6.95783,1.14755,2,14,baseline,False,1,0.0951161,0.0951161,0.0951161
+1668,Archaeopteryx lithographica,0.0941047,-6.96852,1.04236,1,5,dinosaur,False,3.47337,0.32686,0.270492,0.394976
+1669,Aardwolf,0.0937383,-6.97242,0.422456,4,66,baseline,False,1,0.0937383,0.0937383,0.0937383
+1670,Giant Huntsman Spider,0.0909236,-7.00291,1.1303,1,8,baseline,False,1,0.0909236,0.0909236,0.0909236
+1671,King Vulture,0.09071,-7.00526,1.08894,1,6,baseline,False,1,0.09071,0.09071,0.09071
+1672,Giant Desert Centipede,0.0886736,-7.02796,1.00425,5,49,baseline,False,1,0.0886736,0.0886736,0.0886736
+1673,Shih Tzu,0.0880641,-7.03486,1.09509,2,17,baseline,False,1,0.0880641,0.0880641,0.0880641
+1674,Blakiston's Fish-owl,0.0866478,-7.05107,0.86064,1,8,baseline,False,1,0.0866478,0.0866478,0.0866478
+1675,Lettered Aracari,0.0858854,-7.05991,1.30373,1,4,baseline,False,1,0.0858854,0.0858854,0.0858854
+1676,Great Blue Heron,0.0855317,-7.06404,0.630565,4,27,baseline,False,1,0.0855317,0.0855317,0.0855317
+1677,Feral Cat,0.0837552,-7.08503,0.703805,2,34,baseline,False,1,0.0837552,0.0837552,0.0837552
+1678,Snow Petrel,0.0832032,-7.09164,1.09116,2,7,baseline,False,1,0.0832032,0.0832032,0.0832032
+1679,Cobalt Blue Tarantula,0.0826727,-7.09804,1.24947,1,12,baseline,False,1,0.0826727,0.0826727,0.0826727
+1680,Striped Skunk,0.0824547,-7.10068,0.555523,7,39,baseline,False,1,0.0824547,0.0824547,0.0824547
+1681,Eastern Garter Snake,0.0813052,-7.11472,1.32226,1,4,baseline,False,1,0.0813052,0.0813052,0.0813052
+1682,Tarantula Hawk Wasp,0.0797741,-7.13373,0.913731,1,20,baseline,False,1,0.0797741,0.0797741,0.0797741
+1683,Venezuelan Red Howler,0.0775915,-7.16147,1.03468,1,9,baseline,False,1,0.0775915,0.0775915,0.0775915
+1684,Pig-nosed Turtle,0.0740815,-7.20776,1.15529,1,6,baseline,False,1,0.0740815,0.0740815,0.0740815
+1685,Inland Taipan (Fierce Snake),0.0736444,-7.21368,0.803858,1,10,baseline,False,1,0.0736444,0.0736444,0.0736444
+1686,Reeves's Muntjac,0.0724836,-7.22956,1.02964,1,8,baseline,False,1,0.0724836,0.0724836,0.0724836
+1687,Mallard Duck,0.0722809,-7.23237,0.636121,2,22,baseline,False,1,0.0722809,0.0722809,0.0722809
+1688,Triconodon mordax,0.0718882,-7.23781,1.1606,1,5,baseline,False,1,0.0718882,0.0718882,0.0718882
+1689,Desmarest's Hutia,0.0702858,-7.26036,1.21963,1,4,baseline,False,1,0.0702858,0.0702858,0.0702858
+1690,Herring Gull,0.0692749,-7.27484,0.687823,2,23,baseline,False,1,0.0692749,0.0692749,0.0692749
+1691,Klipspringer,0.068454,-7.28676,0.909305,1,6,baseline,False,1,0.068454,0.068454,0.068454
+1692,Common Ravens (2),0.0680261,-7.29303,0.654548,1,13,baseline,False,1,0.0680261,0.0680261,0.0680261
+1693,Collared Mangabey,0.0679847,-7.29364,1.02932,1,10,baseline,False,1,0.0679847,0.0679847,0.0679847
+1694,Giant Desert Hairy Scorpion,0.0676178,-7.29905,1.19427,1,21,baseline,False,1,0.0676178,0.0676178,0.0676178
+1695,Striped Polecat,0.0654572,-7.33153,1.03728,1,10,baseline,False,1,0.0654572,0.0654572,0.0654572
+1696,Malay Chicken,0.0652642,-7.33448,1.25593,1,11,baseline,False,1,0.0652642,0.0652642,0.0652642
+1697,Chinese Mantis,0.0652577,-7.33458,0.973243,2,23,baseline,False,1,0.0652577,0.0652577,0.0652577
+1698,Northern (Abyssinian) Ground Hornbill,0.0646284,-7.34427,0.761909,2,10,baseline,False,1,0.0646284,0.0646284,0.0646284
+1699,Hercules Beetle,0.064584,-7.34496,1.33576,1,5,baseline,False,1,0.064584,0.064584,0.064584
+1700,Elephant Beetle,0.0642007,-7.35091,1.22773,1,6,baseline,False,1,0.0642007,0.0642007,0.0642007
+1701,Grey Heron,0.0630367,-7.36921,0.908081,1,7,baseline,False,1,0.0630367,0.0630367,0.0630367
+1702,Virginia Opossum,0.0625569,-7.37685,0.881256,3,26,baseline,False,1,0.0625569,0.0625569,0.0625569
+1703,Mexican Beaded Lizard,0.0614921,-7.39402,1.02479,1,9,baseline,False,1,0.0614921,0.0614921,0.0614921
+1704,Russian Blue,0.0594112,-7.42844,1.03118,1,11,baseline,False,1,0.0594112,0.0594112,0.0594112
+1705,Eugryllacris guomashan,0.0568353,-7.47277,1.61273,1,4,baseline,False,1,0.0568353,0.0568353,0.0568353
+1706,Emerald Tree Boa,0.0567155,-7.47488,1.24653,1,5,baseline,False,1,0.0567155,0.0567155,0.0567155
+1707,Brown Crab,0.0565953,-7.477,1.0331,1,12,baseline,False,1,0.0565953,0.0565953,0.0565953
+1708,Black-footed Ferret,0.0564,-7.48046,1.16952,1,6,baseline,False,1,0.0564,0.0564,0.0564
+1709,Saga pedo,0.0563533,-7.48128,1.02514,2,25,baseline,False,1,0.0563533,0.0563533,0.0563533
+1710,Giant Golden-crowned Flying-fox,0.0552304,-7.50141,0.826722,1,10,baseline,False,1,0.0552304,0.0552304,0.0552304
+1711,Pallas's Fish Eagle,0.0546879,-7.51128,1.45249,1,5,baseline,False,1,0.0546879,0.0546879,0.0546879
+1712,White-tailed Mongoose,0.0537395,-7.52878,0.904077,3,20,baseline,False,1,0.0537395,0.0537395,0.0537395
+1713,Nine-banded Armadillo,0.0536391,-7.53065,1.07764,2,10,baseline,False,1,0.0536391,0.0536391,0.0536391
+1714,Malayan Civet,0.051679,-7.56787,1.09897,1,9,baseline,False,1,0.051679,0.051679,0.051679
+1715,Powerful Owl,0.0514726,-7.57188,1.08039,1,8,baseline,False,1,0.0514726,0.0514726,0.0514726
+1716,Two-spotted Ground Beetle,0.05093,-7.58247,1.29688,2,9,baseline,False,1,0.05093,0.05093,0.05093
+1717,Blond Capuchins (2),0.050667,-7.58765,1.13489,1,7,baseline,False,1,0.050667,0.050667,0.050667
+1718,Black-tailed Rattlesnake,0.049681,-7.6073,1.33074,1,3,baseline,False,1,0.049681,0.049681,0.049681
+1719,Western Siberian Eagle Owl,0.0492369,-7.61628,0.935337,1,11,baseline,False,1,0.0492369,0.0492369,0.0492369
+1720,Chihuahua,0.0476063,-7.64996,0.853522,3,32,baseline,False,1,0.0476063,0.0476063,0.0476063
+1721,Black Mamba,0.0475949,-7.6502,0.547385,3,34,baseline,False,1,0.0475949,0.0475949,0.0475949
+1722,Loggerhead Shrike,0.0468778,-7.66538,1.33241,1,7,baseline,False,1,0.0468778,0.0468778,0.0468778
+1723,Manticora Tiger Beetle,0.0468778,-7.66538,1.33241,1,7,baseline,False,1,0.0468778,0.0468778,0.0468778
+1724,Gold Tegu,0.0467818,-7.66743,1.23589,1,10,baseline,False,1,0.0467818,0.0467818,0.0467818
+1725,Australian (Torresian) Crow,0.0465933,-7.67147,1.17291,2,14,baseline,False,1,0.0465933,0.0465933,0.0465933
+1726,Dalmatian Pelican,0.0452742,-7.70019,0.915259,2,14,baseline,False,1,0.0452742,0.0452742,0.0452742
+1727,Serama (Rooster),0.041827,-7.77938,1.30033,1,6,baseline,False,1,0.041827,0.041827,0.041827
+1728,Woma Python,0.0414066,-7.78948,1.28206,1,5,baseline,False,1,0.0414066,0.0414066,0.0414066
+1729,Malay (Rooster),0.0403328,-7.81576,0.723238,1,13,baseline,False,1,0.0403328,0.0403328,0.0403328
+1730,African (Common) Puff Adder,0.0394577,-7.8377,1.26405,1,5,baseline,False,1,0.0394577,0.0394577,0.0394577
+1731,Beelzebufo ampinga,0.0375295,-7.8878,1.12202,1,7,mesozoic-other,False,1.8637,0.0699436,0.0636274,0.0768869
+1732,Grey Fox (Vixen),0.0356332,-7.93965,1.09957,1,8,baseline,False,1,0.0356332,0.0356332,0.0356332
+1733,Border Terrier,0.0349607,-7.9587,1.11313,1,9,baseline,False,1,0.0349607,0.0349607,0.0349607
+1734,Wood Stork,0.0332748,-8.00813,1.26068,1,4,baseline,False,1,0.0332748,0.0332748,0.0332748
+1735,Hooded Vulture,0.0328929,-8.01967,1.08337,1,6,baseline,False,1,0.0328929,0.0328929,0.0328929
+1736,Island Fox,0.031776,-8.05422,1.34274,1,8,baseline,False,1,0.031776,0.031776,0.031776
+1737,Egyptian Vulture,0.0303519,-8.10007,0.726677,3,23,baseline,False,1,0.0303519,0.0303519,0.0303519
+1738,Common Kingsnake,0.0268672,-8.22202,1.1001,1,7,baseline,False,1,0.0268672,0.0268672,0.0268672
+1739,Wallace's Giant Bee,0.0222435,-8.41088,1.17918,1,18,baseline,False,1,0.0222435,0.0222435,0.0222435
+1740,Western Diamondback Rattlesnake,0.0211038,-8.46347,1.52018,1,4,baseline,False,1,0.0211038,0.0211038,0.0211038
+1741,Cozumel (Pygmy) Raccoon,0.0195704,-8.53891,1.16147,1,6,baseline,False,1,0.0195704,0.0195704,0.0195704
+1742,Big Brown Bat,0.0167825,-8.69259,1.41892,1,7,baseline,False,1,0.0167825,0.0167825,0.0167825
+1743,Banded Krait,0.00912529,-9.30188,1.15081,1,7,baseline,False,1,0.00912529,0.00912529,0.00912529
