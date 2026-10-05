@@ -63,9 +63,9 @@ layout: default
       <button class="btn set" data-set="a">All</button></div>
     <div class="grp" role="group" aria-label="Anatomy calibration"><span class="lbl">Calibration</span>
       <button class="btn cal" data-f="1">Crowd</button>
-      <button class="btn cal" data-f="2.372">−2σ</button>
-      <button class="btn cal active" data-f="3.451">Median 3.45×</button>
-      <button class="btn cal" data-f="5.022">+2σ</button></div>
+      <button class="btn cal" data-f="2.379">−2σ</button>
+      <button class="btn cal active" data-f="3.473">Median 3.47×</button>
+      <button class="btn cal" data-f="5.072">+2σ</button></div>
   </div>
 
   <div class="callout" id="callout" aria-live="polite"></div>
@@ -98,33 +98,33 @@ layout: default
 <script>
 // MATH-BEGIN
 const D=[
-  {n:"Yi qi",w:.4,c:0.1159,diet:'o'},{n:"Archaeopteryx",w:.9,c:0.1017,diet:'c'},{n:"Compsognathus",w:3,c:0.103,diet:'c'},
-  {n:"Ornitholestes",w:12,c:0.3091,diet:'c'},{n:"Linheraptor",w:12,c:0.4315,diet:'c'},
-  {n:"Velociraptor",w:15,c:1.86,diet:'c'},{n:"Dromaeosaurus",w:15,c:1.823,diet:'c'},
-  {n:"Coelophysis",w:20,c:0.5618,diet:'c'},{n:"Suskityrannus",w:30,c:19.42,diet:'c'},
-  {n:"Stenonychosaurus",w:50,c:5.055,diet:'c'},{n:"Deinonychus",w:73,c:34.49,diet:'c'},
-  {n:"Citipati",w:75,c:1.452,diet:'o'},{n:"Moros",w:78,c:7.863,diet:'c'},
-  {n:"Liliensternus",w:130,c:12.59,diet:'c'},{n:"Timurlengia",w:170,c:40.85,diet:'c'},
-  {n:"Ornithomimus",w:170,c:1.434,diet:'o'},{n:"Marshosaurus",w:200,c:119.8,diet:'c'},
-  {n:"Herrerasaurus",w:210,c:299.3,diet:'c'},{n:"Dakotaraptor",w:250,c:221.8,diet:'c'},
-  {n:"Achillobator",w:250,c:151.9,diet:'c'},{n:"Dilophosaurus",w:400,c:142.7,diet:'c'},
-  {n:"Gallimimus",w:440,c:78.4,diet:'o'},{n:"Utahraptor",w:500,c:335.8,diet:'c'}
+  {n:"Yi qi",w:.4,c:0.1085,diet:'o'},{n:"Archaeopteryx",w:.9,c:0.0941,diet:'c'},{n:"Compsognathus",w:3,c:0.1026,diet:'c'},
+  {n:"Ornitholestes",w:12,c:0.3002,diet:'c'},{n:"Linheraptor",w:12,c:0.4254,diet:'c'},
+  {n:"Velociraptor",w:15,c:1.833,diet:'c'},{n:"Dromaeosaurus",w:15,c:1.797,diet:'c'},
+  {n:"Coelophysis",w:20,c:0.5443,diet:'c'},{n:"Suskityrannus",w:30,c:19.4,diet:'c'},
+  {n:"Stenonychosaurus",w:50,c:4.972,diet:'c'},{n:"Deinonychus",w:73,c:34.62,diet:'c'},
+  {n:"Citipati",w:75,c:1.426,diet:'o'},{n:"Moros",w:78,c:7.822,diet:'c'},
+  {n:"Liliensternus",w:130,c:12.6,diet:'c'},{n:"Timurlengia",w:170,c:40.87,diet:'c'},
+  {n:"Ornithomimus",w:170,c:1.438,diet:'o'},{n:"Marshosaurus",w:200,c:120.3,diet:'c'},
+  {n:"Herrerasaurus",w:210,c:299.1,diet:'c'},{n:"Dakotaraptor",w:250,c:221.1,diet:'c'},
+  {n:"Achillobator",w:250,c:151.6,diet:'c'},{n:"Dilophosaurus",w:400,c:142.2,diet:'c'},
+  {n:"Gallimimus",w:440,c:78.51,diet:'o'},{n:"Utahraptor",w:500,c:334.3,diet:'c'}
 ];
 const M=[
-  {n:"Fennec Fox",w:1.2,c:0.1407},{n:"Brown Hare",w:3.5,c:0.6101},{n:"Feral Cat",w:4,c:0.08549},
-  {n:"Arctic Fox",w:4,c:0.1257},{n:"Fisher",w:4.5,c:0.5699},{n:"Red Fox",w:6,c:0.2786},
-  {n:"Bobcat",w:9,c:1.452},{n:"Honey Badger",w:11,c:1.849},{n:"Canadian Lynx",w:11,c:1.829},
-  {n:"Ocelot",w:12,c:2.023},{n:"Caracal",w:13,c:1.715},{n:"Wolverine",w:14,c:4.346},
-  {n:"Coyote",w:14,c:1.353},{n:"Mandrill",w:25,c:3.878},{n:"Thylacine",w:25,c:2.508},
-  {n:"Olive Baboon",w:25,c:1.891},{n:"Red Wolf",w:27,c:1.655},{n:"Grey Wolf",w:40,c:11.05},
-  {n:"Cheetah",w:50,c:4.749},{n:"Common Chimpanzee",w:50,c:3.681},{n:"Spotted Hyena",w:55,c:19.37},
-  {n:"Leopard",w:60,c:34.58},{n:"Dire Wolf",w:68,c:20.09},{n:"Cougar",w:70,c:34.62},
-  {n:"Human",w:70,c:5.715},{n:"African Lion",w:185,c:100},
-  {n:"Smilodon",w:220,c:246.3},{n:"Bengal Tiger",w:220,c:96.79},
-  {n:"Siberian Tiger",w:230,c:106.3},{n:"Grizzly Bear",w:270,c:161.4},{n:"Polar Bear",w:450,c:382.7},
-  {n:"Arctodus",w:800,c:572.2}
+  {n:"Fennec Fox",w:1.2,c:0.13},{n:"Brown Hare",w:3.5,c:0.588},{n:"Feral Cat",w:4,c:0.08376},
+  {n:"Arctic Fox",w:4,c:0.1107},{n:"Fisher",w:4.5,c:0.5532},{n:"Red Fox",w:6,c:0.2763},
+  {n:"Bobcat",w:9,c:1.432},{n:"Honey Badger",w:11,c:1.822},{n:"Canadian Lynx",w:11,c:1.8},
+  {n:"Ocelot",w:12,c:1.991},{n:"Caracal",w:13,c:1.694},{n:"Wolverine",w:14,c:4.293},
+  {n:"Coyote",w:14,c:1.336},{n:"Mandrill",w:25,c:3.788},{n:"Thylacine",w:25,c:2.47},
+  {n:"Olive Baboon",w:25,c:1.872},{n:"Red Wolf",w:27,c:1.636},{n:"Grey Wolf",w:40,c:10.84},
+  {n:"Cheetah",w:50,c:4.683},{n:"Common Chimpanzee",w:50,c:3.635},{n:"Spotted Hyena",w:55,c:19.28},
+  {n:"Leopard",w:60,c:35.06},{n:"Dire Wolf",w:68,c:20.06},{n:"Cougar",w:70,c:35.06},
+  {n:"Human",w:70,c:5.682},{n:"African Lion",w:185,c:100},
+  {n:"Smilodon",w:220,c:245.6},{n:"Bengal Tiger",w:220,c:96.76},
+  {n:"Siberian Tiger",w:230,c:105.9},{n:"Grizzly Bear",w:270,c:161},{n:"Polar Bear",w:450,c:380.5},
+  {n:"Arctodus",w:800,c:579.5}
 ];
-const LOG_MU=1.23870,LOG_SIGMA=0.18756,F_LO=Math.exp(LOG_MU-2*LOG_SIGMA),F_HI=Math.exp(LOG_MU+2*LOG_SIGMA),F_MED=Math.exp(LOG_MU);
+const LOG_MU=1.24512,LOG_SIGMA=0.18929,F_LO=Math.exp(LOG_MU-2*LOG_SIGMA),F_HI=Math.exp(LOG_MU+2*LOG_SIGMA),F_MED=Math.exp(LOG_MU);
 // median regression (least absolute deviations) of log10 score on log10 mass, by iteratively reweighted least squares
 function lad(pts){const x=pts.map(p=>Math.log10(p.w)),y=pts.map(p=>Math.log10(Math.max(p.c,1e-3)));let wt=x.map(()=>1),a=0,b=1;
   for(let it=0;it<80;it++){let s0=0,sx=0,sy=0,sxx=0,sxy=0;for(let i=0;i<x.length;i++){const w=wt[i];s0+=w;sx+=w*x[i];sy+=w*y[i];sxx+=w*x[i]*x[i];sxy+=w*x[i]*y[i]}
