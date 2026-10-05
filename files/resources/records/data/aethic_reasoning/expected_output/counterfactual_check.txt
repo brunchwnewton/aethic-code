@@ -1,0 +1,25 @@
+1. The four-attribute witness. Constraints: {s,¬y} and {x,s,¬z} invalid; A states s (content: [('S', 1), ('Y', 1)] )
+   intermediate for x: [[('S', 1), ('Y', 1)]] | pockets: (x, s, y, z)
+   intermediate for x∧y (dual peg): [[]] | pockets: (x, s, y, z), (x, ¬s, y, z), (x, ¬s, y, ¬z)
+   x∧y under the Boolean reading: pockets: (x, s, y, z)
+   X|~y: True   X|~z: True   X∧y|~z (dual peg): False   X∧y|~z (Boolean): True   X|~¬y: False
+
+2. Cut without nesting. A states p and r; {p,¬y}, {p,r,x} invalid; priority keeps the generalization p.
+   maximal x-blank restrictions: [[('P', 1), ('Y', 1)], [('R', 1), ('Y', 1)]] → selected [[('P', 1), ('Y', 1)]]
+   intermediate for x∧y: [[('R', 1)]]
+   X|~y: True   X∧y|~r: True   X|~r: False   X|~¬r: True
+
+3. The witness under competitor semantics (verdicts on X□→y, X□→z, X∧y□→z):
+   this paper, dual-peg reading                         True  True  False  Cautious Monotony: fails
+   this paper, Boolean reading                          True  True  True   Cautious Monotony: holds
+   premise semantics (maximal consistent premise sets)  True  True  True   Cautious Monotony: holds
+   AGM revision                                         True  True  True   Cautious Monotony: holds
+   PMA update (Winslett)                                True  False False  Cautious Monotony: not instantiated
+   Pearl, SCM Y:=S∨U_Y, Z:=(X∧S)∨U_Z                    True  True  True   Cautious Monotony: holds
+
+4. Random finite models (n = 12000, seed = 20261005; 4-5 attributes, one three-valued; 1-4 nogoods; fully supported):
+   Cut, nested intermediates: 690 instances, 0 failures
+   pocket monotonicity, nested: 2858 instances, 0 failures
+   Cautious-Monotony characterization (Proposition cmwhere): 737 instances, 0 mismatches; Cautious Monotony failed in 47 of them
+   Or, within one attribute: 550 instances, 0 failures
+   Cut failing where the intermediates are not nested: 1 instances (Proposition cutfail's phenomenon)

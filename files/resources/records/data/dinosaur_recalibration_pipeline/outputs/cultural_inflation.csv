@@ -1,0 +1,29 @@
+generic,generic_score,populations,population_geomean,ratio,eta,se,generic_real_matchups,icon
+Tiger,293.489,Bengal Tiger; Siberian Tiger; Sumatran Tiger; Indochinese Tiger,89.7866,3.26874,1.18441,0.224122,2,True
+Leopardess,15.3064,African Leopardess; Arabian Leopardess; Cape Leopardess,6.21396,2.46322,0.90147,0.285846,6,True
+Jaguaress,62.1591,Mexican Jaguaress,25.985,2.39212,0.872179,0.301474,8,True
+Wild Boar,20.6452,Indonesian Wild Boar; Ussuri Wild Boar,9.65045,2.1393,0.760477,0.266632,19,False
+Bighorn Sheep,9.58094,Rocky Mountain Bighorn Sheep,5.80407,1.65073,0.501216,0.511991,7,False
+Leopard,35.0621,African Leopard; Amur Leopard; Arabian Leopard; Cape Leopard; Indian Leopard; Indochinese Leopard; Persian Leopard; Sri Lankan Leopard,21.6089,1.62258,0.484015,0.12396,29,True
+American Bison,292.526,Wood Bison,196.868,1.4859,0.396018,0.234073,11,True
+Red Panda,0.255488,Himalayan Red Panda,0.188935,1.35225,0.301771,0.679811,3,False
+Lioness,84.4382,African Lioness; Asiatic Lioness,67.0934,1.25852,0.229934,0.213232,19,True
+Lion,167.754,African Lion; Asiatic Lion; West African Lion,136.363,1.2302,0.207178,0.434055,10,True
+Wedge-tailed Eagle,0.538554,Tasmanian Wedge-tailed Eagle,0.469798,1.14635,0.136584,0.886791,5,False
+Grizzly Bear,161.044,Barren Ground Grizzly Bear; Inland Grizzly Bear; Interior Grizzly Bear,141.766,1.13599,0.127502,0.250704,22,True
+Jaguar,55.5208,Mexican Jaguar; North American Jaguar; Pantanal Jaguar,52.7578,1.05237,0.0510471,0.267792,30,True
+Water Monitor,1.31191,Asian Water Monitor,1.48773,0.881814,-0.125774,0.376267,7,False
+Brown Bear,124.12,Alaskan Peninsula Brown Bear; Cantabrian Brown Bear; Coastal Brown Bear; East Siberian Brown Bear; Eurasian Brown Bear; Himalayan Brown Bear; Kamchatka Brown Bear; Syrian Brown Bear; Ussuri Brown Bear,145.827,0.851145,-0.161172,0.507653,2,True
+Mule Deer,2.34581,Rocky Mountain Mule Deer,2.92413,0.802224,-0.220367,1.04605,2,False
+Red Fox,0.276308,American Red Fox; Arabian Red Fox,0.393113,0.702871,-0.352581,0.698045,19,False
+Cheetah,4.6827,Asiatic Cheetah; Kalahari Cheetah,7.08527,0.660906,-0.414143,0.288875,39,True
+Mountain Zebra,30.323,Cape Mountain Zebra,46.1014,0.657746,-0.418937,0.450578,4,False
+Leopard Cat,0.561408,Amur Leopard Cat,0.873705,0.642561,-0.442294,0.896524,4,False
+Coyote,1.33608,Eastern Coyote; Mexican Coyote; Northern Coyote,2.20815,0.605069,-0.502412,0.31251,21,False
+Sloth Bear,44.3258,Sri Lankan Sloth Bear,73.6316,0.601995,-0.507507,0.263643,26,False
+Gaur,147.903,Indian Gaur,284.238,0.520349,-0.653256,0.224868,10,True
+Walrus,255.991,Atlantic Walrus; Pacific Walrus,498.807,0.513206,-0.667078,0.364972,12,True
+Elk,14.887,Rocky Mountain Elk; Roosevelt Elk; Tule Elk,29.8145,0.499322,-0.694504,0.558487,1,False
+African Wild Dog,2.38579,East African Wild Dog,9.14902,0.26077,-1.34411,0.327273,25,False
+Carpet Python,1.53319,Coastal Carpet Python,7.53318,0.203526,-1.59196,1.20701,2,False
+White-throated Monitor,0.213468,Angolan White-throated Monitor,1.40142,0.152323,-1.88175,1.45562,1,False
