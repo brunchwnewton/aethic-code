@@ -50,11 +50,25 @@ layout: default
   /* bars: one row per animal, positioned absolutely so re-ranking animates */
   .chart{position:relative;background:#0c0c10;border:1px solid var(--border);border-radius:12px;padding:10px 12px 10px;overflow:hidden}
   .rows{position:relative}
-  .row{position:absolute;left:0;right:0;height:var(--row);display:grid;grid-template-columns:148px 1fr 58px;align-items:center;gap:8px;transition:transform .45s cubic-bezier(.22,.8,.3,1)}
+  .row{position:absolute;left:0;right:0;height:var(--row);display:grid;grid-template-columns:148px 1fr 92px;align-items:center;gap:8px;transition:transform .45s cubic-bezier(.22,.8,.3,1)}
   .row .name{font-size:11.5px;color:var(--mammal-text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:right;transition:color .2s}
   .row .track{position:relative;height:14px;background:#141418;border-radius:3px;overflow:visible}
   .row .bar{position:absolute;left:0;top:0;height:100%;border-radius:3px;transition:width .16s linear,opacity .2s;min-width:2px}
-  .row .val{font-family:'JetBrains Mono',monospace;font-size:11px;color:#e5e5e5;text-align:left}
+  .row .val{font-family:'JetBrains Mono',monospace;font-size:11px;color:#e5e5e5;text-align:left;white-space:nowrap}
+  .row .ghost{position:absolute;left:0;top:-1px;height:calc(100% + 2px);border:1.5px dashed #e5e5e5aa;border-radius:3px;opacity:0;transition:width .16s linear,opacity .3s;pointer-events:none;z-index:2}
+  .row .w2{position:absolute;top:50%;height:0;border-top:1.5px solid #fca5a599;opacity:0;transition:opacity .3s,left .16s linear,width .16s linear;z-index:3;pointer-events:none}
+  .row .w1{position:absolute;top:calc(50% - 3px);height:6px;background:#fff3;border:1px solid #fca5a5cc;border-radius:3px;opacity:0;transition:opacity .3s,left .16s linear,width .16s linear;z-index:3;pointer-events:none}
+  .row .rk{display:inline-block;min-width:30px;margin-left:6px;font-size:10px;font-weight:600;opacity:0;transition:opacity .3s}
+  .rk.up{color:#4ade80}.rk.down{color:#f87171}.rk.same{color:#52525b}
+  .compare .row .ghost,.compare .row .rk{opacity:1}
+  .compare .row.dm .w1,.compare .row.dm .w2{opacity:1}
+  .btn.cmp{border-color:#4ade8066;color:#86efac}
+  .btn.cmp.on{background:#14532d;border-color:#22c55e;color:#fff}
+  .cmp-line{display:none;margin-top:8px;font-size:12px;color:var(--mammal-text);text-align:center;line-height:1.5}
+  .cmp-line strong{color:#fff}
+  .cmp-key{display:inline-flex;align-items:center;gap:5px;margin:0 8px;font-size:11px;color:var(--text-dim)}
+  .cmp-key i{display:inline-block;width:18px;height:9px;border-radius:2px}
+  .deck.compare-on .cmp-line{display:block}
   .row.dim .bar{opacity:.3}.row.dim .name{color:var(--text-faint)}
   .ref{position:absolute;top:0;bottom:0;width:0;border-left:1px dashed #eab30866;pointer-events:none}
   .ref span{position:absolute;top:-2px;left:4px;font-size:10px;color:var(--bench);font-family:'JetBrains Mono',monospace;white-space:nowrap}
@@ -71,7 +85,7 @@ layout: default
   .footer .voice{border-left:2px solid #dc262655;padding:2px 0 2px 12px;margin:10px 0 10px;color:#8b8b94;font-size:12px;line-height:1.75}
   .footer .voice .vl{display:block;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:#71717a;margin-bottom:3px}
   .footer .note{font-size:11px;color:#52525b;margin:-4px 0 10px 14px}
-  @media (max-width:640px){.container{padding:16px 10px 36px}:root{--row:24px}.row{grid-template-columns:104px 1fr 50px;gap:6px}.row .name{font-size:10.5px}.bell{height:104px}.btn{padding:6px 10px;font-size:11px}.deck{padding:10px 10px 8px}}
+  @media (max-width:640px){.container{padding:16px 10px 36px}:root{--row:24px}.row{grid-template-columns:96px 1fr 76px;gap:6px}.row .name{font-size:10.5px}.bell{height:104px}.btn{padding:6px 10px;font-size:11px}.deck{padding:10px 10px 8px}}
   @media (prefers-reduced-motion:reduce){.row,.row .bar{transition:none}}
 </style>
 </head>
@@ -97,6 +111,15 @@ layout: default
       <button class="btn" data-f="5.384">+1σ</button>
       <button class="btn" data-f="6.919">+2σ</button>
       <button class="btn anim" id="animateBtn">&#9654; Sweep the distribution</button>
+      <button class="btn cmp" id="cmpBtn" aria-pressed="false" title="Show the crowd baseline and the calibrated scores together">&#8644; Crowd vs median</button>
+    </div>
+    <div class="cmp-line" id="cmpLine">
+      <span class="cmp-key"><i style="border:1.5px dashed #e5e5e5aa"></i>crowd baseline</span>
+      <span class="cmp-key"><i style="background:#dc2626"></i>calibrated</span>
+      <span class="cmp-key"><i style="height:6px;background:#fff3;border:1px solid #fca5a5cc"></i>&plusmn;1&sigma;</span>
+      <span class="cmp-key"><i style="height:0;border-top:1.5px solid #fca5a599"></i>&plusmn;2&sigma;</span>
+      <span class="cmp-key"><b style="color:#4ade80">&#9650;</b>/<b style="color:#f87171">&#9660;</b> places moved</span>
+      <div id="cmpSummary" style="margin-top:4px"></div>
     </div>
   </div>
 
@@ -303,7 +326,8 @@ const rowEls={};
 function buildRows(){
   rowsEl.innerHTML='';
   DATA.forEach(d=>{const row=document.createElement('div');row.className='row';row.dataset.n=d.n;
-    row.innerHTML=`<div class="name">${SHORT[d.n]}</div><div class="track"><div class="bar" style="background:${COLORS[d.t].bar}"></div></div><div class="val"></div>`;
+    row.innerHTML=`<div class="name">${SHORT[d.n]}</div><div class="track"><div class="bar" style="background:${COLORS[d.t].bar}"></div><div class="ghost"></div><div class="w2"></div><div class="w1"></div></div><div class="val"><span class="num"></span><span class="rk"></span></div>`;
+    if(d.t==='d'||d.t==='m')row.classList.add('dm');
     row.addEventListener('mouseenter',e=>showTip(d,e));row.addEventListener('mousemove',e=>moveTip(e));row.addEventListener('mouseleave',hideTip);
     rowsEl.appendChild(row);rowEls[d.n]=row});
   rowsEl.style.height=(DATA.length*parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--row')))+'px';
@@ -315,12 +339,20 @@ function pctOf(v){return Math.max(((Math.log10(Math.max(v,0.3))-MINLOG)/(MAXLOG-
 function placeAxis(){const trackLeft=rowEls[DATA[0].n].querySelector('.track').offsetLeft,trackW=rowEls[DATA[0].n].querySelector('.track').offsetWidth;
   axisEl.querySelectorAll('span').forEach(s=>{s.style.left=(trackLeft+pctOf(+s.dataset.v)/100*trackW)+'px'});
   const ref=document.getElementById('ref100');ref.style.left=(trackLeft+pctOf(100)/100*trackW)+'px'}
-let current={};
+let current={},curRank={};const BASE_RANK={};DATA.slice().sort((a,b)=>b.c-a.c).forEach((d,i)=>BASE_RANK[d.n]=i);let compareOn=false;
 function render(){
   const dinoFactor=factorFromT(t),mesoFactor=Math.pow(dinoFactor,MESO_EXPONENT);
   const items=DATA.map(d=>({...d,current:d.c*(d.t==='d'?dinoFactor:d.t==='m'?mesoFactor:1),mult:d.t==='d'?dinoFactor:d.t==='m'?mesoFactor:1})).sort((a,b)=>b.current-a.current);
   const ROW=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--row'));
-  items.forEach((it,i)=>{const row=rowEls[it.n];row.style.transform=`translateY(${i*ROW}px)`;row.querySelector('.bar').style.width=pctOf(it.current)+'%';row.querySelector('.val').textContent=fmt(it.current);
+  items.forEach((it,i)=>{const row=rowEls[it.n];row.style.transform=`translateY(${i*ROW}px)`;row.querySelector('.bar').style.width=pctOf(it.current)+'%';row.querySelector('.num').textContent=fmt(it.current);
+    // compare overlays: the crowd baseline as a ghost, the model band as whiskers, and places moved
+    row.querySelector('.ghost').style.width=pctOf(it.c)+'%';
+    if(it.t==='d'||it.t==='m'){const e=it.t==='m'?MESO_EXPONENT:1,b1=[Math.pow(3.260,e),Math.pow(5.384,e)],b2=[Math.pow(2.536,e),Math.pow(6.919,e)];
+      const w1=row.querySelector('.w1'),w2=row.querySelector('.w2');
+      w1.style.left=pctOf(it.c*b1[0])+'%';w1.style.width=(pctOf(it.c*b1[1])-pctOf(it.c*b1[0]))+'%';
+      w2.style.left=pctOf(it.c*b2[0])+'%';w2.style.width=(pctOf(it.c*b2[1])-pctOf(it.c*b2[0]))+'%'}
+    const dlt=BASE_RANK[it.n]-i,rk=row.querySelector('.rk');rk.className='rk '+(dlt>0?'up':dlt<0?'down':'same');rk.textContent=dlt>0?'▲'+dlt:dlt<0?'▼'+(-dlt):'·';
+    curRank[it.n]=i;
     row.classList.toggle('dim',dinoFactor>1.03&&it.t==='n');current[it.n]=it});
   const cal=calibrationLabel(dinoFactor);
   document.getElementById('factorOut').textContent='×'+dinoFactor.toFixed(2);const co=document.getElementById('calOut');co.textContent=cal;co.style.color=dinoFactor<1.03?'#9ca3af':Math.abs(dinoFactor-DINO_MEDIAN)<.02?'#ef4444':'#fca5a5';
@@ -328,6 +360,16 @@ function render(){
   document.getElementById('callout').classList.toggle('hidden',dinoFactor<2.0);
   document.querySelectorAll('.buttons .btn[data-f]').forEach(b=>b.classList.toggle('active',Math.abs(dinoFactor-parseFloat(b.dataset.f))<.025));
   updateBell();
+  if(compareOn)summarize(items,dinoFactor);
+}
+function summarize(items,f){
+  const el=document.getElementById('cmpSummary');
+  if(f<1.03){el.innerHTML='At the crowd baseline the ghosts and the bars coincide; move toward the median to open the gap.';return}
+  const dinos=items.filter(x=>x.t==='d');let sum=0,best=null,bestD=-1;
+  dinos.forEach(x=>{const d=BASE_RANK[x.n]-curRank[x.n];sum+=d;if(d>bestD){bestD=d;best=x}});
+  const passed=items.filter(x=>x.t!=='d'&&x.t!=='m'&&BASE_RANK[x.n]<BASE_RANK[best.n]&&curRank[x.n]>curRank[best.n]).sort((a,b)=>b.c-a.c).slice(0,3).map(x=>SHORT[x.n]);
+  const lionNow=items.filter(x=>x.t==='d'&&x.current>100).length,lionBase=DATA.filter(x=>x.t==='d'&&x.c>100).length;
+  el.innerHTML=`At <strong>×${f.toFixed(2)}</strong> the dinosaurs climb <strong>${(sum/dinos.length).toFixed(1)}</strong> places on average; <strong>${SHORT[best.n]}</strong> climbs the most, <strong>${bestD}</strong>${passed.length?', past the '+passed.join(', the '):''}. Dinosaurs above the Lion: <strong>${lionBase}</strong> &rarr; <strong>${lionNow}</strong>.`;
 }
 function setT(x){t=Math.min(1,Math.max(0,x));render()}
 
@@ -336,7 +378,7 @@ const tooltip=document.getElementById('tooltip');
 function showTip(d,e){const it=current[d.n]||d;document.getElementById('ttName').textContent=d.n;document.getElementById('ttName').style.color=COLORS[d.t].text;
   document.getElementById('ttScore').textContent=fmt(it.current!=null?it.current:d.c);document.getElementById('ttCrowd').textContent=fmt(d.c);
   document.getElementById('ttSigma').textContent=calibrationLabel(factorFromT(t));
-  const m=it.mult||1;document.getElementById('ttCorrection').textContent=m>1.001?`× ${m.toFixed(2)} anatomy ${d.t==='m'?'(√ of the dinosaur factor)':'factor'}`:(d.t==='d'||d.t==='m')?'No anatomy factor applied':'Unscaled';
+  const m=it.mult||1,rkTxt=compareOn&&curRank[d.n]!=null?` · rank #${BASE_RANK[d.n]+1} → #${curRank[d.n]+1}`:'';document.getElementById('ttCorrection').textContent=m>1.001?`× ${m.toFixed(2)} anatomy ${d.t==='m'?'(√ of the dinosaur factor)':'factor'}`:(d.t==='d'||d.t==='m')?'No anatomy factor applied':'Unscaled';document.getElementById('ttCorrection').textContent+=rkTxt;
   tooltip.classList.add('vis');moveTip(e)}
 function moveTip(e){const tw=tooltip.offsetWidth||220;tooltip.style.left=Math.min(e.clientX+16,window.innerWidth-tw-8)+'px';tooltip.style.top=Math.max(8,e.clientY-20)+'px'}
 function hideTip(){tooltip.classList.remove('vis')}
@@ -358,6 +400,10 @@ function glide(target){const from=t,start=performance.now(),dur=500;stopAnim();
   function f(ts){const p=Math.min(1,(ts-start)/dur);setT(from+(target-from)*ease(p));if(p<1)animId=requestAnimationFrame(f);else{animId=null}}
   animId=requestAnimationFrame(f)}
 
+const cmpBtn=document.getElementById('cmpBtn');
+cmpBtn.addEventListener('click',()=>{compareOn=!compareOn;cmpBtn.classList.toggle('on',compareOn);cmpBtn.setAttribute('aria-pressed',compareOn);
+  chartEl.classList.toggle('compare',compareOn);document.getElementById('deck').classList.toggle('compare-on',compareOn);
+  if(compareOn&&Math.abs(factorFromT(t)-DINO_MEDIAN)>.02)glide(tFromFactor(DINO_MEDIAN));else render()});
 buildRows();buildBell();render();placeAxis();
 window.addEventListener('resize',()=>{buildBell();rowsEl.style.height=(DATA.length*parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--row')))+'px';render();placeAxis()});
 </script>
