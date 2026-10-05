@@ -1,0 +1,18 @@
+{
+ "matchups": 4494,
+ "animals_raw": 2369,
+ "animals_clean": 2334,
+ "excluded_outside_5_95": 582,
+ "components": 133,
+ "two_animal_islands": 108,
+ "larger_islands": 24,
+ "main_component_animals": 1743,
+ "real_matchups": 3735,
+ "real_votes": 59295,
+ "gender_pseudo": 6,
+ "group_pseudo": 279,
+ "group_unmatched": 24,
+ "converged": true,
+ "newton_steps": 4,
+ "max_score_equation_residual": 5.30825383648903e-14
+}
