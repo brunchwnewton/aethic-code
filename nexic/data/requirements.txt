@@ -1,0 +1,8 @@
+numpy
+pandas
+scipy
+networkx
+scikit-learn   # optional, for verify_bradley_terry.py
+# for the scrapers (steps 1-2)
+requests
+beautifulsoup4
