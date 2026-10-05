@@ -1,0 +1,8 @@
+weight_kg,theropod_median,theropod_band_low,theropod_band_high,mammal,ratio,context
+0.02,0.000929226,0.000768977,0.00112287,0.000351566,2.64311,Mouse-sized
+0.1,0.00791756,0.00655214,0.00956752,0.00309218,2.56051,Rat-sized illustrative mammal
+2,0.427095,0.353441,0.516099,0.176955,2.41357,Squirrel-sized
+15,6.24321,5.16654,7.54425,2.69159,2.31952,Fox-sized (Velociraptor)
+75,53.1958,44.022,64.2815,23.6738,2.24703,Human-sized (Deinonychus)
+250,264.201,218.638,319.259,120.404,2.19429,Lion-sized (Dakotaraptor)
+500,664.762,550.121,803.294,307.121,2.16449,Bear-sized (Utahraptor)

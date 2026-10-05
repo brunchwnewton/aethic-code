@@ -1,0 +1,7 @@
+Opaque Newcomb, accuracy 0.99 binding:      {'one': 990000.0, 'two': 11000.0}
+Opaque Newcomb, accuracy not binding:       {'one': 500000.0, 'two': 501000.0}
+Transparent, full box, eps = 0.01:          {'one': 1000000.0, 'two': 1001000.0}
+Transparent, full box, eps = 0:             {'one': 1000000.0, 'two': 'inadmissible'}
+Lesion, resolve stated, P(cancer):          {'smoke': 0.66, 'refrain': 0.66} (equal: dominance, smoke)
+Psychopath button, (J2) binding, B=D=1:     {'press': -0.8, 'refrain': 0.0} (refrain iff q1 > B/(B+D))
+Detached block with O1 -> O2 inside O:      {(1, 1): 0.5, (1, 0): 0.0, (0, 1): 0.0, (0, 0): 0.5} (O1 = O2 kept; act integrated out)
