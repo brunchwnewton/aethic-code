@@ -5,7 +5,7 @@ Companion code for [*Aethic Reasoning: A Comprehensive Solution to the Quantum M
 ## Contents
 
 - **[`demo.html`](demo.html)** — Interactive browser demo. Configure slits and detectors, then watch the Second and Third Postulates prune the powerset of candidate agreeing superpositions.
-- **[`aethic_invalidation.py`](aethic_invalidation.py)** — The classification algorithm in plain Python (no dependencies). Run with `python3 aethic_invalidation.py`.
+- **[`aethic_invalidation.py`](files/aethic_invalidation.py)** — The classification algorithm in plain Python (no dependencies). Run with `python3 aethic_invalidation.py`.
 
 ## The Algorithm
 
