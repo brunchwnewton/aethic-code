@@ -41,7 +41,8 @@ def random_effects(eta, se):
 
 
 def main(path):
-    spec = importlib.util.spec_from_file_location('bt', '3_bt_fit.py'); bt = importlib.util.module_from_spec(spec); spec.loader.exec_module(bt)
+    spec = importlib.util.spec_from_file_location('bt',
+                                                  '3_bt_fit.py'); bt = importlib.util.module_from_spec(spec); spec.loader.exec_module(bt)
     names, idx, th, Sig, deg, votes, _ = bt.fit(path); S = {n: 100 * np.exp(th[idx[n]]) for n in names}
     rows = []
     for g, pops in VET.items():

@@ -10,7 +10,8 @@ Usage:  python3 verify_bradley_terry.py [duels.csv]          (needs scikit-learn
 import sys, os, io, contextlib, importlib.util, numpy as np, pandas as pd, scipy.sparse as sp
 from scipy import optimize
 DUELS = sys.argv[1] if len(sys.argv) > 1 else 'duels.csv'
-spec = importlib.util.spec_from_file_location('bt3', '3_bt_fit.py'); bt = importlib.util.module_from_spec(spec); spec.loader.exec_module(bt)
+spec = importlib.util.spec_from_file_location('bt3',
+                                              '3_bt_fit.py'); bt = importlib.util.module_from_spec(spec); spec.loader.exec_module(bt)
 captured = {}; real_minimize = optimize.minimize
 def spy(fun, x0, **kw):                       # capture the exact objective step 3 optimizes
     captured['fun'] = fun; res = real_minimize(fun, x0, **kw); captured['x'] = res.x; return res
