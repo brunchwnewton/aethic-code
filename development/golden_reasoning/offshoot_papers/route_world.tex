@@ -616,8 +616,7 @@ them.}
 \label{gc:subsub:cascade}
 
 The construction imports the companion's fixed-point result rather
-than re-deriving it, and reads the descendant relation $\sqsubseteq$
-as the companion now reads it, transitively; nothing below depends on
+than re-deriving it, and reads the proper-child relation $\le$, the order of the Aethic tree, as the companion reads it, transitively and with its comparative weight condition, $B \le A$ when $B$ is a component of $A$ whose coefficient is not measure-zero relative to the rest; nothing below depends on
 generation counts or on finite branching. The passage from the model's
 verdict to the modal set is a bridge, not an identity: $\Lambda_\infty=\infty$ gives almost-sure eventual Cox
 killing, while membership in the doom set $\mu G$ means every
@@ -641,15 +640,14 @@ implication propagates.
 \begin{remark}[This is the third postulate's operator, imported]
 \label{gc:rem:thirdpostulate}
 The companion's third postulate supplies exactly this recursion
-\cite{Aethus}, and its result is imported as stated there. Over
-Aethae ordered by the descendant relation $\sqsubseteq$, with
+\cite{Aethus}, and its result is imported as stated there. Over Aethae ordered by the proper-child relation $\le$, the subrelation of containment $\sqsubseteq$ consisting of the visible terms of decompositions, with
 $\mathrm{Base}$ collecting the non-recursive modes, the safety operator
 and its dual are
 \begin{align*}
-F(Y)&=\bigl\{A\notin\mathrm{Base}:\ \exists B\sqsubseteq A,\
-\forall C\sqsubseteq B,\ C\in Y\bigr\},\\
-G(X)&=\mathrm{Base}\cup\bigl\{A:\ \forall B\sqsubseteq A,\
-\exists C\sqsubseteq B,\ C\in X\bigr\},
+F(Y)&=\bigl\{A\notin\mathrm{Base}:\ \exists B\le A,\
+\forall C\le B,\ C\in Y\bigr\},\\
+G(X)&=\mathrm{Base}\cup\bigl\{A:\ \forall B\le A,\
+\exists C\le B,\ C\in X\bigr\},
 \end{align*}
 both monotone, so that by Knaster--Tarski the greatest fixed point
 $\nu F$ and the least fixed point $\mu G$ exist for arbitrary branching
@@ -1745,8 +1743,7 @@ $\PP(E\mid H_G)\approx1$ because the target requires them. Then
 \begin{equation}\label{gc:eq:bfGO}
 \mathrm{BF}_{G:O}(E)=\frac{\PP(E\mid H_G)}{\PP(E\mid H_O)}\approx\frac1q,
 \end{equation}
-which is enormous when $q$ is small and is exactly how much evidence
-the record supplies for the Golden target over the observer target.
+which is large when $q$ is small \emph{provided} the evidence is highly probable under the Golden model and sufficiently improbable under the observer-conditioned rival; the construction supplies neither likelihood, and the empirical work is establishing those two antecedents.
 The principle asserts that this factor favors $H_G$ by orders of
 magnitude, and the weight bound of \S\ref{gc:sub:naturalhistory} is
 the estimate of $q$ that gives the factor its size. Both hypotheses are
@@ -1856,9 +1853,7 @@ since a permutation admitted into the conjunction inflates the bound
 without adding linkage. And the members must be interrogated under a
 declared scan count, the multiplicity guard of
 the multiplicity guard of \cite{GoldenTargeted} applying to the stockpile as to any member.
-The guard has two forms and they are kept apart: the expected number of
-spurious $\kappa$-fold flags among $n$ interrogated pairs is at most
-$n/(1+\kappa)$, and the tail is bounded without any independence
+The guard has two forms and they are kept apart: the expected number of $\kappa$-fold exceedances among $n$ interrogated pairs under $Q$ is at most $n/(1+\kappa)$, a bound on $Q$'s own exceedances and not a false-positive calibration for accepting $Q$ against a rival, and the tail is bounded without any independence
 assumption by Markov, $\Pr[N\ge m]\le n/(m(1+\kappa))$, with the
 familywise form $\Pr[N\ge1]\le n/(1+\kappa)$ by the union bound.
 Exceeding the expectation is not significance; a declared family is
@@ -1934,9 +1929,7 @@ look rare. What the null correctly observes is then exactly what the
 principle's exceedance form Theorem~\ref{imp:targeted} quantifies:
 rare attributes that are irrelevant to $B$ do abound, they violate the
 bound, and the principle prices each such violation at probability at
-most $1/(1+\kappa)$, so that among $n$ interrogated attributes up to
-$n/(1+\kappa)$ spurious $\kappa$-fold flags are expected, which is the
-noise floor of the multiplicity guard of \cite{GoldenTargeted}. The null is thereby
+most $1/(1+\kappa)$, so that among $n$ interrogated attributes up to $n/(1+\kappa)$ $\kappa$-fold exceedances are expected under $Q$ itself, a bound on $Q$'s own exceedances and not a false-positive calibration for accepting $Q$ against a rival, which is the sense of the multiplicity guard of \cite{GoldenTargeted}. The null is thereby
 absorbed rather than refuted: its content is a term in the
 principle's own accounting, and a trace standing clear of the floor
 is evidence while one within it is the expected noise.
@@ -2641,8 +2634,7 @@ conditioning on it is the same operation in both cases. The asymmetry
 one feels is real but \emph{entropic} rather than ontological: the
 future blocks discriminating information more stringently because it
 sits downstream of the entropic arrow, while the past merely happens to
-withhold it --- and informational uncertainty is the same thing under
-either obstruction \cite{Aethus}.
+withhold it --- and informational uncertainty is the same thing under either obstruction \cite{Aethus}. The companion records at \textbf{[O]} a further conjecture on this asymmetry, that the entropic arrow is itself the past-ward limit of the asymptotic-future survival conditioning, the past hypothesis being the conditioning's shadow rather than a posit \cite{GoldenScience2022}.
 
 The mirror-image case matters, because it is a structure the
 reader can check without granting anything particular to this work.
@@ -3150,7 +3142,7 @@ One further consequence cuts against the methodology's own convenience.
 How large the required flukes are depends on how much work the
 conditioning has to do: a position from which the Golden Point is already comparatively
 likely requires only small corrections, while deep time, from which it
-was not, required the enormous ones the record displays. A biosphere
+was not, required the large ones the hypothesis assigns to the record. A biosphere
 improving its position should therefore expect its Golden-Optimation
 events to grow \emph{less} conspicuous, so the evidence available to
 \eqref{gc:eq:bayesq} thins exactly as the situation it reports on
@@ -3594,14 +3586,11 @@ point of naming them.
 
 \section{The prospective test}\label{sec:protocol}
 
+\noindent This section is a protocol template and is called one throughout: a declared test needs actual observables, numerical predictive distributions under both hypotheses, an observation interval, a scoring rule and a stopping rule, and the template below supplies the form of each without yet supplying the numbers; until it does, the section specifies a test to be declared, not a test declared.
+
 The Route World's flagship empirical discriminator is not any of the
 retrospective cases above, which are labeled exploratory where they
-appear, but a test declared before its observation interval. The
-retrospective-target objection is answered in form by the imported
-theorem, which fixes the target before the record is read and the
-alternative to each attribute as its complement; what no theorem closes
-is the choice of which attributes to interrogate, and only a declared
-scan closes it. The test is therefore declared here, in the form the
+appear, but a test declared before its observation interval. The imported theorem does not enforce prospective target selection; the retrospective-target objection is answered only by a declared scan, which fixes the target, the attribute family and each attribute's alternative before the record is read, and nothing short of that closes it. The test is therefore declared here, in the form the
 theorem companion prescribes. The target family is survival to horizon
 $t$ of the biosphere, read through the Golden target of
 Section~\ref{sec:target}; the rival law is the observer-conditioned
@@ -3644,7 +3633,7 @@ is open is whether the record is under it.
 What would count against the hypothesis, in one place. A Bayes factor
 between the conditioned and observer-conditioned laws, on a predeclared
 statistic, found near or below one. The information flux measured and
-found at the rate the unconditioned law predicts. The flux against a fixed raw law is nondecreasing; against a survivor cohort that moves with the observation time it need not be, since $D_{\mathrm{KL}}(Q_s \,\|\, \PP(\cdot \mid T > s)) = I_s + \log \PP(T > s)$ when $Q(T > s) = 1$, so the discriminator carries the shared survival baseline through the calculation or fixes its baseline. Probability-zero continuations are not thereby impossible continuations: the critical conditioned process assigns weight to histories lying in a null set of the original law, and structural impossibility and measure-relative nullity are defined separately. The provisioning base
+found at the rate the unconditioned law predicts. What is nondecreasing against a fixed raw law is the relative entropy $I_t$; its derivative $\mathcal{J}_t$, the information flux, need not itself increase where it exists. Probability-zero continuations are not thereby impossible continuations: the critical conditioned process assigns weight to histories lying in a null set of the original law, and structural impossibility and measure-relative nullity are defined separately. The provisioning base
 rate found undistinguished from the habitability-conditioned one. A
 perturbation exhibited that leaves a Golden-relevant trait's Cosmic-Nexus
 weight undiminished, which weakens local alignment, and a systematic class

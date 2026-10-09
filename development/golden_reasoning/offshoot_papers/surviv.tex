@@ -711,8 +711,7 @@ frozen, $B_t\equiv B>0$, then $h_\ast=\inf_xh(x)>0$ and
 $\PP(T>t)\le e^{-h_\ast t}$, whence $\E[T]<\infty$. For the random
 background no positive floor exists ($\inf_tB_t=0$ a.s.), so the
 exponential rate is frozen-background (annealed) only, and whether an
-unconditional rate holds is open [O]. (iii) No power-law structure
-survives.
+unconditional rate holds is open [O]. (iii) Whether any power-law structure survives in the random-background case is open [O]: almost-sure death does not exclude polynomial survival tails, and the exclusion is proved only in the frozen-background setting of (ii).
 \end{theorem}
 
 % CORRECTION RECORD (external referee flow-through, Aug 22 2026):
@@ -791,7 +790,7 @@ the Brownian driver settled by the driftless analysis and general
 null recurrence left open, which is the statement's scope clause.
 The hitting probabilities are the classical scale-function formula
 \cite{KT81,RY99}.
-\end{proof}
+ Throughout, the background $B$ is random and is never fixed: for positive linear growth the argument uses the subexponential growth of the Brownian background, and for adverse growth it uses the infinite-set lemma above. \end{proof}
 
 \begin{corollary}[The solvable case; {[P]}]\label{cor:solvable}
 For the self-reinforcing driver $d\mu_t=\nu\mu_t\,dt+\sigma\,dW_t$,
@@ -811,8 +810,7 @@ adverse response and none.
 \end{corollary}
 
 \begin{remark}[Fluctuating response; {[S]}]\label{rem:fluct}
-If $\rho=\rho_t$ is a process, an adverse excursion of duration
-$\delta$ at exponent level $x$ contributes
+Theorem~\ref{thm:twocond} is stated for constant $\rho$. It applies to a process $\rho_t$ exactly when $\rho_t$ is eventually constant, its response factor then reading $\one\{\rho_\infty>0\}$ for the eventual value $\rho_\infty$, which is the form in which the technoanatomy companion consumes it; it says nothing about a response that keeps fluctuating, and the rest of this remark says what can be said in that case. If $\rho=\rho_t$ is a process, an adverse excursion of duration $\delta$ at exponent level $x$ contributes
 $\asymp\delta\,\Gamma e^{|\rho|x}$ to $\Lambda$, so survivability
 requires $\delta\lesssim\Gamma^{-1}e^{-|\rho|x}$: the affordable
 duration of adverse response decays exponentially in the accumulated
@@ -871,7 +869,7 @@ $Z_s:=(D_{e^{s}}-D_0)/(\sigma e^{3s/2})$ is a stationary, centered,
 Gaussian, ergodic process, by the Lamperti transform of the integrated
 Brownian motion under its $3/2$-self-similarity, so Birkhoff's ergodic
 theorem gives logarithmic density $\PP(Z_0<0)=\tfrac12$ by symmetry.
-\end{proof}
+\end{proof} For general $\mu_0$ the rescaled increment is $(D_{e^s}-D_0)/(\sigma e^{3s/2}) = (\mu_0/\sigma)\,e^{-s/2} + e^{-3s/2}\int_0^{e^s}W_u\,du$, so the displayed process is exactly stationary and centered only when $\mu_0 = 0$; the proof applies ergodicity to the stationary component and then uses that the deterministic shift $(\mu_0/\sigma)e^{-s/2}$ vanishes, which leaves the limiting sign occupation unchanged, so the conclusion holds for every $\mu_0$.
 
 \noindent The theorem is exported for the technoanatomy companion, which
 reads it as the statement that adverse strength is a generic condition
@@ -1149,11 +1147,10 @@ quantity & measured & predicted & status\\
 hard-wall slope, $\log\PP(\tau>t)$ & $-0.2499\ [-0.254,-0.243]$ &
 $-1/4$ (theorem) & validates code\\
 soft-wall slope, $h_0=0.3$ & $-0.2487$ & $-1/4$ [A] & supports\\
-soft-wall slope, $h_0=1$ & $-0.2480\ [-0.255,-0.242]$ & $-1/4$ [A] &
-confirms\\
+soft-wall slope, $h_0=1$ & $-0.2480\ [-0.255,-0.242]$ & $-1/4$ [A] & supports\\
 soft-wall slope, $h_0=3$ & $-0.2483$ & $-1/4$ [A] & supports\\
 soft-wall slope, $h_0=30$, late window & $-0.240$ & $-1/4$;
-transient delayed & confirms gauge (exact)\\
+transient delayed & consistent with gauge (exact)\\
 ratio $\PP(T>t)/\PP(\tau>t)$, $h_0=1$, $t\ge10^2$ &
 $\in[0.1768,0.1788]$ & bounded [A] & supports, sharply\\
 kinematic coefficient (grid-exact) & $0.2874\pm0.0133$ & $0.2859$ &
