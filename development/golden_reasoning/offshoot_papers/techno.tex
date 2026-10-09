@@ -250,7 +250,7 @@ direction.}}
 \maketitle
 
 \begin{abstract}
-Existential-risk practice manages the wrong quantity. Its ledgers price
+Existential-risk practice manages a quantity that is insufficient by itself. Its ledgers price
 events, its progress measures index accumulated capacity, and both are
 silent on the variable a survivorship model proves decisive: the sign of
 what added capacity does to a civilization's internal hazard, here called
@@ -931,7 +931,7 @@ the schedule is worth climbing.
 Section~\ref{sec:imports} establishes that the completed model departs with
 probability one and yet has infinite life expectancy: the tail is
 $t^{-1/4}$, residual life is Pareto, quantiles grow as the fourth power
-of rarity, and the effective hazard is $1/4t$ --- falling at every age. The threshold is a late-time crossover asymptotic: an asymptotic $C\,t^{-1/4}$ cannot be inserted into the exact posterior formula to establish a unique switch at every time.
+of rarity, and the effective hazard is $1/4t$ --- falling at every age. The threshold is a late-time crossover asymptotic: an asymptotic $C\,t^{-1/4}$ cannot be inserted into the exact posterior formula to establish a unique switch at every time: taken over all $t > 0$ the ratio $(pC/(1-p))\,e^{at}t^{-1/4}$ first decreases and then increases, with its minimum at $t = 1/(4a)$, so the equation $pCt^{-1/4} = (1-p)e^{-at}$ can have two crossings or none, and the statement that the unpushed schedule wins below the threshold and the pushed one above it holds on the late-time branch under parameter conditions placing the crossing there, the logarithmic rare-push scaling being likewise asymptotic with correction terms that no numerical quotation may drop.
 By \eqref{sch:eq:incompletetail} the incomplete regime has none of it.
 An exponential tail has finite expectation, memoryless residual life,
 quantiles growing logarithmically, and a hazard that does not fall at
@@ -1077,10 +1077,7 @@ weight formulation would posit emerges instead from the
 gates are gates, they can go wrong, and going wrong incurs more. That is
 the cascade's shape, and the object it makes is standard.
 
-\begin{proposition}[The debt process is Galton--Watson; \textbf{[P]}]
-\label{sch:prop:gw}
-Under Definition~\ref{sch:def:debt}, $Z$ is the population of a
-Galton--Watson process with offspring probability generating function
+\begin{proposition}[The debt process is an exploration queue of a Galton--Watson tree; \textbf{[P]}] \label{sch:prop:gw} Under Definition~\ref{sch:def:debt}, the update $Z \mapsto Z - 1 + \xi$ describes outstanding work while exploring a Galton--Watson tree, not the generation-by-generation population of the process; its extinction probability is nonetheless obtained from the Galton--Watson construction, the queue emptying exactly when the tree is finite, with the same offspring law with offspring probability generating function
 \begin{equation}\label{sch:eq:pgf}
 f(u)\;=\;\pi+(1-\pi)\,u^{\,r},
 \qquad\text{mean offspring}\quad \varkappa\;=\;r(1-\pi).
@@ -1874,8 +1871,7 @@ realized-favorable option and the wrong options adverse, so that
 \qquad
 \rho_\infty\;=\;\lim_{t\to\infty}\rho_t,
 \end{equation}
-$j_k$ being the option that fired at gate $k$. The two-condition
-theorem reads on $\rho_\infty$.
+$j_k$ being the option that fired at gate $k$. The two-condition theorem reads on $\rho_\infty$ only under an additional assumption that the theorem itself does not supply: the condition it consumes is integrability of the response along the path, which a limit of the response parameter does not determine, so the reading holds where the response is eventually constant after finitely many gates, which the gate construction here provides, and is otherwise an extension not proved in the hazard paper.
 \end{definition}
 
 \begin{proposition}[Front-loaded settlement under monotone coupling;
@@ -1920,7 +1916,7 @@ not compound in the likelihood-ratio order. The exact conditions, including the
 finiteness of hazard accumulated before crossing and the leverage
 factor $x_t$ that makes the tilt vanish while the credit is small,
 are the window theorem's debt (\S\ref{sch:rem:anatomyleg}).
-\end{proof}
+ The proof establishes the one-gate comparison; the iteration across gates would require exact coupling or order assumptions, a Markov dependence of future gates on the current anatomy being neither an association nor a monotone-coupling theorem, and likelihood-ratio tilting is asserted only under the stronger conditions the statement names, so beyond one gate the result is retained as the one-gate comparison and not as the iterated claim. \end{proof}
 
 \begin{remark}[The third term is not exhausted; \textbf{[S]} with imports at \textbf{[$\Phi$]}]
 \label{sch:rem:notexhausted}
@@ -2089,11 +2085,7 @@ being movable. The formal statement of both the process and its
 front-loaded settlement is Definition~\ref{sch:def:derailment} and
 Proposition~\ref{sch:prop:settlement}.
 
-The design wires into the standing structure at four points. The
-two-condition theorem reads on the settled value: viability becomes
-the indicator of $\rho_\infty>0$ times the driver-viability factor with
-$\rho_\infty$ random, so the modern era is the era in which the
-indicator's argument is being determined, by pushes that could in
+The design wires into the standing structure at four points. The two-condition theorem reads on the settled value on the eventual-constancy assumption just stated: viability becomes the indicator of $\rho_\infty>0$ times the driver-viability factor with $\rho_\infty$ random, so the modern era is the era in which the indicator's argument is being determined, by pushes that could in
 principle have come at any time and are, under conditioning, front
 loaded. The fluctuating-anatomy corollary
 (Corollary~\ref{gr1:cor:recurrentanatomy}) is the bridge case,
@@ -2869,8 +2861,7 @@ now at the highest leverage in the record, which is the modern-era term
 read on a stipulated leak law; conditioning on survival prefers that it
 be settled early under stated monotone-coupling conditions, and past a
 survival-time threshold prefers the schedule pushed, tilted toward
-better completion states, which is the mechanism of the ladder; and no event of bounded
-duration can certify which way it has gone, which is the ceiling. The
+better completion states, which is the mechanism of the ladder; and no event of bounded duration can certify the generating path law, which is the ceiling; identifying which way the anatomy has gone is a different and attainable task, and the two are not run together. The
 practice that follows is not a new ledger but a different quantity on
 the old one: an audit of what each added capacity does to the sign, in
 place of a tally of what could go wrong; a governance built for the

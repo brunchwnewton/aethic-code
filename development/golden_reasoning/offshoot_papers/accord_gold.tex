@@ -138,8 +138,7 @@ which at finite information is the Doob density itself, so that a
 historical model comparison and a stochastic $h$-transform are one object;
 the realized log-evidence fluctuates and the monotone quantity is the
 relative entropy, whose rate is the information flux. And the limit on
-certification: the two laws are mutually absolutely continuous on every
-finite horizon and singular only at infinity, so no event of bounded
+certification: the two laws are mutually absolutely continuous on their specified common support on every finite horizon and singular only at infinity, so no event of bounded
 duration separates them with probability one, while statistical
 discrimination remains available and is what the Bayes factor measures.
 A conjunction of predeclared attributes sharpens the theorem
@@ -315,9 +314,7 @@ the event is empty.
 \label{rem:scope}
 The outer probability in \eqref{eq:accordance} is $\PP_B$. The theorem
 says that a record drawn under conditioning on $B$ has realized
-attributes that typically accord with $B$: the more $B$-productive member
-of each pair is typically the one realized, to within an exceedance the
-draw prices. It does not say that a record whose realized attributes
+attributes that typically accord with $B$: the realized member of each pair is unlikely to carry very small $B$-conditioned mass relative to its complement, the exceedance being what the draw prices. It does not say that the more $B$-productive member is typically the one realized, which the counterexample below defeats without an additional prior restriction; and the result is a Bayesian identity and bound applied to historical interpretation, not a new mechanism of historical selection. It does not say that a record whose realized attributes
 accord with $B$ was drawn under $\PP_B$. That is a comparison between
 $\PP_B$ and rival laws for the record, and it is Section~\ref{sec:models}.
 The theorem is a within-model statement; the inference is between-model;
@@ -486,13 +483,7 @@ wrong as a null for an observer whose record already exists at $s$:
 current survival is evidence both hypotheses share, and a comparison
 that leaves it in credits the conditioned law for the trivial fact that
 the observation was made. The null for the observed surviving cohort is
-$\PP^{\mathrm{surv}}_s:=\PP(\,\cdot\mid T>s)$, against which the
-likelihood ratio on $\Fc_s$ is
-\begin{equation}\label{eq:survlr}
-\frac{dQ}{d\PP^{\mathrm{surv}}_s}\Big|_{\Fc_s}=\PP(T>s)\,Z_s,
-\end{equation}
-which in the hard-wall specialization is $\PP(T>s)\,\hm(X_s)/\hm(X_0)$,
-finite on the whole cohort. More generally every rival law in a
+$\PP^{\mathrm{surv}}_s:=\PP(\,\cdot\mid T>s)$, against which the likelihood ratio depends on the observation space, and the two must not be confused. On the diffusion filtration $\Fc^X_s$, where the clock is not observed, an independent Cox clock gives $d\PP(\,\cdot\mid T>s)/d\PP|_{\Fc^X_s}=e^{-\Lambda_s}/\PP(T>s)$, so that \begin{equation}\label{eq:survlr} \frac{dQ^{\mathrm{soft}}}{d\PP^{\mathrm{surv}}_s}\Big|_{\Fc^X_s}=\PP(T>s)\,\frac{g(X_s)}{g(X_0)}, \end{equation} the killing factor cancelling; this is not $\PP(T>s)\,Z^{\mathrm{soft}}_s$, which would double-count the killing. On the enlarged observation space that includes the clock, $\{T>s\}$ is observed and the density must be written on that space, where the hard-wall specialization is $\PP(T>s)\,\hm(X_s)/\hm(X_0)$, finite on the whole cohort; the downstream Bayes factors must say which space they are written on. More generally every rival law in a
 comparison is conditioned on the common baseline $C$ the record fixes,
 observers existing now and survival to the observation time, and the
 Bayes factor is $\PP(E\mid C,H_1)/\PP(E\mid C,H_2)$, so that no part of
@@ -573,10 +564,7 @@ subject matter deliberately: whatever a record's attributes say in favor
 of $H_Q$, they say it at a Bayes factor and never at probability one.
 \end{remark}
 
-\section{A protocol for applying the theorem to a record}
-\label{sec:protocol}
-
-The theorem applies to any record with a law and a target. Its
+\section{A protocol for applying the theorem to a record} \label{sec:protocol} The theorem applies to any record with a law and a target, and a protocol applying it states, for each predeclared attribute, the predictive probability of each outcome under both hypotheses, the Golden target and the observer-conditioned rival, before the observation interval opens; a protocol supplying only one of the two predictive distributions is not a test. Its
 application to an actual record faces the retrospective-target objection
 in its full force: any realized history, read backward, contains rare
 attributes that are prerequisites of whatever it happens to contain, so a
