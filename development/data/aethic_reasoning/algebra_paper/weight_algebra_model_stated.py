@@ -1,10 +1,10 @@
-# weight_algebra_model_stated.py: option (iii) -- exclusivity must be stated (the single-peg carving held); closure runs the splitting rule. Result on the completed model: every doomed carrier is tagged by closure, the doomed set is an ideal, I = D.
+# weight_algebra_model_stated.py (R510): option (iii) -- exclusivity must be stated (the single-peg carving held); closure runs the splitting rule. Result on the completed model: every doomed carrier is tagged by closure, the doomed set is an ideal, I = D.
 # Option (iii): a blank splits only where its exclusivity is stated (its single-peg carving held), and closure runs the
 # splitting rule over held carvings (a carrier is tagged when every setting of a held carving is tagged).
 import itertools, sys
-sys.path.insert(0, __import__('os').path.dirname(__import__('os').path.abspath(__file__)))
+sys.path.insert(0, '/mnt/user-data/outputs')
 import importlib.util
-spec = importlib.util.spec_from_file_location('m', __import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)), 'weight_algebra_model.py')); m = importlib.util.module_from_spec(spec); sys.argv = ['x']; spec.loader.exec_module(m)
+spec = importlib.util.spec_from_file_location('m', '/mnt/user-data/outputs/weight_algebra_model.py'); m = importlib.util.module_from_spec(spec); sys.argv = ['x']; spec.loader.exec_module(m)
 PEGS, BASE_SETS, S = m.PEGS, m.BASE_SETS, m.S
 def close_split(items, depth=0):
     c, tag = m.close(items)

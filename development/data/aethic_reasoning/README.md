@@ -1,45 +1,51 @@
-# Aethic Reasoning — data and verification scripts
+# Aethic reasoning — computational supplements
 
-Supplementary code for the Aethic papers. Every script is Python 3, needs only the standard library, and prints the figures the papers quote. Run each from inside this folder. Runtimes were measured on a single core.
+Every checking script produced during the referee-driven revision of the Aethic/Nexic paper suite, collected
+by paper. All scripts are Python 3 with the standard library only (exact rational arithmetic where a claim is
+exact), except `determinacy_paper/realist_checks.py`, which also needs `numpy`. Random enumerations are seeded,
+so each run should reproduce the reported counts; where an `*_expected_output.txt` file is present, running the
+script with no arguments should match it exactly.
 
-`weight_algebra_model_stated.py` and `weight_algebra_broad_check.py` import `weight_algebra_model.py`, so keep all files together. Three scripts' outputs are fully deterministic, and their exact outputs are in `expected_output/`: for example `python3 settling_benchmarks.py | diff - expected_output/settling_benchmarks.txt` prints nothing, and likewise for `weight_algebra_current_model.py` and for `counterfactual_check.py` run with the arguments `12000 20261005`.
+Assembled 9 October 2026. The revision ledger (`FABLE_LEDGER.md`, delivered separately) records the round in
+which each script was written and what it was used to verify.
 
-## Counterfactual Evaluation by Perturbation of Information States
+## Submission supplements (cited in the papers)
 
-| Script | What it checks | Expected output | Runtime |
+| Paper (file) | Folder | Entry point | Companion files |
 |---|---|---|---|
-| `counterfactual_check.py` | The operator of Definition `def:operator` on finite models: the four-attribute witness under the dual-peg and Boolean readings; the Cut-without-nesting countermodel; the witness under premise semantics, AGM revision, Winslett's update (targets satisfying the antecedent and the standing constraints) and Pearl's SCM; and a random-model test of Cut, pocket monotonicity, the Cautious-Monotony characterization and Or | Run as `python3 counterfactual_check.py 12000 20261005` (sample size, seed): Cut 690 instances, 0 failures; pocket monotonicity 2,858, 0; characterization 737, 0 mismatches, 47 Cautious-Monotony failures; Or 550, 0. Exact output in `expected_output/` | about 10 s |
+| Newcomb's Problem Without a Fixed Past (`decision.tex`) | `decision_paper/` | `settling_benchmarks.py` | README, expected output |
+| Counterfactual Evaluation by Reopening Information States (`modal.tex`) | `semantics_paper/` | `counterfactual_check.py` | README, expected output; earlier-round checks `cm_check.py`, `cm_characterization_check.py`, `cut_counterexample.py` |
+| Causality from Indexed Information States (`quant_causal.tex`) | `causality_paper/` | `causality_checks.py` (runs the five component scripts in the same folder) | README, expected output |
+| Determinacy as a Two-Place Relation (`realist.tex`) | `determinacy_paper/` | `realist_checks.py` (needs numpy) | expected output |
+| Quantum Mechanics from Records (`quant.tex`) | `quantum_paper/` | `readings_check.py` | — |
+| The algebra paper (`aethic_tree.tex`) | `algebra_paper/` | `declared_descent_check.py`, `weight_algebra_broad_check.py`, `weight_algebra_model.py`, `weight_algebra_model_stated.py` | `invalidity_model.py`, `refinement_model.py` (the referee's small models) |
+| Aethic Reasoning, the long paper (`1_Aethic_Reasoning.tex`) | `long_aethic_paper/` | `decomposability_check.py`, `deduction_battery.py` | `axiomatics_checks/` (closure, pegs, composition, sums and tiers, F10–F12, E+α) |
+| Nexic Reasoning, the Copernican and Optimal Earth papers (`3_Nexic_Reasoning.tex`, `nexic.tex`, `optimal_earth.tex`) | `nexic_papers/` | `impact_example.py`, `sealevel_surrogates.py`, `copernican_check.py` | `contingent_bounds_mc.py`, `landing_depth_check.py`, `placement_check.py`, `strong_accordance_check.py` |
+| Sequential achievement (`howlong.tex`) | `howlong_paper/` | `howlong_realizations.py` | — |
 
-The program computes what each competitor's stated clause yields; that each clause faithfully renders the cited account is checked against the paper's text, not by the program.
+Running times on an ordinary laptop: most scripts finish in seconds; `counterfactual_check.py`,
+`causality_checks.py`, `weight_algebra_broad_check.py`, `weight_algebra_model_stated.py`, `landing_depth_check.py`,
+`sums_check.py`, `f10_distributivity_check.py` and `composites_check.py` take one to three minutes each.
 
-## The decision paper
+## Referenced in a paper but not in this bundle
 
-| Script | What it checks | Expected output | Runtime |
-|---|---|---|---|
-| `settling_benchmarks.py` | The settling rule of Definition `def:settle` (frozen original kernels; point mass on the act; binding couplings retained; non-binding couplings detached jointly over their outputs given their external parents; condition, normalize; zero normalizer = inadmissible under the model) run on each benchmark, with every input listed in the paper's supplement README | Opaque Newcomb 990,000 vs 11,000 (500,000 vs 501,000 when the accuracy coupling does not bind); transparent, full box: two-box at ε = 0.01, two-boxing inadmissible at ε = 0; lesion: P(cancer) 0.66 under both acts; psychopath button −0.8 vs 0 | under 1 s |
-| `transparent_newcomb_shared_model.py` | The shared transparent-predictor model: both theories' verdicts over the predictor's error rate | FDT one-boxes on a full box iff ε < (M−t)/(2M−t) ≈ 0.4998; the settling rule two-boxes for every ε > 0 and one-boxes at ε = 0; both two-box on an empty box | under 1 s |
+The following script names are cited in the papers' text but were not among the files produced in these revision
+sessions; they should be located on the author's side or the citations removed before submission:
+`frauchiger_renner_mixture.py` (long Aethic paper), `sealevel_three_curves.py` and `surrogate_analysis.py`
+(long Nexic paper), `weight_algebra_current_model.py` (algebra paper), `newton_timing.py` and
+`task_human_correlation.py` (Golden reasoning paper).
 
-## The Weight Algebra of Aethae
+## Tools
 
-| Script | What it checks | Expected output | Runtime |
-|---|---|---|---|
-| `weight_algebra_current_model.py` | **The paper's worked example** (current rules): closure-independence, coefficient additivity, the join-semilattice of the nine proper children, doom, the reduced form and the quotient | All 36 pairs have joins, 16 have no common proper child; doom = the tagged set; reduced form 0.3/0.4/0.1. Exact output in `expected_output/` | under 1 s |
-| `weight_algebra_model.py` | The finite model under the **superseded** descent rules, the countermodel the paper keeps in its appendix | Lists carriers in *I* but not in *D* | about 1 min |
-| `weight_algebra_model_stated.py` | The same model under the current rules: a blank splits only through a held carving, and closure runs the splitting rule | `\|U\| = 900  tagged 782  \|D\| = 782  \|I\| = 782  I == D: True` | about 1.5 min |
-| `weight_algebra_broad_check.py` | Broad agreeing states: the passive reading against peg-wise splitting | Passive: `\|D\|=1006 \|I\|=1006 I==D:True`; peg-wise: a gap of 3 | about 2.5 min |
-| `declared_descent_check.py` | Declared descent on the worked cases and on 400 random models | All violation counts 0 | about 1 s |
+`tools/` holds two revision utilities that take command-line arguments and are not paper supplements:
+`inventory.py SRC.tex OUT.json` (baseline paragraph inventory) and `check_noloss.py INVENTORY.json NEW.tex [LEDGER.json]`
+(no-loss checker for a restructured section).
 
-## Aethic Reasoning (the long paper) and Quantum Mechanics from Records
+## Notes
 
-| Script | What it checks | Expected output | Runtime |
-|---|---|---|---|
-| `frauchiger_renner_mixture.py` | The Frauchiger–Renner two-laboratory joint distribution: the coherent assignment against the record-separated mixture | (ok₁, ok₂), (ok₁, fail₂), (fail₁, ok₂), (fail₁, fail₂): (1/12, 1/12, 1/12, 3/4) coherent against (1/4, 1/4, 1/4, 1/4) for the mixture | under 1 s |
-| `decomposability_check.py` | The decomposability grades read in the peg formalism, and the correlated-composite example | 0 violations | about 3 s |
-
-## Provenance
-
-The scripts were written by Claude (Anthropic) with the author in 2026.
-
-## License
-
-The code in this package is released under the MIT License; see `LICENSE`.
+- The auxiliary checks from earlier rounds print their own conclusions, including negative ones that were recorded in
+  the ledger at the time (for example `e_alpha_closure_check.py` reports the carving cases in which the "3.3 shadow"
+  claim fails); they are included unchanged.
+- Each supplement's README states which clause of a cited account its comparator rows implement; the scripts
+  establish what those clauses yield, and their fidelity to the cited sources is a scholarly claim to be checked
+  against the sources.
