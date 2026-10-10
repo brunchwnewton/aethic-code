@@ -51,7 +51,7 @@ for _ in range(4000):
     g1, g2, gk = grade(filling(c, 'X1'), 'X1'), grade(filling(c, 'X2'), 'X2'), grade(filling(c, 'K'), 'K')
     if 'invalid' in (g1, g2, gk): continue
     n += 1
-    FK = filling(c, 'K')                                                          # Proposition (i), the projection identity
+    FK = filling(c, 'K')                                                          # R474: Proposition (i), the projection identity
     viol['component filling != projection of composite filling'] += (filling(c, 'X1') != fs(EXT[k][0] for k in FK)) + (filling(c, 'X2') != fs(EXT[k][1] for k in FK))
     comp = 'state' if g1 == g2 == 'determinate' else 'blank' if g1 == g2 == 'blank' else 'mixed' if {g1, g2} == {'determinate', 'blank'} else 'partial-component'
     tally[(comp, gk)] += 1

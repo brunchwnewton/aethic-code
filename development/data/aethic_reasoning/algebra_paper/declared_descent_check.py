@@ -1,4 +1,4 @@
-# the Weight Algebra's rebuilt construction, checked. Carriers are partial assignments; 'agr' marks an attribute held
+# R497: the Weight Algebra's rebuilt construction, checked. Carriers are partial assignments; 'agr' marks an attribute held
 # in agreeing superposition; 'access' marks a carrier that records that attribute. Declared descent: fill exclusive blanks
 # one value at a time; an agreeing attribute splits only with access, and those splits are tagged.
 import itertools, random

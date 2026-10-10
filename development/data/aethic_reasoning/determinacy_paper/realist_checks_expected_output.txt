@@ -1,0 +1,10 @@
+converse of the lemma on 12671 non-base candidates over 4000 random preorders: failures = 0; base cases skipped = 5394
+base candidates whose descendants are not all base-reaching (equivalence needs A outside Base or hereditary Base): 1317
+case (a) internal record only: P(+) at boundary SM = 1.0
+case (b) separating record in E: P(+) at boundary SM = 0.5 ; reduced SM state diagonal in the record basis: True
+case (b) at boundary SME (control encloses E): P(+) = 1.0
+FR P(okbar,ok): coherent = 0.083333 ; fully dephased product record basis = 0.25 ; dephase Fbar only = 0.083333 ; dephase F only = 0.083333
+coherent P(W=fail | coin t) = 1.0
+dephased-F P(W=fail | coin t) = 0.5
+coherent P(spin up | okbar) = 1.0
+fully dephased P(spin up | okbar) = 0.333333

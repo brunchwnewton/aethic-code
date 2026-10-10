@@ -1,4 +1,4 @@
-# weight_algebra_model.py: the Weight Algebra's fully specified finite model.
+# weight_algebra_model.py: the Weight Algebra's fully specified finite model (R507).
 # Attributes: X with pegs {1,2,3}; b with pegs {0,1}; e: the irreducibility peg on b (b filled by exactly {0,1}).
 # Items: states ('S', attr, frozenset pegs) for proper nonempty fillings; exclusions ('E', attr, peg); carvings ('C', attr);
 # the irreducibility item ('e',). Closure: narrowing, exact fillings derive exclusions, elimination, semantic mining of the

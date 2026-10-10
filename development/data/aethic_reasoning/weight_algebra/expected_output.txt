@@ -1,0 +1,7 @@
+closure-independent: injective cell map, content order = extension; S3 additivity holds
+proper children of P: 9
+all 36 pairs have joins (join-semilattice); pairs with no common proper child: 16 e.g. [('b1', 'b0'), ('b1', 'a1.b0'), ('b1', 'a0.b0')]
+a1 v a0 = P | a1 ^ b1 = a1.b1
+doomed = tagged set: ['Hyp', 'T_a (a1.a0, rival values)', 'T_b (b1.b0, rival values)'] | doomed cells of P: none
+x = {'T_a': 0.2, 'a1.b0': 0.3, 'a0.b1': 0.4, 'a0.b0': 0.1} -> reduced form x_V = {'a1.b0': 0.3, 'a0.b1': 0.4, 'a0.b0': 0.1} | [x] = [x_V]; T_a stays in x under its tag
+y = {'T_a': 0.5, 'Hyp': 0.5} -> no reduced form (S(y) empty); [y] = 0

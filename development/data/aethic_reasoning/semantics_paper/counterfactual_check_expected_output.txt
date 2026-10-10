@@ -1,0 +1,136 @@
+
+==============================================================================
+1. The four-attribute witness (Theorem: Cautious Monotony fails)
+==============================================================================
+A states s; closure: {s, y} | declared grounds of y: {'s'} | no other dependency edges
+  blank set for x & y at evidential    : ['x', 'y']; intermediates: ['{}']
+  blank set for x & y at unidirectional: ['x', 'y']; intermediates: ['{}']
+  blank set for x & y at bidirectional : ['s', 'x', 'y']; intermediates: ['{}']
+  reopen for x    : intermediates ['{s, y}']  (each blank on ['x']: True)
+  pockets of pi_x    : ['(x, s, y, z)']
+  reopen for x & y: intermediates ['{}']  (each blank on ['x', 'y']: True)
+  pockets of pi_x & y: ['(x, ~s, y, ~z)', '(x, ~s, y, z)', '(x, s, y, z)']
+  x |~ y : True | x |~ z : True | x&y |~ z : False | x |~ ~y : False
+  => Cautious Monotony fails at (x, y, z) at every scope; Rational Monotony fails on the same instance.
+
+==============================================================================
+1b. The witness under the stronger openness requirement (every value of a blanked attribute admissible)
+==============================================================================
+  A = {s}       : intermediates and pockets identical under both requirements at every scope, for x and for x & y
+  A' = {s, ~x}  : intermediates and pockets identical under both requirements at every scope, for x and for x & y
+  three-valued example (r = 1 stated, {r = 1, q = 3} invalid, no declared dependencies): unresolved grade -> intermediates ['{r=1}'], pockets under q in {1, 2}: ['(q=1, r=1)', '(q=2, r=1)']; stronger requirement -> INFEASIBLE
+  => the two requirements are different operations (the three-valued example is feasible under one and infeasible under the other);
+     the principal countermodel satisfies both, so the non-preferentiality result does not depend on the weaker grade.
+
+==============================================================================
+2. The streetlight: declared Dep, protected evidence, infeasibility  (r = red, t = stopped; law r -> t)
+==============================================================================
+  green stated, proceeding recorded: A = {~r, ~t}; closure {~r, ~t}; grounds of r: set(), dependents of r: {'t'}
+     evidential    : INFEASIBLE (protected content entails ~r)
+     unidirectional: intermediates ['{}'] -> pockets under r: ['(r, t)']
+     bidirectional : intermediates ['{}'] -> pockets under r: ['(r, t)']
+     without protection (retention off): intermediates ['{}'] -> feasible; the protection is what makes the evidential scope infeasible
+  green derived from the proceeding record: A = {~t}; closure {~r, ~t}; grounds of r: set(), dependents of r: {'t'}
+     evidential    : INFEASIBLE (protected content entails ~r)
+     unidirectional: intermediates ['{}'] -> pockets under r: ['(r, t)']
+     bidirectional : intermediates ['{}'] -> pockets under r: ['(r, t)']
+     without protection (retention off): intermediates ['{}'] -> feasible; the protection is what makes the evidential scope infeasible
+  => the proceeding record is a declared dependent of the light, not a ground: protected at the evidential-minimal scope,
+     where its closure with the law excludes red; cleared as posterity at the causal scopes, where had-it-been-red yields stopped.
+
+==============================================================================
+2b. Cut without nesting (Proposition): priorities keep the generalization p over the particular r
+==============================================================================
+  declared grounds: y rests on p; x rests on p and r; the priority keeps the generalization p over the particular r
+  reopening x, tie-keeping maxima: ['{p, y}', '{r, y}']
+  priority selects: ['{p, y}'] -> pockets under x: ['(p, ~r, x, y)']
+  reopening x & y: ['{r}'] -> pockets: ['(~p, r, x, y)']
+  x |~ y: True | x&y |~ r: True | x |~ r: False (x |~ ~r: True)
+  => Cut fails where the priorities select among inclusion-incomparable maximal restrictions.
+     Branch-wise union: the two tied intermediates' restated contents are jointly inconsistent ({p, ~r, x, y} vs {~p, r, x, y}); their pockets are collected separately.
+
+==============================================================================
+3. Minimality: a three-attribute Cautious Monotony counterexample (law z -> y; A states z)
+==============================================================================
+  pockets of pi_x  : ['(x, y, z)']
+  pockets of pi_x&y: ['(x, y, ~z)', '(x, y, z)']
+  x |~ y, x |~ z, x&y |/~ z : True
+  => three attributes suffice; the four-attribute witness is not the smallest instance.
+
+==============================================================================
+3b. Cautious Monotony failure through a cleared dependent (no laws; z declared to rest on y; unidirectional scope)
+==============================================================================
+  evidential    : pi_x ['(x, y, z)'] | pi_x&y ['(x, y, z)'] | x|~y True, x|~z True, x&y|~z True
+  unidirectional: pi_x ['(x, y, z)'] | pi_x&y ['(x, y, ~z)', '(x, y, z)'] | x|~y True, x|~z True, x&y|~z False
+  bidirectional : pi_x ['(x, y, z)'] | pi_x&y ['(x, y, ~z)', '(x, y, z)'] | x|~y True, x|~z True, x&y|~z False
+  => at the unidirectional scope reopening x & y clears z as y's dependent; Cautious Monotony fails although y has no grounds.
+
+==============================================================================
+4. Left Logical Equivalence: x versus x & (y or ~y) on the witness
+==============================================================================
+  NORMALIZE=False: targets of x&(y|~y) = ['x', 'y'];  x&(y|~y) |~ z : False  (x |~ z : True)
+  NORMALIZE=True : targets of x&(y|~y) = ['x'];  x&(y|~y) |~ z : True  (x |~ z : True)
+  => un-normalized, the unrestricted conjunct reopens y and LLE fails; normalized, it contributes no target and LLE holds.
+
+==============================================================================
+4b. Or with an exhaustive disjunction (normalization removes the target)
+==============================================================================
+  targets of (x or ~x): [] -> perturbation = standing residue: ['(~x, s, y, ~z)', '(~x, s, y, z)', '(x, s, y, z)']
+  x |~ z: True | ~x |~ z: False | (x or ~x) |~ z: False
+  => Or's hypothesis fails here (~x does not yield z), consistently with the standing residue not yielding z; the random test counts the exhaustive instances.
+
+==============================================================================
+5. Comparators on the witness (Table: neighboring semantics)
+==============================================================================
+  semantics                              x->y  x->z  x&y->z  Cautious Monotony
+  This paper, dual-peg reading           yes   yes   no      fails
+  This paper, Boolean reading            yes   yes   yes     holds
+  Maximal-consistent-facts comparator    yes   yes   yes     holds
+  Basis retraction, Veltman-type         no    no    no      not instantiated
+  AGM revision (expansion)               yes   yes   yes     holds
+  Pearl, the model in the text           yes   yes   yes     holds
+  Update (Winslett)                      yes   no    no      not instantiated
+     basis-retraction worlds reached under x: ['(x, ~s, ~y, ~z)', '(x, ~s, y, ~z)', '(x, s, y, z)']
+     Winslett update by x: ['(x, ~s, y, ~z)', '(x, s, y, z)']
+  => the maximal-consistent-facts comparator, AGM and Pearl keep s and validate the instance; basis retraction and Winslett's
+     update do not reach it (the former affirms neither x->y nor x->z, the latter not x->z); the dual-peg reading alone fails it.
+
+==============================================================================
+5b. The comparison where the antecedent is known false: A' = Cl({s, ~x}) (kept apart from the table)
+==============================================================================
+  closure of A': {s, ~x, y} | the antecedent x contradicts the state
+  evidential    : reopen x -> ['{s, y}'] (~x cleared, s retained); pi_x ['(x, s, y, z)']; pi_x&y ['(x, ~s, y, ~z)', '(x, ~s, y, z)', '(x, s, y, z)']
+  unidirectional: reopen x -> ['{s, y}'] (~x cleared, s retained); pi_x ['(x, s, y, z)']; pi_x&y ['(x, ~s, y, ~z)', '(x, ~s, y, z)', '(x, s, y, z)']
+  bidirectional : reopen x -> ['{s, y}'] (~x cleared, s retained); pi_x ['(x, s, y, z)']; pi_x&y ['(x, ~s, y, ~z)', '(x, ~s, y, z)', '(x, s, y, z)']
+  semantics                              x->y  x->z  x&y->z  Cautious Monotony
+  This paper, dual-peg reading           yes   yes   no      fails
+  Maximal-consistent-facts comparator    yes   yes   yes     holds
+  Basis retraction, Veltman-type         no    no    no      not instantiated
+  AGM revision (expansion)               -     -     -       -
+  Pearl, the model in the text           yes   yes   yes     holds
+  Update (Winslett)                      yes   no    no      not instantiated
+     basis-retraction worlds reached under x: ['(x, ~s, ~y, ~z)', '(x, ~s, y, ~z)', '(x, s, y, z)']
+     Winslett update by x: ['(x, ~s, y, ~z)', '(x, s, y, z)']
+  => on A' the operator's three verdicts are unchanged at every scope and Cautious Monotony fails as before; the Veltman-type
+     clause affirms none of the three; Winslett affirms x->y only; the comparator and Pearl affirm all three; AGM expansion is
+     inapplicable (the antecedent contradicts the belief set, so revision rather than expansion is required: not computed).
+
+==============================================================================
+6. Antecedent strengthening, contraposition and transitivity
+==============================================================================
+  strengthening on the witness: x |~ z True | x&y |~ z False
+  contraposition on the witness: x |~ y True | ~y |~ ~x False | pockets under ~y: ['(~x, ~s, ~y, ~z)', '(~x, ~s, ~y, z)', '(x, ~s, ~y, ~z)', '(x, ~s, ~y, z)']
+  transitivity (law c -> d; state {c, e}): d |~ e True | e |~ c True | d |~ c False | pockets under d: ['(~c, d, e)', '(c, d, e)']
+  => all three patterns fail, each by a witness: reopening d clears its ground c, so d |~ e and e |~ c do not chain.
+
+==============================================================================
+7. Random finite, fully supported models (3000 draws, seed 20261008; entailment-derived Dep; evidential scope)
+==============================================================================
+  valid models: 2904
+  Lemma (Conjunctive reopening), blankness of every conjunctive intermediate on both constituents: violations 0
+  Proposition (where Cautious Monotony fails): 50291 nested singleton instances, criterion agrees with the operator in 50291, Cautious Monotony fails in 3113
+  Cut, nested instances: 47324, failures 0
+  pocket monotonicity, nested instances: 45281, failures 0
+  Or, instances: 53986, failures 0; exhaustive disjunction (no target after normalization): 3814 instances, failures 0
+
+All checks passed.

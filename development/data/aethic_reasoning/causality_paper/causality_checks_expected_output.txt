@@ -1,0 +1,76 @@
+
+==============================================================================
+A1. A setting-independent screener that is not Bell-local
+==============================================================================
+  P(a,b|x,y) = (1 + ab E_xy)/4 reproduced: max error 0.00e+00
+  marginals P(a=1|x,y) = [0.5], P(b=1|x,y) = [0.5] (unbiased, non-signaling)
+  CHSH = E00 + E01 + E10 - E11 = 2.828427 = 2*sqrt(2) (2.828427)
+  Bob's response given lambda=+1, P(b=1|x,y,lambda): y=0 -> [0.8535533905932737, 0.8535533905932737], y=1 -> [0.8535533905932737, 0.14644660940672627]: depends on Alice's setting x
+  => screening in every context by a setting-independent lambda; not Bell-local, so outside (D1)-(D3).
+
+==============================================================================
+A2. A three-valued screener: screens, positive covariance, no uniform relevance ordering
+==============================================================================
+  E[A] = 1/2, E[B] = 1/2, E[AB] = 91/300, Cov(A,B) = 4/75 (= 4/75: True)
+  pockets c1 -> c2: P(A=1|C) 1/2 -> 9/10 (rises), P(B=1|C) 9/10 -> 1/2 (falls)
+  Cov(E[A|C], E[B|C]) = 4/75 = Cov(A,B): True
+  => the covariance identity holds for every screener; the fork inequalities are the binary case.
+
+==============================================================================
+A3. One probability table, two hard structures
+==============================================================================
+  identical tables: True  ({(0, 0): '1/2', (0, 1): '0', (1, 0): '0', (1, 1): '1/2'})
+  probe X=0, Y=1: admissible in the soft state (True) at weight 0; admissible in the hard state: False (structurally invalid)
+  the zero-weight probe is admissible but carries no relative weight, so it is no proper child and supplies no validity floor (a separate question from admissibility)
+  after an added entry excluding the matches: soft state keeps admissible total assignments [(0, 1), (1, 0)] (valid in the finite constraint model, total weight 0); hard state keeps [] (invalid)
+  => the table does not exhaust the structure: the two states absorb the same further constraint differently.
+
+==============================================================================
+B. reichenbach_check.py
+==============================================================================
+tallies: {'correlated pairs': 4208, 'unscreenable': 3235, 'direct entry but screenable (absorbed)': 156, 'screeners': 2908, 'binary forks': 225, 'separating families': 3692}
+  (i) correlated but not connected through entries           violations: 0
+  (ii) no direct entry, yet N(A) fails to separate           violations: 0
+  (iii) a separating family fails to screen                  violations: 0
+  (iii) no direct entry, yet N(A) fails to screen            violations: 0
+  (iii) screening without pairwise factorization             violations: 0
+  (iii) unscreenable without a direct entry                  violations: 0
+  (iv) a screener independent of A or of B                   violations: 0
+  (iv) binary fork: Cov != P(C)P(~C) dA dB                   violations: 0
+  (iv) total-covariance identity fails                       violations: 0
+  (v) merged presentation changes the state                  violations: 0
+ALL CLAIMS HOLD
+
+==============================================================================
+B. causal_rungs_check.py
+==============================================================================
+parity: same joint: True | settle A=0 -> P(B): {(0,): Fraction(1, 1)} vs {(0,): Fraction(1, 2), (1,): Fraction(1, 2)}
+triple: one joint: True
+profiles (settle A moves B, settle B moves A) for A->C->B, A<-C->B, A<-C<-B: [(True, False), (False, False), (False, True)] | distinct: True
+  (b) settling not normalized                  violations: 0
+  (b) settling != truncated factorization      violations: 0
+  (d) back-door adjustment fails               violations: 0
+ALL CAUSAL CLAIMS HOLD
+
+==============================================================================
+B. causal_cf_check.py
+==============================================================================
+(i) same observational law: True; same interventional law: True; counterfactual Y_(X<-1) given X=0,Y=0: M1 {0: Fraction(1, 1), 1: 0}, M2 {0: 0, 1: Fraction(1, 1)}
+(ii) pruning-based counterfactual vs brute-force twin world, 3000 random SCMs: 0 disagreements
+
+==============================================================================
+B. nosignal_check.py
+==============================================================================
+(1) factorwise sums: {Fraction(0, 1): [Fraction(2, 1), Fraction(2, 1)], Fraction(1, 2): [Fraction(2, 1), Fraction(2, 1)]} | P(a=1) at t=0: 1/2  at t=1/2: 5/9
+(2) singlet far wing: max |sum_b - 2| over 2000 random setting pairs = 0
+(3) no-signaling iff the far-wing sum factors as g(a)h(y): 0 disagreements in 3000 random tables
+
+==============================================================================
+B. regularity_check.py
+==============================================================================
+checked 118450 (S, e) pairs over 600 random deterministic states
+  (i) minimal sufficient  !=  S + not-e minimal jointly invalid      violations: 0
+  (iii) a reading of a minimal invalid set is not minimal sufficient violations: 0
+REGULARITY PROPOSITION HOLDS
+
+All checks completed.

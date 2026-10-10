@@ -1,9 +1,9 @@
 # Does I = D survive broad agreeing states? Extension of the completed model: X2 also excludes a definite b, an
 # irreducibility marker eX over X in {1,2}, and a record rX of X's value (holding X's carving). Two readings compared:
-#   passive  -- a filling declares no children; only held carvings split (the reading the paper adopts)
+#   passive  -- a filling declares no children; only held carvings split (the author's reading of 2026-09-25)
 #   peg-wise -- as passive, plus every multi-peg state splits peg by peg unless its attribute is held irreducibly
 import itertools, sys, importlib.util
-spec = importlib.util.spec_from_file_location('m', __import__('os').path.join(__import__('os').path.dirname(__import__('os').path.abspath(__file__)), 'weight_algebra_model.py')); m = importlib.util.module_from_spec(spec); sys.argv = ['x']; spec.loader.exec_module(m)
+spec = importlib.util.spec_from_file_location('m', '/mnt/user-data/outputs/weight_algebra_model.py'); m = importlib.util.module_from_spec(spec); sys.argv = ['x']; spec.loader.exec_module(m)
 S, PEGS = m.S, m.PEGS
 m.BASE_SETS += [frozenset({S('X', 2), S('b', 0)}), frozenset({S('X', 2), S('b', 1)})]
 m.BASE_SETS += [frozenset({('eX',), S('X', p)}) for p in PEGS['X']]
