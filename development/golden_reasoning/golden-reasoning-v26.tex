@@ -2723,6 +2723,9 @@ extinction risks}, Risk Analysis \textbf{30} (2010), 1495--1506.
 \newcommand{\hm}{\mathfrak{h}}
 \newcommand{\Ac}{\mathcal{A}}
 \newcommand{\Sc}{\mathsf{S}}
+% R798 (lane tree, \S ln:sec)
+\newcommand{\lneff}{\mathrm{eff}}
+\newcommand{\Hint}{H_{\mathrm{int}}}
 
 \allowdisplaybreaks
 
@@ -2906,6 +2909,26 @@ $\kappa$ & exceedance parameter of the Accordance Principle,
 \end{center}
 
 \smallskip
+\noindent\textbf{The lane tree} (\S\ref{ln:sec}).
+\begin{center}\small
+\begin{tabular}{@{}ll@{}}
+\toprule
+$c_v$ & content of mode $v$: rate of events individuated to exactly $v$;
+$\Hint=\sum_vc_v$\\
+$d_v,\ \tau_{\mathrm r}$ & signature probability per event and record window;
+crossover $h_\times=1/(d_v\tau_{\mathrm r})$\\
+$P_v,\ r_v,\ S_v$ & pool presented at $v$, resolution
+$1-e^{-d_v\tau_{\mathrm r}P_v}$, stated amount $r_vP_v$, \eqref{ln:eq:pool}\\
+$\rho_{\lneff}(v),\ \tilde\lambda_v$ & effective (harmonic) anatomy,
+\eqref{ln:eq:backward}; marginal anatomy, \eqref{ln:eq:marginal}\\
+$\hat\rho,\ q_x$ & stated-share-weighted anatomy and the base,
+$\Hint=\Gamma_{\mathrm{eff}}q_x^{\,x}$, \eqref{ln:eq:base}\\
+$k(v),\ f_i(c)$ & scope map and external field, \S\ref{ln:sub:boundary}\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\smallskip
 \noindent\textbf{Collisions the reader should know about.} $s$ is the
 scale function in \S\ref{gr1:sec} and the per-gate survival factor in
 \S\ref{sch:sub:schedule}; $T$ is the departure time throughout except in
@@ -2916,7 +2939,12 @@ $b$ is the muffling offset and, in \S\ref{ad:sec}, a Heider weight;
 $\kappa$ is the exceedance parameter and, in Appendix~\ref{app:horizon},
 a gain minimum; $\varkappa$ (curly) is the schedule's mean offspring and
 is a distinct symbol. $\Phi$ with a numeral indexes premises; $\Phi$
-alone is the normal CDF.
+alone is the normal CDF. In \S\ref{ln:sec}, $c_v$ and $d_v$ are contents
+and signature probabilities, not the relaxation weights $c,d$ of
+\S\ref{ad:sec}; $r_v$ is a resolution, not the schedule's $r$; $S_v$ is a
+stated amount; $\tau_{\mathrm r}$ is the record window, not the
+schedule's completion time $\tau$; and $q_x$ is the realized base that
+gives Remark~\ref{sch:rem:internalgates}'s $q$ its referent.
 
 % ---------------------------------------------------------------------
 \section*{Glossary of coined terms}\label{sec:glossary}
@@ -3042,6 +3070,23 @@ dissolved rather than answered. \S\ref{ra:sub:finale},
 Remark~\ref{ra:rem:relay}
 \item[Adversivity] Net antagonism in an institutional balance.
 \S\ref{ad:sec}
+\item[Lane / mode] A class of internal hazard events individuated by
+its own records; modes nest by refinement into the lane tree, whose
+root is the internal channel. Definition~\ref{ln:def:tree}
+\item[Resolution] The probability that a record window individuates a
+mode, Poisson in the rate presented; the soft branch.
+\eqref{ln:eq:res}
+\item[Pool / stated amount] The mass presented at a node and the part
+of it the node states; the lanes sum counts each unit once.
+\eqref{ln:eq:pool}, Lemma~\ref{ln:lem:pooled}
+\item[Effective anatomy] The anatomy at which a mode's content is
+absorbed: the expected anatomy of the absorbing walk, harmonic on the
+tree. \eqref{ln:eq:backward}
+\item[Quiet limit] The regime in which no mode below the root is
+resolved; the trough channel is its form. Theorem~\ref{ln:thm:quiet}
+\item[Stochastic base] $q_x$: the realized per-unit compounding factor
+of the lanes sum, self-averaging away from separatrices and bimodal at
+one. \eqref{ln:eq:base}, Table~\ref{ln:tab:quenched}
 \item[Aethus / Aethae]\textsuperscript{$\dagger$} An information state
 and its refinements.
 \item[Nexus / Cosmic Nexus]\textsuperscript{$\dagger$} A weighting scheme
@@ -3357,6 +3402,10 @@ self-contained; Part~III is the inference discipline, Golden
 reasoning, accordance, the Route World, with the ceiling as its
 governing limit; Part~IV is the normative and existential engine,
 the Score through the third route; Part~V is the human position.
+Part~V ends with the lane tree (\S\ref{ln:sec}), which derives the
+trough channel of Part~II from the record structure of hazard modes
+and states how the institutional equilibria of \S\ref{ad:sec} enter
+it.
 A reader wanting only the probability reads Part~II; only the
 philosophy of meaning, Part~IV after Part~I's vocabulary; the
 whole argument, in order.
@@ -7910,6 +7959,10 @@ development of a single object from different sides: \S\ref{gr1:sec}
 gives its dynamics, \S\ref{gr:sec} its ensemble structure and what may
 be inferred from occupying it, and \S\ref{ad:sec} the institutional
 machinery that would determine whether a given biosphere reaches it.
+Section~\ref{ln:sec} is the joint between the last two: the internal
+hazard resolved into modes, consuming the anatomies \S\ref{ad:sec}
+would supply and returning the trough channel of \S\ref{gr1:sec} as
+its quiet limit.
 \end{remark}
 
 % ---------------------------------------------------------------------
@@ -9867,7 +9920,10 @@ $\Gamma e^{-\rho x}$ under the standing restriction $\rho>1$, imposed so
 that the background would reach the survivor's hazard
 (Constraint~\ref{tc:C1}). That restriction has never been examined, and
 lifting it turns out to supply the model's missing structural
-parameter. We lift it now: $\rho$ ranges over $\R$.
+parameter. We lift it now: $\rho$ ranges over $\R$. (Section~\ref{ln:sec}
+later derives the trough channel itself, as the quiet limit of a tree
+of hazard modes with $\rho$ the anatomy of the tree's root,
+Theorem~\ref{ln:thm:quiet}; nothing here depends on that derivation.)
 
 \begin{definition}[Technoanatomy]\label{gr1:def:anatomy}
 The exponent $\rho$ is the \emph{technoanatomy}\footnote{%
@@ -11658,6 +11714,9 @@ represents pre-onset hazard as gates. If continuity is taken at the width
 Remark~\ref{gc:rem:continuitycost} states it, then post-onset internal
 hazard should be representable the same way, and the trough's smooth
 exponential should be a coarse-graining of gates not yet identified.
+Section~\ref{ln:sec} identifies them, as the records of hazard modes,
+and derives the trough channel as the quiet limit of their tree
+(Theorem~\ref{ln:thm:quiet}).
 
 \begin{remark}[The trough's exponential is geometric compounding;
 \textbf{[S]}]\label{sch:rem:internalgates}
@@ -11678,6 +11737,9 @@ is the mechanism. \eqref{tc:eq:hazard} remains the paper's statement of
 the internal channel, nothing downstream is rewritten in gate
 coordinates, and the construction's use is heuristic --- it says what one
 would look for, and becomes a derivation only if the gates are named.
+They are named in \S\ref{ln:sec}, where $q$ acquires its referent
+(Proposition~\ref{ln:prop:base}): the stated-share-weighted anatomy of
+the lane tree, compounded along the history.
 
 Three things follow, and the second is the reason to record this. \emph{The anatomy trichotomy becomes a compounding test.}
 Proposition~\ref{gr1:prop:trichotomy} divides on the sign of $\rho$;
@@ -11710,7 +11772,10 @@ smooth hazard is the \emph{annealed} description of an unidentified jump
 process, so by the discipline of Remark~\ref{sch:rem:gap2} it flatters
 the typical history. An observer using \eqref{tc:eq:hazard}'s trough to
 reason about their own biosphere is using a mean carried by branches that
-patched luckily \textbf{[O]}.
+patched luckily \textbf{[O]}. Section~\ref{ln:sec} supplies the events
+and, in its quenched model, the size of the flattery
+(Table~\ref{ln:tab:quenched}), together with the regime in which the
+annealed rate describes no history at all.
 
 \subsubsection{What is open}\label{sch:subsub:open}
 
@@ -18815,7 +18880,10 @@ stated with its test and its falsifier, the mind's own operative
 state and the stability of its best states are treated at the same
 hazard currency (\S\ref{ms:sec}), and adversivity supplies the
 microfoundation of technoanatomy at the scale where humans actually
-act (\S\ref{ad:sec}). What leaves this part is the reader's own
+act (\S\ref{ad:sec}); the lane tree (\S\ref{ln:sec}) then states what
+that microfoundation feeds, the internal hazard resolved into modes,
+whose quiet limit is the trough channel of Part~II. What leaves this
+part is the reader's own
 position, which is the paper's point.
 
 \section{The human role: two errors about it}\label{hr:sec}
@@ -21131,6 +21199,20 @@ biosphere's $\rho$ is the top of a flow rather than a separate
 posit. And a coordination cost must be added, whose scaling with
 capability is the anatomy the whole construction is for.
 
+\paragraph{Where $\rho$ goes.}\label{ad:rem:whererho}
+What this section would deliver has a consumer, and \S\ref{ln:sec}
+states the interface. The internal hazard there is a tree of modes,
+each assigned a scope of the coarse-graining above and each consuming
+one anatomy, $\rho_v=\beta_v-\alpha_v$ read at that scope's
+equilibrium of \eqref{ad:eq:model}, as boundary data
+(Definition~\ref{ln:def:boundary}); the modes' contents return to this
+section as the external field of \S\ref{ad:subsub:aliens}, so that the
+arrival and removal cases are the two directions of one feedback
+(Remark~\ref{ln:rem:political}); and the trough channel of
+\S\ref{gr1:sec} is the limit in which only the top scope's anatomy
+survives (Theorem~\ref{ln:thm:quiet}), which is the sense in which the
+biosphere's $\rho$ is the top of a flow.
+
 
 % ---------------------------------------------------------------------
 \subsection{Ledger}\label{ad:sub:ledger}
@@ -21163,6 +21245,786 @@ parameter and two interpretable constraints, the four-channel form used
 for computation being a relaxation that agrees with it. And a stated,
 checkable route to $\rho$, together with an exact account of why this
 apparatus cannot reach it alone.
+
+% =====================================================================
+% LANE TREE SECTION (R798, Fable 5.1, Oct 10 2026). Integrates the four
+% working notes of Oct 10 2026 (outputs/golden_nuclear_equilibrium/):
+% resolution_tree_note, lane_tree_coupling_note, adjoint_note (the first
+% note's two-order model is NOT integrated; its floor is derived here as
+% Proposition ln:prop:floor). Scripts: resolution_tree.py,
+% lane_tree_coupling.py, adjoint_check.py, stochastic_base.py.
+% =====================================================================
+\section[The lane tree: modes, resolution, and the trough channel as a quiet limit]{The lane tree:
+hazard modes, resolution, and the trough channel as a quiet limit}\label{ln:sec}
+
+\begin{quote}\small
+The trough channel entered \eqref{tc:eq:hazard} as a smooth exponential
+with both constants primitive, and \S\ref{sch:subsub:internalschedule}
+recorded what that representation owes: the exponential should be the
+coarse-graining of events not yet identified, and until they are
+identified a smooth rate is an annealed description that flatters the
+typical history. This section identifies the events and pays the debt.
+Internal hazard is carried by \emph{modes}, nested by refinement into a
+tree whose root is the internal channel itself; a mode is individuated
+only by records that its own events generate, so that a mode which has
+gone quiet dissolves into the mode above it; and the hazard a biosphere
+carries is the sum over the tree, counted once. Three results follow
+within the model. The aggregate internal hazard is \emph{exactly} one
+exponential in technostrength, $\Gamma_{\mathrm{eff}}\,q_x^{\,x}$, whose
+base is the geometric mean along the history of the node anatomies
+averaged by their stated shares, which is the $q$ of
+Remark~\ref{sch:rem:internalgates} given its referent. The trough
+channel $\Gamma e^{-\rho x}$ is the \emph{quiet limit} of the tree, the
+regime in which no mode below the root is individuated, with $\rho$ the
+root's anatomy. And the structure governing the tree is an adjoint pair,
+content carried up and anatomy carried down, stationary for a bilinear
+action rather than a potential, whose quenched completion exhibits the
+annealed--typical gap of \S\ref{sch:subsub:internalschedule} as a number
+and, at a separatrix, as a bimodality that no mean-field history
+belongs to. The anatomies the tree consumes are what
+\S\ref{ad:sec} is for, and \S\ref{ln:sub:boundary} states how they
+enter: as boundary data read at the equilibria of the adversivity
+energy, scope by scope, with the modes' contents feeding back into the
+energy as the external field of \S\ref{ad:subsub:aliens}.
+\end{quote}
+
+% ---------------------------------------------------------------------
+\subsection{What the trough channel's events are}\label{ln:sub:events}
+
+Principle~\ref{gc:prin:continuity} holds that hazard-lowering across
+mediations is one activity, and \S\ref{sch:subsub:internalschedule}
+drew the consequence that post-onset internal hazard should be
+representable, like the schedule, as events that must be got right.
+Remark~\ref{sch:rem:internalgates} then exhibited the one mechanism
+that returns the trough's form, geometric compounding of a per-unit
+unpatched fraction $q$, at the strength of a heuristic, and named what
+would make it a derivation: the events.\footnote{%
+\emph{Provenance.} The events are named in four questions put by the
+author to the drafting collaboration on 10 October 2026, each answered
+the same day in a working note. The first
+reads humanity's deliberate effort against nuclear annihilation as a
+positive rather than a negative equilibrium and asks for a two-order
+model of the internal hazard; the second supplies the lane picture
+verbatim: ``at high internal hazard two lanes are distinguishable but
+when it gets low enough the distinction dissolves \ldots\ a tree
+structure with interpolative soft boundaries \ldots\ the lanes stop
+admitting adding separately (no double count) \ldots\ `add the danger
+of the jointness' and then `add the post-branch for each', then a
+nonlinear interpolated soft boundary \ldots\ an abstraction substrate
+over which we do the arithmetic, which then renders to the internal
+hazard rates''; the third asks that the other lanes' post-branch
+content enter a lane's foundation ``with a huge muffle,'' through
+tree-proximity, with technoanatomy ``like a `joint stochastic process'
+of the entire output of this structure,'' related to it
+``asymptotically or mode-wise in places''; the fourth asks whether the
+mechanism is ``a limiting emergent constraint granted by some kind of
+adversivity math-like structure, almost like its own stationary
+action/equilibrium limit, but all while in general the energy actually
+allows for distinct setups,'' and that the aggregate's form
+``$\Gamma_{\mathrm{eff}}\,b^{x}$ for some stochastic $b$'' be done
+justice. The formalization, the proofs, and all numerical work are
+from the drafting collaboration (notes of 10 October 2026, with
+scripts); every claim below is graded, and the model's posits are
+costed in \S\ref{ln:sub:ledger}.}
+
+The events are the hazard events themselves, and what organizes them is
+not a list but a tree. A nuclear exchange, an engineered pandemic, a
+collapse of a food system, a seizure of the muffling apparatus by one of
+its own institutions: each is a \emph{mode} of internal hazard, each
+refines into modes below it, and all of them are refinements of the
+internal channel as such. What makes this more than a taxonomy is a
+fact about records. A mode is an attribute of a record-bearing state
+only where the state carries records that individuate it, and those
+records are generated by the mode's own events: near-misses, incidents,
+forensic traces carrying the mode's signature. By the
+Record-Individuation Lemma of the comprehensive paper
+\cite{Aethus}, alternatives that no record distinguishes are not
+distinct alternatives of the attribute; so an event whose records carry
+only a coarser signature has no finer mode, the finer attribute standing
+blank over it, and a mode whose events have become rare is, relative to
+the record state, no longer there. That is the mechanism of
+\S\ref{sch:subsub:internalschedule}'s missing gates, and it has a
+consequence the gate picture did not anticipate: the gates are not fixed
+but \emph{dissolve} as they are passed.
+
+\begin{definition}[Lane tree, contents, individuation]\label{ln:def:tree}
+Internal hazard events form a marked point process whose marks are the
+records an event leaves. Let $\mathcal T$ be a rooted tree whose root is
+the internal channel, whose nodes are modes, and whose leaves are
+\emph{lanes}; a record individuates an event to the deepest node whose
+signature it carries. For each node $v$ let $c_v\ge0$ be the rate of
+events individuated to exactly $v$, its \emph{content} (at an internal
+node, the \emph{jointness} of the modes below it), and let
+$\Hint:=\sum_vc_v$ be the internal hazard.
+\end{definition}
+
+\begin{lemma}[Additivity over the partition; \textbf{[P]}]\label{ln:lem:partition}
+Individuation depth partitions the events, so $\Hint=\sum_vc_v$ exactly,
+and for any set of nodes no two of which are ancestor and descendant the
+subtree totals satisfy $\sum_vH_v\le\Hint$, with equality iff the set
+cuts every root-to-leaf path. Summing the totals of overlapping nodes,
+or attributing an event individuated to a mode to each of the modes
+below it, overcounts.
+\end{lemma}
+
+\begin{proof}
+Each event has exactly one individuation node.
+\end{proof}
+
+% ---------------------------------------------------------------------
+\subsection{Resolution: the soft branch, and the floor derived}\label{ln:sub:resolution}
+
+The lemma is the bookkeeping. The dynamics come from the fact that the
+individuating records arrive at a rate proportional to the mode's own
+content.
+
+\begin{ansatz}[Resolution; \textbf{[S]}]\label{ln:ansatz:resolution}
+Over a record window of length $\tau_{\mathrm r}$, each event of a mode
+leaves a record carrying that mode's signature with probability $d_v$,
+a parameter of the record structure rather than of the mode. The
+\emph{resolution} of $v$ is the probability that a window individuates
+it,
+\begin{equation}\label{ln:eq:res}
+r_v\;=\;1-e^{-d_v\tau_{\mathrm r}P_v},
+\end{equation}
+Poisson in the rate $P_v$ of events presented at $v$, with
+\emph{crossover} $h_\times=1/(d_v\tau_{\mathrm r})$ at which
+$r_v=1-e^{-1}$; the root is always resolved, $r_{\mathrm{root}}=1$.
+\end{ansatz}
+
+For a single mode under its parent, $P_v=c_v$ and the stated
+decomposition is the one the author's second question asks for: the jointness is
+stated at the parent, each child's post-branch content is stated at the
+child to the extent $r_v$ and at the parent to the extent $1-r_v$, and
+the total is unchanged, since survival does not consult the
+bookkeeping. The branch is soft because \eqref{ln:eq:res} is. Rendering
+is the rule of Definition~\ref{gr1:def:anatomy} read at the attribute
+level: capacity acts on what is stated. A resolved mode is addressed at
+its own anatomy; an unresolved one cannot be targeted and moves with its
+parent at the parent's anatomy. Writing the dynamics in technostrength,
+\begin{equation}\label{ln:eq:render1}
+\frac{d}{dx}\log c_v=-\bigl[r_v\rho_v+(1-r_v)\rho_{\mathrm{pa}(v)}\bigr],
+\end{equation}
+with $r_v$ evaluated at the current content.
+
+\begin{proposition}[The floor, and the knot; \textbf{[P]} within the model]\label{ln:prop:floor}
+Under \eqref{ln:eq:render1}, as a mode's content falls below
+$h_\times$ its logarithmic rate of decline tends to the parent's anatomy
+$\rho_{\mathrm{pa}}$. If $\rho_{\mathrm{pa}}>0$ the mode continues to
+zero at the parent's rate and contributes finitely to $\Lambda_\infty$.
+If $\rho_{\mathrm{pa}}=0$ the decline rate tends to zero and the content
+decays only as a power law, $c_v(x)\approx h_\times/(\rho_vx)$, whose
+integral diverges logarithmically: the mode is fatal on a logarithmic
+clock although its own anatomy is favorable. If $\rho_{\mathrm{pa}}<0$
+the mode turns upward at the parent's rate.
+\end{proposition}
+
+\begin{proof}
+For $c_v\ll h_\times$, $r_v\approx d_v\tau_{\mathrm r}c_v$, so
+$\frac{d}{dx}\log c_v\approx-\rho_{\mathrm{pa}}-(\rho_v-\rho_{\mathrm{pa}})
+d_v\tau_{\mathrm r}c_v$. With $\rho_{\mathrm{pa}}=0$ this is
+$\dot c_v=-\rho_vd_v\tau_{\mathrm r}c_v^{2}$, solved by
+$c_v(x)=1/(c_v(0)^{-1}+\rho_vd_v\tau_{\mathrm r}x)$.
+\end{proof}
+
+The second case is the one to keep. A mode that has been driven below
+its crossover has no stated attribute left for a policy to act on; its
+own records no longer individuate it; and driving it further means
+acting on the parent, which means acting on every sibling the parent's
+jointness covers, at the parent's anatomy. The floor on a mode is
+therefore not a property of the mode but of the mode above it, and the
+crossover scale $h_\times$ at which the floor takes over is set by the
+record structure, by $d_v$ and the window, not by any policy. In the
+two-mode case of Table~\ref{ln:tab:twolane} the strongly addressed mode
+($\rho_1=1$) falls at its own rate while resolved, bends at the
+crossover, and under an unaddressed parent ($\rho_{\mathrm{pa}}=0$)
+stalls; the weakly addressed sibling's share of the parent's readout
+rises from $0.09$ to about $0.5$, coming online as the first withdraws;
+and the naive sum of per-mode estimates, each unresolved mode read as
+the parent's total, overcounts the true total by a factor of $2.7$ at
+$x=20$, which is the double count Lemma~\ref{ln:lem:partition} forbids.
+
+\begin{table}[t]
+\centering\small
+\caption{Two modes under one parent with jointness $c_{\mathrm{pa}}(0)=0.02$,
+$\rho_1=1$, $c_1(0)=0.5$, $\rho_2=0.1$, $c_2(0)=0.05$, $d\tau_{\mathrm r}=10$
+so that $h_\times=0.1$; parent unaddressed ($\rho_{\mathrm{pa}}=0$, upper
+block) and addressed ($\rho_{\mathrm{pa}}=0.3$, lower block). Script
+\texttt{resolution\_tree.py}.}
+\label{ln:tab:twolane}
+\footnotesize\setlength\tabcolsep{4.5pt}
+\begin{tabular}{@{}rccccccc@{}}
+\toprule
+$x$ & $c_1$ & $c_2$ & total & $r_1$ & $r_2$ & stated at parent & share of 2 in readout\\
+\midrule
+\multicolumn{8}{@{}l}{$\rho_{\mathrm{pa}}=0$}\\
+0 & $5.00\times10^{-1}$ & $5.00\times10^{-2}$ & $5.70\times10^{-1}$ & 0.993 & 0.393 & $5.37\times10^{-2}$ & 0.088\\
+4 & $3.87\times10^{-2}$ & $4.31\times10^{-2}$ & $1.02\times10^{-1}$ & 0.321 & 0.350 & $7.43\times10^{-2}$ & 0.423\\
+10 & $1.25\times10^{-2}$ & $3.55\times10^{-2}$ & $6.80\times10^{-2}$ & 0.117 & 0.299 & $5.59\times10^{-2}$ & 0.522\\
+30 & $3.65\times10^{-3}$ & $2.19\times10^{-2}$ & $4.56\times10^{-2}$ & 0.036 & 0.197 & $4.11\times10^{-2}$ & 0.481\\
+\midrule
+\multicolumn{8}{@{}l}{$\rho_{\mathrm{pa}}=0.3$}\\
+0 & $5.00\times10^{-1}$ & $5.00\times10^{-2}$ & $5.70\times10^{-1}$ & 0.993 & 0.393 & $5.37\times10^{-2}$ & 0.088\\
+4 & $2.76\times10^{-2}$ & $1.87\times10^{-2}$ & $5.24\times10^{-2}$ & 0.241 & 0.171 & $4.25\times10^{-2}$ & 0.358\\
+10 & $3.03\times10^{-3}$ & $3.44\times10^{-3}$ & $7.47\times10^{-3}$ & 0.030 & 0.034 & $7.26\times10^{-3}$ & 0.460\\
+30 & $7.03\times10^{-6}$ & $8.72\times10^{-6}$ & $1.82\times10^{-5}$ & 0.000 & 0.000 & $1.82\times10^{-5}$ & 0.479\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ---------------------------------------------------------------------
+\subsection{The pooled tree: baselines, muffled coupling, and the harmonic anatomy}\label{ln:sub:pool}
+
+On a tree deeper than one level the parent's stated amount is itself
+presented to the grandparent, resolved or not, and the single-mode
+formula must be pooled.
+
+\begin{definition}[Pools, stated amounts, effective anatomy]\label{ln:def:pool}
+With $\mathrm{ch}(v)$ the children and $\mathrm{pa}(v)$ the parent of
+$v$, define in postorder the \emph{pool} presented at $v$ and the
+\emph{stated amount} at $v$,
+\begin{equation}\label{ln:eq:pool}
+P_v=c_v+\sum_{u\in\mathrm{ch}(v)}(1-r_u)\,P_u,\qquad S_v=r_vP_v,
+\end{equation}
+with $r_v$ given by \eqref{ln:eq:res} at $P_v$. A mode's
+\emph{baseline} is its parent's pool, $B_v:=P_{\mathrm{pa}(v)}$, the
+mass it cannot be separated from. The \emph{effective anatomy} of $v$
+is the resolution-weighted mixture up its ancestor chain
+$v=a_0,a_1,\dots,a_k=\mathrm{root}$,
+\begin{equation}\label{ln:eq:rhoeff}
+\rho_{\lneff}(v)=\sum_{j=0}^{k}\Bigl[\prod_{i<j}(1-r_{a_i})\Bigr]r_{a_j}\rho_{a_j},
+\end{equation}
+and the rendering is $\frac{d}{dx}\log c_v=-\rho_{\lneff}(v)$.
+\end{definition}
+
+\begin{lemma}[The pooled no-double-counting law; \textbf{[P]}]\label{ln:lem:pooled}
+$\sum_vS_v=\sum_vc_v=\Hint$ for every configuration of resolutions.
+\end{lemma}
+
+\begin{proof}
+Induction from the leaves: the stated amounts in the subtree of $v$ sum
+to the subtree's contents less the unresolved remainder $(1-r_v)P_v$
+passed to the parent, and at the root nothing is passed.
+\end{proof}
+
+Three things the author's third question asked for are now theorems of the
+bookkeeping, and each is checkable on the example tree of
+Table~\ref{ln:tab:tree}, a root with two modes $A,B$, $A$ with lanes
+$A_1,A_2$ and $B$ with lane $B_1$, anatomies
+$(\rho_{\mathrm{root}},\rho_A,\rho_B,\rho_{A_1},\rho_{A_2},\rho_{B_1})
+=(0.3,0.2,0.05,1.0,0.1,0.5)$ and $d\tau_{\mathrm r}=10$ throughout.
+
+\emph{A lane's foundation is its siblings' post-branch content, muffled.}
+The baseline of $A_1$ is $P_A=c_A+(1-r_{A_1})P_{A_1}+(1-r_{A_2})P_{A_2}$,
+so $A_2$'s content enters $A_1$'s foundation through the factor
+$(1-r_{A_2})c_{A_2}=c_{A_2}e^{-d\tau_{\mathrm r}c_{A_2}}$, which rises
+to a maximum of $h_\times/e$ at the crossover and then falls: a sibling
+that gets loud enough individuates and withdraws from the pool. On the
+example, $\partial P_A/\partial c_{A_2}$ runs from $+1$ at
+$c_{A_2}=0$ through zero at $h_\times=0.1$ to $-0.14$ at $2h_\times$,
+and $P_A$ returns to its $c_{A_2}=0$ value by $c_{A_2}=1$. The coupling
+is through tree proximity because a cousin's content reaches $A_1$ only
+after being unresolved twice, at the cousin and at the cousin's parent.
+
+\emph{The individuation separatrix.} With everything else frozen, a
+mode's content obeys
+$\frac{d}{dx}\log c_v=-[r_v\rho_v+(1-r_v)\rho_{\lneff}(\mathrm{pa}(v))]$,
+which has a fixed point at
+\begin{equation}\label{ln:eq:separatrix}
+r^\ast=\frac{\rho_{\lneff}(\mathrm{pa}(v))}{\rho_{\lneff}(\mathrm{pa}(v))-\rho_v},
+\qquad c^\ast=-\frac{\log(1-r^\ast)}{d_v\tau_{\mathrm r}},
+\end{equation}
+when $\rho_v$ and the parent's effective anatomy differ in sign. A mode
+of adverse anatomy under a favorable foundation is bistable: above
+$c^\ast$ it stays resolved and grows at its own rate, below it dissolves
+and decays at its foundation's. The weakest link is the first case:
+on the example with $\rho_{B_1}=-0.3$ and $c_{B_1}(0)=0.2$ above its
+separatrix, $\Hint$ rises from $0.79$ to $2.9\times10^{4}$ by $x=40$
+while every other mode decays.
+
+\emph{The aggregate's asymptote.} When every mode has positive effective
+anatomy every content falls, every resolution below the root tends to
+zero, and every effective anatomy tends to $\rho_{\mathrm{root}}$:
+Table~\ref{ln:tab:tree} shows the three lanes' effective anatomies
+converging from $(0.995,0.196,0.462)$ to $0.300$ and the aggregate's
+decay rate between $x=20$ and $x=40$ equal to $0.300$ against
+$\rho_{\mathrm{root}}=0.3$. This is the statement that the trough
+channel is the quiet limit of the tree, and \S\ref{ln:sub:adjoint}
+proves it as a limit rather than exhibiting it.
+
+\begin{table}[t]
+\centering\small
+\caption{The example tree, root $\to\{A,B\}$, $A\to\{A_1,A_2\}$, $B\to\{B_1\}$,
+with contents $(0.01,0.02,0.01,0.5,0.05,0.2)$ at $x=0$. Lanes' contents,
+$A_1$'s baseline, the lanes' effective anatomies, and the aggregate. Script
+\texttt{lane\_tree\_coupling.py}.}
+\label{ln:tab:tree}
+\footnotesize\setlength\tabcolsep{3.5pt}
+\begin{tabular}{@{}rcccccccc@{}}
+\toprule
+$x$ & $c_{A_1}$ & $c_{A_2}$ & $c_{B_1}$ & $B_{A_1}=P_A$ & $\rho_{\lneff}(A_1)$ & $\rho_{\lneff}(A_2)$ & $\rho_{\lneff}(B_1)$ & $\Hint$\\
+\midrule
+0 & $5.00\times10^{-1}$ & $5.00\times10^{-2}$ & $2.00\times10^{-1}$ & $5.37\times10^{-2}$ & 0.995 & 0.196 & 0.462 & $7.90\times10^{-1}$\\
+2 & $8.72\times10^{-2}$ & $3.35\times10^{-2}$ & $8.62\times10^{-2}$ & $7.25\times10^{-2}$ & 0.686 & 0.206 & 0.379 & $2.31\times10^{-1}$\\
+5 & $1.91\times10^{-2}$ & $1.71\times10^{-2}$ & $3.12\times10^{-2}$ & $3.58\times10^{-2}$ & 0.397 & 0.243 & 0.312 & $7.86\times10^{-2}$\\
+10 & $3.44\times10^{-3}$ & $4.52\times10^{-3}$ & $6.97\times10^{-3}$ & $9.00\times10^{-3}$ & 0.315 & 0.283 & 0.297 & $1.77\times10^{-2}$\\
+20 & $1.64\times10^{-4}$ & $2.38\times10^{-4}$ & $3.52\times10^{-4}$ & $4.71\times10^{-4}$ & 0.301 & 0.299 & 0.300 & $8.94\times10^{-4}$\\
+40 & $4.05\times10^{-7}$ & $5.92\times10^{-7}$ & $8.72\times10^{-7}$ & $1.17\times10^{-6}$ & 0.300 & 0.300 & 0.300 & $2.22\times10^{-6}$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ---------------------------------------------------------------------
+\subsection{The adjoint structure}\label{ln:sub:adjoint}
+
+The pooled tree is not two formulas but one structure seen from both
+ends, and seeing it so is what answers the author's fourth question:
+the governing principle is stationarity, but of an action that is
+bilinear, not of a potential.
+
+\begin{lemma}[Absorbing walk; \textbf{[P]}]\label{ln:lem:walk}
+Let a unit of content at $v$ perform the upward walk that at each node
+$a$ of the ancestor chain is absorbed with probability $r_a$ and
+otherwise moves to $\mathrm{pa}(a)$, absorption at the root being
+certain. Then $P_v$ is the expected mass passing through $v$, $S_v$ the
+expected mass absorbed at $v$, Lemma~\ref{ln:lem:pooled} is conservation
+of the walk, and $\rho_{\lneff}(v)$ is the expected anatomy at
+absorption, the unique solution of the \emph{backward equation}
+\begin{equation}\label{ln:eq:backward}
+\rho_{\lneff}(v)=r_v\rho_v+(1-r_v)\,\rho_{\lneff}(\mathrm{pa}(v)),\qquad
+\rho_{\lneff}(\mathrm{root})=\rho_{\mathrm{root}}.
+\end{equation}
+\end{lemma}
+
+\begin{proposition}[Duality, the rate identity, and the action; \textbf{[P]}]\label{ln:prop:adjoint}
+Forward and backward quantities are dual under the pairing
+\begin{equation}\label{ln:eq:duality}
+\langle\rho_{\lneff},c\rangle:=\sum_vc_v\,\rho_{\lneff}(v)
+\;=\;\sum_a\rho_a\,S_a=:\langle\rho,S\rangle,
+\end{equation}
+and the aggregate obeys $d\Hint/dx=-\langle\rho,S\rangle$: the
+anatomies act on the stated amounts, and the arithmetic over the tree
+renders to the rate through the pairing. With the resolutions held at
+their current values, both recursions are the stationarity conditions
+of the bilinear action
+\begin{equation}\label{ln:eq:action}
+L=\sum_vc_v\varphi_v-\sum_vr_vP_v\rho_v
++\sum_v\lambda_v\Bigl(P_v-c_v-\sum_{u\in\mathrm{ch}(v)}(1-r_u)P_u\Bigr):
+\end{equation}
+stationarity in $\lambda$ is \eqref{ln:eq:pool}, stationarity in $P$ is
+\eqref{ln:eq:backward} for $\lambda$, stationarity in $c$ gives
+$\varphi=\lambda$, so the Lagrange multiplier of the pool constraint
+\emph{is} the effective anatomy, and the value of $L$ at the saddle is
+zero, which is \eqref{ln:eq:duality}.
+\end{proposition}
+
+\begin{proof}
+Conditioning the walk on its first step gives \eqref{ln:eq:backward};
+summing each unit's expected absorbed anatomy by origin and by
+absorption node gives \eqref{ln:eq:duality}; the rate identity is the
+rendering summed. For the action, $P_v$ appears in its own constraint
+with coefficient $\lambda_v$ and in its parent's with
+$-(1-r_v)\lambda_{\mathrm{pa}(v)}$, so $\partial_{P_v}L=0$ is the
+backward recursion. On the example, $\langle\rho_{\lneff},c\rangle
+=0.610193=\langle\rho,S\rangle$ to machine precision, the finite-difference
+rate is $-0.6075$ against $-0.6102$ with the gap the step's re-evaluation
+of resolutions, and the multipliers equal $\rho_{\lneff}$ at every node
+(\texttt{adjoint\_check.py}).
+\end{proof}
+
+\begin{theorem}[The trough channel is the quiet limit of the lane tree; \textbf{[P]} within the model]\label{ln:thm:quiet}
+As every content tends to zero, every resolution below the root tends
+to zero, the walk is absorbed only at the root, and
+\eqref{ln:eq:backward} has the constant solution
+$\rho_{\lneff}\equiv\rho_{\mathrm{root}}$. In that limit
+$d\Hint/dx=-\rho_{\mathrm{root}}\Hint$, so that
+$\Hint=\Gamma e^{-\rho x}$ with $\rho=\rho_{\mathrm{root}}$ and $\Gamma$
+the aggregate content at the base point: the trough channel of
+\eqref{tc:eq:hazard}, with its constants given referents. Away from the
+limit the harmonic function \eqref{ln:eq:backward} interpolates the
+node anatomies along each ancestor chain, which is the cross-talk of
+\S\ref{ln:sub:pool}.
+\end{theorem}
+
+\begin{proof}
+Immediate from \eqref{ln:eq:backward} with $r_v\to0$. On the example the
+lanes' effective anatomies at contents scaled by
+$10^{-1},10^{-2},10^{-3},10^{-4}$ are, for $A_1$,
+$0.557,\,0.329,\,0.303,\,0.300$ against $\rho_{\mathrm{root}}=0.3$.
+\end{proof}
+
+This is the limiting emergent constraint the author's fourth question
+asks after. It is emergent, holding for every choice of the node
+anatomies below the root and every shape of the tree; it is limiting,
+reached only as the structure quiets; and it is a constraint in the
+exact sense that a harmonic function with a single boundary value is
+that value, so that every mode talks at the foundation because the
+foundation is the only place left to be resolved. Technoanatomy as
+\S\ref{gr1:sec} consumes it is therefore the root's anatomy, and
+\S\ref{ad:sub:toward}'s ``the biosphere's $\rho$ is the top of a flow''
+now has the flow specified: it is \eqref{ln:eq:backward}, run from the
+root down.
+
+\begin{proposition}[Marginal against average anatomy; \textbf{[P]}]\label{ln:prop:marginal}
+With the resolutions responding to the pools, the derivative of the
+pairing with respect to a mode's content is
+\begin{equation}\label{ln:eq:marginal}
+\tilde\lambda_v:=\frac{\partial\langle\rho,S\rangle}{\partial c_v}
+=r_v\rho_v+(1-r_v)\tilde\lambda_{\mathrm{pa}(v)}
++r_v'(P_v)P_v\bigl(\rho_v-\tilde\lambda_{\mathrm{pa}(v)}\bigr),
+\end{equation}
+the backward recursion with an \emph{individuation term}: adding content
+at $v$ sharpens $v$'s resolution and moves $r_v'P_v$ of its pool from
+the foundation's anatomy to its own. The rendering runs on the average
+anatomy $\rho_{\lneff}(v)$, the rate at which $v$'s content is absorbed;
+the pairing's gradient is the marginal anatomy $\tilde\lambda_v$, the
+rate the aggregate gains per unit of content added at $v$. With
+$u=d\tau_{\mathrm r}P$, the coefficient $r+r'P=1-e^{-u}(1-u)$ exceeds
+$1$ past the crossover, so the marginal anatomy is then an affine rather
+than convex combination and can be negative with every node anatomy
+positive. And the rendering is the gradient flow of the pairing in the
+multiplicative metric exactly at frozen resolution, where the pairing is
+linear in the contents; with the resolutions responding it is the
+gradient flow of no function, since for siblings $u,v$ under $p$
+\begin{equation}\label{ln:eq:cross}
+\frac{\partial\rho_{\lneff}(v)}{\partial c_u}
+=(1-r_v)\bigl(\rho_p-\rho_{\lneff}(\mathrm{pa}(p))\bigr)\,r_p'(P_p)\,e^{-u_u}(1-u_u),
+\end{equation}
+which is symmetric in $u\leftrightarrow v$ only when the siblings sit at
+equal pools in crossover units.
+\end{proposition}
+
+\begin{proof}
+The chain rule up the ancestor chain with $\partial P_{\mathrm{pa}}/\partial P_a
+=1-(r_a+r_a'P_a)$ gives \eqref{ln:eq:marginal}; $c_u$ enters
+$\rho_{\lneff}(v)$ only through $P_p$, with
+$\partial P_p/\partial c_u=e^{-u_u}(1-u_u)$, which gives
+\eqref{ln:eq:cross}, and the two cross-derivatives share every factor
+but $(1-u_u)$ against $(1-u_v)$ since $(1-r_v)e^{-u_u}=e^{-u_u-u_v}$.
+Table~\ref{ln:tab:marginal} has the numbers.
+\end{proof}
+
+\begin{table}[t]
+\centering\small
+\caption{Marginal against average anatomy on the example tree at $x=0$
+(finite differences of the pairing agree with \eqref{ln:eq:marginal} to
+six places), the asymmetry \eqref{ln:eq:cross}, and a mode of positive
+anatomy with negative marginal anatomy ($\rho_{A_2}$ reset to $0.02$,
+$c_{A_2}$ at twice its crossover). Script \texttt{adjoint\_check.py}.}
+\label{ln:tab:marginal}
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+& root & $A$ & $B$ & $A_1$ & $A_2$ & $B_1$\\
+\midrule
+average $\rho_{\lneff}$ & 0.300 & 0.258 & 0.223 & 0.995 & 0.196 & 0.462\\
+marginal $\tilde\lambda$ & 0.300 & 0.227 & 0.159 & 1.021 & 0.139 & 0.546\\
+\midrule
+\multicolumn{7}{@{}l}{\footnotesize asymmetry: $\partial\rho_{\lneff}(A_1)/\partial c_{A_2}=-0.00119$,
+$\partial\rho_{\lneff}(A_2)/\partial c_{A_1}=+0.00956$ ($u_{A_1}=5$, $u_{A_2}=0.5$);}\\
+\multicolumn{7}{@{}l}{\footnotesize \quad both $0.000139$ at equal contents}\\
+\multicolumn{7}{@{}l}{\footnotesize negative marginal: $\rho_{A_2}=0.02$, $u_{A_2}=2$: average $\rho_{\lneff}(A_2)=0.0525>0$,}\\
+\multicolumn{7}{@{}l}{\footnotesize \quad marginal $\tilde\lambda_{A_2}=-0.0084<0$, foundation $\tilde\lambda_A=0.230$}\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{remark}[Why the distinct setups are not on the tree]\label{ln:rem:acyclic}
+The energy of \S\ref{ad:sec} is frustrated because the institutional
+graph has cycles: the Heider term is a sum over triads, perfect balance
+needs $n\equiv1\pmod4$ (Proposition~\ref{ad:prop:parity}), and otherwise
+a parity residual must be distributed, which is where its degenerate
+minima come from. The lane tree is acyclic, and its balance condition
+\eqref{ln:eq:backward} is a node-local balance in the same sense as
+Premise~\ref{ad:phi:balance}, each mode's anatomy balancing between its
+own and its foundation's, but one with a unique exact solution and no
+frustration. The fourth question's two intuitions therefore sit on two
+structures: the \emph{exact balance} with its single limiting value is
+on the tree; the \emph{energy that allows distinct setups} is on the
+cyclic graph; and the second reaches the first only as boundary data,
+\S\ref{ln:sub:boundary}.
+\end{remark}
+
+% ---------------------------------------------------------------------
+\subsection{The lanes sum is one exponential, and its base is stochastic}\label{ln:sub:sum}
+
+\begin{proposition}[The two sums, and the exact single exponential; \textbf{[P]}]\label{ln:prop:base}
+The internal hazard is, by origin,
+$\Hint(x)=\sum_vc_v(0)\exp\bigl(-\int_0^x\rho_{\lneff}(v;x')\,dx'\bigr)$,
+a sum of exponentials, one per mode, each with the running integral of
+its harmonic anatomy as exponent; and, by absorption,
+$\Hint(x)=\sum_aS_a(x)$, the lanes sum as stated, the jointness at each
+branch counted once as the stated amount of the node and the post-branch
+amounts as the stated amounts below it. The first double-counts nothing
+because the contents are disjoint modes, the second because each unit is
+absorbed once, and their equality is Lemma~\ref{ln:lem:pooled}. Let
+\begin{equation}\label{ln:eq:rhohat}
+\hat\rho(x):=\frac{\langle\rho,S\rangle}{\Hint}=\sum_a\frac{S_a}{\Hint}\,\rho_a,
+\end{equation}
+the node anatomies averaged by their stated shares. Then
+$d\log\Hint/dx=-\hat\rho$, so that, \emph{exactly},
+\begin{equation}\label{ln:eq:base}
+\Hint(x)=\Gamma_{\mathrm{eff}}\,q_x^{\,x},\qquad
+\Gamma_{\mathrm{eff}}=\Hint(0),\qquad
+q_x=\exp\Bigl(-\frac1x\int_0^x\hat\rho(x')\,dx'\Bigr),
+\end{equation}
+with $\min_a\rho_a\le\hat\rho\le\max_a\rho_a$; and the base drifts by
+\begin{equation}\label{ln:eq:drift}
+\frac{d\hat\rho}{dx}=-\Var_c\bigl(\rho_{\lneff}\bigr)
++\frac1{\Hint}\Bigl\langle\frac{d\rho_{\lneff}}{dx},c\Bigr\rangle,
+\end{equation}
+selection plus resolution drift.
+\end{proposition}
+
+\begin{proof}
+$d\Hint/dx=-\langle\rho,S\rangle$ by Proposition~\ref{ln:prop:adjoint},
+and $\hat\rho$ is a convex combination of the $\rho_a$ since $S_a\ge0$
+and $\sum_aS_a=\Hint$; differentiating
+$\hat\rho=\langle\rho_{\lneff},c\rangle/\Hint$ with
+$\dot c_v=-\rho_{\lneff}(v)c_v$ gives \eqref{ln:eq:drift}. On the
+example: $\hat\rho(0)=0.7724$; $d\log\Hint/dx=-0.31139$ against
+$-\hat\rho=-0.31134$ at $x=5$; $q_{40}=0.7265$ with
+$\Gamma_{\mathrm{eff}}q_{40}^{40}=2.217\times10^{-6}$ against
+$\Hint(40)=2.219\times10^{-6}$; and $d\hat\rho/dx=-0.1159$ at $x=0$
+against $-0.0900-0.0250$ for the two terms (\texttt{stochastic\_base.py}).
+\end{proof}
+
+Equation~\eqref{ln:eq:base} is Remark~\ref{sch:rem:internalgates}'s
+$\Gamma q^{\,x}$ with the referent that remark lacked. The unpatched
+modes are the stated amounts; the per-unit unpatched fraction is
+$e^{-\hat\rho}$, the geometric compounding of which along the history is
+$q_x$; and the lanes sum is what makes the aggregate one exponential,
+since its shares are the weights that define $\hat\rho$. Two readings of
+\eqref{ln:eq:drift}. At frozen resolution the second term vanishes and
+$\hat\rho$ decreases monotonically to $\min_v\rho_{\lneff}(v)$, the
+slowest mode coming to dominate the sum, the usual fact about a mixture
+of exponentials. With the resolutions responding, dissolution carries
+every $\rho_{\lneff}$ to $\rho_{\mathrm{root}}$ and $\hat\rho$ with it,
+unless some mode has $\rho_{\lneff}\le0$ and stays resolved, in which
+case it dominates and the aggregate diverges at its rate. The two can be
+seen competing on the example: $\hat\rho$ falls from $0.77$ through
+$\rho_{\mathrm{root}}=0.3$ to a minimum of $0.2955$ at $x\approx8.8$,
+while the modes of anatomy $0.1$ and $0.2$ are still partly resolved and
+selection is pulling the mixture toward them, and returns to $0.300$ as
+they dissolve.
+
+\paragraph{The quenched completion.}\label{ln:par:quenched}
+The resolution \eqref{ln:eq:res} is a probability, that at least one
+signature-bearing event occurs in a window; the pooled tree uses it as a
+weight, which is the mean field of the model in which it is realized.
+In the \emph{quenched} model every mode, in each window, either shows a
+signature, with that probability given the realized pools of its
+children, or does not; a mode's content renders over the window at the
+anatomy of its first resolved ancestor, itself included. The base
+$q_x$ is then a random variable, a functional of the structure's entire
+output along the history, which is the author's ``joint stochastic
+process'' in the form the model gives it, and the question
+\S\ref{sch:subsub:internalschedule} left open, how far the annealed
+rate flatters the typical history, becomes computable.
+Table~\ref{ln:tab:quenched} reports three facts, from $2000$
+realizations with $\tau_{\mathrm r}=1$, all \textbf{[P]} within the
+model. \emph{Self-averaging away from separatrices}: the realized base
+concentrates, its standard deviation falling from $0.017$ to $0.005$
+between $x=10$ and $x=40$, toward $e^{-\rho_{\mathrm{root}}}=0.741$.
+\emph{The mean hazard is carried by the lower tail}: $\E[\Hint(40)]$
+exceeds the mean-field value by $14\%$, an annealed anatomy of $0.317$
+against $0.321$, Jensen's inequality on $\E[q^{x}]$; the observer of
+Remark~\ref{sch:rem:gap2} who uses the annealed rate is using a mean
+carried by the realizations that resolved least, as that remark
+predicted, and here the flattery is a number. \emph{Bimodality at a
+separatrix}: with $\rho_{B_1}=-0.3$ and $c_{B_1}$ at its separatrix
+\eqref{ln:eq:separatrix}, $c^\ast=0.054$, the law of $q_{40}$ has a
+quiet mode at $0.75$ and a growing mode at $1.22$ with nothing between,
+and the mean-field base $0.815$ belongs to neither; the growing fraction
+runs $0.38,\,0.60,\,0.79$ at $0.8c^\ast,\,c^\ast,\,1.25c^\ast$, so the
+stochastic separatrix, where the modes are equiprobable, lies a little
+below the deterministic one.
+
+\begin{table}[t]
+\centering\small
+\caption{The quenched model on the example tree, $2000$ realizations,
+windows $\tau_{\mathrm r}=1$. Upper block: the realized base $q_x$
+(mean, with standard deviation in parentheses) and the mean hazard,
+each against the mean field, and the annealed anatomy
+$-\frac1x\log\E[\Hint/\Hint(0)]$ against the mean-field one. Lower
+block: lane $B_1$ with $\rho_{B_1}=-0.3$ at and around its separatrix
+$c^\ast=0.0539$. Script \texttt{stochastic\_base.py}.}
+\label{ln:tab:quenched}
+\footnotesize\setlength\tabcolsep{4.5pt}
+\begin{tabular}{@{}rccccc@{}}
+\toprule
+$x$ & $\E[q_x]$ (sd) & mean-field $q_x$ & $\E[\Hint]$ & mean-field $\Hint$ & anatomy, annealed / mean field\\
+\midrule
+10 & 0.6865 (0.0173) & 0.6807 & $1.89\times10^{-2}$ & $1.69\times10^{-2}$ & 0.373 / 0.385\\
+20 & 0.7142 (0.0099) & 0.7110 & $9.78\times10^{-4}$ & $8.60\times10^{-4}$ & 0.335 / 0.341\\
+40 & 0.7274 (0.0051) & 0.7258 & $2.43\times10^{-6}$ & $2.14\times10^{-6}$ & 0.317 / 0.321\\
+\midrule
+$c_{B_1}$ & $\PP(q_{40}>1)$ & quiet mode & growing mode & mean-field $q_{40}$ & \\
+\midrule
+$0.8c^\ast$ & 0.378 & 0.743 & 1.206 & 0.748 & \\
+$c^\ast$ & 0.597 & 0.751 & 1.221 & 0.815 & \\
+$1.25c^\ast$ & 0.791 & 0.756 & 1.237 & 1.203 & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{remark}[The stochastic base in Golden coordinates; \textbf{[S]}]\label{ln:rem:goldenbase}
+Viability is $\{\Lambda_\infty<\infty\}$
+(Theorem~\ref{gr1:thm:twocond}), and the growing mode is not viable,
+since its $\Lambda$ diverges. Golden-conditioning therefore selects the
+quiet mode: conditioned on the Golden Point, $q<1$ and
+$q\to e^{-\rho_{\mathrm{root}}}$, and the $\rho$ that
+Definition~\ref{gr1:def:anatomy} names is the quiet-mode value of the
+anatomy process, with the stated shares as its weights. Where the law of
+the base is bimodal the mean-field history describes no realization at
+all, so the deterministic separatrix \eqref{ln:eq:separatrix} is a
+statement about which mode is likelier and not about what happens; and
+the author's conjecture that technoanatomy is related to the
+structure's output ``asymptotically or mode-wise in places'' is, in the
+model, exactly right in both halves: asymptotically by self-averaging
+where no mode is near a separatrix, mode-wise where one is. This is also
+where the anatomy selection of \S\ref{gr:subsub:anatsel} acquires a
+mechanism: the conditioned distribution of $\rho$ shifts away from its
+prior because conditioning deletes the growing mode at every separatrix
+the history passed.
+\end{remark}
+
+% ---------------------------------------------------------------------
+\subsection{Boundary data from adversivity, and the two loops}\label{ln:sub:boundary}
+
+The backward equation consumes one datum per node, the anatomy
+$\rho_v$, and says nothing about where it comes from. \S\ref{ad:sec} is
+the apparatus meant to supply it, and \S\ref{ad:sub:toward} states
+exactly what it delivers and what it does not: referents for the growth
+of reach $\alpha$, silence on the growth of enforcement $\beta$, and an
+open coarse-graining under which the energy keeps its form across
+scopes. What the lane tree adds is the \emph{interface}: where the
+anatomies go once supplied, and how the modes' contents come back.
+
+\begin{definition}[Scope map and boundary data; \textbf{[S]}]\label{ln:def:boundary}
+Let $k(v)$ assign to each mode the scope of \S\ref{ad:sub:toward}'s
+coarse-graining at which its hazard is inflicted, by units of that
+scope on one another. Let $W^\ast_k$ be an equilibrium of
+\eqref{ad:eq:model} at scope $k$, and let $\alpha_v(W^\ast)$ and
+$\beta_v(W^\ast)$ be the reach and enforcement growth rates of $v$'s
+mode read at that equilibrium, $\alpha_v$ from the enmities the mode is
+carried by and $\beta_v$ from the joint-agreement structure the
+alliances sustain. The anatomy entering \eqref{ln:eq:backward} at $v$
+is $\rho_v=\beta_v(W^\ast_{k(v)})-\alpha_v(W^\ast_{k(v)})$, in the
+notation of \eqref{gr:eq:rhoextract}.
+\end{definition}
+
+The two trees are distinct and are not identified: the lane tree
+refines \emph{modes} of hazard, the coarse-graining tree merges
+\emph{agents}, and the scope map is the only relation claimed between
+them. Two consequences follow at the grade of the definition. The
+energy's minima are degenerate and configuration-rich
+(\S\ref{ad:sub:ground}), so distinct equilibria give distinct
+boundary data and distinct finite-resolution cross-talk: that is the
+author's ``the energy allows distinct setups.'' And
+Theorem~\ref{ln:thm:quiet} holds for every choice of boundary data below
+the root, so what the quiet limit retains of the energy is the top
+scope's equilibrium alone, $\rho_{\mathrm{root}}=\beta-\alpha$ read at
+the biosphere.
+
+\begin{remark}[The political cross-talk; \textbf{[S]}]\label{ln:rem:political}
+\S\ref{ad:sec}'s two computed cases are the lane-level feedback in
+institutional form. In the arrival case (\S\ref{ad:subsub:aliens}) a
+threat enters every ledger as an external field, and the nine
+institutions go from $10$ to $28$ allied pairs with eight enmities
+inverting; in the removal case (\S\ref{ad:rem:welshreading}) the field
+is withdrawn and the result is fragmentation with no inversions, arrival
+being a sharp transition and removal a slow relaxation. A loud mode is a
+threat against the units it is inflicted on, so its content enters the
+ledgers at its scope as such a field, $\mathrm{net}_i=\sum_jw_{ij}s_j
+-f_i(c)$ with $f_i$ unit $i$'s exposure to the modes' contents; the
+alliances the field forces raise $\beta$ for every mode carried between
+the allied units, so a loud mode raises its siblings' anatomies, and a
+mode going quiet lowers them, slowly. This is a second route by which
+the other modes being high reaches a mode's foundation, through $W$
+rather than through the records. Its sign is definite, a threat raises
+enforcement, where the record coupling's is not: by \eqref{ln:eq:cross}
+the record coupling depends on whether the parent's anatomy is better or
+worse than its own foundation's, and it vanishes once the loud mode is
+resolved and withdraws from the pool, while the political coupling
+persists.
+\end{remark}
+
+\paragraph{The coupled system.} The full mechanism, every arrow graded:
+\begin{align}
+&\text{forward \textbf{[P]}:} && P_v=c_v+\textstyle\sum_{u\in\mathrm{ch}(v)}(1-r_u)P_u,\quad S_v=r_vP_v,\quad r_v=1-e^{-d_v\tau_{\mathrm r}P_v};\label{ln:eq:sys1}\\
+&\text{backward \textbf{[P]}:} && \rho_{\lneff}(v)=r_v\rho_v+(1-r_v)\rho_{\lneff}(\mathrm{pa}(v));\label{ln:eq:sys2}\\
+&\text{rendering \textbf{[P]}:} && \tfrac{d}{dx}c_v=-\rho_{\lneff}(v)\,c_v,\qquad \tfrac{d}{dx}\Hint=-\langle\rho,S\rangle;\label{ln:eq:sys3}\\
+&\text{boundary data \textbf{[S]}:} && \rho_v=\beta_v(W^\ast_{k(v)})-\alpha_v(W^\ast_{k(v)});\label{ln:eq:sys4}\\
+&\text{energy with field \textbf{[S]}:} && W^\ast_k\in\arg\min_W\bigl[aE_1(W;f(c))+bE_2(W)\bigr]\ \text{s.t. mutuality, budget};\label{ln:eq:sys5}\\
+&\text{coarse-graining \textbf{[O]}:} && (s,W)_{k}\mapsto(s,W)_{k+1},\ \text{the energy keeping its form};\label{ln:eq:sys6}\\
+&\text{coordination cost \textbf{[O]}:} && \beta_v\ \text{as a function of capability, \S\ref{ad:rem:missing}.}\label{ln:eq:sys7}
+\end{align}
+Here $E_1(W;f)=\frac1n\sum_i\bigl(\sum_jw_{ij}s_j-f_i\bigr)^2$ is
+\eqref{ad:eq:E1} with the modes' contents as an external field, the
+arrival and removal cases being the field's two directions. The
+interplay is two loops through \eqref{ln:eq:sys3}: the \emph{record
+loop}, \eqref{ln:eq:sys3}$\to$\eqref{ln:eq:sys1}$\to$\eqref{ln:eq:sys2}$\to$\eqref{ln:eq:sys3},
+contents setting resolutions setting average anatomies, with the
+marginal--average gap of Proposition~\ref{ln:prop:marginal} as its
+signature, which runs on the acyclic tree and is exactly solvable at
+each instant; and the \emph{political loop},
+\eqref{ln:eq:sys3}$\to$\eqref{ln:eq:sys5}$\to$\eqref{ln:eq:sys4}$\to$\eqref{ln:eq:sys2}$\to$\eqref{ln:eq:sys3},
+contents setting fields setting equilibria setting boundary data, which
+runs on the cyclic graph and inherits the energy's degeneracy. Within a
+scope, \eqref{ad:eq:model} is a potential and the institutional
+configuration relaxes toward its minima; on the lane tree at frozen
+resolution the pairing is a potential and the rendering is its
+multiplicative gradient flow; with the resolutions responding there is
+none, and the structure is the saddle of \eqref{ln:eq:action}. A single
+global potential for the coupled system, one whose descent carries
+$\Hint$ to zero, would need \eqref{ln:eq:sys7}, since the sign of
+$\rho_{\mathrm{root}}=\beta-\alpha$ at the top scope is what decides
+whether the quiet limit is viable at all; given it, the candidate is the
+pairing evaluated at the scope equilibria, whose positivity at the top
+scope is the viability condition and whose decrease along the coupled
+dynamics is the thing to prove \textbf{[O]}.
+
+% ---------------------------------------------------------------------
+\subsection{Ledger}\label{ln:sub:ledger}
+
+\paragraph{Costs.} \emph{Record individuation of modes} --- a reading of
+the comprehensive paper's lemma \cite{Aethus} applied to hazard events,
+\textbf{[S]}; \emph{falsifier:} a mode whose events are as readily
+distinguished at low rate as at high, so that its attribute does not
+blank as it quiets. \emph{Poisson resolution} \eqref{ln:eq:res} ---
+\textbf{ansatz}, the simplest record model, with the signature
+probability $d_v$ and the window as its parameters; \emph{falsifier:}
+individuation that does not scale with the mode's own event rate, or a
+crossover that moves with policy rather than with the record structure.
+\emph{Rendering at the stated attribute} --- the rule of
+Definition~\ref{gr1:def:anatomy} read at the attribute level,
+\textbf{[S]}; \emph{falsifier:} a quiet mode that is nonetheless
+addressed at its own anatomy, which would mean a policy acting on an
+attribute no record states. \emph{The scope map and the boundary data}
+--- \textbf{[S]}, resting on \S\ref{ad:sec}'s open coarse-graining and
+its missing coordination cost; \emph{falsifier:} an anatomy that does
+not move when the alliance structure at the mode's scope does.
+\emph{The external field} --- \textbf{[S]}; \emph{falsifier:} a loud
+mode that fails to force alliances among the units it threatens, which
+would also falsify Premise~\ref{ad:phi:balance}. The example tree's
+numbers are illustrations of theorems, not evidence: nothing in this
+section is fitted.
+
+\paragraph{Buys.} The events of \S\ref{sch:subsub:internalschedule}
+named, and the gate picture corrected in one respect, that gates
+dissolve once passed. The trough channel derived as a limit, with
+$\Gamma$ and $\rho$ given referents, and the $q$ of
+Remark~\ref{sch:rem:internalgates} given its referent and made exact.
+The annealed--typical gap of that subsection made a number, and the
+regime in which no mean-field history exists located. A floor on every
+mode that is a property of the mode above it. An adjoint structure
+whose multiplier is the anatomy, with the stationarity the author
+asked for located precisely and the potential it asked for located
+where it exists and shown absent where it does not. And an interface
+through which \S\ref{ad:sec}'s equilibria, once it delivers them, enter
+the survivorship mathematics, together with the second route, through
+the ledgers, by which modes reach one another's foundations.
+
 
 % ============================ 
 
