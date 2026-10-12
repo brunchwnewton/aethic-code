@@ -1,0 +1,986 @@
+% ============================================================================
+% PAPER SIX --- SKELETON DRAFT
+% Working title: The Optimal Earth: A Paradigmatic Re-Rendition of Natural
+%                History from Coupled Improbability
+% Sixth extraction of the corpus; anthropic wing, sibling to the fifth
+% (NexicFoundation). Draws the Optimal-Earth Conjecture forward from the
+% coupling kernel through HCEH and IMD into a re-reading of Earth's narrative.
+%
+% STATUS OF THIS FILE: complete working draft. All sections carry finished
+% prose; no placeholders remain. Slot B (Spark Ontology) is filled in Sec 5.2.
+% Slot A LANDED (rev. 3): envelope grade; def:propagation-operator +
+% prop:miracle-closure + prop:zero-contribution. Purchases = forcing grade
+% (a.s., summable priced tails) + uniform counterfactual forcing (fiberwise)
+% + working finiteness; monotonicity is a corollary, not a purchase. n = r
+% governs the mass; the full-product condition is retained as dust control.
+% Certification discipline in force: every "K forces l" claim is certified
+% from the physics/entailment side alone, never by optimality-flavored
+% appeal. Termination mooted by finiteness for concrete records; the
+% unrestricted case stays open and unconsumed.
+% Master merge-note RESOLVED: the master now carries the closure formalization
+% itself (def:propagation-operator, prop:miracle-closure, prop:zero-contribution
+% at sec:propagation-closure), imported there as canonical home with a backport
+% note recording that it was first stated here. This paper accordingly CITES
+% rather than owns it.
+%
+% BIBLIOGRAPHY (this revision): refs.bib is loaded FIRST and paper6_refs.bib
+% second, so the corpus canon wins every duplicate key and the local block is
+% builds standalone with no undefined citation AND lets the canon override
+% wherever it is present --- including CoolWorlds_2022, whose local entry is a
+% deliberately minimal stub carrying only confirmed fields. The Drake and
+% Bostrom reconciliations are self-resolving under this ordering rather than
+% standing instructions. See the policy note atop the filecontents block.
+%
+% LITERATURE PASS (merged in): the placement section separates the Great
+% Filter's explanandum (the apparent absence of ETI evidence) from its
+% apparatus, retracts the unsupported past-weighting claim, declares the
+% framework structurally silent on future filters, and routes the silence to
+% the sweep at its stated price; the Carter placement carries the live
+% hard-steps challenge (Mills et al. 2025) as a rival account of the coupling
+% pillar's own phenomenon; Kipping is stated from his published position
+% rather than the objection's popular form; Carter 1974 and Bostrom are cited
+% where observation-selection theory is named; the IFM passage is demoted
+% from generalization to analogy with inference-minimality carrying the
+% distinctive claim.
+%
+% SECOND PASS (this revision) --- five additions, all responses to outside
+% readings rather than internal tidying:
+%   (a) The OPENING PRINCIPLE is imported at Sec 2 beside Carter/Bostrom. It
+%       is the license under which a historical event counts as an anthropic
+%       parameter at all, and the sharper differentia from a tradition that
+%       points the same machinery at the constants.
+%   (b) GOULD / CONWAY MORRIS placement at Sec 8, with the convergentist
+%       misreading blocked at Sec 7.2 where the inversion invites it. NB the
+%       position: the framework stands WITH Gould at the level of mechanism
+%       and against the convergentists, and the alliance is load-bearing, not
+%       merely sympathetic --- if the process tended toward observers, HCEH
+%       would be false at the root. An earlier draft of this paragraph had the
+%       position backwards ("sits at neither pole"); do not restore it.
+%   (c) WORKED LINKAGE VALUES at Sec 2 --- the floor evaluated at P(A)=4% for
+%       kappa = 1, 2, 5 (0.92, 0.85, 0.66), so the pricing is shown rather
+%       than asserted; the same 4% recurs as the toll at eq:toll.
+%   (d) A POSITIVE EXPECTATION in the ledger's Buys column: Miracle-grade
+%       attributes should be found in a network of structural relationships
+%       rather than a list. Entered as expectation, not result.
+%   (e) An ENTAILMENTS passage before the fence at Sec 8, naming what a
+%       program would inherit so the fence is legible. It is NOT a fourth
+%       claim; see the guard in that section's GOAL comment.
+%
+% TWO REPAIRS in this pass:% TWO REPAIRS in this pass: (1) c_eff is now min over the family of the
+% per-attribute DIFFERENCES, not min-contrast-minus-max-toll --- the
+% positivity that step two's identity delivers does not survive the older
+% envelope; (2) Sec 6.1's dependency chain no longer says the reflexive draw
+% supplies the anchoring, which Sec 6.2 correctly denies.
+% ============================================================================
+
+
+
+\documentclass[11pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\usepackage[style=numeric, sorting=none]{biblatex}
+\usepackage{tcolorbox}
+
+% --- theorem-like environments (mirror the master's ladder vocabulary) ---
+\newtheorem{principle}{Principle}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{proposition}{Proposition}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+
+% --- autoref names for the theorem environments (without these every
+%     \autoref to a theorem-like environment renders blank or wrong; the
+%     paper leans on these references constantly) ---
+\providecommand{\principleautorefname}{Principle}
+\providecommand{\conjectureautorefname}{Conjecture}
+\providecommand{\lemmaautorefname}{Lemma}
+\providecommand{\corollaryautorefname}{Corollary}
+\providecommand{\propositionautorefname}{Proposition}
+\providecommand{\definitionautorefname}{Definition}
+
+% --- bibliography: standalone entries + shared corpus load, per house pattern ---
+\begin{filecontents}[overwrite]{paper6_refs.bib}
+% ---------------------------------------------------------------------------
+% second. The INTENT is that the corpus canon is authoritative for every
+% shared work --- which is what the Drake and Bostrom notes below want, and
+% what the reverse ordering could not deliver, since a local definition would
+% then win every time and the canon would be loaded without power to override
+% anything.
+%
+% VERIFY ON FIRST REAL BUILD, because this ordering is load-bearing and the
+% precedence direction was NOT confirmed empirically when the file was
+% written: biber's handling of a key defined in two datasources decides which
+% entry survives, and if it takes the LAST rather than the first, this
+% ordering silently inverts and the local stubs win everything. There is a
+% one-glance diagnostic. The local NickBostrom_2010 entry below carries
+% year = 2002; the canon's carries 2010. Build once with refs.bib present and
+% look at that entry in the reference list: 2010 means the canon won and the
+% ordering is right as written; 2002 means the local block won and the two
+% \addbibresource lines should be swapped.
+%
+% every work the paper cites is defined here, so the file builds standalone
+% with no undefined citation, and every entry is silently superseded when the
+% canon is present. Entries new to the corpus with this paper
+% (kipping2020objective, mills2025hardsteps, gould1989wonderful,
+% conwaymorris2003lifes) have no canon counterpart yet and so are live in
+% either configuration.
+%
+% fields that could be confirmed, and the canon's entry holds the full video
+% metadata this one lacks. That is the entry the build should use whenever
+% refs.bib is present, and the ordering above guarantees it does.
+% ---------------------------------------------------------------------------
+@misc{Aethus, howpublished={Manuscript}, author={Benander, Ajax}, title={Aethic Reasoning: A Comprehensive Solution to the Quantum Measurement Problem}, year={2024}, month = {11}, url={https://philpapers.org/rec/BENARA-5}, eprint={https://philsci-archive.pitt.edu/id/eprint/25713}, eprinttype={Alternative URL}, note={Manuscript; the complete development of the framework, successive deposits November 2024--2026}}
+@misc{AethusBrief, author={Benander, Ajax}, title={Aethic Reasoning in Brief: From a Counterfactual Semantics to the Quantum Measurement Problem}, year={2026}, howpublished={Preprint}, url={https://philpapers.org/rec/BENARI-3}, eprint={https://philsci-archive.pitt.edu/id/eprint/30439}, eprinttype={Alternative URL}}
+@misc{Nexus, howpublished={Manuscript}, author={Benander, Ajax}, title={Nexic Reasoning: Defining a Generalized Calculus Over Anthropic Parameters}, year={2024}, month = {12}, url={https://philpapers.org/rec/BENNRD}, doi={10.31219/osf.io/jvkcp}, note={Manuscript; the anthropic wing's master, successive deposits December 2024--2026}}
+@misc{NexicFoundation, author={Benander, Ajax}, title={The Copernican Method Against the Copernican Principle: Anthropic Typicality over Partial Information States}, year={2026}, howpublished={Preprint}, url={https://philpapers.org/rec/BENTCM-7}}
+% --- external anchors ---
+@book{ward2000rare,
+  author = {Ward, Peter D. and Brownlee, Donald},
+  title  = {Rare Earth: Why Complex Life Is Uncommon in the Universe},
+  publisher = {Copernicus}, year = {2000}}
+@article{Sharma2023AssemblyTheory,
+  author = {Sharma, Abhishek and Czégel, Dániel and Lachmann, Michael and Kempes, Christopher P. and Walker, Sara I. and Cronin, Leroy},
+  title = {Assembly theory explains and quantifies selection and evolution},
+  journal = {Nature}, volume = {622}, pages = {321--328}, year = {2023}}
+% VERIFY at merge (above): fields from memory; confirm at deposit; dedupe against refs.bib.
+@misc{hanson1998greatfilter,
+  author = {Hanson, Robin}, title = {The Great Filter --- Are We Almost Past It?}, year = {1998}}
+@article{carter1983anthropic,
+  author = {Carter, Brandon}, title = {The Anthropic Principle and its Implications for Biological Evolution},
+  journal = {Philosophical Transactions of the Royal Society of London A}, volume = {310}, pages = {347--363}, year = {1983}}
+@incollection{carter1974large,
+  author = {Carter, Brandon},
+  title = {Large Number Coincidences and the Anthropic Principle in Cosmology},
+  booktitle = {Confrontation of Cosmological Theories with Observational Data},
+  series = {IAU Symposium}, volume = {63}, pages = {291--298},
+  publisher = {Reidel}, year = {1974}}
+@book{NickBostrom_2010,
+  author = {Bostrom, Nick},
+  title = {Anthropic Bias: Observation Selection Effects in Science and Philosophy},
+  publisher = {Routledge}, year = {2002}}
+% VERIFY at merge: key reads 2010, first edition is 2002. Under the load
+% ordering above the canon's entry overrides this one, so the reconciliation
+% is self-resolving whenever refs.bib is present; fix the year there, and do
+% not rename the key.
+@article{kipping2020objective,
+  author = {Kipping, David},
+  title = {An Objective {B}ayesian Analysis of Life's Early Start and Our Late Arrival},
+  journal = {Proceedings of the National Academy of Sciences},
+  volume = {117}, number = {22}, pages = {11995--12003}, year = {2020},
+  doi = {10.1073/pnas.1921655117}}
+@article{mills2025hardsteps,
+  author = {Mills, Daniel B. and Macalady, Jennifer L. and Frank, Adam and Wright, Jason T.},
+  title = {A Reassessment of the ``Hard-Steps'' Model for the Evolution of Intelligent Life},
+  journal = {Science Advances}, year = {2025},
+  doi = {10.1126/sciadv.ads5698}}
+% VERIFY at merge: supply the Science Advances volume and eLocator. Author
+% list, title, journal, year, DOI and the characterization drawn on in
+% Sec. 8 are all confirmed against the published abstract; the volume and
+% article number are the only unverified fields. Preprint: arXiv:2408.10293.
+@book{gould1989wonderful,
+  author = {Gould, Stephen Jay},
+  title  = {Wonderful Life: The Burgess Shale and the Nature of History},
+  publisher = {W. W. Norton}, year = {1989}}
+@book{conwaymorris2003lifes,
+  author = {Conway Morris, Simon},
+  title  = {Life's Solution: Inevitable Humans in a Lonely Universe},
+  publisher = {Cambridge University Press}, year = {2003}}
+@article{Bostrom2003SSA,
+  author = {Bostrom, Nick},
+  title = {The Doomsday Argument and the Self-Indication Assumption: Reply to Olum},
+  journal = {Philosophical Quarterly}, volume = {53}, number = {210}, pages = {83--91}, year = {2003}}
+@article{Weinberg1987,
+  author = {Weinberg, Steven},
+  title = {Anthropic bound on the cosmological constant},
+  journal = {Physical Review Letters}, volume = {59}, number = {22}, pages = {2607--2610}, year = {1987}}
+@article{Neal2006,
+  author = {Neal, Radford M.},
+  title = {Puzzles of anthropic reasoning resolved using full non-indexical conditioning},
+  journal = {arXiv preprint}, year = {2006}, note = {arXiv:math/0608592}}
+% VERIFY at merge (three above): fields from memory; confirm against the canon.
+@article{elitzur1993quantum,
+  author = {Elitzur, Avshalom C. and Vaidman, Lev},
+  title = {Quantum mechanical interaction-free measurements},
+  journal = {Foundations of Physics}, volume = {23}, number = {7},
+  pages = {987--997}, year = {1993}}
+@misc{CoolWorlds_2022,
+  author = {Kipping, David},
+  title  = {Reassessing the Rare Earth Hypothesis},
+  year   = {2022},
+  note   = {Cool Worlds video essay, Cool Worlds Lab, Columbia University.}}
+% whenever refs.bib is present, and the canon's is the one to use. Author,
+% title, year and the Cool Worlds attribution are confirmed; the video URL and
+% exact release date were NOT independently verified and are deliberately
+% omitted rather than guessed. Do not treat this stub as the citation of
+% record.
+@misc{Drake1961,
+  author = {Drake, Frank D.}, title = {Discussion of Space Science Board, National Academy of Sciences Conference on Extraterrestrial Intelligent Life},
+  year = {1961}}
+% VERIFY at merge: the canon's Drake entry overrides this one under the load
+% the canon's own entry is the one you want.
+@article{watson2025hardsteps,
+  author  = {Watson, Andrew J.},
+  title   = {The hard steps model and whole {Earth}-system transitions},
+  journal = {Philosophical Transactions of the Royal Society B},
+  volume  = {380}, year = {2025},
+  doi     = {10.1098/rstb.2024.0105}
+}
+
+@article{brusatte2008superiority,
+  author  = {Brusatte, Stephen L. and Benton, Michael J. and Ruta, Marcello and Lloyd, Graeme T.},
+  title   = {Superiority, competition, and opportunism in the evolutionary radiation of dinosaurs},
+  journal = {Science},
+  volume  = {321},
+  number  = {5895},
+  pages   = {1485--1488},
+  year    = {2008},
+  doi     = {10.1126/science.1161833}
+}
+@article{bernardi2018carnian,
+  author  = {Bernardi, Massimo and Gianolla, Piero and Petti, Fabio Massimo and Mietto, Paolo and Benton, Michael J.},
+  title   = {Dinosaur diversification linked with the {Carnian Pluvial Episode}},
+  journal = {Nature Communications},
+  volume  = {9},
+  pages   = {1499},
+  year    = {2018},
+  doi     = {10.1038/s41467-018-03996-1}
+}
+
+@article{kipping2021redsky,
+  author  = {Kipping, David},
+  title   = {Formulation and resolutions of the red sky paradox},
+  journal = {Proceedings of the National Academy of Sciences},
+  volume  = {118},
+  number  = {26},
+  pages   = {e2026808118},
+  year    = {2021},
+  doi     = {10.1073/pnas.2026808118}
+}
+
+@misc{GoldenScience2022,
+  author       = {Benander, Ajax},
+  title        = {Golden Science},
+  year         = {2022},
+  month        = {November},
+  howpublished = {Self-hosted manuscript},
+  url          = {https://aethus.org/aethic-code/files/GoldenScience_Nov2022.pdf},
+  note         = {Title page August 2022, the date of the first version of the source; this version created November 2022. Not deposited to a
+                  preprint server; cited as a dated developmental record rather than
+                  as a source of results.}
+}
+\end{filecontents}
+\addbibresource{refs.bib}
+\addbibresource{paper6_refs.bib}                       % complete fallback; intended to be superseded wherever the canon has the key
+
+\title{The Optimal Earth:\\ \large Conditional Concentration of Observer-Weighted Natural Histories}
+\author{Ajax Benander\thanks{Email: \href{mailto:akb9408@rit.edu}{akb9408@rit.edu}, Website: \url{https://aethus.org}. This paper extracts, as a self-contained argument, the Optimal-Earth Conjecture and its re-rendition of natural history from a larger framework; the companion development \cite{Nexus} carries the full apparatus and the foundation extraction \cite{NexicFoundation} the typicality principle it rests on. The physics-side companions \cite{Aethus, AethusBrief} are cited for the record; their quantum-mechanical claims play no role here.}}
+\date{First drafted July 2026\\ {\small This version: September 2026 --- working draft}}
+
+\usepackage{booktabs}
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Under what assumptions does conditioning on the existence of observers concentrate probability mass on a realized natural history? We prove a conditional concentration result on an explicit two-stage sampling model, a landscape draw over a declared class of alternative histories and a realization draw conditional on it. For a finite admissible partition on predeclared binary attributes, under diffuse log-odds across the alternatives, a union bound gives the realized cell at least a stated share of the observer-conditioned mass, with a failure probability that is joint over landscape and realization and not conditional on the realized window; this route needs no assumption about how suppression accumulates. A separate extension uses cumulative suppression to bound the mass of alternatives by perturbation depth. Mass concentration under the observer-conditioned weighting is distinct from maximal productivity of the realized history and from low absolute observer abundance, neither of which the theorem establishes. The Optimal-Earth Conjecture is the empirical claim that the theorem's assumptions hold broadly enough in natural history for it to apply at high concentration. We set up one application, the end-Cretaceous impact, as an illustration with its inputs graded; the inputs now available, including the retrospective selection of the attribute, do not certify a high-confidence conclusion at the scale the conjecture names.
+\end{abstract}
+
+
+\section{Introduction: two ways to read a lucky history}
+\label{sec:intro}
+%% GOAL: frame the paper as a contest of PARADIGMS, not of facts. Set the
+%% received reading (independent-steps tally: Drake/Rare-Earth funnel, Great
+%% Filter as one-shot label) against the re-rendition (coupled set at an
+%% isolated optimum). State precisely what is new here vs. the companion:
+%% NOT the principle (that is NexicFoundation), NOT the applications (companion),
+%% but the paradigm-level re-reading and its structural entailments.
+%% EXIT: reader knows the thesis is interpretive-structural and knows the fence.
+
+Earth's natural history contains features that look, in retrospect, as though they had to go right. A single impactor clears a dynasty that had held the planet for the better part of two hundred million years; an oxygenation event restructures the atmosphere; a moon of anomalous size stabilizes an axial tilt. The standard vocabulary for such features is well established --- hard steps, bottlenecks, filters --- and so is the standard operation performed on them: identify the improbable step, label it, and multiply the labels together to see what is left.
+
+This paper is about the operation rather than the labels. It begins where the foundation paper of this wing ends \cite{NexicFoundation}: that paper derives the typicality constraint from a mediocrity inequality and Bayes' theorem, reaches the Rare Earth hypothesis from it before any hypothesis about the landscape is assumed, and closes with a walkthrough showing that the constraint does not terminate where it is applied---an attribution of improbability forces correlated attributions elsewhere in the record, so that a record's improbabilities form the closure of its root commitments under a propagation step. The foundation paper stops at the existence of that closure. The present paper asks what the closure is. Its claim is that the received way of reading such a history is mistaken, not in its arithmetic, which the chain rule makes exact, nor in which features it picks out, but in what it takes a picked-out feature to be; and that the same typicality constraint, given one hypothesis about the geometry of the space of alternatives, licenses a different reading of the same record, under the hypotheses the paper states and at the size its results support. The difference is a difference of paradigm, and the paper's contribution is the paradigm and its derivation, not any new fact about the past.
+
+\paragraph{The received reading.} On the received picture, a lucky history is a tally. Each improbable step is an atom carrying its own factor, its probability taken given the steps before it; the factors multiply by the chain rule, as in the Drake equation \cite{Drake1961}, whose factors are conditional fractions, and the Rare Earth refinements built on it \cite{ward2000rare}; and the Great Filter framing \cite{hanson1998greatfilter} asks how many such atoms there are and where along the path they sit. The grouping should not be overdrawn: the Drake equation is an expected-number decomposition whose factors need not be independent lucky steps, and the Great Filter is a framing broader than any one arithmetic. What the received picture shares is narrower and still real---the operation of identifying prerequisites and multiplying their probabilities as though they were separable---and it is that operation the present paper contests. Nor is contemporary geobiology uniformly committed to it. The remaining features of the received reading, and their inversion, are stated where the re-rendition is consolidated below.
+
+
+
+\paragraph{The re-rendition.} The reading developed here inverts each of those features. Labeling an improbability is not a terminated operation but a step that incurs a debt: under the typicality constraint, committing to one filter forces further commitments elsewhere in the record, so that improbabilities arrive in structurally linked sets rather than as separable atoms (\autoref{sec:coupling}). The record is therefore not a list of factors but a single coupled object --- the closure of an initial commitment under a propagation step. Given two further premises about the landscape those histories inhabit --- one about its contrast, one about its structure, with the precise accounting deferred to the ledger of \autoref{sec:rerendition-ledger} --- that object is sharply isolated: alternatives to it are separated from it by very many orders of magnitude in observer-productivity (\autoref{sec:contrast}), they are populous only at severity and sparse near the peak (\autoref{sec:landscape}), and their aggregate collapses onto a single dominant term rather than accumulating. What results is the Optimal-Earth Conjecture (\autoref{sec:oec}): our own natural history is, on effectively any attribute one can interrogate, the observer-mass-dominant member of its alternatives --- not luckily so, but forcedly so, and effectively alone in being so. \autoref{sec:rerendition} carries that result back over the narrative and states, feature by feature, what changes.
+
+
+
+\paragraph{What is and is not claimed.} The typicality principle this paper runs on is not developed here; it is derived in the companion foundation extraction \cite{NexicFoundation} and at the source \cite{Nexus}, and is imported in \autoref{sec:principle-import} at the grain the argument uses. Neither is the natural-historical program that the conjecture supports: its graded conjectures, its quantitative bounds, its paleontological predictions, and the counterfactual-quantification pipeline that produces them all belong to the companion \cite{Nexus} and are deliberately not imported. What is claimed here is the paradigm --- the coupling, the contrast, the articulation asymmetry, the conjecture they jointly force, and the re-reading of Earth's narrative that follows --- together with a ledger of what that paradigm costs. Where an empirical result is needed to connect the paradigm to the rarity conclusion in the literature's own terms, it is imported as a stated premise and flagged where it enters, never argued for here.
+
+
+\noindent\emph{What the paper establishes, and what it opens.} The paper's results are of two kinds, held to different standards. Its theorems---Strong Accordance in its full form, the concentration and per-cell propositions, the proposition on rarity under the placement hypothesis, the sum-collapse, the landing-gap and depth-spread propositions, and the closure of the propagation operator---are mathematics: each holds for any inputs satisfying its hypotheses, and none needs data to be true. Its statements about Earth's natural history are outputs of that calculus under stated inputs: the High-Contrast Earth Hypothesis with its contrast spread and its placement range, the predeclared attributes it is run on, and, for the depth-graded claims, the funnel hypothesis of cumulative suppression. Where the paper states a figure or a verdict for Earth, it is the calculus run on inputs it names, offered as an illustration and not as a measurement. Estimating those inputs is not a debt the framework owes before it counts; it is the program the framework opens. As empirical data accumulate and the couplings among natural-historical attributes are worked out, natural history stops being a tally of candidate improbable events and becomes a topography: productivities falling away from the realized history along measurable gradients, contrast spreads that can be estimated from the depths at which constructions land (\autoref{sec:landing-depths}), and structure whose presence the recorded falsifiers decide. On that map, Nexic inference becomes optimization over a high-dimensional manifold of histories, and the calculus given here is the part of the map that holds at every resolution, as field equations hold whatever the metric.
+
+\noindent\emph{Three questions.} The paper's results answer three questions, and they are independent: each is answered under its own hypotheses, and none is a consequence of another. \emph{Does observer-conditioned mass concentrate on our cell?} Proposition~\ref{prop:union-concentration} answers directly, from the per-attribute tails and premise D, with no landscape geometry; it is the paper's main theorem. \emph{Is observer production rare in absolute terms?} That is a separate question, answered only under the placement hypothesis (Proposition~\ref{prop:concentration-rarity}), which pairwise contrasts do not supply. \emph{How do weights fall off with perturbation distance?} That is the depth-dependent funnel, cumulative suppression with the sum-collapse (Lemma~\ref{lem:collapse}), an extension resting on its own hypothesis. Where the paper combines two of these, it names the hypothesis that connects them.
+
+\noindent\textit{What the paper establishes, at the size the results support.} A conditional concentration theorem (\autoref{sec:core}), under stated sampling and conditional-density assumptions, whose own numbers fix an empirical burden that the spreads presently estimable do not meet; two extensions, placement and cumulative suppression, each conditional on a hypothesis of its own; and an application whose figures are conditional benchmarks. The re-rendition of the received reading is a proposal about what a picked-out feature is. The paper does not establish that Earth's history sits at an optimum, nor that an observed contingency has thereby been identified as an observer prerequisite, and its later sections are to be read at this size.
+
+\section{The method on one page, for the working biologist}\label{sec:method-one-page}
+
+% >>> ADDED (Fable 5.1, Sep 11 2026, author-directed): a front-loaded statement of the METHOD for a reader from
+% evolutionary biology or paleontology who will not read the foundations --- the principle in plain terms, how it
+% differs procedurally from the reasoning the field already does, the control that separates it from survivorship
+% bias, the two concrete cases the author names (the never-dinosaurs scenario and the Hateg Island prediction), and
+% how to test it. Everything here is restated, in the paper's own terms, in the sections that follow.
+A reader from evolutionary biology or paleontology will want the method before the foundations, and can have it without them: nothing in this section requires the apparatus of \autoref{sec:principle-import} onward, which is the derivation of what is stated here as procedure.
+
+\paragraph{The principle, plainly.} Take as data the one fact that is not in the fossil record but is presupposed by anyone reading it: that a lineage arose which produces observers. Then treat that fact as \emph{evidence about the history that produced it}. For any feature of the record, ask what the alternatives to that feature would have done to the chance of observers arising, and rank the alternatives by that chance. If our history's version of the feature sits far above its alternatives---not somewhat above, but by many orders of magnitude---then the feature is statistically favored under observer conditioning, which is what \emph{prerequisite} means here; where the separate productivity-contrast assumptions hold, its complement has substantially lower observer-production probability, by the stated magnitude and not merely qualitatively; and this does not establish that removing the feature would prevent observers, since the comparison supplies no counterfactual bridge to a deletion claim, nor does the paper's mass-dominance result itself supply a productivity contrast for every individual alternative. That is the method's shape. Its inputs are more than an occurrence fact: a landscape distribution over histories, a conditional density assumption on the log-odds spreads, a specified realization experiment, and the typicality assumption; and the guarantee it yields is joint over landscape and realization, which does not by itself become a conditional guarantee after selecting Earth's observed rare features. It is a conditional inference, run backward from the observer to the history, and it is licensed by a typicality assumption that is the same one every anthropic argument uses: that we are not a special observer among those our kind of history could produce.
+
+\paragraph{How it differs, procedurally, from what the field does.} Evolutionary reasoning is mechanistic and forward. It asks why a feature arose---selection, drift, contingency, a mechanism and its consequence---and it reads the record as a chronicle of what happened. The method here does not compete with that; it asks a different question of the same record. It asks what the history was \emph{statistically favored to be} given that it produced observers, a question of which features were observer-favored over their alternatives and not of what had to be true, and it reads the record as a \emph{constraint} rather than a chronicle. The two operations differ in three ways a practitioner will feel immediately. First, the direction of inference: forward from cause to effect in the field's reasoning, backward from the observer to the prerequisites here. Second, what is consulted: the field consults the mechanics of the branch that occurred; this method consults only the \emph{comparison} between a feature and its alternatives, and does not model the unoccupied branch at all---it never asks what a world without a given feature would have been like in detail, only which of the two was rarer among observer-producing histories. Third, the output: a mechanistic account terminates in an explanation of one feature; this method's output is a \emph{set} of prerequisites, and the set is closed, because---this is the paper's central claim---prerequisites arrive together. Committing to one forces others. An impactor that clears a dynasty is not one improbability; it is one improbability that, once committed to, makes a subsequent radiation, a climate window, and a particular sequence of dominant clades into further prerequisites of the same observer, since the typicality constraint shifts the odds on every feature correlated with the one committed to. The method therefore does not produce a list of lucky breaks to be multiplied, as the Drake-equation tradition does. It produces one coupled object.
+
+\paragraph{The control, without which this is survivorship bias.} Every survivor believes its path was necessary, and a method that could not tell a prerequisite from a coincidence would be worthless. The control is built in and is worth stating because it is the first objection any biologist will raise. Run the method on a feature whose alternatives would \emph{not} have cost observers---the exact orientation of a continent, the color of a Cretaceous flower---and it returns nothing: the feature's version and its alternatives sit at comparable heights, no prerequisite is declared, and the method says so. This is not a separate rule of silence but the constraint's own value at independence---with $P(H \mid A) = P(H \mid A')$ the ratio in \autoref{prin:accordance-imported} is identically one and its event collapses, at every $\kappa$, onto the bare draw \cite{Nexus}. It bites only where the alternatives are observer-poor by many orders of magnitude, and it is silent everywhere else. That silence is the difference between a test and a bias, and the paper names the failure of the control \emph{aimless Optimation} so that it can be checked for.
+
+\paragraph{The two cases, as illustrations of the shape.} The natural-historical program itself is developed in the companion \cite{Nexus}; two of its cases are stated here only to show what the method's outputs look like.
+
+\emph{The never-dinosaurs scenario.} Ask whether a history without the dinosaurian dynasty would have produced observers at comparable rates. The method does not model such a history's ecology. It asks which member of the pair---dynasty-then-extinction, or no dynasty---is rarer among observer-producing histories, and the occurrence fact, the typicality constraint and the landscape inputs named above answer, as a joint guarantee over landscape and realization and subject to the crossroads bound's prior odds, that the dynasty and its clearing are \emph{coupled prerequisites}: not two accidents but one object, since the mammalian radiation that produced the lineage in question is downstream of both. What follows is a re-reading of the end-Cretaceous event not as a stroke of luck that happened to help mammals but as a structural component of a kind of history that produces the observer reading about it, a claim about the concentration of observer-conditioned mass and not about productivity.
+
+\emph{The Ha\c{t}eg Island prediction.} A method that only re-read the past would be unfalsifiable. This one issues predictions of a specific form: a prerequisite implies a signature the record must show, and its absence is evidence against the method. The companion's example concerns the Late Cretaceous island fauna of Ha\c{t}eg, where the coupling structure implies that particular lineages ancestral to the observer's own must appear in deposits where a forward mechanistic reading gives no reason to expect them. That is a claim a field paleontologist can take to the rock. Its details are the companion's; its \emph{form}---prerequisite, therefore signature, therefore a place to dig---is the method's.
+
+\paragraph{How to test it, and what would refute it.} The method makes predictions of the form just described, and it fails in a recognizable way: a systematic pattern of predicted signatures absent from the record, across many test cases and not one, is evidence against the typicality constraint it runs on, and the companion states its falsifiers as such. A single miss is a miss; a pattern is a refutation. The practitioner's test is therefore procedural rather than philosophical: take the prerequisites the method declares for a well-studied interval, derive the record signatures they imply, and check.
+
+\paragraph{What the biologist need not accept.} None of the above requires the foundations. The typicality constraint, the geometry of the landscape of alternatives, and the theory of Imperfection Magnitude Drops that make the method's claims precise are developed from \autoref{sec:principle-import} onward and in the companions; they are what turn the procedure into a derivation. A reader who wants only to run the procedure on a lineage and see whether it says anything can do so from this page, and the paper is written so that the procedure survives a reader who declines the rest.
+
+\section{The principle, imported}
+\label{sec:principle-import}
+%% GOAL: import the Accordance Principle at exactly the grain this paper uses,
+%% no re-derivation. State the boxed exceedance form + the local/global split +
+%% the existential-linkage scalar, all by citation to NexicFoundation/Nexus.
+%% Keep it SHORT --- this is a lever, not a contribution. State the three
+%% features (local, directional, quantitative) since the re-rendition leans on
+%% all three. EXIT: reader has the rate card and the linkage scalar in hand.
+
+The engine of everything below is a single typicality constraint, derived in the companion foundation extraction \cite{NexicFoundation} and at the source \cite{Nexus}. It is imported here, not re-argued; this section fixes the form the argument uses and nothing further.
+
+The setting is a \emph{partial information state}: a partial specification of the way things go, some attributes stated and all others blank, individuated by its stated content and closed under entailment from it, with no completed history presupposed as the object it partially describes. The framework's own name for such a state is an \emph{Aethus} (plural \emph{Aethae}) \cite{Aethus, Nexus}, and the two terms are used interchangeably below --- the English where the structure is what matters, the term of art where the object is being handled as the framework's own.
+
+The two relocations that distinguish the framework from observation-selection theory, the reference class over observer-situations across possible histories and the partial state as the object of reasoning, are the Copernican companion's \cite{Nexus}.
+
+
+
+
+
+One postulate underlies the derivation of Accordance, and since the ledger of \autoref{sec:rerendition-ledger} will list the paradigm's costs---one foundational probabilistic postulate, one major conjectural landscape hypothesis, and a finite set of stated structural licenses---the postulate belongs on the page:
+
+\begin{principle}[The Copernican draw, imported postulate]
+\label{prin:draw-imported}
+At each crossroads of a partial state --- each attribute left open --- the realized value is distributed according to the parent-conditional weights: the position of a point dropped at random on an interval partitioned into spans, expected in each span with that span's measure \cite{Nexus, NexicFoundation}.
+\end{principle}
+
+This is the framework's single load-bearing postulate --- a probabilistic law of realization, from which the constraint below follows by an observer tilt and Bayes' theorem, and whose tail profile is what quantifies every $\lesssim$ in this paper. It is also, worth noting now, the same lever twice: the constraint of this section is the draw read \emph{forward} at each attribute, and the held-sample argument of \autoref{sec:landscape-nameability} is the draw read \emph{reflexively}, one's own existence as a realized draw from the observer-conditioned weighting. The two uses are stated as one postulate, and the accounting of the identity is given here rather than assumed: the reflexive use carries an \emph{indexical} component the forward use does not --- that \emph{which situation is one's own} is itself distributed by the tilted weighting over observer-situations --- and that component is the reference-class territory the tradition contests. This paper folds it into the draw's statement deliberately, as the postulate's reflexive half, rather than deriving it from the forward half; a reader may decline the reflexive half separately, in which case the held-sample anchoring falls while the forward constraint survives, and the ledger's first item states the postulate with both halves named so that nothing is buried in the identity.
+
+\begin{tcolorbox}[colback=white, colframe=black, boxrule=0.4pt, title={Imported result, and its grade}]
+For a binary realized attribute, the foundation's Accordance principle supplies a fixed-$\kappa$ lower-tail guarantee for $\kappa > 1$ only, with a strict boundary at $\kappa = 1$ and nothing for $0 < \kappa < 1$. No threshold may be chosen as a function of the realized prior or contrast; every $\kappa$ in this paper is fixed before the attribute is inspected. The foundation's Rare Earth corollary is finite and assumes cosmic submultiplicativity (A1) as stated there: $m$ predeclared rare-side realizations at prior below $\tfrac12$ reject $P(H) \ge \varepsilon$ at level $\delta$ once $(2p)^m \le \delta\varepsilon$; the existence of the cosmic measure over partial states is assumed and not constructed. The present paper strengthens none of these results. It adds a structural hypothesis about the pattern of observer-conditioned coupling---and here the handoff is clean: the foundation's bound needs neither observer-conditioned nor draw-level independence, so the coupling this paper takes as the record's deep structure leaves it untouched. The foundation's independence computation is accordingly read here as a benchmark, and this paper's coupling as the correlated structure that benchmark suppresses; which way their net effect runs is left open, and the bound does not depend on it \cite{Nexus}.
+\end{tcolorbox}
+\begin{principle}[Accordance, imported form]
+\label{prin:accordance-imported}
+For a natural-historical attribute $A$ with alternative $A'$ --- canonically its complement --- and $H$ the production of an observer, all probabilities running against the cosmic weighting under the standing license declared below, the constraint is the mediocrity principle---$\Pr[\,m[0,a]/m[0,1] \le w\,] \le w$ for a point dropped at random on an interval, $a$ where it landed---applied to an Aethic partition and rewritten by Bayes' theorem. The companion states it on a chain $H^{\ast} \sqsubseteq H^{-} \sqsubseteq H^{+} \sqsubseteq H$ running from the reasoner's own Aethus to observer-production, asserting that $H^{-}$ is mediocre in $H^{+}$ and defining $A$ and $A'$ up to validity equivalence by $H^{-} \equiv_{\mathcal{V}} A\,H^{+}$ and $H^{+} - H^{-} \equiv_{\mathcal{V}} A'\,H^{+}$, with $H$ supplying the observer-conditioning at the top and $H^{\ast}$ constraining the tower from below---nothing above it may state what the reasoner's own records contradict \cite{Nexus}. The chain's relation is Aethic containment and carries no temporal order; every attribute below is read as settling upstream of its conditioning target because that is what this paper's subject requires, not because the constraint requires it. This paper uses the Aetherian case, $H^{+} = H$: for any $\kappa > 1$---the range on which the companion's lower-tail statement holds for a binary partition, with $\kappa = 1$ available in strict form and $0 < \kappa < 1$ not licensed, since two cells of weight at most $w \ge \tfrac12$ can together carry all the mass---
+\begin{equation}
+\label{eq:accordance}
+\Pr\!\left[\, \frac{P(H \mid A')}{P(H \mid A)} \;\ge\; \kappa\, \frac{P(A)}{1 - P(A)} \,\right] \;\le\; \frac{1}{1+\kappa},
+\end{equation}
+the probability taken over the realization. Its content in words: the prior improbability of a realized attribute must be compensated --- \emph{accorded} --- by that attribute's relevance to the production of observers.
+\end{principle}
+
+Five features of \eqref{eq:accordance} are consumed downstream and are worth fixing now.
+
+\emph{The modality is quantified, not hedged.} At $\kappa = 1$ the display says the realized attribute sits on the favored side of its pair except on probability at most one half --- the familiar ``holds more often than not,'' which the mediocrity inequality delivers as an expectation, the realized attribute's proportion being super-uniform in its lower tail and so expected to lie in the greater span; equivalently the accordance ratio has median at most one---it sits below one more often than not---the ratio's expectation being no guide, since for a fixed nondegenerate binary partition, with $Q = q$ at probability $q$ and $Q = 1 - q$ otherwise, $\mathbb{E}[(1 - Q)/Q] = q\,\tfrac{1-q}{q} + (1-q)\,\tfrac{q}{1-q} = 1$ exactly, and averaging the experiment over landscapes preserves that value --- and larger $\kappa$ bounds larger violations, with $\kappa$-fold exceedances confined to probability $1/(1+\kappa)$. One substitution is excluded by the foundation's fixed-parameter lemma: taking $\kappa = (1 - P(A))/P(A)$ to obtain $\Pr[P(H \mid A') \ge P(H \mid A)] \le P(A)$ is illegitimate, because $A$ is the realized member, so $P(A)$ and hence that $\kappa$ vary with the realization, and a tail bound proved for each fixed $\kappa$ does not license a $\kappa$ chosen from the outcome; under independence the event holds with certainty and the bound would read $1 \le P(A)$ \cite{Nexus}. Every $\kappa$ used below is fixed before the attribute is inspected. Violations are not forbidden; the entire tail profile is fixed, and no free tolerance appears anywhere. This matters for the re-rendition because the paradigm's claims are made attribute by attribute across a whole record, and a constraint with an unpriced tolerance could not survive that iteration.
+
+\emph{The constraint is local.} It binds attribute by attribute over a partial state. There is no maximization over complete histories anywhere in it --- only a family of pairwise bounds --- and its primary, parent-conditional form is assumption-free given the draw of \autoref{prin:draw-imported}. Two senses of ``local'' are in play in this paragraph and they are orthogonal, so the distinction is worth one clause: the locality just described is a matter of \emph{grain} --- the unit bound is the single attribute, never the whole history --- while the local/global contrast about to be drawn is a matter of \emph{notation}, namely whether the parent state is carried explicitly in each probability. This paper keeps the local grain throughout while working in the global notation, and no tension exists between the two.
+
+
+
+\emph{The constraint is directional.} It licenses inference \emph{from} an attribute's prior improbability \emph{to} its observer-relevance --- the reverse of the familiar selection-effect correction, which reasons from observer-relevance to distorted frequencies. This direction is what makes a record readable at all: it converts things one knows about the past into forced claims about what the alternatives would have been worth.
+
+\emph{The constraint is quantitative.} Both sides carry magnitudes, so the inference returns a bounded ratio rather than a binary verdict. If the realized attribute was a hundredfold the a priori unlikelier member of its pair, the bound forces the alternative to have been, to the same order, the less observer-productive member --- a magnitude, portable into further reasoning, where the bare selection-effect truism would have delivered only a shrug.
+
+
+
+For reading a record attribute by attribute, a signed one-parameter restatement is more convenient than the ratio. Define the \emph{existential linkage}
+\begin{equation}
+\label{eq:linkage}
+L_A \;=\; \frac{P(H \mid A) - P(H \mid A')}{P(H \mid A) + P(H \mid A')} \;\in\; [-1, 1],
+\end{equation}
+positive when $A$ favors observer-production, negative when it disfavors it, zero when $A$ is statistically independent of it. Since $P(H \mid A')/P(H \mid A) = (1 - L_A)/(1 + L_A)$ is a strictly decreasing bijection onto the linkage scale, \eqref{eq:accordance} transforms exactly --- no slack introduced or lost --- into a forced floor on the linkage:
+\begin{equation}
+\label{eq:linkage-floor}
+\Pr\!\left[\, L_A < \ell_\kappa(A) \,\right] \;\le\; \frac{1}{1+\kappa},
+\qquad
+\ell_\kappa(A) \;=\; \frac{1 - (1+\kappa)\,P(A)}{\,1 - (1-\kappa)\,P(A)\,},
+\end{equation}
+whose $\kappa = 1$ face is the familiar $L_A \gtrsim 1 - 2P(A)$. The tendency symbols carry the framework's sense throughout and not the analyst's: $x \lesssim y$ abbreviates the $\kappa = 1$ face of \eqref{eq:accordance} --- that the inequality holds except on probability at most one half, with larger violations bounded by the same display --- rather than ``is less than or approximately equal to.'' Every $\lesssim$ below is that probabilistic claim.
+
+
+
+
+
+A notational note, small but consumed later: the conditioning event $H$ is not a bare event over completed worlds but the observer tilt of the companion's derivation --- $P(\cdot \mid H)$ is the observer-conditioned weighting over states, the reference class of observer-situations doing its work inside the notation \cite{NexicFoundation, Nexus}. Nothing in this section turns on the distinction, but the held-sample argument of \autoref{sec:landscape-nameability} does, and it is cleaner to fix the reading here than to repair it there.
+
+The zero point of the linkage scale also carries an imported theorem, and it is what makes the scale meaningful rather than merely defined. The companion's Theorem of Aimless Optimation \cite{Nexus} establishes that conditioning on observer-existence moves the weight of an observer-\emph{independent} attribute not at all: if $X$ is statistically independent of observer-production, then $P(X) = P(X \mid H)$, so the cosmic and observer-conditioned weightings agree \emph{exactly} on the independent attributes and nowhere else. The contrapositive is the detection principle the re-rendition runs on: any attribute whose weight the observer-conditioning \emph{does} move cannot be independent of observer-production --- disagreement between the two weightings is a reliable diagnostic of coupling. $L_A = 0$ is therefore not a conventional origin but a theorem-backed null: the scale's zero is where the coupling provably vanishes, its nonzero values are where the two weightings provably disagree, and reading the record is the systematic measurement of that disagreement, attribute by attribute.
+
+One interpretive statement completes the section, and it is the single most important sentence for hearing the conjecture of \autoref{sec:oec} correctly, so it is placed here at the point where attribute-by-attribute reading is introduced. The paradigm never issues the verdict ``we are unlikely,'' and it never evaluates Earth whole. Its unit of assertion is the single attribute taken as a \emph{stand-in}: pick any interrogable attribute of our record, and the constraint delivers a verdict about \emph{that attribute's alternatives in our place} --- that the realized value was the observer-favored member of its pair, that the alternative's productivity is bounded minute, that the linkage sits above its floor. The apparent claim about Earth as a whole is only ever the conjunction of such per-attribute verdicts, assembled under the calibrations of \autoref{sec:oec}, and hearing it as a one-stroke boast about our specialness --- rather than as a family of local, probabilistic, attribute-level deductions --- is precisely the misreading the stand-in framing exists to kill.
+
+
+\section{The core result: conditional concentration under diffuse log-odds}\label{sec:core}
+
+This section states the paper's strongest result first, to make its central payoff visible before the hypotheses behind it are developed. The result combines the imported Accordance machinery of the preceding section with one additional hypothesis, a distributional assumption on the contrast between an attribute's two sides, stated in the next paragraph at the strength the derivation consumes and developed and motivated in \autoref{sec:contrast} as the High-Contrast Earth Hypothesis; Strong Accordance is a corollary of that hypothesis and the imported principle together, and the order of exposition inverts the order of dependence deliberately. It requires neither the coupling kernel nor the landscape and cumulative-suppression assumptions that follow. Everything after it is either an extension, placement as a rarity clause and cumulative suppression as a depth profile, or the application to Earth's history, and each is marked as such where it begins.
+
+\subsection{Strong Accordance: direction meets magnitude} \label{sec:oec-strong}
+
+\noindent\textit{The contrast assumption, stated for use.} For a predeclared attribute $\alpha$ whose two sides carry fixed labels $A_1$ and $A_0$, both fixed before the draw, the \emph{fixed-label contrast} is $R(\alpha) = \log_{10}\big(P(H \mid A_1)/P(H \mid A_0)\big)$, the productivity gap between the two sides in orders of magnitude, displayed as \eqref{eq:contrast-ratio} below. Only after the realization draw is the realized side named: write $A$ for it and $A'$ for the other, so that the realized side's contrast is $\pm R(\alpha)$. Its magnitude at $\alpha$ is written $c_\alpha$, and the \emph{prior-odds toll} is $k_\alpha = \log_{10}\big(P(A')/P(A)\big)$, the cost of the realized side's own rarity, displayed as \eqref{eq:toll}. The assumption the derivation consumes is a density bound: with the sides fixed before the draw, $R(\alpha)$ has a density at most $1/(2M_\alpha)$, or a conditional density given the prior at most $1/(2M_\alpha)$ where the prior varies across the landscape draw, with $M_\alpha$ the spread; $R(\alpha) \sim \mathrm{Uniform}(-M_\alpha, M_\alpha)$ is the illustration, and the weaker anti-concentration form $\Pr[|R_\alpha| < c] \le \eta_\alpha(c)$ is what the effective form below actually uses. Nothing in the assumption fixes the sign of $R(\alpha)$; the sign is what the imported principle supplies. \autoref{conj:hceh} is the hypothesis that natural-history attributes satisfy this bound with $M_\alpha$ large, and the case for it is made there, not here.
+
+The collapse of \autoref{sec:landscape-collapse} runs on a named premise, D, and this section's job is to manufacture that premise on the page rather than assert it --- in three steps, each converting the previous into a form one object closer to what the lemma consumes. The dependency order, stated before the steps so the reader can audit it: \autoref{conj:hceh} (magnitude) plus the constraint of \autoref{sec:principle-import} (direction) yield the Strong Accordance Principle; Strong Accordance, converted, is premise D; D with the product-structure premise activates the collapse; and the collapse, together with the reflexive reading of \autoref{prin:draw-imported}, yields the conjecture --- where what the reflexive reading contributes is not the anchoring of the result at our own cell, which Strong Accordance already carries by binding a \emph{realized} attribute against its alternative, but the \emph{generality} that turns a claim about our record into a claim about the landscape, as \autoref{sec:oec-conjecture} sets out. The lemma never cites this section's conclusion --- only its named premise, whose manufacture follows.
+
+\paragraph{Step one: the per-pair ratio form.} \autoref{conj:hceh} makes the productivity ratio at an interrogated high-contrast pair enormous while withholding its sign; the constraint of \autoref{sec:principle-import} supplies the sign. The two coexist without tension: the Hypothesis's randomness is a claim about the \emph{landscape's geometry}, the constraint's determination a claim about the \emph{reasoner's location} in it --- which is what ``contrast is prior to direction'' means, and the two describe different objects. Combined, they make violation not merely unlikely but \emph{gross}: the Hypothesis evacuates the region just above the bound, so any violation must overshoot it by the full contrast. The probability of that overshoot must be bounded with a threshold fixed \emph{before} the attribute is inspected, since the foundation's tail theorem is for fixed $\kappa$ and does not license a $\kappa$ chosen from the realized attribute's own contrast and prior---choosing $\kappa \sim 10^{c_\alpha + k_\alpha}$ from those would be the adaptive-threshold error of the foundation's fixed-parameter lemma in a more sophisticated form. The legitimate construction is family-level and ex ante. Declare, before any attribute is interrogated, a prior \emph{window} $[p_{\min}, p_{\max}]$ with $p_{\max} < \tfrac12$, and a contrast floor $c_{\min}$; and read ``declared'' and ``predeclared'' throughout as \emph{fixed before the realization draw}, not merely fixed before the analyst computes contrasts from the record already observed. The window is a condition on the \emph{realized} member, $p_{\min} \le P(A) \le p_{\max}$, and for a fixed binary partition both sides cannot satisfy it, so it is an observed-event condition that selects the partitions on which the rare side happened to realize. That selection is legitimate only if the partitions themselves were predeclared, the theorem's success event is defined for those partitions whose realized member falls in the window, and the multiplicity denominator $n$ counts the \emph{entire} predeclared family, including partitions whose realized member landed on the common side; $n$ is never the number of rare realized cases retained after looking. Both ends of the window are needed. The ceiling $p_{\max}$ fixes the threshold. The floor $p_{\min}$ bounds the toll: on the favorable branch of \autoref{conj:hceh} the productivity ratio is $10^{-c_\alpha}$, and Strong Accordance's conclusion $P(H \mid A')/P(H \mid A) < P(A)/(1 - P(A)) = 10^{-k_\alpha}$ then requires $c_\alpha > k_\alpha$---a large contrast alone does not secure it for an arbitrarily rare $A$, since $c_\alpha = 5$ is enormous while $P(A) = 10^{-12}$ gives $k_\alpha \approx 12$ and the \emph{favorable} branch fails. A ceiling bounds $k_\alpha$ from below, not above; the floor bounds it from above, $k_\alpha \le k_{\max} := \log_{10}((1 - p_{\min})/p_{\min})$, and the margin condition $c_{\min} > k_{\max}$ then makes the favorable branch satisfy the conclusion outright, so that every violation lies on the wrong-sign branch, which the fixed threshold bounds. (The alternative is to declare a net-contrast floor $d_\alpha = c_\alpha - k_\alpha \ge d_{\min} > 0$ directly; it is a hypothesis in its own right, and is not presented as following from the Hypothesis alone.) What the Hypothesis actually supplies to this step is weaker than its uniform statement and should be consumed at that strength: an \emph{anti-concentration} condition, $\Pr[|R_\alpha| < c] \le \eta_\alpha(c)$ with $\eta_\alpha(c) \to 0$ in attribute depth, of which $R(\alpha) \sim \mathrm{Uniform}(-M_\alpha, M_\alpha)$ is the illustration $\eta_\alpha(c) = c/M_\alpha$. The floor does not follow deterministically from it---$\eta_\alpha(c_{\min})$ is small, never zero---so the floor enters with its failure probability rather than as an assumption: for a family of $n$ attributes, the union bound gives
+\begin{equation}
+\label{eq:floor-price}
+\varepsilon_H \;:=\; \Pr\big[\exists\, \alpha : |R_\alpha| < c_{\min}\big] \;\le\; \sum_{\alpha} \eta_\alpha(c_{\min}) \;\le\; \frac{n\, c_{\min}}{M_{\min}} \quad \text{(uniform case)},
+\end{equation}
+with no independence among the attributes assumed. The Hypothesis bounds the probability of magnitude failure, Accordance that of sign failure, and the two bounds add below. Fix one $\kappa$ by
+\begin{equation}
+\label{eq:fixed-kappa}
+\kappa \;=\; 10^{c_{\min}}\,\frac{1 - p_{\max}}{p_{\max}}, \qquad \text{so that} \qquad \kappa\,\frac{P(A)}{P(A')} \;\le\; \kappa\,\frac{p_{\max}}{1 - p_{\max}} \;=\; 10^{c_{\min}} \quad \text{for every } A \text{ in the family}.
+\end{equation}
+Now a wrong-sign case at any attribute of the family has productivity ratio $P(H \mid A')/P(H \mid A) \ge 10^{c_{\min}} \ge \kappa\,P(A)/P(A')$, which is the fixed-$\kappa$ exceedance event of the imported principle, so its probability is at most
+\begin{equation}
+\label{eq:exact-tail}
+\frac{1}{1+\kappa} \;=\; \frac{p_{\max}}{p_{\max} + 10^{c_{\min}}(1 - p_{\max})} \;\sim\; \frac{p_{\max}}{1 - p_{\max}}\,10^{-c_{\min}} \quad (c_{\min} \text{ large}),
+\end{equation}
+one threshold, chosen once, applied to every attribute alike, the tail theorem applied legally. Combined with \eqref{eq:floor-price}, the total familywise failure probability---some attribute with the wrong sign, or some attribute failing the floor---is at most $n/(1+\kappa) + n\,c_{\min}/M_{\min}$, the first term Accordance's price and the second the Hypothesis's. The price of legality is that the tail is bounded at the family's floor $c_{\min}$ and ceiling $p_{\max}$ rather than at each attribute's own $c_\alpha$ and $k_\alpha$; the per-attribute figures may be quoted as what the floor and ceiling would deliver at that attribute, but the guarantee is the uniform one. Their conjunction:
+
+\begin{principle}[Strong Accordance, effective form]
+\label{prin:strong}
+For any interrogated high-contrast attribute, except on a tail of stated probability,
+\begin{equation}
+\frac{P(H \mid A')}{P(H \mid A)} \;<\; \frac{P(A)}{1 - P(A)},
+\end{equation}
+the bound holding not merely more-likely-than-not but except on a tail bounded uniformly across the family at $1/(1+\kappa) = p_{\max}/(p_{\max} + 10^{c_{\min}}(1-p_{\max}))$ by the fixed threshold \eqref{eq:fixed-kappa}, together with the floor's own price $n\,c_{\min}/M_{\min}$ of \eqref{eq:floor-price}, with $[p_{\min}, p_{\max}]$ the family's declared prior window, $c_{\min}$ its contrast floor, and the margin $c_{\min} > \log_{10}((1-p_{\min})/p_{\min})$ in force---the per-attribute figure $10^{-(c_\alpha + k_\alpha)}$ being what that uniform bound would deliver at $\alpha$, not a threshold chosen at $\alpha$ \cite{Nexus}. The strengthening is as secure as \autoref{conj:hceh} and no more: the two-step inference is valid at a fixed threshold, and the conclusion inherits the hypothesis's conjectural grade.
+\end{principle}
+
+\noindent The fixed-threshold statement is the \emph{effective} form of what the Hypothesis supports, and the full form is modal in the way the imported principle is. The imported principle does not say that we are in the Aetherian majority; it bounds, at every threshold $\kappa$, the chance that we are not, and its median form is the one threshold $\kappa = 1$. Strong Accordance is the same family of statements with the Hypothesis in force. The realization could have landed on an alternative, and the contrast could by chance have been small; each is unlikely, and the principle is the price of each, at every threshold at once.
+
+\begin{principle}[Strong Accordance]
+\label{prin:strong-full}
+Let a predeclared attribute have fixed sides, the prior of each fixed across the landscape draw, and let the fixed-label contrast $R(\alpha)$ of \eqref{eq:contrast-ratio} be spread as \autoref{conj:hceh} spreads it, with a density at most $1/(2M_\alpha)$---or, where the prior varies across the draw, with a conditional density given the prior at most $1/(2M_\alpha)$. Let the realization then land on one side, as the constraint draws it, and write $A$ for the side it lands on and $A'$ for the other. Then for every $\kappa > 0$,
+\begin{equation}
+\label{eq:strong-full}
+\Pr\!\left[\, \frac{P(H \mid A')}{P(H \mid A)} \;\ge\; \kappa\, \frac{P(A)}{1 - P(A)} \,\right] \;\le\; \frac{\big[\log_{10}(1/\kappa)\big]^{+} + \log_{10}\!\big(1 + \min(\kappa, 1/\kappa)\big)}{M_\alpha},
+\end{equation}
+the probability taken jointly over the realization and the contrast. The event is that the alternative's Aetherian weight is at least $\kappa$ times ours. At $\kappa = 1$, the median form, the chance that we are not the Aetherian majority is at most $\log_{10} 2 / M_\alpha$, against the imported principle's $\tfrac12$. For $\kappa < 1$ the principle bounds the chance of our side's outweighing the rest of the partition by $\log_{10}(1/\kappa)$ orders of magnitude, a range the imported principle leaves unlicensed. For $\kappa > 1$ it improves the imported tail $1/(1+\kappa)$ by a factor of order $M_\alpha$. No prior enters the bound; the prior's being fixed, or the density's being conditional on it, is part of the hypothesis. A marginal density bound on the contrast does not suffice: with $Z$ uniform on $[-M, M]$, prior $p = 1/(1 + 10^{Z})$ and productivities $1 - p$ and $p$ for the two sides, the contrast is $Z$, yet the two sides' Aetherian weights, $p(1-p)$ each, always tie, and the event at $\kappa = 1$ occurs with probability one.
+\end{principle}
+\begin{proof}[Derivation]
+Fix the labels before the draw and write $S = R(\alpha) + \log_{10}\big(P(A_1)/(1 - P(A_1))\big)$ for the Aetherian log-odds of the fixed side $A_1$, so that the realization lands on $A_1$ with probability $1/(1 + 10^{-S})$ and the event is that the side not landed on carries at least $\kappa$ times the Aetherian weight of the side landed on. Given $S$, that requires either $|S| < \log_{10}(1/\kappa)$, which is possible only for $\kappa < 1$, or a landing on the minority side with $|S| \ge |\log_{10} \kappa|$, which has probability $1/(1 + 10^{|S|})$. Given the prior, $S$ is the fixed-label contrast shifted by a constant, so the density clause gives $\Pr\big[|S| < a\big] \le a/M_\alpha$ whatever the shift, and
+\[
+\mathbb{E}\Big[\frac{1}{1 + 10^{|S|}}\,;\ |S| \ge a\Big] \;\le\; \frac{1}{M_\alpha}\int_a^\infty \frac{ds}{1 + 10^{s}} \;=\; \frac{\log_{10}(1 + 10^{-a})}{M_\alpha}.
+\]
+With $a = |\log_{10}\kappa|$ these are the two terms of \eqref{eq:strong-full}.
+\end{proof}
+
+\noindent The effective form is the full form read at $\kappa = 1$ and bounded by the longer route: the floor's price $n\,c_{\min}/M_{\min}$ for the magnitude, and the imported tail at the fixed threshold \eqref{eq:fixed-kappa} for the sign. The full form bounds the same event at $\log_{10} 2 / M_\alpha$, and it needs neither the prior window nor the margin $c_{\min} > k_{\max}$, because those belong to reasoning from a realized side fixed in advance. Taken over the realization, as the imported principle is taken, the toll of \eqref{eq:toll} is paid inside the draw: the realization lands on a rare side only when the contrast is large enough to carry it. Below $\kappa = 1$ the full form also states magnitude directly. Our side's Aetherian weight exceeds the rest of the partition's by $d$ orders of magnitude except with probability $\big(d + \log_{10}(1 + 10^{-d})\big)/M_\alpha$, which is the form premise~D consumes below. The bound is attained whenever the contrast's spread covers the region that matters; checked in closed form over spreads from $5$ to $10^{4}$, priors from $10^{-30}$ to $1 - 10^{-9}$, and thresholds from $10^{-8}$ to $10^{8}$, the exact probability never exceeds it and meets it to rounding, and a direct simulation of the two-stage draw agrees. The strengthening remains as secure as \autoref{conj:hceh}: \eqref{eq:strong-full} is a theorem of the density bound, and it inherits the Hypothesis's conjectural grade.
+
+
+\paragraph{Step two: the success-intersection form, and the toll.} The lemma runs on success-intersections, not productivity ratios, and the conversion must be paid for on the page. Multiplying the ratio bound by the prior odds $P(A')/P(A)$ and factoring via \eqref{eq:success-factored} gives $P(H \cap A') < P(H \cap A)$ --- which is worth pausing on, because it exposes what each premise contributes. Success-intersection dominance \emph{at order unity} is nothing but the base constraint rearranged: the $\kappa = 1$ Accordance form is literally $P(H \cap A') \lesssim P(H \cap A)$. So direction was never in the Hypothesis's gift, and order-unity dominance was never in doubt; what Strong Accordance adds is \emph{magnitude}, and the magnitude lives on productivities. Converting a $c$-order productivity gap into a success-intersection gap pays a prior-odds toll:
+\begin{equation}
+\label{eq:toll}
+\log_{10} \frac{P(H \cap A)}{P(H \cap A')} \;=\; \log_{10} \frac{P(H \mid A)}{P(H \mid A')} \;-\; k_\alpha,
+\qquad
+k_\alpha \;=\; \log_{10} \frac{P(A')}{P(A)} \;\ge\; 0 \text{ on the Miracle side},
+\end{equation}
+the toll being the prior-odds cost of our own cell's rarity --- the paper's thesis working \emph{against} its own collapse, and counted rather than hidden. Writing $c_\alpha$ for the contrast at attribute $\alpha$ and $k_\alpha$ for its toll, the effective contrast is the envelope over the interrogated family of their \emph{per-attribute difference}:
+\begin{equation}
+\label{eq:ceff}
+c_{\mathrm{eff}} \;=\; \min_{\alpha} \left( c_\alpha - k_\alpha \right).
+\end{equation}
+The minimum is attained rather than merely approached because the interrogated family is finite --- the working-finiteness clause of \autoref{def:propagation-operator} supplying that, so the dependency is named here rather than assumed.
+The envelope must be formed on the differences rather than on the two quantities separately, and it is worth saying why, since the alternative is the natural one to reach for. It is the \emph{difference} that Strong Accordance bounds at each attribute, so an envelope built as smallest-contrast-minus-largest-toll would discard that bound: $\min_\alpha c_\alpha - \max_\alpha k_\alpha$ can be negative while every attribute in the family individually satisfies the principle, as a family containing $(c,k) = (2,1)$ and $(13,12)$ already shows. The choice in \eqref{eq:ceff} is moreover not merely the safe one but the \emph{tight} one. Premise D asks for a lower bound on per-perturbation suppression holding uniformly across the interrogated family; a perturbation at $\alpha$ suppresses by exactly $c_\alpha - k_\alpha$; so the largest admissible value of $c_{\mathrm{eff}}$ is precisely the minimum of those differences. And since $\min_\alpha c_\alpha - \max_\alpha k_\alpha \le \min_\alpha(c_\alpha - k_\alpha)$ always, the envelope adopted here dominates the separated one everywhere and strictly wherever the extremes fall at different attributes --- the collapse condition is therefore easier to discharge under \eqref{eq:ceff}, not harder.
+
+Three notes on the toll complete the accounting. First, it cuts both ways: the same quantity subtracted here was \emph{added} to the tail's exponent in step one --- one toll, opposite signs, the thesis's own rarity simultaneously securing the direction and taxing the magnitude, the step-one gain partly compensating the step-two cost. Second, $k_\alpha$ scales with Miracle-grade rather than sitting fixed --- $k_\alpha \approx 1.4$ at $P(A) = 4\%$, $k_\alpha \approx 12$ at $P(A) = 10^{-12}$ --- so the toll is largest on the attributes the paradigm most wants contrast from. A third note is the one that settles whether the toll is dangerous, and it is an identity rather than an estimate. Take $\log_{10}$ of both sides of \autoref{prin:strong}: the left side is $-c_\alpha$ by \eqref{eq:contrast-ratio}, the right side is $\log_{10}\bigl(P(A)/P(A')\bigr) = -k_\alpha$ by \eqref{eq:toll}, so Strong Accordance says $c_\alpha > k_\alpha$ and nothing else. \emph{Strong Accordance simply is the statement that the contrast exceeds the toll}, attribute by attribute --- so every term of the envelope \eqref{eq:ceff} is positive, and $c_{\mathrm{eff}} > 0$ follows. The positivity of the effective contrast is therefore not a further hope about magnitudes but a restatement of what step one already delivered: the worry that the toll might eat the contrast whole is answered structurally rather than by appeal to $c$'s size, because the bound that generates the direction is the very inequality that orders the two. What \autoref{conj:hceh} contributes is accordingly not the sign of $c_{\mathrm{eff}}$ but its \emph{magnitude} --- and magnitude is what the collapse needs, since the condition $c_{\mathrm{eff}} > \log_{10}(n(b-1))$ asks the effective contrast to clear not zero but the log of the combinatorial supply.
+
+\paragraph{Step three: the deterministic envelope, and where the compounding lives.} What remains is to fix D's scope, which is \emph{per unit}: each single perturbation from our cell suppresses the success-intersection by at least $c_{\mathrm{eff}}$ orders---deterministically \emph{on the event $G$} of the grade note beside D, and with probability at least $1 - \varepsilon_D$ otherwise. That, and no more, is premise D as \autoref{sec:landscape-collapse} states and consumes it. The compounding to depth $\Delta$ is deliberately \emph{not} packed into D, and the reason is worth one observation: Strong Accordance constrains our realized attribute against its alternative, and at depth two the second perturbation is a perturbation of a cell \emph{we do not occupy} --- neither the constraint nor the Hypothesis picks its direction there, because the constraint's direction comes from the reasoner's realization and there is no reasoner at depth one. The compounding is therefore the cumulative-suppression half of the collapse's product-structure premise --- accumulation at no less than the per-attribute rate, weaker than factorization, the holistic weight never decomposed, only forbidden to plateau --- consumed by the lemma at the point of grouping, with its own exposure and its own falsifier. The manufacture is complete and the audit trail closes: HCEH (magnitude, conjecture-grade) $+$ Accordance (direction, theorem-grade \emph{given the draw and tilt}, license-flagged) $\Rightarrow$ Strong Accordance $\Rightarrow$ conversion at the toll, envelope \eqref{eq:ceff} $\Rightarrow$ premise D, per-unit; the lemma then adds the product-structure premise in both halves --- cardinality and cumulative suppression --- and delivers the collapse, from which the conjecture.
+
+
+\begin{proposition}[Concentration from simultaneous accordance]
+\label{prop:union-concentration}
+On $G$, with $s = \sum_{\alpha=1}^{n} r_\alpha/(1+r_\alpha)$,
+\begin{equation}
+\label{eq:union-concentration}
+Q(C_\ast) \;\ge\; 1 - s ,
+\end{equation}
+so the realized cell carries at least $1/(1+\eta)$ of the observer-conditioned mass whenever $s \le \eta/(1+\eta)$. Neither independence nor the product-structure premise is used.
+\end{proposition}
+
+\begin{corollary}[Conditional concentration under diffuse log-odds]\label{cor:conditional-concentration}
+For predeclared binary attributes $i = 1, \ldots, m$ with target suppressions $d_i > 0$, under the stated conditional density bounds with spreads $M_i$, with probability at least $1 - \sum_i \log_{10}(1 + 10^{d_i}) / M_i$ the realized cell satisfies $Q(C_\ast) \ge 1 - \sum_i 1 / (1 + 10^{d_i})$.
+\end{corollary}
+
+\noindent This is the full Strong Accordance result combined with the proposition above, and it needs neither cumulative suppression nor the tier argument. It is stated for predeclared binary attributes; a multivalued extension requires its own selection and multiplicity accounting, since for $b > 2$ equally weighted outcomes the realized outcome always has mass $1/b$ and selecting it after the fact does not produce the sampling experiment of a predeclared binary partition. The numbers set the scale of the application: certifying $99\%$ cell mass over $30$ attributes with equal targets needs $d_i \approx 3.477$; at $M_i = 100$ the familywise failure bound is about $1.04$, vacuous, and reducing it to $0.05$ needs $M_i \gtrsim 2086$. The landing-depth spreads estimated later do not yet certify a high-confidence conclusion at that scale, and the paper is organized around this corollary, placement being a separate rarity extension and cumulative suppression a separate depth-profile extension, each marked as such where it begins.
+
+\noindent The numbers above fix the empirical burden. With $M_i \approx 100$ the corollary certifies nothing at thirty attributes; a high-confidence conclusion at that scale needs spreads of order $2000$ or far fewer attributes, and the sections that follow are to be read as proposals for how such spreads might be estimated, not as their certification.
+
+\section{Coupling: improbabilities that arrive together}
+\label{sec:coupling}
+%% GOAL: establish HORIZONTAL coupling --- the debt/cascade --- as the first
+%% pillar of the re-rendition. This is the 2020 dinosaur kernel generalized:
+%% labeling one Filter incurs a debt discharged only by labeling another;
+%% "zero or two, never one." Formalize the propagation step and name the
+%% Miracle-set as its closure (fixed point). This is where the paper earns the
+%% word "re-rendition": the record stops being a list and becomes a closure.
+%% INPUT SLOT A: LANDED in-paper at rev. 3 (see the subsection comment below).
+%% The closure-operator statement is no longer a framed target: it is
+%% def:propagation-operator + prop:miracle-closure + prop:zero-contribution.
+%% EXIT: reader accepts that Miracles come in structurally linked sets, and
+%% that the linkage is forced by the principle, not observed.
+
+\subsection{The kernel: the dinosaur coupling}
+\label{sec:coupling-kernel}
+
+The paradigm's first pillar is best introduced through the argument that first exhibited it, available in the framework's record as a dated document predating the rest of the apparatus by some years \cite{Nexus}. Stated at the grain the mature framework gives it, that argument is a conditional, and the conditional's hinge is a probability ordering which a standard commitment itself sets up.
+
+Suppose one labels the end-Cretaceous impact a filter: an improbable bottleneck whose passage our lineage required, in the sense that dinosaurian endurance would have foreclosed mammalian ascendancy and everything downstream of it. The label is not eccentric; it is close to the received reading of that event. Now consider the branch of natural history in which the dinosaurs never evolve at all. On its face that branch incurs no need for a filter-grade impactor whatever: the mammalian radiation has open ground from the outset, no long detour is spent in the ecological shadows, and no improbable clearing event stands between dead matter and eventual observers. Taken at face value it is therefore the \emph{higher}-probability route to observers --- strictly so, since it reaches the same destination while paying one fewer improbability.
+
+The decisive fact is then not negotiable: we do not occupy that branch. Our record is, demonstrably, the dinosaurs-evolved-then-perished pathway. The constraint of \autoref{sec:principle-import} instructs an observer to expect the observer-favored route; the branch that appeared easier is not the branch we occupy; and the reconciliations available --- short of treating our own location as a brute improbability, which is what the constraint declines to do while a revisable premise remains standing --- number two, not one, because the bound has two sides and either can be repaired.
+
+\textit{Two repairs.} The first repair inverts the face-value ordering: something afflicts the never-dinosaurs scenarios severely enough to demote them below the filter-gated pathway we occupy. The second repair leaves the ordering intact and shrinks the upstream prior instead: with $P(\neg D) \lesssim p$ --- dinosaurian evolution near-inevitable --- the bound is satisfied at every $\kappa$ with one filter, no affliction, and our location the majority draw. The second horn must be named, because nothing in the constraint excludes it: the Hypothesis constrains productivity contrasts, not priors, and Strong Accordance binds where the realized attribute is the rare member, which under this horn it is not. It is, recognizably, the convergentist-adjacent reading --- dominant-clade evolution as close to inevitable --- and it is ruled out in this paper not by the constraint but by the same anti-convergentist alliance the placement section declares load-bearing for the Hypothesis itself (\autoref{sec:placement}): the alliance carries the kernel as it carries the contrast, and a reader who sides with Conway Morris against Gould holds a consistent exit here as there.
+
+
+
+\textit{What the coupling establishes: a labeled slot.} Under the affliction repair, then, the argument establishes \emph{that} such an affliction exists, and the ordering it must produce; it does not establish \emph{what} it is. Its output is a labeled but unfilled explanatory slot --- a commitment with teeth, since it demands a mechanism and constrains that mechanism's required severity.
+
+The logical form is a conditional derivation rather than an empirical conjecture: given the coupling and the principle's exceedance, the propagation to the prerequisites follows, and what is empirical is whether the coupling and its weights hold of the record, which the six items below grade.
+
+
+
+Two features of the kernel deserve marking, since the rest of the pillar generalizes them. First, the coupling is \emph{forced rather than observed} --- nothing in the paleontological record was consulted to produce the second label, only the first label and the constraint. Second, the operation \emph{did not terminate}: it took a commitment as input and returned a further commitment as output, which is precisely what a one-shot filter analysis is not supposed to do.
+
+A third feature is what gives the coupling its evidential reach, and stating it precisely matters, because the ordinary version of the claim is trivial while the distinctive version is not. The argument produces a bounded claim about the observer-productivity of a branch \emph{we do not occupy} --- quantitative information about the never-dinosaurs pathway, extracted without ever inhabiting it. That much, said loosely, is what every conditional probability does.
+
+
+
+
+
+
+\noindent The application, as the one this paper works, is recorded in the six items an application of the theorem must supply (Table~\ref{tab:application}). It is an illustrative setup, not a worked numerical application: the concentration calculation the theorem would need is not displayed, and the retrospective selection is not repaired by the joint guarantee, since the selection rule must be included in the model or separately accounted for.
+
+\begin{table}[ht]
+\centering
+\small
+\caption{The end-Cretaceous application, recorded item by item.}
+\label{tab:application}
+\begin{tabular}{@{}p{0.2\linewidth}p{0.74\linewidth}@{}}
+\toprule
+Item & The application \\
+\midrule
+Event definition & Two events, kept separate: $I$, an impact of the specified size within the window, and $E$, an extinction of the specified severity. The application's event is their conjunction, with $P(I \cap E \mid B) = P(I \mid B)\, P(E \mid I, B)$ for the background $B$ below. \\
+Source estimate & The impact flux of the dynamical models, two to four impacts of $D > 10$~km per gigayear \cite{nesvorny2021dark}, informs $P(I \mid B)$. It does not estimate $P(E \mid I, B)$, the probability that such an impact produces the extinction, and no source for that factor is entered. \\
+Background & Alternative histories of the same planet with the same history up to the window; the estimate is terrestrial and conditional on that configuration. \\
+Selection protocol & Retrospective: the attribute is a known feature of the record, chosen after the fact. A prospective application needs an independently declared event and selection rule, included in the model. \\
+Target population & The alternative histories of this planet. The application can contribute to a claim about observer-conditioned mass over those histories; it cannot become an unconditional probability over biospheres without a reference space and measure over biospheres, which the paper does not supply. \\
+Dependence assessment & Not established. The coupling pillar makes the attribute dependent on others, so combining it with them by multiplying probabilities would need an independence the pillar denies; it can enter the theorem only through the product structure with cumulative suppression, as stated there. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{The propagation step, and the Miracle-set as closure}\label{sec:coupling-closure}
+
+\label{def:propagation-operator}The coupling's consequence for the counting is the only part of the propagation closure this paper uses, and the closure is imported rather than constructed. Its owner, the companion's Definition (Propagation operator) and Proposition (The Miracle-set as closure) \cite{Nexus}, states it on the powerset of a finite universe $\mathcal{U}$ of attribute--label pairs, ordered by inclusion, which is a complete lattice as it stands, incompatible sets being elements of it whose consistency is handled by the operator's fiberwise clause rather than by any collapse of the lattice; the operator $\Phi(S) = S \cup \{\ell \in \mathcal{U} : S \text{ together with the constraint background } K \text{ forces } \ell \text{ fiberwise}\}$ is extensive and monotone by its rule form: the companion's rules are premise sets with a conclusion and a tail fixed before the iteration, applicability requiring only that the premises lie in $S$, with no defeating premises and no threshold that varies with $S$, and the fiberwise clause quantifying over the $K$-consistent assignments to the root set $R$, which is fixed for the iteration, so a rule applicable at $S$ remains applicable at every superset, which is the condition monotonicity needs and the one checked against the owner's definition; the Knaster--Tarski theorem gives a least fixed point above any root set $R$, the Miracle-set $\mathrm{cl}(R)$, reached as the union of the iterates of $\Phi$ on $R$, and in finitely many iterations because $\mathcal{U}$ is finite under the companion's working-finiteness premise, the unrestricted case being left open there and consumed by nothing here. The monotonicity is the rule form's, not the principle's, and the forcing relation's grade, high-probability with priced tails, on the event that every rule holds, is the companion's as well. The consequence: committing to one filter-label commits to the others the closure contains, so the record's improbabilities are one coupled set and not a list, and a product over independent factors is not available as a tally of them. The closure's construction, its dependence structure, and the propagation of observer-relevance along it is developed in the companion \cite{Nexus}.
+
+\section{Contrast: the geometry of the alternative space}
+\label{sec:contrast}
+%% GOAL: install the second pillar --- HCEH --- as a claim about landscape
+%% GEOMETRY, sign withheld. Separate motivation (multiplicative heuristic) from
+%% content (log-displacement of success-intersections). Give the outwardly-
+%% insignificant binary + the giant-component argument for its sharpness, since
+%% the re-rendition needs "which attributes are in play" to be a decidable
+%% question. EXIT: reader has c (per-attribute contrast) and the sharp binary,
+%% and knows HCEH is the paper's principal conjectural exposure.
+
+\subsection{High contrast, motivation kept separate from content}
+\label{sec:contrast-hceh}
+
+The second pillar is a hypothesis about the shape of the space in which alternative histories sit, and it is this paper's principal conjectural exposure. It is stated here, flagged as such, and used; it is not derived, and everything downstream inherits its standing rather than the theorems'.
+
+\begin{conjecture}[High-Contrast Earth Hypothesis]
+\label{conj:hceh}
+For any attribute at least moderately correlated to the remainder of the observer-bearing state, replacing it with its complement offsets the probability of observer-production by extremely many orders of magnitude --- not in a predictable direction, but to an effectively random one. Writing, for the attribute's two sides under fixed labels $A_1$ and $A_0$,
+\begin{equation}
+\label{eq:contrast-ratio}
+R(\alpha) \;=\; \log_{10}\!\left( \frac{P(H \mid A_1)}{P(H \mid A_0)} \right),
+\end{equation}
+the claim is that $R(\alpha) \sim \mathrm{Uniform}(-M, M)$ with $M$ growing without bound in attribute depth, so that $P(|R(\alpha)| > k) \to 1$ for any fixed $k > 0$ \cite{Nexus}.
+\end{conjecture}
+
+\noindent\emph{The placement clause.} The displayed law governs differences between cells, and a law of differences cannot by itself fix a level: moving every cell's log-productivity by the same amount leaves every contrast unchanged, so the difference law fixes the shape of a partition's productivity profile and not where the profile sits. But certainty is one more point in log-probability space. The gap between the top cell's productivity and probability one is itself a log-contrast, between the contingently topmost cell and the certain event, and the Hypothesis's random placement governs it as it governs the others. If the contrast between a random cell and the top is vast, it would be a fluke, and precisely the kind the Hypothesis denies, for the one gap between the top and certainty to be conveniently slim. The Hypothesis therefore carries a placement clause. Writing
+\begin{equation}
+\label{eq:placement}
+T \;=\; \max_j \log_{10} P(H \mid C_j) \;\le\; 0
+\end{equation}
+for the log-productivity of a partition's top cell, the gap $-T$ is spread over $[0, \infty)$ with density at most $1/W$, $W$ growing without bound in attribute depth as $M$ does---a diffuse class and not a single law, since a density at most $1/W$ confined to an interval of length $W$ would have to be uniform; both spreads are derived from landing depths in \autoref{sec:landing-depths}. The whole profile is thereby rescaled by a randomly placed and, with overwhelming probability, minute factor; Proposition~\ref{prop:concentration-rarity} draws the consequence.
+
+
+Two things about this statement matter more than its plausibility, and both are easy to lose.
+
+\emph{The hypothesis withholds the sign.} It says the displacement is enormous, not which side is larger. That separation is deliberate and structural: contrast is prior to direction, and keeping them apart is what allows the paradigm's strongest claims to be traced to distinct premises rather than to one undifferentiated intuition. Direction arrives only in \autoref{sec:oec}, and it arrives from the constraint of \autoref{sec:principle-import}, never from here.
+
+\emph{The motivation is not the content.} The hypothesis is naturally motivated by the statistics of multiplicative processes, and the canonical illustration of that motivation is worth having in hand before it is quarantined.
+
+The canonical illustration of the hypothesis, the red dwarf planetary system, is carried in the source \cite{Nexus}.
+
+
+
+That picture --- appending sub-unity factors until the probability has wandered to an effectively random order of magnitude --- is illustrative scaffolding only, offered in the spirit in which the fundamental theorem of calculus licenses computing an area by suspension of disbelief rather than by geometric construction. What is carried forward makes no reductionist commitment whatever:
+
+\begin{quote}
+Two randomly drawn success-intersections $P(H \cap A_i)$ tend to be separated by very many orders of magnitude in logarithmic probability space.
+\end{quote}
+The word ``randomly'' in that statement, and ``random'' wherever this paper applies it to a contrast, a direction of offset, or a draw from the landscape, is to be read in the sense the source framework gives it, (\cite{Aethus}, the Aethic Assessment of Frequentism), and not as an ontological weight. Relative to any one information state nothing about the landscape is random: which cell is heaviest and by how much are fixed by the structure the framework calls the Aethic tree, which is determinate in a sense that does not depend on any observer. What is ``random'' is a frequency over an equivalence class the modeler declares---pairs of sufficiently specified histories, perturbations of one history---across which a quantity the modeler cannot compute is distributed as stated. The distinction is not a scruple. It is the difference between the paper claiming that the landscape is unknowable in principle, which it does not, and claiming that a finite mind cannot compute which cell it occupies, which it does; the first would be a claim about the world, the second is a claim about mental ignorance, and the two determinacies the source framework keeps apart---the tree's, and the observer-relative one of its first postulate---are what let the paper say the second without the first.
+
+
+
+Write $c$ for the per-attribute displacement in orders of magnitude that a single perturbation induces, and $c_\alpha$ for its value at a particular attribute $\alpha$ when one is named --- the bare symbol denotes the displacement generically, the subscripted one an interrogated instance, and \autoref{sec:oec-strong} works in the indexed form throughout because the envelope it builds is taken over a family. Note also, because \autoref{sec:landscape-collapse} will be exacting about it, which object the displacement lives on. As \eqref{eq:contrast-ratio} defines it, $c$ is a contrast of \emph{observer-productivities} $P(H \mid \cdot)$, whereas the collapse runs on \emph{success-intersections} $P(H \cap \cdot)$, and the two differ by a prior-odds factor that runs \emph{against} the collapse, since ours is the low-prior cell. The conversion --- to an effective contrast $c_{\mathrm{eff}}$, net of the per-attribute prior-odds toll --- is performed on the page in \autoref{sec:oec-strong}, where the toll is defined and the envelope over an interrogated family is fixed. \autoref{conj:hceh} is the claim that $c$ is large; $c_{\mathrm{eff}}$ is the quantity the collapse weighs against the combinatorial supply, and it is the paradigm's single most consequential number.
+
+\subsection{The sharp binary: which attributes are in play}
+\label{sec:contrast-binary}
+
+The hypothesis is explicitly restricted, and the restriction must be applied attribute by attribute; whether it is decidable from connectivity alone is not settled, since component membership does not establish strong observer-relevance, so connectivity screens candidates and does not test them, and a further premise would be needed to make it a test.
+
+\begin{definition}[Outward insignificance]
+\label{def:outward}
+An attribute $\alpha$ is \emph{outwardly insignificant} when $P(H \mid A) \approx P(H \mid A_{\alpha \to \alpha'})$ --- when replacing it with its complement leaves observer-production essentially unmoved.
+\end{definition}
+
+Move a pebble across a driveway; nothing about anyone's existence is on the line. The conjunction of all such attributes is the substantial majority of any specified universe's content, and \autoref{conj:hceh} explicitly does not apply to them. The framework's claim is that the two regimes form a \emph{sharp binary with effectively no middle}. The motivation offered for that sharpness is graph-theoretic, and it is offered as motivation rather than derivation; the grading matters, because what follows is an analogy to a theorem about a class of random graphs, not a theorem about the natural-history dependency graph. Model correlation as a graph whose nodes are stated attributes and whose edges encode correlation, with observer-production $H$ a distinguished vertex. In a sufficiently large supercritical Erd\H{o}s--R\'enyi graph---expected degree exceeding one---a giant component absorbs most nodes, the periphery is sparse and disconnected, and the intermediate regime is exponentially suppressed. Four things would have to be shown before the analogy were more than suggestive: that the dependency graph belongs to the class the theorem governs; that expected degree exceeding one is the right criticality condition for a graph with $H$ distinguished rather than for a homogeneous one; that membership in $H$'s component is the same thing as bearing on observer-production, which component membership alone does not give, since a path may run through arbitrarily weak correlations; and that the middle regime is exponentially suppressed rather than merely thin. None of the four is established here. What the analogy supplies is a reason to expect bimodality rather than a smooth gradient, and it is the empirical analogue below, not the theorem, that the paradigm leans on. An attribute with even one non-trivial correlation is very probably inside the component along with $H$; an attribute with none is very probably outside. Run forward: once $\alpha$ correlates to one load-bearing parent, that parent is overwhelmingly likely to correlate to further parents, and the probability of the chain breaking at \emph{every} link falls exponentially in depth. Run in reverse, the same argument explains stability --- if there is nothing to ignite from, the cascade does not pick $\alpha$ up later. The two regimes are mutually self-stabilizing, and extending the argument from single attributes to clusters compounds it, since every boundary node must independently fail to reach the backbone while each added node brings its own network.
+
+
+
+What this buys is a procedural test, and the test is what makes the re-rendition applicable rather than merely assertable: \emph{does an attribute's correlation network connect, even through several steps, to the load-bearing structure?} If yes, the attribute is a candidate for high contrast, connectivity screening candidates and not establishing strong observer-relevance, since a connected correlation graph does not imply a large endpoint correlation, conditioning and cancellation defeating that inference, and a further premise is needed before \autoref{conj:hceh} applies to it; if no, it is outwardly insignificant and the hypothesis is silent. The re-rendition of \autoref{sec:rerendition} runs on the first class and says nothing about the second --- which, together with the operating range fixed by the linkage floor in \autoref{sec:principle-import}, delimits the paradigm's reach from two directions at once.
+
+
+\section{The landscape from outside: Imperfection Magnitude Drops}
+\label{sec:landscape}
+%% GOAL: third pillar --- the population structure of alternatives, and the
+%% inside/outside articulation asymmetry that is the paper's narrative engine.
+%% This is where the re-rendition gets its characteristic shape: the vicinity
+%% of our history is inarticulable from outside, possessed in full from inside,
+%% with the Spark Ontology import (Sec 5.2, SLOT B FILLED) as the license for
+%% reading the record as a held sample. Also: prove the sum-collapse HERE as a
+%% lemma (HCEH gives c, Nameability gives populations b^Delta), since the
+%% collapse is what licenses "optimum effectively alone." Carry the honest-n
+%% discipline. NOTE the dependency ORDER within the section: 5.2's grading
+%% split cites 5.3's concentration, so the collapse lemma must be stated
+%% before the split is consumed downstream --- forward reference within the
+%% section is fine, but do not let a redraft move 5.3 out of the section.
+%% EXIT: reader has the collapse lemma, the articulation asymmetry, and the
+%% possession/near-optimality split; the optimum is established as isolated.
+
+\label{sec:landscape-imd}\label{sec:landscape-nameability}
+The assumptions the depth profile consumes have one origin, developed in the companion \cite{Nexus} and only named here. An imperfection magnitude drop is the unit in which the depth of an alternative below our cell is measured, and disasters and difficulties are unified under that one depth scale; the articulation asymmetry, that the near tiers of the landscape are so sparsely populated that naming an alternative is itself a descent, supplies the tier populations as a tier count; and the crossroads argument, on where productive histories are siphoned, motivates the suppression envelope without being consumed below. What this paper takes from them is the depth-to-weight assumption of the next subsection and the tier count as an input.
+
+
+\subsection{Extension: cumulative suppression as a depth profile (the sum-collapse lemma)}
+
+\noindent\textit{Status.} Nothing in \autoref{sec:core} depends on this subsection. It supplies a depth profile, suppression with perturbation depth, under a hypothesis of its own, cumulative suppression with the exponent $c$ defined below, and its conclusions are conditional on that hypothesis.
+\label{sec:landscape-collapse}
+%% GOAL: the collapse made rigorous, promoted from assertion. This is portable
+%% from the revised Kipping section; state it here in the paper's own voice as
+%% the hinge between "landscape" and "optimum." The operative condition is
+%% c_eff > log10(n(b-1)): effective contrast must beat the log of the TOTAL
+%% combinatorial supply, with the attribute count n inside the condition. NB
+%% the earlier "log10(b) < c" form is explicitly rejected in the text below as
+%% nearly uncheckable, a bare branching factor committing to nothing --- do
+%% not restore it as the section's stated target.
+
+The two pillars just installed pull against each other, and the hinge of the whole paradigm is which of them wins.
+
+Fix the objects first. Write $A_j$ for the alternatives over which an aggregate runs. Each is not a determinate timeline but a cell of a partition: an equivalence class of natural histories agreeing on a specified set of non-outwardly-insignificant attributes (\autoref{def:outward}) and blank on all the rest, so that the family $\{A_j\}$ exhausts the combinations of those attributes and our own history occupies one cell $A_i$ among them. To each attaches its success-intersection, which factors as
+\begin{equation}
+\label{eq:success-factored}
+P(H \cap A_j) \;=\; P(H \mid A_j)\, P(A_j),
+\end{equation}
+so the quantity governing any aggregate is visibly the quantity \autoref{prin:accordance-imported} constrains: a prior weight times an observer-productivity. Nothing below requires that $P(H \cap A_j)$ decompose further; it is holistic, attached to the cell as a whole.
+
+The objection the collapse answers is the standard one, and it is a good objection: a sum over many terms may be large even when each term is small, so a paradigm claiming that one history dominates owes an argument about magnitudes \emph{and} populations jointly rather than about magnitudes alone. Before the argument is run, its ingredients must be counted, and the count is not a flat list: two assumptions, one stated condition, and the Hypothesis that discharges it, as set out below. \autoref{conj:hceh} supplies the \emph{magnitude} of the displacement through $c$ --- but, by its own deliberate design, it withholds the sign, so contrast alone cannot say that alternatives sit \emph{below} our cell rather than above it. The suppression direction enters separately:
+
+\begin{quote}
+\emph{Directed contrast} (premise D): each unit perturbation away from our cell suppresses the success-intersection by at least $c_{\mathrm{eff}}$ orders of magnitude, where $c_{\mathrm{eff}}$ is the effective contrast --- \autoref{conj:hceh}'s productivity magnitude, equipped with the constraint's direction and net of the prior-odds toll of our own cell's rarity --- assembled in \autoref{sec:oec-strong} as the Strong Accordance Principle and consumed here as a named premise. One unit-reconciliation belongs inside the premise's statement: the constraint bounds the \emph{complement} --- the aggregate of all $b-1$ alternative values --- while this premise and the tier count of the companion \cite{Nexus} run \emph{per value}. The per-value bound follows, but not a fortiori. Each alternative cell's weight is at most the complement's total, which bounds the numerator; the constraint's denominator, however, is the whole marginal $P(H \cap A_\alpha)$, which contains our cell and more, and there the inequality's direction does not absorb the difference. The probability guarantee for the event $G$ below is the binary one, each attribute's complement event being a predeclared binary partition; for $b_i > 2$ the conversion is a deterministic implication conditional on supplied complement bounds, the adaptively selected complement of the realized member carrying no binary failure price of its own, and the prior-window route keeps its selection event visible, a bound on window membership and failure jointly not being a failure bound conditional on membership. On $G$, where all $n$ complement-level inequalities hold together, Proposition~\ref{prop:cell-suppression} converts them with a small, explicit loss, which the example there shows cannot be lowered: a unit perturbation at $\alpha$ is suppressed relative to our cell by $r_\alpha/((1+r_\alpha)(1-s))$, with $r_\alpha$ the complement-level ratio and $s = \sum_\beta r_\beta/(1+r_\beta)$. The collapse condition below keeps $s < 1$, and premise D is consumed at $c_{\mathrm{eff}}$ net of at most $\log_{10}\big(1/((1+r_\alpha)(1-s))\big)$ orders of magnitude.
+\end{quote}
+
+The unit of ``unit perturbation'' is fixed here, at the definition. On the full-product reading a unit is any single attribute and the toll is $c_{\mathrm{eff}}$ per attribute; on the free-coordinate reading, which the lemma uses once the tier count runs over roots, a unit is a single root, whose perturbation drags its slaved attributes with it, so the per-unit toll is at least $c_{\mathrm{eff}}$ and generally larger. The two readings are consistent, the second implied by the first with margin, and the lemma's arithmetic is written on the first and is therefore conservative on the second; the root reading consumes the fiberwise-forcing premise, since a root's effective branching is its own $b_i$ only because each of its $K$-consistent values forces one completion of the slaved coordinates.
+
+One grade note travels with D, stated now rather than left for the reader to notice. As delivered by Strong Accordance, D holds with high probability per pair, with the standard $1/(1+\kappa)$ tail; as consumed by the lemma below it is deterministic. A union bound does not by itself convert the one into the other, and the conversion is therefore made explicitly, with its probability stated. Let $G$ be the event that \emph{every} per-pair suppression inequality D requires anywhere in the finite depth-$0,\dots,n$ construction holds simultaneously:
+\begin{equation}
+\label{eq:eventG}
+G \;=\; \bigcap_{\alpha = 1}^{n} \ \bigcap_{\alpha' \ne \alpha_{\ast}} G_{\alpha, \alpha'},
+\end{equation}
+the intersection running over every attribute $\alpha$ of the interrogated family and every alternative $\alpha'$ to its realized value $\alpha_{\ast}$---that is, over the $n(b-1)$ unit perturbations from our own cell. The probabilistic exposure is smaller than that count, and the separation matters: the foundation's canonical event at attribute $\alpha$ is the complement-level one, $A_\alpha$ against $A_\alpha^{c}$, and it bounds every individual alternative at once, since $P(H \cap A_{\alpha \to \alpha'}) \le P(H \cap A_\alpha^{c})$ for each of the $b-1$ values. So the $n(b-1)$ inequalities of $G$ are implied by $n$ complement-level Accordance events, one per attribute, holding jointly and at the constant of Proposition~\ref{prop:cell-suppression}, and $\Pr[G] \ge 1 - \varepsilon_D$ with
+\begin{equation}
+\label{eq:epsD}
+\varepsilon_D \;\le\; \frac{n}{1+\kappa},
+\end{equation}
+the union bound over the $n$ predeclared attributes, each contributing at most the Accordance tail. Under the full form of Strong Accordance (Principle~\ref{prin:strong-full}) the price is sharper and needs no prior window: with target ratios $r_\alpha = 10^{-d_\alpha}$, $\varepsilon_D \le \sum_\alpha \big(d_\alpha + \log_{10}(1 + 10^{-d_\alpha})\big)/M_\alpha$. The factor $b-1$ belongs to the combinatorial population of alternative cells and not to the multiple-comparison penalty---the statistical family size is $n$, the landscape branching is $b$, and the two are distinct; and \emph{conditional on $G$}, D holds deterministically and the lemma below applies verbatim. The count of inequalities is $n(b-1)$ and not the $b^{n}$ of the whole lattice, and the reason is worth stating since it is what keeps the price low: D is a claim about \emph{unit perturbations from our own cell}, of which there are exactly $n(b-1)$, bounded through $n$ complement-level events, while the extension to depth $\Delta$ is carried by the separate structural premise of cumulative suppression rather than by further probabilistic steps. The union bound therefore runs over the unit family alone. Everything downstream inherits the conditioning: the sum-collapse is a statement on $G$, its conclusion holds with probability at least $1 - \varepsilon_D$, and $\varepsilon_D$ is carried into the grade rather than absorbed. By \eqref{eq:epsD}, $\varepsilon_D$ is negligible whenever the Strong-Accordance construction makes $\kappa$ dominate $n(b-1)$---which it does, since the $\kappa$ that construction supplies is of order $10^{c_\alpha + k_\alpha}$. The collapse condition \eqref{eq:collapse-condition} is a different inequality, $c_{\mathrm{eff}} > \log_{10} n(b-1)$, and the two are not identical as written. Increasing contrast can improve both bounds, but the confidence requirement and the net-suppression requirement must be checked separately: the first runs on a scale of order $10^{c_\alpha + k_\alpha}$, the second on $c_{\mathrm{eff}} = \min_\alpha (c_\alpha - k_\alpha)$, which nets the toll out. With $c = 13$, $k = 12$ and thirty binary attributes, the first scale is $10^{25}$ while $c - k = 1$ falls short of $\log_{10} 30 \approx 1.48$. Where it is not negligible the collapse is not lost but degraded: its conclusion holds on $G$, at confidence $1-\varepsilon_D$, and a reader who doubts the contrast figure recomputes $\varepsilon_D$ rather than abandoning the lemma. The lemma's cleanness is bought at that stated price together with the structural assumptions it stands on, cumulative suppression, the landscape model and the admissible partitions, each visible where it is used. 
+
+
+
+The tier populations that the depth profile consumes are supplied by the articulation asymmetry, which is developed in the companion \cite{Nexus}; they enter here as the tier count, an input the sum-collapse lemma takes as given.
+
+
+
+\noindent Two propositions come first. They deliver the realized cell's share of the observer-conditioned mass on $G$ with no product structure and no cumulative suppression, so that what the lemma adds is visible as what it is. Write $Q = P(\cdot \mid H)$, $C_\ast$ for our cell, $A_\alpha$ for the event that attribute $\alpha$ takes our value, and $r_\alpha$ for the complement-level ratio the constraint bounds, $Q(A_\alpha^{c}) \le r_\alpha\, Q(A_\alpha)$ on $G$.
+
+
+
+\begin{proof}
+Since $Q(A_\alpha) + Q(A_\alpha^{c}) = 1$, the inequality $Q(A_\alpha^{c}) \le r_\alpha\, Q(A_\alpha)$ gives $Q(A_\alpha^{c}) \le r_\alpha/(1+r_\alpha)$. Our cell is $\bigcap_\alpha A_\alpha$, so $Q(C_\ast) = 1 - Q\big(\bigcup_\alpha A_\alpha^{c}\big) \ge 1 - s$ by the union bound.
+\end{proof}
+
+\begin{proposition}[Per-cell suppression, exact form]
+\label{prop:cell-suppression}
+On $G$, if $s < 1$, every cell $N$ differing from ours at the single attribute $\alpha$ satisfies
+\begin{equation}
+\label{eq:cell-suppression}
+Q(N) \;\le\; \frac{r_\alpha}{(1+r_\alpha)(1-s)}\; Q(C_\ast),
+\end{equation}
+and the constant cannot be lowered: the law $Q(00) = 0.98$, $Q(01) = Q(10) = 0.01$, $Q(11) = 0$ has $r_\alpha = 1/99$ at both attributes and attains it, with $Q(01)/Q(00) = 1/98$.
+\end{proposition}
+\begin{proof}
+$N$ lies in $A_\alpha^{c}$, so $Q(N) \le r_\alpha/(1+r_\alpha)$, and $Q(C_\ast) \ge 1 - s$ by Proposition~\ref{prop:union-concentration}. In the example $s = 1/50$, and the constant is $(1/99)(99/100)(50/49) = 1/98$.
+\end{proof}
+
+\noindent The constant $r_\alpha$ alone does not suffice: in that example the unit perturbation carries $1/98$ of our cell's weight, more than $1/99$. The exact form costs the factor $1/((1+r_\alpha)(1-s))$, close to one whenever $s$ is small. Proposition~\ref{prop:union-concentration} already gives the concentration to first order in the suppressions, $1 - Q(C_\ast) \le s \approx \sum_\alpha r_\alpha$, which is what the lemma's display gives to the same order. What the lemma adds, and what the cumulative-suppression premise is for, is the depth-graded account: how the weight falls off with distance from our cell, and a positive share for our cell when $s$ is not small. Both propositions were checked in exact arithmetic over 4{,}000 random observer-conditioned laws on two to four attributes, without exception, the per-cell constant being attained in 279 of them.
+
+\begin{proposition}[Rarity under the placement hypothesis]
+\label{prop:concentration-rarity}
+Under the placement clause \eqref{eq:placement}, for every $t \ge 0$,
+\begin{equation}
+\label{eq:rarity}
+\Pr\big[\, P(H) > 10^{-t} \,\big] \;\le\; \Pr\big[\, T > -t \,\big] \;\le\; \frac{t}{W}.
+\end{equation}
+On the event $G$ as well, which by the union bound has probability at least $1 - t/W - \varepsilon_D$, the realized cell carries at least a share $1 - s$ of the success-intersection total $P(H) = \sum_j P(H \cap C_j)$, which is itself at most $10^{-t}$, and every cell's productivity, ours included, is at most $10^{-t}$. When $s < \tfrac12$, our cell outweighs all the others combined and is itself minute.
+\end{proposition}
+\begin{proof}
+$P(H) = \sum_j P(H \mid C_j)\, P(C_j) \le \max_j P(H \mid C_j) = 10^{T}$, so $P(H) > 10^{-t}$ requires the gap $-T$ to be less than $t$, which by the density bound has probability at most $t/W$. Every productivity is at most the top one, $10^{T}$. The share is Proposition~\ref{prop:union-concentration}, and the two failure events are joined by the union bound, which needs no independence between them.
+\end{proof}
+
+\noindent The caution that concentration is not rarity is correct of the difference law alone, which is shift-invariant, and it is answered by the placement clause, which is additional structure: pairwise contrasts do not determine the gap to certainty. The rarity display follows from the placement clause alone, the concentration theorem entering only where the two are combined, and the two clauses are two readings of one hypothesis on landing depths (the landing-depth spread estimate of the companion \cite{Nexus}(ii)), a hypothesis stronger than the contrast law. The realized cell's two standings come from the two clauses of one Hypothesis. That it outweighs everything else in its partition is the difference clause read through Strong Accordance, and that it is minute is the placement clause. With $W = 10^{4}$ orders of magnitude, for instance, $P(H)$ is below $10^{-100}$ except with probability $0.01$. The conclusion also has a second route in the foundation, whose realized-cell bound uses no contrast hypothesis at all \cite{Nexus}, so the two routes, one structural and one statistical, are independent. A simulation of profiles built from the difference clause and placed by the placement clause agrees: $P(H) \le 10^{T}$ in every case, and $\Pr[P(H) > 10^{-20}] = 0.045$ at $W = 400$, against the bound $0.05$.
+
+\noindent The placement clause leaves Strong Accordance's bound where it was. Strong Accordance is a statement about ratios, its event depending only on the contrast between the two sides, and the realization that places us is drawn from Aetherian weights, which are normalized; a common rescaling of every productivity cancels from both. The level is what the placement clause governs, so it cancels from everything Strong Accordance touches. What the clause adds is the companion bound, and the two join additively, the rarity half costing $t/W$ once for the whole partition rather than once per attribute, because the top cell's productivity bounds every coarser productivity; if the level is drawn independently of the contrasts, the joint success probability is the product rather than the union bound.
+
+
+\begin{lemma}[Sum-collapse]
+\label{lem:collapse}
+Work on the event $G$ of premise D, so that D holds deterministically; assume also the product-structure premise in both halves --- the tier count of the companion \cite{Nexus}, and cumulative suppression with exponent $c$, the exponent in force: $c = c_{\mathrm{eff}}$ when cumulative suppression is assumed with the effective contrast, and $c = c_{\mathrm{cal}} := \min_i \tilde d_i$ when the exponent is calibrated from the marginal bounds premise D supplies through Proposition~\ref{prop:cell-suppression}, two distinct quantities distinct by their symbols; in neither case is cumulative suppression certified, since the proposition bounds each unit perturbation and not its compounding across changed coordinates: with $Q(00) = 0.99$, $Q(11) = 0.01$ and the off-diagonal cells empty, both marginal complement ratios are $1/99$, the proposition gives $r/((1+r)(1-s)) = 1/98$, and compounding would require $Q(11) \le 0.99/98^{2} \approx 10^{-4}$ against the actual $0.01$, so cumulative suppression at the calibrated exponent is assumed, everywhere it is used. Then, on $G$ and hence with probability at least $1 - \varepsilon_D$,
+\begin{equation}
+\label{eq:sum-collapse}
+\max_j P(H \cap A_j) \;\le\; \sum_j P(H \cap A_j) \;\le\; \left(1 + (b-1)10^{-c}\right)^{n} \max_j P(H \cap A_j)
+\;\le\; e^{\,n(b-1)10^{-c}} \max_j P(H \cap A_j),
+\end{equation}
+with the maximum attained at $\Delta = 0$ --- our own cell. The display is the uniform envelope of a sharper heterogeneous statement, which is the one to prove: let coordinate $i$ have $b_i$ values and per-cell suppression exponent $\tilde d_i$, and let \emph{cumulative suppression} (CS) say that a cell differing from ours on the coordinate set $S$ has $W(a_S) \le W_\ast \prod_{i \in S} 10^{-\tilde d_i}$. CS is a hypothesis whose per-cell exponents are specified in their own right. Where they are read off premise D through Proposition~\ref{prop:cell-suppression}, the exponent is not the net suppression $d_i = c_i - k_i$ but the certified $\tilde d_i = \log_{10}(1/r_i) + \log_{10}(1 + r_i) + \log_{10}(1 - s)$, which with $r_i = 10^{-d_i}$ is $d_i + \log_{10}(1 + r_i) + \log_{10}(1 - s)$; the loss $\log_{10}(1 - s)$ enters the inequality rather than being set aside. Summing over the whole product space,
+\begin{equation}
+\label{eq:hetero-collapse}
+\sum_a W(a) \;\le\; W_\ast \prod_{i=1}^{n}\Big[1 + (b_i - 1)\,10^{-\tilde d_i}\Big] \;\le\; W_\ast \exp\!\Big[\sum_{i=1}^{n} (b_i - 1)\,10^{-\tilde d_i}\Big],
+\end{equation}
+of which \eqref{eq:sum-collapse} is the case $\tilde d_i \ge c$, $b_i = b$, taking the minimum first. And ``collapse'' must be given a number, because the condition
+\begin{equation}
+\label{eq:collapse-condition}
+c \;>\; \log_{10}\!\left( n\,(b-1) \right)
+\end{equation}
+secures only $n(b-1)10^{-c} < 1$, hence $\sum_a W(a) < e\,W_\ast$: the realized cell is the largest term, but in the worst case carries only a share $W_\ast / \sum_a W(a) > e^{-1} \approx 0.368$ of the mass. For a target overhead $\eta > 0$---$\sum_a W(a) \le (1 + \eta) W_\ast$, the realized cell carrying at least $1/(1+\eta)$ of the observer-conditioned mass, $\eta = 1$ being half and $\eta = 0.01$ about ninety-nine percent---a sufficient condition is $\sum_i (b_i - 1) 10^{-\tilde d_i} \le \ln(1 + \eta)$, and under the uniform envelope
+\begin{equation}
+\label{eq:collapse-eta}
+\tilde d_{\min} \;\ge\; \log_{10}\frac{n\,(b-1)}{\ln(1+\eta)}.
+\end{equation}
+That is what the paper means by collapse at concentration $\eta$, and under \autoref{conj:hceh}, where the per-attribute contrast runs to very many orders of magnitude, the toll it is netted against scales with Miracle-grade yet is dwarfed by it, and $\log_{10}(n(b-1))$ is a single-digit quantity for any attribute space an application would commit to, the excess factor is indistinguishable from unity.
+\end{lemma}
+
+\noindent\textit{The resolution question, outside the lemma.} One resolution note is owed against a convention objection, and the framework's answer to it is not an open item but a principle the foundation has carried since 2023, stated there beside the Optimal Earth Conjecture as its guard and named at the time: the \emph{Specific Pseudo-Uncertainty Principle} \cite{Nexus}. The Conjecture was first put with one word chosen deliberately---that any attribute \emph{linguistically} changed to a mutually exclusive state yields a less optimal biosphere---and the principle is what the word protects. The objection: for continuous attributes the condition is not resolution-invariant in form, since refining a discretization by a factor $m$ raises the per-attribute toll and the right-hand side together, and if refinement could be carried arbitrarily far the collapse condition might be made to fail by representational choice alone---the attribute-selection worry returning as a granularity worry. The principle's content: there exist minutely apparent properties of one's Aethus for which changing them would yield a more productive biosphere, and one will never find them, because the accuracy needed to describe an Aethus in which such a property is changed exceeds the accuracy to which the property can be measured---so the optimal value already lies within the range to which the property is known, and one does not know where. Refinement of an attribute is thus not a free operation of description; it is bounded by the resolution at which the attribute can be empirically measured, and that resolution is finite for every attribute of a natural history. The remainder of the resolution question, the admissible partitions at finer resolution and the limit of the lemma's reach there, is developed in the companion \cite{Nexus}.
+
+
+
+
+\begin{proof}
+The lower bound is immediate. For the upper, premise D bounds each unit perturbation by $10^{-c}$; the cumulative-suppression half of the product-structure premise compounds the per-unit bound to $P(H \cap A_i)10^{-c\Delta}$ at depth $\Delta$, placing every cell at or below $P(H \cap A_i)$ and so identifying it as the maximum; the tier count of the companion \cite{Nexus} counts the terms at each depth; the binomial theorem sums them exactly to $(1 + (b-1)10^{-c})^{n}$; and $(1+x)^n \le e^{nx}$ gives the final form. Nothing beyond D, the product-structure premise in both halves, and the binomial theorem is used.
+\end{proof}
+
+Three observations about this lemma matter more than its proof.
+
+\emph{It locates the load correctly.} The collapse is not a consequence of contrast alone, nor of contrast plus direction. Had the alternatives been distributed evenly across tiers rather than concentrating at the severe end, multiplicity would defeat any fixed contrast whatever: with $N$ terms spread uniformly across a fixed logarithmic range, the top-of-range spacing shrinks as the population grows, and the aggregate outruns its maximum without bound.
+
+The bookkeeping must therefore be complete, and it is cleaner than a flat premise-list. The lemma has two \emph{assumptions} and one stated \emph{condition}. The assumptions: premise D --- direction equipped with magnitude, assembled from the constraint and the Hypothesis in \autoref{sec:oec-strong} --- and \emph{product structure with cumulative suppression}, the premise properly named, with both halves stated. The first half is cardinality: the alternative space is a finite product over $n$ attributes of $b$ values each, forcing the tier count of the companion \cite{Nexus} and its total $\sum_\Delta \binom{n}{\Delta}(b-1)^{\Delta} = b^{n}$, with the concentration-at-severity reading its consequence. The second half is weights, which the first cannot supply: suppression accumulates across coordinates at no less than the per-attribute rate, further perturbation suppressing further rather than saturating --- deliberately weaker than factorization, so the holistic commitment above stands: the cell's weight need not decompose, it need only fail to plateau.
+
+The cumulative-suppression half is not a bare posit; it has both a physical motivation and a sharp negation, and naming them fixes what the paradigm is actually betting. The motivation is the coupling pillar: because attributes are correlated through the giant component of \autoref{sec:contrast-binary}, a deeper perturbation violates \emph{more} of the coupled web, which is why the paradigm expects suppression to accumulate with depth. Coupling motivates the funnel without entailing it. Dependence can equally make twin peaks and compensations: $W(00) = W(11) = 1$ with $W(01) = W(10) = \epsilon$ is strongly coupled and suppresses every unit perturbation from $00$ by $\epsilon$, yet the double perturbation restores full weight. The funnel is therefore a landscape hypothesis in its own right, with the coupling pillar as its motivation rather than its proof. The negation is a landscape that re-randomizes completely at unit distance, every cell an effectively independent draw on the logarithmic range: in that regime the pairwise gulfs of \autoref{conj:hceh} all still hold --- any two cells picked at random sit many orders apart --- and yet the order statistics near the top pack densely, the number of cells within one order of the maximum growing with the population, and the aggregate outruns its dominant term regardless of how vast the typical pairwise gap is. Pairwise contrast plus population alone, in other words, does \emph{not} deliver the collapse; the cumulative-suppression half is precisely what excludes the re-randomizing regime, and its falsifiers below --- saturation and the plateau --- are that regime's two signatures. The paradigm's bet, stated once and sharply: the landscape is a coupled funnel, not an uncorrelated roughness, and the coupling pillar is why the bet is placed.
+
+
+
+
+
+\emph{The target is weaker than the conclusion.} Nothing downstream requires that the aggregate \emph{equal} its dominant term. It is required only that the alternatives not collectively outweigh our own cell by enough to displace a typical observer from it, which is secured by the excess factor $e^{n(b-1)10^{-c}}$ being of order unity rather than being indistinguishable from it. The lemma therefore has room to spare against any particular estimate of $n$ or $b$.
+
+
+
+
+
+
+
+\section{The Optimal-Earth Conjecture}
+\label{sec:oec}
+%% GOAL: assemble the three pillars into the conjecture. Contrast (Sec 4)
+%% gives magnitude, the imported constraint (Sec 2) gives direction => Strong
+%% Accordance; the collapse (Sec 5.3) gives isolation => OEC as "our cell is
+%% the optimum, effectively alone." Carry BOTH calibrations from the master fix: the quantifier (per-pair
+%% -> universal via union bound, honest-n) and the scope (ratio form official,
+%% dominance as Miracle-side specialization).
+%% SLOT C: CLOSED BY DECISION --- the conjecture is taken as this paper's root
+%% object, stated methodologically; the Fundamental Theorem that derives it is
+%% cited to the source, not imported (see the paragraph after conj:oec).
+%% EXIT: OEC stated, graded (inherits HCEH's conjectural standing), scoped.
+
+\label{sec:landing-depths}
+The spread $M$ of the diffuse log-odds and the placement range $W$ are estimated from landing depths, the typical depth below our cell at which an alternative's construction lands; the estimate and its route are the companion's \cite{Nexus}, and both enter this paper as inputs whose present values do not yet certify a high-confidence conclusion at the thirty-attribute scale, as the core result states.
+
+
+\subsection{The conjecture, and its two calibrations}
+\label{sec:oec-conjecture}
+Strong Accordance suppresses each alternative, and does so anchored at our own cell already --- the constraint binds a \emph{realized} attribute against its alternative, so the anchoring is inside the premise rather than added to it; the sum-collapse then gathers the suppression, establishing that the aggregate does not outrun the cell the suppression is anchored at. What the reflexive reading of \autoref{prin:draw-imported} adds is not the anchoring but the \emph{generality}: without it the result would be a claim about us in particular, and the suspicion of special pleading would be fair. With it, the reasoning is one any observer could run --- each finding their own record at a peak, by the same argument and with the same grade --- which converts a statement about our history into a statement about the landscape's shape.
+
+
+
+That conversion is what the conjecture asserts, what the sweep of \autoref{sec:oec-sweep} carries past our own observer-class, and what the closing section returns to.
+
+\begin{theorem}[Conditional observer-mass concentration, binary case]
+\label{thm:concentration}
+Let $\Pi \in \mathfrak{P}_{\mathrm{adm}}$ be a finite admissible partition on $n$ predeclared binary attributes, and grant: the imported Accordance principle at a fixed ex-ante threshold $\kappa$ built from a declared prior window and contrast floor with the margin $c_{\min} > k_{\max}$; the anti-concentration condition of \autoref{conj:hceh} at the floor, with failure price $\varepsilon_H$ of \eqref{eq:floor-price}; cumulative suppression (CS) with per-cell exponents $\tilde d_i$; and the product structure of the cell lattice. The two failure probabilities live on different experiments and are added on an explicit two-stage space: a landscape draw $(\Lambda, \mathcal{G}, \rho)$ over the modeler-declared equivalence class of alternative histories, on which the anti-concentration condition is stated and $\rho(\text{floor failure}) \le \varepsilon_H$; and, conditional on each $\lambda \in \Lambda$, the Copernican realization draw $(\Omega_\lambda, \mathcal{F}_\lambda, \mu_\lambda)$, on which Accordance is required to hold \emph{uniformly in $\lambda$}, $\mu_\lambda(\text{Accordance failure} \mid \lambda) \le \varepsilon_A = n/(1+\kappa)$ for every landscape satisfying the premises. Then, by total probability on the product $\rho \ltimes \mu$, with probability at least $1 - \varepsilon_H - \varepsilon_A$ on that space, jointly over the landscape draw and the realization and not conditionally on the realized prior window $W$, whose membership enters the bound as an event on the same space so that the conditional failure probability given $W$ is at most $(\varepsilon_H + \varepsilon_A)/\rho\ltimes\mu(W)$ and is small only where $W$ is predeclared with probability bounded below, the realized cell carries at least $1/(1+\eta)$ of the total observer-conditioned mass whenever
+\begin{equation}
+\label{eq:binary-condition}
+\sum_{i=1}^{n} 10^{-\tilde d_i} \;\le\; \ln(1+\eta),
+\end{equation}
+and in particular whenever $\tilde d_{\min} \ge \log_{10}\big(n/\ln(1+\eta)\big)$.
+\end{theorem}
+\begin{proof}
+On the intersection of the floor event and the Accordance event $G$, which has probability at least $1 - \varepsilon_H - \varepsilon_A$ by the union bound, every per-coordinate net suppression $d_i$ is in force; CS and the product structure give \eqref{eq:hetero-collapse} with $b_i = 2$, $\sum_a W(a) \le W_\ast \prod_i (1 + 10^{-\tilde d_i}) \le W_\ast \exp\big[\sum_i 10^{-\tilde d_i}\big]$; and the exponential bound yields $\sum_a W(a) \le (1+\eta) W_\ast$ under \eqref{eq:binary-condition}.
+\end{proof}
+
+\noindent\textit{Remark (general branchings, an algebraic extension).} The same algebra runs for branchings $b_i \ge 2$ and gives $\sum_a W(a) \le W_\ast \prod_i [1 + (b_i - 1)10^{-\tilde d_i}]$, the condition becoming $\sum_i (b_i - 1)10^{-\tilde d_i} \le \ln(1+\eta)$. That extension is algebraic only. What it does not supply is the sampling justification of the probability guarantee for $b_i > 2$: the realized outcome of an equally weighted $b$-fold attribute has mass $1/b$ whatever is realized, so selecting it after the fact does not produce the predeclared binary partition's sampling experiment, and the multivalued selection and multiplicity accounting that Corollary~\ref{cor:conditional-concentration} leaves open remains open. The certified case is the binary one above.
+
+\noindent The theorem is the mathematics; the conjecture that follows is the empirical claim that its premises hold widely, and the two are kept on separate lines so that the speculation is never mixed into the derivation.
+
+\begin{conjecture}[Optimal-Earth]
+\label{conj:oec}
+Natural histories satisfy the premises of Theorem~\ref{thm:concentration} broadly enough, and at enough interrogable attributes, that the theorem applies at high concentration: on effectively any attribute of natural history one can interrogate, our own realized value is \emph{observer-mass dominant} among its alternatives, its success-intersection $P(H \cap A)$ dominates the aggregate success-intersection of all articulable alternatives to within the excess factor of \autoref{lem:collapse}, not luckily so but forcedly so, and --- by the collapse of \autoref{sec:landscape-collapse} --- effectively alone in being so. The word ``optimal'' in the paper's title is read in that sense, dominance under the observer-conditioned weighting, and not as \emph{maximal conditional productivity}, $P(H \mid A) > P(H \mid A_j)$ for every individual alternative $A_j$: the complement comparison the constraint supplies establishes that $A$ beats the prior-weighted average productivity of its complement, and the collapse works with success-intersection mass, which carries each alternative's prior; neither controls the productivity of a rare alternative inside the complement separately, and a single rare $A_j$ of enormous productivity contributing little mass is not excluded by anything here. Optimality in the stronger sense would require a further theorem controlling the alternatives' priors individually, and it is not claimed.
+\end{conjecture}
+
+\noindent The conjecture is stated methodologically, as a constraint one applies attribute by attribute, and that is deliberate: the source \cite{Nexus} carries a Fundamental Theorem that \emph{derives} this reading from the deeper machinery of attentors and contentors, but the derivation is not needed here and is not imported. This paper takes the Optimal-Earth Conjecture as its root object and reasons forward from it; a reader wanting the theorem that grounds it is directed to the source, and nothing below depends on having it. The conjecture inherits its grade from \autoref{conj:hceh}: the direction and the collapse are theorem-backed given their premises, but the magnitude the whole result trades on is the Hypothesis's, so the conjecture stands as secure as the Hypothesis, and its conditional standing is also that of cumulative suppression, the landscape model, the admissible partitions and the empirical applicability of each, which the conjecture inherits alongside the Hypothesis's grade.
+
+\paragraph{Calibration 1: the quantifier.} The conjecture's ``effectively any attribute'' is a universal claim, and universals assembled from high-probability per-item statements are owed a price. Strong Accordance is valid per pair: for a given interrogated attribute the bound holds with failure probability at most $1/(1+\kappa)$. To assert it across a family of $n$ interrogated attributes at once, one takes the union bound, and to hold the total failure probability below a target $\epsilon$ one needs a per-pair tail of $\epsilon/n$, that is $1/(1+\kappa) \le \epsilon/n$, so $\kappa \gtrsim n/\epsilon$. Here a tradeoff the paper must confront becomes visible, because $\kappa$ enters the bound's threshold as well as its confidence. The remainder of the quantifier's calibration, the attribute families on which the universal claim is and is not defended, is the companion's \cite{Nexus}.
+
+
+
+\paragraph{Calibration 2: the scope.} Three comparisons are in play and the conjecture claims exactly one. Strong Accordance bounds the ratio $P(H \mid A')/P(H \mid A)$ against $P(A)/(1-P(A))$ except on the tail $1/(1+\kappa)$ at the fixed threshold \eqref{eq:fixed-kappa}, with $A'$ the complement; what that establishes, on the Miracle side where the right-hand side is below unity, is that $P(H \mid A)$ exceeds the \emph{prior-weighted average productivity of the complement}. It does not establish that $P(H \mid A)$ exceeds the productivity of \emph{each individual alternative} inside the complement, since a rare alternative of enormous productivity contributing little mass is consistent with the ratio bound, as the conjecture's own statement records. And neither comparison is the conjecture's object, which is \emph{observer-mass dominance}, $P(A \mid H)$ carrying most of the observer-conditioned mass, the quantity Theorem~\ref{thm:concentration} concentrates; the three quantities $P(H \cap A)$, $P(H \mid A)$ and $P(A \mid H)$ are related by Bayes' rule and claims about their maxima are not interchangeable. The gloss ``observer-optimal member of its alternatives'' is therefore read as mass dominance throughout, with the average-productivity comparison as what the ratio bound adds on the Miracle side and the individual-productivity comparison claimed nowhere; off the Miracle side, where a high-prior attribute's linkage floor runs to $-1$, not even the average comparison is forced, for the reason recorded at \eqref{eq:linkage-floor}.
+
+One further calibration guards the word ``optimal'' itself: nothing in the framework seeks an optimum or ranks histories against a target, the optimality being an emergent pattern of the eliminative reweighting that the conjecture reports and does not posit a maker for, derived from the local constraint of \autoref{sec:principle-import} rather than taken as an axiom of optimization; \autoref{sec:rerendition-tally} states the point among the five that carry the re-rendition.
+
+\subsection{The conjecture's scope: substitution, and the common-ground sweep}
+\label{sec:oec-sweep}
+%% Compressed import of the master's substitution-sweep subsubsection
+%% (sec:substitution-sweep at the source). OEC-PRIMITIVE (per author Q1): this
+%% paper takes the Optimal-Earth Conjecture as its root and does NOT import the
+%% Fundamental Theorem (the source's attentor/contentor machinery that derives
+%% OEC). The Property is therefore grounded directly: OEC's conditioning
+%% target is itself a free parameter, of which the Aetherian-Nexus reading is
+%% one setting and each ancestral rung another. Rung-screening stands as its
+%% own named license with no deeper home promised in this paper.
+
+One objection outranks all others against the conjecture just stated, and it is a scope objection rather than a dispute about any attribute: \emph{perhaps all of this binds only life as we know it}. Grant every rarity verdict about moons, water, and the Cenozoic, the objector says, and some alien observer-class arising by disjoint requirements may still be common --- the rarity of our route saying nothing about theirs. Played defensively, the objection is unbeatable, since the space of proposable alien classes is inexhaustible and every rebuttal bespoke. The framework does not play defensively, because the engine imported in \autoref{sec:principle-import} contains a substitution property that converts the entire objection class into one schema.
+
+The property is read off the derivation at the source \cite{NexicFoundation}, and the derivation consumes two facts, not one. The derivation used: that the conditioning target $H$ is entailed by the reasoner's own state; and that the reasoner's realized attributes are draws from the \emph{target-tilted} weighting. For a substituted rung $H^{+}$, the first transfers for free --- every ancestor is entailed as $H$ is --- but the second does not: the reasoner's realizations remain $H$-tilted, and conditioning on $H$ is strictly stronger than conditioning on $H^{+}$. The seat is therefore free at the price of one license.
+
+\begin{principle}[Substitution Property, imported]
+\label{prin:substitution}
+For any parent attribute-cluster $H^{+}$ of the reasoner's own state --- worlds bearing liquid water, worlds in which the Cenozoic occurs, as readily as observer-production itself --- suppose \emph{rung-screening} holds at the interrogated crossroads: observer-production bears on the attribute $A$ only through bearing on $H^{+}$. Then the $H$-tilted and $H^{+}$-tilted draws coincide there, and the constraint of \autoref{prin:accordance-imported} holds with $H^{+}$ in the conditioning seat: for any attribute $A$ upstream of $H^{+}$'s settlement,
+\begin{equation}
+\label{eq:substituted}
+\frac{P(H^{+} \mid A')}{P(H^{+} \mid A)} \;\lesssim\; \frac{P(A)}{1 - P(A)},
+\end{equation}
+with the identical exceedance bound and the identical standing-license structure, the derivation running verbatim with $H^{+}$ read for $H$ under the license \cite{Nexus}. Inherited disciplines: interrogated attributes upstream of $H^{+}$'s settlement; each rung's conclusions carrying the same tier grades as their $H$-level counterparts.
+\end{principle}
+
+Rung-screening, which excludes the case that breaks naive substitution, is stated with the property at its source \cite{NexicFoundation}.
+
+
+
+The tower of rarity the license pays for, one result at each rung of our ancestry, is the Copernican companion's rarity argument and is developed there \cite{Nexus}.
+
+
+
+The sweep is what the property does to the objection. Any proposed alternative observer-class $O$, to function as an objection at all, must be specified richly enough to count as an observer-class arising in this universe --- and any such specification shares prerequisite ground with our record at some rung $H^{+}_{O}$: a stellar environment, a chemistry, a stable structured medium, an energy gradient; the more exotic the proposal, the more abstract the shared rung, but never none. Running \eqref{eq:substituted} at $H^{+}_{O}$, over $H^{+}_{O}$'s own upstream attributes, delivers the suppressed abundance of $H^{+}_{O}$-bearing worlds, and since $O$ requires $H^{+}_{O}$, inclusion bounds the rest: $P(O\text{-bearing}) \le P(H^{+}_{O}\text{-bearing})$. The rarity conclusion binds $O$ with no premise about $O$'s internal requirements beyond the shared rung. And the logical character is the point: the move is deliberately non-constructive, in the family of the axiom of choice --- one does not rebut each proposed $O$ bespoke, which is an endless defense against an inexhaustible space; one formalizes once that such common ground always exists, and reasons from the schematic existence to a uniform method. A worked instance fixes the procedure. Ask whether Titan bears methane-based life in place of water-based: the common-ground cluster $H^{+}_{O}$ is the last Aethus our own state shares with that hypothetical one---everything up to and including the chemistry, the stellar and planetary formation, and the volatile inventory either route requires---and $A'$ is taken as the attribute of deviation, methane in place of water. The substituted principle runs at $H^{+}_{O}$ over the attributes upstream of that shared rung, and the inclusion bound carries the suppression to the methane route with no premise about what methane-based biochemistry would require: the alternative class is located on the tree rather than argued against on its chemistry, and the rarity established above the branch point binds it there. The framework does not answer ``but what about silicon life?''; it answers ``but what about \emph{any} life?'', in advance.
+
+Three calibrations bound the sweep, compressed here from the source. The bound's strength tracks the \emph{depth} of the shared rung --- rich proposals (and every proposal actually posed is rich: planets, solvents, stellar environments) share deep ground and inherit strong bounds, maximally exotic ones share abstract ground and inherit weaker but still quantified ones; what no proposal inherits is exemption. The refuse-to-specify escape fails from both sides: an unarticulated $O$ is not an objection, and the moment specification begins, the Nameability machinery of \autoref{sec:landscape-nameability} independently applies. And the schema bounds \emph{abundance}, never existence: the inclusion bound suppresses and never zeroes, in keeping with the standing nonzero-weight commitment. The sweep's own premise --- that substantive common ground exists for every articulable $O$ --- is thereby the one new commitment this subsection adds, and it is entered in the ledger of \autoref{sec:rerendition-ledger} as such.
+
+
+\section{The re-rendition}
+\label{sec:rerendition}
+This is where the paradigm is cashed out. The apparatus of the preceding sections was built to do one thing --- read Earth's natural history differently --- and the three consequences previewed in \autoref{sec:intro} are now discharged one by one, each in the same three beats: the received reading, the named premise that forces the change, and the procedural consequence, meaning what an inquirer actually does differently once the change is granted. The three are discharged together in \autoref{sec:rerendition-tally}: the Great Filter's ``how many steps'' becomes malformed, the ``why so finely suited'' question inverts, and the multiplicity intuition reverses. Nothing below is a new empirical claim; each is a structural entailment of what has already been established, and the empirical program the entailments invite is fenced to the placement section that follows.
+
+\subsection{From tally to closure, in one statement}\label{sec:rerendition-tally}
+
+The received reading, in its Carter form, treats a natural history as a list of independent lucky draws and asks how many there were and where the severe one sits; the environmental-permissiveness alternative of Mills and colleagues \cite{mills2025hardsteps} already drops the independence, and what the present paper adds against both is the coupling's probabilistic form, not the dropping of independence as such. Five statements carry the re-rendition and none of them is stronger than the theorem. First, dependencies prevent naive atom-counting: the record's improbabilities form one coupled set, so no product of separable factors is a tally of them. Second, the theorem is a concentration result under explicit assumptions, diffuse log-odds, cumulative suppression and admissible partitions, and the conditional concentration of observer-weighted mass on the realized cell is what it establishes. Third, mass dominance is not maximal productivity: the realized cell carrying most of $P(A \mid H)$ does not make it the maximizer of $P(H \mid A)$, the two quantities being related by Bayes' rule and their maxima not interchangeable. Fourth, concentration does not by itself establish low absolute observer abundance, which needs the separate rarity premise the Copernican companion owns. Fifth, nothing here introduces a force seeking an optimum: ``optimal'' names the realized cell's standing under the observer-conditioned weighting, not a tendency of histories toward it. The extended treatments, from tally to closure, from improbable to optimal and from common to isolated, is developed in the companion \cite{Nexus}.
+
+\subsection{What the paradigm costs and what it buys}
+\label{sec:rerendition-ledger}
+The paradigm's principal accounting claim is that it states the cost of everything, so the closing accounting is a ledger rather than a summary. It is stated in two columns. The costs are enumerated with each item's grade and, since a stated cost that could never be wrong is not a cost but a decoration, each item's falsifier --- the thing whose exhibition would break it. The buys follow.
+
+\paragraph{Costs.} Nine load-bearing commitments, no more, and their grades are not uniform. The last three are the coupling pillar's, bought when the closure was formalized in \autoref{sec:coupling-closure}.
+\begin{enumerate}
+    \item \emph{The Copernican draw} (\autoref{prin:draw-imported}) --- \textbf{exposed postulate}, the foundation's one probabilistic postulate, stated with both halves named: the forward half (realized values distributed by parent-conditional weights) and the reflexive half (one's own situation distributed by the observer-conditioned weighting --- the indexical commitment declared at \autoref{sec:principle-import}). \emph{Falsifier:} none operational; this is the framework's axiological choice point, exposed as such. A reader declining only the reflexive half forfeits the held-sample anchoring while the forward constraint survives --- the one partial rejection the postulate's statement admits. Staking everything on one named postulate rather than diffusing the risk across many.
+    \item \emph{The High-Contrast Earth Hypothesis} (\autoref{conj:hceh}) --- \textbf{conjecture-grade}, motivated by multiplicative statistics but not derived, and the exposure the whole result's magnitude rests on. The paper's thesis is best stated in two halves, since the second is where a reader should spend their time: \emph{here is the theorem that follows if natural-history landscapes have High-Contrast geometry, and here is why that geometry is an empirically meaningful conjecture rather than an auxiliary technical assumption}. The hypothesis is not a device for making the collapse go through; it is the paper's substantive claim about the shape of the space of alternative histories, it is stated in a form strong enough to be wrong, and the falsifiers named below say what would refute it. Its two numbers are not free parameters: the contrast spread $M$ and the placement range $W$ are spreads of the depths at which constructions land, and \autoref{sec:landing-depths} derives both from one hypothesis on those depths and says what measuring them requires. Four things are worth holding apart throughout, since the prose is confident and a hurried reader can run them together: \textbf{(A)} the \emph{theorem}---given the premises, the collapse follows; \textbf{(B)} the \emph{structural hypothesis}---that the natural-history landscape actually has those properties; \textbf{(C)} the \emph{empirical question}---whether real records exhibit the predicted coupling and contrast; and \textbf{(D)} the \emph{interpretation}---whether ``optimal'' is the right word for the resulting concentration. This paper establishes (A), conjectures (B), proposes tests for (C), and argues (D). The program's architecture can be drawn in one line with the grade changing at this item: mediocrity as one inequality $\to$ the Aethic Copernican Draw $\to$ the Accordance Principle $\to$ the rarity bound $\to$ Rare Earth, the first two arrows theorems given the draw and the last conditional on the foundation's stated statistical antecedent, (I1)--(I3) and the extensibility premise; and then, past this conjecture, the High-Contrast Earth Hypothesis $\to$ coupled improbability $\to$ the optimal Aethus. The Rare Earth conclusion is reached before the conjecture is assumed and does not depend on it; what the conjecture adds is not the rarity but its \emph{structure}---that the improbable features of an observer-bearing record form a coupled set at an isolated optimum rather than a tally of separately assessed accidents---and that is the claim this paper is for. The durable part of that claim is the weaker one, and it should be separable from the dramatic one: \emph{a natural history is to be represented as a coupled constraint structure rather than as a product of separately assessed improbable events}. That thesis is the tally-to-closure move, it survives a reader who declines the High-Contrast Earth Hypothesis, and the Optimal-Earth conjecture is what it yields when a particular landscape geometry is applied to it. Its role in the collapse is precise and worth stating in the ledger: it is not one of the lemma's assumptions but the \emph{discharger of the lemma's condition} \eqref{eq:collapse-condition}, so its failure does not falsify the collapse --- it \emph{empties} it, leaving the excess factor free to be large. \emph{Falsifier (operational):} a natural domain with the right correlation structure whose \emph{middle is populated} --- the missing-middle test of \autoref{sec:contrast-binary}. A merely ``measured low-contrast pair'' is not operational, since measuring two success-intersections against each other is precisely the capability the paradigm says no one has; the missing-middle test asks instead for a populated intermediate regime where the Hypothesis predicts none, which is checkable. \emph{Second falsifier, same test underneath:} an established convergentist result --- a demonstration that some class of observer-relevant attributes is one evolution reliably routes around --- exhibits such a populated middle, since those attributes would be backbone-correlated and yet low-contrast. \autoref{sec:placement} states this dependency in the contingency literature's own terms; a reader who meets the ledger first should know that an entire literature bears on this item, and not only a hypothetical natural domain.
+    \item \emph{Product structure with cumulative suppression} (\autoref{sec:landscape-collapse}) --- \textbf{assumption of the collapse lemma}, in two halves. \emph{Falsifiers, sorted:} a \emph{plateau} where the paradigm claims a peak breaks the weight half, cumulative suppression, while an alternative space \emph{resisting the product form} breaks the cardinality half; \emph{saturation} --- the first perturbation costing everything and later ones free --- breaks the cumulative-suppression half. All three falsify \eqref{eq:sum-collapse} outright, and they are distinct checkable failure modes rather than one worry named three ways.
+    \item \emph{Lineage-screening} (\autoref{sec:principle-import}) --- \textbf{standing license}, in force wherever the paper writes a probability without its parent state, which is everywhere, and instantiated separately at the $H$-level and at each rung of the substitution tower. \emph{Falsifier:} a demonstration that a branch bears on which particular parent state was yours by some route \emph{not} passing through observer-production.
+    \item \emph{Rung-screening} (\autoref{sec:oec-sweep}) --- \textbf{license}, the substitution's own, flagged per rung and per attribute, its cost set by the paper's own thesis. \emph{Falsifier:} an exhibited bypass channel of the snow-line type --- an attribute upstream of a tower rung that is observer-favorable through a route not passing through that rung.
+    \item \emph{The common-ground existence premise} (\autoref{sec:oec-sweep}) --- \textbf{schema premise}, graded by rung depth. \emph{Falsifier:} an articulated alternative observer-class provably sharing \emph{no} non-outwardly-insignificant prerequisite with our own record.
+    \item \emph{The grade of forcing} (\autoref{def:propagation-operator}) --- \textbf{envelope premise}, per-step with stated, summable tails, the same reconciliation premise D already carries. \emph{Falsifier:} a propagation step whose exceedance is unpriceable, or not summable on a concrete record.
+    \item \emph{Uniform counterfactual forcing} (\autoref{def:propagation-operator}) --- \textbf{premise}, that propagation means fiberwise forcing under every $K$-consistent root assignment rather than the actual one alone. \emph{Falsifier:} exhibit a root perturbation under which a previously propagated label comes unforced --- whereupon that label reclassifies as a fresh root and the count charges for it.
+    \item \emph{Working finiteness} (\autoref{def:propagation-operator}) --- \textbf{premise}, mildest of the nine: a concrete record carries finitely many labeled attributes. \emph{Falsifier:} a concrete record demanding infinitely many labels --- noted as near-definitional, and flagged as such rather than as a live risk.
+\end{enumerate}
+Three accounting notes close the column. First, the grading split imported with the Spark ontology (\autoref{sec:landscape-nameability}) is restated in the ledger's own terms, because it governs what all nine costs are costs \emph{of}: what is unconditional is the possession of one realized Aethus in full --- that we hold a complete natural-historical record is not in question --- while everything the re-rendition says about that record's \emph{optimality} is conditional, inheriting its grade from the Hypothesis and not from the theorems. The re-rendition is as secure as \autoref{conj:hceh}, and no rhetorical weight anywhere in the paper is permitted to exceed that. Second, what the coupling pillar's three purchases return is entered here as well, since a ledger that lists costs without their yield is only half an accounting: the Miracle-set as a closure, the statistical discipline owed once per root plus a stated tail, a free dimension of $r$, the mass collapsed by the root-form condition at a per-root toll of at least $c_{\mathrm{eff}}$, and the dust controlled by the retained full-product condition. Third, the substitution tower has a license-free fallback --- each rung's rarity restated conditional on observer-production --- but the \emph{sweep} does not: its inclusion bound consumes an unconditional suppression of the shared rung, which the observer-conditional fallback cannot supply, so the sweep rests on rung-screening with no fallback, and the ledger records it there rather than letting the tower's fallback appear to cover both.
+
+\paragraph{Buys.} Against those nine, the paradigm returns what the received reading cannot. Coupling becomes an asset rather than a liability: the debt structure that looked like a multiplication of exposures is what exempts the cascade from atom-counting and lets $n$ run over roots. The in/out test for attributes (\autoref{sec:contrast-binary}) is decidable, where the received reading's ``which steps count'' is not. The record is analyzable from inside at zero constructive cost --- the held sample, possessed rather than computed --- where constructing a near-optimal history from outside is cosmically infeasible. The reference-class relocation dissolves the multiplicity worry that the received reading cannot escape, since the alternatives that proliferate are the ones the collapse shows contribute nothing. And Earth's natural history becomes a single coupled object with one narrative, rather than a tally of separately assessed factors whose product invites the very bookkeeping-versus-nature dispute the received reading is stuck in.
+
+\textit{One positive expectation.} One entry in this column is a positive expectation rather than a dissolution, and it is entered deliberately, since a paradigm whose entire return is relief from other people's worries is answerable to nothing. On the received reading a record's improbable features are separate accidents, each assessed given the ones before it, so whatever correlations hold among them enter as given conditionals and none is predicted; on the closure reading they are entailed by one another through the backbone of \autoref{sec:contrast-binary}, so a record's Miracle-grade attributes should be found sitting in a network of structural relationships rather than a list --- each constraining and constrained by the others, the correlations discoverable rather than stipulated. That is something the record can confirm or embarrass, and it is entered here as an expectation and not a result: \autoref{sec:placement} states it among the commitments a program would inherit, and establishing it is that program's work rather than this paper's \cite{Nexus}. The trade the ledger records is therefore one exposed postulate, one conjecture-grade hypothesis, and seven stated licenses, premises, and assumptions, bought for a re-rendition of the whole record --- and the paradigm's claim is only that this is a better trade than a tally of many independent improbabilities each taken on faith, not that it is a trade free of cost.
+
+
+\noindent\textit{The same computation in ordinary probability.} Take one binary attribute whose rare member has prior $p = 0.01$ and an observer-productivity ratio of $200$ to its complement. Read in ordinary probability, with the observer event an event of the sample space, Bayes's rule gives the observer-conditioned probability of the rare member as $0.01 \cdot 200 / (0.01 \cdot 200 + 0.99) = 2/2.99 \approx 0.669$. Read in the framework, with the observer's information state as the index and the declared class of alternative histories as the reference space, the same weighting gives the same number, and so does every step of the main theorem's proof, which uses only the union bound, a product bound and an exponential inequality. The numbers do not distinguish the readings, and the paper does not claim that elementary probability requires the ontology. The framework's contribution lies before the arithmetic: in which alternatives are admitted to the reference space, in reading the observer conditioning as indexing rather than as an added selection effect, and in organizing the couplings among attributes as constraint propagation, which is what licenses treating several improbabilities as one structure rather than as independent draws.
+
+\subsection{Optimization settling: the concentration results in the action's units}\label{sec:action-units}
+
+The action formalism, with the Golden action $\mathcal{A} = -\ln P(\text{route})$, accordance as least action within $\ln(1+\kappa)$, the pacing instance with its optimal $t_0$ and window width, the momentum $p = dA^*/d\mu$ with its stiffness and pull, and the Hamilton--Jacobi and large-deviation readings, is developed in the companion \cite{Nexus}; here only the settling-point statement is used, that the least-action value is the settling point, the realized value lying within the tolerance under the weak form and at it under the strong, and the conservation question is left as the Noether question the companion names.
+
+
+\section{Placement, the rarity clause, and the fence}\label{sec:placement}
+
+The placement of the paradigm against the rarity literature is the Copernican companion's \cite{Nexus} and is only summarized. Against the Great Filter \cite{hanson1998greatfilter} the paper supplies an abductive bound in place of a filter location; against Carter's hard-steps model \cite{carter1983anthropic} and its live challenge \cite{mills2025hardsteps} it supplies the coupling's probabilistic form rather than a count of steps, the accounts not being everywhere exclusive; against observation-selection theory it reverses the direction of inference, from realized improbability to observer-relevance, and declines the completed timeline as the object of reasoning; and Kipping's placement is stated from his published position rather than the objection's popular form. The rarity clause, that concentration together with a separate rarity premise yields low absolute abundance, is the Copernican companion's theorem and not this paper's. Three are worth naming. First, \emph{the coupling should show up as correlation}. The detection principle imported in \autoref{sec:principle-import} says that disagreement between the cosmic and observer-conditioned weightings diagnoses dependence on observer-production; run forward across a record, that commits a program to finding such dependence systematically, and to finding it between attributes that the conventional division of labor studies separately --- atmospheric, orbital, geological, evolutionary. Two claims must be kept apart here. A change between the cosmic and observer-conditioned probabilities of an attribute diagnoses its association with observer-production, and that needs no dependence among attributes: two attributes can be independent under observer-conditioning while each is strongly associated with it, each at probability $0.9$ given observers, say, independently, and $0.5$ unconditionally. Dependence among attributes is an additional claim, about coupling, and it is that claim the prediction concerns. The commitment is risky in the way a commitment should be: if the attributes a record labels improbable turn out statistically independent under the observer-conditioning, the proposed prediction of dependence among those attributes under observer-conditioning is unsupported, even where the detection principle still registers each attribute's association with observer-production; independence under that particular conditioning would not by itself establish the absence of structural coupling, or of dependence under other conditions. Second, \emph{the record should carry unrecognized significance}. Because the constraint runs from an attribute's prior improbability to its observer-relevance rather than the reverse, a predeclared binary attribute is, at the modality of \eqref{eq:accordance} and jointly over landscape and realization, unlikely to have been realized on a greatly outweighed side. That guarantee does not transfer to an attribute identified as rare after the record is read: conditional on having realized a rare side, no such bound follows, and a model satisfying every premise shows why. Let the side's predeclared prior be $p = 1/(1 + 10^{2M})$ and its log productivity ratio $R$ uniform on $[-M, M]$; the observer-conditioned log odds are $S = R + \log_{10}(p/(1-p)) = R - 2M \in [-3M, -M]$, so the side is the minority under the observer-conditioned weighting whenever it is realized, while the joint guarantee holds because it is almost never realized. A rare feature noticed in the record is therefore not, by the display, more likely than not observer-relevant; the retrospective applications of this section are prospective guarantees for the declared sampling experiment, and a claim about the realized feature itself requires a conditional analysis that the display does not supply. A record in which improbable features were routinely inconsequential would not refute the lemma, but it would leave the re-rendition with nothing to read. Third, and more a relocation than a prediction, \emph{the fine-tuning question moves}. The tuning that this paradigm finds remarkable is not a constant of nature but a natural history: the object claimed to occupy a narrow optimum is the whole coupled record, and the account offered of how it got there is eliminative rather than teleological --- a filter that reweights, in the sense fixed at \autoref{sec:landscape-imd}, with no maker anywhere in the machinery.
+
+The fence is stated hard: this paper stops at the conditional concentration result, the conjecture that its assumptions apply to natural history, and one illustrative application setup with its inputs graded; the three predictions the paradigm makes beyond the fence, that the coupling should show up as correlation, that the realized cell's neighbors should be observer-poor, and that a predeclared scan should flag at the exceedance rate, are stated as the companion's, each with its own protocol.
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+One move has been made in this paper, and it is worth stating in a single sentence before it is left with the reader. Under the stated landscape and sampling assumptions, the results identify conditions under which a realized natural-history cell carries most of the observer-conditioned mass; whether natural histories satisfy those conditions remains the empirical conjecture. Where they do, a natural history that looked like a sequence of lucky accidents is one coupled object, with the luck relocated, not explained away.
+
+Everything the paper claims follows from that move and inherits its grade. The coupling makes Earth's record one object rather than a list; the contrast and the collapse would make that object effectively alone in its neighborhood if their hypotheses held, which the spreads presently estimable do not certify; the substitution tower carries the same reading to every rung of our ancestry, so that the result binds any articulable observer-class rather than life as we happen to know it. What was fenced remains fenced: the natural-historical program the re-rendition invites --- the specific bounds, the specific predictions --- belongs to the companion development, and this paper claims the paradigm, its derivation, and the conditional reading of the record it supports, and nothing beyond.
+
+The relocation is the point worth ending on. Rare Earth, on the received picture, is a claim about \emph{our} improbability --- a tally of lucky steps whose product is small, inviting the endless dispute over whether the smallness is a fact about nature or an artifact of bookkeeping. On the present reading it is not a claim about us at all. It is a claim about the \emph{geometry of the space of alternatives}: that the landscape of possible natural histories is one in which the observer-bearing region is a peak rather than a plateau, and that any observer, anywhere in such a landscape, finds themselves at a peak of it for the same reason we do --- a claim the substitution sweep of \autoref{sec:oec-sweep} extends past our own observer-class to every articulable one, and which the reflexive reading of the draw is what makes general rather than parochial. Earth is not the improbable thing. The shape of the space is.
+
+\paragraph{Where the program stands.} The inputs the companion catalog now supplies would bound the probability that a biosphere reaches observers at about $0.08$ at $95\%$ confidence, from five attributes, if the five figures were ceilings on conditional probabilities under one per-history measure and the attributes had been selected independently of the outcome; none yet meets that standard, the status table of the Copernican companion recording where each falls short \cite{NexicFoundation}. The figure is a conditional benchmark of the rule's reach at inputs of that size, which is the reading of Earth figures as illustrations that this paper's methodological passage gives, and it should also be read against where the program sits. The literature prices categorical attributes, the kinds of star, moon and architecture the surveys were built to count, while the contingent reads that this paper's landscape turns on exist only where a group happened to ask a question of the right shape for its own reasons. The catalog of inputs, the computations they would enable and the predictions beyond the fence are the companion's \cite{Nexus}.
+
+
+
+
+\section*{Provenance}
+
+\noindent The restatement of the concentration results in the action's units, with the competing-directions principle, follows the author's note of 2026-10-03, quoted verbatim in the long Nexic paper; the mechanical vocabulary is the author's and is kept at the grade of an analogy.
+
+\printbibliography
+\end{document}

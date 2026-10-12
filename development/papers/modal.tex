@@ -1,0 +1,739 @@
+% >>> PROPAGATION (Fable 5, Aug 29 2026): three sites brought current with the corpus's same-day results ---
+% M1 the uniform reading upgraded from convention to consequence (the blankness hierarchy for composites,
+% the product answer space, the coarsening rescue blocked by Decomposition Neutrality); M2 the abstract's
+% grade matched; M3 open problem (2) narrowed by the Aetherian Nexus. See the ledger, R109.
+% ============================================================================
+% EXTRACTION PAPER (philosophy-style): the counterfactual-semantics starter.
+% Drafted by Claude Fable 5, July 2026, per the author's commission --- a
+% working draft for the author's revision. All machinery and results are the
+% author's (sourced from the short paper's Part One and the long paper);
+% genre framing, literature placement, and compression are the drafting AI's.
+% task-object paper is deliberately NOT this paper, per the author's ruling.
+% ============================================================================
+\begin{filecontents}[overwrite]{sem_refs.bib}
+@article{suresh2026counterfactuals,
+  author  = {Kooderi Suresh, Ardra and Frembs, Markus and Cavalcanti, Eric G.},
+  title   = {A semantics for counterfactuals in quantum causal models},
+  journal = {New Journal of Physics},
+  volume  = {28}, pages = {064514}, year = {2026},
+  doi     = {10.1088/1367-2630/ae78f6}
+}
+@article{santorio2019interventions,
+  author  = {Santorio, Paolo},
+  title   = {Interventions in premise semantics},
+  journal = {Philosophers' Imprint},
+  volume  = {19}, number = {1}, year = {2019},
+  }
+@incollection{santorio2025handbook,
+  author  = {Santorio, Paolo},
+  title   = {The Semantics and Logic of Counterfactuals},
+  booktitle = {The Oxford Handbook of Contemporary Philosophy of Language},
+  publisher = {Oxford University Press}, year = {2025},
+  }
+@article{vonprince2025counterfactuality,
+  author  = {von Prince, Kilu},
+  title   = {Counterfactuality and Mood},
+  journal = {Annual Review of Linguistics},
+  volume  = {11}, pages = {163--182}, year = {2025},
+  doi     = {10.1146/annurev-linguistics-011724-121349}
+}
+@article{vonfintel2023xmarking,
+  author  = {von Fintel, Kai and Iatridou, Sabine},
+  title   = {Prolegomena to a theory of {X}-marking},
+  journal = {Linguistics and Philosophy},
+  volume  = {46}, year = {2023},
+  doi     = {10.1007/s10988-023-09390-5}
+}
+@book{lewis1973,
+  author = {Lewis, David},
+  title = {Counterfactuals},
+  publisher = {Harvard University Press},
+  year = {1973}
+}
+@incollection{stalnaker1968,
+  author = {Stalnaker, Robert C.},
+  title = {A Theory of Conditionals},
+  booktitle = {Studies in Logical Theory},
+  publisher = {Blackwell},
+  year = {1968}
+}
+@article{fine2012,
+  author = {Fine, Kit},
+  title = {Counterfactuals without possible worlds},
+  journal = {Journal of Philosophy},
+  volume = {109}, pages = {221--246}, year = {2012}
+}
+@article{lewis1981,
+  author = {Lewis, David},
+  title = {Ordering semantics and premise semantics for counterfactuals},
+  journal = {Journal of Philosophical Logic},
+  volume = {10}, pages = {217--234}, year = {1981}
+}
+@article{lewis1979,
+  author = {Lewis, David},
+  title = {Counterfactual dependence and time's arrow},
+  journal = {No\^us},
+  volume = {13}, pages = {455--476}, year = {1979}
+}
+@article{grove1988,
+  author = {Grove, Adam},
+  title = {Two modellings for theory change},
+  journal = {Journal of Philosophical Logic},
+  volume = {17}, pages = {157--170}, year = {1988}
+}
+@article{agm1985,
+  author = {Alchourr{\'o}n, Carlos E. and G{\"a}rdenfors, Peter and Makinson, David},
+  title = {On the logic of theory change: Partial meet contraction and revision functions},
+  journal = {Journal of Symbolic Logic},
+  volume = {50}, pages = {510--530}, year = {1985}
+}
+@book{kratzer2012modals,
+  author = {Kratzer, Angelika},
+  title = {Modals and Conditionals},
+  publisher = {Oxford University Press},
+  year = {2012}
+}
+% VERIFIED (Fable 5, Aug 2026): standard citation completed from the published volume details.
+@incollection{vonfintel2006,
+  author = {von Fintel, Kai},
+  title = {Modality and Language},
+  booktitle = {Encyclopedia of Philosophy, Second Edition},
+  editor = {Borchert, Donald M.},
+  volume = {10},
+  pages = {20--27},
+  publisher = {MacMillan Reference USA},
+  address = {Detroit},
+  year = {2006}
+}
+@article{gardenfors1986,
+  author = {G{\"a}rdenfors, Peter},
+  title = {Belief revisions and the Ramsey test for conditionals},
+  journal = {The Philosophical Review},
+  volume = {95}, pages = {81--93}, year = {1986}
+}
+@book{adams1975,
+  author = {Adams, Ernest W.},
+  title = {The Logic of Conditionals},
+  publisher = {D. Reidel},
+  year = {1975}
+}
+@book{pearl2009,
+  author = {Pearl, Judea},
+  title = {Causality: Models, Reasoning, and Inference},
+  edition = {2},
+  publisher = {Cambridge University Press},
+  year = {2009}
+}
+@misc{AethusCausality, author={Benander, Ajax}, title={Causality from Indexed Information States: Screening, Intervention, and the {Bell} Obstruction}, year={2026}, howpublished={Preprint}, url={https://philpapers.org/rec/BENCWT-4}}
+
+@article{galles1998axiomatic, author={Galles, David and Pearl, Judea}, title={An Axiomatic Characterization of Causal Counterfactuals}, journal={Foundations of Science}, volume={3}, number={1}, pages={151--182}, year={1998}}
+
+% VERIFIED (Fable 5, Aug 2026): Journal of Semantics 22(2), 159--180 confirmed.
+@inproceedings{winslett1988,
+  author    = {Winslett, Marianne},
+  title     = {Reasoning about action using a possible models approach},
+  booktitle = {Proceedings of the Seventh National Conference on Artificial Intelligence (AAAI-88)},
+  pages     = {89--93},
+  year      = {1988}}
+@inproceedings{katsuno1991,
+  author    = {Katsuno, Hirofumi and Mendelzon, Alberto O.},
+  title     = {On the difference between updating a knowledge base and revising it},
+  booktitle = {Principles of Knowledge Representation and Reasoning: Proceedings of the Second International Conference (KR'91)},
+  pages     = {387--394},
+  year      = {1991}}
+@article{veltman2005,
+  author = {Veltman, Frank},
+  title = {Making counterfactual assumptions},
+  journal = {Journal of Semantics},
+  volume = {22}, number = {2}, pages = {159--180}, year = {2005}
+}
+@article{leitgeb2012a,
+  author = {Leitgeb, Hannes},
+  title = {A Probabilistic Semantics for Counterfactuals. {P}art {A}},
+  journal = {The Review of Symbolic Logic},
+  volume = {5}, pages = {26--84}, year = {2012}
+}
+@article{leitgeb2012b,
+  author = {Leitgeb, Hannes},
+  title = {A Probabilistic Semantics for Counterfactuals. {P}art {B}},
+  journal = {The Review of Symbolic Logic},
+  volume = {5}, pages = {85--121}, year = {2012}
+}
+@article{hansson1994kernel,
+  author = {Hansson, Sven Ove},
+  title = {Kernel contraction},
+  journal = {Journal of Symbolic Logic},
+  volume = {59}, pages = {845--859}, year = {1994}
+}
+@article{alchourron1985safe,
+  author = {Alchourr{\'o}n, Carlos E. and Makinson, David},
+  title = {On the logic of theory change: Safe contraction},
+  journal = {Studia Logica},
+  volume = {44}, pages = {405--422}, year = {1985}
+}
+@book{rott2001change,
+  author = {Rott, Hans},
+  title = {Change, Choice and Inference: A Study of Belief Revision and Nonmonotonic Reasoning},
+  publisher = {Oxford University Press},
+  year = {2001}
+}
+@article{hiddleston2005,
+  author = {Hiddleston, Eric},
+  title = {A causal theory of counterfactuals},
+  journal = {No\^us},
+  volume = {39}, pages = {632--657}, year = {2005}
+}
+@article{schulz2011,
+  author = {Schulz, Katrin},
+  title = {{``If you'd wiggled A, then B would've changed'': Causality and counterfactual conditionals}},
+  journal = {Synthese},
+  volume = {179}, pages = {239--251}, year = {2011}
+}
+@article{ciardelli2018,
+  author = {Ciardelli, Ivano and Zhang, Linmin and Champollion, Lucas},
+  title = {Two switches in the theory of counterfactuals: A study of truth conditionality and minimal change},
+  journal = {Linguistics and Philosophy},
+  volume = {41}, pages = {577--621}, year = {2018}
+}
+@book{kment2014,
+  author = {Kment, Boris},
+  title = {Modality and Explanatory Reasoning},
+  publisher = {Oxford University Press},
+  year = {2014}
+}
+@article{fine1975,
+  author = {Fine, Kit},
+  title = {Critical Notice: Counterfactuals},
+  journal = {Mind},
+  volume = {84}, pages = {451--458}, year = {1975}
+}
+% VERIFIED (Fable 5, Aug 2026, by search): PhilPapers dates the record 2014 (HJEMCA);
+% current literature cites later drafts as ``Ms., ANU'' --- if a newer version is consulted
+% at submission, update the year to match that draft.
+@unpublished{hajekMS,
+  author = {H{\'a}jek, Alan},
+  title = {Most Counterfactuals Are False},
+  note = {Manuscript, Australian National University; archived at PhilArchive, record HJEMCA},
+  year = {2014}
+}
+@article{kraus1990,
+  author = {Kraus, Sarit and Lehmann, Daniel and Magidor, Menachem},
+  title = {Nonmonotonic reasoning, preferential models and cumulative logics},
+  journal = {Artificial Intelligence},
+  volume = {44}, pages = {167--207}, year = {1990}
+}
+@article{lehmann1992,
+  author = {Lehmann, Daniel and Magidor, Menachem},
+  title = {What does a conditional knowledge base entail?},
+  journal = {Artificial Intelligence},
+  volume = {55}, pages = {1--60}, year = {1992}
+}
+@incollection{nozick1969newcomb,
+  author    = {Nozick, Robert},
+  title     = {Newcomb's Problem and Two Principles of Choice},
+  booktitle = {Essays in Honor of Carl G. Hempel},
+  editor    = {Rescher, Nicholas},
+  publisher = {D. Reidel},
+  address   = {Dordrecht},
+  year      = {1969},
+  pages     = {114--146}
+}
+% VERIFIED previously against newcomb_citations.bib (Rescher volume, Reidel, pp. 114--146).
+@misc{AethusTree, author={Benander, Ajax}, title={The Weight Algebra of Aethae: A Two-Layer Commutative Semiring for Superposition and Pruning}, year={2026}, howpublished={Preprint}, url={https://philpapers.org/rec/BENTWA-5}}
+@misc{AethusRealist, author={Benander, Ajax}, title={Determinacy as a Two-Place Relation: The Category Mistake in Quantum Interpretation, and the Dissolution of the Paradox Set}, year={2026}, howpublished={Preprint}, url={https://philpapers.org/rec/BENTRO-72}}
+@misc{Aethus, howpublished={Manuscript}, author={Benander, Ajax}, title={Aethic Reasoning: A Comprehensive Solution to the Quantum Measurement Problem}, year={2024}, month = {11}, url={https://philpapers.org/rec/BENARA-5}, eprint={https://philsci-archive.pitt.edu/id/eprint/25713}, eprinttype={Alternative URL}, note={Manuscript; the complete development of the framework, successive deposits November 2024--2026}}
+@misc{AethusBrief, author={Benander, Ajax}, title={Aethic Reasoning in Brief: From a Counterfactual Semantics to the Quantum Measurement Problem}, year={2026}, howpublished={Preprint}, url={https://philpapers.org/rec/BENARI-3}, eprint={https://philsci-archive.pitt.edu/id/eprint/30439}, eprinttype={Alternative URL}}
+% VERIFY (Fable 5, August 26, 2026): the language/cognition entries below entered from working
+% knowledge for the expanded etiology; confirm details at submission.
+@book{bybee1994evolution,
+  author = {Bybee, Joan and Perkins, Revere and Pagliuca, William},
+  title = {The Evolution of Grammar: Tense, Aspect, and Modality in the Languages of the World},
+  publisher = {University of Chicago Press}, year = {1994}}
+@book{palmer2001mood,
+  author = {Palmer, F. R.},
+  title = {Mood and Modality}, edition = {2},
+  publisher = {Cambridge University Press}, year = {2001}}
+@article{hockett1960origin,
+  author = {Hockett, Charles F.},
+  title = {The Origin of Speech},
+  journal = {Scientific American}, volume = {203}, number = {3}, pages = {88--96}, year = {1960}}
+@book{aikhenvald2004evidentiality,
+  author = {Aikhenvald, Alexandra Y.},
+  title = {Evidentiality},
+  publisher = {Oxford University Press}, year = {2004}}
+@article{delancey1997mirativity,
+  author = {DeLancey, Scott},
+  title = {Mirativity: The grammatical marking of unexpected information},
+  journal = {Linguistic Typology}, volume = {1}, number = {1}, pages = {33--52}, year = {1997}}
+@book{floyd2018egophoricity,
+  editor = {Floyd, Simeon and Norcliffe, Elisabeth and San Roque, Lila},
+  title = {Egophoricity},
+  publisher = {John Benjamins}, year = {2018}}
+@article{evans2018engagement,
+  author = {Evans, Nicholas and Bergqvist, Henrik and San Roque, Lila},
+  title = {The grammar of engagement I: framework and initial exemplification},
+  journal = {Language and Cognition}, volume = {10}, number = {1}, pages = {110--140}, year = {2018}}
+@incollection{nichols1988alienable,
+  author = {Nichols, Johanna},
+  title = {On alienable and inalienable possession},
+  booktitle = {In Honor of Mary Haas}, editor = {Shipley, William},
+  publisher = {Mouton de Gruyter}, pages = {557--609}, year = {1988}}
+@book{davidson2001subjective,
+  author = {Davidson, Donald},
+  title = {Subjective, Intersubjective, Objective},
+  publisher = {Oxford University Press}, year = {2001}}
+@article{tomasello2005shared,
+  author = {Tomasello, Michael and Carpenter, Malinda and Call, Josep and Behne, Tanya and Moll, Henrike},
+  title = {Understanding and sharing intentions: The origins of cultural cognition},
+  journal = {Behavioral and Brain Sciences}, volume = {28}, number = {5}, pages = {675--691}, year = {2005}}
+@article{csibra2009natural,
+  author = {Csibra, Gergely and Gergely, Gy{\"o}rgy},
+  title = {Natural pedagogy},
+  journal = {Trends in Cognitive Sciences}, volume = {13}, number = {4}, pages = {148--153}, year = {2009}}
+@book{clark1996using,
+  author = {Clark, Herbert H.},
+  title = {Using Language},
+  publisher = {Cambridge University Press}, year = {1996}}
+@book{lewis1969convention,
+  author = {Lewis, David},
+  title = {Convention: A Philosophical Study},
+  publisher = {Harvard University Press}, year = {1969}}
+@book{boyd1985culture,
+  author = {Boyd, Robert and Richerson, Peter J.},
+  title = {Culture and the Evolutionary Process},
+  publisher = {University of Chicago Press}, year = {1985}}
+@article{hoffman2015interface,
+  author = {Hoffman, Donald D. and Singh, Manish and Prakash, Chetan},
+  title = {The interface theory of perception},
+  journal = {Psychonomic Bulletin \& Review}, volume = {22}, number = {6}, pages = {1480--1506}, year = {2015}}
+@book{zipf1949human,
+  author = {Zipf, George Kingsley},
+  title = {Human Behavior and the Principle of Least Effort},
+  publisher = {Addison-Wesley}, year = {1949}}
+@article{gibson2019efficiency,
+  author = {Gibson, Edward and Futrell, Richard and Piantadosi, Steven P. and Dautriche, Isabelle and Mahowald, Kyle and Bergen, Leon and Levy, Roger},
+  title = {How efficiency shapes human language},
+  journal = {Trends in Cognitive Sciences}, volume = {23}, number = {5}, pages = {389--407}, year = {2019}}
+@book{hawkins2004efficiency,
+  author = {Hawkins, John A.},
+  title = {Efficiency and Complexity in Grammars},
+  publisher = {Oxford University Press}, year = {2004}}
+@article{wimmer1983beliefs,
+  author = {Wimmer, Heinz and Perner, Josef},
+  title = {Beliefs about beliefs: Representation and constraining function of wrong beliefs in young children's understanding of deception},
+  journal = {Cognition}, volume = {13}, number = {1}, pages = {103--128}, year = {1983}}
+@article{birch2007curse,
+  author = {Birch, Susan A. J. and Bloom, Paul},
+  title = {The curse of knowledge in reasoning about false beliefs},
+  journal = {Psychological Science}, volume = {18}, number = {5}, pages = {382--386}, year = {2007}}
+@article{nieuwland2012real,
+  author = {Nieuwland, Mante S. and Martin, Andrea E.},
+  title = {If the real world were irrelevant, so to speak: The role of propositional truth-value in counterfactual sentence comprehension},
+  journal = {Cognition}, volume = {122}, number = {1}, pages = {102--109}, year = {2012}}
+@article{ferguson2008anomalies,
+  author = {Ferguson, Heather J. and Sanford, Anthony J.},
+  title = {Anomalies in real and counterfactual worlds: An eye-movement investigation},
+  journal = {Journal of Memory and Language}, volume = {58}, number = {3}, pages = {609--626}, year = {2008}}
+@article{santamaria2005counterfactual,
+  author = {Santamar{\'i}a, Carlos and Espino, Orlando and Byrne, Ruth M. J.},
+  title = {Counterfactual and semifactual conditionals prime alternative possibilities},
+  journal = {Journal of Experimental Psychology: Learning, Memory, and Cognition}, volume = {31}, number = {5}, pages = {1149--1154}, year = {2005}}
+@book{byrne2005rational,
+  author = {Byrne, Ruth M. J.},
+  title = {The Rational Imagination: How People Create Alternatives to Reality},
+  publisher = {MIT Press}, year = {2005}}
+@article{kulakova2016understanding,
+  author = {Kulakova, Eugenia and Nieuwland, Mante S.},
+  title = {Understanding counterfactuality: A review of experimental evidence for the dual meaning of counterfactuals},
+  journal = {Language and Linguistics Compass}, volume = {10}, number = {2}, pages = {49--65}, year = {2016}}
+@article{leslie1987pretense,
+  author = {Leslie, Alan M.},
+  title = {Pretense and representation: The origins of ``theory of mind''},
+  journal = {Psychological Review}, volume = {94}, number = {4}, pages = {412--426}, year = {1987}}
+@incollection{stalnaker1978assertion,
+  author = {Stalnaker, Robert},
+  title = {Assertion},
+  booktitle = {Syntax and Semantics 9: Pragmatics}, editor = {Cole, Peter},
+  publisher = {Academic Press}, pages = {315--332}, year = {1978}}
+@incollection{ramsey1929general,
+  author = {Ramsey, Frank P.},
+  title = {General Propositions and Causality},
+  booktitle = {The Foundations of Mathematics and Other Logical Essays},
+  publisher = {Routledge}, year = {1931}, note = {Written 1929}}
+@book{gardenfors1988knowledge,
+  author = {G{\"a}rdenfors, Peter},
+  title = {Knowledge in Flux: Modeling the Dynamics of Epistemic States},
+  publisher = {MIT Press}, year = {1988}}
+% VERIFY (Fable 5, August 26, 2026): six entries below added for the referee revision; details
+% entered from working knowledge --- confirm at submission.
+@article{lewis1976,
+  author = {Lewis, David},
+  title = {Probabilities of Conditionals and Conditional Probabilities},
+  journal = {The Philosophical Review}, volume = {85}, number = {3}, pages = {297--315}, year = {1976}}
+@article{gardenfors1982,
+  author = {G{\"a}rdenfors, Peter},
+  title = {Imaging and Conditionalization},
+  journal = {The Journal of Philosophy}, volume = {79}, number = {12}, pages = {747--760}, year = {1982}}
+@book{bloom1981,
+  author = {Bloom, Alfred H.},
+  title = {The Linguistic Shaping of Thought: A Study in the Impact of Language on Thinking in China and the West},
+  publisher = {Lawrence Erlbaum}, year = {1981}}
+@article{au1983,
+  author = {Au, Terry Kit-fong},
+  title = {Chinese and English counterfactuals: The Sapir--Whorf hypothesis revisited},
+  journal = {Cognition}, volume = {15}, number = {1--3}, pages = {155--187}, year = {1983}}
+@article{onishi2005,
+  author = {Onishi, Kristine H. and Baillargeon, Ren{\'e}e},
+  title = {Do 15-Month-Old Infants Understand False Beliefs?},
+  journal = {Science}, volume = {308}, number = {5719}, pages = {255--258}, year = {2005}}
+@article{krupenye2016,
+  author = {Krupenye, Christopher and Kano, Fumihiro and Hirata, Satoshi and Call, Josep and Tomasello, Michael},
+  title = {Great apes anticipate that other individuals will act according to false beliefs},
+  journal = {Science}, volume = {354}, number = {6308}, pages = {110--114}, year = {2016}}
+
+@misc{GoldenScience2022,
+  author       = {Benander, Ajax},
+  title        = {Golden Science},
+  year         = {2022},
+  month        = {November},
+  howpublished = {Self-hosted manuscript},
+  url          = {https://aethus.org/aethic-code/files/GoldenScience_Nov2022.pdf},
+  note         = {Title page August 2022, the date of the first version of the source; this version created November 2022. Not deposited to a
+                  preprint server; cited as a dated developmental record rather than
+                  as a source of results.}
+}
+\end{filecontents}
+
+\documentclass[11pt]{article}
+\usepackage[margin=1.05in]{geometry}
+\usepackage{amsmath, amssymb, amsthm}
+\newtheorem{definition}{Definition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proposition}{Proposition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\newtheorem{principle}[theorem]{Principle}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\usepackage[style=numeric, sorting=none]{biblatex}
+\usepackage{booktabs}
+\addbibresource{refs.bib}
+\addbibresource{sem_refs.bib}
+
+\title{Counterfactual Evaluation by Reopening Information States}
+\author{Ajax Benander\thanks{Email: \href{mailto:akb9408@rit.edu}{akb9408@rit.edu}, Website: \url{https://aethus.org}. This paper extracts, as a self-contained proposal in the semantics of conditionals, part one of a larger framework \cite{Aethus, AethusBrief}; the framework's physical claims play no role in the arguments below and are cited only for the record. The paper studies reopening to the unresolved grade under declared dependencies; the comprehensive framework imposes a stronger openness requirement at the intermediate, and the principal countermodel satisfies both (Section~\ref{sec:machinery}).}}
+\date{First drafted July 2026\\ {\small This version: October 2026 --- working draft}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent We develop a counterfactual semantics based on reopening partial information states. Evaluation first removes enough stated content to leave the antecedent's attributes unresolved, retaining what the chosen scope protects, then asserts the antecedent and considers the surviving consistent refinements. \emph{Would} and \emph{might} quantify over the admissible alternatives; a weighted extension supplies graded evaluations. The principal result concerns finite models with fully supported residues. When a conjunctive antecedent reopens each constituent attribute, adding a supported conjunct can remove the grounds of another conclusion. A four-attribute countermodel therefore violates Cautious Monotony, excluding any smooth preferential representation that preserves the evaluable verdicts. We also establish a sufficient nesting condition for Cut and exhibit its failure without that condition. The conjunctive reopening rule is an explicit interpretive commitment; its suitability for ordinary-language counterfactuals remains an empirical question. The account uses declared dependencies, scope restrictions, and priorities, while the quantitative extension assumes a weight kernel. Comparisons with belief revision, premise semantics, update semantics, and causal intervention identify the consequences of reopening an attribute rather than merely making its proposed value consistent with retained information.
+\end{abstract}
+
+\section{Introduction}\label{sec:intro}
+
+Lewis's and Stalnaker's semantics evaluate \emph{if $X$ had happened, $Y$ would have happened} at the closest $X$-worlds under a similarity ordering, and the ordering is a primitive of the clause \cite{lewis1973, stalnaker1968}. Later refinements adjust its weights, laws over particular facts, perfect match over approximate, and leave open why similarity, or which similarity, should track the truth of counterfactuals. This paper evaluates counterfactuals by an operation on the evaluator's own information state, with no complete-world similarity ordering among the clauses' primitives, and shows that the resulting consequence relation lies outside the preferential family that the ordering tradition's representation results characterize.
+
+% >>> ADDED (Fable 5.1, Sep 2 2026, discipline pass): the paper's theorem headlined in the introduction, where
+% the abstract had it and the introduction did not.
+\emph{What is proved.} Under the dual-peg reading of conjunctive antecedents, a substantive choice of antecedent interpretation, the would-clause's consequence relation violates Cautious Monotony, by an explicit four-attribute countermodel in a finite model whose surviving alternatives all carry positive weight (Theorem~\ref{thm:nonpref}); it is therefore not preferential in the sense of Kraus, Lehmann, and Magidor, hence not representable at the consequence-relation level by Lewis's or Stalnaker's semantics or by any smooth preferential model, so that the ordering's absence from the clauses is a fact about the relation and not a choice of notation. A second claim is an analysis rather than a theorem: \emph{would}, \emph{might}, and \emph{the probability that} are one residue read at three grains, the indicative being a distinct operation, selection over the standing residue. Representability of the full graded, indexed verdict function is posed as the open challenge and not claimed.
+
+\emph{The nearest kin, and three differences.} Fine's ``Counterfactuals without possible worlds'' \cite{fine2012} is the nearest kin: it too replaces worlds with states and evaluation-by-location with a procedure, and the present proposal agrees with its negative moral in full. Three features separate the accounts. \emph{Indexation}: the evaluation point is an \emph{information state},\footnote{\emph{Information} here is not the Shannon-theoretic kind: the states are logical objects, individuated by stated content and deductive closure. The fuller development's name for them, \emph{Aethus}, marks this \cite{Aethus}.} a particular evaluator's deductively closed partial assignment of answers to some questions, so that one counterfactual can receive different verdicts from differently informed evaluators without contradiction, the verdicts being facts about different states. \emph{Grain}: the residue of evaluation carries a weight measure, so that \emph{would}, \emph{might}, and \emph{the probability that} arrive as one operator at three grains, with graded and time-resolved verdicts (Section~\ref{sec:battery}) falling out of the same clauses. \emph{Scope}: what a counterfactual holds fixed is a declared parameter of the evaluation with a small menu of settings, and several classic ambiguities, backtracking above all, resolve into settings of that parameter.
+
+\emph{The plan.} Section~\ref{sec:machinery} fixes the objects and the operator; Section~\ref{sec:deletion} states and proves the deletion claim against the representation results of Lewis and Grove; Section~\ref{sec:battery} runs the standard cases; Sections~\ref{sec:commitments} and~\ref{sec:probability} state the semantics' commitments and its probability grain; Section~\ref{sec:placement} places the proposal and lists its open problems.
+
+\section{Information States and the Perturbation Operator}\label{sec:machinery}
+
+Fix a stock of \emph{attributes}: questions with answer spaces (\emph{where is the car parked}; \emph{which slit did the electron traverse}). An \emph{information state} $A$---an \emph{Aethus}, plural \emph{Aethae}, in the framework's terminology, the name used below where the framework's specific object matters---is a deductively closed partial assignment: $A(q) = v$ when attribute $q$ is \emph{stated} in $A$ with value $v$, and $A(q) = \ast$ when $q$ is \emph{blank}, that is, \emph{unresolved}: no value of $q$ is stated, which does not require every value of $q$ to be compatible with $A$. Closure means the state contains its own consequences: if the stated entries jointly entail $q = v$, then $A(q) = v$. The language closure works in is the language of stated attributes: entries are attribute--value pairs, closure under the constraint layer adds only forced entries of that form, and a Boolean compound such as $y \rightarrow s$ is not an entry, so no restriction can retain one. Laws are constraint-layer declarations, not entries, and are never retracted. Closure fixes the state's grain: above what the evaluator has computed, below arbitrary specificity.
+
+\begin{definition}[The model and the operator]\label{def:operator}
+This definition is authoritative; the paragraphs that follow motivate its parts.
+\begin{enumerate}
+\item[(a)] \emph{Model.} A model is $\mathfrak{M} = \langle U, \sqsubseteq, \mathrm{Cl}, \mathsf{Dep}, \mathsf{Inv}, \mathsf{W}, \Pi, \Sigma \rangle$: information states $U$, each a deductively closed partial assignment of values to attributes; the constraint layer's declarations of joint invalidity $\mathsf{Inv}$, which are laws and are never retracted; the declared support relation $\mathsf{Dep}$, an attribute's \emph{grounds} being the attributes it is declared to rest on and its \emph{dependents} the attributes declared to rest on it, entailment being no part of either; the weight structure $\mathsf{W}$; an antecedent-independent priority policy $\Pi$; and a scope family $\Sigma$.
+\item[(b)] \emph{Content order.} Restrictions are compared by closed-content inclusion: $B$ is a restriction of $A$ when $\mathrm{C}(B) \subseteq \mathrm{C}(A)$, $B$ being closed.
+\item[(c)] \emph{Reopening.} For attributes $Q$ and a scope $\sigma \in \Sigma$, the scope fixes two things: the attributes that must be blank, $\mathrm{Blank}_\sigma(A, Q) \supseteq Q$, which is $Q$ itself at the evidential-minimal setting and $Q$ together with its declared dependents in the setting's direction at the causal settings; and the \emph{protected content} $K_\sigma(A, Q)$, the closure of the stated entries of $A$ whose attributes lie outside $\mathrm{Blank}_\sigma(A, Q)$ and outside $\mathrm{Supp}(Q)$, the declared grounds of $Q$ under $\mathsf{Dep}$, taken transitively. Protection is independent of entailment: an entry that entails a value of $Q$ without being a declared ground of it is protected, and that is what gives infeasibility its meaning. $\mathcal{B}_{\sigma,Q}(A)$ is the set of closed $B$ with $K_\sigma(A, Q) \subseteq \mathrm{C}(B) \subseteq \mathrm{C}(A)$ that are blank, in the unresolved sense, on every attribute of $\mathrm{Blank}_\sigma(A, Q)$, and $A \ominus_\sigma Q := \operatorname{Max}_{\Pi(A)} \mathcal{B}_{\sigma,Q}(A)$, the $\Pi(A)$-selected among its inclusion-maximal members; it is set-valued, and the scope is \emph{infeasible} when $\mathcal{B}_{\sigma,Q}(A)$ is empty, as when protected content and a law together force an attribute of $Q$. What goes beyond the protected content is settled by maximality: a ground of $Q$ is removed exactly where retaining it would state a value of an attribute in $\mathrm{Blank}_\sigma(A, Q)$.
+\item[(d)] \emph{Compound antecedents.} A conjunctive antecedent $X_1 \wedge \cdots \wedge X_n$ reopens all its constituent attributes together, $Q = \{q_{X_1}, \dots, q_{X_n}\}$, a constituent being an attribute the antecedent restricts to a proper subset of its value space; an unrestricted coordinate, $q$ restricted to its whole value space, contributes no target and no restated content, so the targets depend only on the antecedent's normalized form: the \emph{dual-peg reading} (Lemma~\ref{lem:conjunctive}). A disjunction within one attribute's value set enters as the constraint $q_X \in \{x_1, x_2\}$ on the pockets (Proposition~\ref{prop:or}), carried by the restatement and consumed by the pruning, never an entry of a state, as (e) specifies.
+\item[(e)] \emph{Perturbation.} The contribution of an intermediate $B$ to the antecedent $X$ is
+\[
+R_X(B) \;:=\; \operatorname{MaxCons}\{\,P : \mathrm{C}(B) \subseteq \mathrm{C}(P),\ P \models X\,\},
+\]
+the inclusion-maximal consistent refinements of $B$ that satisfy $X$, consistency being under the standing constraint layer, which is retained throughout. The antecedent is a condition on the pockets, so a constrained disjunction persists from restatement to pruning without becoming an entry: for $X$ the assignment $q_X = x$ and a candidate refinement $P$ extending $B$, $P \models X$ iff $\mathrm{C}(P) \supseteq \mathrm{Restate}_X(B) := \mathrm{Cl}(B \cup \{q_X = x\})$, so $R_X(B)$ is the residue of the restated intermediate; for $X$ the disjunction $q_X \in \{x_1, x_2\}$, $P \models X$ iff $P$ states one of the two values, and the excluded value $x_3$ cannot return. An antecedent inconsistent with $\mathrm{C}(B)$ under the laws has no satisfying pocket, $R_X(B) = \varnothing$, without an inconsistent object being a member of $U$. On a feasible reopening, $\pi^\sigma_X(A) := \bigcup_{B \in A \ominus_\sigma Q_X} R_X(B)$, the union over the intermediates of their contributions, a \emph{pocket} being a member of some $R_X(B)$ and pockets being identified by content, so that one reached from several intermediates counts once; the union is of residues and not of contents, since the restated contents of tied intermediates can be jointly inconsistent while their residues are not (Proposition~\ref{prop:cutfail} has such a pair), and $\operatorname{Vis}(\pi^\sigma_X(A))$ its \emph{visible} pockets, the proper children of the residue, those whose weight under $\mathsf{W}$ is not negligible relative to the rest; in a finite, fully supported model every pocket carries positive weight and $\operatorname{Vis}(R) = R$.
+\item[(f)] \emph{Verdicts.} $X \mathrel{\Box\!\!\rightarrow} Y$, written $X \mid\sim_A Y$, holds iff every $P \in \operatorname{Vis}(\pi^\sigma_X(A))$ affirms $Y$; $X \mathrel{\Diamond\!\!\rightarrow} Y$ holds iff some $P \in \operatorname{Vis}(\pi^\sigma_X(A))$ does. The quantifiers range over visible pockets of the disagreeing residue, the scenario fragment of this paper.
+\item[(g)] \emph{Grades.} Given a weight kernel $K_A$ satisfying the conditions of the weight paragraph below, $P_A(Y \,\|\, X) := w(\pi_X(A) \restriction Y)/w(\pi_X(A))$, where $w$ is the grade measure the kernel delivers on the residue, a pocket reached from several intermediates receiving the sum of the transports from them, defined when $\pi_X(A)$ is nonempty and $w(\pi_X(A)) > 0$. The kernel is an additional assumption, used by the grades alone; visibility is fixed by the weight structure $\mathsf{W}$, not by the kernel, and the kernel is required to \emph{respect visibility}: $w(P) = 0$ for every pocket $P \notin \operatorname{Vis}(\pi_X(A))$, so that the grade ranges over the same pockets as the modal verdicts; and the equivalence of grade one with the would-clause used in Section~\ref{sec:deletion} needs the converse support as well, the grade measure \emph{fully supported on the visible pockets}, $w(P) > 0$ for every $P \in \operatorname{Vis}(\pi_X(A))$, since zero weight on invisible pockets alone would let a visible pocket denying $Y$ carry no grade weight. The condition is stated in terms of the relative-negligibility distinction that fixes visibility and introduces no numerical cutoff; without it a kernel assigning equal mass to a visible pocket affirming $Y$ and an invisible pocket denying it would return grade $\tfrac12$ while the would-clause affirmed $Y$.
+\item[(h)] \emph{Indicative.} The indicative is selection over the standing residue of $A$, the pockets in which the antecedent holds; it shares the pruning and the weighting with the perturbation and is otherwise a distinct operation.
+\end{enumerate}
+\end{definition}
+
+\paragraph{What the state is not.} Nothing here is doxastic: $A$ is not a credence function but the totality of what the evaluator's situation settles, with everything unsettled left blank; and nothing here is mental, the index being any record-bearing structure, an instrument as readily as a person. Within the larger framework the state is read as an \emph{indexed reality state}; every argument here needs only the bookkeeping face just fixed. Truth relativizes with the rest and is a compatibility notion, \emph{$X$ is true} relative to a state when $X$ taken as a stated entry and intersected with the state yields a valid state and \emph{false} when the intersection is invalid; \emph{affirmation}, the state's stating $X$, is stronger, and the modal clauses use affirmation over the visible pockets. A blank attribute is unresolved, not necessarily open across its whole answer space: with $q$ three-valued, $A$ stating $r = 1$, and the constraint layer forbidding $\{r = 1, q = 3\}$, neither $q = 1$ nor $q = 2$ is forced, so $A(q) = \ast$, while $q = 3$ is false relative to $A$; each compatible value is true in the relational sense and none is affirmed. The reopening demands the unresolved grade only, an intermediate stating no value of the attributes it blanks; which values a reopened attribute can take in the pockets is settled by the retained content and the laws, and an antecedent restricting it to values they exclude has an empty residue rather than an infeasible reopening. In the fuller development's grades of blankness the unresolved grade is \emph{direct} blankness, and \emph{conceptual} blankness, retrieval in full superposition across the whole answer space, is the finer special case; the canon there for the composite operator demands the finer grade at the intermediate, clearing by its own mined support relation whatever retained content excludes a value of the target \cite{Aethus}. Under the declared dependency relation of Definition~\ref{def:operator}, with protection independent of entailment, the finer demand would make infeasible some reopenings the present definition leaves feasible ($r = 1$ is protected in the example, so no intermediate leaves $q = 3$ admissible). The two are different operations, and this paper's results are about the first; the witness of Theorem~\ref{thm:nonpref} satisfies both requirements, its intermediates and pockets unchanged at every scope under the stronger one (the accompanying script checks this), so the principal result does not depend on the weaker grade.
+
+\textit{Blankness is tense-free.} An attribute is blank or stated relative to an information state; the temporal location of the event it concerns does not determine that status. An unlearned past event can therefore remain as open relative to that state as an unsettled future event.
+% >>> ADDED (Fable 5, Aug 2026, author-directed): the long manuscript's
+% compact formulation installed in main text; the consolidated note below
+% (referee-integrated, Oct 2026) glosses ``Markovian'' and carries the scope.
+% AETHIC-PROV: author-content, ai-placed.
+In the comprehensive development's formulation, \emph{blankness-resolution, not pastness, is the Markovian decider of determinacy}.\footnote{The stronger ontological reading reaches ordinary phenomenology. Consider an evaluator who has not learned whether a relative survived a past accident but knows that a friend knows the outcome. If both outcomes remain admissible, the evaluator's state carries two coupled classes of alternatives: survival with the friend's knowledge of survival, and death with the friend's knowledge of death. Pastness alone selects neither class relative to that state. The event and the friend's knowledge cannot recombine arbitrarily: survival paired with knowledge of death, or death with knowledge of survival, is jointly invalid and pruned, and knowing that the friend knows the outcome likewise excludes the alternatives in which she is uninformed. The event and the friend's knowledge are therefore determinate relative to every friend-state admissible relative to the evaluator, while their outcome-content stands in disagreeing superposition relative to the evaluator; the same indexing applies reciprocally to whatever each such friend-state leaves open about the evaluator. To say the state holds both is to assert the disjunctive co-presence of internally consistent alternatives, not a conjunction of contrary outcomes. This recorded case exemplifies the disagreeing regime; the agreeing regime of the framework's quantum account shares this indexed openness without being identified with the disagreeing case. On the proposed ontology, that openness is not ignorance of an additional, unindexed fact selecting one alternative. Here, ``Markovian'' marks the continuing availability of either admissible resolution while the attribute remains blank, irrespective of the event's temporal location. Even for a past event, either outcome remains available to be stated in a resolving Aethus: pastness does not select one beneath the blank. Acquiring information that settles the outcome, directly or through its deductive consequences, supplies a new indexing state, while the earlier state remains an index relative to which both alternatives are open. The modal results developed here require only state-indexed openness; the stronger ontological reading is defended in the comprehensive development \cite{Aethus}.}
+Section~\ref{sec:battery}'s sinkhole case illustrates this distinction.
+
+Evaluation proceeds in three steps. To evaluate \emph{if $X$ had happened, $Y$ would have happened} from a state $A$: \emph{reopen} the antecedent attribute --- return its entry to blank, with its declared grounds and whatever the chosen scope clears with it, protecting the rest; \emph{restate} it to the antecedent's value; \emph{re-prune} --- let the state's consistency constraints eliminate what can no longer stand --- and read the residue. The pipeline fits in one schematic (notation defined below):
+\begin{center}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{c}
+information state $A$\\
+$\downarrow$ {\footnotesize \emph{reopen} $q_X$ at scope $\sigma$ (grounds cleared, the rest protected)}\\
+blank intermediate\\
+$\downarrow$ {\footnotesize \emph{restate} $q_X = x$}\\
+$\downarrow$ {\footnotesize \emph{re-prune} $=$ selection's quotient by validity (consistency constraints eliminate)}\\
+residue $\pi^{\sigma}_X(A)$: weighted pockets\\[2pt]
+{\footnotesize $\square$: every pocket affirms \quad $\Diamond$: some pocket affirms \quad $\mathrm{P}$: weight of affirming pockets}
+\end{tabular}
+\end{center} Write $A \ominus_{\sigma} q$ for the \emph{reopening} of $q$ in $A$ at scope $\sigma$ (Definition~\ref{def:operator}~(c)): under \emph{evidential-minimal}, nothing beyond $q$ and its deductive cone is blanked; under \emph{unidirectional}, the proposed ordinary-language default, an empirical claim and not a consequence of the semantics, $q$'s declared dependents as recorded in the state go with it; under \emph{bidirectional}, its declared grounds as well, the clearing run direction-blind. The reopening's shape is forced: deleting a derivable entry alone changes nothing in a closed state, so reopening must clear enough of the entry's grounds to leave the attribute blank, which maximality makes definite. The operator is \emph{composite}: an elementary \emph{removal}, landing on a \emph{blank intermediate}, followed by \emph{selection}, the restating of the antecedent's value, the pruning being the selection's own quotient by validity; every perturbation passes through its blank intermediate, the scope settings parameterize the removal alone, and where the priorities select a greatest restriction $I$ of a given input $A$, the removed content $E^{*} = \mathrm{C}(A) \setminus \mathrm{C}(I)$ is the maximum among the sets whose restatement over $I$ recovers $A$, the \emph{ideal removed object} of that input (Appendix~\ref{app:interior}).
+\paragraph{The model signature.} Every component of Definition~\ref{def:operator} is structure of the state or of the model, the order and the closure imported from the algebraic companion \cite{AethusTree}; none is a parameter of any particular counterfactual, which is how the objection that the ordering has merely been relocated is answered by inspection. The load-bearing requirement is that $\Pi(A)$ is \emph{antecedent-independent}, fixed by $A$ and the model before any $X$ is supplied; a policy that varied with the antecedent would forfeit the uniform structural explanation of selection, though the witness of Theorem~\ref{thm:nonpref}, whose intermediates are unique, does not choose between rival priorities.
+
+\paragraph{Reopening as a set-valued operator.} Reopening (Definition~\ref{def:operator}~(c)) is set-valued by design, so that priority ties are members of a set rather than prose about co-open pockets, and it is a singleton exactly where the priorities determine it uniquely. It is empty exactly when the scope is \emph{infeasible} for $A$ at $q$, which leaves the perturbation undefined and is distinct from an empty final residue, where the intermediate exists and pruning leaves no pocket. The properties the paper uses are: \emph{conditional existence} (where the scope is feasible, $\mathcal{B}_{\sigma,q}(A)$ is nonempty and in a finite model its inclusion-maximal elements exist; an infinite domain needs every inclusion-chain in $\mathcal{B}_{\sigma,q}(A)$ to have an upper bound in it); \emph{conservativity} (Lemma~\ref{lem:conservativity}); \emph{idempotence} (a state satisfying the whole scope-clearing condition at $\sigma$ is its own maximal restriction, the fixed points being the scope-cleared states and not the merely $q$-blank ones); \emph{antecedent-independence of $\Pi$}; and the \emph{tie characterization} ($|A \ominus_{\sigma} q| > 1$ exactly when at least two inclusion-maximal restrictions are $\Pi(A)$-undominated). Proposition~\ref{prop:interior} is the singleton case.
+
+\paragraph{The scope family.} Each scope is a map $\sigma : (A, Q) \mapsto (\mathrm{Blank}_\sigma(A, Q), K_\sigma(A, Q))$, the attributes to be blanked and the content to be protected (Definition~\ref{def:operator}~(c)), subject to $Q \subseteq \mathrm{Blank}_\sigma(A, Q)$, to $K_\sigma(A, Q)$ being the closure of the stated entries of attributes outside $\mathrm{Blank}_\sigma(A, Q) \cup \mathrm{Supp}(Q)$, to monotonicity in the scope order ($\sigma_1 \le \sigma_2 \Rightarrow \mathrm{Blank}_{\sigma_1} \subseteq \mathrm{Blank}_{\sigma_2}$ and $K_{\sigma_2} \subseteq K_{\sigma_1}$, the three named settings ordered evidential-minimal $\le$ unidirectional $\le$ bidirectional), and to dependency closure within the scope. The formal semantics conditional on $\sigma$ is this paper's; which $\sigma$ natural language selects for a bare counterfactual is empirical and pragmatic and does not hold up the first. Theorem~\ref{thm:nonpref} is scope-invariant across the three named settings, since its witness clears the same entries under each; the graded verdicts of Section~\ref{sec:probability} are not, and say so.
+
+\paragraph{Weight.} The graded verdicts consume a weight kernel $K_A(B \to C) \ge 0$ transferring weight through reopening and refinement, normalized where normalization is meaningful (Definition~\ref{def:operator}~(g)); its existence, uniqueness and invariance under the operator are not derived here, and the qualitative semantics stands without them.
+
+\noindent Maximality is computed under declared priorities: laws over particulars, and an entry's generality read off its own quantificational form. That reading is a declared policy whose derivation from closure is open problem (4). Laws are not stated entries, so no reopening retracts one, and \emph{laws over particulars} records that laws never compete for removal. Where the priorities underdetermine, the reopening is multi-valued, the tie entering the residue as co-open pockets. The flank behavior that every worked case relies on is a lemma, provable once:
+\begin{lemma}[Conservativity]\label{lem:conservativity}
+Let $q'$ be stated in $A$ with value $v'$, outside the cleared scope of $q_X$ and dependency-disconnected from it (no deductive support chain, no recorded causal wiring at the setting, no joint consistency constraint links $q'$ to the cleared scope). Then every pocket of $\pi^{\sigma}_X(A)$ states $q' = v'$ at full within-pocket weight.
+\end{lemma}
+\begin{proof}
+The reopening is a \emph{maximal} closed restriction blanking $q_X$'s scope-cone, the one the priorities select where several are inclusion-incomparable. Any closed restriction that blanks the cone and omits $q'$ extends, by disconnection, to a closed restriction that blanks the cone and retains $q'$, so no maximal closed restriction blanking the cone omits $q'$, and in particular the selected one retains it, whichever the priorities choose. The restatement adds only $q_X = x$ and its closure, which by disconnection touches no constraint involving $q'$. And pruning eliminates only refinements inconsistent with stated content; a pocket dropping $q' = v'$ would need a constraint linking $q'$ to the restated content, excluded by disconnection. Pocket-uniformity then leaves its weight at unity under renormalization.
+\end{proof}
+
+\paragraph{Scenario blanks.} The pockets of a residue settle each blank attribute to one value, so a blank is read as a set of alternatives one of which obtains; the attributes evaluated over are contingent facts whose values exclude one another, that exclusivity belonging to every evaluation state's standing structure, and \emph{had $X$ been otherwise} ranges over alternatives to the actual value, never over their co-presence. An attribute held in irreducible agreeing superposition has no valid determinate refinements, and its counterfactuals are the physics-face companion's, not this paper's \cite{Aethus}.
+
+\noindent Write $\mathcal{R}(B)$ for the \emph{reduced form} of a state, the set of its maximal consistent refinements surviving the pruning, and $R_X(B)$ for the reduced form under the antecedent $X$, the maximal consistent refinements of $B$ satisfying $X$ (Definition~\ref{def:operator}~(e)), each a pocket of co-open content, the whole carrying a weight measure $w$. The \emph{perturbation} by antecedent $X$ (constraining the attributes $Q_X$ of its normalized form to the values it allows) is \begin{equation}\label{eq:pi} \pi^{\sigma}_X(A) \;=\; \bigcup_{B \,\in\, A \ominus_{\sigma} Q_X} R_X(B), \end{equation} the union over the reopening's intermediates of their contributions, and the modal operators receive their truth conditions directly on it: \begin{align} A \models X \mathrel{\Box\!\!\rightarrow} Y \quad &\text{iff} \quad \text{every } P \in \operatorname{Vis}(\pi_X(A)) \text{ settles } Y \text{ affirmatively}, \label{eq:would}\\ A \models X \mathrel{\Diamond\!\!\rightarrow} Y \quad &\text{iff} \quad \text{some } P \in \operatorname{Vis}(\pi_X(A)) \text{ does}, \label{eq:might}\\ \mathrm{P}_A(Y \,\Vert\, X) \;&=\; \frac{w\big(\pi_X(A) \restriction Y\big)}{w\big(\pi_X(A)\big)}, \label{eq:grade} \end{align} where $\pi_X(A) \restriction Y$ collects the $Y$-affirming pockets and $w$ is the kernel's grade measure, $\operatorname{Vis}(\pi_X(A)) = \pi_X(A)$ in the finite, fully supported models of the theorems. Two boundary conventions are fixed here. If $\pi_X(A) = \varnothing$, every pocket dying in the re-pruning, then \eqref{eq:would} is vacuously true, \eqref{eq:might} is false, and \eqref{eq:grade} is \emph{undefined}, the grade being a proportion of surviving weight. Components carried at relatively negligible weight are, by the algebra companion's comparative condition, components and not proper children: neither the grade nor the modal readings range over them, and where every surviving component is of that kind the empty-case conventions apply. \emph{Would}, \emph{might}, and \emph{the probability that} are one operator at three grains, and where the residue splits the semantics reports the graded fact rather than forcing a binary verdict.
+
+Three points fix the operator's behavior. The subjunctive perturbation is computed from restrictions of $A$ itself, never by completing $A$ and reopening its completions one by one. The indicative is selection over the standing residue of $A$, sharing the pruning and the weighting and otherwise distinct. And the genealogical picture sometimes offered for the reopening, go back to when the antecedent was open and restate, is a heuristic only; the operation is defined synchronically, with $\sigma$ naming what is kept. The evaluation is \emph{indexed}: the same counterfactual can receive different verdicts from different states without contradiction, and a counterfactual keyed to entries a state does not carry is not \emph{evaluable} there, a further indexed fact rather than a truth value.
+
+\section{The Deletion Claim}\label{sec:deletion}
+\noindent\textit{Scope of the logical results.} Call a model \emph{finite and fully supported} when its attributes and their value sets are finite and every admissible terminal pocket of every evaluated residue carries strictly positive real weight under $\mathsf{W}$, so that every pocket is visible, and, where a kernel is supplied, strictly positive grade weight $w(P) > 0$ under it for every visible pocket $P$, the grade measure being fully supported on the visible pockets (Definition~\ref{def:operator}~(g)); for a nonempty residue with a defined grade, $P_A(Y \,\|\, X) = 1$ then holds exactly when $X \mid\sim_A Y$. The equivalence is restricted to such kernels, a kernel assigning a visible pocket zero grade weight breaking it, and an empty residue, vacuously true with an undefined grade, is outside it. The logical results of this section are stated for such models; extending them to models with relatively negligible pockets needs a visibility-preservation argument this paper does not supply.
+
+Lewis's official truth condition, in its standard form:
+\begin{equation}\label{eq:lewis}
+w \models X \mathrel{\Box\!\!\rightarrow} Y \quad \text{iff} \quad \text{some } (X \wedge Y)\text{-world is closer to } w \text{, by } \leq_w \text{, than any } (X \wedge \neg Y)\text{-world},
+\end{equation}
+vacuous truth aside, where $\leq_w$ is the similarity ordering centered on $w$. Compare Eq.~\eqref{eq:lewis} with Eqs.~\eqref{eq:pi}--\eqref{eq:grade}: the evaluation point changed type, from a world to an information state; the search across worlds became an operation on the evaluation point's own structure; and \emph{the parameter $\leq_w$ appears nowhere on the right-hand side}. Three claims of different status follow:
+\begin{center}
+\begin{tabular}{p{0.62\linewidth} p{0.3\linewidth}}
+\toprule
+\textbf{Claim} & \textbf{Grade} \\
+\midrule
+\textbf{D1} \emph{Clause-level deletion}: no complete-world similarity relation occurs in $\pi^{\sigma}_X(A)$ & theorem, by inspection of the definition \\
+\textbf{D2} \emph{Qualitative non-recoverability}: under the dual-peg reading, no smooth preferential relation agrees with $\mid\sim_A$ on every evaluable pair, positive and negative verdicts alike & Theorem~\ref{thm:nonpref}, with Lemma~\ref{lem:prefext} \\
+\textbf{D3} \emph{Graded and indexed non-recoverability}: whether a representation outside the class excluded by D2 reproduces $P_A(Y\,\|\,X)$ across states & open; the class to be named \\
+\bottomrule
+\end{tabular}
+\end{center}
+\noindent D3 needs its class named: in a finite, fully supported model, with the grade measure fully supported on the visible pockets, on nonempty residues with defined grades $P_A(Y\,\|\,X) = 1$ iff $X \mid\sim_A Y$, so a representation reproducing every grade through a smooth preferential probability-one clause reproduces the excluded relation and falls under D2; what remains is representation by a class that does not, and ``any ordering semantics'' is too indefinite to name it, an antecedent-dependent domain being able to encode the operator's output outright. Neither indexing nor grading supplies non-recoverability by itself; the obstruction is the countermodel, which excludes the preferential class at every index where it arises. What is gone is the world-similarity ordering; its work is split among structures independently needed, the \emph{dependency structure} fixing what a reopening holds, \emph{validity} deciding what survives the re-pruning, and \emph{weight} measuring among survivors rather than ranking them.
+
+The placement in belief revision is known ground: Lewis proved premise semantics, evaluation by consistent adjustments to a premise set with no ordering in sight, equivalent to ordering semantics \cite{lewis1981}; Grove proved the analogous representation theorem for belief revision \cite{grove1988}; and the perturbation of Eq.~\eqref{eq:pi} is, formally, contraction-then-expansion in the AGM mold \cite{agm1985}. The operation is \emph{base}-shaped rather than theory-shaped: it acts on stated entries with their support structure, never on deductively closed sets as undifferentiated wholes, and its developed kin are kernel and safe contraction and the non-prioritized tradition~\cite{hansson1994kernel, alchourron1985safe, rott2001change}. Base-generated operations are known to escape Grove-style sphere representability, which situates Theorem~\ref{thm:nonpref} within a family; its mechanism, ground-destruction under the uniform conjunctive reopening, and its target, the conditional's consequence relation rather than a revision operator, remain its own.
+
+\textit{The consequence relation.} The consequence relation is settled under the dual-peg reading, each antecedent conjunct's attribute reopened, its grounds cleared, before restatement: evaluation passes through the blank intermediate, and the restatement returns the antecedent, not the ideal removed object. \paragraph{The fragment being represented.} A negative representation claim is only as exact as its object. \emph{The language.} $\mathcal{L}_{\mathrm{att}}$ has as atomic formulas the attribute-value assignments $q{=}v$, closed under conjunction across distinct attributes and under disjunction within one attribute's value set; negation is not a connective, $q \ne v$ being the disjunction of the remaining values. It is the grain at which the operator is defined, narrower than the propositional language of the representation theorems, and no claim is made outside it. A formula's \emph{normalized form} drops any conjunct restricting an attribute to its whole value space, as $y \vee \neg y$ does; two formulas are \emph{logically equivalent} iff their normalized forms restrict the same attributes to the same value sets, and reopening targets and restated content depend only on the normalized form (Definition~\ref{def:operator}~(d)), which secures Left Logical Equivalence. \emph{Evaluability.} The relation is indexed to $A$ and partial: $X \mid\sim_A Y$ is evaluable at $A$ iff every attribute of $X$ or $Y$ carries an entry or a declared value space in $A$ and the reopening of $X$'s attributes at the evaluated scope is feasible; an unevaluable pair is neither in the relation nor out of it, and an infeasible reopening is never given the empty-residue convention. Every KLM rule below is read over evaluable instances. \emph{The definition.} On evaluable pairs, $X \mid\sim_A Y$ iff every pocket of $\pi_X(A)$ affirms $Y$, a compound consequent being affirmed by a pocket iff its assignment satisfies it. \emph{The claim negated.} A relation is \emph{preferential} \cite{kraus1990} iff some \emph{smooth} preferential model represents it: a set of states with a labeling and a strict partial order that is smooth, every state in a definable set being either minimal in that set or having a minimal state of that set below it; the representation theorem, stated for a propositional language, makes this equivalent to satisfying Reflexivity, Left Logical Equivalence, Right Weakening, Cut, Or and Cautious Monotony, smoothness being what secures the last. The Lewis and Stalnaker semantics induce preferential relations on any language in which they are stated, Stalnaker's selection function being smooth by construction and Lewis's sphere clause validating Cautious Monotony with or without the limit assumption, the smaller of two witnessing spheres witnessing both. A relation that fails Cautious Monotony on a fragment is therefore not the restriction of any relation either semantics, or any smooth preferential model, induces; what falls outside is an ordering read by the minimal-worlds clause without smoothness. The Kraus--Lehmann--Magidor audit, on finite, fully supported models: Reflexivity, Right Weakening and And hold outright; Cut holds wherever the reopenings are nested branchwise (Lemma~\ref{lem:cut}) and can fail where the priorities select among incomparable restrictions (Proposition~\ref{prop:cutfail}); Left Logical Equivalence holds by normalization; Or holds (Proposition~\ref{prop:or}); and \emph{Cautious Monotony fails}, by explicit countermodel. \emph{Strong centering}, $X \wedge Y \Rightarrow (X \mathrel{\Box\!\!\rightarrow} Y)$, fails as well, and as a commitment: the global reopening treats a stated antecedent as it treats an open one (Section~\ref{sec:commitments}); that commitment and the Cautious Monotony result come from the same operation, justified below.
+\begin{lemma}[Cut]\label{lem:cut} In a finite, fully supported model, under the dual-peg reading, with $X$ and $Y$ antecedent formulas of normalized target sets $Q_X$ and $Q_Y$, let the intermediates be \emph{nested branchwise}: every member $I$ of $A \ominus_{\sigma} Q_X$ contains, in content, some member $J$ of $A \ominus_{\sigma} (Q_X \cup Q_Y)$. If $X \mid\sim_A Y$ and $X \wedge Y \mid\sim_A Z$, then $X \mid\sim_A Z$. Nesting holds in particular when both reopenings are singletons, $\{I_X\}$ and $\{I_{X \wedge Y}\}$ with $\mathrm{C}(I_{X \wedge Y}) \subseteq \mathrm{C}(I_X)$. It is not automatic: an inclusion-greatest reopening of $Q_X$ is greatest among the restrictions meeting its own protected content, which the conjunctive reopening's members, answering to a smaller protected content, need not meet, so the hypothesis is checked branch by branch. \end{lemma}
+\begin{proof}
+Let $P \in R_X(I)$ for some member $I$ of $A \ominus_{\sigma} Q_X$, so that $P$ is a pocket of $\pi_X(A)$. Since $X \mid\sim_A Y$, $P \models Y$. By nesting some member $J$ of $A \ominus_{\sigma} (Q_X \cup Q_Y)$ has $\mathrm{C}(J) \subseteq \mathrm{C}(I) \subseteq \mathrm{C}(P)$, and $P \models X \wedge Y$, so $P$ is a consistent refinement of $J$ satisfying $X \wedge Y$. It is maximal among these: one strictly extending $P$ would contain $I$'s content and satisfy $X$, hence be a consistent refinement of $I$ satisfying $X$ that strictly extends $P$, against $P$'s maximality in $R_X(I)$. So $P \in R_{X \wedge Y}(J)$, a pocket of $\pi_{X \wedge Y}(A)$, visible by full support, and by $X \wedge Y \mid\sim_A Z$ it affirms $Z$.
+\end{proof}
+\begin{corollary}[Pocket monotonicity]\label{cor:pocketmono} In a finite, fully supported model, under the dual-peg reading, if $X \mid\sim_A Y$ and the intermediates are nested branchwise, as in Lemma~\ref{lem:cut}, then every pocket of $\pi_X(A)$ is a pocket of $\pi_{X \wedge Y}(A)$: conjoining a held consequence only ever \emph{adds} pockets.
+\end{corollary}
+\begin{proof}
+Established inside the proof of Lemma~\ref{lem:cut}.
+\end{proof}
+\noindent The corollary makes the logic's shape transparent: Cut transfers universally quantified conclusions \emph{backward} along the inclusion, Cautious Monotony would require the reverse inclusion, and the $\neg s$ pockets of Theorem~\ref{thm:nonpref}'s countermodel, whose intermediates are nested since $X$ is blank in $A$, are exactly the additions.
+\begin{proposition}[Cut without nesting]\label{prop:cutfail}
+Where the priorities select among inclusion-incomparable maximal restrictions, Cut can fail. Let $A$ state a generalization $p$ and a particular $r$, with its constraint layer declaring $\{p, \neg y\}$ and $\{p, r, x\}$ invalid, so that $A$ states $q_Y = y$ and $q_X = v$, the value other than $x$; let the declared dependency relation make $p$ the sole ground of $q_Y$ and $p$ and $r$ the joint grounds of $q_X$, with no other edges; let the priorities keep the generalization $p$ over the particular $r$ where the two compete; and let $X$ be $q_X = x$ and $Y$ be $q_Y = y$. Then $X \mid\sim_A Y$ and $X \wedge Y \mid\sim_A r$, but $X \not\mid\sim_A r$; indeed $X \mid\sim_A \neg r$.
+\end{proposition}
+\begin{proof}
+Blanking $q_X$ requires removing one member of its joint support $\{p, r\}$. The two maximal closed restrictions, $\{p, y\}$ and $\{r, y\}$, are incomparable, and the priorities select $I_X = \{p, y\}$. Every pocket of $\pi_X(A)$ states $y$ and, since $\{p, r, x\}$ is invalid, $\neg r$. Blanking $q_X$ and $q_Y$ together requires removing $p$, the sole support of $y$, after which $r$ supports nothing that must go and stays: $I_{X \wedge Y} = \{r\}$, not contained in $I_X$, and every pocket of $\pi_{X \wedge Y}(A)$ states $r$. The accompanying script recomputes each step, the two maximal restrictions and the selection among them included.
+\end{proof}
+\noindent The failure is the gap between maximal and greatest. Nothing in the countermodel is exotic: a joint support and a priority between its members are all it takes, and the lemma's hypothesis is exactly what excludes it.
+\begin{proposition}[Or, under the union reading]\label{prop:or} In a finite, fully supported model, with the disjunctive antecedent $q_X \in \{x_1, x_2\}$ imposed as the condition $P \models X$ on the pockets of each intermediate of the shared reopening (Definition~\ref{def:operator}~(e)), every pocket of $\pi_{X_1 \vee X_2}(A)$ states some disjunct $x_i$ and is a maximal consistent refinement of the intermediate satisfying $q_X = x_i$ --- hence coincides with a pocket of $\pi_{X_i}(A)$. So if $Z$ holds in every pocket of $\pi_{X_1}(A)$ and of $\pi_{X_2}(A)$, it holds in every pocket of the disjunction: Or is valid.
+\end{proposition}
+\begin{proof}
+The disjunction and its disjuncts share the reopened attribute $q_X$, hence the reopening $A \ominus_\sigma q_X$, set-valued or not; for each intermediate $B$, a pocket of $R_{X_1 \vee X_2}(B)$ stating $x_i$ is a maximal consistent refinement of $B$ satisfying $q_X = x_i$, every such refinement satisfying the disjunction, hence a member of $R_{X_i}(B)$ and a pocket of $\pi_{X_i}(A)$. Where the disjunction exhausts the value space it has no target after normalization and its perturbation is the standing residue $\mathcal{R}(A)$; each standing pocket realizes some $x_i$ and extends $\mathrm{C}(A) \supseteq \mathrm{C}(B)$ for every intermediate $B$ of the $x_i$-reopening, so it is a pocket of $\pi_{X_i}(A)$ wherever that reopening is feasible, and Or holds in this case as well.
+\end{proof}
+\begin{lemma}[Preferential extension]\label{lem:prefext}
+Let $\mid\sim_A$ be the partial indexed consequence relation on the evaluable fragment, and let $\mid\sim^{\ast}$ be any preferential consequence relation, in the sense of Kraus, Lehmann, and Magidor, on any superlanguage, agreeing with $\mid\sim_A$ on every pair on which $\mid\sim_A$ is evaluable. Then every fully evaluable instance of Cautious Monotony in $\mid\sim_A$---$X \mid\sim_A Y$ and $X \mid\sim_A Z$ with $X \wedge Y \mid\sim_A Z$ evaluable---satisfies Cautious Monotony.
+\end{lemma}
+\begin{proof}
+$\mid\sim^{\ast}$ satisfies Cautious Monotony on its whole language, being preferential; on the evaluable pairs it coincides with $\mid\sim_A$; so any fully evaluable instance in $\mid\sim_A$ is an instance in $\mid\sim^{\ast}$, and holds.
+\end{proof}
+\noindent The lemma answers the reply that the representation theorem does not apply to a partial relation: it is not claimed that $\mid\sim_A$ falls under that theorem, but that no preferential relation on any language extends it, the witness being a fully evaluable instance on which Cautious Monotony fails; that the Lewis--Stalnaker semantics fall in the KLM class is the corollary that connects the theorem to the title.
+
+\textit{Why reopen, and what the dual-peg reading commits.}\label{par:whyreopen} The rule's justification is given once, here, and referred to from the sections that weigh its costs. \emph{If $X$ had been the case} is read as asking what the evaluator's information supports once the attribute $X$ concerns is made unresolved, the particular grounds that fixed its actual value given up and the laws retained, and $X$'s value is then stated. A conjunct so restated holds by the antecedent's own say-so, independently of whatever ground actually fixed it; a conclusion that leaned on that ground rather than on the conjunct therefore has nothing left to stand on and can disappear. That is the whole mechanism of Theorem~\ref{thm:nonpref}: \emph{if $X$ and $y$ had held}, with $y$ already held, puts $y$'s actual ground in play, a recognizable explaining-away pattern, and conclusions that rested on the ground go with it. The reading is a commitment beyond the operator's bare definition, and this is its one statement. The alternative, the \emph{Boolean reading}, reopens the yes-peg of the two-valued attribute \emph{is $X$ true?}, a coarsening of the composite which, with one conjunct stated and another blank, is already blank, so that nothing is cleared and an already-actual conjunct keeps its support; the \emph{dual-peg reading} passes each conjunct's peg to the reopening separately, so that reopening blanks each constituent attribute, which is all the formal result needs (Lemma~\ref{lem:conjunctive}; Table~\ref{tab:witness} runs the witness under both readings).\footnote{The fuller development argues for the reading from the answer space of the composite attribute, by its principle of Decomposition Neutrality \cite{Aethus}; that principle is adopted here as a premise, and the result does not consume it.} One structural observation supports the reading without proving it: the restatement returns the antecedent, never the ideal removed object, and a reading that exempts entailed conjuncts reads \emph{if $X$ and $y$} as \emph{if $X$} wherever $y$ is believed, which is the identification Cautious Monotony asserts, so the choice of reading and the fate of the postulate are one question. Which reading the bare English conjunction defaults to is the language's question, not the operator's: the sprinkler case below illustrates the intended reading, and its ordinary-language prevalence is testable by the two-switches paradigm of Ciardelli, Zhang, and Champollion \cite{ciardelli2018}, a split verdict sitting with the operator's own multi-valued machinery as two co-open evaluations. The cost the rule carries, the failure of strong centering, is stated in Section~\ref{sec:commitments}; the formal result stands conditional on the rule whatever the language decides.
+
+\begin{lemma}[Conjunctive reopening]\label{lem:conjunctive}
+For $X = X_1 \wedge \cdots \wedge X_n$ with each $X_i$ an attribute, read by the \emph{dual-peg reading}, each conjunct's peg a separate argument of the reopening---reopening $X$ blanks every constituent attribute $q_{X_i}$ before restatement: $B \in A \ominus_{\sigma} Q_X$ implies $B(q_{X_i}) = \ast$ for every $i$. The claim is blankness, not membership in the single-target families $\mathcal{B}_{\sigma, q_{X_i}}(A)$, which answer to their own protected content: on the witness of Theorem~\ref{thm:nonpref} the reopening of $x$ alone protects $\{s, y\}$ while the conjunctive reopening's intermediate is empty. \end{lemma} \begin{proof} Under the dual-peg reading the reopening takes the constituent attributes as its arguments, $Q_X = \{q_{X_1}, \dots, q_{X_n}\}$, and every member of $\mathcal{B}_{\sigma, Q_X}(A)$ is blank on each of them by Definition~\ref{def:operator}~(c), which is the claim; the hypothesis is the commitment stated above, which Decomposition Neutrality does not supply. The reopening takes the constituents together, with the protected content computed for the whole set $Q_X$; it is not in general the composition of the single-attribute reopenings, whose protected contents are larger.
+\end{proof}
+
+\begin{theorem}[Non-preferentiality, on the dual-peg reading]\label{thm:nonpref} Under the dual-peg reading of conjunctive antecedents, there is a finite, fully supported model with a four-attribute state $A$ on which $\mid\sim_A$ violates Cautious Monotony, and Rational Monotony on the same instance. Consequently no preferential consequence relation in the sense of Kraus, Lehmann and Magidor extends $\mid\sim_A$ (Lemma~\ref{lem:prefext}), and in particular none induced by Lewis's or Stalnaker's semantics.
+\end{theorem}
+\begin{proof}
+The witness is given in six steps; Table~\ref{tab:witness} lists what the operator computes at each.
+\emph{(1) Attributes, constraints and dependencies.} Four two-valued attributes $\mathsf{X}, \mathsf{S}, \mathsf{Y}, \mathsf{Z}$. The constraint layer declares $\{s, \neg y\}$ invalid, the law $s \rightarrow y$, and $\{x, s, \neg z\}$ invalid, the joint constraint $C$. The declared dependency relation makes $\mathsf{S}$ the sole ground of $\mathsf{Y}$, with no other dependency edges; the law alone declares nothing, Definition~\ref{def:operator}~(a) keeping entailment and declared support apart, and without this declaration $s$ would be protected when $\mathsf{Y}$ is reopened and that reopening would be infeasible. Every admissible terminal pocket below carries a strictly positive real weight, so every pocket is visible; within this fully supported example the magnitudes are immaterial to the verdicts.
+\emph{(2) Initial content.} $A$ states $s$. Its closure adds $y$, whose sole support is $s$; $\mathsf{X}$ and $\mathsf{Z}$ are blank, and $C$ forces no stated value of $\mathsf{Z}$ while $\mathsf{X}$ is blank, though it restricts the admissible combinations throughout.
+\emph{(3) Reopening rule.} At the evidential-minimal and unidirectional settings the scope blanks the antecedent's attributes alone, $\mathsf{Y}$ having no declared dependents; at the bidirectional setting the blank set for $x \wedge y$ includes $\mathsf{S}$, the declared ground of $\mathsf{Y}$, and the intermediate and verdicts below are unchanged, $s$ being cleared in any case. The priority policy is not consulted, every reopening below having a unique maximal restriction. The conjunctive antecedent is read by the dual-peg reading: $x \wedge y$ reopens both $\mathsf{X}$ and $\mathsf{Y}$ (Lemma~\ref{lem:conjunctive}).
+\emph{(4) Intermediates.} For $x$, $\mathsf{X}$ is already blank in $A$, so $I_X = A$, with content $\{s, y\}$. For $x \wedge y$, blanking $\mathsf{Y}$ requires clearing its sole support $s$, so $I_{X \wedge y}$ is the empty state, the laws retained.
+\emph{(5) Surviving visible pockets.} Restating $x$ in $I_X$ gives $\{x, s, y\}$, and $C$ forces $z$: one pocket, $(x, s, y, z)$. Restating $x$ and $y$ in the empty intermediate leaves $\mathsf{S}$ and $\mathsf{Z}$ open, with $C$ excluding only $s \wedge \neg z$: three pockets, $(x, s, y, z)$, $(x, \neg s, y, z)$ and $(x, \neg s, y, \neg z)$.
+\emph{(6) The verdicts.} Under $x$ the one pocket carries $y$ and $z$, so $X \mid\sim_A y$ and $X \mid\sim_A Z$. Under $x \wedge y$ the pocket $(x, \neg s, y, \neg z)$ fails $z$, so $X \wedge y \not\mid\sim_A Z$, and Cautious Monotony fails at $(X, y, Z)$. Rational Monotony fails on the same instance, since $X \not\mid\sim_A \neg y$.
+\end{proof}
+
+\begin{table}[ht]
+\centering
+\small
+\caption{The four-attribute witness of Theorem~\ref{thm:nonpref}, computed from the operator's clauses: the intermediates, and the pockets of each residue.}
+\label{tab:witness}
+\begin{tabular}{@{}lll@{}}
+\toprule
+Antecedent & Intermediate & Pockets of the residue \\
+\midrule
+$x$ & $I_X = \{s, y\}$ & $(x, s, y, z)$ \\
+$x \wedge y$, dual peg & $I_{X \wedge y} = \varnothing$ & $(x, s, y, z)$, \ $(x, \neg s, y, z)$, \ $(x, \neg s, y, \neg z)$ \\
+$x \wedge y$, Boolean & $\{s, y\}$, the attribute being already blank & $(x, s, y, z)$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent The added pockets are those without $s$, the entry the conjunctive reopening clears and the restatement of $y$ does not regenerate. Under the Boolean reading the coarsened attribute \emph{is $X \wedge y$ true?} is already blank in $A$, nothing is cleared, the one pocket settles $z$, and Cautious Monotony holds on the witness: the result is a result about the dual-peg reading. The accompanying script, \texttt{counterfactual\_check.py}, implements Definition~\ref{def:operator} on finite models and recomputes every line of the table under both readings.
+
+\begin{lemma}[Priority-invariance of the witness]\label{lem:priority}
+Theorem~\ref{thm:nonpref} holds under every admissible priority policy $\Pi$ satisfying antecedent-independence and Lemma~\ref{lem:conjunctive}; it does not consume the laws-over-particulars hierarchy or any other ranking among candidate supports.
+\end{lemma}
+\begin{proof}
+In the witness, $y$ has the sole support $s$, so at the decisive step---reopening $X \wedge y$---there is exactly one candidate support to clear and no competition among supports for $\Pi$ to adjudicate; the maximal $y$-blank restriction is unique whatever $\Pi$ says, and the only property of $\Pi$ used anywhere in the derivation is that it does not vary with the antecedent. The conjunctive step is Lemma~\ref{lem:conjunctive}, which uses the dual-peg reading and no priority.
+\end{proof}
+
+\begin{proposition}[Where Cautious Monotony fails]\label{prop:cmwhere} In a finite, fully supported model, under the dual-peg reading, let $X \mid\sim_A Y$ and $X \mid\sim_A Z$, with singleton reopenings $\{I_X\}$ and $\{I_{X \wedge Y}\}$ nested in content, $\mathrm{C}(I_{X \wedge Y}) \subseteq \mathrm{C}(I_X)$, and let $D = \mathrm{C}(I_X) \setminus \mathrm{C}(I_{X \wedge Y})$ be the entries the conjunctive reopening clears. Then $X \wedge Y \not\mid\sim_A Z$ exactly when some pocket of $\pi_{X \wedge Y}(A)$ that does not carry every entry of $D$ fails to settle $Z$ affirmatively: Cautious Monotony fails at $(X, Y, Z)$ exactly when the enlarged residue contains a pocket that omits some cleared content in $D$ and fails to affirm $Z$.
+\end{proposition}
+\begin{proof}
+By Corollary~\ref{cor:pocketmono} every pocket of $\pi_X(A)$ is a pocket of $\pi_{X \wedge Y}(A)$, and each settles $Z$, since $X \mid\sim_A Z$; so $X \wedge Y \not\mid\sim_A Z$ exactly when an added pocket fails $Z$. A pocket $P \in R_{X \wedge Y}(I_{X \wedge Y})$ that carries every entry of $D$ carries all of $\mathrm{C}(I_X) = \mathrm{C}(I_{X \wedge Y}) \cup D$ and satisfies $X$, so it is a consistent refinement of $I_X$ satisfying $X$; it is maximal among these, since one strictly extending it would carry its stated content, $Y$ included, and so be a consistent refinement of $I_{X \wedge Y}$ satisfying $X \wedge Y$ that strictly extends $P$, against $P$'s maximality in $R_{X \wedge Y}(I_{X \wedge Y})$; so $P \in R_X(I_X)$, a pocket of $\pi_X(A)$. A pocket omitting an entry of $D$ is not, every pocket of $\pi_X(A)$ carrying $I_X$. The added pockets are therefore exactly those omitting an entry of $D$.
+\end{proof}
+\noindent Theorem~\ref{thm:nonpref}'s witness is an instance of the proposition, and not the smallest: three attributes suffice, with a law $z \rightarrow y$, $z$ the sole ground of $y$, a state stating $z$ and $\mathsf{X}$ blank, since reopening $x$ retains $z$ while reopening $x \wedge y$ clears it (the script runs the case). Ground-destruction is not the only route to failure: with no constraints, a state stating $y$ and $z$ with $\mathsf{X}$ blank, and $z$ declared to rest on $y$, the unidirectional scope retains both when $x$ is reopened and clears $z$ as $y$'s dependent when $x \wedge y$ is, so Cautious Monotony fails although $\mathsf{Y}$ has no grounds, and holds at the evidential-minimal scope (the script runs this case too). As corroboration, and not in place of the proof, the accompanying script tests the proposition on 3{,}000 random draws of finite, fully supported models (four or five attributes, one of them three-valued, up to four constraints, the tie-keeping priority policy; 2{,}904 of the draws valid): its criterion agrees with the operator on all 50{,}291 nested singleton instances, Cautious Monotony failing in 3{,}113 of them, and the script finds no failure of Cut in 47{,}324 nested instances, of pocket monotonicity in 45{,}281, or of Or in 53{,}986.
+
+\textit{The countermodel in ordinary judgment: the sprinklers.} The schema has a concrete face, on which the verdict pattern can be checked against ordinary judgment. Your books state that the sprinklers ran overnight ($s$), carry the standing regularity that a sprinkler run leaves the lawn wet ($s \rightarrow y$, the wetness's sole support), leave last night's rain blank ($X$), and carry the joint constraint that rain on top of a sprinkler run overflows the gutters ($\{x, s, \neg z\}$ invalid). Then \emph{had it rained, the lawn would still have been wet}: affirmed, the sprinklers standing through the reopening; and \emph{had it rained, the gutters would have overflowed}: affirmed, the rain landing on the standing sprinkler run. But \emph{had it rained and the lawn been wet}, the wetness's ground is in play: the residue now carries pockets in which the sprinklers never ran and the lawn is wet by the antecedent's own statement, and in some of those pockets nothing overflows, which defeats the would-conclusion, exactly as Theorem~\ref{thm:nonpref} computes. The sprinkler run is not given up by a backtracking scope setting; closure and the fixed law force it out, since with $s \rightarrow y$ standing the wetness cannot return to blank while the run stays stated, so reopening the wetness must clear the run, and the narrow setting keeps the past fixed except where closure itself requires the clearing. The plain conjunction, not only its \emph{anyway}-marked variant, is predicted to pattern this way, as the construction's default rather than its only reading; whether speakers default to it is the empirical question left open above.
+
+\noindent\textit{Reopening beside settling.} The framework carries a second conditional, and Cautious Monotony separates the two. The causality companion's \emph{settling} \cite{AethusCausality} supposes an attribute by replacing its own entry and keeping its causes standing, as an intervention does \cite{pearl2009}: settled wet, the lawn keeps its sprinkler run, and the gutters overflow. Settling validates Cautious Monotony, which for structural models is the composition property of Galles and Pearl \cite{galles1998axiomatic}, since settling a held consequence at the value it already takes changes no input anywhere; reopening keeps every law and gives up the particular grounds, so a held consequence restated can lose a conclusion that leaned on them. The two answer different questions, what the evaluator's information would support had the antecedent been stated and what the mechanisms would produce under its imposition, and the plain conjunction can carry either, which is the hearer division the gutter case predicts.
+
+
+A related comparison concerns Kratzer's ordering source. In the standard formal semantics of natural-language modality \cite{kratzer2012modals, vonfintel2006}, a modal is a quantifier over accessible worlds relativized to a \emph{modal base} $f(w)$, fixing which worlds are in play, and an \emph{ordering source} $g(w)$, ranking them against an ideal. The structural comparison is asymmetric:
+\begin{equation}\label{eq:kratzer}
+f(w) \;\longmapsto\; \pi_X(A), \qquad\qquad g(w) \;\longmapsto\; \varnothing,
+\end{equation}
+the base becoming the residue and the ordering source deleted in the sense just fixed, its work redistributed across the same three sites. Eq.~\eqref{eq:kratzer} is a structural comparison and not a translation with a preservation result: the antecedent-dependent residue $\pi_X(A)$ does its work differently from an unchanged modal base followed by antecedent restriction, and the comparison is drawn for the counterfactual and epistemic--circumstantial uses this paper evaluates. The ordering source's further duties in the standard framework, weak necessity, the deontic and bouletic flavors, comparative possibility, are not addressed by the equation, and the deletion is read at exactly that breadth; the extension is open problem (6).
+
+\section{The Battery, and a Horizon-Indexed Case}\label{sec:battery}
+
+The following examples test the semantics against the cases the tradition assembled. The inference patterns first: antecedent strengthening, transitivity, and contraposition fail for the Lewis--Stalnaker conditional, and their failure needed the variably strict apparatus to engineer; here nothing secures them, since a strengthened or chained antecedent is a \emph{different} perturbation, $\pi_{X \wedge Z}(A) \neq \pi_X(A)$, with a different residue, and the witnesses show the failures: the countermodel of Theorem~\ref{thm:nonpref} fails antecedent strengthening outright, $x \mid\sim_A z$ with $x \wedge y \not\mid\sim_A z$, and contraposition on the same state, $x \mid\sim_A y$ while reopening $\mathsf{Y}$ and restating $\neg y$ leaves $\mathsf{X}$ open, so $\neg y \not\mid\sim_A \neg x$; a transitivity failure needs a state of its own, which the accompanying script exhibits.
+
+Bizet--Verdi next: \emph{had Bizet and Verdi been compatriots, they would have been French / Italian}. Perturbing the compatriot attribute yields a residue whose surviving pockets split between both-French and both-Italian, so both would-counterfactuals come out false, both might-counterfactuals true, and the grades sit strictly between zero and one. The possible-worlds side reaches this verdict too, Lewis's clause delivering it once ties among worlds are admitted; here the same verdict falls out of residue structure with no ordering to adjudicate.
+
+\textit{Nixon and the button.} \emph{Had he pressed the button, there would have been nuclear war} is the case that forced the ordering's weighting: Fine's critique \cite{fine1975} showed that naive similarity prefers the tidy world in which the wiring quietly fails, and Lewis answered with weighted criteria. Here the verdict needs no weighting: the button-to-launch constraint is a law of the constraint layer, fixed and never retracted (Definition~\ref{def:operator}~(a)), so it stands while the particulars reopen, entrenchment by the layer a law occupies rather than by a tuned weight.
+
+\textit{No miracles: provenance, not verdict.} Realizing a contrary antecedent here requires no miracle: where the Lewis account must locate worlds in which a small law-violation inserts the antecedent, the perturbation realizes it by \emph{contraction}, laws standing as constraint-layer declarations while particulars reopen. The contrast is provenance, not verdict: the structures that replace the parameter, dependency, validity, weight, are substantive assumptions of the model.
+
+\textit{Backtracking, and Morgenbesser's coin.} Backtracking readings become the conventionality of a declared boundary: reopen narrowly and the past stays fixed, the standard reading; let the reopening cascade into the antecedent's recorded causal ancestry and the backtracking reading appears, two residues, two readings, the scope family at its third setting, no hidden metric. Morgenbesser's coin runs natively: you decline a bet, the fair coin is tossed anyway and lands heads; \emph{had you bet, you would have won}. The coin's outcome is nowhere in the bet's recorded posterity, nothing wiring the toss to the decision, so the default reopening clears the bet and its consequences while the heads entry stands untouched in every pocket: true at grade one. A genuinely disconnected outcome stays untouched at every setting. Causal-model accounts secure Morgenbesser natively as well, Hiddleston explicitly \cite{hiddleston2005}, so the case differentiates provenance rather than verdict: here the insulation is read off the declared dependencies of the state, with no structural-equation model beyond them.
+
+Two worked checks compress the tradition's standard fare.
+
+\emph{The streetlight}: the light was green; had it been red, the driver would have stopped. At evidential-minimal scope the run is infeasible: the proceeding entry is a declared dependent of the light and not a declared ground of it, so the scope protects it although it entails that the light was green, and with the law that red implies stopping the protected content excludes red, so no admissible intermediate exists; the case is infeasible rather than vacuous. At the default unidirectional setting ``proceeded'' is cleared as recorded posterity of the light, red is restated, and the re-pruning leaves only alternatives in which the standing disposition meets red and the car stops, the would-counterfactual at grade one, the flanking facts passing through untouched. The pair of scopes shows that evidence-lines and cause-lines are different lines through the same state.
+
+\emph{The sinkhole}: a road collapses; the erosion that caused it ran underground, unobserved, for decades. Relative to every state along that road before the collapse the erosion attributes were blank, so at the bookkeeping level this paper occupies the decades-deep history was open relative to each such evaluator, resolving only when each learned. The case forces the tense-free point: the resolution of a blank is dated by the learning, not by the event. Each time across those decades holds the erosion open relative to a state that carries it blank and settled relative to a state that has learned; the times never change, only the index does.
+
+\textit{The indexation, in one sentence.} When the streetlight re-enters the story, \emph{had the light not been red, I would have driven into the collapse} is true relative to the sinkhole-aware state and not relative to the at-the-light state, whose residue holds surviving pockets in which the road never fails at all; one counterfactual carries different verdicts at two stations of a single evaluator's history, each verdict a fact about its station's state. This paper establishes the indexed difference between the verdicts; the determinacy companion defends its ontological interpretation \cite{AethusRealist}. A contextualist can express the split by relativizing the ordering to context; the difference is provenance, the split being derived from the two stations' books rather than delegated to pragmatics, Eq.~\eqref{eq:would} read twice with no auxiliary parameter.
+
+The Oswald pair completes the standard checks, being the tradition's touchstone for the subjunctive/indicative split \cite{adams1975}. Let the state record Kennedy's death and leave the shooter blank, weight $w_O$ on Oswald. The subjunctive, \emph{had Oswald not shot him, someone else would have}, reopens: the greatest shooter-blank restriction at the posterity scope clears the recorded posterity of the shot, the death among it, the antecedent is restated, and with no conspiracy in the state nothing regenerates the death. Would false; might true through second-shooter pockets carried at small positive weight, the grade small and positive for kernels that assign small positive total weight to the surviving second-shooter pockets, and varying with $w_O$ unless the kernel's transport is invariant in $w_O$, a further condition on the kernel. The operation is global, every pocket passing through the one reopened intermediate; what an evaluator all but certain it was not Oswald means is carried by the indicative, \emph{if Oswald didn't shoot him, someone else did}, which is selection: the contrary pocket drops, the death stands in what remains, true at grade one, the grade being the conditional probability of Section~\ref{sec:probability}.
+
+Finally a horizon-indexed case, an application of the construction rather than a further exclusion claim. Take a chaotic system, a double pendulum, and perturb an initial-condition attribute. Over a short horizon the visible pockets may all agree on a coarse consequent, and the would-counterfactual then holds, though a single visible pocket of small weight that disagrees already defeats it; past the Lyapunov time the residue fans across the configuration space, the woulds fail and the mights proliferate, and what the grade then does is a question for the dynamics and the measure. The object is a \emph{horizon-indexed graded counterfactual}; graded extensions of ordering semantics exist \cite{leitgeb2012a}, and no non-representability is claimed for the case, which is an illustration, not a computed result.
+
+
+
+\section{What the Semantics Is Committed To}\label{sec:commitments}
+
+A proposal that indexes verdicts to evaluators owes an account of what happens when an evaluator learns, and here the semantics makes one modeling choice. If learning were modeled as \emph{revision in place}, the blank overwritten by the value in one standing ledger, the pre-learning state would be destroyed at each update and with it every verdict indexed to it, and the indexation that distinguishes this semantics would collapse into a single moving ledger. The semantics therefore models learning as \emph{transit}: the evaluator moves to a new state, and the prior state stands, permanently, as something verdicts remain indexed to. This is a modeling choice rather than a forced one, since a history-indexed model can retain earlier states as evaluation points without the ontology; within the larger framework the commitment is a named principle with an ontological reading \cite{Aethus, AethusBrief}, and within this paper it needs only its semantic face.
+
+\paragraph{Centering.} Lewis's centering axiom, that ``if $A$ were the case, $C$ would be'' holds whenever $A$ and $C$ are both stated, fails here as a commitment: the global operation reopens a stated antecedent exactly as it reopens an open one, clears what rests on it, restates it and re-prunes, and exempting the stated case would require privileging the actual outcome over its alternatives, the toss that landed heads over the landing tails, which no postulate of the framework supplies. So ``if I had tossed the coin, it would have landed heads,'' said after the toss landed heads, comes out false, where a live intuition about chancy consequents already sits; what actually happened given the toss is the indicative's question. The failure is a consequence of the reading of the subjunctive justified in Section~\ref{sec:deletion}, and a reader who takes the subjunctive to answer the indicative's question on a stated antecedent rejects the reading at this point.
+
+\paragraph{Where credence enters.} Three things are distinct: the state's content, the model's weighting $\mathsf{W}$ over the standing pockets, and a credence interpretation of that weighting, available where an evaluator's rational credences over the pockets agree with it; the clauses consume the second and never need the third. The two operations divide the standing weighting between them. The indicative selects among the standing pockets, so its grade is the conditional proportion $P_A(Y \mid X)$ in the standing residue; the subjunctive reopens, and for a kernel whose transport onto the reopened attribute's pockets does not read that attribute's standing weight, the invariance condition the examples assume, its grade tracks only the standing weight of what the reopened state leaves. For the evaluator agnostic about whether Oswald shot Kennedy, the indicative comes out true at grade one for every positive weight on the antecedent, the subjunctive near zero however the weight on Oswald runs.
+
+
+\paragraph{Scope.} The scenario-blank semantics of this paper has the disagreeing residue as its domain, and its ``would,'' affirmation throughout the visible residue, does not say that each co-open alternative is actualized; over an irreducible agreeing residue the long paper's own clause runs differently, and the physics applications that turn on it are its business, not this paper's \cite{Aethus}.
+
+
+\section{The Probability Grain, and the Ramsey Test}\label{sec:probability}
+
+Eq.~\eqref{eq:grade} makes the conditional probability operator the weighted grain of the same evaluation that delivers \emph{would} and \emph{might}; with trivial weighting over exclusive survivors, pruning-plus-renormalization is Bayesian conditionalization, one residue machine under two weightings, the kernel-weighted case being the companion's \cite{Aethus}. Two consequences follow. First, the quantity Adams's thesis assigns to the indicative conditional \cite{adams1975} is the operator's own indicative grade, Eq.~\eqref{eq:grade} restricted to selection being the conditional proportion; identifying that quantity with \emph{assertibility}, as the thesis does, requires an assertibility rule the paper does not supply. Second, the triviality results that beset probabilistic accounts of conditionals \cite{gardenfors1986} are blocked at the type level: what is structural in this semantics is the \emph{residue}, and the conditional verdict is evaluated \emph{at} states and never stored \emph{in} them as an entry, $\mathcal{L}_{\mathrm{att}}$ providing no entry for a conditional to occupy, a restriction on the language adopted here rather than a theorem, so that there is no iterated-update dynamics over such entries for the triviality arguments to exploit; what the restriction leaves without an account, embedded conditionals, is open problem (5).
+
+\textit{Imaging consumes the ordering; the grade does not.} Lewis's triviality paper \cite{lewis1976} carried his positive proposal, \emph{imaging}: evaluate the probability of a counterfactual by moving each world's mass to its closest antecedent-world and measuring the consequent there, generalized to mass-spreading by G\"ardenfors \cite{gardenfors1982}. Imaging is perturb-then-measure and \emph{consumes the similarity ordering}, the transport plan being the ordering applied pointwise. The grade of Eq.~\eqref{eq:grade} is perturb-then-measure with the transport routed through the blank intermediate instead, mass following dependency and validity with no ordering consulted, so the deletion claim extends to the probabilistic tradition's own fix. One notational point: $P_A(Y \,\|\, X)$, the subjunctive grade, reopen, restate, weigh the residue, is distinct from $P_A(Y \mid X)$, the conditional proportion over the \emph{standing} residue, the operator's indicative setting; Adams's thesis concerns the second, imaging's work is done here by the first, and the two coincide where reopening clears nothing and the kernel preserves the standing weights over the antecedent's pockets, a sufficient condition rather than a characterization.
+
+\textit{The Ramsey test, kept as a procedure.} The Ramsey test survives as a description of the perturbation procedure while its formalization as a belief-set membership condition, the form the impossibility results require, is not well-typed here.
+
+\section{Placement, Limits, and Open Problems}\label{sec:placement}
+
+\noindent The semantics developed here is the modal face of Aethic reasoning: reasoning whose objects are Aethae and whose operations---here reopening, restatement, and pruning---preserve the states' indexed partiality rather than completing them into worlds. Its other faces, the decision-theoretic and the physical, are the companions'.
+
+\textit{The nearest current work.} Four bodies of recent work bear directly on the proposal. Santorio's premise semantics with interventions \cite{santorio2019interventions}, and his 2025 survey of the logical and similarity problems \cite{santorio2025handbook}, are the closest formal neighbors: both replace world-ranking with operations on a premise set, and filtering already removes premises in an antecedent-directed way and already departs from the standard logic, with a failure of Loop and distinctive verdicts on \emph{Or} \cite{santorio2019interventions}; the present paper's distinctive case is therefore neither procedural removal nor non-classicality as such but its reopening rule, which clears a conjunct's support through a blank intermediate, and the Cautious Monotony behavior that rule produces. The theory of X-marking \cite{vonfintel2023xmarking} and the current typological review of counterfactuality \cite{vonprince2025counterfactuality} are the linguistic literature the mood discussion answers to; the claim that indicative and subjunctive are two operations sharing the pruning and the weighting is a proposal to be tested against their morphological findings, not a result secured against them. And the quantum causal-model semantics of Kooderi Suresh, Frembs and Cavalcanti \cite{suresh2026counterfactuals}, which extends Pearl's abduction-action-prediction procedure to quantum structural causal models, is the work a reader of the companion framework will expect to see named: it runs counterfactuals over a quantum causal structure with Pearl's three steps intact, where the present paper runs them over an information state with reopen, restate, re-prune in their place; the relation between the two objects is an open comparison this paper does not attempt.
+
+\textit{Against premise semantics and Veltman's update semantics.} Premise semantics in Lewis's sense \cite{lewis1981}, implemented here as the \emph{maximal-consistent-facts comparator}, evaluation over the maximal subsets of the stated facts consistent with the antecedent with laws retained, validates the Cautious Monotony instance on the countermodel (Table~\ref{tab:competitors}) and sits with the preferential family on exactly the postulate the dual-peg reading breaks, by Lewis's own equivalence, the causal refinement \cite{schulz2011} included. Veltman's construction \cite{veltman2005} is a different operation: it retracts the antecedent's negation from the \emph{basis} of each world of the factual state separately, removing dependent consequences with their grounds, and extends each retracted basis under the standing laws; it works over information states and intermediate states of its own, so neither the index nor the existence of an intermediate distinguishes the present account from it. The difference is between world-by-world basis retraction and the global reopening of an attribute through one blank intermediate, and it shows on the witness: on the encoding that takes the two constraints as the laws and the completions of $A$ as the factual state, the world $(\neg x, s, y, \neg z)$ has basis $\{s, \neg z\}$, retracting $\neg x$ can retain $\neg z$, and restating $x$ then admits $(x, \neg s, \neg y, \neg z)$, so the clause affirms neither $x \mathrel{\Box\!\!\rightarrow} y$ nor $x \mathrel{\Box\!\!\rightarrow} z$, and $x \wedge y \mathrel{\Box\!\!\rightarrow} z$ comes out false as well (the accompanying script enumerates the clause): the instance does not arise for Veltman's clause, which separates from the present operator on $x \mathrel{\Box\!\!\rightarrow} y$ itself. Veltman intends his definition for antecedents speaker and hearer believe false \cite[n.~16]{veltman2005}; the witness leaves $x$ unsettled, so the row is a formal application of his clause to a case he leaves open, which is why the label ``Veltman-type'' is kept. Run where the antecedent is known false, on $A' = \mathrm{Cl}(\{s, \neg x\})$, the present operator returns the same three verdicts at every scope and Cautious Monotony fails as before, while the other rows keep their pattern (the script computes the case; the AGM row then requires revision rather than expansion, which is why $A'$ is kept out of the table).
+
+\textit{The witness under the nearest semantics.} Table~\ref{tab:competitors} gives each semantics' verdicts on the three conditionals of Theorem~\ref{thm:nonpref}, computed by the accompanying script under the encodings its README specifies; the rows are claims about those encodings, their fidelity to the cited accounts being for the reader to check. The maximal-consistent-facts comparator \cite{lewis1981} and AGM revision \cite{agm1985} both keep $s$, the antecedent being consistent with it, so $C$ forces $z$ under $x \wedge y$ and the instance holds. Pearl's procedure, for the structural model $S := U_S$, $X := U_X$, $Y := S \vee U_Y$, $Z := (X \wedge S) \vee U_Z$, the natural causal reading of the two constraints, intervenes on $Y$ by cutting the arrow from $S$, which keeps its abduced value, so again $z$ follows \cite{pearl2009}; another causal reading of the same constraints could differ. Winslett's update \cite{winslett1988}, in the update class Katsuno and Mendelzon characterize \cite{katsuno1991}, moves each completion of $A$ to its nearest antecedent-completions separately, the update targets being required to satisfy the antecedent together with the standing constraints, which already lets $s$ vary under $x$ alone, so it rejects $X \mathrel{\Box\!\!\rightarrow} z$ and the instance does not arise. The dual-peg operator is the only one of these that affirms both premises and rejects the conclusion, and it does so for one identifiable reason: it clears the support of a reopened conjunct.
+
+\begin{table}[ht]
+\centering
+\small
+\caption{The witness of Theorem~\ref{thm:nonpref} under neighboring semantics, each computed from one clause under the encoding specified in the supplement's README (\texttt{counterfactual\_check.py}).}
+\label{tab:competitors}
+\begin{tabular}{@{}lcccl@{}}
+\toprule
+Semantics & $x \mathrel{\Box\!\!\rightarrow} y$ & $x \mathrel{\Box\!\!\rightarrow} z$ & $x \wedge y \mathrel{\Box\!\!\rightarrow} z$ & Cautious Monotony \\
+\midrule
+This paper, dual-peg reading & yes & yes & no & fails \\
+This paper, Boolean reading & yes & yes & yes & holds \\
+Maximal-consistent-facts comparator & yes & yes & yes & holds \\ Basis retraction, Veltman-type & no & no & no & not instantiated \\
+AGM revision & yes & yes & yes & holds \\
+Pearl, the model in the text & yes & yes & yes & holds \\
+Update (Winslett) & yes & no & no & not instantiated \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent\textit{Reproducibility.} The script \texttt{counterfactual\_check.py} (Python~3, standard library only) implements Definition~\ref{def:operator} on finite, fully supported models: a declared support relation $\mathsf{Dep}$ (in the random models, the entailment-derived relation), the three named scopes, the protected content of (c), reopening as the inclusion-maximal closed restrictions containing the protected content and blank on the scope's attributes, ties kept, normalized antecedent targets, and the perturbation as the union over intermediates of $R_X(B)$. Run with no arguments, it prints the witness at every scope, the streetlight at the three scopes, the Cut countermodel, the three-attribute Cautious Monotony countermodel and the dependent-clearing case, the Left Logical Equivalence and exhaustive-disjunction cases, every row of Table~\ref{tab:competitors} and the known-false-antecedent comparison on $A'$, the witnesses for antecedent strengthening, contraposition and transitivity, and the random-model counts reported above, from $3{,}000$ draws at the seed $20261008$. The script, its README, which specifies the encoding of each comparator row, and the expected output form the submission supplement, and the figures reported in the text are that output.
+
+\textit{Against the interventionist tradition.} Against the interventionist tradition \cite{pearl2009}: the perturbation is an operation on the evaluation point's own structure, as an intervention is, and the natural translation reads $\ominus_\sigma$ as the graph surgery's analogue on deductive-plus-recorded-causal structure; the difference is that the present clauses need no structural-equation model beyond the declared dependency relation of Definition~\ref{def:operator}, graph-shaped structure the paper assumes rather than derives. Nearer kin on the causal side: Hiddleston's causal-model semantics evaluates counterfactuals over network states with no similarity ordering anywhere \cite{hiddleston2005}, and Schulz's causal premise semantics runs the premise route through causal structure \cite{schulz2011}; the differentia against both is as throughout, indexation to evaluators, the weight grain, and a declared scope menu in place of a fixed network policy.
+
+\textit{Against Kment.} Against Kment's program \cite{kment2014} of grounding closeness in explanatory structure: the present proposal agrees that the ordering was never fundamental and differs in eliminating rather than grounding it.
+
+\textit{Limits.} The measure over reopened blanks is taken as given, with the invariance question open. The priorities under which maximal reopenings are computed (laws over particulars) are declared, not derived. And the proposal inherits its account of \emph{recorded} causal posterity from the state's entries; where the books are causally impoverished, the unidirectional scope degenerates toward evidential-minimal, a limitation of the proposal.
+
+\emph{Open problems, as determinate targets.} (1) Name a representation class outside the exclusion of D2---orderings over richer, partial, validity-graded points whose probability-one clause does not induce a smooth preferential relation---and determine whether any member reproduces the full graded, indexed verdict function; until the class is named, D3 is not well posed. (2) The measure-invariance question for the grades, narrowed by the fuller development to the kernel's side, the measure over a reopened blank being the information state's own retained weighting; what remains is the quantitative kernel's derivation. (3) A completeness result for the operator's logic --- axiomatize the $\{\Box\!\!\rightarrow, \Diamond\!\!\rightarrow\}$ fragment over the class of information-state models and locate it against the Lewis hierarchy. (4) The derivation of the reopening priorities from the closure structure itself, together with a characterization of exactly when they determine the maximum of Proposition~\ref{prop:interior} uniquely. (5) Embeddings: verdicts-not-bookable blocks the triviality results and leaves left-nested conditionals and attitude embeddings without an account; supply the compositional story, or delimit the operator as root-level. (6) Extend the Kratzer-side deletion beyond the audited uses, deriving weak necessity, the deontic and bouletic flavors, and comparative possibility from stated-content priorities and weight, or delimit Eq.~\eqref{eq:kratzer} to the counterfactual--epistemic fragment. Each has a stateable success condition, and the proposal binds itself to whichever verdicts the constructions return.
+
+\emph{What is established.} The three claims and their grades are those of the table of Section~\ref{sec:deletion}: D1 by inspection of the clauses, D2 by Theorem~\ref{thm:nonpref} on finite, fully supported models under the dual-peg reading, with the neighboring semantics' verdicts on the same countermodel in Table~\ref{tab:competitors}, and D3 open until its class is named. The result depends on the dual-peg reading, the interpretive commitment justified in Section~\ref{sec:deletion}; on the declared priority policy only in that it is antecedent-independent; on the grade of blankness demanded at the intermediate not at all, the witness satisfying the framework's stronger requirement as well as this paper's; and on the weight kernel not at all, the kernel entering only the grades.
+
+\vspace{0.4cm}
+\noindent{\small \textbf{Provenance.} The machinery, its worked cases and the deletion claim are the author's, established in the author's own terminology before contact with the possible-worlds literature and deposited at PhilArchive from November 2024 onward, as \cite{Aethus} documents. AI assistance (from June 2026) supplied recognition and translation, identifying the standing literatures the structures inhabit and converting outlined machinery into standard notation; the paper was drafted in that mode for the author's revision.}
+
+
+\appendix
+\section{Interior Structure of Removal}\label{app:interior}
+\noindent The two propositions recover the removal stage as an interior operator where the priorities select a greatest restriction, and describe what it removes; the Cut lemma and the comparison with belief change cite them as a special case, and the central proof does not use them. Throughout the appendix a singleton reopening is identified with its sole member, $A \ominus_{\sigma} q$ denoting that intermediate rather than the one-element set.
+\begin{proposition}[Interior structure of removal]\label{prop:interior}
+Fix a scope $\sigma$ and a target $q$, and call a family $\mathcal{B}$ of closed states, each blank on every attribute of the scope-cone, \emph{coherent on a domain} $\mathcal{D}$ of states when for every $A \in \mathcal{D}$ the protected-content family of Definition~\ref{def:operator}~(c) is the restriction of $\mathcal{B}$ to $A$: $\mathcal{B}_{\sigma,q}(A) = \{B \in \mathcal{B} : \mathrm{C}(B) \subseteq \mathrm{C}(A)\}$. Suppose $\mathcal{B}$ is coherent on $\mathcal{D}$ and that for every $A \in \mathcal{D}$ the set $\{B \in \mathcal{B} : \mathrm{C}(B) \subseteq \mathrm{C}(A)\}$ has an inclusion-greatest element, which is then the member the priorities select. Then $R(A) := A \ominus_{\sigma} q = \max\{B \in \mathcal{B} : \mathrm{C}(B) \subseteq \mathrm{C}(A)\}$ on $\mathcal{D}$ is the image of an interior operator, contractive, monotone and idempotent, right adjoint to the inclusion of $\mathcal{B}$ into $\mathcal{D}$. Two weaker hypotheses are distinguished from this one. Greatestness only within each protected-content family $\mathcal{B}_{\sigma,q}(A)$, with the family varying with the input because protection does, gives $R(A)$ as the greatest member of its own family and nothing more: monotonicity across inputs and the adjunction are not claimed without coherence. And uniqueness of the selection under $\Pi$ without inclusion-greatestness, two inclusion-incomparable maximal restrictions being ranked by $\Pi$ with neither containing the other, gives $R(A)$ as the priority-selected maximal closed restriction, and neither the maximum nor the adjunction is claimed.
+\end{proposition}
+\begin{proof}
+Under coherence the candidate set at every input is the restriction of one fixed poset $\mathcal{B}$ to the input, so $R$ is the standard operator $A \mapsto \max\{B \in \mathcal{B} : B \subseteq A\}$: contractive by definition, monotone because a larger input restricts $\mathcal{B}$ to a larger set, idempotent because a member of $\mathcal{B}$ is its own greatest restriction, which is the universal property of a right adjoint to the inclusion, whence uniqueness of the intermediate. Pointwise greatestness in candidate sets that vary with the input does not by itself give global monotonicity or a right adjoint to a single inclusion, which is why coherence is the hypothesis.
+\end{proof}
+\begin{proposition}[The ideal removed object, and recovery]\label{prop:recovery}
+In the setting of Proposition~\ref{prop:interior}, with $I = A \ominus_{\sigma} q$ the intermediate, the \emph{ideal removed object} $E^{*} := A \setminus I$ is unique and meets every support of each of its members, a support of an entry being a minimal set of stated entries whose closure contains it: where each support is a single entry $E^{*}$ is downward closed under the support relation, an ideal, and where a support is joint it needs only one member, so that in general $E^{*}$ is a hitting set of its members' supports. Restating $E^{*}$ over $I$ recovers $A$ exactly, $\mathrm{Cl}(I \cup E^{*}) = A$, and a subset $S \subseteq E^{*}$ recovers $A$ iff $E^{*} \subseteq \mathrm{Cl}(I \cup S)$; $E^{*}$ is the maximum of the recovering sets, while minimal recovering sets are in general non-unique and proper.
+\end{proposition}
+\begin{proof}
+Uniqueness of $E^{*}$ follows from that of $I$. If every member of some support of an entry of $E^{*}$ survived in $I$, closure would re-derive the entry, contradicting the intermediate's blankness; so $E^{*}$ meets every such support, needing only one member of a joint one. The recovery identity holds since every entry of $A$ lies in $I$ or in $E^{*}$ and closure adds nothing above $A$. For the criterion: if $E^{*} \subseteq \mathrm{Cl}(I \cup S)$ then $\mathrm{Cl}(I \cup S) \supseteq \mathrm{Cl}(I \cup E^{*}) = A$, and $\mathrm{Cl}(I \cup S) \subseteq A$ since $I, S \subseteq A$; conversely recovery puts $E^{*} \subseteq A = \mathrm{Cl}(I \cup S)$. That proper subsets can recover is exhibited by retained laws: with particulars $r{=}1, t{=}1, q{=}1$ cleared against retained laws $r{=}1 \rightarrow t{=}1$ and $t{=}1 \rightarrow q{=}1$, the singleton $\{r{=}1\}$ regenerates the other two through the laws and recovers $A$ outright.
+\end{proof}
+\noindent Where the priorities tie, no maximum exists --- only incomparable maximal restrictions, the remainder-set situation of the belief-revision literature \cite{agm1985} --- and the reopening is multi-valued exactly as stated above; the complement-and-recovery identity then applies branchwise, with $E^{*}$ unique per branch, while the greatest-element and adjunction claims do not. Two domain qualifications belong here as well: the empty closed state leaves $q$ blank only when the laws do not already force it, and well-founded priorities guarantee maximal selections only with their orientation fixed, the higher priority being the one retained.
+\noindent Where every support is single, the clearing map's fibers are the preimages under the saturation $E \mapsto \mathrm{ideal}(E)$ --- a closure operator on removed-sets whose fixed points are exactly the ideal removed objects --- which is the splash principle stated as algebra. Where a support is joint, saturating a removed-set means choosing which member of the support goes, which is the priorities' work, and the saturation is defined relative to $\Pi$. 
+
+\printbibliography
+
+\end{document}
