@@ -1165,3 +1165,18 @@ By the way here are some much earlier entries of mine, which I thought were addr
 ## Entry 265, 7:47 PM, Oct 11, 2026
 
 Also I just want to confirm that the meridian law (I believe that's Law II) doesn't destroy the Keplerian nearby limit on small masses by making them also full isotropic monopoles or something---the idea for smaller masses is that since they don't take up anywhere near the majority of the mass (as the primaries do), they therefore effectively perturb or bunch the meridian fibers slightly or something---or at least designing Law II to make this so is the goal\! Thanks\!
+
+## Entry 266, 9:03 PM, Oct 11, 2026
+
+Awesome, thanks\! Now how would we start to integrate this idea in with the Boltzmannian space concepts, once we finish out getting a solid foundation for G from the macroscale phenomena anyway??? Thanks\!
+
+## Entry 267, 9:31 PM, Oct 11, 2026
+
+By the way another question I’m thinking about here—not necessarily to actually enforce it at the moment but just to test it out—is like, suppose we wanted to test out an alternative to Law I which instead works as follows:
+
+* Constraint 1\) On a given representation leaf thing (ie the 3-sphere but with matter on it and stuff) in the middle space, the v^2 formula has to remain exactly the same in special case of an isotropic matter distribution on it, as falls off exponentially in the stereographic projection from a given special “origin” point on it.  
+* Constraint 2\) The difference, however, is that proper length traced from the special origin point to its antipode along the geodesic (in the sense of proper length anyway) path between them reflects exactly what the stereographic projection would have it be, and so is infinite proper length altogether.  
+* Constraint 3\) Locally to a given source of matter we have to agree with the existing version of Law I, ie in how we exactly agree with the Einstein field equations in the gravity base space quotient, that way the actual empirical-scale limit is achieved.
+
+So the major deviation from the standard idea is the constraint 2 thing there itself, with my rough idea being that something actually being on the closed 3-sphere object thingy itself, in terms of meeting your own meridian fiber after traveling the path, IS what instates the inflated proper length concept. That way we can allow that to do some of the work and get the infinity case as maybe a joint combination of the shift to the EFE constraint AND the closed property of the representation leaf as opposed to putting all of it on the EFEs directly.  
+And yeah, this then could maybe be an idea about how to try and develop both the Hubble redshift concept AND the actual galaxy flat rotation curves, at least in the sense that it’s a perturbation to Law I while still explicitly sourcing the flat rotation curve material from the combination of the meridians and leaves so as to maybe search through more possibilities. Anyways, thanks\!
