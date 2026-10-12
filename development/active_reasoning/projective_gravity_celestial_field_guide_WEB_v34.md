@@ -1,4 +1,4 @@
-# Projective Gravity — Version 34.2 (draft): the middle-space source reset, refereed four times — matter inhabits the five-dimensional middle space, Law I reduces stress-energy along complete meridian fibers as the response of one parent action, the Einstein equation is a quotient constraint, Law II is a universal matter-responsive meridian law whose dominant-primary branch is the great-circle pencil *outside a finite interlocking core* (the point pencil is its zero-core limit), the pole primary's uniform base image is an isotropic-core prescription and not a theorem, the rigid closure is sufficient and not unique, the first-order lapse relation is exact, the first-order meridian backreaction is a kinematic transport whose physical content is *open* (not harmless), the total base rest mass of the static closed arena is fixed by the Hamiltonian constraint so that the closure must surrender exactly the secondary's mass and no conserved-number medium can be the closure, lensing on the pulled-back leaf has zero gravitational slip, and the representation-stretch branch of Entries 267–268 is recorded with its tests; Parts 0–XXVIII retain their v32.27/v31.27 calculations as conditional benchmarks under the governing note; Part XXIX §§0–20 —
+# Projective Gravity — Version 34.3 (draft): coupled source reduction and conditional static benchmarks
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases — with branches on charge and extremality, and on rendering and canonical optics
 
@@ -12,7 +12,9 @@
 
 > **v34.1 — the double referee round (12 October 2026) and what now governs.** Two reports were received on v34.0: the standing referee's execution brief with the author's archival Entries 156–158 of 30 September, and an independent blind report (18 findings, reproduced calculations, an analytic counterexample and replacement core text). Every definite finding is implemented in this version; the new work is in §§XXIX.10–16, the local corrections carry *v34.1* tags, and the register runs R56–R79 (§XXIX.16). The controlling statements, which supersede any passage below that says otherwise, are these. **(1) Geometry.** The family of great circles through $\pm p$ is *parameterized* by $\mathbb{RP}^3$; those circles share the poles and are therefore **not** the disjoint fibers of a quotient of the original $S^4$. On the regular stratum $S^4\setminus\{\pm p\}\simeq(0,\pi)\times S^3$ the connected meridian leaves are indexed by $S^3$; the regular map to $\mathbb{RP}^3$ has *two open arcs* per fiber and adds the pairing $n\sim-n$, which the line field does not supply; a space with genuine disjoint complete fibers exists only after a resolution — the control $\widetilde X=(S^3\times S^1)/((n,\theta)\sim(-n,-\theta))$ of §XXIX.10 is one, non-orientable, with directional core sections, and is not asserted to be physical. The pulled-back base metric $q^*g_G$ is regular on the regular stratum only; at an original pole it diverges as $r^{-2}$. **(2) The pole primary.** The coarea reduction of a *smooth* density axisymmetric about the poles is uniform on the base (Toy C, retained); a *point mass at the pole* has **no canonical reduction** — shrinking annuli with different even angular profiles converge to the same $M\delta_p$ in the middle space and to different base measures (§XXIX.10, computed). The uniform closure image is therefore an **isotropic-core prescription**, extra data to be derived from the core's dynamics, not a consequence of zero volume weight; R55 is rewritten accordingly. **(3) The finite core (Entries 156–158).** The author's primary never required the meridians to meet at a point: a finite, matter-conditioned interlocking interior with a smooth transition to an exterior in which the meridians approximate the radial, antipodal pencil — the round point-pencil is the **zero-core limit**, and the gravitational seed needs only three *exterior* conditions: near-normal crossings of the selected $S^3$, radial organization of the congruence, approximately antipodal return (§XXII.12; §XXIX.14). The core-to-base directional measure of that interior is exactly the datum (2) leaves open. **(4) Source and conservation.** $T^{(g)}$ is the response of the *complete* source action (matter, meridian variable, constraints, core) to the base metric with the independent variables fixed; conservation follows from covariance and the complete equations of motion; Toy B's obstruction term is the Lie-derivative of the action in the fiber-length field, and an auxiliary (non-propagating) fiber-length sector restores conservation of the total — no radion is logically forced (§XXIX.11). **(5) The static benchmark.** The first-order lapse relation is exact, $\nu=-2\psi+2\psi(0)$; the plateau has the closed form $v_{\rm eq}^2=12\pi\int_0^{\pi/2}\rho_{\rm eff}\sin^2x\cos x\,dx-4\pi\rho_{\rm eff}(\pi/2)$; the printed table's compact entry becomes $2.9929$ (the old $0.1$–$1\%$ "full-system correction" was shooting error); the rigid closure is *sufficient*, not unique — a finite slope $s=dp/d\rho>1/5$ gives a nonoscillatory compact Green function with $v_{\rm eq}^2/\mu=-(3+1/s)/\cos(\tfrac\pi2\sqrt{4+1/s})$ ($4.2917$ at $s=1$), and $p/\rho$ is not $dp/d\rho$ (§XXIX.13). **(6) The two-source test, first executed step.** In the kinematic control the first-order meridian response to an extended secondary redistributes the pole primary's base image by $-\kappa(\rho_S-\langle\rho_S\rangle)$ with $\kappa\simeq0.72$–$0.86$ — the same order as the secondary's own source — but that redistribution is a *relabeling* of a uniform measure *[the rest of this item is **withdrawn in v34.2 (R80)**: the transport is a mass-form statement, not a proper-density one, a changed quotient is not a strict relabeling, and the survival of the Keplerian field is open — see the v34.2 paragraph and §XXIX.12; the residual's falloff is author-reported numerical behaviour over three widths]*; had the base metric been pinned to the leaf's labels the plateau would change by $-71\%$ with a size-dependent coupling (§XXIX.12). What is not settled is the primary's stress response (fixed measure versus rigid proper density), which is the Theorem I/III target and now carries the budget test of §XXIX.17. **(7) Labels.** The status tags [T/V/D/S/O/R] are kept for the archive and supplemented, in Part XXIX from §XXIX.10 on and in the register, by the evidence system both referees asked for: *standard result*, *proved here (under stated assumptions)*, *conditional calculation reproduced*, *numerical claim not independently reproduced*, *model premise*, *open construction*, *withdrawn* (§XXIX.16). **(8) Masses.** $M_{\rm bg}=\pi c^2\ell/4G=2.626\times10^{17}M_\odot$ at $\ell=16$ kpc is the base closure mass; $M_c=2M_{\rm bg}=5.252\times10^{17}M_\odot$ is its mathematical cover lift; a candidate pole primary under Toy C's same-total convention carries the **base** mass. Branch symmetry (§XXII.11) is retained as a parent-level requirement, with the exchange test stated for the full-middle-space ontology (§XXIX.14); the optical-frame coefficient $N^2$ is a frame coefficient, not a matter-dependent coupling; the Brans–Dicke negative result is scoped to the tested ansätze; the Higgs data verdict awaits a model-consistent joint fit; the Johnston citation is corrected (§XXIX.15).
 
-> **v34.2 — the second double round (12 October 2026): what is withdrawn, what is proved, what is new.** Two further reports arrived on v34.1 — the standing referee's assessment with a note on the Boltzmannian core, and the blind referee's follow-up — together with the author's Entries 267–268 and a referee analysis of them. **Withdrawn (R80).** §XXIX.12's Result 3 claimed that the first-order meridian backreaction is a relabeling with no invariant content and marked the survival of the secondary's near field and plateau as proved. That was too strong: a transported mass *form* is not a transported *proper density* unless the metric volume element is transported with it ($\delta m_P = (\delta\rho_P+\tfrac{\bar\rho}2{\rm tr}\,\delta h)\,dV_0$, so a pure pullback has $\delta\rho_P = 0$ only together with $\delta h = \mathcal L_\xi h_0$); a changed quotient is not a strict relabeling $q_\epsilon = \Phi_\epsilon\circ q_0$ of the old one; and H1–H3 supply neither the total stress nor the readout. The kinematic transport stands; its physical content — "harmless relabeling" or "physical cancellation" — is **open**, decided by the primary's constitutive response, which is the Theorem III target. The smooth-core angular displacement is also not finite at the old pole ($\eta\sim-4V_S'\sin\varphi/((\rho_c-\langle\rho\rangle)\theta)$, the coordinate breakdown about a *moved* critical point; the antipodal maximum moves too, by $(8/3)\epsilon$ in the point limit), so the point-core and finite-core limits do not commute and a moving-core chart is required; the finite-core residual is author-reported numerical behaviour over three widths, not an asymptotic law. **Proved (R81, §XXIX.17).** On the closed static base in the conformal gauge the Hamiltonian constraint fixes the total base rest mass at its background value at first order — $\int R\,dV$ and $2\Lambda V$ both shift by $12\int\psi$ — so *any* static closure surrenders exactly $M_S$ of rest mass when a secondary of mass $M_S$ is present ($\int(\delta\rho_{\rm cl}+6\bar\rho\psi) = -M_S$ for every constitutive law; the rigid branch does it through volume, a barotropic branch of slope $s$ through density $-M_S/(3s+1)$ and volume $-3sM_S/(3s+1)$); a **conserved-number** medium — fluid or solid, any bulk or shear modulus — cannot do it and admits **no static solution** (the even-sector matching matrix is singular and the sourced solution misses the common condition by exactly $M_S$, computed); the fixed-measure pressureless image fails the Laplacian's zero mode ($\Delta\psi = -2\pi\rho_S$ integrates to $-2\pi M_S\neq0$). The primary's base image must therefore lose $M_S$ — most naturally because the secondary is drawn from the arena's fixed content, $M_P^{\rm image}+M_S = M_{\rm bg}$ — and this integrated budget, with the hydrostatic law, is the acceptance test for Theorem III; the zero-total fiber transport of §XXIX.12 cannot supply the monopole and is not the mechanism. **Corrected (R84–R88).** The core-anisotropy "tolerance $a\lesssim15\mu$" is replaced by the transfer function $\delta v_{\rm eq}^2/c^2 = 8a/15$ for $Y_2 = (4\cos^2\chi-1)/3$ and the observable-specific bound $\vert a\vert\le\tfrac{45}{8}f\mu$ ($1.0\times10^{-8}$ for a one-percent tolerance in $v^2$; at $a = 15\mu$ the change is $8/3$ of the compact plateau); the convexity lemma carries its hypotheses (convex admissible domain closed under $SO(4)$ averaging, existence of a minimizer) and a strictly convex *forced* functional has an anisotropic minimizer $a = \epsilon j/8K$; the SI stress convention is $T^{\rm phys}_{\mu\nu} = -(2c/\sqrt{-g})\,\delta S/\delta g^{\mu\nu}$ with $x^0 = ct$; the coefficient comparison is $16\pi F/c^3$ against $2M_c/\pi c^2\ell$; "shooting error" becomes "a discrepancy incompatible with the exact equations, attributed by the author to the shooting calculation"; resonances are at even $n\ge2$; the finite-$s$ statement concerns the static Green function, not dynamical stability. **Evidence (R86).** Neither referee received the numerical suite, so every $\kappa$ fit, residual and critical-point claim is **author-reported** until the standalone file `pg_v34_numerics.py` delivered with this version is run; the labels in §§XXIX.12, 16 and in the current manuscript are downgraded accordingly. **New.** §XXIX.18 executes the minimal optical test on the leaf carrying the pulled-back base metric: near-field lensing is standard ($\alpha b/4\mu\to1$, excess $\simeq6b^2/\ell^2$), the Fermat potential is exactly twice the dynamical one — **zero gravitational slip**, as in GR — the full-circuit deflection vanishes, and the antipodal refocusing at $\pi\ell$ ($164$ kyr light time at $16$ kpc) remains. §XXIX.19 records the Boltzmannian core program: isotropy as typicality, $\log\Omega\simeq N\log K-Na^2/18$ for the quadrupole, so the referee's tolerance ladder demands $N_{\rm eff}\gtrsim18/a^2 = 10^{13}$–$10^{17}$ compatibility units — the entropy is the convex functional of §XXIX.10(g) with stiffness $N_{\rm eff}$. §XXIX.20 records the author's **representation-stretch branch** (Entries 267–268): Option A, $d\hat s^2 = \ell^2\sec^4(\chi/2)d\chi^2+\ell^2\sin^2\chi\,d\Omega^2$, puts the antipode at infinite proper distance $D = 2\ell\tan(\chi/2)$ while leaving every circular speed unchanged ($v^2 = RN'/NR'$ is independent of the radial coefficient) and makes the stereographic exponential an exact exponential in $D$; it is realized as the leaf's *inclination* into the meridian direction, $\hat\gamma = \gamma+d\Phi\otimes d\Phi$ with an unbounded meridian height $\Phi\sim2\ell\tan(\chi/2)$ — the author's "meeting your own fiber" made literal — and a four-centre regularization makes all distances finite with $D_{\rm antipode}\simeq2\ell/\sqrt{\epsilon}$; its costs and tests (a horn with divergent cross-sectional curvature, no Hubble law from a static stretch, the azimuth advance $\pi(1+\ell^2/b^2)$ that replaces point refocusing by spiralling, the epicyclic ratio $\kappa/\Omega$ reduced by $\cos^2(\chi/2)$ — $1.449\to1.352$ at $8$ kpc in the $\alpha = 0.1$ model) are stated; Law I is unchanged (minimal interpretation). The register runs R80–R92 (§XXIX.16).
+> **v34.2 — the second double round (12 October 2026): what is withdrawn, what is proved, what is new.** Two further reports arrived on v34.1 — the standing referee's assessment with a note on the Boltzmannian core, and the blind referee's follow-up — together with the author's Entries 267–268 and a referee analysis of them. **Withdrawn (R80).** §XXIX.12's Result 3 claimed that the first-order meridian backreaction is a relabeling with no invariant content and marked the survival of the secondary's near field and plateau as proved. That was too strong: a transported mass *form* is not a transported *proper density* unless the metric volume element is transported with it ($\delta m_P = (\delta\rho_P+\tfrac{\bar\rho}2{\rm tr}\,\delta h)\,dV_0$, so a pure pullback has $\delta\rho_P = 0$ only together with $\delta h = \mathcal L_\xi h_0$); a changed quotient is not a strict relabeling $q_\epsilon = \Phi_\epsilon\circ q_0$ of the old one; and H1–H3 supply neither the total stress nor the readout. The kinematic transport stands; its physical content — "harmless relabeling" or "physical cancellation" — is **open**, decided by the primary's constitutive response, which is the Theorem III target. The smooth-core angular displacement is also not finite at the old pole ($\eta\sim-4V_S'\sin\varphi/((\rho_c-\langle\rho\rangle)\theta)$, the coordinate breakdown about a *moved* critical point; the antipodal maximum moves too, by $(8/3)\epsilon$ in the point limit), so the point-core and finite-core limits do not commute and a moving-core chart is required; the finite-core residual is author-reported numerical behaviour over three widths, not an asymptotic law. **Proved (R81, §XXIX.17).** On the closed static base in the conformal gauge the Hamiltonian constraint fixes the total base rest mass at its background value at first order — $\int R\,dV$ and $2\Lambda V$ both shift by $12\int\psi$ — so *any* static closure surrenders exactly $M_S$ of rest mass when a secondary of mass $M_S$ is present ($\int(\delta\rho_{\rm cl}+6\bar\rho\psi) = -M_S$ for every constitutive law; the rigid branch does it through volume, a barotropic branch of slope $s$ through density $-M_S/(3s+1)$ and volume $-3sM_S/(3s+1)$); a **conserved-number** medium — fluid or solid, any bulk or shear modulus — cannot do it and admits **no static solution** (the even-sector matching matrix is singular and the sourced solution misses the common condition by exactly $M_S$, computed) *[narrowed in v34.3, R95: this holds for a closure sector whose separate charge is held fixed while an independent secondary is added; number conservation as a material law is not excluded, and the identity constrains integrated source energy, not rest mass]*; the fixed-measure pressureless image fails the Laplacian's zero mode ($\Delta\psi = -2\pi\rho_S$ integrates to $-2\pi M_S\neq0$). The primary's base image must therefore lose $M_S$ — most naturally because the secondary is drawn from the arena's fixed content, $M_P^{\rm image}+M_S = M_{\rm bg}$ — and this integrated budget, with the hydrostatic law, is the acceptance test for Theorem III; the zero-total fiber transport of §XXIX.12 cannot supply the monopole and is not the mechanism. **Corrected (R84–R88).** The core-anisotropy "tolerance $a\lesssim15\mu$" is replaced by the transfer function $\delta v_{\rm eq}^2/c^2 = 8a/15$ for $Y_2 = (4\cos^2\chi-1)/3$ and the observable-specific bound $\vert a\vert\le\tfrac{45}{8}f\mu$ ($1.0\times10^{-8}$ for a one-percent tolerance in $v^2$; at $a = 15\mu$ the change is $8/3$ of the compact plateau); the convexity lemma carries its hypotheses (convex admissible domain closed under $SO(4)$ averaging, existence of a minimizer) and a strictly convex *forced* functional has an anisotropic minimizer $a = \epsilon j/8K$; the SI stress convention is $T^{\rm phys}_{\mu\nu} = -(2c/\sqrt{-g})\,\delta S/\delta g^{\mu\nu}$ with $x^0 = ct$; the coefficient comparison is $16\pi F/c^3$ against $2M_c/\pi c^2\ell$; "shooting error" becomes "a discrepancy incompatible with the exact equations, attributed by the author to the shooting calculation"; resonances are at even $n\ge2$; the finite-$s$ statement concerns the static Green function, not dynamical stability. **Evidence (R86).** Neither referee received the numerical suite, so every $\kappa$ fit, residual and critical-point claim is **author-reported** until the standalone file `pg_v34_numerics.py` delivered with this version is run; the labels in §§XXIX.12, 16 and in the current manuscript are downgraded accordingly. **New.** §XXIX.18 executes the minimal optical test on the leaf carrying the pulled-back base metric: near-field lensing is standard ($\alpha b/4\mu\to1$, excess $\simeq6b^2/\ell^2$), the Fermat potential is exactly twice the dynamical one — **zero gravitational slip**, as in GR — the full-circuit deflection vanishes, and the antipodal refocusing at $\pi\ell$ ($164$ kyr light time at $16$ kpc) remains *[v34.3, R96–R97: the asymptote is logarithmic, $1+\beta^2(2\ln(2/\beta)-\tfrac13)$; the circuit statement concerns the signed gradient integral only — the forced-Jacobi return direction changes; the slip relation is conditional on a common metric readout]*. §XXIX.19 records the Boltzmannian core program: isotropy as typicality, $\log\Omega\simeq N\log K-Na^2/18$ for the quadrupole, so the referee's tolerance ladder demands $N_{\rm eff}\gtrsim18/a^2 = 10^{13}$–$10^{17}$ compatibility units — the entropy is the convex functional of §XXIX.10(g) with stiffness $N_{\rm eff}$. §XXIX.20 records the author's **representation-stretch branch** (Entries 267–268): Option A, $d\hat s^2 = \ell^2\sec^4(\chi/2)d\chi^2+\ell^2\sin^2\chi\,d\Omega^2$, puts the antipode at infinite proper distance $D = 2\ell\tan(\chi/2)$ while leaving every circular speed unchanged ($v^2 = RN'/NR'$ is independent of the radial coefficient) and makes the stereographic exponential an exact exponential in $D$; it is realized as the leaf's *inclination* into the meridian direction, $\hat\gamma = \gamma+d\Phi\otimes d\Phi$ with an unbounded meridian height $\Phi\sim2\ell\tan(\chi/2)$ — the author's "meeting your own fiber" made literal — and a four-centre regularization makes all distances finite with $D_{\rm antipode}\simeq2\ell/\sqrt{\epsilon}$; its costs and tests (a horn with divergent cross-sectional curvature, no Hubble law from a static stretch, the azimuth advance $\pi(1+\ell^2/b^2)$ that replaces point refocusing by spiralling, the epicyclic ratio $\kappa/\Omega$ reduced by $\cos^2(\chi/2)$ — $1.449\to1.352$ at $8$ kpc in the $\alpha = 0.1$ model) are stated *[v34.3: the angular-diameter cap is a central-observer special case, R99; the exact epicyclic formula, R98]*; Law I is unchanged (minimal interpretation). The register runs R80–R92 (§XXIX.16).
+
+> **v34.3 — the third double round (12 October 2026), and the author's centering requirement.** The long v34.2 title is retired for the short one above; what it listed now lives in these status paragraphs. Two further reports on v34.2 arrived — the standing referee's assessment with a note on the author's sanity check, and the blind referee's follow-up — together with the author's question: *the Option-A radial stretch must respond to stress-energy, so that in the isotropic case the radial centre is set by the centre of mass.* All corrections are implemented (R93–R104, §XXIX.16) and the numerical suite is now also embedded in this archive as §XXIX.21, since in both previous rounds only the archive reached the referees. **Narrowed (R93–R95).** The budget theorem of §XXIX.17 is a *first-order integrated source-energy* identity about the fixed-$\Lambda$ Einstein-static background — $E = T_{ab}n^an^b$, not particle rest mass — and it is the vanishing first variation of $\mathcal F[h] = \int(R-2\Lambda)dV$ at a background with $R_{ij} = 2h_{ij}$, not an artifact of the conformal parameterization; the exact round family $\mathcal E(a) = \tfrac\pi8(3a-a^3)$ shows it is first-order only. "Conserved-number media cannot be the closure" is withdrawn as a universal statement: the obstruction assumes a closure sector whose *separate* particle count is held fixed while an independent positive secondary is added; an isentropic conserved-particle fluid with $\rho(n) = \tfrac{\bar\rho}{1+s}[(n/n_0)^{1+s}+s]$ has exactly $\delta p = s\,\delta\rho$, and the budget's forced solution differs from the unperturbed one by the closure-sector charge $\delta\mathcal N_P = -(n_0/\bar\rho)M_S$ — consistent with conservation of the *combined* charge if the secondary is formed from the closure's content, which requires a transfer law. **Withdrawn (R96–R97).** "A ray that has gone round is undeflected in total": the signed gradient integral cancels, but the forced Jacobi equation $y''+y = f_\beta(s)$ on the curved background gives a nonzero return-direction change, $y'(2\pi)/\mu = -83.157$, $-21.899$, $-10.685$ at $\beta = 0.1, 0.5, 1.0$ (computed; the blind referee's values), and the equator-to-equator reference rays have $\beta$-independent antipodal endpoints, a degenerate Jacobi map — the tabulated quantity is a signed gradient-integral control, exactly $\alpha\beta/4\mu = \beta\cot\beta+2\beta\sin\beta\ln\cot(\beta/2) = 1+\beta^2[2\ln(2/\beta)-\tfrac13]+\ldots$, so the v34.2 "excess $\simeq6b^2$" is replaced by its logarithmic asymptote; the slip relation is conditional on a common metric readout. "The angular-diameter cap remains" in Option A is withdrawn as a blanket statement: for an observer at $D_0>0$ the radial-bundle angular-diameter distance is $D_A = R(D_0)R(D)\int_{D_0}^Ddu/R(u)^2\sim R(D_0)D^2/12\ell^2$, unbounded along the horn ($1.13, 2.24, 5.26, 17.6\,\ell$ at $D = 2, 5, 10, 20\,\ell$ for $R(D_0) = \ell/2$; computed) — the cap is the central-observer special case, and Option A has lost the homogeneity that made it universal. **Corrected (R98–R101).** The epicyclic ratio is stated exactly, $\kappa^2/\Omega^2 = [RR'(\eta''/\eta'-2\eta')+3R'^2-RR'']/A^2$ with $\eta = \ln N$ (Schwarzschild $1-6M/r$; the truncated form gives $1-4M/r$); the $-2RR'\eta'$ term is $5\times10^{-7}$ in the benchmark, so $1.449\to1.352$ stands and the Option-A factor $\cos^2(\chi/2)$ survives; the azimuth integral's turning points are $\arcsin(b/\ell)$ and $\pi-\arcsin(b/\ell)$; the horn's total volume is finite, $8\pi^2\ell^3 = 4V_{S^3}$, and a proper density on the stretched leaf carries $2.7\%$, $8.6\%$, $22\%$ more mass at $r_d/\ell = 0.05, 0.1, 0.2$; "the leaf is where the matter is" is qualified — matter inhabits the middle space and the leaf is a selected readout. The Boltzmann toy's entropy Hessian is local and matches the Dirichlet stiffness only mode by mode ($K = N/8$ for the quadrupole); at $N = 18/a_{\rm tol}^2$ the tail probability is ${\rm erfc}(1) = 0.157$. **The author's requirement (R102, §XXIX.20).** *The inclination must be selected covariantly by the full middle-space stress-energy and its meridian structure; no centre, origin or primary label may be prescribed independently of it; in the stationary isotropic one-primary limit the stretch is radial about the dynamically selected centre of energy and approaches Option A outside the finite core; moving the matter moves the stretch; several concentrations regularize one another through the same law.* A symmetry lemma makes centering automatic for any covariant law with a unique solution, and the simplest such law — a Poisson-type coupling $\Delta_B\Phi = \kappa(\rho-\langle\rho\rangle)$ — is computed: it centres correctly and is **not** Option A (bounded stretch, $1.02$ at most, antipodal distance $3.16\ell$), because Option A grows *away* from matter toward the meridian's return point; so the centre comes from the matter potential's minimum while the profile must come from the return/closure structure, and since no smooth regular inclination field on a compact $S^3$ is exactly infinite, the universal law must produce Option A only as the singular isolated-source limit. The embedding of the inclined leaf as the bisection of the resolved middle space is recorded as the branch's first open theorem.
 
 > **What v30 changes, in order.** (1) The definite corrections of the referee report, each independently verified: the Green function of $\Delta+3$ (IV.10), the analytic plateau coefficient $3$ (IV.8), the Kottler clock normalization and piecewise domain (XXIV.22), the rotating Kerr–Newman lapse (XXIV.8), the Koide sign branch (XXIV.26), the literal Higgs derivatives, the Hopf-invariant target reversal, and the closure-origin and stability statements — annotated in place and collected in the register. (2) The galactic model reformulated with the stress the lapse needs derived rather than chosen (Part XXV). (3) The scope of the new branch — gravity as the common descent of the middle-space structures, centrades as compatibility carriers, the local Weyl conjecture — stated with its statuses and without a mechanism claimed (Part XXVI). (4) The version-history summaries that follow are retained as the development archive; they are not the statement of standing, and every live claim is to be rebuilt from the register as the restructure proceeds.
 
@@ -4999,30 +5001,31 @@ Even-sector resonances sit at $\cos(\beta\pi/2) = 0$, i.e. $s_n = 1/(n(n+2)-3)$,
 
 *Both referees of v34.1 named the primary's constitutive response the decisive missing physics and asked that the first action-based investigation be about it, with meridian geometry and conservation in the same calculation. This section does what can be done at the level of the base: it proves a budget identity that every static closure must obey, shows that the most natural class of action-based media — anything with a conserved particle number, fluid or solid — cannot be the closure at all, tabulates the plateau over the barotropic family that can, and states the acceptance test that the middle-space derivation must meet. Units $G = c = \ell = 1$, $\bar\rho = 1/4\pi$, $\Lambda = 1$; the base is the unit $S^3$ (double cover; $M_{\rm lift} = 2M_S$). Reproduced by `stress_response_suite()` and `compensation_theorem()`.*
 
-**The budget theorem [proved here].** For a static closed universe with lapse $N$ the Einstein equations give the Hamiltonian constraint ${}^{(3)}R = 16\pi\rho+2\Lambda$ and the lapse equation $D^2N = N(4\pi(\rho+{\rm tr}\,\sigma)-\Lambda)$, whose integral is the balance law $\int N(\rho+{\rm tr}\,\sigma)\,dV = \frac{\Lambda}{4\pi}\int N\,dV$. At first order about Einstein-static dust in the conformal gauge $h = (1+4\psi)\bar h$, $N = 1+\nu$: the balance law gives $\int(\delta\rho+\delta{\rm tr}\,\sigma)\,dV_0 = 0$ — the active mass of the perturbation vanishes — and the Hamiltonian constraint, integrated, gives something stronger. The scalar curvature of the conformal metric is $R = (1-4\psi)(6-8\Delta\psi)+\ldots = 6-24\psi-8\Delta\psi$ and the volume element is $(1+6\psi)dV_0$, so $\int R\,dV = 6V_0+12\int\psi\,dV_0$ (the Laplacian integrates to zero), while $2\Lambda V = 2V_0+12\int\psi\,dV_0$: both shift by the same $12\int\psi$. Hence $16\pi M_{\rm tot} = \int R\,dV-2\Lambda V = 4V_0 = 16\pi\bar M$ **exactly at first order, for any closure**: *the total base rest mass of a static closed arena is fixed by $\Lambda$ and the background volume.* Equivalently, since $3\int\psi = -2\pi(M_{\rm lift}+\int\delta\rho_{\rm cl})$, the closure's rest-mass change is $\int(\delta\rho_{\rm cl}+6\bar\rho\psi)\,dV_0 = -M_{\rm lift}-\tfrac{3}{2\pi}\int\psi+\tfrac{3}{2\pi}\int\psi = -M_{\rm lift}$: **whatever its constitutive law, a static closure surrenders exactly the secondary's mass.** Checked on the computed solutions: the rigid closure has $\int\delta\rho_{\rm cl} = 0$ and volume term $6\bar\rho\int\psi = -2.0000 = -M_{\rm lift}$ (with $\int_{S^3}\psi = -4\pi/3$ and $3\int\delta p = -M_{\rm lift}$, the blind referee's independent result); a barotropic closure of slope $s$ splits it as $\int\delta\rho_{\rm cl} = -M_{\rm lift}/(3s+1)$ through density and $-3sM_{\rm lift}/(3s+1)$ through volume ($-0.2000$ and $-1.8000$ at $s = 3$; $-0.5000$, $-1.5000$ at $s = 1$; $-1.0526$, $-0.9474$ at $s = 0.3$; sums $-2.0000$ throughout). The fixed-measure pressureless image is the degenerate member: $\delta\rho_P = -6\bar\rho\psi$ makes the constraint $\Delta\psi = -2\pi\rho_S$, whose integral is $0 = -2\pi M_{\rm lift}$ — no static solution, the zero-mode obstruction of R81.
+**The first-order integrated source-energy budget [proved here; R93 wording].** For a static closed universe with lapse $N$ the Einstein equations give the Hamiltonian constraint ${}^{(3)}R = 16\pi E+2\Lambda$, with $E = T_{ab}n^an^b$ the source energy density measured by the slice normal, and the lapse equation $D^2N = N(4\pi(E+{\rm tr}\,\sigma)-\Lambda)$, whose integral is the balance law $\int N(E+{\rm tr}\,\sigma)\,dV = \frac{\Lambda}{4\pi}\int N\,dV$. At first order about Einstein-static dust in the conformal gauge $h = (1+4\psi)\bar h$, $N = 1+\nu$: the balance law gives $\int(\delta E+\delta{\rm tr}\,\sigma)\,dV_0 = 0$, and the Hamiltonian constraint, integrated, gives something stronger. The scalar curvature of the conformal metric is $R = 6-24\psi-8\Delta\psi$ and the volume element is $(1+6\psi)dV_0$, so $\int R\,dV = 6V_0+12\int\psi\,dV_0$ while $2\Lambda V = 2V_0+12\int\psi\,dV_0$: both shift by the same $12\int\psi$. Hence $16\pi\,\delta\!\int E\,dV = \delta\!\int R\,dV-2\Lambda\,\delta V = 0$ **at first order, about this background, for any closure**: *the integrated Hamiltonian source energy of a static closed arena is stationary at the Einstein-static background with $\Lambda$ fixed.* The cancellation is not an artifact of the conformal parameterization: the functional $\mathcal F[h] = \int_B(R[h]-2\Lambda)\,dV_h$ has first variation $\delta\mathcal F = \int[-R^{ij}+(\tfrac R2-\Lambda)h^{ij}]\delta h_{ij}\,dV_0$, which vanishes for *every* $\delta h_{ij}$ at a background with $R_{ij} = 2h_{ij}$, $R = 6$, $\Lambda = 1$. It is first-order only: along the exact round static family at fixed $\Lambda = 1$ — radius $a$, $\rho = (3/a^2-1)/8\pi$, $p = (1-1/a^2)/8\pi$ — the integrated energy on $\mathbb{RP}^3$ is $\mathcal E(a) = \tfrac\pi8(3a-a^3)$, with $\mathcal E'(1) = 0$ and $\mathcal E''(1) = -3\pi/4$ (computed), so "fixed total mass" is a statement about first variations, not an exact global theorem. Consequently, since $3\int\psi = -2\pi(M_{\rm lift}+\int\delta E_{\rm cl})$, the closure's integrated energy change is $\int(\delta E_{\rm cl}+6\bar\rho\psi)\,dV_0 = -M_{\rm lift}$: **whatever its constitutive law, a static closure gives up exactly the secondary's integrated source energy.** Checked on the computed solutions: the rigid closure has $\int\delta E_{\rm cl} = 0$ and volume term $6\bar\rho\int\psi = -2.0000 = -M_{\rm lift}$ (with $\int_{S^3}\psi = -4\pi/3$ and $3\int\delta p = -M_{\rm lift}$, the blind referee's independent result); a barotropic closure of slope $s$ splits it as $\int\delta E_{\rm cl} = -M_{\rm lift}/(3s+1)$ through density and $-3sM_{\rm lift}/(3s+1)$ through volume ($-0.2000$ and $-1.8000$ at $s = 3$; $-0.5000$, $-1.5000$ at $s = 1$; $-1.0526$, $-0.9474$ at $s = 0.3$; sums $-2.0000$ throughout). The fixed-measure pressureless image is the degenerate member: $\delta E_P = -6\bar\rho\psi$ makes the constraint $\Delta\psi = -2\pi\rho_S$, whose integral is $0 = -2\pi M_{\rm lift}$ — no static solution, the zero-mode obstruction of R81. *What the identity is and is not (R94).* It constrains the integrated Hamiltonian source **energy**. In a material model that energy includes internal, elastic, field and interaction contributions; it is not automatically a fixed particle rest mass times a number density — for dust the two coincide, for the proposed core/meridian action the identification has not been derived (the fluid action separates energy density from number density, $d\rho = (\rho+p)\,dn/n$ at fixed entropy per particle). Four quantities are kept apart from here on: the *number charge* $\mathcal N = \int n\,dV$; the *rest-mass integral* $m\mathcal N$; the *integrated Hamiltonian source* $\int E\,dV$, the quantity in this theorem; and the *reduced middle-space measure*, whose relation to the other three needs the action.
 
-**Conserved-number media cannot be the closure [proved here; R89].** Take the closure to be a relativistic elastic medium — the static limit of the Carter–Quintana/Beig–Schmidt action, with bulk slope $s = K/\bar\rho$ and shear modulus $t = \mu_s/\bar\rho$, material at rest with a radial displacement $\xi$, strain $\varepsilon_{ij} = 2\psi\bar h_{ij}+\nabla_{(i}\xi_{j)}$, stress $\delta\sigma_{ij} = -K\,{\rm tr}\,\varepsilon\,\bar h_{ij}-2\mu_s(\varepsilon_{ij}-\tfrac13{\rm tr}\,\varepsilon\,\bar h_{ij})$ and **conserved particle number**, $\delta\rho_{\rm cl} = -\bar\rho\,{\rm tr}\,\varepsilon$. Its rest-mass change is $\int(\delta\rho_{\rm cl}+6\bar\rho\psi) = -\bar\rho\int(6\psi+{\rm div}\,\xi)+6\bar\rho\int\psi = -\bar\rho\int{\rm div}\,\xi = 0$ on the closed base — in conflict with the budget theorem's $-M_{\rm lift}$. So no static even solution exists, for any $K$ and $\mu_s$. The computation shows how the conflict appears: with $\Theta = 6\psi+\xi'+2\xi\cot x$ the first-order system is the Hamiltonian constraint $\psi''+2\cot x\,\psi'+3\psi = -2\pi\rho_{\rm eff}+\tfrac12\Theta$, the lapse equation $\nu''+2\cot x\,\nu' = 4\pi\rho_{\rm eff}-(1+3s)\Theta$ and the force balance $(s+\tfrac43t)\xi'' = \nu'-6s\psi'-2s\cot x\,\xi'+2s\xi/\sin^2x-\tfrac83t\cot x\,\xi'+\tfrac43t(3\cos^2x-1)\xi/\sin^2x$; shooting the regular branch from the pole with series data (radial-equation residual $10^{-11}$, so the Bianchi identity holds), the two even conditions at the equator, $\psi'(\pi/2) = 0$ and $\xi(\pi/2) = 0$, have a matching matrix of determinant $10^{-16}$ because the regular homogeneous solutions obey $\xi\equiv2\psi'$ identically (residual $10^{-14}$), and the sourced solution misses the common condition by $\xi_P-2\psi'_P = +1.0000 = M_S$ at the equator, for $(s,t) = (10^5,0)$, $(1,0)$, $(1,0.3)$, $(0.5,1)$ alike. The shear modulus never gets to matter: the whole class is excluded before its constitutive details enter. *What this says physically:* the rigid "jellium" of Part XXV, and the barotropic family of the blind referee, are media whose base rest mass is **not** conserved — they respond to pressure without number conservation — and only such media admit a static secondary on the closed base.
+**What is excluded, and what is not: the fixed-closure-charge obstruction [proved here; R89 narrowed by R95].** Take the closure to be a relativistic elastic medium — the static limit of the Carter–Quintana/Beig–Schmidt action, with bulk slope $s = K/\bar\rho$ and shear modulus $t = \mu_s/\bar\rho$, material at rest with a radial displacement $\xi$, strain $\varepsilon_{ij} = 2\psi\bar h_{ij}+\nabla_{(i}\xi_{j)}$, stress $\delta\sigma_{ij} = -K\,{\rm tr}\,\varepsilon\,\bar h_{ij}-2\mu_s(\varepsilon_{ij}-\tfrac13{\rm tr}\,\varepsilon\,\bar h_{ij})$, zero background pressure, and **a separately fixed particle count**, $\delta E_{\rm cl} = -\bar\rho\,{\rm tr}\,\varepsilon$ (the displayed adiabatic deformation). Its integrated energy change is $\int(\delta E_{\rm cl}+6\bar\rho\psi) = -\bar\rho\int(6\psi+{\rm div}\,\xi)+6\bar\rho\int\psi = -\bar\rho\int{\rm div}\,\xi = 0$ on the closed base — in conflict with the budget's $-M_{\rm lift}$ when an *independent* positive secondary is added. So no static even solution exists in that experiment, for any $K$ and $\mu_s$; the obstruction follows from the integrated constraint alone and does not need the shooting calculation, which only shows how it appears: with $\Theta = 6\psi+\xi'+2\xi\cot x$ the first-order system is the Hamiltonian constraint $\psi''+2\cot x\,\psi'+3\psi = -2\pi\rho_{\rm eff}+\tfrac12\Theta$, the lapse equation $\nu''+2\cot x\,\nu' = 4\pi\rho_{\rm eff}-(1+3s)\Theta$ and the force balance $(s+\tfrac43t)\xi'' = \nu'-6s\psi'-2s\cot x\,\xi'+2s\xi/\sin^2x-\tfrac83t\cot x\,\xi'+\tfrac43t(3\cos^2x-1)\xi/\sin^2x$; shooting the regular branch from the pole (radial-equation residual $10^{-11}$), the two even conditions at the equator have a matching matrix of determinant $10^{-16}$ because the regular homogeneous solutions obey $\xi\equiv2\psi'$ (residual $10^{-14}$), and the sourced solution misses the common condition by $\xi_P-2\psi'_P = +1.0000 = M_S$, for $(s,t) = (10^5,0)$, $(1,0)$, $(1,0.3)$, $(0.5,1)$ alike (author-reported numerics; the analytic obstruction is what is proved). **What does not follow (R95).** v34.2 concluded that "only media violating particle conservation can possess the static barotropic responses" and that "no conserved-number medium can be the closure"; both are withdrawn as general statements. The isentropic equation of state $\rho(n) = \frac{\bar\rho}{1+s}\big[(n/n_0)^{1+s}+s\big]$, $p = n\,d\rho/dn-\rho$, has $\rho(n_0) = \bar\rho$, $p(n_0) = 0$ and $dp/d\rho = s$ (checked at $s = 0.3, 1, 3$), can be used in a conserved-particle fluid action, and has linear response exactly $\delta p = s\,\delta\rho$: the barotropic relation is not a non-conserving law. Its static current $J^a = nN^{-1}(\partial_t)^a$ is conserved for stationary $n$, $N$, $h$. What the budget forces is a **different closure-sector charge** in the perturbed static family, $\delta\mathcal N_P = (n_0/\bar\rho)\,\delta\!\int E_{\rm cl} = -(n_0/\bar\rho)M_S$: the family cannot be reached by a deformation that keeps that sector's charge fixed *while an independent source is added*, but it is consistent with conservation of the **combined** charge if the secondary is formed from the closure's existing content — which then needs a derived transfer/conversion law and its energy accounting. The correct statement is therefore: *fixed charge of an independently retained closure component is an assumption of the no-solution result; number conservation as a material law is not ruled out.* The shear modulus never gets to matter in the fixed-charge experiment; in the transfer picture the local constitutive response — fluid or solid — is what decides the Green operator, and is open.
 
-**The barotropic family, for the record [reproduced].** For the non-conserving law $\delta\rho_{\rm cl} = \delta p/s$ with hydrostatic $\delta p = \psi/2\pi$ (§XXIX.13), the $\alpha = 0.1$ galaxy's plateau is $v_{\rm eq}^2/\mu = 2.5566$ ($s\to\infty$, rigid), $2.6305$ ($s = 10$), $2.8164$ ($3$), $3.4780$ ($1$), $5.0665$ ($0.5$), $10.330$ ($0.3$; the resonance at $1/5$ approaches): the plateau is an order-one function of the constitutive law, which is the quantitative form of the standing referee's warning that "a different constitutive law changes the Green function and may alter the plateau". Within this family only the rigid member reproduces the Part XXV benchmark.
+**The barotropic family, for the record [reproduced; independently reproduced by the blind referee].** For $\delta E_{\rm cl} = \delta p/s$ with hydrostatic $\delta p = \psi/2\pi$ (§XXIX.13) — a law that is realizable by a conserved-particle isentropic fluid once the closure's charge is allowed to change by $-(n_0/\bar\rho)M_S$, R95 — the $\alpha = 0.1$ galaxy's plateau is $v_{\rm eq}^2/\mu = 2.5566$ ($s\to\infty$, rigid), $2.6305$ ($s = 10$), $2.8164$ ($3$), $3.4780$ ($1$), $5.0665$ ($0.5$), $10.330$ ($0.3$; the resonance at $1/5$ approaches): the plateau is an order-one function of the constitutive law — the quantitative form of the standing referee's warning that "a different constitutive law changes the Green function and may alter the plateau". Within this family only the rigid member reproduces the Part XXV benchmark. These are conditional static-response values, not a demonstration that every slope is a viable medium.
 
-**The reading, and the acceptance test for Theorem III [open; model premise].** Under the full-fiber Law I the primary's base image is a total-conserving reduction of fixed middle-space matter, so it cannot by itself lose $M_S$; the kinematic fiber transport of §XXIX.12 has zero total and cannot either. The budget theorem therefore forces one of three things: *(a)* the secondary is drawn from the arena's fixed content — the middle-space total is $M_{\rm bg}$ and a galaxy is a concentration of part of it, $M_P^{\rm image}+M_S = M_{\rm bg}$ — which is the author's own picture ("a primary holds the vast majority of the mass") and makes the rigid closure's "Archimedean" displacement of exactly $M_S$ a statement of conservation rather than loss; *(b)* the reduction does not conserve totals (the core's attribution changes), which the coarea measure forbids and a different measure would have to justify; *(c)* $\Lambda$ or the background responds, which is a different theory. Reading (a) is adopted as the leading hypothesis and recorded as a model premise. It fixes the **integrated** response but not the **local** one: where the closure gives up its mass (uniformly through volume at fixed proper density, as the rigid law has it, or partly through density, as a finite slope has it) is what decides the Green operator and the plateau. **Theorem III, restated:** for a dominant primary plus a weak secondary under one universal Law II, derive from the parent action the primary's reduced stress perturbation and show *(i)* the integrated budget $\int(\delta\rho_{\rm cl}+6\bar\rho\psi) = -M_S$ with the hydrostatic law $\delta p' = -\bar\rho\nu'$, *(ii)* the local split between density and volume that fixes the Green operator, *(iii)* the controlled solution for $\delta U$ and $\delta q$ with moving-core charts, and *(iv)* the invariant near-field observables of the readout; report a failure of any of these as an obstruction. Until (ii) is derived, the rigid benchmark is one member of a one-parameter family that spans a factor four in the plateau.
+**The reading, and the acceptance test for Theorem III [open; model premise].** Under the full-fiber Law I the primary's base image is a total-conserving reduction of fixed middle-space matter, so it cannot by itself give up $M_S$ of integrated source energy; the kinematic fiber transport of §XXIX.12 has zero total and cannot either. The budget therefore forces one of three things: *(a)* **the secondary is formed from the arena's existing content** — the middle-space total is $M_{\rm bg}$ and a galaxy is a concentration of part of it, $M_P^{\rm image}+M_S = M_{\rm bg}$ — which is the author's own picture ("a primary holds the vast majority of the mass"), makes the rigid closure's Archimedean displacement of exactly $M_S$ a statement of conservation rather than loss, and is the combined-charge reading of R95: it is a *different experiment* from adding external energy to a fixed closure sector, and it requires a derived transfer law with its energy accounting; *(b)* the reduction does not conserve totals (the core's attribution changes), which the coarea measure forbids and a different measure would have to justify; *(c)* $\Lambda$ or the background responds, which is a different theory. Reading (a) is adopted as the leading hypothesis and recorded as a model premise, not introduced as a consequence of an exclusion. It fixes the **integrated** response but not the **local** one: where the closure gives up its energy (uniformly through volume at fixed proper density, as the rigid law has it, or partly through density, as a finite slope has it) is what decides the Green operator and the plateau. **Theorem III, restated:** for a dominant primary plus a weak secondary under one universal Law II, derive from the parent action the primary's reduced stress perturbation and show *(i)* the integrated budget $\int(\delta E_{\rm cl}+6\bar\rho\psi) = -M_S$ with the hydrostatic law $\delta p' = -\bar\rho\nu'$, distinguishing the sector's conserved charge from its gravitational source energy and stating how the secondary is formed; *(ii)* the local split between density and volume that fixes the Green operator; *(iii)* the controlled solution for $\delta U$ and $\delta q$ with moving-core charts; *(iv)* the invariant near-field observables of the readout; report a failure of any of these as an obstruction. Until (ii) is derived, the rigid benchmark is one member of a one-parameter family that spans a factor four in the plateau.
 
 ## XXIX.18 A minimal optical test on the leaf: lensing with the pulled-back base metric is standard in the near field and has zero gravitational slip; the antipodal refocusing remains [T/V/O; v34.2]
 
 *The standing referee asked that one optical test be moved earlier: a minimal calculation of whether a selected local representation gives ordinary near-field light propagation and lensing while the base stays compact. This section does the one that needs no new construction — light on the equatorial leaf with the metric it inherits from the base — and records what it does and does not show. Reproduced by `optical_test()`.*
 
-**Setup and the slip [proved here].** Under the quotient-first hierarchy the leaf's gravitational geometry is the pullback $h_G = q^*g_G$ restricted to the leaf, i.e. the base metric lifted through the double cover: $ds^2 = -N^2dt^2+\phi^4g_{S^3}$ with the first-order rigid solution $N = 1+\nu$, $\phi^4 = 1+4\psi$. If light on the leaf follows null geodesics of this metric (Law IV, minimal reading), the Fermat metric is $(\phi^4/N^2)g_{S^3}$ and the optical index is $\ln n = 2\psi-\nu$; with the exact lapse relation $\nu = -2\psi+2\psi(0)$ this is $\ln n = 4\psi-2\psi(0) = -2\nu+{\rm const}$. The lensing potential is therefore **exactly twice the dynamical potential**: zero gravitational slip, the GR relation between the two metric potentials, with no free parameter. Whatever excess over the baryons the rotation curve shows, lensing shows the same excess — the model predicts agreement between dynamical and lensing masses, as GR with dark matter does, and differs from both only where the compact geometry enters.
+**Setup and the slip [proved here; conditional].** Under the quotient-first hierarchy the leaf's gravitational geometry is the pullback $h_G = q^*g_G$ restricted to the leaf, i.e. the base metric lifted through the double cover: $ds^2 = -N^2dt^2+\phi^4g_{S^3}$ with the first-order rigid solution $N = 1+\nu$, $\phi^4 = 1+4\psi$. **If** light on the leaf follows null geodesics of this metric (Law IV, minimal reading — a common metric readout for matter and light, which is an assumption), the Fermat metric is $(\phi^4/N^2)g_{S^3}$ and the optical index is $\ln n = 2\psi-\nu$; with the exact lapse relation $\nu = -2\psi+2\psi(0)$ this is $\ln n = 4\psi-2\psi(0) = -2\nu+{\rm const}$. In Newtonian-gauge language the two potentials satisfy $\Phi = \Psi = -2\psi$ up to the lapse constant: the lensing potential is exactly twice the dynamical one, a **conditional no-slip relation** with no free parameter. It does not by itself establish equality of *observationally inferred* dynamical and lensing masses in this compact geometry, because that inference needs the lens map of the next paragraph's caveats.
 
-**The near field is standard; the excess is $O(b^2/\ell^2)$ [reproduced].** For a ray at angular impact parameter $b$ from the lens at the pole, the first-order deflection accumulated over the near passage (equator to equator, $\cos\chi = \cos b\cos s$, $s\in(-\pi/2,\pi/2)$) is $\alpha(b) = -\int\partial_\perp\ln n\,ds$ with $\partial_\perp\chi = \sin b/\sin\chi$. For the point-mass closure Green function $F = \cos2\chi/\sin\chi$, $\ln n = 2\mu F+{\rm const}$ and $F' = -\cos\chi(1/\sin^2\chi+2)$:
+**The near field: a signed gradient-integral control with a closed form [proved here; R97].** For a ray at angular closest approach $\beta$ from the lens at the pole (the conserved null impact parameter of the unlensed round metric is $\ell\sin\beta$), the signed optical-gradient integral over the near passage (equator to equator, $\cos\chi = \cos\beta\cos s$, $s\in(-\pi/2,\pi/2)$) is $\alpha_{\rm grad}(\beta) = -\int\partial_\perp\ln n\,ds$ with $\partial_\perp\chi = \sin\beta/\sin\chi$. For the point-mass closure Green function $F = \cos2\chi/\sin\chi$, $\ln n = 2\mu F+{\rm const}$, $F' = -\cos\chi(1/\sin^2\chi+2)$, it integrates exactly:
+$$\alpha_{\rm grad}(\beta) = 4\mu\cot\beta+8\mu\sin\beta\,\ln\cot\frac\beta2,\qquad\frac{\alpha_{\rm grad}\beta}{4\mu} = 1+\beta^2\Big[2\ln\frac2\beta-\frac13\Big]+O\big(\beta^4\ln\tfrac1\beta\big).$$
 
 | $b/\ell$ | 0.02 | 0.05 | 0.1 | 0.2 | 0.3 | 0.5 | 0.8 | 1.0 | 1.3 | $\pi/2$ |
 |:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
 | $\alpha(b)\,b/4\mu$ (point mass) | 1.0036 | 1.0176 | 1.0565 | 1.1693 | 1.3049 | 1.5697 | 1.7651 | 1.6596 | 1.0478 | 0 |
 | $\alpha(b)\,b/4\mu$ ($\alpha = 0.1$ galaxy) | 0.0038 | 0.0231 | 0.0870 | 0.2966 | 0.5558 | 1.0424 | 1.4234 | 1.3879 | 0.8907 | 0 |
 
-The GR point-mass value is $1$; the compact arena with its closure term gives $1+\simeq6b^2/\ell^2$ at small $b$ (the $-2\cos\chi$ part of $F'$ contributes $8\mu b\ln(2/b)$, negligible), rising to $1.57$ at $b = \ell/2$ and $1.77$ at $0.8\ell$ before the symmetry zero at the equator; for the extended galaxy the small-$b$ values are the projected mass within $b$. Over a **full circuit** the deflection vanishes identically ($10^{-14}$): the twin's potential is the mirror of the lens's, and a ray that has gone round is undeflected in total. So: near-field light propagation and lensing on this leaf are ordinary GR with the base potential, with the closure's enhancement entering at the same order and in the same way as it enters the rotation curve — a prediction of **no slip**, testable where lensing and dynamical masses are compared (the model's excess over baryons is not a slip signal).
+(The table's $b$ is this $\beta$.) The GR point-mass value is $1$. The closed form reproduces every entry (e.g. $1.00355053$, $1.01760220$, $1.05646263$, $1.56973248$, $1.76505459$ at $\beta = 0.02, 0.05, 0.1, 0.5, 0.8$; the blind referee's independent values agree to eight digits), and its small-$\beta$ expansion shows that the leading enhancement is **logarithmic**: the local coefficient $(\alpha\beta/4\mu-1)/\beta^2$ is $8.88$, $7.04$, $5.65$, $4.23$ at $\beta = 0.02, 0.05, 0.1, 0.2$ — v34.2's "$\simeq6b^2$" described a finite range, not the asymptote, and the term it called negligible, $8\mu\beta\ln(2/\beta)$, is the leading correction to $4\mu/\beta$ (R97). For the extended galaxy the small-$\beta$ values are the projected mass within $\beta$. **The circuit (R96).** The signed integral cancels identically over a full background circuit ($f_\beta(s+\pi) = -f_\beta(s)$ for the transverse force $f_\beta = \partial_\perp\ln n$; $10^{-14}$ numerically). v34.2 concluded that "a ray that has gone round is undeflected in total"; **that conclusion is withdrawn.** On the curved background a ray perturbation propagates between deflections by the forced Jacobi equation $y''+y = f_\beta(s)$ (arclength in units of $\ell$, the $+y$ the sphere's curvature), so the return data are the *weighted* integrals $y(L) = \int_0^L\sin(L-s)f_\beta\,ds$, $y'(L) = \int_0^L\cos(L-s)f_\beta\,ds$, not the unweighted one. For $y(0) = y'(0) = 0$ and $L = 2\pi$ the symmetry gives $y(2\pi) = 0$ but $y'(2\pi)/\mu = -83.157$, $-21.899$, $-10.685$ at $\beta = 0.1, 0.5, 1.0$ (weighted quadrature and a DOP853 integration of the forced equation agree; computed, matching the blind referee): **the return direction is changed**, by an order-$\mu$ amount, and another starting phase produces a position change instead. A second caveat: the equator-to-equator reference rays $x(s) = (\cos\beta\cos s,\sin\beta\cos s,\sin s,0)$ have $\beta$-independent **antipodal endpoints** at $s = \pm\pi/2$, where the background Jacobi map is degenerate — not the nonsingular source–observer geometry behind a thin-lens mass estimate — so the half-passage table is a control integral, not an observational lensing law. What stands: local leading GR behaviour, the conditional slip algebra, and the closed form; the observer–source lens map and the circuit return map are to be computed with specified source, observer, screen and distance conventions.
 
-**What the test does not remove [open].** The refocusing. On the round leaf every ray from a point reconverges at the antipode after $\pi\ell$ ($50.3$ kpc, $164$ kyr of light time at $\ell = 16$ kpc); the first-order lens perturbs the conjugate point and does not remove it, and the areal radius is bounded by $\ell$ — the angular-diameter cap and the returned-light problem of Parts XVII–XVIII stand exactly as before. A galaxy-scale $S^3$ carrying the base metric as its optical geometry is therefore in conflict with observation regardless of the source law, and the readout map that Law IV's minimal reading assumes here must be different from the pullback at the global level while agreeing with it locally — or the leaf must not be a round $S^3$ in its optical geometry at all, which is the door the representation-stretch branch of §XXIX.20 opens (there, the azimuth advance between turning points is $\pi(1+\ell^2/b^2)$ instead of $\pi$, and point refocusing is replaced by spiralling, with the angular-diameter cap unchanged). The test moves the optical question from "unaddressed" to "located": local optics is fine and slip-free; global optics is the problem, and it is a problem about the leaf's geometry, not about Law I.
+**What the test does not remove [open].** The refocusing. On the round leaf every ray from a point reconverges at the antipode after $\pi\ell$ ($50.3$ kpc, $164$ kyr of light time at $\ell = 16$ kpc); the first-order lens perturbs the conjugate point — the circuit response above is one measure of how — and does not remove it, and for the central observer the unlensed angular-diameter distance is bounded by the areal radius $\ell$: the cap and the returned-light problem of Parts XVII–XVIII stand as before on this homogeneous leaf. A galaxy-scale round $S^3$ carrying the base metric as its optical geometry is therefore in conflict with observation regardless of the source law, and the readout map that Law IV's minimal reading assumes here must differ from the pullback globally while agreeing with it locally — or the leaf must not be a round $S^3$ in its optical geometry at all, which is the door the representation-stretch branch of §XXIX.20 opens (there the azimuth advance between turning points is $\pi(1+\ell^2/b^2)$ instead of $\pi$, point refocusing becomes spiralling, and — R99 — an *off-centre* observer's angular-diameter distance is **unbounded** along the horn even though the areal radius is bounded, so the cap argument does not transfer to the inhomogeneous stretched leaf). The test moves the optical question from "unaddressed" to "located": local optics is standard and slip-free under the common-readout assumption; global optics is the problem, it is a problem about the leaf's geometry, not about Law I, and it must be analysed through observer-normalized ray bundles with Jacobi transport, not through gradient integrals or areal-radius bounds.
 
 ## XXIX.19 The Boltzmannian core: compatibility counting as a candidate origin of the primary core's isotropy and stiffness; the three-level architecture and the collective map [S/O; v34.2]
 
@@ -5032,7 +5035,7 @@ The GR point-mass value is $1$; the compact arena with its closure term gives $1
 
 **The collective map and the statistical cost [open construction].** Let $\Gamma$ be a primitive relational microconfiguration and $\Omega_M = \{[\Gamma]:\Gamma\text{ realizes }M\}$ its equivalence classes under physical identification. The bridge is a to-be-derived many-to-one map $\mathscr C_M:\Gamma\mapsto(\mathcal M,\Psi,U_{\rm mer},\nu_{\mathcal I},\text{rendering data})$ — effective middle-space geometry, its matter degrees of freedom, the Law II meridian structure, the finite core's directional measure, and what is accessible to our description. Different primitive configurations give the same macroscopic gravitational configuration $X$; its weight is $W_M[X] = \sum_{[\Gamma]\in\Omega_M,\ \mathscr C_M(\Gamma)\simeq X}w_M([\Gamma])$ and its dimensionless cost $I_M[X] = -\log W_M[X]+{\rm const}$. The question Boltzmannian space is then asked is concrete: *which macroscopic middle-space geometries have the greatest compatible weight, and how strongly are departures suppressed?* $I_M$ is not automatically a real-time action; its dynamical significance needs a further principle or a statistical limit.
 
-**The first test: isotropy as typicality [toy; proved within the toy].** The finite core must present an approximately uniform directional measure $\nu_{\mathcal I}$ on $\mathbb{RP}^3$ (§§XXIX.10, 14), and §XXIX.10(g) says how uniform. Suppose the core has $N$ effectively independent compatibility units distributed over $K$ equivalent directional sectors with occupations $N_i$, $\sum N_i = N$; with equal elementary weights and distinguishable incidences the multiplicity is the multinomial $\Omega = N!/\prod N_i!$, and with $p_i = N_i/N$, $\tfrac1N\log\Omega\simeq-\sum p_i\log p_i$, maximized by $p_i = 1/K$ — the most numerous class is isotropic — with $\log\Omega\simeq N\log K-\tfrac{NK}{2}\sum_i(p_i-\tfrac1K)^2$ near it. For a quadrupolar departure $p_i = \tfrac1K(1+aY_2(n_i))$ with $Y_2 = (4\cos^2\chi-1)/3$, $\sum_i(p_i-\tfrac1K)^2\simeq(a^2/K)\langle Y_2^2\rangle$ with $\langle Y_2^2\rangle_{S^3} = 1/9$ (computed), so the relative weight of the anisotropic class is $\exp(-Na^2/18)$. The referee's tolerance ladder then reads as a requirement on the core's size in compatibility units: $e^{-1}$ suppression at $a = 10^{-6}$, $10^{-7}$, $10^{-8}$ needs $N_{\rm eff}\gtrsim18/a^2 = 1.8\times10^{13}$, $1.8\times10^{15}$, $1.8\times10^{17}$. Two identifications make this more than a picture. The entropy $-\sum p\log p$ is strictly concave, so *the convex functional of §XXIX.10(g) is Boltzmann's*, with stiffness $K\leftrightarrow N_{\rm eff}$: the unforced lemma and the forced susceptibility $a = \epsilon j/8K$ acquire a candidate microscopic meaning — the core is isotropic because isotropy is typical, and resists a secondary's forcing in proportion to the number of its compatibility units. And the order of attack the note proposes follows: *first* show that compatibility weight selects and stabilizes the macroscopic configuration (the core's measure, then the meridian organization), *then* ask the same structure for amplitudes, the Planck area and the worldline exhaust.
+**The first test: isotropy as typicality [toy; proved within the toy; R101 wording].** The finite core must present an approximately uniform directional measure $\nu_{\mathcal I}$ on $\mathbb{RP}^3$ (§§XXIX.10, 14), and §XXIX.10(g) says how uniform. Suppose the core has $N$ effectively independent compatibility units distributed over $K$ equivalent directional sectors with occupations $N_i$, $\sum N_i = N$; with equal elementary weights and distinguishable incidences the multiplicity is the multinomial $\Omega = N!/\prod N_i!$, and with $p_i = N_i/N$, $\tfrac1N\log\Omega\simeq-\sum p_i\log p_i$, maximized by $p_i = 1/K$ — the most numerous class is isotropic — with $\log\Omega\simeq N\log K-\tfrac{NK}{2}\sum_i(p_i-\tfrac1K)^2$ near it. For a quadrupolar departure $p_i = \tfrac1K(1+aY_2(n_i))$ with $Y_2 = (4\cos^2\chi-1)/3$, $\sum_i(p_i-\tfrac1K)^2\simeq(a^2/K)\langle Y_2^2\rangle$ with $\langle Y_2^2\rangle_{S^3} = 1/9$ (computed), so the relative weight of the anisotropic class is $\exp(-Na^2/18)$. The referee's tolerance ladder then reads as a requirement on the core's size in compatibility units: relative weight $e^{-1}$ at $a = 10^{-6}$, $10^{-7}$, $10^{-8}$ needs $N_{\rm eff}\gtrsim18/a^2 = 1.8\times10^{13}$, $1.8\times10^{15}$, $1.8\times10^{17}$. *Two qualifications (R101).* First, "the convex functional of §XXIX.10(g) is Boltzmann's" was too direct. The count gives a **local** relative-entropy cost, $I_{\rm ent} = \tfrac N2\int(\delta\sigma)^2d\omega+\ldots$ for $\sigma = 1+\delta\sigma$ on the normalized invariant directional measure, with no gradient coupling; the Dirichlet model has $F_D = \tfrac K2\int\vert\nabla\delta\sigma\vert^2d\omega$. For $\delta\sigma = aY_2$ these are $Na^2/18$ and $4Ka^2/9$, so matching **this mode** gives $K = N/8$ — a higher harmonic of Laplacian eigenvalue $\lambda$ would need $K = N/\lambda$ — and one constant cannot turn the local entropy Hessian into the Dirichlet Hessian for all modes. With the same forcing $-\epsilon j\int\delta\sigma Y_2\,d\omega$ the entropy toy gives $a = \epsilon j/N$ and the Dirichlet toy $a = \epsilon j/8K$, agreeing only after that matching. The correct statement: *independent equal-weight directional units produce a convex local entropy cost whose quadrupole curvature is proportional to their effective number — a candidate statistical origin of isotropy, not a derivation of a Dirichlet core action*; a physical stiffness needs the weights, the correlations between units, the coupling that supplies $j$, and the conversion between a dimensionless statistical cost and the response functional. Second, relative weight $e^{-1}$ at the tolerance boundary is not a confidence guarantee: in the one-mode Gaussian approximation the variance is $9/N$, and at $N = 18/a_{\rm tol}^2$ the tail probability is $\Pr(\vert a\vert>a_{\rm tol})\simeq{\rm erfc}(1) = 0.157$; a robustness claim must state a tail probability over the complete quadrupole sector. The order of attack the note proposes stands: *first* show that compatibility weight selects and stabilizes the macroscopic configuration, *then* ask the same structure for amplitudes, the Planck area and the worldline exhaust.
 
 **What this is not [status].** Typicality is not dynamics: a statistical weight becomes a stabilizing principle only with an ensemble, admissible states, gauge equivalence, a composition law and either a dynamical or a typicality argument for why the realized core sits at the maximum; the "independent units" and their equal weights are assumptions; $N_{\rm eff}$ is not yet related to any physical quantity of the primary; and the pure-state averaging commitment of §XXIX.7 stands — reduced density matrices from entanglement remain available. **Kill conditions:** no gauge-reduced count exists whose maximum is the isotropic measure; the required $N_{\rm eff}$ has no realization in the primary's content; or the susceptibility implied by the count fails the observable-specific tolerance of §XXIX.10(g) once the secondary's coupling $j$ is known.
 
@@ -5042,17 +5045,789 @@ The GR point-mass value is $1$; the compact arena with its closure term gives $1
 
 **Option A and the exact kinematic fact [standard result].** Keep the gravity base $\mathbb{RP}^3(\ell)$ and its Einstein equations; give the selected representational three-sphere the radial metric $d\hat s^2 = \ell^2\sec^4(\chi/2)\,d\chi^2+\ell^2\sin^2\chi\,d\Omega^2$. Its radial proper distance from the origin is $D(\chi) = \int_0^\chi\ell\sec^2(u/2)\,du = 2\ell\tan(\chi/2) = 2r_{\rm st}$: $D = \ell\chi+O(\chi^3)$ near the origin, $D(\pi/2) = 2\ell$, $D(0.99\pi) = 127\ell$, $D(\pi) = \infty$. For any static spherical metric $-N^2dt^2+A^2d\chi^2+R^2d\Omega^2$ the physical circular speed is $v^2/c^2 = RN'/(NR')$ — the radial coefficient $A$ cancels from the circular-geodesic condition — so changing $A\to\hat A$ at fixed $N$, $R$ leaves every circular speed and the continued equatorial limit unchanged: constraints 1 and 2 are kinematically compatible, exactly. **Option B** (make the whole spatial geometry stereographically Euclidean, $R = D$) is rejected: with $R = 2\ell\tan(\chi/2)$ the speed becomes $\sin\chi\,N'/N$ instead of $\tan\chi\,N'/N$ ($0.644$ against $0.842$ at $\chi = 0.7$) and the equatorial limit goes to zero with $N'$ — the nonzero plateau needs the turning point of the compact areal radius. A bonus of Option A: the source of §XXV.3, $\rho = \rho_0e^{-\ell\tan(\chi/2)/r_d}$, becomes exactly $\rho_0e^{-D/2r_d}$ — an exponential in the new proper distance over the whole accessible radial range, with the physical scale $2r_d$ of §XXV.3 now global, not local. The caveats are the referee's: this is kinematic preservation, not dynamic — the modified matter metric, its action and its coupling must jointly reproduce the same base solution for the branch to be a theory — and proper volumes change, so if $\rho$ is a proper density its mass normalization must be redefined.
 
-**The realization as inclination into the meridian direction — the author's "meeting your own fiber" made literal [proved here; interpretation a premise].** On a regular part of the middle space let $H_{\mathcal M} = q^*g_G+\lambda^2\vartheta\otimes\vartheta$ be an auxiliary matter geometry (no five-dimensional Einstein equations; §XXIX.8). Restricted to the selected leaf, $\iota^*H_{\mathcal M} = r^*g_G+\lambda^2\iota^*\vartheta\otimes\iota^*\vartheta$: the base term plus a rank-one positive term that the quotient does not retain. If the leaf is *inclined* into the meridian direction, $\lambda\,\iota^*\vartheta = d\Phi$ with $\Phi$ the meridian height of the leaf above the horizontal section, the leaf metric is $\hat\gamma = \gamma+d\Phi\otimes d\Phi$ — the induced metric of the graph of $\Phi$ — and Option A is exactly $d\Phi = \beta$ with $\beta\otimes\beta = \ell^2[\sec^4(\chi/2)-1]d\chi^2$. In the stereographic variable $z = \tan(\chi/2)$, $t = 1+z^2$, the one-form is $\beta = 2\ell\,z\sqrt{1+t}\,dz/t$ (checked: $\beta^2 = \ell^2(\sec^4(\chi/2)-1)d\chi^2$ to $10^{-14}$); the form as transcribed in the referee's analysis, $\tfrac\ell2\sqrt{1+t}\,dz/t^{3/2}$, does not reproduce Option A and is replaced (R91). The meridian height $\Phi(\chi) = \int\beta$ is $1.08\ell$ at the equator, $11.6\ell$ at $0.9\pi$, $126\ell$ at $0.99\pi$, growing as $2\ell z$: **the leaf winds up the meridian direction without bound as it approaches the antipode** — on a compact meridian circle it winds infinitely many times — which is the precise content of "something being on the closed three-sphere, meeting your own meridian fiber after travelling the path, instates the inflated proper length": the inflated length *is* the meridian height the leaf has climbed. Two consequences follow. Since $\beta$ is exact, the inclination is removable by re-choosing the section unless the section is physically selected — it is (the leaf is where the matter is), so the inclination is physical iff the leaf is; and the antipode cannot be an ordinary point of the inclined leaf: the mathematical closure of the meridian lives in the canonical geometry, not in a traversable closed geodesic of the stretched representation — which suits the ontology.
+**The realization as inclination into the meridian direction — the author's "meeting your own fiber" made literal [proved here; interpretation a premise; R100 wording].** On a regular part of the middle space let $H_{\mathcal M} = q^*g_G+\lambda^2\vartheta\otimes\vartheta$ be an auxiliary matter geometry (no five-dimensional Einstein equations; §XXIX.8). Restricted to the selected leaf, $\iota^*H_{\mathcal M} = r^*g_G+\lambda^2\iota^*\vartheta\otimes\iota^*\vartheta$: the base term plus a rank-one positive term that the quotient does not retain. If the leaf is *inclined* into the meridian direction, $\lambda\,\iota^*\vartheta = d\Phi$ with $\Phi$ the meridian height of the leaf above the horizontal section, the leaf metric is $\hat\gamma = \gamma+d\Phi\otimes d\Phi$ — the induced metric of the graph of $\Phi$ — and Option A is exactly $d\Phi = \beta$ with $\beta\otimes\beta = \ell^2[\sec^4(\chi/2)-1]d\chi^2$. In the stereographic variable $z = \tan(\chi/2)$, $t = 1+z^2$, the one-form is $\beta = 2\ell\,z\sqrt{1+t}\,dz/t$ (checked: $\beta^2 = \ell^2(\sec^4(\chi/2)-1)d\chi^2$ to $10^{-14}$); the form as transcribed in the referee's analysis, $\tfrac\ell2\sqrt{1+t}\,dz/t^{3/2}$, does not reproduce Option A and is replaced (R91). The meridian height $\Phi(\chi) = \int\beta$ is $1.08\ell$ at the equator, $11.6\ell$ at $0.9\pi$, $126\ell$ at $0.99\pi$, growing as $2\ell z$: **the leaf winds up the meridian direction without bound as it approaches the antipode** — on a compact meridian circle it winds infinitely many times — which is the precise content of "something being on the closed three-sphere, meeting your own meridian fiber after travelling the path, instates the inflated proper length": the inflated length *is* the meridian height the leaf has climbed. Two consequences follow. Since $\beta$ is exact, the inclination is removable by re-choosing the section unless the section is physically selected; under the governing ontology matter inhabits the whole middle space and the leaf is a physically selected **representation/readout**, not the sole site of matter (R100) — so the inclination is physical iff the readout selection is, and that selection law is open; the graph construction does not derive it. And the antipode cannot be an ordinary point of the inclined leaf: the mathematical closure of the meridian lives in the canonical geometry, not in a traversable closed geodesic of the stretched representation — which suits the ontology. *What has been shown* is a local induced-metric construction; its compatibility with the two antipodal readout crossings, the meridian gluing and the finite core — the inclined leaf as the **bisection of the resolved middle space** — is the branch's first open theorem.
 
-**The cost: a horn, not a Euclidean end [standard result].** A smooth positive-definite metric on a compact $S^3$ cannot put two points at infinite distance; Option A's $\hat g_{\chi\chi} = \ell^2\sec^4(\chi/2)\to\infty$ at the antipode, and the finite-distance geometry is $S^3\setminus\{\text{antipode}\}\simeq\mathbb R^3$ with the antipode retained only in the topological completion. In the proper radial distance the metric is $dD^2+R(D)^2d\Omega^2$ with $R(D) = D/(1+D^2/4\ell^2)$: the areal radius rises to $\ell$ at $D = 2\ell$ and then **falls back to zero** as $4\ell^2/D$ — an infinitely long, narrowing end. Its radial sectional curvature $-R''/R\simeq-2/D^2\to0$ while the tangential one $(1-R'^2)/R^2\simeq D^2/16\ell^4\to\infty$ ($2.08$, $6.75$, $25.5$, $100.5$ at $D = 5, 10, 20, 40\ell$; computed): the end is singular, and the angular-diameter cap of the galaxy-scale leaf — areal radius bounded by $\ell$ — is **not** removed by stretching the radial direction. The branch is a legitimate mathematical toy and not a harmless re-reading of the round sphere.
+**The cost: a horn, not a Euclidean end — of finite volume [standard result; R99–R100].** A smooth positive-definite metric on a compact $S^3$ cannot put two points at infinite distance; Option A's $\hat g_{\chi\chi} = \ell^2\sec^4(\chi/2)\to\infty$ at the antipode, and the finite-distance geometry is $S^3\setminus\{\text{antipode}\}\simeq\mathbb R^3$ with the antipode retained only in the topological completion. In the proper radial distance the metric is $dD^2+R(D)^2d\Omega^2$ with $R(D) = D/(1+D^2/4\ell^2)$: the areal radius rises to $\ell$ at $D = 2\ell$ and then **falls back to zero** as $4\ell^2/D$ — an infinitely long, narrowing end. Its radial sectional curvature $-R''/R\simeq-2/D^2\to0$ while the tangential one $(1-R'^2)/R^2\simeq D^2/16\ell^4\to\infty$ ($2.08$, $6.75$, $25.5$, $100.5$ at $D = 5, 10, 20, 40\ell$; computed): the end is singular. Its total volume is nevertheless finite, $V = 4\pi\int_0^\infty R^2dD = 8\pi^2\ell^3 = 4V_{S^3}$ (computed), so a proper density on the stretched leaf carries more mass than on the round one: holding the central density fixed, the stereographic exponential's mass rises by $2.7\%$, $8.6\%$, $22.0\%$ at $r_d/\ell = 0.05, 0.1, 0.2$ — not a discrepancy if the leaf density is a readout rather than the full middle-space source, but one more reason the metric change cannot automatically preserve a self-consistent Einstein solution by preserving $v^2(\chi)$. **The angular-diameter cap is the central-observer special case, not a general bound (R99).** For a central observer and a radial bundle $D_A = R(D)\le\ell$. For an observer at $D_0>0$ an outward radial null bundle obeys the screen Jacobi equation $J''-(R''/R)J = 0$, $J(D_0) = 0$, $J'(D_0) = 1$, whose solution gives $D_A(D;D_0) = R(D_0)R(D)\int_{D_0}^Ddu/R(u)^2$ with the elementary primitive $-1/u+u/2\ell^2+u^3/48\ell^4$, so $D_A\sim R(D_0)D^2/12\ell^2\to\infty$ along the horn: for $R(D_0) = \ell/2$ ($D_0 = 0.5359\ell$) one has $D_A = 1.1308$, $2.2410$, $5.2554$, $17.6447\,\ell$ at $D = 2, 5, 10, 20\,\ell$ (closed form and Jacobi ODE agree; computed; the blind referee's values). v34.2's repeated "the angular-diameter cap is unchanged because $R\le\ell$" is withdrawn: on the homogeneous round sphere the bound held for every observer by homogeneity, and Option A has lost that homogeneity. This does not show that Option A reproduces observed distances — the exact radial ray reaches the end, nearby rays turn back, and the global angular/source map still needs analysis — and it supplies no redshift mechanism. The branch is a legitimate mathematical toy and not a harmless re-reading of the round sphere.
 
 **Several centres regularize the infinity [proved here, toy; Entry 268].** Regularize the one-form to $\beta_\epsilon = 2\ell\,z\sqrt{1+t}\,dz/[t(1+\epsilon t)^{3/2}]$: at $\epsilon = 0$ it is Option A; for $\epsilon>0$ it behaves as $z^{-3}dz\propto r\,dr$ at the antipode (checked: $f_\epsilon z^3\to$ const) and is smooth there, so $\hat\gamma = \gamma+\beta_\epsilon\otimes\beta_\epsilon$ is a smooth positive-definite metric on the compact $S^3$ and all distances are finite, with the antipodal distance along the great circle $D_{\rm ant}(\epsilon) = 6.21, 19.85, 63.19, 199.98\,\ell$ at $\epsilon = 10^{-1},\ldots,10^{-4}$ — the law $D_{\rm ant}\simeq2\ell/\sqrt\epsilon$: **infinity is recovered as the singular limit of an increasingly isolated centre.** For several centres $p_i$ with masses $m_i$ form $\alpha = \sum_iw_i\beta_{\epsilon_i}(z_i)$, $z_i = \tan(\Theta_i/2)$ the stereographic radius from centre $i$, and $\hat\gamma = \gamma+\alpha\otimes\alpha$ — a rank-one addition, matching one meridian direction, rather than four unrelated radial tensors — with the competition parameter $\epsilon_i = \kappa\sum_{j\neq i}(m_j/m_i)(1-p_i\cdot p_j)$: an isolated mass has $\epsilon = 0$. Four equal masses at the vertices of a regular tetrahedron in $S^3\subset\mathbb R^4$, $p_i\cdot p_j = -1/3$, $\sum p_i = 0$, have the feature Entry 268 wants: $-p_i = \sum_{j\neq i}p_j$ — **each mass's would-be infinite endpoint is exactly the direction of the other three** (each $70.5°$ from it) — and $\epsilon_i = 4\kappa$ for all four, so every would-be divergence is regular; at $\kappa = 0.05$ the path length from $p_1$ to $-p_1$ through the others' hemisphere is $3.168\ell$ (round $3.142$) and $p_1\to p_2$ is $1.914\ell$ (round $1.911$), all finite (computed). Nothing about $\epsilon_i$ is derived; the construction shows that a smooth matter-dependent metric correction can have an infinite-distance isolated limit and finite multicentre solutions without subtracting infinities — "infinity-projections as an idealization of symmetry", as the author put it. The next step is to replace the mass-labeled $\epsilon_i$ by a universal functional of the middle-space configuration, with the inclination $\Phi$ as the failure of the selected representation to stay horizontal with respect to the meridian structure.
 
-**Four tests before physical meaning [status; two executed].** *(1) Local GR.* The stretch is $A/\ell-1 = \sec^2(\chi/2)-1\simeq\chi^2/4$: zero to double precision at $1$ AU, $7.2\%$ at $8$ kpc, $12.3\%$ at $10$ kpc (for $\ell = 16$ kpc). It leaves $v(R)$ untouched but enters every observable that uses radial proper distance: for near-circular orbits in $-N^2dt^2+A^2d\chi^2+R^2d\Omega^2$ the epicyclic frequency obeys $\kappa^2/\Omega^2 = (RR'\nu''/\nu'+3R'^2-RR'')/A^2$, so Option A multiplies $(\kappa/\Omega)^2$ by $\cos^4(\chi/2)$ and $\kappa/\Omega$ by $\cos^2(\chi/2)$. For the $\alpha = 0.1$ rigid-closure model at $R = 8$ kpc ($\chi = 0.524$): round $\kappa/\Omega = 1.449$, Option A $1.352$ (factor $0.933$); the flat-curve value is $\sqrt2 = 1.414$ and the Oort-constant determination for the Sun is about $1.32$–$1.35$ (computed; the Oort value is quoted from the literature and not fitted here). **This is a discriminating observable of the branch** — radial periods and epicyclic frequencies at fixed $v(R)$ — provided the readout's distance convention is fixed; it is not a success claim. *(2) Global geometry.* The horn above; the antipode singular or excluded as a finite-distance point. *(3) Optics.* In the unlensed Option-A leaf a ray of impact parameter $b$ oscillates between the two turning points $R = b$ while its azimuth advances by $\Delta\varphi = \int_b^{\pi-b}b\sec^2(\chi/2)\,d\chi/(\sin\chi\sqrt{\sin^2\chi-b^2})$; computed, $\Delta\varphi = \pi(1+\ell^2/b^2)$ to seven digits ($5\pi$ at $b = \ell/2$, $101\pi$ at $0.1\ell$, $401\pi$ at $0.05\ell$) against exactly $\pi$ on the round leaf: **point refocusing at the antipode is destroyed and replaced by spiralling around the horn**, light still returns from the far side (two turning points), only the radial ray $b = 0$ reaches the infinite end, and the angular-diameter cap stands — so Option A alone does not fix the optical-distance problem, though it changes its form from a conjugate point to a caustic. *(4) Redshift.* A static stretch gives no Hubble law: for stationary emitter and receiver $1+z = N_{\rm rec}/N_{\rm em}$ whatever $A$ is, twins with equal lapse have $z = 0$, and near a smooth isotropic origin $N'(0) = 0$ so the gravitational redshift is quadratic in distance ($\nu(\chi)-\nu(0) = 0.118\mu$, $0.380\mu$ at $\chi = 0.1$, $0.2$; computed) where the observed low-redshift relation is linear. Distance inflation and redshift generation are two separate effects; the second needs a time-dependent geometry or a derived frequency-transport law of changing renderings, with time dilation, spectra, luminosity distances and surface brightness to match, and constraint 2 does not supply it.
+**Four tests before physical meaning [status; two executed; R98].** *(1) Local GR.* The stretch is $A/\ell-1 = \sec^2(\chi/2)-1\simeq\chi^2/4$: zero to double precision at $1$ AU, $7.2\%$ at $8$ kpc, $12.3\%$ at $10$ kpc (for $\ell = 16$ kpc). It leaves $v(R)$ untouched but enters every observable that uses radial proper distance. For a timelike circular geodesic in $-N^2dt^2+A^2d\chi^2+R^2d\Omega^2$ the **exact** coordinate-time epicyclic ratio is, with $\eta = \ln N$,
+$$\frac{\kappa^2}{\Omega^2} = \frac{3R'^2-RR''+RR'\big(\eta''/\eta'-2\eta'\big)}{A^2},$$
+which gives $1-6M/r$ for Schwarzschild (checked at $r = 10, 20, 50M$); v34.2 printed the form without the $-2RR'\eta'$ term, which is the leading weak-field version and gives $1-4M/r$ there (R98). In the first-order benchmark the omitted term is $2RR'\eta' = 5\times10^{-7}$, below the order of the calculation, so the numbers stand: for the $\alpha = 0.1$ rigid-closure model at $R = 8$ kpc ($\chi = 0.524$), round $\kappa/\Omega = 1.449$ and Option A $1.352$ — changing only $A$ multiplies the exact ratio by $A_0^2/A^2$, i.e. $\cos^4(\chi/2)$ for the squared ratio and $\cos^2(\chi/2) = 0.933$ for the ratio. The flat-curve value is $\sqrt2 = 1.414$; the conventional axisymmetric conversion of the Gaia DR1 Oort constants $A = 15.3$, $B = -11.9$ km/s/kpc (Bovy 2017) gives $\sqrt{-4B/(A-B)} = 1.323$, quoted as an example and not as an unqualified observed interval, since that analysis also detects non-axisymmetric streaming. **This is a discriminating observable of the branch** — radial periods and epicyclic frequencies at fixed $v(R)$ — provided the readout's distance convention is fixed; it is not a success claim. *(2) Global geometry.* The horn above; the antipode singular or excluded as a finite-distance point; the inclined leaf's embedding as the bisection open. *(3) Optics.* In the unlensed Option-A leaf a ray of conserved null impact parameter $b$ ($\eta = b/\ell<1$) oscillates between the turning points $\chi = \arcsin\eta$ and $\pi-\arcsin\eta$ (v34.2 printed the limits as $b$ and $\pi-b$, a notation error, R98) while its azimuth advances by $\Delta\varphi = \int_{\arcsin\eta}^{\pi-\arcsin\eta}\eta\sec^2(\chi/2)\,d\chi/(\sin\chi\sqrt{\sin^2\chi-\eta^2}) = \pi(1+\eta^{-2})$ exactly (the substitution $\cot\chi = (\sqrt{1-\eta^2}/\eta)\sin\theta$ removes the endpoint roots and gives the integrand $4(1+(1-\eta^2)\sin^2\theta/\eta^2)$; $5\pi$ at $b = \ell/2$, $101\pi$ at $0.1\ell$, $401\pi$ at $0.05\ell$; independently checked) against exactly $\pi$ on the round leaf: **point refocusing at the antipode is destroyed and replaced by spiralling around the horn**, light still returns from the far side, only the radial ray reaches the infinite end — and, by R99, an off-centre observer's angular-diameter distance is unbounded, so the optical-distance problem changes its form rather than being solved or left intact. *(4) Redshift.* A static stretch gives no Hubble law: for stationary emitter and receiver $1+z = N_{\rm rec}/N_{\rm em}$ whatever $A$ is, twins with equal lapse have $z = 0$, and near a smooth isotropic origin $N'(0) = 0$ so the gravitational redshift is quadratic in distance ($\nu(\chi)-\nu(0) = 0.118\mu$, $0.380\mu$ at $\chi = 0.1$, $0.2$; computed) where the observed low-redshift relation is linear. Distance inflation and redshift generation are two separate effects; the second needs a time-dependent geometry or a derived frequency-transport law of changing renderings, with time dilation, spectra, luminosity distances and surface brightness to match; the off-centre $D_A$ result supplies no redshift and must not be read as one.
 
-**Standing.** *Minimal interpretation* (adopted for the branch): the extra length is a property of how the selected representation measures distance; Law I and the base calculations are unchanged; the matter and optical readouts must be constructed. *Stronger interpretation* (not adopted): the inclination enters the complete source action and changes the reduced stress — it could be part of the sought explanation of why the Einstein equations act on the quotient, and it would require the galaxy results to be rederived. Acceptance criteria are kept separate: kinematic preservation of $v^2$ (established) and dynamic preservation (open). **First experiment:** derive the Option-A inclination for one isotropic source from a candidate meridian/readout functional, then add off-centre matter and watch whether the infinite end is regularized smoothly without damaging local orbital dynamics; then the tetrahedral benchmark. **Falsifiers:** a measured $\kappa/\Omega$ (with the distance convention fixed) incompatible with the $\cos^2(\chi/2)$ factor; local radial-distance observables (parallax chains, radial timing) that exclude a $\chi^2/4$ stretch at the relevant radii; or a return-map/holonomy theory of the core that cannot produce $\mathcal F\to\sec^2(\chi/2)$ without inserting it.
+**The author's sanity check: the stretch must respond to stress-energy, and the centre must be set by the matter [requirement adopted; one computation; R102].** The question (Entry 269, 12 October): the middle-space leaf's radial stretch must "know to respond specifically to stress-energy, so that the actual radial centre in the isotropic case is set *by* the centre-of-mass thing." As written, Option A assumes $\chi = 0$ is the special origin; the requirement is stronger and is adopted in the standing referee's formulation: **Matter-selected centering requirement.** *The representational inclination field must be selected covariantly by the full middle-space stress-energy configuration and its associated meridian structure — the full configuration, not the reduced base source, since a concentrated primary with a uniform base image leaves the base unable to say where the concentration is. No mass centre, radial origin or primary label may be prescribed independently of that configuration. In the stationary isotropic one-primary limit the stretch must be radial about the dynamically selected centre of energy and approach Option A outside the finite core; translating or perturbing the matter must move or deform the stretch correspondingly; several concentrations must generate their mutual regularization through the same universal law, with no separately prescribed competition parameters. On a curved space an arbitrary distribution has no unique coordinate centre of mass, so the centre must be derived from the stress-energy and its equilibrium — for instance as the minimum of a covariant matter potential — not from a coordinate formula.* This requirement is open; the current inclination ansatz $\Phi = \Phi_A(\chi)$ does not meet it. Three facts frame it. *(a) Symmetry lemma.* If the inclination equation is covariant under the arena's symmetries and has a unique solution for an isotropic source, the solution shares the source's rotational symmetry and is therefore radial about the matter-selected centre: centering is automatic once a covariant response law exists; the separate challenge is the profile. *(b) The simplest covariant law centres correctly and is not Option A* (computed, `centering_toy()`). Take $\Delta_B\Phi = \kappa(\rho-\langle\rho\rangle)$ on the leaf — the same structure as the alignment control — for the $\alpha = 0.1$ galaxy: $\Phi$ is radial about the source by (a), the stretch $\sqrt{1+\Phi'^2}$ is $1.004$, $1.021$, $1.017$, $1.004$, $1.0008$ at $\chi = 0.05, 0.2, 0.5, 1.0, \pi/2$ and $1.0000$ beyond, and the antipodal proper distance is $3.156\ell$ against the round $3.142$: bounded, concentrated near the source, vanishing toward the antipode. Option A's profile ($\sec^2(\chi/2) = 1.065$ at $0.5$, $2.0$ at the equator, $200$ at $0.95\pi$) grows *away* from the matter toward the meridian's return point, so **no Poisson-type coupling to matter produces it**: in Option A the matter supplies the **centre** (which point is the antipode) while the **magnitude** is set by the return/closure structure of the meridians — exactly the division the author's Entry 267 proposed ("the closed property of the representation leaf" doing part of the work). The covariant template is $\Phi = \Phi_A\big(d(x,c_V)\big)$ with $c_V = {\rm argmin}\,V[\rho]$ the minimum of the covariant matter potential: the centre is matter-selected (in the alignment control it moves with the matter — by $\theta^*_+ = 6.3\times10^{-9}$ rad for the galaxy perturbation of §XXIX.12 — and several centres give several minima with the basins of §XXIX.9 as the competition structure), and the profile is a functional of distance from it, to be derived from the return map rather than inserted. *(c) The singular limit is forced.* No smooth, globally regular inclination field on a compact $S^3$ produces an exactly infinite stretch, so the universal law must yield Option A only as the singular isolated-source limit, with regular solutions for every physical finite configuration — the $\epsilon_i\to0$ behaviour of the regularized one-form, now to be derived rather than parameterized. Law I stays unchanged during this experiment: the inclination must respond to matter, which does not by itself mean it modifies gravitational sourcing; whether it does is a separate variational question.
 
-## XXIX.16 Register R56–R92, the evidence-status system, the reprioritized program, the minimum theorem package, and reproducibility [D/O; v34.1–34.2]
+**Standing.** *Minimal interpretation* (adopted for the branch): the extra length is a property of how the selected representation measures distance; Law I and the base calculations are unchanged; the matter and optical readouts must be constructed. *Stronger interpretation* (not adopted): the inclination enters the complete source action and changes the reduced stress — it could be part of the sought explanation of why the Einstein equations act on the quotient, and it would require the galaxy results to be rederived. Acceptance criteria are kept separate: kinematic preservation of $v^2$ (established) and dynamic preservation (open). The two research tracks are kept distinct, as the standing referee asks: the main program (finite core and directional source; complete source action and conservation; the closed-base budget; the secondary's response; an independent $G_{\rm eff}$) and the stretch program (derive the inclination field $\Phi$; prove the global embedding and gluing of the inclined leaf as a bisection; derive the multicentre suppression without chosen $\epsilon_i$; test radial epicyclic periods, lensing and proper-distance readouts; determine whether stretching improves optical distances without violating observation). **First experiment:** take the static quotient solution as fixed, introduce the inclination field $\Phi$ with a universal coupling to the full middle-space stress-energy and the meridian return structure, and ask whether its Euler–Lagrange equation has an isolated, approximately isotropic branch whose induced radial metric approaches Option A outside the core (singular limit only), a smooth multicentre solution with finite distances, a locally negligible correction near ordinary compact sources, a well-defined optical or matter readout, and a source contribution consistent with the quotient Bianchi identity — the matter-selected centre of (b) being the first check; then the tetrahedral benchmark. **Falsifiers:** a measured $\kappa/\Omega$ (with the distance convention fixed) incompatible with the $\cos^2(\chi/2)$ factor; local radial-distance observables that exclude a $\chi^2/4$ stretch at the relevant radii; a return-map/holonomy theory of the core that cannot produce $\mathcal F\to\sec^2(\chi/2)$ without inserting it; or an inclination law whose isotropic solution is not centred on the matter.
+
+
+## XXIX.21 Executable appendix: the numerical suite `pg_v34_numerics.py`, embedded [reproducibility; v34.3, R104]
+
+*The complete standalone suite (NumPy and SciPy only) that prints every number quoted in §§XXIX.10–13 and XXIX.17–20. It is embedded here because in two successive rounds only the archive reached the referees. Save the block as `pg_v34_numerics.py` and run `python3 -I pg_v34_numerics.py`; `v34_1_suite()`, `v34_2_suite()` and `v34_3_suite()` can be called separately. Author-reported numerics remain so labeled until this file has been run independently.*
+
+```python
+"""Projective Gravity v34.1-34.2 -- standalone numerical suite (NumPy + SciPy only).
+
+Run:  python3 -I pg_v34_numerics.py            (both suites)
+      python3 -I -c "import pg_v34_numerics as p; p.v34_2_suite()"
+
+v34_1_suite(): pole-collapse counterexample; Toy B exact Noether example and auxiliary-field control; finite-slope
+compact Green function; exact lapse relation and analytic plateau table; resolved pencil control; quotient-shift
+control (kinematic transport, kappa fits, residuals); core-quadrupole transfer; other checks.
+v34_2_suite(): barotropic plateau family and the conserved-number elastic closure matching (singular); budget /
+compensation theorem; moving critical points; corrected anisotropy tolerance; optical minimal test (no slip);
+representation-stretch branch (Option A, inclination one-form, four-centre regularisation, epicyclic ratio,
+azimuth advance, static redshift); Boltzmann counting toy.
+v34_3_suite(): exact epicyclic ratio (Schwarzschild check); closed-form lensing control and forced-Jacobi circuit;
+Option-A volume, proper-mass change, off-centre angular-diameter distance, azimuth limits; budget-theorem
+qualifications (first variation, isentropic EOS, exact round family); Boltzmann matching and tail; the
+matter-selected centering toy (Poisson-type inclination law).
+Every number quoted in Projective Gravity SS XXIX.10-13 and XXIX.17-20 is printed by one of these functions.
+"""
+import numpy as np
+from scipy.integrate import quad, solve_ivp, cumulative_trapezoid
+from scipy.optimize import brentq
+
+PI = np.pi; A_EQ = PI/2
+G_SI = 6.67430e-11; C_SI = 299792458.0; M_SUN = 1.98847e30; KPC = 3.085677581491367e19
+ELL = 16*KPC; M_GAL = 6e10*M_SUN; MU = G_SI*M_GAL/(C_SI**2*ELL)
+
+
+def integ(f, a, b, **kw):
+    return quad(f, a, b, epsabs=1e-14, epsrel=1e-11, limit=400, **kw)[0]
+
+# ---------------------------------------------------------------- 1. pole anisotropy
+def pole_anisotropy_counterexample():
+    """Shrinking annulus delta/2<theta<delta about the pole p of S^4 (ell=1) with angular
+    profiles a0=1 and a2=1+2(n1^2-1/4) on S^3.  Both converge to M*delta_p on S^4; their
+    coarea reductions keep different angular profiles on RP^3."""
+    print("\n== 1. pole-collapse counterexample (coarea reduction of shrinking annuli) ==")
+    bump = lambda t: np.exp(-1/((t-0.5)*(1-t))) if 0.5 < t < 1 else 0.0   # smooth, supported in (1/2,1)
+    # radial normalisation: M = 2pi^2 * C * int f(theta/delta) sin^3 theta dtheta * <a>, with <a>=1
+    out = {}
+    for delta in [0.4, 0.2, 0.1, 0.05]:
+        I3 = integ(lambda th: bump(th/delta)*np.sin(th)**3, delta/2, delta)
+        C = 1.0/(2*PI**2*I3)                                   # total mass 1 for <a>=1
+        # middle-space diagnostics (same for both profiles since <a>=1, <a n_1>=0 by evenness):
+        # first moment of position along p and position variance about p
+        Ip = integ(lambda th: bump(th/delta)*np.sin(th)**3*np.cos(th), delta/2, delta)
+        Id = integ(lambda th: bump(th/delta)*np.sin(th)**3*th**2, delta/2, delta)
+        xbar_p = 2*PI**2*C*Ip; var = 2*PI**2*C*Id
+        # reduced base density: rho_g([n]) = int rho |sin|^3 dtheta = C*I3*a(n) (only the arc near the pole contributes)
+        # base second moment <n1^2>_rho_g for a0 and a2.  On S^3, n1 has density (2/pi) sqrt(1-z^2).
+        w = lambda z: (2/PI)*np.sqrt(max(0.0, 1-z*z))
+        m0 = integ(lambda z: w(z)*z*z, -1, 1)
+        norm2 = integ(lambda z: w(z)*(1+2*(z*z-0.25)), -1, 1)
+        m2 = integ(lambda z: w(z)*(1+2*(z*z-0.25))*z*z, -1, 1)/norm2
+        total_a0 = 2*PI**2*C*I3          # = int_{RP3} rho_g  (Vol(RP3)=pi^2, rho_g = C I3 a(n), <a>=1 -> pi^2 * C I3 * ... )
+        # careful: int_{RP3} rho_g dV = pi^2 * C*I3*<a> ; and 2 pi^2 C I3 = 1 is the S^4 total.  The factor:
+        # the complete fibre through [n] passes the pole twice? No: once (theta=0 end) -- the arc through -n reaches the SAME pole
+        # at theta=0 from the other side; both arcs lie within the annulus near theta=0 -> rho_g([n]) = 2*C*I3*a(n)/... see check below
+        out[delta] = (C, I3, xbar_p, var, m0, m2, norm2)
+        print(f"delta={delta:5.2f}  <X.p>={xbar_p:.6f}  <|X-p|^2>~<theta^2>={var:.3e}  base <n1^2>: a0={m0:.6f}  a2={m2:.6f}  (a2 normalised: {norm2:.6f})")
+    # exact base-total check for the a0 annulus with delta=0.2 using the full-circle formula (theta in [0,2pi))
+    delta = 0.2
+    C, I3 = out[delta][0], out[delta][1]
+    def rho_g_full(n1):   # angular argument irrelevant for a0
+        f = lambda th: C*bump(abs(((th+PI) % (2*PI)) - PI)/delta)*abs(np.sin(th))**3   # bump about theta=0 on the circle
+        return quad(f, -delta, delta, limit=200)[0]
+    rg = rho_g_full(0.0)
+    print(f"a0, delta=0.2: rho_g (uniform) = {rg:.6f};  M/Vol(RP3) = {1/PI**2:.6f};  base total = {rg*PI**2:.6f} (middle total 1)")
+    return out
+
+# ---------------------------------------------------------------- 2. Toy B Noether, exact example + auxiliary field
+def toy_b_noether_exact():
+    """Psi = a t, mu=0, lambda=lambda(r) on flat base: scalar e.o.m. holds; integrated energy density and
+    pressures = pi a^2 lambda; div T_{mu r} = pi a^2 lambda'(r).  Auxiliary S_lambda=-int U(lambda) with
+    U' = E_lambda^m restores conservation of the total."""
+    print("\n== 2. Toy B: exact on-shell example and the auxiliary-field control ==")
+    a = 0.7
+    lam = lambda r: 1.0 + 0.3*np.sin(r)
+    lamp = lambda r: 0.3*np.cos(r)
+    # fibre integral of the matter stress (horizontal part): T_tt = T_xx = a^2/2 per unit m, times lambda, times 2pi
+    T = lambda r: 2*PI*lam(r)*a*a/2
+    r0 = 1.1; h = 1e-5
+    divT_r = (T(r0+h)-T(r0-h))/(2*h)             # nabla^mu T_{mu r} = d/dr T_rr (static, flat, diagonal)
+    Tmm = a*a/2                                   # vertical stress T^m_m = -h/2 with h = -a^2
+    E_lam = 2*PI*Tmm                              # int dm T^m_m = pi a^2
+    print(f"integrated rho = p = pi a^2 lambda = {T(r0):.6f};  div T_r = {divT_r:.6f};  pi a^2 lambda' = {PI*a*a*lamp(r0):.6f}")
+    print(f"E_lambda^m = int dm T^m_m = {E_lam:.6f} = pi a^2 = {PI*a*a:.6f}  ->  Noether term E_lambda d_r lambda = {E_lam*lamp(r0):.6f}")
+    # auxiliary potential U with U' = E_lambda^m on shell: T^lam_{mu nu} = -U g_{mu nu};  div (T^m + T^lam)_r = 0
+    U = lambda r: PI*a*a*lam(r)
+    divTlam_r = -(U(r0+h)-U(r0-h))/(2*h)
+    print(f"auxiliary U'=E_lambda: div T^lambda_r = {divTlam_r:.6f};  total divergence = {divT_r+divTlam_r:.2e}  (conserved)")
+    # thin-bump scaling: horizontal vs vertical fibre-integrated energies for Psi = A f(m/delta)
+    print("thin-bump scaling (A fixed):  delta   E_horizontal~A^2 delta   E_vertical~A^2/delta   ratio")
+    f = lambda s: np.exp(-s*s/2)
+    for d in [0.4, 0.2, 0.1]:
+        Eh = integ(lambda m: f(m/d)**2, -PI, PI)          # stands for int (grad_h Psi)^2 ~ Psi^2 weight
+        Ev = integ(lambda m: (f(m/d)/d*(-m/d))**2, -PI, PI)  # int (d_m Psi)^2
+        print(f"   {d:4.2f}   {Eh:.5f}   {Ev:.5f}   {Ev/Eh:.3f}  (~1/delta^2 = {1/d**2:.1f} x const)")
+
+# ---------------------------------------------------------------- 3. finite compressibility Green function
+def finite_compressibility_green():
+    print("\n== 3. finite-slope closure: compact Green function of (Delta+3+1/s) on the unit S^3 ==")
+    A = PI/2
+    def F(chi, s):
+        b = np.sqrt(4+1/s); return np.cos(b*(chi-A))/(np.cos(b*A)*np.sin(chi))
+    def Fp(chi, s, h=1e-6):
+        return (F(chi+h, s)-F(chi-h, s))/(2*h)
+    def Fpp(chi, s, h=1e-4):
+        return (F(chi+h, s)-2*F(chi, s)+F(chi-h, s))/(h*h)
+    rows = []
+    for s in [1e9, 1.0, 0.5, 0.3, 0.21]:
+        b = np.sqrt(4+1/s)
+        chi = np.linspace(0.05, 1.5, 600)
+        res = np.max(np.abs(Fpp(chi, s)+2/np.tan(chi)*Fp(chi, s)+(3+1/s)*F(chi, s))/np.abs(Fpp(chi, s)))
+        near = F(1e-4, s)*1e-4                              # 1/chi normalisation
+        even = abs(F(0.7, s)-F(PI-0.7, s))
+        x = np.linspace(1e-3, A-1e-3, 20000)
+        fp = Fp(x, s); v2 = -fp*np.tan(x)
+        coef = -(3+1/s)/np.cos(b*A)
+        rows.append((s, b, res, near, even, fp.max(), v2.min(), coef, Fpp(A, s)))
+        print(f"s={s:9.3g} beta={b:.5f} ODE-res={res:.1e} chi*F(chi->0)={near:.6f} even-res={even:.1e} max F'={fp.max():.3e} min v2/mu={v2.min():.4f} v_eq^2/mu={coef:.8f} (F''(eq)={Fpp(A,s):.6f})")
+    # resonances: cos(beta pi/2)=0 -> beta odd -> s = 1/(n(n+2)-3), n even
+    print("even-sector resonances s_n = 1/(n(n+2)-3):", [1/(n*(n+2)-3) for n in (2, 4, 6)])
+    # sign flip just below s=1/5
+    for s in [0.21, 0.19]:
+        b = np.sqrt(4+1/s); print(f"   s={s}: cos(beta pi/2) = {np.cos(b*A):+.4f}  -> v_eq^2/mu = {-(3+1/s)/np.cos(b*A):+.3f}")
+    return rows
+
+# ---------------------------------------------------------------- 4. exact lapse relation and the analytic plateau
+def exact_lapse_and_plateau():
+    print("\n== 4. the first-order lapse equation integrates exactly; analytic plateau formula; corrected table ==")
+    x = np.linspace(0.2, 1.4, 31)
+    psi = 0.2*np.cos(2*x)+0.07*np.cos(4*x); psip = -0.4*np.sin(2*x)-0.28*np.sin(4*x)
+    K, Codd = 0.31, 0.43
+    nu = -2*psi+K+Codd*np.cos(x); nup = -2*psip-Codd*np.sin(x)
+    res = np.max(np.abs(nup+nu*np.tan(x)+2*psi*np.tan(x)+2*psip-K*np.tan(x)))
+    print(f"lapse ODE residual for nu = -2 psi + K + C cos x (arbitrary psi, K, C): {res:.2e}")
+    A = PI/2
+    def rho(xx, al):
+        return 0.0 if xx >= PI-1e-12 else np.exp(-np.tan(xx/2)/al)
+    def table(al):
+        rho_eff = lambda xx: rho(xx, al)+rho(PI-xx, al)
+        mass = 4*PI*integ(lambda xx: rho(xx, al)*np.sin(xx)**2, 0, PI)
+        wgt = integ(lambda xx: rho_eff(xx)*np.sin(xx)**2*np.cos(xx), 0, A)
+        plateau = (12*PI*wgt-4*PI*rho_eff(A))/mass
+        xcut = 2*np.arctan(3*al)
+        frac = 4*PI*integ(lambda xx: rho(xx, al)*np.sin(xx)**2, 0, xcut)/mass
+        # second coordinate z = tan(x/2)/al
+        mass2 = 32*PI*al**3*integ(lambda z: np.exp(-z)*z*z/(1+al*al*z*z)**3, 0, np.inf)
+        def wi(z):
+            if z <= 0: return 0.0
+            u2 = al*al*z*z; prof = np.exp(-z)+np.exp(-1/(al*al*z))
+            return z*z*(1-u2)*prof/(1+u2)**4
+        wgt2 = 8*al**3*integ(wi, 0, 1/al)
+        plateau2 = (12*PI*wgt2-4*PI*2*np.exp(-1/al))/mass2
+        return plateau, plateau2, frac, mass
+    ell = 16*KPC; Mg = 6e10*M_SUN; mu = G_SI*Mg/(C_SI**2*ell)
+    print(f"mu = GM/(c^2 ell) = {mu:.7e};  compact benchmark sqrt(3 mu) c = {np.sqrt(3*mu)*C_SI/1e3:.5f} km/s")
+    printed = {0.01: 2.977, 0.05: 2.845, 0.10: 2.555, 0.20: 1.858, 0.30: 1.239}
+    print(" r_d/ell(st) | printed | analytic | 2nd coord diff | v_eq km/s | frac inside r_st=3 r_d")
+    res_rows = []
+    for al, pv in printed.items():
+        p1, p2, frac, mass = table(al)
+        print(f"  {al:5.2f}     | {pv:6.3f} | {p1:.9f} | {abs(p1-p2):.1e} | {np.sqrt(mu*p1)*C_SI/1e3:8.3f} | {frac:.6f}")
+        res_rows.append((al, pv, p1, np.sqrt(mu*p1)*C_SI/1e3, frac))
+    print(" physical e-folding scale 2 r_d: table re-indexed by r_d^phys/ell (= 2 alpha)")
+    for alp in [0.02, 0.1, 0.2, 0.4, 0.6]:
+        p1, p2, frac, mass = table(alp/2)
+        print(f"  r_d^phys/ell={alp:4.2f} (alpha={alp/2:5.3f}) | {p1:.6f} | {np.sqrt(mu*p1)*C_SI/1e3:8.3f} km/s")
+    # whole rotation curve for alpha = 0.2 from the exact Green's function of y''+4y = f, y(0)=0, y'(pi/2)=0
+    al = 0.2
+    rho_eff = lambda xx: rho(xx, al)+rho(PI-xx, al)
+    mass = 4*PI*integ(lambda xx: rho(xx, al)*np.sin(xx)**2, 0, PI)
+    f = lambda t: -2*PI*rho_eff(t)*np.sin(t)/mass            # per unit mu
+    u1 = np.sin; u2 = lambda t: -np.cos(2*t)
+    def y(xx):
+        I1 = integ(lambda t: np.sin(2*t)*f(t), 0, xx); I2 = integ(lambda t: u2(t)*f(t), xx, A)
+        return 0.5*(u2(xx)*I1+np.sin(2*xx)*I2)
+    def psi_of(xx): return y(xx)/np.sin(xx)
+    def v2(xx, h=1e-5):
+        return -2*np.tan(xx)*(psi_of(xx+h)-psi_of(xx-h))/(2*h)
+    print(" alpha=0.2 curve, v [km/s] at R/ell = sin x:")
+    for R in [0.2, 0.48, 0.78, 0.96]:
+        xx = np.arcsin(R); print(f"   R/ell={R:4.2f}: v = {np.sqrt(max(v2(xx),0)*mu)*C_SI/1e3:7.2f}")
+    p1 = table(al)[0]; print(f"   R/ell=1.00: v = {np.sqrt(mu*p1)*C_SI/1e3:7.2f} (plateau formula)")
+    # check the Green-function route against the plateau formula at x->pi/2
+    print(f"   2 psi''(pi/2) via Green function = {2*(psi_of(A-1e-3)-2*psi_of(A-2e-3)+psi_of(A-3e-3))/1e-6:.4f} vs formula {p1:.4f} (finite-difference check)")
+    return res_rows
+
+# ---------------------------------------------------------------- 5. resolved pencil control
+def resolved_pencil_control():
+    print("\n== 5. the resolved space (S^3 x S^1)/((n,theta)~(-n,-theta)): fibres, blow-down, orientation, pullback ==")
+    rng = np.random.default_rng(3)
+    n = rng.normal(size=4); n /= np.linalg.norm(n); th = 0.9
+    p = np.array([1, 0, 0, 0, 0.0])
+    emb = lambda n4, t: np.cos(t)*p+np.sin(t)*np.r_[0.0, n4]
+    X1 = emb(n, th); X2 = emb(-n, -th)
+    print(f"blow-down well defined on classes: |beta(n,theta)-beta(-n,-theta)| = {np.linalg.norm(X1-X2):.1e}")
+    # fibre over [n]: the circle {[n,theta]}; its image is the complete great circle through +-p, +-n
+    ts = np.linspace(0, 2*PI, 7); pts = np.array([emb(n, t) for t in ts])
+    print(f"fibre image passes p, n, -p, -n at theta=0, pi/2, pi, 3pi/2: {np.allclose(pts[0], p)}, {np.allclose(pts[1], np.r_[0,n], atol=1e-12) if False else np.allclose(emb(n,PI/2), np.r_[0.0,n])}, {np.allclose(emb(n,PI), -p)}, {np.allclose(emb(n,3*PI/2), -np.r_[0.0,n])}")
+    # involution has no fixed points: n = -n impossible on S^3
+    print("involution free: n=-n has no solution on S^3 (|n|=1).  [T]")
+    # orientation: antipodal map on S^3 preserves orientation (degree (-1)^4 = +1); theta->-theta reverses -> product reverses
+    # numeric: oriented frame (e1,e2,e3) at n, pushed by -I; theta tangent flips
+    e = np.linalg.qr(np.c_[n, rng.normal(size=(4, 3))])[0][:, 1:]  # orthonormal frame tangent at n
+    # orientation of (n; e1,e2,e3) in R^4 vs (-n; -e1,-e2,-e3): det flips by (-1)^4 = +1 for the 4 vectors -> S^3 orientation preserved
+    d1 = np.linalg.det(np.c_[n, e]); d2 = np.linalg.det(np.c_[-n, -e])
+    print(f"antipodal map on S^3: det sign {np.sign(d1):+.0f} -> {np.sign(d2):+.0f} (orientation preserved); theta -> -theta reverses: total space nonorientable  [T]")
+    # pulled-back quotient metric near the pole in Cartesian normal coordinates y = r n: (ell^2/r^2)(delta - n n^T)
+    for r in [0.3, 0.1, 0.03]:
+        y = r*n; Pm = np.eye(4)-np.outer(n, n); M = Pm/r**2
+        ev = np.sort(np.linalg.eigvalsh(M))
+        print(f"   r={r:4.2f}: eigenvalues of (q^*h_G)_ij = (1/r^2)(delta_ij - n_i n_j): {ev[0]:.1e}, {ev[1]:.3f} (x3)  -> diverge as r^-2")
+    # regular chart: q_reg^* h_G = ell^2 g_{S^3}, theta independent, annihilates d_theta  (trivially true by construction)
+    # blow-down pullback of the S^4 volume: |sin theta|^3 -> degenerate on the exceptional RP^3 sections theta=0,pi
+    print("beta^* dV_4 = |sin theta|^3 dtheta dOmega_3 vanishes on the exceptional sections: a core measure there is extra data  [T]")
+
+# ---------------------------------------------------------------- 6. quotient-shift control (n=1 + weak extended secondary)
+def quotient_shift_control(delta_P_list=(0.3, 0.15, 0.075), delta_S=0.2, eps_phys=2.3e-7, verbose=True):
+    """Alignment control Delta_H V = rho - <rho> on the round S^4 (ell=1).  Primary: Gaussian of width delta_P
+    about the pole p, mass 1.  Secondary: Gaussian of width delta_S about an equatorial point n0, mass 1 (times eps).
+    First-order displacement of the line field [grad V], the induced motion of the meridian fibres (labelled by their
+    equatorial crossing), and the redistribution of the primary's reduced source  D_q R[dq]  compared with the
+    secondary's direct reduced source D_T R[dT].  Both per unit eps."""
+    print("\n== 6. quotient-shift control: D_q R[delta q] for a pole primary perturbed by an equatorial secondary ==")
+    # theta grid: fine near 0 (log) + uniform
+    th = np.unique(np.r_[np.geomspace(1e-5, 0.05, 400), np.linspace(0.05, PI-1e-6, 1500)])
+    phi = np.linspace(1e-4, PI-1e-4, 801)
+    TH, PH = np.meshgrid(th, phi, indexing='ij')
+    s3 = np.sin(th)**3
+    # secondary potential gradient as a smooth function of psi: g_S(psi) = V_S'(psi)/sin(psi)
+    psi_grid = np.linspace(1e-6, PI-1e-6, 4001)
+    rhoS = np.exp(-psi_grid**2/(2*delta_S**2))
+    MS = 2*PI**2*np.trapezoid(rhoS*np.sin(psi_grid)**3, psi_grid); rhoS /= MS            # mass 1
+    meanS = 1.0/(8*PI**2/3)
+    num = cumulative_trapezoid((rhoS-meanS)*np.sin(psi_grid)**3, psi_grid, initial=0.0)
+    VSp = num/np.sin(psi_grid)**3
+    gS = VSp/np.sin(psi_grid)                       # finite at both ends
+    results = {}
+    for dP in delta_P_list:
+        rhoP = np.exp(-th**2/(2*dP**2))
+        MP = 2*PI**2*np.trapezoid(rhoP*s3, th); rhoP /= MP                               # mass 1
+        meanP = 1.0/(8*PI**2/3)
+        VPp = cumulative_trapezoid((rhoP-meanP)*s3, th, initial=0.0)/s3               # V_P'(theta) > 0 on (0,pi)
+        VPp[0] = (rhoP[0]-meanP)*th[0]/4                                                 # small-theta limit of the 4D Poisson gradient
+        # 2D fields
+        cpsi = np.clip(np.sin(TH)*np.cos(PH), -1, 1); PSI = np.arccos(cpsi)
+        gS2 = np.interp(PSI, psi_grid, gS)
+        # delta u^phi = V_S'(psi) sin phi /(sin theta sin psi |V_P'|) = gS(psi) sin phi/(sin theta |V_P'|)
+        du = gS2*np.sin(PH)/(np.sin(TH)*np.abs(VPp)[:, None])
+        # eta(theta,phi) = int_{pi/2}^theta du dtheta'
+        i_eq = np.searchsorted(th, PI/2)
+        eta = np.zeros_like(du)
+        # integrate from the equator index outward in both directions
+        cum = cumulative_trapezoid(du, th, axis=0, initial=0.0)
+        eta = cum - cum[i_eq][None, :]
+        # divergence of xi = eta d_phi:  (1/sin^2 phi) d_phi (sin^2 phi eta)
+        s2p = np.sin(phi)**2
+        D = np.gradient(s2p[None, :]*eta, phi, axis=1)/s2p[None, :]
+        D = rhoP[:, None]*D                                   # div(rho_P xi) since rho_P independent of phi
+        # reduced redistribution on the base: sum of the two arcs (phi and pi-phi), each theta in (0,pi)
+        Dflip = D[:, ::-1]                                    # phi -> pi - phi on the symmetric grid
+        dRho = np.trapezoid((D+Dflip)*s3[:, None], th, axis=0)   # function of phi (label of the fibre), even about pi/2
+        # non-gauge residual: labels fixed at the core edge theta_ref = 2 delta_P instead of at each theta
+        i_ref = np.searchsorted(th, 2*dP)
+        eta_res = eta - eta[i_ref][None, :]
+        Dres = rhoP[:, None]*np.gradient(s2p[None, :]*eta_res, phi, axis=1)/s2p[None, :]
+        dRho_res = np.trapezoid((Dres+Dres[:, ::-1])*s3[:, None], th, axis=0)
+        # direct secondary reduced source
+        rhoS2 = np.interp(PSI, psi_grid, rhoS)
+        rhoSg = np.trapezoid((rhoS2+rhoS2[:, ::-1])*s3[:, None], th, axis=0)
+        # totals over RP^3 (= half the S^3 integral): 2 pi int f sin^2 phi dphi
+        tot_back = 2*PI*np.trapezoid(dRho*s2p, phi); tot_dir = 2*PI*np.trapezoid(rhoSg*s2p, phi)
+        abs_back = 2*PI*np.trapezoid(np.abs(dRho)*s2p, phi)
+        abs_res = 2*PI*np.trapezoid(np.abs(dRho_res)*s2p, phi)
+        # zonal harmonic coefficients about n0 on S^3: U_k(cos phi) = sin((k+1)phi)/sin phi, norm 2pi*int U_k^2 sin^2 = pi^2 ... use projections
+        def zonal_coeff(fvals, k):
+            Uk = np.sin((k+1)*phi)/np.sin(phi)
+            return np.trapezoid(fvals*Uk*s2p, phi)/np.trapezoid(Uk*Uk*s2p, phi)
+        c0, c2, c4 = (zonal_coeff(dRho, k) for k in (0, 2, 4))
+        # base lapse response (rigid closure, even sector): y''+4y = -2 pi rho(phi) sin phi, y(0)=0, y'(pi/2)=0 ; v_eq^2 = 2 psi''(pi/2)
+        def plateau_from(src):
+            A = PI/2
+            srcf = lambda t: np.interp(t, phi, src)
+            wgt = quad(lambda t: srcf(t)*np.sin(t)**2*np.cos(t), 0, A, limit=400)[0]
+            return 12*PI*wgt-4*PI*srcf(A)
+        vdir = plateau_from(rhoSg); vback = plateau_from(dRho); vres = plateau_from(dRho_res)
+        # kappa: dRho ~ -kappa (rho_S^g - <rho_S^g>)
+        m = (phi > 0.02) & (phi < 1.55); w = s2p[m]
+        mean_s = np.sum(rhoSg[m]*w)/np.sum(w)
+        kappa = -np.sum(dRho[m]*(rhoSg[m]-mean_s)*w)/np.sum((rhoSg[m]-mean_s)**2*w)
+        kres = np.sqrt(np.sum((dRho[m]+kappa*(rhoSg[m]-mean_s))**2*w)/np.sum(dRho[m]**2*w))
+        # near-core behaviour of eta and the pole displacement
+        eta_core = np.interp(dP/3, th, eta[:, phi.size//4])   # at phi=pi/4
+        # critical-point test: |grad V_P + eps grad V_S| on the grid; grad V_P = V_P' d_theta (unit), grad V_S components
+        gradVS_th = np.interp(PSI, psi_grid, VSp)*(-np.cos(TH)*np.cos(PH))/np.maximum(np.sin(PSI), 1e-12)
+        gradVS_ph = gS2*np.sin(PH)                            # orthonormal component along e_phi: (1/sin th)*d_phi V_S
+        gV = np.sqrt((VPp[:, None]+eps_phys*gradVS_th)**2+(eps_phys*gradVS_ph)**2)
+        mask = TH > 5*dP                                      # outside the core
+        gmin_out = gV[mask].min()
+        # displaced pole: V_P'(theta*) = eps |grad V_S(p)| ~ eps * V_S'(pi/2)
+        VSp_eq = np.interp(PI/2, psi_grid, VSp)
+        th_star = 4*eps_phys*VSp_eq/(rhoP[0]-meanP)            # small-theta solution of V_P'(theta*) = eps V_S'(pi/2)
+        results[dP] = dict(abs_res=abs_res, vres=vres, kappa=kappa, kres=kres, dRho_res=dRho_res,
+                           tot_back=tot_back, tot_dir=tot_dir, abs_back=abs_back, peak_back=np.abs(dRho).max(),
+                           peak_dir=rhoSg.max(), c0=c0, c2=c2, c4=c4, vdir=vdir, vback=vback, eta_core=eta_core,
+                           gmin_out=gmin_out, th_star=th_star, dRho=dRho, rhoSg=rhoSg, phi=phi)
+        if verbose:
+            inner = phi > 0.01
+            print(f"delta_P={dP:5.3f}: direct secondary source total={tot_dir:.4f} (M_S=1), peak={rhoSg[inner].max():.4f};"
+                  f"  backreaction total={tot_back:+.1e}, int|.|={abs_back:.3e}, peak={np.abs(dRho[inner]).max():.3e}")
+            print(f"            zonal coefficients of the backreaction: k=0 {c0:+.1e}, k=2 {c2:+.3e}, k=4 {c4:+.3e};"
+                  f"  int|.|/delta_P^3 = {abs_back/dP**3:.3f}")
+            print(f"            relabeling form: dRho = -kappa (rho_S^g - mean), kappa = {kappa:.4f} (rel. residual {kres:.3f})")
+            print(f"            if the base metric were held round in equatorial labels: plateau direct {vdir:.4f}, 'backreaction' {vback:+.3e}, ratio {vback/vdir:+.3f}")
+            print(f"            non-gauge residual (labels at theta_ref = 2 delta_P): int|.| = {abs_res:.3e}, /delta_P^3 = {abs_res/dP**3:.3f}, plateau ratio {vres/vdir:+.2e}")
+            print(f"            eta(theta=delta_P/3, phi=pi/4) = {eta_core:+.3f};  min|grad V| outside 5 delta_P (eps={eps_phys:.1e}) = {gmin_out:.3e} (>0: no new critical point);"
+                  f"  displaced pole theta* = {th_star:.2e}")
+    # point-like secondary basin radius: eps/(2 pi^2 psi^3) = V_P'(pi/2) = 1/(4 pi^2) -> psi_b = (2 eps)^(1/3)
+    print(f"point-like secondary of mass ratio eps acquires its own basin inside psi_b = (2 eps)^(1/3): eps=2.3e-7 -> {(2*2.3e-7)**(1/3):.4f} rad = {(2*2.3e-7)**(1/3)*16:.3f} kpc at ell=16 kpc")
+    return results
+
+# ---------------------------------------------------------------- 7. core anisotropy tolerance
+def core_anisotropy_tolerance():
+    print("\n== 7. core anisotropy -> base lapse quadrupole (rigid closure) and the tolerance ==")
+    phi = np.linspace(0.05, PI-0.05, 2001)
+    f = 4*np.cos(phi)**2-1                   # degree-2 zonal harmonic U_2(cos phi) on S^3
+    fp = np.gradient(f, phi); fpp = np.gradient(fp, phi)
+    lap = fpp+2/np.tan(phi)*fp
+    print(f"Laplacian eigenvalue of the degree-2 harmonic on S^3: {np.median(lap/f):.4f} (exact -8); descends to RP^3 (even)")
+    # (Delta+3) psi = -2 pi delta rho,  delta rho = rho_bar a Y2, rho_bar = 1/(4 pi)  ->  psi = a Y2/10, nu = -2 psi = -a Y2/5
+    a = 1.0
+    psi = -2*PI*(a/(4*PI))/(-8+3); print(f"psi/(a Y2) = {psi:.4f} (= 1/10);  nu/(a Y2) = {-2*psi:.4f} (= -1/5)")
+    ell = 16*KPC; Mg = 6e10*M_SUN; mu = G_SI*Mg/(C_SI**2*ell)
+    print(f"galaxy lapse scale 3 mu = {3*mu:.3e};  core anisotropy producing an equal base tidal lapse: a ~ 15 mu = {15*mu:.3e}")
+    print("Lemma: for any strictly convex SO(4)-invariant functional of the core angular measure nu on RP^3 with fixed total,")
+    print("       the uniform measure is the unique minimiser (Jensen + symmetry); the Dirichlet energy has gap 8 (degree-2).  [T, conditional on convexity]")
+
+# ---------------------------------------------------------------- 8. blind-referee reproductions
+def blind_referee_reproductions():
+    print("\n== 8. other checks of the blind report ==")
+    for theta in [0.22227, 0.35]:
+        q = np.cos(theta+2*PI*np.arange(3)/3)+np.cos(PI/4)
+        print(f"Koide principal-root ratio at theta={theta}: {np.sum(q*q)/np.sum(np.abs(q))**2:.7f}")
+    a, b = 0.4, 0.23
+    print(f"Higgs identity residual: {(1+np.cos(a+b))*(1-np.cos(a-b))-(np.sin(a)-np.sin(b))**2:.1e}")
+    ell = 16*KPC
+    mbg = PI*C_SI**2*ell/(4*G_SI)
+    print(f"closure base mass M_bg = pi c^2 ell/(4G) = {mbg/M_SUN:.7e} M_sun;  cover-lift M_c = 2 M_bg = {2*mbg/M_SUN:.7e} M_sun")
+    print(f"Planck length as geometric mean: l_P = sqrt((pi/2) ell lambda_C(M_c)) -> l_P^2 is the PRODUCT (pi/2) ell lambda_C, l_P the geometric mean of (pi/2)ell and lambda_C")
+    # Berger normalisation: vertical term lambda^2 vartheta^2; fundamental generator xi with vartheta(xi)=1 has norm lambda
+    print("Berger: |xi|_lambda = lambda for vartheta(xi)=1; W = Hor(V) + h xi = Hor(V) + (lambda h) xi_unit.  [T]")
+    # circumference vs radius
+    print("S^1 metric coefficient: period-2pi coordinate theta -> (L/2pi)^2 dtheta^2 gives circumference L.  [T]")
+
+def v34_1_suite():
+    """Everything the v34.1 round computed, in order (sections XXIX.10-13 of the manuscript)."""
+    pole_anisotropy_counterexample(); toy_b_noether_exact(); finite_compressibility_green(); exact_lapse_and_plateau()
+    resolved_pencil_control(); quotient_shift_control(); core_anisotropy_tolerance(); blind_referee_reproductions()
+
+
+
+# ------------------------------------------------------------------ galaxy source (unit mass on RP^3, lifted total 2 on S^3)
+def make_source(alpha):
+    raw = lambda x: 0.0 if x >= PI-1e-12 else np.exp(-np.tan(x/2)/alpha)
+    mass = 4*PI*integ(lambda x: raw(x)*np.sin(x)**2, 0, PI)
+    rho = lambda x: raw(x)/mass
+    rho_eff = lambda x: rho(x)+rho(PI-x)
+    rho_eff.vec = np.vectorize(rho_eff)
+    return rho, rho_eff
+
+# ------------------------------------------------------------------ 1. finite-s analytic plateau (fluid closure), extended source
+def finite_s_plateau(alpha, s):
+    """(Delta+3+1/s) psi = -2 pi rho_eff on the unit S^3, even sector; v_eq^2 = 2 psi''(pi/2) (per unit mu)."""
+    rho, rho_eff = make_source(alpha)
+    beta = np.sqrt(4+1/s) if np.isfinite(s) else 2.0
+    f = lambda t: -2*PI*rho_eff(t)*np.sin(t)
+    y_eq = -integ(lambda t: np.sin(beta*t)*f(t), 0, A_EQ)/(beta*np.cos(beta*A_EQ))
+    psi_eq = y_eq                                   # sin(pi/2)=1
+    return -2*(3+1/s)*psi_eq-4*PI*rho_eff(A_EQ) if np.isfinite(s) else -6*psi_eq-4*PI*rho_eff(A_EQ)
+
+def psi_profile_rigid(alpha, xs):
+    """psi(x) on [0,pi] for the rigid closure via the Green function of y''+4y=f, y(0)=0, y'(pi/2)=0 (even extension)."""
+    rho, rho_eff = make_source(alpha)
+    f = lambda t: -2*PI*rho_eff(t)*np.sin(t)
+    def y(x):
+        I1 = integ(lambda t: np.sin(2*t)*f(t), 0, x); I2 = integ(lambda t: -np.cos(2*t)*f(t), x, A_EQ)
+        return 0.5*(-np.cos(2*x)*I1+np.sin(2*x)*I2)
+    out = []
+    for x in xs:
+        xx = x if x <= A_EQ else PI-x
+        out.append(y(xx)/np.sin(xx) if xx > 1e-9 else 0.0)
+    return np.array(out)
+
+# ------------------------------------------------------------------ 2. elastic closure BVP
+def elastic_closure_matching(alpha=0.1, s=1.0, t=0.0, x0=1e-3):
+    """Static linear-elastic closure with CONSERVED particle number (bulk slope s = K/rho_bar, shear t = mu_s/rho_bar)
+    on the Einstein-static S^3; material at rest with radial displacement xi; conformal gauge; linear shooting from the
+    pole (regular series branch).  Returns the equatorial matching matrix for the even conditions psi'(pi/2)=0, xi(pi/2)=0,
+    its determinant, and the inconsistency of the particular solution.  (The system turns out to be overdetermined: see
+    the budget theorem.)"""
+    rho, rho_eff = make_source(alpha)
+    r0 = rho_eff(0.0)
+    def rhs_factory(src):
+        def rhs(x, y):
+            psi, dpsi, nu, dnu, xi, dxi = y
+            cot = np.cos(x)/np.sin(x); s2 = np.sin(x)**2
+            Theta = 6*psi+dxi+2*xi*cot
+            re = rho_eff(x) if src else 0.0
+            ddpsi = -2*cot*dpsi-3*psi-2*PI*re+0.5*Theta
+            ddnu = -2*cot*dnu+4*PI*re-(1+3*s)*Theta
+            ddxi = (dnu-6*s*dpsi-2*s*cot*dxi+2*s*xi/s2-(8*t/3)*cot*dxi+(4*t/3)*(3*np.cos(x)**2-1)*xi/s2)/(s+4*t/3)
+            return [dpsi, ddpsi, dnu, ddnu, dxi, ddxi]
+        return rhs
+    def series(psi0, xi1, src):
+        re0 = r0 if src else 0.0
+        psi2 = (-2*PI*re0+1.5*xi1)/6
+        nu2 = (4*PI*re0-(1+3*s)*(6*psi0+3*xi1))/6
+        xi3 = (2*nu2-12*s*psi2+(4*s/3-20*t/9)*xi1)/(10*s+40*t/3)
+        return [psi0+psi2*x0**2, 2*psi2*x0, nu2*x0**2, 2*nu2*x0, xi1*x0+xi3*x0**3, xi1+3*xi3*x0**2]
+    def shoot(psi0, xi1, src):
+        return solve_ivp(rhs_factory(src), (x0, A_EQ), series(psi0, xi1, src), method='DOP853', rtol=1e-11, atol=1e-14, dense_output=True)
+    P = shoot(0.0, 0.0, True); H1 = shoot(1.0, 0.0, False); H2 = shoot(0.0, 1.0, False)
+    yP, y1, y2 = P.y[:, -1], H1.y[:, -1], H2.y[:, -1]
+    M = np.array([[y1[1], y2[1]], [y1[4], y2[4]]])
+    # radial-equation residual (Bianchi check) on the particular solution
+    xs = np.linspace(0.3, 1.4, 12); Y = P.sol(xs); cot = np.cos(xs)/np.sin(xs)
+    Theta = 6*Y[0]+Y[5]+2*Y[4]*cot; eps_r = 2*Y[0]+Y[5]; eps_t = 2*Y[0]+Y[4]*cot
+    Sigma_r = -s*Theta-(4*t/3)*(eps_r-eps_t)
+    radial_res = np.max(np.abs(Y[3]-(np.tan(xs)*Sigma_r-2*Y[0]*np.tan(xs)-2*Y[1])))/np.max(np.abs(Y[3]))
+    # identity xi = 2 psi' on the homogeneous regular solutions
+    ident = max(np.max(np.abs(H1.sol(xs)[4]-2*H1.sol(xs)[1])), np.max(np.abs(H2.sol(xs)[4]-2*H2.sol(xs)[1])))
+    return dict(M=M, det=np.linalg.det(M), cond=np.linalg.cond(M), incons=yP[4]-2*yP[1], radial_res=radial_res, ident=ident)
+
+def stress_response_suite():
+    print("\n== the primary's stress response, first pass: barotropic (non-conserving) closures vs conserved-number elastic closures ==")
+    alpha = 0.1
+    print(" barotropic closure delta rho_cl = delta p/s (hydrostatic, rest mass NOT conserved): v_eq^2/mu, alpha=0.1 galaxy")
+    for s in [np.inf, 10.0, 3.0, 1.0, 0.5, 0.3]:
+        print(f"   s = {s:>5}: {finite_s_plateau(alpha, s):.6f}   (compact-source values: 3, {-(3+1/10)/np.cos(PI/2*np.sqrt(4.1)):.4f}, ..., 4.2917 at s=1)" if s in (np.inf, 10.0) else f"   s = {s:>5}: {finite_s_plateau(alpha, s):.6f}")
+    print(" conserved-number elastic closure (relativistic elasticity, static limit): even-sector matching at the equator")
+    for s, t in [(1e5, 0.0), (1.0, 0.0), (1.0, 0.3), (0.5, 1.0)]:
+        r = elastic_closure_matching(alpha, s, t)
+        print(f"   s={s:8.0e} t={t:4.2f}: det M = {r['det']:+.2e} (cond {r['cond']:.1e}); homogeneous identity max|xi - 2 psi'| = {r['ident']:.1e}; particular-solution inconsistency xi_P - 2 psi_P' at pi/2 = {r['incons']:+.4f}; radial-eq residual {r['radial_res']:.1e}")
+    print("   -> the two even conditions coincide on the regular homogeneous solutions and the sourced solution violates the common")
+    print("      condition: NO static even solution exists for any conserved-number closure (bulk or shear).  Explained by the budget theorem below.")
+
+# ------------------------------------------------------------------ 3. compensation / zero-mode theorem, numerically illustrated
+def compensation_theorem():
+    print("\n== compensation theorem: integrated active-mass balance on the closed base (unit S^3, 4 pi rho_bar = 1) ==")
+    alpha = 0.1
+    xs = np.linspace(1e-4, PI-1e-4, 4001); psi = psi_profile_rigid(alpha, xs)
+    w = 4*PI*np.sin(xs)**2
+    Ipsi = np.trapezoid(psi*w, xs)                      # S^3
+    print(f"rigid: int_S3 psi = {Ipsi:.5f}  (theorem: -2 pi M_lift/3 = {-2*PI*2/3:.5f});  3 int delta p = (3/2pi) int psi = {3*Ipsi/(2*PI):+.5f} = -M_lift ({-2.0})")
+    print(f"rigid: closure rest-mass change 6 rho_bar int psi = {6*Ipsi/(4*PI):+.5f} = -M_lift;  total rest mass unchanged")
+    print("fixed-measure pressureless image: Delta psi = -2 pi rho_S integrates to 0 = -2 pi M_S  -> no static solution on the closed base  [T]")
+    # budget theorem for any closure: int(delta rho_cl + 6 rho_bar psi) = -M_lift from the Hamiltonian constraint alone
+    for s in (np.inf, 3.0, 1.0, 0.3):
+        beta = 2.0 if not np.isfinite(s) else np.sqrt(4+1/s)
+        # psi for (Delta+3+1/s) psi = -2 pi rho_eff via Green function on [0,pi/2], even
+        rho, rho_eff = make_source(alpha); f = lambda t_: -2*PI*rho_eff(t_)*np.sin(t_)
+        def ypsi(x):
+            u1 = lambda t_: np.sin(beta*t_); u2 = lambda t_: np.cos(beta*(t_-A_EQ)); W = -beta*np.cos(beta*A_EQ)
+            I1 = integ(lambda t_: u1(t_)*f(t_), 0, x); I2 = integ(lambda t_: u2(t_)*f(t_), x, A_EQ)
+            return (u2(x)*I1+u1(x)*I2)/W
+        xg = np.linspace(1e-4, A_EQ, 300); ps = np.array([ypsi(x)/np.sin(x) for x in xg]); w = 4*PI*np.sin(xg)**2
+        Ipsi = 2*np.trapezoid(ps*w, xg)
+        drho = 0.0 if not np.isfinite(s) else 2*np.trapezoid(ps/(2*PI*s)*w, xg)
+        print(f"   closure s={s:>5}: int delta rho_cl = {drho:+.4f}, volume term 6 rho_bar int psi = {6*Ipsi/(4*PI):+.4f}, sum = {drho+6*Ipsi/(4*PI):+.4f} = -M_lift (-2); 3 int delta p = {3*Ipsi/(2*PI):+.4f}")
+    print("budget theorem [T]: in the conformal gauge int R dV and 2 Lambda V both shift by 12 int psi, so the Hamiltonian constraint fixes the")
+    print("   total base rest mass at its background value: M_closure + M_S = M_bg at first order for ANY static closure; a conserved-number")
+    print("   medium cannot be the closure; the primary's base image must lose exactly M_S -- naturally, if the secondary is drawn from the arena's fixed content.")
+
+# ------------------------------------------------------------------ 4. moving critical points (blind referee section 4)
+def moving_critical_points(dP=0.3, dS=0.2, eps=2.3e-7):
+    print("\n== moving critical points of the alignment control (Gaussian primary/secondary, unit S^4) ==")
+    mean = 3/(8*PI**2)
+    def gauss(width):
+        norm = 2*PI**2*integ(lambda t: np.exp(-t*t/(2*width**2))*np.sin(t)**3, 0, PI)
+        return lambda t: np.exp(-t*t/(2*width**2))/norm
+    def vp(rho, th):
+        return integ(lambda t: (rho(t)-mean)*np.sin(t)**3, 0, th)/np.sin(th)**3
+    p, s = gauss(dP), gauss(dS); vs = vp(s, PI/2)
+    print(f"rho_c = {p(0):.8f}, <rho> = {mean:.8f}, V_S'(pi/2) = {vs:.8f}")
+    print(f"north critical point displacement 4 eps V_S'/(rho_c-<rho>) = {4*eps*vs/(p(0)-mean):.3e} rad; antipodal (maximum) displacement 4 eps V_S'/(<rho>-rho_P(pi)) = {4*eps*vs/(mean-p(PI)):.3e} rad; point limit (8/3) eps = {8*eps/3:.3e}")
+    for th in (1e-2, 1e-3, 1e-4):
+        drift = vs/(np.sin(th)*vp(p, th))
+        print(f"   theta={th:.0e}: delta u^phi(phi=pi/2) = {drift:.3f},  theta^2 delta u = {th*th*drift:.8f}  (-> 4 V_S'/(rho_c-<rho>) = {4*vs/(p(0)-mean):.8f}: eta ~ 1/theta for the smooth core)")
+    print("point primary: V_P' ~ theta^-3 -> integrand ~ theta^2 -> eta(0) finite; the two limits do not commute  [T]")
+
+# ------------------------------------------------------------------ 5. anisotropy transfer function and tolerance (corrected)
+def anisotropy_tolerance():
+    print("\n== core quadrupole: transfer function and observable-specific tolerance ==")
+    x = np.linspace(0.05, A_EQ-0.05, 400)
+    Y2 = (4*np.cos(x)**2-1)/3; Y2p = -(8/3)*np.sin(x)*np.cos(x); Y2pp = -(8/3)*np.cos(2*x)
+    lap = Y2pp+2*np.cos(x)/np.sin(x)*Y2p
+    print(f"Delta Y2 + 8 Y2 residual: {np.max(np.abs(lap+8*Y2)):.1e};  nu_Q = -a Y2/5 -> delta v^2/c^2 = nu_Q' tan x = (8a/15) sin^2 x, residual {np.max(np.abs((-Y2p/5)*np.tan(x)-(8/15)*np.sin(x)**2)):.1e}")
+    print(f"delta v_eq^2/c^2 = 8a/15; against the compact galaxy 3 mu: ratio 8a/(45 mu); at a = 15 mu the ratio is {8*15/45:.4f} (order one, not 'unaffected')")
+    for f in (1.0, 0.1, 0.01):
+        print(f"   tolerance {f:5.2f} in v^2  ->  |a| <= (45/8) f mu = {45/8*f*MU:.3e}")
+    print("forced convex core: F = (K/2) int |grad sigma|^2 - eps j int sigma Y2 -> a = eps j/(8K): unique, anisotropic, despite strict convexity  [T]")
+
+# ------------------------------------------------------------------ 6. optical minimal test on the leaf
+def optical_test(alpha=0.1):
+    print("\n== optical minimal test: deflection of rays on the leaf with the pulled-back base metric (rigid benchmark) ==")
+    xs = np.linspace(1e-4, PI-1e-4, 3001); psi = psi_profile_rigid(alpha, xs)
+    psi0 = psi[0]
+    lnn = 4*psi-2*psi0                                   # ln n = 2 psi - nu, nu = -2 psi + 2 psi(0)
+    dlnn = np.gradient(lnn, xs)
+    f_dln = lambda c: np.interp(c, xs, dlnn)
+    rho, rho_eff = make_source(alpha)
+    # cylindrical (projected along the near great-circle passage) mass fraction for the flat-space comparison: M_cyl(b)/M = fraction of mass within angular radius... use 3D enclosed as a rough guide
+    def deflection(b):
+        # near passage s in (-pi/2, pi/2): cos chi = cos b cos s ; d_perp chi = sin b / sin chi ; alpha = -int d_perp ln n ds (toward the lens positive)
+        g = lambda sv: f_dln(np.arccos(np.cos(b)*np.cos(sv)))*np.sin(b)/np.sin(np.arccos(np.cos(b)*np.cos(sv)))
+        return -quad(g, -A_EQ, A_EQ, limit=400)[0]
+    def deflection_full(b):
+        g = lambda sv: f_dln(np.arccos(np.clip(np.cos(b)*np.cos(sv), -1, 1)))*np.sin(b)/max(np.sin(np.arccos(np.clip(np.cos(b)*np.cos(sv), -1, 1))), 1e-12)
+        return -quad(g, -PI, PI, limit=400)[0]
+    # point-mass closure Green function F = cos 2chi / sin chi: ln n = 2 mu F + const, F' = -cos chi (1/sin^2 chi + 2)
+    def defl_pt(b):
+        def g(sv):
+            ch = np.arccos(np.cos(b)*np.cos(sv)); return 2*np.cos(ch)*(1/np.sin(ch)**2+2)*np.sin(b)/np.sin(ch)
+        return quad(g, -A_EQ, A_EQ, limit=600)[0]
+    print(" b/ell   point-mass closure: alpha(b) b/(4 mu)   extended alpha=0.1 galaxy: alpha(b) b/(4 mu)   full-circuit deflection (extended)")
+    for b in (0.02, 0.05, 0.1, 0.2, 0.3, 0.5, 0.8, 1.0, 1.3, A_EQ):
+        print(f" {b:5.3f}        {defl_pt(b)*b/4:8.4f}                              {deflection(b)*b/4:8.4f}                            {deflection_full(b)*b/4:+.1e}")
+    print("near field standard (GR value 1 as b -> 0, excess ~ 6 b^2/ell^2 from the closure term and compactness); the Fermat potential is")
+    print("ln n = 2 psi - nu = -2 nu + const: lensing potential = 2 x dynamical potential, i.e. zero gravitational slip, as in GR  [T]")
+    print(f"antipodal refocusing of the round leaf: every ray from a point reconverges after pi ell = {PI*16:.1f} kpc (light time {PI*ELL/C_SI/3.156e7/1e3:.0f} kyr); the first-order lens perturbs, does not remove, the conjugate point  [T]")
+    return None
+
+# ------------------------------------------------------------------ 7. representation-stretch branch (Entries 267-268, Option A)
+def stretch_branch(alpha=0.1):
+    print("\n== representation-stretch branch: Option A geometry, inclination realisation, four-mass regularisation, tests ==")
+    # (a) proper distance and horn
+    D = lambda chi: 2*np.tan(chi/2)                                   # ell = 1
+    R = lambda d: d/(1+d*d/4)
+    print(f"D(pi/2) = {D(A_EQ):.4f} (round: {A_EQ:.4f}); D(0.99 pi) = {D(0.99*PI):.2f}; D -> infinity at the antipode; R(D) max = {max(R(d) for d in np.linspace(0,50,5001)):.4f} at D=2")
+    d = np.array([5., 10., 20., 40.])
+    Rp = lambda d: (1-d*d/4)/(1+d*d/4)**2; Rpp = lambda d, h=1e-5: (Rp(d+h)-Rp(d-h))/(2*h)
+    print(" D      R(D)      K_radial=-R''/R      K_tangential=(1-R'^2)/R^2")
+    for dv in d: print(f" {dv:4.0f}   {R(dv):.4f}    {-Rpp(dv)/R(dv):+.5f}           {(1-Rp(dv)**2)/R(dv)**2:.3f}")
+    # (b) kinematic invariance of v^2 = R N'/(N R') under A -> A_hat: trivially A-independent; Option B check
+    chi = 0.7; print(f"Option B (R = D): v^2 = R N'/(N R') = 2 tan(chi/2)/sec^2(chi/2) N'/N = sin(chi) N'/N -> {np.sin(chi):.4f} N'/N vs round tan(chi) N'/N = {np.tan(chi):.4f} N'/N ; at the equator -> 0")
+    # (c) inclination one-form: beta = f(z) dz with f = 2 z sqrt(1+t)/t,  t = 1+z^2, z = tan(chi/2): beta^2 = sec^4(chi/2)-1 ?
+    chis = np.linspace(0.1, 2.9, 7); z = np.tan(chis/2); t = 1+z*z
+    f = 2*z*np.sqrt(1+t)/t; dz = 0.5/np.cos(chis/2)**2
+    print(f"one-form check: max |f^2 (dz/dchi)^2 - (sec^4(chi/2)-1)| = {np.max(np.abs(f*f*dz*dz-(1/np.cos(chis/2)**4-1))):.1e}   (the transcribed referee form (1/2)sqrt(1+t)/t^(3/2) gives {np.max(np.abs((0.5*np.sqrt(1+t)/t**1.5)**2*dz*dz-(1/np.cos(chis/2)**4-1))):.2f}: not Option A)")
+    # meridian height Phi(chi) = int f dz : unbounded ~ 2 z
+    Phi = lambda c: integ(lambda u: 2*np.tan(u/2)*np.sqrt(2+np.tan(u/2)**2)/(1+np.tan(u/2)**2)*0.5/np.cos(u/2)**2, 0, c)
+    print(f"meridian height Phi(chi): Phi(pi/2)={Phi(A_EQ):.3f}, Phi(0.9pi)={Phi(0.9*PI):.3f}, Phi(0.99pi)={Phi(0.99*PI):.3f} (~2 z, unbounded: the leaf winds up the meridian without bound)")
+    # (d) regularised one-form: f_eps = 2 z sqrt(1+t)/(t (1+eps t)^(3/2)); antipodal distance along the great circle vs eps
+    def Dant(eps):
+        g = lambda u: np.sqrt(1+(2*np.tan(u/2)*np.sqrt(2+np.tan(u/2)**2)/((1+np.tan(u/2)**2)*(1+eps*(1+np.tan(u/2)**2))**1.5)*0.5/np.cos(u/2)**2)**2)
+        return quad(g, 0, PI, limit=800)[0]
+    print(" eps      D_antipode(eps)   2/sqrt(eps)")
+    for e in (1e-1, 1e-2, 1e-3, 1e-4):
+        print(f" {e:.0e}    {Dant(e):9.3f}        {2/np.sqrt(e):9.3f}")
+    # smoothness at the antipode: f_eps dz ~ C r dr ?  f_eps(z) z^3 -> const
+    for zz in (10., 100., 1000.):
+        tt = 1+zz*zz; fe = 2*zz*np.sqrt(1+tt)/(tt*(1+0.01*tt)**1.5)
+        print(f"   z={zz:6.0f}: f_eps z^3 = {fe*zz**3:.4f} (eps=0.01; const -> beta ~ r dr at the antipode, smooth)")
+    # (e) four tetrahedral masses: epsilon_i = kappa sum_j (m_j/m_i)(1-p_i.p_j) = 4 kappa ; metric gamma + alpha(x)alpha, alpha = sum w_i beta_i
+    P = np.array([[1,1,1],[1,-1,-1],[-1,1,-1],[-1,-1,1]])/np.sqrt(3)       # tetrahedron in R^3 -> embed in R^4 as (0, p)
+    P4 = np.c_[np.zeros(4), P]
+    print(f"tetrahedron: p_i.p_j = {P4[0]@P4[1]:.4f} (= -1/3), sum p_i = {np.linalg.norm(P4.sum(0)):.1e}, antipode of p_1 = sum of others: {np.linalg.norm(-P4[0]-P4[1:].sum(0)):.1e}")
+    kappa = 0.05; eps_i = kappa*sum((1-P4[0]@P4[j]) for j in range(1,4)); print(f"kappa={kappa}: eps_i = {eps_i:.3f} (= 4 kappa)")
+    def alpha_form(x, v):
+        """one-form alpha = sum w_i beta_i evaluated on tangent vector v at point x in S^3 (unit vectors in R^4)."""
+        tot = 0.0
+        for pi_ in P4:
+            c = np.clip(x@pi_, -1, 1); Th = np.arccos(c)
+            if Th < 1e-9 or Th > PI-1e-9: continue
+            z = np.tan(Th/2); tt = 1+z*z
+            fe = 2*z*np.sqrt(1+tt)/(tt*(1+eps_i*tt)**1.5)
+            # dz = (1/2) sec^2(Th/2) dTh ; dTh(v) = -(v.p)/sin(Th)
+            dTh = -(v@pi_)/np.sin(Th); dzv = 0.5/np.cos(Th/2)**2*dTh
+            tot += 0.25*fe*dzv
+        return tot
+    def path_length(x0, x1, n=4000):
+        # great-circle path from x0 to x1 in S^3 (x1 = -x0 handled by a chosen intermediate direction)
+        if np.allclose(x1, -x0):
+            e = np.array([0, 0, 0, 1.0]); e -= (e@x0)*x0; e /= np.linalg.norm(e)
+            pts = [np.cos(sv)*x0+np.sin(sv)*e for sv in np.linspace(0, PI, n)]
+        else:
+            e = x1-(x1@x0)*x0; e /= np.linalg.norm(e); ang = np.arccos(np.clip(x0@x1, -1, 1))
+            pts = [np.cos(sv)*x0+np.sin(sv)*e for sv in np.linspace(0, ang, n)]
+        L = 0.0
+        for a_, b_ in zip(pts[:-1], pts[1:]):
+            dx = b_-a_; mid = (a_+b_)/2; mid /= np.linalg.norm(mid)
+            L += np.sqrt(dx@dx+alpha_form(mid, dx)**2)
+        return L
+    print(f"four equal masses, kappa={kappa}: path length p_1 -> -p_1 (through the others' hemisphere) = {path_length(P4[0], -P4[0]):.3f}  (round: {PI:.3f}); p_1 -> p_2 = {path_length(P4[0], P4[1]):.3f} (round {np.arccos(-1/3):.3f}); all finite  [T: smooth positive metric on compact S^3]")
+    # (f) epicyclic ratio test at the solar circle: kappa^2/Omega^2 = (R R' nu''/nu' + 3 R'^2 - R R'')/A^2
+    xs = np.linspace(1e-4, PI-1e-4, 6001); psi = psi_profile_rigid(alpha, xs); nu = -2*psi+2*psi[0]
+    nup = np.gradient(nu, xs); nupp = np.gradient(nup, xs)
+    chi_sun = np.arcsin(8/16)
+    i = np.searchsorted(xs, chi_sun)
+    Rr, Rp_, Rpp_ = np.sin(chi_sun), np.cos(chi_sun), -np.sin(chi_sun)
+    ratio_round = (Rr*Rp_*nupp[i]/nup[i]+3*Rp_**2-Rr*Rpp_)
+    A2 = 1/np.cos(chi_sun/2)**4
+    print(f"epicyclic ratio at R = 8 kpc (chi={chi_sun:.4f}), alpha=0.1 plateau model: (kappa/Omega)^2 round = {ratio_round:.4f} -> kappa/Omega = {np.sqrt(ratio_round):.4f}; Option A: /A^2 = {ratio_round/A2:.4f} -> {np.sqrt(ratio_round/A2):.4f} (factor cos^2(chi/2) = {1/np.sqrt(A2):.4f}); flat-curve value sqrt2 = 1.4142; Oort-constant value ~1.32-1.35")
+    print(f"local-GR check of the stretch: A-1 = sec^2(chi/2)-1 at 1 AU: {1/np.cos(1.496e11/ELL/2)**2-1:.1e}; at 8 kpc: {A2**0.5-1:.4f}; at 10 kpc: {1/np.cos(np.arcsin(10/16)/2)**2-1:.4f}")
+    # (g) ray spiralling: azimuth advance between the two turning points, round vs Option A (no lens)
+    def dphi(b, stretch):
+        # chi = b + (pi-2b)(1-cos tau)/2 removes the inverse-square-root singularities at both turning points
+        L = PI-2*b
+        def g(tau):
+            c = b+L*(1-np.cos(tau))/2; dc = L*np.sin(tau)/2
+            rad = np.sin(c)**2-b*b
+            if rad <= 0: return 0.0
+            return b*(1/np.cos(c/2)**2 if stretch else 1.0)/(np.sin(c)*np.sqrt(rad))*dc
+        return quad(g, 0, PI, limit=1000)[0]
+    print(" b/ell   azimuth advance between turning points: round   Option A")
+    for b in (0.5, 0.3, 0.1, 0.05):
+        print(f" {b:4.2f}        {dphi(b, False):.4f}      {dphi(b, True):.3f}")
+    print("round: exactly pi (great circle, point refocusing at the antipode); Option A: rays spiral around the horn near the far turning point, no point refocusing; only b=0 reaches the infinite end  [T]")
+    # (h) redshift: static -> 1+z = N_r/N_e ; near a smooth origin N'(0)=0 -> quadratic
+    print(f"static redshift near the origin: nu(chi)-nu(0) = {nu[np.searchsorted(xs,0.1)]-nu[0]:+.3e} at chi=0.1, {nu[np.searchsorted(xs,0.2)]-nu[0]:+.3e} at 0.2 (per unit mu; quadratic, not linear): no Hubble law from a static stretch  [T]")
+
+# ------------------------------------------------------------------ 8. Boltzmann counting toy for core isotropy
+def boltzmann_core_counting():
+    print("\n== Boltzmann counting toy: multinomial weight of a directional core; isotropy as typicality ==")
+    # <Y2^2> on S^3 for Y2 = (4 cos^2 - 1)/3
+    m = integ(lambda c: ((4*np.cos(c)**2-1)/3)**2*np.sin(c)**2, 0, PI)/integ(lambda c: np.sin(c)**2, 0, PI)
+    print(f"<Y2^2> = {m:.5f} (= 1/9);  log Omega ~ N log K - (N a^2/2) <Y2^2>  -> suppression exp(-N a^2/18)")
+    for a in (1e-6, 1e-7, 1e-8):
+        print(f"   a = {a:.0e}: N_eff for e^-1 suppression = 18/a^2 = {18/a**2:.1e}")
+    print("entropy -sum p log p is strictly concave: the convexity lemma's functional is Boltzmann's; stiffness K <-> N_eff; forced susceptibility a = eps j/(8K)  [T, toy]")
+
+
+def v34_2_suite():
+    stress_response_suite(); compensation_theorem(); moving_critical_points(); anisotropy_tolerance(); optical_test(); stretch_branch(); boltzmann_core_counting()
+
+
+# ====================================================================================================
+# v34.3 (12 October 2026): the referees' corrections to v34.2 and the matter-selected centering of the stretch branch.
+# ====================================================================================================
+import math
+
+# ------------------------------------------------------------------ 1. exact epicyclic ratio and the recomputed numbers
+def epicyclic_exact():
+    print("\n== exact coordinate-time epicyclic ratio for circular geodesics in -N^2dt^2 + A^2dchi^2 + R^2 dOmega^2 ==")
+    # Schwarzschild check: N^2 = 1-2M/r, A^2 = 1/(1-2M/r), R = r ; exact kappa^2/Omega^2 = 1 - 6M/r
+    M = 1.0
+    for r in (10.0, 20.0, 50.0):
+        etap = M/(r*(r-2*M)); etapp = -2*M*(r-M)/(r**2*(r-2*M)**2)          # eta = (1/2) ln(1-2M/r), analytic
+        A2 = 1/(1-2*M/r)
+        exact = (3*1-r*0+r*1*(etapp/etap-2*etap))/A2
+        trunc = (3+r*(etapp/etap))/A2
+        print(f"   r={r:4.0f}M: exact formula {exact:.6f} vs 1-6M/r = {1-6*M/r:.6f};  truncated (no -2RR'eta') {trunc:.6f} vs 1-4M/r = {1-4*M/r:.6f}")
+    # the alpha=0.1 plateau model at R = 8 kpc, exact formula with eta = ln N = nu (first order)
+    alpha = 0.1
+    xs = np.linspace(1e-4, PI-1e-4, 6001); psi = psi_profile_rigid(alpha, xs); nu = (-2*psi+2*psi[0])*MU     # physical lapse perturbation
+    eta = np.log(1+nu); etap = np.gradient(eta, xs); etapp = np.gradient(etap, xs)
+    chi_sun = np.arcsin(0.5); i = np.searchsorted(xs, chi_sun)
+    Rr, Rp, Rpp = np.sin(chi_sun), np.cos(chi_sun), -np.sin(chi_sun)
+    exact_round = Rr*Rp*(etapp[i]/etap[i]-2*etap[i])+3*Rp**2-Rr*Rpp
+    trunc_round = Rr*Rp*(etapp[i]/etap[i])+3*Rp**2-Rr*Rpp
+    A2 = 1/np.cos(chi_sun/2)**4
+    print(f"   alpha=0.1 model at R=8 kpc: exact (kappa/Omega)^2 round = {exact_round:.5f} (truncated {trunc_round:.5f}; difference 2 R R' eta' = {2*Rr*Rp*etap[i]:.1e}) -> kappa/Omega = {np.sqrt(exact_round):.4f}; Option A: {np.sqrt(exact_round/A2):.4f}")
+    print(f"   Oort constants A=15.3, B=-11.9 km/s/kpc (Bovy 2017): kappa/Omega = sqrt(-4B/(A-B)) = {np.sqrt(4*11.9/27.2):.4f}")
+
+# ------------------------------------------------------------------ 2. exact lensing control integral and the forced Jacobi circuit
+def lensing_exact_and_circuit():
+    print("\n== point-lens signed gradient integral: closed form, expansion, and the forced-Jacobi return map ==")
+    def ray_force(s, beta):
+        sin_chi = np.sqrt(np.sin(beta)**2+np.cos(beta)**2*np.sin(s)**2); cos_chi = np.cos(beta)*np.cos(s)
+        return 2*(-cos_chi*(1/sin_chi**2+2))*np.sin(beta)/sin_chi          # per unit mu: d_perp ln n
+    print(" beta    numerical alpha beta/(4mu)   closed form beta cot beta + 2 beta sin beta ln cot(beta/2)   1 + beta^2[2 ln(2/beta) - 1/3]   local coefficient (excess/beta^2)")
+    for beta in (0.02, 0.05, 0.1, 0.2, 0.5, 0.8, 1.0):
+        num = -integ(lambda s: ray_force(s, beta), -A_EQ, A_EQ)*beta/4
+        exact = beta/np.tan(beta)+2*beta*np.sin(beta)*np.log(1/np.tan(beta/2))
+        exp2 = 1+beta**2*(2*np.log(2/beta)-1/3)
+        print(f" {beta:4.2f}      {num:.8f}                 {exact:.8f}                                     {exp2:.6f}                 {(exact-1)/beta**2:.3f}")
+    print(" full circuit: unweighted integral vs forced Jacobi y''+y = f (y(0)=y'(0)=0): y(2pi), y'(2pi) per unit mu")
+    for beta in (0.1, 0.5, 1.0):
+        f = lambda s: ray_force(s, beta)
+        unw = integ(f, 0, 2*PI, points=[A_EQ, PI, 3*A_EQ])
+        y = integ(lambda s: np.sin(2*PI-s)*f(s), 0, 2*PI, points=[A_EQ, PI, 3*A_EQ])
+        yp = integ(lambda s: np.cos(2*PI-s)*f(s), 0, 2*PI, points=[A_EQ, PI, 3*A_EQ])
+        sol = solve_ivp(lambda s, z: [z[1], f(s)-z[0]], [0, 2*PI], [0, 0], method='DOP853', rtol=1e-11, atol=1e-11)
+        print(f"   beta={beta:3.1f}: unweighted {unw:+.1e}; y(2pi) = {y:+.3e}, y'(2pi) = {yp:+.5f} (ODE: {sol.y[0,-1]:+.1e}, {sol.y[1,-1]:+.5f}) -> return direction changed")
+    print(" the equator-to-equator reference rays x(s) = (cos b cos s, sin b cos s, sin s, 0) have beta-independent antipodal endpoints at s = +-pi/2: degenerate Jacobi map  [T]")
+
+# ------------------------------------------------------------------ 3. Option A: volume, proper-mass change, off-centre angular-diameter distance, azimuth limits
+def stretch_corrections():
+    print("\n== Option A corrections: horn volume, proper-mass change, off-centre D_A, azimuth turning points ==")
+    R = lambda D: D/(1+D*D/4)
+    V = 4*PI*integ(lambda D: R(D)**2, 0, np.inf)
+    print(f"horn volume 4 pi int R^2 dD = {V:.6f} = {V/PI**2:.4f} pi^2 (round S^3: 2 pi^2 = {2*PI**2:.4f}); ratio {V/(2*PI**2):.3f}")
+    for al in (0.05, 0.1, 0.2):
+        rho = lambda x: 0.0 if x >= PI-1e-12 else np.exp(-np.tan(x/2)/al)
+        m0 = integ(lambda x: rho(x)*np.sin(x)**2, 0, PI); m1 = integ(lambda x: rho(x)*np.sin(x)**2/np.cos(x/2)**2, 0, PI)
+        print(f"   r_d/ell={al:4.2f}: proper mass after/before stretch at fixed central density = {m1/m0:.4f}")
+    prim = lambda D: -1/D+D/2+D**3/48
+    D0 = 2*np.tan(np.arcsin(0.5)/2)
+    print(f" observer at R(D0)=ell/2, D0/ell = {D0:.6f}: D_A = R(D0) R(D) int_D0^D du/R^2")
+    sol = solve_ivp(lambda D, y: [y[1], -((3-(D/2)**2)/(2*(1+(D/2)**2)**2))*y[0]], [D0, 20], [0, 1], method='DOP853', rtol=1e-11, atol=1e-11, dense_output=True)
+    for D in (2, 5, 10, 20):
+        da = R(D0)*R(D)*(prim(D)-prim(D0))
+        print(f"   D/ell={D:3d}: R/ell = {R(D):.6f}, D_A/ell = {da:.6f} (Jacobi ODE {sol.sol(D)[0]:.6f}); asymptote R(D0) D^2/(12 ell^2) = {R(D0)*D*D/12:.3f}")
+    # azimuth with correct limits arcsin(eta) .. pi - arcsin(eta), substitution removing endpoint roots (referee's)
+    for eta in (0.05, 0.1, 0.5, 0.8):
+        a = np.sqrt(1-eta**2)
+        ang = integ(lambda th: 4*(1+(a/eta)**2*np.sin(th)**2), 0, A_EQ)
+        print(f"   eta=b/ell={eta:4.2f}: azimuth advance between turning points chi = arcsin eta .. pi - arcsin eta: {ang/PI:.6f} pi  (pi(1+1/eta^2) = {(1+1/eta**2):.6f} pi)")
+
+# ------------------------------------------------------------------ 4. budget theorem qualifications
+def budget_qualifications():
+    print("\n== budget theorem: first variation of F[h] = int (R-2Lambda) dV; isentropic conserved-particle EOS; exact round family ==")
+    print(" at the round background R_ij = 2 h_ij, R = 6, Lambda = 1: coefficient -R^ij + (R/2 - Lambda) h^ij = (-2 + 2) h^ij = 0 -> delta F = 0 for ANY delta h  [T]")
+    for s in (1.0, 0.3, 3.0):
+        rhobar = 1/(4*PI); n0 = 1.0
+        rho = lambda n: rhobar/(1+s)*((n/n0)**(1+s)+s)
+        p = lambda n: n*(rho(n*(1+1e-7))-rho(n*(1-1e-7)))/(2e-7*n)-rho(n)
+        h = 1e-5; dpdrho = (p(n0+h)-p(n0-h))/(rho(n0+h)-rho(n0-h))
+        print(f"   isentropic EOS s={s}: rho(n0) = {rho(n0):.6f} (= rho_bar {rhobar:.6f}), p(n0) = {p(n0):+.1e}, dp/drho at n0 = {dpdrho:.5f} -> delta p = s delta rho with conserved particles  [T]")
+    print(" closure-sector charge change forced by the budget: delta N_P = (n0/rho_bar) delta E_P = -(n0/rho_bar) M_S -> consistent only if the secondary is formed from the closure's content (transfer law needed)  [T]")
+    E = lambda a: PI*(3*a-a**3)/8
+    for a in (0.9, 1.0, 1.1): print(f"   exact round family at fixed Lambda=1: E(a={a}) = {E(a):.6f}")
+    print(f"   E'(1) = {(E(1+1e-6)-E(1-1e-6))/2e-6:+.1e}, E''(1) = {(E(1+1e-4)-2*E(1)+E(1-1e-4))/1e-8:+.4f} (= -3pi/4 = {-3*PI/4:.4f}): first variation vanishes, the integrated energy is not exactly constant  [T]")
+
+# ------------------------------------------------------------------ 5. Boltzmann matching and tail
+def boltzmann_qualifications():
+    print("\n== Boltzmann toy: entropy Hessian vs Dirichlet Hessian; tail probability ==")
+    Y2sq = integ(lambda c: ((4*np.cos(c)**2-1)/3)**2*np.sin(c)**2, 0, PI)/integ(lambda c: np.sin(c)**2, 0, PI)
+    print(f" entropy cost (N/2) <(a Y2)^2> = N a^2 {Y2sq/2:.4f} = N a^2/18; Dirichlet (K/2)<|grad(a Y2)|^2> = (K/2) 8 <Y2^2> a^2 = 4 K a^2/9 -> matching this mode: K = N/8 (a higher harmonic of eigenvalue lambda would need K = N/lambda)  [T]")
+    print(f" forced: entropy toy a = eps j/N; Dirichlet toy a = eps j/(8K); agree only after K = N/8  [T]")
+    print(f" one-mode Gaussian: variance 9/N; with N = 18/a_tol^2, Pr(|a|>a_tol) = erfc(1) = {math.erfc(1):.4f} -- a relative-weight diagnostic, not a high-confidence guarantee  [T]")
+
+# ------------------------------------------------------------------ 6. matter-selected centering: Poisson-type inclination law (simplest covariant candidate)
+def centering_toy(alpha=0.1, kappa_phi=1.0):
+    print("\n== matter-selected centering: the simplest covariant inclination law Delta_B Phi = kappa (rho - <rho>) on the leaf ==")
+    rho, rho_eff = make_source(alpha)
+    # on the unit S^3 with the (unlifted) source rho of total 1 and mean 1/(2 pi^2): (sin^2 Phi')' = sin^2 (rho - mean)
+    mean = 1/(2*PI**2)
+    def Phip(chi):
+        return kappa_phi*integ(lambda x: (rho(x)-mean)*np.sin(x)**2, 0, chi)/np.sin(chi)**2
+    chis = [0.05, 0.2, 0.5, 1.0, A_EQ, 2.0, 2.5, 3.0, 3.1]
+    print(" chi      Phi'(chi)      stretch A/ell = sqrt(1+Phi'^2)     Option A sec^2(chi/2)")
+    for c in chis:
+        ph = Phip(c); print(f" {c:4.2f}   {ph:+.5f}        {np.sqrt(1+ph*ph):.5f}                     {1/np.cos(c/2)**2:.3f}")
+    Dant = integ(lambda c: np.sqrt(1+Phip(c)**2), 1e-6, PI-1e-6)
+    print(f" antipodal proper distance under the Poisson-type law: {Dant:.4f} ell (round pi = 3.1416): finite, bounded; stretch concentrated near the source, vanishing toward the antipode")
+    print(" symmetry lemma: a covariant inclination equation with a unique solution for an isotropic source gives a stretch radial about the matter-selected centre  [T]")
+    print(" centre tracking in the alignment control: the minimum of the matter potential moves with the matter (theta*_+ = 6.3e-9 rad for the galaxy perturbation, sec. XXIX.12)  [author-reported]")
+    print(" conclusion: the Poisson-type law centres correctly but is NOT Option A -- Option A's growth away from matter toward the antipode needs the return/closure structure, with the centre supplied by the matter potential's minimum (template Phi = Phi_A(d(x, argmin V)))  [D]")
+
+def v34_3_suite():
+    epicyclic_exact(); lensing_exact_and_circuit(); stretch_corrections(); budget_qualifications(); boltzmann_qualifications(); centering_toy()
+
+
+def v34_3_suite():
+    epicyclic_exact(); lensing_exact_and_circuit(); stretch_corrections(); budget_qualifications(); boltzmann_qualifications(); centering_toy()
+
+if __name__ == "__main__":
+    v34_1_suite(); v34_2_suite(); v34_3_suite()
+```
+
+## XXIX.16 Register R56–R104, the evidence-status system, the reprioritized program, the minimum theorem package, and reproducibility [D/O; v34.1–34.3]
 
 **The evidence-status system (both referees; replaces the bare [V] from §XXIX.10 on).** The archival tags [T/V/D/S/O/R] are retained; each claim in §§XXIX.10–16, in this register and in the companion current-manuscript file carries one of:
 
@@ -5070,12 +5845,14 @@ Numerical work carries scripts, boundary data, seeds, units, normalization and c
 
 **Correction register (v34.1).** R56: §II.4, §VIII.1 — the pencil's circles are parameterized by $\mathbb{RP}^3$ but are not disjoint fibers of a map on $S^4$; three objects named; $q^*g_G$ is regular on the regular stratum only and diverges as $r^{-2}$ at an original pole; the resolved control $\widetilde X$ recorded and not adopted. R57: §XXIX.9 Toy C (ii), R55, "structural result" — a pole point mass has no canonical reduction (anisotropic shrinking-annulus counterexample); the uniform image is an isotropic-core prescription; "the two unexplained ingredients become one law" and "the heaviest debt is addressed" downgraded to a candidate density realization; "invisible to every leaf readout" weakened to absence from the selected leaf. R58: §XXIX.9 alignment control — selects regular directions, not closed complete fibers; pairing and core completion are extra data; for $n\ge2$ no quotient existence is implied. R59: Part III Law I, §XXIX.9 Toy B — $T^{(g)}$ defined as the response of the complete source action; conservation from covariance and the complete equations; "a varying fiber length demands the very radion" withdrawn (auxiliary-field counterexample); "two-crossing rule recovered exactly from two narrow bumps" replaced by the distributional ansatz. R60: Part III Law II — the finite interlocking interior and the three exterior conditions of Entries 156–158 made operative; the point pencil typed as the zero-core limit. R61: Part III Law II — the dominance/Keplerian acceptance condition adopted; first executed step §XXIX.12. R62: §XXV.4 — the lapse equation integrates exactly, $\nu = -2\psi+2\psi(0)$; the "up to one percent" global pressure correction withdrawn. R63: §XXV.5 — the shooting table replaced by the analytic plateau formula; compact entry $2.977\to2.9929$ (shooting error, not physics); curve values confirmed. R64: §XXV.1, opening status — rigid-closure uniqueness withdrawn; $p/\rho$ separated from $dp/d\rho$; finite-$s$ compact Green function nonoscillatory for $s>1/5$; resonances $s_n = 1/(n(n+2)-3)$. R65: §IV.8, §XXV.5 — equatorial limit scoped to a continued family of orbits with $R''\neq0$; exact equator selects no speed; observational claim requires a protocol. R66: §XXV.3 — physical e-folding scale is $2r_d$ for the printed convention; the profile is spherical; table re-indexed. R67: §XXIX.3, §XXIX.7D — $N^2$ is a frame coefficient; "already a theory of this kind" withdrawn. R68: §XXIX.7D/F, §XXIX.9 — "geometric mean" corrected to product (Planck length is the geometric mean); base mass $M_{\rm bg} = 2.626\times10^{17}M_\odot$ versus lift $M_c = 5.252\times10^{17}$ labeled everywhere; the candidate primary carries the base mass. R69: §XXIX.7E/F — the variable-$1/G$ negative result scoped to the tested ansätze; species-mass sum is not an arena mass; $\hbar_{\rm eff}$ defined from two sectors is not a third datum. R70: §XXVIII.18 — $W = {\rm Hor}(V)+h\xi$ with $\xi$ the fundamental generator ($\vartheta(\xi) = 1$, norm $\lambda$); coefficient $\lambda h$ on the unit vertical vector. R71: §XXIX.6 — Johnston citation corrected (CQG 25, 202001 (2008); PRL 103, 180401 (2009)). R72: Part III Law IV — pullback to $E_{\rm rep}$ only; readout-action status of the four-dimensional matter actions. R73: §I.1 — the shell's $S^2$ link is a four-dimensional normal-space statement; the five-dimensional source needs a choice of object. R74: §II.2 — smooth semi-free completion incompatible with a graph fixed locus. R75: §IV.5, Structure III — $(L_H/2\pi)^2$ for a period-$2\pi$ coordinate; Hopf curvature normalization stated. R76: §XXII.12 — status marks for blow-up, Hopfion texture and physical interior; bridge to §§XXIX.10, 12, 14. R77: §XXII.11 — exchange test restated for the full-middle-space ontology. R78: §XXIV.4 — Higgs data verdict requires a model-consistent joint fit and a primary citation; literal potential's non-analyticity and the two matching hypotheses kept in every summary. R79: §§XXIV.26–27 — running versus pole masses; conditional spectral ansatz, not a derivation. *Also recorded without number:* the Majumdar–Papapetrou conformastatic ansatz $N\Omega = 1$ is scoped to its Einstein–Maxwell comparison family (Parts X, XVIII); the covering degree is not an inertial/gravitational equivalence; the $\vert\sin\theta\vert^3$ absolute value restored in §VIII.1; the R45/R49 numbering collision fixed in §XXIX.8.
 
-**The program, reprioritized (merging both referees and the author's Entries).** *Priority 0 (Priority A) — the singular pole made well-posed before it closes the Galaxy:* the blow-up direction space with an angular density $\sigma([n])$, its admissible values from the simplest rotationally invariant core action, the stationary minimizer (uniform if convex, §XXIX.10(g)), gapped or unstable perturbations, and whether a regular physical primary converges uniquely to it; the tolerance $10^{-6}$ is the target; kill if tuned, divergent or Bianchi-violating. *Priority 1 — one parent action* (§XXIX.11), $G_0$ a background input; Theorem I. *Priority 2 (Priority B/C) — the $n = 1$ pencil as a stable solution with the exterior conditions (A)–(C) and the return map,* second variation, zero and gauge modes, no collapse; the exchange-symmetric parent dynamics in both presentations. *Priority 3 (Priority D) — $n = 1$ plus a weak secondary* with $\delta U$, $\delta q$ and the primary's stress response jointly linearized; §XXIX.12 is the kinematic first step; acceptance $v^2 = G_{\rm eff}m/r$, light bending and clocks at the same order, no double counting, no fifth force, conservation; a mismatch is a failure, not a redefinition. *Priority 4 (Priority E) — the independent Einstein–Hilbert coefficient:* a long-wavelength quadratic response of the collective middle-space configuration, $c^3/16\pi G_{\rm eff} = F[\Psi_0,U_0,\nu_0]$, compared with $1/G_{\rm eff} = 2M_c/\pi c^2\ell$ only afterwards; kill if the coefficient depends on an inserted $G$ or is tuned by the closure relation or changes locally measured $G$ at order one. *Priority 5 — $n = 2$ quotient existence* on a middle space larger than one representational sphere, before $n>2$ phenomenology; kill if matter is double-counted, the quotient is non-Hausdorff without resolution, or separate $G_i$ are needed. *Priority 6 — physical optical and charged-sector descent,* the $S^3$ angular-diameter cap and the returned-light problem untouched by full-fiber sourcing. *Priority 7 — the Boltzmannian measure and centron propagator* without borrowed geometry. *Priority 8 — worldline-as-exhaust,* after 1 and 7. The multi-primary scale-separation limitation on one round $S^4$ stands; a two-source diagnostic there is not the large middle-space realization.
+**The program, reprioritized (merging both referees and the author's Entries).** *Priority 0 (Priority A) — the singular pole made well-posed before it closes the Galaxy:* the blow-up direction space with an angular density $\sigma([n])$, its admissible values from the simplest rotationally invariant core action, the stationary minimizer (uniform if convex, §XXIX.10(g)), gapped or unstable perturbations, and whether a regular physical primary converges uniquely to it; the tolerance is the observable-specific one of §XXIX.10(g) *[the "$10^{-6}$" of v34.1 is superseded, R84]*; kill if tuned, divergent or Bianchi-violating. *Priority 1 — one parent action* (§XXIX.11), $G_0$ a background input; Theorem I. *Priority 2 (Priority B/C) — the $n = 1$ pencil as a stable solution with the exterior conditions (A)–(C) and the return map,* second variation, zero and gauge modes, no collapse; the exchange-symmetric parent dynamics in both presentations. *Priority 3 (Priority D) — $n = 1$ plus a weak secondary* with $\delta U$, $\delta q$ and the primary's stress response jointly linearized; §XXIX.12 is the kinematic first step; acceptance $v^2 = G_{\rm eff}m/r$, light bending and clocks at the same order, no double counting, no fifth force, conservation; a mismatch is a failure, not a redefinition. *Priority 4 (Priority E) — the independent Einstein–Hilbert coefficient:* a long-wavelength quadratic response of the collective middle-space configuration, $c^3/16\pi G_{\rm eff} = F[\Psi_0,U_0,\nu_0]$, compared with $1/G_{\rm eff} = 2M_c/\pi c^2\ell$ only afterwards; kill if the coefficient depends on an inserted $G$ or is tuned by the closure relation or changes locally measured $G$ at order one. *Priority 5 — $n = 2$ quotient existence* on a middle space larger than one representational sphere, before $n>2$ phenomenology; kill if matter is double-counted, the quotient is non-Hausdorff without resolution, or separate $G_i$ are needed. *Priority 6 — physical optical and charged-sector descent,* the $S^3$ angular-diameter cap and the returned-light problem untouched by full-fiber sourcing. *Priority 7 — the Boltzmannian measure and centron propagator* without borrowed geometry. *Priority 8 — worldline-as-exhaust,* after 1 and 7. The multi-primary scale-separation limitation on one round $S^4$ stands; a two-source diagnostic there is not the large middle-space realization.
 
 **The minimum publishable theorem package (v34.2 target).** *Theorem I* (regular reduction) — §XXIX.11. *Theorem II* (symmetric singular core) — for an explicitly defined smooth/finite-core family $\rho_\epsilon$ and a physically specified core/angular measure, the weak pushforward limit and precisely when it equals $M/{\rm Vol}(\mathbb{RP}^3)$, the anisotropic counterexample included and the physical condition excluding it stated. *Theorem III* (perturbative meridian response) — §XXIX.12. These address the logical joints of the theory rather than post-processing Einstein metrics, and each failure is to be preserved as a negative theorem with the failed premise named.
 
-**Reproducibility (v34.2 amendment, R86).** Neither referee of v34.1 received the companion script — the three delivered text files name `v34_1_suite()` but contain no code — so the blind follow-up correctly ruled that the $\kappa$ fits, the finite-core residuals, the minimum-gradient claim and the $-71\%$ plateau computation are *author-reported* controls. With this version the numerics are delivered as a **standalone file**, `pg_v34_numerics.py` (NumPy and SciPy only; `v34_1_suite()` and `v34_2_suite()`; every quoted number printed with its parameters: $\theta$ grid geometric below $0.05$ and uniform above, $1900$ points; $\varphi$ $801$ points; quadrature tolerances $10^{-10}$–$10^{-11}$ relative; linear shooting with DOP853 at $10^{-11}$ for the closure matching), and the same functions are appended to `v32_toy_three_ends.py`. Until an independent run, the labels in §XXIX.12 and in the current manuscript read *author-reported numerical control*; the analytic statements (exact lapse relation, plateau formula, finite-$s$ Green function, budget theorem, harmonic transfer function, pole counterexample, resolved control) are assessable from the derivations and several were independently checked by the referees. The old percent-level lapse discrepancy is "a discrepancy incompatible with the exact first-order equations, attributed by the author to the shooting calculation", since the old solver is not supplied. Claims of Parts 0–XXVIII whose scripts are not in the delivered set remain *numerical claims not independently reproduced*. A short current manuscript accompanies this version as a separate file; the archive remains the record.
+**Reproducibility (v34.2 amendment, R86).** Neither referee of v34.1 received the companion script — the three delivered text files name `v34_1_suite()` but contain no code — so the blind follow-up correctly ruled that the $\kappa$ fits, the finite-core residuals, the minimum-gradient claim and the $-71\%$ plateau computation are *author-reported* controls. With this version the numerics are delivered as a **standalone file**, `pg_v34_numerics.py` *(v34.3, R104: and, because that file and the short manuscript did not reach the referees in two successive rounds, the complete suite is also embedded verbatim in this archive as §XXIX.21 — the archive alone now carries the code)* (NumPy and SciPy only; `v34_1_suite()` and `v34_2_suite()`; every quoted number printed with its parameters: $\theta$ grid geometric below $0.05$ and uniform above, $1900$ points; $\varphi$ $801$ points; quadrature tolerances $10^{-10}$–$10^{-11}$ relative; linear shooting with DOP853 at $10^{-11}$ for the closure matching), and the same functions are appended to `v32_toy_three_ends.py`. Until an independent run, the labels in §XXIX.12 and in the current manuscript read *author-reported numerical control*; the analytic statements (exact lapse relation, plateau formula, finite-$s$ Green function, budget theorem, harmonic transfer function, pole counterexample, resolved control) are assessable from the derivations and several were independently checked by the referees. The old percent-level lapse discrepancy is "a discrepancy incompatible with the exact first-order equations, attributed by the author to the shooting calculation", since the old solver is not supplied. Claims of Parts 0–XXVIII whose scripts are not in the delivered set remain *numerical claims not independently reproduced*. A short current manuscript accompanies this version as a separate file; the archive remains the record.
 
-**Correction register, continued (v34.2).** R80: §XXIX.12 Result 3 and the re-scoring of C, F — "relabeling with no invariant content; near field and plateau survive at first order" withdrawn; the kinematic transport retained; physical content open (mass form versus proper density; changed fibers versus relabeled fibers; H1–H3 insufficient). R81: §§XXIX.12–13, 17 — the zero-mode obstruction for the fixed-measure image and the budget theorem (total base rest mass fixed by the Hamiltonian constraint; closure surrenders $M_S$; conserved-number media excluded) added; integrated budget made the Theorem III acceptance test. R82: §XXIX.12 Results 1, 4 — the smooth-core angular displacement is not finite at the old pole; both stationary points move ($\theta^*_- = (8/3)\epsilon$ in the point limit); "no new critical point" is a sampled-domain numerical statement. R83: §XXIX.12 Result 4 — "falls faster than $\delta_P^3$" replaced by the reported halving exponents over three widths. R84: §XXIX.10(g), §XXIX.14, §XXIX.16 — the "$a\lesssim15\mu$, unaffected" tolerance replaced by the transfer function $8a/15$ and $\vert a\vert\le\tfrac{45}8f\mu$. R85: §XXIX.10(g) — convexity lemma given its domain and existence hypotheses; forced strictly convex example with anisotropic minimizer. R86: evidence labels — author-reported numerics named as such; standalone suite delivered; "shooting error" rephrased. R87: current manuscript §§3, 8 — SI stress convention $T^{\rm phys}_{\mu\nu} = -(2c/\sqrt{-g})\delta S/\delta g^{\mu\nu}$; coefficient comparison typed as $16\pi F/c^3$ against $2M_c/\pi c^2\ell$ (equivalently $F$ against $cM_c/8\pi^2\ell$); geometrized-unit notice before the static equations. R88: wording — "no Jeans oscillation" scoped to the static Green-function response; resonance degrees $n$ even, $n\ge2$; the pure-state averaging prescription does not ban reduced density matrices from entanglement; theorem and experiment names carry no evidence labels. R89 (finding): §XXIX.17 — static conserved-number elastic closures have no even solution with a secondary: the equatorial matching matrix is singular, the regular homogeneous solutions satisfy $\xi\equiv2\psi'$, and the sourced solution misses the common condition by exactly $M_S$. R90 (finding): §XXIX.18 — on the leaf with the pulled-back base metric the lensing potential is twice the dynamical one (zero slip), the near-field deflection is standard with excess $\simeq6b^2/\ell^2$, the full-circuit deflection vanishes, and the antipodal conjugate point remains. R91: §XXIX.20 — the representation-stretch branch recorded; Option B rejected ($v^2\to\sin\chi N'/N$, zero at the equator); the one-form as transcribed in the referee's analysis does not reproduce Option A and is replaced by $\beta = 2\ell z\sqrt{1+t}\,dz/t$; the azimuth advance $\pi(1+\ell^2/b^2)$ and the epicyclic factor $\cos^2(\chi/2)$ recorded as tests. R92: §XXIX.19 — the Boltzmannian-core program recorded as a program: typicality is not dynamics and $I_M$ is not an action.
+**Correction register, continued (v34.2).** R80: §XXIX.12 Result 3 and the re-scoring of C, F — "relabeling with no invariant content; near field and plateau survive at first order" withdrawn; the kinematic transport retained; physical content open (mass form versus proper density; changed fibers versus relabeled fibers; H1–H3 insufficient). R81: §§XXIX.12–13, 17 — the zero-mode obstruction for the fixed-measure image and the budget theorem (total base rest mass fixed by the Hamiltonian constraint; closure surrenders $M_S$; conserved-number media excluded) added; integrated budget made the Theorem III acceptance test. R82: §XXIX.12 Results 1, 4 — the smooth-core angular displacement is not finite at the old pole; both stationary points move ($\theta^*_- = (8/3)\epsilon$ in the point limit); "no new critical point" is a sampled-domain numerical statement. R83: §XXIX.12 Result 4 — "falls faster than $\delta_P^3$" replaced by the reported halving exponents over three widths. R84: §XXIX.10(g), §XXIX.14, §XXIX.16 — the "$a\lesssim15\mu$, unaffected" tolerance replaced by the transfer function $8a/15$ and $\vert a\vert\le\tfrac{45}8f\mu$. R85: §XXIX.10(g) — convexity lemma given its domain and existence hypotheses; forced strictly convex example with anisotropic minimizer. R86: evidence labels — author-reported numerics named as such; standalone suite delivered; "shooting error" rephrased. R87: current manuscript §§3, 8 — SI stress convention $T^{\rm phys}_{\mu\nu} = -(2c/\sqrt{-g})\delta S/\delta g^{\mu\nu}$; coefficient comparison typed as $16\pi F/c^3$ against $2M_c/\pi c^2\ell$ (equivalently $F$ against $cM_c/8\pi^2\ell$); geometrized-unit notice before the static equations. R88: wording — "no Jeans oscillation" scoped to the static Green-function response; resonance degrees $n$ even, $n\ge2$; the pure-state averaging prescription does not ban reduced density matrices from entanglement; theorem and experiment names carry no evidence labels. R89 (finding): §XXIX.17 — static conserved-number elastic closures have no even solution with a secondary: the equatorial matching matrix is singular, the regular homogeneous solutions satisfy $\xi\equiv2\psi'$, and the sourced solution misses the common condition by exactly $M_S$. R90 (finding): §XXIX.18 — on the leaf with the pulled-back base metric the lensing potential is twice the dynamical one (conditional no-slip), the near-field signed gradient integral is standard with the closed form of R97, the full-circuit *signed integral* vanishes while the Jacobi return direction does not (R96), and the antipodal conjugate point remains. R91: §XXIX.20 — the representation-stretch branch recorded; Option B rejected ($v^2\to\sin\chi N'/N$, zero at the equator); the one-form as transcribed in the referee's analysis does not reproduce Option A and is replaced by $\beta = 2\ell z\sqrt{1+t}\,dz/t$; the azimuth advance $\pi(1+\ell^2/b^2)$ and the epicyclic factor $\cos^2(\chi/2)$ recorded as tests. R92: §XXIX.19 — the Boltzmannian-core program recorded as a program: typicality is not dynamics and $I_M$ is not an action.
+
+**Correction register, continued (v34.3).** R93: §XXIX.17 — the budget theorem renamed and typed as a first-order integrated *source-energy* identity about the fixed-$\Lambda$ background ($E = T_{ab}n^an^b$); the vanishing first variation of $\mathcal F[h] = \int(R-2\Lambda)dV$ at $R_{ij} = 2h_{ij}$ recorded; the exact round family $\mathcal E(a) = \tfrac\pi8(3a-a^3)$ recorded as the scope check. R94: §XXIX.17 — energy, number charge, rest-mass integral and reduced measure kept apart; identification with a rest-mass budget is a model statement. R95: §XXIX.17, R89 narrowed — "conserved-number media cannot be the closure" withdrawn as a universal statement; the obstruction holds for a closure sector with separately fixed charge receiving an independent secondary; the isentropic conserved-particle fluid with $\delta p = s\delta\rho$ and the forced charge $\delta\mathcal N_P = -(n_0/\bar\rho)M_S$ recorded; reading (a) typed as the combined-charge transfer experiment needing a derived transfer law. R96: §XXIX.18 — "a ray that has gone round is undeflected in total" withdrawn; the forced-Jacobi return map ($y'(2\pi)/\mu = -83.157, -21.899, -10.685$ at $\beta = 0.1, 0.5, 1.0$) and the antipodal-endpoint degeneracy of the equator-to-equator rays recorded; the table retyped as a signed gradient-integral control; the slip relation conditional on a common metric readout. R97: §XXIX.18 — the closed form $\alpha_{\rm grad}\beta/4\mu = \beta\cot\beta+2\beta\sin\beta\ln\cot(\beta/2)$ and its logarithmic asymptote replace "$\simeq6b^2$". R98: §XXIX.20 — exact epicyclic ratio with the $-2RR'\eta'$ term; azimuth turning points $\arcsin\eta$, $\pi-\arcsin\eta$; Oort value cited (Bovy 2017) as an example. R99: §XXIX.20 — "the angular-diameter cap is unchanged" withdrawn; off-centre $D_A$ unbounded along the horn; central-observer cap kept as the special case. R100: §XXIX.20 — horn volume $8\pi^2\ell^3$ and the proper-mass change recorded; "the leaf is where the matter is" qualified to a selected readout; embedding as bisection recorded as open. R101: §XXIX.19 — entropy Hessian is local; $K = N/8$ for the quadrupole only; forced $a = \epsilon j/N$; tail probability ${\rm erfc}(1) = 0.157$ at the $e^{-1}$ boundary. R102: §XXIX.20 — the author's matter-selected centering requirement adopted (Entry 269); symmetry lemma; the Poisson-type law computed as centred but not Option A; the centre-from-potential-minimum template; the singular isolated limit as an acceptance test. R103: title — the long v34.2 title retired for the short form; the standing moved to the governing paragraphs. R104: §XXIX.16, §XXIX.21 — the numerical suite is embedded in the archive as an executable appendix, since the companion files did not reach the referees in two rounds; the delivery statement corrected accordingly.
 
 **The program, as amended by the second round.** The standing referee's order is adopted — (1) a finite symmetric primary-core action with a derived directional measure; (2) the core's effective stress and budget response under a secondary (Theorem III, with §XXIX.17's test); (3) a universal Law II with the gauge-invariant secondary test done properly (complete-configuration matching, moving-core charts); (4) the minimal gravitational/optical readout comparison, now begun in §XXIX.18 and to be continued with the readout map; (5) the independently normalized collective response for $G$ — with the Boltzmannian core (§XXIX.19) attached to (1) as the candidate source of the stiffness, and the representation-stretch branch (§XXIX.20) run alongside as an exploratory branch that leaves Law I unchanged. The blind follow-up's list is the operational form: specify the resolved core, matter geometry, independent fields, action and what is held fixed under a base-metric variation; derive the total base stress and its conservation identity including core and auxiliary sectors; establish the one-primary branch and its directional measure; introduce a weak secondary and solve the coupled response with moving charts and the zero-mode condition; define the readout and compute invariant observables, exhibiting the matching of complete configurations if gauge equivalence is invoked; supply the implementation with convergence and limiting-case checks.
