@@ -1,0 +1,285 @@
+---
+layout: default
+title: "Papers in Development — Aethic Reasoning | aethus.org"
+description: "Every working paper in development for the Aethic reasoning project: browse them individually or download the whole folder as a single zip."
+---
+{% comment %}
+  This page is the index of development/papers/. It lists every file in this
+  folder and can zip them all in the browser.
+
+  HOW IT FINDS THE FILES
+    1. Jekyll writes the folder's file list into this page at build time (the
+       "paper-data" block below), so anything you drop into this folder,
+       including subfolders, is picked up automatically on the next build.
+       Nothing to maintain.
+    2. If the page is ever served without Jekyll, it falls back to a
+       manifest.json in this folder: a JSON array of relative paths, e.g.
+       ["paper1.pdf", "drafts/paper2.pdf"]. Generate one from inside this folder with:
+       python3 -c "import os,json;print(json.dumps(sorted(os.path.relpath(os.path.join(r,f)).replace(os.sep,'/') for r,_,fs in os.walk('.') for f in fs if f not in ('manifest.json','index.html')),indent=1))" > manifest.json
+
+  LOCAL TESTING: run `bundle exec jekyll serve` (or `jekyll serve`) from the
+  site root and open http://localhost:4000/development/papers/ (adjust the
+  path if the site lives in a subfolder). Opening the file directly from disk
+  won't work, because browsers block file:// pages from fetching files.
+{% endcomment %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,340;9..144,420;9..144,560&family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+
+<style>
+/* ============ KIT — "Reality, Indexed" (subset) ============ */
+:root{
+  --ink:#E7ECF5;--ink-2:#B9C3D6;--ink-3:#8593AD;
+  --paper:#0B1220;--paper-2:#111A2C;--paper-3:#182338;
+  --rule:#243250;--rule-2:#1C2740;
+  --garnet:#6FA8FF;--garnet-2:#8FBCFF;--garnet-wash:rgba(111,168,255,.10);
+  --block:#060A12;--on-block:#E7ECF5;--on-block-2:#9AA8C4;--on-block-3:#6E7C99;
+  --sel:#243250;
+  --display:"Fraunces",Georgia,serif;--body:"Spectral",Georgia,serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:19px;line-height:1.66;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;font-optical-sizing:auto;}
+::selection{background:var(--sel);}
+a{color:inherit;text-decoration:none;}
+a:focus-visible,button:focus-visible{outline:2px solid var(--garnet);outline-offset:3px;border-radius:1px;}
+h1,h2,h3{font-family:var(--display);font-weight:400;letter-spacing:-.012em;line-height:1.08;margin:0;}
+em{font-style:italic;}
+.wide{max-width:66rem;margin:0 auto;padding:0 1.6rem;}
+.eyebrow{font-family:var(--mono);font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--garnet);font-weight:500;}
+
+.mast{position:relative;padding:clamp(2.8rem,7vw,5rem) 0 clamp(2rem,4vw,3rem);border-bottom:1px solid var(--rule);}
+.mast .wide{position:relative;}
+.mast .kicker{font-family:var(--mono);font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--garnet);}
+.mast h1{font-size:clamp(2.4rem,6.4vw,4.4rem);margin:1.1rem 0 0;letter-spacing:-.02em;line-height:1.0;max-width:20ch;}
+.mast .standfirst{max-width:42rem;margin:1.5rem 0 0;font-size:clamp(1.1rem,2.2vw,1.32rem);line-height:1.5;color:var(--ink-2);}
+.mast .meta{margin-top:1.6rem;font-family:var(--mono);font-size:.75rem;letter-spacing:.04em;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;}
+.mast.indexed::before{content:"";position:absolute;left:calc(50% - 33rem);top:clamp(2.8rem,7vw,5rem);bottom:1.5rem;width:2px;background:var(--garnet);}
+@media(max-width:1120px){.mast.indexed::before{left:1.6rem;}}
+
+.btn{font-family:var(--mono);font-size:.8rem;letter-spacing:.04em;padding:.72rem 1.15rem;border:1px solid var(--on-block-3);color:var(--on-block);transition:.2s;display:inline-flex;align-items:center;gap:.6ch;cursor:pointer;background:none;}
+.btn:hover{border-color:var(--on-block);background:rgba(255,255,255,.04);}
+.btn.pri{background:var(--garnet);border-color:var(--garnet);color:#fff;}
+.btn.pri:hover{background:var(--garnet-2);border-color:var(--garnet-2);}
+.btn:disabled{opacity:.55;cursor:progress;}
+.btn.dark{border-color:var(--rule);color:var(--ink);}
+.btn.dark:hover{border-color:var(--ink);background:var(--paper-2);}
+.cta{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:2.1rem;}
+
+section{padding:clamp(2.2rem,5vw,3.4rem) 0;border-bottom:1px solid var(--rule);}
+.sec-head{margin-bottom:1.8rem;}
+.sec-head .eyebrow{display:block;margin-bottom:.9rem;}
+.sec-head h2{font-size:clamp(1.7rem,4vw,2.4rem);letter-spacing:-.015em;}
+
+.papers{border-top:1.5px solid var(--ink);}
+.paper{display:flex;gap:1rem;align-items:baseline;border-bottom:1px solid var(--rule);padding:1.1rem 0;transition:.15s;}
+.paper:hover{background:var(--paper-2);padding-left:.6rem;padding-right:.6rem;}
+.paper .pmain{flex:1;min-width:0;}
+.paper .pt{font-family:var(--display);font-size:1.12rem;color:var(--ink);line-height:1.25;letter-spacing:-.01em;overflow-wrap:anywhere;}
+.paper .pm{font-family:var(--mono);font-size:.72rem;letter-spacing:.03em;color:var(--ink-3);margin-top:.4rem;}
+.paper .ext{flex:none;font-family:var(--mono);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--garnet);border:1px solid var(--garnet);padding:.1em .55ch;}
+.paper .arr{flex:none;font-family:var(--mono);color:var(--ink-3);}
+.paper:hover .arr{color:var(--garnet);}
+.empty{font-family:var(--mono);font-size:.82rem;color:var(--ink-3);line-height:1.6;border-left:2px solid var(--rule);padding-left:1.1rem;}
+
+/* download progress */
+.meter{height:3px;background:var(--rule);margin-top:1.4rem;max-width:30rem;overflow:hidden;}
+.meter>span{display:block;height:100%;width:0;background:var(--garnet);transition:width .2s ease;}
+.status{font-family:var(--mono);font-size:.78rem;color:var(--ink-3);line-height:1.6;margin:.8rem 0 0;min-height:1.6em;max-width:42rem;overflow-wrap:anywhere;}
+.status.err{color:#FF9C9C;}
+@media(max-width:720px){body{font-size:17.5px;}}
+</style>
+
+<script type="application/json" id="paper-data">
+[{% assign dir_len = page.dir | size %}{% assign sep = "" %}{% for f in site.static_files %}{% assign head = f.path | slice: 0, dir_len %}{% if head == page.dir %}{% assign rel = f.path | remove_first: page.dir %}{{ sep }}{ "path": {{ rel | jsonify }}, "date": {{ f.modified_time | date: "%Y-%m-%d" | jsonify }} }{% assign sep = "," %}{% endif %}{% endfor %}]
+</script>
+
+<header class="mast indexed">
+  <div class="wide">
+    <div class="kicker">Code &amp; archive &middot; papers in development</div>
+    <h1>The papers,<br>in <em>one file.</em></h1>
+    <p class="standfirst">Every working paper in this folder, as it stands today. Open any one of them below, or take the whole set as a single zip.</p>
+    <div class="meta"><span id="count">reading the folder&hellip;</span><span>zipped in your browser</span></div>
+    <div class="cta">
+      <button class="btn pri" id="dl" type="button" disabled>&darr; Download all (.zip)</button>
+      <a class="btn dark" href="../../">&larr; Code &amp; archive</a>
+    </div>
+    <div class="meter" id="meter" hidden><span id="bar"></span></div>
+    <p class="status" id="status" role="status" aria-live="polite"></p>
+  </div>
+</header>
+
+<section>
+  <div class="wide">
+    <div class="sec-head"><span class="eyebrow">The folder</span><h2>What&rsquo;s inside.</h2></div>
+    <div class="papers" id="list"></div>
+  </div>
+</section>
+
+<script>
+(() => {
+  const ZIP_NAME = "papers.zip";   // name of the downloaded file
+  const ZIP_ROOT = "papers";       // folder the files unpack into
+  const MANIFEST = "manifest.json";
+  const SKIP = new Set([MANIFEST, "index.html"]);
+  const CONCURRENCY = 4;
+
+  const $ = (id) => document.getElementById(id);
+  const btn = $("dl"), meter = $("meter"), bar = $("bar"), statusEl = $("status"), list = $("list"), count = $("count");
+  const setStatus = (msg, err) => { statusEl.textContent = msg; statusEl.classList.toggle("err", !!err); };
+  const setBar = (pct) => { bar.style.width = Math.max(0, Math.min(100, pct)) + "%"; };
+
+  // The folder's own URL (this page lives inside it)
+  const here = new URL(location.href);
+  here.search = ""; here.hash = "";
+  if (!here.pathname.endsWith("/") && !/\.[a-z0-9]+$/i.test(here.pathname)) here.pathname += "/";
+  const base = new URL("./", here);
+  const urlFor = (path) => new URL(path.split("/").map(encodeURIComponent).join("/"), base).href;
+
+  function clean(entries) {
+    const seen = new Set();
+    return entries
+      .map(e => typeof e === "string" ? { path: e } : e)
+      .filter(e => e && typeof e.path === "string")
+      .map(e => ({ path: e.path.replace(/^\.?\//, ""), date: e.date || "" }))
+      .filter(e => e.path && !e.path.endsWith("/") && !SKIP.has(e.path) && !seen.has(e.path) && seen.add(e.path))
+      .sort((a, b) => a.path.localeCompare(b.path, undefined, { numeric: true, sensitivity: "base" }));
+  }
+
+  async function findFiles() {
+    // 1. List written in by Jekyll at build time
+    try {
+      const data = JSON.parse($("paper-data").textContent);
+      if (Array.isArray(data) && data.length) return clean(data);
+    } catch { /* page not processed by Jekyll */ }
+    // 2. manifest.json fallback
+    try {
+      const res = await fetch(new URL(MANIFEST, base), { cache: "no-store" });
+      if (res.ok) {
+        const data = await res.json();
+        if (Array.isArray(data)) return clean(data);
+      }
+    } catch { /* no manifest */ }
+    return [];
+  }
+
+  function render(files) {
+    list.textContent = "";
+    if (!files.length) {
+      const p = document.createElement("p");
+      p.className = "empty";
+      p.textContent = "No papers found in this folder yet.";
+      list.appendChild(p);
+      count.textContent = "no files";
+      return;
+    }
+    for (const f of files) {
+      const slash = f.path.lastIndexOf("/");
+      const name = f.path.slice(slash + 1);
+      const sub = slash >= 0 ? f.path.slice(0, slash) : "";
+      const dot = name.lastIndexOf(".");
+      const ext = dot > 0 ? name.slice(dot + 1) : "file";
+
+      const a = document.createElement("a");
+      a.className = "paper";
+      a.href = urlFor(f.path);
+      a.setAttribute("download", "");
+
+      const tag = document.createElement("span");
+      tag.className = "ext";
+      tag.textContent = ext;
+
+      const main = document.createElement("div");
+      main.className = "pmain";
+      const pt = document.createElement("div");
+      pt.className = "pt";
+      pt.textContent = dot > 0 ? name.slice(0, dot) : name;
+      const pm = document.createElement("div");
+      pm.className = "pm";
+      pm.textContent = [sub && sub + "/", f.date && "updated " + f.date].filter(Boolean).join(" · ") || name;
+      main.append(pt, pm);
+
+      const arr = document.createElement("span");
+      arr.className = "arr";
+      arr.textContent = "↓";
+
+      a.append(tag, main, arr);
+      list.appendChild(a);
+    }
+    count.textContent = files.length + (files.length === 1 ? " file" : " files");
+  }
+
+  async function zipAll(files) {
+    if (typeof JSZip === "undefined") {
+      setStatus("The zip library didn't load. Check your connection and reload the page.", true);
+      return;
+    }
+    btn.disabled = true;
+    meter.hidden = false;
+    setBar(0);
+
+    try {
+      const zip = new JSZip();
+      const folder = zip.folder(ZIP_ROOT);
+      const failed = [];
+      let next = 0, done = 0;
+
+      async function worker() {
+        while (next < files.length) {
+          const f = files[next++];
+          try {
+            const r = await fetch(urlFor(f.path));
+            if (!r.ok) throw new Error(String(r.status));
+            folder.file(f.path, await r.blob());
+          } catch {
+            failed.push(f.path);
+          }
+          done++;
+          setBar((done / files.length) * 80);
+          setStatus(`Fetching ${done} of ${files.length}…`);
+        }
+      }
+      await Promise.all(Array.from({ length: Math.min(CONCURRENCY, files.length) }, worker));
+      if (failed.length === files.length) throw new Error("none of the files could be fetched.");
+
+      setStatus("Building zip…");
+      const blob = await zip.generateAsync(
+        { type: "blob", compression: "DEFLATE", compressionOptions: { level: 6 } },
+        (m) => setBar(80 + m.percent * 0.2)
+      );
+
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = ZIP_NAME;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      setTimeout(() => URL.revokeObjectURL(a.href), 10000);
+
+      setBar(100);
+      const ok = files.length - failed.length;
+      setStatus(`Done: ${ok} file${ok === 1 ? "" : "s"} zipped.` +
+        (failed.length ? ` Skipped ${failed.length}: ${failed.join(", ")}` : ""), failed.length > 0);
+    } catch (e) {
+      setStatus("Couldn't build the zip: " + e.message, true);
+    } finally {
+      btn.disabled = false;
+    }
+  }
+
+  (async () => {
+    if (location.protocol === "file:") {
+      count.textContent = "open via a server";
+      setStatus("This page needs to be served (e.g. jekyll serve); browsers block file:// pages from reading folders.", true);
+      return;
+    }
+    const files = await findFiles();
+    render(files);
+    if (files.length) {
+      btn.disabled = false;
+      btn.addEventListener("click", () => zipAll(files));
+    }
+  })();
+})();
+</script>
