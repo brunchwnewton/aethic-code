@@ -69,6 +69,15 @@ layout: null
   #list .fl { font-size:.82em; white-space:nowrap; margin-left:4px; }
   #list .fl a { margin-left:6px; }
   #list .none, #source { color:var(--muted); margin:8px 0 0; font-size:.8rem; }
+  #list .has-tip { cursor:help; text-decoration:underline dotted var(--muted); text-underline-offset:3px; }
+  #list .has-tip:focus-visible { outline:2px solid var(--accent); outline-offset:2px; border-radius:2px; }
+  #tip { position:fixed; z-index:10; max-width:min(380px, calc(100vw - 16px)); background:var(--card); color:var(--fg);
+         border:1px solid var(--border); border-radius:10px; padding:10px 12px; font-size:.84rem; line-height:1.45;
+         box-shadow:0 8px 24px rgba(0,0,0,.18); pointer-events:none; }
+  #tip .tt { font-weight:600; }
+  #tip .ts { font-style:italic; color:var(--muted); margin-top:2px; }
+  #tip .tb { margin-top:6px; }
+  #tip .tm { margin-top:6px; font-size:.76rem; color:var(--muted); }
   a { color:var(--accent); }
   .back { display:block; margin-top:14px; font-size:.85rem; color:var(--muted); }
 </style>
@@ -99,6 +108,7 @@ layout: null
   </details>
   <a class="back" href="../../">&larr; Back to Code &amp; Archive</a>
 </main>
+<div id="tip" role="tooltip" hidden></div>
 
 <script type="application/json" id="paper-data">
 [{% assign dir_len = page.dir | size %}{% assign sep = "" %}{% for f in site.static_files %}{% assign head = f.path | slice: 0, dir_len %}{% if head == page.dir %}{% assign rel = f.path | remove_first: page.dir %}{{ sep }}{{ rel | jsonify }}{% assign sep = "," %}{% endif %}{% endfor %}]
@@ -129,6 +139,8 @@ layout: null
   const fileType = () => document.querySelector('input[name="kind"]:checked').value;
   const key = (s, k) => s + "/" + k;
   const lc = (s) => String(s).toLowerCase();
+  // Name matching ignores case and separators: "Nexic_Reasoning_long" = "nexic-reasoning-long"
+  const norm = (s) => lc(s).replace(/[^a-z0-9]/g, "");
 
   // Folder URL (this page is the folder's index)
   const here = new URL(location.href);
@@ -146,10 +158,12 @@ layout: null
         if (!res.ok) continue;
         const d = await res.json();
         if (!d || !Array.isArray(d.rows)) continue;
+        // Card papers plus the `unlisted` ones (known here, not drawn on the main site)
+        const papers = d.rows.flatMap(row => row.papers || []).concat(Array.isArray(d.unlisted) ? d.unlisted : []);
         const byStem = new Map();
-        for (const row of d.rows) for (const p of row.papers || []) {
+        for (const p of papers) {
           const files = Array.isArray(p.file) ? p.file : (p.file ? [p.file] : []);
-          for (const f of files) byStem.set(lc(f), p);
+          for (const f of files) if (!byStem.has(norm(f))) byStem.set(norm(f), p);
         }
         return { recPrefix: d.pp_rec || "", byStem, from: new URL(u, location.href).host };
       } catch { /* try the next URL */ }
@@ -159,19 +173,54 @@ layout: null
 
   // ---- Classification: main-paper names first, then the site data, then filename rules ----
   function classify(stem, paper) {
-    const s = lc(stem);
+    const n = norm(stem);
     for (const series of SERIES) {
-      if (MAIN_PAPERS[series].some(x => lc(x) === s) || s === lc(series) + "_reasoning") return { series, kind: "Main" };
+      if (MAIN_PAPERS[series].some(x => norm(x) === n) || n === norm(series) + "reasoning") return { series, kind: "Main" };
     }
     if (paper) {
       const wing = paper.wing ? paper.wing[0].toUpperCase() + lc(paper.wing).slice(1) : "Aethic";
-      return { series: SERIES.includes(wing) ? wing : "Aethic", kind: "Extraction" };
+      return { series: SERIES.includes(wing) ? wing : "Aethic", kind: lc(paper.kind) === "main" ? "Main" : "Extraction" };
     }
-    const norm = s.replace(/[^a-z0-9]/g, "");
-    if (norm.includes("nexic") || (norm.includes("optimal") && norm.includes("earth"))) return { series: "Nexic", kind: "Extraction" };
-    if (norm.includes("golden") || GOLDEN_EXTRACTIONS.includes(s)) return { series: "Golden", kind: "Extraction" };
+    if (n.includes("nexic") || (n.includes("optimal") && n.includes("earth"))) return { series: "Nexic", kind: "Extraction" };
+    if (n.includes("golden") || GOLDEN_EXTRACTIONS.some(g => norm(g) === n)) return { series: "Golden", kind: "Extraction" };
     return { series: "Aethic", kind: "Extraction" };
   }
+
+  // ---- Tooltip: the paper's subtitle and blurb from papers.yml ----
+  const tip = $("tip");
+  const asText = (html) => new DOMParser().parseFromString(String(html || ""), "text/html").body.textContent.replace(/\s+/g, " ").trim();
+  let tipFor = null;
+  function showTip(el, paper) {
+    tip.textContent = "";
+    const add = (cls, text) => { if (!text) return; const d = document.createElement("div"); d.className = cls; d.textContent = text; tip.appendChild(d); };
+    add("tt", asText(paper.title));
+    add("ts", asText(paper.subtitle));
+    add("tb", asText(paper.blurb));
+    add("tm", asText(paper.meta));
+    tip.hidden = false;
+    tipFor = el;
+    const r = el.getBoundingClientRect(), w = tip.offsetWidth, h = tip.offsetHeight;
+    const left = Math.min(Math.max(8, r.left), innerWidth - w - 8);
+    const below = r.bottom + 6 + h <= innerHeight - 8;
+    tip.style.left = left + "px";
+    tip.style.top = (below ? r.bottom + 6 : Math.max(8, r.top - h - 6)) + "px";
+  }
+  function hideTip() { tip.hidden = true; tipFor = null; }
+  function attachTip(el, paper) {
+    if (!paper || !(paper.blurb || paper.subtitle)) return;
+    el.classList.add("has-tip");
+    el.tabIndex = 0;
+    el.setAttribute("aria-label", asText(paper.title) + ". " + asText(paper.subtitle || paper.blurb));
+    el.addEventListener("mouseenter", () => showTip(el, paper));
+    el.addEventListener("mouseleave", hideTip);
+    el.addEventListener("focus", () => showTip(el, paper));
+    el.addEventListener("blur", hideTip);
+    el.addEventListener("click", (e) => { e.stopPropagation(); tipFor === el ? hideTip() : showTip(el, paper); });  // touch screens
+  }
+  document.addEventListener("click", hideTip);
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") hideTip(); });
+  addEventListener("scroll", hideTip, true);
+  addEventListener("resize", hideTip);
 
   const prettyStem = (stem) => stem.replace(/^\d+_/, "").replace(/[_-]+/g, " ").replace(/\b\w/g, c => c.toUpperCase());
 
@@ -263,7 +312,7 @@ layout: null
         const f0 = fs[0], li = document.createElement("li");
         const title = document.createElement("span");
         title.textContent = f0.paper?.title || prettyStem(f0.stem);
-        title.title = f0.stem;
+        attachTip(title, f0.paper);
         const links = document.createElement("span");
         links.className = "fl";
         for (const f of fs) {
@@ -360,7 +409,7 @@ layout: null
     all = paths.map(path => {
       const name = path.slice(path.lastIndexOf("/") + 1);
       const stem = name.replace(/\.[^.]+$/, "");
-      const paper = siteData?.byStem.get(lc(stem)) || null;
+      const paper = siteData?.byStem.get(norm(stem)) || null;
       return { path, stem, paper, ...classify(stem, paper) };
     });
     $("source").textContent = siteData
