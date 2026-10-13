@@ -2,11 +2,15 @@
 layout: null
 ---
 {% comment %}
-  Index of development/papers/: zips the folder's .pdf and/or .tex files in the browser.
+  Index of development/papers/: zips the folder's .pdf and/or .tex files in the browser,
+  filtered by series (Aethic / Nexic / Golden) and kind (Main / Offshoot).
 
   File list: Jekyll writes it into the "paper-data" block at build time, so new
   files are picked up automatically. Without Jekyll, it falls back to a
   manifest.json in this folder (a JSON array of relative paths).
+
+  Categories mirror build_commit.py: edit MAIN_PAPERS / GOLDEN_OFFSHOOTS in the
+  script below if paper names change.
 
   Local testing: `jekyll serve`, then open /development/papers/. Opening the
   file straight from disk won't work (browsers block file:// fetches).
@@ -18,32 +22,52 @@ layout: null
 <title>Download Papers</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <style>
-  :root { --bg:#fafafa; --fg:#1d1d1f; --muted:#6b6b70; --accent:#2457d6; --accent-fg:#fff; --card:#fff; --border:#e2e2e6; --err:#c0392b; }
+  :root { --bg:#fafafa; --fg:#1d1d1f; --muted:#6b6b70; --accent:#2457d6; --accent-fg:#fff; --wash:rgba(36,87,214,.08);
+          --card:#fff; --border:#e2e2e6; --err:#c0392b; }
   @media (prefers-color-scheme: dark) {
-    :root { --bg:#141416; --fg:#ececef; --muted:#9a9aa2; --accent:#6d93ff; --accent-fg:#0d0d10; --card:#1d1d21; --border:#2e2e34; --err:#ff8a80; }
+    :root { --bg:#141416; --fg:#ececef; --muted:#9a9aa2; --accent:#6d93ff; --accent-fg:#0d0d10; --wash:rgba(109,147,255,.12);
+            --card:#1d1d21; --border:#2e2e34; --err:#ff8a80; }
   }
   * { box-sizing: border-box; }
   body { margin:0; min-height:100vh; display:grid; place-items:center; background:var(--bg); color:var(--fg);
          font:16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; padding:16px; }
-  main { width:100%; max-width:460px; background:var(--card); border:1px solid var(--border); border-radius:12px; padding:24px; }
+  main { width:100%; max-width:480px; background:var(--card); border:1px solid var(--border); border-radius:12px; padding:24px; }
   h1 { margin:0 0 4px; font-size:1.4rem; }
   p { margin:0 0 16px; color:var(--muted); }
   code { font-size:.9em; }
+  .label { font-size:.78rem; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); margin:0 0 6px; }
+
+  /* file type */
   fieldset { border:0; margin:0 0 16px; padding:0; display:flex; gap:6px; }
-  fieldset label { flex:1; text-align:center; padding:8px 4px; border:1px solid var(--border); border-radius:8px; cursor:pointer; font-size:.92rem; }
+  fieldset label { flex:1; text-align:center; padding:7px 4px; border:1px solid var(--border); border-radius:8px; cursor:pointer; font-size:.92rem; }
   fieldset input { position:absolute; opacity:0; pointer-events:none; }
   fieldset label:has(input:checked) { border-color:var(--accent); color:var(--accent); font-weight:600; }
   fieldset label:has(input:focus-visible) { outline:2px solid var(--accent); outline-offset:2px; }
-  button { width:100%; padding:12px 16px; border:0; border-radius:8px; background:var(--accent); color:var(--accent-fg);
-           font:inherit; font-weight:600; cursor:pointer; }
-  button:disabled { opacity:.55; cursor:not-allowed; }
+
+  /* category grid */
+  .grid { display:grid; grid-template-columns:auto 1fr 1fr; gap:6px; margin-bottom:16px; }
+  .grid button { font:inherit; font-size:.88rem; border:1px solid var(--border); border-radius:8px; background:none; color:var(--fg);
+                 padding:7px 4px; cursor:pointer; }
+  .grid .hd { border-style:dashed; color:var(--muted); font-size:.8rem; }
+  .grid .rowhd { text-align:left; padding-left:10px; padding-right:10px; }
+  .grid .cell[aria-pressed="true"] { border-color:var(--accent); background:var(--wash); color:var(--accent); font-weight:600; }
+  .grid .cell:disabled { opacity:.4; cursor:default; }
+  .grid button:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+
+  #dl { width:100%; padding:12px 16px; border:0; border-radius:8px; background:var(--accent); color:var(--accent-fg);
+        font:inherit; font-weight:600; cursor:pointer; }
+  #dl:disabled { opacity:.55; cursor:not-allowed; }
   progress { width:100%; height:8px; margin-top:14px; accent-color:var(--accent); }
   #status { margin:10px 0 0; min-height:1.5em; font-size:.9rem; overflow-wrap:anywhere; }
   #status.err { color:var(--err); }
+
   details { margin-top:12px; font-size:.9rem; }
   summary { cursor:pointer; color:var(--muted); }
-  ul { margin:8px 0 0; padding-left:18px; max-height:40vh; overflow:auto; }
-  li { margin:2px 0; overflow-wrap:anywhere; }
+  #list { max-height:45vh; overflow:auto; margin-top:6px; }
+  #list h3 { font-size:.8rem; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); margin:10px 0 2px; font-weight:600; }
+  #list ul { margin:0; padding-left:18px; }
+  #list li { margin:1px 0; overflow-wrap:anywhere; }
+  #list .none { color:var(--muted); margin:8px 0 0; }
   a { color:var(--accent); }
   .back { display:block; margin-top:14px; font-size:.85rem; color:var(--muted); }
 </style>
@@ -51,13 +75,17 @@ layout: null
 <body>
 <main>
   <h1>Papers</h1>
-  <p>Download everything in <code>development/papers/</code> as a single zip.</p>
+  <p>Pick what you want from <code>development/papers/</code> and download it as one zip.</p>
 
-  <fieldset id="kind" aria-label="Which files">
-    <label><input type="radio" name="kind" value="pdf" checked> PDFs <span data-n="pdf"></span></label>
-    <label><input type="radio" name="kind" value="tex"> TeX <span data-n="tex"></span></label>
-    <label><input type="radio" name="kind" value="both"> Both <span data-n="both"></span></label>
+  <div class="label">File type</div>
+  <fieldset id="kind" aria-label="File type">
+    <label><input type="radio" name="kind" value="pdf" checked> PDFs</label>
+    <label><input type="radio" name="kind" value="tex"> TeX</label>
+    <label><input type="radio" name="kind" value="both"> Both</label>
   </fieldset>
+
+  <div class="label">Papers <span style="text-transform:none;letter-spacing:0">(click cells, rows or columns)</span></div>
+  <div class="grid" id="grid" role="group" aria-label="Categories"></div>
 
   <button id="dl" type="button" disabled>Download (.zip)</button>
   <progress id="bar" max="100" value="0" hidden></progress>
@@ -65,7 +93,7 @@ layout: null
 
   <details>
     <summary>Show files</summary>
-    <ul id="list"></ul>
+    <div id="list"></div>
   </details>
   <a class="back" href="../../">&larr; Back to Code &amp; Archive</a>
 </main>
@@ -76,15 +104,25 @@ layout: null
 
 <script>
 (() => {
+  // ---- Categories (kept in step with build_commit.py) ----
+  const SERIES = ["Aethic", "Nexic", "Golden"];
+  const KINDS = ["Main", "Offshoot"];
+  const MAIN_PAPERS = {                       // stems of the three main papers
+    Aethic: ["1_Aethic_Reasoning", "Aethic_Reasoning"],
+    Nexic:  ["3_Nexic_Reasoning", "2_Nexic_Reasoning", "Nexic_Reasoning"],
+    Golden: ["2_Golden_Reasoning", "3_Golden_Reasoning", "Golden_Reasoning"],
+  };
+  const GOLDEN_OFFSHOOTS = ["accord_gold", "civ", "miracleism", "route_world", "surviv", "techno"];
+
   const MANIFEST = "manifest.json";
   const CONCURRENCY = 4;
   const EXT = { pdf: [".pdf"], tex: [".tex"], both: [".pdf", ".tex"] };
-  const ZIP_NAME = { pdf: "papers-pdf.zip", tex: "papers-tex.zip", both: "papers.zip" };
 
   const $ = (id) => document.getElementById(id);
-  const btn = $("dl"), bar = $("bar"), statusEl = $("status"), list = $("list");
+  const btn = $("dl"), bar = $("bar"), statusEl = $("status"), list = $("list"), grid = $("grid");
   const setStatus = (msg, err) => { statusEl.textContent = msg; statusEl.classList.toggle("err", !!err); };
-  const kind = () => document.querySelector('input[name="kind"]:checked').value;
+  const fileType = () => document.querySelector('input[name="kind"]:checked').value;
+  const key = (s, k) => s + "/" + k;
 
   // Folder URL (this page is the folder's index)
   const here = new URL(location.href);
@@ -93,8 +131,21 @@ layout: null
   const base = new URL("./", here);
   const urlFor = (p) => new URL(p.split("/").map(encodeURIComponent).join("/"), base).href;
 
-  let all = [];
-  const pick = (k) => all.filter(p => EXT[k].some(e => p.toLowerCase().endsWith(e)));
+  // ---- Classification ----
+  function classify(path) {
+    const name = path.slice(path.lastIndexOf("/") + 1);
+    const stem = name.replace(/\.[^.]+$/, "");
+    for (const s of SERIES) if (MAIN_PAPERS[s].includes(stem)) return { series: s, kind: "Main" };
+    const norm = stem.toLowerCase().replace(/[^a-z0-9]/g, "");
+    if (norm.includes("nexic") || (norm.includes("optimal") && norm.includes("earth"))) return { series: "Nexic", kind: "Offshoot" };
+    if (norm.includes("golden") || GOLDEN_OFFSHOOTS.includes(stem)) return { series: "Golden", kind: "Offshoot" };
+    return { series: "Aethic", kind: "Offshoot" };
+  }
+
+  let all = [];                                  // [{path, series, kind}]
+  const selected = new Set(SERIES.flatMap(s => KINDS.map(k => key(s, k))));   // default: everything
+  const ofType = () => all.filter(f => EXT[fileType()].some(e => f.path.toLowerCase().endsWith(e)));
+  const chosen = () => ofType().filter(f => selected.has(key(f.series, f.kind)));
 
   function clean(arr) {
     return [...new Set(arr.filter(p => typeof p === "string").map(p => p.replace(/^\.?\//, "")))]
@@ -114,21 +165,87 @@ layout: null
     return [];
   }
 
-  function refresh() {
-    const files = pick(kind());
-    btn.disabled = !files.length;
-    btn.textContent = files.length ? `Download ${files.length} file${files.length === 1 ? "" : "s"} (.zip)` : "No files of this type";
-    list.textContent = "";
-    for (const p of files) {
-      const li = document.createElement("li");
-      const a = document.createElement("a");
-      a.href = urlFor(p); a.textContent = p; a.setAttribute("download", "");
-      li.appendChild(a); list.appendChild(li);
+  // ---- Grid ----
+  function toggleGroup(keys) {
+    const live = keys.filter(k => !grid.querySelector(`[data-key="${k}"]`).disabled);
+    const allOn = live.every(k => selected.has(k));
+    live.forEach(k => allOn ? selected.delete(k) : selected.add(k));
+    refresh();
+  }
+
+  function buildGrid() {
+    const mk = (text, cls, onClick) => {
+      const b = document.createElement("button");
+      b.type = "button"; b.className = cls; b.textContent = text;
+      b.addEventListener("click", onClick);
+      grid.appendChild(b);
+      return b;
+    };
+    const everyKey = SERIES.flatMap(s => KINDS.map(k => key(s, k)));
+    mk("All", "hd", () => toggleGroup(everyKey)).title = "Toggle everything";
+    for (const k of KINDS) mk(k === "Main" ? "Main" : "Offshoots", "hd", () => toggleGroup(SERIES.map(s => key(s, k))));
+    for (const s of SERIES) {
+      mk(s, "hd rowhd", () => toggleGroup(KINDS.map(k => key(s, k))));
+      for (const k of KINDS) {
+        const b = mk("", "cell", () => { selected.has(key(s, k)) ? selected.delete(key(s, k)) : selected.add(key(s, k)); refresh(); });
+        b.dataset.key = key(s, k);
+      }
     }
   }
 
+  // ---- Render ----
+  function refresh() {
+    const typed = ofType();
+    for (const b of grid.querySelectorAll(".cell")) {
+      const n = typed.filter(f => key(f.series, f.kind) === b.dataset.key).length;
+      b.textContent = n;
+      b.disabled = n === 0;
+      b.setAttribute("aria-pressed", String(n > 0 && selected.has(b.dataset.key)));
+      b.setAttribute("aria-label", `${b.dataset.key.replace("/", " ")}: ${n} file${n === 1 ? "" : "s"}`);
+    }
+
+    const files = chosen();
+    btn.disabled = !files.length;
+    btn.textContent = files.length ? `Download ${files.length} file${files.length === 1 ? "" : "s"} (.zip)` : "Nothing selected";
+
+    list.textContent = "";
+    if (!files.length) {
+      const p = document.createElement("p"); p.className = "none"; p.textContent = "No files in the current selection.";
+      list.appendChild(p); return;
+    }
+    for (const s of SERIES) for (const k of KINDS) {
+      const group = files.filter(f => f.series === s && f.kind === k);
+      if (!group.length) continue;
+      const h = document.createElement("h3");
+      h.textContent = `${s} · ${k === "Main" ? "Main" : "Offshoots"} (${group.length})`;
+      const ul = document.createElement("ul");
+      for (const f of group) {
+        const li = document.createElement("li"), a = document.createElement("a");
+        a.href = urlFor(f.path); a.textContent = f.path; a.setAttribute("download", "");
+        li.appendChild(a); ul.appendChild(li);
+      }
+      list.append(h, ul);
+    }
+  }
+
+  function zipName() {
+    const type = { pdf: "-pdf", tex: "-tex", both: "" }[fileType()];
+    const live = [...grid.querySelectorAll(".cell")].filter(b => !b.disabled).map(b => b.dataset.key);
+    const on = live.filter(k => selected.has(k));
+    let part = "";
+    if (on.length !== live.length) {
+      const series = SERIES.filter(s => on.some(k => k.startsWith(s + "/")));
+      const kinds = KINDS.filter(k => on.some(x => x.endsWith("/" + k)));
+      part = "-" + [...(series.length < SERIES.length ? series : []), ...(kinds.length < KINDS.length ? kinds : [])]
+        .join("-").toLowerCase();
+      if (part === "-") part = "-selection";
+    }
+    return `papers${part}${type}.zip`;
+  }
+
+  // ---- Download ----
   async function run() {
-    const k = kind(), files = pick(k);
+    const files = chosen();
     if (!files.length) return;
     if (typeof JSZip === "undefined") { setStatus("The zip library didn't load. Check your connection and reload.", true); return; }
 
@@ -139,12 +256,13 @@ layout: null
       let next = 0, done = 0;
       async function worker() {
         while (next < files.length) {
-          const p = files[next++];
+          const f = files[next++];
           try {
-            const r = await fetch(urlFor(p));
+            const r = await fetch(urlFor(f.path));
             if (!r.ok) throw new Error(r.status);
-            zip.file(p, await r.blob());
-          } catch { failed.push(p); }
+            // Inside the zip, files are sorted into Series/Main or Series/Offshoots folders
+            zip.file(`${f.series}/${f.kind === "Main" ? "Main" : "Offshoots"}/${f.path}`, await r.blob());
+          } catch { failed.push(f.path); }
           done++;
           bar.value = (done / files.length) * 80;
           setStatus(`Fetching ${done} of ${files.length}…`);
@@ -159,7 +277,7 @@ layout: null
         (m) => { bar.value = 80 + m.percent * 0.2; }
       );
       const a = document.createElement("a");
-      a.href = URL.createObjectURL(blob); a.download = ZIP_NAME[k];
+      a.href = URL.createObjectURL(blob); a.download = zipName();
       document.body.appendChild(a); a.click(); a.remove();
       setTimeout(() => URL.revokeObjectURL(a.href), 10000);
 
@@ -175,14 +293,13 @@ layout: null
   }
 
   (async () => {
+    buildGrid();
     if (location.protocol === "file:") {
       setStatus("Open this page through a server (e.g. jekyll serve); browsers block file:// pages from reading folders.", true);
+      refresh();
       return;
     }
-    all = await findFiles();
-    for (const k of Object.keys(EXT)) {
-      document.querySelector(`[data-n="${k}"]`).textContent = `(${pick(k).length})`;
-    }
+    all = (await findFiles()).map(path => ({ path, ...classify(path) }));
     if (!all.length) setStatus("No files found in this folder.", true);
     $("kind").addEventListener("change", () => { setStatus(""); bar.hidden = true; refresh(); });
     btn.addEventListener("click", run);
