@@ -1,6 +1,40 @@
-# Projective Gravity — Version 34.7 (draft): coupled source reduction and conditional static benchmarks
+# Projective Gravity — Version 34.8 (draft): coupled source reduction and conditional static benchmarks
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases — with branches on charge and extremality, and on rendering and canonical optics
+
+**Current claim status (v34.8).** This table governs. The round paragraphs below record what each round did; where they differ from the table, the table holds.
+
+| claim | status | archive |
+|:--|:--|:--|
+| **Established control identities** | | |
+| Reduced-source Noether identities on regular fibrations (Theorem I; P1, P2) | proved; checked to $5\times10^{-11}$ | §XXIX.22 |
+| Quotient Ward identity $\sqrt{-g}\,\nabla_\mu T^\mu{}_\nu = -(\pi_*E_\pi)_\nu$ (static, spatial components in the adopted extension; every component in the fully warped one). A quotient that the geometry follows is a gauge; the tensor pushforward along moved fibres with the geometry fixed is non-covariant | proved; tested directly to $5\times10^{-8}$ | §XXIX.36 |
+| Coarea reduction of the round $S^4$; a pole mass has no canonical base image | proved; counterexample reproduced | §XXIX.10 |
+| Static-base equations; Keplerian near field on every nonresonant barotropic branch; first-order closure energy identity | proved; reproduced | Part XXV; §§XXIX.17, 23 |
+| Frozen-core monopole theorem, in the iterated limit | proved within its scope; numerical evidence at eight widths | §XXIX.24 |
+| Brown's current gives the perfect-fluid stress at fixed $J$ | standard; checked | §XXIX.33(b) |
+| History classes by continuous lift; the Morse convention; the round-leaf screen map; the index fixes the parity only | proved; checked | §§XXIX.34, 39(c) |
+| In the fibre-symmetric control, $q_+ = q_-$ generates the common fibre translation | proved; checked | §XXIX.34(c) |
+| Optical conformal silence: four-dimensional Maxwell theory with identical data | proved | §XXIX.35(a) |
+| Common-clock theorem: clock-timed $1+z_t = N_m({\rm rec})/N_m({\rm emit})$ for every label, while wavelengths, read against the receiver's own label with each label normalized to $N_m$ at its centre, give $1+z_\lambda = N^{\rm lab}({\rm rec})/N^{\rm lab}({\rm emit})$; bimetric duality $D_L = (1+z_t)(1+z_L)D_A$ | proved; wave carrier illustrates, ray trace checks $D_A$ | §XXIX.38 |
+| A compact phase is not a scale; the leaf contact form is global and deck-even; a shrinking surface guarantees freezing | proved; checked | §XXIX.37 |
+| **Specified effective models** | | |
+| P3: round matter geometry, spatially warped; Brown core current; one mass allocation; an externally prescribed quotient | conditional benchmark. The deficit is $\simeq f_{\rm reg}\kappa$ (ratio $0.908$–$0.99998$). It is compatible at first order only at $f_{\rm eff} = 0$ or with a holding stress | §§XXIX.28, 33, 36 |
+| Einstein-static base with rigid or barotropic closure; plateau $v^2_{\rm eq}\to3GM/\ell$ | conditional; reproduced | Part XXV; §XXIX.17 |
+| Option A stretch, and the return-image law (Candidate B) | branch; properties proved; coupling cost stated | §§XXIX.20, 26 |
+| The null readout $4\ell\tan(s/4)$ and the softened family (automorphism premise), as assigned apparent distances | detector assignments | §§XXIX.31, 34(g), 39(d) |
+| A readout carried by standards, with a conical index: Hubble-diagram cases (coasting; $q_0 = -2$; matched at second order). With common clocks the label carrier's curve is static, $D_L = \ln(1+z)/H$ | conditional benchmarks; no likelihood fit | §§XXIX.35(c), 38(f) |
+| The Hopf scale connection $\kappa_W\langle Jx,dx\rangle/\ell^2$: a distance-independent dipole, which needs matter's standards not to be Weyl-transported | candidate | §§XXIX.35(f), 37 |
+| The three-anchor compatibility toy | toy; verified | §XXIX.27 |
+| **Missing physical bridges** | | |
+| A holding (attachment) stress in $T$, or a quotient sector with its own equation; then the coupled weak-secondary response | open | §XXIX.36(g) |
+| An action for the preferred static frame $u$, which the time component of the Ward identity needs | open | §XXIX.36(a), (g) |
+| The finite core interior: its directional response, its EOS and $K_L$ | open | §XXIX.33(g) |
+| The photon wave operator on $\mathcal M$, and its four-dimensional mode projection | open; null propagation is a premise | §XXIX.39(b) |
+| A physical account of label light: its speed off matter's light cone, the time dilation that observed redshifts show, and the resonances with their energy. Carriers outside the theorem (time-dependent optics, label-dependent emission) are untested | open | §XXIX.38 |
+| A derived scale structure and pair-selection law ($\kappa_W$, the lift, the grade) | open | §XXIX.37 |
+| A supernova likelihood with released data; counts against a selected sample | not done | §XXIX.39(f) |
+| $G$ and a quantum scale | open | current manuscript §8 |
 
 > **v30 opening status (7 October 2026).** Projective Gravity currently consists of a geometric framework and several conditional physical constructions. Its compact source-shell geometry contains the standard Hopf/Bloch bundle, and its antipodally even scalar conformal constraint has an invertible $\Delta+3$ operator. The galactic rotation model is reformulated in Part XXV under a named constitutive premise: the closure is a *rigid* (incompressible) jellium whose pressure is fixed by conservation — within the tested static barotropic-at-rest closure class, the rigid branch is the one supporting a nonoscillatory lapse-gradient response, dust forcing a Kottler vacuole (§XXIV.22) and finite-$w$ members acquiring the Jeans-scale oscillatory response; other closure classes are not excluded — and under that premise the first-order static equations, with the corrected Green function $\cos2\chi/\sin\chi$ and a galaxy density exponential in the stereographic radius of its leaf, give a rotation curve that rises to a nonzero equatorial plateau equal to the lapse curvature there, $v^2_{\rm eq} = -N''/N$, reproducing the point-source benchmark $3GM/\ell$ as the source shrinks. The global meridian reduction of $S^4$ requires a resolved construction at the pencil poles; the galactic model uses only $S^3\to\mathbb{RP}^3$, which is sound. Part XXVI contains shell-level common-invariant results — two inequivalent Hopf quotients agree on the monopole — a probability-kernel identity with the Fricke polynomial, exact flatness and descent results for a moving rendering frame, and a conditional global-bundle analysis of a vertical two-mode carrier whose electroweak consequences depend on an unresolved pole gluing; the physical descent, the co-middle globalization, the source law and the pole resolution remain unconstructed, no charge assignment is derived, and its numerical experiments are manuscript-reported computations until independently reproduced. Local spinor, RN, Higgs-EFT, Koide, and Fricke identities are retained with their domains and assumptions, while matter occupation, global generation descent, gauge dynamics, optical readout, and the two Higgs matching identifications remain open. The tested static Fricke commutator mechanism fails its independent lapse target. v30 separates established conditional results from research proposals and unreproduced numerical experiments; its correction register and first regression tests accompany this file. *(v34.1 correction: the clause "finite-$w$ members acquiring the Jeans-scale oscillatory response" is withdrawn — for a perturbative slope $s=dp/d\rho>1/5$ the compact Green function of $(\Delta+3+1/s)$ is nonoscillatory on the physical hemisphere, so the rigid closure is sufficient and not unique; §XXIX.13, R64.)*
 
@@ -20,7 +54,7 @@
 
 > **v34.5 — the fifth double round (12 October 2026) and the author's two-history entries.** Two reports on v34.4 arrived — the standing referee's assessment (four corrections) and the blind follow-up (major revisions, with explicit counterexamples) — and both ran the embedded suite ("59 checks passed"). Every counterexample has been verified and the claims corrected in place (R121–R131); the suite now has 74 checks and exits nonzero on failure. **Withdrawn (R121, R123, R127).** The fiber-tension "rigidity lemma" of §XXIX.22: $E_\lambda$ is the vertical stress, not the energy density — a null packet $\Psi = F(t-x)$ has $E_\lambda = 0$ with nonuniform $T_{tt} = 2\pi\lambda F'^2$, and for a fluid with a fixed current $\partial_\lambda[-\lambda\rho(N/\lambda)] = p$, so a tension fixes $p = \sigma$ (dust is incompatible with $\sigma\neq0$); "conserved iff" is "conserved when". The "neutral constant mode" of §XXIX.23: it satisfies the Hamiltonian constraint, the EOS and the budget but violates the lapse equation $\Delta\nu = 4\pi(\delta\rho+3\delta p)$ by $12\pi C$ — a uniform compression needs $\delta p/\delta\rho = -1/3$; the two integrated constraints fix the v34.2 split $-M_S/(3s+1)$. The orientation assignment of §XXIX.27: the orientation character is $+1$ on the fiber loop and $-1$ on the base generator, and a flat orientation-conjugating $O(2)$ structure carries a continuous fiber phase, so neither "$\pi$ by orientation" nor "a continuous phase needs curvature" stands. **Corrected (R122, R124–R126).** P2 varies the horizontal connection at fixed quotient fibers; its complete identity is $\nabla^\mu T_{\mu\nu} = \oint(E_\Psi D_\nu\Psi+E_\lambda D_\nu\lambda)+E_A^\mu F_{\nu\mu}$, verified with a non-flat $A$ to $4.5\times10^{-11}$ (the $F$ term is essential); an undetermined $A$ is not pure gauge. The frozen-core theorem is a statement about the first variation of the scalar coarea image in the iterated limit $\epsilon\to0$ then $\delta_S\to0$ (the linearization fails below $\delta_S\simeq(0.189\,\epsilon)^{1/3}$), the excess is broad and nonuniform, and the transported measure is a candidate mechanism, not a requirement; the return-point pairing holds down to a finite return-core radius. Candidate B is restated in one convention, $\Delta\Phi = c-\kappa_\Phi\rho\circ\tau$ (a sink), with uniform $c$ a premise fixed in integral by compatibility, any nonzero return charge giving an infinite end, and the muffling question open rather than excluded. At $\Phi = \pi$ the equal-weight triangle's degenerate ground pair carries currents $\pm\sqrt3/6$. **Numerics (R131).** The angular-axis divergence is computed in the regular form $\zeta = \eta/\sin\varphi$: the spurious first-node peak ($3522\to948\to452$) is gone, the residual converges, $\kappa$ is unchanged at $(0.3, 0.2)$ to $10^{-5}$ and moves by at most $1.2\times10^{-4}$ across the eight-width table, whose on-axis deficit ratios move by up to $0.008$ (table of §XXIX.24 updated). **The coupled model (R128, §XXIX.28).** P3 places the core measure on the exceptional section of the resolved pencil — a base field that moves with the fibers by construction — and shows the kinematic deficit is $f_{\rm reg}\kappa$ with $f_{\rm reg}$ the primary's foliated-region mass fraction (to 1 %); the Keplerian/universality test bounds $f_{\rm reg}<0.07$ (1 % universality) or $<0.013$ (1 % strength at $\delta_S = 0.2\,\ell$; $<0.010$ compact); the weak-secondary response is the finite-$s$ benchmark; the interface list names what P3 does not derive (core EOS, a quotient variable, the inner region, the return core, $G$). **The author's entries 270–274 (R130, §XXIX.29).** Gravity-base feedback into the stretch, the two-pole/relative-metric picture, the enclosure criterion for "another galaxy", the orientation flip, and the conditioned middle space with a doubled hemisphere are formalized: the branch family $A_\sigma = 2/(1+\sigma\cos\chi)$ with $D_ND_S = 4\ell^2$ (an observer-indexed structure, not a metric space); the enclosure class as the $D_\infty$ class of the history pair's comparison loop in the resolved pencil (a ray straight through the return pole has odd deck parity and returns orientation-reversed — the "flipped" appearance); the orientation double cover $Y = S^3\times S^1$ as the canonical doubled hemisphere; the focusing index ($\pi\ell$ vs $2\pi\ell$); the chosen readout law $D = 4\ell\tan(s/4)$ with the antipode finite; and the frequency obstruction — no multiplicative transport, static linear optics, smooth static lapse or static geometric phase yields the reciprocal redshift with an unshifted mirror return, so the branch needs a derived frequency-transport law. **Next.** One coupled core/quotient/source model with an actual quotient variable and the weak-secondary observables (P3's interface list), and the six-test history toy for the readout branch. *[v34.6: the deck-parity enclosure criterion is withdrawn (R133), the Option A normalization corrected (R132), the measure on $Y$ made explicit (R134); see the v34.6 paragraph below]*
 
-> **v34.6 — the author's Entries 275–276 and two reports on v34.5 (13 October 2026).** The author refined the readout: the infinite apparent distance belongs only to histories passing *through* the antipode, and skew should soften it continuously (275). He also asked which space the two histories follow and whether a one-degree-of-freedom consistency between them could remove the normal direction (276). One referee analysis supplied a softened family, asked for a computed grade and a robust class, and set out the propagation options and a two-history action. The other reran the P3 and readout controls, found that a 1 % primary fraction needs a core of $1.04$ rad for the $\delta_P = 0.3$ primary, noted $D_{\rm return}(2\chi) = 2D_A(\chi)$, and asked for actual histories, a resolution operator, the receiver's records and an explicit measure on the double cover. All were computed (`v34_6_suite`, 14 new checks, 88 in all). **The readout (R132, R133, R136; §XXIX.31).** The softened family $dD_\alpha/ds = \ell(1+\alpha)/(1+\alpha\cos(s/2))$ is the normalized conformal factor of an axial boost of velocity $\alpha$, and is *forced* by "conformal, axisymmetric, two fixed points". The null law is its singular boundary limit; *[v34.7, R149: was "parabolic limit" — finite stereographic dilations are hyperbolic Möbius maps and the limit is degenerate]* skew recompactifies the readout onto a sphere of radius $2\ell\mathcal D_\alpha$, with $D_\alpha(2\pi) = 2\pi\ell\mathcal D_\alpha$. The v34.5 deck-parity criterion is *not robust*: every skewed history lands on the same sheet, so the odd class is measure-zero, and it is withdrawn as the enclosure criterion. The conjugate-point (Morse) index is robust, and is computed on a lensed leaf: constant across a skewed family, while exact opposition and passage through the antipode occur only in the symmetric configuration. The grade is chosen as the image opposition $\alpha = -\hat n_1\cdot\hat n_2$, computed and not fitted; a symmetric return lens keeps $\alpha = 1$. *[v34.7, R150: image opposition is a detector observable, not the passage criterion; the history-level grade is the return near-miss $\alpha_R = \cos\beta_R$, conserved as $\lvert L\rvert = \sin\beta_R$ (§XXIX.34(e))]* **Propagation and the consistency (R134, R137, R138; §XXIX.32).** The histories are null geodesics of the complete matter geometry $H_{\mathcal M}$. Their one shared degree of freedom is the conserved vertical charge, a first-class constraint whose flow under the dual-path form is the common fiber translation, so that reduction removes the mean fiber position and keeps the relative separation. *[v34.7, R151: was "whose reduction removes the relative fiber direction" — the flow was reversed (§XXIX.34(c))]* The dual-path action carries it as $\Lambda(q_+-q_-)$, a superselection that selects pairs and does not reroute them. "Geodesic in both" for all histories forces projective equivalence; for the observer's own cone it holds for any axisymmetric readout. On the round transparent leaf the long-way image has the same $D_A = D_L$ as the direct one: the readout must change angular sizes, fluxes and redshift together (distance duality) or the returned images must be suppressed. The boost's Doppler factor is excluded as the frequency law at $\ell = 16$ kpc. Matter lifts to $Y$ as $\tfrac12\Pi^*\rho$. **The core (R135, R139; §XXIX.30).** The 1 % bound is a compactness condition, $\theta_C\simeq3.6\,\delta_P$: the meridians are radial inside and outside a spherical core, so the exterior pencil is not shortened, and nothing fixes $\delta_P$. A label-uniformity stiffness against the core's compressional stiffness gives the attached fraction $K_L/(K_L+K_f)$; with $f_{\rm reg} = 0$ the bounds are $K_L/K_f>13$ (universality) or $>84$–$99$ (strength), and jointly with a finite core far more ($793$ at $f_{\rm reg} = 0.0105$). *[v34.7, R143: was "the bounds become $K_L/K_f>13$ (universality) or $>99$ (strength)"]* **Next.** A quotient variable with its own equation in P3; the history toy on the cover with the seven tests — distance duality now among them — and a frequency-transport law. *[v34.7: the symplectic flow, the grade, the parabolic limit and the joint core bound are corrected in place (R143, R149–R151); see the v34.7 paragraph below]*
+> **v34.6 — the author's Entries 275–276 and two reports on v34.5 (13 October 2026).** The author refined the readout: the infinite apparent distance belongs only to histories passing *through* the antipode, and skew should soften it continuously (275). He also asked which space the two histories follow and whether a one-degree-of-freedom consistency between them could remove the normal direction (276). One referee analysis supplied a softened family, asked for a computed grade and a robust class, and set out the propagation options and a two-history action. The other reran the P3 and readout controls, found that a 1 % primary fraction needs a core of $1.04$ rad for the $\delta_P = 0.3$ primary, noted $D_{\rm return}(2\chi) = 2D_A(\chi)$, and asked for actual histories, a resolution operator, the receiver's records and an explicit measure on the double cover. All were computed (`v34_6_suite`, 14 new checks, 88 in all). **The readout (R132, R133, R136; §XXIX.31).** The softened family $dD_\alpha/ds = \ell(1+\alpha)/(1+\alpha\cos(s/2))$ is the normalized conformal factor of an axial boost of velocity $\alpha$, and is *forced* by the exact automorphism hypothesis — conformal automorphisms of the leaf that fix both points and commute with the axial rotations. *[v34.8, R172]* The null law is its singular boundary limit; *[v34.7, R149: was "parabolic limit" — finite stereographic dilations are hyperbolic Möbius maps and the limit is degenerate]* skew recompactifies the readout onto a sphere of radius $2\ell\mathcal D_\alpha$, with $D_\alpha(2\pi) = 2\pi\ell\mathcal D_\alpha$. The v34.5 deck-parity criterion is *not robust*: every skewed history lands on the same sheet, so in the blown-down round control the odd class is measure-zero, and it is withdrawn as the enclosure criterion. *[v34.8, R175]* The conjugate-point (Morse) index is robust, and is computed on a lensed leaf: constant across a skewed family, while exact opposition and passage through the antipode occur only in the symmetric configuration. The grade is chosen as the image opposition $\alpha = -\hat n_1\cdot\hat n_2$, computed and not fitted; a symmetric return lens keeps $\alpha = 1$. *[v34.7, R150: image opposition is a detector observable, not the passage criterion; the history-level grade is the return near-miss $\alpha_R = \cos\beta_R$, conserved as $\lvert L\rvert = \sin\beta_R$ (§XXIX.34(e))]* **Propagation and the consistency (R134, R137, R138; §XXIX.32).** The histories are null geodesics of the complete matter geometry $H_{\mathcal M}$. On the null-propagation premise, their one shared degree of freedom in a fibre-symmetric control is the conserved vertical charge, a first-class constraint whose flow under the dual-path form is the common fiber translation, so that reduction removes the mean fiber position and keeps the relative separation. *[v34.7, R151: was "whose reduction removes the relative fiber direction" — the flow was reversed (§XXIX.34(c))]* The dual-path action carries it as $\Lambda(q_+-q_-)$, a superselection that selects pairs and does not reroute them. "Geodesic in both" for all histories forces projective equivalence; for the observer's own cone it holds for any axisymmetric readout. On the round transparent leaf the long-way image has the same $D_A = D_L$ as the direct one: the readout must change angular sizes, fluxes and redshift together (distance duality) or the returned images must be suppressed. The boost's Doppler factor is excluded as the frequency law at $\ell = 16$ kpc. Matter lifts to $Y$ as $\tfrac12\Pi^*\rho$. **The core (R135, R139; §XXIX.30).** The 1 % bound is a compactness condition, $\theta_C\simeq3.6\,\delta_P$: the meridians are radial inside and outside a spherical core, so the exterior pencil is not shortened, and nothing fixes $\delta_P$. A label-uniformity stiffness against the core's compressional stiffness gives the attached fraction $K_L/(K_L+K_f)$; with $f_{\rm reg} = 0$ the bounds are $K_L/K_f>13$ (universality) or $>84$–$99$ (strength), and jointly with a finite core far more ($793$ at $f_{\rm reg} = 0.0105$). *[v34.7, R143: was "the bounds become $K_L/K_f>13$ (universality) or $>99$ (strength)"]* **Next.** A quotient variable with its own equation in P3; the history toy on the cover with the seven tests — distance duality now among them — and a frequency-transport law. *[v34.7: the symplectic flow, the grade, the parabolic limit and the joint core bound are corrected in place (R143, R149–R151); see the v34.7 paragraph below]*
 
 > **v34.7 — the follow-up report on v34.5, the assessment of v34.6, and the author's Entry 277 (13 October 2026).**
 >
@@ -30,7 +64,7 @@
 > - The round matter geometry replaces the $\lambda$-substitution, which was off by $\lvert\sin\theta\rvert^{-6}$.
 > - The regular action is warped ($w = \sin^3\theta$, $L = 1$, $K = \sin^{-2}\theta$), and its off-shell identity is checked.
 > - The core is a conserved Brown current, so the budget compares charge sectors rather than describing a transfer.
-> - One mass allocation is used throughout, and the exchange term of a prescribed quotient is displayed.
+> - One mass allocation is used throughout, and v34.7's density-drift term is displayed — the continuity defect of the kinematic bookkeeping; the exchange four-vector is the Ward identity of §XXIX.36. *[v34.8, R162]*
 > - Accuracy is measured: $\kappa_{\rm eff}/f_{\rm reg}\kappa$ runs from $0.99998$ down to $0.908$.
 > - A lapse-force observable differs from the density fit, so $\kappa$ is not $G$.
 > - The 1 % tolerances belong to a named control, and compactness and attachment must be met together: $K_L/K_f>793$ at $f_{\rm reg} = 0.0105$.
@@ -41,20 +75,60 @@
 > - The Morse index at the full circuit is $2$, with a conjugate endpoint.
 > - The constraint $q_+ = q_-$ generates the *common* fiber translation, so the relative separation survives. Base-massless photons ($q = 0$) carry only an enclosed-flux holonomy.
 > - The return near-miss is conserved ($\lvert L\rvert = \sin\beta_R$). It differs from image opposition by a lens factor of $17$–$34$.
-> - The frequency obstruction is narrowed to history-independent rules. A label-retained conditioned lapse gives reciprocal reddening, an unshifted echo, and a linear law for a conical lapse.
-> - The null readout is a detector assignment. Its remote images come from within $16\ell^2/D$ of the observer, so $N(>D)\propto D^{-3}$.
+> - The frequency obstruction is narrowed to history-independent rules. A label-retained transport assignment gives reciprocal reddening, an unshifted echo, and a linear law for a conical lapse, algebraically; with common clocks it returns as a ratio of wavelengths, not of clock-timed periods (§XXIX.38). *[v34.8, R168]*
+> - The null readout is a detector assignment. Its remote images come from $d = 4\ell\arctan(4\ell/D)\simeq16\ell^2/D$ of the observer, so $N(>D)\propto D^{-3}$ and $N(<D)$ saturates. *[v34.8, R174]*
 >
 > **Entry 277 (R155–R160; §XXIX.35).**
 > - In four dimensions light sees only the conformal class, by the same conformal invariance that holds for the Hodge star on 2-forms. A conformal factor on the light alone is therefore unobservable.
-> - A factor felt by matter would add about $0.18c$ to circular speeds at $10$ kpc. Matter must be frozen to $1.4\times10^{-7}$.
-> - An index can therefore act only through a non-conformal, label-conditioned optical metric, or as a readout of the source's standards; the readout's physical carrier is open. Either way it fixes redshift, $D_A$, $D_L$ and time dilation together.
+> - A factor felt by matter would add about $0.18c$ to circular speeds at $10$ kpc. In that benchmark matter must be frozen to $1.4\times10^{-7}$, a design constraint. *[v34.8, R175]*
+> - An index can therefore act only through a non-conformal, label-conditioned optical metric, or as a readout of the source's standards; the readout's physical carrier is open. With common clocks the first changes wavelengths, delays, directions and $D_A$ but no clock-timed frequency, so its redshift comes without time dilation (§XXIX.38); only the second, given its carrier, fixes redshift, $D_A$, $D_L$ and time dilation together. *[v34.8, R168–R169]*
 > - At the source end a conformal readout cannot both redden and stretch.
-> - For a conical index the Hubble diagram depends on the centring. The label-retained lapse (emitter-centred) and the observer-centred conformal readout lie on the coasting curve ($q_0 = 0$, $0.23$ mag bright at $z = 1$). The other two pure cases have $q_0 = -2$ and are excluded.
-> - "Frozen = joined" is exact as a Weyl length holonomy around the pair, which obeys an area law.
-> - Indices that depend on the class alone must be orientation-odd, and they are not robust.
+> - For a conical index the Hubble diagram depends on the centring. The label-retained lapse (emitter-centred) and the observer-centred conformal readout lie on the coasting curve ($q_0 = 0$, $0.23$ mag bright at $z = 1$). The other two pure cases have $q_0 = -2$ and miss a fixed flat-ΛCDM benchmark by more than a magnitude at $z = 1$. *[v34.8, R169]*
+> - "Frozen = joined" is exact as a Weyl length holonomy around a pair that bounds a shrinking surface (area law); the direct/long-way pair never freezes. *[v34.8, R167]*
+> - Additive flat indices that depend on the class alone must be orientation-twisted, and they are not robust. *[v34.8, R166]*
 > - The self-dual Kähler form of the left Hopf fibration gives a definite candidate, whose long-way images carry a distance-independent sky dipole.
 >
 > **Next.** A quotient variable that cancels the exchange term, and a derived pair-readout rule — which end, which grade, which field strength — tested against the Hubble diagram and the dipole.
+
+> **v34.8 — the report on v34.6, the report on v34.7 with its continuation brief, and the assessment of v34.7 (13 October 2026).**
+>
+> *What was asked.* The reports asked for three things:
+> - Operative claims replaced rather than bracketed, with a short table saying what each correction actually fixed.
+> - Three closed calculations: one quotient-dependent action with its Ward identity, or a no-go (task B); one common-clock operational experiment (task D); and a decision on which bundle carries a scale (task E). The coupled weak-secondary response (task C) was to come only after B.
+> - Phenomenology kept at benchmark level (task F).
+>
+> **Gravity (R161–R164; §XXIX.36).**
+> - The round geometry's Lorentzian extension warps the three spatial directions only. It has measure $\sin^3\theta$, an unwarped time term and a preferred static frame.
+> - $\beta$ is a deformation of the quotient submersion, one that tilts $\ker d\pi$. A connection cannot stand in for it.
+> - The Ward identity is $\sqrt{-g}\,\nabla_\mu T^\mu{}_\nu = -(\pi_*E_\pi)_\nu$: for static configurations and spatial components in the adopted extension, and for every component in the fully warped one. It is tested directly, since varying the quotient gives minus the stress divergence to $5\times10^{-8}$. A static quotient can exchange momentum, so compatibility needs $\pi_*E_\pi = 0$ or a dynamical quotient. v34.7's density-drift term was the continuity defect of the kinematic bookkeeping, not a component of this identity.
+> - If the matter geometry follows the quotient, the quotient is a gauge. Free matter then exchanges nothing, and held matter exchanges its equation residual. In the torus control the exchange is $1.6\times10^{-11}$ for free matter against $0.62$ for held matter (converged spectrally).
+> - Pushing fixed matter along moved fibres with the geometry unchanged — the kinematic shift, extended to the stress tensor — is non-covariant and non-conservative, even for free matter and even for a pure relabelling. Without an added stress it is incompatible with Einstein's equation.
+> - In P3 the deficit and the exchange have one origin (argued from the torus control, not computed in P3), so the holding stress must enter $T$. At $f_{\rm eff} = 0$ the model is compatible at first order, where it predicts no deficit. Task C awaits a holding stress or a quotient sector.
+>
+> **The scale bundle (R165–R167; §XXIX.37).**
+> - A compact phase is not a scale: a large gauge transformation changes it by $e^{2\pi\kappa_W} = 3.51359$. So $\phi = \kappa_WA$ is a local ansatz.
+> - The leaf's Hopf contact form is a global real connection, and it is deck-even. The twisted flat index is a distinct alternative.
+> - A shrinking surface guarantees freezing. The direct/long-way pair never freezes; a weak lens's pair fades instead; and a small pair with fixed endpoints freezes linearly.
+> - Read by matter's standards, the Hopf connection would rescale a star by $e^{0.29}$ per galactic revolution. Its dipole therefore needs a non-matter reader.
+>
+> **The common-clock experiment (R168–R169; §XXIX.38).**
+> - Assume common clocks, label-blind emission and detection, and time-invariant propagation. Then every clock-timed ratio is $1+z_t = N_m({\rm rec})/N_m({\rm emit})$ for every label: fresh pairs are reciprocal, and echoes and period-matching transponder cycles are unshifted. A two-label wave carrier, with a simulated transponder, illustrates this.
+> - Label light has its own local speed, $N^{\rm lab}/N_m$ ($1.419$ for label A at B). Read in wavelength against a local line in the receiver's own label, with each label normalized to the clocks at its centre, v34.7's table therefore returns *exactly*: fresh pairs both redder by $e^f$, echoes unshifted.
+> - Its signature is spectroscopic redshift without time dilation, light off matter's light cone, and frequency-based resonances that see no shift (label-following ones absorb with an energy imbalance $1-e^{-f}$).
+> - With common clocks, $D_L = (1+z_t)(1+z_L)D_A$, and for the conical label lapse $D_L = \ln(1+z)/H$: $1.74$ mag brighter than flat ΛCDM at $z = 1$.
+>
+> **The optical record and the local corrections (R170–R175; §XXIX.39).**
+> - A variable fibre radius adds a force, and the round pencil has no fibre isometry.
+> - An index fixes only the image parity. A caustic phase leaves polarization alone.
+> - The exact automorphism hypothesis is stated, together with its flat limit.
+> - The winding branches are infinite in number, so a first-return selection is adopted explicitly as a premise.
+> - The flux factor is the square of the angular-size factor.
+> - Counts are compared like with like.
+> - The Hubble-diagram cases are matched benchmarks.
+>
+> **Presentation (R176).** Operative claims are replaced in place and carry a short tag. The superseded wording is kept in the register and in the ledger. The claim-status table at the head of this document governs.
+>
+> **Next.** On the gravitational side: the holding stress in $T$, or a quotient sector with its own equation, and then task C. On the optical side: a physical account of label light that meets the three tests — its speed, the time dilation of observed redshifts, and the resonances with their energy — or a carrier outside the theorem's hypotheses (time-dependent optics, label-dependent emission).
 
 > **What v30 changes, in order.** (1) The definite corrections of the referee report, each independently verified: the Green function of $\Delta+3$ (IV.10), the analytic plateau coefficient $3$ (IV.8), the Kottler clock normalization and piecewise domain (XXIV.22), the rotating Kerr–Newman lapse (XXIV.8), the Koide sign branch (XXIV.26), the literal Higgs derivatives, the Hopf-invariant target reversal, and the closure-origin and stability statements — annotated in place and collected in the register. (2) The galactic model reformulated with the stress the lapse needs derived rather than chosen (Part XXV). (3) The scope of the new branch — gravity as the common descent of the middle-space structures, centrades as compatibility carriers, the local Weyl conjecture — stated with its statuses and without a mechanism claimed (Part XXVI). (4) The version-history summaries that follow are retained as the development archive; they are not the statement of standing, and every live claim is to be rebuilt from the register as the restructure proceeds.
 
@@ -5103,16 +5177,16 @@ which gives $1-6M/r$ for Schwarzschild (checked at $r = 10, 20, 50M$); v34.2 pri
 **Standing.** *Minimal interpretation* (adopted for the branch): the extra length is a property of how the selected representation measures distance; Law I and the base calculations are unchanged; the matter and optical readouts must be constructed. *Stronger interpretation* (not adopted): the inclination enters the complete source action and changes the reduced stress — it could be part of the sought explanation of why the Einstein equations act on the quotient, and it would require the galaxy results to be rederived. Acceptance criteria are kept separate: kinematic preservation of $v^2$ (established) and dynamic preservation (open). The two research tracks are kept distinct, as the standing referee asks: the main program (finite core and directional source; complete source action and conservation; the closed-base budget; the secondary's response; an independent $G_{\rm eff}$) and the stretch program (derive the inclination field $\Phi$; prove the global embedding and gluing of the inclined leaf as a bisection; derive the multicentre suppression without chosen $\epsilon_i$; test radial epicyclic periods, lensing and proper-distance readouts; determine whether stretching improves optical distances without violating observation). **First experiment:** take the static quotient solution as fixed, introduce the inclination field $\Phi$ with a universal coupling to the full middle-space stress-energy and the meridian return structure, and ask whether its Euler–Lagrange equation has an isolated, approximately isotropic branch whose induced radial metric approaches Option A outside the core (singular limit only), a smooth multicentre solution with finite distances, a locally negligible correction near ordinary compact sources, a well-defined optical or matter readout, and a source contribution consistent with the quotient Bianchi identity — the matter-selected centre of (b) being the first check; then the tetrahedral benchmark. **Falsifiers:** a measured $\kappa/\Omega$ (with the distance convention fixed) incompatible with the $\cos^2(\chi/2)$ factor; local radial-distance observables that exclude a $\chi^2/4$ stretch at the relevant radii; a return-map/holonomy theory of the core that cannot produce $\mathcal F\to\sec^2(\chi/2)$ without inserting it; or an inclination law whose isotropic solution is not centred on the matter.
 
 
-## XXIX.21 Executable appendix: the numerical suite `pg_v34_numerics.py`, embedded [reproducibility; v34.3, R104; consolidated v34.4, R109; v34.5, R131; v34.6, R138; v34.7, R140]
+## XXIX.21 Executable appendix: the numerical suite `pg_v34_numerics.py`, embedded [reproducibility; v34.3, R104; consolidated v34.4, R109; v34.5, R131; v34.6, R138; v34.7, R140; v34.8, R176]
 
-*The complete standalone suite (NumPy and SciPy only) that prints every number quoted in §§XXIX.10–13, XXIX.17–20 and XXIX.22–35. Save the block as `pg_v34_numerics.py` and run `python3 -I pg_v34_numerics.py` (the current regression suite: every retained routine with its v34.5 interpretation strings, ending with a summary of 115 explicit checks; exit status 1 if any fails, in every mode (R140); 128 s on Python 3.13 / NumPy 2.5 / SciPy 1.18), or one round with `python3 -I pg_v34_numerics.py v34_7`, or from another process with `python3 -I -c "import runpy; d=runpy.run_path('pg_v34_numerics.py'); d['v34_7_suite']()"`. The follow-up report on v34.5 ran the complete 74-check v34.5 program unchanged (all passed, exit status 0) and found that the single-round modes did not fail loudly (R140); the v34.7 block adds 27 checks, 10 of them for Entry 277. Both v34.5 reports ran parts of the v34.5 suite (the conditioned-readout routine, selected correction tests, a reduced-resolution P3 control) and reproduced its outputs; the v34.6 block adds 14 checks (R138). Both v34.4 reports ran the previous version's complete default program and reproduced its outputs (59 checks); the v34.5 consolidation repairs the angular-axis divergence (R131), corrects every interpretation string the reports faulted (R121–R127) in place, and adds the v34.5 block with the referees' counterexamples as checks. Three quadratures still emit roundoff warnings on the broad controls; their requested tolerances are not achieved error bounds there.*
+*The complete standalone suite (NumPy and SciPy only) that prints every number quoted in §§XXIX.10–13, XXIX.17–20 and XXIX.22–39. Save the block as `pg_v34_numerics.py` and run `python3 -I pg_v34_numerics.py` (the current regression suite: every retained routine with its v34.8 interpretation strings, ending with a summary of 121 explicit checks; exit status 1 if any fails, in every mode (R140); about 150 s on Python 3.13 / NumPy 2.5 / SciPy 1.18), or one round with `python3 -I pg_v34_numerics.py v34_8`, or from another process with `python3 -I -c "import runpy; d=runpy.run_path('pg_v34_numerics.py'); d['v34_8_suite']()"`. The report on v34.7 ran the complete 115-check v34.7 program unchanged (all passed, exit status 0; SHA-256 `ce232dd5…`; every mode exits 1 under an injected failure); the v34.8 block adds 6 checks — the Lorentzian extension, the quotient Ward identity, the scale bundle, the common-clock experiment (two) and the optical record — and corrects the earlier rounds' stale interpretation strings in place (R176). The follow-up report on v34.5 ran the complete 74-check v34.5 program unchanged (all passed, exit status 0) and found that the single-round modes did not fail loudly (R140); the v34.7 block adds 27 checks, 10 of them for Entry 277. Both v34.5 reports ran parts of the v34.5 suite (the conditioned-readout routine, selected correction tests, a reduced-resolution P3 control) and reproduced its outputs; the v34.6 block adds 14 checks (R138). Both v34.4 reports ran the previous version's complete default program and reproduced its outputs (59 checks); the v34.5 consolidation repairs the angular-axis divergence (R131), corrects every interpretation string the reports faulted (R121–R127) in place, and adds the v34.5 block with the referees' counterexamples as checks. Three quadratures still emit roundoff warnings on the broad controls; their requested tolerances are not achieved error bounds there.*
 
 ```python
-"""Projective Gravity v34.1-34.7 -- standalone numerical suite (NumPy + SciPy only; Python 3.12/3.13 tested).
+"""Projective Gravity v34.1-34.8 -- standalone numerical suite (NumPy + SciPy only; Python 3.12/3.13 tested).
 
 Run (from the directory holding this file):
     python3 -I pg_v34_numerics.py              # current regression suite (all rounds, current interpretation strings, check summary)
-    python3 -I pg_v34_numerics.py v34_7        # one round only (v34_1 | ... | v34_7)
+    python3 -I pg_v34_numerics.py v34_8        # one round only (v34_1 | ... | v34_8)
 Every mode exits with status 1 if any check fails (v34.7; the default mode since v34.5).
     python3 -I -c "import runpy; d=runpy.run_path('pg_v34_numerics.py'); d['v34_4_suite']()"
 
@@ -5144,10 +5218,13 @@ the P3 core size and the label-stiffness attachment model.
 v34_7_suite(): P3 as an effective-source model (round matter geometry, warped regular action and its identity, core current, mass allocation,
 exchange term); parameter-dependent accuracy and a lapse-force observable; design tolerances and the joint core requirement; continuous-lift
 history classes; the doubled symplectic structure, base-massless photons and the round geometry's conserved skew; the wave-level returned image
-and the Morse convention; an operational frequency model; two grades and the readout's count consequence; Entry 277 (conformal indexing by
+and the Morse convention; a labelled frequency assignment; two grades and the readout's count consequence; Entry 277 (conformal indexing by
 the history pair): optical conformal silence and the matter-coupling bound, the readout carried by the source's standards with its Hubble-diagram
 test, the pair index as a Weyl holonomy (area law, class-only indices on D_inf, the Hopf dipole), the duality foothold and the freezing order.
-Interpretation strings of earlier rounds carry their v34.5-v34.7 corrections in place (R121-R160).
+v34_8_suite(): the Lorentzian extension of the round geometry; the quotient-dependent action and its Ward identity on a torus control; which
+bundle carries a real scale (large gauge, the leaf's global contact form, deck parity, scope of freezing, the matter reading of the Hopf form);
+one common-clock operational experiment (pulses of two labels, one standard per apparatus) and bimetric distance duality; the optical record.
+Interpretation strings of earlier rounds carry their v34.5-v34.8 corrections in place (R121-R176).
 Every number quoted in Projective Gravity SS XXIX.10-13, XXIX.17-20 and XXIX.22-29 is printed by one of these functions.
 """
 import numpy as np
@@ -6400,7 +6477,8 @@ def conditioned_readout_controls():
 _LENSED_CACHE = {}
 
 def _D_soft(s, a):
-    """softened readout D_a(s)/ell = int_0^s (1+a)/(1+a cos(u/2)) du (closed form; a = 1 is the null law 4 tan(s/4))."""
+    """softened readout D_a(s)/ell = int_0^s (1+a)/(1+a cos(u/2)) du (closed form; a = 1 is the null law 4 tan(s/4)).
+    First-return domain s < 2 pi only; the unwrapped branch for every s is _D_soft_unwrapped (v34.8-5, R173)."""
     if a >= 1.0: return 4*np.tan(s/4)
     lam = np.sqrt((1-a)/(1+a))
     return 4/lam*np.arctan(lam*np.tan(s/4)) if s < 2*PI-1e-15 else 2*PI/lam
@@ -6424,9 +6502,10 @@ def softened_readout_family():
     print(f"   [T] A_a(chi = s/2) = Omega(chi)/Omega(0), Omega = sqrt(1-a^2)/(1+a cos chi) = d chi'/d chi of the boost tan(chi'/2) = lam tan(chi/2), lam = sqrt((1-a)/(1+a)) (residual {r_conf:.0e})")
     print(f"       D_a(s) = 2 ell Dop chi'(s/2), Dop = 1/lam the longitudinal Doppler factor ({r_ab:.0e}); D_a(s) = arc length on a sphere of radius 2 ell Dop of the point at")
     print(f"       stereographic radius 4 ell tan(s/4) ({r_sph:.0e}): the skew RECOMPACTIFIES the null readout; A_a(2 pi) = Dop^2, D_a(2 pi) = 2 pi ell Dop.")
-    print("   [T] classification: the conformal (Mobius) maps of the leaf that fix the observer and its antipodal point and commute with rotations about their axis are")
-    print("       the dilations z -> lam z of the stereographic chart; their conformal factor normalised at the observer is exactly A_a -- the family is forced by")
-    print("       'conformal + axisymmetric + two fixed points', and the null law 4 ell tan(s/4) (Option A-type) is its singular boundary limit a -> 1 (not a parabolic Mobius map; R149).")
+    print("   [T] classification: the orientation-preserving conformal AUTOMORPHISMS of the leaf that fix the observer and its antipodal point individually and")
+    print("       commute with rotations about their axis are the dilations z -> lam z of the stereographic chart; their conformal factor normalised at the observer")
+    print("       is exactly A_a -- the family is forced by that automorphism hypothesis (a conformally rescaled metric f(chi)^2 h does not force it; R172), and the")
+    print("       null law 4 ell tan(s/4) (Option A-type) is its flat (stereographic) limit a -> 1 (a degenerate limit, not a parabolic Mobius map; R149).")
     dl = 0.1; al = np.cos(dl)
     check(abs(np.sqrt((1+al)/(1-al))-1/np.tan(dl/2)) < 1e-9, "image-opposition grade a = -n1.n2 = cos(delta): Dop = cot(delta/2)")
     print(f"   grade from the image pair (chosen) a = -n1.n2 = cos(delta), delta = deviation from exact opposition: Dop = cot(delta/2) (delta = 0.1: a = {al:.6f}, D(2 pi) = {2*PI/np.tan(dl/2):.1f} ell)")
@@ -6515,7 +6594,7 @@ def pair_reduction_KK(lamf=0.7, B0=1.3):
     check(all(r[0] < 1e-12 and r[1] < 1e-9 and r[2] < 1e-9 for r in res) and abs(res[0][3]-1) < 1e-9 and abs(res[1][3]-np.sqrt(1/(1+0.36/lamf**2))) < 1e-6,
           "KK reduction: vertical charge conserved; base projection is a charged geodesic (KK mass |q|/lam); q = 0 projects to base null geodesics")
     print("   [T] photon histories are null geodesics of the complete matter geometry H_M = pi*g + lam^2 (dth + A)^2 (nondegenerate; pi*g alone is not).  With the fibre")
-    print("       a symmetry, the vertical charge q = p_theta is conserved and each history projects to a charged base geodesic; q = 0 gives base null geodesics.")
+    print("       a symmetry, the vertical charge q = p_theta is conserved and each history projects to a charged base curve (constant lam; a variable radius adds (q^2/lam^3) grad lam: v34.8-5); q = 0 gives base null geodesics.")
     print("   [T, corrected v34.7, R151] the consistency q[g+] = q[g-] is first class; under the dual-path symplectic form it generates the COMMON fibre translation")
     print("       (th+, th-) -> (th+ + c, th- + c): reduction makes the mean fibre position gauge and keeps the relative coordinate (pair_symplectic_and_photon_sector);")
     print("       base-massless photons have q = 0, for which the constraint is vacuous.  In the dual-path (closed-time-path) form the constraint couples to the DIFFERENCE of the charges:")
@@ -6554,14 +6633,14 @@ def round_leaf_observables(ell=16.0):
     for psi in (0.0625, 0.25, 0.5, 1.0, 2.0):
         DA = ell*np.sin(psi); DAl = ell*abs(np.sin(2*PI-psi)); Dread = 4*ell/np.tan(psi/4); dly = (2*PI-2*psi)*ell/ckpc
         rows.append((DA, DAl)); print(f"   psi={psi:<6} (d = {ell*psi:5.2f} kpc): direct and long-way D_A = D_L = {DA:5.2f}, {DAl:5.2f} kpc; long-way image antipodal, index 2, delayed {dly:5.0f} kyr;"
-                                      f" null readout {Dread/1e3:6.3f} Mpc -> demagnification needed {DA/Dread:.1e}")
+                                      f" null readout {Dread/1e3:6.3f} Mpc -> angular-size factor needed {DA/Dread:.1e}, flux factor {(DA/Dread)**2:.1e}")
     check(all(abs(a-b) < 1e-12 for a, b in rows), "round leaf: the long-way image has the same angular-diameter and luminosity distance as the direct one")
-    print("   [T] static leaf: z = 0 and D_L = D_A for both images; surface brightness conserved; linear polarization axes carried with the image (a rotation by pi")
-    print("       maps each axis to itself); circular handedness kept for index 2, reversed for odd index.  By rulers and candles the long-way image is a NEARBY object")
+    print("   [T] static leaf: z = 0 and D_L = D_A for both images; surface brightness conserved; polarization parallel-transported along each history, and a")
+    print("       caustic phase is a scalar factor, so Stokes V and circular handedness are unchanged (v34.8-5, R171).  By rulers and candles the long-way image is a NEARBY object")
     print("       (Part XVI's returned Sun at magnitude -8 is the same fact); the readout distance is observable only if the conditioned optics changes D_A, D_L")
     print("       and z together (distance duality D_L = (1+z)^2 D_A for any metric readout with photon conservation) -- or the returned images are suppressed.")
     for D in (0.78e3, 1e4):
-        print(f"   boost-Doppler frequency rule (1+z = Dop) would force 1+z >= D/(2 pi ell) = {D/(2*PI*ell):6.1f} for an image at {D/1e3:5.2f} Mpc (ell = 16 kpc): excluded")
+        print(f"   boost-Doppler frequency rule (1+z = Dop) would force 1+z >= D/(2 pi ell) = {D/(2*PI*ell):6.1f} for an image at {D/1e3:5.2f} Mpc (ell = 16 kpc): excluded by measured redshifts at such distances (M31 at 0.78 Mpc is blueshifted; R174)")
     # measure on Y: lift (1/2) Pi* rho, pushforward = rho
     m = np.array([0.3, 0.4, 0.5, 0.7]); m /= np.linalg.norm(m)
     rho = lambda th, cw: np.exp(-((th-1.0)/0.4)**2)*(1+0.5*cw)          # density on S^4 depending on theta and on n.m = cos(omega)
@@ -6614,9 +6693,9 @@ def core_attachment_model():
     print("       secondaries more strongly attached.  P3's exceptional-section core is the limit a = 1; K_L is the Boltzmann program's target, not derived here.")
 
 # ====================================================================================================
-# v34.7 (13 October 2026): the follow-up report on v34.5 and the assessment of v34.6 -- P3 as a complete effective-source model
+# v34.7 (13 October 2026): the follow-up report on v34.5 and the assessment of v34.6 -- P3 as an effective-source model
 # (matter geometry, current action, conservation identity, exchange term, normalized observable); the continuous-lift history
-# classes; the doubled symplectic structure; the two grades; the wave-level returned image; an operational frequency model; the
+# classes; the doubled symplectic structure; the two grades; the wave-level returned image; a labelled frequency assignment; the
 # readout as a detector assignment and one invariant consequence.
 # ====================================================================================================
 def p3_effective_source_model():
@@ -6625,7 +6704,7 @@ def p3_effective_source_model():
         print(f"   theta = {th}: vertical kinetic weight, round (w/L^2 = sin^3) vs P1 with lambda = sin^3 (lambda^-1 = sin^-3): ratio {np.sin(th)**-6:.4g}")
     check(abs(np.sin(0.3)**-6-1501.3) < 0.5 and abs(np.sin(0.1)**-6/1.01005e6-1) < 1e-3, "P3 metric/measure distinction: the substituted P1 differs from the round geometry by |sin|^-6")
     print("   [R] lambda_eff = ell |sin theta|^3 is the coarea WEIGHT of the round geometry, not a vertical LENGTH: H_round = dtheta^2 + sin^2 theta h, so w = sin^3,")
-    print("       L = 1 and the horizontal inverse metric carries sin^-2.  The regular action is S_reg = int sqrt(-g) int w [-(1/2) sin^-2 g^ij dPsi dPsi - (1/2)(dth Psi)^2 - V] dtheta.")
+    print("       L = 1 and the horizontal inverse metric carries sin^-2.  The regular action is S_reg = int sqrt(-g) int w [-(1/2) sin^-2 g^ij dPsi dPsi - (1/2)(dth Psi)^2 - V] dtheta (i, j spatial: the time part is unwarped, v34.8-1).")
     def metric(x, y):
         return np.array([[1.0+0.3*np.sin(x)*np.cos(0.7*y), 0.15*np.sin(x+0.5*y)], [0.15*np.sin(x+0.5*y), 1.2+0.2*np.cos(1.3*x+y)]])
     Psi = lambda x, y, th: 0.8*np.sin(x)*np.cos(0.6*y)+0.5*np.cos(th)*np.exp(-0.2*x*x)+0.3*np.sin(2*th)*np.sin(y)+0.2*x*y
@@ -6677,7 +6756,8 @@ def p3_effective_source_model():
     print("       base current J_C (separately conserved: the budget identity compares equilibria in prescribed charge sectors, it is not a transfer process);")
     print("       mass allocation M_C + M_P,reg = M_P with the core's middle-space profile = the primary restricted to theta < theta_C, used both in the alignment")
     print("       potential and in the reduced source; quotient = gradient flow, EXTERNALLY prescribed.  Exchange term: for a moving prescribed quotient the image of")
-    print("       fixed matter drifts, X_0 = -div_b(rho_g w_pi) with w_pi the image velocity; zero in the static weak-secondary problem; a quotient variable must cancel it.")
+    print("       fixed matter drifts, X_0 = -div_b(rho_g w_pi) -- the continuity defect of this kinematic bookkeeping (the image moves without momentum")
+    print("       density), not a component of the exchange four-vector -pi_* E_pi; a static quotient can exchange momentum (v34.8-2).")
 
 def p3_accuracy_and_observable():
     print("\n== v34.7-2. P3 accuracy (parameter-dependent) and a normalised weak-secondary observable (rigid-closure lapse force) (R142, R143) ==")
@@ -6808,7 +6888,7 @@ def wave_level_returned_image():
           f" exactly 2pi -> {out[3][0]} with a conjugate endpoint (nullity 2); 2pi+0.01 -> {out[4][0]}")
 
 def frequency_operational_model(f=0.3):
-    print("\n== v34.7-6. the frequency test made operational: the labelled countermodel and a label-retained conditioned lapse (R145) ==")
+    print("\n== v34.7-6. the frequency test: the labelled countermodel and a label-retained transport assignment (R145; with common clocks it holds for wavelengths, not clock-timed periods, v34.8-4) ==")
     r = np.exp(-f)
     fA = {('A', 'B'): r, ('B', 'A'): 1/r}; fB = {('B', 'A'): r, ('A', 'B'): 1/r}
     fresh_AB, fresh_BA, echo = fA[('A', 'B')], fB[('B', 'A')], fA[('A', 'B')]*fA[('B', 'A')]
@@ -6820,15 +6900,17 @@ def frequency_operational_model(f=0.3):
     z_fresh_AB = NA['B']/NA['A']; z_fresh_BA = NB['A']/NB['B']; z_echo = (NA['B']/NA['A'])*(NA['A']/NA['B']); z_renew = (NA['B']/NA['A'])*(NB['A']/NB['B'])
     check(abs(z_fresh_AB-np.exp(f)) < 1e-15 and abs(z_fresh_BA-np.exp(f)) < 1e-15 and abs(z_echo-1) < 1e-15 and abs(z_renew-np.exp(2*f)) < 1e-12,
           "label-retained conditioned lapse: 1+z = N_c(rec)/N_c(emit); passive echo unshifted; absorb-and-re-emit cycle reddened twice")
-    print(f"   label-retained conditioned lapse N_c(x) = exp F(d(c, x)), 1 + z = dtau_rec/dtau_emit = N_c(rec)/N_c(emit), c = the retained label:")
+    print(f"   label-retained transport ASSIGNMENT N_c(x) = exp F(d(c, x)), assigned 1 + z = N_c(rec)/N_c(emit), c = the retained label:")
     print(f"     fresh A->B {z_fresh_AB:.4f}; fresh B->A {z_fresh_BA:.4f}; passive echo (label A kept) {z_echo:.4f}; absorbed and re-emitted at B (label renewed) {z_renew:.4f}")
     H = 0.07; dd = np.array([1e-3, 1e-2, 1e-1])
     print(f"     conical F = H d: z/d -> {(np.exp(H*dd)-1)/dd} (a linear law, slope H); a smooth ISOTROPIC lapse has N'(0) = 0 and z = O(d^2)")
-    print("   [D/S] changed structure: one stationary Killing time is replaced by label-conditioned times; local proper times stay common; per-label Killing energy is")
-    print("       conserved, label-renewing cycles lose energy (as in expansion); within each conditioned metric distance duality, Tolman's (1+z)^-4 and the (1+z)")
-    print("       time dilation hold automatically.  The lapse is EMITTER-centred, so rays leave the source radially and D_A = D_S/(1+z) by reciprocity: for the")
-    print("       conical F, D_A = d/(1+z) and D_L = (1+z) d -- the coasting curve, q0 = 0 (ray-traced in v34.7-10).  Open: which processes keep the label")
-    print("       (coherent elastic scattering?) and which renew it, and a field equation that carries labels.")
+    print("   [D/S] with common clocks every clock-timed ratio is N_m(rec)/N_m(emit) and the assignment returns as a WAVELENGTH ratio (v34.8-4); per-label energy is")
+    print("       conserved; the energy balance of label renewal is unspecified (an expansion analogy is not an energy law); within the stipulated")
+    print("       metric-and-standard construction distance duality, Tolman's (1+z)^-4 and the (1+z)")
+    print("       time dilation hold (common clocks with the same optics give D_L = (1+z_t)(1+z_L) D_A, v34.8-4).  The lapse is EMITTER-centred, so rays leave the")
+    print("       source radially and D_A = D_S/(1+z) by reciprocity: for the")
+    print("       conical F, D_A = d/(1+z) and D_L = (1+z) d -- the coasting curve, q0 = 0 (ray-traced in v34.7-10; with common clocks D_L = d, v34.8-4).  Open: label light's own speed")
+    print("       off matter's light cone, the missing time dilation, label-following resonances and their energy; which processes keep the label.")
 
 def two_grades_and_counts():
     print("\n== v34.7-7. two grades (return near-miss vs image opposition) on the lensed leaf; the readout's invariant consequence for image counts (R150, R152) ==")
@@ -6848,7 +6930,7 @@ def two_grades_and_counts():
     slope = np.diff(np.log(frac))/np.diff(np.log(D))
     check(np.all(np.abs(slope[1:]+3) < 0.01), "null readout: remote-image counts beyond D fall as D^-3 for a locally smooth source density")
     print(f"   null readout, round leaf: an image at apparent distance D is the long-way image of a source at d = 16 ell^2/D: {', '.join(f'{4096/x*1e3:.0f} pc' for x in (1e4, 1e5, 1e6))}")
-    print(f"     at D = 10 Mpc, 100 Mpc, 1 Gpc (ell = 16 kpc); counts beyond D: N(>D) ~ D^{slope[-1]:.3f} -- they fall with D, where observed galaxy counts rise.")
+    print(f"     at D = 10 Mpc, 100 Mpc, 1 Gpc (ell = 16 kpc); counts beyond D: N(>D) ~ D^{slope[-1]:.3f} -- N(<D) saturates and the shell counts fall as D^-4: compare like with like (v34.8-5).")
     print("   [T] the new readout is a detector assignment (no metric, no rerouting): Option A's orbit, lensing and epicyclic numbers do not carry over to it.")
 
 def cli_exit_note():
@@ -6902,12 +6984,13 @@ def optical_conformal_silence():
         s = r/ell; u = eps*s*a_*np.sin(s/2)/(2*(1+a_*np.cos(s/2))); return np.sqrt(u/(1+u))
     print("   if stars felt W_alpha(s) = (1+a)/(1+a cos(s/2)) (a = 0.5, ell = 16 kpc) as a metric factor:", ", ".join(f"v({r:g} kpc) = {vc(r)*2.998e5:,.0f} km/s" for r in (5, 10, 20)))
     u10 = 0.625*a_*np.sin(0.3125)/(2*(1+a_*np.cos(0.3125))); eps_max = 0.01*(200/2.998e5)**2/u10
-    print(f"     a coupling W^eps adds eps x {u10:.4f} c^2 to v^2 at 10 kpc; keeping it under 1% of (200 km/s)^2 needs eps < {eps_max:.1e}")
-    check(vc(10)*2.998e5 > 5e4 and 1.0e-7 < eps_max < 2.0e-7, "a matter-felt index of Option A size destroys rotation curves: matter must be frozen to ~1e-7 of the optical index")
+    print(f"     a coupling W^eps adds eps x {u10:.4f} c^2 to v^2 at 10 kpc; keeping it under 1% of (200 km/s)^2 needs eps < {eps_max:.1e} (a design constraint of this benchmark; R175)")
+    check(vc(10)*2.998e5 > 5e4 and 1.0e-7 < eps_max < 2.0e-7, "a matter-felt index of Option A size destroys rotation curves: in this benchmark matter must be frozen to ~1e-7 of the optical index")
     print("   [D] dilemma: a CONFORMAL index on the light alone is unobservable; an index felt by matter is a force ~ c^2 grad ln W.  An index can be observable")
-    print("       and harmless only (i) as a NON-conformal, label-conditioned optical metric (the emitter-centred lapse of v34.7-6), or (ii) as a READOUT of the")
-    print("       source's standards (rods and clocks), which changes measured quantities only if the emitter's standards carry the label at emission -- acausal for")
-    print("       an index set by the observer or by the pair.  The physical carrier of a readout is open.  Matter is protected by the postulate that its standards")
+    print("       and harmless only (i) as a NON-conformal, label-conditioned optical metric -- with common clocks it changes delays, directions, D_A and")
+    print("       wavelengths but no clock-timed frequency (v34.8-4) -- or (ii) as a READOUT of the source's standards (rods and clocks), which changes measured quantities only if the emitter's")
+    print("       standards carry the label at emission; a physical influence of the observer or the pair on the emitter would be acausal, a receiver-conditioned")
+    print("       interpretation is not by itself one.  The physical carrier of a readout is open.  Matter is protected by the postulate that its standards")
     print("       are not Weyl-transported; the area law alone protects only small loops (4e-42 at 1 m, but (1 kpc/ell)^2 = 4e-3 for histories enclosing 1 kpc^2).")
 
 def conformal_readout_kinematics():
@@ -6950,12 +7033,13 @@ def conformal_readout_kinematics():
     print(f"     ray-traced at z = 1 (H = 1): emitter-centred lapse D_A = {DA_emi:.6f} vs d/(1+z) = {dz/2:.6f}; observer-centred lapse D_A = {DA_obs:.6f} vs d = {dz:.6f}")
     print(f"     q0: observer p = 1 {qs[('obs', 1.0)]:+.3f}, emitter p = 0 {qs[('emi', 0.0)]:+.3f} (coasting); observer p = 0 {qs[('obs', 0.0)]:+.3f}, emitter p = 1 {qs[('emi', 1.0)]:+.3f}; flat LCDM {ql:+.3f}")
     rows = [(z, dmu(lambda zz: DL_emi(zz, 0.0), z), dmu(lambda zz: DL_obs(zz, 0.0), z), dmu(lambda zz: DL_emi(zz, 0.275), z)) for z in (0.5, 1.0, 2.0)]
-    for z, d1, d0, dm in rows: print(f"     z = {z:.1f}: distance modulus vs flat LCDM (same H0): q0 = 0 curve {d1:+.3f} mag; q0 = -2 curve {d0:+.3f} mag; fitted p (q0 = -0.55) {dm:+.3f} mag")
+    for z, d1, d0, dm in rows: print(f"     z = {z:.1f}: distance modulus vs flat LCDM (same H0): q0 = 0 curve {d1:+.3f} mag; q0 = -2 curve {d0:+.3f} mag; second-order matched p (q0 = -0.55) {dm:+.3f} mag")
     check(abs(qs[('obs', 1.0)]) < 1e-3 and abs(qs[('emi', 0.0)]) < 1e-3 and abs(qs[('obs', 0.0)]+2) < 1e-3 and abs(qs[('emi', 1.0)]+2) < 1e-3
           and abs(rows[1][1]+0.232) < 0.002 and abs(rows[1][2]-1.273) < 0.002 and abs(DA_emi/(dz/2)-1) < 1e-4 and abs(DA_obs/dz-1) < 1e-6,
           "conical index: v34.7's emitter-centred lapse and the observer-centred conformal readout lie on the coasting curve (q0 = 0); the other two have q0 = -2")
     print("   [T/V] the label-retained lapse of v34.7-6 (emitter-centred) lies on the coasting curve: 0.23 mag bright at z = 1, which SN Ia analyses disfavour")
-    print("         (with debated significance); the q0 = -2 cases are excluded by > 1 mag at z = 1; a fitted intermediate p still misses by +0.18 mag at z = 1.")
+    print("         (with debated significance); the q0 = -2 cases miss a fixed flat-LCDM benchmark by > 1 mag at z = 1, a second-order matched p by +0.18 mag:")
+    print("         benchmark discrepancies, not likelihood fits; q0 here is an effective cosmographic coefficient.")
     print("         (Were light kept on g_c with the source's standards rescaled -- clocks by W, rods by W^p -- D_L = (1+z) d for every p, the coasting curve, and")
     print("         D_L/D_A = (1+z)^(1+p): duality fails unless p = 1.  On the radius-ell leaf d would become ell sin(d/ell).)")
 
@@ -6975,7 +7059,7 @@ def weyl_pair_holonomy():
         g2 = lambda u, b=b: ((u, -0.7*b*np.sin(PI*u)), (1.0, -0.7*PI*b*np.cos(PI*u)))
         res.append((b, line(g1)-line(g2), -B*1.7*b*2/PI))
     for b, h, ex in res: print(f"   plane, separation b = {b}: ln W = int_1 phi - int_2 phi = {h:+.10f}; -B x enclosed area = {ex:+.10f}")
-    check(all(abs(h-ex) < 1e-10 for _, h, ex in res), "the pair index is gauge invariant and equals the enclosed Weyl flux: it vanishes as the histories join (area law)")
+    check(all(abs(h-ex) < 1e-10 for _, h, ex in res), "the pair index is gauge invariant and equals the enclosed Weyl flux: it vanishes as the enclosed surface shrinks (area law)")
     comp = lambda g, h: (g[0]+g[1]*h[0], g[1]*h[1])                                  # affine maps theta -> e theta + 2 pi k, stored (k, e)
     f = lambda g, c=0.37: c*g[0]
     G = [(k, e) for k in range(-2, 3) for e in (1, -1)]
@@ -6989,7 +7073,7 @@ def weyl_pair_holonomy():
           "; ".join(f"{k}: {f(v)/0.37:+.0f}c" for k, v in classes.items()))
     print(f"     reciprocal on the two sheets: f(b a b) = {f(comp(comp(b_, a), b_))/0.37:+.0f}c = -f(a).  The flat index jumps at exact alignment (a skewed comparison loop is trivial),")
     print("     so an index that softens continuously with skew needs a CURVED Weyl connection (the area law), not a flat one.")
-    check(crossed and not plain and f(comp(comp(b_, a), b_)) == -f(a), "only orientation-odd class indices exist on D_inf; they assign reciprocal factors on the two sheets")
+    check(crossed and not plain and f(comp(comp(b_, a), b_)) == -f(a), "only orientation-twisted additive flat class indices exist on D_inf; they assign reciprocal factors on the two sheets")
     J_SD = np.array([[0, -1, 0, 0], [1, 0, 0, 0], [0, 0, 0, -1], [0, 0, 1, 0]], float)     # i on C^2 (left Hopf)
     J_ASD = np.array([[0, -1, 0, 0], [1, 0, 0, 0], [0, 0, 0, 1], [0, 0, -1, 0]], float)    # opposite orientation (right Hopf)
     rng = np.random.default_rng(2770)
@@ -7002,7 +7086,7 @@ def weyl_pair_holonomy():
     print(f"   round leaf, Weyl form phi = k_W <J x, dx> (J self-dual): direct minus long-way index = {pair[0]:+.6f} k_W at s = 0.5, {pair[1]:+.6f} at 2.0, {pair[2]:+.6f} at 4.0;")
     print(f"     -2 pi cos(theta_H) = {-2*PI*lam:+.6f} (theta_H = angle between the direct image and the local Hopf fibre): a sky DIPOLE, independent of distance;")
     print(f"     the anti-self-dual J gives {arc(J_ASD, 0.5, 0)-arc(J_ASD, 0.5, 2*PI):+.6f} here: the dipole about the right-Hopf fibre J_R x instead; orientation")
-    print("     reversal exchanges the two structures (and, for a class-only index, inverts the factor).")
+    print("     reversal (an ambient reflection) exchanges the two structures; the deck map b is not one and keeps the Hopf form even (v34.8-3).")
     m = rng.normal(size=4); m -= (m@p)*p+(m@v)*v; m /= np.linalg.norm(m)
     def small_loop(eps):
         g1 = lambda t: np.cos(eps*t)*p+np.sin(eps*t)*v
@@ -7067,8 +7151,424 @@ def duality_and_freezing():
     print(f"   the softened factor freezes smoothly: (W_a(s)-1)/s^2 -> a/(8(1+a)) (ratios {co[0]:.6f}, {co[1]:.6f} at s = 1e-3), so any redshift built")
     print("     from it is O(s^2).  More generally a smooth index gives at first order phi_p(v) with phi_p(-v) = -phi_p(v): a dipole, never an isotropic")
     print("     linear law; an isotropic linear law needs the conical index of v34.7-6/10.  Ricci curvature focuses a ray bundle directly; Weyl curvature")
-    print("     generates shear, which distorts images and focuses only at second order (Sachs equations); a conformal factor leaves the Weyl tensor unchanged.")
+    print("     generates shear, which distorts images and focuses only at second order about a shear-free bundle (Sachs equations); a conformal factor leaves the mixed-index C^a_bcd unchanged.")
     check(all(abs(c-1) < 1e-5 for c in co), "the softened factor freezes quadratically: W_a(s) = 1 + a s^2/(8(1+a)) + O(s^4)")
+
+# ---------------------------------------------------------------- v34.8, block B: the quotient-dependent action and its Ward identity
+def lorentzian_extension_check(th=0.3):
+    print("\n== v34.8-1. the Lorentzian extension of the round spatial geometry: which directions are warped (R161) ==")
+    a = np.sin(th)
+    H4 = np.diag([-1.0, 1, 1, 1])*a*a; H3 = np.diag([-1.0, a*a, a*a, a*a])
+    m4, m3 = np.sqrt(abs(np.linalg.det(H4))), np.sqrt(abs(np.linalg.det(H3)))
+    print(f"   theta = {th}: warping all four base directions gives measure a^4 = {m4:.8f} and inverse time coefficient {np.linalg.inv(H4)[0, 0]:.5f};")
+    print(f"     warping the three spatial directions gives measure a^3 = {m3:.8f} and inverse time coefficient {np.linalg.inv(H3)[0, 0]:.5f}.")
+    print("   [R/D] v34.7's display (sqrt(-g) with K = sin^-2 on every base direction) mixed the two.  Adopted: the SPATIALLY warped extension")
+    print("       H = -N^2 dt^2 + dtheta^2 + sin^2(theta) h_ab dx^a dx^b with a preferred static frame u = N^-1 d_t (the benchmark's domain):")
+    print("       S_reg = int dt d^3x sqrt(h) N int dtheta sin^3(theta) [ (d_t Psi)^2/(2N^2) - (1/2) sin^-2(theta) h^ab d_a Psi d_b Psi - (1/2)(d_theta Psi)^2 - V ].")
+    print("       A covariant version needs u as a field with its own action; its Euler-Lagrange terms then enter the Ward identity.")
+    check(abs(m4-a**4) < 1e-14 and abs(m3-a**3) < 1e-14 and abs(np.linalg.inv(H4)[0, 0]+1/a**2) < 1e-10 and abs(np.linalg.inv(H3)[0, 0]+1) < 1e-14
+          and abs(a**4-0.00762691) < 5e-9 and abs(a**3-0.02580843) < 5e-9,
+          "round Lorentzian extension: four-direction warp (a^4, time coefficient -a^-2) differs from the three-direction warp (a^3, time coefficient -1)")
+
+def _torus_control(nth, ny):
+    """the torus control of v34.8-2: fibre circle theta (warp sigma), base circle x (lapse N, metric gamma); spectral derivatives on an nth x ny
+    adapted grid; the winding field Psi0 on-shell for the undeformed quotient; the deformed quotients; the reduced static stress and action."""
+    C = {}
+    th = 2*PI*np.arange(nth)/nth; xs = 2*PI*np.arange(ny)/ny
+    sg = lambda t: 1+0.3*np.cos(t)
+    N = lambda x: 1+0.15*np.cos(x); Nx = lambda x: -0.15*np.sin(x)
+    gm = lambda x: 1+0.25*np.sin(x+0.3); gmx = lambda x: 0.25*np.cos(x+0.3)
+    kth = np.fft.fftfreq(nth, 1/nth); kx = np.fft.fftfreq(ny, 1/ny)
+    dth = lambda F: np.real(np.fft.ifft(1j*kth[:, None]*np.fft.fft(F, axis=0), axis=0))
+    dx_ = lambda F: np.real(np.fft.ifft(1j*kx[None, :]*np.fft.fft(F, axis=1), axis=1))
+    dx1 = lambda f: np.real(np.fft.ifft(1j*kx*np.fft.fft(f)))
+    M_ = 1024; yy = 2*PI*np.arange(M_)/M_; ck = np.fft.fft(np.sqrt(gm(yy))/N(yy))/M_; kk = np.fft.fftfreq(M_, 1/M_)
+    c0 = ck[0].real; sel = (np.abs(kk) > 0) & (np.abs(kk) <= 80)
+    def Fy(y):                                       # F(y) = int_0^y sqrt(gamma)/N, as a convergent Fourier series
+        y = np.asarray(y, float); ph = np.exp(1j*np.multiply.outer(y, kk[sel]))
+        return c0*y+np.real((ph-1)@(ck[sel]/(1j*kk[sel])))
+    Ftot = 2*PI*c0
+    Psi0 = lambda y: 2*PI*Fy(y)/Ftot                 # on-shell winding field of the undeformed geometry, F' = sqrt(gamma)/N
+    dPsi0 = lambda y: 2*PI*np.sqrt(gm(y))/N(y)/Ftot
+    BETA = {'tilt': (lambda t, y, bb: bb*(np.cos(t)*np.cos(y)+0.5*np.sin(t+2*y)),          # moves the fibres
+                     lambda t, y, bb: bb*(-np.sin(t)*np.cos(y)+0.5*np.cos(t+2*y)),
+                     lambda t, y, bb: bb*(-np.cos(t)*np.sin(y)+np.cos(t+2*y))),
+            'relabel': (lambda t, y, bb: bb*np.cos(y)+0*t,                                  # constant on fibres: a pure relabelling
+                        lambda t, y, bb: 0*t*y,
+                        lambda t, y, bb: -bb*np.sin(y)+0*t)}
+    TH, XX = np.meshgrid(th, xs, indexing='ij'); SG = sg(TH)
+    def ydx(bb, kind='tilt', xi=None, eps=0.0):    # solve pi(theta, y) = x on the adapted grid, pi = y + beta (+ eps xi(y + beta))
+        be, _, by = BETA[kind]; y = XX.copy()
+        for _ in range(80):
+            p = y+be(TH, y, bb); dp = 1+by(TH, y, bb)
+            if eps: f_, df_ = xi(p); p, dp = p+eps*f_, dp*(1+eps*df_)
+            y = y-(p-XX)/dp
+        return y
+    def stress(Pt):                                  # Pt = Psi-tilde(theta, x) - x (periodic part), adapted coordinates (class (i))
+        Pth = dth(Pt); Px = 1+dx_(Pt); G, Nb = gm(XX), N(XX)
+        dSdN = -0.5*np.sum(SG*np.sqrt(G)*(Pth**2+Px**2/(SG**2*G)), axis=0)*2*PI/nth
+        dSdg = 0.25*np.sum(Nb*SG*(-Pth**2/np.sqrt(G)+Px**2/(SG**2*G**1.5)), axis=0)*2*PI/nth
+        g1, N1 = gm(xs), N(xs)
+        T00 = dSdN/np.sqrt(g1); Txx = 2*np.sqrt(g1)/N1*dSdg
+        X = dx1(Txx)+Nx(xs)/N1*(Txx-T00)                                                # nabla_mu T^mu_x (static, mixed components)
+        E = dth(Nb*SG*np.sqrt(G)*Pth)+dx_(Nb/(SG*np.sqrt(G))*Px)
+        Xid = np.sum(E*Px, axis=0)*2*PI/nth/(N1*np.sqrt(g1))                           # (1/N sqrt gamma) int E_Psi d_x Psi
+        S = np.sum(N1*dSdN)*2*PI/ny                                                     # static action per unit time
+        return dict(X=X, Xid=Xid, Txx=Txx, T00=T00, dSdN=dSdN, dSdg=dSdg, S=S)
+    def X_class_ii(bb, kind='tilt'):                 # geometry fixed by the undeformed quotient; the source reduced along the deformed fibres
+        be, bt, by = BETA[kind]
+        y = ydx(bb, kind); py = 1+by(TH, y, bb); pt = bt(TH, y, bb)
+        Gy, Ny_ = gm(y), N(y); P1 = dPsi0(y)
+        eps0 = 0.5*SG*np.sqrt(Gy)*P1**2/(SG**2*Gy)
+        Tyy = 0.5*Ny_*SG*np.sqrt(Gy)*P1**2/(SG**4*Gy**2); Ttt = -0.5*Ny_*SG*np.sqrt(Gy)*P1**2/(SG**2*Gy)
+        dSdN = -np.sum(eps0/py, axis=0)*2*PI/nth
+        dSdg = 0.5*np.sum((Ttt*pt**2+Tyy*py**2)*SG**2/py, axis=0)*2*PI/nth
+        g1, N1 = gm(xs), N(xs)
+        T00 = dSdN/np.sqrt(g1); Txx = 2*np.sqrt(g1)/N1*dSdg
+        return dx1(Txx)+Nx(xs)/N1*(Txx-T00)
+    C.update(dict(xs=xs, XX=XX, N=N, Nx=Nx, gm=gm, gmx=gmx, dx1=dx1, Psi0=Psi0, ydx=ydx, stress=stress, X_class_ii=X_class_ii))
+    return C
+
+def quotient_ward_identity(b=0.1, nth=64, ny=128):
+    print("\n== v34.8-2. the quotient-dependent action and its Ward identity: a torus control with a deformed quotient (R162-R164) ==")
+    C = _torus_control(nth, ny); XX, xs, Psi0, ydx, stress = C['XX'], C['xs'], C['Psi0'], C['ydx'], C['stress']
+    N, Nx, gm, gmx = C['N'], C['Nx'], C['gm'], C['gmx']
+    sc = stress(Psi0(XX)-XX); Xc, Xci, Tref = sc['X'], sc['Xid'], sc['Txx']           # co-moving matter: Psi-tilde = Psi0(x)
+    yfz = ydx(b); sf = stress(Psi0(yfz)-XX); Xf, Xfi = sf['X'], sf['Xid']              # held matter: Psi = Psi0(y) fixed in M
+    Xs1 = stress(Psi0(ydx(b/5))-XX)['X']; Xs2 = stress(Psi0(ydx(b/10))-XX)['X']; linf = np.max(np.abs(Xs1))/np.max(np.abs(Xs2))
+    scale = np.max(np.abs(C['dx1'](Tref)))
+    print(f"   torus control: fibre circle theta (warp 1 + 0.3 cos theta), base circle x with N = 1 + 0.15 cos x, gamma = 1 + 0.25 sin(x + 0.3); matter: a")
+    print(f"     winding field on-shell for the undeformed quotient; quotient pi_b = y + b[cos theta cos y + 0.5 sin(theta + 2y)], b = {b}.")
+    print(f"   class (i) -- the matter geometry follows the quotient, H_b = -N(pi)^2 dt^2 + dtheta^2 + sigma^2 pi_b^* gamma: H_b is the undeformed geometry")
+    print(f"     pulled back by the diffeomorphism (theta, y) -> (theta, pi_b), so the quotient is a GAUGE of the middle space.")
+    print(f"     co-moving matter: exchange max|X| = {np.max(np.abs(Xc)):.1e} (scale of the stress divergence {scale:.3f}); Theorem-I residual {np.max(np.abs(Xc-Xci)):.1e}")
+    print(f"     held matter (fixed at its place in M): max|X| = {np.max(np.abs(Xf)):.4f} (at b/5 and b/10 the ratio is {linf:.3f}: linear); X = (1/N sqrt(gamma)) int E_Psi d_x Psi")
+    print(f"     (Theorem I in adapted coordinates) holds to {np.max(np.abs(Xf-Xfi)):.1e}")
+    # the Ward identity itself: vary the QUOTIENT by a base vector field xi (pi -> pi + eps xi(pi)) at fixed matter and fixed metric, and compare
+    # dS/d(pi) with the stress divergence (int sqrt(-g) xi nabla T = -dS/d(pi)) and with the metric variation -L_xi g (their sum must vanish)
+    eps = 1e-4; rows = []
+    for k in range(1, 7):
+        ph = 0.4*k
+        xi = lambda p, k=k, ph=ph: (np.sin(k*p+ph), k*np.cos(k*p+ph))
+        xg = np.sin(k*xs+ph); xgp = k*np.cos(k*xs+ph)
+        Sp = stress(Psi0(ydx(b, xi=xi, eps=eps))-XX)['S']; Sm = stress(Psi0(ydx(b, xi=xi, eps=-eps))-XX)['S']
+        A = (Sp-Sm)/(2*eps)                                                              # delta_pi S per unit eps
+        divT = np.sum(N(xs)*np.sqrt(gm(xs))*xg*Xf)*2*PI/ny                                # int sqrt(-g) xi nabla_mu T^mu_x
+        dg = np.sum(sf['dSdN']*(-xg*Nx(xs))+sf['dSdg']*(-(xg*gmx(xs)+2*gm(xs)*xgp)))*2*PI/ny   # delta_g S under -L_xi g
+        Ac = (stress(Psi0(ydx(0.0, xi=xi, eps=eps))-XX)['S']-stress(Psi0(ydx(0.0, xi=xi, eps=-eps))-XX)['S'])/(2*eps)   # co-moving matter, Psi = Psi0 o pi_b held
+        rows.append((k, A, divT, dg, Ac))
+    wmax = max(max(abs(A+dT), abs(A+dg)) for _, A, dT, dg, _ in rows); amax = max(abs(A) for _, A, _, _, _ in rows)
+    cmax = max(abs(Ac) for *_, Ac in rows)
+    print(f"   Ward identity, tested directly (held matter, b = {b}; xi = sin(k x + 0.4 k), k = 1..6): dS/d(pi) = {', '.join(f'{A:+.5f}' for _, A, _, _, _ in rows)};")
+    print(f"     |dS/d(pi) + int sqrt(-g) xi nabla T| and |dS/d(pi) + delta_g S(-L_xi g)| <= {wmax:.1e} (finite-difference step {eps}): the quotient force is")
+    print(f"     the stress divergence, with the sign of the identity.  Co-moving matter (Psi = Psi0 o pi_b held fixed) is on-shell, so its first variation")
+    print(f"     vanishes, E_pi = -E_Psi d Psi = 0: computed max|dS/d(pi)| = {cmax:.1e} (the second variation does not vanish).")
+    # class (ii): geometry fixed by the undeformed quotient, the source reduced along the deformed fibres (the kinematic shift, as a tensor pushforward)
+    X0, Xb, Xh = C['X_class_ii'](0.0), C['X_class_ii'](b), C['X_class_ii'](b/2)
+    Xr = C['X_class_ii'](b, 'relabel')
+    lin = np.max(np.abs(Xb))/np.max(np.abs(Xh))
+    print(f"   class (ii) -- matter geometry fixed by the undeformed quotient, source reduced along the deformed fibres (the v34.x kinematic shift, extended")
+    print(f"     from the scalar density to the stress tensor): on-shell matter, b = 0: max|X| = {np.max(np.abs(X0)):.1e};  b = {b}: {np.max(np.abs(Xb)):.4f};  b = {b/2}:")
+    print(f"     {np.max(np.abs(Xh)):.4f} (ratio {lin:.3f}: linear in b).  A pure RELABELLING, beta = {b} cos y (no fibre moves), gives max|X| = {np.max(np.abs(Xr)):.4f}:")
+    print("     the rule displaces the source against an untransformed metric -- it is non-covariant as well as non-conservative.")
+    # convergence of the held-matter exchange (spectral)
+    conv = []
+    for (a1, a2) in ((32, 64), (128, 256)):
+        Cc = _torus_control(a1, a2); conv.append(np.max(np.abs(Cc['stress'](Cc['Psi0'](Cc['ydx'](b))-Cc['XX'])['X'])))
+    print(f"   convergence of the held-matter exchange: max|X| = {conv[0]:.8f} (32 x 64), {np.max(np.abs(Xf)):.8f} (64 x 128), {conv[1]:.8f} (128 x 256)")
+    check(np.max(np.abs(Xc)) < 1e-9*scale and np.max(np.abs(Xc-Xci)) < 1e-9 and np.max(np.abs(Xf-Xfi)) < 1e-8*max(1, np.max(np.abs(Xf)))
+          and np.max(np.abs(Xf)) > 1e-3*scale and abs(linf-2) < 0.15 and wmax < 1e-6*max(1.0, amax) and amax > 1e-3 and cmax < 1e-6
+          and np.max(np.abs(X0)) < 1e-9 and np.max(np.abs(Xb)) > 1e-3*scale and abs(lin-2) < 0.15 and np.max(np.abs(Xr)) > 1e-2
+          and abs(conv[1]-np.max(np.abs(Xf))) < 1e-6,
+          "quotient Ward identity tested directly; co-moving matter exchanges nothing; held matter exchanges its residual; the tensor pushforward fails")
+    print("   [T] Ward identity: S_M depends on the base metric only through the quotient's pullback, so base diffeomorphisms that preserve the static frame")
+    print("       (g -> psi_* g, pi -> psi o pi) leave it invariant and  sqrt(-g) nabla_mu T^mu_nu = -(pi_* E_pi)_nu  for static configurations and spatial nu")
+    print("       (every component in the fully warped extension), with E_pi = dS_M/d pi at fixed matter.  A static quotient can exert momentum exchange.")
+    print("       With G = 8 pi G T the Bianchi identity demands pi_* E_pi = 0 (compatibility), or a dynamical quotient whose own stress carries the exchange.")
+    print("   [T] class (i) (geometry follows the quotient): the quotient is a middle-space gauge, E_pi = -E_Psi d Psi, and the exchange is the equation residual")
+    print("       of matter that does NOT follow the quotient -- zero for free matter, nonzero for held matter.  The class (ii) tensor pushforward is")
+    print("       non-covariant and non-conservative even for on-shell matter; without an added stress it is incompatible with Einstein's equation.")
+
+# ---------------------------------------------------------------- v34.8, block E: which bundle carries the scale; deck parity; scope of freezing
+def scale_bundle_and_parity(kW=0.2):
+    print("\n== v34.8-3. which bundle carries a real scale: large gauge on the Hopf base, the global contact form on the leaf, deck parity, freezing scope (R165-R167) ==")
+    # (a) U(1) monopole connection on the Hopf base S^2 (total flux 2 pi): a latitude loop, its two spanning caps
+    th0 = 1.0
+    xg, wg = np.polynomial.legendre.leggauss(80)
+    def cap_flux(a, b_):                           # int F over theta in [a, b_], F = (1/2) sin(theta) dtheta dphi
+        t = 0.5*(b_-a)*(xg+1)+a; return 2*PI*0.5*(b_-a)*np.sum(wg*0.5*np.sin(t))
+    PhiN = cap_flux(0.0, th0); PhiS = -cap_flux(th0, PI)                    # the same boundary orientation
+    u1_same = abs(np.exp(1j*PhiN)-np.exp(1j*PhiS)) < 1e-12
+    ratio = np.exp(kW*PhiN)/np.exp(kW*PhiS)
+    print(f"   Hopf base S^2, latitude loop at theta = {th0}: northern-cap flux {PhiN:+.6f}, southern-cap flux {PhiS:+.6f} (they differ by 2 pi:")
+    print(f"     a large gauge transformation, A_N - A_S = d phi).  U(1) holonomy e^(i flux) agrees ({u1_same}); a 'scale' e^(kW flux) with kW = {kW}")
+    print(f"     changes by a factor {ratio:.5f} = e^(2 pi kW): a compact phase has no continuous homomorphism to R_+, so it cannot BE a scale without a lift.")
+    # (b) on the leaf S^3 the contact form alpha_J = <J x, dx> is a global 1-form: every spanning surface gives the same flux of d alpha = 2 omega_J
+    J = np.array([[0, -1, 0, 0], [1, 0, 0, 0], [0, 0, 0, -1], [0, 0, 1, 0]], float)
+    rng = np.random.default_rng(31)
+    Q, _ = np.linalg.qr(rng.normal(size=(4, 4))); e1, e2, e3, e4 = Q.T
+    loop = 2*PI*((J@e1)@e2)
+    rg, rw = np.polynomial.legendre.leggauss(60); tg, tw = np.polynomial.legendre.leggauss(120)
+    def surf_flux(f):                              # hemisphere X = cos r (cos t e1 + sin t e2) + sin r f, r in [0, pi/2], boundary at r = 0
+        tot = 0.0
+        for r_, wr in zip(0.25*PI*(rg+1), 0.25*PI*rw):
+            for t_, wt in zip(PI*(tg+1), PI*tw):
+                Xr = -np.sin(r_)*(np.cos(t_)*e1+np.sin(t_)*e2)+np.cos(r_)*f
+                Xt = np.cos(r_)*(-np.sin(t_)*e1+np.cos(t_)*e2)
+                tot += wr*wt*2*((J@Xt)@Xr)
+        return tot
+    fl = [surf_flux(f) for f in (e3, e4, (e3+e4)/np.sqrt(2))]
+    print(f"   leaf S^3: the contact form is global, so spanning surfaces agree: fluxes {', '.join(f'{x:+.8f}' for x in fl)}; loop integral {loop:+.8f}")
+    # (c) deck parity of the Hopf form under b(n, theta) = (-n, -theta): the leaf part is the antipodal map (det(-I_4) = +1)
+    n = rng.normal(size=4); n /= np.linalg.norm(n); v = rng.normal(size=4); v -= (v@n)*n
+    even = (J@(-n))@(-v) - (J@n)@v
+    Rf = np.diag([-1.0, 1, 1, 1]); JR = Rf@J@Rf
+    om = lambda M: np.array([M[1, 0], M[2, 0], M[3, 0], M[2, 1], M[3, 1], M[3, 2]])      # omega_ab = <M e_a, e_b>, a<b
+    sd = lambda w: np.allclose([w[0], w[1], w[2]], [w[5], -w[4], w[3]])                    # *-self-duality in this basis
+    print(f"   deck parity: alpha_J(-n)(-v) - alpha_J(n)(v) = {even:.1e} -> the Hopf form is deck-EVEN; the antipodal map is orientation-preserving on R^4,")
+    print(f"     so it keeps J self-dual ({sd(om(-np.eye(4)@J@-np.eye(4)))}); only an ambient reflection makes it anti-self-dual ({not sd(om(JR))}).  The orientation-twisted")
+    print("     flat index (v34.7-11) and the even Hopf form are distinct alternatives, not one mechanism.")
+    # (d) scope of freezing: the direct/long-way pair never joins; a small contractible pair freezes by area
+    p = e1; vv = e2; lam = (J@p)@vv
+    def arc(t0, t1, k=64):
+        T, W = np.polynomial.legendre.leggauss(k); T = 0.5*(t1-t0)*(T+1)+t0
+        return 0.5*(t1-t0)*sum(w*((J@(np.cos(t)*p+np.sin(t)*vv))@(-np.sin(t)*p+np.cos(t)*vv)) for t, w in zip(T, W))
+    pair = [arc(s, 0)-arc(s, 2*PI) for s in (1e-3, 0.1, 1.0)]
+    m = rng.normal(size=4); m -= (m@p)*p+(m@vv)*vv; m /= np.linalg.norm(m)
+    ug, uw = np.polynomial.legendre.leggauss(200); ug = 0.5*(ug+1); uw = 0.5*uw
+    def hol(L, bb):
+        g1 = lambda t: np.cos(L*t)*p+np.sin(L*t)*vv
+        def g2(t): y = g1(t)+bb*np.sin(PI*t)*m; return y/np.linalg.norm(y)
+        d = lambda c, t, h=1e-6: (c(t+h)-c(t-h))/(2*h)
+        return sum(w*((J@g1(t))@d(g1, t)) for t, w in zip(ug, uw))-sum(w*((J@g2(t))@d(g2, t)) for t, w in zip(ug, uw))
+    lin = [hol(0.5, bb) for bb in (0.02, 0.01, 0.005)]; quad_ = [hol(e, 0.6*e) for e in (0.08, 0.04, 0.02)]
+    sl_lin = np.log(abs(lin[0]/lin[2]))/np.log(4); sl_quad = np.log(abs(quad_[0]/quad_[2]))/np.log(4)
+    print(f"   direct minus long-way index per unit kW at s = 0.001, 0.1, 1: {', '.join(f'{x:+.6f}' for x in pair)} (= -2 pi cos theta_H): that pair NEVER")
+    print(f"     freezes, its loop is a full great circle.  Freezing is GUARANTEED for a shrinking surface (a finite loop of zero flux also has zero index):")
+    print(f"     a small contractible pair freezes with its enclosed area -- at fixed endpoint separation the index")
+    print(f"     scales as (transverse separation)^{sl_lin:.3f}; when both dimensions shrink together, as size^{sl_quad:.3f}.")
+    # (e) actual image pairs of a weak point lens (thin lens, flat approximation): the pair keeps a finite loop and fades
+    Dl, Ds, bet = 0.5, 1.0, 0.05
+    def lens_pair(tE):
+        tp, tm = 0.5*(bet+np.sqrt(bet**2+4*tE**2)), 0.5*(bet-np.sqrt(bet**2+4*tE**2))
+        P = np.array([[0, 0], [Dl, Dl*tp], [Ds, Ds*bet], [Dl, Dl*tm]])
+        area = 0.5*abs(np.dot(P[:, 0], np.roll(P[:, 1], -1))-np.dot(P[:, 1], np.roll(P[:, 0], -1)))
+        u = bet/tE; mum = (u*u+2)/(2*u*np.sqrt(u*u+4))-0.5
+        return area, mum
+    lp = [lens_pair(tE) for tE in (0.02, 0.005, 0.00125)]
+    print(f"   actual image pairs of a weak point lens (thin lens, D_l = {Dl}, D_s = {Ds}, source offset {bet}): enclosed area {', '.join(f'{a:.6f}' for a, _ in lp)}")
+    print(f"     at Einstein angles 0.02, 0.005, 0.00125 -> 0.5 D_l D_s beta = {0.5*Dl*Ds*bet:.6f} (as tE^2), while the secondary's magnification falls as (tE/beta)^4:")
+    print(f"     {', '.join(f'{m:.2e}' for _, m in lp)} --")
+    print("     a weakening lens does not freeze its pair; the pair FADES.  Images merge only at caustics (pairwise at a fold, three at a cusp); a merging")
+    print("     pair with fixed endpoints has the linear scaling above (not computed for a fold here; the point lens has a degenerate point caustic).")
+    # (f) the same connection read by matter's standards: Weyl transport of a standard around a closed orbit (the second-clock effect)
+    x0 = np.array([1.0, 0, 0, 0]); u1 = np.array([0, 0, 1.0, 0]); u2 = J@u1          # u1, u2 = J u1 span a complex line orthogonal to x0 and J x0
+    def orbit_hol(rho, w_=None, k=96):
+        w_ = u2 if w_ is None else w_
+        T, W = np.polynomial.legendre.leggauss(k); T = PI*(T+1); W = PI*W
+        return sum(wt*((J@(np.cos(rho)*x0+np.sin(rho)*(np.cos(t)*u1+np.sin(t)*w_)))@(np.sin(rho)*(-np.sin(t)*u1+np.cos(t)*w_))) for t, wt in zip(T, W))
+    ell_k, r_sun, AU, metre = 16.0, 8.0, 4.8481e-9, 3.2408e-20                     # kpc
+    h8 = kW*orbit_hol(r_sun/ell_k); h_fib = kW*orbit_hol(r_sun/ell_k, J@x0)
+    hAU = kW*2*PI*np.sin(AU/ell_k)**2; hm = kW*2*PI*np.sin(metre/ell_k)**2
+    print(f"   read by matter's standards instead, the Hopf connection (kW = {kW}, ell = 16 kpc) rescales a standard carried once around a circular orbit of")
+    print(f"     radius 8 kpc in a plane normal to the fibre by ln Omega = 2 pi kW sin^2(r/ell) = {h8:.4f} (exact {kW*2*PI*np.sin(0.5)**2:.4f}); in a plane containing")
+    print(f"     the fibre by {h_fib:.1e}; per Earth orbit {hAU:.1e}; around a 1 m loop {hm:.1e}.  A Weyl-transported star would drift by e^{h8:.2f} per galactic")
+    print("     revolution: the Hopf candidate is admissible only with matter's standards NOT Weyl-transported, so its dipole needs a non-matter (label) reader.")
+    check(u1_same and abs(ratio-np.exp(2*PI*kW)) < 1e-10 and abs(ratio-3.51359) < 1e-5 and max(abs(x-loop) for x in fl) < 1e-8
+          and abs(even) < 1e-14 and sd(om(-np.eye(4)@J@-np.eye(4))) and not sd(om(JR))
+          and max(abs(x+2*PI*lam) for x in pair) < 1e-10 and abs(sl_lin-1) < 0.02 and abs(sl_quad-2) < 0.05
+          and abs(lp[2][0]-0.5*Dl*Ds*bet) < 5e-5 and abs(lp[2][1]/(0.00125/bet)**4-1) < 0.01 and abs(h8-kW*2*PI*np.sin(0.5)**2) < 1e-12
+          and abs(h8-0.28884) < 1e-4 and abs(h_fib) < 1e-12,
+          "scale bundle: compact phase is not a scale; leaf contact form global; Hopf form deck-even; a shrinking area guarantees freezing; matter reading drifts")
+    print("   [T] a real conformal index needs a real (R_+) scale structure: either a separate scale connection -- on the leaf the contact form times a new")
+    print("       coupling kW is one, globally defined and unambiguous because H^2(S^3) = 0, and deck-even (b* alpha_J = +alpha_J) -- or a chosen lift of the")
+    print("       compact fibre (its universal cover R, with retained winding), which is deck-odd (b* phi = -phi).  The Kaluza-Klein fibre offset (v34.7-4),")
+    print("       defined mod 2 pi, does not by itself supply one.")
+
+# ---------------------------------------------------------------- v34.8, block D: one common-clock operational experiment
+def _wave_run(NL, Nc, xe, xd, dtau_e, mirror=None, npulse=3, T=3.2, nx=1601, w=0.012, tk=None):
+    """1+1D wave field of one label on the static optical metric -NL(x)^2 dt^2 + dx^2: phi_tt = NL (NL phi_x)_x + source.
+    Pulses are emitted at x = xe at the EMITTER'S proper-time interval dtau_e (common-time interval dtau_e/Nc(xe)), or at the common
+    times tk if given; the field is recorded at xd.  First-order absorbing (Mur) boundaries at both ends; optional mirror (phi = 0) at
+    x = mirror.  Returns the arrival times (common time) of the strong peaks of |phi| at xd, and the emission times."""
+    x = np.linspace(0.0, 1.0, nx); dx = x[1]-x[0]
+    Nl = NL(x); Nh = NL(0.5*(x[1:]+x[:-1]))
+    dt = 0.4*dx/Nl.max(); nt = int(T/dt)
+    sig = 2.5*dx; shape = np.exp(-0.5*((x-xe)/sig)**2); shape /= shape.sum()*dx
+    tk = 0.15+np.arange(npulse)*dtau_e/Nc(xe) if tk is None else np.asarray(tk, float)
+    p0 = np.zeros(nx); p1 = np.zeros(nx); rec = np.zeros(nt); idd = int(round(xd/dx))
+    kL = (Nl[0]*dt-dx)/(Nl[0]*dt+dx); kR = (Nl[-1]*dt-dx)/(Nl[-1]*dt+dx)
+    im = None if mirror is None else int(round(mirror/dx))
+    for n in range(nt):
+        t = n*dt
+        p2 = np.empty(nx)
+        src = np.sum(-2*(t-tk)/w**2*np.exp(-((t-tk)/w)**2))*shape[1:-1]
+        p2[1:-1] = 2*p1[1:-1]-p0[1:-1]+dt*dt*(Nl[1:-1]*(Nh[1:]*(p1[2:]-p1[1:-1])-Nh[:-1]*(p1[1:-1]-p1[:-2]))/dx**2+src)
+        p2[0] = p1[1]+kL*(p2[1]-p1[0]); p2[-1] = p1[-2]+kR*(p2[-2]-p1[-1])
+        if im is not None:
+            if mirror > xe: p2[im:] = 0.0
+            else: p2[:im+1] = 0.0
+        p0, p1 = p1, p2; rec[n] = p1[idd]
+    tt = np.arange(nt)*dt; rec = np.abs(rec)        # a mirror inverts the pulse
+    pk = [i for i in range(1, nt-1) if rec[i] > rec[i-1] and rec[i] >= rec[i+1] and rec[i] > 0.5*rec.max()]
+    arr = []
+    for i in pk:                                     # quadratic interpolation of each peak
+        a, b_, c = rec[i-1], rec[i], rec[i+1]; arr.append(tt[i]+0.5*dt*(a-c)/(a-2*b_+c))
+    return np.array(arr), tk
+
+def common_clock_experiment(H=0.5, dtau=0.4):
+    print("\n== v34.8-4. one common-clock operational experiment: pulses of two labels, one atomic standard per apparatus (R168, R169) ==")
+    xA, xB = 0.15, 0.85
+    NA = lambda x: np.exp(H*np.abs(x-xA)); NB = lambda x: np.exp(H*np.abs(x-xB))      # v34.7's conditioned lapses, used as the labels' OPTICS
+    flat = lambda x: np.ones_like(np.asarray(x, float)); grad = lambda x: 1.0+0.3*np.asarray(x, float)
+    rows = []
+    def ratio(NL, Nc, xe, xd, mirror=None, nx=1601):
+        arr, tk = _wave_run(NL, Nc, xe, xd, dtau, mirror, nx=nx)
+        arr = arr[:3] if mirror is None else arr[-3:]
+        return np.mean(np.diff(arr))*Nc(xd)/dtau, arr[0]-tk[0]
+    for name, Nc in (("flat common clocks", flat), ("common lapse 1 + 0.3 x", grad)):
+        fAB, dAB = ratio(NA, Nc, xA, xB); fBA, dBA = ratio(NB, Nc, xB, xA)
+        fecho, decho = ratio(NA, Nc, xA, xA, mirror=0.92)
+        fechoB, _ = ratio(NB, Nc, xB, xB, mirror=0.06)                   # B's own label-B echo (mirror beyond A), timed by B's one standard
+        fAB0, dAB0 = ratio(flat, Nc, xA, xB)
+        # absorption and re-emission: a transponder at B re-emits label B at the moments it receives label A (plus 0.05), back to A
+        arrB, tkA = _wave_run(NA, Nc, xA, xB, dtau); arrA, _ = _wave_run(NB, Nc, xB, xA, dtau, tk=arrB[:3]+0.05)
+        fren = np.mean(np.diff(arrA[:3]))*Nc(xA)/dtau
+        rows.append((name, fAB, fBA, fecho, dAB, dAB0, Nc(xB)/Nc(xA), fechoB, fren))
+        print(f"   {name}: received/emitted proper intervals  fresh A->B (label A) {fAB:.5f};  fresh B->A (label B) {fBA:.5f};  A's echo {fecho:.5f};  B's echo {fechoB:.5f};")
+        print(f"     renewal A->B->A through a transponder at B {fren:.5f};  prediction Nc(rec)/Nc(emit): {Nc(xB)/Nc(xA):.5f}, {Nc(xA)/Nc(xB):.5f}, 1, 1, 1;")
+        print(f"     label A's optics change the A->B delay ({dAB:.4f} vs {dAB0:.4f} with flat optics), not the interval")
+    (n1, a1, b1, e1, _, _, _, eB1, r1), (n2, a2, b2, e2, _, _, pr, eB2, r2) = rows
+    # local speed of label light in matter's units, from arrival times at x = 0.80 and 0.90 (flat clocks)
+    t80, _ = _wave_run(NA, flat, xA, 0.80, dtau); t90, _ = _wave_run(NA, flat, xA, 0.90, dtau)
+    m80, _ = _wave_run(flat, flat, xA, 0.80, dtau); m90, _ = _wave_run(flat, flat, xA, 0.90, dtau)
+    vA = 0.1/(t90[0]-t80[0]); vM = 0.1/(m90[0]-m80[0])
+    # resolution: the interval ratio and the delay (lapse 1 + 0.3 x)
+    conv = [ratio(NA, grad, xA, xB, nx=n_) for n_ in (801, 3201)]
+    print(f"   resolution (lapse 1 + 0.3 x, fresh A->B): interval ratio {conv[0][0]:.7f} (nx = 801), {a2:.7f} (1601), {conv[1][0]:.7f} (3201) -- the discrete scheme is")
+    print(f"     itself time-invariant, so the runs ILLUSTRATE the theorem below; the delay converges at first order: {conv[0][1]:.4f}, {rows[1][4]:.4f}, {conv[1][1]:.4f}.")
+    print(f"   label light leaves matter's light cone: label A crosses B at {vA:.4f} (local N_A/N_m = {NA(0.85):.4f}) in matter's units; light on matter's own")
+    print(f"     metric at {vM:.4f}.  The waves are non-dispersive, so phase and group speed agree.")
+    print("   [T] common-clock theorem: common stationary clocks + label-blind emission/detection + time-invariant linear propagation and mirrors")
+    print("       => every CLOCK-TIMED ratio (pulse intervals, light curves, frequencies counted on the standard) is 1 + z_t = Nc(rec)/Nc(emit), for every")
+    print("       label and route: fresh pairs reciprocal, passive echoes and period-matching (label-blind) transponder cycles unshifted.  v34.7's table,")
+    print("       as a ratio of proper periods")
+    print(f"       (fresh A->B and B->A both e^F -- 1.3499 at v34.7's F = 0.3; here e^(H d) = {np.exp(H*(xB-xA)):.4f}), is produced by no such carrier.")
+    f = H*(xB-xA)
+    lamAB = vA*a1                                    # wavelength ratio at B = (local speed) x (clock period ratio), flat clocks, receiver's label as reference
+    print(f"   [T] wavelengths: label c has local speed v_c = N_c^lab/N_m, so a wave of clock period P has wavelength v_c P.  Read against a local line in the")
+    print(f"       receiver's own label (v = 1 there), 1 + z_lambda = N_c^lab(rec)/N_c^lab(emit) when each label is normalised to N_m at its own centre --")
+    print(f"       EXACTLY v34.7's assignment: fresh A->B {lamAB:.4f} (speed x period, computed; e^f = {np.exp(f):.4f}), fresh B->A e^f, echoes 1.  The label")
+    print("       carrier realises v34.7's table as a ratio of WAVELENGTHS, not of clock-timed periods.  Its signature, and costs (flat clocks):")
+    print(f"       (i) no time dilation: spectroscopic redshift e^f against clock-timed pulse intervals, light curves and counted frequencies 1;")
+    print(f"       (ii) label light off matter's light cone (speed {vA:.3f} for label A at B): time-of-flight and aberration comparisons;")
+    print(f"       (iii) ordinary atoms resonate by frequency and see no shift; resonances that follow the label absorb photons whose common-time energy")
+    print(f"       exceeds the transition by e^f, an imbalance of 1 - e^(-f) = {1-np.exp(-f):.3f} that a label sector must take up.  With frequency-resonant")
+    print("       intervening absorbers every absorption line of a source would sit at its own emission-frame frequency, so no Lyman-alpha forest could form.")
+    print(f"       A transponder that matches the received period renews to e^f in wavelength; one that matches the received wavelength (a label-dependent")
+    print(f"       re-emission, outside the theorem) to e^(2f) = {np.exp(2*f):.4f} in wavelength and e^f in clock-timed period.")
+    check(max(abs(a1-1), abs(b1-1), abs(e1-1), abs(eB1-1), abs(r1-1)) < 2e-4 and abs(a2-pr) < 2e-4*pr and abs(b2-1/pr) < 2e-4
+          and max(abs(e2-1), abs(eB2-1), abs(r2-1)) < 3e-4 and abs(a2*b2-1) < 3e-4 and all(abs(c_[0]-pr) < 2e-4*pr for c_ in conv)
+          and abs(vA-NA(0.85)) < 2e-3 and abs(vM-1) < 2e-3,
+          "common clocks: clock-timed 1+z = Nc(rec)/Nc(emit) for every label, transponder included; label light moves at N_lab/N_m")
+    # bimetric distance duality: label optics with common clocks
+    from scipy.integrate import solve_ivp as _ivp
+    Hh, d = 1.0, np.log(2.0)
+    def DA_trace(n_of, g_of, delta=1e-4):
+        fz = lambda s_, Y: np.concatenate([Y[2:]/n_of(Y[:2]), g_of(Y[:2])])
+        ev = lambda s_, Y: Y[0]; ev.terminal = True; ev.direction = -1
+        x0 = np.array([d, 0.0]); S = _ivp(fz, (0, 10), np.concatenate([x0, n_of(x0)*np.array([-np.cos(delta), np.sin(delta)])]), events=ev, rtol=1e-12, atol=1e-14)
+        return S.y_events[0][0][1]/delta
+    rr = lambda x: np.hypot(x[0], x[1])
+    DA = DA_trace(lambda x: np.exp(-Hh*rr(x)), lambda x: -Hh*np.exp(-Hh*rr(x))*x/max(rr(x), 1e-300))
+    DA6 = DA_trace(lambda x: np.exp(-Hh*rr(x)), lambda x: -Hh*np.exp(-Hh*rr(x))*x/max(rr(x), 1e-300), delta=1e-6)
+    zL = np.exp(Hh*d)-1; zt = 0.0; DL = (1+zt)*(1+zL)*DA; DLan = d; eta_t = DLan/((1+zt)**2*DA); eta_l = DLan/((1+zL)**2*DA)
+    print(f"   distance duality with label optics and common clocks (emitter-centred label lapse e^(H r), flat clocks): z_t = {zt}, z_L = z_lambda = {zL:.3f};")
+    print(f"     D_A = {DA:.5f} (ray-traced at trace angle 1e-4; relative error {DA/(d/(1+zL))-1:.1e}, linear in the angle: {DA6/(d/(1+zL))-1:.1e} at 1e-6) = d/(1+z_L);")
+    print(f"     D_L = (1+z_t) r_S = d = {DLan:.5f} (rays leave the source radially, r_S = (1+z_L) D_A is the source-area")
+    print(f"     distance; the clock factor follows analytically).  eta with the clock redshift {eta_t:.4f} = (1+z_L)/(1+z_t); with the spectroscopic one {eta_l:.4f}.")
+    Ez = lambda z: np.sqrt(0.3*(1+z)**3+0.7)
+    dmu = {z: 5*np.log10(np.log(1+z)/((1+z)*quad(lambda u: 1/Ez(u), 0, z)[0])) for z in (0.5, 1.0, 2.0)}
+    print(f"   its Hubble diagram (conical emitter-centred label lapse, common clocks): D_L = d = ln(1+z)/H -- no time dilation, no dimming beyond geometry --")
+    print(f"     {dmu[0.5]:+.3f}, {dmu[1.0]:+.3f}, {dmu[2.0]:+.3f} mag against flat LCDM (Omega_m = 0.3, same H0) at z = 0.5, 1, 2: a static-universe curve (benchmark discrepancy).")
+    check(abs(DA/(d/(1+zL))-1) < 1e-4 and abs(DA6/(d/(1+zL))-1) < 1e-6 and abs(eta_t-(1+zL)) < 1e-3 and abs(eta_l-1/(1+zL)) < 1e-3 and abs(dmu[1.0]+1.737) < 2e-3,
+          "bimetric optics: clocks set z_t, label optics set D_A and z_lambda; D_L = (1+z_t)(1+z_L) D_A; the label carrier's Hubble curve is static")
+    print("   [T] with common clocks: D_L = (1+z_t)(1+z_L) D_A, so eta = (1+z_L)/(1+z_t) with the clock redshift and (1+z_t)/(1+z_L) with the wavelength one;")
+    print("       duality holds only if the label optics and the clocks give the same redshift.  The theorem's hypotheses matter: time-dependent label optics")
+    print("       or label-dependent emission couplings lie outside it and are untested.")
+
+# ---------------------------------------------------------------- v34.8, block F: the optical record and the remaining local corrections
+def _D_soft_unwrapped(s, a, ell=1.0):
+    """D_alpha(s) = ell int_0^s (1+a)/(1+a cos(u/2)) du for every s >= 0 and 0 <= a < 1: the continuous (unwrapped) branch
+    4 ell Dc [k pi + atan2(sin r, Dc cos r)], u = s/4 = k pi + r; v34.6's _D_soft returned the endpoint value for s >= 2 pi."""
+    Dc = np.sqrt((1+a)/(1-a)); u = np.asarray(s, float)/4; k = np.floor(u/PI); r = u-k*PI
+    return 4*ell*Dc*(k*PI+np.arctan2(np.sin(r), Dc*np.cos(r)))
+
+def optical_record_checks():
+    print("\n== v34.8-5. the optical record: what an index, a caustic phase and a readout do and do not fix; local corrections (R170-R176) ==")
+    # (a) Kaluza-Klein projection with a variable fibre radius: the radius-gradient force
+    q, x0 = 0.6, 0.2; lam = lambda x: 0.7+0.2*x
+    acc0 = q*q*0.2/lam(x0)**3
+    S = solve_ivp(lambda t, Y: [Y[1], q*q*0.2/lam(Y[0])**3], (0, 1), [x0, 1.0], rtol=1e-12, atol=1e-14)
+    dv = S.y[1, -1]-1.0
+    S8 = solve_ivp(lambda t, Y: [Y[1], q*q*0.2/lam(Y[0])**3], (0, 1), [x0, 0.8], rtol=1e-12, atol=1e-14); dv8 = S8.y[1, -1]-0.8
+    print(f"   variable fibre radius (A = 0, lambda = 0.7 + 0.2x, q = 0.6): base acceleration q^2 lambda'/lambda^3 = {acc0:.5f} at x = 0.2 with F = 0;")
+    print(f"     velocity change over a unit interval {dv:.4f} from unit initial base speed, {dv8:.4f} from 0.80 (the report's 0.1311).  The projected law is")
+    print("     dv/ds = q F v + (q^2/lambda^3) grad lambda.")
+    # (b) the round pencil has no fibre isometry: p_theta drifts
+    pdot = lambda th, pphi: np.cos(th)/np.sin(th)**3*pphi**2
+    d1 = pdot(0.7, 0.4); d12 = d1-pdot(1.0, 0.4)
+    print(f"   round pencil: dp_theta/ds = cos(theta) p_phi^2/sin^3(theta) = {d1:.4f} at theta = 0.7, p_phi = 0.4; two histories with equal p_theta at")
+    print(f"     theta = 0.7 and 1.0 separate in charge at the rate {d12:.4f}.  Globally the deck involution maps fibre translation by c to -c, so a signed")
+    print("     vertical charge needs an orientation choice on the cover or a twisted comparison law.")
+    # (c) a caustic phase does not flip circular polarization
+    E = np.array([1, 1j])/np.sqrt(2); V = lambda e: 2*np.imag(np.conj(e[0])*e[1])
+    Vs = [V(np.exp(-1j*PI*nu/2)*E) for nu in range(4)]
+    print(f"   Stokes V of a circular wave after caustic phases e^(-i pi nu/2), nu = 0..3: {', '.join(f'{v:+.3f}' for v in Vs)} -- unchanged: a scalar caustic phase")
+    print("     leaves handedness alone; image parity is a property of the screen map, and polarization is carried by its own transport law.")
+    # (c') the winding sum of v34.7-5 is a SCALAR Helmholtz control with the spectral convention (Delta + k^2 - 1) on the unit S^3
+    kc = 2.3+0.4j; Gk = lambda g: np.sin(kc*(PI-g))/(np.sin(g)*np.sin(kc*PI)); gg = np.array([0.4, 1.3, 2.5]); hh = 1e-4
+    lapG = (Gk(gg+hh)-2*Gk(gg)+Gk(gg-hh))/hh**2+2/np.tan(gg)*(Gk(gg+hh)-Gk(gg-hh))/(2*hh)
+    hres = np.max(np.abs(lapG+(kc*kc-1)*Gk(gg))/np.abs(Gk(gg)))
+    print(f"   the winding sum of v34.7-5 solves (Delta_S3 + k^2 - 1) G = 0 away from the source (k = 2.3 + 0.4i: relative residual {hres:.1e}): a scalar")
+    print("     Helmholtz control in that spectral convention, not a Maxwell detector kernel.")
+    # (d) a full conformal readout has a flat limit, not the old horn
+    ell = 1.0; s = 5.0; D = 4*ell*np.tan(s/4); R_conf = 4*ell*np.tan(s/4); R_rad = 2*ell*np.sin(s/2)
+    a = 0.5; Dc = np.sqrt((1+a)/(1-a)); R0 = 2*ell*Dc; ss = np.linspace(0.1, 6.0, 7)
+    Ra = 2*ell*(1+a)/(1+a*np.cos(ss/2))*np.sin(ss/2); Rb = R0*np.sin(_D_soft_unwrapped(ss, a)/R0)
+    print(f"   full conformal readout (radius 2 ell, areal radius R = 2 ell A_alpha(s) sin(s/2)): R = R0 sin(D/R0), R0 = 2 ell sqrt((1+a)/(1-a))")
+    print(f"     (a = 0.5: max deviation {np.max(np.abs(Ra-Rb)):.1e}); at a -> 1 it is flat, R = D.  At s = 5 (ell = 1): D = {D:.3f}, conformal R = {R_conf:.3f},")
+    print(f"     radial-only Option A R = 2 ell sin(s/2) = {R_rad:.3f}.  The two share the radial profile, not the metric, curvature, volume or optics.")
+    # (e) required suppression: angular size and flux
+    psi0 = 0.0625; lin = np.sin(psi0)*np.tan(psi0/4)/4                 # D_A/D_read = ell sin(psi)/(4 ell cot(psi/4))
+    print(f"   returned image of a source at 1 kpc (psi = 0.0625, ell = 16 kpc) read at 4.10 Mpc: angular-size factor {lin:.3e}, flux factor (its square,")
+    print(f"     at z = 0) {lin*lin:.2e}.")
+    # (f) the unwrapped softened readout, and the infinitely many winding branches
+    sgrid = np.linspace(0.0, 6*PI, 3001); Du = _D_soft_unwrapped(sgrid, 0.6)
+    der = np.gradient(Du, sgrid); Aa = (1.6)/(1+0.6*np.cos(sgrid/2))
+    jump = abs(_D_soft_unwrapped(2*PI+1e-9, 0.6)-_D_soft_unwrapped(2*PI-1e-9, 0.6))
+    idx = lambda L: 2*int(np.floor(L/PI-1e-12)) if abs(L/PI-round(L/PI)) > 1e-12 else 2*(int(round(L/PI))-1)
+    psi = 1.1; br = [(psi+2*PI*k, idx(psi+2*PI*k), 2*PI-psi+2*PI*k, idx(2*PI-psi+2*PI*k)) for k in range(4)]
+    print(f"   unwrapped readout: continuous across s = 2 pi (jump {jump:.1e}), dD/ds = A_alpha to {np.max(np.abs(der[5:-5]-Aa[5:-5])):.1e} up to s = 6 pi.")
+    print("   winding branches on the round leaf (psi = 1.1): " + "; ".join(f"L+ = {l1:.2f} (index {i1}), L- = {l2:.2f} (index {i2})" for l1, i1, l2, i2 in br))
+    print("     -- infinitely many; caustics organize them but select none.  A finite image set needs a source age, detector window, attenuation or an explicit")
+    print("     first-return selection (adopted below as a PREMISE: the shortest direct and the first long-way history).")
+    # (g) counts: the exact source distance and consistent statistics
+    ell = 16.0; Ds = np.array([1e3, 1e4, 1e5, 1e6])
+    d_ex = 4*ell*np.arctan(4*ell/Ds); d_as = 16*ell**2/Ds
+    psi_ = d_ex/ell; frac = (psi_-np.sin(psi_)*np.cos(psi_))/PI
+    shell = -np.diff(frac)/np.diff(Ds); Dm = np.sqrt(Ds[1:]*Ds[:-1]); sl = np.diff(np.log(shell))/np.diff(np.log(Dm))
+    print(f"   counts: exact d = 4 ell arctan(4 ell/D) vs 16 ell^2/D: relative difference {np.max(np.abs(d_ex/d_as-1)):.1e} (D >= 1 Mpc); the model's shell counts fall")
+    print(f"     as dN/dD ~ D^{sl[-1]:.2f} and N(<D) saturates (N_tot - C D^-3).  The comparison must use the same statistic from a selected sample;")
+    print("     the v34.7 comparison of N(>D) with N(<D) compared opposite cumulative counts and is withdrawn (the source-neighbourhood constraint stands).")
+    check(abs(acc0-0.17768) < 1e-5 and abs(dv8-0.1311) < 1e-4 and abs(d1-0.4577) < 1e-4 and abs(d12-0.3126) < 1e-4 and max(abs(v-1) for v in Vs) < 1e-14
+          and np.max(np.abs(Ra-Rb)) < 1e-12 and abs(D-12.038) < 1e-3 and abs(R_rad-1.197) < 1e-3 and jump < 1e-6 and abs(lin*lin-5.954e-8) < 1e-10
+          and np.max(np.abs(der[5:-5]-Aa[5:-5])) < 1e-3 and all(i1 == 4*k and i2 == 4*k+2 for k, (_, i1, _, i2) in enumerate(br))
+          and abs(sl[-1]+4) < 0.01 and np.max(np.abs(d_ex/d_as-1)) < 0.01 and hres < 1e-5,
+          "optical record: radius-gradient force, charge drift, Stokes V, Helmholtz convention, conformal flat limit, unwrapped readout, branches, counts")
+
+def v34_8_suite():
+    lorentzian_extension_check(); quotient_ward_identity(); scale_bundle_and_parity(); common_clock_experiment(); optical_record_checks()
 
 def v34_5_suite():
     rigidity_counterexample(); p2_complete_identity(); constant_mode_withdrawn(); linearisation_and_pairing(); candidate_B_consistent()
@@ -7084,8 +7584,8 @@ def v34_4_suite():
     parent_action_P1(); budget_identity(); two_centre_meridians(); three_anchor_model(); fibre_loop_phase()
 
 def current_suite():
-    """The current regression suite: every retained routine with its v34.7 interpretation strings, followed by the check summary."""
-    v34_1_suite(); v34_2_suite(); v34_3_suite(); v34_4_suite(); v34_5_suite(); v34_6_suite(); v34_7_suite()
+    """The current regression suite: every retained routine with its v34.8 interpretation strings, followed by the check summary."""
+    v34_1_suite(); v34_2_suite(); v34_3_suite(); v34_4_suite(); v34_5_suite(); v34_6_suite(); v34_7_suite(); v34_8_suite()
     npass = sum(1 for ok, _ in _CHECKS if ok); nfail = len(_CHECKS)-npass
     print(f"\n== check summary: {npass} passed, {nfail} failed ==")
     for ok, msg in _CHECKS:
@@ -7096,7 +7596,7 @@ if __name__ == "__main__":
     import sys
     arg = sys.argv[1] if len(sys.argv) > 1 else "current"
     suites = {"current": current_suite, "v34_1": v34_1_suite, "v34_2": v34_2_suite, "v34_3": v34_3_suite, "v34_4": v34_4_suite, "v34_5": v34_5_suite,
-              "v34_6": v34_6_suite, "v34_7": v34_7_suite}
+              "v34_6": v34_6_suite, "v34_7": v34_7_suite, "v34_8": v34_8_suite}
     suites[arg]()
     if arg != "current":
         npass = sum(1 for ok, _ in _CHECKS if ok); print(f"\n== check summary ({arg}): {npass} passed, {len(_CHECKS)-npass} failed ==")
@@ -7278,17 +7778,17 @@ $$\kappa_{\rm eff} = \kappa(\delta_S)\,\big[f_{\rm reg}+(1-f_{\rm reg})(1-a)\big
 
 **The entry, as formulated (13 October; unnumbered, numbering provisional).** *275:* the infinite apparent distance at the full return holds only for histories passing *through* the antipode point that defines the enclosure; histories skewed away from it should have the tangent law softened according to the skew "angle" — or whatever the correct invariant is — "like a $1/(1+\alpha\cos(x/2))$-like thing", so that the infinity is muffled directly by the content of the two paths. The first referee analysis supplied a family realizing this, asked that the grade $\alpha$ be computed from the history pair rather than assigned, that the continuous grade be kept separate from the discrete class, and that a continuous family of skewed enclosing pairs be exhibited in one class — warning that the v34.5 deck-parity criterion might hold only on a measure-zero set. The second analysis noted that $D_{\rm return}(2\chi) = 2D_A(\chi)$, not $D_A(\chi)$.
 
-**(a) The softened family [T].** $dD_\alpha/ds = \ell(1+\alpha)/(1+\alpha\cos(s/2))$, $0\le\alpha\le1$, with local slope $\ell$ for every $\alpha$, integrates to
+**(a) The softened family [T].** $dD_\alpha/ds = \ell(1+\alpha)/(1+\alpha\cos(s/2))$, $0\le\alpha\le1$ (a general direction pair has $\alpha_{\rm opp}\in[-1,1]$: the selection rule must keep $\alpha\ge0$ or treat the compressive range, §XXIX.39(d)), with local slope $\ell$ for every $\alpha$, integrates on the first-return domain $0\le s\le2\pi$ (the unwrapped branch beyond it: §XXIX.39(e); v34.8, R172–R173) to
 $$D_\alpha(s) = 4\ell\sqrt{\frac{1+\alpha}{1-\alpha} }\,\arctan\Big(\sqrt{\frac{1-\alpha}{1+\alpha} }\tan\frac s4\Big),\qquad D_\alpha(2\pi) = 2\pi\ell\sqrt{\frac{1+\alpha}{1-\alpha} },$$
 with $D_\alpha(\pi)/\ell = 3.142, 3.628, 3.932, 4.000$ for $\alpha = 0, 0.5, 0.9, 1$ (the referee's corrected values, confirmed by quadrature) and $D_1(s) = 4\ell\tan(s/4)$, the v34.5 law, as the limit; the infinity appears only at $\alpha = 1$.
 
-**(b) What the family is: a conformal boost of the readout [T].** With $\lambda = \sqrt{(1-\alpha)/(1+\alpha)}$, the map $\tan(\chi'/2) = \lambda\tan(\chi/2)$ — a dilation $z\mapsto\lambda z$ of the stereographic chart, i.e. a boost of velocity $\alpha$ along the axis through the observer and its antipodal point — has conformal factor $\Omega_\alpha(\chi) = \sqrt{1-\alpha^2}/(1+\alpha\cos\chi)$, and $A_\alpha(s) = \Omega_\alpha(s/2)/\Omega_\alpha(0)$ exactly (residual $4\times10^{-10}$). Three equivalent forms follow: $D_\alpha(s) = 2\ell\,\mathcal D_\alpha\,\chi'(s/2)$ with $\mathcal D_\alpha = 1/\lambda$ the longitudinal Doppler factor of the boost; $D_\alpha(s)$ is the arc length, on a sphere of radius $2\ell\mathcal D_\alpha$, of the point whose stereographic radius is the null readout $4\ell\tan(s/4)$ — **the skew recompactifies the readout**, and the full return becomes that sphere's far pole at $2\pi\ell\mathcal D_\alpha$; and $A_\alpha(2\pi) = \mathcal D_\alpha^2$. *Classification:* the Möbius maps of the leaf that fix the observer and its antipodal point and commute with the rotations about their axis are exactly these dilations, so **the family is forced by "conformal, axisymmetric, two fixed points"**, and the null law (Option A-type) is its singular boundary limit $\alpha\to1$. *[v34.7, R149: was "parabolic limit" — the finite dilations are hyperbolic Möbius maps; as the dilation factor tends to zero the map degenerates and does not approach a parabolic map, which has one repeated fixed point]* The functional form is thereby derived from a symmetry premise; the premise (that the readout is conformal) is not derived.
+**(b) What the family is: a conformal boost of the readout [T].** With $\lambda = \sqrt{(1-\alpha)/(1+\alpha)}$, the map $\tan(\chi'/2) = \lambda\tan(\chi/2)$ — a dilation $z\mapsto\lambda z$ of the stereographic chart, i.e. a boost of velocity $\alpha$ along the axis through the observer and its antipodal point — has conformal factor $\Omega_\alpha(\chi) = \sqrt{1-\alpha^2}/(1+\alpha\cos\chi)$, and $A_\alpha(s) = \Omega_\alpha(s/2)/\Omega_\alpha(0)$ exactly (residual $4\times10^{-10}$). Three equivalent forms follow: $D_\alpha(s) = 2\ell\,\mathcal D_\alpha\,\chi'(s/2)$ with $\mathcal D_\alpha = 1/\lambda$ the longitudinal Doppler factor of the boost; $D_\alpha(s)$ is the arc length, on a sphere of radius $2\ell\mathcal D_\alpha$, of the point whose stereographic radius is the null readout $4\ell\tan(s/4)$ — **the skew recompactifies the readout**, and the full return becomes that sphere's far pole at $2\pi\ell\mathcal D_\alpha$; and $A_\alpha(2\pi) = \mathcal D_\alpha^2$. *Classification:* the orientation-preserving conformal automorphisms of the round leaf that fix the observer and its antipodal point individually and commute with the rotations about their axis are exactly these dilations, so **the family is forced by that automorphism hypothesis** (with the positive-stretch branch and the local normalization fixed; a conformally rescaled metric $f(\chi)^2h_{S^3}$ admits any positive $f$ and does not force it), and the null law (Option A-type) is its singular boundary limit $\alpha\to1$, the flat (stereographic) limit. *[v34.8, R172]* *[v34.7, R149: was "parabolic limit" — the finite dilations are hyperbolic Möbius maps; as the dilation factor tends to zero the map degenerates and does not approach a parabolic map, which has one repeated fixed point]* The functional form is thereby derived from a symmetry premise; the premise (that the readout is conformal) is not derived.
 
 **(c) The normalization of the null law [T; R132].** $D_{\rm return}(2\chi) = 4\ell\tan(\chi/2) = 2D_A(\chi)$: the v34.5 law is Option A's tangent profile on a circle of radius $2\ell$ (the stereographic distance on the doubled circle), with twice the normalization; only the qualitative profile is shared. The v34.5 phrase "the old Option A is the identification $s/2 = \chi$" is corrected accordingly.
 
-**(d) The deck parity is not robust [T; R133].** Lifting meridian histories from $x$ to $-x$ that pass the return pole at angle $\beta$ into the orientation double cover $Y$: the lifted endpoint is on the *same* sheet for $\beta = 0.3$, $10^{-2}$, $10^{-4}$, $10^{-6}$ and on the *other* sheet only at $\beta = 0$. The sheet can change only where $\theta$ crosses $\pi$, which in $S^4$ is the return pole itself: the odd class is a measure-zero set of histories, and the lifted endpoint jumps between the two lifts of $-x$ at $\beta = 0$. The referee's concern is confirmed. The v34.5 use of the $D_\infty$ deck parity as *the* enclosure criterion is withdrawn; it remains the exact classification of the aligned limit, and the "flipped" appearance is reassigned in (e).
+**(d) The deck parity is not robust [T; R133].** Lifting meridian histories from $x$ to $-x$ that pass the return pole at angle $\beta$ into the orientation double cover $Y$: the lifted endpoint is on the *same* sheet for $\beta = 0.3$, $10^{-2}$, $10^{-4}$, $10^{-6}$ and on the *other* sheet only at $\beta = 0$. The sheet changes where a path crosses either exceptional section (R144); for these histories that is where $\theta$ crosses $\pi$, the return pole itself. In this blown-down round control the odd class is therefore a measure-zero set of histories, and the lifted endpoint jumps between the two lifts of $-x$ at $\beta = 0$. The odd deck class is homotopy invariant in the resolved space, and the measure-zero conclusion is not proved for an independently specified finite resolved-core metric. *[v34.8, R175]* The referee's concern is confirmed. The v34.5 use of the $D_\infty$ deck parity as *the* enclosure criterion is withdrawn; it remains the exact classification of the aligned limit, and the "flipped" appearance is reassigned in (e).
 
-**(e) A robust class: the conjugate-point index [T/V].** The Morse index of a history — the number of conjugate points it passes, with multiplicity — is locally constant in the space of histories and changes only where the source crosses a caustic. On the round leaf $S^3$ the direct history has index $0$, the long-way history (through the antipodal focus) index $2$, which it keeps up to and at the full circuit (where the endpoint is conjugate, nullity $2$), the index becoming $4$ beyond it; *[v34.7, R153: was "the full circuit index $4$"; standard Morse convention (§XXIX.34(b))]* an index-$2$ image is rotated by $\pi$ (both transverse directions inverted), and where a perturbation unfolds the antipodal point caustic, index-$1$ images are mirror-reversed — the "flipped" appearance of Entries 271/273 as a robust optical fact rather than a measure-zero topological one. *Computed on a lensed leaf cross-section* ($S^2$ with refractive index $e^u$, $u$ a Gaussian bump of amplitude $0.3$ and width $0.3$ placed $0.3$ rad off the antipode; source at $\psi = 1$ rad from the observer, azimuth $\zeta$):
+**(e) A robust class: the conjugate-point index [T/V].** The Morse index of a history — the number of conjugate points it passes, with multiplicity — is locally constant in the space of histories and changes only where the source crosses a caustic. On the round leaf $S^3$ the direct history has index $0$, the long-way history (through the antipodal focus) index $2$, which it keeps up to and at the full circuit (where the endpoint is conjugate, nullity $2$), the index becoming $4$ beyond it; *[v34.7, R153: was "the full circuit index $4$"; standard Morse convention (§XXIX.34(b))]* on the round leaf an index-$2$ image is rotated by $\pi$ (both transverse directions inverted), and where a perturbation unfolds the antipodal point caustic, index-$1$ images have odd parity, a mirror (the index fixes only the parity of the screen map; its full Jacobi matrix must be computed) *[v34.8, R171]* — the "flipped" appearance of Entries 271/273 as a robust optical fact rather than a measure-zero topological one. *Computed on a lensed leaf cross-section* ($S^2$ with refractive index $e^u$, $u$ a Gaussian bump of amplitude $0.3$ and width $0.3$ placed $0.3$ rad off the antipode; source at $\psi = 1$ rad from the observer, azimuth $\zeta$):
 
 | $\zeta$ | $-0.6$ | $-0.3$ | $-0.1$ | $0$ | $0.1$ | $0.3$ | $0.6$ |
 |---|---|---|---|---|---|---|---|
@@ -7298,11 +7798,11 @@ with $D_\alpha(\pi)/\ell = 3.142, 3.628, 3.932, 4.000$ for $\alpha = 0, 0.5, 0.9
 | $D_\alpha(s_{\rm long})/\ell$ | $12.36$ | $13.37$ | $15.07$ | $15.67$ | $15.07$ | $13.37$ | $12.36$ |
 | null law $4\tan(s_{\rm long}/4)$ | $15.69$ | $15.76$ | $15.69$ | $15.67$ | $15.69$ | $15.76$ | $15.69$ |
 
-(On $S^2$ the antipodal conjugate point has multiplicity one, so the long-way index is $1$; root-finding residuals $<10^{-14}$.) The index is constant across the skewed family; passage through the antipode and exact image opposition occur only in the symmetric configuration $\zeta = 0$; the grade varies continuously and is computed, not fitted; and the softened readout never exceeds the null law. A return lens symmetric about the antipode keeps $\alpha = 1$ for every source ($1.000000000000$), so the softening needs matter that breaks the symmetry of the return. *Remote-appearance class (proposal):* a history pair whose second member has index $\ge n-1$ ($= 2$ on the leaf), on the open set bounded by caustics.
+(On $S^2$ the antipodal conjugate point has multiplicity one, so the long-way index is $1$; root-finding residuals $<10^{-14}$.) The index is constant across the skewed family; passage through the antipode and exact image opposition occur only in the symmetric configuration $\zeta = 0$; the grade varies continuously and is computed, not fitted; and the softened readout never exceeds the null law. A return lens symmetric about the antipode keeps $\alpha = 1$ for every source ($1.000000000000$), so the softening needs matter that breaks the symmetry of the return. *Remote-appearance class (proposal):* a history pair whose second member has index $\ge n-1$ ($= 2$ on the leaf), on the open set bounded by caustics. Caustics organize the infinitely many winding branches but select none, so a finite image set needs an explicit selection (§XXIX.39(e)). *[v34.8, R173]*
 
 **(f) The grade [D].** $\alpha\equiv-\hat n_1\cdot\hat n_2 = \cos\delta$, with $\hat n_{1,2}$ the two image directions at the detector and $\delta$ the deviation from exact opposition: a detector-side quantity of the pair ("the dual paths content"), computed from the propagation, never fitted per galaxy. Then $\mathcal D_\alpha = \cot(\delta/2)$ and $D_\alpha(2\pi) = 2\pi\ell\cot(\delta/2)$; for small $\delta$, $\alpha\simeq1-\delta^2/2\simeq1/(1+\delta^2/2)$ (the referee's illustrative $1/(1+(b/b_*)^2)$ with $b_* = \sqrt2$ in angular units). The grade measures image opposition, not the closest approach $\beta$ to the antipode; the two coincide in the symmetric configuration and differ in general. In conformal terms, $e^\eta = \cot(\delta/2)$ is the dilation that carries the deviated image to the observer's horizon. *Chosen*, as the simplest pair invariant with the required limits; a derivation from the history dynamics is open.
 
-**(g) The resolution operator (definition) [D].** For an admissible pair $(\gamma_+,\gamma_-)$ at detector $O$ (§XXIX.32: both null geodesics of $H_{\mathcal M}$ with equal vertical charge), $\mathscr R_O(\gamma_+,\gamma_-) = \big(\text{indices};\ \alpha = -\hat n_1\cdot\hat n_2;\ D_\alpha(s);\ \hat n_1,\hat n_2;\ \text{orientation from the index};\ \text{frequency}\big)$, with $s$ the arc of the long member in units of $\ell$ and the frequency unshifted on a static leaf until a transport law is derived. *[v34.7, R150: the operator records both grades — the return near-miss $\alpha_R = \cos\beta_R$ (conserved; the passage grade of Entry 275) and the image opposition $\alpha_{\rm opp} = -\hat n_1\cdot\hat n_2$ (a detector observable) (§XXIX.34(e))]* "Visible iff an admissible conditioned space exists" becomes: visible iff an admissible pair exists in a nontrivial class — still without the admissibility *equation* that would select images dynamically (open).
+**(g) The resolution operator (definition) [D].** For an admissible pair $(\gamma_+,\gamma_-)$ at detector $O$ (§XXIX.32: both null geodesics of $H_{\mathcal M}$ with equal vertical charge), $\mathscr R_O(\gamma_+,\gamma_-) = \big(\text{indices};\ \alpha = -\hat n_1\cdot\hat n_2;\ D_\alpha(s);\ \hat n_1,\hat n_2;\ \text{screen Jacobi map and polarization transport};\ \text{frequency}\big)$ *[v34.8, R171]*, with $s$ the arc of the long member in units of $\ell$ and the frequency unshifted on a static leaf until a transport law is derived. *[v34.7, R150: the operator records both grades — the return near-miss $\alpha_R = \cos\beta_R$ (conserved; the passage grade of Entry 275) and the image opposition $\alpha_{\rm opp} = -\hat n_1\cdot\hat n_2$ (a detector observable) (§XXIX.34(e))]* "Visible iff an admissible conditioned space exists" becomes: visible iff an admissible pair exists in a nontrivial class — still without the admissibility *equation* that would select images dynamically (open).
 
 ## XXIX.32 Which space the paired histories follow, the one-degree-of-freedom consistency, and what a detector records (Entry 276; two referee analyses) [T/V/D/O; v34.6, R134, R137, R138]
 
@@ -7310,17 +7810,17 @@ with $D_\alpha(\pi)/\ell = 3.142, 3.628, 3.932, 4.000$ for $\alpha = 0, 0.5, 0.9
 
 **The entry, as formulated (13 October; unnumbered, numbering provisional).** *276:* should the pair of light paths follow geodesics of the middle space or of the conditioned middle space? If classes — or individual path pairs — index conditioned middle spaces, does the middle space supply only partial information, the conditioned spaces the rest? Or, since the program is trying to get rid of the galaxy-normal direction anyway, might the conditioned spaces lose that dimension of admissibility *by* a one-degree-of-freedom consistency between the light in both — "geodesic in both", loosened to one degree of freedom? And then what is the action, and how does it interplay with the existing dual-path action? The first referee analysis set out three options — a common propagation law with conditioning acting on resolution and interpretation (A), propagation in a conditioned optical metric (B), and one coupled two-history action (C) — preferred A moving toward C, judged "geodesic in both" too strong, proposed a single scalar consistency condition, a closed-time-path detector functional with a two-history kernel, and a Schur-complement route to an effective geometry, and warned that coherence between histories from unrelated emitters is not automatic. The second analysis asked for actual admissible photon histories, a resolution operator, the receiver's records, and an explicit measure on the double cover.
 
-**(a) The propagation tensor [T/D].** The pulled-back base metric is degenerate along the meridians and defines no null geodesics on $\mathcal M$. The complete matter geometry $H_{\mathcal M} = \pi^*g+\lambda^2\vartheta\otimes\vartheta$ of the regular control is nondegenerate, and photons — matter living in $\mathcal M$ — propagate on its null geodesics. This is option A with the existing structure: no second metric, no five-dimensional Einstein equation.
+**(a) The propagation tensor [T/D].** The pulled-back base metric is degenerate along the meridians and defines no null geodesics on $\mathcal M$. The complete matter geometry $H_{\mathcal M} = \pi^*g+\lambda^2\vartheta\otimes\vartheta$ of the regular control is nondegenerate, and photons — matter living in $\mathcal M$ — propagate on its null geodesics (a modelling premise until a principal symbol and a four-dimensional mode projection are derived, §XXIX.39(b)) *[v34.8, R170]*. This is option A with the existing structure: no second metric, no five-dimensional Einstein equation.
 
-**(b) The pair's one degree of freedom is the vertical charge [T, verified].** When the fiber is a symmetry of $H_{\mathcal M}$, the vertical momentum $q = p_\theta = \lambda^2(\dot\theta+A_\mu\dot x^\mu)$ is conserved, and each null history projects to a charged base curve: $\dot v_i = qF_{ij}v^j$, with Kaluza–Klein mass $\lvert q\rvert/\lambda$, and $q = 0$ projects to base null geodesics. Checked with a non-uniform connection: charge drift $0$, null residual $6\times10^{-11}$, charged-geodesic residual $2\times10^{-16}$, base speed $\lvert v\rvert/\lvert p_t\rvert = (1+q^2/\lambda^2v^2)^{-1/2} = 0.7593$ at $q = 0.6$, $\lvert v\rvert = 1$. The consistency $q[\gamma_+] = q[\gamma_-]$ is a **first-class constraint**: under the dual-path symplectic form it generates the **common** fiber translation $(\theta_+,\theta_-)\mapsto(\theta_++c,\theta_-+c)$; reduction makes the mean fiber position gauge and keeps the relative separation with the mean charge (§XXIX.34(c)). The pair thereby loses the fiber position — the leaf normal at the galaxy, where the leaf crosses its meridians normally — as an observable, *without* deleting the direction from the middle space; for base-massless photons ($q = 0$) the constraint is vacuous (§XXIX.34(d)). *[v34.7, R151: was "it generates the relative fiber translation $(\theta_+,\theta_-)\mapsto(\theta_++c,\theta_--c)$, and symplectic reduction removes one relative position and one relative momentum ... the author's 'one degree of freedom' made exact" — the flow was reversed, as the assessment of v34.6 showed]*
+**(b) The pair's one degree of freedom is the vertical charge [T, verified].** When the fiber is a symmetry of $H_{\mathcal M}$, the vertical momentum $q = p_\theta = \lambda^2(\dot\theta+A_\mu\dot x^\mu)$ is conserved, and each null history projects to a charged base curve: on a flat base $\dot v_i = qF_{ij}v^j+(q^2/\lambda^3)\partial_i\lambda$ (the second term vanishes for constant $\lambda$), with Kaluza–Klein mass $\lvert q\rvert/\lambda$, and $q = 0$ projects to base null geodesics. The round pencil has no such fiber symmetry, and on $\widetilde X$ the deck map reverses the sign of $q$ (§XXIX.39(a)–(b)). *[v34.8, R170]* Checked with a non-uniform connection: charge drift $0$, null residual $6\times10^{-11}$, charged-geodesic residual $2\times10^{-16}$, base speed $\lvert v\rvert/\lvert p_t\rvert = (1+q^2/\lambda^2v^2)^{-1/2} = 0.7593$ at $q = 0.6$, $\lvert v\rvert = 1$. The consistency $q[\gamma_+] = q[\gamma_-]$ is a **first-class constraint**: under the dual-path symplectic form it generates the **common** fiber translation $(\theta_+,\theta_-)\mapsto(\theta_++c,\theta_-+c)$; reduction makes the mean fiber position gauge and keeps the relative separation with the mean charge (§XXIX.34(c)). The pair thereby loses the fiber position — the leaf normal at the galaxy, where the leaf crosses its meridians normally — as an observable, *without* deleting the direction from the middle space; for base-massless photons ($q = 0$) the constraint is vacuous (§XXIX.34(d)). *[v34.7, R151: was "it generates the relative fiber translation $(\theta_+,\theta_-)\mapsto(\theta_++c,\theta_--c)$, and symplectic reduction removes one relative position and one relative momentum ... the author's 'one degree of freedom' made exact" — the flow was reversed, as the assessment of v34.6 showed]*
 
 **(c) The action [D].** In the dual-path (closed-time-path) form of §XV.6,
 $$\mathcal S_{\rm pair}[\gamma_+,\gamma_-,\Lambda] = S_H[\gamma_+]-S_H[\gamma_-]+\Lambda\big(q[\gamma_+]-q[\gamma_-]\big),\qquad P_O\propto\int\mathcal D\gamma_+\mathcal D\gamma_-\,e^{\frac i\hbar(S_H[\gamma_+]-S_H[\gamma_-])}\,\delta\big(q[\gamma_+]-q[\gamma_-]\big)\,\mathcal K_O[\gamma_+,\gamma_-].$$
-The constraint couples to the *difference* of the two histories' charges (the Keldysh "quantum" component of the charge, conjugate to the classical fiber position $\theta_{\rm cl}$); *[v34.7, R151: clarified]* integrating the multiplier gives a superselection of the pair's vertical charge, and $\mathcal K_O$ is the detector's record kernel. For a conserved $q$ the stationary histories are unchanged $H$-geodesics: the conditioning selects and identifies pairs and does not reroute them (option A). A record that is not conserved makes the multiplier exert equal and opposite forces on the two histories (option C). **Answer to Entry 276:** the histories are geodesics of the middle space; the "conditioned middle space" is not a second metric space but the pair's reduced space — a charge sector with the relative fiber position as gauge. *Caveat (referee):* interference between the two histories of light from unrelated emitters is not automatic; $\mathcal K_O$ must be derived, or the pair given a non-interference reading.
+The constraint couples to the *difference* of the two histories' charges (the Keldysh "quantum" component of the charge, conjugate to the classical fiber position $\theta_{\rm cl}$); *[v34.7, R151: clarified]* integrating the multiplier gives a superselection of the pair's vertical charge, and $\mathcal K_O$ is the detector's record kernel. For a conserved $q$ the stationary histories are unchanged $H$-geodesics: the conditioning selects and identifies pairs and does not reroute them (option A). A record that is not conserved makes the multiplier exert equal and opposite forces on the two histories (option C). **Answer to Entry 276:** on the null-propagation premise, the histories are geodesics of the middle space; the "conditioned middle space" is not a second metric space but the pair's reduced space — a charge sector with the mean fiber position as gauge and the relative position kept. *[v34.8, R175]* *Caveat (referee):* interference between the two histories of light from unrelated emitters is not automatic; $\mathcal K_O$ must be derived, or the pair given a non-interference reading.
 
-**(d) "Geodesic in both" [T].** Every geodesic of the leaf is a geodesic of a second metric only if the two are projectively equivalent (Beltrami, Levi-Civita): great circles are straight lines of the gnomonic flat metric (residual $10^{-16}$), and the projective class of the round leaf is that small family. Any axisymmetric stretch or conformal readout about a point $R$ shares exactly $R$'s own light cone with the leaf (a radial geodesic of the Option A metric stays radial; a non-radial one departs from the great circle by $0.074$ rad within unit affine parameter): this is the observer-indexed loosening. A conditioned metric reparametrizes — assigns distance to — the histories $R$ receives, without rerouting them. A radial stretch leaves the angular-diameter distance $\ell\sin\chi$ unchanged; a conformal readout scales radial and angular distances together but changes the areal radius, which in the galaxy's own dynamics is the Option B route that removed the plateau (§XXIX.20): a conformal readout must act on remote images, not on the galaxy's own orbits.
+**(d) "Geodesic in both" [T].** Three questions are distinct: whether the spatial paths agree, whether the spacetime null curves agree, and whether the source-to-detector periods and screen maps agree (§XXIX.39(g)); photons need the second, the readout the third. *[v34.8, R175]* For the first: every geodesic of the leaf is a geodesic of a second metric only if the two are projectively equivalent (Beltrami, Levi-Civita) — locally: great circles are straight lines of the gnomonic chart (residual $10^{-16}$), which is not a global flat metric on the closed sphere — and the projective class of the round leaf is that small family. Any axisymmetric stretch or conformal readout about a point $R$ shares exactly $R$'s own light cone with the leaf (a radial geodesic of the Option A metric stays radial; a non-radial one departs from the great circle by $0.074$ rad within unit affine parameter): this is the observer-indexed loosening. A conditioned metric reparametrizes — assigns distance to — the histories $R$ receives, without rerouting them. A radial stretch leaves the angular-diameter distance $\ell\sin\chi$ unchanged; a conformal readout scales radial and angular distances together but changes the areal radius, which in the galaxy's own dynamics is the Option B route that removed the plateau (§XXIX.20): a conformal readout must act on remote images, not on the galaxy's own orbits.
 
-**(e) Which normal [T/O].** The constraint of (b) removes the *meridian* direction — normal to the leaf at the galaxy. The *rendered disk normal* of Part XVI is a different direction, within the leaf; by §XVI.9 it can only be the suppressed direction of sheet selection, never a second kernel of the projection. The bordered Hessian of a pair action with one scalar constraint $C$ suppresses exactly the direction $\nabla C$; for the disk normal to *emerge*, $C$ must be blind to the disk and the suppressed rendered direction must be computed — by the referee's Schur complement $H_{\rm eff} = H_{xx}-H_{xy}H_{yy}^{-1}H_{yx}$ over the hidden alignment coordinates — and tested against the dynamical normal (open).
+**(e) Which normal [T/O].** The constraint of (b) removes the mean fiber position along the *meridian* — normal to the leaf at the galaxy — as gauge (for $q\neq0$), and no base or normal direction; for $q = 0$ it is vacuous. *[v34.8, R175]* The *rendered disk normal* of Part XVI is a different direction, within the leaf; by §XVI.9 it can only be the suppressed direction of sheet selection, never a second kernel of the projection. The bordered Hessian of a pair action with one scalar constraint $C$ suppresses exactly the direction $\nabla C$; for the disk normal to *emerge*, $C$ must be blind to the disk and the suppressed rendered direction must be computed — by the referee's Schur complement $H_{\rm eff} = H_{xx}-H_{xy}H_{yy}^{-1}H_{yx}$ over the hidden alignment coordinates — and tested against the dynamical normal (open).
 
 **(f) What the detector records on the round, static, transparent leaf [T].** For a source at angle $\psi$ from the observer ($\ell = 16$ kpc):
 
@@ -7330,13 +7830,14 @@ The constraint couples to the *difference* of the two histories' charges (the Ke
 | $D_A = D_L$, direct and long-way (kpc) | $1.00$ | $3.96$ | $7.67$ | $13.46$ | $14.55$ |
 | delay of the long-way image (kyr) | $321$ | $302$ | $276$ | $224$ | $119$ |
 | null readout $4\ell\cot(\psi/4)$ (Mpc) | $4.10$ | $1.02$ | $0.509$ | $0.251$ | $0.117$ |
-| demagnification needed | $2.4\times10^{-4}$ | $3.9\times10^{-3}$ | $1.5\times10^{-2}$ | $5.4\times10^{-2}$ | $1.2\times10^{-1}$ |
+| angular-size factor needed, $D_A/D_{\rm read}$ | $2.4\times10^{-4}$ | $3.9\times10^{-3}$ | $1.5\times10^{-2}$ | $5.4\times10^{-2}$ | $1.2\times10^{-1}$ |
+| flux factor needed at $z = 0$ (its square) | $6.0\times10^{-8}$ | $1.5\times10^{-5}$ | $2.3\times10^{-4}$ | $2.9\times10^{-3}$ | $1.5\times10^{-2}$ |
 
-The long-way image appears in the antipodal sky direction, rotated by $\pi$ (index $2$), with $z = 0$, the same angular size and flux as the direct image ($\lvert\sin(2\pi-\psi)\rvert = \sin\psi$), conserved surface brightness, linear polarization axes carried with the image, and circular handedness kept (reversed for odd index). **By standard rulers and candles it is a nearby object**, and Part XVI's returned Sun at magnitude $-8$ is the same fact. The readout distance is therefore observable only if the conditioned optics changes $D_A$, $D_L$ and $z$ together — for any metric readout with photon conservation, distance duality $D_L = (1+z)^2D_A$ must hold — or if the returned images are suppressed. *A frequency rule tested:* if the frequency followed the readout boost ($1+z = \mathcal D_\alpha$), every image would satisfy $D\le2\pi\ell(1+z)$, forcing $1+z\ge7.8$ at $0.78$ Mpc and $\ge99.5$ at $10$ Mpc for $\ell = 16$ kpc — excluded; the boost's Doppler factor is not the frequency law at this scale.
+The long-way image appears in the antipodal sky direction, rotated by $\pi$ (index $2$), with $z = 0$, the same angular size and flux as the direct image ($\lvert\sin(2\pi-\psi)\rvert = \sin\psi$), conserved surface brightness, and polarization parallel-transported along each history: a caustic phase multiplies the Jones vector by one factor, so Stokes $V$ and circular handedness are the same for every index. *[v34.8, R171]* **By standard rulers and candles it is a nearby object**, and Part XVI's returned Sun at magnitude $-8$ is the same fact. The readout distance is therefore observable only if the conditioned optics changes $D_A$, $D_L$ and $z$ together — for any metric readout with photon conservation, distance duality $D_L = (1+z)^2D_A$ must hold — or if the returned images are suppressed. *A frequency rule tested:* if the frequency followed the readout boost ($1+z = \mathcal D_\alpha$), every image would satisfy $D\le2\pi\ell(1+z)$, forcing $1+z\ge7.8$ at $0.78$ Mpc and $\ge99.5$ at $10$ Mpc for $\ell = 16$ kpc — excluded by the measured redshifts of galaxies at those primary-indicator distances (M31, blueshifted, at $0.78$ Mpc; $z\sim10^{-3}$ near $10$ Mpc); the boost's Lorentz parameter is a mathematical parameter, not a source velocity, and its Doppler factor is not the frequency law at this scale. *[v34.8, R174]*
 
-**(g) The measure on the double cover [T, verified; R134].** Matter lifts to $Y = S^3\times S^1$ as $\tfrac12\Pi^*\rho$, whose pushforward is $\rho$ (ratio of the integrals $1.00000000$): each region appears twice, its matter once. The antipode/full-return distinction exists only on the cover — the leaf $S^3$ or $Y$; on the base $\mathbb{RP}^3$ the leaf's antipode *is* the full return (Part XVI's twin image at $\pi\ell-d$ is the base version) — so the two-history readout must live on the cover, as Entry 274 says.
+**(g) The measure on the double cover [T, verified; R134].** Matter lifts to $Y = S^3\times S^1$ as $\tfrac12\Pi^*\rho$, whose pushforward is $\rho$ (ratio of the integrals $1.00000000$): each region appears twice, its matter once. The factor $\tfrac12$ normalizes smooth densities; $\Pi$ is not a covering at the poles, so a bare pole delta has no canonical pullback, and P3's core measure on the exceptional section is lifted through $P:Y\to\widetilde X$ with its own normalization; a half-density does not identify independent fields on the two sheets. *[v34.8, R175]* The antipode/full-return distinction exists only on the cover — the leaf $S^3$ or $Y$; on the base $\mathbb{RP}^3$ the leaf's antipode *is* the full return (Part XVI's twin image at $\pi\ell-d$ is the base version) — so the two-history readout must live on the cover, as Entry 274 says.
 
-**Next toy, updated.** The six tests of §XXIX.29 now have their ingredients: propagation on $H_{\mathcal M}$ in a fixed charge sector (tests 1 and 3), the index class (test 2), the grade and softened readout (test 4), the image set bounded by caustics (test 6). Test 5 (frequencies, clocks, mirror) remains blocked without a derived transport law, and a seventh is added: **distance duality** — the readout must specify its action on angular sizes and fluxes consistently with the distance it assigns.
+**Next toy, updated.** The six tests of §XXIX.29 now have their ingredients: propagation on $H_{\mathcal M}$ in a fixed charge sector (tests 1 and 3), the index class (test 2), the grade and softened readout (test 4), and an image set made finite by an explicit first-return selection — caustics organize the branches but select none (test 6; §XXIX.39(e)). *[v34.8, R173]* Test 5 (frequencies, clocks, mirror) remains blocked without a derived transport law — with common clocks the label carrier answers it in wavelength but not in clock-timed frequency (§XXIX.38) *[v34.8, R168]*, and a seventh is added: **distance duality** — the readout must specify its action on angular sizes and fluxes consistently with the distance it assigns.
 
 ## XXIX.33 P3 as an effective-source model: matter geometry, conservation identity, core current, measured accuracy, a force observable, and the joint core requirement (follow-up report on v34.5; assessment of v34.6) [T/V/D/O; v34.7, R141–R143]
 
@@ -7357,9 +7858,9 @@ The long-way image appears in the antipodal sky direction, rotated by $\pi$ (ind
 
 Substituting $\lambda_{\rm eff} = \ell\lvert\sin\theta\rvert^3$ into P1 gives a different geometry, $\pi^*g+\sin^6\theta\,d\theta^2$. Its vertical kinetic weight $w/L^2$ is $\sin^{-3}\theta$ against the round $\sin^3\theta$, a ratio of $\lvert\sin\theta\rvert^{-6}$. That ratio is $1501$ at $\theta = 0.3$ and $1.01\times10^6$ at $\theta = 0.1$, the report's numbers. The horizontal inverse metrics differ as well.
 
-P3 keeps the round geometry, which is the one the alignment numerics use. It carries the warped regular action
-$$S_{\rm reg} = \int_B\sqrt{-g}\int_0^\pi w\,\Big[-\tfrac12K\,g^{ij}\partial_i\Psi\,\partial_j\Psi-\tfrac{1}{2L^2}(\partial_\theta\Psi)^2-V(\Psi)\Big]\,d\theta,\qquad w = \sin^3\theta,\quad L = 1,\quad K = \sin^{-2}\theta .$$
-Varying the metric at fixed $\Psi$ gives the reduced stress $T_{ij} = \int w\,\big[K\,\partial_i\Psi\,\partial_j\Psi+g_{ij}\,\mathcal L\big]\,d\theta$. The off-shell identity $\nabla^iT_{ij} = \int E_\Psi\,\partial_j\Psi\,d\theta$ holds, where $E_\Psi$ is the Euler–Lagrange expression of the warped action. It was checked on a curved two-dimensional base with a field that depends on $\theta$, to a relative difference of $4.8\times10^{-11}$. P1 keeps its own status (§XXIX.22) as a *different* matter geometry: it is not the round geometry with a renamed weight.
+P3 keeps the round geometry, which is the one the alignment numerics use. Its Lorentzian extension warps the three spatial directions only, with a preferred static frame (§XXIX.36(a)), and carries the warped regular action
+$$S_{\rm reg} = \int dt\,d^3x\,N\sqrt h\int_0^\pi w\,\Big[\frac{(\partial_t\Psi)^2}{2N^2}-\tfrac12K\,h^{ab}\partial_a\Psi\,\partial_b\Psi-\tfrac{1}{2L^2}(\partial_\theta\Psi)^2-V(\Psi)\Big]\,d\theta,\qquad w = \sin^3\theta,\quad L = 1,\quad K = \sin^{-2}\theta ,$$
+with $a,b$ spatial and the time term unwarped. *[v34.8, R161]* Varying the spatial metric at fixed $\Psi$ gives the reduced stress $T_{ab} = \int w\,\big[K\,\partial_a\Psi\,\partial_b\Psi+h_{ab}\,\mathcal L\big]\,d\theta$. The off-shell identity $\nabla^aT_{ab} = \int E_\Psi\,\partial_b\Psi\,d\theta$ holds, where $E_\Psi$ is the Euler–Lagrange expression of the warped action. It was checked on a curved two-dimensional base with a field that depends on $\theta$, to a relative difference of $4.8\times10^{-11}$. P1 keeps its own status (§XXIX.22) as a *different* matter geometry: it is not the round geometry with a renamed weight.
 
 **(b) The core as a conserved current [T/D].** The core fluid is a conserved base current $J^\mu_C$, a densitized vector, with Brown's action [Brown 1993]
 $$S_C = -\int_B\sqrt{-g}\;\rho_C\!\big(\lvert J_C\rvert/\sqrt{-g}\big)+\int_BJ^\mu_C\,\partial_\mu\varphi_C,\qquad \lvert J\rvert = \sqrt{-g_{\mu\nu}J^\mu J^\nu}.$$
@@ -7378,13 +7879,11 @@ Because $J_C$ is separately conserved, the budget identity $\delta\mathcal N_C =
 
 One mass allocation, $M_C+M_{P,\rm reg} = M_P$, is used both in the alignment potential and in the reduced Einstein source. The core's middle-space profile is the primary restricted to $\theta<\theta_C$, and it blows down to a pole measure of mass $M_C$. The regular part is the primary restricted to $\theta>\theta_C$.
 
-The conservation identity, with $\beta$ prescribed, is
-$$\nabla_\mu T^{\mu\nu}_{\rm total} = \text{(exchange)},$$
-in which the reduced continuity equation of fixed matter acquires the source
-$$X_0 = -{\rm div}_b\big(\rho_g\,w_\pi\big),$$
-where $w_\pi$ is the velocity with which the image of fixed matter drifts when the prescribed quotient moves. $X_0$ vanishes in the static weak-secondary problem. A genuine quotient variable must cancel it, and P2 cannot, because it does not move $\ker d\pi$ (R122).
+With $\beta$ prescribed, the conservation law is the Ward identity of the quotient-dependent action (§XXIX.36(c)):
+$$\sqrt{-g}\,\nabla_\mu T^\mu{}_\nu = -\big(\pi_*E_\pi\big)_\nu ,$$
+for static configurations and spatial components in the adopted extension (every component in the fully warped one); its right-hand side is the exchange four-vector. v34.7's $X_0 = -{\rm div}_b(\rho_g\,w_\pi)$, with $w_\pi$ the velocity with which the image of fixed matter drifts when the prescribed quotient moves, is not a component of it: it is the continuity defect of the kinematic bookkeeping, which gives the moving image no momentum density. A static quotient can still exchange momentum. A genuine quotient variable must cancel the whole four-vector, and P2 cannot, because it does not move $\ker d\pi$ (R122). *[v34.8, R162]*
 
-**Standing (the report's wording, adopted; R141).** With a prescribed base core fluid, a compatible regular matter action and an externally imposed quotient rule, the old finite-$s$ response is recovered *conditionally*, when the core's sweeping contribution is absent. A coupled finite-core/quotient calculation remains open.
+**Standing (R141; R164).** P3 has specified regular-matter and core-fluid sectors and a conditional source-response benchmark: with a prescribed base core fluid, a compatible regular matter action and an externally imposed quotient rule, the old finite-$s$ response is recovered *conditionally*, when the core's sweeping contribution is absent. By §XXIX.36 a prescribed quotient is compatible with Einstein's equation only where the matter it sweeps is free or its holding stress is included; the coupled finite-core/quotient calculation remains open. *[v34.8, R164]*
 
 **(d) Accuracy, measured [V; R142].** The relation $\kappa_{\rm eff}\simeq f_{\rm reg}\,\kappa_{\rm full}$, recomputed at $\delta_S = 0.1$ on $600/2600$ theta grids with $n_\varphi = 1801$:
 
@@ -7438,15 +7937,15 @@ At $\delta_S = 0.1$ ($\kappa = 0.85060$) this requires:
 v34.6's "$K_L/K_f>99$" is the limit $f_{\rm reg}\to0$, $\kappa\to1$, and is not a joint bound. A finite core must be both concentrated and attached.
 
 **(g) Interface list, updated [O].**
-- *Fixed in this round:* the matter geometry (round), the regular action and its identity, the core current, the mass allocation, the exchange term, measured accuracy, and one force observable in a rigid-closure control.
+- *Fixed in this round:* the matter geometry (round), the regular action and its identity, the core current, the mass allocation, the density-drift term of the kinematic rule, measured accuracy, and one force observable in a rigid-closure control. *[v34.8, R162]*
 - *Still open:*
-  - a quotient variable with its own equation that cancels $X_0$;
+  - a quotient variable with its own equation that cancels the exchange four-vector, or the holding stress in $T$ (§XXIX.36(g)); *[v34.8, R164]*
   - a finite interior whose blow-down produces the section measure;
   - the directional core response;
   - exchange currents for any transfer;
   - derivations of the EOS and of $K_L$.
 
-## XXIX.34 History classes, the meaning of "flipped", the doubled symplectic structure, two grades, an operational frequency test, and the readout's invariant consequence (follow-up report on v34.5; assessment of v34.6) [T/V/D/S/O; v34.7, R144–R153]
+## XXIX.34 History classes, the meaning of "flipped", the doubled symplectic structure, two grades, a labelled frequency assignment, and the readout's invariant consequence (follow-up report on v34.5; assessment of v34.6) [T/V/D/S/O; v34.7, R144–R153; v34.8, R168, R171, R174, R175]
 
 *(The follow-up report found that the history classifier lost the integer part of the $D_\infty$ element, that its long-way test retraced itself, and that an ambient orientation character had been read as an image flip. It found the frequency exclusion broader than its assumptions, and the circuit parameter used in two units. The assessment of v34.6 found that the dual-path constraint generates the common, not the relative, fiber translation; that image opposition is not antipodal passage; that $q\neq0$ histories are massive on the base; and that the Morse index at the full circuit needs its endpoint convention. Numbers from `history_classes_universal_cover()`, `pair_symplectic_and_photon_sector()`, `wave_level_returned_image()`, `frequency_operational_model()` and `two_grades_and_counts()` in §XXIX.21.)*
 
@@ -7473,11 +7972,11 @@ Three levels are kept apart:
 
 On the round leaf, the screen (Jacobi) map of the long-way history is $\sin s\,I_2$, which is negative for $\pi<s<2\pi$. That map is a rotation of the two-dimensional screen by $\pi$: it preserves orientation and is not a mirror.
 
-At wave level, the Helmholtz Green function of $S^3$ is a sum over windings ($\operatorname{Im}k>0$; checked to $6\times10^{-15}$):
+At wave level, the scalar Helmholtz Green function of $S^3$ — a scalar control with $(\Delta+k^2-1)G = 0$ away from the source on the unit sphere, not a Maxwell detector kernel *[v34.8, R171]* — is a sum over windings ($\operatorname{Im}k>0$; checked to $6\times10^{-15}$):
 $$\frac{\sin k(\pi-\gamma)}{\sin\gamma\,\sin k\pi} = \frac{1}{\sin\gamma}\sum_{n\ge0}\Big[e^{ik(\gamma+2\pi n)}-e^{ik(2\pi-\gamma+2\pi n)}\Big].$$
 The long-way wave carries the direct wave's amplitude factor with the opposite sign: a Gouy phase $\pi$ from its two transverse foci. A mirror image needs an unfolded (astigmatic) caustic, between whose two foci the screen map has one negative eigenvalue, i.e. an odd Morse index.
 
-So "flipped" means rotated by $\pi$ (index $2$) or mirrored (odd index): a property of the screen map. The $w_1 = -1$ of a comparison loop is an orientation reversal of that loop in the resolved control. Its identification with an appearance carries [S/O].
+So "flipped" is a property of the screen map. The index fixes its parity — the sign of the Jacobi determinant, a mirror for odd index — and on the round leaf the index-$2$ map is the rotation by $\pi$; in general the full Jacobi matrix must be computed (§XXIX.39(c)). *[v34.8, R171]* The $w_1 = -1$ of a comparison loop is an orientation reversal of that loop in the resolved control. Its identification with an appearance carries [S/O].
 
 **Morse convention.** On $S^3$, interior conjugate points count with multiplicity $2$:
 - index $0$ up to length $\pi$ (at exactly $\pi$ the endpoint is conjugate, with nullity $2$);
@@ -7492,7 +7991,7 @@ The constraint $q_+-q_-=0$ is therefore conjugate to $\theta_{\rm cl}$. Its Hami
 
 Reduction makes the mean fiber position gauge and keeps the relative coordinate together with the mean charge. Accordingly, a charge-diagonal pair density $\sum_qp_q\,e^{iq(\theta_+-\theta_-)}$ depends on $\theta_+-\theta_-$ only. v34.6 had the direction backwards, as the assessment showed. The pair loses the fiber *position* as an observable, but by the common translation; the relative fiber separation survives.
 
-**(d) Base-massless photons and the fiber isometry [T; R151].** On $H_{\mathcal M} = \pi^*g+\lambda^2(d\theta+A)^2$, a history with $q\neq0$ projects to a *timelike* base trajectory: Lorentz-force motion of a particle of Kaluza–Klein mass $\lvert q\rvert/\lambda$ (a geodesic only where $F = 0$). Photons that are massless on the base have $q = 0$, and for them the consistency constraint is vacuous.
+**(d) Base-massless photons and the fiber isometry [T; R151].** On $H_{\mathcal M} = \pi^*g+\lambda^2(d\theta+A)^2$, a history with $q\neq0$ projects to a *timelike* base trajectory: Lorentz-force motion of a particle of Kaluza–Klein mass $\lvert q\rvert/\lambda$ for constant $\lambda$; a variable $\lambda$ adds the force $(q^2/\lambda^3)\nabla\lambda$, and the trajectory is a geodesic only where $F = 0$ and $\nabla\lambda = 0$. *[v34.8, R170]* Photons that are massless on the base have $q = 0$, and for them the consistency constraint is vacuous.
 
 They ride horizontal lifts, $d\theta = -A$. Two lifts with common base endpoints arrive with a relative fiber offset equal to the enclosed flux $\int F$ (computed $0.912435$ against $0.912436$). Their only fiber datum is therefore an Aharonov–Bohm-type holonomy of the comparison loop. §XXIX.35 builds on exactly this.
 
@@ -7502,36 +8001,36 @@ Conservation of $q$ needs a fiber isometry. The Kaluza–Klein control has one; 
 - $\alpha_{\rm opp} = -\hat n_1\cdot\hat n_2$, the image opposition, measured at the detector;
 - $\alpha_R = \cos\beta_R$, the return near-miss, a property of the history.
 
-In the round middle space the near-miss is a conserved quantity of the geodesic flow. It equals $\lvert L\rvert = \sin\beta_R$, the $SO(4)$ angular momentum about the pole axis, which is constant to $4\times10^{-16}$ along the computed histories and exactly $0$ for histories through the return pole. Entry 275's "passing *through*" is thereby a conserved quantity.
+In the round middle space the near-miss is fixed by a conserved quantity of the geodesic flow: $\lvert L\rvert = \sin\beta_R$, where $\lvert L\rvert$ is the $SO(4)$ angular momentum about the pole axis, constant to $4\times10^{-16}$ along the computed histories and exactly $0$ for histories through the return pole. Entry 275's "passing *through*" is thereby conserved in the round symmetric control; on a lensed background its conservation is not established. *[v34.8, R175]*
 
-On the lensed leaf the two grades differ:
+On the computed lensed leaf the two grades differ (results for that lens family, not general inequalities): *[v34.8, R175]*
 - $\alpha_R\ge\alpha_{\rm opp}$;
 - the detector-side deviation $\arccos\alpha_{\rm opp}$ is $17.7$–$34.1$ times the near-miss;
 - a symmetric return lens keeps $\alpha_{\rm opp} = 1$ while it modifies the return region.
 
 The softened readout must name its grade. $\alpha_R$ implements Entry 275 literally; $\alpha_{\rm opp}$ is a detector observable, not the passage criterion. How the two are related is dynamical.
 
-**(f) The frequency test, made operational [T/D/S; R145].**
+**(f) The frequency test: a labelled transport assignment [T/D/S; R145; v34.8, R168].**
 1. *The obstruction, narrowed to its assumptions.* The stipulated reciprocal redshift and an unshifted echo are incompatible with a *history-independent* scalar transport rule whose reverse factor applies alike to fresh and reflected photons. Ordinary stationary optics with a common clock cannot supply the shift: by conservation of Killing energy, $\omega_{\rm rec}/\omega_{\rm emit} = N_{\rm emit}/N_{\rm rec}$ for stationary observers, whatever the route [Harvey, Schucking & Surowitz, Am. J. Phys. 74, 1017 (2006)].
 2. *The report's labelled countermodel.* Verified: fresh A→B gives $0.7408$, fresh B→A gives $0.7408$, and A's echo gives $1.0000$. The narrowed assumption is therefore material.
-3. *An operational candidate: a label-retained conditioned lapse.* Take $N_c(x) = e^{F(d(c,x))}$. The label $c$ is kept through passive elastic reflection and renewed on absorption and re-emission, and $1+z = d\tau_{\rm rec}/d\tau_{\rm emit} = N_c({\rm rec})/N_c({\rm emit})$. The results are:
+3. *A label-retained transport assignment.* Assign $N_c(x) = e^{F(d(c,x))}$. The label $c$ is kept through passive elastic reflection and renewed on absorption and re-emission, and the assignment sets $1+z = N_c({\rm rec})/N_c({\rm emit})$. It realizes the stipulated table algebraically. Embedded in a common-clock model, every clock-timed ratio is $N_m({\rm rec})/N_m({\rm emit})$, while the assigned ratio returns exactly as a ratio of wavelengths, because label light has its own local speed; the disagreement between the two is the carrier's observable signature (§XXIX.38). *[v34.8, R168]* The assigned values are:
    - fresh A→B and fresh B→A: $1.3499$ ($= e^{0.3}$);
    - passive echo: $1.0000$;
    - a renewing cycle: $1.8221$ ($= e^{0.6}$);
    - a conical $F = Hd$ gives $z/d\to H$, a linear law.
 
    A smooth lapse that is **isotropic about the observer** has $N'(0) = 0$ and $z = O(d^2)$. Smoothness alone would allow a directional linear gradient.
-4. *The changed structure.*
-   - One stationary Killing time is replaced by label-conditioned times, while local proper times stay common.
-   - Per-label Killing energy is conserved; label-renewing cycles lose energy, as in expansion.
-   - Within each label, distance duality, Tolman's $(1+z)^{-4}$ and $(1+z)$ time dilation hold automatically.
+4. *What the assignment requires.* *[v34.8, R168–R169]*
+   - As a ratio of clock-timed periods it needs standards that follow the label; as a ratio of wavelengths the carrier supplies it, with label light off matter's light cone and no time dilation (§XXIX.38(d)–(e)).
+   - An energy sector: each label's common-time energy is conserved in propagation, so label-following absorption is out of balance by $1-e^{-f}$; an expansion analogy is not an energy law.
+   - Within the stipulated metric-and-standard construction, distance duality, Tolman's $(1+z)^{-4}$ and $(1+z)$ time dilation hold; with common clocks, $D_L = (1+z_t)(1+z_L)D_A$ instead (§XXIX.38(f)).
    - The lapse is emitter-centred, so rays leave the source radially and $D_A = D_S/(1+z)$ by reciprocity: with the conical $F$, $D_A = d/(1+z)$ and $D_L = (1+z)\,d$ (ray-traced).
 
-   Its Hubble diagram is computed in §XXIX.35(c): it lies on the coasting curve ($q_0 = 0$, $0.23$ mag bright at $z = 1$), which SN Ia analyses disfavour. Still open: which processes keep the label, and a field equation that carries labels.
+   Its Hubble diagram is computed in §XXIX.35(c): it lies on the coasting curve ($q_0 = 0$, $0.23$ mag bright at $z = 1$), which SN Ia analyses disfavour (a benchmark comparison). That curve assumes clocks that carry the label; with common clocks the carrier gives the static curve $D_L = \ln(1+z)/H$ (§XXIX.38(f)). Still open: a physical account of label light — its speed, the missing time dilation, the resonances and their energy — and which processes keep the label. *[v34.8, R168]*
 
 **(g) The new readout and one invariant consequence [T; R152].** The null readout $D = 4\ell\tan(s/4)$ on the round leaf is a **detector assignment**. It changes no metric and reroutes no history, so Option A's orbit, lensing and epicyclic numbers do not carry over to it.
 
-Its invariant consequence is this. An image at apparent distance $D$ is the long-way image of a source lying within $d = 16\ell^2/D$ of the observer's own position on the full return. At $\ell = 16$ kpc that is $410$ pc, $41$ pc and $4$ pc for $D = 10$ Mpc, $100$ Mpc and $1$ Gpc. For a locally smooth source density, the number of images beyond $D$ therefore falls as $N(>D)\propto D^{-3}$ (the computed slope is $-3.000$), whereas observed galaxy counts within $D$ rise roughly as $D^3$ at low redshift. Remote galaxies cannot be the null readout's long-way images of the solar neighbourhood.
+Its invariant consequence is this. An image at apparent distance $D$ is the long-way image of a source lying at $d = 4\ell\arctan(4\ell/D)\simeq16\ell^2/D$ from the observer's own position on the full return. At $\ell = 16$ kpc that is $410$ pc, $41$ pc and $4$ pc for $D = 10$ Mpc, $100$ Mpc and $1$ Gpc. For a locally smooth source density the number of images beyond $D$ falls as $N(>D)\propto D^{-3}$ (the computed slope is $-3.000$), so the within-$D$ count saturates, $N(<D) = N_{\rm tot}-CD^{-3}$, and the shell count falls as $D^{-4}$. A comparison with observed counts must use the same statistic from a selected sample, with completeness, luminosity selection and the redshift-to-$D$ map (§XXIX.39(f)). The saturation and the source-neighbourhood constraint are structural difficulties for reading remote galaxies as these images; an exclusion would also need source populations, luminosities, morphologies, spectra, delayed histories and image multiplicities. *[v34.8, R174]*
 
 **(h) Units [R146].** The circuit parameter $s$ is dimensionless, so
 $$J = \ell\sin s\,\delta\theta,\qquad D_{\rm return}(s) = 4\ell\tan(s/4),$$
@@ -7555,7 +8054,7 @@ The accompanying assessment proposed the architecture $g_{\rm optical}^{(\mathca
 
 **(a) Light carries only the conformal class: optical conformal silence [T; R155].**
 
-*Theorem.* Let all matter — sources, detectors, rods, clocks and charges — couple to $g_c$. Let radiation obey Maxwell's equations of $g_{\rm opt} = \Omega^2g_c$ for any smooth $\Omega>0$, which may even be a different function for each history label. Then in four dimensions every reading of the radiation is independent of $\Omega$.
+*Theorem.* Let all matter — sources, detectors, rods, clocks and charges — couple to $g_c$. Let radiation obey Maxwell's equations of $g_{\rm opt} = \Omega^2g_c$ for any smooth $\Omega>0$, which may even be a different function for each history label. Then in four dimensions, for identical sources, detector couplings, boundary and initial data, every reading of the radiation is independent of $\Omega$ (a classical statement about the displayed coupling). *[v34.8, R175]*
 
 *Proof.* The action is $-\tfrac14\int\sqrt{-g}\,g^{\mu\alpha}g^{\nu\beta}F_{\mu\nu}F_{\alpha\beta}+\int A_\mu\mathcal J^\mu$, where the densitized current $\mathcal J^\mu$ is metric-free. Under $g\to\Omega^2g$ the density $\sqrt{-g}\,g^{\mu\alpha}g^{\nu\beta}$ scales as $\Omega^{n-4}$; this was checked to be exact for $n = 4$ and to scale as $\Omega^{\mp1}$ for $n = 3,5$. The field equations and their solutions $F_{\mu\nu}$ are therefore identical. A detector's charges move on $g_c$ under $qF^\mu{}_\nu u^\nu$, which involves only $F$ and $g_c$. $\square$
 
@@ -7567,11 +8066,11 @@ If $\Omega$ acts on the base metric only, the one loophole is the $q\neq0$ Kaluz
 
 **(b) Matter carries the scale, and how frozen it must be [T/V; R156].** A massive particle in $\Omega^2g_c$ accelerates as $-c^2\nabla\ln\Omega$: a computed release from rest agrees with $-\tfrac12\nabla\ln\Omega\,t^2$ to $1$ %.
 
-Suppose stars felt the softened factor ($\alpha = 0.5$, $\ell = 16$ kpc) as a metric factor. With $v^2/c^2 = u/(1+u)$ and $u = r\,d\ln\Omega/dr$, the circular speeds would be $26{,}900$, $53{,}200$ and $101{,}700$ km/s at $5$, $10$ and $20$ kpc. A partial coupling $\Omega^\epsilon$ adds $\epsilon\times0.0326\,c^2$ to $v^2$ at $10$ kpc; keeping that below 1 % of $(200\ \text{km/s})^2$ needs $\epsilon<1.4\times10^{-7}$.
+Suppose stars felt the softened factor ($\alpha = 0.5$, $\ell = 16$ kpc) as a metric factor. With $v^2/c^2 = u/(1+u)$ and $u = r\,d\ln\Omega/dr$, the circular speeds would be $26{,}900$, $53{,}200$ and $101{,}700$ km/s at $5$, $10$ and $20$ kpc. A partial coupling $\Omega^\epsilon$ adds $\epsilon\times0.0326\,c^2$ to $v^2$ at $10$ kpc; keeping that below 1 % of $(200\ \text{km/s})^2$ needs $\epsilon<1.4\times10^{-7}$ — a design constraint of this benchmark, not an empirical bound on every coupling. *[v34.8, R175]*
 
-*The dilemma [D].* By (a), a *conformal* factor on the light alone is unobservable. A factor felt by matter is a force, which the rotation curves bound at $\epsilon\lesssim10^{-7}$ of its optical size. An index can then be observable and harmless in only two ways:
-- as a **non-conformal, label-conditioned optical metric**: light of each label propagates on a metric outside the conformal class of $g_c$, as the emitter-centred lapse of §XXIX.34(f) does. This changes what the light does, not what matter feels.
-- as a **readout**: a history-dependent assignment of the source's standards (rods and clocks). This changes measured quantities only if the emitter's physical standards carry the label at emission. For an index set by the observer, or by the pair, that would be acausal. The physical carrier of a readout is therefore open.
+*The dilemma [D].* By (a), a *conformal* factor on the light alone is unobservable. A factor felt by matter is a force; in the named benchmark the rotation-curve design target allows $\epsilon\lesssim10^{-7}$ of its optical size. *[v34.8, R175]* An index can then be observable and harmless in only two ways:
+- as a **non-conformal, label-conditioned optical metric**: light of each label propagates on a metric outside the conformal class of $g_c$, as the emitter-centred lapse of §XXIX.34(f) does. This changes what the light does, not what matter feels. With common clocks it changes wavelengths, delays, directions and $D_A$, but no clock-timed frequency, so its redshift comes without time dilation (§XXIX.38). *[v34.8, R168]*
+- as a **readout**: a history-dependent assignment of the source's standards (rods and clocks). This changes measured quantities only if the emitter's physical standards carry the label at emission. A dynamical change of the emitter's standards controlled by a future receiver would raise a causal problem; a receiver-conditioned interpretation or a conditional probability would not, and signalling has not been tested. The physical carrier of a readout is open. *[v34.8, R175]*
 
 As the assessment noted, matter can be split (in atom interferometers, for example), so what protects matter is not a law against separation. It is the postulate that matter's standards are not Weyl-transported, (d). The area law alone protects only small loops: about $4\times10^{-42}$ for a $1$ m loop at $\ell = 16$ kpc, but $(1\ {\rm kpc}/\ell)^2\approx4\times10^{-3}$ for two stars whose histories enclose a square kiloparsec.
 
@@ -7603,27 +8102,27 @@ Distance modulus relative to flat ΛCDM with $\Omega_m = 0.3$ and the same $H_0$
 |---|---|---|---|---|
 | emitter-centred $p = 0$ (the label-retained lapse of §XXIX.34(f)); observer-centred $p = 1$ (the conformal readout at the source) | $0$ | $-0.182$ mag | $-0.232$ mag | $-0.209$ mag |
 | observer-centred $p = 0$; emitter-centred $p = 1$ (the conformal readout at the receiver) | $-2$ | $+0.698$ mag | $+1.273$ mag | $+2.177$ mag |
-| fitted intermediate ($p\approx0.73$ observer-centred, $p\approx0.28$ emitter-centred: one curve) | $-0.55$ | $+0.060$ mag | $+0.182$ mag | $+0.447$ mag |
+| matched at second order ($p\approx0.73$ observer-centred, $p\approx0.28$ emitter-centred: one curve) | $-0.55$ | $+0.060$ mag | $+0.182$ mag | $+0.447$ mag |
 | flat ΛCDM, $\Omega_m = 0.3$ | $-0.55$ | $0$ | $0$ | $0$ |
 
 - The label-retained lapse of v34.7 lies on the coasting curve, $0.23$ mag bright at $z = 1$. SN Ia analyses disfavour coasting; how strongly has been debated [Nielsen, Guffanti & Sarkar 2016; Rubin & Hayden 2016].
-- The $q_0 = -2$ cases are excluded by more than a magnitude at $z = 1$.
-- A fitted intermediate $p$ matches $q_0$ at second order and still misses by $+0.18$ mag at $z = 1$ and $+0.45$ mag at $z = 2$.
+- The $q_0 = -2$ cases miss the fixed benchmark by more than a magnitude at $z = 1$: a benchmark discrepancy, not a likelihood exclusion. *[v34.8, R169]*
+- The intermediate $p$, matched to $q_0$ at second order, still misses by $+0.18$ mag at $z = 1$ and $+0.45$ mag at $z = 2$. *[v34.8, R169]*
 - Suppose instead the light stayed on $g_c$ while the source's standards were rescaled (clocks by $\Omega$, rods by $\Omega^p$). Then $D_L = (1+z)\,d$ for every $p$ — the coasting curve — and $D_L/D_A = (1+z)^{1+p}$, so distance duality would fail unless $p = 1$.
 - On the radius-$\ell$ leaf instead of flat $h$, $d$ becomes $\ell\sin(d/\ell)$ in the area distances.
 
-The readout thus fixes the whole Hubble diagram once the index and its centring are chosen. That is exactly the "actual optical readout" the assessment asked for.
+Within the stipulated metric-and-standard construction, the readout thus fixes the whole Hubble diagram once the index and its centring are chosen. $q_0$ is an effective cosmographic coefficient, and the table assumes clocks that carry the index: with common clocks a label lapse gives a wavelength redshift without time dilation, and the static curve $D_L = \ln(1+z)/H$ (§XXIX.38(f)). A likelihood comparison would fit the distance law to released data with calibration, nuisance parameters and covariance; none is made here. *[v34.8, R169]*
 
 **(d) "Frozen = joined": the pair's index as a Weyl length holonomy [T/D; R158].** Let $\phi$ be a Weyl length connection: a real 1-form with $\phi\to\phi+d\sigma$ when the scale representative changes as $g\to e^{2\sigma}g$. The conformal index of a pair $(\gamma_1,\gamma_2)$ with common ends is
 $$\ln\Omega[\gamma_1,\gamma_2] = \int_{\gamma_1}\!\phi-\int_{\gamma_2}\!\phi = \oint\phi = \iint_\Sigma d\phi .$$
 - It is gauge invariant. A gauge term $d(0.3\,y\sin x)$ drops out exactly.
 - It obeys an **area law**: $\lvert\ln\Omega\rvert\le\max\lvert d\phi\rvert\cdot{\rm Area}(\Sigma)\to0$ as the histories join. Computed in the plane, $\ln\Omega = -B\times\text{enclosed area}$ to $10^{-10}$ at separations $0.4$, $0.1$ and $0.025$.
 
-This is the author's "frozen metric = joined histories" made exact, and his "much smaller than the radius" is the area law with $\lvert d\phi\rvert\sim1/\ell^2$. The freezing holds pair by pair; it is not a property of a metric.
+For pairs that bound a shrinking surface with bounded $d\phi$, this is the author's "frozen metric = joined histories" made exact, and his "much smaller than the radius" is the area law with $\lvert d\phi\rvert\sim1/\ell^2$. The freezing holds pair by pair; it is not a property of a metric. A noncontractible loop, a retained long-way branch or a lens pair need not freeze (§XXIX.37(d)). *[v34.8, R167]*
 
 *What can read it [T].* A Weyl holonomy is Einstein's "second-clock effect". By (a) it is invisible to the light itself: Maxwell's equations see only the conformal class, which a Weyl geometry fixes, and the eikonal frequency is slaved to the emitter's clock. It is visible only to standards carried along *both* histories. It can therefore enter observation only as a readout rule [D]: the source's standard is compared with the receiver's by transport along the history, which is Weyl's 1918 prescription for comparing lengths at a distance. Its physical carrier is the open question of (b). Einstein's objection, that atomic standards would then depend on their histories, applies to *any* two atoms with different worldlines, not only to split matter. It is avoided only by the postulate that matter's standards are not Weyl-transported — the author's frozen matter. The area law alone protects only small loops: $\sim10^{-42}$ at a metre, but $\sim4\times10^{-3}$ for histories enclosing a square kiloparsec.
 
-*Link to §XXIX.34(d).* The only fiber datum of base-massless photons is the enclosed-flux holonomy $\int F$. Reading the fiber as a scale turns that holonomy into a conformal index, $\phi = \kappa_W A$ [D]. Weyl's original "gauge" was a real scale; London (1927) reinterpreted it as a phase. The separation of the light thereby controls the conformal index through the flux it encloses, as Entry 277 proposes, though as a readout and not as a metric.
+*Link to §XXIX.34(d).* The only fiber datum of base-massless photons is the enclosed-flux holonomy $\int F$, a phase defined mod $2\pi$. Reading it as a scale, $\phi = \kappa_W A$, is a **local ansatz**: a compact phase has no continuous homomorphism to $\mathbb R_+$, and a large gauge transformation changes $e^{\kappa_W\oint A}$ by $e^{2\pi\kappa_W}$. It needs a lift of the fiber with retained winding, or a separate real connection (§XXIX.37). Weyl's original "gauge" was a real scale; London (1927) reinterpreted it as a phase. *[v34.8, R165]*
 
 **(e) Indices that depend on the class alone [T; R158].** $D_\infty = \langle a,b\mid b^2 = 1,\ bab = a^{-1}\rangle$. A homomorphism $h:D_\infty\to(\mathbb R,+)$ must have $h(b) = 0$ and $h(a) = -h(a)$, so every *untwisted* class index is trivial.
 
@@ -7638,7 +8137,7 @@ The orientation-odd indices are crossed homomorphisms, $f(gh) = f(g)+\epsilon_gf
 
 The factors are reciprocal on the two sheets, since $f(bab) = -f(a)$.
 
-So the only conformal index that depends on the class alone is orientation-odd: it inverts on the other sheet. It is the 1-form counterpart of the exchange of self-dual and anti-self-dual parts under orientation reversal in (f), and it distinguishes return crossings from primary crossings. Like the deck parity of R133, however, it jumps at exact alignment, because a skewed comparison loop is trivial. An index that softens continuously with skew, as Entry 275 asks, needs a *curved* Weyl connection — the area law — and not a flat one.
+So the only *additive flat* index that depends on the class alone is orientation-twisted: it inverts on the other sheet, and it distinguishes return crossings from primary crossings. An arbitrary class function need not be additive, and the twisted coefficient system is a choice, not forced by the orientation line; the deck-even Hopf form of (f) is a distinct alternative (§XXIX.37(c)). *[v34.8, R166]* Like the deck parity of R133, however, it jumps at exact alignment, because a skewed comparison loop is trivial. An index that softens continuously with skew, as Entry 275 asks, needs a *curved* Weyl connection — the area law — and not a flat one.
 
 **(f) The duality foothold [T/D/S; R159].**
 
@@ -7653,11 +8152,11 @@ So the only conformal index that depends on the class alone is orientation-odd: 
 $$\ln\Omega = -2\pi\kappa_W\cos\vartheta_H ,$$
 where $\vartheta_H$ is the angle between the direct image and the local Hopf fibre. This is a **sky dipole**, independent of the source's distance (checked to $10^{-10}$ at $s = 0.5$, $2$ and $4$).
 2. Small pairs freeze as size$^2$, with coefficient equal to the bulge area times $d\phi$, which is twice the Kähler form. Stokes holds to $3\times10^{-9}$; the Richardson coefficient is $-0.10936$ against the leading term $-0.10913$.
-3. The anti-self-dual choice gives the dipole about the right-Hopf fibre, and orientation reversal exchanges the two structures.
+3. The anti-self-dual choice gives the dipole about the right-Hopf fibre. An orientation-reversing ambient reflection exchanges the two structures; the deck map $b$ does not, and the Hopf form is deck-even (§XXIX.37(c)). *[v34.8, R166]*
 
 The structure is homogeneous under $SU(2)$, so every observer sees the same dipole relative to their own fibre direction. This is a testable law — long-way images offset by a dipole across the sky — but it is not the softened Option A.
 
-*Where Weyl curvature does exist.* In lensing by galaxies, Ricci curvature focuses a ray bundle directly. Weyl curvature generates its shear, which distorts the image's shape and focuses only at second order; in vacuum lensing by a point mass all of the magnification arises that way. A conformal factor changes the Ricci focusing and leaves the Weyl tensor alone [Sachs 1961; Perlick 2004].
+*Where Weyl curvature does exist.* In lensing by galaxies, Ricci curvature focuses a ray bundle directly. Weyl curvature generates its shear, which distorts the image's shape and, about a shear-free bundle, focuses only at second order (pre-existing shear varies the squared-shear term linearly); in vacuum lensing by a point mass all of the magnification arises that way. A conformal factor changes the Ricci focusing and leaves the mixed-index Weyl tensor $C^a{}_{bcd}$ unchanged, while the fully lowered $C_{abcd}$ scales by $\Omega^2$ [Sachs 1961; Perlick 2004]. *[v34.8, R175]*
 
 The author's self-dual/anti-self-dual intuition thus has two honest homes: as the 2-forms that can select a pair index (the Hopf structures), and as the conformally invariant curvature that indexes the *shapes* of images. Neither supplies a scale.
 
@@ -7668,15 +8167,354 @@ More generally, a smooth index gives at first order $\phi_p(v)$, which is odd in
 The softened factor can be written as a Weyl flux only by choosing the field strength to be $d\ln A_\alpha/ds$ divided by the growth rate of the enclosed area. That is a fit, not a derivation [O].
 
 **(h) Answer to Entry 277 and to the assessment's three requirements [D/O].**
-1. *Local freezing:* yes, for any pair index that is a Weyl holonomy. The area law makes the frozen metric the joined-pair limit, pair by pair [T].
+1. *Local freezing:* yes, for any pair index that is a Weyl holonomy, for pairs that bound a shrinking surface. The area law makes the frozen metric the joined-pair limit, pair by pair [T]; the direct/long-way pair never freezes (§XXIX.37(d)). *[v34.8, R167]*
 2. *A conformal selection law:* not derived. The definite candidate — the Hopf Weyl form, self-dual or anti-self-dual — gives a testable law, a distance-independent dipole for long-way images, but not the softened Option A. Reproducing $A_\alpha$ needs a fitted field strength [D/O]. Any index of *passage* should use the conserved grade $\alpha_R$ of §XXIX.34(e), not the image opposition.
-3. *The optical readout:* once the rule is given — which end's standards are rescaled, and how the index is centred — redshift, $D_A$, $D_L$, time dilation, surface brightness, angles and arrival events all follow in one construction [T]. The rule's physical carrier is open. For the conical index this fixes the whole Hubble diagram: the pure cases give the coasting curve or $q_0 = -2$, and neither fits.
+3. *The optical readout:* once the rule is given — which end's standards are rescaled, and how the index is centred — redshift, $D_A$, $D_L$, time dilation, surface brightness, angles and arrival events all follow in one construction, within the stipulated metric-and-standard construction [T]. The rule's physical carrier is open; with common clocks a label carrier shifts wavelengths but no clock-timed frequency (§XXIX.38). For the conical index this fixes the whole Hubble diagram: the pure cases give the coasting curve or $q_0 = -2$, and neither matches the benchmark. *[v34.8, R168–R169]*
 
-*Structural restatement.* Light is already conformal and matter carries the scale. A history pair can act only through a non-conformal, label-conditioned optical metric, or through the scale assigned at its ends — never as a metric felt by matter, which the rotation curves bound at $\epsilon<1.4\times10^{-7}$.
+*Structural restatement.* Light is already conformal and matter carries the scale. A history pair can act only through a non-conformal, label-conditioned optical metric — which with common clocks shifts wavelengths but no clock-timed frequency — or through the scale assigned at its ends; not as the stated nonconstant factor felt by matter at the stated scale, which the benchmark's design target bounds at $\epsilon<1.4\times10^{-7}$. *[v34.8, R168, R175]*
 
-Entry 277 therefore survives in corrected form: a frozen metric for matter (by postulate: its standards are not Weyl-transported); light that sees only its conformal class unless a label conditions it; and a pair-conditioned assignment whose freezing is the area law and whose physical carrier is open. The softened conformal factor remains a benchmark that a derived law should explain.
+Entry 277 therefore survives in corrected form: a frozen metric for matter (by postulate: its standards are not Weyl-transported); light that sees only its conformal class unless a label conditions it; and a pair-conditioned assignment whose freezing, for pairs bounding a shrinking surface, is the area law and whose physical carrier is open. *[v34.8, R167]* The softened conformal factor remains a benchmark that a derived law should explain.
 
-## XXIX.16 Register R56–R160, the evidence-status system, the reprioritized program, the minimum theorem package, and reproducibility [D/O; v34.1–34.7]
+## XXIX.36 The quotient-dependent action and its Ward identity: what a prescribed quotient may do, and why the kinematic shift fails (report on v34.7, task B) [T/V/D/O; v34.8, R161–R164]
+
+*(The report on v34.7 reproduced the 115-check program unchanged (all passed, exit status 0, SHA `ce232dd5…`) and found two defects in P3's interface. First, the displayed regular action used a four-dimensional measure with a three-direction warp. Second, the "total conservation identity" with the density-drift term $X_0$ was a placeholder: a static external variable can exert a force with no density drift at all. It asked for one action with a precise meaning for $\beta$, the metric variation with what is held fixed, the complete off-shell diffeomorphism identity, and the exchange four-vector with its compatibility conditions — or a no-go. Numbers from `lorentzian_extension_check()` and `quotient_ward_identity()` in §XXIX.21.)*
+
+**(a) The Lorentzian extension [T/D; R161].** The round spatial matter geometry $d\theta^2+\sin^2\theta\,h$ has three horizontal directions and volume factor $\sin^3\theta$. It has two Lorentzian extensions, and v34.7's display mixed them. At $\theta = 0.3$ (the report's numbers, reproduced):
+
+| extension | measure | inverse time coefficient |
+|---|---|---|
+| all four base directions warped, $d\theta^2+\sin^2\theta\,g$ | $\sin^4\theta\sqrt{-g}$: $0.00762691$ | $-\sin^{-2}\theta$: $-11.45053$ |
+| the three spatial directions warped, $-N^2dt^2+d\theta^2+\sin^2\theta\,h$ | $\sin^3\theta\,N\sqrt h$: $0.02580843$ | $-N^{-2}$: $-1$ at $N = 1$ |
+
+The spatially warped extension is adopted. It carries a preferred static frame $u = N^{-1}\partial_t$, which is the domain of the static benchmark:
+$$H = -N^2dt^2+d\theta^2+\sin^2\theta\,h_{ab}\,dx^adx^b,$$
+$$S_{\rm reg} = \int dt\,d^3x\,N\sqrt h\int_0^\pi\sin^3\theta\,\Big[\frac{(\partial_t\Psi)^2}{2N^2}-\frac{h^{ab}\partial_a\Psi\,\partial_b\Psi}{2\sin^2\theta}-\tfrac12(\partial_\theta\Psi)^2-V(\Psi)\Big]d\theta .$$
+- Base: $3+1$ dimensions, Lorentzian.
+- Measure: $N\sqrt h\,\sin^3\theta$.
+- Lapse: $N$, unwarped.
+- Vertical length: $L = 1$.
+- Horizontal metric: $\sin^2\theta\,h$.
+- Preferred field: $u$.
+
+The horizontal indices of v34.7's display are spatial, and its time term is unwarped. The static results of §XXIX.33 used only the spatial part, so they stand. A covariant version would need $u$ as a field with its own action, and its Euler–Lagrange terms would then enter the identity of (c).
+
+**(b) What $\beta$ is [D].** A quotient is a submersion $\pi:\mathcal M_{\rm reg}\to B$. Its fibres are the level sets of $\pi$, and $\ker d\pi$ is their tangent distribution. A deformation is a family $\pi_\beta$; in a chart, $\pi_\beta = \pi_0+\beta$, with $\beta$ a displacement field on $\mathcal M_{\rm reg}$ (a section of $\pi_0^*TB$).
+- The part of $\beta$ that is constant on each fibre, $\beta = b\circ\pi_0$, leaves the fibres unchanged and only relabels them. When the geometry follows the quotient (class (i) below), a relabelling is equivalent to moving the base metric by a diffeomorphism.
+- Only the fibre-dependent part of $\beta$ tilts $\ker d\pi$.
+- A connection $A$ changes the horizontal distribution and leaves $\ker d\pi$ alone (P2, R122). It cannot stand in for $\beta$.
+
+**(c) The action and the Ward identity [T; R162].** With the geometry built from the quotient,
+$$S = \frac{1}{16\pi G}\int_B\sqrt{-g}\,(R-2\Lambda)+S_{\rm reg}[\Psi;H_\pi]+S_C[g,J_C,\varphi_C],\qquad H_\pi = -(N\circ\pi)^2dt^2+d\theta^2+\sin^2\theta\,\pi^*h ,$$
+where:
+- $\theta$ is the meridian angle, a fixed function on $\mathcal M$;
+- the regular region $\{\theta>\theta_C\}$ is a fixed region of $\mathcal M$, so its boundary does not move with $\pi$ (a cutoff defined on the base would move, and would add boundary terms);
+- $S_C$ is Brown's core action (§XXIX.33(b)).
+
+The metric variation is taken at fixed $\Psi$ (a function on $\mathcal M$), fixed $\pi$, fixed densitized current $J_C$ and fixed $\varphi_C$. It gives $T = T_{\rm reg}+T_C$, where $T_{\rm reg}$ is the pushforward, along the fibres of $\pi$, of the middle-space stress. Write $E_\pi = \delta S_{\rm matter}/\delta\pi$ (at fixed $g$, $\Psi$, $J_C$) for the "quotient force", a covector density on $\mathcal M$, and $\pi_*E_\pi$ for its fibre integral.
+
+$S_{\rm matter}$ depends on $g$ only through $\pi^*h$ and $N\circ\pi$, and $S_C$ is diffeomorphism invariant. So a base diffeomorphism $\psi$ that acts by $g\to\psi_*g$, $\pi\to\psi\circ\pi$, $J_C\to\psi_*J_C$, with $\Psi$ fixed, leaves the action unchanged, provided it preserves the preferred frame $u$ (for static configurations: a time-independent spatial diffeomorphism). In the fully warped extension every base diffeomorphism qualifies; in the adopted one, a general diffeomorphism adds $u$'s Euler–Lagrange term to the right-hand side. Hence, with the core on its own equations,
+$$\boxed{\ \sqrt{-g}\;\nabla_\mu T^\mu{}_\nu = -\big(\pi_*E_\pi\big)_\nu\ }\qquad\text{identically in }g,\ \pi,\ \Psi\quad(\text{static configurations, }\nu\ \text{spatial; every }\nu\text{ in the fully warped extension}).$$
+The **exchange four-vector** is $X_\nu = -(\pi_*E_\pi)_\nu/\sqrt{-g}$. Two consequences follow:
+- *A static quotient can exchange momentum.* For a static $\pi$ the spatial components $X_a$ need not vanish.
+- *v34.7's $X_0 = -{\rm div}_b(\rho_g w_\pi)$ is not a component of this four-vector.* It is the continuity defect of the kinematic bookkeeping, which moves the image of fixed matter without giving it momentum density. Where the identity has a time component (the fully warped extension), that component in class (i) is the power of the residual force, $\pi_*(E_\Psi\,\partial_0\Psi)/\sqrt{-g}$: the image of held matter carries momentum density, which balances its density drift. Either way, a vanishing density drift says nothing about $X_a$.
+- *Compatibility.* With $G_{\mu\nu}+\Lambda g_{\mu\nu} = 8\pi G\,T_{\mu\nu}$, the Bianchi identity requires $\pi_*E_\pi = 0$. For an external $\pi$ this is a constraint on the configurations allowed. For a dynamical $\pi$ with its own diffeomorphism-invariant action $S_Q[\pi,g]$, the quotient equation $E^{\rm matter}_\pi+E^Q_\pi = 0$ makes $T+T_Q$ conserved.
+
+**(d) Class (i): when the geometry follows the quotient, the quotient is a gauge [T; R163].** Let $\Phi_\beta:\mathcal M\to\mathcal M$ preserve $\theta$ and satisfy $\pi_\beta = \pi_0\circ\Phi_\beta$. Then $H_{\pi_\beta} = \Phi_\beta^*H_{\pi_0}$, and by diffeomorphism invariance on $\mathcal M$,
+$$S_{\rm reg}[\Psi;\Phi_\beta^*H] = S_{\rm reg}[\Psi\circ\Phi_\beta^{-1};H].$$
+Changing the quotient at fixed matter is therefore the same as dragging the matter at a fixed quotient: $E_\pi = -E_\Psi\,d\Psi$ fibrewise. The identity becomes $\sqrt{-g}\,\nabla_\mu T^\mu{}_\nu = \pi_*(E_\Psi\,\partial_\nu\Psi)$, which is the identity of the warped action (§XXIX.33(a)) and of Theorem I, written in adapted coordinates. So:
+- matter that obeys its own equation, $E_\Psi = 0$, exchanges nothing, whatever the quotient does: it follows the quotient, and the deformation is pure gauge;
+- only matter **held** at its place in $\mathcal M$ while the fibres move — off its equation, so that its base image is swept — exchanges momentum, and the exchange is its equation residual.
+
+*Evidence.* The identity is tested directly in the torus control below. The quotient derivative $dS/d\pi$ is computed by varying $\pi$ along six base vector fields, $\xi = \sin(kx+0.4k)$ with $k = 1,\dots,6$, at fixed matter and fixed metric. It equals minus the integrated stress divergence $\int\sqrt{-g}\,\xi\,\nabla_\mu T^\mu{}_x$, and the sum of the quotient variation and the metric variation $-\mathcal L_\xi g$ vanishes. Both hold to $5.2\times10^{-8}$, with finite-difference step $10^{-4}$, for values of $dS/d\pi$ between $0.03$ and $0.88$.
+
+*The torus control [V].* It has the following ingredients:
+- a fibre circle $\theta$ with warp $\sigma = 1+0.3\cos\theta$;
+- a base circle $x$ with $N = 1+0.15\cos x$ and $\gamma = 1+0.25\sin(x+0.3)$, so $H_0 = -N^2dt^2+d\theta^2+\sigma^2\gamma\,dy^2$;
+- matter $\Psi_0(y) = 2\pi F(y)/F(2\pi)$ with $F' = \sqrt\gamma/N$, the winding field that is on-shell for the undeformed quotient;
+- the quotient $\pi_b = y+b[\cos\theta\cos y+\tfrac12\sin(\theta+2y)]$ with $b = 0.1$;
+- numerics: spectral derivatives on a $64\times128$ grid, and $F$ as an exact Fourier series (80 modes).
+
+The results:
+
+| matter | exchange $\max\lvert X\rvert$ | residual of $X = \pi_*(E_\Psi\,\partial_x\Psi)/\sqrt{-g}$ (Theorem I in adapted coordinates) |
+|---|---|---|
+| co-moving (follows the quotient) | $1.6\times10^{-11}$ (stress-divergence scale $1.080$) | $2.1\times10^{-13}$ |
+| held in $\mathcal M$ | $0.6208$; ratio $1.999$ between $b/5$ and $b/10$ (linear) | $1.0\times10^{-13}$ |
+
+Co-moving matter, held as $\Psi = \Psi_0\circ\pi_b$, is on-shell, so its first variation vanishes, $E_\pi = -E_\Psi\,d\Psi = 0$: the computed $\max\lvert dS/d\pi\rvert$ is $1.2\times10^{-8}$ (its second variation does not vanish). The held-matter exchange converges spectrally: $0.61703305$ on $32\times64$, and $0.62078989$ on both $64\times128$ and $128\times256$.
+
+**(e) Class (ii): reducing fixed matter along moved fibres with the geometry unchanged is non-covariant and non-conservative [T/V; R164].** Now keep the matter geometry fixed by the undeformed quotient, and push the source forward along the deformed fibres. This is the kinematic quotient-shift rule of §§XXIX.12, 24 and 28, which pushed forward the scalar density; here it is extended to the stress tensor. The exchange is nonzero even for on-shell matter:
+- $1.5\times10^{-13}$ at $b = 0$;
+- $0.1645$ at $b = 0.1$;
+- $0.0823$ at $b = 0.05$ (ratio $1.998$: linear in the deformation).
+
+The defect is not specific to tilted fibres. A pure relabelling, $\beta = 0.1\cos y$, which moves no fibre, gives an exchange of $0.4010$. The rule displaces the source against an untransformed metric: it is non-covariant as well as non-conservative. Such a source is not the metric variation of any action invariant under the joint transformation of (c), so no Ward identity protects it.
+
+*Without an added stress, the tensor pushforward is incompatible with Einstein's equation, even for free matter.* An added stress could restore conservation formally, but it would have to cancel an exchange that appears even when no fibre moves.
+
+**(f) What follows for P3 [T/D; R164].** P3's deficit $\kappa$ is produced by matter that the moving quotient sweeps:
+- the primary's regular part, held in $\mathcal M$, of fraction $f_{\rm reg}$;
+- for smooth core matter of finite attachment stiffness, also the unattached core: $f_{\rm eff} = f_{\rm reg}+(1-f_{\rm reg})/(1+K_L/K_f)$, by §§XXIX.30 and 33(f). P3's core current is attached by construction.
+
+By (d) and (e):
+- In class (i), the swept matter is held matter, so it exchanges momentum through its equation residual. The deficit and the exchange have one origin, and by the structure of (d) the exchange is first order in the secondary and proportional to the swept fraction [D: argued from (d); not computed for P3, whose regular part enters the computed benchmark as a prescribed density]. Einstein's equation then requires the **holding stress** — whatever holds the swept matter in $\mathcal M$, the attachment stiffness $K_L$ included — to enter $T$.
+- In class (ii), the rule is non-covariant; without an added stress it is incompatible.
+- At $f_{\rm eff} = 0$ nothing is swept. There is no first-order exchange (the secondary's own sweep is second order in its strength), so the static benchmark of §XXIX.28 is compatible at first order — where it predicts no deficit, $G_{\rm eff} = G$.
+
+The gradient-flow quotient of §XXIX.25 is not derived from an action, and a quotient sector $S_Q$ with its own equation remains open.
+
+**(g) Standing, and what task C needs [O].**
+
+*Standing (the report's recommended wording, extended by (c)–(f)).* P3 has:
+- specified regular-matter and core-fluid sectors;
+- a spatially warped Lorentzian extension;
+- a conditional source-response benchmark;
+- a quotient dependence obeying $\sqrt{-g}\,\nabla_\mu T^\mu{}_\nu = -(\pi_*E_\pi)_\nu$ — for static configurations and spatial components in the adopted extension, every component in the fully warped one.
+
+A prescribed quotient is compatible with Einstein's equation in two cases: where the matter it sweeps is free, in which case it is a gauge and produces no deficit; or where the holding stress is included. The kinematic shift with the geometry unchanged is non-covariant, and without an added stress it is incompatible. Three things are open: the holding stress, a quotient sector with its own equation, and an action for the preferred frame $u$, which the time component of the identity needs.
+
+*The coupled weak-secondary response (task C) is not attempted.* It needs one of two things first:
+- (α) an attachment field whose stress enters $T$, with $K_L$ as its modulus;
+- (β) a quotient sector $S_Q[\pi,g]$ with its own equation.
+
+Its required outputs are those the report lists:
+- zero modes, boundary conditions and the finite-core interior;
+- the region of linearization;
+- source and force reported separately;
+- a defined calibration experiment;
+- the radial dependence;
+- compactness and stiffness varied together, with the 1 % target stated as a design tolerance.
+
+## XXIX.37 Which bundle carries a real scale: large gauge, the leaf's contact form, deck parity, the scope of freezing, and the matter reading (report on v34.7, task E; assessment of v34.7) [T/V/D; v34.8, R165–R167]
+
+*(The report on v34.7 found that a compact phase cannot simply become a real scale. Under a large gauge transformation a "scale" $e^{\kappa_W\oint A}$ changes by $e^{2\pi\kappa_W}$, which is $3.51359$ at $\kappa_W = 0.2$. It also found that the Hopf form is deck-even, not deck-odd, and that freezing was claimed beyond the small-loop hypotheses. The assessment of v34.7 made the same phase-to-scale point and added that small loops freeze linearly, not quadratically, when only the transverse separation shrinks. Numbers from `scale_bundle_and_parity()` in §XXIX.21.)*
+
+**(a) The decision: the fibre phase is not a scale [T/D; R165].** The middle-space fibre is a circle. Its structure group is $U(1)$ on the oriented cover $Y$, and the deck map $b(n,\theta) = (-n,-\theta)$ twists it to $O(2)$ on the resolved control. Its holonomy is therefore a phase, defined mod $2\pi$.
+
+A phase cannot be a scale. There is no nontrivial continuous homomorphism $U(1)\to\mathbb R_+$, because the image of a compact group is a compact subgroup of $\mathbb R_+$, and the only one is $\{1\}$.
+
+*The large-gauge test.* Take the Hopf base $S^2$ with its monopole connection (total flux $2\pi$) and a latitude loop at $\theta = 1.0$:
+- the northern cap gives flux $+1.444183$ and the southern cap $-4.839002$, a difference of $2\pi$;
+- the $U(1)$ holonomy $e^{i\,\rm flux}$ agrees for both caps;
+- a "scale" $e^{\kappa_W\,\rm flux}$ differs by $e^{2\pi\kappa_W} = 3.51359$, the report's factor.
+
+The middle-space version is the same. Two horizontal lifts arrive with a fibre offset $\int F$. Closing the loop needs a vertical segment whose length is defined only up to $2\pi n$.
+
+v34.7's $\phi = \kappa_WA$ (§XXIX.35(d)) is therefore a **local ansatz**. It becomes a scale connection only with one of two further structures:
+- (α) a lift of the fibre to its universal cover $\mathbb R$, with the winding retained as history data. Because $b$ reverses $\theta$, the resulting scale inverts on the other sheet: its connection obeys the twisted equivariance $b^*\phi = -\phi$, and the flat class index of §XXIX.35(e) is its flat case.
+- (β) a separate real connection.
+
+**(b) The leaf's contact form is a separate, global real connection [T].** On the leaf, $\alpha_J = \langle Jx,dx\rangle$ is the Hopf connection pulled back to its total space $S^3$, and it is a global 1-form. Its loop integrals are therefore unambiguous. For a random great circle, three different spanning hemispheres give $+0.48881958$ each, equal to $\oint\alpha_J$.
+
+The Hopf candidate $\phi = \kappa_W\alpha_J/\ell^2$ of §XXIX.35(f) is thus a legitimate real scale connection of type (β): an $\mathbb R_+$ connection with a new coupling $\kappa_W$. It is not obtained from the phase of the Kaluza–Klein fibre.
+
+**(c) Deck parity [T; R166].** Under $b(n,\theta) = (-n,-\theta)$ the leaf part of the map is the antipodal map, and $\alpha_J(-n)(-v)-\alpha_J(n)(v) = 0$. So:
+- The Hopf form is **deck-even**, $b^*\alpha_J = +\alpha_J$. It descends to the resolved space as an ordinary, untwisted 1-form.
+- $\det(-I_4) = +1$, so the antipodal map keeps $J$ self-dual (checked). Only an orientation-reversing ambient reflection makes it anti-self-dual (checked). That reflection is not the deck map.
+- The orientation-twisted flat index of §XXIX.35(e), which inverts on the other sheet, and the even Hopf form are **distinct alternatives**, not one mechanism. No common framework is claimed.
+
+v34.7's statement that "the only conformal index that depends on the class alone is orientation-odd" is narrowed to *additive flat transport indices*: homomorphisms and crossed homomorphisms on $D_\infty$. An arbitrary class function need not be additive. A twisted logarithmic scale is also a choice of coefficient system, not something forced by the orientation line.
+
+**(d) The scope of freezing [T/V; R167].** The area law $\lvert\ln\Omega\rvert\le\max\lvert d\phi\rvert\cdot{\rm Area}$ guarantees freezing for a pair that bounds a *shrinking* surface with bounded curvature. (It is a sufficient condition: a finite loop of zero flux also has zero index, as in a plane containing the fibre, or for the long-way pair at $\vartheta_H = \pi/2$.) Three cases were computed:
+
+| pair | behaviour of the index |
+|---|---|
+| the direct and long-way histories on the round leaf | never freezes. Its loop is a full great circle at every $s$: $-0.488820$ per unit $\kappa_W$ at $s = 0.001$, $0.1$ and $1$ ($= -2\pi\cos\vartheta_H$ in this example) |
+| a small contractible pair with fixed endpoints ($L = 0.5$) | freezes **linearly** in the transverse separation (exponent $0.999$) |
+| a small contractible pair with both dimensions shrinking | freezes **quadratically** (exponent $1.989$) |
+
+The image pair of a weakening lens does not freeze either. In the thin-lens flat approximation ($D_l = 0.5$, $D_s = 1$, source offset $\beta = 0.05$):
+- the enclosed area tends to $\tfrac12D_lD_s\beta = 0.0125$ — it is $0.016008$, $0.012748$ and $0.012516$ at Einstein angles $0.02$, $0.005$ and $0.00125$;
+- the secondary image instead fades, with magnification $(\theta_E/\beta)^4$, down to $3.9\times10^{-7}$.
+
+Images merge only at caustics — pairwise at a fold, three at a cusp. A merging pair with fixed endpoints follows the linear scaling of the table. A fold was not computed here, and the point lens has a degenerate point caustic.
+
+"Frozen = joined" is therefore exact for pairs that bound a shrinking surface. Two matter clocks whose paths are brought continuously together, so that the area between them shrinks, are such a pair; two clocks merely reunited after enclosing an area are not ((e) below). On the round leaf no pair of *distinct* admissible photon histories between non-antipodal points is such a pair: their only freezing limit is a single history.
+
+**(e) The matter reading of the Hopf connection (the report's task F) [T, given the candidate].** Suppose matter's standards were Weyl-transported by the Hopf connection ($\kappa_W = 0.2$, $\ell = 16$ kpc). A standard carried once around a circular orbit of radius $r$ would be rescaled by:
+- in a plane normal to the fibre, $\ln\Omega = 2\pi\kappa_W\sin^2(r/\ell)$, which is $0.2888$ at $r = 8$ kpc (the closed form gives the same value);
+- in a plane containing the fibre, zero (computed $-1.9\times10^{-15}$);
+- per Earth orbit, $1.2\times10^{-19}$;
+- around a $1$ m loop, $5.2\times10^{-42}$.
+
+A star's spectrum would then drift by $e^{0.29}$ per galactic revolution relative to a star that stayed put.
+
+The same coupling that would read the dipole through matter's standards would thus produce a galactic second-clock effect. The Hopf candidate is admissible only if matter's standards are **not** Weyl-transported (§XXIX.35(b)). Its dipole then needs a non-matter reader. By §XXIX.38, a common-clock apparatus reads a redshift-like index only through wavelengths, with the signature and costs of §XXIX.38(e).
+
+**(f) Standing [D].** The fibre phase is not a scale. Two scale structures are recorded as distinct alternatives:
+- (α) a twisted lift, deck-odd ($b^*\phi = -\phi$), whose flat case is the class index;
+- (β) a separate real connection. The Hopf contact form is one: deck-even ($b^*\alpha_J = +\alpha_J$), global on the leaf, with a new coupling.
+
+The Hopf branch keeps its prediction, a distance-independent sky dipole of long-way images, together with the requirement of (e). The softened factor remains a benchmark: neither alternative produces it without fitting (§XXIX.35(g)).
+
+## XXIX.38 One common-clock operational experiment: a label-conditioned wave carrier, one atomic standard per apparatus, wavelengths against clocks, and bimetric distance duality (report on v34.7, task D) [T/V/D; v34.8, R168–R169]
+
+*(The report on v34.7 found that "made operational" was not established. A lapse belongs to a metric and a coordinate-time convention; it does not set the rate of a detector clock that couples to another metric. A static label-dependent optical geometry can alter travel times and directions without producing the frequency change. The report asked for one carrier with:*
+- *its action, its emission and detection couplings, and the labels' transport, renewal and energy accounting;*
+- *one apparatus proper time and one atomic standard at each endpoint;*
+- *phase rates and pulse intervals for fresh A→B, fresh B→A, passive reflection, absorption and re-emission, and differently labelled photons arriving at one detector;*
+- *angular size, flux and distance duality from the same standards.*
+
+*Numbers from `common_clock_experiment()` in §XXIX.21.)*
+
+**(a) The carrier [D].** The carrier is a label-conditioned scalar wave theory, chosen as the minimal phenomenological carrier. It adds one assumption: each label is a separate field.
+
+Each label $c\in\{A,B\}$ has its own field $\phi_c$ on the common laboratory spacetime, propagating on its own static optical metric $-N^{\rm lab}_c(x)^2dt^2+dx^2$ (in $1+1$ dimensions):
+$$S_c = \int dt\,dx\,\Big[\frac{(\partial_t\phi_c)^2}{2N^{\rm lab}_c}-\frac{N^{\rm lab}_c}{2}(\partial_x\phi_c)^2+\frac{\phi_c\,s_c}{N^{\rm lab}_c}\Big],\qquad \partial_t^2\phi_c = N^{\rm lab}_c\,\partial_x\big(N^{\rm lab}_c\,\partial_x\phi_c\big)+s_c .$$
+The labels' optics are v34.7's conditioned lapses, used now as optics: $N^{\rm lab}_A = e^{H\lvert x-x_A\rvert}$ and $N^{\rm lab}_B = e^{H\lvert x-x_B\rvert}$, with $H = 0.5$, $x_A = 0.15$ and $x_B = 0.85$.
+
+The rest of the experiment is as follows.
+- *Clocks and rulers.* Each apparatus at rest at $x$ carries one atomic standard, with proper time $d\tau = N_m(x)\,dt$. $N_m$ is the common matter lapse: either flat, or $1+0.3x$. Matter and labels share the spatial metric $dx^2$, so matter's rulers measure wavelengths.
+- *Emission.* An emitter at $x_e$ radiates label-$c$ pulses (Gaussian, width $0.012$) at intervals $\Delta\tau_e = 0.4$ of its own proper time, which is $\Delta\tau_e/N_m(x_e)$ of common time.
+- *Detection.* Detection is label-blind: the detector responds to $\sum_c\phi_c$ and timestamps the peaks of $\lvert\phi\rvert$ with its one standard. Each label was run separately; by linearity a summed record is the superposition of the separate runs.
+- *Passive elastic mirror.* $\phi_c = 0$ at the mirror for every label. This is time-invariant and keeps the label.
+- *Absorption and re-emission.* A transponder at B re-emits label-B pulses at the moments it receives label-A pulses (plus $0.05$), back towards A. This renews the label, and it was simulated directly.
+- *Energy.* Each field has the conserved common-time energy $E_c = \int\big[(\partial_t\phi_c)^2/2N^{\rm lab}_c+N^{\rm lab}_c(\partial_x\phi_c)^2/2\big]dx$.
+- *Numerics.* Second-order finite differences on $1601$ points, $\Delta t = 0.4\,\Delta x/\max N$, first-order absorbing (Mur) boundaries, and peak times by quadratic interpolation.
+
+**(b) Results [V].** Received over emitted proper intervals, each read on the one standard of the receiving apparatus:
+
+| common clocks | fresh A→B (label A) | fresh B→A (label B) | A's echo (label A) | B's echo (label B) | period-matching transponder cycle A→B→A |
+|---|---|---|---|---|---|
+| flat | $1.00000$ | $1.00000$ | $1.00000$ | $1.00000$ | $1.00000$ |
+| $N_m = 1+0.3x$ | $1.20096$ | $0.83267$ | $1.00000$ | $1.00000$ | $1.00000$ |
+| $N_m({\rm rec})/N_m({\rm emit})$ | $1.20096$ | $0.83267$ | $1$ | $1$ | $1$ |
+
+Three further results:
+- *Delays.* Label A's optics change the A→B delay ($0.5907$, against $0.7001$ with flat optics), not the interval.
+- *Speed.* Label A's light crosses B at $1.4185$ in matter's units (from arrival times at $x = 0.80$ and $0.90$; the local $N^{\rm lab}_A/N_m$ is $1.4191$), while light on matter's own metric moves at $0.9995$. The waves are non-dispersive, so phase and group speed agree.
+- *Resolution.* The interval ratio is $1.2009570$, $1.2009569$ and $1.2009569$ at $801$, $1601$ and $3201$ points. The discrete scheme is itself time-invariant, so the runs *illustrate* the theorem of (c) rather than test it. The delay converges at first order: $0.5912$, $0.5907$, $0.5906$.
+
+**(c) The common-clock theorem [T; R168].** Assume:
+- common stationary clocks;
+- label-blind emission and detection;
+- time-invariant, linear propagation and mirrors.
+
+Then every *clock-timed* ratio — pulse intervals, light curves, frequencies counted against the standard — is
+$$1+z_t = \frac{N_m({\rm rec})}{N_m({\rm emit})}\qquad\text{for every label and every route.}$$
+
+*Proof.* Each label's propagation is a time-invariant linear system in common time. A source periodic with common-time period $T$ therefore produces, at any receiver, a signal of common-time period $T$: every pulse is the previous one, delayed by the same amount. The emitter's proper period is $N_m({\rm emit})\,T$, and the receiver's standard reads $N_m({\rm rec})\,T$. Optics, mirrors and period-matching transponders — which re-emit without reference to the label — change delays, amplitudes and directions, not the period. $\square$
+
+So in clock-timed terms fresh pairs are reciprocal ($f_{AB}f_{BA} = 1$), and passive echoes and period-matching transponder cycles are unshifted. v34.7's table, as a ratio of proper periods — fresh A→B and fresh B→A both reddened by $e^F$ — is produced by no carrier that meets these hypotheses.
+
+**(d) Wavelengths: where v34.7's table reappears [T; R168].** Label light has its own local speed in matter's units, $v_c = N^{\rm lab}_c/N_m$, so a wave of clock period $P$ has wavelength $v_cP$. Read the wavelength with matter's rulers, against a local line emitted in the receiver's own label, and normalize each label to $N_m$ at its own centre. Then
+$$1+z_\lambda = \frac{N^{\rm lab}_c({\rm rec})}{N^{\rm lab}_c({\rm emit})} ,$$
+which is *exactly v34.7's assignment*:
+- fresh A→B gives $1.4185$ (the computed speed times the computed, unchanged period; the closed form is $e^f = 1.4191$, with $f = H(x_B-x_A) = 0.35$);
+- fresh B→A gives $e^f$;
+- the echoes give $1$.
+
+The label carrier therefore realizes v34.7's table as a ratio of **wavelengths**, not of clock-timed periods. That is also its observable signature.
+
+A transponder that re-emits at the received period renews to $e^f$ in wavelength. One that matches the received wavelength renews to $e^{2f} = 2.0138$ in wavelength — v34.7's renewal value — and to $e^f$ in clock-timed period; its re-emission depends on the label, so it lies outside the theorem.
+
+**(e) The signature, and its costs (flat clocks) [T/D].**
+1. *No time dilation.* The spectroscopic (wavelength) redshift $e^f$ comes with clock-timed pulse intervals, light curves and counted frequencies unchanged. Wavelength-measured and frequency-measured redshifts of one source therefore disagree. So do spectroscopic redshift and light-curve time dilation — which the light curves and spectral ageing of type Ia supernovae show to be consistent with $1+z$ [Goldhaber et al. 2001, arXiv:astro-ph/0104382; Blondin et al. 2008, arXiv:0804.3595].
+2. *Off matter's light cone.* Label light moves at $N^{\rm lab}_c/N_m$, which is $1.419$ for label A at B. Time-of-flight and aberration comparisons with signals on matter's metric test this directly, and more directly than distance duality does.
+3. *Atomic resonances.* Ordinary atoms resonate by frequency, so they see no shift: emission lines measured by wavelength and absorption measured by resonance would disagree. Resonances that follow the label restore agreement, but they absorb photons whose common-time energy exceeds the transition by $e^f$. That is an imbalance of $1-e^{-f} = 0.295$, which a label sector must take up. A sharper form of this test: with frequency-resonant intervening absorbers, every absorption line of a source would sit at its own emission-frame frequency, so no Lyman-α forest could form; label-following absorbers would restore a forest at the cost of the imbalance.
+
+v34.7's "label-renewing cycles lose energy, as in expansion" is replaced. Propagation conserves each label's common-time energy; any imbalance arises at label-following resonances, and needs a sector to carry it. An expansion analogy is not an energy law.
+
+**(f) Bimetric distance duality, and the Hubble curve [T/V; R169].** With common clocks and label optics, the clocks set the clock redshift $z_t$, and the label optics set the angular sizes and the wavelength redshift. Two ingredients combine:
+- reciprocity in the optical metric gives the source-area distance $r_S = (1+z_L)\,D_A$, with $1+z_L = N^{\rm lab}({\rm rec})/N^{\rm lab}({\rm emit})$;
+- the flux carries $(1+z_t)^2$, from the clock-timed photon energy and arrival rate.
+
+So
+$$D_L = (1+z_t)(1+z_L)\,D_A,\qquad \eta_t\equiv\frac{D_L}{(1+z_t)^2D_A} = \frac{1+z_L}{1+z_t},\qquad \eta_\lambda\equiv\frac{D_L}{(1+z_\lambda)^2D_A} = \frac{1+z_t}{1+z_L}\quad(z_\lambda = z_L).$$
+Duality holds only if the label optics and the clocks give the same redshift.
+
+A ray-traced check used an emitter-centred label lapse $e^{Hr}$ with $H = 1$, $d = \ln2$ and flat clocks:
+- $z_t = 0$ and $z_L = z_\lambda = 1.000$;
+- $D_A = 0.34659 = d/(1+z_L)$, ray-traced at trace angle $10^{-4}$. Its relative error, $3.5\times10^{-5}$, is linear in the angle ($3.5\times10^{-7}$ at $10^{-6}$), and it accounts for $\eta_t = 1.9999$ against $2$;
+- $D_L = d = 0.69315$, analytically, because rays leave the source radially (the ray trace checks $D_A$, and the clock factor follows analytically);
+- $\eta_t = 1.9999$ and $\eta_\lambda = 0.5000$.
+
+*The Hubble curve.* For the conical emitter-centred label lapse with common clocks, $D_L = d = \ln(1+z)/H$: no time dilation and no dimming beyond geometry. Against flat ΛCDM ($\Omega_m = 0.3$, same $H_0$), this is $-1.063$, $-1.737$ and $-2.594$ mag at $z = 0.5$, $1$ and $2$ — a static-universe curve, as a benchmark discrepancy. v34.7's coasting row ($-0.232$ at $z = 1$) assumed clocks that carry the index.
+
+**(g) Consequences for the earlier text [D; R168–R169].**
+- §XXIX.34(f) now reads as follows. A label-retained transport assignment realizes reciprocal fresh-source redshift and an unshifted passive echo algebraically. Embedded with common clocks, its clock-timed ratios are $N_m({\rm rec})/N_m({\rm emit})$, while the assigned ratios return exactly as ratios of wavelengths, with the signature of (e).
+- "Within each label distance duality, Tolman dimming and time dilation hold automatically" holds only *within the stipulated metric-and-standard construction*. With common clocks, $D_L = (1+z_t)(1+z_L)D_A$ instead.
+- The Hubble-diagram table of §XXIX.35(c) assumes clocks that carry the index. With common clocks, the label carrier gives the static curve of (f).
+- The first horn of the dilemma in §XXIX.35(b), a non-conformal label-conditioned optical metric, changes wavelengths, delays, directions and $D_A$ when clocks are common, but no clock-timed frequency. Its spectroscopic redshift therefore comes without time dilation.
+- The theorem's hypotheses matter. Time-dependent label optics, or label-dependent emission couplings, lie outside it and have not been tested.
+
+The optical side's missing bridge is now a physical account of label light that meets all three tests of (e):
+- its speed relative to matter's light cone;
+- the time dilation that observed redshifts show;
+- the resonances and the energy of absorption.
+
+## XXIX.39 The optical record and the remaining local corrections (report on v34.6; report on v34.7, §11 and task F) [T/V/D/O; v34.8, R170–R175]
+
+*(The report on v34.6 reached this archive after v34.7 had been delivered. Its algebraic objections — the symplectic sign, the Morse endpoint convention, the attachment budget, the fluid variables, the failure exit, the winding classifier and the triangle states — were repaired in v34.7 (R140–R153), and the report on v34.7 credits them. Its remaining objections concern the optical record, and are answered here together with the local corrections of §11 of the report on v34.7. Numbers from `optical_record_checks()` in §XXIX.21.)*
+
+**(a) The Kaluza–Klein projection with a variable fibre radius [T/V; R170].** For $H = \pi^*g+\lambda(x)^2(d\theta+A)^2$ the base equation, on a flat base, is
+$$\dot v_i = q\,F_{ij}v^j+\frac{q^2}{\lambda^3}\,\partial_i\lambda .$$
+§XXIX.32(b)'s $\dot v_i = qF_{ij}v^j$ holds for constant $\lambda$ only.
+
+The report's counterexample is reproduced: $A = 0$, $\lambda = 0.7+0.2x$, $q = 0.6$ gives a base acceleration of $0.17768$ at $x = 0.2$, although $F = 0$. Over a unit affine interval the velocity changes by $0.1233$ from unit initial base speed, and by $0.1311$ — the report's value — from an initial base speed of $0.80$.
+
+**(b) The round pencil, the deck sign and the photon sector [T/V/D; R170].**
+- *No fibre isometry.* On the round pencil, $\dot p_\theta = \cos\theta\,p_\varphi^2/\sin^3\theta$. This is $0.4577$ at $\theta = 0.7$, $p_\varphi = 0.4$. Two histories with equal $p_\theta$ at $\theta = 0.7$ and $1.0$ separate in charge at the rate $0.3126$. The charge-matching surface is therefore not preserved, and the pair reduction of §XXIX.34(c) is a theorem of the fibre-symmetric Kaluza–Klein control only.
+- *The global deck sign.* On $\widetilde X$ the deck involution conjugates the fibre translation by $c$ into translation by $-c$, so a signed vertical charge changes sign across the identification. A global charge comparison needs an orientation choice on the cover $Y$, or a twisted comparison law. The cover is adopted for the pair, as Entry 274 asks.
+- *The photon sector.* The photon sector is $q = 0$, base-massless, and the constraint is vacuous there (§XXIX.34(d)). Counting gives: the fibre block $(\theta_\pm,q_\pm)$ is four-dimensional, and one first-class constraint with its gauge removes two dimensions, which leaves one canonical pair — the relative position and the mean charge. Equality of charges neither selects $q = 0$ nor produces two screen polarizations. Both are further premises.
+- *Null propagation.* Propagation on the null geodesics of $H_{\mathcal M}$ is a **modelling premise**. "Matter lives in $\mathcal M$" does not fix the photon wave operator, nor show that photons and gravitational waves share its characteristics. A principal symbol must be derived, with a mode projection to four-dimensional optics.
+
+**(c) What an index fixes; polarization; the Helmholtz control [T/V; R171].**
+- *Parity only.* Away from caustics, the Morse index fixes only the **sign of the screen Jacobi determinant**: the image parity. It does not fix the Jacobi matrix, shear, magnification, rotation or polarization.
+- *Rotation by π is round-leaf specific.* On the round leaf $\mathcal J = \ell\sin s\,I_2$, so the index-2 image is rotated by $\pi$. That is a property of this geometry; a general history needs its full matrix. The report's three-dimensional lens gave unequal factors, $-0.510$ and $-0.390$, which is its own calculation, not this archive's.
+- *Polarization.* A scalar caustic phase multiplies both components of the Jones vector by one factor. For $E = (1,i)/\sqrt2$ and phases $e^{-i\pi\nu/2}$, Stokes $V = +1.000$ for $\nu = 0$, $1$, $2$, $3$. Circular handedness is unchanged for even and for odd index. Polarization follows its own transport law, parallel transport in vacuum geometric optics [Dolan 2018].
+- *The resolution operator* therefore records **the screen Jacobi map and the polarization transport**, not "orientation from the index".
+- *The winding sum* of §XXIX.34(b) is a **scalar Helmholtz control** on the unit $S^3$, with the spectral convention $(\Delta+k^2-1)G = 0$ away from the source (relative residual $2.0\times10^{-7}$ at $k = 2.3+0.4i$). It is not a Maxwell detector kernel.
+
+**(d) The conformal premise, made exact [T/V; R172].**
+- *The exact hypothesis.* The softened family is forced by the following: the readout is an orientation-preserving conformal **automorphism** of the round leaf, fixing the observer and its antipode individually, commuting with the rotations about their axis, with the positive-stretch branch and the local normalization fixed. A conformally rescaled *metric* $f(\chi)^2h_{S^3}$ admits an arbitrary positive $f$, so "conformal, axisymmetric, two fixed points" does not force the form.
+- *The limit.* The limit $\alpha\to1$ is the **flat, stereographic limit**, a degenerate limit of hyperbolic Möbius maps.
+- *The full conformal readout* puts $\chi = s/2$ and $g_{\rm conf} = 4\ell^2A_\alpha(2\chi)^2(d\chi^2+\sin^2\chi\,d\Omega^2)$. Then $R_\alpha = R_0\sin(D/R_0)$, with $R_0 = 2\ell\sqrt{(1+\alpha)/(1-\alpha)}$ (maximum deviation $1.6\times10^{-15}$ at $\alpha = 0.5$). This is a round sphere of rescaled radius, and as $\alpha\to1$ it becomes flat, $R = D$.
+- *The old horn differs.* The radial-only Option A keeps $R = 2\ell\sin(s/2)$. At $s = 5$ and $\ell = 1$, both give $D = 12.038$, but the conformal areal radius is $12.038$ and the horn's is $1.197$. They share a radial profile, not the metric, curvature, volume or optics.
+- *The interpretation adopted.* $D_\alpha$ is an **assigned apparent distance**, a detector assignment (§XXIX.34(g)). It is not a proper distance in a metric, and acquires no geometric consequence automatically.
+- *The range of the grade.* A general direction pair has $\alpha_{\rm opp}\in[-1,1]$, but the family is defined for $[0,1]$. A selection rule must ensure $\alpha\ge0$, or the compressive range $\alpha<0$ (where $A_\alpha(2\pi) = (1+\alpha)/(1-\alpha)<1$) must be treated explicitly.
+
+**(e) Image selection, emission epochs and coherence [T/D; R173].**
+- *The readout's domain.* v34.6's `_D_soft` implements the first-return domain $s<2\pi$ only. For $\alpha<1$ it returned the endpoint value at every $s\ge2\pi$. Its domain is now stated, and `_D_soft_unwrapped` implements the continuous branch $4\ell\mathcal D_\alpha[k\pi+{\rm atan2}(\sin r,\mathcal D_\alpha\cos r)]$, with $s/4 = k\pi+r$. It is continuous across $2\pi$ (jump $8\times10^{-9}$), and $dD/ds = A_\alpha$ to $9.9\times10^{-6}$ up to $6\pi$.
+- *Infinitely many branches.* On the round leaf the stationary branches are $L_{+,k} = \ell(\psi+2\pi k)$, of index $4k$, and $L_{-,k} = \ell(2\pi-\psi+2\pi k)$, of index $4k+2$ (computed for $k = 0,\dots,3$ at $\psi = 1.1$). There are infinitely many. Caustics organize them but select none.
+- *Selection.* A finite image set needs a source age, a detector window, an attenuation law or an explicit selection. **Adopted as a premise for the next toy:** the shortest direct history and the first long-way history.
+- *Emission epochs.* The direct and returned signals of one source left it at different epochs, $119$–$321$ kyr apart in §XXIX.32(f). A detector kernel must state its temporal records and coherence assumptions. Interference is not implied by the existence of two paths. Unless a coherence time longer than the delay is shown, the pair is read as two records of one source at two epochs.
+
+**(f) Required suppression, the boost-frequency rule, counts and the Hubble-diagram benchmark [T/V/D; R174].**
+- *Suppression.* §XXIX.32(f)'s "demagnification needed" is a **linear angular-size factor**, $D_A/D_{\rm read}$. The flux factor at $z = 0$ is its square: $2.44\times10^{-4}$ in angular size is $5.95\times10^{-8}$ in flux.
+- *The boost-frequency rule.* If the frequency followed the readout boost, every image would satisfy $D\le2\pi\ell(1+z)$. If the galaxies at these distances are the readout's images, that needs $1+z\ge7.8$ at $0.78$ Mpc, the Cepheid and red-giant-branch distance of M31, whose spectrum is blueshifted. It also needs $1+z\ge99.5$ at $10$ Mpc, where measured redshifts are of order $10^{-3}$. These named calibration objects are what exclude the rule. The Lorentz parameter of a conformal automorphism is a mathematical parameter, not a source velocity or a measured Doppler factor.
+- *Counts.* The source distance is exactly $d = 4\ell\arctan(4\ell/D)$. $16\ell^2/D$ is its large-$D$ form, accurate to $1.4\times10^{-3}$ for $D\ge1$ Mpc. The model's within-$D$ count **saturates**, $N(<D) = N_{\rm tot}-CD^{-3}$, and its shell count falls, $dN/dD\propto D^{-4}$ (computed slope $-4.00$). v34.7 compared $N(>D)$ with observed $N(<D)$, two opposite cumulative counts, and that comparison is withdrawn. The test is conditional: the same statistic, from an explicitly selected sample with completeness, luminosity selection and the proposed redshift-to-$D$ map. Two things stand as structural difficulties, not exclusions: saturation, and the **source-neighbourhood constraint** (at $\ell = 16$ kpc a gigaparsec image comes from within $4$ pc). An exclusion would also need source populations, luminosities, morphologies, spectra, delayed histories and image multiplicities.
+- *The Hubble diagram.* The intermediate case is **matched at second order** ($q_0$ matched to the comparison's $-0.55$), not fitted. The $q_0 = -2$ cases miss the fixed flat-ΛCDM benchmark by more than a magnitude at $z = 1$. These are benchmark discrepancies, not likelihood exclusions. Pantheon+'s $\Omega_m = 0.334\pm0.018$ is itself conditional on flat ΛCDM [Brout et al. 2022], and no likelihood fit to released distance data has been made here. $q_0$ is an effective cosmographic coefficient. The table assumes clocks that carry the index; with common clocks the label carrier gives the static curve $D_L = \ln(1+z)/H$ instead, $1.737$ mag brighter than the benchmark at $z = 1$ (§XXIX.38(f)).
+
+**(g) Scope corrections [R175].** Each item replaces an operative claim in the text named.
+
+| location | corrected statement | support |
+|---|---|---|
+| §XXIX.34(e) | the near-miss is related to the conserved $\lvert L\rvert$ by $\lvert L\rvert = \sin\beta_R$, i.e. $\alpha_R = \sqrt{1-\lvert L\rvert^2}$ | definition |
+| §XXIX.31, 34(e), 35(h) | conservation of the return grade is proved in the round symmetric control only; on a lensed background it is not established | v34.7-4 computes the round case |
+| §XXIX.34(e) | $\alpha_R\ge\alpha_{\rm opp}$ and the amplification $17.7$–$34.1$ hold for the computed lens family; no general inequality is claimed | v34.7-7 |
+| §XXIX.35(b), (h) | $\epsilon<1.4\times10^{-7}$ is a design constraint of the named circular-orbit benchmark ($\alpha = 0.5$, $\ell = 16$ kpc, 1 % of $(200\ {\rm km/s})^2$ at $10$ kpc); "never as a metric felt by matter" becomes "not as the stated nonconstant factor at the stated scale" | v34.7-9 |
+| §XXIX.35(b) | a receiver-conditioned interpretation, or a conditional probability, is not a physical influence on a past emitter; a dynamical change of the emitter's standards controlled by a future receiver would be one. "Acausal" applies only to the latter, and signalling must be tested before an impossibility is claimed | the report's distinction |
+| §XXIX.35(a) | silence assumes identical sources, detector couplings, boundary and initial data; it is classical, and holds for the displayed coupling | the proof's hypotheses |
+| §XXIX.35(f) | the mixed-index $C^a{}_{bcd}$ is conformally invariant, while the fully lowered $C_{abcd}$ scales by $\Omega^2$; Weyl curvature focuses at second order *about a shear-free bundle* — pre-existing shear varies the squared-shear term linearly | standard [Sachs 1961] |
+| §XXIX.32(c) | the reduced space is a charge sector with the **mean** fibre position as gauge | v34.7-4 |
+| §XXIX.32(e) | for $q\neq0$ the constraint removes the mean fibre position, as gauge, and no base or normal direction; for $q = 0$ it is vacuous | (b) |
+| §XXIX.31(d) | the measure-zero conclusion holds for the blown-down round control. The odd deck class is homotopy invariant in the resolved space, and the conclusion is not proved for an independently specified finite resolved-core metric | the report on v34.6, §9.3 |
+| §XXIX.32(g) | the factor $\tfrac12$ normalizes smooth densities. $\Pi:Y\to S^4$ is not a covering at the poles, and a bare pole delta has no canonical pullback; P3's core measure on the exceptional section is lifted through $P:Y\to\widetilde X$ with its own normalization; a half-density does not identify independent fields on the two sheets | the report on v34.6, §9.4 |
+| §XXIX.32(d) | "geodesic in both" splits into three questions: (1) do the spatial paths agree? — projective equivalence, local only, since the gnomonic chart is not a global flat metric on the closed sphere; (2) do the spacetime null curves agree? — the conformal class: $(\widetilde\Gamma-\Gamma)^a{}_{bc}v^bv^c = 2v(\varphi)v^a-g(v,v)\nabla^a\varphi$ vanishes up to reparametrization for null $v$ only; (3) do the source-to-detector periods and screen maps agree? — the readout problem. Photons need (2), and the readout needs (3) | [Matveev & Scholz 2020] |
+
+**(h) The next toy's record [D].** The premises are:
+- a fibre-symmetric control on the oriented cover;
+- $q = 0$;
+- the first-return selection of (e);
+- a source worldline with emission times;
+- a detector window;
+- the retained history label;
+- no coherence across the delay.
+
+Its record table lists, for each image: the ray directions, the screen Jacobi map, the polarization transport, the delay, $D_A$, $D_L$, and the spectrum read both ways — as clock-timed frequencies and as wavelengths, which by §XXIX.38 differ when labels carry their own optics. On the round leaf the table of §XXIX.32(f) is this record. Open entries: a lensed three-dimensional history's full Jacobi map and polarization, and the detector kernel's positivity and normalization (the report on v34.6, §10(6)).
+
+## XXIX.16 Register R56–R176, the evidence-status system, the reprioritized program, the minimum theorem package, and reproducibility [D/O; v34.1–34.8]
 
 **The evidence-status system (both referees; replaces the bare [V] from §XXIX.10 on).** The archival tags [T/V/D/S/O/R] are retained; each claim in §§XXIX.10–16, in this register and in the companion current-manuscript file carries one of:
 
@@ -7790,9 +8628,154 @@ Numerical work carries scripts, boundary data, seeds, units, normalization and c
 
 *(Amended in v34.7: R125 by R148; R126 by R147; R128 by R141–R143; R130 by R144–R146 and R153; R133 by R144 and R153; R136 by R149 and R150; R137 by R151; R139 by R143.)*
 
+**Register R161–R176 (v34.8; the report on v34.6, the report on v34.7 with its continuation brief, and the assessment of v34.7).** Each entry names the superseded wording, which survives only here and in the ledger.
+
+- **R161** (§XXIX.33(a); §XXIX.36(a)). The Lorentzian extension is the spatially warped one, with a preferred static frame. At $\theta = 0.3$:
+  - its measure is $a^3 = 0.02580843$, against $a^4 = 0.00762691$ for a four-direction warp;
+  - its inverse time coefficient is $-1$, against $-11.45053$.
+
+  Superseded: the display "$S_{\rm reg} = \int_B\sqrt{-g}\int_0^\pi w\,[-\tfrac12K\,g^{ij}\partial_i\Psi\,\partial_j\Psi-\dots]\,d\theta$", with $K$ on every base direction under a four-dimensional measure.
+- **R162** (§XXIX.33(c), (g); §XXIX.36(b)–(c)).
+  - $\beta$ is defined as a deformation of the quotient submersion.
+  - The action is built on $H_\pi$, and the Ward identity is $\sqrt{-g}\,\nabla_\mu T^\mu{}_\nu = -(\pi_*E_\pi)_\nu$.
+  - The exchange is a four-vector, and the compatibility conditions are stated.
+
+  Superseded: "$\nabla_\mu T^{\mu\nu}_{\rm total} = \text{(exchange)}$, in which the reduced continuity equation of fixed matter acquires the source $X_0 = -{\rm div}_b(\rho_g w_\pi)$ … $X_0$ vanishes in the static weak-secondary problem. A genuine quotient variable must cancel it". That source is the continuity defect of the kinematic bookkeeping, not a component of the Ward identity; the identity is tested directly ($dS/d\pi$ against the stress divergence, to $5\times10^{-8}$).
+- **R163** (§XXIX.36(d)). Class (i): when the geometry follows the quotient, the quotient is a middle-space gauge, $E_\pi = -E_\Psi\,d\Psi$. In the torus control:
+  - co-moving matter exchanges $1.6\times10^{-11}$, and its quotient derivative vanishes at first order ($1.2\times10^{-8}$);
+  - held matter exchanges $0.6208$, linearly ($1.999$), converged spectrally;
+  - the exchange equals the held matter's equation residual (Theorem I in adapted coordinates) to $1.0\times10^{-13}$.
+- **R164** (§XXIX.36(e)–(g); §XXIX.33(c) standing; the v34.7 governing and program paragraphs).
+  - Class (ii), the tensor pushforward, is non-conservative ($0.1645$ and $0.0823$, linear, against $1.5\times10^{-13}$ at $b = 0$) and non-covariant (a pure relabelling gives $0.4010$); without an added stress it is incompatible.
+  - P3's deficit and exchange have one origin [D: argued, not computed in P3]. The holding stress must enter $T$, and P3 is compatible at first order at $f_{\rm eff} = 0$, where it predicts no deficit.
+  - Task C is not attempted; its prerequisites are listed.
+
+  Superseded: "P3 is now a complete effective-source model with an externally prescribed quotient" (the v34.7 program); and "the exchange term of a prescribed quotient is displayed" (the v34.7 governing paragraph).
+- **R165** (§XXIX.35(d); §XXIX.37(a)–(b)).
+  - A compact phase is not a scale: the large-gauge factor is $3.51359$.
+  - $\phi = \kappa_WA$ is a local ansatz, pending a lift or a separate real connection.
+  - The leaf contact form is global: three spanning surfaces give the loop integral to $10^{-8}$.
+
+  Superseded: "Reading the fiber as a scale turns that holonomy into a conformal index, $\phi = \kappa_W A$ [D] … The separation of the light thereby controls the conformal index through the flux it encloses".
+- **R166** (§XXIX.35(e)–(f); §XXIX.37(c); the v34.7 governing paragraph).
+  - The Hopf form is deck-even under $b$, and the antipodal map keeps $J$ self-dual.
+  - The twisted flat index and the Hopf form are distinct alternatives.
+
+  Superseded:
+  - "So the only conformal index that depends on the class alone is orientation-odd … It is the 1-form counterpart of the exchange of self-dual and anti-self-dual parts under orientation reversal in (f)" — narrowed to additive flat indices, and the "counterpart" sentence withdrawn;
+  - "orientation reversal exchanges the two structures";
+  - "Indices that depend on the class alone must be orientation-odd".
+- **R167** (§XXIX.35(d), (h); §XXIX.37(d)–(e); the v34.7 governing paragraph). A shrinking surface with bounded curvature guarantees freezing (a sufficient condition):
+  - the direct/long-way pair never freezes ($-0.488820$ per unit $\kappa_W$ at every $s$);
+  - small pairs freeze linearly ($0.999$) at fixed endpoints and quadratically ($1.989$) when both dimensions shrink;
+  - lensed pairs fade rather than freeze;
+  - read by matter, the Hopf connection gives $0.2888$ per revolution at $8$ kpc.
+
+  Superseded: "This is the author's 'frozen metric = joined histories' made exact" without the shrinking-surface hypothesis; and "'Frozen = joined' is exact as a Weyl length holonomy around the pair".
+- **R168** (§XXIX.34(f); §XXIX.35(b); §XXIX.38(a)–(d); the v34.7 governing paragraph).
+  - The common-clock experiment, with a simulated transponder, and the theorem: clock-timed ratios are $N_m({\rm rec})/N_m({\rm emit})$ for every label.
+  - The label table is a transport assignment. With common clocks it returns exactly as a ratio of wavelengths (receiver's own label as reference; labels normalized to the clocks at their centres), because label light moves at $N^{\rm lab}/N_m$ ($1.4185$ computed for label A at B).
+  - Its signature: spectroscopic redshift without time dilation; light off matter's light cone; frequency-based resonances that see no shift, and label-following ones that absorb with an imbalance of $0.295$.
+
+  Superseded:
+  - "(f) The frequency test, made operational";
+  - "An operational candidate: a label-retained conditioned lapse … $1+z = d\tau_{\rm rec}/d\tau_{\rm emit} = N_c({\rm rec})/N_c({\rm emit})$";
+  - "One stationary Killing time is replaced by label-conditioned times, while local proper times stay common";
+  - "label-renewing cycles lose energy, as in expansion";
+  - "A label-retained conditioned lapse gives reciprocal reddening, an unshifted echo".
+- **R169** (§XXIX.34(f); §XXIX.35(c), (h); §XXIX.38(e)–(f); the v34.7 governing paragraph).
+  - Bimetric duality, $D_L = (1+z_t)(1+z_L)D_A$: $\eta_t = 1.9999$ and $\eta_\lambda = 0.5000$ in the ray-traced case.
+  - The Hubble table assumes clocks that carry the index; with common clocks the label carrier's curve is static, $D_L = \ln(1+z)/H$ ($-1.737$ mag at $z = 1$).
+  - $q_0$ is an effective cosmographic coefficient.
+
+  Superseded:
+  - "Within each label, distance duality, Tolman's $(1+z)^{-4}$ and $(1+z)$ time dilation hold automatically";
+  - "fitted intermediate";
+  - "The $q_0 = -2$ cases are excluded by more than a magnitude at $z = 1$";
+  - "That is exactly the 'actual optical readout' the assessment asked for";
+  - "Either way it fixes redshift, $D_A$, $D_L$ and time dilation together".
+- **R170** (§XXIX.32(a)–(b); §XXIX.34(d); §XXIX.39(a)–(b)).
+  - The Kaluza–Klein force with a variable radius: $0.17768$, with $\Delta v = 0.1233$ from unit initial speed and the report's $0.1311$ from $0.80$.
+  - The round pencil has no fibre isometry ($0.4577$; $0.3126$).
+  - The deck sign of $q$.
+  - The photon sector is $q = 0$, and the constraint count leaves one pair.
+  - Null propagation is a premise.
+
+  Superseded: "each null history projects to a charged base curve: $\dot v_i = qF_{ij}v^j$" (constant $\lambda$ only).
+- **R171** (§XXIX.31(e), (g); §XXIX.32(f); §XXIX.34(b); §XXIX.39(c)).
+  - The index fixes the parity only; rotation by $\pi$ is specific to the round leaf.
+  - Stokes $V$ is invariant under a caustic phase.
+  - The resolution operator records the Jacobi map and the polarization transport.
+  - The winding sum is a scalar Helmholtz control in the convention $\Delta+k^2-1$.
+
+  Superseded:
+  - "linear polarization axes carried with the image, and circular handedness kept (reversed for odd index)";
+  - "orientation from the index";
+  - "So 'flipped' means rotated by $\pi$ (index $2$) or mirrored (odd index)".
+- **R172** (§XXIX.31(a)–(b); §XXIX.39(d)).
+  - The exact automorphism hypothesis, and the flat (stereographic) limit.
+  - The full conformal readout, $R = R_0\sin(D/R_0)$, against the horn: $12.038$ against $1.197$ at $s = 5$.
+  - $D_\alpha$ is an assigned apparent distance.
+  - The range of $\alpha$.
+
+  Superseded: "the family is forced by 'conformal, axisymmetric, two fixed points'".
+- **R173** (§XXIX.31(a), (e); §XXIX.32, "Next toy"; `_D_soft` in §XXIX.21; §XXIX.39(e)).
+  - The domain of `_D_soft`, and its unwrapped branch.
+  - Infinitely many winding branches, of index $4k$ and $4k+2$.
+  - The first-return selection as a premise.
+  - Emission epochs and coherence.
+
+  Superseded: "the image set bounded by caustics (test 6)".
+- **R174** (§XXIX.32(f); §XXIX.34(g); §XXIX.35(c); §XXIX.39(f); the v34.7 governing paragraph).
+  - "Demagnification needed" is an angular-size factor; the flux factor is its square ($5.95\times10^{-8}$).
+  - The boost-frequency exclusion now names its calibration objects.
+  - The exact source distance $d = 4\ell\arctan(4\ell/D)$.
+  - The saturation of $N(<D)$ and the $D^{-4}$ shell counts.
+  - The source-neighbourhood constraint is retained.
+
+  Superseded: "whereas observed galaxy counts within $D$ rise roughly as $D^3$ at low redshift. Remote galaxies cannot be the null readout's long-way images of the solar neighbourhood".
+- **R175** (§§XXIX.31–35; §XXIX.39(g)). Scope corrections:
+  - the relation $\lvert L\rvert = \sin\beta_R$ ("It equals $\lvert L\rvert = \sin\beta_R$");
+  - conservation of the grade only in the round control;
+  - $\alpha_R\ge\alpha_{\rm opp}$ for the computed family only;
+  - $\epsilon<1.4\times10^{-7}$ as a design constraint;
+  - "never as a metric felt by matter";
+  - "acausal";
+  - the data assumptions of silence;
+  - the index placement of the Weyl tensor;
+  - second-order focusing about a shear-free bundle;
+  - "the relative fiber position as gauge" (stale since R151);
+  - "removes the *meridian* direction";
+  - the blown-down scope of the measure-zero conclusion, with "The sheet can change only where $\theta$ crosses $\pi$" (stale since R144);
+  - the half-density and the pole lift;
+  - the three questions of "geodesic in both".
+- **R176** (presentation; amends R154).
+  - Operative claims are replaced in place and marked only by a short tag *[v34.8, R…]*.
+  - The superseded wording is kept in this register and in the ledger's corrected-statement table.
+  - The claim-status table at the head of the archive governs, and the round paragraphs are historical records.
+  - Stale interpretation strings of the suite are corrected in place.
+  - The suite has $121$ checks: the v34.8 block adds $6$. Convergence is reported for the torus control, the wave carrier and the ray trace (task G).
+
+*(Amended in v34.8: R133 by R175; R134 by R175; R136 by R171–R173; R137 by R170; R138 by R171 and R174; R141 by R161–R164; R145 by R168 and R169; R150 by R175; R151 by R170 and R175; R152 by R174; R153 by R171; R154 by R176; R155 by R175; R156 by R168 and R175; R157 by R169 and R174; R158 by R165–R167; R159 by R166 and R175; R160 by R167.)*
+
+**The program, as amended by the eighth round (v34.8).** The order stands. The report on v34.7 names two bridges as the priorities, one on each side.
+
+Item (1), gravity. The Ward identity of §XXIX.36 settles what a prescribed quotient may do:
+- it is a gauge for free matter;
+- it exchanges momentum through held matter;
+- the kinematic shift with the geometry unchanged is non-covariant, and without an added stress incompatible.
+
+P3's deficit and its exchange have one origin. The next calculation is the holding (attachment) stress in $T$, or a quotient sector with its own equation; the time component of the identity also needs an action for the preferred frame. The coupled weak-secondary response (task C) follows, with source and force reported separately.
+
+Item (2), the readout. With common clocks, a label carrier leaves clock-timed frequencies alone and shifts wavelengths. It reproduces v34.7's table as a ratio of wavelengths, with an observable signature: no time dilation, light off matter's light cone, and resonances that disagree with gratings. The bridge is a physical account of label light that meets these three tests, or a carrier outside the theorem's hypotheses.
+
+The scale structure is decided. The fibre phase is not a scale. A twisted lift (deck-odd, $b^*\phi = -\phi$) and a separate real connection (the Hopf contact form, deck-even) are distinct alternatives. The Hopf branch predicts a distance-independent dipole, and it requires that matter's standards not be Weyl-transported.
+
+Phenomenology stays at benchmark level until the bridge exists. A likelihood fit to released supernova data, and counts against a selected sample, come after it.
+
 **The program, as amended by the seventh round (v34.7).** The order stands.
 
-Item (1), gravity. P3 is now a complete effective-source model with an externally prescribed quotient. The next test is a quotient variable with its own equation, which must cancel the exchange term $X_0$, together with a responding core in the force observable.
+Item (1), gravity. P3 has specified regular-matter and core-fluid sectors and a conditional source-response benchmark, with an externally prescribed quotient; its quotient-dependent action and full exchange Ward identity are given in §XXIX.36. *[v34.8, R164]* The next test is a quotient variable with its own equation, which must cancel the exchange four-vector, together with a responding core in the force observable.
 
 Item (2), the readout. The history classes, image orientation, doubled symplectic structure, grades and frequency candidate are now explicit. Entry 277 has fixed the architecture of any conformal readout:
 - light conformally silent;
