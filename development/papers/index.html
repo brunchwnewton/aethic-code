@@ -3,17 +3,17 @@ layout: null
 ---
 {% comment %}
   Index of development/papers/: zips the folder's .pdf and/or .tex files in the browser,
-  filtered by series (Aethic / Nexic / Golden) and kind (Main / Offshoot).
+  filtered by series (Aethic / Nexic / Golden) and kind (Main / Extraction).
 
-  File list: Jekyll writes it into the "paper-data" block at build time, so new
-  files are picked up automatically. Without Jekyll, it falls back to a
-  manifest.json in this folder (a JSON array of relative paths).
+  Local files: Jekyll writes the folder's file list into the "paper-data" block at
+  build time. Without Jekyll it falls back to a manifest.json in this folder.
 
-  Categories mirror build_commit.py: edit MAIN_PAPERS / GOLDEN_OFFSHOOTS in the
-  script below if paper names change.
+  Titles & wings: read from the main site's /papers.json (published there from
+  _data/papers.yml). A paper's `file:` field in that YAML ties it to its stem here.
+  If the data can't be reached, or a file isn't listed, the page falls back to
+  the filename rules in the script below, so downloads always work.
 
-  Local testing: `jekyll serve`, then open /development/papers/. Opening the
-  file straight from disk won't work (browsers block file:// fetches).
+  Local testing: `jekyll serve`, then open /development/papers/.
 {% endcomment %}<!doctype html>
 <html lang="en">
 <head>
@@ -31,20 +31,19 @@ layout: null
   * { box-sizing: border-box; }
   body { margin:0; min-height:100vh; display:grid; place-items:center; background:var(--bg); color:var(--fg);
          font:16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; padding:16px; }
-  main { width:100%; max-width:480px; background:var(--card); border:1px solid var(--border); border-radius:12px; padding:24px; }
+  main { width:100%; max-width:500px; background:var(--card); border:1px solid var(--border); border-radius:12px; padding:24px; }
   h1 { margin:0 0 4px; font-size:1.4rem; }
   p { margin:0 0 16px; color:var(--muted); }
   code { font-size:.9em; }
   .label { font-size:.78rem; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); margin:0 0 6px; }
+  .label span { text-transform:none; letter-spacing:0; }
 
-  /* file type */
   fieldset { border:0; margin:0 0 16px; padding:0; display:flex; gap:6px; }
   fieldset label { flex:1; text-align:center; padding:7px 4px; border:1px solid var(--border); border-radius:8px; cursor:pointer; font-size:.92rem; }
   fieldset input { position:absolute; opacity:0; pointer-events:none; }
   fieldset label:has(input:checked) { border-color:var(--accent); color:var(--accent); font-weight:600; }
   fieldset label:has(input:focus-visible) { outline:2px solid var(--accent); outline-offset:2px; }
 
-  /* category grid */
   .grid { display:grid; grid-template-columns:auto 1fr 1fr; gap:6px; margin-bottom:16px; }
   .grid button { font:inherit; font-size:.88rem; border:1px solid var(--border); border-radius:8px; background:none; color:var(--fg);
                  padding:7px 4px; cursor:pointer; }
@@ -63,11 +62,13 @@ layout: null
 
   details { margin-top:12px; font-size:.9rem; }
   summary { cursor:pointer; color:var(--muted); }
-  #list { max-height:45vh; overflow:auto; margin-top:6px; }
-  #list h3 { font-size:.8rem; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); margin:10px 0 2px; font-weight:600; }
+  #list { max-height:50vh; overflow:auto; margin-top:6px; }
+  #list h3 { font-size:.8rem; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); margin:12px 0 2px; font-weight:600; }
   #list ul { margin:0; padding-left:18px; }
-  #list li { margin:1px 0; overflow-wrap:anywhere; }
-  #list .none { color:var(--muted); margin:8px 0 0; }
+  #list li { margin:3px 0; overflow-wrap:anywhere; }
+  #list .fl { font-size:.82em; white-space:nowrap; margin-left:4px; }
+  #list .fl a { margin-left:6px; }
+  #list .none, #source { color:var(--muted); margin:8px 0 0; font-size:.8rem; }
   a { color:var(--accent); }
   .back { display:block; margin-top:14px; font-size:.85rem; color:var(--muted); }
 </style>
@@ -84,7 +85,7 @@ layout: null
     <label><input type="radio" name="kind" value="both"> Both</label>
   </fieldset>
 
-  <div class="label">Papers <span style="text-transform:none;letter-spacing:0">(click cells, rows or columns)</span></div>
+  <div class="label">Papers <span>(click cells, rows or columns)</span></div>
   <div class="grid" id="grid" role="group" aria-label="Categories"></div>
 
   <button id="dl" type="button" disabled>Download (.zip)</button>
@@ -94,6 +95,7 @@ layout: null
   <details>
     <summary>Show files</summary>
     <div id="list"></div>
+    <p id="source"></p>
   </details>
   <a class="back" href="../../">&larr; Back to Code &amp; Archive</a>
 </main>
@@ -104,15 +106,18 @@ layout: null
 
 <script>
 (() => {
-  // ---- Categories (kept in step with build_commit.py) ----
+  // ---- Main site data (published from _data/papers.yml); tried in order ----
+  const MAIN_DATA_URLS = ["/papers.json", "https://aethus.org/papers.json"];
+
+  // ---- Fallback rules (kept in step with build_commit.py) ----
   const SERIES = ["Aethic", "Nexic", "Golden"];
-  const KINDS = ["Main", "Offshoot"];
-  const MAIN_PAPERS = {                       // stems of the three main papers
+  const KINDS = ["Main", "Extraction"];
+  const MAIN_PAPERS = {               // stems of the three main papers (any case)
     Aethic: ["1_Aethic_Reasoning", "Aethic_Reasoning"],
     Nexic:  ["3_Nexic_Reasoning", "2_Nexic_Reasoning", "Nexic_Reasoning"],
     Golden: ["2_Golden_Reasoning", "3_Golden_Reasoning", "Golden_Reasoning"],
   };
-  const GOLDEN_OFFSHOOTS = ["accord_gold", "civ", "miracleism", "route_world", "surviv", "techno"];
+  const GOLDEN_EXTRACTIONS = ["accord_gold", "civ", "miracleism", "route_world", "surviv", "techno"];
 
   const MANIFEST = "manifest.json";
   const CONCURRENCY = 4;
@@ -123,6 +128,7 @@ layout: null
   const setStatus = (msg, err) => { statusEl.textContent = msg; statusEl.classList.toggle("err", !!err); };
   const fileType = () => document.querySelector('input[name="kind"]:checked').value;
   const key = (s, k) => s + "/" + k;
+  const lc = (s) => String(s).toLowerCase();
 
   // Folder URL (this page is the folder's index)
   const here = new URL(location.href);
@@ -131,20 +137,47 @@ layout: null
   const base = new URL("./", here);
   const urlFor = (p) => new URL(p.split("/").map(encodeURIComponent).join("/"), base).href;
 
-  // ---- Classification ----
-  function classify(path) {
-    const name = path.slice(path.lastIndexOf("/") + 1);
-    const stem = name.replace(/\.[^.]+$/, "");
-    for (const s of SERIES) if (MAIN_PAPERS[s].includes(stem)) return { series: s, kind: "Main" };
-    const norm = stem.toLowerCase().replace(/[^a-z0-9]/g, "");
-    if (norm.includes("nexic") || (norm.includes("optimal") && norm.includes("earth"))) return { series: "Nexic", kind: "Offshoot" };
-    if (norm.includes("golden") || GOLDEN_OFFSHOOTS.includes(stem)) return { series: "Golden", kind: "Offshoot" };
-    return { series: "Aethic", kind: "Offshoot" };
+  // ---- Main site data ----
+  let siteData = null;                       // { recPrefix, byStem: Map(lowercase stem -> paper) }
+  async function loadSiteData() {
+    for (const u of MAIN_DATA_URLS) {
+      try {
+        const res = await fetch(u, { cache: "no-cache" });
+        if (!res.ok) continue;
+        const d = await res.json();
+        if (!d || !Array.isArray(d.rows)) continue;
+        const byStem = new Map();
+        for (const row of d.rows) for (const p of row.papers || []) {
+          const files = Array.isArray(p.file) ? p.file : (p.file ? [p.file] : []);
+          for (const f of files) byStem.set(lc(f), p);
+        }
+        return { recPrefix: d.pp_rec || "", byStem, from: new URL(u, location.href).host };
+      } catch { /* try the next URL */ }
+    }
+    return null;
   }
 
-  let all = [];                                  // [{path, series, kind}]
-  const selected = new Set(SERIES.flatMap(s => KINDS.map(k => key(s, k))));   // default: everything
-  const ofType = () => all.filter(f => EXT[fileType()].some(e => f.path.toLowerCase().endsWith(e)));
+  // ---- Classification: main-paper names first, then the site data, then filename rules ----
+  function classify(stem, paper) {
+    const s = lc(stem);
+    for (const series of SERIES) {
+      if (MAIN_PAPERS[series].some(x => lc(x) === s) || s === lc(series) + "_reasoning") return { series, kind: "Main" };
+    }
+    if (paper) {
+      const wing = paper.wing ? paper.wing[0].toUpperCase() + lc(paper.wing).slice(1) : "Aethic";
+      return { series: SERIES.includes(wing) ? wing : "Aethic", kind: "Extraction" };
+    }
+    const norm = s.replace(/[^a-z0-9]/g, "");
+    if (norm.includes("nexic") || (norm.includes("optimal") && norm.includes("earth"))) return { series: "Nexic", kind: "Extraction" };
+    if (norm.includes("golden") || GOLDEN_EXTRACTIONS.includes(s)) return { series: "Golden", kind: "Extraction" };
+    return { series: "Aethic", kind: "Extraction" };
+  }
+
+  const prettyStem = (stem) => stem.replace(/^\d+_/, "").replace(/[_-]+/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+
+  let all = [];                               // [{path, stem, series, kind, paper}]
+  const selected = new Set(SERIES.flatMap(s => KINDS.map(k => key(s, k))));
+  const ofType = () => all.filter(f => EXT[fileType()].some(e => lc(f.path).endsWith(e)));
   const chosen = () => ofType().filter(f => selected.has(key(f.series, f.kind)));
 
   function clean(arr) {
@@ -181,9 +214,8 @@ layout: null
       grid.appendChild(b);
       return b;
     };
-    const everyKey = SERIES.flatMap(s => KINDS.map(k => key(s, k)));
-    mk("All", "hd", () => toggleGroup(everyKey)).title = "Toggle everything";
-    for (const k of KINDS) mk(k === "Main" ? "Main" : "Offshoots", "hd", () => toggleGroup(SERIES.map(s => key(s, k))));
+    mk("All", "hd", () => toggleGroup(SERIES.flatMap(s => KINDS.map(k => key(s, k)))));
+    for (const k of KINDS) mk(k, "hd", () => toggleGroup(SERIES.map(s => key(s, k))));
     for (const s of SERIES) {
       mk(s, "hd rowhd", () => toggleGroup(KINDS.map(k => key(s, k))));
       for (const k of KINDS) {
@@ -216,13 +248,38 @@ layout: null
     for (const s of SERIES) for (const k of KINDS) {
       const group = files.filter(f => f.series === s && f.kind === k);
       if (!group.length) continue;
-      const h = document.createElement("h3");
-      h.textContent = `${s} · ${k === "Main" ? "Main" : "Offshoots"} (${group.length})`;
-      const ul = document.createElement("ul");
+
+      // One line per paper (stem), with its file links beside the title
+      const byStem = new Map();
       for (const f of group) {
-        const li = document.createElement("li"), a = document.createElement("a");
-        a.href = urlFor(f.path); a.textContent = f.path; a.setAttribute("download", "");
-        li.appendChild(a); ul.appendChild(li);
+        const id = f.path.replace(/\.[^.\/]+$/, "");
+        if (!byStem.has(id)) byStem.set(id, []);
+        byStem.get(id).push(f);
+      }
+      const h = document.createElement("h3");
+      h.textContent = `${s} · ${k} (${byStem.size} paper${byStem.size === 1 ? "" : "s"})`;
+      const ul = document.createElement("ul");
+      for (const fs of byStem.values()) {
+        const f0 = fs[0], li = document.createElement("li");
+        const title = document.createElement("span");
+        title.textContent = f0.paper?.title || prettyStem(f0.stem);
+        title.title = f0.stem;
+        const links = document.createElement("span");
+        links.className = "fl";
+        for (const f of fs) {
+          const a = document.createElement("a");
+          a.href = urlFor(f.path); a.setAttribute("download", "");
+          a.textContent = f.path.slice(f.path.lastIndexOf(".") + 1).toUpperCase();
+          links.appendChild(a);
+        }
+        if (f0.paper?.code && siteData?.recPrefix) {
+          const r = document.createElement("a");
+          r.href = siteData.recPrefix + f0.paper.code; r.textContent = "record ↗";
+          r.target = "_blank"; r.rel = "noopener";
+          links.appendChild(r);
+        }
+        li.append(title, links);
+        ul.appendChild(li);
       }
       list.append(h, ul);
     }
@@ -260,8 +317,7 @@ layout: null
           try {
             const r = await fetch(urlFor(f.path));
             if (!r.ok) throw new Error(r.status);
-            // Inside the zip, files are sorted into Series/Main or Series/Offshoots folders
-            zip.file(`${f.series}/${f.kind === "Main" ? "Main" : "Offshoots"}/${f.path}`, await r.blob());
+            zip.file(`${f.series}/${f.kind}/${f.path}`, await r.blob());   // e.g. Nexic/Extraction/…
           } catch { failed.push(f.path); }
           done++;
           bar.value = (done / files.length) * 80;
@@ -299,7 +355,17 @@ layout: null
       refresh();
       return;
     }
-    all = (await findFiles()).map(path => ({ path, ...classify(path) }));
+    const [paths, data] = await Promise.all([findFiles(), loadSiteData()]);
+    siteData = data;
+    all = paths.map(path => {
+      const name = path.slice(path.lastIndexOf("/") + 1);
+      const stem = name.replace(/\.[^.]+$/, "");
+      const paper = siteData?.byStem.get(lc(stem)) || null;
+      return { path, stem, paper, ...classify(stem, paper) };
+    });
+    $("source").textContent = siteData
+      ? `Titles and wings from ${siteData.from}/papers.json; unlisted files are sorted by filename.`
+      : "Main-site paper data unavailable; files are sorted by filename.";
     if (!all.length) setStatus("No files found in this folder.", true);
     $("kind").addEventListener("change", () => { setStatus(""); bar.hidden = true; refresh(); });
     btn.addEventListener("click", run);
