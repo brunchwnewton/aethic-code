@@ -1,27 +1,38 @@
-# Projective Gravity — Version 35.0 (draft): the hyper-canonical completion and the charged-lepton cycle
+# Projective Gravity — Version 35.1 (draft): the hyper-canonical completion and the charged-lepton cycle
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases — with branches on charge and extremality, and on rendering and canonical optics
 
-**Claim status of Part XXX (v35.0).** This table governs the open work. Parts 0–XXIX are frozen — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10 — and their claim status is the frozen table that follows this one, unchanged; two post-freeze erratum notes (R211) correct a fitted number in §§XXI.4–4a. Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*.
+**Claim status of Part XXX (v35.1).** This table governs the open work. Parts 0–XXIX are frozen — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10 — and their claim status is the frozen table that follows this one, unchanged except for marked post-freeze notes. Post-freeze notes correct them without rewriting them: two erratum notes in §§XXI.4–4a (R211), and clarification notes in §§XXIX.40(e), XXIX.41(d), XXIX.42(g) and XXIX.43(b) (R212–R216, §XXX.12). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*. Rows changed in v35.1 carry their register number.
 
 | claim | type | evidence | archive |
 |:--|:--|:--|:--|
 | **The hyper-canonical completion (Part XXX)** | | | |
-| Hyper-canonical space $\mathscr H_{\rm C}$: the parent of admissible relational configurations and of rendering codes; a selection functional; the Machian requirement that our code be physically selected | definition; specified physical premise | defined; unconstructed | §XXX.2 |
-| An exact symmetry, $[T,H] = 0$, preserves every mass: no symmetry turns an electron into a muon | analytic theorem | standard, and found in §XXI.4; on the carrier the null space of $[\,\cdot\,,M]$ is the diagonal matrices (nullity $3$; next singular value $105.15$ MeV, the smallest mass gap) | §XXX.3(a) |
-| The two renderings on the native carrier: $SM(\theta)S^{-1} = M(\theta-2\pi/3)$ (jointly, the same spectrum; the same physics only if the axial and circular sectors carry no distinction); against one code, $e\to\mu\to\tau$ | analytic theorem; numerical control | to $3\times10^{-13}$; masses at the PDG 2025 fit $\theta = 0.222225$, $m_* = 627.700$ MeV | §XXX.3(b) |
-| The conveyor identified with the shift $S$; its home in $\mathscr H_{\rm C}$, acting on a marked local excitation; "our own world again" as the joint rendering | definition; specified physical premise | not constructed in $\mathscr H_{\rm C}$ | §XXX.3(b), (d), (e) |
-| $S$ is not a rotation of the carrier in any phase convention: space supplies the clock, not the shift | analytic theorem; numerical control | §XXI.4 found it for $C$; axial to circular in every convention, the squared imaginary part exactly $1.5$ in all | §XXX.3(c) |
-| The phase family: a conjugation-symmetric degenerate point (light pair $26.92$ MeV, with $m_*$ held), a massless boundary at $\pi/12$, the observed phase $0.849$ of the way between; the decay gate closes as $Q^5$ | analytic theorem; numerical control | local slope $4.996$; small-$Q$ law to $0.9975$ | §XXX.4 |
-| The lepton formula refitted to PDG 2025: the phase within $5\times10^{-6}$ of $2/9$ under five fitting rules; $2/9$ inside the band allowed by the $\tau$-mass uncertainty | observational fit (numerical, not derived) | fitting $e$ and $\mu$ exactly predicts $m_\tau = 1776.969$ MeV ($0.4\sigma$) | §XXX.4 |
-| Post-freeze erratum: Part XXI.4's fitted phase $0.22227$ is reproduced by no fitting rule; at the inputs of its time, $0.222230$ with the frozen $m_* = 627.68$ MeV | numerical control (erratum) | five rules, two input sets | §XXX.4a; notes in §§XXI.4–4a |
-| Dephasing keeps a particle (by construction); decay needs a continuum, at the band-limited golden-rule pole | analytic theorem; numerical control | coherence rate $1.03$ against $1$; $\Gamma$ to $1\times10^{-5}$ of the pole | §XXX.5 |
-| The standard universality tests with one weak coupling: the $\tau$ lifetime given its measured leptonic branching fraction ($+0.36\%$, $1.3\sigma$, with the $W$-propagator factors); $B(\mu)/B(e)$ ($0.2\sigma$) | numerical control with measured inputs (standard physics) | PDG 2025; the data do not choose between the economical and the broader reading | §XXX.6 |
-| Generation transport: an aligned identity and a global cycle, proposed as two regimes of one flat connection; clock and shift generate the order-$27$ Weyl–Heisenberg group | specified physical premise; analytic theorem for the group | computed | §XXX.7 |
-| The loop cannot be a spacetime loop: a covariantly constant mass operator forces diagonal holonomy; otherwise a slowly varying basis is followed adiabatically and cycles nothing, and a fast one changes flavour, bounded by MEG II; $S^3$ and $\mathbb{RP}^3$ admit no order-three holonomy | analytic theorem; empirical bound | $B(\mu^+\to e^+\gamma)<1.5\times10^{-13}$ (MEG II) | §XXX.7 |
-| The selection functional; the conveyor's construction in $\mathscr H_{\rm C}$; masses from the mismatch; the conjunction test; the mismatch-dependent toys and $V_{\rm weak}$; black-hole entropy and Kerr $a$ from counting | open bridge | — | §XXX.8 |
+| Hyper-canonical space $\mathscr H_{\rm C}$, codes, selection and the Machian requirement; $\Delta_n\geq0$ is automatic, and the needed law is $(U,c_*)\mapsto M_{\rm eff}$, with equivariant selection $c_*(TU) = Tc_*(U)$ (R223) | definition; specified physical premise | defined; unconstructed | §XXX.2 |
+| An exact internal symmetry — commuting with the mass operator, or with $H^2-P^2$ — preserves every mass; $[T,H] = 0$ alone does not (R217) | analytic theorem | on the rest-mass carrier the commutant is the diagonal matrices (next singular value $105.15$ MeV); equal-energy counterexample, $[C,H^2-P^2]\neq0$ by $3.16\times10^6$ MeV$^2$ | §XXX.3(a) |
+| On the native carrier, at one fixed axis: $SM(\theta)S^{-1} = M(\theta-2\pi/3)$, an exact covariance of the mass spectrum; against one code, $e\to\mu\to\tau$, a relation between descriptions, not a conversion (R217, R218) | analytic theorem; numerical control | to $3\times10^{-13}$; a conversion would need $105.15$ and $1671.27$ MeV | §XXX.3(b), (e) |
+| The conveyor identified with $S$; $T_{\rm global}$ on matched worlds and $T_{\rm relative}$ on a marked excitation, the second to be induced by the first; full physical equivalence of matched renderings (R217, R219) | definition; specified physical premise; open bridge | not constructed in $\mathscr H_{\rm C}$ | §XXX.3(b), (d), (e) |
+| $S$ is not a rotation of the carrier in any phase convention: space supplies the clock, not the shift | analytic theorem; numerical control | the squared imaginary part exactly $1.5$ in every convention | §XXX.3(c) |
+| No conveyor over the axis family: the weight lines have Chern numbers $0$, $+2$, $-2$ (R224) | analytic theorem; numerical control | lattice Berry flux | §XXX.13(b) |
+| The framed shift $S(Q) = QS_0Q^{-1}$ descends, up to a cube root of unity, exactly to trigonal frames $SO(3)/\mathbb Z_3$ and to nothing coarser; HC space would have to supply the trigonal frame (R224) | numerical control; definition; open bridge | $S^3 = I$ to $2\times10^{-15}$; residual $3\times10^{-16}$ at third-turns, $0.39$ and $0.74$ elsewhere | §XXX.13(c)–(d) |
+| The phase family: a degenerate point, a massless boundary at $\pi/12$, the observed phase $0.849$ of the way; the decay gate closes as $Q^5$; the spectrum does not fix mixing (R220) | analytic theorem; numerical control | local slope $4.996$ | §XXX.4 |
+| The fitted phase is numerically close to $2/9$; in the exact two-parameter pole-mass family, the uncertainty-weighted test excludes exact $2/9$; exact $2/9$ fits only with a specified correction off the family (R220) | observational fit; numerical control | free $\chi^2 = 0.188$; at $2/9$, $\chi^2 = 203{,}974$ ($\mu$ $+451.6\sigma$); with a half-angle shift $-2.13\times10^{-7}$, $\chi^2 = 0.165$ | §XXX.4 |
+| Post-freeze erratum: none of the five tested rules reproduces Part XXI.4's phase $0.22227$; likely a transcription slip, by inference (R211, R220) | numerical control (erratum) | five rules, two input sets | §XXX.4a; notes in §§XXI.4–4a |
+| Dephasing keeps a particle; decay needs a continuum, approximately exponential over the fitted window, the pole a continuum approximation (R221) | analytic theorem; numerical control | coherence rate $1.03$ against $1$; $\Gamma$ to $1\times10^{-5}$ of the band-limited pole | §XXX.5 |
+| The standard universality tests with one weak coupling: a benchmark to recover, not evidence for an ontology (R221) | numerical control with measured inputs | $\tau$ lifetime $+0.36\%$ ($1.3\sigma$); $B(\mu)/B(e)$ $0.2\sigma$ | §XXX.6 |
+| Generation transport with an aligned identity and a global cycle; the overlap table belongs to the principal logarithm, a chosen path (R222) | specified physical premise; numerical control | another branch gives $0$ at $\alpha = 1/2$, non-monotone | §XXX.7 |
+| Excluded spacetime transports: one commuting with a covariantly constant nondegenerate mass, and a flat one on $S^3$ or $\mathbb{RP}^3$; others need a dynamical construction and computed channels, $\mu\to e\gamma$ via a dipole amplitude (R222) | analytic theorem (scoped); open bridge | a curved patch $A = Lx\,dy$ has holonomy $S$; MEG II $<1.5\times10^{-13}$ is channel-specific | §XXX.7 |
+| The ideal rendering: three masses fix $(m_*,\theta,\alpha)$, each within $0.4\sigma$ of $(2/9,\pi/4)$ marginally, with errors almost fully correlated; the joint test, the fully ideal rendering, fails $m_e/m_\mu$ by $452\sigma$; the departure points toward degeneracy (R225, R226) | numerical control | pole masses; $m_\tau$ predictions within $2.5$ keV of each other | §XXX.11(c)–(e) |
+| Entries 288–293: an exact template ($K = 2/3$, $\theta_0 = 2/9$) realized with finite rigidity, the departure carried by the masses (Entry 293); directional softening; selection conditioned on the mass hierarchy (R225, R228) | specified physical premise | — | §XXX.11(a)–(b), (n) |
+| Smallness alone selects a massless electron, not $2/9$; a mixture with the degenerate category needs weight $1.9\times10^{-7}$ (15.5 nats), an acceptance condition; the fuzz is consistent with a fixed realization ($\Delta\theta<7\times10^{-9}$ over 7.5 Gyr along one sightline); categorical susceptibility $\phi$ from $9.5\times10^{-6}$ to $\pi/4$ (R227) | numerical control; empirical bound | Muller et al. 2021; Lange et al. 2021 | §XXX.11(f)–(h) |
+| Corrections on the masses (Entry 293): six shapes, each fixed by $m_e/m_\mu$, put $\approx5$ eV on the electron and predict $m_\tau$ from $1776.958$ to $1776.969$ MeV; the correlated $(K,\theta_{\rm fit})$ reduce to $m_\tau$; the mixture and code-average corrections are covariant under the cycle, and $S^3 = I$ returns the same carrier state (the same HC excitation is a target); a QED-like logarithm would be $1889$ times too large (R228) | numerical control; analytic theorem | covariance to $4\times10^{-13}$; ${\rm tr}\,M = 3m_*$ | §XXX.11(i)–(k) |
+| A selection toy (mean-field Potts ensemble of codes, coherence $\propto h$, one parameter from the fuzz): privilege lost by a first-order jump at $\theta_t = 0.0444$ ($m_{\rm next}/m_{\rm min} = 2.11$), equal footing at $m_*$ below (R229) | numerical control within a toy; specified physical premise | $\lambda = 3.70$; hysteresis $0.0440$–$0.0480$ | §XXX.11(l) |
+| The scale $m_*$ of the exact template under six criteria ($627.6990$–$627.7123$ MeV): only $\delta_e-(f_e/f_\mu)\delta_\mu = 5.024$ eV is normalization-free; the lepton mass sum is $1.0028$ times $m_p+m_n$ ($58\sigma$ from equality), as close as chance gives among simple hadron sums (R230) | numerical control; open bridge (the nucleon link, a conjecture) | 2 of 230 hadron sums as close; about 1.3 expected | §XXX.11(m) |
+| The selection functional, its rigidity and the privileging constraint; the correction shape, equivalently $m_\tau$; the conveyor in $\mathscr H_{\rm C}$; masses from the mismatch and the source of $m_*$; the conjunction test; the mismatch-dependent toys and $V_{\rm weak}$; black-hole entropy and Kerr $a$ (R223) | open bridge | — | §§XXX.8, XXX.11(n) |
+| **Post-freeze clarifications to Part XXIX (R212–R216)** | | | |
+| The equatorial limit of the circular branch is linearly marginal; slower equatorial orbits are unstable; every finite core declines as $1/\rho$ on the far side, and $M_{\rm eff}$ falls | numerical control (independent solution) | plateaus to $0.005$ km/s; slopes $-0.9996$, $-0.9977$ | §XXX.12(a)–(b) |
+| The arena law: three readings and three constants ($95.78$, $131.71$, $234.375\,M_\odot$ pc$^{-2}$); the Fourier norm gains $\lvert n\rvert$; the time convention; fits, checks and darkness scoped | numerical control; definition | $35.26$ against $47\pm6$ and $62.8\,M_\odot$ (km/s)$^{-4}$ | §XXX.12(c)–(e) |
 
-**Claim status of the frozen Parts at the v34 freeze (v34.10).** This table governs Parts 0–XXIX, unchanged since the freeze. Part XXIX is frozen at v34.10, as Parts 0–XXVII were at v31.27 and Part XXVIII at v32.27; §XXIX.43 states what the freeze contains and what it hands on. Each claim is typed as an *analytic theorem*, a *numerical control*, a *specified physical premise*, an *observational fit* or an *open bridge*. The round summaries, in the Round record at the end of this archive, record what each round did; where they differ from the table, the table holds.
+**Claim status of the frozen Parts at the v34 freeze (v34.10).** This table governs Parts 0–XXIX, unchanged since the freeze except for marked post-freeze notes. Part XXIX is frozen at v34.10, as Parts 0–XXVII were at v31.27 and Part XXVIII at v32.27; §XXIX.43 states what the freeze contains and what it hands on. Each claim is typed as an *analytic theorem*, a *numerical control*, a *specified physical premise*, an *observational fit* or an *open bridge*. The round summaries, in the Round record at the end of this archive, record what each round did; where they differ from the table, the table holds.
 
 | claim | type | evidence | archive |
 |:--|:--|:--|:--|
@@ -46,10 +57,10 @@
 | Entries 278 and 286: other galaxies read through a conformal map of the leaf (stereographic, area Jacobian $\sec^4(\chi/2)$), continued through the far hemisphere, which under the barren-twin readout has gravity and no luminous readout | specified physical premise; numerical control | creates no velocities; flattens the approach to the plateau relative to the areal reading; far-hemisphere speeds mirror the near ones (for the benchmark within $1.5\%$ of the plateau from $21.9$ to $46.8$ kpc; a near-side peak of a concentrated source reappears above the plateau), orbits stable; a flux magnification only under a detector law; an odd spectral transport imitates rotation | §XXIX.42 |
 | Part XII's arena law $GM = A\ell^2$, a hypothesis of the detached wing with $A$ fixed by matching $a_0$ (motivated by planar disks of universal surface density at fixed $h/\ell$): with the plateau, $v^4 = 4C_{\rm plat}^2A\,GM$, slope $4$. Entry 288's apparent scale satisfies its form automatically; the slope-4 relation then needs velocities rendered by $s^{1/2}$ | specified physical premise | $A = a_0/(2C_{\rm plat})^2$, $95.8\,M_\odot$ pc$^{-2}$; the thin-disk ceiling $\Sigma_0\geq190\,M_\odot$ pc$^{-2}$ stands | §§XII.1–2, XXIX.42(e), (g) |
 | Hubble-diagram cases; the static label curve $D_L = \ln(1+z)/H$ ($-1.737$ mag at $z = 1$) | numerical control | benchmark discrepancies against a fixed comparison curve | §§XXIX.35(c), 38(f), 39(f) |
-| Observational fits | none | no supernova likelihood, no count comparison with a selected sample, no rotation-curve fit | §XXIX.39(f) |
+| Observational fits | none | no supernova likelihood, no count comparison with a selected sample, no rotation-curve fit (post-freeze note, v35.1, R216: the current predictive model; Part XII's exploratory fits, §XII.3, belong to its detached wing) | §XXIX.39(f) |
 | The photon wave operator and its mode projection; a $q = 0$ reader; a frequency bridge with time dilation and a derived echo law; a pair-selection law; a detector law for the image map, with one forward image of a fixed galaxy; a derived spectral transport, even and odd | open bridge | — | §§XXIX.39(b), 41, 42, 43(f) |
 
-> **How to read this archive (v35.0).** Two tables govern: the Part XXX table, for the open work, and the frozen v34.10 table that follows it, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX, and §XXX.9) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Part XXX, placed after §XXIX.16. The frozen Parts are not extended: a correction to one is made as a post-freeze erratum with its own register entry, as R211 does for the fitted phase of §§XXI.4–4a.
+> **How to read this archive (v35.1).** Two tables govern: the Part XXX table, for the open work, and the frozen v34.10 table that follows it, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX, and §XXX.9) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Part XXX, placed after §XXIX.16. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, and R212–R216 for the clarifications to Part XXIX, collected in §XXX.12.
 
 > **v34.0 governing ontology correction (11 October 2026).** **Matter and its stress-energy content live fundamentally in the five-dimensional middle space** $\mathcal M=E/U(1)_H$, not solely on the representational bisection. The four-dimensional gravity base $B_{\rm grav}=\mathcal M/U_{\rm mer}$ is the quotient where the effective Einstein equation is expressed. The source $T^{(g)}$ must be obtained from the **entire** one-dimensional meridian fiber, including both arcs and possible pole/core contributions, by a covariant, action-compatible fiber reduction with a geometrically justified measure and tensor projection. A sum of contributions at the two points of $B_{\rm rep}$ is **not Law I**: it is only a distributionally leaf-supported special case. Einstein equations on the base impose constraints on the admissible middle-space configurations; equivalently their pullback imposes a horizontal constraint on $\mathcal M$, **not** independent five-dimensional Einstein equations. The full measure, singular-fiber rule, conservation identity and parent variational principle are **open**. Previously frozen text about source localization and two-point sourcing is superseded by this paragraph, the corrected Law I in Part III, and §XXIX.8; historical derivations remain conditional benchmarks where their premises apply. The observation that $\ell/G$ has a numerically suggestive relation to a galactic mass was an exploratory coincidence, **not** a premise that the closure mass is the Galaxy's baryonic mass. The author also prefers a *macroscopic middle-space* origin of $G$ (with the closure ratio as a target) and a separate Boltzmannian-compatibility origin of the effective quantum/Planck-area scale; the induced-gravity calculation remains a benchmark, not the preferred ontological explanation of $G$.
 
@@ -2917,7 +2928,7 @@ so the square-root form $\sqrt{m_n} = \sqrt{m_*/2}\,(1+\sqrt2\cos\theta_n)$ *eme
 
 **Against the physical leptons [V].** The measured masses give $K = 0.666661$. The fit $\sqrt{m_n} = \sqrt{m_*/2}(1+\sqrt2\cos\theta_n)$ gives $\theta = 0.22227$ rad $= 12.735^\circ$ (Brannen's $2/9 = 0.2222$) and $m_* = 627.68$ MeV, inside the positive branch, with roots $2.379$, $0.580$, $0.040$ for $\tau$, $\mu$, $e$: the electron sits near the branch boundary, and its two dual factors are $1.040$ and $0.00078$ — the hierarchy is near-orthogonality of the electron's direction to one reference, in the Born sense.
 
-*Post-freeze erratum, v35.0 (R211; Part XXI frozen; this note corrects a fitted number, not a result).* The phase quoted here is reproduced by no standard fitting rule. At the inputs of the time, least squares in $\sqrt m$ gives $\theta = 0.222230$ rad $= 12.733^\circ$ with the $m_* = 627.68$ MeV quoted here, $7\times10^{-6}$ from $2/9$; with PDG 2025 inputs it gives $0.222225$. The quoted $0.22227$ is most likely a transcription slip; §XXX.4a gives the comparison.
+*Post-freeze erratum, v35.0 (R211; Part XXI frozen; this note corrects a fitted number, not a result).* None of the five tested fitting rules reproduces the phase quoted here *[v35.1, R220]*. At the inputs of the time, least squares in $\sqrt m$ gives $\theta = 0.222230$ rad $= 12.733^\circ$ with the $m_* = 627.68$ MeV quoted here, $7\times10^{-6}$ from $2/9$; with PDG 2025 inputs it gives $0.222225$. The quoted $0.22227$ is likely, by inference, a transcription slip *[v35.1, R220: was "most likely"]*; §XXX.4a gives the comparison.
 
 **The rendering-covariant cycle [V/S].** Because the masses are unequal, no transformation leaves a nondegenerate $M_F$ invariant while permuting them. The cleaner statement exists exactly: a unitary $C$, the cyclic permutation of $R$'s eigenvectors, satisfies $CRC^{-1} = \omega R$ and $C\,M(\theta)\,C^{-1} = M(\theta+2\pi/3)$ **[V]** — the cycle maps one assignment of the three masses to the next, rendering to rendering, rather than being a symmetry of one rendered world. But $C\notin SO(3)$: it permutes the axis with the two circular states, which no rotation does **[V]**. If rendering covariance is the mechanism, it needs an operation the native geometry does not supply — consistent with Part XIX's firewall, and marked as the proposal it is.
 
@@ -2937,7 +2948,7 @@ so the square-root form $\sqrt{m_n} = \sqrt{m_*/2}\,(1+\sqrt2\cos\theta_n)$ *eme
 
 **Two separate questions.** The $\mathbb Z_3$ explains the shifts $\pm2\pi/3$; the base phase does not follow from it. Empirically $\theta = 0.22227$ rad against $2/9 = 0.22222$, a difference of $5\times10^{-5}$ rad at pole masses — recorded as numerical, not derived, and not to be treated as exact until an independent equation fixes $\theta$ or the accuracy is established at the appropriate running scale. If the $\tau$ is the axial sector, the near-$2/9$ phase attaches specifically to the unique invariant sector rather than to an arbitrary member of a symmetric triplet, which is what would make it interesting; a strong future result would fix that phase relative to the quarter-turn references. And the literal cycle remains what §XXI.4 found: the native rotation supplies three spectral sectors, the operator $C$ that reassigns the masses lies outside the shell, and if the whole-universe cycle survives its home is the rendering groupoid.
 
-*Post-freeze erratum, v35.0 (R211).* With the corrected phase (the note in §XXI.4; §XXX.4a) the sector masses above are $1776.86$, $105.66$ and $0.511$ MeV, and the difference from $2/9$ is $7\times10^{-6}$ rad at the inputs of the time and $2.5\times10^{-6}$ at PDG 2025's, not $5\times10^{-5}$. The conclusions — numerical, not derived — stand.
+*Post-freeze erratum, v35.0 (R211).* With the corrected phase (the note in §XXI.4; §XXX.4a) the sector masses above are $1776.86$, $105.66$ and $0.511$ MeV, and the difference from $2/9$ is $7\times10^{-6}$ rad at the inputs of the time and $2.5\times10^{-6}$ at PDG 2025's, not $5\times10^{-5}$. The conclusions — numerical, not derived — stand. In the exact two-parameter family the uncertainty-weighted test excludes exact $2/9$ (§XXX.4) *[v35.1, R220]*.
 
 **Kill tests.** The branch downgrades if the $\mathbb Z_3$ remains chosen only because three leptons are observed; if the occupancy premise has no source in the theory; if the $\tau$ privilege is only labelling; if a fourth native sector appears when the matter bundle is built; if flavor needs a carrier other than ${\rm Sym}^2\mathbb C^2$; if the transverse pair is treated as an exact symmetry; if $2/9$ is treated as derived; or if three spatial dimensions are invoked without the representation chain. **Exact result:** ${\rm Sym}^2\mathbb C^2|_{R_{2\pi/3} } = 1\oplus\omega\oplus\omega^2 = {\rm Reg}(\mathbb Z_3)$, with the generation interpretation **[S/O]**. **The two questions for the next pass:** why flavor should exhaust the carrier as the regular representation of a cyclic group, and why the invariant $m = 0$ sector should be the $\tau$ and whether its phase can be fixed.
 
@@ -9148,7 +9159,7 @@ with $n$ the base's spatial dimension. Compatibility, $X^{(1)} = 0$, makes the w
 The results:
 - *The anchor interpolates* between free matter ($k = 0$, exactly the co-moving solution) and held matter ($k\to\infty$, v34.8's exchange $0.6208$).
 - *Including the holding stress in $T$ does not conserve $T$.* The anchor's stress is in $T$ at every $k$, yet the divergence equals the force on the fixed reference, to $2\times10^{-13}$. A holder must be a sector with its own equation, not only a stress.
-- *First order.* The reduced stress of this $1+1$ control is stiff at first order ($\delta T^x{}_x = -\delta T^t{}_t$), and the anchor's stress is second order, so the exchange is the derivative of the deficit: $X = N^{-2}(N^2\delta\rho)'$. The held-matter residual of that relation is $0.172$, $0.068$ and $0.017$ at $b = 0.1$, $0.025$ and $0.00625$: it vanishes with $b$, linearly once $b$ is small (the last step divides it by $4.0$). The norm fractions are nevertheless different functionals. The exchange is a derivative of the deficit profile, and a derivative weights the profile's spatial modes differently, so the fractions differ already at first order. By central differences at $b = \pm10^{-4}$, the linear density and exchange fractions are $0.121869$ and $0.090765$ at $k = 0.3$, $0.146069$ and $0.133466$ at $k = 1$, and $0.440853$ and $0.324461$ at $k = 10$. They agree between $32\times64$ and $64\times128$ to $2\times10^{-12}$, while the linear relation holds to $4\times10^{-8}$ (§XXIX.21, v34.10-1). Nonlinear terms add further differences at $b = 0.1$. *[v34.10, R192]* This control therefore cannot test the $3+1$ relation between a scalar deficit and the force, which stays open.
+- *First order.* The reduced stress of this $1+1$ control is stiff at first order ($\delta T^x{}_x = -\delta T^t{}_t$), and the anchor's stress is second order, so the exchange is the derivative of the deficit: $X = N^{-2}(N^2\delta\rho)'$. The held-matter residual of that relation is $0.172$, $0.068$ and $0.017$ at $b = 0.1$, $0.025$ and $0.00625$: it vanishes with $b$, linearly once $b$ is small (the last step divides it by $4.0$). The norm fractions are nevertheless different functionals. The exchange is a derivative of the deficit profile, and a derivative weights the profile's spatial modes differently, so the fractions differ already at first order. By central differences at $b = \pm10^{-4}$, the linear density and exchange fractions are $0.121869$ and $0.090765$ at $k = 0.3$, $0.146069$ and $0.133466$ at $k = 1$, and $0.440853$ and $0.324461$ at $k = 10$. They agree between $32\times64$ and $64\times128$ to $2\times10^{-12}$, while the linear relation holds to $4\times10^{-8}$ (§XXIX.21, v34.10-1). Nonlinear terms add further differences at $b = 0.1$. *[v34.10, R192]* This control therefore cannot test the $3+1$ relation between a scalar deficit and the force, which stays open. *[Post-freeze note, v35.1 (R215; §XXX.12(d)): the suite's print v34.10-1 says a mode $\cos nx$ "gains $n^2$ in the exchange norm"; at constant lapse the $L^2$ norm gains $|n|$ and the squared norm $n^2$. The fractions and this first-order conclusion are unaffected.]*
 - *Gauge when all structures move.* With the reference transformed with the quotient, $R = \Psi_0\circ\pi_b$, the exchange is $4.6\times10^{-13}$ at $k = 10$.
 - *Pointwise against integrated.* A $\theta$-odd reference, $R = \Psi_0(x)+\epsilon\sin\theta\cos x$ at $b = 0$ and $k = 10$: the pointwise force on the reference scales as $\epsilon$ ($0.181$ and $0.0899$ at $\epsilon = 0.1$ and $0.05$, ratio $2.02$), its fibre integral as $\epsilon^2$ ($0.0315$ and $0.00787$, ratio $4.00$). The pointwise quotient equation fails at first order, compatibility only at second. This configuration is compatible at first order, and its deficit is second order too ($\max\lvert\delta\rho\rvert = 0.0158$ and $0.00396$, ratio $4.00$), as the lemma requires.
 - *Locking.* With $\pi$ varied and $R$ fixed, the pointwise quotient force at tilts $b = 0.04$, $0.02$ and $0.01$ is $0.163$, $0.0789$ and $0.0390$: linear, and zero only at $b = 0$. Up to gauge, only the untilted quotient solves its own equation, for this scalar reference and deformation family. *[v34.10, R194]*
@@ -9226,6 +9237,8 @@ The imposed background takes the wave's energy: a source-free periodic run keeps
 - so the return delay of label-A light falls at the rate $z$ per unit of A's emission time, which is $z/(1+z)$ per unit of B's reflection time. *[v34.10, R194]*
 
 It reaches zero at A's emission time $\tau_0/z$, which is B's reflection time $(1+z)\,\tau_0/z$ after the first reflection; for a reddening that varies with the emission time, the time-integrated reddening is bounded by the round trip. With $\tau_0 = z/H_0$ ($H_0 = 70$ km/s/Mpc) that is $1/H_0 = 14.0$ Gyr of A's emission time at every $z$, and $14.1$, $15.4$ and $21.0$ Gyr of B's reflection time at $z = 0.01$, $0.1$ and $0.5$. *[v34.10, R194]* No stationary carrier realizes the table with time dilation, and in a non-stationary one the return delays must shrink at a rate fixed by the redshift. With a lifetime of about a Hubble time, this is an epoch argument, not an exclusion.
+
+*Post-freeze note, v35.1 (R216; §XXX.12(e); Part XXIX frozen).* These Hubble-time examples use equal endpoint lapses, or a common normalized time. Once unequal proper-clock rates are divided out of $F$, elapsed proper times at B still carry the lapse conversion.
 
 Together with §XXIX.38 (static carriers shift clock-timed frequency only by the reciprocal endpoint lapse ratio), this narrows the carrier question. Within the hypotheses tested, reciprocal reddening with an unshifted passive echo is either a wavelength assignment without time dilation, or a drifting one-way delay structure that cannot be stationary; a monotone time-dependent carrier with universal time dilation reddens the echo. That is a property of this carrier, not of every evolving one: a label- and epoch-dependent return leg could blueshift, but it would need a derived, causal delay and energy law. *[v34.10, R195]* Label-dependent emission couplings and dispersive time-dependent media lie outside these hypotheses and are untested.
 
@@ -9360,6 +9373,12 @@ Circular orbits exist and are stable in both hemispheres. With $\psi$ the confor
 
 *Standing.* Entries 286–288 are recorded as premises of the Option A branch, with the computed consequences (i) and (iii). The open bridges are the barren-twin selection, the detector law, and either a derivation of $A$ (with $h/\ell$) or a derived velocity-rendering law.
 
+*Post-freeze notes, v35.1 (R212–R214, R216; §XXX.12; Part XXIX frozen).*
+- *Equatorial orbits (R212).* At the equator $U' = 0$ for every angular momentum, so equatorial circularity fixes no speed. The continuous branch's equatorial limit is linearly marginal; slower equatorial circular orbits are radially unstable, faster ones stable.
+- *The far side of a finite core (R213).* Every finite-core example declines at last, $v\propto1/\rho$: $174.35$, $77.07$, $39.51$, $4.36$ km/s at $103.45$, $450.8$, $1000$, $10000$ kpc for $r_d^{\rm (st)}/\ell = 0.1$. The inferred mass $\rho v^2/G$ falls there: a finite-range apparent discrepancy, not an ordinary halo.
+- *The arena law (R214).* "Holds automatically" in (iii) means the law's form, with the reference galaxy's own constant ($234.375\,M_\odot$ pc$^{-2}$, against $95.78$ for the compact normalization and $131.71$ for the $0.1$ family). The physical family, Part XII's reading (i) and Entry 288's reading (ii) stay distinct.
+- *"Empty of matter" (R216)* in Entry 286 is the author's reading; the mathematics uses the barren-twin readout, and darkness remains a selection hypothesis.
+
 ## XXIX.43 The v34 freeze: what Part XXIX establishes, what it cannot do, and what it hands on (assessment of v34.9; follow-up report on v34.9) [D/O; v34.10, R201]
 
 *The assessment of v34.9 judged the version one verification pass from an archival freeze. It asked that the freeze keep the established mathematics, the conditional models and the documented obstructions as precisely formulated results and problems — not present them as a completed, empirically validated theory of gravity or cosmology. This section is that statement. With it, Part XXIX is frozen at v34.10, as Parts 0–XXVII were at v31.27 and Part XXVIII at v32.27.*
@@ -9391,7 +9410,7 @@ Circular orbits exist and are stable in both hemispheres. With $\psi$ the confor
   - Entries 278 and 286, the stereographic image with a barren-twin far hemisphere;
   - Part XII's arena law, a hypothesis of its detached wing;
   - Entry 288's apparent scale.
-- *Observational fits:* none.
+- *Observational fits:* none. *[Post-freeze note, v35.1 (R216; §XXX.12(e)): this refers to the current predictive model; Part XII's older exploratory fits (§XII.3) belong to its detached wing. Frozen checks of imposed premises are regression checks, not derivations.]*
 - *Open bridges:* listed in (f).
 
 **(c) The Law II and P3 limitation.**
@@ -9902,13 +9921,15 @@ It has also supplied two sharp tests: the Hubble diagram ($q_0$, and $\Delta\mu$
 
 **The program, as amended by the sixth round (v34.6).** The order stands. Item (1): the core's size is a compactness condition and its attachment a stiffness ratio; the next test is still a quotient variable with its own equation and the complete weak-secondary response. The readout branch now has a propagation tensor ($H_{\mathcal M}$), a robust class (the conjugate-point index), a computed grade, a forced functional form (conformal boost) and an exact one-degree-of-freedom reduction; its decisive obstructions are a derived frequency-transport law and distance duality for the remote images. **The program, as amended by the fifth round (v34.5).** The order below stands. Item (1), the finite core, has a candidate realization (§XXIX.28: the measure on the exceptional section, deficit $f_{\rm reg}\kappa$) whose next test is a coupled model with an actual quotient variable and the weak-secondary observables; failure would exclude that candidate construction, not the program. The readout branch (§XXIX.29) runs alongside with the six-test history toy; its decisive obstruction is a derived frequency-transport law. **The program, as amended by the fourth round (v34.4).** The order below stands, with one change forced by R111: item (1), the finite core, must carry a *transported* directional measure *[v34.5: "must" → candidate, R124]*, and its first test is $\kappa_{\rm phys}\to0$ in the alignment control — the calculation that can end the gravitational program *[v34.5: would exclude that candidate construction, R124]*, and therefore the next one. Items (2)–(5) follow as before; the research pass delivered with this version ranks them. **The program, as amended by the second round.** The standing referee's order is adopted — (1) a finite symmetric primary-core action with a derived directional measure; (2) the core's effective stress and budget response under a secondary (Theorem III, with §XXIX.17's test); (3) a universal Law II with the gauge-invariant secondary test done properly (complete-configuration matching, moving-core charts); (4) the minimal gravitational/optical readout comparison, now begun in §XXIX.18 and to be continued with the readout map; (5) the independently normalized collective response for $G$ — with the Boltzmannian core (§XXIX.19) attached to (1) as the candidate source of the stiffness, and the representation-stretch branch (§XXIX.20) run alongside as an exploratory branch that leaves Law I unchanged. The blind follow-up's list is the operational form: specify the resolved core, matter geometry, independent fields, action and what is held fixed under a base-metric variation; derive the total base stress and its conservation identity including core and auxiliary sectors; establish the one-primary branch and its directional measure; introduce a weak secondary and solve the coupled response with moving charts and the zero-mode condition; define the readout and compute invariant observables, exhibiting the matching of complete configurations if gauge equivalence is invoked; supply the implementation with convergence and limiting-case checks.
 
-# PART XXX — THE HYPER-CANONICAL COMPLETION AND THE CHARGED-LEPTON CYCLE (v35; Entries 281–285) [T/V/D/S/O]
+# PART XXX — THE HYPER-CANONICAL COMPLETION AND THE CHARGED-LEPTON CYCLE (v35; Entries 281–285 and 288–293) [T/V/D/S/O]
 
 *This part opens v35. It starts above the canonical space, where Parts 0–XXIX begin, and asks two questions:*
 - *what selects the canonical rendering itself;*
 - *whether the three charged-lepton generations are three readings of one cyclic structure there.*
 
 *Nothing in it is a result of the frozen Parts, and nothing in it has yet been shown to address the v34 obstruction (§XXIX.43(c)). Its claims are typed like the rest of the archive. Its numbers come from `pg_v35_numerics.py` (§XXX.10). One post-freeze erratum, to the fitted lepton phase of §§XXI.4–4a, is recorded in §XXX.4a.*
+
+*v35.1 answers three referee reports. It corrects Part XXX in place where the reports found a claim stronger than its proof (tags *[v35.1, R…]*, the superseded wording in §XXX.9). It tests exact $2/9$ statistically (§XXX.4) and records Entries 288–293 on the ideal rendering and its fuzz, with six correction shapes, a selection toy and the template's scale (§XXX.11). It records the post-freeze clarifications to Part XXIX (§XXX.12) and types the conveyor globally (§XXX.13).*
 
 ## XXX.1 The entries, as formulated, and six analyses (13 October 2026) [record]
 
@@ -9952,12 +9973,15 @@ Six analyses accompanied the entries.
 
 **(d) The Machian requirement.** The code $c_0$ that our world uses must be selected by real relational structure — the centrade inventory, the matter configuration, the Machian order parameter. If $c_0$ were a coordinate convention, "holding our code fixed" could no more turn an electron into a muon than a change of coordinates can change a mass.
 
-**(e) The mismatch functional.** Once $\mathcal S$ exists, $\Delta_n = \mathcal S(T^nU,c_n)-\mathcal S(T^nU,c_0)\geq0$ with $c_n = c_*(T^nU)$ measures how badly our code fits the $n$-times-cycled configuration. It is not a mass or a decay width, and it is not to be identified with either by assumption.
+**(e) The mismatch functional, and the law it needs.** Once $\mathcal S$ exists, $\Delta_n = \mathcal S(T^nU,c_n)-\mathcal S(T^nU,c_0)$ with $c_n = c_*(T^nU)$ measures how badly our code fits the $n$-times-cycled configuration. It is not a mass or a decay width, and it is not to be identified with either by assumption.
+- *$\Delta_n\geq0$ is automatic.* $c_n$ is defined as the maximizer, so the inequality carries no content and predicts no mass *[v35.1, R223]*.
+- *The object needed* is a rule from a configuration and its selected code to an effective mass operator, $(U,c_*(U))\mapsto M_{\rm eff}(U,c_*(U))$, which would have to give three distinct poles, a phase near $2/9$ and the weak-interaction structure.
+- *Equivariance.* If $\mathcal S(TU,Tc) = \mathcal S(U,c)$ and the optimum is unique, then $c_*(TU) = Tc_*(U)$: matched renderings transform together. That explains the joint rendering of §XXX.3(b), not why one code is selected in our universe; the Machian background must do that.
 
 ## XXX.3 The conveyor: one cycle, two renderings [T/V/D/S] *(numbers from `v35_conveyor_on_native_carrier()`)*
 
-**(a) The obstruction [T].** If the conveyor $T$ is an exact symmetry of the dynamics, $[T,H] = 0$, it maps each energy eigenstate to one of the same energy. It cannot turn an electron into a heavier muon. Part XXI.4 already found this for the mass operator: "because the masses are unequal, no transformation leaves a nondegenerate $M_F$ invariant while permuting them".
-- In the native example below, the commutant of the nondegenerate mass operator — the null space of $X\mapsto XM-MX$ — is three-dimensional and spanned by diagonal matrices; the next singular value is $105.1466$ MeV, the smallest mass gap. So the exact symmetries are diagonal phases, and none maps $e$ to $\mu$.
+**(a) The obstruction [T; v35.1, R217].** If the conveyor $T$ is an exact internal symmetry — one commuting with the mass operator, equivalently with the Casimir $H^2-P^2$ — it maps each mass eigenstate to one of the same mass. It cannot turn an electron into a heavier muon. Commuting with $H$ alone is not enough, since $H$ preserves energy, not mass. Electron, muon and $\tau$ states of equal energy $E = 2000$ MeV, with $p = \sqrt{E^2-m^2}$, span a subspace on which $H = EI$: the cyclic map commutes with $H$ there while permuting the masses, and fails to commute with $H^2-P^2$ by $3.157\times10^6$ MeV$^2$ (v35.1-3). Part XXI.4 already found this for the mass operator: "because the masses are unequal, no transformation leaves a nondegenerate $M_F$ invariant while permuting them".
+- On the rest-mass carrier below, the commutant of the nondegenerate mass operator — the null space of $X\mapsto XM-MX$ — is three-dimensional and spanned by diagonal matrices; the next singular value is $105.1466$ MeV, the smallest mass gap. So the exact symmetries are diagonal phases, and none maps $e$ to $\mu$.
 - The conveyor's content must therefore be a *selected background that breaks a covariance*. Transforming excitation and background together must give an equivalent spectrum. Transforming the excitation alone, against the selected background, must give a distinct excitation.
 
 **(b) Modelled on the native carrier [T/V; the identification D].** Part XXI.4's spin-one carrier ${\rm Sym}^2\mathbb C^2$ has, in the weight basis $|0\rangle$ (axial), $|+\rangle$, $|-\rangle$ of the selected axis (stored as $|0\rangle$, $|1\rangle$, $|2\rangle$ in the suite):
@@ -9966,10 +9990,10 @@ Six analyses accompanied the entries.
 - the mass family $M(\theta) = m_*[{\rm Re}(e^{i\theta}R)+I/\sqrt2]^2$.
 
 Then $S^3 = I$ and $SRS^{-1} = \omega^2R$; Part XXI.4's cycle $C$ is $S^{-1}$. §XXI.4 already recorded the cycle as a rendering covariance, $CM(\theta)C^{-1} = M(\theta+2\pi/3)$, mapping "one assignment of the three masses to the next, rendering to rendering, rather than being a symmetry of one rendered world" (idea 36). What v35 adds is the fixed-code reading below, which is Entry 281's mechanism. Fitted to the PDG 2025 masses by least squares in $\sqrt m$, kept for continuity with §XXI.4 (§XXX.4 compares other rules), $\theta = 0.222225$ and $m_* = 627.700$ MeV. The weight states then carry $1776.931$ (the $\tau$, axial), $0.51092$ (the $e$, on $|+\rangle$) and $105.6575$ MeV (the $\mu$, on $|-\rangle$).
-- *Joint rendering:* $SM(\theta)S^{-1} = M(\theta-2\pi/3)$ to $3\times10^{-13}$ — the same spectrum, relabelled. It is the same *physics* only if the axial and circular sectors carry no physical distinction. That is the distinguished-$\tau$ question of §§XXI.4a–4b: "the $\tau$ on the axial sector" is a convention unless a native criterion fixes it, and the sectors' geometric phases differ, $0$ against $\mp\Omega$ (§XXI.4c).
-- *Fixed code:* the excitation cycled against the held background $M(\theta)$ gives $\langle S^ne|M|S^ne\rangle = 0.5109\to105.6575\to1776.9309\to0.5109$ MeV, which is $e\to\mu\to\tau\to e$.
+- *Joint rendering:* $SM(\theta)S^{-1} = M(\theta-2\pi/3)$ to $3\times10^{-13}$ — an exact covariance of the mass spectrum, relabelled *[v35.1, R217]*. Full physical equivalence of the matched renderings — spin, charge, weak representations, neutrino couplings, transport and the selecting background — is an HC-level theorem target. It would in any case need the axial and circular sectors to carry no physical distinction. That is the distinguished-$\tau$ question of §§XXI.4a–4b: "the $\tau$ on the axial sector" is a convention unless a native criterion fixes it, and the sectors' geometric phases differ, $0$ against $\mp\Omega$ (§XXI.4c).
+- *Fixed code:* the excitation cycled against the held background $M(\theta)$ gives $\langle S^ne|M|S^ne\rangle = 0.5109\to105.6575\to1776.9309\to0.5109$ MeV, which is $e\to\mu\to\tau\to e$. This is a relation between descriptions, not a transition *[v35.1, R218]*. A physical $e\to\mu$ at rest would have to supply $105.15$ MeV, and $\mu\to\tau$ $1671.27$ MeV, with the exchanged energy and the other degrees of freedom identified; a unitary permutation of eigenvectors supplies neither.
 
-The identification of the author's conveyor with $S$ is a definition **[D]**. What the carrier gives is an exact linear-algebra model of Entry 281's two renderings: conjugating a diagonal mass operator by a cyclic permutation permutes its eigenvalues, and reading the permuted states against the held operator returns the other eigenvalues. The conveyor itself, an operation in $\mathscr H_{\rm C}$, is not constructed (§XXX.8, item 2).
+The identification of the author's conveyor with $S$ is a definition **[D]**. What the carrier gives, at one fixed selected axis, is an exact linear-algebra model of Entry 281's two renderings: conjugating a diagonal mass operator by a cyclic permutation permutes its eigenvalues, and reading the permuted states against the held operator returns the other eigenvalues. The conveyor itself, an operation in $\mathscr H_{\rm C}$, is not constructed (§XXX.8, item 2). Over the family of axes the fixed-axis $S$ does not globalize: the weight lines have Chern numbers $0$, $\pm2$, and $S$ descends only to trigonal frames (§XXX.13) *[v35.1, R218]*.
 
 The author's conveyor order is the shift in the orientation that puts the electron in $|+\rangle$. The conjugation $K$ ($|+\rangle\leftrightarrow|-\rangle$, $\theta\to-\theta$) exchanges $e$ and $\mu$ and reverses the order (Part XXI.4a).
 
@@ -9979,9 +10003,13 @@ The author's conveyor order is the shift in the orientation that puts the electr
 
 The conveyor's role in the theory is to complete the clock to the Weyl–Heisenberg pair $(R,S)$, and its proposed home is $\mathscr H_{\rm C}$.
 
-**(d) A local excitation, not a global transformation [D].** Entry 281 applies the transformation to the whole HC space. Transforming every part of $\mathscr H_{\rm C}$ and re-rendering gives a transformed universe, not a muon beside an electron. Three coexisting species need $T$ to act on a marked local excitation while the surrounding relational world keeps selecting $c_0$. That departs from the entry's whole-space form, and agrees with its premise that leptons are "a local matter".
+**(d) The global and the relative conveyor [D; v35.1, R219].** Entry 281 applies the transformation to the whole HC space. Two operations are kept:
+- $T_{\rm global}$ compares complete matched HC worlds. Transforming every part of $\mathscr H_{\rm C}$ and re-rendering gives a transformed universe, not a muon beside an electron; this is the setting of the joint rendering.
+- $T_{\rm relative}$ compares one excitation against a fixed selected environment, the surrounding relational world still selecting $c_0$. Three coexisting species need it, and it agrees with the entry's premise that leptons are "a local matter".
 
-**(e) "Our own world again" (Entry 284) [D].** The joint rendering returns the same spectrum, with the cycled state in the electron's role. If the axial and circular sectors carry no physical distinction ((b)), the world in which "the muon is stable" is our world relabelled, and the muon's mass is the fixed-code reading of a state that, rendered with its own code, is an electron. This is the exact content the native carrier gives the entry, under that condition. It does not say why our world's code is the one selected.
+$T_{\rm relative}$ should be induced by $T_{\rm global}$ — the whole-space operation read on an excitation relative to its selected background — rather than introduced as an unrelated operation. The local reading then follows from the entry's whole-space form instead of departing from it. Constructing the induction is part of program item 2 (§XXX.8).
+
+**(e) "Our own world again" (Entry 284) [D].** The joint rendering returns the same spectrum, with the cycled state in the electron's role. If the axial and circular sectors carry no physical distinction ((b)), the world in which "the muon is stable" is our world relabelled, and the muon's mass is the fixed-code reading of a state that, rendered with its own code, is an electron. Under that condition the native carrier gives the entry an exact covariance of the mass spectrum; full physical equivalence of the two worlds is an HC-level theorem target *[v35.1, R217]*. Over the family of axes even the spectral statement does not globalize, since the eigenvalues sit on line bundles of different topology (§XXX.13(b)). It does not say why our world's code is the one selected.
 
 The three codes related by $S$ agree on the unordered spectrum, on the Koide ratio, and on $\theta$ modulo $2\pi/3$; they differ only in which weight state carries which mass. That is one precise reading of the second Entry 282's radical proposal — "the consistent information between" the three renditions, and the inconsistent remainder — and it departs from the entry. The entry budgets the inconsistent information in "the noise that is muons and tauons"; on the carrier the remainder is a labelling, not the decays, which follow from the masses and one coupling (§XXX.6).
 
@@ -9991,10 +10019,11 @@ With $m_*$ held at $627.700$ MeV, as an illustration rather than a claim about o
 - *The common-sign branch* is $|\theta|\leq\pi/12$ in each third of the circle, and the Koide ratio is $2/3$ all along it.
 - *The degenerate point* $\theta = 0$ is the fixed point of the conjugation $K$, which maps $M(\theta)$ to $M(-\theta)$. There the light pair is degenerate at $m_*(1/\sqrt2-1/2)^2 = 26.9241$ MeV, under a heavy state at $1829.25$ MeV. The lowest eigenspace has rank $2$, and the mass term has a $U(2)$ symmetry on it. That is a symmetry of the mass term, not necessarily of the whole theory: weak interactions, neutrino mixing or the selecting background could still distinguish the pair.
 - *The massless boundary* $\theta = \pi/12 = 0.261799$: the electron's branch vanishes.
-- *The physical phase.* $\theta = 0.222225$ lies $0.849$ of the way from the degenerate point to the massless boundary. It is $2.5\times10^{-6}$ from $2/9$, while the $\tau$ mass's $\pm0.09$ MeV moves the fit over $0.222219$–$0.222231$.
+- *The physical phase.* $\theta = 0.222225$ lies $0.849$ of the way from the degenerate point to the massless boundary. It is $2.5\times10^{-6}$ from $2/9$, while the $\tau$ mass's $\pm0.09$ MeV moves this unweighted fit over $0.222219$–$0.222231$. That band is a sensitivity of the rule, not a confidence interval *[v35.1, R220]*.
   - *Other fitting rules.* Since the measured Koide ratio is not exactly $2/3$, the phase depends on how the three masses are fitted. Five rules — least squares in $\sqrt m$ or in $\log m$, and exact fits to each pair — give $\theta-2/9$ between $-6.0\times10^{-7}$ and $+4.3\times10^{-6}$. Weighting by the PDG uncertainties fits $e$ and $\mu$ exactly, gives $\theta = 0.22222205$, and predicts $m_\tau = 1776.969$ MeV, $0.4\sigma$ above the measured $1776.93\pm0.09$. Least squares in $\sqrt m$ misfits $m_e$ by $1.6\times10^{-4}$ of its value; it is kept for continuity with §XXI.4, whose $m_*$ it reproduces (§XXX.4a). The weighted fit moves $\theta$ by $2.7\times10^{-6}$ and $m_*$ by $0.013$ MeV, which would change the figures below only in their last quoted digits.
   - *The frozen value.* Part XXI.4's fitted phase, $\theta = 0.22227$, is corrected by a post-freeze erratum (§XXX.4a).
-  - The closeness to $2/9$ stays numerical, not derived (Part XXI.4a).
+  - *Statistics [v35.1, R220].* A mass-space $\chi^2$ with the PDG 2025 uncertainties settles what the band cannot (v35.1-4). With $\theta$ and $m_*$ free, the minimum sits at the $e/\mu$ phase $0.222222047$, $\chi^2 = 0.188$ (the $\tau$'s $+0.43\sigma$ alone). With $\theta$ fixed at $2/9$ and $m_*$ profiled ($627.71846$ MeV), the residuals are $\tau$ $+0.61\sigma$, $e$ $-6.09\sigma$ and $\mu$ $+451.59\sigma$: $\chi^2 = 203{,}974$. Exact $2/9$ is excluded in this exact two-parameter pole-mass family. It is compatible only with a specified correction off the family: in Part XXIV.26's three-parameter family a half-angle shift $\alpha-\pi/4 = -2.13\times10^{-7}$ gives $\chi^2 = 0.165$ (§XXX.11).
+  - The fitted phase is numerically close to $2/9$, and that closeness stays numerical, not derived (Part XXI.4a).
 
 **The decay gate.** At tree level in Fermi theory $\Gamma(\ell\to\ell'\nu\bar\nu) = G_F^2m_\ell^5f(m_{\ell'}^2/m_\ell^2)/192\pi^3$, with $f(x) = 1-8x+8x^3-x^4-12x^2\ln x$. Relative to its physical value, the heavier light lepton's rate is:
 
@@ -10002,12 +10031,12 @@ With $m_*$ held at $627.700$ MeV, as an illustration rather than a claim about o
 |---|---|---|---|---|---|---|---|
 | $\Gamma/\Gamma_{\rm phys}$ | $1$ | $0.1583$ | $0.0306$ | $1.94\times10^{-3}$ | $3.60\times10^{-5}$ | $1.41\times10^{-6}$ | $0$ |
 
-Near $\theta = 0$ the rate falls as $\theta^5$, the fifth power of the energy release $Q$ (Sargent's rule). The local slope is $4.996$ at $\theta = 10^{-4}$, where the rate is $0.9975$ of the small-$Q$ law $(64/5)Q^5$. At the degenerate point no energy is released: both light charged leptons are stable, and neither is singled out by its mass.
+Near $\theta = 0$ the rate falls as $\theta^5$, the fifth power of the energy release $Q$ (Sargent's rule). The local slope is $4.996$ at $\theta = 10^{-4}$, where the rate is $0.9975$ of the small-$Q$ law $(64/5)Q^5$. At the degenerate point no energy is released: both light charged leptons are stable against these channels, and neither is singled out by its mass.
 
 **What Entry 285 becomes [D/O].** The observed hierarchy and its decay pattern are one point of a family that also contains a symmetric point at which the decay gate is closed. That makes the entry's limiting-case language precise within this family. The familiar "who decays into whom" belongs to a strongly hierarchical point near the massless boundary. A symmetric point exists at which two charged species are stable and no generation is privileged by mass.
 
 Two cautions follow from the computation:
-- *Charge conservation is untouched.* A mass spectrum alone changes generation identity, mixing and the number of stable charged species. It does not change electric-charge conservation, which comes from the unbroken electromagnetic gauge symmetry.
+- *Charge conservation is untouched.* A mass spectrum alone changes the ordering of the generations by mass, the decay thresholds and the number of stable charged species. It does not fix mixing, a relation between the mass basis and the interaction bases; the displayed family is diagonal for every $\theta$ *[v35.1, R220]*. It does not change electric-charge conservation, which comes from the unbroken electromagnetic gauge symmetry.
 - *The selection must not be circular.* A selection functional that prefers the observed phase must do so without the observed masses written into it; otherwise "the electron is light because we select light electrons".
 
 **The conjunction test, open.** Does the selection functional also become degenerate at $\theta = 0$, $\mathcal S(c_1) = \mathcal S(c_2)$, without being built to? If it does, the old spectrum and the new completion meet at one point. If it does not, they are more independent than hoped. The sixth analysis's companion question belongs here too: in the degenerate regime, does the selection genuinely change its structure, or does ordinary electroweak physics simply continue with two equal masses?
@@ -10016,14 +10045,14 @@ Two cautions follow from the computation:
 
 *Part XXI is frozen. This section corrects a fitted number in it, not a result; two short notes in §§XXI.4 and XXI.4a point here, following the precedent of the version-27.3 erratum.*
 
-§XXI.4 states that the fit $\sqrt{m_n} = \sqrt{m_*/2}(1+\sqrt2\cos\theta_n)$ "gives $\theta = 0.22227$ rad $= 12.735^\circ$ … and $m_* = 627.68$ MeV". §XXI.4a gives the sector masses there as "$1776.86$ MeV on $|0\rangle$ and $105.68$, $0.51$ MeV on the circular pair", and the difference from $2/9$ as "$5\times10^{-5}$ rad at pole masses". The phase is reproduced by no standard fitting rule:
+§XXI.4 states that the fit $\sqrt{m_n} = \sqrt{m_*/2}(1+\sqrt2\cos\theta_n)$ "gives $\theta = 0.22227$ rad $= 12.735^\circ$ … and $m_* = 627.68$ MeV". §XXI.4a gives the sector masses there as "$1776.86$ MeV on $|0\rangle$ and $105.68$, $0.51$ MeV on the circular pair", and the difference from $2/9$ as "$5\times10^{-5}$ rad at pole masses". None of the five tested fitting rules reproduces the phase *[v35.1, R220]*:
 
 | inputs | least squares in $\sqrt m$: $\theta$, $m_*$ | $\theta-2/9$ under five rules |
 |:--|:--|:--|
 | the time's: $m_\tau = 1776.86$ MeV, the value §XXI.4a quotes | $0.222230$ rad $= 12.733^\circ$; $627.676$ MeV | $-1.4\times10^{-6}$ to $+1.2\times10^{-5}$ |
 | PDG 2025: $m_\tau = 1776.93\pm0.09$ MeV | $0.222225$; $627.700$ MeV | $-6.0\times10^{-7}$ to $+4.3\times10^{-6}$ |
 
-At the time's inputs the $\sqrt m$ rule reproduces the frozen $m_*$ but not the frozen $\theta$; to give $0.22227$ it would need $m_\tau = 1776.28$ MeV. The frozen pair $(0.22227,\ 627.68)$ gives $\tau$ $1776.854$, $e$ $0.5097$ and $\mu$ $105.676$ MeV, against $1776.863$, $0.5108$ and $105.656$ MeV at the corrected pair. The frozen phase is therefore most likely a transcription slip, $0.22223$ written as $0.22227$, carried into the degrees, the difference from $2/9$ and the $\mu$-sector mass.
+At the time's inputs the $\sqrt m$ rule reproduces the frozen $m_*$ but not the frozen $\theta$; to give $0.22227$ it would need $m_\tau = 1776.28$ MeV. The frozen pair $(0.22227,\ 627.68)$ gives $\tau$ $1776.854$, $e$ $0.5097$ and $\mu$ $105.676$ MeV, against $1776.863$, $0.5108$ and $105.656$ MeV at the corrected pair. The frozen phase is therefore likely — an inference, not a finding — a transcription slip, $0.22223$ written as $0.22227$, carried into the degrees, the difference from $2/9$ and the $\mu$-sector mass.
 
 - *What changes.* The difference from $2/9$ is $7\times10^{-6}$ at the time's inputs and $2.5\times10^{-6}$ at PDG 2025's ($-6\times10^{-7}$ to $+4.3\times10^{-6}$ across the rules), not $5\times10^{-5}$: closer than Part XXI stated.
 - *What does not.* The conclusions drawn from it: the closeness to $2/9$ is numerical and not derived, and it attaches to the axial sector only if the $\tau$ is distinguished there. Nothing else in Parts XXI and XXIV uses the fourth decimal of $\theta$. The frozen suite's test point $\theta = 0.22227$ (§XXIX.21, the principal-root Koide ratio, which is $2/3$ anywhere on the branch) is unaffected.
@@ -10038,10 +10067,11 @@ At the time's inputs the $\sqrt m$ rule reproduces the frozen $m_*$ but not the 
 
 Scrambling removes interference, not the particle.
 
-**Toy B: a continuum.** Couple one level with $V = 0.002$ to $2001$ levels of spacing $0.001$ (band half-width $1$). The survival probability decays as $e^{-\Gamma t}$ over five lifetimes, down to $0.0066$, with $\Gamma = 0.025336$.
+**Toy B: a continuum.** Couple one level with $V = 0.002$ to $2001$ levels of spacing $0.001$ (band half-width $1$). The survival probability decays approximately as $e^{-\Gamma t}$ over the fitted window of five lifetimes, down to $0.0066$, with $\Gamma = 0.025336$ *[v35.1, R221]*.
 - The golden rule gives $2\pi V^2/\delta = 0.025133$, $0.8\%$ lower.
 - The $0.8\%$ is the finite-band correction. The band-limited pole, $\gamma = (V^2/\delta)(\pi+2\arctan(\gamma/W))$ with $\Gamma = 2\gamma$, gives $\Gamma = 0.025335$, and the fit agrees with it to $1\times10^{-5}$.
 - Equivalently $\Gamma = -2\,{\rm Im}\,\Sigma$ at the pole, with ${\rm Im}\,\Sigma\to-\pi V^2/\delta$ for a wide band.
+- The finite Hermitian model has real eigenvalues, so its pole is a continuum approximation. Short-time deviations and the recurrences of a finite spectrum lie outside the fitted window *[v35.1, R221]*.
 
 **The criterion [T].** A lifetime needs open channels, with the right quantum numbers and phase space, and a coupling to them: $\Gamma_n = -2\,{\rm Im}\,\Sigma_n(m_n)$. "Seeing spacetime all wonky" (the second Entry 282) counts as decay only once it is realized as such a coupling. Muons travel regularly between creation and decay, form muonic atoms and decay in isolation into $e\bar\nu_e\nu_\mu$ with the measured spectrum. So the rendering of a muon stays regular until the decay, and the mismatch can act only through channels.
 - A dense set of hyper-canonical degrees of freedom, such as the entry's towers, could act as a bath that makes the effective evolution irreversible. But the observed decay products are specific, so such a bath would have to be the weak channels themselves.
@@ -10056,6 +10086,7 @@ Entry 283's economical reading — at most a reframing of the existing weak-forc
 So the two lifetimes, seven orders of magnitude apart, are consistent with one coupling, the masses and the open channels, at the few-per-mille level. What this does and does not decide:
 - *It requires universal couplings at the few-per-mille level at the observed phase.* The economical reading assumes them: the hyper-canonical structure stands upstream of the masses, the weak interaction is common to all three generations, and the electron is stable as the lightest charged state, with charge conserved. The sixth analysis's broader reading, in which selection shapes the effective interaction structure as well, must reproduce them in the observed regime. The data do not choose between the two readings.
 - *A rendering mismatch that changed the couplings themselves* would have to hide inside these agreements.
+- *Scope [v35.1, R221].* The measured $B(\tau\to e\nu\bar\nu)$ carries the other widths, so this is a universality test, not a prediction of the $\tau$ lifetime from new geometry. A standard benchmark reproduced from measured branching fractions is an acceptance test that any HC model must pass, not evidence for one ontology. Per-mille claims need consistent radiative and propagator corrections and correlations, and an HC model must also recover the differential decay structure — spectra and polarization — not only lifetime ratios.
 
 ## XXX.7 Generation transport: an aligned identity and a global cycle (the first Entry 282) [T/V/S] *(`v35_generation_transport()`)*
 
@@ -10063,9 +10094,9 @@ Attach the three-dimensional generation space $W$ to the configurations of $\mat
 - *The aligned limit.* When the histories coincide, $G = I$: the familiar, fixed assignment of flavours.
 - *A distinguished global comparison* gives $G = S$, the conveyor.
 
-**Computed.** The family $G_\alpha = \exp(\alpha\log S)$ is unitary throughout. It joins $G_0 = I$ to $G_1 = S$, and the overlap $|\langle\mu|G_\alpha|e\rangle|^2$ rises monotonically from $0$ to $1$ ($0.016$, $0.070$, $0.162$, $0.291$, $0.444$, $0.607$, $0.762$, $0.888$, $0.971$ at $\alpha = 0.1,\dots,0.9$). This is a path in the group, not an invariant of a flat connection: there, comparisons of histories with common endpoints are discrete ($I$, $S$ or $S^2$) and partial transports depend on the gauge, so a continuous degree of alignment would need curvature. The clock and the shift generate the Weyl–Heisenberg group of $\mathbb Z_3$, of order $27$.
+**Computed.** The family $G_\alpha = \exp(\alpha\log S)$ is unitary throughout. It joins $G_0 = I$ to $G_1 = S$, and the overlap $|\langle\mu|G_\alpha|e\rangle|^2$ rises monotonically from $0$ to $1$ ($0.016$, $0.070$, $0.162$, $0.291$, $0.444$, $0.607$, $0.762$, $0.888$, $0.971$ at $\alpha = 0.1,\dots,0.9$). This is the path of the principal logarithm, a chosen path, not a prediction *[v35.1, R222]*. Another anti-Hermitian logarithm of the same $S$ — the eigenvalue $1$ given the phase $2\pi$ — has the same endpoints and gives $0.042$, $0.102$, $0.102$, $0.042$, $0.000$, $0.070$, $0.291$, $0.607$, $0.888$: non-monotone, and $0$ at $\alpha = 1/2$ against the principal branch's $4/9$. Nor is it an invariant of a flat connection. A fixed flat connection's holonomy is constant on each homotopy class of loops, so a continuous degree of alignment needs curvature, or a change of endpoints, frames, background or the connection itself. Comparisons take only the values $I$, $S$ and $S^2$ when the holonomy representation is restricted to that cyclic image. The clock and the shift generate the Weyl–Heisenberg group of $\mathbb Z_3$, of order $27$.
 
-**The structure the entry asks for [S].** A *flat* connection whose holonomy around a loop of order three is $S$ would be the identity on every contractible patch — the aligned, local assignment — and the cycle only around the loop. Local and global characters would then be two regimes of one object. That is proposed here, not derived.
+**The structure the entry asks for [S].** A *flat* connection whose holonomy around a loop of order three is $S$ would be trivial on contractible loops — in a parallel frame, local transport is the identity, the aligned assignment — and the cycle only around the loop *[v35.1, R222]*. Local and global characters would then be two regimes of one object. That is proposed here, not derived.
 
 The analogy with the optical index (Part XXIX) holds at the level of relational indexing, not of the group:
 - a positive conformal factor stretches lengths but cannot cycle three states;
@@ -10073,12 +10104,12 @@ The analogy with the optical index (Part XXIX) holds at the level of relational 
 
 So Entry 282's hint of a conformal transformation cannot be literal for the global character.
 
-**The constraint [T].** The loop cannot be a spacetime loop for propagating leptons.
-- *If the mass operator is covariantly constant along spacetime* — the same masses and the same mass basis everywhere under transport — every spacetime holonomy commutes with it. The commutant of a nondegenerate $M$ is the diagonal phases (§XXX.3(a)), and $S$, which carries $M(\theta)$ to $M(\theta-2\pi/3)$, is excluded on any spacetime loop, flat or not.
-- *If it is not,* the transport rotates the mass basis from place to place. Where the rotation varies on scales short enough to compete with the mass splittings, it drives flavour-changing transitions — local charged-lepton flavour violation, bounded by $B(\mu^+\to e^+\gamma)<1.5\times10^{-13}$ (90% C.L.; MEG II, 2021–2022 data); no rate is computed here. Where it varies slowly, a charged lepton follows its local mass eigenstate adiabatically: no flavour violation, and no cycle either. That case is constrained instead by the environment-independence of flavour, §XXI.4d's kill test.
-- *Topologically,* on spatial sections $S^3(\ell)$ or $\mathbb{RP}^3(\ell)$, with fundamental group trivial or $\mathbb Z_2$, a flat connection has no holonomy of order three at all.
+**The constraint [T, scoped; v35.1, R222].** Three spacetime transports are excluded, and the rest are open:
+- *A covariantly constant mass operator.* If the masses and the mass basis are the same everywhere under transport ($DM = 0$), every spacetime holonomy commutes with $M$. The commutant of a nondegenerate $M$ is the diagonal phases (§XXX.3(a)), and $S$, which carries $M(\theta)$ to $M(\theta-2\pi/3)$, is excluded on any spacetime loop, flat or not. The frozen canonical transport, diagonal on the sectors (§§XXI.4b–4c), is of this kind.
+- *A flat connection on the spatial sections.* On $S^3(\ell)$ or $\mathbb{RP}^3(\ell)$, with fundamental group trivial or $\mathbb Z_2$, a flat connection has no holonomy of order three. A curved one can: with $L$ an anti-Hermitian logarithm of $S$ and $A = Lx\,dy$ on a unit square, $D = d-A$, the holonomy around the square is $e^L = S$. Topology alone excludes only the flat case.
+- *Other transports* need a dynamical construction before they are excluded. $DM\neq0$ does not by itself mean a rotating basis: the diagonal masses can vary while the basis stays fixed. Where a nondegenerate basis does rotate, slow rotation is followed adiabatically, returning the same eigenstate up to a phase around a closed gapped cycle, which cycles nothing; that case is constrained by the environment-independence of flavour, §XXI.4d's kill test. Fast rotation changes flavour, and its channels must be computed. For $\mu\to e\gamma$ that means deriving the dipole amplitude $\bar e\,\sigma^{\mu\nu}(d_LP_L+d_RP_R)\mu\,F_{\mu\nu}$ and comparing its rate with $B(\mu^+\to e^+\gamma)<1.5\times10^{-13}$ (90% C.L.; MEG II, 2021–2022 data), as effective-operator analyses do (Crivellin, Najjari and Rosiek 2014). No such rate is computed here.
 
-This is the transport form of §XXI.4d's verdict that environment-driven transmutation of a charged lepton "fails at once". So the loop must be a loop in $\mathscr H_{\rm C}$. Part XXI.4 noted that a Hopf phase of $\pi/3$ turns the pair-built vector of §XIX.2d by a third; on a single lift's carrier the Hopf phase is a common phase. A rotation gives the clock, not the shift, so whether a loop in $\mathscr H_{\rm C}$ supplies $S$ is open.
+This is the transport form of §XXI.4d's verdict that environment-driven transmutation of a charged lepton "fails at once", restricted to what is proved. The proposed home of the loop is $\mathscr H_{\rm C}$, not a proven one. Part XXI.4 noted that a Hopf phase of $\pi/3$ turns the pair-built vector of §XIX.2d by a third; on a single lift's carrier the Hopf phase is a common phase. A rotation gives the clock, not the shift, so whether a loop in $\mathscr H_{\rm C}$ supplies $S$ is open.
 
 ## XXX.8 The Boltzmannian completion, and the program [S/O]
 
@@ -10090,19 +10121,222 @@ Neither follows from countability, and both wait for a measure on $\mathscr H_{\
 
 **The program, in order.**
 1. *Define $\mathscr H_{\rm C}$ and its codes.* Decide the object's type. Separate physical re-renderings from gauge ones. Write an admissibility functional rather than assuming that graph complexity selects.
-2. *Find the conveyor.* Find an order-three operation on hyper-canonical configurations whose rendering is the shift $S$ on the native carrier. It must act on a marked local excitation and be compatible with Lorentz symmetry and the charges.
-3. *Masses from the mismatch.* Does the selected rendering produce three distinct mass poles, and the Koide family, without inserting the masses? Run the conjunction test of §XXX.4, with its companion question.
+2. *Find the conveyor.* Find an order-three operation on hyper-canonical configurations whose rendering is the shift $S$ on the native carrier. It must induce $T_{\rm relative}$ on a marked local excitation from $T_{\rm global}$, be compatible with Lorentz symmetry and the charges, and respect the eigenline topology of §XXI.4c — or supply the trigonal frame on which the shift descends (§XXX.13) *[v35.1, R223]*.
+3. *Masses from the mismatch.* Does the selected rendering produce three distinct mass poles, and the Koide family, without inserting the masses? Construct the map $(U,c_*)\mapsto M_{\rm eff}$ (§XXX.2(e)). A dimensionless mismatch cannot define a mass or a width: name the dimensionful input responsible for $m_*$. Run the conjunction test of §XXX.4, with its companion question, and state the assumptions under which code degeneracy and mass degeneracy meet or fail to meet; a tie built in by reproducing the inserted spectrum explains nothing.
 4. *Stability.* Build the third analysis's toys with the conveyor in them: the three-sector, mismatch-dependent scrambling, and the same conveyor coupled to weak-decay continua. Recover electron stability, the muon's three-body decay and the $\tau$'s branching. Ask whether the conveyor and the fixed-code mismatch constrain $V_{\rm weak}$, rather than leaving its matrix elements free. Look for anything beyond electroweak theory only after that.
+5. *The ideal rendering (§XXX.11).* Specify the selection functional of Entries 290–293, its rigidity and the privileging constraint, with its optimum at a finite electron mass. Predict the correction shape $a_n$ — equivalently the $\tau$ mass, which fixes $A$ and $B$ — without the masses written in, and derive or replace the premises of the Potts toy (§XXX.11(l)). Derive $m_*$; a link to the nucleon masses (§XXX.11(m)) would need a cross-sector mechanism.
+
+**The one question [v35.1, R223].** The reviews narrow the program to a single test. Can a physically selected rendering of a generation-symmetric HC structure turn one global threefold orbit into three locally coexisting, inequivalent charged-lepton mass sectors, while the complete matched renditions remain physically equivalent and the ordinary weak-decay theory is recovered? Success means the smallest HC model that does this, with gauge-equivalent codes not counted as different microstates, the spectrum not inserted, $T_{\rm relative}$ induced from $T_{\rm global}$, and the same electroweak interaction for all three sectors. A small, fully specified model that ends in an obstruction is also a result. Any claim that HC space repairs Law II, P3 conservation, photon transport or detector readout must exhibit the changed equation and conservation identity (§XXIX.43(c)).
 
 **Falsifiers.**
 - A conveyor that only relabels the three mass eigenstates, or a selected code that is mathematically arbitrary, explains neither the masses nor their stability.
 - A selection functional that prefers the degenerate point leaves the hierarchy unexplained.
-- A generation transport over spacetime that commutes with the mass operator cannot carry $S$. One that does not either varies slowly, so that leptons follow their mass eigenstates and nothing cycles, or varies fast enough to change flavour, which is excluded at the $\mu\to e\gamma$ level.
+- A generation transport over spacetime that commutes with a covariantly constant mass operator cannot carry $S$, and neither can a flat one on the spatial sections. Any other must be built dynamically and its flavour-changing channels computed against the bounds, $\mu\to e\gamma$ among them *[v35.1, R222]*.
 - A violation of lepton universality beyond the few-per-mille agreements of §XXX.6 would contradict the economical reading, and would have to be produced by the broader one.
+- A correction mechanism for the ideal rendering whose predicted $m_\tau$ (§XXX.11(i)) misses a $\tau$ mass measured to the keV level *[v35.1, R228]*.
 
-## XXX.9 Register R203–R211 [D/O; v35.0]
+## XXX.11 The ideal rendering, categorical selection and its fuzz (Entries 288–293; 13 October 2026, 17:12–17:48) [V/S/O; v35.1, R225–R230] *(`v35_1_statistics()`, `v35_1_ideal_rendering_and_fuzz()`, `v35_1_categorical_susceptibility()`, `v35_1_structured_corrections()`, `v35_1_selection_transition()`, `v35_1_normalization_and_nucleon_scale()`)*
 
-*The v34 register, R56–R202, is frozen in §XXIX.16. v35 continues the numbering.*
+**(a) The entries, as formulated [record].** *The numbering is the author's. The archive's earlier "Entry 288" is the unlabelled universal-$\ell$ entry of §XXIX.42(g); the entries here are cited with their times. The clarification between 289 and 291 is unlabelled and is numbered 290 by its position.*
+- **288 (17:12).** Perhaps the Koide ratio *is* $2/3$ exactly and the angle *is* $2/9$ exactly. The departures we measure would come from "categorical fuzz": however far the universe can stray, in the anthropic or Boltzmannian-privileging sense, from absolutely privileging the electron in its role. We would be something like 99.99999% close to that exactness. The Standard Model's mass hierarchy and conservation structure is what assuming 100% gives. Where the two light masses are equal, or even within an order of magnitude, without the clear electron distinction, the fuzz becomes the norm; in our case it shows only in the last few digits.
+- **289 (17:19).** Not exact at the HC level: exact in our "idealized rendering", with slight Boltzmannian fluctuations off it in reality.
+- **290 (unlabelled).** The fuzz lives in fluctuating *away* from perfectly privileging the electron, although the electron could be perfectly privileged. It closes the gap a tiny bit toward the regime of two nearby smallest masses, where the physics is exotic in a set of ways.
+- **291 (17:31).** The electron's being so much lighter than the others — in the moduli-like landscape of values of the angle that becomes $2/9$, and of which lepton is conventionally the electron — itself selects, in some Boltzmannian or anthropic way still to be found, the mass hierarchy and conservation-law class of our universe. The noise in the last digits is a fluctuation away from that maximal selection. Why relative smallness selects this, and from what probably countable set the $2/9$ is drawn, are unknown. The chain is [the electron is small] → [the electron is privileged] → [our special class of physics develops], and the fluctuation acts on the first arrow.
+- **292 (17:39).** Perhaps the angle *is* $2/9$ exactly, the moduli taking a countable set of values, and the measured value misses it because our rendered world slightly de-privileges the electron relative to a perfectly privileging one. If privileging imposes a constraint — on worldlines, as a brute analogy — Boltzmannian fluctuations let the realized tendency deviate from the standard: the standard is $2/9$, the realized tendency is shifted. More abstractly, the constraint is the adherence that underlies the mass hierarchy and the conservation principles.
+- **293 (17:48).** The form $m_n^{(0)}+\varepsilon a_n$ is much closer to what the author envisions: the fluctuation spoils the $2/3$ and the $2/9$ together, while the model of the "root" insists on both. The extra term is to be read as a tiny Boltzmannian fluctuation off the selection that gives a rendered space its privileged electron, with the constraint that cycling must still land a privileged electron each time — and perhaps the further constraint that it is *the same* electron mapping back onto itself. A toy of the selection itself should allow real values of the angle, although it probably cannot hold them: once the electron gets too big, the selection dries up, almost like a phase transition, and another mode, or the "default" equal footing, appears. For fun, a model might find the optimal small corrections on each of the three leptons; perhaps they are not noise at all but constrained by a deeper function, like the radiative corrections to the electron's $g$ factor. The author is now more committed to "deviations as extra fluctuations on the masses themselves" than to "perhaps the actual angle is not exactly $2/9$".
+
+Five analyses accompanied the entries; they are labelled A–E here, to keep them apart from the six analyses of Entries 281–285 cited in §§XXX.1–8.
+- Analysis A set out three levels (the HC substrate; an ideal selected rendering with $K = 2/3$, $\theta = 2/9$; the actual rendering with small corrections), a two-generation mixing toy, the split of a correction into parts along and off the Koide family, and a rendering stiffness.
+- Analysis B read Entry 290 as *directional categorical softening*, with a categorical selection gap $\Delta_{\rm cat} = \mathcal S(U,c_e)-\max_{c\neq c_e}\mathcal S(U,c)$ and a weight $P_{\rm other} = 2e^{-\beta\Delta_{\rm cat}}/(1+2e^{-\beta\Delta_{\rm cat}})$ for competing codes.
+- Analysis C read Entry 291 as *mass-hierarchy-conditioned categorical selection*, $P(c\mid h,\mathcal B)\propto e^{\mathcal S(c;h,\mathcal B)}$ with $h = \ln(m_{\rm next}/m_{\rm min})$ and residual $\varepsilon_{\rm cat} = 1-P(c_e\mid h)$. It noted that rewarding smallness alone would choose a massless electron, not $2/9$.
+- Analysis D read Entry 292 as an *exact template with finite rigidity*: $\theta_0 = 2/9$ fixed, $M_{\rm physical} = M_{\rm ideal}+\delta M_{\rm cat}$, a weight $\exp[S_{\rm Boltz}(\xi)-\kappa\|\mathcal C_e(\xi)\|^2]$ for a privileging constraint $\mathcal C_e$, and *correlated deviations* $m_n = m_n^{(0)}+\varepsilon a_n$, $K = 2/3+\varepsilon A$, $\theta_{\rm fit} = 2/9+\varepsilon B$, with $a_n$, $A$, $B$ to be derived from one mechanism.
+- Analysis E answered Entry 293. It froze the root formula and tried one structured correction, $M_{\rm eff} = M_{\rm ideal}+\varepsilon(M_{\rm deg}-M_{\rm ideal})$ with $M_{\rm deg} = M(0)$, fitted to the electron and muon: $m_* = 627.71238$ MeV, $\varepsilon = 1.88\times10^{-7}$, corrections $+4.95$, $-14.77$ and $+9.81$ eV on $e$, $\mu$, $\tau$, and $m_\tau = 1776.9678$ MeV. It proposed a Landau toy for an order parameter $p$ of electron privilege, $V = \tfrac12[a-\gamma h(\theta)]p^2+\tfrac b4p^4$, whose privilege vanishes at a critical hierarchy (at $\theta_c\simeq0.127$ for a critical mass ratio of ten). It required the correction to transform with the cycle, $\delta M(Tc) = S\,\delta M(c)\,S^{-1}$, and suggested that the corrections might be one self-energy evaluated at three masses, $\delta m_n\simeq{\rm Re}\,\Sigma_{{\rm HC},nn}(m_n^{(0)})$, an analogy with radiative corrections at the level of ambition rather than mechanism.
+
+Two further analyses, F and G, answered questions the author put after Entry 293; his wording is not in the record, and they are recorded by what they computed.
+- Analysis F chose the scale $m_*$ of the exact template by six criteria — least total absolute correction, least squares, least total and least squared fractional correction, least worst fractional correction, and zero total correction — and noted that the first gives non-negative corrections throughout, at $m_* = m_\tau/f_\tau$, because $f_\tau>f_e+f_\mu$. It proposed three competing toy mechanisms: all-positive self-energies, a trace-preserving redistribution, and a degeneracy-directed correction.
+- Analysis G compared the charged-lepton mass sum with the proton and neutron: $1883.0994$ against $1877.8375$ MeV, a ratio $1.0028$. Since the template's masses sum to $3m_*$, it proposed $m_*^{(pn)} = (m_p+m_n)/3$ with a common uplift $\eta$ and small residuals, kept as a cross-sector conjecture separate from categorical selection, with $\eta$ to be derived rather than fitted.
+
+**(b) The three levels and the chain [S].** The entries state one hypothesis in three layers:
+1. an HC substrate, with no fundamental $2/3$ or $2/9$ (Entry 289);
+2. an ideal selected rendering, exact at $K = 2/3$ and $\theta_0 = 2/9$ — possibly one point of a countable set of admissible moduli (Entries 288, 292) — that privileges the electron perfectly;
+3. the actual rendering, which realizes the ideal with very high but finite rigidity, the residual pointing toward the degenerate regime (Entries 290, 292), and carried by the masses rather than by the angle (Entry 293).
+
+Entry 291 orders the causes: relative smallness is the input, categorical privilege is selected from it, and the law class follows from the privilege; the fuzz acts on the first step. The categorical selection gap $\Delta_{\rm cat}$ and the mass gap are different quantities, and linking them is the conjecture.
+
+**(c) What the masses say [V].** With pole masses (PDG 2025), the three parameters of Part XXIV.26's family, $\sqrt{m_n} = \sqrt{m_*}(\cos(\theta+2\pi n/3)+\cos\alpha)$, are fixed exactly by the three masses: $\theta-2/9 = +2.5\times10^{-6}\pm6.3\times10^{-6}$ and $\alpha-\pi/4 = -3.3\times10^{-6}\pm7.6\times10^{-6}$, each $0.4\sigma$ marginally. Both errors are set by the $\tau$ mass and are almost fully correlated, so the marginals are no joint test of the ideal point; the joint test is the electron-to-muon ratio below. This $\theta$ is the unweighted fit's: that fit's phase is the angle of the zero-sum part of the roots, whatever $\alpha$.
+
+The fully ideal rendering — $K = 2/3$ and $\theta = 2/9$ both exact, one free scale — fails on the precisely known ratio: it predicts $m_e/m_\mu = 0.0048362841$ against the measured $0.0048363317$, $9.83\times10^{-6}$ low, $452\sigma$ of the ratio's $2.2\times10^{-8}$; its $m_\tau = 1776.967$ MeV is fine. So the actual rendering departs from the ideal, by an amount the data fix along one line:
+
+| departure | parameter | predicted $m_\tau$ (MeV) | $K-2/3$ |
+|:--|:--|:--|:--|
+| along the Koide family ($\alpha = \pi/4$ kept) | $\theta-2/9 = -1.751\times10^{-7}$ ($452\sigma$ from $0$) | $1776.9690$ ($+0.43\sigma$) | $0$ |
+| off the family ($\theta = 2/9$ kept) | $\alpha-\pi/4 = -2.132\times10^{-7}$ | $1776.9665$ ($+0.41\sigma$) | $-1.42\times10^{-7}$ |
+| a mixture of the ideal and degenerate categories ((f)) | weight $\varepsilon = 1.875\times10^{-7}$ | $1776.9678$ ($+0.42\sigma$) | $-7.2\times10^{-8}$ |
+
+The three readings differ in $m_\tau$ by at most $2.5$ keV, beside its $90$ keV uncertainty: the $\tau$ mass cannot yet tell them apart.
+
+**(d) The exact-template reading and its test (Entry 292) [S/V].** Under Entry 292 the ideal phase stays $\theta_0 = 2/9$, and the fitted phase differs because the physical masses carry a correction $\delta M_{\rm cat}$: $\theta_{\rm fit}\neq\theta_0$ does not imply $\theta_0\neq2/9$. The statistics are compatible with this reading: exact $2/9$ fails in the two-parameter family ($\Delta\chi^2\approx2.04\times10^5$, §XXX.4) and fits once one correction off that family is allowed ($\chi^2 = 0.165$). That correction is fitted after the fact, and one extra parameter accommodates three masses, so the fit does not support the reading; it only fails to exclude it. What makes the reading testable is the analyses' correlated-deviation requirement. For any mechanism that predicts the pattern $\delta m_n = \varepsilon a_n$, the electron-to-muon ratio fixes $\varepsilon$, and $m_\tau$ and $K$ become predictions. The table shows how far apart such predictions sit: telling them apart needs the $\tau$ mass to about a keV. Entry 293 adopts this reading; six shapes are computed in (i).
+
+**(e) The direction (Entry 290) [V].** The measured $m_e/m_\mu$ exceeds the ideal's by $9.83\times10^{-6}$: the electron is a little heavier relative to the muon than the ideal allows. That is the direction toward the degenerate point. Lowering $\theta$ along the family raises $m_e/m_\mu$, and so does lowering $\alpha$ off it. The sign agrees with the entry. It is one bit of evidence, worth a factor of two at most, and it holds for pole masses; in another mass scheme it must be recomputed.
+
+**(f) What selection must do, and an acceptance condition (Entries 290–291) [V/S].**
+- *Smallness is not the optimum.* The electron's relative smallness $h = \ln(m_{\rm next}/m_{\rm min})$ rises monotonically along the family — $0$, $1.754$, $4.314$, $5.332$, $7.905$, $11.720$, $17.521$ at $\theta = 0$, $0.1$, $0.2$, $2/9$, $0.25$, $0.26$, $0.2617$ — and diverges at the massless boundary. A selection rewarding smallness alone would choose a massless electron, not $2/9$. The principle must reward something else as well, so that its optimum sits at a finite electron mass.
+- *The countable set.* $2/9$ rad is not a rational multiple of $\pi$, so it is not the phase of a root of unity of any finite cyclic group. A countable set of admissible moduli, if there is one, is not the obvious group-theoretic set, and must be specified before "drawn from" has content.
+- *An acceptance condition, not evidence.* Suppose the actual mass operator mixes the ideal category with the degenerate one, $M = (1-\varepsilon)M(2/9)+\varepsilon M(0)$. Then the electron-to-muon ratio requires $\varepsilon = 1.875\times10^{-7}$. That is a selection advantage $\ln((1-\varepsilon)/\varepsilon) = 15.49$ nats over that one competitor, and it fixes $m_\tau = 1776.9678$ MeV and $K-2/3 = -7.2\times10^{-8}$. Averaging the phase instead gives $\varepsilon = 7.88\times10^{-7}$ ($14.05$ nats). Either way the residual weight is $10^{-7}$ to $10^{-6}$, an advantage of about 14–15.5 nats. The weight is solved backward from the data: any selection functional realizing the entries in this form must reproduce it, which is a condition on the functional, not support for it.
+- *Rigidity.* In analysis D's weight, if the observed defect, about $2\times10^{-7}$ in the family's angles, were a typical Gaussian departure, the rigidity would be $\kappa\sim10^{13}$ in the angle's units.
+
+**(g) Categorical susceptibility [V].** Let a rendering perturbation $\varepsilon$ couple the two light sectors, $\begin{pmatrix}m_l&\varepsilon\\ \varepsilon&m_h\end{pmatrix}$. It rotates their basis by $\phi = \tfrac12\arctan(2\varepsilon/Q)$, where $Q = \sqrt3\,m_*\sin\theta(\sqrt2-\cos\theta)$ is the light gap with $m_*$ held. For $\varepsilon = 1$ keV:
+
+| $\theta$ | $0.222225$ | $0.1$ | $0.01$ | $10^{-3}$ | $10^{-4}$ | $0$ |
+|---|---|---|---|---|---|---|
+| $Q$ (MeV) | $105.15$ | $45.50$ | $4.504$ | $0.4503$ | $0.04503$ | $0$ |
+| $\phi$ (rad) | $9.5\times10^{-6}$ | $2.2\times10^{-5}$ | $2.2\times10^{-4}$ | $2.2\times10^{-3}$ | $0.022$ | $\pi/4$ |
+
+The same perturbation that moves our electron's identity by ten microradians mixes the pair completely at degeneracy. That is a mass-matrix analogue of Entry 288's "the fuzz becomes the norm" near equal masses.
+
+A basis rotation is a third kind of fuzz, beside the two spectral directions. It is invisible in the masses, and physical only relative to other interactions, such as the weak basis — the charged-lepton share of the lepton mixing matrix. The Standard Model already has a computable "ideal plus suppressed correction" structure in flavour: the separate lepton numbers are exact for massless neutrinos and broken by neutrino masses, with $B(\mu\to e\gamma)\sim10^{-55}$–$10^{-54}$ (Calibbi and Signorelli 2018). That is an analogy, not a mechanism.
+
+**(h) Consistent with a fixed realization [V].** With $m_*$ held, $d\ln m_e/d\theta = -51.49$. A defect of $1.75\times10^{-7}$ in $\theta$ that fluctuated by its own size from place to place or epoch to epoch would move $m_e/m_p$ by about $9\times10^{-6}$. Two measurements of $\mu = m_p/m_e$ bound that:
+- methanol absorption at $z = 0.89$ gives $|\Delta\mu/\mu|<3.6\times10^{-7}$ at $3\sigma$ (Muller et al. 2021);
+- atomic clocks give $\dot\mu/\mu = (-8\pm36)\times10^{-18}$ per year (Lange et al. 2021).
+
+So, with $m_*$ and $m_p$ held, $\theta$ varies by less than $7\times10^{-9}$ (4% of the defect) over about 7.5 Gyr, and by less than about $7\times10^{-19}$ per year now (Lange et al.'s $1\sigma$). The data are consistent with a fixed realization — Entry 292's "realized tendency" — and exclude noise of the defect's own size along that sightline and in present-day clocks. They say little about variation from place to place, and cannot show that the value was selected once. The same bound holds in Entry 293's reading, where the defect is a correction of about $5$ eV, $10^{-5}$ of $m_e$, on the electron's mass ((i)): it too varies by less than 4% of itself.
+
+**(i) Corrections on the masses: six shapes, one $\tau$ mass each (Entry 293) [V; R228].** Hold the template exactly, $\theta_0 = 2/9$ and $K_0 = 2/3$, and write $m_n = m_*q_n(2/9)+\varepsilon a_n$, with $q_n$ the template's unit-scale masses. For each shape $a_n$, the electron and muon masses fix $m_*$ and $\varepsilon$ exactly, and the rest is predicted:
+
+| shape $a_n$ | $\varepsilon$ | $\delta m_e$, $\delta m_\mu$, $\delta m_\tau$ (eV) | $m_\tau$ (MeV) | $K-2/3$ | $\theta_{\rm fit}-2/9$ |
+|:--|:--|:--|:--|:--|:--|
+| along the family (the angle shifted; Entry 293 sets it aside) | $-1.751\times10^{-7}$ | $+4.61$, $-86.14$, $+81.53$ | $1776.9690$ | $0$ | $-1.75\times10^{-7}$ |
+| half-angle (one shift of every $\sqrt m$) | $-2.132\times10^{-7}$ | $+5.40$, $+77.65$, $+318.42$ | $1776.9665$ | $-1.42\times10^{-7}$ | $0$ |
+| mixture with the degenerate $M(0)$ (analysis E) | $+1.875\times10^{-7}$ | $+4.95$, $-14.76$, $+9.81$ | $1776.9678$ | $-7.2\times10^{-8}$ | $-8.7\times10^{-8}$ |
+| the two other codes, equal weights (Entry 290) | $+2.681\times10^{-9}$ | $+5.04$, $+4.20$, $-9.24$ | $1776.9674$ | $-9.1\times10^{-8}$ | $-6.3\times10^{-8}$ |
+| on the electron alone | $+8.00\times10^{-9}$ | $+5.02$, $0$, $0$ | $1776.9675$ | $-8.6\times10^{-8}$ | $-6.9\times10^{-8}$ |
+| logarithmic, $m\ln m$ (QED-like) | $-1.844\times10^{-6}$ | $+6.70$, $+347.19$, $-3409.95$ | $1776.9583$ | $-6.1\times10^{-7}$ | $+5.7\times10^{-7}$ |
+
+Four things follow.
+- *What every shape shares.* The electron is about $5$ eV heavier than the template allows ($4.6$–$6.7$ eV in every row, $10^{-5}$ of $m_e$), because the electron-to-muon ratio fixes that. The muon's and the $\tau$'s corrections differ by mechanism, but since $m_*$ is fitted for each shape, only the predicted $m_\tau$ is observable. The smallest correction in absolute terms is the fifth row: $5.02$ eV on the electron alone.
+- *The correlated deviations reduce to one number.* Three masses fix the three parameters of Part XXIV.26's family. With $m_e$ and $m_\mu$ known to $10^{-10}$ and $2\times10^{-8}$ of themselves, $K$ and the fitted phase are functions of $m_\tau$ alone: $dK/dm_\tau = +5.65\times10^{-5}$ and $d\theta_{\rm fit}/dm_\tau = -6.96\times10^{-5}$ per MeV. So the analyses' $(A,B)$ for a mechanism is its predicted $m_\tau$. The five shapes that keep $\theta_0 = 2/9$ predict it within $9.5$ keV, and within $1.2$ keV without the logarithm, against PDG's $\pm90$ keV.
+- *Traceless corrections, and the mean mass.* ${\rm tr}\,M(\theta) = 3m_*$ for every $\theta$, so $m_*$ is the mean of the three masses, and the mixture and the code average are traceless corrections. The equal-weight average of the three renditions is $m_*I$: losing privilege entirely renders all three leptons at the mean mass — the equal footing of Entry 285's substrate and of Entry 293's "default". The code average is a rescaling of the template plus one shift, $3x\,m_* = 5.05$ eV, on every mass.
+- *A self-energy reading.* If the corrections are one function evaluated at the three template masses, $\delta m_n = \Sigma(m_n^{(0)})$, as analysis E suggests, then the uniform, half-angle, electron-only and logarithmic rows are such functions (a constant, $\propto\sqrt m$, concentrated at small $m$, $\propto m\ln m$). The mixture and the along-family rows depend on a state's place in the family, not on its mass alone.
+
+**(j) The cycle's condition, and the same electron (Entry 293) [T/V].** Each rendition must land its own privileged electron. For the mixture, $SM_{\rm eff}(c_0)S^{-1} = M_{\rm eff}(Tc_0)$, where $M_{\rm eff}(Tc_0)$ mixes $M(2/9-2\pi/3)$ with $M(-2\pi/3)$ (to $4\times10^{-13}$), and the lightest state of the cycled rendering is $S|+\rangle$. The code average is covariant in the same way, with the weights cycled. So both corrections obey analysis E's condition $\delta M(Tc) = S\,\delta M(c)\,S^{-1}$. These are the only two shapes checked; covariance of the others is not claimed. On the carrier $S^3 = I$, so three cycles return the same carrier state, not only the same role; whether that is the same HC excitation, Entry 293's "same electron", is a theorem target. On trigonal frames (§XXX.13) $S$ is defined only up to a cube root of unity $c$, and $(cS)^3 = S^3 = I$: the triple cycle is unambiguous there too. Whether the whole HC transformation lifts with an accumulated phase is part of that target.
+
+**(k) The scale of a radiative reading [V].** The author's comparison with the radiative corrections to the electron's $g$ factor can be sized. At one loop the pole mass and the running mass at a common scale differ by $m_{\rm pole} = \bar m(\mu)[1+(\alpha/\pi)(1+\tfrac34\ln(\mu^2/m^2))]$ [standard]. That difference moves $m_e/m_\mu$ by $(3\alpha/2\pi)\ln(m_\mu/m_e) = 0.0186$, and $K$ by $+1.1\times10^{-3}$ for running masses at $\mu = m_\tau$. The fuzz is $9.83\times10^{-6}$, $1/1889$ of it, and the logarithmic shape needs a coefficient $-1.84\times10^{-6}$ against QED's own $-3\alpha/2\pi = -3.48\times10^{-3}$. So the template, if exact, is exact for pole masses to about $1/1900$ of the QED logarithm. This is the known puzzle of Koide's relation, which holds for pole masses although QED corrections would shift it by about $0.1\%$; Sumino (2009) proposed a family gauge interaction whose radiative corrections cancel QED's. A radiative origin of the fuzz would have to explain that cancellation first. Its size, $10^{-5}$, is not a first-order QED effect, and identifying it with a higher-order term would need the term computed.
+
+**(l) A selection toy on the real phase line (Entries 291 and 293) [V within the toy; S for its premises; R229].** Entry 293 asks for a toy in which the selection is defined for every real angle and dries up suddenly once the electron is too heavy. One with a single calibrated parameter:
+- *Premises [S].* The units of an HC ensemble each render with one of the three codes. Their fractions follow the mean-field three-state Potts model, $x_e = (1+2s)/3$ and $x_{\rm other} = (1-s)/3$, with $(1+2s)/(1-s) = e^{\beta Js}$. The coherence is set by the electron's relative smallness, $\beta J = \lambda h(\theta)$, which is Entry 291's first arrow. The rendered masses are the code average, $m_n = s\,m_n^{(0)}+(1-s)\,m_*$, so $s$ is the privilege order parameter: $s = 1$ is rigid privilege and $s = 0$ the equal footing.
+- *Calibration.* At $\theta = 2/9$ the electron-to-muon ratio needs $1-s = 8.04\times10^{-9}$ (each other code $2.68\times10^{-9}$). That gives $\beta J = 19.74$ and $\lambda = 3.702$, and the toy reproduces the code-average row of (i). The other-code weight is then $(m_{\rm min}/m_{\rm next})^\lambda$.
+- *Along the real line,* with $m_*$ held:
+
+| $\theta$ | $2/9$ | $0.15$ | $0.10$ | $0.06$ | $0.05$ | $0.045$ | $0.04$ |
+|---|---|---|---|---|---|---|---|
+| $1-s$ | $8.0\times10^{-9}$ | $8.6\times10^{-5}$ | $4.7\times10^{-3}$ | $0.091$ | $0.23$ | $0.43$ | $1$ |
+| $m_e$, $m_\mu$ (MeV) | $0.511$, $105.66$ | $4.41$, $73.53$ | $12.40$, $57.69$ | $71.0$, $95.7$ | $154.7$, $172.2$ | $282.8$, $294.3$ | $627.7$, $627.7$ |
+
+- *A sudden loss.* The Potts free energy, $f(s) = (T-J/3)s^2-(T/3)s^3+(T/2)s^4+\dots$, has a cubic term. Three codes allow it, so in mean field the loss of privilege is first order [standard for the mean-field three-state Potts model; in two dimensions the three-state Potts transition is continuous, so the suddenness depends on the ensemble's connectivity, which is unspecified]. At $\beta J = 4\ln2$ the privileged phase ($s = 1/2$) and the equal-footing phase ($s = 0$) exchange stability. That happens at $\theta_t = 0.0444$, where $m_{\rm next}/m_{\rm min} = 2.11$. The privileged phase survives, metastable, down to $\theta = 0.0440$, and equal footing is unstable above $\theta = 0.0480$. Below $\theta_t$ the stable phase renders all three leptons at $m_*$; for $\theta<-\theta_t$ the mirror code, $|-\rangle$, is privileged instead: another mode. Analysis E's quartic Landau toy, with no cubic term, loses privilege continuously, at $\theta = 0.127$ for its illustrative threshold ratio of ten.
+- *Reading.* Within the toy, the fuzz grows smoothly from $10^{-8}$ at our phase to tens of percent near $\theta = 0.05$, then the selection collapses. The numbers depend on the premises, which a selection functional would have to derive, and the toy says nothing about whether losing privilege changes the interactions, as Entries 284–285 propose, or only the masses.
+
+**(m) The scale $m_*$, and a nucleon comparison (analyses F and G) [V; R230].** With the template exact and $m_*$ free, the observed masses are $m_*f_n+\delta_n$, and a criterion picks $m_*$ (central masses, no weights):
+
+| criterion | $m_*$ (MeV) | $\delta_e$ (eV) | $\delta_\mu$ (keV) | $\delta_\tau$ (keV) |
+|:--|:--|:--|:--|:--|
+| least total $\lvert\delta\rvert$ ($\tau$ exact; all $\delta\geq0$) | $627.699043$ | $+15.807$ | $+2.230$ | $0$ |
+| least squares | $627.699090$ | $+15.769$ | $+2.222$ | $-0.132$ |
+| least total $\lvert\delta/m\rvert$ ($\mu$ exact) | $627.712289$ | $+5.024$ | $0$ | $-37.497$ |
+| least squares of $\delta/m$ | $627.709931$ | $+6.944$ | $+0.397$ | $-30.821$ |
+| least worst $\lvert\delta/m\rvert$ | $627.708752$ | $+7.903$ | $+0.595$ | $-27.486$ |
+| zero total correction (the mean mass) | $627.699791$ | $+15.198$ | $+2.104$ | $-2.119$ |
+
+- *One invariant.* Every row has $\delta_e-(f_e/f_\mu)\delta_\mu = m_e-(f_e/f_\mu)m_\mu = 5.024$ eV: the electron's $5$ eV of (i) is the only normalization-free correction. The rest moves with $m_*$, which the data fix only to the $\tau$ mass's precision. In the zero-sum normalization $\sigma(m_*) = 0.03$ MeV, that is $5$ keV on $\delta_\mu$ and $24$ eV on $\delta_e$, so the keV-level corrections in the table are normalization choices within the $\tau$'s uncertainty, not measurements.
+- *The three toy mechanisms.* All-positive corrections need $m_*\leq m_\tau/f_\tau$, and the least total correction sits at that limit. Zero total correction is $m_* = $ the mean mass, since $\sum f_n = 3$ ((i)). The degeneracy-directed signs, $\delta_e>0>\delta_\mu$, need $627.712289<m_*<627.718461$ MeV, a template $\tau$ of $1776.9675$–$1776.9850$ MeV. The mixture with $M(0)$ ($m_* = 627.71238$) lies inside that window.
+- *The nucleon sums.* $m_e+m_\mu+m_\tau = 1883.0994$ MeV and $m_p+m_n = 1877.8375$ MeV (CODATA 2022) differ by $5.2619\pm0.09$ MeV, a ratio of $1.0028$, $58\sigma$ from equality. So $(m_p+m_n)/3 = 625.9458$ MeV lies $1.7540$ MeV, $0.28\%$, below the mean lepton mass. Anchoring $m_*$ there needs a common uplift $\eta = 1.7540$ MeV, after which the residuals are the zero-sum row.
+- *How surprising is it?* Of the $230$ single masses and pair sums of $20$ hadrons — the narrow light mesons $\pi$, $K$, $\eta$, $\omega$, $\eta'$, $\phi$; the octet baryons and the $\Omega^-$; and $D^0$, $D^+$, $D_s^+$ — two lie as close to the lepton sum as $p+n$ does: $p+n$ and $2m_n$, which is closer ($-0.21\%$). Twenty-four lie within $5\%$, so about $1.3$ are expected from their density alone. The match is at the level chance gives among simple hadron sums. It relates masses set mostly by QCD to masses set by Yukawa couplings, a cross-sector link that would need a mechanism. It is recorded as a conjecture, with $\eta$ to be derived, not fitted.
+
+**(n) Status.** Recorded as premises [S]:
+- directional categorical softening (Entry 290);
+- mass-hierarchy-conditioned categorical selection (Entry 291);
+- an exact template with finite rigidity (Entry 292), with the departure carried by the masses (Entry 293);
+- the Potts ensemble of codes, as a toy of the selection (l).
+
+The open bridges [O] are the selection functional and its rigidity. The functional must:
+- be specified as a state space, a measure, constraints and a typicality statement;
+- reward smallness only up to a finite optimum;
+- link $\Delta_{\rm cat}$ to the mass gap;
+- specify the privileging constraint $\mathcal C_e$;
+- predict the correlated pattern $a_n$, $A$, $B$ — equivalently $m_\tau$ — without the observed masses written in;
+- say in which mass scheme the template is exact (§XXIV.27).
+
+## XXX.12 Post-freeze clarifications to Part XXIX (the assessment of the freeze) [V/D; v35.1, R212–R216] *(`v35_1_far_hemisphere_postfreeze()`, `v35_1_arena_constants_and_fourier()`)*
+
+*Part XXIX is frozen. The assessment of v34.10 supported the freeze and asked for five clarifications, recorded here and pointed to by short notes in §§XXIX.40(e), XXIX.41(d), XXIX.42(g) and XXIX.43(b). The frozen suite is untouched (SHA-256 `22ac6222…`); the controls below are an independent solution, not a rerun.*
+
+**(a) Equatorial circular orbits [V; R212].** An independent solution of the rigid closure's radial equation, by initial-value integration and matching at the equator rather than the frozen Green-function quadratures, reproduces the plateaus: $203.066$, $216.184$ and $218.945$ km/s at $r_d^{\rm (st)}/\ell = 0.1$, $0.04$ and $0.02$. In the weak-field radial potential $U = \Phi+L^2/(2\ell^2\sin^2\chi)$, with $\Phi = -2c^2\psi$, twin symmetry gives $U' = 0$ at the equator for every angular momentum $L$. So equatorial circularity fixes no speed.
+
+With $\psi''(\pi/2) = 1.27832$ per unit $\mu$, $U''(\pi/2) = -2c^2\psi''+L^2/\ell^2$ is $-1.92$, $0$ and $+7.67$ per unit $\mu c^2$ at half, once and twice the continuous branch's speed. The branch's equatorial limit is therefore linearly marginal, slower equatorial circular orbits are radially unstable, and faster ones are stable. Off the equator the computed branch is stable at the sampled points, with stiffness vanishing as $3.0947\,(\chi-\pi/2)^2$ per unit $\mu$. That is a weak-field statement about this branch, not a nonlinear stability theorem.
+
+**(b) The far side of a finite core [V; R213].** The far-side speeds are:
+
+| $\rho$ (kpc) | $103.45$ | $450.8$ | $1000$ | $10000$ |
+|---|---|---|---|---|
+| $v$ at $r_d^{\rm (st)}/\ell = 0.1$ (km/s) | $174.35$ | $77.07$ | $39.51$ | $4.36$ |
+| $v$ at $r_d^{\rm (st)}/\ell = 0.02$ (km/s) | $215.28$ | $287.32$ | $236.98$ | $39.45$ |
+
+Near a regular centre $v\propto\rho_{\rm near}$, so by the mirror $v\propto1/\rho_{\rm far}$: $d\ln v/d\ln\rho = -0.9996$ and $-0.9977$ between $10^5$ and $10^6$ kpc. Every finite-core example declines at last. The mirrored peak is finite: it rises above the plateau toward the antipode, then falls to zero.
+
+Forced into a Euclidean spherical Newtonian estimator, the inferred mass $M_{\rm eff} = \rho v^2/G$ falls with radius out there: from $3.63\times10^{11}$ to $4.42\times10^{10}M_\odot$, and from $1.31\times10^{13}$ to $3.62\times10^{12}M_\odot$, between $1000$ and $10000$ kpc. No non-negative spherical density does that. So the model gives a finite-range apparent mass discrepancy, not an ordinary halo. These radii are checks of the assigned map, not astronomical distances.
+
+**(c) The arena law: three readings and their constants [V/D; R214].**
+
+| reading | what changes | consequence | to construct |
+|:--|:--|:--|:--|
+| physical arena family | actual masses differ; $\ell$ tracks $\sqrt M$ | a physical slope-four relation at fixed coefficient | $A$, the profile assumptions, their universality |
+| Part XII's reading (i) | apparent size changes; inferred mass kept | inferred surface density varies; velocities are the physical family's | the angular, distance and flux map |
+| Entry 288 (ℓ/M), reading (ii) | one physical galaxy at apparent scale $s$ | constant apparent $M/\ell^2$; constant speed if spectral velocities are kept | a velocity rendering $\propto\sqrt s$; the surface-brightness diversity |
+
+Combining (i) and (ii) with a size-only factor $t$ gives $M_{\rm app}/\ell_{\rm app}^2 = M_0/(t^2\ell_0^2)$, which is no longer universal when $t$ varies. The readings cannot be combined verbally while keeping every favourable conclusion of each.
+
+The constants differ. With $v^2 = CGM/\ell$ and the strict asymptote $v^4 = GMa_0$ ($a_0 = 1.2\times10^{-10}$ m s$^{-2}$), $M/\ell^2 = a_0/(GC^2)$:
+- *compact normalization*, $C = 2.998$: $95.78\,M_\odot$ pc$^{-2}$;
+- *the $r_d^{\rm (st)}/\ell = 0.1$ family*, $C = 2.55664$: $131.71\,M_\odot$ pc$^{-2}$, which matched at $M_0 = 6\times10^{10}M_\odot$ would choose $\ell = 21.34$ kpc;
+- *Entry 288's reference galaxy* ($\ell_0 = 16$ kpc): $234.375\,M_\odot$ pc$^{-2}$, $2.45$ times the compact constant.
+
+"Holds automatically" in §XXIX.42(g)(iii) means the law's *form*, with the reference galaxy's own constant. The reference point gives $M_0/v_0^4 = 35.26\,M_\odot$ (km/s)$^{-4}$. The empirical value is $47\pm6$, which McGaugh relates to $a_0$ with a disk geometry factor $\chi = 0.8$, and the strict isolated spherical asymptote gives $62.8$. The reference point sits $7.45\%$ low in speed, $0.125$ dex in mass. These three benchmarks stay separate.
+
+**(d) The Fourier-norm wording [V; R215].** The frozen suite's v34.10-1 print says a mode $\cos nx$ "gains $n^2$ in the exchange norm". At constant lapse the $L^2$ norm gains $|n|$ and the squared norm $n^2$; for variable lapse the lapse term mixes in. The computed fractions, and the conclusion that they differ at first order, are unaffected.
+
+**(e) Conventions and status [D; R216].**
+- *Time.* The Hubble-time examples of §XXIX.41(d) use equal endpoint lapses, or a common normalized time. Once unequal proper-clock rates are divided out of $F$, elapsed proper times at B still carry the lapse conversion.
+- *Fits.* "Observational fits: none" refers to the current predictive model. Part XII's older exploratory fits (§XII.3) belong to its detached wing.
+- *Checks.* Some frozen checks test consequences of imposed premises: the zero far-side luminosity, and the arena constant matched to $a_0$. They are regression checks of the premises, not derivations; 130 checks are 130 assertions, not 130 established mechanisms.
+- *Darkness.* "Empty of matter" in Entry 286's paraphrase is the author's proposed reading. The mathematics uses the barren-twin readout of §§V.2–3, an empty resolved readout, not an absence of matter along the meridian, and darkness remains a selection hypothesis. Fast test orbits in a tracer-free region become observable only with a specified tracer, lensing measurement or detector response, computed with the same geometry and readout law.
+
+The assessment's continuation brief for the v34 wing — P3's matter background, Law II, an evolving optical background, one forward image, the barren-twin selection, and the physical origin of the Tully–Fisher scaling — is recorded with the handoff of §XXIX.43(f), and none of it is attempted here.
+
+## XXX.13 The conveyor typed globally: the axis-family obstruction and the trigonal-frame construction [T/V/D/O; v35.1, R224] *(`v35_1_global_typing()`)*
+
+*The second review of v35.0 asked for the conveyor to be typed globally, as either a construction or a scoped no-go. This section gives one of each.*
+
+**(a) The carrier.** The shift $S$ of §XXX.3 acts on the weight lines of the spin-one carrier at one selected axis. Equivalently it acts on the multiplicity space $G_{\rm gen}$ of §XXI.4b, whose lines are the weight lines. The matter field is $S_D\otimes G_{\rm gen}$, with Lorentz transformations acting on $S_D$ (§XXI.4b), so the question is how $S$ extends as the axis varies.
+
+**(b) A scoped no-go over the axis family [T/V].** Over the sphere of oriented axes the three weight lines are line bundles with Chern numbers $0$, $+2$ and $-2$ for $m = 0$, $+1$, $-1$, computed here by a lattice Berry flux as §XXI.4c states. A global unitary bundle map $L_0\to L_+$ would need equal first Chern classes. Covering an invertible axis map $f$ instead, it would need $0 = 2\deg f$ with $\deg f = \pm1$. So no conveyor over the axis family cycles the three lines. The fixed-axis $S$ does not globalize there.
+
+A consequence for the joint rendering follows. Equal unordered spectra at each axis do not make the matched renderings globally equivalent, because the eigenvalues sit on eigenline bundles of different topology.
+
+**(c) The framed parent, and where the shift descends [V/D].** On spatial frames $Q\in SO(3)$, set $S(Q) = QS_0Q^{-1}$ and $M(Q,\theta) = QM_0(\theta)Q^{-1}$, with $S_0$ and $M_0$ the fixed-frame operators in Cartesian components. Then:
+- $S(Q)^3 = I$ (to $2\times10^{-15}$);
+- $S(Q)M(Q,\theta)S(Q)^{-1} = M(Q,\theta-2\pi/3)$ (to $6\times10^{-13}$);
+- $M(Qh) = M(Q)$ for every rotation $h$ about the reference axis (to $10^{-13}$), so the mass operator descends to the axis;
+- the shift does not. With $h_\gamma$ the rotation by $\gamma$, $S(Qh_\gamma) = e^{-i\gamma}S(Q)\,{\rm diag}(1,e^{3i\gamma},1)$ in the weight basis. The best complex coefficient $c$ (by least squares) leaves a largest-entry residual $\max|S(Qh_\gamma)-cS(Q)| = 0.39$ and $0.74$ at $\gamma = 0.37$ and $1$, and $3\times10^{-16}$ at $\gamma = 2\pi/3$ and $4\pi/3$, where $c = \omega^{\mp1}$.
+
+So $S$ descends, up to a cube root of unity, exactly to frames modulo third-turns about the axis: an axis with a *trigonal* transverse structure, the space $SO(3)/\mathbb Z_3$. It descends to nothing coarser. There it is a genuine projective map on the pullback of the weight lines, equivalently of $G_{\rm gen}$. That is an explicit construction, not an argument from cohomology.
+
+**(d) What HC space must supply [O].** The frozen geometry selects an unoriented line, the split real form of §XXI.4d. It does not select a trigonal frame. A conveyor of this kind therefore needs an extra selected datum: a reduction of the axis stabilizer $SO(2)$ to $\mathbb Z_3$, a "trigonal frame" field. HC space would have to supply it, with its rendering and descent, and say why it is selected rather than gauge. A frame whose choice is pure gauge makes no observable conversion.
+
+**(e) Scope.** This is a scoped no-go plus one construction on an enlarged parent. It supplies no selection, no dynamics and no decay mechanism. The fixed-code reading stays a relation between descriptions: a physical conversion would need $105.15$ MeV for $e\to\mu$ at rest and $1671.27$ MeV for $\mu\to\tau$, with the exchanged energy and the other degrees of freedom identified (v35.1-3).
+
+## XXX.9 Register R203–R231 [D/O; v35.0–v35.1]
+
+*The v34 register, R56–R202, is frozen in §XXIX.16. v35 continues the numbering. The section number is kept from v35.0, so the register precedes §§XXX.11–13, which it covers.*
 
 - **R203** (§§XXX.1–2; Entries 281–285; six analyses). The entries are recorded, and the following are defined:
   - hyper-canonical space, codes and the rendering map;
@@ -10110,7 +10344,7 @@ Neither follows from countability, and both wait for a measure on $\mathscr H_{\
   - the Machian requirement that our code be physically selected;
   - the mismatch functional.
   [D/S]
-- **R204** (§XXX.3(a)). An exact symmetry preserves the spectrum; on the carrier the commutant of $M$ is the diagonal matrices (the null space of $[\,\cdot\,,M]$). The conveyor needs a selected background that breaks a covariance. [T/V]
+- **R204** (§XXX.3(a)). An exact symmetry preserves the spectrum; on the carrier the commutant of $M$ is the diagonal matrices (the null space of $[\,\cdot\,,M]$). The conveyor needs a selected background that breaks a covariance. [T/V] *(Hypothesis corrected by R217.)*
 - **R205** (§XXX.3(b)–(e)). The two renderings on the native carrier:
   - the clock and the shift;
   - joint against fixed-code rendering — the same spectrum jointly, the same physics only if the axial and circular sectors carry no distinction (§§XXI.4a–4c);
@@ -10118,22 +10352,42 @@ Neither follows from countability, and both wait for a measure on $\mathscr H_{\
   - the shift is not a rotation of the carrier in any phase convention, which answers Entry 281's hint about the directions of space;
   - a marked local excitation, departing from the entry's whole-space form;
   - "our own world again" as the joint rendering, and the data the three codes share, one reading of the second Entry 282 that departs from it.
-  [T/V/D/S]
+  [T/V/D/S] *(Scoped by R217–R219.)*
 - **R206** (§XXX.4). The phase family:
   - the degenerate point, the massless boundary and the physical phase (the PDG 2025 fit, $0.222225$; $2/9$ lies inside the band of $\theta$ allowed by the $\tau$-mass uncertainty; five fitting rules within $5\times10^{-6}$ of it; an observational fit, numerical and not derived);
   - the decay gate;
   - Entry 285 made precise within the family;
   - the conjunction test, with the sixth analysis's companion question.
-  [T/V/O]
-- **R207** (§XXX.5). Dephasing against decay, in minimal generic toys; the finite-band correction; $\Gamma = -2\,{\rm Im}\,\Sigma$. [T/V]
+  [T/V/O] *(The band's reading corrected by R220.)*
+- **R207** (§XXX.5). Dephasing against decay, in minimal generic toys; the finite-band correction; $\Gamma = -2\,{\rm Im}\,\Sigma$. [T/V] *(Scoped by R221.)*
 - **R208** (§XXX.6). The standard universality tests with one weak coupling and measured inputs: the $\tau$ lifetime given its leptonic branching fraction, and the leptonic branching ratio. The data do not choose between the economical reading and the sixth analysis's broader one. [V]
-- **R209** (§XXX.7). Generation transport, proposed as a flat connection; the Weyl–Heisenberg group of clock and shift; why the loop cannot be a spacetime loop — the commutant of a covariantly constant mass operator; otherwise adiabatic following, which cycles nothing, or local flavour violation bounded by MEG II; and the fundamental group of the spatial sections. [T/V/S]
+- **R209** (§XXX.7). Generation transport, proposed as a flat connection; the Weyl–Heisenberg group of clock and shift; why the loop cannot be a spacetime loop — the commutant of a covariantly constant mass operator; otherwise adiabatic following, which cycles nothing, or local flavour violation bounded by MEG II; and the fundamental group of the spatial sections. [T/V/S] *(Scoped by R222.)*
 - **R210** (§§XXX.8–10). The Boltzmannian targets and the program, with the third analysis's mismatch-dependent toys and its question on $V_{\rm weak}$; the v35 suite (5 checks, exit status 1 on any failure). [S/O; reproducibility]
-- **R211** (§XXX.4a; post-freeze erratum notes in §§XXI.4–4a). Part XXI.4's fitted phase is reproduced by no fitting rule. At the inputs of its time ($m_\tau = 1776.86$ MeV) least squares in $\sqrt m$ gives $\theta = 0.222230$ rad $= 12.733^\circ$ and $m_* = 627.676$ MeV, which reproduces the frozen $627.68$, $7\times10^{-6}$ from $2/9$; at PDG 2025's, $0.222225$. The frozen value is most likely a transcription slip. Superseded wording, kept in the frozen text: "gives $\theta = 0.22227$ rad $= 12.735^\circ$" (§XXI.4); "at $\theta = 0.22227$, $m_* = 627.68$ MeV the sector masses are $1776.86$ MeV on $|0\rangle$ and $105.68$, $0.51$ MeV on the circular pair" and "Empirically $\theta = 0.22227$ rad against $2/9 = 0.22222$, a difference of $5\times10^{-5}$ rad at pole masses" (§XXI.4a). [V; erratum]
+- **R211** (§XXX.4a; post-freeze erratum notes in §§XXI.4–4a). Part XXI.4's fitted phase is reproduced by no fitting rule. At the inputs of its time ($m_\tau = 1776.86$ MeV) least squares in $\sqrt m$ gives $\theta = 0.222230$ rad $= 12.733^\circ$ and $m_* = 627.676$ MeV, which reproduces the frozen $627.68$, $7\times10^{-6}$ from $2/9$; at PDG 2025's, $0.222225$. The frozen value is most likely a transcription slip. Superseded wording, kept in the frozen text: "gives $\theta = 0.22227$ rad $= 12.735^\circ$" (§XXI.4); "at $\theta = 0.22227$, $m_* = 627.68$ MeV the sector masses are $1776.86$ MeV on $|0\rangle$ and $105.68$, $0.51$ MeV on the circular pair" and "Empirically $\theta = 0.22227$ rad against $2/9 = 0.22222$, a difference of $5\times10^{-5}$ rad at pole masses" (§XXI.4a). [V; erratum] *(Wording corrected by R220.)*
+- **R212** (§XXX.12(a); note in §XXIX.42(g)). *Post-freeze, v35.1.* The equatorial circular orbits. An independent solution reproduces the plateaus $203.066$, $216.184$ and $218.945$ km/s. At the equator $U' = 0$ for every $L$, so equatorial circularity fixes no speed; $U''(\pi/2)$ is $-1.92$, $0$ and $+7.67$ per unit $\mu c^2$ at half, once and twice the branch's speed. The branch's equatorial limit is linearly marginal, and slower equatorial circular orbits are radially unstable. Off the equator the stiffness vanishes as $3.0947(\chi-\pi/2)^2$. Clarifies, without replacing, the frozen statement that the circular branch is stable at the sampled points. [V]
+- **R213** (§XXX.12(b); note in §XXIX.42(g)). *Post-freeze, v35.1.* The far side of a finite core: $174.35$, $77.07$, $39.51$, $4.36$ km/s ($r_d/\ell = 0.1$) and $215.28$, $287.32$, $236.98$, $39.45$ km/s ($0.02$) at $103.45$, $450.8$, $1000$, $10000$ kpc; $v\propto1/\rho$ at last (slopes $-0.9996$, $-0.9977$); $M_{\rm eff} = \rho v^2/G$ falls, so the model gives a finite-range apparent discrepancy, not an ordinary halo. [V]
+- **R214** (§XXX.12(c); note in §XXIX.42(g)). *Post-freeze, v35.1.* The arena law's three readings — a physical family, Part XII's reading (i) and Entry 288's (ℓ/M) reading (ii) — and their constants, $95.78$, $131.71$ ($\ell = 21.34$ kpc) and $234.375\,M_\odot$ pc$^{-2}$. "Holds automatically" means the form, with the reference galaxy's own constant. $35.26$ against $47\pm6$ (McGaugh's $\chi = 0.8$) and $62.8\,M_\odot$ (km/s)$^{-4}$: $7.45\%$ in speed, $0.125$ dex in mass. [V/D]
+- **R215** (§XXX.12(d); note in §XXIX.40(e)). *Post-freeze, v35.1.* At constant lapse a mode $\cos nx$ gains $|n|$ in the $L^2$ norm and $n^2$ in the squared norm. Superseded wording, kept in the frozen suite's print (v34.10-1): "a mode cos(nx) gains n^2 in the exchange norm". The computed fractions and the first-order conclusion are unaffected. [V]
+- **R216** (§XXX.12(e); notes in §§XXIX.41(d), XXIX.43(b)). *Post-freeze, v35.1.* Conventions and status: the Hubble-time examples use equal endpoint lapses or a common normalized time; "Observational fits: none" refers to the current predictive model, Part XII's exploratory fits (§XII.3) belonging to its detached wing; frozen checks of imposed premises are regression checks, not derivations; "empty of matter" stays the author's reading, the mathematics using the barren-twin readout. [D]
+- **R217** (§XXX.3(a), (b), (e)). The mass commutant, and the spectrum level. Superseded wording: "If the conveyor $T$ is an exact symmetry of the dynamics, $[T,H] = 0$, it maps each energy eigenstate to one of the same energy" (§XXX.3(a)); "the same spectrum, relabelled. It is the same *physics* only if the axial and circular sectors carry no physical distinction" (§XXX.3(b)); "This is the exact content the native carrier gives the entry, under that condition" (§XXX.3(e)). Now: an internal symmetry commuting with the mass operator, or with $H^2-P^2$ (the equal-energy counterexample: $[C,H] = 0$, $[C,H^2-P^2]\neq0$ by $3.157\times10^6$ MeV$^2$); the joint rendering an exact covariance of the mass spectrum, full physical equivalence an HC-level theorem target. [T/V/D]
+- **R218** (§XXX.3(b)). The fixed-code reading is a relation between descriptions, not a conversion: $e\to\mu$ at rest needs $105.15$ MeV, $\mu\to\tau$ $1671.27$ MeV. The carrier model holds at one fixed selected axis, and does not globalize over the axis family (§XXX.13). [T/D]
+- **R219** (§XXX.3(d)). $T_{\rm global}$ and $T_{\rm relative}$ are both kept, the second ideally induced by the first. Superseded wording: "A local excitation, not a global transformation" and "That departs from the entry's whole-space form, and agrees with its premise that leptons are "a local matter"." [D]
+- **R220** (§§XXX.4, XXX.4a). The phase against exact $2/9$, and wording. Superseded wording: "the $\tau$ mass's $\pm0.09$ MeV moves the fit over $0.222219$–$0.222231$" (read in R206 and the v35.0 table as "$2/9$ inside the band allowed by the $\tau$-mass uncertainty"); "A mass spectrum alone changes generation identity, mixing and the number of stable charged species"; "The phase is reproduced by no standard fitting rule"; "most likely a transcription slip". Now: the band is a sensitivity of the unweighted rule, not a confidence interval; a mass-space $\chi^2$ gives $0.188$ free and $203{,}974$ at exact $2/9$ with $m_*$ profiled ($627.71846$ MeV; $\tau$ $+0.61$, $e$ $-6.09$, $\mu$ $+451.59\sigma$), and $0.165$ at $2/9$ with a half-angle shift; the spectrum does not fix mixing; "none of the five tested fitting rules"; "likely", an inference. [V]
+- **R221** (§§XXX.5–6). Superseded wording: "The survival probability decays as $e^{-\Gamma t}$ over five lifetimes". Now approximately exponential over the fitted window, the pole a continuum approximation of a finite Hermitian model. The universality tests are a benchmark to recover, not evidence for one ontology; the differential decay structure is also to be recovered. At the degenerate point the light pair is stable against the specified channels. [V/D]
+- **R222** (§XXX.7). Superseded wording: "This is a path in the group, not an invariant of a flat connection: there, comparisons of histories with common endpoints are discrete ($I$, $S$ or $S^2$)…"; "would be the identity on every contractible patch"; "The loop cannot be a spacetime loop for propagating leptons" with its three bullets, including "Where the rotation varies on scales short enough to compete with the mass splittings, it drives flavour-changing transitions — local charged-lepton flavour violation, bounded by $B(\mu^+\to e^+\gamma)<1.5\times10^{-13}$"; "So the loop must be a loop in $\mathscr H_{\rm C}$"; and the falsifier "or varies fast enough to change flavour, which is excluded at the $\mu\to e\gamma$ level". Now: the overlap table is the principal logarithm's path (another branch: $0$ at $\alpha = 1/2$, non-monotone); flat holonomy is trivial on contractible loops, in a parallel frame; excluded are transports commuting with a covariantly constant nondegenerate mass and flat ones on $S^3$ or $\mathbb{RP}^3$ (a curved patch $A = Lx\,dy$ has holonomy $S$); others need a dynamical construction, with $\mu\to e\gamma$ computed from a dipole amplitude; HC space is the proposed home, not a proven one. [T/V/S]
+- **R223** (§§XXX.2(e), XXX.8). The selection law: $\Delta_n\geq0$ is automatic; the needed object is $(U,c_*)\mapsto M_{\rm eff}$; equivariant selection gives $c_*(TU) = Tc_*(U)$. The program's items 2–3 sharpened ($T_{\rm relative}$ induced from $T_{\rm global}$; the eigenline topology; the dimensionful source of $m_*$; the conjunction test's assumptions), item 5 added, and the reviews' one question with its success criterion. [D/O]
+- **R224** (§XXX.13). The conveyor typed globally: the weight lines' Chern numbers $0$, $+2$, $-2$ forbid a conveyor over the axis family (a scoped no-go); the framed $S(Q) = QS_0Q^{-1}$ descends, up to a cube root of unity, exactly to trigonal frames $SO(3)/\mathbb Z_3$ and nothing coarser; HC space would have to supply the trigonal frame, which the frozen geometry does not select. [T/V/D/O]
+- **R225** (§XXX.11(a)–(b), (d), (n); Entries 288 (17:12), 289 (17:19), 290 (unlabelled), 291 (17:31) and 292 (17:39), with analyses A–D). The entries are recorded. The archive's earlier "Entry 288" (§XXIX.42(g)) is a different, unlabelled entry, and these are cited with their times. Recorded as premises: the three levels; the chain [small] → [privileged] → [law class], the fuzz acting on the first arrow; directional categorical softening; mass-hierarchy-conditioned selection; the exact template with finite rigidity and correlated deviations. [S/D]
+- **R226** (§XXX.11(c), (e)). The ideal rendering in the family's coordinates: exact $(m_*,\theta,\alpha)$, each within $0.4\sigma$ of $(2/9,\pi/4)$ marginally (the errors almost fully correlated); the joint test, the fully ideal rendering, fails $m_e/m_\mu$ by $9.83\times10^{-6}$ ($452\sigma$); the departure's two directions, with $m_\tau$ predictions $1776.9690$ and $1776.9665$ MeV; its sign toward degeneracy, agreeing with Entry 290 — one bit, pole masses. [V]
+- **R227** (§XXX.11(f)–(h)). Smallness $h$ is monotone along the family, so smallness alone selects a massless electron; $2/9$ rad is no rational multiple of $\pi$; the mixture with the degenerate category needs weight $1.875\times10^{-7}$ ($15.49$ nats; phase average $7.88\times10^{-7}$, $14.05$ nats), an acceptance condition, not evidence; rigidity $\sim10^{13}$; the categorical susceptibility; the fuzz consistent with a fixed realization, excluding noise of its own size along one sightline and in present-day clocks (Muller et al. 2021; Lange et al. 2021). [V/S]
+- **R228** (§XXX.11(a), (i)–(k); Entry 293 (17:48), with analysis E). The entry is recorded: the deviations are fluctuations on the masses, $m_n^{(0)}+\varepsilon a_n$, with the template insisting on both $2/3$ and $2/9$; cycling must land a privileged electron each time. Computed: six correction shapes, each fixed by $m_e/m_\mu$ — along the family, half-angle, the mixture with $M(0)$ ($+4.95$, $-14.76$, $+9.81$ eV; $m_\tau = 1776.9678$), the two other codes ($=$ a uniform $5.05$ eV shift), the electron alone ($+5.02$ eV), and $m\ln m$ — predicting $m_\tau$ from $1776.9583$ to $1776.9690$ MeV; the correlated $(K,\theta_{\rm fit})$ functions of $m_\tau$ alone ($+5.65\times10^{-5}$, $-6.96\times10^{-5}$ per MeV); ${\rm tr}\,M(\theta) = 3m_*$, so equal footing is $m_*I$; covariance $SM_{\rm eff}(c_0)S^{-1} = M_{\rm eff}(Tc_0)$; $(cS)^3 = I$ on trigonal frames; the QED pole–running difference $1889$ times the fuzz (Sumino 2009). A falsifier added to §XXX.8. [V/T/S]
+- **R229** (§XXX.11(l); Entries 291, 293). A selection toy on the real phase line: a mean-field three-state Potts ensemble of codes with $\beta J = \lambda h(\theta)$ and the code-averaged mass operator $m_n = s\,m_n^{(0)}+(1-s)m_*$; $\lambda = 3.702$ from the fuzz; in mean field the cubic term makes the loss first order, at $\beta J = 4\ln2$, $\theta_t = 0.0444$ ($m_{\rm next}/m_{\rm min} = 2.11$), metastable to $0.0440$, equal footing unstable above $0.0480$; the mirror code for $\theta<-\theta_t$; analysis E's quartic toy continuous, at $0.127$ for a ratio of ten. [V within the toy; S]
+- **R230** (§XXX.11(a), (m); two further analyses). The scale $m_*$ of the exact template chosen by six criteria — least total correction ($627.699043$ MeV, $\tau$ exact, all corrections non-negative, since $f_\tau>f_e+f_\mu$), least squares ($627.699090$), least total fractional ($627.712289$, $\mu$ exact), least squared fractional ($627.709931$), least worst fractional ($627.708752$), zero total ($627.699791$, the mean mass); the normalization-free invariant $\delta_e-(f_e/f_\mu)\delta_\mu = 5.024$ eV; the degeneracy-directed window $627.712289<m_*<627.718461$ MeV. The lepton mass sum $1883.0994$ MeV against $m_p+m_n = 1877.8375$ MeV (CODATA 2022): ratio $1.0028$, $5.2619\pm0.09$ MeV, $58\sigma$; $(m_p+m_n)/3 = 625.9458$ MeV and a common uplift $\eta = 1.7540$ MeV; a look-elsewhere count (2 of 230 hadron sums as close, about 1.3 expected). The nucleon link is recorded as a cross-sector conjecture. [V; S]
+- **R231** (§XXX.10). The v35.1 suite: ten new checks, fifteen in Part XXX (exit status 1 on any failure); the toy's `all` mode runs 145. [reproducibility]
 
-## XXX.10 Executable appendix: `pg_v35_numerics.py`, embedded [reproducibility; v35.0, R210]
+## XXX.10 Executable appendix: `pg_v35_numerics.py`, embedded [reproducibility; v35.0, R210; v35.1, R231]
 
-*The standalone suite (NumPy and SciPy only) that prints every computed number of Part XXX. Save the block as `pg_v35_numerics.py` and run `python3 -I pg_v35_numerics.py` (the regression suite of Part XXX: 5 checks; exit status 1 if any fails, in every mode; about 2 s), or one round with `python3 -I pg_v35_numerics.py v35_0`. Part XXIX's frozen suite remains `pg_v34_numerics.py` (§XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v35`, `v35_0` and `all` (the frozen v34.10 suite and Part XXX together, 135 checks) run it.*
+*The standalone suite (NumPy and SciPy only) that prints every computed number of Part XXX. Save the block as `pg_v35_numerics.py` and run `python3 -I pg_v35_numerics.py` (the regression suite of Part XXX: 15 checks, 5 of v35.0 and 10 of v35.1; exit status 1 if any fails, in every mode; about 2 s), or one round with `python3 -I pg_v35_numerics.py v35_0` or `v35_1`. Part XXIX's frozen suite remains `pg_v34_numerics.py` (§XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v35`, `v35_0`, `v35_1` and `all` (the frozen v34.10 suite and Part XXX together, 145 checks) run it.*
 
 ```python
 """Projective Gravity v35 -- standalone numerical suite for Part XXX: the hyper-canonical completion and the charged-lepton cycle
@@ -10141,7 +10395,7 @@ Neither follows from countability, and both wait for a measure on $\mathscr H_{\
 
 Run (from the directory holding this file):
     python3 -I pg_v35_numerics.py              # current regression suite of Part XXX (all v35 rounds, check summary)
-    python3 -I pg_v35_numerics.py v35_0        # one round only
+    python3 -I pg_v35_numerics.py v35_0        # one round only (v35_0 or v35_1)
 Every mode exits with status 1 if any check fails.
 
 v35_0_suite(): the two renderings on the native spin-one carrier of Part XXI (clock R, shift S, the mass family M(theta), joint
@@ -10150,7 +10404,18 @@ convention); the phase family (the degenerate point theta = 0, the massless boun
 rules, and the post-freeze erratum to Part XXI.4's fitted phase) and the decay gate it opens; dephasing without decay against decay
 into a quasi-continuum, with the band-limited pole; the standard lepton-universality tests (the tau lifetime given its leptonic
 branching fraction, and the leptonic branching ratio); generation transport (an aligned identity, a global cycle, the Weyl-Heisenberg
-group of clock and shift, and why the loop cannot be a spacetime loop).
+group of clock and shift, and where its loop cannot lie).
+
+v35_1_suite(): post-freeze controls on Part XXIX.42 (an independent solution of the far-hemisphere continuation: the finite-core decline
+v ~ 1/rho and the falling inferred mass; the equatorial circular orbits; the arena-law constants and readings; the Fourier-norm wording);
+corrections to Part XXX (the mass commutant rather than [T, H] = 0; the fixed-code map is not a conversion; the transport's logarithm
+branch); the phase against exact 2/9 by a mass-space chi-square; the conveyor typed globally (the weight lines' Chern numbers over the
+axis family, and the descent of the framed shift to trigonal frames); Entries 288-292 (17:12-17:39): the ideal rendering, an exact
+template with finite rigidity, and the categorical fuzz in the family's own coordinates, its direction, the categorical
+susceptibility, relative smallness against selection, and an acceptance condition for the fuzz; Entry 293 (17:48): the exact template
+with a correction on the masses (six shapes, each predicting the tau mass; covariance under the cycle; the QED scale), and a
+mean-field Potts toy of code selection whose privilege is lost suddenly on the real phase line; the normalization m* of the
+exact template under six criteria, and the lepton and nucleon mass sums with a look-elsewhere count.
 """
 import numpy as np
 PI = np.pi
@@ -10216,11 +10481,12 @@ def v35_conveyor_on_native_carrier():
     print(f"     (2/9 = {2/9:.6f}), m* = {mstar:.3f} MeV.  Diagonal in the weight basis: " + ", ".join(f"{lab[k]} {m[k]:.5f}" for k in (0, 1, 2)) + " MeV")
     th_lo, th_hi = _v35_fit(PDG_MTAU-0.09)[0], _v35_fit(PDG_MTAU+0.09)[0]
     print(f"     (PDG 2025: e 0.51100, mu 105.65838, tau 1776.93; their Koide ratio {Kp:.6f}).  theta - 2/9 = {theta-2/9:.1e}, while the tau mass's")
-    print(f"     +-0.09 MeV moves theta over {min(th_lo, th_hi):.6f}-{max(th_lo, th_hi):.6f}: the closeness to 2/9 is numerical, not derived (Part XXI.4a).")
+    print(f"     +-0.09 MeV moves this unweighted rule's theta over {min(th_lo, th_hi):.6f}-{max(th_lo, th_hi):.6f} -- a sensitivity of the rule, not a confidence")
+    print("     interval; the uncertainty-weighted test is v35.1-4.  The closeness to 2/9 is numerical, not derived (Part XXI.4a).")
     sp_joint = np.sort(np.real(np.linalg.eigvals(S @ M @ np.linalg.inv(S))))
     print(f"   joint transformation (excitation and code together): S M(theta) S^-1 = M(theta - 2 pi/3) to {joint:.0e}; its spectrum")
-    print(f"     {', '.join(f'{v:.4f}' for v in sp_joint)} is M's own: the same spectrum, relabelled -- the same physics if the axial and circular")
-    print("     sectors carry no physical distinction (the distinguished-tau question of Part XXI.4a-4b).")
+    print(f"     {', '.join(f'{v:.4f}' for v in sp_joint)} is M's own: an exact covariance of the mass spectrum.  Full physical equivalence of the matched")
+    print("     renderings -- the whole interaction structure, the axial/circular distinction of Part XXI.4a-4c included -- is an HC-level theorem target.")
     e = np.array([0, 1, 0], complex); chain = []
     v = e.copy()
     for n in range(4):
@@ -10259,10 +10525,12 @@ def v35_conveyor_on_native_carrier():
           and SM > 1.0 and r_real < 1e-14 and abs(min_im-1.5) < 1e-12 and abs(max_im-1.5) < 1e-12 and max_tr < 1e-12 and abs(K-2/3) < 1e-12
           and abs(m[0]/PDG_MTAU-1) < 1e-4 and abs(m[2]/PDG_MMU-1) < 1e-3 and abs(m[1]/PDG_ME-1) < 1e-2 and abs(theta-0.2222) < 2e-4)
     check(ok, "two renderings: S^3 = I; joint S M(theta) S^-1 = M(theta - 2pi/3) (same spectrum); fixed code e -> mu -> tau; commutant of M diagonal; S never real")
-    print("   [T] A cycle that is an exact symmetry preserves every mass, so it cannot turn an electron into a muon.  [T/V] On the native carrier")
+    print("   [T] A cycle that is an exact internal symmetry, commuting with the mass operator (v35.1-3), preserves every mass, so it cannot turn")
+    print("       an electron into a muon.  [T/V] On the native carrier")
     print("       the two renderings have an exact model: jointly with its code the shift returns the same spectrum (theta -> theta - 2 pi/3); held")
     print("       against one code it carries e -> mu -> tau.  [D] Identifying the conveyor with S.  [T] S is not a rotation: the native geometry")
-    print("       supplies the clock R, not the shift; its proposed home is the hyper-canonical space, acting on a marked local excitation.")
+    print("       supplies the clock R, not the shift; its proposed home is the hyper-canonical space, where T_relative (one excitation against a")
+    print("       fixed selected environment) is to be induced by T_global (complete matched worlds).")
 
 def _v35_f(x):
     """f(x) = 1 - 8x + 8x^3 - x^4 - 12 x^2 ln x, in 60-digit decimal arithmetic (it cancels to O((1 - sqrt x)^5) near x = 1)."""
@@ -10309,7 +10577,7 @@ def v35_phase_family_and_gate():
     print(f"     At the inputs of its time (m_tau = {ERA_MTAU}) least squares in sqrt m gives theta = {th_era:.6f} rad = {np.degrees(th_era):.3f} deg and m* = {ms_era:.3f}")
     print(f"     MeV -- the frozen m*, not the frozen theta -- {th_era-2/9:.1e} from 2/9, with masses tau {ce[0]:.3f}, e {ce[1]:.4f}, mu {ce[2]:.3f}; the five rules")
     print(f"     give theta - 2/9 from {min(de):+.1e} to {max(de):+.1e}.  The sqrt-m rule would need m_tau = {need:.2f} MeV to give 0.22227: the frozen")
-    print("     phase is most likely a transcription slip (0.22223 written 0.22227); see the erratum notes in XXI.4-4a and section XXX.4a.")
+    print("     phase is likely a transcription slip (0.22223 written 0.22227) -- an inference; see the erratum notes in XXI.4-4a and section XXX.4a.")
     # the decay gate: the heavier light lepton -> lighter + nu nubar, Gamma ~ m_h^5 f(x), x = (m_l/m_h)^2 (Fermi theory, tree level)
     def gam(th):
         mm = masses(th); ml, mh = sorted([mm[1], mm[2]])
@@ -10355,9 +10623,11 @@ def v35_dephasing_vs_decay(V=0.002, delta=0.001, N=2001):
     ts = np.linspace(0, 5/G_gr, 101); amp = np.array([np.sum(np.abs(c0)**2*np.exp(-1j*ev*t)) for t in ts]); P = np.abs(amp)**2
     G_fit = -np.polyfit(ts[10:], np.log(P[10:]), 1)[0]
     print(f"   toy B (minimal): one level coupled with V = {V} to {N} levels of spacing {delta} (band half-width {W:.3f}, Gamma/band {G_gr/(N*delta):.3f}): survival")
-    print(f"     e^(-Gamma t) over five lifetimes (down to {P[-1]:.4f}), with Gamma = {G_fit:.6f}.  The golden rule gives 2 pi V^2/delta = {G_gr:.6f} (ratio")
+    print(f"     approximately e^(-Gamma t) over the fitted window of five lifetimes (down to {P[-1]:.4f}), with Gamma = {G_fit:.6f}.  The golden rule gives")
+    print(f"     2 pi V^2/delta = {G_gr:.6f} (ratio")
     print(f"     {G_fit/G_gr:.4f}); the band-limited pole, gamma = (V^2/delta)(pi + 2 arctan(gamma/W)), gives Gamma = {G_band:.6f} = 2 pi V^2/delta (1 + {G_band/G_gr-1:.4f}),")
-    print(f"     and the fit agrees with it to {abs(G_fit/G_band-1):.0e}.  Gamma = -2 Im Sigma at the pole.")
+    print(f"     and the fit agrees with it to {abs(G_fit/G_band-1):.0e}.  Gamma = -2 Im Sigma at the pole.  The finite model's spectrum is real: the pole is a")
+    print("     continuum approximation, and short-time deviations and late recurrences lie outside the window.")
     ok = (np.max(np.abs(surv-1)) < 1e-12 and abs(kfit/(2*Dph)-1) < 0.05 and abs(G_fit/G_gr-1) < 0.02 and abs(G_fit/G_band-1) < 1e-3)
     check(ok, "dephasing keeps the particle (survival 1 by construction, coherence decays at 2D); a continuum gives decay at the band-limited golden-rule pole")
     print("   [T] Scrambling the hyper-canonical components of a rendered particle removes interference, not the particle.  A lifetime needs open")
@@ -10407,29 +10677,494 @@ def v35_generation_transport():
         frontier = new
     hol = np.max(np.abs(S @ M @ np.linalg.inv(S)-M))
     print(f"   G_alpha = exp(alpha log S): G_0 = I to {ends[0]:.0e} (the aligned comparison), G_1 = S to {ends[1]:.0e} (the global cycle), unitary to {uni:.0e};")
-    print("     |<mu|G_alpha|e>|^2 at alpha = 0, 0.1, ..., 1: " + ", ".join(f"{o:.3f}" for o in ov) + ".  This is a path in the group, not an")
-    print("     invariant of a flat connection, whose comparisons with common endpoints are I, S, S^2; a continuous degree of alignment needs curvature.")
+    print("     |<mu|G_alpha|e>|^2 at alpha = 0, 0.1, ..., 1: " + ", ".join(f"{o:.3f}" for o in ov) + ".")
+    print("     This is the principal logarithm's path, a chosen path in the group (other branches differ, v35.1-3), not an invariant: a fixed flat")
+    print("     connection's holonomy is constant on homotopy")
+    print("     classes, so a continuous degree of alignment needs curvature, or a change of endpoints, frames, background or connection.")
     print(f"   clock R and shift S generate a group of order {len(grp)} (the Weyl-Heisenberg group of Z3: S R S^-1 = w^2 R, its centre the cube roots of unity).")
-    print("   A flat connection whose holonomy around a loop of order three is S would be the identity on every contractible patch -- the aligned,")
-    print("   local assignment -- and the cycle only around the loop.  The loop cannot be a spacetime loop.  If the mass operator is covariantly")
-    print("   constant (the same masses and the same mass basis everywhere under transport), every spacetime holonomy commutes with it and is")
-    print(f"   diagonal, and S moves M by up to {hol:.1f} MeV.  If it is not, the transport rotates the mass basis from place to place.  Varying on scales")
-    print("   short enough to compete with the mass splittings, that drives flavour-changing transitions -- local charged-lepton flavour violation,")
-    print("   bounded by B(mu+ -> e+ gamma) < 1.5e-13 (90% C.L., MEG II 2021-2022; no rate is computed here).  Varying slowly, a lepton follows its local")
-    print("   mass eigenstate adiabatically: no flavour violation and no cycle (constrained instead by the environment-independence of flavour, XXI.4d).")
-    print("   And on spatial sections S^3 or RP^3, with fundamental group 1 or Z2, a flat connection has no holonomy of order three at all.")
+    print("   A flat connection whose holonomy around a loop of order three is S would be trivial on contractible loops -- in a parallel frame, local")
+    print("   transport is the identity: the aligned assignment -- and the cycle only around the loop.  The order-three cycle cannot be the holonomy")
+    print("   of the frozen canonical transport (diagonal on the sectors, XXI.4b-4c), nor of any transport commuting with a covariantly constant")
+    print(f"   nondegenerate mass operator (such holonomy is diagonal; S moves M by up to {hol:.1f} MeV), nor of a flat connection on spatial sections")
+    print("   S^3 or RP^3 (fundamental group 1 or Z2; a curved connection can have holonomy S around a contractible loop).  Other spacetime transports")
+    print("   need a dynamical construction, and their flavour-changing channels computed -- for mu -> e gamma, a dipole amplitude to compare with")
+    print("   B(mu+ -> e+ gamma) < 1.5e-13 (90% C.L., MEG II 2021-2022).  The HC configuration space is the proposed home, not a proven one.")
     ok = (ends[0] < 1e-12 and ends[1] < 1e-10 and uni < 1e-10 and ov[0] < 1e-20 and abs(ov[-1]-1) < 1e-10 and all(np.diff(ov) >= -1e-12)
           and len(grp) == 27 and np.max(np.abs(np.linalg.matrix_power(S, 3)-np.eye(3))) < 1e-14 and hol > 1.0)
     check(ok, "generation transport: G_0 = I, G_1 = S, monotone e -> mu overlap; clock and shift generate the order-27 Weyl-Heisenberg group; S does not commute with M")
-    print("   [S] The local, aligned assignment and the global cycle as two regimes of one transport, proposed as a flat connection.  [T] Its loop")
-    print("       cannot be a spacetime loop; [O] whether a loop in the hyper-canonical space carries S (the Hopf third-turn gives the clock) is open.")
+    print("   [S] The local, aligned assignment and the global cycle as two regimes of one transport, proposed as a flat connection.  [T] Not the")
+    print("       frozen transport's holonomy, not one commuting with a covariantly constant mass, not a flat spatial loop.  [O] A spacetime coupling would")
+    print("       need its amplitudes computed; whether a loop in the hyper-canonical space carries S (the Hopf third-turn gives the clock) is open.")
+
+# ==================================================================================================== v35.1 (13 October 2026)
+def _v35_far_hemisphere(alpha, ell_kpc=16.0, Msun=6e10):
+    """Part XXIX.42(g)'s far-hemisphere continuation, solved independently of the frozen suite (post-freeze controls, R212-R213): the rigid
+    closure's radial equation y'' + 4 y = -2 pi rho_eff(x) sin x for y = psi sin x on the unit S^3, by initial-value integration of a
+    particular solution with y(0) = y'(0) = 0 plus A sin 2x fixed by y'(pi/2) = 0 (the twin-symmetric even sector); the source is
+    exp(-tan(x/2)/alpha), normalised as in Part XXV.  Returns v(x) in km/s, the plateau, psi''(pi/2) per unit mu, and the radial stiffness."""
+    from scipy.integrate import solve_ivp, quad
+    G, C, MS, KP = 6.67430e-11, 299792458.0, 1.98847e30, 3.085677581491367e19
+    raw = lambda x: np.exp(-np.tan(x/2)/alpha) if x < PI-1e-12 else 0.0
+    mass = 4*PI*quad(lambda x: raw(x)*np.sin(x)**2, 0, PI, epsabs=1e-15, epsrel=1e-12, limit=400, points=[0.5, 1.0, 1.5, 2.0])[0]
+    rho_eff = lambda x: (raw(x)+raw(PI-x))/mass
+    sol = solve_ivp(lambda t, Y: [Y[1], -2*PI*rho_eff(t)*np.sin(t)-4*Y[0]], (0, PI/2), [0.0, 0.0], method='DOP853', rtol=1e-13, atol=1e-16,
+                    dense_output=True)
+    A = sol.sol(PI/2)[1]/2
+    def psi_dpsi(x):
+        x = np.asarray(x, float); xx = np.where(x <= PI/2, x, PI-x); sg = np.where(x <= PI/2, 1.0, -1.0)
+        Y = sol.sol(xx); y = Y[0]+A*np.sin(2*xx); dy = (Y[1]+2*A*np.cos(2*xx))*sg; s, c = np.sin(x), np.cos(x)
+        return y/s, (dy*s-y*c)/s**2
+    mu = G*Msun*MS/(C**2*ell_kpc*KP)
+    def v(x):
+        _, dp = psi_dpsi(x)
+        return np.sqrt(np.maximum(-2*np.tan(x)*dp, 0)*mu)*C/1e3
+    d2_eq = -3*psi_dpsi(PI/2)[0]-2*PI*rho_eff(PI/2)               # psi'' + 2 cot psi' + 3 psi = -2 pi rho_eff at the equator
+    def stiff(x):
+        p, dp = psi_dpsi(x); d2 = -2/np.tan(x)*dp-3*p-2*PI*rho_eff(x)
+        return d2+dp*(np.tan(x)+3/np.tan(x))
+    return v, np.sqrt(2*d2_eq*mu)*C/1e3, d2_eq, stiff
+
+def v35_1_far_hemisphere_postfreeze(ell_kpc=16.0):
+    print("\n== v35.1-1. post-freeze controls on Part XXIX.42(g): the finite-core far side and the equatorial orbits (R212, R213) ==")
+    Gk = 4.300917270e-6                                                   # G in kpc (km/s)^2 / M_sun
+    chi = lambda r: 2*np.arctan(r/(2*ell_kpc))                            # stereographic radius rho = 2 ell tan(chi/2), far side chi > pi/2
+    rs = [103.45, 450.8, 1000.0, 10000.0]; out = {}
+    for al in (0.1, 0.04, 0.02):
+        out[al] = _v35_far_hemisphere(al, ell_kpc)
+    print("   An independent solution of the rigid closure's radial equation (initial-value integration and matching at the equator, not the frozen")
+    print("   suite's Green-function quadratures) gives the plateaus " + ", ".join(f"{out[a][1]:.3f}" for a in (0.1, 0.04, 0.02)) +
+          " km/s at r_d/ell = 0.1, 0.04, 0.02, as Part XXIX.42(g).")
+    tab = {}
+    for al in (0.1, 0.02):
+        v = out[al][0]; tab[al] = [float(v(chi(r))) for r in rs]
+        print(f"   r_d/ell = {al}: far-side speeds at rho = " + ", ".join(f"{r:g}" for r in rs) + " kpc: " + ", ".join(f"{x:.2f}" for x in tab[al]) + " km/s")
+    slopes = {al: float(np.log(out[al][0](chi(1e6))/out[al][0](chi(1e5)))/np.log(10.0)) for al in (0.1, 0.02)}
+    Meff = {al: [r*float(out[al][0](chi(r)))**2/Gk for r in (1000.0, 10000.0)] for al in (0.1, 0.02)}
+    print(f"     Every finite core declines at last: near a regular centre v ~ rho_near, so by the mirror v ~ 1/rho_far (d ln v/d ln rho between 1e5 and 1e6")
+    print(f"     kpc: {slopes[0.1]:.4f}, {slopes[0.02]:.4f}).  The mirrored peak is finite: rising above the plateau toward the antipode, then falling to zero.")
+    print(f"     Forced into a Euclidean spherical Newtonian estimator, M_eff = rho v^2/G falls with radius out there ({Meff[0.1][0]:.3e} -> {Meff[0.1][1]:.3e} and")
+    print(f"     {Meff[0.02][0]:.3e} -> {Meff[0.02][1]:.3e} M_sun from 1000 to 10000 kpc): no non-negative spherical density does that, so the model gives a")
+    print("     finite-range apparent mass discrepancy, not an interchangeable ordinary halo.  (These radii are checks of the assigned map, not distances.)")
+    v1, veq1, d2, stiff = out[0.1]
+    # equatorial circular orbits: U = Phi + L^2/(2 ell^2 sin^2 chi), Phi = -2 c^2 psi; at the equator U' = 0 for every L, and
+    # U''(pi/2) = -2 c^2 psi''(pi/2) + L^2/ell^2 (per unit mu c^2: -2 psi'' + l^2), with the continuous branch's limit l^2 = 2 psi''(pi/2)
+    l2 = 2*d2; U2 = {k: -2*d2+(k**2)*l2 for k in (0.5, 1.0, 2.0)}
+    q = [stiff(PI/2-dd)/dd**2 for dd in (0.0208, 0.01)]
+    print(f"   Equatorial orbits (r_d/ell = 0.1): psi''(pi/2) = {d2:.5f} per unit mu, so the plateau v^2 = 2 psi'' mu c^2 ({veq1:.3f} km/s).  At the equator")
+    print("     U' = 0 for every angular momentum L: circularity there fixes no speed.  U''(pi/2) = -2 c^2 psi'' + L^2/ell^2 is " +
+          ", ".join(f"{U2[k]:+.4f}" for k in (0.5, 1.0, 2.0)) + " (per unit mu c^2)")
+    print("     at half, once and twice the continuous branch's speed: the branch's limit is linearly marginal, slower equatorial circular orbits are")
+    print(f"     radially unstable and faster ones stable.  Off the equator the branch's stiffness vanishes as {-q[-1]:.4f} (chi - pi/2)^2 per unit mu.")
+    ok = (abs(out[0.1][1]-203.066) < 0.005 and abs(out[0.04][1]-216.184) < 0.005 and abs(out[0.02][1]-218.945) < 0.005
+          and max(abs(a-b) for a, b in zip(tab[0.1], (174.35, 77.07, 39.51, 4.36))) < 0.01
+          and max(abs(a-b) for a, b in zip(tab[0.02], (215.28, 287.32, 236.98, 39.45))) < 0.01
+          and abs(slopes[0.1]+1) < 0.01 and abs(slopes[0.02]+1) < 0.01 and Meff[0.1][1] < Meff[0.1][0] and Meff[0.02][1] < Meff[0.02][0]
+          and abs(U2[1.0]) < 1e-12 and U2[0.5] < 0 < U2[2.0] and d2 > 0 and abs(q[-1]+3.0946) < 0.001 and abs(2*d2-2.55664) < 1e-4)
+    check(ok, "post-freeze: far-side speeds (174.35..4.36; the 287.32 peak) decline as 1/rho, M_eff falls; equatorial branch marginal, slower orbits unstable")
+    print("   [V] The far-hemisphere continuation has a finite near-flat band and an eventual decline for every finite core; the equatorial limit of the")
+    print("       circular branch is linearly marginal, and equatorial circularity alone permits other speeds and either stability sign.")
+
+def v35_1_arena_constants_and_fourier(v0=203.1, M0=6e10, ell0=16.0):
+    print("\n== v35.1-2. post-freeze controls on Part XXIX.42: the arena-law constants and readings; the Fourier-norm wording (R214, R215) ==")
+    G, MS, pc = 6.67430e-11, 1.98847e30, 3.085677581491367e16
+    a0 = 1.2e-10
+    sig = lambda C: a0/(G*C**2)*pc**2/MS                                  # M/ell^2 = a0/(G C^2) for v^2 = C G M/ell and v^4 = G M a0
+    C_comp = 2*1.499; C_fam = 2*_v35_far_hemisphere(0.1)[2]
+    S_comp, S_fam, S_ref = sig(C_comp), sig(C_fam), M0/(ell0*1e3)**2
+    l_match = np.sqrt(M0/S_fam)/1e3
+    A_ref = M0/v0**4; A_sph = 1/(a0*G)*1e12/MS                           # M/v^4 in M_sun (km/s)^-4: the reference galaxy, the strict spherical asymptote
+    off_v, off_dex = (47.0/A_ref)**0.25-1, np.log10(47.0/A_ref)
+    print(f"   v^2 = C G M/ell and the strict asymptote v^4 = G M a0 (a0 = 1.2e-10 m/s^2) fix M/ell^2 = a0/(G C^2):")
+    print(f"     compact normalization, C = {C_comp:.3f}: {S_comp:.2f} M_sun/pc^2;  the r_d/ell = 0.1 family, C = {C_fam:.5f}: {S_fam:.2f} M_sun/pc^2")
+    print(f"     (matching it at M0 = {M0:.0e} would choose ell = {l_match:.2f} kpc);  Entry 288's reference galaxy (ell0 = {ell0:g} kpc): {S_ref:.3f} M_sun/pc^2,")
+    print(f"     {S_ref/S_comp:.2f} times the compact constant.  'Holds automatically' means the law's form, with the reference galaxy's own constant.")
+    print(f"   The reference point gives M0/v0^4 = {A_ref:.2f} M_sun (km/s)^-4 against 47 +- 6 empirically (McGaugh 2012, with a disk geometry factor")
+    print(f"     chi = 0.8) and {A_sph:.1f} for the strict isolated spherical asymptote: a {100*off_v:.2f}% speed offset, {off_dex:.3f} dex in mass, kept separate.")
+    print("   Three readings stay distinct: a physical arena family (masses differ, ell tracks sqrt M); Part XII's reading (i) (apparent size changes,")
+    print("     inferred mass kept); Entry 288's reading (ii) (one physical galaxy at apparent scale s).  Combining (i) and (ii) with a size-only factor t")
+    print("     gives M_app/ell_app^2 = M0/(t^2 ell0^2), no longer universal when t varies.")
+    # Fourier norm: at constant lapse X = d(delta rho)/dx; a mode cos(n x) gains |n| in the L2 norm and n^2 in its square
+    x = np.linspace(0, 2*PI, 4097)[:-1]; ratios = []
+    for n in (1, 3, 10):
+        f = np.cos(n*x); df = -n*np.sin(n*x)
+        ratios.append(np.sqrt(np.mean(df**2)/np.mean(f**2)))
+    print("   Fourier-norm wording (frozen suite, v34.10-1): at constant lapse a mode cos(n x) gains |n| in the L2 norm and n^2 in the squared norm")
+    print("     (ratios " + ", ".join(f"{r:.6f}" for r in ratios) + " for n = 1, 3, 10), not n^2 in the norm; for variable lapse the lapse term mixes in.")
+    ok = (abs(S_comp-95.78) < 0.05 and abs(S_fam-131.71) < 0.05 and abs(S_ref-234.375) < 1e-9 and abs(S_ref/S_comp-2.447) < 0.002
+          and abs(l_match-21.34) < 0.01 and abs(A_ref-35.26) < 0.01 and abs(off_v-0.0745) < 0.001 and abs(off_dex-0.125) < 0.001
+          and abs(A_sph-62.8) < 0.1 and max(abs(r-n) for r, n in zip(ratios, (1, 3, 10))) < 1e-12)
+    check(ok, "post-freeze: arena constants 95.78, 131.71, 234.375 M_sun/pc^2 (ell 21.34 kpc; 35.26 vs 47 vs 62.8); Fourier norm gains |n|")
+    print("   [D] Some frozen checks test consequences of imposed premises (the zero far-side luminosity, the arena constant matched to a0):")
+    print("       regression checks of the premises, not derivations of them.")
+
+def v35_1_corrections_to_part_xxx():
+    print("\n== v35.1-3. corrections to Part XXX: the mass commutant, not [T, H] = 0; a map, not a conversion; the transport's logarithm branch (R217, R218, R222) ==")
+    # (a) [T, H] = 0 preserves energy, not invariant mass: three states of equal energy and different masses
+    E = 2000.0; ms_ = np.array([PDG_MTAU, PDG_ME, PDG_MMU]); p = np.sqrt(E**2-ms_**2)
+    Hs, P, C = E*np.eye(3), np.diag(p), np.roll(np.eye(3), 1, axis=0)
+    cH, cM = np.max(np.abs(C @ Hs-Hs @ C)), np.max(np.abs(C @ (Hs @ Hs-P @ P)-(Hs @ Hs-P @ P) @ C))
+    print(f"   tau, e and mu states all at E = {E:g} MeV, with p = sqrt(E^2 - m^2): H = E I on that subspace, so the cyclic map commutes with H (to {cH:.0e})")
+    print(f"     while permuting the masses; it fails to commute with the mass Casimir H^2 - P^2 (by {cM:.3e} MeV^2).  The sound statement is the commutant of")
+    print("     the mass operator -- an internal symmetry preserving H^2 - P^2 -- which on the rest-mass carrier is the diagonal matrices (v35.0-1).")
+    # (b) the fixed-code map is a map between eigenvectors, not a dynamical conversion
+    de, dt = PDG_MMU-PDG_ME, PDG_MTAU-PDG_MMU
+    print(f"   A physical e -> mu at rest must supply {de:.4f} MeV and mu -> tau {dt:.4f} MeV; a unitary permutation of eigenvectors supplies neither.")
+    # (c) the transport's logarithm branch: other anti-Hermitian logarithms of S, in the analytic Fourier eigenbasis S|f_j> = w^j |f_j>
+    w = np.exp(2j*PI/3); F = np.array([[w**(-j*k) for j in range(3)] for k in range(3)])/np.sqrt(3)   # columns f_j, components in |0>, |+>, |->
+    def overlaps(shift):                                                    # eigenphases (0, 2pi/3, -2pi/3) + 2 pi shift
+        phs = np.array([0.0, 2*PI/3, -2*PI/3])+2*PI*np.array(shift)
+        return [abs((F @ np.diag(np.exp(1j*a*phs)) @ F.conj().T)[2, 1])**2 for a in np.linspace(0, 1, 11)]
+    o0, o1 = overlaps((0, 0, 0)), overlaps((1, 0, 0))
+    print("   The overlap table of v35.0-5 belongs to the principal logarithm: " + ", ".join(f"{x:.3f}" for x in o0) + ".")
+    print("     Another anti-Hermitian logarithm of the same S (the eigenvalue 1 given the phase 2 pi instead of 0) has the same endpoints and gives")
+    print("     " + ", ".join(f"{x:.3f}" for x in o1) + ":")
+    print(f"     non-monotone, and {o1[5]:.3f} at alpha = 1/2 against the principal branch's {o0[5]:.4f} = 4/9.  The path is a choice, not a prediction.")
+    ok = (cH == 0.0 and cM > 1e6 and abs(de-105.1474) < 1e-3 and abs(dt-1671.2716) < 1e-3 and abs(o0[5]-4/9) < 1e-12 and abs(o1[5]) < 1e-12
+          and all(np.diff(o0) >= -1e-12) and not all(np.diff(o1) >= -1e-12) and abs(o1[-1]-1) < 1e-12 and abs(o1[0]) < 1e-20)
+    check(ok, "corrections: [C, H] = 0 yet [C, H^2 - P^2] != 0; conversions need 105.15 and 1671.27 MeV; another log branch gives overlap 0 at alpha = 1/2")
+    print("   [T] The finite-carrier result is the mass commutant.  [D] The fixed-code reading is a relation between descriptions, not a transition.")
+
+def v35_1_statistics():
+    print("\n== v35.1-4. the phase against exact 2/9, by a mass-space chi-square with the PDG 2025 uncertainties (R220) ==")
+    from scipy.optimize import brentq, minimize_scalar
+    mo = np.array([PDG_MTAU, PDG_ME, PDG_MMU]); so = np.array([0.09, 1.5e-10, 2.3e-6])
+    q = lambda t, a=PI/4: np.cos(t+2*PI*np.arange(3)/3)+np.cos(a)
+    def prof(t, a=PI/4):                                                   # chi-square with m* profiled (linear least squares)
+        qq = q(t, a)**2; w = 1/so**2; m_s = np.sum(w*mo*qq)/np.sum(w*qq*qq); r = (m_s*qq-mo)/so
+        return float(np.sum(r*r)), m_s, r
+    t_em = brentq(lambda t: q(t)[1]/q(t)[2]-np.sqrt(PDG_ME/PDG_MMU), 0.15, 0.26, xtol=1e-16)
+    grid = [prof(t_em+d)[0] for d in np.linspace(-2e-9, 2e-9, 41)]
+    c_free, ms_f, r_f = prof(t_em); c_29, ms_29, r_29 = prof(2/9)
+    a_em = brentq(lambda a: q(2/9, a)[1]/q(2/9, a)[2]-np.sqrt(PDG_ME/PDG_MMU), 0.70, 0.86, xtol=1e-16)   # the e/mu-exact half-angle
+    ra = type('R', (), {})(); ra.x = a_em; ra.fun = min(prof(2/9, a_em+dd)[0] for dd in np.linspace(-2e-9, 2e-9, 41))
+    t_ls, ms_ls = _v35_fit(); e_ls = (ms_ls*q(t_ls)[1]**2-PDG_ME)/so[1]
+    print(f"   Koide family (alpha = pi/4), theta and m* free: the minimum sits at the e/mu phase {t_em:.12f}, chi^2 = {c_free:.3f} (the tau's {r_f[0]:+.2f}")
+    print(f"     sigma alone; a +-2e-9 scan finds nothing lower: {min(grid):.3f}).  theta fixed at 2/9, m* profiled: m* = {ms_29:.5f} MeV, residuals")
+    print(f"     tau {r_29[0]:+.2f}, e {r_29[1]:+.2f}, mu {r_29[2]:+.2f} sigma, chi^2 = {c_29:.0f}; Delta chi^2 = {c_29-c_free:.0f}.  Exact 2/9 is excluded in this exact")
+    print("     two-parameter pole-mass family.  The tau-mass band of the unweighted rule (v35.0-1) is a sensitivity of that rule, not a confidence interval;")
+    print(f"     that rule (theta = {t_ls:.7f}, with its own m*) misfits m_e by {e_ls:+.1e} sigma and stays an illustration for continuity with Part XXI.4.")
+    print(f"   Part XXIV.26's three-parameter family at theta = 2/9 with alpha free: alpha - pi/4 = {ra.x-PI/4:+.3e}, chi^2 = {ra.fun:.3f}.  Exact 2/9 is compatible")
+    print("     only with a specified correction off the Koide family (here a half-angle shift); Entries 288-293 read such a correction as rendering fuzz.")
+    ok = (abs(c_free-0.188) < 0.002 and min(grid) >= c_free-1e-6 and abs(ms_29-627.71846) < 1e-4 and abs(c_29-203974) < 5 and abs(r_29[2]-451.59) < 0.02
+          and abs(r_29[1]+6.09) < 0.01 and abs(r_29[0]-0.61) < 0.01 and abs(ra.x-PI/4+2.13e-7) < 0.01e-7 and abs(ra.fun-0.165) < 0.002 and abs(e_ls) > 1e5)
+    check(ok, "statistics: free phase chi^2 0.188; exact 2/9 profiled chi^2 ~ 203974 (mu +451.6 sigma); exact 2/9 with a half-angle shift -2.13e-7: chi^2 0.165")
+    print("   [V] The fitted phase is numerically close to 2/9; in the exact two-parameter family the uncertainty-weighted fit, controlled by the e/mu")
+    print("       ratio, excludes exact 2/9.  An exact underlying phase needs a specified correction to the formula, with its scheme and uncertainty.")
+
+def v35_1_global_typing():
+    print("\n== v35.1-5. the conveyor typed globally: the axis-family obstruction and the trigonal-frame construction (R224) ==")
+    J = [np.array([[0, 0, 0], [0, 0, -1j], [0, 1j, 0]]), np.array([[0, 0, 1j], [0, 0, 0], [-1j, 0, 0]]), np.array([[0, -1j, 0], [1j, 0, 0], [0, 0, 0]])]
+    def line(n, m):
+        w_, v_ = np.linalg.eigh(n[0]*J[0]+n[1]*J[1]+n[2]*J[2]); return v_[:, int(np.argmin(abs(w_-m)))]
+    def chern(m, Nt=40, Np=80):                                              # lattice Berry flux (gauge invariant plaquette products)
+        ts, ps = np.linspace(0, PI, Nt+1), np.linspace(0, 2*PI, Np+1)[:-1]
+        V = [[line(np.array([np.sin(t)*np.cos(p), np.sin(t)*np.sin(p), np.cos(t)]), m) for p in ps] for t in ts]
+        return sum(np.angle(np.vdot(V[i][j], V[i+1][j])*np.vdot(V[i+1][j], V[i+1][(j+1) % Np])*np.vdot(V[i+1][(j+1) % Np], V[i][(j+1) % Np])
+                            *np.vdot(V[i][(j+1) % Np], V[i][j])) for i in range(Nt) for j in range(Np))/(2*PI)
+    ch = [chern(m) for m in (0, 1, -1)]
+    print(f"   Over the oriented axis sphere the weight lines of the spin-one carrier have Chern numbers {ch[0]:+.4f}, {ch[1]:+.4f}, {ch[2]:+.4f} (m = 0, +1, -1),")
+    print("     as Part XXI.4c states.  A global bundle map L_0 -> L_+ would need equal first Chern classes; over an invertible axis map f it would need")
+    print("     0 = 2 deg f, with deg f = +-1.  So no conveyor over the axis family cycles the three lines: a scoped no-go for the fixed-axis S.")
+    S = np.roll(np.eye(3), 1, axis=0).astype(complex)
+    Bc = np.array([[0, 1/np.sqrt(2), 1/np.sqrt(2)], [0, 1j/np.sqrt(2), -1j/np.sqrt(2)], [1, 0, 0]]); Bi = np.linalg.inv(Bc)
+    S0 = Bc @ S @ Bi; th, m_s = _v35_fit()
+    M0 = lambda t: Bc @ _v35_carrier(t, m_s)[2] @ Bi
+    def rot(ax, ang):
+        ax = np.asarray(ax, float)/np.linalg.norm(ax); K = np.array([[0, -ax[2], ax[1]], [ax[2], 0, -ax[0]], [-ax[1], ax[0], 0]])
+        return np.eye(3)+np.sin(ang)*K+(1-np.cos(ang))*K @ K
+    rng = np.random.default_rng(3511); e1 = e2 = e3 = 0.0
+    for _ in range(40):
+        Q = rot(rng.normal(size=3), rng.uniform(0, 2*PI)); SQ = Q @ S0 @ Q.T
+        e1 = max(e1, np.max(np.abs(np.linalg.matrix_power(SQ, 3)-np.eye(3))))
+        e2 = max(e2, np.max(np.abs(SQ @ (Q @ M0(th) @ Q.T) @ np.linalg.inv(SQ)-Q @ M0(th-2*PI/3) @ Q.T)))
+        h = rot([0, 0, 1], rng.uniform(0, 2*PI)); e3 = max(e3, np.max(np.abs((Q @ h) @ M0(th) @ (Q @ h).T-Q @ M0(th) @ Q.T)))
+    Q = rot([0.3, -0.5, 0.8], 1.1); SQ = Q @ S0 @ Q.T; rows = []
+    for g in (0.37, 1.0, 2*PI/3, 4*PI/3):
+        SQh = (Q @ rot([0, 0, 1], g)) @ S0 @ (Q @ rot([0, 0, 1], g)).T
+        c = np.vdot(SQ.ravel(), SQh.ravel())/np.vdot(SQ.ravel(), SQ.ravel()); rows.append((g, np.max(np.abs(SQh-c*SQ)), c))
+    print(f"   On frames Q in SO(3), S(Q) = Q S_0 Q^-1 and M(Q, theta) = Q M_0(theta) Q^-1: S(Q)^3 = I to {e1:.0e}, S M(theta) S^-1 = M(theta - 2 pi/3) to {e2:.0e},")
+    print(f"     and M(Q h) = M(Q) for rotations h about the reference axis (to {e3:.0e}): the mass operator descends to the axis, but the shift does not.")
+    print("     Replacing Q by Q h_gamma, the best complex coefficient c leaves max|S(Qh) - c S(Q)| = " + ", ".join(f"{d:.1e}" for _, d, _ in rows) + " at gamma = 0.37, 1, 2 pi/3,")
+    print(f"     4 pi/3, with c = w^{np.angle(rows[2][2])/(2*PI/3):+.0f}, w^{np.angle(rows[3][2])/(2*PI/3):+.0f} at the third-turns: S descends, up to a cube root of unity, exactly to frames modulo")
+    print("     third-turns about the axis -- an axis with a trigonal transverse structure, SO(3)/Z3 -- and to nothing coarser.")
+    ok = (abs(ch[0]) < 1e-6 and abs(ch[1]-2) < 1e-6 and abs(ch[2]+2) < 1e-6 and e1 < 1e-12 and e2 < 1e-10 and e3 < 1e-10
+          and rows[0][1] > 0.1 and rows[1][1] > 0.1 and rows[2][1] < 1e-12 and rows[3][1] < 1e-12
+          and abs(rows[2][2]-np.exp(-2j*PI/3)) < 1e-12 and abs(rows[3][2]-np.exp(2j*PI/3)) < 1e-12)
+    check(ok, "global typing: weight-line Chern numbers 0, +2, -2 (no conveyor over the axis family); framed S descends to trigonal frames SO(3)/Z3 up to w")
+    print("   [T/V] The fixed-axis S does not globalize over the axis family.  [D] It is a genuine (projective) map on the pullback of the weight lines")
+    print("       -- equivalently G_gen -- to trigonal frames.  [O] The frozen geometry selects an unoriented line (XXI.4d), not a trigonal frame: that is")
+    print("       the extra datum HC space would have to supply, with its rendering and descent.")
+
+def _v35_exact_three(mt, me, mmu):
+    """The exact solution (m*, theta, alpha) of sqrt(m_n) = sqrt(m*) (cos(theta + 2 pi n/3) + cos alpha), n = 0 tau, 1 e, 2 mu (Part XXIV.26's
+    half-angle family): cos^2 alpha from the Koide ratio, K = 1/3 + 1/(6 cos^2 alpha); m* from the sum of roots; theta from the zero-sum part."""
+    r = np.sqrt(np.array([mt, me, mmu])); K = (mt+me+mmu)/r.sum()**2
+    ca = np.sqrt(1/(6*(K-1/3))); sms = r.sum()/(3*ca); x = r/sms-ca
+    return sms**2, float(np.arctan2(-(x[1]-x[2])/np.sqrt(3), x[0])), float(np.arccos(ca)), K
+
+def v35_1_ideal_rendering_and_fuzz():
+    print("\n== v35.1-6. Entries 288-292: the ideal rendering and the categorical fuzz, in the family's own coordinates (R225, R226) ==")
+    from scipy.optimize import brentq
+    sg = (0.09, 1.5e-10, 2.3e-6)                                          # PDG 2025 one-sigma: m_tau, m_e, m_mu (MeV)
+    ms, th, al, K = _v35_exact_three(PDG_MTAU, PDG_ME, PDG_MMU)
+    base = np.array([th-2/9, al-PI/4, K-2/3]); J = []
+    for i in range(3):
+        d = np.zeros(3); d[i] = sg[i]; p = _v35_exact_three(PDG_MTAU+d[0], PDG_ME+d[1], PDG_MMU+d[2])
+        J.append(np.array([p[1]-2/9, p[2]-PI/4, p[3]-2/3])-base)
+    err = np.sqrt((np.array(J)**2).sum(axis=0)); th_ls = _v35_fit()[0]
+    print("   Three masses fix the three parameters of Part XXIV.26's family, sqrt(m_n) = sqrt(m*) (cos(theta + 2 pi n/3) + cos alpha), exactly:")
+    print(f"     m* = {ms:.4f} MeV, theta - 2/9 = {base[0]:+.2e} +- {err[0]:.1e}, alpha - pi/4 = {base[1]:+.2e} +- {err[1]:.1e} rad (K - 2/3 = {base[2]:+.1e} +- {err[2]:.1e}),")
+    print(f"     each {abs(base[0]/err[0]):.1f} sigma, the error set by the tau mass.  (This theta equals the least-squares-in-sqrt-m phase, {th_ls:.10f}: the fit's")
+    print("     phase is the angle of the zero-sum part of the roots, whatever alpha.)  The two marginal errors are almost fully correlated (both set by")
+    print("     m_tau), so the 0.4 sigma marginals are no joint test: the joint test of the ideal point is the e/mu ratio below.")
+    q = lambda t, a: np.cos(t+2*PI*np.arange(3)/3)+np.cos(a)
+    # (a) Koide kept exact (alpha = pi/4): the phase from the precisely known e and mu
+    tk = brentq(lambda t: q(t, PI/4)[1]/q(t, PI/4)[2]-np.sqrt(PDG_ME/PDG_MMU), 0.15, 0.26, xtol=1e-16)
+    tk2 = brentq(lambda t: q(t, PI/4)[1]/q(t, PI/4)[2]-np.sqrt(PDG_ME/(PDG_MMU+sg[2])), 0.15, 0.26, xtol=1e-16)
+    msk = PDG_ME/q(tk, PI/4)[1]**2; mtk = msk*q(tk, PI/4)[0]**2
+    # (b) the phase kept exact (theta = 2/9): the half-angle from e and mu
+    ap = brentq(lambda a: q(2/9, a)[1]/q(2/9, a)[2]-np.sqrt(PDG_ME/PDG_MMU), 0.70, 0.86, xtol=1e-16)
+    msp = PDG_ME/q(2/9, ap)[1]**2; mtp = msp*q(2/9, ap)[0]**2; Kp = 1/3+1/(6*np.cos(ap)**2)
+    # (c) both exact: one scale; the electron-to-muon ratio is predicted
+    qi = q(2/9, PI/4); ri = qi[1]**2/qi[2]**2; rm = PDG_ME/PDG_MMU; srm = np.hypot(sg[1]/PDG_ME, sg[2]/PDG_MMU)
+    msi = PDG_MMU/qi[2]**2; mti = msi*qi[0]**2
+    print("   The ideal rendering (K = 2/3 and theta = 2/9 both exact) has one free scale, and it fails on the precisely known e/mu ratio:")
+    print(f"     predicted m_e/m_mu = {ri:.10f} against {rm:.10f} ({ri/rm-1:+.2e}, measured to {srm:.1e}: {abs(ri/rm-1)/srm:.0f} sigma); m_tau {mti:.3f} MeV is fine")
+    print(f"     ({(mti-PDG_MTAU)/0.09:+.2f} sigma).  The data therefore require a departure from the ideal, along a line in (theta, alpha):")
+    print(f"     - Koide kept exact: theta - 2/9 = {tk-2/9:+.4e} +- {abs(tk2-tk):.0e} ({abs(tk-2/9)/abs(tk2-tk):.0f} sigma), m* = {msk:.4f}, predicting m_tau = {mtk:.4f} MeV")
+    print(f"       ({(mtk-PDG_MTAU)/0.09:+.2f} sigma) -- a displacement along the Koide family (delta M parallel);")
+    print(f"     - the phase kept exact: alpha - pi/4 = {ap-PI/4:+.4e} (K - 2/3 = {Kp-2/3:+.2e}), predicting m_tau = {mtp:.4f} MeV ({(mtp-PDG_MTAU)/0.09:+.2f} sigma)")
+    print("       -- a departure off the family (delta M perpendicular).")
+    print(f"     The two predictions for m_tau differ by {1e3*(mtk-mtp):.1f} keV, beside its 90 keV uncertainty: the tau mass cannot yet tell them apart.")
+    print(f"   Direction (Entry 290): the measured m_e/m_mu exceeds the ideal by {rm/ri-1:.2e} -- the electron a little heavier against the muon -- which is")
+    print("     the direction toward the degenerate point: theta below 2/9 along the family, or a smaller alpha (K below 2/3) off it, both raise m_e/m_mu.")
+    print("     The sign agrees with the entry; one sign is one bit of evidence, and in another mass scheme it must be recomputed.")
+    # sensitivity, and what a time- or place-dependent fuzz would do
+    h = 1e-7; dl = lambda t: 2*np.log(q(t, PI/4)[1]); dlm = lambda t: 2*np.log(q(t, PI/4)[2])
+    s_e = (dl(th+h)-dl(th-h))/(2*h); s_r = s_e-(dlm(th+h)-dlm(th-h))/(2*h)
+    lim_q = 3.6e-7/abs(s_e); lim_c = 36e-18/abs(s_e)
+    print(f"   With m* held, d ln m_e/d theta = {s_e:.2f} and d ln(m_e/m_mu)/d theta = {s_r:.2f}: the fuzz sits in the electron's last digits.  If it fluctuated")
+    print(f"     in time or place by its own size, m_e/m_p would shift by ~{abs(s_e*(tk-2/9)):.0e}.  Methanol at z = 0.89 gives |Delta mu/mu| < 3.6e-7 (3 sigma) and")
+    print(f"     atomic clocks d ln mu/dt = (-8 +- 36)e-18 per year (mu = m_p/m_e), so with m* and m_p held theta varies by < {lim_q:.0e} over ~7.5 Gyr")
+    print(f"     ({100*lim_q/abs(tk-2/9):.0f}% of the offset) and by < ~{lim_c:.0e} per year now (1 sigma): consistent with a fixed realization; it excludes")
+    print("     noise of its own size along that sightline and in present-day clocks.")
+    ok = (abs(base[0]) < err[0] and abs(base[1]) < err[1] and abs(th-th_ls) < 1e-10 and abs(ri/rm-1+9.83e-6) < 0.02e-6
+          and abs(ri/rm-1)/srm > 400 and abs(tk-2/9+1.7512e-7) < 2e-11 and abs(mtk-1776.969) < 0.001 and abs(ap-PI/4+2.13e-7) < 0.01e-7
+          and abs(mtp-1776.9665) < 0.001 and abs(mti-PDG_MTAU) < 0.09 and abs(s_e+51.49) < 0.02)
+    ok = ok and rm > ri and tk < 2/9 and ap < PI/4
+    check(ok, "ideal rendering: exact (m*, theta, alpha) within 1 sigma of (2/9, pi/4); fully ideal fails m_e/m_mu at ~450 sigma; fuzz -1.75e-7 in theta or -2.1e-7 in alpha, toward degeneracy")
+    print("   [V] Pole masses; a running-mass scheme changes the comparison (Part XXIV.27).  [S] Entries 288-292: the exactness belongs to an ideal")
+    print("       rendering (Entry 292: an exact template, theta0 = 2/9, realized with finite rigidity), the departure to the actual one,")
+    print("       directed toward the degenerate regime.  [O] What fixes its size, direction and correlated pattern (a_n, A, B).")
+
+def v35_1_categorical_susceptibility(eps=1e-3):
+    print("\n== v35.1-7. categorical susceptibility, smallness against selection, and an acceptance condition for the fuzz (Entries 290-291; R227) ==")
+    theta, mstar = _v35_fit()
+    Qf = lambda t: np.sqrt(3)*mstar*np.sin(t)*(np.sqrt(2)-np.cos(t))     # the light pair's gap, cancellation-free, m* held
+    def light(t):
+        m = np.array([mstar*(np.cos(t+2*PI*k/3)+1/np.sqrt(2))**2 for k in range(3)]); return m[1], m[2]
+    ths = (theta, 0.1, 0.01, 1e-3, 1e-4, 0.0); rows = []
+    for t in ths:
+        Q = Qf(t); me_, mm_ = light(t)
+        rows.append((t, Q, 0.5*np.arctan2(2*eps, Q), (np.sqrt(Q*Q+4*eps*eps)-Q)/2, abs(abs(mm_-me_)-Q)))
+    print(f"   An off-diagonal rendering perturbation eps = {eps*1e3:g} keV between the two light sectors, [[m_l, eps], [eps, m_h]], rotates their basis by")
+    print("     phi = (1/2) atan(2 eps/Q), Q = sqrt3 m* sin theta (sqrt2 - cos theta) the light gap with m* held; susceptibility d phi/d eps = 1/Q at small eps:")
+    for t, Q, ph, sh, _ in rows:
+        print(f"       theta = {t:<10.6g} Q = {Q:<11.5g} MeV   phi = {ph:.3e} rad   1/Q = {(1/Q if Q > 0 else np.inf):.4g} per MeV   second-order mass shift {sh:.2e} MeV")
+    print("     The same perturbation that moves our electron's identity by ten micro-radians mixes the pair completely at degeneracy (phi = pi/4).")
+    print("     Spectral fuzz has two directions (along the Koide family, delta theta; off it, delta alpha); a basis rotation is a third, invisible in the")
+    print("     masses and physical only relative to other interactions (the weak basis), as in the charged-lepton share of the PMNS matrix.")
+    # Entry 291: relative smallness h = ln(m_next/m_min) grows monotonically to infinity at the massless boundary
+    hs = []
+    for t in (0.0, 0.1, 0.2, 2/9, 0.25, 0.26, 0.2617):
+        mm = np.sort([mstar*(np.cos(t+2*PI*k/3)+1/np.sqrt(2))**2 for k in range(3)]); hs.append(np.log(mm[1]/mm[0]))
+    print("   Entry 291's input, the electron's relative smallness h = ln(m_next/m_min), along the family at theta = 0, 0.1, 0.2, 2/9, 0.25, 0.26, 0.2617:")
+    print("     " + ", ".join(f"{x:.3f}" for x in hs) + ".  It rises monotonically to infinity at the massless boundary pi/12, so a selection")
+    print("     rewarding smallness alone would choose a massless electron, not 2/9: the principle must reward something else as well.")
+    # an acceptance condition: the actual mass operator as a mixture of the ideal category and the degenerate one, M = (1 - eps) M(2/9) + eps M(0)
+    from scipy.optimize import brentq
+    qk = lambda t: (np.cos(t+2*PI*np.arange(3)/3)+1/np.sqrt(2))**2
+    mix = lambda e: (1-e)*qk(2/9)+e*qk(0.0)
+    eps_c = brentq(lambda e: mix(e)[1]/mix(e)[2]-PDG_ME/PDG_MMU, 0.0, 1e-5, xtol=1e-22)
+    mm = mix(eps_c)*PDG_MMU/mix(eps_c)[2]; Kc = mm.sum()/np.sqrt(mm).sum()**2
+    tk = brentq(lambda t: qk(t)[1]/qk(t)[2]-PDG_ME/PDG_MMU, 0.15, 0.26, xtol=1e-16); eps_p = (2/9-tk)/(2/9)
+    print(f"   An acceptance condition, not evidence: if the actual mass operator mixes the ideal category with the degenerate one, M = (1 - eps) M(2/9)")
+    print(f"     + eps M(0), the e/mu ratio needs eps = {eps_c:.3e} -- a selection advantage ln((1 - eps)/eps) = {np.log((1-eps_c)/eps_c):.2f} nats over that one competitor --")
+    print(f"     and then gives m_tau = {mm[0]:.4f} MeV ({(mm[0]-PDG_MTAU)/0.09:+.2f} sigma) and K - 2/3 = {Kc-2/3:+.2e}.  Averaging the phase instead gives eps = {eps_p:.2e}")
+    print(f"     ({np.log((1-eps_p)/eps_p):.2f} nats).  Either way the residual weight is ~1e-7 to 1e-6, an advantage of about 14-15.5 nats.")
+    ok2 = (all(np.diff(hs) > 0) and abs(hs[0]) < 1e-12 and abs(eps_c-1.875e-7) < 0.001e-7 and abs(np.log((1-eps_c)/eps_c)-15.49) < 0.01
+           and abs(mm[0]-1776.9678) < 0.0005 and abs(eps_p-7.88e-7) < 0.01e-7)
+    ok = (abs(rows[0][1]-105.1466) < 1e-3 and abs(rows[0][2]-9.5105e-6) < 1e-9 and abs(rows[-1][2]-PI/4) < 1e-15 and rows[-1][1] == 0.0
+          and all(r[4] < 1e-9 for r in rows) and all(rows[i][2] < rows[i+1][2] for i in range(len(rows)-1)) and abs(rows[2][1]-4.50383) < 1e-4)
+    check(ok and ok2, "susceptibility phi grows from 9.5e-6 to pi/4 toward degeneracy; smallness h is monotone (no optimum at 2/9); mixture weight 1.9e-7 (15.5 nats)")
+    print("   [V] A mass-matrix analogue of Entry 288's 'fuzz becomes the norm' near equal masses.  [S] Its physical meaning needs the full rendered")
+    print("       interaction structure; the mixture is a toy whose weight is solved backward from the data.  [O] The selection principle: why smallness")
+    print("       selects privilege at a finite electron mass, and its stiffness (if the departure is a typical Gaussian one, of order 1/delta^2 ~ 1e13).")
+
+def v35_1_structured_corrections():
+    print("\n== v35.1-8. Entry 293: the exact template with a correction on the masses -- six shapes, one tau mass each (R228) ==")
+    from scipy.optimize import brentq
+    q = lambda t, a=PI/4: (np.cos(t+2*PI*np.arange(3)/3)+np.cos(a))**2           # unit-m* template; order tau, e, mu
+    q0, qd = q(2/9), q(0.0); rm = PDG_ME/PDG_MMU
+    shapes = [("along the family (theta shifted)", (q(2/9+1e-7)-q(2/9-1e-7))/2e-7),
+              ("half-angle (one shift of every sqrt m)", (q(2/9, PI/4+1e-7)-q(2/9, PI/4-1e-7))/2e-7),
+              ("mixture with the degenerate M(0)", qd-q0),
+              ("the two other codes, equal weights", q0.sum()-3*q0),
+              ("on the electron alone", np.array([0.0, 1.0, 0.0])),
+              ("logarithmic (QED-like) m ln m", q0*np.log(q0))]
+    rows = []
+    for name, a in shapes:
+        g = lambda e: (q0[1]+e*a[1])/(q0[2]+e*a[2])-rm
+        e0 = -g(0.0)/((a[1]*q0[2]-a[2]*q0[1])/q0[2]**2)                      # first-order estimate, then the exact root
+        e = brentq(g, min(0.5*e0, 1.5*e0), max(0.5*e0, 1.5*e0), xtol=1e-30)
+        ms = PDG_MMU/(q0[2]+e*a[2]); m = ms*(q0+e*a); d = ms*e*a*1e6           # eV
+        _, th, al, K = _v35_exact_three(*m)
+        rows.append((name, e, ms, d, m[0], K-2/3, th-2/9))
+    print("   Template exact (theta0 = 2/9, K0 = 2/3); m_n = m* q_n(2/9) + eps a_n, with m* and eps fixed by m_e and m_mu exactly.  Corrections in eV:")
+    print("     shape                                     eps          d m_e     d m_mu      d m_tau    m_tau (MeV)        K - 2/3     theta_fit - 2/9")
+    for name, e, ms, d, mt, dK, dth in rows:
+        print(f"     {name:41s} {e:+.4e}  {d[1]:+7.3f}  {d[2]:+9.3f}  {d[0]:+11.3f}  {mt:.5f} ({(mt-PDG_MTAU)/0.09:+.2f}s)  {dK:+.2e}  {dth:+.2e}")
+    mts = [r[4] for r in rows]
+    print(f"   The electron is about 5 eV heavier than the template allows in every shape ({min(r[3][1] for r in rows):.1f}-{max(r[3][1] for r in rows):.1f} eV, 1e-5 of m_e): the")
+    print("     e/mu ratio fixes that.  The muon's and tau's corrections differ by mechanism, but with m* fitted per shape only the predicted m_tau is")
+    print("     observable.  Three masses fix the three parameters of Part XXIV.26's family, so with m_e and m_mu known, K and the fitted phase are")
+    print("     functions of m_tau alone:")
+    h = 1e-4; p1 = _v35_exact_three(PDG_MTAU+h, PDG_ME, PDG_MMU); p0 = _v35_exact_three(PDG_MTAU-h, PDG_ME, PDG_MMU)
+    dKdm, dtdm = (p1[3]-p0[3])/(2*h), (p1[1]-p0[1])/(2*h)
+    print(f"     dK/dm_tau = {dKdm:+.3e}, d theta_fit/dm_tau = {dtdm:+.3e} per MeV.  The correlated deviations (A, B) of a mechanism reduce to its m_tau.")
+    span = max(mts[1:])-min(mts[1:]); span2 = max(mts[1:5])-min(mts[1:5])
+    print(f"     The five shapes that keep theta0 = 2/9 (Entry 293) predict m_tau within {1e3*span:.1f} keV, {1e3*span2:.1f} keV without the logarithm, against PDG's 90 keV.")
+    # the mixture and the code average are traceless (tr M(theta) = 3 m* for every theta): m* is the mean mass and the equal-footing value
+    _, S, Mi = _v35_carrier(2/9, rows[2][2]); Md = _v35_carrier(0.0, rows[2][2])[2]; e_mix = rows[2][1]
+    Meff0 = (1-e_mix)*Mi+e_mix*Md
+    Meff1 = (1-e_mix)*_v35_carrier(2/9-2*PI/3, rows[2][2])[2]+e_mix*_v35_carrier(-2*PI/3, rows[2][2])[2]
+    cov = np.max(np.abs(S @ Meff0 @ np.linalg.inv(S)-Meff1)); lt = np.argmin(np.real(np.diag(Meff1)))
+    avg = sum(np.linalg.matrix_power(S, j) @ Mi @ np.linalg.matrix_power(S, -j) for j in range(3))/3
+    print(f"   Covariance under the cycle (Entry 293's condition): S M_eff(c0) S^-1 = M_eff(T c0) to {cov:.0e} for the mixture, and the lightest state of the")
+    print(f"     cycled rendering is S|+> (index {lt}): each rendition lands its own privileged electron.  tr M(theta) = 3 m* for every theta, so the mixture")
+    print(f"     and the code average are traceless corrections, and the equal-weight average of the three renditions is m* I (to {np.max(np.abs(avg-rows[2][2]*np.eye(3))):.0e}):")
+    print("     losing privilege entirely renders all three leptons at the mean mass m* = (m_e + m_mu + m_tau)/3.  The code average (row 4) is a rescaling")
+    print(f"     of the template plus one shift, 3 x m* = {3*rows[3][1]*rows[3][2]*1e6:.2f} eV, on every mass.  On the carrier S^3 = I, so three cycles return the same carrier state, not only")
+    print("     the same role (the same HC excitation is a theorem target); on trigonal frames S is defined up to a cube root of unity c, and")
+    print("     (c S)^3 = S^3 = I: the triple cycle is unambiguous there too.  Covariance is checked for these two shapes only.")
+    # QED: the one-loop pole/MS-bar relation m_pole = mbar(mu)[1 + (alpha/pi)(1 + (3/4) ln(mu^2/m^2))] at a common scale
+    a_em = 1/137.035999; mp = np.array([PDG_MTAU, PDG_ME, PDG_MMU])
+    mb = mp/(1+(a_em/PI)*(1+0.75*np.log(PDG_MTAU**2/mp**2))); Kb = mb.sum()/np.sqrt(mb).sum()**2
+    need = np.log(rm/(q0[1]/q0[2])); qed = 3*a_em/(2*PI)*np.log(PDG_MMU/PDG_ME)
+    print(f"   Scale of a radiative reading: the one-loop QED difference between pole masses and running masses at a common scale moves m_e/m_mu by")
+    print(f"     (3 alpha/2 pi) ln(m_mu/m_e) = {qed:.4f} and K by {Kb-2/3:+.2e} (running masses at mu = m_tau); the fuzz is {need:.3e}, 1/{qed/need:.0f} of it.  The log shape")
+    print(f"     needs eps = {rows[5][1]:+.3e}, against QED's own coefficient -3 alpha/2 pi = {-3*a_em/(2*PI):.3e} (same sign).  So the template, if exact, is exact for pole")
+    print("     masses to 1/1900 of the QED log, as Koide's relation is (Sumino 2009); a radiative origin of the fuzz needs that cancellation explained.")
+    ok = (abs(rows[2][1]-1.8751e-7) < 2e-11 and abs(rows[2][2]-627.71238) < 1e-5 and abs(rows[2][3][1]-4.953) < 0.002 and abs(rows[2][3][2]+14.763) < 0.002
+          and abs(rows[2][3][0]-9.811) < 0.002 and abs(rows[2][4]-1776.96776) < 1e-5 and abs(rows[2][5]+7.18e-8) < 0.01e-8
+          and abs(rows[0][4]-1776.96903) < 1e-5 and abs(rows[0][5]) < 1e-11 and abs(rows[1][4]-1776.96651) < 1e-5 and abs(rows[1][6]) < 1e-11
+          and abs(rows[3][4]-1776.96742) < 1e-5 and abs(rows[4][4]-1776.96750) < 1e-5 and abs(rows[4][3][1]-5.024) < 0.002 and abs(rows[5][4]-1776.95825) < 1e-5
+          and all(4.5 < r[3][1] < 7.0 for r in rows) and abs(rows[2][3].sum()) < 1e-3 and abs(rows[3][3].sum()) < 1e-3
+          and cov < 1e-9 and lt == 2 and abs(qed/need-1889.4) < 0.5 and abs(Kb-2/3-1.136e-3) < 0.005e-3)
+    check(ok, "Entry 293: six correction shapes fixed by e/mu; m_e +5 eV in all; m_tau 1776.958-1776.969; covariant under S; tr fixed; QED log 1889x the fuzz")
+    print("   [V] Each shape, normalized by the e/mu ratio, predicts m_tau, and with it K and the fitted phase.  [S] Entry 293: the deviations are fluctuations")
+    print("       on the masses; the template insists on both 2/3 and 2/9.  [O] Which shape, and why: a self-energy of the HC rendering evaluated at the three")
+    print("       template masses would make the corrections one function's values; a keV-level tau mass would discriminate.")
+
+def v35_1_selection_transition():
+    print("\n== v35.1-9. a selection toy on the real phase line: privilege that dries up suddenly (Entries 291 and 293; R229) ==")
+    from scipy.optimize import brentq, minimize_scalar
+    q = lambda t: (np.cos(t+2*PI*np.arange(3)/3)+1/np.sqrt(2))**2
+    def hier(t):
+        mm = np.sort(q(t)); return np.log(mm[1]/mm[0])
+    q0 = q(2/9); h29 = hier(2/9)
+    # mean-field three-state Potts selection of the code: fractions x_c of relational units rendering with code c; x_e = (1 + 2 s)/3,
+    # x_other = (1 - s)/3; self-consistency (1 + 2 s)/(1 - s) = exp(beta J s); coherence beta J = lambda h(theta), smallness feeding privilege
+    # (Entry 291); the rendered mass operator is the code average, m_n = s m_n0 + (1 - s) m*.
+    x = brentq(lambda x: ((1-3*x)*q0[1]+3*x)/((1-3*x)*q0[2]+3*x)-PDG_ME/PDG_MMU, 1e-12, 1e-6, xtol=1e-25); s29 = 1-3*x
+    bJ29 = np.log((1+2*s29)/(1-s29))/s29; lam = bJ29/h29
+    sp = minimize_scalar(lambda s: np.log((1+2*s)/(1-s))/s, bounds=(1e-6, 0.99), method='bounded', options={'xatol': 1e-14})
+    bt = 4*np.log(2)
+    tof = lambda hv: brentq(lambda t: hier(t)-hv, 1e-9, PI/12-1e-9, xtol=1e-15)
+    th_sp, th_t, th_d = tof(sp.fun/lam), tof(bt/lam), tof(3.0/lam)
+    def s_of(bJ):
+        if bJ < sp.fun: return 0.0
+        return brentq(lambda s: np.log((1+2*s)/(1-s))-bJ*s, sp.x, 1-1e-15, xtol=1e-17) if bJ < 30 else 1-3*np.exp(-bJ)
+    print("   Units of the HC ensemble each render with one of the three codes; their fractions follow the mean-field three-state Potts model, the")
+    print("   coherence beta J = lambda h(theta) set by the electron's relative smallness h = ln(m_next/m_min) (Entry 291), and the rendered masses are")
+    print("   the code average, m_n = s m_n0 + (1 - s) m*, with s the privilege order parameter (s = 1 rigid, s = 0 equal footing).")
+    print(f"   Calibration (one parameter): the e/mu ratio needs 1 - s = {1-s29:.3e} at theta = 2/9 (each other code {x:.3e}), so beta J = {bJ29:.3f} and")
+    print(f"     lambda = {lam:.4f}; the other-code weight is then (m_min/m_next)^lambda.  At theta = 2/9 the toy gives the uniform-shift row of v35.1-8.")
+    print("   Along the real phase line, with m* held (masses in MeV):")
+    for t in (2/9, 0.15, 0.1, 0.06, 0.05, 0.045, 0.04, 0.0):
+        bJ = lam*hier(t); s = s_of(bJ); qq = q(t); m_ = 627.71226*(s*qq+(1-s))
+        print(f"     theta = {t:<8.4f} h = {hier(t):6.3f}  beta J = {bJ:7.3f}  1 - s = {1-s:.3e}   m_e {m_[1]:9.4f}   m_mu {m_[2]:9.4f}   m_tau {m_[0]:9.3f}")
+    print(f"   The Potts free energy, f(s) = (T - J/3) s^2 - (T/3) s^3 + (T/2) s^4 + ..., has a cubic term: three codes allow it, so in mean field the loss is first order.")
+    print(f"     At beta J = 4 ln 2 = {bt:.4f} the privileged phase (s = 1/2) and the equal-footing phase (s = 0) exchange stability: theta_t = {th_t:.5f},")
+    print(f"     where m_next/m_min = {np.exp(bt/lam):.3f}.  The privileged phase survives, metastable, down to theta = {th_sp:.5f} (beta J = {sp.fun:.4f}), and equal footing")
+    print(f"     is unstable above theta = {th_d:.5f} (beta J = 3).  Below theta_t the stable phase renders all three leptons at m*; for")
+    print("     theta < -theta_t the mirror code (|->) is privileged instead.  The analysis's quartic Landau toy (no cubic term) loses privilege")
+    print(f"     continuously; at its illustrative threshold m_next/m_min = 10 it sits at theta = {tof(np.log(10)):.3f}.")
+    ok = (abs(lam-3.7019) < 1e-4 and abs(bJ29-19.737) < 1e-3 and abs(sp.fun-2.745644) < 1e-6 and abs(s_of(bt+1e-12)-0.5) < 1e-6
+          and abs(th_t-0.04438) < 1e-5 and abs(th_sp-0.04396) < 1e-5 and abs(th_d-0.04795) < 1e-5 and th_sp < th_t < th_d
+          and abs(np.exp(bt/lam)-2.115) < 1e-3 and s_of(lam*hier(0.04)) == 0.0
+          and abs(tof(np.log(10))-0.12699) < 1e-5 and abs((q0[1]/q0[2])**lam-x) < 1e-15)
+    check(ok, "selection toy: lambda 3.70 from the fuzz; first-order loss of privilege at theta_t = 0.0444 (m_next/m_min = 2.11), hysteresis 0.04396-0.04795")
+    print("   [V] Within the toy.  [S] Its premises: a Potts ensemble of codes, coherence proportional to h, the code-averaged mass operator.  [O] A")
+    print("       selection functional that derives them; whether losing privilege changes the interactions, not only the masses.")
+
+def v35_1_normalization_and_nucleon_scale():
+    print("\n== v35.1-10. the normalization m* of the exact template, and the lepton and nucleon mass sums (two further analyses; R230) ==")
+    from scipy.optimize import minimize_scalar
+    MP, MN = 938.27208943, 939.56542194                                     # CODATA 2022 (PDG 2025 constants table), MeV
+    f = (np.cos(2/9+2*PI*np.arange(3)/3)+1/np.sqrt(2))**2; m = np.array([PDG_MTAU, PDG_ME, PDG_MMU])   # tau, e, mu
+    d = lambda ms: m-ms*f
+    crit = [("least total |correction| (tau exact)", PDG_MTAU/f[0]), ("least squares of corrections", (m @ f)/(f @ f)),
+            ("least total |fractional| (mu exact)", PDG_MMU/f[2]), ("least squares of fractional", np.sum(f/m)/np.sum(f*f/m**2)),
+            ("least worst fractional", 2/(np.max(f/m)+np.min(f/m))),            # equalizes the extreme fractional corrections
+            ("zero total correction (the mean mass)", m.sum()/3)]
+    inv = (PDG_ME-f[1]/f[2]*PDG_MMU)*1e6
+    print("   Template exact (theta0 = 2/9, K0 = 2/3), observed masses = m* f_n + delta_n, m* chosen by a criterion (central masses, no weights):")
+    for name, ms in crit:
+        dd = d(ms)
+        print(f"     {name:39s} m* = {ms:.6f} MeV   delta_e {dd[1]*1e6:+8.3f} eV   delta_mu {dd[2]*1e3:+7.3f} keV   delta_tau {dd[0]*1e3:+8.3f} keV")
+    print(f"   Every row shares delta_e - (f_e/f_mu) delta_mu = m_e - (f_e/f_mu) m_mu = {inv:.3f} eV: the electron's 5 eV is the one normalization-free")
+    print("     correction (the 'electron alone' row of v35.1-8).  The rest moves with m*, and m* is fixed only to the tau mass's precision: in the")
+    print(f"     zero-sum normalization sigma(m*) = 0.09/3 MeV, i.e. {f[2]*30:.2f} keV on delta_mu and {f[1]*3e4:.1f} eV on delta_e.  f_tau = {f[0]:.4f} > f_e + f_mu, so")
+    print("     the least total |correction| matches the tau; every correction is then non-negative (an all-positive self-energy reading).  The")
+    print(f"     degeneracy-directed signs (delta_e > 0, delta_mu < 0) need {PDG_MMU/f[2]:.6f} < m* < {PDG_ME/f[1]:.6f} MeV, a template tau of {PDG_MMU/f[2]*f[0]:.4f}-")
+    print(f"     {PDG_ME/f[1]*f[0]:.4f} MeV; the mixture with M(0) (m* = 627.71238) lies inside.  sum f_n = {f.sum():.12f}: zero total correction is m* = mean mass.")
+    S, N = m.sum(), MP+MN
+    print(f"   Lepton and nucleon sums: m_e + m_mu + m_tau = {S:.5f} MeV, m_p + m_n = {N:.5f} MeV, ratio {S/N:.8f}, difference {S-N:.4f} +- 0.09 MeV")
+    print(f"     ({(S-N)/0.09:.0f} sigma from equality).  So (m_p + m_n)/3 = {N/3:.7f} MeV sits {S/3-N/3:.7f} MeV ({100*(S/N-1):.4f}%) below the mean lepton mass;")
+    print(f"     anchoring m* there needs a common uplift eta = {(S-N)/3:.7f} MeV, after which the residuals are the zero-sum row above.")
+    H = {'pi+': 139.57039, 'pi0': 134.9768, 'K+': 493.677, 'K0': 497.611, 'eta': 547.862, 'omega': 782.66, "eta'": 957.78, 'phi': 1019.461,
+         'p': MP, 'n': MN, 'Lambda': 1115.683, 'Sigma+': 1189.37, 'Sigma0': 1192.642, 'Sigma-': 1197.449, 'Xi0': 1314.86, 'Xi-': 1321.71,
+         'Omega-': 1672.45, 'D0': 1864.84, 'D+': 1869.66, 'Ds+': 1968.35}                    # PDG 2025 masses (MeV)
+    nm = list(H); cand = []
+    for i, a in enumerate(nm):
+        cand.append((a, H[a]))
+        for b in nm[i:]: cand.append((a+' + '+b, H[a]+H[b]))
+    dev = sorted(((k, v/S-1) for k, v in cand), key=lambda x: abs(x[1])); thr = abs(N/S-1)
+    hits = [k for k, x in dev if abs(x) <= thr+1e-12]; w5 = sum(1 for _, x in dev if abs(x) <= 0.05)
+    print(f"   Look-elsewhere: of the {len(cand)} single masses and pair sums of 20 hadrons (the narrow light mesons pi, K, eta, omega, eta', phi; the octet")
+    print("     baryons and the Omega-; D0, D+, Ds+),", end="")
+    print(f" {len(hits)} lie as close to the lepton sum as p + n does ({', '.join(hits)}; 2 m_n is closer, {100*dev[0][1]:+.3f}%), and {w5} lie within 5%,")
+    print(f"     so about {w5*thr/0.05:.1f} are expected by density alone.  The nearest others: " + ", ".join(f"{k} {100*x:+.2f}%" for k, x in dev[2:5]) + ".")
+    ok = (abs(crit[0][1]-627.699043) < 1e-6 and abs(crit[1][1]-627.699090) < 1e-6 and abs(crit[2][1]-627.712289) < 1e-6 and abs(crit[3][1]-627.709931) < 1e-6
+          and abs(crit[4][1]-627.708752) < 1e-6 and abs(crit[5][1]-627.699791) < 1e-6 and abs(inv-5.024) < 0.001 and abs(f.sum()-3) < 1e-12
+          and all(abs((d(ms)[1]-f[1]/f[2]*d(ms)[2])*1e6-inv) < 1e-6 for _, ms in crit) and all(x >= -1e-12 for x in d(crit[0][1]))
+          and abs(S-N-5.261863) < 1e-6 and abs(S/N-1.00280209) < 1e-8 and abs(N/3-625.9458371) < 1e-7 and hits == ['n + n', 'p + n'] and w5 == 24)
+    check(ok, "normalization: six criteria pick m* 627.6990-627.7123, sharing the 5.024 eV e-mu invariant; lepton sum = 1.0028 (p + n), 58 sigma; 2 of 230 sums as close")
+    print("   [V] The criteria are normalizations, not physics: only the e-mu invariant is fixed by the data.  [O] A derivation of m*; any nucleon link")
+    print("       is a cross-sector conjecture (QCD masses against Yukawa masses) at the level chance gives among simple hadron sums.")
+
+def v35_1_suite():
+    v35_1_far_hemisphere_postfreeze(); v35_1_arena_constants_and_fourier(); v35_1_corrections_to_part_xxx(); v35_1_statistics(); v35_1_global_typing()
+    v35_1_ideal_rendering_and_fuzz(); v35_1_categorical_susceptibility(); v35_1_structured_corrections(); v35_1_selection_transition()
+    v35_1_normalization_and_nucleon_scale()
 
 def v35_0_suite():
     v35_conveyor_on_native_carrier(); v35_phase_family_and_gate(); v35_dephasing_vs_decay(); v35_lifetimes_from_masses(); v35_generation_transport()
 
 def current_suite_v35():
-    """The current regression suite of Part XXX, followed by the check summary."""
-    v35_0_suite()
+    """The current regression suite of Part XXX (v35.0 and v35.1, with the post-freeze controls), followed by the check summary."""
+    v35_0_suite(); v35_1_suite()
     npass = sum(1 for ok, _ in _CHECKS if ok); nfail = len(_CHECKS)-npass
     print(f"\n== check summary (Part XXX): {npass} passed, {nfail} failed ==")
     for ok, msg in _CHECKS:
@@ -10440,7 +11175,7 @@ def current_suite_v35():
 if __name__ == "__main__":
     import sys
     arg = sys.argv[1] if len(sys.argv) > 1 else "current"
-    suites = {"current": current_suite_v35, "v35_0": v35_0_suite}
+    suites = {"current": current_suite_v35, "v35_0": v35_0_suite, "v35_1": v35_1_suite}
     suites[arg]()
     if arg != "current":
         npass = sum(1 for ok, _ in _CHECKS if ok); print(f"\n== check summary ({arg}): {npass} passed, {len(_CHECKS)-npass} failed ==")
@@ -10452,8 +11187,27 @@ if __name__ == "__main__":
 
 ## Round record: the version summaries, v16 to v35.0 (moved from the head of the archive in v34.9, R190)
 
-*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
 
+> **v35.1 — a correction and one construction (three referee reports; Entries 288–293; 13 October 2026).**
+>
+> *What was asked.*
+> - The assessment of the v34.10 freeze supported it and asked for five post-freeze clarifications: the equatorial orbits, the finite-core far side, the arena-law readings and constants, the Fourier-norm wording, and the conventions and status of fits, checks and darkness.
+> - The first review of v35.0 asked that "our own world again" be stated at the spectrum level, the spacetime exclusion be narrowed, both the global and the relative conveyor be kept, and the selection law be the next object.
+> - The second review asked for corrected statistics on exact $2/9$, a globally typed conveyor or a scoped no-go, the mass commutant in place of $[T,H] = 0$, and a compact claim table.
+> - The author proposed (Entries 288–292) that $K = 2/3$ and $\theta = 2/9$ are exact in an ideal rendering, drawn perhaps from a countable set, and that our world realizes it with finite rigidity, the residual "categorical fuzz" pointing away from perfect electron privilege, toward the degenerate regime. Entry 293 placed the fuzz on the masses rather than the angle, asked that each cycled rendition still land a privileged electron, and asked for a selection toy on the real phase line whose privilege dries up suddenly. Two further analyses chose the template's scale $m_*$ by six criteria, and compared the lepton mass sum with $m_p+m_n$.
+>
+> **What v35.1 does (R212–R231; §§XXX.11–13).**
+> - It records the post-freeze clarifications with an independent solution of the far hemisphere (§XXX.12).
+> - It corrects Part XXX in place: the mass commutant, the spectrum-level covariance, the fixed-code map as a relation rather than a conversion, $T_{\rm global}$ and $T_{\rm relative}$, the logarithm branch, and the spacetime exclusion restricted to what is proved.
+> - Exact $2/9$ fails in the two-parameter pole-mass family ($\chi^2 = 203{,}974$) and passes with a half-angle shift of $-2.1\times10^{-7}$ ($\chi^2 = 0.165$).
+> - The conveyor cannot be global over the axis family (Chern numbers $0$, $\pm2$); the framed shift descends exactly to trigonal frames, an extra datum HC space would have to supply.
+> - Entries 288–292 become measurable statements: the ideal rendering misses $m_e/m_\mu$ by $452\sigma$, toward degeneracy as Entry 290 says; smallness alone would choose a massless electron; a mixture needs weight $1.9\times10^{-7}$; the fuzz is consistent with a fixed realization.
+> - For Entry 293: every correction shape puts about $5$ eV on the electron; each predicts $m_\tau$ (from $1776.958$ to $1776.969$ MeV), which fixes its $K$ and fitted phase; the two corrections checked are covariant under the cycle; a QED-like logarithm would be $1889$ times too large. A Potts toy of code selection, calibrated by the fuzz, loses privilege by a first-order jump at $\theta_t = 0.0444$, where the two lightest masses differ by a factor $2.1$, and renders equal footing at $m_*$ below.
+> - The choice of $m_*$ is a normalization: six criteria give $627.6990$–$627.7123$ MeV, and only the electron's $5.024$ eV is normalization-free. The lepton mass sum exceeds $m_p+m_n$ by $0.28\%$ ($58\sigma$ from equality), about as close as chance gives among simple hadron sums; the nucleon link is kept as a conjecture.
+>
+> **Next.** The one question of §XXX.8: the smallest HC model that turns one global threefold orbit into three coexisting, inequivalent mass sectors, with its selection functional, the trigonal datum or another descent, and the correction shape — equivalently the $\tau$ mass — predicted.
+>
 > **v35.0 — the opening of v35: hyper-canonical space and the charged-lepton cycle (Entries 281–285, with six analyses; 13 October 2026).**
 >
 > *What was asked.*
