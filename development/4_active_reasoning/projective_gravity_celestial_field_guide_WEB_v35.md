@@ -1,8 +1,8 @@
-# Projective Gravity — Version 35.1 (draft): the hyper-canonical completion and the charged-lepton cycle
+# Projective Gravity — Version 35.2 (draft): the hyper-canonical completion, the charged-lepton cycle and the visible rendering
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases — with branches on charge and extremality, and on rendering and canonical optics
 
-**Claim status of Part XXX (v35.1).** This table governs the open work. Parts 0–XXIX are frozen — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10 — and their claim status is the frozen table that follows this one, unchanged except for marked post-freeze notes. Post-freeze notes correct them without rewriting them: two erratum notes in §§XXI.4–4a (R211), and clarification notes in §§XXIX.40(e), XXIX.41(d), XXIX.42(g) and XXIX.43(b) (R212–R216, §XXX.12). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*. Rows changed in v35.1 carry their register number.
+**Claim status of Parts XXX–XXXI (v35.2).** This table governs the open work: Part XXX (the hyper-canonical completion and the charged-lepton cycle) and Part XXXI (the visible rendering of the leaf). Parts 0–XXIX are frozen — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10 — and their claim status is the frozen table that follows this one, unchanged except for marked post-freeze notes. Post-freeze notes correct them without rewriting them: two erratum notes in §§XXI.4–4a (R211), clarification notes in §§XXIX.40(e), XXIX.41(d), XXIX.42(g) and XXIX.43(b) (R212–R216, §XXX.12), and two pointer notes in §§XXIX.18 and XXIX.42(f) (R238, Part XXXI). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*. Rows changed in v35.1 or added in v35.2 carry their register number.
 
 | claim | type | evidence | archive |
 |:--|:--|:--|:--|
@@ -28,6 +28,18 @@
 | A selection toy (mean-field Potts ensemble of codes, coherence $\propto h$, one parameter from the fuzz): privilege lost by a first-order jump at $\theta_t = 0.0444$ ($m_{\rm next}/m_{\rm min} = 2.11$), equal footing at $m_*$ below (R229) | numerical control within a toy; specified physical premise | $\lambda = 3.70$; hysteresis $0.0440$–$0.0480$ | §XXX.11(l) |
 | The scale $m_*$ of the exact template under six criteria ($627.6990$–$627.7123$ MeV): only $\delta_e-(f_e/f_\mu)\delta_\mu = 5.024$ eV is normalization-free; the lepton mass sum is $1.0028$ times $m_p+m_n$ ($58\sigma$ from equality), as close as chance gives among simple hadron sums (R230) | numerical control; open bridge (the nucleon link, a conjecture) | 2 of 230 hadron sums as close; about 1.3 expected | §XXX.11(m) |
 | The selection functional, its rigidity and the privileging constraint; the correction shape, equivalently $m_\tau$; the conveyor in $\mathscr H_{\rm C}$; masses from the mismatch and the source of $m_*$; the conjunction test; the mismatch-dependent toys and $V_{\rm weak}$; black-hole entropy and Kerr $a$ (R223) | open bridge | — | §§XXX.8, XXX.11(n) |
+| **The visible rendering (Part XXXI; Entries 297–300)** | | | |
+| The weak-field leaf ($-N^2dt^2+\phi^4g_{S^3}$) is flattened exactly by the metric alone, for any source: $h_{\rm vis} = \sec^4(\chi_O/2)\phi^{-4}h_B$, unique up to Möbius; matter enters at $4\mu\Delta(\psi/\mu) = 1.05\times10^{-6}$ for the benchmark (R233) | analytic theorem; numerical control | — | §XXXI.3(a)–(c) |
+| On the round leaf the stereographic radius is the harmonic mean of the angular-diameter and parallax distances; the two metric-only readings coincide iff the leaf is a space form, and split by up to $6.6\times10^{-6}$ with the benchmark's matter (R233) | analytic theorem; numerical control | to $5\times10^{-15}$ | §XXXI.3(d) |
+| Light cannot move in the image: rays straight in it need a lapse $\cos^2(\chi/2)$ (excluded: a $22{,}651$ km/s Galactic Centre redshift) or an index $\sec^2(\chi/2)$ (excluded as a medium: vacuum Cherenkov beyond $11.6$ pc for GeV electrons, the centre within $1.6$ AU of the observer; and a $22{,}400$-year light–GW delay if light-only); the rendering survives as an observer-relative readout of base rays, which leaves §XXIX.18's refocusing in place (R234) | analytic theorem; numerical control with measured bounds; readout a [D] reading | Klinkhamer & Schreck 2008; Abbott et al. 2017 | §XXXI.4(a)–(d) |
+| The base optics at the Galactic Centre: parallax distance $\sec\chi = 1.1635$ times the S2 angular-diameter distance at $\ell = 16$ kpc ($9.51$ kpc); Sgr B2's parallax $7.9^{+0.8}_{-0.7}$ kpc is $+2.0\sigma$ from it ($\ell_{\rm MW}\geq16.1$ kpc at $2\sigma$); the kinematic maser $R_0$, read optimistically as a parallax distance, would need $\ell_{\rm MW}\geq32.3$ kpc (R234) | numerical control with measured inputs (indicative) | GRAVITY 2019; Reid et al. 2009, 2019 | §XXXI.4(e) |
+| A flat rendering has one history between two points; a compact one has infinitely many (Serre); the base rays refocus at $\pi\ell$ whatever the rendering (R234) | analytic theorem | standard | §XXXI.4(f) |
+| A flat rendering of $S^3$ needs a point at infinity (of $\mathbb{RP}^3$, a cut or its cover); isotropy picks it as the matter pole or the twin (Entry 298's conventions); local calibration selects the observer-centred chart uniquely (R235) | analytic theorem; numerical control | $\lvert\nabla\ln\Omega\rvert = \tan(\chi_O/2)/\ell$ | §XXXI.5(a)–(b) |
+| Removing the infinity costs flatness (compact and curved: several histories, Serre); the family $(a+b\cos\chi_O)^{-2}$ gives constant sectional curvature $(a^2-b^2)/\ell^2$: round (radius $\ell/\sqrt{a^2-b^2}$), flat, or hyperbolic to a conformal boundary; the analyses' $\varepsilon$-family is a round $S^3$ of radius $2\ell/\sqrt{2\varepsilon+\varepsilon^2}$ (R235) | analytic theorem; numerical control | curvature constant to $10^{-9}$ | §XXXI.5(c) |
+| The image looks Einsteinian locally (metric to $(L/\ell)^2$) but not on galactic scales: as a 4D conformal image its extra tide is $4.7\times10^{-12}$ of the Sun's at 1 AU and $2.2\times10^5$ times the in-plane Galactic one; as a spatial image its geodesics differ by $v^2\lvert\nabla\ln\Omega\rvert\approx2.7\times10^{-11}$ m/s$^2$ ($0.13\,v^2/R$) at the Sun in the matter-centred chart; matter moves on the base; $G$ unchanged, $G_{\rm inferred} = G\lambda^3/(\tau^2\mu)$ (R236) | analytic theorem; numerical control | — | §XXXI.6 |
+| The Hopf-fibre average keeps $L+1$ of $(L+1)^2$ degree-$L$ harmonics (even $L$), none (odd $L$); the orientation-class average keeps only $L = 0$; the exchange with a secondary needs a class dynamics (R237) | analytic theorem; numerical control; open bridge | projector traces $1,0,3,0,5,0,7$ | §XXXI.7 |
+| The rendering as a gravity-determined, observer-selected conformal image; the core's gravitational image as its orientation-class average (R232, R238) | specified physical premise | — | §§XXXI.1, XXXI.8 |
+| A readout law combining the base's histories at the observer, and what it does with the refocusing; a selection law for the chart from the history pair; a curved-space refit of the maser parallaxes; the class dynamics of the core; one forward image of our own galaxy (R238) | open bridge | — | §XXXI.8 |
 | **Post-freeze clarifications to Part XXIX (R212–R216)** | | | |
 | The equatorial limit of the circular branch is linearly marginal; slower equatorial orbits are unstable; every finite core declines as $1/\rho$ on the far side, and $M_{\rm eff}$ falls | numerical control (independent solution) | plateaus to $0.005$ km/s; slopes $-0.9996$, $-0.9977$ | §XXX.12(a)–(b) |
 | The arena law: three readings and three constants ($95.78$, $131.71$, $234.375\,M_\odot$ pc$^{-2}$); the Fourier norm gains $\lvert n\rvert$; the time convention; fits, checks and darkness scoped | numerical control; definition | $35.26$ against $47\pm6$ and $62.8\,M_\odot$ (km/s)$^{-4}$ | §XXX.12(c)–(e) |
@@ -60,7 +72,7 @@
 | Observational fits | none | no supernova likelihood, no count comparison with a selected sample, no rotation-curve fit (post-freeze note, v35.1, R216: the current predictive model; Part XII's exploratory fits, §XII.3, belong to its detached wing) | §XXIX.39(f) |
 | The photon wave operator and its mode projection; a $q = 0$ reader; a frequency bridge with time dilation and a derived echo law; a pair-selection law; a detector law for the image map, with one forward image of a fixed galaxy; a derived spectral transport, even and odd | open bridge | — | §§XXIX.39(b), 41, 42, 43(f) |
 
-> **How to read this archive (v35.1).** Two tables govern: the Part XXX table, for the open work, and the frozen v34.10 table that follows it, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX, and §XXX.9) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Part XXX, placed after §XXIX.16. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, and R212–R216 for the clarifications to Part XXIX, collected in §XXX.12.
+> **How to read this archive (v35.2).** Two tables govern: the table of Parts XXX–XXXI, for the open work, and the frozen v34.10 table that follows it, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX, and §XXX.9) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons) and XXXI (the visible rendering), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve both. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI.
 
 > **v34.0 governing ontology correction (11 October 2026).** **Matter and its stress-energy content live fundamentally in the five-dimensional middle space** $\mathcal M=E/U(1)_H$, not solely on the representational bisection. The four-dimensional gravity base $B_{\rm grav}=\mathcal M/U_{\rm mer}$ is the quotient where the effective Einstein equation is expressed. The source $T^{(g)}$ must be obtained from the **entire** one-dimensional meridian fiber, including both arcs and possible pole/core contributions, by a covariant, action-compatible fiber reduction with a geometrically justified measure and tensor projection. A sum of contributions at the two points of $B_{\rm rep}$ is **not Law I**: it is only a distributionally leaf-supported special case. Einstein equations on the base impose constraints on the admissible middle-space configurations; equivalently their pullback imposes a horizontal constraint on $\mathcal M$, **not** independent five-dimensional Einstein equations. The full measure, singular-fiber rule, conservation identity and parent variational principle are **open**. Previously frozen text about source localization and two-point sourcing is superseded by this paragraph, the corrected Law I in Part III, and §XXIX.8; historical derivations remain conditional benchmarks where their premises apply. The observation that $\ell/G$ has a numerically suggestive relation to a galactic mass was an exploratory coincidence, **not** a premise that the closure mass is the Galaxy's baryonic mass. The author also prefers a *macroscopic middle-space* origin of $G$ (with the closure ratio as a target) and a separate Boltzmannian-compatibility origin of the effective quantum/Planck-area scale; the induced-gravity calculation remains a benchmark, not the preferred ontological explanation of $G$.
 
@@ -5034,6 +5046,8 @@ $$\alpha_{\rm grad}(\beta) = 4\mu\cot\beta+8\mu\sin\beta\,\ln\cot\frac\beta2,\qq
 
 **What the test does not remove [open].** The refocusing. On the round leaf every ray from a point reconverges at the antipode after $\pi\ell$ ($50.3$ kpc, $164$ kyr of light time at $\ell = 16$ kpc); the first-order lens perturbs the conjugate point — the circuit response above is one measure of how — and does not remove it, and for the central observer the unlensed angular-diameter distance is bounded by the areal radius $\ell$: the cap and the returned-light problem of Parts XVII–XVIII stand as before on this homogeneous leaf. A galaxy-scale round $S^3$ carrying the base metric as its optical geometry is therefore in conflict with observation regardless of the source law, and the readout map that Law IV's minimal reading assumes here must differ from the pullback globally while agreeing with it locally — or the leaf must not be a round $S^3$ in its optical geometry at all, which is the door the representation-stretch branch of §XXIX.20 opens (there the azimuth advance between turning points is $\pi(1+\ell^2/b^2)$ instead of $\pi$, point refocusing becomes spiralling, and — R99 — an *off-centre* observer's angular-diameter distance is **unbounded** along the horn even though the areal radius is bounded, so the cap argument does not transfer to the inhomogeneous stretched leaf). The test moves the optical question from "unaddressed" to "located": local optics is standard and slip-free under the common-readout assumption; global optics is the problem, it is a problem about the leaf's geometry, not about Law I, and it must be analysed through observer-normalized ray bundles with Jacobi transport, not through gradient integrals or areal-radius bounds.
 
+*Post-freeze pointer, v35.2 (R238; Part XXIX frozen).* Entry 297's visible rendering is a candidate for the readout required here, which differs from the pullback globally and agrees with it locally. Part XXXI finds that light cannot move in it (a lapse is excluded by the Galactic Centre's redshift, an index by vacuum Cherenkov), so it survives as a readout of base rays and does not by itself remove the refocusing found here; the base optics then meets the Galactic Centre's distances, with $\ell_{\rm MW}\gtrsim16$ kpc from Sgr B2's parallax (§XXXI.4).
+
 ## XXIX.19 The Boltzmannian core: compatibility counting as a candidate origin of the primary core's isotropy and stiffness; the three-level architecture and the collective map [S/O; v34.2]
 
 *The standing referee's note proposes to use Boltzmannian space first to explain why the macroscopic middle-space configuration Projective Gravity needs is selected and stable, before asking it for amplitudes or a Planck area — and identifies §XXIX.10(g)'s isotropy requirement as the first concrete job. The proposal is recorded here as a program with one executed toy; nothing in it is derived. Reproduced by `boltzmann_core_counting()`.*
@@ -9339,7 +9353,7 @@ Neither reading of the image map produces the Tully–Fisher slope, since it cha
   - it flattens the approach to the plateau relative to the areal reading, which is finite there only because $R$ saturates.
 
   With the arena scale it is mild in proper distance. *[v34.10, R196, R198]*
-- *What it does not do.* It does not produce the Tully–Fisher slope. Nor does it explain the Milky Way's own curve, which is measured from inside, by stellar and gas kinematics, without any other-galaxy projection. That curve is only approximately flat: from $5$ to $25$ kpc it declines gently, at $-1.7\pm0.1$ km/s/kpc (systematic $0.46$), with $v_c(R_\odot) = 229$ km/s, under its Jeans-model assumptions [Eilers et al. 2019, arXiv:1810.09466]. PG's own dynamics must supply that curve; the selected PG curve is not a fit to it. *[v34.10, R199]*
+- *What it does not do.* It does not produce the Tully–Fisher slope. Nor does it explain the Milky Way's own curve, which is measured from inside, by stellar and gas kinematics, without any other-galaxy projection. That curve is only approximately flat: from $5$ to $25$ kpc it declines gently, at $-1.7\pm0.1$ km/s/kpc (systematic $0.46$), with $v_c(R_\odot) = 229$ km/s, under its Jeans-model assumptions [Eilers et al. 2019, arXiv:1810.09466]. PG's own dynamics must supply that curve; the selected PG curve is not a fit to it. *[v34.10, R199]* *[Post-freeze pointer, v35.2 (R238): Entry 297 extends the rendering to our own galaxy, seen from inside; Part XXXI computes what that requires (§§XXXI.4–5).]*
 - *Open.* The physical carrier, a detector law that makes the pair's reconstruction stereographic; the internal map's scale ($\ell$, or a galaxy scale); the separate intergalactic assignment; and the consequences of a nonlinear image map for morphology (spiral pitch angles, bar shapes), surface-brightness profiles and lensing. The first deliverable is one forward image: a fixed source, actual null histories, the source-to-screen Jacobi matrix, spectra and the reconstruction (§XXIX.43(f)). *[v34.10, R201]*
 - *Kept distinct from the Hubble branch.* $F_{\rm inter}$ is not $F_{\rm gal}$.
 - *Matter and light.* The claim is not that matter cannot have separated histories; massive matter has path histories too. It is that bound matter and local orbital measurements stay in an effectively frozen sector, while certain long-range optical comparisons do not. That is a dynamical claim to be derived. §XXIX.37(d) gives the freezing condition for pairs that bound a shrinking surface.
@@ -10334,9 +10348,9 @@ So $S$ descends, up to a cube root of unity, exactly to frames modulo third-turn
 
 **(e) Scope.** This is a scoped no-go plus one construction on an enlarged parent. It supplies no selection, no dynamics and no decay mechanism. The fixed-code reading stays a relation between descriptions: a physical conversion would need $105.15$ MeV for $e\to\mu$ at rest and $1671.27$ MeV for $\mu\to\tau$, with the exchanged energy and the other degrees of freedom identified (v35.1-3).
 
-## XXX.9 Register R203–R231 [D/O; v35.0–v35.1]
+## XXX.9 Register R203–R239 [D/O; v35.0–v35.2]
 
-*The v34 register, R56–R202, is frozen in §XXIX.16. v35 continues the numbering. The section number is kept from v35.0, so the register precedes §§XXX.11–13, which it covers.*
+*The v34 register, R56–R202, is frozen in §XXIX.16. v35 continues the numbering. The section number is kept from v35.0, so the register precedes §§XXX.11–13 and Part XXXI, which it covers.*
 
 - **R203** (§§XXX.1–2; Entries 281–285; six analyses). The entries are recorded, and the following are defined:
   - hyper-canonical space, codes and the rendering map;
@@ -10384,18 +10398,27 @@ So $S$ descends, up to a cube root of unity, exactly to frames modulo third-turn
 - **R229** (§XXX.11(l); Entries 291, 293). A selection toy on the real phase line: a mean-field three-state Potts ensemble of codes with $\beta J = \lambda h(\theta)$ and the code-averaged mass operator $m_n = s\,m_n^{(0)}+(1-s)m_*$; $\lambda = 3.702$ from the fuzz; in mean field the cubic term makes the loss first order, at $\beta J = 4\ln2$, $\theta_t = 0.0444$ ($m_{\rm next}/m_{\rm min} = 2.11$), metastable to $0.0440$, equal footing unstable above $0.0480$; the mirror code for $\theta<-\theta_t$; analysis E's quartic toy continuous, at $0.127$ for a ratio of ten. [V within the toy; S]
 - **R230** (§XXX.11(a), (m); two further analyses). The scale $m_*$ of the exact template chosen by six criteria — least total correction ($627.699043$ MeV, $\tau$ exact, all corrections non-negative, since $f_\tau>f_e+f_\mu$), least squares ($627.699090$), least total fractional ($627.712289$, $\mu$ exact), least squared fractional ($627.709931$), least worst fractional ($627.708752$), zero total ($627.699791$, the mean mass); the normalization-free invariant $\delta_e-(f_e/f_\mu)\delta_\mu = 5.024$ eV; the degeneracy-directed window $627.712289<m_*<627.718461$ MeV. The lepton mass sum $1883.0994$ MeV against $m_p+m_n = 1877.8375$ MeV (CODATA 2022): ratio $1.0028$, $5.2619\pm0.09$ MeV, $58\sigma$; $(m_p+m_n)/3 = 625.9458$ MeV and a common uplift $\eta = 1.7540$ MeV; a look-elsewhere count (2 of 230 hadron sums as close, about 1.3 expected). The nucleon link is recorded as a cross-sector conjecture. [V; S]
 - **R231** (§XXX.10). The v35.1 suite: ten new checks, fifteen in Part XXX (exit status 1 on any failure); the toy's `all` mode runs 145. [reproducibility]
+- **R232** (§§XXXI.1–2; Entries 297 (11:17), 298 (11:28), 299 (11:34) and 300 (11:45), 14 October 2026, with three analyses). The entries are recorded: our own galaxy rendered by light as a generalized stereographic projection, with light moving in it while gravity, orbits and closure stay on the leaf; the core's isotropy as the gravity quotient blending out its centre; the infinity point and the matter-or-twin convention selected by the observer; the rendering determined by the base metric, not the stress-energy; local Einstein behaviour in the image, and the question of $G$. Entries 294–296 are not in this record. The part's attachments to §§XXIX.18, XXIX.20, XXIX.35(a), XXIX.42, XXII.12, XXIX.10, VIII.3 and the seed are stated. [D]
+- **R233** (§XXXI.3). The weak-field leaf $\phi^4g_{S^3}$ is flattened exactly by $\sec^4(\chi_O/2)\phi^{-4}$, for any source, unique up to the Möbius group; matter's share $4\mu\Delta(\psi/\mu) = 1.05\times10^{-6}$ for the benchmark; $d\ln\rho/dr = 1/a$; the harmonic-mean identity $\rho = 2D_AD_{\rm par}/(D_A+D_{\rm par})$ on the round leaf, equal to the flattening radius iff $aa''-a'^2+1 = 0$, and split by up to $6.6\times10^{-6}$ with matter. [T/V/D]
+- **R234** (§XXXI.4). Light in the rendering: the Fermat metric; the lapse form excluded ($z = 0.0756$ at the Galactic Centre); the index form excluded as a physical medium (vacuum Cherenkov beyond $\sqrt2\ell/\gamma$: $11.6$ pc for GeV electrons; at the centre below $6\times10^{-20}$, within $1.6$ AU; GW170817 against a light-only index, $22{,}400$ years against $1.7$ s); the rendering as an observer-relative readout of base rays, leaving §XXIX.18's refocusing; the Galactic Centre test of the base optics (Sgr B2 $+2.0\sigma$ at $\ell = 16$ kpc, $\ell_{\rm MW}\geq16.1$ kpc; the kinematic maser $R_0$ read optimistically, $\geq32.3$ kpc; indicative); one history in a flat rendering, several in a compact one (Serre). *[v35.2 review: an earlier draft of this round kept the index as a viable optics centred within $2.5$ AU and shared by gravitational waves, and read the maser $R_0$ as a parallax distance; both are corrected here.]* [T/V/D]
+- **R235** (§XXXI.5). No flat metric on $S^3$ or $\mathbb{RP}^3$; the Möbius family; isotropy picks the pole or the twin, $\rho_+\rho_- = 4\ell^2$; local calibration selects the observer-centred chart ($\lvert\nabla\ln\Omega\rvert = \tan(\chi_O/2)/\ell$); the Galactic Centre at $8.171$ kpc and the twin at $125.3$ kpc in the benchmark observer's chart; removing the infinity costs flatness (Serre for compact renderings); the family $(a+b\cos\chi_O)^{-2}$ has constant sectional curvature $(a^2-b^2)/\ell^2$, the $\varepsilon$-family a round $S^3$ of radius $2\ell/\sqrt{2\varepsilon+\varepsilon^2}$ ($225.71$ and $69.83$ kpc); flat as the one-history case, analogous to Entry 277's joined-history limit. [T/V/S]
+- **R236** (§XXXI.6). Near-origin expansions; the conformal Einstein tensor; two readings of the image: as a 4D conformal image, an extra tide $c^2/(2\ell^2) = 1.84\times10^{-25}$ s$^{-2}$, $4.7\times10^{-12}$ of the Sun's at 1 AU and $2.2\times10^5$ times the in-plane Galactic one at the Sun; as a spatial image, $v^2\lvert\nabla\ln\Omega\rvert\approx2.7\times10^{-11}$ m/s$^2$, $0.13\,v^2/R$ at the Sun in the matter-centred chart; matter on the base; $G_{\rm inferred} = G\lambda^3/(\tau^2\mu)$, $G\rho/r = 1.0214$ at 8 kpc and $4/\pi$ at the equator, $1.209\,G$ for an uncalibrated matter-centred chart; the coupling unchanged (§VIII.3). [T/V/S]
+- **R237** (§XXXI.7). The core: the Hopf-fibre average keeps $L+1$ of $(L+1)^2$ harmonics for even $L$ and none for odd $L$; the zonal quadrupole becomes an $S^2$ dipole keeping $1/3$ of its norm squared; the orientation-class average keeps only $L = 0$; isometry averages conserve stress, but the exchange with a secondary needs a class dynamics; heat-kernel smoothing for comparison ($t\geq1.727$). [T/V/S/O]
+- **R238** (§XXXI.8; pointer notes in §§XXIX.18 and XXIX.42(f)). Standing, program and falsifiers of Part XXXI; two post-freeze pointer notes to it in the frozen text. [S/O]
+- **R239** (§XXX.10). The v35.2 suite: five new checks, twenty in Parts XXX–XXXI (exit status 1 on any failure); the toy's `all` mode runs 150. [reproducibility]
 
-## XXX.10 Executable appendix: `pg_v35_numerics.py`, embedded [reproducibility; v35.0, R210; v35.1, R231]
+## XXX.10 Executable appendix: `pg_v35_numerics.py`, embedded [reproducibility; v35.0, R210; v35.1, R231; v35.2, R239]
 
-*The standalone suite (NumPy and SciPy only) that prints every computed number of Part XXX. Save the block as `pg_v35_numerics.py` and run `python3 -I pg_v35_numerics.py` (the regression suite of Part XXX: 15 checks, 5 of v35.0 and 10 of v35.1; exit status 1 if any fails, in every mode; about 2 s), or one round with `python3 -I pg_v35_numerics.py v35_0` or `v35_1`. Part XXIX's frozen suite remains `pg_v34_numerics.py` (§XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v35`, `v35_0`, `v35_1` and `all` (the frozen v34.10 suite and Part XXX together, 145 checks) run it.*
+*The standalone suite (NumPy and SciPy only) that prints every computed number of Parts XXX and XXXI. Save the block as `pg_v35_numerics.py` and run `python3 -I pg_v35_numerics.py` (the regression suite of Parts XXX–XXXI: 20 checks, 5 of v35.0, 10 of v35.1 and 5 of v35.2, the last for Part XXXI; exit status 1 if any fails, in every mode; about 4 s), or one round with `python3 -I pg_v35_numerics.py v35_0`, `v35_1` or `v35_2`; an unknown mode prints the usage line and exits with status 2. Part XXIX's frozen suite remains `pg_v34_numerics.py` (§XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v35`, `v35_0`, `v35_1`, `v35_2` and `all` (the frozen v34.10 suite and Parts XXX–XXXI together, 150 checks) run it.*
 
 ```python
-"""Projective Gravity v35 -- standalone numerical suite for Part XXX: the hyper-canonical completion and the charged-lepton cycle
-(NumPy + SciPy only; Python 3.12/3.13 tested).  Part XXIX's frozen suite is pg_v34_numerics.py (v34.10).
+"""Projective Gravity v35 -- standalone numerical suite for Parts XXX-XXXI: the hyper-canonical completion and the charged-lepton cycle
+(Part XXX), and the visible rendering of the leaf (Part XXXI) (NumPy + SciPy only; Python 3.12/3.13 tested).  Part XXIX's frozen suite
+is pg_v34_numerics.py (v34.10).
 
 Run (from the directory holding this file):
-    python3 -I pg_v35_numerics.py              # current regression suite of Part XXX (all v35 rounds, check summary)
-    python3 -I pg_v35_numerics.py v35_0        # one round only (v35_0 or v35_1)
+    python3 -I pg_v35_numerics.py              # current regression suite of Parts XXX-XXXI (all v35 rounds, check summary)
+    python3 -I pg_v35_numerics.py v35_0        # one round only (v35_0, v35_1 or v35_2)
 Every mode exits with status 1 if any check fails.
 
 v35_0_suite(): the two renderings on the native spin-one carrier of Part XXI (clock R, shift S, the mass family M(theta), joint
@@ -10416,6 +10439,12 @@ susceptibility, relative smallness against selection, and an acceptance conditio
 with a correction on the masses (six shapes, each predicting the tau mass; covariance under the cycle; the QED scale), and a
 mean-field Potts toy of code selection whose privilege is lost suddenly on the real phase line; the normalization m* of the
 exact template under six criteria, and the lepton and nucleon mass sums with a look-elsewhere count.
+
+v35_2_suite(): Entries 297-300 (14 October 2026), the visible rendering (Part XXXI): the exact flattening of the weak-field leaf by the
+metric alone, and the harmonic-mean identity; light in the rendering (the Fermat metric, the Galactic Centre's two distances, the local
+index and the shared rendering of gravitational waves, the number of histories); the point at infinity, the two conventions and the
+symmetric regularizations (round, flat, hyperbolic); local Einstein behaviour, tides and the inferred G; and the core's directional
+measure under the Hopf-fibre and orientation-class averages.
 """
 import numpy as np
 PI = np.pi
@@ -10701,7 +10730,8 @@ def _v35_far_hemisphere(alpha, ell_kpc=16.0, Msun=6e10):
     """Part XXIX.42(g)'s far-hemisphere continuation, solved independently of the frozen suite (post-freeze controls, R212-R213): the rigid
     closure's radial equation y'' + 4 y = -2 pi rho_eff(x) sin x for y = psi sin x on the unit S^3, by initial-value integration of a
     particular solution with y(0) = y'(0) = 0 plus A sin 2x fixed by y'(pi/2) = 0 (the twin-symmetric even sector); the source is
-    exp(-tan(x/2)/alpha), normalised as in Part XXV.  Returns v(x) in km/s, the plateau, psi''(pi/2) per unit mu, and the radial stiffness."""
+    exp(-tan(x/2)/alpha), normalised as in Part XXV.  Returns v(x) in km/s, the plateau, psi''(pi/2) per unit mu, the radial stiffness, (psi, psi') per unit mu,
+    and mu = G M/(c^2 ell) (the last two used by v35.2)."""
     from scipy.integrate import solve_ivp, quad
     G, C, MS, KP = 6.67430e-11, 299792458.0, 1.98847e30, 3.085677581491367e19
     raw = lambda x: np.exp(-np.tan(x/2)/alpha) if x < PI-1e-12 else 0.0
@@ -10722,7 +10752,7 @@ def _v35_far_hemisphere(alpha, ell_kpc=16.0, Msun=6e10):
     def stiff(x):
         p, dp = psi_dpsi(x); d2 = -2/np.tan(x)*dp-3*p-2*PI*rho_eff(x)
         return d2+dp*(np.tan(x)+3/np.tan(x))
-    return v, np.sqrt(2*d2_eq*mu)*C/1e3, d2_eq, stiff
+    return v, np.sqrt(2*d2_eq*mu)*C/1e3, d2_eq, stiff, psi_dpsi, mu
 
 def v35_1_far_hemisphere_postfreeze(ell_kpc=16.0):
     print("\n== v35.1-1. post-freeze controls on Part XXIX.42(g): the finite-core far side and the equatorial orbits (R212, R213) ==")
@@ -10745,7 +10775,7 @@ def v35_1_far_hemisphere_postfreeze(ell_kpc=16.0):
     print(f"     Forced into a Euclidean spherical Newtonian estimator, M_eff = rho v^2/G falls with radius out there ({Meff[0.1][0]:.3e} -> {Meff[0.1][1]:.3e} and")
     print(f"     {Meff[0.02][0]:.3e} -> {Meff[0.02][1]:.3e} M_sun from 1000 to 10000 kpc): no non-negative spherical density does that, so the model gives a")
     print("     finite-range apparent mass discrepancy, not an interchangeable ordinary halo.  (These radii are checks of the assigned map, not distances.)")
-    v1, veq1, d2, stiff = out[0.1]
+    v1, veq1, d2, stiff = out[0.1][:4]
     # equatorial circular orbits: U = Phi + L^2/(2 ell^2 sin^2 chi), Phi = -2 c^2 psi; at the equator U' = 0 for every L, and
     # U''(pi/2) = -2 c^2 psi''(pi/2) + L^2/ell^2 (per unit mu c^2: -2 psi'' + l^2), with the continuous branch's limit l^2 = 2 psi''(pi/2)
     l2 = 2*d2; U2 = {k: -2*d2+(k**2)*l2 for k in (0.5, 1.0, 2.0)}
@@ -11154,19 +11184,251 @@ def v35_1_normalization_and_nucleon_scale():
     print("   [V] The criteria are normalizations, not physics: only the e-mu invariant is fixed by the data.  [O] A derivation of m*; any nucleon link")
     print("       is a cross-sector conjecture (QCD masses against Yukawa masses) at the level chance gives among simple hadron sums.")
 
+# ==================================================================================================== v35.2 (14 October 2026)
+_KPC_M, _C_SI, _AU_M, _GM_SUN = 3.085677581491367e19, 299792458.0, 1.495978707e11, 1.32712440018e20
+
+def v35_2_metric_rendering(ell_kpc=16.0):
+    print("\n== v35.2-1. the visible rendering fixed by the gravity base: exact flattening of the weak-field leaf, and two metric-only readings (R233) ==")
+    from scipy.integrate import quad
+    v, plateau, d2, stiff, psi_dpsi, mu = _v35_far_hemisphere(0.1, ell_kpc)
+    xs = np.linspace(1e-4, PI-1e-4, 20001); ps = psi_dpsi(xs)[0]; dpsi = float(ps.max()-ps.min())
+    print("   The leaf metric of Part XXIX.18 is -N^2 dt^2 + phi^4 g_S3 with phi^4 = 1 + 4 psi: its spatial part is conformally round for any psi, so")
+    print("     h_vis = sec^4(chi_O/2) phi^-4 h_B is exactly flat for any source, isotropic or not (chi_O the angle from the image origin): the")
+    print("     generalized stereographic rendering exists, fixed by the metric alone, unique up to the Moebius group (the point sent to infinity and a")
+    print(f"     similarity).  Matter enters only through phi^-4 = 1 - 4 psi.  For the benchmark (alpha = 0.1, ell = {ell_kpc:g} kpc, mu = G M/(c^2 ell) = {mu:.4e})")
+    print(f"     psi/mu spans {ps.min():+.4f} to {ps.max():+.4f} over the leaf, so the matter factor varies by 4 mu (Delta psi/mu) = {4*mu*dpsi:.2e}: the rendering")
+    print("     is the round stereographic map to one part in a million.  The image's shapes are the matter's own, mapped by the round projection.")
+    # rotationally symmetric metrics: d ln rho/dr = 1/a(r); round case gives 2 ell tan(r/2 ell); conformally round metrics keep tan(chi/2)
+    chk = []
+    for c in (0.3, 1.0, 2.0, 3.0):
+        I = quad(lambda x: 1/np.sin(x), 1e-6, c, epsabs=1e-14, epsrel=1e-13, limit=200)[0]
+        chk.append(abs(1e-6/2*np.exp(I)/np.tan(c/2)-1))
+    # the harmonic mean of the angular-diameter and parallax distances on the round leaf
+    hm = [abs(2/(1/np.sin(c)+np.cos(c)/np.sin(c))/(2*np.tan(c/2))-1) for c in (0.5, 1.2, PI/2, 2.5, 3.0)]
+    # with matter: a = ell phi^2 sin chi, dr = ell phi^2 dchi; harmonic-mean radius 2a/(1 + da/dr) against the flattening radius
+    def split(m_):
+        c = np.linspace(0.05, 3.0, 400); p, dp = psi_dpsi(c); p0 = psi_dpsi(np.array([1e-6]))[0][0]
+        phi2 = np.sqrt(1+4*m_*p); a = phi2*np.sin(c); dadr = np.sin(c)*2*m_*dp/(1+4*m_*p)+np.cos(c)
+        return float(np.max(np.abs((2*a/(1+dadr))/(2*np.tan(c/2)*np.sqrt(1+4*m_*p0))-1)))
+    s0, s1 = split(0.0), split(mu)
+    print("   For a rotationally symmetric leaf h = dr^2 + a(r)^2 dOmega^2 the flattening radius solves d ln rho/dr = 1/a: on the round leaf")
+    print(f"     rho = 2 ell tan(r/2 ell) (checked to {max(chk):.0e} at chi = 0.3, 1, 2, 3), and for phi^4 g_S3 the coordinate is still tan(chi/2), whatever psi.")
+    print("   On the round leaf rho is the harmonic mean of the two distances an observer measures there, the angular-diameter distance ell sin chi")
+    print(f"     and the parallax distance ell tan chi: rho = 2 D_A D_par/(D_A + D_par) (to {max(hm):.0e} at chi = 0.5, 1.2, pi/2, 2.5, 3.0), regular through the")
+    print("     equator, where D_par passes through infinity.  For h = dr^2 + a^2 dOmega^2 the two coincide iff a a'' - a'^2 + 1 = 0, i.e. equal radial and")
+    print(f"     tangential curvature (a space form).  With the benchmark's matter they split by {s1:.1e} (against {s0:.0e} without it): two metric-only")
+    print("     generalizations of stereographic projection, equal on the round leaf, distinct at order mu (the split, up to chi = 3, is amplified")
+    print("     near the antipode, where 1 + a' -> 0).")
+    ok = (abs(mu-1.7946e-7) < 1e-10 and abs(dpsi-1.4563) < 1e-3 and abs(4*mu*dpsi-1.045e-6) < 2e-9 and max(chk) < 1e-9 and max(hm) < 1e-12
+          and s0 < 1e-12 and 1e-8 < s1 < 1e-5)
+    check(ok, "rendering: weak-field leaf flattened exactly, matter factor 1.05e-6; rho = harmonic mean of D_A and D_par on the round leaf; splits at order mu")
+    print("   [T] Exact flattening of a conformally round leaf; the harmonic-mean identity.  [V] Sizes for the benchmark.  [D] Which metric-only")
+    print("       construction is the visible one is a choice until a readout law selects it.")
+
+def v35_2_light_in_the_rendering(DA_gc=8.178):
+    print("\n== v35.2-2. light in the rendering: the Fermat metric, why light cannot move in the image, and the Galactic Centre test of the base optics (R234) ==")
+    print("   In a static spacetime rays are geodesics of the Fermat metric h/N^2.  Rays straight in the stereographic image need h_B/N^2 flat, by a")
+    print("   lapse N = cos^2(chi/2) or by an index n = sec^2(chi/2) at N = 1.  Either way the light time to angle chi is 2 ell tan(chi/2)/c, the")
+    print("   image distance, and diverges at the image's point at infinity.")
+    ell_m = 16*_KPC_M
+    chi16 = np.arcsin(DA_gc/16.0); z = 1/np.cos(chi16/2)**2-1
+    print(f"   The lapse, normalized at the observer, would redshift the Galactic Centre by z = {z:.4f} ({z*_C_SI/1e3:,.0f} km/s) at ell = 16 kpc (chi from the base")
+    print("     optics; reading the S2 distance as an image distance instead gives z = 0.065), with a matching")
+    print("     gradient across the inner Galaxy; Galactic Centre gas and stars show line-of-sight velocities within a few hundred km/s.  Excluded.")
+    gam = {'GeV electrons': 1e9/0.51099895e6, 'PeV protons': 1e15/938.272e6, '1e20 eV protons': 1e20/938.272e6}
+    rth = {k: np.sqrt(2)*ell_m/g for k, g in gam.items()}
+    r_obs = 2*ell_m*np.sqrt(6e-20)
+    exc = (2-PI/2)*16.0; dt_yr = exc*_KPC_M/_C_SI/3.15576e7
+    print("   The index makes light slower than matter's limiting speed wherever n > 1, so charged particles with v > c/n radiate (vacuum Cherenkov).")
+    print("     With n - 1 = r^2/(4 ell^2) at distance r from the index's centre, the threshold 1/(2 gamma^2) is crossed beyond r = sqrt2 ell/gamma:")
+    print("     " + ";  ".join(f"{k} {v/_KPC_M*1e3:.3g} pc" if v > 1e-3*_KPC_M else f"{k} {v/_AU_M:.3g} AU" for k, v in rth.items()) + ".")
+    print("     The Galaxy is filled with GeV electrons (its synchrotron emission) and cosmic rays reach us from kpc distances, so a physical index is")
+    print(f"     excluded far beyond its centre; at the centre itself the excess must stay below 6e-20 (Klinkhamer & Schreck 2008, 2 sigma), within")
+    print(f"     2 ell sqrt(6e-20) = {r_obs/_AU_M:.1f} AU (the published bound allows heavy primaries; for proton primaries the 1e20 eV row above would")
+    print("     confine it to 0.044 AU).  An index centred on each observer is no single medium.  Independently, if gravity stayed unrendered,")
+    print(f"     a light-only index would add (2 - pi/2) ell = {exc:.2f} kpc of optical path from the leaf's equator to the observer (an assumed path), {dt_yr:,.0f}")
+    print("     years, against GW170817's 1.7 s between gravitational waves and light.  So light cannot move in the image: the rendering survives only")
+    print("     as an observer-relative readout of base rays, and every measured direction, parallax and angular size is the base's.")
+    # the Galactic Centre test of the base (round-leaf) optics
+    sgrb2, sgrb2_up, sgrb2_lo = 7.9, 0.8, 0.7
+    meas, sig = 8.15/DA_gc, np.hypot(0.15/8.15, np.hypot(13, 22)/8178.0)*8.15/DA_gc
+    pred = lambda ell: 1/np.cos(np.arcsin(DA_gc/ell))
+    s_b2 = (pred(16.0)*DA_gc-sgrb2)/sgrb2_up
+    up_b2 = (sgrb2+2*sgrb2_up)/DA_gc; l_b2 = DA_gc/np.sqrt(1-1/up_b2**2)
+    up = meas+2*sig; l_reid = DA_gc/np.sqrt(1-1/up**2)
+    G, MS, a0 = 6.67430e-11, 1.98847e30, 1.2e-10
+    larena = {m: 3*np.sqrt(G*m*MS/a0)/_KPC_M for m in (6e10, 1e11)}
+    print(f"   The base optics then meets data inside our galaxy.  On a round leaf the parallax distance is sec(chi) times the angular-diameter one.  The S2")
+    print(f"     orbit gives an angular-diameter distance to the Galactic Centre, {DA_gc} +- 0.026 kpc (GRAVITY 2019); at ell = 16 kpc the parallax distance")
+    print(f"     would be {pred(16.0)*DA_gc:.2f} kpc.  The one direct parallax there, Sgr B2's, gives R0 = 7.9 +0.8/-0.7 kpc (Reid et al. 2009): {s_b2:+.1f} sigma, and ell >= {l_b2:.1f} kpc")
+    print(f"     at 2 sigma.  The maser R0 of Reid et al. 2019, 8.15 +- 0.15 kpc, is a kinematic fit anchored by parallaxes mostly a few kpc away; read")
+    print(f"     optimistically as a parallax distance (ratio {meas:.4f} +- {sig:.4f}), it would need ell >= {l_reid:.1f} kpc.  The arena law's ell = 3 sqrt(GM/a0) gives")
+    print("     " + ", ".join(f"{v:.1f} kpc at {m:.0e} M_sun ({(pred(v)-meas)/sig:+.1f} sigma on that reading)" for m, v in larena.items()) + ": the Milky Way's mass matters.")
+    print("     A curved-space refit of the maser parallaxes is the real test.")
+    print("   Histories: a flat rendering has one straight line between two points; the base carries the direct and the long-way histories (and windings),")
+    print("     and a compact space has infinitely many geodesics between any two points (Serre).  On the round leaf rays refocus after pi ell")
+    print(f"     ({PI*16:.1f} kpc at ell = 16 kpc).  A readout can combine the base's histories at the observer; it cannot remove the refocusing from the rays.")
+    ok = (abs(z-0.0756) < 2e-4 and abs(rth['GeV electrons']/_KPC_M*1e3-11.56) < 0.05 and abs(rth['1e20 eV protons']/_AU_M-0.0437) < 2e-3
+          and abs(r_obs/_AU_M-1.62) < 0.02 and abs(exc-6.867) < 1e-3 and abs(dt_yr-22397) < 50 and abs(pred(16.0)-1.1635) < 1e-3
+          and abs(s_b2-2.02) < 0.05 and abs(meas-0.99658) < 1e-4 and abs(l_reid-32.25) < 0.05 and abs(larena[6e10]-25.0) < 0.1 and abs(larena[1e11]-32.3) < 0.1)
+    check(ok, "light: lapse excluded (z = 0.0756); an index radiates Cherenkov beyond 11.6 pc for GeV electrons; base optics at ell = 16 kpc: Sgr B2 +2.0 sigma")
+    print("   [T] Fermat; vacuum Cherenkov kinematics; Serre.  [V] The thresholds and the Galactic Centre numbers.  [D] The rendering as a readout.")
+
+def v35_2_infinity_and_conventions(ell_kpc=16.0):
+    print("\n== v35.2-3. the point at infinity, the two conventions, and the regularized rendering (Entries 298-299; R235) ==")
+    from scipy.integrate import quad
+    print("   No flat metric exists on S^3 or RP^3 (a complete flat simply connected 3-manifold is R^3; compact flat ones have infinite fundamental")
+    print("   group), so every flat rendering of the S^3 leaf sends at least one point to infinity (an RP^3 leaf needs more: a cut, or a rendering of its")
+    print("   S^3 cover, since the antipodal map is conjugate to no Euclidean isometry).  The flattenings of the round leaf form the Moebius")
+    print("   family Omega = lambda sec^2(chi_O/2): the infinity point is the antipode of the image origin O.  Rotations about the matter pole fix exactly")
+    print("   the pole and its twin, so the symmetric flattenings are the two conventions of Entry 298, related by rho_+ rho_- = 4 ell^2; anisotropy")
+    print("   removes the symmetric choice, not the infinity.")
+    # the factor's only critical point is the image origin: |grad ln Omega| = tan(chi_O/2)/ell
+    rng = np.random.default_rng(3520); worst = 0.0
+    for _ in range(200):
+        p = rng.normal(size=4); p /= np.linalg.norm(p); o = -p; x = rng.normal(size=4); x /= np.linalg.norm(x)
+        chi = np.arccos(np.clip(x @ o, -1, 1)); h = 1e-6
+        lw = lambda y: -2*np.log(np.cos(np.arccos(np.clip(y @ o, -1, 1))/2))
+        # the directional derivative toward o is -tan(chi/2); maximum over directions equals tan(chi/2)
+        e = o-(o @ x)*x; e /= np.linalg.norm(e); yp = np.cos(h)*x+np.sin(h)*e; ym = np.cos(h)*x-np.sin(h)*e
+        worst = max(worst, abs(-(lw(yp)-lw(ym))/(2*h)-np.tan(chi/2)))
+    print(f"   |grad ln Omega| = tan(chi_O/2)/ell (checked at 200 random points to {worst:.0e}), zero only at O.  So the local conditions Omega(A) = 1 and")
+    print("     grad Omega(A) = 0 select one flattening: the observer-centred one, sending A's own antipode to infinity -- Entry 299's selection by the")
+    print("     observer's position, made exact.  An observer at the matter pole gets the matter-centred convention, one at the twin pole the")
+    print("     twin-centred one (Entry 298); an observer elsewhere gets neither.")
+    chi_sun = 8.0/ell_kpc; rc = 2*ell_kpc*np.tan(chi_sun/2); rt = 4*ell_kpc**2/rc
+    om = 1/np.cos(chi_sun/2)**2; gr = np.tan(chi_sun/2)/ell_kpc
+    print(f"   Benchmark observer at 8 kpc (proper) from the matter pole, ell = {ell_kpc:g} kpc: in its own chart the Galactic Centre lies at {rc:.3f} kpc and the")
+    print(f"     twin's centre at 4 ell^2/rho = {rt:.1f} kpc toward the anticentre (dark under the barren-twin readout).  In the matter-centred chart the")
+    print(f"     observer instead carries Omega = {om:.4f} and a gradient {gr:.4f} per kpc of base length.")
+    # the symmetric regularizations: the factor (a + b cos chi)^-2 gives constant curvature 6 (a^2 - b^2)/ell^2
+    def Rvis(c, a_, b_):
+        w1 = b_*np.sin(c)/(a_+b_*np.cos(c)); w2 = (a_*b_*np.cos(c)+b_*b_)/(a_+b_*np.cos(c))**2
+        lap = w2+2*w1*np.cos(c)/np.sin(c)
+        return (6-4*lap-2*w1**2)*(a_+b_*np.cos(c))**2
+    rows = []
+    for e in (0.01, 0.1):
+        a_, b_ = (1+e)/2, 0.5
+        D = quad(lambda c: ell_kpc/(a_+b_*np.cos(c)), 0, PI, epsabs=1e-12, limit=200)[0]
+        Rad = ell_kpc/np.sqrt(a_*a_-b_*b_)
+        rows.append((e, D, Rad, [Rvis(c, a_, b_)/ell_kpc**2 for c in (1e-4, PI/2, PI-1e-4)]))
+    hyp = [Rvis(c, 0.4, 0.5) for c in (0.5, 1.5, 2.3)]; hor = np.arccos(-0.4/0.5)
+    print("   Removing the infinity costs flatness: any regular factor gives a compact, curved space, which by Serre has infinitely many geodesics between")
+    print("     two points.  Within the Moebius-type family (a + b cos chi_O)^-2 the result has constant sectional curvature (a^2 - b^2)/ell^2 (scalar")
+    print("     6(a^2 - b^2)/ell^2): a round sphere of radius ell/sqrt(a^2 - b^2) for a > |b|, flat at a = |b| (stereographic), hyperbolic out to its")
+    print("     conformal boundary cos chi_O = -a/b (at infinite distance) for a < |b|.  The analyses' family 4 h_B/(1 + cos chi + eps)^2")
+    print("     is the first case, with radius 2 ell/sqrt(2 eps + eps^2):")
+    for e, D, Rad, R in rows:
+        print(f"     eps = {e:g}: scalar curvature {R[0]:.4e}, {R[1]:.4e}, {R[2]:.4e} per kpc^2 at the origin, the equator and the antipode -- a round S^3 of radius")
+        print(f"       {Rad:.2f} kpc, whose antipode lies at pi R = {PI*Rad:.2f} kpc (integrated: {D:.2f})")
+    print(f"     Hyperbolic example a = 0.4, b = 0.5: curvature {hyp[0]:.6f}, {hyp[1]:.6f}, {hyp[2]:.6f} per ell^2 at chi = 0.5, 1.5, 2.3 (= 6(a^2 - b^2) = -0.54), with the")
+    print(f"     conformal boundary at chi = {hor:.4f}: nothing beyond it is rendered in this chart.")
+    print("     So in this family a rendering without an infinity is a round leaf again (larger when a^2 - b^2 < 1): rays refocus at pi R and the")
+    print("     long-way history returns.  The flat stereographic map is the boundary between the spherical and hyperbolic cases, with one history,")
+    print("     analogous to the joined-history limit Entry 277 proposed for the frozen metric (which is local, not a global chart).")
+    ok = (worst < 1e-7 and abs(rc-8.1709) < 1e-3 and abs(rt-125.3) < 0.1 and abs(om-1.0652) < 1e-4 and all(abs(D/(PI*Rad)-1) < 1e-8 for _, D, Rad, _ in rows)
+          and all(max(R)-min(R) < 1e-9*abs(R[0]) and abs(R[0]-6/Rad**2) < 1e-9*R[0] for _, _, Rad, R in rows) and abs(rows[0][2]-225.71) < 0.02
+          and max(abs(h+0.54) for h in hyp) < 1e-12 and abs(Rvis(1.0, 0.5, 0.5)) < 1e-12)
+    check(ok, "conventions: flat needs infinity; observer-centred chart unique under local calibration; GC at 8.171, twin at 125.3 kpc; symmetric regularizations have constant curvature")
+    print("   [T] No flat metric on S^3; the Moebius family; the unique critical point; Serre.  [V] Positions and the eps-family.  [S] Entries 298-299.")
+
+def v35_2_local_equivalence_and_G(ell_kpc=16.0):
+    print("\n== v35.2-4. Entry 300: why the Einstein equations seem to hold in the image locally, how far, and the inferred G (R236) ==")
+    ell = ell_kpc*_KPC_M; c2 = _C_SI**2
+    x = 1e-2; rho = 2*np.tan(x/2); o2 = 1/np.cos(x/2)**4
+    e1 = (rho-x-x**3/12)/x**5; e2 = (o2-1-x**2/2)/x**4
+    L = 100*_AU_M
+    print(f"   Near the image origin rho = r + r^3/(12 ell^2) + ... and Omega^2 = 1 + r^2/(2 ell^2) + ... (next terms {e1:.4f} r^5/ell^4 and {e2:.4f} r^4/ell^4).")
+    print(f"     Across 100 AU, r^2/(2 ell^2) = {L**2/(2*ell**2):.1e} at ell = {ell_kpc:g} kpc.")
+    tide_r = c2/(2*ell**2); v, R = 229e3, 8.178*_KPC_M; tide_g = (v/R)**2; tide_s = _GM_SUN/_AU_M**3
+    curv_s = _GM_SUN/c2/_AU_M**3
+    om8 = 1/np.cos((8.0/ell_kpc)/2)**2; gr8 = np.tan((8.0/ell_kpc)/2)/ell     # matter-centred chart at the Sun
+    acc_sp = v**2*gr8; acc_g = v**2/R
+    print("   The image is not an Einstein solution with the same source, and how far it is depends on which image spacetime is meant.")
+    print("     - Read as a four-dimensional conformal image (the lapse form, excluded as optics in v35.2-2), g -> e^{2 phi} g adds -2 nabla nabla phi")
+    print("       + 2 dphi dphi + g (2 box phi + |dphi|^2) to the Einstein tensor, and timelike geodesics feel -c^2 grad ln Omega.  The stereographic")
+    print(f"       factor's Hessian at the origin, 1/(2 ell^2), gives an extra tide c^2/(2 ell^2) = {tide_r:.2e} s^-2: {tide_r/tide_s:.1e} of the Sun's tide at 1 AU,")
+    print(f"       but {tide_r/tide_g:.1e} times the in-plane Galactic tide at the Sun ((229 km/s / 8.178 kpc)^2 = {tide_g:.2e} s^-2; the vertical one is ~7 times larger).")
+    print("     - Read as a spatial image at fixed lapse (the index form), slow matter keeps the base potential, and image geodesics differ through the")
+    print(f"       spatial connection, by about v^2 |grad ln Omega|: {acc_sp:.1e} m/s^2 at the Sun in the matter-centred chart, {acc_sp/acc_g:.2f} of its Galactic")
+    print("       acceleration v^2/R; in the observer's own chart the difference grows as v^2 r/(2 ell^2) away from the observer.")
+    print(f"     The curvature difference, ~1/ell^2 = {1/ell**2:.1e} m^-2, is {1/ell**2/curv_s:.1e} of the Sun's at 1 AU.  Either way the image looks Einsteinian")
+    print("     up close, as Entry 300 says, and is not the dynamics on galactic scales: matter moves on the base, and the image is a readout of it.")
+    # inferred G from rescaled lengths, times and masses; the Kepler toy at a stereographic radius
+    lam, tau, mu_ = 1.07, 0.98, 1.03
+    a, T = 1.3e11, 3.2e7; GM = 4*PI**2*a**3/T**2
+    Ginf = 4*PI**2*(lam*a)**3/(tau*T)**2/(mu_*GM)
+    r8 = 8.0/ell_kpc; k8 = 2*np.tan(r8/2)/r8; keq = 2.0/(PI/2)
+    om = 1/np.cos(r8/2)**2
+    print(f"   G inferred from rescaled lengths, times and masses (lambda, tau, mu) is G lambda^3/(tau^2 mu) (checked: {Ginf:.6f} against {lam**3/(tau**2*mu_):.6f}).")
+    print(f"     Material rulers, clocks and radar use the base (the rendering being a readout), so the coupling and local measurements of G are unchanged.  A Kepler toy read at the")
+    print(f"     image radius gives G rho/r: {k8:.4f} at 8 kpc and 4/pi = {keq:.4f} at the equator.  An uncalibrated matter-centred chart at the Sun")
+    print(f"     (lambda = {om:.4f}, tau = mu = 1) would give {om**3:.3f} G.  Whether the coupling itself has an origin in the geometry stays Part VIII.3's question.")
+    ok = (abs(e1-0.008333) < 1e-4 and abs(tide_r-1.84e-25) < 0.02e-25 and 4e-12 < tide_r/tide_s < 5.5e-12 and 2.0e5 < tide_r/tide_g < 2.5e5
+          and abs(acc_sp-2.7e-11) < 0.1e-11 and abs(acc_sp/acc_g-0.13) < 0.01
+          and abs(Ginf-lam**3/(tau**2*mu_)) < 1e-9 and abs(k8-1.02137) < 1e-5 and abs(keq-1.2732) < 1e-4 and abs(om**3-1.2087) < 1e-3)
+    check(ok, "local equivalence: 4D image tide 1.8e-25 s^-2 (5e-12 of the Sun's at 1 AU, 2.2e5 x Galactic); spatial image 2.7e-11 m/s^2 (0.13 v^2/R); G unchanged")
+    print("   [T] The conformal identities.  [V] The sizes.  [S] Entry 300's reading: the image's local Einstein behaviour is inherited from the base.")
+
+def v35_2_core_class_average():
+    print("\n== v35.2-5. Entry 297's core: what the Hopf fibres average, what the orientation class averages, and the exchange (R237) ==")
+    Nu, Nx = 14, 24
+    u, wu = np.polynomial.legendre.leggauss(Nu); xi = 2*PI*np.arange(Nx)/Nx
+    U, X1, X2 = np.meshgrid(u, xi, xi, indexing='ij'); W = np.broadcast_to(wu[:, None, None], U.shape)/(2*Nx*Nx)
+    z1 = np.sqrt((1+U)/2)*np.exp(1j*X1); z2 = np.sqrt((1-U)/2)*np.exp(1j*X2)
+    P = np.stack([z1.real, z1.imag, z2.real, z2.imag], axis=-1)            # points of S^3 (Hopf coordinates; u = cos 2 eta)
+    ip = lambda f, g: float(np.sum(W*f*g))
+    def fibre(f):                                                         # average over (z1, z2) -> e^{i phi}(z1, z2): the diagonal shift
+        return np.mean([np.roll(np.roll(f, k, axis=1), k, axis=2) for k in range(Nx)], axis=0)
+    rng = np.random.default_rng(352); dims = []
+    for L in range(0, 7):
+        ys = rng.normal(size=((L+1)**2, 4)); ys /= np.linalg.norm(ys, axis=1)[:, None]
+        cosd = np.clip(P @ ys.T, -1, 1); d = np.arccos(cosd)
+        B = [np.where(np.abs(np.sin(d[..., k])) > 1e-12, np.sin((L+1)*d[..., k])/np.where(np.abs(np.sin(d[..., k])) > 1e-12, np.sin(d[..., k]), 1), L+1.0)
+             for k in range(len(ys))]                                      # zonal Chebyshev U_L(x.y): spans the degree-L harmonics
+        Gm = np.array([[ip(a, b) for b in B] for a in B]); ev, V = np.linalg.eigh(Gm); keep = ev > 1e-9*ev.max()
+        E = [sum(V[i, j]*B[i] for i in range(len(B)))/np.sqrt(ev[j]) for j in np.where(keep)[0]]
+        tr = sum(ip(fibre(e), e) for e in E); dims.append((L, len(E), tr))
+    Y2 = (4*(P[..., 0])**2-1)/3; PY2 = fibre(Y2); zS = U                       # zonal quadrupole about (1,0,0,0); z_S = |z1|^2 - |z2|^2
+    ratio = ip(PY2, PY2)/ip(Y2, Y2); resid = float(np.max(np.abs(PY2-zS/3)))
+    means = [abs(ip(e, np.ones_like(e))) for e in E]
+    print("   With the pole's direction sphere S^3_p identified with the gravity slice (Part XXII.12) and its Hopf fibres the linked meridian families")
+    print("   (conditional on the C^2 structure there), averaging a core's directional measure along the fibres keeps exactly the pulled-back S^2")
+    print("   harmonics.  Dimension of the degree-L harmonics, and of the part the fibre average keeps (trace of the projector):")
+    print("     " + ";  ".join(f"L = {L}: {n}, {tr:.6f}" for L, n, tr in dims))
+    print(f"     -- (L+1)^2 and L+1 for even L, 0 for odd L: the fibres remove a fraction L/(L+1) of a generic degree-L anisotropy, not all of it.")
+    print(f"   Part XXIX.10(g)'s zonal quadrupole (4 cos^2 chi - 1)/3 averages to z_S/3, an S^2 dipole (to {resid:.0e}), keeping {ratio:.6f} of its norm squared")
+    print("     (1/sqrt3 of its amplitude), while Part XXIX.10(g)'s tolerance is |a| <= (45/8) f mu = 1.0e-6 at f = 1.  Linking alone cannot supply the")
+    print("     isotropy.  Averaging over the orientation class -- the SU(2) that commutes with the fibres and rotates their base S^2 -- is transitive")
+    print(f"     on S^3, so it keeps only L = 0 (every degree-6 basis function has mean {max(means):.0e}): exact isotropy, with no tuning.")
+    t = 0.5; hk = [np.exp(-t*L*(L+2)) for L in (1, 2, 3)]; tneed = np.log(1e6)/8
+    print(f"   The analyses' heat-kernel smoothing e^(-t L(L+2)) keeps {hk[0]:.4f}, {hk[1]:.4f}, {hk[2]:.2e} of L = 1, 2, 3 at t = 0.5; reaching 1e-6 at L = 2 needs")
+    print(f"     t >= ln(1e6)/8 = {tneed:.3f}.  It is a smoothing chosen, not one derived from the linking.")
+    print("   An average over isometries of the round background preserves conservation (nabla commutes with isometries), so the class-averaged image of")
+    print("   an isolated core is conserved.  The exchange is not: an averaged core exerts no quadrupole torque on a secondary, while the secondary")
+    print("   still torques the actual core, so angular momentum balances only if the core's response is averaged too -- a class dynamics, not yet built.")
+    ok = (all((abs(tr-(L+1)) < 1e-6 if L % 2 == 0 else abs(tr) < 1e-6) and n == (L+1)**2 for L, n, tr in dims) and abs(ratio-1/3) < 1e-9
+          and resid < 1e-12 and max(means) < 1e-10 and abs(hk[1]-0.0183156) < 1e-6 and abs(tneed-1.7269) < 1e-3)
+    check(ok, "core: Hopf fibre average keeps L+1 of (L+1)^2 (even L), none (odd L); zonal Y2 -> S^2 dipole, 1/3 of norm^2; orientation-class average keeps only L = 0")
+    print("   [T] The representation theory.  [V] The quadrature.  [S] Entry 297's quotient isotropy.  [O] A class dynamics for the exchange.")
+
 def v35_1_suite():
     v35_1_far_hemisphere_postfreeze(); v35_1_arena_constants_and_fourier(); v35_1_corrections_to_part_xxx(); v35_1_statistics(); v35_1_global_typing()
     v35_1_ideal_rendering_and_fuzz(); v35_1_categorical_susceptibility(); v35_1_structured_corrections(); v35_1_selection_transition()
     v35_1_normalization_and_nucleon_scale()
 
+def v35_2_suite():
+    v35_2_metric_rendering(); v35_2_light_in_the_rendering(); v35_2_infinity_and_conventions(); v35_2_local_equivalence_and_G()
+    v35_2_core_class_average()
+
 def v35_0_suite():
     v35_conveyor_on_native_carrier(); v35_phase_family_and_gate(); v35_dephasing_vs_decay(); v35_lifetimes_from_masses(); v35_generation_transport()
 
 def current_suite_v35():
-    """The current regression suite of Part XXX (v35.0 and v35.1, with the post-freeze controls), followed by the check summary."""
-    v35_0_suite(); v35_1_suite()
+    """The current regression suite of Parts XXX-XXXI (v35.0-v35.2, with the post-freeze controls), followed by the check summary."""
+    v35_0_suite(); v35_1_suite(); v35_2_suite()
     npass = sum(1 for ok, _ in _CHECKS if ok); nfail = len(_CHECKS)-npass
-    print(f"\n== check summary (Part XXX): {npass} passed, {nfail} failed ==")
+    print(f"\n== check summary (Parts XXX-XXXI): {npass} passed, {nfail} failed ==")
     for ok, msg in _CHECKS:
         if not ok: print("   FAILED:", msg)
     return nfail == 0
@@ -11175,7 +11437,9 @@ def current_suite_v35():
 if __name__ == "__main__":
     import sys
     arg = sys.argv[1] if len(sys.argv) > 1 else "current"
-    suites = {"current": current_suite_v35, "v35_0": v35_0_suite, "v35_1": v35_1_suite}
+    suites = {"current": current_suite_v35, "v35_0": v35_0_suite, "v35_1": v35_1_suite, "v35_2": v35_2_suite}
+    if arg not in suites:
+        print("usage: python3 -I pg_v35_numerics.py [" + " | ".join(suites) + "]"); sys.exit(2)
     suites[arg]()
     if arg != "current":
         npass = sum(1 for ok, _ in _CHECKS if ok); print(f"\n== check summary ({arg}): {npass} passed, {len(_CHECKS)-npass} failed ==")
@@ -11185,10 +11449,237 @@ if __name__ == "__main__":
 
 ---
 
-## Round record: the version summaries, v16 to v35.0 (moved from the head of the archive in v34.9, R190)
+# PART XXXI — THE VISIBLE RENDERING: A GRAVITY-DETERMINED, OBSERVER-SELECTED IMAGE OF THE LEAF (v35.2; Entries 297–300) [T/V/D/S/O]
 
-*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+*This part returns to the gravity wing. Part XXIX is frozen at v34.10, and nothing here changes its dynamics, its claim status or the Law II limitation (§XXIX.43(c)). The part continues §XXIX.42's image map and answers a requirement §XXIX.18 left open. The numbers come from `pg_v35_numerics.py` (§XXX.10), round v35.2. Two short pointer notes in the frozen §§XXIX.18 and XXIX.42(f) point here (R238).*
 
+## XXXI.1 The entries, as formulated, and three analyses (14 October 2026) [record; R232]
+
+*The numbering is the author's. Entries 294–296 are not in this record, and no earlier entry carries these numbers.*
+
+- **297 (11:17).** The entry has two ideas, and the author notes that both turn back toward the gravity wing rather than the leptons.
+  - *Our own galaxy, as relayed by light.* As space relayed to us by light, even our own galaxy appears to be something like a stereographic projection. The leaf 3-sphere stays exactly as it is for gravity: the gravity acting on it, the orbits, its closure. "Visible rendered spacetime" is to be the right conformal transformation, a generalized stereographic projection. It should be based on the matter distribution, so that isotropic matter gives an actual stereographic projection and general matter the right generalized conformal transformation. Then light, or something, is to move in it.
+  - *The core.* Rather than treating the near-isotropy of the very interior of the core or primary in middle space as fine tuning, use the fiber-linking, interior-versus-exterior distinction as a probe. The gravity quotient then "blends out" the very centre of the interior directly.
+- **298 (11:28).** Two earlier ideas return here.
+  - Without isotropic matter symmetry, the generalized stereographic projection no longer gives an infinity point.
+  - Whether the projection is centred at the matter point or at its antipodal twin is a convention, since the gravity metric privileges neither. The choice may be drawn from constraints consistent with one's own position, and from the "shear structural integrity" of how the two light-path histories combine at the observer. An observer "born" at the opposite pole would get the other privileging.
+- **299 (11:34).** The matter-dependent generalized projection is really determined by the metric of the gravity base alone, not by the stress-energy. The observer's own "initial conditions" — the nature of the observer's position and its local character — then enable the convention difference by some kind of outward extrapolation.
+- **300 (11:45).** A constraint on all of this. At every zoomed-in point of the leaf, on scales small against $\ell$ such as our own, the 3-sphere might as well be flat, so the Einstein equations would seem to apply even to the visible generalized projection. The actual Einstein equations apply to the 3-sphere through the gravity base, and matter and its geodesics live simply there. But because visible space performs the generalized projection, up close — the Solar System's orbits, say — the Einstein equations and geodesics "seem" to apply to the visible geometry directly. One open question: would this change the length scale of the Einstein equations, the gravitational constant itself?
+
+Three analyses accompanied the entries.
+- *The first.*
+  - It agreed that our own galaxy should be rendered by the same rule, $h_{\rm vis} = \sec^4(\chi/2)\,h_g$. It proposed a matter-conditioned generalization $\sec^4(\chi/2)\,e^{2u}h_g$, with a toy screened Poisson equation for $u$.
+  - It separated an optical reconstruction from an independent propagation metric. A literal Fermat metric with lapse $\cos^2(\chi/2)$ sends the antipode to infinite light time.
+  - It noted that flattening a general 3-metric by a conformal factor needs a vanishing Cotton tensor.
+  - For the core it proposed a heat-kernel mixing $e^{t\Delta}$ on the direction sphere. It warned that any averaging must respect the base Bianchi identity and cannot supply the Law II force.
+- *The second.*
+  - It read Entry 299 as $g_{\rm vis} = \mathcal R[g_B;I_A,\Gamma]$: the gravity base fixes the admissible renderings, and the observer's data and history class select one.
+  - It gave the radial prescription $d\ln\rho/dr = 1/a(r)$, which returns stereographic projection on the round leaf, and the two conventions $\rho_\pm$ with $\rho_+\rho_- = 4\ell^2$.
+  - It proposed a regularized family $4h_B/(1+\cos\chi+\varepsilon_A)^2$, in which asymmetry would remove the infinity.
+- *The third.*
+  - It separated local observational equivalence from exact Einstein-equation equivalence, gave the near-origin expansions and the conformal transformation of the Einstein tensor, and proposed a local-calibration principle.
+  - It wrote the inferred coupling $G_{\rm inferred} = G\lambda^3/(\tau^2\mu)$ under rescaled lengths, times and masses, and $G\rho/r$ for a Kepler toy read at the stereographic radius.
+
+## XXXI.2 Where this attaches [D; R232]
+
+- *§XXIX.42, the image map of another galaxy.* It is matter-centred, with "the optical law to derive". Its (f) adds: "Nor does it explain the Milky Way's own curve, which is measured from inside … without any other-galaxy projection." Entry 297 now extends the rendering to our own galaxy, seen from inside.
+- *§XXIX.18.* A galaxy-scale round $S^3$ carrying the base metric as its optical geometry conflicts with observation (antipodal refocusing after $\pi\ell$; the cap), so the readout "must differ from the pullback globally while agreeing with it locally". Entry 297's rendering is a candidate of that kind; §XXXI.4(d) finds it can be a readout only, which does not remove the refocusing from the rays.
+- *§XXIX.20, Option B.* A wholly stereographic Euclidean geometry was rejected as the *matter* geometry, because it changes the circular speeds ($\sin\chi\,N'/N$ against $\tan\chi\,N'/N$). Entry 297 uses that geometry for light alone, with matter on the round leaf — a different proposal.
+- *§XXIX.35(a).* A four-dimensional conformal factor of the light metric is unobservable. A visible effect needs a spatial (Fermat) change or a readout.
+- *§§XXII.12, XXIX.10.* The pole's direction sphere is the gravity slice. A pole mass has no canonical base image, and the uniform image is an isotropic-core prescription with an observable-specific tolerance.
+- *The seed.* "Light resolves a representative in $B_{\rm rep}$; gravity resolves only its meridian class in $B_{\rm grav}$" (the archive's opening note). Entry 297's core idea is this slogan applied to the core (§XXXI.7).
+- *§§VIII.3, XXII.13.* The value of $G$ is the theory's emergent-$G$ question, kept apart.
+
+## XXXI.3 The rendering fixed by the gravity base (Entry 299) [T/V/D; R233] *(`v35_2_metric_rendering()`)*
+
+**(a) Exact flattening of the weak-field leaf [T].** The leaf metric of §XXIX.18 is $-N^2dt^2+\phi^4g_{S^3}$, with $\phi^4 = 1+4\psi$. Its spatial part is conformally round for any $\psi$, so
+$$h_{\rm vis} = \sec^4(\chi_O/2)\,\phi^{-4}\,h_B$$
+is exactly flat for any source, isotropic or not, where $\chi_O$ is the angle from the chosen image origin $O$. The generalized stereographic rendering of Entry 299 therefore exists, is fixed by the metric alone, and is unique up to the Möbius group: the choice of the point sent to infinity, and a similarity. The first analysis's caveat — that conformal flattening needs a vanishing Cotton tensor — does not bite for this ansatz. It would bite beyond it — rotation, anisotropic stress, second order in $\psi$, or any metric outside the ansatz — where the visible geometry would be curved (open).
+
+**(b) Matter's share [V].** Matter enters only through $\phi^{-4} = 1-4\psi$. For the benchmark galaxy ($r_d^{\rm (st)}/\ell = 0.1$, $\ell = 16$ kpc, $\mu = GM/c^2\ell = 1.7946\times10^{-7}$), $\psi/\mu$ spans $-0.4273$ to $+1.0289$ over the leaf. The matter factor therefore varies by $4\mu\,\Delta(\psi/\mu) = 1.05\times10^{-6}$.
+
+So the rendering is the round stereographic map to one part in a million. A galaxy's image keeps its shape because its matter is mapped by the round projection, not because a matter-dependent factor distorts it. Entry 299's move from stress-energy to metric makes the rendering essentially universal at weak fields. The matter-dependence Entry 297 imagined is real only through $\ell$ itself, and in strong fields.
+
+**(c) The radial prescription [T/V].** For a rotationally symmetric leaf $h = dr^2+a(r)^2d\Omega^2$, the flattening radius solves $d\ln\rho/dr = 1/a$. On the round leaf this gives $\rho = 2\ell\tan(r/2\ell)$ (checked to $9\times10^{-14}$). For $\phi^4g_{S^3}$ the flattening coordinate is still $\tan(\chi/2)$, whatever $\psi$: it depends on the conformal class only.
+
+**(d) A second metric-only reading, and where the two part [T/V].** On the round leaf the stereographic radius is the *harmonic mean* of the two distances an observer measures there:
+$$\rho = \frac{2D_AD_{\rm par}}{D_A+D_{\rm par}},\qquad D_A = \ell\sin\chi,\quad D_{\rm par} = \ell\tan\chi$$
+(to $5\times10^{-15}$ at $\chi = 0.5$, $1.2$, $\pi/2$, $2.5$, $3.0$). In the Jacobi language, $1/\rho$ is the average of the bundle's slope at its two ends, divided by its width. The harmonic mean is regular through the equator, where $D_{\rm par}$ passes through infinity, and continues into the far hemisphere.
+
+For $h = dr^2+a^2d\Omega^2$ the harmonic mean $2a/(1+a')$ equals the flattening radius iff $aa''-a'^2+1 = 0$, i.e. iff the radial and tangential curvatures are equal (a space form). With the benchmark's matter the two split by up to $6.6\times10^{-6}$ on $\chi\leq3$ (against $4\times10^{-15}$ without matter), amplified near the antipode, where $1+a'\to0$.
+
+So there are two metric-only generalizations of stereographic projection: the exact flattening, and an operational one built from measured distances. They agree on the round leaf and differ at order $\mu$. Which one is "visible" is a choice until a readout law selects it **[D]**.
+
+## XXXI.4 Light in the rendering (Entry 297) [T/V/D; R234] *(`v35_2_light_in_the_rendering()`)*
+
+**(a) What "light moves in the rendering" would mean [T].** In a static spacetime rays are geodesics of the Fermat metric $h/N^2$. For rays to be straight in the stereographic image, $h_B/N^2$ must be flat. That can come either from a *lapse* $N = \cos^2(\chi/2)$ or from an *index* $n = \sec^2(\chi/2)$ at $N = 1$. Either way the light time to angle $\chi$ is $2\ell\tan(\chi/2)/c$, the image distance, which diverges at the image's point at infinity. A four-dimensional conformal factor would change no ray (§XXIX.35(a)).
+
+**(b) The lapse form is excluded [V].** A lapse $\cos^2(\chi/2)$ normalized at the observer would redshift the Galactic Centre by $z = 0.0756$, i.e. $22{,}651$ km/s at $\ell = 16$ kpc (with $\chi$ from the base optics; reading the S2 distance as an image distance gives $z = 0.065$), with a matching gradient across the inner Galaxy. Galactic Centre gas and stars show line-of-sight velocities within a few hundred km/s, and the S2 star's spectra match general relativity's pericentre redshift of about $200$ km/s (GRAVITY 2019).
+
+**(c) The index form is excluded as a physical medium [V].** An index $n>1$ makes light slower than matter's limiting speed, so charged particles faster than $c/n$ radiate (vacuum Cherenkov). With $n-1 = r^2/(4\ell^2)$ at distance $r$ from the index's centre, the threshold $1/(2\gamma^2)$ is crossed beyond $r = \sqrt2\,\ell/\gamma$. At $\ell = 16$ kpc:
+
+| particles | threshold radius |
+|:--|:--|
+| GeV electrons | $11.6$ pc |
+| PeV protons | $\approx 4400$ AU ($0.02$ pc) |
+| $10^{20}$ eV protons | $0.044$ AU |
+
+The Galaxy is filled with GeV electrons (its synchrotron emission), and cosmic rays reach us from kpc distances. A physical index of this size is therefore excluded everywhere beyond a few parsecs of its centre. At the centre itself, ultra-high-energy cosmic rays bound an isotropic vacuum index excess below $6\times10^{-20}$ at $2\sigma$ (Klinkhamer and Schreck 2008; the opposite sign below $9\times10^{-16}$), which confines the image origin to within $2\ell\sqrt{6\times10^{-20}} = 1.6$ AU of the observer. The published bound allows for heavy primaries; for proton primaries the $10^{20}$ eV row would confine it to $0.044$ AU. An index centred on each observer is not a single medium.
+
+Independently, if gravity stayed unrendered, a light-only index would add $(2-\pi/2)\ell = 6.87$ kpc of optical path at $\ell = 16$ kpc along an assumed path from the leaf's equator to the observer. That is $22{,}400$ years of delay, against GW170817's $1.7$ s between gravitational waves and light over $40$ Mpc (Abbott et al. 2017).
+
+**(d) What survives: a readout [D].** Light cannot move in the image. Entry 297's rendering survives only as an observer-relative *readout* of base rays: a way of drawing what arrives, not a propagation. Every measured direction, parallax and angular size is then the base's. In particular the readout cannot remove from the rays the refocusing after $\pi\ell$ that §XXIX.18 found in conflict with observation. It can only combine the base's histories at the observer. So Entry 297 does not by itself solve §XXIX.18's problem; that remains open, with the rendering as its bookkeeping.
+
+**(e) The base optics meets data inside our galaxy [V].** On a round leaf the parallax distance is $\sec\chi$ times the angular-diameter distance. The S2 orbit gives an angular-diameter distance to the Galactic Centre: the orbit's angular size against its physical size from orbital speed and period. It reads $8.178\pm0.026$ kpc (GRAVITY Collaboration 2019). At $\ell = 16$ kpc the ratio is $\sec\chi = 1.1635$, so the parallax distance would be $9.51$ kpc.
+- *The direct test.* The one trigonometric parallax at the Galactic Centre, Sgr B2's, gives $R_0 = 7.9^{+0.8}_{-0.7}$ kpc (Reid et al. 2009). The prediction at $\ell = 16$ kpc is $+2.0\sigma$ from it, and the $2\sigma$ bound is $\ell\geq16.1$ kpc. The benchmark sits at the edge.
+- *An optimistic reading.* The maser $R_0$ of Reid et al. 2019, $8.15\pm0.15$ kpc, is a fit of a rotation model to about 200 parallaxes, mostly a few kpc away. It is not a parallax distance to the Centre. Read optimistically as one, the ratio is $0.9966\pm0.0186$ and would need $\ell\geq32.3$ kpc at $2\sigma$.
+- *The arena law.* $\ell = 3\sqrt{GM/a_0}$ (§XXIX.42(e)) gives $25.0$ kpc at $6\times10^{10}M_\odot$ ($+3.3\sigma$ on the optimistic reading) and $32.3$ kpc at $10^{11}M_\odot$ ($+2.0\sigma$). The Milky Way's mass matters.
+
+The real test is a refit of the maser parallaxes in curved space, with $\ell$ free. It is the first place where the leaf's radius meets data inside our own galaxy.
+
+**(f) How many histories [T].**
+- A flat rendering joins two points by one straight line: one history. The base's long-way history from a source to an observer $A$ runs through $A$'s antipode, which an observer-centred flat rendering sends to infinity.
+- A compact rendering, without a point at infinity, has infinitely many geodesics between any two points (Serre 1951).
+- The base rays themselves carry the direct and long-way histories (and windings) at finite length, and refocus after $\pi\ell$ ($50.3$ kpc at $\ell = 16$ kpc).
+
+**What the section settles.** Entry 297's "light moves in this" fails in both forms: the lapse by the Galactic Centre's redshift, the index by vacuum Cherenkov along cosmic-ray paths (and by GW170817 if gravity stays unrendered). The rendering survives as a readout of base rays. The optics is then the base's, with its two histories and its refocusing. The Galactic Centre gives $\ell_{\rm MW}\gtrsim16$ kpc from the direct parallax, and up to $\gtrsim32$ kpc if the kinematic $R_0$ is read as a parallax distance.
+
+## XXXI.5 The point at infinity and the two conventions (Entries 298–299) [T/V/S; R235] *(`v35_2_infinity_and_conventions()`)*
+
+**(a) The infinity is topological [T].** No flat metric exists on $S^3$ or $\mathbb{RP}^3$: a complete flat simply connected 3-manifold is $\mathbb R^3$, and compact flat 3-manifolds have infinite fundamental group. Every flat rendering of the leaf therefore sends at least one point to infinity; an $\mathbb{RP}^3$ leaf needs more, a cut or a rendering of its $S^3$ cover, since the antipodal map is conjugate to no Euclidean isometry.
+
+The flattenings of the round leaf form the Möbius family $\Omega = \lambda\sec^2(\chi_O/2)$, whose infinity point is the antipode of the image origin $O$. Rotations about the matter pole fix exactly two points, the pole and its twin. The symmetric flattenings are therefore exactly the two conventions of Entry 298, related by the inversion $\rho_+\rho_- = 4\ell^2$. Anisotropy removes the *symmetric choice* of the infinity point, not the infinity.
+
+**(b) The observer selects the chart [T/V].** $|\nabla\ln\Omega| = \tan(\chi_O/2)/\ell$ (checked at $200$ random points to $9\times10^{-10}$), which vanishes only at $O$. So the local conditions $\Omega(A) = 1$ and $\nabla\Omega(A) = 0$ — the third analysis's local-calibration principle, which Entry 300's local picture motivates — select one flattening: the observer-centred one, which sends $A$'s own antipode to infinity. That is Entry 299's selection by the observer's initial conditions, made exact under that principle.
+- An observer at the matter pole gets the matter-centred convention, and one at the twin pole the twin-centred one, matching Entry 298's "born at the opposite pole" under this principle (not derived from the history pair).
+- An observer elsewhere gets neither.
+- For the benchmark observer 8 kpc (proper) from the matter pole, the Galactic Centre lies at $8.171$ kpc in the observer's own chart, and the twin's centre at $4\ell^2/\rho = 125.3$ kpc toward the anticentre — dark under the barren-twin readout.
+- In the matter-centred chart the same observer would carry $\Omega = 1.0652$ and a gradient of $0.0160$ per kpc of base length.
+
+The local calibration here is a principle. Since light does not move in the image (§XXXI.4(d)), it is a property of the readout, not one enforced by a medium. How the history pair's "shear structural integrity" would supply it remains Entry 298's proposal **[S]**.
+
+**(c) Removing the infinity costs flatness [T/V].** Any regular factor gives a compact, curved space, which has infinitely many geodesics between two points (Serre). In the Möbius-type family $(a+b\cos\chi_O)^{-2}$ the result has constant sectional curvature $(a^2-b^2)/\ell^2$ (scalar curvature $6(a^2-b^2)/\ell^2$). The three cases:
+- $a>\lvert b\rvert$: a round sphere of radius $\ell/\sqrt{a^2-b^2}$;
+- $a = \lvert b\rvert$: flat (stereographic);
+- $a<\lvert b\rvert$: hyperbolic, out to its conformal boundary at $\cos\chi_O = -a/b$ (at infinite distance), beyond which nothing is rendered in this chart.
+
+The analyses' family $4h_B/(1+\cos\chi+\varepsilon)^2$ is the first case, with radius $2\ell/\sqrt{2\varepsilon+\varepsilon^2}$:
+
+| $\varepsilon$ | scalar curvature, at origin, equator and antipode (kpc$^{-2}$) | radius | antipode at $\pi R$ |
+|:--|:--|:--|:--|
+| $0.01$ | $1.1777\times10^{-4}$ at all three | $225.71$ kpc | $709.09$ kpc |
+| $0.1$ | $1.2305\times10^{-3}$ at all three | $69.83$ kpc | $219.38$ kpc |
+
+The hyperbolic example $a = 0.4$, $b = 0.5$ has scalar curvature $-0.54/\ell^2$ throughout, with its conformal boundary at $\chi = 2.498$.
+
+Within this family, then, a rendering without an infinity is a round leaf again — larger than the base when $a^2-b^2<1$. Its geodesics refocus at $\pi R$ and the long-way history returns. A general regularization gives a curved compact space with the same consequence for histories. Flat stereographic rendering is the boundary between the spherical and hyperbolic cases, the one-history case. It is analogous to the joined-history limit Entry 277 proposed for the frozen metric (§XXIX.35), which is local rather than a global chart. Since the rendering is a readout (§XXXI.4(d)), none of these changes what the rays do.
+
+**(d) What the section settles.** Entry 298's "without isotropy there is no infinity point" becomes three statements:
+1. A flat rendering always has an infinity point. Isotropy picks it symmetrically, as the matter pole or the twin.
+2. Removing it requires a compact, curved rendering, which brings back refocusing and the second history.
+3. The observer's local calibration picks the observer-centred flat chart, which reduces to Entry 298's matter or twin convention only for an observer at a pole.
+
+The archive's two-history readout and its flat Euclidean appearance are in tension. A flat image has one history, and a two-history image is curved.
+
+## XXXI.6 Local Einstein behaviour and the gravitational constant (Entry 300) [T/V/S; R236] *(`v35_2_local_equivalence_and_G()`)*
+
+**(a) Why the image looks Einsteinian up close [V].** Near the image origin, $\rho = r+r^3/(12\ell^2)+\dots$ and $\Omega^2 = 1+r^2/(2\ell^2)+\dots$. Across $100$ AU, $r^2/(2\ell^2) = 4.6\times10^{-16}$ at $\ell = 16$ kpc.
+
+**(b) But the image is not an Einstein solution [T/V].** How far it is from one depends on which image spacetime is meant.
+- *A four-dimensional conformal image* (the lapse form). Under $g\to e^{2\phi}g$ the Einstein tensor gains $-2\nabla\nabla\phi+2\,d\phi\,d\phi+g\,(2\Box\phi+\lvert d\phi\rvert^2)$ [standard], and timelike geodesics feel $-c^2\nabla\ln\Omega$. The stereographic factor's Hessian at the origin is $1/(2\ell^2)$, so matter on image geodesics would feel an extra tide $c^2/(2\ell^2) = 1.84\times10^{-25}$ s$^{-2}$. That is $4.7\times10^{-12}$ of the Sun's tide at 1 AU — invisible in the Solar System — but $2.2\times10^5$ times the in-plane Galactic tide at the Sun, $(229\ {\rm km/s}/8.178\ {\rm kpc})^2 = 8.24\times10^{-31}$ s$^{-2}$ (the vertical tide, $4\pi G\rho_0$, is about 7 times larger).
+- *A spatial image at fixed lapse* (the index form). Slow matter keeps the base potential, and image geodesics differ through the spatial connection, by about $v^2\lvert\nabla\ln\Omega\rvert$. At the Sun in the matter-centred chart that is $2.7\times10^{-11}$ m/s$^2$, $0.13$ of its Galactic acceleration $v^2/R$. In the observer's own chart it grows as $v^2r/(2\ell^2)$ away from the observer.
+
+The curvature difference, about $1/\ell^2 = 4.1\times10^{-42}$ m$^{-2}$, is $9.3\times10^{-12}$ of the Sun's at 1 AU.
+
+So Entry 300's picture holds as stated, in either reading. The Einstein equations act on the base, where matter and its geodesics live, and the image inherits their local appearance to these orders. On galactic scales matter must move on the base. The image is a readout of the base's dynamics, not a second dynamical metric.
+
+**(c) The gravitational constant [T/V].** Rescaling lengths, times and masses by $(\lambda,\tau,\mu)$ gives $G_{\rm inferred} = G\lambda^3/(\tau^2\mu)$ (checked).
+- Material rulers, clocks and radar use the base, the rendering being a readout, so the coupling and its local measurements are unchanged, to $(L/\ell)^2$.
+- A Kepler toy read at the image radius gives $G\rho/r$: $1.0214$ at 8 kpc, and $4/\pi = 1.2732$ at the equator. That is an artifact of applying the image geometry to unrendered speeds, not a new coupling.
+- An uncalibrated matter-centred chart at the Sun ($\lambda = 1.0652$, $\tau = \mu = 1$) would give $1.209\,G$.
+
+Whether the coupling itself has an origin in the geometry remains §VIII.3's question, and §XXII.13 keeps it out of the lepton branch. The rendering answers Entry 300's question in the negative: it does not change $G$, only what an uncalibrated observer would infer.
+
+## XXXI.7 The core: isotropy as a class average (Entry 297, second idea) [T/V/S/O; R237] *(`v35_2_core_class_average()`)*
+
+**(a) The object.** By §XXII.12 the pole's direction sphere $S^3_p$, with orientation forgotten, is the gravity slice. A core's directional measure is therefore the closure source over the whole base. Its departure from uniformity has the observable-specific tolerance of §XXIX.10(g): $\lvert a\rvert\leq\tfrac{45}{8}f\mu$ for a degree-two anisotropy, which is $1.0\times10^{-6}$ at $f = 1$ for the compact benchmark. That is why its near-uniformity looks like fine tuning.
+
+**(b) What the Hopf fibres average [T/V].** Suppose the canonical $\mathbb C^2$ structure makes $S^3_p\to S^2_p$ the Hopf fibration, as §XXII.12 conditions. Then the fibres are the linked meridian families, and averaging the core's measure along them keeps exactly the pulled-back $S^2$ harmonics. For degree $L$ the dimensions are $(L+1)^2$ and, for the part kept, $L+1$ (even $L$) or $0$ (odd $L$). These were computed as traces of the projector for $L = 0,\dots,6$: $1,0,3,0,5,0,7$.
+
+So the fibres remove a fraction $L/(L+1)$ of a generic degree-$L$ anisotropy, not all of it. §XXIX.10(g)'s zonal quadrupole $(4\cos^2\chi-1)/3$ averages to $z_S/3$, an $S^2$ dipole (to $2\times10^{-16}$), keeping $1/3$ of its norm squared. Linking alone cannot supply the isotropy the tolerance demands.
+
+**(c) What the orientation class averages [T].** Now average over the orientation class: the $SU(2)$ that commutes with the fibres and rotates their base $S^2$. That group is transitive on $S^3$, so only $L = 0$ survives (every degree-6 basis function has mean $3\times10^{-15}$). The result is exact isotropy, with no tuning.
+
+This is the seed's "gravity resolves a class" applied to the core, and §XXII.12's "gravity sees the invariant". §XXII.13 calls the core "the parent symmetric phase" and the exterior "the selected rendering phase". The class average is the natural gravitational image of a phase in which no orientation is selected **[S]**. Entry 297's idea is coherent in this form — the gravity quotient sees the orientation class of the core — and not in the form "the Hopf linking averages", which is partial.
+
+**(d) Conservation, and the exchange [T/O].** An average over isometries of the round background preserves conservation, since $\nabla$ commutes with isometries, so the class-averaged image of an isolated core is conserved. The exchange is not: an averaged core exerts no quadrupole torque on a secondary, while the secondary still torques the actual core. Angular momentum then balances only if the core's response is averaged too — a *class dynamics*, which is not built.
+
+This is v34's lesson again: a quotient operation is not a dynamics (§XXIX.40(c)), and the class average does not supply the Law II force.
+
+**(e) The analyses' smoothing, for comparison [V].** Heat-kernel mixing $e^{-tL(L+2)}$ keeps $0.2231$, $0.0183$ and $5.5\times10^{-4}$ of $L = 1$, $2$, $3$ at $t = 0.5$. Reaching $10^{-6}$ at $L = 2$ needs $t\geq\ln(10^6)/8 = 1.727$. That smoothing is chosen, not derived from the linking.
+
+## XXXI.8 Standing, program and falsifiers [S/O; R238]
+
+**Recorded as premises [S]:**
+- the visible rendering as a gravity-determined conformal image of the leaf, with matter, orbits and the Einstein equations on the base (Entries 297, 299, 300);
+- the observer's selection of the chart (Entries 298–299);
+- the core's gravitational image as its orientation-class average (Entry 297).
+
+**Established here.**
+- [T] Exact flattening of the weak-field leaf by the metric alone.
+- [T] The harmonic-mean identity.
+- [T] The topological infinity.
+- [T] Local calibration selects the observer-centred chart.
+- [T] Symmetric regularizations are constant-curvature spaces.
+- [T] One history for flat renderings, several for compact ones.
+- [T] The Hopf-fibre and orientation-class averages.
+- [V] Light cannot move in the image: the lapse form excluded by the Galactic Centre's redshift, the index form by vacuum Cherenkov (and by GW170817 if light-only).
+- [D] The rendering as an observer-relative readout of base rays, which leaves §XXIX.18's refocusing in place.
+- [V] The Galactic Centre test of the base optics: Sgr B2's parallax gives $\ell_{\rm MW}\gtrsim16$ kpc at $2\sigma$; the kinematic maser $R_0$, read optimistically as a parallax distance, $\gtrsim32$ kpc.
+- [V] The image's departure from Einstein dynamics, negligible in the Solar System and dominant on galactic scales, in both readings.
+
+**Program.**
+1. A refit of the maser parallaxes on the round leaf with $\ell$ free, and one forward image (§XXIX.43(f)) of our own galaxy seen from inside: the Milky Way's curve in the observer's chart, the Galactic Centre's distances, and parallax against photometric distances at a few kpc.
+2. The readout law itself: how the base's histories combine at the observer, and what it does with the refocusing §XXIX.18 found in conflict with observation.
+3. A selection law that derives the observer-centred chart from the history pair (Entry 298's shear and two-history data).
+4. A class dynamics for the core, in which the average includes the exchange, the Bianchi identity and the torque balance.
+
+**Falsifiers.**
+- A Galactic Centre parallax distance more than $3\sigma$ below $\sec\chi\,D_A$ for the adopted $\ell_{\rm MW}$ (Sgr B2 is now $2.0\sigma$ below at $\ell = 16$ kpc).
+- A tide of order $c^2/\ell^2$ in galactic dynamics, which would refute matter on the base.
+- A core anisotropy above tolerance once the forcing is known.
+
+**Not claimed.** No derivation of the rendering from the history pair, no readout law, and no change to the frozen dynamics or to the Law II limitation.
+
+**Pointer notes in the frozen text.** Two pointer notes are added, both carrying R238.
+- §XXIX.18: Entry 297's rendering is a candidate readout; light cannot move in it, and it does not remove the refocusing (§XXXI.4).
+- §XXIX.42(f): Entry 297 extends the rendering to our own galaxy, seen from inside.
+
+---
+
+## Round record: the version summaries, v16 to v35.2 (moved from the head of the archive in v34.9, R190)
+
+*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+
+> **v35.2 — the visible rendering: a gravity-determined, observer-selected image of the leaf (Entries 297–300, with three analyses; 14 October 2026).**
+>
+> *What was asked.* The author turned back to the gravity wing.
+> - Our own galaxy, as relayed by light, may itself be a generalized stereographic projection of the leaf, with light moving in it while gravity, orbits and closure stay on the 3-sphere.
+> - The rendering should be fixed by the gravity base's metric, not the stress-energy.
+> - The matter-or-twin convention should be selected by the observer's own position, and without isotropy there would be no infinity point.
+> - Locally the Einstein equations would seem to hold in the image; would $G$ change?
+> - The core's near-isotropy might come from the gravity quotient blending out its centre rather than from fine tuning.
+>
+> **What v35.2 does (R232–R239; Part XXXI).**
+> - The weak-field leaf is flattened exactly by the metric alone, for any source; matter changes the rendering by one part in a million. On the round leaf the stereographic radius is the harmonic mean of the angular-diameter and parallax distances.
+> - Light cannot move in the image. A lapse would redshift the Galactic Centre by $22{,}651$ km/s; an index would make cosmic-ray electrons radiate Cherenkov light beyond $12$ pc of its centre (and, if light-only, delay light behind gravitational waves by $22{,}400$ years). The rendering survives as an observer-relative readout of base rays, so the optics is the base's and §XXIX.18's refocusing stays.
+> - The base optics meets the Galactic Centre: at $\ell = 16$ kpc the parallax distance should be $1.16$ times the S2 distance, $9.5$ kpc. Sgr B2's parallax ($7.9^{+0.8}_{-0.7}$ kpc) sits $2.0\sigma$ below, so $\ell_{\rm MW}\gtrsim16$ kpc; the kinematic maser $R_0$, read optimistically as a parallax distance, would need $\gtrsim32$ kpc.
+> - A flat rendering always has a point at infinity; isotropy picks the matter pole or the twin, and local calibration picks the observer's own chart. Removing the infinity costs flatness; in the symmetric family it gives back a round sphere.
+> - The image looks Einsteinian locally, but its dynamics would depart from the base's on galactic scales in either reading, so matter moves on the base and $G$ is unchanged.
+> - The Hopf fibres average a core's anisotropy only partly; its orientation class averages it exactly — the seed's "gravity resolves a class" — but the exchange with other matter then needs a class dynamics.
+>
+> **Next.** A curved-space refit of the maser parallaxes with $\ell$ free, and one forward image of our own galaxy from inside; the readout law, and what it does with the refocusing; a selection law for the chart from the history pair; a class dynamics for the core.
+>
 > **v35.1 — a correction and one construction (three referee reports; Entries 288–293; 13 October 2026).**
 >
 > *What was asked.*
