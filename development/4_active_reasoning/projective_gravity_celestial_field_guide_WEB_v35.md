@@ -1,8 +1,8 @@
-# Projective Gravity — Version 35.2 (draft): the hyper-canonical completion, the charged-lepton cycle and the visible rendering
+# Projective Gravity — Version 35.3 (draft): the hyper-canonical completion, the charged-lepton cycle and the visible rendering
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases — with branches on charge and extremality, and on rendering and canonical optics
 
-**Claim status of Parts XXX–XXXI (v35.2).** This table governs the open work: Part XXX (the hyper-canonical completion and the charged-lepton cycle) and Part XXXI (the visible rendering of the leaf). Parts 0–XXIX are frozen — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10 — and their claim status is the frozen table that follows this one, unchanged except for marked post-freeze notes. Post-freeze notes correct them without rewriting them: two erratum notes in §§XXI.4–4a (R211), clarification notes in §§XXIX.40(e), XXIX.41(d), XXIX.42(g) and XXIX.43(b) (R212–R216, §XXX.12), and two pointer notes in §§XXIX.18 and XXIX.42(f) (R238, Part XXXI). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*. Rows changed in v35.1 or added in v35.2 carry their register number.
+**Claim status of Parts XXX–XXXI (v35.3).** This table governs the open work: Part XXX (the hyper-canonical completion and the charged-lepton cycle) and Part XXXI (the visible rendering of the leaf). Parts 0–XXIX are frozen — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10 — and their claim status is the frozen table that follows this one, unchanged except for marked post-freeze notes. Post-freeze notes correct them without rewriting them: two erratum notes in §§XXI.4–4a (R211), clarification notes in §§XXIX.40(e), XXIX.41(d), XXIX.42(g) and XXIX.43(b) (R212–R216, §XXX.12), and two pointer notes in §§XXIX.18 and XXIX.42(f) (R238, Part XXXI; the first corrected in v35.3, R243). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*. Rows changed or added since v35.1 carry their register number.
 
 | claim | type | evidence | archive |
 |:--|:--|:--|:--|
@@ -32,7 +32,7 @@
 | The weak-field leaf ($-N^2dt^2+\phi^4g_{S^3}$) is flattened exactly by the metric alone, for any source: $h_{\rm vis} = \sec^4(\chi_O/2)\phi^{-4}h_B$, unique up to Möbius; matter enters at $4\mu\Delta(\psi/\mu) = 1.05\times10^{-6}$ for the benchmark (R233) | analytic theorem; numerical control | — | §XXXI.3(a)–(c) |
 | On the round leaf the stereographic radius is the harmonic mean of the angular-diameter and parallax distances; the two metric-only readings coincide iff the leaf is a space form, and split by up to $6.6\times10^{-6}$ with the benchmark's matter (R233) | analytic theorem; numerical control | to $5\times10^{-15}$ | §XXXI.3(d) |
 | Light cannot move in the image: rays straight in it need a lapse $\cos^2(\chi/2)$ (excluded: a $22{,}651$ km/s Galactic Centre redshift) or an index $\sec^2(\chi/2)$ (excluded as a medium: vacuum Cherenkov beyond $11.6$ pc for GeV electrons, the centre within $1.6$ AU of the observer; and a $22{,}400$-year light–GW delay if light-only); the rendering survives as an observer-relative readout of base rays, which leaves §XXIX.18's refocusing in place (R234) | analytic theorem; numerical control with measured bounds; readout a [D] reading | Klinkhamer & Schreck 2008; Abbott et al. 2017 | §XXXI.4(a)–(d) |
-| The base optics at the Galactic Centre: parallax distance $\sec\chi = 1.1635$ times the S2 angular-diameter distance at $\ell = 16$ kpc ($9.51$ kpc); Sgr B2's parallax $7.9^{+0.8}_{-0.7}$ kpc is $+2.0\sigma$ from it ($\ell_{\rm MW}\geq16.1$ kpc at $2\sigma$); the kinematic maser $R_0$, read optimistically as a parallax distance, would need $\ell_{\rm MW}\geq32.3$ kpc (R234) | numerical control with measured inputs (indicative) | GRAVITY 2019; Reid et al. 2009, 2019 | §XXXI.4(e) |
+| The base optics at the Galactic Centre: parallax distance $\sec\chi = 1.1635$ times the S2 angular-diameter distance at $\ell = 16$ kpc ($9.51$ kpc); Sgr B2's parallax $7.9^{+0.8}_{-0.7}$ kpc is $+2.0\sigma$ from it ($\ell_{\rm MW}\geq16.1$ kpc at $2\sigma$); the kinematic maser $R_0$, read optimistically as a parallax distance, would need $\ell_{\rm MW}\geq32.3$ kpc (R234); if the LMC lies on the Milky Way's leaf, the cap of §IV.8 bounds the radius more strongly, $\ell_{\rm MW}\ge48.5$ kpc (R243) | numerical control with measured inputs (indicative) | GRAVITY 2019; Reid et al. 2009, 2019; Pietrzyński et al. 2019 | §XXXI.4(e); §XXXI.13 |
 | A flat rendering has one history between two points; a compact one has infinitely many (Serre); the base rays refocus at $\pi\ell$ whatever the rendering (R234) | analytic theorem | standard | §XXXI.4(f) |
 | A flat rendering of $S^3$ needs a point at infinity (of $\mathbb{RP}^3$, a cut or its cover); isotropy picks it as the matter pole or the twin (Entry 298's conventions); local calibration selects the observer-centred chart uniquely (R235) | analytic theorem; numerical control | $\lvert\nabla\ln\Omega\rvert = \tan(\chi_O/2)/\ell$ | §XXXI.5(a)–(b) |
 | Removing the infinity costs flatness (compact and curved: several histories, Serre); the family $(a+b\cos\chi_O)^{-2}$ gives constant sectional curvature $(a^2-b^2)/\ell^2$: round (radius $\ell/\sqrt{a^2-b^2}$), flat, or hyperbolic to a conformal boundary; the analyses' $\varepsilon$-family is a round $S^3$ of radius $2\ell/\sqrt{2\varepsilon+\varepsilon^2}$ (R235) | analytic theorem; numerical control | curvature constant to $10^{-9}$ | §XXXI.5(c) |
@@ -40,6 +40,17 @@
 | The Hopf-fibre average keeps $L+1$ of $(L+1)^2$ degree-$L$ harmonics (even $L$), none (odd $L$); the orientation-class average keeps only $L = 0$; the exchange with a secondary needs a class dynamics (R237) | analytic theorem; numerical control; open bridge | projector traces $1,0,3,0,5,0,7$ | §XXXI.7 |
 | The rendering as a gravity-determined, observer-selected conformal image; the core's gravitational image as its orientation-class average (R232, R238) | specified physical premise | — | §§XXXI.1, XXXI.8 |
 | A readout law combining the base's histories at the observer, and what it does with the refocusing; a selection law for the chart from the history pair; a curved-space refit of the maser parallaxes; the class dynamics of the core; one forward image of our own galaxy (R238) | open bridge | — | §XXXI.8 |
+| **The home view, the gateway view and the overlay (Part XXXI, continued; the note of 14 October)** | | | |
+| Each image's two optical distances, signed, give its stereographic radius on every branch, $2D_AD_{\rm par}/(D_A+D_{\rm par}) = 2\ell\tan(s/2\ell)$; the stereographic readout reads every history of a source (direct, long-way, wound) at one point; injectivity forces the observer's antipode to infinity, and among radial readouts conformality with local calibration fixes the readout; reading the distances needs a standard ruler and the image's focus parity (R241) | analytic theorem; numerical control | residuals $8\times10^{-14}$, $2\times10^{-14}$ | §XXXI.11(a)–(c), (e) |
+| The base's two histories along a projective line, read stereographically, are the branch family of §XXIX.29(a): the inverted copy $-4\ell^2x/\lvert x\rvert^2$ outside $2\ell$, meeting the home ball on the image of the cut locus; the Galactic Centre's twin image at $125.32$ kpc, dark under the barren-twin readout (R241) | analytic theorem; numerical control | residual $10^{-14}$ | §XXXI.11(d) |
+| With §XXIX.31's chosen grade, the readout sphere's radius restated in the opening angle $\Theta$ between the two arrival directions: $R = 2\ell\tan(\Theta/2)$ (§XXIX.31(b), (f)) — a point for aligned arrivals, $2\ell$ at $90^\circ$, flat and stereographic at exact opposition; for the direct and long-way pair, flatness, a point at infinity and one point for the pair coincide at $\Theta = \pi$ (R242) | restatement; analytic theorem given a chosen grade; numerical control | arc-length residual $3\times10^{-16}$ | §XXXI.12 |
+| The cap: $\lvert D_A\rvert\le\ell$ on every branch, and $D_L = D_A$ at $z = 0$; with light on the leaf's rays, objects on the Milky Way's leaf need $\ell_{\rm MW}$ at least their distance — the LMC $\ell_{\rm MW}\ge48.5$ kpc, the SMC $60.6$, Leo I $216$ and M31 $739$ kpc ($2\sigma$); §XXXI.4(e)'s Galactic Centre framing corrected (R243) | analytic theorem; numerical control with measured inputs | Pietrzyński et al. 2019; Graczyk et al. 2020; Bellazzini et al. 2004; Li et al. 2021 | §XXXI.13 |
+| The home view has no second copy, so the long-way (index-2) class yields no remote image; the long-way images stay on the sky ($z = 0$, same size and flux, the refocusing); the base's non-contractible class is the twin-lift pair, whose images form the inverted copy around the observer; a far compact copy read in its own chart is seen through its twin point, $\varepsilon = 2\arctan(2\ell/D)$ ($1.34$ kpc at 761 kpc, $1.02$ pc at 1 Gpc) (R244) | analytic theorem; numerical control; the compact copy a [D] reading | — | §XXXI.14(a)–(c) |
+| Any smooth measure of gateway positions gives $dN/dD\propto D^{-4}$ (Haar: half the copies within $2\ell$, slope $-2.999$), the law of §XXIX.34; Euclidean counts need a measure diverging as $\varepsilon^{-6}$ at the twin pole, or opening deficits as $\delta^{-4}$ (R244) | analytic theorem; numerical control | Monte Carlo against the closed form | §XXXI.14(d) |
+| Rigid gateways (Levi-Civita or either Clifford parallelism) force $\cos i = \lvert\sin b\rvert$, refuted by NGC 4565 ($b = 86.44^\circ$, axis ratio $0.116$); the orientation must be independent of the line of sight (R244) | analytic theorem; numerical control with a measured counterexample | NGC 4565 | §XXXI.14(e) |
+| A single conformal image keeps a thin disk thin (a cap or limb-brightened shell), and no viewing angle gives the elliptical axis ratios; an orientation overlay is round and cusped ($\Sigma\propto K_0(R/R_d)$), excluded for a copy of our galaxy by its gas and stellar populations (R244) | analytic theorem; numerical control | Alam & Ryden 2002 | §XXXI.14(f) |
+| Visible space as the reconstruction from received light; the gateway view as a randomly positioned copy; visual space proper as the overlay of admissible classes (R240, R245) | specified physical premise | — | §§XXXI.9, XXXI.15 |
+| What the Milky Way's leaf contains, given the cap; an admissibility rule with the Euclidean measure and single counting; a gateway photon transport with its frequency law; a derivation of the grade (R245) | open bridge | — | §XXXI.15 |
 | **Post-freeze clarifications to Part XXIX (R212–R216)** | | | |
 | The equatorial limit of the circular branch is linearly marginal; slower equatorial orbits are unstable; every finite core declines as $1/\rho$ on the far side, and $M_{\rm eff}$ falls | numerical control (independent solution) | plateaus to $0.005$ km/s; slopes $-0.9996$, $-0.9977$ | §XXX.12(a)–(b) |
 | The arena law: three readings and three constants ($95.78$, $131.71$, $234.375\,M_\odot$ pc$^{-2}$); the Fourier norm gains $\lvert n\rvert$; the time convention; fits, checks and darkness scoped | numerical control; definition | $35.26$ against $47\pm6$ and $62.8\,M_\odot$ (km/s)$^{-4}$ | §XXX.12(c)–(e) |
@@ -72,7 +83,7 @@
 | Observational fits | none | no supernova likelihood, no count comparison with a selected sample, no rotation-curve fit (post-freeze note, v35.1, R216: the current predictive model; Part XII's exploratory fits, §XII.3, belong to its detached wing) | §XXIX.39(f) |
 | The photon wave operator and its mode projection; a $q = 0$ reader; a frequency bridge with time dilation and a derived echo law; a pair-selection law; a detector law for the image map, with one forward image of a fixed galaxy; a derived spectral transport, even and odd | open bridge | — | §§XXIX.39(b), 41, 42, 43(f) |
 
-> **How to read this archive (v35.2).** Two tables govern: the table of Parts XXX–XXXI, for the open work, and the frozen v34.10 table that follows it, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX, and §XXX.9) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons) and XXXI (the visible rendering), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve both. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI.
+> **How to read this archive (v35.3).** Two tables govern: the table of Parts XXX–XXXI, for the open work, and the frozen v34.10 table that follows it, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX, and §XXX.9) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons) and XXXI (the visible rendering), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve both. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243).
 
 > **v34.0 governing ontology correction (11 October 2026).** **Matter and its stress-energy content live fundamentally in the five-dimensional middle space** $\mathcal M=E/U(1)_H$, not solely on the representational bisection. The four-dimensional gravity base $B_{\rm grav}=\mathcal M/U_{\rm mer}$ is the quotient where the effective Einstein equation is expressed. The source $T^{(g)}$ must be obtained from the **entire** one-dimensional meridian fiber, including both arcs and possible pole/core contributions, by a covariant, action-compatible fiber reduction with a geometrically justified measure and tensor projection. A sum of contributions at the two points of $B_{\rm rep}$ is **not Law I**: it is only a distributionally leaf-supported special case. Einstein equations on the base impose constraints on the admissible middle-space configurations; equivalently their pullback imposes a horizontal constraint on $\mathcal M$, **not** independent five-dimensional Einstein equations. The full measure, singular-fiber rule, conservation identity and parent variational principle are **open**. Previously frozen text about source localization and two-point sourcing is superseded by this paragraph, the corrected Law I in Part III, and §XXIX.8; historical derivations remain conditional benchmarks where their premises apply. The observation that $\ell/G$ has a numerically suggestive relation to a galactic mass was an exploratory coincidence, **not** a premise that the closure mass is the Galaxy's baryonic mass. The author also prefers a *macroscopic middle-space* origin of $G$ (with the closure ratio as a target) and a separate Boltzmannian-compatibility origin of the effective quantum/Planck-area scale; the induced-gravity calculation remains a benchmark, not the preferred ontological explanation of $G$.
 
@@ -5046,7 +5057,7 @@ $$\alpha_{\rm grad}(\beta) = 4\mu\cot\beta+8\mu\sin\beta\,\ln\cot\frac\beta2,\qq
 
 **What the test does not remove [open].** The refocusing. On the round leaf every ray from a point reconverges at the antipode after $\pi\ell$ ($50.3$ kpc, $164$ kyr of light time at $\ell = 16$ kpc); the first-order lens perturbs the conjugate point — the circuit response above is one measure of how — and does not remove it, and for the central observer the unlensed angular-diameter distance is bounded by the areal radius $\ell$: the cap and the returned-light problem of Parts XVII–XVIII stand as before on this homogeneous leaf. A galaxy-scale round $S^3$ carrying the base metric as its optical geometry is therefore in conflict with observation regardless of the source law, and the readout map that Law IV's minimal reading assumes here must differ from the pullback globally while agreeing with it locally — or the leaf must not be a round $S^3$ in its optical geometry at all, which is the door the representation-stretch branch of §XXIX.20 opens (there the azimuth advance between turning points is $\pi(1+\ell^2/b^2)$ instead of $\pi$, point refocusing becomes spiralling, and — R99 — an *off-centre* observer's angular-diameter distance is **unbounded** along the horn even though the areal radius is bounded, so the cap argument does not transfer to the inhomogeneous stretched leaf). The test moves the optical question from "unaddressed" to "located": local optics is standard and slip-free under the common-readout assumption; global optics is the problem, it is a problem about the leaf's geometry, not about Law I, and it must be analysed through observer-normalized ray bundles with Jacobi transport, not through gradient integrals or areal-radius bounds.
 
-*Post-freeze pointer, v35.2 (R238; Part XXIX frozen).* Entry 297's visible rendering is a candidate for the readout required here, which differs from the pullback globally and agrees with it locally. Part XXXI finds that light cannot move in it (a lapse is excluded by the Galactic Centre's redshift, an index by vacuum Cherenkov), so it survives as a readout of base rays and does not by itself remove the refocusing found here; the base optics then meets the Galactic Centre's distances, with $\ell_{\rm MW}\gtrsim16$ kpc from Sgr B2's parallax (§XXXI.4).
+*Post-freeze pointer, v35.2 (R238; Part XXIX frozen).* Entry 297's visible rendering was proposed as the readout required here, differing from the pullback globally and agreeing with it locally. Part XXXI finds that light cannot move in it (a lapse is excluded by the Galactic Centre's redshift, an index by vacuum Cherenkov), so it survives only as a readout of base rays: it re-places images and changes neither the refocusing found here nor angular sizes. With base optics the cap of §IV.8 then applies to every object on the leaf — the LMC, if on the leaf, needs $\ell_{\rm MW}\ge48.5$ kpc (§XXXI.13) — and the Galactic Centre's parallax gives $\gtrsim16$ kpc (§XXXI.4). *[v35.3, R243]*
 
 ## XXIX.19 The Boltzmannian core: compatibility counting as a candidate origin of the primary core's isotropy and stiffness; the three-level architecture and the collective map [S/O; v34.2]
 
@@ -10348,7 +10359,7 @@ So $S$ descends, up to a cube root of unity, exactly to frames modulo third-turn
 
 **(e) Scope.** This is a scoped no-go plus one construction on an enlarged parent. It supplies no selection, no dynamics and no decay mechanism. The fixed-code reading stays a relation between descriptions: a physical conversion would need $105.15$ MeV for $e\to\mu$ at rest and $1671.27$ MeV for $\mu\to\tau$, with the exchanged energy and the other degrees of freedom identified (v35.1-3).
 
-## XXX.9 Register R203–R239 [D/O; v35.0–v35.2]
+## XXX.9 Register R203–R246 [D/O; v35.0–v35.3]
 
 *The v34 register, R56–R202, is frozen in §XXIX.16. v35 continues the numbering. The section number is kept from v35.0, so the register precedes §§XXX.11–13 and Part XXXI, which it covers.*
 
@@ -10406,10 +10417,17 @@ So $S$ descends, up to a cube root of unity, exactly to frames modulo third-turn
 - **R237** (§XXXI.7). The core: the Hopf-fibre average keeps $L+1$ of $(L+1)^2$ harmonics for even $L$ and none for odd $L$; the zonal quadrupole becomes an $S^2$ dipole keeping $1/3$ of its norm squared; the orientation-class average keeps only $L = 0$; isometry averages conserve stress, but the exchange with a secondary needs a class dynamics; heat-kernel smoothing for comparison ($t\geq1.727$). [T/V/S/O]
 - **R238** (§XXXI.8; pointer notes in §§XXIX.18 and XXIX.42(f)). Standing, program and falsifiers of Part XXXI; two post-freeze pointer notes to it in the frozen text. [S/O]
 - **R239** (§XXX.10). The v35.2 suite: five new checks, twenty in Parts XXX–XXXI (exit status 1 on any failure); the toy's `all` mode runs 150. [reproducibility]
+- **R240** (§§XXXI.9–10; the author's note of 14 October 2026, unnumbered, with one analysis). The note is recorded: visible space as what can be reconstructed from received light, stereographic because the dual paths can open arbitrarily far from alignment along a grade; our own galaxy as the stereographic view we are inside of; through the enclosing-criterion gateway, the other image of our own hemisphere as another stereographic projection seen from a random angle, perhaps ellipticals from an extra rotational freedom; one admissible class per random gateway positioning, overlaid into visual space proper. The analysis's three layers, opening grade, branch index, orientation, overlay and four-step toy are recorded. The attachments to §§XXIX.29, XXIX.31, XXIX.34, XXIX.39, Part XXVII, §§XIII.9, IV.8, XIV.0, XXIX.42 and v35.2's Part XXXI are stated. [D]
+- **R241** (§XXXI.11). The signed harmonic mean of each image's angular-diameter and parallax distances is $2\ell\tan(s/2\ell)$ on every branch; reading them needs a standard ruler and the image's focus parity; the stereographic readout $x = 2\ell\tan(s/2\ell)\,\hat m$ reads the direct, long-way and wound histories of each source at one point; path length fails to join, $D_A$ and $D_{\rm par}$ fail injectivity; injectivity forces the antipode to infinity; among radial readouts, conformality and calibration fix the readout; on the base the two histories along a projective line read as the branch family, the inverted copy outside $2\ell$ glued along the cut locus; the Galactic Centre's twin image at $125.32$ kpc. [T/V/D]
+- **R242** (§XXXI.12). With §XXIX.31's chosen grade, the readout sphere's radius (§XXIX.31(b), (f); §XXIX.39(d)) restated in the opening angle, $R = 2\ell\tan(\Theta/2)$; the compressive range is the same Möbius family; for the direct and long-way pair, flatness, a point at infinity and one point for the pair coincide at $\Theta = \pi$, relative to the chosen grade; wound images arrive aligned and are joined at home. [T/D]
+- **R243** (§XXXI.13; corrections in §§XXXI.4(e), XXXI.4 (what the section settles), XXXI.8, the §XXIX.18 pointer note and the current manuscript §10). The cap $\lvert D_A\rvert\le\ell$ on every branch, with $D_L = D_A$ at $z = 0$; the LMC ($49.59\pm0.55$ kpc), SMC ($62.44\pm0.94$), Leo I ($254^{+16}_{-19}$) and M31 ($761\pm11$) need $\ell_{\rm MW}\ge48.5$, $60.6$, $216$ and $739$ kpc at $2\sigma$ if on the Milky Way's leaf and if light follows the leaf's rays; §IV.8 had already set the cap against GRAVITY's $R_0$ (which fits) and the LMC, Leo I and M31; in the stretch branch the cap is not a general bound (R99), the satellites' distances there uncomputed. Superseded wording: in §XXXI.4(e), "The real test is a refit of the maser parallaxes in curved space, with $\ell$ free. It is the first place where the leaf's radius meets data inside our own galaxy."; in the §XXIX.18 pointer note, "Entry 297's visible rendering is a candidate for the readout required here, which differs from the pullback globally and agrees with it locally", "so it survives as a readout of base rays and does not by itself remove the refocusing found here;" and "the base optics then meets the Galactic Centre's distances, with $\ell_{\rm MW}\gtrsim16$ kpc from Sgr B2's parallax (§XXXI.4)"; in §XXXI.8, "§XXIX.18: Entry 297's rendering is a candidate readout; light cannot move in it, and it does not remove the refocusing (§XXXI.4)."; in the suite's print v35.2-2, "A curved-space refit of the maser parallaxes is the real test."; in the current manuscript §10, "A curved-space refit of the maser parallaxes is the real test." [T/V; correction]
+- **R244** (§XXXI.14). The home view contains each source once, so the long-way (index-2) class yields no remote image; the long-way images stay on the sky; the base's non-contractible class is the twin-lift pair, whose images form the inverted copy around the observer, dark under the barren-twin readout; the compact copy as a readout seen through its twin point ($\varepsilon = 0.0841$ rad at 761 kpc, $6.4\times10^{-5}$ at 1 Gpc); isotropic inclinations as an input; the counting law $dN/dD\propto D^{-4}$ for any smooth measure (Haar: half within $2\ell$, $5.6\times10^{-5}$ beyond 1 Mpc), Euclidean counts needing $\varepsilon^{-6}$ or $\delta^{-4}$; rigid gateways forcing $\cos i = \lvert\sin b\rvert$ against NGC 4565, so orientation independent of the line of sight; single Möbius images of thin disks thin, and no viewing angle elliptical; an orientation overlay round and cusped ($K_0$), excluded for a copy of our galaxy by its populations; the photon, frequency and source-identity requirements of the toy. [T/V/D/S/O]
+- **R245** (§XXXI.15). Standing, program and falsifiers of the v35.3 continuation of Part XXXI. [S/O]
+- **R246** (§XXX.10). The v35.3 suite: five new checks, twenty-five in Parts XXX–XXXI (exit status 1 on any failure; an unknown mode prints the usage line and exits 2); the toy's `all` mode runs 155. [reproducibility]
 
 ## XXX.10 Executable appendix: `pg_v35_numerics.py`, embedded [reproducibility; v35.0, R210; v35.1, R231; v35.2, R239]
 
-*The standalone suite (NumPy and SciPy only) that prints every computed number of Parts XXX and XXXI. Save the block as `pg_v35_numerics.py` and run `python3 -I pg_v35_numerics.py` (the regression suite of Parts XXX–XXXI: 20 checks, 5 of v35.0, 10 of v35.1 and 5 of v35.2, the last for Part XXXI; exit status 1 if any fails, in every mode; about 4 s), or one round with `python3 -I pg_v35_numerics.py v35_0`, `v35_1` or `v35_2`; an unknown mode prints the usage line and exits with status 2. Part XXIX's frozen suite remains `pg_v34_numerics.py` (§XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v35`, `v35_0`, `v35_1`, `v35_2` and `all` (the frozen v34.10 suite and Parts XXX–XXXI together, 150 checks) run it.*
+*The standalone suite (NumPy and SciPy only) that prints every computed number of Parts XXX and XXXI. Save the block as `pg_v35_numerics.py` and run `python3 -I pg_v35_numerics.py` (the regression suite of Parts XXX–XXXI: 25 checks, 5 of v35.0, 10 of v35.1, 5 of v35.2 and 5 of v35.3, the last ten for Part XXXI; exit status 1 if any fails, in every mode; about 4 s), or one round with `python3 -I pg_v35_numerics.py v35_0`, `v35_1`, `v35_2` or `v35_3`; an unknown mode prints the usage line and exits with status 2. Part XXIX's frozen suite remains `pg_v34_numerics.py` (§XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v35`, `v35_0`, `v35_1`, `v35_2`, `v35_3` and `all` (the frozen v34.10 suite and Parts XXX–XXXI together, 155 checks) run it.*
 
 ```python
 """Projective Gravity v35 -- standalone numerical suite for Parts XXX-XXXI: the hyper-canonical completion and the charged-lepton cycle
@@ -10418,7 +10436,7 @@ is pg_v34_numerics.py (v34.10).
 
 Run (from the directory holding this file):
     python3 -I pg_v35_numerics.py              # current regression suite of Parts XXX-XXXI (all v35 rounds, check summary)
-    python3 -I pg_v35_numerics.py v35_0        # one round only (v35_0, v35_1 or v35_2)
+    python3 -I pg_v35_numerics.py v35_0        # one round only (v35_0, v35_1, v35_2 or v35_3)
 Every mode exits with status 1 if any check fails.
 
 v35_0_suite(): the two renderings on the native spin-one carrier of Part XXI (clock R, shift S, the mass family M(theta), joint
@@ -10445,6 +10463,13 @@ metric alone, and the harmonic-mean identity; light in the rendering (the Fermat
 index and the shared rendering of gravitational waves, the number of histories); the point at infinity, the two conventions and the
 symmetric regularizations (round, flat, hyperbolic); local Einstein behaviour, tides and the inferred G; and the core's directional
 measure under the Hopf-fibre and orientation-class averages.
+
+v35_3_suite(): the author's note of 14 October 2026 (home view, gateway view, overlay), Part XXXI continued: the stereographic readout
+from received light (the signed harmonic mean on every branch; one image per source; the forced infinity; the base's branch family as
+the inversion); the opening grade and the radius of visual space, R = 2 ell tan(Theta/2); the cap on angular-diameter distances and the
+Milky Way's satellites and M31, with the correction to v35.2's Galactic Centre framing; the home view, the gateway view and the overlay (the
+conjugate-point class, the twin images, the compact copy seen through its twin point, the counting law); and orientation and shape (the
+rigid inclination rule against NGC 4565, conformal images of thin disks, random viewing against ellipticals).
 """
 import numpy as np
 PI = np.pi
@@ -11264,7 +11289,8 @@ def v35_2_light_in_the_rendering(DA_gc=8.178):
     print(f"     at 2 sigma.  The maser R0 of Reid et al. 2019, 8.15 +- 0.15 kpc, is a kinematic fit anchored by parallaxes mostly a few kpc away; read")
     print(f"     optimistically as a parallax distance (ratio {meas:.4f} +- {sig:.4f}), it would need ell >= {l_reid:.1f} kpc.  The arena law's ell = 3 sqrt(GM/a0) gives")
     print("     " + ", ".join(f"{v:.1f} kpc at {m:.0e} M_sun ({(pred(v)-meas)/sig:+.1f} sigma on that reading)" for m, v in larena.items()) + ": the Milky Way's mass matters.")
-    print("     A curved-space refit of the maser parallaxes is the real test.")
+    print("     A curved-space refit of the maser parallaxes would settle this ratio; if the LMC lies on the Milky Way's leaf, the cap (v35.3-3)")
+    print("     bounds ell more strongly.")
     print("   Histories: a flat rendering has one straight line between two points; the base carries the direct and the long-way histories (and windings),")
     print("     and a compact space has infinitely many geodesics between any two points (Serre).  On the round leaf rays refocus after pi ell")
     print(f"     ({PI*16:.1f} kpc at ell = 16 kpc).  A readout can combine the base's histories at the observer; it cannot remove the refocusing from the rays.")
@@ -11412,6 +11438,289 @@ def v35_2_core_class_average():
     check(ok, "core: Hopf fibre average keeps L+1 of (L+1)^2 (even L), none (odd L); zonal Y2 -> S^2 dipole, 1/3 of norm^2; orientation-class average keeps only L = 0")
     print("   [T] The representation theory.  [V] The quadrature.  [S] Entry 297's quotient isotropy.  [O] A class dynamics for the exchange.")
 
+def v35_3_joined_readout(ell=16.0):
+    print("\n== v35.3-1. the stereographic readout from received light: one image per source, the forced infinity, and the base's branch family (R241) ==")
+    from scipy.integrate import solve_ivp
+    rng = np.random.default_rng(3531)
+    f = lambda s: 2*ell*np.tan(s/(2*ell))                       # the stereographic radius assigned to a ray of length s (kpc)
+    DA = lambda s: ell*np.sin(s/ell); Dp = lambda s: ell*np.tan(s/ell)
+    hm = lambda s: 2*DA(s)*Dp(s)/(DA(s)+Dp(s))
+    # (a) each image's two optical distances, signed, give the stereographic radius on every branch
+    chi = rng.uniform(0.05, PI-0.05, 4000); chi = chi[np.abs(chi-PI/2) > 0.05]
+    br = {"direct": chi*ell, "long way": (2*PI-chi)*ell, "one winding": (2*PI+chi)*ell, "long way, one winding": (4*PI-chi)*ell}
+    res_hm = max(np.max(np.abs(hm(s)-f(s))/(np.abs(f(s))+ell)) for s in br.values())
+    print("   A received ray is characterized at the detector by its arrival direction m and, through its own bundle, by two optical distances: the")
+    print("     angular-diameter distance D_A = ell sin(s/ell) and the parallax distance D_par = ell tan(s/ell), each signed (D_A < 0 for an image")
+    print("     inverted by a focus, D_par < 0 for a converging wavefront), with s the ray's length.  Reading them needs a standard ruler or candle,")
+    print("     and the signs need the image's focus parity: without them s and s + pi ell look alike.  Their harmonic mean is the stereographic radius")
+    print(f"     on every branch: 2 D_A D_par/(D_A + D_par) = 2 ell tan(s/2 ell) (direct, long-way and wound rays; {sum(len(v) for v in br.values())} rays, residual {res_hm:.0e}).")
+    # (b) the readout x = f(s) m joins every history of a source
+    n = rng.normal(size=(len(chi), 3)); n /= np.linalg.norm(n, axis=1)[:, None]
+    x1 = f(chi*ell)[:, None]*n
+    imgs = [f((2*PI-chi)*ell)[:, None]*(-n), f((2*PI+chi)*ell)[:, None]*n, f((4*PI-chi)*ell)[:, None]*(-n)]
+    res_join = max(np.max(np.linalg.norm(x-x1, axis=1)/np.linalg.norm(x1, axis=1)) for x in imgs)
+    sep_path = np.min(np.linalg.norm((2*PI-chi)[:, None]*ell*(-n)-chi[:, None]*ell*n, axis=1))
+    # D_A and D_par readouts are odd (they join the pair) but not injective: the sources at chi (along n) and pi - chi collide
+    c0 = 0.7; col_DA = abs(DA(c0*ell)-DA((PI-c0)*ell)); col_Dp = abs(Dp(c0*ell)-(-Dp((PI-c0)*ell)))
+    print("   Read each ray at x = f(s) m.  The long-way ray of a source at angle chi along n arrives from -n with s = (2 pi - chi) ell, and")
+    print("     f((2 pi - chi) ell) = -f(chi ell), so it lands on the direct image; a wound ray adds 2 pi ell to s and f is 2 pi ell-periodic.  The")
+    print(f"     stereographic readout therefore puts every history of a source -- direct, long-way and wound -- at one point (worst {res_join:.0e} over")
+    print(f"     {len(chi)} sources and three further histories each), and it undoes the antipodal relation n -> -n between the direct and long-way skies.")
+    print(f"   The alternatives fail.  The path length read as distance (f = s) keeps the pair apart by exactly 2 pi ell = {sep_path:.3f} kpc.  D_A or D_par read")
+    print(f"     as distance join the pair (both are odd under s -> 2 pi ell - s) but send different sources to one point: the sources at chi and pi - chi")
+    print(f"     collide (on one ray for D_A, on opposite rays for D_par; differences {col_DA:.0e} and {col_Dp:.0e} kpc at chi = {c0}).")
+    # uniqueness: a calibrated conformal radial readout solves d ln f/ds = 1/(ell sin(s/ell)) with f ~ s
+    s0 = 1e-6*ell
+    sol = solve_ivp(lambda s, y: [y[0]/(ell*np.sin(s/ell))], [s0, 3.0*ell], [s0], rtol=1e-12, atol=1e-14, dense_output=True)
+    res_ode = max(abs(sol.sol(s)[0]/f(s)-1) for s in (0.5*ell, 1.5*ell, 2.5*ell, 3.0*ell))
+    big = f(PI*ell*(1-1e-3))
+    print("   Uniqueness, among radial readouts x = f(s) m with one f for every branch.  Single-valuedness and injectivity on the direct rays forbid a")
+    print("     finite f at s = pi ell (zero would hit the observer, any other value would spread the antipode over a sphere), so the antipode goes to")
+    print(f"     infinity -- the topological infinity of Part XXXI.5(a), made explicit (f(0.999 pi ell) = {big:.0f} kpc).  Joining the long-way image needs f odd")
+    print("     about pi ell, and joining the wound ones needs period 2 pi ell.  A conformal readout satisfies d ln f/ds = 1/(ell sin(s/ell)); with f ~ s")
+    print(f"     near the observer the solution is 2 ell tan(s/2 ell) (integrated: residual {res_ode:.0e}), which is odd and periodic as required.  A conformal")
+    print("     chart centred elsewhere is not radial from the observer; local calibration, grad Omega(A) = 0, excludes it (Part XXXI.5(b)).")
+    # (c) the base RP^3: the two histories along a projective line render at inversion-related points
+    cb = rng.uniform(0.02, PI/2, 3000); nb = rng.normal(size=(len(cb), 3)); nb /= np.linalg.norm(nb, axis=1)[:, None]
+    xh = f(cb*ell)[:, None]*nb; xg = f((PI-cb)*ell)[:, None]*(-nb)
+    inv = -4*ell**2*xh/np.sum(xh**2, axis=1)[:, None]
+    res_inv = np.max(np.linalg.norm(xg-inv, axis=1)/np.linalg.norm(inv, axis=1))
+    rin, rout = np.max(np.linalg.norm(xh, axis=1)), np.min(np.linalg.norm(xg, axis=1))
+    chi_gc = 8.0/ell; rgc = f(chi_gc*ell); rtw = f((PI-chi_gc)*ell)
+    print("   On the base RP^3 the second history of a source runs the other way along the same projective line: length (pi - chi) ell, arriving")
+    print("     from -n; the two together close the base's non-contractible loop (Part XIII.9, item 1).  On the cover it is the direct history of")
+    print("     the source's twin lift -- Part XVI's twin image, Part XXIX.32(g).  Read stereographically it lands at")
+    print(f"     x_gate = -4 ell^2 x_home/|x_home|^2 (residual {res_inv:.0e}): the branch family of Part XXIX.29(a), D_N D_S = 4 ell^2.  The shortest histories")
+    print(f"     fill the ball of radius 2 ell = {2*ell:.0f} kpc (largest home radius {rin:.2f}); the twin histories fill its outside (smallest twin radius {rout:.2f});")
+    print("     the two meet on the sphere of radius 2 ell, the image of the cut locus (chi = pi/2), where the two histories are equally long and")
+    print("     exchange order.  Together the two readings are one stereographic picture of the cover S^3: the observer's hemisphere inside, the twin")
+    print(f"     hemisphere outside.  For the benchmark observer the Galactic Centre lies at {rgc:.3f} kpc and its twin image at {rtw:.2f} kpc toward the")
+    print("     anticentre, dark under the barren-twin readout (Part XXXI.5(b)).")
+    ok = (res_hm < 1e-9 and res_join < 1e-9 and abs(sep_path-2*PI*ell) < 1e-6 and col_DA < 1e-12 and col_Dp < 1e-12 and res_ode < 1e-7
+          and big > 1e4 and res_inv < 1e-12 and rin <= 2*ell+1e-9 and rout >= 2*ell-1e-9 and abs(rgc-8.1709) < 1e-3 and abs(rtw-125.32) < 0.01)
+    check(ok, "joined readout: harmonic mean = 2 ell tan(s/2 ell) on all branches; stereographic readout joins all histories; base pair -> inversion, GC at 125.32 kpc")
+    print("   [T] The branch identities, the uniqueness (Liouville, calibration) and the inversion.  [V] The samples.  [D] Reading rays by their lengths.")
+
+def v35_3_opening_radius(ell=16.0):
+    print("\n== v35.3-2. the opening grade and the radius of visual space (R242) ==")
+    rng = np.random.default_rng(3532)
+    def Dal(s, a):                                              # Part XXIX.31(a), s the long member's arc in units of ell
+        lam = np.sqrt((1-a)/(1+a)); return 4*ell/lam*np.arctan(lam*np.tan(s/4))
+    print("   Part XXIX.31 reads a history pair with the grade alpha = -n1.n2 = cos(delta), delta the departure of the two arrival directions from")
+    print("     exact opposition, through D_alpha(s) = 4 ell sqrt((1+alpha)/(1-alpha)) arctan(sqrt((1-alpha)/(1+alpha)) tan(s/4)): the arc length on a sphere")
+    print("     of radius 2 ell sqrt((1+alpha)/(1-alpha)) of the point whose stereographic radius is the null readout 4 ell tan(s/4).  With Theta the")
+    print("     opening angle between the two arrival directions (Theta = pi - delta), that radius is")
+    print("         R(Theta) = 2 ell tan(Theta/2),")
+    print("     the stereographic function itself, now of the opening -- a restatement of Part XXIX.31(b), (f), where D_cal = cot(delta/2) = tan(Theta/2).")
+    worst_R = 0.0; rows = []
+    for deg in (10, 60, 90, 120, 150, 170, 179, 179.9, 180-1/60):
+        Th = np.radians(deg); a = -np.cos(Th); a = 0.0 if abs(a) < 1e-15 else a; R = 2*ell*np.sqrt((1+a)/(1-a)); worst_R = max(worst_R, abs(R/(2*ell*np.tan(Th/2))-1))
+        rows.append((deg, a, R, Dal(2*PI-1e-12, a)/(PI*R)))
+    for deg, a, R, rat in rows:
+        unit = f"{R:.2f} kpc" if R < 1e3 else f"{R/1e3:.2f} Mpc"
+        lab = f"{deg:g} deg" if deg < 179.95 else "180 deg - 1 arcmin"
+        print(f"     Theta = {lab:>18}: alpha = {a:+.6f}, R = {unit}")
+    # the arc-length identity, the local slope and the alpha = 0 member, over the whole range -1 < alpha < 1
+    worst_arc = worst_slope = 0.0
+    for _ in range(400):
+        a = rng.uniform(-0.95, 0.995); s = rng.uniform(0.01, 2*PI-0.01); R = 2*ell*np.sqrt((1+a)/(1-a))
+        th = 2*np.arctan(4*ell*np.tan(s/4)/(2*R)); worst_arc = max(worst_arc, abs(Dal(s, a)/(R*th)-1))
+        h = 1e-6; worst_slope = max(worst_slope, abs((Dal(h, a)-Dal(-h, a))/(2*h)-ell)/ell)
+    s_t = np.linspace(0.1, 2*PI-0.1, 50); res0 = np.max(np.abs(Dal(s_t, 0.0)-ell*s_t))
+    print(f"   Checked over -0.95 < alpha < 0.995: the arc-length reading (residual {worst_arc:.0e}), the local slope ell for every grade ({worst_slope:.0e}),")
+    print(f"     and the full return at the far pole, D_alpha(2 pi) = pi R (ratio {rows[3][3]:.12f} at 120 deg).")
+    print("   Three marks on the grade:")
+    print("     - Theta -> 0 (aligned arrivals): R -> 0, every distance collapses.  The archive's family stops at alpha = 0; its compressive")
+    print("       range alpha < 0 (Theta < 90 deg) is the same Moebius family with dilation factor above one (Part XXIX.39(d) left it open).")
+    print(f"     - Theta = 90 deg (alpha = 0): R = 2 ell and D_0(s) = ell s, the plain arc length (residual {res0:.0e}).")
+    print("     - Theta -> pi (exact opposition): R -> infinity, the flat stereographic readout with its point at infinity.")
+    print("     A radial readout puts two images at one point only if they arrive along one line (v35.3-1).  For the direct and long-way pair, to which the")
+    print("     grade refers, that means exact opposition.  Within the grade's family, then, three things coincide at Theta = pi: the readout is flat")
+    print("     (R infinite), it has a point at infinity, and the pair reads at one point; for Theta < pi the readout sphere is compact and the pair")
+    print("     reads at two points.  (A wound image arrives aligned with the direct one, Theta = 0: the joined readout puts it at home, while the")
+    print("     grade's readout would collapse.  The grade is a property of the direct and long-way pair.)  On the round leaf every direct and long-way")
+    print("     pair has Theta = pi (Part XXIX.31(e): a return lens symmetric about the antipode keeps alpha = 1); it opens less only where matter breaks")
+    print("     that symmetry.")
+    ok = (worst_R < 1e-8 and worst_arc < 1e-10 and worst_slope < 1e-6 and res0 < 1e-10 and abs(rows[3][3]-1) < 1e-9 and abs(rows[2][2]-2*ell) < 1e-9)
+    check(ok, "opening grade: readout radius R = 2 ell tan(Theta/2) (Part XXIX.31(b), (f) restated), from 0 through 2 ell to infinity (opposed, flat stereographic)")
+    print("   [T] The restatement, given the archive's chosen grade.  [V] The range checks.  [D] The grade itself (Part XXIX.31(f): chosen, not derived).")
+
+def v35_3_cap(ell=16.0):
+    print("\n== v35.3-3. what no readout changes: the cap on angular-diameter distances, the Milky Way's satellites and M31 (R243) ==")
+    s = np.linspace(0.0, 6*PI, 600001); capmax = np.max(np.abs(np.sin(s)))
+    print("   A readout assigns positions; it does not change the rays (Part XXXI.4(d)).  Every image of every source on the round leaf, on every")
+    print(f"     branch and winding, has |D_A| = ell |sin(s/ell)| <= ell (maximum over s up to 6 pi ell: {capmax:.12f} ell).  On a static leaf with")
+    print("     z = 0, reciprocity gives D_L = D_A, so standard candles obey the same cap; the benchmark's matter changes it at the order of its")
+    print("     matter factor, 1.05e-6 (Part XXXI.3(b)).")
+    objs = [("LMC (eclipsing binaries)", 49.59, np.hypot(0.09, 0.54), None), ("SMC (eclipsing binaries)", 62.44, np.hypot(0.47, 0.81), None),
+            ("Leo I (red-giant-branch tip)", 254.0, 19.0, 16.0), ("M31 (Cepheids)", 761.0, 11.0, None)]
+    print("   Measured distances to the Milky Way's satellites and to M31, and the leaf radius each needs if the object lies on the Milky Way's leaf (2 sigma):")
+    ells = (16.0, 25.0, 32.3); lmins = []
+    for name, D, sig, up in objs:
+        lmins.append(D-2*sig); err = f"+{up:.0f}/-{sig:.0f}" if up else f"+- {sig:.2f}"
+        print(f"     {name:<29} {D:7.2f} {err:>8} kpc: ell >= {D-2*sig:6.1f} kpc;  D/ell = " + ", ".join(f"{D/e:5.2f}" for e in ells) + " at ell = 16, 25.0, 32.3 kpc")
+    print("   The eclipsing-binary distances are geometric (a linear radius from the orbit over an angular one from the surface brightness), so they")
+    print("     are angular-diameter distances in the sense used here.  Part IV.8 (frozen) had already set this cap against GRAVITY's R0, which fits it,")
+    print("     and against the LMC, Leo I and M31, which exceed it, and concluded that 'if light uses r*g_G ... the galactic S^3 dies observationally'.")
+    print("     Under Part XXXI.4(d)'s conclusion -- light follows the leaf's rays -- the cap applies to every object on the leaf: if the LMC lies on")
+    print("     the Milky Way's leaf, it alone needs ell_MW >= 48.5 kpc at 2 sigma (the SMC 60.6), three times the benchmark and above the arena law's")
+    print("     25-32 kpc.  Correction to v35.2: Part XXXI.4(e) called the Galactic Centre 'the first place where the leaf's radius meets data inside our")
+    print("     own galaxy'; Part IV.8 had met it first, and the satellites bound it more strongly than Sgr B2's ell >= 16.1 kpc, if they lie on the leaf.")
+    print("   In the stretch branch (Part XXIX.20, Option A; R99) matter and light share a radially stretched leaf, and the cap is not a general bound:")
+    print("     an off-centre observer's D_A grows without bound along the horn for outward radial bundles.  R99 adds that this does not show Option A")
+    print("     reproduces observed distances; the satellites' distances there are not computed.")
+    ok = (abs(capmax-1) < 1e-9 and abs(lmins[0]-48.50) < 0.01 and abs(lmins[1]-60.57) < 0.01 and abs(49.59/16-3.0994) < 1e-4 and abs(761/16-47.5625) < 1e-9)
+    check(ok, "cap: |D_A| <= ell on every branch; if on the leaf, LMC needs ell >= 48.5 kpc, SMC 60.6, Leo I 216, M31 739 (2 sigma); v35.2's GC framing corrected")
+    print("   [T] The cap and reciprocity.  [V] The bounds.  [D] Which objects are on the Milky Way's leaf.")
+
+def v35_3_home_and_gateway(ell=16.0):
+    print("\n== v35.3-4. the home view, the gateway view, and the overlay (R244) ==")
+    rng = np.random.default_rng(3534)
+    f = lambda s: 2*ell*np.tan(s/(2*ell))
+    chi = 8.0/ell
+    idx = lambda s: 2*int(np.floor(s/(PI*ell)-1e-12))          # conjugate points (multiplicity 2) passed before the end
+    ind = [idx(chi*ell), idx((2*PI-chi)*ell), idx((2*PI+chi)*ell), idx((4*PI-chi)*ell)]
+    print("   Two candidate gateway classes.  On the leaf, the archive's robust class is the conjugate-point index (Part XXIX.31(e)): "
+          f"{ind[0]}, {ind[1]}, {ind[2]}, {ind[3]} for the")
+    print("     direct, long-way, wound and wound long-way histories of the Galactic Centre.  The direct and long-way pair closes a great circle of S^3,")
+    print("     which on the base is the projective line traversed twice -- contractible.  The base's non-contractible class (Part XIII.9) belongs to a")
+    print("     different pair: the direct history and the twin-lift history of v35.3-1.")
+    print(f"   Read by the home rule (v35.3-1), the index-2 image of the Galactic Centre lands on its home image, {f((2*PI-chi)*ell)*-1:.3f} kpc toward the Centre:")
+    print("     the joined home view contains each source once, so Part XXIX.31(e)'s remote-appearance proposal (index >= 2) yields no remote image.")
+    print("     On the sky the index-2 images are still there: each arrives from the antipodal direction with the direct image's angular size and flux")
+    print(f"     (|sin(2 pi - chi)| = sin chi), z = 0, {(2*PI-2*chi)*ell*_KPC_M/_C_SI/3.15576e7:,.0f} years after the direct image for the Galactic Centre (Part XXIX.32) -- Part XXIX.18's")
+    print("     refocusing, which no readout removes.")
+    print("   The other image left is the twin-lift class.  Read by the base rule, the twin images form the inverted copy outside 2 ell (dark under the")
+    print("     barren-twin readout):")
+    for d in (1000.0, 100.0, 1.34):
+        D = f((PI-d/1e3/ell)*ell); print(f"       a source {d:g} pc away has its twin image {D/1e3:,.2f} Mpc away in the opposite direction")
+    print("     -- a copy that surrounds the observer, not a compact galaxy in one direction.")
+    # the compact, randomly placed copy as a readout: the copy's own chart viewed from a point v of it
+    print("   The note's compact copy, as a readout: render the copy in its own matter-centred chart (its disk flat) and view it from a point v of")
+    print("     the copy at angle chi_v from its centre.  Its apparent distance is D = 2 ell tan(chi_v/2), its angular size Euclidean, its inclination the")
+    print("     angle between its disk normal and the direction of v.  Far copies need v near the copy's twin pole, eps = pi - chi_v = 2 arctan(2 ell/D):")
+    for D in (761.0, 1e5, 1e6):
+        e = 2*np.arctan(2*ell/D); unit = f"{e*ell:.2f} kpc" if e*ell > 0.5 else f"{e*ell*1e3:.2f} pc"
+        lab = "761 kpc (M31)" if D < 1e3 else (f"{D/1e3:g} Mpc" if D < 1e6 else "1 Gpc")
+        print(f"       D = {lab:>14}: eps = {e:.3e} rad, {unit} of the copy's leaf")
+    rimg = f(15.0); ang = np.degrees(np.arctan(rimg/761.0))
+    print(f"     -- the copy is seen through its twin point.  A 15 kpc disk renders with radius {rimg:.2f} kpc and spans {ang:.2f} deg of radius at 761 kpc.")
+    # isotropy of inclinations for isotropic viewpoints
+    u = rng.normal(size=(200000, 3)); u /= np.linalg.norm(u, axis=1)[:, None]; ci = np.sort(np.abs(u[:, 2]))
+    ks = np.max(np.abs(ci-np.arange(1, len(ci)+1)/len(ci)))
+    # counts: Haar-random viewpoints are uniform on S^3
+    P = lambda D: (lambda e: (2*e-np.sin(2*e))/(2*PI))(2*np.arctan(2*ell/D))
+    x = rng.normal(size=(2_000_000, 4)); x /= np.linalg.norm(x, axis=1)[:, None]
+    eps_mc = np.arccos(np.clip(-x[:, 0], -1, 1))                 # angle from the twin pole -e0
+    Dmc = 2*ell/np.tan(eps_mc/2)
+    mc = [(D0, np.mean(Dmc > D0), P(D0)) for D0 in (32.0, 100.0, 1000.0)]
+    slope = (np.log(P(1e4))-np.log(P(1e3)))/np.log(10.0)
+    print(f"   If the viewpoint offsets are isotropic the inclinations are isotropic (cos i uniform: Kolmogorov distance {ks:.4f} for 200,000 copies) -- an")
+    print("     input, not a prediction.  If the gateway positions are random in the Haar sense, the viewpoints are uniform on S^3 and")
+    print("         P(D > D0) = (2 eps0 - sin 2 eps0)/(2 pi),  eps0 = 2 arctan(2 ell/D0):")
+    for D0, m, p in mc:
+        print(f"       D0 = {D0:6.0f} kpc: {p:.4e} (Monte Carlo {m:.4e})")
+    print(f"     Half the copies lie within 2 ell = {2*ell:.0f} kpc, and P falls as D0^{slope:.3f}: dN/dD ~ D^-4.  The reason is the inversion's Jacobian, (k/r)^6: any")
+    print("     smooth measure near the point the readout inverts becomes dN/dD ~ D^-4 far away.  Euclidean counts, dN/dD ~ D^2, need a measure that")
+    print("     diverges as eps^-6 (relative to volume) at the copy's twin pole; in the grade's reading, opening deficits distributed as delta^-4.")
+    dGpc = 2*ell*np.arctan(2*ell/1e6)*1e3; dGpc32 = 2*32.3*np.arctan(2*32.3/1e6)*1e3; dprox = 1.30
+    dsun = _AU_M/_KPC_M; Dsun = f((PI-dsun/ell)*ell)/1e6
+    print(f"     The base gateway (v35.3-1), were it lit, shows the same law with real sources: an image read beyond 1 Gpc would be the twin image of a")
+    print(f"     source within {dGpc:.2f} pc of the observer ({dGpc32:.2f} pc at ell = 32.3 kpc).  At ell = 16 kpc that is the Sun alone -- the nearest star, Proxima")
+    print(f"     Centauri, is {dprox:.2f} pc away -- whose twin image reads at {Dsun:.1e} Gpc.  The archive's return readout already gives this law with")
+    print("     16 ell^2/D (Part XXIX.34, R174: 'the within-D count saturates').")
+    ok = (ind == [0, 2, 4, 6] and abs(-f((2*PI-chi)*ell)-8.1709) < 1e-3 and ks < 0.01 and all(abs(m-p) < 4*np.sqrt(p*(1-p)/2e6)+1e-12 for _, m, p in mc)
+          and abs(mc[0][2]-0.5) < 1e-12 and abs(slope+3) < 0.01 and dGpc < dprox and 1e5 < Dsun < 1e6)
+    check(ok, "home and gateway: index-2 images read at home; the twin-lift class gives the inverted copy; far copies seen through the twin point; Haar counts ~ D^-4")
+    print("   [T] The indices, the inversion and the counting law.  [V] The samples.  [D] The viewpoint reading of the compact copy.  [S] The note's overlay.")
+
+def v35_3_orientation_and_shape():
+    print("\n== v35.3-5. orientation, the inclination rule, and what a single conformal image cannot make (R244) ==")
+    rng = np.random.default_rng(3535)
+    def qmul(p, q):
+        a1, b1, c1, d1 = p; a2, b2, c2, d2 = q
+        return np.array([a1*a2-b1*b2-c1*c2-d1*d2, a1*b2+b1*a2+c1*d2-d1*c2, a1*c2-b1*d2+c1*a2+d1*b2, a1*d2+b1*c2-c1*b2+d1*a2])
+    worst = 0.0; rolls = []
+    for _ in range(300):
+        b = rng.uniform(-PI/2, PI/2); L = rng.uniform(0, 2*PI); psi = rng.uniform(0.05, 3.0)
+        nn = np.array([0, 0, 0, 1.0]); w = np.array([0, np.cos(b)*np.cos(L), np.cos(b)*np.sin(L), np.sin(b)])
+        A = np.array([1.0, 0, 0, 0]); Q = np.cos(psi)*A+np.sin(psi)*w; t = -np.sin(psi)*A+np.cos(psi)*w
+        N_lc = (nn @ w)*t+(nn-(nn @ w)*w)                         # Levi-Civita transport along the line of sight
+        q = np.array([np.cos(psi), *(np.sin(psi)*w[1:])])
+        N_l = qmul(q, nn); N_r = qmul(nn, q); t_l = qmul(q, w); t_r = qmul(w, q)
+        for N, tt in ((N_lc, t), (N_l, t_l), (N_r, t_r)):
+            worst = max(worst, abs(abs(N @ tt)-abs(np.sin(b))), abs(np.linalg.norm(N)-1))
+        p_lc = N_lc-(N_lc @ t)*t; p_l = N_l-(N_l @ t)*t
+        if np.linalg.norm(p_lc) > 0.3:
+            c = np.clip((p_lc @ p_l)/np.linalg.norm(p_lc)/np.linalg.norm(p_l), -1, 1); rolls.append(abs(np.arccos(c)-psi) if psi <= PI else 0.0)
+    # NGC 4565 near the North Galactic Pole (J2000)
+    ra, de = np.radians(189.08654), np.radians(25.98769); ra_g, de_g = np.radians(192.85948), np.radians(27.12825)
+    bN = np.degrees(np.arcsin(np.sin(de)*np.sin(de_g)+np.cos(de)*np.cos(de_g)*np.cos(ra-ra_g)))
+    q_pred = np.sqrt(np.sin(np.radians(bN))**2+0.1**2*np.cos(np.radians(bN))**2); q_obs = 1.85/15.90
+    print("   A gateway that carries our own frame rigidly along the line of sight -- Levi-Civita transport, or either Clifford parallelism (the left")
+    print("     and right Hopf translations) -- gives every copy the inclination our own disk has toward that line of sight:")
+    print(f"         cos i = |n_MW . w| = |sin b|   (checked for 300 random lines of sight and distances, worst {worst:.0e});")
+    print(f"     the Clifford rules add only a roll about the line of sight, equal to the angle travelled (worst {max(rolls):.0e} rad).  Copies would be")
+    print(f"     face-on toward the Galactic poles and edge-on in the plane.  NGC 4565 lies at b = {bN:.2f} deg; the rule makes it face-on (axis ratio {q_pred:.3f}")
+    print(f"     with an intrinsic thickness 0.1), while it is one of the best-known edge-on spirals (V-band size 15.90' x 1.85', axis ratio {q_obs:.3f}).")
+    print("     So the orientation must be independent of the line of sight: set by each gateway's own random viewpoint, as the note proposes, not by a")
+    print("     rigid transport of our frame.")
+    # Moebius images of a thin disk stay thin
+    def mob(P, c, k): d = P-c; return c+k*k*d/np.sum(d*d, axis=1)[:, None]
+    th = []; bend = []
+    m = 20000; r = np.sqrt(rng.uniform(0, 1, m)); ph = rng.uniform(0, 2*PI, m); h = 0.01
+    mid = np.c_[r*np.cos(ph), r*np.sin(ph), np.zeros(m)]; slab = mid.copy(); slab[:, 2] = rng.uniform(-h/2, h/2, m)
+    for _ in range(12):
+        dirc = rng.normal(size=3); dirc /= np.linalg.norm(dirc); c = dirc*rng.uniform(1.3, 4.0)
+        if abs(c[2]) < 0.05: c[2] = 0.05
+        k = rng.uniform(0.5, 2.0); M = mob(mid, c, k); S = mob(slab, c, k)
+        # the midplane's image lies on a sphere: centre and radius by least squares
+        Amat = np.c_[2*M, np.ones(m)]; sol = np.linalg.lstsq(Amat, np.sum(M*M, axis=1), rcond=None)[0]
+        cen = sol[:3]; Rs = np.sqrt(sol[3]+cen @ cen); fitres = np.max(np.abs(np.linalg.norm(M-cen, axis=1)-Rs))/Rs
+        Om = k*k/np.sum((slab-c)**2, axis=1)
+        dist = np.abs(np.linalg.norm(S-cen, axis=1)-Rs)
+        sel = np.abs(slab[:, 2]) > 1e-4*h
+        th.append((np.max(dist[sel]/(Om[sel]*np.abs(slab[sel, 2]))), fitres))
+        diam = np.max(np.linalg.norm(M-M.mean(axis=0), axis=1))*2; sag = np.ptp((M-M.mean(axis=0)) @ (M.mean(axis=0)-cen)/np.linalg.norm(M.mean(axis=0)-cen))
+        bend.append(sag/diam)
+    tmax = max(t for t, _ in th); fmax = max(fr for _, fr in th)
+    print("   Shape.  A conformal (Moebius) gateway maps the plane of a disk to a plane or a round sphere and stretches every direction equally at")
+    print(f"     each point, so a thin disk renders as a thin sheet: for 12 random Moebius maps the midplane's image lies on one sphere (residual {fmax:.0e}),")
+    print(f"     and each point's distance from it is at most {tmax:.3f} times its local factor times its original height, while the sheet bends by up")
+    print(f"     to {max(bend):.2f} of its diameter.  A single conformal image of a disk is a cap or a shell, never a filled ellipsoid.")
+    # projected shell: limb brightening
+    sh = rng.normal(size=(400000, 3)); sh /= np.linalg.norm(sh, axis=1)[:, None]; rp = np.hypot(sh[:, 0], sh[:, 1])
+    hist, edges = np.histogram(rp, bins=20, range=(0, 1)); ann = PI*(edges[1:]**2-edges[:-1]**2); Sig = hist/ann; rc = 0.5*(edges[1:]+edges[:-1])
+    prof = Sig/Sig[0]; theo = (1/np.sqrt(1-rc**2))/(1/np.sqrt(1-rc[0]**2))
+    b4 = 7.669
+    print(f"     A thin round shell seen from outside is limb-brightened, Sigma(r) ~ (1 - r^2/R^2)^(-1/2) (Monte Carlo: {prof[9]:.3f} at r = 0.475 R against {theo[9]:.3f},")
+    print(f"     {prof[17]:.3f} at 0.875 R against {theo[17]:.3f}); an elliptical's de Vaucouleurs profile falls from the centre by e^b4 = {np.exp(b4):,.0f} to its effective radius.")
+    # axis ratios under random viewing
+    q0 = 0.15; frac = np.sqrt((0.3**2-q0**2)/(1-q0**2))
+    print(f"   Viewing.  Random viewing angles give a disk of intrinsic thickness q0 the apparent axis ratio q = sqrt(cos^2 i + q0^2 sin^2 i), nearly")
+    print(f"     uniform in q: with q0 = {q0}, a fraction {frac:.3f} lies below q = 0.3.  Ellipticals peak near q = 0.8 (SDSS, Alam & Ryden 2002), and the")
+    print("     Hubble sequence stops near E7 (q = 0.3); their stars move on largely random orbits.  So a single image, at any viewing angle, does not")
+    print("     look like an elliptical.")
+    # an overlay over all orientations of a thin exponential disk: rho = Sigma(r)/(2r), projected Sigma_p(R) = Sigma_0 K_0(R/R_d)
+    from scipy.integrate import quad
+    from scipy.special import k0
+    Rs = (0.1, 0.5, 1.0, 2.0)
+    ovl = [quad(lambda t: np.exp(-R*np.cosh(t)), 0, np.arccosh(80/R), limit=200)[0] for R in Rs]   # int_R^inf e^-r dr/sqrt(r^2-R^2), r = R cosh t
+    res_k0 = max(abs(o/k0(R)-1) for o, R in zip(ovl, Rs))
+    print("   An overlay is different.  Averaging a thin exponential disk over all orientations (the archive's class average, Part XXXI.7; Part XXVII.8's")
+    print(f"     multihistory rendering, D19 undecided) gives a round object with projected profile Sigma_0 K_0(R/R_d) (checked to {res_k0:.0e}), cusped at the")
+    print(f"     centre ({ovl[0]/ovl[2]:.2f} times brighter at 0.1 R_d than at R_d) and without net rotation.  Shape and viewing do not exclude it.  What does,")
+    print("     for a copy of our own galaxy, is Part XXVII.8's list: a rendering changes neither the gas content nor the stellar populations, and")
+    print("     ellipticals are gas-poor and old while the Milky Way forms stars.  The archive's withdrawal (Part XXVII.8; D15, D18) stands.")
+    ok = (worst < 1e-12 and max(rolls) < 1e-9 and abs(bN-86.44) < 0.02 and q_pred > 0.99 and q_obs < 0.12 and tmax < 1.05 and fmax < 1e-9
+          and abs(prof[9]/theo[9]-1) < 0.05 and abs(prof[17]/theo[17]-1) < 0.05 and abs(frac-0.263) < 0.002 and res_k0 < 1e-9)
+    check(ok, "orientation and shape: rigid gateways force cos i = |sin b| (NGC 4565 refutes); single Moebius images stay thin; an orientation overlay gives K_0")
+    print("   [T] The transport identities, the conformal shape law and the overlay profile.  [V] NGC 4565, the samples.  [S] The note's random gateway")
+    print("     orientation.  [O] Whether an orientation overlay is an admissible observation (D19).")
+
+def v35_3_suite():
+    v35_3_joined_readout(); v35_3_opening_radius(); v35_3_cap(); v35_3_home_and_gateway(); v35_3_orientation_and_shape()
+
 def v35_1_suite():
     v35_1_far_hemisphere_postfreeze(); v35_1_arena_constants_and_fourier(); v35_1_corrections_to_part_xxx(); v35_1_statistics(); v35_1_global_typing()
     v35_1_ideal_rendering_and_fuzz(); v35_1_categorical_susceptibility(); v35_1_structured_corrections(); v35_1_selection_transition()
@@ -11425,8 +11734,8 @@ def v35_0_suite():
     v35_conveyor_on_native_carrier(); v35_phase_family_and_gate(); v35_dephasing_vs_decay(); v35_lifetimes_from_masses(); v35_generation_transport()
 
 def current_suite_v35():
-    """The current regression suite of Parts XXX-XXXI (v35.0-v35.2, with the post-freeze controls), followed by the check summary."""
-    v35_0_suite(); v35_1_suite(); v35_2_suite()
+    """The current regression suite of Parts XXX-XXXI (v35.0-v35.3, with the post-freeze controls), followed by the check summary."""
+    v35_0_suite(); v35_1_suite(); v35_2_suite(); v35_3_suite()
     npass = sum(1 for ok, _ in _CHECKS if ok); nfail = len(_CHECKS)-npass
     print(f"\n== check summary (Parts XXX-XXXI): {npass} passed, {nfail} failed ==")
     for ok, msg in _CHECKS:
@@ -11437,7 +11746,7 @@ def current_suite_v35():
 if __name__ == "__main__":
     import sys
     arg = sys.argv[1] if len(sys.argv) > 1 else "current"
-    suites = {"current": current_suite_v35, "v35_0": v35_0_suite, "v35_1": v35_1_suite, "v35_2": v35_2_suite}
+    suites = {"current": current_suite_v35, "v35_0": v35_0_suite, "v35_1": v35_1_suite, "v35_2": v35_2_suite, "v35_3": v35_3_suite}
     if arg not in suites:
         print("usage: python3 -I pg_v35_numerics.py [" + " | ".join(suites) + "]"); sys.exit(2)
     suites[arg]()
@@ -11449,9 +11758,9 @@ if __name__ == "__main__":
 
 ---
 
-# PART XXXI — THE VISIBLE RENDERING: A GRAVITY-DETERMINED, OBSERVER-SELECTED IMAGE OF THE LEAF (v35.2; Entries 297–300) [T/V/D/S/O]
+# PART XXXI — THE VISIBLE RENDERING: A GRAVITY-DETERMINED, OBSERVER-SELECTED IMAGE OF THE LEAF (v35.2–v35.3; Entries 297–300 and the note of 14 October) [T/V/D/S/O]
 
-*This part returns to the gravity wing. Part XXIX is frozen at v34.10, and nothing here changes its dynamics, its claim status or the Law II limitation (§XXIX.43(c)). The part continues §XXIX.42's image map and answers a requirement §XXIX.18 left open. The numbers come from `pg_v35_numerics.py` (§XXX.10), round v35.2. Two short pointer notes in the frozen §§XXIX.18 and XXIX.42(f) point here (R238).*
+*This part returns to the gravity wing. Part XXIX is frozen at v34.10, and nothing here changes its dynamics, its claim status or the Law II limitation (§XXIX.43(c)). The part continues §XXIX.42's image map and answers a requirement §XXIX.18 left open. The numbers come from `pg_v35_numerics.py` (§XXX.10), rounds v35.2 and v35.3. Two short pointer notes in the frozen §§XXIX.18 and XXIX.42(f) point here (R238; the first corrected in v35.3, R243). §§XXXI.1–8 are v35.2's; §§XXXI.9–15 are v35.3's.*
 
 ## XXXI.1 The entries, as formulated, and three analyses (14 October 2026) [record; R232]
 
@@ -11535,14 +11844,14 @@ Independently, if gravity stayed unrendered, a light-only index would add $(2-\p
 - *An optimistic reading.* The maser $R_0$ of Reid et al. 2019, $8.15\pm0.15$ kpc, is a fit of a rotation model to about 200 parallaxes, mostly a few kpc away. It is not a parallax distance to the Centre. Read optimistically as one, the ratio is $0.9966\pm0.0186$ and would need $\ell\geq32.3$ kpc at $2\sigma$.
 - *The arena law.* $\ell = 3\sqrt{GM/a_0}$ (§XXIX.42(e)) gives $25.0$ kpc at $6\times10^{10}M_\odot$ ($+3.3\sigma$ on the optimistic reading) and $32.3$ kpc at $10^{11}M_\odot$ ($+2.0\sigma$). The Milky Way's mass matters.
 
-The real test is a refit of the maser parallaxes in curved space, with $\ell$ free. It is the first place where the leaf's radius meets data inside our own galaxy.
+The real test of this ratio is a refit of the maser parallaxes in curved space, with $\ell$ free. It is not the first place where the leaf's radius meets data: §IV.8 had already set the cap $\lvert D_A\rvert\le\ell$ against GRAVITY's $R_0$, which fits it, and against the LMC, Leo I and M31 — objects around the galaxy, not in it — which exceed it. If the LMC lies on the Milky Way's leaf and light follows the leaf's rays, the LMC alone needs $\ell_{\rm MW}\ge48.5$ kpc (§XXXI.13). *[v35.3, R243]*
 
 **(f) How many histories [T].**
 - A flat rendering joins two points by one straight line: one history. The base's long-way history from a source to an observer $A$ runs through $A$'s antipode, which an observer-centred flat rendering sends to infinity.
 - A compact rendering, without a point at infinity, has infinitely many geodesics between any two points (Serre 1951).
 - The base rays themselves carry the direct and long-way histories (and windings) at finite length, and refocus after $\pi\ell$ ($50.3$ kpc at $\ell = 16$ kpc).
 
-**What the section settles.** Entry 297's "light moves in this" fails in both forms: the lapse by the Galactic Centre's redshift, the index by vacuum Cherenkov along cosmic-ray paths (and by GW170817 if gravity stays unrendered). The rendering survives as a readout of base rays. The optics is then the base's, with its two histories and its refocusing. The Galactic Centre gives $\ell_{\rm MW}\gtrsim16$ kpc from the direct parallax, and up to $\gtrsim32$ kpc if the kinematic $R_0$ is read as a parallax distance.
+**What the section settles.** Entry 297's "light moves in this" fails in both forms: the lapse by the Galactic Centre's redshift, the index by vacuum Cherenkov along cosmic-ray paths (and by GW170817 if gravity stays unrendered). The rendering survives as a readout of base rays. The optics is then the base's, with its two histories and its refocusing. The Galactic Centre gives $\ell_{\rm MW}\gtrsim16$ kpc from the direct parallax, and up to $\gtrsim32$ kpc if the kinematic $R_0$ is read as a parallax distance. If the LMC lies on the Milky Way's leaf, the cap of §IV.8 gives more: $\ell_{\rm MW}\ge48.5$ kpc (§XXXI.13). *[v35.3, R243]*
 
 ## XXXI.5 The point at infinity and the two conventions (Entries 298–299) [T/V/S; R235] *(`v35_2_infinity_and_conventions()`)*
 
@@ -11635,7 +11944,7 @@ This is v34's lesson again: a quotient operation is not a dynamics (§XXIX.40(c)
 - [T] The Hopf-fibre and orientation-class averages.
 - [V] Light cannot move in the image: the lapse form excluded by the Galactic Centre's redshift, the index form by vacuum Cherenkov (and by GW170817 if light-only).
 - [D] The rendering as an observer-relative readout of base rays, which leaves §XXIX.18's refocusing in place.
-- [V] The Galactic Centre test of the base optics: Sgr B2's parallax gives $\ell_{\rm MW}\gtrsim16$ kpc at $2\sigma$; the kinematic maser $R_0$, read optimistically as a parallax distance, $\gtrsim32$ kpc.
+- [V] The Galactic Centre test of the base optics: Sgr B2's parallax gives $\ell_{\rm MW}\gtrsim16$ kpc at $2\sigma$; the kinematic maser $R_0$, read optimistically as a parallax distance, $\gtrsim32$ kpc. If the LMC lies on the Milky Way's leaf, the cap of §IV.8 is stronger: $\ell_{\rm MW}\ge48.5$ kpc (§XXXI.13). *[v35.3, R243]*
 - [V] The image's departure from Einstein dynamics, negligible in the Solar System and dominant on galactic scales, in both readings.
 
 **Program.**
@@ -11652,15 +11961,271 @@ This is v34's lesson again: a quotient operation is not a dynamics (§XXIX.40(c)
 **Not claimed.** No derivation of the rendering from the history pair, no readout law, and no change to the frozen dynamics or to the Law II limitation.
 
 **Pointer notes in the frozen text.** Two pointer notes are added, both carrying R238.
-- §XXIX.18: Entry 297's rendering is a candidate readout; light cannot move in it, and it does not remove the refocusing (§XXXI.4).
+- §XXIX.18: Entry 297's rendering was proposed as the readout required there; light cannot move in it, so it only re-places images and changes neither the refocusing (§XXXI.4) nor angular sizes, and with base optics the cap of §IV.8 applies to every object on the leaf (§XXXI.13). *[v35.3, R243]*
 - §XXIX.42(f): Entry 297 extends the rendering to our own galaxy, seen from inside.
+
+## XXXI.9 The note, as formulated, and one analysis (14 October 2026) [record; R240]
+
+*The note is unnumbered; numbering is the author's. It follows Entries 297–300 on the same day.*
+
+- **The note (14 October, unnumbered).** It has two aims, given in the author's words where possible.
+  - *Visible space and the dual paths.* Visible space is spacetime as we see it, "under the absolute constraint that it's what we can reconstruct from received light on everything", so that "light gets to decide the stereographic rendition on everything". It is to be stereographic because it is "directly intimately connected to light being able to have its dual paths opened up arbitrarily far away from being aligned along a grade"; "something about that is equivalent to the stereographic constraint".
+  - *One other galaxy, as a toy.* "The enclosing the twin point construction" should first give "the first view, of our own galaxy" as "the one stereographic view that we're inside of". Then, "through passing the enclosing-criterion gateway to the other galaxy", it should give "the other image of our own hemisphere literally as another stereographic projection way up in the sky": "'we ourselves' with respect to its origin are seeing it from some crazy random angle away from the origin, hence the galaxy's own orientation". Perhaps it will eventually give "the build of an elliptical galaxy as exploiting an extra rotational degree of freedom from the dual light paths". The gateway view is "like a second copy of our 3-sphere but positioned all randomly to us". The goal is "one class or family (by admissibility) for each such random gateway positioning", all overlaid "per overlaying their photon reception admissibility to create 'visual space proper'".
+- **The analysis.** One analysis accompanied the note.
+  - It stated the architecture in three layers. The first is one closed leaf with the real gravity, matter and orbits. The second is the admissible light-history classes, each carrying an opening grade, an enclosure topology and orientation or shear data. The third is one rendered chart per admissible class, visual space being their overlay.
+  - It proposed:
+    - an opening grade $\alpha(\gamma_1,\gamma_2;x)$, zero for aligned histories and reaching the stereographic regime in a maximal symmetric case;
+    - a branch index $b$, $0$ for the non-enclosing home class and $1$ for an enclosing gateway class;
+    - an orientation $R_\lambda\in SO(3)$ for each gateway;
+    - ellipticals from an anisotropic shear and twist added to the stereographic core;
+    - the overlay $\mathcal V = \bigcup_{\lambda\in\mathcal A(x)}\mathcal I_\lambda$.
+  - It proposed a four-step toy: the home chart, a binary gateway criterion, a rotated gateway chart with an opening parameter, and the overlay. It listed five things to derive: the opening law, the branch invariant, the admissibility rule, the overlay law and the local limit.
+
+## XXXI.10 Where this attaches [D; R240]
+
+- *Entries 270–274 (§XXIX.29).*
+  - "Two photon histories that *enclose the opposite pole between them* categorically count as 'another galaxy'", and the apparent distance grows with the degree of enclosure.
+  - "Our hemisphere appears *twice*".
+  - A source is visible iff an admissible conditioned space produces its photon.
+  
+  The note's gateway, second copy and overlay continue these entries. The visibility principle is still "too permissive without an independent admissibility equation, single counting of source energy, positive finite intensities and causal consistency" (§XXIX.29(g)).
+- *Entry 275 and §§XXIX.31, XXIX.34, XXIX.39.*
+  - The grade $\alpha = -\hat n_1\cdot\hat n_2$, chosen rather than derived.
+  - The softened readout $D_\alpha$: a Möbius dilation, read as an assigned apparent distance, whose full conformal version is a round sphere of radius $2\ell\sqrt{(1+\alpha)/(1-\alpha)}$ that becomes flat and stereographic as $\alpha\to1$ (§XXIX.39(d)).
+  - The robust class, which is the conjugate-point index, and the remote-appearance class (a proposal).
+  - The two grades.
+  - The count law of the return readout (R174).
+- *Part XXVII.*
+  - The pair as the full great circle through both twins: "one well-defined sense of 'a pair of paths enclosing the twin'", with no winding number claimed (§XXVII.1).
+  - Rendering admissibility (§XXVII.6).
+  - The rendering circle and the withdrawn elliptical reading (§XXVII.8; D15, D18).
+  - Admissible history classes indexed by Hopf foliations (§XXVII.9).
+- *§XIII.9, item 1.* On the base, "a non-contractible loop of the gravity slice lifts to a path from a point to its twin".
+- *§IV.8 (frozen).* "On a sphere of radius $\ell$, angular-diameter distances are $\ell\sin\chi\leq\ell$"; the LMC, Leo I and M31 exceed this cap.
+- *§XIV.0.* The firewall between refocusing, image location and source identity.
+- *§XXIX.42 and Entry 286.* The other galaxy as a reconstruction, and "a redundant overlay of many galaxies' stereographic planes", which is recorded as a premise.
+- *Part XXXI (v35.2).*
+  - The rendering is fixed by the metric alone.
+  - Light cannot move in it; it survives as an observer-relative readout of base rays.
+  - Local calibration selects the observer-centred chart.
+
+*Consistency.* "Light decides the stereographic rendition" agrees with v35.2 if it means that the rendering is a readout of received base rays. §XXXI.11 shows that this readout can indeed be computed from received light, given a standard ruler or candle and each image's focus parity.
+
+*Scale.* The numbers of §§XXXI.11–14 are illustrated at the benchmark $\ell = 16$ kpc, which §XXXI.13 excludes for the Milky Way if the LMC lies on its leaf. The structural results do not depend on $\ell$.
+
+## XXXI.11 The stereographic readout from received light: one image per source [T/V/D; R241] *(`v35_3_joined_readout()`)*
+
+**(a) Each image's two optical distances give its stereographic radius [T/V].** A received ray carries its arrival direction $\hat m$. Through its own bundle it also carries two optical distances, each with a sign:
+- the angular-diameter distance $D_A = \ell\sin(s/\ell)$, negative for an image inverted by a focus;
+- the parallax distance $D_{\rm par} = \ell\tan(s/\ell)$, negative for a converging wavefront.
+
+Here $s$ is the ray's length. Their harmonic mean is the stereographic radius on every branch:
+$$\frac{2D_AD_{\rm par}}{D_A+D_{\rm par}} = 2\ell\tan\frac{s}{2\ell}.$$
+This was checked on direct, long-way and wound rays (15,452 rays; residual $8\times10^{-14}$). It extends v35.2's identity (§XXXI.3(d), checked up to $\chi = 3.0$) to rays longer than $\pi\ell$, the long-way and wound branches.
+
+Reading the two distances needs a standard ruler or candle, and their signs need the image's focus parity. A focus of multiplicity two rotates an image by $\pi$ (§XXIX.31(e)), which shows only if the source's orientation is known. Without the signs, $s$ and $s+\pi\ell$ give the same $\lvert D_A\rvert$ and $\lvert D_{\rm par}\rvert$ but different radii.
+
+**(b) One image per source [T/V].** Read each ray at $x = f(s)\,\hat m$ with $f(s) = 2\ell\tan(s/2\ell)$.
+- The long-way ray of a source at angle $\chi$ along $\hat n$ arrives from $-\hat n$ with $s = (2\pi-\chi)\ell$. Since $f((2\pi-\chi)\ell) = -f(\chi\ell)$, it lands on the direct image.
+- A wound ray adds $2\pi\ell$ to $s$, and $f$ has period $2\pi\ell$.
+
+So the stereographic readout puts every history of a source — direct, long-way and wound — at one point. The worst residual was $2\times10^{-14}$, over 3,863 sources with three further histories each. The readout undoes the relation $\hat n\to-\hat n$ between the direct and long-way skies.
+
+The alternatives fail:
+- Reading the path length as distance ($f = s$) keeps the pair $2\pi\ell$ apart.
+- Reading $D_A$ or $D_{\rm par}$ as distance joins the pair, since both are odd under $s\to2\pi\ell-s$. But it sends distinct sources to one point: the sources at $\chi$ and $\pi-\chi$ collide, on one ray for $D_A$ and on opposite rays for $D_{\rm par}$.
+
+**(c) Uniqueness [T].** Consider radial readouts, $x = f(s)\,\hat m$ with one continuous $f$ for every branch.
+1. *The infinity.* A single-valued, injective readout cannot place the observer's antipode at a finite point. Zero would put it at the observer's own position, and any other finite value would spread that one point over a sphere. The antipode therefore goes to infinity. This is the topological infinity of §XXXI.5(a), made explicit for radial readouts.
+2. *Joining.* Joining the long-way image needs $f$ odd about $\pi\ell$, $f(2\pi\ell-s) = -f(s)$; joining the wound ones needs period $2\pi\ell$.
+3. *Conformality.* A conformal readout satisfies $d\ln f/ds = 1/(\ell\sin(s/\ell))$, which is v35.2's radial prescription. With $f\simeq s$ near the observer, $f = 2\ell\tan(s/2\ell)$ (integrated: $2\times10^{-12}$), which is odd and periodic as 2 requires.
+
+A conformal chart centred elsewhere is not radial from the observer; local calibration, $\nabla\Omega(A) = 0$, excludes it (§XXXI.5(b)). So among radial readouts the stereographic one is the unique calibrated conformal readout, and it joins all the histories of each source. Entry 277's "joined histories" (§XXIX.35) appear here as a property of the readout. The histories stay distinct curves, and no area law joins them on the round leaf (§XXIX.37), but they are read at one point. This sharpens §XXXI.5(d): a flat image does not lose the second history; it reads it where the first one is.
+
+**(d) The base reading: the branch family [T/V].** On the base $\mathbb{RP}^3$ the second history of a source runs the other way along the same projective line. It has length $(\pi-\chi)\ell$, arrives from $-\hat n$, and with the first history closes the base's non-contractible loop (§XIII.9). On the cover it is the direct history of the source's twin lift (Part XVI's twin image; §XXIX.32(g)). Read stereographically it lands at
+$$x_{\rm twin} = -\frac{4\ell^2\,x_{\rm home}}{\lvert x_{\rm home}\rvert^2}$$
+(residual $10^{-14}$). So the branch family of §XXIX.29(a), $D_ND_S = 4\ell^2$, is the stereographic readout of the base's two histories.
+- The shortest histories fill the ball of radius $2\ell$, and the twin histories fill its outside.
+- They meet on the sphere of radius $2\ell$, the image of the cut locus ($\chi = \pi/2$). There the two histories are equally long and exchange order.
+- Together they make one stereographic picture of the cover: the observer's hemisphere inside, the twin hemisphere outside.
+
+For the benchmark observer the Galactic Centre is at $8.171$ kpc and its twin image is at $125.32$ kpc toward the anticentre. The twin image is dark under the barren-twin readout (§XXXI.5(b)).
+
+**(e) What the section settles.** The note's first claim holds in this form. The stereographic rendering is the reconstruction from received light — from each image's two optical distances, given a standard ruler and the image's focus parity — that reads every history of a source at one point. Injectivity forces its point at infinity; among radial readouts, conformality and local calibration make it unique. It decides where images are drawn, not what the sky shows: the long-way images remain on the sky (§XXXI.14(a)).
+
+## XXXI.12 The opening grade and the radius of visual space [T/D; R242] *(`v35_3_opening_radius()`)*
+
+**(a) The radius is the stereographic function of the opening [T; a restatement].** §XXIX.31 reads a history pair with the grade $\alpha = -\hat n_1\cdot\hat n_2 = \cos\delta$, where $\delta$ is the departure of the two arrival directions from exact opposition. §XXIX.39(d) showed that the full conformal readout at grade $\alpha$ is a round sphere of radius $2\ell\sqrt{(1+\alpha)/(1-\alpha)}$, with $D_\alpha$ an assigned apparent distance. Let $\Theta = \pi-\delta$ be the opening angle between the two arrival directions. Then that radius is
+$$R(\Theta) = 2\ell\tan\frac{\Theta}{2},$$
+the stereographic function itself, now of the opening. (This $\alpha$ is the archive's grade: $-1$ for aligned arrivals, $0$ at right angles, $1$ at exact opposition. The analysis's grade (§XXXI.9) is zero for aligned histories; the zero points differ, and the analysis gave no functional form.) This restates §XXIX.31(b), (f): $D_\alpha$ is arc length on a sphere of radius $2\ell\mathcal D_\alpha$, and $\mathcal D_\alpha = \cot(\delta/2) = \tan(\Theta/2)$. At $\ell = 16$ kpc:
+
+| opening $\Theta$ | grade $\alpha$ | $R$ |
+|:--|:--|:--|
+| $10^\circ$ | $-0.985$ | $2.80$ kpc |
+| $60^\circ$ | $-0.5$ | $18.48$ kpc |
+| $90^\circ$ | $0$ | $32.00$ kpc |
+| $120^\circ$ | $0.5$ | $55.43$ kpc |
+| $150^\circ$ | $0.866$ | $119.4$ kpc |
+| $170^\circ$ | $0.985$ | $365.8$ kpc |
+| $179^\circ$ | $0.99985$ | $3.67$ Mpc |
+| $179.9^\circ$ | $0.999998$ | $36.67$ Mpc |
+| $180^\circ-1'$ | $1-4.2\times10^{-8}$ | $220.0$ Mpc |
+
+Three things were checked over $-0.95<\alpha<0.995$: the arc-length reading (residual $3\times10^{-16}$), the local slope $\ell$ for every grade, and the full return at the far pole, $D_\alpha(2\pi) = \pi R$.
+
+**(b) Three marks on the grade [T].**
+- $\Theta\to0$, aligned arrivals: $R\to0$, and every distance collapses.
+- $\Theta = 90^\circ$ ($\alpha = 0$): $R = 2\ell$, and $D_0(s) = \ell s$ is the plain arc length.
+- $\Theta\to\pi$, exact opposition: $R\to\infty$, the flat stereographic readout with its point at infinity.
+
+The archive's family is defined for $\alpha\ge0$. Its compressive range $\alpha<0$ ($\Theta<90^\circ$), which §XXIX.39(d) asked to be "treated explicitly", is the same Möbius family with a dilation factor above one. It shrinks the readout sphere below $2\ell$, down to a point.
+
+**(c) One condition, for the direct and long-way pair [T].** A radial readout puts two images at one point only if they arrive along one line (§XXXI.11). For the direct and long-way pair, to which the grade refers, that means exact opposition. Within the grade's family, three things therefore coincide at $\Theta = \pi$:
+- the readout is flat and stereographic ($R$ infinite);
+- it has a point at infinity;
+- the pair reads at one point.
+
+For $\Theta<\pi$ the readout sphere is compact and the pair reads at two points. The wound images are different: they arrive aligned with the direct one ($\Theta = 0$), and the joined readout puts them at home, while the grade's readout would collapse. The grade is a property of the direct and long-way pair, not of every pair of histories.
+
+On the round leaf every direct and long-way pair has $\Theta = \pi$, since a return lens symmetric about the antipode keeps $\alpha = 1$ (§XXIX.31(e)). Such a pair opens less only where matter breaks that symmetry.
+
+**(d) Status [D].** These are identities given the grade, which §XXIX.31(f) chose ("a derivation from the history dynamics is open"); the radius itself restates §XXIX.31(b), (f). The note's equivalence holds in the form (c), relative to that choice. The grade itself is not derived here.
+
+## XXXI.13 What no readout changes: the cap, and a correction to §XXXI.4(e) [T/V; R243] *(`v35_3_cap()`)*
+
+**(a) The cap [T].** A readout assigns positions; it does not change the rays (§XXXI.4(d)). On the round leaf every image of every source has $\lvert D_A\rvert = \ell\lvert\sin(s/\ell)\rvert\le\ell$, on every branch and winding. On a static leaf with $z = 0$, reciprocity gives $D_L = D_A$, so standard candles obey the same cap. The benchmark's matter changes the bound only at the order of its matter factor, $1.05\times10^{-6}$ (§XXXI.3(b)).
+
+**(b) The satellites, and M31 [V].** If an object lies on the Milky Way's leaf, and light follows the leaf's rays, its measured distance $D$ needs $\ell_{\rm MW}\ge D$:
+
+| object | distance | method | $\ell_{\rm MW}$ needed ($2\sigma$) | $D/\ell$ at $\ell = 16$, $25.0$, $32.3$ kpc |
+|:--|:--|:--|:--|:--|
+| LMC | $49.59\pm0.55$ kpc | eclipsing binaries (Pietrzyński et al. 2019) | $\ge48.5$ kpc | $3.10$, $1.98$, $1.54$ |
+| SMC | $62.44\pm0.94$ kpc | eclipsing binaries (Graczyk et al. 2020) | $\ge60.6$ kpc | $3.90$, $2.50$, $1.93$ |
+| Leo I | $254^{+16}_{-19}$ kpc | red-giant-branch tip (Bellazzini et al. 2004) | $\ge216$ kpc | $15.9$, $10.2$, $7.86$ |
+| M31 | $761\pm11$ kpc | Cepheids (Li et al. 2021) | $\ge739$ kpc | $47.6$, $30.4$, $23.6$ |
+
+The eclipsing-binary distances are geometric: a linear radius from the orbit divided by an angular one from the surface brightness. They are angular-diameter distances in the sense used here.
+
+**(c) Correction to v35.2 [R243].** §IV.8 (frozen) had already set this cap against GRAVITY's $R_0$, which fits it, and against the LMC, Leo I and M31, which exceed it. It concluded that "if light uses $r^*g_G$ … the galactic $S^3$ dies observationally". §XXXI.4(d) concluded that light follows the leaf's rays. Under that conclusion the cap applies to every object on the leaf. If the LMC lies on the Milky Way's leaf, it alone needs $\ell_{\rm MW}\ge48.5$ kpc at $2\sigma$ (the SMC $60.6$ kpc): three times the benchmark, and above the arena law's $25$–$32$ kpc.
+
+§XXXI.4(e) called the Galactic Centre "the first place where the leaf's radius meets data inside our own galaxy". It is not: §IV.8 met it first, and the satellites bound the radius more strongly than Sgr B2's $\ell_{\rm MW}\ge16.1$ kpc, if they lie on the leaf. The two sentences of §XXXI.4(e) are replaced in place (R243 keeps the superseded wording), and the Galactic Centre stays as the parallax test.
+
+**(d) The ways out, none yet taken [O].**
+- *The stretch branch* (§XXIX.20, Option A; R99). Matter and light share a radially stretched leaf, and the cap is not a general bound there: an off-centre observer's $D_A$ grows without bound along the horn for outward radial bundles. R99 adds that this "does not show that Option A reproduces observed distances", and the satellites' distances there are not computed. The branch is exploratory, with its own discriminating test, the epicyclic ratio.
+- *A leaf radius above $216$ kpc*, if Leo I is on the leaf. This contradicts the arena law's $25$–$32$ kpc and the benchmark's $16$ kpc.
+- *The satellites not on the Milky Way's leaf.* Then the leaf does not hold its own satellites' orbits.
+- *Photons that do not follow the leaf's geodesics.* §XXXI.4(d) excluded an index and a lapse on the leaf; a transport on the middle space, the open photon operator of §XXIX.43, is untested.
+
+## XXXI.14 The home view, the gateway view and the overlay [T/V/D/S/O; R244] *(`v35_3_home_and_gateway()`, `v35_3_orientation_and_shape()`)*
+
+**(a) The home view, and two candidate gateways [T/V].** The home view is the joined readout of §XXXI.11 — "the one stereographic view that we're inside of". Two classes could serve as the note's gateway, and they belong to different pairs.
+- *On the leaf,* the archive's robust class is the conjugate-point index of §XXIX.31(e): $0$, $2$, $4$ and $6$ for the direct, long-way, wound and wound long-way histories of the Galactic Centre. The direct and long-way pair closes a great circle of $S^3$, which on the base is the projective line traversed twice — contractible.
+- *On the base,* the non-contractible class (§XIII.9) belongs to the direct history and the twin-lift history of §XXXI.11(d).
+
+Read by the home rule, the index-2 image of the Galactic Centre lands on its home image, $8.171$ kpc toward the Centre. The joined home view contains each source once, so §XXIX.31(e)'s remote-appearance proposal (index $\ge2$) yields no remote image. On the sky the index-2 images are still there: each arrives from the antipodal direction with $z = 0$ and with the direct image's angular size and flux ($\lvert\sin(2\pi-\chi)\rvert = \sin\chi$; §XXIX.32). For the Galactic Centre it arrives $275{,}700$ years after the direct image. This is §XXIX.18's refocusing, which no readout removes. The only other image left is the twin-lift class.
+
+**(b) The twin images: the other image of our own hemisphere [T/V].** Read by the base rule (§XXXI.11(d)), the twin-lift images form the inverted copy outside $2\ell$. A source 1 kpc away has its twin image $1.02$ Mpc away in the opposite direction; one 100 pc away, $10.24$ Mpc; α Centauri ($1.34$ pc), $764$ Mpc. This is exactly "the other image of our own hemisphere literally as another stereographic projection": the cover's twin hemisphere, in the observer's own chart. But it surrounds the observer, whose own position lies at its infinity, so it is not a compact galaxy in one direction. It is dark under the barren-twin readout.
+
+**(c) The compact copy, as a readout [D/V].** The note's compact copy "way up in the sky" can be had as a readout. Render the copy in its own matter-centred chart, so that its disk is flat, and read it as seen from a point $v$ of the copy at angle $\chi_v$ from its centre.
+- Its apparent distance is $D = 2\ell\tan(\chi_v/2)$.
+- Its angular size is Euclidean.
+- Its inclination is the angle between its disk normal and the direction of $v$.
+
+Far copies need $v$ near the copy's twin pole, at $\varepsilon = \pi-\chi_v = 2\arctan(2\ell/D)$:
+
+| apparent distance | $761$ kpc (M31) | $100$ Mpc | $1$ Gpc |
+|:--|:--|:--|:--|
+| $\varepsilon$ | $0.0841$ rad | $6.40\times10^{-4}$ rad | $6.40\times10^{-5}$ rad |
+| on the copy's leaf ($\ell = 16$ kpc) | $1.34$ kpc | $10.2$ pc | $1.02$ pc |
+
+The copy is seen through its twin point. A 15 kpc disk renders with radius $16.2$ kpc and spans $1.22^\circ$ of radius at 761 kpc. This is a readout only. §XXXI.4 rules out light moving in the copy's chart, so the photons that would carry the copy are still to be found ((g) below).
+
+**(d) Random positioning, counts and the overlay [T/V/O].**
+- *Orientation.* If the viewpoint offsets are isotropic, the inclinations are isotropic: $\cos i$ is uniform, with Kolmogorov distance $0.0011$ for 200,000 copies. That is an input, not a prediction.
+- *Counts.* If the gateway positions are random in the Haar sense, the viewpoints are uniform on $S^3$ and
+  $$P(D>D_0) = \frac{2\varepsilon_0-\sin2\varepsilon_0}{2\pi},\qquad\varepsilon_0 = 2\arctan\frac{2\ell}{D_0}.$$
+  Half the copies lie within $2\ell = 32$ kpc, and only $5.6\times10^{-5}$ lie beyond 1 Mpc. $P$ falls as $D_0^{-3}$ (computed slope $-2.999$), so $dN/dD\propto D^{-4}$.
+- *Why.* The cause is the inversion's Jacobian, $(k/r)^6$. Near the point the readout inverts, any smooth measure becomes $dN/dD\propto D^{-4}$ far away. This is the law §XXIX.34 found for the return readout (R174: "the within-$D$ count saturates"). Euclidean counts, $dN/dD\propto D^2$, need a measure that diverges as $\varepsilon^{-6}$ (relative to volume) at the copy's twin pole. In the grade's reading, they need opening deficits distributed as $\delta^{-4}$.
+- *The base gateway with real sources.* Were the twin images lit, every image read beyond 1 Gpc would be the twin image of a source within $1.02$ pc of the observer ($4.17$ pc at $\ell = 32.3$ kpc). At $\ell = 16$ kpc that is the Sun alone — the nearest star, Proxima Centauri, is $1.30$ pc away — and the Sun's twin image reads at about $2\times10^5$ Gpc.
+- *The overlay.* $\mathcal V = \bigcup_\lambda\mathcal I_\lambda$ needs a discrete admitted set with this measure; a continuous admitted family smears the copies into a diffuse sky. The admissibility rule that would supply both is §XXIX.29(g)'s open equation.
+
+**(e) Orientation: independent of the line of sight [T/V].** Suppose a gateway carries our own frame rigidly along the line of sight, by Levi-Civita transport or by either Clifford parallelism (the left and right Hopf translations). Then every copy has the inclination that our own disk has toward that line of sight:
+$$\cos i = \lvert\hat n_{\rm MW}\cdot\hat w\rvert = \lvert\sin b\rvert.$$
+This was checked for 300 random lines of sight and distances, with worst residual $3\times10^{-16}$. The Clifford rules add only a roll about the line of sight, equal to the angle travelled. Copies would therefore be face-on toward the Galactic poles and edge-on in the plane.
+
+NGC 4565 lies at $b = 86.44^\circ$. The rule makes it face-on (axis ratio $0.998$ for an intrinsic thickness $0.1$). Yet it is one of the best-known edge-on spirals, with V-band size $15.90'\times1.85'$ and axis ratio $0.116$. The orientation must therefore be independent of the line of sight: set by each gateway's own random viewpoint, as the note proposes ((c)–(d)), not by a rigid transport of our frame.
+
+**(f) Ellipticals [T/V].** A single image cannot look like an elliptical, for two reasons.
+- *Shape.* A conformal (Möbius) gateway maps the plane of a disk to a plane or a round sphere, and it stretches every direction equally at each point. A thin disk therefore renders as a thin sheet.
+  - For 12 random Möbius maps the midplane's image lies on one sphere (residual $10^{-13}$).
+  - Each point's distance from that sphere is at most $1.004$ times its local factor times its original height.
+  - Meanwhile the sheet bends by up to $0.40$ of its diameter.
+  
+  A single conformal image of a disk is a cap or a shell, never a filled ellipsoid. A thin round shell is limb-brightened, $\Sigma\propto(1-r^2/R^2)^{-1/2}$, whereas an elliptical's de Vaucouleurs profile falls from its centre by $e^{b_4}\approx2{,}100$ to its effective radius.
+- *Viewing.* Random viewing angles give a disk of intrinsic thickness $q_0$ the apparent axis ratio $q = \sqrt{\cos^2i+q_0^2\sin^2i}$, nearly uniform in $q$: with $q_0 = 0.15$, a fraction $0.263$ lies below $0.3$. Ellipticals instead peak near $q = 0.8$ (SDSS; Alam and Ryden 2002), and the Hubble sequence stops near E7 ($q\approx0.3$). Their stars also move on largely random orbits.
+
+An overlay is different. Averaging a thin exponential disk over all orientations — the archive's class average (§XXXI.7), or §XXVII.8's multihistory rendering, whose admissibility D19 left undecided — gives a round object. Its projected profile is $\Sigma_0K_0(R/R_d)$ (checked to $7\times10^{-16}$), cusped at the centre ($5.76$ times brighter at $0.1R_d$ than at $R_d$), and it has no net rotation. Shape and viewing do not exclude it. What does, for a copy of our own galaxy, is §XXVII.8's list: a rendering changes neither the gas content nor the stellar populations, and ellipticals are gas-poor and old while the Milky Way forms stars. The archive's withdrawal of the elliptical reading (§XXVII.8; D15, D18) stands; any revival needs a velocity-rendering law (§XXIX.42) and a population argument.
+
+**(g) What the toy needs that the leaf cannot give [O].**
+- *Photons.* A compact, demagnified copy needs photons delivered into a small cone. Leaf geodesics cannot do this: they are capped (§XXXI.13) and they refocus. The copy needs a transport that is not the leaf's geodesic optics — the open photon operator on the middle space (§XXIX.43).
+- *Frequency.* Every copy has $z = 0$ until a frequency law is derived. By §XXIX.29(e), an enclosure grade changes images, delays and magnification, not frequency.
+- *Source identity.* If every copy were our own galaxy, every galaxy would share its satellites, its stellar populations and its transients. The archive keeps this firewall: "the branch's claim is not that the Sun's photons circle the arena and one return is called Andromeda" (§XIV.0). In the toy, the copy of our hemisphere stands in for the other galaxy's own matter.
+
+## XXXI.15 Standing, program and falsifiers [S/O; R245]
+
+**Recorded as premises [S]:**
+- visible space as what can be reconstructed from received light, the gateway as an enclosing class, the gateway view as a randomly positioned copy, and visual space proper as the overlay of admissible classes (the note);
+- the toy's copy of our own hemisphere as a stand-in for another galaxy.
+
+**Established here.**
+- [T] Each image's two optical distances give its stereographic radius, on every branch.
+- [T] One image per source: the stereographic readout joins all histories; injectivity forces the infinity; among radial readouts, conformality and calibration fix the readout.
+- [T] The base's two histories, read stereographically, are the branch family: the inverted copy outside $2\ell$, glued along the cut locus.
+- [T] The readout radius at grade $\alpha$, restated as $R = 2\ell\tan(\Theta/2)$; for the direct and long-way pair, flatness, a point at infinity and one point for the pair coincide at $\Theta = \pi$.
+- [T/V] With light on the leaf's rays the cap applies: the LMC, if on the leaf, needs $\ell_{\rm MW}\ge48.5$ kpc (the correction to §XXXI.4(e)).
+- [T/V] The home view has no second copy, so the long-way class yields no remote image; the twin-lift images surround the observer; a far compact copy is seen through its twin point.
+- [T/V] Any smooth measure gives $dN/dD\propto D^{-4}$; Euclidean counts need $\varepsilon^{-6}$.
+- [T/V] Rigid gateways force $\cos i = \lvert\sin b\rvert$, which NGC 4565 refutes; orientation must be independent of the line of sight.
+- [T/V] A single conformal image of a thin disk stays thin, and no viewing angle makes it look elliptical; an orientation overlay is round and cusped ($K_0$), excluded for a copy of our galaxy by its populations.
+
+**Program.**
+1. Decide what the Milky Way's leaf contains, given the cap. The options are the stretch branch, a leaf above 216 kpc, satellites off the leaf, or a photon transport that is not the leaf's geodesic optics.
+2. Find the admissibility rule for the overlay. It must select a discrete set with the Euclidean measure ($\varepsilon^{-6}$, or $\delta^{-4}$ in the grade's reading) and count source energy once.
+3. Find a photon transport that delivers a gateway copy into a small cone with demagnification, and a frequency law for it.
+4. Derive the grade, extending §XXIX.31(f)'s choice through the compressive range.
+
+**Falsifiers.**
+- Angular-diameter or luminosity distances in the Milky Way's system above $\ell_{\rm MW}$ for objects on the leaf. The LMC already meets this, if it is on the leaf, unless $\ell_{\rm MW}\ge48.5$ kpc.
+- Inclinations that depend on the line of sight: $\cos i = \lvert\sin b\rvert$ for rigid rules, already refuted by NGC 4565.
+- Counts falling as $D^{-4}$ — the smooth-measure law — in any admissibility rule claimed to reproduce the sky.
+- Long-way images on the sky: base optics puts each source's second image at the antipodal point with the direct image's size and flux, and their absence is §XXIX.18's open conflict (Part XVI's returned Sun is the same fact).
+
+**Not claimed.** No admissibility rule, no gateway transport, no frequency law, no derivation of the grade, and no change to the frozen dynamics or to the Law II limitation.
+
+**Pointer note.** The R238 pointer in §XXIX.18 now says that the rendering only re-places images, and names the cap (R243).
 
 ---
 
-## Round record: the version summaries, v16 to v35.2 (moved from the head of the archive in v34.9, R190)
+## Round record: the version summaries, v16 to v35.3 (moved from the head of the archive in v34.9, R190)
 
-*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
 
+> **v35.3 — the home view, the gateway view and the overlay (the author's note of 14 October, with one analysis).**
+>
+> *What was asked.*
+> - Visible space is what can be reconstructed from received light, so light decides the stereographic rendition; that should be tied to the dual paths opening arbitrarily far from alignment along a grade.
+> - For one other galaxy: our own galaxy as the stereographic view we are inside of; then, through the enclosing-criterion gateway, the other image of our own hemisphere as another stereographic projection up in the sky, seen from a random angle, with ellipticals perhaps from an extra rotational freedom.
+> - One admissible class per random gateway positioning, all overlaid into visual space proper.
+>
+> **What v35.3 does (R240–R246; §§XXXI.9–15).**
+> - Each image's two optical distances (given a standard ruler and the focus parity) give its stereographic radius on every branch, and the stereographic readout reads every history of a source at one point. Injectivity forces the point at infinity; among radial readouts, conformality and calibration fix the readout. On the base the same readout gives the branch family: the twin-lift images form an inverted copy outside $2\ell$.
+> - With the archive's chosen grade, the readout sphere's radius restates as $2\ell\tan(\Theta/2)$ in the opening angle $\Theta$: for the direct and long-way pair, flatness, a point at infinity and one point for the pair coincide at full opening.
+> - A correction to v35.2: with light on the leaf's rays the frozen cap of §IV.8 applies, and if the LMC lies on the Milky Way's leaf it alone needs $\ell_{\rm MW}\ge48.5$ kpc — a stronger bound than the Galactic Centre's, and not the first, since §IV.8 had set the cap before.
+> - The home view has no room for a second copy, so the long-way class yields no remote image; the only other image is the twin-lift class. A far compact copy, read in its own chart, is seen through its twin point. Any smooth measure of gateway positions gives counts falling as $D^{-4}$; Euclidean counts need a measure diverging as $\varepsilon^{-6}$ at the twin pole.
+> - Rigid gateways force $\cos i = \lvert\sin b\rvert$, which NGC 4565 refutes, so orientation must be independent of the line of sight. A single conformal image keeps a disk thin and no viewing angle makes it elliptical; an orientation overlay would be round and cusped, but a copy of our galaxy keeps its gas and young stars.
+>
+> **Next.** Decide what the Milky Way's leaf contains given the cap; an admissibility rule with the Euclidean measure and single counting; a gateway photon transport with its frequency law; a derivation of the grade.
+>
 > **v35.2 — the visible rendering: a gravity-determined, observer-selected image of the leaf (Entries 297–300, with three analyses; 14 October 2026).**
 >
 > *What was asked.* The author turned back to the gravity wing.
