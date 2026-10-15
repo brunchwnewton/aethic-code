@@ -1,8 +1,8 @@
-# Projective Gravity — Version 35.7 (draft): the hyper-canonical completion, the charged-lepton cycle and the visible rendering
+# Projective Gravity — Version 35.8 (draft): the hyper-canonical completion, the charged-lepton cycle, the visible rendering and reflectrons
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases — with branches on charge and extremality, and on rendering and canonical optics
 
-**Claim status of Parts XXX–XXXI (v35.7).** This table governs the open work: Part XXX (the hyper-canonical completion and the charged-lepton cycle) and Part XXXI (the visible rendering of the leaf). Parts 0–XXIX are frozen — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10 — and their claim status is the frozen table that follows this one, unchanged except for marked post-freeze notes. Post-freeze notes correct them without rewriting them: two erratum notes in §§XXI.4–4a (R211), clarification notes in §§XXIX.40(e), XXIX.41(d), XXIX.42(g) and XXIX.43(b) (R212–R216, §XXX.12), two pointer notes in §§XXIX.18 and XXIX.42(f) (R238, Part XXXI; the first corrected in v35.3, R243, and in v35.4, R254), and two pointer notes of v35.6, in §§XIII.10 and XXIX.42(c) (R277, R276; the first scoped in v35.7, R288). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*. Rows changed or added since v35.1 carry their register number. Three rows — the cap, the refocusing and the darkness of the sky — are marked as **central limiting conditions**: every proposal for the visible sky must say how it meets them (R255, R267).
+**Claim status of Parts XXX–XXXII (v35.8).** This table governs the open work: Part XXX (the hyper-canonical completion and the charged-lepton cycle), Part XXXI (the visible rendering of the leaf) and Part XXXII (reflectrons: Feynman diagrams as the joint residue of paired histories). Parts 0–XXIX are frozen — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10 — and their claim status is the frozen table that follows this one, unchanged except for marked post-freeze notes. Post-freeze notes correct them without rewriting them: two erratum notes in §§XXI.4–4a (R211), clarification notes in §§XXIX.40(e), XXIX.41(d), XXIX.42(g) and XXIX.43(b) (R212–R216, §XXX.12), two pointer notes in §§XXIX.18 and XXIX.42(f) (R238, Part XXXI; the first corrected in v35.3, R243, and in v35.4, R254), and two pointer notes of v35.6, in §§XIII.10 and XXIX.42(c) (R277, R276; the first scoped in v35.7, R288). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*. Rows changed or added since v35.1 carry their register number. Three rows — the cap, the refocusing and the darkness of the sky — are marked as **central limiting conditions**: every proposal for the visible sky must say how it meets them (R255, R267).
 
 | claim | type | evidence | archive |
 |:--|:--|:--|:--|
@@ -81,10 +81,21 @@
 | Branch signs ($\sigma = \operatorname{sgn}F_H$); the observer at the origin of the chosen reconstruction; the cubic term symmetry-allowed, cancelled by identical antipodal partners when the four lie on the great 2-sphere $\pi/2$ from the equidistant point, not in general; the report on v35.4 disposed (R273, R275) | analytic theorem; numerical control; definition | — | §XXXI.25(d), (f) |
 | **Views from above and at a tilt, the visible space, and a minimal gateway kernel (v35.7; the author's note and the review of v35.6)** | | | |
 | A disk seen from any height and tilt on its own leaf: along the major axis $\tan\beta = \tan u/\sin D\ge\tan u$ (the gnomonic $\ell\tan u$), against the flat galaxy-centred portrait's $\tan(u/2)/\tan(D/2)$; matched at the centre the portrait needs a compression $1-\tan^2(u/2)$; in an off-plane observer's chart the disk is a sphere of radius $2\ell/\sin\delta$ around the observer, a placement in depth that leaves the sky unchanged (R283) | analytic theorem; numerical control | residuals $\le9\times10^{-15}$ | §XXXI.31 |
-| One Euclidean space reproducing the leaf's light serves at most two observers: for every observer of a region it would be a homothety (projective and conformal), so the leaf would be flat; two observers share the projective map conformal at both, unique up to similarity and conformal nowhere else (a third observer $1$ kpc off the axis at the midpoint errs by $0.070^\circ$ at $b = 1$ kpc, whatever the sources' distance). Carrying one observer's stereographic chart to another costs $\arcsin(\rho_b\rho_d/4\ell^2)$, led by its parallax discrepancy $bd/(4\ell^2)$ ($0.23^\circ$ for a $1$ kpc move at $4$ kpc). The charts form one Möbius atlas, and the stereographic radius is a conformal invariant (R284) | analytic theorem; numerical control | — | §XXXI.32 |
-| Every absolute distance indicator — candles, rulers, proper motions with Doppler speeds — returns $D_A$, parallax returns $D_{\rm par}$, and nothing returns the stereographic radius $\rho$: read with $\rho$, sizes and transverse speeds come out $K = 1+(\rho/2\ell)^2$ times too large ($1.0652$ for the Galactic Centre); the immersion is visual, in the sky's relative content; $K$ is an observable only for gateway portraits (R285) | analytic theorem; numerical control | — | §§XXXI.21(d), XXXI.22(d), XXXI.33 |
+| One Euclidean space reproducing the leaf's light serves at most two observers: for every observer of a region it would be a homothety (projective and conformal), so the leaf would be flat; two observers share the projective map conformal at both, unique up to similarity and conformal nowhere else (a third observer $1$ kpc off the axis at the midpoint errs by $0.070^\circ$ at $b = 1$ kpc, whatever the sources' distance). Carrying one observer's stereographic chart to another costs $\arcsin(\rho_b\rho_d/4\ell^2)$, led by its parallax discrepancy $bd/(4\ell^2)$ ($0.23^\circ$ for a $1$ kpc move at $4$ kpc). The charts form one Möbius atlas, and the stereographic radius is read from a conformal invariant; any Euclidean space reproducing two observers' skies is the two-observer map, up to similarity (R284, R304); this concerns the leaf's own light (R301) | analytic theorem; numerical control | — | §XXXI.32 |
+| Candles, rulers and proper motions with Doppler speeds return $D_A$, parallax returns $D_{\rm par}$, timing returns the path length $s$, and none returns the stereographic radius $\rho$ (R304): read with $\rho$, sizes and transverse speeds come out $K = 1+(\rho/2\ell)^2$ times too large ($1.0652$ for the Galactic Centre); with the leaf's own light the immersion is in the sky's relative content (R301); $K$ is an observable only for gateway portraits (R285) | analytic theorem; numerical control | — | §§XXXI.21(d), XXXI.22(d), XXXI.33 |
 | The flux law from the étendue, for a non-absorbing transport ($\kappa\le1$ by the brightness theorem where $\Omega\ge1$; $\kappa = 1$ keeps duality; $\kappa<0$ allowed; a transmission multiplies every flux); the redshift as $(1+z_g)(1+z_{\rm int})$; the cap's domain and the solar-image falsifier's idealization stated (R286–R288) | analytic theorem; definition | — | §XXXI.34(a)–(c) |
 | A minimal gateway kernel, as a class: it postulates the radius law, the uniform redshift with the Doppler pattern and the time dilation, without solving for them together (open), and forces proper motions $K$ times the Doppler speeds for every $\kappa$ and, given $\kappa$, the flux law. M31's Cepheids (outer ones fainter by $+0.007\pm0.003$ mag/kpc, tentatively attributed to crowding or blending) bound a lossless stereographic gateway to $\ell_g>19.8$–$42.2$ kpc at $2\sigma$, or $\kappa<0.16$–$0.67$ at $16$ kpc, by premise on what blending contributes; the bound is one-sided ($\kappa<0$, or a transmission falling outward, escapes it) (R289, R290) | specified physical premise (a candidate class); numerical control; observational bound under a stated premise | Wagner-Kaiser et al. 2015; van der Marel et al. 2019; Brunthaler et al. 2005; Chemin et al. 2009 | §XXXI.34(d)–(g) |
+| **Reflectrons: Feynman diagrams as the joint residue of paired histories (v35.8; the author's note and its analysis)** | | | |
+| The Reflectron Matching Hypothesis, formalized for the QED vertex: two reflectrons from the determinate nodes, a matching of their points as the vertices, a segment both traverse read as a photon; the boundary's single admissible association against the interior's $n!$ matchings (R293, R294) | definition; specified physical premise | — | §§XXXII.1–2 |
+| Four reflectrons: $3$ groupings, an order-$8$ relabeling group separating redescriptions from distinct contributions, the Hafnian of bosonic and the Pfaffian (signs $+$, $-$, $+$) of Grassmann-odd reflectrons — Wick's theorem re-expressed, with the redescriptions, the pair kernel and, for the signs, Grassmann-odd statistics as premises (R295) | analytic theorem; numerical control; specified physical premise | quadrature to $4\times10^{-16}$ | §XXXII.3 |
+| Two worldlines: the author's overlays are the matchings $(2,3,1)$ and $(3,2,4,5,1)$; the alternation lemma — a diagram is generated exactly when it has no two lines between the same two vertices and an acyclic alternation, so no self-energy or polarization bubble is ever generated; at most $2^k$ matchings with $k$ closed loops (R296) | analytic theorem; numerical control | every matching through three loops | §XXXII.4 |
+| Against QED: the enumeration reproduces the known $1$, $1$, $7$, $72$ vertex diagrams; through two loops the matchings give exactly the insertion-free 1PI diagrams (which dressed propagators complete), plus one reducible; at three loops $23$ of $30$, with $5$ extras, one of them reached twice — "every matching once" is not QED's sum; weights, such as Schwinger's $\alpha/2\pi$, are not supplied (R296) | numerical control; open bridge | Knecht 2003; Schwinger 1948 | §XXXII.5 |
+| The Born regrouping as unitarity: $\sum_f\lvert S_{1,fi}\rvert^2 = -2\,{\rm Re}\,S_{2,ii}$, the optical theorem, fixing the absorptive part only (R297) | analytic theorem; numerical control | residuals $\le2\times10^{-15}$ | §XXXII.6 |
+| **Entries 311–313: the inverse optical question and PG's rotation curve in gnomonic radius (v35.8; the review of v35.7, two analyses, a request and a note on the plots)** | | | |
+| The inverse question: an isotropic light law giving every observer the stereographic view, with light cones round against matter's rulers, has a Fermat metric that is a constant multiple of the flat portrait metric; fitting it to matter needs a lapse (the Galactic Centre's light blueshifted by $6\%$ at the Sun), an index ($n = 0.939$–$1.219$ across the Galaxy; vacuum Cherenkov), flat rulers or a mix — so a working law must act on histories (R300, R301) | analytic theorem; numerical control | — | §§XXXI.36–37 |
+| PG's solved curves (Part XXV) read in gnomonic radius $R = \ell\tan\chi$: asymptotically flat to infinite $R$, $v^2 = v_{\rm eq}^2+A/R^2$ with $A = a_2\ell^2<0$, $a_2 = -v_{\rm eq}^2/6-(2\pi/3)\rho_{\rm eff}''(\pi/2)\mu c^2$; sharp sources ($r_d/\ell\le0.02$) settle onto the point source's curve, within $5\%$ of the plateau beyond $7$ kpc, and $r_d/\ell = 0.05$–$0.1$ from $5.8$–$21$ kpc outward; a Newtonian reading implies $M(<R)\propto R$, $7.8$ times the leaf's mass at $50$ kpc for $r_d/\ell = 0.1$ and $9.1$ times for $0.02$ (R302) | numerical control; analytic theorem; a reading, not new dynamics | Part XXV's table reproduced | §XXXI.38 |
+| The gnomonic reading: the leaf's own light gives it to an observer on the leaf calibrating by the centre's $D_A$; it stretches round features seen face-on radially by $\sec u$ and makes proper-motion rotation $\sec u$ times the Doppler rotation; a mass pushforward ($R^{-4}$ tail) is not photometry (R303) | analytic theorem; numerical control | — | §XXXI.39 |
+| Repairs from the review of v35.7: the distance indicators narrowed (timing returns $s$); the invariant stated as a ratio; the two-observer map shown unique by the essential matrix (to $10^{-15}$); $\kappa<1$ as redistribution (R304) | analytic theorem; numerical control; definition | — | §XXXI.40 |
 | **Post-freeze clarifications to Part XXIX (R212–R216)** | | | |
 | The equatorial limit of the circular branch is linearly marginal; slower equatorial orbits are unstable; every finite core declines as $1/\rho$ on the far side, and $M_{\rm eff}$ falls | numerical control (independent solution) | plateaus to $0.005$ km/s; slopes $-0.9996$, $-0.9977$ | §XXX.12(a)–(b) |
 | The arena law: three readings and three constants ($95.78$, $131.71$, $234.375\,M_\odot$ pc$^{-2}$), the reference point $7.45\%$ high in speed at fixed mass (R253); the Fourier norm gains $\lvert n\rvert$; the time convention; fits, checks and darkness scoped | numerical control; definition | $35.26$ against $47\pm6$ and $62.8\,M_\odot$ (km/s)$^{-4}$ | §XXX.12(c)–(e) |
@@ -117,7 +128,7 @@
 | Observational fits | none | no supernova likelihood, no count comparison with a selected sample, no rotation-curve fit (post-freeze note, v35.1, R216: the current predictive model; Part XII's exploratory fits, §XII.3, belong to its detached wing) | §XXIX.39(f) |
 | The photon wave operator and its mode projection; a $q = 0$ reader; a frequency bridge with time dilation and a derived echo law; a pair-selection law; a detector law for the image map, with one forward image of a fixed galaxy; a derived spectral transport, even and odd | open bridge | — | §§XXIX.39(b), 41, 42, 43(f) |
 
-> **How to read this archive (v35.7).** Two tables govern: the table of Parts XXX–XXXI, for the open work, and the frozen v34.10 table that follows it, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX, and §XXX.9) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons) and XXXI (the visible rendering), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve both. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288).
+> **How to read this archive (v35.8).** Two tables govern: the table of Parts XXX–XXXII, for the open work, and the frozen v34.10 table that follows it, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX, and §XXX.9) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place.
 
 > **v34.0 governing ontology correction (11 October 2026).** **Matter and its stress-energy content live fundamentally in the five-dimensional middle space** $\mathcal M=E/U(1)_H$, not solely on the representational bisection. The four-dimensional gravity base $B_{\rm grav}=\mathcal M/U_{\rm mer}$ is the quotient where the effective Einstein equation is expressed. The source $T^{(g)}$ must be obtained from the **entire** one-dimensional meridian fiber, including both arcs and possible pole/core contributions, by a covariant, action-compatible fiber reduction with a geometrically justified measure and tensor projection. A sum of contributions at the two points of $B_{\rm rep}$ is **not Law I**: it is only a distributionally leaf-supported special case. Einstein equations on the base impose constraints on the admissible middle-space configurations; equivalently their pullback imposes a horizontal constraint on $\mathcal M$, **not** independent five-dimensional Einstein equations. The full measure, singular-fiber rule, conservation identity and parent variational principle are **open**. Previously frozen text about source localization and two-point sourcing is superseded by this paragraph, the corrected Law I in Part III, and §XXIX.8; historical derivations remain conditional benchmarks where their premises apply. The observation that $\ell/G$ has a numerically suggestive relation to a galactic mass was an exploratory coincidence, **not** a premise that the closure mass is the Galaxy's baryonic mass. The author also prefers a *macroscopic middle-space* origin of $G$ (with the closure ratio as a target) and a separate Boltzmannian-compatibility origin of the effective quantum/Planck-area scale; the induced-gravity calculation remains a benchmark, not the preferred ontological explanation of $G$.
 
@@ -10434,7 +10445,7 @@ The six $\tau$ predictions reproduce: $1776.969027$, $1776.966510$, $1776.967755
 
 **(e) Standing.** These repairs rescope rows of Part XXX's status table without reversing a conclusion: the global typing row (the axis-retaining pair), the selection-toy row (the equilibrium branch), the susceptibility and drift row (the spectrum; coherent drift), the corrections and scale rows (the invariant first; the benchmark) and the arena row (high in speed). The open bridges of §XXX.11(n) and §XXX.13(d) are unchanged.
 
-## XXX.9 Register R203–R292 [D/O; v35.0–v35.7]
+## XXX.9 Register R203–R305 [D/O; v35.0–v35.8]
 
 *The v34 register, R56–R202, is frozen in §XXIX.16. v35 continues the numbering. The section number is kept from v35.0, so the register precedes §§XXX.11–14 and Part XXXI, which it covers.*
 
@@ -10535,29 +10546,42 @@ The six $\tau$ predictions reproduce: $1776.969027$, $1776.966510$, $1776.967755
 - **R280** (§XXXI.29(e); the status table). Standing: the three central limiting conditions kept, the darkness of the sky as the requirement of R271; the event clock, a history-borne $e^\eta$ and a gateway transport with the stereographic Jacobian recorded as premises; the program and falsifiers. [D/S/O]
 - **R281** (§XXX.10). The v35.6 suite: six new checks, forty-five in Parts XXX–XXXI (exit status 1 on any failure; an unknown mode prints the usage line and exits 2); the prints of v35.3-1, v35.3-3, v35.4-7, v35.5-2, v35.5-4, v35.5-5 and v35.5-7 corrected in place (v35.5-7 with the factor at the observer and the local energy density as columns); the toy's `all` mode runs 175. [reproducibility]
 - **R282** (§XXXI.30; the author's note of 15 October 2026, unnumbered, with one analysis; the review of v35.6). The note is recorded in the author's words: the stereographic law for observed radial distance should hold generally — for our own Galaxy seen from above its plane or at a tilt — as part of the idea that we appear visibly immersed in the stereographic version while matter acts in the leaf version. The analysis is summarized with its caveat that the off-plane sphere is a chart shape, not a shell seen through a telescope, and its demand for one law serving home and gateway views alike. The review is summarized with its three points (the flux dichotomy, the redshift's factors, the cap's scope), its qualification of the solar-image falsifier, and its recommended minimal kernel, solving for its outputs "simultaneously, rather than impose four independent readout formulas". [record; S]
-- **R283** (§XXXI.31). A disk seen from above and at a tilt on its own leaf: along the major axis a right angle at the centre gives $\tan\beta = \tan u/\sin D$ for every inclination (the gnomonic radius $\ell\tan u$ with the centre's $D_A$), against the flat galaxy-centred portrait's $\tan(u/2)/\tan(D/2)$; matched at the centre, the portrait needs a compression $1-\tan^2(u/2)$ ($0.9899$, $0.9043$, $0.5320$ at $u = 0.2$, $0.6$, $1.2$); tilted rings foreshortened by $\cos i$ at small radii in both pictures, differing in shape at large radii; no observer sees the galaxy small, since the centre's $D_A = \ell\sin D\le\ell$ gives $\tan\beta\ge\tan u$; in the observer's own chart the disk is a sphere of radius $2\ell/\sin\delta$, $\sin\delta = \sin D\cos i$, centred $2\ell\cot\delta$ behind the observer ($66.75$ kpc for an observer $8$ kpc above the centre) — a placement in depth that leaves the sky unchanged. [T/V/D]
-- **R284** (§XXXI.32). One Euclidean space for every observer: a map that reproduces, for every observer of a region, the sky of the leaf's light by ordinary perspective is projective and conformal, hence a homothety, so the leaf would be flat there; two observers can share one space — the projective map conformal at both (the gnomonic chart about their midpoint, with the axis through them shrunk by $\cos(b/2\ell)$), unique up to similarity and conformal nowhere else — so one Euclidean space reproducing the leaf's light serves at most two observers (a third observer's error depends only on the map's differential there: $\arcsin\tan^2(b/4\ell)$ at the midpoint, $0.070^\circ$ for one $1$ kpc off the axis there at $b = 1$ kpc); carrying one observer's stereographic chart to another costs exactly $\arcsin(\rho_b\rho_d/4\ell^2)$, led by its parallax discrepancy $bd/(4\ell^2)$ ($0.23^\circ$ for a $1$ kpc move and sources $4$ kpc away), from the identity $1/\rho-1/D_{\rm par} = \rho/(4\ell^2)$, while the gnomonic chart errs by $\arcsin(\rho_b^2/4\ell^2)$, second order in $b$ and independent of the source distance; the observers' charts are Möbius images of one another; the stereographic radius is a conformal invariant: in any observer's chart, the ratio of a star's distances to the centre and to the twin point, divided by one factor per galaxy and observer, $\tan(D/2)$, is $\rho/2\ell = \tan(u/2)$. [T/V/D]
-- **R285** (§§XXXI.21(d)–(e), XXXI.22(d), XXXI.33; the manuscript §14). Absolute distances: on the leaf a transverse displacement moves a star's image by its length over $D_A$, and Doppler shifts give the line-of-sight components of the same velocities; standard candles, standard rulers and proper motions combined with Doppler speeds all return $D_A$, parallax returns $D_{\rm par}$, and nothing returns the stereographic radius $\rho$, their harmonic mean; read with $\rho$, sizes and transverse speeds come out $K = \rho/D_A = 1+(\rho/2\ell)^2 = \sec^2(s/2\ell)$ times too large and luminosities $K^2$ ($K = 1.0652$ for the Galactic Centre); the visual space keeps the sky's relative content — directions, angular sizes, shapes, flux ratios — while every absolute distance indicator, and parallax, shows the leaf; for our own sky $K$ adds nothing beyond the split of $D_{\rm par}$ and $D_A$, while for a gateway portrait it is an observable, the ratio of proper-motion to Doppler rotation speeds at a fixed adopted distance. §XXXI.21(d)–(e) is extended in place. Superseded wording: in §XXXI.22(d), "They differ in parallax and travel time."; in the manuscript §14, "and the stereographic visual space reproduces it, except for parallax and travel time."; in the suite's print v35.5-4, "and differ only in parallax and travel time.". [T/V/D; correction]
-- **R286** (§§XXXI.27(e), (g), XXXI.29(e), XXXI.34(a); the status table; the manuscript §§0, 15). The flux law from the étendue: a non-absorbing transport scaling positions by $\Omega\ge1$ and directions by $\Omega^{-\kappa}$ has $D_A = D_{\rm vis}/\Omega$, $D_{\rm cor}/D_A = (1+z_g)\Omega^{1-\kappa}$ and an étendue factor $\Omega^{2(1-\kappa)}$; $\kappa = 1$ (symplectic, lossless) keeps duality and surface brightness and brightens candles by $\Omega^2$; $\kappa<1$ changes them by $\Omega^{2\kappa}$, fainter for $\kappa<0$, and surface brightness by $\Omega^{2(\kappa-1)}$; $\kappa>1$ is forbidden by the brightness theorem where $\Omega>1$; a transmission $T(u)$ multiplies every flux; v35.6's two laws are the members $\kappa = 1$ and $\kappa = 0$, not the family's ends. The étendue exponent is written $\kappa$, apart from the ruler exponent $a$ of §XXXI.27(d). Superseded wording: in §XXXI.27(e), "It must also fix the fluxes:", "- *Distance duality kept.*", "- *One effective distance for every star.*" and "Either is a test, using distance indicators sampled at different radii of one galaxy, or distance duality."; in §XXXI.27(g), "- a stated flux law;"; in §XXXI.29(e), "- Under a stereographic gateway with distance duality: standard candles brightening outward by $\sec^4(u/2)$. Without duality: surface brightness dimming by $\cos^4(u/2)$."; in the status table, "a gateway transport must fix fluxes — candles brightening by $\sec^4(u/2)$ with distance duality, or surface brightness dimming by $\cos^4(u/2)$ without"; in the manuscript §0, "a gateway transport must also fix fluxes ($\sec^4(u/2)$ brightening with duality, $\cos^4(u/2)$ dimming without)", and §15, "It must also say how fluxes behave. With the usual distance duality, standard candles brighten outward by $\sec^4(u/2)$, $0.83$ mag at $u = 1.2$; without it, surface brightness dims by $\cos^4(u/2)$. Either is a test."; in the suite's print v35.6-4, "It must also fix", "the fluxes.  With distance duality kept, surface brightness is conserved and stars in the outer image are magnified with it: standard" and "With one effective distance for every star, surface brightness falls by cos^4(u/2) = " with " and distance duality fails.  One of the two is a test.". [T; correction]
+- **R283** (§XXXI.31). A disk seen from above and at a tilt on its own leaf: along the major axis a right angle at the centre gives $\tan\beta = \tan u/\sin D$ for every inclination (the gnomonic radius $\ell\tan u$ with the centre's $D_A$), against the flat galaxy-centred portrait's $\tan(u/2)/\tan(D/2)$; matched at the centre, the portrait needs a compression $1-\tan^2(u/2)$ ($0.9899$, $0.9043$, $0.5320$ at $u = 0.2$, $0.6$, $1.2$); tilted rings foreshortened by $\cos i$ at small radii in both pictures, differing in shape at large radii; no observer sees the galaxy small, since the centre's $D_A = \ell\sin D\le\ell$ gives $\tan\beta\ge\tan u$; in the observer's own chart the disk is a sphere of radius $2\ell/\sin\delta$, $\sin\delta = \sin D\cos i$, centred $2\ell\cot\delta$ behind the observer ($66.75$ kpc for an observer $8$ kpc above the centre) — a placement in depth that leaves the sky unchanged. [T/V/D] *(Re-scoped to the leaf's own light: R301.)*
+- **R284** (§XXXI.32). One Euclidean space for every observer: a map that reproduces, for every observer of a region, the sky of the leaf's light by ordinary perspective is projective and conformal, hence a homothety, so the leaf would be flat there; two observers can share one space — the projective map conformal at both (the gnomonic chart about their midpoint, with the axis through them shrunk by $\cos(b/2\ell)$), unique up to similarity and conformal nowhere else — so one Euclidean space reproducing the leaf's light serves at most two observers (a third observer's error depends only on the map's differential there: $\arcsin\tan^2(b/4\ell)$ at the midpoint, $0.070^\circ$ for one $1$ kpc off the axis there at $b = 1$ kpc); carrying one observer's stereographic chart to another costs exactly $\arcsin(\rho_b\rho_d/4\ell^2)$, led by its parallax discrepancy $bd/(4\ell^2)$ ($0.23^\circ$ for a $1$ kpc move and sources $4$ kpc away), from the identity $1/\rho-1/D_{\rm par} = \rho/(4\ell^2)$, while the gnomonic chart errs by $\arcsin(\rho_b^2/4\ell^2)$, second order in $b$ and independent of the source distance; the observers' charts are Möbius images of one another; the stereographic radius is a conformal invariant: in any observer's chart, the ratio of a star's distances to the centre and to the twin point, divided by one factor per galaxy and observer, $\tan(D/2)$, is $\rho/2\ell = \tan(u/2)$. [T/V/D] *(Re-scoped to the leaf's own light by R301; the invariant's wording and the uniqueness step by R304.)*
+- **R285** (§§XXXI.21(d)–(e), XXXI.22(d), XXXI.33; the manuscript §14). Absolute distances: on the leaf a transverse displacement moves a star's image by its length over $D_A$, and Doppler shifts give the line-of-sight components of the same velocities; standard candles, standard rulers and proper motions combined with Doppler speeds all return $D_A$, parallax returns $D_{\rm par}$, and nothing returns the stereographic radius $\rho$, their harmonic mean; read with $\rho$, sizes and transverse speeds come out $K = \rho/D_A = 1+(\rho/2\ell)^2 = \sec^2(s/2\ell)$ times too large and luminosities $K^2$ ($K = 1.0652$ for the Galactic Centre); the visual space keeps the sky's relative content — directions, angular sizes, shapes, flux ratios — while every absolute distance indicator, and parallax, shows the leaf; for our own sky $K$ adds nothing beyond the split of $D_{\rm par}$ and $D_A$, while for a gateway portrait it is an observable, the ratio of proper-motion to Doppler rotation speeds at a fixed adopted distance. §XXXI.21(d)–(e) is extended in place. Superseded wording: in §XXXI.22(d), "They differ in parallax and travel time."; in the manuscript §14, "and the stereographic visual space reproduces it, except for parallax and travel time."; in the suite's print v35.5-4, "and differ only in parallax and travel time.". [T/V/D; correction] *(Narrowed to candles, rulers and kinematic distances, with timing added, by R304; the immersion re-scoped by R301.)*
+- **R286** (§§XXXI.27(e), (g), XXXI.29(e), XXXI.34(a); the status table; the manuscript §§0, 15). The flux law from the étendue: a non-absorbing transport scaling positions by $\Omega\ge1$ and directions by $\Omega^{-\kappa}$ has $D_A = D_{\rm vis}/\Omega$, $D_{\rm cor}/D_A = (1+z_g)\Omega^{1-\kappa}$ and an étendue factor $\Omega^{2(1-\kappa)}$; $\kappa = 1$ (symplectic, lossless) keeps duality and surface brightness and brightens candles by $\Omega^2$; $\kappa<1$ changes them by $\Omega^{2\kappa}$, fainter for $\kappa<0$, and surface brightness by $\Omega^{2(\kappa-1)}$; $\kappa>1$ is forbidden by the brightness theorem where $\Omega>1$; a transmission $T(u)$ multiplies every flux; v35.6's two laws are the members $\kappa = 1$ and $\kappa = 0$, not the family's ends. The étendue exponent is written $\kappa$, apart from the ruler exponent $a$ of §XXXI.27(d). Superseded wording: in §XXXI.27(e), "It must also fix the fluxes:", "- *Distance duality kept.*", "- *One effective distance for every star.*" and "Either is a test, using distance indicators sampled at different radii of one galaxy, or distance duality."; in §XXXI.27(g), "- a stated flux law;"; in §XXXI.29(e), "- Under a stereographic gateway with distance duality: standard candles brightening outward by $\sec^4(u/2)$. Without duality: surface brightness dimming by $\cos^4(u/2)$."; in the status table, "a gateway transport must fix fluxes — candles brightening by $\sec^4(u/2)$ with distance duality, or surface brightness dimming by $\cos^4(u/2)$ without"; in the manuscript §0, "a gateway transport must also fix fluxes ($\sec^4(u/2)$ brightening with duality, $\cos^4(u/2)$ dimming without)", and §15, "It must also say how fluxes behave. With the usual distance duality, standard candles brighten outward by $\sec^4(u/2)$, $0.83$ mag at $u = 1.2$; without it, surface brightness dims by $\cos^4(u/2)$. Either is a test."; in the suite's print v35.6-4, "It must also fix", "the fluxes.  With distance duality kept, surface brightness is conserved and stars in the outer image are magnified with it: standard" and "With one effective distance for every star, surface brightness falls by cos^4(u/2) = " with " and distance duality fails.  One of the two is a test.". [T; correction] *(The étendue exponent below one scoped as redistribution: R304.)*
 - **R287** (§§XXXI.27(f)–(g), XXXI.28(d), (f), XXXI.29(e), XXXI.34(b); the status table; the manuscript §§0, 15). The redshift's two factors: $1+z_{\rm obs}(P) = (1+z_g)(1+z_{\rm int}(P))$, the gateway factor one number per galaxy and the internal Doppler and gravitational shifts, the rotation pattern included, left visible. Superseded wording: in §XXXI.27(f), "The same transport must give the radius from the angles and the speed from unshifted spectra ((d))."; in §XXXI.27(g), "- spectra unshifted across the galaxy;"; in §XXXI.28(d), "So the spatial factor that shapes the image must leave frequencies alone, and the factor that sets the redshift must be one number per galaxy."; in §XXXI.28(f), "a separate, frequency-neutral spatial map"; in §XXXI.29(e), "- Differential redshift across a galaxy's image."; in the status table and the manuscript §0, "the factor must be one number per galaxy"; in the manuscript §15, "*The factor must be one number per galaxy,* or the galaxy is redshifted differently across its face."; in the suite's prints, v35.6-4's "The same transport must give the radius from the angles and the speed from unshifted spectra (d)." and v35.6-5's "image (the stereographic stretching) must leave frequencies alone, and the factor that sets the redshift must be one number per galaxy.". [D; correction]
 - **R288** (§§XXXI.26(e), XXXI.29(e), XXXI.34(c); the post-freeze pointer in §XIII.10; the status table, its header and the reader's note; the manuscript §§0, 15 and its preamble). Scope: the cap row states its domain in full — one observer, seven directions, the first pass, first order in $\mu$, the benchmark's weak field; no uniform bound, no other observer, no long-way or wound branch; the solar-image falsifier is scoped to the idealized round, lossless leaf, since the Galaxy's lumps displace and smear the returns (§XIII.10), so a null search tests the idealized closure, not every perturbed leaf. Both are extended in place, as are the post-freeze pointer in §XIII.10 and the moving-source rows; the notes listing the post-freeze pointers record the scoping; the suite's print v35.6-2 adds the scope. [D; scope]
 - **R289** (§XXXI.34(d)–(e), (g); the open-bridge rows of the status table and the manuscript §0). A minimal gateway kernel, as a class: (K1) positions by the portrait map, local scale $\Omega = \sec^2(u/2)\ge1$, from a virtual viewpoint at $D_{\rm vis}$; (K2) one gateway frequency factor with the emitter's physical Doppler shift; (K3) stationary, phase-consistent transport, clock intervals stretched by $1+z_g$; (K4) an étendue exponent $\kappa\le1$ without absorption. The class postulates the radius law, the uniform redshift with its Doppler pattern and the time dilation one by one; solving for them together from a history-class solution, as the review asked, stays open. It forces proper-motion speeds $K(\rho) = 1+(\rho/2\ell_g)^2$ times the Doppler speeds for every $\kappa$ and, given $\kappa$, candles brightened by $K^{2\kappa}$, $D_L = (1+z)^2D_AK^{1-\kappa}$. A rotating ring through it, its Doppler pattern and clock stretch inputs: $b/a = \cos i$ to $6\times10^{-4}$; a major-axis star's proper motion $1.0958$, $1.4685$, $2.0013$ times its Doppler speed against $K = 1.0957$, $1.4680$, $2.0000$, a second-order perspective departure; a near-side star's $1.1082$, $1.5056$, $2.0756$, a first-order departure $\pm\rho\sin i/D_{\rm vis}$ ($2.6$ per cent at $20$ kpc for M31). Not derived from PG's history classes; the open-bridge rows are extended in place. [D/S/V/O]
 - **R290** (§XXXI.34(f)). Data on the kernel. PHAT's M31 Cepheid distance modulus rises outward by $+0.007\pm0.003$ mag/kpc, outer Cepheids fainter; the authors suggest crowding or blending "could be the driving factor" and call the cause unclear (Wagner-Kaiser et al. 2015). A non-absorbing stereographic gateway adds $-5\kappa\log_{10}K(\rho)$, $-0.0386$ mag/kpc near $10$ kpc for a lossless one on a $16$ kpc leaf. The bound depends on what blending contributes, with the measured slope taken as blending's gradient plus the gateway's: if blending's gradient is at most the measured slope, a lossless gateway needs $\ell_g>42.2$ ($34.4$) kpc at $2\sigma$ ($3\sigma$); if it is up to $0.017$ ($0.027$) mag/kpc, $\ell_g>25.6$ ($19.8$) kpc at $2\sigma$; on a $16$ kpc leaf, $\kappa<0.16$, $0.23$, $0.41$, $0.67$ respectively. It is one-sided: $\kappa<0$ makes outer Cepheids fainter, the measured sign ($\kappa = -0.18$ would give the measured slope by itself), and a transmission falling outward also escapes it. M31's Gaia DR2 proper-motion rotation, $206\pm86$ km/s (van der Marel et al. 2019), against the HI curve's $264$ and $230$ km/s (Chemin et al. 2009), a ratio of $0.78\pm0.33$ to $0.90\pm0.37$ against $K = 1.10$ and $1.39$ at $10$ and $20$ kpc, is not yet a test of $K$; M33's maser rotational parallax, $730\pm168$ kpc (Brunthaler et al. 2005), measures $D_{\rm vis}/K$, with $K-1\le2.44$ per cent within $5$ kpc. [V; D for the premise]
-- **R291** (§XXXI.35). Standing: the established results of v35.7, with the Cepheid bounds under their stated premises; the kernel class recorded as a candidate whose outputs are postulated; the three central limiting conditions unchanged; the program led by the kernel's derivation, solving for its outputs together, and the proper-motion and candle tests; new falsifiers for a stereographic gateway. [D/S/O]
+- **R291** (§XXXI.35). Standing: the established results of v35.7, with the Cepheid bounds under their stated premises; the kernel class recorded as a candidate whose outputs are postulated; the three central limiting conditions unchanged; the program led by the kernel's derivation, solving for its outputs together, and the proper-motion and candle tests; new falsifiers for a stereographic gateway. [D/S/O] *(§XXXI.35 re-scoped to the leaf's own light by R301, its wording repaired by R304.)*
 - **R292** (§XXX.10). The v35.7 suite: five new checks, fifty in Parts XXX–XXXI (exit status 1 on any failure; an unknown mode prints the usage line and exits 2); the prints of v35.5-4, v35.6-2, v35.6-4 and v35.6-5 corrected in place (R285–R288); the toy's `all` mode runs 180, and an unknown mode there now exits 2 with the usage line instead of raising a KeyError. [reproducibility]
+- **R293** (§XXXII.1; the author's note of 15 October 2026, unnumbered, with one analysis). The note is recorded in the author's words, its three figures by their content with their captions in the author's words: Feynman diagrams as the "jointness residue" of two reflectron worldlines, the vertices set by how the points of one worldline are associated with those of the other, the multiplicity of diagrams from trying every matching with the determinate nodes fixed, the endpoints as a less flexible association, and a centron as two reflectrons, so that the Born rule's two centrons are four reflectrons whose regrouping might pair the centrons by the Born rule while the reflectrons inside form a diagram. The analysis is summarized: the Reflectron Matching Hypothesis, the parallel with Wick's three pairings, the loop counts, the worldline formulation, the guardrail on mixed states, redescription against distinct contribution, the Ward identity, and the proposed first tests. [record; S]
+- **R294** (§XXXII.2). The hypothesis made precise for the QED vertex: two reflectrons, $B$ from $i$ to $g$ and $R$ from $g$ to $f$, through $n$ points each; a matching $\sigma$ identifies $b_k$ with $r_{\sigma(k)}$; a segment both traverse is joint and read as a photon, a segment only one traverses a fermion line; admissibility; the boundary's single admissible association against the interior's $n!$ matchings; centrons, groupings, redescriptions and distinct contributions; the Born grouping and its regrouping. One formalization, chosen because it reproduces both of the author's overlays. [D]
+- **R295** (§XXXII.3). Four reflectrons: $24$ ordered assignments, $3$ groupings, each reached $8$ times; the relabeling group $S_2\wr S_2$ of order $8$; $(2n-1)!!$ groupings in general ($3$, $15$, $105$); the generating function's $1/8$ as one over the relabeling group; the Hafnian for bosonic reflectrons (quadrature to $4\times10^{-16}$) and the Pfaffian, with signs $+$, $-$, $+$, for Grassmann-odd ones (an explicit exterior algebra); Wick's theorem re-expressed, with the redescriptions, the pair kernel with its Gaussian weight and, for the signs, the reflectrons' Grassmann-odd statistics as premises, not derived: the counting asked for is met, the derivation is not. [T/V/S]
+- **R296** (§§XXXII.4–5). Two worldlines: the author's overlays are the matchings $(2,3,1)$ and $(3,2,4,5,1)$, giving the drawn diagrams, $(I,V,L) = (3,3,1)$ and $(6,5,2)$; the alternation lemma — each reflectron visits every vertex once, the fermion lines alternate between the two, and a diagram is generated exactly when no two of its lines join the same two vertices and it has an alternation in which neither reflectron's lines close a cycle, its matchings being those read off such alternations — with its corollaries: no bubble is generated, a self-energy bubble closing a two-cycle in one reflectron and a polarization bubble's pair being read as one joint segment ($1$, $3$ and $19$ diagrams with only polarization bubbles have acyclic alternations at one, two and three loops), at most one matching without closed loops and $2^k$ with $k$; every matching through three loops ($1$, $6$, $120$, $5040$ matchings; $1$, $1$, $5$, $29$ admissible). Against QED: the enumeration reproduces the known $1$, $1$, $7$ and $72$ vertex diagrams (Knecht 2003); through two loops the generated 1PI diagrams are exactly those without self-energy or polarization insertions, which with full propagators give the whole vertex function, plus one reducible diagram; at three loops $23$ of $30$, with $5$ extras, $1$ carrying an insertion and $4$ reducible, one of the reducible extras generated twice and every generated target once. With QED's weights inserted by hand the diagram the one-loop matching generates has Schwinger's $\alpha/2\pi$, which does not depend on the matching; the Ward identity ties the vertex to self-energies no matching generates. [T/V/D/S]
+- **R297** (§XXXII.6). The Born-rule regrouping as unitarity: in a finite unitary model, $S_1+S_1^\dagger = 0$ and $S_2+S_2^\dagger+S_1^\dagger S_1 = 0$ (residuals $6\times10^{-16}$ and $2\times10^{-15}$), so $\sum_f\lvert S_{1,fi}\rvert^2 = -2\,{\rm Re}\,S_{2,ii}$ for every initial state, the optical theorem at lowest order; the Born pairing $(i\to f)(i\to f)^*$ and the regrouping $(i,i^*)(f,f^*)$, one forward amplitude cut through $f$, agree on the absorptive part only; Cutkosky's cutting rule; the closed-time-path doubling of the frozen §XV.6. [T/V/D]
+- **R298** (§XXXII.7). Standing: the established counting, signs, lemma, enumeration and regrouping; the hypothesis, the three premises of §XXXII.3(d) and the centrade reading as premises; what the formalized rule does and does not do; the program led by a rule that is exact at three loops and by weights from the reflectrons' structure, with the Ward identity as the first test; the kill condition. [D/S/O]
+- **R299** (§XXX.10). The v35.8 suite: seven new checks — four for Part XXXII and three for Part XXXI — fifty-seven in Parts XXX–XXXII (exit status 1 on any failure; an unknown mode prints the usage line and exits 2); the prints of v35.5-4, v35.7-2 and v35.7-3 corrected in place (R304); the toy's `all` mode runs 187; `pg_v35_8_gnomonic_plots.py` draws the four figures of §XXXI.38(f) with the suite's solver. [reproducibility]
+- **R300** (§XXXI.36; the author's Entries 311–313 of 15 October 2026, the review of v35.7, two analyses and a request, and the author's note on the plots during the round). Recorded in the author's words: Entry 311 — the round leaf was never assumed to reproduce the stereographic view; the question is how light must behave to produce it; and $\tan u$ sends the equator to infinity; Entry 312 — take the gnomonic version at face value, find a leaf density whose gnomonic image is exponential, and let the equator become an asymptote; Entry 313 — put PG's own rotation curve in gnomonic coordinates; the note — make the exponential falloff much sharper for the best plots. The review of v35.7, the response to Entry 311, the analysis of Entries 312–313 and the request are summarized. [record; S]
+- **R301** (§§XXXI.31(e), XXXI.32(a), XXXI.33(b), XXXI.35, XXXI.37; the status table; the manuscript §§0, 16, 18). Entry 311's question: §§XXXI.31–32 tested the leaf's own light, which the note did not assume, and are re-scoped in place; the inverse question — an isotropic light law producing the stereographic view for every observer, with light cones round against matter's rulers — has a metric answer unique up to a constant factor, the flat portrait Fermat metric, whose fits to matter fail on the leaf: a lapse $N\propto\cos^2(u/2)$, largest at the centre (the Galactic Centre's light blueshifted at the Sun, $1+z = 0.9388$, $cz = -18{,}350$ km/s), an index ($n = 0.9388$ at the centre, $1.0286$ and $1.2190$ at $9.6$ and $16$ kpc, vacuum Cherenkov above Lorentz factors $4.27$ and $1.75$), rulers flat in the portrait, or any mix; so the law asked for must act on histories, as the gateway class does, and its derivation is open. Superseded wording: in §XXXI.31(e), "Read with the leaf's own light, the note's generalization fails as the first note did."; in §XXXI.32(a), "This makes the analysis's two levels precise: a conformal atlas, yes; one Euclidean space of physical immersion, no."; in §XXXI.33(b), "That is the precise content of the note's"; in §XXXI.35, "no physical immersion in one Euclidean space,"; in the status table, "the immersion is visual, in the sky's relative content"; in the manuscript §0, "the immersion is in the sky's relative content". [T/V/D; correction]
+- **R302** (§XXXI.38). PG's rotation curve in gnomonic radius: the point source $v^2/(\mu c^2) = \csc\chi+2\sin\chi = (1+3t^2)/(t\sqrt{1+t^2}) = 3-1/(2t^2)+\dots$, $t = R/\ell$; Part XXV.5's exponential-source table reproduced ($v_{\rm eq} = 219.7$, $214.4$, $203.1$, $173.1$, $141.4$ km/s for $r_d/\ell = 0.01$–$0.3$); the same curve in arc, areal, stereographic and gnomonic radii, reaching the equator at $25.13$, $16$ and $32$ kpc and at infinity, the areal reading arriving still rising ($2.67$ km/s per kpc) and the stereographic reading continuing into the far hemisphere's mirrored curve (for $r_d/\ell = 0.02$ within $3\%$ of $v_{\rm eq}$ out to $141.5$ kpc); $v^2 = v_{\rm eq}^2+A/R^2+O(R^{-4})$ with $A = a_2\ell^2$, $a_2 = -v_{\rm eq}^2/6-(2\pi/3)\rho_{\rm eff}''(\pi/2)\mu c^2<0$ for every $r_d/\ell<1$; the $90$–$99.5\%$ radii (for $r_d/\ell = 0.1$: $13.8$, $21.0$, $50.7$ and $72.5$ kpc); a Newtonian reading's $M(<R) = Rv^2/G$, $7.8$ times the leaf's mass at $50$ kpc; sharper sources ($r_d/\ell = 0.002$–$0.05$, at the author's note), those up to $0.02$ settling onto the point source's curve after an inner Kepler peak, with the dip $0.9710\,v_{\rm eq}$ at $R = \ell$, within $3\%$ of $v_{\rm eq}$ beyond $7.64$ kpc and within $1\%$ beyond $42.5$ kpc; for $r_d/\ell = 0.02$ a Newtonian reading of $9.1$ times the leaf's mass at $50$ kpc, with $98.3\%$ of the matter inside $5$ kpc and essentially none in the plateau; how convincing each profile is; four figures. A coordinate reading of the PG solution, not new dynamics. [T/V/D]
+- **R303** (§XXXI.39). What the gnomonic reading carries: the analysis's Jacobians, pushforwards, $R^{-4}$ and $R^{-3}$ tails, the inverse exponential (monotone for $h\le\ell/2$) and the local exponential near $R = \ell$ (within $5.8\%$), checked; a pushforward is not photometry, since the leaf's light conserves surface brightness; the leaf's own light gives the gnomonic reading to an observer on the leaf who calibrates by the centre's $D_A$, but projectively, so round features seen face-on appear radially stretched by $\sec u$ and proper-motion rotation runs $\sec u$ times the Doppler rotation; distant galaxies would need a gnomonic kernel, and our own Galaxy's reading is not computed. [T/V/D/O]
+- **R304** (§§XXXI.21(e), XXXI.22(d), XXXI.32(a), (c), XXXI.33(b), XXXI.34(a), XXXI.35, XXXI.40; the status table; the manuscript §§0, 14, 16; the suite's prints v35.5-4, v35.7-2 and v35.7-3, and the v35.7 suite's docstring). Repairs from the review of v35.7: candles, rulers and kinematic distances return $D_A$, parallax $D_{\rm par}$ and timing the path length $s$; the stereographic radius is read from a conformal invariant, $\rho$ itself not being Möbius-invariant; the two-observer map is the only Euclidean space reproducing two skies, by the theorem of calibrated two-view reconstruction (the essential matrix unique, the reconstruction equal to the map to $9\times10^{-16}$); $\kappa<1$ parametrizes redistribution, not a mechanism; a direct Cepheid likelihood and a joint fit of rotation fields as the next tests. Superseded wording: "every absolute distance indicator" in §§XXXI.21(e), XXXI.22(d) and XXXI.35; "- *Every absolute distance indicator returns $D_A$.*", "Nothing gives $\rho$, which is their harmonic mean." and "while every absolute distance indicator, and parallax, shows the leaf" in §XXXI.33(b); "- *The stereographic radius as an invariant.*" in §XXXI.32(c) and "the stereographic radius as a conformal invariant" in §XXXI.35; in the status table, "Every absolute distance indicator — candles, rulers, proper motions with Doppler speeds — returns $D_A$", "and nothing returns the stereographic radius $\rho$" and "the stereographic radius is a conformal invariant"; in the manuscript, "with the stereographic radius as an invariant" and "nothing the stereographic radius $\rho$" (§0), "except for parallax, travel time and every absolute distance indicator" (§14), and "is an invariant of them all", "and parallax measures the parallax distance; nothing measures the stereographic distance $\rho$." and "while every absolute distance indicator, and parallax, shows the leaf." (§16); in the suite's prints, v35.5-4's "and differ in parallax, travel time and every absolute distance indicator (v35.7-3).", v35.7-2's "The stereographic radius is a conformal invariant:" and "the stereographic radius survives as a Moebius invariant", and v35.7-3's "Every absolute distance indicator returns D_A on the static leaf", "Nothing returns rho, which is their harmonic mean.", "flux ratios -- while every" and "absolute distance indicator, and parallax, shows the leaf." (one sentence across a line break) and "and every absolute distance indicator returns D_A"; in the v35.7 suite's docstring, "and the stereographic radius as a conformal invariant); every absolute distance indicator against the stereographic radius;". [T/V/D; correction]
+- **R305** (§XXXI.41). Standing: the inverse question's metric answer for an isotropic law and the uniqueness of the two-observer map; PG's curves in gnomonic radius with their asymptotic law; the gnomonic reading's densities, $\sec u$ stretch and proper-motion factor; the program led by a history-level light law, the choice of reading for real observers, and the morphological and kinematic tests; falsifiers for the gnomonic reading; the author's note on orbits crossing into the twin hemisphere held for v36. [D/S/O]
 
-## XXX.10 Executable appendix: `pg_v35_numerics.py`, embedded [reproducibility; v35.0, R210; v35.1, R231; v35.2, R239; v35.3, R246; v35.4, R256; v35.5, R268; v35.6, R281; v35.7, R292]
+## XXX.10 Executable appendix: `pg_v35_numerics.py`, embedded [reproducibility; v35.0, R210; v35.1, R231; v35.2, R239; v35.3, R246; v35.4, R256; v35.5, R268; v35.6, R281; v35.7, R292; v35.8, R299]
 
-*The standalone suite (NumPy and SciPy only) that prints every computed number of Parts XXX and XXXI. Save the block as `pg_v35_numerics.py` and run `python3 -I pg_v35_numerics.py` (the regression suite of Parts XXX–XXXI: 50 checks, 5 of v35.0, 10 of v35.1, 5 of v35.2, 5 of v35.3, 7 of v35.4, 7 of v35.5, 6 of v35.6 and 5 of v35.7, the v35.2–v35.3 and v35.5–v35.7 checks for Part XXXI and v35.4's for both Parts; exit status 1 if any fails, in every mode; about 9 s), or one round with `python3 -I pg_v35_numerics.py v35_0`, `v35_1`, `v35_2`, `v35_3`, `v35_4`, `v35_5`, `v35_6` or `v35_7`; an unknown mode prints the usage line and exits with status 2. Part XXIX's frozen suite remains `pg_v34_numerics.py` (§XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v35`, `v35_0`, `v35_1`, `v35_2`, `v35_3`, `v35_4`, `v35_5`, `v35_6`, `v35_7` and `all` (the frozen v34.10 suite and Parts XXX–XXXI together, 180 checks) run it. The v35.4–v35.7 rounds corrected earlier rounds' prints in place, as the text was corrected; earlier v35 suites are superseded, not frozen.*
+*The standalone suite (NumPy and SciPy only) that prints every computed number of Parts XXX–XXXII. Save the block as `pg_v35_numerics.py` and run `python3 -I pg_v35_numerics.py` (the regression suite of Parts XXX–XXXII: 57 checks, 5 of v35.0, 10 of v35.1, 5 of v35.2, 5 of v35.3, 7 of v35.4, 7 of v35.5, 6 of v35.6, 5 of v35.7 and 7 of v35.8, the v35.2–v35.3 and v35.5–v35.7 checks and three of v35.8's for Part XXXI, four of v35.8's for Part XXXII, and v35.4's for Parts XXX–XXXI; exit status 1 if any fails, in every mode; about 12 s), or one round with `python3 -I pg_v35_numerics.py v35_0`, `v35_1`, `v35_2`, `v35_3`, `v35_4`, `v35_5`, `v35_6`, `v35_7` or `v35_8`; an unknown mode prints the usage line and exits with status 2. Part XXIX's frozen suite remains `pg_v34_numerics.py` (§XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v35`, `v35_0`, `v35_1`, `v35_2`, `v35_3`, `v35_4`, `v35_5`, `v35_6`, `v35_7`, `v35_8` and `all` (the frozen v34.10 suite and Parts XXX–XXXII together, 187 checks) run it. The v35.4–v35.8 rounds corrected earlier rounds' prints in place, as the text was corrected; earlier v35 suites are superseded, not frozen.*
 
 ```python
-"""Projective Gravity v35 -- standalone numerical suite for Parts XXX-XXXI: the hyper-canonical completion and the charged-lepton cycle
-(Part XXX), and the visible rendering of the leaf (Part XXXI) (NumPy + SciPy only; Python 3.12/3.13 tested).  Part XXIX's frozen suite
+"""Projective Gravity v35 -- standalone numerical suite for Parts XXX-XXXII: the hyper-canonical completion and the charged-lepton cycle
+(Part XXX), the visible rendering of the leaf (Part XXXI), and reflectrons (Part XXXII) (NumPy + SciPy only; Python 3.12/3.13 tested).  Part XXIX's frozen suite
 is pg_v34_numerics.py (v34.10).
 
 Run (from the directory holding this file):
-    python3 -I pg_v35_numerics.py              # current regression suite of Parts XXX-XXXI (all v35 rounds, check summary)
-    python3 -I pg_v35_numerics.py v35_0        # one round only (v35_0, v35_1, v35_2, v35_3, v35_4, v35_5, v35_6 or v35_7)
+    python3 -I pg_v35_numerics.py              # current regression suite of Parts XXX-XXXII (all v35 rounds, check summary)
+    python3 -I pg_v35_numerics.py v35_0        # one round only (v35_0, v35_1, v35_2, v35_3, v35_4, v35_5, v35_6, v35_7 or v35_8)
 Every mode exits with status 1 if any check fails.
 
 v35_0_suite(): the two renderings on the native spin-one carrier of Part XXI (clock R, shift S, the mass family M(theta), joint
@@ -10624,10 +10648,20 @@ v35_7_suite(): the author's note on seeing a galaxy from above or at a tilt, its
 height and inclination on its own leaf against the flat galaxy-centred portrait (the right-angle law on the major axis, tilted rings, the
 disk as a sphere in the observer's chart); one Euclidean space for every observer (the theorem that one Euclidean space reproducing the
 leaf's light serves at most two observers, the two-observer map, the cost of carrying one observer's visual space to another, the
-Moebius relation between charts, and the stereographic radius as a conformal invariant); every absolute distance indicator against the
-stereographic radius; a minimal gateway kernel, as a class (screen transfer with an etendue exponent kappa, distance duality, the
-brightness bound; what it postulates and what it forces) and a rotating ring through it; and what M31's Cepheids, M31's and M33's
+Moebius relation between charts, and the stereographic radius read from a conformal invariant); candles, rulers, kinematic distances,
+parallax and timing against the stereographic radius; a minimal gateway kernel, as a class (screen transfer with an etendue exponent
+kappa, distance duality, the brightness bound; what it postulates and what it forces) and a rotating ring through it; and what M31's Cepheids, M31's and M33's
 proper-motion rotation and M33's masers already say about it, with the premises of the Cepheid bound.
+
+v35_8_suite(): the author's note on reflectrons and its analysis: four reflectrons grouped into two centrons (the three pairings, the
+order-8 relabeling group, the Hafnian of bosonic and the Pfaffian of Grassmann-odd reflectrons, with signs +, -, +); two reflectron
+worldlines with matched vertices (the author's two figures as matchings, the alternation lemma, every matching through three loops);
+what the matchings generate against QED's vertex diagrams (the known counts 1, 1, 7, 72 reproduced; the insertion-free 1PI diagrams
+exactly through two loops, not at three); and the Born-rule regrouping as unitarity (the optical theorem in a finite unitary model).
+With Entries 311-313: the inverse optical question (for an isotropic law, a metric answer unique up to a constant factor, whose fits to
+matter fail, and the two-view uniqueness by the essential matrix); PG's solved rotation curves (Part XXV) read in gnomonic radius ell tan(chi), with the equatorial expansion
+v^2 = v_eq^2 + A/R^2 and sharper sources settling onto the point source's curve; and what the gnomonic reading carries with it (density
+pushforwards, shapes stretched by sec u, proper motions).
 """
 import numpy as np
 PI = np.pi
@@ -12426,9 +12460,8 @@ def v35_5_observation_kernel(ell=16.0, chi=0.5):
     print("     read at the inverted point.  Its darkness is the barren-twin premise, a selection, not a consequence of the removal.")
     print("   With the rule, on the cover (or on an RP^3 base with the barren-twin selection), the sky is the direct sky, which every radial chart")
     print("     reproduces exactly (v35.5-3) and the stereographic chart reproduces conformally: the author's visual space and the leaf's light")
-    print("     then agree in directions, sizes, shapes, fluxes and surface brightness,")
-    print("     and differ in parallax, travel time and every absolute distance indicator (v35.7-3).  The removed energy must go somewhere -- into")
-    print("     the middle space, by a stated transport.")
+    print("     then agree in directions, sizes, shapes, fluxes and surface brightness, and differ in parallax, travel time, and the distances of")
+    print("     candles, rulers and kinematics (v35.7-3).  The removed energy must go somewhere -- into the middle space, by a stated transport.")
     # inference of the readout point from detector data, for the direct and the long-way image of a source with a directed marker
     out = []
     for s, d in ((chi*ell, +1), ((2*PI-chi)*ell, -1)):
@@ -13229,15 +13262,15 @@ def v35_7_one_space_for_all_observers(ell=16.0):
     print("   What survives.  Each observer's visual space is its own stereographic chart, and the charts are Moebius images of one another:")
     print(f"     |M x - M y|^2 = lambda(x) lambda(y) |x - y|^2 (worst residual {mres:.0e} for an observer 8 kpc from C at 60 deg).  One conformal")
     print("     geometry, not one Euclidean space: a flat plane of one chart is a sphere in another.")
-    print("   The stereographic radius is a conformal invariant: in any observer's chart, the ratio of a star's distances to the galaxy's centre")
-    print(f"     and to its twin point, divided by one factor per galaxy and observer, tan(D/2), is rho/(2 ell) = tan(u/2) (worst residual")
-    print(f"     {max(abs(x) for x in inv):.0e} over three observers, twelve stars).  In the centre's own chart the twin point is at infinity and the distance to the")
-    print("     centre is rho itself.  An observer can recover rho from per-star distances (|j| and D_par give chart positions, Part XXXI.11);")
-    print("     no angle shows it.")
+    print("   The stereographic radius is read from a conformal invariant (rho itself is not Moebius-invariant): in any observer's chart, the")
+    print("     ratio of a star's distances to the galaxy's centre and to its twin point, divided by one factor per galaxy and observer, tan(D/2),")
+    print(f"     is rho/(2 ell) = tan(u/2) (worst residual {max(abs(x) for x in inv):.0e} over three observers, twelve stars).  In the centre's own chart the twin point")
+    print("     is at infinity and the distance to the centre is rho itself.  An observer can recover rho from per-star distances (|j| and D_par")
+    print("     give chart positions, Part XXXI.11); no angle shows it.")
     ok = (all(t[1] < 1e-9 and t[2] < 1e-9 and abs(t[3]/t[4]-1) < 2e-3 and abs(t[5]/t[6]-1) < 2e-3 and abs(t[7]/t[3]-1) < 1e-9 for t in two)
           and all(abs(c[2]/c[3]-1) < 2e-3 and abs(c[5]/c[6]-1) < 2e-3 for c in cost) and abs(cost[2][3]-cost[2][6]) < 1e-12
           and abs(cost[0][3]-0.22506) < 1e-4 and abs(two[0][4]-0.06998) < 1e-4 and idres < 1e-12 and mres < 1e-10 and max(abs(x) for x in inv) < 1e-12)
-    check(ok, "one space for all observers: at most two (a projective map conformal at two observers exists, at three or a region it forces a flat leaf); closed-form costs; the stereographic radius survives as a Moebius invariant")
+    check(ok, "one space for all observers: at most two (a projective map conformal at two observers exists, at three or a region it forces a flat leaf); closed-form costs; the stereographic radius survives, read from a Moebius invariant")
     print("   [T] The theorem; the two-observer map; the closed forms; the Moebius relation; the invariant.  [V] The dense-set checks.")
 
 def v35_7_absolute_distances(ell=16.0):
@@ -13255,16 +13288,16 @@ def v35_7_absolute_distances(ell=16.0):
     print("     s (kpc)   v/mu (kpc)   D_A (kpc)   rho (kpc)   K = rho/D_A   1 + (rho/2 ell)^2   sec^2(s/2 ell)   D_par (kpc)")
     for s, vm, DA, rho, K, K2, K3, Dp, hm in rows:
         print(f"     {s:6.1f}   {vm:10.5f}   {DA:9.5f}   {rho:9.5f}   {K:11.6f}   {K2:17.6f}   {K3:14.6f}   {Dp:10.5f}")
-    print("     Every absolute distance indicator returns D_A on the static leaf: standard candles (D_L = D_A at z = 0), standard rulers, and")
-    print("     proper motions combined with Doppler speeds.  Parallax returns D_par.  Nothing returns rho, which is their harmonic mean.  So, read")
-    print("     with rho, luminosities come out K^2 too large and sizes and transverse speeds K too large; the Galactic Centre, 8 kpc away, has")
-    print(f"     K = {rows[2][4]:.4f}.  The visual space keeps the sky's relative content -- directions, angular sizes, shapes, flux ratios -- while every")
-    print("     absolute distance indicator, and parallax, shows the leaf.  For our own sky K adds nothing beyond the known split of D_par and D_A,")
-    print("     since rho is a choice of readout.  For a gateway portrait it is a genuine observable: at a fixed adopted distance, the ratio of")
-    print("     proper-motion to Doppler rotation speeds rises outward as K(rho) = 1 + (rho/2 ell_g)^2 (v35.7-4).")
+    print("     Standard candles (D_L = D_A at z = 0), standard rulers, and proper motions combined with Doppler speeds return D_A on the static")
+    print("     leaf.  Parallax returns D_par, and timing (the light-travel time) the path length s.  None returns rho, the harmonic mean of D_A and")
+    print("     D_par.  So, read with rho, luminosities come out K^2 too large and sizes and transverse speeds K too large; the Galactic Centre,")
+    print(f"     8 kpc away, has K = {rows[2][4]:.4f}.  The visual space keeps the sky's relative content -- directions, angular sizes, shapes, flux")
+    print("     ratios -- while candles, rulers, kinematic distances, parallax and timing show the leaf.  For our own sky K adds nothing beyond the")
+    print("     known split of D_par and D_A, since rho is a choice of readout.  For a gateway portrait it is a genuine observable: at a fixed")
+    print("     adopted distance, the ratio of proper-motion to Doppler rotation speeds rises outward as K(rho) = 1 + (rho/2 ell_g)^2 (v35.7-4).")
     ok = (all(abs(vm/DA-1) < 1e-5 and abs(K-K2) < 1e-12 and abs(K-K3) < 1e-12 and abs(hm-rho) < 1e-9 for s, vm, DA, rho, K, K2, K3, Dp, hm in rows)
           and abs(rows[2][4]-1.06520) < 1e-4)
-    check(ok, "absolute distances: proper motion = v/D_A on the leaf, and every absolute distance indicator returns D_A; read with the visual radius rho, sizes and transverse speeds come out K = 1 + (rho/2 ell)^2 too large")
+    check(ok, "absolute distances: proper motion = v/D_A on the leaf, and candles, rulers and kinematic distances return D_A; read with the visual radius rho, sizes and transverse speeds come out K = 1 + (rho/2 ell)^2 too large")
     print("   [T] The identities.  [V] The finite-difference check.  [D] What 'immersed in the stereographic version' can and cannot mean.")
 
 def v35_7_gateway_kernel_and_ring(ell_g=16.0):
@@ -13377,6 +13410,661 @@ def v35_7_suite():
     v35_7_views_of_a_disk(); v35_7_one_space_for_all_observers(); v35_7_absolute_distances(); v35_7_gateway_kernel_and_ring()
     v35_7_data_on_the_kernel()
 
+# ---------------------------------------------------------------------------------------------- v35.8 (Part XXXII): reflectrons
+def v35_8_four_reflectrons():
+    print("\n== v35.8-1. four reflectrons and their three pairings: Wick's combinatorics, the relabelings, the signs (R295) ==")
+    import itertools, collections
+    labels = (0, 1, 2, 3)
+    grouping = lambda o: frozenset((frozenset(o[:2]), frozenset(o[2:])))
+    orbit = collections.Counter(grouping(p) for p in itertools.permutations(labels))
+    stab = [p for p in itertools.permutations(labels) if grouping(tuple(p[k] for k in (0, 1, 2, 3))) == grouping(labels)]
+    def matchings(items):
+        if not items: yield []; return
+        a = items[0]
+        for k in range(1, len(items)):
+            for m in matchings(items[1:k]+items[k+1:]): yield [(a, items[k])]+m
+    counts = [sum(1 for _ in matchings(list(range(2*n)))) for n in (2, 3, 4)]
+    dfact = [int(np.prod(np.arange(2*n-1, 0, -2))) for n in (2, 3, 4)]
+    print(f"   Four labelled reflectrons grouped into two centrons (two unordered pairs): the 4! = 24 ordered assignments (a b | c d) fall into")
+    print(f"     {len(orbit)} groupings, each reached {sorted(set(orbit.values()))[0]} times.  The relabelings that keep a grouping -- swaps inside each centron and of")
+    print(f"     the two centrons -- form a group of order {len(stab)} (S2 wr S2).  In general 2n reflectrons give (2n)!/(2^n n!) = (2n-1)!! groupings:")
+    print(f"     counted {counts[0]}, {counts[1]}, {counts[2]} for 2n = 4, 6, 8, against {dfact[0]}, {dfact[1]}, {dfact[2]}.")
+    print("   Redescription and distinct contribution, made exact: a relabeling in the order-8 group is a redescription; the three cosets are")
+    print("     three distinct contributions.  The free generating function carries the weight: (1/2!)(J.G.J/2)^2 contains J1 J2 J3 J4 with")
+    print("     coefficient (1/8) x 8 x (G12 G34 + G13 G24 + G14 G23) -- the 1/8 is one over the relabeling group, so each grouping counts once.")
+    # bosonic reflectrons: the Gaussian four-point function by exact Gauss-Hermite quadrature
+    rng = np.random.default_rng(11); M = rng.normal(size=(4, 4)); G = M @ M.T+np.eye(4); L = np.linalg.cholesky(G)
+    xq, wq = np.polynomial.hermite_e.hermegauss(3); wq = wq/np.sqrt(2*PI)
+    q = 0.0
+    for idx in itertools.product(range(3), repeat=4):
+        z = xq[list(idx)]; w = np.prod(wq[list(idx)]); x = L @ z; q += w*np.prod(x)
+    haf = G[0, 1]*G[2, 3]+G[0, 2]*G[1, 3]+G[0, 3]*G[1, 2]
+    # Grassmann-odd reflectrons: the top component of exp(omega), omega = sum_{a<b} S_ab eta_a eta_b, in an explicit exterior algebra
+    def wedge(A, B):
+        out = collections.defaultdict(float)
+        for ka, ca in A.items():
+            for kb, cb in B.items():
+                if set(ka) & set(kb): continue
+                seq = list(ka)+list(kb); sgn = 1
+                for s1 in range(len(seq)):                                   # the parity of the sort
+                    for s2 in range(s1+1, len(seq)):
+                        if seq[s1] > seq[s2]: sgn = -sgn
+                out[tuple(sorted(seq))] += sgn*ca*cb
+        return dict(out)
+    A = rng.normal(size=(4, 4)); S = A-A.T
+    omega = {(a, b): S[a, b] for a in range(4) for b in range(a+1, 4)}
+    top = wedge(omega, omega).get((0, 1, 2, 3), 0.0)/2
+    pf = S[0, 1]*S[2, 3]-S[0, 2]*S[1, 3]+S[0, 3]*S[1, 2]
+    def parity(p):
+        p = list(p); s = 1
+        for a in range(len(p)):
+            for b in range(a+1, len(p)):
+                if p[a] > p[b]: s = -s
+        return s
+    signs = [parity(p) for p in ((0, 1, 2, 3), (0, 2, 1, 3), (0, 3, 1, 2))]
+    print(f"   Bosonic reflectrons, each centron weighted by its pair kernel G_ab: <x1 x2 x3 x4> = Haf(G) = G12 G34 + G13 G24 + G14 G23.  For a")
+    print(f"     random covariance, Gauss-Hermite quadrature (exact for this polynomial) gives {q:.12f} against {haf:.12f} (difference {abs(q-haf):.0e}).")
+    print(f"   Grassmann-odd reflectrons: the top component of exp(sum_(a<b) S_ab eta_a eta_b), computed in an explicit exterior algebra, is")
+    print(f"     {top:.12f} eta1 eta2 eta3 eta4, against Pf(S) = S12 S34 - S13 S24 + S14 S23 = {pf:.12f}; Pf^2 = {pf*pf:.10f}, det S = {np.linalg.det(S):.10f}.")
+    print(f"     The signs {signs[0]:+d}, {signs[1]:+d}, {signs[2]:+d} are the parities of the pairings' permutations (12|34), (13|24), (14|23).")
+    print("   So four reflectrons reproduce Wick's three pairings, with the right signs and no overcounting, once three premises are adopted:")
+    print("     the relabelings of the order-8 group are redescriptions; each centron contributes its pair kernel; and, for the signs, the")
+    print("     reflectrons are Grassmann-odd.  The pair kernel is the free propagator itself, so the reflectron reading re-expresses Wick's")
+    print("     theorem: the counting the analysis asked for is met, the derivation it asked for is not.")
+    ok = (len(orbit) == 3 and set(orbit.values()) == {8} and len(stab) == 8 and counts == dfact == [3, 15, 105] and abs(q-haf) < 1e-10
+          and abs(top-pf) < 1e-12 and abs(pf*pf-np.linalg.det(S)) < 1e-10 and signs == [1, -1, 1])
+    check(ok, "four reflectrons: 3 groupings, an order-8 relabeling group, (2n-1)!! in general; Hafnian for bosonic and Pfaffian (signs +,-,+) for Grassmann-odd reflectrons")
+    print("   [T] The counting, the generating-function weight, the Hafnian and the Pfaffian.  [V] The quadrature and the exterior algebra.")
+    print("   [S] The three premises.")
+
+def _v358_matching_tools():
+    """The two-reflectron matching rule and a QED vertex-diagram enumerator (one open fermion line i -> f, closed loops, one external
+    photon g), with canonical forms up to relabeling of the interior vertices (loops undirected)."""
+    import itertools, collections
+    def joint_graph(sigma):
+        n = len(sigma); inv = {sigma[k]: k for k in range(n)}
+        B = ['i']+list(range(n))+['g']; R = ['g']+[inv[j] for j in range(n)]+['f']
+        sB = [frozenset((B[k], B[k+1])) for k in range(n+1)]; sR = [frozenset((R[k], R[k+1])) for k in range(n+1)]
+        joint = [s for s in sB if s in sR]; single = [s for s in sB if s not in sR]+[s for s in sR if s not in sB]
+        return single, joint
+    def admissible(n, single, joint):
+        if not any('g' in s for s in joint): return False
+        return all(sum(1 for s in single if v in s) == 2 and sum(1 for s in joint if v in s) == 1 for v in range(n))
+    def canon_from(line, loops, joint):
+        lv = []
+        for cyc in loops:
+            k = len(cyc); lv.append([[cyc[(st+d*t) % k] for t in range(k)] for st in range(k) for d in (1, -1)])
+        best = None
+        for perm in itertools.permutations(range(len(loops))):
+            for choice in itertools.product(*[lv[p] for p in perm]):
+                lab = {v: ('L', t) for t, v in enumerate(line)}
+                for li, cyc in enumerate(choice):
+                    for t, v in enumerate(cyc): lab[v] = ('C%d' % li, t)
+                lab['g'] = ('g', 0)
+                key = (len(line), tuple(len(c) for c in choice), tuple(sorted(tuple(sorted((lab[a] for a in s), key=str)) for s in joint)))
+                if best is None or str(key) < str(best): best = key
+        return best
+    def canon(n, single, joint):
+        adj = collections.defaultdict(list)
+        for s in single:
+            a, b = tuple(s); adj[a].append(b); adj[b].append(a)
+        line = []; prev, cur = 'i', adj['i'][0]
+        while cur != 'f':
+            line.append(cur); nxt = [x for x in adj[cur] if x != prev]; prev, cur = cur, nxt[0]
+        rest = set(range(n))-set(line); loops = []
+        while rest:
+            v0 = min(rest); cyc = [v0]; prev, cur = None, v0
+            while True:
+                nxt = [x for x in adj[cur] if x != prev][0]
+                if nxt == v0: break
+                cyc.append(nxt); prev, cur = cur, nxt
+            loops.append(cyc); rest -= set(cyc)
+        return canon_from(line, loops, joint)
+    def loop_shapes(r, minsize=2):
+        if r == 0: yield []; return
+        for k in range(minsize, r+1):
+            for rest in loop_shapes(r-k, k): yield [k]+rest
+    def pmatch(items):
+        if not items: yield []; return
+        for k in range(1, len(items)):
+            for m in pmatch(items[1:k]+items[k+1:]): yield [(items[0], items[k])]+m
+    def all_qed(n):
+        """Every connected QED vertex diagram with n vertices: {canonical key: (edges, has parallel lines)}."""
+        out = {}
+        for m in range(1, n+1):
+            for shape in loop_shapes(n-m):
+                verts = list(range(n)); line = verts[:m]; loops = []; s = m
+                for k in shape: loops.append(verts[s:s+k]); s += k
+                fer = [('i', line[0])]+[(line[t], line[t+1]) for t in range(m-1)]+[(line[-1], 'f')]
+                for cyc in loops: fer += [(cyc[t], cyc[(t+1) % len(cyc)]) for t in range(len(cyc))]
+                for e in range(n):
+                    for pm in pmatch([v for v in verts if v != e]):
+                        pho = [(e, 'g')]+pm; adj = collections.defaultdict(set)
+                        for a, b in fer+pho: adj[a].add(b); adj[b].add(a)
+                        seen = {'i'}; st = ['i']
+                        while st:
+                            x = st.pop()
+                            for y in adj[x]:
+                                if y not in seen: seen.add(y); st.append(y)
+                        if not all(v in seen for v in verts): continue
+                        key = canon_from(line, loops, [frozenset(p) for p in pho])
+                        par = len(set(frozenset(x) for x in fer+pho)) < len(fer+pho)
+                        out[key] = (fer, pho, line, loops, par)
+        return out
+    def connected_without(edges, drop, nodes):
+        adj = collections.defaultdict(set)
+        for j, (a, b) in enumerate(edges):
+            if j in drop: continue
+            adj[a].add(b); adj[b].add(a)
+        seen = {'i'}; st = ['i']
+        while st:
+            x = st.pop()
+            for y in adj[x]:
+                if y not in seen: seen.add(y); st.append(y)
+        return seen >= nodes
+    def one_pi(d):
+        fer, pho, line, loops, par = d; edges = fer+pho; nodes = set(x for e in edges for x in e)
+        internal = [j for j, e in enumerate(edges) if not (set(e) & {'i', 'f', 'g'})]
+        return all(connected_without(edges, {j}, nodes) for j in internal)
+    def two_point_insertion(d):
+        fer, pho, line, loops, par = d; edges = fer+pho; inner = sorted(set(x for e in edges for x in e)-{'i', 'f', 'g'})
+        for r in range(2, len(inner)):
+            for S in itertools.combinations(inner, r):
+                S = set(S)
+                if sum(1 for a, b in edges if (a in S) != (b in S)) != 2: continue
+                adj = collections.defaultdict(set)
+                for a, b in edges:
+                    if a in S and b in S: adj[a].add(b); adj[b].add(a)
+                s0 = min(S); seen = {s0}; st = [s0]
+                while st:
+                    x = st.pop()
+                    for y in adj[x]:
+                        if y not in seen: seen.add(y); st.append(y)
+                if seen == S: return True
+        return False
+    def orientations(d):
+        """The number of distinct oriented diagrams (each closed loop may run either way)."""
+        fer, pho, line, loops, par = d
+        if not loops: return 1
+        keys = set()
+        for refl in itertools.product((False, True), repeat=len(loops)):
+            best = None
+            for perm in itertools.permutations(range(len(loops))):
+                if [len(loops[p]) for p in perm] != [len(c) for c in loops]: continue
+                for shifts in itertools.product(*[range(len(c)) for c in loops]):
+                    lab = {v: ('L', t) for t, v in enumerate(line)}; lab['g'] = ('g', 0)
+                    for li, cyc in enumerate(loops):
+                        k = len(cyc)
+                        for t, v in enumerate(cyc): lab[v] = ('C%d' % perm[li], ((-t if refl[li] else t)+shifts[li]) % k)
+                    key = tuple(sorted(tuple(sorted((lab[a] for a in p), key=str)) for p in pho))
+                    if best is None or str(key) < str(best): best = key
+            keys.add(str(best))
+        return len(keys)
+    def alternation_matchings(d):
+        """The matchings a diagram admits: split its fermion lines between the two reflectrons, alternating at every vertex, so that each
+        reflectron's lines (its fermion lines and every photon) form one path -- B from i to g, R from g to f -- and read off sigma from
+        the two orders.  Alternations related by a symmetry of the diagram give the same sigma."""
+        fer, pho, line, loops, par = d
+        if any(len(c) % 2 for c in loops): return set()
+        lineedges = fer[:len(line)+1]; loopedges = []; s = len(line)+1
+        for cyc in loops: loopedges.append(fer[s:s+len(cyc)]); s += len(cyc)
+        nv = len(line)+sum(len(c) for c in loops); sigmas = set()
+        for choice in itertools.product((0, 1), repeat=len(loops)):
+            Bf = [e for t, e in enumerate(lineedges) if t % 2 == 0]; Rf = [e for t, e in enumerate(lineedges) if t % 2 == 1]
+            for c, le in zip(choice, loopedges):
+                Bf += [e for t, e in enumerate(le) if t % 2 == c]; Rf += [e for t, e in enumerate(le) if t % 2 != c]
+            paths = []
+            for edges, start, end in ((Bf+pho, 'i', 'g'), (Rf+pho, 'g', 'f')):
+                adj = collections.defaultdict(list)
+                for a, b in edges: adj[a].append(b); adj[b].append(a)
+                path = [start]; prev = None; cur = start
+                while cur != end:
+                    nxt = [x for x in adj[cur] if x != prev]
+                    if not nxt: break
+                    prev, cur = cur, nxt[0]; path.append(cur)
+                walk = collections.Counter(frozenset(p) for p in zip(path, path[1:]))
+                full = walk == collections.Counter(frozenset(e) for e in edges)     # one path using every line: no cycle, no doubled pair
+                paths.append(path if (cur == end and len(set(path)) == nv+2 and full) else None)
+            if paths[0] is None or paths[1] is None: continue
+            bo, ro = paths[0][1:-1], paths[1][1:-1]
+            sigmas.add(tuple(ro.index(v) for v in bo))
+        return sigmas
+    return joint_graph, admissible, canon, all_qed, one_pi, two_point_insertion, orientations, alternation_matchings
+
+def v35_8_two_worldlines():
+    print("\n== v35.8-2. two reflectron worldlines with matched vertices: the author's figures, the alternation lemma, the generated diagrams (R296) ==")
+    import itertools, collections
+    joint_graph, admissible, canon, all_qed, one_pi, two_point_insertion, orientations, alternation_matchings = _v358_matching_tools()
+    print("   The rule, formalized.  Reflectron B runs from the determinate node i (the incoming fermion) to the node g (the external photon)")
+    print("     through interior points b_1..b_n; reflectron R runs from g to the node f (the outgoing fermion) through r_1..r_n.  A matching")
+    print("     sigma identifies b_k with r_sigma(k), making n vertices.  A segment both reflectrons traverse is joint, a boson (photon) line; a")
+    print("     segment one traverses is a fermion line.  A matching is QED-admissible when g's segment is joint and every vertex has one joint")
+    print("     segment and two single ones.")
+    # the author's two overlays: sigma read off the colour sequences, and the residue compared with the drawn diagram
+    overlays = ((['a1', 'a2', 'c'], ['c', 'a1', 'a2'], ['a1', 'c', 'a2'], [('a1', 'a2')]),
+                (['a1', 'b', 'mid', 'a2', 'c'], ['c', 'b', 'a1', 'mid', 'a2'], ['a1', 'mid', 'b', 'c', 'a2'], [('a1', 'b'), ('mid', 'a2')]))
+    figs = []
+    for blue, red, fline, fpho in overlays:          # blue's and red's interior points; the drawn fermion line and internal photons
+        n = len(blue); sigma = tuple(red.index(x) for x in blue); lab = {x: k for k, x in enumerate(blue)}
+        single, joint = joint_graph(sigma); dl = [lab[x] for x in fline]
+        drawn = canon(n, [frozenset(p) for p in zip(['i']+dl, dl+['f'])], [frozenset((lab[a], lab[b])) for a, b in fpho]+[frozenset((lab['c'], 'g'))])
+        I = (len(single)-2)+(len(joint)-1)
+        figs.append((tuple(s+1 for s in sigma), admissible(n, single, joint), I, n, I-n+1, canon(n, single, joint) == drawn))
+    print(f"   The author's figures: the one-loop overlay (blue i1, a1, a2, c, out; red out, c, a1, a2, i2) is sigma = {figs[0][0]}, the two-loop")
+    print(f"     overlay (blue i1, a1, b, mid, a2, c, out; red out, c, b, a1, mid, a2, i2) is sigma = {figs[1][0]}, read off the colour sequences.")
+    print(f"     Each is admissible, and its joint residue is the drawn diagram (canonical forms equal: {figs[0][5]}, {figs[1][5]}): (I, V, L) =")
+    print(f"     ({figs[0][2]}, {figs[0][3]}, {figs[0][4]}) and ({figs[1][2]}, {figs[1][3]}, {figs[1][4]}), with L = I - V + 1.")
+    # enumeration
+    rows = []; made_all = {}
+    for n in (1, 3, 5, 7):
+        made = collections.Counter(); bysig = collections.defaultdict(set); gj = 0; adm = 0
+        for sigma in itertools.permutations(range(n)):
+            single, joint = joint_graph(sigma)
+            if any('g' in s for s in joint): gj += 1
+            if not admissible(n, single, joint): continue
+            adm += 1; k = canon(n, single, joint); made[k] += 1; bysig[k].add(tuple(sigma))
+        allq = all_qed(n); made_all[n] = (made, allq)
+        lemma = set(made) <= set(allq); se_n = pol_n = pol_alt = 0
+        for k, d in allq.items():
+            alt = alternation_matchings(d)
+            cf = collections.Counter(frozenset(x) for x in d[0]); cp = set(frozenset(x) for x in d[1])
+            se = any(x in cp for x in cf)                       # a fermion line and a photon joining the same two vertices
+            pol = any(v > 1 for v in cf.values())               # two fermion lines joining the same two vertices
+            lemma = lemma and bysig.get(k, set()) == (set() if d[4] else alt) and not (se and alt)   # a self-energy bubble: no acyclic alternation
+            if any(len(c) % 2 for c in d[3]): continue          # the counts below are of Furry-allowed diagrams
+            if se: se_n += 1
+            if pol and not se: pol_n += 1; pol_alt += bool(alt)
+        rows.append((n, int(np.prod(range(1, n+1))), gj, adm, len(made), max(made.values()), lemma, se_n, pol_n, pol_alt))
+    print("   The alternation lemma.  At every vertex the photon is traversed by both reflectrons and the two fermion ends by one each, so each")
+    print("     reflectron visits every vertex once, and the fermion lines alternate B, R, B, ... along the line and around every closed loop.  A")
+    print("     diagram is generated exactly when no two of its lines join the same two vertices and it has an alternation in which neither")
+    print("     reflectron's lines (its fermion lines with every photon) close a cycle; its matchings are those read off such alternations,")
+    print("     alternations related by a symmetry of the diagram giving one matching.  So no bubble is ever generated, for two reasons.  A")
+    print("     self-energy bubble (a fermion line and a photon joining the same two vertices) closes a two-cycle in the reflectron carrying its")
+    print("     fermion line, in every alternation.  A polarization bubble's two fermion lines go to different reflectrons, which then traverse the")
+    print("     same pair of vertices, and the rule reads that pair as one joint segment, a photon: segments are named by their end points, so")
+    print("     every residue is a simple graph.  Checked on every QED vertex diagram below:")
+    print("     n = 2L+1   matchings   g joint   admissible   distinct diagrams   largest multiplicity   lemma holds")
+    for n, tot, gj, adm, nd, mx, lemma, se_n, pol_n, pol_alt in rows:
+        print(f"     {n:8d}   {tot:9d}   {gj:7d}   {adm:10d}   {nd:17d}   {mx:20d}   {str(lemma):>11s}")
+    print("     Furry-allowed diagrams with a self-energy bubble, at L = 1, 2, 3: " + ", ".join(str(r[7]) for r in rows[1:]) + " (none has an acyclic alternation);")
+    print("     those whose only bubbles are polarization bubbles: " + ", ".join(str(r[8]) for r in rows[1:]) + ", of which " + ", ".join(str(r[9]) for r in rows[1:])
+          + " have acyclic alternations and are excluded by the second reason alone.")
+    ok = (figs[0][0] == (2, 3, 1) and figs[0][1] and figs[0][2:6] == (3, 3, 1, True) and figs[1][0] == (3, 2, 4, 5, 1) and figs[1][1] and figs[1][2:6] == (6, 5, 2, True)
+          and [r[3] for r in rows] == [1, 1, 5, 29] and [r[4] for r in rows] == [1, 1, 5, 28] and all(r[6] for r in rows) and all(r[9] > 0 for r in rows[1:]))
+    check(ok, "two worldlines: the author's two overlays are the matchings (2,3,1) and (3,2,4,5,1), giving the drawn diagrams; the alternation lemma holds on every QED vertex diagram through three loops")
+    print("   [T] The alternation lemma.  [V] The enumeration and the figures.  [D] The formalized rule.")
+    return made_all
+
+def v35_8_against_qed(made_all=None):
+    print("\n== v35.8-3. what the matchings generate, against QED's vertex diagrams through three loops (R296) ==")
+    import collections
+    from scipy.integrate import dblquad
+    joint_graph, admissible, canon, all_qed, one_pi, two_point_insertion, orientations, alternation_matchings = _v358_matching_tools()
+    if made_all is None:
+        import itertools
+        made_all = {}
+        for n in (1, 3, 5, 7):
+            made = collections.Counter()
+            for sigma in itertools.permutations(range(n)):
+                single, joint = joint_graph(sigma)
+                if admissible(n, single, joint): made[canon(n, single, joint)] += 1
+            made_all[n] = (made, all_qed(n))
+    rows = []
+    for n in (1, 3, 5, 7):
+        made, allq = made_all[n]
+        furry = {k: d for k, d in allq.items() if all(len(c) % 2 == 0 for c in d[3])}
+        opi = {k: d for k, d in furry.items() if one_pi(d)}
+        skel = {k: d for k, d in opi.items() if not two_point_insertion(d)}
+        m_skel = [k for k in made if k in skel]; m_2pt = [k for k in made if k in opi and k not in skel]; m_red = [k for k in made if k not in opi]
+        dup = [k for k, v in made.items() if v > 1]
+        rows.append((n, len(furry), len(opi), sum(orientations(d) for d in opi.values()), len(skel), sum(orientations(d) for d in skel.values()),
+                     len(m_skel), len(m_2pt), len(m_red), len(dup), [made_all[n][1][k][3] for k in dup],
+                     all(made[k] == 1 for k in m_skel), all(k not in opi for k in dup)))
+    print("   Every connected QED vertex diagram with one open fermion line, one external photon and closed loops -- loops with an odd number of")
+    print("   vertices dropped by Furry's theorem, and no alternation exists on them anyway -- against the generated ones; counts of undirected")
+    print("   diagrams, oriented counts in brackets:")
+    print("     loops L   connected   1PI          1PI without self-energy or polarization insertions   generated: of those   with an insertion   reducible   twice")
+    for n, nall, n1, n1o, ns, nso, ms, m2, mr, nd, dl, once, dred in rows:
+        print(f"     {(n-1)//2:7d}   {nall:9d}   {n1:3d} ({n1o:3d})   {ns:24d} ({nso:3d})   {ms:41d}   {m2:17d}   {mr:9d}   {nd:5d}")
+    print(f"     The oriented 1PI counts 1, 1, 7, 72 are QED's known numbers of vertex diagrams at tree level and one, two and three loops.")
+    print("   Through two loops the generated 1PI diagrams are exactly the vertex diagrams without self-energy or vacuum-polarization insertions --")
+    print("     those that, with full (dressed) propagators on their lines, give the whole vertex function -- plus one reducible two-loop correction")
+    print("     on the external photon.  At three loops the agreement fails by omissions and extras:")
+    print(f"     {rows[3][6]} of the {rows[3][4]} such diagrams are generated ({rows[3][4]-rows[3][6]} omitted), and {rows[3][7]+rows[3][8]} extras appear, {rows[3][7]} with a polarization insertion and {rows[3][8]} reducible.")
+    print(f"     Every generated insertion-free diagram comes from exactly one matching ({rows[3][11]}); the one diagram reached twice is a reducible extra")
+    print(f"     ({rows[3][12]}), a polarization correction on the external photon with a closed loop of {len(rows[3][10][0][0])} vertices, both of whose alternations are acyclic.")
+    # QED's weights inserted by hand: the anomalous moment of the diagram the one-loop matching generates, from the Feynman-parameter integral
+    alpha = 1/137.035999; F2, err = dblquad(lambda y, z: 2*z/(1-z), 0, 1, 0, lambda z: 1-z)
+    print(f"   The diagram the one-loop matching generates has, with QED's weights inserted by hand, F2(0) = (alpha/2 pi) x {F2:.12f} = {alpha/(2*PI)*F2:.8f},")
+    print("     Schwinger's term.  Nothing in that value depends on the matching, which supplies the diagram's shape, not its value.  The Ward")
+    print("     identity q.Gamma = S^-1(p+q) - S^-1(p) ties this vertex to the self-energy, which no matching generates: the propagators must be")
+    print("     dressed by another sector, consistently.")
+    ok = ([r[3] for r in rows] == [1, 1, 7, 72] and [r[6] for r in rows[:3]] == [r[4] for r in rows[:3]] == [1, 1, 4] and rows[2][8] == 1
+          and rows[3][4] == 30 and rows[3][6] == 23 and rows[3][7] == 1 and rows[3][8] == 4 and rows[3][9] == 1 and rows[3][11] and rows[3][12]
+          and abs(F2-1) < 1e-10)
+    check(ok, "against QED: 1, 1, 7, 72 vertex diagrams reproduced; the matchings give exactly the insertion-free 1PI diagrams through two loops (plus one reducible), and fail at three")
+    print("   [V] The enumeration against QED's known counts.  [D] The comparison classes.  [S] The reading of the skeleton as centrade structure.")
+
+def v35_8_born_regrouping():
+    print("\n== v35.8-4. the Born-rule regrouping and unitarity: the amplitude-conjugate pairing as the cut of one forward amplitude (R297) ==")
+    from scipy.linalg import expm
+    rng = np.random.default_rng(5); N = 6; T = 1.0
+    E = np.sort(rng.uniform(0, 3, N)); H0 = np.diag(E); X = rng.normal(size=(N, N))+1j*rng.normal(size=(N, N)); V = (X+X.conj().T)/2
+    A = -1j*H0*T; Bm = -1j*V*T; Z = np.zeros((N, N))
+    big = expm(np.block([[A, Bm, Z], [Z, A, Bm], [Z, Z, A]]))                  # Van Loan: the first and second Frechet terms
+    U0inv = expm(1j*H0*T); S1 = U0inv @ big[:N, N:2*N]; S2 = U0inv @ big[:N, 2*N:]
+    r1 = np.max(np.abs(S1+S1.conj().T)); r2 = np.max(np.abs(S2+S2.conj().T+S1.conj().T @ S1))
+    g = 1e-3; Sg = U0inv @ expm(-1j*(H0+g*V)*T); r3 = np.max(np.abs(Sg-(np.eye(N)+g*S1+g*g*S2)))
+    print(f"   A finite unitary model: H = H0 + g V on C^{N}, H0 = diag(E) with E in [0, 3], V a random Hermitian matrix, T = 1; the interaction-")
+    print("     picture S(g) = exp(i H0 T) exp(-i (H0 + g V) T) = 1 + g S1 + g^2 S2 + ..., with S1, S2 exact from one block exponential (Van Loan)")
+    print(f"     (S(0.001) against the series: {r3:.0e}).  Unitarity order by order: S1 + S1^+ = 0 (residual {r1:.0e}); S2 + S2^+ + S1^+ S1 = 0 (residual {r2:.0e}).")
+    print("   Its diagonal is the regrouping: the Born pairing of the first-order amplitude with its conjugate, summed over final states, equals")
+    print("     -2 Re of one second-order forward amplitude, with f as its intermediate state; its imaginary part is not fixed:")
+    print("     i   sum_f |S1_fi|^2   -2 Re S2_ii    Im S2_ii")
+    rows = []
+    for i in range(N):
+        born = float(np.sum(np.abs(S1[:, i])**2)); fwd = float(-2*S2[i, i].real); rows.append((born, fwd))
+        print(f"     {i:d}   {born:15.10f}   {fwd:12.10f}   {S2[i, i].imag:+.6f}")
+    print("   So the regrouping of the four legs -- (i -> f)(i -> f)* as the Born pairing, and (i, i*)(f, f*) as one forward amplitude cut through")
+    print("     f -- is not a convention: unitarity fixes it, and fixes only the absorptive part.  This is the optical theorem, and Cutkosky's")
+    print("     cutting rule diagram by diagram: the established form of the note's regrouping of four reflectrons into two centrons.")
+    ok = r1 < 1e-12 and r2 < 1e-12 and r3 < 1e-8 and all(abs(b-f) < 1e-12 for b, f in rows)
+    check(ok, "Born regrouping: second-order unitarity S2 + S2^+ = -S1^+ S1, so sum_f |S1_fi|^2 = -2 Re S2_ii (the optical theorem) in a finite unitary model")
+    print("   [T] Unitarity order by order.  [V] The model.  [D] The dictionary between the regrouping and the cut.")
+
+def v35_8_inverse_optics(ell=16.0):
+    print("\n== v35.8-5. Entry 311's question -- what light law produces the stereographic view -- and the two-view uniqueness (R301, R304) ==")
+    E, Cn, unit, tdir, obs, ring, ang, chart = _v357_geometry()
+    # (a) the metric answer: an optical (Fermat) metric whose rays are the portrait's straight lines for every observer, with light cones
+    # round against matter's rulers, is conformal to the portrait's flat metric and keeps its straight lines, so (the lemma of v35.7-2) it is
+    # a constant multiple of it; against the leaf's rulers it is then an isotropic factor Omega = sec^2(u/2) that clocks or light must absorb.
+    Om = lambda u: 1/np.cos(u/2)**2; us = 8.0/ell
+    z_lapse = Om(0.0)/Om(us)-1                       # a lapse N ~ 1/Omega, largest at the centre: 1 + z = N(Sun)/N(centre) for the centre's light
+    z_back = Om(us)/Om(0.0)-1                        # the Sun's light seen from the centre
+    n_idx = {u: Om(u)/Om(us) for u in (0.0, 0.6, 1.0)}
+    gth = {u: n/np.sqrt(n*n-1) for u, n in n_idx.items() if n > 1}
+    print("   (a) The metric answer.  If light reaches every observer of a region along the portrait's straight lines, with light cones round")
+    print("     (isotropic) against matter's rulers, its Fermat metric is conformal to the portrait's flat metric and keeps its straight lines, so")
+    print("     by the lemma of v35.7-2 (a conformal change keeping geodesics has a constant factor) it is a constant multiple of the flat portrait")
+    print("     metric: unique up to a constant factor.  (Isotropy is essential: anisotropic, Beltrami-type metrics also have every portrait line as")
+    print("     a geodesic.)  Against the leaf's own rulers that metric is sec^4(u/2) times the round one, a factor Omega = sec^2(u/2) that the")
+    print("     matter side must absorb, here at the Sun's u = 8/16:")
+    print(f"     - in matter's clocks (a lapse N ~ 1/Omega = cos^2(u/2), largest at the centre): seen from the Sun, the Galactic Centre's light")
+    print(f"       arrives blueshifted, 1 + z = cos^2(1/4) = {1+z_lapse:.4f} (cz = {299792.458*z_lapse:,.0f} km/s), and the Sun's light seen from the centre is")
+    print(f"       redshifted by z = {z_back:.4f};")
+    print(f"     - in light's speed (an index n ~ Omega, set to 1 at the Sun): n = {n_idx[0.0]:.4f} at the centre, light faster than matter's limit, and")
+    print(f"       n = {n_idx[0.6]:.4f} and {n_idx[1.0]:.4f} at 9.6 and 16 kpc, where charged particles above Lorentz factors {gth[0.6]:.2f} and {gth[1.0]:.2f} radiate in vacuum;")
+    print("     - in matter's rulers (rulers flat in the portrait): the galaxy's own geometry is flat -- not the leaf.")
+    kz = -299792.458*np.log(Om(us)); amax = 300.0/abs(kz)                     # cz ~ kz (1 - a) for the lapse share; a 300 km/s bound
+    print("     Any mix fails too.  The Fermat metric is n^2 h/N^2, so rulers Omega^(2a) g need n/N = Omega^(1-a).  A varying index (n != 1) is")
+    print("     excluded by vacuum Cherenkov emission or light outrunning matter; a varying lapse (Part XXXI.27(d)'s split, N = Omega^(a-1)) shifts")
+    print(f"     the centre's light at the Sun by cz = {kz:,.0f} (1 - a) km/s to first order, so a bound of a few hundred km/s (300 km/s: 1 - a <")
+    print(f"     {amax:.3f}) leaves rulers flat in the portrait to about {100*amax:.0f} per cent -- not the leaf.  The lapse and the medium are those excluded")
+    print("     in Part XXXI.4(b)-(c) and XXXI.27(d) (the centre's light within a few hundred km/s; vacuum Cherenkov along cosmic-ray paths).  So")
+    print("     no local, static, isotropic light law produces the stereographic view on the leaf: the law the note asks for must act at the level")
+    print("     of histories -- a non-local transport such as the gateway class of Part XXXI.34(d) -- and deriving it is the open problem.")
+    # (b) two calibrated views fix a Euclidean reconstruction up to similarity: the essential matrix, recovered from the skies alone
+    rng = np.random.default_rng(3); b = 4.0; th = b/(2*ell)
+    A = np.cos(th)*E[3]-np.sin(th)*E[0]; B = np.cos(th)*E[3]+np.sin(th)*E[0]
+    def frame(O):
+        Bs = []
+        for v in E:
+            w = v-(v @ O)*O-sum((v @ q)*q for q in Bs)
+            if np.linalg.norm(w) > 1e-8: Bs.append(w/np.linalg.norm(w))
+            if len(Bs) == 3: break
+        return np.array(Bs)
+    FA, FB = frame(A), frame(B)
+    P = [unit(E[3]+rng.normal(size=4)*np.array([0.25, 0.25, 0.25, 0.0])) for k in range(40)]
+    xa = np.array([FA @ tdir(A, p) for p in P]); xb = np.array([FB @ tdir(B, p) for p in P])
+    M8 = np.array([np.kron(y, x) for x, y in zip(xa, xb)])                   # x_B^T Ess x_A = 0, Ess row-major
+    sM = np.linalg.svd(M8, compute_uv=False)                                  # a one-dimensional null space: the essential matrix is unique
+    Ess = np.linalg.svd(M8)[2][-1].reshape(3, 3)
+    U, S, Vt = np.linalg.svd(Ess)
+    if np.linalg.det(U) < 0: U = -U
+    if np.linalg.det(Vt) < 0: Vt = -Vt
+    W = np.array([[0.0, -1.0, 0.0], [1.0, 0.0, 0.0], [0.0, 0.0, 1.0]]); best = None
+    for Rm in (U @ W @ Vt, U @ W.T @ Vt):
+        for tv in (U[:, 2], -U[:, 2]):
+            lam = np.array([np.linalg.lstsq(np.column_stack([Rm @ x, -y]), -tv, rcond=None)[0] for x, y in zip(xa, xb)])
+            if np.all(lam > 0): best = (Rm, tv, lam)
+    Rm, tv, lam = best; X = lam[:, :1]*xa                                    # the reconstruction, in A's frame, A at the origin
+    F2 = lambda Q: np.array([np.cos(th)*Q[0], Q[1], Q[2]])/Q[3]
+    Y = np.array([F2(p)-F2(A) for p in P])
+    Xc, Yc = X-X.mean(0), Y-Y.mean(0); U2, S2, V2t = np.linalg.svd(Yc.T @ Xc)
+    D3 = np.diag([1.0, 1.0, np.linalg.det(U2 @ V2t)]); Rs = U2 @ D3 @ V2t; sc = np.trace(np.diag(S2) @ D3)/np.sum(Xc**2)
+    res = np.max(np.linalg.norm(sc*(Xc @ Rs.T)-Yc, axis=1))/np.max(np.linalg.norm(Yc, axis=1))
+    Bpos = -Rm.T @ tv; resB = np.linalg.norm(sc*(Rs @ (Bpos-X.mean(0)))-(F2(B)-F2(A)-Y.mean(0)))/np.linalg.norm(F2(B)-F2(A))
+    print("   (b) Two calibrated views fix a reconstruction up to similarity (the review of v35.7 asked for this step of the at-most-two theorem):")
+    print("     the theorem of calibrated two-view reconstruction (Longuet-Higgins 1981; Hartley and Zisserman), for points off a critical surface,")
+    print("     which an open region of sources is.  Here, from the two observers' skies alone (" + f"{len(P)} sources, b = {b:g} kpc), the {len(P)} x 9 epipolar system")
+    print(f"     has a one-dimensional null space (smallest singular values {sM[-1]/sM[0]:.0e} and {sM[-2]/sM[0]:.3f} of the largest), so the essential matrix is unique;")
+    print(f"     its singular values {S[0]/S[0]:.3f}, {S[1]/S[0]:.3f}, {S[2]/S[0]:.0e} make it a valid one.  It gives the relative pose and, by triangulation, every")
+    print(f"     source's position; after one similarity this is the two-observer map F of v35.7-2 to {res:.0e} (relative), and the second observer's")
+    print(f"     reconstructed position matches to {resB:.0e}.  So any Euclidean space reproducing both skies is F, up to similarity; F is conformal only")
+    print("     at the two observers, so a third observer's sky fails, and the theorem's 'at most two' holds.")
+    ok = (abs(z_lapse-(np.cos(0.25)**2-1)) < 1e-12 and abs(z_back-0.0651998) < 1e-6 and abs(n_idx[0.0]-0.938791) < 1e-6 and gth[0.6] > 4 and gth[1.0] < 2
+          and best is not None and S[2]/S[0] < 1e-10 and sM[-1]/sM[0] < 1e-10 and sM[-2]/sM[0] > 1e-3 and res < 1e-9 and resB < 1e-9)
+    check(ok, "inverse optics: an isotropic Fermat metric giving the portrait for every observer is a multiple of the flat portrait metric; its fits to matter (lapse, index, flat rulers or a mix) fail; two views fix the reconstruction (F)")
+    print("   [T] The metric answer; triangulation from two calibrated views.  [V] The numbers.  [D] What the note asks for: a history-level law.")
+
+def _v358_pg_curve(alpha, ell=16.0, Msun=6e10):
+    """PG's rotation curve for the twin-symmetrized exponential source of Part XXV.3, exp(-tan(chi/2)/alpha) with alpha = r_d/ell, from the
+    rigid closure's first-order equations (Part XXV.4-5; the solver of v35.1, R212-R213), with the equatorial expansion's coefficient
+    a2 = -v_eq^2/6 - (2 pi/3) rho_eff''(pi/2) (units mu c^2), derived from psi'' + 2 cot psi' + 3 psi = -2 pi rho_eff and v^2 = -2 tan psi'."""
+    from scipy.integrate import quad
+    v, plat, d2eq, stiff, psid, mu = _v35_far_hemisphere(alpha, ell, Msun)
+    raw = lambda x: np.exp(-np.tan(x/2)/alpha) if x < PI-1e-12 else 0.0
+    mass = 4*PI*quad(lambda x: raw(x)*np.sin(x)**2, 0, PI, epsabs=1e-15, epsrel=1e-12, limit=400, points=[0.5, 1.0, 1.5, 2.0])[0]
+    rho = lambda x: (raw(x)+raw(PI-x))/mass
+    h = 1e-4; rho2 = (rho(PI/2+h)-2*rho(PI/2)+rho(PI/2-h))/h**2
+    unit = mu*(299792458.0/1e3)**2                                            # (km/s)^2 per unit of v^2/(mu c^2)
+    a2 = (-(plat**2/unit)/6-(2*PI/3)*rho2)*unit
+    return v, plat, a2, mu, unit
+
+def v35_8_gnomonic_rotation_curve(ell=16.0):
+    print("\n== v35.8-6. PG's rotation curve read in gnomonic radius R = ell tan(chi): the equator at infinity (Entries 312-313; R302) ==")
+    from scipy.optimize import brentq
+    Gk = 4.300917270e-6                                                       # G in kpc (km/s)^2 / M_sun
+    # (a) the point-source benchmark of Part XXV.2: v^2/(mu c^2) = csc chi + 2 sin chi, and its gnomonic form
+    t = np.array([0.5, 1.0, 2.0, 5.0, 20.0, 100.0]); chi = np.arctan(t)
+    lhs = 1/np.sin(chi)+2*np.sin(chi); rhs = (1+3*t*t)/(t*np.sqrt(1+t*t)); asym = 3-1/(2*t*t)
+    print("   (a) The point-source benchmark (Part XXV.2): v^2/(mu c^2) = csc chi + 2 sin chi.  With R = ell tan chi, t = R/ell, it reads")
+    print(f"     (1 + 3 t^2)/(t sqrt(1 + t^2)) (residual {np.max(np.abs(lhs-rhs)):.0e}) = 3 - 1/(2 t^2) + O(t^-4) (at t = 20, 100: {abs(rhs[-2]-asym[-2]):.1e}, {abs(rhs[-1]-asym[-1]):.1e}):")
+    print("     the equatorial value 3 mu c^2 is approached from below at infinite R; the dip at chi = pi/4 sits at R = ell.")
+    # (b) the exponential sources of Part XXV.5, reproduced, then read in four radii
+    rows = {}
+    for al in (0.01, 0.05, 0.1, 0.2, 0.3):
+        v, plat, a2, mu, unit = _v358_pg_curve(al, ell); rows[al] = (v, plat, a2, unit)
+    print("   (b) Part XXV.5's table reproduced (mu = GM/(c^2 ell) = %.3e at ell = 16 kpc, M = 6e10 M_sun): v_eq^2/(mu c^2) and v_eq:" % mu)
+    print("     r_d/ell   v_eq^2/(mu c^2)   v_eq (km/s)")
+    for al in (0.01, 0.05, 0.1, 0.2, 0.3):
+        v, plat, a2, unit = rows[al]; print(f"     {al:7.2f}   {plat**2/unit:15.4f}   {plat:11.1f}")
+    v2c = rows[0.2][0]; xs = [np.arcsin(r) for r in (0.2, 0.48, 0.78, 0.96)]
+    vs02 = [float(v2c(x)) for x in xs]+[rows[0.2][1]]
+    print("     and the r_d/ell = 0.2 curve at areal R/ell = 0.2, 0.48, 0.78, 0.96, 1: " + ", ".join(f"{x:.1f}" for x in vs02) + " km/s.")
+    # the same physical curve in four radial coordinates
+    v, plat, a2, unit = rows[0.1]
+    print("   (c) One physical curve, r_d/ell = 0.1, in four radial coordinates (kpc), speeds in km/s:")
+    print("     chi      arc ell chi   areal ell sin chi   stereographic 2 ell tan(chi/2)   gnomonic ell tan chi      v")
+    for c in (0.1, 0.3, 0.6, 0.9, 1.2, 1.4, 1.5, PI/2):
+        g = ell*np.tan(c) if c < PI/2-1e-9 else float('inf')
+        print(f"     {c:5.3f}   {ell*c:11.2f}   {ell*np.sin(c):17.2f}   {2*ell*np.tan(c/2):30.2f}   {g:18.2f}   {float(v(min(c, PI/2-1e-9))):7.1f}")
+    sl_fd = (float(v(PI/2-0.005))-float(v(PI/2-0.01)))/(ell*np.sin(PI/2-0.005)-ell*np.sin(PI/2-0.01)); sl = -a2/(ell*plat)
+    print("     On the near hemisphere the arc-length reading reaches the equator at pi ell/2 = 25.13 kpc and the areal reading at ell = 16 kpc, where")
+    print(f"     the areal radius stops growing, so the curve arrives still rising: dv/dR = -a2/(ell v_eq) = {sl:.3f} km/s per kpc (finite differences {sl_fd:.3f}).")
+    print("     The stereographic radius passes the equator at 2 ell = 32 kpc and continues into the far hemisphere; the gnomonic radius reaches it")
+    print("     only at infinity.")
+    # the stereographic reading past the equator: the far hemisphere, where v^2 mirrors the near side, v(rho) = v(4 ell^2/rho)
+    chs = lambda rho: 2*np.arctan(rho/(2*ell)); v02, p02 = _v358_pg_curve(0.02, ell)[:2]
+    far = {al: [float(vv(chs(r)))/pp for r in (40.0, 60.0, 80.0, 100.0)] for al, (vv, pp) in ((0.1, (v, plat)), (0.02, (v02, p02)))}
+    gs = lambda c: float(v02(c))/p02-1.03
+    c_in = brentq(gs, np.arctan(5.0/ell), np.arctan(10.0/ell), xtol=1e-14); st_in = 2*ell*np.tan(c_in/2); st_out = 4*ell*ell/st_in
+    print("     Past the equator the stereographic reading shows the far hemisphere, which in the benchmark has no luminous readout; there v^2")
+    print("     mirrors the near side, v(rho) = v(4 ell^2/rho).  At rho = 40, 60, 80 and 100 kpc, v/v_eq = " + ", ".join(f"{x:.3f}" for x in far[0.1]) + " for r_d/ell = 0.1")
+    print(f"     and " + ", ".join(f"{x:.3f}" for x in far[0.02]) + f" for r_d/ell = 0.02, which stays within 3 per cent of v_eq from rho = {st_in:.2f} to {st_out:.1f} kpc before")
+    print("     rising toward the twin's mirrored peak (v35.1-1).  The arc-length reading likewise continues, to the twin's centre at pi ell = 50.27 kpc.")
+    print("     So within about 140 kpc a sharp source's stereographic reading is nearly as flat as its gnomonic one; only the gnomonic reading is")
+    print("     flat to infinite radius.")
+    # (d) the equatorial expansion in gnomonic radius
+    print("   (d) The equatorial expansion.  v^2 is even about the equator (the twin-symmetric source), so v^2 = v_eq^2 + a2 (pi/2 - chi)^2 + ...,")
+    print("     and the field equation at the equator gives a2 = -v_eq^2/6 - (2 pi/3) rho_eff''(pi/2) mu c^2.  With pi/2 - chi = arctan(ell/R):")
+    print("     v^2(R) = v_eq^2 + A/R^2 + O(R^-4), A = a2 ell^2 (m, the source's normalization, is 4 pi times the integral of exp(-(ell/r_d)")
+    print("     tan(chi/2)) sin^2 chi over 0 < chi < pi).  Finite differences of the solved curve agree:")
+    print("     r_d/ell   v_eq (km/s)   a2 (closed form)   a2 (fit)    A/(v_eq^2 ell^2)   R90     R95     R99     R99.5  (kpc, gnomonic)")
+    fr = {}
+    for al in (0.01, 0.05, 0.1, 0.2, 0.3):
+        v, plat, a2, unit = rows[al]
+        eps = np.array([0.02, 0.04, 0.06, 0.08]); v2 = np.array([float(v(PI/2-e))**2 for e in eps])
+        a2fit = np.polyfit(eps**2, v2-plat**2, 2)[1]
+        cr = []
+        for f in (0.90, 0.95, 0.99, 0.995):
+            g = lambda c: float(v(c))-f*plat
+            grid = np.concatenate([np.geomspace(1e-4, 0.02, 400), np.linspace(0.02, PI/2-1e-6, 4000)[1:]]); vals = [g(c) for c in grid]
+            last = max(k for k in range(len(grid)-1) if vals[k] < 0 <= vals[k+1]) if any(x < 0 for x in vals) else None
+            cr.append(ell*np.tan(brentq(g, grid[last], grid[last+1])) if last is not None else 0.0)
+        fr[al] = (a2, a2fit, cr)
+        print(f"     {al:7.2f}   {plat:11.1f}   {a2:16.1f}   {a2fit:9.1f}   {a2/plat**2:16.4f}   " + "  ".join(f"{x:6.2f}" if x < 1 else f"{x:6.1f}" for x in cr))
+    print(f"     (closed form against fit: largest relative difference {max(abs(fr[al][0]/fr[al][1]-1) for al in fr):.0e}).")
+    print("     a2 < 0 in every case: the plateau is approached from below, as -|A|/R^2.  It is so for every r_d/ell < 1, since rho_eff''(pi/2) =")
+    print("     2 exp(-ell/r_d) [(ell/r_d)^2 - ell/r_d]/m > 0 makes both terms negative.  For a compact source a2 -> -v_eq^2/6 (the point source's")
+    print("     -1/2 of 3).  (R_f: the gnomonic radius beyond which v stays above the fraction f of v_eq; for the compact r_d/ell = 0.01 source the")
+    print("     90 and 95 per cent radii lie on its central rise.)")
+    vc, pc = rows[0.01][0], rows[0.01][1]; Rg = np.logspace(0, 3, 3000); vr = np.array([float(vc(np.arctan(r/ell))) for r in Rg])/pc
+    kmin = int(np.argmin(vr[Rg > 3])) + int(np.sum(Rg <= 3)); k3 = max(k for k in range(len(Rg)) if abs(vr[k]-1) >= 0.03)
+    out3 = brentq(lambda r: float(vc(np.arctan(r/ell)))/pc-1.03, Rg[k3], Rg[k3+1], xtol=1e-12)
+    print(f"     The compact r_d/ell = 0.01 curve rises to its peak (part (f)) and then falls -- as Kepler's at first -- to a dip of {vr[kmin]:.4f} v_eq")
+    print(f"     at R = {Rg[kmin]:.1f} kpc (chi = pi/4 at R = ell), staying within 3 per cent of v_eq beyond R = {out3:.2f} kpc.")
+    v, plat, a2, unit = rows[0.1]; four = []
+    for f in (0.90, 0.95, 0.99, 0.995):
+        c = np.arctan(fr[0.1][2][[0.90, 0.95, 0.99, 0.995].index(f)]/ell)
+        four.append((f, c, ell*c, ell*np.sin(c), 2*ell*np.tan(c/2), ell*np.tan(c)))
+    print("     The same thresholds for r_d/ell = 0.1 in all four radii (kpc), on the near hemisphere, against where each reading reaches the equator:")
+    print("     f       chi      arc (equator 25.13)   areal (equator 16)   stereographic (equator 32)   gnomonic (equator at infinity)")
+    for f, c, a_, b_, s_, g_ in four:
+        print(f"     {f:5.3f}   {c:6.4f}   {a_:19.2f}   {b_:18.2f}   {s_:26.2f}   {g_:30.1f}")
+    # (e) the apparent mass of a Newtonian reading in gnomonic radius
+    v, plat, a2, unit = rows[0.1]; M = 6e10
+    md = [(R, R*float(v(np.arctan(R/ell)))**2/Gk) for R in (10.0, 20.0, 30.0, 50.0, 100.0)]
+    from scipy.integrate import quad
+    raw = lambda x: np.exp(-np.tan(x/2)/0.1); tot = quad(lambda x: raw(x)*np.sin(x)**2, 0, PI, limit=400)[0]
+    inside = [(R, quad(lambda x: raw(x)*np.sin(x)**2, 0, np.arctan(R/ell), limit=400)[0]/tot) for R in (10.0, 50.0)]
+    print("   (e) Read with Newtonian dynamics in a flat space of radius R, the curve implies M(<R) = R v^2/G, growing linearly as an isothermal halo")
+    print("     would, while the leaf's gravitating mass is 6e10 M_sun:  " + ";  ".join(f"R = {R:g} kpc: {m:.2e} ({m/M:.1f}x)" for R, m in md[:3]) + ";")
+    print("     " + ";  ".join(f"R = {R:g} kpc: {m:.2e} ({m/M:.1f}x)" for R, m in md[3:]) + ".  The galaxy's own matter is all on the leaf: "
+          + " and ".join(f"{100*f:.1f}% of it inside R = {R:g} kpc" for R, f in inside) + ".")
+    # (f) sharper sources (the author's mid-round note of 15 October): the settled shape is the point source's
+    from scipy.optimize import minimize_scalar
+    ps_R = lambda f, lo, hi: ell*brentq(lambda t: (1+3*t*t)/(t*np.sqrt(1+t*t))-3*f*f, lo, hi, xtol=1e-14)   # point source: v = f v_eq
+    ps_band = [ps_R(1.10, 0.05, 1.0), ps_R(1.05, 0.05, 1.0), ps_R(1.03, 0.05, 1.0), ps_R(0.99, 1.0, 100.0)]
+    print("   (f) Sharper sources (the author's mid-round note).  The sharper the source, the closer its curve comes to the point source's, onto")
+    print("     which it settles beyond a few kpc; sharper sources do not enter the bands sooner, since their inner peaks overshoot.  In gnomonic")
+    print(f"     kpc, with the radii beyond which v stays within 10, 5, 3 and 1 per cent of v_eq (the point source, v_eq = sqrt(3 mu c^2) = {np.sqrt(3*unit):.1f} km/s:")
+    print("     " + ", ".join(f"{x:.2f}" for x in ps_band) + "):")
+    print("     r_d/ell   2 r_d (kpc)   v_eq (km/s)   first maximum (km/s at kpc; / v_eq)   then the dip (v/v_eq at kpc)    10%     5%      3%      1%")
+    chig = np.concatenate([np.geomspace(1e-5, 0.3, 6000), np.linspace(0.3, PI/2-1e-7, 12001)[1:]])
+    sharp = {}
+    for al in (0.002, 0.005, 0.01, 0.02, 0.03, 0.05):
+        vf, plat = (rows[al][0], rows[al][1]) if al in rows else _v358_pg_curve(al, ell)[:2]
+        vv = vf(chig)
+        k = next(i for i in range(1, len(vv)-1) if vv[i-1] < vv[i] >= vv[i+1])                   # the first local maximum
+        pk = minimize_scalar(lambda c: -float(vf(c)), bounds=(chig[k-1], chig[k+1]), method='bounded', options={'xatol': 1e-13})
+        j = k+int(np.argmin(vv[k:]))                                                              # the dip after it
+        dp = minimize_scalar(lambda c: float(vf(c)), bounds=(chig[j-1], chig[j+1]), method='bounded', options={'xatol': 1e-13})
+        bands = []
+        for eps in (0.10, 0.05, 0.03, 0.01):
+            i = int(np.where(np.abs(vv/plat-1) > eps)[0][-1]); lim = plat*(1+eps if vv[i] > plat else 1-eps)
+            bands.append(ell*np.tan(brentq(lambda c: float(vf(c))-lim, chig[i], chig[i+1], xtol=1e-14)))
+        sharp[al] = (vf, plat, -pk.fun, ell*np.tan(pk.x), dp.fun/plat, ell*np.tan(dp.x), bands)
+        print(f"     {al:7.3f}   {2*al*ell:11.2f}   {plat:11.1f}   {-pk.fun:16.1f} at {ell*np.tan(pk.x):5.2f}; {-pk.fun/plat:4.2f}    {dp.fun/plat:19.4f} at {ell*np.tan(dp.x):5.2f}     "
+              + "  ".join(f"{x:6.2f}" for x in bands))
+    vf, plat = sharp[0.02][0], sharp[0.02][1]
+    raw2 = lambda x: np.exp(-np.tan(x/2)/0.02)
+    tot2 = quad(lambda x: raw2(x)*np.sin(x)**2, 0, PI, epsabs=1e-15, limit=400, points=[0.02, 0.1, 0.5])[0]
+    md2 = [(R, R*float(vf(np.arctan(R/ell)))**2/Gk/M) for R in (10.0, 20.0, 50.0, 100.0)]
+    in2 = [(R, quad(lambda x: raw2(x)*np.sin(x)**2, 0, np.arctan(R/ell), epsabs=1e-15, limit=400)[0]/tot2) for R in (2.0, 5.0)]
+    dens2 = [raw2(np.arctan(R/ell)) for R in (10.0, 20.0, 50.0)]
+    print(f"     Every curve with r_d/ell <= 0.02 dips to the point source's sqrt(2 sqrt2/3) = {np.sqrt(2*np.sqrt(2)/3):.4f} of v_eq at R = ell, and its radii")
+    print("     converge to the point source's; inside, the sharper source has the higher Kepler peak, as any compact mass would.  Read with")
+    print("     Newtonian dynamics, the r_d/ell = 0.02 curve implies M(<R) = R v^2/G = " + ", ".join(f"{m:.1f}" for R, m in md2) + " times the leaf's mass at R = 10, 20,")
+    print("     50 and 100 kpc, while " + " and ".join(f"{100*f:.1f}% of its matter lies inside R = {R:g} kpc" for R, f in in2) + ".  The plateau holds")
+    print("     essentially none of the source: its density, relative to the centre's, is " + ", ".join(f"{x:.0e}" for x in dens2) + " at R = 10, 20 and 50 kpc,")
+    print("     so the flat part would be traced by matter of negligible mass, as HI traces real rotation curves beyond the stars.")
+    ok = (np.max(np.abs(lhs-rhs)) < 1e-12 and abs(rhs[-1]-asym[-1]) < 1e-7
+          and all(abs(rows[al][1]-ref) < 0.15 for al, ref in ((0.01, 219.7), (0.05, 214.4), (0.1, 203.1), (0.2, 173.1), (0.3, 141.4)))
+          and max(abs(x-y) for x, y in zip(vs02, (53.8, 108.0, 149.5, 169.2, 173.1))) < 0.15
+          and all(abs(fr[al][0]/fr[al][1]-1) < 1e-4 and fr[al][0] < 0 for al in fr) and abs(fr[0.01][0]/rows[0.01][1]**2+1/6) < 0.01
+          and abs(sl_fd/sl-1) < 2e-3
+          and all(abs(sharp[al][4]-np.sqrt(2*np.sqrt(2)/3)) < 1e-3 and abs(sharp[al][5]-ell) < 0.2 for al in (0.002, 0.005, 0.01, 0.02))
+          and all(abs(x-y) < 0.02 for al in (0.002, 0.005) for x, y in zip(sharp[al][6], ps_band)))
+    check(ok, "gnomonic rotation curve: Part XXV's curves reproduced; v^2(R) = v_eq^2 + A/R^2 with A = a2 ell^2 < 0, a2 = -v_eq^2/6 - (2pi/3) rho_eff''(pi/2) mu c^2; sharper sources settle onto the point source's curve")
+    print("   [T] The gnomonic form of the point source; the equatorial expansion.  [V] The curves and radii.  [D] The coordinate is a reading:")
+    print("   whether light makes astronomers infer it is a separate question (v35.8-7).")
+    return rows
+
+def v35_8_gnomonic_reading(ell=16.0, rows=None):
+    print("\n== v35.8-7. what the gnomonic reading carries with it: densities, shapes, proper motions (the analysis of Entries 312-313; R303) ==")
+    E, Cn, unit, tdir, obs, ring, ang, chart = _v357_geometry()
+    # (a) the analysis's density formulas: metric, volume and area elements, pushforward, tails, the inverse exponential
+    R = np.array([0.3, 1.0, 2.5, 7.0]); u = np.arctan(R)
+    drdu = 1/np.cos(u)**2                                                     # dR/du (ell = 1)
+    vol_res = np.max(np.abs(np.sin(u)**2/drdu-R**2/(1+R**2)**2))             # sin^2 u du = R^2 dR/(1+R^2)^2
+    area_res = np.max(np.abs(np.sin(u)/drdu-R/(1+R**2)**1.5))                # sin u du = R dR/(1+R^2)^(3/2)
+    lg, h = 16.0, 3.2; Rk = np.array([0.0, 4.0, 8.0, 16.0, 24.0, 32.0]); uk = np.arctan(Rk/lg)
+    leaf = np.exp(-(lg/h)*np.tan(uk))/np.cos(uk)**4; img = leaf*(1+(Rk/lg)**2)**-2
+    lnJ = lambda x: -2*np.log1p(x*x); d1 = (lnJ(1+1e-5)-lnJ(1-1e-5))/2e-5; d2 = (lnJ(1+1e-4)-2*lnJ(1.0)+lnJ(1-1e-4))/1e-8
+    xs = np.linspace(0.5, 1.5, 201); dev = np.max(np.abs((1+xs**2)**-2/(0.25*np.exp(-2*(xs-1)))-1))
+    mono = [bool(np.all(np.diff(np.exp(-(1/hh)*np.tan(np.linspace(0, 1.55, 3000)))/np.cos(np.linspace(0, 1.55, 3000))**4) <= 1e-15)) for hh in (0.4, 0.5, 0.6)]
+    print("   (a) The analysis's formulas, checked.  In gnomonic radius the leaf's metric is dR^2/(1 + R^2/ell^2)^2 + R^2 dOmega^2/(1 + R^2/ell^2): the")
+    print(f"     volume element R^2 dR/(1 + R^2/ell^2)^2 (residual {vol_res:.0e}) and, on a great 2-sphere, the area element R dR/(1 + R^2/ell^2)^(3/2) ({area_res:.0e}).")
+    print("     A mass-conserving pushforward therefore divides the leaf's density by (1 + R^2/ell^2)^2 (a disk's surface density by its 3/2 power):")
+    print("     a density finite at the equator becomes an R^-4 (R^-3) tail.  The leaf density sec^4(u) exp(-(ell/h) tan u) pushes forward to exactly")
+    print(f"     exp(-R/h); at ell = 16, h = 3.2 kpc and R = 0, 4, 8, 16, 24, 32 kpc the leaf and image densities are " + ", ".join(f"{x:.4g}" for x in leaf) + " and")
+    print("     " + ", ".join(f"{x:.4g}" for x in img) + f", as the analysis tabulated; the leaf density decreases monotonically when h <= ell/2")
+    print(f"     (h/ell = 0.4, 0.5, 0.6: {mono}).  The factor (1 + R^2/ell^2)^-2 has slope -2/ell and zero curvature in its logarithm at R = ell")
+    print(f"     ({d1:.6f}, {d2:.1e}), so near R = ell it is exponential with scale ell/2, within {100*dev:.1f} per cent over [0.5, 1.5] ell.")
+    # the analysis's example: v_image^2 = v^2 R^2/(R^2 + Rc^2) <-> v_B^2(u) = v^2 ell^2 sin^2 u/(ell^2 sin^2 u + Rc^2 cos^2 u)
+    Rc = 5.0; uu = np.linspace(0.05, 1.5, 50); RR = lg*np.tan(uu)
+    ex = np.max(np.abs(RR**2/(RR**2+Rc**2)-lg**2*np.sin(uu)**2/(lg**2*np.sin(uu)**2+Rc**2*np.cos(uu)**2)))
+    print(f"     The analysis's example curve v^2 R^2/(R^2 + R_c^2) is, on the leaf, v^2 ell^2 sin^2 u/(ell^2 sin^2 u + R_c^2 cos^2 u) (residual {ex:.0e}).")
+    print("     A mass pushforward is not a photometric profile: the leaf's own light conserves surface brightness (lossless transport, v35.7-4),")
+    print("     so a telescope sees the emitted surface brightness at each image point, not the thinned pushforward.")
+    # (b) where gnomonic radii come from: the leaf's own light, read with the centre's D_A (Part XXXI.27(a), XXXI.31(b)) -- and its shapes
+    out = []
+    for D in (0.5, 1.0, PI/2):
+        A = obs(D, 0.0); s = np.sin(D)
+        for u0 in (0.3, 0.6, 1.0, 1.3):
+            P = ring(u0, 0.0); eps = 1e-6
+            Pr = ring(u0+eps, 0.0); Pt = ring(u0, eps/np.sin(u0))           # a small step radially and one transversely, both of length eps
+            t0 = tdir(A, P); dr = ang(tdir(A, Pr), t0); dt = ang(tdir(A, Pt), t0)
+            sky = dr/dt                                                       # the sky image's radial/transverse ratio
+            Rg = np.tan(u0); Hh = s; eucl = Hh/np.sqrt(Hh*Hh+Rg*Rg)            # a flat face-on disk at radius ell tan u, seen from height ell sin D
+            out.append((D, u0, Rg, sky, eucl, sky/eucl, 1/np.cos(u0)))
+    print("   (b) Where gnomonic radii come from.  An observer on the galaxy's own leaf who calibrates by the centre's angular-diameter distance reads")
+    print("     every ring at ell tan u (Part XXXI.27(a), XXXI.31(b)): the leaf's own light gives the gnomonic reading, with no new optics.  But the")
+    print("     map is projective, not conformal.  A small round feature at angle u, seen face-on from angle D, against a flat disk at ell tan u")
+    print("     seen from height ell sin D (radial/transverse ratios of the sky image):")
+    print("     D      u      leaf's light   flat disk   ratio    sec u")
+    for D, u0, Rg, sky, eucl, rat, sec in out:
+        print(f"     {D:5.3f}  {u0:4.1f}   {sky:12.6f}   {eucl:9.6f}   {rat:6.4f}   {sec:6.4f}")
+    print("     So in the flat reconstruction a round feature at angle u, seen face-on from any height, appears radially stretched by sec u:")
+    print("     1.21 at u = 0.6, 1.85 at u = 1.  (Tilted views differ in shape at large radii, v35.7-1.)")
+    # (c) proper motions against Doppler speeds in the gnomonic reading
+    kg = [(u0, lg*np.tan(u0), 1/np.cos(u0), 1/np.cos(u0/2)**2) for u0 in (0.3, 0.6, 0.9, 1.2)]
+    print("   (c) Proper motions.  Azimuthal motion moves the image by ell tan u per radian of azimuth against the star's ell sin u, so in the gnomonic")
+    print("     reading the proper-motion rotation runs sec u = sqrt(1 + R^2/ell^2) times the Doppler rotation (the stereographic map's factor is")
+    print("     sec^2(u/2), v35.7-3):  " + ";  ".join(f"R = {R_:.1f} kpc: {a:.3f} (stereographic {b:.3f})" for u0, R_, a, b in kg))
+    ok = (vol_res < 1e-12 and area_res < 1e-12 and np.allclose(img, np.exp(-Rk/h), rtol=1e-12) and abs(leaf[1]-0.3234) < 1e-4 and abs(img[3]-0.006738) < 1e-6
+          and abs(d1+2) < 1e-6 and abs(d2) < 1e-5 and 0.05 < dev < 0.07 and mono == [True, True, False] and ex < 1e-12
+          and all(abs(r[5]-r[6]) < 1e-5 for r in out))
+    check(ok, "gnomonic reading: the analysis's density formulas and tails; the leaf's own light gives gnomonic radii for an observer on the leaf, with round features seen face-on radially stretched by sec u")
+    print("   [T] The Jacobians, the inverse exponential, the stretch sec u, the proper-motion factor.  [V] The checks.  [D] Pushforward against")
+    print("   photometry; the observer on the leaf against a gateway.")
+
+def v35_8_suite():
+    v35_8_four_reflectrons(); made_all = v35_8_two_worldlines(); v35_8_against_qed(made_all); v35_8_born_regrouping()
+    v35_8_inverse_optics(); rows = v35_8_gnomonic_rotation_curve(); v35_8_gnomonic_reading(rows=rows)
+
 def v35_1_suite():
     v35_1_far_hemisphere_postfreeze(); v35_1_arena_constants_and_fourier(); v35_1_corrections_to_part_xxx(); v35_1_statistics(); v35_1_global_typing()
     v35_1_ideal_rendering_and_fuzz(); v35_1_categorical_susceptibility(); v35_1_structured_corrections(); v35_1_selection_transition()
@@ -13390,10 +14078,10 @@ def v35_0_suite():
     v35_conveyor_on_native_carrier(); v35_phase_family_and_gate(); v35_dephasing_vs_decay(); v35_lifetimes_from_masses(); v35_generation_transport()
 
 def current_suite_v35():
-    """The current regression suite of Parts XXX-XXXI (v35.0-v35.7, with the post-freeze controls), followed by the check summary."""
-    v35_0_suite(); v35_1_suite(); v35_2_suite(); v35_3_suite(); v35_4_suite(); v35_5_suite(); v35_6_suite(); v35_7_suite()
+    """The current regression suite of Parts XXX-XXXII (v35.0-v35.8, with the post-freeze controls), followed by the check summary."""
+    v35_0_suite(); v35_1_suite(); v35_2_suite(); v35_3_suite(); v35_4_suite(); v35_5_suite(); v35_6_suite(); v35_7_suite(); v35_8_suite()
     npass = sum(1 for ok, _ in _CHECKS if ok); nfail = len(_CHECKS)-npass
-    print(f"\n== check summary (Parts XXX-XXXI): {npass} passed, {nfail} failed ==")
+    print(f"\n== check summary (Parts XXX-XXXII): {npass} passed, {nfail} failed ==")
     for ok, msg in _CHECKS:
         if not ok: print("   FAILED:", msg)
     return nfail == 0
@@ -13402,7 +14090,7 @@ def current_suite_v35():
 if __name__ == "__main__":
     import sys
     arg = sys.argv[1] if len(sys.argv) > 1 else "current"
-    suites = {"current": current_suite_v35, "v35_0": v35_0_suite, "v35_1": v35_1_suite, "v35_2": v35_2_suite, "v35_3": v35_3_suite, "v35_4": v35_4_suite, "v35_5": v35_5_suite, "v35_6": v35_6_suite, "v35_7": v35_7_suite}
+    suites = {"current": current_suite_v35, "v35_0": v35_0_suite, "v35_1": v35_1_suite, "v35_2": v35_2_suite, "v35_3": v35_3_suite, "v35_4": v35_4_suite, "v35_5": v35_5_suite, "v35_6": v35_6_suite, "v35_7": v35_7_suite, "v35_8": v35_8_suite}
     if arg not in suites:
         print("usage: python3 -I pg_v35_numerics.py [" + " | ".join(suites) + "]"); sys.exit(2)
     suites[arg]()
@@ -13414,9 +14102,9 @@ if __name__ == "__main__":
 
 ---
 
-# PART XXXI — THE VISIBLE RENDERING: A GRAVITY-DETERMINED, OBSERVER-SELECTED IMAGE OF THE LEAF (v35.2–v35.7; Entries 297–300 and the notes of 14 and 15 October) [T/V/D/S/O]
+# PART XXXI — THE VISIBLE RENDERING: A GRAVITY-DETERMINED, OBSERVER-SELECTED IMAGE OF THE LEAF (v35.2–v35.8; Entries 297–300, 311–313 and the notes of 14 and 15 October) [T/V/D/S/O]
 
-*This part returns to the gravity wing. Part XXIX is frozen at v34.10, and nothing here changes its dynamics, its claim status or the Law II limitation (§XXIX.43(c)). The part continues §XXIX.42's image map and answers a requirement §XXIX.18 left open. The numbers come from `pg_v35_numerics.py` (§XXX.10), rounds v35.2–v35.7. Two short pointer notes in the frozen §§XXIX.18 and XXIX.42(f) point here (R238; the first corrected in v35.3, R243, and v35.4, R254). §§XXXI.1–8 are v35.2's; §§XXXI.9–15 are v35.3's; §XXXI.16 records the v35.4 repairs, which are also made in place, §§XXXI.17–18 take up the author's two notes on the stereographic centre, §§XXXI.19–23 the note on light and visual space and the report on v35.3, and §§XXXI.24–29 the author's two notes on another galaxy and three referee inputs, and §§XXXI.30–35 the author's note on views from above and at a tilt and the review of v35.6.*
+*This part returns to the gravity wing. Part XXIX is frozen at v34.10, and nothing here changes its dynamics, its claim status or the Law II limitation (§XXIX.43(c)). The part continues §XXIX.42's image map and answers a requirement §XXIX.18 left open. The numbers come from `pg_v35_numerics.py` (§XXX.10), rounds v35.2–v35.8. Two short pointer notes in the frozen §§XXIX.18 and XXIX.42(f) point here (R238; the first corrected in v35.3, R243, and v35.4, R254). §§XXXI.1–8 are v35.2's; §§XXXI.9–15 are v35.3's; §XXXI.16 records the v35.4 repairs, which are also made in place, §§XXXI.17–18 take up the author's two notes on the stereographic centre, §§XXXI.19–23 the note on light and visual space and the report on v35.3, and §§XXXI.24–29 the author's two notes on another galaxy and three referee inputs, §§XXXI.30–35 the author's note on views from above and at a tilt and the review of v35.6, and §§XXXI.36–41 Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots.*
 
 ## XXXI.1 The entries, as formulated, and three analyses (14 October 2026) [record; R232]
 
@@ -14126,7 +14814,7 @@ At $\chi = 0.5$:
 - *Travel time.* It is $s/c$ in every chart: $26{,}093$ years over $8$ kpc, $558$ years less than the stereographic radius implies ($579$ at $8.1$ kpc).
 - *The long-way and wound histories.* They are discussed in §XXXI.22.
 
-**(e) What the section settles.** The link the note asks for exists, in this exact form. On the round leaf the observer's direct sky is the view from the origin of the observer-centred stereographic space — directions, sizes, shapes, fluxes — with objects drawn at the chart's scale. The stereographic chart is the conformal choice among the charts that do this. The visual space's distances are neither parallax distances nor light-travel distances, nor the $D_A$ that every absolute distance indicator returns (§XXXI.33) *[v35.7, R285]*. Its straight lines are light paths only through the observer.
+**(e) What the section settles.** The link the note asks for exists, in this exact form. On the round leaf the observer's direct sky is the view from the origin of the observer-centred stereographic space — directions, sizes, shapes, fluxes — with objects drawn at the chart's scale. The stereographic chart is the conformal choice among the charts that do this. The visual space's distances are neither parallax distances nor light-travel distances, nor the $D_A$ that candles, rulers and kinematic distances return (§XXXI.33) *[v35.7, R285]* *[v35.8, R304]*. Its straight lines are light paths only through the observer.
 
 ## XXXI.22 A source–ray–detector kernel on the round leaf [T/V/S/O; R263] *(`v35_5_observation_kernel()`)*
 
@@ -14168,7 +14856,7 @@ No readout or chart changes the energy on the leaf. A leaf large enough to keep 
 - *On the cover.* Each source then delivers exactly one history, the direct one, at its first-pass flux, at every age. The leaf holds only the direct light, $L\pi\ell/c$.
 - *On an $\mathbb{RP}^3$ base.* The odd short history, of length $(\pi-\chi)\ell<\pi\ell$, survives once the source is older than its $138$ kyr delay. It gives one image at $-\hat n$ with the direct flux, read at the inverted point. Keeping it dark is the barren-twin selection, a separate premise.
 
-With the rule, on the cover (or on an $\mathbb{RP}^3$ base with the barren-twin selection), the sky is the direct sky. Every radial chart reproduces it, and the stereographic chart reproduces it conformally (§XXXI.21). The author's visual space and the leaf's light then agree in directions, sizes, shapes, fluxes and surface brightness. They differ in parallax, travel time and every absolute distance indicator (§XXXI.33) *[v35.7, R285]*. The removed energy must go somewhere — into the middle space, by a stated transport — and the rule is recorded as a candidate, not a derivation.
+With the rule, on the cover (or on an $\mathbb{RP}^3$ base with the barren-twin selection), the sky is the direct sky. Every radial chart reproduces it, and the stereographic chart reproduces it conformally (§XXXI.21). The author's visual space and the leaf's light then agree in directions, sizes, shapes, fluxes and surface brightness. They differ in parallax, travel time, and the distances of candles, rulers and kinematics (§XXXI.33) *[v35.7, R285]* *[v35.8, R304]*. The removed energy must go somewhere — into the middle space, by a stated transport — and the rule is recorded as a candidate, not a derivation.
 
 **(e) Reconstruction from detector data [T].** From $\lvert j\rvert$ (a standard ruler), $D_{\rm par}$ (a baseline) and the sign of $j$ (a directed marker on a source of known orientation *[v35.6, R272]*), the direct image and the long-way image reconstruct to $+8.170941$ kpc along $+\hat n$. That is one point, from two images on opposite sides of the sky. The coordinate is joined, the sky is not (§XXXI.21; the analysis's no-go).
 
@@ -14644,7 +15332,7 @@ Small rings are foreshortened by $\cos i$ in both pictures, at angular scales th
 
 The fitted spheres match to $5\times10^{-15}$; for an observer above the centre the radius is the analysis's $2\ell/\lvert\sin D\rvert$. A disk seen from off its plane is a bowl around the observer in its visual space; seen from within its plane, it is a plane through the observer. The bowl is where the visual space places the disk's points in depth; the sky itself is the leaf's, unchanged, as the analysis noted. The flat galaxy-centred portrait is the visual space of an observer at the centre.
 
-**(e) What the section settles.** Read with the leaf's own light, the note's generalization fails as the first note did. From above and at every tilt the major-axis law is $\ell\tan u$, and the portrait's law would need a compression $1-\tan^2(u/2)$. The galaxy-centred portrait is one observer's visual space: the centre's. Read as the analysis's universal law, the generalization would need light to follow the portrait's straight lines everywhere — the lapse or medium excluded in §§XXXI.4(b)–(c) and XXXI.27(d).
+**(e) What the section settles.** Read with the leaf's own light, the stereographic law does not hold from above or at a tilt, as it did not for another galaxy (§XXXI.27). The note did not assume the leaf's own light; its question — what light law would produce the view — is §XXXI.37's *[v35.8, R301]*. From above and at every tilt the major-axis law is $\ell\tan u$, and the portrait's law would need a compression $1-\tan^2(u/2)$. The galaxy-centred portrait is one observer's visual space: the centre's. Read as the analysis's universal law, the generalization would need light to follow the portrait's straight lines everywhere — the lapse or medium excluded in §§XXXI.4(b)–(c) and XXXI.27(d).
 
 ## XXXI.32 One Euclidean space for every observer? At most two [T/V/D; R284] *(`v35_7_one_space_for_all_observers()`)*
 
@@ -14653,7 +15341,7 @@ The fitted spheres match to $5\times10^{-15}$; for an observer above the centre 
 - *Two observers can share one space.* Take the gnomonic chart about their midpoint, which keeps every geodesic straight, and shrink the axis through the two observers by $\cos(b/2\ell)$. The map is projective and conformal at both observers, and at no other point. It is unique up to similarity, since two calibrated views fix a reconstruction up to similarity. It reproduces both skies to within $10^{-13}$ degrees for separations of $1$, $4$ and $8$ kpc.
 - *A third observer fails.* The map is projective, so a third observer's error depends only on its differential there, whatever the sources' distance: $\arcsin[(1-k)/(1+k)]$, with $k$ the ratio of its least to its greatest stretch. At the midpoint $k = \cos\theta$, $\theta = b/2\ell$, and the error is $\arcsin\tan^2(b/4\ell)$; $1$ kpc off the axis there, at angle $\varphi = (1\text{ kpc})/\ell$, it is $\arcsin[(\sec\varphi-\cos\theta)/(\sec\varphi+\cos\theta)]$. For $b = 1$, $4$ and $8$ kpc these are $0.0140^\circ$, $0.2244^\circ$ and $0.9047^\circ$ at the midpoint, and $0.0700^\circ$, $0.2804^\circ$ and $0.9607^\circ$ off the axis; the worst errors over $3000$ directions, after the least-squares rotation, match them to $10^{-4}$.
 
-So one Euclidean space reproducing the leaf's light serves at most two observers. Light that followed the portrait's straight lines would serve every observer, but that is the lapse or medium already excluded (§§XXXI.4(b)–(c), XXXI.27(d)). This makes the analysis's two levels precise: a conformal atlas, yes; one Euclidean space of physical immersion, no.
+So one Euclidean space reproducing the leaf's light serves at most two observers. Light that followed the portrait's straight lines would serve every observer, but that is the lapse or medium already excluded (§§XXXI.4(b)–(c), XXXI.27(d)). This makes the analysis's two levels precise for the leaf's own light: a conformal atlas, yes; one Euclidean space of physical immersion, no *[v35.8, R301]*. The two-observer map's uniqueness is shown in §XXXI.40(c) *[v35.8, R304]*.
 
 **(b) The cost of carrying one observer's visual space to another [T/V].** Observer $A$'s chart used by a second observer $B$ at distance $b$, for sources at distance $d$ from $B$: the worst direction error after the least-squares rotation, in closed form with $\rho_x = 2\ell\tan(x/2\ell)$ — $\arcsin(\rho_b\rho_d/4\ell^2)$ for the stereographic chart and $\arcsin(\rho_b^2/4\ell^2)$ for the gnomonic one — matched on $3000$ directions to $10^{-4}$:
 
@@ -14668,7 +15356,7 @@ The stereographic chart's error is $\arcsin[\rho_b(1/\rho_d-1/D_{\rm par})]$, it
 
 **(c) What survives [T/V].**
 - *A conformal geometry, not a Euclidean space.* Each observer's visual space is its own stereographic chart, and the charts are Möbius images of one another, with $\lvert Mx-My\rvert^2 = \lambda(x)\lambda(y)\lvert x-y\rvert^2$ (worst residual $3\times10^{-15}$). A flat plane of one chart is a sphere in another, as in §XXXI.31(d).
-- *The stereographic radius as an invariant.* In any observer's chart, the ratio of a star's distances to the galaxy's centre and to the galaxy's twin point, divided by one factor per galaxy and observer, $\tan(D/2)$, is $\rho/2\ell = \tan(u/2)$ (worst residual $7\times10^{-16}$). In the centre's own chart the twin point lies at infinity, and the distance to the centre is $\rho$ itself. Any observer can recover the stereographic radii from per-star distances, since $\lvert j\rvert$ and $D_{\rm par}$ give each star's chart position (§XXXI.11). No angle shows them.
+- *The stereographic radius, read from a conformal invariant* *[v35.8, R304]*. The radius $\rho$ itself is not invariant under the Möbius maps between charts. In any observer's chart, the ratio of a star's distances to the galaxy's centre and to the galaxy's twin point, divided by one factor per galaxy and observer, $\tan(D/2)$, is $\rho/2\ell = \tan(u/2)$ (worst residual $7\times10^{-16}$). In the centre's own chart the twin point lies at infinity, and the distance to the centre is $\rho$ itself. Any observer can recover the stereographic radii from per-star distances, since $\lvert j\rvert$ and $D_{\rm par}$ give each star's chart position (§XXXI.11). No angle shows them.
 
 ## XXXI.33 Visible stereographic, matter on the leaf: what returns the visual radius [T/V/D; R285] *(`v35_7_absolute_distances()`)*
 
@@ -14677,8 +15365,8 @@ $$K = \frac{\rho}{D_A} = 1+\frac{\rho^2}{4\ell^2} = \sec^2\frac{s}{2\ell}:$$
 $K = 1.0006$, $1.0158$, $1.0652$ and $1.2984$ at $s = 0.8$, $4$, $8$ and $16$ kpc.
 
 **(b) What it means [D].**
-- *Every absolute distance indicator returns $D_A$.* On the static leaf, standard candles ($D_L = D_A$ at $z = 0$), standard rulers, and proper motions combined with Doppler speeds all give $D_A$. Parallax gives $D_{\rm par}$. Nothing gives $\rho$, which is their harmonic mean. Read with $\rho$, luminosities come out $K^2$ too large, and sizes and transverse speeds $K$ too large; for the Galactic Centre, $8$ kpc away, $K = 1.0652$.
-- *Immersion.* So the visual space keeps the sky's relative content — directions, angular sizes, shapes and flux ratios — while every absolute distance indicator, and parallax, shows the leaf. That is the precise content of the note's "visible we appear immersed in the stereographic version … while in reality matter acts in the leaf version".
+- *Candles, rulers and kinematic distances return $D_A$* *[v35.8, R304]*. On the static leaf, standard candles ($D_L = D_A$ at $z = 0$), standard rulers, and proper motions combined with Doppler speeds all give $D_A$. Parallax gives $D_{\rm par}$, and timing — the light-travel time, as in a light echo — gives the path length $s$ (§XXXI.21(d)). None of them gives $\rho$, the harmonic mean of $D_A$ and $D_{\rm par}$. Read with $\rho$, luminosities come out $K^2$ too large, and sizes and transverse speeds $K$ too large; for the Galactic Centre, $8$ kpc away, $K = 1.0652$.
+- *Immersion.* So the visual space keeps the sky's relative content — directions, angular sizes, shapes and flux ratios — while candles, rulers, kinematic distances, parallax and timing all show the leaf *[v35.8, R304]*. With the leaf's own light, that is what the note's "visible we appear immersed in the stereographic version … while in reality matter acts in the leaf version" can mean; a light law that would make the immersion literal is §XXXI.37's question *[v35.8, R301]*.
 - *Where $K$ is an observable.* For our own sky $K$ adds nothing beyond the known split between $D_{\rm par}$ and $D_A$ (§§XXXI.16(c), XXXI.21(d)), since $\rho$ is a choice of readout. For a gateway portrait it is a genuine observable: at a fixed adopted distance, the ratio of proper-motion to Doppler rotation speeds rises outward as $K(\rho) = 1+(\rho/2\ell_g)^2$ (§XXXI.34(d)).
 
 ## XXXI.34 Repairs, and a minimal gateway kernel (the review of v35.6) [T/V/D/S/O; R286–R290] *(`v35_7_gateway_kernel_and_ring()`, `v35_7_data_on_the_kernel()`)*
@@ -14696,7 +15384,7 @@ $K = 1.0006$, $1.0158$, $1.0652$ and $1.2984$ at $s = 0.8$, $4$, $8$ and $16$ kp
 
 (at $1+z_g = 1.002$ and $D_{\rm vis} = 761$ kpc; each entry equals its closed form to $10^{-10}$).
 - *$\kappa = 1$* is symplectic. Étendue and surface brightness are conserved, distance duality holds, and candles brighten by $\Omega^2$: the rule of a lens.
-- *$\kappa<1$* lets the étendue grow, like a diffuser. Candles brighten by $\Omega^{2\kappa}$, surface brightness changes by $\Omega^{2(\kappa-1)}$, and duality is broken by $\Omega^{1-\kappa}$. For $\kappa<0$ outer candles come out fainter.
+- *$\kappa<1$* lets the étendue grow, like a diffuser. Candles brighten by $\Omega^{2\kappa}$, surface brightness changes by $\Omega^{2(\kappa-1)}$, and duality is broken by $\Omega^{1-\kappa}$. For $\kappa<0$ outer candles come out fainter. A diffusing transport must still keep images sharp, so $\kappa$ parametrizes how brightness is redistributed, not a mechanism that achieves it *[v35.8, R304]*.
 - *$\kappa>1$* would make the image brighter than its source where $\Omega>1$, which the brightness theorem forbids.
 - *Absorption.* A transmission $T(u)$ multiplies every flux; the family above is for a non-absorbing kernel.
 
@@ -14761,8 +15449,8 @@ The kinematic test needs proper-motion rotation to a few per cent. The candle te
 
 - *Established [T/V].*
   - The right-angle law from every height and tilt, with $\tan\beta\ge\tan u$; tilted rings; the disk as a sphere of radius $2\ell/\sin\delta$ in an off-plane observer's chart — a placement in depth that leaves the sky unchanged.
-  - The theorem that one Euclidean space reproducing a curved leaf's light serves at most two observers, with the two-observer map; the cost of carrying a visual space, led by the parallax discrepancy; the Möbius relation between charts; and the stereographic radius as a conformal invariant.
-  - The factor $K = 1+(\rho/2\ell)^2$ between a stereographic visual space and every absolute distance indicator, an observable for gateway portraits.
+  - The theorem that one Euclidean space reproducing a curved leaf's light serves at most two observers, with the two-observer map; the cost of carrying a visual space, led by the parallax discrepancy; the Möbius relation between charts; and the stereographic radius read from a conformal invariant *[v35.8, R304]*.
+  - The factor $K = 1+(\rho/2\ell)^2$ between a stereographic visual space and the distances of candles, rulers and kinematics *[v35.8, R304]*, an observable for gateway portraits.
   - The étendue family of flux laws for a non-absorbing kernel, with the brightness bound $\kappa\le1$; the redshift's two factors.
   - The ring through the kernel, and the bounds from M31's Cepheids under stated premises.
 - *Premises and candidates [S].*
@@ -14780,14 +15468,392 @@ The kinematic test needs proper-motion rotation to a few per cent. The candle te
 - *Falsifiers.*
   - For a stereographic gateway: proper-motion rotation exceeding the Doppler rotation by $K(\rho) = 1+(\rho/2\ell_g)^2$; candle distances falling outward as $K^{-\kappa}$, which M31's Cepheids already bound for a lossless gateway under the premise of §XXXI.34(f).
   - As before: differential redshift across a galaxy beyond its internal Doppler pattern; the idealized solar images.
-- *Not claimed.* No derivation of the kernel, no physical immersion in one Euclidean space, and no change to the frozen dynamics.
+- *Not claimed.* No derivation of the kernel, no physical immersion in one Euclidean space by the leaf's own light *[v35.8, R301]*, and no change to the frozen dynamics.
+
+## XXXI.36 Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots, as formulated (15 October 2026) [record; R300]
+
+*After v35.7 the author sent three entries, a review of v35.7, two analyses and a request, and during the round a note on the plots. They are recorded here, and §§XXXI.37–41 answer them.*
+
+**The entries.**
+- **311 (12:25 PM).** "Ok so to be clear I wasn't actually assuming the round leaf has to reproduce the stereographic view in the first place! That's stupid, and imposed by you and Claude! What I was saying was how can we reconstruct how light behaves to PRODUCE the stereographic view! Also for the record I'm pretty sure tan(u) would then send the leaf equator to infinity, right??? That's no good!"
+- **312 (12:28 PM).** "Ok here's another thing though: suppose we want to take the leaf at face value and assume the gnomonic version IS, hypothetically, the actual case—then is there explicitly a way to determine some kind of radial density function for the galaxy on the 3-sphere leaf such that when we change coordinates to the gnomonic projection version, right, it appears to be an exponential function directly, or at least closely matches such from the galactic center up through some distance threshold before the equator, such that the asymptotic behavior isn't forced to match? Weirdly enough gnomonic could do the trick anyway I think, in that my goal with the stereographic view in the first place was to widely stretch out the equator so it appears to extend for a while longer than the angle on the leaf would have it (which therefore matches the darm matter halo v^2 function exactly, which apparently asymptotically hits the lower value which I in my model assign to the leaf equator)—so I suppose gnomic would do the trick even more thoroughly by literally making it asymptotic as opposed to merely stretching the equator point out enough to be out of view! So yeah this still may very well be entertainable—especially though because I'm noting how for some amount of matter density near the equator on the leaf, gnomonically projecting it out to infinity would basically thin it considerably anyway, which seems to match well with the 'apparent exponential/asymptotic falloff' of the gnomonic/visible view!"
+- **313 (12:39 PM).** "What I definitely would want to have Claude do therefore is explicitly take the v^2 produced by some kind of exponential falloff as deduced from projective gravity proper, which already is remarkably dark matter curve-like because of its hitting a flat minimum at the equator, and then put this in gnomonic coordinates essentially (so the equator part can become asymptotic)."
+
+**The review of v35.7.** It ran the suite (50 of 50) and called the round a meaningful advance:
+- *§XXXI.32 as the most consequential section.* Its region theorem is sound. The stronger "at most two observers" claim involves a uniqueness statement whose exhaustiveness should be proved explicitly.
+- *The gateway kernel.* It makes a sharp conditional prediction, $K(\rho) = 1+(\rho/2\ell_g)^2$, while postulating its outputs (K1–K4).
+- *The Cepheid bound.* It is kept as conditional. The next test should be a direct likelihood on PHAT's photometry, positions, periods, extinctions and selection. A diffusing transport with $\kappa<1$ must still keep images sharp, so $\kappa$ parametrizes redistribution, not a realized mechanism.
+- *Two wordings.* "Every absolute distance indicator returns $D_A$" should be softened, since timing distances probe the light's travel history. "The stereographic radius as a conformal invariant" should say that the ratio, not $\rho$ itself, is invariant.
+- *Next.* A joint fit of the proper-motion and spectroscopic rotation fields with the Cepheids, under conventional optics and the fixed kernel.
+
+**The response to Entry 311.**
+- *The correction accepted.* The earlier framing imposed the assumption that the leaf's own light must already look stereographic. The note's idea is the reverse: matter moves on the leaf, and light and its readout are to be derived so that observers see the stereographic space. The no-go results therefore establish only that unchanged leaf geodesic optics cannot give the all-view appearance.
+- *$\tan u$ at the equator.* Yes: the gnomonic radius $\ell\tan u$ sends the equator to infinity, while the stereographic radius keeps it at $2\ell$ and sends only the antipode to infinity. So, it concluded, "$\ell\tan u$ is not an acceptable replacement for your intended radial law" — a verdict that Entries 312–313 then turned around.
+- *The target, stated.* $\hat{\mathbf n}_{\rm seen}(A,P) = \widehat{F_C(P)-F_C(A)}$ for every observer, with $F_C$ the galaxy-centred stereographic map; then views from above and at a tilt follow from ordinary perspective.
+- *A toy realization.* An optical metric $-c^2dt^2+F_C^*\delta$, flat in the portrait, with matter on $-N^2c^2dt^2+\phi^4h_{S^3}$. Taken literally it changes light cones against matter, like the excluded lapse and medium, so it is a target for a deeper transport — through the two-history middle space — not PG's answer.
+- *A caveat.* One stereographic chart excludes the antipode, and the global topology must be handled.
+
+**The analysis of Entries 312–313.**
+- *Two properties of the gnomonic map.* It sends the equator to infinite radius, so a rotation curve approaching its equatorial value becomes asymptotic. It spreads a finite mass over an infinite coordinate volume.
+- *Densities.* In gnomonic radius the leaf's metric is $dR^2/(1+R^2/\ell^2)^2+R^2d\Omega^2/(1+R^2/\ell^2)$, so a mass-conserving pushforward divides the density by $(1+R^2/\ell^2)^2$. A density finite at the equator becomes an $R^{-4}$ tail of finite mass.
+- *Exponentials.* The leaf density $\varrho_0\sec^4u\,\exp[-(\ell/h)\tan u]$ pushes forward to exactly $\varrho_0e^{-R/h}$, monotone on the leaf when $h\le\ell/2$. Near $R = \ell$ the dilution factor is itself locally exponential with scale $\ell/2$, within about $6\%$ over $[0.5,1.5]\ell$. A thin disk has the area factor $(1+R^2/\ell^2)^{-3/2}$ and an $R^{-3}$ tail.
+- *Rotation curves.* $v_{\rm image}(R) = v_B(\arctan(R/\ell))\to v_{\rm eq}$, with the approach set by the leaf curve near the equator. As an example, $v^2R^2/(R^2+R_c^2)$ in the image is $v^2\ell^2\sin^2u/(\ell^2\sin^2u+R_c^2\cos^2u)$ on the leaf.
+- *Cautions.* A density pushforward is not photometric dimming. The chart covers one hemisphere, so a galaxy seen as a small patch of sky must fade before the divergent region, and the round leaf's angular-diameter cap "isn't removed merely by choosing an unbounded coordinate". A changed density is a changed gravitational source.
+
+**The request.** Use PG's actual solved curve, not a new law:
+- *The source.* The twin-symmetrized source $\rho_0\exp[-(\ell/r_d)\tan(\chi/2)]$ with the rigid closure's first-order equations (§§XXV.2–5). Reproduce the benchmarks, then read the same speeds at $R = \ell\tan\chi$.
+- *The comparison.* Compare arc length, areal, stereographic and gnomonic radii, for $r_d/\ell = 0.1$ and then $0.01$, $0.05$, $0.2$ and $0.3$, with plots of $v$ and $v^2$.
+- *The asymptotics.* Derive $v^2 = v_{\rm eq}^2+A/R^2+O(R^{-4})$ with $A$ from PG's solution, its sign not assumed, and the radii where $v$ reaches $90$, $95$, $99$ and $99.5\%$ of $v_{\rm eq}$.
+- *The distinctions.* Keep the source density, its pushforward and the surface brightness apart, and state that the gnomonic curve is a coordinate reading.
+- *An analytic check.* $v^2/(GM/\ell) = \csc\chi+2\sin\chi$ becomes $(1+3t^2)/(t\sqrt{1+t^2})\to3-\ell^2/(2R^2)$, with $t = R/\ell$.
+- *A terminology correction.* For compact sources the local minimum is near $\chi = \pi/4$; the equator is the plateau's endpoint, approached from below.
+
+**The note on the plots (during the round).** "Note that to get the best plots, you should make the exponential falloff for the mass density much sharper!"
+
+## XXXI.37 Entry 311's question: what light law produces the stereographic view [T/V/D; R301] *(`v35_8_inverse_optics()`)*
+
+**(a) What v35.7 tested [D; correction].** §§XXXI.31–32 tested the leaf's own light: whether its geodesics, read by perspective, give the stereographic view from above and at a tilt, and whether one Euclidean space serves every observer. The author did not assume that. The note's question is the converse: what law of light would produce the view while matter moves on the leaf. §§XXXI.31(e), XXXI.32(a), XXXI.33(b) and XXXI.35 are re-scoped in place to the leaf's own light (R301).
+
+**(b) $\tan u$ at the equator [T].** The author is right. With the centre's angular-diameter distance the leaf's own light gives the gnomonic radius $\ell\tan u$, which is infinite at the equator, while the stereographic target keeps the equator at $2\ell$ and sends only the antipode to infinity. §§XXXI.38–39 take up Entries 312–313, which turn this divergence into the feature they want.
+
+**(c) The metric answer [T/V].** Suppose light reaches every observer of a region along the portrait's straight lines, with light cones round — isotropic — against matter's rulers. Then its Fermat metric is conformal to the portrait's flat metric and keeps its straight lines. By the lemma of §XXXI.32(a) — a conformal change that keeps geodesics has a constant factor — it is a constant multiple of the flat portrait metric: unique up to a constant factor. Isotropy is essential, since anisotropic metrics of Beltrami's type also have every portrait line as a geodesic. Against the leaf's own rulers the answer is $\sec^4(u/2)$ times the round metric: a factor $\Omega = \sec^2(u/2)$ that the matter side must absorb. At the Sun's $u = 8/16$:
+- *In matter's clocks,* a lapse $N\propto\Omega^{-1} = \cos^2(u/2)$, largest at the centre: seen from the Sun, the Galactic Centre's light arrives blueshifted, $1+z = \cos^2(1/4) = 0.9388$ ($cz = -18{,}350$ km/s), and the Sun's light seen from the centre is redshifted by $z = 0.0652$.
+- *In light's speed,* an index $n\propto\Omega$ set to $1$ at the Sun: $n = 0.9388$ at the centre, where light outruns matter's limiting speed, and $n = 1.0286$ and $1.2190$ at $9.6$ and $16$ kpc, where charged particles above Lorentz factors $4.27$ and $1.75$ radiate by vacuum Cherenkov emission.
+- *In matter's rulers,* flat in the portrait: then the galaxy's own geometry is flat, not the leaf.
+
+Any mix fails too. The Fermat metric is $n^2h/N^2$, so rulers $\Omega^{2a}g$ need $n/N = \Omega^{1-a}$. A varying index is excluded by vacuum Cherenkov emission or by light outrunning matter. A varying lapse — §XXXI.27(d)'s split, $N = \Omega^{a-1}$ — shifts the centre's light at the Sun by $cz\approx-18{,}936(1-a)$ km/s, so a bound of a few hundred km/s ($300$ km/s: $1-a<0.016$) leaves the rulers flat in the portrait to about $2\%$: not the leaf. The lapse and the medium are those excluded in §§XXXI.4(b)–(c) and XXXI.27(d): Galactic Centre gas and stars show line-of-sight velocities within a few hundred km/s, and vacuum Cherenkov emission is excluded along cosmic-ray paths. (§XXXI.4(b)'s lapse is centred on the observer and gives the opposite sign.) So no local, static, isotropic light law produces the stereographic view on the leaf. The response's toy optical metric is the second case.
+
+**(d) What is left [D/O].** The law the note asks for must act at the level of histories — a transport that is not a local field of index or lapse — such as the gateway class of §XXXI.34(d), whose derivation from the two-history structure is open. It must keep local physics: light cones agreeing with matter's to laboratory precision near every observer, and ordinary lensing from matter. The single chart's excluded antipode must be handled by the history structure. This is the program's first item (§XXXI.41).
+
+## XXXI.38 PG's rotation curve read in gnomonic radius (Entries 312–313; the request; the note on the plots) [T/V/D; R302] *(`v35_8_gnomonic_rotation_curve()`; plots: `pg_v35_8_gnomonic_plots.py`)*
+
+**(a) The point source [T].** Part XXV.2's benchmark is $v^2/(\mu c^2) = \csc\chi+2\sin\chi$. With $R = \ell\tan\chi$ and $t = R/\ell$ it reads
+$$\frac{v^2}{\mu c^2} = \frac{1+3t^2}{t\sqrt{1+t^2}} = 3-\frac1{2t^2}+O(t^{-4})$$
+(residual $4\times10^{-16}$). The equatorial value $3\mu c^2$ is approached from below at infinite $R$, and the dip at $\chi = \pi/4$ sits at $R = \ell$. As the request corrects, the equator is the plateau's endpoint, not a minimum.
+
+**(b) The exponential source, reproduced [V].** The twin-symmetrized source of §XXV.3 is solved with the rigid closure's first-order equations of §XXV.4: $\mu = GM/(c^2\ell) = 1.795\times10^{-7}$ at $\ell = 16$ kpc and $M = 6\times10^{10}M_\odot$. The solution reproduces §XXV.5:
+
+| $r_d/\ell$ | $v_{\rm eq}^2/(\mu c^2)$ | $v_{\rm eq}$ (km/s) |
+|:--|:--|:--|
+| $0.01$ | $2.9929$ | $219.7$ |
+| $0.05$ | $2.8487$ | $214.4$ |
+| $0.10$ | $2.5566$ | $203.1$ |
+| $0.20$ | $1.8585$ | $173.1$ |
+| $0.30$ | $1.2394$ | $141.4$ |
+
+The $r_d/\ell = 0.2$ curve gives $53.8$, $108.0$, $149.5$, $169.2$ and $173.1$ km/s at areal $R/\ell = 0.2$, $0.48$, $0.78$, $0.96$ and $1$. Here $r_d$ is §XXV.3's stereographic parameter, the e-folding scale in Part XXV's stereographic radius $\ell\tan(\chi/2)$, which is half of Part XXXI's $\rho$; the physical e-folding scale is $2r_d$.
+
+**(c) One physical curve in four radii [V].** For $r_d/\ell = 0.1$, in kpc, with speeds in km/s:
+
+| $\chi$ | arc $\ell\chi$ | areal $\ell\sin\chi$ | stereographic $2\ell\tan(\chi/2)$ | gnomonic $\ell\tan\chi$ | $v$ |
+|:--|:--|:--|:--|:--|:--|
+| $0.1$ | $1.60$ | $1.60$ | $1.60$ | $1.61$ | $58.2$ |
+| $0.3$ | $4.80$ | $4.73$ | $4.84$ | $4.95$ | $128.3$ |
+| $0.6$ | $9.60$ | $9.03$ | $9.90$ | $10.95$ | $174.4$ |
+| $0.9$ | $14.40$ | $12.53$ | $15.46$ | $20.16$ | $192.2$ |
+| $1.2$ | $19.20$ | $14.91$ | $21.89$ | $41.15$ | $200.1$ |
+| $1.4$ | $22.40$ | $15.77$ | $26.95$ | $92.77$ | $202.4$ |
+| $1.5$ | $24.00$ | $15.96$ | $29.81$ | $225.62$ | $203.0$ |
+| $\pi/2$ | $25.13$ | $16.00$ | $32.00$ | $\infty$ | $203.1$ |
+
+On the near hemisphere the arc-length reading reaches the equator at $\pi\ell/2 = 25.13$ kpc and the areal reading at $\ell = 16$ kpc. There the areal radius stops growing, so the curve arrives still rising, at $dv/dR = -a_2/(\ell v_{\rm eq}) = 2.67$ km/s per kpc ((d) below). The stereographic radius passes the equator at $2\ell = 32$ kpc and continues into the far hemisphere. The gnomonic radius reaches the equator only at infinity.
+
+*The far hemisphere.* Past the equator the stereographic reading shows the far hemisphere, which in the benchmark has no luminous readout. There $v^2$ mirrors the near side, $v(\rho) = v(4\ell^2/\rho)$. At $\rho = 40$, $60$, $80$ and $100$ kpc, $v/v_{\rm eq}$ is $0.995$, $0.960$, $0.915$ and $0.867$ for $r_d/\ell = 0.1$, and $0.996$, $0.977$, $0.971$ and $0.980$ for $r_d/\ell = 0.02$. The sharp curve stays within $3\%$ of $v_{\rm eq}$ from $\rho = 7.24$ to $141.5$ kpc, then rises toward the twin's mirrored peak (§XXX.12). The arc-length reading likewise continues, to the twin's centre at $\pi\ell = 50.27$ kpc. So within about $140$ kpc a sharp source's stereographic reading is nearly as flat as its gnomonic one; only the gnomonic reading is flat to infinite radius.
+
+On the near hemisphere, where each reading reaches a fraction $f$ of $v_{\rm eq}$, after which $v$ stays above it:
+
+| $f$ | $\chi$ | arc (equator at $25.13$) | areal (equator at $16$) | stereographic (equator at $32$) | gnomonic (equator at infinity) |
+|:--|:--|:--|:--|:--|:--|
+| $0.90$ | $0.7099$ | $11.36$ | $10.43$ | $11.86$ | $13.8$ |
+| $0.95$ | $0.9189$ | $14.70$ | $12.72$ | $15.83$ | $21.0$ |
+| $0.99$ | $1.2651$ | $20.24$ | $15.26$ | $23.46$ | $50.7$ |
+| $0.995$ | $1.3537$ | $21.66$ | $15.62$ | $25.71$ | $72.5$ |
+
+**(d) The approach to the plateau [T/V].** The source is twin-symmetric, so $v^2$ is even about the equator: $v^2 = v_{\rm eq}^2+a_2(\pi/2-\chi)^2+\dots$. From $v^2 = -2\tan\chi\,\psi'\mu c^2$ and the field equation $\psi''+2\cot\chi\,\psi'+3\psi = -2\pi\rho_{\rm eff}$ at the equator,
+$$a_2 = -\frac{v_{\rm eq}^2}6-\frac{2\pi}3\rho_{\rm eff}''(\pi/2)\,\mu c^2,$$
+and with $\pi/2-\chi = \arctan(\ell/R)$,
+$$v^2(R) = v_{\rm eq}^2+\frac A{R^2}+O(R^{-4}),\qquad A = a_2\ell^2.$$
+Here $m = 4\pi\int_0^\pi e^{-(\ell/r_d)\tan(\chi/2)}\sin^2\chi\,d\chi$ is the source's normalization. Fits to the solved curves agree with the closed form to $6\times10^{-6}$. In gnomonic kpc:
+
+| $r_d/\ell$ | $v_{\rm eq}$ (km/s) | $a_2$ ((km/s)$^2$) | $A/(v_{\rm eq}^2\ell^2)$ | $R_{90}$ | $R_{95}$ | $R_{99}$ | $R_{99.5}$ |
+|:--|:--|:--|:--|:--|:--|:--|:--|
+| $0.01$ | $219.7$ | $-8045.3$ | $-0.1667$ | $0.22$ | $0.24$ | $42.5$ | $62.8$ |
+| $0.05$ | $214.4$ | $-7660.1$ | $-0.1667$ | $4.3$ | $5.8$ | $42.6$ | $62.9$ |
+| $0.10$ | $203.1$ | $-8676.2$ | $-0.2104$ | $13.8$ | $21.0$ | $50.7$ | $72.5$ |
+| $0.20$ | $173.1$ | $-16835.5$ | $-0.5616$ | $24.2$ | $36.1$ | $84.0$ | $119.3$ |
+| $0.30$ | $141.4$ | $-14648.4$ | $-0.7328$ | $27.9$ | $41.4$ | $96.0$ | $136.4$ |
+
+$A<0$ in every case: the plateau is approached from below, as $-\lvert A\rvert/R^2$. It is so for every $r_d/\ell<1$, since $\rho_{\rm eff}''(\pi/2) = 2e^{-\ell/r_d}[(\ell/r_d)^2-\ell/r_d]/m>0$ makes both terms of $a_2$ negative. For compact sources $a_2\to-v_{\rm eq}^2/6$, the point source's $-1/2$ of $3$. For $r_d/\ell = 0.01$ the $90$ and $95\%$ radii lie on the central rise: the curve rises to a peak of $398$ km/s at $R = 1.1$ kpc, then falls — as Kepler's at first — to a dip of $0.971\,v_{\rm eq}$ at $R = \ell$ ($\chi = \pi/4$), never below $95\%$. It stays within $3\%$ of $v_{\rm eq}$ beyond $R = 7.64$ kpc.
+
+**(e) A Newtonian reading [V/D].** Read with Newtonian dynamics in a flat space of radius $R$, the $r_d/\ell = 0.1$ curve implies $M(<R) = Rv^2/G$, growing linearly as an isothermal halo's would. That is $1.1$, $2.9$, $4.5$, $7.8$ and $15.9$ times the leaf's gravitating mass of $6\times10^{10}M_\odot$ at $R = 10$, $20$, $30$, $50$ and $100$ kpc. The galaxy's own matter is all on the leaf: $64.8\%$ of it inside $R = 10$ kpc and $99.4\%$ inside $50$ kpc.
+
+**(f) Sharper sources (the note on the plots) [V].** The sharper the source, the closer its curve comes to the point source's, onto which it settles beyond a few kpc. Sharper sources do not enter the bands sooner — their inner peaks overshoot — but they all settle onto one curve. In gnomonic kpc, with the radii beyond which $v$ stays within $10$, $5$, $3$ and $1\%$ of $v_{\rm eq}$:
+
+| $r_d/\ell$ | $2r_d$ (kpc) | $v_{\rm eq}$ (km/s) | first maximum (km/s, at kpc) | then the dip ($v/v_{\rm eq}$, at kpc) | $10\%$ | $5\%$ | $3\%$ | $1\%$ |
+|:--|:--|:--|:--|:--|:--|:--|:--|:--|
+| $0.002$ | $0.06$ | $220.0$ | $885.1$, $0.22$ | $0.9710$, $16.00$ | $5.76$ | $6.95$ | $7.64$ | $42.51$ |
+| $0.005$ | $0.16$ | $219.9$ | $560.6$, $0.54$ | $0.9710$, $16.00$ | $5.76$ | $6.95$ | $7.64$ | $42.51$ |
+| $0.01$ | $0.32$ | $219.7$ | $398.4$, $1.10$ | $0.9710$, $16.00$ | $5.76$ | $6.95$ | $7.64$ | $42.51$ |
+| $0.02$ | $0.64$ | $218.9$ | $287.3$, $2.28$ | $0.9710$, $16.00$ | $5.69$ | $6.92$ | $7.63$ | $42.51$ |
+| $0.03$ | $0.96$ | $217.7$ | $242.3$, $3.69$ | $0.9710$, $15.97$ | $4.61$ | $6.46$ | $7.30$ | $42.51$ |
+| $0.05$ | $1.60$ | $214.4$ | $207.8$, $9.12$ | $0.9675$, $13.19$ | $4.29$ | $5.82$ | $17.51$ | $42.55$ |
+| point source | $0$ | $220.0$ | — | $0.9710$, $16$ | $5.76$ | $6.95$ | $7.64$ | $42.51$ |
+
+- *The settled shape is universal.* Every source with $r_d/\ell\le0.02$ dips to the point source's $\sqrt{2\sqrt2/3} = 0.9710$ of $v_{\rm eq}$ at $R = \ell$, and its radii converge to the point source's. Beyond $7.64$ kpc it stays within $3\%$ of $v_{\rm eq}$ to infinite radius.
+- *Inside,* the sharper source has the higher Kepler peak, as any compact mass would.
+- *A Newtonian reading.* The $r_d/\ell = 0.02$ curve implies $M(<R) = Rv^2/G = 1.8$, $3.5$, $9.1$ and $18.5$ times the leaf's mass at $R = 10$, $20$, $50$ and $100$ kpc, while $60.7\%$ of its matter lies inside $R = 2$ kpc and $98.3\%$ inside $5$ kpc.
+- *The plateau holds essentially none of the source.* Its density, relative to the centre's, is $6\times10^{-7}$, $4\times10^{-11}$ and $1\times10^{-16}$ at $R = 10$, $20$ and $50$ kpc. The flat part would be traced by matter of negligible mass, as HI traces real rotation curves beyond the stars.
+
+The figures of `pg_v35_8_gnomonic_plots.py` therefore lead with $r_d/\ell = 0.02$.
+- `pg_v35_8_four_radii.png` shows one curve in the four readings, with the far hemisphere dashed in the stereographic reading, and the requested $r_d/\ell = 0.1$ below it.
+- `pg_v35_8_four_radii_family.png` does the same for $r_d/\ell = 0.01$, $0.05$, $0.2$ and $0.3$.
+- `pg_v35_8_gnomonic_family.png` shows the family from $0.005$ to $0.3$ in gnomonic radius, with the approach $-A/(v_{\rm eq}^2\ell^2)$, which tends to $1/6$ for compact sources.
+- `pg_v35_8_mass_discrepancy.png` shows the Newtonian curve of the leaf's own mass falling away under the flat PG curve.
+
+**(g) The answer to the request [D].** PG's already-solved curves become asymptotically flat to infinite radius under the gnomonic reading, without dark matter and without any change to the dynamics. How convincing the profile is depends on the source:
+- *Sharp sources* ($r_d/\ell\le0.02$, physical scales up to $0.64$ kpc on a $16$ kpc leaf) settle onto the point source's curve: within $5\%$ of the plateau beyond $7$ kpc and within $3\%$ beyond $7.64$ kpc, to infinite radius. They do so after an inner Kepler peak of $1.3$ to $4$ times $v_{\rm eq}$, unlike most disk galaxies.
+- *Moderate sources* ($0.03$–$0.05$, scales of $1$–$1.6$ kpc) look most like observed curves. $r_d/\ell = 0.03$ peaks at $1.11\,v_{\rm eq}$ at $3.7$ kpc and stays within $5\%$ beyond $6.5$ kpc; $0.05$ rises without overshoot and stays within $5\%$ beyond $5.8$ kpc.
+- *The benchmark* ($0.1$, $3.2$ kpc) rises slowly and is within $5\%$ only beyond $21$ kpc. *Extended sources* ($0.2$–$0.3$) reach $90\%$ at $24$–$28$ kpc.
+- *All* are within $1\%$ beyond $42$–$51$ kpc ($r_d/\ell\le0.1$) or $84$–$96$ kpc ($0.2$–$0.3$).
+- *Against the other readings.* The same physical curve reaches its equatorial value at $16$, $25$ or $32$ kpc in the areal, arc and stereographic readings. Past the equator the stereographic reading shows the far hemisphere's mirrored curve: for sharp sources nearly as flat as the gnomonic one out to about $140$ kpc, for the benchmark falling to $0.87\,v_{\rm eq}$ at $100$ kpc. Only the gnomonic reading is flat to infinite radius.
+- *What traces the plateau.* The model galaxy has essentially no matter there, so the plateau would be traced by matter of negligible mass, as in real galaxies.
+
+At this stage the gnomonic curve is a coordinate reading of the PG solution. §XXXI.39 asks which observer would infer it and what else that observer would see.
+
+## XXXI.39 What the gnomonic reading carries with it [T/V/D; R303] *(`v35_8_gnomonic_reading()`)*
+
+**(a) The analysis's formulas, checked [T/V].**
+- *Jacobians.* The volume element in gnomonic radius is $R^2dR/(1+R^2/\ell^2)^2$ and the area element on a great 2-sphere $R\,dR/(1+R^2/\ell^2)^{3/2}$, to $10^{-16}$.
+- *The inverse exponential.* $\sec^4u\,\exp[-(\ell/h)\tan u]$ pushes forward to exactly $e^{-R/h}$. At $\ell = 16$ and $h = 3.2$ kpc, the leaf and image densities at $R = 0$, $4$, $8$, $16$, $24$ and $32$ kpc are $1$, $0.3234$, $0.1283$, $0.02695$, $0.005842$, $0.001135$ and $1$, $0.2865$, $0.08208$, $0.006738$, $0.0005531$, $4.54\times10^{-5}$, as the analysis tabulated. The leaf density is monotone exactly when $h\le\ell/2$.
+- *The local exponential.* The factor $(1+R^2/\ell^2)^{-2}$ has logarithmic slope $-2/\ell$ and zero logarithmic curvature at $R = \ell$, so near $R = \ell$ it is an exponential of scale $\ell/2$, within $5.8\%$ over $[0.5,1.5]\ell$.
+- *The example curve.* It maps as the analysis stated, to $2\times10^{-16}$.
+
+**(b) A pushforward is not photometry [T/D].** The leaf's own light is lossless and conserves surface brightness (§XXXI.34(a), $\kappa = 1$). So a telescope sees each image point at its emitted surface brightness, not at the thinned density of a mass pushforward. The $R^{-4}$ and $R^{-3}$ tails describe where the mass is assigned, not how bright it looks.
+
+**(c) Where gnomonic radii come from, and their price [T/V].** An observer on the galaxy's own leaf who calibrates by the centre's angular-diameter distance reads every ring at $\ell\tan u$ (§§XXXI.27(a), XXXI.31(b)). For that observer the leaf's own light gives the gnomonic reading, with no new optics — unlike the stereographic reading. But the map is projective, not conformal. Compare a small round feature at angle $u$, seen face-on from angle $D$, with a flat disk at $\ell\tan u$ seen from height $\ell\sin D$, by the radial-to-transverse ratios of their sky images:
+
+| $D$ | $u$ | leaf's light | flat disk | ratio | $\sec u$ |
+|:--|:--|:--|:--|:--|:--|
+| $0.5$ | $0.3$ | $0.879557$ | $0.840273$ | $1.0468$ | $1.0468$ |
+| $0.5$ | $0.6$ | $0.695338$ | $0.573888$ | $1.2116$ | $1.2116$ |
+| $0.5$ | $1.0$ | $0.544530$ | $0.294211$ | $1.8508$ | $1.8508$ |
+| $1.0$ | $0.6$ | $0.940120$ | $0.775915$ | $1.2116$ | $1.2116$ |
+| $\pi/2$ | $0.6$ | $1.000000$ | $0.825336$ | $1.2116$ | $1.2116$ |
+| $\pi/2$ | $1.3$ | $1.000000$ | $0.267499$ | $3.7383$ | $3.7383$ |
+
+In the flat reconstruction a round feature at angle $u$, seen face-on from any height, therefore appears radially stretched by $\sec u$: $1.21$ at $u = 0.6$, $1.85$ at $u = 1$. (Tilted views differ in shape at large radii, §XXXI.31(c).) Outer star-forming regions and arm segments would look radially elongated, and spiral pitch angles would steepen outward.
+
+**(d) Proper motions [T].** Azimuthal motion moves the image by $\ell\tan u$ per radian of azimuth, against the star's $\ell\sin u$. So in the gnomonic reading, proper-motion rotation runs $\sec u = \sqrt{1+R^2/\ell^2}$ times the Doppler rotation: $1.047$, $1.212$, $1.609$ and $2.760$ at $R = 4.9$, $10.9$, $20.2$ and $41.2$ kpc. The stereographic factors at the same points are $1.023$, $1.096$, $1.233$ and $1.468$ (§XXXI.33).
+
+**(e) Which galaxies this applies to [D/O].**
+- *An observer on the galaxy's own leaf* — the vantage of §§XXXI.27 and XXXI.31 — reads the gnomonic radius directly.
+- *A distant galaxy* seen small through a gateway would need a gnomonic version of K1 (§XXXI.34(d)). Its predictions differ from the stereographic kernel's: the proper-motion factor is $\sec u$ azimuthally and $\sec^2u$ radially, shapes stretch by $\sec u$, and M31's Cepheid bound must be redone.
+- *Our own Galaxy, seen from inside,* has galactocentric radii that depend on which distances are used; that reading is not computed here.
+
+## XXXI.40 Repairs from the review of v35.7 [T/V/D; R304] *(`v35_8_inverse_optics()`)*
+
+**(a) Distance indicators.** "Every absolute distance indicator returns $D_A$" is narrowed in place. Standard candles, standard rulers and calibrated kinematic distances return $D_A$; parallax returns $D_{\rm par}$; timing — the light-travel time — returns the path length $s$; none returns $\rho$ (§§XXXI.21(e), XXXI.22(d), XXXI.33(b), XXXI.35; the status table; the manuscript; print v35.7-3).
+
+**(b) The invariant.** "The stereographic radius as a conformal invariant" becomes "read from a conformal invariant". $\rho$ itself is not Möbius-invariant; the ratio of distances to the centre and to the twin point is invariant up to one factor per galaxy and observer (§§XXXI.32(c), XXXI.35; the status table; prints v35.7-2).
+
+**(c) The two-observer map is the only one [T/V].** The review asked for exhaustiveness. Two calibrated views of points off a critical surface — which an open region of sources is — fix a reconstruction up to similarity: the theorem of calibrated two-view reconstruction (Longuet-Higgins 1981; Hartley and Zisserman 2004). Here, from the two observers' skies alone — $40$ sources, $b = 4$ kpc — the $40\times9$ epipolar system has a one-dimensional null space (smallest singular values $8\times10^{-17}$ and $0.443$ of the largest), so the essential matrix is unique, and its singular values ($1$, $1$, $2\times10^{-18}$) make it a valid one. It gives the relative pose, and triangulation gives every source's position. After one similarity this reconstruction is the two-observer map $F$ of §XXXI.32(a) to $9\times10^{-16}$, and the second observer's position matches to $6\times10^{-16}$. So any Euclidean space reproducing both skies is $F$, up to similarity. $F$ is conformal only at the two observers, so a third observer's sky fails. The theorem's "at most two" holds.
+
+**(d) $\kappa<1$.** A diffusing transport must keep images sharp, so $\kappa$ parametrizes redistribution, not a realized mechanism (§XXXI.34(a)).
+
+**(e) The next tests.** These are added to the program: a direct likelihood on PHAT's Cepheid photometry, positions, periods, extinctions and selection, in place of a fit to a derived radial trend; and a joint fit of a resolved galaxy's proper-motion and spectroscopic rotation fields with its Cepheids, under conventional optics and under a fixed kernel.
+
+## XXXI.41 Standing [S/O; R305]
+
+- *Established [T/V].*
+  - The inverse question's metric answer, for an isotropic law: a flat Fermat geometry, unique up to a constant factor, whose fits to matter (lapse, index, flat rulers, or any mix) fail on the leaf.
+  - The two-observer map's uniqueness.
+  - PG's solved curves read in gnomonic radius, with $v^2 = v_{\rm eq}^2+A/R^2$, $A = a_2\ell^2<0$, and $a_2$ in closed form; sharp sources settle onto the point source's curve, within $3\%$ of $v_{\rm eq}$ beyond $7.64$ kpc.
+  - The density formulas; the $\sec u$ stretch of face-on shapes and of proper-motion rotation in the gnomonic reading.
+- *Premises [S].* As in §XXXI.35, with the gnomonic reading added as a candidate alongside the stereographic one.
+- *Program.*
+  1. A history-level light law that produces the stereographic — or the gnomonic — view, with local light cones agreeing with matter's and ordinary lensing.
+  2. Which reading a real observer makes: the distances used for our own Galaxy's rotation curve, and a gnomonic gateway kernel for distant galaxies.
+  3. The morphological test of the gnomonic reading: radial stretching by $\sec u$ in face-on disks (or after modelling the tilt) and outward-steepening pitch angles.
+  4. The kinematic tests: proper-motion against Doppler rotation, $\sec u$ (gnomonic) or $\sec^2(u/2)$ (stereographic).
+  5. PHAT's Cepheids as a direct likelihood; the joint fit of rotation fields and Cepheids.
+  6. As before: the gateway kernel from PG's history classes, the event clock, a conserving radiative model, the cap's choice, the Galactic Centre likelihood.
+  7. The author's note on orbits that cross into the twin hemisphere, with its analysis, received as this round closed: held for v36, at the author's suggestion.
+- *Falsifiers.* For the gnomonic reading: outer features of face-on disks (or after modelling the tilt) not radially stretched by $\sec u$; proper-motion rotation not $\sec u$ times the Doppler rotation. For the stereographic gateway, as in §XXXI.35.
+- *Not claimed.* No optics that makes observers infer gnomonic radii for distant galaxies; no change to PG's dynamics or to the frozen Parts.
 
 ---
 
-## Round record: the version summaries, v16 to v35.7 (moved from the head of the archive in v34.9, R190)
+# PART XXXII — REFLECTRONS: FEYNMAN DIAGRAMS AS THE JOINT RESIDUE OF PAIRED HISTORIES (v35.8; the author's note of 15 October) [T/V/D/S/O]
 
-*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+*This part opens in v35.8. It takes up the author's note on reflectrons, with its analysis. It stands beside Part XXX on the quantum side. It belongs to the centrade–centron program of the frozen §XXIX.0, where Feynman vertices are candidate centrade manifestations and propagators candidate centron manifestations, and it changes nothing there. The numbers come from `pg_v35_numerics.py` (§XXX.10), round v35.8. §XXXII.1 records the inputs, §XXXII.2 makes the hypothesis precise, §§XXXII.3–6 test it, and §XXXII.7 gives the standing.*
 
+## XXXII.1 The author's note on reflectrons and its analysis, as formulated (15 October 2026) [record; R293]
+
+**The note.** "Also by the way another topic of interest comes from this idea I came up with about a year ago, being that maybe we can interpret Feynman diagrams as basically the 'jointness residue' so to speak of two 'reflectron worldlines', basically! That is, the idea is that maybe the choice of where specifically you get vertices is correspondent specifically to the choice of how you conventionally associate the vertices along one reflectron worldline with the vertices along the other, altogether such that maybe you can get multiplicity of different Feynman diagrams in the first place by means of there being 'no single one' of such a matching, so you try every possible matching scheme—just crucially with the 'determinate nodes' at the ends at which measurement occurs, (again as usual where we coutnerfactually index spacetime by each exact measurement outcome, so mixed quantum states are always cross-counterfactual spacetimes while pure quantum states, with the endpoints fixed, are single-spacetime), as a kind of determinate node-abstraction boundary case, but 'in between' you get more options, (that is, however maybe the endpoint determinate nodes are themselves some kind of conventional association—just a less flexible one in some way as opposed to the interior setup!)."
+
+"So yeah altogether I suppose I would phrase my idea how if we call each particular structure of the bi-structure combo that is a term in the Born rule expansion a 'centron', right, then it seems as though we can decompose even a centron into two 'reflectrons' (for lack of a better name at the moment) so altogether it's basically as if we have four reflectrons and some to-be-determined conventional but non-fundamental (in the sense of anything else based on the conventional rendering of Boltzmannian space stuff) choice of which two reflectrons 'group into a centron', thereby implying that in the fundamental case perhaps we could interpret a different choice of grouping the four reflectrons into two centrons as the two centrons associating by the Born rule while the two reflectrons inside of them form a Feynman diagram or something! So yeah kind of fascinating I think lol! Thanks!"
+
+**The figures.** The note gives three figures as TikZ code; they are recorded here by their content, with the captions in the author's words.
+- *Two diagrams.* A one-loop diagram: a fermion line from $i_1$ through $a_1$, $c$ and $a_2$ to $i_2$, a photon from $c$ to an external point, and an internal photon between $a_1$ and $a_2$. A two-loop diagram: a fermion line $i_1$, $a_1$, mid, $b$, $c$, $a_2$, $i_2$, the external photon at $c$, and internal photons $a_1$–$b$ and mid–$a_2$. Caption: "Two example Feynman diagrams, for reference in overlaying the proposed reflectron worldlines. On the left is a one-loop Feynman diagram, and on the right is a two-loop Feynman diagram."
+- *The one-loop overlay.* A red worldline runs out → $c$ → $a_1$ → $a_2$ → $i_2$, a blue one $i_1$ → $a_1$ → $a_2$ → $c$ → out. Caption: "Example 1-loop Feynman diagram with exchanged reflectrons included. Note that in this case, blue and red are meant to stand for distinct reflectron worldlines in empirical spacetime to a single centron, rather than referring to the red or blue channels out from a single centrade, (which, by contrast, would have to alternate upon intersecting each centrade)."
+- *The two-loop overlay.* Red runs out → $c$ → $b$ → $a_1$ → mid → $a_2$ → $i_2$, blue $i_1$ → $a_1$ → $b$ → mid → $a_2$ → $c$ → out. Caption: "Example 2-loop Feynman diagram with exchanged reflectrons included. Once again, note that blue and red here stand for separate reflectron worldlines in active space."
+
+**Its analysis.**
+- *The reading.* A Feynman diagram as the residual incidence structure left when more fundamental histories are joined in one admissible way, so that different admissible joinings give different graphs with the measured external process fixed: "a possible origin for the diagrammatic multiplicity itself". Provisional terms: a reflectron is a primitive history, a centron a coherent association of two reflectrons, and a centrade-like event an admissible joining.
+- *Four reflectrons and Wick's theorem.* The Born rule's doubling $P_f = \mathcal A_f\mathcal A_f^*$, with two reflectrons on each side, gives four. Their three pairings, $(12)(34)$, $(13)(24)$ and $(14)(23)$, match the free four-point function $\langle\phi_1\phi_2\phi_3\phi_4\rangle_0 = G_{12}G_{34}+G_{13}G_{24}+G_{14}G_{23}$: "an actual structural parallel, not merely a visual resemblance", though not yet an identification.
+- *The figures' loop counts.* $L = I-V+1$ gives $(I,V,L) = (3,3,1)$ and $(6,5,2)$.
+- *The closest established physics.* Wick contractions and the worldline formulation of quantum field theory. The conjecture reverses the usual order — primitive histories, then admissible matchings, then effective interaction graphs, then amplitudes — and fits §XXIX.0's division of roles.
+- *Determinate nodes.* Fixed boundary data with variable interior associations. It keeps the guardrail of §XXIX.0: entanglement-induced mixedness must be distinguished from the author's counterfactual mixtures. It welcomes the suggestion that the endpoints are themselves associations, only more constrained, which "would make determinacy a limiting property of relational structure".
+- *Redescription against distinct contribution.* A regrouping that is a mere relabeling must not count as a new contribution; distinct matchings need a physical or algebraic difference. In standard theory the symmetry factors $1/\lvert{\rm Aut}\,\Gamma\rvert$ settle this, and the matching calculus would need its own mechanism.
+- *A target, not a law.* $\mathcal A_{fi} = \sum_{[m]\in\mathfrak M/\sim}W([m];i,f)$, with $W$ supplying propagators, couplings, fermionic signs, integrations and symmetry factors.
+- *A demanding check.* The Ward–Takahashi identity $q_\mu\Gamma^\mu(p+q,p) = S^{-1}(p+q)-S^{-1}(p)$. A matching law that produced the diagrams but needed QED's weights inserted by hand "would remain a suggestive reinterpretation rather than a derivation".
+- *The four-reflectron architecture.* Four reflectrons, two composite centrons, the amplitude–conjugate pairing, and the measured probability, beside the Schwinger–Keldysh doubling. The question: "Can the difference between two admissible decompositions of the same four-reflectron structure generate the same graph incidence and loop expansion as ordinary perturbative field theory?"
+- *Assessment.* Keep the idea as the *Reflectron Matching Hypothesis*. Test it modestly: first "derive the three Wick pairings of a four-point scalar correlator from four reflectrons, with the correct signs and no overcounting", then the one-loop QED vertex of the first figure, and only then two loops.
+
+## XXXII.2 The hypothesis made precise [D; R294]
+
+**(a) Two worldlines and a matching.** Take the QED vertex: an incoming fermion $i$, an outgoing fermion $f$ and a photon $g$ are the determinate nodes.
+- Reflectron $B$ runs from $i$ to $g$ through interior points $b_1,\dots,b_n$, in order. Reflectron $R$ runs from $g$ to $f$ through $r_1,\dots,r_n$.
+- A *matching* $\sigma$ identifies $b_k$ with $r_{\sigma(k)}$; the identified points are the vertices.
+- A segment both reflectrons traverse is *joint* and is read as a boson (photon) line; a segment one reflectron traverses is a fermion line. The resulting graph is the *joint residue*.
+- A matching is *QED-admissible* when $g$'s segment is joint and every vertex has one joint segment and two single ones.
+
+This is one formalization of the note. It is chosen because it reproduces both of the author's overlays exactly (§XXXII.4(a)). Other rules are possible, and the results below concern this one.
+
+**(b) The boundary is less flexible, as the note suggests.** Two reflectrons have four ends for three external legs, so one leg is the shared end. Of the three choices, only the photon's is admissible, since a shared fermion leg would be joint and so read as a boson. The boundary association is therefore fixed, while the interior offers $n!$ matchings.
+
+**(c) Four reflectrons and centrons.** A centron is an unordered pair of reflectrons. A *grouping* splits four reflectrons into two centrons. A relabeling that keeps the grouping is a redescription; different groupings are distinct contributions. The note's two groupings of the Born rule's four legs — the legs $i\to f$ of $\mathcal A$ and those of $\mathcal A^*$ — are the Born grouping $(\mathcal A)(\mathcal A^*)$ and the regrouping $(i,i^*)(f,f^*)$.
+
+## XXXII.3 Four reflectrons and their three pairings [T/V/S; R295] *(`v35_8_four_reflectrons()`)*
+
+**(a) Counting [T/V].** The $4! = 24$ ordered assignments $(a\,b\,|\,c\,d)$ of four labelled reflectrons fall into $3$ groupings, each reached $8$ times. The relabelings that keep a grouping — swaps inside each centron and of the two centrons — form a group of order $8$, the wreath product $S_2\wr S_2$. In general $2n$ reflectrons give $(2n)!/(2^nn!) = (2n-1)!!$ groupings, counted as $3$, $15$ and $105$ for $2n = 4$, $6$ and $8$.
+
+**(b) Redescription and distinct contribution, made exact [T].** A relabeling in the order-$8$ group is a redescription; the three cosets are three distinct contributions. The free generating function carries this weight: $\tfrac1{2!}\big(\tfrac12J\cdot G\cdot J\big)^2$ contains $J_1J_2J_3J_4$ with coefficient $\tfrac18\times8\times(G_{12}G_{34}+G_{13}G_{24}+G_{14}G_{23})$. The $1/8$ is one over the relabeling group, so each grouping counts once. This is the analysis's distinction in the form standard theory gives it, $1/\lvert{\rm Aut}\rvert$.
+
+**(c) Signs [T/V].**
+- *Bosonic reflectrons,* each centron weighted by its pair kernel $G_{ab}$: $\langle x_1x_2x_3x_4\rangle = {\rm Haf}(G) = G_{12}G_{34}+G_{13}G_{24}+G_{14}G_{23}$. For a random covariance, Gauss–Hermite quadrature, exact for this polynomial, agrees to $4\times10^{-16}$.
+- *Grassmann-odd reflectrons:* the top component of $\exp\big(\sum_{a<b}S_{ab}\eta_a\eta_b\big)$, computed in an explicit exterior algebra, is ${\rm Pf}(S)\,\eta_1\eta_2\eta_3\eta_4$, with ${\rm Pf}(S) = S_{12}S_{34}-S_{13}S_{24}+S_{14}S_{23}$ ($2.487470586895$ both ways, and ${\rm Pf}^2 = \det S$). The signs $+$, $-$, $+$ are the parities of the pairings' permutations.
+
+**(d) What the first test shows [S].** Four reflectrons reproduce Wick's three pairings, with the right signs and no overcounting, once three premises are adopted: the relabelings of the order-$8$ group are redescriptions; each centron contributes its pair kernel, with the Gaussian weight of the free theory; and, for the signs, the reflectrons are Grassmann-odd. The pair kernel is the free propagator itself, and the Gaussian weight is what makes the sum over pairings exact. So the counting the analysis asked for is met, but the derivation it asked for is not: the reflectron reading re-expresses Wick's theorem. A derivation would have to obtain the pair kernel, the Gaussian character of the free theory and the reflectrons' statistics from their own structure.
+
+## XXXII.4 Two worldlines with matched vertices: the author's figures and the alternation lemma [T/V/D; R296] *(`v35_8_two_worldlines()`)*
+
+**(a) The author's figures [V].** The one-loop overlay — blue $i_1,a_1,a_2,c$, out; red out, $c,a_1,a_2,i_2$ — is the matching $\sigma = (2,3,1)$. The two-loop overlay — blue $i_1,a_1,b$, mid, $a_2,c$, out; red out, $c,b,a_1$, mid, $a_2,i_2$ — is $\sigma = (3,2,4,5,1)$, both read off the colour sequences. Each is admissible, and its joint residue is exactly the drawn diagram — their canonical forms agree — with $(I,V,L) = (3,3,1)$ and $(6,5,2)$ and $L = I-V+1$, as the analysis counted.
+
+**(b) The alternation lemma [T].** At every vertex the photon is traversed by both reflectrons and the two fermion ends by one each. Three things follow:
+- each reflectron visits every vertex once;
+- the fermion lines alternate between the two reflectrons along the open line and around every closed loop;
+- a diagram is generated exactly when no two of its lines join the same two vertices and it has an alternation in which neither reflectron's lines (its fermion lines with every photon) close a cycle; its matchings are those read off such alternations, and alternations related by a symmetry of the diagram give one matching.
+
+Corollaries:
+- no bubble is ever generated, for two reasons. A self-energy bubble — a fermion line and a photon joining the same two vertices — closes a two-cycle in the reflectron that carries its fermion line, in every alternation. A polarization bubble's two fermion lines go to different reflectrons, which then traverse the same pair of vertices, and the rule reads that pair as one joint segment, a photon: segments are named by their end points, so every residue is a simple graph. Among the Furry-allowed diagrams at one, two and three loops, $2$, $12$ and $102$ have a self-energy bubble, none with an acyclic alternation; $1$, $5$ and $36$ have only polarization bubbles, and $1$, $3$ and $19$ of these have acyclic alternations and are excluded by the second reason alone;
+- a diagram without closed loops comes from at most one matching, and one with $k$ closed loops from at most $2^k$;
+- the vertex function has $n = 2L+1$ vertices at $L$ loops.
+
+The caption distinguishes the two worldlines from the red and blue channels of a single centrade, which "would have to alternate upon intersecting each centrade". In the figures, and by the lemma in every generated diagram, the fermion lines do alternate between the two reflectrons at each vertex. Along fermion lines the two readings coincide; they differ on photon lines, which both reflectrons traverse.
+
+**(c) Every matching through three loops [V].** The lemma is checked on every QED vertex diagram:
+
+| $n = 2L+1$ | matchings | $g$ joint | admissible | distinct diagrams | largest multiplicity |
+|:--|:--|:--|:--|:--|:--|
+| $1$ | $1$ | $1$ | $1$ | $1$ | $1$ |
+| $3$ | $6$ | $2$ | $1$ | $1$ | $1$ |
+| $5$ | $120$ | $24$ | $5$ | $5$ | $1$ |
+| $7$ | $5040$ | $720$ | $29$ | $28$ | $2$ |
+
+At one loop the six matchings give one diagram: the vertex correction of the author's first figure, and nothing else.
+
+## XXXII.5 What the matchings generate, against QED [V/D/S; R296] *(`v35_8_against_qed()`)*
+
+**(a) The comparison [V].** Every connected QED vertex diagram is enumerated, with one open fermion line, one external photon and closed loops; loops with an odd number of vertices are dropped by Furry's theorem, and no alternation exists on them anyway. Counts are of undirected diagrams, with oriented counts in brackets:
+
+| loops $L$ | connected | 1PI | 1PI without self-energy or polarization insertions | generated: of those | generated: with an insertion | generated: reducible | generated twice |
+|:--|:--|:--|:--|:--|:--|:--|:--|
+| $0$ | $1$ | $1$ ($1$) | $1$ ($1$) | $1$ | $0$ | $0$ | $0$ |
+| $1$ | $4$ | $1$ ($1$) | $1$ ($1$) | $1$ | $0$ | $0$ | $0$ |
+| $2$ | $24$ | $7$ ($7$) | $4$ ($4$) | $4$ | $0$ | $1$ | $0$ |
+| $3$ | $190$ | $68$ ($72$) | $30$ ($33$) | $23$ | $1$ | $4$ | $1$ |
+
+The oriented 1PI counts, $1$, $1$, $7$ and $72$, are QED's known numbers of vertex diagrams at tree level and at one, two and three loops (Knecht 2003), which checks the enumeration.
+
+**(b) Through two loops [V].** The generated 1PI diagrams are exactly the vertex diagrams without self-energy or vacuum-polarization insertions: the vertex correction at one loop, and the ladder, the crossed ladder and the two corner diagrams at two. With full (dressed) propagators on their lines, these diagrams give the whole vertex function. One reducible diagram comes with them: a two-loop polarization correction on the external photon.
+
+**(c) At three loops the agreement fails, by omissions and extras [V].**
+- $23$ of the $30$ insertion-free 1PI diagrams are generated; $7$, all without closed loops, are missing.
+- $5$ extras appear: one with a polarization insertion and $4$ reducible.
+- Every generated insertion-free diagram comes from exactly one matching. The one diagram reached twice is a reducible extra — a polarization correction on the external photon with a closed loop of six vertices — both of whose alternations are acyclic.
+
+So "every matching once" is not QED's sum: at three loops it misses $7$ target diagrams and adds $5$ others, though it overcounts none of the targets. From two loops on, the whole 1PI set is not reached.
+
+**(d) Weights [V/D].** The matchings supply the diagrams' shapes, not their values. With QED's weights inserted by hand, the diagram the one-loop matching generates has $F_2(0) = \tfrac\alpha{2\pi} = 0.00116141$, Schwinger's term (Schwinger 1948); nothing in that value depends on the matching. The Ward identity ties this vertex to the self-energy, which no matching generates. So the propagators must be dressed by another sector, consistently with the vertices ($Z_1 = Z_2$).
+
+**(e) A reading [S].** Through two loops the matchings generate the vertex diagrams free of propagator insertions — the incidences of interactions — and leave the dressing of propagators to another sector. That is §XXIX.0's division: vertices as centrade, propagators as centron. For the rule as formalized the reading fails at three loops.
+
+## XXXII.6 The Born-rule regrouping and unitarity [T/V/D; R297] *(`v35_8_born_regrouping()`)*
+
+**(a) A finite unitary model [V].** Take $H = H_0+gV$ on $\mathbb C^6$, with $H_0 = {\rm diag}(E)$, $E\in[0,3]$, a random Hermitian $V$, and $T = 1$. The interaction-picture evolution is
+$$S(g) = e^{iH_0T}e^{-i(H_0+gV)T} = 1+gS_1+g^2S_2+\dots,$$
+with $S_1$ and $S_2$ exact from one block exponential (Van Loan 1978); at $g = 0.001$ the series matches $S(g)$ to $3\times10^{-9}$. Unitarity holds order by order: $S_1+S_1^\dagger = 0$ (residual $6\times10^{-16}$) and $S_2+S_2^\dagger+S_1^\dagger S_1 = 0$ (residual $2\times10^{-15}$).
+
+**(b) The regrouping is the diagonal [T/V].** The Born pairing of the first-order amplitude with its conjugate, summed over final states, equals $-2\,{\rm Re}$ of one second-order forward amplitude, whose intermediate states are those final states:
+
+| $i$ | $\sum_f\lvert S_{1,fi}\rvert^2$ | $-2\,{\rm Re}\,S_{2,ii}$ | ${\rm Im}\,S_{2,ii}$ |
+|:--|:--|:--|:--|
+| $0$ | $3.9986719522$ | $3.9986719522$ | $+1.159866$ |
+| $1$ | $6.7715211518$ | $6.7715211518$ | $+0.487192$ |
+| $2$ | $2.8796411404$ | $2.8796411404$ | $+0.149476$ |
+| $3$ | $4.5601093920$ | $4.5601093920$ | $-0.186246$ |
+| $4$ | $3.8618764448$ | $3.8618764448$ | $-0.431326$ |
+| $5$ | $4.6658977105$ | $4.6658977105$ | $-1.178962$ |
+
+With $S = 1+iT$ this is $2\,{\rm Im}\,T^{(2)}_{ii} = \sum_f\lvert T^{(1)}_{fi}\rvert^2$: the optical theorem at lowest order.
+
+**(c) What it means [D].** The note's regrouping of the four legs has an established form. The Born pairing is $(i\to f)(i\to f)^*$; the regrouped pair $(i,i^*)(f,f^*)$ is one forward amplitude, cut through $f$. The equality of the two groupings is not a convention: unitarity fixes it, and it fixes only the absorptive part, while the dispersive part (the last column) is left free. Diagram by diagram this is Cutkosky's cutting rule (Cutkosky 1960). In path-integral form it is the closed-time-path doubling of the frozen §XV.6, whose final-time closure joins the forward and backward branches.
+
+## XXXII.7 Standing [S/O; R298]
+
+- *Established [T/V].*
+  - The counting and the signs of four reflectrons' pairings: the order-$8$ relabeling group, the Hafnian of bosonic and the Pfaffian of Grassmann-odd reflectrons.
+  - The author's two figures as matchings; the alternation lemma and its corollaries.
+  - The enumeration through three loops against QED's known counts, $1$, $1$, $7$ and $72$.
+  - The Born regrouping as second-order unitarity: the optical theorem in a finite model. Cutkosky's cutting rule is its diagram-by-diagram reading [D].
+- *Premises [S].* The Reflectron Matching Hypothesis in the form of §XXXII.2; the three premises of §XXXII.3(d) — redescriptions, the pair kernel and, for the signs, Grassmann-odd reflectrons; the reading of the generated insertion-free diagrams as centrade structure.
+- *What the formalized rule does and does not do.*
+  - It reproduces the author's figures and, through two loops, exactly the insertion-free 1PI vertex diagrams, plus one reducible diagram.
+  - It supplies no weights — no propagators, couplings, signs, integrations or symmetry factors — so Schwinger's term needs QED's weights inserted by hand.
+  - As "every matching once" it fails at three loops, with $7$ omissions and $5$ extras, one of the extras reached twice.
+- *Program.*
+  1. A matching rule that gives the insertion-free 1PI set at three loops and beyond, each diagram once, without omissions or extras — by a selection or quotient of matchings, or with more than two reflectrons.
+  2. Weights from the reflectrons' own structure — propagators, the vertex factor, a closed loop's sign, symmetry factors — with the Ward identity as the first consistency test.
+  3. The dressing of propagators from a centron sector, consistent with the vertices ($Z_1 = Z_2$).
+  4. The regrouping beyond unitarity: whether the dispersive part has a reflectron meaning.
+  5. The determinate nodes as constrained associations: how the boundary's single choice relaxes away from the QED vertex.
+- *Kill condition.* If no rule built from two reflectrons generates the three-loop insertion-free set without omissions or extras, the two-reflectron form fails. If a rule does, it must then reproduce QED's weights.
+- *Not claimed.* No derivation of the Feynman rules, no new prediction, and no change to the frozen §XXIX.0.
+
+---
+
+## Round record: the version summaries, v16 to v35.8 (moved from the head of the archive in v34.9, R190)
+
+*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+
+> **v35.8 — reflectrons: Feynman diagrams as the joint residue of paired histories (the author's note of 15 October, with one analysis); Entries 311–313 and PG's rotation curve in gnomonic radius (with the review of v35.7, two analyses, a request and a note on the plots).**
+>
+> *What was asked.*
+> - The reflectron note: Feynman diagrams as the "jointness residue" of two reflectron worldlines, the vertices set by how the points of one worldline are matched with those of the other, the multiplicity of diagrams from trying every matching with the determinate nodes fixed, and the Born rule's two centrons as four reflectrons whose regrouping might pair the centrons by the Born rule while the reflectrons inside form a diagram. The analysis named it the Reflectron Matching Hypothesis and proposed a modest first test: Wick's three pairings from four reflectrons, with the right signs and no overcounting; then the one-loop vertex.
+> - Entries 311–313: the leaf's own light was never assumed to give the stereographic view — the question is what light law would — and $\tan u$ sends the equator to infinity; then take the gnomonic version at face value and read PG's own rotation curve in gnomonic radius, where the equator becomes an asymptote; and, during the round, a much sharper falloff for the plots. The review of v35.7 asked for softer distance-indicator wording, a precise invariant and a full uniqueness proof.
+>
+> **What v35.8 does (R293–R305; Part XXXII and §§XXXI.36–41, with corrections in place).**
+> - Four reflectrons. Three groupings, each reached by an order-$8$ group of relabelings, so redescriptions and distinct contributions separate exactly; the Hafnian for bosonic and the Pfaffian, with signs $+$, $-$, $+$, for Grassmann-odd reflectrons. Wick's theorem is re-expressed, with the pair kernel and, for the signs, Grassmann-odd statistics as premises, not derived.
+> - Two worldlines. The author's two overlays are the matchings $(2,3,1)$ and $(3,2,4,5,1)$. An alternation lemma says which diagrams any matching gives: no self-energy or polarization bubble ever arises.
+> - Against QED. The enumeration reproduces QED's $1$, $1$, $7$ and $72$ vertex diagrams. Through two loops the matchings give exactly the insertion-free 1PI diagrams, the ones that dressed propagators complete, plus one reducible diagram. At three loops "every matching once" fails: $23$ of $30$, with $5$ extras, one of them reached twice. The matchings give shapes, not values.
+> - The Born regrouping. In a finite unitary model the Born pairing of amplitudes equals the cut of one forward amplitude: the optical theorem, fixed by unitarity, not a convention.
+> - Entry 311. v35.7's tests are re-scoped to the leaf's own light. The inverse question has, for an isotropic law, a metric answer unique up to a constant factor — a Fermat geometry flat in the portrait — and its fits to matter fail on the leaf (a $6\%$ blueshift of the Galactic Centre, vacuum Cherenkov, or flat rulers), so the law asked for must act on histories.
+> - Entries 312–313. PG's solved curves, read in gnomonic radius, become asymptotically flat to infinite radius, $v^2 = v_{\rm eq}^2+A/R^2$ with $A<0$ in closed form. Sharp sources settle onto the point source's curve, within $3\%$ of the plateau beyond $7.64$ kpc for $r_d/\ell\le0.02$; broader ones come within $5\%$ from $6$–$21$ kpc outward for $r_d/\ell = 0.05$–$0.1$. A Newtonian reading implies $M(<R)\propto R$: $9.1$ times the leaf's mass at $50$ kpc for $r_d/\ell = 0.02$, whose matter lies $98\%$ inside $5$ kpc. The leaf's own light gives this reading to an observer on the leaf, at a price: round features seen face-on stretched radially by $\sec u$, and proper-motion rotation $\sec u$ times the Doppler rotation.
+> - Repairs. Candles, rulers and kinematic distances return $D_A$, timing returns the path length; the stereographic radius is read from a conformal invariant; the two-observer map is unique (essential matrix, to $10^{-15}$); $\kappa<1$ is redistribution, not a mechanism.
+>
+> **Next.** A matching rule exact at three loops, with weights from the reflectrons' own structure; a history-level light law for the stereographic or gnomonic view; which reading a real observer makes, and the $\sec u$ tests; the gateway kernel from PG's history classes; the author's choice for the cap.
+>
 > **v35.7 — a galaxy seen from above and at a tilt, and the visible space we live in (the author's note of 15 October, with one analysis), and the review of v35.6.**
 >
 > *What was asked.*
