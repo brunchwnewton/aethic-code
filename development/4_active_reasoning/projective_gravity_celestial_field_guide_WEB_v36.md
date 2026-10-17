@@ -1,8 +1,8 @@
-# Projective Gravity — Version 36.1 (draft): the observed rotation curve
+# Projective Gravity — Version 36.2 (draft): the observed rotation curve
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases — with branches on charge and extremality, and on rendering and canonical optics
 
-**Claim status of Part XXXIII (v36.1).** This table governs the open work: Part XXXIII, the observed rotation curve. Parts XXX–XXXII are frozen at v35.8, and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the two frozen tables that follow, unchanged except for marked post-freeze notes; v36.0 added such notes and pointers in §§XXXI.37, XXXI.38, XXXI.41, XXXII.5 and XXXII.7 and in four rows (R313); v36.1 adds none. v36.1 is the corrective round on the two reports on v36.0 (§XXXIII.14): the rows below carry its corrections, and §XXXIII.24 lists each v36.0 claim against its status now. Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*; a fit that fails is marked *(negative)*.
+**Claim status of Part XXXIII (v36.2).** This table governs the open work: Part XXXIII, the observed rotation curve. Parts XXX–XXXII are frozen at v35.8, and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the two frozen tables that follow, unchanged except for marked post-freeze notes; v36.0 added such notes and pointers in §§XXXI.37, XXXI.38, XXXI.41, XXXII.5 and XXXII.7 and in four rows (R313); v36.1 and v36.2 add none. v36.1 was the corrective round on the two reports on v36.0 (§XXXIII.14), §XXXIII.24 listing each v36.0 claim against its status; v36.2 answers Entries 323–324 and the two responses on them (§XXXIII.27), with the rows marked R332–R337 added, the row on Entry 322's family reworded (R332; its v36.1 text quoted under R337) and the row on the next pieces extended (R337). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*; a fit that fails is marked *(negative)*.
 
 | claim | type | evidence | archive |
 |:--|:--|:--|:--|
@@ -18,11 +18,16 @@
 | The review's self-consistent source: leaf densities $\sec^3\chi$ (disk) and $\sec^4\chi$ (sphere) times $e^{-\ell\tan\chi/h}$ push forward to exact exponentials. Solved again on a $16$ kpc leaf, the disk gives a realistic central curve and a plateau to infinity ($224$ km/s at $16$ kpc, $217$ at $200$ kpc), detectable in integrated light to about $29$ kpc at $27$ mag/arcsec$^2$ and kinematically populated to about $51$ kpc with resolved stars, under stated premises; on the arena leaf the curve first falls by $12\%$. Three of the review's four requirements, the fourth a finite reach (R311, R324) | analytic theorem; numerical control; specified premise (the observing setup) | — | §§XXXIII.6, 20 |
 | Orbits through the equator: $\Phi''(\pi/2) = -v_{\rm eq}^2$, a barrier for $L<\ell v_{\rm eq}$; the radial kick to cross from a circular orbit, $0.64\,v_c$ at $13$ kpc down to $0.006\,v_c$ at $183$ kpc; crossing orbits with $\chi_{\max} = \pi-\chi_{\min}$, half of each radial period beyond the equator ($0.50000$ over one period), which in gnomonic radius re-enter the near galaxy's image; every $L>\ell v_{\rm eq}$ crosses in a field whose circular angular momentum rises to the equator, as the benchmark's does (R312, R325) | analytic theorem; numerical control | — | §§XXXIII.7, 21 |
 | The author's $8$ kpc leaf: gravity alone needs $0.64$–$0.67$ of McMillan's mass over the $12.6$ kpc of arc it holds and rises where the data decline; the leaf's own light excludes it ($R_\odot>\ell$); the gnomonic reading of McMillan's densities gives $\chi^2 = 10{,}505$ and $14{,}248$. With the labels the physical radius drops out: the Milky Way's gnomonic image asks for $\ell_{\rm eff} = 23.2$ and $23.7$ kpc with $1.28$ and $1.34$ times the baryons, at $\chi^2 = 172$ and $499$ — $1.6$ and $1.8$ times the reference, a two-parameter fit (R326) | observational fit (negative without labels; a fit with two) | Eilers et al. 2019; Ou et al. 2024; McMillan 2017 | §XXXIII.22 |
-| Entry 322's curve-shape family as a classification: Part XXV's spheres have three regimes (overshoot to $r_d/\ell = 0.0423$, a wiggle below the plateau to $0.0515$, monotonic beyond); the gnomonic exponential disks have a bump in every member (smallest $+2.5\%$, near $h/\ell = 0.22$) and lose the centre's circular support beyond $h/\ell = 0.87$. The pilot sorted by observed shape (six without a significant overshoot, NGC 2841 a bump, NGC 7814 declining) and by PG's curves from the measured sources, no amplitude or label: $5$ of $8$ in the same class; the dwarfs, the broadest sources ($R_{\rm half}/\ell_{\rm arena} = 1.6$–$1.7$), have no circular support on their arena leaves — for a gnomonic disk the broad regime is the unsupported one (R327) | analytic theorem; numerical control; observational classification; open bridge (a relation for the index) | SPARC; Entry 322 | §XXXIII.23 |
+| Entry 322's curve-shape family as a classification: Part XXV's spheres have three regimes (overshoot to $r_d/\ell = 0.0423$, a wiggle below the plateau to $0.0515$, monotonic beyond); the gnomonic exponential disks have a bump in every member (smallest $+2.5\%$, near $h/\ell = 0.22$) and lose circular support over a band inside beyond $h/\ell = 0.87$ ($0.2$–$1.9\,h$ at $h/\ell = 1$; R332). The pilot sorted by observed shape (six without a significant overshoot, NGC 2841 a bump, NGC 7814 declining) and by PG's curves from the measured sources, no amplitude or label: $5$ of $8$ in the same class; the dwarfs, the broadest sources ($R_{\rm half}/\ell_{\rm arena} = 1.6$–$1.7$), have no circular support on their arena leaves — for a gnomonic disk the broad regime is the unsupported one (R327) | analytic theorem; numerical control; observational classification; open bridge (a relation for the index) | SPARC; Entry 322 | §XXXIII.23 |
 | The author's note on flavor directions, zoom labels and kinds of mass, and Entries 318–319, with three analyses; their algebra checked (three invariants, conjugation, the meridian toy); the flavor program held (R314) | record; analytic theorem; numerical control; open bridge | — | §XXXIII.9 |
 | Post-freeze notes from the review of v35.8: inverse optics narrowed to the specified local class; reflectrons' two-loop agreement not evidence of generation; the plateau's tracers not of negligible mass; the review's corrected speeds reproduced (R313) | definition (scope); numerical control | the review of v35.8 | §XXXIII.8 |
 | The two reports on v36.0 and the author's three responses with Entry 322, recorded; the current-results page (R328, R329) | record; definition (status) | — | §§XXXIII.14, 24 |
-| The next pieces: measured HI profiles for the pilot; the Milky Way estimator; a label law stated before it is fitted, tested out of sample, with the distance, inclination and mass-to-light uncertainties carried; one optics experiment; other readings; the held note's calculations; flavor and reflectrons in the backlog (R330) | open bridge | — | §XXXIII.25 |
+| Orbital occupancy on the leaf (Entry 323): a thin collisionless population on the great 2-sphere in the twin field, by Schwarzschild's method. The disk's crossing orbits are slowest at the equatorial barrier ($0.3$ of a period within $10^\circ$ of it just above the barrier energy); each orbit's share of the plateau coefficient is positive if trapped, negative if crossing. The thin exponentials (gnomonic $h/\ell = 0.1875$; arc-length $h = 3$ kpc) are stationary populations as cold as the library resolves, and trapped: their densities at the equator exclude crossing orbits (at most $1\%$; $2$–$14\%$ with only the measured range matched). The broad gnomonic disk ($h/\ell = 1$) is a stationary population only as a hot one ($\sigma_r\geq35$ km/s inside $30$ kpc). The dwarfs' gnomonic sources admit no axisymmetric in-plane placement of their required outer mass that keeps circular support at every measured radius (every ring's field negative there; at best $8/12$, $15/34$) and no stationary population with the observed rotation colder than $\sigma_r = 27$–$35$ km/s for the stars-plus-gas mixture (DDO 154: none below $400$ km/s in the pushforward's field, and none at all for its stellar image alone; IC 2574's gas alone $\geq19$), against observed HI dispersions of $7$–$10$ km/s. The occupancy places the mass the HI total requires; it cannot remove it (R332) | analytic theorem; numerical control; observational comparison (negative) under the gnomonic premise | THINGS dispersions (Oh et al. 2008, 2011; Ianjamasimanana et al. 2015) | §XXXIII.28 |
+| The rendering: the image of an arc-length exponential is exponential to $13\%$ out to $10$ kpc and shallower beyond (the rendering adds a tail, so an exponential image needs the $\sec^3\chi$ leaf); its curve rises without bound, because $C$ is finite for thin sources vanishing at the equator faster than $\cos\chi$ or smooth and even across it and diverges for a term linear in $\pi/2-\chi$ there (uniform: $C = 0$; $\cos\chi$: a logarithmic divergence; $\cos^{1.5}\chi$, $\cos^2\chi$: $4.690$, $3.534$). A fade adds mass: DDO 154 with $\varepsilon = \cos\chi$, $\cos^2\chi$ has $v_\infty = 279$, $214$ km/s on its enlarged arena leaves (R333) | analytic theorem; numerical control | — | §XXXIII.29 |
+| A conformal rendering: the maps keeping the leaf round are Möbius, rendering a uniform disk as $\Sigma_0/(\cosh s+\sinh s\cos\theta')^2$ — a cusp of unbounded depth, an $R^{-4}$ fall, a floor at the equator; rational, not exponential; an exponential needs $e^{2\omega}\propto\exp[(\ell/h)\tan\chi]$, divergent at the equator; the five-dimensional transformation law checked. Within the round leaf, this family only; beyond it, a new field from an action (R334) | analytic theorem; numerical control; open bridge | — | §XXXIII.30 |
+| Entry 324, the frame-selection hypothesis: a surface normal renders as $J^{-T}\mathbf n$; the gnomonic rendering images a great-sphere disk as a plane with the sphere's spatial normal — a central disk's normal is not turned; a non-great disk images as a quadric. The direction field and its action are held as a program (R335) | analytic theorem; numerical control; open bridge | — | §XXXIII.31 |
+| Entries 323–324 and the two responses, recorded (R336); the standing after v36.2 (R337) | record; definition (status) | — | §§XXXIII.27, 32 |
+| The next pieces: measured HI profiles for the pilot, with the HI dispersion as a second observable; the Milky Way estimator; a label law stated before it is fitted, tested out of sample, with the distance, inclination and mass-to-light uncertainties carried; gas with pressure and dissipation on the leaf; one optics experiment; other readings; the held note's calculations; flavor, reflectrons and the direction field in the backlog (R330, R337) | open bridge | — | §§XXXIII.25, 32 |
 
 **Claim status of Parts XXX–XXXII at the v35 freeze (v35.8).** This table governs Parts XXX–XXXII, frozen at v35.8 (15 October 2026) with their suite `pg_v35_numerics.py`, unchanged except for marked post-freeze notes (v36.0, R307, R313): Part XXX (the hyper-canonical completion and the charged-lepton cycle), Part XXXI (the visible rendering of the leaf) and Part XXXII (reflectrons: Feynman diagrams as the joint residue of paired histories). Their frozen-results record is the v35.8 current manuscript, `projective_gravity_v35_8_current_manuscript.md`. Parts 0–XXIX are frozen — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10 — and their claim status is the frozen table that follows this one, unchanged except for marked post-freeze notes. Post-freeze notes correct them without rewriting them: two erratum notes in §§XXI.4–4a (R211), clarification notes in §§XXIX.40(e), XXIX.41(d), XXIX.42(g) and XXIX.43(b) (R212–R216, §XXX.12), two pointer notes in §§XXIX.18 and XXIX.42(f) (R238, Part XXXI; the first corrected in v35.3, R243, and in v35.4, R254), and two pointer notes of v35.6, in §§XIII.10 and XXIX.42(c) (R277, R276; the first scoped in v35.7, R288). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*. Rows changed or added since v35.1 carry their register number. Three rows — the cap, the refocusing and the darkness of the sky — are marked as **central limiting conditions**: every proposal for the visible sky must say how it meets them (R255, R267).
 
@@ -150,7 +155,7 @@
 | Observational fits | none | no supernova likelihood, no count comparison with a selected sample, no rotation-curve fit (post-freeze note, v35.1, R216: the current predictive model; Part XII's exploratory fits, §XII.3, belong to its detached wing) (post-freeze note, v36.0, R313: rotation curves are compared with data in Part XXXIII — the Milky Way from inside and a SPARC pilot — and are not reproduced by the theory as specified) | §XXIX.39(f) |
 | The photon wave operator and its mode projection; a $q = 0$ reader; a frequency bridge with time dilation and a derived echo law; a pair-selection law; a detector law for the image map, with one forward image of a fixed galaxy; a derived spectral transport, even and odd | open bridge | — | §§XXIX.39(b), 41, 42, 43(f) |
 
-> **How to read this archive (v36.1).** Three tables govern: the table of Part XXXIII, for the open work; the frozen v35.8 table that follows it, for Parts XXX–XXXII; and the frozen v34.10 table after that, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX; §XXX.9, frozen with Parts XXX–XXXII; and §XXXIII.12) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place. v36.0 freezes Parts XXX–XXXII at v35.8 with `pg_v35_numerics.py`, whose frozen-results record is the v35.8 current manuscript, and opens Part XXXIII, the observed rotation curve, after Part XXXII, with its own register (§XXXIII.12) and suite (§XXXIII.13, `pg_v36_numerics.py`). Its corrections to frozen Parts are post-freeze notes (R313). v36.1 is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§§XXXIII.14–26, R318–R331): it corrects v36.0's operative statements in place, with the superseded wording in §XXXIII.26, and adds no post-freeze note.
+> **How to read this archive (v36.2).** Three tables govern: the table of Part XXXIII, for the open work; the frozen v35.8 table that follows it, for Parts XXX–XXXII; and the frozen v34.10 table after that, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX; §XXX.9, frozen with Parts XXX–XXXII; and §XXXIII.12) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place. v36.0 freezes Parts XXX–XXXII at v35.8 with `pg_v35_numerics.py`, whose frozen-results record is the v35.8 current manuscript, and opens Part XXXIII, the observed rotation curve, after Part XXXII, with its own register (§XXXIII.12) and suite (§XXXIII.13, `pg_v36_numerics.py`). Its corrections to frozen Parts are post-freeze notes (R313). v36.1 is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§§XXXIII.14–26, R318–R331): it corrects v36.0's operative statements in place, with the superseded wording in §XXXIII.26, and adds no post-freeze note. v36.2 answers Entries 323–324 and the two responses on them (§§XXXIII.27–33, R332–R338): orbital occupancy on the leaf, the exponential as a rendering, the conformal route, the frame-selection hypothesis; it corrects two v36.1 sentences in place (R332) and adds no post-freeze note.
 
 > **v34.0 governing ontology correction (11 October 2026).** **Matter and its stress-energy content live fundamentally in the five-dimensional middle space** $\mathcal M=E/U(1)_H$, not solely on the representational bisection. The four-dimensional gravity base $B_{\rm grav}=\mathcal M/U_{\rm mer}$ is the quotient where the effective Einstein equation is expressed. The source $T^{(g)}$ must be obtained from the **entire** one-dimensional meridian fiber, including both arcs and possible pole/core contributions, by a covariant, action-compatible fiber reduction with a geometrically justified measure and tensor projection. A sum of contributions at the two points of $B_{\rm rep}$ is **not Law I**: it is only a distributionally leaf-supported special case. Einstein equations on the base impose constraints on the admissible middle-space configurations; equivalently their pullback imposes a horizontal constraint on $\mathcal M$, **not** independent five-dimensional Einstein equations. The full measure, singular-fiber rule, conservation identity and parent variational principle are **open**. Previously frozen text about source localization and two-point sourcing is superseded by this paragraph, the corrected Law I in Part III, and §XXIX.8; historical derivations remain conditional benchmarks where their premises apply. The observation that $\ell/G$ has a numerically suggestive relation to a galactic mass was an exploratory coincidence, **not** a premise that the closure mass is the Galaxy's baryonic mass. The author also prefers a *macroscopic middle-space* origin of $G$ (with the closure ratio as a target) and a separate Boltzmannian-compatibility origin of the effective quantum/Planck-area scale; the induced-gravity calculation remains a benchmark, not the preferred ontological explanation of $G$.
 
@@ -15870,7 +15875,7 @@ With $S = 1+iT$ this is $2\,{\rm Im}\,T^{(2)}_{ii} = \sum_f\lvert T^{(1)}_{fi}\r
 - *the Milky Way, seen from inside with the leaf's own light, fails on every scanned leaf and at the continuous optimum — as a cold-tracer proxy for the published estimator, which is not yet applied (§XXXIII.19) [v36.1, R323];*
 - *the SPARC galaxies, with the arena law, fail too.*
 
-*With the author's zoom labels as two free numbers per galaxy, the gnomonic premise improves the SPARC curves greatly; under the quoted errors one of the eight fits is acceptable, one borderline, and six are not (§XXXIII.17) [v36.1, R319]. The labels the fits need trend with mass, and must now come from a law. §XXXIII.11 locates each failure; §XXXIII.25 is the operative standing after v36.1.*
+*With the author's zoom labels as two free numbers per galaxy, the gnomonic premise improves the SPARC curves greatly; under the quoted errors one of the eight fits is acceptable, one borderline, and six are not (§XXXIII.17) [v36.1, R319]. The labels the fits need trend with mass, and must now come from a law. §XXXIII.11 locates each failure; §XXXIII.25 is the operative standing after v36.1, §XXXIII.32 its continuation after v36.2 (Entries 323–324: a stationary population on the leaf does not remove the dwarfs' required outer mass, and must be hot where it lacks circular support).*
 
 *v36.1 (16 October 2026) is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§XXXIII.14): the plateau coefficient of an extended source (§XXXIII.15), the label condition corrected (§XXXIII.16), the pilot's statistics and its sources in error units (§XXXIII.17), the gas reconstruction's family (§XXXIII.18), the Milky Way comparison as a cold-tracer proxy with its leaf radius continuous (§XXXIII.19), the plateau's observable reach (§XXXIII.20), the orbit statements' domain (§XXXIII.21), the author's 8 kpc leaf (§XXXIII.22), Entry 322's shape family (§XXXIII.23), the current results (§XXXIII.24), the standing (§XXXIII.25) and the register (§XXXIII.26). The suite of §XXXIII.13 is extended to 18 checks.*
 
@@ -16401,18 +16406,19 @@ This answers the author's question of what the families of labels capture: given
 
   [reproducibility]
 
-## XXXIII.13 Executable appendix: `pg_v36_numerics.py`, embedded [reproducibility; v36.0–v36.1, R317, R331]
+## XXXIII.13 Executable appendix: `pg_v36_numerics.py`, embedded [reproducibility; v36.0–v36.2, R317, R331, R338]
 
-*The standalone suite (NumPy and SciPy only) that prints every computed number of Part XXXIII. Save the block as `pg_v36_numerics.py` and run `python3 -I pg_v36_numerics.py` (the regression suite of Part XXXIII, v36.0 and v36.1: 18 checks; exit status 1 if any fails, in every mode; about 8 minutes, depending on the machine), one round with `python3 -I pg_v36_numerics.py v36_0` or `v36_1` (the latter with the v36.0 computations it builds on), or the sub-minute checks with `quick` (7 checks, for a referee's time limit); an unknown mode prints the usage line and exits with status 2. It embeds its data: the two Milky Way tables, McMillan 2017's parameters and the eight SPARC galaxies' rows. The frozen suites remain `pg_v35_numerics.py` (Parts XXX–XXXII, §XXX.10) and `pg_v34_numerics.py` (Part XXIX, §XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v36`, `v36_0`, `v36_1` and `quick` run it and whose `all` runs the frozen v34.10 and v35.8 suites and Part XXXIII together (205 checks). The figures come from `pg_v36_0_plots.py` and `pg_v36_1_plots.py`, which load this suite. SHA-256 of the file: `6db2cca766806b3274d8c0ba3920ee1e8f69ea293818473658e69e7a43a91074`.*
+*The standalone suite (NumPy and SciPy only) that prints every computed number of Part XXXIII. Save the block as `pg_v36_numerics.py` and run `python3 -I pg_v36_numerics.py` (the regression suite of Part XXXIII, v36.0–v36.2: 22 checks; exit status 1 if any fails, in every mode; about twenty minutes, depending on the machine), one round with `python3 -I pg_v36_numerics.py v36_0`, `v36_1` (with the v36.0 computations it builds on) or `v36_2`, or the sub-minute checks with `quick` (9 checks, for a referee's time limit); an unknown mode prints the usage line and exits with status 2. It embeds its data: the two Milky Way tables, McMillan 2017's parameters and the eight SPARC galaxies' rows. The frozen suites remain `pg_v35_numerics.py` (Parts XXX–XXXII, §XXX.10) and `pg_v34_numerics.py` (Part XXIX, §XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v36`, `v36_0`, `v36_1`, `v36_2` and `quick` run it and whose `all` runs the frozen v34.10 and v35.8 suites and Part XXXIII together (209 checks). The figures come from `pg_v36_0_plots.py`, `pg_v36_1_plots.py` and `pg_v36_2_plots.py`, which load this suite. SHA-256 of the file: `ac2654eec7a90fe9960cfdee506b8fe3dd86e445ad512cabe19542fd897f66b1`.*
 
 ```python
 """Projective Gravity v36 -- standalone numerical suite for Part XXXIII: the observed rotation curve (NumPy + SciPy only; Python 3.12/3.13
 tested).  Parts XXX-XXXII are frozen at v35.8 with their suite pg_v35_numerics.py; Part XXIX's frozen suite is pg_v34_numerics.py (v34.10).
 
 Run (from the directory holding this file):
-    python3 -I pg_v36_numerics.py              # current regression suite of Part XXXIII, v36.0 and v36.1 (check summary; several minutes)
+    python3 -I pg_v36_numerics.py              # current regression suite of Part XXXIII, v36.0-v36.2 (check summary; about twenty minutes)
     python3 -I pg_v36_numerics.py v36_0        # the v36.0 sections only
     python3 -I pg_v36_numerics.py v36_1        # the v36.1 sections, with the v36.0 computations they build on
+    python3 -I pg_v36_numerics.py v36_2        # the v36.2 sections only (Entries 323-324)
     python3 -I pg_v36_numerics.py quick        # the checks that run in well under a minute (for a referee's time limit)
 Every mode exits with status 1 if any check fails.
 
@@ -16437,7 +16443,16 @@ the ring counterexample to the R V^2/G diagnosis); the label condition corrected
 what survives it; the Milky Way's leaf radius optimized continuously with the comparison labelled a cold-tracer proxy, and the curved-space
 Jeans equation recorded; the exponential plateau's observable reach under a stated setup; the domain of the orbit statements and one radial
 period exactly; the author's leaf of 8 kpc under three readings; and Entry 322's curve-shape family as a classification of the pilot.
-v36_1_quick(): the sub-minute checks.
+
+v36_2_suite(): Entries 323-324 and the two responses.  Orbital occupancy on the leaf -- Schwarzschild's method for a thin population on the great
+2-sphere in the twin field (an orbit library of trapped, crossing and radial orbits with their time-averaged densities; the thin exponentials as
+cold, trapped stationary populations whose densities exclude crossing orbits; the broad gnomonic disk only as a hot one; the dwarfs' sources
+admitting no population as cold as their gas, and no axisymmetric placement of their required outer mass that keeps circular support), the
+rendering of a smoother source (the image of an arc-length exponential gains a tail, a fade adds mass; when the plateau coefficient is finite),
+the conformal rendering (the Mobius family of rendered uniform disks -- cored, floored, rational, not exponential -- the divergent factor an
+exponential needs, the five-dimensional transformation law), and the one checkable statement of the frame-selection hypothesis (how a disk's
+normal renders).
+v36_2_quick(): the sub-minute checks.
 """
 import numpy as np
 PI = np.pi
@@ -18298,7 +18313,8 @@ def v36_1_shape_family(pilot):
     above = [hl for hl in hls if sd[hl][3] > 1]
     print(f"     No member of the disk family is monotonic on this range: every one has a maximum, at {min(sd[h][4] for h in hls):.1f}-{max(sd[h][4] for h in hls):.1f} h, smallest ({sd[hb][0]:+.1%}) near h/ell = {hb:g}; for broad")
     print(f"     disks (h/ell >= {min(above):g} here; the transition lies between 0.19 and 0.22) the plateau is approached from above, so the bump grows with breadth instead of")
-    print(f"     vanishing.  Beyond h/ell = {sup_d[0]:.2f}-{sup_d[1]:.2f} the pushforward's own tail removes the circular support at the centre, as the dwarfs' gas did in v36.0-4.")
+    print(f"     vanishing.  Beyond h/ell = {sup_d[0]:.2f}-{sup_d[1]:.2f} the pushforward's own tail removes the circular support over a band inside (0.2-1.9 h at h/ell = 1, weak")
+    print(f"     support, v_c < 8 km/s, remaining inside it: v36.2-1), as the dwarfs' gas did in v36.0-4.")
     print("     Entry 322's no-bump family is the sphere's; this thin-disk family has none, because its plateau is C(h/ell) G M/ell (v36.1-1) while its maximum")
     print("     sits at the mass.  (On a range shorter than 12 h -- IC 2574 is measured to 3.7 R_disk, UGC 2885 to 6.5 -- the maximum can fall beyond the data.)")
     # (c) the eight galaxies, by observed shape and by the shape of PG's curve from their reconstructed sources on the arena leaf
@@ -18366,6 +18382,562 @@ def v36_1_shape_family(pilot):
     print("   [T] The two statistics.  [V] The families; the pilot's classes.  [D] Shape before amplitude; the disk family's bump; the dwarfs' gas.  [O] A relation for the index.")
     return dict(sphere=(sa, over_s, half_s, wig_s), disk=(sd, sup_d), rows=rows, cls_o=cls_o, cls_p=cls_p)
 
+# ==================================================================================================== v36.2 (16-17 October 2026): sections
+# Entries 323-324 and the two responses: orbital occupancy on the leaf (Schwarzschild's method for a thin population on the great 2-sphere),
+# the rendering of a smoother source, the conformal rendering, and the frame-selection hypothesis's one checkable statement.
+# ------------------------------------------------------------------------------------------------ orbital occupancy on the leaf
+def _v36_disk_Phi(Sig, ell, M, brk, n=160, neq=40):
+    """Phi(chi) (km/s)^2 on (0, pi) of a thin axisymmetric source Sig on the near hemisphere of the great 2-sphere: -2 (G M/ell) psi/norm
+    from the disk quadrature on a grid geometric near the pole, uniform in the middle and geometric toward the equator, mirrored about the
+    equator (the twin field is symmetric).  Returns the spline, the grid, psi and the normalization."""
+    from scipy.interpolate import CubicSpline
+    xs = np.concatenate([np.geomspace(2e-3, 0.05, 12)[:-1], np.linspace(0.05, PI/2 - 0.1, n), PI/2 - np.geomspace(0.1, 5e-4, neq)[1:], [PI/2]])
+    e = sorted(set([0.0, PI/2] + [p for p in brk if 0 < p < PI/2])); norm = 0.0
+    for a, b in zip(e[:-1], e[1:]):
+        t, w = _v36_graded(a, b, False, False); norm += np.sum(w*Sig(t)*np.sin(t))
+    norm *= 2*PI
+    psi = np.array([_v36_disk_psi(Sig, x, PI/2, brk) for x in xs])/norm
+    X = np.concatenate([xs[:-1], [PI/2], PI - xs[:-1][::-1]]); P = np.concatenate([psi[:-1], [psi[-1]], psi[:-1][::-1]])
+    return CubicSpline(X, -2*(_V36_GK*M/ell)*P), xs, psi, norm
+
+def _v36_occ(Phi, ell, L, E, edges, nth=3000):
+    """The orbit (E, L) on the great 2-sphere in the field Phi: the fraction of its radial period spent in each bin of 'edges' (on (0, pi)),
+    its turning points and its period.  The region is the connected set U_eff < E holding the global minimum of U_eff = Phi + L^2/(2 ell^2
+    sin^2 chi); dt = dchi/|chi_dot| with |chi_dot| = sqrt(2 (E - U))/ell, the inverse-square-root endpoints removed by chi = c - d cos theta.
+    None if E is below the well."""
+    from scipy.optimize import brentq
+    U = (lambda x: Phi(x) + L**2/(2*ell**2*np.sin(x)**2)) if L > 0 else (lambda x: Phi(x))
+    xg = np.linspace(1e-5, PI-1e-5, 6000); Ug = U(xg); below = Ug < E
+    i0 = int(np.argmin(Ug))
+    if not below[i0]: return None
+    a = i0
+    while a > 0 and below[a-1]: a -= 1
+    b = i0
+    while b < len(xg)-1 and below[b+1]: b += 1
+    x1 = brentq(lambda x: U(x) - E, xg[a-1], xg[a]) if a > 0 else 0.0
+    x2 = brentq(lambda x: U(x) - E, xg[b], xg[b+1]) if b < len(xg)-1 else PI
+    th = (np.arange(nth) + 0.5)*PI/nth; c = 0.5*(x1 + x2); d = 0.5*(x2 - x1)
+    x = c - d*np.cos(th); v2 = 2*(E - U(x))/ell**2
+    w = np.where(v2 > 0, d*np.sin(th)/np.sqrt(np.where(v2 > 0, v2, 1.0)), 0.0)
+    h, _ = np.histogram(x, bins=edges, weights=w)
+    return h/w.sum(), x1, x2, 2*w.sum()*PI/nth                        # the full radial period (there and back)
+
+def _v36_library(Phi, ell, vscale, edges, nL=100, nE=30, nS=12, Lmax_fac=1.6, span_fac=4.0):
+    """An orbit library: L = 0 (radial orbits through the pole) and a geometric grid of L from 1e-3 to Lmax_fac times ell vscale; for each L,
+    energies on a ladder above the well's minimum (to span_fac vscale^2 above it) and on ladders just above every saddle of U_eff (the
+    equatorial barrier for L < ell v_eq, the central hill where the field is repulsive).  Returns the occupancy matrix (orbits x bins on
+    (0, pi)) and the orbit table."""
+    Ls = np.concatenate([[0.0], np.geomspace(1e-3, Lmax_fac, nL)*ell*vscale])
+    rows, tab = [], []; xg = np.linspace(1e-5, PI/2, 6000)
+    for L in Ls:
+        U = (lambda x, L=L: Phi(x) + L**2/(2*ell**2*np.sin(x)**2)) if L > 0 else (lambda x: Phi(x))
+        Ug = U(xg); Umin = Ug.min(); span = span_fac*vscale**2
+        Es = list(Umin + span*np.geomspace(1e-4, 1.0, nE))
+        loc = np.where((Ug[1:-1] > Ug[:-2]) & (Ug[1:-1] > Ug[2:]))[0] + 1
+        sad = [Ug[i] for i in loc]
+        if Ug[-1] > Ug[-2]: sad.append(Ug[-1])
+        if L == 0 and Ug[0] > Ug[1]: sad.append(Ug[0])
+        for s in sad: Es += list(s + span*np.geomspace(1e-5, 0.3, nS))
+        for E in Es:
+            r = _v36_occ(Phi, ell, L, E, edges)
+            if r is None: continue
+            occ, x1, x2, T = r
+            rows.append(occ); tab.append(dict(L=L, E=E, x1=x1, x2=x2, T=T, cross=(x1 < PI/2 - 1e-9) and (x2 > PI/2 + 1e-9)))   # a trapped orbit may be found in the far-side mirror well
+    return np.array(rows), tab
+
+def _v36_edges(n_in=36, chi_in=80.0, n_eq=20):
+    """Bin edges on (0, pi), symmetric about the equator: n_in uniform bins to chi_in degrees, n_eq to the equator, and their mirrors."""
+    a = np.linspace(0, np.radians(chi_in), n_in + 1); b = np.linspace(np.radians(chi_in), PI/2, n_eq + 1)[1:]
+    eh = np.concatenate([a, b]); return np.concatenate([eh, PI - eh[:-1][::-1]])
+
+def _v36_fold(occ, edges):
+    """Occupancy on (0, pi) folded onto the near hemisphere (the twin identification; the far-side arc is drawn through the near image)."""
+    n = len(edges) - 1; return occ[:, :n//2] + occ[:, n//2:][:, ::-1]
+
+def _v36_kin(occ, tab, Phi, ell, edges):
+    """The folded occupancy F (orbits x near bins), and the matrices whose N-weighted sums give the mass-weighted mean v_phi (V) and mean
+    v_r^2 (S2) per bin: an orbit's v_phi = L/(ell sin chi) and v_r^2 = 2 (E - U_eff(chi)) at the bin centre."""
+    nb = len(edges) - 1; eh = edges[:nb//2+1]; xc = 0.5*(eh[1:] + eh[:-1])
+    F = _v36_fold(occ, edges); V = np.zeros_like(F); S2 = np.zeros_like(F)
+    for k, t in enumerate(tab):
+        L, E = t['L'], t['E']
+        U = Phi(xc) + (L**2/(2*ell**2*np.sin(xc)**2) if L > 0 else 0.0)
+        V[k] = F[k]*L/(ell*np.sin(xc)); S2[k] = F[k]*np.maximum(2*(E - U), 0.0)
+    return F, V, S2, xc
+
+def _v36_target_bins(Sig, eh):
+    from scipy.integrate import quad
+    t = np.array([quad(lambda u: Sig(u)*np.sin(u), a, b, limit=200)[0] for a, b in zip(eh[:-1], eh[1:])]); return t/t.sum()
+
+_V36_LP_TROUBLE = []
+def _v36_lp_status(r):
+    """HiGHS status: 0 optimal, 2 infeasible; anything else (iteration or time limit, numerical trouble) is recorded and reported by the check."""
+    if r.status not in (0, 2): _V36_LP_TROUBLE.append(r.message)
+    return r.status
+
+def _v36_lp(F, tgt, sel, tol, which, fit_bins=None):
+    """min or max of sum_k N_k sel_k over nonnegative populations of unit mass whose folded density matches tgt on fit_bins within tol
+    (relative, plus 1e-4 of the largest bin).  Returns (value, N) or (None, None) if infeasible."""
+    from scipy.optimize import linprog
+    nb = F.shape[1]; fb = np.arange(nb) if fit_bins is None else fit_bins
+    A = F[:, fb].T; b = tgt[fb]; band = tol*b + 1e-4*b.max()
+    r = linprog(np.asarray(sel, float)*(1 if which == 'min' else -1), A_ub=np.vstack([A, -A]), b_ub=np.concatenate([b + band, -(b - band)]),
+                A_eq=np.ones((1, F.shape[0])), b_eq=[1.0], bounds=(0, None), method='highs-ipm', options=dict(time_limit=300))
+    return ((r.fun if which == 'min' else -r.fun), r.x) if _v36_lp_status(r) == 0 else (None, None)
+
+def _v36_feasible_tol(F, tgt, fit_bins=None):
+    """The smallest per-bin tolerance at which a nonnegative population reproduces tgt on fit_bins (bisection on feasibility; 1e-3 floor)."""
+    from scipy.optimize import linprog
+    nb = F.shape[1]; fb = np.arange(nb) if fit_bins is None else fit_bins
+    def feas(tol):
+        A = F[:, fb].T; b = tgt[fb]; band = tol*b + 1e-4*b.max()
+        r = linprog(np.zeros(F.shape[0]), A_ub=np.vstack([A, -A]), b_ub=np.concatenate([b + band, -(b - band)]),
+                    A_eq=np.ones((1, F.shape[0])), b_eq=[1.0], bounds=(0, None), method='highs-ipm', options=dict(time_limit=300))
+        return _v36_lp_status(r) == 0
+    if feas(1e-3): return 1e-3
+    if not feas(1.0): return None
+    lo, hi = 1e-3, 1.0
+    for _ in range(20):
+        m = np.sqrt(lo*hi)
+        if feas(m): hi = m
+        else: lo = m
+    return hi
+
+def _v36_cold(F, V, S2, tgt, fb, vobs, sig_max, dtol=0.02, vtol=0.2):
+    """Is there a population with the density tgt on the bins fb (within dtol), a mean v_phi within vtol of vobs there (skipped if vtol is
+    None) and a radial dispersion below sig_max in each of them?  Returns (feasible, N)."""
+    from scipy.optimize import linprog
+    A_ub, b_ub = [], []
+    for i in fb:
+        A_ub.append(F[:, i]); b_ub.append(tgt[i]*(1 + dtol)); A_ub.append(-F[:, i]); b_ub.append(-tgt[i]*(1 - dtol))
+        if vtol is not None:
+            A_ub.append(V[:, i] - (1 + vtol)*vobs[i]*F[:, i]); b_ub.append(0.0)
+            A_ub.append((1 - vtol)*vobs[i]*F[:, i] - V[:, i]); b_ub.append(0.0)
+        A_ub.append(S2[:, i] - sig_max**2*F[:, i]); b_ub.append(0.0)
+    r = linprog(np.zeros(F.shape[0]), A_ub=np.array(A_ub), b_ub=np.array(b_ub), A_eq=np.ones((1, F.shape[0])), b_eq=[1.0], bounds=(0, None), method='highs-ipm', options=dict(time_limit=300))
+    return _v36_lp_status(r) == 0, (r.x if r.status == 0 else None)
+
+def _v36_cold2(F, V, S2, tgt_s, tgt_g, fb, vobs, sig_max, dtol=0.02, vtol=0.2):
+    """Two components from one library: stellar weights N_s and gas weights N_g (nonnegative), the stellar and gas densities each matched on the
+    bins fb within dtol (fractions of the total mass; the components' totals fixed), the gas's mean v_phi within vtol of vobs (skipped if vtol is
+    None) and its radial dispersion below sig_max in each bin.  Returns (feasible, N_s, N_g)."""
+    from scipy.optimize import linprog
+    K = F.shape[0]; A_ub, b_ub = [], []
+    for i in fb:
+        for off, tg in ((0, tgt_s), (K, tgt_g)):
+            row = np.zeros(2*K); row[off:off+K] = F[:, i]
+            A_ub.append(row); b_ub.append(tg[i]*(1 + dtol)); A_ub.append(-row); b_ub.append(-tg[i]*(1 - dtol))
+        if vtol is not None:
+            r1 = np.zeros(2*K); r1[K:] = V[:, i] - (1 + vtol)*vobs[i]*F[:, i]; A_ub.append(r1); b_ub.append(0.0)
+            r2 = np.zeros(2*K); r2[K:] = (1 - vtol)*vobs[i]*F[:, i] - V[:, i]; A_ub.append(r2); b_ub.append(0.0)
+        r3 = np.zeros(2*K); r3[K:] = S2[:, i] - sig_max**2*F[:, i]; A_ub.append(r3); b_ub.append(0.0)
+    A_eq = np.zeros((2, 2*K)); A_eq[0, :K] = 1.0; A_eq[1, K:] = 1.0
+    r = linprog(np.zeros(2*K), A_ub=np.array(A_ub), b_ub=np.array(b_ub), A_eq=A_eq, b_eq=[tgt_s.sum(), tgt_g.sum()], bounds=(0, None), method='highs-ipm', options=dict(time_limit=300))
+    ok = _v36_lp_status(r) == 0
+    return ok, (r.x[:K] if ok else None), (r.x[K:] if ok else None)
+
+def _v36_least_sigma2(F, V, S2, tgt_s, tgt_g, fb, vobs, dtol=0.02, vtol=0.2):
+    lo, hi = 1.0, 400.0
+    if not _v36_cold2(F, V, S2, tgt_s, tgt_g, fb, vobs, hi, dtol, vtol)[0]: return None
+    for _ in range(12):
+        m = np.sqrt(lo*hi)
+        if _v36_cold2(F, V, S2, tgt_s, tgt_g, fb, vobs, m, dtol, vtol)[0]: hi = m
+        else: lo = m
+    return hi
+
+def _v36_bands(P_, ell, Rmax=None):
+    """The radial bands (kpc, in the image) where v_c^2 < 0, from a 600-point scan of 0.3 deg to the equator."""
+    xx = np.linspace(0.005, PI/2 - 1e-6, 600); neg = np.tan(xx)*P_(xx, 1) < 0; out = []; i = 0
+    while i < len(xx):
+        if neg[i]:
+            j = i
+            while j + 1 < len(xx) and neg[j+1]: j += 1
+            out.append((ell*np.tan(xx[i]), ell*np.tan(xx[j]))); i = j + 1
+        else: i += 1
+    return out
+
+def _v36_least_sigma(F, V, S2, tgt, fb, vobs, dtol=0.02, vtol=0.2):
+    """The smallest uniform bound on the radial dispersion for which such a population exists (bisection; None if none below 400 km/s)."""
+    lo, hi = 1.0, 400.0
+    if not _v36_cold(F, V, S2, tgt, fb, vobs, hi, dtol, vtol)[0]: return None
+    for _ in range(14):
+        m = np.sqrt(lo*hi)
+        if _v36_cold(F, V, S2, tgt, fb, vobs, m, dtol, vtol)[0]: hi = m
+        else: lo = m
+    return hi
+
+def _v36_pop_density(mass_bins, eh, ell, M):
+    """The surface density (Msun/kpc^2 on the leaf) of a population with the folded bin masses: log-linear between bin centres, floored."""
+    xc = 0.5*(eh[1:] + eh[:-1]); area = 2*PI*ell**2*(np.cos(eh[:-1]) - np.cos(eh[1:]))
+    S = np.maximum(mass_bins*M/area, 1e-8*np.max(mass_bins*M/area)); lg = np.log(S)
+    return lambda x: np.where(x < PI/2-1e-9, np.exp(np.interp(x, xc, lg)), 0.0)
+
+def _v36_orbit_C(Phi, ell, L, E, x1, x2, T, hs=(0.01, 0.005)):
+    """The plateau coefficient C = 2 psi''(pi/2) of one orbit's time-averaged density (unit mass, folded), by the solver's second difference
+    with Richardson: finite, because the density is smooth across the equator for a crossing orbit."""
+    U = (lambda x: Phi(x) + L**2/(2*ell**2*np.sin(x)**2)) if L > 0 else (lambda x: Phi(x))
+    def P(x):                                                     # the density in chi over one radial period: 2 dt/(T dchi), T the full period
+        x = np.asarray(x, float); inside = (x > x1) & (x < x2)
+        v2 = 2*(E - U(np.where(inside, x, 0.5*(x1+x2))))/ell**2; inside = inside & (v2 > 0)
+        return np.where(inside, 2.0/(T*np.sqrt(np.where(inside, v2, 1.0))), 0.0)
+    Sig = lambda x: (P(np.asarray(x, float)) + P(PI - np.asarray(x, float)))/(2*PI*np.maximum(np.sin(np.asarray(x, float)), 1e-300))
+    pts = []
+    for xt in (x1, x2, PI - x2, PI - x1):
+        if 0 < xt < PI/2: pts += [xt] + [xt + s*(x2 - x1)*2.0**(-k) for k in range(1, 9) for s in (-1, 1)]
+    brk = []
+    for p in sorted(pts):                                         # merge points closer than 1e-9 (a turning point and its mirror coincide)
+        if 0 < p < PI/2 - 1e-9 and (not brk or p - brk[-1] > 1e-9): brk.append(p)
+    e = sorted(set([0.0, PI/2] + brk)); norm = 0.0
+    for a, b in zip(e[:-1], e[1:]):
+        t, w = _v36_graded(a, b, False, False); norm += np.sum(w*Sig(t)*np.sin(t))
+    norm *= 2*PI
+    p0 = _v36_disk_psi(Sig, PI/2, PI/2, brk)/norm
+    c = [4*(_v36_disk_psi(Sig, PI/2-h, PI/2, brk)/norm - p0)/h**2 for h in hs]
+    return (4*c[1] - c[0])/3
+
+def _v36_ring_v2(x, u, ell, M, h=1e-4):
+    """v^2 in the plane at polar angles x from a thin ring of mass M at polar angle u: psi_ring = K(x, u) for unit mass, v^2 = (G M/ell)(-2 tan x dK/dx)."""
+    K = lambda xx: np.array([float(_v36_ring_kernel(xi, np.array([u]))[0]) for xi in np.atleast_1d(xx)])
+    return (_V36_GK*M/ell)*(-2*np.tan(x)*(K(x + h) - K(x - h))/(2*h))
+
+def v36_2_occupancy():
+    print("\n== v36.2-1. Orbital occupancy on the leaf (Entry 323): can a stationary population of trapped and crossing orbits be the source it needs? (R332) ==")
+    print("   A thin axisymmetric population on the great 2-sphere of the disk plane, in the twin-symmetric field of a thin source: an orbit (E, L) with")
+    print("   E = (1/2) ell^2 chi_dot^2 + U_eff, U_eff = Phi + L^2/(2 ell^2 sin^2 chi), spends dt = dchi/|chi_dot| at each chi (P(chi) ~ 1/sqrt(E - U_eff)); its")
+    print("   time-averaged surface density is P(chi)/(2 pi ell^2 sin chi), folded onto the near hemisphere by the twin identification.  A nonnegative")
+    print("   superposition of such orbits reproducing a given density is Schwarzschild's method on the leaf; the field is the source's own (self-consistent")
+    print("   when the population's density is the source), and the question of the kinematics -- how cold such a population can be -- is a linear program.")
+    from scipy.integrate import solve_ivp
+    cap = lambda x: np.minimum(x, PI/2-1e-9)
+    ell, M = 16.0, 6e10; out = {}
+    edges = _v36_edges(); nb = len(edges) - 1; eh = edges[:nb//2+1]
+    # (a) the facts about crossing orbits near the equator, in the field of the exact gnomonic exponential disk h/ell = 0.1875 (the Milky Way-like member)
+    hl = 0.1875
+    Sig = lambda x: np.where(x < PI/2-1e-9, np.exp(-np.tan(cap(x))/hl)/np.cos(cap(x))**3, 0.0)
+    brk = [b for b in np.arctan(np.array([0.5, 1, 3, 10, 30])*hl) if b < PI/2]
+    Phi, xs, psi, norm = _v36_disk_Phi(Sig, ell, M, brk); veq = float(np.sqrt(_v36_C_exp_disk(hl)*_V36_GK*M/ell))
+    d2 = -(Phi(PI/2-0.005) - 2*Phi(PI/2) + Phi(PI/2+0.005))/0.005**2
+    print(f"   (a) The field of the gnomonic exponential disk h/ell = {hl} on ell = 16 kpc (6e10 Msun): v_eq = {veq:.1f} km/s (the spline's -Phi''(pi/2): {np.sqrt(d2):.1f}).")
+    print("     Time within 10 deg of the equator (R > 91 kpc in the image; 11% of the chi range) per radial period, for crossing orbits:")
+    fe = np.linspace(0, PI, 181); facts = {}
+    for Lf in (0.5, 0.8, 0.95, 1.1, 1.3):
+        L = Lf*ell*veq; U = lambda x: Phi(x) + L**2/(2*ell**2*np.sin(x)**2)
+        Ub = float(U(PI/2)); xg = np.linspace(1e-4, PI/2, 4000); Umin = float(U(xg).min())
+        row = []
+        for dE in (0.01, 0.1, 1.0):
+            E = (Ub if Lf < 1 else Umin) + dE*veq**2
+            o, x1, x2, T = _v36_occ(Phi, ell, L, E, fe)
+            near = o[(fe[:-1] >= PI/2 - np.radians(10)) & (fe[1:] <= PI/2 + np.radians(10))].sum(); row.append((dE, x1, x2, T, near))
+        facts[Lf] = row
+        print(f"       L = {Lf:.2f} ell v_eq ({'a barrier at the equator' if Lf < 1 else 'a single well about it'}): " +
+              "; ".join(f"E - {'U(eq)' if Lf < 1 else 'U_min'} = {dE:.2f} v_eq^2: chi {np.degrees(x1):5.1f}-{np.degrees(x2):5.1f}, {near:.2f} of the period" for dE, x1, x2, T, near in row))
+    print("     For the disk's crossing orbits (L < ell v_eq) the equator is the top of the barrier, where they are slowest: just above the barrier energy")
+    print("     they spend about 0.3 of each period within 10 deg of it, 0.13 at a v_eq^2 above.  Orbits with L > ell v_eq oscillate about the equator and are")
+    print("     fastest there.  The second response's schematic ('fastest radially near the equator') describes the second family, not the disk's.")
+    # control: one orbit's period by direct integration against the quadrature
+    L = 0.8*ell*veq; E = float(Phi(PI/2) + L**2/(2*ell**2)) + 0.1*veq**2
+    o, x1, x2, T = _v36_occ(Phi, ell, L, E, fe)
+    f = lambda t, Y: [Y[1], np.sin(Y[0])*np.cos(Y[0])*(L/(ell**2*np.sin(Y[0])**2))**2 - Phi(Y[0], 1)/ell**2]
+    s = solve_ivp(f, (0.0, 3*T), [x1 + 1e-7, 0.0], method='DOP853', rtol=1e-11, atol=1e-13, dense_output=True, max_step=0.005)
+    tg = np.linspace(0.02, 3*T, 60001); vr = s.sol(tg)[1]
+    from scipy.optimize import brentq
+    i = int(np.argmax((vr[:-1] < 0) & (vr[1:] >= 0))); T_int = brentq(lambda t: s.sol(t)[1], tg[i], tg[i+1], xtol=1e-12)
+    chi_int = s.sol(np.linspace(0, T_int, 200001))[0]; near_int = float(np.mean(np.abs(chi_int - PI/2) < np.radians(10)))
+    print(f"     Control: the orbit L = 0.8 ell v_eq, E - U(eq) = 0.1 v_eq^2 integrated directly: period {T_int:.5f} against the quadrature's {T:.5f} kpc/(km/s);")
+    print(f"     time within 10 deg of the equator {near_int:.4f} against {o[(fe[:-1] >= PI/2 - np.radians(10)) & (fe[1:] <= PI/2 + np.radians(10))].sum():.4f}.")
+    ok_a = abs(T_int/T - 1) < 1e-4 and abs(near_int - o[(fe[:-1] >= PI/2 - np.radians(10)) & (fe[1:] <= PI/2 + np.radians(10))].sum()) < 2e-3
+    # per-orbit plateau shares: crossing orbits have negative C (their smooth density across the equator pulls the equatorial orbit outward)
+    Cs = {}
+    for lab, Lf, dE, base in (("trapped inside 37 deg", 0.3, 0.3, 'min'), ("crossing, L = 0.5", 0.5, 0.01, 'eq'), ("crossing, L = 0.8", 0.8, 0.1, 'eq'), ("about the equator, L = 1.3", 1.3, 0.01, 'min')):
+        L = Lf*ell*veq; U = lambda x: Phi(x) + L**2/(2*ell**2*np.sin(x)**2); xg = np.linspace(1e-4, PI/2, 4000)
+        E = (float(U(xg).min()) if base == 'min' else float(U(PI/2))) + dE*veq**2
+        o, x1, x2, T = _v36_occ(Phi, ell, L, E, fe); Cs[lab] = _v36_orbit_C(Phi, ell, L, E, x1, x2, T)
+    print("     Each orbit's own share of the plateau coefficient, C = 2 psi''(pi/2) of its time-averaged density (the solver's second difference; the ring")
+    print("     formula does not apply to a density that does not vanish at the equator, v36.2-2): " + "; ".join(f"{k}: {v:+.2f}" for k, v in Cs.items()) + ".")
+    print("     A trapped orbit counts like a ring inside (+); a crossing orbit's density is smooth across the equator and pulls the equatorial orbit outward (-).")
+    out['facts'] = facts; out['Cs'] = Cs
+    # (b) three disks: a stationary population exists?  how much must cross?  how cold can it be?
+    print("   (b) Schwarzschild on the leaf for three sources (bins of 2.2 deg to 80 deg and 0.5 deg to the equator; the population's density matched")
+    print("     bin by bin within a relative tolerance plus 1e-4 of the largest bin; 'tolerance' the smallest relative per-bin mismatch at which a nonnegative")
+    print("     population exists, 0.001 being the bisection's floor; 'crossing' an orbit whose turning points lie on opposite sides of the equator):")
+    print("       source                                   orbits  tolerance  crossing mass (range, at 1% per bin)  least sigma_r: at v_c on supported bins / free on all inner bins   v_c^2 < 0 on")
+    disks = {}
+    for lab, S, bk, vs, Rl in (("gnomonic exponential, h/ell = 0.1875", Sig, brk, veq, 12*hl*ell),
+                                ("gnomonic exponential, h/ell = 1", lambda x: np.where(x < PI/2-1e-9, np.exp(-np.tan(cap(x)))/np.cos(cap(x))**3, 0.0),
+                                 [b for b in np.arctan(np.array([0.5, 1, 3, 10, 30])) if b < PI/2], float(np.sqrt(_v36_C_exp_disk(1.0)*_V36_GK*M/ell)), 192.0),
+                                ("arc-length exponential, h = 3 kpc", lambda x: np.exp(-ell*x/3.0), [np.arctan(a*3.0/ell) for a in (1, 3, 10)], 221.0, 36.0)):
+        P_ = Phi if lab.endswith("0.1875") else _v36_disk_Phi(S, ell, M, bk)[0]
+        occ, tab = _v36_library(P_, ell, vs, edges); F, V, S2, xc = _v36_kin(occ, tab, P_, ell, edges); tgt = _v36_target_bins(S, eh)
+        cross = np.array([t['cross'] for t in tab]); Lk = np.array([t['L'] for t in tab])
+        tmin = _v36_feasible_tol(F, tgt); tol = max(tmin, 0.01) if tmin is not None else None
+        lo, _ = _v36_lp(F, tgt, cross, tol, 'min'); hi, _ = _v36_lp(F, tgt, cross, tol, 'max')
+        xl = np.arctan(Rl/ell); fb = np.where(eh[1:] <= xl + 1e-12)[0]; fb = fb[ell*np.tan(xc[fb]) >= 1.0]
+        vc2 = np.tan(xc)*P_(xc, 1); sup = vc2 > 0; vc = np.sqrt(np.maximum(vc2, 0))
+        s_rot = _v36_least_sigma(F, V, S2, tgt, fb[sup[fb]], vc); s_free = _v36_least_sigma(F, V, S2, tgt, fb, vc, vtol=None)
+        okf, Nf = _v36_cold(F, V, S2, tgt, fb, vc, (s_free*1.001) if s_free else 400.0, vtol=None)
+        far = float((F.T @ Nf)[eh[1:] > np.arctan(Rl/ell) + 1e-12].sum()) if Nf is not None else float('nan'); src_far = float(tgt[eh[1:] > np.arctan(Rl/ell) + 1e-12].sum())
+        # the crossing fraction with the density matched inside R_last only (the measured range), at 1% and 5%
+        fbr = np.where(eh[1:] <= np.arctan(Rl/ell) + 1e-12)[0]
+        lor1, _ = _v36_lp(F, tgt, cross, 0.01, 'min', fbr); hir1, _ = _v36_lp(F, tgt, cross, 0.01, 'max', fbr); hir5, _ = _v36_lp(F, tgt, cross, 0.05, 'max', fbr)
+        bands = _v36_bands(P_, ell); unsup = "; ".join(f"{a:.1f}-{b:.1f} kpc" if b < 10 else f"{a:.1f}-{b:.0f} kpc" for a, b in bands) if bands else "nowhere"
+        disks[lab] = dict(tol=tmin, lo=lo, hi=hi, hir1=hir1, hir5=hir5, s_rot=s_rot, s_free=s_free, unsup=unsup, n=len(tab), far=far, src_far=src_far, bands=bands)
+        print(f"       {lab:40s} {len(tab):5d}  {tmin:8.3f}   {lo:.3f}-{hi:.3f}            {s_rot if s_rot is None else round(s_rot, 1)} / {s_free if s_free is None else round(s_free, 1)} km/s{'' if sup[fb].all() else ' (the supported bins start at R = %.0f kpc)' % (ell*np.tan(xc[fb[sup[fb]]][0]))}   {unsup}")
+        print(f"         (crossing mass with the density matched only inside R_last = {Rl:.0f} kpc: at most {hir1:.3f} at 1% per bin, {hir5:.3f} at 5%; the least-dispersion population's mass beyond R_last {far:.4f}, the source's own {src_far:.4f})")
+    d1 = disks["gnomonic exponential, h/ell = 1"]; dthin = disks["gnomonic exponential, h/ell = 0.1875"]
+    vin = [float(np.sqrt(max(np.tan(np.arctan(r/ell))*_v36_disk_Phi(lambda x: np.where(x < PI/2-1e-9, np.exp(-np.tan(cap(x)))/np.cos(cap(x))**3, 0.0), ell, M, [b for b in np.arctan(np.array([0.5, 1, 3, 10, 30])) if b < PI/2])[0](np.arctan(r/ell), 1), 0))) for r in (0.5, 1.0, 2.0, 3.0)]
+    print("     The two thin exponentials (the Milky Way-like gnomonic member and the arc-length one) are stationary populations that can be as cold as the")
+    print(f"     library resolves (near-circular orbits; the {min(disks[k]['s_rot'] for k in disks if disks[k]['s_rot']):.0f}-{max(disks[k]['s_rot'] for k in disks if 'h/ell = 1' not in k and disks[k]['s_rot']):.0f} km/s is the L grid's spacing, 7.6%, not a physical floor).  Their densities exclude")
+    print(f"     crossing orbits: a crossing orbit spends at least 0.13 of its period within 10 deg of the equator in the library (0.11, the band's share of chi, in the")
+    print(f"     high-energy limit), where these disks hold ~1e-4 of their mass, so the")
+    print(f"     crossing fraction is at most {max(dthin['hi'], disks['arc-length exponential, h = 3 kpc']['hi']):.3f} with the whole density matched, and {max(dthin['hir1'], disks['arc-length exponential, h = 3 kpc']['hir1']):.3f} (1%) to {max(dthin['hir5'], disks['arc-length exponential, h = 3 kpc']['hir5']):.3f} (5%) with it matched")
+    print("     only over the measured range (inside 12 h or 36 kpc): a thin exponential that holds to the equator is a trapped population.")
+    print("     The broad gnomonic member, h/ell = 1 (the dwarfs' R_half/ell_arena ~ 1.6 corresponds to h/ell ~ 1), is a stationary population too -- radial")
+    print(f"     orbits lingering on the central hill build its density where no circular orbit exists (v36.1-9's 'no circular support at the centre' is, precisely,")
+    print(f"     none on {d1['bands'][0][0]:.1f}-{d1['bands'][0][1]:.0f} kpc = 0.2-1.9 h; inside it the support is there but weak, v_c = {', '.join(f'{v:.1f}' for v in vin)} km/s at R = 0.5, 1, 2, 3 kpc) -- but only")
+    print(f"     a hot one: inside 30 kpc, with the rotation free, no population has a radial dispersion below {d1['s_free']:.0f} km/s; its crossing fraction is at most {d1['hi']:.3f}.")
+    out['disks'] = disks
+    # (c) the dwarfs: the support test with the outer mass as a ring, and the coldest population in the pushforward's field and in a self-consistent one
+    print("   (c) The two dwarfs on their arena leaves, under the gnomonic premise (the reconstructed stars, the gas inside R_last as the data fix it, and the")
+    print("     mass the total 1.33 M_HI requires beyond R_last; the folded density read as the image, i.e. the far-side arc drawn through the near image, v36.0-8(d)).")
+    print("     First, with that outer mass as one thin ring at polar angle u: is there a placement that keeps circular support (v^2 > 0) at every measured radius?")
+    dw = {}
+    for name in ("DDO154", "IC2574"):
+        g = _v36_sparc(name); Sst, Mst, Sg, Mg, bul, grms = _v36_sparc_sources(g)
+        Mb = Mst + Mg + (bul[1] if bul else 0.0); ellD = 3*np.sqrt(_V36_GK*Mb/_V36_A0); Rl = g['R'][-1]; R = g['R']; x = np.arctan(R/ellD)
+        Sgt = lambda r, Sg=Sg, Rl=Rl: np.where(np.asarray(r) <= Rl, Sg(r), 0.0)
+        bkD = sorted(set(np.arctan(np.concatenate([R, [0.5*Rl]])/ellD)))
+        v2in = np.zeros_like(R); Cg_in, Mg_in = _v36_C_disk_obs(Sgt, ellD, Rl)
+        for S, Mm in ((Sst, Mst), (Sgt, Mg_in)):
+            SL = lambda xx, S=S, ellD=ellD: np.where(xx < PI/2-1e-9, S(ellD*np.tan(cap(xx)))/np.cos(cap(xx))**3, 0.0)
+            v2in += _v36_disk_v2(SL, ellD, Mm, x, PI/2, bkD)
+        Mout = Mb - Mst - Mg_in; xl = np.arctan(Rl/ellD)
+        best = (None, -1); ringmax = -np.inf
+        for ud in np.concatenate([np.linspace(np.degrees(xl) + 0.5, 89.0, 30), [89.5, 89.9]]):
+            vr = _v36_ring_v2(x, np.radians(ud), ellD, Mout); ringmax = max(ringmax, float(vr.max())); tot = v2in + vr; nsup = int((tot > 0).sum())
+            if nsup > best[1]: best = (ud, nsup)
+        print(f"     {name}: ell = {ellD:.2f} kpc, {Mout/Mb:.0%} of M_b beyond R_last = {Rl:.1f} kpc (chi_last = {np.degrees(xl):.0f} deg); the inner source alone supports {int((v2in > 0).sum())} of {len(R)} radii"
+              f" (v({Rl:.1f} kpc) = {np.sqrt(max(v2in[-1], 0)):.0f} km/s, observed {g['Vobs'][-1]:.0f}); with the ring, at best {best[1]} of {len(R)} (first reached at u = {best[0]:.0f} deg; a tie over many u).  Every ring's")
+        v80 = _v36_ring_v2(x, np.radians(80.0), ellD, Mout)
+        print(f"       own v^2 is negative at every measured radius (the largest over u and R is {ringmax:.1f} (km/s)^2), so no nonnegative mixture of rings -- no axisymmetric placement")
+        print(f"       of the outer mass in the plane -- can raise the count: at u = 80 deg the ring gives {v80[0]:+.0f}, {v80[len(R)//2]:+.0f}, {v80[-1]:+.0f} (km/s)^2 at the first, middle and last radius")
+        print(f"       against the inner source's {v2in[0]:+.0f}, {v2in[len(R)//2]:+.0f}, {v2in[-1]:+.0f}.")
+        # the coldest population: the stars-plus-gas mixture, and the two components apart (rotation and dispersion on the gas), in the pushforward's
+        # field; then the mixture with the field iterated to the population's own density (damped), the range over the steps reported
+        Sig0 = lambda xx, Sst=Sst, Sg=Sg, ellD=ellD: np.where(xx < PI/2-1e-9, (Sst(ellD*np.tan(cap(xx))) + Sg(ellD*np.tan(cap(xx))))/np.cos(cap(xx))**3, 0.0)
+        SigS = lambda xx, Sst=Sst, ellD=ellD: np.where(xx < PI/2-1e-9, Sst(ellD*np.tan(cap(xx)))/np.cos(cap(xx))**3, 0.0)
+        SigG = lambda xx, Sg=Sg, ellD=ellD: np.where(xx < PI/2-1e-9, Sg(ellD*np.tan(cap(xx)))/np.cos(cap(xx))**3, 0.0)
+        brk0 = sorted(set(np.arctan(np.concatenate([R, [0.5*Rl, 2*Rl, 5*Rl, 20*Rl]])/ellD)))
+        tgt = _v36_target_bins(Sig0, eh); fb = np.where(eh[1:] <= xl + 1e-12)[0]
+        ts = _v36_target_bins(SigS, eh)*(Mst/Mb); tg = _v36_target_bins(SigG, eh)*(Mg/Mb)
+        SigI, brkI, prev = Sig0, brk0, None; hist = []; two = None
+        for it in range(6):
+            PhiI, _, _, _ = _v36_disk_Phi(SigI, ellD, Mb, brkI)
+            occ, tab = _v36_library(PhiI, ellD, 200.0, edges); F, V, S2, xc = _v36_kin(occ, tab, PhiI, ellD, edges)
+            vobs = np.interp(ellD*np.tan(xc), R, g['Vobs']); fb2 = fb[ellD*np.tan(xc[fb]) >= R[0]]
+            td = _v36_feasible_tol(F, tgt, fb2); dtol = max(0.02, 1.2*td) if td is not None else 0.1
+            smin = _v36_least_sigma(F, V, S2, tgt, fb2, vobs, dtol); sfree = _v36_least_sigma(F, V, S2, tgt, fb2, vobs, dtol, vtol=None)
+            if it == 0:                                                   # the two components apart, in the pushforward's field
+                tsol = _v36_feasible_tol(F, ts, fb2); two = dict(n=len(tab), dtol=dtol, tsol=tsol, rows=[])
+                for dt2 in (0.05, 0.1, 0.2, 0.3):
+                    ok2 = _v36_cold2(F, V, S2, ts, tg, fb2, vobs, 400.0, dt2, vtol=None)[0]
+                    two['rows'].append((dt2, ok2, _v36_least_sigma2(F, V, S2, ts, tg, fb2, vobs, dt2) if ok2 else None, _v36_least_sigma2(F, V, S2, ts, tg, fb2, vobs, dt2, vtol=None) if ok2 else None))
+            ok, N = _v36_cold(F, V, S2, tgt, fb2, vobs, (smin*1.001) if smin else 400.0, dtol)
+            if N is None: ok, N = _v36_cold(F, V, S2, tgt, fb2, vobs, (sfree*1.001) if sfree else 400.0, dtol, vtol=None)   # the seed: the least-dispersion population with the rotation free
+            fit = F.T @ N; mix = fit if prev is None else 0.5*(fit + prev); prev = mix
+            hist.append((smin, sfree, _v36_bands(PhiI, ellD), fit[eh[1:] > xl + 1e-12].sum(), dtol, len(tab)))
+            SigI = _v36_pop_density(mix, eh, ellD, Mb); brkI = list(eh[1:-1])
+        dw[name] = dict(best=best, nR=len(R), nin=int((v2in > 0).sum()), hist=hist, Mout=Mout/Mb, two=two, ringmax=ringmax)
+        fm = lambda v: "none below 400" if v is None else f"{v:.0f}"
+        bands = lambda b: "; ".join(f"{a:.1f}-{c:.1f}" if c < 10 else f"{a:.1f}-{c:.0f}" for a, c in b) + " kpc"
+        print(f"       The coldest stationary population reproducing the image inside R_last with the observed rotation (within 20%), stars and gas as one population:")
+        print(f"       in the pushforward's field ({hist[0][5]} orbits; the density to {hist[0][4]:.0%} per bin, 1.2 times its own feasibility tolerance or 2%) sigma_r >= {fm(hist[0][0])} km/s (rotation free: {fm(hist[0][1])}); v_c^2 < 0 there on {bands(hist[0][2])}.")
+        print(f"       The two components apart (the stellar and the gas image each matched; rotation and dispersion on the gas): the stellar image alone admits a")
+        print(f"       population only at a per-bin tolerance of {two['tsol'] if two['tsol'] is None else round(two['tsol'], 3)}; both together: " + "; ".join(f"at {dt:.0%} {'sigma_gas >= ' + fm(sr) + ' km/s (free ' + fm(sf) + ')' if ok2 else 'none'}" for dt, ok2, sr, sf in two['rows']) + ".")
+        rng = [h[0] for h in hist[1:] if h[0] is not None]; rngf = [h[1] for h in hist[1:] if h[1] is not None]
+        print(f"       With the field iterated to the mixture's own density (five damped steps from the least-dispersion population{' with the rotation free, the constrained one not existing' if hist[0][0] is None else ''}; not converged in the outer placement): sigma_r >= "
+              + ", ".join(fm(h[0]) for h in hist[1:]) + f" km/s (rotation free: " + ", ".join(fm(h[1]) for h in hist[1:]) + f"); at the last step v_c^2 < 0 on {bands(hist[-1][2])}, {hist[-1][3]:.0%} of the mass beyond R_last.")
+    print("     The observed HI dispersions of the two are about 7-10 km/s (THINGS: Oh et al. 2008, 2011; Ianjamasimanana et al. 2015).  Under the premises (collisionless, stationary, thin; the")
+    print("     gnomonic pushforward with the HI total on the leaf; the in-plane radial dispersion set against the line-of-sight HI dispersion), the dwarfs' sources")
+    print("     admit no stationary population as cold as their gas: the occupancy places the mass the total requires among the orbits that reproduce the image")
+    print("     (its amount is fixed by construction), and every such population is hot where the field lacks circular support and where v_obs is far from v_c.")
+    out['dwarfs'] = dw
+    ok_ctrl = (ok_a and abs(disks["gnomonic exponential, h/ell = 0.1875"]['tol'] - 1e-3) < 1e-9 and disks["arc-length exponential, h = 3 kpc"]['tol'] is not None
+               and Cs["trapped inside 37 deg"] > 0 and all(Cs[k] < 0 for k in Cs if k != "trapped inside 37 deg")
+               and all(dw[n]['ringmax'] < 0 for n in dw))
+    ok_rec = (abs(facts[0.8][0][4] - 0.287) < 0.02 and abs(facts[1.3][0][4] - 1.0) < 1e-3
+              and disks["gnomonic exponential, h/ell = 1"]['s_free'] is not None and abs(disks["gnomonic exponential, h/ell = 1"]['s_free'] - 34.9) < 3.0
+              and disks["gnomonic exponential, h/ell = 0.1875"]['s_rot'] is not None and abs(disks["gnomonic exponential, h/ell = 0.1875"]['s_rot'] - 10.5) < 2.0
+              and max(disks[k]['hi'] for k in disks) < 0.02
+              and dw["DDO154"]['best'][1] == 8 and dw["IC2574"]['best'][1] == 15 and dw["DDO154"]['hist'][0][0] is None
+              and abs(dw["IC2574"]['hist'][0][0] - 27.5) < 2.5 and all(h[0] is not None and 24 < h[0] < 40 for n in dw for h in dw[n]['hist'][1:]))
+    check(ok_ctrl and ok_rec and not _V36_LP_TROUBLE, "orbital occupancy -- controls: one orbit's period and equatorial time by direct integration (1e-4); the thin exponentials reproduced to the 0.1% floor; a trapped orbit's plateau share positive, crossing orbits' negative; every ring's field negative at every measured radius of the dwarfs; recorded outcomes reproduced: 0.29 of a period within 10 deg of the equator just above the barrier (L = 0.8), least sigma_r 34.9 +- 3 (h/ell = 1, free) and 10.5 +- 2 km/s (thin, at v_c), crossing fractions below 2%, the dwarfs' ring placements at best 8/12 and 15/34, no DDO 154 population with its rotation in the pushforward field, IC 2574's 27.5 +- 2.5 km/s, the iterated mixtures' bounds within 24-40 km/s")
+    print("   [T] The occupancy law; the linear programs.  [V] The three disks; the dwarfs.  [D] A thin exponential is a trapped population; a population is hot")
+    print("       where its field has no circular support; the dwarfs' gas is not.  [O] Gas with pressure and dissipation (argued, not computed); a photon-history law.")
+    return out
+
+# ------------------------------------------------------------------------------------------------ the rendering of a smoother source; the fade
+def v36_2_rendering():
+    print("\n== v36.2-2. The exponential as a rendering: the image of an arc-length exponential, the fade, and when the plateau coefficient is finite (R333) ==")
+    cap = lambda x: np.minimum(x, PI/2-1e-9)
+    ell, M, h = 16.0, 6e10, 3.0
+    # (a) the image of a source exponential in arc length: Sigma_vis(R) = Sigma(chi) cos^3 chi, R = ell tan chi
+    R = np.linspace(0.5, 60, 1191); chi = np.arctan(R/ell); Sv = np.exp(-ell*chi/h)*np.cos(chi)**3
+    hl = -1/np.gradient(np.log(Sv), R); rows = []
+    print(f"   (a) A source exponential in arc length on the leaf, Sigma = exp(-ell chi/h), h = {h:.0f} kpc on ell = {ell:.0f} kpc, rendered gnomonically with its mass")
+    print("     conserved (Sigma_vis = Sigma cos^3 chi): the image's local scale length -1/(d ln Sigma_vis/dR) and its ratio to the exponential exp(-R/h):")
+    for r in (1, 3, 6, 10, 16, 24, 32, 48):
+        i = int(np.argmin(abs(R - r))); rows.append((r, hl[i], Sv[i]/np.exp(-R[i]/h)))
+    print("       " + "; ".join(f"R = {r} kpc: {a:.2f} kpc, {b:.3f}" for r, a, b in rows))
+    print("     Exponential to 13% out to 10 kpc, then shallower: the rendering adds a tail (the arctangent saturates while cos^3 falls as a power), the")
+    print("     opposite of a deficit.  To render an exponential image the leaf needs the sec^3 tail -- more mass toward the equator, not less.")
+    Sig = lambda x: np.exp(-ell*x/h); brk = [np.arctan(a*h/ell) for a in (1, 3, 10)]
+    Rs = np.array([5.0, 10.0, 20.0, 50.0, 100.0, 200.0, 500.0, 1000.0, 3000.0])
+    v = np.sqrt(np.maximum(_v36_disk_v2(Sig, ell, M, np.arctan(Rs/ell), PI/2, brk), 0))
+    cs = _v36_C_solver(Sig, brk, hs=(0.04, 0.02, 0.01, 0.005))[0]
+    print(f"     Its curve: v = " + ", ".join(f"{a:.1f}" for a in v) + f" km/s at R = {', '.join(f'{r:.0f}' for r in Rs)} kpc -- flat to the eye, rising without bound:")
+    print(f"     the second differences of C at h = 0.04, 0.02, 0.01, 0.005 are {', '.join(f'{c:.3f}' for c in cs)}, growing logarithmically, because the density does not")
+    print(f"     vanish at the equator (Sigma(pi/2)/Sigma(0) = {np.exp(-ell*PI/2/h):.1e}, with a term linear in pi/2 - chi).")
+    # (b) when C is finite: Sigma ~ cos^p at the equator
+    print("   (b) The plateau coefficient of a thin source Sigma ~ cos^p chi at the equator, by the ring formula and by the solver's second differences:")
+    cp = {}
+    for p in (0, 1, 1.5, 2, 3):
+        S = lambda x, p=p: np.cos(np.minimum(x, PI/2))**p
+        vals, rich = _v36_C_solver(S, [], hs=(0.04, 0.02, 0.01, 0.005))
+        from scipy.integrate import quad
+        if p > 1:
+            num = quad(lambda u: float(_v36_C_ring(u))*np.cos(u)**p*np.sin(u), 0, PI/2-1e-9, limit=400)[0]; den = quad(lambda u: np.cos(u)**p*np.sin(u), 0, PI/2)[0]; rf = num/den
+        else: rf = None
+        cp[p] = (vals, rich, rf)
+        print(f"       p = {p}: solver {', '.join(f'{v_:.3f}' for v_ in vals)}" + (f"; ring formula {rf:.3f}" if rf is not None else "; ring formula divergent (C_ring ~ (2/pi) sec^2 u, so cos^p sin u sec^2 u is integrable at the equator only for p > 1)")
+              + (" -- the second differences converge as h^(p-1), so the Richardson step does not apply" if 1 < p < 3 else ""))
+    print("     The uniform great-sphere disk has no field at all (the twin kernel has zero mean, so the uniform source gives a constant psi): C = 0, not the")
+    print("     ring formula's +infinity; Sigma ~ cos chi gives a logarithmic divergence; cos^p with p > 1 (cos^2 included) gives a finite plateau.  The ring formula")
+    print("     is a superposition that converges only when Sigma vanishes at the equator faster than cos chi; the solver's second difference is the definition.")
+    print("     A stationary population's density is smooth and even across the equator (a crossing orbit has finite speed there), so its C is finite and")
+    print("     given by the solver, with the crossing orbits contributing negatively (v36.2-1(a)).")
+    # (c) the fade: light lost near the equator means more mass, not less
+    g = _v36_sparc("DDO154"); Sst, Mst, Sg, Mg, bul, grms = _v36_sparc_sources(g)
+    Mb = Mst + Mg; ellD = 3*np.sqrt(_V36_GK*Mb/_V36_A0); Rl = g['R'][-1]
+    print("   (c) The fade (the second response's section 4): if only a fraction eps(chi) of the light near the equator reaches the image, the inverse gives")
+    print("     Sigma_leaf = Sigma_obs/(eps cos^3 chi) -- more mass.  DDO 154's reconstructed source with eps = 1, cos chi, cos^2 chi, on the 2.02 kpc leaf and on the")
+    print("     arena leaf of the enlarged mass:")
+    fade = {}
+    for lab, eps in (("1", lambda x: 1.0 + 0*x), ("cos chi", lambda x: np.cos(x)), ("cos^2 chi", lambda x: np.cos(x)**2)):
+        Se = lambda r, eps=eps: (Sst(r) + Sg(r))/eps(np.arctan(np.asarray(r, float)/ellD))
+        C1, M1 = _v36_C_disk_obs(Se, ellD, 400*Rl); ell2 = 3*np.sqrt(_V36_GK*M1/_V36_A0); C2, M2 = _v36_C_disk_obs(Se, ell2, 400*Rl)
+        fade[lab] = (M1/Mb, C1, np.sqrt(C1*_V36_GK*M1/ellD), ell2, C2, np.sqrt(C2*_V36_GK*M2/ell2))
+        print(f"       eps = {lab:9s}: M = {M1/Mb:6.2f} M_b, C = {C1:6.1f}, v_inf = {np.sqrt(C1*_V36_GK*M1/ellD):5.0f} km/s on 2.02 kpc; on its own arena leaf ({ell2:5.2f} kpc) C = {C2:5.1f}, v_inf = {np.sqrt(C2*_V36_GK*M2/ell2):4.0f} km/s (observed V_flat 47)")
+    ok_ctrl = abs(cp[2][1] - cp[2][2]) < 2e-3 and abs(cp[3][1] - cp[3][2]) < 2e-3 and abs(cp[0][1]) < 1e-3 and np.all(np.diff(cp[1][0]) > 0.5) and np.all(np.diff(cp[1.5][0]) > 0) and cp[1.5][0][-1] < cp[1.5][2] < cp[1.5][0][-1] + 0.2
+    ok_rec = abs(rows[0][1] - 2.91) < 0.03 and abs(rows[5][2] - 2.71) < 0.1 and abs(fade["1"][2] - 197) < 2 and abs(fade["cos chi"][5] - 279) < 5 and abs(fade["cos^2 chi"][5] - 214) < 5 and v[-1] > v[2]
+    check(ok_ctrl and ok_rec, "the rendering -- controls: C of cos^2 and cos^3 sources by the ring formula and the solver agree (2e-3), the uniform disk has none (|C| < 1e-3), cos^1 diverges, cos^1.5 converges from below to the ring formula's value; recorded outcomes reproduced: the arc-length exponential's image has scale length 2.91 at 1 kpc and 2.7 times the exponential at 24 kpc, its curve rises without bound; DDO 154's v_inf = 197, 279 and 214 km/s (5 km/s) with eps = 1, cos chi, cos^2 chi")
+    print("   [T] The convergence condition.  [V] The image; the fades.  [D] The exponential is not a rendering artifact of a smoother leaf: mass-conserving")
+    print("       rendering and any fade both put more mass on the leaf, further out.  [O] A photon-history law that is not mass-conserving.")
+    return dict(rows=rows, cp=cp, fade=fade, v=v)
+
+# ------------------------------------------------------------------------------------------------ the conformal rendering
+def v36_2_conformal():
+    print("\n== v36.2-3. A conformal rendering (Entry 323's second idea): what keeps the leaf round, and what an exponential needs (R334) ==")
+    rng = np.random.default_rng(3)
+    def stereo(p): return p[:3]/(1 + p[3])
+    def unstereo(y):
+        r2 = y @ y; return np.concatenate([2*y, [1 - r2]])/(1 + r2)
+    def mobius(p, lam): return unstereo(lam*stereo(p))
+    print("   (a) The conformal maps of S^3 to itself that keep the round metric are the Mobius group; a dilation by e^s about a pole pulls the round metric")
+    print("     back to Omega^2 g with Omega(theta) = 1/(cosh s - sinh s cos theta) at the source angle theta, and the image angle is tan(theta'/2) = e^s tan(theta/2).")
+    print("     A uniform density Sigma_0 is rendered, mass conserved, as Sigma_0/Omega^2 at the source point, that is at the image angle theta' as")
+    print("     Sigma(theta') = Sigma_0/(cosh s + sinh s cos theta')^2:")
+    worst = 0.0; prof = {}
+    for s_ in (0.5, -1.0, -3.0):
+        lam = np.exp(s_)
+        for th in (0.3, 1.0, PI/2, 2.5):
+            p = np.array([np.sin(th), 0, 0, np.cos(th)])
+            E = (np.array([np.cos(th), 0, 0, -np.sin(th)]), np.array([0, 1, 0, 0]), np.array([0, 0, 1, 0]))
+            hh = 1e-6; J = np.array([(mobius(p + hh*e, lam) - mobius(p - hh*e, lam))/(2*hh) for e in E])
+            G = J @ J.T; Om = np.sqrt(G[0, 0]); worst = max(worst, abs(Om/(1/(np.cosh(s_) - np.sinh(s_)*np.cos(th))) - 1), np.max(np.abs(G - Om**2*np.eye(3))))
+            thp = 2*np.arctan(lam*np.tan(th/2))                                           # the image angle; the density there from the source's Omega
+            worst = max(worst, abs((np.cosh(s_) - np.sinh(s_)*np.cos(th))**2*(np.cosh(s_) + np.sinh(s_)*np.cos(thp))**2 - 1))
+        xr = np.array([0.0, 0.1, 0.3, 1.0, 3.0, 10.0, np.inf]); cth = 1/np.sqrt(1 + xr**2)
+        prof[s_] = (np.cosh(s_) + np.sinh(s_)*cth)**(-2)/(np.cosh(s_) + np.sinh(s_))**(-2)
+    # mass conservation of the rendered profile on the sphere: int Sigma dA = 4 pi Sigma_0
+    from scipy.integrate import quad
+    mass_err = max(abs(quad(lambda t: (np.cosh(s_) + np.sinh(s_)*np.cos(t))**(-2)*np.sin(t), 0, PI)[0]/2 - 1) for s_ in (0.5, -1.0, -3.0))
+    print(f"     checked by finite differences of the composed map at twelve points (the pulled-back metric conformal, the factor as stated, and the density at the image")
+    print(f"     angle, to {worst:.0e}); the rendered profile integrates to the source's mass on the sphere (to {mass_err:.0e}).  In gnomonic radius R = ell tan theta' the profile,")
+    print("     relative to its centre, is " + "; ".join(f"s = {s_}: " + ", ".join(f"{v:.1e}" for v in prof[s_]) for s_ in prof) + " at R/ell = 0, 0.1, 0.3, 1, 3, 10 and at the equator:")
+    print("     for s < 0 a cusp at the pole, with a centre-to-equator ratio e^(-2s) cosh^2 s (17.6 at s = -1, 4.1e4 at s = -3; unbounded as s -> -infinity),")
+    print("     a fall as R^-4 outside a core, and a floor Sigma_0/cosh^2 s that never vanishes: a one-parameter rational family, not an exponential at any s.")
+    print("     (v36.2's first draft stated a bound of 4 on this ratio; that was the image's equator-to-antipode ratio, (cosh s - sinh s)^2/cosh^2 s, a different")
+    print("     quantity.  Mobius elements with an off-centre pole are not addressed: they break the disk's axisymmetry.)")
+    print("   (b) Keeping only the topology, a mass-preserving conformal rescaling that renders a uniform disk as the gnomonic exponential needs e^{2 omega} ~")
+    print("     exp[(ell/h) tan chi], divergent at the equator (the second response's section 5): for h/ell = 0.1875 the factor at chi = 60, 80, 89 deg is")
+    print("     " + ", ".join(f"{np.exp(np.tan(np.radians(d))/0.1875):.1e}" for d in (60, 80, 89)) + " -- not a regular deformation of the closed leaf.")
+    # (c) the five-dimensional conformal transformation of the Einstein tensor, checked numerically on a conformally flat metric
+    n = 5; eta = np.diag([-1.0, 1, 1, 1, 1])
+    A = np.array([[0.3, -0.1, 0.05, 0.0, 0.02], [-0.1, 0.2, 0.0, 0.07, 0.0], [0.05, 0.0, -0.15, 0.0, 0.1], [0.0, 0.07, 0.0, 0.25, -0.05], [0.02, 0.0, 0.1, -0.05, 0.12]])
+    bv = np.array([0.4, -0.3, 0.2, 0.1, -0.25]); kv = np.array([0.7, -0.4, 0.3, 0.2, 0.5])
+    om = lambda x: 0.5*x @ A @ x + bv @ x + 0.3*np.sin(kv @ x)
+    dom = lambda x: A @ x + bv + 0.3*np.cos(kv @ x)*kv
+    d2om = lambda x: A - 0.3*np.sin(kv @ x)*np.outer(kv, kv)
+    def gam(x):
+        w = dom(x); wup = eta @ w; G = np.zeros((n, n, n))
+        for i in range(n):
+            for j in range(n):
+                for k in range(n): G[i, j, k] = (i == j)*w[k] + (i == k)*w[j] - eta[j, k]*wup[i]
+        return G
+    def ricci(x, hh=1e-4):
+        G = gam(x); dG = np.zeros((n, n, n, n))
+        for l in range(n):
+            e = np.zeros(n); e[l] = hh; dG[l] = (gam(x + e) - gam(x - e))/(2*hh)
+        Rc = np.zeros((n, n))
+        for i in range(n):
+            for j in range(n):
+                Rc[i, j] = sum(dG[k, k, i, j] for k in range(n)) - sum(dG[j, k, i, k] for k in range(n)) \
+                           + sum(G[k, k, l]*G[l, i, j] for k in range(n) for l in range(n)) - sum(G[k, j, l]*G[l, i, k] for k in range(n) for l in range(n))
+        return Rc
+    x0 = np.array([0.3, -0.7, 0.4, 1.1, -0.2]); w0 = om(x0); gm = np.exp(2*w0)*eta; gi = np.exp(-2*w0)*eta
+    Rc = ricci(x0); Rs = np.sum(gi*Rc); Ein = Rc - 0.5*gm*Rs
+    dw = dom(x0); d2w = d2om(x0); box = np.sum(np.diag(eta)*np.diag(d2w)); dw2 = dw @ eta @ dw
+    Fm = -3*(d2w - np.outer(dw, dw)) + 3*eta*(box + dw2); err = np.max(np.abs(Ein - Fm))/np.max(np.abs(Ein))
+    print("   (c) The second response's five-dimensional formula, G~_AB = G_AB - 3 (D_A D_B omega - D_A omega D_B omega) + 3 H_AB (box omega + (D omega)^2) for")
+    print(f"     H~ = e^(2 omega) H (the general (n-2) and (n-2)(n-3)/2 at n = 5), checked on a conformally flat metric with a generic omega: relative error {err:.0e}.")
+    print("     So a conformal factor is a physical field whose gradients source the equations; the leaf's roundness survives only the Mobius factors,")
+    print("     and those render a uniform disk as the rational family above, not as an exponential.")
+    ok = worst < 1e-7 and mass_err < 1e-8 and err < 1e-7 and abs(prof[-3.0][-1]*np.exp(6)*np.cosh(3.0)**2 - 1) < 1e-9
+    check(ok, "the conformal rendering -- controls: the Mobius factor on S^3, the conformality of the pulled-back metric and the rendered density at the image angle (1e-7), the rendered profile's mass (1e-8), the five-dimensional Einstein-tensor transformation (1e-7); the profile (cosh s + sinh s cos theta')^-2 reaches the floor cosh^-2 s at the equator")
+    print("   [T] The Mobius family; the transformation law.  [V] Both checked numerically.  [D] A round-keeping conformal rendering makes a rational, cored, floored")
+    print("       profile, not an exponential; a topology-keeping one needs a factor divergent at the equator.  [O] A conformal degree of freedom in the middle space, from an action.")
+    return dict(worst=worst, prof=prof, err=err, mass_err=mass_err)
+
+# ------------------------------------------------------------------------------------------------ Entry 324: the normal under the rendering
+def v36_2_normal():
+    print("\n== v36.2-4. Entry 324 (the frame-selection hypothesis): the one statement checkable now -- how a disk's normal renders (R335) ==")
+    rng = np.random.default_rng(5)
+    def gnom(p, ell=1.0): return ell*p[:3]/p[3]
+    worst = 0.0; rows = []
+    for trial in range(4):
+        N = rng.normal(size=4); N /= np.linalg.norm(N)
+        v = rng.normal(size=4); v -= (v @ N)*N; p = v/np.linalg.norm(v)
+        if p[3] < 0: p = -p
+        Q, _ = np.linalg.qr(np.column_stack([p, rng.normal(size=(4, 3))])); E = Q[:, 1:]
+        nrm = E.T @ N; nrm /= np.linalg.norm(nrm)
+        hh = 1e-6; J = np.column_stack([(gnom(p + hh*E[:, a]) - gnom(p - hh*E[:, a]))/(2*hh) for a in range(3)])
+        m = np.linalg.solve(J.T, nrm); m /= np.linalg.norm(m); Nx = N[:3]/np.linalg.norm(N[:3])
+        worst = max(worst, 1 - abs(m @ Nx), abs(gnom(p) @ Nx + N[3]/np.linalg.norm(N[:3])))
+        rows.append((abs(m @ Nx), -N[3]/np.linalg.norm(N[:3])))
+    print("   The response's transformation of a surface normal under a rendering with Jacobian J, n_image ~ J^-T n, is linear algebra (tangents go with J);")
+    print("   under the gnomonic rendering a galaxy disk that is a great 2-sphere of the leaf, S^3 cut by a 4-normal N, images as the plane N_x . X = -ell N_w:")
+    print(f"   at four random points of four random great spheres, J^-T n is the 4-normal's spatial part N_x and the image point lies on that plane, to {worst:.0e}.")
+    print("   A disk through the galaxy's centre (N_w = 0) images as a plane through the origin with its own normal: the gnomonic rendering turns no disk.")
+    print("   A disk that is not a great sphere images as a quadric, whose normal varies -- an 'apparent normal' then needs a definition before it is a claim.")
+    print("   The rest of the hypothesis -- an internal direction field n^a on the middle space, its stiffness action, T^(g)[n] against T^(g)[R n] -- needs a field")
+    print("   PG has not specified; the spin-curvature coupling of a test body (Mathisson 1937, Papapetrou 1951, Dixon 1970) is the standard precedent the")
+    print("   response cites, and the jet-host alignment statistics it cites (Zheng, Zhang & Rottgering 2024) are an observed, morphology- and luminosity-")
+    print("   dependent alignment, not a test of PG.  Held as a program, beside flavor (v36.0-6).")
+    check(worst < 1e-8, "the normal under the gnomonic rendering: J^-T n equals the great sphere's spatial normal and the image lies on the stated plane (1e-8)")
+    print("   [T] The transformation of normals.  [V] Four great spheres.  [D] The gnomonic rendering preserves a central disk's normal.  [O] The direction field.")
+    return dict(worst=worst)
+
+# ---------------------------------------------------------------------------------------------- the suites
 def v36_1_suite(prev=None):
     """The v36.1 sections.  prev: the dicts returned by v36_0_milky_way, v36_0_sparc_pilot and v36_0_zoom_labels (recomputed if None)."""
     if prev is None:
@@ -18374,11 +18946,19 @@ def v36_1_suite(prev=None):
     v36_1_milky_way_continuous(prev['mw']); v36_1_reach(); v36_1_orbit_domain(); v36_1_eight_kpc(prev['mw']); v36_1_shape_family(prev['pilot'])
     return dict(coef=c, stats=st)
 
-def v36_1_quick():
-    """The checks that run in under a minute: the data, the inside view, the plateau coefficient, the reach, the orbit domain, the note's algebra and
-    the review's speeds.  For referees whose time limit the full suite exceeds; the thin-disk fits and optimizations are not run."""
+def v36_2_suite():
+    """The v36.2 sections (Entries 323-324): orbital occupancy, the rendering, the conformal factor, the normal.  Independent of the earlier rounds'
+    computations."""
+    o = v36_2_occupancy(); r = v36_2_rendering(); c = v36_2_conformal(); n = v36_2_normal()
+    return dict(occ=o, rend=r, conf=c, normal=n)
+
+def v36_2_quick():
+    """The checks that run in under a minute: the data, the inside view, the plateau coefficient, the reach, the orbit domain, the note's algebra, the
+    review's speeds, the conformal rendering and the normal.  For referees whose time limit the full suite exceeds; the thin-disk fits, the
+    optimizations and the orbit libraries are not run."""
     v36_0_data(); v36_0_inside_view(); v36_1_plateau_coefficient(); v36_1_reach(); v36_1_orbit_domain(); v36_0_note_algebra(); v36_0_review_checks()
-# ---------------------------------------------------------------------------------------------- the suites
+    v36_2_conformal(); v36_2_normal()
+
 def v36_0_suite():
     """The v36.0 sections; returns the dicts the v36.1 sections build on."""
     v36_0_data(); v36_0_inside_view(); mw = v36_0_milky_way(); p = v36_0_sparc_pilot(); z = v36_0_zoom_labels(p); v36_0_note_algebra()
@@ -18386,8 +18966,8 @@ def v36_0_suite():
     return dict(mw=mw, pilot=p, zoom=z)
 
 def current_suite_v36():
-    """The current regression suite of Part XXXIII (v36.0 and v36.1), followed by the check summary."""
-    prev = v36_0_suite(); v36_1_suite(prev)
+    """The current regression suite of Part XXXIII (v36.0, v36.1 and v36.2), followed by the check summary."""
+    prev = v36_0_suite(); v36_1_suite(prev); v36_2_suite()
     npass = sum(1 for ok, _ in _CHECKS if ok); nfail = len(_CHECKS)-npass
     print(f"\n== check summary (Part XXXIII): {npass} passed, {nfail} failed ==")
     for ok, msg in _CHECKS:
@@ -18398,7 +18978,7 @@ def current_suite_v36():
 if __name__ == "__main__":
     import sys
     arg = sys.argv[1] if len(sys.argv) > 1 else "current"
-    suites = {"current": current_suite_v36, "v36_0": v36_0_suite, "v36_1": v36_1_suite, "quick": v36_1_quick}
+    suites = {"current": current_suite_v36, "v36_0": v36_0_suite, "v36_1": v36_1_suite, "v36_2": v36_2_suite, "quick": v36_2_quick}
     if arg not in suites:
         print("usage: python3 -I pg_v36_numerics.py [" + " | ".join(suites) + "]"); sys.exit(2)
     suites[arg]()
@@ -18445,7 +19025,7 @@ if __name__ == "__main__":
 
 **(a) The coefficient [T].** With $v^2 = (GM_b/\ell)(-2\tan\chi\,\psi')$ and $\psi$ even about the equator, l'Hôpital gives at $\chi\to\pi/2$
 $$v_\infty^2 = C\,\frac{GM_b}{\ell},\qquad C[\Sigma,\ell] = 2\psi''(\pi/2).$$
-The point source has $C = 3$; an extended source does not. The frozen Parts already said so for spheres: R63's $v_{\rm eq}^2 = 12\pi\int\rho_{\rm eff}\sin^2x\cos x\,dx-4\pi\rho_{\rm eff}(\pi/2)$ (in units of $GM/\ell$) is this statement, and Part XXV's exponential spheres run from $2.993$ at $r_d/\ell = 0.01$ down to $1.239$ at $0.3$. v36.0 nonetheless wrote $v_{\rm eq}^4 = GM_ba_0$ for the pilot's extended disks, as if $C$ were $3$. This section corrects that, as the second report asked.
+*[v36.2, R333: $\psi''(\pi/2)$ exists for thin sources that vanish at the equator faster than $\cos\chi$ ($\cos^2\chi$ included) or are smooth and even across it; a density $\propto\cos\chi$ at the equator gives a logarithmic divergence (§XXXIII.29(b)).]* The point source has $C = 3$; an extended source does not. The frozen Parts already said so for spheres: R63's $v_{\rm eq}^2 = 12\pi\int\rho_{\rm eff}\sin^2x\cos x\,dx-4\pi\rho_{\rm eff}(\pi/2)$ (in units of $GM/\ell$) is this statement, and Part XXV's exponential spheres run from $2.993$ at $r_d/\ell = 0.01$ down to $1.239$ at $0.3$. v36.0 nonetheless wrote $v_{\rm eq}^4 = GM_ba_0$ for the pilot's extended disks, as if $C$ were $3$. This section corrects that, as the second report asked.
 
 For a unit ring at polar angle $u$ on the great 2-sphere, under the twin Green function $G(z) = (2z^2-1)/(4\pi\sqrt{1-z^2})$, $z = \cos\theta$, the review differentiated the kernel on the equator ($z = \sin u\cos\phi$, $z_\chi = -\cos u$, $z_{\chi\chi} = -z$) and wrote the coefficient as a $\phi$-integral. That integral is elliptic, and in closed form, with $k = \sin u$,
 $$C_{\rm ring}(u) = \frac{2}{\pi}\left[\frac{(5-4k^2)\,E(k)}{\cos^2u}-2K(k)\right],$$
@@ -18664,7 +19244,7 @@ The overshoot disappears at $\alpha = 0.0423$–$0.0424$ (the sphere's plateau i
 | the maximum's radius ($h$, on the grid) | 2.1 | 2.6 | 4.8 | 5.9 | 6.5 | 7.2 | 7.2 | 7.2 |
 | $v(40h)/v_\infty$ | 0.985 | 0.996 | 0.9996 | 1.0001 | 1.0009 | 1.0024 | 1.0036 | 1.0049 |
 
-No member of the disk family is monotonic on this range: every one has a maximum, at $2$–$7\,h$, smallest ($+2.5\%$) near $h/\ell = 0.22$; for broad disks — $h/\ell\gtrsim0.2$, the transition lying between $0.19$ and $0.22$ — the plateau is approached from above, so the bump grows with breadth instead of vanishing. Beyond $h/\ell = 0.87$–$0.88$ the pushforward's own tail removes the circular support at the centre, as the dwarfs' gas did in §XXXIII.5. Entry 322's no-bump family is the sphere's; this thin-disk family has none, because its plateau is $C(h/\ell)\,GM/\ell$ (§XXXIII.15) while its maximum sits at the mass (Fig. `pg_v36_1_shape_family.png`). On a range shorter than $12\,h$ — IC 2574 is measured to $3.7\,R_{\rm disk}$, UGC 2885 to $6.5$ — the maximum can fall beyond the data.
+No member of the disk family is monotonic on this range: every one has a maximum, at $2$–$7\,h$, smallest ($+2.5\%$) near $h/\ell = 0.22$; for broad disks — $h/\ell\gtrsim0.2$, the transition lying between $0.19$ and $0.22$ — the plateau is approached from above, so the bump grows with breadth instead of vanishing. Beyond $h/\ell = 0.87$–$0.88$ the pushforward's own tail removes the circular support over a band inside ($0.2$–$1.9\,h$ at $h/\ell = 1$; weak support, $v_c<8$ km/s, remains inside the band: §XXXIII.28(b)) *[v36.2, R332]*, as the dwarfs' gas did in §XXXIII.5. Entry 322's no-bump family is the sphere's; this thin-disk family has none, because its plateau is $C(h/\ell)\,GM/\ell$ (§XXXIII.15) while its maximum sits at the mass (Fig. `pg_v36_1_shape_family.png`). On a range shorter than $12\,h$ — IC 2574 is measured to $3.7\,R_{\rm disk}$, UGC 2885 to $6.5$ — the maximum can fall beyond the data.
 
 **(d) The eight galaxies [V].** Observed, with $h = $ SPARC's $R_{\rm disk}$ and $v_{\rm outer} = V_{\rm flat}$: the rise $\eta = v(2h)/V_{\rm flat}$, $B$ with its significance (the maximum over $V_{\rm flat}$: against the error at the maximum alone, and against the errors of the maximum and of $V_{\rm flat}$ in quadrature), the significant extrema; the effective surface brightness $L_{[3.6]}/(2\pi R_{\rm disk}^2)$ and the gas fraction. Then PG's curve from the reconstructed sources on the arena leaf — no amplitude, no label — against its own $v(R_{\rm last})$: $\eta$, $B$, extrema at $0.5\%$, the stellar disk's $h/\ell_{\rm arena}$, the whole source's half-mass radius over $\ell_{\rm arena}$ (its breadth), the radii without circular support, and $v(R_{\rm last})/V_{\rm flat}$:
 
@@ -18690,6 +19270,8 @@ No member of the disk family is monotonic on this range: every one has a maximum
 
 ## XXXIII.24 Current results: each claim's status after v36.1 [S; R329]
 
+*[v36.2, R337: the claims of v36.2 and their status are in the head table's rows R332–R335 and in §XXXIII.32; none of the rows below changes.]*
+
 The second report's table of current claims against their defensible status, applied; the operative wording in §§XXXIII.2, 4, 5, 6, 7, 10 and 11 is corrected in place with tags *[v36.1, R…]*, and the superseded wording is quoted in §XXXIII.26.
 
 | claim as v36.0 made it | status after v36.1 | where |
@@ -18708,6 +19290,8 @@ Two results are new in v36.1 rather than corrected: the author's $8$ kpc leaf fa
 
 ## XXXIII.25 Standing, and the next pieces [S/O; R330]
 
+*[v36.2, R337: §XXXIII.32 continues this standing — additions to the established list, the first next piece carrying the HI dispersion as a second observable, gas with pressure added after the third.]*
+
 This section is the operative standing of Part XXXIII; §XXXIII.11 is superseded where the two differ.
 - *Established [T/V].*
   - The view from inside (§XXXIII.3): the $D_A$–$D_{\rm par}$ distinction, the over-corrected reflex, the exact line formula, the Sun's true speed from Sgr A*, the reach — under the stated premises.
@@ -18718,7 +19302,7 @@ This section is the operative standing of Part XXXIII; §XXXIII.11 is superseded
   - The self-consistent source: exact pushforwards; a realistic central curve and a plateau detectable in integrated light to about $29$ kpc and kinematically populated to about $51$ kpc under stated premises (§§XXXIII.6, 20).
   - Orbits through the equator: the barrier, crossing families in the benchmark field, $\chi_{\max} = \pi-\chi_{\min}$, half of each period beyond the equator (§§XXXIII.7, 21).
   - The $8$ kpc leaf fails on gravity alone; with the labels the Milky Way's gnomonic curve asks for $\ell_{\rm eff}\approx23$ kpc (§XXXIII.22).
-  - Entry 322's family: three regimes for spheres; a bump in every gnomonic exponential disk (smallest $+2.5\%$ near $h/\ell = 0.22$), and no circular support at the centre beyond $h/\ell\approx0.87$; the pilot sorted, both dwarfs without a significant overshoot, five of eight in PG's class (§XXXIII.23).
+  - Entry 322's family: three regimes for spheres; a bump in every gnomonic exponential disk (smallest $+2.5\%$ near $h/\ell = 0.22$), and no circular support over a band inside beyond $h/\ell\approx0.87$ *[v36.2, R332]*; the pilot sorted, both dwarfs without a significant overshoot, five of eight in PG's class (§XXXIII.23).
 - *Premises [S].* As §XXXIII.11 lists them, with two made explicit: the Milky Way comparison is a cold-tracer proxy for the published Jeans estimator; SPARC's errors are taken as independent and Gaussian, without the inclination systematics.
 - *Not demonstrated.* The observed rotation curve, from the theory as specified. With two labels per galaxy, external curves and the Milky Way's gnomonic image are fitted, not predicted, and most of the fits are not acceptable under the quoted errors.
 - *The next pieces, one or two per round, in the order the reports and the author's responses set.*
@@ -18801,9 +19385,135 @@ This section is the operative standing of Part XXXIII; §XXXIII.11 is superseded
 
 ---
 
-## Round record: the version summaries, v16 to v36.1 (moved from the head of the archive in v34.9, R190)
+## XXXIII.27 Entries 323–324 and the two responses, as formulated (16 October 2026) [record; R336]
 
-*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v36.1, v36.0, v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+**The author's message.** "Here's another response of mine, thanks!", with one attached response (on Entry 323) and, in the message, Entries 323 and 324 followed by a second response (on Entry 324).
+
+**Entry 323 (10:29 PM, Oct 16, 2026), in the author's words.**
+
+> I still don’t have a great intuition for what the gas problem is physically saying (I need to study it some more lol) but one thing that I am recognizing now is that if we switch to the gnomonic take of things, where the spiraling matter is continually switching hemispheres, then it seems like the exponential dropoff of matter density with gnomonic radius itself should be some kind of perspectival artifact specific to the gnomonic or what have you “rendering” of the matter, as accounts for how in reality there will be more matter than you “see” there due to the loss of stuff reaching and or spilling over the equator. So, therefore it seems to me like we really want to preserve this central seed idea of the model that we get a flat rotation curve-like thing at the leaf equator specifically due to the characteristic projective gravity Law 1 material, but we might want to start to look into more of a major model shake-up in terms of asking how much of the exponential falloff, like what appears to be the case with the disk already, is on the side of losing matter in gnomonic/visible space, all while we still get the “actual” matter distribution as similar enough to exponential upfront where we can reproduce the Newtonian leading part of the v^2 graph! 
+> So maybe the more radical possibility to investigate is that the gravity base space itself loses the same matter (in places, anyway) which the visible space loses, (although with this being less of a priority near the equator, where matter distribution can be really anything I would think with the v^2 still flattening). What I would want to investigate specifically for this looking at given conformal transformations (because that’s what basically directly screws with the EFEs anyway) of the middle space, and then basically asking if we can imagine the middle space as some particular form which is closer to uniform (or something) rather than exponential in matter density, and then imagine some kind of special conformal transformation which “renders” the exponential character (which still keeping the leaf a 3-sphere build rather than flattening it or anything), and then run the gravity base space constraint on the middle space as produced by this special conformal transformation. This anyway would be my intuition about how to investigate how the model should change to deal with the ontology of matter being able to physically move across hemispheres, which after all I think would upset the exponential character, and therefore itself seems to want to push that exponential character toward being more of a rendering artifact! Also furthermore by the way, my understanding is that if the spirals in a visible galaxy are roughly marked between the equator and the closest approach of the matter orbits, right, then that closest approach should mark the outer edge of the inner bugle, which itself might then have orbits which don’t leave the bugle, so therefore I wonder if the exponential character can itself have something to do, roughly, with the proportion-density of time that a given material of matter spends at some given radius, then multiplied by that matter’s mass density. See what I mean? This itself might then allow us to get an exponential falloff while matter still nonetheless can move anywhere, which I guess itself would lessen the need for that conformal transformation-rendering idea anyway! But yeah who knows I guess lol!
+
+**Entry 324 (10:44 PM, Oct 16, 2026), in the author's words.**
+
+> Also another intuition I’m getting right now about how to realize my “perspectival galaxy normal” idea premise while still surviving the sanity check of, like, normal-directed quasars is that maybe we simply want to reframe in the case of galaxies the standard explanatory direction used in say the formation of the Solar System that “the planets lie in the ecliptic plane because the angular momentum of the beginning dust cloud decided it” to “for a galaxy, you’re able to ‘turn’ the interior structure of your own local position or direction so as to render a new normal for it, it’s just that nothing in your vicinity typically allows you to induce such a turn”. This also happens to be similar to my general Kerr idea, where I’m considering how the gravitational body-vs-test particle dichotomy seems like it would obscure exactly the idea where the test particle is armed with its own interior directional-like structure which could change the metric if only it could be turned, and a consistent metric is the instance of not appearing to have a way of inducing such.
+
+**The response on Entry 323 (attached).** It calls the entry "a much more fundamental direction for revising PG than simply adjusting the zoom labels", and restates it: "The exponential appearance of a galaxy might arise from how a population of moving particles is distributed over its orbits and how those particles are rendered optically—not necessarily from an exponentially declining fundamental matter density." Two ideas kept — orbital occupancy and a conformal or history-dependent rendering — with the qualification that "a visible density fade doesn't necessarily mean the gravitational source fades, while a reduction in the gravitational source must be accounted for dynamically under Law I."
+- *The gas problem as an inverse inference.* The pushforward $\Sigma_{\rm leaf}(\chi) = \Sigma_{\rm observed}(R)/\cos^3\chi$ "is a valid geometrical pushforward under its assumptions"; "But it is not a theorem of Law I, and it is not yet a derived optical observation law."
+- *Orbital occupancy.* $P(\chi)\,d\chi\propto d\chi/|\dot\chi|$, so $P(\chi)\propto1/\sqrt{E-U_{\rm eff}(\chi)}$; "a declining density and continual matter transport across the equator are completely compatible"; an axisymmetric population $\Sigma_B(\chi) = (2\pi\ell^2\sin\chi)^{-1}\int dE\,dL\,N(E,L)\,P(\chi\mid E,L)$ on a great two-sphere, to ask "whether PG can produce an approximately exponential inner disk dynamically, without inserting an exponential source at the outset." Its schematic: for the crossing orbits with "an effective potential whose minimum lies at the equator", "the particle moves fastest radially near the equator and slows near its turning points."
+- *The bulge-versus-spiral division* is worth testing, with two distinctions kept: a star's closest approach does not define a bulge's edge, and spiral arms are density structures, not individual tracks.
+- *The catch in the fade.* With a fraction $\varepsilon(\chi)$ of the light reaching the image, $\Sigma_B = \Sigma_{\rm vis}/(\varepsilon\cos^3\chi)$: "the physical gas density can actually become larger … it could make the outward gravitational-pull problem worse, not better."
+- *The conformal idea* has a formulation, $\widetilde H_{AB} = e^{2\omega}H_{AB}$ with the five-dimensional transformation $\widetilde G_{AB} = G_{AB}-3\nabla_A\nabla_B\omega+3\nabla_A\omega\nabla_B\omega+3H_{AB}\Box\omega+3H_{AB}(\nabla\omega)^2$; but "an arbitrary conformal factor does not generally preserve the round metric of an $S^3$", "conformal transformations do not magically convert uniform physical matter into exponential matter", and a mass-preserving rescaling of a uniform disk into an exact exponential needs $e^{2\omega}\propto\exp[(\ell/h)\tan\chi]$, which "diverges as $\chi\to\pi/2$."
+- *Three stages* — middle-space dynamics, the Law I reduction, the optical reconstruction — "None of these stages should be allowed to compensate arbitrarily for another."
+- *The plateau's amplitude is not automatic:* "sufficiently concentrated matter very near the equator can dominate the plateau coefficient"; what to protect is "the existence of a finite equatorial limit for an appropriate regular class of sources".
+- *The prioritized experiment,* in six steps: time-averaged densities of trapped and crossing families in the v36.1 potential; whether a nonnegative distribution over them gives an approximately exponential inner disk, a low enough equatorial density for inward support, and observable outer tracers; a gas component with pressure and dissipation; the field and the population iterated to self-consistency; a conformal degree of freedom only if that fails, from an action; a photon-history law last. "Or it might show that no appropriate stationary population exists under the present PG force law. That would also be an important result, because it would identify precisely which piece requires a deeper change."
+
+**The response on Entry 324 (in the message).** Three meanings of "turning" are separated — the matter, its internal frame, its appearance; a unit internal direction $n^\mu = e^\mu{}_a n^a$ on a tetrad, whose physical turn "must change a relationship between structures, not merely rotate our description of them", with the question "Could galaxy normals be selected by the holonomy of PG's internal directional structure?"; the Mathisson–Papapetrou–Dixon equations as the precedent in which a test body's spin couples to curvature ("The approximation neglects the body's own gravitational backreaction, not its physical existence"); an alignment field with a stiffness term $-\tfrac K2\int\sqrt{-g}\,D_\mu n^aD^\mu n_a$ as one possible implementation, "only a possible mathematical implementation. PG has not yet derived such a field or its action"; the quasar check sharpened by distinguishing $\mathbf n_{\rm disk}$, $\mathbf n_{\rm engine}$ and $\mathbf n_{\rm gateway}$, with a 2024 study finding jet–host alignments that depend on morphology and radio luminosity, and the transformation of a surface normal under a reconstruction with Jacobian $J_g$, $\mathbf n_{\rm image}\propto J_g^{-T}\mathbf n_{\rm disk}$ — "a gateway's geometrical reconstruction could change the apparent disk normal even if it did not physically rotate the galaxy. But it could not thereby manufacture the relativistic beaming of a jet toward us"; the unoriented normal as a point of $\mathbb{RP}^2$. Its hypothesis, named *directional-frame selection*: "Galaxies possess an internal directional structure associated with their middle-space matter configuration. Their physical and observed normals need not be identified a priori. … A physical reorientation, unlike a mere frame change, must alter invariant transport, field stress-energy or observable photon propagation." Its preferred experiment: an axisymmetric source carrying a distinguished internal direction, and "$T_{\mu\nu}^{(g)}[n]$ versus $T_{\mu\nu}^{(g)}[Rn]$".
+
+**What v36.2 does with them.** Entry 323's two routes are computed in the order the response set: the orbital-occupancy route for the stationary, collisionless case (§XXXIII.28 — the response's steps 1 and 2, and step 4 as five damped iterations that do not converge in the outer placement; its step 3, gas with pressure and dissipation, is recorded as the next piece), the rendering and the fade (§XXXIII.29), the conformal route to its two bounds (§XXXIII.30). Entry 324's one statement that can be checked now is checked, and the hypothesis is recorded and held (§XXXIII.31). The author's question — what the gas problem is physically saying — is answered in §XXXIII.28(d) and, in ordinary words, in the research pass.
+
+## XXXIII.28 Orbital occupancy on the leaf: can a stationary population of trapped and crossing orbits be the source it needs? [T/V/D/O; R332] *(`v36_2_occupancy()`)*
+
+Entry 323's second idea, in the response's formulation: a galaxy's density at a radius is the time its population spends there. This section computes it for a thin, axisymmetric, collisionless population on the great 2-sphere of the disk plane, in the twin-symmetric field of a thin source — Schwarzschild's method on the leaf — and asks the response's three questions: does a stationary population exist for a given density; how much of it must cross the equator; and how cold can it be.
+
+**(a) The occupancy law, and where crossing orbits spend their time [T/V].** With $E = \tfrac12\ell^2\dot\chi^2+U_{\rm eff}$, $U_{\rm eff} = \Phi+L^2/(2\ell^2\sin^2\chi)$, an orbit spends $dt = d\chi/|\dot\chi|$ at each $\chi$ between its turning points, $|\dot\chi| = \sqrt{2(E-U_{\rm eff})}/\ell$, so its time-averaged surface density is $P(\chi)/(2\pi\ell^2\sin\chi)$ with $P\propto1/\sqrt{E-U_{\rm eff}}$, folded onto the near hemisphere by the twin identification (the far-side arc is drawn through the near image, §XXXIII.7). The field is the exact gnomonic exponential disk $h/\ell = 0.1875$ on $\ell = 16$ kpc ($6\times10^{10}\,M_\odot$; $v_{\rm eq} = 217.0$ km/s), the Milky-Way-like member of §XXXIII.23's family. For the disk's crossing orbits, $L<\ell v_{\rm eq}$, the equator is the top of $U_{\rm eff}$'s barrier, where they are slowest: with $E$ at $0.01$, $0.1$ and $1$ $v_{\rm eq}^2$ above the barrier an orbit with $L = 0.8\,\ell v_{\rm eq}$ spends $0.28$, $0.18$ and $0.13$ of each radial period within $10^\circ$ of the equator ($R>91$ kpc in the image; $11\%$ of the range of $\chi$), with $L = 0.5$ it spends $0.32$, $0.19$, $0.13$, with $0.95$ it spends $0.28$, $0.18$, $0.13$. Orbits with $L>\ell v_{\rm eq}$ oscillate about the equator, where they are fastest: $L = 1.1$ gives $0.45$, $0.21$, $0.14$ at $0.01$, $0.1$, $1$ $v_{\rm eq}^2$ above the well's minimum, and $L = 1.3$ gives $1.00$, $0.26$, $0.14$. The response's schematic — "the particle moves fastest radially near the equator" — describes the second family, not the disk's. Control: the $L = 0.8$ orbit at $0.1\,v_{\rm eq}^2$ integrated directly has the period $0.6406$ kpc/(km/s) against the quadrature's $0.6406$, and $0.1781$ of it near the equator against $0.1780$.
+
+Each orbit's own share of the plateau coefficient — $C = 2\psi''(\pi/2)$ of its time-averaged density, by the solver's second difference, which is finite because that density is smooth across the equator (§XXXIII.29(b)) — is $+2.86$ for a trapped orbit inside $37^\circ$, and $-8.06$, $-0.17$ and $-1.53$ for crossing orbits with $L = 0.5$, $0.8$ and $1.3\,\ell v_{\rm eq}$: a trapped orbit counts like a ring inside; a crossing orbit's density straddles the equator and pulls the equatorial orbit outward.
+
+**(b) Three sources [V/D].** An orbit library: $L = 0$ (radial orbits through the pole) and a geometric grid of $100$ values of $L$ from $10^{-3}$ to $1.6\,\ell v$; for each, $30$ energies above the well's minimum and $12$ just above every saddle of $U_{\rm eff}$ (the equatorial barrier, the central hill of a repulsive core) — $4{,}158$, $4{,}422$ and $4{,}158$ orbits for the three sources below; bins of $2.2^\circ$ to $80^\circ$ and $0.5^\circ$ to the equator. The density is matched bin by bin, within a relative tolerance plus $10^{-4}$ of the largest bin; "tolerance" is the smallest relative per-bin mismatch at which a nonnegative population exists (a feasibility linear program, bisected; $0.001$ is the bisection's floor); the admissible range of the crossing mass (an orbit whose turning points lie on opposite sides of the equator) and the least radial dispersion compatible with the density are linear programs too — the mean $v_\phi$ and the mean $v_r^2$ of a population in a bin being linear in the orbit weights. The folded density is read as the image (the far-side arc drawn through the near image, §XXXIII.7(d)'s reading B).
+
+| source | tolerance | crossing mass, admissible | least $\sigma_r$: rotation at $v_c$ on the supported bins / rotation free, all inner bins | $v_c^2<0$ on |
+|:--|:--|:--|:--|:--|
+| gnomonic exponential, $h/\ell = 0.1875$ | $\le0.001$ | $0.000$–$0.000$ at $1\%$ per bin (inside $12h$ only: $\le0.018$ at $1\%$, $\le0.058$ at $5\%$) | $10.5$ / $10.5$ km/s | nowhere |
+| gnomonic exponential, $h/\ell = 1$ | $\le0.001$ | $0.000$–$0.001$ ($\le0.055$, $\le0.096$) | $8.6$ (the supported bins, from $R = 2$ kpc) / $34.9$ km/s | $3.4$–$30$ kpc ($0.2$–$1.9\,h$) |
+| arc-length exponential, $h = 3$ kpc | $\le0.001$ | $0.001$–$0.010$ ($\le0.073$, $\le0.142$) | $7.4$ / $7.4$ km/s | nowhere |
+
+The two thin exponentials — the Milky-Way-like gnomonic member, and a source exponential in arc length (§XXXIII.29(a)) — are stationary populations that can be as cold as the library resolves (near-circular orbits; the $7$–$10$ km/s is the $L$ grid's spacing, $7.6\%$, not a physical floor: tripling the grid lowers it). And their densities exclude crossing orbits: a crossing orbit spends at least $0.13$ of its period within $10^\circ$ of the equator in the library ($0.11$, the band's share of $\chi$, in the high-energy limit), where these disks hold about $10^{-4}$ of their mass, so with the whole density matched the crossing fraction is at most $0.01$, and with it matched only over the measured range (inside $12h = 36$ kpc) at most $2$–$7\%$ at $1\%$ per bin and $6$–$14\%$ at $5\%$. A thin exponential that holds to the equator is a trapped population; Entry 323's picture of a disk "continually switching hemispheres" is excluded by the disk's own density at the equator, not merely unconstrained. The broad member, $h/\ell = 1$ — the dwarfs' $R_{\rm half}/\ell_{\rm arena}\approx1.6$ corresponds to $h/\ell\approx1$ — is a stationary population too: radial orbits lingering on the central hill build its density over the band $0.2$–$1.9\,h$ where no circular orbit exists (§XXXIII.23's "no circular support at the centre" is, precisely, none on $3.4$–$30$ kpc; inside $3.4$ kpc the support is there but weak, $v_c = 3.7$, $5.8$, $7.4$, $5.1$ km/s at $0.5$, $1$, $2$, $3$ kpc *[v36.2, R332]*). But only a hot one: inside $30$ kpc, with the rotation free, no population has a radial dispersion below $35$ km/s; its crossing fraction is at most $0.001$. So the answer to the response's second question is in two parts: a stationary population needs no exponential source and no circular orbits, but it does not cross the equator, and where the field has no circular support it is hot.
+
+**(c) The two dwarfs [V/D].** On their arena leaves under the gnomonic premise: the reconstructed stars, the gas inside $R_{\rm last}$ as the data fix it, and the mass the total $1.33M_{\rm HI}$ requires beyond $R_{\rm last}$ — $29\%$ of $M_b$ for DDO 154 ($\ell = 2.02$ kpc, $\chi_{\rm last} = 71^\circ$), $25\%$ for IC 2574 ($4.51$ kpc, $66^\circ$).
+
+*The support test.* With the outer mass as one thin ring at polar angle $u$, scanned from $\chi_{\rm last}$ to $89.9^\circ$: the inner source alone supports $12$ of DDO 154's $12$ radii (with $v(5.9\,{\rm kpc}) = 85$ km/s against the observed $46$) and $24$ of IC 2574's $34$; with the ring, at best $8$ of $12$ and $15$ of $34$ (first reached near $u = 75^\circ$, a tie over many $u$). Every ring's own $v^2$ is negative at every measured radius — the largest over $u$ and $R$ is $-19.9$ and $-22.6$ (km/s)$^2$ — so no nonnegative mixture of rings, that is no axisymmetric placement of the outer mass in the plane, thick or thin, can raise the count. At $u = 80^\circ$ the ring's $v^2$ at the first, middle and last radius is $-20$, $-730$, $-2{,}173$ (km/s)$^2$ for DDO 154 against the inner source's $+36$, $+847$, $+7{,}202$, and $-24$, $-817$, $-2{,}384$ for IC 2574 against $+11$, $+480$, $+18{,}020$.
+
+*The coldest population.* Stars and gas first as one population, in the pushforward's own field ($5{,}454$ and $4{,}074$ orbits), with the image inside $R_{\rm last}$ matched to $3\%$ (DDO 154) and $2\%$ (IC 2574) per bin — $1.2$ times the density's own feasibility tolerance in those fields, or $2\%$ — and the mean rotation within $20\%$ of the observed curve: for DDO 154 no population exists with any radial dispersion below $400$ km/s (with the rotation free, none below $49$ km/s), the field lacking circular support on $0$–$0.4$, $1.2$–$3$ and $9$–$37$ kpc; for IC 2574 none below $27$ km/s ($14$ free), no support on $0$–$7$ kpc. The two components apart — the stellar and the gas image each matched, the rotation and the dispersion required of the gas alone: DDO 154's stellar image admits no stationary population at all (its feasibility tolerance is $0.999$ — the steep fall of the stars across the unsupported band cannot be built from orbits, none of which has an apocentre where the force points outward), so no two-component population exists at any tolerance; IC 2574's stellar image needs $7\%$ per bin, both together $20\%$, and then the gas needs $\sigma_r\geq19$ km/s with its rotation ($12$ free). With the field iterated to the mixture's own density (five damped steps from the least-dispersion population — for DDO 154 the one with the rotation free, the constrained one not existing; the outer placement does not converge, about a third of the mass sitting beyond $R_{\rm last}$ in places that change from step to step): $\sigma_r\geq31$–$35$ km/s for DDO 154 ($25$–$30$ free), $29$–$30$ km/s for IC 2574 ($16$ free). The observed HI dispersions of the two are about $7$–$10$ km/s (THINGS: Oh et al. 2008, 2011; Ianjamasimanana et al. 2015). The premises: collisionless, stationary and thin; the gnomonic pushforward with the HI total on the leaf; the in-plane radial dispersion set against the line-of-sight HI dispersion. The bound is set as much by the observed rotation lying far from $v_c$ at every radius ($85$ km/s against $46$ at DDO 154's last point in the pushforward field) as by the bands without support.
+
+**(d) What the gas problem is physically saying [D].** The pushforward of a galaxy whose HI extends well past its last measured velocity puts the mass the HI flux requires at polar angles where the leaf's own geometry compresses it — $\sec^3\chi$ — into a band outside the inner orbits; in the twin field a band outside pulls those orbits outward (the ring's $v^2$ above), and a band straddling the equator pulls the equatorial orbit outward (the negative shares in (a)). Entry 323's occupancy cannot remove that mass — its amount is fixed by the HI total and the image inside $R_{\rm last}$, by construction — and it places it non-uniquely among orbits that reproduce the image. What it decides is the kinematics: every such population is hot — with the observed rotation, $\sigma_r\geq27$–$35$ km/s for the stars-plus-gas mixture and $\geq19$ km/s for IC 2574's gas alone; with the rotation free, $14$–$30$ km/s — where the gas is observed at $7$–$10$. So, for the dwarfs under the gnomonic premise, the failure is not in the choice of orbits; it is in the premise that the image's mass is the leaf's mass at $\Sigma_{\rm obs}\sec^3\chi$, which the response's stage C (a photon-history law) alone can change, or in the premise that the HI flux beyond $R_{\rm last}$ gravitates on this leaf. §XXXIII.25's first item — the measured HI profiles — remains the next test, now with the population's dispersion as a second observable beside the curve.
+
+**(e) Not done [O].** Gas with pressure and dissipation (the response's step 3): the collisionless library bounds the dispersion of any stationary population with the image's density; that a dissipative gas, settling toward circular orbits that do not exist where it sits, could not be colder is argued, not computed. The response's "observable outer tracers": the least-dispersion populations of (b) place $0.04\%$ (the thin gnomonic disk) and $0.6\%$ (the arc-length disk, whose own tail is $1.2\%$) of their mass beyond $12h$ — the plateau's tracers are the trapped orbits' apocentres, as in §XXXIII.20. A photon-history law (stage C) is the open piece behind every statement of this section.
+
+## XXXIII.29 The exponential as a rendering: the image of a smoother source, the fade, and when the plateau coefficient is finite [T/V/D; R333] *(`v36_2_rendering()`)*
+
+**(a) The image of a source exponential in arc length [V/D].** Entry 323 asks how much of the exponential fall-off could be "on the side of losing matter in gnomonic/visible space", the leaf's own density being smoother. Take the smoother source literally: $\Sigma = \exp(-\ell\chi/h)$ in arc length, $h = 3$ kpc on $\ell = 16$ kpc, rendered gnomonically with its mass conserved, $\Sigma_{\rm vis}(R) = \Sigma(\chi)\cos^3\chi$, $R = \ell\tan\chi$. The image's local scale length, $-1/(d\ln\Sigma_{\rm vis}/dR)$, is $2.91$, $2.81$, $2.83$, $3.09$ kpc at $R = 1$, $3$, $6$, $10$ kpc, and the image is within $13\%$ of $e^{-R/h}$ there; beyond, it is shallower — $3.84$, $5.29$, $7.06$, $11.2$ kpc at $16$, $24$, $32$, $48$ kpc, and $1.1$, $2.7$, $10$, $360$ times the exponential. The rendering adds a tail (the arctangent saturates while $\cos^3\chi$ falls as a power); it does not subtract one. To render an exponential image the leaf needs the $\sec^3\chi$ tail — more mass toward the equator than the exponential, not less — which is §XXXIII.5's pushforward, and the dwarfs' problem. Its curve is $195$, $215$, $216$, $217$, $218$, $219$, $220$, $220$, $221$ km/s at $R = 5$, $10$, $20$, $50$, $100$, $200$, $500$, $1{,}000$, $3{,}000$ kpc — flat to the eye and rising without bound: the second differences of $C$ at $h = 0.04$, $0.02$, $0.01$, $0.005$ are $2.994$, $3.010$, $3.025$, $3.041$, growing logarithmically because the density does not vanish at the equator ($\Sigma(\pi/2)/\Sigma(0) = 2.3\times10^{-4}$).
+
+**(b) When the plateau coefficient is finite [T/V].** For a thin source behaving as $\cos^p\chi$ at the equator, the solver's second differences at $h = 0.04$, $0.02$, $0.01$, $0.005$ give: $p = 0$: $0$, $0$, $0$, $0$; $p = 1$: $6.07$, $6.96$, $7.84$, $8.72$; $p = 1.5$: $4.29$, $4.41$, $4.49$, $4.55$, converging as $h^{1/2}$ toward the ring formula's $4.69$; $p = 2$: $3.532$, $3.534$, $3.534$, $3.534$; $p = 3$: $3.063$, $3.058$, $3.056$, $3.056$ — the ring formula (§XXXIII.15) giving $4.690$, $3.534$ and $3.056$ for $p = 1.5$, $2$ and $3$ and diverging for $p\le1$, since $C_{\rm ring}\sim(2/\pi)\sec^2u$ makes $\cos^pu\sin u\,C_{\rm ring}$ integrable at the equator exactly for $p>1$. The uniform great-sphere disk has no field at all: the twin kernel has zero mean, so a uniform source gives a constant $\psi$ and $C = 0$, not the ring formula's $+\infty$; $\Sigma\sim\cos\chi$ gives a logarithmic divergence; $\cos^p\chi$ with $p>1$ — $\cos^2\chi$ included — gives a finite plateau, the solver converging as $h^{p-1}$ for $1<p<3$. The ring formula is a superposition that converges only when $\Sigma$ vanishes at the equator faster than $\cos\chi$; the solver's second difference is the definition, and the l'Hôpital step of §XXXIII.15(a) assumes that $\psi''(\pi/2)$ exists — it does for this class and for densities smooth and even across the equator, and a term linear in $\pi/2-\chi$ at the equator makes it diverge logarithmically, as computed for $p\le1$ and for the arc-length exponential (a note is added there *[v36.2, R333]*). The response's "finite equatorial limit for an appropriate regular class of sources" is this class. A stationary population's density is smooth and even across the equator (a crossing orbit has finite speed there), so its $C$ is finite and given by the solver, with the crossing orbits contributing negatively (§XXXIII.28(a)).
+
+**(c) The fade [V/D].** The response's section 4, in numbers: if only a fraction $\varepsilon(\chi)$ of the light near the equator reaches the image, the inverse is $\Sigma_{\rm leaf} = \Sigma_{\rm obs}/(\varepsilon\cos^3\chi)$ — more mass. DDO 154's reconstructed source with $\varepsilon = 1$, $\cos\chi$, $\cos^2\chi$: on the $2.02$ kpc leaf, $M = 1.00$, $5.00$, $72.5$ times $M_b$, $C = 46.8$, $206$, $385$, $v_\infty = 197$, $925$, $4{,}818$ km/s; on the arena leaf of the enlarged mass ($2.02$, $4.52$, $17.2$ kpc), $C = 46.8$, $41.8$, $6.5$ and $v_\infty = 197$, $279$, $214$ km/s — against the observed $47$. Neither fade lowers the plateau; with the arena law each moves the galaxy to a larger leaf and leaves $v_\infty$ at four to six times the observed. (The factors $5$ and $72$ are dominated by the fitted gas tail beyond $R_{\rm last}$ weighted by $\sec\chi$ or $\sec^2\chi$; they are converged in the outer cutoff and depend on the tail's shape, §XXXIII.18.)
+
+## XXXIII.30 A conformal rendering: what keeps the leaf round, and what an exponential needs [T/V/D/O; R334] *(`v36_2_conformal()`)*
+
+**(a) The Möbius family [T/V].** The conformal maps of $S^3$ to itself that keep the round metric are the Möbius group. A dilation by $e^s$ about a pole — stereographic projection, scaling, projection back — pulls the round metric back to $\Omega^2g$ with $\Omega(\theta) = 1/(\cosh s-\sinh s\cos\theta)$ at the source angle $\theta$, and sends $\theta$ to the image angle $\tan(\theta'/2) = e^s\tan(\theta/2)$. A uniform density $\Sigma_0$ is rendered, mass preserved, as $\Sigma_0/\Omega^2$ at the source point, which at the image angle is
+$$\Sigma(\theta') = \frac{\Sigma_0}{(\cosh s+\sinh s\cos\theta')^2},$$
+checked by finite differences of the composed map at twelve points (the pulled-back metric conformal, the factor as stated, the density at the image angle, to $5\times10^{-10}$), and integrating to the source's mass on the sphere ($3\times10^{-14}$). In gnomonic radius $R = \ell\tan\theta'$, relative to its centre, the profile is $1$, $0.97$, $0.78$, $0.27$, $0.099$, $0.067$ at $R/\ell = 0$, $0.1$, $0.3$, $1$, $3$, $10$ for $s = -1$ and $1$, $0.25$, $0.011$, $2.8\times10^{-4}$, $5.2\times10^{-5}$, $3.0\times10^{-5}$ for $s = -3$: for $s<0$ a cusp at the pole with a centre-to-equator ratio $e^{-2s}\cosh^2s$ ($17.6$, $4.1\times10^4$ at $s = -1$, $-3$; unbounded), a fall as $R^{-4}$ outside a core, and a floor $\Sigma_0/\cosh^2s$ at the equator that never vanishes — a one-parameter rational family, not an exponential at any $s$. (The round's first draft stated a bound of $4$ on this ratio; that was the image's equator-to-antipode ratio, $(\cosh s-\sinh s)^2/\cosh^2s$, a different quantity, and is withdrawn. Möbius elements with an off-centre pole are not addressed: they break the disk's axisymmetry.)
+
+**(b) The factor an exponential needs [T].** Keeping only the topology, a mass-preserving conformal rescaling that renders a uniform disk as the gnomonic exponential needs $e^{2\omega}\propto\exp[(\ell/h)\tan\chi]$, divergent at the equator (the response's section 5): for $h/\ell = 0.1875$ the factor is $10^4$, $1.4\times10^{13}$, $5\times10^{132}$ at $\chi = 60^\circ$, $80^\circ$, $89^\circ$ — not a regular deformation of the closed leaf.
+
+**(c) The transformation law [T/V].** The response's five-dimensional formula for $\widetilde H_{AB} = e^{2\omega}H_{AB}$, $\widetilde G_{AB} = G_{AB}-3(\nabla_A\nabla_B\omega-\nabla_A\omega\nabla_B\omega)+3H_{AB}[\Box\omega+(\nabla\omega)^2]$ — the general $(n-2)$ and $(n-2)(n-3)/2$ at $n = 5$ — is checked on a conformally flat metric with a generic $\omega$ to a relative $2\times10^{-10}$. A conformal factor is a physical field whose gradients source the equations; the leaf's roundness survives only the Möbius factors, and those render a uniform disk as the rational family above. Entry 323's conformal route therefore has two bounds: within the round leaf, a one-parameter family of cored, floored profiles that is not exponential; beyond it, a new field whose action PG has not specified [O] — the response's fifth step, taken only if the occupancy route fails, which for the thin disks it does not (§XXXIII.28(b)).
+
+## XXXIII.31 Entry 324, the frame-selection hypothesis: the one statement checkable now [T/V/O; R335] *(`v36_2_normal()`)*
+
+The response's transformation of a surface normal under a rendering with Jacobian $J$, $\mathbf n_{\rm image}\propto J^{-T}\mathbf n$ (tangents going with $J$), is linear algebra. Under the gnomonic rendering a galaxy disk that is a great 2-sphere of the leaf — $S^3$ cut by a 4-normal $N$ — images as the plane $N_x\cdot X = -\ell N_w$, $N_x$ the spatial part of $N$: at four random points of four random great spheres $J^{-T}\mathbf n$ is $N_x$ and the image point lies on that plane, to $2\times10^{-14}$. A disk through the galaxy's centre ($N_w = 0$) images as a plane through the origin with its own normal: the gnomonic rendering turns no disk. A disk that is not a great sphere images as a quadric, whose normal varies with position — an "apparent normal" then needs a definition before it is a claim.
+
+The rest of the hypothesis — an internal direction field $n^a$ on the middle space, its stiffness action, $T^{(g)}_{\mu\nu}[n]$ against $T^{(g)}_{\mu\nu}[Rn]$ — needs a field PG has not specified. The spin–curvature coupling of a test body (Mathisson 1937; Papapetrou 1951; Dixon 1970) is the standard precedent the response cites; the jet–host alignment statistics it cites (Zheng, Zhang & Röttgering 2024: radio jets tend to align with the host's minor axis, more so at lower radio luminosity and for more elongated hosts, with a second, less aligned component) are an observed, morphology- and luminosity-dependent alignment, not a test of PG. The hypothesis is recorded as formulated in §XXXIII.27 and held as a program beside flavor (§XXXIII.9) [O]; the alignment study is cited on its own authority for the three facts named; Entry 324's quasar sanity check is answered to this extent: the rendering PG has specified does not turn a central disk's normal, so a perspectival normal must come from a rendering PG has not specified.
+
+## XXXIII.32 Standing after v36.2, and the next pieces [S/O; R337]
+
+§XXXIII.25 remains the operative standing, with these additions and one change.
+- *Established [T/V], added.* Schwarzschild's method on the leaf: the thin exponentials are cold, trapped stationary populations — their densities at the equator exclude crossing orbits; the broad gnomonic disk only a hot one; the dwarfs' gnomonic sources admit no axisymmetric in-plane placement of their required outer mass that keeps circular support, and no stationary population as cold as their gas (with the observed rotation, $\sigma_r\geq27$–$35$ km/s for the mixture, $\geq19$ for IC 2574's gas alone, against $7$–$10$ observed) — DDO 154's stellar image none at all (§XXXIII.28). The image of an arc-length exponential gains a tail; a fade adds mass; the plateau coefficient is finite for sources vanishing at the equator faster than $\cos\chi$ or smooth and even across it, and diverges logarithmically for a term linear in $\pi/2-\chi$ there (§XXXIII.29). The Möbius family of rendered uniform disks — cored, floored, rational, not exponential; the divergent factor an exponential needs; the five-dimensional transformation law (§XXXIII.30). The gnomonic rendering turns no central disk (§XXXIII.31).
+- *Not demonstrated,* unchanged: the observed rotation curve from the theory as specified. The occupancy route does not change the dwarfs' negative result; it sharpens it to a statement about their gas's dispersion, and it excludes the hemisphere-crossing disk for thin exponentials.
+- *The next pieces.* §XXXIII.25's list stands, with its first item now carrying two observables — the HI surface-density profiles for the dwarfs' sources, and the HI velocity dispersion against the lower bound of §XXXIII.28(c) — and one item added after the third: *gas with pressure and dissipation on the leaf* (the response's step 3), only if the measured profiles leave a stationary population to test. Entry 323's conformal route is closed within the round leaf and open as a new field (§XXXIII.30(c)); Entry 324 is held (§XXXIII.31). The photon-history law — §XXXIII.25's item 4, the optics the Milky Way needs, read for external galaxies — is the piece every statement of §§XXXIII.28–29 waits on.
+- *Not claimed.* No observed rotation curve is reproduced. The exponential disk is not shown to be a rendering artifact; under mass-conserving rendering and any fade the leaf holds more mass than the image shows, further out.
+
+## XXXIII.33 Register R332–R338 [D/O; v36.2]
+
+- **R332** (§XXXIII.28; §XXXIII.23 corrected in place). Orbital occupancy on the leaf — Schwarzschild's method for a thin, collisionless, axisymmetric population on the great 2-sphere in the twin field:
+  - the occupancy law $P(\chi)\propto1/\sqrt{E-U_{\rm eff}}$ and the folded time-averaged density; the facts about crossing orbits (the disk's, $L<\ell v_{\rm eq}$, slowest at the equatorial barrier: $0.28$–$0.32$ of a period within $10^\circ$ of the equator just above the barrier energy, $0.13$ a $v_{\rm eq}^2$ above; the $L>\ell v_{\rm eq}$ family fastest there); one orbit's period and equatorial time by direct integration ($10^{-4}$); each orbit's share of the plateau coefficient by the solver, trapped orbits positive, crossing orbits negative;
+  - the library ($L = 0$ and $100$ values to $1.6\,\ell v$; energies above the well and above every saddle; $4{,}100$–$5{,}500$ orbits) and the linear programs (feasibility and its tolerance; the admissible range of a linear functional; the least radial dispersion with the density and the rotation constrained; the two-component form with the rotation and dispersion required of the gas);
+  - three sources: the thin gnomonic exponential ($h/\ell = 0.1875$) and the arc-length exponential ($h = 3$ kpc) reproduced to the $0.1\%$ floor by populations as cold as the library resolves ($7$–$10$ km/s, the $L$ grid's spacing), whose densities exclude crossing orbits (at most $1\%$ with the whole density matched, $2$–$14\%$ with only the measured range matched at $1$–$5\%$ per bin); the broad gnomonic disk ($h/\ell = 1$) reproduced too but only hot — $\sigma_r\geq35$ km/s inside $30$ kpc with the rotation free — its support absent on $0.2$–$1.9\,h$ and weak inside;
+  - the dwarfs: the support test (every ring's field negative at every measured radius, so no axisymmetric in-plane placement of the required outer mass keeps $v^2>0$ everywhere: at best $8$ of $12$ and $15$ of $34$); the coldest population with the image inside $R_{\rm last}$ and the observed rotation — stars and gas as one population, in the pushforward's field none below $400$ km/s (DDO 154) and $27$ km/s (IC 2574), in the fields iterated to the mixtures' densities $31$–$35$ and $29$–$30$ km/s over five steps; the two components apart, DDO 154's stellar image admitting no stationary population at all and IC 2574's gas needing $\sigma_r\geq19$ km/s at $20\%$ per bin — against observed HI dispersions of about $7$–$10$ km/s (Oh et al. 2008, 2011; Ianjamasimanana et al. 2015);
+  - the reading: the occupancy places the mass the HI total requires (fixed by construction) non-uniquely among the orbits that reproduce the image, and every such population is hot; the dwarfs' failure under the gnomonic premise is the premise's, not the orbits'.
+
+  Superseded wording, §XXXIII.23(c): "Beyond $h/\ell = 0.87$–$0.88$ the pushforward's own tail removes the circular support at the centre, as the dwarfs' gas did in §XXXIII.5." — replaced in place: the support is removed over a band inside ($0.2$–$1.9\,h$ at $h/\ell = 1$), weak support ($v_c<8$ km/s) remaining inside the band. Superseded wording, §XXXIII.25 (the established list's bullet on Entry 322's family): "… a bump in every gnomonic exponential disk (smallest $+2.5\%$ near $h/\ell = 0.22$), and no circular support at the centre beyond $h/\ell\approx0.87$; …" — now "no circular support over a band inside beyond $h/\ell\approx0.87$". The suite's v36.1-9 print corrected to match (quoted in the ledger, §CK). The head-table row on Entry 322's family is rewritten accordingly (its v36.1 text quoted under R337), and the compact manuscript's row likewise.
+
+  [T/V/D/O]
+- **R333** (§XXXIII.29; §XXXIII.15(a) annotated in place). The rendering:
+  - the image of a source exponential in arc length ($h = 3$ kpc on $\ell = 16$): exponential to $13\%$ out to $10$ kpc with scale length $2.8$–$3.1$ kpc, then shallower ($5.3$ kpc at $24$ kpc, $2.7$ times the exponential; $360$ times at $48$ kpc) — the rendering adds a tail; its curve flat to the eye ($215$–$221$ km/s from $10$ to $3{,}000$ kpc) and rising without bound, $C$'s second differences growing logarithmically;
+  - when the plateau coefficient is finite: $\Sigma\sim\cos^p\chi$ at the equator gives $C = 0$ (uniform, by the twin kernel's zero mean), a logarithmic divergence ($p = 1$), $4.690$, $3.534$ and $3.056$ ($p = 1.5$, $2$, $3$; ring formula and solver agreeing, the solver converging as $h^{p-1}$); the ring formula converges exactly for sources vanishing faster than $\cos\chi$ ($p>1$); a population's smooth, even density has a finite $C$ by the solver;
+  - the fade: DDO 154 with $\varepsilon = \cos\chi$, $\cos^2\chi$ carries $5$ and $72$ times the mass, $v_\infty = 279$ and $214$ km/s on the enlarged arena leaves ($4.5$, $17$ kpc), against $47$ observed.
+
+  Note added to §XXXIII.15(a) after the definition of $C$: "*[v36.2, R333: $\psi''(\pi/2)$ exists for thin sources that vanish at the equator faster than $\cos\chi$ ($\cos^2\chi$ included) or are smooth and even across it; a density $\propto\cos\chi$ at the equator gives a logarithmic divergence (§XXXIII.29(b)).]*"
+
+  [T/V/D]
+- **R334** (§XXXIII.30). The conformal rendering: the Möbius dilation's factor $\Omega = 1/(\cosh s-\sinh s\cos\theta)$ on $S^3$ (finite differences, $5\times10^{-10}$); a uniform density rendered, at the image angle, as $\Sigma_0/(\cosh s+\sinh s\cos\theta')^2$ — a cusp at the pole with an unbounded centre-to-equator ratio $e^{-2s}\cosh^2s$, an $R^{-4}$ fall and a floor $\Sigma_0/\cosh^2s$: a rational family, not an exponential (the round's first draft's "bound of $4$" was the equator-to-antipode ratio, withdrawn before delivery); the factor $\exp[(\ell/h)\tan\chi]$ an exponential needs, divergent at the equator ($5\times10^{132}$ at $89^\circ$ for $h/\ell = 0.1875$); the five-dimensional transformation of the Einstein tensor checked ($2\times10^{-10}$). Entry 323's conformal route: within the round leaf, this family only; beyond it, a new field from an action. [T/V/D/O]
+- **R335** (§XXXIII.31). Entry 324: the normal under a rendering, $J^{-T}\mathbf n$; under the gnomonic rendering a great-sphere disk images as the plane $N_x\cdot X = -\ell N_w$ with the normal $N_x$ ($2\times10^{-14}$), a central disk keeping its normal; a non-great disk images as a quadric; the direction field, its action and the $T^{(g)}[n]$ against $T^{(g)}[Rn]$ experiment held as a program; the precedents and the alignment statistics cited as the response gives them (Mathisson 1937; Papapetrou 1951; Dixon 1970; Zheng, Zhang & Röttgering 2024). [T/V/O]
+- **R336** (§XXXIII.27). Entries 323 and 324 in the author's words; the two responses summarized and quoted; what v36.2 does with each. [record]
+- **R337** (§XXXIII.32; the head table; §§XXXIII.24–25 pointed). Standing after v36.2: the additions to §XXXIII.25's established list; the dwarfs' negative result sharpened to their gas's dispersion; the next pieces (the HI profiles with the dispersion as a second observable; gas with pressure and dissipation added after the label law; the conformal route's two bounds; Entry 324 held). The head table of v36.1 (R329) is replaced whole by v36.2's; its row on Entry 322's family read, in part: "… the gnomonic exponential disks have a bump in every member (smallest $+2.5\%$, near $h/\ell = 0.22$) and lose the centre's circular support beyond $h/\ell = 0.87$. …" — now "lose circular support over a band inside beyond $h/\ell = 0.87$". Pointer lines added to §XXXIII.24 and §XXXIII.25. [S/O]
+- **R338** (§XXXIII.13; the toy; the figures). The suite `pg_v36_numerics.py` at v36.2: four new sections and checks ($22$ in all), each stating its controls apart from the recorded outcomes it reproduces with two-sided tolerances; the mode `v36_2` (its four, independent of the earlier rounds' computations, about nine minutes); `quick` now nine checks; the linear programs by HiGHS's interior-point method with a status guard (a run that ends without a verdict fails the check). One v36.1 print reworded (R332), quoted in the ledger. The toy `v32_toy_three_ends.py` gains `v36_2`, its `all` counting $209$. The figures: `pg_v36_2_plots.py`, writing three. The SHA-256 of the suite is in §XXXIII.13. [reproducibility]
+
+## Round record: the version summaries, v16 to v36.2 (moved from the head of the archive in v34.9, R190)
+
+*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v36.2, v36.1, v36.0, v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+
+> **v36.2 — Entries 323–324 (16–17 October 2026): orbital occupancy on the leaf, the exponential as a rendering, the conformal route, the frame-selection hypothesis. Parts XXX–XXXII frozen at v35.8.**
+>
+> *What was asked.* Entry 323: the exponential fall-off as a rendering artifact of a smoother leaf, matter crossing hemispheres; a conformal rendering of a near-uniform middle space; the density as the time matter spends at a radius. Its response: the orbital-occupancy calculation first (a stationary population of trapped and crossing orbits, iterated with its field), the conformal degree of freedom only if it fails, a photon-history law last; the catch that a fade adds mass. Entry 324: a galaxy's normal as a turnable interior structure; its response: three meanings of turning, a direction field with a stiffness action, the normal's transformation $J^{-T}\mathbf n$, the directional-frame selection hypothesis.
+>
+> **What v36.2 does (R332–R338; §§XXXIII.27–33).**
+> - Schwarzschild's method on the leaf: the disk's crossing orbits are slowest at the equatorial barrier; trapped orbits add to the plateau coefficient, crossing ones subtract. The thin exponentials are cold stationary populations whose densities exclude crossing orbits; the broad gnomonic disk only a hot one. The dwarfs: no axisymmetric placement of their required outer mass keeps circular support, and no stationary population with their rotation is colder than $\sigma_r = 27$–$35$ km/s for stars and gas together, or $19$ km/s for IC 2574's gas alone, against $7$–$10$ observed (DDO 154's stellar image admits none at all) — the occupancy places the mass the HI total requires, it cannot remove it.
+> - The image of an arc-length exponential gains a tail; a fade adds mass; the plateau coefficient is finite for sources vanishing at the equator faster than $\cos\chi$ or smooth and even across it, and diverges for a term linear in the distance to the equator.
+> - The conformal route: within the round leaf, the Möbius family of cored, floored, rational profiles — not exponential; a divergent factor beyond; the five-dimensional law checked.
+> - Entry 324: the gnomonic rendering turns no central disk; the direction field held as a program.
+> - A standing after v36.2; two v36.1 sentences corrected in place; independent referees checked the round before delivery, and the first draft's "bound of 4" and "crossing fraction free" were withdrawn on their findings.
+>
+> **Next.** Measured HI profiles for the pilot, with the dispersion as a second observable; the Milky Way estimator; a label law before fitting; gas with pressure on the leaf; the photon-history law; the author's choice for the cap.
 
 > **v36.1 — the corrective round (16 October 2026): the two reports on v36.0, and the author's three responses with Entry 322. Parts XXX–XXXII frozen at v35.8.**
 >
