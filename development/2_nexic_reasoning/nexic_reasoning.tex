@@ -417,6 +417,7 @@
       year = {2026},
       note = {Companion extraction.}, url={https://philpapers.org/rec/BENNPW}}
 
+    @misc{OptimalEarth, author={Benander, Ajax}, title={The Optimal Earth: Conditional Concentration of Observer-Weighted Natural Histories}, year={2026}, howpublished={Preprint}, note={Companion extraction.}, url={https://philpapers.org/rec/BENTOE-4}}
     @misc{GoldenScience2022,
   author       = {Benander, Ajax},
   title        = {Golden Science},
@@ -816,7 +817,7 @@
 
     People say, in earnest and at scale, that the asteroid which ended the dinosaurs was the most important thing that ever happened. The received sense of that sentence is narrative: a lucky break, a door held open for the mammals, an emblem of the contingency Gould made famous. This paper takes the sentence literally and makes it quantitative, and since the result is the one the entire framework grew out of, it belongs at the front rather than at the two places it would otherwise first appear, deep in the counterfactual section and again among the paleontological consequences near the end. Everything below in this subsection is stated in plain words; the derivation is in \autoref{sec:counterfactual}, and nothing here is argued that is not argued there.
 
-    Write $A$ for the origination of the dinosaurs, $B$ for their extinction with the mammals surviving, and $H$ for the eventual existence of observers like us. Two empirical constraints enter, and only two: that an extinction of that kind was unlikely, the location roll of the impact putting it at no more than about thirteen percent, and that a continued Mesozoic was overwhelmingly unfavorable to the rise of observers. The Accordance Principle is then applied twice. The \emph{one-node} application bounds the never-extinct scenario at roughly fifteen percent of our own scenario's observer-productivity, which makes the extinction an anthropic parameter, close to what the received reading already believed. The \emph{two-node} application takes that bound as input and propagates it back through the origination event, and returns the statement the received reading does not contain: the never-dinosaur scenario is at most about six percent as observer-productive as ours. The origination of the dinosaurs is an anthropic parameter too. The Mesozoic is bounded in time by two of them, one at each end, and the asteroid was not a lucky break on this reading but a structural requirement, as was the existence of the very thing it killed.
+    Write $A$ for the origination of the dinosaurs, $B$ for their extinction with the mammals surviving, and $H$ for the eventual existence of observers like us. Two empirical constraints enter, and only two: that an extinction of that kind was unlikely, the location roll of the impact putting it at no more than about thirteen percent, and that a continued Mesozoic was overwhelmingly unfavorable to the rise of observers. The Accordance Principle is then applied twice. The \emph{one-node} application bounds the never-extinct scenario at roughly fifteen percent of our own scenario's observer-productivity, which makes the extinction an anthropic parameter, close to what the received reading already believed. The \emph{two-node} application carries the extinction's price back through the origination event, and returns the statement the received reading does not contain: the never-dinosaur scenario is at most about six percent as observer-productive as ours, at the median rung of a bound stated at every rung. The origination of the dinosaurs is an anthropic parameter too. The Mesozoic is bounded in time by two of them, one at each end, and the asteroid was not a lucky break on this reading but a structural requirement, as was the existence of the very thing it killed.
 
     That is what it means to say the framework \emph{supercharges} the popular claim rather than merely endorsing it, and the upgrade has three parts. The first is magnitude: a bound at a stated grade, in place of a feeling. The second is direction: the origination corollary, which no narrative version of the claim contains and which the principle forces once the extinction is admitted. The third is coupling: the result is not a freestanding fact but one node of a closure, since \autoref{sec:propagation-closure} shows that a labeled improbability entails further labeled improbabilities under the same constraint, so the asteroid drags with it the Dark Era latch of \autoref{sec:darkera} and the Ha\c{t}eg refuge of \autoref{sec:hat} rather than sitting alone as a curiosity; that coupling, the fact that admitting one Miracle forces others, is the ontological seed the whole framework grows from, and \autoref{sec:coupled-miracles} explores it once the derivation is in hand. The grade travels with the result and should be read alongside it: the derivation is exact given its inputs, the inputs are contested as any single-paper figure is, and the bound is precisely as tight as its weakest input.
 
@@ -1376,7 +1377,7 @@ The expansion does not require, and should not be confused with, a metaphysical 
     \hline
     Probability of dinosaur-like clade evolving & $\sim 33\%$ & Section~\ref{sec:counterfactual} \\
     Probability of K-Pg extinction succeeding & $\sim 13\%$ \cite{Kaiho2017} & Section~\ref{sec:counterfactual} \\
-    Extended-Paleozoic vs.\ post-extinction bound & $\frac{P(H \mid A')}{P(H \mid A \cap B)} \lesssim 6\%$ & Section~\ref{sec:counterfactual} \\
+    Extended-Paleozoic vs.\ post-extinction bound & $\frac{P(H \mid A')}{P(H \mid A \cap B)} \lesssim 6.4\%$ & Section~\ref{sec:counterfactual} \\
     Combined anthropic bound per biosphere & $P(H) \lesssim 4\%$ & Section~\ref{sec:rareearth} \\
     Extrapolated probability at planetary formation & $P(H) \sim 10^{-27}$ & Section~\ref{sec:rareearth} \\
     \end{tabular}
@@ -2431,77 +2432,202 @@ Third, the schema is a method for bounding \emph{abundance}, not a nonexistence 
     One further statement of grade is owed before the derivation is run, and it is entered here so that the derivation's exactness is not mistaken for its inputs'. The Accordance form is quantitative --- it prices violations by an exceedance bound at a stated $\kappa$ --- while the two constraints above deliver direction and, at best, one coarse magnitude: the $\lesssim 13\%$ location roll, contested at the margins as any single-paper figure is, and a dominance claim whose strength is qualitative. The derivation that follows is therefore an \emph{illustration of the method on contested inputs}, and the Ladder grades it as such: what is established is the derivation's validity given the constraints, what is empirical is the constraints' present support, and what the application achieves quantitatively is a bound whose tightness is exactly the tightness of its weakest input. The framework's structural point --- that the labels couple, that the bound compounds, that the discipline is owed once at the root --- does not need the thirteen to be exact, and the reader who distrusts the number should read the derivation as running on ``markedly below even odds,'' which is all the coupling argument consumes.
     
     \subsection{Derivation of the Dinosaurian Context: One-Node and Two-Node Applications}
-    
-    We proceed with the formal derivation in two stages, with each stage extracting a distinct anthropic-parameter result from the empirical content of the previous subsection. The \emph{one-node application} treats the dinosaurian extinction event $B$ directly, conditional on the dinosaurs having evolved, and bounds the probability of human existence in the never-extinct (continued-Mesozoic) scenario via the Accordance Principle alone. The \emph{two-node application} then takes the one-node result as input and propagates the bound through the prior dinosaurian origination event $A$, yielding the more striking conclusion that the origination of the dinosaurs is also an anthropic parameter. The Mesozoic Era is thereby effectively bounded in time by two anthropic parameters: origination at its beginning, extinction at its end.
-    
+    % R823 (Fable 5.1, Oct 18 2026, author-directed): the one-node and two-node applications restated in the exceedance
+    % form of Corollary cor:aetherian-accordance. The tendency form's \lesssim is read as the median rung (Corollary
+    % cor:tendency); the standing rungs 1, 4 and 9 and the linkage floors of Definition def:existential-linkage are
+    % carried through; the two-node form is derived exactly, with the never-extinct branch's weight as a parameter, and the
+    % Dominance constraint then fixes it; the second repair and the root sensitivity are stated; the grade is stated. The
+    % author's declaration of A, B and H with its footnote, the figure, the Principle (with the exact form added) and the
+    % interaction-free-measurement footnote are kept verbatim; the earlier derivation is kept in the comment at the end of
+    % the two-node application. Figures checked by computation (work/r823/r823.py).
+
+    The derivation has two stages, each extracting one anthropic-parameter result from the constraints of the previous subsection. The \emph{one-node application} treats the dinosaurian extinction event $B$ directly, conditional on the dinosaurs having evolved, and bounds the probability of human existence in the never-extinct (continued-Mesozoic) scenario via the Accordance Principle alone. The \emph{two-node application} then carries the extinction's price upstream through the prior dinosaurian origination event $A$, yielding the more striking conclusion that the origination of the dinosaurs is also an anthropic parameter. The Mesozoic Era is thereby effectively bounded in time by two anthropic parameters: origination at its beginning, extinction at its end.
+
     If we declare the dinosaurian evolution as the Aethus $A$, the dinosaurian extinction (such that the mammals survive) as the Aethus $B$, and the eventual existence of Aetherians in the biosphere as the Aethus $H$, then the Constraint of Unlikely Dinosaurian Demise gives $\mathrm{P}(B \mid A) \approx 13\%$\footnote{Something crucial I must emphasize, however, is that the overall Cosmic Nexic change of the dinosaurs doing extinct throughout the Mesozoic might itself be thought to be significantly higher then a mere 13\% chance due to the vast dangers of Earth's being globally sterilized as per the external doomsday danger. What the 13\% ought better to be registered as, then, is \emph{the (extremely) conservative upper bound in the probability that dinosaurs go exist while mammals survive}, which automatically is a much more severely-unlike circumstance, because the default Cosmic Nexus tendency of destroying the Earth will of course fail to satisfy this. This itself is a basic example of how quickly we move from uniform devastation to a immensely thin optimization query by means of specifying only a few Aethic attributes about natural history. That is, the tendency of the ``destroy the dinosaurs" attribute alone is to annihilate the entire planet, whereas the tendency of ``spare the mammals" is to default to the highly delicate balance of dealing no threats onto the planet whatsoever (due to the maintained habitability of Earth already being something of an unstable equilibrium point \cite{Tyrrell2020}), hence unfortunately sparing the dinosaurs in the process. The point of the matter is that this optimization point even at face value is already minutely probabilistically accessible, but to make matters worse still we might notice how much typically easier it is to wipe out the already ecologically inferior mammals as opposed to the ecologically successful dinosaurs among the majority of options for what causes the extinction event. \par
     Altogether the point of the matter is that even in a simple case such as this, we ought to ensure we are constructing the actual desired Aethus in question for proceeding with the argument, as opposed to one which is dominant in the Cosmic Nexus but structurally different from the target.}, and the Constraint of Dinosaurian Dominance gives $\mathrm{P}(H \mid A \cap B') \approx 0$. The two-node application will additionally use the rough estimate $\mathrm{P}(A) \approx 33\%$, on the basis that of the three eras of the Phanerozoic, none other than the Mesozoic produced an ecologically dominant clade quite to the extent of the dinosaurs; this is our best available approximation for the probability of such a clade evolving.
-    
+
+
+    \paragraph{The instrument.} Both applications run on the Aetherian Accordance Principle, Corollary~\ref{cor:aetherian-accordance}: for an attribute $X$ of a partial state, its alternative $X'$, and every $\kappa > 1$, with $\kappa = 1$ in strict form,
+    \[ \Pr\!\left[\, \frac{\mathrm{P}(H \mid X')}{\mathrm{P}(H \mid X)} \;\ge\; \kappa\, \frac{\mathrm{P}(X)}{1 - \mathrm{P}(X)} \,\right] \;\le\; \frac{1}{1+\kappa}, \]
+    the outer probability a proportion over the realization (\autoref{sec:aethic-mediocrity}), every inner probability conditioned on the parent state in which $X$ is the designated blank. The tendency form, with $\lesssim$ in place of the exceedance, is this display's median rung, $\kappa = 1$ (Corollary~\ref{cor:tendency}), and is read as that rung throughout. Three further features of the display are consumed. The threshold $\kappa$ is fixed before the realization is read, never from the realized prior (Corollary~\ref{cor:prior-bound}); the rungs used are the standing ones, $\kappa = 1$, $4$ and $9$, at which the bound fails in at most a half, a fifth and a tenth of the cases. Read on the linkage scale of Definition~\ref{def:existential-linkage}, the event is $L_X \le \ell_\kappa(X)$ with $\ell_\kappa(X) = (1 - (1+\kappa)\,\mathrm{P}(X))/(1 - (1-\kappa)\,\mathrm{P}(X))$, so that off the same tail the linkage has the floor $L_X \ge \ell_\kappa(X)$. And multiplying the event's two sides by $\mathrm{P}(X')\,\mathrm{P}(H \mid X)$ gives it in joint form, $\mathrm{P}(H \cap X') \ge \kappa\, \mathrm{P}(H \cap X)$, which is the form the two-node application expands.
+
     \subsubsection{One-Node Application: Bounding the Never-Extinct Scenario}
-    
-    Conditional on $A$ (the dinosaurs evolved), the binary partition $\{B, B'\}$ licenses the General Form of the Accordance Principle (\autoref{sec:formalism}):
+
+    \paragraph{The crossroads.} With $A$ among the stated attributes of the parent state, the designated blank is $B$, the crossroads is $\{B, B'\}$, and every probability runs conditional on $A$. The display at $X = B$ reads
     \begin{equation}
-    \frac{\mathrm{P} \! \left( H \mid A \cap B' \right)}{\mathrm{P} \! \left( H \mid A \cap B \right)} \;\lesssim\; \frac{\mathrm{P} \! \left( B \mid A \right)}{\mathrm{P} \! \left( B' \mid A \right)} \;=\; \frac{0.13}{0.87} \;\approx\; 15\%.
+    \label{eq:one-node-exceedance}
+    \Pr\!\left[\, \frac{\mathrm{P}(H \mid A \cap B')}{\mathrm{P}(H \mid A \cap B)} \;\ge\; \kappa\, \frac{\mathrm{P}(B \mid A)}{1 - \mathrm{P}(B \mid A)} \,\right] \;\le\; \frac{1}{1+\kappa},
     \end{equation}
-    
-    Two complementary results follow. The Accordance Principle's quantitative bound establishes that in the never-extinct scenario $A \cap B'$, the probability of Aetherian existence is at most approximately $15\%$ of the probability in our scenario $A \cap B$. The Constraint of Dinosaurian Dominance, separately, establishes that $\mathrm{P}(H \mid A \cap B') \approx 0$ in absolute terms. The two results agree: the never-extinct scenario is severely depressed in observer-supporting probability, both as a fraction of our scenario's probability and absolutely. The dinosaurian extinction is therefore an anthropic parameter---an event whose realization in our history was structurally required for our existence.
-    
+    and with $\mathrm{P}(B \mid A) \approx 0.13$ the prior odds are $0.13/0.87 \approx 0.15$. Write $r_B$ for the ratio on the left, the never-extinct branch's observer-productivity relative to ours.
+
+    \paragraph{The rungs.} At the median rung, $\kappa = 1$ in strict form, $r_B \le 0.15$ in at least half of the cases: the never-extinct scenario is at most about fifteen percent as productive of Aetherians as our own, which is the tendency form's figure. At $\kappa = 4$ the bound is $r_B < 0.60$ in at least four fifths of the cases, and at $\kappa = 9$ it is $r_B < 1.35$ in at least nine tenths, which no longer separates the branches: at the ninth-decile rung the one-node application on its own does not exclude the never-extinct branch's being the more productive. The linkage floors say the same on their scale: $L_B \ge 0.74$ at the median rung, $L_B \ge 0.25$ at $\kappa = 4$, and a negative floor at $\kappa = 9$, $L_B \ge -0.15$, which fixes no sign (Table~\ref{tab:dino-rungs}).
+
+    \paragraph{What the two constraints say together.} The bound is relative; the Constraint of Dinosaurian Dominance is absolute, $\mathrm{P}(H \mid A \cap B') \approx 0$, and it is a separate empirical input, not a reading of the bound. The two agree in direction: the never-extinct scenario is depressed in observer-productivity both as a fraction of our scenario's and in itself. The dinosaurian extinction is therefore an anthropic parameter---an event whose realization in our history was structurally required for our existence---at the priced grade the rungs state, and it is the Dominance constraint, not the one-node bound, that the two-node application consumes, because the bound leaves the never-extinct branch's weight free and the constraint fixes it.
+
     \subsubsection{Two-Node Application: Bounding the Never-Dinosaur Scenario}
-    
-    This is the paper's founding result, the one \autoref{sec:asteroid-headline} states in plain words at the front, and what follows is its derivation; a reader who wants only the conclusion may go to the boxed inequality and the principle that follows it, and return for the steps. The more striking result follows when the one-node result is taken as input and the analysis is extended to the never-dinosaur scenario $A'$, in which the dinosaurs never originate at all. Consider the following graphic, which serves as a pictorial representation of the two-node circumstance.
-    
+
+    The more striking result follows when the analysis is extended to the never-dinosaur scenario $A'$, in which the dinosaurs never originate at all. Consider the following graphic, which serves as a pictorial representation of the two-node circumstance.
+
     \begin{figure}[h]
         \centering
         \fbox{\includegraphics[width=0.75\textwidth]{Images/tsplits.png}}
         \caption{\textit{A graphical representation of the particular two-node circumstance in question.}}
         \label{fig:tsplits}
     \end{figure}
-    
-    The two-node application compares our scenario $A \cap B$ to the broader complement $(A \cap B)'$, which decomposes as the disjoint union $A' \cup (A \cap B')$: either the dinosaurs never evolved, or they evolved but never went extinct. Applying the Accordance Principle on the binary $\{A \cap B, (A \cap B)'\}$, the General Form in joint-probability form yields:
+
+    \paragraph{The crossroads.} The attribute is the conjunction $C = A \cap B$, our scenario, against its complement $C' = (A \cap B)' = A' \cup (A \cap B')$: either the dinosaurs never evolved, or they evolved and no extinction that spared the mammals followed, the never-extinct branch in the short name the footnote above qualifies. The parent state is the one in which both $A$ and $B$ are blank, the standpoint of the end of the Paleozoic, and the chain of Principle~\ref{prince:accordance} is $H^{\ast} \sqsubseteq H[C] \sqsubseteq H$, the conditioning target being observer-production itself. The attribute's prior is
+    \[ \mathrm{P}(C) \;=\; \mathrm{P}(A)\,\mathrm{P}(B \mid A) \;\approx\; 0.33 \times 0.13 \;\approx\; 0.043, \]
+    and $\mathrm{P}(C') = 1 - \mathrm{P}(C) \approx 0.957$.
+
+    \paragraph{The exceedance form at $C$.} The display at $X = C$ is
     \begin{equation}
-    \mathrm{P} \! \left( H \cap A \cap B \right) \;\gtrsim\; \mathrm{P} \! \left( H \cap (A \cap B)' \right).
+    \label{eq:two-node-exceedance}
+    \Pr\!\left[\, \frac{\mathrm{P}(H \mid C')}{\mathrm{P}(H \mid C)} \;\ge\; \kappa\, \frac{\mathrm{P}(C)}{1 - \mathrm{P}(C)} \,\right] \;\le\; \frac{1}{1+\kappa},
     \end{equation}
-    
-    We may then expand both sides. The left-hand side expands by the chain rule:
+    whose event, in joint form, is $\mathrm{P}(H \cap C') \ge \kappa\, \mathrm{P}(H \cap C)$; its complement at $\kappa = 1$ is the joint inequality $\mathrm{P}(H \cap A \cap B) \ge \mathrm{P}(H \cap (A \cap B)')$, whose median reading is the tendency form $\mathrm{P}(H \cap A \cap B) \gtrsim \mathrm{P}(H \cap (A \cap B)')$. Both sides expand. By the chain rule,
+    \[ \mathrm{P}(H \cap C) \;=\; \mathrm{P}(H \mid A \cap B)\, \mathrm{P}(B \mid A)\, \mathrm{P}(A), \]
+    and by the disjoint union, writing $\varepsilon = \mathrm{P}(H \mid A \cap B')/\mathrm{P}(H \mid A \cap B)$ for the never-extinct branch's productivity relative to ours, the quantity the one-node rungs bound as $r_B$, here a parameter to be fixed,
+    \[ \mathrm{P}(H \cap C') \;=\; \mathrm{P}(H \mid A')\, \mathrm{P}(A') \;+\; \varepsilon\, \mathrm{P}(H \mid A \cap B)\, \mathrm{P}(B' \mid A)\, \mathrm{P}(A). \]
+    Substituting both into the event and dividing by $\mathrm{P}(H \mid A \cap B)\,\mathrm{P}(A')$ gives the two-node form exactly, with $r_A = \mathrm{P}(H \mid A')/\mathrm{P}(H \mid A \cap B)$ the never-dinosaur branch's productivity relative to ours:
     \begin{equation}
-    \mathrm{P} \! \left( H \cap A \cap B \right) = \mathrm{P} \! \left( H \mid A \cap B \right) \, \mathrm{P} \! \left( B \mid A \right) \, \mathrm{P} \! \left( A \right).
+    \label{eq:two-node-general}
+    \Pr\!\left[\, r_A \;\ge\; \frac{\mathrm{P}(A)}{1 - \mathrm{P}(A)}\,\Big( \kappa\, \mathrm{P}(B \mid A) \;-\; \varepsilon\, \big(1 - \mathrm{P}(B \mid A)\big) \Big) \,\right] \;\le\; \frac{1}{1+\kappa}.
     \end{equation}
-    The right-hand side expands by the disjoint union $(A \cap B)' = A' \cup (A \cap B')$:
+    The Constraint of Dinosaurian Dominance sets $\varepsilon \approx 0$, and the form the paper runs on follows:
     \begin{equation}
-    \mathrm{P} \! \left( H \cap (A \cap B)' \right) = \mathrm{P} \! \left( H \cap A' \right) + \mathrm{P} \! \left( H \cap A \cap B' \right).
+    \label{eq:two-node-boxed}
+    \boxed{\;
+    \Pr\!\left[\, \frac{\mathrm{P}(H \mid A')}{\mathrm{P}(H \mid A \cap B)} \;\ge\; \kappa\, \frac{\mathrm{P}(A)\,\mathrm{P}(B \mid A)}{1 - \mathrm{P}(A)} \,\right] \;\le\; \frac{1}{1+\kappa}, \qquad \kappa > 1,\ \text{and } \kappa = 1 \text{ in strict form}
+    \;}
     \end{equation}
-    By the Constraint of Dinosaurian Dominance from the one-node result, $\mathrm{P}(H \mid A \cap B') \approx 0$, so the second term on the right-hand side vanishes:
-    \begin{equation}
-    \mathrm{P} \! \left( H \cap (A \cap B)' \right) \;\approx\; \mathrm{P} \! \left( H \cap A' \right).
-    \end{equation}
-    We may now substitute both expansions back into the larger inequality:
-    \begin{equation}
-    \mathrm{P} \! \left( H \mid A \cap B \right) \, \mathrm{P} \! \left( B \mid A \right) \, \mathrm{P} \! \left( A \right) \;\gtrsim\; \mathrm{P} \! \left( H \cap A' \right).
-    \end{equation}
-    Inserting the empirical approximations of $\mathrm{P}(B \mid A) \approx 13\%$ and $\mathrm{P}(A) \approx 33\%$:
-    \begin{equation}
-    \mathrm{P} \! \left( H \mid A \cap B \right) \cdot 13\% \cdot 33\% \;\gtrsim\; \mathrm{P} \! \left( H \cap A' \right).
-    \end{equation}
-    Simplifying:
-    \begin{equation}
-    \frac{\mathrm{P} \! \left( H \cap A' \right)}{\mathrm{P} \! \left( H \mid A \cap B \right)} \;\lesssim\; 4\%.
-    \end{equation}
-    Lastly, we may take advantage of the identity that $\mathrm{P}(H \cap A') = \mathrm{P}(H \mid A') \, \mathrm{P}(A')$ to write the following, where $\mathrm{P}(A') = 1 - \mathrm{P}(A) \approx 67\%$:
-    \begin{equation}
-    \frac{\mathrm{P} \! \left( H \mid A' \right)}{\mathrm{P} \! \left( H \mid A \cap B \right)} \cdot 67\% \;\lesssim\; 4\%.
-    \end{equation}
-    \begin{equation}
-    \boxed{
-    \frac{\mathrm{P} \! \left( H \mid A' \right)}{\mathrm{P} \! \left( H \mid A \cap B \right)} \;\lesssim\; 6\%.
-    }
-    \end{equation}
-    This is our fundamental probabilistic statement about the dinosaurs\footnote{So as not to understate this point, this ability of Nexic reasoning to provide information about the workings of alternate histories to arbitrary probabilistic precision is the direct mechanism by which it constitutes a special case of an Aethic \cite{Aethus} interaction-free measurement \cite{elitzur1993quantum} outside of the domain of quantum mechanics altogether. While this does not yet constitute a full Aethic generalization of quantum interaction-free measurements, it is of course rather striking and deeply informative that we are able to replicate the effect in the first place without ever once referencing the quantum wavefunction, (and especially with such a simple logical statement as the Accordance Principle, at that). Altogether, then, this is certainly an immediately-viable avenue through which we might further research the interplay between Aethic reasoning and the capacity of our universe to provide us with these sorts of non-classical phenomena.}. Let us write this as the fundamental probabilistic context of dinosaurs.
+    Write $c$ for the coefficient. With $\mathrm{P}(A) \approx 0.33$ and $\mathrm{P}(B \mid A) \approx 0.13$,
+    \[ \Pr\big[\, r_A \;\ge\; c\,\kappa \,\big] \;\le\; \frac{1}{1+\kappa}, \qquad c \;=\; \frac{0.33 \times 0.13}{0.67} \;\approx\; 0.064, \]
+    the inputs' own two figures being all the precision $c$ carries.
+
+    \paragraph{The rungs.} At the median rung the never-dinosaur scenario is at most $0.064$ times as productive of Aetherians as ours in at least half of the cases, the six percent of the Principle below; at $\kappa = 4$ it is at most $0.26$ times in at least four fifths of the cases; at $\kappa = 9$ at most $0.58$ times in at least nine tenths. Unlike the one-node bound, the two-node bound separates the branches at every standing rung: the never-dinosaur branch is the less productive in at least half, four fifths and nine tenths of the cases. On the linkage scale the realized Mesozoic, $C$ against $C'$, has $L_C \ge 0.91$ at the median rung, $L_C \ge 0.69$ at $\kappa = 4$ and $L_C \ge 0.42$ at $\kappa = 9$ (Table~\ref{tab:dino-rungs}).
+
+    \begin{table}[ht]
+    \centering
+    \small
+    \caption{The two applications at the standing rungs, on the constraints as entered ($\mathrm{P}(B \mid A) \approx 0.13$, $\mathrm{P}(A) \approx 0.33$, $\mathrm{P}(H \mid A \cap B') \approx 0$): the attribute's prior, the bound on the alternative branch's observer-productivity relative to ours at each rung, and the linkage floor $\ell_\kappa$ at each rung, from Corollary~\ref{cor:aetherian-accordance} and Definition~\ref{def:existential-linkage}. Each bound holds except on probability at most $1/(1+\kappa)$: a half, a fifth and a tenth. In the two-node row the never-extinct branch's weight is set by the Dominance constraint, and the floors are those of $C$ against its complement $C'$.}
+    \label{tab:dino-rungs}
+    \footnotesize
+    \begin{tabular}{@{}lllccccccc@{}}
+    \toprule
+     & & & & \multicolumn{3}{c}{Bounded branch at most} & \multicolumn{3}{c}{Linkage floor} \\
+    \cmidrule(lr){5-7} \cmidrule(lr){8-10}
+    Application & Attribute & Branch bounded & Prior & $\kappa = 1$ & $\kappa = 4$ & $\kappa = 9$ & $\kappa = 1$ & $\kappa = 4$ & $\kappa = 9$ \\
+    \midrule
+    One-node & $B$ given $A$ & never-extinct, $B'$ given $A$ & $0.13$ & $0.15$ & $0.60$ & $1.35$ & $0.74$ & $0.25$ & $-0.15$ \\
+    Two-node & $C = A \cap B$ & never-dinosaur, $A'$ & $0.043$ & $0.064$ & $0.26$ & $0.58$ & $0.91$ & $0.69$ & $0.42$ \\
+    \bottomrule
+    \end{tabular}
+    \end{table}
+
+    % R823: "This is" -> "The boxed display ... is", the sentence no longer following the display directly.
+    The boxed display \eqref{eq:two-node-boxed} is our fundamental probabilistic statement about the dinosaurs, the one \autoref{sec:asteroid-headline} states in plain words at the front.\footnote{So as not to understate this point, this ability of Nexic reasoning to provide information about the workings of alternate histories to arbitrary probabilistic precision is the direct mechanism by which it constitutes a special case of an Aethic \cite{Aethus} interaction-free measurement \cite{elitzur1993quantum} outside of the domain of quantum mechanics altogether. While this does not yet constitute a full Aethic generalization of quantum interaction-free measurements, it is of course rather striking and deeply informative that we are able to replicate the effect in the first place without ever once referencing the quantum wavefunction, (and especially with such a simple logical statement as the Accordance Principle, at that). Altogether, then, this is certainly an immediately-viable avenue through which we might further research the interplay between Aethic reasoning and the capacity of our universe to provide us with these sorts of non-classical phenomena.} Let us write this as the fundamental probabilistic context of dinosaurs.
     \begin{prince}[Fundamental Probabilistic Context of Dinosaurs]
 \label{prin:dinosaurian-probabilistic-context}
         The probability of Aetherians existing on Earth in an extended-Paleozoic scenario will never be more than six percent the likelihood of the probability of Aetherians eventually evolving as of the very beginning of the Cenozoic.
+        % R823 (Fable 5.1, Oct 18 2026): the exact form added beneath the author's sentence.
+        In exact form, on the constraints as entered and at the grade the principle carries: for every $\kappa > 1$, and at $\kappa = 1$ in strict form,
+        \[ \Pr\!\left[\, \frac{\mathrm{P}(H \mid A')}{\mathrm{P}(H \mid A \cap B)} \;\ge\; c\,\kappa \,\right] \;\le\; \frac{1}{1+\kappa}, \qquad c \;=\; \frac{\mathrm{P}(A)\,\mathrm{P}(B \mid A)}{1 - \mathrm{P}(A)} \;\approx\; 0.064, \]
+        so that the extended-Paleozoic scenario is at most $0.064$ times as productive of Aetherians as ours in at least half of the cases, at most $0.26$ times in at least four fifths, and at most $0.58$ times in at least nine tenths; the six percent is the median rung's $0.064$ to one figure.
     \end{prince}
     In effect, it is clear that even with the highest probability of us eventually existing at the very beginnings of the Cenozoic, and the extended-Paleozoic scenario will still have very low likelihoods associated with it. In effect, we have that the origination of the dinosaurs themselves was, of all things, an anthropic parameter.
-    
+
+    \paragraph{The same bound from the origination's own crossroads.} The two-node form is also what the one-node display returns at the origination itself. At $X = A$, with the parent state the one in which $A$ is blank, the event is $\mathrm{P}(H \mid A')/\mathrm{P}(H \mid A) \ge \kappa\, \mathrm{P}(A)/\mathrm{P}(A')$, and by the law of total probability $\mathrm{P}(H \mid A) = \mathrm{P}(H \mid A \cap B)\,\big(\mathrm{P}(B \mid A) + \varepsilon\, \mathrm{P}(B' \mid A)\big)$, so the event is $r_A \ge \kappa\,\big(\mathrm{P}(A)/\mathrm{P}(A')\big)\big(\mathrm{P}(B \mid A) + \varepsilon\,\mathrm{P}(B' \mid A)\big)$. At $\varepsilon = 0$ this is \eqref{eq:two-node-boxed} exactly; the two applications differ only in where the never-extinct branch's weight is booked, inside $\mathrm{P}(H \mid A)$ at the origination's crossroads and inside the complement at $C$'s, and the Dominance constraint, which empties that branch, makes the two readings one. That identity is the conceptual derivation of \autoref{sec:dinosaurian-overview} written out: the origination is improbable as a route to observers because the route it opens has to pass through the extinction, and the extinction's price, $\mathrm{P}(B \mid A)$, is passed upstream to the origination as a factor. The coupling of the two anthropic parameters is that factor.
+
+    \paragraph{Where the budget goes.} The general form \eqref{eq:two-node-general} says what the Dominance constraint is for. The exceedance budget on $C'$ is shared between its two branches, and the bound on the never-dinosaur branch falls as the never-extinct branch takes more of it: at the median rung it is $0.064$ at $\varepsilon = 0$, $0.043$ at $\varepsilon = 0.05$, $0.022$ at $\varepsilon = 0.10$, and it reaches zero at $\varepsilon = \mathrm{P}(B \mid A)/(1 - \mathrm{P}(B \mid A)) \approx 0.15$, which is the one-node median bound itself; at every rung alike, the two-node bound at $\kappa$ vanishes at the one-node bound at $\kappa$. At that value the never-extinct branch alone carries a joint observer-weight equal to ours, the median-rung event at $C$ holds whatever the never-dinosaur branch does, and nothing is learned about it. So the one-node bound makes room for the two-node inference, and the Dominance constraint assigns all of that room to the never-dinosaur branch; the two-node result consumes the constraint, not the bound.
+
+    \paragraph{The two repairs.} The companion states the kernel as a conditional with two exits \cite{OptimalEarth}: either the never-dinosaur branch is afflicted, or the dinosaurs' origination was close to inevitable, so that the realized attribute was never the rare side. The boxed form carries both. Its coefficient is the product of the origination's own prior odds, $\mathrm{P}(A)/(1 - \mathrm{P}(A))$, with the extinction's price, $\mathrm{P}(B \mid A)$; the second repair is the first factor's going large. At $\mathrm{P}(A) = 0.33$ it is $0.49$ and the branches separate at every rung; at $\mathrm{P}(A) = 0.9$ it is $9$, the median bound is $1.2$, and the display no longer says which branch is the more productive. The second exit is closed here by the thirty-three percent alone: nothing in the principle or in either constraint excludes it, and the convergentist reading of dominant-clade evolution as near-inevitable remains a consistent exit for the reader who holds it, as the companion says.
+
+    \paragraph{The roots, and how the bound moves with them.} Both roots carry Exposure~1 of \autoref{sec:failure-modes} and are entered with their uncertainty. The thirteen percent is an upper bound on a strike-location probability conditional on the impactor \cite{Kaiho2017}, as \autoref{con:unlikely-dinosaurian-demise} records, so the true $\mathrm{P}(B \mid A)$ is at most that, and the bound only tightens as it falls; the thirty-three percent is a rough estimate with no such direction. Table~\ref{tab:dino-roots} gives the median-rung coefficient across both. The Dominance constraint is qualitative, and its own uncertainty is the parameter $\varepsilon$ of the general form, priced above.
+
+    \begin{table}[ht]
+    \centering
+    \small
+    \caption{The median-rung two-node bound, the coefficient $c = \mathrm{P}(A)\,\mathrm{P}(B \mid A)/(1 - \mathrm{P}(A))$ of \eqref{eq:two-node-boxed}, that is, \eqref{eq:two-node-general} at $\kappa = 1$ and $\varepsilon = 0$, as the two roots vary. The entry at $0.33$ and $0.13$ is the paper's; the thirteen percent is an upper bound, so the lower row is the direction of its error.}
+    \label{tab:dino-roots}
+    \begin{tabular}{@{}lccc@{}}
+    \toprule
+     & $\mathrm{P}(A) = 0.2$ & $\mathrm{P}(A) = 0.33$ & $\mathrm{P}(A) = 0.5$ \\
+    \midrule
+    $\mathrm{P}(B \mid A) = 0.13$ & $0.033$ & $0.064$ & $0.13$ \\
+    $\mathrm{P}(B \mid A) = 0.05$ & $0.013$ & $0.025$ & $0.050$ \\
+    \bottomrule
+    \end{tabular}
+    \end{table}
+
+    \paragraph{The grade.} What is established is the validity of \eqref{eq:one-node-exceedance} and \eqref{eq:two-node-boxed} given the constraints; what is empirical is the constraints' support; and what the application achieves quantitatively is a bound exactly as tight as its weakest root, as \autoref{sec:dinosaurian-overview} says before the derivation is run. One limit is the Accordance Principle's own. The outer probability of \eqref{eq:two-node-boxed} is over the realization, and its guarantee belongs to attributes declared before they are read (the remarks following Corollary~\ref{cor:aetherian-accordance}); the extinction came to attention because its rare side was realized, as the lucky break it is received as, and the conjunction $C$ is read off the record rather than declared. The figures therefore say what the principle implies if these attributes are among the accorded realizations, which is typical for declared attributes and not shown for attributes selected by their rare side; whether the fixed-identity domain of \autoref{sec:fixed-identity-domain} answers that selection for events like these is open, as it is for the Hațeg case (\autoref{sec:hat}). The Strong Accordance Principle (\autoref{prin:strong-accordance}) would make the median rung effectively absolute, at the price of the High-Contrast Earth Hypothesis; nothing above uses it, and the result stands at the grade of Rung 2 of the spine (\autoref{sec:spine}) with the roots' uncertainty attached.
+
+    % >>> ORIGINAL DERIVATION (author's, in the tendency form; retained verbatim for reversal, R823):
+%     \subsubsection{One-Node Application: Bounding the Never-Extinct Scenario}
+%     
+%     Conditional on $A$ (the dinosaurs evolved), the binary partition $\{B, B'\}$ licenses the General Form of the Accordance Principle (\autoref{sec:formalism}):
+%     \begin{equation}
+%     \frac{\mathrm{P} \! \left( H \mid A \cap B' \right)}{\mathrm{P} \! \left( H \mid A \cap B \right)} \;\lesssim\; \frac{\mathrm{P} \! \left( B \mid A \right)}{\mathrm{P} \! \left( B' \mid A \right)} \;=\; \frac{0.13}{0.87} \;\approx\; 15\%.
+%     \end{equation}
+%     
+%     Two complementary results follow. The Accordance Principle's quantitative bound establishes that in the never-extinct scenario $A \cap B'$, the probability of Aetherian existence is at most approximately $15\%$ of the probability in our scenario $A \cap B$. The Constraint of Dinosaurian Dominance, separately, establishes that $\mathrm{P}(H \mid A \cap B') \approx 0$ in absolute terms. The two results agree: the never-extinct scenario is severely depressed in observer-supporting probability, both as a fraction of our scenario's probability and absolutely. The dinosaurian extinction is therefore an anthropic parameter---an event whose realization in our history was structurally required for our existence.
+%     
+%     \subsubsection{Two-Node Application: Bounding the Never-Dinosaur Scenario}
+%     
+%     This is the paper's founding result, the one \autoref{sec:asteroid-headline} states in plain words at the front, and what follows is its derivation; a reader who wants only the conclusion may go to the boxed inequality and the principle that follows it, and return for the steps. The more striking result follows when the one-node result is taken as input and the analysis is extended to the never-dinosaur scenario $A'$, in which the dinosaurs never originate at all. Consider the following graphic, which serves as a pictorial representation of the two-node circumstance.
+%     
+%     \begin{figure}[h]
+%         \centering
+%         \fbox{\includegraphics[width=0.75\textwidth]{Images/tsplits.png}}
+%         \caption{\textit{A graphical representation of the particular two-node circumstance in question.}}
+%         \label{fig:tsplits}
+%     \end{figure}
+%     
+%     The two-node application compares our scenario $A \cap B$ to the broader complement $(A \cap B)'$, which decomposes as the disjoint union $A' \cup (A \cap B')$: either the dinosaurs never evolved, or they evolved but never went extinct. Applying the Accordance Principle on the binary $\{A \cap B, (A \cap B)'\}$, the General Form in joint-probability form yields:
+%     \begin{equation}
+%     \mathrm{P} \! \left( H \cap A \cap B \right) \;\gtrsim\; \mathrm{P} \! \left( H \cap (A \cap B)' \right).
+%     \end{equation}
+%     
+%     We may then expand both sides. The left-hand side expands by the chain rule:
+%     \begin{equation}
+%     \mathrm{P} \! \left( H \cap A \cap B \right) = \mathrm{P} \! \left( H \mid A \cap B \right) \, \mathrm{P} \! \left( B \mid A \right) \, \mathrm{P} \! \left( A \right).
+%     \end{equation}
+%     The right-hand side expands by the disjoint union $(A \cap B)' = A' \cup (A \cap B')$:
+%     \begin{equation}
+%     \mathrm{P} \! \left( H \cap (A \cap B)' \right) = \mathrm{P} \! \left( H \cap A' \right) + \mathrm{P} \! \left( H \cap A \cap B' \right).
+%     \end{equation}
+%     By the Constraint of Dinosaurian Dominance from the one-node result, $\mathrm{P}(H \mid A \cap B') \approx 0$, so the second term on the right-hand side vanishes:
+%     \begin{equation}
+%     \mathrm{P} \! \left( H \cap (A \cap B)' \right) \;\approx\; \mathrm{P} \! \left( H \cap A' \right).
+%     \end{equation}
+%     We may now substitute both expansions back into the larger inequality:
+%     \begin{equation}
+%     \mathrm{P} \! \left( H \mid A \cap B \right) \, \mathrm{P} \! \left( B \mid A \right) \, \mathrm{P} \! \left( A \right) \;\gtrsim\; \mathrm{P} \! \left( H \cap A' \right).
+%     \end{equation}
+%     Inserting the empirical approximations of $\mathrm{P}(B \mid A) \approx 13\%$ and $\mathrm{P}(A) \approx 33\%$:
+%     \begin{equation}
+%     \mathrm{P} \! \left( H \mid A \cap B \right) \cdot 13\% \cdot 33\% \;\gtrsim\; \mathrm{P} \! \left( H \cap A' \right).
+%     \end{equation}
+%     Simplifying:
+%     \begin{equation}
+%     \frac{\mathrm{P} \! \left( H \cap A' \right)}{\mathrm{P} \! \left( H \mid A \cap B \right)} \;\lesssim\; 4\%.
+%     \end{equation}
+%     Lastly, we may take advantage of the identity that $\mathrm{P}(H \cap A') = \mathrm{P}(H \mid A') \, \mathrm{P}(A')$ to write the following, where $\mathrm{P}(A') = 1 - \mathrm{P}(A) \approx 67\%$:
+%     \begin{equation}
+%     \frac{\mathrm{P} \! \left( H \mid A' \right)}{\mathrm{P} \! \left( H \mid A \cap B \right)} \cdot 67\% \;\lesssim\; 4\%.
+%     \end{equation}
+%     \begin{equation}
+%     \boxed{
+%     \frac{\mathrm{P} \! \left( H \mid A' \right)}{\mathrm{P} \! \left( H \mid A \cap B \right)} \;\lesssim\; 6\%.
+%     }
+%     \end{equation}
+%     This is our fundamental probabilistic statement about the dinosaurs\footnote{So as not to understate this point, this ability of Nexic reasoning to provide information about the workings of alternate histories to arbitrary probabilistic precision is the direct mechanism by which it constitutes a special case of an Aethic \cite{Aethus} interaction-free measurement \cite{elitzur1993quantum} outside of the domain of quantum mechanics altogether. While this does not yet constitute a full Aethic generalization of quantum interaction-free measurements, it is of course rather striking and deeply informative that we are able to replicate the effect in the first place without ever once referencing the quantum wavefunction, (and especially with such a simple logical statement as the Accordance Principle, at that). Altogether, then, this is certainly an immediately-viable avenue through which we might further research the interplay between Aethic reasoning and the capacity of our universe to provide us with these sorts of non-classical phenomena.}. Let us write this as the fundamental probabilistic context of dinosaurs.
+%     \begin{prince}[Fundamental Probabilistic Context of Dinosaurs]
+% \label{prin:dinosaurian-probabilistic-context}
+%         The probability of Aetherians existing on Earth in an extended-Paleozoic scenario will never be more than six percent the likelihood of the probability of Aetherians eventually evolving as of the very beginning of the Cenozoic.
+%     \end{prince}
+%     In effect, it is clear that even with the highest probability of us eventually existing at the very beginnings of the Cenozoic, and the extended-Paleozoic scenario will still have very low likelihoods associated with it. In effect, we have that the origination of the dinosaurs themselves was, of all things, an anthropic parameter.
+    % <<< END ORIGINAL DERIVATION
+
     \subsection{Coupled Miracles: the Seed the Two-Node Argument Plants}
     % NEXIC-TIER: ESTABLISHED (the ontological content of the two-node result,
     % promoted from mention to exploration; instated Sep 2026)
@@ -4170,7 +4296,7 @@ $t$ (Gyr) & stiffness $\lambda$ & pull & momentum $p$ & reading \\
     \end{tabular}
     \end{table}
 
-    \paragraph{Stage one: the principle.} Take $\kappa$ from the standing rungs, $1$ and $4$, fixed independently of these attributes. By the Aetherian form, Corollary~\ref{cor:aetherian-accordance}, except on probability at most $1/(1+\kappa)$ the alternative's observer-productivity, relative to the realized side's, stays below $\kappa$ times the prior odds. Table~\ref{tab:hat-floors} gives the bounds and the linkage floors. On the configuration the floor is high: at the median rung, $\kappa = 1$ in strict form, histories without the configuration would have been at most about a twentieth as productive of observers, a linkage of at least $0.91$, and the floor survives both $\kappa = 4$ and the least favourable settings of \autoref{tab:sealevel-robustness} at which the surrogate test still separates the window, $P_{\text{LC}} \approx 0.11$. For a declared attribute with these priors, the two bounds fail on probability at most one half and one fifth. For the island's fauna, given the isolation and on the bet, the floor depends on how the pool is counted. On the count of forms it is substantial: at the median rung an isolated Hațeg that a formidable theropod had reached would have been at most about a fourteenth as productive of observers, a linkage of at least $0.87$. On named species alone it is moderate at the median rung, and there is none at $\kappa = 4$. If any of the island's theropods proves formidable, $A$ is false and stage one carries nothing for it. As a single attribute the configuration and the absence together have the configuration's floor, since almost all of the pair's alternative is a world without the configuration; that is why the local fact is carried on its own.
+    \paragraph{Stage one: the principle.} Take $\kappa$ from the standing rungs, $1$ and $4$, fixed independently of these attributes. By the Aetherian form, Corollary~\ref{cor:aetherian-accordance}, except on probability at most $1/(1+\kappa)$ the alternative's observer-productivity, relative to the realized side's, stays below $\kappa$ times the prior odds. Table~\ref{tab:hat-floors} gives the bounds and the linkage floors. On the configuration the floor is high: at the median rung, $\kappa = 1$ in strict form, histories without the configuration would have been at most about a twentieth as productive of observers, a linkage of at least $0.91$, and the floor survives both $\kappa = 4$ and the least favourable settings of \autoref{tab:sealevel-robustness} at which the surrogate test still separates the window, $P_{\text{LC}} \approx 0.11$. For a declared attribute with these priors, the two bounds fail on probability at most one half and one fifth. For the island's fauna, given the isolation and on the bet, the floor depends on how the pool is counted. On the count of forms it is substantial: at the median rung an isolated Hațeg that a formidable theropod had reached would have been at most about a fourteenth as productive of observers, a linkage of at least $0.87$. On named species alone it is moderate at the median rung, and negative at $\kappa = 4$, $-0.39$ to $-0.22$, which fixes no sign. If any of the island's theropods proves formidable, $A$ is false and stage one carries nothing for it. As a single attribute the configuration and the absence together have the configuration's floor, since almost all of the pair's alternative is a world without the configuration; that is why the local fact is carried on its own.
 
     \begin{table}[ht]
     \centering
@@ -4182,9 +4308,9 @@ $t$ (Gyr) & stiffness $\lambda$ & pull & momentum $p$ & reading \\
     Attribute & Price & Alternative at most & Floor, $\kappa = 1$ & Floor, $\kappa = 4$ \\
     \midrule
     Configuration $\mathrm{LC}$ & $0.0134$--$0.0445$ & $0.014$--$0.047$ & $0.91$--$0.97$ & $0.68$--$0.89$ \\
-    Configuration, least favourable settings & $\approx 0.11$ & $0.13$ & $0.78$ & $0.34$ \\
+    Configuration, least favourable & $\approx 0.11$ & $0.13$ & $0.78$ & $0.34$ \\
     Absence $A$ given $\mathrm{LC}$, count of forms & $0.0634$ & about $1/14$ & $0.87$ & $0.57$ \\
-    Absence $A$ given $\mathrm{LC}$, named species & $0.28$--$0.36$ & $0.39$--$0.57$ & $0.28$--$0.44$ & none \\
+    Absence $A$ given $\mathrm{LC}$, named species & $0.28$--$0.36$ & $0.39$--$0.57$ & $0.28$--$0.44$ & $-0.39$ to $-0.22$ \\
     \bottomrule
     \end{tabular}
     \end{table}
