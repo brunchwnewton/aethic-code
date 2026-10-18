@@ -1,8 +1,8 @@
-# Projective Gravity — Version 36.3 (draft): the observed rotation curve
+# Projective Gravity — Version 36.4 (draft): the observed rotation curve
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases — with branches on charge and extremality, and on rendering and canonical optics
 
-**Claim status of Part XXXIII (v36.3).** This table governs the open work: Part XXXIII, the observed rotation curve. Parts XXX–XXXII are frozen at v35.8, and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the two frozen tables that follow, unchanged except for marked post-freeze notes; v36.0 added such notes and pointers in §§XXXI.37, XXXI.38, XXXI.41, XXXII.5 and XXXII.7 and in four rows (R313); v36.1–v36.3 add none. v36.1 was the corrective round on the two reports on v36.0 (§XXXIII.14), §XXXIII.24 listing each v36.0 claim against its status; v36.2 answers Entries 323–324 and the two responses on them (§XXXIII.27), with the rows marked R332–R337 added, the row on Entry 322's family reworded (R332; its v36.1 text quoted under R337) and the row on the next pieces extended (R337); v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§XXXIII.34), with the rows marked R339–R348 added, the occupancy row reworded for the review's two distinctions (R347; its v36.2 text quoted there) and the row on the next pieces extended (R348). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*; a fit that fails is marked *(negative)*.
+**Claim status of Part XXXIII (v36.4).** This table governs the open work: Part XXXIII, the observed rotation curve. Parts XXX–XXXII are frozen at v35.8, and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the two frozen tables that follow, unchanged except for marked post-freeze notes; v36.0 added such notes and pointers in §§XXXI.37, XXXI.38, XXXI.41, XXXII.5 and XXXII.7 and in four rows (R313); v36.1–v36.4 add none. v36.1 was the corrective round on the two reports on v36.0 (§XXXIII.14), §XXXIII.24 listing each v36.0 claim against its status; v36.2 answers Entries 323–324 and the two responses on them (§XXXIII.27), with the rows marked R332–R337 added, the row on Entry 322's family reworded (R332; its v36.1 text quoted under R337) and the row on the next pieces extended (R337); v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§XXXIII.34), with the rows marked R339–R348 added, the occupancy row reworded for the review's two distinctions (R347; its v36.2 text quoted there) and the row on the next pieces extended (R348); v36.4 answers the review of v36.3 and Entries 340–341 with the response (§XXXIII.44), with the rows marked R349–R354 added, the isothermal row extended for the erratum and the two ensembles (R350; its v36.3 text quoted there) and the row on the next pieces extended (R353). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*; a fit that fails is marked *(negative)*.
 
 | claim | type | evidence | archive |
 |:--|:--|:--|:--|
@@ -29,14 +29,19 @@
 | Entries 323–324 and the two responses, recorded (R336); the standing after v36.2 (R337) | record; definition (status) | — | §§XXXIII.27, 32 |
 | Two source families regular at the equator (Entries 326–327): $e^{-a\sin\chi}$ and the stretched uniform disk $k/(k^2\cos^2\chi+\sin^2\chi)^{3/2}$ — finite positive plateau coefficients ($2.64$, $2.50$ at the exponential's contrast; $0$ for the uniform disk), support everywhere; images exponential to $7\%$ over $2.7h$ then a power-law tail (Entry 326; the response's ratios $0.995$–$32.5$ reproduced), or the uniform image rescaled with no exponential range (Entry 327); stationary populations as cold as the library resolves, admitting crossing orbits up to $0.18$–$0.25$ of the mass (R340, R341) | analytic theorem; numerical control | — | §§XXXIII.35–36 |
 | The dwarfs with a member of either family as the whole gravitating source (arena leaf, $M_b$, one shape parameter): with the published errors $\chi^2/N = 142$–$180$ (DDO 154) and $50$–$87$ (IC 2574) against the gnomonic reconstruction's $9738$ and $1600$, and $49$–$72$ and $21$–$37$ against $743$ and $628$ with the errors floored at $1$ km/s — a factor $15$–$69$ either way; curves at their plateau where the observed ones still rise, the images unfitted; a one-parameter fit of the curve, not of the galaxy (R342) | observational comparison (negative) under stated premises | SPARC | §XXXIII.37 |
-| Self-consistent densities under the isothermal law (Entry 325, A): the uniform disk at every $\theta$; thresholds $\theta_l = 1/\lambda_l$ on even $l$ ($1.698$, $4.074$, …; $\theta_2$ is $\sigma = 97$ km/s on the Milky-Way-like leaf); one branch per even $l$, transcritical, the concentrated branch on the hot side and Picard-unstable (folding at $\theta\approx1.07$), the ring Picard-stable across the cold side until it collapses between $\theta = 3$ and $4$; the rotating law's rings; no Picard-stable cold state but a ring, none exponential — the count is the law's (R343) | analytic theorem; numerical control | — | §XXXIII.38 |
+| Self-consistent densities under the isothermal law (Entry 325, A): the uniform disk at every $\theta$; thresholds $\theta_l = 1/\lambda_l$ on even $l$ ($1.698$, $4.074$, …; $\theta_2$ is $\sigma = 97$ km/s on the Milky-Way-like leaf); one branch per even $l$, transcritical, the concentrated branch on the hot side and Picard-unstable (folding at $\theta\approx1.07$), the ring Picard-stable across the cold side until it collapses between $\theta = 3$ and $4$; the rotating law's rings; no Picard-stable cold state but a ring, none exponential — the count is the law's (R343); at fixed energy the concentrated branch is an entropy maximum between contrast $3$ and $55$, a hot state; the ring stable only axisymmetrically ($m = 2$-unstable); the classification axisymmetric only *[v36.4, R350]* | analytic theorem; numerical control | — | §XXXIII.38 |
 | The null cone of $\mathbb R^{4,1}$ (Entry 325, B): the boost's Möbius dilation with $\Omega = 1/(\cosh s-\sinh s\cos\theta)$, $(1-\beta)/(1+\beta) = e^{-2s}$; not descending to $\mathbb{RP}^3$ for $s\neq0$; the exact gnomonic exponential solves no globally regular $u''+Qu = 0$ on the leaf ($Q\to-(\ell/h)^2\sec^4\chi$), Entry 326's profile does; the accumulated rapidity chosen, not derived (R344, R345) | analytic theorem; numerical control | — | §§XXXIII.39–40 |
 | The split model (Entries 328–329): gravity on the pre-rendering source, the image $\cos^3\chi\,T\,\Sigma_G$ with $T$ fixed by the target for any $\Sigma_G$; the source family $1+b\cos^2\chi$ with $C$ from $0$ to $3.43$ and slow inner rises; the large-leaf test passed by the gnomonic factor ($3r^2/2\ell^2$) and failed by a transfer with a fixed $h$ read as a metric deformation ($d\ln T/dr = -1/h$ at every $\ell$): two scales needed; the acceptance criterion for a moving or anisotropic source not computed (R345) | analytic theorem; numerical control; open bridge | — | §XXXIII.40 |
 | Entries 330–339: $\mathfrak{so}(4) = \mathfrak{su}(2)\oplus\mathfrak{su}(2)$ in the even/odd basis, $SO(4)/SU(2)\cong SO(3)$ and $S^3 = SO(4)/SO(3)$ (machine precision); the two-vector toy's quadratic separation and signed twist; the quotient disk's normal one-sided (no "up" descends; a lift or a matter-selected label needed); a threshold mode with an exponential tail out of the plane ($\kappa$ to $0.2\%$ of $\sqrt{\gamma-\lambda}$), while a constant-gap radial mode is $K_0$, not an exponential (scale length $0.56$–$0.95$ of $1/\kappa$); the bundle $SO(3)/SO(2) = S^2$, the two-Hopf pair's exchange-even tensor (an oriented normal, an unoriented in-plane axis) and the Hopf map's complex structure, with the joint normal free until a selection law fixes it; the relative $U(1)$ fixing the projection, its Berry holonomy half the solid angle, the horizontal planes a contact structure (the clash phase is not the normal displacement everywhere); the action, the frame identification, the quotient's effect, that law and a gauge-invariant clash phase not done (R346) | analytic theorem; numerical control; open bridge | — | §XXXIII.41 |
 | The v36.2 review, Entries 325–339 and the fourteen responses, recorded (R339); the standing after v36.3 (R348) | record; definition (status) | — | §§XXXIII.34, 42 |
-| The next pieces: the joint model — one population, its Law I source and its image by a stated transfer, against DDO 154 — with the population law and the transfer fixed first; Entry 329's acceptance criterion computed; measured HI profiles for the pilot, with the HI dispersion as a second observable; the Milky Way estimator; a label law stated before it is fitted, tested out of sample, with the distance, inclination and mass-to-light uncertainties carried; gas with pressure and dissipation on the leaf; one optics experiment; other readings; the held note's calculations; flavor, reflectrons, the direction field and a covariant action, a selection law and a gauge-invariant clash phase for Entries 330–339's two sectors in the backlog (R330, R337, R348) | open bridge | — | §§XXXIII.25, 32, 42 |
+| The isothermal fixed points, continued (the v36.3 review): the fold at $\theta = 1.065$ by continuation in the central density (an erratum: the v36.3 search crashed where Newton converged elsewhere); canonical stability is the iteration's ($\mu = -\theta\Sigma A\geq0$, $H_c = \Sigma^{-1}(1-\mu)$); microcanonically ($H_m = H_c+\theta^2\lvert\langle\phi,\delta\Sigma\rangle\rvert^2$) the concentrated branch is an entropy maximum between the energy turning points at contrast $3$ and $55$ ($\sigma = 103$–$120$ km/s against its own $v_\infty = 100$–$171$ on the Milky-Way-like leaf: pressure-supported), surviving the sectors $m\leq4$; the ring stable only axisymmetrically — unstable to $m = 2$ in both ensembles, hence Picard-unstable on the sphere; the uniform disk stable only when hot; dynamical stability not computed; the branch count axisymmetric only (R350) | analytic theorem; numerical control (an erratum corrected) | — | §XXXIII.45 |
+| Entries 340–341: $\tan\chi/\sqrt{1+\tan^2\chi} = \sin\chi$; the three self-dual/anti-self-dual pairs $\mathcal B_i^\pm$ and the duals $*_3(\mathbf e_\phi\wedge\mathbf n) = \mathbf e_R$ (right-handed frame; $-\mathbf e_R$ in the physical one); the $(\mathbf e_R,\mathbf n)$ rotation exchanging $\mathcal B_R^+$ and $\mathcal B_n^+$ — local, a change of frame until a law turns the internal structure; the response tensor's two eigenvalues; the CMB dipole $+0.069\,\mathbf e_R-0.662\,\mathbf e_\phi+0.746\,\mathbf n$, $4.0^\circ$ from the orbital–normal plane (not a prediction); the Hopf map descending to $\mathbb{RP}^3$ (R351) | analytic theorem; numerical control | the published dipole direction as the response gives it | §XXXIII.46 |
+| The smallest clash model: the relative curvature $F_L-F_R$ of two pulled-back Hopf connections vanishes for any pair of sectors congruent by a fixed rotation, the exchange-odd mirror tilt among them, and is nonzero for a one-sector tilt or a reflected pairing — the proposed invariant is blind to the departure it was built from; $F_L+F_R$ or one sector's curvature would see it (R352) | numerical control; open bridge | — | §XXXIII.47 |
+| The v36.3 review, Entries 340–341 and the response, recorded (R349); the standing after v36.4 (R353) | record; definition (status) | — | §§XXXIII.44, 48 |
+| Entries 342–345 and their responses (received at the close of v36.4): the areal-radius reading of $e^{-a\sin\chi}$ and a covariant localization equation as a target; the Hopf-fiber length and curvature; a Hopf–meridian exchange block; the Solar-System observational-equivalence criterion on the stereographic chart; the holonomy spectral gap with the fiber-length bound; particles in co-spaces, spacetime as their imposed common structure. Recorded, not worked (R354) | record; v36.5's input | — | §XXXIII.50 |
+| The next pieces: the joint model — one population, its Law I source and its image by a stated transfer, against DDO 154 — with the population law and the transfer fixed first; the clash invariant restated to see the symmetric departure, with a frame identification, a transport law and an action; dynamical stability and the non-axisymmetric equilibria of the isothermal fixed points; Entry 329's acceptance criterion computed; measured HI profiles for the pilot, with the HI dispersion as a second observable; the Milky Way estimator; a label law stated before it is fitted, tested out of sample, with the distance, inclination and mass-to-light uncertainties carried; gas with pressure and dissipation on the leaf; one optics experiment; other readings; the held note's calculations; flavor, reflectrons and the direction field in the backlog (R330, R337, R348, R353) | open bridge | — | §§XXXIII.25, 32, 42, 48 |
 
-**Claim status of Parts XXX–XXXII at the v35 freeze (v35.8).** This table governs Parts XXX–XXXII, frozen at v35.8 (15 October 2026) with their suite `pg_v35_numerics.py`, unchanged except for marked post-freeze notes (v36.0, R307, R313): Part XXX (the hyper-canonical completion and the charged-lepton cycle), Part XXXI (the visible rendering of the leaf) and Part XXXII (reflectrons: Feynman diagrams as the joint residue of paired histories). Their frozen-results record is the v35.8 current manuscript, `projective_gravity_v35_8_current_manuscript.md`. Parts 0–XXIX are frozen — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10 — and their claim status is the frozen table that follows this one, unchanged except for marked post-freeze notes. Post-freeze notes correct them without rewriting them: two erratum notes in §§XXI.4–4a (R211), clarification notes in §§XXIX.40(e), XXIX.41(d), XXIX.42(g) and XXIX.43(b) (R212–R216, §XXX.12), two pointer notes in §§XXIX.18 and XXIX.42(f) (R238, Part XXXI; the first corrected in v35.3, R243, and in v35.4, R254), and two pointer notes of v35.6, in §§XIII.10 and XXIX.42(c) (R277, R276; the first scoped in v35.7, R288). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*. Rows changed or added since v35.1 carry their register number. Three rows — the cap, the refocusing and the darkness of the sky — are marked as **central limiting conditions**: every proposal for the visible sky must say how it meets them (R255, R267).
+**Claim status of Parts XXX–XXXII at the v35 freeze (v35.8).** This table governs Parts XXX–XXXII, frozen at v35.8 (15 October 2026) with their suite `pg_v35_numerics.py`, unchanged except for marked post-freeze notes (v36.0, R307, R313) and one marked rendering repair in §XXX.11 (v36.4, R355): Part XXX (the hyper-canonical completion and the charged-lepton cycle), Part XXXI (the visible rendering of the leaf) and Part XXXII (reflectrons: Feynman diagrams as the joint residue of paired histories). Their frozen-results record is the v35.8 current manuscript, `projective_gravity_v35_8_current_manuscript.md`. Parts 0–XXIX are frozen — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10 — and their claim status is the frozen table that follows this one, unchanged except for marked post-freeze notes. Post-freeze notes correct them without rewriting them: two erratum notes in §§XXI.4–4a (R211), clarification notes in §§XXIX.40(e), XXIX.41(d), XXIX.42(g) and XXIX.43(b) (R212–R216, §XXX.12), two pointer notes in §§XXIX.18 and XXIX.42(f) (R238, Part XXXI; the first corrected in v35.3, R243, and in v35.4, R254), and two pointer notes of v35.6, in §§XIII.10 and XXIX.42(c) (R277, R276; the first scoped in v35.7, R288). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*. Rows changed or added since v35.1 carry their register number. Three rows — the cap, the refocusing and the darkness of the sky — are marked as **central limiting conditions**: every proposal for the visible sky must say how it meets them (R255, R267).
 
 | claim | type | evidence | archive |
 |:--|:--|:--|:--|
@@ -162,7 +167,7 @@
 | Observational fits | none | no supernova likelihood, no count comparison with a selected sample, no rotation-curve fit (post-freeze note, v35.1, R216: the current predictive model; Part XII's exploratory fits, §XII.3, belong to its detached wing) (post-freeze note, v36.0, R313: rotation curves are compared with data in Part XXXIII — the Milky Way from inside and a SPARC pilot — and are not reproduced by the theory as specified) | §XXIX.39(f) |
 | The photon wave operator and its mode projection; a $q = 0$ reader; a frequency bridge with time dilation and a derived echo law; a pair-selection law; a detector law for the image map, with one forward image of a fixed galaxy; a derived spectral transport, even and odd | open bridge | — | §§XXIX.39(b), 41, 42, 43(f) |
 
-> **How to read this archive (v36.3).** Three tables govern: the table of Part XXXIII, for the open work; the frozen v35.8 table that follows it, for Parts XXX–XXXII; and the frozen v34.10 table after that, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX; §XXX.9, frozen with Parts XXX–XXXII; and §XXXIII.12) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place. v36.0 freezes Parts XXX–XXXII at v35.8 with `pg_v35_numerics.py`, whose frozen-results record is the v35.8 current manuscript, and opens Part XXXIII, the observed rotation curve, after Part XXXII, with its own register (§XXXIII.12) and suite (§XXXIII.13, `pg_v36_numerics.py`). Its corrections to frozen Parts are post-freeze notes (R313). v36.1 is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§§XXXIII.14–26, R318–R331): it corrects v36.0's operative statements in place, with the superseded wording in §XXXIII.26, and adds no post-freeze note. v36.2 answers Entries 323–324 and the two responses on them (§§XXXIII.27–33, R332–R338): orbital occupancy on the leaf, the exponential as a rendering, the conformal route, the frame-selection hypothesis; it corrects two v36.1 sentences in place (R332) and adds no post-freeze note. v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§§XXXIII.34–43, R339–R348): two source families regular at the equator, their orbital populations and the dwarfs with them, the isothermal fixed points, the null cone, the split model, the $\mathfrak{so}(4)$ sectors; it applies the review's two distinctions in place (R347) and adds no post-freeze note.
+> **How to read this archive (v36.4).** Three tables govern: the table of Part XXXIII, for the open work; the frozen v35.8 table that follows it, for Parts XXX–XXXII; and the frozen v34.10 table after that, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX; §XXX.9, frozen with Parts XXX–XXXII; and §XXXIII.12) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place. v36.0 freezes Parts XXX–XXXII at v35.8 with `pg_v35_numerics.py`, whose frozen-results record is the v35.8 current manuscript, and opens Part XXXIII, the observed rotation curve, after Part XXXII, with its own register (§XXXIII.12) and suite (§XXXIII.13, `pg_v36_numerics.py`). Its corrections to frozen Parts are post-freeze notes (R313). v36.1 is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§§XXXIII.14–26, R318–R331): it corrects v36.0's operative statements in place, with the superseded wording in §XXXIII.26, and adds no post-freeze note. v36.2 answers Entries 323–324 and the two responses on them (§§XXXIII.27–33, R332–R338): orbital occupancy on the leaf, the exponential as a rendering, the conformal route, the frame-selection hypothesis; it corrects two v36.1 sentences in place (R332) and adds no post-freeze note. v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§§XXXIII.34–43, R339–R348): two source families regular at the equator, their orbital populations and the dwarfs with them, the isothermal fixed points, the null cone, the split model, the $\mathfrak{so}(4)$ sectors; it applies the review's two distinctions in place (R347) and adds no post-freeze note. v36.4 answers the review of v36.3 and Entries 340–341 with the response (§§XXXIII.44–50, R349–R354): the fixed-point erratum and stability in two ensembles, the radial–normal duality and the CMB dipole, the first test of the clash invariant, and Entries 342–345 recorded for v36.5; it corrects §XXXIII.38 and §XXXIII.42 in place (R350) and adds no post-freeze content note — one marked rendering repair in frozen §XXX.11 (R355: a doubled brace in a subscript, which the author's site's templating engine read as a tag; the mathematics unchanged).
 
 > **v34.0 governing ontology correction (11 October 2026).** **Matter and its stress-energy content live fundamentally in the five-dimensional middle space** $\mathcal M=E/U(1)_H$, not solely on the representational bisection. The four-dimensional gravity base $B_{\rm grav}=\mathcal M/U_{\rm mer}$ is the quotient where the effective Einstein equation is expressed. The source $T^{(g)}$ must be obtained from the **entire** one-dimensional meridian fiber, including both arcs and possible pole/core contributions, by a covariant, action-compatible fiber reduction with a geometrically justified measure and tensor projection. A sum of contributions at the two points of $B_{\rm rep}$ is **not Law I**: it is only a distributionally leaf-supported special case. Einstein equations on the base impose constraints on the admissible middle-space configurations; equivalently their pullback imposes a horizontal constraint on $\mathcal M$, **not** independent five-dimensional Einstein equations. The full measure, singular-fiber rule, conservation identity and parent variational principle are **open**. Previously frozen text about source localization and two-point sourcing is superseded by this paragraph, the corrected Law I in Part III, and §XXIX.8; historical derivations remain conditional benchmarks where their premises apply. The observation that $\ell/G$ has a numerically suggestive relation to a galactic mass was an exploratory coincidence, **not** a premise that the closure mass is the Galaxy's baryonic mass. The author also prefers a *macroscopic middle-space* origin of $G$ (with the closure ratio as a target) and a separate Boltzmannian-compatibility origin of the effective quantum/Planck-area scale; the induced-gravity calculation remains a benchmark, not the preferred ontological explanation of $G$.
 
@@ -10256,7 +10261,7 @@ Five analyses accompanied the entries; they are labelled A–E here, to keep the
 - Analysis B read Entry 290 as *directional categorical softening*, with a categorical selection gap $\Delta_{\rm cat} = \mathcal S(U,c_e)-\max_{c\neq c_e}\mathcal S(U,c)$ and a weight $P_{\rm other} = 2e^{-\beta\Delta_{\rm cat}}/(1+2e^{-\beta\Delta_{\rm cat}})$ for competing codes.
 - Analysis C read Entry 291 as *mass-hierarchy-conditioned categorical selection*, $P(c\mid h,\mathcal B)\propto e^{\mathcal S(c;h,\mathcal B)}$ with $h = \ln(m_{\rm next}/m_{\rm min})$ and residual $\varepsilon_{\rm cat} = 1-P(c_e\mid h)$. It noted that rewarding smallness alone would choose a massless electron, not $2/9$.
 - Analysis D read Entry 292 as an *exact template with finite rigidity*: $\theta_0 = 2/9$ fixed, $M_{\rm physical} = M_{\rm ideal}+\delta M_{\rm cat}$, a weight $\exp[S_{\rm Boltz}(\xi)-\kappa\|\mathcal C_e(\xi)\|^2]$ for a privileging constraint $\mathcal C_e$, and *correlated deviations* $m_n = m_n^{(0)}+\varepsilon a_n$, $K = 2/3+\varepsilon A$, $\theta_{\rm fit} = 2/9+\varepsilon B$, with $a_n$, $A$, $B$ to be derived from one mechanism.
-- Analysis E answered Entry 293. It froze the root formula and tried one structured correction, $M_{\rm eff} = M_{\rm ideal}+\varepsilon(M_{\rm deg}-M_{\rm ideal})$ with $M_{\rm deg} = M(0)$, fitted to the electron and muon: $m_* = 627.71238$ MeV, $\varepsilon = 1.88\times10^{-7}$, corrections $+4.95$, $-14.77$ and $+9.81$ eV on $e$, $\mu$, $\tau$, and $m_\tau = 1776.9678$ MeV. It proposed a Landau toy for an order parameter $p$ of electron privilege, $V = \tfrac12[a-\gamma h(\theta)]p^2+\tfrac b4p^4$, whose privilege vanishes at a critical hierarchy (at $\theta_c\simeq0.127$ for a critical mass ratio of ten). It required the correction to transform with the cycle, $\delta M(Tc) = S\,\delta M(c)\,S^{-1}$, and suggested that the corrections might be one self-energy evaluated at three masses, $\delta m_n\simeq{\rm Re}\,\Sigma_{{\rm HC},nn}(m_n^{(0)})$, an analogy with radiative corrections at the level of ambition rather than mechanism.
+- Analysis E answered Entry 293. It froze the root formula and tried one structured correction, $M_{\rm eff} = M_{\rm ideal}+\varepsilon(M_{\rm deg}-M_{\rm ideal})$ with $M_{\rm deg} = M(0)$, fitted to the electron and muon: $m_* = 627.71238$ MeV, $\varepsilon = 1.88\times10^{-7}$, corrections $+4.95$, $-14.77$ and $+9.81$ eV on $e$, $\mu$, $\tau$, and $m_\tau = 1776.9678$ MeV. It proposed a Landau toy for an order parameter $p$ of electron privilege, $V = \tfrac12[a-\gamma h(\theta)]p^2+\tfrac b4p^4$, whose privilege vanishes at a critical hierarchy (at $\theta_c\simeq0.127$ for a critical mass ratio of ten). It required the correction to transform with the cycle, $\delta M(Tc) = S\,\delta M(c)\,S^{-1}$, and suggested that the corrections might be one self-energy evaluated at three masses, $\delta m_n\simeq{\rm Re}\,\Sigma_{\mathrm{HC},nn}(m_n^{(0)})$ *[v36.4, R355: rendering repair of the subscript's doubled brace; the mathematics unchanged]*, an analogy with radiative corrections at the level of ambition rather than mechanism.
 
 Two further analyses, F and G, answered questions the author put after Entry 293; his wording is not in the record, and they are recorded by what they computed.
 - Analysis F chose the scale $m_*$ of the exact template by six criteria — least total absolute correction, least squares, least total and least squared fractional correction, least worst fractional correction, and zero total correction — and noted that the first gives non-negative corrections throughout, at $m_* = m_\tau/f_\tau$, because $f_\tau>f_e+f_\mu$. It proposed three competing toy mechanisms: all-positive self-energies, a trace-preserving redistribution, and a degeneracy-directed correction.
@@ -15882,7 +15887,7 @@ With $S = 1+iT$ this is $2\,{\rm Im}\,T^{(2)}_{ii} = \sum_f\lvert T^{(1)}_{fi}\r
 - *the Milky Way, seen from inside with the leaf's own light, fails on every scanned leaf and at the continuous optimum — as a cold-tracer proxy for the published estimator, which is not yet applied (§XXXIII.19) [v36.1, R323];*
 - *the SPARC galaxies, with the arena law, fail too.*
 
-*With the author's zoom labels as two free numbers per galaxy, the gnomonic premise improves the SPARC curves greatly; under the quoted errors one of the eight fits is acceptable, one borderline, and six are not (§XXXIII.17) [v36.1, R319]. The labels the fits need trend with mass, and must now come from a law. §XXXIII.11 locates each failure; §XXXIII.25 is the operative standing after v36.1, §XXXIII.32 its continuation after v36.2 (Entries 323–324: a stationary population on the leaf does not remove the dwarfs' required outer mass, and must be hot where it lacks circular support), §XXXIII.42 after v36.3 (the review and Entries 325–339: sources regular at the equator keep the plateau and admit crossing orbits; the isothermal law selects no cold disk; a transfer with a fixed scale is not a small deformation of a large leaf).*
+*With the author's zoom labels as two free numbers per galaxy, the gnomonic premise improves the SPARC curves greatly; under the quoted errors one of the eight fits is acceptable, one borderline, and six are not (§XXXIII.17) [v36.1, R319]. The labels the fits need trend with mass, and must now come from a law. §XXXIII.11 locates each failure; §XXXIII.25 is the operative standing after v36.1, §XXXIII.32 its continuation after v36.2 (Entries 323–324: a stationary population on the leaf does not remove the dwarfs' required outer mass, and must be hot where it lacks circular support), §XXXIII.42 after v36.3 (the review and Entries 325–339: sources regular at the equator keep the plateau and admit crossing orbits; the isothermal law selects no cold disk; a transfer with a fixed scale is not a small deformation of a large leaf), §XXXIII.48 after v36.4 (the erratum; at fixed energy a concentrated isothermal state is stable but hot; the proposed clash invariant is blind to the departure it was built from).*
 
 *v36.1 (16 October 2026) is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§XXXIII.14): the plateau coefficient of an extended source (§XXXIII.15), the label condition corrected (§XXXIII.16), the pilot's statistics and its sources in error units (§XXXIII.17), the gas reconstruction's family (§XXXIII.18), the Milky Way comparison as a cold-tracer proxy with its leaf radius continuous (§XXXIII.19), the plateau's observable reach (§XXXIII.20), the orbit statements' domain (§XXXIII.21), the author's 8 kpc leaf (§XXXIII.22), Entry 322's shape family (§XXXIII.23), the current results (§XXXIII.24), the standing (§XXXIII.25) and the register (§XXXIII.26). The suite of §XXXIII.13 is extended to 18 checks.*
 
@@ -16413,20 +16418,21 @@ This answers the author's question of what the families of labels capture: given
 
   [reproducibility]
 
-## XXXIII.13 Executable appendix: `pg_v36_numerics.py`, embedded [reproducibility; v36.0–v36.3, R317, R331, R338, R348]
+## XXXIII.13 Executable appendix: `pg_v36_numerics.py`, embedded [reproducibility; v36.0–v36.4, R317, R331, R338, R348, R353]
 
-*The standalone suite (NumPy and SciPy only) that prints every computed number of Part XXXIII. Save the block as `pg_v36_numerics.py` and run `python3 -I pg_v36_numerics.py` (the regression suite of Part XXXIII, v36.0–v36.3: 30 checks; exit status 1 if any fails, in every mode; about twenty minutes, depending on the machine), one round with `python3 -I pg_v36_numerics.py v36_0`, `v36_1` (with the v36.0 computations it builds on), `v36_2` or `v36_3` (one to three minutes), or the checks that run in a few minutes with `quick` (16 checks, for a referee's time limit); an unknown mode prints the usage line and exits with status 2. It embeds its data: the two Milky Way tables, McMillan 2017's parameters and the eight SPARC galaxies' rows. The frozen suites remain `pg_v35_numerics.py` (Parts XXX–XXXII, §XXX.10) and `pg_v34_numerics.py` (Part XXIX, §XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v36`, `v36_0`, `v36_1`, `v36_2`, `v36_3` and `quick` run it and whose `all` runs the frozen v34.10 and v35.8 suites and Part XXXIII together (217 checks). The figures come from `pg_v36_0_plots.py`, `pg_v36_1_plots.py`, `pg_v36_2_plots.py` and `pg_v36_3_plots.py`, which load this suite. SHA-256 of the file: `fb80d6b8c8cc7a7f1d1926f04df54bc2b279f9f482a6c33ae2092a594f28f273`.*
+*The standalone suite (NumPy and SciPy only) that prints every computed number of Part XXXIII. Save the block as `pg_v36_numerics.py` and run `python3 -I pg_v36_numerics.py` (the regression suite of Part XXXIII, v36.0–v36.4: 33 checks; exit status 1 if any fails, in every mode; about twenty minutes, depending on the machine), one round with `python3 -I pg_v36_numerics.py v36_0`, `v36_1` (with the v36.0 computations it builds on), `v36_2`, `v36_3` (one to three minutes) or `v36_4` (a few minutes), or the checks that run in a few minutes with `quick` (19 checks, for a referee's time limit); an unknown mode prints the usage line and exits with status 2. It embeds its data: the two Milky Way tables, McMillan 2017's parameters and the eight SPARC galaxies' rows. The frozen suites remain `pg_v35_numerics.py` (Parts XXX–XXXII, §XXX.10) and `pg_v34_numerics.py` (Part XXIX, §XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v36`, `v36_0`, `v36_1`, `v36_2`, `v36_3`, `v36_4` and `quick` run it and whose `all` runs the frozen v34.10 and v35.8 suites and Part XXXIII together (220 checks). The figures come from `pg_v36_0_plots.py`, `pg_v36_1_plots.py`, `pg_v36_2_plots.py` and `pg_v36_3_plots.py`, which load this suite. SHA-256 of the file: `1acd1e7b4c63ac42d5248da73c0a56bcb86c42950d22a9c32f6fc6d7ff433e9d`.*
 
 ```python
 """Projective Gravity v36 -- standalone numerical suite for Part XXXIII: the observed rotation curve (NumPy + SciPy only; Python 3.12/3.13
 tested).  Parts XXX-XXXII are frozen at v35.8 with their suite pg_v35_numerics.py; Part XXIX's frozen suite is pg_v34_numerics.py (v34.10).
 
 Run (from the directory holding this file):
-    python3 -I pg_v36_numerics.py              # current regression suite of Part XXXIII, v36.0-v36.3 (check summary; about twenty minutes)
+    python3 -I pg_v36_numerics.py              # current regression suite of Part XXXIII, v36.0-v36.4 (check summary; about twenty minutes)
     python3 -I pg_v36_numerics.py v36_0        # the v36.0 sections only
     python3 -I pg_v36_numerics.py v36_1        # the v36.1 sections, with the v36.0 computations they build on
     python3 -I pg_v36_numerics.py v36_2        # the v36.2 sections only (Entries 323-324)
     python3 -I pg_v36_numerics.py v36_3        # the v36.3 sections only (Entries 325-339 and the v36.2 review; one to three minutes)
+    python3 -I pg_v36_numerics.py v36_4        # the v36.4 sections only (the v36.3 review and Entries 340-341; a few minutes)
     python3 -I pg_v36_numerics.py quick        # the checks that run in a few minutes (for a referee's time limit)
 Every mode exits with status 1 if any check fails.
 
@@ -16478,6 +16484,18 @@ response's threshold mode computed (an exponential tail out of the plane; a cons
 constructions at the level of their identities (SO(3)/SO(2) = S^2, the exchange-even tensor, the Hopf map and its complex structure), and Entries 337-339's clash phase (the relative U(1)
 fixing the projection, its Berry holonomy equal to half the solid angle, the horizontal planes a contact structure).
 v36_3_quick(): v36_2_quick plus the v36.3 sections without the orbit libraries (a few minutes).
+
+v36_4_suite(): the v36.3 review and Entries 340-341.  The isothermal fixed points continued in their central density (the fold passed, not hit:
+the v36.3 search crashed where Newton converged elsewhere), the energy along the branch and its turning points, and stability in two ensembles
+(canonical = the iteration's; microcanonical with its rank-one term: the concentrated branch an entropy maximum at fixed energy between contrast
+3 and 55 against axisymmetric perturbations and in the sectors m = 1-4, a hot pressure-supported state; the ring stable only axisymmetrically and
+unstable to m = 2 in both ensembles; the uniform disk only when hot); the classification's scope (axisymmetric; uniaxial and biaxial quadrupoles
+not rotation-equivalent); Entry 340's sine from the tangent; Entry 341's three self-dual/anti-self-dual bivector pairs (the 3-d duals' sign set by
+the frame's handedness), the radial-normal exchange rotation, the response tensor, the CMB dipole in the galactic frame (4.0 deg from the
+orbital-normal plane), the Hopf map descending to RP^3; and the smallest explicit clash model -- the relative curvature of two pulled-back Hopf
+connections vanishes for any pair of sectors congruent by a fixed rotation (the exchange-odd mirror tilt among them) and is nonzero for a
+one-sector tilt or a reflected pairing.
+v36_4_quick(): v36_3_quick plus the v36.4 sections.
 """
 import numpy as np
 PI = np.pi
@@ -19136,6 +19154,100 @@ def v36_3_dwarfs():
     print("   [V] The curves and chi^2/N at the measured radii, under two error treatments.  [S] The arena law for ell, M_b from SPARC's baryons (v36.0-4), the families as the whole source.")
     return out
 
+def _v36_fp_build(N, LMAX):
+    """The isothermal fixed-point problem's discretization (v36.3-4): Gauss-Legendre nodes in u = cos chi, the Legendre expansion, the twin-kernel
+    potential matrix A (phi = A Sigma for unit mass on the near hemisphere), the plateau row and the equatorial Legendre values."""
+    u, w = np.polynomial.legendre.leggauss(N)
+    P = np.empty((LMAX + 1, N)); P[0] = 1.0; P[1] = u
+    for l in range(1, LMAX): P[l+1] = ((2*l + 1)*u*P[l] - l*P[l-1])/(l + 1)
+    a = np.ones(LMAX//2 + 2)
+    for k in range(1, len(a)): a[k] = a[k-1]*(2*k - 1)/(2*k)
+    lam = np.zeros(LMAX + 1)
+    for l in range(2, LMAX + 1, 2): lam[l] = 0.5*PI*a[(l-2)//2]*a[(l+2)//2]
+    wl = (0.5*(2*np.arange(LMAX + 1) + 1))
+    A = -2*PI*(P.T*lam[None, :]) @ (P*wl[:, None]*w[None, :])
+    Pl0 = np.array([float(np.polynomial.legendre.Legendre.basis(l)(0.0)) for l in range(LMAX + 1)]); Ppp0 = -np.arange(LMAX + 1)*(np.arange(LMAX + 1) + 1)*Pl0
+    Crow = 2*PI*(lam*Ppp0) @ (P*wl[:, None]*w[None, :])
+    return dict(N=N, LMAX=LMAX, u=u, w=w, P=P, lam=lam, wl=wl, A=A, Pl0=Pl0, Crow=Crow)
+
+def _v36_fp_ops(D):
+    """The map G, its Jacobian (analytic), Newton, and a summary (contrast, C, rho) for a discretization D."""
+    u, w, A, N = D['u'], D['w'], D['A'], D['N']
+    normalize = lambda S: S/(PI*np.sum(w*S))
+    def G(S, th, q=0.0):
+        with np.errstate(over='ignore', invalid='ignore'):
+            return normalize(np.exp(-th*(A @ S) + q*(1 - u**2)))
+    def jac(S, th, q=0.0):
+        Sn = G(S, th, q); J = -th*(Sn[:, None]*A); J -= Sn[:, None]*(PI*w[None, :] @ J); return J
+    def newton(S, th, q=0.0, it=80):
+        for k in range(it):
+            Rr = S - G(S, th, q)
+            if not np.all(np.isfinite(Rr)): return S, False
+            if np.max(np.abs(Rr)) < 1e-12: return S, True
+            S = S + np.linalg.solve(np.eye(N) - jac(S, th, q), -Rr)
+        return S, bool(np.max(np.abs(S - G(S, th, q))) < 1e-9)
+    def summarize(S, th):
+        sig = D['wl']*(D['P'] @ (w*S)); return float(np.sum(sig))/float(np.sum(sig*D['Pl0'])), float(D['Crow'] @ S), float(np.max(np.abs(np.linalg.eigvals(jac(S, th)))))
+    return normalize, G, jac, newton, summarize
+
+def _v36_fp_continue(D, th0=1.6, seed_s=0.5, rmax=3000.0):
+    """The concentrated branch continued in its central density (the node nearest the pole), with theta an unknown: the augmented Newton system
+    [Sigma - G(Sigma, theta) = 0, Sigma(pole) = s] stepped in s, so the fold in theta is passed, not hit.  Returns rows (theta, contrast, E, s) with
+    E = 1/theta + (1/2) int Sigma phi (energy per unit mass in units of G M/ell; the 2-d isothermal kinetic energy is sigma^2 = 1/theta) and the fold
+    (theta_min, its contrast)."""
+    u, w, A, N = D['u'], D['w'], D['A'], D['N']; normalize, G, jac, newton, summarize = _v36_fp_ops(D)
+    def dG_dth(S, th):
+        Sn = G(S, th); d = -(A @ S)*Sn; d -= Sn*(PI*np.sum(w*d)); return d
+    ipole = int(np.argmax(u)); Sbar = normalize(np.ones(N))
+    S, ok = newton(normalize(np.exp(seed_s*u**2)), th0); th = th0
+    s = S[ipole]/Sbar[0]; rows = []; fold = None; prev_th = th; ds = 0.02
+    with np.errstate(over='ignore', invalid='ignore'):
+        for step in range(3000):
+            s_new = s*(1 + ds); S0, th0_ = S.copy(), th; ok = False
+            for it in range(40):
+                R1 = S - G(S, th); R2 = S[ipole] - s_new*Sbar[0]
+                if not np.all(np.isfinite(R1)): break
+                if np.max(np.abs(np.concatenate([R1, [R2]]))) < 1e-11: ok = True; break
+                M = np.zeros((N + 1, N + 1)); M[:N, :N] = np.eye(N) - jac(S, th); M[:N, N] = -dG_dth(S, th); M[N, ipole] = 1.0
+                try: dx = np.linalg.solve(M, -np.concatenate([R1, [R2]]))
+                except np.linalg.LinAlgError: break
+                S = S + dx[:N]; th = th + dx[N]
+            if not ok:
+                S, th = S0, th0_; ds *= 0.5
+                if ds < 1e-4: break
+                continue
+            s = s_new; ds = min(ds*1.2, 0.05)
+            r = summarize(S, th)[0]; E = 1/th + 0.5*PI*np.sum(w*S*(A @ S)); rows.append((th, r, E, s))
+            if fold is None and len(rows) > 1 and th > prev_th: fold = (prev_th, rows[-2][1])
+            prev_th = th
+            if r > rmax or not np.isfinite(r): break
+    return rows, fold
+
+def _v36_fp_signatures(D, S, th):
+    """The number of negative directions of the second variation at a fixed point, on mass-preserving perturbations, in the canonical ensemble
+    (H_c = Sigma^-1 + theta A, the free energy at fixed temperature) and the microcanonical one (H_m = H_c + theta^2 |<phi, dSigma>|^2, the entropy at
+    fixed energy, the rank-one term from the temperature's response); both in the quadrature's inner product."""
+    w, A = D['w'], D['A']; W = PI*w; phi = A @ S
+    Hc = np.diag(W/S) + th*(W[:, None]*A); Hc = 0.5*(Hc + Hc.T); v = W*phi; Hm = Hc + th**2*np.outer(v, v)
+    Qb = np.linalg.svd(W[None, :])[2][1:].T
+    ec = np.linalg.eigvalsh(Qb.T @ Hc @ Qb); em = np.linalg.eigvalsh(Qb.T @ Hm @ Qb)
+    return int(np.sum(ec < -1e-10)), int(np.sum(em < -1e-10)), float(ec.min()), float(em.min())
+
+def _v36_fp_sectors(D, S, th, mmax=4):
+    """The non-axisymmetric sectors (v36.4; the independent check's correction).  A perturbation dSigma = f(cos chi) cos(m phi), m >= 1, has no mass and
+    <phi, dSigma> = 0, so the microcanonical rank-one term vanishes and both second variations coincide: H^(m) = int f^2/Sigma + theta sum_l k_l c_l^2 with
+    k_l = -2 pi lam_l the kernel's Funk-Hecke eigenvalue (the same for every m) and c_l the coefficients of f in the orthonormal associated Legendre
+    functions P~_l^m, l >= m.  Returns {m: (negative directions, least eigenvalue)}; validated on the uniform disk's analytic 2 pi (1 - theta lam_l) and
+    on the exact m = 1 tilt zero mode of every axisymmetric fixed point."""
+    from scipy.special import lpmv, gammaln
+    u, w, lam, LMAX = D['u'], D['w'], D['lam'], D['LMAX']; out = {}
+    for m in range(1, mmax + 1):
+        ls = np.arange(m, LMAX + 1); norm = np.sqrt((2*ls + 1)/2*np.exp(gammaln(ls - m + 1) - gammaln(ls + m + 1)))
+        B = np.array([norm[i]*lpmv(m, l, u) for i, l in enumerate(ls)])
+        M = (B*(w/S)[None, :]) @ B.T; H = 0.5*(M + M.T) + th*np.diag(-2*PI*lam[ls]); ev = np.linalg.eigvalsh(H)
+        out[m] = (int(np.sum(ev < -1e-9)), float(ev.min()))
+    return out
+
 def v36_3_fixed_points():
     print("\n== v36.3-4. Self-consistent densities (Entry 325, project A): the isothermal law on the great 2-sphere under the twin kernel (R343) ==")
     print("   A population law fixed independently of the target: f ~ exp(-beta E) gives Sigma = A exp(-beta Phi[Sigma]) (Boltzmann; non-rotating), and the question")
@@ -19216,13 +19328,10 @@ def v36_3_fixed_points():
         print(f"       theta = {th:5.2f}: " + "; ".join(f"Sigma(0)/Sigma(pi/2) = {r:9.4g}, C = {C:9.4g}, rho = {rho:.3f} ({rho2:.3f} at 400/300)" for r, C, rho, S, rho2 in table[th]['conv']) + f"   [unresolved: {table[th]['unres']}]")
     pole = {th: [f for f in d['conv'] if f[0] > 1 + 1e-6] for th, d in table.items()}; ring = {th: [f for f in d['conv'] if f[0] < 1 - 1e-6] for th, d in table.items()}
     # the concentrated branch continued downward from theta_2 (the fold), and the ring branch upward
-    S = Sbar + 0.02*P[2]; fold = None; last = None
-    for th in np.arange(1.68, 1.0, -0.005):
-        S, ok = newton(S, th)
-        if not ok: fold = th + 0.005; break
-        last = sm1(S, th)[0]
+    _rows, _fold = _v36_fp_continue(D1)                                # v36.4 (R350): the fold by continuation in the central density; the v36.3 search by
+    fold, last = (_fold if _fold else (float('nan'), float('nan')))    # Newton failure crashed where Newton converged elsewhere (the v36.3 review)
     print(f"     The bifurcation at theta_2 is transcritical: the centrally concentrated branch (a disk about the pole, C > 0) exists on the hot side, theta < theta_2, growing more")
-    print(f"     concentrated as theta falls (contrast {pole[1.6][0][0]:.2f}, {pole[1.2][0][0]:.1f}, {pole[1.1][0][0]:.1f} at theta = 1.6, 1.2, 1.1) down to a fold near theta = {fold:.2f} (contrast {last:.0f} on this grid), beyond which")
+    print(f"     concentrated as theta falls (contrast {pole[1.6][0][0]:.2f}, {pole[1.2][0][0]:.1f}, {pole[1.1][0][0]:.1f} at theta = 1.6, 1.2, 1.1) down to a fold at theta = {fold:.3f} (contrast {last:.0f} on this grid, by continuation in the central density; v36.4-1), beyond which")
     print(f"     the branch turns back toward larger theta with a contrast that grows without a resolved limit (the point-mass end); it is Picard-unstable throughout (rho = {pole[1.2][0][2]:.3f} at theta = 1.2).")
     print(f"     The equator-concentrated branch (a ring, C < 0) exists above theta_2 and is Picard-stable along the whole range both resolutions resolve: contrast {', '.join(f'{ring[th][0][0]:.4g}' for th in (1.72, 1.8, 2.0, 2.5))}")
     print(f"     with C = {', '.join(f'{ring[th][0][1]:.4g}' for th in (1.72, 1.8, 2.0, 2.5))} and rho = {', '.join(f'{ring[th][0][2]:.3f}' for th in (1.72, 1.8, 2.0, 2.5))} at theta = 1.72, 1.8, 2, 2.5; at theta = 3 the two grids disagree on its")
@@ -19260,9 +19369,9 @@ def v36_3_fixed_points():
     print(f"   (d) Control: the theta = 1.2 concentrated fixed point (contrast {r:.1f}) spline-fed to the quadrature solver: C = {Cq:.3f} against the spectral {C:.3f};")
     print(f"     v^2 at 45 deg: quadrature {v2q[0]:.1f} against the spectral {v2s:.1f} (km/s)^2.")
     ok_b = (len(table[0.6]['conv']) == 1 and len(pole[1.2]) >= 1 and abs(pole[1.2][0][0] - 28.35) < 0.3 and abs(pole[1.2][0][2] - 1.545) < 0.01 and len(ring[1.72]) == 1 and ring[1.72][0][2] < 1
-            and all(len(ring[th]) == 1 and ring[th][0][2] < 1 for th in (1.8, 2.0, 2.5)) and abs(ring[2.0][0][0] - 0.1705) < 0.002 and all(f[2] > 1 for th in table for f in pole[th]) and fold is not None and 1.0 < fold < 1.1)
+            and all(len(ring[th]) == 1 and ring[th][0][2] < 1 for th in (1.8, 2.0, 2.5)) and abs(ring[2.0][0][0] - 0.1705) < 0.002 and all(f[2] > 1 for th in table for f in pole[th]) and np.isfinite(fold) and 1.06 < fold < 1.07)
     check(all(abs(ev[i]/lam[l] - 1) < 1e-6 for i, l in enumerate((2, 4, 6, 8))) and abs(th_l[2] - 1.6977) < 1e-3 and ejac < 1e-6 and ok_b and abs(Cq/C - 1) < 0.02 and abs(v2q[0]/v2s - 1) < 0.02,
-           "the isothermal fixed points: thresholds theta lam_l (theta_2 = 1.698); the Jacobian to 1e-6; only the uniform disk resolved at theta = 0.6; the concentrated branch at theta = 1.2 (contrast 28.35, rho = 1.545) folding at theta = 1.0-1.1; the ring Picard-stable at theta = 1.72-2.5 (contrast 0.1705 at 2); every resolved concentrated fixed point Picard-unstable; the spectral C and v^2 within 2% of the quadrature")
+           "the isothermal fixed points: thresholds theta lam_l (theta_2 = 1.698); the Jacobian to 1e-6; only the uniform disk resolved at theta = 0.6; the concentrated branch at theta = 1.2 (contrast 28.35, rho = 1.545) folding at theta = 1.06-1.07 (by continuation); the ring Picard-stable at theta = 1.72-2.5 (contrast 0.1705 at 2); every resolved concentrated fixed point Picard-unstable; the spectral C and v^2 within 2% of the quadrature")
     print("   [T] The map and its linearization.  [V] The fixed points found (Newton from 18 seeds at two resolutions; not a proof of completeness -- the discretization-bound")
     print("       states show the map has solutions the grids do not resolve).  [D] The isothermal law is one choice; a law with L-dependence selects differently (near-circular")
     print("       laws reproduce any density, v36.2-1), so the count of self-consistent profiles is the law's, not the leaf's.")
@@ -19515,6 +19624,190 @@ def v36_3_quick():
     """The checks that run in a few minutes: v36.2's quick set plus the v36.3 sources, the dwarfs, the fixed points, the null cone, the split model and the so(4)
     sectors (the orbit libraries are not run)."""
     v36_2_quick(); v36_3_sources(); v36_3_dwarfs(); v36_3_fixed_points(); v36_3_null_cone(); v36_3_split(); v36_3_sectors()
+
+# ==================================================================================================== v36.4 (the v36.3 review and Entries 340-341)
+def v36_4_fixed_points_erratum():
+    print("\n== v36.4-1. The isothermal fixed points, continued: the fold by continuation, and stability in two ensembles (the v36.3 review; R350) ==")
+    print("   The review ran the delivered suite and found v36.3-4's fold search -- Newton stepped down in theta until it failed -- crashing where Newton converged to")
+    print("   another branch instead of failing.  v36.4 replaces it (in v36.3-4 too) by continuation in the central density with theta an unknown, which passes the fold;")
+    print("   and answers the review's request for stability beyond the iteration's: the second variation of the free energy at fixed temperature (canonical) and of")
+    print("   the entropy at fixed energy (microcanonical), on mass-preserving perturbations, at the resolved fixed points.")
+    out = {}
+    # (a) the fold at two resolutions, and the energy along the branch
+    print("   (a) The concentrated branch continued in its central density from theta = 1.6 (contrast 1.85):")
+    res = {}
+    for N, LMAX in ((160, 120), (400, 300)):
+        D = _v36_fp_build(N, LMAX); rows, fold = _v36_fp_continue(D)
+        ths = np.array([r[0] for r in rows]); rs = np.array([r[1] for r in rows]); Es = np.array([r[2] for r in rows])
+        dE = np.diff(Es); turn = [int(i) + 1 for i in np.where(np.sign(dE[1:]) != np.sign(dE[:-1]))[0]]
+        i1 = int(np.argmin(ths)); j1 = i1 + int(np.argmax(ths[i1:])); fold2 = (ths[j1], rs[j1]) if j1 < len(ths) - 1 else None
+        res[N] = dict(fold=fold, turn=[(ths[i], rs[i], Es[i]) for i in turn], last=(ths[-1], rs[-1]), fold2=fold2)
+        print(f"     {N} nodes / {LMAX} modes: the fold at theta = {fold[0]:.4f} (contrast {fold[1]:.1f}); the energy per unit mass E = 1/theta + (1/2) int Sigma phi along the branch has its")
+        more = f" and {len(turn) - 2} more beyond the fold" if len(turn) > 2 else ""; second = f"; beyond the fold a second fold at theta = {fold2[0]:.4f} (contrast {fold2[1]:.0f})" if fold2 else ""
+        print(f"       extrema at contrast {', '.join(f'{r:.1f} (theta = {t:.3f}, E = {e:.4f})' for t, r, e in res[N]['turn'][:2])}{more}{second}; the branch followed to contrast {rs[-1]:.0f} (theta = {ths[-1]:.3f}).")
+    out['fold'] = (res[160]['fold'][0], res[400]['fold'][0]); out['turn'] = res[400]['turn']; out['fold2'] = (res[160]['fold2'], res[400]['fold2'])
+    print("     The two grids agree on the fold to 3e-4 and on the two energy turning points: a maximum of E at contrast 3 (theta = 1.52) and a minimum at contrast 55 (theta = 1.12),")
+    print("     both before the fold (contrast 146, theta = 1.065).  Beyond the fold the branch is resolved only to contrast ~250, where the grids part: the second fold and all")
+    print("     that follows (theta rising, then falling toward 0.2-0.3 with E diverging) differ between the grids and are discretization-bound, not the point-mass end (v36.4; the")
+    print("     independent check's correction).")
+    # (b) canonical stability is the iteration's: the eigenvalues of theta Sigma A are real and >= 0
+    D = _v36_fp_build(400, 300); normalize, G, jac, newton, summarize = _v36_fp_ops(D); u, w, A = D['u'], D['w'], D['A']
+    W = PI*w; AW = W[:, None]*A; eA = np.linalg.eigvalsh(0.5*(AW + AW.T))
+    print(f"   (b) Canonical stability is the iteration's.  The quadratic form of A in the quadrature's inner product is symmetric ({np.abs(AW - AW.T).max():.0e}) and negative")
+    print(f"     semidefinite (largest eigenvalue {eA.max():.1e}; every lam_l >= 0), so the Jacobian's eigenvalues mu = -theta Sigma A are real and nonnegative, and the free energy's")
+    print(f"     Hessian H_c = Sigma^-1 + theta A = Sigma^-1 (1 - mu) is positive exactly when every mu < 1: Picard-stable <=> a free-energy minimum at fixed temperature.")
+    # (c) signatures at the fixed points
+    print("   (c) Negative directions of the second variation on axisymmetric mass-preserving perturbations, canonical / microcanonical (H_m = H_c + theta^2 |<phi, dSigma>|^2);")
+    print("     v_inf = sqrt(C G M/ell) is each fixed point's own plateau speed on the Milky-Way-like leaf (sqrt(G M/ell) = 127 km/s):")
+    rows = []; states = []
+    for lab, th, seed in (("uniform, theta = 1.2", 1.2, np.ones(D['N'])), ("uniform, theta = 2.5", 2.5, np.ones(D['N'])), ("concentrated, theta = 1.6 (contrast 1.85)", 1.6, np.exp(0.5*u**2)),
+                          ("concentrated, theta = 1.4 (contrast 7)", 1.4, np.exp(1.5*u**2)), ("concentrated, theta = 1.2 (contrast 28)", 1.2, np.exp(3*u**2)), ("concentrated, theta = 1.1 (contrast 67)", 1.1, np.exp(4*u**2)),
+                          ("ring, theta = 2.0", 2.0, np.exp(-2*u**2)), ("ring, theta = 2.5", 2.5, np.exp(-5*u**2))):
+        S, ok = newton(normalize(seed), th); r, C, rho = summarize(S, th); nc, nm, mc, mm = _v36_fp_signatures(D, S, th)
+        mu = np.sort(np.linalg.eigvals(jac(S, th)).real)
+        vinf = np.sqrt(max(C, 0.0)*_V36_GK*6e10/16); states.append((lab, th, S))
+        rows.append((lab, r, rho, nc, nm, float(mu.min()), C, vinf)); print(f"       {lab:44s} contrast {r:8.3f}  rho = {rho:.3f}  C = {C:+7.3f} (v_inf {vinf:4.0f} km/s)  negative directions: canonical {nc}, microcanonical {nm}   (least mu {mu.min():+.1e})")
+    out['rows'] = rows
+    print("     The canonical count is the number of mu above 1, as (b) says.  Microcanonically the concentrated branch is an entropy maximum at fixed energy, against axisymmetric")
+    print("     perturbations, between the two energy turning points -- contrast 3 to 55, theta = 1.52 to 1.12 -- and a saddle outside them (the turning-point rule: a mode changes")
+    print("     stability microcanonically at each extremum of E along the series, and canonically at each extremum of theta, the fold, where the canonical count becomes 2 with the")
+    print(f"     microcanonical one unchanged); axisymmetrically the ring is stable in both ensembles and the uniform disk only when hot -- but see (e).  On the Milky-Way-like leaf the")
+    print(f"     stable segment is sigma = {np.sqrt(_V36_GK*6e10/16/1.52):.0f}-{np.sqrt(_V36_GK*6e10/16/1.12):.0f} km/s with a pole-to-equator contrast of 3-55 and its own plateau speed v_inf = {rows[2][7]:.0f}-{rows[5][7]:.0f} km/s (C = {rows[2][6]:.2f}-{rows[5][6]:.2f}): sigma/v_inf")
+    print("     of 0.7-1, a pressure-supported state, not a rotating disk; an isolated isothermal population can hold a concentrated state at fixed energy, but a hot one with a")
+    print("     contrast far below the exponential's 207.  v36.3-4's 'no Picard-stable concentrated density' stands as a canonical statement; the microcanonical one is new.")
+    print("     Dynamical (Vlasov) stability is not computed.  A strict entropy maximum at fixed E and M is Vlasov-stable for any kernel (the energy-Casimir argument), so the")
+    print("     segment's maximum -- if it survives every non-axisymmetric sector, (e) -- would be; the converse (that the saddles are unstable) is known for the Newtonian kernel")
+    print("     and is not claimed here.")
+    # (d) the non-axisymmetric scope (the review): an l = 2 uniaxial and a biaxial quadrupole are not rotation-equivalent
+    Q1 = np.diag([2.0, -1.0, -1.0]); Q2 = np.diag([1.0, 0.0, -1.0]); rng = np.random.default_rng(4)
+    best = min(np.abs(np.linalg.eigvalsh(Rm @ Q1 @ Rm.T) - np.linalg.eigvalsh(Q2)).max() for Rm in [np.linalg.qr(rng.normal(size=(3, 3)))[0] for _ in range(50)])
+    print(f"   (d) Scope (the review's correction): the branches found are the axisymmetric ones.  The l = 2 modes are traceless symmetric tensors, which rotations carry into one")
+    print(f"     another only within an orbit: the uniaxial (2, -1, -1) and the biaxial (1, 0, -1) have different eigenvalues (the mismatch is exactly {best:.2f} for every rotation, eigenvalues")
+    print("     being rotation invariants; 50 sampled), so the non-axisymmetric equilibria at a given l are not classified here; 'one branch per even l' counts axisymmetric branches.")
+    # (e) the non-axisymmetric sectors m = 1..4 (the independent check's correction): the same kernel, no mass constraint, no rank-one term
+    print("   (e) The non-axisymmetric sectors (the independent check's correction).  A perturbation f(cos chi) cos(m phi), m >= 1, carries no mass and has <phi, dSigma> = 0, so")
+    print("     both ensembles agree on it: H^(m) = int f^2/Sigma + theta sum_l k_l c_l^2 on the modes l >= m, k_l = -2 pi lam_l the kernel's eigenvalue (the same for every m).")
+    print("     Negative directions by sector, with the least eigenvalue:")
+    sec = {}
+    for lab, th, S in states:
+        sc = _v36_fp_sectors(D, S, th); sec[lab] = sc
+        print(f"       {lab:44s} " + "   ".join(f"m = {m}: {n} ({e:+.3f})" for m, (n, e) in sc.items()))
+    e_unif = 2*PI*(1 - 2.5*D['lam'][2]); zero_m1 = max(abs(sec[l][1][1]) for l in sec if not l.startswith('uniform'))
+    print(f"     Controls: on the uniform disk at theta = 2.5 the l = 2 eigenvalue is analytic, 2 pi (1 - theta lam_2) = {e_unif:+.4f}, which the m = 1 and m = 2 sectors reproduce")
+    print(f"       ({sec['uniform, theta = 2.5'][1][1]:+.4f}); the m = 1 sector of every non-uniform fixed point has the exact tilt zero mode dSigma = Sigma'(u) sin chi cos phi (least eigenvalue {zero_m1:.0e}).")
+    print("     So: the ring is unstable to m = 2 in both ensembles at every theta tested (and to m = 4 at theta = 2.5), hence Picard-unstable on the sphere -- 'Picard-stable ring'")
+    print("     in v36.3-4 and (c) means stable against axisymmetric perturbations; the uniform disk at theta = 2.5 has five negative directions in all (the l = 2 multiplet), not")
+    print("     one; the concentrated branch has no negative non-axisymmetric direction for m <= 4 at any of its four states, so its entropy maximum between contrast 3 and 55")
+    print("     survives these sectors (m > 4 not computed; the eigenvalues increase with m at every state tested).")
+    out['sectors'] = sec; labs = [r[0] for r in rows]
+    ring_m2 = all(sec[l][2][0] >= 1 for l in labs if l.startswith('ring')); conc_clean = all(all(n == 0 for n, _ in sec[l].values()) for l in labs if l.startswith('concentrated'))
+    check(all(1.06 < f < 1.07 for f in out['fold']) and abs(out['fold'][0] - out['fold'][1]) < 1e-3 and len(out['turn']) >= 2 and 2.5 < out['turn'][0][1] < 3.5 and 50 < out['turn'][1][1] < 60 and eA.max() < 1e-10
+          and all(r[5] > -1e-9 for r in rows) and [r[3:5] for r in rows] == [(0, 0), (1, 1), (1, 1), (1, 0), (1, 0), (1, 1), (0, 0), (0, 0)] and all(150 < r[7] < 175 for r in rows[3:6]) and 90 < rows[2][7] < 110
+          and best > 0.5 and abs(sec['uniform, theta = 2.5'][2][1] - e_unif) < 1e-6 and zero_m1 < 1e-6 and ring_m2 and sec['ring, theta = 2.5'][4][0] >= 1 and conc_clean,
+          "the fold at theta = 1.06-1.07 on both grids (within 1e-3 of each other); E's turning points at contrast 2.5-3.5 and 50-60; A negative semidefinite and every mu >= 0; the axisymmetric canonical/microcanonical negative counts (0,0), (1,1), (1,1), (1,0), (1,0), (1,1), (0,0), (0,0) for the eight states (the last concentrated one beyond the energy minimum); the concentrated states' own v_inf 90-110 and 150-175 km/s; uniaxial and biaxial quadrupoles not rotation-equivalent; the sectors' analytic and zero-mode controls to 1e-6; the ring m = 2-unstable at every theta and m = 4-unstable at 2.5; the concentrated branch with no negative direction for m <= 4")
+    print("   [T] Canonical stability as the iteration's; the microcanonical rank-one term; the sectors' decoupling.  [V] The continuation, the energies, the signatures in every")
+    print("       sector to m = 4.  [D] The branch classification is of axisymmetric equilibria; dynamical stability not computed.")
+    return out
+
+def v36_4_duality():
+    print("\n== v36.4-2. Entries 340-341: the sine from the tangent, the three bivector pairs, the radial-normal exchange, the CMB dipole in the galactic frame (R351) ==")
+    rng = np.random.default_rng(2); out = {}
+    # (a) Entry 340: f -> f/sqrt(1 + f^2) takes tan chi to sin chi on the near hemisphere; the equatorial expansions
+    x = np.linspace(0.01, PI/2 - 0.01, 50); e1 = np.abs(np.tan(x)/np.sqrt(1 + np.tan(x)**2) - np.sin(x)).max()
+    eps = 1e-3; a = 16/3; e2 = abs(np.exp(-a*np.sin(PI/2 - eps)) - np.exp(-a)*(1 + a*eps**2/2))/np.exp(-a)
+    print(f"   (a) Entry 340's 'muffling' f -> f/sqrt(1 + f^2) takes tan chi to sin chi on the near hemisphere ({e1:.0e}) -- the bounded radial coordinate R/sqrt(ell^2 + R^2) of the")
+    print(f"     embedding in place of the unbounded gnomonic one; at the equator e^(-a sin chi) = e^-a (1 + a eps^2/2 + ...) ({e2:.0e} at eps = 1e-3) where e^(-a tan chi) ~ e^(-a/eps).")
+    # (b) the three bivector pairs of the response on Entry 341 are self-dual / anti-self-dual; the 3-d duals; the exchange rotation
+    import itertools
+    eps4 = np.zeros((4, 4, 4, 4))
+    for p_ in itertools.permutations(range(4)): eps4[p_] = np.linalg.det(np.eye(4)[list(p_)])
+    wedge = lambda a_, b_: np.outer(a_, b_) - np.outer(b_, a_); star = lambda B: 0.5*np.einsum('abcd,cd->ab', eps4, B)
+    E4 = np.eye(4); nu, eR, eph, n = E4
+    pairs = {'R': (wedge(nu, eR), wedge(eph, n)), 'phi': (wedge(nu, eph), wedge(n, eR)), 'n': (wedge(nu, n), wedge(eR, eph))}
+    e3 = max(max(np.abs(star((X + Y)/np.sqrt(2)) - (X + Y)/np.sqrt(2)).max(), np.abs(star((X - Y)/np.sqrt(2)) + (X - Y)/np.sqrt(2)).max()) for X, Y in pairs.values())
+    E3 = np.eye(3); eR3, eph3, n3 = E3
+    e4 = max(np.abs(np.cross(eph3, n3) - eR3).max(), np.abs(np.cross(n3, eR3) - eph3).max(), np.abs(np.cross(eR3, eph3) - n3).max())
+    b = PI/2; Rm = np.eye(4); Rm[:, 1] = np.cos(b)*E4[1] + np.sin(b)*E4[3]; Rm[:, 3] = -np.sin(b)*E4[1] + np.cos(b)*E4[3]
+    rot = lambda B: Rm @ B @ Rm.T
+    BRp = (pairs['R'][0] + pairs['R'][1])/np.sqrt(2); Bnp = (pairs['n'][0] + pairs['n'][1])/np.sqrt(2)
+    e5 = np.abs(rot(BRp) - Bnp).max(); e6 = np.abs(star(rot(BRp)) - rot(BRp)).max()
+    # the physical frame of (d): e_R toward l = 180 (-x), e_phi toward l = 90 (+y), n the north pole (+z) is left-handed, so there the dual of e_phi ^ n is -e_R
+    eRp, ephp, np_ = np.array([-1, 0, 0.0]), np.array([0, 1, 0.0]), np.array([0, 0, 1.0]); hand = float(np.cross(eRp, ephp) @ np_); dual_phys = np.cross(ephp, np_) @ eRp
+    print(f"   (b) In the frame (nu, e_R, e_phi, n) -- nu the embedding's normal to S^3, n the galaxy's normal in the leaf -- the three pairs B_i^+- = (nu ^ e_i +- *_3 e_i)/sqrt 2 are")
+    print(f"     self-dual and anti-self-dual under the 4-d Hodge star ({e3:.0e}), the bases of the two su(2)'s; in the leaf *_3(e_phi ^ n) = e_R, *_3(n ^ e_R) = e_phi, *_3(e_R ^ e_phi) = n")
+    print(f"     ({e4:.0e}) for a right-handed (e_R, e_phi, n), and 'self-dual' is with respect to the orientation (nu, e_R, e_phi, n): the radial direction is the dual of the")
+    print(f"     orbital-normal plane up to the frame's handedness, as the response says.  The physical frame of (d) -- e_R toward l = 180, e_phi toward l = 90, n the north pole --")
+    print(f"     is left-handed (e_R x e_phi . n = {hand:+.0f}), so there *_3(e_phi ^ n) = {'-' if dual_phys < 0 else '+'}e_R: the sign of the dual changes with the orientation, the plane and the angle do not")
+    print(f"     (the independent check's correction).  The rotation by pi/2 in the (e_R, n) plane, e_R -> n -> -e_R, carries B_R^+ to +B_n^+ ({e5:.0e}) and preserves self-duality")
+    print(f"     ({e6:.0e}): the exchange Entry 341 asks for exists locally, as a rotation of the frame -- a change of description unless the internal structure turns relative to")
+    print("     the matter (the response's distinction); e_R is undefined at the centre, so it is not a global map of the galaxy.")
+    # (c) the response's localization tensor: one geometric object with a strong and a weak direction
+    c = np.array([0.3, 0.9]); k0, lamb = 1.0, 24.0; Mt = k0**2*np.eye(2) + lamb*np.outer(c, c); ev = np.linalg.eigvalsh(Mt)
+    print(f"   (c) The response's response tensor M = kappa_0^2 g + lambda c c^T on the meridional plane has eigenvalues kappa_0^2 and kappa_0^2 + lambda |c|^2 ({ev[0]:.3f}, {ev[1]:.3f} for the example),")
+    print("     the strong eigenvector along c: two scales from one object, their ratio set by |c|; which is vertical is the configuration's choice.  Whether its eigenmodes decay")
+    print("     exponentially is the field equation's question (v36.3-7(e): a constant gap in the plane gives K_0), not the tensor's.")
+    # (d) the CMB dipole in the local galactic frame
+    l, bb = np.radians(264.021), np.radians(48.253)
+    d = np.array([np.cos(bb)*np.cos(l), np.cos(bb)*np.sin(l), np.sin(bb)])           # x toward l = 0 (the centre), y toward l = 90, z toward the north pole
+    comps = (float(d @ -np.array([1, 0, 0.0])), float(d @ np.array([0, 1, 0.0])), float(d @ np.array([0, 0, 1.0]))); ang = float(np.degrees(np.arcsin(abs(comps[0]))))
+    out['dipole'] = comps + (ang,)
+    print(f"   (d) The Solar System's CMB dipole, (l, b) = (264.021, 48.253) deg (the response's values), in the local frame e_R (outward from the centre, toward l = 180), e_phi (the")
+    print(f"     rotation, toward l = 90) and n (the north pole): d = {comps[0]:+.3f} e_R {comps[1]:+.3f} e_phi {comps[2]:+.3f} n -- {ang:.1f} deg from the orbital-normal plane (whose dual in this left-handed frame is -e_R).  A geometric")
+    print("     fact about one direction, as the response says: the dipole is the Sun's motion relative to the CMB frame (the Galactic centre's own motion points to (l, b) ~ (266, 28)),")
+    print("     and the alignment is a prediction PG would have to make before the comparison, with a sign and a magnitude, not an inference from it.")
+    # (e) the Hopf map descends to RP^3
+    def qmul(p, q):
+        a1, b1, c1, d1 = p; a2, b2, c2, d2 = q
+        return np.array([a1*a2 - b1*b2 - c1*c2 - d1*d2, a1*b2 + b1*a2 + c1*d2 - d1*c2, a1*c2 - b1*d2 + c1*a2 + d1*b2, a1*d2 + b1*c2 - c1*b2 + d1*a2])
+    conj = lambda q: q*np.array([1, -1, -1, -1.0]); h = lambda q: qmul(qmul(q, np.array([0, 0, 0, 1.0])), conj(q))[1:]
+    e7 = max(np.abs(h(-q) - h(q)).max() for q in [rng.normal(size=4) for _ in range(20)])
+    print(f"   (e) The Hopf map h(q) = q k q^-1 has h(-q) = h(q) ({e7:.0e}): it descends through the twin identification to a circle bundle over S^2 on RP^3 (the unit tangent bundle of S^2,")
+    print("     Euler number 2 against the Hopf bundle's 1 -- a standard fact, not computed here).  The phase structure survives the quotient; the one-sided disk of v36.3-7(d) does not change.")
+    check(e1 < 1e-12 and e2 < 1e-5 and e3 < 1e-12 and e4 < 1e-12 and e5 < 1e-12 and e6 < 1e-12 and abs(comps[0] - 0.069) < 0.002 and abs(comps[1] + 0.662) < 0.002 and abs(comps[2] - 0.746) < 0.002 and abs(ang - 4.0) < 0.1 and e7 < 1e-12 and abs(ev[1] - (k0**2 + lamb*(c @ c))) < 1e-12 and hand == -1.0 and dual_phys == -1.0,
+          "tan/sqrt(1 + tan^2) = sin; the three bivector pairs self-dual/anti-self-dual; the 3-d duals in a right-handed frame, and -e_R in the left-handed physical one; the (e_R, n) rotation carries B_R^+ to +B_n^+; the dipole (+0.069, -0.662, +0.746), 4.0 deg from the orbital-normal plane; the tensor's eigenvalues; h(-q) = h(q)")
+    print("   [T] The identities.  [V] The dipole's decomposition from the published direction.  [D] The exchange is local and a change of frame until a law turns the internal structure.")
+    return out
+
+def v36_4_clash():
+    print("\n== v36.4-3. The smallest explicit clash model: the relative curvature of two pulled-back Hopf connections (the v36.3 review's second priority; R352) ==")
+    print("   The responses on Entries 338-341 propose the gauge-invariant clash as F_- = F_L - F_R, the difference of the curvatures of the two Hopf connections pulled back")
+    print("   by the two direction fields n_L(x), n_R(x) on the galaxy.  The pulled-back Hopf curvature is half the area form of the map to S^2, F = (1/2) n . (dn x dn), so")
+    print("   F_- is computable for any explicit pair.  Three configurations on a (phi, z) patch, with theta(z) = arctan(1.5 z) the tilt out of the plane:")
+    kk = np.array([0, 0, 1.0]); t = lambda ph: np.array([np.cos(ph), np.sin(ph), 0.0]); theta = lambda z: np.arctan(1.5*z)
+    def F(nfun, ph, z, h=1e-5):
+        n0 = nfun(ph, z); dph = (nfun(ph + h, z) - nfun(ph - h, z))/(2*h); dz = (nfun(ph, z + h) - nfun(ph, z - h))/(2*h); return 0.5*n0 @ np.cross(dph, dz)
+    nL = lambda ph, z: np.cos(theta(z))*kk + np.sin(theta(z))*t(ph); nR = lambda ph, z: np.cos(theta(z))*kk - np.sin(theta(z))*t(ph); n0 = lambda ph, z: kk + 0*t(ph)
+    al = 0.5; nLa = lambda ph, z: np.cos(al)*kk + np.sin(al)*t(ph + 0.7*z); nRa = lambda ph, z: np.cos(al)*kk - np.sin(al)*t(ph + 0.7*z)
+    rows = []
+    for z in (0.0, 0.3, 1.0):
+        FL, FR, F0 = F(nL, 0.4, z), F(nR, 0.4, z), F(n0, 0.4, z); rows.append((z, FL, FR, F0))
+        print(f"     z = {z:.1f}: F_L = {FL:+.4f}, F_R (the exchange-odd mirror tilt) = {FR:+.4f}, F_L - F_R = {FL - FR:+.1e}; with the R sector untilted, F_L - F_R = {FL - F0:+.4f}")
+    Fa = F(nLa, 0.4, 0.3) - F(nRa, 0.4, 0.3); FaL = F(nLa, 0.4, 0.3)
+    nRref = lambda ph, z: np.cos(theta(z))*kk + np.sin(theta(z))*t(-ph); Fref = [(F(nL, 0.4, z), F(nRref, 0.4, z)) for z in (0.3, 1.0)]
+    print(f"     The admitted in-plane family (alpha fixed, the axis t turning with position): F_L - F_R = {Fa:+.1e}, and F_L itself {FaL:+.1e} -- vacuously: that family maps the patch")
+    print("       onto one latitude circle of S^2 (a rank-one map), so each sector's curvature is zero on its own, and the test says nothing about in-plane motions in general.")
+    print(f"     A pairing by a reflection instead (n_R = cos theta n + sin theta t(-phi), the mirror image of n_L in a plane through n): F_R = -F_L, so F_L - F_R = 2 F_L = {2*Fref[0][0]:+.4f}, {2*Fref[1][0]:+.4f}")
+    print(f"       at z = 0.3, 1 (F_R = {Fref[0][1]:+.4f}, {Fref[1][1]:+.4f}).")
+    print("     So the relative curvature vanishes for the exchange-odd departure the responses built the clash from, and in general for any pair of sectors congruent by a")
+    print("     fixed proper rotation (the mirror tilt is the rotation by pi about n, which preserves the area form); it is nonzero for an asymmetric departure (one sector")
+    print("     tilting, the other not) and for a pair congruent by a reflection.  As a clash, F_L - F_R sees the two sectors' departures' failure to be congruent by a rotation,")
+    print("     not the departure itself; a clash that sees the symmetric one needs F_L + F_R or one sector's own curvature, which is not exchange-odd.  Only the e^phi ^ e^z component")
+    print("     of the curvature is tested here (a two-dimensional patch).  This is the first test the review asked for, and it fails as stated.")
+    check(all(abs(FL - FR) < 1e-9 for _, FL, FR, _ in rows) and abs(rows[1][1] - rows[1][3]) > 0.1 and abs(rows[0][1]) < 1e-9 and abs(Fa) < 1e-9 and abs(FaL) < 1e-9 and all(abs(a_ + b_) < 1e-9 for a_, b_ in Fref) and abs(Fref[0][0]) > 0.1,
+          "the relative Hopf curvature vanishes for the mirror tilt and the (rank-one) in-plane family, is nonzero (> 0.1) for a one-sector tilt out of the plane, and is 2 F_L for a reflected pairing")
+    print("   [T] The pulled-back curvature as half the area form.  [V] The three configurations.  [D] No action, no frame identification, no transport law: a test of the")
+    print("       proposed invariant on explicit configurations.")
+    return dict(rows=rows)
+
+def v36_4_suite():
+    """The v36.4 sections (the v36.3 review and Entries 340-341): the fixed-point erratum and the two ensembles, the duality identities and the dipole,
+    the relative-curvature clash test.  Independent of the earlier rounds' computations."""
+    e = v36_4_fixed_points_erratum(); d = v36_4_duality(); c = v36_4_clash()
+    return dict(erratum=e, duality=d, clash=c)
+
+def v36_4_quick():
+    """The checks that run in a few minutes: v36.3's quick set plus the three v36.4 sections."""
+    v36_3_quick(); v36_4_suite()
 # ---------------------------------------------------------------------------------------------- the suites
 def v36_1_suite(prev=None):
     """The v36.1 sections.  prev: the dicts returned by v36_0_milky_way, v36_0_sparc_pilot and v36_0_zoom_labels (recomputed if None)."""
@@ -19544,8 +19837,8 @@ def v36_0_suite():
     return dict(mw=mw, pilot=p, zoom=z)
 
 def current_suite_v36():
-    """The current regression suite of Part XXXIII (v36.0-v36.3), followed by the check summary."""
-    prev = v36_0_suite(); v36_1_suite(prev); v36_2_suite(); v36_3_suite()
+    """The current regression suite of Part XXXIII (v36.0-v36.4), followed by the check summary."""
+    prev = v36_0_suite(); v36_1_suite(prev); v36_2_suite(); v36_3_suite(); v36_4_suite()
     npass = sum(1 for ok, _ in _CHECKS if ok); nfail = len(_CHECKS)-npass
     print(f"\n== check summary (Part XXXIII): {npass} passed, {nfail} failed ==")
     for ok, msg in _CHECKS:
@@ -19556,7 +19849,7 @@ def current_suite_v36():
 if __name__ == "__main__":
     import sys
     arg = sys.argv[1] if len(sys.argv) > 1 else "current"
-    suites = {"current": current_suite_v36, "v36_0": v36_0_suite, "v36_1": v36_1_suite, "v36_2": v36_2_suite, "v36_3": v36_3_suite, "quick": v36_3_quick}
+    suites = {"current": current_suite_v36, "v36_0": v36_0_suite, "v36_1": v36_1_suite, "v36_2": v36_2_suite, "v36_3": v36_3_suite, "v36_4": v36_4_suite, "quick": v36_4_quick}
     if arg not in suites:
         print("usage: python3 -I pg_v36_numerics.py [" + " | ".join(suites) + "]"); sys.exit(2)
     suites[arg]()
@@ -23578,13 +23871,13 @@ The author's question — the densities "as implied by the amount of time matter
 | $4$ | uniform ($2.36$); $1.16$, $C = -0.42$, $\rho = 2.51$ | $4$ |
 | $6$, $10$ | uniform only ($3.53$, $5.89$) | $5$, $5$ |
 
-The bifurcation at $\theta_2$ is transcritical (the independent check: the branch amplitude linear through zero, slope $-6.2$ in the contrast, the exchange of stability $\rho = 1.003/0.997$ at $\mp0.005$). The centrally concentrated branch — a disk about the pole, $C>0$ — exists on the hot side, $\theta<\theta_2$, growing more concentrated as $\theta$ falls ($1.85$, $28.4$, $66.9$ at $\theta = 1.6$, $1.2$, $1.1$) down to a fold near $\theta = 1.07$ (contrast $137$ on the coarser grid; the independent check's three resolutions put the fold at $\theta = 1.065$–$1.066$, contrast $\approx160$), beyond which the branch turns back toward larger $\theta$ with a contrast that grows without a resolved limit — the point-mass end; it is Picard-unstable throughout ($\rho = 1.545$ at $\theta = 1.2$). The equator-concentrated branch — a ring, $C<0$ — exists above $\theta_2$ and is Picard-stable along the whole range both resolutions resolve, sharpening as $\theta$ rises ($\rho = 0.99$, $0.94$, $0.86$, $0.81$ at $\theta = 1.72$, $1.8$, $2$, $2.5$); at $\theta = 3$ the two grids no longer agree on its equatorial peak (the independent check's finer grids give contrast $1.0\times10^{-4}$ with $\rho = 0.93$ at $\theta = 3$, and an unresolved peak at $4$ and $6$: the ring collapses toward a singular equatorial line between $\theta = 3$ and $4$). Near $\theta_4 = 4.07$ one more resolved fixed point appears ($1.16$ at $\theta = 4$, Picard-unstable), the $l = 4$ branch; the higher thresholds were not scanned at their own values. So, under the isothermal law: the uniform disk, Picard-stable only when hot; on the cold side a ring, Picard-stable and sharpening with $\theta$ until it collapses; concentrated branches, one per even $l$ at its threshold, all Picard-unstable; and no branch that resembles an exponential disk, whose contrast is $e^{16/3} = 207$. A cold non-rotating isothermal population has no Picard-stable concentrated density on the leaf — the stable cold state is a ring, not a disk — and the iteration from a concentrated seed runs away toward a point mass.
+The bifurcation at $\theta_2$ is transcritical (the independent check: the branch amplitude linear through zero, slope $-6.2$ in the contrast, the exchange of stability $\rho = 1.003/0.997$ at $\mp0.005$). The centrally concentrated branch — a disk about the pole, $C>0$ — exists on the hot side, $\theta<\theta_2$, growing more concentrated as $\theta$ falls ($1.85$, $28.4$, $66.9$ at $\theta = 1.6$, $1.2$, $1.1$) down to a fold at $\theta = 1.065$ (contrast $143$–$146$ on the two grids, by continuation in the central density, §XXXIII.45(a); the independent check's three resolutions: $1.065$–$1.066$, contrast $\approx160$) *[v36.4, R350; the v36.3 search by Newton failure crashed on the referee's machine]*, beyond which the branch turns back toward larger $\theta$ with a contrast that grows without a resolved limit — the point-mass end; it is Picard-unstable throughout ($\rho = 1.545$ at $\theta = 1.2$). The equator-concentrated branch — a ring, $C<0$ — exists above $\theta_2$ and is Picard-stable along the whole range both resolutions resolve, sharpening as $\theta$ rises ($\rho = 0.99$, $0.94$, $0.86$, $0.81$ at $\theta = 1.72$, $1.8$, $2$, $2.5$); at $\theta = 3$ the two grids no longer agree on its equatorial peak (the independent check's finer grids give contrast $1.0\times10^{-4}$ with $\rho = 0.93$ at $\theta = 3$, and an unresolved peak at $4$ and $6$: the ring collapses toward a singular equatorial line between $\theta = 3$ and $4$). Near $\theta_4 = 4.07$ one more resolved fixed point appears ($1.16$ at $\theta = 4$, Picard-unstable), the $l = 4$ branch; the higher thresholds were not scanned at their own values. So, under the isothermal law: the uniform disk, Picard-stable only when hot; on the cold side a ring, Picard-stable and sharpening with $\theta$ until it collapses; concentrated branches, one per even $l$ at its threshold, all Picard-unstable; and no branch that resembles an exponential disk, whose contrast is $e^{16/3} = 207$. A cold non-rotating isothermal population has no Picard-stable concentrated density on the leaf — the stable cold state is a ring, not a disk — and the iteration from a concentrated seed runs away toward a point mass. *[v36.4, R350: a canonical statement (Picard-stable = a free-energy minimum at fixed temperature); at fixed energy the concentrated branch is an entropy maximum between contrast $3$ and $55$, a hot state, §XXXIII.45(c).]*
 
 **(c) The rotating law [V].** $f\propto e^{-\beta(E-\Omega L)}$ adds $e^{q\sin^2\chi}$, $q = \beta\Omega^2\ell^2/2$, which alone favours the equator. Continued in $q$ from the uniform disk: at $\theta = 1$ the fixed point is a ring ($\Sigma(0)/\Sigma(\pi/2) = 0.35$, $0.15$, $0.04$ with $C = -1.4$, $-2.9$, $-5.7$ at $q = 0.5$, $1$, $2$); at $\theta = 3$ it tilts toward the pole ($1.99$, $C = 0.39$ at $q = 0.5$) and the continuation ends in a fold by $q = 0.7$ (the independent check: at $q = 0.695$ at both its resolutions); at $\theta = 6$ it continues to a ring ($1.08$, $0.66$, $0.21$ at $q = 0.5$, $1$, $2$, with $C = 0.09$, $-0.63$, $-2.73$). An equatorial excess lowers the potential at the equator and reinforces itself under the Boltzmann weight — every $\lambda_l$ is positive, so every even mode is self-attracting at linear order; $C<0$ is the loss of circular support inside the ring (§XXXIII.28(a)), not a self-repulsion, and the hot/cold asymmetry between the disk and the ring is the quadratic term of the transcritical normal form. No member is an exponential disk.
 
 **(d) Control [V].** The $\theta = 1.2$ concentrated fixed point, spline-fed to the quadrature solver of §XXXIII.4(a): $C = 1.794$ against the spectral $1.802$; $v^2$ at $45^\circ$ $24{,}980.9$ against $24{,}980.8$ (km/s)$^2$.
 
-**(e) How many [D].** For the isothermal law: the uniform disk; one axisymmetric branch per even $l$ at each threshold the scan reached ($l = 2$ with its fold, $l = 4$; the non-axisymmetric modes of the same $l$ are carried into one another by the leaf's rotations and are not counted apart); the ring continuing the $l = 2$ branch on the cold side; and the discretization-bound states, which show that the map has solutions the grids do not resolve. Countably many resolved branches, none of them a cold disk, none exponential. The count is the law's, not the leaf's: a law with $L$-dependence selects differently, and the near-circular laws of §XXXIII.28 reproduce any density. The question the author asked is therefore answered conditionally: under the one law that selects by itself, the self-consistent profiles are a discrete family indexed by the kernel's spectrum, the only Picard-stable cold state is a ring, and a cold galaxy is not among them; under the laws that admit cold disks, the profile is not selected. What would select it — a law from middle space — is the open bridge (§XXXIII.42). The Newton search is not a proof of completeness.
+**(e) How many [D].** For the isothermal law: the uniform disk; one axisymmetric branch per even $l$ at each threshold the scan reached ($l = 2$ with its fold, $l = 4$; the non-axisymmetric equilibria at a given $l$ are not classified: rotations carry the modes of one $l$ into one another only within an orbit — a uniaxial and a biaxial quadrupole are not equivalent, §XXXIII.45(d) *[v36.4, R350]*); the ring continuing the $l = 2$ branch on the cold side; and the discretization-bound states, which show that the map has solutions the grids do not resolve. Countably many resolved branches, none of them a cold disk, none exponential. The count is the law's, not the leaf's: a law with $L$-dependence selects differently, and the near-circular laws of §XXXIII.28 reproduce any density. The question the author asked is therefore answered conditionally: under the one law that selects by itself, the self-consistent profiles are a discrete family indexed by the kernel's spectrum, the only Picard-stable cold state is a ring (axisymmetrically — it is $m = 2$-unstable, §XXXIII.45(e); at fixed energy a concentrated state is stable too, but hot: §XXXIII.45(c) *[v36.4, R350]*), and a cold galaxy is not among them; under the laws that admit cold disks, the profile is not selected. What would select it — a law from middle space — is the open bridge (§XXXIII.42). The Newton search is not a proof of completeness.
 
 ## XXXIII.39 Entry 325's project B: the null cone, the boost, the twin identification, and the second-order reading [T/V/D; R344] *(`v36_3_null_cone()`)*
 
@@ -23628,8 +23921,10 @@ Entry 330 asks for a second-order equation with a threshold driven by the misali
 
 ## XXXIII.42 Standing after v36.3, and the next pieces [S/O; R348]
 
+*[v36.4, R353: §XXXIII.48 continues this standing — the erratum, the two ensembles, the duality identities and the clash test; the next pieces led by the joint model and the clash invariant restated.]*
+
 §XXXIII.25 remains the operative standing, with §XXXIII.32's additions, these additions and the review's two distinctions applied (R347).
-- *Established [T/V], added.* Two source families regular at the equator — Entry 326's $e^{-a\sin\chi}$ and Entry 327's stretched uniform disk — with finite positive plateau coefficients ($2.64$ and $2.50$ at the exponential's contrast), support everywhere, images that are exponential to $7\%$ over $2.7h$ (Entry 326) or a cored power law (Entry 327), and stationary populations as cold as the library resolves that admit crossing orbits up to a fifth or a quarter of the mass (§§XXXIII.35–36). The isothermal law's self-consistent disks: the uniform disk, one branch per even $l$ bifurcating transcritically at $\theta_l = 1/\lambda_l$ (the $l = 2$ branch folding at $\theta\approx1.07$), the ring Picard-stable across the cold side until it collapses, every concentrated branch Picard-unstable, none exponential; the rotating law's rings (§XXXIII.38). The null cone's boost is §XXXIII.30's Möbius dilation and does not descend to $\mathbb{RP}^3$; the exact gnomonic exponential solves no regular second-order equation on the leaf, Entry 326's profile does (§§XXXIII.39–40). The split model's identity, its source family's fields, and the large-leaf test: the gnomonic factor passes, a transfer with a fixed $h$ read as a metric deformation fails (§XXXIII.40). The $\mathfrak{so}(4)$ even–odd split and the quaternion quotient $SO(4)/SU(2)\cong SO(3)$; the two-vector expansions; the one-sided normal of the quotient disk; a threshold mode with an exponential tail out of the plane, and $K_0$'s non-constant scale length in it; the bundle $SO(3)/SO(2) = S^2$, the two-Hopf pair's exchange-even tensor and the Hopf map's complex structure, with the joint normal free until a selection law fixes it; the relative $U(1)$ fixing the projection, its holonomy half the solid angle, the horizontal planes a contact structure (§XXXIII.41).
+- *Established [T/V], added.* Two source families regular at the equator — Entry 326's $e^{-a\sin\chi}$ and Entry 327's stretched uniform disk — with finite positive plateau coefficients ($2.64$ and $2.50$ at the exponential's contrast), support everywhere, images that are exponential to $7\%$ over $2.7h$ (Entry 326) or a cored power law (Entry 327), and stationary populations as cold as the library resolves that admit crossing orbits up to a fifth or a quarter of the mass (§§XXXIII.35–36). The isothermal law's self-consistent disks: the uniform disk, one branch per even $l$ bifurcating transcritically at $\theta_l = 1/\lambda_l$ (the $l = 2$ branch folding at $\theta\approx1.07$), the ring Picard-stable across the cold side until it collapses, every concentrated branch Picard-unstable, none exponential (axisymmetrically — the ring is $m = 2$-unstable; Picard = canonical; microcanonically the concentrated branch is stable between contrast $3$ and $55$ *[v36.4, R350]*); the rotating law's rings (§XXXIII.38). The null cone's boost is §XXXIII.30's Möbius dilation and does not descend to $\mathbb{RP}^3$; the exact gnomonic exponential solves no regular second-order equation on the leaf, Entry 326's profile does (§§XXXIII.39–40). The split model's identity, its source family's fields, and the large-leaf test: the gnomonic factor passes, a transfer with a fixed $h$ read as a metric deformation fails (§XXXIII.40). The $\mathfrak{so}(4)$ even–odd split and the quaternion quotient $SO(4)/SU(2)\cong SO(3)$; the two-vector expansions; the one-sided normal of the quotient disk; a threshold mode with an exponential tail out of the plane, and $K_0$'s non-constant scale length in it; the bundle $SO(3)/SO(2) = S^2$, the two-Hopf pair's exchange-even tensor and the Hopf map's complex structure, with the joint normal free until a selection law fixes it; the relative $U(1)$ fixing the projection, its holonomy half the solid angle, the horizontal planes a contact structure (§XXXIII.41).
 - *Not demonstrated,* unchanged: the observed rotation curve from the theory as specified. The regular families give the dwarfs curves at their plateau where the observed ones still rise ($\chi^2/N = 142$–$180$ and $50$–$87$ with the published errors, a factor $15$–$69$ below the gnomonic reconstruction's under either error treatment, one free shape, the image unfitted; §XXXIII.37); a density reproduced by orbit superposition is reproduced, not predicted (R347).
 - *The next pieces.* (1) The joint model the review recommends and Entries 328–329 shape: one middle-space population, its Law I source and its image by a stated transfer, compared with DDO 154's surface density, curve and dispersion — with the population law and the transfer both fixed before the comparison; §XXXIII.40(a) says the pre-source must be concentrated on the scale $h$, §XXXIII.40(b) that $h$ must come from the matter or the history. (2) Entry 329's acceptance criterion computed: the post-rendering Einstein equation for a moving or anisotropic source. (3) The standing list: the measured HI profiles with the dispersion; the Milky Way estimator; the label law; gas with pressure; the photon-history law, which (1) now names as a transfer $T$. Entry 325's project C — a common parameter linking the equilibrium family, the rendering scale and the plateau — waits on (1); so does Entries 330–339's two-sector model, whose first test is a covariant action for the pair, a selection law linking the normal to the foliation pair, and a gauge-invariant clash phase (§XXXIII.41(g)).
 - *Not claimed.* No observed rotation curve is reproduced. The exponential disk is not shown to be a rendering artifact: the regular sources render with a power-law tail, the split model renders anything by construction, and no transfer is derived.
@@ -23640,16 +23935,2008 @@ Entry 330 asks for a second-order equation with a threshold driven by the misali
 - **R340** (§XXXIII.35). Two source families regular at the equator: Entry 326's $\Sigma_B = \Sigma_0e^{-a\sin\chi}$ ($a = \ell/h$) and Entry 327's stretched uniform disk $\Sigma_k = \Sigma_0k/(k^2\cos^2\chi+\sin^2\chi)^{3/2}$ (the uniform great-sphere disk through gnomonic projection, $R' = kR$ and back; $\Sigma_k(\pi/2)/\Sigma_k(0) = k^3$; conformal in the flat image, not on the round leaf). Their fields on $\ell = 16$ kpc, $6\times10^{10}\,M_\odot$: $C = 2.643$ ($a = 16/3$; $1.349$, $0.708$, $0.360$ at $a = 2$, $1$, $1/2$) and $2.499$ ($k = 0.169$; $1.576$, $2.134$, $2.698$, $2.846$ at $k = 0.5$, $0.3$, $0.1$, $0.05$; $0$ at $k = 1$), finite and positive, support everywhere; the Funk–Hecke control to $4\times10^{-6}$ and $5\times10^{-7}$ in $v^2$. Their images: Entry 326's $\Sigma_0(1+R^2/\ell^2)^{-3/2}\exp[-(R/h)/\sqrt{1+R^2/\ell^2}]$, the ratio to $e^{-R/h}$ $0.995$, $0.966$, $0.938$, $0.948$, $1.686$, $32.5$ at $1$, $3$, $5$, $8$, $16$, $32$ kpc (the response's numbers), exponential to $7\%$ over $2.7h$ then a power-law tail, $5.8\%$ of the mass beyond $12h$; Entry 327's exactly the uniform image rescaled, $\Sigma_0k^{-2}(1+R^2/k^2\ell^2)^{-3/2}$ ($2\times10^{-15}$), a cored power law with no exponential range. The same $h$ keeps the central slope; a larger $h$ flattens the source toward uniform, $C\to0$. [T/V/D]
 - **R341** (§XXXIII.36). Schwarzschild on the leaf for the two members ($4{,}158$ orbits each; the grids, bins and programs of R332): stationary (tolerance at the $0.1\%$ floor), as cold as the library resolves ($\sigma_r = 7.2$, $6.7$ km/s inside $36$ kpc); crossing mass between $0.015$–$0.181$ and $0.022$–$0.253$ at $1\%$ per bin — the minimum the library's (its trapped ladder stops below the barrier), the maximum the density's; the coldest rotating populations cross with $0.006$, $0.007$. A thin disk regular at the equator can hold a crossing population of several per cent to a quarter of its mass and stay cold; the fraction is not selected. [V/D]
 - **R342** (§XXXIII.37). The two dwarfs with a member of either family as the whole folded gravitating source on the arena leaf with $M_b$, one shape parameter free: with SPARC's errors as published / floored at $1$ km/s: DDO 154 $\chi^2/N = 142/49$ ($a = 4$) and $180/72$ ($k = 0.25$) against the gnomonic reconstruction's $9738/743$; IC 2574 $87/37$ ($a = 1.5$) and $50/21$ ($k = 0.6$) against $1600/628$ — a factor $15$–$69$ under either definition; the curves at their plateau at $R_{\rm last}$ where the observed ones still rise ($43$ against $46$; $42$–$47$ against $68$ km/s); the images unfitted (DDO 154's $2.6$ times broader than $R_{\rm disk}$). A one-parameter fit of the curve, not of the galaxy; the improvement is the absence of the outer band of R332's mechanism. [V/S/D]
-- **R343** (§XXXIII.38). Entry 325's project A under the isothermal law, $\Sigma = A\exp(-\theta\phi[\Sigma])$, $\theta = (GM/\ell)/\sigma^2$, on the great 2-sphere under the twin kernel (Funk–Hecke at two resolutions, $160/120$ and $400/300$, Newton with the analytic Jacobian checked to $4\times10^{-9}$, only resolution-converged fixed points counted): the uniform disk a fixed point at every $\theta$ with linearization $\theta\lambda_l$ on even $l$ ($10^{-6}$), thresholds $\theta_l = 1/\lambda_l$ ($1.698$, $4.074$, $6.209$, $8.278$, $10.321$; $\theta_2$ is $\sigma = 97$ km/s on the Milky-Way-like leaf); the $l = 2$ bifurcation transcritical; the concentrated branch on the hot side, Picard-unstable (contrast $28.4$, $C = 1.80$, $\rho = 1.545$ at $\theta = 1.2$), folding near $\theta = 1.07$ and turning back toward the point-mass end; the ring Picard-stable from $\theta_2$ across the cold side ($\rho = 0.99$, $0.94$, $0.86$, $0.81$ at $\theta = 1.72$–$2.5$), sharpening until it collapses between $\theta = 3$ and $4$ (the independent check's finer grids); the $l = 4$ branch at its threshold, Picard-unstable; the rotating law's rings on the hot side, a fold at $\theta = 3$, a ring at $\theta = 6$; the control against the quadrature solver ($C$ to $0.5\%$, $v^2$ to $10^{-5}$). An equatorial excess reinforces itself (every $\lambda_l>0$). One branch per even $l$ at the thresholds scanned, the only Picard-stable cold state a ring, none exponential; the count is the law's. [T/V/D]
+- **R343** (§XXXIII.38). Entry 325's project A under the isothermal law, $\Sigma = A\exp(-\theta\phi[\Sigma])$, $\theta = (GM/\ell)/\sigma^2$, on the great 2-sphere under the twin kernel (Funk–Hecke at two resolutions, $160/120$ and $400/300$, Newton with the analytic Jacobian checked to $4\times10^{-9}$, only resolution-converged fixed points counted): the uniform disk a fixed point at every $\theta$ with linearization $\theta\lambda_l$ on even $l$ ($10^{-6}$), thresholds $\theta_l = 1/\lambda_l$ ($1.698$, $4.074$, $6.209$, $8.278$, $10.321$; $\theta_2$ is $\sigma = 97$ km/s on the Milky-Way-like leaf); the $l = 2$ bifurcation transcritical; the concentrated branch on the hot side, Picard-unstable (contrast $28.4$, $C = 1.80$, $\rho = 1.545$ at $\theta = 1.2$), folding near $\theta = 1.07$ and turning back toward the point-mass end; the ring Picard-stable from $\theta_2$ across the cold side *[v36.4, R350: against axisymmetric perturbations; it is unstable to $m = 2$ in both ensembles, §XXXIII.45(e)]* ($\rho = 0.99$, $0.94$, $0.86$, $0.81$ at $\theta = 1.72$–$2.5$), sharpening until it collapses between $\theta = 3$ and $4$ (the independent check's finer grids); the $l = 4$ branch at its threshold, Picard-unstable; the rotating law's rings on the hot side, a fold at $\theta = 3$, a ring at $\theta = 6$; the control against the quadrature solver ($C$ to $0.5\%$, $v^2$ to $10^{-5}$). An equatorial excess reinforces itself (every $\lambda_l>0$). One branch per even $l$ at the thresholds scanned, the only Picard-stable cold state a ring, none exponential; the count is the law's. [T/V/D]
 - **R344** (§XXXIII.39). Entry 325's project B: the null cone of $\mathbb R^{4,1}$, the boost's induced Möbius dilation $\tan(\theta'/2) = e^s\tan(\theta/2)$ with factor $1/(\cosh s-\sinh s\cos\theta)$ (R334's $\Omega$), its null eigendirections $U_\pm$ scaling by $e^{\mp s}$, $(1-\beta)/(1+\beta) = e^{-2s}$ — all to $10^{-12}$ or better; the induced map commutes with the antipodal map only at $s = 0$ ($0.20$, $1.21$ at $s = 0.1$, $0.7$): the dilations do not descend to $\mathbb{RP}^3$. The second-order reading $u''+Qu = 0$, $u = f\sin\chi$: for the exact gnomonic exponential $Q\to-(\ell/h)^2\sec^4\chi$, unbounded at the equator; no globally regular such equation has it as a solution. The accumulated rapidity $s(R)$ chosen, not derived. [T/D]
 - **R345** (§XXXIII.40). Entries 328–329: the image $\cos^3\chi\,T\,\Sigma_G$ with $T = \Sigma_*e^{-a\sin\chi}/\Sigma_G$ for any positive $\Sigma_G$ (the response's $\Sigma_G = \Sigma_0(1+b\cos^2\chi)$ checked to $2\times10^{-15}$); that family's fields, $C = 0$, $0.884$, $1.767$, $2.719$, $3.213$, $3.431$ at $b = 0$, $1$, $3$, $10$, $30$, $100$, rising slowly inside ($26$ km/s at $2$ kpc for $b = 10$); the large-leaf test at $r = 1$ kpc: $\ln\cos^3\chi\to0$ as $3r^2/2\ell^2$, $\ln T\to-r/h$ at every $\ell$ — the transfer with a fixed $h$ is not a deformation that vanishes on small patches; two scales needed; the response's $U_+''+[(a/2)\sin\chi-(a^2/4)\cos^2\chi]U_+ = 0$ verified ($3\times10^{-7}$), sign change at $56.1^\circ$, reconstructed not derived. Not computed: the post-rendering Einstein equation for a moving or anisotropic source. [T/V/D]
 - **R346** (§XXXIII.41). Entries 330–339: $\mathfrak{so}(4) = \mathfrak{su}(2)\oplus\mathfrak{su}(2)$ in the even/odd basis ($[J,J] = \epsilon J$, $[J,K] = \epsilon K$, $[K,K] = \epsilon J$; machine precision); the quaternion action's self-dual part depending on $q_L$ alone, $(q_L,q_R)\sim(-q_L,-q_R)$: $SO(4)/SU(2)\cong SO(3)$, $S^3 = SO(4)/SO(3)$; the two-vector expansions $1-\mathbf u\cdot\mathbf v = (z^2/2)|\mathbf W_1-\mathbf W_2|^2$ and $\mathbf n\cdot(\mathbf u\times\mathbf v) = \sigma z^2q^2\sin\alpha$ to $O(z^4)$; the one-sided normal of the quotient disk; the threshold mode's tail $\kappa = 1.4456$ against $\sqrt{\gamma-\lambda} = 1.4486$; $K_0$'s scale length $0.56$–$0.95$ of $1/\kappa$ at $\kappa R = 0.5$–$10$; the bundle $SO(3)/SO(2) = S^2$ ($q(\theta)$ fixing $\mathbf k$, $P(\chi,\theta)\perp\mathbf k$), the two-Hopf pair's sum, difference and exchange-even tensor, the Hopf map's fibre and complex structure $J_a$, and the joint normal free with the foliations fixed ($\mathbf n\cdot\mathbf k$ below $-0.9$); the relative $U(1)$ $r(\delta) = e^{\mathbf k\delta}$ fixing the Hopf projection, its holonomy $1.18875$ against $\Omega/2 = 1.18875$ for a latitude circle at $52^\circ$, the horizontal planes a contact structure ($\alpha\wedge d\alpha = -2$). The action, the frame identification, the quotient's effect, the selection law and a gauge-invariant clash phase not done. [T/V/D]
 - **R347** (§XXXIII.28(b), §XXXIII.32 and the head table corrected in place). The review's two distinctions applied. Superseded wording, §XXXIII.28(b): "A thin exponential that holds to the equator is a trapped population; Entry 323's picture of a disk "continually switching hemispheres" is excluded by the disk's own density at the equator, not merely unconstrained." — now: a thin exponential that holds to the equator, *identified with the full folded gravitating source*, is a trapped population; the exclusion is that source's own density's, and a population whose light is only part of its mass is not tested; and, added: what the linear program shows is compatibility — the exponential was supplied to it, reproduced, not predicted. Superseded wording, §XXXIII.28(b), the paragraph's last clause: "but it does not cross the equator, and where the field has no circular support it is hot." — now "but, identified with the full folded gravitating source, it does not cross the equator, …". Superseded wording, §XXXIII.32 (the "Not demonstrated" bullet): "and it excludes the hemisphere-crossing disk for thin exponentials." — now "… for thin exponentials identified with the full folded gravitating source". Superseded wording, §XXXIII.32 (the established list): "the thin exponentials are cold, trapped stationary populations — their densities at the equator exclude crossing orbits;" — now "… trapped stationary populations when identified with the full folded gravitating source — their densities at the equator then exclude crossing orbits (reproduced, not predicted; R347);". Superseded wording, the head table's occupancy row: "are stationary populations as cold as the library resolves, and trapped: their densities at the equator exclude crossing orbits" — now "… and, when the exponential is identified with the full folded gravitating source, trapped: that source's density at the equator excludes crossing orbits". [S/O]
 - **R348** (§XXXIII.42; §XXXIII.13; the head table; the toy; the figures). Standing after v36.3: the additions to the established list; the next pieces, led by the joint model (one population, its Law I source and its image by a stated transfer, against DDO 154), Entry 329's acceptance criterion and a covariant action for Entries 330–339's two sectors. The suite `pg_v36_numerics.py` at v36.3: seven new sections with eight checks ($30$ in all), the mode `v36_3` (one to three minutes, independent of the earlier rounds' computations), `quick` now $16$ checks in a few minutes; the toy `v32_toy_three_ends.py` gains `v36_3`; the figures `pg_v36_3_plots.py`, writing three. The SHA-256 of the suite is in §XXXIII.13. [S/O; reproducibility]
 
-## Round record: the version summaries, v16 to v36.3 (moved from the head of the archive in v34.9, R190)
+## XXXIII.44 The v36.3 review, Entries 340–341 and the response, as formulated (18 October 2026) [record; R349]
 
-*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v36.3, v36.2, v36.1, v36.0, v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+**The author's message.** "Here's the response, thanks!", with the review of v36.3 and the response on Entry 341 attached, and Entries 340–341 in the message.
+
+**The review of v36.3, in the author's words (attached, titled "Projective Gravity v36.3 — My review").**
+
+> # Projective Gravity v36.3 — My review
+>
+> I think this is one of the more informative revisions of PG so far. Not because it solves the galaxy problem yet, but because it turns several of your recent geometric intuitions into explicit calculations—and, importantly, discovers which ones produce promising physical behavior.
+>
+> My overall assessment is that v36.3 advances the gravitational source problem substantially, makes the self-consistent equilibrium question precise, and establishes a promising mathematical vocabulary for your double-Hopf idea. The major challenge is now joining those pieces into one predictive physical model.
+>
+> ## 1. The new exponential-sine source is a meaningful improvement
+>
+> Of the two new density profiles, I find your substitution
+>
+> \\[ \boxed{\Sigma_B(\chi)=\Sigma_0e^{-a\sin\chi}} \\]
+>
+> the more useful one.
+>
+> Claude evaluates it using the existing PG gravitational kernel, rather than merely drawing the resulting density profile.
+>
+> Milky-Way-sized illustrative model
+>
+> Leaf radius \\(\ell=16\\) kpc, mass \\(6\times10^{10}M\_\odot\\), \\(h=3\\) kpc. These are model calculations, not observational fits.
+>
+> New source plateau
+>
+> # 206 km/s
+>
+> Original exponential plateau
+>
+> # 217 km/s
+>
+> Apparent exponential accuracy
+>
+> # \~7%
+>
+> Through about 8 kpc
+>
+> Exponential-sine sourceOriginal gnomonic exponential
+>
+> 0601201802400.512358121624324864
+>
+> Predicted circular speeds in km/s versus gnomonic radius in kpc, reported in §XXXIII.35.
+>
+> This is notable because the new physical source stays regular at the equator and retains a finite gravitational plateau.
+>
+> It also permits a smooth, equator-crossing extension of the matter distribution without forcing the density to disappear at the boundary of the gnomonic chart.
+>
+> The improvement has a limitation: the projected visible density only approximates an exponential over the inner region. Farther out, it develops an \\(R^{-3}\\) tail.
+>
+> But for the conceptual problem you've been pursuing—can physical matter remain present near the equator while the galaxy looks exponentially concentrated?—this is a valuable concrete example.
+>
+> The second family, generated by stretching a gnomonic projection of uniform matter, is also mathematically interesting. Its plateau is finite and positive, but its visible profile is essentially a rescaled cored power law, not an exponential. I would retain it as a control family rather than the leading candidate.
+>
+> ## 2. The equator-crossing matter result is genuinely different from v36.2
+>
+> This is another substantial advance.
+>
+> In v36.2, the tested thin exponential sources effectively excluded crossing orbits when the entire source distribution had to be reproduced.
+>
+> In v36.3, both new equator-regular source families admit stationary orbit superpositions with significant crossing populations.
+>
+> | Quantity                                               | Exponential-sine | Stretched-uniform |
+> | ------------------------------------------------------ | ---------------- | ----------------- |
+> | Coldest modeled radial dispersion                      | 7.2 km/s         | 6.7 km/s          |
+> | Maximum crossing mass fraction at 1% density tolerance | 18.1%            | 25.3%             |
+> | Equatorial plateau coefficient \\(C\\)                 | 2.643            | 2.499             |
+>
+> The key point is that the new source profiles have enough physical density around the equator to accommodate particles that repeatedly move between hemispheres.
+>
+> This directly addresses one of your earlier intuitions.
+>
+> Equator-crossing matter is no longer automatically incompatible with a thin, fairly cold galaxy in the tested PG model.
+>
+> However, the maximum crossing fractions are possibilities found by optimizing orbit weights, not predictions that galaxies contain those fractions. The minimum crossing fractions are also sensitive to the finite orbit library.
+>
+> That's the distinction Claude appropriately carries forward: reproducing a distribution is not the same thing as dynamically selecting it.
+>
+> ## 3. The dwarf-galaxy result improves dramatically—but still fails
+>
+> This is probably the most important observational result in v36.3.
+>
+> Claude replaces the troublesome reconstructed gas distribution with a member of each new regular source family and optimizes one shape parameter per galaxy.
+>
+> Fit error: \\(\chi^2/N\\), smaller is better
+>
+> SPARC published velocity uncertainties. These are fits to the rotation curves, not simultaneous fits to the observed matter distributions.
+>
+> Old reconstructed source
+>
+> Best new regular family
+>
+> 0246DDO 154IC 2574
+>
+> DDO 154: 9738 → 142; IC 2574: 1600 → 50. The vertical axis is logarithmic in the plotted magnitudes only when noted; here bars show log10(χ²/N) to display the wide range.
+>
+> | Galaxy  | Old model | Best new model |
+> | ------- | --------- | -------------- |
+> | DDO 154 | 9,738     | 142            |
+> | IC 2574 | 1,600     | 50             |
+>
+> That is a substantial reduction in error, particularly because the most catastrophic outward-force behavior of the earlier reconstruction is gone.
+>
+> But the absolute fit quality is still very poor, including when errors are floored at 1 km/s.
+>
+> The underlying issue has also become clearer: the model rotation curves flatten too early, while both observed dwarf rotation curves continue rising outward.
+>
+> For example, in IC 2574 the best stretched-uniform model predicts approximately 47 km/s at the last sampled radius, compared with the observed 68 km/s.
+>
+> And in DDO 154, the new model's apparent density scale differs considerably from its observed stellar disk scale.
+>
+> So the new families help the gravitational mathematics, but they have not solved the task of predicting both the observed matter distribution and its motion.
+>
+> I would call this strong model-development progress, but not observational success.
+>
+> ## 4. The fixed-point calculation is the most important new theoretical experiment
+>
+> Section XXXIII.38 is the direct response to your question:
+>
+> > How many matter-density profiles are reproduced by orbital populations moving in the gravitational fields generated by those same profiles?
+>
+> Claude now specifies a population law independently of the desired density:
+>
+> \\[ f(E)\propto e^{-\beta E}. \\]
+>
+> This leads to a genuinely self-consistent equation,
+>
+> \\[ \boxed{ \Sigma\_\*(\chi)= \frac{M\\,e^{-\beta\Phi[\Sigma\_\*]\(\chi)}} {\displaystyle\int e^{-\beta\Phi[\Sigma\_\*]}\\,dA}. } \\]
+>
+> This is more explanatory than optimizing orbit weights to match an exponential specified beforehand.
+>
+> The important result is that the uniform distribution has bifurcation thresholds determined by PG's gravitational kernel.
+>
+> The first few reported thresholds are
+>
+> \\[ \begin{array}{c|ccccc} l&2&4&6&8&10\\\ \hline \theta_l&1.698&4.074&6.209&8.278&10.321 \end{array} \\]
+>
+> where \\(\theta=(GM/\ell)/\sigma^2\\).
+>
+> That's a genuine connection between the field's eigenmodes and the question of which matter configurations can be self-consistent.
+>
+> But the numerical branches have an intriguing outcome.
+>
+> The centrally concentrated solutions are not attractive fixed points of the particular iteration Claude uses, while the branch that can be attractive at lower effective temperatures concentrates matter toward the equator.
+>
+> The latter is the opposite of the compact, centrally concentrated disk you'd want.
+>
+> Claude correctly distinguishes convergence of its numerical fixed-point iteration from actual dynamical stability. That's essential.
+>
+> ### An important mathematical correction
+>
+> There is one statement in this section I would definitely ask Claude to weaken.
+>
+> It suggests that non-axisymmetric modes at a given even \\(l\\) can be identified with one another by rotations, leaving essentially one independent branch per \\(l\\).
+>
+> That is not generally true.
+>
+> Even for \\(l=2\\), spherical harmonics can be represented by traceless symmetric \\(3\times3\\) tensors. Rotations change the tensor's axes but preserve its eigenvalues.
+>
+> A uniaxial quadrupole, with eigenvalues proportional to
+>
+> \\[ (2,-1,-1), \\]
+>
+> cannot be rotated into a biaxial quadrupole with eigenvalues
+>
+> \\[ (1,0,-1). \\]
+>
+> They belong to the same \\(l=2\\) eigenspace but are not rotationally equivalent.
+>
+> So the numerical calculation establishes axisymmetric branches found under the specified isothermal law; it does not classify every inequivalent non-axisymmetric equilibrium.
+>
+> That matters directly to your question, “How many such independent density profiles enable this?”
+>
+> The present answer is not yet a full count. It is a useful discovery of several branches and thresholds within a restricted model.
+>
+> ## 5. The double-Hopf geometry is mathematically promising, but the crucial mechanism remains unbuilt
+>
+> This is the part of v36.3 most directly connected to your latest ideas.
+>
+> Section XXXIII.41 checks an impressive collection of mathematical identities:
+>
+> - The decomposition \\(\mathfrak{so}(4)=\mathfrak{su}(2)\_L\oplus\mathfrak{su}(2)\_R\\), including the even–odd commutator relations.
+> - The joint Hopf construction, with a common normal and an in-plane axis extracted from exchange-even data.
+> - The preferred normal's topological obstruction on the projective quotient.
+> - The relative \\(U(1)\\) transformation that leaves a Hopf projection unchanged.
+> - The Berry-holonomy relation to half the enclosed solid angle.
+> - A second-order localization toy with a genuinely exponential vertical tail.
+>
+> These are useful mathematical building blocks, and the new code checks them numerically.
+>
+> One particularly good result is that the vertical toy produces a decay rate very close to the value predicted by its spectral gap:
+>
+> \\[ \boxed{ \kappa\_{\rm measured}=1.4456,\qquad \sqrt{\gamma-\lambda}=1.4486. } \\]
+>
+> That's good evidence that the numerical toy is solving the equation it's supposed to solve.
+>
+> But there's a distinction I'd emphasize even more in the manuscript: mathematical compatibility isn't the same as a derived dynamical interaction.
+>
+> At present, the manuscript has not established that:
+>
+> 1. The selected Hopf foliations actually fix the galaxy's preferred normal without an additional selection law.
+> 2. The remaining relative \\(U(1)\\) is a uniquely defined, gauge-invariant clash quantity.
+> 3. The permitted extra rotations leave that clash invariant under general transport.
+> 4. Clash produces a physical or optical localization effect rather than merely a geometric phase.
+> 5. The two localization scales emerge from the theory without being independently specified.
+>
+> Claude is fairly explicit about these gaps, which I appreciate.
+>
+> There's also a geometric obstruction worth preserving: a Hopf fiber is not everywhere normal to the proposed galactic disk. The horizontal distribution is nonintegrable. Thus the Berry-like clash phase cannot simply be identified with physical displacement perpendicular to the disk at every point.
+>
+> For your intended interpretation, I would keep the physical galactic normal supplied by the joint structure, while treating the relative Hopf holonomy as a separate internal observable that may couple to departures from that plane.
+>
+> ### What about the radial exponential?
+>
+> The manuscript correctly finds that a constant radial gap produces a modified Bessel profile,
+>
+> \\[ \boxed{ \Psi_R(R)\propto K_0(\kappa R) \sim\frac{e^{-\kappa R}}{\sqrt R}, } \\]
+>
+> rather than a pure exponential.
+>
+> This doesn't invalidate the localization idea, but it does mean that the disk's radial profile needs more than the vertical toy repeated in another direction.
+>
+> The next goal should be deriving a geometry-dependent radial operator, preferably one whose scale emerges from the same underlying fields.
+>
+> And the proposed spiral-to-elliptical transformation remains an interesting hypothesis, not yet a result. A different projected appearance would also have to reproduce the very different observed stellar kinematics, gas content and populations of elliptical galaxies.
+>
+> ## 6. I found a reproducibility problem in the new numerical suite
+>
+> I extracted the embedded `pg_v36_numerics.py` from the uploaded manuscript and checked its SHA-256 checksum.
+>
+> The extracted source matches the manuscript's stated checksum exactly.
+>
+> I then ran the new v36.3 suite independently.
+>
+> New v36.3 checks verified
+>
+> 7 of 8
+>
+> Seven checks passed, including the orbital-population and dwarf sections. The fixed-point section produced its reported numerical table but stopped before its final check.
+>
+> The specific failure occurs in the fixed-point section, where the program attempts to format a fold location using `.2f`, but the fold-search variable is `None`.
+>
+> The resulting exception is:
+>
+> `TypeError: unsupported format string passed to NoneType.__format__`
+>
+> I also tried locally seeding the continuation from an already known concentrated solution. That did not resolve the failure.
+>
+> This appears to be a branch-tracking problem, not evidence that the reported equilibrium branches are nonexistent. Newton continuation can converge to another solution branch without raising the convergence failure that the code expects.
+>
+> The existing table of fixed points and its linearization calculations did reproduce. But the claimed fold around \\(\theta\approx1.07\\) is not independently verified by this execution.
+>
+> I'd ask Claude to replace that continuation with proper pseudo-arclength continuation, explicitly monitor the branch identity, and make the program report a failed numerical control instead of crashing.
+>
+> The manuscript's claim of a reproducible 30-check release suite should be qualified until this is repaired. Since the `quick` mode also calls the fixed-point routine, it is affected too.
+>
+> ## 7. What I would prioritize for v36.4
+>
+> There are several possible directions, but I would resist adding yet another source family for the moment.
+>
+> The main opportunity is to connect what v36.3 has already established.
+>
+> First: repair and extend the equilibrium classification.
+>
+> Fix the continuation, distinguish axisymmetric and non-axisymmetric branches, and test dynamical stability rather than only fixed-point-iteration stability.
+>
+> Second: build the smallest explicit double-Hopf clash model.
+>
+> Specify the frame identification, the jointly admitted configurations, a relative connection and a gauge-invariant mismatch. Determine whether its curvature cancels along admissible in-plane motions and survives a normal departure.
+>
+> Third: test one physical source and one observational transfer together.
+>
+> Keep the gravitating source independent of the apparent exponential profile, derive both from a single physical population, and confront the observed gas surface density, rotation and velocity dispersion of DDO 154.
+>
+> I'd retain your large-\\(\ell\\) local-GR sanity check as a nonnegotiable requirement throughout.
+>
+> Section XXXIII.40 already demonstrates why: the ordinary gnomonic distortion vanishes as \\(1/\ell^2\\) on small patches, while an exponential optical factor with fixed physical scale \\(h\\) doesn't automatically vanish.
+>
+> That is acceptable for a separately defined optical mechanism, but not proof that observers would infer the ordinary Einstein equations from the transformed geometry and matter. That remains untested for general anisotropic or moving sources.
+>
+> And the older global optical problems—distance caps, refocusing and radiation accumulation—are still unresolved. The new directional mechanism may eventually be relevant to them, but v36.3 has not supplied that connection.
+>
+> ## Final verdict
+>
+> I would keep v36.3 as the current research draft, with a numerical erratum and a qualification to the equilibrium branch classification.
+>
+> The advances are real at the level of model mathematics:
+>
+> - Your exponential-sine intuition gives a regular equatorial source with a finite plateau and an approximately exponential visible inner profile.
+> - The new source families allow appreciable crossing-orbit populations, unlike the earlier thin exponential models.
+> - The first explicitly closed fixed-point density calculation reveals a nontrivial bifurcation structure.
+> - The double-Hopf/Berry-clash framework has been checked as geometry and is sufficiently concrete to begin asking for an action and transport law.
+>
+> The observational obstacle remains substantial: neither dwarf galaxy is satisfactorily fitted, and the proposed visual-space mechanism has not yet replaced the current mass-mapping premise with a predictive alternative.
+>
+> What I find most worthwhile about this version is that the central research question is becoming much sharper.
+>
+> You no longer merely need an exponential-looking density. You need a self-consistent gravitational matter population whose jointly selected internal geometry generates a particular visible response, including distinct normal and radial localization scales.
+>
+> That would bring your fixed-point idea, double-Hopf structure and perspectival-galaxy premise into one theory.
+>
+> I think that is the right ambitious target for the next phase—but the numerical fixed-point repair and the first genuinely gauge-invariant clash construction should come before more elaborate galaxy morphology claims.
+
+**Entry 340 (2:25 PM, Oct 18, 2026), in the author's words.**
+
+> Wow! I’m psyched to hear that the e to the sine idea landed so well already—it seems like it almost reduces the need for that wonky stereographic-transformation-away-from-EFE-application idea just by itself! And yeah just for the record, the reason I specifically arrived at sin(x) is that I opened up the e^(-1/h tan(x)) equation in Desmos (technically I tried a bunch of trial and error stuff in Desmos, mostly projections in and out of gnomonic-view, but all of it was garbage ideas lol) and then took the asymptotic expansion at x=pi/2 to be basically ~e^(1/(x-pi/2)), which I then looked at and thought “yeah huh since when does an e^(1/x) ever ever show up in natre—that’s garbage!” and then figured I could “muffle the asymptote” by running something like f(x)→sqrt(1/(1/f(x)^2 + 1)) and then sub the tan(x) in as f(x), right, which weirdly enough then gave exactly sin(x) (when you correct for signs anyway lol). So yeah that’s how I did it!
+
+**Entry 341 (2:32 PM, Oct 18, 2026), in the author's words.**
+
+> Also by the way the really ambitious intuition I have for the galaxy exponential falloff profile is that there should exist some kind of coordinate change-like (but more abstract probably) transformation which makes the normal exponential profile and the radial exponential profile trade places, so one isn’t more privileged than the next, such that the particular setup we have here of normal exponential appears privileged joint with normal is quicker joint with radial appears privileged the other way is actually a remnant from some kind of imposed convention we make somewhere after the ontology. SO, therefore the goal I would say would be to come up with some broader abstraction which everything comes from such that the radial profile can be reinterpreted as coming from the very sort of SU(2) dual or at most a slight abstraction/generalization off of it thing, that way we have the leverage/grip with which to have them trade places. See what I mean??? Also intuitively to me it seems like it should be the radial vector rather than a particular x or y vector in the galaxy which represents such, so yeah that’s basically the idea! That being said though however, the actual CMB dipole coincidence which inspired this abstraction for me in the first place seems to privilege our own local direction vector in our orbit as, linearly combined with the galaxy normal direction, giving the dipole, so we should be on the lookout for the plane or bivector or something of local tangent circular direction in the galaxy combined with normal being significant in some way, which of course in turn means that local radial combined with normal is probably significant in some other way—so in other words, like in short I would suppose that “galaxy radial exponential falloff really is just coming from something more SU(2) like, but concretized a layer down from the real abstraction”. Thanks!
+
+**The response on Entry 341 (attached).**
+
+> Yes! I see the deeper symmetry you're proposing now—and I think there's a particularly striking geometric connection between your two \\(SU(2)\\) factors, the radial direction, the orbital tangent, and the galaxy's normal.
+>
+> You're not merely looking for another mechanism that happens to produce two exponentials. You want an underlying structure in which radial localization and vertical localization are interchangeable before a particular galaxy selects which directions mean “radial” and “up.” The enormous difference between the two observed length scales would then arise from the selected physical configuration, not from two fundamentally different kinds of geometry.
+>
+> I think that's a much better target.
+>
+> ## 1. First, your Desmos discovery has a nice exact mathematical explanation
+>
+> The operation you tried is
+>
+> \\[ f\longmapsto \frac{f}{\sqrt{1+f^2}}. \\]
+>
+> Apply it to the tangent:
+>
+> \\[ \frac{\tan\chi}{\sqrt{1+\tan^2\chi}} = \frac{\tan\chi}{|\sec\chi|} = \sin\chi \\]
+>
+> on the near hemisphere \\(0\leq\chi<\pi/2\\).
+>
+> That's not an accidental simplification. It's the standard map taking an unbounded projective coordinate and compressing it into the unit interval.
+>
+> More geometrically, if
+>
+> \\[ R=\ell\tan\chi, \\]
+>
+> then
+>
+> \\[ \boxed{ \sin\chi=\frac{R}{\sqrt{\ell^2+R^2}}. } \\]
+>
+> So you've replaced an unbounded gnomonic radius with the bounded radial coordinate naturally inherited from the sphere's embedding.
+>
+> That explains why the substitution preserves the central behavior:
+>
+> \\[ \sin\chi=\chi-\frac{\chi^3}{6}+\cdots \\]
+>
+> while avoiding the equatorial singularity:
+>
+> \\[ \sin\left(\frac{\pi}{2}-\epsilon\right) = 1-\frac{\epsilon^2}{2}+\cdots. \\]
+>
+> Consequently,
+>
+> \\[ e^{-a\sin\chi} = e^{-a}\left(1+\frac{a}{2}\epsilon^2+\cdots\right) \\]
+>
+> near the equator.
+>
+> Compare the original exponential,
+>
+> \\[ e^{-a\tan\chi}\sim e^{-a/\epsilon}, \\]
+>
+> which is extraordinarily flat at the equator on the near side.
+>
+> One nuance: \\(e^{-a/\epsilon}\\) is not itself mathematically pathological when extended by zero on the other side; it is a standard example of a smooth function that is not analytic there. The problem for PG was that the corresponding source vanished too aggressively at the equator and generated the particular orbital and plateau difficulties found in your tests.
+>
+> Your sine replacement solves that specific problem more naturally.
+>
+> There is still a radial smoothness issue at the galactic center: a function of three-dimensional position behaving as \\(e^{-r/h}\\) has a cusp at \\(r=0\\). So your proposed intrinsic profile is regular at the equator but not automatically differentiable at the center as a function on the whole leaf. That may be acceptable for a disk model, or it may motivate a small central core.
+>
+> I especially like that you arrived at the sine through the geometry of the coordinate singularity rather than by imposing a desired rotation curve.
+>
+> ## 2. Here's the connection I think you may have been anticipating: three vectors give three paired bivectors
+>
+> At a point away from the galaxy's center, take an oriented orthonormal frame:
+>
+> \\[ \boxed{ (\mathbf e_R,\mathbf e\_\phi,\mathbf n) } \\]
+>
+> where \\(\mathbf e_R\\) points radially outward, \\(\mathbf e\_\phi\\) follows circular orbital motion, and \\(\mathbf n\\) points above the galactic plane.
+>
+> There are three natural oriented planes:
+>
+> \\[ \begin{aligned} B\_{\rm disk}&=\mathbf e_R\wedge\mathbf e\_\phi,\\\ B\_{\rm orbital}&=\mathbf e\_\phi\wedge\mathbf n,\\\ B\_{\rm meridional}&=\mathbf n\wedge\mathbf e_R. \end{aligned} \\]
+>
+> Now use the three-dimensional Hodge star:
+>
+> \\[ \boxed{ \begin{aligned} \*B\_{\rm disk}&=\mathbf n,\\\ \*B\_{\rm orbital}&=\mathbf e_R,\\\ \*B\_{\rm meridional}&=\mathbf e\_\phi. \end{aligned} } \\]
+>
+> Look at the second equation!
+>
+> \\[ \boxed{ \*(\mathbf e\_\phi\wedge\mathbf n)=\mathbf e_R. } \\]
+>
+> The oriented plane determined by the local circular-motion direction and the galactic normal is dual to the radial direction.
+>
+> And conversely,
+>
+> \\[ \boxed{ \*(\mathbf n\wedge\mathbf e_R)=\mathbf e\_\phi. } \\]
+>
+> So the plane involving the radial direction and the normal is dual to the circular-motion direction.
+>
+> That is an exact geometric identity—not a physical assumption.
+>
+> And it matches your intuition that the local orbital tangent combined with the galactic normal might encode information related to the radial direction.
+>
+> In other words, the radial direction can already be reconstructed from the orbital–normal bivector. We don't necessarily have to introduce it as a wholly separate primitive direction.
+>
+> ## 3. And the connection becomes even more interesting in \\(SO(4)\\)
+>
+> Here's where your two-\\(SU(2)\\) idea comes back in.
+>
+> The three-dimensional Hodge-star identities above are interesting by themselves, but four-dimensional rotations contain a natural version of all three at once.
+>
+> At a point on the leaf
+>
+> \\[ S^3\subset\mathbb R^4, \\]
+>
+> let \\(\boldsymbol\nu\\) be the fourth-dimensional unit normal to \\(S^3\\). Distinguish this from \\(\mathbf n\\), the galactic normal within the leaf.
+>
+> We have an orthonormal frame
+>
+> \\[ (\boldsymbol\nu,\mathbf e_R,\mathbf e\_\phi,\mathbf n). \\]
+>
+> Now define three pairs of bivectors:
+>
+> \\[ \boxed{ \begin{aligned} \mathcal B_R^\pm &=\frac{1}{\sqrt2} \left( \boldsymbol\nu\wedge\mathbf e_R \ \pm\ \mathbf e\_\phi\wedge\mathbf n \right),\\\\[5pt] \mathcal B\_\phi^\pm &=\frac{1}{\sqrt2} \left( \boldsymbol\nu\wedge\mathbf e\_\phi \ \pm\ \mathbf n\wedge\mathbf e_R \right),\\\\[5pt] \mathcal B_n^\pm &=\frac{1}{\sqrt2} \left( \boldsymbol\nu\wedge\mathbf n \ \pm\ \mathbf e_R\wedge\mathbf e\_\phi \right). \end{aligned} } \\]
+>
+> These obey
+>
+> \\[ \boxed{ \*\_{4}\mathcal B_i^\pm=\pm\mathcal B_i^\pm. } \\]
+>
+> They are precisely bases for the self-dual and anti-self-dual three-dimensional bivector spaces, corresponding to the two \\(\mathfrak{su}(2)\\) factors. This pairing is standard four-dimensional Hodge geometry.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://www.researchgate.net\&sz=32)
+>
+> ResearchGate
+>
+>
+>
+> This is the mathematical connection I would especially want Claude to explore.
+>
+> Look at what the \\(R\\)-pair tells us:
+>
+> \\[ \boxed{ \text{Extra-dimensional radial rotation} \quad\longleftrightarrow\quad \text{orbital-tangent/galactic-normal bivector}. } \\]
+>
+> And the \\(n\\)-pair tells us:
+>
+> \\[ \boxed{ \text{Extra-dimensional normal rotation} \quad\longleftrightarrow\quad \text{galactic disk-plane bivector}. } \\]
+>
+> These relationships are built into the same two \\(SU(2)\\) spaces.
+>
+> So your radial and normal geometries might indeed be different components of one larger dual rotational structure, rather than separately invented mechanisms.
+>
+> That is considerably closer to the deeper abstraction you're imagining.
+>
+> ## 4. Can the radial and normal directions actually trade places?
+>
+> Locally, absolutely. Here's an exact demonstration.
+>
+> Consider rotations in the two-dimensional plane spanned by \\(\mathbf e_R\\) and \\(\mathbf n\\), keeping the circular-motion direction \\(\mathbf e\_\phi\\) fixed:
+>
+> \\[ \boxed{ \begin{aligned} \widetilde{\mathbf e}\_R &=\cos\beta\\,\mathbf e_R+\sin\beta\\,\mathbf n,\\\ \widetilde{\mathbf n} &=-\sin\beta\\,\mathbf e_R+\cos\beta\\,\mathbf n,\\\ \widetilde{\mathbf e}\_\phi&=\mathbf e\_\phi. \end{aligned} } \\]
+>
+> At \\(\beta=\pi/2\\),
+>
+> \\[ \boxed{ \widetilde{\mathbf e}\_R=\mathbf n, \qquad \widetilde{\mathbf n}=-\mathbf e_R. } \\]
+>
+> Radial and normal have exchanged roles, up to orientation.
+>
+> And because this rotation is compatible with the four-dimensional Hodge star, it acts consistently on both self-dual and anti-self-dual bivector sectors.
+>
+> In particular, the pairs \\(\mathcal B_R^\pm\\) and \\(\mathcal B_n^\pm\\) become mixed under this transformation.
+>
+> So there really is a mathematical operation which exchanges the directional components you're proposing to associate with radial and normal localization.
+>
+> But there's an important distinction between two interpretations:
+>
+> - Change of description: rotating the frame and all associated fields together produces no new physics.
+> - Change of physical configuration: rotating the preferred internal structure relative to the galaxy's matter, orbital frame or gateway selection can produce a physically different state.
+>
+> Your hypothesis needs the second.
+>
+> And globally, the symmetry is not automatic: \\(\mathbf e_R\\) varies around the galaxy and becomes undefined at the center, while \\(\mathbf n\\) is the shared normal. The exchange is an exact local symmetry candidate, not yet a globally defined transformation of an entire galaxy.
+>
+> Nevertheless, I think this provides the right mathematical starting point for your radial–vertical interchange.
+>
+> ## 5. We could let one Berry-clash geometry select two different localization scales
+>
+> Here's how I would combine this with your existing double-Hopf hypothesis.
+>
+> Take two fields
+>
+> \\[ q_L(x),q_R(x)\in SU(2), \\]
+>
+> defined over the physical galaxy, with their selected Hopf fibrations.
+>
+> Pull back the two Hopf connections to the same physical leaf:
+>
+> \\[ A_L,\qquad A_R. \\]
+>
+> Then construct the relative curvature
+>
+> \\[ \boxed{ F\_-=dA_L-dA_R. } \\]
+>
+> Unlike an unqualified difference of two arbitrary phase angles, this is locally gauge-invariant, provided the two connections have been pulled back and their relative bundle structure specified.
+>
+> Now something useful happens.
+>
+> Since \\(F\_-\\) is a two-form, we can decompose it in the galactic frame:
+>
+> \\[ \boxed{ F\_-= f_R\\,\mathbf e^R\wedge\mathbf e^\phi + f_n\\,\mathbf e^n\wedge\mathbf e^\phi + f_m\\,\mathbf e^R\wedge\mathbf e^n. } \\]
+>
+> Here \\(\mathbf e^i\\) are orthonormal covectors.
+>
+> Contract this curvature with the circular-motion direction:
+>
+> \\[ \boxed{ \mathbf c^\flat = -\iota\_{\mathbf e\_\phi}F\_- = f_R\mathbf e^R+f_n\mathbf e^n. } \\]
+>
+> This gives us one geometrical object with radial and normal components.
+>
+> We could use it to construct a localization-response tensor, for example
+>
+> \\[ \boxed{ \mathcal M\_{ab} = \kappa_0^2\\,g\_{ab} + \lambda\\,c_a c_b } \\]
+>
+> on the two-dimensional meridional plane.
+>
+> This tensor has two eigenvalues:
+>
+> \\[ \boxed{ \kappa\_{\rm weak}^2=\kappa_0^2, \qquad \kappa\_{\rm strong}^2=\kappa_0^2+\lambda|\mathbf c|^2. } \\]
+>
+> One eigenvector is parallel to \\(\mathbf c\\); the other is perpendicular to it.
+>
+> So there's a single geometrical response with a strong and a weak direction.
+>
+> If the physical configuration selects the strong eigenvector to be approximately vertical, we'd obtain a candidate for a thin disk.
+>
+> If that selected structure turns by \\(90^\circ\\), the strong direction becomes radial.
+>
+> One response tensor, two possible alignments
+>
+> Rotation of the selected principal axes
+>
+> 0°
+>
+> Radial-axis response
+>
+> ## 1.00
+>
+> Normal-axis response
+>
+> ## 5.00
+>
+> Illustrative tensor with principal inverse-length scales in a 1:5 ratio. The rotation shows an interchange of directional responses, not a simulated galaxy or a derived PG prediction.
+>
+> I like this formulation because it gives you the structural principle you asked for:
+>
+> \\[ \boxed{ \text{One underlying clash geometry} \longrightarrow \text{Two localization eigenmodes} \longrightarrow \text{Galaxy-selected radial and normal falloffs}. } \\]
+>
+> The hierarchy of scale lengths would come from the eigenvalue ratio, not merely from attaching unrelated decay constants to \\(R\\) and \\(z\\).
+>
+> However: we would still need an actual field equation showing that these eigenvalues produce the exponential tails. A positive tensor by itself doesn't establish a decaying mode. The mode spectrum, boundary conditions, and source dynamics are essential.
+>
+> That derivation is the next real test.
+>
+> ## 6. There is a further distinction between the underlying symmetry and the shape of an actual galaxy
+>
+> Even if the abstract model treats radial and normal directions equally, a realized disk does not.
+>
+> Radial coordinates contain circular orbits and an area measure proportional to \\(R\\,dR\\). Normal coordinates do not.
+>
+> This is why an axisymmetric radial equation naturally contains
+>
+> \\[ \frac{1}{R}\frac{d}{dR} \left(R\frac{d\Psi}{dR}\right), \\]
+>
+> while a locally flat vertical equation contains simply
+>
+> \\[ \frac{d^2\Psi}{dz^2}. \\]
+>
+> So the broader theory can be symmetric under radial–normal exchange before the galaxy forms, but the selected galaxy geometry can break that symmetry afterward.
+>
+> That sounds especially close to what you meant by one direction becoming privileged through a later convention or selection.
+>
+> I'd call this dynamical directional selection rather than a pure coordinate convention, because the different observable scale lengths would have to be physical.
+>
+> And the central regularity issue is worth keeping: we should formulate the field equations without relying on an ill-defined radial unit vector at \\(R=0\\).
+>
+> ## 7. Your CMB-dipole observation is actually worth expressing quantitatively
+>
+> This was worth checking against the measured direction.
+>
+> The Solar System's CMB dipole points approximately toward Galactic coordinates
+>
+> \\[ (l,b)=(264.021^\circ,48.253^\circ). \\]
+>
+> The conventional interpretation is our velocity relative to the CMB rest frame, supported independently by the observed aberration and modulation of CMB fluctuations.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://escholarship.org\&sz=32)
+>
+> eScholarship
+>
+> +1
+>
+>
+>
+> Now take the local basis:
+>
+> - \\(\mathbf e_R\\): radially outward from the Galactic center;
+> - \\(\mathbf e\_\phi\\): direction of Galactic rotation, approximately \\(l=90^\circ\\);
+> - \\(\mathbf n\\): north Galactic pole.
+>
+> In that basis, the unit CMB dipole direction is approximately
+>
+> \\[ \boxed{ \mathbf d\_{\rm CMB} \approx 0.069\\,\mathbf e_R - 0.662\\,\mathbf e\_\phi + 0.746\\,\mathbf n. } \\]
+>
+> Notice what this means.
+>
+> The radial component is only about \\(0.069\\).
+>
+> Therefore the measured direction lies approximately
+>
+> \\[ \boxed{4.0^\circ} \\]
+>
+> from the plane spanned by the local orbital tangent and the Galactic normal.
+>
+> So yes: geometrically, there is a real, fairly close alignment with precisely the two-dimensional plane you've been thinking about.
+>
+> And that is the plane whose Hodge dual is the radial direction:
+>
+> \\[ \*\_{3}(\mathbf e\_\phi\wedge\mathbf n)=\mathbf e_R. \\]
+>
+> That's a striking way to state the observation.
+>
+> But I would be cautious about interpreting it as evidence for PG. The dipole is a vector sum of the Sun's orbital motion, the Milky Way's motion, and larger-scale motions. In fact, after correcting for solar motion, the Galactic-center velocity relative to the CMB still points roughly toward \\(l=266^\circ,b=28^\circ\\).&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://escholarship.org\&sz=32)
+>
+> eScholarship
+>
+>
+>
+> So the alignment need not originate in a special internal bivector law.
+>
+> Nevertheless, you've identified a clean geometrical observable that PG could attempt to predict: whether the dipole lies unusually close to a galaxy's orbital–normal plane, with a specific sign and magnitude relationship.
+>
+> A meaningful test would have to predict that relationship before comparing it with the measured direction, and explain why a cosmological dipole should be coupled to the Milky Way's local orbital frame.
+>
+> ## 8. One bonus connection to PG's projective quotient
+>
+> There's also a nice topological fact worth flagging.
+>
+> The ordinary Hopf map
+>
+> \\[ h(q)=q\mathbf kq^{-1} \\]
+>
+> satisfies
+>
+> \\[ h(-q)=h(q). \\]
+>
+> So it does descend through the antipodal quotient from \\(S^3\\) to \\(\mathbb{RP}^3\\).
+>
+> Moreover, the descended circle bundle
+>
+> \\[ S^1\longrightarrow\mathbb{RP}^3\longrightarrow S^2 \\]
+>
+> has Euler number \\(2\\), whereas the original Hopf bundle on \\(S^3\\) has Euler number \\(1\\), up to orientation sign.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://citeseerx.ist.psu.edu\&sz=32)
+>
+> CiteSeerX
+>
+>
+>
+> This is potentially relevant to your Berry-clash idea: the topology of the phase bundle changes when we pass from the covering sphere to the projective leaf.
+>
+> That is a concrete calculation for Claude to consider when defining relative holonomy. It doesn't remove the one-sidedness of the embedded projective galactic disk or automatically supply an oriented up direction, but it suggests that the Hopf phase structure need not simply disappear under the quotient.
+>
+> ## What I think the next mathematical experiment should be
+>
+> I would combine your latest idea into a single precise question:
+>
+> Can one double-Hopf relative-curvature field produce a localization tensor whose principal axes can rotate into one another, and whose eigenmodes select a radially broad but vertically narrow galaxy?
+>
+> The construction should start with the explicit self-dual and anti-self-dual bivectors \\(\mathcal B_R^\pm,\mathcal B\_\phi^\pm,\mathcal B_n^\pm\\), not arbitrary separate radial and vertical exponentials.
+>
+> Then derive the two Hopf connections from fields on the \\(S^3\\) leaf; calculate the gauge-invariant relative curvature; test whether a nonnegative response tensor can be obtained from it through a common action; and solve for localized eigenmodes.
+>
+> I'd want one particularly revealing control experiment: rotate the candidate internal order parameter so that its strong and weak meridional eigenvectors exchange. Does the resulting system actually exchange its vertical and radial localization behavior, or does the orbital geometry obstruct it?
+>
+> That would test the symmetry you're looking for without building the desired exponentials into the answer.
+>
+> And I would keep the physical roles carefully separated: such a localization equation might determine a visible mode, a collisionless matter equilibrium, or both, but the manuscript needs to derive which. Suppressing optical intensity does not automatically change the gravitational source.
+>
+> My central takeaway is that your radial direction may not have to be primitive at all. Once a galaxy has selected its normal and circular orbital structure, the radial direction is already encoded by their bivector:
+>
+> \\[ \boxed{ \mathbf e_R=\*\_{3}(\mathbf e\_\phi\wedge\mathbf n). } \\]
+>
+> And in four dimensions, that same bivector is naturally paired with an extra-dimensional radial rotation inside each of the two \\(SU(2)\\) sectors.
+>
+> That, to me, is the strongest new lead from what you've just proposed. It provides an exact algebraic bridge between your galaxy-frame intuition and the double-\\(SU(2)\\) ontology—without yet assuming the optical or gravitational physics we still need to derive.
+
+**What v36.4 does with them.** The review's reproducibility finding is an erratum: the fold search of §XXXIII.38 crashed on the referee's machine; it is replaced, in the suite's v36.3 section and in a new one, by continuation in the central density, which passes the fold instead of hitting it (§XXXIII.45(a)). The review's request for stability beyond the iteration's is met as far as thermodynamics goes — the free energy at fixed temperature and the entropy at fixed energy, with the finding that the concentrated branch is an entropy maximum at fixed energy between contrast 3 and 55, against axisymmetric perturbations and in the sectors $m\leq4$, while the ring of §XXXIII.38 is unstable to $m = 2$ (§XXXIII.45(b)–(c), (e)); its correction on non-axisymmetric modes is applied in place with the uniaxial/biaxial example (§XXXIII.45(d); R350). Entry 340's origin of the sine is checked as the identity it is; Entry 341's exchange is checked at the level the response set — the three self-dual pairs, the radial direction as the dual of the orbital–normal plane (up to the frame's handedness), the exchange rotation, the response tensor's two eigenvalues, the CMB dipole's decomposition and its 4° from the orbital–normal plane, the Hopf map's descent to the quotient (§XXXIII.46; R351). The review's second priority — the smallest explicit clash model — is begun with its first test: the relative curvature of two pulled-back Hopf connections on explicit configurations, which vanishes for the exchange-odd departure it was built from and for every pair congruent by a fixed rotation (§XXXIII.47; R352). The joint model and the action remain the next pieces (§XXXIII.48).
+
+## XXXIII.45 Erratum and continuation of §XXXIII.38: the fold by continuation, stability in two ensembles, the classification's scope [T/V/D; R350] *(`v36_4_fixed_points_erratum()`)*
+
+**(a) The erratum [V].** §XXXIII.38's fold was located by stepping Newton down in $\theta$ until it failed; on the referee's machine Newton converged to another branch instead of failing, the fold variable stayed empty, and the section crashed at its print — so the delivered suite ran $7$ of its $8$ v36.3 checks there. The search is replaced, in the suite's v36.3 section and here, by continuation in the central density: with $\theta$ an unknown, the augmented system $[\Sigma-G(\Sigma,\theta) = 0,\ \Sigma({\rm pole}) = s]$ is stepped in $s$, so the fold in $\theta$ is passed, not hit; a missing fold now fails the check instead of crashing; the continuation parameter is the central density, not arclength, and the branch's identity is followed only by its contrast. On the two grids ($160/120$ and $400/300$) the fold is at $\theta = 1.0649$ and $1.0652$ (contrast $143$ and $146$) — the independent check's $1.065$–$1.066$ — and the branch is followed beyond it to contrast $\approx250$, where the grids part: a second fold at $\theta = 1.104$ (contrast $269$) on the coarse grid and $1.276$ ($759$) on the fine one, and all that follows ($\theta$ falling toward $0.2$–$0.3$ with $E$ diverging; a third extremum of $E$), differ between the grids and are discretization-bound — not a resolved approach to the point-mass end. The energy per unit mass along the branch, $E = 1/\theta+\tfrac12\int\Sigma\phi$ (the 2-d isothermal kinetic energy $\sigma^2 = 1/\theta$ in units of $GM/\ell$), has a maximum at contrast $3.1$ ($\theta = 1.523$, $E = 0.6210$) and a minimum at contrast $54$–$55$ ($\theta = 1.12$, $E = 0.5098$), both before the fold, on both grids.
+
+**(b) Canonical stability is the iteration's [T].** In the quadrature's inner product the kernel's quadratic form is symmetric and negative semidefinite (largest eigenvalue $10^{-17}$; every $\lambda_l\geq0$), so the Jacobian's eigenvalues $\mu = -\theta\Sigma A$ are real and nonnegative, and the free energy's Hessian on mass-preserving perturbations, $H_c = \Sigma^{-1}+\theta A = \Sigma^{-1}(1-\mu)$, is positive exactly when every $\mu<1$. "Picard-stable" in §XXXIII.38 is therefore "a free-energy minimum at fixed temperature", and the number of canonical unstable directions is the number of $\mu$ above $1$.
+
+**(c) Microcanonical stability, axisymmetric sector [T/V].** At fixed energy the temperature responds to the perturbation, and the entropy's second variation on mass-preserving perturbations gains a rank-one term: $H_m = H_c+\theta^2\lvert\langle\phi,\delta\Sigma\rangle\rvert^2$ — microcanonical stability is the weaker condition. The signatures at the resolved fixed points against *axisymmetric* perturbations (negative directions, canonical / microcanonical; the non-axisymmetric sectors are in (e)): the uniform disk at $\theta = 1.2$: $0/0$; at $2.5$: $1/1$; the concentrated branch at contrast $1.85$ ($\theta = 1.6$): $1/1$; at $7$ ($1.4$): $1/0$; at $28$ ($1.2$): $1/0$; at $67$ ($1.1$): $1/1$; the ring at $\theta = 2$ and $2.5$: $0/0$. So, axisymmetrically, the concentrated branch is an entropy maximum at fixed energy exactly between the two energy turning points — contrast $3$ to $55$, $\theta = 1.52$ to $1.12$ — and a saddle outside them (the turning-point rule: a mode changes stability microcanonically at each extremum of $E$ along the series, and canonically at each extremum of $\theta$ — the fold — where the canonical count becomes $2$ with the microcanonical one unchanged; a dense scan confirms both); axisymmetrically the ring is stable in both ensembles and the uniform disk only when hot — but the ring does not survive (e). On the Milky-Way-like leaf the stable segment is $\sigma = 103$–$120$ km/s with a pole-to-equator contrast of $3$–$55$, and the fixed points' own plateau speeds are $v_\infty = 100$, $153$, $170$, $171$ km/s at contrast $1.85$, $7$, $28$, $54$ ($C = 0.62$, $1.44$, $1.80$, $1.82$): $\sigma/v_\infty = 0.7$–$1$, a pressure-supported state, not a rotating disk. An isolated isothermal population can hold a concentrated state at fixed energy, but a hot one with a contrast far below the exponential's $207$. §XXXIII.38's "no Picard-stable concentrated density" stands as the canonical statement; the microcanonical one is new, and it is the ensemble an isolated galaxy is in. Dynamical (Vlasov) stability is not computed. A strict entropy maximum at fixed $E$ and $M$ is Vlasov-stable for any kernel (the energy–Casimir argument), so the segment's maximum, surviving the sectors computed in (e), would be — if it survives every sector; the converse, that the saddles are dynamically unstable, is known for the Newtonian kernel and is not claimed here.
+
+**(d) The classification's scope [T].** The review is right that rotations do not identify all modes of a given $l$: the $l = 2$ modes are traceless symmetric tensors, and a uniaxial $(2,-1,-1)$ and a biaxial $(1,0,-1)$ quadrupole have different eigenvalues (the mismatch is exactly $1.00$ for every rotation, eigenvalues being rotation invariants; $50$ sampled). The branches of §XXXIII.38 are the axisymmetric ones, and the stability counts of (c) are against axisymmetric perturbations; the non-axisymmetric equilibria at a given $l$ are not classified. §XXXIII.38(e) is corrected in place.
+
+**(e) The non-axisymmetric sectors [T/V]** *(the independent check's correction)*. A perturbation $f(\cos\chi)\cos m\phi$, $m\geq1$, carries no mass and has $\langle\phi,\delta\Sigma\rangle = 0$, so the rank-one term vanishes and both ensembles agree on it: $H^{(m)} = \int f^2/\Sigma+\theta\sum_{l\geq m}k_l c_l^2$, with $k_l = -2\pi\lambda_l$ the kernel's Funk–Hecke eigenvalue (the same for every $m$) and $c_l$ the coefficients of $f$ in the orthonormal associated Legendre functions. Controls: on the uniform disk at $\theta = 2.5$ the $l = 2$ eigenvalue is analytic, $2\pi(1-\theta\lambda_2) = -2.9696$, reproduced in the $m = 1$ and $m = 2$ sectors; every non-uniform fixed point has the exact tilt zero mode $\delta\Sigma = \Sigma'(u)\sin\chi\cos\phi$ in $m = 1$ (least eigenvalue $10^{-11}$). The counts for $m = 1$–$4$: the uniform disk at $\theta = 1.2$ none; at $\theta = 2.5$ one each in $m = 1$ and $m = 2$ — five negative directions in all, the $l = 2$ multiplet, not one; the concentrated branch at contrast $1.85$, $7$, $28$, $67$ none in any sector (least eigenvalues $0.16$–$3.8$, increasing with $m$); **the ring at $\theta = 2$ and $2.5$ is unstable to $m = 2$ (eigenvalues $-2.68$, $-4.66$) and at $2.5$ to $m = 4$ as well ($-1.28$)** — and, by the independent check, at $\theta = 1.72$ too ($-0.25$). So the ring is unstable in both ensembles and hence Picard-unstable on the sphere: "Picard-stable ring" in §XXXIII.38 and in (c) means stable against axisymmetric perturbations; and the concentrated branch's entropy maximum between contrast $3$ and $55$ survives the sectors $m\leq4$ ($m>4$ not computed).
+
+## XXXIII.46 Entries 340–341: the sine from the tangent, the three bivector pairs, the radial–normal exchange, the CMB dipole in the galactic frame [T/V/D; R351] *(`v36_4_duality()`)*
+
+**(a) Entry 340 [T].** The author's muffling of the asymptote, $f\mapsto\sqrt{1/(1/f^2+1)} = f/\sqrt{1+f^2}$, takes $\tan\chi$ to $\sin\chi$ on the near hemisphere exactly — the bounded radial coordinate $R/\sqrt{\ell^2+R^2}$ of the sphere's embedding in place of the unbounded gnomonic one, as the response says; at the equator $e^{-a\sin\chi} = e^{-a}(1+a\epsilon^2/2+\dots)$ where $e^{-a\tan\chi}\sim e^{-a/\epsilon}$ (checked to $3\times10^{-12}$ at $\epsilon = 10^{-3}$).
+
+**(b) Entry 341's exchange [T/V].** In the frame $(\boldsymbol\nu,\mathbf e_R,\mathbf e_\phi,\mathbf n)$ — $\boldsymbol\nu$ the embedding's normal to $S^3$, $\mathbf n$ the galaxy's normal in the leaf — the response's three pairs $\mathcal B_i^\pm = (\boldsymbol\nu\wedge\mathbf e_i\pm*_3\mathbf e_i)/\sqrt2$ are self-dual and anti-self-dual under the four-dimensional Hodge star (machine precision), the bases of the two $\mathfrak{su}(2)$'s; in the leaf $*_3(\mathbf e_\phi\wedge\mathbf n) = \mathbf e_R$, $*_3(\mathbf n\wedge\mathbf e_R) = \mathbf e_\phi$, $*_3(\mathbf e_R\wedge\mathbf e_\phi) = \mathbf n$ for a right-handed $(\mathbf e_R,\mathbf e_\phi,\mathbf n)$, and "self-dual" is with respect to the orientation $(\boldsymbol\nu,\mathbf e_R,\mathbf e_\phi,\mathbf n)$: the radial direction is the dual of the orbital–normal plane up to the frame's handedness, which is the author's intuition stated as an identity. The physical frame of (c) — $\mathbf e_R$ toward $l = 180^\circ$, $\mathbf e_\phi$ toward $l = 90^\circ$, $\mathbf n$ the north pole — is left-handed ($\mathbf e_R\times\mathbf e_\phi\cdot\mathbf n = -1$), so there $*_3(\mathbf e_\phi\wedge\mathbf n) = -\mathbf e_R$: the sign of the dual changes with the orientation, the plane and the angle do not *(the independent check's correction)*. The rotation by $\pi/2$ in the $(\mathbf e_R,\mathbf n)$ plane, $\mathbf e_R\to\mathbf n\to-\mathbf e_R$, carries $\mathcal B_R^+$ to $+\mathcal B_n^+$ and preserves self-duality: the exchange Entry 341 asks for exists locally — as a rotation of the frame, which is a change of description unless the internal structure turns relative to the matter (the response's distinction), and not a global map of the galaxy, $\mathbf e_R$ being undefined at the centre. The response's tensor $M = \kappa_0^2g+\lambda\mathbf c\mathbf c^T$ on the meridional plane has eigenvalues $\kappa_0^2$ and $\kappa_0^2+\lambda|\mathbf c|^2$ with the strong eigenvector along $\mathbf c$: two scales from one object; whether its eigenmodes decay exponentially is the field equation's question (§XXXIII.41(d): a constant gap in the plane gives $K_0$), not the tensor's.
+
+**(c) The CMB dipole [V].** With the response's $(l,b) = (264.021^\circ, 48.253^\circ)$ and the local frame $\mathbf e_R$ (outward from the centre, toward $l = 180^\circ$), $\mathbf e_\phi$ (the rotation, toward $l = 90^\circ$), $\mathbf n$ (the north pole): $\mathbf d = +0.069\,\mathbf e_R-0.662\,\mathbf e_\phi+0.746\,\mathbf n$, $4.0^\circ$ from the orbital–normal plane (whose dual, in this left-handed frame, is $-\mathbf e_R$) — the response's numbers. A geometric fact about one direction, as the response says: the dipole is the Sun's motion relative to the CMB frame (the Galactic centre's own motion points to $(l,b)\approx(266^\circ,28^\circ)$), and an alignment is a prediction PG would have to make before the comparison, with a sign and a magnitude.
+
+**(d) The quotient [T].** $h(-q) = h(q)$ for the Hopf map, so it descends through the twin identification to a circle bundle over $S^2$ on $\mathbb{RP}^3$ — the unit tangent bundle of $S^2$, Euler number $2$ against the Hopf bundle's $1$ (standard; not computed). The phase structure survives the quotient; the one-sidedness of the quotient disk (§XXXIII.41(c)) does not change.
+
+## XXXIII.47 The smallest explicit clash model: the relative curvature of two pulled-back Hopf connections [T/V/D; R352] *(`v36_4_clash()`)*
+
+The responses on Entries 338–341 propose the gauge-invariant clash as $F_- = F_L-F_R$, the difference of the curvatures of the two Hopf connections pulled back by the two direction fields $\mathbf n_L(x)$, $\mathbf n_R(x)$ on the galaxy. The pulled-back Hopf curvature is half the area form of the map to $S^2$, $F = \tfrac12\mathbf n\cdot(d\mathbf n\times d\mathbf n)$, so $F_-$ is computable for any explicit pair — which is the review's second priority's first test: does the curvature cancel along admissible in-plane motions and survive a normal departure? On a $(\phi,z)$ patch with the tilt $\theta(z) = \arctan(1.5z)$:
+- the exchange-odd departure of §XXXIII.41, $\mathbf n_{L,R} = \cos\theta\,\mathbf n\pm\sin\theta\,\mathbf t(\phi)$: $F_L = F_R = 0$, $-0.256$, $-0.192$ at $z = 0$, $0.3$, $1$, so $F_L-F_R = 0$ at every height — the mirror tilt is a rotation by $\pi$ about $\mathbf n$, which preserves the area form;
+- the admitted in-plane family ($\alpha$ fixed, the axis $\mathbf t$ turning with position): $F_L-F_R = 0$, and $F_L$ itself $0$ — vacuously: that family maps the patch onto one latitude circle of $S^2$, a rank-one map, so each sector's curvature vanishes on its own and this configuration says nothing about in-plane motions in general;
+- one sector tilting and the other not: $F_L-F_R = -0.256$, $-0.192$ at $z = 0.3$, $1$, and $0$ in the plane;
+- a pairing by a reflection instead ($\mathbf n_R = \cos\theta\,\mathbf n+\sin\theta\,\mathbf t(-\phi)$, the mirror image of $\mathbf n_L$ in a plane through $\mathbf n$): $F_R = -F_L$, so $F_L-F_R = 2F_L = -0.512$, $-0.384$.
+
+So the relative curvature vanishes for the departure the responses built the clash from and, in general, for any pair of sectors congruent by a fixed proper rotation (the mirror tilt is the rotation by $\pi$ about $\mathbf n$, which preserves the area form); it is nonzero for an asymmetric departure and for a pair congruent by a reflection. As a clash, $F_L-F_R$ sees the two departures' failure to be congruent by a rotation, not the departure itself — it is blind to the exchange-odd mirror tilt in particular; a clash that sees the symmetric one needs $F_L+F_R$ or one sector's own curvature — which is not exchange-odd. Only the $e^\phi\wedge e^z$ component of the curvature is tested (a two-dimensional patch). The test the review asked for fails as stated, and says what the invariant would have to be instead. No action, no frame identification and no transport law are built; this is a test of the proposed invariant on explicit configurations.
+
+## XXXIII.48 Standing after v36.4, and the next pieces [S/O; R353]
+
+§XXXIII.42 remains the operative standing, with these changes.
+- *Corrected [V].* §XXXIII.38's fold search (an erratum; the fold stands at $\theta = 1.065$); its "no Picard-stable concentrated density" scoped as canonical; its "Picard-stable ring" scoped as axisymmetric — the ring is unstable to $m = 2$ in both ensembles (and to $m = 4$ when cold), hence Picard-unstable on the sphere; its branch count scoped as axisymmetric (R350).
+- *Established [T/V], added.* Canonical stability is the iteration's; microcanonically the concentrated isothermal branch is an entropy maximum between contrast $3$ and $55$, against axisymmetric perturbations and the sectors $m\leq4$ — a hot, pressure-supported state ($\sigma = 103$–$120$ km/s against its own $v_\infty = 100$–$171$ km/s on the Milky-Way-like leaf), not a cold disk; the ring unstable to $m = 2$ (§XXXIII.45). The radial direction as the dual of the orbital–normal plane; the three self-dual pairs; the local exchange rotation; the CMB dipole $4.0^\circ$ from the orbital–normal plane; the Hopf map descending to the quotient (§XXXIII.46). The relative Hopf curvature blind to any pair of sectors congruent by a fixed rotation, hence to the exchange-odd mirror tilt (§XXXIII.47).
+- *Not demonstrated,* unchanged: the observed rotation curve from the theory as specified; any transfer, population law or scale derived.
+- *The next pieces.* (1) The joint model (§XXXIII.42's first item), unchanged. (2) The clash invariant restated so that it sees the symmetric departure ($F_L+F_R$ or a single sector's curvature), with a frame identification and a transport law, and the action the review asks for. (3) Dynamical stability of the isothermal fixed points on the leaf (Vlasov), the sectors $m>4$, and the non-axisymmetric equilibria. (4) Entry 329's acceptance criterion; the standing list.
+- *Not claimed.* No observed rotation curve is reproduced; the dipole's alignment is not a prediction; the exchange is a local change of frame until a law turns the internal structure.
+
+## XXXIII.49 Register R349–R355 [D/O; v36.4]
+
+- **R349** (§XXXIII.44). The review of v36.3, Entries 340–341 and the response in the author's words; what v36.4 does with each. [record]
+- **R350** (§XXXIII.45; §XXXIII.38(b), (e), §XXXIII.42 and the head table corrected in place). The erratum: §XXXIII.38's fold search by Newton failure crashed where Newton converged elsewhere (the review's run: $7$ of $8$ v36.3 checks); replaced by continuation in the central density, the fold at $\theta = 1.0649$/$1.0652$ (contrast $143$/$146$) on the two grids. Canonical stability is the iteration's ($A$ negative semidefinite in the quadrature's inner product, $\mu = -\theta\Sigma A\geq0$, $H_c = \Sigma^{-1}(1-\mu)$). Microcanonical: $H_m = H_c+\theta^2\lvert\langle\phi,\delta\Sigma\rangle\rvert^2$; against axisymmetric perturbations the concentrated branch an entropy maximum at fixed energy between the energy turning points at contrast $3.1$ ($\theta = 1.523$) and $54$–$55$ ($\theta = 1.12$), a saddle outside, and the uniform disk stable in both ensembles only when hot; the fixed points' own $v_\infty = 100$–$171$ km/s against $\sigma = 103$–$120$ (pressure-supported). The non-axisymmetric sectors $m = 1$–$4$ (both ensembles agree there): the concentrated branch has no negative direction, so its maximum survives $m\leq4$; the ring is unstable to $m = 2$ at every $\theta$ tested and to $m = 4$ at $\theta = 2.5$, hence Picard-unstable on the sphere — "Picard-stable ring" means axisymmetrically; the uniform disk at $\theta = 2.5$ has five negative directions. Beyond the fold the branch is resolved only to contrast $\approx250$ (a second, grid-dependent fold). Dynamical (Vlasov) stability not computed (a strict entropy maximum would be Vlasov-stable by energy–Casimir; the converse is Newtonian). The classification axisymmetric only (a uniaxial and a biaxial quadrupole not rotation-equivalent). Superseded wording, §XXXIII.38(b): "down to a fold near $\theta = 1.07$ (contrast $137$ on the coarser grid; the independent check's three resolutions put the fold at $\theta = 1.065$–$1.066$, contrast $\approx160$)" — now the continuation's $1.065$ (contrast $143$–$146$); and "A cold non-rotating isothermal population has no Picard-stable concentrated density on the leaf — the stable cold state is a ring, not a disk — and the iteration from a concentrated seed runs away toward a point mass." — kept, with the tag that it is the canonical statement and the microcanonical one differs. Superseded wording, §XXXIII.38(b): "the ring Picard-stable from $\theta_2$ across the cold side" — kept, with the tag that it is stable against axisymmetric perturbations and unstable to $m = 2$. Superseded wording, §XXXIII.38(e): "the non-axisymmetric modes of the same $l$ are carried into one another by the leaf's rotations and are not counted apart" — now "the non-axisymmetric equilibria at a given $l$ are not classified: rotations carry the modes of one $l$ into one another only within an orbit"; and "the only Picard-stable cold state is a ring, and a cold galaxy is not among them" — now with "(at fixed energy a concentrated state is stable too, but hot: §XXXIII.45(c))". Superseded wording, §XXXIII.42's established bullet: "the ring Picard-stable across the cold side until it collapses, every concentrated branch Picard-unstable, none exponential;" — now with "(axisymmetrically — the ring is $m = 2$-unstable; Picard = canonical; microcanonically the concentrated branch is stable between contrast $3$ and $55$)". Superseded wording, the head table's isothermal row: "no Picard-stable cold state but a ring, none exponential — the count is the law's (R343)" — now "… (R343); at fixed energy the concentrated branch is an entropy maximum between contrast $3$ and $55$, a hot state; the ring stable only axisymmetrically ($m = 2$-unstable); the classification axisymmetric only *[v36.4, R350]*". Superseded prints in the suite's v36.3 section are quoted in the ledger. [T/V/D]
+- **R351** (§XXXIII.46). Entry 340's $\tan\chi/\sqrt{1+\tan^2\chi} = \sin\chi$; Entry 341: the three pairs $\mathcal B_i^\pm$ self-dual/anti-self-dual, the 3-d duals $*_3(\mathbf e_\phi\wedge\mathbf n) = \mathbf e_R$ etc. in a right-handed frame ($-\mathbf e_R$ in the left-handed physical frame; the angle unchanged), the $(\mathbf e_R,\mathbf n)$ rotation carrying $\mathcal B_R^+$ to $+\mathcal B_n^+$ with self-duality preserved, the response tensor's eigenvalues $\kappa_0^2$ and $\kappa_0^2+\lambda|\mathbf c|^2$; the CMB dipole $\mathbf d = +0.069\,\mathbf e_R-0.662\,\mathbf e_\phi+0.746\,\mathbf n$ from $(l,b) = (264.021^\circ,48.253^\circ)$, $4.0^\circ$ from the orbital–normal plane; $h(-q) = h(q)$, the Hopf map descending to $\mathbb{RP}^3$ (Euler number $2$: standard, not computed). The exchange local and a change of frame until a law turns the internal structure; the dipole's alignment not a prediction. [T/V/D]
+- **R352** (§XXXIII.47). The relative curvature $F_L-F_R$ of two pulled-back Hopf connections ($F = \tfrac12\mathbf n\cdot(d\mathbf n\times d\mathbf n)$) on explicit configurations: zero for the exchange-odd mirror tilt at every height ($F_L = F_R = -0.256$, $-0.192$ at $z = 0.3$, $1$) and for any pair congruent by a fixed proper rotation, and for the admitted in-plane family (vacuously: a rank-one map); nonzero for a one-sector tilt and for a reflected pairing ($F_L-F_R = 2F_L$); the $e^\phi\wedge e^z$ component only. The proposed clash invariant is blind to the departure it was built from; $F_L+F_R$ or a single sector's curvature would see it. [T/V/D]
+- **R353** (§XXXIII.48; §XXXIII.13; the head table; the toy; the figures). Standing after v36.4; the next pieces. The suite `pg_v36_numerics.py` at v36.4: three new sections and checks ($33$ in all), the v36.3 fixed-point section's fold code replaced (its superseded prints quoted in the ledger), the mode `v36_4` (a few minutes, depending on the machine), `quick` now $19$ checks; the toy `v32_toy_three_ends.py` gains `v36_4`, its `all` counting $220$; no new figure (the v36.3 figures stand; `pg_v36_3_plots.py` unchanged). The SHA-256 of the suite is in §XXXIII.13. [S/O; reproducibility]
+- **R354** (§XXXIII.50). Entries 342–345 (4:36, 4:51, 4:54, 4:57 PM, Oct 18) and their four responses in the author's words, received while v36.4 was in its final runs: the areal-radius reading of the sine-exponential and a covariant localization equation as a target, the Hopf-fiber length and the circle-bundle curvature, a Hopf–meridian exchange block; the Solar-System observational-equivalence criterion on the stereographic chart; the holonomy-induced spectral gap and the fiber-length bound $\mu_{\rm clash}\leq1/(2\ell)$; particles in co-spaces with the gravity base as their meet and spacetime as the imposed common structure (with Parts XXIX and XXXII). Recorded only; no work in v36.4; v36.5's input. [record]
+- **R355** (§XXX.11, frozen Part XXX; the frozen table's preamble). A rendering repair, marked in place: the subscript `\Sigma_{ {\rm HC},nn}` (written with a doubled brace) becomes `\Sigma_{\mathrm{HC},nn}`, the same mathematics — the author's site's Liquid templating engine reads a doubled brace as a tag and refused the page (the author's report, 18 October, quoted with one space inserted in the brace pair so that this page itself renders: "Liquid syntax error (line 10225): Variable '{ {\rm HC}' was not properly terminated with regexp: /\}\}/ in development/4_active_reasoning/projective_gravity_celestial_field_guide_WEB_v35.md"). The archive now contains no doubled opening brace outside code and no Liquid tag opener (brace-percent); the earlier archives (v35.x–v36.3) carry the same character pair at the same place; the frozen v35.8 archive is re-issued with v36.4 as `projective_gravity_v35_8_draft_WEB.md`, differing from the 15 October file by that one line and its in-place tag, nothing else. [record; rendering]
+
+## XXXIII.50 Entries 342–345 and their responses, as formulated (18 October 2026): recorded in v36.4, the work v36.5's [record; R354]
+
+**The author's message** (two messages while v36.4 was in its final runs; the four responses attached, the entries in the messages). Nothing below is worked in v36.4: this section is the record, and §XXXIII.48's next pieces are not changed by it here — v36.5 takes it up.
+
+**Entry 342 (4:36 PM, Oct 18, 2026), in the author's words.**
+
+> Also by the way another explicit sanity check mention I want to name is that, like, do we have a good general local-preserving principle figured out for how to turn the exponential falloff profiles into the general something for which the e^(-a sin(chi)) is itself the (planar—therefore I would bet dipole-like sort of like Kerr-Newman (in which case the especially intersecting question becomes how to reconcile the complexified spacetime aspect of Kerr and the falloff-threshold-like-hbar complexified spacetime aspect of the galaxy as instances of one abstraction, while preserving the SO(4) material as the galaxy’s own expression of this)—or maybe even generally—as in monopole or whatever) isotropic special case which uses weirdly enough the very sin(chi) that is the areal radius and stuff, and then how this generalizes to inclusion of the galaxy’s normal direction and then ultimately non-isotropic matter distributions like having multiple point masses and all. Once again how much is derivative from the metric’s own curvature as fed back from Law I??? Altogether can we at least try to orient in the now to approach these kinds of verdicts? 
+> Oh and by the way let’s also check in on the Hopf fibers’ own lengths/geometry (ie as form the middle space when quotiented out from the canonical space) as provided by Law I itself—does that central spin-gravity-decomposition idea still hold here, and like as a sanity check some amount of the gravity felt by the middle space metric is traced to these fibers themselves, right??? What remains significant about this setup, and how even can we try to push to get a general law defining the Hopf fibers and meridian symmetrically all while by the particular matter solution that is the core/primary in the middle space appear to separate out into their privileged roles here??? Thanks!
+
+**Entry 343 (4:51 PM, Oct 18, 2026), in the author's words.**
+
+> Oh by the way and the specific running example I'd prefer to use for "making sure local GR still holds" sanity check thing is simply the orbits in our own Solar System, which after all are far far smaller than the leaf radius ell! So, as in, we know by the definition of Law 1 that local GR holds exactly in the "pre-visual space rendering" version of things, so the idea is that the "post-visual space rendering", be it shaving off this exponential material, or some kind of stereographic or gnomonic or other transformation stuff to be determined, if we were to imagine/pretend sticking the EFEs on that, would the correction terms from the ACTUAL Law 1 be small enough not to be picked up empirically specifically thanks to either of (1) ell is just so big, and maybe (2) the mass of the leaf is approximately mostly/all at the galaxy center, which overshadows isotropy assumptions in our own Solar System on any meaningful level. So yeah to recap the canonical example was the stereographic view idea, where the deduced orbits from Law I as exist in stereographic view (almost exactly) LOOK LIKE they follow EFEs on the stereographic view, even though technically they don't---hence the 1 AU-limit regime is preserved, as it should be! Thanks!
+
+**Entry 344 (4:54 PM, Oct 18, 2026), in the author's words.**
+
+> Oh and by the way another important check for the analogous Berry phase / holonomy material is we might want to check that, like as the counterpart abstraction, the exponential falloff here for the galaxies is at least situated reasonably similarly to it to how Berry phase or Feynman angular action stuff prunes out quantum tunnelling for above-barrier potentials and all. Thanks!
+
+**The response on Entry 342 (attached).**
+
+> Yes—and after checking the relevant parts of v36.3, I think we can give a fairly definite answer about where PG stands. Your proposed generalization has a promising geometric starting point, but the theory currently contains only one direction of the spin–gravity relationship, not the fully reciprocal mechanism you're asking for.
+>
+> There's also a particularly interesting connection to Kerr that I found in recent published research.
+>
+> ## 1. The sine-exponential may be pointing toward a more general geometric law
+>
+> Your profile is
+>
+> \\[ \Sigma(\chi)=\Sigma_0\exp\left(-\frac{\ell}{h}\sin\chi\right). \\]
+>
+> The crucial observation is that \\(\ell\sin\chi\\) isn't just a convenient bounded replacement for \\(\ell\tan\chi\\).
+>
+> On a round three-sphere with metric
+>
+> \\[ ds^2=\ell^2\left(d\chi^2+\sin^2\chi\\,d\Omega_2^2\right), \\]
+>
+> it is the areal radius of the geodesic two-sphere at \\(\chi\\). Its area is
+>
+> \\[ A(\chi)=4\pi\ell^2\sin^2\chi. \\]
+>
+> Thus the same profile can be written
+>
+> \\[ \boxed{ \Sigma=\Sigma_0 e^{-\rho\_{\rm area}/h}, \qquad \rho\_{\rm area}=\sqrt{\frac{A}{4\pi}}. } \\]
+>
+> This is already closer to a geometric law than a formula depending on a special coordinate \\(\chi\\).
+>
+> And in an axisymmetric galactic plane, there's an even more relevant version.
+>
+> Let \\(\xi\\) be the rotational Killing vector generating azimuthal motion. Its norm defines the circumferential radius,
+>
+> \\[ \boxed{ \rho\_\phi=\sqrt{g(\xi,\xi)}. } \\]
+>
+> On a round great-two-sphere disk,
+>
+> \\[ \rho\_\phi=\ell\sin\chi. \\]
+>
+> Therefore your exponential-sine profile is exactly
+>
+> \\[ \boxed{ \Sigma=\Sigma_0\exp\left[-\frac{\sqrt{g(\xi,\xi)}}{h}\right]. } \\]
+>
+> That is a concrete way to make your sine-exponential depend on geometry instead of explicitly depending on a chosen radial coordinate.
+>
+> It's also a plausible bridge to your interest in rotating, Kerr-like geometries: the rotational direction and the metric jointly determine the physical size of an azimuthal orbit.
+>
+> But it has limits. In a generic system containing several irregularly placed point masses, there may be no rotational Killing vector \\(\xi\\). The formula is then not yet a universal law. And the choice of \\(h\\) and the exponential itself still require physical explanation.
+>
+> ### An especially useful identity
+>
+> For the round source,
+>
+> \\[ W=\frac{\ell}{h}\sin\chi, \qquad \Sigma=\Sigma_0e^{-W}, \\]
+>
+> we obtain
+>
+> \\[ \boxed{ |\nabla W|\_g^2 = \frac{1}{h^2}\cos^2\chi = \frac{1}{h^2} \left(1-\frac{\rho\_{\rm area}^2}{\ell^2}\right). } \\]
+>
+> This is worth investigating as an eikonal or localization equation.
+>
+> It tells us that the logarithmic falloff rate naturally diminishes as the areal radius approaches its maximum. That is precisely the smooth equatorial behavior you were trying to achieve.
+>
+> The equation doesn't derive the exponential from physics—it follows from the profile we inserted—but it gives us a sharply defined target for a more general field equation.
+>
+> ## 2. How much of this comes from Law I's curvature?
+>
+> Here's the distinction I think matters most.
+>
+> | Ingredient                                                                   | Current status                          |
+> | ---------------------------------------------------------------------------- | --------------------------------------- |
+> | Round geometry gives \\(\rho\_{\rm area}=\ell\sin\chi\\)                     | Exact geometry                          |
+> | Law I determines the gravitational metric \\(g_G\\) from the reduced source  | PG's stated dynamical premise           |
+> | The metric can define areal or circumferential radii                         | Exact when the required symmetry exists |
+> | Matter density must fall as \\(e^{-\rho/h}\\)                                | Not derived                             |
+> | A Berry-like clash determines \\(h\\) and produces localization              | Not derived                             |
+> | The construction works for arbitrary anisotropic matter and multiple centers | Open                                    |
+>
+> There's also an important sanity check in the flat limit:
+>
+> \\[ \ell\rightarrow\infty,\qquad \ell\sin(r/\ell)\rightarrow r, \\]
+>
+> so
+>
+> \\[ e^{-(\ell/h)\sin(r/\ell)} \rightarrow e^{-r/h}. \\]
+>
+> The exponential survives when the leaf curvature tends to zero.
+>
+> Therefore the exponential cannot be explained as only a finite-curvature correction to ordinary gravity. Some matter dynamics or optical response must still select its length scale \\(h\\).
+>
+> That may actually suit your hypothesis. Law I can supply the geometry, while the double-Hopf sector supplies a localization law defined using that geometry.
+>
+> The strongest local-preservation principle would then be:
+>
+> \\[ \boxed{ \text{Law I determines }g_G; \quad \text{matter and internal fields respond covariantly to }g_G; \quad \text{their response reduces to ordinary local physics.} } \\]
+>
+> Notice that covariance alone isn't enough. We'd need to demonstrate the appropriate flat-space matter limit and the correct local gravitational behavior for moving, anisotropic sources.
+>
+> And I would not let the matter profile be freely reset every time we change the solution of Einstein's equations. It needs its own equation of motion, coupled consistently to the metric.
+>
+> ## 3. Your Kerr connection has a surprisingly relevant new development
+>
+> I found something I think you'll particularly want Claude to read.
+>
+> In June 2026, Joon-Hwi Kim published a paper in Physical Review Letters titled [Newman–Janis Algorithm from Taub-Newman-Unti-Tamburino Instantons](https://doi.org/10.1103/g6nl-1fbn?utm_source=chatgpt.com).
+>
+> Its central result is a construction of Kerr as a nonlinear combination of self-dual and anti-self-dual Taub–NUT gravitational instantons, extending the construction to Kerr–Newman and related solutions.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://journals.aps.org\&sz=32)
+>
+> Phys. Rev. Lett.
+>
+> +1
+>
+>
+>
+> That's notable for your research because you're independently investigating:
+>
+> - Two chiral \\(SU(2)\\)-like geometric sectors.
+> - Their joint and relative information.
+> - Hopf circles and geometric phase.
+> - The complex displacement used in the Kerr construction.
+>
+> This paper doesn't establish PG, and its self-dual gravitational fields are not simply PG's proposed pair of galaxy directions. But it demonstrates that a chiral two-sector description can play a concrete role in reconstructing the exact Kerr geometry.
+>
+> I would elevate it to a reference for your next investigation.
+>
+> There are three related structures we must distinguish:
+>
+> \\[ \begin{aligned} \operatorname{Spin}(4) &\cong SU(2)\_+\times SU(2)\_-,\\\ \operatorname{Spin}^{+}(3,1) &\cong SL(2,\mathbb C),\\\ U(1)\_{\rm Berry} &=\text{a phase-fiber structure}. \end{aligned} \\]
+>
+> The first is the Euclidean rotational decomposition you've been using.
+>
+> The second is the Lorentzian spin geometry relevant to physical Kerr spacetime.
+>
+> The third is the compact holonomy structure that can exist over a family of directional states.
+>
+> They are related through spinors and complex geometry, but they are not automatically the same object.
+>
+> In Lorentzian four-dimensional geometry, the Hodge star on real two-forms obeys \\(\*^2=-1\\); its self-dual and anti-self-dual eigenvectors therefore live naturally in the complexified bivector space. That's a concrete place where the complexification becomes structurally necessary rather than decorative.
+>
+> I would try to unify your intuitions at the level of a complexified bivector or connection theory with a specified Lorentzian reality condition, not by asserting that the Berry phase itself is Kerr's imaginary displacement.
+>
+> The Kerr sector would be one constrained solution of the theory. A disk galaxy's localization structure would be another.
+>
+> And there is a decisive distinction: a pure Berry holonomy has unit modulus,
+>
+> \\[ |e^{i\gamma}|=1. \\]
+>
+> It cannot directly create exponential attenuation. The galaxy needs an additional dynamical mechanism converting geometric mismatch into a real spectral gap or a non-unitary optical response.
+>
+> So a unification must explain both rotational phase and real exponential suppression, without assuming they're interchangeable.
+>
+> ## 4. What does v36.3 actually say about Hopf-fiber lengths and gravity?
+>
+> This is an excellent sanity check, because the manuscript is more cautious here than our exploratory discussion sometimes makes it sound.
+>
+> PG's construction currently has the tower
+>
+> \\[ \boxed{ E^6 \xrightarrow{\ /\ U(1)\_H\ } \mathcal M^5 \xrightarrow{\ /\ U\_{\rm mer}\ } B\_{\rm grav}^{4}. } \\]
+>
+> The first reduction removes the Hopf circle and produces the middle space.
+>
+> The second reduces along the meridian structure, giving the four-dimensional gravity base.
+>
+> Law I imposes Einstein's equations on that gravitational base, with stress-energy obtained from the complete middle-space meridian.
+>
+> ### The fiber-length locking is already specified—but only in one direction
+>
+> Section III.2 states, in the static conformal sector,
+>
+> \\[ \boxed{ L_H=\Omega L_H^{\rm ref}, \qquad \Omega=\phi^2. } \\]
+>
+> To first order in the weak gravitational field,
+>
+> \\[ \boxed{ \frac{\delta L_H}{L_H}\simeq-\Phi, } \\]
+>
+> where \\(\Phi\\) is the manuscript's dimensionless Newtonian potential.
+>
+> This is a meaningful aspect of the existing architecture.
+>
+> Gravity changes the metric length of a Hopf circle, even though the topological circle structure was already present.
+>
+> But the manuscript explicitly gives the logical direction as
+>
+> \\[ \boxed{ g_G\longrightarrow L_H. } \\]
+>
+> Not
+>
+> \\[ L_H\longrightarrow g_G, \\]
+>
+> and not yet a complete reciprocal system.
+>
+> That's important for your question about whether the fibers themselves cause some of the gravity felt by the middle space.
+>
+> ### Their geometry can contribute to curvature. Their dynamical backreaction is not yet derived.
+>
+> On the regular part of the canonical space, v36.3 uses the circle-bundle metric ansatz
+>
+> \\[ \boxed{ \widehat g = \pi_H^\*g\_{\mathcal M} + R_H^2(d\vartheta+\mathcal A_H)^2, \qquad R_H=\frac{L_H}{2\pi}. } \\]
+>
+> For the standard invariant circle-bundle metric, its scalar curvature satisfies
+>
+> \\[ \boxed{ \widehat{\mathcal R} = \mathcal R\_{\mathcal M} -\frac{R_H^2}{4}F\_{AB}F^{AB} -2R_H^{-1}\Delta\_{\mathcal M}R_H. } \\]
+>
+> The important point is the appearance of both the connection curvature \\(F_H=d\mathcal A_H\\) and the fiber radius \\(R_H\\).
+>
+> These are genuine contributions to the upstairs curvature.
+>
+> ### A particularly clean exact example
+>
+> For a round Hopf-fibered \\(S^3(\ell)\\):
+>
+> \\[ \begin{aligned} L_H&=2\pi\ell,\\\ S^3(\ell)/U(1)\_H&=S^2(\ell/2). \end{aligned} \\]
+>
+> The base sphere has scalar curvature
+>
+> \\[ \mathcal R\_{S^2}=\frac{8}{\ell^2}. \\]
+>
+> The twisting contribution is
+>
+> \\[ -\frac{R_H^2}{4}F\_{ab}F^{ab} =-\frac{2}{\ell^2}. \\]
+>
+> So the circle-bundle formula gives
+>
+> \\[ \boxed{ \mathcal R\_{S^3} = \frac8{\ell^2}-\frac2{\ell^2} = \frac6{\ell^2}. } \\]
+>
+> That is a beautiful exact demonstration that Hopf-fiber twisting is genuine geometry, not merely a bookkeeping label.
+>
+> But this is a curvature decomposition of a round three-sphere, not a derivation of an observed gravitational force.
+>
+> And there's an important catch: we can change the fiber radius of a Berger sphere while leaving the metric of the quotient \\(S^2\\) unchanged.
+>
+> The total-space curvature changes, but the quotient geometry doesn't have to respond.
+>
+> So geometrical contribution upstairs does not automatically imply gravitational backreaction downstairs.
+>
+> For PG to make that statement, a parent variational principle must turn the fiber curvature and fiber length into terms that affect the equation obeyed by \\(g_G\\).
+>
+> ### In fact, v36.3 already tried the obvious candidate—and it failed
+>
+> Section IX.1 tested the simple idea of demanding vacuum Einstein equations for the complete canonical metric.
+>
+> The calculation found that the resulting Kaluza–Klein monopole resembles the Taub–NUT solution, with fibers that shrink toward their source.
+>
+> But PG's stated weak-field locking makes the fiber length grow toward an attractive Schwarzschild-type source.
+>
+> They therefore don't satisfy the same proposed upstairs vacuum equations. The manuscript also finds unacceptable source-scale effects for the straightforward Kaluza–Klein identification.
+>
+> There's a second obstruction near a restored meridian: a smooth canonical completion makes the circle orbit shrink to zero, so the weak-field locking cannot extend unchanged all the way into the source core.
+>
+> My verdict on your central spin–gravity idea: the topological and metric decomposition still holds; the fiber lengths do respond to PG's prescribed gravitational geometry; and their twisting contributes to upstairs curvature. But the reciprocal mechanism by which that twisting sources four-dimensional gravity remains an open—and already substantially constrained—problem.
+>
+> That distinction is worth preserving rather than silently turning a geometrical identity into a claimed theory of gravity.
+>
+> ## 5. Can Hopf fibers and meridians be treated symmetrically before matter selects their roles?
+>
+> I think this is the deepest question you've raised here. It suggests investigating a larger structure in which both reductions are generated by an underlying pair of one-dimensional distributions.
+>
+> Locally, on a regular part of the six-dimensional canonical space, imagine two distinguished directions:
+>
+> \\[ V_H=\text{Hopf-fiber direction}, \qquad V_M=\text{lifted meridian direction}. \\]
+>
+> Instead of giving them completely different metric laws from the outset, we could organize their geometry into a two-dimensional block:
+>
+> \\[ \boxed{ \widehat g = \pi_B^\*g_B + H\_{IJ}\\,\vartheta^I\vartheta^J, \qquad I,J\in\\{H,M\\}. } \\]
+>
+> Here \\(H\_{IJ}\\) is a symmetric matrix describing the two directions' lengths and possible mixing, and \\(\vartheta^I\\) describes their associated one-forms and connections.
+>
+> Now your proposed pre-selection symmetry could take the form
+>
+> \\[ \boxed{ H\_{IJ}\longmapsto P_I{}^K P_J{}^L H\_{KL}, \qquad P= \begin{pmatrix} 0&1\\\ 1&0 \end{pmatrix}. } \\]
+>
+> That exchanges the two internal roles.
+>
+> A matter configuration could then select a particular preferred direction or eigenspace of \\(H\\), breaking the interchange symmetry and producing the particular Hopf-versus-meridian hierarchy observed in PG.
+>
+> This is a concrete candidate for the broader abstraction you want.
+>
+> But there is a serious topological issue.
+>
+> ### The existing Hopf and meridian structures are not globally interchangeable
+>
+> In v36.3:
+>
+> - The Hopf structure is a circle action, with a nontrivial first Chern class on linking spheres. Its orbits collapse at exceptional source strata.
+> - The meridians form a matter-selected line distribution. In the static model, they form a pencil meeting at common poles, rather than an ordinary global circle bundle.
+>
+> Therefore the complete system is not presently a principal \\(U(1)\times U(1)\\) bundle.
+>
+> Our symmetric matrix \\(H\_{IJ}\\) is a legitimate local metric proposal, but a globally exact exchange symmetry would require much more: the two foliations' topology, singular sets and holonomies must also be exchange-compatible.
+>
+> That may require changing Law 0's parent geometry, not merely rewriting Law I.
+>
+> I'd therefore distinguish two possible goals:
+>
+> Modest goal: Derive a locally symmetric two-direction metric formulation, with topology and the matter solution giving different global roles to the directions.
+>
+> Stronger goal: Construct an even deeper parent ontology in which both reductions arise from one genuinely interchangeable geometric structure, with their topological differences emerging only after selection.
+>
+> The modest goal is much more accessible and already fits the manuscript. The stronger one is an interesting conjecture, but currently lacks a construction.
+>
+> ## 6. How I'd generalize to non-isotropic galaxies and multiple masses
+>
+> I wouldn't begin by generalizing the function \\(\sin\chi\\) directly.
+>
+> I'd begin by generalizing the equation whose symmetric solution is that function.
+>
+> Suppose the localization exponent is a scalar \\(W(x)\\), so a visible response or selected density takes the schematic form
+>
+> \\[ \Sigma(x)\propto e^{-W(x)}. \\]
+>
+> Now ask for a covariant equation
+>
+> \\[ \boxed{ K^{ab}(g_G,\mathcal Q,F\_-)\\, \nabla_a W\nabla_b W = \mathcal U(g_G,\mathcal T,\mathcal Q,F\_-). } \\]
+>
+> Here:
+>
+> - \\(g_G\\) is the geometry determined by Law I.
+> - \\(\mathcal T\\) is the physical matter stress.
+> - \\(\mathcal Q\\) is an internal directional order parameter selected by the galaxy.
+> - \\(F\_-\\) is a properly defined relative Hopf curvature.
+> - \\(K^{ab}\\) and \\(\mathcal U\\) must come from the same underlying field theory.
+>
+> This is an eikonal-style target equation, not yet a PG law.
+>
+> In the round, symmetric limit, we would demand that one solution be
+>
+> \\[ W=\frac{\ell}{h}\sin\chi. \\]
+>
+> In a disk solution, \\(K^{ab}\\) could develop distinct radial and normal eigenvalues, giving different localization scales.
+>
+> In a multi-source solution, we would solve the same equations with all sources present, rather than assign a separate galaxy-centered exponential to every mass.
+>
+> This approach also handles an important point about your Kerr analogy: an axisymmetric disk is not automatically a gravitational dipole. A symmetric disk has no mass dipole about its center. Rotation does generate axial angular momentum and gravitomagnetic structure, but that is different from a scalar mass dipole. The proposed order parameter would need to respect that distinction.
+>
+> ### The multiple-mass sanity check is essential
+>
+> For a primary galaxy with a smaller secondary mass, the coupled system should satisfy
+>
+> \\[ \boxed{ \Phi\_{\rm secondary}(r) \sim-\frac{Gm}{r}, \qquad r\ll\ell, } \\]
+>
+> without losing the secondary's local gravitational field when the meridian structure responds.
+>
+> That is already an explicit acceptance criterion for Law II in v36.3.
+>
+> In fact, it's perhaps the best place to test whether your new geometry is really a generalization rather than a special model of a single isolated galaxy.
+>
+> ## 7. How I would organize the next calculations
+>
+> I would prioritize the following sequence.
+>
+> A. Generalize the areal-radius exponential
+>
+> Start with \\(\rho\_\phi=\sqrt{g(\xi,\xi)}\\), determine how it changes under an axisymmetric sourced metric, and derive its governing differential identities. Establish where it fails when rotational symmetry is absent.
+>
+> B. Derive the localization equation
+>
+> Ask whether a double-Hopf curvature or order parameter can produce the sine-exponential as an actual stationary solution, with radial and vertical modes of one common operator. Test its flat limit, center regularity and equatorial behavior.
+>
+> C. Test Hopf–meridian reciprocity
+>
+> Build the regular two-direction metric, compute its scalar and Ricci curvatures, and determine exactly which canonical action terms could generate the downstairs Einstein equations. Compare against the already excluded vacuum Kaluza–Klein candidate and the required collapsing-fiber core.
+>
+> D. Test two unequal masses
+>
+> Perturb the primary's meridian geometry by a secondary, include the response of both the source reduction and the internal field, and verify that local Newtonian gravity and stress conservation survive.
+>
+> E. Compare the Kerr construction directly
+>
+> Work through Kim's 2026 chiral Taub–NUT derivation and the manuscript's existing Kerr–Newman discussion in §XIX.2. Check whether they suggest a legitimate common complexified connection or order parameter, without identifying unrelated phase structures by analogy alone.
+>
+> One further safeguard: the sine-exponential shares the same areal-radius factor that gives the round leaf its angular-distance cap. Its success as a source profile does not by itself fix PG's separate optical distance, refocusing or radiation problems.
+>
+> ## Where I think we stand
+>
+> I would summarize the current position like this:
+>
+> | Question                                                                       | Verdict                                                                               |
+> | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
+> | Is \\(e^{-a\sin\chi}\\) naturally connected to intrinsic geometry?             | Yes. It is an exponential of the round areal/circumferential radius.                  |
+> | Is there a coordinate-independent axisymmetric extension?                      | Yes, using the norm of an axial Killing field.                                        |
+> | Is there a universal arbitrary-source extension?                               | Not yet. It needs a new covariant field equation and selection law.                   |
+> | Does the Kerr complex construction have a meaningful two-chirality connection? | Yes, including recent exact-solution research—but this is not yet a PG mechanism.     |
+> | Does Law I already control Hopf-fiber lengths?                                 | Yes, within its specified static conformal regime.                                    |
+> | Does Hopf twisting contribute to the canonical metric's curvature?             | Yes, explicitly.                                                                      |
+> | Has that contribution been derived as the source of downstairs gravity?        | No. The simplest parent-vacuum proposal fails.                                        |
+> | Can Hopf and meridian roles be made symmetric?                                 | Locally, as a candidate ansatz. A global law faces substantial topological obstacles. |
+>
+> My strongest conceptual recommendation is to make the areal-radius exponential the symmetric benchmark solution, not the fundamental law.
+>
+> Then demand that a common field equation—using the sourced metric, the matter-selected internal geometry, and the two Hopf sectors—recovers that profile in the round limit while supporting general anisotropic and multi-mass configurations.
+>
+> And I'd make the Hopf–meridian backreaction calculation the companion test. Your intuition that fiber geometry should participate in gravity is mathematically reasonable; the manuscript already contains the precise place where it could enter. The next milestone is finding a variational principle that makes it enter correctly, rather than just allowing it kinematically.
+>
+> That would give PG something stronger than another successful source ansatz: a candidate rule explaining why a particular source profile, rotational frame and gravitational field coexist.
+
+**The response on Entry 343 (attached).**
+
+> Yes! That is exactly the Solar System sanity check I would make canonical for PG—and your distinction between Law I's actual gravity and the apparently Einsteinian gravity of the visual reconstruction is crucial.
+>
+> What you're asking is not whether visual space obeys Einstein's equations exactly. You're asking:
+>
+> > If Solar System bodies move according to Law I, but we observe and reconstruct their positions through PG's visual-space transformation, are the residual departures from ordinary GR small enough that planetary orbits, radar ranging, light deflection and other precision measurements would still look Einsteinian?
+>
+> That's a well-defined question. It also gives us a much more concrete acceptance test than simply saying that the visual and gravitational metrics agree locally.
+>
+> ## 1. The stereographic example is an excellent benchmark
+>
+> For a round gravitational leaf \\(S^3(\ell)\\), stereographic coordinates give
+>
+> \\[ \boxed{ h_G= \frac{1}{\left(1+\rho^2/4\ell^2\right)^2} \left(d\rho^2+\rho^2d\Omega^2\right). } \\]
+>
+> The visual portrait might use the Euclidean metric
+>
+> \\[ h\_{\rm vis}=d\rho^2+\rho^2d\Omega^2 \\]
+>
+> instead.
+>
+> For an observer-centered stereographic chart, sufficiently near its origin,
+>
+> \\[ h_G= \left[ 1-\frac{\rho^2}{2\ell^2} +O\left(\frac{\rho^4}{\ell^4}\right) \right]h\_{\rm vis}. \\]
+>
+> So the difference starts at second order in distance divided by the leaf radius.
+>
+> Take the illustrative PG value \\(\ell=16\\) kpc and the Earth's orbital radius of 1 AU:
+>
+> Geometric scale separation at 1 AU
+>
+> Solar-system size / leaf radius
+>
+> # 3.03 × 10⁻¹⁰
+>
+> Squared size ratio
+>
+> # 9.18 × 10⁻²⁰
+>
+> These are geometric expansion parameters, not yet bounds on observable orbital errors.
+>
+> That is an exceptionally small curvature-scale correction.
+>
+> And this illustrates your fundamental point: a transformation can differ substantially from ordinary Euclidean geometry on galactic scales while being essentially indistinguishable from it over one planetary orbit.
+>
+> There's one necessary distinction, though. If stereographic projection is just a coordinate change, Einstein's equations still hold exactly in those coordinates. The non-Einsteinian possibility arises when PG's visual metric or operational reconstruction is different from the actual transformed Law I metric.
+>
+> That's the case worth testing.
+>
+> ## 2. There's one subtlety: we're not at the center of the galaxy
+>
+> This is where I would tighten the test beyond the simple \\(10^{-20}\\) estimate.
+>
+> The Sun sits approximately 8.2 kpc from the Galactic center. If PG uses a galaxy-centered stereographic portrait, its conformal factor already has a nonzero gradient at the Sun.
+>
+> For \\(\ell=16\\) kpc,
+>
+> \\[ \left|\nabla\ln\Omega\right|\_{\odot} \approx0.0285\ {\rm kpc}^{-1}. \\]
+>
+> Across 1 AU, that corresponds to a fractional change of approximately
+>
+> \\[ \boxed{ |\Delta\ln\Omega|\_{\rm 1\\,AU} \approx1.38\times10^{-10}. } \\]
+>
+> That is still tiny, but it's much larger than \\(10^{-20}\\).
+>
+> These two estimates aren't contradictory. The \\(10^{-20}\\) estimate describes the leading variation in an appropriately observer-centered stereographic chart; the \\(10^{-10}\\) estimate describes the first derivative in a galaxy-centered chart.
+>
+> The physical prediction must be coordinate-independent. We must not mistake either chart-dependent number for an observable orbital deviation.
+>
+> One illustrative calculation shows why this deserves care. If we interpreted the spatial conformal factor as a change to the dynamical connection, the velocity-dependent correction has the rough scale
+>
+> \\[ a\_{\rm corr}\sim v\_{\oplus}^2|\nabla\ln\Omega| \approx8.2\times10^{-13}\ {\rm m/s^2}, \\]
+>
+> using Earth's orbital speed. That's around \\(1.4\times10^{-10}\\) of the Sun's gravitational acceleration at 1 AU.
+>
+> This is not yet a predicted anomalous acceleration: a coordinate change can generate apparent terms of precisely this sort without changing any measurable orbit.
+>
+> But it demonstrates why small metric differences need to be propagated into observables, rather than evaluated using only their fractional amplitudes.
+>
+> ## 3. Your second intuition is partly right—but the equivalence principle is the more fundamental explanation
+>
+> You suggested that the galaxy's central mass distribution could make the Solar System's anisotropic corrections negligible.
+>
+> There's a good physical argument in that direction, although I would formulate it differently.
+>
+> The Sun's gravitational acceleration at Earth is approximately
+>
+> \\[ a\_\odot\simeq5.93\times10^{-3}\ {\rm m/s^2}. \\]
+>
+> The Milky Way's gravitational acceleration at the Sun, estimated from a circular speed of 230 km/s, is approximately
+>
+> \\[ a\_{\rm MW}\simeq2.1\times10^{-10}\ {\rm m/s^2}. \\]
+>
+> But for relative planetary motion, the more relevant quantity is the variation of the galactic acceleration across the Solar System, not the full external acceleration.
+>
+> The equivalence principle tells us that a nearly uniform external gravitational field largely disappears in a freely falling local frame.
+>
+> Its tidal variation over 1 AU is only of order
+>
+> \\[ \boxed{ a\_{\rm tidal,MW}\sim10^{-19}\ {\rm m/s^2}, } \\]
+>
+> about \\(2\times10^{-17}\\) of the solar acceleration.
+>
+> This is the strongest physical reason the Galaxy's large-scale field doesn't disrupt planetary Keplerian motion.
+>
+> Notice that it doesn't strictly require all the Galaxy's mass to be concentrated at its center. What matters is that the external field varies extremely slowly over Solar System distances.
+>
+> In fact, the local Solar System is strongly dominated by the Sun's own gravitational field.
+>
+> So I'd formulate the sanity principle as:
+>
+> The galactic geometry must reduce locally to a smooth external gravitational background plus the Sun's ordinary GR near-field, with external effects entering primarily through tiny tidal corrections.
+>
+> And there's one PG-specific condition: although Law I imposes the Einstein equations on \\(B\_{\rm grav}\\), it must still reproduce the correct localized reduced source for the Sun. Your manuscript already identifies this as an open Law II backreaction test. Meridians must not smear away the Sun's gravitational field.
+>
+> ## 4. What does it mean to pretend that visual space obeys Einstein's equations?
+>
+> This is the exact mathematical quantity I'd ask Claude to calculate.
+>
+> Let
+>
+> \\[ g_G=\text{actual Law I spacetime metric}, \\]
+>
+> and
+>
+> \\[ \widetilde g=\text{metric reconstructed from the visual prescription}. \\]
+>
+> Then define the observer's apparent Einstein-equation residual:
+>
+> \\[ \boxed{ \mathcal E\_{\mu\nu}^{\rm vis} = G\_{\mu\nu}[\widetilde g] +\Lambda\widetilde g\_{\mu\nu} -\frac{8\pi G}{c^4}\widetilde T\_{\mu\nu}. } \\]
+>
+> Here \\(\widetilde T\_{\mu\nu}\\) must be defined operationally: what stress-energy would the observer actually infer?
+>
+> If the visual spacetime were itself a fully conformally rescaled four-dimensional metric,
+>
+> \\[ \widetilde g\_{\mu\nu}=e^{2\omega}g^G\_{\mu\nu}, \\]
+>
+> then in four dimensions,
+>
+> \\[ \boxed{ \begin{aligned} G\_{\mu\nu}[\widetilde g]-G\_{\mu\nu}[g_G] ={}&-2\nabla\_\mu\nabla\_\nu\omega\\\ &+2\nabla\_\mu\omega\nabla\_\nu\omega\\\ &+2g\_{\mu\nu}\Box\omega\\\ &+g\_{\mu\nu}(\nabla\omega)^2. \end{aligned} } \\]
+>
+> That's a way to ask your question quantitatively.
+>
+> If the derivatives of \\(\omega\\) are controlled by \\(\ell^{-1}\\) or \\(\ell^{-2}\\), there may be strong local suppression.
+>
+> But if the proposed optical reconstruction introduces an independent galactic exponential length \\(h\\), its gradients can instead scale like \\(1/h\\). They do not automatically vanish as \\(\ell\to\infty\\).
+>
+> And the connection between curvature and observed acceleration can carry factors of \\(c^2\\), so even a small spatial variation doesn't guarantee an acceptable correction to the full spacetime dynamics.
+>
+> An important distinction for your preferred approach is that brightness suppression doesn't require a conformal transformation of spacetime at all.
+>
+> If the exponential clash mechanism changes an optical transfer field, while the physical metric and test-particle trajectories remain those of Law I, then the Solar System gravitational equations need not acquire this additional conformal residual. We would instead test the transfer against local photon propagation and observations.
+>
+> That may be a substantial advantage of the double-Hopf optical route over physically deforming the spacetime metric to produce an exponential.
+>
+> ## 5. I would make one concrete Solar System regression test mandatory
+>
+> Use one fully specified PG model for the Sun and planets, with the Sun correctly localized by the full-meridian source reduction.
+>
+> Then simulate both its actual Law I trajectories and the observations produced by the proposed visual reconstruction.
+>
+> Rather than comparing coordinate paths alone, compare the reconstructed data with ordinary GR predictions for:
+>
+> | Observable                     | What PG must recover                                                    |
+> | ------------------------------ | ----------------------------------------------------------------------- |
+> | Planetary orbits               | Orbital periods, precession and relative positions                      |
+> | Radar and spacecraft ranging   | Light travel times and inferred distances                               |
+> | Shapiro delay                  | Gravitational time delay near the Sun                                   |
+> | Light deflection               | Correct apparent photon directions                                      |
+> | Clock comparisons              | Ordinary local gravitational redshift and time dilation                 |
+> | Different orbital inclinations | No unobserved preferred-plane force or anomalous directional dependence |
+>
+> Allow ordinary fitted quantities such as the solar gravitational parameter \\(GM\_\odot\\) to be determined consistently, but don't permit separate unexplained parameters for every observable.
+>
+> Then evaluate the residuals in the actual measured quantities.
+>
+> One particularly effective test would be to repeat the calculation with Solar System orientations rotated relative to the galaxy's preferred normal and orbital tangent.
+>
+> If PG's internal directional geometry has real physical effects, this could reveal whether they introduce unwanted local anisotropy.
+>
+> We should also distinguish a small correction from a universally vanishing one: the Solar System might pass observational tests at finite \\(\ell\\) even if a proposed reconstruction does not possess the correct mathematical \\(\ell\to\infty\\) limit. Both are worthwhile tests, and they're not interchangeable.
+>
+> ## The principle I'd add to PG
+>
+> I'd call it the Solar-System Observational Equivalence Criterion:
+>
+> > On an AU-scale region surrounding the Sun, the full Law I–Law II gravitational solution, passed through PG's chosen observational reconstruction, must reproduce the measurable predictions of locally sourced general relativity within experimental uncertainties. Any visual-space Einstein-equation residual must either be a coordinate artifact or induce sufficiently small, independently calculated corrections to planetary trajectories, photon propagation and clock measurements. The result must hold for arbitrary Solar System orientations relative to the galactic frame, and must not depend on removing or delocalizing the Sun's gravitational source.
+>
+> I think this criterion captures exactly what you're aiming for.
+>
+> And I agree that stereographic reconstruction should be the canonical first example. It's geometrically explicit, has a clean curvature expansion, and can be tested without having to finish the entire double-Hopf localization mechanism first.
+>
+> The conceptual conclusion I would preserve is that PG does not require visual space to satisfy an independently imposed set of Einstein equations. It requires visual observations of Law I physics to agree with the extraordinarily precise Solar System evidence for GR.
+>
+> That is both more faithful to your theory's ontology and a much sharper empirical requirement.
+
+**The response on Entry 344 (attached).**
+
+> Yes—and I would make this an explicit sanity check for PG's proposed Berry-clash mechanism. In fact, it may help distinguish a genuine geometrical localization mechanism from an exponential profile that we've simply chosen to fit a galaxy.
+>
+> The connection you're looking for is between three things:
+>
+> 1. Berry holonomy: a geometrically accumulated phase.
+> 2. Feynman's oscillatory action: amplitudes whose phases can reinforce or cancel.
+> 3. Evanescent or tunneling behavior: amplitudes that decay exponentially when a differential operator has a spectral gap.
+>
+> These are related, but importantly, they are not identical. A useful PG construction should explain how the first produces the conditions for the third, rather than identifying a Berry phase directly with exponential attenuation.
+>
+> One small terminology correction: in ordinary quantum mechanics, tunneling through a barrier occurs when the particle's energy is below the barrier height. Above the barrier, motion is classically allowed, although quantum reflection can still occur. What you're seeking for PG is the mathematical analogue of a classically forbidden or evanescent regime.
+>
+> ## 1. The mathematical pattern we want to reproduce
+>
+> For a standard one-dimensional wave equation,
+>
+> \\[ -\varepsilon^2\Psi''(s)+V(s)\Psi(s)=\lambda\Psi(s), \\]
+>
+> there are two regimes.
+>
+> When \\(V<\lambda\\), solutions are locally oscillatory:
+>
+> \\[ \Psi(s)\sim \exp\left[ \pm\frac{i}{\varepsilon} \int^s\sqrt{\lambda-V(u)}\\,du \right]. \\]
+>
+> When \\(V>\lambda\\), they become locally exponential:
+>
+> \\[ \boxed{ \Psi(s)\sim \exp\left[ -\frac{1}{\varepsilon} \int^s\sqrt{V(u)-\lambda}\\,du \right]. } \\]
+>
+> This is the semiclassical WKB structure behind tunneling and evanescent waves. In quantum mechanics, \\(\varepsilon\\) would be related to \\(\hbar\\), with the appropriate mass normalization. For PG, it could instead be a geometrical length or action scale.
+>
+> That's the correspondence I would demand:
+>
+> \\[ \boxed{ \text{Geometric clash} \\;\longrightarrow\\; \text{Spectral gap} \\;\longrightarrow\\; \text{Exponential localization}. } \\]
+>
+> It also tells us what not to claim. A Berry phase \\(e^{i\gamma}\\) has unit magnitude, so it cannot directly make light or matter fade. To produce a decaying amplitude, its geometry must affect the spectrum, interference with other histories, or a physical transfer operator.
+>
+> ## 2. There's an especially promising bridge: a Berry phase can shift a spectrum
+>
+> I think the best analogy is not tunneling alone, but the Aharonov–Bohm effect on a circle.
+>
+> In that established quantum system, a phase around a closed loop changes the permitted wave modes, even though it doesn't directly reduce the amplitude of the wavefunction. The allowed eigenvalues shift according to the holonomy.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://www.nature.com\&sz=32)
+>
+> Nature Communications
+>
+> +1
+>
+>
+>
+> That gives us a very concrete toy for PG.
+>
+> Suppose a field has a compact internal coordinate \\(y\\) of circumference \\(L\\). After transporting it once around that coordinate, let it acquire the relative Berry-like phase \\(\theta\\):
+>
+> \\[ \boxed{ \Psi(y+L)=e^{i\theta}\Psi(y). } \\]
+>
+> Its permitted internal wave numbers are
+>
+> \\[ \boxed{ k_n=\frac{2\pi n+\theta}{L}, \qquad n\in\mathbb Z. } \\]
+>
+> Now suppose this internal field also varies along a physical direction \\(z\\), with a simple wave equation
+>
+> \\[ -\partial_z^2\Psi-\partial_y^2\Psi=k\_\*^2\Psi. \\]
+>
+> Separating variables gives
+>
+> \\[ \boxed{ -Z_n''+ \left(\frac{2\pi n+\theta}{L}\right)^2 Z_n =k\_\*^2Z_n. } \\]
+>
+> And here's the important consequence.
+>
+> If
+>
+> \\[ \boxed{ \left(\frac{2\pi n+\theta}{L}\right)^2>k\_\*^2, } \\]
+>
+> then the mode becomes evanescent:
+>
+> \\[ \boxed{ Z_n(z)\propto e^{-\kappa|z|}, \qquad \kappa= \sqrt{ \left(\frac{2\pi n+\theta}{L}\right)^2-k\_\*^2 }. } \\]
+>
+> Berry-like holonomy creates a spectral threshold
+>
+> Relative phase \\(\theta\\)
+>
+> 140°
+>
+> Effective gap \\(k_0^2-k\_\*^2\\)
+>
+> ## 0.493
+>
+> Mode behavior
+>
+> ### Exponential
+>
+> Illustrative lowest-mode calculation with \\(L=2\\), \\(k\_\*=1\\). The phase shifts the permitted internal wave number and switches the spatial behavior from oscillatory to decaying.
+>
+> This is significant because it realizes the chain you want without making a Berry phase itself attenuate anything:
+>
+> \\[ \boxed{ \text{Relative holonomy} \to \text{Shift of internal modes} \to \text{Forbidden spatial propagation} \to \text{Exponential decay}. } \\]
+>
+> The entire model can be interpreted as a classical wave or geometric-mode system. There's no need to assert that galactic matter is literally quantum-tunneling through space.
+>
+> A physical PG model would still have to derive why such a wave field exists, what its modes represent, and why a particular decaying solution is selected.
+>
+> ## 3. And the Hopf-fiber length gives us an immediate quantitative test
+>
+> This is perhaps the most interesting connection to the existing v36.3 architecture.
+>
+> Recall the specified fiber length
+>
+> \\[ L_H=\Omega L_H^{\rm ref}. \\]
+>
+> If the relevant relative phase acts around a circle whose physical circumference is \\(L_H\\), then the lowest possible spectral contribution is
+>
+> \\[ \boxed{ \mu\_{\rm clash}^2 = \frac{1}{L_H^2} \min\_{n\in\mathbb Z}(2\pi n+\theta)^2. } \\]
+>
+> So Law I's determination of the fiber length could influence the strength of a clash-induced gap.
+>
+> This would be a concrete connection between gravity, fiber geometry and localization.
+>
+> But it exposes a sharp scale problem.
+>
+> For a unit-coupled field in this minimal toy, the lowest-mode wave number is bounded by
+>
+> \\[ \mu\_{\rm clash}\leq\frac{\pi}{L_H}. \\]
+>
+> If we use the manuscript's exploratory convention
+>
+> \\[ L_H^{\rm ref}=2\pi\ell, \\]
+>
+> then
+>
+> \\[ \boxed{ \mu\_{\rm clash}\leq\frac{1}{2\ell}. } \\]
+>
+> For \\(\ell=16\\) kpc, the shortest amplitude decay length generated by this gap alone would be about 32 kpc. A squared-amplitude intensity would have a decay length no smaller than about 16 kpc.
+>
+> That's nowhere near a thin galactic disk!
+>
+> I actually regard this as a valuable result. It means that simply declaring the existing macroscopic Hopf circle to be the clash direction would probably be insufficient.
+>
+> To make the model work, we'd need some additional independently justified scale, perhaps a shorter effective relative circle, an anisotropic kinetic operator, or a coupling that amplifies the gap. We must not insert that amplification merely to reproduce an observed disk thickness.
+>
+> And the relevant relative circle isn't automatically the existing canonical Hopf fiber. PG would need an explicit construction identifying their metrics or explaining their difference.
+>
+> ## 4. The sine-exponential gives us another precise target
+>
+> Suppose the intended intensity or density is
+>
+> \\[ I(\chi)\propto e^{-(\ell/h)\sin\chi}. \\]
+>
+> Then the corresponding amplitude would be
+>
+> \\[ \Psi(\chi)\propto e^{-(\ell/2h)\sin\chi}. \\]
+>
+> Let \\(s=\ell\chi\\) be physical arc length. Its logarithmic decay rate is
+>
+> \\[ \boxed{ -\frac{d\ln\Psi}{ds} = \frac{\cos\chi}{2h}. } \\]
+>
+> Thus, in a leading WKB interpretation, the effective evanescence rate would need to behave approximately as
+>
+> \\[ \boxed{ \kappa\_{\rm radial}(\chi) \sim\frac{\cos\chi}{2h}. } \\]
+>
+> Near the galactic center, that approaches the ordinary exponential rate \\(1/(2h)\\).
+>
+> Approaching the equator, it decreases smoothly toward zero.
+>
+> That's an interesting geometric signature for the double-Hopf theory to explain.
+>
+> Strictly, WKB breaks down where the local logarithmic rate becomes small. If we substitute that amplitude into the exact one-dimensional equation, the required potential gap is
+>
+> \\[ \boxed{ \frac{V\_{\rm eff}-\lambda}{\varepsilon^2} = \frac{\cos^2\chi}{4h^2} + \frac{\sin\chi}{2h\ell}. } \\]
+>
+> The second term is the derivative correction missed by the leading WKB picture. This is an inverse reconstruction of the required potential, not a derivation of it.
+>
+> For a genuine radial mode, the radial Laplacian and its geometrical measure must also be included. That matters especially at the center, where a simple exponential radial profile has a cusp.
+>
+> But the equation tells Claude exactly what a proposed Berry-clash operator must reproduce if it's to explain your sine-exponential rather than merely resemble it.
+>
+> ## 5. How this compares with Feynman's path integral
+>
+> There are two useful analogies.
+>
+> For ordinary real-time quantum propagation, path contributions have the form
+>
+> \\[ e^{iS/\hbar}. \\]
+>
+> Different paths can cancel through destructive interference. Berry phases modify those interference conditions; they can shift or suppress particular amplitudes.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://materia.fisica.unimi.it\&sz=32)
+>
+> Materia
+>
+>
+>
+> But that cancellation doesn't generically produce a spatial exponential.
+>
+> In imaginary-time or Euclidean semiclassical treatments, one instead encounters weights of the form
+>
+> \\[ e^{-S_E/\hbar}, \\]
+>
+> which is the more direct analogue of exponential suppression in a tunneling calculation.
+>
+> These are connected by analytic continuation, but the continuation has to be justified. One cannot simply replace \\(i\\) with a real negative sign whenever a suppression mechanism is desired.
+>
+> For PG, this suggests a useful two-stage picture:
+>
+> Geometric phase determines compatibility and the allowed mode spectrum; the field's real differential equation determines whether those modes propagate or decay.
+>
+> That's closer to established tunneling mathematics than claiming a Berry phase is itself an exponential penalty.
+>
+> It would also leave open a possible relationship with PG's Kerr complexification, while keeping separate the imaginary structures used in Lorentzian spacetime, internal phase transport and evanescent-mode analysis.
+>
+> ## The checks I'd add to PG
+>
+> I would make the new mechanism pass these tests before promoting it from analogy to physical law:
+>
+> - Phase invariance: The clash must be defined by a gauge-invariant Wilson loop, relative holonomy, or connection-derived invariant—not an arbitrary phase difference.
+> - Actual spectral threshold: A calculated field operator must change from propagating to evanescent modes when clash exceeds a derived threshold.
+> - No unwanted clash: Permitted in-plane and non-clashing extra-dimensional motions must not automatically generate a gap through Hopf holonomy.
+> - Two-scale prediction: The same operator must predict a much shorter normal decay scale than radial decay scale, and reproduce the sine-exponential benchmark without fitting both scales afterward.
+> - Correct gravitational meaning: Determine whether the attenuated field is an optical response, a physical matter occupation, or both, and include its stress-energy consistently with Law I.
+>
+> The last issue is important: because Law I's gravitational source includes physical middle-space matter, a purely optical attenuation cannot simply erase its gravitational contribution.
+>
+> ### My verdict
+>
+> I think this is a particularly good sanity check because it offers a way to falsify the simplest interpretation of the clash \\(U(1)\\).
+>
+> The standard Berry phase by itself cannot do the job. But a Berry-like holonomy coupled to a compact internal mode can shift the spectrum, creating exactly the kind of evanescent-versus-oscillatory threshold you're looking for.
+>
+> And the fiber's physical length then determines a characteristic scale, bringing the idea into direct contact with Law I's existing fiber-length prescription.
+>
+> If that scale turns out wrong—as it does for the simplest macroscopic-circle toy—then the model has learned something substantial before invoking additional physics.
+>
+> I would phrase the central research target as: derive galactic exponential localization as a holonomy-induced spectral gap, with the sine-exponential as the radial benchmark and the thin-disk vertical profile as the strongly localized mode.
+>
+> That connects your Berry intuition, the second-order threshold idea and the existing Hopf geometry in a way that can genuinely be calculated and tested.
+
+**Entry 345 (4:57 PM, Oct 18, 2026), in the author's words.**
+
+> Also by the way the fundamental matter-based idea I want to shoot for is that a profound amount of redundancy exists either in Feynman diagrams or whatever else in terms of underlying spaces and all (already touched on briefly in projective gravity) for which basically as we switch between particles or flavors or whatever it is in the standard model particle inventory, right, basically each particle actually exists in a co-space or something for which sort of the lattice meet corresponds more to the gravity base spaces (as keeps propagator centron structure but loses non-isotropic centrade structure) all while some amount of the actual centrade structure and or kinematics is basically talking about projections into different co-spaces that we conventionally/paradigmatically impose rigidity onto by imposing the assumption of a single shared “spacetime”—but the actual picture is more that you get the one underlying space, then projections into each co-space, and then the Feynman diagram formalism is our not yet realizing the redundancy at play. So yeah like my reflectrons idea is one proposed realization, and also quite frankly we might want to look for parallels (even just lightly) with the particle-hedron research program or whatever, since they’re literally already finding weird structural flukes at play, which could maybe be relevant here. But yeah hopefully you see what I mean—different somethings (particles, reflectrons, or whatever it is) live in different co-spaces, and then what we call conventional middle space or spacetime or however it gets parsed is the trying to impose this to one space, (so for one random example possibility maybe the four reflectrons index four co-spaces, and when we try to force them into one spacetime, the vertices/centrade structure is the redundancy poles we have to pin down to even topologically state such or something), and yeah so the fundamental question becomes how much of spacetime is emergent from this imposing operation rather than being ontologically fundamental. Such is the idea, anyway I suppose! Thanks!
+
+**The response on Entry 345 (attached).**
+
+> Yes! I think I see the additional ontological step you're proposing—and it connects quite directly to some unfinished pieces of PG that are already in v36.3.
+>
+> The central idea, as I understand it, is:
+>
+> Perhaps ordinary spacetime is not the primitive arena in which all particles already coexist. Instead, it is the common structure obtained when several more fundamental, partially compatible descriptions are forced into a single relational account.
+>
+> And then a Feynman diagram isn't necessarily a literal picture of microscopic objects interacting at pre-existing spacetime points. It could be a representation of which relationships survive, and which identifications must be made, when the underlying descriptions are combined.
+>
+> That's a considerably more radical claim than merely introducing extra dimensions.
+>
+> There's a specific mathematical way to begin making it precise, and there's a surprisingly good parallel with the amplituhedron research program.
+>
+> ## 1. I would distinguish three levels of structure
+>
+> I think the hierarchy you're describing is something like this:
+>
+> Underlying canonical / relational structure
+>
+> # \\(\mathcal E\\)
+>
+> The complete structure, before particle-specific renderings are identified
+>
+> Co-space A
+>
+> \\(\mathcal C_A\\)
+>
+> One particle or history representation
+>
+> Co-space B
+>
+> \\(\mathcal C_B\\)
+>
+> Another compatible representation
+>
+> Co-space C
+>
+> \\(\mathcal C_C\\)
+>
+> Another retained internal structure
+>
+> Common relational / gravitational structure
+>
+> \\(\mathcal B\_{\rm common}\\)
+>
+> Information compatible across the admitted descriptions; potentially PG's gravity base
+>
+> Emergent conventional spacetime description
+>
+> One apparent system of events, propagation and interactions
+>
+> This is a proposed mathematical architecture, not something PG has derived.
+>
+> And I would make one further distinction: the gravitational common structure and the conventional observed spacetime need not be exactly the same object. PG already distinguishes the Law I gravitational base from the selected representation in which observations are made.
+>
+> That difference may be essential to the proposal.
+>
+> ## 2. The key idea is not necessarily that particles occupy different universes
+>
+> I would initially use a more precise statement:
+>
+> > Different particle sectors may realize different quotient spaces, bundles or relational representations of one common canonical structure. Their common information determines part of the effective spacetime geometry, while their non-common information survives as particle-specific kinematics, phases, charges and interaction structure.
+>
+> Why phrase it this way?
+>
+> Because a field's internal state space is not automatically a separate physical spacetime.
+>
+> Ordinary QFT already gives electrons, photons and quarks different representation spaces and bundles, while putting their fields over one common spacetime.
+>
+> Your genuinely new proposal would be that the common spacetime itself is derived from the compatibility relations among those different spaces, rather than assumed as their common base at the outset.
+>
+> That is the part needing a theorem.
+>
+> ## 3. PG already contains an exceptionally relevant precursor
+>
+> I checked the manuscript's §XXVI.2 on co-middle renderings, and the result is almost tailor-made for this discussion.
+>
+> It considers distinct Hopf fibrations of the same \\(S^3\\), each producing a different downstairs description.
+>
+> One Hopf quotient preserves an axially symmetric class of information.
+>
+> But two nonparallel Hopf-circle actions generate all of \\(SU(2)\\), so the information invariant under both is only the isotropic component.
+>
+> In symbols, schematically,
+>
+> \\[ \boxed{ \mathcal I\_{H_1}\cap\mathcal I\_{H_2} = \mathcal I\_{SU(2)} } \\]
+>
+> for suitably defined spaces of scalar shell data.
+>
+> That is an exact example of richer descriptions having a smaller, jointly surviving content.
+>
+> And it resembles your thought that the gravity base might retain centron-like propagation information while discarding some directional centrade information.
+>
+> However, the manuscript also discovered a very important obstruction.
+>
+> If we literally quotient the underlying shell by both nonparallel Hopf actions, we collapse too many dimensions.
+>
+> The manuscript therefore distinguishes:
+>
+> \\[ \boxed{ \text{Common invariant information} \neq \text{literal quotient by all the actions}. } \\]
+>
+> That is an essential distinction for your new idea. The common gravitational information may be an invariant part of source data, not a naive intersection of physical spaces. This is developed further in §XXVI.8's proposed rendering-invariance law.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> And that gives us a first candidate for your lattice-meet intuition.
+>
+> ## 4. The mathematical object I would try first is a system of correspondences
+>
+> Suppose we have particle-specific co-spaces
+>
+> \\[ \mathcal C_i,\qquad i\in\mathcal P, \\]
+>
+> where \\(\mathcal P\\) labels the relevant sectors.
+>
+> Let each admit a map to the common relational base:
+>
+> \\[ \boxed{ p_i:\mathcal C_i\longrightarrow B. } \\]
+>
+> Now, how do two different sectors count as interacting at the same event?
+>
+> Instead of assuming they're literally at the same point of one primitive manifold, construct the fiber product:
+>
+> \\[ \boxed{ \mathcal I\_{ij} = \mathcal C_i\times_B\mathcal C_j. } \\]
+>
+> Its points are pairs
+>
+> \\[ (x_i,x_j) \\]
+>
+> for which
+>
+> \\[ \boxed{ p_i(x_i)=p_j(x_j). } \\]
+>
+> In words:
+>
+> Two distinct co-space events become one common event when their surviving relational information agrees.
+>
+> That seems very close to what you're calling the act of imposing shared spacetime.
+>
+> For three interacting sectors, the analogous object is
+>
+> \\[ \boxed{ \mathcal I\_{ijk} = \mathcal C_i\times_B\mathcal C_j\times_B\mathcal C_k. } \\]
+>
+> Now imagine a Feynman vertex emerging as an admissible interaction on \\(\mathcal I\_{ijk}\\).
+>
+> One proposed interpretation of a vertex
+>
+> The central node need not be primitive. It could represent an admissible identification among events from different co-spaces. The diagram is conceptual; physical vertex amplitudes still require additional data.
+>
+> The construction is standard mathematics.
+>
+> What would be new is the physical claim that interactions in QFT arise this way.
+>
+> We would need an interaction kernel \\(K\_{ijk}\\) on the compatibility space, an integration measure, and a dynamical rule selecting which configurations contribute.
+>
+> Simply constructing a fiber product does not generate a coupling constant or an amplitude.
+>
+> Also, the maps to \\(B\\) were assumed above. In the strongest version of your hypothesis, \\(B\\) itself must be derived as a universal common-information object from the original relational structure.
+>
+> Otherwise we've just hidden conventional spacetime inside the definition of the projections.
+>
+> ## 5. Your four reflectrons may become more interesting in this picture
+>
+> Recall the four-reflectron setup in v36.3.
+>
+> With four labeled reflectrons,
+>
+> \\[ (r_1,r_2,r_3,r_4), \\]
+>
+> there are exactly three ways to divide them into unordered pairs:
+>
+> \\[ \boxed{ (12)(34),\qquad (13)(24),\qquad (14)(23). } \\]
+>
+> The manuscript already derives this counting and checks its relation to Wick pairings.
+>
+> What you're now suggesting is a further interpretation:
+>
+> Perhaps the reflectrons are not merely four worldlines drawn in conventional spacetime. Perhaps each carries its own relational realization, and pairing them is part of constructing what counts as a shared spacetime interaction.
+>
+> That could give the regroupings a more ontological meaning.
+>
+> For example, each pairing could select a different correspondence
+>
+> \\[ \mathcal C_i\leftrightarrow\mathcal C_j, \\]
+>
+> with the common interaction diagram recording which identifications are consistent.
+>
+> But I'd preserve an important distinction:
+>
+> Four reflectrons do not automatically imply four physically distinct co-spaces.
+>
+> Four reflectrons could be four objects within two co-spaces, four sections of one bundle, or four genuinely different reductions.
+>
+> The theory must choose one interpretation and demonstrate why that choice is structurally necessary.
+>
+> There's also an existing result we must not forget: the formalized two-reflectron matching rule fails to produce the full required three-loop QED vertex structure. It produces 23 of the 30 relevant target diagrams, alongside extra diagrams, and doesn't supply their amplitudes or weights.
+>
+> So the co-space idea might provide a way to improve the reason for admissibility, but it doesn't erase that failed test.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> ## 6. The amplituhedron connection is real—and surprisingly close in spirit
+>
+> I couldn't verify an established research program specifically named “particlehedron.” I suspect you're thinking of the amplituhedron and the related positive-geometry program, including associahedra and cosmological polytopes.
+>
+> The original [Amplituhedron paper](https://arxiv.org/abs/1312.2007?utm_source=chatgpt.com) by Nima Arkani-Hamed and Jaroslav Trnka shows that certain scattering amplitudes in planar maximally supersymmetric Yang–Mills theory can be obtained from a geometric object instead of being built by summing conventional Feynman diagrams.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://arxiv.org\&sz=32)
+>
+> arXiv
+>
+> +1
+>
+>
+>
+> And here's the especially relevant part.
+>
+> In some positive-geometry constructions, a Feynman-diagram expansion is just one triangulation of a deeper geometric object.
+>
+> Different triangulations may produce different-looking collections of terms while representing the same final amplitude.
+>
+> The full geometry has an invariant meaning that the individual decompositions don't make obvious.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://www.researchgate.net\&sz=32)
+>
+> ResearchGate
+>
+> +1
+>
+>
+>
+> Conventional amplitude description
+>
+> \\[ \mathcal A=\mathcal A_1+\mathcal A_2+\cdots+\mathcal A_N \\]
+>
+> Many diagrammatic contributions whose sum is physical
+>
+> Positive-geometry description
+>
+> \\[ \mathcal A=\Omega(\mathcal P) \\]
+>
+> One canonical geometric object, with diagrammatic expansions arising from particular decompositions
+>
+> That's a genuinely useful parallel for PG.
+>
+> Your reflectron idea asks whether the multiplicity of diagrams could arise from different admissible joinings of deeper histories.
+>
+> The positive-geometry program demonstrates, in specific theories, that different decompositions can indeed obscure simpler underlying amplitude geometry.
+>
+> But an important limitation: amplituhedra do not establish that different Standard Model particles inhabit different spacetimes, or that ordinary spacetime is created by identifying those spacetimes.
+>
+> That would be your additional conjecture.
+>
+> For another relevant example, the [cosmological polytope program](https://arxiv.org/abs/1709.02813?utm_source=chatgpt.com) connects diagrammatic contributions to a geometric construction whose singularities organize cosmological wavefunctions. It's particularly interesting because it links spacetime evolution and scattering structures without beginning from exactly the same conventional perturbative organization.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://arxiv.org\&sz=32)
+>
+> arXiv
+>
+> +1
+>
+>
+>
+> ## 7. How much spacetime could emerge from the imposed jointness?
+>
+> I think we should distinguish three increasingly strong claims.
+>
+> | Level                          | What becomes emergent?                                                               | Current standing                                                               |
+> | ------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+> | I. Diagrammatic redundancy     | Different decompositions and matchings of interaction amplitudes                     | Established in particular amplitude theories; partly modeled by PG reflectrons |
+> | II. Shared event structure     | Which events across co-spaces count as the same spacetime event                      | A mathematically coherent PG construction target                               |
+> | III. Spacetime geometry itself | Four dimensions, Lorentzian signature, null cones, proper time and Einstein dynamics | A much stronger conjecture, not yet derived                                    |
+>
+> Level II is probably the best place to begin.
+>
+> It would already be substantial if conventional spacetime points were not primitive labels but emerged as equivalence classes of cross-co-space relations.
+>
+> Then Level III would ask whether the resulting compatibility object also determines the metric and causal structure.
+>
+> This connects directly to Part XXIX's centrade–centron dependency hypothesis.
+>
+> In that chapter, the proposed assignment is:
+>
+> \\[ \boxed{ \begin{aligned} \text{Centrade}&:\text{compatibility, interaction, incidence},\\\ \text{Centron}&:\text{propagation, persistence, spectral response}. \end{aligned} } \\]
+>
+> And the aim is for the causal/conformal structure and curvature-sensitive propagation to arise jointly from those primitive relational roles.
+>
+> That is conceptually very similar to what you're now proposing—except your new idea identifies particle-dependent co-spaces as possible intermediate objects between the canonical structure and the conventional spacetime description.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> ## 8. There's an important way this could strengthen Law I
+>
+> Your gravitational idea would become:
+>
+> \\[ \boxed{ \text{Gravity responds to relationally shared source information,} } \\]
+>
+> while the particle-specific projections retain additional structure relevant to interactions and propagation.
+>
+> That is close to §XXVI.8's proposed rendering-invariance law.
+>
+> However, we should avoid interpreting common information as automatically meaning isotropic matter.
+>
+> A galaxy is anisotropic. Two separated masses generate a nonuniform gravitational field. Kerr's exterior is axially structured.
+>
+> The source reduction must preserve the appropriate multipoles and local conservation laws.
+>
+> In other words, the gravitational meet should discard representation-dependent redundancy, not genuine gravitational information.
+>
+> That's a very important distinction.
+>
+> And there's a technical trap: even if a projection \\(P\\) removes some redundant components of source data, generally
+>
+> \\[ \nabla\_\mu(PT)^{\mu\nu} \neq P(\nabla\_\mu T^{\mu\nu}) \\]
+>
+> when the projection varies in space.
+>
+> So the resulting gravitational source won't automatically be conserved.
+>
+> This is why the manuscript insists that the reduced source must come from a covariant parent variational principle, not merely from averaging or intersecting information spaces.
+>
+> ## 9. I think there's one decisive mathematical experiment
+>
+> Before constructing a whole Standard Model inventory of co-spaces, I would start with one QED interaction.
+>
+> Take an incoming electron, outgoing electron and photon, each represented through whatever co-space structure PG assigns.
+>
+> Then ask whether their common interaction can be constructed from relational compatibility alone.
+>
+> The experiment should derive:
+>
+> - The admissible interaction incidence structure, not assume the QED vertex shape in advance.
+> - The electron and photon propagators, including their poles and massless versus massive characteristics.
+> - The correct vertex coupling, symmetry factors and fermionic signs.
+> - The Ward–Takahashi identity, relating the electron vertex to its propagator.
+> - The same measurable amplitude independently of which admissible co-space description or reflectron regrouping is used.
+>
+> The Ward identity is particularly valuable because it ties the interaction and propagation sectors together.
+>
+> That is exactly what your centrade/centron proposal says should happen.
+>
+> And this test would force a determination of what physical information survives the common reduction and what remains specific to each sector.
+>
+> If successful, it would be far more convincing than counting how many familiar Feynman diagrams a matching rule can reproduce.
+>
+> ## My main takeaway
+>
+> I think your current idea can be expressed as one particularly sharp conjecture:
+>
+> \\[ \boxed{ \begin{gathered} \text{One canonical relational structure}\\\ \downarrow\\\ \text{Multiple physically admissible co-space realizations}\\\ \downarrow\\\ \text{Compatibility relations among those realizations}\\\ \downarrow\\\ \text{Common gravitational and causal structure}\\\ +\ \text{sector-specific propagating information}\\\ \downarrow\\\ \text{Conventional spacetime and Feynman amplitudes}. \end{gathered} } \\]
+>
+> The most interesting possibility is that what we call a Feynman vertex is not fundamentally a point at which particles meet. Instead, it is the condition under which several independently described histories are allowed to count as one interaction event.
+>
+> Then the multiplicity of Feynman diagrams might reflect alternative compatible decompositions of one deeper relational process.
+>
+> That's not something the present mathematical results establish. But it is a well-posed direction for PG, especially because the manuscript already has the co-middle family, common-invariant source ideas, centrade–centron distinction and reflectron matching tests.
+>
+> And I think it suggests a powerful organizing principle for the next stage:
+>
+> Don't begin by demanding that different particle sectors share a spacetime. Begin by deriving which relational information they must share for interactions, conservation laws and gravity to be possible. Then investigate whether spacetime is the resulting common structure.
+>
+> That, more than just adding co-spaces to an existing field theory, would actually test how much of spacetime PG can make emergent.
+
+**What v36.4 does with them: nothing but the record.** Three checks and one ontological proposal are named, each a round's work: (i) Entry 342 and its response — the areal radius $\ell\sin\chi = \sqrt{g(\xi,\xi)}$ as the geometric reading of §XXXIII.35's $e^{-a\sin\chi}$, the eikonal identity $\lvert\nabla W\rvert^2 = (1-\rho_{\rm area}^2/\ell^2)/h^2$, a covariant localization equation as the target, the Hopf-fiber length $L_H = \Omega L_H^{\rm ref}$ of §III.2 and the circle-bundle curvature with the Berger-sphere caveat, the two-direction block $H_{IJ}$ and its topological obstruction, and the response's citation of a June 2026 Physical Review Letters paper on Kerr from self-dual and anti-self-dual Taub–NUT instantons (recorded as the response gives it; not verified in this round); (ii) Entry 343 and its response — the Solar-System observational-equivalence criterion, with the stereographic chart's $(1\,{\rm AU}/\ell)^2\approx10^{-19}$ and the galaxy-centred chart's $\lvert\Delta\ln\Omega\rvert\approx10^{-10}$ across 1 AU as chart-dependent scales, the Milky Way's tidal acceleration $\sim10^{-19}$ m/s$^2$, and the conformal Einstein-tensor residual as the quantity to compute — a sharper form of Entry 329's criterion (§XXXIII.40); (iii) Entry 344 and its response — the chain holonomy $\to$ spectral gap $\to$ evanescence, the Aharonov–Bohm shift $k_n = (2\pi n+\theta)/L$, the bound $\mu_{\rm clash}\leq\pi/L_H = 1/(2\ell)$ (a decay length of at least $32$ kpc from the macroscopic Hopf circle alone, against a thin disk), and the inverse-reconstructed potential $(V-\lambda)/\varepsilon^2 = \cos^2\chi/4h^2+\sin\chi/2h\ell$ for the sine-exponential's amplitude. The response on Entry 344 also corrects a term: tunnelling is below the barrier, so the analogue sought is the evanescent regime. (iv) Entry 345 and its response — particles in co-spaces whose meet is the gravity base, spacetime as the imposed common structure, Feynman diagrams as unrecognized redundancy; the response's system of correspondences $p_i:\mathcal C_i\to B$ with the fiber product $\mathcal C_i\times_B\mathcal C_j$ as the shared event, the co-middle result $\mathcal I_{H_1}\cap\mathcal I_{H_2} = \mathcal I_{SU(2)}$ of §XXVI.2 as the precursor with its obstruction (common invariant information is not the literal quotient), the reflectron matching rule's standing failure ($23$ of $30$ three-loop vertex diagrams, no amplitudes), the amplituhedron parallel (the author's "particle-hedron"), the three levels (diagrammatic redundancy, shared event structure, spacetime geometry), the non-conservation trap $\nabla_\mu(PT)^{\mu\nu}\neq P(\nabla_\mu T^{\mu\nu})$, and one decisive experiment (one QED vertex with its Ward–Takahashi identity from compatibility alone). This belongs with Part XXIX's centrade–centron hypothesis and Part XXXII's reflectrons; it is a program item, not a check. These join §XXXIII.48's list for v36.5 in the order the author's checks name them: the Solar-System criterion on the stereographic chart (Entry 343), the areal-radius generalization and its eikonal (Entry 342), the holonomy gap and the fiber-length scale (Entry 344), Entry 345's co-space program recorded beside Parts XXIX and XXXII, with the joint model and the clash invariant restated unchanged.
+
+## Round record: the version summaries, v16 to v36.4 (moved from the head of the archive in v34.9, R190)
+
+*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v36.4, v36.3, v36.2, v36.1, v36.0, v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+
+> **v36.4 — the v36.3 review and Entries 340–341 (18 October 2026): the fixed-point erratum and the two ensembles, the radial–normal duality, the clash test. Parts XXX–XXXII frozen at v35.8.**
+>
+> *What was asked.* The review of v36.3: keep it as the research draft with a numerical erratum (the fixed-point section crashed on the referee's machine at its fold search) and a qualification of the branch classification (rotations do not identify all modes of a given $l$); next, fix the continuation, test dynamical stability, build the smallest double-Hopf clash model, and the joint model. Entry 340: the sine came from muffling the tangent's asymptote, $f\to\sqrt{1/(1/f^2+1)}$ (the response's $f/\sqrt{1+f^2}$). Entry 341: a transformation making the normal and radial exponentials trade places; the radial direction as the thing that trades; the CMB dipole as the plane of the local orbital direction and the normal. The response: the three self-dual pairs of bivectors, $*_3(\mathbf e_\phi\wedge\mathbf n) = \mathbf e_R$, the exchange rotation, a response tensor with two eigenvalues, the dipole's decomposition, the Hopf map's descent to $\mathbb{RP}^3$.
+>
+> **What v36.4 does (R349–R355; §§XXXIII.44–50).**
+> - The erratum: the fold by continuation in the central density, $\theta = 1.065$ on both grids, the crash gone (in the v36.3 section too).
+> - Stability in two ensembles: canonical = the iteration's (proved); microcanonically the concentrated isothermal branch is an entropy maximum between contrast $3$ and $55$, axisymmetrically and in the sectors $m\leq4$ — a hot, pressure-supported state, $\sigma = 103$–$120$ km/s against its own $v_\infty = 100$–$171$; the ring stable only axisymmetrically (unstable to $m = 2$ in both ensembles, hence Picard-unstable on the sphere); the uniform disk stable only when hot; dynamical stability not computed. The branch count scoped to axisymmetric equilibria (the uniaxial/biaxial example); §XXXIII.38 corrected in place.
+> - Entries 340–341: the sine identity; the three self-dual pairs and the duals; the local exchange rotation (a change of frame until a law turns the internal structure); the response tensor; the CMB dipole $4.0^\circ$ from the orbital–normal plane (a fact, not a prediction); the Hopf map descends to the quotient.
+> - The smallest clash model's first test: the relative Hopf curvature is blind to any pair of sectors congruent by a fixed rotation — the exchange-odd departure it was built from among them; it sees a one-sector tilt or a reflected pairing.
+> - Independent referees checked the round before delivery.
+> - Entries 342–345 and their responses, received at the close of the round, recorded verbatim (§XXXIII.50, R354) and not worked: the areal-radius reading of the sine-exponential, the Solar-System observational-equivalence criterion, the holonomy spectral gap, the co-space program.
+> - A rendering repair in frozen §XXX.11 (R355), marked: a doubled brace in a subscript, which the author's site's templating engine read as a tag; the mathematics unchanged.
+>
+> **Next.** The joint model against DDO 154; the clash invariant restated, with a frame identification, a transport law and an action; dynamical stability and the non-axisymmetric equilibria; Entries 342–345's three checks (the Solar-System criterion on the stereographic chart first); Entry 329's criterion; the standing list; the author's choice for the cap.
 
 > **v36.3 — the v36.2 review and Entries 325–339 (17 October 2026): two regular source families, the isothermal fixed points, the null cone, the split model, the $\mathfrak{so}(4)$ sectors. Parts XXX–XXXII frozen at v35.8.**
 >
