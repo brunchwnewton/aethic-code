@@ -1,8 +1,8 @@
-# Projective Gravity — Version 36.4 (draft): the observed rotation curve
+# Projective Gravity — Version 36.5 (draft): the observed rotation curve
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases — with branches on charge and extremality, and on rendering and canonical optics
 
-**Claim status of Part XXXIII (v36.4).** This table governs the open work: Part XXXIII, the observed rotation curve. Parts XXX–XXXII are frozen at v35.8, and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the two frozen tables that follow, unchanged except for marked post-freeze notes; v36.0 added such notes and pointers in §§XXXI.37, XXXI.38, XXXI.41, XXXII.5 and XXXII.7 and in four rows (R313); v36.1–v36.4 add none. v36.1 was the corrective round on the two reports on v36.0 (§XXXIII.14), §XXXIII.24 listing each v36.0 claim against its status; v36.2 answers Entries 323–324 and the two responses on them (§XXXIII.27), with the rows marked R332–R337 added, the row on Entry 322's family reworded (R332; its v36.1 text quoted under R337) and the row on the next pieces extended (R337); v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§XXXIII.34), with the rows marked R339–R348 added, the occupancy row reworded for the review's two distinctions (R347; its v36.2 text quoted there) and the row on the next pieces extended (R348); v36.4 answers the review of v36.3 and Entries 340–341 with the response (§XXXIII.44), with the rows marked R349–R354 added, the isothermal row extended for the erratum and the two ensembles (R350; its v36.3 text quoted there) and the row on the next pieces extended (R353). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*; a fit that fails is marked *(negative)*.
+**Claim status of Part XXXIII (v36.5).** This table governs the open work: Part XXXIII, the observed rotation curve. Parts XXX–XXXII are frozen at v35.8, and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the two frozen tables that follow, unchanged except for marked post-freeze notes; v36.0 added such notes and pointers in §§XXXI.37, XXXI.38, XXXI.41, XXXII.5 and XXXII.7 and in four rows (R313); v36.1–v36.5 add none (v36.4's one rendering repair in §XXX.11, R355, excepted). v36.1 was the corrective round on the two reports on v36.0 (§XXXIII.14), §XXXIII.24 listing each v36.0 claim against its status; v36.2 answers Entries 323–324 and the two responses on them (§XXXIII.27), with the rows marked R332–R337 added, the row on Entry 322's family reworded (R332; its v36.1 text quoted under R337) and the row on the next pieces extended (R337); v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§XXXIII.34), with the rows marked R339–R348 added, the occupancy row reworded for the review's two distinctions (R347; its v36.2 text quoted there) and the row on the next pieces extended (R348); v36.4 answers the review of v36.3 and Entries 340–341 with the response (§XXXIII.44), with the rows marked R349–R354 added, the isothermal row extended for the erratum and the two ensembles (R350; its v36.3 text quoted there) and the row on the next pieces extended (R353); v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§XXXIII.51), with the rows marked R356–R358 added, the occupancy and regular-family rows corrected for the kinematics erratum (R357; their v36.4 text quoted in the ledger), the isothermal and clash rows extended (R358) and the row on the next pieces extended (R359). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*; a fit that fails is marked *(negative)*.
 
 | claim | type | evidence | archive |
 |:--|:--|:--|:--|
@@ -22,24 +22,27 @@
 | The author's note on flavor directions, zoom labels and kinds of mass, and Entries 318–319, with three analyses; their algebra checked (three invariants, conjugation, the meridian toy); the flavor program held (R314) | record; analytic theorem; numerical control; open bridge | — | §XXXIII.9 |
 | Post-freeze notes from the review of v35.8: inverse optics narrowed to the specified local class; reflectrons' two-loop agreement not evidence of generation; the plateau's tracers not of negligible mass; the review's corrected speeds reproduced (R313) | definition (scope); numerical control | the review of v35.8 | §XXXIII.8 |
 | The two reports on v36.0 and the author's three responses with Entry 322, recorded; the current-results page (R328, R329) | record; definition (status) | — | §§XXXIII.14, 24 |
-| Orbital occupancy on the leaf (Entry 323): a thin collisionless population on the great 2-sphere in the twin field, by Schwarzschild's method. The disk's crossing orbits are slowest at the equatorial barrier ($0.3$ of a period within $10^\circ$ of it just above the barrier energy); each orbit's share of the plateau coefficient is positive if trapped, negative if crossing. The thin exponentials (gnomonic $h/\ell = 0.1875$; arc-length $h = 3$ kpc) are stationary populations as cold as the library resolves, and, when the exponential is identified with the full folded gravitating source, trapped: that source's density at the equator excludes crossing orbits (at most $1\%$; $2$–$14\%$ with only the measured range matched) — reproduced by the linear program, not predicted *[v36.3, R347]*. The broad gnomonic disk ($h/\ell = 1$) is a stationary population only as a hot one ($\sigma_r\geq35$ km/s inside $30$ kpc). The dwarfs' gnomonic sources admit no axisymmetric in-plane placement of their required outer mass that keeps circular support at every measured radius (every ring's field negative there; at best $8/12$, $15/34$) and no stationary population with the observed rotation colder than $\sigma_r = 27$–$35$ km/s for the stars-plus-gas mixture (DDO 154: none below $400$ km/s in the pushforward's field, and none at all for its stellar image alone; IC 2574's gas alone $\geq19$), against observed HI dispersions of $7$–$10$ km/s. The occupancy places the mass the HI total requires; it cannot remove it (R332) | analytic theorem; numerical control; observational comparison (negative) under the gnomonic premise | THINGS dispersions (Oh et al. 2008, 2011; Ianjamasimanana et al. 2015) | §XXXIII.28 |
+| Orbital occupancy on the leaf (Entry 323): a thin collisionless population on the great 2-sphere in the twin field, by Schwarzschild's method. The disk's crossing orbits are slowest at the equatorial barrier ($0.3$ of a period within $10^\circ$ of it just above the barrier energy); each tested orbit's share of the plateau coefficient is positive if trapped, negative if crossing (not a rule: a crossing meridional-geodesic ensemble has $C = +1.13$ *[v36.5, R357]*). The thin exponentials (gnomonic $h/\ell = 0.1875$; arc-length $h = 3$ kpc) are stationary populations as cold as the library resolves, and, when the exponential is identified with the full folded gravitating source, trapped: that source's density at the equator excludes crossing orbits (at most $1\%$; $2$–$14\%$ with only the measured range matched) — reproduced by the linear program, not predicted *[v36.3, R347]*. The broad gnomonic disk ($h/\ell = 1$) is a stationary population only as a hot one in this library ($\sigma_r\geq35$ km/s inside $30$ kpc). The dwarfs' gnomonic sources admit no thin axisymmetric in-plane placement of their required outer mass that keeps circular support at every measured radius (the pointwise envelope and the mixture program: at best $8/12$, $15/34$ *[v36.5, R357]*) and, in these libraries, no stationary population with the observed rotation colder than $\sigma_r = 28$–$34$ km/s for the stars-plus-gas mixture (DDO 154: none below $400$ km/s in the pushforward's field, and none at all for its stellar image alone; IC 2574's gas alone $\geq19$), against observed HI dispersions of $7$–$10$ km/s — library witnesses with the velocity moments integrated along the orbit, not continuum certificates; the line-of-sight bridge a premise *[v36.5, R357]*. The occupancy places the mass the HI total requires; it cannot remove it (R332) | analytic theorem; numerical control; observational comparison (negative) under the gnomonic premise | THINGS dispersions (Oh et al. 2008, 2011; Ianjamasimanana et al. 2015) | §XXXIII.28 |
 | The rendering: the image of an arc-length exponential is exponential to $13\%$ out to $10$ kpc and shallower beyond (the rendering adds a tail, so an exponential image needs the $\sec^3\chi$ leaf); its curve rises without bound, because $C$ is finite for thin sources vanishing at the equator faster than $\cos\chi$ or smooth and even across it and diverges for a term linear in $\pi/2-\chi$ there (uniform: $C = 0$; $\cos\chi$: a logarithmic divergence; $\cos^{1.5}\chi$, $\cos^2\chi$: $4.690$, $3.534$). A fade adds mass: DDO 154 with $\varepsilon = \cos\chi$, $\cos^2\chi$ has $v_\infty = 279$, $214$ km/s on its enlarged arena leaves (R333) | analytic theorem; numerical control | — | §XXXIII.29 |
 | A conformal rendering: the maps keeping the leaf round are Möbius, rendering a uniform disk as $\Sigma_0/(\cosh s+\sinh s\cos\theta')^2$ — a cusp of unbounded depth, an $R^{-4}$ fall, a floor at the equator; rational, not exponential; an exponential needs $e^{2\omega}\propto\exp[(\ell/h)\tan\chi]$, divergent at the equator; the five-dimensional transformation law checked. Within the round leaf, this family only; beyond it, a new field from an action (R334) | analytic theorem; numerical control; open bridge | — | §XXXIII.30 |
 | Entry 324, the frame-selection hypothesis: a surface normal renders as $J^{-T}\mathbf n$; the gnomonic rendering images a great-sphere disk as a plane with the sphere's spatial normal — a central disk's normal is not turned; a non-great disk images as a quadric. The direction field and its action are held as a program (R335) | analytic theorem; numerical control; open bridge | — | §XXXIII.31 |
 | Entries 323–324 and the two responses, recorded (R336); the standing after v36.2 (R337) | record; definition (status) | — | §§XXXIII.27, 32 |
-| Two source families regular at the equator (Entries 326–327): $e^{-a\sin\chi}$ and the stretched uniform disk $k/(k^2\cos^2\chi+\sin^2\chi)^{3/2}$ — finite positive plateau coefficients ($2.64$, $2.50$ at the exponential's contrast; $0$ for the uniform disk), support everywhere; images exponential to $7\%$ over $2.7h$ then a power-law tail (Entry 326; the response's ratios $0.995$–$32.5$ reproduced), or the uniform image rescaled with no exponential range (Entry 327); stationary populations as cold as the library resolves, admitting crossing orbits up to $0.18$–$0.25$ of the mass (R340, R341) | analytic theorem; numerical control | — | §§XXXIII.35–36 |
+| Two source families regular at the equator (Entries 326–327): $e^{-a\sin\chi}$ and the stretched uniform disk $k/(k^2\cos^2\chi+\sin^2\chi)^{3/2}$ — finite positive plateau coefficients ($2.64$, $2.50$ at the exponential's contrast; $0$ for the uniform disk), support everywhere; images exponential to $7\%$ over $2.7h$ then a power-law tail (Entry 326; the response's ratios $0.995$–$32.5$ reproduced), or the uniform image rescaled with no exponential range (Entry 327); stationary populations as cold as the library resolves ($6.9$, $6.4$ km/s with the integrated moments), admitting crossing orbits up to $0.18$–$0.25$ of the mass with the density alone; jointly — the whole density matched, the inner dispersion capped at $10$ km/s — up to $6.9$–$9.0\%$ crossing; the v36.3 "quarter of its mass and stay cold" withdrawn (R340, R341; *[v36.5, R357]*) | analytic theorem; numerical control | — | §§XXXIII.35–36 |
 | The dwarfs with a member of either family as the whole gravitating source (arena leaf, $M_b$, one shape parameter): with the published errors $\chi^2/N = 142$–$180$ (DDO 154) and $50$–$87$ (IC 2574) against the gnomonic reconstruction's $9738$ and $1600$, and $49$–$72$ and $21$–$37$ against $743$ and $628$ with the errors floored at $1$ km/s — a factor $15$–$69$ either way; curves at their plateau where the observed ones still rise, the images unfitted; a one-parameter fit of the curve, not of the galaxy (R342) | observational comparison (negative) under stated premises | SPARC | §XXXIII.37 |
 | Self-consistent densities under the isothermal law (Entry 325, A): the uniform disk at every $\theta$; thresholds $\theta_l = 1/\lambda_l$ on even $l$ ($1.698$, $4.074$, …; $\theta_2$ is $\sigma = 97$ km/s on the Milky-Way-like leaf); one branch per even $l$, transcritical, the concentrated branch on the hot side and Picard-unstable (folding at $\theta\approx1.07$), the ring Picard-stable across the cold side until it collapses between $\theta = 3$ and $4$; the rotating law's rings; no Picard-stable cold state but a ring, none exponential — the count is the law's (R343); at fixed energy the concentrated branch is an entropy maximum between contrast $3$ and $55$, a hot state; the ring stable only axisymmetrically ($m = 2$-unstable); the classification axisymmetric only *[v36.4, R350]* | analytic theorem; numerical control | — | §XXXIII.38 |
 | The null cone of $\mathbb R^{4,1}$ (Entry 325, B): the boost's Möbius dilation with $\Omega = 1/(\cosh s-\sinh s\cos\theta)$, $(1-\beta)/(1+\beta) = e^{-2s}$; not descending to $\mathbb{RP}^3$ for $s\neq0$; the exact gnomonic exponential solves no globally regular $u''+Qu = 0$ on the leaf ($Q\to-(\ell/h)^2\sec^4\chi$), Entry 326's profile does; the accumulated rapidity chosen, not derived (R344, R345) | analytic theorem; numerical control | — | §§XXXIII.39–40 |
 | The split model (Entries 328–329): gravity on the pre-rendering source, the image $\cos^3\chi\,T\,\Sigma_G$ with $T$ fixed by the target for any $\Sigma_G$; the source family $1+b\cos^2\chi$ with $C$ from $0$ to $3.43$ and slow inner rises; the large-leaf test passed by the gnomonic factor ($3r^2/2\ell^2$) and failed by a transfer with a fixed $h$ read as a metric deformation ($d\ln T/dr = -1/h$ at every $\ell$): two scales needed; the acceptance criterion for a moving or anisotropic source not computed (R345) | analytic theorem; numerical control; open bridge | — | §XXXIII.40 |
 | Entries 330–339: $\mathfrak{so}(4) = \mathfrak{su}(2)\oplus\mathfrak{su}(2)$ in the even/odd basis, $SO(4)/SU(2)\cong SO(3)$ and $S^3 = SO(4)/SO(3)$ (machine precision); the two-vector toy's quadratic separation and signed twist; the quotient disk's normal one-sided (no "up" descends; a lift or a matter-selected label needed); a threshold mode with an exponential tail out of the plane ($\kappa$ to $0.2\%$ of $\sqrt{\gamma-\lambda}$), while a constant-gap radial mode is $K_0$, not an exponential (scale length $0.56$–$0.95$ of $1/\kappa$); the bundle $SO(3)/SO(2) = S^2$, the two-Hopf pair's exchange-even tensor (an oriented normal, an unoriented in-plane axis) and the Hopf map's complex structure, with the joint normal free until a selection law fixes it; the relative $U(1)$ fixing the projection, its Berry holonomy half the solid angle, the horizontal planes a contact structure (the clash phase is not the normal displacement everywhere); the action, the frame identification, the quotient's effect, that law and a gauge-invariant clash phase not done (R346) | analytic theorem; numerical control; open bridge | — | §XXXIII.41 |
 | The v36.2 review, Entries 325–339 and the fourteen responses, recorded (R339); the standing after v36.3 (R348) | record; definition (status) | — | §§XXXIII.34, 42 |
-| The isothermal fixed points, continued (the v36.3 review): the fold at $\theta = 1.065$ by continuation in the central density (an erratum: the v36.3 search crashed where Newton converged elsewhere); canonical stability is the iteration's ($\mu = -\theta\Sigma A\geq0$, $H_c = \Sigma^{-1}(1-\mu)$); microcanonically ($H_m = H_c+\theta^2\lvert\langle\phi,\delta\Sigma\rangle\rvert^2$) the concentrated branch is an entropy maximum between the energy turning points at contrast $3$ and $55$ ($\sigma = 103$–$120$ km/s against its own $v_\infty = 100$–$171$ on the Milky-Way-like leaf: pressure-supported), surviving the sectors $m\leq4$; the ring stable only axisymmetrically — unstable to $m = 2$ in both ensembles, hence Picard-unstable on the sphere; the uniform disk stable only when hot; dynamical stability not computed; the branch count axisymmetric only (R350) | analytic theorem; numerical control (an erratum corrected) | — | §XXXIII.45 |
+| The isothermal fixed points, continued (the v36.3 review): the fold at $\theta = 1.065$ by continuation in the central density (an erratum: the v36.3 search crashed where Newton converged elsewhere); canonical stability is the iteration's ($\mu = -\theta\Sigma A\geq0$, $H_c = \Sigma^{-1}(1-\mu)$); microcanonically ($H_m = H_c+\theta^2\lvert\langle\phi,\delta\Sigma\rangle\rvert^2$) the concentrated branch is an entropy maximum between the energy turning points at contrast $3$ and $55$ ($\sigma = 103$–$120$ km/s against its own $v_\infty = 100$–$171$ on the Milky-Way-like leaf: pressure-supported), surviving the sectors $m\leq4$ (and, at $\theta = 1.4$ and $1.2$, every $m$, by the high-sector bound *[v36.5, R358]*); the ring stable only axisymmetrically — unstable to $m = 2$ in both ensembles, hence Picard-unstable on the sphere; the uniform disk stable only when hot; dynamical stability not computed; the branch count axisymmetric only (R350) | analytic theorem; numerical control (an erratum corrected) | — | §XXXIII.45 |
 | Entries 340–341: $\tan\chi/\sqrt{1+\tan^2\chi} = \sin\chi$; the three self-dual/anti-self-dual pairs $\mathcal B_i^\pm$ and the duals $*_3(\mathbf e_\phi\wedge\mathbf n) = \mathbf e_R$ (right-handed frame; $-\mathbf e_R$ in the physical one); the $(\mathbf e_R,\mathbf n)$ rotation exchanging $\mathcal B_R^+$ and $\mathcal B_n^+$ — local, a change of frame until a law turns the internal structure; the response tensor's two eigenvalues; the CMB dipole $+0.069\,\mathbf e_R-0.662\,\mathbf e_\phi+0.746\,\mathbf n$, $4.0^\circ$ from the orbital–normal plane (not a prediction); the Hopf map descending to $\mathbb{RP}^3$ (R351) | analytic theorem; numerical control | the published dipole direction as the response gives it | §XXXIII.46 |
-| The smallest clash model: the relative curvature $F_L-F_R$ of two pulled-back Hopf connections vanishes for any pair of sectors congruent by a fixed rotation, the exchange-odd mirror tilt among them, and is nonzero for a one-sector tilt or a reflected pairing — the proposed invariant is blind to the departure it was built from; $F_L+F_R$ or one sector's curvature would see it (R352) | numerical control; open bridge | — | §XXXIII.47 |
+| The smallest clash model: the relative curvature $F_L-F_R$ of two pulled-back Hopf connections vanishes for any pair of sectors congruent by a fixed rotation, the exchange-odd mirror tilt among them — and for an azimuthal twist no rotation produces *[v36.5, R358]* — and is nonzero for a one-sector tilt or a reflected pairing — the proposed invariant is blind to the departure it was built from; $F_L+F_R$ sees it but falls as $1/z^2$ with flux $-2\pi$ and gives $-\partial^2+\gamma F_+^2$ no bound state *[v36.5, R358]* (R352) | numerical control; open bridge | — | §XXXIII.47 |
 | The v36.3 review, Entries 340–341 and the response, recorded (R349); the standing after v36.4 (R353) | record; definition (status) | — | §§XXXIII.44, 48 |
-| Entries 342–345 and their responses (received at the close of v36.4): the areal-radius reading of $e^{-a\sin\chi}$ and a covariant localization equation as a target; the Hopf-fiber length and curvature; a Hopf–meridian exchange block; the Solar-System observational-equivalence criterion on the stereographic chart; the holonomy spectral gap with the fiber-length bound; particles in co-spaces, spacetime as their imposed common structure. Recorded, not worked (R354) | record; v36.5's input | — | §XXXIII.50 |
-| The next pieces: the joint model — one population, its Law I source and its image by a stated transfer, against DDO 154 — with the population law and the transfer fixed first; the clash invariant restated to see the symmetric departure, with a frame identification, a transport law and an action; dynamical stability and the non-axisymmetric equilibria of the isothermal fixed points; Entry 329's acceptance criterion computed; measured HI profiles for the pilot, with the HI dispersion as a second observable; the Milky Way estimator; a label law stated before it is fitted, tested out of sample, with the distance, inclination and mass-to-light uncertainties carried; gas with pressure and dissipation on the leaf; one optics experiment; other readings; the held note's calculations; flavor, reflectrons and the direction field in the backlog (R330, R337, R348, R353) | open bridge | — | §§XXXIII.25, 32, 42, 48 |
+| Entries 342–345 and their responses (received at the close of v36.4): the areal-radius reading of $e^{-a\sin\chi}$ and a covariant localization equation as a target; the Hopf-fiber length and curvature; a Hopf–meridian exchange block; the Solar-System observational-equivalence criterion on the stereographic chart; the holonomy spectral gap with the fiber-length bound; particles in co-spaces, spacetime as their imposed common structure. Recorded, not worked (R354); deferred by v36.5, whose round the kinematics erratum took, to the piece after the localization operator (R359) | record; deferred | — | §XXXIII.50 |
+| The two reviews of v36.4 and the author's journal entries (17–18 October) with the response: recorded verbatim; the report's findings applied (R356) | record | — | §XXXIII.51 |
+| The kinematics erratum (the v36.4 report): the orbit library's velocity moments were read at the bin centre; now integrated along the orbit (the free-geodesic counterexample and four time integrations as controls). §XXXIII.36's cold witnesses ($7.2$, $6.7$ km/s) were at $21.9$, $21.0$; re-optimized $6.9$, $6.4$; the joint program with the whole density matched gives up to $6.9$–$9.0\%$ crossing at $\sigma_r\leq10$ km/s ($10$–$13\%$ at $50$); library bounds are compatibility witnesses, not certificates; the meridional-geodesic ensemble's share $+1.13$; the dwarfs' envelope $8/12$, $15/34$ (R357) | numerical control (an erratum corrected); definition (scope) | — | §XXXIII.52 |
+| The clash invariant's nullspace (an azimuthal twist), $F_+ = -q^2z/(1+q^2z^2)^{3/2}$ with its $1/z^2$ fall and $-2\pi$ flux, no bound state for $-\partial^2+\gamma F_+^2$; the high-sector bound closing every $m$ at two states of the concentrated branch; the recorded response's $0.0285$ kpc$^{-1}$ corrected to $0.0150$ (R358) | analytic theorem; numerical control | — | §XXXIII.53 |
+| The next pieces: the joint model — one population, its Law I source and its image by a stated transfer, against DDO 154 — with the population law and the transfer fixed first; one localization operator from a stated action or constitutive law, with its clash quantity, gap, centre and radial/vertical scales (v36.6); the clash invariant restated to see the symmetric departure, with a frame identification, a transport law and an action; dynamical stability and the non-axisymmetric equilibria of the isothermal fixed points; Entry 329's acceptance criterion computed; measured HI profiles for the pilot, with the HI dispersion as a second observable; the Milky Way estimator; a label law stated before it is fitted, tested out of sample, with the distance, inclination and mass-to-light uncertainties carried; gas with pressure and dissipation on the leaf; one optics experiment; other readings; the held note's calculations; Entries 342–345's checks; flavor, reflectrons, the direction field and the co-space program in the backlog (R330, R337, R348, R353, R359) | open bridge | — | §§XXXIII.25, 32, 42, 48, 54 |
 
 **Claim status of Parts XXX–XXXII at the v35 freeze (v35.8).** This table governs Parts XXX–XXXII, frozen at v35.8 (15 October 2026) with their suite `pg_v35_numerics.py`, unchanged except for marked post-freeze notes (v36.0, R307, R313) and one marked rendering repair in §XXX.11 (v36.4, R355): Part XXX (the hyper-canonical completion and the charged-lepton cycle), Part XXXI (the visible rendering of the leaf) and Part XXXII (reflectrons: Feynman diagrams as the joint residue of paired histories). Their frozen-results record is the v35.8 current manuscript, `projective_gravity_v35_8_current_manuscript.md`. Parts 0–XXIX are frozen — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10 — and their claim status is the frozen table that follows this one, unchanged except for marked post-freeze notes. Post-freeze notes correct them without rewriting them: two erratum notes in §§XXI.4–4a (R211), clarification notes in §§XXIX.40(e), XXIX.41(d), XXIX.42(g) and XXIX.43(b) (R212–R216, §XXX.12), two pointer notes in §§XXIX.18 and XXIX.42(f) (R238, Part XXXI; the first corrected in v35.3, R243, and in v35.4, R254), and two pointer notes of v35.6, in §§XIII.10 and XXIX.42(c) (R277, R276; the first scoped in v35.7, R288). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*. Rows changed or added since v35.1 carry their register number. Three rows — the cap, the refocusing and the darkness of the sky — are marked as **central limiting conditions**: every proposal for the visible sky must say how it meets them (R255, R267).
 
@@ -167,7 +170,7 @@
 | Observational fits | none | no supernova likelihood, no count comparison with a selected sample, no rotation-curve fit (post-freeze note, v35.1, R216: the current predictive model; Part XII's exploratory fits, §XII.3, belong to its detached wing) (post-freeze note, v36.0, R313: rotation curves are compared with data in Part XXXIII — the Milky Way from inside and a SPARC pilot — and are not reproduced by the theory as specified) | §XXIX.39(f) |
 | The photon wave operator and its mode projection; a $q = 0$ reader; a frequency bridge with time dilation and a derived echo law; a pair-selection law; a detector law for the image map, with one forward image of a fixed galaxy; a derived spectral transport, even and odd | open bridge | — | §§XXIX.39(b), 41, 42, 43(f) |
 
-> **How to read this archive (v36.4).** Three tables govern: the table of Part XXXIII, for the open work; the frozen v35.8 table that follows it, for Parts XXX–XXXII; and the frozen v34.10 table after that, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX; §XXX.9, frozen with Parts XXX–XXXII; and §XXXIII.12) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place. v36.0 freezes Parts XXX–XXXII at v35.8 with `pg_v35_numerics.py`, whose frozen-results record is the v35.8 current manuscript, and opens Part XXXIII, the observed rotation curve, after Part XXXII, with its own register (§XXXIII.12) and suite (§XXXIII.13, `pg_v36_numerics.py`). Its corrections to frozen Parts are post-freeze notes (R313). v36.1 is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§§XXXIII.14–26, R318–R331): it corrects v36.0's operative statements in place, with the superseded wording in §XXXIII.26, and adds no post-freeze note. v36.2 answers Entries 323–324 and the two responses on them (§§XXXIII.27–33, R332–R338): orbital occupancy on the leaf, the exponential as a rendering, the conformal route, the frame-selection hypothesis; it corrects two v36.1 sentences in place (R332) and adds no post-freeze note. v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§§XXXIII.34–43, R339–R348): two source families regular at the equator, their orbital populations and the dwarfs with them, the isothermal fixed points, the null cone, the split model, the $\mathfrak{so}(4)$ sectors; it applies the review's two distinctions in place (R347) and adds no post-freeze note. v36.4 answers the review of v36.3 and Entries 340–341 with the response (§§XXXIII.44–50, R349–R354): the fixed-point erratum and stability in two ensembles, the radial–normal duality and the CMB dipole, the first test of the clash invariant, and Entries 342–345 recorded for v36.5; it corrects §XXXIII.38 and §XXXIII.42 in place (R350) and adds no post-freeze content note — one marked rendering repair in frozen §XXX.11 (R355: a doubled brace in a subscript, which the author's site's templating engine read as a tag; the mathematics unchanged).
+> **How to read this archive (v36.5).** Three tables govern: the table of Part XXXIII, for the open work; the frozen v35.8 table that follows it, for Parts XXX–XXXII; and the frozen v34.10 table after that, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX; §XXX.9, frozen with Parts XXX–XXXII; and §XXXIII.12) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place. v36.0 freezes Parts XXX–XXXII at v35.8 with `pg_v35_numerics.py`, whose frozen-results record is the v35.8 current manuscript, and opens Part XXXIII, the observed rotation curve, after Part XXXII, with its own register (§XXXIII.12) and suite (§XXXIII.13, `pg_v36_numerics.py`). Its corrections to frozen Parts are post-freeze notes (R313). v36.1 is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§§XXXIII.14–26, R318–R331): it corrects v36.0's operative statements in place, with the superseded wording in §XXXIII.26, and adds no post-freeze note. v36.2 answers Entries 323–324 and the two responses on them (§§XXXIII.27–33, R332–R338): orbital occupancy on the leaf, the exponential as a rendering, the conformal route, the frame-selection hypothesis; it corrects two v36.1 sentences in place (R332) and adds no post-freeze note. v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§§XXXIII.34–43, R339–R348): two source families regular at the equator, their orbital populations and the dwarfs with them, the isothermal fixed points, the null cone, the split model, the $\mathfrak{so}(4)$ sectors; it applies the review's two distinctions in place (R347) and adds no post-freeze note. v36.4 answers the review of v36.3 and Entries 340–341 with the response (§§XXXIII.44–50, R349–R354): the fixed-point erratum and stability in two ensembles, the radial–normal duality and the CMB dipole, the first test of the clash invariant, and Entries 342–345 recorded for v36.5; it corrects §XXXIII.38 and §XXXIII.42 in place (R350) and adds no post-freeze content note — one marked rendering repair in frozen §XXX.11 (R355: a doubled brace in a subscript, which the author's site's templating engine read as a tag; the mathematics unchanged). v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§§XXXIII.51–55, R356–R359): the orbit library's kinematics erratum — the velocity moments integrated along the orbit, the mis-certified witnesses re-evaluated, the joint crossing–dispersion frontier, every library bound rescoped as a compatibility witness — with §§XXXIII.28, 29(b), 32, 36, 37, 42 and two register entries corrected in place (R357); the clash invariant's nullspace and the sum's fall-off, the high-sector bound, §§XXXIII.45, 47, 50 annotated (R358); no post-freeze note.
 
 > **v34.0 governing ontology correction (11 October 2026).** **Matter and its stress-energy content live fundamentally in the five-dimensional middle space** $\mathcal M=E/U(1)_H$, not solely on the representational bisection. The four-dimensional gravity base $B_{\rm grav}=\mathcal M/U_{\rm mer}$ is the quotient where the effective Einstein equation is expressed. The source $T^{(g)}$ must be obtained from the **entire** one-dimensional meridian fiber, including both arcs and possible pole/core contributions, by a covariant, action-compatible fiber reduction with a geometrically justified measure and tensor projection. A sum of contributions at the two points of $B_{\rm rep}$ is **not Law I**: it is only a distributionally leaf-supported special case. Einstein equations on the base impose constraints on the admissible middle-space configurations; equivalently their pullback imposes a horizontal constraint on $\mathcal M$, **not** independent five-dimensional Einstein equations. The full measure, singular-fiber rule, conservation identity and parent variational principle are **open**. Previously frozen text about source localization and two-point sourcing is superseded by this paragraph, the corrected Law I in Part III, and §XXIX.8; historical derivations remain conditional benchmarks where their premises apply. The observation that $\ell/G$ has a numerically suggestive relation to a galactic mass was an exploratory coincidence, **not** a premise that the closure mass is the Galaxy's baryonic mass. The author also prefers a *macroscopic middle-space* origin of $G$ (with the closure ratio as a target) and a separate Boltzmannian-compatibility origin of the effective quantum/Planck-area scale; the induced-gravity calculation remains a benchmark, not the preferred ontological explanation of $G$.
 
@@ -15887,7 +15890,7 @@ With $S = 1+iT$ this is $2\,{\rm Im}\,T^{(2)}_{ii} = \sum_f\lvert T^{(1)}_{fi}\r
 - *the Milky Way, seen from inside with the leaf's own light, fails on every scanned leaf and at the continuous optimum — as a cold-tracer proxy for the published estimator, which is not yet applied (§XXXIII.19) [v36.1, R323];*
 - *the SPARC galaxies, with the arena law, fail too.*
 
-*With the author's zoom labels as two free numbers per galaxy, the gnomonic premise improves the SPARC curves greatly; under the quoted errors one of the eight fits is acceptable, one borderline, and six are not (§XXXIII.17) [v36.1, R319]. The labels the fits need trend with mass, and must now come from a law. §XXXIII.11 locates each failure; §XXXIII.25 is the operative standing after v36.1, §XXXIII.32 its continuation after v36.2 (Entries 323–324: a stationary population on the leaf does not remove the dwarfs' required outer mass, and must be hot where it lacks circular support), §XXXIII.42 after v36.3 (the review and Entries 325–339: sources regular at the equator keep the plateau and admit crossing orbits; the isothermal law selects no cold disk; a transfer with a fixed scale is not a small deformation of a large leaf), §XXXIII.48 after v36.4 (the erratum; at fixed energy a concentrated isothermal state is stable but hot; the proposed clash invariant is blind to the departure it was built from).*
+*With the author's zoom labels as two free numbers per galaxy, the gnomonic premise improves the SPARC curves greatly; under the quoted errors one of the eight fits is acceptable, one borderline, and six are not (§XXXIII.17) [v36.1, R319]. The labels the fits need trend with mass, and must now come from a law. §XXXIII.11 locates each failure; §XXXIII.25 is the operative standing after v36.1, §XXXIII.32 its continuation after v36.2 (Entries 323–324: a stationary population on the leaf does not remove the dwarfs' required outer mass, and must be hot where it lacks circular support), §XXXIII.42 after v36.3 (the review and Entries 325–339: sources regular at the equator keep the plateau and admit crossing orbits; the isothermal law selects no cold disk; a transfer with a fixed scale is not a small deformation of a large leaf), §XXXIII.48 after v36.4 (the erratum; at fixed energy a concentrated isothermal state is stable but hot; the proposed clash invariant is blind to the departure it was built from), §XXXIII.54 after v36.5 (the kinematics erratum: library bounds are compatibility witnesses, not certificates; the clash sum detects the tilt but confines nothing).*
 
 *v36.1 (16 October 2026) is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§XXXIII.14): the plateau coefficient of an extended source (§XXXIII.15), the label condition corrected (§XXXIII.16), the pilot's statistics and its sources in error units (§XXXIII.17), the gas reconstruction's family (§XXXIII.18), the Milky Way comparison as a cold-tracer proxy with its leaf radius continuous (§XXXIII.19), the plateau's observable reach (§XXXIII.20), the orbit statements' domain (§XXXIII.21), the author's 8 kpc leaf (§XXXIII.22), Entry 322's shape family (§XXXIII.23), the current results (§XXXIII.24), the standing (§XXXIII.25) and the register (§XXXIII.26). The suite of §XXXIII.13 is extended to 18 checks.*
 
@@ -16418,21 +16421,22 @@ This answers the author's question of what the families of labels capture: given
 
   [reproducibility]
 
-## XXXIII.13 Executable appendix: `pg_v36_numerics.py`, embedded [reproducibility; v36.0–v36.4, R317, R331, R338, R348, R353]
+## XXXIII.13 Executable appendix: `pg_v36_numerics.py`, embedded [reproducibility; v36.0–v36.5, R317, R331, R338, R348, R353, R359]
 
-*The standalone suite (NumPy and SciPy only) that prints every computed number of Part XXXIII. Save the block as `pg_v36_numerics.py` and run `python3 -I pg_v36_numerics.py` (the regression suite of Part XXXIII, v36.0–v36.4: 33 checks; exit status 1 if any fails, in every mode; about twenty minutes, depending on the machine), one round with `python3 -I pg_v36_numerics.py v36_0`, `v36_1` (with the v36.0 computations it builds on), `v36_2`, `v36_3` (one to three minutes) or `v36_4` (a few minutes), or the checks that run in a few minutes with `quick` (19 checks, for a referee's time limit); an unknown mode prints the usage line and exits with status 2. It embeds its data: the two Milky Way tables, McMillan 2017's parameters and the eight SPARC galaxies' rows. The frozen suites remain `pg_v35_numerics.py` (Parts XXX–XXXII, §XXX.10) and `pg_v34_numerics.py` (Part XXIX, §XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v36`, `v36_0`, `v36_1`, `v36_2`, `v36_3`, `v36_4` and `quick` run it and whose `all` runs the frozen v34.10 and v35.8 suites and Part XXXIII together (220 checks). The figures come from `pg_v36_0_plots.py`, `pg_v36_1_plots.py`, `pg_v36_2_plots.py` and `pg_v36_3_plots.py`, which load this suite. SHA-256 of the file: `1acd1e7b4c63ac42d5248da73c0a56bcb86c42950d22a9c32f6fc6d7ff433e9d`.*
+*The standalone suite (NumPy and SciPy only) that prints every computed number of Part XXXIII. Save the block as `pg_v36_numerics.py` and run `python3 -I pg_v36_numerics.py` (the regression suite of Part XXXIII, v36.0–v36.5: 35 checks; exit status 1 if any fails, in every mode; about twenty minutes, depending on the machine), one round with `python3 -I pg_v36_numerics.py v36_0`, `v36_1` (with the v36.0 computations it builds on), `v36_2`, `v36_3` (one to three minutes), `v36_4` or `v36_5` (a few minutes each), or the checks that run in a few minutes with `quick` (21 checks, for a referee's time limit); an unknown mode prints the usage line and exits with status 2. It embeds its data: the two Milky Way tables, McMillan 2017's parameters and the eight SPARC galaxies' rows. The frozen suites remain `pg_v35_numerics.py` (Parts XXX–XXXII, §XXX.10) and `pg_v34_numerics.py` (Part XXIX, §XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v36`, `v36_0`, `v36_1`, `v36_2`, `v36_3`, `v36_4`, `v36_5` and `quick` run it and whose `all` runs the frozen v34.10 and v35.8 suites and Part XXXIII together (222 checks). The figures come from `pg_v36_0_plots.py`, `pg_v36_1_plots.py`, `pg_v36_2_plots.py` and `pg_v36_3_plots.py`, which load this suite. SHA-256 of the file: `87fda227e579dd79092e9e151cf5f10e92c1ea517472734584655324304fac9e`.*
 
 ```python
 """Projective Gravity v36 -- standalone numerical suite for Part XXXIII: the observed rotation curve (NumPy + SciPy only; Python 3.12/3.13
 tested).  Parts XXX-XXXII are frozen at v35.8 with their suite pg_v35_numerics.py; Part XXIX's frozen suite is pg_v34_numerics.py (v34.10).
 
 Run (from the directory holding this file):
-    python3 -I pg_v36_numerics.py              # current regression suite of Part XXXIII, v36.0-v36.4 (check summary; about twenty minutes)
+    python3 -I pg_v36_numerics.py              # current regression suite of Part XXXIII, v36.0-v36.5 (check summary; about twenty minutes)
     python3 -I pg_v36_numerics.py v36_0        # the v36.0 sections only
     python3 -I pg_v36_numerics.py v36_1        # the v36.1 sections, with the v36.0 computations they build on
     python3 -I pg_v36_numerics.py v36_2        # the v36.2 sections only (Entries 323-324)
     python3 -I pg_v36_numerics.py v36_3        # the v36.3 sections only (Entries 325-339 and the v36.2 review; one to three minutes)
     python3 -I pg_v36_numerics.py v36_4        # the v36.4 sections only (the v36.3 review and Entries 340-341; a few minutes)
+    python3 -I pg_v36_numerics.py v36_5        # the v36.5 sections only (the two v36.4 reviews: the kinematics erratum, the clash and sector additions; a few minutes)
     python3 -I pg_v36_numerics.py quick        # the checks that run in a few minutes (for a referee's time limit)
 Every mode exits with status 1 if any check fails.
 
@@ -16496,6 +16500,19 @@ orbital-normal plane), the Hopf map descending to RP^3; and the smallest explici
 connections vanishes for any pair of sectors congruent by a fixed rotation (the exchange-odd mirror tilt among them) and is nonzero for a
 one-sector tilt or a reflected pairing.
 v36_4_quick(): v36_3_quick plus the v36.4 sections.
+
+v36_5_suite(): the two reviews of v36.4.  The orbit library's velocity moments repaired -- v36.2-v36.4 read v_phi and v_r^2 at the bin centre;
+they are now the time integrals over each orbit's passage through the bin (_v36_occ_m, _v36_kin; the old prescription kept as _v36_kin_centre)
+-- with the report's free-geodesic counterexample and direct time integrations as controls; v36.3-2's two cold witnesses re-evaluated (certified
+at 7 km/s, actually 21-22) and re-optimized (6.4-6.9: cold candidates exist); the joint crossing-dispersion program with the whole density
+matched (7-9% crossing at a 10 km/s cap); the library bounds rescoped as compatibility witnesses; the meridional-geodesic ensemble's positive
+plateau share (C = 1.13295); the dwarfs' outer-ring pointwise envelope and mixture feasibility (8/12 and 15/34 stand).  The clash invariant's
+nullspace (an azimuthal twist), the sum F_+ = -q^2 z/(1 + q^2 z^2)^3/2 with its 1/z^2 fall and -2 pi flux, the operator -d^2 + gamma F_+^2
+without a bound state; the high-sector Hessian bound closing every m at two states of the concentrated branch; the off-centre conformal
+gradient of the recorded response corrected (0.0150/kpc).  The v36.2-1 and v36.3-2 sections rerun with the repaired moments (their recorded
+outcomes updated; the superseded prints quoted in the ledger).
+
+v36_5_quick(): v36_4_quick plus the v36.5 sections.
 """
 import numpy as np
 PI = np.pi
@@ -18443,11 +18460,13 @@ def _v36_disk_Phi(Sig, ell, M, brk, n=160, neq=40):
     X = np.concatenate([xs[:-1], [PI/2], PI - xs[:-1][::-1]]); P = np.concatenate([psi[:-1], [psi[-1]], psi[:-1][::-1]])
     return CubicSpline(X, -2*(_V36_GK*M/ell)*P), xs, psi, norm
 
-def _v36_occ(Phi, ell, L, E, edges, nth=3000):
+def _v36_occ_m(Phi, ell, L, E, edges, nth=3000):
     """The orbit (E, L) on the great 2-sphere in the field Phi: the fraction of its radial period spent in each bin of 'edges' (on (0, pi)),
-    its turning points and its period.  The region is the connected set U_eff < E holding the global minimum of U_eff = Phi + L^2/(2 ell^2
-    sin^2 chi); dt = dchi/|chi_dot| with |chi_dot| = sqrt(2 (E - U))/ell, the inverse-square-root endpoints removed by chi = c - d cos theta.
-    None if E is below the well."""
+    the time integrals over each bin of v_phi = L/(ell sin chi) and of v_r^2 = 2 (E - U_eff) (both divided by the period, so that their ratio
+    to the occupancy is the orbit's conditional mean in the bin; v36.5, R357 -- v36.2-v36.4 evaluated both at the bin centre, which is wrong for
+    a bin an orbit only partly occupies), its turning points and its period.  The region is the connected set U_eff < E holding the global
+    minimum of U_eff = Phi + L^2/(2 ell^2 sin^2 chi); dt = dchi/|chi_dot| with |chi_dot| = sqrt(2 (E - U))/ell, the inverse-square-root
+    endpoints removed by chi = c - d cos theta.  None if E is below the well."""
     from scipy.optimize import brentq
     U = (lambda x: Phi(x) + L**2/(2*ell**2*np.sin(x)**2)) if L > 0 else (lambda x: Phi(x))
     xg = np.linspace(1e-5, PI-1e-5, 6000); Ug = U(xg); below = Ug < E
@@ -18462,8 +18481,14 @@ def _v36_occ(Phi, ell, L, E, edges, nth=3000):
     th = (np.arange(nth) + 0.5)*PI/nth; c = 0.5*(x1 + x2); d = 0.5*(x2 - x1)
     x = c - d*np.cos(th); v2 = 2*(E - U(x))/ell**2
     w = np.where(v2 > 0, d*np.sin(th)/np.sqrt(np.where(v2 > 0, v2, 1.0)), 0.0)
-    h, _ = np.histogram(x, bins=edges, weights=w)
-    return h/w.sum(), x1, x2, 2*w.sum()*PI/nth                        # the full radial period (there and back)
+    h, _ = np.histogram(x, bins=edges, weights=w); W = w.sum()
+    hv, _ = np.histogram(x, bins=edges, weights=w*(L/(ell*np.sin(x)) if L > 0 else 0.0)); hs, _ = np.histogram(x, bins=edges, weights=w*np.maximum(v2, 0.0)*ell**2)
+    return h/W, hv/W, hs/W, x1, x2, 2*W*PI/nth                        # the full radial period (there and back)
+
+def _v36_occ(Phi, ell, L, E, edges, nth=3000):
+    """The occupancy, turning points and period alone (the callers of v36.2-v36.4)."""
+    r = _v36_occ_m(Phi, ell, L, E, edges, nth)
+    return None if r is None else (r[0], r[3], r[4], r[5])
 
 def _v36_library(Phi, ell, vscale, edges, nL=100, nE=30, nS=12, Lmax_fac=1.6, span_fac=4.0):
     """An orbit library: L = 0 (radial orbits through the pole) and a geometric grid of L from 1e-3 to Lmax_fac times ell vscale; for each L,
@@ -18482,10 +18507,10 @@ def _v36_library(Phi, ell, vscale, edges, nL=100, nE=30, nS=12, Lmax_fac=1.6, sp
         if L == 0 and Ug[0] > Ug[1]: sad.append(Ug[0])
         for s in sad: Es += list(s + span*np.geomspace(1e-5, 0.3, nS))
         for E in Es:
-            r = _v36_occ(Phi, ell, L, E, edges)
+            r = _v36_occ_m(Phi, ell, L, E, edges)
             if r is None: continue
-            occ, x1, x2, T = r
-            rows.append(occ); tab.append(dict(L=L, E=E, x1=x1, x2=x2, T=T, cross=(x1 < PI/2 - 1e-9) and (x2 > PI/2 + 1e-9)))   # a trapped orbit may be found in the far-side mirror well
+            occ, ov, os2, x1, x2, T = r
+            rows.append(occ); tab.append(dict(L=L, E=E, x1=x1, x2=x2, T=T, cross=(x1 < PI/2 - 1e-9) and (x2 > PI/2 + 1e-9), V=ov, S2=os2))   # a trapped orbit may be found in the far-side mirror well
     return np.array(rows), tab
 
 def _v36_edges(n_in=36, chi_in=80.0, n_eq=20):
@@ -18499,7 +18524,15 @@ def _v36_fold(occ, edges):
 
 def _v36_kin(occ, tab, Phi, ell, edges):
     """The folded occupancy F (orbits x near bins), and the matrices whose N-weighted sums give the mass-weighted mean v_phi (V) and mean
-    v_r^2 (S2) per bin: an orbit's v_phi = L/(ell sin chi) and v_r^2 = 2 (E - U_eff(chi)) at the bin centre."""
+    v_r^2 (S2) per bin: the time integrals of v_phi = L/(ell sin chi) and v_r^2 = 2 (E - U_eff(chi)) over each orbit's actual passage through the
+    bin, divided by the period and folded like the occupancy (v36.5, R357).  v36.2-v36.4 used the values at the bin centre (_v36_kin_centre)."""
+    nb = len(edges) - 1; eh = edges[:nb//2+1]; xc = 0.5*(eh[1:] + eh[:-1])
+    F = _v36_fold(occ, edges); V = _v36_fold(np.array([t['V'] for t in tab]), edges); S2 = _v36_fold(np.array([t['S2'] for t in tab]), edges)
+    return F, V, S2, xc
+
+def _v36_kin_centre(occ, tab, Phi, ell, edges):
+    """The v36.2-v36.4 prescription, kept for the comparison in v36.5-1: v_phi and v_r^2 at the bin centre times the occupancy -- an
+    approximation that fails for a bin an orbit occupies only in part (its centre may lie outside the orbit, giving v_r^2 = 0 there)."""
     nb = len(edges) - 1; eh = edges[:nb//2+1]; xc = 0.5*(eh[1:] + eh[:-1])
     F = _v36_fold(occ, edges); V = np.zeros_like(F); S2 = np.zeros_like(F)
     for k, t in enumerate(tab):
@@ -18697,10 +18730,13 @@ def v36_2_occupancy():
         o, x1, x2, T = _v36_occ(Phi, ell, L, E, fe); Cs[lab] = _v36_orbit_C(Phi, ell, L, E, x1, x2, T)
     print("     Each orbit's own share of the plateau coefficient, C = 2 psi''(pi/2) of its time-averaged density (the solver's second difference; the ring")
     print("     formula does not apply to a density that does not vanish at the equator, v36.2-2): " + "; ".join(f"{k}: {v:+.2f}" for k, v in Cs.items()) + ".")
-    print("     A trapped orbit counts like a ring inside (+); a crossing orbit's density is smooth across the equator and pulls the equatorial orbit outward (-).")
+    print("     A trapped orbit counts like a ring inside (+); these crossing orbits' densities are smooth across the equator and pull the equatorial orbit outward (-) --")
+    print("     for the orbits tested, not as a rule: a crossing ensemble of meridional geodesics has a positive share, C = +1.13 (v36.5-1(d); R357).")
     out['facts'] = facts; out['Cs'] = Cs
     # (b) three disks: a stationary population exists?  how much must cross?  how cold can it be?
     print("   (b) Schwarzschild on the leaf for three sources (bins of 2.2 deg to 80 deg and 0.5 deg to the equator; the population's density matched")
+    print("     [v36.5, R357: the velocity moments integrated along each orbit's passage through the bin; v36.2-v36.4 read them at the bin centre -- the minima below are")
+    print("     re-optimized with the integrated moments, and every 'least', 'at most' and 'no population' is the library's: an achievable bound, not a continuum certificate]")
     print("     bin by bin within a relative tolerance plus 1e-4 of the largest bin; 'tolerance' the smallest relative per-bin mismatch at which a nonnegative")
     print("     population exists, 0.001 being the bisection's floor; 'crossing' an orbit whose turning points lie on opposite sides of the equator):")
     print("       source                                   orbits  tolerance  crossing mass (range, at 1% per bin)  least sigma_r: at v_c on supported bins / free on all inner bins   v_c^2 < 0 on")
@@ -18737,7 +18773,7 @@ def v36_2_occupancy():
     print("     The broad gnomonic member, h/ell = 1 (the dwarfs' R_half/ell_arena ~ 1.6 corresponds to h/ell ~ 1), is a stationary population too -- radial")
     print(f"     orbits lingering on the central hill build its density where no circular orbit exists (v36.1-9's 'no circular support at the centre' is, precisely,")
     print(f"     none on {d1['bands'][0][0]:.1f}-{d1['bands'][0][1]:.0f} kpc = 0.2-1.9 h; inside it the support is there but weak, v_c = {', '.join(f'{v:.1f}' for v in vin)} km/s at R = 0.5, 1, 2, 3 kpc) -- but only")
-    print(f"     a hot one: inside 30 kpc, with the rotation free, no population has a radial dispersion below {d1['s_free']:.0f} km/s; its crossing fraction is at most {d1['hi']:.3f}.")
+    print(f"     a hot one: inside 30 kpc, with the rotation free, no population in this library has a radial dispersion below {d1['s_free']:.0f} km/s; its crossing fraction is at most {d1['hi']:.3f} here.")
     out['disks'] = disks
     # (c) the dwarfs: the support test with the outer mass as a ring, and the coldest population in the pushforward's field and in a self-consistent one
     print("   (c) The two dwarfs on their arena leaves, under the gnomonic premise (the reconstructed stars, the gas inside R_last as the data fix it, and the")
@@ -18761,8 +18797,8 @@ def v36_2_occupancy():
         print(f"     {name}: ell = {ellD:.2f} kpc, {Mout/Mb:.0%} of M_b beyond R_last = {Rl:.1f} kpc (chi_last = {np.degrees(xl):.0f} deg); the inner source alone supports {int((v2in > 0).sum())} of {len(R)} radii"
               f" (v({Rl:.1f} kpc) = {np.sqrt(max(v2in[-1], 0)):.0f} km/s, observed {g['Vobs'][-1]:.0f}); with the ring, at best {best[1]} of {len(R)} (first reached at u = {best[0]:.0f} deg; a tie over many u).  Every ring's")
         v80 = _v36_ring_v2(x, np.radians(80.0), ellD, Mout)
-        print(f"       own v^2 is negative at every measured radius (the largest over u and R is {ringmax:.1f} (km/s)^2), so no nonnegative mixture of rings -- no axisymmetric placement")
-        print(f"       of the outer mass in the plane -- can raise the count: at u = 80 deg the ring gives {v80[0]:+.0f}, {v80[len(R)//2]:+.0f}, {v80[-1]:+.0f} (km/s)^2 at the first, middle and last radius")
+        print(f"       own v^2 is negative at every measured radius (the largest over u and R is {ringmax:.1f} (km/s)^2); that no nonnegative mixture of thin rings in the plane raises the")
+        print(f"       count is shown by the pointwise envelope and the mixture program of v36.5-1(e) (the sign alone did not prove it; R357): at u = 80 deg the ring gives {v80[0]:+.0f}, {v80[len(R)//2]:+.0f}, {v80[-1]:+.0f} (km/s)^2 at the first, middle and last radius")
         print(f"       against the inner source's {v2in[0]:+.0f}, {v2in[len(R)//2]:+.0f}, {v2in[-1]:+.0f}.")
         # the coldest population: the stars-plus-gas mixture, and the two components apart (rotation and dispersion on the gas), in the pushforward's
         # field; then the mixture with the field iterated to the population's own density (damped), the range over the steps reported
@@ -18800,9 +18836,11 @@ def v36_2_occupancy():
         print(f"       With the field iterated to the mixture's own density (five damped steps from the least-dispersion population{' with the rotation free, the constrained one not existing' if hist[0][0] is None else ''}; not converged in the outer placement): sigma_r >= "
               + ", ".join(fm(h[0]) for h in hist[1:]) + f" km/s (rotation free: " + ", ".join(fm(h[1]) for h in hist[1:]) + f"); at the last step v_c^2 < 0 on {bands(hist[-1][2])}, {hist[-1][3]:.0%} of the mass beyond R_last.")
     print("     The observed HI dispersions of the two are about 7-10 km/s (THINGS: Oh et al. 2008, 2011; Ianjamasimanana et al. 2015).  Under the premises (collisionless, stationary, thin; the")
-    print("     gnomonic pushforward with the HI total on the leaf; the in-plane radial dispersion set against the line-of-sight HI dispersion), the dwarfs' sources")
-    print("     admit no stationary population as cold as their gas: the occupancy places the mass the total requires among the orbits that reproduce the image")
-    print("     (its amount is fixed by construction), and every such population is hot where the field lacks circular support and where v_obs is far from v_c.")
+    print("     gnomonic pushforward with the HI total on the leaf; the in-plane radial dispersion set against the line-of-sight HI dispersion, a bridge the dispersion")
+    print("     tensor's projection would have to supply), the dwarfs' sources admit no stationary population IN THESE LIBRARIES as cold as their gas: the occupancy places the")
+    print("     mass the total requires among the orbits that reproduce the image (its amount is fixed by construction), and every such population is hot where the field")
+    print("     lacks circular support and where v_obs is far from v_c.  A library minimum is an achievable upper bound on the continuum optimum, not a certificate of")
+    print("     impossibility; the exclusion is conditional on the libraries, the inner reconstruction and the total mass (v36.5, R357).")
     out['dwarfs'] = dw
     ok_ctrl = (ok_a and abs(disks["gnomonic exponential, h/ell = 0.1875"]['tol'] - 1e-3) < 1e-9 and disks["arc-length exponential, h = 3 kpc"]['tol'] is not None
                and Cs["trapped inside 37 deg"] > 0 and all(Cs[k] < 0 for k in Cs if k != "trapped inside 37 deg")
@@ -19082,6 +19120,8 @@ def v36_3_occupancy(src=None):
     print("   As v36.2-1(b), for Entry 326's a = 16/3 and Entry 327's k = 0.169 members on ell = 16 kpc, 6e10 Msun: both densities are smooth and even across")
     print("   the equator, so crossing orbits are no longer excluded by the density; the LP asks for the least and the most crossing mass, and the coldest population.")
     ell, M = 16.0, 6e10; edges = _v36_edges(); nb = len(edges) - 1; eh = edges[:nb//2+1]; out = {}
+    print("   (v36.5, R357: the velocity moments are now integrated along each orbit's passage through the bin; v36.3 read them at the bin centre and certified")
+    print("   witnesses at 7.2 and 6.7 km/s whose true inner dispersions were 21.9 and 21.0 -- v36.5-1(c); the minima below are re-optimized with the integrated moments.)")
     print("       source                        orbits  tolerance  crossing mass (range, at 1%)  within 36 kpc: least sigma_r at v_c / free   v_c^2 < 0 on")
     for lab, (S, brk) in (("Entry 326, a = 16/3", _v36_sin_source(16/3)), ("Entry 327, k = 0.169", _v36_stretch_source(float(np.exp(-16/9))))):
         P_, _, _, _ = _v36_disk_Phi(S, ell, M, brk); veq = float(np.sqrt(max(-ell**2*0 + np.tan(np.arctan(64/ell))*P_(np.arctan(64/ell), 1), 1.0)))
@@ -19103,10 +19143,13 @@ def v36_3_occupancy(src=None):
     print(f"     Both are stationary populations as cold as the library resolves (the least dispersion at the L grid's spacing, as for the thin exponentials, v36.2-1(b)).")
     print(f"     Unlike the thin exponentials, their densities admit crossing orbits -- up to {hi_s} of the mass at 1% per bin -- and, in this library, require some:")
     print(f"     at least {lo_s} (the equatorial bins' mass, 2-3% within 10 deg, is not fully supplied by the library's trapped orbits, whose energy ladder stops")
-    print(f"     below the barrier; the minimum is the library's, the maximum is the density's).  The coldest rotating populations (2% per bin) cross with {', '.join(f'{d[chr(99)+chr(114)+chr(95)+chr(99)+chr(111)+chr(108)+chr(100)]:.3f}' for d in out.values())} of their mass.")
-    print("     So the regular families relax v36.2's exclusion: a thin disk regular at the equator can hold a crossing population of several per cent to a quarter of its mass and stay cold.")
+    print(f"     below the barrier; the minimum is the library's, the maximum is the density's at 1% per bin -- an achievable fraction, not the density's limit).  The coldest rotating")
+    print(f"     populations (2% per bin, the density matched on the inner bins only) cross with {', '.join(f'{d[chr(99)+chr(114)+chr(95)+chr(99)+chr(111)+chr(108)+chr(100)]:.3f}' for d in out.values())} of their mass.")
+    print("     So the regular families relax v36.2's exclusion: a thin disk regular at the equator can hold a crossing population and be cold -- jointly, with the whole density")
+    print("     matched and the inner dispersion capped at 10 km/s, up to 6.9-9.0% of the mass crossing (v36.5-1(c)).  v36.3's sentence 'several per cent to a quarter of its mass and")
+    print("     stay cold' combined the crossing maximum of one program with the coldness of another and is withdrawn (v36.5, R357); these are library witnesses, not continuum bounds.")
     check(all(d['lo'] < 0.05 for d in out.values()) and all(0.1 < d['hi'] < 0.3 for d in out.values()) and all(d['s_rot'] is not None and d['s_rot'] < 20 for d in out.values()) and all(d['tol'] < 0.02 for d in out.values()),
-           "the regular families: stationary (tolerance < 2%), least crossing mass below 0.05 (the library's), most 0.1-0.3 (the density's), coldest rotating population below 20 km/s inside 36 kpc")
+           "the regular families: stationary (tolerance < 2%), least crossing mass below 0.05 (the library's), most 0.1-0.3 (the library's achievable fraction with the density alone), coldest rotating population below 20 km/s inside 36 kpc")
     print("   [V] The LPs on the libraries (the same bins, grids and tolerances as v36.2-1).  [T] The reading of the folded density as the source.")
     return out
 
@@ -19638,6 +19681,7 @@ def v36_4_fixed_points_erratum():
     res = {}
     for N, LMAX in ((160, 120), (400, 300)):
         D = _v36_fp_build(N, LMAX); rows, fold = _v36_fp_continue(D)
+        if fold is None or len(rows) < 3: fold = (float('nan'), float('nan')); rows = rows if len(rows) >= 3 else [(float('nan'),)*4]*3   # a missing fold (or an empty continuation) fails the check below instead of crashing (v36.5, the report's item 10)
         ths = np.array([r[0] for r in rows]); rs = np.array([r[1] for r in rows]); Es = np.array([r[2] for r in rows])
         dE = np.diff(Es); turn = [int(i) + 1 for i in np.where(np.sign(dE[1:]) != np.sign(dE[:-1]))[0]]
         i1 = int(np.argmin(ths)); j1 = i1 + int(np.argmax(ths[i1:])); fold2 = (ths[j1], rs[j1]) if j1 < len(ths) - 1 else None
@@ -19701,7 +19745,7 @@ def v36_4_fixed_points_erratum():
     print("     survives these sectors (m > 4 not computed; the eigenvalues increase with m at every state tested).")
     out['sectors'] = sec; labs = [r[0] for r in rows]
     ring_m2 = all(sec[l][2][0] >= 1 for l in labs if l.startswith('ring')); conc_clean = all(all(n == 0 for n, _ in sec[l].values()) for l in labs if l.startswith('concentrated'))
-    check(all(1.06 < f < 1.07 for f in out['fold']) and abs(out['fold'][0] - out['fold'][1]) < 1e-3 and len(out['turn']) >= 2 and 2.5 < out['turn'][0][1] < 3.5 and 50 < out['turn'][1][1] < 60 and eA.max() < 1e-10
+    check(all(np.isfinite(f) and 1.06 < f < 1.07 for f in out['fold']) and abs(out['fold'][0] - out['fold'][1]) < 1e-3 and len(out['turn']) >= 2 and 2.5 < out['turn'][0][1] < 3.5 and 50 < out['turn'][1][1] < 60 and eA.max() < 1e-10
           and all(r[5] > -1e-9 for r in rows) and [r[3:5] for r in rows] == [(0, 0), (1, 1), (1, 1), (1, 0), (1, 0), (1, 1), (0, 0), (0, 0)] and all(150 < r[7] < 175 for r in rows[3:6]) and 90 < rows[2][7] < 110
           and best > 0.5 and abs(sec['uniform, theta = 2.5'][2][1] - e_unif) < 1e-6 and zero_m1 < 1e-6 and ring_m2 and sec['ring, theta = 2.5'][4][0] >= 1 and conc_clean,
           "the fold at theta = 1.06-1.07 on both grids (within 1e-3 of each other); E's turning points at contrast 2.5-3.5 and 50-60; A negative semidefinite and every mu >= 0; the axisymmetric canonical/microcanonical negative counts (0,0), (1,1), (1,1), (1,0), (1,0), (1,1), (0,0), (0,0) for the eight states (the last concentrated one beyond the energy minimum); the concentrated states' own v_inf 90-110 and 150-175 km/s; uniaxial and biaxial quadrupoles not rotation-equivalent; the sectors' analytic and zero-mode controls to 1e-6; the ring m = 2-unstable at every theta and m = 4-unstable at 2.5; the concentrated branch with no negative direction for m <= 4")
@@ -19808,6 +19852,225 @@ def v36_4_suite():
 def v36_4_quick():
     """The checks that run in a few minutes: v36.3's quick set plus the three v36.4 sections."""
     v36_3_quick(); v36_4_suite()
+# ==================================================================================================== v36.5 (18-19 October 2026): sections
+# The two reviews of v36.4: the orbit library's velocity moments repaired (integrated along the orbit, not read at the bin centre), the two cold
+# witnesses re-evaluated, the joint crossing-dispersion frontier, the library bounds rescoped, the meridional-geodesic sign counterexample, the
+# outer-ring envelope; the clash nullspace, the sum's fall-off, the high-sector Hessian bound; the fold guard.
+def _v36_joint(F, V, S2, tgt, fb, vobs, sig_max, cross, dtol=0.02, vtol=0.2, which='max'):
+    """The joint program (v36.5, R357): over nonnegative populations of unit mass whose folded density matches tgt in EVERY near-hemisphere bin
+    (within dtol relative plus 1e-4 of the largest bin), whose mean v_phi is within vtol of vobs on the bins fb and whose radial dispersion is
+    below sig_max there, the most (or least) crossing mass.  v36.3-2 optimized the crossing mass and the dispersion in separate programs."""
+    from scipy.optimize import linprog
+    A_ub, b_ub = [], []; band = dtol*tgt + 1e-4*tgt.max()
+    for i in range(F.shape[1]):
+        A_ub.append(F[:, i]); b_ub.append(tgt[i] + band[i]); A_ub.append(-F[:, i]); b_ub.append(-(tgt[i] - band[i]))
+    for i in fb:
+        if vtol is not None:
+            A_ub.append(V[:, i] - (1 + vtol)*vobs[i]*F[:, i]); b_ub.append(0.0); A_ub.append((1 - vtol)*vobs[i]*F[:, i] - V[:, i]); b_ub.append(0.0)
+        A_ub.append(S2[:, i] - sig_max**2*F[:, i]); b_ub.append(0.0)
+    r = linprog(np.asarray(cross, float)*(-1 if which == 'max' else 1), A_ub=np.array(A_ub), b_ub=np.array(b_ub), A_eq=np.ones((1, F.shape[0])), b_eq=[1.0],
+                bounds=(0, None), method='highs-ipm', options=dict(time_limit=300))
+    return (abs(r.fun), r.x) if _v36_lp_status(r) == 0 else (None, None)
+
+def _v36_orbit_moments_direct(Phi, ell, L, E, x1, x2, edges, nt=400001):
+    """One orbit integrated in time (DOP853) over a full radial period; the fraction of time, the mean v_phi and the mean v_r^2 in each bin of
+    'edges', by uniform sampling in time -- the control for the quadrature of _v36_occ_m."""
+    from scipy.integrate import solve_ivp
+    from scipy.optimize import brentq
+    f = lambda t, Y: [Y[1], (np.sin(Y[0])*np.cos(Y[0])*(L/(ell**2*np.sin(Y[0])**2))**2 if L > 0 else 0.0) - Phi(Y[0], 1)/ell**2]
+    T0 = 2*PI*ell/np.sqrt(max(2*(E - Phi(0.5*(x1 + x2))), 1e-6))*2
+    s = solve_ivp(f, (0.0, 6*T0), [x1 + 1e-7, 0.0], method='DOP853', rtol=1e-11, atol=1e-13, dense_output=True, max_step=0.005)
+    tg = np.linspace(0.02, 6*T0, 60001); vr = s.sol(tg)[1]
+    i = int(np.argmax((vr[:-1] < 0) & (vr[1:] >= 0))); T = brentq(lambda t: s.sol(t)[1], tg[i], tg[i+1], xtol=1e-12)
+    ts = np.linspace(0, T, nt); Y = s.sol(ts); chi = Y[0]; vr2 = (ell*Y[1])**2; vph = L/(ell*np.sin(chi)) if L > 0 else 0*chi
+    h, _ = np.histogram(chi, bins=edges); hv, _ = np.histogram(chi, bins=edges, weights=vph); hs, _ = np.histogram(chi, bins=edges, weights=vr2)
+    return h/nt, hv/nt, hs/nt, T
+
+def v36_5_kinematics_erratum():
+    print("\n== v36.5-1. Erratum of the orbit library's kinematics (the v36.4 report): moments integrated along the orbit; the witnesses re-evaluated; the joint frontier (R357) ==")
+    print("   The report found that v36.2-1 and v36.3-2 integrate each orbit's occupancy over the bins but read its v_phi and v_r^2 at the bin CENTRE: for a bin an orbit")
+    print("   occupies only in part -- the turning-point bins on which a cold population's weights concentrate -- the centre may lie outside the orbit, where v_r^2 is")
+    print("   set to zero.  _v36_kin now folds the time integrals of v_phi and v_r^2 over each orbit's passage through each bin (the same quadrature as the")
+    print("   occupancy; _v36_occ_m), and the sections that used the old matrices are rerun; the old prescription is kept as _v36_kin_centre for the comparison.")
+    from scipy.integrate import quad
+    out = {}; n_trouble0 = len(_V36_LP_TROUBLE)                # the check below counts only this section's LP troubles (the global list carries one from v36.3-2, see the ledger)
+    # (a) the report's free-geodesic counterexample: unit sphere, Phi = 0, L = 1, turning point 0.22; the bin [0.15, 0.25] has its centre outside the orbit
+    Phi0 = lambda x, d=0: 0.0*np.asarray(x, float); E0 = 1/(2*np.sin(0.22)**2); ed0 = np.array([0.0, 0.15, 0.25, PI - 0.25, PI - 0.15, PI])
+    rows = {}
+    for nth in (3000, 30000):
+        occ, V, S2, x1, x2, T = _v36_occ_m(Phi0, 1.0, 1.0, E0, ed0, nth=nth); F = occ[:3] + occ[2:][::-1]; Vf = V[:3] + V[2:][::-1]; Sf = S2[:3] + S2[2:][::-1]
+        rows[nth] = (F[1], Sf[1]/F[1], Vf[1]/F[1])
+    U0 = lambda x: 1/(2*np.sin(x)**2); dt0 = lambda x: 1/np.sqrt(2*(E0 - U0(x)))
+    I0 = quad(dt0, 0.22, 0.25, limit=200)[0]; I2 = quad(lambda x: 2*(E0 - U0(x))*dt0(x), 0.22, 0.25)[0]; Iv = quad(lambda x: dt0(x)/np.sin(x), 0.22, 0.25)[0]
+    Tq = 2*quad(dt0, 0.22, PI - 0.22, limit=400)[0]; direct = (4*I0/Tq, I2/I0, Iv/I0); centre = (rows[3000][0], 0.0, 1/np.sin(0.2))
+    print("   (a) The report's counterexample -- a free particle on the unit sphere, L = 1, turning point chi_1 = 0.22, the bin [0.15, 0.25] (centre 0.20, outside the orbit):")
+    print(f"       folded occupancy / mean v_r^2 / mean v_phi in the bin: direct integration {direct[0]:.6f} / {direct[1]:.5f} / {direct[2]:.5f}; the bin-centre prescription {centre[0]:.6f} / {centre[1]:.1f} / {centre[2]:.5f};")
+    print(f"       the repaired quadrature {rows[3000][0]:.6f} / {rows[3000][1]:.5f} / {rows[3000][2]:.5f} at the library's 3000 nodes and {rows[30000][0]:.6f} / {rows[30000][1]:.5f} / {rows[30000][2]:.5f} at 30000.")
+    print("     The centre prescription gives the bin a zero radial speed and an azimuthal speed above the orbit's total speed; the integrated moments converge to the direct values.")
+    out['free'] = dict(direct=direct, rows=rows)
+    # (b) controls in a real field: four orbits of the a = 16/3 member, the library's quadrature against time integration, bin by bin
+    ell, M = 16.0, 6e10; edges = _v36_edges(); nb = len(edges) - 1; eh = edges[:nb//2+1]
+    S, brk = _v36_sin_source(16/3); P_, _, _, _ = _v36_disk_Phi(S, ell, M, brk); veq = float(np.sqrt(max(np.tan(np.arctan(64/ell))*P_(np.arctan(64/ell), 1), 1.0)))
+    print("   (b) Controls in the field of Entry 326's a = 16/3 member: four orbits, the quadrature's time integrals against direct time integration (DOP853), the")
+    print("     largest error over the occupied bins in the bin's occupancy, mean v_phi and mean v_r^2 (relative to the orbit's totals):")
+    ctrl = []
+    for lab, Lf, dE, base in (("trapped, L = 0.3 ell v_eq", 0.3, 0.3, 'min'), ("crossing just above the barrier, L = 0.8", 0.8, 0.03, 'eq'), ("near-circular, L = 0.6", 0.6, 1e-3, 'min'), ("near the barrier top (separatrix), L = 0.8", 0.8, 1e-3, 'eq')):
+        L = Lf*ell*veq; U = lambda x: P_(x) + L**2/(2*ell**2*np.sin(x)**2); xg = np.linspace(1e-4, PI/2, 4000)
+        E = (float(U(xg).min()) if base == 'min' else float(U(PI/2))) + dE*veq**2
+        occ, V, S2, x1, x2, T = _v36_occ_m(P_, ell, L, E, edges); h, hv, hs, Td = _v36_orbit_moments_direct(P_, ell, L, E, x1, x2, edges)
+        m = h > 1e-4; e_occ = float(np.abs(occ[m] - h[m]).max()); e_v = float(np.abs(V[m]/occ[m] - hv[m]/h[m]).max()/(L/(ell*np.sin(0.5*(x1 + x2))))); e_s = float(np.abs(S2[m]/occ[m] - hs[m]/h[m]).max()/max(hs.sum(), 1e-12))
+        ctrl.append((lab, e_occ, e_v, e_s, abs(T/Td - 1))); print(f"       {lab:46s} period {abs(T/Td - 1):.1e}; occupancy {e_occ:.1e}; mean v_phi {e_v:.1e}; mean v_r^2 {e_s:.1e}  ({int(m.sum())} occupied bins)")
+    print("     The library's 3000-node quadrature reproduces the time integrals to a few 1e-4, the near-separatrix orbit (which lingers at the barrier top) to 3e-3 in v_r^2 -- the")
+    print("     accuracy of every kinematic number below; the occupancy matrices themselves are unchanged from v36.2-v36.4.")
+    out['ctrl'] = ctrl
+    # (c) the two regular families: the old witnesses re-evaluated, the re-optimized minima, the joint frontier
+    print("   (c) Entry 326's a = 16/3 and Entry 327's k = 0.169 members (v36.3-2's libraries, bins and tolerances; the inner bins 1-36 kpc with circular support):")
+    fam = {}
+    for lab, (S, brk) in (("Entry 326, a = 16/3", _v36_sin_source(16/3)), ("Entry 327, k = 0.169", _v36_stretch_source(float(np.exp(-16/9))))):
+        P_, _, _, _ = _v36_disk_Phi(S, ell, M, brk); veq = float(np.sqrt(max(np.tan(np.arctan(64/ell))*P_(np.arctan(64/ell), 1), 1.0)))
+        occ, tab = _v36_library(P_, ell, veq, edges); tgt = _v36_target_bins(S, eh)
+        F, V, S2, xc = _v36_kin(occ, tab, P_, ell, edges); Fc, Vc, S2c, _ = _v36_kin_centre(occ, tab, P_, ell, edges)
+        cross = np.array([t['cross'] for t in tab]); xl = np.arctan(36.0/ell); fb = np.where(eh[1:] <= xl + 1e-12)[0]; fb = fb[ell*np.tan(xc[fb]) >= 1.0]
+        vc2 = np.tan(xc)*P_(xc, 1); sup = vc2 > 0; vc = np.sqrt(np.maximum(vc2, 0)); fbs = fb[sup[fb]]
+        sig_of = lambda N, FF, SS, bins: float(np.sqrt(np.max((SS.T @ N)[bins]/(FF.T @ N)[bins])))
+        s_old = _v36_least_sigma(Fc, Vc, S2c, tgt, fbs, vc); _, Nold = _v36_cold(Fc, Vc, S2c, tgt, fbs, vc, s_old*1.001)
+        s_old_true = sig_of(Nold, F, S2, fbs); fit = F.T @ Nold; rel = (fit - tgt)/tgt; outer = np.setdiff1d(np.arange(len(tgt)), fbs)
+        s_new = _v36_least_sigma(F, V, S2, tgt, fbs, vc)
+        front = {}
+        for cap in (10.0, 20.0, 30.0, 50.0): front[cap] = _v36_joint(F, V, S2, tgt, fbs, vc, cap, cross)[0]
+        fmin10 = _v36_joint(F, V, S2, tgt, fbs, vc, 10.0, cross, which='min')[0]
+        fam[lab] = dict(n=len(tab), s_old=s_old, s_old_true=s_old_true, s_new=s_new, outer_max=float(np.abs(rel[outer]).max()), far=float(fit[eh[1:] > xl].sum()), src_far=float(tgt[eh[1:] > xl].sum()), cr_old=float(Nold[cross].sum()), front=front, fmin10=fmin10)
+        print(f"       {lab} ({len(tab)} orbits): v36.3-2's coldest witness certified at sigma_r <= {s_old:.2f} km/s by the centre prescription (its own largest bin value {sig_of(Nold, Fc, S2c, fbs):.2f}) has, with its own weights and the integrated")
+        print(f"         moments, a largest inner dispersion of {s_old_true:.2f} km/s -- mis-certified; re-optimized with the integrated moments and the same inner-only density constraints, the least is {s_new:.2f} km/s,")
+        print(f"         so cold candidates exist in this library.  That witness matched the density only on the inner bins: outside them it misses by up to a factor {1 + fam[lab]['outer_max']:.2f}, with")
+        print(f"         {fam[lab]['far']:.4f} of the mass beyond 36 kpc against the source's {fam[lab]['src_far']:.4f} -- a tracer population in a fixed field, not a self-consistent source; its own crossing fraction {fam[lab]['cr_old']:.4f}.")
+        print(f"         The joint program (the density matched in EVERY bin within 2% plus the floor, the inner rotation within 20% of v_c, the inner dispersion capped): the most crossing mass")
+        print(f"         is {', '.join(f'{front[c]:.4f} at sigma_r <= {c:.0f}' for c in front)} km/s (the least at 10 km/s: {fmin10:.4f}).")
+    print("     So v36.3-2's closing sentence -- a crossing population 'of several per cent to a quarter of its mass' that 'stays cold' -- combined two separate programs (the most")
+    print("     crossing mass with the density alone, 0.18-0.25; the coldest population, which crossed with 0.006-0.007) and is withdrawn; what the libraries establish jointly is a")
+    print("     cold inner population (sigma_r <= 10 km/s over 1-36 kpc) with up to 6.9-9.0% of its mass on crossing orbits while matching the whole binned source.  These are")
+    print("     compatibility witnesses for finite libraries under stated tolerances: a restricted library's minimum dispersion is an achievable UPPER bound on the continuum")
+    print("     optimum, its maximum crossing fraction an achievable fraction, not the density's limit; neither is a certificate of impossibility (v36.2-1's and v36.3-2's")
+    print("     'at least', 'at most' and 'no population below' are rescoped in the archive to the library).")
+    out['families'] = fam
+    # (d) the sign of a crossing population's plateau share is not fixed by its crossing: the meridional-geodesic ensemble
+    Cq = 2/PI*quad(lambda x: (1 - np.sin(x))*_v36_C_ring(x), 0, PI/2 - 1e-9, limit=400)[0]
+    Sg = lambda x: 1/np.sin(np.maximum(np.asarray(x, float), 1e-12)) - 1.0; bk = [0.01, 0.1, 0.5, 1.0]
+    e = sorted(set([0.0, PI/2] + bk)); norm = 0.0
+    for a, b in zip(e[:-1], e[1:]):
+        t, w = _v36_graded(a, b, a == 0.0, False); norm += np.sum(w*Sg(t)*np.sin(t))
+    norm *= 2*PI; p0 = _v36_disk_psi(Sg, PI/2, PI/2, bk)/norm
+    c = [4*(_v36_disk_psi(Sg, PI/2 - h, PI/2, bk)/norm - p0)/h**2 for h in (0.01, 0.005)]; Cs = (4*c[1] - c[0])/3*(PI/2 - 1)/(PI/2)
+    print(f"   (d) The sign rule of v36.2-1(a) ('a crossing orbit's share is negative') holds for the tested orbits, not in general: a stationary, azimuthally averaged ensemble of")
+    print(f"     meridional great-circle geodesics in a zero field crosses the equator with surface density ~ 1/sin chi, and its plateau share is POSITIVE -- subtracting the uniform")
+    print(f"     density (whose field vanishes), C = (2/pi) int_0^pi/2 (1 - sin chi) C_ring(chi) dchi = {Cq:.5f} by quadrature of the ring formula and {Cs:.5f} by the potential solver's second")
+    print(f"     difference (per unit mass of the ensemble).  Any general sign rule must be computed from the full orbit density.")
+    out['C_geo'] = (Cq, Cs)
+    # (e) the dwarfs' outer-ring test: the pointwise envelope and the mixture feasibility replace the sign-only argument of v36.2-1(c)
+    from scipy.optimize import linprog
+    cap_ = lambda x: np.minimum(x, PI/2-1e-9); env = {}
+    print("   (e) v36.2-1(c) argued that no nonnegative mixture of outer rings can support more radii than the best single ring because every ring's v^2 is negative at every")
+    print("     measured radius; the sign alone does not prove it (two negative vectors can penalize different radii).  The pointwise envelope B_i = v_inner^2(R_i) + sup_u v_ring^2(R_i; u)")
+    print("     on a dense grid of 199 ring angles, and the feasibility of a unit-mass mixture supporting every radius:")
+    for name in ("DDO154", "IC2574"):
+        g = _v36_sparc(name); Sst, Mst, Sgs, Mg, bul, grms = _v36_sparc_sources(g)
+        Mb = Mst + Mg + (bul[1] if bul else 0.0); ellD = 3*np.sqrt(_V36_GK*Mb/_V36_A0); Rl = g['R'][-1]; R = g['R']; x = np.arctan(R/ellD)
+        Sgt = lambda r, Sgs=Sgs, Rl=Rl: np.where(np.asarray(r) <= Rl, Sgs(r), 0.0); bkD = sorted(set(np.arctan(np.concatenate([R, [0.5*Rl]])/ellD)))
+        v2in = np.zeros_like(R); Cg_in, Mg_in = _v36_C_disk_obs(Sgt, ellD, Rl)
+        for S_, Mm in ((Sst, Mst), (Sgt, Mg_in)):
+            SL = lambda xx, S_=S_, ellD=ellD: np.where(xx < PI/2-1e-9, S_(ellD*np.tan(cap_(xx)))/np.cos(cap_(xx))**3, 0.0)
+            v2in += _v36_disk_v2(SL, ellD, Mm, x, PI/2, bkD)
+        Mout = Mb - Mst - Mg_in; xl = np.arctan(Rl/ellD)
+        us = np.radians(np.concatenate([np.linspace(np.degrees(xl) + 0.5, 89.0, 180), np.linspace(89.05, 89.95, 19)]))
+        VR = np.array([_v36_ring_v2(x, u, ellD, Mout) for u in us]); B = v2in + VR.max(axis=0)
+        n_env = int((B > 0).sum()); n_best = int(max((v2in + VR[j] > 0).sum() for j in range(len(us))))
+        nu = len(us); c = np.zeros(nu + 1); c[-1] = -1.0; A = np.hstack([-VR.T, np.ones((len(R), 1))])          # max t with v_inner^2 + sum_u w_u v_ring^2(u) >= t at every radius
+        r = linprog(c, A_ub=A, b_ub=v2in, A_eq=np.concatenate([np.ones(nu), [0.0]])[None, :], b_eq=[1.0], bounds=[(0, None)]*nu + [(None, None)], method='highs-ipm', options=dict(time_limit=300))
+        tmax = -r.fun if _v36_lp_status(r) == 0 else float('nan'); feas = tmax > 0
+        neg = R[B <= 0]; jn = int(np.argmax(np.where(B <= 0, B, -np.inf))); env[name] = dict(n=len(R), best=n_best, env=n_env, feas=feas, tmax=tmax, neg=(float(neg.min()), float(neg.max())), nearest=(float(R[jn]), float(B[jn])))
+        print(f"       {name}: best single ring {n_best}/{len(R)}; envelope upper count {n_env}/{len(R)}; the best mixture's worst radius has v^2 = {tmax:+.0f} (km/s)^2, so a mixture supporting every radius is {'feasible' if feas else 'infeasible'}; radii no mixture supports: {neg.min():.2f}-{neg.max():.2f} kpc")
+        print(f"         (the nearest miss B = {B[jn]:+.0f} (km/s)^2 at R = {R[jn]:.2f} kpc; the envelope is robust to 2000 ring angles and to 89.999 deg, the independent check found).")
+    print("     The counts stand (8/12, 15/34) by the stronger test; the inference is for thin axisymmetric rearrangements in the plane only -- off-plane mass is a different kernel")
+    print("     (even Newtonian, a ring at height z has v_c^2 ~ G M (2 z^2 - a^2) R^2/2 (a^2 + z^2)^5/2 near the axis, positive for z > a/sqrt 2), so 'thick or thin' is withdrawn from v36.2-1(c).")
+    out['env'] = env
+    fa, fs = fam["Entry 326, a = 16/3"], fam["Entry 327, k = 0.169"]
+    check(abs(rows[30000][0] - direct[0]) < 2e-5 and abs(rows[30000][1] - direct[1]) < 2e-3 and abs(rows[30000][2] - direct[2]) < 2e-3 and abs(rows[3000][0] - direct[0]) < 3e-4 and centre[1] == 0.0
+          and all(e_occ < 2e-3 and e_v < 2e-3 and e_s < 5e-3 and e_T < 1e-4 for _, e_occ, e_v, e_s, e_T in ctrl) and ctrl[-1][3] > 1e-3
+          and 6.5 < fa['s_old'] < 8 and 6 < fs['s_old'] < 7.5 and 20 < fa['s_old_true'] < 24 and 19 < fs['s_old_true'] < 23 and fa['s_new'] < 8 and fs['s_new'] < 8
+          and all(abs(fa['front'][c] - v) < 0.005 for c, v in ((10.0, 0.0685), (20.0, 0.0785), (30.0, 0.0859), (50.0, 0.1000))) and all(abs(fs['front'][c] - v) < 0.005 for c, v in ((10.0, 0.0904), (20.0, 0.1023), (30.0, 0.1139), (50.0, 0.1339)))
+          and all(f['front'][10.0] < f['front'][20.0] < f['front'][30.0] < f['front'][50.0] for f in (fa, fs)) and all(f['outer_max'] > 0.5 for f in (fa, fs))
+          and abs(Cq - 1.13295) < 1e-4 and abs(Cs - Cq) < 1e-3 and env['DDO154']['env'] == 8 and env['IC2574']['env'] == 15 and not env['DDO154']['feas'] and not env['IC2574']['feas'] and all(np.isfinite(env[n]['tmax']) for n in env) and len(_V36_LP_TROUBLE) == n_trouble0,
+          "the free-geodesic counterexample reproduced (the repaired moments within 2e-3 of direct integration, the centre prescription's v_r^2 = 0); four orbits' integrated moments against time integration to 2e-3 (the near-separatrix orbit's mean v_r^2 to 5e-3, the quadrature's least accurate case); the old witnesses' true dispersions 20-24 km/s against their 6.5-8 certificates, the re-optimized minima below 8; the joint frontier 0.0685/0.0785/0.0859/0.1000 and 0.0904/0.1023/0.1139/0.1339 (+-0.005), increasing with the cap; the old witnesses' outer density off by more than 50%; the meridional-geodesic ensemble's C = 1.13295 (1e-4) by two methods; the dwarfs' envelope counts 8/12 and 15/34 and the mixtures infeasible; no LP trouble in this section")
+    print("   [V] The repaired moments and their controls; the re-evaluations; the frontier; the envelope.  [T] The counterexamples.  [D] Library results are compatibility witnesses,")
+    print("       not certificates of impossibility; the thin-plane inference is for thin rearrangements.  [O] The dwarfs' line-of-sight bridge (the dispersion tensor projected) remains a premise.")
+    return out
+
+def v36_5_clash_sectors():
+    print("\n== v36.5-2. The clash invariant's nullspace and the sum's fall-off; the high-sector Hessian bound; the response's off-centre gradient (the v36.4 reviews; R358) ==")
+    out = {}
+    kk = np.array([0, 0, 1.0]); theta = lambda z: np.arctan(1.5*z); q = 1.5
+    def F(nfun, ph, z, h=1e-5):
+        n0 = nfun(ph, z); dph = (nfun(ph + h, z) - nfun(ph - h, z))/(2*h); dz = (nfun(ph, z + h) - nfun(ph, z - h))/(2*h); return 0.5*n0 @ np.cross(dph, dz)
+    # (a) the nullspace of F_L - F_R is larger than the fixed rotations: an azimuthal twist by g(theta)
+    gtw = lambda th: 1.7*th
+    nL = lambda ph, z: np.array([np.sin(theta(z))*np.cos(ph), np.sin(theta(z))*np.sin(ph), np.cos(theta(z))])
+    nR = lambda ph, z: np.array([np.sin(theta(z))*np.cos(ph + gtw(theta(z))), np.sin(theta(z))*np.sin(ph + gtw(theta(z))), np.cos(theta(z))])
+    tw = [(z, F(nL, 0.4, z), F(nR, 0.4, z), float(np.linalg.norm(nL(0.4, z) - nR(0.4, z)))) for z in (0.3, 1.0)]
+    print("   (a) The report's example: n_R = n_L twisted in azimuth by g(theta) = 1.7 theta -- no fixed rotation relates the two fields, yet sin theta dtheta ^ d(phi + g) = sin theta dtheta ^ dphi, so")
+    print("     F_R = F_L: " + "; ".join(f"z = {z}: F_L = {a:+.5f}, F_R = {b:+.5f}, |n_L - n_R| = {d:.3f}" for z, a, b, d in tw) + ".  The relative curvature measures a difference of pulled-back")
+    print("     area forms, not a distance between the two configurations; a relative-orientation observable needs the frame identification and the action (v36.4-3).")
+    # (b) the sum for the mirror tilt: analytic, its fall, its integrated flux
+    Fp = lambda z: -q**2*z/(1 + q**2*z**2)**1.5
+    nLm = lambda ph, z: np.cos(theta(z))*kk + np.sin(theta(z))*np.array([np.cos(ph), np.sin(ph), 0]); nRm = lambda ph, z: np.cos(theta(z))*kk - np.sin(theta(z))*np.array([np.cos(ph), np.sin(ph), 0])
+    sm = [(z, F(nLm, 0.4, z) + F(nRm, 0.4, z), Fp(z), z**2*q*Fp(z)) for z in (0.3, 1.0, 3.0, 10.0)]
+    from scipy.integrate import quad
+    flux = 2*PI*quad(Fp, 0, np.inf)[0]
+    print(f"   (b) The sum F_+ = F_L + F_R for the mirror tilt theta(z) = arctan(q z), q = {q}: each sector's F_phi z = -(1/2) sin theta theta' = -q^2 z/(2 (1 + q^2 z^2)^3/2), so")
+    print("     F_+ = -q^2 z/(1 + q^2 z^2)^3/2: " + "; ".join(f"z = {z}: numeric {a:+.5f}, analytic {b:+.5f}, z^2 q F_+ = {c:+.4f}" for z, a, b, c in sm) + f" -- it falls as 1/(q z^2), and its")
+    print(f"     integrated flux over the patch, 2 pi int_0^inf F_+ dz = {flux:+.5f} = -2 pi, so the U(1) Wilson loop of the summed connection returns to unity (both reviews' remark).")
+    # (c) the operator -d^2/dz^2 + gamma |F_+|^2 has no bound state and no asymptotic gap
+    from scipy.linalg import eigh_tridiagonal
+    op = {}
+    for gam in (1.0, 10.0):
+        for Z in (10.0, 20.0, 40.0):
+            n = 4000; z = np.linspace(-Z, Z, n + 2)[1:-1]; h = z[1] - z[0]
+            ev = eigh_tridiagonal(2/h**2 + gam*Fp(np.abs(z))**2, -np.ones(n - 1)/h**2, select='i', select_range=(0, 0))[0][0]; op[(gam, Z)] = (ev, (PI/(2*Z))**2)
+    print("   (c) The simplest coupling, -d^2/dz^2 + gamma |F_+|^2: the potential is nonnegative and tends to zero, so the spectrum is [0, inf) with no bound state and no positive")
+    print("     asymptotic gap -- the lowest Dirichlet eigenvalue on [-Z, Z] falls as 1/Z^2 with the box (the free box's pi^2/4Z^2 for comparison): " + "; ".join(f"gamma = {g:.0f}, Z = {Z:.0f}: {e:.4f} (free {f:.4f})" for (g, Z), (e, f) in op.items()) + ".")
+    print("     Replacing F_- by F_+ detects the mirror tilt but does not supply the confinement the threshold-mode toy of v36.3-7(e) assumed; the gap, the centre and the")
+    print("     coupling must come from a specified action (v36.6).")
+    out['twist'] = tw; out['sum'] = sm; out['flux'] = flux; out['op'] = op
+    # (d) the high-sector Hessian bound: H^(m) >= [1/Sigma_max - 2 pi theta lam_{l*(m)}] ||f||^2, l*(m) the least even l >= max(2, m)
+    D = _v36_fp_build(400, 300); normalize, G, jac, newton, summarize = _v36_fp_ops(D); u, lam = D['u'], D['lam']
+    hs = {}
+    for th, seed, mmax in ((1.4, np.exp(1.5*u**2), 6), (1.2, np.exp(3*u**2), 13)):
+        S, ok = newton(normalize(seed), th); r, C, rho = summarize(S, th); Smax = float(S.max()); sec = _v36_fp_sectors(D, S, th, mmax=mmax)
+        lstar = lambda m: max(2, m) if max(2, m) % 2 == 0 else max(2, m) + 1
+        bnd = {m: 1/Smax - 2*PI*th*lam[lstar(m)] for m in range(1, 60)}; m0 = min(m for m in bnd if bnd[m] > 0)
+        hs[th] = dict(contrast=r, Smax=Smax, m0=m0, margin=bnd[m0], sec=sec, negs=sum(n for n, _ in sec.values()))
+        print(f"   (d) theta = {th} (contrast {r:.2f}, nodal Sigma_max {Smax:.4f}): the bound is positive from m = {m0} (margin {bnd[m0]:.3f}); the sectors computed directly to m = {mmax}:")
+        print("       least eigenvalues " + ", ".join(f"m = {m}: {e:+.3f}" for m, (n, e) in sec.items()) + f"; negative directions {hs[th]['negs']} (m = 1 the exact tilt zero mode).")
+    print("     So at these two states of the concentrated branch the entropy maximum holds in EVERY non-axisymmetric sector (m <= 12 directly, m >= 13 by the bound at theta = 1.2;")
+    print("     m <= 4 and m >= 5 at theta = 1.4), modulo the rotational zero modes -- a numerical closure at two points, with a nodal Sigma_max, not a continuum certificate over the segment.")
+    out['sectors'] = hs
+    # (e) the recorded response on Entry 343: the off-centre gradient of the stereographic conformal factor
+    ell, rho = 16.0, 8.2; dlnO = (rho/(2*ell**2))/(1 + rho**2/(4*ell**2)); dln_AU = dlnO*4.848e-9
+    print(f"   (e) The response on Entry 343 (v36.4-§50) quotes |grad ln Omega| = 0.0285/kpc at the Sun for Omega = (1 + rho^2/4 ell^2)^-1, ell = 16 kpc, rho = 8.2 kpc; the derivative is")
+    print(f"     rho/(2 ell^2 (1 + rho^2/4 ell^2)) = {dlnO:.4f}/kpc (the report's correction), so the variation across 1 AU is {dln_AU:.1e}, not 1.4e-10 -- chart-dependent scales, neither an observable.")
+    out['dlnO'] = dlnO
+    check(all(abs(a - b) < 1e-9 for _, a, b, _ in tw) and all(d > 0.1 for *_, d in tw) and all(abs(a - b) < 1e-6 for _, a, b, _ in sm) and abs(sm[-1][3] + 1) < 0.01 and abs(flux + 2*PI) < 1e-6
+          and all(e > 0 for e, _ in op.values()) and op[(1.0, 40.0)][0] < op[(1.0, 10.0)][0]/5 and hs[1.4]['m0'] == 5 and hs[1.2]['m0'] == 13 and hs[1.4]['negs'] == 0 and hs[1.2]['negs'] == 0 and abs(dlnO - 0.0150) < 5e-4,
+          "the azimuthal twist leaves F_L - F_R = 0 with the fields apart; F_+ analytic to 1e-6, ~ -1/(q z^2), integrated flux -2 pi; the operator's lowest eigenvalue positive and falling with the box; the sector bound positive from m = 5 (theta = 1.4) and m = 13 (theta = 1.2) with no negative direction below; the off-centre gradient 0.0150/kpc")
+    print("   [T] The twist identity; the analytic F_+; the sector bound.  [V] The numbers.  [D] No localization operator is derived; the bound closes the sectors at two states only.")
+    return out
+
+def v36_5_suite():
+    k = v36_5_kinematics_erratum(); c = v36_5_clash_sectors()
+    return dict(kinematics=k, clash=c)
+
+def v36_5_quick():
+    """The checks that run in a few minutes: v36.4's quick set plus the two v36.5 sections."""
+    v36_4_quick(); return v36_5_suite()
 # ---------------------------------------------------------------------------------------------- the suites
 def v36_1_suite(prev=None):
     """The v36.1 sections.  prev: the dicts returned by v36_0_milky_way, v36_0_sparc_pilot and v36_0_zoom_labels (recomputed if None)."""
@@ -19837,8 +20100,8 @@ def v36_0_suite():
     return dict(mw=mw, pilot=p, zoom=z)
 
 def current_suite_v36():
-    """The current regression suite of Part XXXIII (v36.0-v36.4), followed by the check summary."""
-    prev = v36_0_suite(); v36_1_suite(prev); v36_2_suite(); v36_3_suite(); v36_4_suite()
+    """The current regression suite of Part XXXIII (v36.0-v36.5), followed by the check summary."""
+    prev = v36_0_suite(); v36_1_suite(prev); v36_2_suite(); v36_3_suite(); v36_4_suite(); v36_5_suite()
     npass = sum(1 for ok, _ in _CHECKS if ok); nfail = len(_CHECKS)-npass
     print(f"\n== check summary (Part XXXIII): {npass} passed, {nfail} failed ==")
     for ok, msg in _CHECKS:
@@ -19849,7 +20112,7 @@ def current_suite_v36():
 if __name__ == "__main__":
     import sys
     arg = sys.argv[1] if len(sys.argv) > 1 else "current"
-    suites = {"current": current_suite_v36, "v36_0": v36_0_suite, "v36_1": v36_1_suite, "v36_2": v36_2_suite, "v36_3": v36_3_suite, "v36_4": v36_4_suite, "quick": v36_4_quick}
+    suites = {"current": current_suite_v36, "v36_0": v36_0_suite, "v36_1": v36_1_suite, "v36_2": v36_2_suite, "v36_3": v36_3_suite, "v36_4": v36_4_suite, "v36_5": v36_5_suite, "quick": v36_5_quick}
     if arg not in suites:
         print("usage: python3 -I pg_v36_numerics.py [" + " | ".join(suites) + "]"); sys.exit(2)
     suites[arg]()
@@ -20289,33 +20552,33 @@ Entry 323's second idea, in the response's formulation: a galaxy's density at a 
 
 **(a) The occupancy law, and where crossing orbits spend their time [T/V].** With $E = \tfrac12\ell^2\dot\chi^2+U_{\rm eff}$, $U_{\rm eff} = \Phi+L^2/(2\ell^2\sin^2\chi)$, an orbit spends $dt = d\chi/|\dot\chi|$ at each $\chi$ between its turning points, $|\dot\chi| = \sqrt{2(E-U_{\rm eff})}/\ell$, so its time-averaged surface density is $P(\chi)/(2\pi\ell^2\sin\chi)$ with $P\propto1/\sqrt{E-U_{\rm eff}}$, folded onto the near hemisphere by the twin identification (the far-side arc is drawn through the near image, §XXXIII.7). The field is the exact gnomonic exponential disk $h/\ell = 0.1875$ on $\ell = 16$ kpc ($6\times10^{10}\,M_\odot$; $v_{\rm eq} = 217.0$ km/s), the Milky-Way-like member of §XXXIII.23's family. For the disk's crossing orbits, $L<\ell v_{\rm eq}$, the equator is the top of $U_{\rm eff}$'s barrier, where they are slowest: with $E$ at $0.01$, $0.1$ and $1$ $v_{\rm eq}^2$ above the barrier an orbit with $L = 0.8\,\ell v_{\rm eq}$ spends $0.28$, $0.18$ and $0.13$ of each radial period within $10^\circ$ of the equator ($R>91$ kpc in the image; $11\%$ of the range of $\chi$), with $L = 0.5$ it spends $0.32$, $0.19$, $0.13$, with $0.95$ it spends $0.28$, $0.18$, $0.13$. Orbits with $L>\ell v_{\rm eq}$ oscillate about the equator, where they are fastest: $L = 1.1$ gives $0.45$, $0.21$, $0.14$ at $0.01$, $0.1$, $1$ $v_{\rm eq}^2$ above the well's minimum, and $L = 1.3$ gives $1.00$, $0.26$, $0.14$. The response's schematic — "the particle moves fastest radially near the equator" — describes the second family, not the disk's. Control: the $L = 0.8$ orbit at $0.1\,v_{\rm eq}^2$ integrated directly has the period $0.6406$ kpc/(km/s) against the quadrature's $0.6406$, and $0.1781$ of it near the equator against $0.1780$.
 
-Each orbit's own share of the plateau coefficient — $C = 2\psi''(\pi/2)$ of its time-averaged density, by the solver's second difference, which is finite because that density is smooth across the equator (§XXXIII.29(b)) — is $+2.86$ for a trapped orbit inside $37^\circ$, and $-8.06$, $-0.17$ and $-1.53$ for crossing orbits with $L = 0.5$, $0.8$ and $1.3\,\ell v_{\rm eq}$: a trapped orbit counts like a ring inside; a crossing orbit's density straddles the equator and pulls the equatorial orbit outward.
+Each orbit's own share of the plateau coefficient — $C = 2\psi''(\pi/2)$ of its time-averaged density, by the solver's second difference, which is finite because that density is smooth across the equator (§XXXIII.29(b)) — is $+2.86$ for a trapped orbit inside $37^\circ$, and $-8.06$, $-0.17$ and $-1.53$ for crossing orbits with $L = 0.5$, $0.8$ and $1.3\,\ell v_{\rm eq}$: a trapped orbit counts like a ring inside; a crossing orbit's density straddles the equator and pulls the equatorial orbit outward *[v36.5, R357: for the orbits tested, not a rule — a stationary ensemble of meridional geodesics crosses the equator with a positive share, $C = +1.13$, §XXXIII.52(e)]*.
 
 **(b) Three sources [V/D].** An orbit library: $L = 0$ (radial orbits through the pole) and a geometric grid of $100$ values of $L$ from $10^{-3}$ to $1.6\,\ell v$; for each, $30$ energies above the well's minimum and $12$ just above every saddle of $U_{\rm eff}$ (the equatorial barrier, the central hill of a repulsive core) — $4{,}158$, $4{,}422$ and $4{,}158$ orbits for the three sources below; bins of $2.2^\circ$ to $80^\circ$ and $0.5^\circ$ to the equator. The density is matched bin by bin, within a relative tolerance plus $10^{-4}$ of the largest bin; "tolerance" is the smallest relative per-bin mismatch at which a nonnegative population exists (a feasibility linear program, bisected; $0.001$ is the bisection's floor); the admissible range of the crossing mass (an orbit whose turning points lie on opposite sides of the equator) and the least radial dispersion compatible with the density are linear programs too — the mean $v_\phi$ and the mean $v_r^2$ of a population in a bin being linear in the orbit weights. The folded density is read as the image (the far-side arc drawn through the near image, §XXXIII.7(d)'s reading B).
 
 | source | tolerance | crossing mass, admissible | least $\sigma_r$: rotation at $v_c$ on the supported bins / rotation free, all inner bins | $v_c^2<0$ on |
 |:--|:--|:--|:--|:--|
-| gnomonic exponential, $h/\ell = 0.1875$ | $\le0.001$ | $0.000$–$0.000$ at $1\%$ per bin (inside $12h$ only: $\le0.018$ at $1\%$, $\le0.058$ at $5\%$) | $10.5$ / $10.5$ km/s | nowhere |
-| gnomonic exponential, $h/\ell = 1$ | $\le0.001$ | $0.000$–$0.001$ ($\le0.055$, $\le0.096$) | $8.6$ (the supported bins, from $R = 2$ kpc) / $34.9$ km/s | $3.4$–$30$ kpc ($0.2$–$1.9\,h$) |
-| arc-length exponential, $h = 3$ kpc | $\le0.001$ | $0.001$–$0.010$ ($\le0.073$, $\le0.142$) | $7.4$ / $7.4$ km/s | nowhere |
+| gnomonic exponential, $h/\ell = 0.1875$ | $\le0.001$ | $0.000$–$0.000$ at $1\%$ per bin (inside $12h$ only: $\le0.018$ at $1\%$, $\le0.058$ at $5\%$) | $10.4$ / $10.4$ km/s *[v36.5, R357: the velocity moments integrated along the orbit; was $10.5$ / $10.5$]* | nowhere |
+| gnomonic exponential, $h/\ell = 1$ | $\le0.001$ | $0.000$–$0.001$ ($\le0.055$, $\le0.096$) | $8.7$ (the supported bins, from $R = 2$ kpc) / $34.9$ km/s *[v36.5, R357; was $8.6$ / $34.9$]* | $3.4$–$30$ kpc ($0.2$–$1.9\,h$) |
+| arc-length exponential, $h = 3$ kpc | $\le0.001$ | $0.001$–$0.010$ ($\le0.073$, $\le0.142$) | $7.2$ / $7.2$ km/s *[v36.5, R357; was $7.4$ / $7.4$]* | nowhere |
 
-The two thin exponentials — the Milky-Way-like gnomonic member, and a source exponential in arc length (§XXXIII.29(a)) — are stationary populations that can be as cold as the library resolves (near-circular orbits; the $7$–$10$ km/s is the $L$ grid's spacing, $7.6\%$, not a physical floor: tripling the grid lowers it). And their densities exclude crossing orbits: a crossing orbit spends at least $0.13$ of its period within $10^\circ$ of the equator in the library ($0.11$, the band's share of $\chi$, in the high-energy limit), where these disks hold about $10^{-4}$ of their mass, so with the whole density matched the crossing fraction is at most $0.01$, and with it matched only over the measured range (inside $12h = 36$ kpc) at most $2$–$7\%$ at $1\%$ per bin and $6$–$14\%$ at $5\%$. A thin exponential that holds to the equator, identified with the full folded gravitating source, is a trapped population; Entry 323's picture of a disk "continually switching hemispheres" is excluded by that source's own density at the equator, not merely unconstrained — a population whose light is only part of its mass is not tested here, and what the linear program shows is compatibility: the exponential was supplied to it, and reproduced, not predicted *[v36.3, R347; the two distinctions of the review, §XXXIII.34]*. The broad member, $h/\ell = 1$ — the dwarfs' $R_{\rm half}/\ell_{\rm arena}\approx1.6$ corresponds to $h/\ell\approx1$ — is a stationary population too: radial orbits lingering on the central hill build its density over the band $0.2$–$1.9\,h$ where no circular orbit exists (§XXXIII.23's "no circular support at the centre" is, precisely, none on $3.4$–$30$ kpc; inside $3.4$ kpc the support is there but weak, $v_c = 3.7$, $5.8$, $7.4$, $5.1$ km/s at $0.5$, $1$, $2$, $3$ kpc *[v36.2, R332]*). But only a hot one: inside $30$ kpc, with the rotation free, no population has a radial dispersion below $35$ km/s; its crossing fraction is at most $0.001$. So the answer to the response's second question is in two parts: a stationary population needs no exponential source and no circular orbits, but, identified with the full folded gravitating source, it does not cross the equator *[v36.3, R347]*, and where the field has no circular support it is hot.
+The two thin exponentials — the Milky-Way-like gnomonic member, and a source exponential in arc length (§XXXIII.29(a)) — are stationary populations that can be as cold as the library resolves (near-circular orbits; the $7$–$10$ km/s is the $L$ grid's spacing, $7.6\%$, not a physical floor: tripling the grid lowers it; and a library's minimum is an achievable upper bound on the continuum optimum, not a certificate *[v36.5, R357; §XXXIII.52(d)]*). And their densities exclude crossing orbits: a crossing orbit spends at least $0.13$ of its period within $10^\circ$ of the equator in the library ($0.11$, the band's share of $\chi$, in the high-energy limit), where these disks hold about $10^{-4}$ of their mass, so with the whole density matched the crossing fraction is at most $0.01$, and with it matched only over the measured range (inside $12h = 36$ kpc) at most $2$–$7\%$ at $1\%$ per bin and $6$–$14\%$ at $5\%$ — the library's maxima *[v36.5, R357]*. A thin exponential that holds to the equator, identified with the full folded gravitating source, is a trapped population; Entry 323's picture of a disk "continually switching hemispheres" is excluded by that source's own density at the equator, not merely unconstrained — a population whose light is only part of its mass is not tested here, and what the linear program shows is compatibility: the exponential was supplied to it, and reproduced, not predicted *[v36.3, R347; the two distinctions of the review, §XXXIII.34]*. The broad member, $h/\ell = 1$ — the dwarfs' $R_{\rm half}/\ell_{\rm arena}\approx1.6$ corresponds to $h/\ell\approx1$ — is a stationary population too: radial orbits lingering on the central hill build its density over the band $0.2$–$1.9\,h$ where no circular orbit exists (§XXXIII.23's "no circular support at the centre" is, precisely, none on $3.4$–$30$ kpc; inside $3.4$ kpc the support is there but weak, $v_c = 3.7$, $5.8$, $7.4$, $5.1$ km/s at $0.5$, $1$, $2$, $3$ kpc *[v36.2, R332]*). But only a hot one: inside $30$ kpc, with the rotation free, no population in this library has a radial dispersion below $35$ km/s; its crossing fraction is at most $0.001$ here *[v36.5, R357]*. So the answer to the response's second question is in two parts: a stationary population needs no exponential source and no circular orbits, but, identified with the full folded gravitating source, it does not cross the equator *[v36.3, R347]*, and where the field has no circular support it is hot.
 
 **(c) The two dwarfs [V/D].** On their arena leaves under the gnomonic premise: the reconstructed stars, the gas inside $R_{\rm last}$ as the data fix it, and the mass the total $1.33M_{\rm HI}$ requires beyond $R_{\rm last}$ — $29\%$ of $M_b$ for DDO 154 ($\ell = 2.02$ kpc, $\chi_{\rm last} = 71^\circ$), $25\%$ for IC 2574 ($4.51$ kpc, $66^\circ$).
 
-*The support test.* With the outer mass as one thin ring at polar angle $u$, scanned from $\chi_{\rm last}$ to $89.9^\circ$: the inner source alone supports $12$ of DDO 154's $12$ radii (with $v(5.9\,{\rm kpc}) = 85$ km/s against the observed $46$) and $24$ of IC 2574's $34$; with the ring, at best $8$ of $12$ and $15$ of $34$ (first reached near $u = 75^\circ$, a tie over many $u$). Every ring's own $v^2$ is negative at every measured radius — the largest over $u$ and $R$ is $-19.9$ and $-22.6$ (km/s)$^2$ — so no nonnegative mixture of rings, that is no axisymmetric placement of the outer mass in the plane, thick or thin, can raise the count. At $u = 80^\circ$ the ring's $v^2$ at the first, middle and last radius is $-20$, $-730$, $-2{,}173$ (km/s)$^2$ for DDO 154 against the inner source's $+36$, $+847$, $+7{,}202$, and $-24$, $-817$, $-2{,}384$ for IC 2574 against $+11$, $+480$, $+18{,}020$.
+*The support test.* With the outer mass as one thin ring at polar angle $u$, scanned from $\chi_{\rm last}$ to $89.9^\circ$: the inner source alone supports $12$ of DDO 154's $12$ radii (with $v(5.9\,{\rm kpc}) = 85$ km/s against the observed $46$) and $24$ of IC 2574's $34$; with the ring, at best $8$ of $12$ and $15$ of $34$ (first reached near $u = 75^\circ$, a tie over many $u$). Every ring's own $v^2$ is negative at every measured radius — the largest over $u$ and $R$ is $-19.9$ and $-22.6$ (km/s)$^2$ — so no nonnegative mixture of thin rings in the plane can raise the count *[v36.5, R357: the sign alone does not prove this; it is shown by the pointwise envelope and the mixture program, §XXXIII.52(f), and "thick or thin" is withdrawn — off-plane mass is a different kernel]*. At $u = 80^\circ$ the ring's $v^2$ at the first, middle and last radius is $-20$, $-730$, $-2{,}173$ (km/s)$^2$ for DDO 154 against the inner source's $+36$, $+847$, $+7{,}202$, and $-24$, $-817$, $-2{,}384$ for IC 2574 against $+11$, $+480$, $+18{,}020$.
 
-*The coldest population.* Stars and gas first as one population, in the pushforward's own field ($5{,}454$ and $4{,}074$ orbits), with the image inside $R_{\rm last}$ matched to $3\%$ (DDO 154) and $2\%$ (IC 2574) per bin — $1.2$ times the density's own feasibility tolerance in those fields, or $2\%$ — and the mean rotation within $20\%$ of the observed curve: for DDO 154 no population exists with any radial dispersion below $400$ km/s (with the rotation free, none below $49$ km/s), the field lacking circular support on $0$–$0.4$, $1.2$–$3$ and $9$–$37$ kpc; for IC 2574 none below $27$ km/s ($14$ free), no support on $0$–$7$ kpc. The two components apart — the stellar and the gas image each matched, the rotation and the dispersion required of the gas alone: DDO 154's stellar image admits no stationary population at all (its feasibility tolerance is $0.999$ — the steep fall of the stars across the unsupported band cannot be built from orbits, none of which has an apocentre where the force points outward), so no two-component population exists at any tolerance; IC 2574's stellar image needs $7\%$ per bin, both together $20\%$, and then the gas needs $\sigma_r\geq19$ km/s with its rotation ($12$ free). With the field iterated to the mixture's own density (five damped steps from the least-dispersion population — for DDO 154 the one with the rotation free, the constrained one not existing; the outer placement does not converge, about a third of the mass sitting beyond $R_{\rm last}$ in places that change from step to step): $\sigma_r\geq31$–$35$ km/s for DDO 154 ($25$–$30$ free), $29$–$30$ km/s for IC 2574 ($16$ free). The observed HI dispersions of the two are about $7$–$10$ km/s (THINGS: Oh et al. 2008, 2011; Ianjamasimanana et al. 2015). The premises: collisionless, stationary and thin; the gnomonic pushforward with the HI total on the leaf; the in-plane radial dispersion set against the line-of-sight HI dispersion. The bound is set as much by the observed rotation lying far from $v_c$ at every radius ($85$ km/s against $46$ at DDO 154's last point in the pushforward field) as by the bands without support.
+*The coldest population.* Stars and gas first as one population, in the pushforward's own field ($5{,}454$ and $4{,}074$ orbits), with the image inside $R_{\rm last}$ matched to $3\%$ (DDO 154) and $2\%$ (IC 2574) per bin — $1.2$ times the density's own feasibility tolerance in those fields, or $2\%$ — and the mean rotation within $20\%$ of the observed curve: for DDO 154 no population exists in this library with any radial dispersion below $400$ km/s *[v36.5, R357]* (with the rotation free, none below $49$ km/s), the field lacking circular support on $0$–$0.4$, $1.2$–$3$ and $9$–$37$ kpc; for IC 2574 none below $28$ km/s ($14$ free) *[v36.5, R357: with the integrated moments; was $27$]*, no support on $0$–$7$ kpc. The two components apart — the stellar and the gas image each matched, the rotation and the dispersion required of the gas alone: DDO 154's stellar image admits no stationary population at all in this library *[v36.5, R357]* (its feasibility tolerance is $0.999$ — the steep fall of the stars across the unsupported band cannot be built from orbits, none of which has an apocentre where the force points outward), so no two-component population exists in this library at any tolerance *[v36.5, R357]*; IC 2574's stellar image needs $7\%$ per bin, both together $20\%$, and then the gas needs $\sigma_r\geq19$ km/s with its rotation ($11$ free *[v36.5, R357; was $12$]*). With the field iterated to the mixture's own density (five damped steps from the least-dispersion population — for DDO 154 the one with the rotation free, the constrained one not existing; the outer placement does not converge, about a third of the mass sitting beyond $R_{\rm last}$ in places that change from step to step): $\sigma_r\geq31$–$34$ km/s for DDO 154 ($26$–$29$ free), $29$–$30$ km/s for IC 2574 ($15$–$16$ free) *[v36.5, R357: with the integrated moments; were $31$–$35$ ($25$–$30$) and $29$–$30$ ($16$)]*. The observed HI dispersions of the two are about $7$–$10$ km/s (THINGS: Oh et al. 2008, 2011; Ianjamasimanana et al. 2015). The premises: collisionless, stationary and thin; the gnomonic pushforward with the HI total on the leaf; the in-plane radial dispersion set against the line-of-sight HI dispersion. The bound is set as much by the observed rotation lying far from $v_c$ at every radius ($85$ km/s against $46$ at DDO 154's last point in the pushforward field) as by the bands without support.
 
-**(d) What the gas problem is physically saying [D].** The pushforward of a galaxy whose HI extends well past its last measured velocity puts the mass the HI flux requires at polar angles where the leaf's own geometry compresses it — $\sec^3\chi$ — into a band outside the inner orbits; in the twin field a band outside pulls those orbits outward (the ring's $v^2$ above), and a band straddling the equator pulls the equatorial orbit outward (the negative shares in (a)). Entry 323's occupancy cannot remove that mass — its amount is fixed by the HI total and the image inside $R_{\rm last}$, by construction — and it places it non-uniquely among orbits that reproduce the image. What it decides is the kinematics: every such population is hot — with the observed rotation, $\sigma_r\geq27$–$35$ km/s for the stars-plus-gas mixture and $\geq19$ km/s for IC 2574's gas alone; with the rotation free, $14$–$30$ km/s — where the gas is observed at $7$–$10$. So, for the dwarfs under the gnomonic premise, the failure is not in the choice of orbits; it is in the premise that the image's mass is the leaf's mass at $\Sigma_{\rm obs}\sec^3\chi$, which the response's stage C (a photon-history law) alone can change, or in the premise that the HI flux beyond $R_{\rm last}$ gravitates on this leaf. §XXXIII.25's first item — the measured HI profiles — remains the next test, now with the population's dispersion as a second observable beside the curve.
+**(d) What the gas problem is physically saying [D].** The pushforward of a galaxy whose HI extends well past its last measured velocity puts the mass the HI flux requires at polar angles where the leaf's own geometry compresses it — $\sec^3\chi$ — into a band outside the inner orbits; in the twin field a band outside pulls those orbits outward (the ring's $v^2$ above), and a band straddling the equator pulls the equatorial orbit outward (the negative shares of the orbits tested in (a) *[v36.5, R357: not a rule, §XXXIII.52(e)]*). Entry 323's occupancy cannot remove that mass — its amount is fixed by the HI total and the image inside $R_{\rm last}$, by construction — and it places it non-uniquely among orbits that reproduce the image. What it decides is the kinematics: every such population in these libraries is hot *[v36.5, R357]* — with the observed rotation, $\sigma_r\geq28$–$34$ km/s for the stars-plus-gas mixture and $\geq19$ km/s for IC 2574's gas alone; with the rotation free, $14$–$29$ km/s ($49$ in DDO 154's pushforward field) *[v36.5, R357; were $27$–$35$ and $14$–$30$]* — where the gas is observed at $7$–$10$ *[v36.5, R357: a library minimum is an achievable upper bound on the continuum optimum, not a certificate of impossibility, and the bridge from the in-plane radial dispersion to the measured line-of-sight width is a premise, §XXXIII.52(d)]*. So, for the dwarfs under the gnomonic premise, the failure is not in the choice of orbits; it is in the premise that the image's mass is the leaf's mass at $\Sigma_{\rm obs}\sec^3\chi$, which the response's stage C (a photon-history law) alone can change, or in the premise that the HI flux beyond $R_{\rm last}$ gravitates on this leaf. §XXXIII.25's first item — the measured HI profiles — remains the next test, now with the population's dispersion as a second observable beside the curve.
 
-**(e) Not done [O].** Gas with pressure and dissipation (the response's step 3): the collisionless library bounds the dispersion of any stationary population with the image's density; that a dissipative gas, settling toward circular orbits that do not exist where it sits, could not be colder is argued, not computed. The response's "observable outer tracers": the least-dispersion populations of (b) place $0.04\%$ (the thin gnomonic disk) and $0.6\%$ (the arc-length disk, whose own tail is $1.2\%$) of their mass beyond $12h$ — the plateau's tracers are the trapped orbits' apocentres, as in §XXXIII.20. A photon-history law (stage C) is the open piece behind every statement of this section.
+**(e) Not done [O].** Gas with pressure and dissipation (the response's step 3): the collisionless library gives achievable dispersions of stationary populations with the image's density (an upper bound on the coldest, not a bound on all *[v36.5, R357]*); that a dissipative gas, settling toward circular orbits that do not exist where it sits, could not be colder is argued, not computed. The response's "observable outer tracers": the least-dispersion populations of (b) place $0.04\%$ (the thin gnomonic disk) and $0.6\%$ (the arc-length disk, whose own tail is $1.2\%$) of their mass beyond $12h$ — the plateau's tracers are the trapped orbits' apocentres, as in §XXXIII.20. A photon-history law (stage C) is the open piece behind every statement of this section.
 
 ## XXXIII.29 The exponential as a rendering: the image of a smoother source, the fade, and when the plateau coefficient is finite [T/V/D; R333] *(`v36_2_rendering()`)*
 
 **(a) The image of a source exponential in arc length [V/D].** Entry 323 asks how much of the exponential fall-off could be "on the side of losing matter in gnomonic/visible space", the leaf's own density being smoother. Take the smoother source literally: $\Sigma = \exp(-\ell\chi/h)$ in arc length, $h = 3$ kpc on $\ell = 16$ kpc, rendered gnomonically with its mass conserved, $\Sigma_{\rm vis}(R) = \Sigma(\chi)\cos^3\chi$, $R = \ell\tan\chi$. The image's local scale length, $-1/(d\ln\Sigma_{\rm vis}/dR)$, is $2.91$, $2.81$, $2.83$, $3.09$ kpc at $R = 1$, $3$, $6$, $10$ kpc, and the image is within $13\%$ of $e^{-R/h}$ there; beyond, it is shallower — $3.84$, $5.29$, $7.06$, $11.2$ kpc at $16$, $24$, $32$, $48$ kpc, and $1.1$, $2.7$, $10$, $360$ times the exponential. The rendering adds a tail (the arctangent saturates while $\cos^3\chi$ falls as a power); it does not subtract one. To render an exponential image the leaf needs the $\sec^3\chi$ tail — more mass toward the equator than the exponential, not less — which is §XXXIII.5's pushforward, and the dwarfs' problem. Its curve is $195$, $215$, $216$, $217$, $218$, $219$, $220$, $220$, $221$ km/s at $R = 5$, $10$, $20$, $50$, $100$, $200$, $500$, $1{,}000$, $3{,}000$ kpc — flat to the eye and rising without bound: the second differences of $C$ at $h = 0.04$, $0.02$, $0.01$, $0.005$ are $2.994$, $3.010$, $3.025$, $3.041$, growing logarithmically because the density does not vanish at the equator ($\Sigma(\pi/2)/\Sigma(0) = 2.3\times10^{-4}$).
 
-**(b) When the plateau coefficient is finite [T/V].** For a thin source behaving as $\cos^p\chi$ at the equator, the solver's second differences at $h = 0.04$, $0.02$, $0.01$, $0.005$ give: $p = 0$: $0$, $0$, $0$, $0$; $p = 1$: $6.07$, $6.96$, $7.84$, $8.72$; $p = 1.5$: $4.29$, $4.41$, $4.49$, $4.55$, converging as $h^{1/2}$ toward the ring formula's $4.69$; $p = 2$: $3.532$, $3.534$, $3.534$, $3.534$; $p = 3$: $3.063$, $3.058$, $3.056$, $3.056$ — the ring formula (§XXXIII.15) giving $4.690$, $3.534$ and $3.056$ for $p = 1.5$, $2$ and $3$ and diverging for $p\le1$, since $C_{\rm ring}\sim(2/\pi)\sec^2u$ makes $\cos^pu\sin u\,C_{\rm ring}$ integrable at the equator exactly for $p>1$. The uniform great-sphere disk has no field at all: the twin kernel has zero mean, so a uniform source gives a constant $\psi$ and $C = 0$, not the ring formula's $+\infty$; $\Sigma\sim\cos\chi$ gives a logarithmic divergence; $\cos^p\chi$ with $p>1$ — $\cos^2\chi$ included — gives a finite plateau, the solver converging as $h^{p-1}$ for $1<p<3$. The ring formula is a superposition that converges only when $\Sigma$ vanishes at the equator faster than $\cos\chi$; the solver's second difference is the definition, and the l'Hôpital step of §XXXIII.15(a) assumes that $\psi''(\pi/2)$ exists — it does for this class and for densities smooth and even across the equator, and a term linear in $\pi/2-\chi$ at the equator makes it diverge logarithmically, as computed for $p\le1$ and for the arc-length exponential (a note is added there *[v36.2, R333]*). The response's "finite equatorial limit for an appropriate regular class of sources" is this class. A stationary population's density is smooth and even across the equator (a crossing orbit has finite speed there), so its $C$ is finite and given by the solver, with the crossing orbits contributing negatively (§XXXIII.28(a)).
+**(b) When the plateau coefficient is finite [T/V].** For a thin source behaving as $\cos^p\chi$ at the equator, the solver's second differences at $h = 0.04$, $0.02$, $0.01$, $0.005$ give: $p = 0$: $0$, $0$, $0$, $0$; $p = 1$: $6.07$, $6.96$, $7.84$, $8.72$; $p = 1.5$: $4.29$, $4.41$, $4.49$, $4.55$, converging as $h^{1/2}$ toward the ring formula's $4.69$; $p = 2$: $3.532$, $3.534$, $3.534$, $3.534$; $p = 3$: $3.063$, $3.058$, $3.056$, $3.056$ — the ring formula (§XXXIII.15) giving $4.690$, $3.534$ and $3.056$ for $p = 1.5$, $2$ and $3$ and diverging for $p\le1$, since $C_{\rm ring}\sim(2/\pi)\sec^2u$ makes $\cos^pu\sin u\,C_{\rm ring}$ integrable at the equator exactly for $p>1$. The uniform great-sphere disk has no field at all: the twin kernel has zero mean, so a uniform source gives a constant $\psi$ and $C = 0$, not the ring formula's $+\infty$; $\Sigma\sim\cos\chi$ gives a logarithmic divergence; $\cos^p\chi$ with $p>1$ — $\cos^2\chi$ included — gives a finite plateau, the solver converging as $h^{p-1}$ for $1<p<3$. The ring formula is a superposition that converges only when $\Sigma$ vanishes at the equator faster than $\cos\chi$; the solver's second difference is the definition, and the l'Hôpital step of §XXXIII.15(a) assumes that $\psi''(\pi/2)$ exists — it does for this class and for densities smooth and even across the equator, and a term linear in $\pi/2-\chi$ at the equator makes it diverge logarithmically, as computed for $p\le1$ and for the arc-length exponential (a note is added there *[v36.2, R333]*). The response's "finite equatorial limit for an appropriate regular class of sources" is this class. A stationary population's density is smooth and even across the equator (a crossing orbit has finite speed there), so its $C$ is finite and given by the solver *[v36.5, R357: for suitable smooth distributions — stationarity alone does not make a density smooth, §XXXIII.52(d)]*, with the crossing orbits tested in §XXXIII.28(a) contributing negatively *[v36.5, R357: not a rule, §XXXIII.52(e)]*.
 
 **(c) The fade [V/D].** The response's section 4, in numbers: if only a fraction $\varepsilon(\chi)$ of the light near the equator reaches the image, the inverse is $\Sigma_{\rm leaf} = \Sigma_{\rm obs}/(\varepsilon\cos^3\chi)$ — more mass. DDO 154's reconstructed source with $\varepsilon = 1$, $\cos\chi$, $\cos^2\chi$: on the $2.02$ kpc leaf, $M = 1.00$, $5.00$, $72.5$ times $M_b$, $C = 46.8$, $206$, $385$, $v_\infty = 197$, $925$, $4{,}818$ km/s; on the arena leaf of the enlarged mass ($2.02$, $4.52$, $17.2$ kpc), $C = 46.8$, $41.8$, $6.5$ and $v_\infty = 197$, $279$, $214$ km/s — against the observed $47$. Neither fade lowers the plateau; with the arena law each moves the galaxy to a larger leaf and leaves $v_\infty$ at four to six times the observed. (The factors $5$ and $72$ are dominated by the fitted gas tail beyond $R_{\rm last}$ weighted by $\sec\chi$ or $\sec^2\chi$; they are converged in the outer cutoff and depend on the tail's shape, §XXXIII.18.)
 
@@ -20340,18 +20603,18 @@ The rest of the hypothesis — an internal direction field $n^a$ on the middle s
 *[v36.3, R348: §XXXIII.42 continues this standing — the regular source families, the isothermal fixed points, the null cone, the split model and the $\mathfrak{so}(4)$ sectors added to the established list; the joint model and Entry 329's acceptance criterion placed first among the next pieces.]*
 
 §XXXIII.25 remains the operative standing, with these additions and one change.
-- *Established [T/V], added.* Schwarzschild's method on the leaf: the thin exponentials are cold, trapped stationary populations when identified with the full folded gravitating source — their densities at the equator then exclude crossing orbits (reproduced, not predicted) *[v36.3, R347]*; the broad gnomonic disk only a hot one; the dwarfs' gnomonic sources admit no axisymmetric in-plane placement of their required outer mass that keeps circular support, and no stationary population as cold as their gas (with the observed rotation, $\sigma_r\geq27$–$35$ km/s for the mixture, $\geq19$ for IC 2574's gas alone, against $7$–$10$ observed) — DDO 154's stellar image none at all (§XXXIII.28). The image of an arc-length exponential gains a tail; a fade adds mass; the plateau coefficient is finite for sources vanishing at the equator faster than $\cos\chi$ or smooth and even across it, and diverges logarithmically for a term linear in $\pi/2-\chi$ there (§XXXIII.29). The Möbius family of rendered uniform disks — cored, floored, rational, not exponential; the divergent factor an exponential needs; the five-dimensional transformation law (§XXXIII.30). The gnomonic rendering turns no central disk (§XXXIII.31).
-- *Not demonstrated,* unchanged: the observed rotation curve from the theory as specified. The occupancy route does not change the dwarfs' negative result; it sharpens it to a statement about their gas's dispersion, and it excludes the hemisphere-crossing disk for thin exponentials identified with the full folded gravitating source *[v36.3, R347]*.
+- *Established [T/V], added.* Schwarzschild's method on the leaf: the thin exponentials are cold, trapped stationary populations when identified with the full folded gravitating source — their densities at the equator then exclude crossing orbits (reproduced, not predicted) *[v36.3, R347]*; the broad gnomonic disk only a hot one; the dwarfs' gnomonic sources admit no thin axisymmetric in-plane placement of their required outer mass that keeps circular support, and, in these libraries, no stationary population as cold as their gas (with the observed rotation, $\sigma_r\geq28$–$34$ km/s for the mixture, $\geq19$ for IC 2574's gas alone, against $7$–$10$ observed) *[v36.5, R357: library witnesses with the velocity moments integrated along the orbit, not continuum certificates; §XXXIII.52]* — DDO 154's stellar image none at all (§XXXIII.28). The image of an arc-length exponential gains a tail; a fade adds mass; the plateau coefficient is finite for sources vanishing at the equator faster than $\cos\chi$ or smooth and even across it, and diverges logarithmically for a term linear in $\pi/2-\chi$ there (§XXXIII.29). The Möbius family of rendered uniform disks — cored, floored, rational, not exponential; the divergent factor an exponential needs; the five-dimensional transformation law (§XXXIII.30). The gnomonic rendering turns no central disk (§XXXIII.31).
+- *Not demonstrated,* unchanged: the observed rotation curve from the theory as specified. The occupancy route does not change the dwarfs' negative result; it sharpens it to a statement about their gas's dispersion in these libraries *[v36.5, R357]*, and it excludes the hemisphere-crossing disk for thin exponentials identified with the full folded gravitating source *[v36.3, R347]*.
 - *The next pieces.* §XXXIII.25's list stands, with its first item now carrying two observables — the HI surface-density profiles for the dwarfs' sources, and the HI velocity dispersion against the lower bound of §XXXIII.28(c) — and one item added after the third: *gas with pressure and dissipation on the leaf* (the response's step 3), only if the measured profiles leave a stationary population to test. Entry 323's conformal route is closed within the round leaf and open as a new field (§XXXIII.30(c)); Entry 324 is held (§XXXIII.31). The photon-history law — §XXXIII.25's item 4, the optics the Milky Way needs, read for external galaxies — is the piece every statement of §§XXXIII.28–29 waits on.
 - *Not claimed.* No observed rotation curve is reproduced. The exponential disk is not shown to be a rendering artifact; under mass-conserving rendering and any fade the leaf holds more mass than the image shows, further out.
 
 ## XXXIII.33 Register R332–R338 [D/O; v36.2]
 
 - **R332** (§XXXIII.28; §XXXIII.23 corrected in place). Orbital occupancy on the leaf — Schwarzschild's method for a thin, collisionless, axisymmetric population on the great 2-sphere in the twin field:
-  - the occupancy law $P(\chi)\propto1/\sqrt{E-U_{\rm eff}}$ and the folded time-averaged density; the facts about crossing orbits (the disk's, $L<\ell v_{\rm eq}$, slowest at the equatorial barrier: $0.28$–$0.32$ of a period within $10^\circ$ of the equator just above the barrier energy, $0.13$ a $v_{\rm eq}^2$ above; the $L>\ell v_{\rm eq}$ family fastest there); one orbit's period and equatorial time by direct integration ($10^{-4}$); each orbit's share of the plateau coefficient by the solver, trapped orbits positive, crossing orbits negative;
+  - the occupancy law $P(\chi)\propto1/\sqrt{E-U_{\rm eff}}$ and the folded time-averaged density; the facts about crossing orbits (the disk's, $L<\ell v_{\rm eq}$, slowest at the equatorial barrier: $0.28$–$0.32$ of a period within $10^\circ$ of the equator just above the barrier energy, $0.13$ a $v_{\rm eq}^2$ above; the $L>\ell v_{\rm eq}$ family fastest there); one orbit's period and equatorial time by direct integration ($10^{-4}$); each orbit's share of the plateau coefficient by the solver, trapped orbits positive, crossing orbits negative *[v36.5, R357: for the orbits tested; not a rule]*;
   - the library ($L = 0$ and $100$ values to $1.6\,\ell v$; energies above the well and above every saddle; $4{,}100$–$5{,}500$ orbits) and the linear programs (feasibility and its tolerance; the admissible range of a linear functional; the least radial dispersion with the density and the rotation constrained; the two-component form with the rotation and dispersion required of the gas);
   - three sources: the thin gnomonic exponential ($h/\ell = 0.1875$) and the arc-length exponential ($h = 3$ kpc) reproduced to the $0.1\%$ floor by populations as cold as the library resolves ($7$–$10$ km/s, the $L$ grid's spacing), whose densities exclude crossing orbits (at most $1\%$ with the whole density matched, $2$–$14\%$ with only the measured range matched at $1$–$5\%$ per bin); the broad gnomonic disk ($h/\ell = 1$) reproduced too but only hot — $\sigma_r\geq35$ km/s inside $30$ kpc with the rotation free — its support absent on $0.2$–$1.9\,h$ and weak inside;
-  - the dwarfs: the support test (every ring's field negative at every measured radius, so no axisymmetric in-plane placement of the required outer mass keeps $v^2>0$ everywhere: at best $8$ of $12$ and $15$ of $34$); the coldest population with the image inside $R_{\rm last}$ and the observed rotation — stars and gas as one population, in the pushforward's field none below $400$ km/s (DDO 154) and $27$ km/s (IC 2574), in the fields iterated to the mixtures' densities $31$–$35$ and $29$–$30$ km/s over five steps; the two components apart, DDO 154's stellar image admitting no stationary population at all and IC 2574's gas needing $\sigma_r\geq19$ km/s at $20\%$ per bin — against observed HI dispersions of about $7$–$10$ km/s (Oh et al. 2008, 2011; Ianjamasimanana et al. 2015);
+  - the dwarfs: the support test (every ring's field negative at every measured radius, so no axisymmetric in-plane placement of the required outer mass keeps $v^2>0$ everywhere: at best $8$ of $12$ and $15$ of $34$ *[v36.5, R357: thin in-plane rings; by the envelope and the mixture program, not the sign]*); the coldest population with the image inside $R_{\rm last}$ and the observed rotation — stars and gas as one population, in the pushforward's field none below $400$ km/s (DDO 154) and $27$ km/s (IC 2574), in the fields iterated to the mixtures' densities $31$–$35$ and $29$–$30$ km/s over five steps *[v36.5, R357: with the moments integrated along the orbit, $28$, $31$–$34$ and $29$–$30$; library minima]*; the two components apart, DDO 154's stellar image admitting no stationary population at all and IC 2574's gas needing $\sigma_r\geq19$ km/s at $20\%$ per bin — against observed HI dispersions of about $7$–$10$ km/s (Oh et al. 2008, 2011; Ianjamasimanana et al. 2015);
   - the reading: the occupancy places the mass the HI total requires (fixed by construction) non-uniquely among the orbits that reproduce the image, and every such population is hot; the dwarfs' failure under the gnomonic premise is the premise's, not the orbits'.
 
   Superseded wording, §XXXIII.23(c): "Beyond $h/\ell = 0.87$–$0.88$ the pushforward's own tail removes the circular support at the centre, as the dwarfs' gas did in §XXXIII.5." — replaced in place: the support is removed over a band inside ($0.2$–$1.9\,h$ at $h/\ell = 1$), weak support ($v_c<8$ km/s) remaining inside the band. Superseded wording, §XXXIII.25 (the established list's bullet on Entry 322's family): "… a bump in every gnomonic exponential disk (smallest $+2.5\%$ near $h/\ell = 0.22$), and no circular support at the centre beyond $h/\ell\approx0.87$; …" — now "no circular support over a band inside beyond $h/\ell\approx0.87$". The suite's v36.1-9 print corrected to match (quoted in the ledger, §CK). The head-table row on Entry 322's family is rewritten accordingly (its v36.1 text quoted under R337), and the compact manuscript's row likewise.
@@ -23839,11 +24102,11 @@ Both families are smooth and even across the equator, so their plateau coefficie
 
 ## XXXIII.36 Schwarzschild on the leaf for the regular families: how much must cross, how cold they can be [V/D; R341] *(`v36_3_occupancy()`)*
 
-As §XXXIII.28(b), for Entry 326's $a = 16/3$ and Entry 327's $k = 0.169$ members on $\ell = 16$ kpc, $6\times10^{10}\,M_\odot$ — the same bins, grids, tolerances and linear programs ($4{,}158$ orbits each). Both are stationary populations (feasibility tolerance at the $0.1\%$ floor) as cold as the library resolves ($\sigma_r = 7.2$ and $6.7$ km/s inside $36$ kpc, with the rotation at $v_c$ or free — the $L$ grid's spacing, §XXXIII.28(b)); no band lacks circular support. Unlike the thin exponentials, their densities admit crossing orbits — up to $0.181$ and $0.253$ of the mass at $1\%$ per bin — and, in this library, require some: at least $0.015$ and $0.022$. The minimum is the library's: the equatorial bins' mass ($2$–$3\%$ within $10^\circ$) is not fully supplied by its trapped orbits, whose energy ladder stops below the barrier; the maximum is the density's. The coldest rotating populations ($2\%$ per bin) cross with $0.006$ and $0.007$ of their mass. So the regular families relax §XXXIII.28's exclusion: a thin disk regular at the equator can hold a crossing population of several per cent to a quarter of its mass and stay cold. What they do not do is select the crossing fraction — the population law is still the linear program's, not the theory's (the review's first distinction, §XXXIII.34; R347).
+As §XXXIII.28(b), for Entry 326's $a = 16/3$ and Entry 327's $k = 0.169$ members on $\ell = 16$ kpc, $6\times10^{10}\,M_\odot$ — the same bins, grids, tolerances and linear programs ($4{,}158$ orbits each). Both are stationary populations (feasibility tolerance at the $0.1\%$ floor) as cold as the library resolves ($\sigma_r = 6.9$ and $6.4$ km/s inside $36$ kpc, with the rotation at $v_c$ or free — the $L$ grid's spacing, §XXXIII.28(b) *[v36.5, R357: with the velocity moments integrated along the orbit; v36.3's $7.2$ and $6.7$ were certified by the bin-centre prescription, and those witnesses' true dispersions were $21.9$ and $21.0$, §XXXIII.52(b)]*); no band lacks circular support. Unlike the thin exponentials, their densities admit crossing orbits — up to $0.181$ and $0.253$ of the mass at $1\%$ per bin — and, in this library, require some: at least $0.015$ and $0.022$. The minimum is the library's: the equatorial bins' mass ($2$–$3\%$ within $10^\circ$) is not fully supplied by its trapped orbits, whose energy ladder stops below the barrier; the maximum is the library's achievable fraction, not the density's limit *[v36.5, R357; was "the density's"]*. The coldest rotating populations ($2\%$ per bin, the density matched on the inner bins only) cross with $0.021$ and $0.006$ of their mass *[v36.5, R357; were $0.006$ and $0.007$]*. So the regular families relax §XXXIII.28's exclusion: a thin disk regular at the equator can hold a crossing population and be cold — jointly, with the whole density matched and the inner dispersion capped at $10$ km/s, up to $6.9$–$9.0\%$ of its mass crossing *[v36.5, R357: §XXXIII.52(c); v36.3's "several per cent to a quarter of its mass and stay cold" combined the crossing maximum of one program with the coldness of another and is withdrawn; the maximum $0.18$–$0.25$ is with the density alone, and every figure is the library's]*. What they do not do is select the crossing fraction — the population law is still the linear program's, not the theory's (the review's first distinction, §XXXIII.34; R347).
 
 ## XXXIII.37 The two dwarfs with the regular families as the whole folded gravitating source [V/S/D; R342] *(`v36_3_dwarfs()`)*
 
-Under the gnomonic premise the dwarfs' reconstructed sources need outer mass that no axisymmetric placement supports (§XXXIII.28(c)). Here the whole gravitating source is instead one member of a family — Entry 326's $e^{-a\sin\chi}$ or Entry 327's $\Sigma_k$ — on the arena leaf with $M_b$ (§XXXIII.5: DDO 154 $\ell = 2.02$ kpc, $M_b = 3.90\times10^8$; IC 2574 $4.51$ kpc, $1.95\times10^9$), one shape parameter free, and the leaf's own curve is compared with the observed one at the measured radii. Two error treatments are reported, because SPARC's published errors are below $1$ km/s at $10$ of DDO 154's $12$ radii and $8$ of IC 2574's $34$: $\chi^2/N$ with the errors as published (§XXXIII.5's definition) and with them floored at $1$ km/s; the gnomonic reconstruction's curve (§XXXIII.5) is scored under both, for a like-for-like reference. The best member is the grid's minimum under the published errors.
+Under the gnomonic premise the dwarfs' reconstructed sources need outer mass that no thin axisymmetric in-plane placement supports (§XXXIII.28(c) *[v36.5, R357]*). Here the whole gravitating source is instead one member of a family — Entry 326's $e^{-a\sin\chi}$ or Entry 327's $\Sigma_k$ — on the arena leaf with $M_b$ (§XXXIII.5: DDO 154 $\ell = 2.02$ kpc, $M_b = 3.90\times10^8$; IC 2574 $4.51$ kpc, $1.95\times10^9$), one shape parameter free, and the leaf's own curve is compared with the observed one at the measured radii. Two error treatments are reported, because SPARC's published errors are below $1$ km/s at $10$ of DDO 154's $12$ radii and $8$ of IC 2574's $34$: $\chi^2/N$ with the errors as published (§XXXIII.5's definition) and with them floored at $1$ km/s; the gnomonic reconstruction's curve (§XXXIII.5) is scored under both, for a like-for-like reference. The best member is the grid's minimum under the published errors.
 - DDO 154, over $a = 0.25$, $0.5$, $1$, $1.5$, $2$, $3$, $4$, $6$, $8$, $12$ (published / floored): $9413/830$, $6962/609$, $4106/352$, $2432/204$, $1388/115$, $383/43$, $142/49$, $330/128$, $506/191$, $578/237$; best $a = 4$ ($h = 0.5$ kpc), $\chi^2/N = 142/49$, $v = 29$, $43$, $43$ km/s at $R = 0.5$, $3.5$, $5.9$ kpc against $14$, $45$, $46$ observed; its image holds $91\%$ of the mass inside $R_{\rm last}$ with a median local scale length $0.96$ kpc there (SPARC's $R_{\rm disk} = 0.37$ kpc). Over $k = 0.8$, $0.6$, $0.45$, $0.35$, $0.25$, $0.18$, $0.12$, $0.08$, $0.05$, $0.03$: $4463/387$, $1558/130$, $576/55$, $273/48$, $180/72$, $214/107$, $294/146$, $367/174$, $429/193$, $472/204$; best $k = 0.25$, $180/72$, $v = 36$, $43$, $43$ km/s; $92\%$ inside, scale $1.04$ kpc. The gnomonic reconstruction: $9738/743$ — the improvement is a factor $69$ with the published errors and $15$ with the floor.
 - IC 2574, over the same $a$ grid: $755/338$, $468/216$, $186/91$, $87/37$, $103/25$, $379/73$, $888/174$, $2267/389$, $3725/538$, $6123/680$; best $a = 1.5$ ($h = 3.0$ kpc), $87/37$, $v = 16$, $39$, $42$ km/s at $R = 0.8$, $5.7$, $10.2$ kpc against $10$, $44$, $68$; $71\%$ inside $R_{\rm last}$, scale $2.47$ kpc ($R_{\rm disk} = 2.78$). Over the $k$ grid: $227/109$, $50/21$, $225/53$, $586/118$, $1401/227$, $2555/340$, $4162/464$, $5485/556$, $6416/620$, $6894/655$; best $k = 0.6$, $50/21$, $v = 15$, $44$, $47$ km/s; $74\%$, $2.48$ kpc. The gnomonic reconstruction: $1600/628$ (§XXXIII.5's table rounds the first to $1601$) — a factor $32$ and $30$.
 
@@ -23924,7 +24187,7 @@ Entry 330 asks for a second-order equation with a threshold driven by the misali
 *[v36.4, R353: §XXXIII.48 continues this standing — the erratum, the two ensembles, the duality identities and the clash test; the next pieces led by the joint model and the clash invariant restated.]*
 
 §XXXIII.25 remains the operative standing, with §XXXIII.32's additions, these additions and the review's two distinctions applied (R347).
-- *Established [T/V], added.* Two source families regular at the equator — Entry 326's $e^{-a\sin\chi}$ and Entry 327's stretched uniform disk — with finite positive plateau coefficients ($2.64$ and $2.50$ at the exponential's contrast), support everywhere, images that are exponential to $7\%$ over $2.7h$ (Entry 326) or a cored power law (Entry 327), and stationary populations as cold as the library resolves that admit crossing orbits up to a fifth or a quarter of the mass (§§XXXIII.35–36). The isothermal law's self-consistent disks: the uniform disk, one branch per even $l$ bifurcating transcritically at $\theta_l = 1/\lambda_l$ (the $l = 2$ branch folding at $\theta\approx1.07$), the ring Picard-stable across the cold side until it collapses, every concentrated branch Picard-unstable, none exponential (axisymmetrically — the ring is $m = 2$-unstable; Picard = canonical; microcanonically the concentrated branch is stable between contrast $3$ and $55$ *[v36.4, R350]*); the rotating law's rings (§XXXIII.38). The null cone's boost is §XXXIII.30's Möbius dilation and does not descend to $\mathbb{RP}^3$; the exact gnomonic exponential solves no regular second-order equation on the leaf, Entry 326's profile does (§§XXXIII.39–40). The split model's identity, its source family's fields, and the large-leaf test: the gnomonic factor passes, a transfer with a fixed $h$ read as a metric deformation fails (§XXXIII.40). The $\mathfrak{so}(4)$ even–odd split and the quaternion quotient $SO(4)/SU(2)\cong SO(3)$; the two-vector expansions; the one-sided normal of the quotient disk; a threshold mode with an exponential tail out of the plane, and $K_0$'s non-constant scale length in it; the bundle $SO(3)/SO(2) = S^2$, the two-Hopf pair's exchange-even tensor and the Hopf map's complex structure, with the joint normal free until a selection law fixes it; the relative $U(1)$ fixing the projection, its holonomy half the solid angle, the horizontal planes a contact structure (§XXXIII.41).
+- *Established [T/V], added.* Two source families regular at the equator — Entry 326's $e^{-a\sin\chi}$ and Entry 327's stretched uniform disk — with finite positive plateau coefficients ($2.64$ and $2.50$ at the exponential's contrast), support everywhere, images that are exponential to $7\%$ over $2.7h$ (Entry 326) or a cored power law (Entry 327), and stationary populations as cold as the library resolves that admit crossing orbits up to a fifth or a quarter of the mass with the density alone, up to $6.9$–$9.0\%$ jointly with coldness *[v36.5, R357]* (§§XXXIII.35–36). The isothermal law's self-consistent disks: the uniform disk, one branch per even $l$ bifurcating transcritically at $\theta_l = 1/\lambda_l$ (the $l = 2$ branch folding at $\theta\approx1.07$), the ring Picard-stable across the cold side until it collapses, every concentrated branch Picard-unstable, none exponential (axisymmetrically — the ring is $m = 2$-unstable; Picard = canonical; microcanonically the concentrated branch is stable between contrast $3$ and $55$ *[v36.4, R350]*); the rotating law's rings (§XXXIII.38). The null cone's boost is §XXXIII.30's Möbius dilation and does not descend to $\mathbb{RP}^3$; the exact gnomonic exponential solves no regular second-order equation on the leaf, Entry 326's profile does (§§XXXIII.39–40). The split model's identity, its source family's fields, and the large-leaf test: the gnomonic factor passes, a transfer with a fixed $h$ read as a metric deformation fails (§XXXIII.40). The $\mathfrak{so}(4)$ even–odd split and the quaternion quotient $SO(4)/SU(2)\cong SO(3)$; the two-vector expansions; the one-sided normal of the quotient disk; a threshold mode with an exponential tail out of the plane, and $K_0$'s non-constant scale length in it; the bundle $SO(3)/SO(2) = S^2$, the two-Hopf pair's exchange-even tensor and the Hopf map's complex structure, with the joint normal free until a selection law fixes it; the relative $U(1)$ fixing the projection, its holonomy half the solid angle, the horizontal planes a contact structure (§XXXIII.41).
 - *Not demonstrated,* unchanged: the observed rotation curve from the theory as specified. The regular families give the dwarfs curves at their plateau where the observed ones still rise ($\chi^2/N = 142$–$180$ and $50$–$87$ with the published errors, a factor $15$–$69$ below the gnomonic reconstruction's under either error treatment, one free shape, the image unfitted; §XXXIII.37); a density reproduced by orbit superposition is reproduced, not predicted (R347).
 - *The next pieces.* (1) The joint model the review recommends and Entries 328–329 shape: one middle-space population, its Law I source and its image by a stated transfer, compared with DDO 154's surface density, curve and dispersion — with the population law and the transfer both fixed before the comparison; §XXXIII.40(a) says the pre-source must be concentrated on the scale $h$, §XXXIII.40(b) that $h$ must come from the matter or the history. (2) Entry 329's acceptance criterion computed: the post-rendering Einstein equation for a moving or anisotropic source. (3) The standing list: the measured HI profiles with the dispersion; the Milky Way estimator; the label law; gas with pressure; the photon-history law, which (1) now names as a transfer $T$. Entry 325's project C — a common parameter linking the equilibrium family, the rendering scale and the plateau — waits on (1); so does Entries 330–339's two-sector model, whose first test is a covariant action for the pair, a selection law linking the normal to the foliation pair, and a gauge-invariant clash phase (§XXXIII.41(g)).
 - *Not claimed.* No observed rotation curve is reproduced. The exponential disk is not shown to be a rendering artifact: the regular sources render with a power-law tail, the split model renders anything by construction, and no transfer is derived.
@@ -23933,7 +24196,7 @@ Entry 330 asks for a second-order equation with a threshold driven by the misali
 
 - **R339** (§XXXIII.34). The review of v36.2, Entries 325–339 and the fourteen responses in the author's words; what v36.3 does with each. [record]
 - **R340** (§XXXIII.35). Two source families regular at the equator: Entry 326's $\Sigma_B = \Sigma_0e^{-a\sin\chi}$ ($a = \ell/h$) and Entry 327's stretched uniform disk $\Sigma_k = \Sigma_0k/(k^2\cos^2\chi+\sin^2\chi)^{3/2}$ (the uniform great-sphere disk through gnomonic projection, $R' = kR$ and back; $\Sigma_k(\pi/2)/\Sigma_k(0) = k^3$; conformal in the flat image, not on the round leaf). Their fields on $\ell = 16$ kpc, $6\times10^{10}\,M_\odot$: $C = 2.643$ ($a = 16/3$; $1.349$, $0.708$, $0.360$ at $a = 2$, $1$, $1/2$) and $2.499$ ($k = 0.169$; $1.576$, $2.134$, $2.698$, $2.846$ at $k = 0.5$, $0.3$, $0.1$, $0.05$; $0$ at $k = 1$), finite and positive, support everywhere; the Funk–Hecke control to $4\times10^{-6}$ and $5\times10^{-7}$ in $v^2$. Their images: Entry 326's $\Sigma_0(1+R^2/\ell^2)^{-3/2}\exp[-(R/h)/\sqrt{1+R^2/\ell^2}]$, the ratio to $e^{-R/h}$ $0.995$, $0.966$, $0.938$, $0.948$, $1.686$, $32.5$ at $1$, $3$, $5$, $8$, $16$, $32$ kpc (the response's numbers), exponential to $7\%$ over $2.7h$ then a power-law tail, $5.8\%$ of the mass beyond $12h$; Entry 327's exactly the uniform image rescaled, $\Sigma_0k^{-2}(1+R^2/k^2\ell^2)^{-3/2}$ ($2\times10^{-15}$), a cored power law with no exponential range. The same $h$ keeps the central slope; a larger $h$ flattens the source toward uniform, $C\to0$. [T/V/D]
-- **R341** (§XXXIII.36). Schwarzschild on the leaf for the two members ($4{,}158$ orbits each; the grids, bins and programs of R332): stationary (tolerance at the $0.1\%$ floor), as cold as the library resolves ($\sigma_r = 7.2$, $6.7$ km/s inside $36$ kpc); crossing mass between $0.015$–$0.181$ and $0.022$–$0.253$ at $1\%$ per bin — the minimum the library's (its trapped ladder stops below the barrier), the maximum the density's; the coldest rotating populations cross with $0.006$, $0.007$. A thin disk regular at the equator can hold a crossing population of several per cent to a quarter of its mass and stay cold; the fraction is not selected. [V/D]
+- **R341** (§XXXIII.36). Schwarzschild on the leaf for the two members ($4{,}158$ orbits each; the grids, bins and programs of R332): stationary (tolerance at the $0.1\%$ floor), as cold as the library resolves ($\sigma_r = 7.2$, $6.7$ km/s inside $36$ kpc *[v36.5, R357: mis-certified by the bin-centre moments; $6.9$, $6.4$ with the integrated ones]*); crossing mass between $0.015$–$0.181$ and $0.022$–$0.253$ at $1\%$ per bin — the minimum the library's (its trapped ladder stops below the barrier), the maximum the density's; the coldest rotating populations cross with $0.006$, $0.007$. A thin disk regular at the equator can hold a crossing population of several per cent to a quarter of its mass and stay cold *[v36.5, R357: withdrawn — two programs combined; jointly up to $6.9$–$9.0\%$ at $10$ km/s, §XXXIII.52(c)]*; the fraction is not selected. [V/D]
 - **R342** (§XXXIII.37). The two dwarfs with a member of either family as the whole folded gravitating source on the arena leaf with $M_b$, one shape parameter free: with SPARC's errors as published / floored at $1$ km/s: DDO 154 $\chi^2/N = 142/49$ ($a = 4$) and $180/72$ ($k = 0.25$) against the gnomonic reconstruction's $9738/743$; IC 2574 $87/37$ ($a = 1.5$) and $50/21$ ($k = 0.6$) against $1600/628$ — a factor $15$–$69$ under either definition; the curves at their plateau at $R_{\rm last}$ where the observed ones still rise ($43$ against $46$; $42$–$47$ against $68$ km/s); the images unfitted (DDO 154's $2.6$ times broader than $R_{\rm disk}$). A one-parameter fit of the curve, not of the galaxy; the improvement is the absence of the outer band of R332's mechanism. [V/S/D]
 - **R343** (§XXXIII.38). Entry 325's project A under the isothermal law, $\Sigma = A\exp(-\theta\phi[\Sigma])$, $\theta = (GM/\ell)/\sigma^2$, on the great 2-sphere under the twin kernel (Funk–Hecke at two resolutions, $160/120$ and $400/300$, Newton with the analytic Jacobian checked to $4\times10^{-9}$, only resolution-converged fixed points counted): the uniform disk a fixed point at every $\theta$ with linearization $\theta\lambda_l$ on even $l$ ($10^{-6}$), thresholds $\theta_l = 1/\lambda_l$ ($1.698$, $4.074$, $6.209$, $8.278$, $10.321$; $\theta_2$ is $\sigma = 97$ km/s on the Milky-Way-like leaf); the $l = 2$ bifurcation transcritical; the concentrated branch on the hot side, Picard-unstable (contrast $28.4$, $C = 1.80$, $\rho = 1.545$ at $\theta = 1.2$), folding near $\theta = 1.07$ and turning back toward the point-mass end; the ring Picard-stable from $\theta_2$ across the cold side *[v36.4, R350: against axisymmetric perturbations; it is unstable to $m = 2$ in both ensembles, §XXXIII.45(e)]* ($\rho = 0.99$, $0.94$, $0.86$, $0.81$ at $\theta = 1.72$–$2.5$), sharpening until it collapses between $\theta = 3$ and $4$ (the independent check's finer grids); the $l = 4$ branch at its threshold, Picard-unstable; the rotating law's rings on the hot side, a fold at $\theta = 3$, a ring at $\theta = 6$; the control against the quadrature solver ($C$ to $0.5\%$, $v^2$ to $10^{-5}$). An equatorial excess reinforces itself (every $\lambda_l>0$). One branch per even $l$ at the thresholds scanned, the only Picard-stable cold state a ring, none exponential; the count is the law's. [T/V/D]
 - **R344** (§XXXIII.39). Entry 325's project B: the null cone of $\mathbb R^{4,1}$, the boost's induced Möbius dilation $\tan(\theta'/2) = e^s\tan(\theta/2)$ with factor $1/(\cosh s-\sinh s\cos\theta)$ (R334's $\Omega$), its null eigendirections $U_\pm$ scaling by $e^{\mp s}$, $(1-\beta)/(1+\beta) = e^{-2s}$ — all to $10^{-12}$ or better; the induced map commutes with the antipodal map only at $s = 0$ ($0.20$, $1.21$ at $s = 0.1$, $0.7$): the dilations do not descend to $\mathbb{RP}^3$. The second-order reading $u''+Qu = 0$, $u = f\sin\chi$: for the exact gnomonic exponential $Q\to-(\ell/h)^2\sec^4\chi$, unbounded at the equator; no globally regular such equation has it as a solution. The accumulated rapidity $s(R)$ chosen, not derived. [T/D]
@@ -24648,13 +24911,13 @@ Entry 330 asks for a second-order equation with a threshold driven by the misali
 
 **(a) The erratum [V].** §XXXIII.38's fold was located by stepping Newton down in $\theta$ until it failed; on the referee's machine Newton converged to another branch instead of failing, the fold variable stayed empty, and the section crashed at its print — so the delivered suite ran $7$ of its $8$ v36.3 checks there. The search is replaced, in the suite's v36.3 section and here, by continuation in the central density: with $\theta$ an unknown, the augmented system $[\Sigma-G(\Sigma,\theta) = 0,\ \Sigma({\rm pole}) = s]$ is stepped in $s$, so the fold in $\theta$ is passed, not hit; a missing fold now fails the check instead of crashing; the continuation parameter is the central density, not arclength, and the branch's identity is followed only by its contrast. On the two grids ($160/120$ and $400/300$) the fold is at $\theta = 1.0649$ and $1.0652$ (contrast $143$ and $146$) — the independent check's $1.065$–$1.066$ — and the branch is followed beyond it to contrast $\approx250$, where the grids part: a second fold at $\theta = 1.104$ (contrast $269$) on the coarse grid and $1.276$ ($759$) on the fine one, and all that follows ($\theta$ falling toward $0.2$–$0.3$ with $E$ diverging; a third extremum of $E$), differ between the grids and are discretization-bound — not a resolved approach to the point-mass end. The energy per unit mass along the branch, $E = 1/\theta+\tfrac12\int\Sigma\phi$ (the 2-d isothermal kinetic energy $\sigma^2 = 1/\theta$ in units of $GM/\ell$), has a maximum at contrast $3.1$ ($\theta = 1.523$, $E = 0.6210$) and a minimum at contrast $54$–$55$ ($\theta = 1.12$, $E = 0.5098$), both before the fold, on both grids.
 
-**(b) Canonical stability is the iteration's [T].** In the quadrature's inner product the kernel's quadratic form is symmetric and negative semidefinite (largest eigenvalue $10^{-17}$; every $\lambda_l\geq0$), so the Jacobian's eigenvalues $\mu = -\theta\Sigma A$ are real and nonnegative, and the free energy's Hessian on mass-preserving perturbations, $H_c = \Sigma^{-1}+\theta A = \Sigma^{-1}(1-\mu)$, is positive exactly when every $\mu<1$. "Picard-stable" in §XXXIII.38 is therefore "a free-energy minimum at fixed temperature", and the number of canonical unstable directions is the number of $\mu$ above $1$.
+**(b) Canonical stability is the iteration's [T].** In the quadrature's inner product the kernel's quadratic form is symmetric and negative semidefinite (largest eigenvalue $10^{-17}$; every $\lambda_l\geq0$), so the Jacobian's eigenvalues $\mu = -\theta\Sigma A$ are real and nonnegative, and the free energy's Hessian on mass-preserving perturbations, $H_c = \Sigma^{-1}+\theta A = \Sigma^{-1}(1-\mu)$, is positive exactly when every $\mu<1$. "Picard-stable" in §XXXIII.38 is therefore "a free-energy minimum at fixed temperature", and the number of canonical unstable directions is the number of $\mu$ above $1$ *[v36.5, R358: on the mass-preserving subspace, with the normalization projection — the raw $-\theta\Sigma A$ is not the full normalized Jacobian away from the uniform state]*.
 
-**(c) Microcanonical stability, axisymmetric sector [T/V].** At fixed energy the temperature responds to the perturbation, and the entropy's second variation on mass-preserving perturbations gains a rank-one term: $H_m = H_c+\theta^2\lvert\langle\phi,\delta\Sigma\rangle\rvert^2$ — microcanonical stability is the weaker condition. The signatures at the resolved fixed points against *axisymmetric* perturbations (negative directions, canonical / microcanonical; the non-axisymmetric sectors are in (e)): the uniform disk at $\theta = 1.2$: $0/0$; at $2.5$: $1/1$; the concentrated branch at contrast $1.85$ ($\theta = 1.6$): $1/1$; at $7$ ($1.4$): $1/0$; at $28$ ($1.2$): $1/0$; at $67$ ($1.1$): $1/1$; the ring at $\theta = 2$ and $2.5$: $0/0$. So, axisymmetrically, the concentrated branch is an entropy maximum at fixed energy exactly between the two energy turning points — contrast $3$ to $55$, $\theta = 1.52$ to $1.12$ — and a saddle outside them (the turning-point rule: a mode changes stability microcanonically at each extremum of $E$ along the series, and canonically at each extremum of $\theta$ — the fold — where the canonical count becomes $2$ with the microcanonical one unchanged; a dense scan confirms both); axisymmetrically the ring is stable in both ensembles and the uniform disk only when hot — but the ring does not survive (e). On the Milky-Way-like leaf the stable segment is $\sigma = 103$–$120$ km/s with a pole-to-equator contrast of $3$–$55$, and the fixed points' own plateau speeds are $v_\infty = 100$, $153$, $170$, $171$ km/s at contrast $1.85$, $7$, $28$, $54$ ($C = 0.62$, $1.44$, $1.80$, $1.82$): $\sigma/v_\infty = 0.7$–$1$, a pressure-supported state, not a rotating disk. An isolated isothermal population can hold a concentrated state at fixed energy, but a hot one with a contrast far below the exponential's $207$. §XXXIII.38's "no Picard-stable concentrated density" stands as the canonical statement; the microcanonical one is new, and it is the ensemble an isolated galaxy is in. Dynamical (Vlasov) stability is not computed. A strict entropy maximum at fixed $E$ and $M$ is Vlasov-stable for any kernel (the energy–Casimir argument), so the segment's maximum, surviving the sectors computed in (e), would be — if it survives every sector; the converse, that the saddles are dynamically unstable, is known for the Newtonian kernel and is not claimed here.
+**(c) Microcanonical stability, axisymmetric sector [T/V].** At fixed energy the temperature responds to the perturbation, and the entropy's second variation on mass-preserving perturbations gains a rank-one term: $H_m = H_c+\theta^2\lvert\langle\phi,\delta\Sigma\rangle\rvert^2$ — microcanonical stability is the weaker condition. The signatures at the resolved fixed points against *axisymmetric* perturbations (negative directions, canonical / microcanonical; the non-axisymmetric sectors are in (e)): the uniform disk at $\theta = 1.2$: $0/0$; at $2.5$: $1/1$; the concentrated branch at contrast $1.85$ ($\theta = 1.6$): $1/1$; at $7$ ($1.4$): $1/0$; at $28$ ($1.2$): $1/0$; at $67$ ($1.1$): $1/1$; the ring at $\theta = 2$ and $2.5$: $0/0$. So, axisymmetrically, the concentrated branch is an entropy maximum at fixed energy exactly between the two energy turning points — contrast $3$ to $55$, $\theta = 1.52$ to $1.12$ — and a saddle outside them (the turning-point rule: a mode changes stability microcanonically at each extremum of $E$ along the series, and canonically at each extremum of $\theta$ — the fold — where the canonical count becomes $2$ with the microcanonical one unchanged; a dense scan confirms both); axisymmetrically the ring is stable in both ensembles and the uniform disk only when hot — but the ring does not survive (e). On the Milky-Way-like leaf the stable segment is $\sigma = 103$–$120$ km/s with a pole-to-equator contrast of $3$–$55$, and the fixed points' own plateau speeds are $v_\infty = 100$, $153$, $170$, $171$ km/s at contrast $1.85$, $7$, $28$, $54$ ($C = 0.62$, $1.44$, $1.80$, $1.82$): $\sigma/v_\infty = 0.7$–$1$, a pressure-supported state, not a rotating disk. An isolated isothermal population can hold a concentrated state at fixed energy, but a hot one with a contrast far below the exponential's $207$. §XXXIII.38's "no Picard-stable concentrated density" stands as the canonical statement; the microcanonical one is new, and it is the ensemble an isolated galaxy is in *[v36.5, R358: isolation motivates conserving energy; it does not select the Boltzmann family for a collisionless galaxy, so this is a stability analysis of the chosen isothermal family, not a derivation that an isolated galaxy belongs to it]*. Dynamical (Vlasov) stability is not computed. A strict entropy maximum at fixed $E$ and $M$ is Vlasov-stable for any kernel (the energy–Casimir argument), so the segment's maximum, surviving the sectors computed in (e), would be — if it survives every sector; the converse, that the saddles are dynamically unstable, is known for the Newtonian kernel and is not claimed here.
 
 **(d) The classification's scope [T].** The review is right that rotations do not identify all modes of a given $l$: the $l = 2$ modes are traceless symmetric tensors, and a uniaxial $(2,-1,-1)$ and a biaxial $(1,0,-1)$ quadrupole have different eigenvalues (the mismatch is exactly $1.00$ for every rotation, eigenvalues being rotation invariants; $50$ sampled). The branches of §XXXIII.38 are the axisymmetric ones, and the stability counts of (c) are against axisymmetric perturbations; the non-axisymmetric equilibria at a given $l$ are not classified. §XXXIII.38(e) is corrected in place.
 
-**(e) The non-axisymmetric sectors [T/V]** *(the independent check's correction)*. A perturbation $f(\cos\chi)\cos m\phi$, $m\geq1$, carries no mass and has $\langle\phi,\delta\Sigma\rangle = 0$, so the rank-one term vanishes and both ensembles agree on it: $H^{(m)} = \int f^2/\Sigma+\theta\sum_{l\geq m}k_l c_l^2$, with $k_l = -2\pi\lambda_l$ the kernel's Funk–Hecke eigenvalue (the same for every $m$) and $c_l$ the coefficients of $f$ in the orthonormal associated Legendre functions. Controls: on the uniform disk at $\theta = 2.5$ the $l = 2$ eigenvalue is analytic, $2\pi(1-\theta\lambda_2) = -2.9696$, reproduced in the $m = 1$ and $m = 2$ sectors; every non-uniform fixed point has the exact tilt zero mode $\delta\Sigma = \Sigma'(u)\sin\chi\cos\phi$ in $m = 1$ (least eigenvalue $10^{-11}$). The counts for $m = 1$–$4$: the uniform disk at $\theta = 1.2$ none; at $\theta = 2.5$ one each in $m = 1$ and $m = 2$ — five negative directions in all, the $l = 2$ multiplet, not one; the concentrated branch at contrast $1.85$, $7$, $28$, $67$ none in any sector (least eigenvalues $0.16$–$3.8$, increasing with $m$); **the ring at $\theta = 2$ and $2.5$ is unstable to $m = 2$ (eigenvalues $-2.68$, $-4.66$) and at $2.5$ to $m = 4$ as well ($-1.28$)** — and, by the independent check, at $\theta = 1.72$ too ($-0.25$). So the ring is unstable in both ensembles and hence Picard-unstable on the sphere: "Picard-stable ring" in §XXXIII.38 and in (c) means stable against axisymmetric perturbations; and the concentrated branch's entropy maximum between contrast $3$ and $55$ survives the sectors $m\leq4$ ($m>4$ not computed).
+**(e) The non-axisymmetric sectors [T/V]** *(the independent check's correction)*. A perturbation $f(\cos\chi)\cos m\phi$, $m\geq1$, carries no mass and has $\langle\phi,\delta\Sigma\rangle = 0$, so the rank-one term vanishes and both ensembles agree on it: $H^{(m)} = \int f^2/\Sigma+\theta\sum_{l\geq m}k_l c_l^2$, with $k_l = -2\pi\lambda_l$ the kernel's Funk–Hecke eigenvalue (the same for every $m$) and $c_l$ the coefficients of $f$ in the orthonormal associated Legendre functions. Controls: on the uniform disk at $\theta = 2.5$ the $l = 2$ eigenvalue is analytic, $2\pi(1-\theta\lambda_2) = -2.9696$, reproduced in the $m = 1$ and $m = 2$ sectors; every non-uniform fixed point has the exact tilt zero mode $\delta\Sigma = \Sigma'(u)\sin\chi\cos\phi$ in $m = 1$ (least eigenvalue $10^{-11}$). The counts for $m = 1$–$4$: the uniform disk at $\theta = 1.2$ none; at $\theta = 2.5$ one each in $m = 1$ and $m = 2$ — five negative directions in all, the $l = 2$ multiplet, not one; the concentrated branch at contrast $1.85$, $7$, $28$, $67$ none in any sector (least eigenvalues $0.16$–$3.8$, increasing with $m$); **the ring at $\theta = 2$ and $2.5$ is unstable to $m = 2$ (eigenvalues $-2.68$, $-4.66$) and at $2.5$ to $m = 4$ as well ($-1.28$)** — and, by the independent check, at $\theta = 1.72$ too ($-0.25$). So the ring is unstable in both ensembles and hence Picard-unstable on the sphere: "Picard-stable ring" in §XXXIII.38 and in (c) means stable against axisymmetric perturbations; and the concentrated branch's entropy maximum between contrast $3$ and $55$ survives the sectors $m\leq4$ ($m>4$ not computed *[v36.5, R358: closed for every $m$ at $\theta = 1.4$ and $1.2$ by the high-sector bound, §XXXIII.53(c)]*).
 
 ## XXXIII.46 Entries 340–341: the sine from the tangent, the three bivector pairs, the radial–normal exchange, the CMB dipole in the galactic frame [T/V/D; R351] *(`v36_4_duality()`)*
 
@@ -24674,9 +24937,11 @@ The responses on Entries 338–341 propose the gauge-invariant clash as $F_- = F
 - one sector tilting and the other not: $F_L-F_R = -0.256$, $-0.192$ at $z = 0.3$, $1$, and $0$ in the plane;
 - a pairing by a reflection instead ($\mathbf n_R = \cos\theta\,\mathbf n+\sin\theta\,\mathbf t(-\phi)$, the mirror image of $\mathbf n_L$ in a plane through $\mathbf n$): $F_R = -F_L$, so $F_L-F_R = 2F_L = -0.512$, $-0.384$.
 
-So the relative curvature vanishes for the departure the responses built the clash from and, in general, for any pair of sectors congruent by a fixed proper rotation (the mirror tilt is the rotation by $\pi$ about $\mathbf n$, which preserves the area form); it is nonzero for an asymmetric departure and for a pair congruent by a reflection. As a clash, $F_L-F_R$ sees the two departures' failure to be congruent by a rotation, not the departure itself — it is blind to the exchange-odd mirror tilt in particular; a clash that sees the symmetric one needs $F_L+F_R$ or one sector's own curvature — which is not exchange-odd. Only the $e^\phi\wedge e^z$ component of the curvature is tested (a two-dimensional patch). The test the review asked for fails as stated, and says what the invariant would have to be instead. No action, no frame identification and no transport law are built; this is a test of the proposed invariant on explicit configurations.
+So the relative curvature vanishes for the departure the responses built the clash from and, in general, for any pair of sectors congruent by a fixed proper rotation (the mirror tilt is the rotation by $\pi$ about $\mathbf n$, which preserves the area form); it is nonzero for an asymmetric departure and for a pair congruent by a reflection. As a clash, $F_L-F_R$ sees the two departures' failure to be congruent by a rotation, not the departure itself — it is blind to the exchange-odd mirror tilt in particular *[v36.5, R358: and to an azimuthal twist that no fixed rotation produces, §XXXIII.53(a)]*; a clash that sees the symmetric one needs $F_L+F_R$ or one sector's own curvature — which is not exchange-odd *[v36.5, R358: $F_+$ detects the tilt but falls as $1/z^2$ with flux $-2\pi$, and the curvature-squared coupling has no bound state, §XXXIII.53(b)]*. Only the $e^\phi\wedge e^z$ component of the curvature is tested (a two-dimensional patch). The test the review asked for fails as stated, and says what the invariant would have to be instead. No action, no frame identification and no transport law are built; this is a test of the proposed invariant on explicit configurations.
 
 ## XXXIII.48 Standing after v36.4, and the next pieces [S/O; R353]
+
+*[v36.5, R359: §XXXIII.54 continues this standing — the kinematics erratum and the rescoped bounds, the clash sum, the sector closure; the next pieces led by one localization operator from an action.]*
 
 §XXXIII.42 remains the operative standing, with these changes.
 - *Corrected [V].* §XXXIII.38's fold search (an erratum; the fold stands at $\theta = 1.065$); its "no Picard-stable concentrated density" scoped as canonical; its "Picard-stable ring" scoped as axisymmetric — the ring is unstable to $m = 2$ in both ensembles (and to $m = 4$ when cold), hence Picard-unstable on the sphere; its branch count scoped as axisymmetric (R350).
@@ -24697,7 +24962,7 @@ So the relative curvature vanishes for the departure the responses built the cla
 
 ## XXXIII.50 Entries 342–345 and their responses, as formulated (18 October 2026): recorded in v36.4, the work v36.5's [record; R354]
 
-**The author's message** (two messages while v36.4 was in its final runs; the four responses attached, the entries in the messages). Nothing below is worked in v36.4: this section is the record, and §XXXIII.48's next pieces are not changed by it here — v36.5 takes it up.
+**The author's message** (two messages while v36.4 was in its final runs; the four responses attached, the entries in the messages). Nothing below is worked in v36.4: this section is the record, and §XXXIII.48's next pieces are not changed by it here — v36.5 takes it up *[v36.5, R359: deferred — the kinematics erratum took v36.5; §XXXIII.54's piece (3)]*.
 
 **Entry 342 (4:36 PM, Oct 18, 2026), in the author's words.**
 
@@ -25917,11 +26182,992 @@ So the relative curvature vanishes for the departure the responses built the cla
 >
 > That, more than just adding co-spaces to an existing field theory, would actually test how much of spacetime PG can make emergent.
 
-**What v36.4 does with them: nothing but the record.** Three checks and one ontological proposal are named, each a round's work: (i) Entry 342 and its response — the areal radius $\ell\sin\chi = \sqrt{g(\xi,\xi)}$ as the geometric reading of §XXXIII.35's $e^{-a\sin\chi}$, the eikonal identity $\lvert\nabla W\rvert^2 = (1-\rho_{\rm area}^2/\ell^2)/h^2$, a covariant localization equation as the target, the Hopf-fiber length $L_H = \Omega L_H^{\rm ref}$ of §III.2 and the circle-bundle curvature with the Berger-sphere caveat, the two-direction block $H_{IJ}$ and its topological obstruction, and the response's citation of a June 2026 Physical Review Letters paper on Kerr from self-dual and anti-self-dual Taub–NUT instantons (recorded as the response gives it; not verified in this round); (ii) Entry 343 and its response — the Solar-System observational-equivalence criterion, with the stereographic chart's $(1\,{\rm AU}/\ell)^2\approx10^{-19}$ and the galaxy-centred chart's $\lvert\Delta\ln\Omega\rvert\approx10^{-10}$ across 1 AU as chart-dependent scales, the Milky Way's tidal acceleration $\sim10^{-19}$ m/s$^2$, and the conformal Einstein-tensor residual as the quantity to compute — a sharper form of Entry 329's criterion (§XXXIII.40); (iii) Entry 344 and its response — the chain holonomy $\to$ spectral gap $\to$ evanescence, the Aharonov–Bohm shift $k_n = (2\pi n+\theta)/L$, the bound $\mu_{\rm clash}\leq\pi/L_H = 1/(2\ell)$ (a decay length of at least $32$ kpc from the macroscopic Hopf circle alone, against a thin disk), and the inverse-reconstructed potential $(V-\lambda)/\varepsilon^2 = \cos^2\chi/4h^2+\sin\chi/2h\ell$ for the sine-exponential's amplitude. The response on Entry 344 also corrects a term: tunnelling is below the barrier, so the analogue sought is the evanescent regime. (iv) Entry 345 and its response — particles in co-spaces whose meet is the gravity base, spacetime as the imposed common structure, Feynman diagrams as unrecognized redundancy; the response's system of correspondences $p_i:\mathcal C_i\to B$ with the fiber product $\mathcal C_i\times_B\mathcal C_j$ as the shared event, the co-middle result $\mathcal I_{H_1}\cap\mathcal I_{H_2} = \mathcal I_{SU(2)}$ of §XXVI.2 as the precursor with its obstruction (common invariant information is not the literal quotient), the reflectron matching rule's standing failure ($23$ of $30$ three-loop vertex diagrams, no amplitudes), the amplituhedron parallel (the author's "particle-hedron"), the three levels (diagrammatic redundancy, shared event structure, spacetime geometry), the non-conservation trap $\nabla_\mu(PT)^{\mu\nu}\neq P(\nabla_\mu T^{\mu\nu})$, and one decisive experiment (one QED vertex with its Ward–Takahashi identity from compatibility alone). This belongs with Part XXIX's centrade–centron hypothesis and Part XXXII's reflectrons; it is a program item, not a check. These join §XXXIII.48's list for v36.5 in the order the author's checks name them: the Solar-System criterion on the stereographic chart (Entry 343), the areal-radius generalization and its eikonal (Entry 342), the holonomy gap and the fiber-length scale (Entry 344), Entry 345's co-space program recorded beside Parts XXIX and XXXII, with the joint model and the clash invariant restated unchanged.
+**What v36.4 does with them: nothing but the record.** Three checks and one ontological proposal are named, each a round's work: (i) Entry 342 and its response — the areal radius $\ell\sin\chi = \sqrt{g(\xi,\xi)}$ as the geometric reading of §XXXIII.35's $e^{-a\sin\chi}$, the eikonal identity $\lvert\nabla W\rvert^2 = (1-\rho_{\rm area}^2/\ell^2)/h^2$, a covariant localization equation as the target, the Hopf-fiber length $L_H = \Omega L_H^{\rm ref}$ of §III.2 and the circle-bundle curvature with the Berger-sphere caveat, the two-direction block $H_{IJ}$ and its topological obstruction, and the response's citation of a June 2026 Physical Review Letters paper on Kerr from self-dual and anti-self-dual Taub–NUT instantons (recorded as the response gives it; not verified in this round); (ii) Entry 343 and its response — the Solar-System observational-equivalence criterion, with the stereographic chart's $(1\,{\rm AU}/\ell)^2\approx10^{-19}$ and the galaxy-centred chart's $\lvert\Delta\ln\Omega\rvert\approx10^{-10}$ across 1 AU as chart-dependent scales *[v36.5, R358: the response's $0.0285$ kpc$^{-1}$ is $0.0150$, §XXXIII.53(d)]*, the Milky Way's tidal acceleration $\sim10^{-19}$ m/s$^2$, and the conformal Einstein-tensor residual as the quantity to compute — a sharper form of Entry 329's criterion (§XXXIII.40); (iii) Entry 344 and its response — the chain holonomy $\to$ spectral gap $\to$ evanescence, the Aharonov–Bohm shift $k_n = (2\pi n+\theta)/L$, the bound $\mu_{\rm clash}\leq\pi/L_H = 1/(2\ell)$ (a decay length of at least $32$ kpc from the macroscopic Hopf circle alone, against a thin disk), and the inverse-reconstructed potential $(V-\lambda)/\varepsilon^2 = \cos^2\chi/4h^2+\sin\chi/2h\ell$ for the sine-exponential's amplitude. The response on Entry 344 also corrects a term: tunnelling is below the barrier, so the analogue sought is the evanescent regime. (iv) Entry 345 and its response — particles in co-spaces whose meet is the gravity base, spacetime as the imposed common structure, Feynman diagrams as unrecognized redundancy; the response's system of correspondences $p_i:\mathcal C_i\to B$ with the fiber product $\mathcal C_i\times_B\mathcal C_j$ as the shared event, the co-middle result $\mathcal I_{H_1}\cap\mathcal I_{H_2} = \mathcal I_{SU(2)}$ of §XXVI.2 as the precursor with its obstruction (common invariant information is not the literal quotient), the reflectron matching rule's standing failure ($23$ of $30$ three-loop vertex diagrams, no amplitudes), the amplituhedron parallel (the author's "particle-hedron"), the three levels (diagrammatic redundancy, shared event structure, spacetime geometry), the non-conservation trap $\nabla_\mu(PT)^{\mu\nu}\neq P(\nabla_\mu T^{\mu\nu})$, and one decisive experiment (one QED vertex with its Ward–Takahashi identity from compatibility alone). This belongs with Part XXIX's centrade–centron hypothesis and Part XXXII's reflectrons; it is a program item, not a check. These join §XXXIII.48's list for v36.5 in the order the author's checks name them: the Solar-System criterion on the stereographic chart (Entry 343), the areal-radius generalization and its eikonal (Entry 342), the holonomy gap and the fiber-length scale (Entry 344), Entry 345's co-space program recorded beside Parts XXIX and XXXII, with the joint model and the clash invariant restated unchanged.
 
-## Round record: the version summaries, v16 to v36.4 (moved from the head of the archive in v34.9, R190)
+## XXXIII.51 The two reviews of v36.4, the author's journal entries and the response, as formulated (18 October 2026) [record; R356]
 
-*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v36.4, v36.3, v36.2, v36.1, v36.0, v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+**The author's message**, with three attachments: a review of v36.4, a referee report on v36.4 with a continuation brief, and the response on two journal entries; the entries in the message (the table's markup and the escaped punctuation are the author's). In the author's words:
+
+> Here's the next response, thanks!
+>
+> Me:
+> Here’s something I wrote in my journal, by the way. Thanks\!
+>
+> | Oct 17, 2026 12:08 PM Intuition idea: \[12:09 PM\] Bloch sphere with maybe “test particle internalized global effect principle” content, and maybe even the internal content of Kerr acts as a kind of constraint on the Bloch sphere\! \[12:11 PM\] Like in any case the solid angle concept for spin is absolutely stunning, so I’d love to see if we can get a general action difference angle ontology as some kind of Bloch-like local rendering—then maybe that Kerr internal concept can act as a constraint on how the scale of hbar angles reconciles destination-locally with wider scales still being in the picture\! Ajax  \[12:28 PM\] I mean like if I was going to formulate my best spontaneous guess, it would be that we get two space abstract structure things, and the overlay between them can either align or misalign or something. Ajax  \[12:33 PM\] Oh yeah lol and speaking of that exactly, there was my original active reasoning idea itself, where the photons are moving “normally” but the space itself is arranged so as to develop the interference pattern and action kernel content\! Maybe that reversal itself is what I should try to push, conceptually speaking\! Ajax  \[12:44 PM\] Yeah and maybe we also simply keep that concept of “are you in the same space as one leg or the ortho-space to that leg”, that way the dot product thing can actually be a presence operation for the probability of presence rather than simply validity alone. |
+> | :---- |
+> | Oct 18, 2026 6:25 PM I just thought of an interesting reframe that could maybe inform this take I’m looking for here: what if I imagine the quantum Berry phase presences as almost like “off-basic noise” or something, in the sense that like the same distinction which declares whether extra Boltzmannian space content survives in the physical room or not actually gives two verdicts—for space itself it basically collapses the entirety of everything to the galaxy leaf’s SO(4) material verdict, right, but for physical matter itself it places it outside the “within scope”, so basically quantum particles themselves are the embodiment of the noise of what captures like decomposition all the noise of what’s happening outside the within-graph, and since that is matter itself, like, matter itself IS the correction of getting back all the outside-within scope material while still living within-scope. So, if you will our conventional design for “the room” has “space” refer to the within-scope content, while the matter content of the room refers to outside-scope content, and so literally what we call “the room” is just the kind of heterogeneous verdict I’ve been looking for, which is to strictly include only inside-scope-stuff for space but allow outside-scope-stuff for matter, and then altogether maybe we reproduce the “correct dynamics/kinematics” of full-scope content by referring to space and then using matter as a correction term on it or something\! So yeah, like, that is to say that for that which gets Bolzmannian space-included rather than cropped we’ll call “basic space”, right, and the idea is that basic space privileges the entire galactic SO(4) composition, with “gravity as we know it” being divots on that as usual (but I still have to figure out how much the divots talk to outside-basic material, but probably it’s some kind of significant), and then outside-basic content is almost like this array of bubbles (sort of anyway) having to do with hbar/m or something, hence getting at my way earlier idea that they’re like the leaf but smaller for some reason (the idea then is that they aren’t just in the leaf but kind of adjacent to it or something sort of like that, graph-wise anyway) and then that itself as we classically know composes matter, so the matter content in the room is basically going to what is on equal footing as space in the pre-Boltzmannian regime, and basically while imposing basic-surviving/leaf material as privileged so as to get you space we “dynamically account” for all the everything else by supposing there’s “matter” in the space to get all the terms from the exterior bubble stuff and everything\! So yeah how about that\! (And yeah the natural question then becomes why hbar or even hbar/m appears so consistent, which we might genuinely try to answer as it being some kind of imposed conditioning coming through from the within-basic side of the leaf or something, who knows\! So yeah funnily enough the hierarchy problem pitch from this would basically be that it’s almost just exactly Boltzmannian privileging that does it, funnily enough\!). (And the further question also becomes, I would say, whether we want to picture these exterior bubbles as further content, or rearranged content—in any case though what I see to be the clear good move is to avoid trying to write interior and exterior in terms of each other, and instead get both as basically selection effects off of the underlying pre-Boltzmannian substrate, that way the answer can arise naturally\!). |
+
+**The review of v36.4, in the author's words (attached, titled "Projective Gravity v36.4 — Review").**
+
+> # Projective Gravity v36.4 — Review
+>
+> This looks like a worthwhile revision, and its most significant result is actually a negative one. v36.4 doesn't yet derive your galaxy-localization mechanism, but it discovers that the first proposed Berry-clash invariant fails to detect precisely the symmetric out-of-plane misalignment you wanted it to detect.
+>
+> That's valuable: it prevents the theory from building a localization law around an unsuitable geometric quantity.
+>
+> The revision also repairs the numerical fixed-point problem I identified in v36.3, extends the equilibrium analysis beyond simple iteration stability, and makes your radial–normal \\(SU(2)\\) duality more precise.
+>
+> My preliminary assessment of the three main additions is:
+>
+> | New section                                    | Assessment                                                                                                           |
+> | ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+> | §XXXIII.45 — Self-consistent matter equilibria | Substantial improvement: continuation repaired, thermodynamic stability tested, but no cold exponential disk derived |
+> | §XXXIII.46 — Radial/normal bivector duality    | Sound local geometric structure; not yet a physical exchange mechanism                                               |
+> | §XXXIII.47 — Double-Hopf clash test            | Especially informative failed test: \\(F_L-F_R\\) cancels for the mirror tilt                                        |
+> | §XXXIII.50 — Your newest ideas                 | Recorded for v36.5, not yet worked out                                                                               |
+>
+> ## The most interesting surprise: the two sectors can clash visually but agree in curvature
+>
+> Your intended mirror-tilt configuration is
+>
+> \\[ \mathbf n_L =\cos\theta\\,\mathbf n+\sin\theta\\,\mathbf t(\phi), \\]
+>
+> \\[ \mathbf n_R =\cos\theta\\,\mathbf n-\sin\theta\\,\mathbf t(\phi). \\]
+>
+> As \\(\theta\\) changes away from the galactic plane, the two directions diverge.
+>
+> But the manuscript finds that their Hopf curvatures satisfy
+>
+> \\[ \boxed{F_L=F_R} \\]
+>
+> for this configuration, so
+>
+> \\[ \boxed{F_L-F_R=0} \\]
+>
+> even when the angular mismatch is nonzero.
+>
+> That's not a numerical accident. The second direction is related to the first by a fixed \\(180^\circ\\) rotation around the galactic normal, and an orientation-preserving rotation leaves the sphere's area form unchanged.
+>
+> The immediate consequence is important:
+>
+> Difference of Berry curvatures is not, by itself, a detector of your proposed symmetric clash.
+>
+> It detects certain differences in how the two directions map into their spheres, but not all differences between the directions themselves.
+>
+> This is exactly the kind of structural test I was hoping v36.4 would perform.
+>
+> ## 2. The repaired equilibrium calculation is more informative than the original
+>
+> The new §XXXIII.45 is a real methodological improvement.
+>
+> Instead of identifying the fold by waiting for Newton's method to fail, Claude continues solutions using their central density as a parameter. That allows the calculation to pass through the fold and recover
+>
+> \\[ \boxed{\theta\_{\rm fold}\approx1.065} \\]
+>
+> on two numerical grids.
+>
+> It also distinguishes three different concepts that v36.3 had begun to run together:
+>
+> - Stability under numerical fixed-point iteration.
+> - Thermodynamic stability at fixed temperature or fixed energy.
+> - Actual dynamical stability of a collisionless stellar population.
+>
+> The new result is that a centrally concentrated isothermal equilibrium can be a local entropy maximum at fixed total energy, roughly between density contrasts 3 and 55.
+>
+> That is more encouraging than v36.3's simple conclusion that the concentrated branch was Picard-unstable.
+>
+> But it comes with two substantial qualifications.
+>
+> First, the equilibrium is hot: the reported velocity dispersions are about 103–120 km/s. So even if dynamically admissible, this is closer to a pressure-supported stellar system than to the cold, thin disk that originally motivated the exponential-profile investigation.
+>
+> Second, stability has been checked against axisymmetric perturbations and non-axisymmetric modes through \\(m=4\\), not all possible perturbations.
+>
+> I particularly appreciate that §XXXIII.45 discovers that the apparently stable ring solutions are unstable to \\(m=2\\) distortions. The axisymmetric calculation had hidden an instability.
+>
+> There is also a valuable numerical warning: beyond the first fold, the two grids produce substantially different subsequent folds. The manuscript correctly labels that far end of the branch unresolved rather than claiming to have identified a point-mass limit.
+>
+> So my verdict is that the equilibrium theory has improved significantly, but it hasn't produced a self-selected exponential disk.
+>
+> ## 3. The radial–normal duality passes the algebraic checks
+>
+> The new §XXXIII.46 verifies the self-dual and anti-self-dual bivector construction:
+>
+> \\[ \mathcal B_i^\pm = \frac{1}{\sqrt2} \left( \boldsymbol\nu\wedge\mathbf e_i \pm \*\_3\mathbf e_i \right). \\]
+>
+> It confirms that rotating the local meridional frame can exchange radial and normal bivector components while preserving the self-dual decomposition.
+>
+> That establishes a legitimate mathematical starting point for your idea that radial and vertical exponential localization should be two selected expressions of a deeper common structure.
+>
+> The manuscript also repairs a subtle sign issue from our discussion: the physical Galactic frame used to decompose the CMB dipole is left-handed under the chosen direction conventions. Consequently, the Hodge dual of the orbital–normal plane is \\(-\mathbf e_R\\), rather than \\(+\mathbf e_R\\).
+>
+> The observed 4° proximity of the CMB dipole to that plane is unchanged. But it remains an observation to explain, not evidence that the model predicts it.
+>
+> The most important unresolved step is still dynamical: a local rotation of the mathematical frame doesn't physically exchange the radial and vertical localization scales unless some matter-selected internal field transforms relative to the galaxy.
+>
+> That's a good distinction to retain.
+>
+> ## 4. I found a second, useful test of the proposed clash mechanism
+>
+> This one goes beyond the checks reported in v36.4.
+>
+> The manuscript's mirror-tilt example uses
+>
+> \\[ \theta(z)=\arctan(qz),\qquad q=1.5, \\]
+>
+> with its two directions symmetrically tilted around the normal.
+>
+> For this configuration, I independently obtain
+>
+> \\[ \boxed{ (F_L)\_{\phi z}=(F_R)\_{\phi z} = -\frac{q^2z}{2(1+q^2z^2)^{3/2}}. } \\]
+>
+> It reproduces the manuscript's values, including approximately \\(-0.256\\) at \\(z=0.3\\) and \\(-0.192\\) at \\(z=1\\).
+>
+> Now suppose we take the manuscript's suggested replacement:
+>
+> \\[ F\_+=F_L+F_R. \\]
+>
+> This does detect the mirror tilt. But its magnitude behaves as follows:
+>
+> 00.20.40.60.800.10.20.30.50.711.523510
+>
+> The curvature becomes appreciable outside the plane, reaches a maximum, and then returns toward zero as \\(z\to\infty\\).
+>
+> Its asymptotic behavior is
+>
+> \\[ \boxed{ |F\_+|\sim\frac1{qz^2}. } \\]
+>
+> Why does this matter?
+>
+> Your exponential-localization mechanism needs something that can maintain an evanescent spectral gap sufficiently far from the galactic plane.
+>
+> A potential built only as
+>
+> \\[ V\_{\rm clash}\propto |F\_+|^2 \\]
+>
+> would also approach zero far away.
+>
+> It therefore wouldn't, by itself, supply the sustained positive asymptotic gap used in the previous localization toy.
+>
+> So simply replacing \\(F_L-F_R\\) with \\(F_L+F_R\\) detects the mismatch, but does not automatically solve the exponential-localization problem.
+>
+> There's another subtlety: an integrated Berry holonomy might retain information that the local curvature loses. However, for the sum of the two sectors in this particular configuration, the accumulated full-azimuth flux approaches \\(2\pi\\) in magnitude, so its ordinary \\(U(1)\\) Wilson loop returns to unity.
+>
+> Even the integrated phase therefore needs careful treatment.
+>
+> That gives us a genuinely useful new test for v36.5.
+>
+> ## 5. I would redefine clash as a departure from an admitted relationship
+>
+> I think the way forward is to distinguish the relative geometric quantity from the physical incompatibility.
+>
+> Remember your original concept: two directions need not be identical to be jointly admissible.
+>
+> They may have a particular nonzero angular separation in the disk while maintaining one fixed normal.
+>
+> For that reason, a simple scalar such as
+>
+> \\[ 1-\mathbf n_L\cdot\mathbf n_R \\]
+>
+> cannot be the general clash law. It would penalize even a perfectly admitted configuration if that configuration contains nonzero relative tilt.
+>
+> Instead, one possible candidate is
+>
+> \\[ \boxed{ \mathcal C\_{\rm joint} = \left| \mathbf n_L+\mathbf n_R - 2\cos\alpha\\,\mathbf n \right|^2. } \\]
+>
+> This vanishes for the admitted double-Hopf family we previously constructed.
+>
+> It becomes nonzero when the symmetric relationship departs from the selected configuration.
+>
+> It also makes a subtle point that I think is important for your even/odd architecture:
+>
+> A physical clash penalty need not itself be exchange-odd.
+>
+> The offending configuration may involve the odd/relative sector, but its energy or localization penalty should generally be an exchange-invariant scalar.
+>
+> For example, the square of an odd misalignment is even.
+>
+> That allows the mathematics to distinguish between a relative degree of freedom and the observable physical cost of exciting it.
+>
+> The remaining job would be to show that this scalar—or a more sophisticated connection-based replacement—comes from the common action, respects the foliation-selection law, and distinguishes your proposed non-clashing morphology rotations.
+>
+> It is still an ansatz, but it is a cleaner starting point for testing that distinction.
+>
+> ## 6. I independently checked the numerical implementation
+>
+> The embedded v36.4 numerical script matches its published SHA-256 checksum.
+>
+> v36.4-only numerical controls
+>
+> 3 / 3 passed
+>
+> Fixed-point continuation, thermodynamic Hessians and perturbation modes
+>
+> Sine identity, bivectors, frame exchange and dipole decomposition
+>
+> Relative Hopf curvature and its cancellation cases
+>
+> The full older v36.3 rerun exceeded the available execution limit during its orbit-population calculations. I therefore verified the new v36.4 checks, but not the complete 33-check regression suite in this review.
+>
+> The fact that the clash test passes despite reporting a failed candidate mechanism is appropriate: the check verifies that the manuscript's calculations correctly identify the failure.
+>
+> ## 7. What I'd prioritize for v36.5
+>
+> I would preserve the manuscript's current research priorities, but sharpen the first double-Hopf experiment.
+>
+> The next clash construction should satisfy three requirements simultaneously:
+>
+> 1. It vanishes on the entire admitted family, not merely at one selected point.
+> 2. It detects the symmetric normal departure, including the mirror tilt that defeated \\(F_L-F_R\\).
+> 3. It generates a suitable asymptotic spectral gap, or otherwise derives exponentially localized modes from an independently specified operator.
+>
+> And because you've been developing the radial–normal interchange idea, I'd require the same construction to admit both radial and vertical responses as components of a single geometric mechanism.
+>
+> The additional ideas you raised about the areal-radius interpretation of \\(e^{-a\sin\chi}\\), Kerr-style complex geometry, Hopf-fiber length backreaction, Solar System observational equivalence, Berry-holonomy spectral gaps and emergent particle co-spaces are all recorded in §XXXIII.50.
+>
+> They are not yet investigated in this version. That is fine, but it's important not to confuse their inclusion in the register with a demonstrated result.
+>
+> On the observational side, nothing here overturns the earlier negative dwarf-galaxy fits. One physical population, its full-meridian Law I source and its independently derived visual response still need to be constructed and tested together.
+>
+> ## Overall verdict
+>
+> I would keep v36.4 and regard it as a good mathematical correction-and-discrimination release.
+>
+> The repaired fixed-point continuation resolves a genuine reproducibility issue. The thermodynamic calculations clarify which equilibria can exist without establishing a cold disk. The bivector calculations confirm that your radial and normal directions belong to one common \\(SO(4)\\) algebraic architecture.
+>
+> But the most consequential result is the new clash calculation.
+>
+> We now know that difference of Hopf curvatures is too coarse to distinguish the particular misalignment you want to make physically important.
+>
+> And the further calculation above suggests that simply switching to the sum of curvatures won't automatically deliver the exponential tail either.
+>
+> That's exactly the sort of result that should shape the next version rather than be worked around.
+>
+> My preferred next milestone is a joint-admissibility-derived localization operator, with its clash quantity, spectral gap and radial/vertical responses all determined together.
+>
+> If it succeeds, the sine-exponential could become a consequence of PG's internal geometry rather than merely a well-behaved source profile. If it fails, the resulting obstruction should tell us whether the double-Hopf idea needs a different invariant, a different transport law or a more fundamental reformulation.
+>
+> For v36.4, the biggest achievement is that the theory has started rejecting inadequate versions of its own proposed mechanism. That's a meaningful step toward knowing which parts of the idea can actually carry physical content.
+
+**The referee report and continuation brief on v36.4 (attached, titled "Projective Gravity v36.4: referee report and continuation brief").**
+
+> # Projective Gravity v36.4: referee report and continuation brief
+>
+> 18 October 2026
+>
+> **Verdict: keep v36.4 as the working version. It is substantially more robust than v36.0, but the new orbital-population claims need a corrective round.** The earlier plateau error and overstatements about fitting galaxies have been addressed explicitly. The isothermal experiment now distinguishes different stability questions, and the Hopf-curvature calculation reports a genuine failure of the proposed mechanism instead of concealing it.
+>
+> The main new problem is concrete: the orbit library computes time-averaged occupancies but evaluates velocity moments at bin centres. For two supplied “coldest” population witnesses, the reported maximum radial dispersion is approximately 7 km/s; integrating their actual velocities gives approximately 21–22 km/s in the same inner region. This does not eliminate cold populations: re-optimization with correct moments still finds them. It does invalidate those particular kinematic certificates and requires recalculating the numerical dispersion claims.
+>
+> A second issue is the combination of separate optimizations into the claim that a disk can have up to a quarter of its mass crossing the equator while remaining cold. The maximum-crossing and minimum-dispersion populations are different solutions with different density constraints. A joint calculation is required. I performed one below, with a more limited but positive result.
+>
+> ## 1. Scope and reproducibility
+>
+> The attachment is v36.4, with v36.1–v36.4 added since the v36.0 manuscript reviewed here previously. I examined the corrective sections, the new operative calculations, the latest proposed program and recorded responses, and the expanded embedded numerical suite. The older mathematical history and every assertion in the approximately 671,000-word archive are not independently recertified by this incremental review.
+>
+> The frozen v34 and v35 programs are byte-for-byte unchanged from the previous attachment. The new v36 extraction contains 3,434 lines. I ran the v36.4-specific mode and the full current regression, and retained separate scripts for the independent calculations discussed here.
+>
+> | Run | Result |
+> |---|---:|
+> | Full current Part XXXIII suite, v36.0–v36.4 | 33 passed, 0 failed; exit 0 |
+> | v36.4-only mode | 3 passed, 0 failed; exit 0 |
+> | Frozen v34/v35 suites | Unchanged; not rerun in this review |
+>
+> The three v36.4 checks are included in the 33, not additional independent tests. Passing the full suite reproduces the delivered calculations, including the currently flawed bin-centre moment prescription; it does not resolve the issues identified below.
+>
+> The independently named plotting scripts, figures, and combined toy program are not supplied as separate executable files in this attachment. Running the embedded suite does not independently certify those files or their dispatch.
+>
+> ## 2. The repairs are substantial and should be treated as settled
+>
+> The following are improvements, not merely changes of wording:
+>
+> | Earlier issue | Current treatment | Assessment |
+> |---|---|---|
+> | Universal point-source plateau used for extended disks | Actual coefficient \(C=2\psi''(\pi/2)\), independent ring formula, profile-dependent tables | Correct repair |
+> | Point-source label condition applied generally | \(A=3f/C(f)\), with \(v_{\rm arena}\), \(v_\infty\), and observed \(V_{\rm flat}\) distinguished | Correct repair |
+> | “Five of eight fit” | Degrees of freedom, tail probabilities, refined full-radius fits; the broad success claim withdrawn | Correct repair |
+> | Disk gas mass inferred from \(RV^2/G\) | Spherical diagnostic withdrawn; ring counterexample and source residuals retained | Correct repair |
+> | Small source RMS treated as sufficient | Reconstruction residuals in observational error units and a gas-tail sensitivity family | Useful improvement; measured profiles remain necessary |
+> | Milky Way calculation described as the published estimator | Explicitly a cold-tracer proxy; continuous radius optimization; Jeans estimator still pending | Correct scoping |
+> | Small light fraction equated with no tracers | Observable reach addressed under a stated observing setup | Better-defined question |
+> | Ring iteration stability presented too broadly | Axisymmetric restriction, non-axisymmetric instability, and ensemble distinction | Important repair |
+>
+> The closed-form ring coefficient agrees with the earlier independent quadrature. The discussion of its domain also improves matters: one cannot use its divergent positive integral indiscriminately for a density nonzero at the equator. The uniform source's zero field and the need to handle the equatorial regularity class separately are correctly recognized.
+>
+> The regular families \(e^{-a\sin\chi}\) and the stretched uniform disk are useful controlled sources. Their image profiles, finite plateau coefficients, and lack of a negative circular-support band in the tested members are worthwhile results. The manuscript correctly states that these are chosen families, not selected by a derived matter law. The improved dwarf scores remain poor, and the photometry has not simultaneously been fitted; the present status says so.
+>
+> Keep these repairs. The next round should not reintroduce the old point-source dictionary, “five fits,” or an unconditional Milky Way exclusion.
+>
+> ## 3. Major implementation error: the velocity moments are not orbit averages
+>
+> **Affected code:** `_v36_kin()` and every linear program using its `V` and `S2` matrices. **Affected sections:** especially §§XXXIII.28 and XXXIII.36, and the corresponding standing/register claims.
+>
+> The occupancy calculation integrates the time an orbit spends in each bin. The kinematic routine then multiplies that occupancy by the velocity evaluated at the bin centre:
+>
+> \[
+> V_{ki}=F_{ki}\frac{L_k}{\ell\sin\chi_i},
+> \qquad
+> S^{(2)}_{ki}=F_{ki}\max\{2[E_k-U_k(\chi_i)],0\}.
+> \]
+>
+> These are approximations to the required integrals, not the integrals themselves. The approximation can fail precisely for the turning-point orbits on which a cold-population optimization concentrates its weights.
+>
+> For an orbit with radial period \(T_k\), the correct quantities are
+>
+> \[
+> F_{ki}=\frac{2}{T_k}\int_{I_i\cap[\chi_1,\chi_2]}dt,
+> \]
+>
+> \[
+> V_{ki}=\frac{2}{T_k}\int_{I_i\cap[\chi_1,\chi_2]}
+> \frac{L_k}{\ell\sin\chi}\,dt,
+> \]
+>
+> \[
+> S^{(2)}_{ki}=\frac{2}{T_k}\int_{I_i\cap[\chi_1,\chi_2]}
+> 2[E_k-U_k(\chi)]\,dt,
+> \qquad
+> dt=\frac{\ell\,d\chi}{\sqrt{2(E_k-U_k)}}.
+> \]
+>
+> Fold these integrals in the same way as the occupancy. For a population with weights \(N_k\), divide the summed moment by its actual summed bin occupancy. A partially occupied bin must not acquire a fictitious zero radial velocity because its centre lies outside the orbit.
+>
+> ### An elementary counterexample
+>
+> Take a free particle on a unit two-sphere, \(\Phi=0\), angular momentum \(L=1\), and turning point \(\chi_1=0.22\). Its energy is \(E=1/[2\sin^2(0.22)]\). In the bin \([0.15,0.25]\), the centre is 0.20, outside the allowed part of this orbit.
+>
+> | Quantity in that bin | Author's centre prescription | Direct orbit integration |
+> |---|---:|---:|
+> | Folded occupancy | 0.07621356 | 0.07621356 |
+> | Mean \(v_r^2\) | 0 | 1.71492 |
+> | Mean \(v_\phi\) | 5.03349 | 4.38811 |
+>
+> The error is not a failure of the occupancy quadrature. It is the substitution of one point's velocity for the orbit's conditional velocity average. In this example the centre prescription even assigns an azimuthal speed larger than the free orbit's constant total speed.
+>
+> ### The problem occurs in the actual population witnesses
+>
+> I rebuilt the two regular-family libraries with the manuscript's parameters and integrated occupancies and velocity moments at the actual orbit quadrature points. The occupancies agree with the original matrices to below \(7\times10^{-10}\). Keeping the author's selected weights fixed gives:
+>
+> | Source | Reported maximum \(\sigma_r\) of selected witness | Maximum from integrated moments, same weights | Re-optimized minimum with integrated moments and the original inner-only density constraints |
+> |---|---:|---:|---:|
+> | \(e^{-(16/3)\sin\chi}\) | 7.18 km/s | 21.91 km/s | 6.85 km/s |
+> | Stretched source, \(k=e^{-16/9}\) | 6.72 km/s | 21.01 km/s | 6.44 km/s |
+>
+> All maxima and minima in this table refer to the same selected inner bins, from approximately 1 to 36 kpc in the adopted image. The first two columns compare one witness directly. The last column is a different optimized witness, not a correction factor applied to the old answer.
+>
+> This distinction matters. **The supplied cold witnesses are incorrectly certified; cold candidates still exist in these discretized fixed-potential calculations.** It would be wrong to turn this implementation error into a claim that the regular families cannot be cold.
+>
+> The error can bias individual moments either way. Thus the dwarf statements that no stationary population can be colder than a quoted number cannot be preserved numerically without recomputation. Correct the matrices before adding more orbit libraries or fitting new population laws.
+>
+> ## 4. The crossing fraction and coldness must be constrained in one optimization
+>
+> The code calculates three different things:
+>
+> 1. A density fit over all bins, minimizing or maximizing the crossing mass.
+> 2. A minimum-dispersion population, fitting density only in selected inner bins.
+> 3. The crossing fraction of one such cold witness.
+>
+> The unrestricted maximum-crossing examples and the minimum-dispersion examples need not be the same population. In fact, the manuscript prints crossing fractions of only 0.006 and 0.007 for its coldest witnesses, while quoting maxima of 0.181 and 0.253 from the separate density-only problem.
+>
+> Consequently, the final sentence of §XXXIII.36—crossing populations of several per cent to a quarter of the mass “and stay cold”—does not follow from those separate optimizations. The compound regression check likewise verifies the existence of separate favorable outputs; it does not check their simultaneous feasibility.
+>
+> ### The cold calculation also leaves part of the source unconstrained
+>
+> `_v36_cold()` constrains the density on `fb`, the selected inner bins. It fixes total mass but not the outer density profile. Therefore its optimized population need not source the potential in which its orbits were computed.
+>
+> For the two original cold witnesses above, relative density discrepancies reach approximately 94% in outer bins and factors of several in some bins outside the fitted selection. A small outer mass fraction does not automatically make this harmless: the whole plateau investigation demonstrates how strongly equatorial placement can matter.
+>
+> A solution of the full-bin density LP is approximately self-consistent at the level of those bins and tolerances. A cold solution with only the inner density matched is a fixed-potential tracer construction until its complete density and resulting field are checked. These are different achievements.
+>
+> ### A repaired joint calculation gives a positive, narrower result
+>
+> I maximized crossing mass while simultaneously requiring:
+>
+> - nonnegative orbit weights with unit total mass;
+> - density matched in every near-hemisphere bin, within 2% plus the manuscript's small absolute floor;
+> - integrated, rather than centre-evaluated, velocity moments;
+> - inner mean rotation within 20% of the model's circular speed;
+> - an upper limit on radial dispersion in the selected inner bins.
+>
+> Using the same 4,158-orbit libraries gives:
+>
+> | Inner \(\sigma_r\) cap | Maximum crossing mass, sine-exponential source | Maximum crossing mass, stretched source |
+> |---:|---:|---:|
+> | 10 km/s | 0.0685 | 0.0904 |
+> | 20 km/s | 0.0785 | 0.1023 |
+> | 30 km/s | 0.0859 | 0.1139 |
+> | 50 km/s | 0.1000 | 0.1339 |
+>
+> These are numerical compatibility results for the same finite libraries, bins, fixed potentials, and stated tolerances. They are not continuum bounds, predictions of the crossing fraction, or demonstrations of a stable real galaxy.
+>
+> Nevertheless, they establish something useful: **the discretized regular-source models admit a cold inner population with approximately 7–9% of its mass on crossing orbits, while matching the full binned source.** The central intuition survives in a more defensible form. The quoted quarter-mass cold conclusion does not survive this joint test as a result of the existing libraries and constraints.
+>
+> The next calculation should report the full tradeoff curve between crossing mass and dispersion. If coldness is intended everywhere, impose it everywhere; the table above constrains it only over the original inner observational selection.
+>
+> ## 5. Restricted libraries do not establish universal population bounds
+>
+> This is a logical issue separate from quadrature accuracy.
+>
+> For otherwise identical constraints, a restricted orbit library samples a subset of possible populations. Therefore
+>
+> \[
+> \sigma_{\min,\rm all}\le\sigma_{\min,\rm library},
+> \qquad
+> f_{\rm cross,max,all}\ge f_{\rm cross,max,library}.
+> \]
+>
+> Similarly, a minimum crossing fraction found in a restricted library can fall when new trapped orbits are added. The manuscript acknowledges this for the minimum crossing mass, but does not consistently apply the same reasoning to maximum crossing mass and dispersion minima.
+>
+> In particular:
+>
+> - A finite-library minimum of 19 or 35 km/s is not automatically a lower bound for every stationary population.
+> - Failure to find a solution below 400 km/s is not by itself a proof that no continuum population exists.
+> - A finite-library maximum of 0.25 is not automatically the maximum imposed by the density alone.
+> - A few non-converged density–field iterations do not establish a self-consistent continuum exclusion.
+>
+> This is especially relevant because `_v36_occ()` selects the connected allowed region containing the global minimum of the effective potential. A potential with other inequivalent wells can have additional orbit families that are not generated by that rule. Near-circular and near-separatrix refinement also matters; the manuscript already observes a library-induced dispersion floor in its simpler examples.
+>
+> Keep the distinction between **a witness of compatibility** and **a certificate of impossibility**. To claim the latter, either derive an independent continuum inequality, or obtain a dual certificate and validate its inequality over the continuous orbit domain. Grid refinement and extra families are important numerical evidence, but the quantifier must still match the evidence.
+>
+> The comparison with HI data needs the same discipline. The adopted collisionless thin library is an instructive stress test. A physical gas exclusion additionally requires the appropriate pressure model and a projection of its dispersion tensor into the measured line-of-sight quantity. For a flat disk, schematically,
+>
+> \[
+> \sigma_{\rm los}^2=
+> \sin^2i\,[\sigma_R^2\sin^2\phi+\sigma_\phi^2\cos^2\phi]
+> +\sigma_z^2\cos^2i,
+> \]
+>
+> before beam smearing and observational weighting. An in-plane radial bound should not be identified directly with a measured line-width bound without that bridge. The manuscript names this as a premise; the current strong gas verdict should remain conditional on it.
+>
+> A separate regularity qualification is also needed: stationarity alone does not make every possible population density smooth. Cold rings, turning-point caustics, and singular or separatrix-weighted distribution functions illustrate why a specified regularity class is required. Smoothness and a finite equatorial coefficient are valid conclusions for suitable smooth distributions, not consequences of the word “stationary” alone.
+>
+> ### Crossing does not determine the sign of a plateau contribution
+>
+> The four orbit examples in §XXXIII.28(a) do not establish that crossing orbits always contribute negatively to the plateau. As a counterexample, a stationary, azimuthally averaged ensemble of meridional great-circle geodesics in a zero background potential crosses the equator and has surface density proportional to \(1/\sin\chi\). Its plateau contribution, evaluated as a source component, is positive. Subtracting the uniform density, whose field vanishes, gives the convergent expression
+>
+> \[
+> C=\frac{2}{\pi}\int_0^{\pi/2}(1-\sin\chi)\,C_{\rm ring}(\chi)\,d\chi
+> \simeq1.13295.
+> \]
+>
+> The independent integral and the author's potential solver agree (the latter gives about 1.13297). The high-energy radial-crossing limit in a bounded smooth background approaches the same occupancy shape. This is not a self-consistent galaxy solution; it is a counterexample to assigning a source component's sign from its crossing classification alone. Retain the signs of the tested examples and calculate any general sign rule from the full orbit density.
+>
+> ## 6. The outer-ring support test can be strengthened without discarding its result
+>
+> §XXXIII.28(c) reasons that because every outer ring contributes outward acceleration, no nonnegative mixture can improve on the best ring's count of supported radii. The sign alone does not prove that final step. Two negative contribution vectors can penalize different radii; a mixture can sometimes satisfy more thresholds than either endpoint.
+>
+> The appropriate check is the pointwise envelope. At each measured radius, calculate
+>
+> \[
+> B_i= v_{\rm inner}^2(R_i)+\sup_u v_{\rm outer\ ring}^2(R_i;u).
+> \]
+>
+> If \(B_i<0\), no unit-mass nonnegative mixture of the allowed rings can support that radius. A convex feasibility calculation is another useful check.
+>
+> I evaluated a denser outer-ring grid and the mixture feasibility problem, keeping the manuscript's inner reconstructions and outer masses:
+>
+> | Galaxy | Best single-ring count | Pointwise-envelope upper count | Sampled-ring mixture supporting all radii |
+> |---|---:|---:|---|
+> | DDO 154 | 8/12 | 8/12 | Infeasible |
+> | IC 2574 | 15/34 | 15/34 | Infeasible |
+>
+> The unavoidable negative radii on this grid are 1.48–2.96 kpc for DDO 154 and 0.85–5.97 kpc for IC 2574. Thus the reported count survives this stronger numerical check. Replace the inadequate sign-only argument by the envelope or dual calculation, and control the continuous ring-angle domain before calling it a theorem.
+>
+> Also remove “thick or thin” from the planar inference. A nonnegative mixture of rings in the disk plane describes thin axisymmetric rearrangements. Off-plane mass is a different kernel problem. Even in the Newtonian limit, a ring of radius \(a\) at height \(z\) has, near the axis,
+>
+> \[
+> v_c^2(R)=\frac{GM(2z^2-a^2)}{2(a^2+z^2)^{5/2}}R^2+O(R^4),
+> \]
+>
+> which can be positive when the corresponding planar ring would pull outward. This does not rescue the adopted thin model; it demonstrates the limit of the purported generalization.
+>
+> The conditional thin-source support failure is still a substantial diagnostic. It remains conditional on the inner reconstruction and total mass, rather than covering every source compatible with measured gas maps.
+>
+> ## 7. The isothermal stability work is one of the strongest new parts
+>
+> The ensemble distinction in §XXXIII.45 is mathematically appropriate. In the adopted normalization, eliminating the two-dimensional Maxwellian velocities at fixed energy gives a reduced entropy of the form
+>
+> \[
+> S_{\rm red}[\Sigma]=
+> -\int\Sigma\ln\Sigma+\ln(E-W[\Sigma])+\text{constant},
+> \qquad W=\tfrac12\langle\Sigma,A\Sigma\rangle.
+> \]
+>
+> At an isothermal critical point, its constrained second variation produces the canonical Hessian plus the positive rank-one correction quoted in the manuscript. This explains why a canonically unstable concentrated state can be microcanonically stable. It is not a numerical trick.
+>
+> The positive spectral coefficients also explain the equivalence between canonical stability and the normalized Picard iteration's stability on the relevant mass-preserving subspace. The normalization projection should be retained when stating that operator identity; the raw matrix \(-\theta\Sigma A\) is not literally the full normalized Jacobian away from the uniform state.
+>
+> Isolation motivates conserving energy; it does not by itself select a Boltzmann distribution for a collisionless galaxy. Vlasov evolution preserves additional phase-space invariants. The ensemble comparison is valuable as a stability analysis of the chosen isothermal family, rather than a derivation that an isolated galaxy must belong to that family.
+>
+> The resolved fold near \(\theta=1.065\), the energy turning points, the pressure-supported character of the concentrated branch, the exact tilt mode, and the ring's non-axisymmetric negative directions form a coherent numerical picture. The ring result should be called thermodynamic/variational or Picard instability in the stated sectors, rather than an independently calculated Vlasov instability. The manuscript already largely respects that distinction.
+>
+> ### An efficient way to finish the high-azimuthal-sector check
+>
+> The manuscript leaves \(m>4\) open. For a given bounded equilibrium density, this need not require an indefinite scan. Its own Hessian obeys
+>
+> \[
+> H^{(m)}[f]\ge
+> \left[\frac1{\Sigma_{\max}}-2\pi\theta\lambda_{l_*(m)}\right]\|f\|_2^2,
+> \]
+>
+> where \(l_*(m)\) is the smallest even degree at least \(\max(2,m)\). This follows from the entropy lower bound and the decreasing positive even-degree kernel eigenvalues. Once the bracket is positive, every higher sector is positive as well.
+>
+> Independent checks on resolved profiles give:
+>
+> - At \(\theta=1.4\), contrast 7.02, sampled \(\Sigma_{\max}\simeq0.6081\): the bound is already positive for \(m\ge5\), with a margin about 0.228 in the stated normalization.
+> - At \(\theta=1.2\), contrast 28.35, sampled \(\Sigma_{\max}\simeq1.8769\): the bound becomes positive for \(m\ge13\). Direct evaluation of the intervening sectors through \(m=12\) finds no negative directions; \(m=1\) retains the rotational zero mode.
+>
+> This strengthens the numerical stability evidence at those two equilibria. To make it a continuum certificate, bound the true profile maximum rather than substituting an unchecked nodal maximum, control spectral truncation, and follow the branch over the whole claimed interval. It does not by itself prove stability everywhere between the turning points.
+>
+> Finally, a non-uniform equilibrium has a continuous orbit of rotated equilibria. An entropy maximum is therefore not strict against rotations. A dynamical-stability statement must specify stability modulo this symmetry, its perturbation class, and the coercivity or Lyapunov control used. The standard energy–Casimir connection is real—see [Chavanis, nonlinear Antonov first law](https://arxiv.org/abs/astro-ph/0602429)—but a finite set of nonnegative density Hessians is not by itself a complete nonlinear stability proof for the new kernel and phase-space dynamics.
+>
+> ## 8. The Hopf test is correct; changing the invariant does not yet produce localization
+>
+> The cancellation in §XXXIII.47 is a valuable negative result. Two direction fields related by a fixed proper rotation have the same pulled-back area form, so their relative curvature vanishes. The proposed mirror tilt is exactly such a case. The rank-one in-plane example is correctly identified as a vacuous curvature test. The parity/handedness correction and the distinction between a frame rotation and a physical reorientation are also sound.
+>
+> ### The nullspace is larger than fixed rotations
+>
+> Let
+>
+> \[
+> \mathbf n_L=(\sin\theta\cos\phi,\sin\theta\sin\phi,\cos\theta),
+> \]
+>
+> and define
+>
+> \[
+> \mathbf n_R=(\sin\theta\cos[\phi+g(\theta)],
+> \sin\theta\sin[\phi+g(\theta)],\cos\theta).
+> \]
+>
+> A nonconstant \(g\) generally gives no fixed rotation relating the two maps. Nevertheless,
+>
+> \[
+> \sin\theta\,d\theta\wedge d[\phi+g(\theta)]
+> =\sin\theta\,d\theta\wedge d\phi,
+> \]
+>
+> so \(F_R=F_L\). I checked this numerically for \(g=1.7\theta\) and the manuscript's \(\theta(z)=\arctan(1.5z)\); the relative curvature remains zero to numerical precision while the two fields differ.
+>
+> Thus relative curvature measures a difference of pulled-back area forms, not a faithful distance between the two directional configurations. This strengthens the stated limitation; it does not contradict the fixed-rotation cancellation theorem. On a local patch, a connection difference can also be exact while the directional fields differ. A relative orientation observable needs the frame identification and action that the manuscript correctly lists as missing.
+>
+> ### The sum has no asymptotic gap in the tested tilt configuration
+>
+> For the mirror tilt with \(\theta(z)=\arctan(qz)\), in the component convention used by the code,
+>
+> \[
+> F_{\phi z}=-\tfrac12\sin\theta\,\theta'
+> =-\frac{q^2z}{2(1+q^2z^2)^{3/2}}.
+> \]
+>
+> Therefore \(F_L+F_R\) is nonzero away from the plane but falls as \(|z|^{-2}\). A positive potential proportional to its squared norm on this fixed-metric patch falls as \(|z|^{-4}\); it does not approach the positive constant used by the successful threshold-mode toy of §XXXIII.41.
+>
+> For the simple whole-line operator
+>
+> \[
+> -\partial_z^2+\gamma|F_L+F_R|^2,\qquad\gamma>0,
+> \]
+>
+> the potential is nonnegative and approaches zero. It supplies neither a negative eigenvalue nor the proposed positive asymptotic confinement gap for an ordinary localized bound mode. A finite global geometry, a different coupling, a matter potential, or a different configuration changes the problem and must be specified.
+>
+> This is a limitation of this explicit candidate, not a theorem that Hopf geometry cannot participate in localization. The appropriate next question is whether a proposed action gives a normalizable mode with the required scale, not merely whether a scalar is nonzero off the plane. Replacing \(F_-\) by \(F_+\) changes the hypothesis and its exchange character; it should not be described as having already repaired the mechanism.
+>
+> ## 9. The newly recorded research directions are useful targets, not completed results
+>
+> §XXXIII.50 clearly labels Entries 342–345 and their responses as input for v36.5. That separation is good. My assessment of the most consequential suggestions is:
+>
+> **Areal/circumferential radius.** Writing the sine-exponential in terms of \(\sqrt{g(\xi,\xi)}\) makes its radial argument invariant in a specified axisymmetric geometry. It does not select the exponential, its scale, the axis, or a generalization to several irregularly placed masses. The central cusp and the radial differential operator must be treated. The proposed localization equation is an inverse target until derived from an action or constitutive law.
+>
+> **The Solar System criterion.** Comparing actual trajectories, photon observations, and clocks is the right requirement. A coordinate change preserves Einstein's equations in transformed coordinates; changing the operational metric or photon law is a different operation. Neither a small chart coefficient nor an \(\ell\to\infty\) statement alone certifies agreement at finite \(\ell\). The Sun's localized gravitational source must appear in the actual source reduction. Keep this acceptance criterion, but implement it only after specifying the operational map being tested.
+>
+> One numerical cleanup is needed in the recorded off-centre illustration. For the stated stereographic metric with \(\Omega=(1+\rho^2/4\ell^2)^{-1}\),
+>
+> \[
+> \left|\partial_\rho\ln\Omega\right|
+> =\frac{\rho}{2\ell^2(1+\rho^2/4\ell^2)}.
+> \]
+>
+> At \(\rho=8.2\) kpc and \(\ell=16\) kpc this is about 0.0150 kpc\(^{-1}\), or a physical-gradient norm about 0.0160 kpc\(^{-1}\), rather than 0.0285. The corresponding AU-scale logarithmic variation is about \(8\times10^{-11}\), depending on which radius convention is fixed. The record correctly says none of these chart estimates is an observable anomalous acceleration; retain that warning when correcting the coefficient.
+>
+> **Holonomy and a spectral gap.** The circle-spectrum calculation and its upper bound are correct for the specified lowest, unit-coupled mode:
+>
+> \[
+> \mu^2=L_H^{-2}\min_n(2\pi n+\vartheta)^2,
+> \qquad \mu\le\pi/L_H.
+> \]
+>
+> With the illustrative \(L_H=2\pi\ell\), the resulting length-scale problem is real within that toy. A short physical scale, different metric/coupling, or restricted mode sector would need independent justification. A Berry phase of unit modulus is not attenuation; the recorded response correctly distinguishes them.
+>
+> There is another missing step in that response's whole-line example. A constant gap permits a decaying solution on a half-line. Joining it as \(Z=e^{-\kappa|z|}\) gives
+>
+> \[
+> Z''=\kappa^2Z-2\kappa\delta(z).
+> \]
+>
+> Thus the cusp requires a plane source, interface condition, or attractive localized term. It is not a smooth source-free bound eigenmode of the constant-coefficient whole-line equation. A position-dependent gap with a proper well is another option—the earlier threshold-mode toy is closer to that. A derived gap and a derived localization centre are separate requirements.
+>
+> **The Kerr reference is real.** The cited Kim work is not an invented paper: [Newman–Janis Algorithm from Taub-NUT Instantons](https://arxiv.org/abs/2412.19611) has the stated 2026 PRL reference and develops a chiral-instanton construction of Kerr and related solutions. It is a relevant mathematical comparison. It does not identify PG's galaxy direction fields with the gravitational instantons or derive a galactic attenuation mechanism. Keep the Euclidean, Lorentzian, and internal phase structures distinct unless an explicit map and reality condition are supplied.
+>
+> **Particle co-spaces.** This is an architectural proposal. It should not delay a common-source, common-observer calculation with two localized bodies. A correspondence diagram or analogy with kinematic spaces is not yet a law producing a shared stress tensor, causal propagation, and the measured interaction.
+>
+> ## 10. A small reproducibility defect remains in the fold erratum
+>
+> The normal v36.4 run succeeds here. However, the sentence that a missing fold now fails a check instead of crashing is not fully implemented.
+>
+> `v36_3_fixed_points()` guards a missing fold. `v36_4_fixed_points_erratum()` still indexes `fold[0]` in its print and again indexes the stored fold before its final check. With a controlled continuation result containing valid rows and `fold=None`, it raises
+>
+> ```text
+> TypeError: 'NoneType' object is not subscriptable
+> ```
+>
+> before recording any failed check. Guard the missing-fold case before formatting or indexing it, record a failure, and return a well-defined result or continue the remaining checks safely. This is a routine robustness repair, not a reason to reject the successfully reproduced continuation result.
+>
+> ## 11. Copy-ready continuation brief for Claude
+>
+> **Goal for v36.5:** preserve the corrected v36.1–v36.4 foundations, repair the orbital kinematics, and test one explicitly defined localization operator. Do not treat the new recorded analogies as completed mechanisms. Keep current summaries synchronized with the actual calculations.
+>
+> ### First task: repair orbit moments and make the population claims joint
+>
+> 1. Replace `_v36_kin()`'s bin-centre velocities by the time integrals of \(v_\phi\) and \(v_r^2\) over each orbit's actual contribution to each bin. Reuse the turning-point regularization used for occupancy. Compute all three matrices from the same quadrature nodes and normalize them consistently before folding.
+> 2. Add the free-geodesic counterexample in this report as a meaningful regression control. It should have nonzero radial second moment in a partially occupied bin whose centre is outside the allowed orbit. Verify integrated moments against direct time integration for trapped, crossing, near-circular, and near-separatrix examples.
+> 3. Re-evaluate the old selected witnesses before re-optimizing. Report their actual dispersion errors openly. Then solve for new witnesses. Do not assume a multiplicative correction to the old minima: re-optimization can choose a different population.
+> 4. Distinguish a tracer fit in a fixed potential from an approximately self-consistent source fit. For the latter, require density agreement over every relevant bin, not merely the inner observational subset. Recompute the source field from the chosen population and report density and force residuals. State which outer information is observationally constrained and which is a chosen model continuation.
+> 5. Optimize crossing mass and coldness simultaneously. Produce a frontier versus a stated dispersion cap, with mean rotation and source-density constraints in the same LP. For the two regular members, reproduce the approximate up to 6.9–9.0% crossing witnesses at a 10 km/s inner cap before claiming a larger cold crossing fraction. State separately what happens outside the constrained inner region.
+> 6. Refine angular-momentum and energy grids, add missing connected wells, and include near-circular and near-barrier families deliberately. Demonstrate convergence of moments and optimized values, not just of occupancy and feasibility.
+> 7. Rewrite library minima and maxima with their correct logical scope. A restricted-library minimum dispersion is an achievable upper bound on the continuum optimum, not a certified lower bound for all populations. A restricted-library maximum crossing fraction establishes an achievable fraction, not the continuum upper limit. Identify any separately proved continuum inequalities. Do not assign all crossing orbits a negative plateau contribution: include the positive meridional-geodesic counterexample and state the domain of any proposed sign rule.
+> 8. Recompute the dwarf one- and two-component results using corrected moments and properly normalized component masses. If claiming exclusion, provide a validated continuous-domain certificate or an independent equilibrium inequality. Project the dispersion tensor into the observed line-of-sight quantity. Keep a collisionless compatibility test distinct from a hydrodynamic gas result.
+> 9. Replace the outer-ring sign argument by the pointwise envelope or a convex dual certificate. The denser numerical check in this review retains 8/12 and 15/34 as the thin-plane support counts. Validate the continuous ring-angle domain and remove “thick or thin” unless off-plane mass is explicitly tested.
+>
+> **Acceptance:** corrected orbit moments; explicit full-density and field residuals; joint witnesses; a dispersion–crossing frontier; quantified refinement; and no inference from a finite-library failure to an unrestricted physical impossibility. The headline conclusion may remain negative for a particular dwarf model, but the certificate must establish that conclusion.
+>
+> ### Second task: specify one localization model before generalizing it
+>
+> 1. State what is being localized: a matter amplitude, a probability/occupation density, or an optical transfer response. Fix the relation between amplitude, intensity, mass source, and any energy exchange. Include the appropriate stress response in Law I if the new field is physical matter.
+> 2. Specify the bundles, fibre metric, representation/charge, connection normalization, and the identification of the two internal frames. State what descends to the projective quotient and what requires a lift or additional label. A local formula is not a global construction by default.
+> 3. Preserve the correct negative result: relative Hopf curvature vanishes for the mirror tilt. Add the area-preserving azimuthal twist example: equal curvatures do not imply a constant relative rotation. If changing the invariant, explain the changed symmetry and physical interpretation.
+> 4. Derive the actual differential operator from one action or a clearly labeled effective constitutive law. Do not choose each of the equilibrium profile, gap, kinetic normalization, and optical response independently and then call their coexistence a derivation.
+> 5. Test the simplest positive curvature-squared coupling on the explicit tilt. Its potential falls to zero, so it does not reproduce the earlier positive asymptotic gap. Either report that failure or specify the additional mechanism that creates confinement, with its parameters justified independently.
+> 6. For an internal-circle model, calculate the full allowed spectrum and its lowest coupled mode. Respect the bound \(\mu\le\pi/L_H\) under its assumptions. Include the physical conformal factor in the fibre length. A higher mode, shortened circle, anisotropic kinetic term, or stronger coupling is a new premise to derive or test, not a free repair.
+> 7. Supply the localization centre and boundary/matching conditions. A decaying half-line solution is not automatically a smooth whole-line bound state. Compute a normalizable mode or a specified sourced response, its eigenvalue, and its normal and radial scales. Keep the factor of two between amplitude and squared-amplitude decay lengths explicit.
+> 8. When comparing with the sine-exponential, include the radial measure and the central regularity condition. The inverse potential reconstructed from a desired profile is a target, not a matter law. If a core or a source defect is needed, define it. Check the model's image profile rather than comparing only its intrinsic amplitude.
+>
+> **Acceptance:** one global or explicitly patched operator with specified sources/boundaries, a calculated mode, a derived or independently fixed scale, and a consistent gravitational/optical interpretation. Failure of this minimal model should be recorded before adding further structures.
+>
+> ### Supporting checks, without expanding the main scope
+>
+> For the isothermal branch, use the high-sector Hessian bound to reduce the open azimuthal sectors to a finite set. Control the true density maximum, truncation, and rotational zero modes. Describe the result as variational stability of a hot, pressure-supported branch until the dynamical claim is justified in the appropriate phase-space setting. Do not treat ring entropy/Picard instability as a separately computed Vlasov evolution.
+>
+> Retain the Solar-System Observational Equivalence Criterion. Start with an explicitly localized Sun and a specified observer/photon map; compare coordinate-independent periods, ranging times, deflection, clock comparisons, and precession with a common calibration. A pure coordinate reconstruction should reproduce the same observables exactly; a physical optical or metric change must pass the finite-scale observational test. A large-leaf limit is a separate mathematical condition. Correct the off-centre conformal-gradient estimate before reusing its numbers.
+>
+> Use the Kim paper as a comparison of precise structures, not evidence that the proposed galaxy mechanism already exists. Keep the particle-co-space and full unification ideas in the backlog until the common-source and localization experiments have an explicit action or law. The immediate bottleneck is not the supply of geometrical analogies; it is the map from a specified law to a source, a population, and an observable.
+>
+> **End-of-round summary:** list which old statements were withdrawn, which numbers changed because of corrected moments, which joint population witnesses now exist, which exclusions are certified only within a library, and whether the one localization operator succeeded. Update the head table, operative sections, registers, printed suite descriptions, and standing together.
+>
+> ## 12. Overall assessment
+>
+> v36.4 contains real mathematical and numerical work. The strongest gains are the corrected plateau/source dictionary, the clearer observational status, the ensemble-dependent equilibrium calculation, and the explicit failure of a proposed curvature invariant. The new orbital machinery is useful but is currently more reliable for occupancies than for its claimed kinematic bounds.
+>
+> The next productive move is a focused repair and one mechanism test. A corrected joint population calculation already gives a defensible partial success; it need not be inflated into a quarter-mass cold claim. A curvature invariant can already be rejected for a specific proposed role; it need not be replaced by another scalar without checking the resulting operator. This is a sounder route to a robust program than either abandoning the model wholesale or promoting the accumulated analogies into a theory of observed galaxies.
+>
+> The v36 suite extraction reviewed here has SHA-256:
+>
+> ```text
+> 1acd1e7b4c63ac42d5248da73c0a56bcb86c42950d22a9c32f6fc6d7ff433e9d
+> ```
+>
+> The independent calculations retain the author's units, source parameters, orbit grids, and bins unless stated otherwise. Newly supplied LP results are compatibility calculations under explicit tolerances. The analytic counterexamples and operator identities are independent of the reported suite pass counts.
+
+**The response on the journal entries (attached).**
+
+> Oh, this is an interesting development of your PG ontology—especially the October 18 entry. I think it makes a distinction that was somewhat implicit in your co-middle and centrade–centron ideas much more explicit:
+>
+> Maybe space and matter aren't two fundamentally different ingredients. Maybe they're two different kinds of surviving information from the same underlying pre-Boltzmannian structure.
+>
+> And I particularly like your final qualification: you don't want the outside-basic content to be defined in terms of the inside-basic content, or vice versa. You want both to emerge as distinct outcomes of a more fundamental selection process.
+>
+> That is a substantially stronger hypothesis than saying quantum matter is just a disturbance inside an otherwise fundamental spacetime.
+>
+> I'd express the core idea as
+>
+> \\[ \boxed{ \begin{gathered} \text{Pre-Boltzmannian relational substrate}\\\ \downarrow\quad\downarrow\\\ \text{Basic-surviving geometry} \qquad \text{Complementary matter-bearing structure}\\\ \downarrow\quad\downarrow\\\ \text{One effective physical room}. \end{gathered} } \\]
+>
+> The important word is effective. The room we experience would be a jointly reconstructed description, not necessarily one primitive space that everything originally occupied.
+>
+> That connects very naturally to your earlier claim that Feynman diagrams might represent the process of making distinct histories or co-spaces share events.
+>
+> ## 1. The first really useful connection: Born probabilities and Berry phases can both be built from relational overlaps
+>
+> Your October 17 note asks whether a dot product could be a presence operation, rather than merely a test of whether two structures are compatible.
+>
+> There's an exact quantum-geometric precedent for that.
+>
+> Take two normalized states \\(|A\rangle\\) and \\(|B\rangle\\). Their squared overlap is
+>
+> \\[ \boxed{ p\_{AB}=|\langle A|B\rangle|^2. } \\]
+>
+> This is the familiar Born probability for projecting one pure state onto another.
+>
+> Now introduce a third state \\(|C\rangle\\). The product
+>
+> \\[ \boxed{ \mathcal B\_{ABC} = \langle A|B\rangle \langle B|C\rangle \langle C|A\rangle } \\]
+>
+> has a gauge-invariant phase,
+>
+> \\[ \boxed{ \gamma\_{ABC}=\arg\mathcal B\_{ABC}. } \\]
+>
+> This is a Bargmann invariant. For qubit states on the Bloch sphere, its phase is related to the oriented solid angle of the geodesic triangle joining the three directions, with a sign depending on convention.
+>
+> Notice how neatly those two objects complement one another.
+>
+> | Relational information | Mathematical quantity                                                             | What it measures                                                         |
+> | ---------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+> | Pairwise presence      | \\(\|\langle A\vert B\rangle\|^2\\)                                               | How much two state descriptions overlap                                  |
+> | Three-way holonomy     | \\(\arg(\langle A\vert B\rangle\langle B\vert C\rangle\langle C\vert A\rangle)\\) | Phase information that cannot be reduced to pairwise probabilities alone |
+>
+> The same underlying relational data produce both probability-like overlap and Berry-like phase.
+>
+> That seems particularly relevant to your suggestion that quantum amplitudes might encode information about relationships between descriptions that the ordinary spatial representation does not preserve.
+>
+> Importantly, this construction doesn't itself require a particle moving along a trajectory in ordinary physical space. The triangle lives in state space.
+>
+> That's a legitimate mathematical foothold for your proposed reversal of explanatory priority.
+>
+> The limitation is that this is established quantum mathematics, not yet evidence for the PG interpretation. If your co-spaces are genuinely distinct rather than subspaces of one Hilbert space, you'd first have to construct the maps that make their overlaps meaningful.
+>
+> ## 2. What I find most interesting about the October 18 entry
+>
+> You're proposing something more subtle than an inside/outside distinction.
+>
+> You're saying that the operation which selects conventional physical space might simultaneously determine what must be represented as matter rather than space.
+>
+> So the conventional distinction could be:
+>
+> One underlying substrate
+>
+> \\(\mathscr S\\)
+>
+> Relational, propagational and geometric information before the preferred physical description is selected
+>
+> Basic-surviving content
+>
+> Information retained in the selected galactic or spacetime geometry.
+>
+> Candidate output: background geometry, causal relationships, common orientations
+>
+> Non-basic content
+>
+> Information not represented geometrically by that selection, but still physically relevant.
+>
+> Candidate output: matter excitations, spectra, phases, interaction degrees
+>
+> Effective spacetime + matter + their coupling
+>
+> One observed physical system reconstructed from both kinds of information
+>
+> There is a crucial refinement I'd introduce.
+>
+> Non-basic should not mean physically absent, random or literally outside the middle space.
+>
+> In PG's existing ontology, physical matter and stress-energy inhabit the full five-dimensional middle space. That remains a useful distinction from what is retained in the selected gravitational or observational representation.
+>
+> So I'd interpret your bubbles as relative to the selected representation: they carry information that a chosen geometrical description cannot express internally.
+>
+> The word noise is suggestive, but I'd use coherent residual structure as a technical term for now. Ordinary random noise generally loses the phase relationships that are central to your Berry and reflectron ideas.
+>
+> ## 3. There is a surprisingly precise model for “matter as the correction to basic space”
+>
+> This comes from projection-operator methods in mathematical physics.
+>
+> Suppose a parent state space is temporarily divided into
+>
+> \\[ \mathcal H=\mathcal H_P\oplus\mathcal H_Q, \\]
+>
+> where \\(P\\) projects onto the basic-surviving sector and \\(Q=1-P\\) onto the remaining sector.
+>
+> Let the parent evolution operator be
+>
+> \\[ H= \begin{pmatrix} H\_{PP}&H\_{PQ}\\\ H\_{QP}&H\_{QQ} \end{pmatrix}. \\]
+>
+> If we eliminate the \\(Q\\)-component from the eigenvalue equation, we get an exact effective operator on the \\(P\\)-sector:
+>
+> \\[ \boxed{ H\_{\rm eff}(E) = H\_{PP} + H\_{PQ}(E-H\_{QQ})^{-1}H\_{QP}. } \\]
+>
+> This is the Feshbach or Schur-complement construction, where the inverse exists.
+>
+> Now look at the interpretation.
+>
+> The first term,
+>
+> \\[ H\_{PP}, \\]
+>
+> is the dynamics retained in the selected basic sector.
+>
+> The second,
+>
+> \\[ \boxed{ \Sigma\_{\rm residual}(E) = H\_{PQ}(E-H\_{QQ})^{-1}H\_{QP}, } \\]
+>
+> is the influence of the omitted sector, expressed back inside the basic one.
+>
+> That is a concrete realization of your phrase “matter as the correction needed to account for everything outside the basic selection.”
+>
+> And the correction can be much richer than a simple force. It can change excitation spectra, introduce energy-dependent interactions and encode propagation through degrees of freedom that the selected description does not explicitly contain.
+>
+> This is established mathematics; applying it to the emergence of spacetime is speculative.
+>
+> Also, it's only a toy organization. Your underlying pre-Boltzmannian structure might not decompose into complementary linear subspaces at all. And I would not insist that all matter belongs to \\(Q\\): a physical excitation could carry both basic and non-basic information.
+>
+> But I think this is one of the most productive calculations Claude could attempt.
+>
+> It makes the phrase “the dynamics of the complete substrate expressed in a reduced physical room” mathematically concrete.
+>
+> ## 4. How the hierarchy problem and \\(\hbar\\) might fit—and what they would require
+>
+> Your question about the universality of \\(\hbar\\) is important.
+>
+> A small dimensional clarification first:
+>
+> \\[ \frac{\hbar}{m} \\]
+>
+> has dimensions of area per unit time, not length.
+>
+> The familiar particle-associated length is the reduced Compton wavelength,
+>
+> \\[ \boxed{ \bar\lambda_C=\frac{\hbar}{mc}. } \\]
+>
+> That gives one possible interpretation of your “external bubbles”: a characteristic length at which the localization of a relativistic quantum excitation becomes sensitive to its field-theoretic character.
+>
+> But that length differs enormously between particle species. It is not automatically the radius of a literal region outside spacetime.
+>
+> Your proposed ontology could be organized so that:
+>
+> - \\(\hbar\\) is a universal normalization of a more fundamental phase or symplectic structure.
+> - \\(m\\) arises from the excitation spectrum of a selected matter sector.
+> - \\(\hbar/(mc)\\) appears only once both structures have been expressed in the same effective physical description.
+>
+> That has a nice conceptual feature: the universal action scale and the species-specific mass scale need not originate from the same part of the ontology.
+>
+> It also matches your existing centrade–centron program, where mass is proposed to arise spectrally rather than being carried as a primitive label.
+>
+> But the proposal faces two demanding tests.
+>
+> First, the universality of \\(\hbar\\) would need to be derived, not simply obtained by giving every sector the same phase constant.
+>
+> Second, the particle-physics hierarchy problem is about the stability of widely separated physical scales under quantum corrections—especially the electroweak scale relative to gravity. A selection mechanism alone does not solve it. PG would need to show why the relevant effective masses remain small under the permitted couplings and radiative corrections.
+>
+> So I'd preserve your intuition as a candidate explanation of scale selection, while distinguishing it from a completed naturalness mechanism.
+>
+> ## 5. Kerr may be a particularly useful constraint, but not yet the answer
+>
+> Your October 17 idea about Kerr's internal geometry constraining the Bloch-sphere picture also makes sense as a research direction.
+>
+> A Kerr solution contains a selected axial direction and angular-momentum parameter. Your double-\\(SU(2)\\) and Hopf structures likewise organize directional and phase information.
+>
+> The possible bridge would be to ask whether a common parent geometrical object has:
+>
+> - A Kerr-like stationary, rotating gravitational realization.
+> - A microscopic state-space realization carrying Berry phase.
+> - A galaxy-scale realization with your joint normal, relative clash and localization modes.
+>
+> The strongest version would derive each from the same underlying action or compatibility law.
+>
+> But Kerr's complex coordinate construction, the Bloch sphere's projective Hilbert geometry, and the exponential attenuation associated with a spectral gap are different mathematical operations. They cannot be identified just because complex numbers or rotations appear in all three.
+>
+> I would use Kerr as a nonnegotiable limiting-solution test of a broader theory, alongside the Solar System orbit test, rather than make it the presumed source of the quantum mechanism.
+>
+> ## 6. The question I would put at the center of the next investigation
+>
+> Your journal entry ends with what I think is the correct priority:
+>
+> > Don't derive the exterior bubbles from basic space, or basic space from the bubbles. Derive both from one underlying pre-Boltzmannian substrate.
+>
+> I'd turn that into a precise challenge:
+>
+> \\[ \boxed{ \mathscr S \overset{\mathcal P\_{\rm geom}}{\longrightarrow} (g_G,\text{causal structure}), \qquad \mathscr S \overset{\mathcal P\_{\rm matter}}{\longrightarrow} (\Psi,\text{spectra},\text{interactions}). } \\]
+>
+> Then determine what compatibility law links the two projections.
+>
+> For PG, a successful construction must do more than reconstruct a familiar matter spectrum. It must also explain why the reduced matter source satisfies the conservation law required by Law I:
+>
+> \\[ \boxed{ \nabla_G^\mu T^{(g)}\_{\mu\nu}=0. } \\]
+>
+> Ideally, that conservation would follow from symmetries of one parent action, including the selected meridian geometry—not from imposing it afterward.
+>
+> I'd then test a small version in which two primitive sectors produce one shared causal description and one complementary propagating excitation. The goal would be to derive a nontrivial overlap phase, a propagation kernel and a conserved effective source without presupposing an ordinary spacetime for all three.
+>
+> That would begin to distinguish emergence of spacetime from merely redescribing a conventional field theory using extra labels.
+>
+> ## My overall impression
+>
+> I think the October 18 entry is the more foundational of the two, while the October 17 entry suggests a possible mathematical tool for making it work.
+>
+> The October 17 insight asks whether presence probabilities and action phases are two readouts of relational geometry.
+>
+> The October 18 insight asks whether geometry and matter are themselves two readouts of the same deeper substrate.
+>
+> Those two ideas fit together remarkably cleanly as a research hypothesis:
+>
+> \\[ \boxed{ \begin{gathered} \text{Primitive relational compatibility}\\\ \downarrow\\\ \text{Phase, probability and persistence}\\\ \downarrow\\\ \text{Different selections of surviving structure}\\\ \downarrow\\\ \text{Effective geometry and matter}. \end{gathered} } \\]
+>
+> I'd be careful not to conclude that conventional space is merely fictitious or that quantum matter has been derived from discarded geometry. We haven't established either.
+>
+> But you've articulated a testable dependency hypothesis: perhaps spacetime geometry and quantum matter are not independent primitives, and their effective coupling records information about the reduction from a common parent.
+>
+> The strongest part, to me, is the insistence that neither space nor matter should be constructed by hand from the other. That protects the hypothesis from simply hiding the answer in the starting assumptions.
+>
+> And there's a memorable way to summarize the physical intuition:
+>
+> Matter would not be something added to an otherwise complete room. Matter would be part of what the room's geometrical description leaves unresolved, but which the complete physical description must still account for.
+>
+> I think that's a worthwhile foundation to investigate—particularly through relational overlap geometry, projection-operator effective dynamics, and PG's existing co-middle construction.
+
+**What v36.5 does with them.** The report's major finding is an implementation error and is corrected in place: the orbit library's velocity moments were read at the bin centre; they are now integrated along each orbit's passage through each bin, with the report's counterexample and direct time integrations as controls, the two mis-certified witnesses re-evaluated openly, the minima re-optimized, the joint crossing–dispersion program run with the whole density matched (up to $6.9$–$9.0\%$ crossing at $10$ km/s), and every library bound rescoped as a compatibility witness (§XXXIII.52; R357). The report's analytic counterexample to the sign rule (the meridional-geodesic ensemble, $C = 1.13295$), its envelope and mixture test of the dwarfs' outer ring ($8/12$, $15/34$ stand; "thick or thin" withdrawn), its azimuthal-twist nullspace, its $F_+$ fall-off and bound-state remark, its high-sector Hessian bound and its correction of the recorded response's off-centre gradient are each computed and confirmed (§§XXXIII.52(e)–(f), 53; R357, R358); its two annotations of §XXXIII.45 (the normalization projection in the operator identity; the isothermal family not derived from isolation) are applied in place (R358); its fold-guard defect (item 10) is repaired in the suite. The review's $F_+$ asymptotics and Wilson-loop remark are confirmed; its candidate $\mathcal C_{\rm joint} = \lvert\mathbf n_L+\mathbf n_R-2\cos\alpha\,\mathbf n\rvert^2$ is recorded as an ansatz for the localization round. The report's second task — one localization operator from a stated action, with its clash quantity, gap, centre and scales — is the first piece of v36.6 and is not attempted here (§XXXIII.54). The journal entries and the response — presence as overlap and the Bargmann invariant, the Feshbach/Schur-complement reading of matter as the correction from the omitted sector, the two projections of one substrate with Law I's conservation law as the compatibility condition, the reduced Compton length as the "bubble" scale, Kerr as a limiting-solution test — are recorded beside Entry 345's co-space program (§XXXIII.50) and Part XXIX's centrade–centron hypothesis, as program; nothing of them is worked. The referee's remark that the plotting scripts, figures and toy were not in the attachment is noted: they are delivered as separate files each round, and only the archive was attached to the review.
+
+## XXXIII.52 Erratum of the orbit library's kinematics: moments integrated along the orbit; the witnesses re-evaluated; the joint crossing–dispersion frontier; the bounds rescoped [V/T/D; R357] *(`v36_5_kinematics_erratum()`)*
+
+**(a) The error [V].** §XXXIII.28 and §XXXIII.36 integrate each orbit's *occupancy* over the bins, but the kinematic matrices behind every dispersion and rotation statement — the mass-weighted mean $v_\phi$ and mean $v_r^2$ per bin — were built as the occupancy times the velocity *at the bin centre*: $V_{ki} = F_{ki}L_k/(\ell\sin\chi_i)$, $S^{(2)}_{ki} = F_{ki}\max\{2[E_k-U_k(\chi_i)],0\}$. For a bin an orbit occupies only in part — the turning-point bins on which a cold population's weights concentrate — the centre may lie outside the orbit, where $v_r^2$ is set to zero. The report's counterexample: a free particle on the unit sphere, $L = 1$, turning point $\chi_1 = 0.22$, the bin $[0.15,0.25]$ (centre $0.20$, outside the orbit) — folded occupancy $0.076214$ by direct integration, mean $v_r^2 = 1.71495$ (the report's $1.71492$), mean $v_\phi = 4.38811$; the centre prescription gives the same occupancy with $v_r^2 = 0$ and $v_\phi = 5.03349$, above the orbit's total speed. The suite's `_v36_kin` now folds the time integrals $V_{ki} = (2/T_k)\int_{I_i}L_k/(\ell\sin\chi)\,dt$, $S^{(2)}_{ki} = (2/T_k)\int_{I_i}2[E_k-U_k]\,dt$ over each orbit's passage through each bin, by the occupancy's own quadrature (`_v36_occ_m`; $0.076362/1.72065/4.38744$ at the library's $3{,}000$ nodes, $0.076202/1.71446/4.38816$ at $30{,}000$); the old prescription is kept as `_v36_kin_centre` for the comparison. Controls in the field of Entry 326's $a = 16/3$ member — four orbits (trapped, crossing just above the barrier, near-circular, near the barrier top), the quadrature's bin moments against direct time integration (DOP853) — agree to a few $10^{-4}$ in the occupancy, the mean $v_\phi$ and the mean $v_r^2$, the near-separatrix orbit (which lingers at the barrier top) to $3\times10^{-3}$ in $v_r^2$: the accuracy of every kinematic number of §§XXXIII.28, 36 and this section. The occupancy matrices are unchanged.
+
+**(b) The regular families' witnesses [V].** With the libraries, bins and tolerances of §XXXIII.36: the coldest witness certified at $\sigma_r\leq7.17$ km/s (Entry 326) and $6.71$ (Entry 327) by the centre prescription (the bisection's bound; the witnesses' own largest bin values are the report's $7.18$ and $6.72$) has, with its own weights and the integrated moments, a largest inner dispersion of $21.91$ and $21.01$ km/s — mis-certified. Re-optimized with the integrated moments and the same inner-only density constraints the least is $6.85$ and $6.44$ km/s, so cold candidates exist in these libraries (the error biases individual moments either way; the LP finds another witness). Those witnesses matched the density only on the inner bins ($1$–$36$ kpc): outside them they miss by up to a factor $3.8$ and $4.9$, with $0.014$ and $0.016$ of the mass beyond $36$ kpc against the source's $0.063$ and $0.081$ — tracer populations in a fixed field, not approximately self-consistent sources — and their own crossing fractions are $0.0057$ and $0.0066$.
+
+**(c) The joint program and the frontier [V].** §XXXIII.36 optimized the crossing mass and the dispersion in *separate* programs (the most crossing mass with the density alone, $0.18$–$0.25$; the coldest population, which crossed with $0.006$–$0.007$) and combined them into "a crossing population of several per cent to a quarter of its mass that stays cold" — which does not follow, and is withdrawn. The joint program — nonnegative weights of unit mass; the density matched in *every* near-hemisphere bin within $2\%$ plus $10^{-4}$ of the largest bin; the inner mean rotation within $20\%$ of $v_c$ on the supported bins $1$–$36$ kpc; the inner radial dispersion capped — gives the most crossing mass $0.0685$, $0.0785$, $0.0859$, $0.1000$ (Entry 326) and $0.0904$, $0.1023$, $0.1139$, $0.1339$ (Entry 327) at $\sigma_r\leq10$, $20$, $30$, $50$ km/s — the report's table to $10^{-4}$ — and the least at $10$ km/s $0.016$ and $0.023$. What the libraries establish jointly: a cold inner population ($\sigma_r\leq10$ km/s over $1$–$36$ kpc) with up to $6.9$–$9.0\%$ of its mass on crossing orbits while matching the whole binned source. The frontier rises slowly with the cap; coldness is imposed over the inner observational selection only.
+
+**(d) The scope of library bounds [D].** For otherwise identical constraints a restricted orbit library samples a subset of the populations, so $\sigma_{\min,\rm all}\leq\sigma_{\min,\rm library}$ and $f_{\rm cross,max,all}\geq f_{\rm cross,max,library}$: a library's minimum dispersion is an achievable *upper* bound on the continuum optimum, its maximum crossing fraction an achievable fraction, not the density's limit, and a failure to find a population below $400$ km/s is not a proof that none exists. §XXXIII.28's and §XXXIII.36's "at least", "at most" and "no population below" are rescoped in place to the library (R357): compatibility witnesses, not certificates of impossibility. A certificate would need an independent continuum inequality or a validated dual. The same applies to the dwarfs (§XXXIII.28(c)): their exclusion is conditional on the libraries, the inner reconstruction and the total mass, and on the bridge from the in-plane radial dispersion to the measured line-of-sight width — for a flat disk $\sigma_{\rm los}^2 = \sin^2i\,[\sigma_R^2\sin^2\phi+\sigma_\phi^2\cos^2\phi]+\sigma_z^2\cos^2i$ before beam smearing — which this Part names as a premise. Stationarity alone does not make a population's density smooth (cold rings, caustics, separatrix-weighted distributions): §XXXIII.29(b)'s finite coefficient is for suitable smooth distributions. With the repaired moments and re-optimization the recorded minima move little — $10.4$, $8.7/34.9$, $7.2$ km/s for §XXXIII.28's three disks (were $10.5$, $8.6/34.9$, $7.4$), $6.9$ and $6.4$ for the regular families (were $7.2$, $6.7$), IC 2574's $28$ ($27$) and the iterated mixtures' $29$–$34$ ($29$–$35$) — but their meaning is the library's.
+
+**(e) The sign of a crossing share [T/V].** §XXXIII.28(a)'s four orbits had positive (trapped) and negative (crossing) plateau shares; that is not a rule. A stationary, azimuthally averaged ensemble of meridional great-circle geodesics in a zero field crosses the equator with surface density $\propto1/\sin\chi$ and has a *positive* share: subtracting the uniform density, whose field vanishes, $C = (2/\pi)\int_0^{\pi/2}(1-\sin\chi)\,C_{\rm ring}(\chi)\,d\chi = 1.13295$ by quadrature of the ring formula and $1.13295$ by the potential solver's second difference (per unit mass of the ensemble; the report's quadrature $1.13295$, and $1.13297$ from its run of the solver). Any general sign rule must be computed from the full orbit density; §XXXIII.28(a) and §XXXIII.29(b) are tagged.
+
+**(f) The dwarfs' outer-ring test, strengthened [V].** §XXXIII.28(c) inferred from "every ring's $v^2$ is negative at every measured radius" that no nonnegative mixture of rings can support more radii than the best single ring; the sign alone does not prove it (two negative vectors can penalize different radii). The pointwise envelope $B_i = v_{\rm inner}^2(R_i)+\sup_u v_{\rm ring}^2(R_i;u)$ on $199$ ring angles, and the maximin program over unit-mass mixtures: the envelope's count is $8/12$ (DDO 154) and $15/34$ (IC 2574), the best single ring's; the best mixture's worst radius has $v^2 = -145$ and $-823$ (km/s)$^2$, so no mixture supports every radius; the radii no mixture supports are $1.48$–$2.96$ kpc and $0.85$–$5.97$ kpc; the nearest misses are IC 2574's innermost radius ($B = -11$ (km/s)$^2$ at $0.85$ kpc; $-12$ at the next, the independent check found) and DDO 154's $2.96$ kpc ($-35$), and the envelope is unchanged on $2{,}000$ ring angles to $89.999^\circ$ (the independent check). The counts stand by the stronger test, for thin axisymmetric rearrangements in the plane; "thick or thin" is withdrawn from §XXXIII.28(c) — off-plane mass is a different kernel (even Newtonian, a ring of radius $a$ at height $z$ has $v_c^2\simeq GM(2z^2-a^2)R^2/[2(a^2+z^2)^{5/2}]$ near the axis, positive for $z>a/\sqrt2$).
+
+## XXXIII.53 The clash invariant's nullspace, the sum's fall-off, the high-sector bound, and a correction to a recorded response [T/V/D; R358] *(`v36_5_clash_sectors()`)*
+
+**(a) The nullspace of $F_L-F_R$ is larger than the fixed rotations [T/V].** With $\mathbf n_L = (\sin\theta\cos\phi,\sin\theta\sin\phi,\cos\theta)$ and $\mathbf n_R$ the same field twisted in azimuth by $g(\theta)$, no fixed rotation relates the two, yet $\sin\theta\,d\theta\wedge d[\phi+g(\theta)] = \sin\theta\,d\theta\wedge d\phi$, so $F_R = F_L$: with $g = 1.7\theta$ and §XXXIII.47's $\theta(z) = \arctan(1.5z)$, $F_L = F_R = -0.25594$ and $-0.19201$ at $z = 0.3$, $1$ while $|\mathbf n_L-\mathbf n_R| = 0.29$ and $1.23$. The relative curvature measures a difference of pulled-back area forms, not a distance between the configurations; a relative-orientation observable needs the frame identification and the action §XXXIII.47 lists as missing.
+
+**(b) The sum for the mirror tilt [T/V].** Each sector's curvature is $F_{\phi z} = -\tfrac12\sin\theta\,\theta' = -q^2z/[2(1+q^2z^2)^{3/2}]$, so $F_+ = F_L+F_R = -q^2z/(1+q^2z^2)^{3/2}$ (numeric and analytic to $10^{-6}$): nonzero off the plane, maximal near $z = 1/(q\sqrt2)$, falling as $1/(qz^2)$ ($z^2qF_+ = -0.99$ at $z = 10$); its flux over the patch, $2\pi\int_0^\infty F_+\,dz = -2\pi$, so the $U(1)$ Wilson loop of the summed connection returns to unity — both reviews' remark. The simplest coupling, $-\partial_z^2+\gamma|F_+|^2$, has a nonnegative potential tending to zero: spectrum $[0,\infty)$, no bound state and no positive asymptotic gap (the lowest Dirichlet eigenvalue on $[-Z,Z]$ falls as $1/Z^2$ with the box: $0.066$, $0.020$, $0.0056$ at $Z = 10$, $20$, $40$ for $\gamma = 1$, against the free box's $0.025$, $0.0062$, $0.0015$). Replacing $F_-$ by $F_+$ detects the mirror tilt but does not supply the confinement §XXXIII.41(d)'s threshold-mode toy assumed; the gap, the centre and the coupling must come from a specified action — the one localization operator is v36.6's piece.
+
+**(c) The high-sector bound [T/V].** For a bounded equilibrium density the sector Hessian obeys $H^{(m)}[f]\geq[1/\Sigma_{\max}-2\pi\theta\lambda_{l_*(m)}]\lVert f\rVert^2$ with $l_*(m)$ the least even $l\geq\max(2,m)$ (the entropy term's lower bound and the decreasing positive even-degree kernel eigenvalues), so once the bracket is positive every higher sector is. At $\theta = 1.4$ (contrast $7.02$, nodal $\Sigma_{\max} = 0.6082$) the bound is positive from $m = 5$ (margin $0.227$) and $m\leq4$ are positive directly; at $\theta = 1.2$ (contrast $28.35$, $\Sigma_{\max} = 1.8786$) from $m = 13$ (margin $0.008$), with $m = 2$–$12$ positive directly (least eigenvalues $0.39$–$0.55$) and $m = 1$ the exact tilt zero mode. So at these two states of the concentrated branch the entropy maximum of §XXXIII.45 holds in *every* non-axisymmetric sector, modulo the rotational zero modes — a numerical closure at two points with a nodal $\Sigma_{\max}$, not a continuum certificate over the segment; and it is variational (thermodynamic) stability of the isothermal family, not a computed Vlasov evolution.
+
+**(d) A correction to the recorded response on Entry 343 [V].** §XXXIII.50 records the response's $|\nabla\ln\Omega|_\odot\approx0.0285$ kpc$^{-1}$ for $\Omega = (1+\rho^2/4\ell^2)^{-1}$, $\ell = 16$ kpc, $\rho = 8.2$ kpc; the derivative is $\rho/[2\ell^2(1+\rho^2/4\ell^2)] = 0.0150$ kpc$^{-1}$ (the report's correction), so the variation across $1$ AU is $7\times10^{-11}$, not $1.4\times10^{-10}$. Chart-dependent scales, neither an observable, as the response itself says; the record stands as the author's input with this note.
+
+## XXXIII.54 Standing after v36.5, and the next pieces [S/O; R359]
+
+§XXXIII.48 remains the operative standing, with these changes.
+- *Corrected [V].* The orbit library's kinematic matrices (an erratum, by the report; §XXXIII.52(a)); §XXXIII.36's "several per cent to a quarter of its mass and stay cold" withdrawn (two programs combined; §XXXIII.52(c)); §XXXIII.28(a)'s sign of a crossing share scoped to the tested orbits (§XXXIII.52(e)); §XXXIII.28(c)'s mixture argument replaced by the envelope and "thick or thin" withdrawn (§XXXIII.52(f)); every library bound of §§XXXIII.28, 36 rescoped as a compatibility witness (§XXXIII.52(d)); the response's off-centre gradient corrected (§XXXIII.53(d)) (R357, R358).
+- *Established [V], added.* The joint frontier: a cold inner population ($\sigma_r\leq10$ km/s) with up to $6.9$–$9.0\%$ of its mass crossing while matching the whole binned source of either regular family (§XXXIII.52(c)). The envelope counts $8/12$ and $15/34$ (§XXXIII.52(f)). The clash nullspace, the sum's $1/z^2$ fall and $-2\pi$ flux, the absence of a bound state for the curvature-squared coupling, the sector closure at two states of the concentrated branch (§XXXIII.53).
+- *Not demonstrated,* unchanged: the observed rotation curve from the theory as specified; any transfer, population law or scale derived; a localization operator from an action.
+- *The next pieces.* (1) **One localization operator from a stated action or constitutive law** (the reports' second task): what is localized, the bundles and the frame identification, the derived operator, a computed mode with its scale against the sine-exponential benchmark and the thin disk — v36.6. (2) The joint model against DDO 154 (§XXXIII.42's first item) with the repaired kinematics, the full-density residuals and the dispersion–crossing frontier as its population side; the dwarfs' line-of-sight bridge. (3) Entries 342–345's checks (§XXXIII.50): the Solar-System criterion on the stereographic chart with a localized Sun and a specified observer map; the areal-radius reading; the holonomy gap with the fiber-length bound. (4) Dynamical stability; the non-axisymmetric branches; the standing list.
+- *Not claimed.* No observed rotation curve is reproduced; no library minimum is a continuum bound; the clash invariant is not repaired by $F_+$; the Kerr reference is a comparison, not a mechanism.
+
+## XXXIII.55 Register R356–R359 [D/O; v36.5]
+
+- **R356** (§XXXIII.51). The two reviews of v36.4, the author's two journal entries (17 and 18 October) and the response on them, in the author's words; what v36.5 does with each. [record]
+- **R357** (§XXXIII.52; §§XXXIII.28, 29(b), 32, 36, 37, 42, the register entries R332 and R341, and the head table corrected in place). The erratum: the kinematic matrices of §§XXXIII.28 and 36 read $v_\phi$ and $v_r^2$ at the bin centre; now the time integrals over each orbit's passage through the bin (`_v36_occ_m`, `_v36_kin`; the report's free-geodesic counterexample and four direct time integrations as controls). §XXXIII.36's witnesses certified at $7.17$/$6.71$ km/s were at $21.91$/$21.01$; re-optimized $6.85$/$6.44$; matched the density on the inner bins only. The joint program: most crossing mass $0.0685$–$0.1000$ and $0.0904$–$0.1339$ at $\sigma_r\leq10$–$50$ km/s with the whole density matched. Library bounds are compatibility witnesses (upper bounds on the continuum minimum, achievable fractions), not certificates. The meridional-geodesic ensemble's positive share $C = 1.13295$. The dwarfs' envelope $8/12$, $15/34$, no mixture supporting every radius. Superseded wording, §XXXIII.36: "as cold as the library resolves ($\sigma_r = 7.2$ and $6.7$ km/s inside $36$ kpc, …)" — now $6.9$ and $6.4$ with the integrated moments; "The coldest rotating populations ($2\%$ per bin) cross with $0.006$ and $0.007$ of their mass. So the regular families relax §XXXIII.28's exclusion: a thin disk regular at the equator can hold a crossing population of several per cent to a quarter of its mass and stay cold." — now "cross with $0.021$ and $0.006$" and the joint statement (up to $6.9$–$9.0\%$ at $10$ km/s), the quarter-mass cold claim withdrawn. Superseded wording, §XXXIII.28(a): "a trapped orbit counts like a ring inside; a crossing orbit's density straddles the equator and pulls the equatorial orbit outward." — kept for the tested orbits, with the tag that it is not a rule. §XXXIII.28(b)'s table: "$10.5$ / $10.5$ km/s", "$8.6$ (the supported bins, from $R = 2$ kpc) / $34.9$ km/s", "$7.4$ / $7.4$ km/s" — now $10.4$ / $10.4$, $8.7$ (…) / $34.9$, $7.2$ / $7.2$; "no population has a radial dispersion below $35$ km/s" — now "no population in this library". §XXXIII.28(c): "so no nonnegative mixture of rings, that is no axisymmetric placement of the outer mass in the plane, thick or thin, can raise the count" — now the envelope's result, thin only; "for IC 2574 none below $27$ km/s ($14$ free)" — now $28$; "the gas needs $\sigma_r\geq19$ km/s with its rotation ($12$ free)" — now $11$ free; "$\sigma_r\geq31$–$35$ km/s for DDO 154 ($25$–$30$ free), $29$–$30$ km/s for IC 2574 ($16$ free)" — now "$31$–$34$ ($26$–$29$ free), $29$–$30$ ($15$–$16$ free)"; (d)'s "every such population is hot — with the observed rotation, $\sigma_r\geq27$–$35$ km/s" and "with the rotation free, $14$–$30$ km/s" — now "every such population in these libraries is hot", "$28$–$34$" and "$14$–$29$", with the scope clause; (d)'s "(the negative shares in (a))" — now "of the orbits tested in (a)". §XXXIII.29(b)'s "so its $C$ is finite and given by the solver, with the crossing orbits contributing negatively (§XXXIII.28(a))" — now scoped to suitable smooth distributions and to the orbits tested. §XXXIII.32's established bullet, "the dwarfs' gnomonic sources admit no axisymmetric in-plane placement of their required outer mass that keeps circular support, and no stationary population as cold as their gas (with the observed rotation, $\sigma_r\geq27$–$35$ km/s for the mixture, …)" and "sharpens it to a statement about their gas's dispersion" — tagged (thin in-plane; in these libraries; $28$–$34$). §XXXIII.37's "no axisymmetric placement supports" — now "no thin axisymmetric in-plane placement supports". §XXXIII.36's "the maximum is the density's" — now "the library's achievable fraction, not the density's limit"; §XXXIII.28(b)'s "so with the whole density matched the crossing fraction is at most $0.01$ … at most $2$–$7\%$ … and $6$–$14\%$" and (c)'s "no population exists with any radial dispersion below $400$ km/s", "admits no stationary population at all", "no two-component population exists at any tolerance" — now with "in this library". §XXXIII.42's "admit crossing orbits up to a fifth or a quarter of the mass" — now with "with the density alone, up to $6.9$–$9.0\%$ jointly with coldness". The register entries R332 (§XXXIII.33: "trapped orbits positive, crossing orbits negative"; "so no axisymmetric in-plane placement of the required outer mass keeps $v^2>0$ everywhere"; "$27$ km/s (IC 2574), in the fields iterated to the mixtures' densities $31$–$35$ and $29$–$30$ km/s") and R341 (§XXXIII.43: "$\sigma_r = 7.2$, $6.7$ km/s"; "cross with $0.006$, $0.007$. A thin disk regular at the equator can hold a crossing population of several per cent to a quarter of its mass and stay cold") — tagged in place. The head table's occupancy row: "each orbit's share of the plateau coefficient is positive if trapped, negative if crossing"; "is a stationary population only as a hot one ($\sigma_r\geq35$ km/s inside $30$ kpc)"; "admit no axisymmetric in-plane placement of their required outer mass that keeps circular support at every measured radius (every ring's field negative there; at best $8/12$, $15/34$) and no stationary population with the observed rotation colder than $\sigma_r = 27$–$35$ km/s for the stars-plus-gas mixture" — now the tagged wording (tested orbits; in this library; the envelope; $28$–$34$; library witnesses). Its regular-family row: "stationary populations as cold as the library resolves, admitting crossing orbits up to $0.18$–$0.25$ of the mass (R340, R341)" — now with the integrated minima ($6.9$, $6.4$), "with the density alone", the joint $6.9$–$9.0\%$ and the withdrawal. The superseded prints of the suite's v36.2-1 and v36.3-2 sections are quoted in the ledger. [V/T/D]
+- **R358** (§XXXIII.53; §XXXIII.45(b), (c), (e), §XXXIII.47 and §XXXIII.50 annotated in place). The azimuthal-twist nullspace of $F_L-F_R$; $F_+ = -q^2z/(1+q^2z^2)^{3/2}$ with its $1/z^2$ fall and $-2\pi$ flux; $-\partial_z^2+\gamma|F_+|^2$ without a bound state or gap; the high-sector Hessian bound closing every $m$ at $\theta = 1.4$ and $1.2$ (margins $0.227$, $0.008$); the response's $0.0285$ kpc$^{-1}$ corrected to $0.0150$. §XXXIII.45(b) annotated: the operator identity is on the mass-preserving subspace with the normalization projection; §XXXIII.45(c): the ensemble comparison is a stability analysis of the chosen isothermal family, not a derivation that an isolated galaxy belongs to it. [T/V/D]
+- **R359** (§XXXIII.54; §XXXIII.13; the head table; the toy). Standing after v36.5; the next pieces led by one localization operator from an action. The suite `pg_v36_numerics.py` at v36.5: two new sections and checks ($35$ in all), `_v36_kin` repaired and the v36.2-1 and v36.3-2 sections rerun with it (their prints rescoped; their checks' recorded outcomes reproduced within tolerance), the fold guard of §XXXIII.45(a) completed (a missing fold fails the check), the mode `v36_5` (a few minutes), `quick` now $21$ checks; the toy `v32_toy_three_ends.py` gains `v36_5`, its `all` counting $222$; no new figure. The SHA-256 of the suite is in §XXXIII.13. [S/O; reproducibility]
+
+## Round record: the version summaries, v16 to v36.5 (moved from the head of the archive in v34.9, R190)
+
+*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v36.5, v36.4, v36.3, v36.2, v36.1, v36.0, v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+
+> **v36.5 — the two reviews of v36.4 (18–19 October 2026): the kinematics erratum of the orbit library, the joint crossing–dispersion frontier, the library bounds rescoped; the clash nullspace, the sum's fall-off and the sector bound. Parts XXX–XXXII frozen at v35.8.**
+>
+> *What was asked.* The review of v36.4: keep it; the most consequential result is the clash invariant's failure; $F_+$ detects the mirror tilt but falls as $1/(qz^2)$ and its Wilson loop returns to unity; a joint-admissibility scalar $\mathcal C_{\rm joint}$ as an ansatz; the next milestone a localization operator with its clash quantity, gap and radial/vertical responses derived together. The referee report: keep v36.4, but the orbital-population claims need a corrective round — the orbit library's velocity moments are read at the bin centre, mis-certifying the two "coldest" witnesses ($7$ km/s; $21$–$22$ integrated); the quarter-mass cold crossing claim combined two separate programs; library minima and maxima are not continuum bounds; the crossing sign rule has a counterexample; the outer-ring sign argument needs the envelope; the fold guard is incomplete; the recorded response's off-centre gradient is $0.0150$, not $0.0285$; then one localization operator from an action. The author's journal entries (17 and 18 October): a Bloch-like local rendering of action-difference angles with Kerr as a constraint; presence as a dot product; space as the within-scope content and matter as the outside-scope correction, both selected from one pre-Boltzmannian substrate. The response: the Bargmann invariant; the Feshbach/Schur complement as "matter as the correction"; two projections of one substrate with Law I's conservation law as the compatibility condition; the reduced Compton length; Kerr as a limiting test.
+>
+> **What v36.5 does (R356–R359; §§XXXIII.51–55).**
+> - The erratum: the kinematic matrices are now the time integrals of $v_\phi$ and $v_r^2$ over each orbit's passage through each bin (the report's free-geodesic counterexample and four time integrations as controls); the v36.3 witnesses certified at $7.2$/$6.7$ km/s were at $21.9$/$21.0$; re-optimized, $6.9$/$6.4$ — cold candidates exist; the recorded minima of §XXXIII.28 move by at most $0.3$ km/s and the dwarfs' by $1$ (single iteration steps by up to $3$).
+> - The joint program: the whole density matched, the inner rotation within $20\%$ of $v_c$, the inner dispersion capped — up to $6.9$–$9.0\%$ of the mass crossing at $\sigma_r\leq10$ km/s, $10$–$13\%$ at $50$; the "quarter of its mass and stay cold" sentence withdrawn; every library bound rescoped as a compatibility witness.
+> - The sign rule scoped (a crossing meridional-geodesic ensemble has $C = +1.13295$); the dwarfs' outer-ring counts $8/12$, $15/34$ confirmed by the pointwise envelope and the mixture program, for thin in-plane rearrangements ("thick or thin" withdrawn).
+> - The clash: an azimuthal twist gives $F_L = F_R$ with no rotation relating the fields; $F_+ = -q^2z/(1+q^2z^2)^{3/2}$, flux $-2\pi$, and $-\partial^2+\gamma F_+^2$ has no bound state; the high-sector bound closes every $m$ at two states of the concentrated branch; §XXXIII.45 annotated (the normalization projection; the isothermal family not derived); the fold guard completed.
+> - The journal entries and the response recorded verbatim beside Entry 345's program; the response's gradient corrected.
+> - Independent referees checked the round before delivery.
+>
+> **Next.** One localization operator from a stated action (v36.6); the joint model against DDO 154 with the repaired kinematics and the frontier as its population side; Entries 342–345's checks (the Solar-System criterion first); dynamical stability; the standing list; the author's choice for the cap.
 
 > **v36.4 — the v36.3 review and Entries 340–341 (18 October 2026): the fixed-point erratum and the two ensembles, the radial–normal duality, the clash test. Parts XXX–XXXII frozen at v35.8.**
 >
