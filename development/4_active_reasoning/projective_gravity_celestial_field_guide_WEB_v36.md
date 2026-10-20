@@ -1,8 +1,8 @@
-# Projective Gravity — Version 36.6 (draft): the observed rotation curve
+# Projective Gravity — Version 36.7 (draft): the observed rotation curve
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases — with branches on charge and extremality, and on rendering and canonical optics
 
-**Claim status of Part XXXIII (v36.6).** This table governs the open work: Part XXXIII, the observed rotation curve. Parts XXX–XXXII are frozen at v35.8, and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the two frozen tables that follow, unchanged except for marked post-freeze notes; v36.0 added such notes and pointers in §§XXXI.37, XXXI.38, XXXI.41, XXXII.5 and XXXII.7 and in four rows (R313); v36.1–v36.6 add none (v36.4's one rendering repair in §XXX.11, R355, excepted). v36.1 was the corrective round on the two reports on v36.0 (§XXXIII.14), §XXXIII.24 listing each v36.0 claim against its status; v36.2 answers Entries 323–324 and the two responses on them (§XXXIII.27), with the rows marked R332–R337 added, the row on Entry 322's family reworded (R332; its v36.1 text quoted under R337) and the row on the next pieces extended (R337); v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§XXXIII.34), with the rows marked R339–R348 added, the occupancy row reworded for the review's two distinctions (R347; its v36.2 text quoted there) and the row on the next pieces extended (R348); v36.4 answers the review of v36.3 and Entries 340–341 with the response (§XXXIII.44), with the rows marked R349–R354 added, the isothermal row extended for the erratum and the two ensembles (R350; its v36.3 text quoted there) and the row on the next pieces extended (R353); v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§XXXIII.51), with the rows marked R356–R358 added, the occupancy and regular-family rows corrected for the kinematics erratum (R357; their v36.4 text quoted in the ledger), the isothermal and clash rows extended (R358) and the row on the next pieces extended (R359); v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§XXXIII.56), with the rows marked R360–R363 added and the row on the next pieces extended (R364). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*; a fit that fails is marked *(negative)*.
+**Claim status of Part XXXIII (v36.7).** This table governs the open work: Part XXXIII, the observed rotation curve. Parts XXX–XXXII are frozen at v35.8, and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the two frozen tables that follow, unchanged except for marked post-freeze notes; v36.0 added such notes and pointers in §§XXXI.37, XXXI.38, XXXI.41, XXXII.5 and XXXII.7 and in four rows (R313); v36.1–v36.7 add none (v36.4's one rendering repair in §XXX.11, R355, excepted). v36.1 was the corrective round on the two reports on v36.0 (§XXXIII.14), §XXXIII.24 listing each v36.0 claim against its status; v36.2 answers Entries 323–324 and the two responses on them (§XXXIII.27), with the rows marked R332–R337 added, the row on Entry 322's family reworded (R332; its v36.1 text quoted under R337) and the row on the next pieces extended (R337); v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§XXXIII.34), with the rows marked R339–R348 added, the occupancy row reworded for the review's two distinctions (R347; its v36.2 text quoted there) and the row on the next pieces extended (R348); v36.4 answers the review of v36.3 and Entries 340–341 with the response (§XXXIII.44), with the rows marked R349–R354 added, the isothermal row extended for the erratum and the two ensembles (R350; its v36.3 text quoted there) and the row on the next pieces extended (R353); v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§XXXIII.51), with the rows marked R356–R358 added, the occupancy and regular-family rows corrected for the kinematics erratum (R357; their v36.4 text quoted in the ledger), the isothermal and clash rows extended (R358) and the row on the next pieces extended (R359); v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§XXXIII.56), with the rows marked R360–R363 added and the row on the next pieces extended (R364); v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§XXXIII.61), with the rows marked R365–R368 added and the row on the next pieces reworded and extended (R369). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*; a fit that fails is marked *(negative)*.
 
 | claim | type | evidence | archive |
 |:--|:--|:--|:--|
@@ -46,7 +46,11 @@
 | The admissibility scalar: the squared Fubini–Study distance from the pair $(\mathbf n_L,\mathbf n_R)$ to the admitted two-Hopf family at the matter-selected tilt — zero on the family, $(\theta-\alpha_0)^2/2$ for the mirror tilt, nonzero for an azimuthal turn of one sector (§XXXIII.53(a)'s twist applied to the admitted pair, under which $F_L-F_R$ stays zero), exchange-even, blind to the fibre (clash) phases; its nullspace is the choice of the family, which it encodes and does not supply (R361) | analytic theorem; numerical control; definition | — | §XXXIII.57(a) |
 | One localization model, from the admissibility scalar to the spectrum: the action $\tfrac{k_s}{2}\lvert\nabla\alpha\rvert^2+\lambda\rho\,\mathcal C+\mu(1-\cos\alpha)$ for the mirror pair's tilt with Entry 326's image as the pinning density, and a scalar probe in $g\mathcal C$, on a symmetric finite-volume grid of a flat half-plane (the probe's meaning, its stress and the frame identification left out): a well whose radial extent is the pinned region; bound modes whose vertical scale is set mainly by the gap and whose radial extent is set by $D_R$ within the well; the exterior theorem — the far-field rates $\sqrt{(V_\infty-E_0)/D}$ and the asymptotic aspect $\sqrt{D_R/D_z}$ of the probe's kinetic metric, borne out to a few per cent where the tail is resolved; the radial scale is $D_R$'s, relative to the gap, the aspect $D_R/D_z$'s — at $D_R = D_z = 1$ the mode falls several times faster than the image beyond $R\approx2h$, while at $D = 6$, or $D_R = 10$–$20$ with $D_z = 1$, its scale lengths are comparable to the image's; at $D_z = 1$ it unbinds between $D_R\approx52$ and $80.6$ (the largest box's lower bound; the Cwikel–Lieb–Rozenblum bound); it derives neither the thin–broad disk nor the sine-exponential, and no bound mode of it can follow the image at large $R$ (R362) | analytic theorem; numerical control; specified physical premise; definition; open bridge | — | §XXXIII.57(b)–(f) |
 | The note of 19 October in a reduction of the smallest two-path, one-qubit model: the two-path holonomy blind to the observer's frame and conjugated by the source's; for one path or two added incoherently, a projective receiver's transfer $(1+\mathbf d\cdot\mathbf b)/2$ with the budget $T_{\mathbf d}+T_{-\mathbf d} = 1$; a uniform receiver selects one member of a two-parameter family of profiles fixed by the source's $\mathbf b(x)$; a varying receiver imposes any transmission $T(x)\in[0,1]$ — any received profile up to the source's own — written into the receiver; coherent reception, the soldering map and the consistency law not built (R363) | analytic theorem; numerical control; specified physical premise; definition | — | §XXXIII.58 |
-| The next pieces: the joint model — one population, its Law I source and its image by a stated transfer, against DDO 154 — with the population law and the transfer fixed first; the localization model's missing parts one at a time — the probe's kinetic metric derived rather than put in, the Berry connection in the action, the sectors' stress in Law I (v36.6's minimal model done); the clash invariant restated to see the symmetric departure, with a frame identification, a transport law and an action; dynamical stability and the non-axisymmetric equilibria of the isothermal fixed points; Entry 329's acceptance criterion computed; measured HI profiles for the pilot, with the HI dispersion as a second observable; the Milky Way estimator; a label law stated before it is fitted, tested out of sample, with the distance, inclination and mass-to-light uncertainties carried; gas with pressure and dissipation on the leaf; one optics experiment; other readings; the held note's calculations; Entries 342–345's checks; the note of 19 October's soldering map, consistency law and the three-way test of the source reduction; flavor, reflectrons, the direction field and the co-space program in the backlog (R330, R337, R348, R353, R359, R364) | open bridge | — | §§XXXIII.25, 32, 42, 48, 54, 59 |
+| The review of v36.6, Entry 349 and the two responses on it: recorded verbatim (R365) | record | — | §XXXIII.61 |
+| The penalties of the admissibility geometry on the full two-sector configuration: v36.6's scalar conical at the aligned vacuum (the review's kink, confirmed), one point of a non-differentiable set that contains the whole coincidence set $\mathbf n_L = \mathbf n_R$; Entry 349's sine — in the responses' reading $\sin\theta = \tfrac12\lvert\mathbf n_L-\mathbf n_R\rvert$ a function of $\mathbf n_L\cdot\mathbf n_R$ alone, blind to the normal — zero again at $\pi-\alpha_0$ and quartic in the twist; the sine and the response's $1-\cos(\theta-\alpha_0)$ conical at alignment in every exchange-even reading; the response's smooth form and the review's $\lvert\mathbf n_L+\mathbf n_R-2\cos\alpha_0\,\mathbf k\rvert^2$ polynomials in $(\mathbf n_L+\mathbf n_R)/2$, smooth, zero exactly on the family, these lowest-order forms with about a quarter of the gap at the same curvature (a smooth form with higher terms can have more); all blind to the fibre phases and defined on the quotient (R366) | analytic theorem; numerical control; definition | — | §XXXIII.62 |
+| The localization model with each penalty, the probe's potential alone or the pinning with it, at the same coupling or the same gap: for an exchange-even penalty, smoothness at the aligned vacuum and a tilt that follows weak matter exclude each other — the cone penalties' tilt follows the image's column density, the smooth forms' is a patch inside $R\approx2$–$2.4\,h$; the sine and $1-\cos$ keep v36.6's three modes and, with the isotropic probe, its scales (within $7.3\%$), the probe-only sine binding more strongly at the same gap ($V_{\sin}\leq V_{\rm old}$) and more weakly at the same coupling; with their pinning the lowest-order smooth forms lose the mode at the same coupling and regain one, weakly bound, at the same gap (on v36.6's tilt the response's and the review's probe potentials keep one weak mode at the same coupling), while a smooth form with v36.6's gap binds two, its tilt still a patch — smoothness forbids the tail-following, not localization; the exterior obstruction holds for every gapped penalty (R367) | analytic theorem; numerical control; specified physical premise; open bridge | — | §XXXIII.63 |
+| The mirror solution off its ansatz: a critical point of the full two-sector energy (symmetric criticality) and a stable one for every penalty — its second variation in four blocks, no negative eigenvalue, one zero mode, the rotation about the normal $\sin\alpha(x)$, gapless along the disk for v36.6's scalar, the sine and $1-\cos$ and gapped for the response's smooth form; the stiffness isotropic by choice; a multi-start local search finding no lower state; the sine's second zero leaving no metastable state — the run stops at a wall held by the grid, and the wall held at $R_w$ has an energy with one maximum and no minimum (R368) | analytic theorem; numerical control; definition | — | §XXXIII.64 |
+| The next pieces: the joint model — one population, its Law I source and its image by a stated transfer, against DDO 154 — with the population law and the transfer fixed first; the localization model's missing parts one at a time — the probe's kinetic metric from the $SO(4)$ geometry (with the isotropic stiffness the sectors' own fluctuations are isotropic, so it needs a further term: a soldering of the internal frame to space, an anisotropic stiffness, or a coupling to the matter's geometry), the Berry connection in the action, the sectors' stress in Law I and the back-reaction (v36.6's minimal model done; v36.7's penalties compared, the lowest-order smooth ones losing the mode with their pinning at v36.6's coupling); the matter population through Law II in place of the inserted image; the clash invariant restated to see the symmetric departure, with a frame identification, a transport law and an action; dynamical stability and the non-axisymmetric equilibria of the isothermal fixed points; Entry 329's acceptance criterion computed; measured HI profiles for the pilot, with the HI dispersion as a second observable; the Milky Way estimator; a label law stated before it is fitted, tested out of sample, with the distance, inclination and mass-to-light uncertainties carried; gas with pressure and dissipation on the leaf; one optics experiment; other readings; the held note's calculations; Entries 342–345's checks; the note of 19 October's soldering map, consistency law, a coupling of the light's internal state to the detected photons and the three-way test of the source reduction; flavor, reflectrons, the direction field and the co-space program in the backlog (R330, R337, R348, R353, R359, R364, R369) | open bridge | — | §§XXXIII.25, 32, 42, 48, 54, 59, 65 |
 
 **Claim status of Parts XXX–XXXII at the v35 freeze (v35.8).** This table governs Parts XXX–XXXII, frozen at v35.8 (15 October 2026) with their suite `pg_v35_numerics.py`, unchanged except for marked post-freeze notes (v36.0, R307, R313) and one marked rendering repair in §XXX.11 (v36.4, R355): Part XXX (the hyper-canonical completion and the charged-lepton cycle), Part XXXI (the visible rendering of the leaf) and Part XXXII (reflectrons: Feynman diagrams as the joint residue of paired histories). Their frozen-results record is the v35.8 current manuscript, `projective_gravity_v35_8_current_manuscript.md`. Parts 0–XXIX are frozen — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10 — and their claim status is the frozen table that follows this one, unchanged except for marked post-freeze notes. Post-freeze notes correct them without rewriting them: two erratum notes in §§XXI.4–4a (R211), clarification notes in §§XXIX.40(e), XXIX.41(d), XXIX.42(g) and XXIX.43(b) (R212–R216, §XXX.12), two pointer notes in §§XXIX.18 and XXIX.42(f) (R238, Part XXXI; the first corrected in v35.3, R243, and in v35.4, R254), and two pointer notes of v35.6, in §§XIII.10 and XXIX.42(c) (R277, R276; the first scoped in v35.7, R288). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*. Rows changed or added since v35.1 carry their register number. Three rows — the cap, the refocusing and the darkness of the sky — are marked as **central limiting conditions**: every proposal for the visible sky must say how it meets them (R255, R267).
 
@@ -174,7 +178,7 @@
 | Observational fits | none | no supernova likelihood, no count comparison with a selected sample, no rotation-curve fit (post-freeze note, v35.1, R216: the current predictive model; Part XII's exploratory fits, §XII.3, belong to its detached wing) (post-freeze note, v36.0, R313: rotation curves are compared with data in Part XXXIII — the Milky Way from inside and a SPARC pilot — and are not reproduced by the theory as specified) | §XXIX.39(f) |
 | The photon wave operator and its mode projection; a $q = 0$ reader; a frequency bridge with time dilation and a derived echo law; a pair-selection law; a detector law for the image map, with one forward image of a fixed galaxy; a derived spectral transport, even and odd | open bridge | — | §§XXIX.39(b), 41, 42, 43(f) |
 
-> **How to read this archive (v36.6).** Three tables govern: the table of Part XXXIII, for the open work; the frozen v35.8 table that follows it, for Parts XXX–XXXII; and the frozen v34.10 table after that, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX; §XXX.9, frozen with Parts XXX–XXXII; and §XXXIII.12) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place. v36.0 freezes Parts XXX–XXXII at v35.8 with `pg_v35_numerics.py`, whose frozen-results record is the v35.8 current manuscript, and opens Part XXXIII, the observed rotation curve, after Part XXXII, with its own register (§XXXIII.12) and suite (§XXXIII.13, `pg_v36_numerics.py`). Its corrections to frozen Parts are post-freeze notes (R313). v36.1 is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§§XXXIII.14–26, R318–R331): it corrects v36.0's operative statements in place, with the superseded wording in §XXXIII.26, and adds no post-freeze note. v36.2 answers Entries 323–324 and the two responses on them (§§XXXIII.27–33, R332–R338): orbital occupancy on the leaf, the exponential as a rendering, the conformal route, the frame-selection hypothesis; it corrects two v36.1 sentences in place (R332) and adds no post-freeze note. v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§§XXXIII.34–43, R339–R348): two source families regular at the equator, their orbital populations and the dwarfs with them, the isothermal fixed points, the null cone, the split model, the $\mathfrak{so}(4)$ sectors; it applies the review's two distinctions in place (R347) and adds no post-freeze note. v36.4 answers the review of v36.3 and Entries 340–341 with the response (§§XXXIII.44–50, R349–R354): the fixed-point erratum and stability in two ensembles, the radial–normal duality and the CMB dipole, the first test of the clash invariant, and Entries 342–345 recorded for v36.5; it corrects §XXXIII.38 and §XXXIII.42 in place (R350) and adds no post-freeze content note — one marked rendering repair in frozen §XXX.11 (R355: a doubled brace in a subscript, which the author's site's templating engine read as a tag; the mathematics unchanged). v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§§XXXIII.51–55, R356–R359): the orbit library's kinematics erratum — the velocity moments integrated along the orbit, the mis-certified witnesses re-evaluated, the joint crossing–dispersion frontier, every library bound rescoped as a compatibility witness — with §§XXXIII.28, 29(b), 32, 36, 37, 42 and two register entries corrected in place (R357); the clash invariant's nullspace and the sum's fall-off, the high-sector bound, §§XXXIII.45, 47, 50 annotated (R358); no post-freeze note. v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§§XXXIII.56–60, R360–R364): one localization model, from the admissibility scalar to the spectrum — one action for the two sectors, a probe in the induced potential and the exterior theorem for its tail — which localizes and derives neither the thin–broad disk nor the sine-exponential; and the note's question in a reduction of the smallest two-path, one-qubit model; nothing earlier is corrected and no post-freeze note is added.
+> **How to read this archive (v36.7).** Three tables govern: the table of Part XXXIII, for the open work; the frozen v35.8 table that follows it, for Parts XXX–XXXII; and the frozen v34.10 table after that, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX; §XXX.9, frozen with Parts XXX–XXXII; and §XXXIII.12) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place. v36.0 freezes Parts XXX–XXXII at v35.8 with `pg_v35_numerics.py`, whose frozen-results record is the v35.8 current manuscript, and opens Part XXXIII, the observed rotation curve, after Part XXXII, with its own register (§XXXIII.12) and suite (§XXXIII.13, `pg_v36_numerics.py`). Its corrections to frozen Parts are post-freeze notes (R313). v36.1 is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§§XXXIII.14–26, R318–R331): it corrects v36.0's operative statements in place, with the superseded wording in §XXXIII.26, and adds no post-freeze note. v36.2 answers Entries 323–324 and the two responses on them (§§XXXIII.27–33, R332–R338): orbital occupancy on the leaf, the exponential as a rendering, the conformal route, the frame-selection hypothesis; it corrects two v36.1 sentences in place (R332) and adds no post-freeze note. v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§§XXXIII.34–43, R339–R348): two source families regular at the equator, their orbital populations and the dwarfs with them, the isothermal fixed points, the null cone, the split model, the $\mathfrak{so}(4)$ sectors; it applies the review's two distinctions in place (R347) and adds no post-freeze note. v36.4 answers the review of v36.3 and Entries 340–341 with the response (§§XXXIII.44–50, R349–R354): the fixed-point erratum and stability in two ensembles, the radial–normal duality and the CMB dipole, the first test of the clash invariant, and Entries 342–345 recorded for v36.5; it corrects §XXXIII.38 and §XXXIII.42 in place (R350) and adds no post-freeze content note — one marked rendering repair in frozen §XXX.11 (R355: a doubled brace in a subscript, which the author's site's templating engine read as a tag; the mathematics unchanged). v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§§XXXIII.51–55, R356–R359): the orbit library's kinematics erratum — the velocity moments integrated along the orbit, the mis-certified witnesses re-evaluated, the joint crossing–dispersion frontier, every library bound rescoped as a compatibility witness — with §§XXXIII.28, 29(b), 32, 36, 37, 42 and two register entries corrected in place (R357); the clash invariant's nullspace and the sum's fall-off, the high-sector bound, §§XXXIII.45, 47, 50 annotated (R358); no post-freeze note. v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§§XXXIII.56–60, R360–R364): one localization model, from the admissibility scalar to the spectrum — one action for the two sectors, a probe in the induced potential and the exterior theorem for its tail — which localizes and derives neither the thin–broad disk nor the sine-exponential; and the note's question in a reduction of the smallest two-path, one-qubit model; nothing earlier is corrected and no post-freeze note is added. v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§§XXXIII.61–66, R365–R369): the penalties of the admissibility geometry compared on the full two-sector configuration — the review's cone at the aligned vacuum confirmed, Entry 349's sine blind to the normal in the responses' reading, the response's and the review's smooth forms zero exactly on the family; v36.6's localization model with each, an exchange-even penalty smooth at the aligned vacuum confining the pinned tilt to a patch, the lowest-order smooth forms with their pinning losing the mode at v36.6's coupling (a smooth form with v36.6's gap binds two), the exterior obstruction holding for every gapped penalty; and the mirror solution stable off its ansatz, the sine's second zero leaving no metastable state; nothing earlier is corrected and no post-freeze note is added.
 
 > **v34.0 governing ontology correction (11 October 2026).** **Matter and its stress-energy content live fundamentally in the five-dimensional middle space** $\mathcal M=E/U(1)_H$, not solely on the representational bisection. The four-dimensional gravity base $B_{\rm grav}=\mathcal M/U_{\rm mer}$ is the quotient where the effective Einstein equation is expressed. The source $T^{(g)}$ must be obtained from the **entire** one-dimensional meridian fiber, including both arcs and possible pole/core contributions, by a covariant, action-compatible fiber reduction with a geometrically justified measure and tensor projection. A sum of contributions at the two points of $B_{\rm rep}$ is **not Law I**: it is only a distributionally leaf-supported special case. Einstein equations on the base impose constraints on the admissible middle-space configurations; equivalently their pullback imposes a horizontal constraint on $\mathcal M$, **not** independent five-dimensional Einstein equations. The full measure, singular-fiber rule, conservation identity and parent variational principle are **open**. Previously frozen text about source localization and two-point sourcing is superseded by this paragraph, the corrected Law I in Part III, and §XXIX.8; historical derivations remain conditional benchmarks where their premises apply. The observation that $\ell/G$ has a numerically suggestive relation to a galactic mass was an exploratory coincidence, **not** a premise that the closure mass is the Galaxy's baryonic mass. The author also prefers a *macroscopic middle-space* origin of $G$ (with the closure ratio as a target) and a separate Boltzmannian-compatibility origin of the effective quantum/Planck-area scale; the induced-gravity calculation remains a benchmark, not the preferred ontological explanation of $G$.
 
@@ -15894,7 +15898,7 @@ With $S = 1+iT$ this is $2\,{\rm Im}\,T^{(2)}_{ii} = \sum_f\lvert T^{(1)}_{fi}\r
 - *the Milky Way, seen from inside with the leaf's own light, fails on every scanned leaf and at the continuous optimum — as a cold-tracer proxy for the published estimator, which is not yet applied (§XXXIII.19) [v36.1, R323];*
 - *the SPARC galaxies, with the arena law, fail too.*
 
-*With the author's zoom labels as two free numbers per galaxy, the gnomonic premise improves the SPARC curves greatly; under the quoted errors one of the eight fits is acceptable, one borderline, and six are not (§XXXIII.17) [v36.1, R319]. The labels the fits need trend with mass, and must now come from a law. §XXXIII.11 locates each failure; §XXXIII.25 is the operative standing after v36.1, §XXXIII.32 its continuation after v36.2 (Entries 323–324: a stationary population on the leaf does not remove the dwarfs' required outer mass, and must be hot where it lacks circular support), §XXXIII.42 after v36.3 (the review and Entries 325–339: sources regular at the equator keep the plateau and admit crossing orbits; the isothermal law selects no cold disk; a transfer with a fixed scale is not a small deformation of a large leaf), §XXXIII.48 after v36.4 (the erratum; at fixed energy a concentrated isothermal state is stable but hot; the proposed clash invariant is blind to the departure it was built from), §XXXIII.54 after v36.5 (the kinematics erratum: library bounds are compatibility witnesses, not certificates; the clash sum detects the tilt but confines nothing), §XXXIII.59 after v36.6 (a minimal localization model from one action localizes but derives neither the thin–broad disk nor the profile; the localized tail's rates and aspect are the probe's kinetic metric's, an input; an observer-side receiver selects within a family of profiles the source fixes, unless the profile is written into it).*
+*With the author's zoom labels as two free numbers per galaxy, the gnomonic premise improves the SPARC curves greatly; under the quoted errors one of the eight fits is acceptable, one borderline, and six are not (§XXXIII.17) [v36.1, R319]. The labels the fits need trend with mass, and must now come from a law. §XXXIII.11 locates each failure; §XXXIII.25 is the operative standing after v36.1, §XXXIII.32 its continuation after v36.2 (Entries 323–324: a stationary population on the leaf does not remove the dwarfs' required outer mass, and must be hot where it lacks circular support), §XXXIII.42 after v36.3 (the review and Entries 325–339: sources regular at the equator keep the plateau and admit crossing orbits; the isothermal law selects no cold disk; a transfer with a fixed scale is not a small deformation of a large leaf), §XXXIII.48 after v36.4 (the erratum; at fixed energy a concentrated isothermal state is stable but hot; the proposed clash invariant is blind to the departure it was built from), §XXXIII.54 after v36.5 (the kinematics erratum: library bounds are compatibility witnesses, not certificates; the clash sum detects the tilt but confines nothing), §XXXIII.59 after v36.6 (a minimal localization model from one action localizes but derives neither the thin–broad disk nor the profile; the localized tail's rates and aspect are the probe's kinetic metric's, an input; an observer-side receiver selects within a family of profiles the source fixes, unless the profile is written into it), §XXXIII.65 after v36.7 (an exchange-even penalty smooth at the aligned vacuum confines the pinned tilt to a patch; the lowest-order smooth forms, with their pinning, bind nothing at v36.6's coupling; the sine keeps v36.6's three modes; no gapped penalty of the tilt, with a constant kinetic metric, lets a strictly bound mode follow the image).*
 
 *v36.1 (16 October 2026) is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§XXXIII.14): the plateau coefficient of an extended source (§XXXIII.15), the label condition corrected (§XXXIII.16), the pilot's statistics and its sources in error units (§XXXIII.17), the gas reconstruction's family (§XXXIII.18), the Milky Way comparison as a cold-tracer proxy with its leaf radius continuous (§XXXIII.19), the plateau's observable reach (§XXXIII.20), the orbit statements' domain (§XXXIII.21), the author's 8 kpc leaf (§XXXIII.22), Entry 322's shape family (§XXXIII.23), the current results (§XXXIII.24), the standing (§XXXIII.25) and the register (§XXXIII.26). The suite of §XXXIII.13 is extended to 18 checks.*
 
@@ -16425,16 +16429,16 @@ This answers the author's question of what the families of labels capture: given
 
   [reproducibility]
 
-## XXXIII.13 Executable appendix: `pg_v36_numerics.py`, embedded [reproducibility; v36.0–v36.6, R317, R331, R338, R348, R353, R359, R364]
+## XXXIII.13 Executable appendix: `pg_v36_numerics.py`, embedded [reproducibility; v36.0–v36.7, R317, R331, R338, R348, R353, R359, R364, R369]
 
-*The standalone suite (NumPy and SciPy only) that prints every computed number of Part XXXIII. Save the block as `pg_v36_numerics.py` and run `python3 -I pg_v36_numerics.py` (the regression suite of Part XXXIII, v36.0–v36.6: 37 checks; exit status 1 if any fails, in every mode; about twenty minutes, depending on the machine), one round with `python3 -I pg_v36_numerics.py v36_0`, `v36_1` (with the v36.0 computations it builds on), `v36_2`, `v36_3` (one to three minutes), `v36_4`, `v36_5` or `v36_6` (a few minutes each), or the checks that run in a few minutes with `quick` (23 checks, for a referee's time limit); an unknown mode prints the usage line and exits with status 2. It embeds its data: the two Milky Way tables, McMillan 2017's parameters and the eight SPARC galaxies' rows. The frozen suites remain `pg_v35_numerics.py` (Parts XXX–XXXII, §XXX.10) and `pg_v34_numerics.py` (Part XXIX, §XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v36`, `v36_0`, `v36_1`, `v36_2`, `v36_3`, `v36_4`, `v36_5`, `v36_6` and `quick` run it and whose `all` runs the frozen v34.10 and v35.8 suites and Part XXXIII together (224 checks). The figures come from `pg_v36_0_plots.py`, `pg_v36_1_plots.py`, `pg_v36_2_plots.py` and `pg_v36_3_plots.py`, which load this suite. SHA-256 of the file: `be8e59f715876dcaec4a028501f3b97c06610833407561899da2370937b749c6`.*
+*The standalone suite (NumPy and SciPy only) that prints every computed number of Part XXXIII. Save the block as `pg_v36_numerics.py` and run `python3 -I pg_v36_numerics.py` (the regression suite of Part XXXIII, v36.0–v36.7: 40 checks; exit status 1 if any fails, in every mode; about twenty-seven minutes, depending on the machine), one round with `python3 -I pg_v36_numerics.py v36_0`, `v36_1` (with the v36.0 computations it builds on), `v36_2`, `v36_3` (one to three minutes), `v36_4`, `v36_5`, `v36_6` (a few minutes each) or `v36_7` (about eight minutes), or the checks that run in a few minutes with `quick` (24 checks, for a referee's time limit); an unknown mode prints the usage line and exits with status 2. It embeds its data: the two Milky Way tables, McMillan 2017's parameters and the eight SPARC galaxies' rows. The frozen suites remain `pg_v35_numerics.py` (Parts XXX–XXXII, §XXX.10) and `pg_v34_numerics.py` (Part XXIX, §XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v36`, `v36_0`, `v36_1`, `v36_2`, `v36_3`, `v36_4`, `v36_5`, `v36_6`, `v36_7` and `quick` run it and whose `all` runs the frozen v34.10 and v35.8 suites and Part XXXIII together (227 checks). The figures come from `pg_v36_0_plots.py`, `pg_v36_1_plots.py`, `pg_v36_2_plots.py` and `pg_v36_3_plots.py`, which load this suite. SHA-256 of the file: `1336bcc63fabe18834c304eec06ab476acc94671b42024dd75b2cb79627fc74a`.*
 
 ```python
 """Projective Gravity v36 -- standalone numerical suite for Part XXXIII: the observed rotation curve (NumPy + SciPy only; Python 3.12/3.13
 tested).  Parts XXX-XXXII are frozen at v35.8 with their suite pg_v35_numerics.py; Part XXIX's frozen suite is pg_v34_numerics.py (v34.10).
 
 Run (from the directory holding this file):
-    python3 -I pg_v36_numerics.py              # current regression suite of Part XXXIII, v36.0-v36.6 (check summary; about twenty minutes)
+    python3 -I pg_v36_numerics.py              # current regression suite of Part XXXIII, v36.0-v36.7 (check summary; about twenty-seven minutes)
     python3 -I pg_v36_numerics.py v36_0        # the v36.0 sections only
     python3 -I pg_v36_numerics.py v36_1        # the v36.1 sections, with the v36.0 computations they build on
     python3 -I pg_v36_numerics.py v36_2        # the v36.2 sections only (Entries 323-324)
@@ -16442,6 +16446,7 @@ Run (from the directory holding this file):
     python3 -I pg_v36_numerics.py v36_4        # the v36.4 sections only (the v36.3 review and Entries 340-341; a few minutes)
     python3 -I pg_v36_numerics.py v36_5        # the v36.5 sections only (the two v36.4 reviews: the kinematics erratum, the clash and sector additions; a few minutes)
     python3 -I pg_v36_numerics.py v36_6        # the v36.6 sections only (the v36.5 review and the note of 19 October: one localization model; the receiver; a few minutes)
+    python3 -I pg_v36_numerics.py v36_7        # the v36.7 sections only (the v36.6 review and Entry 349: the penalties; the model with each; off the ansatz; about eight minutes)
     python3 -I pg_v36_numerics.py quick        # the checks that run in a few minutes (for a referee's time limit)
 Every mode exits with status 1 if any check fails.
 
@@ -16536,6 +16541,25 @@ two added incoherently); a uniform receiver selects one member of a two-paramete
 one imposes any transmission T(x) in [0, 1] -- any received profile up to the source's own -- written into the receiver.
 
 v36_6_quick(): v36_5_quick plus the v36.6 sections.
+
+v36_7_suite(): the review of v36.6, Entry 349 and the two responses on it.  The penalties of the admissibility geometry as functions of the full
+two-sector configuration, through S = (n_L + n_R)/2 and D = (n_L - n_R)/2: v36.6's scalar, with the review's cone at the aligned vacuum
+(alpha0^2/2 - (alpha0/2)|u_L - u_R| + O(u^2)), one point of a non-differentiable set that contains the whole coincidence set n_L = n_R; Entry 349's sine (|D| - sin alpha0)^2/2 --
+in the responses' reading sin theta = |n_L - n_R|/2 a function of n_L.n_R alone, blind to the normal, zero again at pi - alpha0, quartic in the
+twist -- and the response's 1 - cos(theta - alpha0), both conical at alignment in every exchange-even reading; the response's smooth form and the
+review's |n_L + n_R - 2 cos alpha0 k|^2 (polynomials in S, smooth, zero exactly on the family; these lowest-order forms have about a quarter of the
+gap at the same curvature, a smooth form with higher terms can have more); all blind to the fibre phases.  The localization model of v36.6-1 with
+each, the probe's potential alone and the pinning with it, at the same coupling and at the same gap: the cone penalties' tilt follows the column
+density, the smooth forms' (exchange-even, so flat at alignment) is confined to a patch where the matter is dense; the sine and 1 - cos keep
+v36.6's modes and, isotropically, its scales (at the same gap the probe-only sine binds more strongly, V_sin <= V_old; at the same coupling more
+weakly); with their pinning the lowest-order smooth forms lose the mode at the same coupling and regain one, weakly bound, at the same gap,
+while a smooth form with a quartic term and v36.6's gap binds two (smoothness forbids the tail-following, not localization); the exterior
+obstruction holds for every gapped penalty.  Off the ansatz: the mirror solution is a critical point of the full two-sector energy and, block by
+block, a stable one, with one zero mode (the rotation about k, sin alpha), gapless along the disk for v36.6's scalar, the sine and 1 - cos and
+gapped for the response's smooth form; a multi-start local search finds no lower state; from the sine's second zero the run stops at a wall held
+by the grid, and the wall held at R_w has an energy with one maximum and no minimum, so the second zero leaves no metastable state.
+
+v36_7_quick(): v36_6_quick plus v36.7's penalties.
 """
 import numpy as np
 PI = np.pi
@@ -20535,6 +20559,633 @@ def v36_6_suite():
 def v36_6_quick():
     """The checks that run in a few minutes: v36.5's quick set plus the two v36.6 sections."""
     v36_5_quick(); return v36_6_suite()
+# ==================================================================================================== v36.7 (20 October 2026): sections
+# The review of v36.6, Entry 349 and the two responses on it: the penalties of the admissibility geometry compared as functions of the full
+# two-sector configuration (the review's kink at the aligned vacuum; Entry 349's sine; the responses' sine-cosine and smooth forms; the review's
+# smooth form); the localization model of v36.6-1 rerun with each -- the probe's potential alone, and the pinning with it, at the same coupling and
+# at the same gap; and the mirror solution tested off its ansatz, in the full two-sector energy.
+def _v36_7_branch(name, a0=0.5, K=None):
+    """The penalty on the mirror branch n_{L,R} = cos theta k +- sin theta t, as (P, P', P'') of theta (v36.7, R366): 'FS' v36.6's admissibility scalar
+    (theta - a0)^2/2; 'sin' Entry 349's (sin theta - sin a0)^2/2; 'cs' the response's 1 - cos(theta - a0); 'geom' the response's smooth form
+    (sin^2 theta - sin^2 a0)^2/(8 sin^2 a0) + (cos theta - cos a0)^2/2; 'vec' the review's |n_L + n_R - 2 cos a0 k|^2 over 8 sin^2 a0 (unit curvature at
+    a0), (cos theta - cos a0)^2/(2 sin^2 a0); 'sin2' the sine made smooth, (sin^2 theta - sin^2 a0)^2/(8 sin^2 a0); 'vecK' the review's form plus
+    K (cos theta - cos a0)^4 (unit curvature at a0 for any K), K by default the value giving v36.6's gap a0^2/2 (v36.7-1(f)).  For 0 <= theta <= pi."""
+    s, c = np.sin(a0), np.cos(a0)
+    if name == 'FS': return (lambda a: 0.5*(a - a0)**2, lambda a: a - a0, lambda a: np.ones_like(np.asarray(a, float)))
+    if name == 'sin': return (lambda a: 0.5*(np.sin(a) - s)**2, lambda a: (np.sin(a) - s)*np.cos(a), lambda a: np.cos(2*a) + s*np.sin(a))
+    if name == 'cs': return (lambda a: 1 - np.cos(a - a0), lambda a: np.sin(a - a0), lambda a: np.cos(a - a0))
+    q = lambda a: np.sin(a)**2 - s**2
+    sq = (lambda a: q(a)**2/(8*s**2), lambda a: q(a)*np.sin(2*a)/(4*s**2), lambda a: (np.sin(2*a)**2 + 2*q(a)*np.cos(2*a))/(4*s**2))
+    cq = (lambda a: 0.5*(np.cos(a) - c)**2, lambda a: -(np.cos(a) - c)*np.sin(a), lambda a: np.sin(a)**2 - (np.cos(a) - c)*np.cos(a))
+    if name == 'sin2': return sq
+    if name == 'geom': return (lambda a: sq[0](a) + cq[0](a), lambda a: sq[1](a) + cq[1](a), lambda a: sq[2](a) + cq[2](a))
+    if name == 'vec': return (lambda a: cq[0](a)/s**2, lambda a: cq[1](a)/s**2, lambda a: cq[2](a)/s**2)
+    if name == 'vecK':
+        K = (a0**2/2 - (1 - c)**2/(2*s**2))/(1 - c)**4 if K is None else K; x = lambda a: np.cos(a) - c
+        return (lambda a: x(a)**2/(2*s**2) + K*x(a)**4, lambda a: -np.sin(a)*(x(a)/s**2 + 4*K*x(a)**3),
+                lambda a: -np.cos(a)*(x(a)/s**2 + 4*K*x(a)**3) + np.sin(a)**2*(1/s**2 + 12*K*x(a)**2))
+    raise ValueError(name)
+
+def _v36_7_C(name, nL, nR, a0=0.5, k=np.array([0, 0, 1.0])):
+    """The penalties as functions of the full two-sector configuration, through S = (n_L + n_R)/2 and D = (n_L - n_R)/2 (|S|^2 + |D|^2 = 1 and S.D = 0
+    for unit vectors; on the branch S = cos theta k and |D| = sin theta): 'FS' v36.6's minimization (_v36_adm_C); 'sin' (|D| - sin a0)^2/2, Entry 349's
+    sine read through sin theta = |n_L - n_R|/2; 'cs' (|D| - sin a0)^2/2 + (S.k - cos a0)^2/2, the response's sine and cosine components read through
+    |D| and S.k; 'geom' (|D|^2 - sin^2 a0)^2/(8 sin^2 a0) + |S - cos a0 k|^2/2; 'vec' |S - cos a0 k|^2/(2 sin^2 a0); 'sin2' (|D|^2 - sin^2 a0)^2/(8 sin^2 a0)."""
+    if name == 'FS': return _v36_adm_C(nL, nR, a0, k)
+    s, c = np.sin(a0), np.cos(a0); S = (nL + nR)/2; D = (nL - nR)/2; dn = float(np.linalg.norm(D))
+    if name == 'sin': return 0.5*(dn - s)**2
+    if name == 'cs': return 0.5*(dn - s)**2 + 0.5*(float(S @ k) - c)**2
+    if name == 'geom': return (dn**2 - s**2)**2/(8*s**2) + 0.5*float(np.sum((S - c*k)**2))
+    if name == 'vec': return float(np.sum((S - c*k)**2))/(2*s**2)
+    if name == 'sin2': return (dn**2 - s**2)**2/(8*s**2)
+    raise ValueError(name)
+
+def _v36_7_alpha(G, pen, rho, ks=1.0, lam=500.0, mu=25.0, a0=0.5, tol=1e-11):
+    """The mirror pair's tilt minimizing (ks/2) a.K a + sum M [lam rho P(a) + mu (1 - cos a)] for the branch penalty pen = (P, P', P'') -- v36.6's
+    _v36_loc_alpha for any penalty: Newton on the exact gradient, the Hessian shifted by tau M where it is not positive, so that every step descends,
+    and a backtracking line search.  Returns (alpha, the scaled residual, the energy)."""
+    import scipy.sparse as sp
+    from scipy.sparse.linalg import spsolve
+    P, dP, d2P = pen; K = G['KR'] + G['Kz']; M = G['M']; r = rho(G['RR'], G['ZZ']).ravel()
+    E = lambda a: 0.5*ks*a @ (K @ a) + np.sum(M*(lam*r*P(a) + mu*(1 - np.cos(a))))
+    grad = lambda a: ks*(K @ a) + M*(lam*r*dP(a) + mu*np.sin(a))
+    a = a0*lam*r/(lam*r + mu); res = np.inf
+    for it in range(200):
+        g_ = grad(a); dg = M*(lam*r*d2P(a) + mu*np.cos(a)); tau = 0.0
+        while True:
+            da = spsolve((ks*K + sp.diags(dg + tau*M)).tocsc(), -g_)
+            if g_ @ da < 0: break
+            tau = max(2*tau, 1.0)
+        st = 1.0; e0 = E(a)
+        while st > 1e-8 and E(a + st*da) > e0 + 1e-4*st*(g_ @ da): st *= 0.5
+        a = a + st*da; res = float(np.linalg.norm(grad(a)/M)/np.sqrt(G['N']))
+        if res < tol: break
+    return a.reshape(G['NR'], G['NZ']), res, float(E(a))
+
+def _v36_7_u23(name, al, a0=0.5):
+    """The penalty's second derivatives (per unit lam rho) along the blocks 2 and 3 of _v36_7_blocks at the mirror solution's tilt al (v36.7, R368)."""
+    s, c = np.sin(a0), np.cos(a0); one = np.ones_like(al)
+    if name == 'FS':
+        d = a0 - al; ok = np.abs(d) > 1e-8; return one, np.where(ok, d/np.tan(np.where(ok, d, 1.0)), 1.0)
+    if name == 'sin': return 0*al, (s - np.sin(al))*np.sin(al)
+    if name == 'sin2': return 0*al, np.sin(al)**2*(s**2 - np.sin(al)**2)/(2*s**2)
+    if name == 'cs': return -(np.cos(al) - c)*np.cos(al), (s - np.sin(al))*np.sin(al) - (np.cos(al) - c)*np.cos(al)
+    if name == 'geom': return c*np.cos(al), 1 - (np.cos(al) - c)*np.cos(al) + (s**2 - np.sin(al)**2)*np.sin(al)**2/(2*s**2)
+    if name == 'vec': return c*np.cos(al)/s**2, (1 - (np.cos(al) - c)*np.cos(al))/s**2
+    raise ValueError(name)
+
+def _v36_7_blocks(G, A, name, rho, ks=1.0, lam=500.0, mu=25.0, a0=0.5, odd=False):
+    """The second variation of the full two-sector energy at the mirror solution A (v36.7, R368).  The energy is (ks/4) times, for each sector, the sum
+    over faces of w d(n_i, n_j)^2 (d the geodesic angle; an outer face to the ghost value k), plus sum M [lam rho P(n_L, n_R) + mu (1 - S.k)]; on the
+    ansatz it is v36.6's discrete energy, so A is its critical point within the ansatz, and -- the y-reflection and the exchange composed with the
+    x-reflection fixing the ansatz -- in the whole configuration space (symmetric criticality).  In exponential coordinates at A, with the in-plane
+    tangents e_theta and e_y = k x t, the second variation splits into four scalar blocks: 1 the tilt (a_L = a_R), 2 the bisector's tilt in the k-t
+    plane (a_L = -a_R), 3 its tilt across that plane (b_L = b_R), 4 the rotation about k (b_L = -b_R).  Blocks 1, 2 carry v36.6's stiffness ks K, blocks
+    3, 4 the face weights w D/sin D off the diagonal and sum w (D/sin D) cos D + w_b alpha cot alpha on it (D = alpha_i - alpha_j); the potentials are
+    U = lam rho u + mu cos alpha with u_1 = P''(alpha), u_4 = P'(alpha) cot alpha and u_2, u_3 from _v36_7_u23.  Returns ([ks K_x + diag(M U)] for the
+    four blocks, with the plane's Dirichlet face for the sector odd in z, and the four potentials)."""
+    import scipy.sparse as sp
+    K = (G['KR'] + G['Kz']).tocoo(); a = A.ravel(); N = G['N']; M = G['M']
+    off = K.row != K.col; r_, c_, w = K.row[off], K.col[off], -K.data[off]
+    wsum = np.zeros(N); np.add.at(wsum, r_, w); wb = np.asarray((G['KR'] + G['Kz']).diagonal()) - wsum
+    phi = lambda x: np.where(np.abs(x) > 1e-6, x/np.sin(np.where(np.abs(x) > 1e-6, x, 1.0)), 1 + x**2/6)
+    Dl = a[r_] - a[c_]; db = np.zeros(N); np.add.at(db, r_, w*phi(Dl)*np.cos(Dl)); db = db + wb*phi(a)*np.cos(a)
+    Kb = sp.csr_matrix((-w*phi(Dl), (r_, c_)), shape=(N, N)) + sp.diags(db); Ka = (G['KR'] + G['Kz']).tocsr()
+    P, dP, d2P = _v36_7_branch(name, a0); r = rho(G['RR'], G['ZZ']).ravel(); u2, u3 = _v36_7_u23(name, a, a0)
+    asafe = np.where(np.abs(a) > 1e-150, a, 1e-150)
+    U = [lam*r*d2P(a) + mu*np.cos(a), lam*r*u2 + mu*np.cos(a), lam*r*u3 + mu*np.cos(a), lam*r*dP(a)/np.tan(asafe) + mu*np.cos(a)]
+    extra = np.zeros(N)
+    if odd:
+        dRs = G['dRs'] if 'dRs' in G else np.full(G['NR'], G['dR']); x0 = np.zeros((G['NR'], G['NZ'])); x0[:, 0] = G['Rc']*dRs/G['zc'][0]; extra = ks*x0.ravel()
+    H = [ks*Ka + sp.diags(M*U[0] + extra), ks*Ka + sp.diags(M*U[1] + extra), ks*Kb + sp.diags(M*U[2] + extra), ks*Kb + sp.diags(M*U[3] + extra)]
+    return H, U
+
+def _v36_7_inertia(H, M, sigma):
+    """The number of eigenvalues of H x = lam M x below sigma, by Sylvester's law of inertia (the negative pivots of a symmetric factorization of H - sigma M)."""
+    import scipy.sparse as sp
+    from scipy.sparse.linalg import splu
+    lu = splu((H - sigma*sp.diags(M)).tocsc(), permc_spec='MMD_AT_PLUS_A', diag_pivot_thresh=0.0, options=dict(SymmetricMode=True))
+    assert np.array_equal(lu.perm_r, lu.perm_c), "a non-symmetric pivot: the inertia is not read off"
+    return int(np.sum(lu.U.diagonal() < 0))
+
+def _v36_7_full(Gd, name, rho, ks=1.0, lam=500.0, mu=25.0, a0=0.5):
+    """The full two-sector energy on the grid Gd as a function of unnormalized vectors (n = v/|v|), with its exact gradient, for a multi-start local
+    search (v36.7, R368): the geodesic stiffness of both sectors, lam rho P(n_L, n_R) with P 'FS' (the minimization over beta done per cell: a 36-point
+    search refined by six Newton steps on central differences), 'sin' or 'geom', and the aligned vacuum mu (1 - S.k); the outer faces to the ghost k."""
+    K = (Gd['KR'] + Gd['Kz']).tocoo(); N = Gd['N']; M = Gd['M']; r = rho(Gd['RR'], Gd['ZZ']).ravel()
+    up = K.row < K.col; ei, ej, ew = K.row[up], K.col[up], -K.data[up]
+    wsum = np.zeros(N); np.add.at(wsum, ei, ew); np.add.at(wsum, ej, ew); wb = np.asarray((Gd['KR'] + Gd['Kz']).diagonal()) - wsum
+    s, c = np.sin(a0), np.cos(a0); kk = np.array([0, 0, 1.0])
+    def gac(x):
+        x = np.clip(x, -1 + 1e-15, 1.0); y = np.sqrt(np.maximum(1 - x**2, 0.0)); return np.where(y > 1e-7, np.arccos(x)/np.where(y > 1e-7, y, 1.0), 1.0 + (1 - x)/3)
+    def stiff(n):
+        x = np.einsum('ij,ij->i', n[ei], n[ej]); xb = n[:, 2]
+        E = np.sum(ew*np.arccos(np.clip(x, -1, 1))**2) + np.sum(wb*np.arccos(np.clip(xb, -1, 1))**2)
+        gx = -2*ew*gac(x); gn = np.zeros_like(n); np.add.at(gn, ei, gx[:, None]*n[ej]); np.add.at(gn, ej, gx[:, None]*n[ei]); gn[:, 2] += -2*wb*gac(xb)
+        return E, gn
+    def pen(nL, nR):
+        S = (nL + nR)/2; D = (nL - nR)/2; dn = np.linalg.norm(D, axis=1)
+        if name == 'geom':
+            q = dn**2 - s**2; return q**2/(8*s**2) + 0.5*np.sum((S - c*kk)**2, axis=1), 0.5*((S - c*kk) + (q/(2*s**2))[:, None]*D), 0.5*((S - c*kk) - (q/(2*s**2))[:, None]*D)
+        if name == 'sin':
+            gD = ((dn - s)/np.where(dn > 1e-14, dn, 1.0))[:, None]*D; return 0.5*(dn - s)**2, 0.5*gD, -0.5*gD
+        def f(b):
+            aL = np.stack([s*np.cos(b), s*np.sin(b), c*np.ones_like(b)], -1); aR = np.stack([-s*np.cos(b), -s*np.sin(b), c*np.ones_like(b)], -1)
+            return 0.25*(np.arccos(np.clip(np.sum(nL*aL, -1), -1, 1))**2 + np.arccos(np.clip(np.sum(nR*aR, -1), -1, 1))**2)
+        bs = np.linspace(0, 2*PI, 36, endpoint=False); b = bs[np.argmin(np.stack([f(np.full(len(nL), b_)) for b_ in bs], 1), 1)]; ep = 1e-4
+        for _ in range(6):
+            fp, f0, fm = f(b + ep), f(b), f(b - ep); d1 = (fp - fm)/(2*ep); d2 = (fp - 2*f0 + fm)/ep**2
+            b = b + np.clip(np.where(d2 > 1e-12, -d1/np.where(d2 > 1e-12, d2, 1.0), -np.sign(d1)*0.05), -0.1, 0.1)
+        aL = np.stack([s*np.cos(b), s*np.sin(b), c*np.ones_like(b)], -1); aR = np.stack([-s*np.cos(b), -s*np.sin(b), c*np.ones_like(b)], -1)
+        return f(b), -0.5*gac(np.sum(nL*aL, -1))[:, None]*aL, -0.5*gac(np.sum(nR*aR, -1))[:, None]*aR
+    def energy(x):
+        v = x.reshape(2, N, 3); nv = np.linalg.norm(v, axis=2); n = v/nv[..., None]
+        EL, gL = stiff(n[0]); ER, gR = stiff(n[1]); C, cL, cR = pen(n[0], n[1]); S = (n[0] + n[1])/2
+        E = ks/4*(EL + ER) + np.sum(M*(lam*r*C + mu*(1 - S[:, 2])))
+        gnL = ks/4*gL + (M*lam*r)[:, None]*cL; gnR = ks/4*gR + (M*lam*r)[:, None]*cR; gnL[:, 2] -= M*mu/2; gnR[:, 2] -= M*mu/2
+        gn = np.stack([gnL, gnR]); gv = (gn - np.sum(gn*n, axis=2)[..., None]*n)/nv[..., None]
+        return float(E), gv.ravel()
+    return energy
+
+def _v36_7_wall(G, A, Rw, rho, ks=1.0, lam=500.0, mu=25.0, a0=0.5, maxit=60, tol=1e-11):
+    """The sine's wall held at R_w, in the mirror subspace (v36.7, R368): there the full two-sector energy is that of a signed tilt theta,
+    (ks/2) theta.K theta + sum M [lam rho (|sin theta| - sin a0)^2/2 + mu (1 - cos theta)], even in theta, with the mirror state theta = A and its
+    exchange theta = -A (the rotation by pi about k); the wall is held by theta <= 0 for R < R_w and theta >= 0 outside.  In phi = sign(R - R_w) theta >= 0
+    the energy is smooth, with the stiffness K conjugated by the signs; projected Newton from phi = A (the active set: phi = 0 with a positive gradient),
+    with an Armijo search along the projection.  Returns (W, the energy above the mirror state; the scaled projected-gradient residual; the cells at 0).
+    The caller holds the residual to 1e-6: where the active set changes slowly the iteration can stop at maxit above tol (at R_w = 0.2 on the finer grid
+    of v36.7-3(d), near 5e-8)."""
+    import scipy.sparse as sp
+    from scipy.sparse.linalg import spsolve
+    s = np.sin(a0); K = (G['KR'] + G['Kz']).tocsr(); M = G['M']; r = rho(G['RR'], G['ZZ']).ravel(); a = A.ravel()
+    def parts(Kx):
+        E = lambda p: float(np.sum(0.5*ks*p*(Kx @ p) + M*(lam*r*0.5*(np.sin(p) - s)**2 + mu*(1 - np.cos(p)))))
+        gr = lambda p: ks*(Kx @ p) + M*(lam*r*(np.sin(p) - s)*np.cos(p) + mu*np.sin(p))
+        return E, gr
+    Em = parts(K)[0](a); sg = np.where(G['RR'].ravel() < Rw, -1.0, 1.0); Kp = (sp.diags(sg) @ K @ sp.diags(sg)).tocsr(); E, gr = parts(Kp)
+    hd2 = lambda p: M*(lam*r*(np.cos(2*p) + s*np.sin(p)) + mu*np.cos(p))
+    p = a.copy(); res = np.inf
+    for it in range(maxit):
+        g = gr(p); res = float(np.linalg.norm(p - np.maximum(p - g/M, 0.0))/np.sqrt(G['N']))
+        if res < tol: break
+        act = (p <= 1e-14) & (g > 0); fr = ~act; d = np.zeros_like(p)
+        d[fr] = spsolve((ks*Kp + sp.diags(hd2(p))).tocsr()[fr][:, fr].tocsc(), -g[fr])
+        if np.sum(g*d) >= 0: d = -np.where(act, 0.0, g/M)
+        t = 1.0; e0 = E(p)
+        while t > 1e-12:
+            q = np.maximum(p + t*d, 0.0)
+            if E(q) <= e0 + 1e-4*float(np.sum(g*(q - p))): break
+            t *= 0.5
+        p = q
+    g = gr(p); res = float(np.linalg.norm(p - np.maximum(p - g/M, 0.0))/np.sqrt(G['N']))
+    return E(p) - Em, res, int(np.sum(p <= 0.0))
+
+def v36_7_penalties():
+    print("\n== v36.7-1. The penalties of the admissibility geometry, as functions of the full two-sector configuration (the v36.6 review; Entry 349; R366) ==")
+    print("   The review of v36.6 notes that v36.6's admissibility scalar, smooth on the mirror branch, is not smooth at the aligned vacuum, and proposes the smooth")
+    print("   |n_L + n_R - 2 cos alpha0 k|^2; Entry 349 proposes the sine, (sin theta - sin alpha0)^2/2 in place of (theta - alpha0)^2/2; the responses add")
+    print("   1 - cos(theta - alpha0), a smooth form, and the same sine in the probe's potential alone.  Here each is written on the full configuration (n_L, n_R)")
+    print("   and compared: its zeros, its curvature at the admitted tilt, its value at the aligned vacuum (the gap per unit coupling), its smoothness there,")
+    print("   what it sees off the branch.")
+    a0 = 0.5; s, c = np.sin(a0), np.cos(a0); k = np.array([0, 0, 1.0]); t = lambda b: np.array([np.cos(b), np.sin(b), 0.0])
+    br = lambda th, b=0.3: (np.cos(th)*k + np.sin(th)*t(b), np.cos(th)*k - np.sin(th)*t(b))
+    Ry = lambda v, a: np.array([np.cos(a)*v[0] + np.sin(a)*v[2], v[1], -np.sin(a)*v[0] + np.cos(a)*v[2]]); Rz = lambda v, a: np.array([np.cos(a)*v[0] - np.sin(a)*v[1], np.sin(a)*v[0] + np.cos(a)*v[1], v[2]])
+    names = ('FS', 'sin', 'cs', 'geom', 'vec', 'sin2'); out = {}
+    rg = np.random.default_rng(367); gen = [v/np.linalg.norm(v) for v in rg.normal(size=(8, 3))]
+    e_id = max(max(abs(np.sum(((a + b)/2)**2) + np.sum(((a - b)/2)**2) - 1), abs(((a + b)/2) @ ((a - b)/2))) for a, b in zip(gen[::2], gen[1::2]))
+    ths = np.linspace(0, PI, 61); tt = np.linspace(0, PI, 200001)
+    for nm in names:
+        P, dP, d2P = _v36_7_branch(nm, a0); e_br = max(abs(_v36_7_C(nm, *br(th), a0) - P(th)) for th in ths)
+        pv = P(tt); zeros = [float(x) for x in tt[1:-1][(pv[1:-1] < 1e-10) & (pv[1:-1] <= pv[:-2]) & (pv[1:-1] <= pv[2:])]]
+        nL, nR = br(a0, 0.0); tw = [_v36_7_C(nm, Rz(nL, e), nR, a0) for e in (0.1, 0.05)]
+        out[nm] = dict(e_br=e_br, curv=float(d2P(np.array([a0]))[0]), P0=float(P(np.array([0.0]))[0]), slope0=float(np.round(dP(np.array([0.0]))[0], 12)) + 0.0, zeros=zeros, pmax=float(pv.max()),
+                       tilt=_v36_7_C(nm, Ry(nL, 0.7), Ry(nR, 0.7), a0), twist=tw, ident=_v36_7_C(nm, nL, nL, a0),
+                       ex=max(abs(_v36_7_C(nm, a, b, a0) - _v36_7_C(nm, b, a, a0)) for a, b in zip(gen[::2], gen[1::2])),
+                       rotk=max(abs(_v36_7_C(nm, a, b, a0) - _v36_7_C(nm, Rz(a, 1.1), Rz(b, 1.1), a0)) for a, b in zip(gen[::2], gen[1::2])),
+                       roty=max(abs(_v36_7_C(nm, a, b, a0) - _v36_7_C(nm, Ry(a, 0.6), Ry(b, 0.6), a0)) for a, b in zip(gen[::2], gen[1::2])),
+                       fam=max(abs(_v36_7_C(nm, *br(a0, b), a0)) for b in np.linspace(0, 6, 7)))
+    kink = [(v, _v36_7_C('FS', np.cos(v)*k + np.sin(v)*t(1.0), np.cos(v)*k - np.sin(v)*t(1.0), a0), 0.5*(a0 - v)**2) for v in (1e-2, 1e-3, 1e-4)]
+    gk = []
+    for _ in range(3):
+        uL, uR = rg.normal(size=2)*1e-3, rg.normal(size=2)*1e-3; nL = np.array([uL[0], uL[1], 1.0]); nR = np.array([uR[0], uR[1], 1.0]); nL /= np.linalg.norm(nL); nR /= np.linalg.norm(nR)
+        gk.append((_v36_7_C('FS', nL, nR, a0) - (a0**2/2 - a0/2*np.linalg.norm(uL - uR)))/max(np.sum(uL**2), np.sum(uR**2)))
+    # the cone on the whole coincidence set n_L = n_R = n: one-sided slopes along the antisymmetric displacement (n_L, n_R) = (exp_n(eps e), exp_n(-eps e))
+    def expn(n0, xi):
+        th_ = np.linalg.norm(xi); return n0 if th_ == 0 else np.cos(th_)*n0 + np.sin(th_)*xi/th_
+    coin = []
+    for pol, az in ((0.0, 0.0), (0.3, 0.4), (0.8, 1.1), (1.6, 2.0), (2.6, -0.7)):
+        n0 = np.array([np.sin(pol)*np.cos(az), np.sin(pol)*np.sin(az), np.cos(pol)]); e = np.cross(n0, np.array([0.3, -0.5, 0.8])); e /= np.linalg.norm(e); ep = 1e-6; f0 = _v36_7_C('FS', n0, n0, a0)
+        sl = [(_v36_7_C('FS', expn(n0, sg_*ep*e), expn(n0, -sg_*ep*e), a0) - f0)/ep for sg_ in (1, -1)]
+        sy = [(_v36_7_C('FS', expn(n0, sg_*ep*e), expn(n0, sg_*ep*e), a0) - f0)/ep for sg_ in (1, -1)]
+        coin.append((pol, sl, sy))
+    # spinors: a Bloch direction is blind to the state's phase and to its sign (the Hopf map descends to RP^3, R351)
+    sx, sy, sz = np.array([[0, 1], [1, 0]]), np.array([[0, -1j], [1j, 0]]), np.array([[1, 0], [0, -1]])
+    bloch = lambda p: np.real(np.array([np.conj(p) @ sm @ p for sm in (sx, sy, sz)]))/np.real(np.conj(p) @ p)
+    ps = [rg.normal(size=2) + 1j*rg.normal(size=2) for _ in range(2)]
+    e_ph = max(abs(_v36_7_C(nm, bloch(ps[0]), bloch(ps[1]), a0) - _v36_7_C(nm, bloch(np.exp(0.7j)*ps[0]), bloch(-np.exp(-1.9j)*ps[1]), a0)) for nm in names)
+    # the sine read through sqrt(1 - (S.k)^2); the third reading of 1 - cos, (|D| - s)^2/2 + |S - c k|^2/2 (its slope at alignment and its twist)
+    def sk_read(nL, nR):
+        S_ = (nL + nR)/2; return 0.5*(np.sqrt(max(1 - float(S_ @ k)**2, 0.0)) - s)**2
+    def third(nL, nR):
+        S_ = (nL + nR)/2; D_ = (nL - nR)/2; return 0.5*(float(np.linalg.norm(D_)) - s)**2 + 0.5*float(np.sum((S_ - c*k)**2))
+    nL0, nR0 = br(a0, 0.0); tilt_sk = sk_read(Ry(nL0, 0.7), Ry(nR0, 0.7)); sl3 = (third(*br(1e-7)) - third(*br(0.0)))/1e-7; tw3 = [third(Rz(nL0, e), nR0) for e in (0.1, 0.05)]
+    # smoothness fixes only the slope: the review's form plus K (S.k - c)^4 on the branch
+    PK = lambda th, K: (np.cos(th) - c)**2/(2*s**2) + K*(np.cos(th) - c)**4; hh_ = 1e-4; curvK = (PK(a0 + hh_, 300.0) - 2*PK(a0, 300.0) + PK(a0 - hh_, 300.0))/hh_**2
+    Kstar = (a0**2/2 - (1 - c)**2/(2*s**2))/(1 - c)**4
+    d = out
+    print(f"   (a) The two-sector algebra [T].  With S = (n_L + n_R)/2 and D = (n_L - n_R)/2, |S|^2 + |D|^2 = 1 and S.D = 0 for unit vectors (generic pairs: {e_id:.0e}); on the mirror")
+    print("     branch n_{L,R} = cos theta k +- sin theta t, S = cos theta k and |D| = sin theta = |n_L - n_R|/2, so sin^2 theta = (1 - n_L.n_R)/2.  The admitted family is exactly")
+    print("     S = cos alpha0 k (then |D| = sin alpha0 and D is perpendicular to k).  Every penalty below is a pointwise function of the two Bloch directions: blind to the")
+    print(f"     sectors' U(1) fibre phases and to the sign of each spinor (random spinors with phases and signs changed: {e_ph:.0e}), so defined on the gravitational quotient wherever")
+    print("     the two direction fields are -- and the Hopf maps themselves descend to RP^3 (h(-q) = h(q), R351).  What remains is smoothness at the aligned vacuum.")
+    print(f"   (b) The review's kink [T/V].  At the aligned configuration n_L = n_R = k every member of the admitted circle is equally near, and v36.6's scalar has a cone there:")
+    print("     on the mirror branch, for any azimuth, it is exactly (alpha0 - |v|)^2/2 = alpha0^2/2 - alpha0 |v| + |v|^2/2 with |v| the tilt (" + ", ".join(f"|v| = {v:g}: {cv:.10f} = {cf:.10f}" for v, cv, cf in kink) + "),")
+    print(f"     and for small displacements u_L, u_R of the two sectors from k it is alpha0^2/2 - (alpha0/2) |u_L - u_R| + O(u^2) (the remainder over |u|^2: {', '.join(f'{x:.2f}' for x in gk)}) --")
+    print("     not differentiable where the relative displacement vanishes.  The aligned vacuum is one point of a larger set where the scalar is not differentiable: the pairs")
+    print("     with two equally near members of the admitted circle, which contains the whole coincidence set n_L = n_R = n (there the two assignments of the pair tie,")
+    print("     a_R(beta) = a_L(beta + pi)).  At a coincident pair the scalar is the smaller of two smooth branches that the sign of an antisymmetric displacement (exp_n(eps e),")
+    print("     exp_n(-eps e)) exchanges, so its one-sided slopes are equal, -|g.e| for some vector g: negative in every direction but one (at k, -alpha0 in every direction).  Along")
+    print("     the suite's direction e they are " + ", ".join(f"{sl[0]:+.3f} and {sl[1]:+.3f} at polar angle {pol:g}" for pol, sl, _ in coin) + "; the common displacement")
+    print(f"     is smooth (one-sided slopes opposite: largest mismatch {max(abs(sy[0] + sy[1]) for _, _, sy in coin):.0e}).  v36.6's solution never meets the cone (0 < alpha everywhere the matter is), but a field")
+    print("     theory of the full configuration does, wherever the two sectors pass through each other.")
+    print("   (c) The penalties on the branch [T/V] (curvature at alpha0; value at the aligned vacuum theta = 0, the gap per unit g; slope there; zeros in [0, pi]; maximum):")
+    lab = dict(FS="v36.6's scalar (theta - alpha0)^2/2", sin="Entry 349's (sin theta - sin alpha0)^2/2", cs="the response's 1 - cos(theta - alpha0)", geom="the response's smooth form", vec="the review's |n_L + n_R - 2c k|^2/(8 s^2)", sin2="the sine made smooth, (sin^2 theta - s^2)^2/(8 s^2)")
+    for nm in names:
+        x = d[nm]; print(f"       {lab[nm]:52s}: curvature {x['curv']:.6f}; at theta = 0 {x['P0']:.6f}; slope {x['slope0']:+.4f}; zeros " + ", ".join(f"{z:.4f}" for z in x['zeros']) + f"; maximum {x['pmax']:.4f}")
+    print(f"     (s = sin alpha0, c = cos alpha0; alpha0 = {a0}; on the branch each full-configuration form of (d)-(f) equals its branch formula to {max(d[nm]['e_br'] for nm in names):.0e}.)")
+    print(f"   (d) Entry 349's sine [T/V].  On the branch: zero at alpha0 and also at pi - alpha0 = {PI - a0:.4f} (sin is not one-to-one on [0, pi]), a maximum {d['sin']['pmax']:.4f} at pi/2 between them,")
+    print(f"     curvature cos^2 alpha0 = {c**2:.6f} at alpha0 (the pinning {1 - c**2:.0%} softer at the same coupling) and the gap sin^2 alpha0/2 = {s**2/2:.6f} per unit g ({s**2/a0**2:.1%} of v36.6's alpha0^2/2).")
+    print("     Off the branch, in the responses' reading sin theta = |n_L - n_R|/2 (the relative invariant |D|), the sine penalty (|D| - sin alpha0)^2/2 depends on n_L.n_R alone: it is")
+    print(f"     invariant under every common rotation (about k: {d['sin']['rotk']:.0e}; about e_y: {d['sin']['roty']:.0e}), and it vanishes on every pair at relative angle 2 alpha0 -- the admitted pair tilted as a whole")
+    print(f"     by 0.7 gives {d['sin']['tilt']:.1e} (v36.6's scalar {d['FS']['tilt']:.3f}): it encodes the relative angle, not the normal, which must then come from another term.  (Read instead through")
+    print(f"     sqrt(1 - (S.k)^2), also sin theta on the branch, it sees the normal -- its zero set is |S.k| = cos alpha0, S.k = -cos alpha0 the second zero again, and the tilted pair")
+    print(f"     gives {tilt_sk:.3f}.)  In either reading it has v36.6's cone at")
+    print(f"     alignment (|D| is not smooth at D = 0; slope {d['sin']['slope0']:+.4f}), so it does not cure the review's kink; and an azimuthal turn of one sector by eps at the admitted pair costs it only")
+    print(f"     O(eps^4) ({d['sin']['twist'][0]:.2e} and {d['sin']['twist'][1]:.2e} at eps = 0.1, 0.05; ratio {d['sin']['twist'][0]/d['sin']['twist'][1]:.1f}), against O(eps^2) for v36.6's scalar ({d['FS']['twist'][0]/d['FS']['twist'][1]:.1f}).  Made smooth -- sin^2 theta = (1 - n_L.n_R)/2 is a")
+    print("     polynomial -- it becomes (sin^2 theta - sin^2 alpha0)^2/(8 sin^2 alpha0) = (n_L.n_R - cos 2 alpha0)^2/(32 sin^2 alpha0): the same zeros and curvature, still blind to the normal.")
+    print(f"   (e) The response's 1 - cos(theta - alpha0) [T/V]: on the branch a unique zero, unit curvature, the gap 1 - cos alpha0 = {1 - c:.6f}, bounded by 2; its sine and cosine parts read")
+    print(f"     through |D| and S.k give (|D| - s)^2/2 + (S.k - c)^2/2, which vanishes exactly on the family but keeps the cone at alignment (slope {d['cs']['slope0']:+.4f}) and the O(eps^4) twist")
+    print(f"     ({d['cs']['twist'][0]/d['cs']['twist'][1]:.1f}); read through the relative angle alone, 1 - c|S| - s|D|, it is again blind to the normal.  The cone is not a matter of the reading: on the")
+    print("     branch the exchange reverses the signed tilt, and the branch functions of the sine and of 1 - cos(theta - alpha0) have the slope -sin alpha0 at alignment, so every")
+    print("     exchange-even reading of either has the one-sided slopes -sin alpha0 both ways there -- conical in every such reading.  A third reading, (|D| - s)^2/2 + |S - c k|^2/2,")
+    print(f"     is conical too (slope {sl3:+.4f}) but quadratic in the twist ({tw3[0]/tw3[1]:.1f}): the twist order and the blindness to the normal depend on the reading, the cone does not.")
+    print("     The response's caveat, that the unsigned separation needs care at alignment, holds in every reading.")
+    print(f"   (f) The smooth forms [T/V].  The review's |n_L + n_R - 2 cos alpha0 k|^2 = 4 |S - cos alpha0 k|^2 and the response's (|D|^2 - s^2)^2/(8 s^2) + |S - c k|^2/2 (with |D|^2 =")
+    print("     1 - |S|^2) are polynomials in the components of S, its direction entering through S - c k (the cone forms are functions of S too, through |D| = sqrt(1 - |S|^2),")
+    print("     but not smooth ones): smooth everywhere, exchange-even (" + f"{max(d['geom']['ex'], d['vec']['ex']):.0e}" + "), invariant under the rotation about k")
+    print(f"     ({max(d['geom']['rotk'], d['vec']['rotk']):.0e}) and not under other rotations (the tilted pair: {d['geom']['tilt']:.3f}, {d['vec']['tilt']:.3f}), zero exactly on the family ({max(d['geom']['fam'], d['vec']['fam']):.0e}; S = c k forces it), quadratic in the twist")
+    print(f"     ({d['geom']['twist'][0]/d['geom']['twist'][1]:.1f}, {d['vec']['twist'][0]/d['vec']['twist'][1]:.1f}).  Normalized to unit curvature at alpha0, both are flat at the aligned vacuum (slope 0), which is a critical point of each, and their")
+    print(f"     gap per unit g is {d['geom']['P0']:.6f} and (1 - c)^2/(2 s^2) = tan^2(alpha0/2)/2 = {d['vec']['P0']:.6f}: {d['geom']['P0']/d['FS']['P0']:.0%} and {d['vec']['P0']/d['FS']['P0']:.0%} of v36.6's.  For these lowest-order forms")
+    print("     (quadratic in S) the gap is about alpha0^2/8 for small alpha0, a quarter of the cone's alpha0^2/2, which the cone buys with its slope.  Smoothness itself fixes only the")
+    print(f"     slope: the review's form plus K (S.k - c)^4 -- still a polynomial, with the same zero set and unit curvature at alpha0 ({curvK:.6f} at K = 300) -- has the gap")
+    print(f"     {d['vec']['P0']:.6f} + {(1 - c)**4:.3e} K, v36.6's {d['FS']['P0']:.3f} at K = {Kstar:.1f}.  What smoothness forces is the zero slope at alignment, and with it (v36.7-2) the patch.  The smooth")
+    print("     forms complete the review's first task (a globally defined incompatibility energy, the aligned vacuum included); whether localization survives them is v36.7-2.")
+    check(e_id < 1e-12 and e_ph < 1e-12 and all(d[nm]['e_br'] < 1e-12 for nm in names) and all(d[nm]['ex'] < 1e-12 and d[nm]['rotk'] < 1e-12 for nm in names)
+          and all(abs(d[nm]['curv'] - cv) < 1e-12 for nm, cv in (('FS', 1.0), ('sin', c**2), ('cs', 1.0), ('geom', 1.0), ('vec', 1.0), ('sin2', c**2)))
+          and abs(d['FS']['P0'] - a0**2/2) < 1e-12 and abs(d['sin']['P0'] - s**2/2) < 1e-12 and abs(d['cs']['P0'] - (1 - c)) < 1e-12 and abs(d['vec']['P0'] - np.tan(a0/2)**2/2) < 1e-12
+          and abs(d['geom']['P0'] - (s**2/8 + (1 - c)**2/2)) < 1e-12 and abs(d['sin2']['P0'] - s**2/8) < 1e-12
+          and all(abs(d[nm]['slope0'] - sl) < 1e-12 for nm, sl in (('FS', -a0), ('sin', -s), ('cs', -s), ('geom', 0.0), ('vec', 0.0), ('sin2', 0.0)))
+          and all(len(d[nm]['zeros']) == 1 and abs(d[nm]['zeros'][0] - a0) < 1e-4 for nm in ('FS', 'cs', 'geom', 'vec')) and all(len(d[nm]['zeros']) == 2 and abs(d[nm]['zeros'][1] - (PI - a0)) < 1e-4 for nm in ('sin', 'sin2'))
+          and all(abs(cv - cf) < 1e-12 for _, cv, cf in kink) and all(abs(x) < 2.0 for x in gk)
+          and d['sin']['tilt'] < 1e-14 and d['sin2']['tilt'] < 1e-14 and min(d[nm]['tilt'] for nm in ('FS', 'cs', 'geom', 'vec')) > 0.01
+          and d['sin']['roty'] < 1e-12 and d['sin2']['roty'] < 1e-12 and min(d[nm]['roty'] for nm in ('FS', 'cs', 'geom', 'vec')) > 0.01
+          and all(3.8 < d[nm]['twist'][0]/d[nm]['twist'][1] < 4.2 for nm in ('FS', 'geom', 'vec')) and all(15 < d[nm]['twist'][0]/d[nm]['twist'][1] < 17 for nm in ('sin', 'cs'))
+          and max(d[nm]['fam'] for nm in names) < 1e-12 and d['geom']['P0'] < 0.3*d['FS']['P0'] and d['vec']['P0'] < 0.3*d['FS']['P0']
+          and all(sl[0] < -0.05 and abs(sl[0] - sl[1]) < 1e-4 and abs(sy[0] + sy[1]) < 1e-4 for _, sl, sy in coin) and abs(coin[0][1][0] + a0) < 1e-4
+          and tilt_sk > 0.01 and abs(sl3 + s) < 1e-6 and 3.8 < tw3[0]/tw3[1] < 4.2 and abs(curvK - 1.0) < 1e-6 and abs(PK(0.0, Kstar) - a0**2/2) < 1e-12,
+          "the penalties: S, D identities (1e-12); blind to phases and signs (1e-12); each full form its branch formula (1e-12), exchange-even and rotation-about-k invariant; "
+          "curvatures 1, cos^2 alpha0, 1, 1, 1, cos^2 alpha0 and gaps alpha0^2/2, sin^2 alpha0/2, 1 - cos alpha0, the smooth forms' at their closed forms; slopes at alignment -alpha0, -sin alpha0 "
+          "(cones) and 0 (smooth); the sine's second zero at pi - alpha0; the review's kink exact on the branch and O(u^2) off it; the sine blind to the normal and quartic in the twist; "
+          "the smooth forms zero exactly on the family, quadratic in the twist, their gaps below 30% of the cone's; v36.6's scalar conical on the whole coincidence set (equal "
+          "negative one-sided slopes, -alpha0 at k; the common displacement smooth); the sine's sqrt(1 - (S.k)^2) reading sees the normal; the third 1 - cos reading conical "
+          "(slope -sin alpha0) and quadratic in the twist; the review's form plus K (S.k - c)^4 at unit curvature, its gap v36.6's at K*")
+    print("   [T] The algebra, the zero sets, the invariances, the kink.  [V] The values on the branch and off it.  [D] Each penalty is a choice; the comparison is at")
+    print("       alpha0 = 0.5.  [O] Which penalty, if any, PG's geometry selects.")
+    return out
+
+def v36_7_localization():
+    print("\n== v36.7-2. The localization model of v36.6-1 with each penalty: the probe's potential alone, the pinning with it, at the same coupling and at the same gap (R367) ==")
+    print("   v36.6-1's model (ks = 1, lam = 500, mu = 25, alpha0 = 0.5, g = 100; Entry 326's image, h = 1, ell/h = 16/3, h_d = 0.1, as the pinning density; the large grid,")
+    print("   R <= 420, z <= 60) with the penalty P changed: in the probe's potential g P(alpha) only, alpha kept from v36.6's pinning (the second response's first experiment), or")
+    print("   in the pinning lam rho P(alpha) and the probe both (the full nonlinear substitution); at the same g, and with g raised to keep the gap V_inf = g P(0) at 12.5 (the")
+    print("   second response's third run).  The probe isotropic (D_R = D_z = 1) unless stated; modes counted by inertia (m = 0, even in z unless stated).")
+    from scipy.optimize import brentq
+    a0, ks, lam, mu, g, hd, h, ell = 0.5, 1.0, 500.0, 25.0, 100.0, 0.1, 1.0, 16/3; s, c = np.sin(a0), np.cos(a0)
+    fR = lambda RR: (1 + RR**2/ell**2)**-1.5*np.exp(-(RR/h)/np.sqrt(1 + RR**2/ell**2)); rho2 = lambda RR, ZZ: fR(RR)*np.exp(-ZZ**2/(2*hd**2))
+    G0 = _v36_fv(20.0, 4.0, 500, 240); GA = _v36_fvg(_v36_geo_edges(G0['dR'], 16.0, 400.0, 1.06), _v36_geo_edges(G0['dz'], 1.5, 60.0, 1.06)); Rc = GA['Rc']
+    names = ('FS', 'sin', 'cs', 'geom', 'vec', 'sin2'); sol = {}; res = {}
+    for nm in names:
+        A, rs, En = _v36_7_alpha(GA, _v36_7_branch(nm, a0), rho2, ks, lam, mu, a0); sol[nm] = A; res[nm] = rs
+    out = dict(sol=sol)
+    # (a) where the matter tilts the sectors
+    icell = [int(np.argmin(abs(Rc - r0))) for r0 in (0.25, 1, 2, 3, 5, 10, 50, 100)]; pl = {nm: [float(sol[nm][i, 0]) for i in icell] for nm in names}
+    afar = [float(sol['FS'][i, 0]/fR(Rc[i])) for i in icell[6:]]; Rfar = [float(Rc[i]) for i in icell[6:]]
+    r10 = {nm: float(Rc[np.where(sol[nm][:, 0] < 0.1*sol[nm][0, 0])[0][0]]) for nm in names}; r01 = {nm: float(Rc[np.where(sol[nm][:, 0] < 0.01*sol[nm][0, 0])[0][0]]) for nm in names}
+    from scipy.linalg import eigh_tridiagonal
+    nz_ = 6000; zz = np.linspace(-3.0, 3.0, nz_ + 2)[1:-1]; dzz = zz[1] - zz[0]
+    def vlow(R, p2): return eigh_tridiagonal(2*ks/dzz**2 + mu + lam*fR(R)*np.exp(-zz**2/(2*hd**2))*p2, -ks*np.ones(nz_ - 1)/dzz**2, select='i', select_range=(0, 0))[0][0]
+    onset = {nm: float(brentq(lambda R: vlow(R, float(_v36_7_branch(nm, a0)[2](np.array([0.0]))[0])), 0.5, 5.0)) for nm in ('geom', 'vec', 'sin2')}
+    tail = abs(afar[0]/afar[1] - 1); dcone = max(abs(pl[nm][i]/pl['FS'][i] - 1) for nm in ('sin', 'cs') for i in range(8))
+    print(f"   (a) Where the matter tilts the sectors [T/V].  With a cone penalty (P'(0) = -alpha0, -sin alpha0 < 0: v36.6's, the sine, 1 - cos) the force -lam rho P'(0) tilts the sectors")
+    print("     wherever there is matter, and in the weak-pinning far field the tilt follows the column density: in the plane alpha = " + ", ".join(f"{v:.2e}" for v in pl['FS'][4:]) + " at R = 5, 10, 50, 100")
+    print(f"     for v36.6's (at the cells nearest 50 and 100, R = {Rfar[0]:.2f} and {Rfar[1]:.2f}, alpha/f_R = {afar[0]:.4f} and {afar[1]:.4f}: constant to {tail:.0e}), the sine's and 1 - cos's within {dcone:.1%} of it.")
+    print("     A smooth penalty has the aligned vacuum as a critical point (P'(0) = 0, P''(0) = " + ", ".join(f"{float(_v36_7_branch(nm, a0)[2](np.array([0.0]))[0]):.4f}" for nm in ('geom', 'vec', 'sin2')) + " for the response's, the review's and the")
+    print("     smooth sine) -- for an exchange-even penalty the branch function is even in the signed tilt, which the exchange reverses, so smoothness at alignment forces P'(0) = 0 --")
+    print("     and weak matter cannot tilt the sectors at all: the vertical operator -ks d_z^2 + mu + lam rho P''(0) at alpha = 0 is negative -- the aligned vacuum locally unstable, the")
+    print("     radial gradients dropped -- only inside R = " + ", ".join(f"{onset[nm]:.2f}" for nm in ('geom', 'vec', 'sin2')) + ",")
+    print("     and the solved tilt falls below 10% of its central value by R = " + ", ".join(f"{r10[nm]:.2f}" for nm in ('geom', 'vec', 'sin2')) + " and below 1% by R = " + ", ".join(f"{r01[nm]:.2f}" for nm in ('geom', 'vec', 'sin2')) + f" (v36.6's: {r10['FS']:.2f}, {r01['FS']:.2f}): the pinned region")
+    print(f"     becomes a patch where the matter is dense, inside R ~ 2-2.4 h, instead of following the image's tail.  (Newton residuals at most {max(res.values()):.0e}.)")
+    # (b) the variants
+    def run(A, nm, gg, DR=1.0, DZ=1.0, shape=True):
+        P = _v36_7_branch(nm, a0)[0]; Vinf = gg*float(P(np.array([0.0]))[0]); V = gg*P(A); nb = _v36_loc_count(GA, V, Vinf, DR, DZ); E0, psi, _ = _v36_loc_ground(GA, V, Vinf, DR, DZ)
+        o = dict(Vinf=Vinf, nb=nb, E0=E0, V=V)
+        if nb >= 1 and shape:
+            o['Vh'] = float(brentq(lambda r_: np.interp(r_, Rc, V[:, 0]) - Vinf/2, 0.05, 30.0)); o['sh'] = _v36_loc_shape(GA, psi, Vinf, E0, DR, DZ, Rsrc=o['Vh'])
+        return o
+    def sectors(V, Vinf):
+        tot = 0; per = []
+        for mm in range(12):
+            ce, co = _v36_loc_count(GA, V, Vinf, 1.0, 1.0, m=mm), _v36_loc_count(GA, V, Vinf, 1.0, 1.0, m=mm, odd=True); per.append((mm, ce, co)); tot += (1 if mm == 0 else 2)*(ce + co)
+            if mm >= 1 and ce == 0 and co == 0: break
+        return tot, per
+    geq = {nm: 12.5/float(_v36_7_branch(nm, a0)[0](np.array([0.0]))[0]) for nm in names}
+    var = [('v36.6 (FS)', 'FS', 'FS', g)]
+    for nm in ('sin', 'cs', 'geom', 'vec', 'sin2'):
+        var += [(f"{nm}, probe only, same g", 'FS', nm, g), (f"{nm}, probe only, same gap", 'FS', nm, geq[nm]), (f"{nm}, pinning and probe, same g", nm, nm, g), (f"{nm}, pinning and probe, same gap", nm, nm, geq[nm])]
+    vr = {lb: dict(run(sol[pin], prb, gg), pin=pin, prb=prb, g=gg) for lb, pin, prb, gg in var}
+    print("   (b) The modes [V] (V_inf; the count; E_0; V reaches V_inf/2 at R; |psi|^2's half maximum R / z; Sigma_psi's local scale lengths at R = 1, 2, 3, 4, 6, 8; the in-plane far-tail")
+    print("     rate fitted / the theorem's):")
+    for lb, o in vr.items():
+        line = f"       {lb:34s} g = {o['g']:6.1f}: V_inf {o['Vinf']:7.3f}; {o['nb']} bound"
+        if o['nb'] >= 1:
+            sh = o['sh']; line += f"; E_0 = {o['E0']:.4f}; V_inf/2 at {o['Vh']:.2f}; half max {sh['Rh']:.2f} / {sh['zh']:.2f}; " + ", ".join(f"{v:.2f}" for v in sh['hl'].values()) + f"; {sh['kfit']:.4f} / {sh['kpred']:.4f}"
+        else: line += f" (the lowest box state at V_inf + {o['E0'] - o['Vinf']:.4f})"
+        print(line)
+    o0 = vr['v36.6 (FS)']; ps = vr['sin, probe only, same gap']; Vold = o0['V']; Vsin_eq = ps['V']
+    e_ineq = float(np.max(Vsin_eq - Vold)); amax = float(sol['FS'].max())
+    xx = np.linspace(0.0, PI, 2000001); e_ineq_pi = float(np.max((np.sin(xx) - s)**2/s**2 - (xx - a0)**2/a0**2))
+    Aold = sol['FS'][sol['FS'] > 1e-100]; dr_ = np.sin(Aold)*(2*s - np.sin(Aold))/(Aold*(2*a0 - Aold)); e_depth = (float(dr_.min()), float(dr_.max()))
+    iso_dev = max(abs(vr[lb]['sh']['hl'][r0]/o0['sh']['hl'][r0] - 1) for lb in vr if lb.startswith(('sin,', 'cs,')) for r0 in (1, 2, 3, 4, 6, 8))
+    hcell = {r0: float(-1/np.gradient(np.log(fR(np.array([Rc[i_] - 1e-3, Rc[i_], Rc[i_] + 1e-3]))), np.array([Rc[i_] - 1e-3, Rc[i_], Rc[i_] + 1e-3]))[1]) for r0, i_ in ((r0, int(np.argmin(abs(Rc - r0)))) for r0 in (3, 4, 6, 8))}
+    img_dev = lambda sh: max(abs(sh['hl'][r0]/hcell[r0] - 1) for r0 in (3, 4, 6, 8))
+    fsx = {key: run(sol['FS'], 'FS', g, DR_, DZ_) for key, DR_, DZ_ in (('10,1', 10.0, 1.0), ('20,1', 20.0, 1.0), ('6,6', 6.0, 6.0))}
+    devs = {lb: img_dev(vr[lb]['sh']) for lb in vr if vr[lb]['nb'] >= 1}; gdev = devs['geom, probe only, same g']
+    print(f"     The sine and 1 - cos keep v36.6's three modes in all eight runs, E_0 within {max(abs(vr[lb]['E0']/o0['E0'] - 1) for lb in vr if lb.startswith(('sin,', 'cs,'))):.1%} of v36.6's and the scale lengths within {iso_dev:.1%}: the mode's core as broad as the")
+    print("     image's, its outer scale lengths several times shorter than the image's 0.99-2.32 h, the tail at the theorem's rate.  With the probe's potential alone at the same gap the")
+    print(f"     sine binds more strongly than v36.6's angle (E_0 = {ps['E0']:.4f} against {o0['E0']:.4f}): on 0 <= alpha <= alpha0 the sine is concave, sin alpha/sin alpha0 >= alpha/alpha0, so")
+    print("     (sin alpha - sin alpha0)^2/sin^2 alpha0 <= (alpha - alpha0)^2/alpha0^2 (and on all of [0, pi] at alpha0 = 0.5: " + ("the difference nowhere positive on a grid of 2000001 points" if e_ineq_pi <= 0 else f"the difference at most {e_ineq_pi:.0e}") + "), and at the same gap")
+    print(f"     V_sin <= V_old everywhere (here max(V_sin - V_old) = {e_ineq:.1e}, alpha <= {amax:.3f}), so every eigenvalue is lower (min-max): normalized to its threshold the sine's well lies lower,")
+    print(f"     not shallower.  At the same g it is shallower -- V_inf - V = (g/2) sin alpha (2 s - sin alpha) lies {1 - e_depth[1]:.1%}-{1 - e_depth[0]:.1%} below (g/2) alpha (2 alpha0 - alpha) wherever alpha > 0 --")
+    print(f"     the gap falls by {1 - s**2/a0**2:.1%}, and the binding weakens (V_inf - E_0 = {vr['sin, probe only, same g']['Vinf'] - vr['sin, probe only, same g']['E0']:.3f} and {vr['sin, pinning and probe, same g']['Vinf'] - vr['sin, pinning and probe, same g']['E0']:.3f} against {o0['Vinf'] - o0['E0']:.3f}), as the second response expects.")
+    print("     The lowest-order smooth forms lose the mode with their pinning: with the pinning and the probe both at the same g no mode is bound (the patch is small and the gap")
+    print("     about a quarter);")
+    print("     with v36.6's tilt but a smooth probe potential one weakly bound mode remains for the response's and the review's forms, none for the smooth sine; with the gap restored")
+    print("     (g = " + ", ".join(f"{geq[nm]:.1f}" for nm in ('geom', 'vec', 'sin2')) + ") one mode returns with the pinning, weakly bound and confined to the patch.  Near its threshold the response's form's probe-only mode")
+    print(f"     at g = 100 is broad: Sigma_psi's scale lengths over R = 3-8 are within {gdev:.0%} of the image's (" + ", ".join(f"{hcell[r0]:.2f}" for r0 in (3, 4, 6, 8)) + f" h) -- the closest of the {len(devs)} bound runs here (next")
+    print(f"     {sorted(devs.values())[1]:.0%}), and closer than v36.6's isotropic D = 6 ({img_dev(fsx['6,6']['sh']):.0%}) and (D_R, D_z) = (20, 1) ({img_dev(fsx['20,1']['sh']):.0%}), recomputed here (E_0 = {fsx['6,6']['E0']:.4f}, {fsx['20,1']['E0']:.4f}).")
+    pK = _v36_7_branch('vecK', a0); AK, rsK, _ = _v36_7_alpha(GA, pK, rho2, ks, lam, mu, a0); KK = (a0**2/2 - (1 - c)**2/(2*s**2))/(1 - c)**4
+    r10K = float(Rc[np.where(AK[:, 0] < 0.1*AK[0, 0])[0][0]]); r01K = float(Rc[np.where(AK[:, 0] < 0.01*AK[0, 0])[0][0]])
+    onK = float(brentq(lambda R: vlow(R, float(pK[2](np.array([0.0]))[0])), 0.5, 8.0)); qk = run(AK, 'vecK', g); secK = sectors(qk['V'], qk['Vinf'])
+    p100 = _v36_7_branch('vecK', a0, K=100.0); A100, rs100, _ = _v36_7_alpha(GA, p100, rho2, ks, lam, mu, a0); V100 = g*p100[0](A100); Vi100 = g*float(p100[0](np.array([0.0]))[0])
+    nb100 = _v36_loc_count(GA, V100, Vi100); E100 = _v36_loc_ground(GA, V100, Vi100)[0]
+    print(f"     The loss is the small gap's, not smoothness's: the smooth form of v36.7-1(f) with the quartic term at K = {KK:.1f} -- unit curvature at alpha0 ({float(pK[2](np.array([a0]))[0]):.6f})")
+    print(f"     and v36.6's gap {float(pK[0](np.array([0.0]))[0]):.3f}, still P'(0) = 0 -- confines its pinned tilt to a patch as well (the local vertical onset at R = {onK:.2f}; the 10% and 1% radii {r10K:.2f},")
+    print(f"     {r01K:.2f}), and with its pinning at g = 100 it binds {qk['nb']} modes (E_0 = {qk['E0']:.4f} below V_inf = {qk['Vinf']:.1f}; {secK[0]} in all sectors); at K = 100, the gap {Vi100/g:.6f} per unit g,")
+    print(f"     under half v36.6's, {nb100} (E_0 = {E100:.4f} below V_inf = {Vi100:.4f}).  Smoothness at the aligned vacuum forbids the tilt's following the matter's tail, not localization.")
+    out['variants'] = {lb: {k_: v_ for k_, v_ in o.items() if k_ != 'V'} for lb, o in vr.items()}
+    # (c) all sectors, and the anisotropic probe, for the sine
+    sec = {lb: sectors(vr[lb]['V'], vr[lb]['Vinf']) for lb in ('sin, pinning and probe, same g', 'sin, pinning and probe, same gap')}
+    an = {DR: run(sol['sin'], 'sin', g, DR, 1.0) for DR in (10.0, 20.0)}
+    print(f"   (c) In all sectors the sine with its pinning keeps {sec['sin, pinning and probe, same g'][0]} modes at the same g and {sec['sin, pinning and probe, same gap'][0]} at the same gap (v36.6: 13).  The anisotropic probe (D_z = 1), the")
+    print("     sine with its pinning at the same g: " + "; ".join(f"D_R = {DR:.0f}: E_0 = {o['E0']:.4f}, aspect {o['sh']['aspect']:.1f}, scale lengths " + ", ".join(f"{v:.2f}" for v in o['sh']['hl'].values()) for DR, o in an.items()) + ".")
+    rat = {DR: [an[DR]['sh']['hl'][r0]/fsx[f"{DR:.0f},1"]['sh']['hl'][r0] for r0 in (1, 2, 3, 4, 6, 8)] for DR in an}
+    print("     Against v36.6's with its pinning (recomputed: " + "; ".join(f"D_R = {DR:.0f}: E_0 = {fsx[f'{DR:.0f},1']['E0']:.4f}, aspect {fsx[f'{DR:.0f},1']['sh']['aspect']:.2f}" for DR in an) + f"), with the gap {1 - s**2/a0**2:.0%} lower")
+    print("     the scale lengths grow by " + " and by ".join(f"{min(rat[DR]) - 1:.1%}-{max(rat[DR]) - 1:.1%} at D_R = {DR:.0f}" for DR in an) + "; the aspects (" + ", ".join(f"{an[DR]['sh']['aspect']:.2f}" for DR in an)
+          + f") within {max(abs(an[DR]['sh']['aspect']/fsx[f'{DR:.0f},1']['sh']['aspect'] - 1) for DR in an):.0%};")
+    print("     the profile is still a core and then the theorem's tail.")
+    out['sectors'] = sec; out['aniso'] = {DR: (o['E0'], o['sh']['aspect']) for DR, o in an.items()}
+    # (d) thresholds and bounds
+    MB = GA['M'].reshape(GA['NR'], GA['NZ'])
+    def thr(V, Vinf, lo=1.0, hi=80.0, n=12, iso=False):
+        for _ in range(n):
+            mid = 0.5*(lo + hi)
+            if _v36_loc_count(GA, V, Vinf, DR=mid, DZ=(mid if iso else 1.0)) >= 1: lo = mid
+            else: hi = mid
+        return lo, hi
+    th = {}
+    for lb in ('v36.6 (FS)', 'sin, probe only, same g', 'sin, probe only, same gap', 'sin, pinning and probe, same g', 'sin, pinning and probe, same gap', 'cs, pinning and probe, same g',
+               'geom, pinning and probe, same gap', 'vec, pinning and probe, same gap', 'sin2, pinning and probe, same gap'):
+        o = vr[lb]; I32 = float(4*PI*np.sum(MB*np.abs(np.minimum(o['V'] - o['Vinf'], 0.0))**1.5)); th[lb] = (thr(o['V'], o['Vinf']), 0.11601*I32)
+    sm = {}
+    for nm in ('geom', 'vec', 'sin2'):
+        P = _v36_7_branch(nm, a0)[0]; P0 = float(P(np.array([0.0]))[0]); A = sol[nm]; Diso = thr(g*P(A), g*P0, 0.01, 1.0, iso=True)
+        lo, hi = 100.0, 2000.0
+        for _ in range(14):
+            mid = 0.5*(lo + hi)
+            if _v36_loc_count(GA, mid*P(A), mid*P0) >= 1: hi = mid
+            else: lo = mid
+        sm[nm] = (Diso, (lo, hi), P0)
+    print("   (d) The threshold at D_z = 1 [V/T] (the largest D_R with a bound mode on this grid, a lower bound for the unbounded domain; the Cwikel-Lieb-Rozenblum bound above it):")
+    for lb, ((lo, hi), dc) in th.items(): print(f"       {lb:34s}: bound up to D_R = {lo:.3f}-{hi:.3f}; none once D_R sqrt(D_z) > {dc:.2f}")
+    print("     For the smooth forms with their pinning at g = 100, a mode binds isotropically on this grid up to D = " + ", ".join(f"{v[0][0]:.4f}-{v[0][1]:.4f}" for v in sm.values()) + " (lower bounds for the")
+    print("     unbounded domain), and at D = 1 from g = " + ", ".join(f"{v[1][0]:.2f}-{v[1][1]:.2f} (gap {v[1][0]*v[2]:.2f})" for v in sm.values()) + " (upper bounds) for the response's, the review's and the smooth sine.")
+    out['thr'] = th; out['smooth'] = sm
+    hsrc = {r0: float(-1/np.gradient(np.log(fR(np.array([r0 - 1e-3, r0, r0 + 1e-3]))), np.array([r0 - 1e-3, r0, r0 + 1e-3]))[1]) for r0 in (20, 50)}
+    bound = [lb for lb in vr if vr[lb]['nb'] >= 1]; kd = max(abs(vr[lb]['sh']['kfit']/vr[lb]['sh']['kpred'] - 1) for lb in bound if np.isfinite(vr[lb]['sh']['kfit']))
+    print("   (e) The obstruction persists [T].  The exterior theorem of v36.6-1(d) needs only V -> V_inf far from the matter, which every penalty with a gapped vacuum gives, and a")
+    print(f"     mode strictly below V_inf (E_0 < V_inf, the binding condition); every bound mode above decays at the theorem's rate (the fits within {kd:.1%}, the weakly bound least asymptotic),")
+    print(f"     so its local scale length tends to the constant 1/(2 kappa_R), while the image's grows as R/3 ({hsrc[20]:.1f}, {hsrc[50]:.1f} h at R = 20, 50).  (A penalty P >= 0 without a gap, P(0) = 0,")
+    print("     binds nothing below V_inf = 0.)  So no choice among these penalties -- and none of the form g P(alpha) with a gapped vacuum -- lets a strictly bound mode follow the")
+    print("     sine-exponential at large R.")
+    out['kd'] = kd
+    fsl, sl = vr['v36.6 (FS)'], [vr[lb] for lb in vr if lb.startswith(('sin,', 'cs,'))]
+    check(max(res.values()) < 1e-10 and all(o['nb'] == 3 for o in sl) and all(abs(o['E0']/fsl['E0'] - 1) < 0.08 for o in sl) and abs(fsl['E0'] - 7.5859) < 1e-3
+          and ps['E0'] < fsl['E0'] and e_ineq <= 1e-12 and vr['sin, probe only, same g']['Vinf'] - vr['sin, probe only, same g']['E0'] < fsl['Vinf'] - fsl['E0']
+          and all(vr[f"{nm}, pinning and probe, same g"]['nb'] == 0 for nm in ('geom', 'vec', 'sin2')) and all(vr[f"{nm}, pinning and probe, same gap"]['nb'] == 1 for nm in ('geom', 'vec', 'sin2'))
+          and vr['geom, probe only, same g']['nb'] == 1 and vr['vec, probe only, same g']['nb'] == 1 and vr['sin2, probe only, same g']['nb'] == 0
+          and all(1.0 < onset[nm] < r10[nm] < r01[nm] < 3.0 for nm in ('geom', 'vec', 'sin2')) and r01['FS'] > 5.0 and tail < 1e-3 and dcone < 0.06
+          and e_ineq_pi <= 1e-15 and e_depth[1] < 1.0 and iso_dev < 0.1 and all(abs(fsx[key_]['E0'] - e_) < 1e-3 for key_, e_ in (('10,1', 10.4814), ('20,1', 11.6110), ('6,6', 12.1087)))
+          and gdev == min(devs.values()) and gdev < 0.3 and img_dev(fsx['6,6']['sh']) > gdev and img_dev(fsx['20,1']['sh']) > gdev
+          and all(1.0 < min(rat[DR]) and max(rat[DR]) < 1.2 for DR in an)
+          and rsK < 1e-10 and qk['nb'] == 2 and qk['E0'] < qk['Vinf'] - 1.0 and abs(qk['Vinf'] - 12.5) < 1e-9 and onK < r10K < r01K < 5.0 and secK[0] == 6
+          and rs100 < 1e-10 and nb100 == 1 and E100 < Vi100 - 0.1
+          and abs(float(pK[2](np.array([a0]))[0]) - 1.0) < 1e-12 and abs(float(pK[1](np.array([0.0]))[0])) < 1e-15
+          and sec['sin, pinning and probe, same g'][0] == 11 and sec['sin, pinning and probe, same gap'][0] == 13
+          and all(4.0 < an[DR]['sh']['aspect'] < 7.0 for DR in an) and all(th[lb][0][1] < th[lb][1] for lb in th)
+          and th['sin, probe only, same gap'][0][0] > th['v36.6 (FS)'][0][1] and 50.0 < th['v36.6 (FS)'][0][0] < 53.0 and th['sin, pinning and probe, same g'][0][1] < th['v36.6 (FS)'][0][0]
+          and all(th[f"{nm}, pinning and probe, same gap"][0][1] < 5.0 for nm in ('geom', 'vec', 'sin2')) and all(0.2 < v[0][0] < 1.0 and 100.0 < v[1][0] < 400.0 for v in sm.values())
+          and kd < 0.04,
+          "the model with each penalty: six pinned solutions (1e-10); the cone penalties' tilt following the column density (alpha/f_R constant to 1e-3 at R ~ 50, 100; the sine "
+          "and 1 - cos within 6% of v36.6's), the smooth forms' confined to a patch (the local vertical onset inside the 10% and 1% radii, all below 3); the sine and 1 - cos keeping "
+          "three modes (E_0 within 8%, the isotropic scale lengths within 10%) in all eight runs; the probe-only sine at the same gap lower (the inequality on [0, pi], V_sin <= V_old "
+          "pointwise, E_0 below v36.6's) and at the same g shallower pointwise and less bound; the smooth forms unbound at the same g with their pinning, bound once (weakly) at the "
+          "same gap; the quartic smooth form with v36.6's gap (unit curvature, zero slope) confining its tilt to a patch (onset inside the 10% and 1% radii, below 5) yet binding "
+          "two modes with its pinning at g = 100 (six in all sectors), and one at K = 100; v36.6's (10, 1), (20, 1) and (6, 6) runs reproduced (1e-3); the response's probe-only mode the closest to the image over R = 3-8 (within 30%), closer than v36.6's "
+          "D = 6 and (20, 1); the anisotropic sine's scale lengths 0-20% above v36.6's; 11 and 13 modes in all sectors for the sine; thresholds below their CLR bounds, the probe-only "
+          "sine's above v36.6's at the same gap, the smooth forms' below 5; every bound mode's tail at the theorem's rate (4%)")
+    print("   [T] The cone/critical-point dichotomy at the aligned vacuum, for exchange-even penalties; the equal-gap inequality; the obstruction for any gapped penalty.  [V] The")
+    print("       solutions, the modes, the thresholds.  [D] The penalties, the couplings and the comparison's two normalizations are chosen.  [O] A penalty selected by PG's geometry.")
+    return out
+
+def v36_7_off_ansatz(loc=None):
+    print("\n== v36.7-3. The mirror solution off its ansatz: the full two-sector energy, its second variation, a multi-start search, the sine's second zero (the v36.6 review; the responses on Entry 349; R368) ==")
+    print("   v36.6-1 solved the mirror ansatz n_{L,R} = cos alpha k +- sin alpha t.  Here both Bloch fields are free: the energy (ks/4)(|grad n_L|^2 + |grad n_R|^2) + lam rho")
+    print("   P(n_L, n_R) + mu (1 - S.k), with P any of the six penalties of v36.7-1 -- the aligned vacuum along k, which on the ansatz is mu (1 - cos alpha) -- discretized with the")
+    print("   geodesic distance between neighbouring cells, so that on the ansatz it is v36.6's discrete energy and v36.6's solution its critical point there.")
+    from scipy.optimize import minimize
+    a0, ks, lam, mu, hd, h, ell = 0.5, 1.0, 500.0, 25.0, 0.1, 1.0, 16/3
+    fR = lambda RR: (1 + RR**2/ell**2)**-1.5*np.exp(-(RR/h)/np.sqrt(1 + RR**2/ell**2)); rho2 = lambda RR, ZZ: fR(RR)*np.exp(-ZZ**2/(2*hd**2))
+    G0 = _v36_fv(20.0, 4.0, 500, 240); GA = _v36_fvg(_v36_geo_edges(G0['dR'], 16.0, 400.0, 1.06), _v36_geo_edges(G0['dz'], 1.5, 60.0, 1.06))
+    GBg = _v36_fvg(_v36_geo_edges(G0['dR'], 16.0, 800.0, 1.06), _v36_geo_edges(G0['dz'], 1.5, 120.0, 1.06))
+    names = ('FS', 'sin', 'cs', 'geom', 'vec', 'sin2')
+    sol = loc['sol'] if loc else {nm: _v36_7_alpha(GA, _v36_7_branch(nm, a0), rho2, ks, lam, mu, a0)[0] for nm in names}
+    # (a) the block potentials against finite differences of the full penalties along the exponential curves; the blocks' decoupling
+    def expm(n0, xi):
+        th_ = np.linalg.norm(xi); return n0 if th_ == 0 else np.cos(th_)*n0 + np.sin(th_)*xi/th_
+    def pts(al, e1, b1, e2=0.0, b2=1):
+        nL0 = np.array([np.sin(al), 0, np.cos(al)]); nR0 = np.array([-np.sin(al), 0, np.cos(al)]); eL = np.array([np.cos(al), 0, -np.sin(al)]); eR = np.array([-np.cos(al), 0, -np.sin(al)]); ey = np.array([0, 1.0, 0])
+        comp = {1: (eL, eR), 2: (eL, -eR), 3: (ey, ey), 4: (ey, -ey)}
+        return expm(nL0, e1*comp[b1][0] + e2*comp[b2][0]), expm(nR0, e1*comp[b1][1] + e2*comp[b2][1])
+    e_u = 0.0; e_mix = 0.0; hh = 1e-4
+    for nm in names:
+        P, dP, d2P = _v36_7_branch(nm, a0)
+        for al in (0.05, 0.3, 0.45):
+            u2, u3 = _v36_7_u23(nm, np.array([al]), a0); an_ = [float(d2P(np.array([al]))[0]), float(u2[0]), float(u3[0]), float(dP(np.array([al]))[0]/np.tan(al))]
+            f = lambda nL, nR: _v36_7_C(nm, nL, nR, a0)
+            fd = [(f(*pts(al, hh, b)) - 2*f(*pts(al, 0.0, b)) + f(*pts(al, -hh, b)))/hh**2 for b in (1, 2, 3, 4)]
+            e_u = max(e_u, max(abs(x - y)/max(1.0, abs(y)) for x, y in zip(fd, an_)))
+            if al == 0.3:
+                for b1 in range(1, 5):
+                    for b2 in range(b1 + 1, 5):
+                        e_mix = max(e_mix, abs((f(*pts(al, hh, b1, hh, b2)) - f(*pts(al, hh, b1, -hh, b2)) - f(*pts(al, -hh, b1, hh, b2)) + f(*pts(al, -hh, b1, -hh, b2)))/(4*hh*hh)))
+    print("   (a) The second variation [T/V].  The mirror solution is a critical point of the full energy (symmetric criticality: it is the fixed set of the y-reflection and of the")
+    print("     exchange composed with the x-reflection, which leave the energy invariant).  In exponential coordinates at it the second variation splits into four scalar blocks:")
+    print("     1 the tilt (a_L = a_R, v36.6's own), 2 the bisector's tilt in the k-t plane (a_L = -a_R), 3 its tilt across that plane (b_L = b_R), 4 the rotation about k (b_L = -b_R),")
+    print("     each ks K_x + M U with U = lam rho u + mu cos alpha: u_1 = P''(alpha), u_4 = P'(alpha) cot alpha, u_2 and u_3 per penalty (for v36.6's scalar 1 and (alpha0 - alpha) cot(alpha0 -")
+    print(f"     alpha); for the sine 0 and (sin alpha0 - sin alpha) sin alpha); against finite differences of the full penalties along the exponential curves to {e_u:.0e} (relative), the blocks uncoupled (" + ("0" if e_mix == 0 else f"{e_mix:.0e}") + ").")
+    # (b) inertia
+    rows = {}
+    for nm in names:
+        He, Ue = _v36_7_blocks(GA, sol[nm], nm, rho2, ks, lam, mu, a0); Ho, _ = _v36_7_blocks(GA, sol[nm], nm, rho2, ks, lam, mu, a0, odd=True); M = GA['M']
+        zm = np.sin(sol[nm].ravel()); zres = float(np.abs(He[3] @ zm).max()/abs(He[3]).max()/np.abs(zm).max())
+        rows[nm] = dict(neg=[_v36_7_inertia(H, M, -1e-6) for H in He + Ho], zero=[_v36_7_inertia(H, M, 1e-6) for H in He + Ho], below=[_v36_7_inertia(H, M, mu - 1e-9) for H in He], zres=zres,
+                        Urange=[(float((U_ - mu).min()), float((U_ - mu).max())) for U_ in Ue[:3]])
+    print("   (b) The spectrum of the sectors' own fluctuations [V], on the large grid (axisymmetric internal perturbations; a dependence e^(i m phi) on the spatial azimuth adds")
+    print("     ks m^2/R^2 >= 0 to every block): eigenvalues below -1e-6 in blocks 1-4, even then odd in z; below +1e-6; below mu, the vacuum's fluctuation threshold (even):")
+    for nm in names:
+        x = rows[nm]; print(f"       {nm:5s}: {x['neg'][:4]} / {x['neg'][4:]}; {x['zero'][:4]} / {x['zero'][4:]}; {x['below']}; |H_4 sin alpha| relative {x['zres']:.0e}")
+    print("     (Block 4's count below mu for the cone penalties is the gapless band of (c) as discretized on this grid, a quasi-continuum, not a set of bound modes.)")
+    print("     No block has a negative eigenvalue for any penalty: the mirror solution is a stable critical point of the full two-sector energy, in every sector.  The one zero")
+    print("     mode is block 4's, sin alpha(x) exactly -- the rotation about k, the symmetry the family leaves; nodeless, it is that block's ground state.  For v36.6's scalar and")
+    print("     the sine nothing lies below mu in blocks 1-3 (U - mu over the grid, blocks 1, 2, 3: " + "; ".join(f"{nm} " + ", ".join(f"[{lo_:+.2f}, {hi_:+.1f}]" for lo_, hi_ in rows[nm]['Urange']) for nm in ('FS', 'sin')) + "):")
+    print("     the matter is a barrier to the tilt and to the bisector's out-of-plane tilt, apart from shallow wells in the tilt's halo off the layer, and the sine's in-plane bisector")
+    print("     tilt (u_2 = 0, the sine blind to common rotations) is held by the vacuum term alone, in a shallow well mu cos alpha that binds nothing.  The 1 - cos form's bisector")
+    print("     tilts have one mode each below mu (its cosine part pulls the bisector off k where alpha < alpha0, mu cos alpha holding it); for the smooth forms three tilt modes lie")
+    print("     below mu.  [D] The full energy's stiffness is isotropic, a choice carried over from v36.6, so its fluctuation operators have isotropic kinetic terms; an anisotropic")
+    print("     kinetic metric needs a term not in this energy -- a soldering of the internal frame to space, an anisotropic stiffness put in, or a coupling to the matter's own")
+    print("     geometry (its gradient, the Law I stress).")
+    out = dict(rows=rows, e_u=e_u, e_mix=e_mix)
+    # (c) the rotation block: a gapless band along the disk for the cone penalties, a gapped patch spectrum for a smooth one
+    from scipy.sparse.linalg import eigsh
+    import scipy.sparse as sp
+    band = {}
+    for nm in ('FS', 'sin', 'cs', 'geom'):
+        AB = _v36_7_alpha(GBg, _v36_7_branch(nm, a0), rho2, ks, lam, mu, a0)[0]
+        for gn, G_, A_ in (('A', GA, sol[nm]), ('B', GBg, AB)):
+            H4 = _v36_7_blocks(G_, A_, nm, rho2, ks, lam, mu, a0)[0][3]
+            ev = np.sort(eigsh(H4.tocsc(), k=4, M=sp.diags(G_['M']).tocsc(), sigma=-0.001, which='LM', v0=np.ones(G_['N']))[0])
+            band[(nm, gn)] = (ev, _v36_7_inertia(H4, G_['M'], 0.01), float(G_['Rc'][-1] + G_['dRs'][-1]/2))
+    LA, LB = band[('FS', 'A')][2], band[('FS', 'B')][2]; rat = {nm: band[(nm, 'A')][0][1]/band[(nm, 'B')][0][1] for nm in ('FS', 'sin', 'cs')}
+    e_cone = max(abs(band[(nm, gn)][0][i]/band[('FS', gn)][0][i] - 1) for nm in ('sin', 'cs') for gn in 'AB' for i in (1, 2, 3))
+    print(f"   (c) The rotation block [V].  For v36.6's scalar its next eigenvalues are {', '.join(f'{v:.2e}' for v in band[('FS', 'A')][0][1:])} on the large grid and {', '.join(f'{v:.2e}' for v in band[('FS', 'B')][0][1:])} on one")
+    print(f"     twice as large -- falling as 1/L^2 (ratio {rat['FS']:.2f}; (L_B/L_A)^2 = {(LB/LA)**2:.2f}), with {band[('FS', 'A')][1]} and {band[('FS', 'B')][1]} modes below 0.01: a gapless band, the rotation guided along the matter layer as far")
+    print(f"     as the tilt follows the matter.  The sine and 1 - cos give the same band (within {e_cone:.0e} on both grids; ratios {rat['sin']:.2f}, {rat['cs']:.2f}): the low band lives in the linear-response")
+    print("     far field, where the tilt is proportional to -P'(0), so that U_4 = lam rho P' cot alpha + mu cos alpha is the same for every cone penalty.  For the response's smooth form")
+    print(f"     they are {', '.join(f'{v:.3f}' for v in band[('geom', 'A')][0][1:])} on both grids ({', '.join(f'{v:.3f}' for v in band[('geom', 'B')][0][1:])}): gapped, the zero mode confined to the patch.  So the sectors' own localized mode is the")
+    print("     rotation about the normal, its profile sin alpha(x) set by the pinned tilt -- by the matter and the stiffness length, not by a kinetic metric; its meaning, like the")
+    print("     probe's, is not specified.")
+    out['band'] = {f"{k_[0]}-{k_[1]}": (list(map(float, v[0])), v[1], v[2]) for k_, v in band.items()}
+    # (d) a multi-start local search, and the sine's second zero
+    Gd = _v36_fv(6.0, 1.2, 40, 60); Nd = Gd['N']; rg = np.random.default_rng(3671); kk = np.array([0, 0, 1.0]); gs = {}
+    for nm in ('FS', 'sin', 'geom'):
+        A = _v36_7_alpha(Gd, _v36_7_branch(nm, a0), rho2, ks, lam, mu, a0)[0].ravel(); en = _v36_7_full(Gd, nm, rho2, ks, lam, mu, a0)
+        nL = np.stack([np.sin(A), 0*A, np.cos(A)], 1); nR = np.stack([-np.sin(A), 0*A, np.cos(A)], 1); Em = en(np.stack([nL, nR]).ravel())[0]
+        starts = {'the aligned vacuum, perturbed by 0.02': np.stack([kk + 0.02*rg.normal(size=(Nd, 3)), kk + 0.02*rg.normal(size=(Nd, 3))]),
+                  'the axes at right angles, perturbed': np.stack([nL + 0.02*rg.normal(size=(Nd, 3)), np.stack([0*A, -np.sin(A), np.cos(A)], 1) + 0.02*rg.normal(size=(Nd, 3))]),
+                  'the bisector tilted by 0.6': np.stack([np.stack([np.sin(A + 0.6), 0*A, np.cos(A + 0.6)], 1), np.stack([-np.sin(A - 0.6), 0*A, np.cos(A - 0.6)], 1)])}
+        if nm == 'sin': starts['the second zero, theta = pi - alpha'] = np.stack([np.stack([np.sin(PI - A), 0*A, np.cos(PI - A)], 1), np.stack([-np.sin(PI - A), 0*A, np.cos(PI - A)], 1)])
+        for sn, x0 in starts.items():
+            r_ = minimize(en, x0.ravel(), jac=True, method='L-BFGS-B', options=dict(maxiter=6000, maxfun=12000, gtol=1e-10, ftol=1e-15, maxcor=30))
+            v = r_.x.reshape(2, Nd, 3); n = v/np.linalg.norm(v, axis=2)[..., None]; S = (n[0] + n[1])/2; D = (n[0] - n[1])/2
+            w = rho2(Gd['RR'], Gd['ZZ']).ravel() > 0.05; azi = np.degrees(np.arctan2(D[w, 1], D[w, 0]))
+            x = dict(dE=float(r_.fun - Em), Sp=float(np.abs(S[:, :2]).max()), spread=float(np.ptp(np.mod(azi - azi[0] + 180, 360) - 180)), gmax=float(np.abs(en(r_.x)[1]).max()))
+            if sn.startswith('the second'):
+                th = np.arctan2(D[:, 0], S[:, 2]); Kd = (Gd['KR'] + Gd['Kz']).tocsr(); r2_ = rho2(Gd['RR'], Gd['ZZ']).ravel(); s_ = np.sin(a0)
+                Esub = float(np.sum(0.5*ks*th*(Kd @ th) + Gd['M']*(lam*r2_*0.5*(np.abs(np.sin(th)) - s_)**2 + mu*(1 - np.cos(th)))))
+                x.update(ny=float(np.abs(n[:, :, 1]).max()), Sx=float(np.abs(S[:, 0]).max()), Szmin=float(S[:, 2].min()), esub=abs(Esub - r_.fun)/abs(r_.fun),
+                         npos=int(np.sum(th[w] > 0)), nneg=int(np.sum(th[w] < 0)))
+            gs[(nm, sn)] = x
+    print(f"   (d) A multi-start local search [V] on a coarse grid (R <= 6, z <= 1.2, {Nd} cells; the full energy in the unnormalized vectors, L-BFGS on its exact gradient), for v36.6's")
+    print("     scalar, the sine and the response's smooth form, against the mirror solution on the same grid.  The two perturbed starts (by 0.02; the right-angle start unperturbed")
+    print("     would stay in the fixed set of the exchange composed with the reflection through the vertical plane between the two axes) explore the full space; the")
+    print("     tilted-bisector start stays in the k-t plane (the fixed set of the y-reflection) and the second-zero start in the mirror subspace.")
+    for (nm, sn), x in gs.items():
+        if sn.startswith('the second'): continue
+        ok_ = abs(x['dE']) < 1e-9 and x['Sp'] < 1e-4 and x['spread'] < 1.0
+        tag = "the mirror solution's energy (to 1e-9), the bisector on k (to 1e-4), D's azimuth uniform over the pinned region (to 1 deg)" if ok_ else f"{x['dE']:+.3e} from it; bisector off k by {x['Sp']:.1e}; azimuth spread {x['spread']:.1f} deg"
+        print(f"       {nm:5s} from {sn:38s}: {tag}")
+    print("     Every start ends at the mirror solution's energy, with a uniform in-plane axis (any azimuth: the rotation about k).  No lower state was found.")
+    sec2 = gs[('sin', 'the second zero, theta = pi - alpha')]
+    fz = lambda x_: "0" if x_ == 0 else f"{x_:.0e}"
+    print(f"     From the sine's second zero, theta = pi - alpha -- fixed by both symmetries, so that the run stays in the mirror subspace (max |n_y| = {fz(sec2['ny'])}, max |S_x| = {fz(sec2['Sx'])}), a signed")
+    print("     tilt theta -- the run leaves the second zero (S.k > 0 in every cell) and stops at or above the mirror solution's energy, in an end state set by the roundoff and")
+    print("     the grid (its energy is not printed): " + ("the pinned region relaxes partly to the mirror state, theta = alpha, and partly to its exchange, theta = -alpha (the rotation by pi about k),"
+          if sec2['npos'] > 0 and sec2['nneg'] > 0 else "the pinned region relaxes wholly to the mirror state or to its exchange (the rotation by pi about k),"))
+    print("     with a wall between them where theta crosses 0 -- the sectors aligned, |D| = 0, the sine's cone." if sec2['npos'] > 0 and sec2['nneg'] > 0 else "     with no wall.")
+    WG = {}
+    for NR_, NZ_ in ((160, 60), (320, 120)):
+        Gw = _v36_fv(6.0, 1.2, NR_, NZ_); Aw = _v36_7_alpha(Gw, _v36_7_branch('sin', a0), rho2, ks, lam, mu, a0)[0]
+        WG[(NR_, NZ_)] = [(Rw_,) + _v36_7_wall(Gw, Aw, Rw_, rho2, ks, lam, mu, a0) for Rw_ in (0.2, 0.5, 0.8, 1.0, 1.15, 1.3, 1.5, 1.8, 2.2, 3.0, 4.0)]
+    Wf = [w_[1] for w_ in WG[(320, 120)]]; Wc = [w_[1] for w_ in WG[(160, 60)]]; imax = int(np.argmax(Wf)); Rws = [w_[0] for w_ in WG[(320, 120)]]
+    uni = lambda W_: all(W_[i] < W_[i + 1] for i in range(int(np.argmax(W_)))) and all(W_[i] > W_[i + 1] for i in range(int(np.argmax(W_)), len(W_) - 1))
+    free = [w_[0] for w_ in WG[(320, 120)] if w_[3] == 0]
+    print("     In that subspace the full energy is the signed-tilt energy (ks/2) theta.K theta + sum M [lam rho (|sin theta| - s)^2/2 + mu (1 - cos theta)] (at the end state to " + ("1e-12" if sec2['esub'] < 1e-12 else f"{sec2['esub']:.0e}") + "),")
+    print("     even in theta.  Held at R_w -- theta <= 0 inside R < R_w and >= 0 outside, the energy minimized by projected Newton -- the wall's energy above the mirror state, W(R_w), at")
+    print("     R_w = " + ", ".join(f"{x_:g}" for x_ in Rws) + ", on grids with dR = 0.0375 and 0.01875 (dz = 0.02, 0.01):")
+    print("       " + ", ".join(f"{x_:.4f}" for x_ in Wc))
+    print("       " + ", ".join(f"{x_:.4f}" for x_ in Wf))
+    print(f"     a single maximum, {Wf[imax]:.3f} at R_w = {Rws[imax]:g}, and no interior minimum, W falling toward 0 as the wall shrinks onto the axis or leaves the matter (the grids within")
+    print(f"     {max(abs(a_ - b_) for a_, b_ in zip(Wc, Wf)):.3f}).  So in the continuum such a wall shrinks or leaves the matter, and the only stationary wall of this family is at W's maximum, a saddle -- the barrier between the")
+    print("     mirror state and its exchange within the mirror subspace.  On a grid a wall can rest between cells (none is held at theta = 0 at R_w = " + ", ".join(f"{x_:g}" for x_ in free) + " here), which is")
+    print("     what stops the run above.  The second zero leaves no metastable state.")
+    out['global'] = {f"{k_[0]}: {k_[1]}": v for k_, v in gs.items()}; out['wall'] = {f"{k_[0]}x{k_[1]}": v for k_, v in WG.items()}
+    others = [x for (nm, sn), x in gs.items() if not (nm == 'sin' and sn.startswith('the second'))]
+    check(e_u < 1e-5 and e_mix < 1e-6 and all(sum(rows[nm]['neg']) == 0 for nm in names) and all(rows[nm]['zero'] == [0, 0, 0, 1, 0, 0, 0, 0] for nm in names) and all(rows[nm]['zres'] < 1e-12 for nm in names)
+          and all(rows[nm]['below'][:3] == [0, 0, 0] for nm in ('FS', 'sin')) and rows['cs']['below'][1:3] == [1, 1] and all(rows[nm]['below'][0] == 3 for nm in ('geom', 'vec', 'sin2'))
+          and rows['sin']['Urange'][1][1] <= 1e-12 and rows['sin']['Urange'][1][0] < -1.0 and min(rows[nm]['Urange'][0][1] for nm in ('FS', 'sin')) > 100.0
+          and all(0.85*(LB/LA)**2 < rat[nm] < 1.15*(LB/LA)**2 and band[(nm, 'B')][1] > band[(nm, 'A')][1] > 5 for nm in ('FS', 'sin', 'cs')) and e_cone < 1e-3
+          and band[('geom', 'A')][1] == 1 and abs(band[('geom', 'A')][0][1] - band[('geom', 'B')][0][1]) < 1e-3 and band[('geom', 'A')][0][1] > 1.0
+          and all(abs(x['dE']) < 1e-9 and x['Sp'] < 1e-4 and x['spread'] < 1.0 for x in others) and all(x['gmax'] < 1e-5 for x in gs.values())
+          and sec2['ny'] < 1e-12 and sec2['Sx'] < 1e-12 and sec2['Szmin'] > 0.0 and sec2['dE'] > -1e-9 and sec2['esub'] < 1e-9
+          and all(w_[2] < 1e-6 for v_ in WG.values() for w_ in v_) and uni(Wc) and uni(Wf) and min(Wc + Wf) > 0.0 and 0 < imax < len(Wf) - 1 and int(np.argmax(Wc)) == imax
+          and max(abs(a_ - b_) for a_, b_ in zip(Wc, Wf)) < 0.02,
+          "off the ansatz: the block potentials against finite differences (1e-5), the blocks uncoupled; no negative eigenvalue in any block, either parity, for any penalty; one zero "
+          "mode, block 4's, H_4 sin alpha = 0 (1e-12); for v36.6's and the sine no tilt or bisector mode below mu (the matter a barrier in block 1, the sine's block 2 a vacuum well), "
+          "for 1 - cos one each in the bisector blocks, three tilt modes for the smooth forms; the rotation block gapless for v36.6's, the sine and 1 - cos (1/L^2 within 15%, the "
+          "count growing with the box; the three bands equal to 1e-3) and gapped for the smooth form (box-independent); the multi-start search reaching the mirror energy (1e-9) "
+          "with a uniform axis from every start, the final gradients below 1e-5; the sine's second-zero run in the mirror subspace (1e-12), off the second zero, not below the "
+          "mirror energy, the signed-tilt energy there (1e-9); the held wall's W(R_w) positive with one interior maximum and no minimum on two grids (residuals 1e-6; within 0.02)")
+    print("   [T] Symmetric criticality; the block decomposition; the zero mode.  [V] The inertia, the band, the search, the held wall.  [D] The full energy's vacuum term, its")
+    print("       isotropic stiffness and its discretization.  [O] The sectors' stress in Law I; a soldering of the internal frame to space; what the rotation mode, or the probe, is.")
+    return out
+
+def v36_7_suite():
+    p = v36_7_penalties(); l = v36_7_localization(); o = v36_7_off_ansatz(l)
+    return dict(penalties=p, localization=l, off_ansatz=o)
+
+def v36_7_quick():
+    """The checks that run in a few minutes: v36.6's quick set plus v36.7's penalties (the two v36.7 model sections, a few minutes more, run in v36_7)."""
+    v36_6_quick(); return v36_7_penalties()
 # ---------------------------------------------------------------------------------------------- the suites
 def v36_1_suite(prev=None):
     """The v36.1 sections.  prev: the dicts returned by v36_0_milky_way, v36_0_sparc_pilot and v36_0_zoom_labels (recomputed if None)."""
@@ -20564,8 +21215,8 @@ def v36_0_suite():
     return dict(mw=mw, pilot=p, zoom=z)
 
 def current_suite_v36():
-    """The current regression suite of Part XXXIII (v36.0-v36.6), followed by the check summary."""
-    prev = v36_0_suite(); v36_1_suite(prev); v36_2_suite(); v36_3_suite(); v36_4_suite(); v36_5_suite(); v36_6_suite()
+    """The current regression suite of Part XXXIII (v36.0-v36.7), followed by the check summary."""
+    prev = v36_0_suite(); v36_1_suite(prev); v36_2_suite(); v36_3_suite(); v36_4_suite(); v36_5_suite(); v36_6_suite(); v36_7_suite()
     npass = sum(1 for ok, _ in _CHECKS if ok); nfail = len(_CHECKS)-npass
     print(f"\n== check summary (Part XXXIII): {npass} passed, {nfail} failed ==")
     for ok, msg in _CHECKS:
@@ -20576,7 +21227,7 @@ def current_suite_v36():
 if __name__ == "__main__":
     import sys
     arg = sys.argv[1] if len(sys.argv) > 1 else "current"
-    suites = {"current": current_suite_v36, "v36_0": v36_0_suite, "v36_1": v36_1_suite, "v36_2": v36_2_suite, "v36_3": v36_3_suite, "v36_4": v36_4_suite, "v36_5": v36_5_suite, "v36_6": v36_6_suite, "quick": v36_6_quick}
+    suites = {"current": current_suite_v36, "v36_0": v36_0_suite, "v36_1": v36_1_suite, "v36_2": v36_2_suite, "v36_3": v36_3_suite, "v36_4": v36_4_suite, "v36_5": v36_5_suite, "v36_6": v36_6_suite, "v36_7": v36_7_suite, "quick": v36_7_quick}
     if arg not in suites:
         print("usage: python3 -I pg_v36_numerics.py [" + " | ".join(suites) + "]"); sys.exit(2)
     suites[arg]()
@@ -28324,6 +28975,8 @@ The note asks whether changing the internal make-up of the observer's side of th
 
 ## XXXIII.59 Standing after v36.6, and the next pieces [S/O; R364]
 
+*[v36.7, R369: §XXXIII.65 continues this standing — the penalties are compared in §§XXXIII.62–64, and the first of the localization model's missing parts, the probe's kinetic metric, now names the further term it needs beyond the isotropic stiffness (a soldering of the internal frame to space among the candidates); the others stand.]*
+
 §XXXIII.54 remains the operative standing, with these changes.
 - *Established [T/V], added.* The admissibility scalar — the squared Fubini–Study distance to an admitted joint family — zero on the family, detecting the mirror tilt and an azimuthal turn of one sector (the twist under which $F_L-F_R$ stays zero), blind to the fibre phases, its nullspace the choice of the family (§XXXIII.57(a)). The minimal localization model (§XXXIII.57(b)–(e)): a well whose radial extent is the pinned region; bound modes whose vertical scale is set mainly by the gap (not by the layer's thickness below $\xi$) and whose radial extent is set by $D_R$ within the well; far fields obeying the exterior theorem — the rates $\sqrt{(V_\infty-E_0)/D}$ and the asymptotic aspect $\sqrt{D_R/D_z}$ of the probe's kinetic metric, borne out to a few per cent where the tail is asymptotic and resolved. The radial scale is $D_R$'s, relative to the gap, and the aspect $D_R/D_z$'s: at $D_R = D_z = 1$ the mode falls several times faster than the image beyond $R\approx2h$, while isotropically at $D = 6$, or at $D_R = 10$–$20$ with $D_z = 1$, its radial scale lengths are comparable to the image's, with aspect $2.2$ or $4.7$–$6.0$. At $D_z = 1$ the mode unbinds between $D_R = 52.19$ (the largest box's lower bound; $52.37$ extrapolated) and $80.6$ (the Cwikel–Lieb–Rozenblum bound, $D_R\sqrt{D_z}>80.6$). The receiver-side algebra (§XXXIII.58): the two-path holonomy blind to the observer's frame; for one path or two added incoherently, the budget $T_{\mathbf d}+T_{-\mathbf d} = 1$, a uniform receiver's two parameters selecting within a family the source fixes, a varying receiver's arbitrary transmission $T\in[0,1]$.
 - *Not demonstrated,* now including: the thin–broad disk and the sine-exponential profile from an action — the minimal model localizes but derives neither, and by the exterior theorem none of its bound modes follows the image at large $R$ (§XXXIII.57(f)); §XXXIII.54's "a localization operator from an action" is met only by a minimal model whose probe, coupling, gap and kinetic metric are put in; the observed rotation curve from the theory as specified; any transfer, population law or scale derived.
@@ -28338,9 +28991,858 @@ The note asks whether changing the internal make-up of the observer's side of th
 - **R363** (§XXXIII.58). The two-path holonomy $W = P_2^{-1}P_1$ invariant under the observer's frame and conjugated by the source's; the projective receiver's $T_{\mathbf d} = (1+\mathbf d\cdot\mathbf b)/2$ with $T_{\mathbf d}+T_{-\mathbf d} = 1$, for one path or two added incoherently; a uniform receiver selecting within a two-parameter family the source fixes, its centre-to-outskirts difference at most $\lvert\mathbf b(0)-\mathbf b(\infty)\rvert/2 = \sin(\alpha(0)/2) = 0.2298$ ($0.2297$ at the box's edge); a varying receiver reaching any $T\in[0,1]$; the vacuum-blind channel $\sin^2(\alpha/2)$; coherent reception, the soldering map and the consistency law not built; the note's second paragraph recorded with §XXVI.8's cross-reference. [T/V/S/D]
 - **R364** (§XXXIII.59; §XXXIII.13; the head table; the toy). Standing after v36.6; the next pieces. The suite `pg_v36_numerics.py` at v36.6: two new sections and checks ($37$ in all), the finite-volume helpers `_v36_fv`, `_v36_fvg` (nonuniform cells, with `_v36_geo_edges`), `_v36_loc_alpha`, `_v36_loc_probe`, `_v36_loc_count` (the modes below $V_\infty$ by inertia, in any sector), `_v36_loc_ground`, `_v36_loc_shape` and the scalar `_v36_adm_C`, the mode `v36_6` (a few minutes), `quick` now $23$ checks; the toy `v32_toy_three_ends.py` gains `v36_6`, its `all` counting $224$; no new figure. The SHA-256 of the suite is in §XXXIII.13. [S/O; reproducibility]
 
-## Round record: the version summaries, v16 to v36.6 (moved from the head of the archive in v34.9, R190)
+## XXXIII.61 The review of v36.6, Entry 349 and the two responses on it, as formulated (20 October 2026) [record; R365]
 
-*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v36.6, v36.5, v36.4, v36.3, v36.2, v36.1, v36.0, v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+**The author's first message (20 October), with the review of v36.6 and a response attached, and Entry 349 in it.** In the author's words:
+
+> My next response, thanks!
+>
+> Me:
+> Entry 349, 9:05 AM, Oct 20, 2026
+> Wow, that’s wild that this “\[ \boxed{\mathcal C=\frac12(\theta-\alpha_0)^2} \]” quantity does the trick so well! It’s making me think, what if instead we define the interior quantity inside the square as (sin(theta)-sin(alpha_0)), since the same squared difference appears to show up so much??? Thanks!
+
+**The review of v36.6, in the author's words (attached, titled "Projective Gravity v36.6 — Review").**
+
+> # Projective Gravity v36.6 — Review
+>
+> I think v36.6 is a meaningful advance over v36.5, especially in how it turns your double-Hopf localization idea into an actual variational and spectral calculation.
+>
+> It now does something the previous versions did not: it starts with an explicit definition of which configurations of the two sectors are admissible, constructs an energy that responds to departures from those configurations, solves for the resulting geometric field, and then asks whether that field supports localized modes.
+>
+> And the result is informative in both directions:
+>
+> - Positive: The model produces a localized mode with exponential tails, and its radial and vertical decay rates obey a definite spectral relationship.
+> - Negative: The model does not derive the desired thin, radially extended galactic disk, and its far-field profile is incompatible with the sine-exponential source profile.
+>
+> I particularly appreciate that the manuscript preserves the negative result instead of adjusting the construction until it looks like the desired galaxy.
+>
+> ## What changed in this version
+>
+> | Section         | Main contribution                                                    | Assessment                                                                            |
+> | --------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+> | §XXXIII.57(a)   | Fubini–Study distance to an admitted double-Hopf family              | A useful mathematical clash detector, with a selected admissibility law still missing |
+> | §XXXIII.57(b–c) | Field energy, Euler–Lagrange equation and localized probe modes      | Substantial step beyond the previous potential-only toys                              |
+> | §XXXIII.57(d–f) | Radial–vertical decay theorem, anisotropy scan and binding threshold | The strongest theoretical result of this revision                                     |
+> | §XXXIII.58      | Observer-side \\(SU(2)\\) receiving channels                         | A clean demonstration of perspectival selection—and its limits                        |
+> | §XXXIII.59      | Remaining physical and observational requirements                    | Appropriately distinguishes a successful toy from a completed theory                  |
+>
+> ## 1. The admissibility scalar is the right kind of improvement
+>
+> Previously, the obvious candidate,
+>
+> \\[ F_L-F_R, \\]
+>
+> failed to detect some of the very relative motions you wanted to identify as clash.
+>
+> v36.6 instead defines
+>
+> \\[ \boxed{ \mathcal C(\mathbf n_L,\mathbf n_R) = \min\_{\beta} \left[ d\_{\rm FS}^2(\mathbf n_L,\mathbf a_L(\beta)) + d\_{\rm FS}^2(\mathbf n_R,\mathbf a_R(\beta)) \right]. } \\]
+>
+> Here the reference pair \\((\mathbf a_L,\mathbf a_R)\\) runs over the admitted family of joint double-Hopf configurations.
+>
+> The distinction is fundamental.
+>
+> Rather than asking whether the two sectors are geometrically different, the model asks whether their relationship violates the selected rules of compatibility.
+>
+> That fits your original idea much better: the two sectors can differ without necessarily clashing.
+>
+> The manuscript verifies that the scalar is zero on the admitted family, detects the symmetric mirror tilt, and detects certain azimuthal twists invisible to \\(F_L-F_R\\).
+>
+> For a mirror tilt \\(\theta\\) about the selected angle \\(\alpha_0\\),
+>
+> \\[ \boxed{\mathcal C=\frac12(\theta-\alpha_0)^2.} \\]
+>
+> This supplies a smooth, nonnegative quantity around the admitted configuration.
+>
+> But the manuscript also states its central limitation correctly:
+>
+> The zero-clash configurations are being chosen, not derived.
+>
+> The new scalar measures departure from those configurations. It does not explain why matter and the double-Hopf geometry select that family in the first place.
+>
+> There is a second distinction worth emphasizing. Because \\(\mathcal C\\) depends on Bloch-sphere directions, it is insensitive to the original Hopf-fiber \\(U(1)\\) phases. It is a relational metric incompatibility, not yet your Berry-holonomy clash.
+>
+> I would keep both concepts available, but not give them the same physical name until their relationship is derived.
+>
+> ## 2. The localization operator now has a genuine spectral result
+>
+> The geometric field is represented by a tilt \\(\alpha(R,z)\\), with energy density
+>
+> \\[ \boxed{ \mathcal L\_{\alpha} = \frac{k_s}{2}|\nabla\alpha|^2 + \frac{\lambda\rho}{2}(\alpha-\alpha_0)^2 + \mu(1-\cos\alpha). } \\]
+>
+> The terms compete:
+>
+> - Matter pins the two sectors near the admitted relative angle \\(\alpha_0\\).
+> - Stiffness penalizes rapid changes of that angle.
+> - The vacuum term favors alignment, \\(\alpha=0\\), away from matter.
+>
+> This leads to
+>
+> \\[ \boxed{ k_s\Delta\alpha = \lambda\rho(\alpha-\alpha_0) + \mu\sin\alpha. } \\]
+>
+> The scalar probe then experiences
+>
+> \\[ V(R,z)=\frac g2(\alpha(R,z)-\alpha_0)^2. \\]
+>
+> That potential is low where matter pins the internal sectors and rises toward a constant away from the source.
+>
+> For the chosen benchmark,
+>
+> \\[ \boxed{ V\_\infty=\frac{g\alpha_0^2}{2}=12.5. } \\]
+>
+> The numerical calculation finds genuinely bound modes beneath this threshold.
+>
+> This is better than v36.5's curvature-squared construction, which formed a barrier that went away at infinity.
+>
+> The new model produces an actual confining well rather than merely a local disturbance of the Berry curvature.
+>
+> But the origin of the well is important: the material profile, matter-pinning term, exterior alignment preference and probe coupling have all been chosen. The spectral calculation establishes what follows from those premises.
+>
+> It does not yet establish that PG's fundamental geometry requires them.
+>
+> ## 3. The radial–vertical calculation is the highlight
+>
+> This part has a particularly clean result.
+>
+> The probe equation is
+>
+> \\[ \boxed{ \left[ -D_R\frac1R\partial_R(R\partial_R) -D_z\partial_z^2 +V(R,z) \right]\psi=E\psi. } \\]
+>
+> Far from the source, \\(V\to V\_\infty\\).
+>
+> For a bound mode with \\(E_0\<V\_\infty\\), the asymptotic decay rates are
+>
+> \\[ \boxed{ \kappa_R=\sqrt{\frac{V\_\infty-E_0}{D_R}}, \qquad \kappa_z=\sqrt{\frac{V\_\infty-E_0}{D_z}}. } \\]
+>
+> Consequently, the ratio of asymptotic localization lengths is
+>
+> \\[ \boxed{ \frac{L_R}{L_z}=\sqrt{\frac{D_R}{D_z}}. } \\]
+>
+> This gives a direct mathematical connection between the radial–vertical hierarchy and the kinetic anisotropy of a single field.
+>
+> Selected results from §XXXIII.57
+>
+> Fixed \\(D_z=1\\), \\(V\_\infty=12.5\\). Increasing radial stiffness extends the mode radially but eventually destroys binding.
+>
+> 78.51011.513131020304050
+>
+> The binding threshold is \\(E_0=12.5\\). The continuum extrapolation places the loss of binding near \\(D_R\approx52.37\\), while the rigorous upper bound from the stated inequality is 80.6.
+>
+> The reported profiles illustrate the tradeoff:
+>
+> | \\((D_R,D_z)\\) | Half-maximum radial/vertical aspect | Interpretation                     |
+> | --------------- | ----------------------------------- | ---------------------------------- |
+> | \\((1,1)\\)     | 2.5                                 | Bound but radially too steep       |
+> | \\((10,1)\\)    | 4.7                                 | Broader radial mode                |
+> | \\((20,1)\\)    | 6.0                                 | Larger directional separation      |
+> | \\((40,1)\\)    | 7.3                                 | Weakly bound                       |
+> | \\((60,1)\\)    | —                                   | No bound mode in the tested domain |
+>
+> What I especially like is that the anisotropy isn't limitless. Increasing \\(D_R\\) makes the field progressively less able to remain bound, and the calculation identifies an unbinding transition.
+>
+> That gives the toy a constraint instead of an unlimited adjustable deformation.
+>
+> ### But the radial profile is still wrong
+>
+> Your sine-exponential image behaves at large gnomonic radius as a power law,
+>
+> \\[ \Sigma\_{\rm image}(R)\sim R^{-3}. \\]
+>
+> Its logarithmic radial scale length therefore grows approximately as
+>
+> \\[ h\_{\rm image}(R)\sim\frac R3. \\]
+>
+> By contrast, the localized probe has a positive asymptotic exponential decay rate:
+>
+> \\[ |\psi|^2 \sim \text{power-law factor}\times e^{-2\kappa_RR}. \\]
+>
+> Its local scale length tends toward the constant
+>
+> \\[ \boxed{ h\_{\psi,\infty}=\frac1{2\kappa_R}. } \\]
+>
+> That distinction is structural.
+>
+> The observed-image benchmark becomes progressively shallower outward, while this probe eventually settles into an exponential tail.
+>
+> No constant choice of \\(D_R,D_z\\) and a positive exterior gap can make those two asymptotics identical.
+>
+> I regard that as one of the best results of the version: it tells us which part of the intended explanation isn't supplied by this particular field theory.
+>
+> ## 4. One new mathematical issue I'd ask Claude to investigate
+>
+> I noticed something about the admissibility scalar that deserves its own check.
+>
+> The manuscript establishes smoothness of the reduced mirror-tilt potential along the selected branch. But the full squared-distance function need not be smooth at the aligned vacuum.
+>
+> Why?
+>
+> The admitted configurations form a circle of possible in-plane axes.
+>
+> At the aligned configuration
+>
+> \\[ \mathbf n_L=\mathbf n_R=\mathbf k, \\]
+>
+> every azimuthal member of that reference circle is equally close.
+>
+> So the minimizing angle \\(\beta\\) is not unique.
+>
+> Let \\(\mathbf v\\) be a small two-dimensional relative-tilt vector. Near alignment,
+>
+> \\[ \alpha\approx|\mathbf v|. \\]
+>
+> The squared-distance clash then behaves as
+>
+> \\[ \boxed{ \mathcal C(\mathbf v) = \frac12(\alpha_0-|\mathbf v|)^2 = \frac{\alpha_0^2}{2} -\alpha_0|\mathbf v| +O(|\mathbf v|^2). } \\]
+>
+> The absolute value is not differentiable at \\(\mathbf v=0\\).
+>
+> This isn't a problem for the numerical calculation restricted to a fixed axis and \\(\alpha\geq0\\). But it becomes important when trying to promote the model into a full variational theory of both \\(SU(2)\\) sectors, allowing arbitrary small relative orientations around the vacuum.
+>
+> There's an appealing alternative worth comparing, which connects to our earlier exchange-even construction:
+>
+> \\[ \boxed{ \mathcal C\_{\rm smooth} = \left| \mathbf n_L+\mathbf n_R - 2\cos\alpha_0\\,\mathbf k \right|^2. } \\]
+>
+> For unit Bloch vectors and \\(0<\alpha_0<\pi/2\\), this is zero exactly on the same admitted family.
+>
+> It is exchange-even, smooth at the aligned vacuum, and doesn't require minimizing over an azimuthal angle.
+>
+> It would produce a different potential and hence a different spectrum—that's the reason to compare, not a reason to replace the Fubini–Study construction without testing it.
+>
+> I would make this an explicit v36.7 robustness check:
+>
+> Does localization survive when the incompatibility energy is a globally smooth function of the complete two-sector configuration, rather than the squared distance to a circle?
+>
+> That would strengthen the physical interpretation considerably.
+>
+> ## 5. The selected radial direction is still not the energetically preferred one
+>
+> This part is especially relevant to your earlier intuition that the local radial vector, rather than a fixed Cartesian axis within the plane, should be fundamental.
+>
+> v36.6 explicitly compares the two possibilities.
+>
+> When the in-plane orientation is uniform, the energy is lower.
+>
+> When that orientation is forced to follow \\(\mathbf e_R\\), it winds around the galactic center and acquires additional gradient energy.
+>
+> The calculation finds
+>
+> \\[ \begin{aligned} E\_{\rm uniform\ axis}&=4.5032,\\\ E\_{\rm radial\ axis}&=4.5750. \end{aligned} \\]
+>
+> That is a relatively small difference, but it has an important interpretation.
+>
+> The present action favors one fixed in-plane axis rather than naturally selecting the radial direction at each point.
+>
+> A uniform axis also introduces a preferred in-plane direction into the internal configuration, even though the scalar matter profile is axisymmetric.
+>
+> To realize your intended radial ontology, the theory needs an additional coupling to the source-centered geometric frame, perhaps involving the orbital–normal bivector relation we previously discussed.
+>
+> Simply setting \\(\mathbf t=\mathbf e_R\\) is an admissible ansatz, but the current energy does not select it.
+>
+> ## 6. The observer-side result is a good first calculation, with a very definite limit
+>
+> Section XXXIII.58 addresses your newest proposal about changing the observer-side makeup of the two light paths.
+>
+> The first result is clean:
+>
+> \\[ W=P_2^{-1}P_1 \\]
+>
+> does not change under a common observer-frame transformation on both paths.
+>
+> That means a passive rotation cannot change the underlying path comparison.
+>
+> For an active receiving channel represented by a Bloch direction \\(\mathbf d\\), however,
+>
+> \\[ \boxed{ T\_{\mathbf d}(x) = \frac{1+\mathbf d\cdot\mathbf b(x)}2. } \\]
+>
+> And the complementary channel obeys
+>
+> \\[ \boxed{ T\_{\mathbf d}+T\_{-\mathbf d}=1. } \\]
+>
+> This is a simple, exact expression of perspectival selectivity.
+>
+> The receiving channel determines which part of an existing internal state becomes visible in that channel.
+>
+> The particularly interesting example is the receiver directed opposite to the selected normal:
+>
+> \\[ \mathbf d=-\mathbf k. \\]
+>
+> It gives
+>
+> \\[ \boxed{ T=\sin^2\frac{\alpha}{2}. } \\]
+>
+> As the sectors align in the outskirts, this receiving channel becomes dark.
+>
+> For the chosen configuration, it receives at most about 5.3% of the light, while the complementary channel receives at least 94.7%.
+>
+> This creates a substantial change in the selected-channel radial appearance.
+>
+> But I would draw three distinctions.
+>
+> First, this is not an arbitrary modification of the galaxy: a spatially uniform receiver has just two directional parameters, and the source determines the family of profiles it can produce.
+>
+> Second, allowing a different channel at every image position makes arbitrary transmission profiles possible, but only because those profiles are effectively programmed into the receiving apparatus.
+>
+> Third, the complementarity identity preserves the two-channel intensity budget, but it doesn't solve the separate astrophysical problem of what happens to the radiation omitted from one observational channel.
+>
+> For example, ordinary unpolarized broadband observations would not acquire this darkness merely because one hypothetical internal channel is selective. PG must derive a physical coupling between its Bloch-like states and the photons that telescopes actually detect.
+>
+> The result supports a constrained form of your perspectival reconstruction idea, but not yet observer-controlled galactic normals or genuine observer-dependent gravitational geometry.
+>
+> The source-to-light transport law and internal-to-spatial soldering map remain open.
+>
+> ## 7. I independently ran the new numerical tests
+>
+> I extracted the complete embedded `pg_v36_numerics.py` from the uploaded v36.6 manuscript.
+>
+> SHA-256 checksum matches the manuscript exactly.
+>
+> The numerical suite has two new v36.6-specific checks, and I executed both.
+>
+> v36.6-specific regression
+>
+> 2 / 2 passed
+>
+> Localization calculation
+>
+> Reproduced the admissibility values, vertical and radial spectral results, kinetic-anisotropy scan and binding-threshold calculations.
+>
+> Observer-side receiver
+>
+> Reproduced the holonomy transformation rules, complementary-channel identity, profile-selection bounds and vacuum-blind channel.
+>
+> The program exited successfully with 2 passed, 0 failed.
+>
+> This verifies reproducibility of the new computations under the embedded implementation; it isn't an independent derivation of the model's physical premises. I didn't rerun the entire inherited 37-check regression suite.
+>
+> ## 8. What I would prioritize next
+>
+> I would keep the localization construction, but aim at four closely related questions rather than immediately adding more parameters.
+>
+> First, establish a globally well-defined clash potential on the complete two-sector configuration space, including the aligned vacuum, phase freedoms and the \\(\mathbb{RP}^3\\) quotient.
+>
+> Second, derive the probe's kinetic tensor from the existing \\(SO(4)\\) geometry. Right now, \\(D_R/D_z\\) controls the very anisotropy we wanted explained. That is the main missing explanatory step.
+>
+> Third, replace the inserted Entry 326 image with a physical matter population consistently reduced through Law II. At present, the exponential-sine image is an input to the field equation, not an output of it. This is especially important given your wish to distinguish gravitational matter from its visual profile.
+>
+> Fourth, couple the geometric field and probe back to the physical source. The probe is treated as a test field here; varying a genuinely combined action would generally make it backreact on \\(\alpha\\), and eventually its stress-energy must be handled consistently with Law I.
+>
+> I'd also keep your Solar System criterion and the source-versus-receiver transformation test on the active checklist. Neither has been completed by v36.6.
+>
+> ## My overall verdict
+>
+> I would definitely retain v36.6 as the current working research draft.
+>
+> Its strongest achievement is not that it has derived an exponential galaxy. It hasn't.
+>
+> Its strongest achievement is that the localization hypothesis has become a mathematical model whose successes, failures and adjustable inputs can be identified separately.
+>
+> The emerging picture is:
+>
+> \\[ \boxed{ \begin{gathered} \text{Selected double-Hopf admissibility}\\\ \downarrow\\\ \text{Matter-pinned relative orientation}\\\ \downarrow\\\ \text{Effective spectral well}\\\ \downarrow\\\ \text{Bound modes with anisotropic exponential tails}. \end{gathered} } \\]
+>
+> That chain works in the specified toy theory.
+>
+> What remains is the much deeper chain you originally wanted:
+>
+> \\[ \boxed{ \begin{gathered} \text{Canonical geometry and Law I–II matter dynamics}\\\ \downarrow\\\ \text{Derived admissibility and kinetic structure}\\\ \downarrow\\\ \text{Self-selected gravitational source and optical response}\\\ \downarrow\\\ \text{Observed disk profiles, orbital dynamics and local GR}. \end{gathered} } \\]
+>
+> That second chain remains an open physical hypothesis.
+>
+> I think the most informative next test is whether a smooth, fully geometric two-sector action can produce the needed kinetic anisotropy and preserve localization without independently prescribing the galaxy's visible exponential profile.
+>
+> If that works, it would be a much more decisive result than making the current bound mode broader by tuning \\(D_R\\).
+>
+> And if it fails, the failure should tell us whether the difficulty lies in the chosen admissibility family, the nature of the probe, or the fundamental claim that the two Hopf sectors can generate the disk's radial–vertical hierarchy.
+>
+> So my assessment is quite positive about the mathematical progress, but deliberately reserved about the physics: v36.6 has established a concrete localization mechanism within a toy model, not yet a projective-gravity explanation of why galaxies have their observed shapes.
+
+**The response on Entry 349 (attached).**
+
+> Oh, that's a very interesting substitution! And it has a particularly nice interpretation in terms of your two \\(SU(2)\\) sectors: \\(\sin\theta\\) is already the magnitude of their relative directional component in the symmetric mirror-tilt construction.
+>
+> So this could be more than another convenient squared difference.
+>
+> ## 1. Your proposed clash quantity
+>
+> Starting with v36.6's
+>
+> \\[ \mathcal C\_{\rm old} =\frac12(\theta-\alpha_0)^2, \\]
+>
+> you're proposing
+>
+> \\[ \boxed{ \mathcal C\_{\sin} =\frac12(\sin\theta-\sin\alpha_0)^2. } \\]
+>
+> Both vanish when the actual tilt equals the admitted tilt,
+>
+> \\[ \theta=\alpha_0. \\]
+>
+> But the new quantity penalizes a difference in projected geometric components, rather than a difference in angles.
+>
+> That's potentially more natural for the underlying \\(SO(4)\\) construction.
+>
+> ## 2. Here's the especially appealing identity
+>
+> Recall the two-vector configuration:
+>
+> \\[ \begin{aligned} \mathbf n_L&=\cos\theta\\,\mathbf n+\sin\theta\\,\mathbf t,\\\ \mathbf n_R&=\cos\theta\\,\mathbf n-\sin\theta\\,\mathbf t. \end{aligned} \\]
+>
+> Take their difference:
+>
+> \\[ \boxed{ \frac{\mathbf n_L-\mathbf n_R}{2} =\sin\theta\\,\mathbf t. } \\]
+>
+> Therefore,
+>
+> \\[ \boxed{ \sin\theta = \frac12|\mathbf n_L-\mathbf n_R| } \\]
+>
+> for \\(0\leq\theta\leq\pi/2\\).
+>
+> That means your proposed potential measures how far the magnitude of the relative \\(SU(2)\\)-sector direction departs from its admitted magnitude.
+>
+> Even better, since the vectors are unit length,
+>
+> \\[ \boxed{ \sin^2\theta =\frac{1-\mathbf n_L\cdot\mathbf n_R}{2}. } \\]
+>
+> So the new sine is naturally encoded in the dot product of the two sectors.
+>
+> This is precisely the kind of relationship you've been looking for between their joint and relative structure.
+>
+> ## 3. It behaves similarly near equilibrium, but differently farther away
+>
+> Let
+>
+> \\[ \theta=\alpha_0+\delta. \\]
+>
+> Then
+>
+> \\[ \sin\theta-\sin\alpha_0 =\cos\alpha_0\\,\delta+O(\delta^2). \\]
+>
+> Thus
+>
+> \\[ \boxed{ \mathcal C\_{\sin} = \frac12\cos^2\alpha_0\\,\delta^2 +O(\delta^3). } \\]
+>
+> Compare this with
+>
+> \\[ \mathcal C\_{\rm old}=\frac12\delta^2. \\]
+>
+> So locally the substitution mostly rescales the effective stiffness by \\(\cos^2\alpha_0\\).
+>
+> But farther away, the sine potential is bounded and nonlinear. It also has a stationary point at \\(\theta=\pi/2\\), even if that is not the admitted angle.
+>
+> Comparing the two clash potentials
+>
+> Admitted tilt \\(\alpha_0\\)
+>
+> 25.8°
+>
+> Angular difference
+>
+> Sine difference
+>
+> Both potentials have the same preferred tilt. The sine-based potential changes the cost of departing from it.
+>
+> ## 4. There's an even more symmetric possibility!
+>
+> Because your two sectors naturally decompose into
+>
+> \\[ \mathbf n\_{\rm even}=\cos\theta\\,\mathbf n, \qquad \mathbf n\_{\rm odd}=\sin\theta\\,\mathbf t, \\]
+>
+> why penalize only the sine component?
+>
+> Consider
+>
+> \\[ \boxed{ \mathcal C\_{\rm both} = \frac12\left[ (\sin\theta-\sin\alpha_0)^2 + (\cos\theta-\cos\alpha_0)^2 \right]. } \\]
+>
+> A trigonometric identity simplifies this to
+>
+> \\[ \boxed{ \mathcal C\_{\rm both} =1-\cos(\theta-\alpha_0). } \\]
+>
+> And for small departures,
+>
+> \\[ \boxed{ \mathcal C\_{\rm both} = \frac12(\theta-\alpha_0)^2 +O((\theta-\alpha_0)^4). } \\]
+>
+> That's rather elegant: we recover v36.6's original quadratic potential as the small-angle approximation to a bounded, geometrically natural potential that treats sine and cosine components together.
+>
+> It resembles the squared chordal distance between two points on a unit circle.
+>
+> This may fit your ambition of making radial and normal behavior expressions of one underlying rotational structure.
+>
+> One caveat: this is smooth as a function of a signed scalar tilt angle. If \\(\theta\\) is instead defined as the unsigned separation of two arbitrary direction vectors, extending it through exact alignment still needs care.
+>
+> ## 5. A smooth full two-sector version
+>
+> There's a related candidate that addresses the smoothness issue I raised in my v36.6 review.
+>
+> Define
+>
+> \\[ \mathbf S=\frac{\mathbf n_L+\mathbf n_R}{2}, \qquad \mathbf D=\frac{\mathbf n_L-\mathbf n_R}{2}. \\]
+>
+> For \\(0<\alpha_0<\pi/2\\), consider
+>
+> \\[ \boxed{ \mathcal C\_{\rm geom} = \frac{\bigl(|\mathbf D|^2-\sin^2\alpha_0\bigr)^2} {8\sin^2\alpha_0} + \frac12 \left|\mathbf S-\cos\alpha_0\\,\mathbf n\right|^2. } \\]
+>
+> This has several desirable mathematical properties:
+>
+> - It is smooth in the original unit-vector components, including where \\(\mathbf D=0\\).
+> - It is unchanged by exchanging the \\(L\\) and \\(R\\) sectors.
+> - It vanishes on exactly the admitted mirror-pair family around the selected normal \\(\mathbf n\\).
+> - Near its admitted configuration, for the mirror tilt, it reproduces the original \\(\frac12(\theta-\alpha_0)^2\\) to quadratic order.
+>
+> This is not uniquely determined by PG. But it's worth comparing because it turns your sine idea into a smooth potential on the complete directional configuration space, rather than only on the chosen mirror-tilt branch.
+>
+> ## 6. What would change in v36.6's localization model?
+>
+> If we replace its matter-pinning energy by
+>
+> \\[ \lambda\rho\\,\mathcal C\_{\sin}, \\]
+>
+> the tilt equation becomes
+>
+> \\[ \boxed{ k_s\Delta\theta = \lambda\rho (\sin\theta-\sin\alpha_0)\cos\theta + \mu\sin\theta. } \\]
+>
+> And if the localized probe also couples to the new clash,
+>
+> \\[ V\_{\rm probe}=g\mathcal C\_{\sin}, \\]
+>
+> the far-field gap becomes
+>
+> \\[ \boxed{ V\_\infty = \frac g2\sin^2\alpha_0, } \\]
+>
+> instead of
+>
+> \\[ V\_\infty^{\rm old} = \frac g2\alpha_0^2. \\]
+>
+> For small \\(\alpha_0\\), they nearly coincide. At larger angles, the change can materially affect the eigenvalues, localization lengths and binding threshold.
+>
+> So this is directly testable using the existing v36.6 solver.
+>
+> One distinction matters here: the \\(\sin\theta\\) of the internal Hopf-sector tilt is not automatically the \\(\sin\chi\\) of the galaxy's areal radius. They're angular quantities on different geometrical spaces. A common underlying explanation is possible, but identifying them would require a new relation.
+>
+> ## My recommendation
+>
+> I would have Claude compare three variants using identical matter inputs and kinetic parameters:
+>
+> 1. Original angular penalty: \\(\frac12(\theta-\alpha_0)^2\\).
+> 2. Your sine penalty: \\(\frac12(\sin\theta-\sin\alpha_0)^2\\).
+> 3. The combined sine–cosine penalty: \\(1-\cos(\theta-\alpha_0)\\).
+>
+> Then test the smooth full-vector completion separately, including departures outside the mirror-tilt ansatz.
+>
+> The questions are whether the bound mode survives, how its radial and vertical scales change, whether an undesirable secondary stationary configuration appears, and whether the same galactic-scale asymptotic obstruction persists.
+>
+> The compelling aspect of your suggestion is that \\(\sin\theta\\) isn't arbitrary here: it is literally the magnitude of the exchange-odd directional component of the double-Hopf pair.
+>
+> And adding the complementary cosine term gives an especially clean result:
+>
+> \\[ \boxed{ \underbrace{1-\cos(\theta-\alpha_0)}\_{\text{full rotational mismatch}} \quad\longrightarrow\quad \underbrace{\frac12(\theta-\alpha_0)^2}\_{\text{v36.6 local approximation}}. } \\]
+>
+> I think that's a productive next experiment. It could turn the successful local quadratic penalty into a more geometrically motivated global incompatibility law—although deriving the selected angle, the kinetic structure and the physical coupling would still be necessary to make it a fundamental PG result.
+
+**The author's second message (20 October): a further response on Entry 349, attached without a note; the question it answers is not in the record.**
+
+> Yes—absolutely! And swapping the probe potential itself may be the cleanest way to test your sine-based idea. You can make this substitution without changing the rest of v36.6's localization model initially.
+>
+> In fact, there is a particularly interesting reason to try it: \\(\sin\alpha\\) is the magnitude of the exchange-odd component of your two \\(SU(2)\\) directions.
+>
+> ## 1. The proposed replacement
+>
+> Currently, v36.6 uses
+>
+> \\[ V\_{\rm old}(R,z) =\frac g2\bigl(\alpha(R,z)-\alpha_0\bigr)^2. \\]
+>
+> Replace it with
+>
+> \\[ \boxed{ V\_{\sin}(R,z) =\frac g2 \left[\sin\alpha(R,z)-\sin\alpha_0\right]^2. } \\]
+>
+> This is a perfectly legitimate potential for the probe's spectral operator.
+>
+> Crucially, you can leave the equation determining \\(\alpha(R,z)\\) untouched and change only the probe potential. That isolates the physical consequences of your substitution.
+>
+> The probe equation becomes
+>
+> \\[ \boxed{ \left[ -D_R\frac1R\partial_R(R\partial_R) -D_z\partial_z^2 +\frac g2(\sin\alpha-\sin\alpha_0)^2 \right]\psi=E\psi. } \\]
+>
+> ## 2. Why this is geometrically appealing
+>
+> Recall the mirror-pair geometry:
+>
+> \\[ \mathbf n_L=\cos\alpha\\,\mathbf n+\sin\alpha\\,\mathbf t, \\]
+>
+> \\[ \mathbf n_R=\cos\alpha\\,\mathbf n-\sin\alpha\\,\mathbf t. \\]
+>
+> Their difference satisfies
+>
+> \\[ \frac{\mathbf n_L-\mathbf n_R}{2} =\sin\alpha\\,\mathbf t. \\]
+>
+> Therefore, for \\(0\leq\alpha\leq\pi/2\\),
+>
+> \\[ \boxed{ \sin\alpha =\frac12|\mathbf n_L-\mathbf n_R|. } \\]
+>
+> Your potential can consequently be written as
+>
+> \\[ \boxed{ V\_{\sin} = \frac g8 \left( |\mathbf n_L-\mathbf n_R| -2\sin\alpha_0 \right)^2. } \\]
+>
+> This is arguably a more direct two-sector interpretation than penalizing the angular difference.
+>
+> Rather than asking how far the actual angle differs from a selected angle, it asks how far the relative component of the two sectors differs from its admitted magnitude.
+>
+> It is invariant under exchanging \\(L\\) and \\(R\\), as well as under simultaneous rotations of both vectors.
+>
+> One qualification: as a function of unrestricted vector components, the norm makes this expression nonsmooth where \\(\mathbf n_L=\mathbf n_R\\), if \\(\alpha_0\neq0\\). It is smooth in the restricted scalar tilt \\(\alpha\\). The full \\(SU(2)\\)-sector action would need a smooth completion or a justified restriction.
+>
+> ## 3. What happens to the localization?
+>
+> There are two distinct effects.
+>
+> ### The external spectral gap changes
+>
+> In v36.6, the vacuum has \\(\alpha\to0\\), so
+>
+> \\[ V\_{\infty,\rm old} =\frac g2\alpha_0^2. \\]
+>
+> With your substitution,
+>
+> \\[ \boxed{ V\_{\infty,\sin} =\frac g2\sin^2\alpha_0. } \\]
+>
+> Because \\(\sin\alpha_0\leq\alpha_0\\), the new external gap is smaller if we keep \\(g\\) fixed.
+>
+> For an illustrative \\(\alpha_0=0.45\\) radians:
+>
+> New gap / old gap
+>
+> # 93.4%
+>
+> Reduction at fixed \\(g\\)
+>
+> # 6.6%
+>
+> That's relatively modest, so the bound mode may survive—but it must be recalculated, especially near v36.6's unbinding threshold.
+>
+> ### The potential's shape also changes
+>
+> Near the admitted configuration, write \\(\alpha=\alpha_0+\delta\\). Then
+>
+> \\[ \boxed{ V\_{\sin} = \frac g2\cos^2\alpha_0\\,\delta^2 +O(\delta^3). } \\]
+>
+> So your potential is locally softer than the original angular potential at the same \\(g\\).
+>
+> In the common range \\(0\leq\alpha\leq\alpha_0\leq\pi/2\\), it also produces a shallower well relative to its external threshold. That could weaken binding or alter the ground-mode profile.
+>
+> ## 4. The exponential tails retain the same mathematical mechanism
+>
+> Provided a bound mode still exists, with
+>
+> \\[ E\_{0,\sin}\<V\_{\infty,\sin}, \\]
+>
+> the asymptotic decay rates are
+>
+> \\[ \boxed{ \kappa_R = \sqrt{\frac{V\_{\infty,\sin}-E\_{0,\sin}}{D_R}}, \qquad \kappa_z = \sqrt{\frac{V\_{\infty,\sin}-E\_{0,\sin}}{D_z}}. } \\]
+>
+> And importantly,
+>
+> \\[ \boxed{ \frac{L_R}{L_z} = \sqrt{\frac{D_R}{D_z}}. } \\]
+>
+> Your sine substitution preserves the radial–vertical spectral relationship.
+>
+> What changes is the eigenvalue, the gap above the bound mode, and therefore the absolute localization lengths.
+>
+> It doesn't yet derive the kinetic anisotropy \\(D_R/D_z\\), but it provides a direct new robustness test of the localization mechanism.
+>
+> ## 5. One comparison I'd particularly recommend
+>
+> There is a subtle issue when comparing the potentials fairly.
+>
+> If you keep \\(g\\) fixed, both the far-field gap and the well's local curvature change.
+>
+> But you could instead rescale the new coupling to preserve the original external threshold:
+>
+> \\[ \boxed{ g\_{\sin} = g\_{\rm old} \left(\frac{\alpha_0}{\sin\alpha_0}\right)^2. } \\]
+>
+> Then
+>
+> \\[ V\_{\infty,\sin}=V\_{\infty,\rm old}. \\]
+>
+> This would reveal whether the difference in localization comes from the shape of the potential, rather than merely its overall scale.
+>
+> I'd compare three runs:
+>
+> 1. Original angular potential, unchanged.
+> 2. Sine potential with the same \\(g\\).
+> 3. Sine potential with \\(g\\) adjusted to preserve \\(V\_\infty\\).
+>
+> That third run is particularly informative because even with the same exterior gap, the local stiffness of the well generally differs. So the two constructions aren't just equivalent up to a rescaling of the coupling.
+>
+> There is also a useful restriction: if \\(\alpha\\) ranges beyond \\(\pi/2\\), then \\(\sin\alpha=\sin\alpha_0\\) can introduce another zero at \\(\alpha=\pi-\alpha_0\\). Keeping the original mirror-tilt range avoids that additional admissible configuration.
+>
+> ## My assessment
+>
+> I think this is a very reasonable and potentially more natural replacement for the probe potential. It is not just an arbitrary nonlinear change:
+>
+> \\[ \boxed{ \text{Angular clash} \quad\longrightarrow\quad \text{Mismatch of the exchange-odd component}. } \\]
+>
+> And the appealing part is that this connects directly to the earlier \\(SO(4)\simeq SU(2)\_L\times SU(2)\_R\\) construction.
+>
+> I would make the probe-only substitution first, preserving the already-calculated \\(\alpha(R,z)\\). If that works, the next experiment is replacing the matter-pinning clash energy as well and resolving the full nonlinear field equations.
+>
+> The strongest outcome would be if the sine potential preserved bound states and produced improved radial and vertical scale behavior without changing the kinetic coefficients.
+>
+> That would be evidence that the exchange-odd geometry is doing useful explanatory work within the toy—not yet that it derives the galactic profile, but a meaningful step toward that goal.
+>
+> And one last distinction worth keeping: the internal angle \\(\alpha\\) and the galactic positional angle \\(\chi\\) in \\(e^{-a\sin\chi}\\) are different variables. Finding that both naturally involve sine would be suggestive; deriving their relationship would be the actual PG breakthrough.
+
+**What v36.7 does with them.** The review keeps v36.6 as the working draft and raises one new mathematical issue: the admissibility scalar, smooth on the mirror branch, has a cone at the aligned vacuum, where every member of the admitted circle is equally near; it proposes the smooth $\lvert\mathbf n_L+\mathbf n_R-2\cos\alpha_0\,\mathbf k\rvert^2$ and asks, as v36.7's robustness check, whether localization survives a globally smooth incompatibility energy. Entry 349 proposes $\sin\theta-\sin\alpha_0$ inside the square in place of $\theta-\alpha_0$; the first response reads $\sin\theta$ as $\tfrac12\lvert\mathbf n_L-\mathbf n_R\rvert$, adds $1-\cos(\theta-\alpha_0)$ and a smooth form, and asks for the three branch penalties compared on the same inputs and the smooth form tested off the mirror ansatz; the second asks for the sine in the probe's potential alone, at the same coupling and at the same gap. §XXXIII.62 writes each penalty on the full two-sector configuration and compares them — the review's cone confirmed, one point of a non-differentiable set that contains the whole coincidence set $\mathbf n_L = \mathbf n_R$; the sine, in the responses' reading, a function of $\mathbf n_L\cdot\mathbf n_R$ alone, blind to the normal, zero again at $\pi-\alpha_0$, conical at alignment and quartic in the twist; the response's and the review's smooth forms polynomials in $(\mathbf n_L+\mathbf n_R)/2$, zero exactly on the family, with about a quarter of the gap at the same curvature (R366). §XXXIII.63 reruns v36.6's localization model with each, the probe alone and the pinning with it, at the same coupling and at the same gap: the sine and $1-\cos$ keep v36.6's three modes; the smooth forms confine the pinned tilt to a patch, and with their pinning the lowest-order ones lose the mode at the same coupling while one with a quartic term and v36.6's gap binds two; the exterior obstruction holds for every gapped penalty (R367). §XXXIII.64 tests the mirror solution off its ansatz, in the full two-sector energy: a stable critical point for every penalty, with one zero mode, no lower state found, and the sine's second zero leaving no metastable state (R368). The review's further points: the Fubini–Study construction and the Berry-holonomy clash are kept apart, as in v36.6 — every penalty here is a function of the Bloch directions and blind to the fibre phases, which carry the clash phase (§XXXIII.41(f)); the energy does not select the radial axis, as §XXXIII.57(c) computed ($4.5750$ against $4.5032$) — a coupling to the source-centred frame is the soldering map of the next pieces; the receiver's darkness needs a coupling of the Bloch-like states to the photons telescopes detect, the transport law, already open (§XXXIII.58(b), (d)); the review's reproduction of the two v36.6 checks is recorded; its four priorities — the globally defined potential (begun here), the kinetic tensor from the $SO(4)$ geometry, the matter population through Law II, the back-reaction — and the Solar-System criterion and the source-versus-receiver test (the note's three-way test of the source reduction) stand in §XXXIII.65's list. The second response's expectation that the sine's well is shallower relative to its threshold is tested: normalized to its threshold, at the same gap, it lies lower, the opposite; at the same coupling it is shallower and binds more weakly, as it expected (§XXXIII.63(c)).
+
+## XXXIII.62 The penalties of the admissibility geometry, as functions of the full two-sector configuration [T/V/D; R366] *(`v36_7_penalties()`)*
+
+The review of v36.6 notes that v36.6's admissibility scalar, smooth on the mirror branch, is not smooth at the aligned vacuum, and proposes the smooth $\lvert\mathbf n_L+\mathbf n_R-2\cos\alpha_0\,\mathbf k\rvert^2$; Entry 349 proposes the sine, $\tfrac12(\sin\theta-\sin\alpha_0)^2$ in place of $\tfrac12(\theta-\alpha_0)^2$; the responses add $1-\cos(\theta-\alpha_0)$, a smooth form, and the sine in the probe's potential alone. Each is written here on the full configuration $(\mathbf n_L,\mathbf n_R)$ and compared: its zeros, its curvature at the admitted tilt, its value at the aligned vacuum (the gap per unit coupling), its smoothness there, what it sees off the branch. Throughout $\alpha_0 = 0.5$, $s = \sin\alpha_0$, $c = \cos\alpha_0$.
+
+**(a) The two-sector algebra [T].** With $\mathbf S = (\mathbf n_L+\mathbf n_R)/2$ and $\mathbf D = (\mathbf n_L-\mathbf n_R)/2$, $\lvert\mathbf S\rvert^2+\lvert\mathbf D\rvert^2 = 1$ and $\mathbf S\cdot\mathbf D = 0$ for unit vectors (on generic pairs to $10^{-16}$). On the mirror branch $\mathbf n_{L,R} = \cos\theta\,\mathbf k\pm\sin\theta\,\mathbf t$, $\mathbf S = \cos\theta\,\mathbf k$ and $\lvert\mathbf D\rvert = \sin\theta = \tfrac12\lvert\mathbf n_L-\mathbf n_R\rvert$, so $\sin^2\theta = (1-\mathbf n_L\cdot\mathbf n_R)/2$ — the responses' identities. The admitted family is exactly $\mathbf S = c\,\mathbf k$: then $\lvert\mathbf D\rvert = s$ and $\mathbf D\perp\mathbf k$. Every penalty below is a pointwise function of the two Bloch directions: blind to the sectors' $U(1)$ fibre phases and to the sign of each spinor (random spinors with their phases and signs changed: $2\times10^{-16}$), so defined on the gravitational quotient wherever the two direction fields are; the Hopf maps themselves descend to $\mathbb{RP}^3$ ($h(-q) = h(q)$, R351). This answers the review's "phase freedoms and the $\mathbb{RP}^3$ quotient"; what remains is smoothness at the aligned vacuum.
+
+**(b) The review's kink [T/V].** At the aligned configuration $\mathbf n_L = \mathbf n_R = \mathbf k$ every member of the admitted circle is equally near, and v36.6's scalar has a cone there: on the mirror branch, for any azimuth, it is exactly $\tfrac12(\alpha_0-\lvert\mathbf v\rvert)^2 = \tfrac12\alpha_0^2-\alpha_0\lvert\mathbf v\rvert+\tfrac12\lvert\mathbf v\rvert^2$, $\lvert\mathbf v\rvert$ the tilt ($0.1200500000$, $0.1245005000$, $0.1249500050$ at $\lvert\mathbf v\rvert = 10^{-2}$, $10^{-3}$, $10^{-4}$, each its closed form), and for small displacements $\mathbf u_L$, $\mathbf u_R$ of the two sectors from $\mathbf k$ it is $\tfrac12\alpha_0^2-\tfrac12\alpha_0\lvert\mathbf u_L-\mathbf u_R\rvert+O(u^2)$ (the remainder over $\lvert u\rvert^2$: $0.41$, $0.34$, $0.28$) — not differentiable where the relative displacement vanishes. The aligned vacuum is one point of a larger set where the scalar is not differentiable: the pairs with two equally near members of the admitted circle, which contains the whole coincidence set $\mathbf n_L = \mathbf n_R = \mathbf n$ (there the two assignments of the pair tie, $\mathbf a_R(\beta) = \mathbf a_L(\beta+\pi)$). At a coincident pair the scalar is the smaller of two smooth branches that the sign of an antisymmetric displacement $(\exp_{\mathbf n}(\varepsilon\mathbf e),\exp_{\mathbf n}(-\varepsilon\mathbf e))$ exchanges, so its two one-sided slopes are equal, $-\lvert\mathbf g\cdot\mathbf e\rvert$ for some vector $\mathbf g$: negative in every direction but one ($-\alpha_0$ in every direction at $\mathbf k$). Along the suite's direction $\mathbf e$ they are $-0.500$ at $\mathbf k$, and $-0.134$, $-0.469$, $-0.763$, $-1.723$ at polar angles $0.3$, $0.8$, $1.6$, $2.6$; the common displacement is smooth. v36.6's solution never meets the cone ($\alpha>0$ wherever there is matter, §XXXIII.57(c)), but a field theory of the full configuration does, wherever the two sectors pass through each other (§XXXIII.64(d)). The review's formula is confirmed.
+
+**(c) The penalties on the branch [T/V].** For $0\leq\theta\leq\pi$ (each full-configuration form of (d)–(f) equals its branch formula to $4\times10^{-16}$):
+
+| penalty | curvature at $\alpha_0$ | value at $\theta = 0$ (gap per unit $g$) | slope at $\theta = 0$ | zeros in $[0,\pi]$ | maximum |
+|:--|:--|:--|:--|:--|:--|
+| v36.6's $\tfrac12(\theta-\alpha_0)^2$ | $1$ | $0.125000$ | $-0.5000$ | $0.5$ | $3.4890$ |
+| Entry 349's $\tfrac12(\sin\theta-s)^2$ | $c^2 = 0.770151$ | $0.114924$ | $-0.4794$ | $0.5$, $\pi-0.5$ | $0.1355$ |
+| the response's $1-\cos(\theta-\alpha_0)$ | $1$ | $0.122417$ | $-0.4794$ | $0.5$ | $1.8776$ |
+| the response's smooth form | $1$ | $0.036224$ | $0$ | $0.5$ | $1.7914$ |
+| the review's $\lvert\mathbf n_L+\mathbf n_R-2c\,\mathbf k\rvert^2/8s^2$ | $1$ | $0.032600$ | $0$ | $0.5$ | $7.6688$ |
+| the sine made smooth, $(\sin^2\theta-s^2)^2/8s^2$ | $c^2 = 0.770151$ | $0.028731$ | $0$ | $0.5$, $\pi-0.5$ | $0.3226$ |
+
+**(d) Entry 349's sine [T/V].** On the branch it vanishes at $\alpha_0$ and also at $\pi-\alpha_0 = 2.6416$ ($\sin$ is not one-to-one on $[0,\pi]$), with a maximum $0.1355$ at $\pi/2$ between them; its curvature at $\alpha_0$ is $\cos^2\alpha_0 = 0.770151$ (the pinning $23\%$ softer at the same coupling, as the response says) and its gap $\tfrac12\sin^2\alpha_0 = 0.114924$ per unit $g$, $91.9\%$ of v36.6's $\tfrac12\alpha_0^2$. Off the branch, in the responses' reading $\sin\theta = \tfrac12\lvert\mathbf n_L-\mathbf n_R\rvert$ — the relative invariant $\lvert\mathbf D\rvert$ — the sine penalty $\tfrac12(\lvert\mathbf D\rvert-s)^2$ depends on $\mathbf n_L\cdot\mathbf n_R$ alone. It is therefore invariant under every common rotation (about $\mathbf k$: $4\times10^{-17}$; about $\mathbf e_y$: $6\times10^{-17}$) — the second response's "invariant under … simultaneous rotations of both vectors" — and it vanishes on every pair at relative angle $2\alpha_0$: the admitted pair tilted as a whole by $0.7$ gives $0$ (v36.6's scalar $0.245$). It encodes the relative angle and not the normal, which must then come from another term. (Read instead through $\sqrt{1-(\mathbf S\cdot\mathbf k)^2}$, which is also $\sin\theta$ on the branch, it sees the normal: its zero set is $\lvert\mathbf S\cdot\mathbf k\rvert = c$, $\mathbf S\cdot\mathbf k = -c$ being the second zero again, and the tilted pair gives $0.034$.) In either reading it has v36.6's cone at alignment ($\lvert\mathbf D\rvert$ is not smooth at $\mathbf D = 0$; slope $-0.4794$), so it does not cure the review's kink — the second response's own qualification. An azimuthal turn of one sector by $\varepsilon$ at the admitted pair costs it only $O(\varepsilon^4)$ ($1.79\times10^{-7}$ and $1.12\times10^{-8}$ at $\varepsilon = 0.1$, $0.05$: ratio $16.0$), against $O(\varepsilon^2)$ for v36.6's scalar (ratio $4.0$). Made smooth — $\sin^2\theta = (1-\mathbf n_L\cdot\mathbf n_R)/2$ is a polynomial — it becomes $(\sin^2\theta-\sin^2\alpha_0)^2/(8\sin^2\alpha_0) = (\mathbf n_L\cdot\mathbf n_R-\cos2\alpha_0)^2/(32\sin^2\alpha_0)$: the same zeros and curvature, smooth, still blind to the normal.
+
+**(e) The response's $1-\cos(\theta-\alpha_0)$ [T/V].** On the branch it has a unique zero, unit curvature (it is $\tfrac12(\theta-\alpha_0)^2+O((\theta-\alpha_0)^4)$, as the response says), the gap $1-\cos\alpha_0 = 0.122417$, and is bounded by $2$. Its sine and cosine parts read through $\lvert\mathbf D\rvert$ and $\mathbf S\cdot\mathbf k$ give $\tfrac12(\lvert\mathbf D\rvert-s)^2+\tfrac12(\mathbf S\cdot\mathbf k-c)^2$, which vanishes exactly on the family but keeps the cone at alignment (slope $-0.4794$) and the $O(\varepsilon^4)$ twist (ratio $16.0$); read through the relative angle alone, $1-c\lvert\mathbf S\rvert-s\lvert\mathbf D\rvert$, it is again blind to the normal. The cone is not a matter of the reading: on the branch the exchange reverses the signed tilt, and the branch functions of the sine and of $1-\cos(\theta-\alpha_0)$ have the slope $-\sin\alpha_0$ at alignment, so every exchange-even reading of either has the one-sided slopes $-\sin\alpha_0$ in both directions there — conical in every such reading (§XXXIII.63(a)'s argument). A third reading, $\tfrac12(\lvert\mathbf D\rvert-s)^2+\tfrac12\lvert\mathbf S-c\,\mathbf k\rvert^2$, is conical too (slope $-0.4794$) but quadratic in the twist (ratio $4.0$): the twist order and the blindness to the normal depend on the reading, the cone does not. The response's caveat — that through the unsigned separation of two directions it needs care at alignment — holds in every reading.
+
+**(f) The smooth forms [T/V].** The review's $\lvert\mathbf n_L+\mathbf n_R-2\cos\alpha_0\,\mathbf k\rvert^2 = 4\lvert\mathbf S-c\,\mathbf k\rvert^2$ and the response's $(\lvert\mathbf D\rvert^2-s^2)^2/8s^2+\tfrac12\lvert\mathbf S-c\,\mathbf k\rvert^2$ — with $\lvert\mathbf D\rvert^2 = 1-\lvert\mathbf S\rvert^2$ — are polynomials in the components of $\mathbf S$, its direction entering through $\mathbf S-c\,\mathbf k$ (the cone forms are functions of $\mathbf S$ too, through $\lvert\mathbf D\rvert = \sqrt{1-\lvert\mathbf S\rvert^2}$, but not smooth ones): smooth everywhere, exchange-even, invariant under the rotation about $\mathbf k$ and not under other rotations (the tilted pair: $0.181$, $0.788$), zero exactly on the family ($\mathbf S = c\,\mathbf k$ forces it), quadratic in the twist (ratio $4.0$). The response's claims for its form — smooth, exchange-even, vanishing exactly on the family, $\tfrac12(\theta-\alpha_0)^2$ to quadratic order — are confirmed. Normalized to unit curvature at $\alpha_0$ both are flat at the aligned vacuum, which is a critical point of each, and their gaps per unit $g$ are $0.036224$ and $(1-c)^2/2s^2 = \tfrac12\tan^2(\alpha_0/2) = 0.032600$, $29\%$ and $26\%$ of v36.6's. For these lowest-order forms (quadratic in $\mathbf S$) the gap is about $\alpha_0^2/8$ for small $\alpha_0$, a quarter of the cone's $\alpha_0^2/2$, which the cone buys with its slope. Smoothness itself fixes only the slope: the review's form plus $K(\mathbf S\cdot\mathbf k-c)^4$ — still a polynomial, with the same zero set and unit curvature at $\alpha_0$ — has the gap $0.032600+2.246\times10^{-4}K$, v36.6's $0.125$ at $K = 411.4$. What smoothness forces is the zero slope at alignment, and with it the patch of §XXXIII.63(a). As forms, the smooth ones meet the review's first priority — an incompatibility energy defined on the whole two-sector configuration space, the aligned vacuum included; none is derived. Whether localization survives them is §XXXIII.63.
+
+[T] The algebra, the zero sets, the invariances, the kink. [V] The values on the branch and off it. [D] Each penalty is a choice, compared at $\alpha_0 = 0.5$. [O] Which penalty, if any, PG's geometry selects.
+
+## XXXIII.63 The localization model with each penalty: the probe's potential alone, the pinning with it, at the same coupling and at the same gap [T/V/D; R367] *(`v36_7_localization()`)*
+
+v36.6's model (§XXXIII.57: $k_s = 1$, $\lambda = 500$, $\mu = 25$, $\alpha_0 = 0.5$, $g = 100$; Entry 326's image with $h = 1$, $\ell/h = 16/3$, $h_d = 0.1$ as the pinning density; the large grid, $R\leq420$, $z\leq60$) with the penalty $P$ changed: in the probe's potential $gP(\alpha)$ only, with $\alpha$ kept from v36.6's pinning — the second response's first experiment — or in the pinning $\lambda\rho P(\alpha)$ and the probe both, the full nonlinear substitution; at the same $g$, and with $g$ raised to keep the gap $V_\infty = gP(0)$ at $12.5$, the second response's third run. The probe is isotropic ($D_R = D_z = 1$) unless stated; the modes are counted by inertia in the axisymmetric sector even in $z$ unless stated.
+
+**(a) Where the matter tilts the sectors [T/V].** With a cone penalty — $P'(0) = -\alpha_0$ or $-\sin\alpha_0$, negative: v36.6's, the sine, $1-\cos$ — the force $-\lambda\rho P'(0)$ tilts the sectors wherever there is matter, and in the weak-pinning far field the tilt follows the column density: in the plane $\alpha = 4.18\times10^{-2}$, $4.14\times10^{-3}$, $2.70\times10^{-5}$, $3.05\times10^{-6}$ at $R = 5$, $10$, $50$, $100$ for v36.6's — at the cells nearest $50$ and $100$ ($R = 49.35$, $101.82$) $\alpha/f_R = 4.3796$ and $4.3794$, constant to $3\times10^{-5}$, $f_R$ the image's radial profile — and the sine's and $1-\cos$'s are within $5.0\%$ of it. A smooth penalty has the aligned vacuum as a critical point ($P'(0) = 0$, $P''(0) = -0.6224$, $-0.5326$, $-0.5000$ for the response's form, the review's and the smooth sine) — for an exchange-even penalty the branch function is even in the signed tilt, which the exchange reverses, so smoothness at alignment forces $P'(0) = 0$ — and weak matter cannot tilt the sectors at all: the vertical operator $-k_s\partial_z^2+\mu+\lambda\rho P''(0)$ at $\alpha = 0$ is negative — the aligned vacuum locally unstable, the radial gradients dropped — only inside $R = 1.53$, $1.38$, $1.32$, and the solved tilt falls below $10\%$ of its central value by $R = 1.86$, $1.70$, $1.62$ and below $1\%$ by $R = 2.38$, $2.22$, $2.14$ (v36.6's: $4.82$, $9.66$, and then its tail following the column density). The pinned region becomes a patch where the matter is dense, inside $R\approx2$–$2.4\,h$, instead of following the image's tail.
+
+**(b) The modes [V].** The large grid, the probe isotropic:
+
+| run | $g$ | $V_\infty$ | modes ($m = 0$, even) | $E_0$ | $V = V_\infty/2$ at $R$ | half maximum $R$ / $z$ | $\Sigma_\psi$ local scale lengths at $R = 1$, $2$, $3$, $4$, $6$, $8$ | in-plane $\kappa$ fitted / theorem |
+|:--|:--|:--|:--|:--|:--|:--|:--|:--|
+| v36.6's | $100$ | $12.500$ | $3$ | $7.5859$ | $3.07$ | $0.86$ / $0.34$ | $0.61$, $0.33$, $0.25$, $0.22$, $0.22$, $0.22$ | $2.2035$ / $2.2168$ |
+| sine, probe only | $100$ | $11.492$ | $3$ | $7.0788$ | $3.13$ | $0.90$ / $0.36$ | $0.65$, $0.35$, $0.26$, $0.24$, $0.23$, $0.23$ | $2.0873$ / $2.1009$ |
+| sine, probe only, same gap | $108.8$ | $12.500$ | $3$ | $7.4577$ | $3.13$ | $0.86$ / $0.34$ | $0.61$, $0.33$, $0.25$, $0.22$, $0.21$, $0.21$ | $2.2324$ / $2.2455$ |
+| sine, pinning and probe | $100$ | $11.492$ | $3$ | $7.2512$ | $3.06$ | $0.90$ / $0.36$ | $0.64$, $0.35$, $0.27$, $0.24$, $0.23$, $0.23$ | $2.0458$ / $2.0594$ |
+| sine, pinning and probe, same gap | $108.8$ | $12.500$ | $3$ | $7.6470$ | $3.06$ | $0.86$ / $0.34$ | $0.60$, $0.33$, $0.25$, $0.23$, $0.22$, $0.22$ | $2.1897$ / $2.2030$ |
+| $1-\cos$, probe only | $100$ | $12.242$ | $3$ | $7.5234$ | $3.05$ | $0.86$ / $0.34$ | $0.61$, $0.33$, $0.25$, $0.23$, $0.22$, $0.22$ | $2.1586$ / $2.1722$ |
+| $1-\cos$, probe only, same gap | $102.1$ | $12.500$ | $3$ | $7.6224$ | $3.05$ | $0.86$ / $0.34$ | $0.61$, $0.33$, $0.25$, $0.22$, $0.22$, $0.22$ | $2.1951$ / $2.2085$ |
+| $1-\cos$, pinning and probe | $100$ | $12.242$ | $3$ | $7.5337$ | $3.03$ | $0.86$ / $0.34$ | $0.61$, $0.33$, $0.25$, $0.23$, $0.22$, $0.22$ | $2.1559$ / $2.1698$ |
+| $1-\cos$, pinning and probe, same gap | $102.1$ | $12.500$ | $3$ | $7.6328$ | $3.03$ | $0.86$ / $0.34$ | $0.60$, $0.33$, $0.25$, $0.22$, $0.22$, $0.22$ | $2.1924$ / $2.2062$ |
+| response's smooth form, probe only | $100$ | $3.622$ | $1$ | $3.5993$ | $2.07$ | $1.34$ / $0.64$ | $2.03$, $1.40$, $1.42$, $1.58$, $1.88$, $2.09$ | $0.1473$ / $0.1521$ |
+| response's smooth form, probe only, same gap | $345.1$ | $12.500$ | $2$ | $9.9679$ | $2.07$ | $0.78$ / $0.31$ | $0.51$, $0.31$, $0.28$, $0.28$, $0.29$, $0.30$ | $1.5804$ / $1.5912$ |
+| response's smooth form, pinning and probe | $100$ | $3.622$ | $0$ | (lowest box state $V_\infty+0.0007$) | — | — | — | — |
+| response's smooth form, pinning and probe, same gap | $345.1$ | $12.500$ | $1$ | $11.3592$ | $1.18$ | $0.62$ / $0.31$ | $0.38$, $0.34$, $0.38$, $0.40$, $0.42$, $0.43$ | $1.0662$ / $1.0681$ |
+| review's form, probe only | $100$ | $3.260$ | $1$ | $3.2565$ | $2.04$ | $1.46$ / $0.71$ | $2.62$, $1.89$, $2.03$, $2.37$, $3.04$, $3.58$ | $0.0593$ / $0.0586$ |
+| review's form, probe only, same gap | $383.4$ | $12.500$ | $1$ | $10.0645$ | $2.04$ | $0.74$ / $0.31$ | $0.51$, $0.32$, $0.28$, $0.29$, $0.30$, $0.30$ | $1.5500$ / $1.5606$ |
+| review's form, pinning and probe | $100$ | $3.260$ | $0$ | (lowest box state $V_\infty+0.0007$) | — | — | — | — |
+| review's form, pinning and probe, same gap | $383.4$ | $12.500$ | $1$ | $11.7379$ | $1.04$ | $0.62$ / $0.32$ | $0.39$, $0.40$, $0.45$, $0.47$, $0.50$, $0.52$ | $0.8716$ / $0.8730$ |
+| smooth sine, probe only | $100$ | $2.873$ | $0$ | (lowest box state $V_\infty+0.0003$) | — | — | — | — |
+| smooth sine, probe only, same gap | $435.1$ | $12.500$ | $2$ | $9.9427$ | $2.08$ | $0.78$ / $0.31$ | $0.51$, $0.31$, $0.28$, $0.28$, $0.29$, $0.29$ | $1.5882$ / $1.5992$ |
+| smooth sine, pinning and probe | $100$ | $2.873$ | $0$ | (lowest box state $V_\infty+0.0007$) | — | — | — | — |
+| smooth sine, pinning and probe, same gap | $435.1$ | $12.500$ | $1$ | $12.0218$ | $0.95$ | $0.58$ / $0.32$ | $0.42$, $0.47$, $0.54$, $0.57$, $0.61$, $0.64$ | $0.6904$ / $0.6915$ |
+
+The sine and $1-\cos$ keep v36.6's three modes in all eight runs, $E_0$ within $6.7\%$ of v36.6's and, with the isotropic probe, the scale lengths within $7.3\%$: the mode's core is as broad as the image's, its outer scale lengths several times shorter than the image's $0.99$–$2.32\,h$, its tail at the theorem's rate. The lowest-order smooth forms lose the mode with their pinning: with the pinning and the probe both at the same $g$ no mode is bound — the patch is small and the gap about a quarter; with v36.6's tilt and a smooth probe potential one weakly bound mode remains for the response's and the review's forms, none for the smooth sine. Near its threshold that mode is broad: for the response's form its local scale lengths over $R = 3$–$8$ ($1.42$–$2.09\,h$) are within $28\%$ of the image's ($1.11$–$2.32\,h$) and rise outward like them — the closest to the image over $R = 3$–$8$ of the $17$ bound runs here (the next within $72\%$), and closer than v36.6's isotropic $D = 6$ ($37\%$) and $(D_R, D_z) = (20, 1)$ ($50\%$), recomputed — but they rise toward the tail value $1/2\kappa_R = 3.3\,h$ and stop there, while the image's keeps growing ($6.4\,h$ at $R = 20$); the review's form gives $1.89$–$3.58\,h$ over $R = 2$–$8$, toward $8.5\,h$; with the gap restored ($g = 345.1$, $383.4$, $435.1$) one mode returns with the pinning, weakly bound and confined to the patch. The loss is the small gap's, not smoothness's: the smooth form of §XXXIII.62(f) with the quartic term at $K = 411.4$ — unit curvature at $\alpha_0$ and v36.6's gap $0.125$, still with $P'(0) = 0$ — confines its pinned tilt to a patch as well (the local vertical onset at $R = 3.35$; the $10\%$ and $1\%$ radii $3.58$, $4.18$), and with its pinning at $g = 100$ it binds two modes ($E_0 = 8.2734$ below $V_\infty = 12.5$; $6$ in all sectors); at $K = 100$, the gap $0.055058$ per unit $g$, under half v36.6's, one ($E_0 = 5.3167$ below $V_\infty = 5.5058$). Smoothness at the aligned vacuum forbids the tilt's following the matter's tail, not localization.
+
+**(c) The sine at the same gap and at the same coupling [T/V].** With the probe's potential alone at the same gap the sine binds more strongly than v36.6's angle ($E_0 = 7.4577$ against $7.5859$). On $0\leq\alpha\leq\alpha_0$ the sine is concave, $\sin\alpha/\sin\alpha_0\geq\alpha/\alpha_0$, so $(\sin\alpha-\sin\alpha_0)^2/\sin^2\alpha_0\leq(\alpha-\alpha_0)^2/\alpha_0^2$ — and at $\alpha_0 = 0.5$ on all of $[0,\pi]$ (on $\alpha_0\leq\alpha\leq\pi-\alpha_0$ because $\sin x/x$ decreases, beyond it because the left side is at most $1$ and the right side above $1$; nowhere positive on a grid of $2000001$ points). At the same gap, therefore, $V_{\sin}\leq V_{\rm old}$ everywhere (here $\max(V_{\sin}-V_{\rm old}) = 1.8\times10^{-15}$, with $\alpha\leq0.464$), and by min–max every eigenvalue is lower: normalized to its threshold the sine's well lies lower, not shallower as the second response expects. At the same $g$ it is shallower — $V_\infty-V = \tfrac g2\sin\alpha\,(2s-\sin\alpha)$ lies $4.1$–$8.0\%$ below $\tfrac g2\alpha\,(2\alpha_0-\alpha)$ wherever $\alpha>0$ — the gap falls by $8.1\%$, and the binding weakens ($V_\infty-E_0 = 4.414$ with the probe alone and $4.241$ with the pinning, against $4.914$), as the second response expects ("That could weaken binding"). The two potentials are thus not equivalent up to a rescaling of the coupling, as the second response says.
+
+**(d) All sectors, and the anisotropic probe [V].** In all sectors the sine with its pinning keeps $11$ modes at the same $g$ and $13$ at the same gap (v36.6: $13$). With the anisotropic probe ($D_z = 1$), the sine with its pinning at the same $g$ gives at $D_R = 10$: $E_0 = 9.9167$, aspect $5.0$, scale lengths $2.47$, $1.36$, $1.07$, $0.99$, $0.99$, $1.03$; at $D_R = 20$: $E_0 = 10.8895$, aspect $6.0$, scale lengths $4.13$, $2.31$, $1.85$, $1.74$, $1.82$, $1.95$. Against v36.6's with its pinning, recomputed ($E_0 = 10.4814$ and $11.6110$, §XXXIII.57(d)'s values; aspects $4.74$, $5.97$), with the gap $8\%$ lower the scale lengths grow by $7.6$–$10.9\%$ at $D_R = 10$ and by $9.9$–$14.8\%$ at $D_R = 20$, the aspects ($4.97$, $6.03$) within $5\%$; the profile is still a core and then the theorem's tail.
+
+**(e) The threshold [V/T].** At $D_z = 1$, the largest $D_R$ with a bound mode on the large grid (a lower bound for the unbounded domain, §XXXIII.57(d)), and the Cwikel–Lieb–Rozenblum bound above it:
+
+| run | bound up to $D_R$ (this grid) | none bound once $D_R\sqrt{D_z}>$ |
+|:--|:--|:--|
+| v36.6's | $51.648$–$51.667$ | $80.55$ |
+| sine, probe only | $47.405$–$47.424$ | $74.22$ |
+| sine, probe only, same gap | $54.001$–$54.020$ | $84.19$ |
+| sine, pinning and probe | $44.820$–$44.840$ | $70.26$ |
+| sine, pinning and probe, same gap | $51.069$–$51.089$ | $79.69$ |
+| $1-\cos$, pinning and probe | $48.292$–$48.311$ | $75.40$ |
+| response's smooth form, pinning and probe, same gap | $3.430$–$3.449$ | $5.99$ |
+| review's form, pinning and probe, same gap | $2.601$–$2.620$ | $4.61$ |
+| smooth sine, pinning and probe, same gap | $2.099$–$2.119$ | $3.76$ |
+
+For the smooth forms with their pinning at $g = 100$, a mode binds isotropically on this grid up to $D = 0.5935$–$0.5937$, $0.4564$–$0.4567$ and $0.3551$–$0.3554$ (lower bounds for the unbounded domain), and at $D = 1$ from $g = 168.42$–$168.54$ (gap $6.10$), $218.98$–$219.10$ ($7.14$) and $281.37$–$281.49$ ($8.08$) (upper bounds), for the response's form, the review's and the smooth sine.
+
+**(f) The obstruction persists [T].** The exterior theorem of §XXXIII.57(d) needs only $V\to V_\infty$ far from the matter, which every penalty with a gapped vacuum gives, and a mode strictly below $V_\infty$ ($E_0<V_\infty$, the binding condition); every bound mode above decays at the theorem's rate (the fits within $3.1\%$, the weakly bound least asymptotic), so its local scale length tends to the constant $1/2\kappa_R$, while the image's grows as $R/3$ ($6.4$, $16.5\,h$ at $R = 20$, $50$ — the review's $\Sigma_{\rm image}\sim R^{-3}$). A penalty $P\geq0$ without a gap, $P(0) = 0$, binds nothing below $V_\infty = 0$. So no choice among these penalties — and none of the form $gP(\alpha)$ with a gapped vacuum and a constant kinetic metric — lets a strictly bound mode follow the sine-exponential at large $R$. The second response's strongest outcome — bound states preserved and the radial and vertical scales improved without changing the kinetic coefficients — occurs in its first half only: the sine keeps v36.6's three modes, and leaves the isotropic scales within $7.3\%$ (with $D_R = 10$, $20$ it lengthens them by $8$–$15\%$, the tail still the theorem's).
+
+[T] The cone/critical-point dichotomy at the aligned vacuum, for exchange-even penalties; the equal-gap inequality; the obstruction for any gapped penalty. [V] The solutions, the modes, the thresholds. [D] The penalties, the couplings and the two normalizations of the comparison are chosen. [O] A penalty selected by PG's geometry.
+
+## XXXIII.64 The mirror solution off its ansatz: the full two-sector energy, its second variation, a multi-start search, the sine's second zero [T/V/D; R368] *(`v36_7_off_ansatz()`)*
+
+§XXXIII.57 solved the mirror ansatz $\mathbf n_{L,R} = \cos\alpha\,\mathbf k\pm\sin\alpha\,\mathbf t$. Here both Bloch fields are free, as the first response asks ("departures outside the mirror-tilt ansatz"): the energy $\tfrac{k_s}{4}(\lvert\nabla\mathbf n_L\rvert^2+\lvert\nabla\mathbf n_R\rvert^2)+\lambda\rho\,P(\mathbf n_L,\mathbf n_R)+\mu(1-\mathbf S\cdot\mathbf k)$, with $P$ any of the six penalties of §XXXIII.62 — the aligned vacuum along $\mathbf k$, which on the ansatz is $\mu(1-\cos\alpha)$ — discretized with the geodesic angle between neighbouring cells, so that on the ansatz it is v36.6's discrete energy and v36.6's solution its critical point there.
+
+**(a) The second variation [T/V].** The mirror solution is a critical point of the full energy by symmetric criticality: it is the fixed set of the reflection $y\to-y$ and of the exchange composed with the reflection $x\to-x$, which leave the energy invariant. In exponential coordinates at it, with the in-plane tangent $\mathbf e_\theta$ and $\mathbf e_y = \mathbf k\times\mathbf t$, the second variation splits into four scalar blocks: 1, the tilt ($a_L = a_R$, v36.6's own); 2, the bisector's tilt in the $\mathbf k$–$\mathbf t$ plane ($a_L = -a_R$); 3, its tilt across that plane ($b_L = b_R$); 4, the rotation about $\mathbf k$ ($b_L = -b_R$). Blocks 1 and 2 carry v36.6's stiffness $k_sK$; blocks 3 and 4 the face weights $w\,\Delta/\sin\Delta$ off the diagonal and $\sum w(\Delta/\sin\Delta)\cos\Delta+w_b\,\alpha\cot\alpha$ on it ($\Delta$ the tilt's difference across the face). The potentials are $U = \lambda\rho\,u+\mu\cos\alpha$ with $u_1 = P''(\alpha)$, $u_4 = P'(\alpha)\cot\alpha$, and $u_2$, $u_3$ per penalty — for v36.6's scalar $1$ and $(\alpha_0-\alpha)\cot(\alpha_0-\alpha)$, for the sine $0$ and $(\sin\alpha_0-\sin\alpha)\sin\alpha$ — against finite differences of the full penalties along the exponential curves to $10^{-6}$ (relative; the check's bound $10^{-5}$), the blocks uncoupled ($0$).
+
+**(b) The spectrum of the sectors' own fluctuations [V].** On the large grid, for axisymmetric internal perturbations (a dependence $e^{im\phi}$ on the spatial azimuth adds $k_sm^2/R^2\geq0$ to every block), the eigenvalues of each block below $-10^{-6}$ (even in $z$ / odd), below $+10^{-6}$, and below $\mu$, the vacuum's fluctuation threshold (even):
+
+| penalty | below $-10^{-6}$, blocks 1–4 (even / odd) | below $+10^{-6}$ (even / odd) | below $\mu$ (even) | $\lvert H_4\sin\alpha\rvert$, relative |
+|:--|:--|:--|:--|:--|
+| v36.6's | $0,0,0,0$ / $0,0,0,0$ | $0,0,0,1$ / $0,0,0,0$ | $0,0,0,106$ | $3\times10^{-21}$ |
+| the sine | $0,0,0,0$ / $0,0,0,0$ | $0,0,0,1$ / $0,0,0,0$ | $0,0,0,106$ | $1\times10^{-19}$ |
+| $1-\cos$ | $0,0,0,0$ / $0,0,0,0$ | $0,0,0,1$ / $0,0,0,0$ | $0,1,1,106$ | $3\times10^{-21}$ |
+| the response's smooth form | $0,0,0,0$ / $0,0,0,0$ | $0,0,0,1$ / $0,0,0,0$ | $3,0,0,5$ | $2\times10^{-21}$ |
+| the review's form | $0,0,0,0$ / $0,0,0,0$ | $0,0,0,1$ / $0,0,0,0$ | $3,0,0,4$ | $2\times10^{-21}$ |
+| the smooth sine | $0,0,0,0$ / $0,0,0,0$ | $0,0,0,1$ / $0,0,0,0$ | $3,0,0,4$ | $4\times10^{-21}$ |
+
+Block 4's count below $\mu$ for the cone penalties ($106$) is the gapless band of (c) as discretized on this grid — a quasi-continuum, not a set of bound modes.
+
+No block has a negative eigenvalue for any penalty: the mirror solution is a stable critical point of the full two-sector energy, in every sector. The one zero mode is block 4's, exactly $\sin\alpha(x)$ — the rotation about $\mathbf k$, the symmetry the family leaves; nodeless, it is that block's ground state. For v36.6's scalar and the sine nothing lies below $\mu$ in blocks 1–3. The matter is a barrier to the tilt and to the bisector's out-of-plane tilt — $U-\mu$ reaches $+485.5$–$485.8$ in v36.6's three blocks, $+401.1$ and $+6.7$ in the sine's blocks 1 and 3 — apart from shallow wells in the tilt's halo off the layer (no deeper than $-0.10$ for v36.6's scalar, $-0.09$ and $-0.27$ in the sine's blocks 1 and 3); the sine's in-plane bisector tilt ($u_2 = 0$, the sine blind to common rotations) is held by the vacuum term alone, in a shallow well $\mu\cos\alpha$ ($U-\mu\geq-2.52$) that binds nothing. $1-\cos$'s bisector tilts have one mode each below $\mu$ (its cosine part pulls the bisector off $\mathbf k$ where $\alpha<\alpha_0$, $\mu\cos\alpha$ holding it); for the smooth forms three tilt modes lie below $\mu$. [D] The full energy's stiffness is isotropic — a choice carried over from §XXXIII.57(b) — so its fluctuation operators have isotropic kinetic terms; an anisotropic kinetic metric needs a term not in this energy: a soldering of the internal frame to space, an anisotropic stiffness put in, or a coupling to the matter's own geometry (its gradient, the Law I stress).
+
+**(c) The rotation block [V].** For v36.6's scalar its next eigenvalues are $1.49\times10^{-4}$, $3.99\times10^{-4}$, $7.56\times10^{-4}$ on the large grid and $3.82\times10^{-5}$, $1.02\times10^{-4}$, $1.94\times10^{-4}$ on one twice as large — falling as $1/L^2$ (ratio $3.90$; $(L_B/L_A)^2 = 3.90$), with $15$ and $27$ modes below $0.01$: a gapless band, the rotation guided along the matter layer as far as the tilt follows the matter. The sine and $1-\cos$ give the same band, within $4\times10^{-7}$ on both grids (ratios $3.90$): the low band lives in the linear-response far field, where the tilt is proportional to $-P'(0)$, so that $U_4 = \lambda\rho P'\cot\alpha+\mu\cos\alpha$ is the same for every cone penalty. For the response's smooth form they are $6.672$, $15.635$, $22.344$ on both grids: gapped, the zero mode confined to the patch. So the sectors' own localized mode is the rotation about the normal, with the profile $\sin\alpha(x)$ of the pinned tilt — set by the matter and the stiffness length, not by a kinetic metric; its meaning, like the probe's, is not specified.
+
+**(d) A multi-start local search, and the sine's second zero [V].** On a coarse grid ($R\leq6$, $z\leq1.2$, $2400$ cells), the full energy in unnormalized vectors minimized by L-BFGS on its exact gradient, against the mirror solution on the same grid, for v36.6's scalar, the sine and the response's smooth form, from three structured starts each: the aligned vacuum and the two in-plane axes at right angles, each perturbed by $0.02$, which explore the full space (unperturbed, the right-angle start would stay in the fixed set of the exchange composed with the reflection through the vertical plane between the two axes), and the bisector tilted by $0.6$, which stays in the $\mathbf k$–$\mathbf t$ plane (the fixed set of the $y$-reflection). Every run ends at the mirror solution's energy (to $10^{-9}$), with the bisector on $\mathbf k$ (to $10^{-4}$) and a uniform in-plane axis (to $1^\circ$; any azimuth: the rotation about $\mathbf k$). No lower state was found.
+
+From the sine's second zero, $\theta = \pi-\alpha$ — a configuration fixed by both symmetries, so that the run stays in the mirror subspace (there $\max\lvert n_y\rvert = \max\lvert S_x\rvert = 0$), a signed tilt $\theta$ — the run leaves the second zero ($\mathbf S\cdot\mathbf k>0$ in every cell) and stops at or above the mirror energy, in an end state set by the roundoff and the grid: the pinned region relaxes partly to the mirror state, $\theta = \alpha$, and partly to its exchange, $\theta = -\alpha$ (the rotation by $\pi$ about $\mathbf k$, of the same energy), with a wall between them where $\theta$ crosses $0$ — the sectors aligned, $\lvert\mathbf D\rvert = 0$, the sine's cone. Its end energy depends on the roundoff and on the grid (the independent check, ledger §DG), so it is not printed; the configuration is tested directly. In the mirror subspace the full energy is that of the signed tilt, $\tfrac{k_s}{2}\theta\cdot K\theta+\sum M\,[\lambda\rho\,\tfrac12(\lvert\sin\theta\rvert-s)^2+\mu(1-\cos\theta)]$ (at the end state to $10^{-12}$), even in $\theta$. Held at $R_w$ — $\theta\leq0$ inside $R<R_w$ and $\theta\geq0$ outside, the energy minimized by projected Newton — the wall's energy above the mirror state, $W(R_w)$, is:
+
+| $R_w$ | $0.2$ | $0.5$ | $0.8$ | $1$ | $1.15$ | $1.3$ | $1.5$ | $1.8$ | $2.2$ | $3$ | $4$ |
+|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
+| $dR = 0.0375$, $dz = 0.02$ | $0.1036$ | $0.2263$ | $0.2867$ | $0.3006$ | $0.2985$ | $0.2893$ | $0.2704$ | $0.2299$ | $0.1689$ | $0.0781$ | $0.0250$ |
+| $dR = 0.01875$, $dz = 0.01$ | $0.1181$ | $0.2384$ | $0.2952$ | $0.3061$ | $0.3044$ | $0.2953$ | $0.2741$ | $0.2326$ | $0.1732$ | $0.0787$ | $0.0257$ |
+
+$W$ has a single maximum, $0.306$ at $R_w = 1$, and no interior minimum, falling toward $0$ as the wall shrinks onto the axis or leaves the matter (the two grids within $0.014$). So in the continuum such a wall shrinks or leaves the matter, and the only stationary wall of this family (axisymmetric walls held on a cylinder) is at $W$'s maximum, a saddle — the barrier between the mirror state and its exchange within the mirror subspace. On a grid a wall can rest between cells (no cell is held at $\theta = 0$ at $R_w = 1.15$ and $1.3$ here), which is what stops the run above. The first response's question — whether an undesirable secondary stationary configuration appears — has this answer for the second zero: no metastable state; in the continuum the only other stationary configuration of this one-wall family is that saddle.
+
+[T] Symmetric criticality; the block decomposition; the zero mode; the signed tilt in the mirror subspace. [V] The inertia, the band, the search, the held wall. [D] The full energy's vacuum term, its isotropic stiffness and its discretization. [O] The sectors' stress in Law I; a soldering of the internal frame to space; what the rotation mode, or the probe, is.
+
+## XXXIII.65 Standing after v36.7, and the next pieces [S/O; R369]
+
+§XXXIII.59 remains the operative standing, with these changes.
+- *Established [T/V], added.* The penalties compared on the full two-sector configuration (§XXXIII.62): the review's cone in v36.6's scalar at the aligned vacuum, one point of a non-differentiable set that contains the whole coincidence set $\mathbf n_L = \mathbf n_R$; Entry 349's sine, in the responses' reading a function of $\mathbf n_L\cdot\mathbf n_R$ alone — blind to the normal, zero again at $\pi-\alpha_0$, quartic in the twist; the sine and the response's $1-\cos(\theta-\alpha_0)$ conical at alignment in every exchange-even reading; the response's smooth form and the review's polynomials in $\mathbf S$, smooth, zero exactly on the family — these lowest-order forms with about a quarter of the gap at the same curvature, a smooth form with higher terms possibly more; all blind to the fibre phases. The model with each (§XXXIII.63): for an exchange-even penalty, smoothness at the aligned vacuum and a tilt following weak matter exclude each other — the cone penalties' tilt follows the column density, the smooth forms' is confined to a patch where the matter is dense; the sine and $1-\cos$ keep v36.6's three modes and, with the isotropic probe, its scales; at the same gap the probe-only sine binds more strongly ($V_{\sin}\leq V_{\rm old}$), at the same coupling more weakly; with their pinning the lowest-order smooth forms lose the mode at the same coupling and regain one, weakly bound, at the same gap, while the smooth form with a quartic term and v36.6's gap binds two modes at that coupling, its tilt still a patch; the exterior obstruction holds for every gapped penalty. Off the ansatz (§XXXIII.64): the mirror solution a stable critical point of the full energy for every penalty, with one zero mode — the rotation about the normal, $\sin\alpha$, gapless along the disk for the cone penalties and gapped for the response's smooth form; no lower state found by a multi-start local search; the sine's second zero leaving no metastable state (the held wall's energy has one maximum and no minimum).
+- *Not demonstrated,* now including: a penalty that both is smooth at the aligned vacuum and lets the matter's tail tilt the sectors (§XXXIII.63(a): for an exchange-even penalty the two exclude each other); the thin–broad disk or the sine-exponential from any of the penalties (§XXXIII.63(f)); the probe's kinetic metric, the gap and the penalty's form from PG's geometry.
+- *The next pieces.* (1) The localization model's missing parts, one at a time: the probe's kinetic metric from the $SO(4)$ geometry — with the isotropic stiffness of §XXXIII.57(b) the sectors' own fluctuations have isotropic kinetic terms (§XXXIII.64(b)), so an anisotropic metric needs a further term: a soldering of the internal frame to space (the soldering map of (4), the same coupling that would select the radial axis, §XXXIII.57(c)), an anisotropic stiffness put in, or a coupling to the matter's own geometry; then the Berry connection in the action; then the sectors' stress in Law I and the back-reaction of probe and tilt on the source. (2) The matter population consistently reduced through Law II in place of the inserted image (the review's third priority), with the joint model against DDO 154 (§XXXIII.42's first item). (3) Entries 342–345's checks (§XXXIII.50): the Solar-System criterion on the stereographic chart first. (4) The note of 19 October: the soldering map — the coupling of (1) — and the consistency law (§XXXIII.58(d)); the three-way test of the source reduction proposed by the response on the note's second paragraph (§XXXIII.56) — the review's "source-versus-receiver transformation test" — with its $\delta P$ term (an extension of §XXVI.8's law), in a two-body configuration (§XXVI.8's kill test); and a coupling of the light's internal state to the photons telescopes detect (the review's §6). (5) Dynamical stability; the non-axisymmetric branches; the standing list.
+- *Not claimed.* No observed rotation curve is reproduced; no penalty is derived; the minimal model does not derive the disk with any of them; the internal angle $\theta$ and the leaf's angle $\chi$ of $e^{-a\sin\chi}$ are different variables (both responses' distinction), and no relation between them is claimed.
+
+## XXXIII.66 Register R365–R369 [D/O; v36.7]
+
+- **R365** (§XXXIII.61). The review of v36.6, Entry 349 and the two responses on it, in the author's words; what v36.7 does with each. [record]
+- **R366** (§XXXIII.62). The penalties on the full two-sector configuration through $\mathbf S$, $\mathbf D$ ($\lvert\mathbf S\rvert^2+\lvert\mathbf D\rvert^2 = 1$; the family is $\mathbf S = \cos\alpha_0\,\mathbf k$): v36.6's scalar conical at the aligned vacuum, $\tfrac12\alpha_0^2-\tfrac12\alpha_0\lvert\mathbf u_L-\mathbf u_R\rvert+O(u^2)$, and not differentiable wherever two members of the circle are equally near, the whole coincidence set included; Entry 349's sine $\tfrac12(\lvert\mathbf D\rvert-\sin\alpha_0)^2$ in the responses' reading — curvature $\cos^2\alpha_0$, gap $\tfrac12\sin^2\alpha_0$, zero again at $\pi-\alpha_0$, a function of $\mathbf n_L\cdot\mathbf n_R$ (blind to the normal), $O(\varepsilon^4)$ in the twist; its smooth form $(\mathbf n_L\cdot\mathbf n_R-\cos2\alpha_0)^2/32\sin^2\alpha_0$; the sine and the response's $1-\cos(\theta-\alpha_0)$ conical in every exchange-even reading; the response's smooth form and the review's $\lvert\mathbf n_L+\mathbf n_R-2\cos\alpha_0\,\mathbf k\rvert^2$ polynomials in $\mathbf S$, smooth, zero exactly on the family, gaps $0.0362$ and $0.0326$ per unit $g$ at unit curvature against $0.125$ — smoothness fixing only the slope (the review's form plus $K(\mathbf S\cdot\mathbf k-c)^4$ reaches $0.125$ at $K = 411.4$, with unit curvature); all blind to the fibre phases and defined on the quotient. [T/V/D]
+- **R367** (§XXXIII.63). The model of §XXXIII.57 with each penalty, the probe alone and the pinning with it, at the same $g$ and the same gap: the cone/critical-point dichotomy at the aligned vacuum for exchange-even penalties (the tilt following the column density, $\alpha/f_R$ constant to $3\times10^{-5}$ at $R\approx50$–$100$, or a patch inside $R\approx2$–$2.4\,h$, the aligned vacuum locally unstable only inside $R = 1.32$–$1.53$); the sine and $1-\cos$ with three modes ($E_0$ within $6.7\%$, the isotropic scale lengths within $7.3\%$; with $D_R = 10$, $20$ the sine's $8$–$15\%$ longer than v36.6's), the probe-only sine at the same gap lower ($V_{\sin}\leq V_{\rm old}$ by the sine's concavity; $E_0 = 7.4577$; threshold $54.0$ against $51.65$), at the same $g$ shallower and less bound ($44.8$ with its pinning); $11$ and $13$ modes in all sectors; with their pinning the lowest-order smooth forms unbound at $g = 100$ (binding isotropically on the grid up to $D = 0.35$–$0.59$, lower bounds, or at $D = 1$ from $g = 169$–$282$, upper bounds), one weakly bound mode at the same gap (thresholds $2.1$–$3.4$); the quartic smooth form with v36.6's gap, two modes at $g = 100$ with its pinning, its tilt a patch inside $R\approx4.2\,h$; the exterior obstruction for every gapped penalty. [T/V/D]
+- **R368** (§XXXIII.64). The full two-sector energy with the geodesic stiffness and the aligned vacuum $\mu(1-\mathbf S\cdot\mathbf k)$; the mirror solution a critical point by symmetric criticality; the second variation in four blocks (tilt; the bisector's two tilts; the rotation about $\mathbf k$), checked by finite differences; no negative eigenvalue in any block or parity for any penalty; one zero mode, $\sin\alpha$; the rotation block gapless along the disk for v36.6's scalar, the sine and $1-\cos$ ($1/L^2$, one band), gapped for the smooth form; the stiffness isotropic, a choice; a multi-start local search — for v36.6's scalar, the sine and the response's smooth form, three structured starts each — ending at the mirror energy; from the sine's second zero a wall held by the grid, and the held wall's energy $W(R_w)$ with one maximum ($0.306$ at $R_w = 1$) and no minimum: no metastable state. [T/V/D]
+- **R369** (§XXXIII.65; §XXXIII.13; the head table; the toy). Standing after v36.7; the next pieces. The suite `pg_v36_numerics.py` at v36.7: three new sections and checks ($40$ in all), the helpers `_v36_7_branch`, `_v36_7_C`, `_v36_7_alpha`, `_v36_7_u23`, `_v36_7_blocks`, `_v36_7_inertia`, `_v36_7_full`, `_v36_7_wall`, the mode `v36_7` (about eight minutes), `quick` now $24$ checks (v36.7's penalties; the two model sections run in `v36_7`); the toy `v32_toy_three_ends.py` gains `v36_7`, its `all` counting $227$; no new figure. The SHA-256 of the suite is in §XXXIII.13. [S/O; reproducibility]
+
+## Round record: the version summaries, v16 to v36.7 (moved from the head of the archive in v34.9, R190)
+
+*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v36.7, v36.6, v36.5, v36.4, v36.3, v36.2, v36.1, v36.0, v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+
+> **v36.7 — the review of v36.6, Entry 349 and the two responses on it (20 October 2026): the penalties of the admissibility geometry compared on the full two-sector configuration; the localization model with each; the mirror solution off its ansatz. Parts XXX–XXXII frozen at v35.8.**
+>
+> *What was asked.* The review of v36.6: keep it as the working draft; the admissibility scalar has a cone at the aligned vacuum, where every member of the admitted circle is equally near, $\tfrac12\alpha_0^2-\alpha_0\lvert\mathbf v\rvert+O(\lvert\mathbf v\rvert^2)$; compare the smooth $\lvert\mathbf n_L+\mathbf n_R-2\cos\alpha_0\,\mathbf k\rvert^2$ and ask whether localization survives a globally smooth incompatibility energy; keep the metric incompatibility and the Berry-holonomy clash apart; the energy does not select the radial axis; the receiver's darkness needs a coupling to the photons telescopes detect; priorities — a globally defined potential, the kinetic tensor from the $SO(4)$ geometry, the matter population through Law II, the back-reaction. Entry 349: $\sin\theta-\sin\alpha_0$ inside the square in place of $\theta-\alpha_0$. The responses: $\sin\theta = \tfrac12\lvert\mathbf n_L-\mathbf n_R\rvert$; the sine locally softer by $\cos^2\alpha_0$ and bounded; $1-\cos(\theta-\alpha_0)$ and a smooth form; the three penalties compared on the same inputs, the smooth form off the ansatz; the sine in the probe's potential alone, at the same coupling and at the same gap.
+>
+> **What v36.7 does (R365–R369; §§XXXIII.61–66).**
+> - The penalties on the full configuration, through $\mathbf S = (\mathbf n_L+\mathbf n_R)/2$ and $\mathbf D = (\mathbf n_L-\mathbf n_R)/2$: the review's cone confirmed, one point of a non-differentiable set that contains the whole coincidence set; Entry 349's sine — in the responses' reading a function of $\mathbf n_L\cdot\mathbf n_R$ alone, blind to the normal — zero again at $\pi-\alpha_0$ and quartic in the twist; the sine and $1-\cos(\theta-\alpha_0)$ conical at alignment in every exchange-even reading; the response's smooth form and the review's polynomials in $\mathbf S$, smooth, zero exactly on the family, these lowest-order forms with about a quarter of the gap at the same curvature; all blind to the fibre phases.
+> - The model of v36.6 with each: for an exchange-even penalty, smoothness at the aligned vacuum and a tilt that follows weak matter exclude each other — the cone penalties' tilt follows the image's column density, the smooth forms' is confined to a patch inside $R\approx2$–$2.4\,h$; the sine and $1-\cos$ keep v36.6's three modes and, with the isotropic probe, its scales; at the same gap the probe-only sine binds more strongly, $V_{\sin}\leq V_{\rm old}$ — normalized to its threshold the well lies lower, not shallower as the second response expected — and at the same coupling it is shallower and binds more weakly, as it also expected; with their pinning the lowest-order smooth forms lose the mode at the same coupling and regain one, weakly bound, at the same gap, while a smooth form with a quartic term and v36.6's gap binds two — smoothness forbids the tail-following, not localization; the exterior obstruction holds for every gapped penalty, so none follows the sine-exponential.
+> - Off the ansatz: the mirror solution a stable critical point of the full two-sector energy for every penalty, with one zero mode — the rotation about the normal, $\sin\alpha(x)$, gapless along the disk for the cone penalties; the stiffness isotropic by choice; a multi-start local search finds no lower state; the sine's second zero leaves no metastable state (the held wall's energy has one maximum and no minimum).
+> - Independent referees checked the round before delivery; what they caught is in the ledger (§§DE, DG).
+>
+> **Next.** The probe's kinetic metric from the $SO(4)$ geometry — a further term beyond the isotropic stiffness, a soldering of the internal frame to space among the candidates — then the Berry connection and the sectors' stress with the back-reaction; the matter population through Law II; the joint model against DDO 154; Entries 342–345's checks (the Solar-System criterion first); the note's soldering map, consistency law, three-way test of the source reduction (the review's source-versus-receiver test) and photon coupling; the standing list; the author's choice for the cap.
 
 > **v36.6 — the review of v36.5 and the author's note of 19 October (19 October 2026): one localization model, from the admissibility scalar to the spectrum; what an observer-side receiver can change. Parts XXX–XXXII frozen at v35.8.**
 >
