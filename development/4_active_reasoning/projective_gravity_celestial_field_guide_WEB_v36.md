@@ -1,8 +1,8 @@
-# Projective Gravity — Version 36.5 (draft): the observed rotation curve
+# Projective Gravity — Version 36.6 (draft): the observed rotation curve
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases — with branches on charge and extremality, and on rendering and canonical optics
 
-**Claim status of Part XXXIII (v36.5).** This table governs the open work: Part XXXIII, the observed rotation curve. Parts XXX–XXXII are frozen at v35.8, and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the two frozen tables that follow, unchanged except for marked post-freeze notes; v36.0 added such notes and pointers in §§XXXI.37, XXXI.38, XXXI.41, XXXII.5 and XXXII.7 and in four rows (R313); v36.1–v36.5 add none (v36.4's one rendering repair in §XXX.11, R355, excepted). v36.1 was the corrective round on the two reports on v36.0 (§XXXIII.14), §XXXIII.24 listing each v36.0 claim against its status; v36.2 answers Entries 323–324 and the two responses on them (§XXXIII.27), with the rows marked R332–R337 added, the row on Entry 322's family reworded (R332; its v36.1 text quoted under R337) and the row on the next pieces extended (R337); v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§XXXIII.34), with the rows marked R339–R348 added, the occupancy row reworded for the review's two distinctions (R347; its v36.2 text quoted there) and the row on the next pieces extended (R348); v36.4 answers the review of v36.3 and Entries 340–341 with the response (§XXXIII.44), with the rows marked R349–R354 added, the isothermal row extended for the erratum and the two ensembles (R350; its v36.3 text quoted there) and the row on the next pieces extended (R353); v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§XXXIII.51), with the rows marked R356–R358 added, the occupancy and regular-family rows corrected for the kinematics erratum (R357; their v36.4 text quoted in the ledger), the isothermal and clash rows extended (R358) and the row on the next pieces extended (R359). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*; a fit that fails is marked *(negative)*.
+**Claim status of Part XXXIII (v36.6).** This table governs the open work: Part XXXIII, the observed rotation curve. Parts XXX–XXXII are frozen at v35.8, and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the two frozen tables that follow, unchanged except for marked post-freeze notes; v36.0 added such notes and pointers in §§XXXI.37, XXXI.38, XXXI.41, XXXII.5 and XXXII.7 and in four rows (R313); v36.1–v36.6 add none (v36.4's one rendering repair in §XXX.11, R355, excepted). v36.1 was the corrective round on the two reports on v36.0 (§XXXIII.14), §XXXIII.24 listing each v36.0 claim against its status; v36.2 answers Entries 323–324 and the two responses on them (§XXXIII.27), with the rows marked R332–R337 added, the row on Entry 322's family reworded (R332; its v36.1 text quoted under R337) and the row on the next pieces extended (R337); v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§XXXIII.34), with the rows marked R339–R348 added, the occupancy row reworded for the review's two distinctions (R347; its v36.2 text quoted there) and the row on the next pieces extended (R348); v36.4 answers the review of v36.3 and Entries 340–341 with the response (§XXXIII.44), with the rows marked R349–R354 added, the isothermal row extended for the erratum and the two ensembles (R350; its v36.3 text quoted there) and the row on the next pieces extended (R353); v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§XXXIII.51), with the rows marked R356–R358 added, the occupancy and regular-family rows corrected for the kinematics erratum (R357; their v36.4 text quoted in the ledger), the isothermal and clash rows extended (R358) and the row on the next pieces extended (R359); v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§XXXIII.56), with the rows marked R360–R363 added and the row on the next pieces extended (R364). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*; a fit that fails is marked *(negative)*.
 
 | claim | type | evidence | archive |
 |:--|:--|:--|:--|
@@ -42,7 +42,11 @@
 | The two reviews of v36.4 and the author's journal entries (17–18 October) with the response: recorded verbatim; the report's findings applied (R356) | record | — | §XXXIII.51 |
 | The kinematics erratum (the v36.4 report): the orbit library's velocity moments were read at the bin centre; now integrated along the orbit (the free-geodesic counterexample and four time integrations as controls). §XXXIII.36's cold witnesses ($7.2$, $6.7$ km/s) were at $21.9$, $21.0$; re-optimized $6.9$, $6.4$; the joint program with the whole density matched gives up to $6.9$–$9.0\%$ crossing at $\sigma_r\leq10$ km/s ($10$–$13\%$ at $50$); library bounds are compatibility witnesses, not certificates; the meridional-geodesic ensemble's share $+1.13$; the dwarfs' envelope $8/12$, $15/34$ (R357) | numerical control (an erratum corrected); definition (scope) | — | §XXXIII.52 |
 | The clash invariant's nullspace (an azimuthal twist), $F_+ = -q^2z/(1+q^2z^2)^{3/2}$ with its $1/z^2$ fall and $-2\pi$ flux, no bound state for $-\partial^2+\gamma F_+^2$; the high-sector bound closing every $m$ at two states of the concentrated branch; the recorded response's $0.0285$ kpc$^{-1}$ corrected to $0.0150$ (R358) | analytic theorem; numerical control | — | §XXXIII.53 |
-| The next pieces: the joint model — one population, its Law I source and its image by a stated transfer, against DDO 154 — with the population law and the transfer fixed first; one localization operator from a stated action or constitutive law, with its clash quantity, gap, centre and radial/vertical scales (v36.6); the clash invariant restated to see the symmetric departure, with a frame identification, a transport law and an action; dynamical stability and the non-axisymmetric equilibria of the isothermal fixed points; Entry 329's acceptance criterion computed; measured HI profiles for the pilot, with the HI dispersion as a second observable; the Milky Way estimator; a label law stated before it is fitted, tested out of sample, with the distance, inclination and mass-to-light uncertainties carried; gas with pressure and dissipation on the leaf; one optics experiment; other readings; the held note's calculations; Entries 342–345's checks; flavor, reflectrons, the direction field and the co-space program in the backlog (R330, R337, R348, R353, R359) | open bridge | — | §§XXXIII.25, 32, 42, 48, 54 |
+| The review of v36.5 and the author's note of 19 October with the two responses on it: recorded verbatim (R360) | record | — | §XXXIII.56 |
+| The admissibility scalar: the squared Fubini–Study distance from the pair $(\mathbf n_L,\mathbf n_R)$ to the admitted two-Hopf family at the matter-selected tilt — zero on the family, $(\theta-\alpha_0)^2/2$ for the mirror tilt, nonzero for an azimuthal turn of one sector (§XXXIII.53(a)'s twist applied to the admitted pair, under which $F_L-F_R$ stays zero), exchange-even, blind to the fibre (clash) phases; its nullspace is the choice of the family, which it encodes and does not supply (R361) | analytic theorem; numerical control; definition | — | §XXXIII.57(a) |
+| One localization model, from the admissibility scalar to the spectrum: the action $\tfrac{k_s}{2}\lvert\nabla\alpha\rvert^2+\lambda\rho\,\mathcal C+\mu(1-\cos\alpha)$ for the mirror pair's tilt with Entry 326's image as the pinning density, and a scalar probe in $g\mathcal C$, on a symmetric finite-volume grid of a flat half-plane (the probe's meaning, its stress and the frame identification left out): a well whose radial extent is the pinned region; bound modes whose vertical scale is set mainly by the gap and whose radial extent is set by $D_R$ within the well; the exterior theorem — the far-field rates $\sqrt{(V_\infty-E_0)/D}$ and the asymptotic aspect $\sqrt{D_R/D_z}$ of the probe's kinetic metric, borne out to a few per cent where the tail is resolved; the radial scale is $D_R$'s, relative to the gap, the aspect $D_R/D_z$'s — at $D_R = D_z = 1$ the mode falls several times faster than the image beyond $R\approx2h$, while at $D = 6$, or $D_R = 10$–$20$ with $D_z = 1$, its scale lengths are comparable to the image's; at $D_z = 1$ it unbinds between $D_R\approx52$ and $80.6$ (the largest box's lower bound; the Cwikel–Lieb–Rozenblum bound); it derives neither the thin–broad disk nor the sine-exponential, and no bound mode of it can follow the image at large $R$ (R362) | analytic theorem; numerical control; specified physical premise; definition; open bridge | — | §XXXIII.57(b)–(f) |
+| The note of 19 October in a reduction of the smallest two-path, one-qubit model: the two-path holonomy blind to the observer's frame and conjugated by the source's; for one path or two added incoherently, a projective receiver's transfer $(1+\mathbf d\cdot\mathbf b)/2$ with the budget $T_{\mathbf d}+T_{-\mathbf d} = 1$; a uniform receiver selects one member of a two-parameter family of profiles fixed by the source's $\mathbf b(x)$; a varying receiver imposes any transmission $T(x)\in[0,1]$ — any received profile up to the source's own — written into the receiver; coherent reception, the soldering map and the consistency law not built (R363) | analytic theorem; numerical control; specified physical premise; definition | — | §XXXIII.58 |
+| The next pieces: the joint model — one population, its Law I source and its image by a stated transfer, against DDO 154 — with the population law and the transfer fixed first; the localization model's missing parts one at a time — the probe's kinetic metric derived rather than put in, the Berry connection in the action, the sectors' stress in Law I (v36.6's minimal model done); the clash invariant restated to see the symmetric departure, with a frame identification, a transport law and an action; dynamical stability and the non-axisymmetric equilibria of the isothermal fixed points; Entry 329's acceptance criterion computed; measured HI profiles for the pilot, with the HI dispersion as a second observable; the Milky Way estimator; a label law stated before it is fitted, tested out of sample, with the distance, inclination and mass-to-light uncertainties carried; gas with pressure and dissipation on the leaf; one optics experiment; other readings; the held note's calculations; Entries 342–345's checks; the note of 19 October's soldering map, consistency law and the three-way test of the source reduction; flavor, reflectrons, the direction field and the co-space program in the backlog (R330, R337, R348, R353, R359, R364) | open bridge | — | §§XXXIII.25, 32, 42, 48, 54, 59 |
 
 **Claim status of Parts XXX–XXXII at the v35 freeze (v35.8).** This table governs Parts XXX–XXXII, frozen at v35.8 (15 October 2026) with their suite `pg_v35_numerics.py`, unchanged except for marked post-freeze notes (v36.0, R307, R313) and one marked rendering repair in §XXX.11 (v36.4, R355): Part XXX (the hyper-canonical completion and the charged-lepton cycle), Part XXXI (the visible rendering of the leaf) and Part XXXII (reflectrons: Feynman diagrams as the joint residue of paired histories). Their frozen-results record is the v35.8 current manuscript, `projective_gravity_v35_8_current_manuscript.md`. Parts 0–XXIX are frozen — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10 — and their claim status is the frozen table that follows this one, unchanged except for marked post-freeze notes. Post-freeze notes correct them without rewriting them: two erratum notes in §§XXI.4–4a (R211), clarification notes in §§XXIX.40(e), XXIX.41(d), XXIX.42(g) and XXIX.43(b) (R212–R216, §XXX.12), two pointer notes in §§XXIX.18 and XXIX.42(f) (R238, Part XXXI; the first corrected in v35.3, R243, and in v35.4, R254), and two pointer notes of v35.6, in §§XIII.10 and XXIX.42(c) (R277, R276; the first scoped in v35.7, R288). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*. Rows changed or added since v35.1 carry their register number. Three rows — the cap, the refocusing and the darkness of the sky — are marked as **central limiting conditions**: every proposal for the visible sky must say how it meets them (R255, R267).
 
@@ -170,7 +174,7 @@
 | Observational fits | none | no supernova likelihood, no count comparison with a selected sample, no rotation-curve fit (post-freeze note, v35.1, R216: the current predictive model; Part XII's exploratory fits, §XII.3, belong to its detached wing) (post-freeze note, v36.0, R313: rotation curves are compared with data in Part XXXIII — the Milky Way from inside and a SPARC pilot — and are not reproduced by the theory as specified) | §XXIX.39(f) |
 | The photon wave operator and its mode projection; a $q = 0$ reader; a frequency bridge with time dilation and a derived echo law; a pair-selection law; a detector law for the image map, with one forward image of a fixed galaxy; a derived spectral transport, even and odd | open bridge | — | §§XXIX.39(b), 41, 42, 43(f) |
 
-> **How to read this archive (v36.5).** Three tables govern: the table of Part XXXIII, for the open work; the frozen v35.8 table that follows it, for Parts XXX–XXXII; and the frozen v34.10 table after that, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX; §XXX.9, frozen with Parts XXX–XXXII; and §XXXIII.12) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place. v36.0 freezes Parts XXX–XXXII at v35.8 with `pg_v35_numerics.py`, whose frozen-results record is the v35.8 current manuscript, and opens Part XXXIII, the observed rotation curve, after Part XXXII, with its own register (§XXXIII.12) and suite (§XXXIII.13, `pg_v36_numerics.py`). Its corrections to frozen Parts are post-freeze notes (R313). v36.1 is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§§XXXIII.14–26, R318–R331): it corrects v36.0's operative statements in place, with the superseded wording in §XXXIII.26, and adds no post-freeze note. v36.2 answers Entries 323–324 and the two responses on them (§§XXXIII.27–33, R332–R338): orbital occupancy on the leaf, the exponential as a rendering, the conformal route, the frame-selection hypothesis; it corrects two v36.1 sentences in place (R332) and adds no post-freeze note. v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§§XXXIII.34–43, R339–R348): two source families regular at the equator, their orbital populations and the dwarfs with them, the isothermal fixed points, the null cone, the split model, the $\mathfrak{so}(4)$ sectors; it applies the review's two distinctions in place (R347) and adds no post-freeze note. v36.4 answers the review of v36.3 and Entries 340–341 with the response (§§XXXIII.44–50, R349–R354): the fixed-point erratum and stability in two ensembles, the radial–normal duality and the CMB dipole, the first test of the clash invariant, and Entries 342–345 recorded for v36.5; it corrects §XXXIII.38 and §XXXIII.42 in place (R350) and adds no post-freeze content note — one marked rendering repair in frozen §XXX.11 (R355: a doubled brace in a subscript, which the author's site's templating engine read as a tag; the mathematics unchanged). v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§§XXXIII.51–55, R356–R359): the orbit library's kinematics erratum — the velocity moments integrated along the orbit, the mis-certified witnesses re-evaluated, the joint crossing–dispersion frontier, every library bound rescoped as a compatibility witness — with §§XXXIII.28, 29(b), 32, 36, 37, 42 and two register entries corrected in place (R357); the clash invariant's nullspace and the sum's fall-off, the high-sector bound, §§XXXIII.45, 47, 50 annotated (R358); no post-freeze note.
+> **How to read this archive (v36.6).** Three tables govern: the table of Part XXXIII, for the open work; the frozen v35.8 table that follows it, for Parts XXX–XXXII; and the frozen v34.10 table after that, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX; §XXX.9, frozen with Parts XXX–XXXII; and §XXXIII.12) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place. v36.0 freezes Parts XXX–XXXII at v35.8 with `pg_v35_numerics.py`, whose frozen-results record is the v35.8 current manuscript, and opens Part XXXIII, the observed rotation curve, after Part XXXII, with its own register (§XXXIII.12) and suite (§XXXIII.13, `pg_v36_numerics.py`). Its corrections to frozen Parts are post-freeze notes (R313). v36.1 is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§§XXXIII.14–26, R318–R331): it corrects v36.0's operative statements in place, with the superseded wording in §XXXIII.26, and adds no post-freeze note. v36.2 answers Entries 323–324 and the two responses on them (§§XXXIII.27–33, R332–R338): orbital occupancy on the leaf, the exponential as a rendering, the conformal route, the frame-selection hypothesis; it corrects two v36.1 sentences in place (R332) and adds no post-freeze note. v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§§XXXIII.34–43, R339–R348): two source families regular at the equator, their orbital populations and the dwarfs with them, the isothermal fixed points, the null cone, the split model, the $\mathfrak{so}(4)$ sectors; it applies the review's two distinctions in place (R347) and adds no post-freeze note. v36.4 answers the review of v36.3 and Entries 340–341 with the response (§§XXXIII.44–50, R349–R354): the fixed-point erratum and stability in two ensembles, the radial–normal duality and the CMB dipole, the first test of the clash invariant, and Entries 342–345 recorded for v36.5; it corrects §XXXIII.38 and §XXXIII.42 in place (R350) and adds no post-freeze content note — one marked rendering repair in frozen §XXX.11 (R355: a doubled brace in a subscript, which the author's site's templating engine read as a tag; the mathematics unchanged). v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§§XXXIII.51–55, R356–R359): the orbit library's kinematics erratum — the velocity moments integrated along the orbit, the mis-certified witnesses re-evaluated, the joint crossing–dispersion frontier, every library bound rescoped as a compatibility witness — with §§XXXIII.28, 29(b), 32, 36, 37, 42 and two register entries corrected in place (R357); the clash invariant's nullspace and the sum's fall-off, the high-sector bound, §§XXXIII.45, 47, 50 annotated (R358); no post-freeze note. v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§§XXXIII.56–60, R360–R364): one localization model, from the admissibility scalar to the spectrum — one action for the two sectors, a probe in the induced potential and the exterior theorem for its tail — which localizes and derives neither the thin–broad disk nor the sine-exponential; and the note's question in a reduction of the smallest two-path, one-qubit model; nothing earlier is corrected and no post-freeze note is added.
 
 > **v34.0 governing ontology correction (11 October 2026).** **Matter and its stress-energy content live fundamentally in the five-dimensional middle space** $\mathcal M=E/U(1)_H$, not solely on the representational bisection. The four-dimensional gravity base $B_{\rm grav}=\mathcal M/U_{\rm mer}$ is the quotient where the effective Einstein equation is expressed. The source $T^{(g)}$ must be obtained from the **entire** one-dimensional meridian fiber, including both arcs and possible pole/core contributions, by a covariant, action-compatible fiber reduction with a geometrically justified measure and tensor projection. A sum of contributions at the two points of $B_{\rm rep}$ is **not Law I**: it is only a distributionally leaf-supported special case. Einstein equations on the base impose constraints on the admissible middle-space configurations; equivalently their pullback imposes a horizontal constraint on $\mathcal M$, **not** independent five-dimensional Einstein equations. The full measure, singular-fiber rule, conservation identity and parent variational principle are **open**. Previously frozen text about source localization and two-point sourcing is superseded by this paragraph, the corrected Law I in Part III, and §XXIX.8; historical derivations remain conditional benchmarks where their premises apply. The observation that $\ell/G$ has a numerically suggestive relation to a galactic mass was an exploratory coincidence, **not** a premise that the closure mass is the Galaxy's baryonic mass. The author also prefers a *macroscopic middle-space* origin of $G$ (with the closure ratio as a target) and a separate Boltzmannian-compatibility origin of the effective quantum/Planck-area scale; the induced-gravity calculation remains a benchmark, not the preferred ontological explanation of $G$.
 
@@ -15890,7 +15894,7 @@ With $S = 1+iT$ this is $2\,{\rm Im}\,T^{(2)}_{ii} = \sum_f\lvert T^{(1)}_{fi}\r
 - *the Milky Way, seen from inside with the leaf's own light, fails on every scanned leaf and at the continuous optimum — as a cold-tracer proxy for the published estimator, which is not yet applied (§XXXIII.19) [v36.1, R323];*
 - *the SPARC galaxies, with the arena law, fail too.*
 
-*With the author's zoom labels as two free numbers per galaxy, the gnomonic premise improves the SPARC curves greatly; under the quoted errors one of the eight fits is acceptable, one borderline, and six are not (§XXXIII.17) [v36.1, R319]. The labels the fits need trend with mass, and must now come from a law. §XXXIII.11 locates each failure; §XXXIII.25 is the operative standing after v36.1, §XXXIII.32 its continuation after v36.2 (Entries 323–324: a stationary population on the leaf does not remove the dwarfs' required outer mass, and must be hot where it lacks circular support), §XXXIII.42 after v36.3 (the review and Entries 325–339: sources regular at the equator keep the plateau and admit crossing orbits; the isothermal law selects no cold disk; a transfer with a fixed scale is not a small deformation of a large leaf), §XXXIII.48 after v36.4 (the erratum; at fixed energy a concentrated isothermal state is stable but hot; the proposed clash invariant is blind to the departure it was built from), §XXXIII.54 after v36.5 (the kinematics erratum: library bounds are compatibility witnesses, not certificates; the clash sum detects the tilt but confines nothing).*
+*With the author's zoom labels as two free numbers per galaxy, the gnomonic premise improves the SPARC curves greatly; under the quoted errors one of the eight fits is acceptable, one borderline, and six are not (§XXXIII.17) [v36.1, R319]. The labels the fits need trend with mass, and must now come from a law. §XXXIII.11 locates each failure; §XXXIII.25 is the operative standing after v36.1, §XXXIII.32 its continuation after v36.2 (Entries 323–324: a stationary population on the leaf does not remove the dwarfs' required outer mass, and must be hot where it lacks circular support), §XXXIII.42 after v36.3 (the review and Entries 325–339: sources regular at the equator keep the plateau and admit crossing orbits; the isothermal law selects no cold disk; a transfer with a fixed scale is not a small deformation of a large leaf), §XXXIII.48 after v36.4 (the erratum; at fixed energy a concentrated isothermal state is stable but hot; the proposed clash invariant is blind to the departure it was built from), §XXXIII.54 after v36.5 (the kinematics erratum: library bounds are compatibility witnesses, not certificates; the clash sum detects the tilt but confines nothing), §XXXIII.59 after v36.6 (a minimal localization model from one action localizes but derives neither the thin–broad disk nor the profile; the localized tail's rates and aspect are the probe's kinetic metric's, an input; an observer-side receiver selects within a family of profiles the source fixes, unless the profile is written into it).*
 
 *v36.1 (16 October 2026) is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§XXXIII.14): the plateau coefficient of an extended source (§XXXIII.15), the label condition corrected (§XXXIII.16), the pilot's statistics and its sources in error units (§XXXIII.17), the gas reconstruction's family (§XXXIII.18), the Milky Way comparison as a cold-tracer proxy with its leaf radius continuous (§XXXIII.19), the plateau's observable reach (§XXXIII.20), the orbit statements' domain (§XXXIII.21), the author's 8 kpc leaf (§XXXIII.22), Entry 322's shape family (§XXXIII.23), the current results (§XXXIII.24), the standing (§XXXIII.25) and the register (§XXXIII.26). The suite of §XXXIII.13 is extended to 18 checks.*
 
@@ -16421,22 +16425,23 @@ This answers the author's question of what the families of labels capture: given
 
   [reproducibility]
 
-## XXXIII.13 Executable appendix: `pg_v36_numerics.py`, embedded [reproducibility; v36.0–v36.5, R317, R331, R338, R348, R353, R359]
+## XXXIII.13 Executable appendix: `pg_v36_numerics.py`, embedded [reproducibility; v36.0–v36.6, R317, R331, R338, R348, R353, R359, R364]
 
-*The standalone suite (NumPy and SciPy only) that prints every computed number of Part XXXIII. Save the block as `pg_v36_numerics.py` and run `python3 -I pg_v36_numerics.py` (the regression suite of Part XXXIII, v36.0–v36.5: 35 checks; exit status 1 if any fails, in every mode; about twenty minutes, depending on the machine), one round with `python3 -I pg_v36_numerics.py v36_0`, `v36_1` (with the v36.0 computations it builds on), `v36_2`, `v36_3` (one to three minutes), `v36_4` or `v36_5` (a few minutes each), or the checks that run in a few minutes with `quick` (21 checks, for a referee's time limit); an unknown mode prints the usage line and exits with status 2. It embeds its data: the two Milky Way tables, McMillan 2017's parameters and the eight SPARC galaxies' rows. The frozen suites remain `pg_v35_numerics.py` (Parts XXX–XXXII, §XXX.10) and `pg_v34_numerics.py` (Part XXIX, §XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v36`, `v36_0`, `v36_1`, `v36_2`, `v36_3`, `v36_4`, `v36_5` and `quick` run it and whose `all` runs the frozen v34.10 and v35.8 suites and Part XXXIII together (222 checks). The figures come from `pg_v36_0_plots.py`, `pg_v36_1_plots.py`, `pg_v36_2_plots.py` and `pg_v36_3_plots.py`, which load this suite. SHA-256 of the file: `87fda227e579dd79092e9e151cf5f10e92c1ea517472734584655324304fac9e`.*
+*The standalone suite (NumPy and SciPy only) that prints every computed number of Part XXXIII. Save the block as `pg_v36_numerics.py` and run `python3 -I pg_v36_numerics.py` (the regression suite of Part XXXIII, v36.0–v36.6: 37 checks; exit status 1 if any fails, in every mode; about twenty minutes, depending on the machine), one round with `python3 -I pg_v36_numerics.py v36_0`, `v36_1` (with the v36.0 computations it builds on), `v36_2`, `v36_3` (one to three minutes), `v36_4`, `v36_5` or `v36_6` (a few minutes each), or the checks that run in a few minutes with `quick` (23 checks, for a referee's time limit); an unknown mode prints the usage line and exits with status 2. It embeds its data: the two Milky Way tables, McMillan 2017's parameters and the eight SPARC galaxies' rows. The frozen suites remain `pg_v35_numerics.py` (Parts XXX–XXXII, §XXX.10) and `pg_v34_numerics.py` (Part XXIX, §XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v36`, `v36_0`, `v36_1`, `v36_2`, `v36_3`, `v36_4`, `v36_5`, `v36_6` and `quick` run it and whose `all` runs the frozen v34.10 and v35.8 suites and Part XXXIII together (224 checks). The figures come from `pg_v36_0_plots.py`, `pg_v36_1_plots.py`, `pg_v36_2_plots.py` and `pg_v36_3_plots.py`, which load this suite. SHA-256 of the file: `be8e59f715876dcaec4a028501f3b97c06610833407561899da2370937b749c6`.*
 
 ```python
 """Projective Gravity v36 -- standalone numerical suite for Part XXXIII: the observed rotation curve (NumPy + SciPy only; Python 3.12/3.13
 tested).  Parts XXX-XXXII are frozen at v35.8 with their suite pg_v35_numerics.py; Part XXIX's frozen suite is pg_v34_numerics.py (v34.10).
 
 Run (from the directory holding this file):
-    python3 -I pg_v36_numerics.py              # current regression suite of Part XXXIII, v36.0-v36.5 (check summary; about twenty minutes)
+    python3 -I pg_v36_numerics.py              # current regression suite of Part XXXIII, v36.0-v36.6 (check summary; about twenty minutes)
     python3 -I pg_v36_numerics.py v36_0        # the v36.0 sections only
     python3 -I pg_v36_numerics.py v36_1        # the v36.1 sections, with the v36.0 computations they build on
     python3 -I pg_v36_numerics.py v36_2        # the v36.2 sections only (Entries 323-324)
     python3 -I pg_v36_numerics.py v36_3        # the v36.3 sections only (Entries 325-339 and the v36.2 review; one to three minutes)
     python3 -I pg_v36_numerics.py v36_4        # the v36.4 sections only (the v36.3 review and Entries 340-341; a few minutes)
     python3 -I pg_v36_numerics.py v36_5        # the v36.5 sections only (the two v36.4 reviews: the kinematics erratum, the clash and sector additions; a few minutes)
+    python3 -I pg_v36_numerics.py v36_6        # the v36.6 sections only (the v36.5 review and the note of 19 October: one localization model; the receiver; a few minutes)
     python3 -I pg_v36_numerics.py quick        # the checks that run in a few minutes (for a referee's time limit)
 Every mode exits with status 1 if any check fails.
 
@@ -16513,6 +16518,24 @@ gradient of the recorded response corrected (0.0150/kpc).  The v36.2-1 and v36.3
 outcomes updated; the superseded prints quoted in the ledger).
 
 v36_5_quick(): v36_4_quick plus the v36.5 sections.
+
+v36_6_suite(): the review of v36.5 and the author's note of 19 October.  One localization model, from the admissibility scalar to the
+spectrum: the admissibility scalar C -- the squared Fubini-Study distance on the Bloch spheres from the pair (n_L, n_R) to the admitted two-Hopf
+family at the matter-selected tilt -- zero on the family, detecting the mirror tilt and an azimuthal turn of one sector's in-plane axis (the twist
+under which F_L - F_R stays zero), blind to the fibre phases; one action for the mirror pair's tilt alpha(x) (stiffness, the admissibility potential
+enforced where the matter is, a vacuum term), solved on a symmetric finite-volume grid of a flat meridional half-plane with Entry 326's image as the
+pinning density; a scalar probe in the induced potential g C (its stress, its optical meaning and the frame identification left out).  Out: bound
+modes whose vertical scale is set mainly by the gap, whose radial extent is set by D_R within the pinned well, and whose far field decays at the
+rates sqrt((V_inf - E_0)/D) with the asymptotic aspect sqrt(D_R/D_z) of the probe's kinetic metric (the exterior theorem, borne out to a few per
+cent where the tail is resolved); the radial scale is D_R's relative to the gap, the aspect D_R/D_z's; at D_z = 1 the mode is bound up to
+D_R = 52.19 on the largest of three boxes (52.37 extrapolated) and no mode is bound once D_R sqrt(D_z) > 80.6 (the Cwikel-Lieb-Rozenblum bound);
+no member follows the sine-exponential, and by the
+theorem none can at large R.  Then the note's question in a reduction of the smallest two-path, one-qubit model: the two-path holonomy is blind to
+the observer's frame and conjugated by the source's; a projective receiver's transfer (1 + d . b(x))/2 with the budget T_d + T_-d = 1 (one path, or
+two added incoherently); a uniform receiver selects one member of a two-parameter family of profiles fixed by the source's b(x); a position-dependent
+one imposes any transmission T(x) in [0, 1] -- any received profile up to the source's own -- written into the receiver.
+
+v36_6_quick(): v36_5_quick plus the v36.6 sections.
 """
 import numpy as np
 PI = np.pi
@@ -20071,6 +20094,447 @@ def v36_5_suite():
 def v36_5_quick():
     """The checks that run in a few minutes: v36.4's quick set plus the two v36.5 sections."""
     v36_4_quick(); return v36_5_suite()
+# ==================================================================================================== v36.6 (19 October 2026): sections
+# The review of v36.5: one localization model, from the admissibility scalar to the spectrum -- the admissibility scalar from the Bloch-sphere
+# (Fubini-Study) distance to the admitted joint family, one action for the two direction fields with a matter-localized pinning, its Euler-Lagrange
+# equation solved in a flat meridional half-plane, a probe field in the induced potential; and the author's note of 19 October: what an observer-side
+# receiving operation can and cannot change, in a reduction of the smallest two-path, one-qubit model.
+def _v36_adm_C(nL, nR, alpha0, k=np.array([0, 0, 1.0])):
+    """The admissibility scalar (v36.6, R361): the squared product Fubini-Study distance from the pair (n_L, n_R) to the admitted joint family
+    A = {cos alpha0 k +- sin alpha0 t(beta): beta in S^1} (the two-Hopf pair of v36.3-7(f) at the matter-selected tilt alpha0), minimized over
+    beta; d_FS(a, b) = (1/2) arccos(a . b) for two qubit states on the Bloch sphere.  Zero exactly on A, exchange-even, invariant under the
+    common rotation about k; a function of the two Bloch directions only (the squared geodesic distance of the Fubini-Study metric, the real part of
+    the quantum geometric tensor, minimized over the family), so blind to the sectors' U(1) fibre phases -- the clash phase of v36.3-7(g)."""
+    from scipy.optimize import minimize_scalar
+    t = lambda b: np.array([np.cos(b), np.sin(b), 0.0]); d2 = lambda a, b: (0.5*np.arccos(np.clip(float(a @ b), -1.0, 1.0)))**2
+    f = lambda b: d2(nL, np.cos(alpha0)*k + np.sin(alpha0)*t(b)) + d2(nR, np.cos(alpha0)*k - np.sin(alpha0)*t(b))
+    bs = np.linspace(0, 2*PI, 73); b0 = bs[int(np.argmin([f(b) for b in bs]))]
+    return float(minimize_scalar(f, bounds=(b0 - 0.2, b0 + 0.2), method='bounded', options=dict(xatol=1e-12)).fun)
+
+def _v36_fv(Rmax, Zmax, NR, NZ):
+    """A finite-volume grid on the meridional half-plane: cell centres R_i = (i + 1/2) dR, z_j = (j + 1/2) dz; the axis face (R = 0) has zero area
+    (regularity of an axisymmetric scalar), the plane face (z = 0) carries no flux (the sector even in z), the outer faces are Dirichlet.  Returns
+    the radial and vertical stiffness matrices K_R, K_z (symmetric, positive semidefinite: K = -M Lap, Lap = (1/R) d_R (R d_R) + d_z^2) and the
+    mass M = R dR dz (2 pi dropped), so that every operator below is symmetric and every eigenproblem a symmetric-definite one (v36.6; the first
+    draft of this section used an unsymmetrized central difference with a symmetric eigensolver, whose eigenvalues were not reproducible)."""
+    import scipy.sparse as sp
+    dR, dz = Rmax/NR, Zmax/NZ; Rc = (np.arange(NR) + 0.5)*dR; zc = (np.arange(NZ) + 0.5)*dz
+    RR, ZZ = np.meshgrid(Rc, zc, indexing='ij'); N = NR*NZ; I = np.arange(N).reshape(NR, NZ); M = (RR*dR*dz).ravel()
+    def graph(p, q, w, extra):
+        d = np.zeros(N); np.add.at(d, p, w); np.add.at(d, q, w); d += extra
+        return sp.csr_matrix((np.concatenate([-w, -w, d]), (np.concatenate([p, q, np.arange(N)]), np.concatenate([q, p, np.arange(N)]))), shape=(N, N))
+    wR = np.repeat(np.arange(1, NR)*dR, NZ)*dz/dR; xR = np.zeros(N); xR[I[-1, :]] = 2*Rmax*dz/dR
+    wz = np.repeat(Rc, NZ - 1)*dR/dz; xz = np.zeros(N); xz[I[:, -1]] = 2*Rc*dR/dz
+    KR = graph(I[:-1, :].ravel(), I[1:, :].ravel(), wR, xR); Kz = graph(I[:, :-1].ravel(), I[:, 1:].ravel(), wz, xz)
+    return dict(Rc=Rc, zc=zc, RR=RR, ZZ=ZZ, M=M, KR=KR, Kz=Kz, N=N, NR=NR, NZ=NZ, dR=dR, dz=dz)
+
+def _v36_loc_alpha(G, ks, lam, mu, alpha0, rho, hedgehog=False, tol=1e-11):
+    """The tilt alpha(R, z) of the mirror pair (an ansatz) minimizing the discrete energy (ks/2) alpha.K alpha + sum M [lam rho (alpha - alpha0)^2/2 + mu (1 - cos alpha)
+    (+ ks sin^2 alpha/(2 R^2) when the in-plane axis is soldered to e_R, the 'hedgehog')], by Newton on its exact gradient with a backtracking line search."""
+    import scipy.sparse as sp
+    from scipy.sparse.linalg import spsolve
+    K = G['KR'] + G['Kz']; M = G['M']; R2 = G['RR'].ravel()**2; r = rho(G['RR'], G['ZZ']).ravel()
+    E = lambda a: 0.5*ks*a @ (K @ a) + np.sum(M*(lam*r*(a - alpha0)**2/2 + mu*(1 - np.cos(a)) + (ks*np.sin(a)**2/(2*R2) if hedgehog else 0.0)))
+    grad = lambda a: ks*(K @ a) + M*(lam*r*(a - alpha0) + mu*np.sin(a) + (ks*np.sin(a)*np.cos(a)/R2 if hedgehog else 0.0))
+    hess = lambda a: ks*K + sp.diags(M*(lam*r + mu*np.cos(a) + (ks*np.cos(2*a)/R2 if hedgehog else 0.0)))
+    a = alpha0*lam*r/(lam*r + mu); res = np.inf
+    for it in range(100):
+        g = grad(a); da = spsolve(hess(a).tocsc(), -g); s = 1.0; e0 = E(a)
+        while s > 1e-6 and E(a + s*da) > e0 + 1e-4*s*(g @ da): s *= 0.5
+        a = a + s*da; res = float(np.linalg.norm(grad(a)/M)/np.sqrt(G['N']))
+        if res < tol: break
+    return a.reshape(G['NR'], G['NZ']), it + 1, res, float(E(a))
+
+def _v36_loc_probe(G, V, DR=1.0, DZ=1.0, nev=3):
+    """The probe's lowest modes: (D_R K_R + D_z K_z + M V) x = E M x, symmetric-definite, by shift-invert at 0; the ground mode normalized over both halves."""
+    import scipy.sparse as sp
+    from scipy.sparse.linalg import eigsh
+    A = (DR*G['KR'] + DZ*G['Kz'] + sp.diags(G['M']*V.ravel())).tocsc()
+    ev, vec = eigsh(A, k=nev, M=sp.diags(G['M']).tocsc(), sigma=0.0, which='LM', v0=np.ones(G['N'])); o = np.argsort(ev); ev = ev[o]
+    psi = vec[:, o[0]].reshape(G['NR'], G['NZ']); psi = psi*np.sign(psi.sum()); psi = psi/np.sqrt(2*np.sum(G['M'].reshape(G['NR'], G['NZ'])*psi**2))
+    return ev, psi, float(abs(A - A.T).max())
+
+def _v36_loc_shape(G, psi, Vinf, E0, DR, DZ=1.0, Rsrc=None):
+    """The ground mode's shape: the half-maximum radius of |psi|^2 in the plane and half-maximum height on the axis (their ratio the aspect of the
+    half-maximum contour, a near-field quantity); the projected Sigma_psi = int |psi|^2 dz, its half-maximum radius and its local radial scale length
+    -1/(d ln Sigma_psi/dR) at R = 1, 2, 3, 4, 6, 8; the far-field decay rates fitted as ln|psi| = c - kappa x - p ln x in the plane (over R = 8-14 and
+    10-16, or 30-60 when sqrt((V_inf - E0)/D_R) < 0.15, a weakly bound mode whose tail begins further out) and on the axis (over z0 to z0 + 3/kappa_z,
+    z0 = max(1.5, 1.5/kappa_z, 3 Rsrc sqrt(D_z/D_R)): beyond three rescaled radii of the source, Rsrc its half-depth radius, where the axis field is
+    asymptotic), against sqrt((V_inf - E0)/D_R) and sqrt((V_inf - E0)/D_z), and, where max(1.5, 1.5/kappa_z) lies nearer the plane than z0, a
+    window of the same length from there (the near field); a fit is made only with ten cells above 1e-12 of the maximum and the window at least
+    three predicted decay lengths inside the box, and returns the extent actually used.  Integrates over nonuniform cells when the grid has them."""
+    Rc, zc = G['Rc'], G['zc']; pl = psi[:, 0]**2; ax = psi[0]**2
+    Rh = float(Rc[pl >= pl[0]/2].max()) if pl.argmax() == 0 else float(Rc[pl >= pl.max()/2].max()); zh = float(zc[ax >= ax.max()/2].max())
+    Sig = 2*np.sum(psi**2*G['dzs'][None, :], axis=1) if 'dzs' in G else 2*np.sum(psi**2, axis=1)*G['dz']; hl = -1/np.gradient(np.log(Sig + 1e-300), Rc)
+    RhS = float(Rc[Sig >= Sig.max()/2].max())
+    Redge = Rc[-1] + (G['dRs'][-1] if 'dRs' in G else G['dR'])/2; zedge = zc[-1] + (G['dzs'][-1] if 'dzs' in G else G['dz'])/2
+    kpred = float(np.sqrt(max(Vinf - E0, 0.0)/DR)); kzpred = float(np.sqrt(max(Vinf - E0, 0.0)/DZ))
+    nan = float('nan')
+    def fit(x, y, w0, w1, edge, kp):
+        m = (x >= w0) & (x <= w1) & (np.abs(y) > 1e-12*np.abs(y).max())
+        if kp <= 0 or m.sum() < 10 or (edge - w1)*kp < 3.0: return nan, nan, (nan, nan)
+        X = np.vstack([np.ones(m.sum()), -x[m], -np.log(x[m])]).T; _, kk, pp = np.linalg.lstsq(X, np.log(np.abs(y[m])), rcond=None)[0]
+        return float(kk), float(pp), (float(x[m].min()), float(x[m].max()))
+    w = (8.0, 14.0) if kpred >= 0.15 else (30.0, 60.0)
+    kfit, pfit, win = fit(Rc, psi[:, 0], w[0], w[1], Redge, kpred); kfit2 = fit(Rc, psi[:, 0], 10.0, 16.0, Redge, kpred)[0] if kpred >= 0.15 else nan
+    if kzpred > 0:
+        z0 = max(1.5, 1.5/kzpred, 3*Rsrc*np.sqrt(DZ/DR) if Rsrc else 0.0); kzfit, _, zwin = fit(zc, psi[0, :], z0, z0 + 3.0/kzpred, zedge, kzpred)
+        zn = max(1.5, 1.5/kzpred)      # the same length nearer the plane, the near field: fitted only where that start lies before z0
+        kznear = fit(zc, psi[0, :], zn, zn + 3.0/kzpred, zedge, kzpred)[0] if zn < z0 else nan
+    else:
+        kzfit, zwin, kznear, z0, zn = nan, (nan, nan), nan, nan, nan
+    return dict(Rh=Rh, zh=zh, aspect=Rh/zh, RhS=RhS, hl={r0: float(hl[int(np.argmin(abs(Rc - r0)))]) for r0 in (1, 2, 3, 4, 6, 8)}, kfit=kfit, pfit=pfit, kfit2=kfit2,
+                kpred=kpred, kzfit=kzfit, kzpred=kzpred, kznear=kznear, z0=z0, zn=zn, Sig=Sig, win=win, zwin=zwin)
+
+def _v36_geo_edges(h, Lfine, Lmax, q):
+    """Cell edges 0, h, 2h, ... to Lfine, then cells growing by the factor q until Lmax is passed (a large box at a modest cost)."""
+    e = list(np.arange(0.0, Lfine + 1e-9, h)); d = h
+    while e[-1] < Lmax: d *= q; e.append(e[-1] + d)
+    return np.array(e)
+
+def _v36_fvg(Re, ze):
+    """_v36_fv on a nonuniform tensor grid with cell edges Re (from R = 0) and ze (from z = 0): the same faces and boundary conditions (the axis face of
+    zero area, the plane face without flux, Dirichlet outer faces), the face weights R_f dz/(R_c' - R_c) and R_c dR/(z_c' - z_c), the mass R dR dz;
+    on uniform edges it reproduces _v36_fv to rounding (v36.6, R362: the anisotropy scan and the threshold need boxes far larger than the matter)."""
+    import scipy.sparse as sp
+    Re = np.asarray(Re, float); ze = np.asarray(ze, float)
+    Rc = 0.5*(Re[:-1] + Re[1:]); dRs = np.diff(Re); zc = 0.5*(ze[:-1] + ze[1:]); dzs = np.diff(ze); NR, NZ = len(Rc), len(zc)
+    RR, ZZ = np.meshgrid(Rc, zc, indexing='ij'); N = NR*NZ; I = np.arange(N).reshape(NR, NZ); M = (RR*dRs[:, None]*dzs[None, :]).ravel()
+    def graph(p, q, w, extra):
+        d = np.zeros(N); np.add.at(d, p, w); np.add.at(d, q, w); d += extra
+        return sp.csr_matrix((np.concatenate([-w, -w, d]), (np.concatenate([p, q, np.arange(N)]), np.concatenate([q, p, np.arange(N)]))), shape=(N, N))
+    wR = (Re[1:-1]/np.diff(Rc))[:, None]*dzs[None, :]; xR = np.zeros((NR, NZ)); xR[-1, :] = Re[-1]*dzs/(Re[-1] - Rc[-1])
+    wz = (Rc*dRs)[:, None]/np.diff(zc)[None, :]; xz = np.zeros((NR, NZ)); xz[:, -1] = Rc*dRs/(ze[-1] - zc[-1])
+    KR = graph(I[:-1, :].ravel(), I[1:, :].ravel(), wR.ravel(), xR.ravel()); Kz = graph(I[:, :-1].ravel(), I[:, 1:].ravel(), wz.ravel(), xz.ravel())
+    return dict(Rc=Rc, zc=zc, RR=RR, ZZ=ZZ, M=M, KR=KR, Kz=Kz, N=N, NR=NR, NZ=NZ, dRs=dRs, dzs=dzs)
+
+def _v36_loc_count(G, V, Vinf, DR=1.0, DZ=1.0, m=0, odd=False):
+    """The number of the probe's modes below V_inf -- its bound states -- in the sector with azimuthal number m and the given parity in z, by
+    Sylvester's law of inertia: the negative pivots of a diagonally pivoted, symmetrically permuted sparse factorization of D_R K_R + D_z K_z
+    + M (V - V_inf) (+ D_R m^2 M/R^2; for the sector odd in z the plane face is Dirichlet), which is congruent to it; no eigenvalue iteration, so no
+    slow convergence near the threshold, where the ground mode and the box's quasi-continuum crowd together."""
+    import scipy.sparse as sp
+    from scipy.sparse.linalg import splu
+    d = G['M']*(V.ravel() - Vinf)
+    if m: d = d + DR*m**2*G['M']/G['RR'].ravel()**2
+    if odd:
+        dRs = G['dRs'] if 'dRs' in G else np.full(G['NR'], G['dR']); x0 = np.zeros((G['NR'], G['NZ'])); x0[:, 0] = G['Rc']*dRs/G['zc'][0]; d = d + DZ*x0.ravel()
+    lu = splu((DR*G['KR'] + DZ*G['Kz'] + sp.diags(d)).tocsc(), permc_spec='MMD_AT_PLUS_A', diag_pivot_thresh=0.0, options=dict(SymmetricMode=True))
+    assert np.array_equal(lu.perm_r, lu.perm_c), "a non-symmetric pivot: the inertia is not read off"
+    return int(np.sum(lu.U.diagonal() < 0))
+
+def _v36_loc_ground(G, V, Vinf, DR=1.0, DZ=1.0):
+    """The probe's ground mode: the modes below V_inf counted first (_v36_loc_count, the axisymmetric sector even in z); then shift-invert at 0 when two
+    or more are bound, at V_inf from below when one is (the most negative 1/(E - V_inf)), and the lowest box state above V_inf when none is.  Returns
+    (E_0, psi, the count); the caller checks that E_0 < V_inf exactly when the count is positive."""
+    import scipy.sparse as sp
+    from scipy.sparse.linalg import eigsh
+    nb = _v36_loc_count(G, V, Vinf, DR, DZ); A = (DR*G['KR'] + DZ*G['Kz'] + sp.diags(G['M']*V.ravel())).tocsc()
+    sig, wh = (0.0, 'LM') if nb >= 2 else (Vinf, 'SA' if nb == 1 else 'LA')
+    ev, vec = eigsh(A, k=1, M=sp.diags(G['M']).tocsc(), sigma=sig, which=wh, v0=np.ones(G['N']))
+    psi = vec[:, 0].reshape(G['NR'], G['NZ']); psi = psi*np.sign(psi.sum()); psi = psi/np.sqrt(2*np.sum(G['M'].reshape(G['NR'], G['NZ'])*psi**2))
+    return float(ev[0]), psi, nb
+
+def v36_6_localization_model():
+    print("\n== v36.6-1. One localization model, from the admissibility scalar to the spectrum: one action for the two direction fields, a probe in the induced potential (the v36.5 review; R361, R362) ==")
+    print("   The reviews of v36.4 and v36.5 ask for one localization operator from a stated action rather than another scalar proxy for the clash, with its clash quantity,")
+    print("   gap, centre and radial/vertical scales determined together, and for the admissibility geometry -- which relative orientations of the two sectors are")
+    print("   compatible -- to come before the potential.  This section builds the smallest such model and reports what comes out of it and what has to be put in; the")
+    print("   probe's meaning, its stress and the frame identification are left out.  It works in a flat meridional half-plane (R, z) -- a premise: the leaf's curvature")
+    print("   and the optics are left out of the field equations, while the pinning density is Entry 326's image with its R/ell dependence kept.")
+    out = {}
+    # (a) the admissibility scalar and its tests
+    k = np.array([0, 0, 1.0]); t = lambda ph: np.array([np.cos(ph), np.sin(ph), 0.0]); a0 = 0.5; th = lambda zz: np.arctan(1.5*zz)
+    c_adm = max(_v36_adm_C(np.cos(a0)*k + np.sin(a0)*t(b), np.cos(a0)*k - np.sin(a0)*t(b), a0) for b in np.linspace(0, 6, 13))
+    rows = []
+    for zz in (0.3, 1.0):
+        nL = np.cos(th(zz))*k + np.sin(th(zz))*t(0.4); nR = np.cos(th(zz))*k - np.sin(th(zz))*t(0.4)
+        rows.append((zz, _v36_adm_C(nL, nR, a0), (th(zz) - a0)**2/2, _v36_adm_C(nL, np.cos(a0)*k - np.sin(a0)*t(0.4), a0), (th(zz) - a0)**2/4))
+    dl = 1.7*a0; nA = np.cos(a0)*k + np.sin(a0)*t(0.4)
+    c_tw = _v36_adm_C(nA, np.cos(a0)*k - np.sin(a0)*t(0.4 + dl), a0); c_tw_cf = float(2*np.arcsin(np.sin(a0)*np.sin(dl/4))**2)
+    c_own = _v36_adm_C(nA, np.cos(a0)*k + np.sin(a0)*t(0.4 + dl), a0); c_own_cf = float(2*(np.arccos(np.cos(a0)**2 + np.sin(a0)**2*np.cos((PI - dl)/2))/2)**2)
+    c_id = _v36_adm_C(nA, nA, a0); c_id_cf = float(2*(np.arccos(np.cos(a0)**2)/2)**2)
+    rg = np.random.default_rng(366); gen = [v/np.linalg.norm(v) for v in rg.normal(size=(6, 3))]
+    Rk = lambda v, ph: np.array([np.cos(ph)*v[0] - np.sin(ph)*v[1], np.sin(ph)*v[0] + np.cos(ph)*v[1], v[2]])
+    e_ex = max(abs(_v36_adm_C(gen[i], gen[i + 1], a0) - _v36_adm_C(gen[i + 1], gen[i], a0)) for i in (0, 2, 4))
+    e_rot = max(abs(_v36_adm_C(gen[i], gen[i + 1], a0) - _v36_adm_C(Rk(gen[i], 1.1), Rk(gen[i + 1], 1.1), a0)) for i in (0, 2, 4))
+    print("   (a) The admissibility scalar C(n_L, n_R) = min over beta of [d_FS^2(n_L, a_L(beta)) + d_FS^2(n_R, a_R(beta))], the squared Fubini-Study distance on the two Bloch")
+    print(f"     spheres (d_FS = half the angle) to the admitted joint family a_L,R(beta) = cos alpha0 k +- sin alpha0 t(beta) at the matter-selected tilt alpha0 = {a0} -- the review's ansatz")
+    print(f"     made explicit.  On the admitted family, C = {c_adm:.1e} for every beta; for the mirror tilt theta(z) = arctan(1.5 z): " + "; ".join(f"z = {zz}: C = {c:.6f} = (theta - alpha0)^2/2 = {ca:.6f}" for zz, c, ca, _, _ in rows) + ";")
+    print("     for one sector tilted and the other admitted: " + "; ".join(f"z = {zz}: {c1:.6f} = (theta - alpha0)^2/4" for zz, _, _, c1, _ in rows) + ".  For the admitted pair with one")
+    print(f"     sector's in-plane axis turned by g = 1.7 alpha0 (v36.5-2(a)'s azimuthal twist, under which F_L - F_R stays zero, applied to the admitted pair at theta = alpha0):")
+    print(f"     C = {c_tw:.7f} = 2 arcsin^2(sin alpha0 sin(g/4)) = {c_tw_cf:.7f}; for v36.5-2(a)'s own pair there (a copy of one sector, turned by g) {c_own:.4f} = {c_own_cf:.4f}, and for two")
+    print(f"     identical sectors, which F_L - F_R also calls unclashed, {c_id:.4f} = 2 (arccos(cos^2 alpha0)/2)^2 = {c_id_cf:.4f}.  C is exchange-even and invariant under the common")
+    print(f"     rotation about k (on generic pairs: {e_ex:.0e}, {e_rot:.0e}).  Its nullspace is exactly the admitted family as chosen: here A_x admits the common rotation about k only,")
+    print("     so the relative rotation of the two in-plane axes (the twist) is detected; if it is meant to be admitted -- Entry 337's 'extra rotations' -- A_x must include it")
+    print("     and C will not see it, by construction.  C is a function of the two Bloch directions -- the squared geodesic distance of the Fubini-Study metric, the real part")
+    print("     of the quantum geometric tensor, minimized over the family -- and so blind to the sectors' U(1) fibre phases, the clash phase of v36.3-7(g): it encodes the")
+    print("     choice of A_x, which is the selection law's content; it does not supply it.")
+    out['scalar'] = dict(adm=c_adm, rows=rows, twist=c_tw, twist_cf=c_tw_cf, own=c_own, ident=c_id, ex=e_ex, rot=e_rot)
+    # (b) the action; the vertical problem at the centre, with the fiducial coefficients of (c), the matter layer's thickness varied, and the stiffness and the gap varied
+    from scipy.integrate import solve_bvp
+    from scipy.linalg import eigh_tridiagonal
+    ks, lam, mu, g = 1.0, 500.0, 25.0, 100.0; xi = np.sqrt(ks/mu); Vinf1 = g*a0**2/2
+    def vprob(hd_, mu_=mu, g_=g):
+        xi_ = np.sqrt(ks/mu_); Vi_ = g_*a0**2/2; rho1 = lambda zz: np.exp(-zz**2/(2*hd_**2)); Z = 6.0; z0 = np.linspace(0, Z, 4001)
+        sol = solve_bvp(lambda zz, y: np.vstack([y[1], (lam*rho1(zz)*(y[0] - a0) + mu_*np.sin(y[0]))/ks]), lambda ya, yb: [ya[1], yb[0]], z0, np.vstack([a0*np.exp(-z0/xi_), -a0*np.exp(-z0/xi_)/xi_]), tol=1e-9, max_nodes=400000)
+        al = lambda zz: sol.sol(zz)[0]; zd = 4*hd_ + 4*xi_; dec = float(np.log(al(zd)/al(zd + 2*xi_))/2)          # alpha's decay per xi, outside the layer
+        n = 8000; zz = np.linspace(-Z, Z, n + 2)[1:-1]; hh = zz[1] - zz[0]; V1 = g_*(al(np.abs(zz)) - a0)**2/2
+        ev1, vec1 = eigh_tridiagonal(2/hh**2 + V1, -np.ones(n - 1)/hh**2, select='i', select_range=(0, 3)); p1 = vec1[:, 0]/np.sqrt(np.sum(vec1[:, 0]**2)*hh)
+        i3, i5 = int(np.argmin(abs(zz - 1.5))), int(np.argmin(abs(zz - 2.5))); kz1 = float(-np.log(abs(p1[i5])/abs(p1[i3]))/(zz[i5] - zz[i3]))
+        return dict(status=sol.status, a0c=float(al(0.0)), dec=dec, E0=float(ev1[0]), E1=float(ev1[1]), nb=int(np.sum(ev1 < Vi_)), kz=kz1, kpred=float(np.sqrt(Vi_ - ev1[0])), zh=float(zz[p1**2 >= (p1**2).max()/2].max()),
+                    fxi=float(np.sum(p1[abs(zz) < xi_]**2)*hh), fhd=float(np.sum(p1[abs(zz) < hd_]**2)*hh))
+    vert = {hd_: vprob(hd_) for hd_ in (0.02, 0.05, 0.1, 0.2, 0.4)}
+    vxi = {x_: vprob(0.05, mu_=ks/x_**2) for x_ in (0.1, 0.2, 0.4)}; vg = {g_: vprob(0.05, g_=g_) for g_ in (25.0, 100.0, 400.0)}
+    v1 = vert[0.1]; hd = 0.1
+    print("   (b) The action.  For the exchange-symmetric mirror pair n_{L,R} = cos alpha k +- sin alpha t with alpha(x) and the in-plane axis t uniform (an ansatz, consistent")
+    print("     by the exchange symmetry; within it a varying axis t(beta(x)) only adds ks sin^2 alpha |grad beta|^2/2 >= 0, so the uniform axis is the minimizer, and the axis")
+    print("     soldered to e_R is compared in (c)), the energy density is")
+    print("       (ks/2) |grad alpha|^2  +  lam rho(x) C  +  mu (1 - cos alpha),   C = (alpha - alpha0)^2/2,")
+    print("     the stiffness of the two sectors (each's |grad n|^2), the admissibility potential enforced where the matter is (rho the normalized matter density -- the")
+    print("     selection law of v36.3-7(f), stated here as a premise), and a vacuum term preferring the aligned alpha = 0 (n_L = n_R = k, outside the admitted family:")
+    print("     C = alpha0^2/2) away from the matter.  Euler-Lagrange: ks Lap alpha = lam rho (alpha - alpha0) + mu sin alpha.  What is localized is a probe amplitude psi --")
+    print("     its stress not fed back, its optical meaning not specified -- with energy int [ D_R |d_R psi|^2 + D_z |d_z psi|^2 + g C psi^2 ]: its potential g C is small")
+    print("     where the matter pins the sectors near the admitted family and rises to the gap V_inf = g alpha0^2/2 where they relax to the aligned vacuum -- a well whose walls")
+    print("     are made by the admissibility scalar, whose centre is the matter, whose shape is the one field alpha(x).  The gap is a modelling choice: g C applies the matter-")
+    print("     selected family everywhere, the pinning lam rho C only where the matter is.  Parameters: ks, lam, mu, alpha0, g, the probe's (D_R, D_z), and the density.")
+    print(f"     The vertical problem at the centre (rho = exp(-z^2/2 h_d^2); ks = {ks}, lam = {lam}, mu = {mu}, alpha0 = {a0}, g = {g}, the coefficients of (c); V_inf = {Vinf1:.1f}): at h_d = {hd},")
+    print(f"     alpha(0) = {v1['a0c']:.3f} and outside the layer alpha decays with the stiffness length xi = sqrt(ks/mu) = {xi:.2f} (its logarithm falls by {2*v1['dec']:.4f} over 2 xi); one bound")
+    print(f"     state, E_0 = {v1['E0']:.3f} (E_1 = {v1['E1']:.3f}, the box's continuum), whose amplitude decays as e^(-kappa_z |z|) with kappa_z = {v1['kz']:.3f} = sqrt(V_inf - E_0) = {v1['kpred']:.3f}, so |psi|^2")
+    print(f"     over 1/(2 kappa_z) = {1/(2*v1['kz']):.3f}.  With the layer's thickness varied 20-fold, |psi|^2 is above half maximum to |z| = " + ", ".join(f"{d['zh']:.3f}" for d in vert.values()) + " at h_d = "
+          + ", ".join(f"{hd_}" for hd_ in vert) + f" (bound states:")
+    zxi = ', '.join(f"{d['zh']:.3f}" for d in vxi.values()); zg_ = ', '.join(f"{d['zh']:.3f}" for d in vg.values())
+    print(f"     {', '.join(str(d['nb']) for d in vert.values())}); at h_d = 0.05, {zxi} for xi = 0.1, 0.2, 0.4 and {zg_} for g = 25, 100, 400.  So for layers")
+    print("     thinner than xi the vertical scale of the localized mode is set mainly by the gap (through kappa_z = sqrt(V_inf - E_0)), weakly by the stiffness length, and not")
+    print(f"     by the matter's thickness; a layer as thick as xi or thicker widens it, and a second bound state appears.  (At h_d = {hd}, {v1['fhd']:.0%} of |psi|^2 lies within")
+    print(f"     the layer and {v1['fxi']:.0%} within xi.)")
+    out['vertical'] = vert; out['vertical_xi'] = vxi; out['vertical_g'] = vg; sol_status = all(d['status'] == 0 for d in list(vert.values()) + list(vxi.values()) + list(vg.values()))
+    # (c) the (R, z) problem: Entry 326's image as the pinning density; the uniform-axis minimizer against the soldered (hedgehog) one; the isotropic probe
+    from scipy.optimize import brentq
+    h, ell = 1.0, 16/3; fR = lambda RR: (1 + RR**2/ell**2)**-1.5*np.exp(-(RR/h)/np.sqrt(1 + RR**2/ell**2)); rho2 = lambda RR, ZZ: fR(RR)*np.exp(-ZZ**2/(2*hd**2))
+    ks2, lam2, mu2, g2 = ks, lam, mu, g; xi2 = np.sqrt(ks2/mu2); Vinf = g2*a0**2/2
+    conv = []
+    for NR, NZ in ((280, 160), (420, 240), (560, 320)):
+        Gc = _v36_fv(14.0, 4.0, NR, NZ); Ac, itc, resc, Ec = _v36_loc_alpha(Gc, ks2, lam2, mu2, a0, rho2); evc, psic, asym = _v36_loc_probe(Gc, g2*(Ac - a0)**2/2); conv.append((NR, NZ, itc, resc, Ec, evc[0], asym))
+    E_rich = conv[2][5] + (conv[2][5] - conv[1][5])/((560/420)**2 - 1)
+    Gh = _v36_fv(14.0, 4.0, 420, 240); Ah, _, _, Eh = _v36_loc_alpha(Gh, ks2, lam2, mu2, a0, rho2, hedgehog=True); evh, _, _ = _v36_loc_probe(Gh, g2*(Ah - a0)**2/2)
+    G = _v36_fv(20.0, 4.0, 500, 240); A, it, res, En = _v36_loc_alpha(G, ks2, lam2, mu2, a0, rho2); V = g2*(A - a0)**2/2; Rc = G['Rc']
+    ev, psi, asym = _v36_loc_probe(G, V, nev=4); P = _v36_loc_shape(G, psi, Vinf, ev[0], 1.0); nb_iso = _v36_loc_count(G, V, Vinf)
+    apl = [float(A[int(np.argmin(abs(Rc - r0))), 0]) for r0 in (0.25, 1, 2, 3, 5, 8)]; vpl = [float(V[int(np.argmin(abs(Rc - r0))), 0]) for r0 in (0.25, 1, 2, 3, 5, 8)]
+    hsrc = {r0: float(-1/np.gradient(np.log(fR(np.array([r0 - 1e-3, r0, r0 + 1e-3]))), np.array([r0 - 1e-3, r0, r0 + 1e-3]))[1]) for r0 in (1, 2, 3, 4, 6, 8, 20, 50)}
+    Rh_img = float(brentq(lambda r_: fR(r_) - 0.5, 0.01, 5.0)); Vhalf = float(brentq(lambda r_: np.interp(r_, Rc, V[:, 0]) - Vinf/2, 0.5, 8.0))
+    print(f"   (c) The (R, z) problem: Entry 326's image (h = 1, ell/h = 16/3; thickness h_d = {hd}) as the pinning density; ks = {ks2}, lam = {lam2}, mu = {mu2} (xi = {xi2:.2f}), alpha0 = {a0},")
+    print(f"     g = {g2} (V_inf = {Vinf:.1f}), on a finite-volume grid (symmetric operators, |A - A^T| = {asym:.0e}).  Convergence in the box R <= 14, z <= 4: E_0 = " + ", ".join(f"{c[5]:.5f}" for c in conv) + " on")
+    print("     " + ", ".join(f"{c[0]} x {c[1]}" for c in conv) + f" cells (Newton residuals below 1e-10); Richardson extrapolation of the two finer: {E_rich:.5f}.")
+    print(f"     In the plane alpha = {', '.join(f'{v:.3f}' for v in apl)} and V = {', '.join(f'{v:.2f}' for v in vpl)} at R = 0.25, 1, 2, 3, 5, 8: the sectors are held near the admitted tilt where the")
+    print(f"     matter can pin them (lam rho > mu, i.e. inside R ~ h ln(lam/mu) = {np.log(lam2/mu2):.1f} h; V reaches V_inf/2 at R = {Vhalf:.2f}) and relax to the vacuum beyond -- the well's radial")
+    print(f"     extent follows the matter.  With the in-plane axis soldered to e_R (Entry 341's radial direction) the field must vanish on the axis, a core of radius ~ sqrt(ks/lam rho_0) =")
+    print(f"     {np.sqrt(ks2/lam2):.3f}; that configuration costs more energy ({Eh:.4f} against {conv[1][4]:.4f}, as (b)'s inequality requires) and raises E_0 by {(evh[0] - conv[1][5])/conv[1][5]:+.1%} ({evh[0]:.4f}); the uniform axis is used below.")
+    print(f"     The isotropic probe (D_R = D_z = 1; the box R <= 20): E_0 = {ev[0]:.4f}, E_1 = {ev[1]:.4f}, E_2 = {ev[2]:.4f}, E_3 = {ev[3]:.4f} -- {nb_iso} modes below V_inf in the axisymmetric sector even in z")
+    print(f"     (counted by inertia, (d)).  |psi|^2 is above half maximum to R = {P['Rh']:.2f} in the plane and z = {P['zh']:.2f} on the axis (aspect {P['aspect']:.1f}), and Sigma_psi = int |psi|^2 dz to")
+    print(f"     R = {P['RhS']:.2f}, against the image's {Rh_img:.2f}: the core is as broad as the image's.  Beyond R ~ 2h the mode falls several times faster: Sigma_psi's local radial scale lengths")
+    print(f"     are {', '.join(f'{v:.2f}' for v in P['hl'].values())} h at R = 1, 2, 3, 4, 6, 8 against the image's {', '.join(f'{hsrc[r0]:.2f}' for r0 in (1, 2, 3, 4, 6, 8))}, and the profile steepens to a constant")
+    print(f"     far-tail rate where the image's scale length grows.  The far tail: ln|psi(R, 0)| fitted over R = 8-14 gives kappa = {P['kfit']:.4f} (with a 1/R^{P['pfit']:.2f} prefactor) against")
+    print(f"     sqrt(V_inf - E_0) = {P['kpred']:.4f}.")
+    out['iso'] = dict(conv=conv, ev=ev, shape=P, apl=apl, vpl=vpl, hedgehog=(Eh, evh[0]), asym=asym, hsrc=hsrc, E_rich=E_rich, Rh_img=Rh_img)
+    # (d) the exterior theorem and the kinetic scan, on large geometric grids (the spacing of (c) near the matter, the cells growing by 6% beyond)
+    grids = {}
+    for nm, (Rm, Zm) in (('A', (400.0, 60.0)), ('B', (800.0, 120.0)), ('C', (1600.0, 240.0))):
+        Gt = _v36_fvg(_v36_geo_edges(G['dR'], 16.0, Rm, 1.06), _v36_geo_edges(G['dz'], 1.5, Zm, 1.06)); At = _v36_loc_alpha(Gt, ks2, lam2, mu2, a0, rho2)[0]
+        grids[nm] = (Gt, g2*(At - a0)**2/2, At, float(Gt['Rc'][-1] + Gt['dRs'][-1]/2), float(Gt['zc'][-1] + Gt['dzs'][-1]/2))
+    GB, VB, AB = grids['A'][:3]; amin, amax = float(AB.min()), float(AB.max())
+    an = {}
+    for DR, DZ in ((1.0, 1.0), (3.0, 1.0), (10.0, 1.0), (20.0, 1.0), (30.0, 1.0), (40.0, 1.0), (50.0, 1.0), (60.0, 1.0), (100.0, 1.0), (3.0, 3.0), (6.0, 6.0)):
+        E0a, psia, nba = _v36_loc_ground(GB, VB, Vinf, DR=DR, DZ=DZ); an[(DR, DZ)] = dict(E0=E0a, nb=nba, bound=nba >= 1, shape=_v36_loc_shape(GB, psia, Vinf, E0a, DR, DZ, Rsrc=Vhalf) if nba >= 1 else None)
+    sect = {}
+    for DR in (1.0, 3.0, 10.0):
+        per, tot = [], 0
+        for mm in range(9):
+            ce, co = _v36_loc_count(GB, VB, Vinf, DR, 1.0, m=mm), _v36_loc_count(GB, VB, Vinf, DR, 1.0, m=mm, odd=True); per.append((mm, ce, co)); tot += (1 if mm == 0 else 2)*(ce + co)
+            if mm >= 1 and ce == 0 and co == 0: break
+        sect[DR] = (per, tot)
+    small = {DR: _v36_loc_ground(G, V, Vinf, DR=DR)[0] for DR in (20.0, 30.0, 40.0)}
+    def bisect(Gt, Vt, lo, hi, iso=False, n=12):
+        for _ in range(n):
+            mid = 0.5*(lo + hi)
+            if _v36_loc_count(Gt, Vt, Vinf, DR=mid, DZ=(mid if iso else 1.0)) >= 1: lo = mid
+            else: hi = mid
+        return lo, hi
+    thr = {nm: bisect(grids[nm][0], grids[nm][1], 50.0, 60.0) for nm in ('A', 'B', 'C')}; mt = {nm: 0.5*sum(thr[nm]) for nm in thr}
+    Lb = {nm: grids[nm][3] for nm in grids}; xt = lambda m_, a, b: (Lb[b]*m_[b] - Lb[a]*m_[a])/(Lb[b] - Lb[a])   # t(L) = t_inf - c/L through two boxes
+    ext_AB, ext_BC = xt(mt, 'A', 'B'), xt(mt, 'B', 'C')
+    thr_iso = {nm: bisect(grids[nm][0], grids[nm][1], 6.0, 14.0, iso=True, n=10) for nm in ('A', 'B', 'C')}; mi = {nm: 0.5*sum(thr_iso[nm]) for nm in thr_iso}
+    ext_iso = (xt(mi, 'A', 'B'), xt(mi, 'B', 'C'))
+    exc = {nm: _v36_loc_ground(grids[nm][0], grids[nm][1], Vinf, DR=60.0)[0] - Vinf for nm in ('A', 'B', 'C')}
+    MB = GB['M'].reshape(GB['NR'], GB['NZ']); I32 = float(4*PI*np.sum(MB*np.abs(np.minimum(VB - Vinf, 0.0))**1.5)); L03 = 0.11601; D_clr = L03*I32; D_clr_up = float(np.ceil(D_clr*10)/10)
+    print("   (d) The exterior theorem [T].  Far from the pinned matter alpha -> 0 and V -> V_inf (Entry 326's image has a power-law tail, so V_inf - V falls only as a power")
+    print("     of R within the layer), and asymptotically the probe obeys (-D_R Lap_R - D_z d_z^2 + V_inf - E_0) psi = 0; rescaling R -> R/sqrt(D_R), z -> z/sqrt(D_z) makes it")
+    print("     the isotropic modified Helmholtz equation, and for the positive ground mode ln psi / r' -> -sqrt(V_inf - E_0) uniformly in direction (Agmon; Carmona-Simon), the")
+    print("     layer's integrable tail changing only bounded factors: the in-plane rate is sqrt((V_inf - E_0)/D_R), the vertical sqrt((V_inf - E_0)/D_z), and the far field's level")
+    print("     sets approach ellipsoids of aspect sqrt(D_R/D_z) as the level falls (slowly: the angular prefactor shifts them by a bounded amount), whatever the matter's shape.")
+    print("     For a scalar probe the anisotropy of the localized tail IS the kinetic anisotropy; the matter enters through E_0 and the near field, and the half-maximum")
+    print("     contour, a near-field quantity, is not the tail's aspect.  The probe's kinetic metric (D_R, D_z) -- the response's tensor on Entry 341 with two eigenvalues,")
+    print(f"     v36.4-2(c), read as the probe's kinetic metric, an identification made here, not derived -- scanned on a large grid (R <= {grids['A'][3]:.0f}, z <= {grids['A'][4]:.0f}; the spacing of (c)")
+    print(f"     out to R = 16 and z = 1.5, the cells growing by 6% beyond; {GB['N']} cells), in units h = 1 with g = {g2}; the modes below V_inf counted by Sylvester's law of inertia")
+    print("     (m = 0, even in z, the ground mode's sector):")
+    for (DR, DZ), d in an.items():
+        if d['bound']:
+            p = d['shape']; f1 = (f"in-plane kappa {p['kfit']:.4f} over R = {p['win'][0]:.1f}-{p['win'][1]:.1f}" + (f" ({p['kfit2']:.4f} over 10-16)" if np.isfinite(p['kfit2']) else "")) if np.isfinite(p['kfit']) else "in-plane tail too long for the box"
+            f2 = f"vertical kappa {p['kzfit']:.4f} over z = {p['zwin'][0]:.1f}-{p['zwin'][1]:.1f}" if np.isfinite(p['kzfit']) else "vertical: no resolved window beyond the source"
+            print(f"       (D_R, D_z) = ({DR:5.1f}, {DZ:3.1f}): E_0 = {d['E0']:.4f} ({d['nb']}); half maximum R = {p['Rh']:.2f}, z = {p['zh']:.2f} (aspect {p['aspect']:.1f}); Sigma_psi scale lengths "
+                  + ", ".join(f"{v:.2f}" for v in p['hl'].values()) + f"; {f1} against {p['kpred']:.4f}; {f2} against {p['kzpred']:.4f}")
+        else:
+            print(f"       (D_R, D_z) = ({DR:5.1f}, {DZ:3.1f}): none below V_inf; the lowest box state at V_inf + {d['E0'] - Vinf:.4f}")
+    dz1 = [(D, 1.0) for D in (1.0, 3.0, 10.0, 20.0, 30.0, 40.0)]; iso = [(3.0, 3.0), (6.0, 6.0)]; zfit = [x for x in dz1 + iso if np.isfinite(an[x]['shape']['kzfit'])]
+    dev = lambda kf, kp: abs(kf/kp - 1)
+    kdev = max(dev(an[x]['shape']['kfit'], an[x]['shape']['kpred']) for x in dz1); kdev2 = max(dev(an[x]['shape']['kfit2'], an[x]['shape']['kpred']) for x in dz1[:4])
+    kdevi = max(max(dev(an[x]['shape']['kfit'], an[x]['shape']['kpred']), dev(an[x]['shape']['kfit2'], an[x]['shape']['kpred'])) for x in iso)
+    zdev = {x: an[x]['shape']['kzfit']/an[x]['shape']['kzpred'] - 1 for x in zfit}; zno = [x for x in dz1 + iso if x not in zfit]
+    zndev = {x: an[x]['shape']['kznear']/an[x]['shape']['kzpred'] - 1 for x in dz1 + iso if np.isfinite(an[x]['shape']['kznear'])}
+    zsame = [x for x in zfit if not an[x]['shape']['zn'] < an[x]['shape']['z0']]; zsl = ', '.join(f"({x[0]:.0f}, {x[1]:.0f})" for x in zsame)
+    zl = ', '.join(f"{100*zdev[x]:+.1f}% at ({x[0]:.0f}, {x[1]:.0f})" for x in zfit); znl = ', '.join(f"({x[0]:.0f}, {x[1]:.0f})" for x in zno)
+    print(f"     In the plane the fitted rates agree with the theorem to {kdev:.1%} at D_z = 1 (to {kdev2:.1%} over R = 10-16; at D_R = 1 the 1e-12 amplitude floor ends both windows near R = 13)")
+    print(f"     and to {kdevi:.1%} for the isotropic D = 3, 6.  On the axis, with the window beyond three rescaled radii of the source (its half-depth radius {Vhalf:.2f}), they agree to")
+    print(f"     {zl}; at {znl} no such window holds ten cells of this grid.  Windows of the same length nearer the plane, from z = max(1.5, 1.5/kappa_z), are still in the near")
+    print(f"     field and run high: {', '.join(f'{100*v:+.1f}%' for v in zndev.values())} at " + ", ".join(f"({x[0]:.0f}, {x[1]:.0f})" for x in zndev)
+          + (f"; at {zsl} that rule already starts beyond three radii, and its window is the one above." if zsame else "."))
+    print("     So the theorem is borne out to a few per cent where the tail is asymptotic and resolved.  What sets the scales: the radial scale by D_R relative to")
+    print(f"     the gap, the aspect by D_R/D_z.  Isotropically, D = 3 and 6 give Sigma_psi scale lengths {', '.join(f'{v:.2f}' for v in an[(3.0, 3.0)]['shape']['hl'].values())} and")
+    print(f"     {', '.join(f'{v:.2f}' for v in an[(6.0, 6.0)]['shape']['hl'].values())} h -- comparable to the image's at D = 6 -- with aspect {an[(3.0, 3.0)]['shape']['aspect']:.1f} and {an[(6.0, 6.0)]['shape']['aspect']:.1f}, and isotropic modes are bound up to D = {thr_iso['A'][0]:.3f}-{thr_iso['A'][1]:.3f}, {thr_iso['B'][0]:.3f}-{thr_iso['B'][1]:.3f}")
+    print(f"     and {thr_iso['C'][0]:.3f}-{thr_iso['C'][1]:.3f} on the three boxes below (lower bounds; {ext_iso[0]:.2f}, {ext_iso[1]:.2f} extrapolated); at D_z = 1, D_R = 10-20 gives comparable radial scales with aspect {an[(10.0, 1.0)]['shape']['aspect']:.1f}-{an[(20.0, 1.0)]['shape']['aspect']:.1f}.  In all sectors (m = 0, 1, 2, ..., each m > 0 twice; even and odd in z)")
+    print(f"     the modes below V_inf number {sect[1.0][1]}, {sect[3.0][1]} and {sect[10.0][1]} at D_R = 1, 3, 10 (D_z = 1; by sector " + "; ".join(f"D_R = {D:.0f}: " + ", ".join(f"m = {mm}: {ce}+{co}" for mm, ce, co in sect[D][0] if ce + co) for D in (1.0, 3.0)) + "); the ground mode")
+    print("     is axisymmetric and even.  E_0 is non-decreasing in D_R and in D_z (min-max: the kinetic form grows), so binding is lost at a single threshold.  The box matters")
+    print(f"     near it: in the box R <= 20, z <= 4 of (c), E_0 = {small[20.0]:.4f}, {small[30.0]:.4f} and {small[40.0]:.4f} at D_R = 20, 30 and 40, against {an[(20.0, 1.0)]['E0']:.4f}, {an[(30.0, 1.0)]['E0']:.4f} and {an[(40.0, 1.0)]['E0']:.4f} here -- the small")
+    print(f"     box loses the mode at 40.  At D_z = 1 the mode is bound up to D_R = {thr['A'][0]:.3f}-{thr['A'][1]:.3f} on this grid, {thr['B'][0]:.3f}-{thr['B'][1]:.3f} on one twice as large (R <= {grids['B'][3]:.0f}, z <= {grids['B'][4]:.0f}) and {thr['C'][0]:.3f}-{thr['C'][1]:.3f} on")
+    print(f"     one four times as large (R <= {grids['C'][3]:.0f}, z <= {grids['C'][4]:.0f}); a Dirichlet box only raises E_0 (domain monotonicity of the continuum problem; the discretization lowers E_0 on")
+    print(f"     refinement, the right sign), so these are lower bounds for the unbounded domain, and removing the 1/L correction of a zero-energy resonance (with the boxes' actual")
+    print(f"     ratios, {Lb['B']/Lb['A']:.3f} and {Lb['C']/Lb['B']:.3f}) gives {ext_AB:.3f} and {ext_BC:.3f} from the two pairs.  At D_R = 60 the lowest box state lies above V_inf by {exc['A']:.4f}, {exc['B']:.4f} and {exc['C']:.5f} on the three grids, falling as the box grows, as a continuum")
+    print(f"     state's does.  And an upper bound: in the rescaled coordinates the number of modes below V_inf in all sectors is at most L int |V - V_inf|^(3/2) d^3x' (the Cwikel-Lieb-")
+    print(f"     Rozenblum bound; Lieb's constant L = 6.86924/(6 pi^2) = 0.1160002, taken as {L03}), with V <= V_inf everywhere (0 <= alpha <= {amax:.3f} < 2 alpha0), d^3x' = d^3x/(D_R sqrt(D_z)) and")
+    print(f"     int |V - V_inf|^(3/2) d^3x = {I32:.1f}: no mode is bound once D_R sqrt(D_z) > {D_clr_up:.1f} ({L03} x {I32:.1f} = {D_clr:.2f}, rounded up; and at D_R = 1 at most {int(L03*I32)} are).  So at D_z = 1 the threshold lies between D_R = {thr['C'][0]:.2f} and")
+    print(f"     {D_clr_up:.1f}, numerically near {ext_BC:.2f}: with a radially stiffer kinetic term (D_R > D_z: a radial gradient costs D_R/D_z times more) the mode spreads to fill the pinned region")
+    print("     and, beyond the threshold, leaves it -- in the rescaled coordinates the well's in-plane extent shrinks as D_R^(-1/2), and a three-dimensional well binds only if")
+    print(f"     strong enough.  So with D_R = 10-20 at D_z = 1 the asymptotic tail scale of Sigma_psi, 1/(2 kappa) = {1/(2*an[(10.0, 1.0)]['shape']['kpred']):.2f}-{1/(2*an[(20.0, 1.0)]['shape']['kpred']):.2f} h (approached from below: local scale lengths")
+    print(f"     {an[(10.0, 1.0)]['shape']['hl'][4]:.2f}-{an[(10.0, 1.0)]['shape']['hl'][8]:.2f} and {an[(20.0, 1.0)]['shape']['hl'][4]:.2f}-{an[(20.0, 1.0)]['shape']['hl'][8]:.2f} h at R = 4-8), lies within the range of the image's local scale lengths over R = 1-8 ({hsrc[1]:.2f}-{hsrc[8]:.2f} h), with")
+    print(f"     the opposite radial trend, and the half-maximum contour has aspect {an[(10.0, 1.0)]['shape']['aspect']:.1f}-{an[(20.0, 1.0)]['shape']['aspect']:.1f}; but the kinetic metric is an input, its D_R bounded above by the unbinding, and")
+    print("     Entry 341's exchange of the radial and normal roles is, in this model, the exchange D_R <-> D_z.")
+    out['aniso'] = an; out['sectors'] = sect; out['thr'] = thr; out['thr_ext'] = (ext_AB, ext_BC); out['thr_iso'] = thr_iso; out['thr_iso_ext'] = ext_iso; out['clr'] = dict(I32=I32, L03=L03, D=D_clr); out['box'] = dict(small=small, exc=exc)
+    # (e) controls: the 2-d alpha against the 1-d problem at R = 2 (radial derivatives dropped); the nonuniform grid on uniform edges
+    i2 = int(np.argmin(abs(Rc - 2.0))); zg = np.linspace(0, 4, 801)
+    sol2 = solve_bvp(lambda zz, y: np.vstack([y[1], (lam2*fR(Rc[i2])*np.exp(-zz**2/(2*hd**2))*(y[0] - a0) + mu2*np.sin(y[0]))/ks2]), lambda ya, yb: [ya[1], yb[0]], zg, np.vstack([a0*np.exp(-zg/xi2), -a0*np.exp(-zg/xi2)/xi2]), tol=1e-9, max_nodes=100000)
+    e_1d = float(np.max(np.abs(A[i2] - sol2.sol(G['zc'])[0])))
+    Gu_, Gg_ = _v36_fv(14.0, 4.0, 280, 160), _v36_fvg(np.linspace(0, 14.0, 281), np.linspace(0, 4.0, 161))
+    e_fvg = max(float(abs(Gu_['KR'] - Gg_['KR']).max()), float(abs(Gu_['Kz'] - Gg_['Kz']).max()), float(np.max(np.abs(Gu_['M'] - Gg_['M']))))
+    e_cons = all((d['E0'] < Vinf) == d['bound'] for d in an.values())
+    print(f"   (e) Controls: E_0 converges to {abs(conv[2][5] - conv[1][5])/conv[2][5]:.0e} between the two finer grids; the symmetric operators to machine precision; the 2-d alpha(R = 2, z) against the 1-d problem")
+    print(f"     at that radius (the radial derivatives dropped) differs by at most {e_1d:.4f}, the radial gradients' contribution; the 1-d solvers converged (status {'0' if sol_status else 'not 0'}, {sol2.status}).")
+    print(f"     The nonuniform grid's operators on uniform edges are the uniform grid's to {e_fvg:.0e}; the large grid reproduces the box's E_0 at D_R = D_z = 1 to {abs(an[(1.0, 1.0)]['E0'] - ev[0]):.0e}; the inertia")
+    print(f"     count agrees with the eigenvalues in the box of (c) ({nb_iso} below V_inf: E_2 = {ev[2]:.4f} < V_inf < E_3 = {ev[3]:.4f}) and with the ground mode on the large grid at every scanned (D_R, D_z) ({'yes' if e_cons else 'NO'}).")
+    out['controls'] = dict(one_d=e_1d, fvg=e_fvg, consistent=e_cons)
+    # (f) the comparison with the sine-exponential
+    print("   (f) The comparison the reports ask for, in a flat half-plane with the image as the pinning density: the source image's local scale length rises outward")
+    print(f"     ({hsrc[1]:.2f} -> {hsrc[8]:.2f} h over R = 1-8, the sine's saturation, and {hsrc[20]:.1f}, {hsrc[50]:.1f} h at R = 20, 50: the image's power-law tail); the localized mode's projected scale length falls")
+    print("     through a core and then tends to the theorem's constant tail value 1/(2 kappa_R), approached from below -- in no member of the scan does Sigma_psi follow the image,")
+    print("     and by the theorem no bound mode of this model can at large R, where the image's scale length grows without bound.  At D_R = D_z = 1 the mode's profile falls")
+    print("     several times faster than the image's beyond R ~ 2h, its core as broad.  Chosen: the mirror-pair parametrization, the three terms and their coefficients, the")
+    print("     pinning density, alpha0 (with alpha0 = 0 the admitted family is the vacuum, C = 0 everywhere and nothing localizes), the gap g, the probe and its kinetic metric.")
+    print("     What comes out: one potential from one field, small where the matter pins the sectors and gapped away from it; a well whose radial extent is the pinned region;")
+    print("     bound modes with a vertical scale set mainly by the gap, a radial extent set by D_R within the well, and an exponential tail at the derived rates sqrt((V_inf -")
+    print("     E_0)/D) whose asymptotic aspect is the kinetic anisotropy.  Not in the model: the Berry phase (the clash U(1)), the sectors' stress in Law I, the optical response,")
+    print("     the identification of the two frames beyond the matter's (k, t), the antipodal quotient.  The minimal model is recorded as the reports asked, before further")
+    print("     structure: it localizes, but it does not derive the thin-broad disk or the sine-exponential profile.")
+    s11 = an[(1.0, 1.0)]['shape']
+    check(c_adm < 1e-12 and all(abs(c - ca) < 1e-9 and abs(c1 - c14) < 1e-9 for _, c, ca, c1, c14 in rows) and abs(c_tw - c_tw_cf) < 1e-9 and abs(c_own - c_own_cf) < 1e-9 and abs(c_id - c_id_cf) < 1e-9 and e_ex < 1e-9 and e_rot < 1e-9
+          and sol_status and all(abs(d['dec'] - 1.0) < 0.02 and d['nb'] >= 1 for d in vert.values()) and [vert[x]['nb'] for x in (0.02, 0.05, 0.1, 0.2, 0.4)] == [1, 1, 1, 2, 3] and abs(v1['kz']/v1['kpred'] - 1) < 0.02
+          and all(0.30 < vert[x]['zh'] < 0.40 for x in (0.02, 0.05, 0.1)) and vert[0.4]['zh'] > vert[0.2]['zh'] > vert[0.1]['zh'] + 0.05
+          and vg[25.0]['zh'] > 1.5*vg[100.0]['zh'] > 2.25*vg[400.0]['zh'] and max(d['zh'] for d in vxi.values()) < 1.3*min(d['zh'] for d in vxi.values())
+          and asym < 1e-12 and all(c[3] < 1e-10 for c in conv) and abs(conv[2][5] - conv[1][5])/conv[2][5] < 1e-4 and abs(conv[1][5] - conv[0][5])/conv[1][5] < 1e-4 and abs(E_rich - conv[2][5]) < 5e-4
+          and Eh > conv[1][4] and 0 < (evh[0] - conv[1][5])/conv[1][5] < 0.05
+          and ev[2] < Vinf < ev[3] and nb_iso == 3 and 1.5 < P['aspect'] < 4.0 and P['RhS'] >= Rh_img and all(P['hl'][r0] < 0.35*hsrc[r0] for r0 in (2, 3, 4, 6, 8)) and abs(P['kfit']/P['kpred'] - 1) < 0.03
+          and all(an[x]['bound'] for x in dz1 + iso + [(50.0, 1.0)]) and kdev < 0.03 and kdev2 < 0.03 and kdevi < 0.05 and set(x for x in dz1[2:] + [(6.0, 6.0)]) <= set(zfit) and all(abs(zdev[x]) < 0.03 for x in zfit) and all(0 < v < 0.12 for v in zndev.values()) and set(dz1[:4] + iso) <= set(zndev)
+          and [an[x]['nb'] for x in dz1] == [3, 2, 1, 1, 1, 1] and [sect[D][1] for D in (1.0, 3.0, 10.0)] == [13, 4, 1] and e_cons
+          and not an[(60.0, 1.0)]['bound'] and not an[(100.0, 1.0)]['bound'] and 0 < exc['C'] < exc['B'] < exc['A'] and abs(an[(1.0, 1.0)]['E0'] - ev[0]) < 1e-4
+          and small[40.0] > Vinf > an[(40.0, 1.0)]['E0'] and small[30.0] - an[(30.0, 1.0)]['E0'] > 0.01 and abs(small[20.0] - an[(20.0, 1.0)]['E0']) < 0.01
+          and 0.8 < 1/(2*an[(10.0, 1.0)]['shape']['kpred']) < 1.5 and 1.8 < 1/(2*an[(20.0, 1.0)]['shape']['kpred']) < 3.0 and all(an[x]['shape']['aspect'] < an[y]['shape']['aspect'] for x, y in zip(dz1[:-1], dz1[1:]))
+          and an[(6.0, 6.0)]['shape']['aspect'] < 2.5 and 1.0 < an[(6.0, 6.0)]['shape']['hl'][4] < 2.0 and 6.0 < thr_iso['A'][0] <= thr_iso['B'][0] <= thr_iso['C'][0] < 13.0 and abs(ext_iso[0] - ext_iso[1]) < 0.1
+          and 50 < thr['A'][0] <= thr['B'][0] <= thr['C'][0] < 56 and abs(ext_AB - ext_BC) < 0.05 and 0 <= amin and amax < 2*a0 and 70 < D_clr < 90 and thr['C'][1] < D_clr and sect[1.0][1] <= L03*I32
+          and e_1d < 0.003 and sol2.status == 0 and e_fvg < 1e-9,
+          "the admissibility scalar: zero on the admitted family (1e-12), (theta - alpha0)^2/2 for the mirror tilt and /4 for a one-sector tilt, the twist, v36.5-2(a)'s own pair and identical sectors at their closed forms (1e-9), exchange-even and rotation-invariant on generic pairs; the vertical model: alpha decays with xi to 2% outside the layer, bound states 1, 1, 1, 2, 3 over h_d, kappa_z = sqrt(V_inf - E_0) to 2%, the |psi|^2 half-height 0.30-0.40 for h_d = 0.02-0.1 and growing for h_d = 0.2, 0.4, falling with g (by factors above 1.5) and varying by under 30% with xi; the (R, z) model: symmetric operators, Newton to 1e-10, E_0 converged to 1e-4 over three grids and within 5e-4 of its Richardson value, the soldered axis costlier with E_0 raised by 0-5%; the isotropic box: E_2 < V_inf < E_3 and the count 3, aspect 1.5-4, Sigma_psi's half maximum at least the image's, its scale lengths below 0.35 of the image's at R = 2-8, its far-tail rate the theorem's to 3%; on the large grid: bound from D_R = 1 to 50 and isotropically at 3, 6; the in-plane rates the theorem's to 3% at D_z = 1 (both windows) and 5% isotropically; the vertical rates, with the window beyond three rescaled radii of the source, the theorem's to 3% and resolved at D_R = 10-40 and isotropically at 6, the nearer windows, where the rule starts nearer the plane (D_R = 1-20 and isotropically), 0-12% high; the counts 3, 2, 1, 1, 1, 1 (m = 0, even) and 13, 4, 1 in all sectors, each ground mode below V_inf exactly when counted; none bound at D_R = 60, 100, the lowest box state falling toward V_inf over three boxes; E_0 the small box's at D_R = 1 (1e-4) and the small box losing the mode at 40; the tail scales 0.8-1.5 h (10) and 1.8-3 h (20), the aspect increasing with D_R; the isotropic D = 6 aspect below 2.5 with a source-like scale length 1-2 h at R = 4, the isotropic threshold 6-13 and rising with the box, its two 1/L extrapolations within 0.1; the threshold 50-56 on three large grids, rising with the box, its two 1/L extrapolations within 0.05; V <= V_inf and the CLR bound 70-90 above the threshold and above the 13 modes at D_R = 1; the 1-d control within 0.003; the nonuniform grid the uniform one on uniform edges (1e-9)")
+    print("   [T] The scalar's properties; the Euler-Lagrange equation; the exterior theorem; monotonicity in (D_R, D_z); the CLR bound.  [V] The vertical and (R, z) solutions, the")
+    print("       modes and their counts, the kinetic scan, the threshold's bracket, the controls.  [D] Every coefficient, the gap and the kinetic metric are inputs; the minimal model")
+    print("       localizes but derives neither the thin-broad shape nor the profile.  [O] The Berry phase, the sectors' stress, the optical response, the frame identification.")
+    out['_A'] = A; out['_G'] = G
+    return out
+
+def v36_6_receiver(loc=None):
+    print("\n== v36.6-2. The author's note of 19 October: what an observer-side receiving operation can change, in a reduction of the smallest two-path, one-qubit model (R363) ==")
+    print("   The note asks whether changing the internal make-up of the observer's side of the two light paths could decide the galaxy's normal and its fall-off.  The")
+    print("   response separates a passive change of the observer's frame, an active change of the receiving operation, and a change of the rendering law itself; the first")
+    print("   two can be computed in a reduction of the response's smallest model -- two transports P_1, P_2 in SU(2) from the source's sector state to the observer, one")
+    print("   sector's Bloch direction rather than the double-Hopf pair, and a projective qubit receiver.")
+    rng = np.random.default_rng(36); out = {}
+    def su2():
+        q = rng.normal(size=4); q /= np.linalg.norm(q); a, b, c, d = q; return np.array([[a + 1j*b, c + 1j*d], [-c + 1j*d, a - 1j*b]])
+    P1, P2, U, U2, Vs = su2(), su2(), su2(), su2(), su2(); W = P2.conj().T @ P1
+    e_obs = float(np.abs(((U @ P2).conj().T @ (U @ P1)) - W).max()); Wsrc = (P2 @ Vs).conj().T @ (P1 @ Vs); e_conj = float(np.abs(Wsrc - Vs.conj().T @ W @ Vs).max()); e_tr = abs(np.trace(Wsrc) - np.trace(W))
+    Wact = (U2 @ P2).conj().T @ (U @ P1); d_act = float(np.abs(Wact - W).max())
+    print(f"   (a) The two-path holonomy W = P_2^-1 P_1: an observer-side frame change U on both paths cancels from it ({e_obs:.0e}); a source-side frame change V conjugates it, V^-1 W V")
+    print(f"     ({e_conj:.0e}), keeping its rotation angle (the trace, {e_tr:.0e}) and moving only its axis; a receiving operation that acts differently on the two paths (U_1 != U_2) changes it")
+    print(f"     ({d_act:.2f}) -- that is an active comparison, not a change of description.  A passive change of the observer decides nothing.")
+    # (b) the projective receiver: T_d(x) = (1 + d . b(x))/2, the budget, the reachable family
+    bvec = lambda al: np.vstack([np.sin(al), 0*al, np.cos(al)]).T
+    if loc is None:                                              # standalone: v36.6-1's fiducial tilt field, recomputed without its check
+        fR_ = lambda RR: (1 + RR**2/(16/3)**2)**-1.5*np.exp(-RR/np.sqrt(1 + RR**2/(16/3)**2)); G_ = _v36_fv(20.0, 4.0, 500, 240)
+        loc = dict(_G=G_, _A=_v36_loc_alpha(G_, 1.0, 500.0, 25.0, 0.5, lambda RR, ZZ: fR_(RR)*np.exp(-ZZ**2/(2*0.1**2)))[0])
+    A, G = loc['_A'], loc['_G']; Rc = G['Rc']; al = A[:, 0]; b = bvec(al)
+    ds = [np.array([np.sin(t_)*np.cos(p_), np.sin(t_)*np.sin(p_), np.cos(t_)]) for t_ in np.linspace(0, PI, 91) for p_ in np.linspace(0, 2*PI, 72, endpoint=False)]
+    e_bud = max(float(np.abs((1 + b @ d)/2 + (1 - b @ d)/2 - 1).max()) for d in ds[::97])
+    contrast = max(float(((1 + b[0] @ d) - (1 + b[-1] @ d))/2) for d in ds); bound_c = float(np.linalg.norm(b[0] - b[-1])/2)
+    Tvac = (1 + b @ -np.array([0, 0, 1.0]))/2; e_vac = float(np.abs(Tvac - np.sin(al/2)**2).max())
+    h, ell = 1.0, 16/3; S = (1 + Rc**2/ell**2)**-1.5*np.exp(-(Rc/h)/np.sqrt(1 + Rc**2/ell**2)); Ivis = S*Tvac
+    hl = lambda f: -1/np.gradient(np.log(f + 1e-300), Rc); hI = hl(Ivis); pick = lambda f, r0: float(f[int(np.argmin(abs(Rc - r0)))])
+    S_ = lambda R: (1 + R**2/ell**2)**-1.5*np.exp(-(R/h)/np.sqrt(1 + R**2/ell**2)); hS0 = lambda r0: float(-2e-3/(np.log(S_(r0 + 1e-3)) - np.log(S_(r0 - 1e-3))))
+    Ttarget = np.exp(-Rc/2.0); dloc = []
+    for i in range(len(Rc)):                                     # a position-dependent receiver reproducing an arbitrary T(x) in [0, 1]: d(x) at angle arccos(2T - 1) from b(x)
+        ang = np.arccos(2*Ttarget[i] - 1); perp = np.array([np.cos(al[i]), 0.0, -np.sin(al[i])]); dloc.append(np.cos(ang)*b[i] + np.sin(ang)*perp)
+    e_any = float(np.abs(np.array([(1 + b[i] @ dloc[i])/2 for i in range(len(Rc))]) - Ttarget).max())
+    s_half = float(np.sin(al[0]/2))
+    print("   (b) A projective qubit receiver, with the received light's internal state taken to carry the source sector's Bloch direction b(x) (a premise: no transport law,")
+    print(f"     P = 1, and one path -- or two added incoherently): the fraction received through the channel d is T_d(x) = (1 + d . b(x))/2, and the conjugate channel -d receives")
+    print(f"     the rest -- T_d + T_-d = 1 ({e_bud:.0e}), the radiation budget.  A receiver uniform over the image has two parameters (d on S^2), and its transfer functions form the affine")
+    print("     family (1 + d . b(x))/2: it selects one member of a two-parameter family of profiles that the source's b(x) fixes -- it can steepen the profile, as (c) shows, but")
+    print(f"     cannot impose a shape.  With the tilt field of v36.6-1, b = (sin alpha, 0, cos alpha) in the plane, the largest centre-to-outskirts difference T(0) - T(R_max) any uniform")
+    print(f"     channel transmits is {contrast:.4f} = |b(0) - b(R_max)|/2 = {bound_c:.4f}, which tends to sin(alpha(0)/2) = {s_half:.4f} as b -> k far away; the ratio T(0)/T(R) is unbounded (the channel")
+    print(f"     of (c) makes the outskirts dark).  A receiver whose channel varies across the image reaches any T(x) in [0, 1] -- d(x) at the angle arccos(2T - 1) from b(x) ({e_any:.0e}")
+    print("     for T = e^(-R/2h)) -- so any received profile up to the source's own, S T <= S, written into the receiver rather than derived; the complement is in the conjugate")
+    print("     channel.  Two coherent paths would multiply T by an interference factor |w_1 + w_2 e^(i dS(x)/eps + i phi)|^2 set by the path geometry and a receiver phase --")
+    print("     outside this model, and where a shape could enter.")
+    print(f"   (c) The vacuum-blind channel d = -k sees T = sin^2(alpha/2) ({e_vac:.0e}): the aligned outskirts (alpha = 0) are invisible, the pinned region seen at most at {Tvac[0]:.1%} of its light.")
+    print(f"     With Entry 326's image as the source S(R), the received profile S sin^2(alpha/2) has local scale lengths {', '.join(f'{pick(hI, r0):.2f}' for r0 in (1, 2, 3, 4))} h at R = 1-4 against the")
+    print(f"     source's {', '.join(f'{hS0(r0):.2f}' for r0 in (1, 2, 3, 4))}; the conjugate channel d = +k receives S cos^2(alpha/2), at least {float(np.cos(al.max()/2)**2):.1%} of the light everywhere.  Nothing")
+    print("     here changes alpha, the source or its gravity: the receiver chooses the channel; the profile is the source's b(x) read through it.")
+    print("   (d) So in this model the observer's 'perspectival power' is the choice of the receiving channel: none for a passive change; two parameters for a uniform")
+    print("     projective receiver, which selects within a family of profiles the source fixes; any transmission T(x) in [0, 1] for a channel that varies over the image -- any")
+    print("     received profile up to the source's own, at the price of writing it into the receiver -- with the budget kept in every case.  A change of the apparent spatial")
+    print("     normal needs a soldering map from the internal directions to spatial ones (here k is the galaxy's normal by")
+    print("     premise, so the channel d is the receiver's own reference); a 'relational geometry change' needs the consistency law the response asks for, relating what")
+    print("     different receivers see to one source.  Neither is built.")
+    out.update(e_obs=e_obs, e_conj=e_conj, e_tr=e_tr, d_act=d_act, e_bud=e_bud, contrast=contrast, bound_c=bound_c, e_vac=e_vac, e_any=e_any, Tvac0=float(Tvac[0]), hI={r0: pick(hI, r0) for r0 in (1, 2, 3, 4)}, hS={r0: hS0(r0) for r0 in (1, 2, 3, 4)})
+    check(e_obs < 1e-12 and e_conj < 1e-12 and e_tr < 1e-12 and d_act > 0.1 and e_bud < 1e-15 and abs(contrast - bound_c) < 2e-3 and contrast <= bound_c + 1e-12 and abs(bound_c - s_half) < 1e-3 and e_vac < 1e-12 and e_any < 1e-12
+          and all(out['hI'][r0] < out['hS'][r0] for r0 in (1, 2, 3, 4)),
+          "the two-path holonomy invariant under an observer frame (1e-12) and conjugated by a source frame with its trace kept (1e-12), changed by a path-dependent receiver; the budget T_d + T_-d = 1 (1e-15); the uniform receiver's difference contrast at most |b(0) - b(R_max)|/2, reached on the sphere grid to 2e-3 and within 1e-3 of sin(alpha(0)/2); the vacuum-blind channel sin^2(alpha/2) (1e-12); a position-dependent receiver reproducing a target T (1e-12); the vacuum-blind profile steeper than the source at R = 1-4")
+    print("   [T] The holonomy's invariance and conjugation; the budget; the reachable families.  [V] The numbers on v36.6-1's tilt field.  [S] The received state carries b(x); one")
+    print("       path, or two added incoherently.  [D] A uniform receiver selects within a family the source fixes; a varying one writes the profile into itself.  [O] The soldering")
+    print("       map; the consistency law; a transport law for the light's internal state; coherent two-path reception.")
+    return out
+
+def v36_6_suite():
+    l = v36_6_localization_model(); r = v36_6_receiver(l)
+    return dict(localization=l, receiver=r)
+
+def v36_6_quick():
+    """The checks that run in a few minutes: v36.5's quick set plus the two v36.6 sections."""
+    v36_5_quick(); return v36_6_suite()
 # ---------------------------------------------------------------------------------------------- the suites
 def v36_1_suite(prev=None):
     """The v36.1 sections.  prev: the dicts returned by v36_0_milky_way, v36_0_sparc_pilot and v36_0_zoom_labels (recomputed if None)."""
@@ -20100,8 +20564,8 @@ def v36_0_suite():
     return dict(mw=mw, pilot=p, zoom=z)
 
 def current_suite_v36():
-    """The current regression suite of Part XXXIII (v36.0-v36.5), followed by the check summary."""
-    prev = v36_0_suite(); v36_1_suite(prev); v36_2_suite(); v36_3_suite(); v36_4_suite(); v36_5_suite()
+    """The current regression suite of Part XXXIII (v36.0-v36.6), followed by the check summary."""
+    prev = v36_0_suite(); v36_1_suite(prev); v36_2_suite(); v36_3_suite(); v36_4_suite(); v36_5_suite(); v36_6_suite()
     npass = sum(1 for ok, _ in _CHECKS if ok); nfail = len(_CHECKS)-npass
     print(f"\n== check summary (Part XXXIII): {npass} passed, {nfail} failed ==")
     for ok, msg in _CHECKS:
@@ -20112,7 +20576,7 @@ def current_suite_v36():
 if __name__ == "__main__":
     import sys
     arg = sys.argv[1] if len(sys.argv) > 1 else "current"
-    suites = {"current": current_suite_v36, "v36_0": v36_0_suite, "v36_1": v36_1_suite, "v36_2": v36_2_suite, "v36_3": v36_3_suite, "v36_4": v36_4_suite, "v36_5": v36_5_suite, "quick": v36_5_quick}
+    suites = {"current": current_suite_v36, "v36_0": v36_0_suite, "v36_1": v36_1_suite, "v36_2": v36_2_suite, "v36_3": v36_3_suite, "v36_4": v36_4_suite, "v36_5": v36_5_suite, "v36_6": v36_6_suite, "quick": v36_6_quick}
     if arg not in suites:
         print("usage: python3 -I pg_v36_numerics.py [" + " | ".join(suites) + "]"); sys.exit(2)
     suites[arg]()
@@ -27137,6 +27601,8 @@ So the relative curvature vanishes for the departure the responses built the cla
 
 ## XXXIII.54 Standing after v36.5, and the next pieces [S/O; R359]
 
+*[v36.6, R364: §XXXIII.59 continues this standing — the first of these next pieces, one localization operator from an action, is built as a minimal model in §XXXIII.57; the others stand.]*
+
 §XXXIII.48 remains the operative standing, with these changes.
 - *Corrected [V].* The orbit library's kinematic matrices (an erratum, by the report; §XXXIII.52(a)); §XXXIII.36's "several per cent to a quarter of its mass and stay cold" withdrawn (two programs combined; §XXXIII.52(c)); §XXXIII.28(a)'s sign of a crossing share scoped to the tested orbits (§XXXIII.52(e)); §XXXIII.28(c)'s mixture argument replaced by the envelope and "thick or thin" withdrawn (§XXXIII.52(f)); every library bound of §§XXXIII.28, 36 rescoped as a compatibility witness (§XXXIII.52(d)); the response's off-centre gradient corrected (§XXXIII.53(d)) (R357, R358).
 - *Established [V], added.* The joint frontier: a cold inner population ($\sigma_r\leq10$ km/s) with up to $6.9$–$9.0\%$ of its mass crossing while matching the whole binned source of either regular family (§XXXIII.52(c)). The envelope counts $8/12$ and $15/34$ (§XXXIII.52(f)). The clash nullspace, the sum's $1/z^2$ fall and $-2\pi$ flux, the absence of a bound state for the curvature-squared coupling, the sector closure at two states of the concentrated branch (§XXXIII.53).
@@ -27151,9 +27617,742 @@ So the relative curvature vanishes for the departure the responses built the cla
 - **R358** (§XXXIII.53; §XXXIII.45(b), (c), (e), §XXXIII.47 and §XXXIII.50 annotated in place). The azimuthal-twist nullspace of $F_L-F_R$; $F_+ = -q^2z/(1+q^2z^2)^{3/2}$ with its $1/z^2$ fall and $-2\pi$ flux; $-\partial_z^2+\gamma|F_+|^2$ without a bound state or gap; the high-sector Hessian bound closing every $m$ at $\theta = 1.4$ and $1.2$ (margins $0.227$, $0.008$); the response's $0.0285$ kpc$^{-1}$ corrected to $0.0150$. §XXXIII.45(b) annotated: the operator identity is on the mass-preserving subspace with the normalization projection; §XXXIII.45(c): the ensemble comparison is a stability analysis of the chosen isothermal family, not a derivation that an isolated galaxy belongs to it. [T/V/D]
 - **R359** (§XXXIII.54; §XXXIII.13; the head table; the toy). Standing after v36.5; the next pieces led by one localization operator from an action. The suite `pg_v36_numerics.py` at v36.5: two new sections and checks ($35$ in all), `_v36_kin` repaired and the v36.2-1 and v36.3-2 sections rerun with it (their prints rescoped; their checks' recorded outcomes reproduced within tolerance), the fold guard of §XXXIII.45(a) completed (a missing fold fails the check), the mode `v36_5` (a few minutes), `quick` now $21$ checks; the toy `v32_toy_three_ends.py` gains `v36_5`, its `all` counting $222$; no new figure. The SHA-256 of the suite is in §XXXIII.13. [S/O; reproducibility]
 
-## Round record: the version summaries, v16 to v36.5 (moved from the head of the archive in v34.9, R190)
+## XXXIII.56 The review of v36.5, the author's note of 19 October and the two responses on it, as formulated (19 October 2026) [record; R360]
 
-*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v36.5, v36.4, v36.3, v36.2, v36.1, v36.0, v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+**The author's first message**, with the review of v36.5 attached. In the author's words:
+
+> Here’s the next response, thanks!
+
+**The review of v36.5, in the author's words (attached, titled "Projective Gravity v36.5 — Review").**
+
+> # Projective Gravity v36.5 — Review
+>
+> I think v36.5 is a stronger research draft than v36.4, primarily because it corrects a consequential numerical mistake and becomes much more precise about what its results actually establish.
+>
+> This isn't a release with a new observational breakthrough. It's a reliability-and-theory-testing release, and the corrections genuinely matter for your central question: can a broad, physically gravitating matter distribution support a relatively cold galaxy, while a separate mechanism accounts for its visible profile?
+>
+> The most important developments are:
+>
+> | Area                    | What's changed in v36.5                                                         | Assessment                        |
+> | ----------------------- | ------------------------------------------------------------------------------- | --------------------------------- |
+> | Orbit populations       | Velocity moments are integrated along orbits, not evaluated at bin centers      | Essential correction              |
+> | Equator-crossing matter | Coldness and crossing fraction are optimized simultaneously                     | More defensible result            |
+> | Berry clash             | A larger nullspace of \\(F_L-F_R\\) is demonstrated                             | Strong negative test              |
+> | Localization            | The simplest \\(F\_+^2\\) potential is shown not to confine                     | Important obstruction             |
+> | Matter equilibria       | Non-axisymmetric stability checks extended to all angular sectors at two states | Meaningful advance, limited scope |
+> | Latest ontology         | Your co-space, Kerr, Solar System and pre-Boltzmannian ideas are retained       | Still mostly research proposals   |
+>
+> ## 1. The orbital-kinematics correction is the biggest change
+>
+> Section XXXIII.52 finds that the previous calculations integrated how long an orbit occupied a radial bin, but estimated its velocity moments using the velocity at the center of that bin.
+>
+> That sounds like a small numerical approximation. Near an orbital turning point, it isn't.
+>
+> An orbit may spend time in only the outer part of a bin, while the bin center lies outside the physically accessible portion of its trajectory.
+>
+> In that case, the old calculation could assign a radial velocity of zero where the orbit actually has nonzero radial motion.
+>
+> The manuscript provides a particularly revealing counterexample: the center prescription gives an azimuthal speed exceeding the particle's total speed.
+>
+> That's a decisive reason to correct the method.
+>
+> More importantly, the effect was large enough to invalidate some of the earlier cold-population witnesses.
+>
+> Reassessment of the original cold witnesses
+>
+> Exponential-sine source
+>
+> Originally reported
+>
+> # 7.2 km/s
+>
+> Same orbital weights, corrected
+>
+> # 21.9 km/s
+>
+> Stretched-uniform source
+>
+> Originally reported
+>
+> # 6.7 km/s
+>
+> Same orbital weights, corrected
+>
+> # 21.0 km/s
+>
+> Maximum inner radial dispersions for the previously selected orbital populations, using the corrected time-weighted moments.
+>
+> Crucially, the manuscript then re-optimizes the orbital populations, instead of concluding that cold solutions have disappeared.
+>
+> It finds new low-dispersion witnesses of approximately 6.9 and 6.4 km/s under the original inner-region constraints.
+>
+> But these particular cold populations reproduce the prescribed density only in the inner bins, missing a substantial portion of the matter distribution farther out.
+>
+> That's a valuable clarification: a cold tracer population in a prescribed gravitational field is not automatically a self-consistent model of the entire gravitating galaxy.
+>
+> The next calculation, using density constraints across the whole modeled near hemisphere, is therefore much more relevant.
+>
+> ## 2. The new crossing-orbit result is narrower, but much stronger
+>
+> Section XXXIII.52(c) now imposes the relevant conditions in one optimization, rather than combining two separate best-case results.
+>
+> The population must approximately reproduce the entire binned physical source, maintain inner rotational support, and satisfy an inner radial-dispersion limit.
+>
+> Maximum crossing-orbit mass fraction in the tested libraries
+>
+> Exponential-sine sourceStretched-uniform source
+>
+> 6%8%10%12%14%10203050
+>
+> The dispersion cap applies to the modeled inner 1–36 kpc region; density constraints extend across the whole binned near hemisphere. These are attainable library fractions, not continuum maxima.
+>
+> At the 10 km/s dispersion cap, the attainable crossing fractions are approximately:
+>
+> Exponential-sine family
+>
+> # 6.9%
+>
+> Stretched-uniform family
+>
+> # 9.0%
+>
+> This supersedes the previous suggestion that a cold population might have a quarter of its mass on crossing orbits.
+>
+> It also answers an earlier methodological concern: a finite library can demonstrate that a configuration exists within its sampled family, but failing to find a configuration does not prove that no admissible configuration exists in the continuum.
+>
+> That distinction is now explicit throughout the manuscript.
+>
+> What survives of your sine-exponential discovery? Quite a lot. It still has a regular equatorial source, a finite gravitational plateau, and compatible cold orbital populations in the tested model. What has weakened is the claim about how much equator-crossing matter can coexist with low velocity dispersion. The theory does not yet select the source profile or population dynamically.
+>
+> ## 3. The dwarf-galaxy exclusions are now more rigorous—and more carefully scoped
+>
+> Another correction concerns the outer-ring tests for DDO 154 and IC 2574.
+>
+> The earlier argument about why combinations of rings couldn't restore circular support wasn't logically sufficient. The new analysis replaces it with a pointwise envelope and an optimization over ring mixtures.
+>
+> Those calculations recover the previous limits:
+>
+> | Galaxy  | Radii with potentially positive circular support | Total tested |
+> | ------- | ------------------------------------------------ | ------------ |
+> | DDO 154 | 8                                                | 12           |
+> | IC 2574 | 15                                               | 34           |
+>
+> The revised test also finds radii where even the most favorable sampled outer ring cannot restore positive circular support.
+>
+> That's stronger than the previous reasoning.
+>
+> But the new result is correctly restricted to thin axisymmetric rearrangements within the galactic plane. The manuscript withdraws the earlier suggestion that the same exclusion automatically covers thick distributions: off-plane matter has a different gravitational kernel.
+>
+> That qualification is important because the full middle-space source geometry remains one of PG's open questions.
+>
+> ## 4. The Berry-clash obstruction is now more fundamental
+>
+> The new §XXXIII.53 goes beyond v36.4.
+>
+> Previously, we knew that
+>
+> \\[ F_L-F_R=0 \\]
+>
+> for two Hopf configurations related by a fixed rotation.
+>
+> Now the manuscript constructs configurations that are not related by any fixed rotation, yet still have identical pulled-back Berry curvatures.
+>
+> For example, take one Bloch-sphere direction field and twist the other azimuthally by an angle \\(g(\theta)\\):
+>
+> \\[ (\theta,\phi)\longmapsto (\theta,\phi+g(\theta)). \\]
+>
+> The sphere's area form is unchanged:
+>
+> \\[ \sin\theta\\,d\theta\wedge d(\phi+g(\theta)) = \sin\theta\\,d\theta\wedge d\phi. \\]
+>
+> Therefore
+>
+> \\[ \boxed{F_L=F_R} \\]
+>
+> even though the actual directions differ.
+>
+> This tells us exactly what information the candidate clash invariant lacks. It compares oriented area transport, not the complete relative orientation of the two sectors.
+>
+> That suggests a deeper principle for your next construction: the clash observable will probably need both the symmetric metric information and the antisymmetric Berry-curvature information of the Bloch-sphere geometry.
+>
+> For a normalized qubit state, those two structures are packaged in the quantum geometric tensor. The Bloch-sphere/Fubini–Study metric measures changes in state direction, while Berry curvature measures oriented geometric phase.
+>
+> They are complementary—not interchangeable.
+>
+> A physically selected notion of permitted jointness could then specify which relative orientations count as compatible, rather than penalizing every difference between the two sectors.
+>
+> That is my preferred mathematical direction for v36.6.
+>
+> ## 5. The simplest curvature-squared localization potential is explicitly ruled out
+>
+> For the mirror tilt, the summed curvature is
+>
+> \\[ F\_+(z) = -\frac{q^2z}{(1+q^2z^2)^{3/2}}, \\]
+>
+> and therefore
+>
+> \\[ F\_+(z)\sim-\frac1{qz^2} \\]
+>
+> at large positive \\(z\\).
+>
+> The manuscript tests
+>
+> \\[ \boxed{ H=-\frac{d^2}{dz^2}+\gamma|F\_+(z)|^2. } \\]
+>
+> Because its potential is everywhere nonnegative and approaches zero at infinity, it supplies no confining spectral well or positive asymptotic gap. The calculation finds no bound state.
+>
+> This is a particularly useful negative result.
+>
+> The potential forms a finite barrier rather than something that permanently localizes a mode near the galactic plane.
+>
+> It means the Berry-curvature geometry can still contribute to a localization mechanism, but the simplest guess—just square the curvature and treat it as the potential—is insufficient.
+>
+> The eventual action must also determine what field is localized, its kinetic operator, its boundary conditions, and the origin of the spectral gap.
+>
+> ## 6. The equilibrium-stability result also gets stronger
+>
+> The manuscript derives a bound on the high-angular-mode part of the thermodynamic Hessian.
+>
+> This is useful because directly checking infinitely many non-axisymmetric angular modes is impossible numerically.
+>
+> For two particular centrally concentrated equilibria, the bound proves that all sufficiently high angular sectors are positive, while direct calculations check the lower ones.
+>
+> Two tested concentrated equilibrium states
+>
+> | Parameter \\(\theta\\) | Density contrast | High-mode positivity begins |
+> | ---------------------- | ---------------- | --------------------------- |
+> | 1.4                    | 7.02             | \\(m\geq5\\)                |
+> | 1.2                    | 28.35            | \\(m\geq13\\)               |
+>
+> Lower non-axisymmetric sectors were evaluated directly; rotational zero modes are excluded from strict positivity.
+>
+> This closes the non-axisymmetric thermodynamic stability check at those two calculated states, subject to the numerical representation of the equilibrium density.
+>
+> It does not establish dynamical stability under the Vlasov equation, nor stability along the entire concentrated branch.
+>
+> But it strengthens the conclusion that PG's gravitational kernel admits certain centrally concentrated, pressure-supported statistical equilibria.
+>
+> Those equilibria remain much hotter than the cold galactic disks we're ultimately trying to explain.
+>
+> ## 7. Independent reproducibility check
+>
+> I extracted the embedded `pg_v36_numerics.py` source from v36.5 and checked its complete SHA-256 fingerprint against the value stated in the manuscript.
+>
+> Source checksum verified
+>
+> I then executed the two v36.5-specific numerical checks.
+>
+> v36.5-specific checks
+>
+> 2 / 2 passed
+>
+> Orbital-kinematics erratum
+>
+> Turning-point control, time-integrated moments, crossing frontier, dwarf-ring envelope
+>
+> Clash and stability calculations
+>
+> Azimuthal twist, curvature falloff, spectral obstruction, high-mode bound
+>
+> The numerical output reproduced the stated fractions, dispersion corrections, curvature values, and high-sector results.
+>
+> I did not independently rerun the entire 35-check historical regression suite, so this confirms the new v36.5 sections rather than certifying every numerical result inherited from earlier versions.
+>
+> ### One small correction to my own earlier analysis
+>
+> v36.5 also corrects a numerical value in my earlier Solar System stereographic discussion.
+>
+> For the specified galaxy-centered stereographic conformal factor, the logarithmic gradient at the Sun is
+>
+> \\[ \boxed{ |\nabla\ln\Omega|\_\odot \approx0.0150\ \mathrm{kpc}^{-1}, } \\]
+>
+> not the \\(0.0285\ \mathrm{kpc}^{-1}\\) I previously quoted.
+>
+> The corresponding fractional variation across 1 AU is approximately \\(7.3\times10^{-11}\\).
+>
+> That's a valid correction, and I appreciate that the manuscript records it.
+>
+> Neither number is itself an observable departure from GR. The actual Solar System observational-equivalence test remains to be performed.
+>
+> ## 8. What I would have Claude do next
+>
+> I agree with v36.5's decision to focus v36.6 on one localization operator derived from an action or explicitly stated constitutive law, rather than continuing to try unrelated scalar proxies for clash.
+>
+> My addition would be to insist that the candidate makes use of the complete relational geometry, not merely its Berry curvature.
+>
+> For example, define an admitted joint-configuration space \\(\mathcal A_x\\) selected by the matter and foliation geometry, and consider an incompatibility observable of the schematic form
+>
+> \\[ \boxed{ \mathcal C(x) = d\_{\rm FS}^2 \bigl((P_L(x),P_R(x)),\mathcal A_x\bigr), } \\]
+>
+> where the distance uses an appropriate product Fubini–Study metric, after the two sectors have been consistently identified.
+>
+> This would be an ansatz, not a derived PG law.
+>
+> But it offers a clear test: the scalar must vanish on the admitted joint family, detect its symmetric off-plane departures, and remain insensitive to the extra rotations you intend to be non-clashing.
+>
+> A combined action could then involve this incompatibility and the Berry connections, but its spectral equation would have to determine whether the result actually possesses localized modes.
+>
+> I'd insist on testing the radial and vertical modes together, especially your proposed possibility that the two localization directions can be exchanged at a deeper geometrical level.
+>
+> And the long-standing observational checks remain essential: one physical source and one observational transfer must be tested against a galaxy such as DDO 154, while the Solar System criterion checks that the reconstructed local dynamics reproduce GR. The galactic leaf's distance cap, refocusing and radiation-accumulation problems also remain unresolved.
+>
+> ## My verdict
+>
+> I would keep v36.5. It is a more reliable version, and the fact that it weakens some earlier claims is a strength of the revision.
+>
+> The most consequential changes are:
+>
+> - The earlier cold crossing-orbit result survives in a narrower, jointly optimized form.
+> - The dwarf tests now distinguish actual numerical exclusions within their restricted model from claims that would require a continuum proof.
+> - The Berry-clash test demonstrates a deeper mathematical insufficiency of curvature difference alone.
+> - The simplest curvature-squared localization potential is ruled out.
+> - The concentrated isothermal equilibrium analysis gains a genuine high-angular-mode stability result at two states.
+>
+> Your latest co-space and pre-Boltzmannian ideas are also preserved, but I wouldn't count them as new physics established by v36.5. They're still waiting for a formal construction.
+>
+> The one result I'd carry into v36.6 above all others is this: Berry curvature describes transport of orientation, but your desired clash must distinguish permissible and impermissible relationships between configurations.
+>
+> That suggests the admissibility geometry—potentially incorporating the Bloch sphere's metric as well as its Berry curvature—should come before the localization potential.
+>
+> If that geometry yields a spectral gap with a thin vertical mode and a broader radial mode, the exponential-sine profile could finally be connected to an actual field mechanism.
+>
+> And that would be the more significant advance you've been pursuing: not merely discovering a source profile that works better, but deriving why matter or visibility should organize itself that way in the first place.
+
+**The author's second message (19 October), with two responses attached; the note carries no entry number (entry numbers are the author's).** In the author's words:
+
+> Here’s a further note by the way. Thanks!
+> Another thing I want to mention by the way is that I have the feeling that, either like the general rendering space idea or what have you, we might literally have the perspectival power to, by changing the so to speak internal makeup of the observer-side of the dual light paths which on their other side hit the galaxy, decide everything from the galaxy’s normal direction to its falloff, hence playing further into the “projective galaxy” idea. But yeah we might not necessarily be able to INDUCE such a perspectival change to the receiving point, but the point of the matter is that with unlimited so to speak maneuverability we would be able to do it so as to arbitrarily induce an effect on the very two SU(2) leg structure of the galaxy, (and in turn similarly to the imaginary spacetime direction involving Kerr, is the ultimate ambition—just I don’t want either to be quite naive like a parallax argument, because I want it to be sufficiently customized to the Kerr source or the galaxy, etc). So this might be nontrivially necessary for properly landing the structure, relational character and all. Thanks!
+> Oh and by the way the explicit reason I imagine the rendering space concepts could be involved is because of how the gravitational field updates—either it stays isotropic across shells all along, and the rendering slice of the galaxy is just like a cross section within that, or maybe there’s some kind of centradic scrambling concept involved so as to change the gravitational field like other Boltzmannian space things.
+
+**The response on the note's first paragraph (attached).**
+
+> Oh, yes—I think this could be a genuinely important refinement of your “projective galaxy” idea. In particular, you're proposing something stronger than observing the same galaxy from a different position.
+>
+> You're asking whether the observer-side organization of the two light histories could participate in determining which aspects of the galaxy's underlying geometry become observable—including its preferred normal, its apparent radial and vertical falloffs, and potentially the way its two \\(SU(2)\\) sectors are paired.
+>
+> And I think the most productive way to formulate that is:
+>
+> The galaxy supplies a source-side relational structure, the observer supplies a receiving-side relational structure, and the observed galaxy is reconstructed from their compatibility.
+>
+> That makes perspectival dependence a property of the whole source–history–observer relation, not merely the angle from which someone looks at a fixed three-dimensional object.
+>
+> ## 1. Three different meanings of changing the observer
+>
+> We should distinguish three possibilities, because only two can produce genuinely new observables.
+>
+> | Transformation                         | What changes?                                                                               | Physical status                                        |
+> | -------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+> | Passive change of observer frame       | Coordinates, bases or descriptions                                                          | No physical change                                     |
+> | Active change of receiving structure   | Detector selection, phase sensitivity, polarization response or admissible history matching | Can change measured information                        |
+> | Change of the relational rendering law | Which source–observer configurations count as the same observed event or direction          | Your deeper PG hypothesis; requires a new physical law |
+>
+> That third possibility seems closest to what you're proposing.
+>
+> Rather than say the observer physically rotates the galaxy, we could say that the observer's selected internal structure helps determine which galaxy-frame orientation is reconstructed from the available histories.
+>
+> This distinction becomes particularly important for your hypothetical observer with unlimited internal maneuverability.
+>
+> If all that observer can do is change mathematical bases, the resulting freedom is gauge. But if the observer can select genuinely different physical comparisons or rendering channels, the reconstructed image could change.
+>
+> The critical test is whether those changes are observationally distinct rather than arbitrary relabelings.
+>
+> ## 2. The natural mathematical object is a two-endpoint transport law
+>
+> Suppose the galaxy emits information through two admissible light histories,
+>
+> \\[ \gamma_1,\qquad \gamma_2, \\]
+>
+> which eventually meet at an observer.
+>
+> Let \\(s_g\\) denote source-side information, \\(\mathcal P\_\gamma\\) its transport along a history, and \\(D_o\\) the observer's receiving operation.
+>
+> A simple model for a coherent received amplitude is
+>
+> \\[ \boxed{ \mathcal A_o = D_o\left( w_1e^{iS_1/\varepsilon}\mathcal P\_{\gamma_1}s_g + w_2e^{iS_2/\varepsilon}\mathcal P\_{\gamma_2}s_g \right). } \\]
+>
+> This is only a toy; it assumes the two paths can interfere coherently. For incoherent stellar light, we'd need a density-matrix or radiative-transfer treatment instead.
+>
+> But the organization is useful:
+>
+> \\[ \underbrace{s_g}\_{\text{galaxy}} \quad\longrightarrow\quad \underbrace{(\mathcal P\_{\gamma_1},\mathcal P\_{\gamma_2})}\_{\text{two histories}} \quad\longrightarrow\quad \underbrace{D_o}\_{\text{observer}}. \\]
+>
+> Notice that \\(D_o\\) is not necessarily passive.
+>
+> It could select which components of the transported state are read, compared or combined.
+>
+> And here's the interesting possibility for PG: the inferred galactic normal and light profile could be outputs of the complete composition, rather than attributes recovered directly from the source alone.
+>
+> Schematically,
+>
+> \\[ \boxed{ (\mathbf n\_{\rm inferred},\Sigma\_{\rm apparent}) = \mathscr R\left( s_g,\mathcal P\_{\gamma_1}, \mathcal P\_{\gamma_2},D_o \right). } \\]
+>
+> That would be a mathematical expression of your notion of observer-side perspectival power.
+>
+> The challenging part is deriving the reconstruction operator \\(\mathscr R\\) rather than choosing it to produce a desired galaxy.
+>
+> ## 3. How this could act on the two \\(SU(2)\\) sectors
+>
+> Now suppose the galaxy's underlying relational structure includes
+>
+> \\[ SU(2)\_L\times SU(2)\_R. \\]
+>
+> Each light history might transport information associated with both sectors.
+>
+> This distinction matters: the two \\(SU(2)\\) factors are not automatically the two light paths. We need a physical rule explaining how each path carries, selects or compares their information.
+>
+> For each factor \\(a=L,R\\), the two paths could define a relative transport operator
+>
+> \\[ \boxed{ W_a= \mathcal P\_{\gamma_2,a}^{-1} \mathcal P\_{\gamma_1,a}. } \\]
+>
+> This is a path-comparison holonomy, assuming the two transports connect the same relevant endpoint spaces.
+>
+> It records information about the difference between the two journeys.
+>
+> Here's a useful mathematical constraint. If we change the observer's internal frame by the same rotation on both paths, that transformation cancels from \\(W_a\\).
+>
+> So a passive observer rotation cannot alter the intrinsic relative holonomy.
+>
+> That's actually good: the theory must have some observer-independent content.
+>
+> But an active receiving operation could change which components of \\(W_L\\) and \\(W_R\\) are interrogated, and how the two sectors are compared. The latter requires an explicit identification between their representation spaces.
+>
+> That suggests a particularly interesting role for your proposed jointness:
+>
+> \\[ \boxed{ \text{Observed galaxy} = \text{source-side double-Hopf structure} + \text{path transport} + \text{observer-side compatibility selection}. } \\]
+>
+> The normal might then arise from a joint compatibility condition between the transported structures, rather than solely from the galaxy's original configuration.
+>
+> The same may apply to which relative sector counts as clash.
+>
+> However, changing the observer's choice must not be confused with physically changing the source-side gravitational mass distribution. Unless PG derives a stronger relational ontology, the source's Law I geometry and orbits remain unaffected.
+>
+> ## 4. Can this really change the apparent normal and falloff?
+>
+> Potentially, but the two tasks have different mathematical demands.
+>
+> Changing the apparent normal requires the receiver-side operation to affect reconstructed spatial orientation. An ordinary internal spin rotation doesn't automatically rotate the image of a galaxy: PG needs a soldering map between internal \\(SU(2)\\) directions and observed spatial directions.
+>
+> Changing the falloff profile is harder still. You would need the receiving operation to depend on where information originated or how it traveled:
+>
+> \\[ \boxed{ I\_{\rm obs}(R,\phi) = \int K\_{o,D}(R,\phi;x)\\, j\_{\rm source}(x)\\,d\mu(x). } \\]
+>
+> Here \\(K\_{o,D}\\) includes transport, reconstruction and the observer's selected channel.
+>
+> Different admissible kernels could, in principle, give different observed radial or vertical profiles for the same underlying source.
+>
+> But a single finite-dimensional \\(SU(2)\\) rotation cannot arbitrarily specify an entire radial function. Achieving your proposed unlimited maneuverability would require a richer, history-dependent or spatially varying receiving structure.
+>
+> And there is an observational consequence. If one observer configuration sees a strong exponential suppression while another sees the missing light, the theory must account for the actual flux and information redistribution. A passive basis change can't remove total radiation.
+>
+> This connects directly to PG's unresolved long-way images and radiation-accumulation problems: a relational readout might reorganize observations, but only a physical transport or interaction law can eliminate unwanted arriving energy.
+>
+> ## 5. Your Kerr comparison becomes more precise this way
+>
+> I agree with your caution against interpreting the transformation as ordinary parallax.
+>
+> For Kerr, the source selects a physically meaningful spin axis and rotation parameter. Its principal null directions and curvature contain information about that rotating source.
+>
+> An observer can change how those structures are projected, transported and reconstructed, but cannot change Kerr's intrinsic angular momentum merely by selecting a different frame.
+>
+> That's exactly the distinction I'd investigate for a galaxy.
+>
+> The candidate common abstraction would be:
+>
+> \\[ \boxed{ \text{Source-selected geometry} \longrightarrow \text{null-history transport} \longrightarrow \text{observer-selected relational reconstruction}. } \\]
+>
+> Kerr would give a source with a particular stationary rotating geometry and its associated null congruences.
+>
+> A spiral galaxy would give a source with the double-Hopf normal, in-plane organization and possible clash-sensitive transfer.
+>
+> The unifying object would not have to be Kerr's complex coordinate shift itself. It might instead be a complexified spinor/bivector transport structure from which the different source-specific reconstructions are obtained.
+>
+> That is more ambitious, but mathematically better motivated than declaring that a shift in observation direction is equivalent to Kerr's imaginary displacement.
+>
+> ## 6. The decisive experiment I'd propose
+>
+> I would build the smallest model with one fixed galaxy-side double-Hopf configuration, two paths and an adjustable observer-side comparison.
+>
+> Then test whether changing the receiving structure can produce three distinct outcomes:
+>
+> Passive change
+>
+> The mathematical frame changes, but every observable—including apparent normal and falloff—remains identical after proper calibration.
+>
+> Active receiving change
+>
+> Different physically selectable receiving channels produce different apparent directional or intensity information while preserving the underlying source and accounting for the complete radiation budget.
+>
+> Relational geometry change
+>
+> The source–observer compatibility law produces genuinely distinct effective geometrical reconstructions, while observations made using different channels satisfy a common consistency law.
+>
+> That last consistency law is essential. If every observer can choose an arbitrary galaxy normal or profile without any relationship between their measurements, the proposal becomes unconstrained.
+>
+> But if their apparently different galaxies can be reconstructed from one common underlying source and a specified family of receiving transformations, then you've found a meaningful version of perspectival freedom.
+>
+> ## What I find most significant about this new idea
+>
+> It offers a possible way to make the observer a genuine participant in PG's relational geometry without declaring that measurement mystically changes distant matter.
+>
+> And it connects several of your ideas:
+>
+> - The two light histories provide a comparison structure.
+> - The two \\(SU(2)\\) factors provide source-side rotational information.
+> - The observer selects which comparisons become physically represented.
+> - The resulting compatibility structure could determine the observed normal, projected directions and optical falloff.
+> - Kerr and galactic sources become different realizations of a common source–history–observer framework.
+>
+> The result isn't yet a derivation, and the freedom can't be arbitrary if it is to preserve lensing, orbital kinematics and energy conservation.
+>
+> But I think you've identified an important missing possibility in the current double-Hopf program: perhaps we shouldn't try to define all of the galaxy's observable geometry from the source-side \\(SU(2)\\) pair alone.
+>
+> We might need to define it from the correspondence between the source-side pair and a receiver-side pair, transported along the available optical histories.
+>
+> That would make the observed galaxy neither a simple intrinsic object nor a mere projection of an intrinsic object. It would be a relational reconstruction with physically constrained perspectival freedom.
+>
+> And I think that's a very fitting—and mathematically investigable—expression of the deeper “projective galaxy” idea you're pursuing.
+
+**The response on the note's second paragraph (attached).**
+
+> Ah, yes—that clarifies why you think the rendering-space idea may be fundamental to PG's gravitational dynamics, rather than merely a later optical effect!
+>
+> You're considering whether the distinction between what gravity retains and what a particular rendering retains is itself responsible for the apparent difference between a galaxy's gravitational structure and its visible structure.
+>
+> And I see two possible implementations of your intuition.
+>
+> ## 1. Two interpretations of the gravitational update
+>
+> A. Isotropic-shell gravity, selected rendering
+>
+> The gravitational reduction retains shell-level common information. A matter-selected or observer-dependent rendering extracts a preferred plane, normal and apparent profile without changing that gravitational solution.
+>
+> B. Centradic scrambling participates in gravity
+>
+> The matter configuration changes the admissible relational reductions, which in turn alter the effective source supplied to Law I. The gravitational geometry therefore responds to more than a fixed isotropic averaging rule.
+>
+> The distinction is whether the rendering reorganizes only the observable appearance of an already determined gravitational field, or whether the same underlying relational selection also participates in constructing that gravitational field.
+>
+> That is an important fork.
+>
+> ## 2. There's a mathematical formulation that accommodates both
+>
+> Recall the manuscript's proposed rendering-invariance source law in §XXVI.8.
+>
+> It introduces a projection onto the information invariant under admissible renderings:
+>
+> \\[ P_xs = \int\_{\mathcal G_x}g\cdot s\\,d\mu(g). \\]
+>
+> Then a constitutive map produces the gravitational source:
+>
+> \\[ T^{(g)}\_{\mu\nu} = \mathscr C_g(P_xs). \\]
+>
+> Now suppose that the admissible rendering group \\(\mathcal G_x\\) is itself determined by the physical centrade configuration.
+>
+> Then we should really write
+>
+> \\[ \boxed{ P_x=P_x[\mathcal C,\Psi,u,\ldots]. } \\]
+>
+> Here \\(\mathcal C\\) represents the centrade relationships, \\(\Psi\\) the middle-space matter state and \\(u\\) the matter-selected meridian structure.
+>
+> That immediately gives two types of gravitational response:
+>
+> \\[ \boxed{ \delta T^{(g)} = \underbrace{\mathscr C_g(P\\,\delta s)}\_{\text{change of matter data}} + \underbrace{\mathscr C_g((\delta P)s)}\_{\text{change of relational selection}} +\cdots. } \\]
+>
+> I've suppressed variations of the constitutive map itself.
+>
+> The second term is your centradic-scrambling possibility in mathematical form.
+>
+> Gravity changes not just because the matter state changes, but potentially because the way its physical information is reduced changes.
+>
+> This is not an established PG equation; it is a candidate extension of the manuscript's existing source-reduction proposal.
+>
+> And it would need to produce a conserved source,
+>
+> \\[ \nabla_G^\mu T^{(g)}\_{\mu\nu}=0, \\]
+>
+> through a covariant action or compatibility law.
+>
+> ## 3. But there's an important limit on how isotropic gravity can be
+>
+> I would distinguish isotropy of the internal Hopf-shell data from isotropy of the complete galactic gravitational field.
+>
+> These are not equivalent.
+>
+> A Hopf-shell reduction might retain only the internally rotationally invariant component at each point. Yet the distribution of those reduced components over the galaxy can still be highly anisotropic.
+>
+> For example, a collection of individually spherical sources is not itself spherically symmetric if the sources occupy different positions.
+>
+> Similarly, an ordinary rotating or flattened galaxy produces multipole structure in its gravitational field. Its angular momentum can produce frame-dragging effects.
+>
+> Therefore, if we assert that gravity remains globally spherical at every scale, we risk erasing physically important information.
+>
+> But if what stays isotropic is the local canonical reduction on each source shell, while the placement and relations among shells preserve the necessary multipoles, the idea becomes much more viable.
+>
+> I think that's the distinction to investigate.
+>
+> It also fits your centrade–centron framework nicely:
+>
+> - Centron-like information could determine persistent propagation and gravitational source strength.
+> - Centrade relationships could determine how those sources are situated, compared and combined.
+> - The gravitational field would depend on their joint output, without requiring each local shell to retain all its original directional information.
+>
+> ## 4. What about the observer's ability to change the galaxy?
+>
+> This introduces a distinction that I think is central to the perspectival idea.
+>
+> Suppose an observer changes their receiving-side structure, \\(D_o\\).
+>
+> There are two possibilities:
+>
+> \\[ \boxed{ \begin{aligned} D_o\longmapsto D'\_o &\implies I\_{\rm observed}\longmapsto I'\_{\rm observed},\\\ &\phantom{\implies}g_G\text{ unchanged}, \end{aligned} } \\]
+>
+> or the much stronger claim,
+>
+> \\[ \boxed{ D_o\longmapsto D'\_o \implies g_G\longmapsto g'\_G. } \\]
+>
+> The first is a physically intelligible reconstruction hypothesis. Different receiving channels could extract different directional or intensity information from the same underlying histories.
+>
+> The second would require a genuine physical interaction or a new relational law explaining why changing the observer's receiving configuration changes the gravitational field itself. It would also have to preserve causal consistency and agreement between observers.
+>
+> I would not identify those two transformations.
+>
+> Instead, your deeper ontology might say that both the observer's perspective and the gravitational source reduction are derived from one common centrade-selection structure.
+>
+> Then they are related, but changing one does not arbitrarily change the other.
+>
+> That seems closer to what you meant by having the galaxy's observable frame and gravitational update arise from a shared Boltzmannian-selection mechanism.
+>
+> ## 5. I think there's a particularly revealing three-way test
+>
+> Take a galaxy with one fixed full middle-space matter configuration and calculate three quantities:
+>
+> | Quantity            | What the theory must specify                                                                   |
+> | ------------------- | ---------------------------------------------------------------------------------------------- |
+> | Gravitational field | Law I source after meridian and rendering-invariant reduction                                  |
+> | Galactic rendering  | Apparent normal, radial profile and vertical profile                                           |
+> | Relational response | What changes when the source's centrade organization or observer's receiving structure changes |
+>
+> Then perform three separate transformations.
+>
+> First, change only the observer's receiving structure. The physical gravity should remain the same unless the observer is actually interacting with the source.
+>
+> Second, deform the galaxy's underlying centrade configuration while keeping its total physical mass fixed. Does the gravitational reduction change? Which multipoles survive?
+>
+> Third, change the selected Hopf or meridian structure under the proposed Law II dynamics. Does the source reduction acquire additional terms through \\(\delta P\\) or \\(\delta q\\), and do those terms preserve local GR?
+>
+> The second and third experiments would distinguish the two gravitational-update pictures.
+>
+> And there's a nice connection to your Solar System sanity check: near the Sun, whatever scrambling occurs must preserve the ordinary solar gravitational field and produce only observationally acceptable corrections to planetary orbits.
+>
+> ## Where I would put the emphasis now
+>
+> I actually wouldn't force a choice between your two pictures prematurely.
+>
+> They might be two limiting cases of one more general mechanism:
+>
+> \\[ \boxed{ \begin{gathered} \text{Pre-Boltzmannian matter and centrade relations}\\\ \downarrow\\\ \text{Matter-selected admissible reductions}\\\ \swarrow\qquad\searrow\\\ \text{Law I gravitational source} \qquad \text{Rendering-space information}\\\ \downarrow\qquad\qquad\downarrow\\\ \text{Physical gravity} \qquad \text{Observed galaxy}. \end{gathered} } \\]
+>
+> In a highly symmetric configuration, the gravitational source might reduce to a simple shell-invariant, monopole-like form.
+>
+> In an anisotropic or dynamically changing configuration, the relational selection could preserve, redistribute or couple additional information.
+>
+> And different observer-side reconstructions could then reveal different aspects of the resulting source without themselves changing the source.
+>
+> My strongest takeaway is that the rendering mechanism and the gravitational source reduction might be sibling operations, rather than one being an afterthought applied to the other.
+>
+> That would give your projective-galaxy idea a more substantive foundation: the normal direction, the visible exponential profile and the gravitational response could all originate from one underlying relational selection process, while remaining distinct outputs with different physical constraints.
+>
+> The decisive mathematical question becomes whether PG can derive both the apparent rendering and the conserved Law I source from that one process without destroying the gravitational multipoles, local Solar System dynamics or the observer-independent content of the theory.
+
+**What v36.6 does with them.** The review keeps v36.5 and asks, above all, that the clash be built from the admissibility geometry — which relative orientations of the two sectors are compatible — before any localization potential, with the Bloch sphere's metric as well as its Berry curvature, and that one action then determine the clash quantity, the gap and the radial and vertical modes together. §XXXIII.57 builds the smallest such model, from the admissibility scalar to the spectrum: the review's admissibility scalar, the squared Fubini–Study distance to an admitted joint family, with its three properties and their dependence on the choice of the family; one action for the two sectors' tilt with a matter-localized pinning; its Euler–Lagrange equation solved in a flat meridional half-plane on a symmetric finite-volume grid; and a probe in the induced potential, whose modes, scales and far field are computed. The minimal model localizes; its far field obeys an exterior theorem by which the tail's rates and asymptotic aspect are the probe's kinetic metric's, the radial scale set by the radial coefficient relative to the gap and the aspect by the anisotropy; and it derives neither the thin–broad disk nor the sine-exponential profile — by the theorem, no bound mode of it can follow the image at large $R$; the failure is recorded before any further structure is added, as the report on v36.4 asked (R361, R362). The note's first paragraph — whether the observer's side of the two light paths could decide the galaxy's normal and fall-off — is computed in §XXXIII.58 (R363) in a reduction of the response's smallest model (two transports, one sector's Bloch direction and a projective qubit receiver, for one path or two added incoherently): a passive change decides nothing, a uniform receiver selects within a two-parameter family of profiles the source fixes, a receiver that varies over the image imposes any transmission in $[0,1]$, written into it, and the radiation budget holds in every case. The note's second paragraph is recorded: the response cites §XXVI.8's rendering-invariance law accurately, and §XXVI.8 itself already makes the response's two cautions — projecting a conserved tensor onto a position-dependent invariant sector adds terms in $\nabla P_x$, and its kill test requires physically real anisotropy to survive; Part XXXIII takes the leaf's field from the thin source's own density by the twin Green function (§XXXIII.4), so its multipoles are kept, which is the response's viable reading, and nothing in Part XXXIII tests the reduction or the response's $\delta P$ term (§XXXIII.59). The review's and the responses' further items — the joint model against DDO 154, the Solar-System criterion, the distance cap, the refocusing and radiation problems, Kerr as a comparison — stand in §XXXIII.59's list.
+
+## XXXIII.57 One localization model, from the admissibility scalar to the spectrum: one action for the two sectors, a probe in the induced potential [T/V/D; R361, R362] *(`v36_6_localization_model()`)*
+
+The reviews of v36.4 and v36.5 ask for one localization operator from a stated action rather than another scalar proxy for the clash — what is localized, the bundles and the frame identification, the clash quantity, the gap, the centre and the radial and vertical scales determined together — and for the admissibility geometry, which relative orientations of the two sectors are compatible, to come before the potential. This section builds the smallest such model and reports what comes out of it and what has to be put in; the probe's meaning, its stress and the frame identification are left out (§XXXIII.57(f)). It works in a flat meridional half-plane $(R,z)$ — a premise: the leaf's curvature and the optics are left out of the field equations, while the pinning density is Entry 326's image with its $R/\ell$ dependence kept.
+
+**(a) The admissibility scalar [T/V].** With $d_{\rm FS}(\mathbf a,\mathbf b) = \tfrac12\arccos(\mathbf a\cdot\mathbf b)$, the Fubini–Study distance between the two qubit states whose Bloch vectors are $\mathbf a$ and $\mathbf b$, and the admitted joint family $\mathcal A_x = \{(\mathbf a_L,\mathbf a_R)(\beta) = (\cos\alpha_0\,\mathbf k+\sin\alpha_0\,\mathbf t(\beta),\ \cos\alpha_0\,\mathbf k-\sin\alpha_0\,\mathbf t(\beta))\}$ — the two-Hopf pair of §XXXIII.41(e) at a tilt $\alpha_0$ that the matter selects, a premise — the review's ansatz is made explicit as
+$$\mathcal C(\mathbf n_L,\mathbf n_R) = \min_\beta\left[d_{\rm FS}^2(\mathbf n_L,\mathbf a_L(\beta))+d_{\rm FS}^2(\mathbf n_R,\mathbf a_R(\beta))\right].$$
+It is zero on $\mathcal A_x$ for every $\beta$; for the mirror tilt $\theta(z) = \arctan(1.5z)$ of §XXXIII.47 it is exactly $(\theta-\alpha_0)^2/2$ ($0.002976$ and $0.116545$ at $z = 0.3$, $1$, with $\alpha_0 = 0.5$), for one sector tilted and the other admitted $(\theta-\alpha_0)^2/4$. For the admitted pair with one sector's in-plane axis turned by $g = 1.7\alpha_0$ — §XXXIII.53(a)'s azimuthal twist, under which $F_L-F_R$ stays zero, applied to the admitted pair at $\theta = \alpha_0$ — it is $2\arcsin^2(\sin\alpha_0\sin(g/4)) = 0.0205$; for §XXXIII.53(a)'s own pair there (a copy of one sector, turned by $g$) it is $0.138$, and for two identical sectors, which $F_L-F_R$ also calls unclashed, $2(\arccos(\cos^2\alpha_0)/2)^2 = 0.239$. It is exchange-even and invariant under the common rotation about $\mathbf k$ (on generic pairs, to $10^{-15}$). Its nullspace is exactly $\mathcal A_x$ as chosen: here $\mathcal A_x$ admits the common rotation about $\mathbf k$ only, so the relative rotation of the two in-plane axes — the twist — is detected; if that rotation is meant to be admitted (Entry 337's "extra rotations"), $\mathcal A_x$ must include it and $\mathcal C$ will not see it, by construction. $\mathcal C$ is a function of the two Bloch directions — the squared geodesic distance of the Fubini–Study metric, the real part of the quantum geometric tensor, minimized over the family — and so is blind to the sectors' $U(1)$ fibre phases, the clash phase of §XXXIII.41(f). It encodes the choice of $\mathcal A_x$, which is the selection law's content; it does not supply it. The three values $0.0205$, $0.138$ and $0.239$, for configurations the curvature difference cannot tell apart, are that choice at work.
+
+**(b) The action, and the vertical problem [T/S/V].** For the exchange-symmetric mirror pair $\mathbf n_{L,R} = \cos\alpha\,\mathbf k\pm\sin\alpha\,\mathbf t$ with $\alpha(R,z)$ and the in-plane axis $\mathbf t$ uniform — an ansatz, consistent by the exchange symmetry; within it a varying axis $\mathbf t(\beta(x))$ only adds $\tfrac{k_s}{2}\sin^2\alpha\lvert\nabla\beta\rvert^2\geq0$, so the uniform axis is the minimizer (the axis soldered to $\mathbf e_R$ is compared in (c)) — the energy density is
+$$\frac{k_s}{2}\lvert\nabla\alpha\rvert^2+\lambda\rho(x)\,\mathcal C+\mu(1-\cos\alpha),\qquad \mathcal C = \frac{(\alpha-\alpha_0)^2}{2}:$$
+the two sectors' stiffness, $\tfrac{k_s}{4}(\lvert\nabla\mathbf n_L\rvert^2+\lvert\nabla\mathbf n_R\rvert^2)$; the admissibility potential enforced where the matter is, $\rho$ the normalized matter density (the selection law of §XXXIII.41(e), stated here as a premise); and a vacuum term preferring the aligned configuration $\alpha = 0$ ($\mathbf n_L = \mathbf n_R = \mathbf k$, outside the admitted family: $\mathcal C = \alpha_0^2/2$) away from the matter. The Euler–Lagrange equation is $k_s\Delta\alpha = \lambda\rho(\alpha-\alpha_0)+\mu\sin\alpha$, with $\alpha\to0$ far away and even in $z$. What is localized is a scalar probe amplitude $\psi$ — its stress not fed back into Law I, its optical meaning not specified — with energy $\int[D_R\lvert\partial_R\psi\rvert^2+D_z\lvert\partial_z\psi\rvert^2+g\,\mathcal C\,\psi^2]$: its potential $g\mathcal C$ is small where the matter pins the sectors near the admitted family and rises to the gap $V_\infty = g\alpha_0^2/2$ where they relax to the aligned vacuum — a well whose walls are made by the admissibility scalar, whose centre is the matter and whose shape is the one field $\alpha(x)$; $\lvert\psi\rvert^2$ decays at twice the amplitude's rate. The gap is a modelling choice: $g\mathcal C$ applies the matter-selected family everywhere, the pinning $\lambda\rho\,\mathcal C$ only where the matter is. The parameters are $k_s$, $\lambda$, $\mu$, $\alpha_0$, $g$, the probe's $(D_R,D_z)$ and the density.
+
+The vertical problem at the centre, $\rho = e^{-z^2/2h_d^2}$, with the coefficients of (c) ($k_s = 1$, $\lambda = 500$, $\mu = 25$, $\alpha_0 = 0.5$, $g = 100$; $V_\infty = 12.5$): at $h_d = 0.1$, $\alpha(0) = 0.468$, and outside the layer $\alpha$ decays with the stiffness length $\xi = \sqrt{k_s/\mu} = 0.20$ (its logarithm falls by $2.0000$ over $2\xi$); one bound state, $E_0 = 5.569$, whose amplitude decays as $e^{-\kappa_z\lvert z\rvert}$ with $\kappa_z = 2.632$ against $\sqrt{V_\infty-E_0} = 2.633$, so $\lvert\psi\rvert^2$ over $1/(2\kappa_z) = 0.190$. With the layer's thickness varied twentyfold, $\lvert\psi\rvert^2$ is above half maximum to $\lvert z\rvert = 0.355$, $0.338$, $0.353$, $0.437$, $0.649$ at $h_d = 0.02$, $0.05$, $0.1$, $0.2$, $0.4$ ($1$, $1$, $1$, $2$, $3$ bound states); at $h_d = 0.05$ it is $0.332$, $0.338$, $0.398$ for $\xi = 0.1$, $0.2$, $0.4$ and $0.661$, $0.338$, $0.203$ for $g = 25$, $100$, $400$. So for layers thinner than $\xi$ the vertical scale of the localized mode is set mainly by the gap (through $\kappa_z = \sqrt{V_\infty-E_0}$), weakly by the stiffness length, and not by the matter's thickness; a layer as thick as $\xi$ or thicker widens it, and a second bound state appears.
+
+**(c) The $(R,z)$ problem [V].** The pinning density is Entry 326's image, $\Sigma\propto(1+R^2/\ell^2)^{-3/2}\exp[-(R/h)/\sqrt{1+R^2/\ell^2}]$ with $h = 1$, $\ell/h = 16/3$, times the vertical Gaussian of thickness $h_d = 0.1$, with the coefficients of (b). The equations are solved on a finite-volume grid — cell-centred, the axis face of zero area (regularity), the plane face without flux (the even sector), Dirichlet outer faces — so that every operator is symmetric and the probe's eigenproblem symmetric-definite; $\alpha$ by Newton on the exact discrete gradient of the energy. Convergence in the box $R\leq14$, $z\leq4$: $E_0 = 7.58624$, $7.58598$, $7.58588$ on $280\times160$, $420\times240$ and $560\times320$ cells, and $7.58576$ by Richardson extrapolation of the two finer. In the plane $\alpha = 0.454$, $0.400$, $0.276$, $0.155$, $0.042$, $0.009$ and $V = 0.10$, $0.50$, $2.50$, $5.94$, $10.50$, $12.06$ at $R = 0.25$, $1$, $2$, $3$, $5$, $8$: the sectors are held near the admitted tilt where the matter can pin them ($\lambda\rho>\mu$, inside $R\sim h\ln(\lambda/\mu) = 3.0h$; $V$ reaches $V_\infty/2$ at $R = 3.07$) and relax to the vacuum beyond — the well's radial extent follows the matter. With the in-plane axis soldered to $\mathbf e_R$ (Entry 341's radial direction) the field must vanish on the axis, in a core of radius $\sim\sqrt{k_s/\lambda\rho_0} = 0.045$; that configuration costs more energy ($4.5750$ against $4.5032$, as (b)'s inequality requires) and raises $E_0$ by $2.9\%$; the uniform axis is used below.
+
+The isotropic probe ($D_R = D_z = 1$, in a box $R\leq20$): $E_0 = 7.5859$, $E_1 = 10.5111$, $E_2 = 12.3147$ and $E_3 = 12.6704$ — three modes below $V_\infty$ in the axisymmetric sector even in $z$ (counted by inertia, (d)). $\lvert\psi\rvert^2$ is above half maximum to $R = 0.86$ in the plane and $z = 0.34$ on the axis (aspect $2.5$), and $\Sigma_\psi = \int\lvert\psi\rvert^2dz$ to $R = 0.86$, against the image's $0.67$: the core is as broad as the image's. Beyond $R\approx2h$ the mode falls several times faster: $\Sigma_\psi$'s local radial scale lengths are $0.61$, $0.33$, $0.25$, $0.22$, $0.22$, $0.22\,h$ at $R = 1$, $2$, $3$, $4$, $6$, $8$, against the image's $0.95$, $0.99$, $1.11$, $1.28$, $1.75$, $2.32$, and the profile steepens to a constant far-tail rate where the image's scale length grows. Fitted over $R = 8$–$14$ as $\ln\lvert\psi(R,0)\rvert = c-\kappa R-p\ln R$, the tail has $\kappa = 2.2077$ against $\sqrt{V_\infty-E_0} = 2.2168$ (on the large grid of (d), where $\alpha$ keeps its power-law tail beyond $R = 20$, $2.2035$).
+
+**(d) The exterior theorem, and the kinetic metric [T/V].** Far from the pinned matter $\alpha\to0$ and $V\to V_\infty$ — Entry 326's image has a power-law tail, so $V_\infty-V$ falls only as a power of $R$ within the layer — and asymptotically the probe obeys $(-D_R\Delta_R-D_z\partial_z^2+V_\infty-E_0)\psi = 0$; rescaling $R\to R/\sqrt{D_R}$, $z\to z/\sqrt{D_z}$ makes it the isotropic modified Helmholtz equation, and for the positive ground mode $\ln\psi/r'\to-\sqrt{V_\infty-E_0}$ uniformly in direction in the rescaled distance $r'$ (Agmon; Carmona–Simon), the layer's integrable tail changing only bounded factors. The in-plane rate is therefore $\sqrt{(V_\infty-E_0)/D_R}$, the vertical $\sqrt{(V_\infty-E_0)/D_z}$, and the far field's level sets approach ellipsoids of aspect $\sqrt{D_R/D_z}$ as the level falls — slowly, the angular prefactor shifting them by a bounded amount — whatever the matter's shape: for a scalar probe the anisotropy of the localized tail *is* the kinetic anisotropy. The matter enters through $E_0$ and the near field, and the half-maximum contour, a near-field quantity, is not the tail's aspect. Reading the response's tensor on Entry 341, $M = \kappa_0^2g+\lambda\mathbf c\mathbf c^T$ with two eigenvalues (§XXXIII.46(b)), as the probe's kinetic metric $(D_R,D_z)$ — an identification made here, not derived — the scan runs on a large grid ($R\leq420$, $z\leq60$: the spacing of (c) out to $R = 16$ and $z = 1.5$, the cells growing by $6\%$ beyond), in units $h = 1$ with $g = 100$, at $D_z = 1$ and isotropically; the modes below $V_\infty$ are counted by Sylvester's law of inertia (the negative pivots of a symmetric factorization of the shifted operator) in the axisymmetric sector even in $z$, the ground mode's (the half maxima are cell values, to $\pm0.02$):
+
+| $(D_R,D_z)$ | $E_0$ | modes ($m = 0$, even) | half maximum, $R$ / $z$ (aspect) | $\Sigma_\psi$ local scale lengths at $R = 1$, $2$, $3$, $4$, $6$, $8$ | in-plane $\kappa$ fitted / theorem | vertical $\kappa$ fitted / theorem |
+|:--|:--|:--|:--|:--|:--|:--|
+| $(1,1)$ | $7.5859$ | $3$ | $0.86$ / $0.34$ ($2.5$) | $0.61$, $0.33$, $0.25$, $0.22$, $0.22$, $0.22$ | $2.2035$ / $2.2168$ (over $R = 8$–$13.3$) | — / $2.2168$ (no resolved window beyond the source) |
+| $(3,1)$ | $8.7017$ | $2$ | $1.18$ / $0.34$ ($3.5$) | $1.11$, $0.60$, $0.46$, $0.42$, $0.41$, $0.41$ | $1.1172$ / $1.1252$ | — / $1.9489$ (likewise) |
+| $(10,1)$ | $10.4814$ | $1$ | $1.70$ / $0.36$ ($4.7$) | $2.30$, $1.25$, $0.98$, $0.90$, $0.90$, $0.93$ | $0.4469$ / $0.4493$ | $1.4365$ / $1.4208$ (over $z = 2.9$–$4.9$) |
+| $(20,1)$ | $11.6110$ | $1$ | $2.14$ / $0.36$ ($6.0$) | $3.76$, $2.08$, $1.65$, $1.55$, $1.60$, $1.70$ | $0.2117$ / $0.2108$ | $0.9596$ / $0.9429$ (over $z = 2.1$–$5.1$) |
+| $(30,1)$ | $12.1557$ | $1$ | $2.50$ / $0.38$ ($6.7$) | $5.30$, $2.97$, $2.40$, $2.29$, $2.44$, $2.67$ | $0.1066$ / $0.1071$ (over $R = 30$–$58$) | $0.5920$ / $0.5867$ (over $z = 2.6$–$7.5$) |
+| $(40,1)$ | $12.4117$ | $1$ | $2.86$ / $0.39$ ($7.3$) | $7.12$, $4.03$, $3.32$, $3.23$, $3.60$, $4.10$ | $0.0468$ / $0.0470$ (over $R = 30$–$58$) | $0.2974$ / $0.2971$ (over $z = 5.1$–$14.6$) |
+| $(50,1)$ | $12.4973$ | $1$ | $3.18$ / $0.41$ ($7.8$) | $9.67$, $5.58$, $4.71$, $4.73$, $5.61$, $6.81$ | — / $0.0074$ (the tail too long for the box) | — / $0.0524$ |
+| $(60,1)$ | $V_\infty+0.0022$, the lowest box state | $0$ | — | — | — | — |
+| $(100,1)$ | $V_\infty+0.0038$ | $0$ | — | — | — | — |
+| $(3,3)$ | $10.6883$ | $1$ | $1.26$ / $0.54$ ($2.3$) | $1.36$, $0.76$, $0.60$, $0.56$, $0.56$, $0.57$ | $0.7651$ / $0.7771$ | — / $0.7771$ (no resolved window beyond the source) |
+| $(6,6)$ | $12.1087$ | $1$ | $1.74$ / $0.81$ ($2.2$) | $2.79$, $1.61$, $1.34$, $1.29$, $1.36$, $1.46$ | $0.2466$ / $0.2554$ | $0.2606$ / $0.2554$ (over $z = 9.6$–$20.2$) |
+
+In the plane the fitted rates — over $R = 8$–$14$ (at $D_R = 1$ the amplitude floor of $10^{-12}$ ends the window at $R = 13.3$), and over $R = 30$–$60$ for the weakly bound modes, whose tails begin further out — agree with the theorem to $0.7\%$ at $D_z = 1$ (to $0.9\%$ over $R = 10$–$16$, at $D_R = 1$ likewise ended at $R = 13.3$) and to $3.4\%$ for the isotropic $D = 3$, $6$. On the axis, with the window beyond three rescaled radii of the source ($3\times3.07\sqrt{D_z/D_R}$, $3.07$ the well's half-depth radius), they agree to $1.1$, $1.8$, $0.9$ and $0.1\%$ at $D_R = 10$, $20$, $30$, $40$ and to $2.1\%$ at $D = 6$; at $D_R = 1$, $3$ and $D = 3$ no such window holds ten cells of this grid. Windows of the same length nearer the plane, starting at $z = \max(1.5,1.5/\kappa_z)$, are still in the near field and run high — $5.4$, $5.9$, $4.4$, $2.7\%$ at $D_R = 1$, $3$, $10$, $20$ and $9.7$, $4.5\%$ isotropically; at $D_R = 30$, $40$ that rule already starts beyond three radii, and its window is the one above. The theorem is borne out to a few per cent where the tail is asymptotic and resolved. *What sets the scales:* the radial scale by $D_R$ relative to the gap, the aspect by $D_R/D_z$. Isotropically, $D = 6$ already gives local scale lengths ($1.29$–$2.79\,h$) comparable to the image's, with aspect $2.2$, and isotropic modes are bound up to $D = 9.922$–$9.930$, $10.078$–$10.086$ and $10.156$–$10.164$ on the three boxes below (lower bounds; $10.24$ extrapolated); at $D_z = 1$, $D_R = 10$–$20$ gives comparable radial scales with aspect $4.7$–$6.0$. In all sectors ($m = 0$, $1$, $2$, …, each $m>0$ twice; even and odd in $z$) the modes below $V_\infty$ number $13$, $4$ and $1$ at $D_R = 1$, $3$, $10$ ($D_z = 1$); the ground mode is axisymmetric and even.
+
+*The threshold.* $E_0$ is non-decreasing in $D_R$ and in $D_z$ (min–max: the kinetic form grows), so binding is lost at a single threshold. The box matters near it: in the box $R\leq20$, $z\leq4$ of (c), $E_0 = 11.6124$, $12.1789$ and $12.5186$ at $D_R = 20$, $30$ and $40$, against $11.6110$, $12.1557$ and $12.4117$ here — the small box loses the mode at $40$. At $D_z = 1$ the mode is bound up to $D_R = 51.650$–$51.653$ on this grid, $52.004$–$52.007$ on one twice as large ($R\leq830$, $z\leq120$) and $52.185$–$52.188$ on one four times as large ($R\leq1655$, $z\leq241$); a Dirichlet box only raises $E_0$ (domain monotonicity of the continuum problem; the discretization lowers $E_0$ on refinement, the right sign), so these are lower bounds for the unbounded domain, and removing the $1/L$ correction of a zero-energy resonance, with the boxes' actual ratios ($1.975$, $1.994$), gives $52.369$ and $52.368$ from the two pairs. At $D_R = 60$ the lowest box state lies above $V_\infty$ by $0.0022$, $0.0006$ and $0.00016$ on the three grids, falling as the box grows, as a continuum state's does. An upper bound comes from the Cwikel–Lieb–Rozenblum inequality: in the rescaled coordinates the number of modes below $V_\infty$, in all sectors, is at most $L\int\lvert V-V_\infty\rvert^{3/2}d^3x'$, with Lieb's constant $L = 6.86924/(6\pi^2) = 0.1160002$ (Lieb 1976; taken as $0.11601$), $V\leq V_\infty$ everywhere ($0\leq\alpha\leq0.464<2\alpha_0$), $d^3x' = d^3x/(D_R\sqrt{D_z})$ and $\int\lvert V-V_\infty\rvert^{3/2}d^3x = 694.3$: no mode is bound once $D_R\sqrt{D_z}>80.6$ ($0.11601\times694.3 = 80.55$, rounded up), and at $D_R = D_z = 1$ at most $80$ are, against the $13$ found. So at $D_z = 1$ the threshold lies between $D_R = 52.19$ and $80.6$, numerically near $52.37$: with a radially stiffer kinetic term — with $D_R>D_z$ a radial gradient costs $D_R/D_z$ times more — the mode spreads to fill the pinned region and, beyond the threshold, leaves it; in the rescaled coordinates the well's in-plane extent shrinks as $D_R^{-1/2}$, and a three-dimensional well binds only if it is strong enough.
+
+So with $D_R = 10$–$20$ at $D_z = 1$ the asymptotic tail scale of $\Sigma_\psi$, $1/(2\kappa_R) = 1.11$–$2.37\,h$ (approached from below: local scale lengths $0.90$–$0.93$ and $1.55$–$1.70\,h$ at $R = 4$–$8$), lies within the range of the image's local scale lengths over $R = 1$–$8$ ($0.95$–$2.32\,h$), with the opposite radial trend, and the half-maximum contour has aspect $4.7$–$6.0$. But the kinetic metric is an input — its radial eigenvalue setting the radial scale and bounded above by the unbinding, the ratio setting the aspect — and Entry 341's exchange of the radial and normal roles is, in this model, the exchange $D_R\leftrightarrow D_z$.
+
+**(e) Controls [V].** $E_0$ converges to $10^{-5}$ between the two finer grids; the operators are symmetric to machine precision; the two-dimensional $\alpha(R = 2,z)$ against the one-dimensional problem at that radius (the radial derivatives dropped) differs by at most $0.0007$, the radial gradients' contribution; the one-dimensional solvers converged. The nonuniform grid's operators on uniform edges are the uniform grid's to $2\times10^{-12}$; the large grid reproduces the box's $E_0$ at $D_R = D_z = 1$ to $10^{-5}$; the inertia count agrees with the eigenvalues in the box of (c) ($E_2<V_\infty<E_3$) and with the ground mode's $E_0$ at every scanned $(D_R,D_z)$.
+
+**(f) The comparison, and what is chosen [D].** The comparison the reports ask for, in a flat half-plane with the image as the pinning density: the source image's local scale length rises outward ($0.95\to2.32\,h$ over $R = 1$–$8$, the sine's saturation, and $6.4$ and $16.5\,h$ at $R = 20$ and $50$ — the image's power-law tail); the localized mode's projected scale length falls through a core and then tends to the theorem's constant tail value $1/(2\kappa_R)$, approached from below. In no member of the scan does $\Sigma_\psi$ follow the image, and by the exterior theorem no bound mode of this model can at large $R$, where the image's scale length grows without bound. At $D_R = D_z = 1$ the mode's profile falls several times faster than the image's beyond $R\approx2h$, its core as broad. *Chosen:* the mirror-pair parametrization, the three terms and their coefficients, the pinning density, $\alpha_0$ (with $\alpha_0 = 0$ the admitted family is the vacuum, $\mathcal C = 0$ everywhere and nothing localizes), the gap $g$, the probe and its kinetic metric. *Out:* one potential from one field, small where the matter pins the sectors and gapped away from it; a well whose radial extent is the pinned region; bound modes whose vertical scale is set mainly by the gap and whose radial extent is set by $D_R$ within the well, with far fields falling at the derived rates $\sqrt{(V_\infty-E_0)/D}$ and an asymptotic aspect that is the kinetic anisotropy. *Not in the model:* the Berry phase (the clash $U(1)$), the sectors' stress in Law I, the optical response, the identification of the two frames beyond the matter's $(\mathbf k,\mathbf t)$, the antipodal quotient. The minimal model is recorded, as the report on v36.4 asked, before any further structure is added: it localizes, and it derives neither the thin–broad disk nor the sine-exponential profile.
+
+## XXXIII.58 The author's note of 19 October: what an observer-side receiving operation can change, in a reduction of the smallest two-path, one-qubit model [T/V/S/D; R363] *(`v36_6_receiver()`)*
+
+The note asks whether changing the internal make-up of the observer's side of the two light paths could decide the galaxy's normal and its fall-off. The response separates a passive change of the observer's frame, an active change of the receiving operation and a change of the rendering law itself. The first two can be computed in a reduction of the response's smallest model: two transports $P_1,P_2\in SU(2)$ from the source's sector state to the observer, one sector's Bloch direction rather than the double-Hopf pair, and a projective qubit receiver.
+
+**(a) The two-path holonomy [T/V].** $W = P_2^{-1}P_1$. An observer-side frame change $U$ on both paths cancels from it ($10^{-16}$); a source-side frame change $V$ conjugates it, $W\to V^{-1}WV$ ($10^{-16}$), keeping its rotation angle (the trace) and moving only its axis; a receiving operation that acts differently on the two paths ($U_1\neq U_2$) changes it — an active comparison, not a change of description. A passive change of the observer decides nothing.
+
+**(b) The projective receiver [T/S/V].** Take the received light's internal state to carry the source sector's Bloch direction $\mathbf b(x)$ — a premise, with no transport law ($P = 1$) and one path, or two added incoherently. The fraction received through the channel $\mathbf d$ is $T_{\mathbf d}(x) = (1+\mathbf d\cdot\mathbf b(x))/2$, and the conjugate channel $-\mathbf d$ receives the rest: $T_{\mathbf d}+T_{-\mathbf d} = 1$ exactly, the radiation budget. A receiver uniform over the image has two parameters ($\mathbf d\in S^2$), and its transfer functions form the affine family $(1+\mathbf d\cdot\mathbf b(x))/2$: it selects one member of a two-parameter family of profiles that the source's $\mathbf b(x)$ fixes — it can steepen the profile, as (c) shows, but cannot impose a shape. With the tilt field of §XXXIII.57(c), $\mathbf b = (\sin\alpha,0,\cos\alpha)$ in the plane, the largest centre-to-outskirts difference $T(0)-T(R_{\max})$ any uniform channel transmits is $0.2297 = \lvert\mathbf b(0)-\mathbf b(R_{\max})\rvert/2$, which tends to $\sin(\alpha(0)/2) = 0.2298$ as $\mathbf b\to\mathbf k$ far away; the ratio $T(0)/T(R)$ is unbounded — the channel of (c) makes the outskirts dark. A receiver whose channel varies across the image reaches any $T(x)\in[0,1]$ — $\mathbf d(x)$ at the angle $\arccos(2T-1)$ from $\mathbf b(x)$ — and so any received profile up to the source's own, $ST\leq S$, written into the receiver rather than derived, with the complement in the conjugate channel. Two coherent paths would multiply $T$ by an interference factor $\lvert w_1+w_2e^{i\Delta S(x)/\varepsilon+i\phi}\rvert^2$, set by the path geometry and a receiver phase: that is outside this model, and it is where a shape could enter.
+
+**(c) The vacuum-blind channel [V].** $\mathbf d = -\mathbf k$ sees $T = \sin^2(\alpha/2)$: the aligned outskirts ($\alpha = 0$) are invisible, and the pinned region is seen at most at $5.3\%$ of its light. With Entry 326's image as the source $S(R)$, the received profile $S\sin^2(\alpha/2)$ has local scale lengths $0.65$, $0.51$, $0.46$, $0.47\,h$ at $R = 1$–$4$ against the source's $0.95$, $0.99$, $1.11$, $1.28$; the conjugate channel $\mathbf d = +\mathbf k$ receives $S\cos^2(\alpha/2)$, at least $94.7\%$ of the light everywhere. Nothing here changes $\alpha$, the source or its gravity: the receiver chooses the channel; the profile is the source's $\mathbf b(x)$ read through it.
+
+**(d) What the note's "perspectival power" is in this model [D/O].** It is the choice of the receiving channel: none for a passive change; two parameters for a uniform projective receiver, which selects within a family of profiles the source fixes; any transmission $T(x)\in[0,1]$ for a channel that varies over the image — any received profile up to the source's own, at the price of writing it into the receiver — with the budget kept in every case. A change of the apparent spatial normal needs a soldering map from the internal directions to spatial ones (here $\mathbf k$ is the galaxy's normal by premise, so the channel $\mathbf d$ is the receiver's own reference); a change of the relational rendering law needs the consistency law the response asks for, relating what different receivers see to one source; coherent two-path reception needs a transport law for the light's internal state. None is built. The note's second paragraph — whether the gravitational field stays isotropic across shells with the rendering a cross-section of it, or whether a centradic scrambling changes the field — is recorded in §XXXIII.56 with its response. The rendering-invariance law the response cites is §XXVI.8's, frozen, and §XXVI.8 already makes the response's two cautions: a position-dependent invariant projection adds terms in $\nabla P_x$ to the conservation law, and physically real anisotropy must survive. Part XXXIII takes the leaf's field from the thin source's own density (§XXXIII.4), keeping its multipoles; it tests neither the source reduction nor the response's $\delta P$ term.
+
+## XXXIII.59 Standing after v36.6, and the next pieces [S/O; R364]
+
+§XXXIII.54 remains the operative standing, with these changes.
+- *Established [T/V], added.* The admissibility scalar — the squared Fubini–Study distance to an admitted joint family — zero on the family, detecting the mirror tilt and an azimuthal turn of one sector (the twist under which $F_L-F_R$ stays zero), blind to the fibre phases, its nullspace the choice of the family (§XXXIII.57(a)). The minimal localization model (§XXXIII.57(b)–(e)): a well whose radial extent is the pinned region; bound modes whose vertical scale is set mainly by the gap (not by the layer's thickness below $\xi$) and whose radial extent is set by $D_R$ within the well; far fields obeying the exterior theorem — the rates $\sqrt{(V_\infty-E_0)/D}$ and the asymptotic aspect $\sqrt{D_R/D_z}$ of the probe's kinetic metric, borne out to a few per cent where the tail is asymptotic and resolved. The radial scale is $D_R$'s, relative to the gap, and the aspect $D_R/D_z$'s: at $D_R = D_z = 1$ the mode falls several times faster than the image beyond $R\approx2h$, while isotropically at $D = 6$, or at $D_R = 10$–$20$ with $D_z = 1$, its radial scale lengths are comparable to the image's, with aspect $2.2$ or $4.7$–$6.0$. At $D_z = 1$ the mode unbinds between $D_R = 52.19$ (the largest box's lower bound; $52.37$ extrapolated) and $80.6$ (the Cwikel–Lieb–Rozenblum bound, $D_R\sqrt{D_z}>80.6$). The receiver-side algebra (§XXXIII.58): the two-path holonomy blind to the observer's frame; for one path or two added incoherently, the budget $T_{\mathbf d}+T_{-\mathbf d} = 1$, a uniform receiver's two parameters selecting within a family the source fixes, a varying receiver's arbitrary transmission $T\in[0,1]$.
+- *Not demonstrated,* now including: the thin–broad disk and the sine-exponential profile from an action — the minimal model localizes but derives neither, and by the exterior theorem none of its bound modes follows the image at large $R$ (§XXXIII.57(f)); §XXXIII.54's "a localization operator from an action" is met only by a minimal model whose probe, coupling, gap and kinetic metric are put in; the observed rotation curve from the theory as specified; any transfer, population law or scale derived.
+- *The next pieces.* (1) The localization model's missing parts, one at a time: the probe's kinetic metric derived rather than put in — from the sectors' own geometry, the response's tensor of §XXXIII.46(b) — with its two eigenvalues tested against the scan (the radial one, relative to the gap, for the radial scale; their ratio for the aspect); then the Berry connection in the action; then the sectors' stress in Law I. (2) The joint model against DDO 154 (§XXXIII.42's first item), with the repaired kinematics and the frontier as its population side and the dwarfs' line-of-sight bridge. (3) Entries 342–345's checks (§XXXIII.50): the Solar-System criterion on the stereographic chart first. (4) The note of 19 October: the soldering map and the consistency law (§XXXIII.58(d)); the response's three-way test of the source reduction, with its $\delta P$ term (an extension of §XXVI.8's law), in a two-body configuration (§XXVI.8's kill test). (5) Dynamical stability; the non-axisymmetric branches; the standing list.
+- *Not claimed.* No observed rotation curve is reproduced; the minimal model does not derive the disk; the probe's kinetic metric and the gap are inputs; the receiver changes neither the source nor its gravity.
+
+## XXXIII.60 Register R360–R364 [D/O; v36.6]
+
+- **R360** (§XXXIII.56). The review of v36.5, the author's note of 19 October and the two responses on it, in the author's words; what v36.6 does with each. [record]
+- **R361** (§XXXIII.57(a)). The admissibility scalar $\mathcal C = \min_\beta[d_{\rm FS}^2(\mathbf n_L,\mathbf a_L(\beta))+d_{\rm FS}^2(\mathbf n_R,\mathbf a_R(\beta))]$ to the admitted family $\mathcal A_x = \{\cos\alpha_0\,\mathbf k\pm\sin\alpha_0\,\mathbf t(\beta)\}$: zero on it; $(\theta-\alpha_0)^2/2$ for the mirror tilt, $/4$ for a one-sector tilt; $0.0205$ for §XXXIII.53(a)'s twist applied to the admitted pair, $0.138$ for §XXXIII.53(a)'s own pair and $0.239$ for identical sectors, each at its closed form; exchange-even; invariant under the common rotation about $\mathbf k$; blind to the fibre phases; its nullspace the choice of $\mathcal A_x$. [T/V/D]
+- **R362** (§XXXIII.57(b)–(f)). The action $\tfrac{k_s}{2}\lvert\nabla\alpha\rvert^2+\lambda\rho\,\mathcal C+\mu(1-\cos\alpha)$ for the mirror pair's tilt (an ansatz), its Euler–Lagrange equation $k_s\Delta\alpha = \lambda\rho(\alpha-\alpha_0)+\mu\sin\alpha$, the probe in $g\mathcal C$ (the gap a modelling choice); the vertical problem (one bound state for $h_d\leq0.1$; $\kappa_z = \sqrt{V_\infty-E_0}$; the $\lvert\psi\rvert^2$ half-height $0.338$–$0.355$ for $h_d = 0.02$–$0.1$, set mainly by the gap); the $(R,z)$ problem on a symmetric finite-volume grid ($E_0 = 7.5859$, converged to $10^{-5}$, $7.58576$ extrapolated); the soldered axis costlier; the isotropic mode's core as broad as the image's and its outer scale lengths $0.22$–$0.33\,h$ against the image's $0.99$–$2.32$; the exterior theorem (the rates $\sqrt{(V_\infty-E_0)/D}$ and the asymptotic aspect $\sqrt{D_R/D_z}$, borne out to a few per cent where resolved); the scan of the kinetic metric on large grids — the radial scale $D_R$'s, the aspect $D_R/D_z$'s; the modes counted by inertia ($13$, $4$, $1$ in all sectors at $D_R = 1$, $3$, $10$); the unbinding at $D_z = 1$ between $D_R = 52.19$ (three boxes; $52.37$ extrapolated) and $80.6$ (the Cwikel–Lieb–Rozenblum bound with Lieb's constant); the model derives neither the thin–broad disk nor the sine-exponential, and by the theorem no bound mode follows the image at large $R$. [T/V/S/D/O]
+- **R363** (§XXXIII.58). The two-path holonomy $W = P_2^{-1}P_1$ invariant under the observer's frame and conjugated by the source's; the projective receiver's $T_{\mathbf d} = (1+\mathbf d\cdot\mathbf b)/2$ with $T_{\mathbf d}+T_{-\mathbf d} = 1$, for one path or two added incoherently; a uniform receiver selecting within a two-parameter family the source fixes, its centre-to-outskirts difference at most $\lvert\mathbf b(0)-\mathbf b(\infty)\rvert/2 = \sin(\alpha(0)/2) = 0.2298$ ($0.2297$ at the box's edge); a varying receiver reaching any $T\in[0,1]$; the vacuum-blind channel $\sin^2(\alpha/2)$; coherent reception, the soldering map and the consistency law not built; the note's second paragraph recorded with §XXVI.8's cross-reference. [T/V/S/D]
+- **R364** (§XXXIII.59; §XXXIII.13; the head table; the toy). Standing after v36.6; the next pieces. The suite `pg_v36_numerics.py` at v36.6: two new sections and checks ($37$ in all), the finite-volume helpers `_v36_fv`, `_v36_fvg` (nonuniform cells, with `_v36_geo_edges`), `_v36_loc_alpha`, `_v36_loc_probe`, `_v36_loc_count` (the modes below $V_\infty$ by inertia, in any sector), `_v36_loc_ground`, `_v36_loc_shape` and the scalar `_v36_adm_C`, the mode `v36_6` (a few minutes), `quick` now $23$ checks; the toy `v32_toy_three_ends.py` gains `v36_6`, its `all` counting $224$; no new figure. The SHA-256 of the suite is in §XXXIII.13. [S/O; reproducibility]
+
+## Round record: the version summaries, v16 to v36.6 (moved from the head of the archive in v34.9, R190)
+
+*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v36.6, v36.5, v36.4, v36.3, v36.2, v36.1, v36.0, v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+
+> **v36.6 — the review of v36.5 and the author's note of 19 October (19 October 2026): one localization model, from the admissibility scalar to the spectrum; what an observer-side receiver can change. Parts XXX–XXXII frozen at v35.8.**
+>
+> *What was asked.* The review of v36.5: keep it, a more reliable version; the clash must distinguish permissible from impermissible relations between the two sectors, so the admissibility geometry — with the Bloch sphere's metric as well as its Berry curvature — should come before the localization potential; an incompatibility observable $d_{\rm FS}^2$ to an admitted joint family as an ansatz, to vanish on the family, detect the symmetric departure and ignore the intended non-clashing rotations; one action whose spectral equation decides whether localized modes exist, with the radial and vertical modes tested together; the joint model against DDO 154 and the Solar-System criterion still essential. The author's note: whether changing the internal make-up of the observer's side of the two light paths could decide the galaxy's normal and its fall-off — not a parallax argument, customized to the source as for Kerr; and whether the gravitational field stays isotropic across shells with the rendering a cross-section, or a centradic scrambling changes it. The responses: passive, active and relational changes of the receiver; the two-path holonomy; a single $SU(2)$ receiver cannot specify a radial function; the radiation budget; the source reduction $T^{(g)} = \mathscr C_g(P_xs)$ of §XXVI.8 with the response's $\delta P$ term; internal isotropy of the reduction against anisotropy of the field; a three-way test.
+>
+> **What v36.6 does (R360–R364; §§XXXIII.56–60).**
+> - The admissibility scalar: the squared Fubini–Study distance to the admitted two-Hopf family — zero on it, $(\theta-\alpha_0)^2/2$ for the mirror tilt, nonzero for an azimuthal turn of one sector (the twist under which $F_L-F_R$ stays zero), blind to the fibre phases; its nullspace is the choice of the family, which it encodes and does not supply.
+> - One action for the mirror pair's tilt (stiffness, the admissibility potential where the matter is, a vacuum term) and a scalar probe in the induced potential, on a symmetric finite-volume grid of a flat meridional half-plane with Entry 326's image as the pinning density: a well whose radial extent is the pinned region; bound modes whose vertical scale is set mainly by the gap and whose radial extent is set by the probe's radial kinetic coefficient $D_R$ within the well; the exterior theorem — the far tail's rates and asymptotic aspect are the probe's kinetic metric's. The radial scale is $D_R$'s, relative to the gap, and the aspect $D_R/D_z$'s: at $D_R = D_z = 1$ the mode falls several times faster than the image beyond $R\approx2h$, while a larger $D_R$ gives comparable scale lengths; at $D_z = 1$ the mode unbinds between $D_R\approx52$ and $80.6$. The minimal model localizes and derives neither the thin–broad disk nor the sine-exponential — by the theorem no bound mode of it can follow the image at large $R$; recorded before any further structure.
+> - The note in a reduction of the smallest two-path, one-qubit model: a passive change decides nothing; a uniform projective receiver selects within a two-parameter family of profiles the source fixes; a receiver that varies over the image imposes any transmission in $[0,1]$, written into it; the budget $T_{\mathbf d}+T_{-\mathbf d} = 1$ holds throughout; coherent reception, the soldering map and the consistency law are not built. The second paragraph recorded with §XXVI.8's cross-reference.
+> - Independent referees checked the round before delivery.
+>
+> **Next.** The localization model's missing parts one at a time (the probe's kinetic metric derived, the Berry connection, the sectors' stress); the joint model against DDO 154; Entries 342–345's checks (the Solar-System criterion first); the note's soldering map, consistency law and three-way test; the standing list; the author's choice for the cap.
 
 > **v36.5 — the two reviews of v36.4 (18–19 October 2026): the kinematics erratum of the orbit library, the joint crossing–dispersion frontier, the library bounds rescoped; the clash nullspace, the sum's fall-off and the sector bound. Parts XXX–XXXII frozen at v35.8.**
 >
