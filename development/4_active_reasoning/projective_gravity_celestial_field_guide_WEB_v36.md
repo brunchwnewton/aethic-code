@@ -1,8 +1,8 @@
-# Projective Gravity — Version 36.9 (draft): the observed rotation curve and flavor
+# Projective Gravity — Version 36.10 (draft): the observed rotation curve and flavor
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases — with branches on charge and extremality, and on rendering and canonical optics
 
-**Claim status of Parts XXXIII–XXXIV (v36.9).** This table governs the open work: Part XXXIII, the observed rotation curve, and Part XXXIV, flavor, opened in v36.8. Parts XXX–XXXII are frozen at v35.8, and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the two frozen tables that follow, unchanged except for marked post-freeze notes; v36.0 added such notes and pointers in §§XXXI.37, XXXI.38, XXXI.41, XXXII.5 and XXXII.7 and in four rows (R313); v36.1–v36.9 add none (v36.4's one rendering repair in §XXX.11, R355, excepted). v36.1 was the corrective round on the two reports on v36.0 (§XXXIII.14), §XXXIII.24 listing each v36.0 claim against its status; v36.2 answers Entries 323–324 and the two responses on them (§XXXIII.27), with the rows marked R332–R337 added, the row on Entry 322's family reworded (R332; its v36.1 text quoted under R337) and the row on the next pieces extended (R337); v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§XXXIII.34), with the rows marked R339–R348 added, the occupancy row reworded for the review's two distinctions (R347; its v36.2 text quoted there) and the row on the next pieces extended (R348); v36.4 answers the review of v36.3 and Entries 340–341 with the response (§XXXIII.44), with the rows marked R349–R354 added, the isothermal row extended for the erratum and the two ensembles (R350; its v36.3 text quoted there) and the row on the next pieces extended (R353); v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§XXXIII.51), with the rows marked R356–R358 added, the occupancy and regular-family rows corrected for the kinematics erratum (R357; their v36.4 text quoted in the ledger), the isothermal and clash rows extended (R358) and the row on the next pieces extended (R359); v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§XXXIII.56), with the rows marked R360–R363 added and the row on the next pieces extended (R364); v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§XXXIII.61), with the rows marked R365–R368 added and the row on the next pieces reworded and extended (R369); v36.8 answers Entries 351–353 and the three responses by opening Part XXXIV (§XXXIV.1), with the flavor heading, the rows marked R370–R373 and a row on Part XXXIV's next pieces added, and Part XXXIII's rows on the flavor note and on the next pieces amended, the rest of flavor leaving its backlog while the categories of mass and Entry 319's audit stay there (R374; their v36.7 text quoted in the ledger); v36.9 answers the review of v36.8 (§XXXIV.7), with the rows marked R375–R378 added and Part XXXIV's row on the next pieces reworded (R379; its v36.8 text quoted in the ledger). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*; a fit that fails is marked *(negative)*.
+**Claim status of Parts XXXIII–XXXIV (v36.10).** This table governs the open work: Part XXXIII, the observed rotation curve, and Part XXXIV, flavor, opened in v36.8. Parts XXX–XXXII are frozen at v35.8, and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the two frozen tables that follow, unchanged except for marked post-freeze notes; v36.0 added such notes and pointers in §§XXXI.37, XXXI.38, XXXI.41, XXXII.5 and XXXII.7 and in four rows (R313); v36.1–v36.10 add none (v36.4's one rendering repair in §XXX.11, R355, excepted). v36.1 was the corrective round on the two reports on v36.0 (§XXXIII.14), §XXXIII.24 listing each v36.0 claim against its status; v36.2 answers Entries 323–324 and the two responses on them (§XXXIII.27), with the rows marked R332–R337 added, the row on Entry 322's family reworded (R332; its v36.1 text quoted under R337) and the row on the next pieces extended (R337); v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§XXXIII.34), with the rows marked R339–R348 added, the occupancy row reworded for the review's two distinctions (R347; its v36.2 text quoted there) and the row on the next pieces extended (R348); v36.4 answers the review of v36.3 and Entries 340–341 with the response (§XXXIII.44), with the rows marked R349–R354 added, the isothermal row extended for the erratum and the two ensembles (R350; its v36.3 text quoted there) and the row on the next pieces extended (R353); v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§XXXIII.51), with the rows marked R356–R358 added, the occupancy and regular-family rows corrected for the kinematics erratum (R357; their v36.4 text quoted in the ledger), the isothermal and clash rows extended (R358) and the row on the next pieces extended (R359); v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§XXXIII.56), with the rows marked R360–R363 added and the row on the next pieces extended (R364); v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§XXXIII.61), with the rows marked R365–R368 added and the row on the next pieces reworded and extended (R369); v36.8 answers Entries 351–353 and the three responses by opening Part XXXIV (§XXXIV.1), with the flavor heading, the rows marked R370–R373 and a row on Part XXXIV's next pieces added, and Part XXXIII's rows on the flavor note and on the next pieces amended, the rest of flavor leaving its backlog while the categories of mass and Entry 319's audit stay there (R374; their v36.7 text quoted in the ledger); v36.9 answers the review of v36.8 (§XXXIV.7), with the rows marked R375–R378 added and Part XXXIV's row on the next pieces reworded (R379; its v36.8 text quoted in the ledger); v36.10 answers Entry 354, the response to it and the review of v36.9 (§XXXIV.13), with the rows marked R380–R384 added, the flavor heading now saying when Part XXXIV was opened, and Part XXXIV's row on the next pieces reworded (R385; the v36.9 texts quoted in the ledger). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*; a fit that fails is marked *(negative)*.
 
 | claim | type | evidence | archive |
 |:--|:--|:--|:--|
@@ -51,7 +51,7 @@
 | The localization model with each penalty, the probe's potential alone or the pinning with it, at the same coupling or the same gap: for an exchange-even penalty, smoothness at the aligned vacuum and a tilt that follows weak matter exclude each other — the cone penalties' tilt follows the image's column density, the smooth forms' is a patch inside $R\approx2$–$2.4\,h$; the sine and $1-\cos$ keep v36.6's three modes and, with the isotropic probe, its scales (within $7.3\%$), the probe-only sine binding more strongly at the same gap ($V_{\sin}\leq V_{\rm old}$) and more weakly at the same coupling; with their pinning the lowest-order smooth forms lose the mode at the same coupling and regain one, weakly bound, at the same gap (on v36.6's tilt the response's and the review's probe potentials keep one weak mode at the same coupling), while a smooth form with v36.6's gap binds two, its tilt still a patch — smoothness forbids the tail-following, not localization; the exterior obstruction holds for every gapped penalty (R367) | analytic theorem; numerical control; specified physical premise; open bridge | — | §XXXIII.63 |
 | The mirror solution off its ansatz: a critical point of the full two-sector energy (symmetric criticality) and a stable one for every penalty — its second variation in four blocks, no negative eigenvalue, one zero mode, the rotation about the normal $\sin\alpha(x)$, gapless along the disk for v36.6's scalar, the sine and $1-\cos$ and gapped for the response's smooth form; the stiffness isotropic by choice; a multi-start local search finding no lower state; the sine's second zero leaving no metastable state — the run stops at a wall held by the grid, and the wall held at $R_w$ has an energy with one maximum and no minimum (R368) | analytic theorem; numerical control; definition | — | §XXXIII.64 |
 | The next pieces: the joint model — one population, its Law I source and its image by a stated transfer, against DDO 154 — with the population law and the transfer fixed first; the localization model's missing parts one at a time — the probe's kinetic metric from the $SO(4)$ geometry (with the isotropic stiffness the sectors' own fluctuations are isotropic, so it needs a further term: a soldering of the internal frame to space, an anisotropic stiffness, or a coupling to the matter's geometry), the Berry connection in the action, the sectors' stress in Law I and the back-reaction (v36.6's minimal model done; v36.7's penalties compared, the lowest-order smooth ones losing the mode with their pinning at v36.6's coupling); the matter population through Law II in place of the inserted image; the clash invariant restated to see the symmetric departure, with a frame identification, a transport law and an action; dynamical stability and the non-axisymmetric equilibria of the isothermal fixed points; Entry 329's acceptance criterion computed; measured HI profiles for the pilot, with the HI dispersion as a second observable; the Milky Way estimator; a label law stated before it is fitted, tested out of sample, with the distance, inclination and mass-to-light uncertainties carried; gas with pressure and dissipation on the leaf; one optics experiment; other readings; the held note's calculations; Entries 342–345's checks; the note of 19 October's soldering map, consistency law, a coupling of the light's internal state to the detected photons and the three-way test of the source reduction; reflectrons, the categories of mass with Entry 319's action-level audit, the direction field and the co-space program in the backlog, the rest of flavor having left it for Part XXXIV (R330, R337, R348, R353, R359, R364, R369, R374) | open bridge | — | §§XXXIII.25, 32, 42, 48, 54, 59, 65; XXXIV.5 |
-| **Flavor (Part XXXIV, opened in v36.8; Entries 351–353)** | | | |
+| **Flavor (Part XXXIV, opened in v36.8 for Entries 351–353)** | | | |
 | Entries 351–353 and the three responses, recorded in the author's words, Entry 351 with its three handwritten pages as transcribed; Part XXXIV opened for the flavor program §XXXIII.9 held (R370) | record | — | §XXXIV.1 |
 | The complement of a Cartesian fibration. On the reading of the two families as orthonormal bases of one complex carrier, Entry 352's rule (no fiber of one family privileges a fiber of the other) is mutual unbiasedness, one condition: one fiber gives probability $\tfrac13$ on each fiber of the other family, deleting one keeps $\tfrac23$ of each, $H_X+H_F\geq\ln3$, and deduction holds one way only. No real pair realizes it: in every real pair some fiber has squared overlap at least $\tfrac49$ with some fiber of the other (a theorem, attained by $96$ rotations), and a shell's left- and right-invariant frames are related by ${\rm Ad}_g$. The weight basis of an axis is unbiased to a frame iff the axis is a body diagonal; the frame's shift and clock are then the archive's $R$ and $S$ ($C = Z$), and the circular lines meet the real slice only at $0$. The complement is unique only as a weight basis with oriented fibers (a torus of complements, four weight bases, one with unit vectors); the axis fixes the frame up to a circle that keeps the lines and the mass operator and moves the conveyor except at third-turns — §XXX.13(d)'s trigonal frame as a datum, not a selection. The dephasings commute and depolarize; the projectors do not (R371) | analytic theorem; numerical control; definition; open bridge | — | §XXXIV.2 |
 | The mass operator on the Cartesian fibers: a circulant on the three-site ring with the mean mass, $627.6998$ MeV, on every fiber; $H_\theta = \partial_{\theta+\pi/2}$, the covariant central difference with a flux, and the response's sine difference the spectrum of $D_F = \sqrt{m_*}(H_\theta+\cos\alpha\,I)$; $M = A\,I+2\lvert c\rvert\,\partial_{\arg c+\pi/2}$ a one-hop operator and §XXIV.26's dual factors the real and imaginary parts of one hop; the ring's holonomy is spectral data and the spectrum degenerate iff it is real; the $e$–$\mu$ distinction is the part odd under complex conjugation in the real frame ($\lvert{\rm Im}\,W\rvert/\lvert W\rvert = 0.6184$), a restatement of §XXI.4a's $K$, and not an octant's Pancharatnam phase; Koide's relation is the light cone of the trace-reversed Hilbert–Schmidt form on $\sqrt M$, on the common-sign branch ($D_F$ null for every $\theta$), the flavor-blind and flavor-resolving parts of equal weight ($K-\tfrac23$ at $-0.43\sigma$) — a restatement deriving neither the quarter turn nor $\theta$; trimaximal mixing (the neutrino mass states on the Cartesian fibers) excluded, its second column at $2.7$–$2.8\sigma$, inside NuFIT's $3\sigma$ range (R372) | analytic theorem; numerical control; definition; specified physical premise; observational fit (negative); open bridge | PDG 2025; NuFIT 6.0 (Esteban et al. 2024) | §XXXIV.3 |
@@ -60,7 +60,12 @@
 | Frame consistency. Were the carrier's rotations the physical ones, a rotation-invariant mass operator would be degenerate (Schur), and a nondegenerate one would mix species under rotation (Wigner $d^1$: $\tfrac14$ and $\tfrac12$ at a quarter turn) — §XXI.4b's tensor-product audit, quantified. Three distinct masses need an abelian residual symmetry (nine groups tabulated, the finite groups' orders by closure). Among the frame's $24$ rotations the oriented triad's stabilizer is $\mathbb Z_3 = \langle T\rangle$, whose isotypic lines are the complement and the weight lines of $N_+$; the unoriented triad's symmetries force degeneracy, and within $O(3)$ the fibers' orientation and the handedness separate $e$ from $\mu$. The mass operator itself keeps $SO(2)_{N_+}$, which the triad breaks to $\mathbb Z_3$. On $S_D\otimes G_{\rm gen}$ — the descent's typing, a definition, which takes the carrier and the selected structure as ambient and retypes §XIX.2's soldering target for flavor — the mass operator commutes with every Lorentz transformation and adds no orientation-dependent interaction. The frame's absolute direction is unobservable, and its angle about the axis is a removable rephasing $e^{-i\gamma m}$ of the generation lines unless something is anchored to the frame, as the conveyor is. A coupling of the carrier to the spin, $\lambda S\cdot J$, would be a spin coupling to the axis: Heckel et al.'s preferred-frame limits on the electron give, at one standard deviation, $\lambda\leq3.46\times10^{-22}$ eV for the Galactic normal ($(1.6\pm2.9)\times10^{-22}$ eV from a fit to the measured components) and $\lambda\leq8.81\times10^{-21}$ eV for any axis — excluded near the flavor scale, consistent with the typing without requiring it (R376) | analytic theorem; numerical control; definition; specified physical premise; observational fit (negative); open bridge | Heckel et al. 2008; astropy's Galactic pole | §XXXIV.8 |
 | Spectral selection. No residual symmetry selects: an abelian residual symmetry leaves the masses free, and the Hermitian circulants reach every spectrum; vacuum alignment can, as Koide's 1990 potential imposes the null condition — on running masses at the potential's scale, the pole masses then needing the QED running canceled. Koide's ratio is fixed by the overlap of §XXI.4's two dual references, $K = \tfrac13+1/(6P)$ with $P = \cos^2\alpha$, on the common-sign branch; $P = \tfrac12$ is exactly the references' bases being mutually unbiased — Entry 352's rule on a qubit, the quarter turn — and then the dual factors are the two Hermitian parts of one hop. The pole masses give $P-\tfrac12 = (3.3\pm7.6)\times10^{-6}$; one-loop QED running would shift $K$ by $+1.15\times10^{-3}$. The dual-factor family $(m_*,\theta,\alpha)$ covers every positive spectrum with $K$ in $[\tfrac12,1)$, so the premise that the references are a complementary pair is equivalent to Koide's relation — a dictionary, not a derivation — with §XXIV.26's target read as a pair of mutually unbiased bases. §XXXIV.3(d)'s light cone shares the mass shell's indefinite signature only formally, and its vanishing on the square-root operator is Koide's 1990 vacuum condition, a condition on running masses (R377) | analytic theorem; numerical control; definition; specified physical premise; open bridge | PDG 2025; Koide 1990; Koide 2018; Xing and Zhang 2006; Sumino 2009 | §XXXIV.9; §XXXIV.3(d) |
 | Mass generation. A parity-symmetric pair — scalar Dirac masses, a Hermitian mass matrix, both fields vectorlike — with a heavy flavor-blind partner, the universal seesaw as Koide assumed for his relation, gives light masses $m_*d_n^2(1-m_*d_n^2/\Lambda)$: Koide's masses at leading order, from a first-order internal operator used on two hops. The corrections lower $K$, $K-\tfrac23 = -C/\Lambda$ with $C = 168.6$ MeV; on the premise that the relation holds for pole masses, the measured $K$ requires $\Lambda\geq1.36\times10^7$ MeV ($13.6$ TeV) at two standard deviations, with no upper bound; were it a relation among running masses, QED running would move the pole masses' $K$ by $-1.15\times10^{-3}$. §XXIV.26's dual factors, as two different hops, give the same masses at leading order with no parity acting on the two fields separately. The zero $\psi$–$\psi$ block is a premise: a direct mass of $10^{-4}$ MeV cancels the signature at $\Lambda = 10^8$ MeV. The partner, its mass, its hop and its charges are not derived (R378) | analytic theorem; numerical control; specified physical premise; open bridge | PDG 2025; Berezhiani 1983; Chang and Mohapatra 1987; Rajpoot 1987; Davidson and Wali 1987; Koide 1990; Koide 2005; Sumino 2009 | §XXXIV.10 |
-| The next pieces of Part XXXIV: a native source for the trigonal frame, internal to the descent, with §XIX.2's soldering target retyped for flavor; a source for the null condition — the dual references as a complementary pair from PG's geometry, or a potential that imposes it; the second stage's partner and its mass from PG, why the leading relation would hold for pole masses, and what forbids a direct $\psi$ mass; the chiral toy, with the dual factors as the left and right hops and $H_\nu$ off the Cartesian diagonal; the stitching target $B\cong{\rm Fix}(\tau)$; the quarks' "heterogeneous" form and the "lepton-coordinates radius" not attempted (R374; R379) | open bridge | — | §§XXXIV.5, XXXIV.11 |
+| Entry 354, recorded in the author's words, and the response to it and the review of v36.9, as he sent them (R380) | record | — | §XXXIV.13 |
+| The exact angles held fixed, $\theta = 2/9$ and $\cos\alpha = 1/\sqrt2$, with the second stage's corrections (Entry 354). The ideal point's electron-to-muon ratio is short by $9.83\times10^{-6}$ of itself ($452\sigma$). Any first-order correction fixed by the electron and the muon predicts the $\tau$ through its pattern's $R_f = (f_\tau-f_\mu)/(f_\mu-f_e)$, and the measured $\tau$ asks for $R = 2.15\pm5.15$. The same hop twice corrects in proportion to the masses ($R = 15.89$): $m_\tau = 1776.6899$ MeV ($-2.67\sigma$). The dual factors correct in proportion to the square roots up to a constant ($R = 3.33$): $m_\tau = 1776.9093$ MeV ($-0.23\sigma$) — the response's numbers — and their angle offsets match the measured ones within the $\tau$'s error, the same test. All on the pole-mass premise (the QED shift of the ratio is $1889$ times the correction), with the zero block at the eV level (a direct mass of $-4.37$ or $-1.80$ eV fits all three masses), and with the construction chosen after the fact (R381) | analytic theorem; numerical control; specified physical premise; open bridge | PDG 2025 | §XXXIV.14 |
+| The mixing scale and the Z mass (Entry 354). v36.9's $\mu$ was a lower bound, $92.5$ GeV at two standard deviations and $120.5$ GeV at one; with the exact angles it is fitted, $81.93$ or $147.09$ GeV. Part XXIV's $\mu_H$, with the on-shell angle, is $91.2785\pm0.0803$ GeV with PDG 2025's inputs ($+1.13\sigma$ from $M_Z$) and $91.2293\pm0.0802$ GeV with PDG 2026's ($+0.52\sigma$; $+0.94\sigma$ from the Z pole, PDG's $M_Z$ being a Breit–Wigner parameter); the effective angle gives $+2.55\sigma$ and $+1.92\sigma$. Imposing $\mu = M_Z$ with the exact angles and one hop scale gives the $\tau$ $2.07\sigma$ or $1.27\sigma$ low and misses the electron by $-0.97$ or $+8.05$ eV, which a direct mass of that size restores: not supported, not excluded. In the chiral version $\mu_L = M_Z$ gives $m_\tau = 1776.8187$ MeV ($-1.24\sigma$), one choice among several (§XXXIV.15(d)). A link needs a common origin, and $\mu_H = M_Z$ is itself imposed (R382) | numerical control; specified physical premise; open bridge | PDG 2025; PDG 2026 | §XXXIV.15 |
+| The chiral two-hop seesaw (the review of v36.9). With a bare right hop the zero block is a choice of basis: abelian charges allow the direct mass whenever they allow the seesaw's three terms, and a rotation of $e_R$ and $E_R$ trades the right hop for the seesaw mass in the direct entry. A charged scalar for the right hop, or the left-right group's $SU(2)_R$ without a bidoublet, forbids the direct mass up to dimension five, and the exact angles bound the leak to about $5$ eV ($M\geq2.4\times10^{14}$ GeV for $v_R = 10$ TeV), short of the eV level the $\tau$'s test needs. With two hop scales, $m_n = m_*a_La_R(1-(\varepsilon_La_L^2+\varepsilon_Ra_R^2)/2)$: the same hop's $\tau$ is unchanged, and the dual factors' becomes $m_\tau<1776.9658$ MeV, a supremum — met, the measured $\tau$ fixing $\varepsilon_R/\varepsilon_L = 0.775$ and $\Lambda = 47.9$ TeV. The hops as vevs, the hop matrices and the scales are not derived (R383) | analytic theorem; numerical control; specified physical premise; open bridge | Davidson and Wali 1987; Patra and Rai 2018; Borah, Dasgupta and Patra 2018; Gu and Lindner 2011; CODATA 2022 | §XXXIV.16 |
+| A moving frame (the review of v36.9). In the Dirac action the frame's change brings $A = iU^\dagger dU$: a diagonal part, the lines' Berry connection, and a part that connects lines. Turning the frame about its axis gives a diagonal, removable connection. A turning axis connects the $\tau$ with the electron and the muon: with the labels' induced connection (§XXI.4c) there is no flavor change; for a field on the carrier the mixing is about $2pk\lvert J\rvert/\Delta m^2$, a probability of at most $3\times10^{-69}$ for an illustrative turn of one radian per kiloparsec at $10$ GeV. The holonomy is $0$ and $\mp\Omega$ (R384) | analytic theorem; numerical control; definition; specified physical premise; open bridge | IAU; CODATA 2022 | §XXXIV.17 |
+| The next pieces of Part XXXIV: a native source for the trigonal frame, internal to the descent, with §XIX.2's soldering target retyped for flavor; the outstanding selection theorem — what in PG makes complementarity compulsory both on the flavor carrier and on the dual references — or a potential that imposes the null condition; the chiral model, with the hops as vevs, the hop matrices from PG — why the dual factors are the two hops — and the partner's mass, the zero block protected, the ratio of the hop scales and the pole-mass question, then $H_\nu$ off the Cartesian diagonal; the stitching target $B\cong{\rm Fix}(\tau)$; the quarks' "heterogeneous" form and the "lepton-coordinates radius" not attempted (R374; R379; R385) | open bridge | — | §§XXXIV.5, XXXIV.11, XXXIV.18 |
 
 **Claim status of Parts XXX–XXXII at the v35 freeze (v35.8).** This table governs Parts XXX–XXXII, frozen at v35.8 (15 October 2026) with their suite `pg_v35_numerics.py`, unchanged except for marked post-freeze notes (v36.0, R307, R313) and one marked rendering repair in §XXX.11 (v36.4, R355): Part XXX (the hyper-canonical completion and the charged-lepton cycle), Part XXXI (the visible rendering of the leaf) and Part XXXII (reflectrons: Feynman diagrams as the joint residue of paired histories). Their frozen-results record is the v35.8 current manuscript, `projective_gravity_v35_8_current_manuscript.md`. Parts 0–XXIX are frozen — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10 — and their claim status is the frozen table that follows this one, unchanged except for marked post-freeze notes. Post-freeze notes correct them without rewriting them: two erratum notes in §§XXI.4–4a (R211), clarification notes in §§XXIX.40(e), XXIX.41(d), XXIX.42(g) and XXIX.43(b) (R212–R216, §XXX.12), two pointer notes in §§XXIX.18 and XXIX.42(f) (R238, Part XXXI; the first corrected in v35.3, R243, and in v35.4, R254), and two pointer notes of v35.6, in §§XIII.10 and XXIX.42(c) (R277, R276; the first scoped in v35.7, R288). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*. Rows changed or added since v35.1 carry their register number. Three rows — the cap, the refocusing and the darkness of the sky — are marked as **central limiting conditions**: every proposal for the visible sky must say how it meets them (R255, R267).
 
@@ -188,7 +193,7 @@
 | Observational fits | none | no supernova likelihood, no count comparison with a selected sample, no rotation-curve fit (post-freeze note, v35.1, R216: the current predictive model; Part XII's exploratory fits, §XII.3, belong to its detached wing) (post-freeze note, v36.0, R313: rotation curves are compared with data in Part XXXIII — the Milky Way from inside and a SPARC pilot — and are not reproduced by the theory as specified) | §XXIX.39(f) |
 | The photon wave operator and its mode projection; a $q = 0$ reader; a frequency bridge with time dilation and a derived echo law; a pair-selection law; a detector law for the image map, with one forward image of a fixed galaxy; a derived spectral transport, even and odd | open bridge | — | §§XXIX.39(b), 41, 42, 43(f) |
 
-> **How to read this archive (v36.9).** Three tables govern: the table of Parts XXXIII–XXXIV, for the open work; the frozen v35.8 table that follows it, for Parts XXX–XXXII; and the frozen v34.10 table after that, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX; §XXX.9, frozen with Parts XXX–XXXII; and §XXXIII.12) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place. v36.0 freezes Parts XXX–XXXII at v35.8 with `pg_v35_numerics.py`, whose frozen-results record is the v35.8 current manuscript, and opens Part XXXIII, the observed rotation curve, after Part XXXII, with its own register (§XXXIII.12) and suite (§XXXIII.13, `pg_v36_numerics.py`). Its corrections to frozen Parts are post-freeze notes (R313). v36.1 is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§§XXXIII.14–26, R318–R331): it corrects v36.0's operative statements in place, with the superseded wording in §XXXIII.26, and adds no post-freeze note. v36.2 answers Entries 323–324 and the two responses on them (§§XXXIII.27–33, R332–R338): orbital occupancy on the leaf, the exponential as a rendering, the conformal route, the frame-selection hypothesis; it corrects two v36.1 sentences in place (R332) and adds no post-freeze note. v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§§XXXIII.34–43, R339–R348): two source families regular at the equator, their orbital populations and the dwarfs with them, the isothermal fixed points, the null cone, the split model, the $\mathfrak{so}(4)$ sectors; it applies the review's two distinctions in place (R347) and adds no post-freeze note. v36.4 answers the review of v36.3 and Entries 340–341 with the response (§§XXXIII.44–50, R349–R354): the fixed-point erratum and stability in two ensembles, the radial–normal duality and the CMB dipole, the first test of the clash invariant, and Entries 342–345 recorded for v36.5; it corrects §XXXIII.38 and §XXXIII.42 in place (R350) and adds no post-freeze content note — one marked rendering repair in frozen §XXX.11 (R355: a doubled brace in a subscript, which the author's site's templating engine read as a tag; the mathematics unchanged). v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§§XXXIII.51–55, R356–R359): the orbit library's kinematics erratum — the velocity moments integrated along the orbit, the mis-certified witnesses re-evaluated, the joint crossing–dispersion frontier, every library bound rescoped as a compatibility witness — with §§XXXIII.28, 29(b), 32, 36, 37, 42 and two register entries corrected in place (R357); the clash invariant's nullspace and the sum's fall-off, the high-sector bound, §§XXXIII.45, 47, 50 annotated (R358); no post-freeze note. v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§§XXXIII.56–60, R360–R364): one localization model, from the admissibility scalar to the spectrum — one action for the two sectors, a probe in the induced potential and the exterior theorem for its tail — which localizes and derives neither the thin–broad disk nor the sine-exponential; and the note's question in a reduction of the smallest two-path, one-qubit model; nothing earlier is corrected and no post-freeze note is added. v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§§XXXIII.61–66, R365–R369): the penalties of the admissibility geometry compared on the full two-sector configuration — the review's cone at the aligned vacuum confirmed, Entry 349's sine blind to the normal in the responses' reading, the response's and the review's smooth forms zero exactly on the family; v36.6's localization model with each, an exchange-even penalty smooth at the aligned vacuum confining the pinned tilt to a patch, the lowest-order smooth forms with their pinning losing the mode at v36.6's coupling (a smooth form with v36.6's gap binds two), the exterior obstruction holding for every gapped penalty; and the mirror solution stable off its ansatz, the sine's second zero leaving no metastable state; nothing earlier is corrected and no post-freeze note is added. v36.8 answers Entries 351–353 and the three responses by opening Part XXXIV, flavor, after Part XXXIII (§§XXXIV.1–6, R370–R374), as §XXXIII.9 planned, with Part XXXIII's suite: on the reading of the two families as orthonormal bases of one complex carrier, Entry 352's rule for a complement of the Cartesian fibers is mutual unbiasedness, which needs the complex structure and, with the archive's flavor lines, makes the selected axis the fibers' body diagonal, the frame's shift and clock then the archive's clock and conveyor and the Cartesian triad §XXX.13's trigonal frame, as a datum; the archive's mass operator read on the fibers is a ring with a flux, the mean mass on every fiber, the $e$–$\mu$ distinction the part odd under complex conjugation in the real frame, and Koide's relation a light cone on $\sqrt M$; the bare Dirac toy's mass term can be the internal part of a parent operator, whose square gives the invariant difference $p^2-\mathcal M^2$, the interchange holding in a flat parent and broken by any discrete internal spectrum. Part XXXIII's rows on the flavor note and on the next pieces are amended, the rest of flavor leaving its backlog (R374); nothing earlier is corrected and no post-freeze note is added. v36.9 answers the review of v36.8 with six sections of Part XXXIV (§§XXXIV.7–12, R375–R379), three of them (§§XXXIV.8–10) one for each part of the review's decisive test. *Frame consistency:* three distinct masses need an abelian residual symmetry — among the rotations the oriented triad's $\mathbb Z_3$, with the complement as its lines — and the mass operator itself keeps $SO(2)_{N_+}$; on $S_D\otimes G_{\rm gen}$, by the descent's typing (a definition), the mass operator commutes with every Lorentz transformation, the physical rotations acting on $S_D$ and those of the carrier internal; a coupling of the carrier to the spin is bounded by the electron's preferred-frame limits, $\lambda\leq3.46\times10^{-22}$ eV at one standard deviation for the Galactic normal ($(1.6\pm2.9)\times10^{-22}$ eV from a fit), and so excluded near the flavor scale. *Spectral selection:* no residual symmetry selects; Koide's ratio is fixed by the overlap of the two dual references, and $K = \tfrac23$ is their bases being mutually unbiased — Entry 352's rule on a qubit — a premise equivalent to Koide's relation, a dictionary rather than a derivation. *Mass generation:* a parity-symmetric pair with a heavy flavor-blind partner gives the square from two internal hops, Koide's masses at leading order, its corrections lowering $K$; on the premise that the relation holds for pole masses, the measured $K$ bounds the partner's mass from below. A tagged sentence is added in §XXXIV.3(d) (R377) and Part XXXIV's row on the next pieces is reworded (R379); nothing earlier is corrected and no post-freeze note is added.
+> **How to read this archive (v36.10).** Three tables govern: the table of Parts XXXIII–XXXIV, for the open work; the frozen v35.8 table that follows it, for Parts XXX–XXXII; and the frozen v34.10 table after that, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX; §XXX.9, frozen with Parts XXX–XXXII; and §XXXIII.12) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place. v36.0 freezes Parts XXX–XXXII at v35.8 with `pg_v35_numerics.py`, whose frozen-results record is the v35.8 current manuscript, and opens Part XXXIII, the observed rotation curve, after Part XXXII, with its own register (§XXXIII.12) and suite (§XXXIII.13, `pg_v36_numerics.py`). Its corrections to frozen Parts are post-freeze notes (R313). v36.1 is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§§XXXIII.14–26, R318–R331): it corrects v36.0's operative statements in place, with the superseded wording in §XXXIII.26, and adds no post-freeze note. v36.2 answers Entries 323–324 and the two responses on them (§§XXXIII.27–33, R332–R338): orbital occupancy on the leaf, the exponential as a rendering, the conformal route, the frame-selection hypothesis; it corrects two v36.1 sentences in place (R332) and adds no post-freeze note. v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§§XXXIII.34–43, R339–R348): two source families regular at the equator, their orbital populations and the dwarfs with them, the isothermal fixed points, the null cone, the split model, the $\mathfrak{so}(4)$ sectors; it applies the review's two distinctions in place (R347) and adds no post-freeze note. v36.4 answers the review of v36.3 and Entries 340–341 with the response (§§XXXIII.44–50, R349–R354): the fixed-point erratum and stability in two ensembles, the radial–normal duality and the CMB dipole, the first test of the clash invariant, and Entries 342–345 recorded for v36.5; it corrects §XXXIII.38 and §XXXIII.42 in place (R350) and adds no post-freeze content note — one marked rendering repair in frozen §XXX.11 (R355: a doubled brace in a subscript, which the author's site's templating engine read as a tag; the mathematics unchanged). v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§§XXXIII.51–55, R356–R359): the orbit library's kinematics erratum — the velocity moments integrated along the orbit, the mis-certified witnesses re-evaluated, the joint crossing–dispersion frontier, every library bound rescoped as a compatibility witness — with §§XXXIII.28, 29(b), 32, 36, 37, 42 and two register entries corrected in place (R357); the clash invariant's nullspace and the sum's fall-off, the high-sector bound, §§XXXIII.45, 47, 50 annotated (R358); no post-freeze note. v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§§XXXIII.56–60, R360–R364): one localization model, from the admissibility scalar to the spectrum — one action for the two sectors, a probe in the induced potential and the exterior theorem for its tail — which localizes and derives neither the thin–broad disk nor the sine-exponential; and the note's question in a reduction of the smallest two-path, one-qubit model; nothing earlier is corrected and no post-freeze note is added. v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§§XXXIII.61–66, R365–R369): the penalties of the admissibility geometry compared on the full two-sector configuration — the review's cone at the aligned vacuum confirmed, Entry 349's sine blind to the normal in the responses' reading, the response's and the review's smooth forms zero exactly on the family; v36.6's localization model with each, an exchange-even penalty smooth at the aligned vacuum confining the pinned tilt to a patch, the lowest-order smooth forms with their pinning losing the mode at v36.6's coupling (a smooth form with v36.6's gap binds two), the exterior obstruction holding for every gapped penalty; and the mirror solution stable off its ansatz, the sine's second zero leaving no metastable state; nothing earlier is corrected and no post-freeze note is added. v36.8 answers Entries 351–353 and the three responses by opening Part XXXIV, flavor, after Part XXXIII (§§XXXIV.1–6, R370–R374), as §XXXIII.9 planned, with Part XXXIII's suite: on the reading of the two families as orthonormal bases of one complex carrier, Entry 352's rule for a complement of the Cartesian fibers is mutual unbiasedness, which needs the complex structure and, with the archive's flavor lines, makes the selected axis the fibers' body diagonal, the frame's shift and clock then the archive's clock and conveyor and the Cartesian triad §XXX.13's trigonal frame, as a datum; the archive's mass operator read on the fibers is a ring with a flux, the mean mass on every fiber, the $e$–$\mu$ distinction the part odd under complex conjugation in the real frame, and Koide's relation a light cone on $\sqrt M$; the bare Dirac toy's mass term can be the internal part of a parent operator, whose square gives the invariant difference $p^2-\mathcal M^2$, the interchange holding in a flat parent and broken by any discrete internal spectrum. Part XXXIII's rows on the flavor note and on the next pieces are amended, the rest of flavor leaving its backlog (R374); nothing earlier is corrected and no post-freeze note is added. v36.9 answers the review of v36.8 with six sections of Part XXXIV (§§XXXIV.7–12, R375–R379), three of them (§§XXXIV.8–10) one for each part of the review's decisive test. *Frame consistency:* three distinct masses need an abelian residual symmetry — among the rotations the oriented triad's $\mathbb Z_3$, with the complement as its lines — and the mass operator itself keeps $SO(2)_{N_+}$; on $S_D\otimes G_{\rm gen}$, by the descent's typing (a definition), the mass operator commutes with every Lorentz transformation, the physical rotations acting on $S_D$ and those of the carrier internal; a coupling of the carrier to the spin is bounded by the electron's preferred-frame limits, $\lambda\leq3.46\times10^{-22}$ eV at one standard deviation for the Galactic normal ($(1.6\pm2.9)\times10^{-22}$ eV from a fit), and so excluded near the flavor scale. *Spectral selection:* no residual symmetry selects; Koide's ratio is fixed by the overlap of the two dual references, and $K = \tfrac23$ is their bases being mutually unbiased — Entry 352's rule on a qubit — a premise equivalent to Koide's relation, a dictionary rather than a derivation. *Mass generation:* a parity-symmetric pair with a heavy flavor-blind partner gives the square from two internal hops, Koide's masses at leading order, its corrections lowering $K$; on the premise that the relation holds for pole masses, the measured $K$ bounds the partner's mass from below. A tagged sentence is added in §XXXIV.3(d) (R377) and Part XXXIV's row on the next pieces is reworded (R379); nothing earlier is corrected and no post-freeze note is added. v36.10 answers Entry 354, the response to it and the review of v36.9 with seven sections of Part XXXIV (§§XXXIV.13–19, R380–R385). *The exact angles:* with $\theta = 2/9$ and $\cos\alpha = 1/\sqrt2$ held fixed, any first-order correction fixed by the electron and the muon predicts the $\tau$ through its pattern; the same hop twice gives $m_\tau$ $2.67\sigma$ low, and the dual factors $0.23\sigma$ low, their angle offsets then matching the measured ones (the same $\tau$ test) — on the pole-mass premise and the zero block at the eV level, with the construction chosen after the fact. *The mixing scale:* v36.9's $\mu$ was a two-sigma lower bound, and imposing $\mu = M_Z$ with the exact angles and one hop scale gives the $\tau$ $2.07\sigma$ or $1.27\sigma$ low: not supported, not excluded. *The chiral two-hop seesaw:* with a bare right hop the zero block is a choice of basis, while a charged vev for the right hop, or $SU(2)_R$, protects it up to dimension five; with two hop scales the dual factors' prediction of the $\tau$ becomes an inequality, met. *A moving frame:* its connection changes flavor only for a field on the carrier itself, far below detection at the illustrative rates. Part XXXIV's row on the next pieces is reworded (R385), and the head table's flavor heading now says when the Part was opened; nothing earlier is corrected and no post-freeze note is added.
 
 > **v34.0 governing ontology correction (11 October 2026).** **Matter and its stress-energy content live fundamentally in the five-dimensional middle space** $\mathcal M=E/U(1)_H$, not solely on the representational bisection. The four-dimensional gravity base $B_{\rm grav}=\mathcal M/U_{\rm mer}$ is the quotient where the effective Einstein equation is expressed. The source $T^{(g)}$ must be obtained from the **entire** one-dimensional meridian fiber, including both arcs and possible pole/core contributions, by a covariant, action-compatible fiber reduction with a geometrically justified measure and tensor projection. A sum of contributions at the two points of $B_{\rm rep}$ is **not Law I**: it is only a distributionally leaf-supported special case. Einstein equations on the base impose constraints on the admissible middle-space configurations; equivalently their pullback imposes a horizontal constraint on $\mathcal M$, **not** independent five-dimensional Einstein equations. The full measure, singular-fiber rule, conservation identity and parent variational principle are **open**. Previously frozen text about source localization and two-point sourcing is superseded by this paragraph, the corrected Law I in Part III, and §XXIX.8; historical derivations remain conditional benchmarks where their premises apply. The observation that $\ell/G$ has a numerically suggestive relation to a galactic mass was an exploratory coincidence, **not** a premise that the closure mass is the Galaxy's baryonic mass. The author also prefers a *macroscopic middle-space* origin of $G$ (with the closure ratio as a target) and a separate Boltzmannian-compatibility origin of the effective quantum/Planck-area scale; the induced-gravity calculation remains a benchmark, not the preferred ontological explanation of $G$.
 
@@ -15908,7 +15913,7 @@ With $S = 1+iT$ this is $2\,{\rm Im}\,T^{(2)}_{ii} = \sum_f\lvert T^{(1)}_{fi}\r
 - *the Milky Way, seen from inside with the leaf's own light, fails on every scanned leaf and at the continuous optimum — as a cold-tracer proxy for the published estimator, which is not yet applied (§XXXIII.19) [v36.1, R323];*
 - *the SPARC galaxies, with the arena law, fail too.*
 
-*With the author's zoom labels as two free numbers per galaxy, the gnomonic premise improves the SPARC curves greatly; under the quoted errors one of the eight fits is acceptable, one borderline, and six are not (§XXXIII.17) [v36.1, R319]. The labels the fits need trend with mass, and must now come from a law. §XXXIII.11 locates each failure; §XXXIII.25 is the operative standing after v36.1, §XXXIII.32 its continuation after v36.2 (Entries 323–324: a stationary population on the leaf does not remove the dwarfs' required outer mass, and must be hot where it lacks circular support), §XXXIII.42 after v36.3 (the review and Entries 325–339: sources regular at the equator keep the plateau and admit crossing orbits; the isothermal law selects no cold disk; a transfer with a fixed scale is not a small deformation of a large leaf), §XXXIII.48 after v36.4 (the erratum; at fixed energy a concentrated isothermal state is stable but hot; the proposed clash invariant is blind to the departure it was built from), §XXXIII.54 after v36.5 (the kinematics erratum: library bounds are compatibility witnesses, not certificates; the clash sum detects the tilt but confines nothing), §XXXIII.59 after v36.6 (a minimal localization model from one action localizes but derives neither the thin–broad disk nor the profile; the localized tail's rates and aspect are the probe's kinetic metric's, an input; an observer-side receiver selects within a family of profiles the source fixes, unless the profile is written into it), §XXXIII.65 after v36.7 (an exchange-even penalty smooth at the aligned vacuum confines the pinned tilt to a patch; the lowest-order smooth forms, with their pinning, bind nothing at v36.6's coupling; the sine keeps v36.6's three modes; no gapped penalty of the tilt, with a constant kinetic metric, lets a strictly bound mode follow the image). v36.8 opens Part XXXIV, flavor, after this Part; §XXXIV.5 is its standing, and §XXXIV.11 after v36.9.*
+*With the author's zoom labels as two free numbers per galaxy, the gnomonic premise improves the SPARC curves greatly; under the quoted errors one of the eight fits is acceptable, one borderline, and six are not (§XXXIII.17) [v36.1, R319]. The labels the fits need trend with mass, and must now come from a law. §XXXIII.11 locates each failure; §XXXIII.25 is the operative standing after v36.1, §XXXIII.32 its continuation after v36.2 (Entries 323–324: a stationary population on the leaf does not remove the dwarfs' required outer mass, and must be hot where it lacks circular support), §XXXIII.42 after v36.3 (the review and Entries 325–339: sources regular at the equator keep the plateau and admit crossing orbits; the isothermal law selects no cold disk; a transfer with a fixed scale is not a small deformation of a large leaf), §XXXIII.48 after v36.4 (the erratum; at fixed energy a concentrated isothermal state is stable but hot; the proposed clash invariant is blind to the departure it was built from), §XXXIII.54 after v36.5 (the kinematics erratum: library bounds are compatibility witnesses, not certificates; the clash sum detects the tilt but confines nothing), §XXXIII.59 after v36.6 (a minimal localization model from one action localizes but derives neither the thin–broad disk nor the profile; the localized tail's rates and aspect are the probe's kinetic metric's, an input; an observer-side receiver selects within a family of profiles the source fixes, unless the profile is written into it), §XXXIII.65 after v36.7 (an exchange-even penalty smooth at the aligned vacuum confines the pinned tilt to a patch; the lowest-order smooth forms, with their pinning, bind nothing at v36.6's coupling; the sine keeps v36.6's three modes; no gapped penalty of the tilt, with a constant kinetic metric, lets a strictly bound mode follow the image). v36.8 opens Part XXXIV, flavor, after this Part; §XXXIV.5 is its standing, §XXXIV.11 after v36.9 and §XXXIV.18 after v36.10.*
 
 *v36.1 (16 October 2026) is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§XXXIII.14): the plateau coefficient of an extended source (§XXXIII.15), the label condition corrected (§XXXIII.16), the pilot's statistics and its sources in error units (§XXXIII.17), the gas reconstruction's family (§XXXIII.18), the Milky Way comparison as a cold-tracer proxy with its leaf radius continuous (§XXXIII.19), the plateau's observable reach (§XXXIII.20), the orbit statements' domain (§XXXIII.21), the author's 8 kpc leaf (§XXXIII.22), Entry 322's shape family (§XXXIII.23), the current results (§XXXIII.24), the standing (§XXXIII.25) and the register (§XXXIII.26). The suite of §XXXIII.13 is extended to 18 checks.*
 
@@ -16441,16 +16446,16 @@ This answers the author's question of what the families of labels capture: given
 
   [reproducibility]
 
-## XXXIII.13 Executable appendix: `pg_v36_numerics.py`, embedded [reproducibility; v36.0–v36.9, R317, R331, R338, R348, R353, R359, R364, R369, R374, R379]
+## XXXIII.13 Executable appendix: `pg_v36_numerics.py`, embedded [reproducibility; v36.0–v36.10, R317, R331, R338, R348, R353, R359, R364, R369, R374, R379, R385]
 
-*The standalone suite (NumPy and SciPy only) that prints every computed number of Parts XXXIII–XXXIV. Save the block as `pg_v36_numerics.py` and run `python3 -I pg_v36_numerics.py` (the regression suite of Parts XXXIII–XXXIV, v36.0–v36.9: 46 checks; exit status 1 if any fails, in every mode; about twenty-seven minutes, depending on the machine), one round with `python3 -I pg_v36_numerics.py v36_0`, `v36_1` (with the v36.0 computations it builds on), `v36_2`, `v36_3` (one to three minutes), `v36_4`, `v36_5`, `v36_6` (a few minutes each), `v36_7` (about eight minutes), `v36_8` or `v36_9` (a few seconds each; Part XXXIV), or the checks that run in a few minutes with `quick` (30 checks, for a referee's time limit); an unknown mode prints the usage line and exits with status 2. It embeds its data: the two Milky Way tables, McMillan 2017's parameters, the eight SPARC galaxies' rows, the charged-lepton masses (PDG 2025, with their uncertainties), NuFIT 6.0's $\sin^2\theta_{12}$ and $\sin^2\theta_{13}$ for normal ordering, without and with SK-atm, Heckel et al.'s (2008) bounds on the electron's preferred-frame coefficient and their measured components, the Galactic pole as astropy defines it, and the fine-structure constant. The frozen suites remain `pg_v35_numerics.py` (Parts XXX–XXXII, §XXX.10) and `pg_v34_numerics.py` (Part XXIX, §XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v36`, `v36_0`, `v36_1`, `v36_2`, `v36_3`, `v36_4`, `v36_5`, `v36_6`, `v36_7`, `v36_8`, `v36_9` and `quick` run it and whose `all` runs the frozen v34.10 and v35.8 suites and Parts XXXIII–XXXIV together (233 checks). The figures come from `pg_v36_0_plots.py`, `pg_v36_1_plots.py`, `pg_v36_2_plots.py` and `pg_v36_3_plots.py`, which load this suite. SHA-256 of the file: `cf1df73a4951c3ee9708ab344755e1796a9299def5d08f62bdc132117e20d6f8`.*
+*The standalone suite (NumPy and SciPy only) that prints every computed number of Parts XXXIII–XXXIV. Save the block as `pg_v36_numerics.py` and run `python3 -I pg_v36_numerics.py` (the regression suite of Parts XXXIII–XXXIV, v36.0–v36.10: 50 checks; exit status 1 if any fails, in every mode; about thirty-five minutes on two cores, depending on the machine), one round with `python3 -I pg_v36_numerics.py v36_0`, `v36_1` (with the v36.0 computations it builds on), `v36_2`, `v36_3` (one to three minutes), `v36_4`, `v36_5`, `v36_6` (a few minutes each), `v36_7` (about eight minutes), `v36_8`, `v36_9` or `v36_10` (a few seconds each; Part XXXIV), or the checks that run in a few minutes with `quick` (34 checks, for a referee's time limit); an unknown mode prints the usage line and exits with status 2. It embeds its data: the two Milky Way tables, McMillan 2017's parameters, the eight SPARC galaxies' rows, the charged-lepton masses (PDG 2025, with their uncertainties), NuFIT 6.0's $\sin^2\theta_{12}$ and $\sin^2\theta_{13}$ for normal ordering, without and with SK-atm, Heckel et al.'s (2008) bounds on the electron's preferred-frame coefficient and their measured components, the Galactic pole as astropy defines it, the fine-structure constant, the Higgs, W and Z masses of PDG 2025 and PDG 2026 with PDG 2026's W and Z widths and its electron mass, the effective weak angle, the Fermi constant, $\hbar c$ and the kiloparsec. The frozen suites remain `pg_v35_numerics.py` (Parts XXX–XXXII, §XXX.10) and `pg_v34_numerics.py` (Part XXIX, §XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v36`, `v36_0`, `v36_1`, `v36_2`, `v36_3`, `v36_4`, `v36_5`, `v36_6`, `v36_7`, `v36_8`, `v36_9`, `v36_10` and `quick` run it and whose `all` runs the frozen v34.10 and v35.8 suites and Parts XXXIII–XXXIV together (237 checks). The figures come from `pg_v36_0_plots.py`, `pg_v36_1_plots.py`, `pg_v36_2_plots.py` and `pg_v36_3_plots.py`, which load this suite. SHA-256 of the file: `3997b9de160cd6a3287aef1ac9a1ee692f46f2e651fc5196b6d2e6a188dc6a13`.*
 
 ```python
 """Projective Gravity v36 -- standalone numerical suite for Parts XXXIII-XXXIV: the observed rotation curve and flavor (NumPy + SciPy only;
 Python 3.12/3.13 tested).  Parts XXX-XXXII are frozen at v35.8 with their suite pg_v35_numerics.py; Part XXIX's frozen suite is pg_v34_numerics.py (v34.10).
 
 Run (from the directory holding this file):
-    python3 -I pg_v36_numerics.py              # current regression suite of Parts XXXIII-XXXIV, v36.0-v36.9 (check summary; about twenty-seven minutes)
+    python3 -I pg_v36_numerics.py              # current regression suite of Parts XXXIII-XXXIV, v36.0-v36.10 (check summary; about thirty-five minutes on two cores)
     python3 -I pg_v36_numerics.py v36_0        # the v36.0 sections only
     python3 -I pg_v36_numerics.py v36_1        # the v36.1 sections, with the v36.0 computations they build on
     python3 -I pg_v36_numerics.py v36_2        # the v36.2 sections only (Entries 323-324)
@@ -16461,6 +16466,7 @@ Run (from the directory holding this file):
     python3 -I pg_v36_numerics.py v36_7        # the v36.7 sections only (the v36.6 review and Entry 349: the penalties; the model with each; off the ansatz; about eight minutes)
     python3 -I pg_v36_numerics.py v36_8        # the v36.8 sections only (Part XXXIV, Entries 351-353: the complement; the ring; the Dirac toy; a few seconds)
     python3 -I pg_v36_numerics.py v36_9        # the v36.9 sections only (the v36.8 review: the frame under rotations; spectral selection; mass generation; a few seconds)
+    python3 -I pg_v36_numerics.py v36_10       # the v36.10 sections only (Entry 354 and the v36.9 review: the exact angles; the mixing scale; the chiral seesaw; a moving frame)
     python3 -I pg_v36_numerics.py quick        # the checks that run in a few minutes (for a referee's time limit)
 Every mode exits with status 1 if any check fails.
 
@@ -16619,6 +16625,26 @@ running masses; XXIV.26's dual factors as two different hops, Koide's masses aga
 separately; the premise of a zero psi-psi block (a direct mass of 1e-4 MeV cancels the signature).
 
 v36_9_quick(): v36_8_quick plus the v36.9 sections.
+
+v36_10_suite(): Entry 354, the response to it and the review of v36.9.  The exact angles held fixed, theta = 2/9 and cos alpha = 1/sqrt2: the
+ideal point short in the electron-to-muon ratio (XXX.11); any first-order correction m* d_n^2 (1 - eps f_n) fixed by the electron and the muon
+predicts the tau through R_f = (f_tau - f_mu)/(f_mu - f_e), and the measured tau asks for R = 2.15 +- 5.15; the same hop twice corrects in
+proportion to the masses (R = 15.89, m_tau 2.67 sigma low), the dual factors in proportion to the square roots up to a constant,
+(a_+^2 + a_-^2)/2 = 1/2 + sqrt2 d_n (R = 3.33, m_tau 0.23 sigma low), the response's fits reproduced exactly; the angles' offsets of each
+fitted spectrum, one test with the tau; the premises (the QED e/mu shift 1889 times the correction; the zero block at the eV level, a direct
+mass as a third parameter fitting all three masses); PDG 2026's electron mass.  The mixing scale: v36.9's mu at its bounds (92.5 GeV at two
+standard deviations, 120.5 at one); Part XXIV's mu_H with PDG 2025 and 2026 inputs, both angles and at the poles, against M_Z; mu = M_Z
+imposed with the exact angles (the tau 2.07 and 1.27 sigma low; the electron off by -0.97 and +8.05 eV, restored by a direct mass of that
+size).  The chiral two-hop seesaw: with a bare right hop the zero block a choice of basis (a rotation trades the right hop for the seesaw mass
+in the direct entry); a charged scalar for the right hop protects it; the dimension-five leak bounded by the exact-angle test; two hop
+scales, their spectrum and expansion; with the exact angles the same hop's tau unchanged, the dual factors' an inequality (m_tau below
+1776.9658 MeV, the supremum, m_tau falling along eps_R/eps_L) with the measured tau fixing eps_R/eps_L; mu_L = M_Z and mu_R = M_Z.  A moving
+frame: the connection A = i U^dagger dU in the Dirac action, its sign by central differences; the frame turned about its axis (diagonal,
+removable); a turning axis (A connects the tau with the electron and the muon; with the labels' induced connection no flavor change, on the
+carrier the first-order mixing against exact eigenvectors); the sizes for a turn of one radian per kiloparsec and per meter; the holonomy 0 and
+-/+ Omega (XXI.4c).
+
+v36_10_quick(): v36_9_quick plus the v36.10 sections.
 """
 import numpy as np
 PI = np.pi
@@ -22282,6 +22308,488 @@ def v36_9_suite():
 def v36_9_quick():
     """The checks that run in a few minutes: v36.8's quick set plus the three v36.9 sections (a few seconds)."""
     v36_8_quick(); return v36_9_suite()
+# ==================================================================================================== v36.10 (22 October 2026): sections
+# Entry 354, the response to it and the review of v36.9 (Part XXXIV): the exact angles held fixed, theta = 2/9 and cos alpha = 1/sqrt2, with the
+# second stage's corrections against the measured masses, for both constructions and for any first-order correction; the mixing scale against
+# the Z mass and Part XXIV's Higgs normalization; the chiral two-hop seesaw -- what protects the zero block, two hop scales, and what the exact
+# angles become there; and a moving frame -- the connection in the Dirac action, its flavor-changing amplitudes, and the holonomy.
+
+_V3610_EW = {2025: dict(mH=(125.20, 0.11), mW=(80.3692, 0.0133), mZ=(91.1880, 0.0020)),     # GeV: PDG 2025's summary tables (m_W without CDF's AALTONEN 22)
+             2026: dict(mH=(125.13, 0.11), mW=(80.3625, 0.0077), mZ=(91.1879, 0.0020),      # GeV: PDG 2026's summary tables (m_W without CDF's AALTONEN 22),
+                        GW=(2.14, 0.05), GZ=(2.4955, 0.0023))}                           # with the widths, for the poles
+_V3610_ME26 = (0.51099895069, 1.6e-10)                 # MeV: the electron mass of PDG 2026's summary tables (CODATA 2022), against PDG 2025's in _V368_MASSES
+_V3610_S2EFF = {2025: (0.23148, 0.00013), 2026: (0.23148, 0.00012)}    # the effective weak angle, sin^2 theta_eff (PDG 2025's and 2026's summary tables)
+_V3610_GF = 1.1663787e-5                                # GeV^-2: the Fermi constant (CODATA 2022), for the electroweak vev v = (sqrt2 G_F)^(-1/2)
+_V3610_HBARC = 197.3269804                              # MeV fm (CODATA 2022)
+_V3610_KPC_M = 3.0856775814913673e19                    # m: one kiloparsec (IAU: 1 pc = 648000/pi au, au = 149597870700 m)
+
+def _v36_10_exact():
+    """The exact-angle amplitudes, order (tau, e, mu): d_n = cos(2/9 + 2 pi n/3) + 1/sqrt2 and the dual factors a_+-,n = 1 + cos(2/9 + 2 pi n/3 +- pi/4)."""
+    t = 2/9 + 2*PI*np.arange(3)/3
+    return np.cos(t) + 1/np.sqrt(2), 1 + np.cos(t + PI/4), 1 + np.cos(t - PI/4)
+
+def _v36_10_sv(x, y, Lam):
+    """The small singular value of [[0, x], [y, Lam]] (per flavor mode), x y / sigma_heavy with sigma_heavy^2 = (S + sqrt(S^2 - 4 x^2 y^2))/2, S = x^2 + y^2 + Lam^2:
+    no cancellation."""
+    S = x**2 + y**2 + Lam**2; return x*y/np.sqrt((S + np.sqrt(S**2 - 4*x**2*y**2))/2)
+
+def _v36_10_sv0(m0, x, y, Lam):
+    """The small singular value of [[m0, x], [y, Lam]] per flavor mode, a flavor-blind direct mass m0 in the light block: |m0 Lam - x y|/sigma_heavy,
+    sigma_heavy^2 = (S + sqrt(S^2 - 4 det^2))/2, S = m0^2 + x^2 + y^2 + Lam^2.  For x y > m0 Lam a positive m0 lowers the light mass, by about m0."""
+    det = m0*Lam - x*y; S = m0**2 + x**2 + y**2 + Lam**2; return np.abs(det)/np.sqrt((S + np.sqrt(S**2 - 4*det**2))/2)
+
+def _v36_10_angles(m):
+    """XXX.11's exact inversion of the three-parameter family sqrt(m_n) = sqrt(m*)(cos(theta + 2 pi n/3) + cos alpha), order (tau, e, mu): cos alpha from K,
+    m* from the sum of the roots, theta the phase of the roots' zero-sum part.  Returns theta, alpha, m*."""
+    m = np.asarray(m, float); K = m.sum()/np.sqrt(m).sum()**2; c = np.sqrt(1/(6*(K - 1/3))); ms = (np.sqrt(m).sum()/(3*c))**2
+    x = np.sqrt(m/ms) - c; return float(np.angle(np.sum(x*np.exp(-2j*PI*np.arange(3)/3)))), float(np.arccos(c)), float(ms)
+
+def _v36_10_fsolve(eqs, guess):
+    """scipy's fsolve to its tightest tolerance, without the warning it gives when the last step cannot improve (the residuals are checked)."""
+    import warnings
+    from scipy.optimize import fsolve
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore", RuntimeWarning); return fsolve(eqs, guess, xtol=1e-14)
+
+def _v36_10_fit2(model, guess):
+    """Fit two parameters to m_e and m_mu exactly with model(p) -> masses (tau, e, mu); returns the parameters, the masses and the residual."""
+    me, mmu, _ = _V368_MASSES
+    def eqs(p):
+        m = model(p); return [m[1]/me - 1, m[2]/mmu - 1]
+    p = _v36_10_fsolve(eqs, guess); m = model(p)
+    return p, m, max(abs(m[1]/me - 1), abs(m[2]/mmu - 1))
+
+def v36_10_exact_angles():
+    print("\n== v36.10-1. The exact angles held fixed: theta = 2/9 and cos alpha = 1/sqrt2, with the second stage's corrections against the measured masses (Entry 354; R381) ==")
+    print("   Entry 354: enforce exactly 2/9 for the base angle and 1/sqrt2 for the other term in d_n, and get the offsets of both values from the actual")
+    print("   lepton masses from the second stage's correction terms.  The response computed it for both constructions of XXXIV.10; here its numbers")
+    print("   are reproduced, the test is put in a form that covers any first-order correction, and its premises are stated.")
+    me, mmu, mtau = _V368_MASSES; s_me, s_mmu, s_mtau = _V368_SIG; mm = np.array([mtau, me, mmu])
+    d, ap, am = _v36_10_exact()
+    # (a) the ideal point: both angles exact, one scale (XXX.11)
+    r_id, r_ms = d[1]**2/d[2]**2, me/mmu; s_r = r_ms*np.hypot(s_me/me, s_mmu/mmu); delta = r_ms/r_id - 1
+    mt_id = mmu*d[0]**2/d[2]**2
+    print(f"   (a) The ideal point [V].  With both angles exact and one scale the masses are m* d_n^2: the electron-to-muon ratio is {r_id:.10f} against the")
+    print(f"     measured {r_ms:.10f}, short by delta = {delta:.4e} of itself, {delta*r_ms/s_r:.0f} standard deviations of the measured ratio (XXX.11); through the muon")
+    print(f"     the tau is {mt_id:.4f} MeV ({(mt_id - mtau)/s_mtau:+.2f} sigma).  Whatever corrects the ideal point must supply that delta in the e/mu ratio.")
+    # (b) any first-order correction: dm_n/m_n = -eps f_n
+    Rdat = (1 - mtau/mt_id)/delta; sR = (s_mtau/mt_id)/delta
+    def Rf(f): return float((f[0] - f[2])/(f[2] - f[1]))
+    print("   (b) Any first-order correction [T/V].  Let the corrected masses be m* d_n^2 (1 - eps f_n) for a flavor pattern f.  Fitting the electron and the")
+    print("     muon exactly fixes eps (f_mu - f_e) = delta and gives m_tau = m_mu (d_tau/d_mu)^2 (1 - delta R_f), R_f = (f_tau - f_mu)/(f_mu - f_e): the tau measures")
+    print(f"     the pattern's R, and the measured tau asks for R = {Rdat:.2f} +- {sR:.2f} (one standard deviation; the range {Rdat - 2*sR:.1f} to {Rdat + 2*sR:.1f} at two).")
+    # (c) the two constructions of XXXIV.10, exact, fitted to e and mu
+    f_same, f_dual = d**2, (ap**2 + am**2)/2
+    e_cdual = float(np.max(np.abs(f_dual - (0.5 + np.sqrt(2)*d))))
+    R_same, R_dual = Rf(f_same), Rf(f_dual)
+    R_m, R_sqrt = (mt_id - mmu)/(mmu - mmu*r_id), (np.sqrt(mt_id) - np.sqrt(mmu))/(np.sqrt(mmu) - np.sqrt(mmu*r_id))
+    def same(p):
+        ms, lL = p; Lam = 10**lL; return _v36_10_sv(np.sqrt(ms*Lam)*d, np.sqrt(ms*Lam)*d, Lam)
+    def dual(p):
+        ms, lL = p; Lam = 10**lL; mu = np.sqrt(ms*Lam); return _v36_10_sv(mu*ap, mu*am, Lam)
+    fits = {}
+    for name, model in (("same", same), ("dual", dual)):
+        p, m, res = _v36_10_fit2(model, [627.72, 7.2]); ms, Lam = float(p[0]), float(10**p[1])
+        K = _v36_8_koide(m); th, al, _ = _v36_10_angles(m)
+        fits[name] = dict(ms=ms, Lam=Lam, mu=np.sqrt(ms*Lam), mt=float(m[0]), K=K, th=th, al=al, res=res)
+    mt1 = {k: mt_id*(1 - delta*R) for k, R in (("same", R_same), ("dual", R_dual))}
+    print("   (c) The two constructions [T/V].  The same hop twice (XXXIV.10(a)) corrects by f = d_n^2, proportional to the masses, so its R is the ratio")
+    print(f"     (m_tau - m_mu)/(m_mu - m_e) at the ideal masses, {R_same:.4f}.  The dual factors as the two hops (XXXIV.10(c)) correct by (a_+^2 + a_-^2)/2 = 1/2 + sqrt2 d_n")
+    print(f"     ({_v36_8_r(e_cdual)}), linear in the amplitude, so proportional to the square roots up to a constant, and R = {R_dual:.4f} is the same ratio of the")
+    print("     square roots (both identities; R_f does not change when f is shifted or scaled).  Exactly,")
+    print("     with m* and Lam fitted to the electron and the muon:")
+    for name, lab in (("same", "the same hop twice"), ("dual", "the dual factors"), ):
+        f_ = fits[name]
+        print(f"       {lab:20s} m* = {f_['ms']:.5f} MeV, Lam = {f_['Lam']:.4e} MeV, mu = {f_['mu']/1e3:.2f} GeV; m_tau = {f_['mt']:.4f} MeV ({(f_['mt'] - mtau)/s_mtau:+.2f} sigma;")
+        print(f"       {'':20s} first order {mt1[name]:.4f}); K - 2/3 = {f_['K'] - 2/3:+.3e}")
+    print("     These are the response's numbers; the first-order law gives the same tau within 1e-4 MeV.  The tau separates the two patterns because they")
+    print("     differ in R -- on the zero-block premise of (e) -- and it cannot separate patterns whose R lies within its two-sigma range in (b).")
+    # (d) the offsets of the two angles
+    th_m, al_m, _ = _v36_10_angles(mm); dth = []; dal = []
+    for sgn in (-1, 1):
+        t_, a_, _ = _v36_10_angles([mtau + sgn*s_mtau, me, mmu]); dth.append(t_); dal.append(a_)
+    s_th, s_al = abs(dth[1] - dth[0])/2, abs(dal[1] - dal[0])/2
+    print("   (d) The angles' offsets [V].  Inverted exactly (XXX.11), the measured masses give theta - 2/9 and alpha - pi/4, and each fitted spectrum gives its own:")
+    print(f"       measured            theta - 2/9 = {th_m - 2/9:+.2e} +- {s_th:.1e}, alpha - pi/4 = {al_m - PI/4:+.2e} +- {s_al:.1e} (the tau's error; the two fully anticorrelated)")
+    for name, lab in (("same", "the same hop twice"), ("dual", "the dual factors")):
+        f_ = fits[name]
+        print(f"       {lab:19s} theta - 2/9 = {f_['th'] - 2/9:+.2e}, alpha - pi/4 = {f_['al'] - PI/4:+.2e} ({(f_['th'] - th_m)/s_th:+.2f} and {(f_['al'] - al_m)/s_al:+.2f} sigma from the measured)")
+    print(f"     With e and mu fitted, both offsets are functions of m_tau alone, so (d) restates (c): Lam supplies delta, and the tau is met at")
+    print(f"     {abs(fits['dual']['mt'] - mtau)/s_mtau:.2f} sigma with the dual factors and missed at {abs(fits['same']['mt'] - mtau)/s_mtau:.2f} sigma with the same hop twice -- one test, not two.")
+    # (e) the premises
+    qed = 3*_V369_ALPHA/(2*PI)*np.log(mmu/me); dK_qed = _v36_9_qed_shift(mm); rK = dK_qed/abs(fits['dual']['K'] - 2/3)
+    print("   (e) The premises [S/O].  The angles are taken to hold for pole masses: at one loop the running masses' e/mu ratio differs from the pole one by")
+    print(f"     (3 alpha/2 pi) ln(m_mu/m_e) = {qed:.3e}, {qed/delta:.0f} times delta, so the test is empty for running masses unless the QED running is canceled")
+    print(f"     (v36.9-2(a), (c)).  The response compares Koide's ratio: its one-loop shift, {dK_qed:+.2e}, is {rK:.0f} times the dual fit's |K - 2/3|.")
+    zb = {}
+    for name in ("same", "dual"):
+        def eqs3(p, name=name):
+            ms_, lL, m0 = p[0], p[1], p[2]*1e-6; Lam = 10**lL; mu_ = np.sqrt(ms_*Lam)
+            m = _v36_10_sv0(m0, mu_*d, mu_*d, Lam) if name == "same" else _v36_10_sv0(m0, mu_*ap, mu_*am, Lam)
+            return [m[0]/mtau - 1, m[1]/me - 1, m[2]/mmu - 1]
+        p = _v36_10_fsolve(eqs3, [627.72, 7.8, -3.0]); r_ = eqs3(p)
+        zb[name] = dict(m0=float(p[2])*1e-6, Lam=float(10**p[1]), res=float(max(abs(x) for x in r_)))
+    print(f"     The zero psi-psi block (v36.9-3(d)) is taken, and the tau's test needs it at the eV level: with a flavor-blind direct mass m0 as a third parameter")
+    print(f"     (in the light block, so that a positive m0 lowers each light mass by about m0) both constructions fit all three masses, m0 = {zb['same']['m0']*1e6:+.2f} eV (Lam = {zb['same']['Lam']:.2e} MeV) for the same hop twice and {zb['dual']['m0']*1e6:+.2f} eV")
+    print(f"     (Lam = {zb['dual']['Lam']:.2e} MeV) for the dual factors.  And the construction is chosen after the fact: the response's caution, that selecting")
+    print("     the dual factors because they match the tau better would not be an independent derivation, applies.")
+    # (f) PDG 2026's electron mass (CODATA 2022) in place of PDG 2025's, the archive's input since XXX.3
+    me26, s_me26 = _V3610_ME26; delta26 = (me26/mmu)/r_id - 1; fits26 = {}
+    for name, model in (("same", same), ("dual", dual)):
+        def eqs26(p, model=model):
+            m = model(p); return [m[1]/me26 - 1, m[2]/mmu - 1]
+        p = _v36_10_fsolve(eqs26, [627.72, 7.2]); m = model(p)
+        fits26[name] = dict(Lam=float(10**p[1]), mt=float(m[0]), mu=float(np.sqrt(p[0]*10**p[1])), res=max(abs(m[1]/me26 - 1), abs(m[2]/mmu - 1)))
+    print(f"   (f) The 2026 electron mass [V].  PDG 2026 takes CODATA 2022's m_e = {me26:.11f} MeV, {(me26 - me)*1e10:.1f}e-10 MeV ({(me26 - me)/s_me:.1f} of PDG 2025's standard")
+    print(f"     deviations) above the PDG 2025 value used throughout.  With it delta = {delta26:.4e}, Lam = {fits26['same']['Lam']:.4e} and {fits26['dual']['Lam']:.4e} MeV,")
+    print(f"     mu = {fits26['same']['mu']/1e3:.2f} and {fits26['dual']['mu']/1e3:.2f} GeV, m_tau = {fits26['same']['mt']:.4f} and {fits26['dual']['mt']:.4f} MeV: last digits move, no conclusion does.")
+    ok = (abs(delta/9.8322e-6 - 1) < 1e-4 and abs(delta*r_ms/s_r - 451.5) < 1 and abs(mt_id - 1776.96750) < 1e-4
+          and abs(Rdat - 2.146) < 2e-3 and abs(sR - 5.151) < 2e-3 and e_cdual < 1e-12 and abs(R_same - R_m) < 1e-9 and abs(R_dual - R_sqrt) < 1e-9
+          and abs(R_same - 15.8949) < 1e-4 and abs(R_dual - 3.3328) < 1e-4
+          and abs(fits['same']['ms'] - 627.71849) < 1e-5 and abs(fits['same']['Lam']/1.069420e7 - 1) < 1e-5 and abs(fits['same']['mt'] - 1776.68988) < 1e-4
+          and abs(fits['dual']['ms'] - 627.72464) < 1e-5 and abs(fits['dual']['Lam']/3.446599e7 - 1) < 1e-5 and abs(fits['dual']['mt'] - 1776.90927) < 1e-4
+          and all(f_['res'] < 1e-12 for f_ in fits.values()) and all(abs(mt1[k] - fits[k]['mt']) < 2e-4 for k in fits)
+          and abs(fits['same']['K'] - 2/3 + 1.5760e-5) < 1e-8 and abs(fits['dual']['K'] - 2/3 + 3.3733e-6) < 1e-9
+          and abs(th_m - 2/9 - 2.540e-6) < 1e-8 and abs(al_m - PI/4 + 3.305e-6) < 1e-8
+          and abs(fits['dual']['th'] - 2/9 - 3.981e-6) < 1e-8 and abs(fits['dual']['al'] - PI/4 + 5.060e-6) < 1e-8
+          and abs(fits['same']['th'] - 2/9 - 1.924e-5) < 1e-8 and abs(qed/delta - 1889.4) < 0.5 and abs(dK_qed - 1.1497e-3) < 2e-7 and abs(rK - 340.8) < 0.5
+          and abs(delta26/9.8335e-6 - 1) < 1e-4 and all(f_['res'] < 1e-12 for f_ in fits26.values()) and abs(fits26['same']['mt'] - 1776.6898) < 1e-4
+          and abs(fits26['dual']['mt'] - 1776.9093) < 1e-4 and abs(fits26['same']['Lam']/1.06927e7 - 1) < 1e-4 and abs(fits26['dual']['Lam']/3.44613e7 - 1) < 1e-4
+          and all(z_['res'] < 1e-12 for z_ in zb.values()) and abs(zb['same']['m0']*1e6 + 4.37) < 0.01 and abs(zb['dual']['m0']*1e6 + 1.80) < 0.01
+          and abs(zb['same']['Lam']/7.93e7 - 1) < 0.01 and abs(zb['dual']['Lam']/5.36e7 - 1) < 0.01)
+    check(ok, f"the exact angles: the ideal point short by {delta:.3e} in e/mu ({delta*r_ms/s_r:.0f} sigma); a first-order pattern's R fixes the tau (measured R = "
+          f"{Rdat:.2f} +- {sR:.2f}); the same hop twice R = {R_same:.2f}, m_tau = {fits['same']['mt']:.4f} MeV; the dual factors R = {R_dual:.2f} (corrections linear in "
+          f"the amplitude), m_tau = {fits['dual']['mt']:.4f} MeV; the angles' offsets of the dual fit {fits['dual']['th'] - 2/9:+.2e} and {fits['dual']['al'] - PI/4:+.2e}; "
+          f"the QED e/mu shift {qed/delta:.0f} times delta")
+    print("   [T] The first-order law of (b); the patterns of the two constructions.  [V] The fits, the tau, the angles' offsets.  [S] The angles exact for pole")
+    print("       masses; the zero block at the eV level.  [O] Why the dual factors, and what fixes their normalization.")
+    return dict(delta=delta, mt_id=mt_id, fits=fits, R=(Rdat, sR), fits26=fits26, delta26=delta26, zb=zb, r_id=r_id)
+
+def v36_10_mixing_scale(ex=None):
+    print("\n== v36.10-2. The mixing scale and the Z mass: what v36.9's mu was, Part XXIV's Higgs normalization, and mu = M_Z imposed (Entry 354; R382) ==")
+    print("   Entry 354: mu is already close to the Z mass; link it to the fundamental parameter of the Higgs analysis, mu_H in m_H^2 = mu_H^2 (1 + cos theta_W),")
+    print("   which equals the Z mass.  Here: what v36.9's mu was, the fitted mu with the exact angles, mu_H with current inputs, and mu = M_Z imposed.")
+    from scipy.optimize import brentq
+    me, mmu, mtau = _V368_MASSES; s_me, s_mmu, s_mtau = _V368_SIG
+    d, ap, am = _v36_10_exact()
+    if ex is None: ex = v36_10_exact_angles()
+    # (a) v36.9's mu: v36.9-3(b)'s bound on Lam, recomputed (first order and exactly), and mu^2 = m* Lam
+    w, T, Z, F = _v36_8_frame(); th9, ms9, _ = _v36_8_fit(); Dh = 0.5*(np.exp(1j*th9)*T + np.exp(-1j*th9)*T.conj().T) + np.eye(3)/np.sqrt(2)
+    d9 = np.array([float(np.real(np.vdot(F[:, k], Dh @ F[:, k]))) for k in range(3)]); mK = ms9*d9**2
+    C = float(_v36_9_koide_grad(mK) @ mK**2); K = _v36_8_koide(np.array(_V368_MASSES)); sK = _v36_9_sigma_K()
+    L1st = [C/((2/3 - K) + n*sK) for n in (2, 1)]
+    def gap(lL, n): return (2/3 - _v36_8_koide(_v36_9_light(d9, ms9, 10**lL))) - ((2/3 - K) + n*sK)
+    Lx = [10**brentq(gap, 6, 9, args=(n,), xtol=1e-13) for n in (2, 1)]; mu2, mu1 = [np.sqrt(ms9*L_)/1e3 for L_ in Lx]
+    print(f"   (a) v36.9's mu [V].  v36.9-3(b)'s bounds on Lam, on the pole-mass premise, recomputed: Lam >= {L1st[0]:.4e} MeV at two standard deviations and")
+    print(f"     {L1st[1]:.4e} at one, at first order; {Lx[0]:.4e} and {Lx[1]:.4e} exactly.  With mu^2 = m* Lam these are mu >= {mu2:.1f} GeV and mu >= {mu1:.1f} GeV: the nearness to")
+    print(f"     the Z mass is the two-sigma bound's, not a computed value.  With the exact angles mu is fitted (v36.10-1(c)): {ex['fits']['same']['mu']/1e3:.2f} GeV for the same hop")
+    print(f"     twice, {ex['fits']['dual']['mu']/1e3:.2f} GeV for the dual factors.")
+    # (b) Part XXIV's mu_H: the on-shell angle, the effective angle, and the poles
+    rows = []
+    for ed in (2025, 2026):
+        e_ = _V3610_EW[ed]; (mH, sH), (mW, sW), (mZ, sZ) = e_['mH'], e_['mW'], e_['mZ']; c = mW/mZ; muH = mH/np.sqrt(1 + c)
+        dc = -0.5*mH*(1 + c)**-1.5; s = float(np.sqrt((sH/np.sqrt(1 + c))**2 + (dc*sW/mZ)**2 + (dc*mW*sZ/mZ**2)**2))
+        s2, ss2 = _V3610_S2EFF[ed]; ce = np.sqrt(1 - s2); mue = mH/np.sqrt(1 + ce); se = float(np.hypot(sH/np.sqrt(1 + ce), 0.5*mue/(1 + ce)*ss2/(2*ce)))
+        rows.append(dict(ed=ed, muH=muH, s=s, mZ=mZ, sZ=sZ, r2=(mH/mZ)**2, onec=1 + c, mHp=mZ*np.sqrt(1 + c), mH=mH, sH=sH, z=(muH - mZ)/np.hypot(s, sZ),
+                         mue=mue, ze=(mue - mZ)/np.hypot(se, sZ)))
+    print("   (b) Part XXIV's normalization [V/O].  Part XXIV's relation is m_H^2 = mu_H^2 (1 + cos theta_W) with mu_H = M_Z imposed (XXIV.5: imposed, not")
+    print("     derived); its side ledger (XXIV.0) evaluates it in three schemes, the on-shell angle, cos theta_W = m_W/m_Z, the closest.  With current inputs:")
+    for r_ in rows:
+        print(f"       PDG {r_['ed']}: mu_H = {r_['muH']:.4f} +- {r_['s']:.4f} GeV against M_Z = {r_['mZ']:.4f} +- {r_['sZ']:.4f} ({r_['z']:+.2f} sigma); (m_H/m_Z)^2 = {r_['r2']:.4f} against")
+        print(f"                 1 + cos theta_W = {r_['onec']:.4f}; the relation's m_H = {r_['mHp']:.3f} GeV against {r_['mH']:.2f} +- {r_['sH']:.2f}")
+    print(f"     The scheme matters most: with the effective leptonic angle mu_H = {rows[0]['mue']:.2f} GeV (PDG 2025, {rows[0]['ze']:+.2f} sigma) and {rows[1]['mue']:.2f} GeV (PDG 2026,")
+    print(f"     {rows[1]['ze']:+.2f} sigma), the scheme dependence XXIV.0 and XXIV.5 record (XXIV.5: a tree-level statement between bare or running quantities).")
+    # the poles: PDG's M_Z is a Breit-Wigner resonance parameter and m_W is measured with a Breit-Wigner of mass-dependent width; m = M/sqrt(1 + Gamma^2/M^2)
+    e6 = _V3610_EW[2026]; (mH6, sH6), (mW6, sW6), (mZ6, sZ6), (GW6, sGW6) = e6['mH'], e6['mW'], e6['mZ'], e6['GW']
+    pZ, pW = mZ6/np.sqrt(1 + (e6['GZ'][0]/mZ6)**2), mW6/np.sqrt(1 + (GW6/mW6)**2); cp = pW/pZ; muHp = mH6/np.sqrt(1 + cp)
+    dcp = -0.5*mH6*(1 + cp)**-1.5; sWp = float(np.hypot(sW6, GW6*sGW6/mW6))
+    sp = float(np.sqrt((sH6/np.sqrt(1 + cp))**2 + (dcp*sWp/pZ)**2 + (dcp*pW*sZ6/pZ**2)**2)); zp = (muHp - pZ)/np.hypot(sp, sZ6); mHpp = pZ*np.sqrt(1 + cp)
+    print("     The masses' definition matters less.  PDG's M_Z is a Breit-Wigner resonance parameter, and m_W is measured with a Breit-Wigner of mass-dependent")
+    print(f"     width; at the poles, m = M/sqrt(1 + Gamma^2/M^2) with PDG 2026's widths (the Z {1e3*(mZ6 - pZ):.2f} MeV lower, the W {1e3*(mW6 - pW):.2f} MeV), mu_H = {muHp:.4f} +- {sp:.4f}")
+    print(f"     GeV lies {zp:.2f} sigma above the Z pole, and the relation's m_H is {mHpp:.3f} GeV.  With PDG 2026's inputs and the on-shell angle, mu_H is within one")
+    print("     standard deviation of the Z mass either way.")
+    # (c) mu = M_Z imposed with the exact angles, m* through the muon; and a direct mass that restores the electron
+    res = {}
+    for name in ("same", "dual"):
+        for mZv in (_V3610_EW[2026]['mZ'][0]*1e3, rows[1]['muH']*1e3):
+            def light(ms_, mZv=mZv, name=name):
+                Lam = mZv**2/ms_; mu = mZv
+                return _v36_10_sv(mu*d, mu*d, Lam) if name == "same" else _v36_10_sv(mu*ap, mu*am, Lam)
+            ms_ = brentq(lambda x: light(x)[2] - mmu, 600, 700, xtol=1e-13); m = light(ms_)
+            res[(name, round(mZv))] = dict(ms=ms_, Lam=mZv**2/ms_, de=float(m[1] - me), mt=float(m[0]))
+    kZ, kH = round(_V3610_EW[2026]['mZ'][0]*1e3), round(rows[1]['muH']*1e3); mZv = _V3610_EW[2026]['mZ'][0]*1e3; rz = {}
+    for name in ("same", "dual"):
+        def eqs(p, name=name):
+            ms_, m0 = p[0], p[1]*1e-6; Lam = mZv**2/ms_
+            m = _v36_10_sv0(m0, mZv*d, mZv*d, Lam) if name == "same" else _v36_10_sv0(m0, mZv*ap, mZv*am, Lam)
+            return [m[1]/me - 1, m[2]/mmu - 1]
+        p = _v36_10_fsolve(eqs, [res[(name, kZ)]['ms'], 0.0]); Lam = mZv**2/p[0]
+        m = _v36_10_sv0(p[1]*1e-6, mZv*d, mZv*d, Lam) if name == "same" else _v36_10_sv0(p[1]*1e-6, mZv*ap, mZv*am, Lam)
+        rz[name] = dict(m0=float(p[1])*1e-6, mt=float(m[0]), res=float(max(abs(x) for x in eqs(p))))
+    print("   (c) mu = M_Z imposed [V/S].  With both angles exact and mu = M_Z (PDG 2026), one scale is left; fixed by the muon, it predicts the electron and the tau:")
+    for name, lab in (("same", "the same hop twice"), ("dual", "the dual factors")):
+        r_ = res[(name, kZ)]; rH = res[(name, kH)]
+        print(f"       {lab:19s} Lam = {r_['Lam']/1e6:.3f} TeV; m_e {r_['de']*1e6:+.2f} eV ({r_['de']/s_me:+.0f} sigma); m_tau = {r_['mt']:.4f} MeV ({(r_['mt'] - mtau)/s_mtau:+.2f} sigma)")
+        print(f"       {'':19s} (mu = mu_H of PDG 2026 instead: m_e {rH['de']*1e6:+.2f} eV, m_tau = {rH['mt']:.4f} MeV)")
+    me26, s_me26 = _V3610_ME26; z26 = [(res[(nm, kZ)]['de'] + me - me26)/s_me26 for nm in ("same", "dual")]
+    print(f"     These are the response's numbers.  (Against PDG 2026's electron mass the offsets are {(res[('same', kZ)]['de'] + me - me26)*1e6:+.2f} and {(res[('dual', kZ)]['de'] + me - me26)*1e6:+.2f} eV,")
+    print(f"     {z26[0]:+.0f} and {z26[1]:+.0f} of its standard deviations.)  The electron's offsets are only eV, and the zero block decides them: a flavor-blind direct")
+    print(f"     mass m0 = {rz['same']['m0']*1e6:+.2f} eV (same hop) or {rz['dual']['m0']*1e6:+.2f} eV (dual factors) restores the electron exactly, with the tau essentially unchanged")
+    print(f"     ({rz['same']['mt']:.4f} against {res[('same', kZ)]['mt']:.4f} MeV, {rz['dual']['mt']:.4f} against {res[('dual', kZ)]['mt']:.4f}).  So on the pole-mass premise the electron excludes mu = M_Z only")
+    print("     if the zero block holds at the eV level, and the robust test is the tau: with one hop scale mu = M_Z is not supported, and not excluded.  The")
+    print(f"     offsets are {abs(res[('same', kZ)]['de'])/me:.1e} and {abs(res[('dual', kZ)]['de'])/me:.1e} of the electron's mass, far below the uncomputed radiative effects, so without the")
+    print("     pole-mass premise nothing at this level is tested.  In the vectorlike toy mu is a bare mass with no electroweak meaning; in the chiral version")
+    print("     (v36.10-3) the hop scale splits in two, and only one of them can carry the electroweak vev.")
+    rH_s, rH_d = res[('same', kH)], res[('dual', kH)]
+    ok = (abs(L1st[0]/1.36334e7 - 1) < 1e-4 and abs(Lx[0]/1.36307e7 - 1) < 1e-4 and abs(Lx[1]/2.31404e7 - 1) < 1e-4 and abs(mu2 - 92.4985) < 1e-3 and abs(mu1 - 120.52) < 0.01
+          and abs(rows[0]['muH'] - 91.2785) < 1e-4 and abs(rows[1]['muH'] - 91.2293) < 1e-4 and abs(rows[0]['s'] - 0.0803) < 1e-4 and abs(rows[1]['s'] - 0.0802) < 1e-4
+          and abs(rows[0]['z'] - 1.1275) < 2e-3 and abs(rows[1]['z'] - 0.5155) < 2e-3 and abs(rows[0]['mHp'] - 125.076) < 1e-3 and abs(rows[1]['mHp'] - 125.073) < 1e-3
+          and abs(rows[0]['mue'] - 91.393) < 1e-3 and abs(rows[1]['mue'] - 91.342) < 1e-3 and abs(rows[0]['ze'] - 2.55) < 0.01 and abs(rows[1]['ze'] - 1.92) < 0.01
+          and abs(1e3*(mZ6 - pZ) - 34.1275) < 1e-3 and abs(1e3*(mW6 - pW) - 28.4782) < 1e-3 and abs(muHp - 91.228842) < 1e-5 and abs(zp - 0.9354) < 1e-3 and abs(mHpp - 125.0270) < 1e-3
+          and abs(res[('same', kZ)]['de']*1e6 + 0.968) < 2e-3 and abs(res[('dual', kZ)]['de']*1e6 - 8.048) < 2e-3 and abs(z26[0] + 6055) < 2 and abs(z26[1] - 50298) < 3
+          and abs(res[('same', kZ)]['mt'] - 1776.7434) < 2e-4 and abs(res[('dual', kZ)]['mt'] - 1776.8160) < 2e-4 and abs(res[('same', kZ)]['Lam']/1.32468e7 - 1) < 1e-5
+          and abs(rH_s['de']*1e6 + 0.97) < 0.01 and abs(rH_d['de']*1e6 - 8.04) < 0.01 and abs(rH_s['mt'] - 1776.7436) < 2e-4 and abs(rH_d['mt'] - 1776.8162) < 2e-4
+          and all(r_['res'] < 1e-12 for r_ in rz.values()) and abs(rz['same']['m0']*1e6 + 0.973) < 0.002 and abs(rz['dual']['m0']*1e6 - 8.09) < 0.01
+          and abs(rz['same']['mt'] - res[('same', kZ)]['mt']) < 2e-4 and abs(rz['dual']['mt'] - res[('dual', kZ)]['mt']) < 2e-4)
+    check(ok, f"the mixing scale: v36.9's mu {mu2:.1f} GeV at the two-sigma bound ({mu1:.1f} at one); mu_H {rows[0]['muH']:.4f} (PDG 2025) and {rows[1]['muH']:.4f} GeV (PDG 2026) "
+          f"against M_Z ({zp:.2f} sigma above the Z pole; the effective angle {rows[0]['ze']:+.2f} and {rows[1]['ze']:+.2f} sigma); mu = M_Z with the exact angles: m_e off by "
+          f"{res[('same', kZ)]['de']*1e6:+.2f} and {res[('dual', kZ)]['de']*1e6:+.2f} eV, restored by a direct mass of {rz['same']['m0']*1e6:+.2f} and {rz['dual']['m0']*1e6:+.2f} eV, m_tau "
+          f"{res[('same', kZ)]['mt']:.4f} and {res[('dual', kZ)]['mt']:.4f} MeV")
+    print("   [V] The scales, mu_H, the predictions with mu = M_Z.  [S] The pole-mass premise; the zero block.  [O] A common origin for mu and mu_H; mu_H = M_Z itself.")
+    return dict(muH=rows, mZres=res, rz=rz, pole=dict(pZ=pZ, pW=pW, muH=muHp, z=zp, mH=mHpp))
+
+def v36_10_chiral(ex=None):
+    print("\n== v36.10-3. The chiral two-hop seesaw: what protects the zero block, two hop scales, and the exact angles there (the review of v36.9; R383) ==")
+    print("   The review: write one gauge-consistent chiral version of the two-hop model, with the protection of the zero block a formal requirement; the")
+    print("   dual factors' asymmetry is meaningful only once the two hops have definite chiral and gauge transformation laws.  Here: the symmetry")
+    print("   condition for the zero block, the spectrum with two hop scales, and what the exact angles of v36.10-1 become with them.")
+    from scipy.optimize import brentq
+    me, mmu, mtau = _V368_MASSES; s_me, s_mmu, s_mtau = _V368_SIG; d, ap, am = _v36_10_exact()
+    if ex is None: ex = v36_10_exact_angles()
+    # (a) the zero block.  With a bare right hop e_R and E_R carry the same charges; a rotation between them trades the right hop for a direct mass.
+    x_, y_, L_ = 3.0, 2.0, 40.0                                             # one mode's left and right hops and the partner's mass (any units)
+    Mm = np.array([[0.0, x_], [y_, L_]]); phi = np.arctan2(y_, L_); Rr = np.array([[np.cos(phi), np.sin(phi)], [-np.sin(phi), np.cos(phi)]]); Mr = Mm @ Rr
+    sv_m, sv_r = np.linalg.svd(Mm, compute_uv=False), np.linalg.svd(Mr, compute_uv=False)
+    e_rot = float(np.max(np.abs(sv_r - sv_m)/sv_m)); e_hop = abs(Mr[1, 0])/L_; e_dir = abs(Mr[0, 0]/(-x_*y_/np.hypot(y_, L_)) - 1)
+    # the dimension-five leak: a flavor-blind direct mass m0 in the light block, against the exact-angle test (the e/mu ratio)
+    r_id = d[1]**2/d[2]**2; r_ms = me/mmu; delta = r_ms/r_id - 1
+    m0_cf = -delta*r_id*mmu/(1 - r_id)                                     # below it no exact fit: the ratio overshoots even as Lam -> infinity
+    def ratio_inf(m0): ms_ = (mmu + m0)/d[2]**2; return (ms_*d[1]**2 - m0)/mmu
+    def fit_m0(m0, which, guess):
+        def eqs(p):
+            Lam = 10**p[1]; mu_ = np.sqrt(p[0]*Lam)
+            m = _v36_10_sv0(m0, mu_*d, mu_*d, Lam) if which == "same" else _v36_10_sv0(m0, mu_*ap, mu_*am, Lam)
+            return [m[1]/me - 1, m[2]/mmu - 1]
+        p = _v36_10_fsolve(eqs, guess); Lam = 10**p[1]; mu_ = np.sqrt(p[0]*Lam)
+        m = _v36_10_sv0(m0, mu_*d, mu_*d, Lam) if which == "same" else _v36_10_sv0(m0, mu_*ap, mu_*am, Lam)
+        return float(m[0]), float(max(abs(x) for x in eqs(p))), p
+    mt_in, res_in, _ = fit_m0(0.98*m0_cf, "dual", [627.72, 9.0])
+    g_ = [627.72, np.log10(3.4466e7)]
+    def tau_gap(m0):
+        mt_, r_, p_ = fit_m0(m0, "dual", g_); g_[0], g_[1] = p_[0], p_[1]; return mt_ - (mtau - s_mtau)
+    m0_1s = brentq(tau_gap, 1e-7, 3e-5, xtol=1e-12)
+    v = 1/np.sqrt(np.sqrt(2)*_V3610_GF); M5 = v*1e4/(2*abs(m0_cf)*1e-3)
+    print("   (a) The zero block [T/V/S].  The hops are l_L-bar H E_R (left), E_L-bar e_R (right) and E_L-bar E_R (Lam); the direct mass would be l_L-bar H e_R.")
+    print("     For abelian charges q(l_L-bar H e_R) = q(l_L-bar H E_R) + q(E_L-bar e_R) - q(E_L-bar E_R), so whatever allows the three allows the direct term.")
+    print("     More: with a bare right hop e_R and E_R carry the same charges under any symmetry, and a rotation between them removes the right hop and puts")
+    print(f"     the seesaw mass, -x y/sqrt(y^2 + Lam^2), in the direct entry ({_v36_8_r(e_dir)}), the singular values unchanged ({_v36_8_r(e_rot)} relative; the right")
+    print(f"     hop removed to {_v36_8_r(e_hop)} of Lam).  The zero block is then a choice of basis.  If the right hop is a vev, E_L-bar S e_R, the identity gives")
+    print("     q(l_L-bar H e_R) = -q(S): a charge on S forbids the direct term at the renormalizable level, and it returns at dimension five as l_L-bar H S e_R.")
+    print("     The left-right group does the same with SU(2)_R: with no scalar bidoublet there is no renormalizable l_L-bar l_R (the left-right universal")
+    print("     seesaw, as in Davidson and Wali 1987), the hops being Yukawa terms with the scalar doublets phi_L and phi_R, whose vevs are v_L/sqrt2 and")
+    print("     v_R/sqrt2.  The dimension-five term, (l_L-bar phi_L)(phi_R^dagger l_R)/M, is generated by integrating out E with the seesaw's own flavor")
+    print("     structure; another source with a flavor-blind structure gives a direct mass m0 = v_L v_R/(2M).  A flavor-blind m0 moves the electron-to-muon")
+    print(f"     ratio by about m0/m_e, so the exact-angle test bounds it: below m0 = {m0_cf:.2e} MeV (-delta r m_mu/(1 - r), r the ideal ratio) no exact fit exists,")
+    print(f"     and m0 = +{m0_1s:.1e} MeV brings the dual factors' tau to one standard deviation below the measured value.  With v_L = {v:.2f} GeV (from G_F) and, as an illustration,")
+    print(f"     v_R = 10 TeV, |m0| <= {abs(m0_cf):.1e} MeV (the tighter side, about {abs(m0_cf)*1e6:.0f} eV) needs M >= {M5:.1e} GeV.  This bound does not reach the eV level at")
+    print("     which the tau's test (v36.10-1(e)) needs the zero block: the direct masses that let either construction fit all three masses lie inside it.")
+    # (b) two hop scales: the spectrum
+    muL, muR, Lam = 3.0e5, 1.7e5, 4.0e7
+    Ms = np.block([[np.zeros((3, 3)), muL*np.diag(ap)], [muR*np.diag(am), Lam*np.eye(3)]])
+    F = _v36_8_frame()[3]; U6 = np.kron(np.eye(2), F)
+    sv = np.sort(np.linalg.svd(U6 @ Ms @ U6.conj().T, compute_uv=False))[:3]                       # in the Cartesian frame, the hops circulants
+    cl = np.sort(_v36_10_sv(muL*ap, muR*am, Lam)); e_sv = float(np.max(np.abs(sv - cl)/cl))
+    eL, eR = (muL/Lam)**2, (muR/Lam)**2; ms_ = muL*muR/Lam
+    aa, bb = eL*ap**2, eR*am**2; cl_m = _v36_10_sv(muL*ap, muR*am, Lam)
+    rel1 = np.abs(ms_*ap*am*(1 - (aa + bb)/2)/cl_m - 1); e_lin = float(np.max(rel1))
+    e_2nd = float(np.max(np.abs(rel1 - (3*(aa + bb)**2/8 + aa*bb/2))))                      # the first order's error is the second order
+    print("   (b) Two hop scales [T/V].  With mu_L A_L on the left hop and mu_R A_R on the right, the light masses are the small singular values of")
+    print("     [[0, mu_L A_L], [mu_R A_R, Lam]]: per mode m_n = m* a_L,n a_R,n (1 - (eps_L a_L,n^2 + eps_R a_R,n^2)/2 + ...), m* = mu_L mu_R/Lam, eps = (mu/Lam)^2.  At a")
+    print(f"     test point (mu_L = 300 GeV, mu_R = 170 GeV, Lam = 40 TeV) the 6 x 6 singular values in the Cartesian frame match the closed form (to 1e-8 relative), and the")
+    print(f"     first order holds to {e_lin:.1e} relative, its second order, (3/8)(x + y)^2 + x y/2 with x, y = eps_L a_L^2, eps_R a_R^2 (to {_v36_8_r(e_2nd)}).  The vectorlike toys")
+    print("     are the case eps_L = eps_R = m*/Lam.")
+    # (c) the exact angles with two scales
+    def light2(ms__, lL, lR, aL, aR):
+        e1, e2 = 10**lL, 10**lR; L_ = ms__/np.sqrt(e1*e2); return _v36_10_sv(L_*np.sqrt(e1)*aL, L_*np.sqrt(e2)*aR, L_)
+    sols = []
+    for mt in (mtau, mtau - s_mtau):
+        def eqs(p, mt=mt): m = light2(p[0], p[1], p[2], ap, am); return [m[0]/mt - 1, m[1]/me - 1, m[2]/mmu - 1]
+        p = _v36_10_fsolve(eqs, [627.72, np.log10(1.5e-5), np.log10(1.2e-5)]); m = light2(p[0], p[1], p[2], ap, am)
+        e1, e2 = 10**p[1], 10**p[2]; L_ = p[0]/np.sqrt(e1*e2)
+        sols.append(dict(mt=mt, ms=float(p[0]), eL=float(e1), eR=float(e2), Lam=float(L_), muL=float(L_*np.sqrt(e1)), muR=float(L_*np.sqrt(e2)),
+                         res=max(abs(m[0]/mt - 1), abs(m[1]/me - 1), abs(m[2]/mmu - 1))))
+    def end(p): m = p[0]*d**2/np.sqrt(1 + 10**p[1]*ap**2); return [m[1]/me - 1, m[2]/mmu - 1]
+    pe = _v36_10_fsolve(end, [627.72, -5.0]); mt_end = float((pe[0]*d**2/np.sqrt(1 + 10**pe[1]*ap**2))[0]); muR_lim = float(pe[0]/np.sqrt(10**pe[1]))
+    R_end, R_minus = float((ap[0]**2 - ap[2]**2)/(ap[2]**2 - ap[1]**2)), float((am[0]**2 - am[2]**2)/(am[2]**2 - am[1]**2))
+    r_pole = float((ap[2]**2 - ap[1]**2)/(am[1]**2 - am[2]**2))                               # eps_R/eps_L where f_mu = f_e (A_+ on the left)
+    def mt_at_ratio(r):
+        # m_tau with eps_R = r eps_L and the electron and the muon fitted: the masses are linear in m*, so the e/mu ratio fixes eps_L (the first
+        # crossing of the measured ratio on a grid of log eps_L, then brentq) and the muon fixes m*; None if the ratio never reaches the measured one
+        def rat(lL): m = light2(1.0, lL, lL + np.log10(r), ap, am); return m[1]/m[2] - r_ms
+        grid = np.linspace(-12.0, 1.0, 131); vals = [rat(g_) for g_ in grid]
+        for i in range(len(grid) - 1):
+            if vals[i] < 0 <= vals[i + 1]:
+                lL = brentq(rat, grid[i], grid[i + 1], xtol=1e-15); m = light2(1.0, lL, lL + np.log10(r), ap, am); m = m*mmu/m[2]
+                return float(m[0]), float(max(abs(m[1]/me - 1), abs(m[2]/mmu - 1)))
+        return None, None
+    scan = [(r,) + mt_at_ratio(r) for r in (1e-6, 0.25, 0.5, 0.7746, 1.0, 1.38, 1.8, 2.0, 2.005, 2.012)]
+    mts = [s_[1] for s_ in scan[:-1]]
+    from scipy.optimize import minimize_scalar
+    def rat_max(r):
+        # the largest e/mu ratio reached on log eps_L in [-3, 0] at this eps_R/eps_L, against the measured one: the fits exist while it is positive
+        def rat(lL): m = light2(1.0, lL, lL + np.log10(r), ap, am); return m[1]/m[2] - r_ms
+        return float(-minimize_scalar(lambda x: -rat(x), bounds=(-3.0, 0.0), method='bounded', options=dict(xatol=1e-12)).fun)
+    r_fold = brentq(rat_max, 2.005, 2.012, xtol=1e-12)
+    def rat2(lL): m = light2(1.0, lL, lL + np.log10(2.0), ap, am); return m[1]/m[2] - r_ms
+    lL2 = brentq(rat2, -0.6, -0.2, xtol=1e-15); m2_ = light2(1.0, lL2, lL2 + np.log10(2.0), ap, am); mt_b2 = float((m2_*mmu/m2_[2])[0])
+    same_split = []
+    for split in (0.2, 0.5, 0.9):
+        def eqs2(p, split=split): m = light2(p[0], p[1] + np.log10(2*split), p[1] + np.log10(2*(1 - split)), d, d); return [m[1]/me - 1, m[2]/mmu - 1]
+        p = _v36_10_fsolve(eqs2, [627.72, np.log10(5.9e-5)]); same_split.append(float(light2(p[0], p[1] + np.log10(2*split), p[1] + np.log10(2*(1 - split)), d, d)[0]))
+    spread = max(same_split) - min(same_split)
+    mZ = _V3610_EW[2026]['mZ'][0]*1e3; zz = {}
+    for which in ("L", "R"):
+        def eqs3(p, which=which):
+            L_, mo = 10**p[0], 10**p[1]; uL, uR = (mZ, mo) if which == "L" else (mo, mZ)
+            m = _v36_10_sv(uL*ap, uR*am, L_); return [m[1]/me - 1, m[2]/mmu - 1]
+        p = _v36_10_fsolve(eqs3, [7.1, 5.1]); L_, mo = 10**p[0], 10**p[1]; uL, uR = (mZ, mo) if which == "L" else (mo, mZ)
+        zz[which] = dict(Lam=float(L_), other=float(mo), mt=float(_v36_10_sv(uL*ap, uR*am, L_)[0]))
+    s0 = sols[0]
+    print("   (c) The exact angles with two scales [V].  The correction pattern becomes eps_L a_L^2 + eps_R a_R^2.  With the same hop on both sides only the sum of")
+    print(f"     the eps enters at first order: m_tau = {same_split[0]:.4f}, {same_split[1]:.4f}, {same_split[2]:.4f} MeV for the splits 0.2, 0.5, 0.9 (exactly, a spread of {spread:.1e} MeV)")
+    print(f"     -- the vectorlike prediction, robust.  With A_+ and A_- on the two sides the patterns are positive mixtures of a_+^2 (R = {R_end:.3f}) and a_-^2")
+    print(f"     (R = {R_minus:.3f}).  The e/mu correction needs f_mu > f_e, so with A_+ on the left eps_R/eps_L < {r_pole:.3f}; at first order R runs from {R_end:.3f}")
+    print(f"     (eps_R = 0) without bound as the ratio nears {r_pole:.3f}, and the a_-^2 end is not reached.  Exactly, with the electron and the muon fitted, m_tau falls")
+    print(f"     along the ratio: {', '.join(f'{s_[1]:.4f}' for s_ in scan[:4])}, {', '.join(f'{s_[1]:.4f}' for s_ in scan[4:9])} MeV at")
+    print(f"     {', '.join(f'{s_[0]:g}' for s_ in scan[:9])}.  The exact fits end at {r_fold:.4f}, just below the first-order pole, where this branch meets a second")
+    print(f"     one at larger eps with a much lighter tau ({mt_b2:.0f} MeV at 2); no fit exists at {scan[9][0]:g}.  So the exact angles require m_tau < {mt_end:.4f} MeV")
+    print(f"     ({(mt_end - mtau)/s_mtau:+.2f} sigma), the supremum, approached as eps_R/eps_L -> 0, where Lam and mu_L grow without bound and mu_R tends to")
+    print(f"     m*/sqrt(eps_L) = {muR_lim/1e3:.1f} GeV.  The measured tau fixes the scales: eps_L = {s0['eL']:.3e}, eps_R = {s0['eR']:.3e} (ratio {s0['eR']/s0['eL']:.3f}, A_+ on the left; swapped,")
+    print(f"     its inverse), Lam = {s0['Lam']/1e6:.1f} TeV, mu_L = {s0['muL']/1e3:.1f} GeV, mu_R = {s0['muR']/1e3:.1f} GeV.  At the tau one standard deviation lower the ratio is")
+    print(f"     {sols[1]['eR']/sols[1]['eL']:.2f} and Lam = {sols[1]['Lam']/1e6:.1f} TeV; one higher lies above the bound.  So with two scales the dual factors' tau prediction becomes")
+    print("     an inequality, met, and the equal-scale point of v36.10-1 is one member.  The identification of Entry 354, in chiral form, A_+ on the left:")
+    print(f"     mu_L = M_Z gives m_tau = {zz['L']['mt']:.4f} MeV ({(zz['L']['mt'] - mtau)/s_mtau:+.2f} sigma; Lam = {zz['L']['Lam']/1e6:.2f} TeV, mu_R = {zz['L']['other']/1e3:.2f} GeV), and mu_R = M_Z gives")
+    print(f"     {zz['R']['mt']:.4f} MeV ({(zz['R']['mt'] - mtau)/s_mtau:+.2f} sigma); with the assignment swapped the two exchange -- one choice among several, not a prediction.")
+    adm = s0['eL']*ap**2
+    print(f"   (d) Not derived, and not checked [S/O].  The light leptons' left admixtures of E_L, eps_L a_L,n^2 (the tau's {adm[0]:.1e}), shift their Z couplings at that")
+    print("     order; the hop matrices, the scales, the partner's charges and the pole-mass premise are open, and the precision-electroweak (Z-coupling),")
+    print("     perturbativity, collider and anomaly checks of a complete model are not made here.")
+    ok = (e_rot < 1e-12 and e_hop < 1e-13 and e_dir < 1e-12 and abs(m0_cf + 5.0486e-6) < 2e-10 and ratio_inf(1.02*m0_cf) > r_ms > ratio_inf(0.98*m0_cf)
+          and res_in < 1e-12 and abs(m0_1s - 6.017e-6) < 0.002e-6 and abs(v - 246.2197) < 1e-3 and abs(M5/2.4385e14 - 1) < 1e-3
+          and e_sv < 1e-8 and abs(e_lin/1.82e-8 - 1) < 0.02 and e_2nd < 1e-10 and all(abs(x - 1776.6899) < 1e-3 for x in same_split) and abs(spread - 1.5e-5) < 0.5e-5
+          and abs(R_end - 0.0957) < 1e-3 and abs(R_minus + 3.1784) < 1e-3 and abs(r_pole - 2.0115) < 2e-4 and abs(mt_end - 1776.96583) < 2e-5 and abs(muR_lim/2.074e5 - 1) < 1e-3
+          and all(s_[2] is not None and s_[2] < 1e-12 for s_ in scan[:9]) and scan[9][1] is None and all(mts[i] > mts[i + 1] for i in range(len(mts) - 1))
+          and mts[0] < mt_end and abs(mts[7] - 1767.0170) < 1e-3 and abs(mts[8] - 1759.1274) < 1e-3 and abs(r_fold - 2.009465) < 2e-6 and abs(mt_b2 - 1209.387) < 2e-3
+          and all(s_['res'] < 1e-12 for s_ in sols) and abs(s0['eR']/s0['eL'] - 0.7746) < 2e-3 and abs(s0['Lam']/4.7885e7 - 1) < 1e-3
+          and abs(s0['muL']/1.8480e5 - 1) < 1e-3 and abs(s0['muR']/1.6265e5 - 1) < 1e-3 and abs(sols[1]['eR']/sols[1]['eL'] - 1.383) < 2e-3 and abs(sols[1]['Lam']/1.8214e7 - 1) < 1e-3
+          and abs(zz['L']['mt'] - 1776.8187) < 2e-4 and abs(zz['R']['mt'] - 1776.7271) < 2e-4 and abs(zz['L']['Lam']/1.5942e7 - 1) < 1e-3 and abs(zz['L']['other']/1.09744e5 - 1) < 1e-4
+          and abs(adm[0]/3.5e-5 - 1) < 0.03)
+    check(ok, f"the chiral version: with a bare right hop the zero block a choice of basis (the rotation trading the right hop for the seesaw mass in the direct entry); "
+          f"a charged scalar for the right hop protects it, up to a dimension-five leak bounded by the exact-angle test (|m0| <= {abs(m0_cf):.1e} MeV); the two-scale "
+          f"spectrum against its closed form; the same hop's m_tau robust ({same_split[1]:.4f} MeV); the dual factors with two scales m_tau < {mt_end:.4f} MeV, falling "
+          f"along eps_R/eps_L; the measured tau fixing eps_R/eps_L = {s0['eR']/s0['eL']:.3f} and Lam = {s0['Lam']/1e6:.1f} TeV; mu_L = M_Z: m_tau = {zz['L']['mt']:.4f} MeV")
+    print("   [T] The charge identity; the rotation; the two-scale spectrum.  [V] The fits, the scan and the supremum.  [S] The gauge structure, the hops as")
+    print("       vevs and the pole-mass premise.  [O] The hop matrices from PG, the scales, the charges, the electroweak checks.")
+    return dict(sols=sols, mt_end=mt_end, zz=zz, m0=(m0_cf, m0_1s), scan=scan)
+
+def v36_10_moving_frame():
+    print("\n== v36.10-4. A moving frame: the connection in the Dirac action, its flavor-changing amplitudes, and the holonomy (the review of v36.9; R384) ==")
+    print("   The review: when the selected frame varies over spacetime, the change of basis brings a connection A = i U^dagger dU into the fermion action;")
+    print("   include it and show whether it produces observable flavor-changing amplitudes.  Here the action, the two cases, the amplitudes and their size,")
+    print("   and the holonomy.")
+    w, T, Z, F = _v36_8_frame(); J = _V368_J; Np = np.ones(3)/np.sqrt(3); rot = _v36_8_rot
+    me, mmu, mtau = _V368_MASSES; m = np.array([mtau, me, mmu]); M0 = sum(m[k]*_v36_8_proj(F[:, k]) for k in range(3))
+    def inF(X): return F.conj().T @ X @ F                                     # an operator in the mass basis (the weight lines of N+)
+    NJ = sum(Np[a]*J[a] for a in range(3)); nperp = np.array([1.0, -1.0, 0.0])/np.sqrt(2); Jp = sum(nperp[a]*J[a] for a in range(3))
+    # (a)-(b) the frame turned about the axis: U = exp(-i gamma J_N), A = i U^dagger dU = gamma' J_N, diagonal
+    A_rot = inF(NJ); e_rot_off = float(np.max(np.abs(A_rot - np.diag(np.diag(A_rot))))); wts = np.real(np.diag(A_rot))
+    from scipy.linalg import expm
+    def A_fd(G, s0, h=1e-5):                                                   # A = i U^dagger dU/ds for U(s) = exp(-i s G), by central differences
+        U0 = expm(-1j*s0*G); return 1j*U0.conj().T @ (expm(-1j*(s0 + h)*G) - expm(-1j*(s0 - h)*G))/(2*h)
+    kk0 = 0.2; e_Ag = float(np.max(np.abs(A_fd(NJ, 0.37) - NJ))); e_Az = float(np.max(np.abs(A_fd(kk0*Jp, 1.7) - kk0*Jp)))/kk0
+    print("   (a) The action [T].  Take psi in S_D (x) F with the mass operator M(x) = U(x) M0 U(x)^dagger, U(x) turning the frame.  In the turned basis,")
+    print("     phi = U^dagger psi, the Dirac operator is i gamma^mu (d_mu - i A_mu) - M0 with A_mu = i U^dagger d_mu U, a Hermitian matrix on the lines.  Split it in")
+    print("     the mass basis into A_d, diagonal -- the abelian Berry connection of each line -- and A_o, which connects lines and so changes flavor.")
+    print(f"   (b) The frame turned about its axis [T/V].  With N fixed and gamma(x) varying, U = exp(-i gamma J_N) and A = d gamma J_N: in the mass basis its off-diagonal part is")
+    print(f"     {_v36_8_r(e_rot_off)} (an identity) and its diagonal the weights {abs(wts[0]):.0f}, {wts[1]:+.0f}, {wts[2]:+.0f} times d gamma (A = i U^dagger dU by central differences: +J_N")
+    print("     to 1e-8).  A_o = 0, and A_d is a gradient, removed by rephasing each line: no flavor change and no observable, as XXXIV.8(d) said.")
+    # (c) a turning axis: N(z) rotating about nperp at rate k; A_z = i U^dagger d_z U = +k J_perp in the co-rotating frame, so H' = alpha (p - k J_perp) + beta M0
+    Ap = inF(Jp); Ad = np.diag(np.diag(Ap)); Ao = Ap - Ad; e_Ad = float(np.max(np.abs(Ad)))
+    J_te, J_tm, J_em = abs(Ap[0, 1]), abs(Ap[0, 2]), abs(Ap[1, 2])
+    sx, sz = np.array([[0, 1], [1, 0]], complex), np.diag([1.0 + 0j, -1]); alpha_, beta_ = np.kron(sx, np.eye(3)), np.kron(sz, np.eye(3))
+    M0m = np.diag(m).astype(complex)
+    def u(p, mass):
+        E = np.sqrt(p**2 + mass**2); v_ = np.array([mass + E, p], complex); return v_/np.linalg.norm(v_), E   # positive-energy spinor of sx p + sz m
+    ratios = []
+    for kk in (0.2, 0.1):
+        p = 2.0e4; Hp = alpha_*p - kk*np.kron(sx, Ap) + np.kron(sz, M0m); ev, V = np.linalg.eigh(Hp)
+        u_t, E_t = u(p, mtau); u_m, E_m = u(p, mmu)
+        st_mu = np.kron(u_m, np.array([0, 0, 1.0])); st_tau = np.kron(u_t, np.array([1.0, 0, 0]))
+        i_mu = int(np.argmax(np.abs(V.conj().T @ st_mu)))                      # the exact eigenvector that continues the muon
+        exact = abs(np.vdot(st_tau, V[:, i_mu]))
+        first = abs(kk*Ap[0, 2]*np.vdot(u_t, sx @ u_m))/abs(E_m - E_t)
+        ratios.append(exact/first)
+    hk = _V3610_HBARC*1e-15                                                    # MeV m
+    k_gal, k_lab = hk/(_V3610_KPC_M), hk/1.0
+    def pmax(k, p, Jij, dm2): return (4*k*p*Jij/dm2)**2
+    P_gal, P_lab = pmax(k_gal, 1e4, J_tm, mtau**2 - mmu**2), pmax(k_lab, 1e4, J_tm, mtau**2 - mmu**2)
+    k_6 = 1e-3*(mtau**2 - mmu**2)/(4*1e4*J_tm); l_6 = hk/k_6                   # the rate a probability of 1e-6 at 10 GeV would need, and its length
+    print("   (c) A turning axis [T/V].  Let N(z) turn about the perpendicular (1,-1,0) at a rate k, U(z) = exp(-i k z J_perp).  In the co-rotating basis A_z = k J_perp is")
+    print(f"     constant (by central differences, +k J_perp to 1e-8): its diagonal in the mass basis is {_v36_8_r(e_Ad)} (A_d = 0 on this path), and A_o connects the tau with the electron and with the muon")
+    print(f"     (|J| = {J_te:.4f}, {J_tm:.4f}) but not the electron with the muon ({_v36_8_r(J_em)}).  The archive's typing (XXI.4c) gives the generation labels the induced")
+    print("     connection, the diagonal part only: no flavor change at all.  Putting the field on the carrier instead gives H'(p) = alpha (p - k J_perp) + beta M0,")
+    print("     and a lepton of momentum p mixes with the line one weight away by k |J| <u_j|alpha|u_i>/(E_i - E_j), about 2 p k |J|/|m_i^2 - m_j^2|: the exact")
+    print(f"     eigenvectors at p = 20 GeV give {ratios[0]:.4f} and {ratios[1]:.4f} times that first-order amplitude at k = 0.2 and 0.1 MeV, the gap closing with k.  The")
+    print(f"     transition probability is at most about (4 p k |J|/Delta m^2)^2, the electron-muon one only at second order.")
+    print("   (d) Sizes [V].  XXI.4d has the selected line, the Galactic normal, constant across the disk, so any turning is an assumption.  As an illustration,")
+    print(f"     a turn of one radian per kiloparsec is hbar c k = {k_gal:.2e} MeV, and at p = 10 GeV the tau-muon probability is then at most {P_gal:.0e} (it grows")
+    print(f"     as p^2 k^2).  One radian per meter, hbar c k = {k_lab:.2e} MeV, would give {P_lab:.0e}; a probability of 1e-6 at 10 GeV would need hbar c k = {k_6:.2f} MeV,")
+    print(f"     one radian per {l_6*1e12:.1f} pm.  At the illustrative rates (one radian per kiloparsec or per meter) the two typings are far beyond detection,")
+    print("     and the data cannot tell them apart; an effect at the 1e-6 level would need the frame to turn on picometer scales.")
+    # (e) the holonomy: a loop of the axis on a cone of half-angle 0.6 about N+
+    e1 = nperp; e2 = np.cross(Np, e1); beta = 0.6; nph = 2000; phases = []
+    for wgt in (0, -1, 1):
+        vecs = []
+        for ph in np.linspace(0, 2*PI, nph, endpoint=False):
+            Nv = np.cos(beta)*Np + np.sin(beta)*(np.cos(ph)*e1 + np.sin(ph)*e2); ev_, V_ = np.linalg.eigh(sum(Nv[a]*J[a] for a in range(3)))
+            vecs.append(V_[:, int(np.argmin(np.abs(ev_ - wgt)))])
+        prod_ = 1.0 + 0j
+        for j in range(nph): prod_ *= np.vdot(vecs[j], vecs[(j + 1) % nph])
+        phases.append(float(-np.angle(prod_)))                                 # the holonomy, XXI.4c's sign: -arg of the overlaps' product
+    Om = 2*PI*(1 - np.cos(beta))
+    e_hol = max(abs(np.angle(np.exp(1j*(phases[i] - (-wgt)*Om)))) for i, wgt in enumerate((0, -1, 1)))
+    print(f"   (e) The holonomy [V].  Around a loop of the axis on a cone of half-angle 0.6 (solid angle {Om:.4f}) the Pancharatnam phases of the tau, electron and muon")
+    print(f"     lines are {_v36_9_z(phases[0], 1e-9):+.4f}, {phases[1]:+.4f}, {phases[2]:+.4f} (against 0, +Omega and -Omega: {e_hol:.1e}, the discretization) -- XXI.4c's, in both typings.  They are diagonal:")
+    print("     a single mass eigenstate carries its own phase, observable only between paths that enclose different axis histories or in a generation-")
+    print("     coherent state, the neutrinos.  Which of the electron and the muon carries +Omega is an orientation convention; the size of the difference, 2 Omega, is not.")
+    ok = (e_rot_off < 1e-12 and [round(x) for x in wts] == [0, -1, 1] and e_Ad < 1e-12 and abs(J_te - 1/np.sqrt(2)) < 1e-12 and abs(J_tm - 1/np.sqrt(2)) < 1e-12
+          and J_em < 1e-12 and abs(ratios[1] - 1) < 2e-3 and abs(ratios[0] - 1) < 4e-3 and abs(ratios[1] - 1) < abs(ratios[0] - 1)
+          and abs(P_gal/3.305e-69 - 1) < 0.01 and abs(P_lab/3.147e-30 - 1) < 0.01 and abs(k_6 - 0.1112) < 1e-3 and abs(l_6/1.774e-12 - 1) < 0.01
+          and e_hol < 1e-4 and abs(Om - 1.097449) < 1e-6 and e_Ag < 1e-8 and e_Az < 1e-8)
+    check(ok, f"the moving frame: the frame turned about its axis gives a diagonal connection (removable); a turning axis connects the tau with e and mu (|J| = 1/sqrt2), "
+          f"not e with mu; with the induced connection no flavor change, on the carrier the first-order mixing confirmed ({ratios[1]:.4f}); probabilities {P_gal:.0e} "
+          f"(one radian per kiloparsec) and {P_lab:.0e} (per meter) at 10 GeV; the holonomy 0 and -/+ Omega")
+    print("   [T] The connection and its split; the co-rotating Hamiltonian.  [V] The amplitudes, the holonomy.  [V/S] The sizes, at assumed rates.  [D] The")
+    print("       typing of the labels' connection (induced, XXI.4c).  [O] What varies the axis, if anything.")
+    return dict(ratios=ratios, P=(P_gal, P_lab), phases=phases)
+
+def v36_10_suite():
+    ex = v36_10_exact_angles(); ms = v36_10_mixing_scale(ex); ch = v36_10_chiral(ex); mf = v36_10_moving_frame()
+    return dict(exact=ex, scale=ms, chiral=ch, frame=mf)
+
+def v36_10_quick():
+    """The checks that run in a few minutes: v36.9's quick set plus the four v36.10 sections (a few seconds)."""
+    v36_9_quick(); return v36_10_suite()
 # ---------------------------------------------------------------------------------------------- the suites
 def v36_1_suite(prev=None):
     """The v36.1 sections.  prev: the dicts returned by v36_0_milky_way, v36_0_sparc_pilot and v36_0_zoom_labels (recomputed if None)."""
@@ -22311,8 +22819,8 @@ def v36_0_suite():
     return dict(mw=mw, pilot=p, zoom=z)
 
 def current_suite_v36():
-    """The current regression suite of Parts XXXIII-XXXIV (v36.0-v36.9), followed by the check summary."""
-    prev = v36_0_suite(); v36_1_suite(prev); v36_2_suite(); v36_3_suite(); v36_4_suite(); v36_5_suite(); v36_6_suite(); v36_7_suite(); v36_8_suite(); v36_9_suite()
+    """The current regression suite of Parts XXXIII-XXXIV (v36.0-v36.10), followed by the check summary."""
+    prev = v36_0_suite(); v36_1_suite(prev); v36_2_suite(); v36_3_suite(); v36_4_suite(); v36_5_suite(); v36_6_suite(); v36_7_suite(); v36_8_suite(); v36_9_suite(); v36_10_suite()
     npass = sum(1 for ok, _ in _CHECKS if ok); nfail = len(_CHECKS)-npass
     print(f"\n== check summary (Parts XXXIII-XXXIV): {npass} passed, {nfail} failed ==")
     for ok, msg in _CHECKS:
@@ -22323,7 +22831,7 @@ def current_suite_v36():
 if __name__ == "__main__":
     import sys
     arg = sys.argv[1] if len(sys.argv) > 1 else "current"
-    suites = {"current": current_suite_v36, "v36_0": v36_0_suite, "v36_1": v36_1_suite, "v36_2": v36_2_suite, "v36_3": v36_3_suite, "v36_4": v36_4_suite, "v36_5": v36_5_suite, "v36_6": v36_6_suite, "v36_7": v36_7_suite, "v36_8": v36_8_suite, "v36_9": v36_9_suite, "quick": v36_9_quick}
+    suites = {"current": current_suite_v36, "v36_0": v36_0_suite, "v36_1": v36_1_suite, "v36_2": v36_2_suite, "v36_3": v36_3_suite, "v36_4": v36_4_suite, "v36_5": v36_5_suite, "v36_6": v36_6_suite, "v36_7": v36_7_suite, "v36_8": v36_8_suite, "v36_9": v36_9_suite, "v36_10": v36_10_suite, "quick": v36_10_quick}
     if arg not in suites:
         print("usage: python3 -I pg_v36_numerics.py [" + " | ".join(suites) + "]"); sys.exit(2)
     suites[arg]()
@@ -30941,6 +31449,8 @@ $W$ has a single maximum, $0.306$ at $R_w = 1$, and no interior minimum, falling
 
 *v36.9 answers the review of v36.8 (§XXXIV.7) with the three sections its decisive test asks for: frame consistency (§XXXIV.8), spectral selection (§XXXIV.9) and mass generation (§XXXIV.10). §XXXIV.11 is the Part's standing after v36.9 and §XXXIV.12 its register.*
 
+*v36.10 answers Entry 354, the response to it and the review of v36.9 (§XXXIV.13): the exact angles (§XXXIV.14), the mixing scale and the Z mass (§XXXIV.15), the chiral two-hop seesaw (§XXXIV.16) and a moving frame (§XXXIV.17). §XXXIV.18 is the Part's standing after v36.10 and §XXXIV.19 its register.*
+
 ## XXXIV.1 Entries 351–353 and the three responses, as formulated (21 October 2026) [record; R370]
 
 **The author's first message (21 October), with Entry 351 attached.** In the author's words, as the session recorded them (the message itself is not among the uploads; Entry 351 is quoted from its upload):
@@ -32852,6 +33362,8 @@ The partner, its flavor-blind mass and the hop between the two come from no PG s
 
 ## XXXIV.11 Standing of Part XXXIV after v36.9, and the next pieces [S/O; R379]
 
+*[v36.10, R385: §XXXIV.18 is Part XXXIV's standing after v36.10. Its next pieces keep the first below; state the second as the review's outstanding selection theorem; merge the third and fourth into one chiral model — the hops as vevs, the hop matrices from PG (why the dual factors are the two hops), the partner's mass, the zero block protected, the ratio of the hop scales (§XXXIV.16), the pole-mass question, then $H_\nu$; and keep the stitching target.]*
+
 *Established [T/V].*
 - *Frame consistency* (§XXXIV.8):
   - read literally, the carrier gives a degenerate or species-mixing mass operator;
@@ -32922,9 +33434,884 @@ The test thus locates the open step: spectral restriction, where the rule's prem
 
   The toy `v32_toy_three_ends.py` gains `v36_9`, its `all` counting $233$. No new figure. The SHA-256 of the suite is in §XXXIII.13. [S/O; reproducibility]
 
-## Round record: the version summaries, v16 to v36.9 (moved from the head of the archive in v34.9, R190)
+## XXXIV.13 Entry 354, the response to it, and the review of v36.9, as formulated (22 October 2026) [record; R380]
 
-*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v36.9, v36.8, v36.7, v36.6, v36.5, v36.4, v36.3, v36.2, v36.1, v36.0, v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+**Entry 354 (22 October, 10:45 AM), the author's message, with two attachments.** In the author's words:
+
+> Entry 354, 10:45 AM, Oct 22, 2026
+> Wow, getting the squared dependence as the first term of a series seems like a gorgeous result, good work Claude lol! Love it! (And also by the way since the calculated value of mu here is already eerily close to the mass of the Z boson, my instinct is that we should look into linking THAT to the “fundamental parameter thing (exactly the same one used in the Higgs analysis already via the (1+cos(weinberg angle)) thing) which happens to equal the Z boson mass” and then investigate using this to infer its deeper/unifying properties using inductive reasoning). Great work—and I love that this analysis gets us a whole bunch of correction terms to the mass for free—I was worried a few days ago I would have to hunt for the correction terms by looking empirically, but now it seems like we’re getting them theoretically already lol! One thing I would definitely want to check on for this is using my idea of enforcing, for the d_n term thing itself, EXACT use of 2/9 for the base angle AND 1/sqrt(2) for the other term thing, and then get the offset of both of these values from the actual lepton masses through use of the on-the-mass-correction terms themselves! Anyways altogether this is a super super exciting move, I’m just fascinated from a philosophy of science standpoint how I literally didn’t see it coming and never could have guessed it, and yet somehow forced it about anyway (through the routine, inductive reasoning inability of Claude) by stating the (potentially) right ontology thoroughly enough! Anyways, thanks!
+
+**The response to Entry 354, as the author sent it (attached, untitled).**
+
+> Entry 354 suggests a particularly useful test: can the heavy-partner corrections explain the small deviations of the measured charged-lepton masses from your exact geometric values
+>
+> \\[ \boxed{\theta=\frac29\ \text{radians}, \qquad \cos\alpha=\frac1{\sqrt2}?} \\]
+>
+> I ran that calculation using the exact v36.9 seesaw formula, rather than truncating it at the first correction.
+>
+> The outcome is intriguing but mixed: the correction moves the mass ratios in the right direction, but the simplest one-heavy-scale model does not reproduce all three measured central values simultaneously.
+>
+> That is already a worthwhile result. It tests your desired exact angles without relaxing them to improve the fit.
+>
+> ## 1. Testing the exact angles
+>
+> With your angles fixed, define
+>
+> \\[ d_n=\cos\left(\frac29+\frac{2\pi n}{3}\right)+\frac1{\sqrt2}. \\]
+>
+> The three eigenvalues correspond to the tau, electron and muon:
+>
+> \\[ (d\_\tau,d_e,d\_\mu) \approx(1.682517,\ 0.0285317,\ 0.410272). \\]
+>
+> The exact two-stage light masses are
+>
+> \\[ \boxed{ m_n= \frac{\sqrt{\Lambda^2+4m\_\*\Lambda d_n^2}-\Lambda}{2}. } \\]
+>
+> Here \\(m\_\*\\) fixes the overall scale and \\(\Lambda\\) controls the corrections.
+>
+> The crucial property is
+>
+> \\[ m_n=m\_\*d_n^2-\frac{m\_\*^2d_n^4}{\Lambda}+\cdots. \\]
+>
+> The heavier leptons receive larger relative negative corrections. Hence the electron-to-muon and muon-to-tau mass ratios increase as \\(\Lambda\\) becomes finite.
+>
+> That is exactly the direction required by the measured central ratios relative to the uncorrected exact-angle values.
+>
+> ## 2. The two versions of the heavy-partner mechanism give noticeably different answers
+>
+> This is where the calculation gets especially interesting.
+>
+> Your manuscript already contains two heavy-partner constructions: the same internal hopping operator on both legs (§XXXIV.10a), and two distinct dual-reference operators \\(A\_+\\) and \\(A\_-\\) (§XXXIV.10c).
+>
+> I tested both, fixing the angles exactly and using only the measured electron and muon masses to determine \\(m\_\*\\) and \\(\Lambda\\). The tau mass is then a prediction.
+>
+> | Quantity                                   | Same operator on both hops | Distinct dual-reference hops |
+> | ------------------------------------------ | -------------------------- | ---------------------------- |
+> | \\(m\_\*\\)                                | 627.71849 MeV              | 627.72464 MeV                |
+> | Heavy mass \\(\Lambda\\)                   | 10.694 TeV                 | 34.466 TeV                   |
+> | Mixing scale \\(\mu=\sqrt{m\_\*\Lambda}\\) | 81.93 GeV                  | 147.09 GeV                   |
+> | Predicted tau mass                         | 1776.6899 MeV              | 1776.9093 MeV                |
+> | Difference from measured tau               | −0.2401 MeV                | −0.0207 MeV                  |
+> | Tau discrepancy                            | 2.67σ                      | 0.23σ                        |
+>
+> Direct calculations from the two v36.9 mass matrices, using the manuscript's charged-lepton inputs. Both exact angular values are held fixed throughout; no extra flavor-dependent corrections are introduced.
+>
+> Tau-mass comparison
+>
+> Predicted tau masses versus PDG measured central mass in MeV
+>
+> 1.8K MeV1.8K MeV1.8K MeV1.8K MeV1.8K MeVSame hopDual hopsMeasured
+>
+> The dual-reference version is consistent with the measured tau mass, given its quoted ±0.09 MeV uncertainty. The comparison is conditional on the selected model and on neglecting radiative and additional mass corrections.
+>
+> That second result is worth investigating further.
+>
+> The two-hop version that distinguishes your dual references—rather than using an identical operator twice—gets much closer to all three measured charged-lepton masses while keeping both ideal angles exact.
+>
+> And it does so because the correction depends on how the two hops are factored, not merely on their product.
+>
+> For the same-hop model,
+>
+> \\[ m_n =m\_\*d_n^2 \left[1-\frac{m\_\*d_n^2}{\Lambda}+\cdots\right]. \\]
+>
+> For the distinct-hop model,
+>
+> \\[ \boxed{ m_n =m\_\*a\_{+,n}a\_{-,n} \left[ 1-\frac{m\_\*(a\_{+,n}^2+a\_{-,n}^2)} {2\Lambda} +\cdots \right], } \\]
+>
+> where
+>
+> \\[ a\_{\pm,n} = 1+\cos\left(\frac29+\frac{2\pi n}{3}\pm\frac\pi4\right). \\]
+>
+> Both have the same leading masses,
+>
+> \\[ a\_{+,n}a\_{-,n}=d_n^2, \\]
+>
+> but different corrections.
+>
+> This makes the internal factorization potentially measurable. Two operators with the same low-energy leading mass matrix do not necessarily give the same finite-heavy-scale spectrum.
+>
+> There is an important methodological qualification: the dual-hop model was already an available option, but selecting it because it matches the tau mass better would not be an independent derivation. The next question is whether PG's geometry actually requires two different reference hops.
+>
+> Still, that's now a very concrete question, with a genuinely discriminating result.
+>
+> ## 3. What about identifying the mixing scale with the \\(Z\\)-boson mass?
+>
+> This is a worthwhile unification hypothesis to test, because the manuscript already has the Higgs-sector relation
+>
+> \\[ \boxed{ m_H^2=\mu_H^2(1+\cos\theta_W). } \\]
+>
+> That is the relation from Part XXIV. The identification \\(\mu_H=M_Z\\) was already proposed there, but remains an upstream assumption rather than a derived law.
+>
+> Using the manuscript's Higgs and weak-angle inputs gives approximately
+>
+> \\[ \mu_H\approx91.28\ \text{GeV}. \\]
+>
+> For comparison, the 2026 Particle Data Group lists
+>
+> \\[ M_Z=91.1879\pm0.0020\ \text{GeV}. \\]
+>
+> The closeness is real, but not an experimentally established equality.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://pdgprod.lbl.gov\&sz=32)
+>
+> Particle Data Group
+>
+> +1
+>
+>
+>
+> The new hypothesis would be
+>
+> \\[ \boxed{\mu\_{\rm mix}=\mu_H=M_Z.} \\]
+>
+> Notice that this equates two different parameters in two different actions. The equality would require a common underlying coupling or selection law.
+>
+> And here's what happens if we impose it.
+>
+> ### The direct numerical test
+>
+> I set \\(\mu\_{\rm mix}=91.1879\\) GeV, retained your exact angles, and fixed the remaining overall mass parameter with the muon.
+>
+> | Result                                 | Same-hop model | Dual-hop model |
+> | -------------------------------------- | -------------- | -------------- |
+> | Heavy scale \\(\Lambda\\)              | 13.247 TeV     | 13.246 TeV     |
+> | Predicted electron mass minus measured | −0.97 eV       | +8.05 eV       |
+> | Predicted tau mass                     | 1776.743 MeV   | 1776.816 MeV   |
+> | Tau difference                         | −0.187 MeV     | −0.114 MeV     |
+>
+> The measured tau mass is \\(1776.93\pm0.09\\) MeV.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://pdgprod.lbl.gov\&sz=32)
+>
+> Particle Data Group
+>
+>
+>
+> So this particularly simple joint identification does not give a satisfactory exact-angle fit to the three charged-lepton pole masses. The electron discrepancies are especially significant given how precisely its mass is known.
+>
+> Compare that with the dual-hop result from §2: allowing the mixing scale to be determined by the electron–muon spectrum produces \\(\mu\_{\rm mix}\approx147\\) GeV and a tau prediction within 0.23σ.
+>
+> The present data favor different mixing scales depending on which extra structural condition we impose.
+>
+> That gives you a meaningful fork:
+>
+> - Derive a universal Higgs–flavor normalization near \\(M_Z\\), and investigate what additional physics it predicts.
+> - Derive the distinct dual-reference hopping structure and accept its independently determined mixing scale, asking whether PG relates that scale to electroweak physics in a less direct way.
+>
+> I wouldn't adjust another coefficient to force both conditions to hold simultaneously. That would risk losing the very explanatory discipline you're seeking.
+>
+> ## 4. The correction series is valuable, but the radiative calculation is essential
+>
+> I agree with your excitement about obtaining a correction series from one operator rather than inventing independent corrections for each lepton.
+>
+> Once the heavy mass matrix is specified, the higher-order terms are fixed.
+>
+> But they are fixed conditionally on that matrix. The same-hop and dual-hop examples already show that different ultraviolet constructions with identical leading masses generate different corrections.
+>
+> There is also the radiative-correction problem identified in v36.9: ordinary flavor-dependent QED running changes Koide's ratio by roughly \\(10^{-3}\\), whereas the successful dual-hop fit's finite-heavy-scale shift is only about
+>
+> \\[ K-\frac23\approx-3.37\times10^{-6}. \\]
+>
+> So radiative effects are potentially hundreds of times larger than the correction you're trying to interpret.
+>
+> Until PG specifies whether the exact geometric angles govern running masses or pole masses—and calculates how the two are related—we cannot identify the fitted seesaw corrections as the actual physical source of the observed offsets.
+>
+> This is an important distinction between deriving a mathematically definite series and deriving the complete physical mass corrections.
+>
+> ## 5. What I'd carry forward from Entry 354
+>
+> I would preserve your proposed exact conditions:
+>
+> \\[ \boxed{ \theta_0=\frac29,\qquad \alpha_0=\frac\pi4. } \\]
+>
+> Then, instead of adjusting them, ask whether PG selects the distinct-reference two-hop model independently.
+>
+> That's now the most interesting candidate numerically, because it gives
+>
+> \\[ \boxed{ m\_\tau^{\rm predicted}=1776.9093\ \text{MeV} } \\]
+>
+> after using the electron and muon masses to determine the two remaining scales.
+>
+> Its agreement with the measured tau mass is promising within the model, although the framework is already informed by the charged-lepton data and this is not yet an untouched prediction.
+>
+> The next decisive step is to derive the two hopping factors and their normalization from one gauge-consistent action, protect the vanishing direct mass term, and calculate the radiative corrections. If the same action independently selects the Higgs-sector scale, it can then determine whether a genuine \\(Z\\)-mass connection exists.
+>
+> My overall reaction to Entry 354 is that it points toward exactly the right kind of test: hold the proposed geometric inputs fixed and let the derived corrections stand or fall against observation.
+>
+> And the unexpected bonus is that doing so distinguishes two already-present mechanisms. The identical-hop construction misses the tau mass by about 2.7σ, while the distinct dual-reference construction lands within about 0.23σ.
+>
+> That is not yet evidence that PG has derived the lepton masses. But it is a concrete, potentially falsifiable difference between two mathematical realizations of your ontology.
+>
+> I think the next breakthrough would be showing why nature must choose one of those realizations before consulting the lepton spectrum. That would elevate the correction series from a successful phenomenological mechanism to an actual consequence of the geometry.
+
+**The review of v36.9, as the author sent it (attached, titled "Projective Gravity v36.9 — Technical Review").**
+
+> # Projective Gravity v36.9 — Technical Review
+>
+> I think v36.9 is a meaningful advance over v36.8, particularly because it answers three very specific objections rather than simply adding more geometric interpretations.
+>
+> The new flavor work establishes that:
+>
+> 1. The generation labels can be made Lorentz-invariant by treating the selected spin-one carrier as an internal multiplicity space, not as something that rotates with the particle's physical spin.
+> 2. Your desired Koide relation has an exact interpretation in terms of mutually unbiased qubit reference bases.
+> 3. A two-stage, heavy-partner construction can turn a first-order internal hopping operator into a mass proportional to its square.
+>
+> The third point is particularly important. It addresses the gap we identified in v36.8 between internal eigenvalues proportional to mass amplitudes and the physical charged-lepton masses.
+>
+> But the distinction remains: v36.9 demonstrates a possible mass-generating mechanism, not yet a derivation of that mechanism from Projective Gravity's canonical geometry.
+>
+> ## What I verified
+>
+> I extracted the manuscript's embedded `pg_v36_numerics.py` code and checked its full SHA-256 checksum. It matches the stated value:
+>
+> `cf1df73a4951c3ee9708ab344755e1796a9299def5d08f62bdc132117e20d6f8`
+>
+> I then executed the v36.9-specific regression suite.
+>
+> v36.9 numerical checks
+>
+> &#x20;3 of 3 passed
+>
+> Frame symmetry, generation lines and preferred-direction benchmark
+>
+> Spectral complementarity and Koide overlap identities
+>
+> Heavy-partner spectrum, two-hop reduction and mass-ratio corrections
+>
+> The program exited successfully with 3 passed, 0 failed. I did not rerun the entire inherited 46-check suite. Reproducing the implementation is not independent evidence for the physical premises.
+>
+> ## The changes at a glance
+>
+> | Section   | Main achievement                                                                               | Remaining limitation                                                  |
+> | --------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+> | §XXXIV.8  | Resolves the immediate Lorentz-representation conflict within a defined internal-carrier model | The physical descent remains postulated                               |
+> | §XXXIV.9  | Shows that Koide's condition is equivalent to unbiased dual references on the positive branch  | Why nature selects those references is unknown                        |
+> | §XXXIV.10 | Generates squared mass amplitudes through two hops and a heavy partner                         | Partner, coupling structure and zero direct-mass term are not derived |
+> | §XXXIV.11 | Explicitly separates proved results from selected physical mechanisms                          | Predictive flavor theory remains unfinished                           |
+>
+> I would retain all three new sections, with the qualifications below.
+>
+> ## 1. Frame consistency: an important distinction has been resolved
+>
+> Section XXXIV.8 starts by taking the most literal reading of the original proposal.
+>
+> Suppose the three-dimensional flavor carrier actually transformed under the same physical rotations as the electron's spin.
+>
+> Then a mass operator invariant under all of \\(SO(3)\\) would have to satisfy
+>
+> \\[ U(R)MU(R)^{-1}=M \\]
+>
+> for every rotation.
+>
+> Because the spin-one representation is irreducible over \\(\mathbb C\\), Schur's lemma gives
+>
+> \\[ \boxed{M\propto I.} \\]
+>
+> That eliminates three distinct masses.
+>
+> Alternatively, retaining a nondegenerate mass operator while physically rotating that carrier would mix the charged-lepton mass eigenstates.
+>
+> The manuscript calculates the spin-one rotation matrix explicitly. For a \\(90^\circ\\) rotation perpendicular to the preferred axis, the squared transition amplitudes include
+>
+> \\[ \boxed{\frac14,\qquad\frac12.} \\]
+>
+> Those are not acceptable as physical electron-to-muon or electron-to-tau transformations caused merely by rotating an experiment.
+>
+> ### The solution adopted in v36.9
+>
+> Instead, the manuscript makes the generation carrier an internal multiplicity space:
+>
+> \\[ \boxed{ \mathcal H\_{\rm fermion}=S_D\otimes G\_{\rm gen}. } \\]
+>
+> Physical Lorentz transformations act on the Dirac-spinor factor:
+>
+> \\[ S(\Lambda)\otimes I_3, \\]
+>
+> while the mass operator acts as
+>
+> \\[ I_4\otimes M_F. \\]
+>
+> Consequently,
+>
+> \\[ \boxed{ [S(\Lambda)\otimes I_3,\ I_4\otimes M_F]=0. } \\]
+>
+> This resolves the immediate representation-theoretic conflict.
+>
+> It also supplies a more disciplined reading of the proposed Cartesian origins of flavor: the spatial triad is used to construct or label the internal carrier, but the resulting generation states aren't themselves spatial vector components carried around by the electron.
+>
+> My assessment: This is an appropriate way to construct a Lorentz-consistent toy. But the resolution occurs through a defined descent, rather than through a dynamically derived mechanism.
+>
+> In particular, it does not establish that the physical rest-space spin connection automatically descends to the proposed internal representation.
+>
+> That bridge matters because the manuscript's earlier ambition was stronger than writing down two tensor-product factors with independent transformation laws.
+>
+> ### The residual-symmetry classification is useful
+>
+> The analysis also shows that the symmetries preserving three distinct eigenlines must act through one-dimensional characters.
+>
+> For the oriented Cartesian triad, the relevant stabilizer is
+>
+> \\[ \boxed{\mathbb Z_3.} \\]
+>
+> Its eigenlines are the same Fourier-complementary generation lines identified in v36.8.
+>
+> This creates a coherent connection among the oriented triad, the cyclic operator and the generation basis.
+>
+> But there's a revealing result: the mass operator itself retains an \\(SO(2)\\) symmetry about the selected axis, while the oriented triad reduces that symmetry to \\(\mathbb Z_3\\).
+>
+> So the mass spectrum doesn't actually detect all the information in the trigonal frame.
+>
+> That is why the frame's additional orientation remains an independent datum rather than something selected by the observed masses.
+>
+> ## 2. The preferred-frame test is valuable, but it supports a narrow conclusion
+>
+> I particularly like that §XXXIV.8 doesn't stop at the abstract Lorentz representation.
+>
+> It asks what would happen if the flavor carrier were physically coupled to electron spin through an interaction of the form
+>
+> \\[ \boxed{ H\_{\rm int}=\lambda\\,\mathbf S\cdot\mathbf J. } \\]
+>
+> Such a coupling would associate the internal selected axis with an observable spatial direction.
+>
+> Using the preferred-frame measurements quoted from Heckel et al. (2008), the manuscript reports, for the Galactic north-pole direction,
+>
+> \\[ \lambda=(1.6\pm2.9)\times10^{-22}\ {\rm eV}, \\]
+>
+> with an illustrative componentwise limit
+>
+> \\[ |\lambda|\lesssim3.46\times10^{-22}\ {\rm eV}. \\]
+>
+> For an arbitrary axis, the manuscript obtains a weaker bound of approximately
+>
+> \\[ |\lambda|\lesssim8.81\times10^{-21}\ {\rm eV}. \\]
+>
+> Those are exceptionally small compared with electron or other charged-lepton mass scales.
+>
+> The result is useful precisely because it tells us that a naive physical locking of spatial spin to the flavor carrier is extremely constrained.
+>
+> I would, however, phrase the numerical limits carefully. The \\(3.46\times10^{-22}\\) eV number treats individual one-standard-deviation component bounds as hard inequalities; it is not the same statistical construction as the fitted confidence interval. The manuscript distinguishes these calculations, and that distinction should remain visible wherever the bound is summarized.
+>
+> More fundamentally, these experiments constrain the selected spin-dependent interaction. They do not prove that the internal carrier must be unobservable or that every possible spacetime–flavor coupling is forbidden.
+>
+> ### An extra test I'd recommend
+>
+> The manuscript notes that rotating the selected frame about its axis merely rephases the generation eigenlines, unless something anchors the frame.
+>
+> But when the frame varies over spacetime, those rephasings can generate connection terms:
+>
+> \\[ \boxed{ A\_\mu^{(G)} = iU^\dagger(x)\partial\_\mu U(x). } \\]
+>
+> For a pure local change of basis with all connections transformed consistently, this is gauge description, not a new force.
+>
+> But a spatially varying selected axis may produce nontrivial Berry transport, including global holonomy.
+>
+> This is especially relevant because PG already found nontrivial Chern structure for the spin-one weight lines.
+>
+> I'd want to see a version of the proposed fermion action in which the moving-frame connection is explicitly included, and a demonstration of whether it produces observable flavor-changing amplitudes.
+>
+> That would turn the descent from a representation assignment into a stronger geometric consistency test.
+>
+> ## 3. The Koide complementarity result is elegant—and exposes the remaining circularity
+>
+> Section XXXIV.9 returns to the question of why PG should choose
+>
+> \\[ m_n=m\_\*\left(\cos\theta_n+\frac1{\sqrt2}\right)^2, \qquad \theta_n=\theta+\frac{2\pi n}{3}. \\]
+>
+> The new interpretation is more precise than the earlier assertion that the two reference directions should be orthogonal.
+>
+> Let their normalized qubit states be \\(|r\_+\rangle\\) and \\(|r\_-\rangle\\), with Bloch directions separated by \\(2\alpha\\).
+>
+> Their squared overlap is
+>
+> \\[ P=|\langle r\_+|r\_-\rangle|^2=\cos^2\alpha. \\]
+>
+> On the common-sign branch of the lepton mass family,
+>
+> \\[ \boxed{ K=\frac13+\frac1{6P}, } \\]
+>
+> where
+>
+> \\[ K=\frac{m_e+m\_\mu+m\_\tau} {(\sqrt{m_e}+\sqrt{m\_\mu}+\sqrt{m\_\tau})^2}. \\]
+>
+> Therefore,
+>
+> \\[ \boxed{ K=\frac23 \quad\Longleftrightarrow\quad P=\frac12. } \\]
+>
+> And \\(P=1/2\\) means that the two qubit reference bases are mutually unbiased.
+>
+> This is a more meaningful interpretation of your quarter-turn condition:
+>
+> The relevant references are not orthogonal quantum states. They are states belonging to complementary measurement bases.
+>
+> That connects directly to your Entry 352 rule.
+>
+> It also explains the occurrence of \\(1/\sqrt2\\) in the mass amplitudes as the magnitude of a qubit overlap between mutually unbiased bases.
+>
+> ### The limitation is unusually clear
+>
+> The manuscript proves that its three-parameter dual-factor family covers every positive three-mass spectrum whose Koide ratio lies in the stated interval \\(1/2\le K<1\\).
+>
+> Thus, before requiring \\(P=1/2\\), the family has substantial freedom.
+>
+> And imposing \\(P=1/2\\) is mathematically equivalent to imposing \\(K=2/3\\).
+>
+> The complementarity condition is presently a geometrical restatement of the desired mass relation, not an independently derived reason for it.
+>
+> The manuscript acknowledges this explicitly, which I regard as an important strength.
+>
+> There is one further distinction I'd emphasize. Exact mutual unbiasedness of the three-dimensional Cartesian/flavor bases does not mathematically force mutual unbiasedness of the separate two-dimensional reference bases.
+>
+> They are applications of the same proposed principle to different carriers.
+>
+> For PG to derive the mass law, something in its canonical structure must make that principle compulsory in both places.
+>
+> That is the outstanding selection theorem.
+>
+> ### The radiative-correction issue is serious
+>
+> Using the manuscript's pole-mass inputs, the inferred overlap is
+>
+> \\[ \boxed{ P=0.5000033\pm0.0000076. } \\]
+>
+> That is remarkably close to \\(1/2\\).
+>
+> But the manuscript also estimates that ordinary flavor-dependent QED running would shift Koide's ratio by approximately
+>
+> \\[ \Delta K\simeq1.15\times10^{-3}, \\]
+>
+> far larger than the few-parts-per-million discrepancy of the pole-mass relation.
+>
+> So a field-theoretic potential that selects Koide's condition at some renormalization scale does not automatically explain its precision when expressed using pole masses.
+>
+> That is one of the central tests for the flavor program.
+>
+> Either PG needs a physical reason the pole-mass relation is selected, or it needs a calculable mechanism that cancels the relevant radiative changes.
+>
+> Without such a mechanism, the numerical precision cannot safely be interpreted as evidence for the proposed geometric selection.
+>
+> ## 4. The heavy-partner mechanism is v36.9's strongest new construction
+>
+> Section XXXIV.10 directly addresses the central problem from v36.8:
+>
+> How do we obtain masses proportional to the square of an internal directional amplitude, rather than its absolute value?
+>
+> Define
+>
+> \\[ \widehat D=H\_\theta+\frac1{\sqrt2}I_3. \\]
+>
+> Introduce an ordinary Dirac field \\(\psi\\) and a heavy Dirac partner \\(\chi\\), with mass matrix
+>
+> \\[ \boxed{ \mathcal M= \begin{pmatrix} 0&\mu\widehat D\\\ \mu\widehat D&\Lambda I_3 \end{pmatrix}, \qquad \mu^2=m\_\*\Lambda. } \\]
+>
+> The off-diagonal blocks are the internal hopping operations.
+>
+> When the heavy partner is integrated out, the effective light mass matrix is
+>
+> \\[ \boxed{ M\_{\rm light} = -\frac{\mu^2}{\Lambda}\widehat D^2 = -m\_\*\widehat D^2 } \\]
+>
+> at leading order. The overall sign is removable in the free parity-symmetric toy.
+>
+> This is the key result:
+>
+> \\[ \boxed{ \text{One internal hop} \longrightarrow \text{mass amplitude}, \qquad \text{two hops} \longrightarrow \text{mass proportional to amplitude squared}. } \\]
+>
+> It's a standard universal-seesaw mechanism, but its application to your specific internal ring operator is coherent.
+>
+> For each eigenvalue \\(d_n\\) of \\(\widehat D\\), the exact light mass is
+>
+> \\[ \boxed{ m_n= \frac{\sqrt{\Lambda^2+4m\_\*\Lambda d_n^2}-\Lambda}{2}. } \\]
+>
+> Expanding at large \\(\Lambda\\),
+>
+> \\[ m_n= m\_\*d_n^2 -\frac{m\_\*^2d_n^4}{\Lambda} +O(\Lambda^{-2}). \\]
+>
+> So the familiar squared lepton mass family really is the leading approximation to a more complete mass-generating operator.
+>
+> This is substantially better than simply postulating \\(M_F=D_F^2\\).
+>
+> But the heavy field, its mass and its couplings are still assumed rather than obtained from PG.
+>
+> ## 5. The heavy-partner correction produces a testable signature
+>
+> The new construction does not merely reproduce the leading masses. It also produces finite-\\(\Lambda\\) corrections.
+>
+> They are proportionally largest for the tau and change Koide's ratio according to
+>
+> \\[ \boxed{ K-\frac23 = -\frac C\Lambda+O(\Lambda^{-2}), } \\]
+>
+> where the manuscript calculates
+>
+> \\[ \boxed{C=168.6\ {\rm MeV}.} \\]
+>
+> I independently checked that coefficient from the mass inputs using
+>
+> \\[ C=\sum_n \frac{\partial K}{\partial m_n}m_n^2 \\]
+>
+> and obtained \\(168.5803\\) MeV.
+>
+> That agrees with the manuscript.
+>
+> The heavy-partner prediction
+>
+> Leading-order finite-heavy-partner correction to Koide's ratio
+>
+> -2E-5-1.5E-5-1E-5-5E-601013.62050100
+>
+> Leading-order prediction, conditional on an exact Koide relation for the uncorrected pole masses, no additional direct mass and no competing radiative effects.
+>
+> Using the manuscript's measured
+>
+> \\[ K-\frac23=(-2.20\pm5.08)\times10^{-6}, \\]
+>
+> the analysis obtains a conditional two-standard-deviation lower bound
+>
+> \\[ \boxed{\Lambda\gtrsim13.6\ {\rm TeV}.} \\]
+>
+> That's a useful numerical constraint within this precisely specified model.
+>
+> It is not a general experimental lower bound on heavy leptons or on PG.
+>
+> ### A further quantitative observation
+>
+> At that lower bound, the chosen normalization
+>
+> \\[ \mu^2=m\_\*\Lambda \\]
+>
+> implies
+>
+> \\[ \boxed{\mu\approx92.4\ {\rm GeV}.} \\]
+>
+> That's near the electroweak scale.
+>
+> It may be worth investigating whether the off-diagonal hopping operator could arise from a Higgs-dependent Yukawa coupling in the chiral extension.
+>
+> However, that connection is not automatic. The two fields' electroweak representations must permit the coupling, and a physical Yukawa interpretation would relate \\(\mu\\) to a vacuum expectation value and dimensionless coupling.
+>
+> It would also introduce independent perturbativity and precision-electroweak constraints.
+>
+> So this is a useful model-building clue, not evidence that the Higgs mechanism has already been incorporated.
+>
+> ## 6. The largest outstanding vulnerability: protecting the mechanism
+>
+> The manuscript's most important negative result in §XXXIV.10 may be the direct-mass test.
+>
+> The proposed mass matrix assumes that the light–light block vanishes:
+>
+> \\[ \mathcal M\_{\psi\psi}=0. \\]
+>
+> But in the parity-symmetric vectorlike theory, a direct mass is permitted.
+>
+> The manuscript demonstrates that adding just
+>
+> \\[ m_0=10^{-4}\ {\rm MeV} \\]
+>
+> can cancel the distinctive finite-\\(\Lambda\\) shift of the Koide ratio at the tested partner scale.
+>
+> That tells us something significant.
+>
+> The seesaw explanation isn't stable under all interactions allowed by the toy's current symmetries.
+>
+> The next version needs a selection rule or symmetry that forbids or naturally suppresses the direct light-field mass.
+>
+> This is a stronger requirement than just finding a heavy partner with the right eigenvalues.
+>
+> The chiral electroweak theory could help, because left-handed lepton doublets and right-handed charged-lepton singlets cannot be coupled by an arbitrary bare mass term while preserving the electroweak gauge symmetry.
+>
+> But introducing those charges changes the whole problem. The heavy partner's charges, the Higgs insertions, anomaly consistency and corrections to weak couplings must be specified.
+>
+> I'd make protection of the zero block a formal requirement of the chiral model rather than treating it as a later technical detail.
+>
+> The manuscript's second variant, using different dual-reference factors on the two hops, is also interesting:
+>
+> \\[ M\_{\rm light} \sim-\frac{\mu^2}{\Lambda}A\_+A\_-. \\]
+>
+> It recovers the same leading mass structure.
+>
+> That supplies a possible place for the two distinct projective references, rather than taking one Hermitian operator and applying it twice.
+>
+> But its physical asymmetry will only be meaningful once the two hopping operators have definite chiral and gauge transformation laws.
+>
+> ## 7. The implications for the rest of PG
+>
+> v36.9 is mostly a flavor-theory advance. It doesn't alter the existing gravitational rotation-curve calculations or resolve the central optical conflicts.
+>
+> Those remain significant: the failed dwarf-galaxy fits under the tested source prescriptions, the angular-diameter-distance cap on compact leaves, the unwanted long-way images and the radiation-accumulation problem.
+>
+> I would therefore keep Part XXXIV's successes separate from the observational status of Part XXXIII.
+>
+> That separation is methodologically valuable.
+>
+> The flavor program may develop a viable mathematical foundation independently of whether the current compact-leaf galaxy model survives its empirical tests.
+>
+> ## What I would prioritize for v36.10
+>
+> I would concentrate on a single gauge-consistent chiral version of the two-hop model.
+>
+> The target would be to write one complete fermion mass Lagrangian with the ordinary left-handed lepton doublets, right-handed charged-lepton singlets, a specified heavy partner and an internal geometry that supplies the two hopping matrices.
+>
+> Then require the model to explain why the direct light mass is forbidden, how the heavy mass and coupling scales arise, and whether the Koide condition concerns renormalized masses or physical pole masses.
+>
+> Crucially, its reference-pair complementarity should be selected by a law independent of the measured lepton masses.
+>
+> Only after that would I bring in the neutrino sector and ask for a PMNS prediction.
+>
+> Otherwise the number of adjustable structures could grow faster than the number of new predictions.
+>
+> ## Overall verdict
+>
+> I would keep v36.9 as a substantial improvement to Part XXXIV.
+>
+> It now has a more coherent chain:
+>
+> \\[ \boxed{ \begin{gathered} \text{Selected Cartesian triad}\\\ \downarrow\\\ \text{Internal generation carrier}\\\ \downarrow\\\ \text{Cyclic flavor derivative}\\\ \downarrow\\\ \text{Dual-reference hopping operator}\\\ \downarrow\\\ \text{Heavy-partner two-stage reduction}\\\ \downarrow\\\ \text{Three charged-lepton mass eigenvalues}. \end{gathered} } \\]
+>
+> The valuable new step is the heavy-partner reduction: the square of your directional mass amplitude now has a recognizable dynamical mechanism.
+>
+> But three central assumptions still carry the result: the selected complementary reference pair, the heavy partner with its chosen couplings, and the absence of a direct light mass.
+>
+> I particularly respect the manuscript's conclusion in §XXXIV.11 that no mass or mixing angle has yet been derived. The work supports that calibrated conclusion.
+>
+> My strongest assessment is that v36.9 has moved the flavor program from an elegant mass formula toward a testable mass-generating model—but the explanatory breakthrough would be to derive and protect its ingredients from the native PG geometry, without using the observed masses to choose them.
+>
+> That is the next decisive standard I would apply.
+
+*The attachments' markup* — the escaped brackets around their mathematics, the escaped underscores and asterisks, the `&#x20;` entities, the text left behind by their charts (the response's comparison of $\tau$ masses; the review's card of checks and its chart of the heavy-partner prediction) and the response's source links — is their own, quoted unchanged.
+
+**What v36.10 does with them.**
+
+*Entry 354.* It asks for two things.
+- *The exact angles:* "EXACT use of 2/9 for the base angle AND 1/sqrt(2) for the other term thing", with the offsets of both values from the measured masses taken from the second stage's correction terms. §XXXIV.14 does this for both constructions of §XXXIV.10 and for any first-order correction, and reproduces the response's numbers.
+- *The Z mass:* it reads v36.9's mixing scale as "already eerily close to the mass of the Z boson" and proposes linking it to Part XXIV's Higgs normalization. That scale was a lower bound at two standard deviations, not a computed value (§XXXIV.15(a)). §XXXIV.15 tests the identification all the same. With one hop scale the $\tau$ comes out $2.07\sigma$ or $1.27\sigma$ low, and the electron's offsets of one to eight eV test the zero block rather than $\mu = M_Z$; in the chiral version $\mu_L = M_Z$ gives the $\tau$ $1.24\sigma$ low, one choice among several (§§XXXIV.15(c)–(d), XXXIV.16(c)). Not supported, not excluded.
+
+Two of its remarks are kept with a qualification.
+- *The correction terms "for free".* Within one construction this is right: as the response says, "Once the heavy mass matrix is specified, the higher-order terms are fixed." But two constructions with the same leading masses correct differently (§XXXIV.14(c)), and the chiral version adds a ratio of scales (§XXXIV.16(c)).
+- *How the result came about.* §XXXIV.10's second stage is the standard universal seesaw (Berezhiani 1983 and the works §XXXIV.10 cites), which Koide assumed for his relation in 1990. v36.8 had named "a second stage" as one route to the square (§XXXIV.4(d)); the review of v36.8 asked for a reduction that "obtains the correct squared mass operator from its internal propagation law"; and v36.9 built the second stage in answer. The entry's account of how the result came about, and its view of method, are recorded as the author's philosophy-of-science position, as §XXXIV.5 recorded the galactic methodology.
+
+*The response.* It ran Entry 354's test with v36.9's exact formulas, for both constructions and with the mixing scale set to the Z mass. Its numbers are reproduced (§§XXXIV.14(c), XXXIV.15(c)), and its value of $M_Z$, PDG 2026's, is confirmed. Its cautions are kept: selecting the dual-hop model "because it matches the tau mass better would not be an independent derivation", and radiative effects are "potentially hundreds of times larger" than the correction being interpreted — its comparison is of Koide's ratio, where §XXXIV.14(e)'s $1889$ compares the electron-to-muon ratio. It also advises: "I wouldn't adjust another coefficient to force both conditions to hold simultaneously." The chiral version's second hop scale is such a coefficient. With it §XXXIV.16(c) sets $\mu_L = M_Z$ and finds the $\tau$ $1.24\sigma$ low; that is reported as one choice among several, not a prediction, and the second scale turns the $\tau$ into an inequality.
+
+*The review of v36.9.* It keeps the round — "I would retain all three new sections, with the qualifications below" — and judges that "v36.9 has moved the flavor program from an elegant mass formula toward a testable mass-generating model". Its points, and where they stand:
+- *The descent* is a definition, not a dynamical derivation, as §XXXIV.8(c) typed it; the rest-space spin connection's descent is not established. §XIX.2's target, retyped for flavor, stays open (§XXXIV.18).
+- *The two constructions of the bound* — the limits taken as hard bounds and the fit — are to stay visible wherever the bound is summarized. All of the archive's and the manuscript's v36.9 summaries carry both except the manuscript's §13 paragraph, which v36.10 completes.
+- *A moving frame's connection* in the fermion action, and whether it changes flavor: §XXXIV.17.
+- *The two placements of Entry 352's rule* are applications of one principle to different carriers: "something in its canonical structure must make that principle compulsory in both places". The review calls this "the outstanding selection theorem". It becomes a next piece (§XXXIV.18).
+- *The radiative corrections* remain the pole-mass premise (§§XXXIV.9(a), (c), XXXIV.14(e)).
+- *A mixing scale near the electroweak scale* (its $92.4$ GeV takes the rounded $13.6$ TeV): §XXXIV.15.
+- *The zero block:* "a formal requirement of the chiral model". §XXXIV.16(a) shows that with a bare right hop it is a choice of basis, and that a charged vev for the right hop, or $SU(2)_R$, protects it up to a dimension-five leak, which the exact angles bound only to about $5$ eV ($5\times10^{-6}$ MeV) — short of the eV level at which, as §XXXIV.14(e) shows, the $\tau$'s test needs it.
+- *The dual factors' asymmetry* needs chiral transformation laws: §XXXIV.16(a) gives the hops' charges, and §XXXIV.16(b)–(c) gives them their own scales. The second scale is an added adjustable ratio, the kind of structure the review warns about — "Otherwise the number of adjustable structures could grow faster than the number of new predictions." The measured $\tau$ fixes it, and nothing is predicted from it.
+- *Its other points agree with v36.9's text:* the frame's orientation "remains an independent datum rather than something selected by the observed masses" (§XXXIV.8(c)); the preferred-frame bounds "do not prove that the internal carrier must be unobservable" (§XXXIV.8(e)); its own check of the coefficient, $168.5803$ MeV, matches §XXXIV.10(b)'s $168.6$ MeV; and "the heavy field, its mass and its couplings are still assumed rather than obtained from PG" (§XXXIV.11). A Yukawa reading of $\mu$ would bring "independent perturbativity and precision-electroweak constraints"; §XXXIV.16(d) lists them among the checks not made.
+- *Part XXXIII's open problems* are kept separate from Part XXXIV, as the head table keeps them.
+- *Its priority,* "a single gauge-consistent chiral version of the two-hop model": begun in §XXXIV.16, not completed.
+
+§XXXIV.18 is the Part's standing after v36.10 and §XXXIV.19 its register.
+
+## XXXIV.14 The exact angles held fixed: $\theta = 2/9$ and $\cos\alpha = 1/\sqrt2$, with the second stage's corrections [T/V/S/O; R381] *(`v36_10_exact_angles()`)*
+
+*Entry 354 asks for "EXACT use of 2/9 for the base angle AND 1/sqrt(2) for the other term thing", with the offsets of both values from the measured masses obtained "through use of the on-the-mass-correction terms themselves". The response ran the test with v36.9's exact formulas. §XXX.11 had tested the same ideal point against single corrections fitted after the fact (Entries 288–293); here the correction is the second stage's.*
+
+**(a) The ideal point [V].** With both angles exact and one scale, the masses are $m_*d_n^2$ with $d_n = \cos(\tfrac29+2\pi n/3)+\tfrac1{\sqrt2}$. As §XXX.11 found, the electron-to-muon ratio is then $0.0048362841$ against the measured $0.0048363317$. It falls short by $\delta = 9.8322\times10^{-6}$ of itself, $452$ standard deviations of the measured ratio. Through the muon the $\tau$ is $1776.9675$ MeV ($+0.42\sigma$). Whatever corrects the ideal point must supply that $\delta$.
+
+**(b) Any first-order correction [T/V].** Let the corrected masses be $m_*d_n^2(1-\varepsilon f_n)$ for a flavor pattern $f$. Fitting the electron and the muon exactly fixes $\varepsilon(f_\mu-f_e) = \delta$ and gives
+
+$$m_\tau = m_\mu\Big(\frac{d_\tau}{d_\mu}\Big)^2(1-\delta R_f),\qquad R_f = \frac{f_\tau-f_\mu}{f_\mu-f_e}.$$
+
+So the $\tau$ measures the pattern's $R$. The measured $\tau$ asks for $R = 2.15\pm5.15$ at one standard deviation, $-8.2$ to $12.4$ at two; at first order, any correction whose pattern has its $R$ in the two-sigma range passes.
+
+**(c) The two constructions [T/V].**
+- *The same hop twice* (§XXXIV.10(a)) corrects by $f_n = d_n^2$, in proportion to the masses, so its $R$ is the ratio $(m_\tau-m_\mu)/(m_\mu-m_e)$ at the ideal masses, $15.8949$.
+- *The dual factors as the two hops* (§XXXIV.10(c)) correct by $(a_{+,n}^2+a_{-,n}^2)/2 = \tfrac12+\sqrt2\,d_n$. That is linear in the amplitude, so in proportion to the square roots up to a constant, and $R = 3.3328$ is the same ratio taken of the square roots.
+
+Both are identities, since $R_f$ does not change when $f$ is shifted or scaled. Exactly, with $m_*$ and $\Lambda$ fitted to the electron and the muon:
+
+| construction | $m_*$ (MeV) | $\Lambda$ (MeV) | $\mu$ (GeV) | $m_\tau$ (MeV) | $K-\tfrac23$ |
+|:--|:--|:--|:--|:--|:--|
+| the same hop twice | $627.71849$ | $1.0694\times10^7$ | $81.93$ | $1776.6899$ ($-2.67\sigma$) | $-1.576\times10^{-5}$ |
+| the dual factors | $627.72464$ | $3.4466\times10^7$ | $147.09$ | $1776.9093$ ($-0.23\sigma$) | $-3.373\times10^{-6}$ |
+
+These are the response's numbers. The first-order law of (b) gives the same $\tau$ within $10^{-4}$ MeV: $1776.6898$ against $1776.6899$ MeV, and $1776.9093$ MeV. The $\tau$ separates the two patterns because their $R$ differ, $15.9$ against $3.3$ — on the zero-block premise of (e) — and it cannot separate patterns whose $R$ lie within its two-sigma range.
+
+**(d) The angles' offsets [V].** Each spectrum, inverted exactly (§XXX.11), gives its own offsets:
+- *measured:* $\theta-\tfrac29 = (+2.54\pm6.3)\times10^{-6}$ and $\alpha-\pi/4 = (-3.30\pm7.6)\times10^{-6}$, both errors from the $\tau$ and fully anticorrelated;
+- *the same hop twice:* $+1.92\times10^{-5}$ and $-2.36\times10^{-5}$, $2.67$ standard deviations from the measured;
+- *the dual factors:* $+3.98\times10^{-6}$ and $-5.06\times10^{-6}$, $0.23$ from it.
+
+So the dual factors match both offsets within the $\tau$'s error, as Entry 354 hoped, and the same hop twice overshoots both. But with the electron and the muon fitted, both offsets are functions of $m_\tau$ alone, so (d) restates (c): $\Lambda$ supplies $\delta$, and the $\tau$ is met at $0.23\sigma$ or missed at $2.67\sigma$. It is one test, not two.
+
+**(e) The premises [S/O].**
+- *Pole masses.* The angles are taken to hold for pole masses. At one loop the running masses' electron-to-muon ratio differs from the pole masses' by $(3\alpha/2\pi)\ln(m_\mu/m_e) = 1.858\times10^{-2}$, $1889$ times $\delta$. For running masses the test is therefore empty unless the QED running is canceled (§XXXIV.9(a), (c)). The response makes the same point with Koide's ratio: radiative effects are "potentially hundreds of times larger" than the correction being interpreted — the one-loop shift of $K$, $+1.15\times10^{-3}$, is $341$ times the dual fit's $\lvert K-\tfrac23\rvert$.
+- *The zero block, at the eV level* (§XXXIV.10(d)). With a flavor-blind direct mass $m_0$ as a third parameter — in the light block, so that a positive $m_0$ lowers each light mass by about $m_0$ — both constructions fit all three masses: $m_0 = -4.37$ eV ($\Lambda = 7.93\times10^7$ MeV) for the same hop twice, and $-1.80$ eV ($\Lambda = 5.36\times10^7$ MeV) for the dual factors. So the $\tau$ tells the constructions apart only if the light–light block vanishes at the eV level. §XXXIV.16(a) says what can protect it; the exact angles themselves bound a direct mass only to about $5$ eV, short of that level.
+- *The construction, chosen after the fact.* The dual factors were available before the test: in the response's words the dual-hop model "was already an available option", but "selecting it because it matches the tau mass better would not be an independent derivation". What would make the $\tau$ a prediction is a reason, from PG, for the dual factors as the two hops — and, as §XXXIV.16(c) shows, for their equal scales.
+
+**(f) The 2026 electron mass [V].** PDG 2026 takes CODATA 2022's electron mass, $0.51099895069$ MeV, $6.9\times10^{-10}$ MeV above PDG 2025's ($4.6$ of its standard deviations). The archive's inputs remain PDG 2025's (§XXX.3). With the 2026 value, $\delta = 9.8335\times10^{-6}$; $\Lambda = 1.0693\times10^7$ and $3.4461\times10^7$ MeV; $\mu = 81.93$ and $147.08$ GeV; and $m_\tau = 1776.6898$ and $1776.9093$ MeV. The last digits move, and no conclusion does.
+
+## XXXIV.15 The mixing scale and the Z mass: what v36.9's $\mu$ was, Part XXIV's Higgs normalization, and $\mu = M_Z$ imposed [V/S/O; R382] *(`v36_10_mixing_scale()`)*
+
+*Entry 354 reads v36.9's mixing scale as "already eerily close to the mass of the Z boson" and proposes linking it to the parameter of Part XXIV's Higgs relation, $m_H^2 = \mu_H^2(1+\cos\theta_W)$, "which happens to equal the Z boson mass".*
+
+**(a) What v36.9's $\mu$ was [V].** §XXXIV.10(b)'s bounds on $\Lambda$, on the pole-mass premise, recomputed here: $\Lambda\geq1.363\times10^7$ MeV at two standard deviations and $2.314\times10^7$ MeV at one, at first order and exactly alike to four figures. With $\mu^2 = m_*\Lambda$ these are $\mu\geq92.5$ GeV and $\mu\geq120.5$ GeV. The nearness to the Z mass belongs to the two-sigma bound, not to a computed value; the review's $92.4$ GeV takes the rounded $13.6$ TeV. With the exact angles $\mu$ is fitted (§XXXIV.14(c)): $81.93$ GeV for the same hop twice, $147.09$ GeV for the dual factors.
+
+**(b) Part XXIV's normalization [V/O].** Part XXIV's relation is $m_H^2 = \mu_H^2(1+\cos\theta_W)$, with $\mu_H = M_Z$ "imposed, not derived" (§XXIV.5). Its side ledger (§XXIV.0) evaluates the relation in three schemes, the on-shell angle, $\cos\theta_W = m_W/m_Z$, the closest. With current inputs:
+
+| inputs | $\mu_H$ (GeV) | $M_Z$ (GeV) | $\mu_H-M_Z$ | $(m_H/m_Z)^2$ | $1+\cos\theta_W$ | the relation's $m_H$ (GeV) |
+|:--|:--|:--|:--|:--|:--|:--|
+| PDG 2025 | $91.2785\pm0.0803$ | $91.1880\pm0.0020$ | $+1.13\sigma$ | $1.8851$ | $1.8814$ | $125.076$, against $125.20\pm0.11$ |
+| PDG 2026 | $91.2293\pm0.0802$ | $91.1879\pm0.0020$ | $+0.52\sigma$ | $1.8830$ | $1.8813$ | $125.073$, against $125.13\pm0.11$ |
+
+PDG 2026's lower Higgs and W masses bring the relation closer. The scheme matters most: with the effective leptonic angle, $\mu_H = 91.39$ GeV with PDG 2025's inputs ($+2.55\sigma$ from $M_Z$) and $91.34$ GeV with PDG 2026's ($+1.92\sigma$). That is the scheme dependence §§XXIV.0 and XXIV.5 record, §XXIV.5 calling the relation "a tree-level statement between bare or running quantities".
+
+The masses' definition matters less. PDG's $M_Z$ is a Breit–Wigner resonance parameter, and $m_W$ is measured with a Breit–Wigner of mass-dependent width. At the poles, $m = M/\sqrt{1+\Gamma^2/M^2}$ with PDG 2026's widths, the Z is $34.13$ MeV lower and the W $28.48$ MeV. Then $\mu_H = 91.2288\pm0.0802$ GeV lies $0.94\sigma$ above the Z pole, and the relation's $m_H$ is $125.027$ GeV. With PDG 2026's inputs and the on-shell angle, $\mu_H$ is within one standard deviation of the Z mass either way.
+
+**(c) $\mu = M_Z$ imposed [V/S].** With both angles exact and $\mu = M_Z$ (PDG 2026), one scale is left. Fixed by the muon, it predicts the electron and the $\tau$:
+- *the same hop twice:* $\Lambda = 13.247$ TeV; the electron off by $-0.97$ eV ($-6454$ of its standard deviations); $m_\tau = 1776.7434$ MeV ($-2.07\sigma$);
+- *the dual factors:* $\Lambda = 13.246$ TeV; the electron off by $+8.05$ eV ($+53656$); $m_\tau = 1776.8160$ MeV ($-1.27\sigma$).
+
+These are the response's numbers. With PDG 2026's $\mu_H$ in place of $M_Z$, the electron is off by $-0.97$ and $+8.04$ eV. Against PDG 2026's own electron mass (§XXXIV.14(f)) the offsets are again $-0.97$ and $+8.05$ eV, $-6055$ and $+50298$ of its standard deviations.
+
+The electron's offsets are only eV, and the zero block decides them. A flavor-blind direct mass of $-0.97$ eV (same hop) or $+8.09$ eV (dual factors) restores the electron exactly and leaves the $\tau$ essentially unchanged ($1776.7433$ against $1776.7434$ MeV, $1776.8162$ against $1776.8160$ MeV). So, on the pole-mass premise, the electron excludes $\mu = M_Z$ only if the zero block holds at the eV level. The robust test is the $\tau$: with one hop scale $\mu = M_Z$ is not supported, but not excluded. The offsets are $1.9\times10^{-6}$ and $1.6\times10^{-5}$ of the electron's mass, far below the uncomputed radiative effects, so without the pole-mass premise nothing at this level is tested. With two hop scales, as (d) shows, the identification is not excluded either.
+
+**(d) What the identification would need [S/O].**
+- *An electroweak meaning for $\mu$.* In the vectorlike toy $\mu$ is a bare mass. In the chiral version (§XXXIV.16) it splits into a left and a right hop scale, and only the left one can carry the electroweak vev. There, for the dual factors with $A_+$ on the left and the electron and the muon fitted, $\mu_L = M_Z$ gives $m_\tau = 1776.8187$ MeV ($-1.24\sigma$) and $\mu_R = M_Z$ gives $1776.7271$ MeV ($-2.25\sigma$) (§XXXIV.16(c)). The first is allowed, but it is one choice among several, not a prediction: the second scale is the kind of added coefficient the response advises against (§XXXIV.13).
+- *A common origin.* The equality would equate parameters of two different actions; as the response says, it "would require a common underlying coupling or selection law". And $\mu_H = M_Z$ is itself imposed (§XXIV.5).
+
+## XXXIV.16 The chiral two-hop seesaw: what protects the zero block, two hop scales, and the exact angles there [T/V/S/O; R383] *(`v36_10_chiral()`)*
+
+*The review's priority for v36.10 is "a single gauge-consistent chiral version of the two-hop model", with the protection of the zero block "a formal requirement of the chiral model". It adds that the dual factors' "physical asymmetry will only be meaningful once the two hopping operators have definite chiral and gauge transformation laws". This section takes three steps toward that model.*
+
+**(a) What protects the zero block [T/V/S].** In the Standard Model's gauge group the partner $E$ is a charged singlet: $E_L$ and $E_R$ carry $e_R$'s charges. The seesaw needs the left hop $\bar\ell_LHE_R$, the right hop $\bar E_Le_R$ and the partner's mass $\bar E_LE_R$. The direct mass would be the ordinary Yukawa term $\bar\ell_LHe_R$.
+- *With a bare right hop the zero block is a choice of basis.* For abelian charges $q(\bar\ell_LHe_R) = q(\bar\ell_LHE_R)+q(\bar E_Le_R)-q(\bar E_LE_R)$, so any $\mathbb Z_N$ or $U(1)$ — flavor-universal, or diagonal in the hop basis — that allows the three terms allows the direct one. More generally, a bare right hop and the partner's mass give $e_R$ and $E_R$ the same charges under any symmetry. A rotation between them then removes the right hop and puts the seesaw mass, $-xy/\sqrt{y^2+\Lambda^2}$ for hops $x$ and $y$, in the direct entry, with the same singular values. Nothing can forbid the direct mass there, because it is a convention.
+- *With the right hop from a vev it can be forbidden.* If the right hop is $\bar E_LSe_R$ with a scalar $S$, the identity gives $q(\bar\ell_LHe_R) = -q(S)$: a charge on $S$ forbids the direct term at the renormalizable level. It returns at dimension five, as $\bar\ell_LHSe_R$.
+- *The left-right group does the same with $SU(2)_R$.* With $\ell_L$ and $\ell_R$ doublets of $SU(2)_L$ and $SU(2)_R$ and no scalar bidoublet, there is no renormalizable $\bar\ell_L\ell_R$ (the left-right universal seesaw, as in Davidson and Wali 1987; Patra and Rai 2018; Borah, Dasgupta and Patra 2018). The hops are then Yukawa terms with the scalar doublets $\phi_L$ and $\phi_R$, whose vevs are $v_L/\sqrt2$ (the electroweak one) and $v_R/\sqrt2$.
+- *The dimension-five leak.* The operator $(\bar\ell_L\phi_L)(\phi_R^\dagger\ell_R)/M$ is gauge-invariant. Integrating out $E$ generates it with the seesaw's own flavor structure (as in Gu and Lindner 2011). Another source with a flavor-blind structure would give a direct mass $m_0 = v_Lv_R/(2M)$. A flavor-blind $m_0$ moves the electron-to-muon ratio by about $m_0/m_e$, so the exact-angle test bounds it. Below $m_0 = -5.05\times10^{-6}$ MeV, $-\delta\,r\,m_\mu/(1-r)$ with $r$ the ideal ratio, no exact fit exists; and $m_0 = +6.0\times10^{-6}$ MeV brings the dual factors' $\tau$ to one standard deviation below the measured value. With $v_L = 246.22$ GeV (from $G_F$) and, as an illustration, $v_R = 10$ TeV, $\lvert m_0\rvert\leq5.0\times10^{-6}$ MeV — the tighter side, about $5$ eV — needs $M\geq2.4\times10^{14}$ GeV [V/S]. This bound does not reach the eV level at which §XXXIV.14(e) needs the zero block: the direct masses that let either construction fit all three masses lie inside it.
+
+So the zero block can be protected — by a charge on the right hop's vev, or by $SU(2)_R$ — up to dimension-five terms whose scale the exact angles bound. That the hops are vevs is a premise of the chiral model [S].
+
+**(b) Two hop scales [T/V].** With $\mu_LA_L$ on the left hop and $\mu_RA_R$ on the right, the light masses are the small singular values of $[[0,\mu_LA_L],[\mu_RA_R,\Lambda]]$. Per mode,
+
+$$m_n = m_*a_{L,n}a_{R,n}\Big(1-\tfrac12(\varepsilon_La_{L,n}^2+\varepsilon_Ra_{R,n}^2)+\dots\Big),\qquad m_* = \frac{\mu_L\mu_R}{\Lambda},\quad\varepsilon_{L,R} = \Big(\frac{\mu_{L,R}}{\Lambda}\Big)^2.$$
+
+At a test point ($\mu_L = 300$ GeV, $\mu_R = 170$ GeV, $\Lambda = 40$ TeV) the $6\times6$ singular values in the Cartesian frame match the closed form. The first order holds to $1.8\times10^{-8}$ relative, which is its second-order term. The vectorlike toys of §XXXIV.10 are the case $\varepsilon_L = \varepsilon_R = m_*/\Lambda$.
+
+**(c) The exact angles with two scales [V].**
+- *The same hop on both sides.* At first order only $\varepsilon_L+\varepsilon_R$ enters. Exactly, $m_\tau = 1776.6899$ MeV for every split tried ($0.2$, $0.5$, $0.9$; a spread of $1.5\times10^{-5}$ MeV): the vectorlike prediction, $-2.67\sigma$, is robust.
+- *$A_+$ and $A_-$ on the two sides.* The correction patterns are positive mixtures of $a_+^2$ ($R = 0.096$) and $a_-^2$ ($R = -3.178$). The electron-to-muon correction needs $f_\mu>f_e$, so with $A_+$ on the left $\varepsilon_R/\varepsilon_L<2.011$. At first order $R$ runs from $0.096$ (at $\varepsilon_R = 0$) without bound as the ratio nears $2.011$, and the $a_-^2$ end is never reached. Exactly, with the electron and the muon fitted, $m_\tau$ falls along the ratio: $1776.9658$, $1776.9300$, $1776.9093$, $1776.8408$, $1776.4792$, $1767.0170$ and $1759.1274$ MeV at $\varepsilon_R/\varepsilon_L = 10^{-6}$, $0.7746$, $1$, $1.38$, $1.8$, $2$ and $2.005$. The exact fits end at $\varepsilon_R/\varepsilon_L = 2.0095$, just below the first-order pole, where this branch meets a second one at larger $\varepsilon$ with a much lighter $\tau$ ($1209$ MeV at $2$); no fit exists at $2.012$. The exact angles therefore require
+
+$$m_\tau<1776.9658\ {\rm MeV}\qquad(+0.40\sigma),$$
+
+the supremum, approached as $\varepsilon_R/\varepsilon_L\to0$, where $\Lambda$ and $\mu_L$ grow without bound and $\mu_R$ tends to $m_*/\sqrt{\varepsilon_L} = 207.4$ GeV. The measured $\tau$ then fixes the scales:
+- $\varepsilon_L = 1.489\times10^{-5}$ and $\varepsilon_R = 1.154\times10^{-5}$, a ratio of $0.775$ with $A_+$ on the left (swapped, its inverse);
+- $\Lambda = 47.9$ TeV, $\mu_L = 184.8$ GeV and $\mu_R = 162.7$ GeV.
+
+One standard deviation lower in the $\tau$, the ratio is $1.38$ and $\Lambda = 18.2$ TeV; one higher lies above the bound.
+
+So with two scales the dual factors' prediction of the $\tau$ becomes an inequality, which the data meet, and the equal-scale point of §XXXIV.14 is one member of the family. To restore the prediction, PG would have to fix the ratio of the two hop scales.
+
+Entry 354's identification in chiral form, with $A_+$ on the left and the electron and the muon fitted: $\mu_L = M_Z$ gives $m_\tau = 1776.8187$ MeV ($-1.24\sigma$; $\Lambda = 15.94$ TeV, $\mu_R = 109.74$ GeV), and $\mu_R = M_Z$ gives $1776.7271$ MeV ($-2.25\sigma$). With the assignment swapped the two exchange. Each is one choice among several, not a prediction (§XXXIV.15(d)).
+
+**(d) Not derived, and not checked [S/O].** The light leptons' left admixtures of $E_L$, $\varepsilon_La_{L,n}^2$ (the $\tau$'s is $3.5\times10^{-5}$ at the measured $\tau$), shift their Z couplings at that order. Open are the hop matrices from PG, the scales, the partner's charges and the pole-mass premise; the precision-electroweak (Z-coupling), perturbativity, collider and anomaly checks of a complete model are not made here. The review's "one complete fermion mass Lagrangian" is begun, not written.
+
+## XXXIV.17 A moving frame: the connection in the Dirac action, its flavor-changing amplitudes, and the holonomy [T/V/D/S/O; R384] *(`v36_10_moving_frame()`)*
+
+*The review: when the selected frame varies over spacetime, its rephasings bring a connection $A_\mu^{(G)} = iU^\dagger\partial_\mu U$; "I'd want to see a version of the proposed fermion action in which the moving-frame connection is explicitly included, and a demonstration of whether it produces observable flavor-changing amplitudes."*
+
+**(a) The action [T].** Take $\psi$ in $S_D\otimes F$ with the mass operator $M(x) = U(x)M_0U(x)^\dagger$, $U(x)$ turning the frame. In the turned basis, $\phi = U^\dagger\psi$, the Dirac operator is $i\gamma^\mu(\partial_\mu-iA_\mu)-M_0$ with $A_\mu = iU^\dagger\partial_\mu U$, a Hermitian matrix on the lines. In the mass basis it splits into $A_d$, diagonal — the abelian Berry connection of each line — and $A_o$, which connects lines and so changes flavor.
+
+**(b) The frame turned about its axis [T/V].** With $N$ fixed and $\gamma(x)$ varying, $U = e^{-i\gamma J_N}$ and $A = \partial\gamma\,J_N$ (the sign checked by central differences). In the mass basis it is diagonal, the weights $0$, $-1$ and $+1$ times $\partial\gamma$. So $A_o = 0$, and $A_d$ is a gradient, removed by rephasing each line: no flavor change and no observable. This is §XXXIV.8(d)'s removable rephasing, now in the action.
+
+**(c) A turning axis [T/V/D].** Let $N(z)$ turn at a rate $k$ about a perpendicular axis, $U(z) = e^{-ikzJ_\perp}$. In the co-rotating basis $A_z = kJ_\perp$ is constant (again checked by central differences). In the mass basis its diagonal vanishes on this path, and it connects the $\tau$ with the electron and with the muon ($|J| = 0.7071$ each), not the electron with the muon. Two typings now differ:
+- *the archive's* (§XXI.4c): the generation labels carry the induced connection, which is the diagonal part only. There is no flavor change at all [D].
+- *a field on the carrier itself:* the full $A$ enters, $H'(p) = \alpha(p-kJ_\perp)+\beta M_0$. A lepton of momentum $p$ mixes with the line one weight away by $k|J|\langle u_j|\alpha|u_i\rangle/(E_i-E_j)$, about $2pk|J|/|m_i^2-m_j^2|$. The exact eigenvectors at $p = 20$ GeV give $0.9991$ and $0.9998$ times that first-order amplitude at $k = 0.2$ and $0.1$ MeV. The transition probability is at most about $(4pk|J|/\Delta m^2)^2$, and the electron–muon one arises only at second order.
+
+**(d) Sizes [V/S].** §XXI.4d has the selected line, the Galactic normal, constant across the disk, so any turning is an assumption. As an illustration, a turn of one radian per kiloparsec is $\hbar ck = 6.39\times10^{-33}$ MeV. At $p = 10$ GeV the $\tau$–$\mu$ probability is then at most $3\times10^{-69}$; it grows as $p^2k^2$. A turn of one radian per meter, $\hbar ck = 1.97\times10^{-13}$ MeV, would give $3\times10^{-30}$. A probability of $10^{-6}$ at $10$ GeV would need $\hbar ck = 0.11$ MeV, one radian per $1.8$ pm. At the illustrative rates the two typings are far beyond detection, and the data cannot tell them apart; an effect at the $10^{-6}$ level would need the frame to turn on picometer scales.
+
+**(e) The holonomy [V].** Around a loop of the axis on a cone of half-angle $0.6$ (solid angle $\Omega = 1.0974$), the Pancharatnam phases of the $\tau$, electron and muon lines are $0$, $+1.0974$ and $-1.0974$. These are §XXI.4c's $0$ and $\mp\Omega$ for $m = \pm1$, and they hold in both typings. Which of the electron and the muon carries $+\Omega$ is an orientation convention; the size of the difference, $2\Omega$, is not. The phases are diagonal: a single mass eigenstate carries its own phase, observable only between paths that enclose different axis histories, or in a generation-coherent state — the neutrinos, §XXI.4c's kill test.
+
+So a moving frame changes flavor only if the field lives on the carrier itself, and then, at the illustrative rates, far below detection [V/S]; with the archive's typing it changes none [T]. What, if anything, varies the axis is open (§XXI.4d) [O].
+
+## XXXIV.18 Standing of Part XXXIV after v36.10, and the next pieces [S/O; R385]
+
+*Established [T/V].*
+- *The exact angles* (§XXXIV.14):
+  - any first-order correction fixed by the electron and the muon predicts the $\tau$ through its pattern's $R$, and the measured $\tau$ asks for $R = 2.15\pm5.15$;
+  - the same hop twice ($R = 15.89$) gives $m_\tau = 1776.6899$ MeV ($-2.67\sigma$);
+  - the dual factors ($R = 3.33$, corrections linear in the amplitude) give $1776.9093$ MeV ($-0.23\sigma$), their angle offsets matching the measured ones (the same $\tau$ test);
+  - all on the pole-mass premise and the zero block at the eV level, with the construction chosen after the fact.
+- *The mixing scale* (§XXXIV.15):
+  - v36.9's $\mu$ was a bound; with the exact angles $\mu$ is $81.93$ or $147.09$ GeV;
+  - $\mu_H$ lies $0.52\sigma$ from $M_Z$ with PDG 2026's inputs and the on-shell angle, $0.94\sigma$ from the Z pole; the effective angle puts it $1.92\sigma$ above;
+  - with one hop scale, $\mu = M_Z$ imposed gives the $\tau$ $2.07\sigma$ or $1.27\sigma$ low, and misses the electron by $-0.97$ or $+8.05$ eV unless the zero block allows a direct mass of that size; in the chiral version $\mu_L = M_Z$ gives the $\tau$ $1.24\sigma$ low, one choice among several.
+- *The chiral two-hop seesaw* (§XXXIV.16):
+  - with a bare right hop the zero block is a choice of basis; with the right hop a charged vev, or with $SU(2)_R$, the direct mass is forbidden up to dimension five, and the exact angles bound the leak to about $5$ eV ($5\times10^{-6}$ MeV), short of the eV level the $\tau$'s test needs;
+  - with two hop scales the same hop's $\tau$ is unchanged, and the dual factors' becomes $m_\tau<1776.9658$ MeV — met, with the measured $\tau$ fixing $\varepsilon_R/\varepsilon_L = 0.775$.
+- *A moving frame* (§XXXIV.17):
+  - the connection's diagonal part is the lines' Berry connection, removable when only the frame's angle varies;
+  - its off-diagonal part changes flavor only for a field on the carrier, with probability at most $3\times10^{-69}$ for an illustrative turn of one radian per kiloparsec at $10$ GeV.
+
+*Not demonstrated:*
+- why the dual factors are the two hops, and what fixes the ratio of their scales — without both, the $\tau$ is not predicted;
+- why the angles hold for pole masses, or what cancels the QED running;
+- the partner, its charges, the hops as vevs, and the scales;
+- a link between $\mu$ and $\mu_H$, and $\mu_H = M_Z$ itself;
+- the outstanding selection theorem (the review): what in PG makes Entry 352's rule compulsory on both carriers;
+- the frame's source, §XIX.2's target retyped for flavor, and the chiral model with $H_\nu$.
+
+*The next pieces.*
+1. A native source for the trigonal frame, internal to the descent, with §XIX.2's soldering target retyped for flavor.
+2. The outstanding selection theorem: what in PG's canonical structure makes complementarity compulsory both on the flavor carrier and on the two dual references — or a potential that imposes the null condition, with its running-mass caveat.
+3. The chiral model: one fermion mass Lagrangian with the left doublets, the right singlets, the partner and the two hops as vevs; the hop matrices from PG — why the dual factors are the two hops — and the partner's mass; the protection of the zero block; the ratio of the hop scales, which would turn §XXXIV.16(c)'s inequality back into a prediction of the $\tau$; and the pole-mass question. Then $H_\nu$ off the Cartesian diagonal.
+4. The stitching target.
+
+*Not claimed.* No mass, mixing angle or phase is derived. The exact-angle fit chooses its construction after the fact; the $\tau$ it gives is a consistency check of the dual factors with equal scales, not a prediction of PG. The identification of the mixing scale with the Z mass is not supported.
+
+## XXXIV.19 Register R380–R385 [D/O; v36.10]
+
+- **R380** (§XXXIV.13). Entry 354 in the author's words, and the response to it and the review of v36.9 as he sent them; what v36.10 does with each is stated there. [record]
+- **R381** (§XXXIV.14). The exact angles held fixed:
+  - the ideal point's electron-to-muon ratio short by $\delta = 9.8322\times10^{-6}$ ($452\sigma$; §XXX.11), its $\tau$ $1776.9675$ MeV through the muon;
+  - any first-order correction fixed by the electron and the muon gives $m_\tau = m_\mu(d_\tau/d_\mu)^2(1-\delta R_f)$; the measured $\tau$ asks for $R = 2.15\pm5.15$;
+  - the same hop twice corrects in proportion to the masses ($R = 15.8949$): $m_* = 627.71849$ MeV, $\Lambda = 1.0694\times10^7$ MeV, $m_\tau = 1776.6899$ MeV ($-2.67\sigma$);
+  - the dual factors correct by $\tfrac12+\sqrt2\,d_n$, in proportion to the square roots up to a constant ($R = 3.3328$): $m_* = 627.72464$ MeV, $\Lambda = 3.4466\times10^7$ MeV, $m_\tau = 1776.9093$ MeV ($-0.23\sigma$) — the response's numbers;
+  - the angles' offsets of the dual fit, $+3.98\times10^{-6}$ and $-5.06\times10^{-6}$, within $0.23\sigma$ of the measured (one test with the $\tau$);
+  - the pole-mass premise (the QED shift of the ratio $1889$ times $\delta$); the zero block, at the eV level (a direct mass of $-4.37$ or $-1.80$ eV fits all three masses); the construction chosen after the fact [S];
+  - with PDG 2026's electron mass (CODATA 2022) in place of PDG 2025's, $\delta = 9.8335\times10^{-6}$ and the fits' last digits move, no conclusion. [T/V/S/O]
+- **R382** (§XXXIV.15). The mixing scale:
+  - v36.9's $\mu$ a bound, $92.5$ GeV at two standard deviations and $120.5$ GeV at one; fitted with the exact angles, $81.93$ and $147.09$ GeV;
+  - Part XXIV's $\mu_H$ with the on-shell angle, $91.2785\pm0.0803$ GeV (PDG 2025, $+1.13\sigma$ from $M_Z$) and $91.2293\pm0.0802$ GeV (PDG 2026, $+0.52\sigma$; $+0.94\sigma$ from the Z pole); with the effective angle $91.39$ and $91.34$ GeV ($+2.55\sigma$ and $+1.92\sigma$);
+  - $\mu = M_Z$ imposed with the exact angles and one hop scale: the $\tau$ at $1776.7434$ and $1776.8160$ MeV ($-2.07\sigma$, $-1.27\sigma$); the electron off by $-0.97$ and $+8.05$ eV, which a direct mass of $-0.97$ or $+8.09$ eV restores; not supported, not excluded; in the chiral version $\mu_L = M_Z$ gives $1776.8187$ MeV ($-1.24\sigma$), one choice among several. [V/S/O]
+- **R383** (§XXXIV.16). The chiral two-hop seesaw:
+  - with a bare right hop the zero block is a choice of basis (abelian charges: the direct term's charge is the hops' and the mass's combination; any symmetry: a rotation of $e_R$ and $E_R$ trades the right hop for the seesaw mass in the direct entry); a charged scalar for the right hop protects it, up to dimension five; the left-right group does it with $SU(2)_R$;
+  - the dimension-five leak bounded by the exact-angle test: no fit below $m_0 = -5.05\times10^{-6}$ MeV, the dual factors' $\tau$ one standard deviation low at $+6.0\times10^{-6}$ MeV; about $5$ eV, short of the eV level the $\tau$'s test needs; $M\geq2.4\times10^{14}$ GeV for $v_R = 10$ TeV;
+  - two hop scales: $m_n = m_*a_La_R(1-(\varepsilon_La_L^2+\varepsilon_Ra_R^2)/2)$;
+  - with the exact angles the same hop's $\tau$ unchanged ($1776.6899$ MeV), the dual factors' $m_\tau<1776.9658$ MeV (the supremum as $\varepsilon_R/\varepsilon_L\to0$; $m_\tau$ falling along the ratio, the exact fits ending at $2.0095$), the measured $\tau$ fixing $\varepsilon_R/\varepsilon_L = 0.775$, $\Lambda = 47.9$ TeV; $\mu_L = M_Z$ gives $1776.8187$ MeV, one choice among several. [T/V/S/O]
+- **R384** (§XXXIV.17). A moving frame:
+  - the connection $A = iU^\dagger dU$ in the Dirac action, split into $A_d$ and $A_o$, its sign checked by central differences;
+  - the frame turned about its axis: diagonal and removable;
+  - a turning axis: $A_o$ connects the $\tau$ with the electron and the muon; with the labels' induced connection (§XXI.4c) no flavor change, and for a field on the carrier first-order mixing $\approx2pk|J|/\Delta m^2$ (checked against exact eigenvectors), probability at most $3\times10^{-69}$ for an illustrative turn of one radian per kiloparsec at $10$ GeV;
+  - the holonomy $0$ and $\mp\Omega$ (§XXI.4c), the sign of $\pm\Omega$ an orientation convention. [T/V/D/S/O]
+- **R385** (§XXXIV.18; §XXXIII.13; the head table; pointers in Part XXXIII's opening, Part XXXIV's opening and §XXXIV.11; the toy). The standing of Part XXXIV after v36.10 and its next pieces; Part XXXIV's row on the next pieces reworded (its v36.9 text quoted in the ledger). The suite `pg_v36_numerics.py` at v36.10 has:
+  - four new sections and checks, $50$ in all;
+  - the helpers `_v36_10_exact`, `_v36_10_sv`, `_v36_10_sv0`, `_v36_10_angles`, `_v36_10_fsolve` and `_v36_10_fit2`, and the data `_V3610_EW`, `_V3610_ME26`, `_V3610_S2EFF`, `_V3610_GF`, `_V3610_HBARC` and `_V3610_KPC_M`;
+  - the mode `v36_10`, a few seconds, its output the same under the eight OpenBLAS core types tested (five distinct kernels on the build machine) and with one thread;
+  - `quick`, now $34$ checks.
+
+  The toy `v32_toy_three_ends.py` gains `v36_10`, its `all` counting $237$. No new figure. The SHA-256 of the suite is in §XXXIII.13. [S/O; reproducibility]
+
+## Round record: the version summaries, v16 to v36.10 (moved from the head of the archive in v34.9, R190)
+
+*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v36.10, v36.9, v36.8, v36.7, v36.6, v36.5, v36.4, v36.3, v36.2, v36.1, v36.0, v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+
+> **v36.10 — Entry 354, the response to it and the review of v36.9 (22 October 2026): the exact angles, the mixing scale, the chiral two-hop seesaw and a moving frame in Part XXXIV. Parts XXX–XXXII frozen at v35.8.**
+>
+> *What was asked.* Entry 354 asks for the exact angles, $\theta = 2/9$ and $\cos\alpha = 1/\sqrt2$, with the offsets of both values from the measured masses taken from the second stage's corrections. It also proposes linking v36.9's mixing scale to Part XXIV's Higgs normalization, which Part XXIV sets equal to the Z mass. The response ran both with v36.9's formulas. The review of v36.9 keeps the round and asks for one gauge-consistent chiral version of the two-hop model, with the zero block protected, and for the moving frame's connection in the fermion action.
+>
+> **What v36.10 does (R380–R385; §§XXXIV.13–19).**
+> - *The exact angles.* Any first-order correction fixed by the electron and the muon predicts the $\tau$ through its pattern's $R$, and the measured $\tau$ asks for $R = 2.15\pm5.15$. The same hop twice ($R = 15.89$) gives $m_\tau = 1776.6899$ MeV ($-2.67\sigma$). The dual factors ($R = 3.33$, corrections linear in the amplitude) give $1776.9093$ MeV ($-0.23\sigma$), their angle offsets matching the measured ones (the same $\tau$ test). These are the response's numbers, on the pole-mass premise, with the zero block at the eV level, and with the construction chosen after the fact.
+> - *The mixing scale.* v36.9's $\mu$ was the two-sigma lower bound, $92.5$ GeV ($120.5$ GeV at one sigma); with the exact angles it is $81.93$ or $147.09$ GeV. Part XXIV's $\mu_H$ lies $0.52\sigma$ from $M_Z$ with PDG 2026's inputs and the on-shell angle, $0.94\sigma$ from the Z pole, and $1.92\sigma$ with the effective angle. Imposing $\mu = M_Z$ with one hop scale gives the $\tau$ $2.07\sigma$ or $1.27\sigma$ low and misses the electron by $-0.97$ or $+8.05$ eV, which a direct mass of that size would restore: not supported, not excluded. In the chiral version $\mu_L = M_Z$ gives the $\tau$ $1.24\sigma$ low, one choice among several.
+> - *The chiral two-hop seesaw.* With a bare right hop the zero block is a choice of basis; a charged vev for the right hop, or $SU(2)_R$, protects it up to dimension five, and the exact angles bound the leak to about $5$ eV, short of the eV level the $\tau$'s test needs. With two hop scales the same hop's $\tau$ is unchanged, and the dual factors' becomes $m_\tau<1776.9658$ MeV — met, the measured $\tau$ fixing the ratio of the scales.
+> - *A moving frame.* The connection's off-diagonal part changes flavor only for a field on the carrier itself, with probability at most $3\times10^{-69}$ for an illustrative turn of one radian per kiloparsec at $10$ GeV. With the archive's typing nothing changes flavor, and the holonomy is §XXI.4c's.
+> - *In place.* Pointers in Part XXXIII's opening, Part XXXIV's opening and §XXXIV.11; the head table's flavor heading; Part XXXIV's row on the next pieces reworded (R385); in the manuscript, the fit's value added beside the hard-limit bound in §13.
+> - *The suite.* Four new sections in `pg_v36_numerics.py`, mode `v36_10`: $50$ checks in all.
+> - *Review.* Two independent referees read the round twice before delivery; what they caught is in the ledger (§§DQ, DS).
+>
+> **Next.** A native source for the trigonal frame; the outstanding selection theorem; the chiral model, with the hops as vevs, the hop matrices from PG, the partner's mass and the ratio of the hop scales; the stitching target; Part XXXIII's standing list (§XXXIII.65); the author's choice for the cap, still open from earlier rounds.
 
 > **v36.9 — the review of v36.8 (22 October 2026): frame consistency, spectral selection and mass generation in Part XXXIV. Parts XXX–XXXII frozen at v35.8.**
 >
