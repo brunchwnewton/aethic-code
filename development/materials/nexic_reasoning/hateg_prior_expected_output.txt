@@ -1,0 +1,325 @@
+================================================================================================================
+1. THE POOL (outside the Transylvanian landmass; any size; Santonian to the island's record end, 67.0 Ma)
+   F  form      AA  S          Iharkut early-branching tetanuran   [medium-sized; the top predators of Iharkut; Osi et al. 2010; CS15 pp. 35, 39; Malafaia et al. 2023]
+   F  form      AA  S          Iharkut abelisaurid   [about 1.8 m, 'relatively small'; femur and ungual; Osi & Buffetaut 2011]
+   F  valid     AA  S          Pneumatoraptor fodori   [a paravian, 'possibly' a dromaeosaurid on its describers' reading; formidable unless an avialan; Osi, Apesteguia & Kowalewski 2010]
+   F  form      AA  eC         Muthmannsdorf tetanuran ('Megalosaurus' pannoniensis, nomen dubium)   [two teeth compared with Iharkut's early-branching tetanurans; Malafaia et al. 2023; CS15]
+   F  contested IA  eC         Tarascosaurus salluvicus   [abelisaurid, about 3 m (3-4 m); validity disputed; Le Loeuff & Buffetaut 1991; Osi & Buffetaut 2011; Tortosa et al. 2014]
+   F  valid     IA  mlC        Arcovenator escotae   [majungasaurine abelisaurid, 5-6 m; cf. Arcovenator at Lano, Armuna, Chera, Poyos; Tortosa et al. 2014; Fondevilla et al. 2019]
+   F  valid     IA  mlC,eM     Pyroraptor olympius   [read as a dromaeosaurid (or an unenlagiine); teeth referred to it at Montrebei, middle C31r; remains at Lo Hueco referred to a small eudromaeosaurian, Variraptor (a possible synonym) and the tentatively dromaeosaurid material of Taveiro share its cell; Allain & Taquet 2000; Fondevilla et al. 2019; Malafaia et al. 2023]
+   F  form      IA  mlC,eM     Taveiro troodontid material   ['tentatively attributed to troodontids'; the Taveiro fauna, Campanian-early Maastrichtian; Iberian troodontids marked '?' in CS15's Table 1; Malafaia et al. 2023; CS15]
+   F  form      IA  mlC,eM     Lo Hueco medium-sized abelisauroid   [late Campanian-Maastrichtian; the only abelisauroid record overlapping the early Maastrichtian; Malafaia et al. 2023]
+   F  form      IA  mlC,eM     Iberian large tetanuran teeth (aff. Megalosauridae, Taveiro; M. cf. pannoniensis, Viso)   [large-sized crowns; Campanian-early Maastrichtian; Malafaia et al. 2023]
+   F  form      IA  lM,tM      late-Maastrichtian abelisaurids (Vitrolles-La-Plaine; South Pyrenees; cf. Arcovenator, Blasi, upper C30n, and Moli del Baro-1 and 172-i/04e, lower C29r)   [medium-sized; medium to large crowns; the C29r teeth share the cell in the refuge's bin; Malafaia et al. 2023; Fondevilla et al. 2019]
+   F  form      IA  lM,tM      late-Maastrichtian dromaeosaurid teeth (Peguera-1; Blasi, upper C30n; Moli del Baro-1, C29r)   [teeth referred to Dromaeosauridae; Fondevilla et al. 2019]
+   F  form      AD  lM,tM      Kozina dromaeosaurid teeth   [teeth assigned to indeterminate dromaeosaurids; Adriatic-Dinaric platform; late Maastrichtian on the review's placement (primary descriptions not read); Malafaia et al. 2023; Debeljak et al. 2002]
+   F  form      AD  lM,tM      Kozina troodontid-like teeth   [a 'troodontid-like morphotype'; same site and placement; described less firmly than the island's 'probably more closely related to troodontids' (the variant leaving out the tentative troodontid forms is printed); Malafaia et al. 2023]
+   F  valid     IA  tM         Tamarro insperatus   [troodontid, C29r; after the island's record; Selles et al. 2021]
+   F  contested NE  tM         Betasuchus bredai   [ceratosaur; Maastricht Formation; often a nomen dubium; CS15]
+   N  valid     IA  mlC        Atsinganosaurus velauciensis   [titanosaur; Garcia et al. 2010; Diez Diaz et al. 2021]
+   N  valid     IA  mlC        Garrigatitan meridionalis   [titanosaur; Diez Diaz et al. 2021]
+   N  valid     IA  mlC        Lirainosaurus astibiae   [titanosaur, C32n.2n; Sanz et al. 1999; Fondevilla et al. 2019]
+   N  valid     IA  mlC,eM     Lohuecotitan pandafilandi   [titanosaur; Diez Diaz et al. 2016]
+   N  valid     IA  mlC,eM     Qunkasaura pintiquiniestra   [titanosaur; Mocho et al. 2024]
+   N  valid     IA  eM         Ampelosaurus atacis   [titanosaur; Le Loeuff 1995]
+   N  valid     IA  eM         Abditosaurus kuehnei   [titanosaur, about 70.5 Ma; Vila et al. 2022]
+   N  form      IA  lM,tM      late-Maastrichtian titanosaurs of the Tremp Basin (Serraduy, Moli del Baro-2)   [C30n-C29r; Fondevilla et al. 2019]
+   N  valid     AA  S          Hungarosaurus tormai   [nodosaurid, 4-4.5 m; Osi 2005; Osi & Prondvai 2013]
+   N  form      AA  S          Iharkut second nodosaurid (cf. Struthiosaurus)   [2-2.5 m; distinguished from Hungarosaurus by its describers; Osi & Prondvai 2013]
+   N  valid     AA  eC         Struthiosaurus austriacus   [nodosaurid, about 2.7 m; Bunzel 1871; CS15]
+   N  valid     IA  eC         Struthiosaurus languedocensis   [nodosaurid, C33r; Garcia & Pereda-Suberbiola 2003]
+   N  form      IA  mlC        Struthiosaurus sp., Lano   [C32n.2n; Fondevilla et al. 2019]
+   N  form      IA  eM         Nodosauridae indet., Els Nerets   [middle C31r; Fondevilla et al. 2019]
+   N  form      IA  lM         ankylosaurians, Fontllonga-6 and Lestaillats   [C31n-C30r; Fondevilla et al. 2019]
+   N  valid     AA  eC         Mochlodon suessi   [rhabdodontid, 1.6-1.8 m; Bunzel 1871; Osi et al. 2012]
+   N  form      IA  eC         Rhabdodontidae indet., Villeveyrac   [C33r; Fondevilla et al. 2019]
+   N  valid     IA  mlC,eM     Obelignathus septimanicus   [rhabdodontid; formerly Rhabdodon septimanicus; Czepinski & Madzia 2025]
+   N  valid     IA  mlC        Matheronodon provincialis   [rhabdodontid, about 5 m; Godefroit et al. 2017]
+   N  valid     IA  eM         Rhabdodon priscus   [rhabdodontid, 5-6 m; Matheron 1869; Osi et al. 2012]
+   N  valid     IA  eM         Pareisactus evrostos   [rhabdodontid, middle-upper C31r; Parraga & Prieto-Marquez 2019]
+   N  valid     AA  S          Ajkaceratops kozmai   [ceratopsian (with 'Mochlodon vorosi'), small; Osi et al. 2010; Maidment et al. 2026]
+   N  contested NE  S          Craspedodon lonzeensis   [?neoceratopsian or hadrosauroid; possibly a nomen dubium; Godefroit & Lambert 2007; CS15]
+   N  valid     CR  eM,lM      Riabininohadros weberae   [styracostern, small; Maastrichtian; Lopatin & Averianov 2020; CS15]
+   N  valid     AD  eC         Tethyshadros insularis   [hadrosauroid, about 81.5-80.5 Ma; Dalla Vecchia 2009; Chiarenza et al. 2021]
+   N  form      AD  lM,tM      Kozina hadrosaur   [hadrosaur remains; the Kozina site's placement as above (Debeljak et al. not read; the hadrosaur from the Slovenian Press Agency's account of the finds); Debeljak et al. 1999, 2002]
+   N  form      IA  mlC        Hadrosauridae indet., Lano   [C32n.2n; Fondevilla et al. 2019]
+   N  form      IA  lM         non-euhadrosaurian hadrosaurid, Vitrolles-La-Plaine (with Hadrosauridae indet., La Solana)   [late Maastrichtian; distinguished from the lambeosaurines as non-euhadrosaurian; Fondevilla et al. 2019; Malafaia et al. 2023]
+   N  valid     IA  eM         Adynomosaurus arcanus   [lambeosaurine, about 70 Ma; Prieto-Marquez et al. 2019]
+   N  valid     IA  lM,tM      Blasisaurus canudoi   [lambeosaurine, upper C30n; Cruzado-Caballero et al. 2010]
+   N  valid     IA  lM,tM      Canardia garonnensis   [lambeosaurine, late Maastrichtian; Prieto-Marquez et al. 2013]
+   N  form      IA  mlC        ?Ornithomimosauria, Lano   [an ungual; non-formidable by diet; Isasmendi et al. 2022]
+   N  form      BG  lM,tM      ?Ornithomimosauria, Vratsa   [a humerus, Kajlaka Formation; CS15; Malafaia et al. 2023]
+   N  valid     IA  mlC,eM     Gargantuavis philoinos   [giant flightless bird, 57-75 kg; Buffetaut & Le Loeuff 1998; Buffetaut & Angst 2019]
+   N  valid     IA  tM         Pararhabdodon isonensis   [lambeosaurine, C29r; Casanovas-Cladellas et al. 1993]
+   N  valid     IA  tM         Arenysaurus ardevoli   [lambeosaurine; Pereda-Suberbiola et al. 2009]
+   N  valid     IA  tM         Fylax thyrakolasus   [hadrosauroid, C29r; Prieto-Marquez & Carrera Farias 2021]
+   N  valid     IA  tM         Calvarius rapidus   [small styracostern, latest Maastrichtian; Prieto-Marquez & Selles 2023]
+   N  form      IA  tM         Beranuy giant ornithuromorph   [C29r; distinct from Gargantuavis; Perez-Pueyo et al. 2021]
+   N  contested NE  tM         Orthomerus dolloi   [hadrosaurid; Maastricht Formation; often a nomen dubium; counted as Betasuchus is; CS15]
+   excluded: Variraptor (a possible synonym of Pyroraptor, in its cell; a variant counts it); Richardoestesia, Paronychodon (whose troodontid attribution Torices et al. 2015 question, per Selles et al. 2021) and other tooth morphotypes of undetermined clade, on both sides; teeth referred only to Paraves indet. (Iharkut's Paraves indet. 1, Lano; the island's NVS tooth), undetermined between the formidable lineages and the birds, on both sides; Hypselosaurus, Rhodanosaurus (nomina dubia in cells already occupied); La Boucharde abelisaurid tibia (middle Campanian: the cell Arcovenator occupies); ichnofossils on both sides
+================================================================================================================
+2. THE ABSENCE, P0 = exp(-mu_H f/(1 - f)), at the median of mu_H's confidence distribution given the k arrivals seen, to the island's record end
+   k = 8 non-formidable arrivals over the window 93.9-67.0 Ma (26.9 Myr)
+   mu_H, the herbivores' expected number over the window (mid-p confidence distribution): median 8.1639 (plug-in at k: 8; the exact construction's two medians 7.6692 and 8.6690)
+   the herbivores' rate: median 0.3035/Myr
+   mu_H's percentiles: 2.5th 3.715; 5th 4.276; 10th 4.991; 12.5th 5.269; 25th 6.364; 50th 8.164; 75th 10.271; 87.5th 11.950; 90th 12.442; 95th 13.872; 97.5th 15.191
+   mu_H, central 50% interval (mid-p): 6.3640 to 10.2707; rate 0.2366 to 0.3818/Myr
+   mu_H, central 75% interval (mid-p): 5.2689 to 11.9504; rate 0.1959 to 0.4443/Myr
+   mu_H, central 90% interval (mid-p): 4.2755 to 13.8716; rate 0.1589 to 0.5157/Myr
+   mu_H, central 95% interval (mid-p): 3.7154 to 15.1915; rate 0.1381 to 0.5647/Myr
+   mu_H, exact (Garwood) 95% interval: 3.4538 to 15.7632  (check: P(K >= 8 | 3.4538) = 0.02500; P(K <= 8 | 15.7632) = 0.02500)
+   mu_H, exact (Garwood) 90% interval: 3.9808 to 14.4346  (check: P(K >= 8 | 3.9808) = 0.05000; P(K <= 8 | 14.4346) = 0.05000)
+   FORMS (main): f = 14/48 = 0.2917; f/(1 - f) = 14/34 = 0.41176;  stage-by-stage share 0.319 (F_f/F_n = 0.46937)
+      the predators' rate: median 0.1250/Myr
+      P0 median = exp(-8.1639 x 0.41176) = 0.03468   (plug-in at k = 8: 0.03710)
+      P0 central intervals (mid-p): 50% 0.01457 to 0.07277; 75% 0.00729 to 0.11423; 90% 0.00331 to 0.17196; 95% 0.00192 to 0.21656
+      P0 exact (Garwood) 95% interval: 0.00152 to 0.24119
+      k =  6:  mu_H median 6.1630;  P0 0.0790;  stage-by-stage 0.0554
+      k =  7:  mu_H median 7.1635;  P0 0.0524;  stage-by-stage 0.0347
+      k =  8:  mu_H median 8.1639;  P0 0.0347;  stage-by-stage 0.0217
+      k =  9:  mu_H median 9.1642;  P0 0.0230;  stage-by-stage 0.0135
+      k = 11:  mu_H median 11.1647;  P0 0.0101;  stage-by-stage 0.0053
+   NAMED, valid only: f = 3/25 = 0.1200; f/(1 - f) = 3/22 = 0.13636;  stage-by-stage share 0.141 (F_f/F_n = 0.16367)
+      the predators' rate: median 0.0414/Myr
+      P0 median = exp(-8.1639 x 0.13636) = 0.32849   (plug-in at k = 8: 0.33591)
+      P0 central intervals (mid-p): 50% 0.24646 to 0.41987; 75% 0.19601 to 0.48749; 90% 0.15083 to 0.55821; 95% 0.12599 to 0.60251
+      P0 exact (Garwood) 95% interval: 0.11654 to 0.62439
+      k =  6:  mu_H median 6.1630;  P0 0.4315;  stage-by-stage 0.3647
+      k =  7:  mu_H median 7.1635;  P0 0.3765;  stage-by-stage 0.3096
+      k =  8:  mu_H median 8.1639;  P0 0.3285;  stage-by-stage 0.2628
+      k =  9:  mu_H median 9.1642;  P0 0.2866;  stage-by-stage 0.2231
+      k = 11:  mu_H median 11.1647;  P0 0.2182;  stage-by-stage 0.1608
+   NAMED, with the contested names: f = 4/27 = 0.1481; f/(1 - f) = 4/23 = 0.17391;  stage-by-stage share 0.167 (F_f/F_n = 0.20096)
+      the predators' rate: median 0.0528/Myr
+      P0 median = exp(-8.1639 x 0.17391) = 0.24176   (plug-in at k = 8: 0.24875)
+      P0 central intervals (mid-p): 50% 0.16759 to 0.33062; 75% 0.12514 to 0.39998; 90% 0.08960 to 0.47541; 95% 0.07122 to 0.52406
+      P0 exact (Garwood) 95% interval: 0.06448 to 0.54845
+      k =  6:  mu_H median 6.1630;  P0 0.3424;  stage-by-stage 0.2898
+      k =  7:  mu_H median 7.1635;  P0 0.2877;  stage-by-stage 0.2370
+      k =  8:  mu_H median 8.1639;  P0 0.2418;  stage-by-stage 0.1939
+      k =  9:  mu_H median 9.1642;  P0 0.2032;  stage-by-stage 0.1586
+      k = 11:  mu_H median 11.1647;  P0 0.1435;  stage-by-stage 0.1061
+   main reading: P0 = exp(-8.1639 x 14/34) = 0.0347, about 1 in 28.8
+   the absence used as data (it lets the attribute help price itself; the total rate's median from all 8 arrivals, mu_T = mu f): exp(-8.1639 f) = 0.0924
+   repeats on a pool no larger than the census (34 non-formidable forms; 8 seen; mu_H median 9.233): P0 = 0.0223; P(a repeat among 8 draws from 34) = 0.59
+   Gargantuavis a flier (k = 7): pool kept, P0 = 0.0524; birds left out on both sides, f = 14/47 = 0.298, P0 = 0.0479
+   Variraptor counted as a species of its own: f = 15/49 = 0.306, P0 = 0.0273
+   Pneumatoraptor read as an avialan (left out; its cell's other records are Paraves indet. teeth, not counted): f = 13/47 = 0.277, P0 = 0.0441
+   the pool's paravians read as the author's bet reads the island's (fliers, left out): f = 8/42 = 0.190, P0 = 0.1465
+   the tentative troodontid forms (Taveiro, Kozina) left out: f = 12/46 = 0.261, P0 = 0.0561
+   the Kozina site left out, both sides: f = 12/45 = 0.267, P0 = 0.0514
+   Kozina and the Taveiro troodontids left out (the census before version 3.1's review): f = 11/44 = 0.250, P0 = 0.0658
+   ornithomimosaurs counted as formidable: f = 16/48 = 0.333, P0 = 0.0169
+   the two least secure predator forms (Lo Hueco, Muthmannsdorf) dropped: f = 12/46 = 0.261, P0 = 0.0561
+   the confidence that P0 exceeds a given value (main reading), the distribution's mass below mu_H = -ln(value)/(f/(1 - f)): 6% 0.3129; 1/16 0.2993; 12% 0.1138
+   sensitivity: P0 = 1/16 at the median needs f/(1 - f) = ln 16/8.1639 = 0.3396, f = 0.254
+   the author's single example (f = 1/2, four herbivore arrivals): (1 - f)^4 = 0.0625 (his negative-binomial count); the Poisson zero term exp(-mu) at mu = 4, 0.0183, and at the median for k = 4, 4.1612, 0.0156
+================================================================================================================
+3. THE REFUGE'S HORIZON (predators' exposure to the boundary, 66.0 Ma: the ratio scaled by 27.9/26.9; k and its window unchanged)
+   FORMS (main)                         k = 8: P0 median 0.03061; central 95% 0.00152 to 0.20459; stage-by-stage 0.0174;  k = 6: 0.0719
+      percentiles: 2.5th 0.00152; 5th 0.00267; 10th 0.00492; 12.5th 0.00607; 25th 0.01245; 50th 0.03061; 75th 0.06601; 87.5th 0.10538; 90th 0.11864; 95th 0.16106; 97.5th 0.20459
+   NAMED, valid only                    k = 8: P0 median 0.31517; central 95% 0.11665 to 0.59127; stage-by-stage 0.2450;  k = 6: 0.4183
+      percentiles: 2.5th 0.11665; 5th 0.14059; 10th 0.17208; 12.5th 0.18449; 25th 0.23396; 50th 0.31517; 75th 0.40654; 87.5th 0.47464; 90th 0.49364; 95th 0.54624; 97.5th 0.59127
+   NAMED, with the contested names      k = 8: P0 median 0.22933; central 95% 0.06456 to 0.51162; stage-by-stage 0.1732;  k = 6: 0.3290
+      percentiles: 2.5th 0.06456; 5th 0.08191; 10th 0.10600; 12.5th 0.11583; 25th 0.15683; 50th 0.22933; 75th 0.31729; 87.5th 0.38659; 90th 0.40644; 95th 0.46245; 97.5th 0.51162
+================================================================================================================
+4. THE PREMISE CHECK: Cenozoic islands, the same random variable read directly
+   islands with >= 4 large-herbivore colonizations: 6; with no terrestrial predator ever: 4 (0.67)
+================================================================================================================
+5. THE PRINCIPLE'S PERCENTILE SCALE (general): at the beta-th percentile of the realization the canonical ratio
+   P(H|A')/P(H|A) is at most kappa_beta = beta/(1-beta) times the prior odds, failing with probability at most
+   1 - beta = 1/(1+kappa_beta); licensed from the 50th percentile (kappa = 1, strict form) up. Read here for a
+   prior of 0.01, with the linkage (1 - r)/(1 + r).
+     50th  kappa   1.00  fails with probability at most 0.50  canonical ratio at most 0.0101  linkage at least 0.980
+     60th  kappa   1.50  fails with probability at most 0.40  canonical ratio at most 0.0152  linkage at least 0.970
+     75th  kappa   3.00  fails with probability at most 0.25  canonical ratio at most 0.0303  linkage at least 0.941
+     80th  kappa   4.00  fails with probability at most 0.20  canonical ratio at most 0.0404  linkage at least 0.922
+     90th  kappa   9.00  fails with probability at most 0.10  canonical ratio at most 0.0909  linkage at least 0.833
+     95th  kappa  19.00  fails with probability at most 0.05  canonical ratio at most 0.1919  linkage at least 0.678
+     99th  kappa  99.00  fails with probability at most 0.01  canonical ratio at most 1.0000  linkage at least 0.000
+================================================================================================================
+6. STAGE ONE, ON TWO PERCENTILES: kappa's (the principle's scale) and the Hateg probability's (its confidence
+   distribution from the herbivores' rate); the canonical ratio is at most kappa_beta * odds(P(A|LC) at its
+   gamma-th percentile), and the linkage at least (1 - r)/(1 + r).
+   FORMS (main):
+      kappa 50th (1) | 10th P 0.0060: r 0.0060 L  0.988 | 25th P 0.0146: r 0.0148 L  0.971 | 50th P 0.0347: r 0.0359 L  0.931 | 75th P 0.0728: r 0.0785 L  0.854 | 90th P 0.1281: r 0.1469 L  0.744
+      kappa 75th (3) | 10th P 0.0060: r 0.0180 L  0.965 | 25th P 0.0146: r 0.0443 L  0.915 | 50th P 0.0347: r 0.1078 L  0.805 | 75th P 0.0728: r 0.2354 L  0.619 | 90th P 0.1281: r 0.4406 L  0.388
+      kappa 80th (4) | 10th P 0.0060: r 0.0240 L  0.953 | 25th P 0.0146: r 0.0591 L  0.888 | 50th P 0.0347: r 0.1437 L  0.749 | 75th P 0.0728: r 0.3139 L  0.522 | 90th P 0.1281: r 0.5875 L  0.260
+      kappa 90th (9) | 10th P 0.0060: r 0.0539 L  0.898 | 25th P 0.0146: r 0.1330 L  0.765 | 50th P 0.0347: r 0.3233 L  0.511 | 75th P 0.0728: r 0.7063 L  0.172 | 90th P 0.1281: r 1.3218 L -0.139
+      kappa 95th (19) | 10th P 0.0060: r 0.1138 L  0.796 | 25th P 0.0146: r 0.2808 L  0.561 | 50th P 0.0347: r 0.6826 L  0.189 | 75th P 0.0728: r 1.4911 L -0.197 | 90th P 0.1281: r 2.7905 L -0.472
+   NAMED, valid only:
+      kappa 50th (1) | 10th P 0.1833: r 0.2244 L  0.633 | 25th P 0.2465: r 0.3271 L  0.507 | 50th P 0.3285: r 0.4892 L  0.343 | 75th P 0.4199: r 0.7237 L  0.160 | 90th P 0.5063: r 1.0255 L -0.013
+      kappa 75th (3) | 10th P 0.1833: r 0.6733 L  0.195 | 25th P 0.2465: r 0.9812 L  0.009 | 50th P 0.3285: r 1.4675 L -0.189 | 75th P 0.4199: r 2.1712 L -0.369 | 90th P 0.5063: r 3.0765 L -0.509
+      kappa 80th (4) | 10th P 0.1833: r 0.8977 L  0.054 | 25th P 0.2465: r 1.3083 L -0.134 | 50th P 0.3285: r 1.9567 L -0.324 | 75th P 0.4199: r 2.8950 L -0.487 | 90th P 0.5063: r 4.1020 L -0.608
+      kappa 90th (9) | 10th P 0.1833: r 2.0198 L -0.338 | 25th P 0.2465: r 2.9437 L -0.493 | 50th P 0.3285: r 4.4025 L -0.630 | 75th P 0.4199: r 6.5137 L -0.734 | 90th P 0.5063: r 9.2295 L -0.804
+      kappa 95th (19) | 10th P 0.1833: r 4.2640 L -0.620 | 25th P 0.2465: r 6.2144 L -0.723 | 50th P 0.3285: r 9.2942 L -0.806 | 75th P 0.4199: r 13.7510 L -0.864 | 90th P 0.5063: r 19.4844 L -0.902
+   NAMED, with the contested names:
+      kappa 50th (1) | 10th P 0.1149: r 0.1298 L  0.770 | 25th P 0.1676: r 0.2013 L  0.665 | 50th P 0.2418: r 0.3188 L  0.516 | 75th P 0.3306: r 0.4939 L  0.339 | 90th P 0.4198: r 0.7234 L  0.160
+      kappa 75th (3) | 10th P 0.1149: r 0.3894 L  0.440 | 25th P 0.1676: r 0.6040 L  0.247 | 50th P 0.2418: r 0.9565 L  0.022 | 75th P 0.3306: r 1.4818 L -0.194 | 90th P 0.4198: r 2.1703 L -0.369
+      kappa 80th (4) | 10th P 0.1149: r 0.5191 L  0.317 | 25th P 0.1676: r 0.8054 L  0.108 | 50th P 0.2418: r 1.2754 L -0.121 | 75th P 0.3306: r 1.9757 L -0.328 | 90th P 0.4198: r 2.8938 L -0.486
+      kappa 90th (9) | 10th P 0.1149: r 1.1681 L -0.078 | 25th P 0.1676: r 1.8120 L -0.289 | 50th P 0.2418: r 2.8696 L -0.483 | 75th P 0.3306: r 4.4453 L -0.633 | 90th P 0.4198: r 6.5110 L -0.734
+      kappa 95th (19) | 10th P 0.1149: r 2.4659 L -0.423 | 25th P 0.1676: r 3.8254 L -0.586 | 50th P 0.2418: r 6.0580 L -0.717 | 75th P 0.3306: r 9.3845 L -0.807 | 90th P 0.4198: r 13.7453 L -0.864
+   the configuration (its prior a point; the principle's percentile alone):
+      kappa 50th (1) | P_LC 0.0134: r 0.0136 L  0.973 | P_LC 0.0445: r 0.0466 L  0.911 | P_LC 0.1090: r 0.1223 L  0.782
+      kappa 75th (3) | P_LC 0.0134: r 0.0407 L  0.922 | P_LC 0.0445: r 0.1397 L  0.755 | P_LC 0.1090: r 0.3670 L  0.463
+      kappa 80th (4) | P_LC 0.0134: r 0.0543 L  0.897 | P_LC 0.0445: r 0.1863 L  0.686 | P_LC 0.1090: r 0.4893 L  0.343
+      kappa 90th (9) | P_LC 0.0134: r 0.1222 L  0.782 | P_LC 0.0445: r 0.4192 L  0.409 | P_LC 0.1090: r 1.1010 L -0.048
+      kappa 95th (19) | P_LC 0.0134: r 0.2581 L  0.590 | P_LC 0.0445: r 0.8849 L  0.061 | P_LC 0.1090: r 2.3244 L -0.398
+================================================================================================================
+7. THE REFUGE AND THE FORWARD PREDICTION: the occupied branch's prior is P_LC * P(A|LC) counted to the
+   boundary; the canonical ratio of the branch that turned arboreal only after the boundary to the occupied one
+   is at most kappa_beta * odds of that prior, on the same two percentiles (printed as 1/N).
+   FORMS (main): the refuge's price, P_LC * P0 to the boundary, at the Hateg median 0.000410; 0.001362; 0.003336; over its central 95% interval 0.000020 to 0.002742; 0.000068 to 0.009104; 0.000166 to 0.022300
+      P_LC exact extremes, 67/5000:
+         kappa 50th | 10th 1/15157.6 | 25th 1/5994.8 | 50th 1/2437.4 | 75th 1/1129.5 | 90th 1/628.0
+         kappa 75th | 10th 1/5052.5 | 25th 1/1998.3 | 50th 1/812.5 | 75th 1/376.5 | 90th 1/209.3
+         kappa 80th | 10th 1/3789.4 | 25th 1/1498.7 | 50th 1/609.3 | 75th 1/282.4 | 90th 1/157.0
+         kappa 90th | 10th 1/1684.2 | 25th 1/666.1 | 50th 1/270.8 | 75th 1/125.5 | 90th 1/69.8
+         kappa 95th | 10th 1/797.8 | 25th 1/315.5 | 50th 1/128.3 | 75th 1/59.4 | 90th 1/33.1
+      P_LC canonical tolerance, 89/2000:
+         kappa 50th | 10th 1/4563.6 | 25th 1/1804.5 | 50th 1/733.3 | 75th 1/339.4 | 90th 1/188.4
+         kappa 75th | 10th 1/1521.2 | 25th 1/601.5 | 50th 1/244.4 | 75th 1/113.1 | 90th 1/62.8
+         kappa 80th | 10th 1/1140.9 | 25th 1/451.1 | 50th 1/183.3 | 75th 1/84.9 | 90th 1/47.1
+         kappa 90th | 10th 1/507.1 | 25th 1/200.5 | 50th 1/81.5 | 75th 1/37.7 | 90th 1/20.9
+         kappa 95th | 10th 1/240.2 | 25th 1/95.0 | 50th 1/38.6 | 75th 1/17.9 | 90th 1/9.9
+      P_LC least favourable separating settings, 218/2000:
+         kappa 50th | 10th 1/1862.5 | 25th 1/736.1 | 50th 1/298.8 | 75th 1/138.0 | 90th 1/76.3
+         kappa 75th | 10th 1/620.8 | 25th 1/245.4 | 50th 1/99.6 | 75th 1/46.0 | 90th 1/25.4
+         kappa 80th | 10th 1/465.6 | 25th 1/184.0 | 50th 1/74.7 | 75th 1/34.5 | 90th 1/19.1
+         kappa 90th | 10th 1/206.9 | 25th 1/81.8 | 50th 1/33.2 | 75th 1/15.3 | 90th 1/8.5
+         kappa 95th | 10th 1/98.0 | 25th 1/38.7 | 50th 1/15.7 | 75th 1/7.3 | 90th 1/4.0
+   NAMED, valid only: the refuge's price, P_LC * P0 to the boundary, at the Hateg median 0.004223; 0.014025; 0.034353; over its central 95% interval 0.001563 to 0.007923; 0.005191 to 0.026312; 0.012715 to 0.064449
+      P_LC exact extremes, 67/5000:
+         kappa 50th | 10th 1/432.7 | 25th 1/318.0 | 50th 1/235.8 | 75th 1/182.6 | 90th 1/150.2
+         kappa 75th | 10th 1/144.2 | 25th 1/106.0 | 50th 1/78.6 | 75th 1/60.9 | 90th 1/50.1
+         kappa 80th | 10th 1/108.2 | 25th 1/79.5 | 50th 1/58.9 | 75th 1/45.6 | 90th 1/37.5
+         kappa 90th | 10th 1/48.1 | 25th 1/35.3 | 50th 1/26.2 | 75th 1/20.3 | 90th 1/16.7
+         kappa 95th | 10th 1/22.8 | 25th 1/16.7 | 50th 1/12.4 | 75th 1/9.6 | 90th 1/7.9
+      P_LC canonical tolerance, 89/2000:
+         kappa 50th | 10th 1/129.6 | 25th 1/95.1 | 50th 1/70.3 | 75th 1/54.3 | 90th 1/44.5
+         kappa 75th | 10th 1/43.2 | 25th 1/31.7 | 50th 1/23.4 | 75th 1/18.1 | 90th 1/14.8
+         kappa 80th | 10th 1/32.4 | 25th 1/23.8 | 50th 1/17.6 | 75th 1/13.6 | 90th 1/11.1
+         kappa 90th | 10th 1/14.4 | 25th 1/10.6 | 50th 1/7.8 | 75th 1/6.0 | 90th 1/4.9
+         kappa 95th | 10th 1/6.8 | 25th 1/5.0 | 50th 1/3.7 | 75th 1/2.9 | 90th 1/2.3
+      P_LC least favourable separating settings, 218/2000:
+         kappa 50th | 10th 1/52.3 | 25th 1/38.2 | 50th 1/28.1 | 75th 1/21.6 | 90th 1/17.6
+         kappa 75th | 10th 1/17.4 | 25th 1/12.7 | 50th 1/9.4 | 75th 1/7.2 | 90th 1/5.9
+         kappa 80th | 10th 1/13.1 | 25th 1/9.6 | 50th 1/7.0 | 75th 1/5.4 | 90th 1/4.4
+         kappa 90th | 10th 1/5.8 | 25th 1/4.2 | 50th 1/3.1 | 75th 1/2.4 | 90th 1/2.0
+         kappa 95th | 10th 1/2.8 | 25th 1/2.0 | 50th 1/1.5 | 75th 1/1.1 | 90th 1/0.9
+   NAMED, with the contested names: the refuge's price, P_LC * P0 to the boundary, at the Hateg median 0.003073; 0.010205; 0.024997; over its central 95% interval 0.000865 to 0.006856; 0.002873 to 0.022767; 0.007037 to 0.055766
+      P_LC exact extremes, 67/5000:
+         kappa 50th | 10th 1/703.0 | 25th 1/474.9 | 50th 1/324.4 | 75th 1/234.2 | 90th 1/182.6
+         kappa 75th | 10th 1/234.3 | 25th 1/158.3 | 50th 1/108.1 | 75th 1/78.1 | 90th 1/60.9
+         kappa 80th | 10th 1/175.8 | 25th 1/118.7 | 50th 1/81.1 | 75th 1/58.5 | 90th 1/45.7
+         kappa 90th | 10th 1/78.1 | 25th 1/52.8 | 50th 1/36.0 | 75th 1/26.0 | 90th 1/20.3
+         kappa 95th | 10th 1/37.0 | 25th 1/25.0 | 50th 1/17.1 | 75th 1/12.3 | 90th 1/9.6
+      P_LC canonical tolerance, 89/2000:
+         kappa 50th | 10th 1/211.0 | 25th 1/142.3 | 50th 1/97.0 | 75th 1/69.8 | 90th 1/54.3
+         kappa 75th | 10th 1/70.3 | 25th 1/47.4 | 50th 1/32.3 | 75th 1/23.3 | 90th 1/18.1
+         kappa 80th | 10th 1/52.8 | 25th 1/35.6 | 50th 1/24.2 | 75th 1/17.5 | 90th 1/13.6
+         kappa 90th | 10th 1/23.4 | 25th 1/15.8 | 50th 1/10.8 | 75th 1/7.8 | 90th 1/6.0
+         kappa 95th | 10th 1/11.1 | 25th 1/7.5 | 50th 1/5.1 | 75th 1/3.7 | 90th 1/2.9
+      P_LC least favourable separating settings, 218/2000:
+         kappa 50th | 10th 1/85.6 | 25th 1/57.5 | 50th 1/39.0 | 75th 1/27.9 | 90th 1/21.6
+         kappa 75th | 10th 1/28.5 | 25th 1/19.2 | 50th 1/13.0 | 75th 1/9.3 | 90th 1/7.2
+         kappa 80th | 10th 1/21.4 | 25th 1/14.4 | 50th 1/9.8 | 75th 1/7.0 | 90th 1/5.4
+         kappa 90th | 10th 1/9.5 | 25th 1/6.4 | 50th 1/4.3 | 75th 1/3.1 | 90th 1/2.4
+         kappa 95th | 10th 1/4.5 | 25th 1/3.0 | 50th 1/2.1 | 75th 1/1.5 | 90th 1/1.1
+   the configuration alone, exact extremes, 67/5000                      kappa 50th 1/73.6; kappa 75th 1/24.5; kappa 80th 1/18.4; kappa 90th 1/8.2; kappa 95th 1/3.9
+   the configuration alone, canonical tolerance, 89/2000                 kappa 50th 1/21.5; kappa 75th 1/7.2; kappa 80th 1/5.4; kappa 90th 1/2.4; kappa 95th 1/1.1
+   the configuration alone, least favourable separating settings, 218/2000 kappa 50th 1/8.2; kappa 75th 1/2.7; kappa 80th 1/2.0; kappa 90th 1/0.9; kappa 95th 1/0.4
+================================================================================================================
+8. THE FACTOR READING: the level at which the principle carries the claim that the alternative cuts the
+   probability of observers by at least N times (the canonical ratio at most 1/N, N fixed in advance):
+   kappa/(1+kappa) at the kappa that puts the bound at 1/N, with no credit where that kappa falls below one (the
+   level reading), averaged over the confidence distribution: a confidence-weighted level, not a guarantee at
+   the unknown prior.
+   the absence, FORMS (main)                     1x 0.946  2x 0.901  3x 0.860  5x 0.784  10x 0.633  20x 0.446  50x 0.226  100x 0.117  300x 0.033  1000x 0.007
+   the absence, NAMED, valid only                1x 0.615  2x 0.317  3x 0.154  5x 0.041  10x 0.004  20x 0.000  50x 0.000  100x 0.000  300x 0.000  1000x 0.000
+   the absence, NAMED, with the contested names  1x 0.728  2x 0.505  3x 0.333  5x 0.149  10x 0.030  20x 0.004  50x 0.000  100x 0.000  300x 0.000  1000x 0.000
+   the configuration, P_LC 0.0134            1x 0.987  2x 0.974  3x 0.961  5x 0.936  10x 0.880  20x 0.786  50x 0.596  100x 0.000  300x 0.000  1000x 0.000
+   the configuration, P_LC 0.0445            1x 0.956  2x 0.915  3x 0.877  5x 0.811  10x 0.682  20x 0.518  50x 0.000  100x 0.000  300x 0.000  1000x 0.000
+   the configuration, P_LC 0.1090            1x 0.891  2x 0.803  3x 0.732  5x 0.620  10x 0.000  20x 0.000  50x 0.000  100x 0.000  300x 0.000  1000x 0.000
+   the refuge, FORMS (main)                     P_LC 0.0134 1x 0.999  2x 0.999  3x 0.998  5x 0.997  10x 0.993  20x 0.987  50x 0.969  100x 0.942  300x 0.850  1000x 0.602
+   the refuge, FORMS (main)                     P_LC 0.0445 1x 0.998  2x 0.996  3x 0.993  5x 0.989  10x 0.979  20x 0.960  50x 0.910  100x 0.836  300x 0.602  1000x 0.286
+   the refuge, FORMS (main)                     P_LC 0.1090 1x 0.995  2x 0.989  3x 0.984  5x 0.974  10x 0.951  20x 0.911  50x 0.803  100x 0.654  300x 0.360  1000x 0.129
+   the refuge, NAMED, valid only                P_LC 0.0134 1x 0.996  2x 0.991  3x 0.987  5x 0.979  10x 0.958  20x 0.920  50x 0.824  100x 0.704  300x 0.168  1000x 0.002
+   the refuge, NAMED, valid only                P_LC 0.0445 1x 0.986  2x 0.971  3x 0.958  5x 0.932  10x 0.874  20x 0.778  50x 0.508  100x 0.125  300x 0.002  1000x 0.000
+   the refuge, NAMED, valid only                P_LC 0.1090 1x 0.965  2x 0.932  3x 0.901  5x 0.847  10x 0.738  20x 0.505  50x 0.066  100x 0.005  300x 0.000  1000x 0.000
+   the refuge, NAMED, with the contested names  P_LC 0.0134 1x 0.997  2x 0.993  3x 0.990  5x 0.984  10x 0.968  20x 0.939  50x 0.862  100x 0.762  300x 0.346  1000x 0.022
+   the refuge, NAMED, with the contested names  P_LC 0.0445 1x 0.989  2x 0.978  3x 0.968  5x 0.948  10x 0.902  20x 0.825  50x 0.631  100x 0.292  300x 0.022  1000x 0.000
+   the refuge, NAMED, with the contested names  P_LC 0.1090 1x 0.973  2x 0.948  3x 0.925  5x 0.882  10x 0.792  20x 0.631  50x 0.198  100x 0.039  300x 0.001  1000x 0.000
+================================================================================================================
+9. CANONICAL QUANTILES, written as percentages: the canonical variable V = kappa(U) * odds(P), kappa(q) =
+   max(1, q/(1-q)), U uniform and the prior from its confidence distribution independently of U. The canonical
+   quantile of a value c is Pr[V > c], one minus section 8's averaged level (integrated here, not averaged over the
+   grid); the canonical ratio at canonical quantile q is the least c with Pr[V > c] <= q, falling as q rises, and the
+   claim that the canonical ratio is at most it is carried at level 1 - q: a level over the realization of a declared
+   attribute, not conditional on the prior realized, and, averaged over the confidence distribution, a weighted
+   calibration index of this construction, not a posterior probability or a coverage guarantee. V is an envelope,
+   the principle's bound read at a random percentile, not the canonical ratio's distribution. For a point prior the
+   canonical ratio at q is kappa(1-q) times the odds, the median's above 50%. Bounds rounded up.
+   the accordance ratio at canonical quantile q (any attribute, its prior given), kappa(1-q): 1%: 99; 5%: 19; 10%: 9; 15%: 5.67; 20%: 4; 25%: 3; 30%: 2.33; 35%: 1.86; 40%: 1.5; 45%: 1.22; 50%: 1; 55%: 1; 60%: 1; 65%: 1; 70%: 1; 75%: 1; 80%: 1; 85%: 1; 90%: 1; 95%: 1; 99%: 1
+    1%: absence, forms 6.0451; named 38.179 (contested) to 56.784 (valid); configuration 1.3446 to 4.6107 (least favourable 12.111); refuge 0.064864 to 0.21614
+    5%: absence, forms 1.0952; named 7.1861 (contested) to 10.729 (valid); configuration 0.25806 to 0.88488 (least favourable 2.3244); refuge 0.011861 to 0.039511
+   10%: absence, forms 0.49547; named 3.3279 (contested) to 4.9892 (valid); configuration 0.12224 to 0.41915 (least favourable 1.101); refuge 0.0053363 to 0.017778
+   15%: absence, forms 0.30822; named 2.06 (contested) to 3.0939 (valid); configuration 0.076965 to 0.26391 (least favourable 0.69323); refuge 0.0033241 to 0.011076
+   20%: absence, forms 0.2191; named 1.45 (contested) to 2.1724 (valid); configuration 0.054328 to 0.18629 (least favourable 0.48934); refuge 0.0023885 to 0.0079566
+   25%: absence, forms 0.16679; named 1.107 (contested) to 1.6505 (valid); configuration 0.040746 to 0.13972 (least favourable 0.367); refuge 0.0018391 to 0.0061241
+   30%: absence, forms 0.13205; named 0.89342 (contested) to 1.3278 (valid); configuration 0.031691 to 0.10867 (least favourable 0.28545); refuge 0.0014699 to 0.0048928
+   35%: absence, forms 0.10705; named 0.74837 (contested) to 1.1122 (valid); configuration 0.025224 to 0.086492 (least favourable 0.22719); refuge 0.0012005 to 0.0039948
+   40%: absence, forms 0.088054; named 0.64245 (contested) to 0.9574 (valid); configuration 0.020373 to 0.069859 (least favourable 0.1835); refuge 0.00099302 to 0.0033034
+   45%: absence, forms 0.073046; named 0.56048 (contested) to 0.83929 (valid); configuration 0.0166 to 0.056922 (least favourable 0.14952); refuge 0.00082709 to 0.0027508
+   50%: absence, forms 0.060834; named 0.49406 (contested) to 0.74458 (valid); configuration 0.013582 to 0.046572 (least favourable 0.12233); refuge 0.00069066 to 0.0022965
+   55%: absence, forms 0.050668; named 0.43824 (contested) to 0.66553 (valid); configuration 0.013582 to 0.046572 (least favourable 0.12233); refuge 0.00057609 to 0.0019152
+   60%: absence, forms 0.042048; named 0.38986 (contested) to 0.59731 (valid); configuration 0.013582 to 0.046572 (least favourable 0.12233); refuge 0.00047827 to 0.0015897
+   65%: absence, forms 0.03463; named 0.34681 (contested) to 0.53671 (valid); configuration 0.013582 to 0.046572 (least favourable 0.12233); refuge 0.00039362 to 0.0013082
+   70%: absence, forms 0.028165; named 0.30755 (contested) to 0.48141 (valid); configuration 0.013582 to 0.046572 (least favourable 0.12233); refuge 0.00031956 to 0.0010619
+   75%: absence, forms 0.022465; named 0.27085 (contested) to 0.42961 (valid); configuration 0.013582 to 0.046572 (least favourable 0.12233); refuge 0.00025411 to 0.0008443
+   80%: absence, forms 0.017387; named 0.23562 (contested) to 0.37963 (valid); configuration 0.013582 to 0.046572 (least favourable 0.12233); refuge 0.00019577 to 0.00065038
+   85%: absence, forms 0.012811; named 0.20061 (contested) to 0.32958 (valid); configuration 0.013582 to 0.046572 (least favourable 0.12233); refuge 0.00014326 to 0.00047589
+   90%: absence, forms 0.0086212; named 0.16398 (contested) to 0.27659 (valid); configuration 0.013582 to 0.046572 (least favourable 0.12233); refuge 9.5415e-05 to 0.00031692
+   95%: absence, forms 0.0046671; named 0.12139 (contested) to 0.21369 (valid); configuration 0.013582 to 0.046572 (least favourable 0.12233); refuge 5.0705e-05 to 0.0001684
+   99%: absence, forms 0.0013406; named 0.067833 (contested) to 0.13096 (valid); configuration 0.013582 to 0.046572 (least favourable 0.12233); refuge 1.3962e-05 to 4.6366e-05
+   the table, rows LaTeX-ready, canonical quantiles in percent: Table tab:hat-canonical in the long paper, every 5%
+   with 1% and 99%:
+      $1$ & $6.05$ & $38.2$--$56.8$ & $1.35$--$4.62$ & $1/15.4$--$1/4.62$ \\
+      $5$ & $1.10$ & $7.19$--$10.8$ & $1/3.87$--$1/1.13$ & $1/84.3$--$1/25.3$ \\
+      $10$ & $1/2.01$ & $3.33$--$4.99$ & $1/8.18$--$1/2.38$ & $1/187$--$1/56.2$ \\
+      $15$ & $1/3.24$ & $2.06$--$3.10$ & $1/12.9$--$1/3.78$ & $1/300$--$1/90.2$ \\
+      $20$ & $1/4.56$ & $1.46$--$2.18$ & $1/18.4$--$1/5.36$ & $1/418$--$1/125$ \\
+      $25$ & $1/5.99$ & $1.11$--$1.66$ & $1/24.5$--$1/7.15$ & $1/543$--$1/163$ \\
+      $30$ & $1/7.57$ & $1/1.11$--$1.33$ & $1/31.5$--$1/9.20$ & $1/680$--$1/204$ \\
+      $35$ & $1/9.34$ & $1/1.33$--$1.12$ & $1/39.6$--$1/11.5$ & $1/832$--$1/250$ \\
+      $40$ & $1/11.3$ & $1/1.55$--$1/1.04$ & $1/49.0$--$1/14.3$ & $1/1000$--$1/302$ \\
+      $45$ & $1/13.6$ & $1/1.78$--$1/1.19$ & $1/60.2$--$1/17.5$ & $1/1200$--$1/363$ \\
+      $50$ & $1/16.4$ & $1/2.02$--$1/1.34$ & $1/73.6$--$1/21.4$ & $1/1440$--$1/435$ \\
+      $55$ & $1/19.7$ & $1/2.28$--$1/1.50$ & $1/73.6$--$1/21.4$ & $1/1730$--$1/522$ \\
+      $60$ & $1/23.7$ & $1/2.56$--$1/1.67$ & $1/73.6$--$1/21.4$ & $1/2090$--$1/629$ \\
+      $65$ & $1/28.8$ & $1/2.88$--$1/1.86$ & $1/73.6$--$1/21.4$ & $1/2540$--$1/764$ \\
+      $70$ & $1/35.5$ & $1/3.25$--$1/2.07$ & $1/73.6$--$1/21.4$ & $1/3120$--$1/941$ \\
+      $75$ & $1/44.5$ & $1/3.69$--$1/2.32$ & $1/73.6$--$1/21.4$ & $1/3930$--$1/1180$ \\
+      $80$ & $1/57.5$ & $1/4.24$--$1/2.63$ & $1/73.6$--$1/21.4$ & $1/5100$--$1/1530$ \\
+      $85$ & $1/78.0$ & $1/4.98$--$1/3.03$ & $1/73.6$--$1/21.4$ & $1/6980$--$1/2100$ \\
+      $90$ & $1/115$ & $1/6.09$--$1/3.61$ & $1/73.6$--$1/21.4$ & $1/10400$--$1/3150$ \\
+      $95$ & $1/214$ & $1/8.23$--$1/4.67$ & $1/73.6$--$1/21.4$ & $1/19700$--$1/5930$ \\
+      $99$ & $1/745$ & $1/14.7$--$1/7.63$ & $1/73.6$--$1/21.4$ & $1/71600$--$1/21500$ \\
+   Table tab:hateg-canonical in Optimal Earth, at 1, 5, 10, 25, 50, 75, 90, 95 and 99%:
+      $1$ & $6.05$ & $38.2$--$56.8$ & $1.35$--$4.62$ & $1/15.4$--$1/4.62$ \\
+      $5$ & $1.10$ & $7.19$--$10.8$ & $1/3.87$--$1/1.13$ & $1/84.3$--$1/25.3$ \\
+      $10$ & $1/2.01$ & $3.33$--$4.99$ & $1/8.18$--$1/2.38$ & $1/187$--$1/56.2$ \\
+      $25$ & $1/5.99$ & $1.11$--$1.66$ & $1/24.5$--$1/7.15$ & $1/543$--$1/163$ \\
+      $50$ & $1/16.4$ & $1/2.02$--$1/1.34$ & $1/73.6$--$1/21.4$ & $1/1440$--$1/435$ \\
+      $75$ & $1/44.5$ & $1/3.69$--$1/2.32$ & $1/73.6$--$1/21.4$ & $1/3930$--$1/1180$ \\
+      $90$ & $1/115$ & $1/6.09$--$1/3.61$ & $1/73.6$--$1/21.4$ & $1/10400$--$1/3150$ \\
+      $95$ & $1/214$ & $1/8.23$--$1/4.67$ & $1/73.6$--$1/21.4$ & $1/19700$--$1/5930$ \\
+      $99$ & $1/745$ & $1/14.7$--$1/7.63$ & $1/73.6$--$1/21.4$ & $1/71600$--$1/21500$ \\
+   the canonical quantile of the factor one (the claim that the alternative was no more productive), P(A) for a point prior: forms 5.423%; named 27.24% (contested) to 38.47% (valid); configuration 1.34% to 4.45%; refuge 0.066% to 0.220%
+   the canonical quantiles of the cuts 2x, 5x, 10x, 20x, 100x on the count of forms (one minus section 8's levels, integrated): 2x 9.92%; 5x 21.57%; 10x 36.71%; 20x 55.36%; 100x 88.31%
+   up to canonical quantile 50% the configuration's bound is the lower; above it the configuration's stays at its median and the absence's passes it above the absence's canonical quantile of the configuration's odds: canonical tolerance 57.278%; exact extremes 84.123%
+   the two-percentile bound with kappa and the Hateg probability both at their medians, 0.03592, sits at canonical quantile 64.07% (at most 75%: Proposition prop:canonical-scale)
+   the forward prediction on named species (the refuge, named, to the boundary), and on the least favourable separating settings (forms):
+      10%: named, cut at least 7.65- to 34.4-fold (bounds 0.028999 to 0.13062); least favourable, forms: cut at least 22.8-fold (bound 0.043837)
+      50%: named, cut at least 50.6- to 224-fold (bounds 0.0044586 to 0.019724); least favourable, forms: cut at least 177-fold (bound 0.00564)
+      90%: named, cut at least 108- to 566-fold (bounds 0.0017664 to 0.0092502); least favourable, forms: cut at least 1280-fold (bound 0.0007766)
