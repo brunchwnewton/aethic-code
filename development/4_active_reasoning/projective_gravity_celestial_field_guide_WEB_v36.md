@@ -1,8 +1,8 @@
-# Projective Gravity — Version 36.7 (draft): the observed rotation curve
+# Projective Gravity — Version 36.8 (draft): the observed rotation curve and flavor
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases — with branches on charge and extremality, and on rendering and canonical optics
 
-**Claim status of Part XXXIII (v36.7).** This table governs the open work: Part XXXIII, the observed rotation curve. Parts XXX–XXXII are frozen at v35.8, and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the two frozen tables that follow, unchanged except for marked post-freeze notes; v36.0 added such notes and pointers in §§XXXI.37, XXXI.38, XXXI.41, XXXII.5 and XXXII.7 and in four rows (R313); v36.1–v36.7 add none (v36.4's one rendering repair in §XXX.11, R355, excepted). v36.1 was the corrective round on the two reports on v36.0 (§XXXIII.14), §XXXIII.24 listing each v36.0 claim against its status; v36.2 answers Entries 323–324 and the two responses on them (§XXXIII.27), with the rows marked R332–R337 added, the row on Entry 322's family reworded (R332; its v36.1 text quoted under R337) and the row on the next pieces extended (R337); v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§XXXIII.34), with the rows marked R339–R348 added, the occupancy row reworded for the review's two distinctions (R347; its v36.2 text quoted there) and the row on the next pieces extended (R348); v36.4 answers the review of v36.3 and Entries 340–341 with the response (§XXXIII.44), with the rows marked R349–R354 added, the isothermal row extended for the erratum and the two ensembles (R350; its v36.3 text quoted there) and the row on the next pieces extended (R353); v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§XXXIII.51), with the rows marked R356–R358 added, the occupancy and regular-family rows corrected for the kinematics erratum (R357; their v36.4 text quoted in the ledger), the isothermal and clash rows extended (R358) and the row on the next pieces extended (R359); v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§XXXIII.56), with the rows marked R360–R363 added and the row on the next pieces extended (R364); v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§XXXIII.61), with the rows marked R365–R368 added and the row on the next pieces reworded and extended (R369). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*; a fit that fails is marked *(negative)*.
+**Claim status of Parts XXXIII–XXXIV (v36.8).** This table governs the open work: Part XXXIII, the observed rotation curve, and Part XXXIV, flavor, opened in v36.8. Parts XXX–XXXII are frozen at v35.8, and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the two frozen tables that follow, unchanged except for marked post-freeze notes; v36.0 added such notes and pointers in §§XXXI.37, XXXI.38, XXXI.41, XXXII.5 and XXXII.7 and in four rows (R313); v36.1–v36.8 add none (v36.4's one rendering repair in §XXX.11, R355, excepted). v36.1 was the corrective round on the two reports on v36.0 (§XXXIII.14), §XXXIII.24 listing each v36.0 claim against its status; v36.2 answers Entries 323–324 and the two responses on them (§XXXIII.27), with the rows marked R332–R337 added, the row on Entry 322's family reworded (R332; its v36.1 text quoted under R337) and the row on the next pieces extended (R337); v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§XXXIII.34), with the rows marked R339–R348 added, the occupancy row reworded for the review's two distinctions (R347; its v36.2 text quoted there) and the row on the next pieces extended (R348); v36.4 answers the review of v36.3 and Entries 340–341 with the response (§XXXIII.44), with the rows marked R349–R354 added, the isothermal row extended for the erratum and the two ensembles (R350; its v36.3 text quoted there) and the row on the next pieces extended (R353); v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§XXXIII.51), with the rows marked R356–R358 added, the occupancy and regular-family rows corrected for the kinematics erratum (R357; their v36.4 text quoted in the ledger), the isothermal and clash rows extended (R358) and the row on the next pieces extended (R359); v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§XXXIII.56), with the rows marked R360–R363 added and the row on the next pieces extended (R364); v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§XXXIII.61), with the rows marked R365–R368 added and the row on the next pieces reworded and extended (R369); v36.8 answers Entries 351–353 and the three responses by opening Part XXXIV (§XXXIV.1), with the flavor heading, the rows marked R370–R373 and a row on Part XXXIV's next pieces added, and Part XXXIII's rows on the flavor note and on the next pieces amended, the rest of flavor leaving its backlog while the categories of mass and Entry 319's audit stay there (R374; their v36.7 text quoted in the ledger). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*; a fit that fails is marked *(negative)*.
 
 | claim | type | evidence | archive |
 |:--|:--|:--|:--|
@@ -19,7 +19,7 @@
 | Orbits through the equator: $\Phi''(\pi/2) = -v_{\rm eq}^2$, a barrier for $L<\ell v_{\rm eq}$; the radial kick to cross from a circular orbit, $0.64\,v_c$ at $13$ kpc down to $0.006\,v_c$ at $183$ kpc; crossing orbits with $\chi_{\max} = \pi-\chi_{\min}$, half of each radial period beyond the equator ($0.50000$ over one period), which in gnomonic radius re-enter the near galaxy's image; every $L>\ell v_{\rm eq}$ crosses in a field whose circular angular momentum rises to the equator, as the benchmark's does (R312, R325) | analytic theorem; numerical control | — | §§XXXIII.7, 21 |
 | The author's $8$ kpc leaf: gravity alone needs $0.64$–$0.67$ of McMillan's mass over the $12.6$ kpc of arc it holds and rises where the data decline; the leaf's own light excludes it ($R_\odot>\ell$); the gnomonic reading of McMillan's densities gives $\chi^2 = 10{,}505$ and $14{,}248$. With the labels the physical radius drops out: the Milky Way's gnomonic image asks for $\ell_{\rm eff} = 23.2$ and $23.7$ kpc with $1.28$ and $1.34$ times the baryons, at $\chi^2 = 172$ and $499$ — $1.6$ and $1.8$ times the reference, a two-parameter fit (R326) | observational fit (negative without labels; a fit with two) | Eilers et al. 2019; Ou et al. 2024; McMillan 2017 | §XXXIII.22 |
 | Entry 322's curve-shape family as a classification: Part XXV's spheres have three regimes (overshoot to $r_d/\ell = 0.0423$, a wiggle below the plateau to $0.0515$, monotonic beyond); the gnomonic exponential disks have a bump in every member (smallest $+2.5\%$, near $h/\ell = 0.22$) and lose circular support over a band inside beyond $h/\ell = 0.87$ ($0.2$–$1.9\,h$ at $h/\ell = 1$; R332). The pilot sorted by observed shape (six without a significant overshoot, NGC 2841 a bump, NGC 7814 declining) and by PG's curves from the measured sources, no amplitude or label: $5$ of $8$ in the same class; the dwarfs, the broadest sources ($R_{\rm half}/\ell_{\rm arena} = 1.6$–$1.7$), have no circular support on their arena leaves — for a gnomonic disk the broad regime is the unsupported one (R327) | analytic theorem; numerical control; observational classification; open bridge (a relation for the index) | SPARC; Entry 322 | §XXXIII.23 |
-| The author's note on flavor directions, zoom labels and kinds of mass, and Entries 318–319, with three analyses; their algebra checked (three invariants, conjugation, the meridian toy); the flavor program held (R314) | record; analytic theorem; numerical control; open bridge | — | §XXXIII.9 |
+| The author's note on flavor directions, zoom labels and kinds of mass, and Entries 318–319, with three analyses; their algebra checked (three invariants, conjugation, the meridian toy); the flavor program held, and taken up in Part XXXIV in v36.8, Entry 319's action-level audit and the categories of mass still held (R314; R374) | record; analytic theorem; numerical control; open bridge | — | §XXXIII.9; §XXXIV.1 |
 | Post-freeze notes from the review of v35.8: inverse optics narrowed to the specified local class; reflectrons' two-loop agreement not evidence of generation; the plateau's tracers not of negligible mass; the review's corrected speeds reproduced (R313) | definition (scope); numerical control | the review of v35.8 | §XXXIII.8 |
 | The two reports on v36.0 and the author's three responses with Entry 322, recorded; the current-results page (R328, R329) | record; definition (status) | — | §§XXXIII.14, 24 |
 | Orbital occupancy on the leaf (Entry 323): a thin collisionless population on the great 2-sphere in the twin field, by Schwarzschild's method. The disk's crossing orbits are slowest at the equatorial barrier ($0.3$ of a period within $10^\circ$ of it just above the barrier energy); each tested orbit's share of the plateau coefficient is positive if trapped, negative if crossing (not a rule: a crossing meridional-geodesic ensemble has $C = +1.13$ *[v36.5, R357]*). The thin exponentials (gnomonic $h/\ell = 0.1875$; arc-length $h = 3$ kpc) are stationary populations as cold as the library resolves, and, when the exponential is identified with the full folded gravitating source, trapped: that source's density at the equator excludes crossing orbits (at most $1\%$; $2$–$14\%$ with only the measured range matched) — reproduced by the linear program, not predicted *[v36.3, R347]*. The broad gnomonic disk ($h/\ell = 1$) is a stationary population only as a hot one in this library ($\sigma_r\geq35$ km/s inside $30$ kpc). The dwarfs' gnomonic sources admit no thin axisymmetric in-plane placement of their required outer mass that keeps circular support at every measured radius (the pointwise envelope and the mixture program: at best $8/12$, $15/34$ *[v36.5, R357]*) and, in these libraries, no stationary population with the observed rotation colder than $\sigma_r = 28$–$34$ km/s for the stars-plus-gas mixture (DDO 154: none below $400$ km/s in the pushforward's field, and none at all for its stellar image alone; IC 2574's gas alone $\geq19$), against observed HI dispersions of $7$–$10$ km/s — library witnesses with the velocity moments integrated along the orbit, not continuum certificates; the line-of-sight bridge a premise *[v36.5, R357]*. The occupancy places the mass the HI total requires; it cannot remove it (R332) | analytic theorem; numerical control; observational comparison (negative) under the gnomonic premise | THINGS dispersions (Oh et al. 2008, 2011; Ianjamasimanana et al. 2015) | §XXXIII.28 |
@@ -50,7 +50,13 @@
 | The penalties of the admissibility geometry on the full two-sector configuration: v36.6's scalar conical at the aligned vacuum (the review's kink, confirmed), one point of a non-differentiable set that contains the whole coincidence set $\mathbf n_L = \mathbf n_R$; Entry 349's sine — in the responses' reading $\sin\theta = \tfrac12\lvert\mathbf n_L-\mathbf n_R\rvert$ a function of $\mathbf n_L\cdot\mathbf n_R$ alone, blind to the normal — zero again at $\pi-\alpha_0$ and quartic in the twist; the sine and the response's $1-\cos(\theta-\alpha_0)$ conical at alignment in every exchange-even reading; the response's smooth form and the review's $\lvert\mathbf n_L+\mathbf n_R-2\cos\alpha_0\,\mathbf k\rvert^2$ polynomials in $(\mathbf n_L+\mathbf n_R)/2$, smooth, zero exactly on the family, these lowest-order forms with about a quarter of the gap at the same curvature (a smooth form with higher terms can have more); all blind to the fibre phases and defined on the quotient (R366) | analytic theorem; numerical control; definition | — | §XXXIII.62 |
 | The localization model with each penalty, the probe's potential alone or the pinning with it, at the same coupling or the same gap: for an exchange-even penalty, smoothness at the aligned vacuum and a tilt that follows weak matter exclude each other — the cone penalties' tilt follows the image's column density, the smooth forms' is a patch inside $R\approx2$–$2.4\,h$; the sine and $1-\cos$ keep v36.6's three modes and, with the isotropic probe, its scales (within $7.3\%$), the probe-only sine binding more strongly at the same gap ($V_{\sin}\leq V_{\rm old}$) and more weakly at the same coupling; with their pinning the lowest-order smooth forms lose the mode at the same coupling and regain one, weakly bound, at the same gap (on v36.6's tilt the response's and the review's probe potentials keep one weak mode at the same coupling), while a smooth form with v36.6's gap binds two, its tilt still a patch — smoothness forbids the tail-following, not localization; the exterior obstruction holds for every gapped penalty (R367) | analytic theorem; numerical control; specified physical premise; open bridge | — | §XXXIII.63 |
 | The mirror solution off its ansatz: a critical point of the full two-sector energy (symmetric criticality) and a stable one for every penalty — its second variation in four blocks, no negative eigenvalue, one zero mode, the rotation about the normal $\sin\alpha(x)$, gapless along the disk for v36.6's scalar, the sine and $1-\cos$ and gapped for the response's smooth form; the stiffness isotropic by choice; a multi-start local search finding no lower state; the sine's second zero leaving no metastable state — the run stops at a wall held by the grid, and the wall held at $R_w$ has an energy with one maximum and no minimum (R368) | analytic theorem; numerical control; definition | — | §XXXIII.64 |
-| The next pieces: the joint model — one population, its Law I source and its image by a stated transfer, against DDO 154 — with the population law and the transfer fixed first; the localization model's missing parts one at a time — the probe's kinetic metric from the $SO(4)$ geometry (with the isotropic stiffness the sectors' own fluctuations are isotropic, so it needs a further term: a soldering of the internal frame to space, an anisotropic stiffness, or a coupling to the matter's geometry), the Berry connection in the action, the sectors' stress in Law I and the back-reaction (v36.6's minimal model done; v36.7's penalties compared, the lowest-order smooth ones losing the mode with their pinning at v36.6's coupling); the matter population through Law II in place of the inserted image; the clash invariant restated to see the symmetric departure, with a frame identification, a transport law and an action; dynamical stability and the non-axisymmetric equilibria of the isothermal fixed points; Entry 329's acceptance criterion computed; measured HI profiles for the pilot, with the HI dispersion as a second observable; the Milky Way estimator; a label law stated before it is fitted, tested out of sample, with the distance, inclination and mass-to-light uncertainties carried; gas with pressure and dissipation on the leaf; one optics experiment; other readings; the held note's calculations; Entries 342–345's checks; the note of 19 October's soldering map, consistency law, a coupling of the light's internal state to the detected photons and the three-way test of the source reduction; flavor, reflectrons, the direction field and the co-space program in the backlog (R330, R337, R348, R353, R359, R364, R369) | open bridge | — | §§XXXIII.25, 32, 42, 48, 54, 59, 65 |
+| The next pieces: the joint model — one population, its Law I source and its image by a stated transfer, against DDO 154 — with the population law and the transfer fixed first; the localization model's missing parts one at a time — the probe's kinetic metric from the $SO(4)$ geometry (with the isotropic stiffness the sectors' own fluctuations are isotropic, so it needs a further term: a soldering of the internal frame to space, an anisotropic stiffness, or a coupling to the matter's geometry), the Berry connection in the action, the sectors' stress in Law I and the back-reaction (v36.6's minimal model done; v36.7's penalties compared, the lowest-order smooth ones losing the mode with their pinning at v36.6's coupling); the matter population through Law II in place of the inserted image; the clash invariant restated to see the symmetric departure, with a frame identification, a transport law and an action; dynamical stability and the non-axisymmetric equilibria of the isothermal fixed points; Entry 329's acceptance criterion computed; measured HI profiles for the pilot, with the HI dispersion as a second observable; the Milky Way estimator; a label law stated before it is fitted, tested out of sample, with the distance, inclination and mass-to-light uncertainties carried; gas with pressure and dissipation on the leaf; one optics experiment; other readings; the held note's calculations; Entries 342–345's checks; the note of 19 October's soldering map, consistency law, a coupling of the light's internal state to the detected photons and the three-way test of the source reduction; reflectrons, the categories of mass with Entry 319's action-level audit, the direction field and the co-space program in the backlog, the rest of flavor having left it for Part XXXIV (R330, R337, R348, R353, R359, R364, R369, R374) | open bridge | — | §§XXXIII.25, 32, 42, 48, 54, 59, 65; XXXIV.5 |
+| **Flavor (Part XXXIV, opened in v36.8; Entries 351–353)** | | | |
+| Entries 351–353 and the three responses, recorded in the author's words, Entry 351 with its three handwritten pages as transcribed; Part XXXIV opened for the flavor program §XXXIII.9 held (R370) | record | — | §XXXIV.1 |
+| The complement of a Cartesian fibration. On the reading of the two families as orthonormal bases of one complex carrier, Entry 352's rule (no fiber of one family privileges a fiber of the other) is mutual unbiasedness, one condition: one fiber gives probability $\tfrac13$ on each fiber of the other family, deleting one keeps $\tfrac23$ of each, $H_X+H_F\geq\ln3$, and deduction holds one way only. No real pair realizes it: in every real pair some fiber has squared overlap at least $\tfrac49$ with some fiber of the other (a theorem, attained by $96$ rotations), and a shell's left- and right-invariant frames are related by ${\rm Ad}_g$. The weight basis of an axis is unbiased to a frame iff the axis is a body diagonal; the frame's shift and clock are then the archive's $R$ and $S$ ($C = Z$), and the circular lines meet the real slice only at $0$. The complement is unique only as a weight basis with oriented fibers (a torus of complements, four weight bases, one with unit vectors); the axis fixes the frame up to a circle that keeps the lines and the mass operator and moves the conveyor except at third-turns — §XXX.13(d)'s trigonal frame as a datum, not a selection. The dephasings commute and depolarize; the projectors do not (R371) | analytic theorem; numerical control; definition; open bridge | — | §XXXIV.2 |
+| The mass operator on the Cartesian fibers: a circulant on the three-site ring with the mean mass, $627.6998$ MeV, on every fiber; $H_\theta = \partial_{\theta+\pi/2}$, the covariant central difference with a flux, and the response's sine difference the spectrum of $D_F = \sqrt{m_*}(H_\theta+\cos\alpha\,I)$; $M = A\,I+2\lvert c\rvert\,\partial_{\arg c+\pi/2}$ a one-hop operator and §XXIV.26's dual factors the real and imaginary parts of one hop; the ring's holonomy is spectral data and the spectrum degenerate iff it is real; the $e$–$\mu$ distinction is the part odd under complex conjugation in the real frame ($\lvert{\rm Im}\,W\rvert/\lvert W\rvert = 0.6184$), a restatement of §XXI.4a's $K$, and not an octant's Pancharatnam phase; Koide's relation is the light cone of the trace-reversed Hilbert–Schmidt form on $\sqrt M$, on the common-sign branch ($D_F$ null for every $\theta$), the flavor-blind and flavor-resolving parts of equal weight ($K-\tfrac23$ at $-0.43\sigma$) — a restatement deriving neither the quarter turn nor $\theta$; trimaximal mixing (the neutrino mass states on the Cartesian fibers) excluded, its second column at $2.7$–$2.8\sigma$, inside NuFIT's $3\sigma$ range (R372) | analytic theorem; numerical control; definition; specified physical premise; observational fit (negative); open bridge | PDG 2025; NuFIT 6.0 (Esteban et al. 2024) | §XXXIV.3 |
+| The bare Dirac toy and the mass term as an internal derivative: the kinetic term $U(3)$-isotropic, the mass term a Lorentz scalar, the Cartesian components sharing the mean mass; the parent operator $\gamma\cdot p\otimes I-i\gamma_5\otimes\mathcal M$ squaring to $p^2-\mathcal M^2$, the response's seven-dimensional operator in Clifford form and its mode reduction verified, $\det_F(p^2-\mathcal M^2) = \prod_n(p^2-m_n^2)$ the fibration-invariant difference; the interchange exact in the flat parent, broken by the shells of a compact $T^3$ and absent on the three-site ring (whose constant term shifts the internal momentum, not a bulk mass), where the Fourier interchange is not a symmetry (the circle selects §XXI.4e's compact class); the ring's masses Koide's amplitudes, the square needing a second stage or the mass operator as the internal operator (R373) | analytic theorem; numerical control; definition; open bridge | — | §XXXIV.4 |
+| The next pieces of Part XXXIV: a native source for the trigonal frame; a reason for Koide's null condition, or for $\sqrt M$ being primary; the chiral toy, with the ring structure in a Yukawa-type term and $H_\nu$ off the Cartesian diagonal; the stitching target $B\cong{\rm Fix}(\tau)$; the quarks' "heterogeneous" form and the "lepton-coordinates radius" not attempted (R374) | open bridge | — | §XXXIV.5 |
 
 **Claim status of Parts XXX–XXXII at the v35 freeze (v35.8).** This table governs Parts XXX–XXXII, frozen at v35.8 (15 October 2026) with their suite `pg_v35_numerics.py`, unchanged except for marked post-freeze notes (v36.0, R307, R313) and one marked rendering repair in §XXX.11 (v36.4, R355): Part XXX (the hyper-canonical completion and the charged-lepton cycle), Part XXXI (the visible rendering of the leaf) and Part XXXII (reflectrons: Feynman diagrams as the joint residue of paired histories). Their frozen-results record is the v35.8 current manuscript, `projective_gravity_v35_8_current_manuscript.md`. Parts 0–XXIX are frozen — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10 — and their claim status is the frozen table that follows this one, unchanged except for marked post-freeze notes. Post-freeze notes correct them without rewriting them: two erratum notes in §§XXI.4–4a (R211), clarification notes in §§XXIX.40(e), XXIX.41(d), XXIX.42(g) and XXIX.43(b) (R212–R216, §XXX.12), two pointer notes in §§XXIX.18 and XXIX.42(f) (R238, Part XXXI; the first corrected in v35.3, R243, and in v35.4, R254), and two pointer notes of v35.6, in §§XIII.10 and XXIX.42(c) (R277, R276; the first scoped in v35.7, R288). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*. Rows changed or added since v35.1 carry their register number. Three rows — the cap, the refocusing and the darkness of the sky — are marked as **central limiting conditions**: every proposal for the visible sky must say how it meets them (R255, R267).
 
@@ -178,7 +184,7 @@
 | Observational fits | none | no supernova likelihood, no count comparison with a selected sample, no rotation-curve fit (post-freeze note, v35.1, R216: the current predictive model; Part XII's exploratory fits, §XII.3, belong to its detached wing) (post-freeze note, v36.0, R313: rotation curves are compared with data in Part XXXIII — the Milky Way from inside and a SPARC pilot — and are not reproduced by the theory as specified) | §XXIX.39(f) |
 | The photon wave operator and its mode projection; a $q = 0$ reader; a frequency bridge with time dilation and a derived echo law; a pair-selection law; a detector law for the image map, with one forward image of a fixed galaxy; a derived spectral transport, even and odd | open bridge | — | §§XXIX.39(b), 41, 42, 43(f) |
 
-> **How to read this archive (v36.7).** Three tables govern: the table of Part XXXIII, for the open work; the frozen v35.8 table that follows it, for Parts XXX–XXXII; and the frozen v34.10 table after that, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX; §XXX.9, frozen with Parts XXX–XXXII; and §XXXIII.12) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place. v36.0 freezes Parts XXX–XXXII at v35.8 with `pg_v35_numerics.py`, whose frozen-results record is the v35.8 current manuscript, and opens Part XXXIII, the observed rotation curve, after Part XXXII, with its own register (§XXXIII.12) and suite (§XXXIII.13, `pg_v36_numerics.py`). Its corrections to frozen Parts are post-freeze notes (R313). v36.1 is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§§XXXIII.14–26, R318–R331): it corrects v36.0's operative statements in place, with the superseded wording in §XXXIII.26, and adds no post-freeze note. v36.2 answers Entries 323–324 and the two responses on them (§§XXXIII.27–33, R332–R338): orbital occupancy on the leaf, the exponential as a rendering, the conformal route, the frame-selection hypothesis; it corrects two v36.1 sentences in place (R332) and adds no post-freeze note. v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§§XXXIII.34–43, R339–R348): two source families regular at the equator, their orbital populations and the dwarfs with them, the isothermal fixed points, the null cone, the split model, the $\mathfrak{so}(4)$ sectors; it applies the review's two distinctions in place (R347) and adds no post-freeze note. v36.4 answers the review of v36.3 and Entries 340–341 with the response (§§XXXIII.44–50, R349–R354): the fixed-point erratum and stability in two ensembles, the radial–normal duality and the CMB dipole, the first test of the clash invariant, and Entries 342–345 recorded for v36.5; it corrects §XXXIII.38 and §XXXIII.42 in place (R350) and adds no post-freeze content note — one marked rendering repair in frozen §XXX.11 (R355: a doubled brace in a subscript, which the author's site's templating engine read as a tag; the mathematics unchanged). v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§§XXXIII.51–55, R356–R359): the orbit library's kinematics erratum — the velocity moments integrated along the orbit, the mis-certified witnesses re-evaluated, the joint crossing–dispersion frontier, every library bound rescoped as a compatibility witness — with §§XXXIII.28, 29(b), 32, 36, 37, 42 and two register entries corrected in place (R357); the clash invariant's nullspace and the sum's fall-off, the high-sector bound, §§XXXIII.45, 47, 50 annotated (R358); no post-freeze note. v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§§XXXIII.56–60, R360–R364): one localization model, from the admissibility scalar to the spectrum — one action for the two sectors, a probe in the induced potential and the exterior theorem for its tail — which localizes and derives neither the thin–broad disk nor the sine-exponential; and the note's question in a reduction of the smallest two-path, one-qubit model; nothing earlier is corrected and no post-freeze note is added. v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§§XXXIII.61–66, R365–R369): the penalties of the admissibility geometry compared on the full two-sector configuration — the review's cone at the aligned vacuum confirmed, Entry 349's sine blind to the normal in the responses' reading, the response's and the review's smooth forms zero exactly on the family; v36.6's localization model with each, an exchange-even penalty smooth at the aligned vacuum confining the pinned tilt to a patch, the lowest-order smooth forms with their pinning losing the mode at v36.6's coupling (a smooth form with v36.6's gap binds two), the exterior obstruction holding for every gapped penalty; and the mirror solution stable off its ansatz, the sine's second zero leaving no metastable state; nothing earlier is corrected and no post-freeze note is added.
+> **How to read this archive (v36.8).** Three tables govern: the table of Parts XXXIII–XXXIV, for the open work; the frozen v35.8 table that follows it, for Parts XXX–XXXII; and the frozen v34.10 table after that, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX; §XXX.9, frozen with Parts XXX–XXXII; and §XXXIII.12) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place. v36.0 freezes Parts XXX–XXXII at v35.8 with `pg_v35_numerics.py`, whose frozen-results record is the v35.8 current manuscript, and opens Part XXXIII, the observed rotation curve, after Part XXXII, with its own register (§XXXIII.12) and suite (§XXXIII.13, `pg_v36_numerics.py`). Its corrections to frozen Parts are post-freeze notes (R313). v36.1 is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§§XXXIII.14–26, R318–R331): it corrects v36.0's operative statements in place, with the superseded wording in §XXXIII.26, and adds no post-freeze note. v36.2 answers Entries 323–324 and the two responses on them (§§XXXIII.27–33, R332–R338): orbital occupancy on the leaf, the exponential as a rendering, the conformal route, the frame-selection hypothesis; it corrects two v36.1 sentences in place (R332) and adds no post-freeze note. v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§§XXXIII.34–43, R339–R348): two source families regular at the equator, their orbital populations and the dwarfs with them, the isothermal fixed points, the null cone, the split model, the $\mathfrak{so}(4)$ sectors; it applies the review's two distinctions in place (R347) and adds no post-freeze note. v36.4 answers the review of v36.3 and Entries 340–341 with the response (§§XXXIII.44–50, R349–R354): the fixed-point erratum and stability in two ensembles, the radial–normal duality and the CMB dipole, the first test of the clash invariant, and Entries 342–345 recorded for v36.5; it corrects §XXXIII.38 and §XXXIII.42 in place (R350) and adds no post-freeze content note — one marked rendering repair in frozen §XXX.11 (R355: a doubled brace in a subscript, which the author's site's templating engine read as a tag; the mathematics unchanged). v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§§XXXIII.51–55, R356–R359): the orbit library's kinematics erratum — the velocity moments integrated along the orbit, the mis-certified witnesses re-evaluated, the joint crossing–dispersion frontier, every library bound rescoped as a compatibility witness — with §§XXXIII.28, 29(b), 32, 36, 37, 42 and two register entries corrected in place (R357); the clash invariant's nullspace and the sum's fall-off, the high-sector bound, §§XXXIII.45, 47, 50 annotated (R358); no post-freeze note. v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§§XXXIII.56–60, R360–R364): one localization model, from the admissibility scalar to the spectrum — one action for the two sectors, a probe in the induced potential and the exterior theorem for its tail — which localizes and derives neither the thin–broad disk nor the sine-exponential; and the note's question in a reduction of the smallest two-path, one-qubit model; nothing earlier is corrected and no post-freeze note is added. v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§§XXXIII.61–66, R365–R369): the penalties of the admissibility geometry compared on the full two-sector configuration — the review's cone at the aligned vacuum confirmed, Entry 349's sine blind to the normal in the responses' reading, the response's and the review's smooth forms zero exactly on the family; v36.6's localization model with each, an exchange-even penalty smooth at the aligned vacuum confining the pinned tilt to a patch, the lowest-order smooth forms with their pinning losing the mode at v36.6's coupling (a smooth form with v36.6's gap binds two), the exterior obstruction holding for every gapped penalty; and the mirror solution stable off its ansatz, the sine's second zero leaving no metastable state; nothing earlier is corrected and no post-freeze note is added. v36.8 answers Entries 351–353 and the three responses by opening Part XXXIV, flavor, after Part XXXIII (§§XXXIV.1–6, R370–R374), as §XXXIII.9 planned, with Part XXXIII's suite: on the reading of the two families as orthonormal bases of one complex carrier, Entry 352's rule for a complement of the Cartesian fibers is mutual unbiasedness, which needs the complex structure and, with the archive's flavor lines, makes the selected axis the fibers' body diagonal, the frame's shift and clock then the archive's clock and conveyor and the Cartesian triad §XXX.13's trigonal frame, as a datum; the archive's mass operator read on the fibers is a ring with a flux, the mean mass on every fiber, the $e$–$\mu$ distinction the part odd under complex conjugation in the real frame, and Koide's relation a light cone on $\sqrt M$; the bare Dirac toy's mass term can be the internal part of a parent operator, whose square gives the invariant difference $p^2-\mathcal M^2$, the interchange holding in a flat parent and broken by any discrete internal spectrum. Part XXXIII's rows on the flavor note and on the next pieces are amended, the rest of flavor leaving its backlog (R374); nothing earlier is corrected and no post-freeze note is added.
 
 > **v34.0 governing ontology correction (11 October 2026).** **Matter and its stress-energy content live fundamentally in the five-dimensional middle space** $\mathcal M=E/U(1)_H$, not solely on the representational bisection. The four-dimensional gravity base $B_{\rm grav}=\mathcal M/U_{\rm mer}$ is the quotient where the effective Einstein equation is expressed. The source $T^{(g)}$ must be obtained from the **entire** one-dimensional meridian fiber, including both arcs and possible pole/core contributions, by a covariant, action-compatible fiber reduction with a geometrically justified measure and tensor projection. A sum of contributions at the two points of $B_{\rm rep}$ is **not Law I**: it is only a distributionally leaf-supported special case. Einstein equations on the base impose constraints on the admissible middle-space configurations; equivalently their pullback imposes a horizontal constraint on $\mathcal M$, **not** independent five-dimensional Einstein equations. The full measure, singular-fiber rule, conservation identity and parent variational principle are **open**. Previously frozen text about source localization and two-point sourcing is superseded by this paragraph, the corrected Law I in Part III, and §XXIX.8; historical derivations remain conditional benchmarks where their premises apply. The observation that $\ell/G$ has a numerically suggestive relation to a galactic mass was an exploratory coincidence, **not** a premise that the closure mass is the Galaxy's baryonic mass. The author also prefers a *macroscopic middle-space* origin of $G$ (with the closure ratio as a target) and a separate Boltzmannian-compatibility origin of the effective quantum/Planck-area scale; the induced-gravity calculation remains a benchmark, not the preferred ontological explanation of $G$.
 
@@ -15898,7 +15904,7 @@ With $S = 1+iT$ this is $2\,{\rm Im}\,T^{(2)}_{ii} = \sum_f\lvert T^{(1)}_{fi}\r
 - *the Milky Way, seen from inside with the leaf's own light, fails on every scanned leaf and at the continuous optimum — as a cold-tracer proxy for the published estimator, which is not yet applied (§XXXIII.19) [v36.1, R323];*
 - *the SPARC galaxies, with the arena law, fail too.*
 
-*With the author's zoom labels as two free numbers per galaxy, the gnomonic premise improves the SPARC curves greatly; under the quoted errors one of the eight fits is acceptable, one borderline, and six are not (§XXXIII.17) [v36.1, R319]. The labels the fits need trend with mass, and must now come from a law. §XXXIII.11 locates each failure; §XXXIII.25 is the operative standing after v36.1, §XXXIII.32 its continuation after v36.2 (Entries 323–324: a stationary population on the leaf does not remove the dwarfs' required outer mass, and must be hot where it lacks circular support), §XXXIII.42 after v36.3 (the review and Entries 325–339: sources regular at the equator keep the plateau and admit crossing orbits; the isothermal law selects no cold disk; a transfer with a fixed scale is not a small deformation of a large leaf), §XXXIII.48 after v36.4 (the erratum; at fixed energy a concentrated isothermal state is stable but hot; the proposed clash invariant is blind to the departure it was built from), §XXXIII.54 after v36.5 (the kinematics erratum: library bounds are compatibility witnesses, not certificates; the clash sum detects the tilt but confines nothing), §XXXIII.59 after v36.6 (a minimal localization model from one action localizes but derives neither the thin–broad disk nor the profile; the localized tail's rates and aspect are the probe's kinetic metric's, an input; an observer-side receiver selects within a family of profiles the source fixes, unless the profile is written into it), §XXXIII.65 after v36.7 (an exchange-even penalty smooth at the aligned vacuum confines the pinned tilt to a patch; the lowest-order smooth forms, with their pinning, bind nothing at v36.6's coupling; the sine keeps v36.6's three modes; no gapped penalty of the tilt, with a constant kinetic metric, lets a strictly bound mode follow the image).*
+*With the author's zoom labels as two free numbers per galaxy, the gnomonic premise improves the SPARC curves greatly; under the quoted errors one of the eight fits is acceptable, one borderline, and six are not (§XXXIII.17) [v36.1, R319]. The labels the fits need trend with mass, and must now come from a law. §XXXIII.11 locates each failure; §XXXIII.25 is the operative standing after v36.1, §XXXIII.32 its continuation after v36.2 (Entries 323–324: a stationary population on the leaf does not remove the dwarfs' required outer mass, and must be hot where it lacks circular support), §XXXIII.42 after v36.3 (the review and Entries 325–339: sources regular at the equator keep the plateau and admit crossing orbits; the isothermal law selects no cold disk; a transfer with a fixed scale is not a small deformation of a large leaf), §XXXIII.48 after v36.4 (the erratum; at fixed energy a concentrated isothermal state is stable but hot; the proposed clash invariant is blind to the departure it was built from), §XXXIII.54 after v36.5 (the kinematics erratum: library bounds are compatibility witnesses, not certificates; the clash sum detects the tilt but confines nothing), §XXXIII.59 after v36.6 (a minimal localization model from one action localizes but derives neither the thin–broad disk nor the profile; the localized tail's rates and aspect are the probe's kinetic metric's, an input; an observer-side receiver selects within a family of profiles the source fixes, unless the profile is written into it), §XXXIII.65 after v36.7 (an exchange-even penalty smooth at the aligned vacuum confines the pinned tilt to a patch; the lowest-order smooth forms, with their pinning, bind nothing at v36.6's coupling; the sine keeps v36.6's three modes; no gapped penalty of the tilt, with a constant kinetic metric, lets a strictly bound mode follow the image). v36.8 opens Part XXXIV, flavor, after this Part; §XXXIV.5 is its standing.*
 
 *v36.1 (16 October 2026) is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§XXXIII.14): the plateau coefficient of an extended source (§XXXIII.15), the label condition corrected (§XXXIII.16), the pilot's statistics and its sources in error units (§XXXIII.17), the gas reconstruction's family (§XXXIII.18), the Milky Way comparison as a cold-tracer proxy with its leaf radius continuous (§XXXIII.19), the plateau's observable reach (§XXXIII.20), the orbit statements' domain (§XXXIII.21), the author's 8 kpc leaf (§XXXIII.22), Entry 322's shape family (§XXXIII.23), the current results (§XXXIII.24), the standing (§XXXIII.25) and the register (§XXXIII.26). The suite of §XXXIII.13 is extended to 18 checks.*
 
@@ -16289,6 +16295,8 @@ Whether the star fades on its way out is a statement about photons, not coordina
 
 **Held [O].** The flavor substrate, its connection and spectral operator, the action-level audit of Entry 319, and the categories of mass are held for a piece of their own. They touch the frozen Part XXX, so new work on them opens a new Part rather than editing Part XXX.
 
+*[v36.8, R374: Part XXXIV, opened in v36.8 for Entries 351–353, takes up the flavor program held here: the complement of a Cartesian fibration (§XXXIV.2), the mass operator read on the Cartesian fibers (§XXXIV.3) and the bare Dirac toy (§XXXIV.4), with its standing in §XXXIV.5. The action-level audit of Entry 319 and the categories of mass are not attempted there.]*
+
 ## XXXIII.10 The zoom labels against the pilot [T/V/D; R315] *(`v36_0_zoom_labels()`)*
 
 **(a) The dictionary [T].** The analysis's dictionary is $R_{\rm vis} = \lambda R_{\rm phys}$, $M_{\rm app} = \lambda^2M_{\rm inst}$ (under a fixed photometric calibration) and $M_{\rm grav} = \zeta M_{\rm inst}$. With the point source's $v_{\rm eq}^2 = 3GM_{\rm grav}/\ell$ — for an extended source $3\to C$ and $9\to C^2$ (§XXXIII.16) *[v36.1, R321]* — the form $v_{\rm eq}^4 = Ga_0M_{\rm app}$ holds exactly when $\lambda^4\ell^2/\zeta^2 = (9G/a_0)M_{\rm app}$ (checked to $2\times10^{-16}$). This gives $\lambda\propto M_{\rm app}^{1/6}$ for $\ell\propto\lambda$ at fixed $\zeta$, and $\lambda\propto M_{\rm app}^{1/4}$ for a fixed $\ell$. A misassigned distance is one such label: radii and flux-based masses scale as $\lambda$ and $\lambda^2$, and the dynamical $v^2R/G$ as $\lambda$.
@@ -16429,16 +16437,16 @@ This answers the author's question of what the families of labels capture: given
 
   [reproducibility]
 
-## XXXIII.13 Executable appendix: `pg_v36_numerics.py`, embedded [reproducibility; v36.0–v36.7, R317, R331, R338, R348, R353, R359, R364, R369]
+## XXXIII.13 Executable appendix: `pg_v36_numerics.py`, embedded [reproducibility; v36.0–v36.8, R317, R331, R338, R348, R353, R359, R364, R369, R374]
 
-*The standalone suite (NumPy and SciPy only) that prints every computed number of Part XXXIII. Save the block as `pg_v36_numerics.py` and run `python3 -I pg_v36_numerics.py` (the regression suite of Part XXXIII, v36.0–v36.7: 40 checks; exit status 1 if any fails, in every mode; about twenty-seven minutes, depending on the machine), one round with `python3 -I pg_v36_numerics.py v36_0`, `v36_1` (with the v36.0 computations it builds on), `v36_2`, `v36_3` (one to three minutes), `v36_4`, `v36_5`, `v36_6` (a few minutes each) or `v36_7` (about eight minutes), or the checks that run in a few minutes with `quick` (24 checks, for a referee's time limit); an unknown mode prints the usage line and exits with status 2. It embeds its data: the two Milky Way tables, McMillan 2017's parameters and the eight SPARC galaxies' rows. The frozen suites remain `pg_v35_numerics.py` (Parts XXX–XXXII, §XXX.10) and `pg_v34_numerics.py` (Part XXIX, §XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v36`, `v36_0`, `v36_1`, `v36_2`, `v36_3`, `v36_4`, `v36_5`, `v36_6`, `v36_7` and `quick` run it and whose `all` runs the frozen v34.10 and v35.8 suites and Part XXXIII together (227 checks). The figures come from `pg_v36_0_plots.py`, `pg_v36_1_plots.py`, `pg_v36_2_plots.py` and `pg_v36_3_plots.py`, which load this suite. SHA-256 of the file: `1336bcc63fabe18834c304eec06ab476acc94671b42024dd75b2cb79627fc74a`.*
+*The standalone suite (NumPy and SciPy only) that prints every computed number of Parts XXXIII–XXXIV. Save the block as `pg_v36_numerics.py` and run `python3 -I pg_v36_numerics.py` (the regression suite of Parts XXXIII–XXXIV, v36.0–v36.8: 43 checks; exit status 1 if any fails, in every mode; about twenty-seven minutes, depending on the machine), one round with `python3 -I pg_v36_numerics.py v36_0`, `v36_1` (with the v36.0 computations it builds on), `v36_2`, `v36_3` (one to three minutes), `v36_4`, `v36_5`, `v36_6` (a few minutes each), `v36_7` (about eight minutes) or `v36_8` (a few seconds; Part XXXIV), or the checks that run in a few minutes with `quick` (27 checks, for a referee's time limit); an unknown mode prints the usage line and exits with status 2. It embeds its data: the two Milky Way tables, McMillan 2017's parameters, the eight SPARC galaxies' rows, the charged-lepton masses (PDG 2025, with their uncertainties) and NuFIT 6.0's $\sin^2\theta_{12}$ and $\sin^2\theta_{13}$ for normal ordering, without and with SK-atm. The frozen suites remain `pg_v35_numerics.py` (Parts XXX–XXXII, §XXX.10) and `pg_v34_numerics.py` (Part XXIX, §XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v36`, `v36_0`, `v36_1`, `v36_2`, `v36_3`, `v36_4`, `v36_5`, `v36_6`, `v36_7`, `v36_8` and `quick` run it and whose `all` runs the frozen v34.10 and v35.8 suites and Parts XXXIII–XXXIV together (230 checks). The figures come from `pg_v36_0_plots.py`, `pg_v36_1_plots.py`, `pg_v36_2_plots.py` and `pg_v36_3_plots.py`, which load this suite. SHA-256 of the file: `b37bc8000df7b34a3a33d3d21beace91be7179635acc08967bde81f475e98044`.*
 
 ```python
-"""Projective Gravity v36 -- standalone numerical suite for Part XXXIII: the observed rotation curve (NumPy + SciPy only; Python 3.12/3.13
-tested).  Parts XXX-XXXII are frozen at v35.8 with their suite pg_v35_numerics.py; Part XXIX's frozen suite is pg_v34_numerics.py (v34.10).
+"""Projective Gravity v36 -- standalone numerical suite for Parts XXXIII-XXXIV: the observed rotation curve and flavor (NumPy + SciPy only;
+Python 3.12/3.13 tested).  Parts XXX-XXXII are frozen at v35.8 with their suite pg_v35_numerics.py; Part XXIX's frozen suite is pg_v34_numerics.py (v34.10).
 
 Run (from the directory holding this file):
-    python3 -I pg_v36_numerics.py              # current regression suite of Part XXXIII, v36.0-v36.7 (check summary; about twenty-seven minutes)
+    python3 -I pg_v36_numerics.py              # current regression suite of Parts XXXIII-XXXIV, v36.0-v36.8 (check summary; about twenty-seven minutes)
     python3 -I pg_v36_numerics.py v36_0        # the v36.0 sections only
     python3 -I pg_v36_numerics.py v36_1        # the v36.1 sections, with the v36.0 computations they build on
     python3 -I pg_v36_numerics.py v36_2        # the v36.2 sections only (Entries 323-324)
@@ -16447,6 +16455,7 @@ Run (from the directory holding this file):
     python3 -I pg_v36_numerics.py v36_5        # the v36.5 sections only (the two v36.4 reviews: the kinematics erratum, the clash and sector additions; a few minutes)
     python3 -I pg_v36_numerics.py v36_6        # the v36.6 sections only (the v36.5 review and the note of 19 October: one localization model; the receiver; a few minutes)
     python3 -I pg_v36_numerics.py v36_7        # the v36.7 sections only (the v36.6 review and Entry 349: the penalties; the model with each; off the ansatz; about eight minutes)
+    python3 -I pg_v36_numerics.py v36_8        # the v36.8 sections only (Part XXXIV, Entries 351-353: the complement; the ring; the Dirac toy; a few seconds)
     python3 -I pg_v36_numerics.py quick        # the checks that run in a few minutes (for a referee's time limit)
 Every mode exits with status 1 if any check fails.
 
@@ -16560,6 +16569,30 @@ gapped for the response's smooth form; a multi-start local search finds no lower
 by the grid, and the wall held at R_w has an energy with one maximum and no minimum, so the second zero leaves no metastable state.
 
 v36_7_quick(): v36_6_quick plus v36.7's penalties.
+
+v36_8_suite(): Part XXXIV, opened in v36.8 for Entries 351-353 and the three responses.  The complement of a Cartesian fibration: on the reading
+of the two families as orthonormal bases of one complex carrier, Entry 352's rule (no fiber of one family privileges a fiber of the other) is
+mutual unbiasedness, one condition, with its information content (one fiber blurs the other family; deleting a fiber keeps 2/3 of each;
+H_X + H_F >= ln 3); no real pair realizes it (in every real pair some squared overlap is at least 4/9, a theorem whose proof is printed, attained
+by the 96 rotations with entries +-1/3, +-2/3; a shell's left- and right-invariant frames are related by Ad_g); the weight basis of an axis is
+unbiased to a frame exactly when the axis is a body diagonal, the frame's cyclic shift then the archive's clock R and its clock the conveyor S; the
+circular lines meet the real slice only at 0, casting circles about the diagonal; unbiasedness alone leaves a torus of complements, the
+weight-basis condition four, oriented fibers one; the selected axis fixes the frame only up to a circle, which keeps the lines and the mass
+operator and moves the conveyor except at third-turns (relative Frobenius residual (2 sqrt2/3)|sin(3 gamma/2)|; the trigonal frame of XXX.13);
+the dephasings commute and depolarize, the projectors do not.  The mass operator read on the Cartesian fibers: a circulant on a three-site ring,
+the mean mass on every fiber; the archive's H the covariant central difference with a flux, the sine difference the spectrum of
+D_F = sqrt(m*)(H + cos alpha I), M = A I + 2|c| d a one-hop operator, the dual factors the real and imaginary parts of one hop; the ring's holonomy
+spectral data, invariant under rephasing and cyclic relabellings and conjugated by odd ones, the spectrum degenerate iff it is real; the e-mu
+distinction the part odd under complex conjugation in the real frame (XXI.4a's K); the octants' Pancharatnam phases (spin one-half and spin one)
+not the holonomy phase; Koide's relation the light cone of the trace-reversed Hilbert-Schmidt form on sqrt M, on the common-sign branch (D_F null
+for every theta); the Fourier interchange, and trimaximal mixing excluded (NuFIT 6.0, without and with SK-atm).  The bare Dirac toy: the kinetic
+term U(3)-invariant, the mass a Lorentz scalar (a spinor Lorentz transformation preserving the Dirac adjoint); the parent operator with an
+anticommuting insertion, its square p^2 - Mint^2, the 7-d Clifford form, the mode reduction, det_F(p^2 - Mint^2) = prod (p^2 - m^2); the
+interchange spinor of the flat parent, broken by the shells of a compact T^3 or by the three-site ring, whose constant term shifts the internal
+momentum (not a 5-d bulk mass); the ring's masses Koide's amplitudes, linear against quadratic.  Residuals are printed in coarse bins (_v36_8_r),
+so that the output does not depend on the machine's BLAS kernel.
+
+v36_8_quick(): v36_7_quick plus the v36.8 sections.
 """
 import numpy as np
 PI = np.pi
@@ -21186,6 +21219,611 @@ def v36_7_suite():
 def v36_7_quick():
     """The checks that run in a few minutes: v36.6's quick set plus v36.7's penalties (the two v36.7 model sections, a few minutes more, run in v36_7)."""
     v36_6_quick(); return v36_7_penalties()
+# ==================================================================================================== v36.8 (21 October 2026): sections
+# Entries 351-353 and the three responses (Part XXXIV, flavor, opened in v36.8): the complement of a Cartesian fibration (mutually unbiased
+# fibers; the real obstruction; the body diagonal; what makes the complement unique; the reductions); the mass operator read on the Cartesian
+# fibers (a three-site ring with a flux, the ring's derivative, the holonomy and the real slice, Koide's light cone, the inside-out map and the
+# neutrinos); and the bare Dirac toy with the mass term as an internal derivative (the parent operator, its invariant, the interchange, linear
+# against quadratic).
+
+_V368_MASSES = (0.51099895000, 105.6583755, 1776.93)        # MeV: e, mu, tau -- PDG 2025, the inputs of XXX.3 (the 2026 edition's tau average unchanged)
+_V368_SIG = (1.5e-10, 2.3e-6, 0.09)                         # their one-sigma uncertainties (MeV), as in XXX.11
+_V368_NUFIT = dict(s12=0.307, s12_up=0.012, s12_dn=0.011, s12_3hi=0.345, s13=0.02195, s13_up=0.00054, s13_dn=0.00058)   # NuFIT 6.0, normal ordering, IC19, without SK-atm
+_V368_NUFIT_SK = dict(s12=0.308, s12_up=0.012, s12_dn=0.011, s12_3hi=0.345, s13=0.02215, s13_up=0.00056, s13_dn=0.00058)  # NuFIT 6.0, normal ordering, IC24, with SK-atm
+
+def _v36_8_r(x):
+    """A residual, printed in coarse bins so that the print does not depend on the machine's last bits: '<1e-12', '<1e-10', '<1e-8', else 1 digit."""
+    x = float(abs(x))
+    for b in (1e-12, 1e-10, 1e-8):
+        if x < b: return f"<{b:.0e}"
+    return f"{x:.1e}"
+
+def _v36_8_frame():
+    """The Cartesian fibers e_0, e_1, e_2 and their complement: the cyclic shift T (T e_j = e_{j+1}), the clock Z (Z e_j = w^j e_j), and the
+    flavor lines F_k = sum_j w^(-jk) e_j / sqrt3 (columns of F), with T F_k = w^k F_k."""
+    w = np.exp(2j*PI/3)
+    T = np.roll(np.eye(3), 1, axis=0).astype(complex)
+    Z = np.diag([1, w, w*w])
+    F = np.array([[w**(-j*k) for k in range(3)] for j in range(3)])/np.sqrt(3)
+    return w, T, Z, F
+
+def _v36_8_rot(ax, ang):
+    """The active rotation by ang about ax (right-handed): R = exp(-i ang ax.J) with (J_a)_bc = -i eps_abc."""
+    ax = np.asarray(ax, float)/np.linalg.norm(ax); K = np.array([[0, -ax[2], ax[1]], [ax[2], 0, -ax[0]], [-ax[1], ax[0], 0]])
+    return np.eye(3) + np.sin(ang)*K + (1 - np.cos(ang))*K @ K
+
+_V368_J = [np.array([[0, 0, 0], [0, 0, -1j], [0, 1j, 0]]), np.array([[0, 0, 1j], [0, 0, 0], [-1j, 0, 0]]), np.array([[0, -1j, 0], [1j, 0, 0], [0, 0, 0]])]
+
+def _v36_8_weights(N):
+    """The weight basis of the axis N on the complexified vector carrier C (x) R^3 (XXI.4b): eigenvalues -1, 0, +1 of N.J and the columns."""
+    N = np.asarray(N, float)/np.linalg.norm(N); return np.linalg.eigh(sum(N[a]*_V368_J[a] for a in range(3)))
+
+def _v36_8_proj(v):
+    v = v/np.linalg.norm(v); return np.outer(v, v.conj())
+
+def _v36_8_same_lines(Ps, Qs):
+    """The distance between two sets of three projectors, independent of their order: the least, over the six pairings, of the largest entry difference."""
+    from itertools import permutations
+    return min(max(float(np.max(np.abs(Ps[i] - Qs[p[i]]))) for i in range(3)) for p in permutations(range(3)))
+
+def _v36_8_fit(me=None, mmu=None, mtau=None):
+    """XXX.3's rule: sqrt(m_k) = sqrt(m*) (cos(theta + 2 pi k/3) + 1/sqrt2), k = 0 tau, 1 e, 2 mu, least squares on sqrt m."""
+    from scipy.optimize import minimize_scalar
+    m0 = _V368_MASSES; rt = np.sqrt([m0[2] if mtau is None else mtau, m0[0] if me is None else me, m0[1] if mmu is None else mmu])
+    def best(th):
+        q = np.cos(th + 2*PI*np.arange(3)/3) + 1/np.sqrt(2); a = q @ rt/(q @ q); return a, np.sum((a*q - rt)**2)
+    th = minimize_scalar(lambda t: best(t)[1], bounds=(0.15, 0.26), method='bounded', options={'xatol': 1e-12}).x
+    return th, best(th)[0]**2, best(th)[1]
+
+def _v36_8_koide(m):
+    m = np.asarray(m, float); return m.sum()/np.sqrt(m).sum()**2
+
+def _v36_8_holonomy(Q):
+    """The product of the hopping amplitudes around the ring e_0 -> e_1 -> e_2 -> e_0: unchanged by rephasing the fibers."""
+    return Q[1, 0]*Q[2, 1]*Q[0, 2]
+
+def _v36_8_slice_dim(v):
+    """The dimension of the intersection of the complex line C v with the real slice R^3 of C^3 = R^3 + i R^3: c v is real iff a Im v + b Re v = 0."""
+    return 2 - int(np.linalg.matrix_rank(np.column_stack([v.imag, v.real]), tol=1e-12))
+
+def v36_8_complement():
+    print("\n== v36.8-1. The complement of a Cartesian fibration: mutually unbiased fibers, the body diagonal, and what makes the complement unique (Entries 351-352; R371) ==")
+    print("   Entry 352: three Cartesian fibers admit one complement whose fibers are the flavor directions; no fiber of one family privileges a fiber of the")
+    print("   other, one fiber of one blurs the other's distinctions, all three of one are needed to deduce the other; the complexified directions place the")
+    print("   flavor fibers so that they look radially symmetric to the real slice.  Entry 351: deleting one Cartesian fiber deletes no flavor fiber.  The")
+    print("   response on Entry 352 realizes the rule with the Fourier vectors of the cyclic shift T.  Here: what the rule is, why it needs the complex")
+    print("   structure (reading both families as orthonormal bases of one three-dimensional complex carrier), which complement the archive's flavor lines")
+    print("   are, and in what sense it is unique.")
+    w, T, Z, F = _v36_8_frame(); E = np.eye(3, dtype=complex); rg = np.random.default_rng(3681)
+    ov = np.abs(F)**2; e_mub = float(np.max(np.abs(ov - 1/3))); e_T3 = float(np.max(np.abs(np.linalg.matrix_power(T, 3) - E)))
+    e_eig = max(float(np.max(np.abs(T @ F[:, k] - w**k*F[:, k]))) for k in range(3))
+    # (a) information: one fiber blurs the other family; deleting a fiber; the entropic bound
+    Hs = lambda p: -np.sum(np.where(p > 1e-300, p*np.log(np.where(p > 1e-300, p, 1.0)), 0.0), axis=-1)
+    V = rg.normal(size=(20000, 3)) + 1j*rg.normal(size=(20000, 3)); V /= np.linalg.norm(V, axis=1)[:, None]
+    HX = Hs(np.abs(V)**2); HF = Hs(np.abs(V @ F.conj())**2); hmin = float(np.min(HX + HF))
+    h_basis = float(Hs(np.abs(E[0])**2) + Hs(np.abs(F.conj().T @ E[0])**2))
+    PX = [_v36_8_proj(E[:, j]) for j in range(3)]; PF = [_v36_8_proj(F[:, k]) for k in range(3)]
+    dmg = sorted(set(round(float(np.linalg.norm((E - P) @ F[:, k])**2), 12) for P in PX for k in range(3)))
+    print("   (a) The rule is mutual unbiasedness, and its two halves are one condition [T].  For orthonormal bases e_i and f_a of C^3, no e_i privileging any f_a")
+    print("     says |<e_i|f_a>|^2 is independent of a; the row sums are 1, so every overlap is 1/3, and then no f_a privileges any e_i either.  The response's")
+    print(f"     pair realizes it: |<e_j|F_k>|^2 = 1/3 ({_v36_8_r(e_mub)}), T^3 = I ({_v36_8_r(e_T3)}), T F_k = w^k F_k ({_v36_8_r(e_eig)}).  Information [T/V]: a state on one Cartesian fiber")
+    print(f"     has probability 1/3 on each flavor fiber (Entry 352's blurring); deleting one Cartesian fiber keeps ||(I - P_i) F_a||^2 = {dmg[0]:.6f} of every flavor fiber")
+    print(f"     (Entry 351's deletion rule); and H_X + H_F >= ln 3 = {np.log(3):.4f} (Maassen-Uffink at its strongest): the least over 20000 random states {hmin:.4f}, a basis")
+    print(f"     state attaining it ({h_basis:.4f}).")
+    # (b) the real obstruction and its size; the shell's left and right frames
+    from itertools import product
+    from scipy.optimize import minimize
+    sgn = min(float(np.max(np.abs(np.array(s, float).reshape(3, 3) @ np.array(s, float).reshape(3, 3).T/3 - np.eye(3)))) for s in product((1, -1), repeat=9))
+    q = rg.normal(size=(200000, 4)); q /= np.linalg.norm(q, axis=1)[:, None]
+    def qmat(q_):
+        a, b, c, d = q_[..., 0], q_[..., 1], q_[..., 2], q_[..., 3]
+        return np.stack([np.stack([a*a + b*b - c*c - d*d, 2*(b*c - a*d), 2*(b*d + a*c)], -1), np.stack([2*(b*c + a*d), a*a - b*b + c*c - d*d, 2*(c*d - a*b)], -1),
+                         np.stack([2*(b*d - a*c), 2*(c*d + a*b), a*a - b*b - c*c + d*d], -1)], -2)
+    Rq = qmat(q); mx = np.max(Rq.reshape(-1, 9)**2, axis=1); s4 = np.sum(Rq.reshape(-1, 9)**4, axis=1)
+    samp_max, samp_s4 = float(mx.min()), float(s4.min())
+    fmax = lambda v: float(np.max(qmat(np.asarray(v)/np.linalg.norm(v))**2)); fs4 = lambda v: float(np.sum(qmat(np.asarray(v)/np.linalg.norm(v))**4))
+    ref_max = min(minimize(fmax, q[i], method='Nelder-Mead', options={'xatol': 1e-12, 'fatol': 1e-15, 'maxiter': 40000}).fun for i in np.argsort(mx)[:6])
+    ref_s4 = min(minimize(fs4, q[i], method='Nelder-Mead', options={'xatol': 1e-12, 'fatol': 1e-15, 'maxiter': 40000}).fun for i in np.argsort(s4)[:6])
+    Np = np.ones(3)/np.sqrt(3); Rh = _v36_8_rot(Np, PI); h_max, h_s4 = float(np.max(Rh**2)), float(np.sum(Rh**4))
+    # the rotations with entries +-1/3 and +-2/3 (one entry of 1/3 in each row) attain the bound
+    n96, half = 0, 0
+    for ent in product((1/3, -1/3, 2/3, -2/3), repeat=9):
+        Rm = np.array(ent).reshape(3, 3)
+        if all(sum(1 for x in Rm[i] if abs(abs(x) - 1/3) < 1e-9) == 1 for i in range(3)) and np.max(np.abs(Rm @ Rm.T - np.eye(3))) < 1e-12 and abs(np.linalg.det(Rm) - 1) < 1e-12:
+            n96 += 1; half += int(np.max(np.abs(Rm - Rm.T)) < 1e-12 and abs(np.trace(Rm) + 1) < 1e-12)
+    qX = [np.array([[1j, 0], [0, -1j]]), np.array([[0, 1], [-1, 0]], complex), np.array([[0, 1j], [1j, 0]])]       # unit quaternions i, j, k as SU(2) matrices
+    def su2(q_): return q_[0]*np.eye(2) + q_[1]*qX[0] + q_[2]*qX[1] + q_[3]*qX[2]
+    def coords(M_):                                                          # components along i, j, k
+        return np.array([np.real(np.trace(M_ @ X_.conj().T))/2 for X_ in qX])
+    e_lr = 0.0
+    for _ in range(20):
+        g = rg.normal(size=4); g /= np.linalg.norm(g); G = su2(g); Ad = np.column_stack([coords(G @ X_ @ G.conj().T) for X_ in qX])
+        e_lr = max(e_lr, float(np.max(np.abs(Ad @ Ad.T - np.eye(3)))) + float(np.max(np.abs(np.linalg.det(Ad) - 1))))
+        # g X = (g X g^-1) g: the left-invariant field equals Ad_g applied to the right-invariant one
+        e_lr = max(e_lr, max(float(np.max(np.abs(G @ qX[a] - sum(Ad[b, a]*qX[b] for b in range(3)) @ G))) for a in range(3)))
+    gd = np.array([0, 1, 1, 1])/np.sqrt(3); Gd = su2(gd); Add = np.column_stack([coords(Gd @ X_ @ Gd.conj().T) for X_ in qX])
+    e_half = float(np.max(np.abs(Add - Rh)))
+    print(f"   (b) The real obstruction, and its size [T/V].  No real orthonormal pair is unbiased: a real matrix with entries +-1/sqrt3 has row products that are sums")
+    print(f"     of three +-1/3 (the response's argument; all 512 sign patterns: the least max|M M^T - I| is {sgn:.4f}).  The least-privileging real pair has largest squared")
+    print("     overlap 4/9, a theorem (for a pair of opposite handedness replace R by -R, which changes no squared overlap): were every |R_ij| < 2/3, the unit")
+    print("     rows would force every |R_ij| > 1/3; each entry of a rotation is +- a 2 x 2 minor ad - bc,")
+    print("     which then needs ad and bc of opposite signs; over the three minors of two rows each entry's sign enters twice, so the product of the three sign")
+    print("     conditions is +1 and (-1)^3 at once.  The search agrees: over 200000 random rotations the smallest largest squared overlap found is")
+    print(f"     {samp_max:.4f}, refined to {ref_max:.9f} (4/9 = {4/9:.9f}); the {n96} rotations with entries +-1/3 and +-2/3 attain it ({half} of them half-turns, the half-turn about a")
+    print(f"     body diagonal giving {h_max:.9f}).  The sum of the fourth powers, sum R_ij^4, has the least value found {ref_s4:.9f} = 11/9 ({11/9:.9f}; the half-turn {h_s4:.9f})")
+    print("     against 1 for an unbiased pair [V].  So in every real pair some fiber has squared overlap at least 4/9 with some fiber of the other, a third above")
+    print("     the uniform 1/3.  On a shell S^3 the left-invariant frame -- three fibrations by Hopf circles, every point touched, Entry 352's construction")
+    print(f"     realized natively -- and the right-invariant frame are related at every point g by Ad_g in SO(3) (checked at 20 points: {_v36_8_r(e_lr)}), so the shell's own")
+    print(f"     real complement fails the rule everywhere, at best 4/9 -- for example at g = (+-i +-j +-k)/sqrt3, where Ad_g is the half-turn about a body diagonal")
+    print(f"     ({_v36_8_r(e_half)}).  Complex phases are necessary, and the cube roots of unity are the only ones up to rephasing and relabelling: every 3 x 3 complex")
+    print("     Hadamard matrix is equivalent to the Fourier matrix (Haagerup).")
+    # (c) the weight basis of an axis against the frame; the body diagonal; the archive's Weyl pair; the real shadows
+    e_ov = 0.0
+    for _ in range(200):
+        N = rg.normal(size=3); N /= np.linalg.norm(N); _, Vw = _v36_8_weights(N)
+        e_ov = max(e_ov, float(np.max(np.abs(np.abs(Vw)**2 - np.column_stack([(1 - N**2)/2, N**2, (1 - N**2)/2])))))
+    diag4 = [np.array([1, s1, s2])/np.sqrt(3) for s1 in (1, -1) for s2 in (1, -1)]
+    e_d4 = max(float(np.max(np.abs(np.abs(_v36_8_weights(N)[1])**2 - 1/3))) for N in diag4)
+    _, Vz = _v36_8_weights([0, 0, 1]); z_dev = float(np.max(np.abs(np.abs(Vz)**2 - 1/3)))
+    _, Vp = _v36_8_weights(Np)
+    e_lines = _v36_8_same_lines([_v36_8_proj(Vp[:, k]) for k in range(3)], PF)
+    e_rot = float(np.max(np.abs(T - _v36_8_rot(Np, 2*PI/3))))
+    S = Z.conj().T; C = Z
+    e_S = float(np.max(np.abs(S @ T @ np.linalg.inv(S) - w*w*T))); e_Sk = max(float(np.max(np.abs(S @ F[:, k] - F[:, (k + 1) % 3]))) for k in range(3))
+    e_C = float(np.max(np.abs(C @ T @ C.conj().T - w*T))); e_Rf = float(np.max(np.abs(F.conj().T @ T @ F - np.diag([1, w, w*w]))))
+    wts = [float(np.real(np.vdot(F[:, k], sum(Np[a]*_V368_J[a] for a in range(3)) @ F[:, k]))) for k in range(3)]
+    shadow = []
+    for k in range(3):
+        re, im = F[:, k].real, F[:, k].imag
+        shadow.append((float(np.linalg.norm(re)), float(np.linalg.norm(im)), float(abs(re @ im)), float(abs(re @ Np)) if k else 0.0, float(abs(im @ Np)), _v36_8_slice_dim(F[:, k])))
+    cart_dims = [_v36_8_slice_dim(E[:, j]) for j in range(3)]
+    e_tau = float(np.max(np.abs(np.conj(F[:, 1]) - F[:, 2]))) + float(np.max(np.abs(np.conj(F[:, 0]) - F[:, 0])))
+    magic = float(np.degrees(np.arccos(1/np.sqrt(3))))
+    print(f"   (c) The complement is the weight basis of the body diagonal [T/V].  The weight basis of an axis N -- the archive's flavor lines (XXI.4b; weights the")
+    print(f"     eigenvalues of N.J with (J_a)_bc = -i eps_abc) -- has squared overlaps N_i^2 (axial) and (1 - N_i^2)/2 (each circular) with the frame (200 random axes:")
+    print(f"     {_v36_8_r(e_ov)}); so it is unbiased exactly when N_i^2 = 1/3 for every i, N a body diagonal (the four: {_v36_8_r(e_d4)}; the z axis, for contrast, misses by {z_dev:.4f}),")
+    print(f"     every Cartesian axis at the magic angle {magic:.4f} deg to it.  For N+ = (e_0 + e_1 + e_2)/sqrt3 the weight lines are the response's Fourier lines")
+    print(f"     ({_v36_8_r(e_lines)}, compared as unordered sets) and T is the active rotation by 2 pi/3 about N+, exp(-i (2 pi/3) N+.J) ({_v36_8_r(e_rot)}) -- XXX.3(c)'s")
+    print("     cyclic permutation of the three spatial axes.  The archive's Weyl pair is the frame's: R = T, the shift of the Cartesian fibers and the clock of the")
+    print(f"     flavor lines (T read in the flavor basis is diag(1, w, w^2), {_v36_8_r(e_Rf)}); S = Z^-1, the clock of the Cartesian fibers and the shift of the flavor")
+    print(f"     lines (S T S^-1 = w^2 T, {_v36_8_r(e_S)}; S F_k = F_(k+1), {_v36_8_r(e_Sk)}); XXI.4's cycle C = S^-1 = Z (C T C^-1 = w T, {_v36_8_r(e_C)}).  F_0 is the real diagonal, the")
+    print(f"     tau's line; F_1, F_2 the circular pair, exchanged by complex conjugation in the real frame ({_v36_8_r(e_tau)}) -- the archive's |+> (e) and |-> (mu), with weights")
+    print(f"     {wts[1]:+.0f} and {wts[2]:+.0f} about N+: the archive's clock multiplies |+> by e^(+2 pi i/3) (XXI.4a), the active rotation by -2 pi/3 about its axis, so this")
+    print("     identification orients the archive's axis as -N+ (the other orientation exchanges the labels: XXI.4a's K; XXI.4a and XXX.3(b) call this clock the")
+    print("     rotation by +2 pi/3, their sense being R_N(-alpha) in this section's convention, as in the frozen suite).  The real shadows:")
+    print(f"     |Re F_1| = |Im F_1| = {shadow[1][0]:.4f}, orthogonal ({_v36_8_r(shadow[1][2])}) and both perpendicular to N+ ({_v36_8_r(max(shadow[1][3], shadow[1][4]))}), so the unit-phase circle of")
+    print(f"     the complex line C F_1 casts a circle about N+ on the real slice; C F_1 and C F_2 meet the real slice in dimension {shadow[1][5]} and {shadow[2][5]}, C F_0 in {shadow[0][5]}, each")
+    print(f"     Cartesian line in {'/'.join(str(d_) for d_ in cart_dims)}.  That is Entry 352's radially symmetric placement, on this reading: the tau fiber on the real slice along the")
+    print("     diagonal, equally inclined to every axis; the e and mu fibers off it, each seen from it as a circle about the diagonal.")
+    # (d) uniqueness: the gauge torus, the complete set through F, the four diagonals, orientation, the converse circle
+    n_ = 360; al = np.linspace(0, 2*PI, n_, endpoint=False)
+    Dg = np.exp(1j*al)
+    cols = np.empty((n_, n_, 3, 3), complex)
+    for k in range(3):
+        cols[:, :, 0, k] = F[0, k]; cols[:, :, 1, k] = Dg[:, None]*F[1, k]; cols[:, :, 2, k] = Dg[None, :]*F[2, k]
+    defect = np.min(1 - np.abs(np.einsum('abik,abik->abk', cols, cols)), axis=-1)
+    pts = int(np.sum(defect < 1e-9))
+    nb = np.min(np.stack([np.roll(np.roll(defect, di, 0), dj, 1) for di in (-1, 0, 1) for dj in (-1, 0, 1) if (di, dj) != (0, 0)]), axis=0)
+    loc = int(np.sum(defect < nb))
+    geo = [(a, b) for k in range(3) for a in (2*PI*k/3, 2*PI*k/3 + PI) for b in (4*PI*k/3, 4*PI*k/3 + PI)]
+    bases, bases_B = [], []
+    for a, b in geo:
+        B = np.diag([1, np.exp(1j*a), np.exp(1j*b)]) @ F; Ps = frozenset(tuple(np.round(_v36_8_proj(B[:, k]).ravel(), 8)) for k in range(3))
+        if Ps not in bases: bases.append(Ps); bases_B.append(B)
+    e_wb = 0.0                                                               # each of the four is the weight basis of its axis, all three lines compared
+    for B in bases_B:
+        Pl = [_v36_8_proj(B[:, k]) for k in range(3)]; Pr = [P_ for P_ in Pl if np.max(np.abs(P_.imag)) < 1e-9][0]
+        nv = np.linalg.eigh(Pr)[1][:, -1].real; Wv = _v36_8_weights(nv)[1]; e_wb = max(e_wb, _v36_8_same_lines(Pl, [_v36_8_proj(Wv[:, k]) for k in range(3)]))
+    axes = []
+    for Ps in bases:
+        Pr = [np.array(p_).reshape(3, 3) for p_ in Ps if np.max(np.abs(np.array(p_).imag)) < 1e-9][0]; nv = np.linalg.eigh(Pr)[1][:, -1].real; nv *= np.sign(nv[0])
+        axes.append(tuple(int(round(x)) for x in nv*np.sqrt(3)))
+    axes = sorted(axes, reverse=True)
+    mubs = [np.diag([1, w**r, w**r]) @ F for r in range(3)]
+    e_cmub = max(float(np.max(np.abs(np.abs(mubs[r].conj().T @ mubs[s])**2 - 1/3))) for r in range(3) for s in range(3) if r != s)
+    gdef = [abs(float(np.min(1 - np.abs(np.einsum('ik,ik->k', B, B))))) for B in mubs]
+    # the complete set containing the frame and F is the only one: of the torus, only D_1 F and D_2 F are unbiased to F as well
+    Gt = np.abs(np.einsum('jk,abjl->abkl', F.conj(), cols))**2; dev2 = np.max(np.abs(Gt - 1/3), axis=(-2, -1)); idx2 = np.argwhere(dev2 < 1e-9); both = []
+    for i_, j_ in idx2:
+        Ps = frozenset(tuple(np.round(_v36_8_proj(cols[i_, j_][:, k]).ravel(), 8)) for k in range(3))
+        if Ps not in both: both.append(Ps)
+    mub_sets = [frozenset(tuple(np.round(_v36_8_proj(B[:, k]).ravel(), 8)) for k in range(3)) for B in mubs[1:]]; n2 = len(idx2)
+    pair4 = sorted(set(round(float((a @ b)**2), 12) for i, a in enumerate(diag4) for b in diag4[i + 1:]))
+    # orientation: the opposite cycle e_0 -> e_2 -> e_1 is T^-1 = R_N+(-2 pi/3): same lines, eigenvalue labels exchanged
+    Tl = T.conj().T; e_left = float(np.max(np.abs(Tl - _v36_8_rot(Np, -2*PI/3)))); lab_l = [int(round(np.angle(np.vdot(F[:, k], Tl @ F[:, k]))/(2*PI/3))) % 3 for k in range(3)]
+    th0, ms0, _ = _v36_8_fit(); H0 = 0.5*(np.exp(1j*th0)*T + np.exp(-1j*th0)*T.conj().T); MK = ms0*(H0 + E/np.sqrt(2)) @ (H0 + E/np.sqrt(2))
+    circ = []
+    for g in (0.37, 1.0, 2*PI/3, 4*PI/3):
+        Rg = _v36_8_rot(Np, g); Sg = Rg @ S @ Rg.T; c_ = complex(np.vdot(S.ravel(), Sg.ravel())/np.vdot(S.ravel(), S.ravel()))
+        res_ = float(np.linalg.norm(Sg - c_*S)/np.linalg.norm(S)); closed = (2*np.sqrt(2)/3)*abs(np.sin(1.5*g))
+        circ.append((g, _v36_8_same_lines([Rg @ P @ Rg.T for P in PF], PF), float(np.max(np.abs(Rg @ T @ Rg.T - T))), float(np.max(np.abs(Rg @ MK @ Rg.T - MK)))/ms0,
+                     res_, closed, c_))
+    print(f"   (d) Uniqueness [T/V].  Unbiasedness alone does not make the complement unique: D F with D = diag(1, e^ia, e^ib) is unbiased for every (a, b), a two-torus")
+    print(f"     of complements (Haagerup: there are no others), and the complete set of four mutually unbiased bases containing the frame and F -- the frame, F,")
+    print(f"     D_1 F and D_2 F, D_k = diag(1, w^k, w^k) -- holds three bases unbiased to the frame ({_v36_8_r(e_cmub)}); it is the only such set: on the grid below {n2} points of")
+    print(f"     the torus are unbiased to F as well, and they give {len(both)} bases, D_1 F and D_2 F.  Requiring the complement to be the weight basis of an axis -- XXI.4b's")
+    print(f"     descent -- leaves four: on a 360 x 360 grid of the torus {pts} points have a real column (the defect has {loc} strict local minima, no others), and they give")
+    print(f"     {len(bases)} distinct bases, the weight bases of the body diagonals {', '.join('(' + ','.join(str(x) for x in a) + ')' for a in axes)} (each against its axis's weight")
+    print(f"     basis, all three lines: {_v36_8_r(e_wb)}); of that complete set only F is a weight basis (defects {', '.join(f'{x:.4f}' for x in gdef)}); the four are unbiased")
+    print(f"     to the frame, not to each other (squared overlaps of their axes {', '.join(f'{x:.6f}' for x in pair4)}).  With oriented fibers -- unit vectors -- one is singled out,")
+    print(f"     N+ = (e_0 + e_1 + e_2)/sqrt3, independent of the fibers' order; the order fixes only T's handedness: the opposite cycle is T^-1 = R_N+(-2 pi/3)")
+    print(f"     ({_v36_8_r(e_left)}), with the same lines and its eigenvalue w^1 on F_{lab_l.index(1)} instead of F_1 -- the labels of the circular pair, XXI.4a's K.  Conversely the axis")
+    print("     fixes the frame only up to rotation about it: rotating the frame by gamma about N+ keeps the flavor lines, T and the fitted mass operator, and changes")
+    print("     the frame's clock, so the conveyor S = Z^-1, except at third-turns (relative Frobenius residual of the best multiple, the same in every basis, and its")
+    print("     closed form (2 sqrt2/3)|sin(3 gamma/2)|):")
+    for g, el, eT, eM, res_, closed, c_ in circ:
+        print(f"       gamma = {g:.4f}: lines {_v36_8_r(el)}, T {_v36_8_r(eT)}, M/m* {_v36_8_r(eM)}; S residual {res_:.4f} (closed form {closed:.4f})" + (f", c = w^{int(round(np.angle(c_)/(2*PI/3))):+d}" if res_ < 1e-12 else ""))
+    print("     (XXX.13(c) rotates about the archive's axis, -N+ here, so its c = w^-+1 at the third-turns is this w^+-1; its 0.39 and 0.74 at the same angles")
+    print("     are the largest-entry residual in the generic frame of its computation, a basis-dependent measure.)  So the admissible")
+    print("     frames of a selected axis are a circle, the same complement and the same mass operator for every member (XXX.13(c): M(Qh) = M(Q)), and an unordered")
+    print("     Cartesian triad with that axis as body diagonal is exactly a trigonal frame -- the datum XXX.13(d) found missing, on which the conveyor descends.")
+    print("     Entry 352's fibration, referred to the selected axis, supplies that datum; it does not supply its selection.")
+    # (e) the reductions; the qubit precedent; the six lines
+    deph = lambda Ps, r: sum(P @ r @ P for P in Ps)
+    d_c = 0.0
+    for _ in range(50):
+        A = rg.normal(size=(3, 3)) + 1j*rg.normal(size=(3, 3)); rho = A @ A.conj().T; rho /= np.trace(rho)
+        d_c = max(d_c, float(np.max(np.abs(deph(PF, deph(PX, rho)) - E/3))), float(np.max(np.abs(deph(PX, deph(PF, rho)) - E/3))))
+    Qr, _ = np.linalg.qr(rg.normal(size=(3, 3)) + 1j*rg.normal(size=(3, 3))); PR = [_v36_8_proj(Qr[:, k]) for k in range(3)]
+    ctrl = 0.0
+    for _ in range(10):
+        A = rg.normal(size=(3, 3)) + 1j*rg.normal(size=(3, 3)); rho = A @ A.conj().T; rho /= np.trace(rho)
+        ctrl = max(ctrl, float(np.max(np.abs(deph(PR, deph(PX, rho)) - deph(PX, deph(PR, rho))))))
+    cn = sorted(set(round(float(np.linalg.norm(P @ Qp - Qp @ P, 2)), 10) for P in PX for Qp in PF))
+    def rank_of(Bs):
+        rows_ = [np.concatenate([(_v36_8_proj(B[:, k]) - E/3).real.ravel(), (_v36_8_proj(B[:, k]) - E/3).imag.ravel()]) for B in Bs for k in range(3)]
+        return int(np.linalg.matrix_rank(np.array(rows_), tol=1e-10))
+    r2, r4 = rank_of([E, F]), rank_of([E, F, mubs[1], mubs[2]])
+    sx, sy, sz = np.array([[0, 1], [1, 0]]), np.array([[0, -1j], [1j, 0]]), np.diag([1.0, -1.0])
+    Bq = [np.linalg.eigh(s_)[1] for s_ in (sx, sy, sz)]; e_qb = max(float(np.max(np.abs(np.abs(Bq[i].conj().T @ Bq[j])**2 - 0.5))) for i in range(3) for j in range(3) if i != j)
+    _, Vx = _v36_8_weights([1, 0, 0]); hxz = np.abs(Vx.conj().T @ Vz)**2
+    e_m0 = max(1 - abs(np.vdot(_v36_8_weights(E[:, i].real)[1][:, 1], E[:, i])) for i in range(3))
+    from itertools import combinations
+    lines = [E[:, j] for j in range(3)] + [F[:, k] for k in range(3)]
+    orth = [c for c in combinations(range(6), 3) if all(abs(np.vdot(lines[a], lines[b])) < 1e-12 for a, b in combinations(c, 2))]
+    pairs = [(c, tuple(x for x in range(6) if x not in c)) for c in combinations(range(6), 3) if 0 in c]
+    pair_frames = sum(1 for a, b in pairs if a in orth and b in orth)
+    print(f"   (e) The reductions [T/V].  Dephasing in one family and then the other is complete depolarization in either order, Phi_F Phi_X = Phi_X Phi_F = tr(.) I/3")
+    print(f"     (50 random states: {_v36_8_r(d_c)}); for a generic pair of bases the two orders differ (up to {ctrl:.4f} on 10 states).  The fiber projectors themselves never commute:")
+    print(f"     the operator norm ||[P_i, Q_a]|| = {cn[0]:.4f} = sqrt2/3 for every pair.  So the response's [P_X, P_F] = 0 is exact for the reduction maps and false for the")
+    print(f"     fibers.  In the information reading of Entry 351's 3:18 PM line (all terms together restoring the info), the two families' populations fix {r2} of a")
+    print(f"     state's 8 parameters and a complete set of four bases fixes {r4} -- the two further bases not weight bases.  The qubit precedent (Entry 351, 3:15 PM): the")
+    print(f"     three Pauli bases are mutually unbiased ({_v36_8_r(e_qb)}) -- for spin one-half the spatial axes themselves realize the rule, and no axis is intrinsically primary.  For the spin-one")
+    print(f"     carrier the Cartesian fibers are the three m = 0 states |0_x>, |0_y>, |0_z> ({_v36_8_r(e_m0)}), and orthogonal axes' weight bases are not unbiased (x against z:")
+    print(f"     squared overlaps {', '.join(f'{x:.2f}' for x in sorted(set(np.round(hxz.ravel(), 6))))}); the complement moves to the body diagonal.  Of the 20 triples of the six lines only {len(orth)} are")
+    print(f"     orthonormal, the two families themselves; of the 10 unordered complementary pairs of triples (Entry 351's (6 choose 3)/2, 3:18 PM) {pair_frames} pairs two")
+    print(f"     frames -- the two families -- and the other {len(pairs) - pair_frames} pair mixed triples, none of them a frame.")
+    ok = (e_mub < 1e-14 and e_T3 < 1e-14 and e_eig < 1e-14 and abs(dmg[0] - 2/3) < 1e-12 and len(dmg) == 1 and hmin >= np.log(3) - 1e-12 and abs(h_basis - np.log(3)) < 1e-12
+          and abs(sgn - 1/3) < 1e-12 and samp_max >= 4/9 - 1e-12 and abs(ref_max - 4/9) < 1e-9 and abs(h_max - 4/9) < 1e-14 and abs(ref_s4 - 11/9) < 1e-9 and abs(h_s4 - 11/9) < 1e-14
+          and samp_s4 >= 11/9 - 1e-12 and n96 == 96 and half == 16 and e_lr < 1e-13 and e_half < 1e-14
+          and e_ov < 1e-13 and e_d4 < 1e-14 and z_dev > 0.3 and e_lines < 1e-12 and e_rot < 1e-14 and e_S < 1e-14 and e_Sk < 1e-14 and e_C < 1e-14 and e_Rf < 1e-14
+          and [round(x) for x in wts] == [0, -1, 1] and abs(shadow[1][0] - 1/np.sqrt(2)) < 1e-14 and abs(shadow[1][1] - 1/np.sqrt(2)) < 1e-14 and shadow[1][2] < 1e-14
+          and max(shadow[1][3], shadow[1][4]) < 1e-14 and [x[5] for x in shadow] == [1, 0, 0] and cart_dims == [1, 1, 1] and e_tau < 1e-14
+          and pts == 12 and loc == 12 and len(bases) == 4 and sorted(axes) == sorted([(1, 1, 1), (1, 1, -1), (1, -1, 1), (1, -1, -1)]) and e_cmub < 1e-14
+          and gdef[0] < 1e-14 and min(gdef[1:]) > 0.4 and pair4 == [round(1/9, 12)] and e_left < 1e-14 and lab_l == [0, 2, 1]
+          and e_wb < 1e-12 and n2 == 6 and len(both) == 2 and set(both) == set(mub_sets)
+          and all(el < 1e-12 and eT < 1e-14 and eM < 1e-12 and abs(res_ - closed) < 1e-12 for _, el, eT, eM, res_, closed, _ in circ) and circ[0][4] > 0.4 and circ[1][4] > 0.9
+          and abs(circ[2][6] - w) < 1e-14 and abs(circ[3][6] - w**-1) < 1e-14
+          and d_c < 1e-14 and ctrl > 1e-3 and len(cn) == 1 and abs(cn[0] - np.sqrt(2)/3) < 1e-10 and r2 == 4 and r4 == 8 and e_qb < 1e-14 and e_m0 < 1e-14
+          and sorted(set(np.round(hxz.ravel(), 6))) == [0.0, 0.25, 0.5] and orth == [(0, 1, 2), (3, 4, 5)] and len(pairs) == 10 and pair_frames == 1)
+    check(ok, "the complement: Entry 352's rule is mutual unbiasedness (both halves one condition; deletion keeps 2/3; H_X + H_F >= ln 3, attained); no real pair (512 sign "
+          "patterns; the least-privileging real pair 4/9, proved and found, the 96 rotations with entries +-1/3, +-2/3 attaining it; sum R^4 = 11/9 found; the shell's left and "
+          "right frames related by Ad_g); the weight basis of an axis unbiased iff the axis is a body diagonal (overlaps N_i^2, (1 - N_i^2)/2), T = R_N(2pi/3), R = T, S = Z^-1, "
+          "C = Z; the real shadows; the torus's 12 geometric points = 4 bases, the body diagonals' weight bases, one of the complete set containing the frame and F (the only "
+          "such set); oriented fibers single out N+; the converse circle keeps the "
+          "lines, T and M and moves the conveyor except at third-turns (residual (2 sqrt2/3)|sin(3 gamma/2)|); the dephasings commute (depolarizing), the projectors do not "
+          "(sqrt2/3); ranks 4 and 8; the qubit's Pauli bases; two orthonormal triples of 20, one frame pair of 10")
+    print("   [T] The rule's equivalence with mutual unbiasedness; the real obstruction and the 4/9 bound; the overlap identity and the body-diagonal theorem; the")
+    print("       Weyl pair; the dephasing identity.  [V] The least sum R^4 (searched); the torus count; the circle.  [D] Reading Entry 352's fibers as orthonormal")
+    print("       bases of one three-dimensional complex carrier, and its complement as the weight basis of an axis.  [O] Why a Cartesian fibration with the selected")
+    print("       axis as body diagonal is physically present (selected, not gauge).")
+    return dict(ref_max=ref_max, ref_s4=ref_s4, magic=magic, pts=pts, bases=len(bases), circ=circ)
+
+def v36_8_ring(comp=None):
+    print("\n== v36.8-2. The mass operator read on the Cartesian fibers: a ring with a flux, the ring's derivative, the holonomy, and Koide's light cone (Entries 351-353; R372) ==")
+    print("   Entry 352 asks for the mass term to be the flavor fibers' analogue of the derivative along the Cartesian ones, appearing as a constant to spatial")
+    print("   motion, and for its (sin a - sin b)^2 to be read geometrically off the flavor fibers; Entry 353 for a derivative in the mass term that sees only")
+    print("   the flavor fibers; Entry 351 for flavor information stored in the imaginary directions.  The responses: the masses as eigenvalues of an operator")
+    print("   on a three-site cyclic geometry; the sine difference as a trigonometric identity; the extra square to be explained; a real mass operator would")
+    print("   make the circular pair degenerate.  Here the archive's operator (XXI.4, XXIV.26, XXX.3) is read in the Cartesian frame of v36.8-1.")
+    w, T, Z, F = _v36_8_frame(); E = np.eye(3, dtype=complex); Td = T.conj().T; rg = np.random.default_rng(3682)
+    me, mmu, mtau = _V368_MASSES; m = np.array([mtau, me, mmu]); P = [_v36_8_proj(F[:, k]) for k in range(3)]
+    MX = sum(m[k]*P[k] for k in range(3)); A0 = float(np.real(np.trace(MX)))/3; c = complex(np.trace(Td @ MX)/3)
+    e_circ = float(np.max(np.abs(MX - (A0*E + c*T + np.conj(c)*Td)))); diagX = np.real(np.diag(MX)); e_dimag = float(np.max(np.abs(np.diag(MX).imag)))
+    th, ms, res = _v36_8_fit(); Hf = lambda t: 0.5*(np.exp(1j*t)*T + np.exp(-1j*t)*Td)
+    MK = ms*(Hf(th) + E/np.sqrt(2)) @ (Hf(th) + E/np.sqrt(2)); mk = [float(np.real(np.vdot(F[:, k], MK @ F[:, k]))) for k in range(3)]
+    e_kdiag = float(np.max(np.abs(np.real(np.diag(MK)) - ms)))/ms; mean = float(m.mean())
+    print(f"   (a) The ring [T/V].  In the frame every Hermitian operator diagonal on the flavor lines is a circulant, A I + c T + cbar T^dag: a ring of three sites, the Cartesian")
+    print(f"     fibers, with T the hop.  The measured masses on F_0, F_1, F_2 (tau, e, mu; PDG 2025, as XXX.3): the circulant to {_v36_8_r(e_circ)} MeV; on every Cartesian fiber the")
+    print(f"     same diagonal, {diagX[0]:.4f}, {diagX[1]:.4f}, {diagX[2]:.4f} MeV (imaginary parts {_v36_8_r(e_dimag)}) -- the mean mass {mean:.4f}, for any three masses, by unbiasedness (in a basis")
+    print("     unbiased to an operator's eigenbasis every diagonal entry is its mean); reading it as Entry 352's constant is an identification, the Cartesian")
+    print(f"     basis here being an internal basis fixed by the trigonal frame.  All flavor resolution is in the hop: |c| = {abs(c):.4f} MeV, its phase per link {np.angle(c):.5f}.")
+    print(f"     XXX.3's fit reproduced: theta = {th:.6f}, m* = {ms:.3f} MeV, the weight states carrying {mk[0]:.3f} (tau), {mk[1]:.5f} (e), {mk[2]:.4f} MeV (mu); the fitted")
+    print(f"     operator's diagonal is m* on every fiber ({_v36_8_r(e_kdiag)} relative), below the mean by the fit's residual over three, {mean - ms:.1e} MeV ({res/3:.1e}).")
+    # (b) the ring's derivative
+    D = lambda ph: (np.exp(1j*ph)*T - np.exp(-1j*ph)*Td)/(2j)
+    e_herm = float(np.max(np.abs(D(0.7) - D(0.7).conj().T))); e_spec = max(abs(np.vdot(F[:, k], D(0.7) @ F[:, k]) - np.sin(0.7 + 2*PI*k/3)) for k in range(3))
+    e_zd = float(np.max(np.abs(np.diag(D(0.7))))); e_HD = float(np.max(np.abs(Hf(0.3) - D(0.3 + PI/2))))
+    DF = np.sqrt(ms)*(D(th + PI/2) + E/np.sqrt(2)); e_DF = float(np.max(np.abs(DF @ DF - MK)))/ms
+    e_sd = e_K = 0.0
+    for _ in range(100):
+        t, al = rg.uniform(0, 2*PI), rg.uniform(0, PI/2.5); qv = np.cos(t + 2*PI*np.arange(3)/3) + np.cos(al)
+        sv = np.sin(t + 2*PI*np.arange(3)/3 + PI/2) - np.sin(al - PI/2); e_sd = max(e_sd, float(np.max(np.abs(qv**2 - sv**2))))
+        if np.all(qv > 0): e_K = max(e_K, abs(float(np.sum(qv**2)/np.sum(qv)**2) - (1/3 + 1/(6*np.cos(al)**2))))
+    e_T2 = float(np.max(np.abs(T @ T - Td))); cK = ms*(np.exp(1j*th)/np.sqrt(2) + np.exp(-2j*th)/4)
+    e_hop = float(np.max(np.abs(MK - (ms*E + cK*T + np.conj(cK)*Td))))/ms
+    e_split = float(np.max(np.abs(MX - (A0*E + 2*abs(c)*D(np.angle(c) + PI/2)))))/mean
+    U = np.exp(1j*(th + PI/4))*T; e_dual = float(np.max(np.abs(MK - ms*(E + (U + U.conj().T)/2) @ (E + (U - U.conj().T)/(2j)))))/ms
+    e_dual2 = float(np.max(np.abs(MK - ms*(E + Hf(th + PI/4)) @ (E + Hf(th - PI/4)))))/ms
+    print(f"   (b) The ring's derivative [T/V].  d_phi = Im(e^(i phi) T) = (e^(i phi) T - e^(-i phi) T^dag)/(2i) (Re X = (X + X^dag)/2, Im X = (X - X^dag)/2i for an operator) is")
+    print(f"     the covariant central difference on the ring with a flux phi per link: Hermitian ({_v36_8_r(e_herm)}), with zero diagonal -- it never acts within one fiber")
+    print(f"     ({_v36_8_r(e_zd)}) -- eigenvalue sin(phi + 2 pi k/3) on F_k ({_v36_8_r(e_spec)}); and H_theta = d_(theta + pi/2) ({_v36_8_r(e_HD)}).  It moves along the ring of Cartesian")
+    print("     fibers and is diagonal on the flavor lines: flavor is its momentum, not its position.  So XXIV.26's first-order factor D_F = sqrt(m*) (H_theta + cos")
+    print(f"     alpha I) is sqrt(m*) (d_(theta + pi/2) + cos alpha I), the ring's derivative plus an on-site term, with D_F^2 = M ({_v36_8_r(e_DF)} relative); the response's sine")
+    print(f"     difference is its spectrum, m_n = m* (sin a_n - sin b)^2 with a_n = theta_n + pi/2 the flavor momenta and b = alpha - pi/2 (random phases: {_v36_8_r(e_sd)}), and")
+    print(f"     K = 1/3 + 1/(6 cos^2 alpha) on the positive branch ({_v36_8_r(e_K)}).  On three sites T^2 = T^dag ({_v36_8_r(e_T2)}), so every flavor-diagonal operator is a one-hop operator")
+    print(f"     -- here M = m* I + c T + cbar T^dag with c = m* (e^(i theta)/sqrt2 + e^(-2i theta)/4) ({_v36_8_r(e_hop)} relative) -- and the measured operator is an on-site term")
+    print(f"     plus the ring's derivative, M = A I + 2|c| d_(arg c + pi/2) ({_v36_8_r(e_split)} relative): Entry 353's derivative in the mass term, in the finite setting, as an")
+    print("     identification.  The response's extra square is then not a matter of derivative order but of which one-hop operator is primary.  XXIV.26's two")
+    print(f"     dual factors are the same pair read once more: M = m* (I + Re U)(I + Im U), U = e^(i(theta + pi/4)) T ({_v36_8_r(e_dual)}), = m* (I + H_(theta+pi/4))(I + H_(theta-pi/4))")
+    print(f"     ({_v36_8_r(e_dual2)}): the real and imaginary parts of one covariant hop.")
+    # (c) the holonomy, the real slice
+    QX = sum(np.sqrt(m[k])*P[k] for k in range(3)); q0 = float(np.real(np.trace(QX)))/3; h = complex(np.trace(Td @ QX)/3)
+    Wq, Wm = _v36_8_holonomy(QX), _v36_8_holonomy(MX); e_W = abs(Wq - h**3)/abs(h)**3
+    Dr = np.diag(np.exp(1j*rg.uniform(0, 2*PI, 3))); e_gauge = abs(_v36_8_holonomy(Dr @ QX @ Dr.conj().T) - Wq)/abs(Wq)
+    e_relab = max(abs(_v36_8_holonomy(Z @ QX @ Z.conj().T) - Wq), abs(_v36_8_holonomy(T @ QX @ Td) - Wq))/abs(Wq)
+    par = np.eye(3)[[0, 2, 1]].astype(complex); e_odd = max(abs(_v36_8_holonomy(par @ QX @ par) - np.conj(Wq)), abs(_v36_8_holonomy(np.conj(QX)) - np.conj(Wq)))/abs(Wq)
+    rows = []
+    for t in (0.0, 0.1, th, PI/3):
+        Qt = Hf(t) + E/np.sqrt(2); ev = np.sort(np.linalg.eigvalsh(Qt)); Wt = _v36_8_holonomy(Qt); ht = complex(np.trace(Td @ Qt)/3)
+        iw, ih = float(Wt.imag/abs(Wt)), float(ht.imag)
+        rows.append((t, float(np.min(np.diff(ev))), 0.0 if abs(iw) < 1e-12 else iw, 0.0 if abs(ih) < 1e-12 else ih))
+    odd = (MX - np.conj(MX))/2; e_oddpart = float(np.max(np.abs(odd - (me - mmu)/2*(P[1] - P[2]))))/mean
+    e_oddq = float(np.max(np.abs((QX - np.conj(QX))/2 - (np.sqrt(me) - np.sqrt(mmu))/2*(P[1] - P[2]))))/float(np.sqrt(m).mean())
+    tq = float(np.sum(QX.imag**2)/np.real(np.trace(QX @ QX))); tq_closed = (np.sqrt(mmu) - np.sqrt(me))**2/(2*float(m.sum()))
+    e_tau = float(np.max(np.abs(np.conj(MK) - ms*(Hf(-th) + E/np.sqrt(2)) @ (Hf(-th) + E/np.sqrt(2)))))/ms
+    def coh(n):
+        a_, b_ = np.arccos(n[2]), np.arctan2(n[1], n[0]); return np.array([np.cos(a_/2), np.exp(1j*b_)*np.sin(a_/2)])
+    vx, vy, vz = coh([1, 0, 0]), coh([0, 1, 0]), coh([0, 0, 1]); panch = float(np.angle(np.vdot(vx, vy)*np.vdot(vy, vz)*np.vdot(vz, vx)))
+    v1 = [_v36_8_weights(n)[1][:, 2] for n in ([1, 0, 0], [0, 1, 0], [0, 0, 1])]; panch1 = float(np.angle(np.vdot(v1[0], v1[1])*np.vdot(v1[1], v1[2])*np.vdot(v1[2], v1[0])))
+    Phi = 3*float(np.angle(h)); Phis = [3*float(np.angle(np.trace(Td @ sum(np.sqrt([mt_, me, mmu][k])*P[k] for k in range(3)))/3)) for mt_ in (mtau - 0.09, mtau + 0.09)]
+    sPhi = abs(Phis[1] - Phis[0])/2
+    print(f"   (c) The holonomy and the real slice [T/V/D].  The spectrum sees the hops' phases only through the ring's holonomy, the product of the hops around it,")
+    print(f"     W = h^3 for the amplitude sqrt M = q0 I + h T + hbar T^dag ({_v36_8_r(e_W)}): unchanged by rephasing the fibers -- the gauge torus of v36.8-1 ({_v36_8_r(e_gauge)}) -- and by")
+    print(f"     the cyclic relabellings, conjugation by C = Z (XXI.4's) or by T ({_v36_8_r(e_relab)}); an odd relabelling, or complex conjugation, sends it to its conjugate ({_v36_8_r(e_odd)}).")
+    print("     W is spectral data: |W| and Re W are fixed by the spectrum, the sign of Im W by which circular line is lighter.  A circulant's spectrum is degenerate")
+    print("     exactly when Im W = 0:")
+    for t, gap, iw, ih in rows:
+        print(f"       theta = {t:.6f}: smallest gap {gap:.3e}, Im W/|W| = {iw:+.4f}, Im h = {ih:+.4f}" if gap > 1e-12 else f"       theta = {t:.6f}: smallest gap <1e-12, Im W/|W| = {iw:+.4f}, Im h = {ih:+.4f}")
+    print(f"     kappa, complex conjugation in the real frame, reverses the flux, kappa M(theta) kappa = M(-theta) ({_v36_8_r(e_tau)}; XXI.4a's K): it fixes F_0 and exchanges F_1 and F_2,")
+    print(f"     so the kappa-odd part of a flavor-diagonal operator with eigenvalues x_k on F_k is ((x_1 - x_2)/2)(P_1 - P_2) -- for M ((m_e - m_mu)/2)(P_1 - P_2) ({_v36_8_r(e_oddpart)}),")
+    print(f"     for sqrt M ((sqrt m_e - sqrt m_mu)/2)(P_1 - P_2) ({_v36_8_r(e_oddq)}) -- and in a real frame with the tau on the axial line")
+    print("     (the principal phase, |theta| < pi/3) the amplitude is kappa-real exactly when e and mu are degenerate (theta = pi/3, Im h != 0 but Im W = 0, is the")
+    print("     edge where the tau meets the muon).  The e-mu distinction is the kappa-odd, off-real-slice part -- a restatement of XXI.4a's K in the real slice's")
+    print(f"     language: |Im W|/|W| = {abs(Wq.imag)/abs(Wq):.4f} (of sqrt M) and {abs(Wm.imag)/abs(Wm):.4f} (of M); the kappa-odd part carries {100*tq:.2f}% of sqrt M's Hilbert-Schmidt weight, which")
+    print(f"     is (sqrt m_mu - sqrt m_e)^2/(2 sum m) = {tq_closed:.6f} ({tq:.6f} computed).  Its value is not an octant's geometric phase: the Pancharatnam phase of the")
+    print(f"     states along the three Cartesian axes is {panch:.6f} = pi/4 for spin one-half and {panch1:.6f} = pi/2 for the spin-one carrier's m = +1 states, the holonomy phase")
+    print(f"     3 arg h = {Phi:.6f} (+-{sPhi:.0e} from the tau mass), {abs(Phi - abs(panch)):.4f} and {abs(Phi - abs(panch1)):.4f} away -- a tempting identification excluded.")
+    # (d) Koide's light cone
+    gform = lambda Q: float(np.real(np.trace(Q @ Q))) - (2/3)*float(np.real(np.trace(Q)))**2
+    Uq, _ = np.linalg.qr(rg.normal(size=(3, 3)) + 1j*rg.normal(size=(3, 3))); e_inv = abs(gform(Uq @ QX @ Uq.conj().T) - gform(QX))/float(np.real(np.trace(QX @ QX)))
+    basis = [np.diag([1.0, 0, 0]), np.diag([0, 1.0, 0]), np.diag([0, 0, 1.0])]
+    for i_ in range(3):
+        for j_ in range(i_ + 1, 3):
+            Bm = np.zeros((3, 3), complex); Bm[i_, j_] = Bm[j_, i_] = 1/np.sqrt(2); basis.append(Bm)
+            Bm = np.zeros((3, 3), complex); Bm[i_, j_] = -1j/np.sqrt(2); Bm[j_, i_] = 1j/np.sqrt(2); basis.append(Bm)
+    Gm = np.array([[0.5*(gform(a + b) - gform(a) - gform(b)) for b in basis] for a in basis]); sig = np.linalg.eigvalsh(Gm); n_neg, n_pos = int(np.sum(sig < -1e-12)), int(np.sum(sig > 1e-12))
+    K = _v36_8_koide(m); onsite, hop = 3*q0**2, 6*abs(h)**2; eta2 = abs(h)**2/q0**2; gnorm = gform(QX)/float(m.sum())
+    sK = float(np.sqrt(((_v36_8_koide([mtau + 0.09, me, mmu]) - _v36_8_koide([mtau - 0.09, me, mmu]))/2)**2 + ((_v36_8_koide([mtau, me, mmu + 2.3e-6]) - _v36_8_koide([mtau, me, mmu - 2.3e-6]))/2)**2))
+    foot = lambda K_: float(np.degrees(np.arccos(1/np.sqrt(3*K_))))
+    sfoot = abs(foot(_v36_8_koide([mtau + 0.09, me, mmu])) - foot(_v36_8_koide([mtau - 0.09, me, mmu])))/2
+    K86 = _v36_8_koide([1776.86, me, mmu])
+    ev_q = np.linalg.eigvalsh(QX); e1sq = float(ev_q.sum())**2; e2x6 = 6*float(ev_q[0]*ev_q[1] + ev_q[0]*ev_q[2] + ev_q[1]*ev_q[2])
+    # D_F is null for every (m*, theta); it is sqrt M -- so K = 2/3 -- only on the common-sign branch, |theta| < pi/12 modulo 2 pi/3
+    def sqrtM(t_):
+        DF_ = Hf(t_) + E/np.sqrt(2); Mt = DF_ @ DF_; ev_ = np.clip(np.real(np.diag(F.conj().T @ Mt @ F)), 0, None); return F @ np.diag(np.sqrt(ev_)) @ F.conj().T, DF_
+    e_nullD = max(abs(gform(sqrtM(t_)[1]))/float(np.real(np.trace(sqrtM(t_)[1] @ sqrtM(t_)[1]))) for t_ in (0.1, th, -0.2, 0.3, -0.9))
+    e_null = max(abs(gform(sqrtM(t_)[0]))/float(np.real(np.trace(sqrtM(t_)[0] @ sqrtM(t_)[0]))) for t_ in (0.1, th, -0.2))
+    Qoff, _ = sqrtM(0.3); Koff = float(np.real(np.trace(Qoff @ Qoff)))/float(np.real(np.trace(Qoff)))**2; goff = gform(Qoff)    # sqrtM has m* = 1: g/m*
+    goff_rel = goff/float(np.real(np.trace(Qoff @ Qoff)))
+    print(f"   (d) Koide's light cone [T/V/S].  On Hermitian operators the trace-reversed Hilbert-Schmidt form g(Q) = tr Q^2 - (2/3)(tr Q)^2 = ||Q - q0 I||^2 - ||q0 I||^2 is")
+    print(f"     invariant under every unitary change of fibration (an identity, g being a function of traces; a random U(3): {_v36_8_r(e_inv)} relative) and Lorentzian,")
+    print(f"     signature ({n_neg},{n_pos}) with the identity timelike.  Koide's")
+    print(f"     K = 2/3 is g(sqrt M) = 0 -- Foot's 45 degrees, Brannen's eta^2 = 1/2.  XXIV.26's D_F is null for every (m*, theta) ({_v36_8_r(e_nullD)} relative, on and off the branch),")
+    print(f"     and D_F = sqrt M only on the common-sign branch, |theta| < pi/12 modulo 2 pi/3, where the family is null ({_v36_8_r(e_null)}); off it, at theta = 0.3,")
+    print(f"     g(sqrt M)/m* = {goff:.4f} (g/tr M = {goff_rel:.4f}) and K = {Koff:.4f}.  In the Cartesian frame the timelike part is what every Cartesian fiber sees alike, the")
+    print(f"     diagonal q0 I, and the spacelike part is the hop")
+    print("     that resolves flavor; the relation says the two weigh the same.  Measured: on-site " + f"{onsite:.4f} against hop {hop:.4f} MeV, g/tr M = {gnorm:.2e}, eta^2 = {eta2:.7f},")
+    print(f"     K = {K:.7f}, K - 2/3 = {K - 2/3:.2e} +- {sK:.2e} ({(K - 2/3)/sK:+.2f} sigma; at the time's tau mass, 1776.86 MeV (XXX.4a), K = {K86:.6f}, the value XXIV.26 quotes), Foot's angle {foot(K):.5f} +- {sfoot:.5f} deg.")
+    print(f"     In the note's three invariants (XXXIII.9) of Q = sqrt M the cone is (tr Q)^2 = 6 e_2(Q): {e1sq:.4f} against {e2x6:.4f} MeV.  Within the circulants the cone is")
+    print("     two-dimensional, the scale m* and the direction theta, so it fixes neither (theta is XXX's open phase).  That is the reading Entry 352 asked for, as a")
+    print("     restatement: sin a_n are flavor momenta on the ring of Cartesian fibers, sin b the on-site term, and the light cone fixes |sin b| = 1/sqrt2, XXIV.26's")
+    print("     quarter turn; it derives neither the quarter turn nor theta.")
+    # (e) the inside-out map, and the neutrinos
+    e_F1 = float(np.max(np.abs(F.conj().T @ T @ F - Z))); e_F2 = float(np.max(np.abs(F.conj().T @ Z @ F - Td))); e_F4 = float(np.max(np.abs(np.linalg.matrix_power(F, 4) - E)))
+    par2 = np.real(np.linalg.matrix_power(F, 2)); e_par = float(np.max(np.abs(par2 - np.eye(3)[[0, 2, 1]])))
+    Utm = F.conj().T; e_tm = float(np.max(np.abs(np.abs(Utm)**2 - 1/3)))
+    nf = _V368_NUFIT; s12, s13 = nf['s12'], nf['s13']; erow = [(1 - s12)*(1 - s13), s12*(1 - s13), s13]
+    tm2 = 1/(3*(1 - s13)); ntm2 = (tm2 - s12)/nf['s12_up']
+    nk = _V368_NUFIT_SK; tm2k = 1/(3*(1 - nk['s13'])); ntm2k = (tm2k - nk['s12'])/nk['s12_up']
+    ntm2_r, ntm2k_r = 3*(tm2 - s12)/(nf['s12_3hi'] - s12), 3*(tm2k - nk['s12'])/(nk['s12_3hi'] - nk['s12'])
+    print(f"   (e) The inside-out map, and the neutrinos [T/V].  The interchange of the two families is the Fourier transform F: F^dag T F = Z ({_v36_8_r(e_F1)}), F^dag Z F = T^dag")
+    print(f"     ({_v36_8_r(e_F2)}), F^4 = I ({_v36_8_r(e_F4)}), F^2 the ring's parity e_j -> e_-j ({_v36_8_r(e_par)}) -- an exact inside-out map in the sense of Entry 351's 3:47 PM page.  Were the")
+    print(f"     neutrino mass states the Cartesian fibers -- Entry 351's charged-lepton-against-neutrino inspiration read as complementarity -- the mixing matrix would be")
+    print(f"     F^dag, trimaximal (Cabibbo; Wolfenstein, 1978), every |U|^2 = 1/3 ({_v36_8_r(e_tm)}).  NuFIT 6.0 (normal ordering, IC19, without SK-atm) gives the electron row")
+    print(f"     {erow[0]:.3f}, {erow[1]:.3f}, {erow[2]:.4f}: excluded, the third entry a fifteenth of 1/3 with an uncertainty of {nf['s13_up']:.5f}.  The closest column is the second,")
+    print(f"     |U_e2|^2 = {erow[1]:.3f}; a fully trimaximal second column would need sin^2 theta12 = {tm2:.4f} against {s12:.3f} (+{nf['s12_up']:.3f}, -{nf['s12_dn']:.3f}), {ntm2:.1f} sigma")
+    print(f"     in a Gaussian extrapolation of the upper one-sigma error ({tm2k:.4f} against {nk['s12']:.3f}, {ntm2k:.1f} sigma, with SK-atm); interpolated linearly to NuFIT's")
+    print(f"     3 sigma bound, {nf['s12_3hi']:.3f} in both analyses, {ntm2_r:.1f} and {ntm2k_r:.1f} sigma, inside the 3 sigma range.  Like XXI.5's tilted axis, a Cartesian-diagonal")
+    print("     H_nu breaks the charged-lepton axis's symmetry as XXI.5 requires")
+    print("     and is still excluded: the inside-out map is not the neutrino mismatch.")
+    ok = (e_circ < 1e-11 and np.max(np.abs(diagX - mean)) < 1e-11 and e_dimag < 1e-12 and abs(th - 0.222225) < 5e-7 and abs(ms - 627.700) < 5e-4
+          and abs(mk[0] - 1776.931) < 5e-4 and abs(mk[1] - 0.51092) < 5e-6 and abs(mk[2] - 105.6575) < 5e-5 and e_kdiag < 1e-12 and abs((mean - ms) - res/3) < 1e-11 and 0 < mean - ms < 1e-8
+          and e_herm < 1e-15 and e_spec < 1e-14 and e_zd < 1e-15 and e_HD < 1e-15 and e_DF < 1e-12 and e_sd < 1e-13 and e_K < 1e-13 and e_T2 < 1e-15 and e_hop < 1e-12
+          and e_split < 1e-12 and e_dual < 1e-12 and e_dual2 < 1e-12
+          and e_W < 1e-12 and e_gauge < 1e-12 and e_relab < 1e-12 and e_odd < 1e-12 and rows[0][1] < 1e-12 and abs(rows[0][2]) < 1e-12 and rows[1][1] > 0.1 and rows[2][1] > 0.3
+          and rows[3][1] < 1e-12 and abs(rows[3][2]) < 1e-12 and rows[3][3] > 0.4 and e_tau < 1e-12 and e_oddpart < 1e-12 and e_oddq < 1e-12 and abs(tq - tq_closed) < 1e-12 and abs(tq - np.sin(th)**2/2) < 1e-6
+          and abs(abs(Wq.imag)/abs(Wq) - 0.6184) < 1e-4 and abs(abs(panch) - PI/4) < 1e-12 and abs(abs(panch1) - PI/2) < 1e-12 and abs(Phi - abs(panch)) > 1e3*sPhi
+          and e_inv < 1e-12 and (n_neg, n_pos) == (1, 8) and e_nullD < 1e-12 and e_null < 1e-12 and goff < -0.1 and -0.06 < goff_rel < -0.04 and Koff < 0.65 and abs(onsite - hop)/onsite < 1e-5
+          and abs(K - 2/3) < 2*sK and abs(eta2 - 0.5) < 1e-5 and abs(foot(K) - 45) < 2*sfoot and abs(K86 - 0.666661) < 5e-7 and abs(e1sq - e2x6)/e1sq < 2e-5
+          and abs((e1sq - e2x6) - 3*gform(QX)) < 1e-8*e1sq
+          and e_F1 < 1e-14 and e_F2 < 1e-14 and e_F4 < 1e-14 and e_par < 1e-14 and e_tm < 1e-14 and erow[2] < 0.03 and 2.5 < ntm2 < 3.2 and 2.4 < ntm2k < 3.1 and 2.5 < ntm2_r < 3 and 2.5 < ntm2k_r < 3)
+    check(ok, "the ring: the measured mass operator a circulant with the mean mass on every Cartesian fiber; XXX.3's fit (0.222225, 627.700) reproduced, its diagonal m*; the "
+          "covariant central difference d_phi (Hermitian, zero diagonal, sin spectrum), H_theta = d_(theta+pi/2), D_F^2 = M, the sine difference, K(alpha), T^2 = T^dag, M "
+          "one-hop and = A I + 2|c| d, the dual factors; the holonomy W gauge- and cyclic-relabelling-invariant, conjugated by odd relabellings, degeneracy iff Im W = 0, kappa "
+          "M(theta) kappa = M(-theta), the kappa-odd part (m_e - m_mu)/2 (P_1 - P_2) and its weight; the octants' Pancharatnam phases (pi/4, pi/2) not the holonomy; g(Q) "
+          "U(3)-invariant of signature (1,8), D_F null for every theta, sqrt M null on the branch only, Koide = null (on-site = hop), K - 2/3 within 2 sigma; F interchanges "
+          "clock and shift; trimaximal mixing excluded, TM2 at 2.5-3.2 sigma (2.4-3.1 with SK-atm), inside NuFIT's 3 sigma range")
+    print("   [T] The circulant structure and the constant Cartesian diagonal; the ring derivative and its spectrum; the holonomy invariance and the degeneracy")
+    print("       criterion; the light-cone form.  [V] The fit, the measured weights, the uncertainties.  [D] Reading the archive's H as a ring derivative, its")
+    print("       constant diagonal as Entry 352's constant, the kappa-odd part as information off the real slice, and g as a metric on the mass amplitude.  [S] That")
+    print("       the equal weighting of the flavor-blind and flavor-resolving parts is a principle.  [O] The quarter turn, theta, m*, and which one-hop operator is")
+    print("       primary.")
+    return dict(K=K, sK=sK, eta2=eta2, tq=tq, Phi=Phi)
+
+def v36_8_dirac():
+    print("\n== v36.8-3. The bare Dirac toy, and the mass term as an internal derivative: the parent operator, its invariant, the interchange (Entries 352-353; R373) ==")
+    print("   Entry 352: start from the bare Dirac Lagrangian of the three charged leptons with no parity asymmetry, rework the decomposition's analogue, and")
+    print("   reinstate the weak asymmetry later.  Entry 353: a derivative in the mass term that sees only the flavor fibers, the two terms interchangeable, their")
+    print("   difference invariant under the choice of Cartesian fibers and complement.  The responses: kinetic and mass terms act on complementary factors;")
+    print("   a higher-dimensional Dirac operator whose internal part reduces to a mass; the invariant p^2 - lambda^2; towers; the extra square.")
+    from scipy.linalg import expm
+    from itertools import product
+    w, T, Z, F = _v36_8_frame(); E = np.eye(3, dtype=complex); Td = T.conj().T; rg = np.random.default_rng(3683)
+    I2, I4 = np.eye(2), np.eye(4); Z2 = np.zeros((2, 2))
+    sg = [np.array([[0, 1], [1, 0]], complex), np.array([[0, -1j], [1j, 0]]), np.diag([1.0 + 0j, -1])]
+    gam = [np.block([[I2, Z2], [Z2, -I2]]).astype(complex)] + [np.block([[Z2, s_], [-s_, Z2]]) for s_ in sg]
+    g5 = 1j*gam[0] @ gam[1] @ gam[2] @ gam[3]; eta4 = np.diag([1.0, -1, -1, -1])
+    e_cl4 = max(float(np.max(np.abs(gam[a] @ gam[b] + gam[b] @ gam[a] - 2*eta4[a, b]*I4))) for a in range(4) for b in range(4))
+    e_g5 = float(np.max(np.abs(g5 @ g5 - I4))) + max(float(np.max(np.abs(g5 @ g_ + g_ @ g5))) for g_ in gam)
+    slash = lambda p_: sum(eta4[a, a]*p_[a]*gam[a] for a in range(4))
+    me, mmu, mtau = _V368_MASSES; m = np.array([mtau, me, mmu]); MF = np.diag(m).astype(complex); MX = F @ MF @ F.conj().T
+    p = np.array([2500.0, 300.0, -700.0, 1100.0]); p2 = float(p @ eta4 @ p)
+    Dk = lambda p_, M_: np.kron(slash(p_), E) - np.kron(I4, M_)
+    pred = float(np.prod((p2 - m**2)**2)); e_det = max(abs(np.linalg.det(Dk(p, MF))/pred - 1), abs(np.linalg.det(Dk(p, MX))/pred - 1))
+    Ur, _ = np.linalg.qr(rg.normal(size=(3, 3)) + 1j*rg.normal(size=(3, 3)))
+    e_kin = float(np.max(np.abs(np.kron(I4, Ur) @ np.kron(slash(p), E) @ np.kron(I4, Ur).conj().T - np.kron(slash(p), E))))/abs(p[0])
+    om = rg.normal(size=(4, 4)); om = om - om.T; smn = lambda a, b: 0.5j*(gam[a] @ gam[b] - gam[b] @ gam[a])
+    SL = expm(-0.25j*sum(om[a, b]*smn(a, b) for a in range(4) for b in range(4))); SLi = np.linalg.inv(SL)
+    # a genuine spinor Lorentz transformation: it preserves the Dirac adjoint (gamma0 S^dag gamma0 = S^-1) and S^-1 gamma^a S = Lambda^a_b gamma^b
+    e_adj = float(np.max(np.abs(gam[0] @ SL.conj().T @ gam[0] - SLi)))
+    Lam = np.array([[np.real(np.trace(SLi @ gam[a] @ SL @ gam[b]))/4*eta4[b, b] for b in range(4)] for a in range(4)])
+    e_vec = max(float(np.max(np.abs(SLi @ gam[a] @ SL - sum(Lam[a, b]*gam[b] for b in range(4))))) for a in range(4))/float(np.max(np.abs(Lam)))
+    e_L = float(np.max(np.abs(Lam.T @ eta4 @ Lam - eta4)))/float(np.max(np.abs(Lam)))**2; boost = float(abs(Lam[0, 0]))
+    e_lor = float(np.max(np.abs(np.kron(SL, E) @ np.kron(I4, MX) - np.kron(I4, MX) @ np.kron(SL, E))))/mtau
+    print(f"   (a) The bare toy [T/V].  L = Psibar (i gamma^mu d_mu (x) I_3 - I_4 (x) M) Psi on S_D (x) G_gen (XXI.4b's tensor audit), parity-symmetric (Dirac matrices:")
+    print(f"     {_v36_8_r(e_cl4)}, gamma5 {_v36_8_r(e_g5)}).  The kinetic term commutes with every unitary change of fiber basis -- flavor isotropy, all of U(3) (an identity of the")
+    print(f"     tensor product; a random U: {_v36_8_r(e_kin)} relative) -- and the mass term with every spinor Lorentz transformation: for a random one, |Lambda^0_0| = {boost:.3f},")
+    print(f"     gamma0 S^dag gamma0 = S^-1 ({_v36_8_r(e_adj)}), S^-1 gamma^a S = Lambda^a_b gamma^b ({_v36_8_r(e_vec)} relative) with Lambda a Lorentz matrix ({_v36_8_r(e_L)}), so Psibar M Psi")
+    print(f"     is invariant -- a Lorentz scalar (the spinor and flavor factors commute identically: {_v36_8_r(e_lor)}).  In")
+    print(f"     momentum space det = prod_n (p^2 - m_n^2)^2 in the flavor and the Cartesian bases alike ({_v36_8_r(e_det)} relative).  In the Cartesian basis -- the decomposition's")
+    print(f"     analogue Entry 352 asks for -- every Cartesian component of the lepton field has the same diagonal mass, {np.real(MX[0, 0]):.4f} MeV, and the three masses come from")
+    print("     the hop between components (v36.8-2(a)).")
+    # (b) the parent operator
+    Kh = rg.normal(size=(3, 3)) + 1j*rg.normal(size=(3, 3)); Kh = Kh + Kh.conj().T
+    Dp = lambda K_: np.kron(slash(p), E) - 1j*np.kron(g5, K_)
+    e_sq = max(float(np.max(np.abs(Dp(K_) @ Dp(K_) - (p2*np.eye(12) - np.kron(I4, K_ @ K_)))))/abs(p2) for K_ in (Kh, MX))
+    lam = 1.7; Ch = expm(-0.25j*PI*g5); e_ch = float(np.max(np.abs(Ch @ (slash(p) - 1j*lam*g5) @ Ch - (slash(p) - lam*I4))))/abs(p[0])
+    G7 = [np.kron(g_, I2) for g_ in gam] + [np.kron(1j*g5, s_) for s_ in sg]; eta7 = np.diag([1.0, -1, -1, -1, -1, -1, -1])
+    e_cl7 = max(float(np.max(np.abs(G7[a] @ G7[b] + G7[b] @ G7[a] - 2*eta7[a, b]*np.eye(8)))) for a in range(7) for b in range(7))
+    D7 = lambda P_: sum(eta7[a, a]*P_[a]*G7[a] for a in range(7))
+    P7 = np.array([2500.0, 300.0, -700.0, 1100.0, 400.0, -200.0, 900.0]); P2 = float(P7 @ eta7 @ P7); e_7sq = float(np.max(np.abs(D7(P7) @ D7(P7) - P2*np.eye(8))))/abs(P2)
+    k7 = P7[4:]; ev, Vk = np.linalg.eigh(sum(k7[a]*sg[a] for a in range(3))); red = []
+    for j_ in range(2):
+        chi = Vk[:, j_]; Rj = slash(P7[:4]) - 1j*ev[j_]*g5
+        red.append((float(ev[j_]), max(float(np.max(np.abs(D7(P7) @ np.kron(u, chi) - np.kron(Rj @ u, chi)))) for u in np.eye(4))/abs(P7[0]),
+                    float(np.max(np.abs(Rj @ Rj - (float(P7[:4] @ eta4 @ P7[:4]) - ev[j_]**2)*I4)))/abs(p2)))
+    detF = complex(np.linalg.det(p2*E - MX @ MX)); e_dF = abs(detF/float(np.prod(p2 - m**2)) - 1)
+    e_dFu = abs(complex(np.linalg.det(p2*E - (Ur @ MX @ Ur.conj().T) @ (Ur @ MX @ Ur.conj().T)))/detF - 1)
+    print(f"   (b) The mass term as an internal derivative [T/V].  With an anticommuting insertion the parent D = gamma.p (x) I - i gamma5 (x) Mint squares to p^2 - Mint^2")
+    print(f"     for any Hermitian internal operator Mint on G_gen (a random one and M: {_v36_8_r(e_sq)} relative), and the chiral rotation e^(-i pi gamma5/4) turns -i lambda gamma5")
+    print(f"     into the scalar mass -lambda ({_v36_8_r(e_ch)}) -- for a free parity-symmetric field; with chiral gauge fields and anomalies not automatically (the response).  The")
+    print(f"     response's 7-d form, Gamma^mu = gamma^mu (x) I_2, Gamma^(3+a) = i gamma5 (x) sigma^a: the Clifford algebra of signature (1,6) ({_v36_8_r(e_cl7)}); D_7(P)^2 = P^2 = p^2 - k^2")
+    print(f"     ({_v36_8_r(e_7sq)}); on an internal mode sigma.k chi = lambda chi it reduces to (gamma.p - i lambda gamma5) psi, lambda = {red[0][0]:+.4f}, {red[1][0]:+.4f} = -+|k|")
+    print(f"     ({_v36_8_r(max(r_[1] for r_ in red))}), whose square is p^2 - lambda^2 ({_v36_8_r(max(r_[2] for r_ in red))}).  The difference Entry 353 asks for is the parent's invariant: p^2 - k^2 is the")
+    print(f"     (1,6) interval, and on three flavor modes det_F(p^2 - Mint^2) = prod_n (p^2 - m_n^2) ({_v36_8_r(e_dF)} relative), unchanged by every unitary change of fibration")
+    print(f"     (an identity, the determinant being invariant under similarity: {_v36_8_r(e_dFu)}).  It involves no real structure at all, so a change of real slice could change")
+    print("     it only by changing the operator itself, which nothing here")
+    print("     constructs.")
+    # (c) the interchange
+    Ssp = np.eye(8, dtype=complex)
+    for i_ in range(3):
+        Ssp = Ssp @ (np.eye(8) + G7[1 + i_] @ G7[4 + i_])/np.sqrt(2)
+    Si = np.linalg.inv(Ssp)
+    e_int = max(max(float(np.max(np.abs(Ssp @ G7[1 + i_] @ Si - G7[4 + i_]))), float(np.max(np.abs(Ssp @ G7[4 + i_] @ Si + G7[1 + i_])))) for i_ in range(3))
+    e_int0 = float(np.max(np.abs(Ssp @ G7[0] @ Si - G7[0])))
+    Pr = np.array([1776.93, 0, 0, 0, 0, 0, 1776.93]); Pi_ = np.array([Pr[0], -Pr[4], -Pr[5], -Pr[6], Pr[1], Pr[2], Pr[3]])
+    e_map = float(np.max(np.abs(Ssp @ D7(Pr) @ Si - D7(Pi_))))/Pr[0]; m4_before = float(np.sqrt(Pr[:4] @ eta4 @ Pr[:4])); pp2 = float(Pi_[0])**2 - float(Pi_[1])**2 - float(Pi_[2])**2 - float(Pi_[3])**2
+    cnt = {}
+    for nv in product(range(-3, 4), repeat=3):
+        s_ = sum(x*x for x in nv)
+        if s_ <= 6: cnt[s_] = cnt.get(s_, 0) + 2
+    G5 = gam + [1j*g5]; eta5 = np.diag([1.0, -1, -1, -1, -1])
+    e_cl5 = max(float(np.max(np.abs(G5[a] @ G5[b] + G5[b] @ G5[a] - 2*eta5[a, b]*I4))) for a in range(5) for b in range(5))
+    dphi = lambda ph: (np.exp(1j*ph)*T - np.exp(-1j*ph)*Td)/(2j)
+    Np = np.ones(3)/np.sqrt(3); Rg = _v36_8_rot(Np, 1.0); Mc = np.diag(m).astype(complex)
+    e_circF, e_circC = float(np.max(np.abs(Rg @ MX @ Rg.T - MX)))/mtau, float(np.max(np.abs(Rg @ Mc @ Rg.T - Mc)))
+    e_circCf = float(np.linalg.norm(Rg @ Mc @ Rg.T - Mc))
+    # the ring parent's constant term enters with Gamma^4: it shifts the internal eigenvalue, m = |lambda + c|; a 5-d bulk mass M would add in quadrature
+    lb, cb, Mb = 0.3, 1/np.sqrt(2), 0.7
+    smin = lambda A_: float(np.linalg.svd(A_, compute_uv=False)[-1])
+    e_shift = smin(slash(np.array([abs(lb + cb), 0, 0, 0])) - 1j*(lb + cb)*g5)/abs(lb + cb)
+    e_bulk = smin(slash(np.array([np.hypot(lb, Mb), 0, 0, 0])) - 1j*lb*g5 - Mb*I4)/np.hypot(lb, Mb)
+    n_bulk = smin(slash(np.array([abs(lb) + Mb, 0, 0, 0])) - 1j*lb*g5 - Mb*I4)/(abs(lb) + Mb)
+    print(f"   (c) The interchange [T/V/D].  In the flat parent the two terms are interchangeable: S = prod_i (1 + Gamma^i Gamma^(3+i))/sqrt2 sends Gamma^i -> Gamma^(3+i) and")
+    print(f"     Gamma^(3+i) -> -Gamma^i ({_v36_8_r(e_int)}) and fixes Gamma^0 ({_v36_8_r(e_int0)}), so S D_7(P) S^-1 = D_7(P') with the spatial and internal momenta exchanged ({_v36_8_r(e_map)} relative):")
+    print(f"     a tau at rest, four-mass {m4_before:.2f} MeV, becomes a massless particle (p'^2 = {pp2:.1f}) of momentum {Pr[6]:.2f} -- what counts as mass and as momentum changes")
+    print("     places (the response).  Whatever makes the internal spectrum discrete breaks it.  A compact internal T^3 (a cubic torus, periodic spin structure) gives")
+    print("     shells, not three: modes (with the internal spinor) per |n|^2 = " + ", ".join(f"{s_}: {c_}" for s_, c_ in sorted(cnt.items())) + ".  On the reading of v36.8-2 the internal")
+    print(f"     space is the three-site ring of Cartesian fibers -- a 5-d parent with Gamma^4 = i gamma5 (the Clifford algebra of signature (1,4): {_v36_8_r(e_cl5)}) and Mint the ring's")
+    print("     derivative plus a constant on-site term -- a constant shift of the internal momentum, entering with Gamma^4 (a gamma5 mass in 4-d terms, the mass")
+    print(f"     |lambda + c|: {_v36_8_r(e_shift)}), not a 5-d bulk mass, which adds in quadrature (sqrt(lambda^2 + M^2): {_v36_8_r(e_bulk)}; |lambda| + M fails by {n_bulk:.3f}) --")
+    print("     with exactly three modes and a bounded spectrum, which no unitary interchange carries to a")
+    print("     continuous momentum.  On the ring the interchange that survives is F (v36.8-2(e)), and it is not a symmetry: the flavor-diagonal M is invariant under")
+    print(f"     the circle of admissible frames (rotation by 1 about N+: {_v36_8_r(e_circF)} relative), its image under F -- the masses on the Cartesian fibers -- is not (its largest")
+    print(f"     entry moves by {e_circC:.1f} MeV in the Cartesian frame, the Frobenius norm of the change is {e_circCf:.1f} MeV).")
+    print("     So the circle the complement leaves free selects the flavor-diagonal mass operators, XXI.4e's compact class -- which, three parameters for three masses,")
+    print("     is not selective: the Koide form needs v36.8-2(d)'s null condition besides.")
+    # (d) linear or quadratic
+    th, ms, _ = _v36_8_fit(); Kring = dphi(th + PI/2) + E/np.sqrt(2)
+    D5 = np.kron(slash(p), E) - 1j*np.kron(g5, Kring); e_5sq = float(np.max(np.abs(D5 @ D5 - (p2*np.eye(12) - np.kron(I4, Kring @ Kring)))))/abs(p2)
+    mu = np.sort(np.abs(np.linalg.eigvalsh(Kring))); qn = np.sort(np.cos(th + 2*PI*np.arange(3)/3) + 1/np.sqrt(2)); e_mu = float(np.max(np.abs(mu - qn)))
+    K_lin, K_sq = float(mu.sum()/np.sqrt(mu).sum()**2), float(np.sum(mu**2)/mu.sum()**2)
+    e_flux = 0.0
+    for t in rg.uniform(-PI/12, PI/12, 50):                                  # the positive branch: |theta| < pi/12
+        mm = np.abs(np.linalg.eigvalsh(dphi(t + PI/2) + E/np.sqrt(2))); e_flux = max(e_flux, abs(float(np.sum(mm**2)/mm.sum()**2) - 2/3))
+    print(f"   (d) Linear or quadratic [T/V/O].  In a first-order parent the four-dimensional masses are linear in the internal eigenvalues (|lambda|).  The ring parent with")
+    print(f"     Mint = d_(theta+pi/2) + I/sqrt2 ({_v36_8_r(e_5sq)} for D_5^2 = p^2 - Mint^2) has masses proportional to cos theta_n + 1/sqrt2 ({_v36_8_r(e_mu)}) -- Koide's amplitudes: their own")
+    print(f"     Koide ratio is {K_lin:.4f}, not 2/3; their squares' is {K_sq:.6f}, and stays 2/3 for every flux on the positive branch, |theta| < pi/12 (50 fluxes: {_v36_8_r(e_flux)}).  So the")
+    print("     response's fork, computed: a first-order internal derivative gives Koide's amplitudes as masses; Koide's masses need one more square -- a second stage,")
+    print("     m = mu^2/Lambda (a seesaw-like product, or a product of two first-order factors such as XXIV.26's two dual factors) -- or the mass operator itself as the")
+    print("     internal operator, with Koide a property of its square root.  Neither is derived; the weak, chiral structure (left doublets, right singlets, a")
+    print("     Yukawa-type mass) is not attempted.")
+    ok = (e_cl4 < 1e-15 and e_g5 < 1e-15 and e_det < 1e-12 and e_kin < 1e-12 and e_adj < 1e-12 and e_vec < 1e-12 and e_L < 1e-12 and boost > 1.01 and e_lor < 1e-12
+          and abs(np.real(MX[0, 0]) - m.mean()) < 1e-11
+          and e_sq < 1e-12 and e_ch < 1e-14 and e_cl7 < 1e-15 and e_7sq < 1e-15 and all(r_[1] < 1e-12 and r_[2] < 1e-12 for r_ in red) and abs(red[0][0] + np.linalg.norm(k7)) < 1e-9
+          and abs(red[1][0] - np.linalg.norm(k7)) < 1e-9 and e_dF < 1e-12 and e_dFu < 1e-12
+          and e_int < 1e-14 and e_int0 < 1e-14 and e_map < 1e-12 and abs(m4_before - 1776.93) < 1e-9 and pp2 == 0.0
+          and cnt == {0: 2, 1: 12, 2: 24, 3: 16, 4: 12, 5: 48, 6: 48} and e_cl5 < 1e-15 and e_circF < 1e-12 and e_circC > 100 and e_circCf > e_circC
+          and e_shift < 1e-12 and e_bulk < 1e-12 and n_bulk > 0.1
+          and e_5sq < 1e-14 and e_mu < 1e-14 and abs(K_sq - 2/3) < 1e-12 and abs(K_lin - 2/3) > 0.1 and e_flux < 1e-12)
+    check(ok, "the Dirac toy: the kinetic term U(3)-invariant, the mass term a Lorentz scalar (the spinor transformation preserving the Dirac adjoint and acting as a Lorentz "
+          "matrix), det = prod (p^2 - m^2)^2 in both bases; the parent squares to p^2 - Mint^2, the chiral rotation to a scalar mass; Cl(1,6) and D_7^2 = P^2 with the mode "
+          "reduction; det_F(p^2 - Mint^2) = prod (p^2 - m^2), U(3)-invariant; the interchange spinor (rest mass to momentum); T^3 shells 2, 12, 24, 16, 12, 48, 48; Cl(1,4) and "
+          "the ring; F not a symmetry (the circle); the ring's masses Koide's amplitudes (ratio of squares 2/3 for every flux on the branch, of the masses themselves not)")
+    print("   [T] The tensor structure of the bare toy; the parent's square; the Clifford algebras; the mode reduction; the interchange spinor; the shells.")
+    print("       [V] The determinants, the ring parent, the circle.  [D] Reading Entry 353's derivative in the mass term, and its invariant difference, as the internal")
+    print("       part of a parent Dirac operator, and the internal space as the ring.  [O] Which internal operator is primary, the second stage, the chiral (weak)")
+    print("       structure.")
+    return dict(K_lin=K_lin, K_sq=K_sq)
+
+def v36_8_suite():
+    c = v36_8_complement(); r = v36_8_ring(c); d = v36_8_dirac()
+    return dict(complement=c, ring=r, dirac=d)
+
+def v36_8_quick():
+    """The checks that run in a few minutes: v36.7's quick set plus the three v36.8 sections (a few seconds)."""
+    v36_7_quick(); return v36_8_suite()
 # ---------------------------------------------------------------------------------------------- the suites
 def v36_1_suite(prev=None):
     """The v36.1 sections.  prev: the dicts returned by v36_0_milky_way, v36_0_sparc_pilot and v36_0_zoom_labels (recomputed if None)."""
@@ -21215,10 +21853,10 @@ def v36_0_suite():
     return dict(mw=mw, pilot=p, zoom=z)
 
 def current_suite_v36():
-    """The current regression suite of Part XXXIII (v36.0-v36.7), followed by the check summary."""
-    prev = v36_0_suite(); v36_1_suite(prev); v36_2_suite(); v36_3_suite(); v36_4_suite(); v36_5_suite(); v36_6_suite(); v36_7_suite()
+    """The current regression suite of Parts XXXIII-XXXIV (v36.0-v36.8), followed by the check summary."""
+    prev = v36_0_suite(); v36_1_suite(prev); v36_2_suite(); v36_3_suite(); v36_4_suite(); v36_5_suite(); v36_6_suite(); v36_7_suite(); v36_8_suite()
     npass = sum(1 for ok, _ in _CHECKS if ok); nfail = len(_CHECKS)-npass
-    print(f"\n== check summary (Part XXXIII): {npass} passed, {nfail} failed ==")
+    print(f"\n== check summary (Parts XXXIII-XXXIV): {npass} passed, {nfail} failed ==")
     for ok, msg in _CHECKS:
         if not ok: print("   FAILED:", msg)
     return nfail == 0
@@ -21227,7 +21865,7 @@ def current_suite_v36():
 if __name__ == "__main__":
     import sys
     arg = sys.argv[1] if len(sys.argv) > 1 else "current"
-    suites = {"current": current_suite_v36, "v36_0": v36_0_suite, "v36_1": v36_1_suite, "v36_2": v36_2_suite, "v36_3": v36_3_suite, "v36_4": v36_4_suite, "v36_5": v36_5_suite, "v36_6": v36_6_suite, "v36_7": v36_7_suite, "quick": v36_7_quick}
+    suites = {"current": current_suite_v36, "v36_0": v36_0_suite, "v36_1": v36_1_suite, "v36_2": v36_2_suite, "v36_3": v36_3_suite, "v36_4": v36_4_suite, "v36_5": v36_5_suite, "v36_6": v36_6_suite, "v36_7": v36_7_suite, "v36_8": v36_8_suite, "quick": v36_8_quick}
     if arg not in suites:
         print("usage: python3 -I pg_v36_numerics.py [" + " | ".join(suites) + "]"); sys.exit(2)
     suites[arg]()
@@ -29814,6 +30452,8 @@ $W$ has a single maximum, $0.306$ at $R_w = 1$, and no interior minimum, falling
 
 ## XXXIII.65 Standing after v36.7, and the next pieces [S/O; R369]
 
+*[v36.8, R374: v36.8 adds no section to Part XXXIII. Flavor, held in the backlog (§§XXXIII.11 and XXXIII.25, item 6; the head table), is taken up in Part XXXIV (Entries 351–353), whose standing is §XXXIV.5, the categories of mass and Entry 319's audit staying in the backlog; the next pieces below stand.]*
+
 §XXXIII.59 remains the operative standing, with these changes.
 - *Established [T/V], added.* The penalties compared on the full two-sector configuration (§XXXIII.62): the review's cone in v36.6's scalar at the aligned vacuum, one point of a non-differentiable set that contains the whole coincidence set $\mathbf n_L = \mathbf n_R$; Entry 349's sine, in the responses' reading a function of $\mathbf n_L\cdot\mathbf n_R$ alone — blind to the normal, zero again at $\pi-\alpha_0$, quartic in the twist; the sine and the response's $1-\cos(\theta-\alpha_0)$ conical at alignment in every exchange-even reading; the response's smooth form and the review's polynomials in $\mathbf S$, smooth, zero exactly on the family — these lowest-order forms with about a quarter of the gap at the same curvature, a smooth form with higher terms possibly more; all blind to the fibre phases. The model with each (§XXXIII.63): for an exchange-even penalty, smoothness at the aligned vacuum and a tilt following weak matter exclude each other — the cone penalties' tilt follows the column density, the smooth forms' is confined to a patch where the matter is dense; the sine and $1-\cos$ keep v36.6's three modes and, with the isotropic probe, its scales; at the same gap the probe-only sine binds more strongly ($V_{\sin}\leq V_{\rm old}$), at the same coupling more weakly; with their pinning the lowest-order smooth forms lose the mode at the same coupling and regain one, weakly bound, at the same gap, while the smooth form with a quartic term and v36.6's gap binds two modes at that coupling, its tilt still a patch; the exterior obstruction holds for every gapped penalty. Off the ansatz (§XXXIII.64): the mirror solution a stable critical point of the full energy for every penalty, with one zero mode — the rotation about the normal, $\sin\alpha$, gapless along the disk for the cone penalties and gapped for the response's smooth form; no lower state found by a multi-start local search; the sine's second zero leaving no metastable state (the held wall's energy has one maximum and no minimum).
 - *Not demonstrated,* now including: a penalty that both is smooth at the aligned vacuum and lets the matter's tail tilt the sectors (§XXXIII.63(a): for an exchange-even penalty the two exclude each other); the thin–broad disk or the sine-exponential from any of the penalties (§XXXIII.63(f)); the probe's kinetic metric, the gap and the penalty's form from PG's geometry.
@@ -29828,9 +30468,1389 @@ $W$ has a single maximum, $0.306$ at $R_w = 1$, and no interior minimum, falling
 - **R368** (§XXXIII.64). The full two-sector energy with the geodesic stiffness and the aligned vacuum $\mu(1-\mathbf S\cdot\mathbf k)$; the mirror solution a critical point by symmetric criticality; the second variation in four blocks (tilt; the bisector's two tilts; the rotation about $\mathbf k$), checked by finite differences; no negative eigenvalue in any block or parity for any penalty; one zero mode, $\sin\alpha$; the rotation block gapless along the disk for v36.6's scalar, the sine and $1-\cos$ ($1/L^2$, one band), gapped for the smooth form; the stiffness isotropic, a choice; a multi-start local search — for v36.6's scalar, the sine and the response's smooth form, three structured starts each — ending at the mirror energy; from the sine's second zero a wall held by the grid, and the held wall's energy $W(R_w)$ with one maximum ($0.306$ at $R_w = 1$) and no minimum: no metastable state. [T/V/D]
 - **R369** (§XXXIII.65; §XXXIII.13; the head table; the toy). Standing after v36.7; the next pieces. The suite `pg_v36_numerics.py` at v36.7: three new sections and checks ($40$ in all), the helpers `_v36_7_branch`, `_v36_7_C`, `_v36_7_alpha`, `_v36_7_u23`, `_v36_7_blocks`, `_v36_7_inertia`, `_v36_7_full`, `_v36_7_wall`, the mode `v36_7` (about eight minutes), `quick` now $24$ checks (v36.7's penalties; the two model sections run in `v36_7`); the toy `v32_toy_three_ends.py` gains `v36_7`, its `all` counting $227$; no new figure. The SHA-256 of the suite is in §XXXIII.13. [S/O; reproducibility]
 
-## Round record: the version summaries, v16 to v36.7 (moved from the head of the archive in v34.9, R190)
+# PART XXXIV — FLAVOR: THE COMPLEMENT OF A CARTESIAN FIBRATION (v36.8, opened 21 October 2026; Entries 351–353 and the three responses) [T/V/D/S/O]
 
-*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v36.7, v36.6, v36.5, v36.4, v36.3, v36.2, v36.1, v36.0, v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+*v36.8 opens this Part for the flavor program that §XXXIII.9 held for a piece of its own: "They touch the frozen Part XXX, so new work on them opens a new Part rather than editing Part XXX." Parts XXI, XXIV and XXX stay frozen and are cited, not edited. The flavor lines are §XXI.4b's weight lines of a selected axis; the Koide operator is §XXI.4's, with §XXIV.26's first-order factor and dual factors; the Weyl pair and the trigonal frame are §§XXX.3 and XXX.13's.*
+
+*The head table at the top of the archive governs this Part too, through the rows under its flavor heading. The computations are in Part XXXIII's suite, `pg_v36_numerics.py` (§XXXIII.13), mode `v36_8`, and the register continues from R370.*
+
+*The Part answers Entries 351–353 (§XXXIV.1):*
+- *Entry 352's rule for a complement of the Cartesian fibers (§XXXIV.2);*
+- *the archive's mass operator read on those fibers (§XXXIV.3);*
+- *the bare Dirac toy, with the mass term as an internal derivative (§XXXIV.4).*
+
+*§XXXIV.5 is the Part's standing and §XXXIV.6 its register.*
+
+## XXXIV.1 Entries 351–353 and the three responses, as formulated (21 October 2026) [record; R370]
+
+**The author's first message (21 October), with Entry 351 attached.** In the author's words, as the session recorded them (the message itself is not among the uploads; Entry 351 is quoted from its upload):
+
+> Ok here's part of my next message, (a journal entry), but before you actually run it please convert the text in the images to markdown. Thanks!
+
+**Entry 351 (21 October, 3:15–4:25 PM), "Reframe for Flavors Idea Scoped Out" (attached).**
+- *Its number.* The entry carries only its title. The number 351 comes from the response the author forwarded with Entries 352 and 353 ("I think Entry 351 contains…"), and the author's own labels for the next two are 352 and 353. No Entry 350 is in the archive.
+- *Its form.* The entry is typed, with three handwritten pages (3:15–3:56 PM) as images. The transcription of the pages was delivered with the reply to that message, and it stands here in place of the images.
+- *Conventions.* Bracketed letters inside a word complete it where the page's edge cut it, and the two sketches are described in brackets; the bracketed symbols of the heuristic info algebra ([X], [1], [i], [#] and the like) are the page's own notation.
+- *What is omitted.* The image data, about 140 kB of base64 text, is not embedded. The rest is quoted as typed.
+
+> ## **Reframe for Flavors Idea Scoped Out**
+>
+> ### *Oct 21, 2026 3:15 PM*
+>
+> *[The three page images, as transcribed:]*
+>
+> **10/21/26 — 3:15 PM**
+>
+> Spin determinate nodes as "regime hopping" + "Aethic Bayesian binding".
+>
+> → Hence proposed explanation for "1-qubit measurements' primacy 'z' property"?!
+>
+> **3:18 PM**
+>
+> Also my idea (from a few days ago) for taking M term of Dirac Lagrangian as "space info-losing" while ∂_μ term is "flavor info-losing" effectively! Altogether then maybe having all terms "restores" the info! Also maybe even quarks get to have the "heterogeneous" form by means of responding to mix-and-match combo dimensional info or something!
+>
+> *[Sketch: two branching trees side by side]*
+>
+> ```
+>  Space      Flavor
+>    x          1
+>    |          |
+>   / \        / \
+>  z   y      3   2
+> ```
+>
+> ?: quark (6 choose 3)/2 ???
+>
+> *[Sketch: Pascal's triangle, worked down to the row for 6 choose 3]*
+>
+> 10 is wrong then, so not quite I guess!
+>
+> **3:35 PM**
+>
+> Heuristic info algebra:
+>
+> [X], [Y], [Z],   [1], [2], [3],
+>
+> [i] picks no [1], [2], [3], so only [i] → [1, 2, 3],
+>
+> [#] picks no [X], [Y], [Z], so only [#] → [x, y, z],
+>
+> So for ∪ meaning "largest pick",
+>
+> [i] ∪ ([1][2][3]) = ([X][Y][Z]) ∪ ([1][2][3]),
+>
+> Also [X][Y][Z] ↔ [1][2][3],
+>
+> ---
+>
+> So... quotienting out [i] ∈ {[X], [Y], [Z]} preserves all of [1], [2], [3], and [#] ∈ {[1], [2], [3]} preserves all of [X], [Y], [Z] info!
+>
+> (Inspired by charged lepton vs. neutrino case).
+>
+> **3:47 PM**
+>
+> Ok so lepton-backtransform might literally be turning some something "inside out" quotient-wise or something!
+>
+> So I suppose we'll have a lepton-coordinates radius as well!
+>
+> So if you locally select a "Cartesian" basis for quotienting foliation stuff, then this foliation also selects the "flavor complement" to things!
+>
+> Principle then is that fiber quotienting of one cart fiber can't delete a comp fiber, and deleting one comp fiber can't delete a cart fiber.
+>
+> **3:56 PM**
+>
+> Also: let's just fully store Boltzmannian space shift DOFs in the imaginary direction stuff. How easy is that lol??? We're already usi[ng] imaginary-extracted stuff to get flavor informa[tion] and we know complexified stuff to give Machi[an] results via Kerr, so we can just suppose that the "extra grab bag" of cross-Boltzmanni[an] material IS complexified spacetime proper! Huh! (I mean mutual "information-encoding-wise.
+>
+> *[End of the transcription.]*
+>
+> ### *Oct 21, 2026 4:25 PM*
+>
+> So yeah that’s pretty much the idea as of right now, together with that through this idea of “there can be a ‘distance’ between what determinate nodes come from, but what we call a determinate node is the stitching together of these stretches to create ‘usual spacetime’” the idea then I guess would be that such a stitched-together-patchwork can *be* the real slice involution fixed point of the total complexified spacetime stuff, while the stuff “off of” that together with the involution degrees of freedom or whatever else “contain” all the extra structural information of the Boltzmannian space, such that maybe the patchwork choice itself is like a kind of frame-change within this wider Boltzmannian space invariant I would think\! Interesting lol\!  
+> Yeah what’s good about this though is that for like the last week I kind of lost a lot of confidence, pretty much after I realized how my exp(-tan(chi)) idea for the galaxy was kind of trash, and the exponential falloff seemed to conflict with the orbital carryover (so still that isn’t quite resolved, but got kicked up in the first place from the switching from stereographic to gnomonic and stuff—but still the methodological invariant I want is to stick with the principle of “the empiricism diverges from general relativity proper directly at the galaxy scale, which means it probably becomes compoundingly more likely as we upscale from the galaxy scale that our standard theory is overfitting of the ontology, therefore meaning the ‘epicenter’ of where you’d be advised to break out of the mold is in the very galaxy model itself—and that’s what I’ve been attempting to triangulate and or spiral into with my various shedding moments of background cosmological assumptions, all while I myself, clearly, couldn’t get it in one go since those assumptions are so stubbornly ingrained\!”), and so the “matter as extra Boltzmannian structure” idea seems super choppy to me, like more of a desperation move than a determined move\! As in, somebody like Einstein who does this right gives me the following explanation: “*Here’s what makes Albert Einstein better than everybody else: Einstein doesn’t guess. He determines.*” That is, the gold standard is you let nature read off the consequences for you, which is what anxiety-induced desperation doesn’t exactly land lol\! So yeah as usual I have to just hope I’m not seriously overfitting everything, and a good way to do that is just such an AI-detachment that was the last couple of days for me\! So yeah, there’s that anyway lol\!
+
+**The author's second message (21 October), with Entries 352 (6:21 PM) and 353 (6:43 PM) in its text and three responses attached.** In the author's words:
+
+> Here's the referee response, thanks!
+>
+> Me:
+> ## Entry 352, 6:21 PM, Oct 21, 2026
+>
+> (Right by the way on the “general relativity being wrong” musing thing, what I was trying to say is that as a general philosophy of science in analyzing how the tide turns with typical scientific shifts, due to the consistent factor of humanity’s own epistemological initial conditionings hiding the spots which get shifted and all, I would say that while of course using empiricism alone we’re not ruling out general relativity one way or the other, by my philosophical “code” you could say we’re advised to shift directly at the galaxy level and no later, because already it’s when we “lose the inductive reasoning signal” so to speak. Hence, it’s only a philosophy of science rather than a hard empirical claim, because that would be naive.)  
+> Now, also let me clarify the flavor idea a little bit better: basically my idea is that if we come up with something which we might call a “generalized Cartesian foliation/fibration” or something, the idea is that you basically turn all of the Cartesian three x,y,z directions into fibers that can be quotiented out quite similarly to the meridian. One way of constructing such a global object is to fix an arbitrary orthonormal frame at one spot locally, and then generalize/trace out those three decided directions into fibers such that every point in the canonical space is touched. Then the idea is that every such three-way-fibered objects admits uniquely one “complement” object, such that the three fibers from this complement object *ARE* the flavor directions. The rules are then that no one Cartesian fiber privileges/selects/narrows down beyond all three complement fibers, and similarly no one complement fiber privileges a Cartesian fiber. So they’re two ways of foliating the canonical space pretty much, but in a way so that each one exactly loses the distinguishing information of the other one, such that you need all three fibers from one to deduce the fibers from the other, but having one fiber from one blurs out all the information of the other. So the “algebra” so to speak is in, abstractly, maintaining this “one fiber of one blurs the information distinguishing the fibers of the other”. So, like, concretely this means that in said local spot defining the three Cartesian directions, each such Cartesian direction can’t pick out one flavor fiber as being more aligned with it or something, hence my intuition visual about exploiting the extra directions of complexified spacetime to basically move the flavor fibers over that point in a way that appears radially symmetric or something to the real-slice\! See what I mean???  
+> Then basically the idea is that within the Dirac Lagrangian, the mc^2 term itself IS literally just the exact analogue for the flavor fibers for what the partial\_mu term is for the Cartesian directions\! So both “the Cartesian direction term in front loses the flavor directions to ‘flavor isotropy’” AND “the flavor term after loses the Cartesian direction to ‘Cartesian radial isotropy’, hence why it appears simply as a constant respecting to direct spatial motion” AND then also “but the difference of these two is supposed to be a fundamental invariant in the sense of changing which fibration you use for the Cartesian ones, the flavor ones as the determinate complement, and in turn what the real-slice fixed point space even is to begin with”. Then I’d love to get the existing (sin(a)-sin(b))^2 Koide mass term I have as some kind of profound geometric reading off of the flavor fibers themselves, as was the leading intuition of making it “like” a spacetime metric to begin with.  
+> Just the way I’d want to parse this though is start with the bare Dirac Lagrangian for each of the three charged leptons, maybe start with the toy model assumption that there’s no parity asymmetry, (so that we can start with the simple term where it’s just subtraction in the middle), then re-work out the decomposition’s analogue, and then ultimately maybe start looking into reinstating the weak parity asymmetry material. Anyways, thanks\!
+> Entry 353, 6:43 PM, Oct 21, 2026
+> Right but I’m also sort of wondering if we can even get some kind of partial_mu in there for the mass term itself, just built to only “see” the flavor fiber directions, hence why it appears like a constant to the first term, which conversely only “sees” the spacetime directions! I’m trying to push for having it be genuinely symmetric in the sense of making the two terms interchangeable! Also how can we set it up to have their difference be an invariant for different choices of Cartesian fibers and the determinate complement flavor fibers??? Thanks!
+
+**The response on Entry 351 (attached).**
+
+> I think Entry 351 contains a potentially important reformulation of your co-space idea, particularly the thought at 4:25 PM that conventional spacetime might be the stitched-together real slice of a larger complexified relational structure.
+>
+> What interests me most is that you're no longer necessarily asking matter to be constructed from discarded spatial information. Instead, you're exploring whether space, flavor, determinate events, and their apparent separation emerge from different but compatible reductions of one underlying structure.
+>
+> That is a more disciplined starting point than assigning all unexplained physics to an unspecified collection of extra dimensions.
+>
+> I also think your concern about overfitting deserves to be taken seriously. The earlier failure of the \\(e^{-\tan\chi}\\) galaxy model and the outstanding rotation-curve discrepancies are real constraints on PG. They are not reasons to discard every related geometric idea, but they do mean that a proposed structure needs independent reasons to exist before being used to repair a galactic fit.
+>
+> There are three mathematical ideas in this entry that I'd separate and test.
+>
+> ## 1. Your complementary-quotient idea has a precise mathematical starting point
+>
+> The claim I would investigate first is the one you formulate around 3:47 PM:
+>
+> > Quotienting one Cartesian fiber shouldn't erase the complementary flavor information, and quotienting a flavor fiber shouldn't erase the Cartesian information.
+>
+> Suppose the primitive structure locally has the form
+>
+> \\[ \mathscr E=X\times F, \\]
+>
+> where \\(X\\) carries spatial-type information and \\(F\\) carries flavor-type information.
+>
+> If a group \\(H_X\\) acts only on \\(X\\), then
+>
+> \\[ \boxed{ (X\times F)/H_X \simeq (X/H_X)\times F. } \\]
+>
+> The \\(F\\) information survives intact.
+>
+> Likewise, if \\(H_F\\) acts only on \\(F\\),
+>
+> \\[ \boxed{ (X\times F)/H_F \simeq X\times(F/H_F). } \\]
+>
+> So your proposed rule is mathematically possible.
+>
+> But there is a crucial distinction: it is a theorem once the independent product structure and separate group actions are assumed. It isn't yet a derivation of that independence.
+>
+> The interesting case is when the two structures are intertwined.
+>
+> For example, if a spatial reduction also rotates flavor coordinates, spatial quotienting may alter the flavor information. This would be described by a nontrivial connection or group action on the flavor bundle.
+>
+> That gives PG a useful choice:
+>
+> - If the two reduction operations commute, each may preserve the other's complementary information.
+> - If they don't commute, their mismatch can carry holonomy or additional relational information.
+>
+> I would therefore formulate your conjecture around two reduction operators:
+>
+> \\[ P_X,\qquad P_F, \\]
+>
+> and investigate whether
+>
+> \\[ \boxed{[P_X,P_F]=0} \\]
+>
+> is an exact law, an equilibrium condition, or something that fails in physically interesting sectors.
+>
+> A controlled failure of commutativity could potentially provide mathematical content for the centradic scrambling you've been discussing.
+>
+> One caution about the flavor inventory: the number \\(\binom63/2=10\\) is mathematically correct, but doesn't directly correspond to the Standard Model's six quark flavors, three colors and three generations. A combinatorial match would only become explanatory once PG derives the relevant gauge representations, charges and interactions.
+>
+> ## 2. The Dirac-Lagrangian intuition is suggestive, but I would reverse part of its interpretation
+>
+> You propose regarding the mass term as space-information-losing and the derivative term as flavor-information-losing.
+>
+> Consider the Dirac Lagrangian:
+>
+> \\[ \mathcal L_D = \bar\psi (i\hbar c\gamma^\mu D\_\mu-mc^2)\psi. \\]
+>
+> Its two contributions behave differently:
+>
+> \\[ \mathcal L\_{\rm kinetic} = i\hbar c\bar\psi\gamma^\mu D\_\mu\psi, \\]
+>
+> \\[ \mathcal L\_{\rm mass} = -mc^2\bar\psi\psi. \\]
+>
+> The established distinction is that the kinetic term describes propagation and gauge interactions, while a Dirac mass couples left- and right-chiral components.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://www.physi.uni-heidelberg.de\&sz=32)
+>
+> physi.uni-heidelberg.de
+>
+> +1
+>
+>
+>
+> In chiral notation, suppressing conventional unit factors,
+>
+> \\[ \boxed{ \mathcal L\_{\rm mass} = -m(\bar\psi_L\psi_R+\bar\psi_R\psi_L). } \\]
+>
+> This is particularly interesting for your framework because the mass term joins structures that propagate separately in the massless limit.
+>
+> There is a possible analogy with your two co-spaces.
+>
+> However, neither term literally deletes information. The derivative term doesn't trace over flavor, and the mass term doesn't quotient spacetime coordinates.
+>
+> A mathematically safer reformulation would be:
+>
+> Perhaps propagation and mass are two complementary compatibility operations, and the complete Dirac operator records the way they must fit together.
+>
+> With flavor and chirality indices exposed, the inverse-propagator operator has a schematic block form:
+>
+> \\[ \boxed{ \mathcal K= \begin{pmatrix} K_L&-M\\\ -M^\dagger&K_R \end{pmatrix}. } \\]
+>
+> Here \\(K_L,K_R\\) encode chiral propagation, while \\(M\\) connects the sectors. The full spectrum depends on all these components.
+>
+> That resonates with your earlier centron as spectral-transport structure proposal.
+>
+> But the Standard Model imposes another constraint: before electroweak symmetry breaking, charged-fermion masses must arise through gauge-invariant Higgs–Yukawa couplings rather than arbitrary bare Dirac masses. Quark mixing arises from the relationship between the up- and down-type Yukawa matrices.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://link.springer.com\&sz=32)
+>
+> Springer Nature Link
+>
+> +1
+>
+>
+>
+> I would use those requirements to test your complementarity idea rather than treat the Dirac decomposition as confirmation.
+>
+> ## 3. The real-slice proposal may be the strongest geometric idea in the entry
+>
+> This sentence particularly caught my attention:
+>
+> > The stitched-together patchwork can be the real-slice involution fixed point of the total complexified spacetime.
+>
+> There is a standard mathematical framework very close to this.
+>
+> Let \\(\mathcal M\_{\mathbb C}\\) be a complex four-dimensional manifold equipped with an antiholomorphic involution
+>
+> \\[ \tau:\mathcal M\_{\mathbb C}\longrightarrow\mathcal M\_{\mathbb C}, \qquad \tau^2=1. \\]
+>
+> A real slice can be defined as
+>
+> \\[ \boxed{ \mathcal M\_{\mathbb R}=\operatorname{Fix}(\tau). } \\]
+>
+> In a simple coordinate example,
+>
+> \\[ z^\mu=x^\mu+iy^\mu,\qquad \tau(z^\mu)=\overline{z^\mu}, \\]
+>
+> so the fixed points satisfy
+>
+> \\[ y^\mu=0. \\]
+>
+> Real structures and their fixed-point loci are established tools in complex geometry.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://www.scribd.com\&sz=32)
+>
+> Hamiltonian Mechanics
+>
+> +1
+>
+>
+>
+> Now comes your proposed extension.
+>
+> Instead of assuming one preferred real slice from the beginning, let the admissible identifications among co-spaces determine the real structure whose fixed points constitute observable spacetime.
+>
+> The possible architecture is:
+>
+> \\[ \boxed{ \begin{gathered} \text{Complexified relational structure }\mathcal M\_{\mathbb C}\\\ \downarrow\\\ \text{Admissible identifications among histories/co-spaces}\\\ \downarrow\\\ \text{Selected reality involution }\tau\\\ \downarrow\\\ \mathcal M\_{\mathbb R}=\operatorname{Fix}(\tau). \end{gathered} } \\]
+>
+> This gives a precise meaning to your idea that conventional spacetime might be a stitched-together patchwork.
+>
+> But an important theorem is missing: the stitching process must independently determine \\(\tau\\), rather than assuming the real structure whose emergence it is intended to explain.
+>
+> I would actually formulate the stitching separately:
+>
+> \\[ \boxed{ B= \left(\coprod_i\mathcal C_i\right)\big/\sim, } \\]
+>
+> where \\(\sim\\) represents admissible identifications between events in distinct co-spaces.
+>
+> Then investigate whether
+>
+> \\[ \boxed{ B\cong\operatorname{Fix}(\tau) } \\]
+>
+> for some naturally constructed involution.
+>
+> That would be a genuine mathematical target.
+>
+> It also generates strong tests. The stitched result must be a suitable smooth four-dimensional manifold, admit a Lorentzian metric and preserve consistent causal relations. Arbitrary equivalence relations or patchwork identifications do not guarantee any of that.
+>
+> And there's a subtlety about the complexified information you want to retain.
+>
+> Although four complex coordinates carry eight real coordinate components, the imaginary components are not automatically four new physical dimensions or four independent matter fields.
+>
+> Complexification can encode analytic and geometric structure without introducing additional observable degrees of freedom.
+>
+> Similarly, Kerr-related complex methods don't by themselves prove that its imaginary coordinates physically store Boltzmannian microstates.
+>
+> The extra information must be identified through an invariant—perhaps holonomy, transition functions, spectral data or relational compatibility—not merely through the presence of imaginary coordinates.
+>
+> That gives your proposal a path toward rigor without assigning physical meaning to every mathematical coordinate.
+>
+> ## 4. Determinate nodes as “regime hopping”
+>
+> I think this idea may connect the other two.
+>
+> Suppose histories from different co-spaces do not initially share a notion of one spacetime event.
+>
+> A determinate node could be the place where their admissible relationships permit a common event identification.
+>
+> That would make a node something richer than a point on a predefined worldline.
+>
+> However, event identification, quantum measurement and Bayesian updating are three different operations.
+>
+> A mathematical correspondence can establish that two histories refer to the same effective event. That does not automatically explain why a quantum measurement has a definite outcome, or why its probabilities obey the Born rule.
+>
+> If your proposed “Aethic Bayesian binding” is intended to connect those operations, it needs a separate probability rule and a consistency condition for sequential measurements.
+>
+> The Bloch-sphere observation from your earlier notes is useful here. For a qubit,
+>
+> \\[ \boxed{ P(+|\mathbf n) = \frac{1+\mathbf r\cdot\mathbf n}{2}, } \\]
+>
+> where \\(\mathbf r\\) is the state Bloch vector and \\(\mathbf n\\) is the measurement direction.
+>
+> There is no physically privileged \\(z\\)-axis for an arbitrary qubit. The familiar \\(z\\)-basis becomes distinguished when an apparatus, interaction or physical environment selects it.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://ocw.tudelft.nl\&sz=32)
+>
+> TU Delft OCW
+>
+>
+>
+> So a PG explanation shouldn't begin by trying to derive why \\(z\\) is fundamentally special.
+>
+> A stronger question is:
+>
+> Can determinate-node compatibility explain how an otherwise unprivileged internal direction becomes the physically selected measurement basis?
+>
+> That would connect your “regime hopping” idea to actual quantum measurement structure.
+>
+> ## 5. A necessary correction concerning the galactic evidence
+>
+> I also want to address one premise in the journal entry because it affects the whole research strategy.
+>
+> You describe empiricism as diverging from general relativity directly at the galactic scale.
+>
+> There is an important distinction here:
+>
+> Galaxy rotation curves strongly disagree with the predictions of visible baryonic matter alone under standard gravitational modeling. They do not, by themselves, establish that general relativity is wrong.
+>
+> General relativity plus dark matter provides a widely studied explanation, supported not only by rotation curves but also by gravitational lensing, the cosmic microwave background and large-scale structure. For example, the Planck results show substantial consistency between independent CMB measurements and the six-parameter \\(\Lambda\\)CDM framework.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://doi.org\&sz=32)
+>
+> Astronomy & Astrophysics (A&A)
+>
+> +2
+>
+>
+>
+> That doesn't prove GR or \\(\Lambda\\)CDM must be ontologically fundamental.
+>
+> Nor does it prohibit an alternative theory from reproducing those observations with a different ontology.
+>
+> But the correct target for PG is stronger than explaining why rotation curves aren't Newtonian for visible matter.
+>
+> It must explain the full observational evidence at least as successfully, without introducing compensating assumptions separately for each class of observations.
+>
+> That is especially relevant after the unsuccessful gnomonic dwarf fits.
+>
+> The failures constrain specific PG source and rendering hypotheses. They don't logically refute every possible co-space ontology—but neither do they count as evidence in its favor.
+>
+> ## 6. How to guard against the overfitting you're worried about
+>
+> I think the most useful distinction is between exploratory mathematics and a determined physical construction.
+>
+> Exploration can involve guesses. Einstein certainly made conceptual hypotheses and developed mathematical structures before all their observational consequences were known.
+>
+> The demanding part is what comes afterward: deriving consequences that aren't chosen to reproduce the data, and allowing those consequences to reject the starting assumptions.
+>
+> For Entry 351, I would set one narrow mathematical challenge rather than try to explain galaxies, quarks, quantum measurement and Kerr simultaneously.
+>
+> Construct a minimal relational model whose space and flavor reductions are complementary, whose event identifications produce a real four-dimensional slice, and whose compatibility structure is fixed independently of the desired physical interpretation.
+>
+> Then ask whether the model necessarily produces anything beyond a familiar product bundle or conventional quantum field theory.
+>
+> That last possibility must count as a legitimate outcome. If the construction reproduces existing mathematics without new constraints, it may still clarify PG's ontology, but it hasn't established new physics.
+>
+> The advantage of isolating this test is that it doesn't need to assume the galaxy model is correct.
+>
+> If the dual-quotient and real-slice structures are natural consequences of the parent geometry, they can be studied and evaluated on their own terms. Only afterward should they be applied to galactic localization and rotation curves.
+>
+> ## My overall reading of Entry 351
+>
+> I wouldn't regard the newer co-space and matter ideas as merely desperation moves. They can be formulated as distinct mathematical hypotheses and investigated independently.
+>
+> But I also wouldn't treat their apparent elegance, or their connections to complex geometry and the Dirac equation, as confirmation. Those are starting points for a derivation.
+>
+> What seems most promising is this sequence:
+>
+> \\[ \boxed{ \begin{gathered} \text{Primitive relational structure}\\\ \downarrow\\\ \text{Complementary space/flavor reductions}\\\ \downarrow\\\ \text{Admissible event stitching}\\\ \downarrow\\\ \text{Selected reality structure}\\\ \downarrow\\\ \text{Effective spacetime and matter propagation}. \end{gathered} } \\]
+>
+> The profound question is whether those steps follow from a small set of independently justified axioms—or whether each requires a freely chosen identification.
+>
+> That difference is precisely the difference between deriving a physical ontology and continually adjusting one.
+>
+> And I think your recent decision to create some distance from the AI-assisted iteration is methodologically sensible. It gives you room to decide which principles you're independently committed to, which are mathematical consequences, and which arose primarily in response to a failed model.
+>
+> The strongest next move isn't to generate more possibilities. It's to make one of these possibilities restrictive enough that it can actually fail.
+>
+> Of everything in Entry 351, I'd prioritize the claim that complementary quotient structures select a shared real spacetime slice. If that can be derived rather than stipulated, it would provide an independent mathematical foundation for several of your other ideas—without depending on rescuing the galaxy rotation curve first.
+
+**The response on Entry 352 (attached).**
+
+> Yes—now I see the construction you're proposing much more clearly. And the key is not merely that space and flavor each have three directions. It's that you want the complete spatial triad to determine a complementary flavor triad, while no individual spatial direction distinguishes any individual flavor direction.
+>
+> That's a much stronger and more interesting condition than simply introducing three extra coordinates.
+>
+> I also understand your philosophy-of-science clarification: you're proposing the galactic scale as a strategic place to question inherited assumptions, not claiming that rotation curves have experimentally falsified GR. That's a reasonable distinction.
+>
+> What I'd investigate first is whether your complementary-direction rule can be realized mathematically, and then whether it produces the structure of the charged-lepton Dirac operator.
+>
+> ## 1. There is a surprisingly close mathematical construction
+>
+> Suppose we have three orthonormal Cartesian directions,
+>
+> \\[ |X\rangle,\quad |Y\rangle,\quad |Z\rangle, \\]
+>
+> and we seek three complementary directions,
+>
+> \\[ |F_0\rangle,\quad |F\_+\rangle,\quad |F\_-\rangle, \\]
+>
+> such that
+>
+> \\[ \boxed{ |\langle X_i|F_a\rangle|^2=\frac13 \quad\text{for every }i,a. } \\]
+>
+> This means that every Cartesian direction has exactly the same squared overlap with every flavor direction.
+>
+> No single Cartesian axis statistically favors one flavor; reciprocally, no single flavor direction favors one Cartesian axis.
+>
+> In quantum mathematics, two orthonormal bases satisfying this condition are called mutually unbiased bases.
+>
+> And in three complex dimensions, we can construct precisely such a pair.
+>
+> Let
+>
+> \\[ \omega=e^{2\pi i/3}. \\]
+>
+> Then define
+>
+> \\[ \boxed{ \begin{aligned} |F_0\rangle&=\frac{|X\rangle+|Y\rangle+|Z\rangle}{\sqrt3},\\\ |F\_+\rangle&=\frac{|X\rangle+\omega^2|Y\rangle+\omega|Z\rangle}{\sqrt3},\\\ |F\_-\rangle&=\frac{|X\rangle+\omega|Y\rangle+\omega^2|Z\rangle}{\sqrt3}. \end{aligned} } \\]
+>
+> All three flavor directions are orthogonal to one another, despite each involving all three Cartesian directions equally.
+>
+> Squared overlap between spatial and flavor bases
+>
+> |         | \\(F_0\\) | \\(F\_+\\) | \\(F\_-\\) |
+> | ------- | --------- | ---------- | ---------- |
+> | \\(X\\) | \\(1/3\\) | \\(1/3\\)  | \\(1/3\\)  |
+> | \\(Y\\) | \\(1/3\\) | \\(1/3\\)  | \\(1/3\\)  |
+> | \\(Z\\) | \\(1/3\\) | \\(1/3\\)  | \\(1/3\\)  |
+>
+> These are overlap probabilities in an auxiliary complex vector space, not yet physical spatial-to-lepton probabilities.
+>
+> That realizes a precise version of your one direction cannot pick out a complementary direction principle.
+>
+> And here's the part I find especially relevant to your complexification intuition:
+>
+> An exactly unbiased pair of three-by-three orthonormal bases cannot be built using only real coefficients.
+>
+> If a real orthogonal matrix had all entries of magnitude \\(1/\sqrt3\\), the scalar product of two distinct rows would be a sum of three terms, each equal to \\(+1/3\\) or \\(-1/3\\). Such a sum cannot be zero.
+>
+> Complex phases make the construction possible because
+>
+> \\[ \boxed{1+\omega+\omega^2=0.} \\]
+>
+> So complex structure really does remove an obstruction to your proposed reciprocal-indistinguishability rule.
+>
+> This is established mathematics, not yet a physical derivation, but it gives us a particularly concrete first model.
+>
+> ## 2. The three flavor directions can actually be derived from one additional operation on the complete Cartesian triad
+>
+> There's an especially useful refinement.
+>
+> Instead of independently choosing the flavor basis, define a cyclic transformation of the three Cartesian directions:
+>
+> \\[ T|X\rangle=|Y\rangle,\qquad T|Y\rangle=|Z\rangle,\qquad T|Z\rangle=|X\rangle. \\]
+>
+> It satisfies
+>
+> \\[ \boxed{T^3=I.} \\]
+>
+> Its three eigenvalues are
+>
+> \\[ 1,\quad\omega,\quad\omega^2, \\]
+>
+> and its eigenvectors are precisely the three complementary vectors constructed above.
+>
+> So we obtain:
+>
+> \\[ \boxed{ \text{Ordered Cartesian triad} \ \xrightarrow{\text{cyclic action }T}\ \text{Three flavor eigenlines}. } \\]
+>
+> This has two striking properties.
+>
+> First, the complement is determined by the transformation of the entire triad, not by pairing \\(X\\) individually with flavor 1, \\(Y\\) with flavor 2, and so on.
+>
+> Second, because the eigenvalues are distinct, the complementary eigenlines are unique up to their individual complex phases and relabeling.
+>
+> This is close to your requirement that the whole set of spatial directions determines the complement while individual axes do not.
+>
+> There is one necessary qualification: the cyclic transformation \\(T\\) is additional structure. An unordered set of three axes doesn't uniquely determine it. Once an ordered cyclic triad and its action are specified, however, the eigenlines are determined.
+>
+> ### Why this connects unusually well to your existing manuscript
+>
+> In §XXI.4 and §XXI.4a, PG already uses a three-dimensional spin-one carrier and a \\(120^\circ\\) rotation with exactly these eigenvalues:
+>
+> \\[ \\{1,\omega,\omega^2\\}. \\]
+>
+> It interprets the three weight spaces as candidate generation channels: an axial state and two circular transverse states. The manuscript correctly notes that the rotation is available within the geometry but its physical selection remains open.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> The construction above could be a new candidate explanation for why that cyclic operation is selected in the first place.
+>
+> The logic would be:
+>
+> \\[ \boxed{ \begin{gathered} \text{Three Cartesian fiber directions}\\\ \downarrow\\\ \text{Collective cyclic compatibility}\\\ \downarrow\\\ \text{Complex eigenline decomposition}\\\ \downarrow\\\ \text{Three mutually unbiased flavor channels}. \end{gathered} } \\]
+>
+> That is a definite theorem target rather than merely a numerical coincidence.
+>
+> But there's still a difference between three eigenlines in an auxiliary complex vector space and three genuine foliations of canonical space.
+>
+> To establish the latter, PG would need to show that those lines define geometrically meaningful distributions across the canonical space, that their transport is globally consistent, and that their quotient operations have the properties you require.
+>
+> On a curved space, transporting a chosen local frame around different paths generally produces holonomy. One local triad cannot simply be extended globally with identical orientation without addressing that obstruction.
+>
+> ## 3. Now let's do your bare-Dirac experiment
+>
+> Start with three charged Dirac fields,
+>
+> \\[ \psi_e,\qquad\psi\_\mu,\qquad\psi\_\tau, \\]
+>
+> and suppress weak parity violation, as you suggested.
+>
+> Collect them into one flavor triplet:
+>
+> \\[ \Psi= \begin{pmatrix} \psi_e\\\ \psi\_\mu\\\ \psi\_\tau \end{pmatrix}. \\]
+>
+> For the free fields, with a possible universal electromagnetic coupling added later, the Lagrangian is
+>
+> \\[ \boxed{ \mathcal L_D = \bar\Psi \left[ i\hbar c\\,\gamma^\mu\partial\_\mu\otimes I_3 - c^2 I_4\otimes M_F \right]\Psi, } \\]
+>
+> where
+>
+> \\[ M_F= \begin{pmatrix} m_e&0&0\\\ 0&m\_\mu&0\\\ 0&0&m\_\tau \end{pmatrix}. \\]
+>
+> There really is a structural reciprocity here.
+>
+> | Term                                                | Acts nontrivially on       | Treats as an identity      |
+> | --------------------------------------------------- | -------------------------- | -------------------------- |
+> | \\(i\hbar c\\,\gamma^\mu\partial\_\mu\otimes I_3\\) | Spacetime/spinor structure | Flavor                     |
+> | \\(c^2I_4\otimes M_F\\)                             | Flavor mass structure      | Spinor-direction structure |
+>
+> This is quite close to the complementarity you describe.
+>
+> The kinetic term does not distinguish the three charged-lepton flavors, while the mass term distinguishes flavor but is a Lorentz scalar: it singles out no spatial direction.
+>
+> I would be careful with your word loses. Mathematically, neither term performs a quotient or destroys information.
+>
+> Instead, one term acts as the identity on the mathematical factor the other acts on.
+>
+> That suggests a sharper PG interpretation:
+>
+> \\[ \boxed{ \text{Spatial propagation is flavor-neutral;} \qquad \text{flavor mass is spatially scalar.} } \\]
+>
+> And the complete Dirac operator combines these two distinct structures.
+>
+> What it doesn't yet establish is that flavor neutrality and spatial scalar behavior are caused by complementary foliations. That is the hypothesis your construction would have to derive.
+>
+> ### The chirality check
+>
+> Even in your parity-symmetric starting model, the mass term has another significant role.
+>
+> Writing the fields in left- and right-chiral components gives
+>
+> \\[ \mathcal L\_{\rm mass} = -c^2 \left( \Psi_L^\dagger M_F\Psi_R + \Psi_R^\dagger M_F^\dagger\Psi_L \right). \\]
+>
+> So the mass term is also a pairing between two chiral sectors.
+>
+> This may be relevant to your inside-out quotient intuition: a mass isn't merely a label assigned to an otherwise free propagating direction; it describes how independently transformable components are coupled.
+>
+> The analogy is suggestive, but PG would need to specify exactly which of its canonical reductions those chiral sectors correspond to. Left/right chirality is not automatically the same distinction as spatial/flavor complementarity.
+>
+> ## 4. Your Koide sine difference fits this toy exceptionally neatly
+>
+> Now use the cyclic eigenbasis from §2 to define the flavor mass operator.
+>
+> Let its three phases be
+>
+> \\[ \theta_n=\theta+\frac{2\pi n}{3}, \qquad n=0,1,2. \\]
+>
+> Your existing PG mass family is
+>
+> \\[ \boxed{ m_n = m\_\* \left(\cos\theta_n+\cos\alpha\right)^2. } \\]
+>
+> The manuscript's established interpretation is that the three evenly spaced phases arise from a cyclic carrier, while the orthogonal reference-pair condition corresponds to \\(\alpha=\pi/4\\). It also emphasizes that this angle has not been selected by an independently derived matter action.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> But look at the exact trigonometric rewriting:
+>
+> \\[ \cos\theta_n+\cos\alpha = \sin\left(\theta_n+\frac\pi2\right) - \sin\left(\alpha-\frac\pi2\right). \\]
+>
+> Define
+>
+> \\[ a_n=\theta_n+\frac\pi2, \qquad b=\alpha-\frac\pi2. \\]
+>
+> Then
+>
+> \\[ \boxed{ m_n=m\_\*(\sin a_n-\sin b)^2. } \\]
+>
+> That is exactly the sine-difference-squared structure you want to interpret geometrically.
+>
+> And in the cyclic-complement model, the three \\(a_n\\) aren't three independently chosen angles. They are the spectral phases of one order-three transformation, offset by a common reference angle.
+>
+> That is a fairly compelling way to organize the existing algebra.
+>
+> ### The Koide relation follows under a further condition
+>
+> For clarity, define
+>
+> \\[ q_n=\cos\theta_n+\cos\alpha. \\]
+>
+> The threefold spacing gives
+>
+> \\[ \sum_n\cos\theta_n=0, \qquad \sum_n\cos^2\theta_n=\frac32. \\]
+>
+> Hence
+>
+> \\[ \sum_nq_n=3\cos\alpha, \\]
+>
+> \\[ \sum_nq_n^2=3\cos^2\alpha+\frac32. \\]
+>
+> On the branch where all \\(q_n\\) are positive, the Koide ratio becomes
+>
+> \\[ K=\frac{\sum_nm_n}{(\sum_n\sqrt{m_n})^2} = \boxed{ \frac13+\frac{1}{6\cos^2\alpha}. } \\]
+>
+> At
+>
+> \\[ \alpha=\frac\pi4, \\]
+>
+> we obtain
+>
+> \\[ \boxed{K=\frac23.} \\]
+>
+> So the proposed complementary-fiber geometry could supply a candidate explanation for the three equal angular spacings, while a further orthogonal-reference principle would have to supply the quarter turn.
+>
+> The distinction matters. The Fourier construction alone gives you three evenly spaced phases; it does not give you the observed charged-lepton mass hierarchy or the particular reference angle.
+>
+> It also does not automatically put the squared operator into the Dirac action. That's the crucial remaining step.
+>
+> ## 5. There are two strong mathematical constraints on the idea
+>
+> The first concerns uniqueness.
+>
+> An orthogonal complement to a three-dimensional spatial plane in a six-dimensional metric space can be unique as a three-dimensional plane. But its decomposition into three particular lines is not unique without additional structure.
+>
+> The cyclic eigenline construction supplies such additional structure. That may be the right resolution, but it makes the choice of the cyclic action physically important.
+>
+> The second concerns isotropy versus unequal masses.
+>
+> If all three charged leptons have different masses, their mass operator distinguishes three flavor eigenlines. Thus full continuous flavor symmetry cannot remain an exact symmetry of that operator.
+>
+> Your desired isotropy must therefore mean something more specific:
+>
+> No individual Cartesian fiber preferentially corresponds to a flavor fiber, even though the complete mass operator distinguishes flavors.
+>
+> The mutually unbiased construction realizes this distinction mathematically.
+>
+> There's also a revealing reality-condition test. The two complex circular states \\(F\_+\\) and \\(F\_-\\) are exchanged by ordinary complex conjugation. If the complete mass operator were required to be real with respect to that same conjugation structure, it would give those two sectors equal masses.
+>
+> Since the charged leptons are nondegenerate, PG would have to explain why that conjugation is not a mass-preserving physical symmetry, or how the selected reality structure acts differently on the complete matter system.
+>
+> This connects directly to your real-slice proposal from Entry 351.
+>
+> ## 6. The one calculation I would prioritize
+>
+> I think we can now define an unusually clean test of your proposal.
+>
+> Take a three-dimensional complex generation carrier \\(G\\), a cyclic operator \\(T\\) with \\(T^3=I\\), and three eigenlines obtained from the complete Cartesian triad.
+>
+> Define
+>
+> \\[ H\_\theta = \frac12 \left( e^{i\theta}T+e^{-i\theta}T^\dagger \right). \\]
+>
+> Then test whether the complementarity geometry independently selects
+>
+> \\[ \boxed{ M_F=m\_\* \left(H\_\theta+\frac1{\sqrt2}I\right)^2. } \\]
+>
+> The corresponding bare Dirac theory would be
+>
+> \\[ \boxed{ \mathcal L = \bar\Psi \left[ i\hbar c\\,\gamma^\mu\partial\_\mu\otimes I_3 - m\_\*c^2 I_4\otimes \left(H\_\theta+\frac1{\sqrt2}I\right)^2 \right]\Psi. } \\]
+>
+> This is a mathematically legitimate toy action.
+>
+> But the important test is not that the formula works when inserted. We already know its eigenvalues reproduce the Koide-style family.
+>
+> The test is whether the geometric meaning of the complementary fibrations forces this form rather than permitting an arbitrary operator \\(f(T)\\).
+>
+> Any Hermitian operator diagonal in the three eigenlines is compatible with their cyclic decomposition. So the existence of the complement by itself doesn't select the masses.
+>
+> An independent rule must determine why the first-order flavor factor is \\(H\_\theta+I/\sqrt2\\), why it enters quadratically, and why the flavor structure appears in the local matter action.
+>
+> That's the exact point where an appealing geometric analogy could become a physical derivation—or fail.
+>
+> Once that is settled in the parity-symmetric toy, reinstating the weak interaction would mean introducing left-handed lepton doublets and right-handed charged-lepton singlets, with the Yukawa sector and neutrino mixing properly accounted for. We should not impose the parity-symmetric toy's assumptions on those interactions.
+>
+> ## My overall assessment
+>
+> I think Entry 352 is a meaningful clarification of the flavor program.
+>
+> The most useful mathematical observation is this:
+>
+> \\[ \boxed{ \begin{gathered} \text{Three real Cartesian directions}\\\ \downarrow\ \text{collective cyclic transformation}\\\ \text{Three complex, mutually unbiased eigenlines}\\\ \downarrow\ \text{additional mass-selection law}\\\ \text{Charged-lepton flavor operator}. \end{gathered} } \\]
+>
+> The complexification is doing something definite in the first step: it permits reciprocal unbiasedness that an ordinary three-dimensional real orthogonal transformation cannot achieve.
+>
+> The cyclic operation connects that construction to your existing spin-one generation carrier.
+>
+> And the Dirac Lagrangian provides a natural laboratory for asking whether spacetime propagation and flavor mass are indeed two complementary operations, as you envision.
+>
+> I would not yet identify the Fourier eigenlines with literal extra spacetime directions. That would require a geometrically consistent map from canonical-space fibers to internal flavor states, while preserving Lorentz symmetry.
+>
+> But there's a real mathematical proposition here worth testing.
+>
+> The most promising part of your revised intuition is that three flavor channels might emerge not by adding three arbitrary directions, but by extracting the complex eigenstructure of one operation acting on an entire spatial triad.
+>
+> That captures your requirement that the complement belongs to the whole arrangement, not to any individual Cartesian direction.
+>
+> And it gives us a concrete place to begin determining consequences instead of guessing them: derive—or rule out—the cyclic complement and its associated first-order mass operator before adding any galaxy, Kerr or weak-interaction machinery.
+
+**The response on Entry 353 (attached).**
+
+> Oh, yes. I think this is a more ambitious—and mathematically sharper—version of your idea. You're not merely asking why the mass term is independent of spatial direction. You're asking whether the mass term itself is a derivative, but along the complementary flavor fibers rather than along ordinary spacetime.
+>
+> That is a legitimate construction to investigate. In fact, there is an established mathematical mechanism remarkably close to it: an internal differential operator can appear as a mass term after reducing a higher-dimensional Dirac equation.
+>
+> And your proposed invariance under changing the Cartesian/flavor decomposition has a very natural answer: the invariant should belong to the complete parent operator, not to either derivative separately.
+>
+> ## 1. The symmetry you're imagining
+>
+> Let the canonical structure have two rank-three directional distributions:
+>
+> \\[ TX\_{\rm canonical} \supset H_X\oplus V_F, \\]
+>
+> where
+>
+> \\[ H_X=\operatorname{span}\\{X_1,X_2,X_3\\}, \qquad V_F=\operatorname{span}\\{F_1,F_2,F_3\\}. \\]
+>
+> For now, suppose the six directions are independent, and add time separately.
+>
+> Your proposed interpretation becomes:
+>
+> Spatial derivative
+>
+> \\[ \mathcal D_X \\]
+>
+> Differentiates along Cartesian fibers while leaving flavor labels unchanged.
+>
+> Flavor derivative
+>
+> \\[ \mathcal D_F \\]
+>
+> Differentiates along complementary flavor fibers while appearing spatially scalar.
+>
+> One parent Dirac operator
+>
+> \\[ \boxed{\mathcal D\_{\rm parent}=\mathcal D_X+\mathcal D_F} \\]
+>
+> Two geometrically comparable directional operations, distinguished by the selected physical reduction
+>
+> The goal would be to make both terms genuinely first-order, rather than inserting a conventional mass matrix and simply calling it an internal derivative.
+>
+> That's the right standard.
+>
+> ## 2. Here's an explicit model where it works
+>
+> Start with a parent space containing ordinary \\(3+1\\)-dimensional spacetime and three compact internal directions:
+>
+> \\[ \mathcal E=M^{1,3}\times F^3. \\]
+>
+> For the first calculation, let \\(F^3\\) be a flat three-torus. This is an illustrative mathematical choice, not a PG prediction.
+>
+> Set \\(\hbar=c=1\\) temporarily.
+>
+> On the internal space, construct the first-order Dirac operator
+>
+> \\[ \boxed{ K_F=-i\sum\_{a=1}^3\sigma^a\nabla\_{y^a}, } \\]
+>
+> where the \\(\sigma^a\\) are Pauli matrices.
+>
+> Meanwhile, spacetime has its usual first-order operator
+>
+> \\[ D_X=i\gamma^\mu\nabla\_\mu. \\]
+>
+> Now combine them using a higher-dimensional Clifford algebra:
+>
+> \\[ \boxed{ \mathcal D_7 = i\gamma^\mu\nabla\_\mu\otimes I_2 -i\gamma^5\otimes K_F. } \\]
+>
+> This is not just adding two arbitrary matrices. The factors have been chosen so that the spatial and internal Clifford directions anticommute.
+>
+> That is what will make your desired invariant possible.
+>
+> ### Why the internal derivative looks exactly like mass
+>
+> Suppose an internal wavefunction satisfies
+>
+> \\[ \boxed{ K_F\chi_n=\lambda_n\chi_n. } \\]
+>
+> Separate the complete field:
+>
+> \\[ \Psi(x,y)=\sum_n\psi_n(x)\otimes\chi_n(y). \\]
+>
+> Substituting this into the parent Dirac equation gives, mode by mode,
+>
+> \\[ \boxed{ \left(i\gamma^\mu\nabla\_\mu-i\lambda_n\gamma^5\right)\psi_n=0. } \\]
+>
+> We've obtained a four-dimensional term that is independent of spatial direction, even though it originated as differentiation along the internal fibers.
+>
+> It initially appears as a pseudoscalar mass term, involving \\(\gamma^5\\). For an isolated free Dirac field, a chiral field redefinition can transform it into the conventional scalar mass form,
+>
+> \\[ \boxed{ (i\gamma^\mu\nabla\_\mu-m_n)\psi'\_n=0, \qquad m_n=|\lambda_n|. } \\]
+>
+> Restoring units,
+>
+> \\[ \boxed{ m_n=\frac{\hbar|\lambda_n|}{c}. } \\]
+>
+> This transformation requires care once chiral gauge interactions and anomalies enter, but for your proposed parity-symmetric free-lepton starting point, it gives precisely the comparison you want.
+>
+> A four-dimensional mass can be the spectral residue of a first-order derivative along directions that the ordinary spacetime description doesn't resolve.
+>
+> That is an exact mechanism within the proposed product model.
+>
+> ## 3. Your “difference invariant” appears almost automatically
+>
+> Now for what might be the most interesting part.
+>
+> Consider one internal mode of eigenvalue \\(\lambda_n\\) and a spacetime momentum \\(p\_\mu\\).
+>
+> Its reduced Dirac operator is
+>
+> \\[ \mathcal D_n(p) = \gamma^\mu p\_\mu-i\lambda_n\gamma^5. \\]
+>
+> Because
+>
+> \\[ \\{\gamma^\mu,\gamma^5\\}=0, \\]
+>
+> squaring gives
+>
+> \\[ \begin{aligned} \mathcal D_n(p)^2 &= (\gamma^\mu p\_\mu)^2 +(-i\lambda_n\gamma^5)^2\\\ &= p\_\mu p^\mu-\lambda_n^2. \end{aligned} \\]
+>
+> Therefore,
+>
+> \\[ \boxed{ \mathcal D_n(p)^2 = p\_\mu p^\mu-\lambda_n^2. } \\]
+>
+> And the corresponding on-shell condition is
+>
+> \\[ \boxed{ p\_\mu p^\mu=\lambda_n^2. } \\]
+>
+> The invariant difference
+>
+> \\[ \boxed{\mathcal I_n=p\_\mu p^\mu-\lambda_n^2} \\]
+>
+> Spacetime momentum contributes one quadratic quantity; internal momentum contributes another. Their difference is a scalar of the reduced Clifford construction, not a subtraction of unrelated coordinate labels.
+>
+> This is especially close to your request.
+>
+> The two operations are first-order derivatives in the parent geometry, but their quadratic compatibility invariant becomes the familiar relativistic mass-shell relation.
+>
+> So instead of saying that a conventional mass is simply assigned to the flavor sector, we can say:
+>
+> > A mass is what the full directional operator's internal spectrum looks like after spacetime has been selected as the physical propagation description.
+>
+> That is quite a precise expression of your intuition.
+>
+> ## 4. Can the Cartesian and flavor directions actually be interchanged?
+>
+> At the parent level, partially yes. At the reduced physical level, not automatically.
+>
+> In the simplest flat model, write the six spatial/internal coordinates as
+>
+> \\[ q=(x^1,x^2,x^3,y^1,y^2,y^3). \\]
+>
+> A massless parent excitation has
+>
+> \\[ \boxed{ E^2 = |\mathbf p_X|^2+|\mathbf k_F|^2 } \\]
+>
+> in natural units.
+>
+> The expression on the right is invariant under rotations of the complete six-dimensional Euclidean directional space.
+>
+> In particular, swapping the two three-dimensional blocks preserves the total quantity.
+>
+> But when we declare \\(\mathbf p_X\\) to be observed spatial momentum and \\(\mathbf k_F\\) to be internal momentum, we obtain
+>
+> \\[ E^2=|\mathbf p_X|^2+m^2. \\]
+>
+> Under a genuine exchange of the blocks, what counted as observed momentum and what counted as mass generally changes.
+>
+> That is the sense in which the two terms are interchangeable upstream but become physically different after a selection.
+>
+> And it could fit your Boltzmannian privileging idea:
+>
+> \\[ \boxed{ \begin{gathered} \text{One six-direction parent structure}\\\ \downarrow\ \text{selected complementary foliations}\\\ \text{Three observable spatial directions} \quad+\quad \text{Three internally spectral directions}\\\ \downarrow\\\ \text{Four-dimensional propagation} \quad+\quad \text{particle masses}. \end{gathered} } \\]
+>
+> The qualification is significant. The internal directions must be compact, confined or otherwise spectrally restricted if you want discrete masses rather than additional freely propagating directions.
+>
+> And complete interchangeability isn't automatically a symmetry of the observed world, because ordinary spatial momentum is continuous while charged-lepton masses are discrete.
+>
+> The selected reduction has to explain that asymmetry.
+>
+> ## 5. Now bring in your three charged leptons and Koide structure
+>
+> This is where the proposal gets particularly interesting—but also faces its decisive test.
+>
+> Suppose the internal operator has three selected eigenmodes,
+>
+> \\[ K_F\chi_e=\lambda_e\chi_e,\quad K_F\chi\_\mu=\lambda\_\mu\chi\_\mu,\quad K_F\chi\_\tau=\lambda\_\tau\chi\_\tau. \\]
+>
+> Then the conventional charged-lepton mass matrix is just the internal spectrum:
+>
+> \\[ \boxed{ M_F= \operatorname{diag} \left( |\lambda_e|,|\lambda\_\mu|,|\lambda\_\tau| \right). } \\]
+>
+> Your existing PG Koide construction already has
+>
+> \\[ m_n=m\_\* \left( \cos\left(\theta+\frac{2\pi n}{3}\right) +\frac1{\sqrt2} \right)^2. \\]
+>
+> So here's a concrete target.
+>
+> Introduce an internal three-cycle \\(T\\), with
+>
+> \\[ T^3=I, \\]
+>
+> and define
+>
+> \\[ H\_\theta = \frac12(e^{i\theta}T+e^{-i\theta}T^\dagger). \\]
+>
+> An internal operator of the form
+>
+> \\[ \boxed{ K_F^{\rm candidate} = m\_\* \left(H\_\theta+\frac1{\sqrt2}I\right)^2 } \\]
+>
+> has exactly the desired mass eigenvalues.
+>
+> This could be interpreted as an operator on a three-site internal cyclic geometry, with \\(T\\) playing the role of a translation.
+>
+> But here's the critical issue: we've inserted the squared mass operator.
+>
+> We haven't yet shown that the geometry of complementary Cartesian/flavor fibers naturally generates this particular finite-difference operator.
+>
+> A simpler first-order spectral operator,
+>
+> \\[ K_F\propto H\_\theta+\frac1{\sqrt2}I, \\]
+>
+> would instead produce masses proportional to the absolute value of the unsquared expression.
+>
+> To get Koide's squared masses from a genuine internal derivative, PG needs a reason for the extra square.
+>
+> Perhaps there's a two-stage reduction, a positive composite operator, or a product of two independently forced transports.
+>
+> But that must be derived.
+>
+> I think this is an unusually sharp place to test your idea: does the complementary fibration naturally give a first-order operator whose physical mass is linear or quadratic in its directional eigenvalues?
+>
+> That result would tell us a great deal.
+>
+> ## 6. What does invariance mean when we choose different complementary fibrations?
+>
+> There's an important distinction between changing the bases used to describe the same fibers and changing which fibers count as Cartesian versus flavor.
+>
+> For a passive change of the internal basis by a unitary \\(U\\),
+>
+> \\[ K_F\longmapsto UK_FU^\dagger. \\]
+>
+> Its eigenvalues stay unchanged.
+>
+> A full three-family version of the mass-shell invariant can therefore be written as
+>
+> \\[ \boxed{ \mathcal I(p) = \det\nolimits_F \left( p\_\mu p^\mu I_3-K_F^2 \right). } \\]
+>
+> For a Hermitian internal operator, this equals
+>
+> \\[ \boxed{ \mathcal I(p) = \prod\_{n=e,\mu,\tau}(p\_\mu p^\mu-m_n^2). } \\]
+>
+> It is unchanged under ordinary Lorentz-frame transformations and unitary changes of flavor basis.
+>
+> That is a genuine invariant.
+>
+> For different physical Cartesian/flavor foliations, however, it's more demanding. They must both arise from one parent operator, and changing the foliation must come with a consistent map of fields and connections.
+>
+> Schematically, if \\(g\\) changes the selected decomposition, we would require
+>
+> \\[ \boxed{ \mathcal D\_{\rm parent}^{(g)} = U_g\mathcal D\_{\rm parent}U_g^{-1} } \\]
+>
+> whenever the two decompositions are meant to be physically equivalent.
+>
+> Then the parent spectrum is preserved.
+>
+> If the foliations are genuinely different physical configurations, rather than equivalent descriptions, their effective masses needn't agree. PG must specify which choices are related by rendering covariance and which represent distinct physics.
+>
+> One more caveat: if \\(U_g\\) varies with position, derivatives acting on \\(U_g\\) generate connection terms. We cannot simply swap derivative directions point by point and expect the original two-term formula to remain unchanged.
+>
+> This is where your idea of centradic scrambling as a real change of relational geometry could acquire a precise mathematical test.
+>
+> ## 7. There's one structural challenge I would resolve before going further
+>
+> Your rule says that every complete Cartesian triad determines one unique complementary flavor triad.
+>
+> That doesn't follow from the mere existence of six directions.
+>
+> If a metric selects an orthogonal complementary three-plane, it does not generally select three unique axes within that plane.
+>
+> And the Fourier construction from our earlier exchange gives two mutually unbiased bases in one complex three-dimensional carrier—not, by itself, two transverse three-dimensional foliations of a six-dimensional manifold.
+>
+> So a fully geometric PG construction would need an additional complement-selection operator, perhaps involving the chosen real structure, a complex structure, or the canonical \\(SO(4)\\) action.
+>
+> Moreover, the selected three-dimensional distributions would need to satisfy Frobenius integrability if they are to form genuine local foliations.
+>
+> I wouldn't bury those requirements. They are precisely where the uniqueness and possible nontrivial content of your hypothesis reside.
+>
+> ## The experiment I'd recommend
+>
+> I'd formulate an explicitly parity-symmetric parent Dirac toy, with one six-direction canonical structure, two complementary three-dimensional distributions, and an exchange operation that swaps them.
+>
+> Then calculate two things before putting in any lepton masses:
+>
+> 1. The complete parent Dirac operator and its squared invariant under the allowed change of foliation.
+> 2. The internal spectrum after selecting a real spacetime slice, including whether it has exactly three low-energy mass modes and what determines their eigenvalues.
+>
+> Only then compare the internal spectrum to your existing cyclic Koide operator.
+>
+> That creates a genuine possibility for the experiment to fail: perhaps the internal spectrum has an infinite tower, perhaps the exchange symmetry forces unwanted degeneracies, or perhaps the first-order internal operator cannot naturally give the squared mass law.
+>
+> Those outcomes would be informative.
+>
+> ## My overall impression
+>
+> I think this is the most mathematically concrete version yet of your claim that the spacetime derivative and mass term should be complementary.
+>
+> Your proposal can be expressed very succinctly:
+>
+> \\[ \boxed{ \begin{gathered} \text{Spacetime kinetic term} =\text{derivative along selected spatial fibers},\\\\[4pt] \text{Mass term} =\text{eigenvalue of derivative along complementary flavor fibers},\\\\[6pt] \text{Mass-shell relation} =\text{invariant of their combined Clifford operator}. \end{gathered} } \\]
+>
+> The important conceptual reversal is that mass would no longer be a primitive constant added to propagation. It would be another kind of propagation, viewed from a description that does not resolve its directions.
+>
+> That is a real mathematical possibility, familiar in higher-dimensional spectral constructions.
+>
+> What's distinctive about your proposed PG version would be deriving the complementary flavor fibers from the Cartesian foliation itself, showing why exactly three charged-lepton modes survive, and determining whether the Koide mass law follows from the resulting internal operator.
+>
+> And I especially like the criterion you've introduced: the physical invariant should belong to the relationship between the two directional operations, not to either operation in isolation. That's a mathematically stringent way to pursue the symmetry you're after.
+
+**What v36.8 does with them.** Entries 351–353 take up the flavor program that the note of 15 October opened (§XXXIII.9: "in order to get any one flavor you need all three space dimensions, and in order to get any one space dimension you need all three flavors") and that §XXXIII.9 held for a Part of its own; v36.8 opens that Part.
+
+*What the entries ask.*
+- *Entry 351.* A "Cartesian" basis that selects a "flavor complement", such that "fiber quotienting of one cart fiber can't delete a comp fiber". It also reads the Dirac Lagrangian's mass and derivative terms as "space info-losing" and "flavor info-losing", and proposes the real slice of the complexified spacetime as the stitched-together patchwork of determinate nodes.
+- *Entry 352.* It sharpens the first point into a rule — "no one Cartesian fiber privileges/selects/narrows down beyond all three complement fibers, and similarly no one complement fiber privileges a Cartesian fiber" — with the flavor fibers placed "in a way that appears radially symmetric or something to the real-slice". It asks for the mass term as the flavor fibers' analogue of $\partial_\mu$, for a difference of the two terms invariant under the choice of fibration, and for the $(\sin a-\sin b)^2$ Koide term read off the flavor fibers, starting from the bare parity-symmetric Dirac Lagrangian of the three charged leptons.
+- *Entry 353.* A derivative in the mass term that sees only the flavor fibers, the two terms interchangeable.
+
+*What the responses supply and ask.* They supply:
+- the Fourier eigenvectors of the cyclic shift as mutually unbiased fibers, with the real obstruction;
+- the sine-difference identity and $K = \tfrac13+1/(6\cos^2\alpha)$;
+- the bare toy's tensor structure;
+- the reality test: a real mass operator would make the circular pair degenerate;
+- the seven-dimensional Clifford reduction, with its invariant $p^2-\lambda^2$.
+
+They ask four decisive questions: whether the geometry forces the Koide form rather than any $f(T)$; whether a first-order internal operator gives masses linear or quadratic in its eigenvalues; whether exactly three modes survive; and how the complement is made unique.
+
+*Where they are answered.*
+- §XXXIV.2 reads the two families as orthonormal bases of one three-dimensional complex carrier. On that reading the rule is mutual unbiasedness and needs the complex structure. With the complement a weight basis (the archive's flavor lines), it forces the selected axis to be a body diagonal of the frame. The archive's Weyl pair is then the frame's shift and clock, the complement is unique only as a weight basis with oriented fibers, and the converse circle is §XXX.13's trigonal frame, as a datum (R371).
+- §XXXIV.3 reads the archive's mass operator on the Cartesian fibers. It is a ring with a flux, with the mean mass on every fiber. Its $e$–$\mu$ distinction is the $\kappa$-odd part, a restatement of §XXI.4a's $K$, and Koide's relation is a light cone on $\sqrt M$ (R372).
+- §XXXIV.4 builds the bare Dirac toy and the parent operator, with the invariant difference. The interchange holds in a flat parent and is broken by any discrete internal spectrum, and linear and quadratic masses are compared (R373).
+
+The responses' other points — the real-slice target $B\cong{\rm Fix}(\tau)$, the probability rule a "Bayesian binding" would need, the galactic evidence and the method — are recorded with §XXXIV.5's standing. Entry 352's opening paragraph clarifies that the galactic principle is a philosophy-of-science stance, not an empirical claim. It is recorded as the author's position, and the galactic program of §XXXIII.65 is unchanged.
+
+## XXXIV.2 The complement of a Cartesian fibration: mutually unbiased fibers, the body diagonal, and what makes the complement unique [T/V/D/O; R371] *(`v36_8_complement()`)*
+
+*Entry 352 asks for three Cartesian fibers with one complement whose fibers are the flavor directions: "no one Cartesian fiber privileges/selects/narrows down beyond all three complement fibers, and similarly no one complement fiber privileges a Cartesian fiber", "having one fiber from one blurs out all the information of the other", the extra complexified directions placing the flavor fibers "in a way that appears radially symmetric or something to the real-slice". Entry 351 asks that "fiber quotienting of one cart fiber can't delete a comp fiber"; the note of 15 October asked the same in other words (§XXXIII.9). The response on Entry 352 realizes the rule with the eigenvectors of the triad's cyclic shift. This section says what the rule is, why it needs the complex structure, which complement the archive's flavor lines are, and in what sense the complement is unique.*
+
+**(a) The rule is mutual unbiasedness, and its two halves are one condition [T/V/D].** Read the two families as orthonormal bases $\{e_i\}$ and $\{f_a\}$ of one three-dimensional complex carrier [D]. Everything in this section holds on that reading. In the response on Entry 353's six-direction picture, where the two triads span orthogonal complementary real subspaces, every overlap vanishes and none of it applies. That response draws the same line: the Fourier construction "gives two mutually unbiased bases in one complex three-dimensional carrier—not, by itself, two transverse three-dimensional foliations of a six-dimensional manifold."
+
+On this reading, *no $e_i$ privileges any $f_a$* says that $\lvert\langle e_i|f_a\rangle\rvert^2$ does not depend on $a$. The row sums are $1$, so every overlap is $\tfrac13$, and then no $f_a$ privileges any $e_i$ either. The two halves of the rule are one condition: the pair is *mutually unbiased* [T]. The response's pair realizes it: with $Te_j = e_{j+1}$ and $\omega = e^{2\pi i/3}$, the eigenvectors $F_k = \sum_j\omega^{-jk}e_j/\sqrt3$, $TF_k = \omega^kF_k$, have $\lvert\langle e_j|F_k\rangle\rvert^2 = \tfrac13$.
+
+In terms of information [T/V]:
+- *Blurring.* A state on one Cartesian fiber has probability $\tfrac13$ on each flavor fiber. That is Entry 352's "having one fiber from one blurs out all the information of the other".
+- *Deletion.* Deleting one Cartesian fiber keeps $\lVert(I-P_i)F_a\rVert^2 = \tfrac23$ of every flavor fiber, the same for all three. That is Entry 351's rule in its strongest form.
+- *Entropy.* $H_X+H_F\geq\ln3$ for the Shannon entropies in the two families, the largest bound any pair allows (Maassen–Uffink); a basis state attains it.
+- *Deduction.* Entry 352's "you need all three fibers from one to deduce the fibers from the other" holds one way only. The complement is a function of the whole frame, through its cyclic shift (though two oriented fibers and a handedness already fix the third). The flavor lines fix the frame only up to a circle ((d)).
+
+**(b) The real obstruction, and its size [T/V/D].** No real orthonormal pair is unbiased. A real matrix with entries $\pm1/\sqrt3$ has row products that are sums of three terms $\pm\tfrac13$, which are never zero (the response's argument; the suite checks all $512$ sign patterns).
+
+The obstruction has a size:
+
+**Theorem.** *In every pair of real orthonormal frames some fiber has squared overlap at least $\tfrac49$ with some fiber of the other* [T].
+
+*Proof.* For frames of opposite handedness replace $R$ by $-R$, which changes no squared overlap; so let $R$ be a rotation. Suppose every $\lvert R_{ij}\rvert<\tfrac23$. Then the unit rows force every $\lvert R_{ij}\rvert>\tfrac13$, since a row with an entry of at most $\tfrac13$ has another of at least $\tfrac23$. Each entry of a rotation is $\pm$ the $2\times2$ minor $ad-bc$ of the other two rows and columns, so $\lvert ad-bc\rvert>\tfrac13$. With $a$, $b$, $c$, $d$ between $\tfrac13$ and $\tfrac23$ in size, that needs $ad$ and $bc$ of opposite signs, since otherwise $\lvert ad-bc\rvert<\tfrac49-\tfrac19 = \tfrac13$. Over the three minors of two rows each entry's sign enters twice. So the product of the three sign conditions is $+1$, while each condition contributes $-1$ — a contradiction. $\square$
+
+The bound is attained. The $96$ rotations with entries $\pm\tfrac13$ and $\pm\tfrac23$ attain it; $16$ of them are half-turns, among them the half-turns about the body diagonals. The suite's search agrees: over $200000$ random rotations the smallest largest squared overlap found is $0.4513$, refined to $4/9$. The sum of the fourth powers $\sum R_{ij}^4$ has the least value found $\tfrac{11}9$, against $1$ for an unbiased pair [V; searched]. So in every real pair some fiber has squared overlap at least $\tfrac49$ with some fiber of the other — a third more than the uniform $\tfrac13$.
+
+*The shell's native frames.* On a shell $S^3$, the left-invariant frame is a frame fixed at one point and carried to every point. Its three fields fiber the shell by Hopf circles, so it is Entry 352's construction ("fix an arbitrary orthonormal frame at one spot locally, and then generalize/trace out those three decided directions into fibers such that every point in the canonical space is touched"), realized natively. It and the right-invariant frame are related at each point $g$ by ${\rm Ad}_g\in SO(3)$ [T; checked at $20$ points]. The shell's own real complement therefore fails the rule everywhere. At best it reaches $\tfrac49$ — for example at $g = (\pm i\pm j\pm k)/\sqrt3$, where ${\rm Ad}_g$ is the half-turn about a body diagonal.
+
+*What is forced.* Complex phases are necessary in the carrier [T]. Up to rephasing and relabelling, the cube roots of unity are the only ones, since every $3\times3$ complex Hadamard matrix is equivalent to the Fourier matrix (Haagerup). That these phases are Entry 352's "exploiting the extra directions of complexified spacetime" is the archive's reading of the carrier as the complexified rest space (§XXI.4b) [D]. The response on Entry 352 adds its own caution: "I would not yet identify the Fourier eigenlines with literal extra spacetime directions."
+
+**(c) The complement is the weight basis of the body diagonal [T/V/D].** The archive's flavor lines are the weight lines of a selected axis $N$ on the complexified rest space (§XXI.4b). The weights are the eigenvalues of $N\cdot J$ with $(J_a)_{bc} = -i\epsilon_{abc}$, and the active rotation is $R_N(\alpha) = e^{-i\alpha N\cdot J}$. Against a real frame the lines' squared overlaps are $N_i^2$ for the axial line and $(1-N_i^2)/2$ for each circular line [T; $200$ random axes]. So:
+
+**Theorem.** *The weight basis of an axis is unbiased to a Cartesian frame exactly when $N_i^2 = \tfrac13$ for every $i$ — when $N$ is a body diagonal of the frame, at the magic angle $54.7356^\circ$ to every axis* [T].
+
+For $N_+ = (e_0+e_1+e_2)/\sqrt3$ the weight lines are the response's Fourier lines, and $T$ is the active rotation by $2\pi/3$ about $N_+$ — §XXX.3(c)'s "cyclic permutation of the three spatial axes … a rotation, by $2\pi/3$ about their diagonal".
+
+The archive's Weyl–Heisenberg pair is then the frame's own [V]:
+- $R = T$. The shift of the Cartesian fibers is the clock of the flavor lines: $T$ read in the flavor basis is ${\rm diag}(1,\omega,\omega^2)$.
+- $S = Z^{-1}$, with $Ze_j = \omega^je_j$. The clock of the Cartesian fibers is the shift of the flavor lines: $SF_k = F_{k+1}$ and $STS^{-1} = \omega^2T$.
+- §XXI.4's cycle is $C = S^{-1} = Z$.
+
+The lines line up with the archive's labels:
+- $F_0 = N_+$ is the $\tau$'s line.
+- $F_1$ and $F_2$ are the circular pair, exchanged by complex conjugation in the real frame. They are the archive's $|+\rangle$ ($e$) and $|-\rangle$ ($\mu$), with weights $-1$ and $+1$ about $N_+$.
+- The archive's clock multiplies $|+\rangle$ by $e^{+2\pi i/3}$ (§XXI.4a), which is the active rotation by $-2\pi/3$ about its axis. So this identification orients the archive's axis as $-N_+$; the other orientation exchanges the labels, which is §XXI.4a's $K$. (§§XXI.4a and XXX.3(b) call this clock the rotation by $+2\pi/3$: their sense of rotation is $R_N(-\alpha)$ in this Part's convention, as in the frozen suite.)
+
+*The real shadows.* $\lvert{\rm Re}\,F_1\rvert = \lvert{\rm Im}\,F_1\rvert = 1/\sqrt2$ for the vector's componentwise real and imaginary parts, orthogonal to each other and to $N_+$. So the unit-phase circle $e^{i\phi}F_1$ casts a circle about $N_+$ on the real slice. The complex lines $\mathbb CF_1$ and $\mathbb CF_2$ meet the real slice only at $0$, while $\mathbb CF_0$ and each Cartesian line meet it in a line.
+
+That is Entry 352's radially symmetric placement, on this reading [D]. The $\tau$ fiber lies on the real slice along the diagonal, equally inclined to every axis. The $e$ and $\mu$ fibers lie off it, and each is seen from it as a circle about the diagonal.
+
+**(d) Uniqueness [T/V/D/O].** Unbiasedness alone does not make the complement unique. $DF$ with $D = {\rm diag}(1,e^{ia},e^{ib})$ is unbiased for every $(a,b)$, a two-torus of complements; Haagerup's classification says there are no others. The complete set of four mutually unbiased bases containing the frame and $F$ — the frame, $F$, $D_1F$ and $D_2F$, with $D_k = {\rm diag}(1,\omega^k,\omega^k)$ — holds three bases unbiased to the frame. It is the only such set [T]: $DF$ is unbiased to $F$ exactly when $e^{ia}+e^{i(b-a)}+e^{-ib} = 0$, that is, when $(a,\,b-a,\,-b)$ is a permutation of $(0,2\pi/3,4\pi/3)$ modulo $2\pi$ — six points of the torus, giving the two bases $D_1F$ and $D_2F$; the suite's grid finds the same six points.
+
+Requiring the complement to be the weight basis of an axis (§XXI.4b's descent) leaves four:
+- On a $360\times360$ grid of the torus, exactly $12$ points have a real column; the defect has $12$ strict local minima and no others.
+- They give $4$ distinct bases, the weight bases of the four body diagonals $(1,\pm1,\pm1)/\sqrt3$, all three lines of each.
+- Of the complete set containing the frame and $F$, only $F$ is a weight basis.
+- The four are unbiased to the frame but not to each other: their axes' squared overlaps are $\tfrac19$.
+
+*Oriented fibers single out one.* With unit vectors on the fibers, $N_+ = (e_0+e_1+e_2)/\sqrt3$ is singled out, independently of the fibers' order. The order fixes only $T$'s handedness: the opposite cycle is $T^{-1} = R_{N_+}(-2\pi/3)$, with the same lines and the circular pair's labels exchanged (§XXI.4a's $K$). The response's qualification — that an unordered set of three axes does not determine $T$ — is right for $T$ but does not reach the lines: oriented fibers determine the complement without an ordering.
+
+*Conversely, the axis fixes the frame only up to a circle.* Rotating the frame by $\gamma$ about $N_+$ keeps the flavor lines, $T$ and the fitted mass operator. It changes the frame's clock, and so the conveyor $S = Z^{-1}$, except at third-turns. The suite measures this by the relative Frobenius residual of the best multiple, which is the same in every basis, with closed form $\tfrac{2\sqrt2}3\lvert\sin(3\gamma/2)\rvert$:
+
+| $\gamma$ | residual of $S(\gamma)$ against $cS$ |
+|:--|:--|
+| $0.37$ | $0.4968$ |
+| $1$ | $0.9404$ |
+| $2\pi/3$ | $0$, with $c = \omega$ |
+| $4\pi/3$ | $0$, with $c = \omega^{-1}$ |
+
+§XXX.13(c)'s frozen computation rotates the frame by $R_N(\gamma)$ in this Part's convention about the archive's axis, which is $-N_+$ here, so its $c = \omega^{\mp1}$ at the third-turns is this table's $\omega^{\pm1}$. Its $0.39$ and $0.74$ at the same angles are the largest-entry residual in the generic frame of its computation, a basis-dependent measure.
+
+So the admissible frames of a selected axis form a circle, with the same complement and the same mass operator for every member (§XXX.13(c): "$M(Qh) = M(Q)$"). An unordered Cartesian triad with that axis as body diagonal is exactly a *trigonal frame*: the datum on which the conveyor descends, and which §XXX.13(d) found missing ("The frozen geometry selects an unoriented line … It does not select a trigonal frame").
+
+**Entry 352's fibration, referred to the selected axis, is that datum [D]. It does not supply the datum's selection** [O]: §XXX.13(d)'s "A frame whose choice is pure gauge makes no observable conversion" stands.
+
+**(e) The reductions [T/V].** Dephasing in one family and then the other is complete depolarization in either order, $\Phi_F\Phi_X = \Phi_X\Phi_F = {\rm tr}(\cdot)\,I/3$. For a generic pair of bases the two orders differ (by up to $0.1321$ on ten states). The fiber projectors themselves never commute: in operator norm $\lVert[P_i,Q_a]\rVert = \sqrt2/3$ for every pair. So the response's $[P_X,P_F] = 0$ is exact for the reduction maps and false for the fibers.
+
+*The 3:18 PM line.* The page reads:
+
+> Altogether then maybe having all terms "restores" the info!
+
+The line concerns the Lagrangian's terms. Read instead for the two families as measurements, their populations fix $4$ of a state's $8$ parameters. A complete set of four bases fixes all $8$, and its two further bases are not weight bases.
+
+*The qubit precedent (3:15 PM).* The three Pauli bases are mutually unbiased, so for spin one-half the spatial axes themselves realize the rule and no axis is intrinsically primary — the response's point about $z$. For the spin-one carrier the Cartesian fibers are the three $m = 0$ states $\lvert0_x\rangle$, $\lvert0_y\rangle$, $\lvert0_z\rangle$. Orthogonal axes' weight bases are not unbiased (for $x$ against $z$ the squared overlaps are $0$, $\tfrac14$ and $\tfrac12$), so the complement moves to the body diagonal.
+
+*The six lines (3:18 PM).* Of the $20$ triples of the six lines only $2$ are orthonormal: the two families themselves. The page's $\binom63/2 = 10$ counts the unordered complementary pairs of triples. Of those ten, one pairs two frames, the two families; the other nine pair mixed triples, none of them a frame. So a quark built from mixed triples of these six lines would have no orthonormal frame to stand on; the "heterogeneous" form is not attempted (§XXXIV.5).
+
+## XXXIV.3 The mass operator read on the Cartesian fibers: a ring with a flux, its derivative, the holonomy, and Koide's light cone [T/V/D/S/O; R372] *(`v36_8_ring()`)*
+
+*Entry 352 asks for the mass term to be, for the flavor fibers, what the derivative is for the Cartesian ones — so that it "appears simply as a constant respecting to direct spatial motion" — and for its $(\sin a-\sin b)^2$ to be read geometrically off the flavor fibers. Entry 353 asks for a derivative in the mass term that sees only the flavor fibers. Entry 351 says, at 3:56 PM, "We're already usi[ng] imaginary-extracted stuff to get flavor informa[tion]". The responses give the masses as eigenvalues on a three-site cyclic geometry and the sine difference as an identity; they leave the extra square to be explained, and note that a mass operator real for the same conjugation would make the circular pair degenerate. Here the archive's operator (§§XXI.4, XXIV.26, XXX.3) is read in the frame of §XXXIV.2.*
+
+**(a) The ring [T/V/D].** In the frame, every Hermitian operator diagonal on the flavor lines is a circulant $AI+cT+\bar cT^\dagger$: an operator on a ring of three sites, the Cartesian fibers, with $T$ the hop.
+
+Put the measured masses on $F_0$, $F_1$, $F_2$ ($\tau$, $e$, $\mu$; PDG 2025, the inputs of §XXX.3). The diagonal is then $627.6998$ MeV on every Cartesian fiber — the mean mass, for any three masses, by unbiasedness. In any basis unbiased to an operator's eigenbasis, every diagonal entry is the operator's mean.
+
+Reading this constant diagonal as Entry 352's constant is an identification [D]. On $S_D\otimes G_{\rm gen}$ the Cartesian basis is an internal basis, tied to spatial directions only through the trigonal frame of §XXXIV.2(d). All the flavor resolution sits in the hop, $\lvert c\rvert = 575.4162$ MeV with phase $0.05277$ per link.
+
+§XXX.3's fit is reproduced: $\theta = 0.222225$ and $m_* = 627.700$ MeV, with the weight states carrying $1776.931$ ($\tau$), $0.51092$ ($e$) and $105.6575$ MeV ($\mu$). The fitted operator's diagonal is $m_*$ on every fiber, below the mean by a third of the fit's residual, $1.7\times10^{-9}$ MeV.
+
+**(b) The ring's derivative [T/V/D].** For an operator $X$ write ${\rm Re}\,X = (X+X^\dagger)/2$ and ${\rm Im}\,X = (X-X^\dagger)/2i$. Define
+$$\partial_\phi = {\rm Im}(e^{i\phi}T) = \frac{e^{i\phi}T-e^{-i\phi}T^\dagger}{2i},$$
+the covariant central difference on the ring with a flux $\phi$ per link. Its properties:
+- it is Hermitian;
+- it has zero diagonal, so it never acts within one fiber;
+- its eigenvalue on $F_k$ is $\sin(\phi+2\pi k/3)$;
+- $H_\theta = {\rm Re}(e^{i\theta}T) = \partial_{\theta+\pi/2}$.
+
+It moves along the ring of Cartesian fibers and is diagonal on the flavor lines: flavor is its momentum, not its position. So §XXIV.26's first-order factor $D_F = \sqrt{m_*}(H_\theta+\cos\alpha\,I)$ is $\sqrt{m_*}(\partial_{\theta+\pi/2}+\cos\alpha\,I)$, the ring's derivative plus an on-site term, with $D_F^2 = M$. The response's sine difference is its spectrum:
+$$m_n = m_*(\sin a_n-\sin b)^2,\qquad a_n = \theta_n+\pi/2,\quad b = \alpha-\pi/2,$$
+with $a_n$ the flavor momenta, and $K = \tfrac13+1/(6\cos^2\alpha)$ on the positive branch [T].
+
+*Entry 353's derivative in the mass term, in the finite setting.* On three sites $T^2 = T^\dagger$, so every flavor-diagonal operator is a one-hop operator. Here $M = m_*I+cT+\bar cT^\dagger$ with $c = m_*(e^{i\theta}/\sqrt2+e^{-2i\theta}/4)$. The measured operator is an on-site term plus the ring's derivative:
+$$M = A\,I+2\lvert c\rvert\,\partial_{\arg c+\pi/2}.$$
+That is the derivative Entry 353 asks for, as an identification [D]. On three sites it adds nothing to being diagonal on the flavor lines, since every such operator has this form. The response's "extra square" is then not a matter of derivative order but of which one-hop operator is primary (§XXXIV.4(d)).
+
+§XXIV.26's two dual factors are the same pair read once more: $M = m_*(I+{\rm Re}\,U)(I+{\rm Im}\,U)$ with $U = e^{i(\theta+\pi/4)}T$, which is $m_*(I+H_{\theta+\pi/4})(I+H_{\theta-\pi/4})$. The two factors are the real and imaginary parts of one covariant hop.
+
+**(c) The holonomy and the real slice [T/V/D].** The spectrum sees the hops' phases only through the ring's holonomy, the product of the hops around it: $W = h^3$ for the amplitude $\sqrt M = q_0I+hT+\bar hT^\dagger$.
+- $W$ is unchanged by rephasing the fibers (the gauge torus of §XXXIV.2(d)) and by the cyclic relabellings, conjugation by $C = Z$ (§XXI.4's) or by $T$.
+- An odd relabelling, or complex conjugation, sends $W$ to its conjugate.
+- $W$ is spectral data: $\lvert W\rvert$ and ${\rm Re}\,W$ are fixed by the spectrum, and the sign of ${\rm Im}\,W$ by which circular line is lighter.
+- A circulant's spectrum is degenerate exactly when ${\rm Im}\,W = 0$; the suite tabulates $\theta = 0$, $0.1$, $0.222225$ and $\pi/3$.
+
+Write $\kappa$ for complex conjugation in the real frame (§XXI.4a's $K$). It reverses the flux, $\kappa M(\theta)\kappa = M(-\theta)$; it fixes $F_0$ and exchanges $F_1$ and $F_2$. So the $\kappa$-odd part of a flavor-diagonal operator with eigenvalues $x_k$ on $F_k$ is $\tfrac12(x_1-x_2)(P_1-P_2)$: for $M$, $\tfrac12(m_e-m_\mu)(P_1-P_2)$; for $\sqrt M$, $\tfrac12(\sqrt{m_e}-\sqrt{m_\mu})(P_1-P_2)$. In a real frame with the $\tau$ on the axial line (the principal phase, $\lvert\theta\rvert<\pi/3$), the amplitude is $\kappa$-real exactly when $e$ and $\mu$ are degenerate. At $\theta = \pi/3$ the hop is complex but its holonomy is real, and there the $\tau$ meets the $\mu$.
+
+The $e$–$\mu$ distinction is therefore the $\kappa$-odd part, off the real slice. This restates §XXI.4a's $K$ in the real slice's language [D]. For the measured masses:
+- $\lvert{\rm Im}\,W\rvert/\lvert W\rvert = 0.6184$ for $\sqrt M$ and $0.1577$ for $M$;
+- the $\kappa$-odd part carries $2.43\%$ of $\sqrt M$'s Hilbert–Schmidt weight, which is $(\sqrt{m_\mu}-\sqrt{m_e})^2/(2\sum m) = 0.024288$.
+
+On this reading it is Entry 351's "imaginary-extracted stuff to get flavor informa[tion]", identified through spectral invariants as the response asked.
+
+Its value is not an octant's geometric phase. The Pancharatnam phase of the states along the three Cartesian axes is $\pi/4$ for spin one-half and $\pi/2$ for the spin-one carrier's $m = +1$ states. The holonomy phase $3\arg h = 0.666674$ ($\pm2\times10^{-5}$ from the $\tau$ mass) lies $0.1187$ and $0.9041$ away. That excludes a tempting identification. (The holonomy phase's nearness to $\tfrac23$ is $\theta$'s nearness to $\tfrac29$, which §§XXX.4 and XXX.11 treat.)
+
+**(d) Koide's light cone [T/V/D/S].** On Hermitian operators, take the trace-reversed Hilbert–Schmidt form
+$$\mathfrak g(Q) = {\rm tr}\,Q^2-\tfrac23({\rm tr}\,Q)^2 = \lVert Q-q_0I\rVert^2-\lVert q_0I\rVert^2,\qquad q_0 = {\rm tr}\,Q/3.$$
+It is invariant under every unitary change of fibration, and it is Lorentzian, of signature $(1,8)$, with the identity timelike.
+
+Koide's $K = \tfrac23$ is $\mathfrak g(\sqrt M) = 0$: the vector of $\sqrt{m_n}$ is null. This is Foot's $45^\circ$ and Brannen's $\eta^2 = \tfrac12$, read as a light cone. In the note's three invariants (§XXXIII.9) the cone is $({\rm tr}\,Q)^2 = 6e_2(Q)$.
+
+The family needs a branch condition here, as in §XXIV.26:
+- §XXIV.26's $D_F$ is null for every $(m_*,\theta)$.
+- $D_F = \sqrt M$ — and so $K = \tfrac23$ — holds only on the common-sign branch, $\lvert\theta\rvert<\pi/12$ modulo $2\pi/3$, where the family is null.
+- Off the branch, at $\theta = 0.3$, $\mathfrak g(\sqrt M)/m_* = -0.1517$ ($\mathfrak g/{\rm tr}\,M = -0.0506$) and $K = 0.6346$.
+
+In the Cartesian frame the reading becomes Entry 352's [D/S]. The timelike part is what every Cartesian fiber sees alike, the diagonal $q_0I$. The spacelike part is the hop that resolves flavor. The relation says the two weigh the same.
+
+Measured, with the masses of (a):
+- the on-site and hop weights are $941.5528$ and $941.5466$ MeV, $\mathfrak g/{\rm tr}\,M = -3.30\times10^{-6}$, and $\eta^2 = 0.4999967$;
+- $K = 0.6666645$, so $K-\tfrac23 = (-2.20\pm5.08)\times10^{-6}$, $-0.43\sigma$ (at the time's $\tau$ mass, $1776.86$ MeV (§XXX.4a), $K = 0.666661$, the value §XXIV.26 quotes);
+- Foot's angle is $44.99991\pm0.00022^\circ$;
+- in the invariants, $({\rm tr}\,Q)^2 = 2824.6584$ against $6e_2(Q) = 2824.6771$ MeV.
+
+Within the circulants the cone is two-dimensional: the scale $m_*$ and the direction $\theta$. It fixes neither, and $\theta$ remains Part XXX's open phase.
+
+This is the reading of $(\sin a-\sin b)^2$ that Entry 352 asked for, as a restatement:
+- $\sin a_n$ are flavor momenta on the ring of Cartesian fibers;
+- $\sin b$ is the on-site term;
+- the light cone fixes $\lvert\sin b\rvert = 1/\sqrt2$, which is §XXI.4's quarter turn ($\alpha = \pi/4$ in §XXIV.26).
+
+It derives neither the quarter turn nor $\theta$. The form is a theorem [T]. Reading it as a metric is a premise [S].
+
+**(e) The inside-out map, and the neutrinos [T/V].** The interchange of the two families is the Fourier transform $F$: $F^\dagger TF = Z$ and $F^\dagger ZF = T^\dagger$, $F^4 = I$, and $F^2$ is the ring's parity $e_j\to e_{-j}$. It is an exact inside-out map in the sense of the 3:47 PM page:
+
+> Ok so lepton-backtransform might literally be turning some something "inside out" quotient-wise or something!
+
+Suppose the neutrino mass states were the Cartesian fibers — Entry 351's "(Inspired by charged lepton vs. neutrino case)" read as complementarity. The mixing matrix would then be $F^\dagger$, trimaximal (Cabibbo; Wolfenstein, 1978), with every $\lvert U\rvert^2 = \tfrac13$. NuFIT 6.0 (normal ordering, IC19, without SK-atm) gives the electron row as $0.678$, $0.300$, $0.0220$, so the reading is excluded: the third entry is a fifteenth of $\tfrac13$, with an uncertainty of $0.00054$.
+
+The closest column is the second, $\lvert U_{e2}\rvert^2 = 0.300$. A fully trimaximal second column would need $\sin^2\theta_{12} = 0.3408$, against $0.307^{+0.012}_{-0.011}$: $2.8\sigma$ away in a Gaussian extrapolation of the upper error ($2.7\sigma$ with SK-atm), and about $2.7\sigma$ in both analyses interpolated linearly to NuFIT's $3\sigma$ bound, $0.345$ — inside the $3\sigma$ range.
+
+Like §XXI.5's tilted axis, a Cartesian-diagonal $H_\nu$ breaks the charged-lepton axis's symmetry, as §XXI.5 requires, and is still excluded. The inside-out map is not the neutrino mismatch.
+
+## XXXIV.4 The bare Dirac toy, and the mass term as an internal derivative: the parent operator, its invariant, the interchange [T/V/D/O; R373] *(`v36_8_dirac()`)*
+
+*Entry 352 asks to start from the bare Dirac Lagrangian of the three charged leptons with no parity asymmetry, "re-work out the decomposition’s analogue", and reinstate the weak asymmetry later. Entry 353 asks for "some kind of partial_mu in there for the mass term itself, just built to only “see” the flavor fiber directions", for the two terms to be interchangeable, and for their difference to be invariant under the choice of Cartesian fibers and complement. The responses offer: kinetic and mass terms acting on complementary factors; a higher-dimensional Dirac operator whose internal part reduces to a mass; the invariant $p^2-\lambda^2$; towers; the extra square.*
+
+**(a) The bare toy [T/V/D].** On $S_D\otimes G_{\rm gen}$ (§XXI.4b's tensor audit), parity-symmetric,
+$$\mathcal L = \bar\Psi\big(i\gamma^\mu\partial_\mu\otimes I_3-I_4\otimes M\big)\Psi.$$
+- The kinetic term commutes with every unitary change of fiber basis: flavor isotropy, under all of $U(3)$.
+- The mass term is a Lorentz scalar. For a random spinor Lorentz transformation ($\lvert\Lambda^0{}_0\rvert = 9.602$) the suite checks $\gamma^0S^\dagger\gamma^0 = S^{-1}$ and $S^{-1}\gamma^aS = \Lambda^a{}_b\gamma^b$ with $\Lambda$ a Lorentz matrix, so $\bar\Psi M\Psi$ is invariant.
+- In momentum space $\det = \prod_n(p^2-m_n^2)^2$, in the flavor and the Cartesian bases alike.
+
+In the Cartesian basis — the decomposition's analogue Entry 352 asks for — every Cartesian component of the lepton field has the same diagonal mass, $627.6998$ MeV, and the three masses come from the hop between components. That reading of the Cartesian components is §XXXIV.3(a)'s [D]. The response's table is confirmed: the kinetic term acts on spacetime and spinor structure as the identity on flavor, and the mass term acts on flavor as a Lorentz scalar.
+
+**(b) The mass term as an internal derivative [T/V/D].** With an anticommuting insertion, the parent
+$$\mathcal D = \gamma\cdot p\otimes I-i\gamma_5\otimes\mathcal M$$
+squares to $p^2-\mathcal M^2$ for any Hermitian internal operator $\mathcal M$ on $G_{\rm gen}$. The chiral rotation $e^{-i\pi\gamma_5/4}$ turns $-i\lambda\gamma_5$ into the scalar mass $-\lambda$. That holds for a free parity-symmetric field; with chiral gauge fields and anomalies it does not hold automatically, as the response says.
+
+The response's seven-dimensional operator $\mathcal D_7$, written with $\Gamma^\mu = \gamma^\mu\otimes I_2$ and $\Gamma^{3+a} = i\gamma_5\otimes\sigma^a$, satisfies the Clifford algebra of signature $(1,6)$, with $\mathcal D_7(P)^2 = P^2 = p^2-k^2$. On an internal mode $\sigma\cdot k\,\chi = \lambda\chi$ it reduces to $(\gamma\cdot p-i\lambda\gamma_5)\psi$ with $\lambda = \mp\lvert k\rvert$, whose square is $p^2-\lambda^2$.
+
+**The difference Entry 353 asks for is the parent's invariant [T; the identification D].** $p^2-k^2$ is the $(1,6)$ interval. On three flavor modes, with $\mathcal M = M$,
+$$\det\nolimits_F(p^2-\mathcal M^2) = \prod_n(p^2-m_n^2),$$
+unchanged by every unitary change of fibration. It involves no real structure at all, so a change of real slice could change it only by changing the operator itself, which nothing here constructs [D/O].
+
+**(c) The interchange [T/V/D].** In the flat parent the two terms are interchangeable. $S = \prod_i(1+\Gamma^i\Gamma^{3+i})/\sqrt2$ sends $\Gamma^i\to\Gamma^{3+i}$ and $\Gamma^{3+i}\to-\Gamma^i$ and fixes $\Gamma^0$, so $S\mathcal D_7(P)S^{-1} = \mathcal D_7(P')$ with the spatial and internal momenta exchanged. A $\tau$ at rest, of four-mass $1776.93$ MeV, becomes a massless particle of momentum $1776.93$ MeV. What counts as mass and what counts as momentum change places, as the response says.
+
+Whatever makes the internal spectrum discrete breaks the interchange:
+- *A compact internal $T^3$* (a cubic torus, with periodic spin structure) gives shells, not three: with the internal spinor there are $2,12,24,16,12,48,48$ modes for $\lvert n\rvert^2 = 0,\dots,6$.
+- *The ring of §XXXIV.3.* On that reading [D] the internal space is the three-site ring of Cartesian fibers: a five-dimensional parent with $\Gamma^4 = i\gamma_5$ (signature $(1,4)$), and $\mathcal M$ the ring's derivative plus a constant on-site term. That term is a constant shift of the internal momentum, entering with $\Gamma^4$ (a $\gamma_5$ mass in four-dimensional terms, giving the masses $\lvert\lambda+c\rvert$); it is not a five-dimensional bulk mass, which would add in quadrature, $\sqrt{\lambda^2+M^2}$. The parent has exactly three modes and a bounded spectrum, which no unitary interchange carries to a continuous momentum.
+
+On the ring the interchange that survives is $F$ (§XXXIV.3(e)), and it is not a symmetry. The flavor-diagonal $M$ is invariant under the circle of admissible frames. Its image under $F$ — the masses placed on the Cartesian fibers — moves under a rotation by $1$ about $N_+$: its largest entry by $879.0$ MeV in the Cartesian frame, the Frobenius norm of the change by $1758.8$ MeV. So the circle that the complement leaves free selects the flavor-diagonal mass operators, §XXI.4e's compact class [D]. With three parameters for three masses, that class is not selective; the Koide form needs §XXXIV.3(d)'s null condition besides.
+
+**(d) Linear or quadratic [T/V/O].** In a first-order parent the four-dimensional masses are linear in the internal eigenvalues ($\lvert\lambda\rvert$). The ring parent with $\mathcal M = \partial_{\theta+\pi/2}+I/\sqrt2$ has masses proportional to $\cos\theta_n+1/\sqrt2$, which are Koide's amplitudes. Their own Koide ratio is $0.4780$, not $\tfrac23$. Their squares' ratio is $\tfrac23$, and stays so for every flux on the positive branch, $\lvert\theta\rvert<\pi/12$.
+
+That computes the response's fork. A first-order internal derivative gives Koide's amplitudes as masses. Koide's masses then need one more square, by one of two routes:
+- a second stage, $m = \mu^2/\Lambda$: a seesaw-like product, or a product of two first-order factors such as §XXIV.26's two dual factors;
+- the mass operator itself as the internal operator, with Koide a property of its square root.
+
+Neither route is derived [O]. The weak, chiral structure — left doublets, right singlets, a Yukawa-type mass — is not attempted.
+
+## XXXIV.5 Standing of Part XXXIV after v36.8, and the next pieces [S/O; R374]
+
+*Established [T/V].*
+- On the reading of the two families as orthonormal bases of one complex carrier, Entry 352's rule is mutual unbiasedness, one condition for both halves. It needs the complex structure: every real pair reaches a squared overlap of at least $\tfrac49$ (a theorem), and a shell's left- and right-invariant frames are related by ${\rm Ad}_g$ (§XXXIV.2(a)–(b)).
+- With the complement a weight basis, the selected axis is a body diagonal of the frame. The archive's $R$, $S$ and $C$ are then the frame's shift and clock, and the circular lines meet the real slice only at $0$ (§XXXIV.2(c)).
+- The complement is unique only as a weight basis with oriented fibers. The axis fixes the frame up to a circle, which identifies the trigonal frame §XXX.13(d) lacked, as a datum (§XXXIV.2(d)).
+- The archive's Koide operator on the Cartesian fibers is an on-site term plus the ring's derivative, with the mean mass on every fiber and its $e$–$\mu$ distinction the $\kappa$-odd part (a restatement of §XXI.4a's $K$). Koide's relation is the light cone of a fibration-invariant form on $\sqrt M$, on the common-sign branch (§XXXIV.3).
+- The bare Dirac toy's mass term can be the internal part of a parent Dirac operator, with Entry 353's invariant difference $p^2-\mathcal M^2$. The interchange holds in the continuous flat parent, and any discrete internal spectrum breaks it (§XXXIV.4).
+- The inside-out (trimaximal) reading of the charged-lepton–neutrino complementarity is excluded (§XXXIV.3(e)).
+
+*Not demonstrated:*
+- a reason for a Cartesian fibration on the selected axis to be physically present (selected, not gauge);
+- the quarter turn, $\theta$ and $m_*$ from the geometry;
+- which one-hop operator is primary, and the second stage;
+- the chiral (weak) reinstatement, with $H_\nu$.
+
+*The responses' geometric requirements.*
+- *Frobenius.* The response on Entry 353 asks for Frobenius integrability of two three-dimensional distributions in a six-dimensional parent. That picture is not the one used here: the flavor fibers are lines of the carrier over each point, not distributions on the base [D]. On a shell the left-invariant frame gives three line fields, each integrable (each a Hopf fibration), but the plane field spanned by any two is not — it is a contact structure. One Cartesian fiber can be quotiented; two together cannot.
+- *The global frame.* The left-invariant frame is parallel for the flat (Cartan) connection, not under Levi-Civita transport, to which the holonomy remark in the response on Entry 352 applies. The frame itself exists globally, since $S^3$ is parallelizable; only its being parallel needs that flat connection. Over the axis family, §XXX.13(b)'s Chern-number obstruction stands.
+
+*Entry 351's other proposals.*
+- *The real slice.* The real slice as the stitched fixed set, ${\rm Fix}(\tau)$, and the response's target $B\cong{\rm Fix}(\tau)$ for a stitched $B$, are not attempted. Identifying that real slice with the real structure of the complexified rest space, as §XXXIV.3(c) does, is a reading [D]. On that reading §XXXIV.3(c) gives the target one requirement in the flavor sector: whatever selects the real slice must leave a $\kappa$-odd flavor datum, or $e$ and $\mu$ are degenerate.
+- *The "Aethic Bayesian binding".* As the response says, it needs a probability rule and a condition for sequential measurements. The qubit precedent of §XXXIV.2(e) says that no axis is intrinsically primary.
+- *Not attempted.* The quarks' "heterogeneous" form (3:18 PM) and the "lepton-coordinates radius" (3:47 PM). In a parent-operator reading the internal operator's scale sets the mass scale, but which one-hop operator is primary is open, so no radius is computed.
+- *The galactic methodology.* It is recorded as the author's philosophy-of-science position (Entry 352's clarification). Part XXXIII's program (§XXXIII.65) is unchanged.
+
+*The next pieces.*
+1. A native source for the trigonal frame: whether the shell's left-invariant frame, referred to the selected split form, has the selected axis as a body diagonal.
+2. A reason for the null condition, or for $\sqrt M$ being primary.
+3. The chiral toy: left doublets and right singlets, with the ring structure in a Yukawa-type term and $H_\nu$ off the Cartesian diagonal.
+4. The stitching target.
+
+*Not claimed.* No mass, mixing angle or phase is derived. The light cone restates Koide's relation and the quarter turn; it does not explain them. Entry 352's fibration is identified as a datum, not selected.
+
+## XXXIV.6 Register R370–R374 [D/O; v36.8]
+
+- **R370** (§XXXIV.1; the Part's opening). Part XXXIV is opened for the flavor program §XXXIII.9 held. Entries 351–353 and the three responses are recorded in the author's words, Entry 351 as typed with its three handwritten pages as transcribed. What v36.8 does with each is stated there. [record]
+- **R371** (§XXXIV.2). On the reading of the two families as orthonormal bases of one complex carrier [D], Entry 352's rule is mutual unbiasedness, one condition. Its consequences:
+  - information: one fiber gives uniform $\tfrac13$ on the other family, deletion keeps $\tfrac23$, $H_X+H_F\geq\ln3$ is attained, and deduction holds one way only;
+  - no real pair: $512$ sign patterns; every real pair reaches squared overlap $\tfrac49$ (a theorem; the $96$ rotations with entries $\pm\tfrac13$, $\pm\tfrac23$ attain it), with $\sum R^4 = \tfrac{11}9$ searched; a shell's left and right frames are related by ${\rm Ad}_g$;
+  - the weight basis of an axis has overlaps $N_i^2$ and $(1-N_i^2)/2$, so it is unbiased iff the axis is a body diagonal, at the magic angle $54.7356^\circ$; then $T = R_{N_+}(2\pi/3)$, $R = T$, $S = Z^{-1}$ and $C = Z$, with the archive's axis oriented as $-N_+$; the circular lines meet the real slice only at $0$, casting circles about the diagonal;
+  - uniqueness: the gauge torus ($12$ geometric points, $4$ bases, the body diagonals' weight bases; only $F$ a weight basis in the complete set containing the frame and $F$, the only such set); oriented fibers single out $N_+$; the converse circle keeps the lines, $T$ and $M$ and moves the conveyor except at third-turns (residual $\tfrac{2\sqrt2}3\lvert\sin(3\gamma/2)\rvert$) — §XXX.13's trigonal frame, as a datum;
+  - the dephasings commute and depolarize, the projectors do not ($\sqrt2/3$); the two families' ranks are $4$ of $8$; the qubit's Pauli bases are mutually unbiased; $2$ orthonormal triples of $20$, and one frame pair of the $10$ complementary pairs. [T/V/D/O]
+- **R372** (§XXXIV.3). The mass operator on the Cartesian fibers:
+  - a circulant with the mean mass, $627.6998$ MeV, on every fiber; §XXX.3's fit reproduced;
+  - $H_\theta = \partial_{\theta+\pi/2}$, with $D_F$ the ring's derivative plus an on-site term, and the sine difference its spectrum; $M = A\,I+2\lvert c\rvert\,\partial_{\arg c+\pi/2}$, a one-hop operator; the two dual factors the real and imaginary parts of one hop;
+  - the holonomy $W$, spectral data, invariant under rephasing and cyclic relabellings and conjugated by odd ones, with the spectrum degenerate iff ${\rm Im}\,W = 0$; $\kappa M(\theta)\kappa = M(-\theta)$; the $\kappa$-odd part of $M$, $\tfrac12(m_e-m_\mu)(P_1-P_2)$, a restatement of §XXI.4a's $K$ ($\lvert{\rm Im}\,W\rvert/\lvert W\rvert = 0.6184$; $2.43\%$ of the weight); the octants' Pancharatnam phases ($\pi/4$, $\pi/2$) not the holonomy phase ($0.666674$);
+  - $\mathfrak g$ invariant, of signature $(1,8)$; $D_F$ null for every $\theta$, $\sqrt M$ null on the common-sign branch only ($K = 0.6346$ at $\theta = 0.3$); Koide's relation is $\mathfrak g(\sqrt M) = 0$, the flavor-blind and flavor-resolving weights equal ($941.5528$ against $941.5466$ MeV), with $K-\tfrac23$ at $-0.43\sigma$ and Foot's angle $44.99991\pm0.00022^\circ$;
+  - $F$ interchanges clock and shift; trimaximal mixing is excluded, and its second column sits at $2.7$–$2.8\sigma$, inside NuFIT's $3\sigma$ range. [T/V/D/S/O]
+- **R373** (§XXXIV.4). The bare Dirac toy:
+  - the kinetic term $U(3)$-isotropic, the mass term a Lorentz scalar (the spinor transformation preserving the Dirac adjoint), $\det = \prod(p^2-m^2)^2$ in both bases, the Cartesian components sharing the mean mass;
+  - the parent operator squares to $p^2-\mathcal M^2$, the chiral rotation gives a scalar mass, and the $(1,6)$ Clifford form and its mode reduction are verified; $\det_F(p^2-\mathcal M^2) = \prod(p^2-m_n^2)$ is fibration-invariant;
+  - the interchange spinor ($\tau$ at rest to massless) is broken by the $T^3$ shells ($2,12,24,16,12,48,48$); the ring parent is $(1,4)$ with three modes, its constant term a shift of the internal momentum, not a bulk mass; $F$ is not a symmetry ($879.0$ MeV in the largest entry, $1758.8$ MeV in Frobenius norm), and the circle selects the compact class;
+  - the ring's masses are Koide's amplitudes (their own ratio $0.4780$, their squares' $\tfrac23$ for every flux on the positive branch). [T/V/D/O]
+- **R374** (§XXXIV.5; §XXXIII.13; the head table; pointers in §§XXXIII.9 and XXXIII.65 and in Part XXXIII's opening; the toy). The standing of Part XXXIV after v36.8 and its next pieces. The suite `pg_v36_numerics.py` at v36.8 has:
+  - three new sections and checks, $43$ in all;
+  - the helpers `_v36_8_r`, `_v36_8_frame`, `_v36_8_rot`, `_v36_8_weights`, `_v36_8_proj`, `_v36_8_same_lines`, `_v36_8_fit`, `_v36_8_koide`, `_v36_8_holonomy` and `_v36_8_slice_dim`;
+  - the mode `v36_8`, a few seconds, its output the same on every BLAS kernel tested;
+  - `quick`, now $27$ checks.
+
+  The toy `v32_toy_three_ends.py` gains `v36_8`, its `all` counting $230$. No new figure. The SHA-256 of the suite is in §XXXIII.13. [S/O; reproducibility]
+
+## Round record: the version summaries, v16 to v36.8 (moved from the head of the archive in v34.9, R190)
+
+*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v36.8, v36.7, v36.6, v36.5, v36.4, v36.3, v36.2, v36.1, v36.0, v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+
+> **v36.8 — Entries 351–353 and the three responses (21 October 2026): Part XXXIV opened for flavor — the complement of a Cartesian fibration; the mass operator read on the Cartesian fibers; the bare Dirac toy, with the mass term as an internal derivative. Parts XXX–XXXII frozen at v35.8.**
+>
+> *What was asked.*
+> - *Entry 351, "Reframe for Flavors Idea Scoped Out"* (typed, with three handwritten pages, transcribed). A "Cartesian" basis that selects a "flavor complement", such that "fiber quotienting of one cart fiber can't delete a comp fiber"; the Dirac mass and derivative terms as "space info-losing" and "flavor info-losing"; flavor information in the imaginary directions; the real slice of the complexified spacetime as the stitched-together patchwork of determinate nodes.
+> - *Entry 352.* The rule — "no one Cartesian fiber privileges/selects/narrows down beyond all three complement fibers, and similarly no one complement fiber privileges a Cartesian fiber" — with the complexified directions placing the flavor fibers "in a way that appears radially symmetric or something to the real-slice". The mass term as the flavor fibers' $\partial_\mu$, the two terms' difference invariant under the choice of fibration and of the real slice, and the $(\sin a-\sin b)^2$ Koide term read off the flavor fibers. The bare parity-symmetric Dirac Lagrangian of the three charged leptons first, the weak asymmetry later.
+> - *Entry 353.* A derivative in the mass term that sees only the flavor fibers, the two terms interchangeable.
+> - *The responses.* The Fourier eigenvectors of the cyclic shift as mutually unbiased fibers, with the real obstruction; the sine-difference identity; the reality test; the seven-dimensional Dirac operator and its invariant $p^2-\lambda^2$. They ask whether the geometry forces the Koide form, whether the masses come out linear or quadratic, whether exactly three modes survive, and how the complement is made unique.
+>
+> **What v36.8 does (R370–R374; Part XXXIV, §§XXXIV.1–6).** §XXXIII.9 held flavor for a Part of its own; v36.8 opens Part XXXIV after Part XXXIII, with Part XXXIII's suite.
+> - *The complement.* On the reading of the two families as orthonormal bases of one complex carrier, Entry 352's rule is mutual unbiasedness, one condition for both halves. No real pair realizes it: in every real pair some fiber has squared overlap at least $\tfrac49$ with some fiber of the other (a theorem), and a shell's left- and right-invariant frames are related by ${\rm Ad}_g$.
+> - *The body diagonal.* The weight basis of an axis is unbiased to a Cartesian frame exactly when the axis is the frame's body diagonal. The archive's clock $R$ is then the frame's cyclic shift and the conveyor $S$ its clock. The $\tau$ line lies on the real slice; the $e$ and $\mu$ lines meet it only at $0$, casting circles about the diagonal.
+> - *Uniqueness.* Unbiasedness alone leaves a torus of complements; the weight-basis condition leaves four, and oriented fibers one. The axis fixes the frame only up to a circle that keeps the lines and the mass operator, so the Cartesian triad is §XXX.13's missing trigonal frame — as a datum, not a selection.
+> - *The mass operator on the Cartesian fibers.* It is a ring with a flux. Every fiber carries the mean mass, $627.6998$ MeV; the archive's $H_\theta$ is the ring's covariant central difference, and the response's sine difference is the spectrum of $D_F = \sqrt{m_*}(H_\theta+\cos\alpha\,I)$, the ring's derivative plus an on-site term. The $e$–$\mu$ distinction is the part odd under complex conjugation in the real frame, a restatement of §XXI.4a's $K$. Koide's relation is the light cone of a fibration-invariant form on $\sqrt M$, on the common-sign branch: the flavor-blind and flavor-resolving parts weigh the same. That is a restatement — the quarter turn and $\theta$ are not derived — and the trimaximal (inside-out) neutrino reading is excluded.
+> - *The bare Dirac toy.* The parent operator squares to $p^2-\mathcal M^2$, the invariant difference Entry 353 asked for. The interchange holds in a flat continuous parent and is broken by any discrete internal spectrum. On the three-site ring a first-order flavor derivative gives Koide's amplitudes as masses, and Koide's masses need one more square.
+> - *Pointers and the suite.* Pointers in Part XXXIII's opening and in §§XXXIII.9 and XXXIII.65; Part XXXIII's rows on the flavor note and on the next pieces amended, the rest of flavor leaving its backlog. Three new sections in `pg_v36_numerics.py`, mode `v36_8`: $43$ checks in all.
+> - *Review.* Two independent referees checked the round before delivery; what they caught is in the ledger (§§DI, DK).
+>
+> **Next.** A native source for the trigonal frame; a reason for the null condition, or for $\sqrt M$ being primary; the chiral toy with $H_\nu$; the stitching target; Part XXXIII's standing list (§XXXIII.65); the author's choice for the cap, still open from earlier rounds.
 
 > **v36.7 — the review of v36.6, Entry 349 and the two responses on it (20 October 2026): the penalties of the admissibility geometry compared on the full two-sector configuration; the localization model with each; the mirror solution off its ansatz. Parts XXX–XXXII frozen at v35.8.**
 >
