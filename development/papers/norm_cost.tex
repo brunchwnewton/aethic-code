@@ -1,0 +1,659 @@
+% ============================================================================
+% DRAFTING HEADER (strip before deposit)
+% Drafted by Claude Fable 5.1, October 23, 2026, at the author's direction ("please go ahead and write the
+% psychology paper now"), as the sixth extraction of the corpus and the first from the psychological material of the
+% long Aethic paper: the section "The Aethic Mindset and Autistic Savants" and its subsections, the "it toggles"
+% paragraph of "Aethic Reasoning Against the Modal Structure of Human Language", and the author's notes on his own
+% record (the source file 1_Aethic_Reasoning.tex, md5 41fb70e5c55830eb139c50dc179f3009, line numbers below refer to it).
+% The plan is branch_symmetry_psych_scope.md, third version (Oct 22, 2026), revised through two referee reports. The
+% author's passages are quoted verbatim and marked; the formal apparatus, the design and the simulation are the
+% extraction's. The simulation is norm_cost_sim.py, version 1.1, whose output accompanies the paper.
+% Author-side card: the references marked VERIFY were written from memory of the works and need a check against the
+% volumes before deposit; strip these working comments and this header before deposit.
+% ============================================================================
+\begin{filecontents}[overwrite]{norm_cost_refs.bib}
+@misc{Aethus, author={Benander, Ajax}, title={Aethic Reasoning: A Comprehensive Solution to the Quantum Measurement Problem}, year={2024}, month = {11}, url={https://philpapers.org/rec/BENARA-5}, note={Manuscript; the complete development of the framework, successive deposits November 2024--2026; also at \url{https://philsci-archive.pitt.edu/id/eprint/25713}}}
+@article{Milton2012,
+  author = {Milton, Damian E. M.},
+  title = {On the ontological status of autism: the `double empathy problem'},
+  journal = {Disability \& Society}, volume = {27}, number = {6}, pages = {883--887}, year = {2012},
+  doi = {10.1080/09687599.2012.710008}}
+@article{Milton2022,
+  author = {Milton, Damian and Gurbuz, Emine and L{\'o}pez, Beatriz},
+  title = {The `double empathy problem': Ten years on},
+  journal = {Autism}, volume = {26}, number = {8}, pages = {1901--1903}, year = {2022},
+  doi = {10.1177/13623613221129123}}
+% VERIFY at merge: fields from memory.
+@article{Pellicano2022,
+  author = {Pellicano, Elizabeth and den Houting, Jacquiline},
+  title = {Annual Research Review: Shifting from `normal science' to neurodiversity in autism science},
+  journal = {Journal of Child Psychology and Psychiatry}, volume = {63}, number = {4}, pages = {381--396}, year = {2022},
+  doi = {10.1111/jcpp.13534}}
+@article{DavisCrompton2021,
+  author = {Davis, Rachael and Crompton, Catherine J.},
+  title = {What do new findings about social interaction in autistic adults mean for neurodevelopmental research?},
+  journal = {Perspectives on Psychological Science}, volume = {16}, number = {3}, pages = {649--653}, year = {2021},
+  doi = {10.1177/1745691620958010}}
+@article{Crompton2020,
+  author = {Crompton, Catherine J. and Ropar, Danielle and Evans-Williams, Claire V. M. and Flynn, Emma G. and Fletcher-Watson, Sue},
+  title = {Autistic peer-to-peer information transfer is highly effective},
+  journal = {Autism}, volume = {24}, number = {7}, pages = {1704--1712}, year = {2020},
+  doi = {10.1177/1362361320919286}}
+@article{Crompton2025,
+  author = {Crompton, Catherine J. and Foster, Sarah J. and Wilks, Charlotte E. H. and Dodd, Michelle and Efthimiou, Themis N. and Ropar, Danielle and Sasson, Noah J. and Lages, Martin and Fletcher-Watson, Sue},
+  title = {Information transfer within and between autistic and non-autistic people},
+  journal = {Nature Human Behaviour}, volume = {9}, number = {7}, pages = {1488--1500}, year = {2025},
+  doi = {10.1038/s41562-025-02163-z}}
+@article{Foster2025,
+  author = {Foster, Sarah J. and Ackerman, Robert A. and Wilks, Charlotte E. H. and Dodd, Michelle and Calderon, Rachel and Ropar, Danielle and Fletcher-Watson, Sue and Crompton, Catherine J. and Sasson, Noah J.},
+  title = {Rapport in same and mixed neurotype groups of autistic and non-autistic adults},
+  journal = {Autism}, volume = {29}, number = {7}, year = {2025},
+  doi = {10.1177/13623613251320444}}
+@article{Sasson2017,
+  author = {Sasson, Noah J. and Faso, Daniel J. and Nugent, Jack and Lovell, Sarah and Kennedy, Daniel P. and Grossman, Ruth B.},
+  title = {Neurotypical peers are less willing to interact with those with autism based on thin slice judgments},
+  journal = {Scientific Reports}, volume = {7}, pages = {40700}, year = {2017},
+  doi = {10.1038/srep40700}}
+@misc{Calderoli2026,
+  author = {Calderoli, Enrique and Figueiredo, Tiago and Varriale, Maria Cristina and Kapczinski, Fl{\'a}vio},
+  title = {A distinct communication strategies model of the double empathy problem},
+  note = {arXiv:2602.02562, version 2, revised October 1, 2026}, year = {2026}}
+@article{Cronbach1957,
+  author = {Cronbach, Lee J.},
+  title = {The two disciplines of scientific psychology},
+  journal = {American Psychologist}, volume = {12}, number = {11}, pages = {671--684}, year = {1957},
+  doi = {10.1037/h0043943}}
+@book{CronbachSnow1977,
+  author = {Cronbach, Lee J. and Snow, Richard E.},
+  title = {Aptitudes and Instructional Methods: A Handbook for Research on Interactions},
+  publisher = {Irvington}, address = {New York}, year = {1977}}
+@book{Kenny2006,
+  author = {Kenny, David A. and Kashy, Deborah A. and Cook, William L.},
+  title = {Dyadic Data Analysis},
+  publisher = {Guilford Press}, address = {New York}, year = {2006}}
+@incollection{HartStaveland1988,
+  author = {Hart, Sandra G. and Staveland, Lowell E.},
+  title = {Development of {NASA-TLX} ({Task Load Index}): Results of empirical and theoretical research},
+  booktitle = {Human Mental Workload}, editor = {Hancock, Peter A. and Meshkati, Najmedin},
+  publisher = {North-Holland}, address = {Amsterdam}, pages = {139--183}, year = {1988}}
+@article{Nosek2018,
+  author = {Nosek, Brian A. and Ebersole, Charles R. and DeHaven, Alexander C. and Mellor, David T.},
+  title = {The preregistration revolution},
+  journal = {Proceedings of the National Academy of Sciences}, volume = {115}, number = {11}, pages = {2600--2606}, year = {2018},
+  doi = {10.1073/pnas.1708274114}}
+@book{APA2013,
+  author = {{American Psychiatric Association}},
+  title = {Diagnostic and Statistical Manual of Mental Disorders},
+  edition = {5}, publisher = {American Psychiatric Publishing}, address = {Arlington, VA}, year = {2013}}
+@article{SattathTversky1977,
+  author = {Sattath, Shmuel and Tversky, Amos},
+  title = {Additive similarity trees},
+  journal = {Psychometrika}, volume = {42}, number = {3}, pages = {319--345}, year = {1977},
+  doi = {10.1007/BF02293654}}
+@article{Tversky1977,
+  author = {Tversky, Amos},
+  title = {Features of similarity},
+  journal = {Psychological Review}, volume = {84}, number = {4}, pages = {327--352}, year = {1977},
+  doi = {10.1037/0033-295X.84.4.327}}
+@article{Litman2025,
+  author = {Litman, Aviya and Sauerwald, Natalie and Green Snyder, LeeAnne and Foss-Feig, Jennifer and Park, Christopher Y. and Hao, Yun and Dinstein, Ilan and Theesfeld, Chandra L. and Troyanskaya, Olga G.},
+  title = {Decomposition of phenotypic heterogeneity in autism reveals underlying genetic programs},
+  journal = {Nature Genetics}, volume = {57}, number = {7}, pages = {1611--1619}, year = {2025},
+  doi = {10.1038/s41588-025-02224-z}}
+@article{WilliamsGotham2021,
+  author = {Williams, Zachary J. and Gotham, Katherine O.},
+  title = {Improving the measurement of alexithymia in autistic adults: a psychometric investigation of the 20-item {Toronto Alexithymia Scale} and generation of a general alexithymia factor score using item response theory},
+  journal = {Molecular Autism}, volume = {12}, pages = {56}, year = {2021},
+  doi = {10.1186/s13229-021-00463-5}}
+% VERIFY at merge (the three below): fields from memory; the long paper's refs.bib carries the canonical entries.
+@article{Hull2017,
+  author = {Hull, Laura and Petrides, K. V. and Allison, Carrie and Smith, Paula and Baron-Cohen, Simon and Lai, Meng-Chuan and Mandy, William},
+  title = {`Putting on my best normal': Social camouflaging in adults with autism spectrum conditions},
+  journal = {Journal of Autism and Developmental Disorders}, volume = {47}, number = {8}, pages = {2519--2534}, year = {2017},
+  doi = {10.1007/s10803-017-3166-5}}
+@article{Hull2019,
+  author = {Hull, Laura and Mandy, William and Lai, Meng-Chuan and Baron-Cohen, Simon and Allison, Carrie and Smith, Paula and Petrides, K. V.},
+  title = {Development and validation of the {Camouflaging Autistic Traits Questionnaire} ({CAT-Q})},
+  journal = {Journal of Autism and Developmental Disorders}, volume = {49}, number = {3}, pages = {819--833}, year = {2019},
+  doi = {10.1007/s10803-018-3792-6}}
+@article{Pearson2021,
+  author = {Pearson, Amy and Rose, Kieran},
+  title = {A conceptual analysis of autistic masking: Understanding the narrative of stigma and the illusion of choice},
+  journal = {Autism in Adulthood}, volume = {3}, number = {1}, pages = {52--60}, year = {2021},
+  doi = {10.1089/aut.2020.0043}}
+@article{Hajek2007,
+  author = {H{\'a}jek, Alan},
+  title = {The reference class problem is your problem too},
+  journal = {Synthese}, volume = {156}, number = {3}, pages = {563--585}, year = {2007},
+  doi = {10.1007/s11229-006-9138-5}}
+@article{Robinson1950,
+  author = {Robinson, W. S.},
+  title = {Ecological correlations and the behavior of individuals},
+  journal = {American Sociological Review}, volume = {15}, number = {3}, pages = {351--357}, year = {1950},
+  doi = {10.2307/2087176}}
+@article{BottemaBeutel2021,
+  author = {Bottema-Beutel, Kristen and Kapp, Steven K. and Lester, Jessica Nina and Sasson, Noah J. and Hand, Brittany N.},
+  title = {Avoiding ableist language: Suggestions for autism researchers},
+  journal = {Autism in Adulthood}, volume = {3}, number = {1}, pages = {18--29}, year = {2021},
+  doi = {10.1089/aut.2020.0014}}
+\end{filecontents}
+\documentclass[11pt]{article}
+\usepackage[margin=1.05in]{geometry}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\newcommand{\principleautorefname}{Principle}
+\newcommand{\propositionautorefname}{Proposition}
+\newcommand{\definitionautorefname}{Definition}
+\newcommand{\conjectureautorefname}{Conjecture}
+\newcommand{\hypothesisautorefname}{Hypothesis}
+\newcommand{\corollaryautorefname}{Corollary}
+\renewcommand{\sectionautorefname}{Section}
+\renewcommand{\subsectionautorefname}{Section}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage[style=numeric, sorting=none, backend=bibtex]{biblatex}
+\addbibresource{norm_cost_refs.bib}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{principle}{Principle}
+\newtheorem{corollary}{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{hypothesis}{Hypothesis}
+
+\newcommand{\pos}[1]{\left[#1\right]_{+}}
+
+\title{Reference, Norms and the Cost of Interaction:\\ A Norm-Setting Model of Autistic--Non-Autistic Communication, with a Discriminating Design}
+\author{Ajax Benander\thanks{Email: \href{mailto:akb9408@rit.edu}{akb9408@rit.edu}, Website: \url{https://aethus.org}. This paper develops, as a self-contained proposal in the psychology of communication, two principles stated in a larger framework \cite{Aethus}: the Branch Principle and the Principle of Symmetry, with the observation that a cognitive difference which switches with context is a convention rather than a limitation. The framework's metaphysics plays no role in the argument; what is carried over is one piece of bookkeeping, the treatment of a diagnostic label as a partial information state, explained where it enters.}}
+\date{First drafted October 2026\\ {\small This version: October 23, 2026 --- working draft}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+How much of the cost of an interaction between an autistic and a non-autistic person depends on the norms that govern it, and when can changing those norms change, or reverse, which partner pays? The paper gives the question a formal setting. A diagnostic label is treated as a partial information state, which fixes what a claim about ``the autistic'' may and may not say; a profile over competences makes deficit verdicts reference-relative, and reversibility, at a stated measurement margin, is proved to hold exactly under a condition of mutual advantage, with ``balance'' kept as a conjecture. A cost model is then stated: effort is a participant baseline plus a symmetric mismatch between the participant's communicative style and the style the governing norms presuppose, plus a one-sided shortfall against the competence the norms require. Its predictions are derived exactly: the group gap under given norms, its sensitivity to a change of norms, from which the baseline cancels within persons, and the condition under which the gap reverses, namely that the norm-induced reduction exceed the whole initial gap, not the baseline alone. The model is one member of a family that includes a general protocol benefit and partner mismatch as restrictions; the double-empathy tradition's formal model is not a restriction of it, and a mediator test separates the norm model from a norm-dependent extension of that model. A within-dyad crossover is designed in which the same mixed pairs work under two explicit rule sets, matched in everything but the profile they presuppose, with profiles measured before any interaction. A simulation at the planned size recovers the parameters without bias, selects the generating model in most replications, predicts a withheld third rule set to the noise floor, and exhibits the reversal arithmetic. What existing results constrain is stated from the primary sources. Branch geometry and linguistic masking are extensions, not premises.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+
+\subsection{The question}
+
+When an autistic and a non-autistic person interact and the interaction goes badly, the received description locates the difficulty in one of them. The double empathy problem \cite{Milton2012} relocated it to the pair: a mutual failure of understanding between people whose ways of experiencing and communicating differ, not a one-sided deficit, a relocation with a decade of empirical work behind it \cite{Milton2022, DavisCrompton2021, Pellicano2022}. This paper takes one further step and asks about the third party present in every such interaction: the norms that govern it. Any interaction runs under rules about how a request is made, how a turn is yielded, how much is said outright and how much left to be inferred, and those rules presuppose a communicator. The question is how much of the interaction's cost is set by that presupposition, and when changing the rules changes, or reverses, which partner pays it.
+
+The question has three parts, and the paper keeps them apart because they have different standing.
+\begin{itemize}[leftmargin=*]
+\item \emph{A definitional part.} A verdict of deficit is relative to a reference. This is a matter of definition, and it is proved below in the only sense a definition can be proved, by exhibiting the quantifier the verdict hides.
+\item \emph{A formal part.} Under a cost model with a stated structure, the group gap in effort under given norms, its change under new norms and the condition for its reversal follow exactly, and the reversal condition is stricter than it is usually taken to be.
+\item \emph{An empirical part.} Whether effort tracks the mismatch between a person and the norms in the way the model says is a hypothesis, and the paper's main work is a design that can tell it from its strongest rivals.
+\end{itemize}
+
+\subsection{Two principles, as stated at the source}
+\label{sec:source}
+
+The paper develops two principles the author stated in a larger work \cite{Aethus}, in a section on the relation between cognitive style and the conventions of a dominant group. They are quoted as stated, since the paper's formal apparatus is built on them and the reader should see what it is built on.\footnote{The source dates the pair to a short video the author recorded on June 8, 2024, at 2:39 PM ET. The passages quoted in this paper are from the section ``The Aethic Mindset and Autistic Savants'' and its subsection ``Illustrating the Bias of Perspective in Diagnosing Logic'', and from the paragraph ``The decisive fingerprint: it toggles'' of the section ``Aethic Reasoning Against the Modal Structure of Human Language''.}
+
+\begin{principle}[Branch Principle, as stated]
+\label{prin:branch}
+``Ontologically neurodivergent people are better understood as a collection of categorical branches and `allistic' is a single branch, such that two random branches are typically as different from one another as they each are to a third.''
+\end{principle}
+
+\noindent The motivation given with it is a remark about what a diagnosis records:
+\begin{quote}
+``A better model for understanding autistic minds than the autistic-allistic binary is more of a tree model, such that allistic people are one branch alone and the rest have been all categorized as `autistic'. Inadvertently speaking, then, this proposes that an autism diagnosis is not actually diagnosing a person's traits to the level of specificity of an allistic person (as would assign them a particular branch) but instead broadly classifies them as `non-allistic' for their lacking allistic traits. In reality, though, each branch comes with a different set of cognitive intuitions, which are separate enough so that two autistic people drawn from two different branches tend to be as different from one another at the cognitive level as either of them are from allistic people.''
+\end{quote}
+
+\begin{principle}[Principle of Symmetry, as stated]
+\label{prin:symmetry}
+``You can always redraw the conventional category boundaries in psychology so that allistic and a given neurodivergent branch `trade places phenomenologically', in the sense that the exact behavioral diagnosis, as an Aethus, is made to reverse isomorphically.''
+\end{principle}
+
+\noindent ``As an Aethus'' is glossed at the source as ``a partial information state about that behavioral diagnosis rather than an exhaustive description'', and \autoref{sec:labels} explains that gloss once and then uses the plain term. The principle's intended content is given in the same passage with the author's own case as the instance:
+\begin{quote}
+``What's fundamentally wrong about this is that it fundamentally misunderstands what's actually going on: what's going on is utter, complete symmetry between cognitive branches. That is, for allistic people versus a given branch of autistic people, there will be roughly half-and-half instances across traits for which the autistic person is infantile versus for which the allistic person is infantile. Using myself as an example, at age twenty I still had the emotional maturity of a thirteen year old, but at age thirteen I already had the mathematical maturity of at least a twenty year old. Had my branch been the reference instead, allistic people would look just as profoundly infantile in so many different ways to how I looked in social, emotional, and life skills.''
+\end{quote}
+And its consequence for the setting of an interaction, in a footnote of the same section:
+\begin{quote}
+``[N]otice how many autistic people themselves are described as taking a script to allistic conversations. Once again, notice how if the shoe were on the other foot, for any given non-allistic cognition branch allistic people practicing its topics would be interpretable as using a script.''
+\end{quote}
+
+The paper separates what in these passages is definitional, what is an exact consequence of a stated premise, what is a conjecture and what is an empirical hypothesis. Reference-relativity is definitional (\autoref{sec:symmetry}). Reversibility, the ``trade places'' claim, is exact under a premise the passage states, that ``each branch comes with a different set of cognitive intuitions'', once that premise is read as mutual advantage at the measurement's margin; without it, it fails, and the failure case is exhibited. ``Roughly half-and-half'' is a conjecture, and nothing below rests on it. The ``script'' remark is the seed of the cost model: the labour an interaction extracts depends on whose conventions it runs on, so that a change of conventions moves the labour. That is the hypothesis the paper is built to test, and the Branch Principle itself, a claim about the geometry of cognitive profiles, is placed outside the first paper as an extension with its own test (\autoref{sec:extensions}).
+
+\subsection{What the paper claims, and against what}
+
+The contribution is specific. Interactions between differently situated people have an established theoretical setting in the study of aptitude-by-treatment interactions \cite{Cronbach1957, CronbachSnow1977}: who benefits from a condition depends jointly on the person and the condition, and context-dependent advantages and their reversals are at home there. The double-empathy literature has a formal model of its own, a feedback model of channel preference in which each partner's registered empathy depends on the partner's verbal and nonverbal output weighted by the first partner's preference \cite{Calderoli2026}. What this paper adds is narrower than either and not contained in them: it estimates how an externally imposed communication norm distributes the cost of adaptation between the two partners of a dyad, beyond the effect of who the partner is, with the moderator, each participant's mismatch with the norm, measured before the interaction. The model that carries the estimate is one of a family stated together in \autoref{sec:family}, each rival a parameter restriction, and no tradition is identified with a restriction.
+
+Two further commitments govern the writing. First, the paper's claims about ``the autistic'' obey a scope rule stated in \autoref{sec:labels}, which distinguishes what a label entails of every bearer, what is a prediction about a distribution, and what is attributed to an individual. Second, the language follows the recommendations made to autism researchers on ableist language \cite{BottemaBeutel2021}: ``autistic'' and ``non-autistic'' are used as the groups' names, ``allistic'' only inside the source's quotations, and no competence difference is called a deficit except relative to a stated reference.
+
+\subsection{Plan}
+
+Section~\ref{sec:labels} treats a label as a partial information state and states the scope rule, with the source's quantifier-shift illustration. Section~\ref{sec:symmetry} makes the Principle of Symmetry exact. Section~\ref{sec:toggle} states what a difference that switches with context does and does not show. Section~\ref{sec:model} gives the cost model and derives its predictions, Section~\ref{sec:family} the model family and the test that separates its members, Section~\ref{sec:design} the study, Section~\ref{sec:simulation} the simulation, Section~\ref{sec:constraints} what the published results already constrain, Section~\ref{sec:extensions} what lies outside the paper, and Section~\ref{sec:discussion} the discussion. A provenance note closes.
+
+\section{A label as a partial information state}
+\label{sec:labels}
+
+A diagnostic label carries what it records and no more. The larger framework calls such a state an Aethus and any fuller description of the same person a proper child of it \cite{Aethus}; this paper says \emph{partial information state} and \emph{refinement}. The point of the vocabulary is not metaphysical. It is that a label is an object with a definite content, and that a claim about everyone who bears it is licensed by that content or not at all.
+
+Three kinds of claim about the bearers of a label are therefore distinguished.
+\begin{enumerate}[label=(\roman*), leftmargin=*]
+\item \emph{Definitional entailment.} What the label records holds of every bearer. The diagnostic criteria for autism spectrum disorder in the fifth edition of the \emph{Diagnostic and Statistical Manual} require all three of the social-communication features and at least two of the four restricted and repetitive features, currently or by history \cite{APA2013}. So ``every bearer shows at least two of the four'' is entailed. ``Every bearer has sensory differences'' is not: sensory reactivity is one of the four, and the label does not record which two.
+\item \emph{Group-level statistical prediction.} A claim about the distribution of bearers. It is true or false of the group, and attributing it to each member is the ecological fallacy \cite{Robinson1950}.
+\item \emph{Individual attribution.} A claim about a particular bearer, which needs information about that bearer.
+\end{enumerate}
+
+\begin{definition}[Scope rule]
+\label{def:scope}
+A claim about every bearer of a label is licensed in two ways only: the label's definition entails it, or independent evidence establishes it for every bearer. A claim that needs information the label does not carry is made of a refinement that carries it, or not made.
+\end{definition}
+
+\noindent The rule is the discipline the rest of the paper is written under. It does not forbid universal claims; it says where they come from.
+
+\paragraph{The source's illustration.} The section the principles come from gives one worked instance of a claim that violates the rule, and it is reproduced here because it motivates everything that follows:
+\begin{quote}
+``This is also where categorizing all the non-allistic branches as one `autism' is measurably problematic: you can find an autistic branch for which any trait is infantile, thereby seeming to confirm your prior that `look, autistic people are infantile in this way'. Running the same logic on a random partition where we put half the branches, including the allistic one, in one category while the rest are placed in the other, and we could just as easily misinterpret allistic people as infantile in any conceivable way by finding it in another branch of the categorization and then mistakenly importing it to an assessment of allistic people.''
+\end{quote}
+In the notation of \autoref{sec:symmetry}, with $I(b, \tau)$ reading, as the source's formalization has it, ``$\tau$ presents as infantile on $b$ relative to a chosen reference branch'', observation supplies $\forall \tau\, \exists b\; I(b, \tau)$, one witness per trait, and the category-level conclusion ``the autistic are infantile'' needs $\exists b\, \forall \tau\; I(b, \tau)$, one witness for every trait: the quantifier shift, with the witness fixed per demonstration and silently promoted. Three readings of the conclusion are therefore distinct: every branch is infantile on every trait, which is false; some branch is, which does not follow; an aggregate profile is attributed to individuals, which is the ecological fallacy. The random-partition control shows that the inference succeeds under any re-partition of the branches, so its confirmations are a function of the partition chosen, the reference class problem \cite{Hajek2007} in categorical form. The logic is elementary, as the source's formalization notes; what the illustration shows is that a specific and common inference makes the move.
+
+\section{The Principle of Symmetry made exact}
+\label{sec:symmetry}
+
+\subsection{Profiles, references and deficit sets}
+
+Let $T$ be a finite inventory of competences and let each branch $b$ have a profile $x_b \colon T \to \mathbb{R}$, a score on each competence on a common scale. The scale carries a measurement margin $\delta \ge 0$, the smallest difference the instrument resolves or the analyst is prepared to call a difference.
+
+\begin{definition}[Deficit set]
+\label{def:deficit}
+The deficit set of branch $b$ relative to a reference branch $r$ at margin $\delta$ is
+\[ D_r(b;\delta) \;=\; \{\, \tau \in T : x_b(\tau) < x_r(\tau) - \delta \,\}. \]
+An inventory $S \subseteq T$ shows $b$ in deficit relative to $r$ when $S \subseteq D_r(b;\delta)$ and $S \neq \emptyset$.
+\end{definition}
+
+\noindent Three statements follow, of three different kinds.
+
+\paragraph{(S1) Reference-relativity, a definition.} A deficit verdict is a three-place relation among a branch, a reference and a competence, and $D_r(b;\delta)$ has no reference-free extension: there is no set ``the deficits of $b$'' until $r$ is fixed. Choosing another reference makes another comparison, not a correction of the first. This is the content of the source's formalization, ``the reference-relativity being the crux rather than a modeling convenience''.
+
+\paragraph{(S2) Reversibility at margin $\delta$, an exact consequence.}
+\begin{proposition}[Reversibility]
+\label{prop:reversibility}
+For branches $b$ and $r$ and margin $\delta \ge 0$, the following are equivalent:
+\begin{enumerate}[label=(\alph*), leftmargin=*, nosep]
+\item some inventory shows $b$ in deficit relative to $r$, and some inventory shows $r$ in deficit relative to $b$;
+\item there are competences $\tau$ and $\sigma$ with $x_b(\tau) - x_r(\tau) > \delta$ and $x_r(\sigma) - x_b(\sigma) > \delta$.
+\end{enumerate}
+Call (b) \emph{$\delta$-mutual advantage}.
+\end{proposition}
+\begin{proof}
+(a) says that $D_r(b;\delta)$ and $D_b(r;\delta)$ are both non-empty. $\sigma \in D_r(b;\delta)$ is $x_r(\sigma) - x_b(\sigma) > \delta$, and $\tau \in D_b(r;\delta)$ is $x_b(\tau) - x_r(\tau) > \delta$, which is (b).
+\end{proof}
+
+\noindent Under $\delta$-mutual advantage, then, the ``trade places'' of \autoref{prin:symmetry} holds in this sense: restricting the inventory to $D_r(b;\delta)$ shows $b$ in deficit everywhere, and restricting it to $D_b(r;\delta)$ shows $r$ in deficit everywhere, so that the verdict is reversed by exchanging the reference and the inventory. It holds exactly when the premise holds and fails exactly when it does not. Two remarks fix the premise.
+\begin{itemize}[leftmargin=*]
+\item \emph{Non-domination is not enough above $\delta = 0$.} At $\delta = 0$, (b) is the statement that neither profile is at or above the other on every competence. At a positive margin it is stronger. Take $T = \{\tau_1, \tau_2\}$, $x_b = (1.05, 1)$, $x_r = (1, 1.05)$ and $\delta = 0.1$: neither profile dominates, yet both deficit sets are empty, and no inventory shows either in deficit.
+\item \emph{What is testable.} Whether a non-reference branch exceeds the reference somewhere by more than the margin is a question about measured profiles, and it is answered competence by competence. The source's own case is an instance of (b) on two competences, mathematical and emotional maturity, at the margin of years of development.
+\end{itemize}
+
+\paragraph{(S3) Balance, a conjecture.}
+\begin{conjecture}[Balance]
+\label{conj:balance}
+For the reference branch and a given non-reference branch, the deficit sets $D_r(b;\delta)$ and $D_b(r;\delta)$ carry comparable weight under a natural weighting of the competences.
+\end{conjecture}
+\noindent This is the source's ``roughly half-and-half''. It needs what \autoref{prop:reversibility} does not: a weighting of competences under which the two sets can be compared, and exchangeability of the profile differences under that weighting. No weighting is natural until the inventory's granularity is settled, since splitting one competence into five multiplies its weight, and the paper draws nothing from the conjecture. Reversibility in existence, (S2), is what the cost model below uses, and it uses even that only as motivation.
+
+\subsection{Why mutual advantage is not a premise of what follows}
+
+The cost model of \autoref{sec:model} predicts that a change of norms moves effort, and it does so whether or not the two groups stand in $\delta$-mutual advantage. A participant can gain from a change of norms while scoring lower on every measured competence, if the new norms presuppose less of what that participant lacks; and a participant who exceeds the reference on some competence gains nothing from norms that do not draw on it. The principles of \autoref{sec:source} motivate the comparison the model makes; they are not its premises, and the model's test does not test them. That separation is deliberate, since it lets the empirical work proceed without first settling the geometry of cognitive profiles, which is the Branch Principle's territory (\autoref{sec:extensions}).
+
+\section{Context sensitivity: what toggling shows}
+\label{sec:toggle}
+
+The source makes one further observation, in a different section and about a different convention, which bears on how any difference between groups should be read:
+\begin{quote}
+``One further fingerprint is of a different kind, and it is decisive against the strongest rival reading: that the convention is not a convention at all but a fixed cognitive limitation. A limitation does not toggle. The switching just described---an adult moving, on demand, between the attached picture and the conventional one within a single day, by context---is a \emph{dissociability} result: the convention is a mode the platform runs, selectable, not a ceiling the platform imposes.''
+\end{quote}
+The observation is stated for one person switching between two modes by context, and against one rival, a fixed limitation. Against that rival it is decisive, and the paper takes exactly that much from it.
+
+\begin{proposition}[What a toggle refutes]
+\label{prop:toggle}
+Let $P$ be a performance and $C$ a set of conditions. If $P$ is observed under some $c \in C$, the claim that the person cannot produce $P$ under any condition in $C$ is false.
+\end{proposition}
+\noindent The proposition is immediate, and its value is in what it does not say. Two converses that would make the toggle a general test of capacity against convention do not hold.
+\begin{itemize}[leftmargin=*]
+\item \emph{Persistence does not identify capacity.} A convention can persist across every instrument that shares its assumptions, and most instruments in a field do.
+\item \emph{Change does not identify convention.} A stable capacity yields different performance under different demands: with more time, clearer instructions, fewer simultaneous demands, another format. The performance changes while the constraint remains consequential.
+\end{itemize}
+The toggle is therefore a test of \emph{context sensitivity}: does the difference change across conditions? A change refutes the unconditional claim of incapacity and opens a question of mechanism, which further experiments answer by varying demand, time, load and format separately from the governing norm. In the study of \autoref{sec:design} the two conditions differ in the governing norm with demand, structure and memory load held fixed by construction, which is what lets a change be read as the norm's.
+
+Applying the observation to differences between groups is this paper's extension, and it is labelled as such. The participant-specific baseline $a_i$ of the model below is accordingly described as what it is, a baseline over the conditions studied, and not as a measure of capacity; the measured components of the baseline that might themselves vary with the conditions, sensory load and fatigue, are held fixed or measured in the design.
+
+\section{The cost of interaction under governing norms}
+\label{sec:model}
+
+\subsection{Profiles and norms}
+
+Each participant $i$ has two profiles, both measured before any interaction.
+\begin{itemize}[leftmargin=*]
+\item A \emph{style profile} $s_i \in \mathbb{R}^{p}$: the participant's communicative preferences on dimensions such as directness, literalness, turn-taking and channel, scored on common scales.
+\item A \emph{competence profile} $k_i \colon T \to \mathbb{R}$ over the abilities the interaction draws on, the profile of \autoref{sec:symmetry} measured for individuals.
+\end{itemize}
+A governing norm $n$, a rule set under which the interaction runs, fixes two things.
+\begin{itemize}[leftmargin=*]
+\item A \emph{presupposed style} $s^{*}_n \in \mathbb{R}^{p}$: the communicator the rules are written for, coded from the rules' text by raters who do not see the outcomes.
+\item A \emph{competence requirement} $\theta_n \colon T \to \mathbb{R}$ with weights $w_n \colon T \to [0, 1]$: how much of each competence the rules call on, and how heavily.
+\end{itemize}
+
+\subsection{The cost model}
+
+\begin{hypothesis}[The cost model]
+\label{hyp:cost}
+Participant $i$'s effort under norm $n$ is
+\begin{equation}
+\label{eq:cost}
+c_i(n) \;=\; a_i \;+\; m_i(n) \;+\; \varepsilon_i(n), \qquad
+m_i(n) \;=\; \lambda_s\, d\big(s_i, s^{*}_n\big) \;+\; \lambda_k \sum_{\tau \in T} w_n(\tau)\, \pos{\theta_n(\tau) - k_i(\tau)},
+\end{equation}
+with $\pos{u} = \max(0, u)$, $d$ a distance on style profiles, $\lambda_s, \lambda_k \ge 0$, $a_i$ a participant-specific baseline over the conditions studied and $\varepsilon_i(n)$ zero-mean noise.
+\end{hypothesis}
+
+\noindent The two terms of the mismatch $m_i(n)$ have different shapes, and the difference is the point.
+\begin{itemize}[leftmargin=*]
+\item \emph{The style term is symmetric.} Departing from the presupposed style in either direction costs effort: a direct communicator under indirect rules and an indirect one under direct rules both adapt. A distance is the right form for a mismatch of styles, where neither pole is better.
+\item \emph{The competence term is one-sided.} Falling short of a requirement costs effort; exceeding it costs nothing. A participant whose competence exceeds what the rules call on is not penalized for the excess, which a symmetric distance on competences would wrongly do.
+\item \emph{The baseline is a baseline.} $a_i$ collects whatever is constant across the conditions studied: capacity, in part, but also sensory load, fatigue and anything else the conditions share. It is not identified as capacity, and the model does not call it that.
+\end{itemize}
+
+\paragraph{Status.} Equation~\eqref{eq:cost} is a hypothesis about effort, which the paper tests. Reference-relativity, (S1), makes the comparison between a participant and a norm well defined; the hypothesis says how effort tracks it. Neither the Branch Principle nor reference-relativity entails the equation, and nothing in the framework it comes from does either.
+
+\paragraph{Outcomes.} Effort is the primary outcome, measured per participant and per condition by a subjective workload scale, the mental-demand and effort items of the NASA Task Load Index \cite{HartStaveland1988} adapted to conversation, and by one behavioural index fixed in advance. Task performance and rapport are secondary outcomes, each with a model of its own; the model does not derive rapport from costs, since ``depends on'' yields no prediction. Perceived partner empathy is measured as a mediator, for the test of \autoref{sec:family}.
+
+\subsection{The predictions, exactly}
+\label{sec:predictions}
+
+Write $G(n)$ for the expected group gap in effort under norm $n$, the minority group's mean less the majority group's,
+\begin{equation}
+\label{eq:gap}
+G(n) \;=\; \Delta a \;+\; \Delta M(n),
+\end{equation}
+with $\Delta a$ the baseline gap and $\Delta M(n)$ the gap in mean mismatch, both signed in the same direction.
+
+\paragraph{P1, the gap under the default norms $n_0$.} $G(n_0) = \Delta a + \Delta M(n_0)$. Under norms that presuppose the majority's style and draw on its competences, $\Delta M(n_0) > 0$ whenever the minority's profiles lie farther from $s^{*}_{n_0}$ and fall shorter of $\theta_{n_0}$, and the gap is the sum of two parts that the default condition cannot separate.
+
+\paragraph{P2, norm sensitivity, the primary prediction.} For a second norm $n_1$,
+\begin{equation}
+\label{eq:p2-group}
+G(n_1) - G(n_0) \;=\; \Delta M(n_1) - \Delta M(n_0),
+\end{equation}
+whatever $\Delta a$ is; and within each person the baseline cancels,
+\begin{equation}
+\label{eq:p2-within}
+c_i(n_1) - c_i(n_0) \;=\; m_i(n_1) - m_i(n_0) \;+\; \varepsilon_i(n_1) - \varepsilon_i(n_0),
+\end{equation}
+so that a participant's change in effort is predicted, up to noise, by the change in a quantity measured before the interaction. Equation~\eqref{eq:p2-within} is the strongest test the model offers, because it runs on premeasured profiles, person by person, and because the rivals of \autoref{sec:family} predict a slope of zero for it.
+
+\paragraph{P3, reversal, the strong form.}
+\begin{proposition}[The reversal condition]
+\label{prop:reversal}
+Suppose $G(n_0) > 0$. The gap reverses under $n_1$, $G(n_1) < 0$, exactly when either of the following equivalent conditions holds:
+\begin{enumerate}[label=(\alph*), leftmargin=*, nosep]
+\item the norm-induced reduction exceeds the initial total gap, $\Delta M(n_0) - \Delta M(n_1) > G(n_0)$;
+\item under the new norms the mismatch term favours the minority by more than the baseline gap, $-\Delta M(n_1) > \Delta a$.
+\end{enumerate}
+\end{proposition}
+\begin{proof}
+By \eqref{eq:gap}, $G(n_1) = G(n_0) - [\Delta M(n_0) - \Delta M(n_1)]$, which is negative exactly under (a); and $G(n_1) = \Delta a + \Delta M(n_1)$, which is negative exactly under (b).
+\end{proof}
+
+\noindent The condition is stricter than the natural reading of ``the norm effect outweighs the baseline''. Take $\Delta a = 3$ and let the mismatch contribution move from $+2$ under $n_0$ to $-2$ under $n_1$. The reduction is $4$, larger than the baseline gap, but smaller than $G(n_0) = 5$: the gap falls from $5$ to $1$ and does not reverse. Reversal needs a reduction greater than $5$, equivalently a new mismatch contribution below $-3$; Figure~\ref{fig:reversal} draws the arithmetic. In the language of aptitude-by-treatment interaction, P2 is an interaction of group with condition, and P3 is the condition for it to be disordinal, the groups' lines crossing between $n_0$ and $n_1$.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.78\textwidth]{fig_reversal.pdf}
+\caption{The reversal condition of \autoref{prop:reversal}. The gap under the new norms falls linearly in the norm-induced reduction; it closes when the reduction equals the whole initial gap $G(n_0)$, not when it equals the baseline gap $\Delta a$. The marked point is the worked case in the text: a mismatch contribution moving from $+2$ to $-2$ reduces the gap by $4$, more than the baseline gap of $3$, and the gap falls from $5$ to $1$ without reversing.}
+\label{fig:reversal}
+\end{figure}
+
+\section{The model family, and the test that separates its members}
+\label{sec:family}
+
+\subsection{One model, four restrictions}
+
+Add to \eqref{eq:cost} the two terms a rival would supply: a condition effect $\gamma_n$ common to all participants, and a mismatch with the partner. For participant $i$ with partner $j$ under norm $n$,
+\begin{equation}
+\label{eq:family}
+c_i(n, j) \;=\; a_i \;+\; \gamma_n \;+\; m_i(n) \;+\; \mu\, d\big(s_i, s_j\big) \;+\; \varepsilon_i(n).
+\end{equation}
+The models compared are restrictions of \eqref{eq:family}, and each makes a definite prediction for a change of rule set with the partners held fixed (Table~\ref{tab:family}).
+
+\begin{table}[t]
+\centering
+\small
+\caption{The model family: four restrictions of \eqref{eq:family}, and what each predicts when the governing rule set changes and the partners stay the same.}
+\label{tab:family}
+\begin{tabular}{@{}llp{7.6cm}@{}}
+\toprule
+Model & Restriction & Prediction under a change of rule set, partners fixed \\
+\midrule
+$M_\gamma$, general protocol benefit & $\lambda_s = \lambda_k = \mu = 0$ & Effort moves by $\gamma$ for everyone; nothing is redistributed, and nothing is moderated by premeasured mismatch. \\
+\addlinespace
+$M_\mu$, partner mismatch & $\lambda_s = \lambda_k = 0$ & Beyond $\gamma$, nothing changes, since the partner is unchanged. \\
+\addlinespace
+$M_\lambda$, norm mismatch & $\mu = 0$ & Effort shifts toward whoever mismatches the governing rules, in proportion to premeasured mismatch (P2), and reverses only under the condition of \autoref{prop:reversal}. \\
+\addlinespace
+$M_{\mathrm{full}}$ & none & Both the partner and the norm terms. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\noindent No tradition is identified with a restriction. An account that emphasizes individual limitations can predict effects of task demands and of accommodations, and so is not $M_\gamma$ or $M_\mu$ by fiat; a double-empathy account can include norm effects, and so is not $M_\mu$ by fiat. The restrictions are compared as models, by what they predict for the data of \autoref{sec:design}.
+
+\subsection{The double-empathy model, read from its text}
+
+The formal model the double-empathy literature has is the distinct communication strategies model \cite{Calderoli2026}, and its characterization here is taken from the paper's own text rather than from its abstract.
+\begin{itemize}[leftmargin=*]
+\item \emph{The implemented mechanism} is channel preference. Each agent registers the partner's empathy as a weighted average of the partner's verbal and nonverbal output, with the verbal weight the agent's own preference $cp$; the gap between the empathy the agent expects and the empathy it registers raises its defensiveness, which lowers its own output, and the loop can collapse.
+\item \emph{What the text allows.} It states that expectations ``may depend on context, relationship history, communication norms'', and holds expected empathy at one value for both agents in its simulations. It reports that ``the trajectory to collapse shows greater experiential asymmetry'', and predicts, as a falsification criterion, that ``the partner with higher $cp$ should report lower perceived empathy''. Its limitations section says that ``the costs are therefore bilateral but need not be equal or arise from the same source''.
+\item \emph{What it has no parameter for.} An imposed or governing norm. Its intervention prediction concerns training that increases verbal empathy expression under stress.
+\end{itemize}
+It would therefore be wrong to say that this model predicts equal costs, or invariance under a change of norms; it is silent on norms as implemented, and open to them in its text. The distinction between it and the norm-setting model has to be shown in data, and the mediator supplies the test.
+
+\paragraph{The mediator test.} Suppose the double-empathy mechanism is extended so that expected empathy depends on the governing norm. A change of rule set then acts on effort \emph{through} the gap between expected and perceived partner empathy: the mediator moves, and effort moves with it. Under $M_\lambda$ effort moves with premeasured profile-to-norm mismatch \emph{whether or not} perceived partner empathy moves. The design measures perceived partner empathy in each condition, and the test is the direct effect of premeasured mismatch on the within-person effort change, controlling for the within-person change in the mediator: zero under the extended double-empathy mechanism, equal to the mismatch slope under $M_\lambda$, and between the two if both operate.
+
+\subsection{The established setting}
+
+Context-dependent advantages that reverse across conditions are aptitude-by-treatment interactions \cite{Cronbach1957, CronbachSnow1977}: the person-by-condition interaction that Cronbach urged the two disciplines of psychology to study together, and whose disordinal form is the case in which no condition is best for everyone. The norm-setting model is an instance, with two specifications that give it content. The aptitude is a premeasured profile, not a trait inferred from the outcome, and the treatment is a communication norm imposed on both partners of a dyad at once, so that the interaction of interest is between the norm and the \emph{distribution} of cost within the pair. Within that setting the paper's claim is the one of \autoref{sec:intro}: that the distribution is estimable separately from the partner effect, by the design that follows.
+
+\section{Study 1: a discriminating design}
+\label{sec:design}
+
+The design manipulates the governing rules and nothing else that the model family could confuse with them. A comparison of ``default conversation'' with ``an explicit protocol'' would change norms, structure, predictability, memory demands and perhaps modality at once, and an improvement under the protocol could be any of them. The study therefore compares two explicit rule sets.
+
+\paragraph{Participants.} Mixed dyads, one autistic and one non-autistic adult, with diagnosis by report and the autistic participants' self-identification recorded. Same-neurotype dyads are a later study (see ``Deferred'' below).
+
+\paragraph{Before any interaction.}
+\begin{enumerate}[label=(\roman*), leftmargin=*]
+\item Each participant's style profile $s_i$ and competence profile $k_i$ are measured with instruments fixed in the preregistration \cite{Nosek2018}: for style, self-report and a brief performance measure of directness, literalness and turn-yielding preference; for competence, a task of implicature comprehension and a task of following explicit structure, each scored on the scale the requirement is written in.
+\item Independent raters, blind to the outcomes, code each rule set's presupposed style $s^{*}_n$ and competence requirement $\theta_n$ from its text, on the same scales.
+\item The distance $d$, the weights $w_n$, the outcome measures and the analysis are fixed in the preregistration. Profiles, metric and norm codings chosen after the outcomes are seen would make the model too flexible to fail.
+\end{enumerate}
+
+\paragraph{The manipulation.} Two explicit rule sets differ in the communicator they presuppose and are matched in everything else: length, number of rules, structure, predictability, memory demand, channel and time.
+\begin{itemize}[leftmargin=*]
+\item \emph{Rule set A} encodes indirect, implicature-rich conventions: requests made by hinting, an opening exchange of small talk, turns yielded by implicit cues.
+\item \emph{Rule set B} encodes direct, literal conventions: requests stated outright, no obligatory small talk, turns yielded in words.
+\end{itemize}
+Both are practised to a criterion before the task, which equalizes memory demands; adherence to the rules, coded from recordings, is the manipulation check. Which conventions rule set B should encode, and from what sources, is a decision for the preregistration, informed by autistic participants' own accounts of their communication and by the published descriptions of autistic communication preferences; the design does not presume that rule set B is the autistic participants' preferred style, it measures where each participant stands relative to each rule set.
+
+\paragraph{Within dyads.} Each pair works under both rule sets, in counterbalanced order, on two parallel versions of a collaborative task, also counterbalanced. The room, lighting and noise are identical across conditions; fatigue is measured after each condition. The pair is its own control: the baseline $a_i$, the partner term $\mu\, d(s_i, s_j)$ and the dyad's shared conditions cancel in the within-person difference \eqref{eq:p2-within}.
+
+\paragraph{Outcomes.} Effort per participant and condition, primary; task performance and rapport, secondary; perceived partner empathy per condition, the mediator; rule adherence, the manipulation check.
+
+\paragraph{Predictions.}
+\begin{itemize}[leftmargin=*]
+\item \emph{Primary (P2).} On effort, the rule set interacts with premeasured mismatch within persons: the change in effort from A to B is predicted by the change in $m_i$, with slope one in the model's units and positive in any units. The group-level redistribution of effort is this prediction's aggregate.
+\item \emph{$M_\gamma$.} A main effect of rule set only, with no moderation by premeasured mismatch.
+\item \emph{$M_\mu$.} No change beyond the main effect, the partner being unchanged.
+\item \emph{A norm-dependent double-empathy mechanism.} A change mediated by perceived partner empathy, with no direct effect of premeasured mismatch once the mediator is controlled.
+\end{itemize}
+
+\paragraph{Analysis.} The primary analysis is the within-person difference regression of \eqref{eq:p2-within}, the change in effort on the change in premeasured style mismatch and competence shortfall, with standard errors clustered by dyad. Levels are analysed in the actor--partner interdependence model \cite{Kenny2006}, participants nested in dyads and conditions within participants, which identifies $\mu$ from between-dyad variation. The four models are compared by their Bayesian information criterion on a joint fit, and the mediator analysis is as stated in \autoref{sec:family}. Appendix~\ref{app:prereg} lists what the preregistration fixes.
+
+\paragraph{What would count against the model.} Stated in advance, with the preregistration:
+\begin{enumerate}[label=(\roman*), leftmargin=*, nosep]
+\item a manipulation that changes adherence but moves no one's effort;
+\item a change of effort that premeasured mismatch does not moderate;
+\item a moderation that disappears once the change in perceived partner empathy is controlled.
+\end{enumerate}
+The first two falsify the norm-setting model as stated; the third shows that the norm acts through the double-empathy mechanism rather than beside it.
+
+\paragraph{Deferred.} Composition, all-autistic and all-non-autistic dyads beside mixed ones, and disclosure of diagnosis to the partner are each a manipulation of their own, and each goes to its own study. Composition tests whether the partner term $\mu$ and the norm terms interact, and whether the same-neurotype advantage the first diffusion-chain study found \cite{Crompton2020}, and its replication did not \cite{Crompton2025}, appears under a change of governing norm; disclosure manipulates expectations directly and is the natural second test of the mediator. A first study that crossed norms with composition and disclosure would need several times the dyads and would confound its own manipulation checks.
+
+\section{The simulation}
+\label{sec:simulation}
+
+Before any data, the design was run on simulated participants to settle four questions: whether the analysis recovers the parameters of \eqref{eq:family} at the planned size; whether it selects the generating model among the four; whether a model fitted to two rule sets predicts a third; and what the reversal arithmetic looks like at realistic profiles. Showing that the equations generate the intended pattern would establish much less than this, since any model generates its own pattern. The simulation is the supplementary script \texttt{norm\_cost\_sim.py}, whose complete output accompanies the paper; its settings are in Table~\ref{tab:sim-settings}.
+
+\begin{table}[t]
+\centering
+\small
+\caption{The simulation's settings. Style and competence profiles are two-dimensional, drawn around group means that overlap; rule sets A and B presuppose opposite styles and draw on different competences; rule set C is withheld from fitting. Effort is in standard-deviation units of the baseline.}
+\label{tab:sim-settings}
+\begin{tabular}{@{}lp{6.1cm}p{4.9cm}@{}}
+\toprule
+Quantity & Setting & Role \\
+\midrule
+Dyads & $60$ mixed, each under A and B & the planned size; $20$ to $120$ in the power study \\
+Style profiles $s_i$ & $\mathcal{N}(\pm(0.8, 0.8),\, 0.7^2 I)$ & autistic $+$, non-autistic $-$, on (directness, literalness) \\
+Competence profiles $k_i$ & $\mathcal{N}(\pm(-0.3, 0.3),\, I)$ & autistic $+$, non-autistic $-$, on (implicature reading, explicit structure) \\
+Rule set A & $s^{*} = (-1, -1)$, $\theta = (1, 0)$, $w = (1, 0)$ & indirect; requires implicature reading \\
+Rule set B & $s^{*} = (+1, +1)$, $\theta = (0, 1)$, $w = (0, 1)$ & direct; requires following explicit structure \\
+Rule set C & $s^{*} = (+1, -1)$, $\theta = (0.5, 0.5)$, $w = (0.5, 0.5)$ & withheld; direct but non-literal \\
+$\lambda_s, \lambda_k, \mu, \gamma_B$ & $0.6$, $0.8$, $0.4$, $-0.3$ & the generating values; $\gamma_A = 0$ \\
+$\Delta a$ & $0.5$ & the autistic group's baseline shift \\
+$\sigma_a, \sigma_u, \sigma_\varepsilon$ & $1.0$, $0.4$, $0.8$ & baseline, dyad and residual standard deviations \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\paragraph{Estimation.} The simulation generates effort from \eqref{eq:family} with one addition, a dyad effect shared by the two partners, which the within-person difference cancels. The balanced crossover decomposes exactly into within-person differences, which identify $\gamma$ and the two $\lambda$'s with the baseline, the dyad effect and the partner term cancelled, and person means, which identify $\mu$ beside a group indicator carrying the baseline gap. Each part is fitted by least squares with dyad-clustered standard errors, and the model comparison uses a joint maximum-likelihood fit in which the $\lambda$'s are shared between the parts and each part has its own error variance (Appendix~\ref{app:estimators}).
+
+\paragraph{Parameter recovery.} Over $1{,}000$ simulated studies of $60$ dyads, every parameter is recovered without bias and with coverage close to nominal (Table~\ref{tab:recovery}, \autoref{fig:recovery}). The within-person parameters are estimated precisely: the standard deviations of $\hat\lambda_s$ and $\hat\lambda_k$ are a tenth of their values, and both are detected in every replication. The parameters identified between persons are less precise, $\gamma$ because it is a difference of condition means against the residual noise, $\mu$ because it rides on the between-dyad variation of partner distance against the baseline variance: at $60$ dyads their power is $81\%$ and $77\%$. The power study (\autoref{fig:power}) puts the $\lambda$'s at ceiling from $20$ dyads at these effect sizes, $\gamma$ past $80\%$ at $60$ dyads, and $\mu$ at $90\%$ at $90$ dyads and $96\%$ at $120$. When the truth is $M_\gamma$, the moderation test's false-positive rate is $5.1\%$ for $\lambda_s$ and $5.3\%$ for $\lambda_k$, nominal.
+
+\begin{table}[t]
+\centering
+\small
+\caption{Parameter recovery over $1{,}000$ simulated studies of $60$ mixed dyads, the full model fitted: the generating value, the mean estimate, its standard deviation, the coverage of the dyad-clustered $95\%$ interval, and the power of the two-sided $5\%$ test against zero.}
+\label{tab:recovery}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Parameter & Truth & Mean estimate & SD & $95\%$ coverage & Power \\
+\midrule
+$\gamma$ (condition effect) & $-0.300$ & $-0.296$ & $0.102$ & $95.1\%$ & $81.1\%$ \\
+$\lambda_s$ (style mismatch) & $0.600$ & $0.601$ & $0.057$ & $94.4\%$ & $100\%$ \\
+$\lambda_k$ (competence shortfall) & $0.800$ & $0.802$ & $0.085$ & $93.5\%$ & $100\%$ \\
+$\mu$ (partner mismatch) & $0.400$ & $0.402$ & $0.148$ & $94.8\%$ & $77.4\%$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{fig_recovery.pdf}
+\caption{Sampling distributions of the four estimates over $1{,}000$ simulated studies of $60$ dyads, the full model fitted. The vertical line marks the generating value. The within-person parameters $\lambda_s$ and $\lambda_k$ are estimated with a precision the between-person parameters $\gamma$ and $\mu$ do not reach at this size.}
+\label{fig:recovery}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.8\textwidth]{fig_power.pdf}
+\caption{Power of the two-sided $5\%$ test for each parameter against the number of mixed dyads, $400$ simulated studies per point, at the generating values of Table~\ref{tab:sim-settings}. The moderation parameters are at ceiling throughout; the general condition effect passes $80\%$ at $60$ dyads and the partner term at $90$.}
+\label{fig:power}
+\end{figure}
+
+\paragraph{Model recovery.} With $500$ studies generated from each model and the four fitted to each, the Bayesian information criterion selects the generating model in $96\%$ of the $M_\gamma$ studies, $79\%$ of $M_\mu$, $98\%$ of $M_\lambda$ and $82\%$ of $M_{\mathrm{full}}$ (\autoref{fig:confusion}). The two large errors are of one kind: the partner term is dropped, $M_\mu$ mistaken for $M_\gamma$ and $M_{\mathrm{full}}$ for $M_\lambda$, in about a fifth of the studies, because $\mu$ is the parameter the design identifies least well. The norm terms are never mistaken for their absence: no study generated with norm mismatch selected a model without it, and $6$ of the $1{,}000$ generated without it selected a model with it.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.6\textwidth]{fig_confusion.pdf}
+\caption{Model recovery: the share of simulated studies ($500$ per generating model, $60$ dyads) in which the Bayesian information criterion selected each of the four models. The off-diagonal mass lies almost entirely in dropping the partner term.}
+\label{fig:confusion}
+\end{figure}
+
+\paragraph{The P2 signature.} \autoref{fig:signature} shows one simulated study under each of two truths. Under norm mismatch the within-person change in effort from A to B falls on a line through the change in premeasured mismatch, with the autistic participants, whose profiles lie nearer rule set B, moving down and the non-autistic participants moving up; under a general protocol benefit the same plot is flat, both groups moving together by $\gamma$. This is the figure the real study will produce, and the two panels are what its two main outcomes look like.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{fig_signature.pdf}
+\caption{The P2 signature in one simulated study of $60$ dyads under each of two truths. Each point is a participant: the change in effort from rule set A to rule set B against the change in premeasured mismatch, in the model's cost units. Under norm mismatch (left) the change lies on a line of slope near one and the groups move in opposite directions; under a general protocol benefit (right) the slope is near zero and the groups move together.}
+\label{fig:signature}
+\end{figure}
+
+\paragraph{The withheld rule set.} Fitted to rule sets A and B, each model was asked to predict every participant's change in effort from A to the withheld rule set C, centred to remove the condition effect $\gamma_C$ that A and B cannot identify. With the truth $M_\lambda$, the root-mean-square error of the centred prediction is $1.49$ for $M_\gamma$ and $M_\mu$, which predict no individual differences in the change, and $1.13$ for $M_\lambda$ and $M_{\mathrm{full}}$; the irreducible error of a within-person change is $\sqrt{2}\,\sigma_\varepsilon = 1.13$, so the norm models predict the new rule set to the noise floor from profiles alone. The same holds with the truth $M_{\mathrm{full}}$. A rule set the model has not seen is the test it should be held to, and the real study's third rule set, if one is run, plays that part.
+
+\paragraph{The reversal arithmetic.} At the generating values, on a population of $20{,}000$ dyads, the autistic group's mean style mismatch is $2.64$ under rule set A against the non-autistic group's $0.91$, and $0.92$ against $2.65$ under rule set B; the mean competence shortfalls are $1.35$ against $0.83$ and $0.85$ against $1.34$. The mismatch gap $\Delta M$ is $+1.45$ under A and $-1.44$ under B, so that with the baseline gap of $0.50$ the total gap $G$ is $+1.95$ under A and $-0.94$ under B: the norm-induced reduction, $2.89$, exceeds $G(\mathrm{A}) = 1.95$, and the gap reverses, as \autoref{prop:reversal} requires. Under the withheld rule set C, which presupposes a style equidistant from both groups' means, $\Delta M$ is $-0.003$ and the gap is the baseline alone, $0.50$. The example shows the three regimes the proposition distinguishes in one population: a gap set by the norms, a gap reversed by them, and a gap the norms leave to the baseline.
+
+\paragraph{What the simulation does not show.} It does not show that the effect sizes are realistic; they are assumptions, chosen so that the groups' style distributions overlap and the baseline gap is a third of the norm-induced one. It does not show that style and competence can be measured on scales commensurate with the codings of the rule sets, which is the measurement problem the preregistration has to solve. And it does not model the mediator, whose test is a design decision rather than a question the simulation can settle.
+
+\section{What existing results constrain}
+\label{sec:constraints}
+
+Three bodies of results bear on the design, and each is read from its primary source.
+
+\paragraph{Information transfer in chains.} The first diffusion-chain study found that information passed along chains of autistic adults, and along chains of non-autistic adults, more effectively than along mixed chains \cite{Crompton2020}. The registered replication with $311$ participants did not find that difference: there was no main effect of chain type on information transfer, for fictional or for factual stories, and an unpredicted interaction between autistic chain type and position for fictional stories, performance falling more steeply along autistic chains than non-autistic ones \cite{Crompton2025}. Rapport, self-rated and analysed by role, was higher for teachers in non-autistic chains than in mixed and in autistic chains, and for learners in non-autistic chains than in mixed chains only; telling participants their chain's neurotype raised rapport significantly for learners and not for teachers. For this paper the constraint is twofold: information transfer is not where the cost appeared in that task, and the rapport effects depend on role, which is why effort rather than rapport is the primary outcome here and why rapport gets a model of its own.
+
+\paragraph{Rapport in groups.} In $36$ groups of four, all-autistic, all-non-autistic and three-to-one majorities, there was no overall group-type difference in composite rapport \cite{Foster2025}. All-autistic groups rated their interaction more enjoyable and friendlier than both kinds of mixed group; autistic participants' ease and enjoyment fell as non-autistic members were added, the composite interaction not reaching significance, while non-autistic participants' composite rapport stayed stable; the item-level results are uncorrected for multiple comparisons and are called preliminary by their authors. Neither this study nor the chain study shows that majority-composition settings favour non-autistic rapport in general. The group study did not manipulate norms, so any reading of its item-level pattern through the cost model, the autistic participants' falling ease as the session's conventions shift toward the majority's, is a hypothesis for Study 1 and not a result.
+
+\paragraph{Perception and the double-empathy model.} Non-autistic observers form less favourable first impressions of autistic adults from brief samples, on the basis of presentation rather than content \cite{Sasson2017}, which is one reason the cost of a mixed interaction cannot be read off its outcome alone. The distinct communication strategies model \cite{Calderoli2026} is characterized in \autoref{sec:family}; it supplies the paper's strongest formal rival and the reason the mediator is measured.
+
+\section{Outside this paper}
+\label{sec:extensions}
+
+Three things the source raises are extensions, and the paper says of each what it would take.
+
+\paragraph{Branch geometry.} The Branch Principle is a hypothesis about the structure of cognitive profiles: at matched resolution, non-autistic profiles form one type, or few, and autistic profiles form several, in the strong form about as distant from each other as from the non-autistic type. Its test fits the same latent-structure models to both groups on the same cognitive-profile measures, a mixture model, an additive tree \cite{SattathTversky1977} and a dimensional model, and compares them by likelihood; the recent decomposition of autism's phenotypic heterogeneity into classes with distinct genetic programs \cite{Litman2025} is evidence about clinical phenotype at a different grain, not about the cognitive profiles the principle concerns. The geometry is independent of the cost model and is not support for mutual advantage: equal distances do not imply crossed advantages. With $r = (0, 0)$, $b = (1, 1)$ and $c = (1, -1)$, both $b$ and $c$ lie at distance $\sqrt{2}$ from $r$, yet $b$ dominates $r$ while $c$ and $r$ cross. Linking the geometry to \autoref{prop:reversibility}'s premise needs an argument of its own, and an asymmetric notion of similarity \cite{Tversky1977} may be the right instrument for it.
+
+\paragraph{Linguistic masking.} The source names a phenomenon a layer below behavioural camouflaging \cite{Hull2017, Hull2019, Pearson2021}: a speaker who learns a cognitive term's public extension case by case, over a private intension that differs from the dominant group's, so that the difference stays hidden on familiar cases and shows only when the term is extended to new ones. Its signature is a generalization gradient, agreement with the dominant group on familiar instances and divergence on novel ones. The gradient is necessary for the phenomenon and not unique to it, since differences in concept knowledge, familiarity, confidence or learning history produce the same pattern, and response strategies shift with uncertainty. What would tie the gradient to the mechanism is a private organization of the instances measured without the term, by similarity sorting, predicting the divergence on novel instances over and above familiarity and confidence; a larger gradient for terms learned from usage than for terms learned from definitions; and an experimental model in which a private organization of a novel domain is induced before a public term is taught over a different one. The question of which instruments the phenomenon would and would not reach is open: an eight-item alexithymia score shows practically ignorable differential item functioning between autistic and non-autistic adults \cite{WilliamsGotham2021}, so the claim cannot be that every self-report instrument distorts, only that particular wording features might. This is a second paper.
+
+\paragraph{Shared absence.} A further hypothesis, that non-reference branches share the absence of the reference's conventions and so find each other's interactions cheaper even where their own preferences differ, would separate rapport from the prediction of preferences. Its added premises are stated when it is tested, against familiarity, stigma, preference variability and disclosure, and it is not an advance prediction of anything reported here.
+
+\section{Discussion}
+\label{sec:discussion}
+
+\paragraph{What the model adds.} The received descriptions of a mixed interaction's difficulty place it in a person or in a pair. The cost model places part of it in the rules, and makes the placement measurable: the share of the group gap that moves when the rules move, person by person, from profiles measured in advance. That share is what Study 1 estimates, and the model family is what keeps the estimate honest, since a general benefit of explicit rules and a mismatch with the partner are both allowed to carry the data if they can.
+
+\paragraph{The conditional status of the conclusions.} Nothing above establishes that effort tracks mismatch; the paper is built so that the question can be settled. The exact results, reference-relativity and the reversal condition, hold of the definitions and the model; the cost model is a hypothesis; the Branch Principle is an extension with its own test; balance is a conjecture. The reversal condition in particular should be read as a caution to the design: a study that finds the gap reduced by more than the baseline gap has not found a reversal, and a study powered to find the reduction is not thereby powered to find the crossing.
+
+\paragraph{Limitations the design carries.}
+\begin{itemize}[leftmargin=*]
+\item \emph{Measurement.} The model's content is only as good as the commensurability of the profiles and the norm codings, and the choice of the distance $d$ and of the weights $w_n$; all are fixed in advance, which protects the test, but a poor choice makes the test insensitive rather than wrong.
+\item \emph{Two rule sets.} Two norms identify the norm terms but not their functional form; a third rule set, as in the simulation's withheld condition, is the natural extension and the strongest test.
+\item \emph{Dyads.} The within-person test is clean, but the partner term is identified between dyads and needs $90$ or more pairs at the simulated effect size; a study designed for the primary prediction alone is underpowered for the full family.
+\item \emph{Generality.} The groups studied are autistic and non-autistic adults, since that is where the question arose and where the literature is; the model is stated for any two groups whose communicative profiles differ, and its application elsewhere is a hypothesis in each case.
+\item \emph{Participation.} The rule sets, the profile instruments and the interpretation of effort should be developed with autistic researchers and participants, not only about them; the design's choices that are left open are left open for that reason.
+\end{itemize}
+
+\paragraph{What would advance the account most.} Not a further qualification, but the study itself, preregistered, with its third rule set; and, for the extensions, a cognitive-profile data set at matched resolution on which the branch geometry can be fitted rather than argued.
+
+\paragraph{A note on provenance.} The Branch Principle and the Principle of Symmetry were stated by the author in a short video recorded on June 8, 2024, at 2:39 PM ET, and written into the larger work's section on cognitive style and convention \cite{Aethus}, where the observation that ``a limitation does not toggle'' appears in a separate section on the modal structure of language. The reading of a diagnostic label as a partial information state is the larger work's throughout. The restatement of the Principle of Symmetry as reversibility at a measurement margin, the cost model, the model family, the mediator test, the design and the simulation were developed in October 2026; the source passages are quoted as written, and the formal apparatus is the development's.
+
+\printbibliography
+
+\appendix
+\section{The simulation's estimators}
+\label{app:estimators}
+
+For participant $i$ in dyad $d(i)$ and rule sets $\mathrm{A}$ and $\mathrm{B}$, write $y_{i,n}$ for the effort under \eqref{eq:family}. The within-person difference and the person mean are
+\begin{align}
+y_{i,\mathrm{B}} - y_{i,\mathrm{A}} &= \gamma + \lambda_s\, \Delta d_i + \lambda_k\, \Delta \mathrm{sh}_i + \big(\varepsilon_{i,\mathrm{B}} - \varepsilon_{i,\mathrm{A}}\big), \label{eq:within}\\
+\tfrac12\big(y_{i,\mathrm{B}} + y_{i,\mathrm{A}}\big) &= \alpha + \Delta a\, g_i + \tilde a_i + u_{d(i)} + \lambda_s\, \bar d_i + \lambda_k\, \overline{\mathrm{sh}}_i + \mu\, \mathrm{pd}_{d(i)} + \tfrac12\big(\varepsilon_{i,\mathrm{B}} + \varepsilon_{i,\mathrm{A}}\big), \label{eq:between}
+\end{align}
+with $\Delta d_i$ and $\Delta \mathrm{sh}_i$ the changes in premeasured style mismatch and competence shortfall from A to B, $\bar d_i$ and $\overline{\mathrm{sh}}_i$ their means, $g_i$ the group indicator, $\tilde a_i$ the baseline's zero-mean part, $\alpha$ an intercept absorbing $\tfrac12 \gamma$, $u_d$ the dyad effect the simulation adds to \eqref{eq:family} and $\mathrm{pd}_d$ the partners' style distance. The group indicator carries the baseline gap $\Delta a$; without it, where the rule sets are not mirror images of each other, the group difference in mean mismatch would be absorbed by $\mu$ and the shared $\lambda$'s, and the real study's rule sets will not be mirror images. For a balanced crossover the two equations carry independent errors, so the likelihood factorizes: \eqref{eq:within} identifies $\gamma$, $\lambda_s$ and $\lambda_k$ with the baseline, the dyad effect and the partner term cancelled, and \eqref{eq:between} identifies $\mu$ and $\Delta a$. The parameter-recovery study fits each equation by least squares with cluster-robust standard errors by dyad; the model-recovery study fits the two equations jointly by maximum likelihood with the $\lambda$'s shared and the two error variances free, iterating weighted least squares to convergence, and compares the four restrictions by $-2\log L + k \log(2N)$ with $N$ the number of participants. The withheld-rule-set study predicts $y_{i,\mathrm{C}} - y_{i,\mathrm{A}}$ from the fitted $\lambda$'s and the premeasured mismatch under C, centred, and compares the root-mean-square error with the noise floor $\sqrt{2}\,\sigma_\varepsilon$.
+
+\section{Preregistration items}
+\label{app:prereg}
+
+The preregistration fixes, before any participant is run: the instruments for $s_i$ and $k_i$ and their scales; the two rule sets' texts, their coded $s^{*}_n$, $\theta_n$ and $w_n$, and the rater protocol; the distance $d$; the effort measures, subjective and behavioural, and the mediator; the practice-to-criterion rule and the adherence coding; the counterbalancing; the primary analysis of \eqref{eq:within} with dyad-clustered errors and its one-sided direction for $\lambda_s$ and $\lambda_k$, the simulation's power figures being for the two-sided test and so conservative; the actor--partner model for levels; the model comparison; the mediator analysis; the three failure conditions of \autoref{sec:design}; and the sample size, $90$ mixed dyads if the full family is to be compared and $60$ if the primary prediction alone is at issue, at the simulated effect sizes, which are to be replaced by pilot estimates where available.
+
+\end{document}
