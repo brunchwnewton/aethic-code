@@ -1,8 +1,8 @@
-# Projective Gravity — Version 36.12 (draft): the observed rotation curve and flavor
+# Projective Gravity — Version 36.13 (draft): the observed rotation curve and flavor
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases — with branches on charge and extremality, and on rendering and canonical optics
 
-**Claim status of Parts XXXIII–XXXIV (v36.12).** This table governs the open work: Part XXXIII, the observed rotation curve, and Part XXXIV, flavor, opened in v36.8. Parts XXX–XXXII are frozen at v35.8, and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the two frozen tables that follow, unchanged except for marked post-freeze notes; v36.0 added such notes and pointers in §§XXXI.37, XXXI.38, XXXI.41, XXXII.5 and XXXII.7 and in four rows (R313); v36.1–v36.12 add none (v36.4's one rendering repair in §XXX.11, R355, excepted). v36.1 was the corrective round on the two reports on v36.0 (§XXXIII.14), §XXXIII.24 listing each v36.0 claim against its status; v36.2 answers Entries 323–324 and the two responses on them (§XXXIII.27), with the rows marked R332–R337 added, the row on Entry 322's family reworded (R332; its v36.1 text quoted under R337) and the row on the next pieces extended (R337); v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§XXXIII.34), with the rows marked R339–R348 added, the occupancy row reworded for the review's two distinctions (R347; its v36.2 text quoted there) and the row on the next pieces extended (R348); v36.4 answers the review of v36.3 and Entries 340–341 with the response (§XXXIII.44), with the rows marked R349–R354 added, the isothermal row extended for the erratum and the two ensembles (R350; its v36.3 text quoted there) and the row on the next pieces extended (R353); v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§XXXIII.51), with the rows marked R356–R358 added, the occupancy and regular-family rows corrected for the kinematics erratum (R357; their v36.4 text quoted in the ledger), the isothermal and clash rows extended (R358) and the row on the next pieces extended (R359); v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§XXXIII.56), with the rows marked R360–R363 added and the row on the next pieces extended (R364); v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§XXXIII.61), with the rows marked R365–R368 added and the row on the next pieces reworded and extended (R369); v36.8 answers Entries 351–353 and the three responses by opening Part XXXIV (§XXXIV.1), with the flavor heading, the rows marked R370–R373 and a row on Part XXXIV's next pieces added, and Part XXXIII's rows on the flavor note and on the next pieces amended, the rest of flavor leaving its backlog while the categories of mass and Entry 319's audit stay there (R374; their v36.7 text quoted in the ledger); v36.9 answers the review of v36.8 (§XXXIV.7), with the rows marked R375–R378 added and Part XXXIV's row on the next pieces reworded (R379; its v36.8 text quoted in the ledger); v36.10 answers Entry 354, the response to it and the review of v36.9 (§XXXIV.13), with the rows marked R380–R384 added, the flavor heading now saying when Part XXXIV was opened, and Part XXXIV's row on the next pieces reworded (R385; the v36.9 texts quoted in the ledger); v36.11 answers Entries 357 and 360, the responses to them, the review of v36.10 and the referee reports on v36.8 and v36.10 (§XXXIV.20), with the rows marked R386–R391 and R394 added under the flavor heading and R393 under Part XXXIII's, the rows marked R362, R363, R368, R371–R373 and R381–R384 corrected in place where the reports found them overstated (tagged), and both rows on the next pieces reworded (R392, R393; the v36.10 texts quoted in the ledger); v36.12 answers the review of v36.11 (§XXXIV.29) and records Entries 361–364 (§XXXIV.31), with the rows marked R395–R398 added under the flavor heading and Part XXXIV's row on the next pieces reworded (R399; the v36.11 text quoted in the ledger), and corrects nothing. Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*; a fit that fails is marked *(negative)*.
+**Claim status of Parts XXXIII–XXXIV (v36.13).** This table governs the open work: Part XXXIII, the observed rotation curve, and Part XXXIV, flavor, opened in v36.8. Parts XXX–XXXII are frozen at v35.8, and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the two frozen tables that follow, unchanged except for marked post-freeze notes; v36.0 added such notes and pointers in §§XXXI.37, XXXI.38, XXXI.41, XXXII.5 and XXXII.7 and in four rows (R313); v36.1–v36.13 add none (v36.4's one rendering repair in §XXX.11, R355, excepted). v36.1 was the corrective round on the two reports on v36.0 (§XXXIII.14), §XXXIII.24 listing each v36.0 claim against its status; v36.2 answers Entries 323–324 and the two responses on them (§XXXIII.27), with the rows marked R332–R337 added, the row on Entry 322's family reworded (R332; its v36.1 text quoted under R337) and the row on the next pieces extended (R337); v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§XXXIII.34), with the rows marked R339–R348 added, the occupancy row reworded for the review's two distinctions (R347; its v36.2 text quoted there) and the row on the next pieces extended (R348); v36.4 answers the review of v36.3 and Entries 340–341 with the response (§XXXIII.44), with the rows marked R349–R354 added, the isothermal row extended for the erratum and the two ensembles (R350; its v36.3 text quoted there) and the row on the next pieces extended (R353); v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§XXXIII.51), with the rows marked R356–R358 added, the occupancy and regular-family rows corrected for the kinematics erratum (R357; their v36.4 text quoted in the ledger), the isothermal and clash rows extended (R358) and the row on the next pieces extended (R359); v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§XXXIII.56), with the rows marked R360–R363 added and the row on the next pieces extended (R364); v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§XXXIII.61), with the rows marked R365–R368 added and the row on the next pieces reworded and extended (R369); v36.8 answers Entries 351–353 and the three responses by opening Part XXXIV (§XXXIV.1), with the flavor heading, the rows marked R370–R373 and a row on Part XXXIV's next pieces added, and Part XXXIII's rows on the flavor note and on the next pieces amended, the rest of flavor leaving its backlog while the categories of mass and Entry 319's audit stay there (R374; their v36.7 text quoted in the ledger); v36.9 answers the review of v36.8 (§XXXIV.7), with the rows marked R375–R378 added and Part XXXIV's row on the next pieces reworded (R379; its v36.8 text quoted in the ledger); v36.10 answers Entry 354, the response to it and the review of v36.9 (§XXXIV.13), with the rows marked R380–R384 added, the flavor heading now saying when Part XXXIV was opened, and Part XXXIV's row on the next pieces reworded (R385; the v36.9 texts quoted in the ledger); v36.11 answers Entries 357 and 360, the responses to them, the review of v36.10 and the referee reports on v36.8 and v36.10 (§XXXIV.20), with the rows marked R386–R391 and R394 added under the flavor heading and R393 under Part XXXIII's, the rows marked R362, R363, R368, R371–R373 and R381–R384 corrected in place where the reports found them overstated (tagged), and both rows on the next pieces reworded (R392, R393; the v36.10 texts quoted in the ledger); v36.12 answers the review of v36.11 (§XXXIV.29) and records Entries 361–364 (§XXXIV.31), with the rows marked R395–R398 added under the flavor heading and Part XXXIV's row on the next pieces reworded (R399; the v36.11 text quoted in the ledger), and corrects nothing; v36.13 answers the review of v36.12, the referee report on v36.12 and Entries 365 and 366 (§§XXXIV.35, XXXIV.38), corrects the Z-linked row in place and scopes the chiral-seesaw row's interval (the direct-mass intervals are one branch's; tagged R401, the v36.12 texts quoted in the ledger), adds the rows marked R400–R404 under the flavor heading and rewords Part XXXIV's row on the next pieces (R405; the v36.12 text quoted in the ledger). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*; a fit that fails is marked *(negative)*.
 
 | claim | type | evidence | archive |
 |:--|:--|:--|:--|
@@ -64,11 +64,11 @@
 | Entry 354, recorded in the author's words, and the response to it and the review of v36.9, as he sent them (R380) | record | — | §XXXIV.13 |
 | The exact angles held fixed, $\theta = 2/9$ and $\cos\alpha = 1/\sqrt2$, with the second stage's corrections (Entry 354). The ideal point's electron-to-muon ratio is short by $9.83\times10^{-6}$ of itself ($452\sigma$). Any first-order correction fixed by the electron and the muon predicts the $\tau$ through its pattern's $R_f = (f_\tau-f_\mu)/(f_\mu-f_e)$, and the measured $\tau$ asks for $R = 2.15\pm5.15$. The same hop twice corrects in proportion to the masses ($R = 15.89$): $m_\tau = 1776.6899$ MeV ($-2.67\sigma$). The dual factors correct in proportion to the square roots up to a constant ($R = 3.33$): $m_\tau = 1776.9093$ MeV ($-0.23\sigma$) — the response's numbers — and their angle offsets match the measured ones within the $\tau$'s error, the same test. All on the pole-mass premise (the QED shift of the ratio is $1889$ times the correction), with the zero block at the eV level (a direct mass of $-4.37$ or $-1.80$ eV fits all three masses), and with the construction chosen after the fact — conditional pole-mass realizations *[v36.11, R388]* (R381) | analytic theorem; numerical control; specified physical premise; open bridge | PDG 2025 | §XXXIV.14 |
 | The mixing scale and the Z mass (Entry 354). v36.9's $\mu$ was a lower bound, $92.5$ GeV at two standard deviations and $120.5$ GeV at one; with the exact angles it is fitted, $81.93$ or $147.09$ GeV. Part XXIV's $\mu_H$, with the on-shell angle, is $91.2785\pm0.0803$ GeV with PDG 2025's inputs ($+1.13\sigma$ from $M_Z$) and $91.2293\pm0.0802$ GeV with PDG 2026's ($+0.52\sigma$; $+0.94\sigma$ from the Z pole, PDG's $M_Z$ being a Breit–Wigner parameter); the effective angle gives $+2.55\sigma$ and $+1.92\sigma$. Imposing $\mu = M_Z$ with the exact angles and one hop scale gives the $\tau$ $2.07\sigma$ or $1.27\sigma$ low and misses the electron by $-0.97$ or $+8.05$ eV — $-87.0\sigma$ and $+722.5\sigma$ with the muon's and the Z's errors propagated, excluded within this pole-mass realization with the strict zero block; a direct mass of that size restores it, an enlarged realization not excluded by this comparison *[v36.11, R388]*. In the chiral version $\mu_L = M_Z$ gives $m_\tau = 1776.8187$ MeV ($-1.24\sigma$), one choice among several (§XXXIV.15(d)). A link needs a common origin, and $\mu_H = M_Z$ is itself imposed (R382) | numerical control; specified physical premise; open bridge | PDG 2025; PDG 2026 | §XXXIV.15 |
-| The chiral two-hop seesaw (the review of v36.9). With a bare right hop the zero block is a choice of basis: abelian charges allow the direct mass whenever they allow the seesaw's three terms, and a rotation of $e_R$ and $E_R$ trades the right hop for the seesaw mass in the direct entry. A charged scalar for the right hop, or the left-right group's $SU(2)_R$ without a bidoublet, forbids the direct mass up to dimension five, and with one hop scale the exact angles bound a flavor-blind leak from below, $m_0>-5.05$ eV, the $\tau$ setting the other end ($+6.02$ eV for the dual factors at one standard deviation) — a signed interval; with two independent hop scales the same hop's is unchanged and the $\tau$ sets the dual factors' ($-8.45<m_0<+113.6$ eV for exact fits); $M\geq2.4\times10^{14}$ GeV for $v_R = 10$ TeV, its tolerance the one-scale boundary, is a condition on a coefficient of $1$ *[v36.11, R388]*. With two hop scales, $m_n = m_*a_La_R(1-(\varepsilon_La_L^2+\varepsilon_Ra_R^2)/2)$: the same hop's $\tau$ is unchanged, and the dual factors' becomes $m_\tau<1776.9658$ MeV, a supremum on every positive branch (a theorem, with the fold at $\varepsilon_R/\varepsilon_L = 2.0095$ *[v36.11, R389]*) — met, the measured $\tau$ fixing $\varepsilon_R/\varepsilon_L = 0.775$ and $\Lambda = 47.9$ TeV. The hops as vevs, the hop matrices and the scales are not derived (R383) | analytic theorem; numerical control; specified physical premise; open bridge | Davidson and Wali 1987; Patra and Rai 2018; Borah, Dasgupta and Patra 2018; Gu and Lindner 2011; CODATA 2022 | §XXXIV.16 |
+| The chiral two-hop seesaw (the review of v36.9). With a bare right hop the zero block is a choice of basis: abelian charges allow the direct mass whenever they allow the seesaw's three terms, and a rotation of $e_R$ and $E_R$ trades the right hop for the seesaw mass in the direct entry. A charged scalar for the right hop, or the left-right group's $SU(2)_R$ without a bidoublet, forbids the direct mass up to dimension five, and with one hop scale the exact angles bound a flavor-blind leak from below, $m_0>-5.05$ eV, the $\tau$ setting the other end ($+6.02$ eV for the dual factors at one standard deviation) — a signed interval; with two independent hop scales the same hop's is unchanged and the $\tau$ sets the dual factors' ($-8.45<m_0<+113.6$ eV for exact fits) *[v36.13, R401: the one-scale bound and the two-scale interval hold for $\lvert m_0\rvert<\Lambda$, the direct mass the smaller diagonal entry, on the branch connected to the zero-block solution; a second branch near $1.03$ MeV fits all three masses, §XXXIV.36]*; $M\geq2.4\times10^{14}$ GeV for $v_R = 10$ TeV, its tolerance the one-scale boundary, is a condition on a coefficient of $1$ *[v36.11, R388]*. With two hop scales, $m_n = m_*a_La_R(1-(\varepsilon_La_L^2+\varepsilon_Ra_R^2)/2)$: the same hop's $\tau$ is unchanged, and the dual factors' becomes $m_\tau<1776.9658$ MeV, a supremum on every positive branch (a theorem, with the fold at $\varepsilon_R/\varepsilon_L = 2.0095$ *[v36.11, R389]*) — met, the measured $\tau$ fixing $\varepsilon_R/\varepsilon_L = 0.775$ and $\Lambda = 47.9$ TeV. The hops as vevs, the hop matrices and the scales are not derived (R383) | analytic theorem; numerical control; specified physical premise; open bridge | Davidson and Wali 1987; Patra and Rai 2018; Borah, Dasgupta and Patra 2018; Gu and Lindner 2011; CODATA 2022 | §XXXIV.16 |
 | A moving frame (the review of v36.9). In the Dirac action the frame's change brings $A = iU^\dagger dU$: a diagonal part, the lines' Berry connection, and a part that connects lines. Turning the frame about its axis gives a diagonal, removable connection. A turning axis connects the $\tau$ with the electron and the muon: with the labels' connection (§XXI.4c), a stipulated direct sum of the lines' connections, there is no flavor change — a different action from the carrier's, whose complete connection is flat, the two agreeing in the adiabatic regime *[v36.11, R390]*; for a field on the carrier the mixing is about $2pk\lvert J\rvert/\Delta m^2$, a probability of at most $3\times10^{-69}$ for an illustrative turn of one radian per kiloparsec at $10$ GeV. The projected lines' holonomy is $0$ and $\mp\Omega$ *[v36.11, R390]* (R384) | analytic theorem; numerical control; definition; specified physical premise; open bridge | IAU; CODATA 2022 | §XXXIV.17 |
 | Entries 357 and 360, recorded in the author's words, and the responses to them, the review of v36.10 and the referee reports on v36.8 and v36.10, as he sent them (R386) | record | — | §XXXIV.20 |
 | The referee report on v36.8, Part XXXIV's items: deleting a Cartesian fiber keeps $\tfrac23$ of each flavor fiber but not their distinguishability (normalized overlaps $\tfrac12$, Gram rank two), and projection, dephasing and quotienting are different maps; the ring's derivative a discrete momentum operator, not a derivation (Leibniz defect $1/\sqrt2$); the trace form Lorentzian for every coefficient $c>\tfrac13$, so $\tfrac23$ is Koide's postulate; §XXX.3's fit an unweighted amplitude projection ($5.47\times10^5$ and $372$ standard errors in $e$ and $\mu$), the relation tested with $e$ and $\mu$ fixed ($m_\tau = 1776.96903$ MeV, $+0.43\sigma$); the hop product invariant under rephasing, not under $U(3)$; a trimaximal second column needing also $\cos\delta$ from $\theta_{13}$ and $\theta_{23}$ ($124.78^\circ$ or $235.22^\circ$; $73.88^\circ$ or $286.12^\circ$), untested jointly; the $U(3)$ isotropy for constant transformations, and $\mathcal D^2$ gaining $\gamma^\mu\gamma_5\partial_\mu\mathcal M$ for a varying operator; the shell's circular lines a CR structure of weight $\mp2$, not quotient flows (R387) | analytic theorem; numerical control; definition; open bridge | PDG 2025; NuFIT 6.0 (Esteban et al. 2024); Brierley, Weigert and Bengtsson 2010 | §XXXIV.21 |
-| The Z-linked identification with its calibration errors (the report on v36.10). With the exact angles, one hop scale $\mu = M_Z$ and the strict zero block, the electron's pulls with the muon's and the Z's errors propagated are $-87.0$ and $+722.5$ (v36.10's $-6454$ and $+53656$ were multiples of the electron's own error): excluded within this pole-mass realization; a direct mass or a second hop scale gives enlarged realizations not excluded by this comparison; no common origin with the Z mass is derived. With one hop scale the direct-mass interval is signed: no fit below $m_0 = -5.05$ eV, and the $\tau$ within one standard deviation needs $m_0<-2.731$ eV for the same hop twice and $m_0<+6.017$ eV for the dual factors; with two independent hop scales the same hop's interval is unchanged, and the dual factors' is set by the $\tau$: exact fits for $-8.446<m_0<+113.612$ eV, the $\tau$ within one standard deviation for $-16.617<m_0<+399.405$ eV. $M\geq2.4\times10^{14}$ GeV, its tolerance the one-scale boundary, is a condition on a dimension-five coefficient of $1$. The fits are conditional pole-mass realizations (R388) | numerical control; specified physical premise; open bridge | PDG 2025; PDG 2026; CODATA 2022 | §XXXIV.22 |
+| The Z-linked identification with its calibration errors (the report on v36.10). With the exact angles, one hop scale $\mu = M_Z$ and the strict zero block, the electron's pulls with the muon's and the Z's errors propagated are $-87.0$ and $+722.5$ (v36.10's $-6454$ and $+53656$ were multiples of the electron's own error): excluded within this pole-mass realization; a direct mass or a second hop scale gives enlarged realizations not excluded by this comparison; no common origin with the Z mass is derived. With one hop scale the direct-mass interval is signed: no fit below $m_0 = -5.05$ eV, and the $\tau$ within one standard deviation needs $m_0<-2.731$ eV for the same hop twice and $m_0<+6.017$ eV for the dual factors; with two independent hop scales the same hop's interval is unchanged, and the dual factors' is set by the $\tau$: exact fits for $-8.446<m_0<+113.612$ eV, the $\tau$ within one standard deviation for $-16.617<m_0<+399.405$ eV — all for the direct mass the smaller diagonal entry, on the branch continuously connected to the zero-block solution, the three determinants negative; a second branch, the electron's determinant positive, fits all three masses for $1.028484<m_0<1.081583$ MeV, and each one-scale construction has an exact fit near $1.03$ MeV as well, so the eV intervals are branch-conditional *[v36.13, R401]*. $M\geq2.4\times10^{14}$ GeV, its tolerance the one-scale boundary, is a condition on a dimension-five coefficient of $1$ on that branch ($1.2\times10^9$ GeV on the second). The fits are conditional pole-mass realizations (R388) | numerical control; specified physical premise; open bridge | PDG 2025; PDG 2026; CODATA 2022 | §XXXIV.22 |
 | The two-scale theorem (the report on v36.10) and left-right parity (the review of v36.10). With the exact angles and the dual factors every positive two-scale solution has $m_\tau<1776.965825$ MeV — a supremum, proved for every branch by a one-variable reduction — and $\varepsilon_R/\varepsilon_L\leq2.0094647320$, the fold; the algebraic inverse at the measured $\tau$ has two roots, v36.10's fit and one with the $\tau$ the heavy state, rejected. Parity proper preserves the hops' singular values, excluding the dual factors and leaving the same hop ($m_\tau = 1776.6899$ MeV, $-2.67\sigma$, for every $v_R$); equal Yukawa strengths, a postulate, admit no fit with $A_+$ on the left hop above $v_R = 349.03$ GeV, and with $A_-$ on the left give $m_\tau = 1776.965807$ MeV ($+0.40\sigma$) at $v_R = 10$ TeV, the ratio no longer free (R389) | analytic theorem; numerical control; specified physical premise; open bridge | PDG 2025; CODATA 2022 | §XXXIV.23 |
 | Transport at the action level (the report on v36.10; the review of v36.10). The carrier's complete connection $iU^\dagger dU$ is flat — its closed transport the identity, its curvature zero — while the projected lines carry the phases $0$ and $\mp\Omega$; the lines' action (the archive's typing of §XXI.4c) is a stipulated direct sum of their connections, not the carrier's rewritten, and the carrier's reduces to it when $k\lvert J\rvert\ll\lvert\Delta m^2\rvert/2p$, up to transition amplitudes $k\lvert J\rvert/\Delta E$ and shifts $k^2\lvert J\rvert^2/\Delta E$; a $\tau$-to-muon probability from the co-rotating Dirac evolution matches the two-level formula within a few percent; the illustrative rates are not bounds on frame dynamics; a relative phase between coherent paths is observable (R390) | analytic theorem; numerical control; definition; specified physical premise; open bridge | — | §XXXIV.24 |
 | The two histories and the Weyl pair (Entry 357; the response). The quaternionic structure $j$ intertwines the two Weyl types, $j(g\xi) = \rho(g)j(\xi)$, so both of Part XX's pairings pass the Lorentz test — the Cartan lifts $(B^{-1}\xi,B\xi)$ linearly, the antipodal pair $(\psi,j\psi)$ antilinearly. At rest the Cartan pair's blocks are one spin state, while the antipodal pair is half negative-frequency and, taken as the fixed relation $\psi_R = j\psi_L$, a charge-conjugation eigenstate, a self-conjugate pairing that admits no $U(1)$ charge. So for the electron the two readings exclude each other: its Weyl components are the Cartan pair, whose comparison $gg^\dagger = P^2 = p\cdot\bar\sigma/m$ is the four-velocity and whose shared datum is the spin; the antipodal pairing is open only to a neutral lepton. Lorentz chirality, the leaf's left and right $SU(2)$ factors and weak isospin are three structures; finite separation, the galaxies' labels and weak isospin are not reached (R391) | analytic theorem; numerical control; definition; specified physical premise; open bridge | — | §XXXIV.25 |
@@ -77,7 +77,12 @@
 | The limiting map (the review of v36.11, section 4). Under one smooth connection in one representation the comparison $W(r) = P_1P_2^{-1}$ of two converging histories' transports (based at the common far endpoint; the review's $P_2^{-1}P_1$, based at the common start, is its conjugate) tends to the identity, linearly in the separation — a theorem, checked on an $\mathfrak{sl}(2,\mathbb C)$ connection with curvature; the Cartan-twisted reading of the second leg, $P_1\rho(P_2)^{-1}$, tends to the Hermitian square $P_1P_1^\dagger$, and the intertwiner is the quaternionic structure, $\rho(g)\xi = j^{-1}(g(j\xi))$. For two legs leaving rest together and separating to order $r$ in position and velocity, each carrying §XX.8a's Fermi–Walker transport (validated against the Thomas rotation at $v = 0.3$, $0.6$, $0.9$), the Cartan comparison tends to $B(u)^2 = u\cdot\bar\sigma$ as $r\to0$ and the same-representation one to $I$, both linearly in $r$; at $r = 0$ it is path-independent — a second acceleration history gives a different Thomas rotation and the same $W$ — since every frame carrying rest to $u$ is $B(u)U$. The limit pair is §XX.8b's Cartan pair with the shared Thomas rotation, obeying the Dirac identity; the legs' relative velocity (the analogue of $D_uY$) vanishes with $r$ and, given the twist, is not needed. The second leg's reading through $j$ is the one stipulation, put in at every $r$ rather than produced by the limit; that the physical pair's transport is this one stays a proposal (R396) | analytic theorem; numerical control; definition; specified physical premise; open bridge | — | §XXXIV.30 |
 | Entries 361–364 and the four responses to them, as the author sent them (23 October, during the refereeing): the quotients of the six fiber directions; the four handednesses and the signed-chord doorway; the two spiral half-orbits in a canonical space wider than the visible galaxy; the Hopf-sign switch at the apsis with the center-of-mass constraint and the extra rotations of $SO(4)$ (R397) | record | — | §XXXIV.31 |
 | The responses' numbers, recomputed and all as stated: in the carrier $V = \mathbb C^3$ the Cartesian and flavor triples are two bases, so a quotient by one line is $\mathbb C^2$; $V/\mathbb CX$ keeps the three flavor vectors at $\tfrac23$ of their squared norm as a trine (inner products $-\tfrac12$, summing to zero), $V/\mathbb CT$ makes the Cartesian images a trine in $x+y+z = 0$ with $E$, $M$ its orthogonal circular directions, $V/\mathbb CE$ the same up to phases but conjugation does not descend, $V/(\mathbb CE+\mathbb CM) = \mathbb CT$; the mass operator descends through the flavor quotients and not through $\mathbb CX$, its compression onto $\{Y,Z\}$ having eigenvalues $a\mp\lvert b\rvert = 52.2836$ and $1203.1160$ MeV; $[X_u,X_v] = 2X_T$ on $SU(2)$, the bracket proportional to $T$, so the shell has no counterpart of the two-line quotient by the transverse flows. A crossing orbit visits all four (hemisphere, radial sense) sectors; the signed chord $2R\sin(\varphi/2)$ changes sign after $2\pi$, not at the far apsis; §XXVII.7's two-arc orbit sweeps $126.04^\circ$ per arc. On $S^3 = SU(2)$, $-q = qe^{i\pi}$ is the antipodal point of the same Hopf circle, with $\pi_H(q) = \pi_H(-q)$; $q\mapsto aqb^{-1}$ moves the center $1$ to $ab^{-1}$ with the diagonal as its $SO(3)$ stabilizer; $SO(4)$ preserves the self-dual and anti-self-dual sectors while conjugation swaps them; and an antipodally even density keeps a quadrupole (its moments by quadrature). Entry 363's two rendering branches of one canonical orbit and Entry 364's apsidal Hopf-sign switch recorded as hypotheses with the responses' tests (R398) | analytic theorem; numerical control; specified physical premise; open bridge | — | §XXXIV.32; §§XXXIV.2, XXXIII.7, XXVII.7 |
-| The next pieces of Part XXXIV, in the order the review of v36.11 gives them: one concrete chiral Lagrangian whose geometry or symmetry fixes the hop operators and their strength ratio without the $\tau$ — one gauge construction with its representations, couplings and potential, the hops as Yukawa terms, the operators through dimension five with their coefficients, the left and right mixings and the electroweak checks at a benchmark (equal strengths with $A_-$ on the left hop one candidate restriction) — then the radiative matching to pole masses; the two-history ontology — the physical origin of the Cartan twist of the second leg, and §XX.12's family $\mathcal X\to[0,\infty)$ carrying the finite-separation comparison, then the neutral leptons' conjugate pairing, weak isospin and the galaxies' labels; the doubled angle as a target of the same transport program — a phase-selection law producing $\tfrac49$ as a phase, halving it and choosing the lift; the outstanding selection theorem and a native source for the trigonal frame; the carrier's and the lines' actions with the chiral rotations; neutrino mixing once the field content is fixed; the stitching target $B\cong{\rm Fix}(\tau)$; the quarks' "heterogeneous" form and the "lepton-coordinates radius" not attempted; from Entries 361–364, a canonical shell operation inducing a complementary-basis reduction on the carrier, and, for the other-galaxies wing, the two rendering branches of one canonical orbit with the Hopf-sign switch at the apsis and the responses' tests (R374; R379; R385; R392; R394; R399) | open bridge | — | §§XXXIV.5, XXXIV.11, XXXIV.18, XXXIV.26, XXXIV.27, XXXIV.33 |
+| The review of v36.12, the referee report on v36.12 and Entry 365 with its response, as the author sent them (23 October): the review's verification of the suite (`v36_12`, $2$ of $2$, the SHA-256 matched), its fibration question and its priorities; the report's required correction, its transport items and its continuation brief; Entry 365's coupled matter–photon transport (R400) | record | — | §XXXIV.35 |
+| The direct-mass branches (the report's correction). The report's counterexample reproduced — the dual factors at $m_0 = 1.028484$ MeV, $\mu_A = 8.598$ GeV, $\mu_B = 737.2$ GeV, $\Lambda = 10$ TeV fit all three masses, the determinants' signs $(-,+,-)$ — with its one-scale examples. At fixed $m_0$ a quartic in $t = \Lambda/(\mu_A\mu_B)$ enumerates every solution; on a grid of $12001$ direct masses two sign patterns appear and no other: $(-,-,-)$, v36.11's, for $-8.4457<m_0<+113.612$ eV, and $(-,+,-)$ for $1.028484<m_0<1.081583$ MeV, the ends where the quartic's root meets a pole of Cramer's rule. The map is for the direct mass as the smaller diagonal entry, $\lvert m_0\rvert<\Lambda$, every solution having mirrors with the roles exchanged; each one-scale construction has two isolated exact fits under that convention (near-zero, near $1.03$ MeV). The eV intervals are branch-conditional; the second branch's $\lvert C_5\rvert = 1$ scale is $1.2\times10^9$ GeV; which branch a completion selects is open (R401) | analytic theorem; numerical control; specified physical premise; open bridge | PDG 2025 | §XXXIV.36; §XXXIV.22 |
+| Transport repairs and the fibration (the report's section 5, the review's section 4, Entry 365). The Fermi–Walker benchmark started at $B(u(0))$ converges at second order (the identity start, first); the thin-loop first variation is $r\int P(1,s)F(Y,\dot\Gamma)P(s,1)\,ds$ with the curvature transported, the bare integral failing; $\mathcal W = P_1H_0P_2^\dagger$ with the initial four-velocity as a datum transforms as $h_1\mathcal Wh_2^\dagger$ under independent endpoint frame changes; $j^{-1}e^{i\chi}gj = e^{-i\chi}\rho(g)$, so the spin identity is not a charge-preserving twist and the charged extension is open; the trine's equal-prior success probability is $\tfrac23$; $q\mapsto aqb^{-1}$ preserves the Hopf fibration only for $b$ in the normalizer of its $U(1)$, a condition distinct from fixing the center; near an apsis the residence time grows as $\sqrt\delta$, and an exponential gnomonic image needs an attenuation diverging at the equator (R402) | analytic theorem; numerical control; open bridge | — | §XXXIV.37; §§XXXIV.30, XXXIV.32, XXVII.7 |
+| Entry 366 and the response to it, as the author sent them (23 October, 6:46 PM): the $\tfrac49$ outside a cosine and inside one as two readouts of one geometric operation; the response's experiment and its missing step (R403) | record | — | §XXXIV.38 |
+| Entry 366's $\tfrac49$. The response's square $d_n^2 = 1+\sqrt2\cos\theta_n+\tfrac12\cos2\theta_n$ is exactly the two-hop product $a_{+,n}a_{-,n}$, the doubled angle inside the cosine of the mass; the half-turn about the body diagonal attains the real-frame bound with spinor half-angle $\pi/2$, and $\arccos\tfrac23 = 0.84107$ is not $\tfrac29$; the cap volume $2\pi\ell^3(\chi-\tfrac12\sin2\chi)$ is the precedent — the point source's $\csc\chi+2\sin\chi$ has no linear angle term, while a single pole's Green function carries $\pi-\chi$ for the Laplacian and for $\Delta+3$ alike and PG's even source needs none; a flat connection's contractible holonomy is the identity, so the route needs curvature the carrier's connection lacks; a phase of $\tfrac49$ under the spin-$\tfrac12$ normalization needs $\tfrac89$ sr. The conjecture $\Phi = p$ is recorded as the response's (R404) | analytic theorem; numerical control; dictionary; open bridge | — | §XXXIV.39; §§XXXIV.2, XXXIV.26, XXV.2 |
+| The next pieces of Part XXXIV, in the order the review of v36.12 and the referee report on v36.12 give them: a continuum classification of the direct-mass branches, or a theorem on a declared component, and the second branch's interactions at a benchmark; the charged transport — the history pair as a two-point bundle object with $H_0$, the electromagnetic phase with the two Weyl components' common charge, a coincident-limit action with its gauge connections and mass coupling; one concrete chiral Lagrangian whose geometry or symmetry fixes the hop operators and their strength ratio without the $\tau$ — one gauge construction with its representations, couplings and potential, the operators through dimension five, the mixings and the electroweak checks at a benchmark — then the radiative matching to pole masses with a stated uncertainty; the angle-selection target as a specified connection with its lift, the Bargmann obstruction kept as a control, and Entry 366's conjecture as the response's three calculations; the two-branch galaxy experiment — the $SO(4)$ elements classified against a center and a fibration, one smooth two-branch history on §XXVII.7's orbit, a nontrivial optical selection rule, Law I applied once — then Entry 365's coupled matter–photon transport with the metric and Law I fixed, and only after a working forward map the elliptical interpolation; the two-history ontology's remaining items — the physical origin of the Cartan twist, §XX.12's family, the neutral leptons' conjugate pairing, weak isospin and the galaxies' labels; §XXXIV.27's remaining items — the selection theorem and the trigonal frame's source, the carrier's and the lines' actions with the chiral rotations, neutrino mixing once the field content is fixed, the stitching target $B\cong{\rm Fix}(\tau)$; the quarks' "heterogeneous" form and the "lepton-coordinates radius" not attempted; the compact active manuscript the report asks for, the author's to shape (R374; R379; R385; R392; R394; R399; R405) | open bridge | — | §§XXXIV.5, XXXIV.11, XXXIV.18, XXXIV.26, XXXIV.27, XXXIV.33, XXXIV.40 |
 
 **Claim status of Parts XXX–XXXII at the v35 freeze (v35.8).** This table governs Parts XXX–XXXII, frozen at v35.8 (15 October 2026) with their suite `pg_v35_numerics.py`, unchanged except for marked post-freeze notes (v36.0, R307, R313) and one marked rendering repair in §XXX.11 (v36.4, R355): Part XXX (the hyper-canonical completion and the charged-lepton cycle), Part XXXI (the visible rendering of the leaf) and Part XXXII (reflectrons: Feynman diagrams as the joint residue of paired histories). Their frozen-results record is the v35.8 current manuscript, `projective_gravity_v35_8_current_manuscript.md`. Parts 0–XXIX are frozen — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10 — and their claim status is the frozen table that follows this one, unchanged except for marked post-freeze notes. Post-freeze notes correct them without rewriting them: two erratum notes in §§XXI.4–4a (R211), clarification notes in §§XXIX.40(e), XXIX.41(d), XXIX.42(g) and XXIX.43(b) (R212–R216, §XXX.12), two pointer notes in §§XXIX.18 and XXIX.42(f) (R238, Part XXXI; the first corrected in v35.3, R243, and in v35.4, R254), and two pointer notes of v35.6, in §§XIII.10 and XXIX.42(c) (R277, R276; the first scoped in v35.7, R288). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*. Rows changed or added since v35.1 carry their register number. Three rows — the cap, the refocusing and the darkness of the sky — are marked as **central limiting conditions**: every proposal for the visible sky must say how it meets them (R255, R267).
 
@@ -205,7 +210,7 @@
 | Observational fits | none | no supernova likelihood, no count comparison with a selected sample, no rotation-curve fit (post-freeze note, v35.1, R216: the current predictive model; Part XII's exploratory fits, §XII.3, belong to its detached wing) (post-freeze note, v36.0, R313: rotation curves are compared with data in Part XXXIII — the Milky Way from inside and a SPARC pilot — and are not reproduced by the theory as specified) | §XXIX.39(f) |
 | The photon wave operator and its mode projection; a $q = 0$ reader; a frequency bridge with time dilation and a derived echo law; a pair-selection law; a detector law for the image map, with one forward image of a fixed galaxy; a derived spectral transport, even and odd | open bridge | — | §§XXIX.39(b), 41, 42, 43(f) |
 
-> **How to read this archive (v36.12).** Three tables govern: the table of Parts XXXIII–XXXIV, for the open work; the frozen v35.8 table that follows it, for Parts XXX–XXXII; and the frozen v34.10 table after that, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX; §XXX.9, frozen with Parts XXX–XXXII; and §XXXIII.12) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place. v36.0 freezes Parts XXX–XXXII at v35.8 with `pg_v35_numerics.py`, whose frozen-results record is the v35.8 current manuscript, and opens Part XXXIII, the observed rotation curve, after Part XXXII, with its own register (§XXXIII.12) and suite (§XXXIII.13, `pg_v36_numerics.py`). Its corrections to frozen Parts are post-freeze notes (R313). v36.1 is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§§XXXIII.14–26, R318–R331): it corrects v36.0's operative statements in place, with the superseded wording in §XXXIII.26, and adds no post-freeze note. v36.2 answers Entries 323–324 and the two responses on them (§§XXXIII.27–33, R332–R338): orbital occupancy on the leaf, the exponential as a rendering, the conformal route, the frame-selection hypothesis; it corrects two v36.1 sentences in place (R332) and adds no post-freeze note. v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§§XXXIII.34–43, R339–R348): two source families regular at the equator, their orbital populations and the dwarfs with them, the isothermal fixed points, the null cone, the split model, the $\mathfrak{so}(4)$ sectors; it applies the review's two distinctions in place (R347) and adds no post-freeze note. v36.4 answers the review of v36.3 and Entries 340–341 with the response (§§XXXIII.44–50, R349–R354): the fixed-point erratum and stability in two ensembles, the radial–normal duality and the CMB dipole, the first test of the clash invariant, and Entries 342–345 recorded for v36.5; it corrects §XXXIII.38 and §XXXIII.42 in place (R350) and adds no post-freeze content note — one marked rendering repair in frozen §XXX.11 (R355: a doubled brace in a subscript, which the author's site's templating engine read as a tag; the mathematics unchanged). v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§§XXXIII.51–55, R356–R359): the orbit library's kinematics erratum — the velocity moments integrated along the orbit, the mis-certified witnesses re-evaluated, the joint crossing–dispersion frontier, every library bound rescoped as a compatibility witness — with §§XXXIII.28, 29(b), 32, 36, 37, 42 and two register entries corrected in place (R357); the clash invariant's nullspace and the sum's fall-off, the high-sector bound, §§XXXIII.45, 47, 50 annotated (R358); no post-freeze note. v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§§XXXIII.56–60, R360–R364): one localization model, from the admissibility scalar to the spectrum — one action for the two sectors, a probe in the induced potential and the exterior theorem for its tail — which localizes and derives neither the thin–broad disk nor the sine-exponential; and the note's question in a reduction of the smallest two-path, one-qubit model; nothing earlier is corrected and no post-freeze note is added. v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§§XXXIII.61–66, R365–R369): the penalties of the admissibility geometry compared on the full two-sector configuration — the review's cone at the aligned vacuum confirmed, Entry 349's sine blind to the normal in the responses' reading, the response's and the review's smooth forms zero exactly on the family; v36.6's localization model with each, an exchange-even penalty smooth at the aligned vacuum confining the pinned tilt to a patch, the lowest-order smooth forms with their pinning losing the mode at v36.6's coupling (a smooth form with v36.6's gap binds two), the exterior obstruction holding for every gapped penalty; and off its ansatz the mirror solution's second variation with no eigenvalue below $-10^{-6}$ (certified on the grid up to the residual's bound for the cone penalties; second variation only), the sine's second zero leaving no metastable state in the one-wall family examined *[v36.11, R393]*; nothing earlier is corrected and no post-freeze note is added. v36.8 answers Entries 351–353 and the three responses by opening Part XXXIV, flavor, after Part XXXIII (§§XXXIV.1–6, R370–R374), as §XXXIII.9 planned, with Part XXXIII's suite: on the reading of the two families as orthonormal bases of one complex carrier, Entry 352's rule for a complement of the Cartesian fibers is mutual unbiasedness, which needs the complex structure and, with the archive's flavor lines, makes the selected axis the fibers' body diagonal, the frame's shift and clock then the archive's clock and conveyor and the Cartesian triad §XXX.13's trigonal frame, as a datum; the archive's mass operator read on the fibers is a ring with a flux, the mean mass on every fiber, the $e$–$\mu$ distinction the part odd under complex conjugation in the real frame, and Koide's relation a light cone on $\sqrt M$, the form's coefficient Koide's postulate; the bare Dirac toy's mass term can be the internal part of a parent operator, whose square gives the invariant difference $p^2-\mathcal M^2$ for a constant $\mathcal M$ *[v36.11, R387]*, the interchange holding in a flat parent and broken by any discrete internal spectrum. Part XXXIII's rows on the flavor note and on the next pieces are amended, the rest of flavor leaving its backlog (R374); nothing earlier is corrected and no post-freeze note is added. v36.9 answers the review of v36.8 with six sections of Part XXXIV (§§XXXIV.7–12, R375–R379), three of them (§§XXXIV.8–10) one for each part of the review's decisive test. *Frame consistency:* three distinct masses need an abelian residual symmetry — among the rotations the oriented triad's $\mathbb Z_3$, with the complement as its lines — and the mass operator itself keeps $SO(2)_{N_+}$; on $S_D\otimes G_{\rm gen}$, by the descent's typing (a definition), the mass operator commutes with every Lorentz transformation, the physical rotations acting on $S_D$ and those of the carrier internal; a coupling of the carrier to the spin is bounded by the electron's preferred-frame limits, $\lambda\leq3.46\times10^{-22}$ eV at one standard deviation for the Galactic normal ($(1.6\pm2.9)\times10^{-22}$ eV from a fit), and so excluded near the flavor scale. *Spectral selection:* no residual symmetry selects; Koide's ratio is fixed by the overlap of the two dual references, and $K = \tfrac23$ is their bases being mutually unbiased — Entry 352's rule on a qubit — a premise equivalent to Koide's relation, a dictionary rather than a derivation. *Mass generation:* a parity-symmetric pair with a heavy flavor-blind partner gives the square from two internal hops, Koide's masses at leading order, its corrections lowering $K$; on the premise that the relation holds for pole masses, the measured $K$ bounds the partner's mass from below. A tagged sentence is added in §XXXIV.3(d) (R377) and Part XXXIV's row on the next pieces is reworded (R379); nothing earlier is corrected and no post-freeze note is added. v36.10 answers Entry 354, the response to it and the review of v36.9 with seven sections of Part XXXIV (§§XXXIV.13–19, R380–R385). *The exact angles:* with $\theta = 2/9$ and $\cos\alpha = 1/\sqrt2$ held fixed, any first-order correction fixed by the electron and the muon predicts the $\tau$ through its pattern; the same hop twice gives $m_\tau$ $2.67\sigma$ low, and the dual factors $0.23\sigma$ low, their angle offsets then matching the measured ones (the same $\tau$ test) — on the pole-mass premise and the zero block at the eV level, with the construction chosen after the fact. *The mixing scale:* v36.9's $\mu$ was a two-sigma lower bound, and imposing $\mu = M_Z$ with the exact angles and one hop scale gives the $\tau$ $2.07\sigma$ or $1.27\sigma$ low, while with the strict zero block the electron excludes it within this pole-mass realization ($-87.0\sigma$ and $+722.5\sigma$ with the muon's and the Z's errors propagated), a direct mass restoring it in an enlarged realization *[v36.11, R388]*. *The chiral two-hop seesaw:* with a bare right hop the zero block is a choice of basis, while a charged vev for the right hop, or $SU(2)_R$, protects it up to dimension five; with two hop scales the dual factors' prediction of the $\tau$ becomes an inequality, met. *A moving frame:* its connection changes flavor only for a field on the carrier itself, far below detection at the illustrative rates. Part XXXIV's row on the next pieces is reworded (R385), and the head table's flavor heading now says when the Part was opened; nothing earlier is corrected and no post-freeze note is added. v36.11 answers Entries 357 and 360, the responses to them, the review of v36.10 and the referee reports on v36.8 and v36.10 with nine sections of Part XXXIV (§§XXXIV.20–28, R386–R392 and R394) and one of Part XXXIII (§XXXIII.67, R393). *The two histories:* the quaternionic structure intertwines the two Weyl types, so both of Part XX's pairings pass the Lorentz test; at rest the Cartan pair shares one spin state, while the antipodal pair, taken as a fixed relation between the components, is the conjugate pairing, which admits no electric charge — so for the electron the two readings exclude each other, and its Weyl components would be the Cartan pair, whose comparison is the four-velocity. *The doubled angle (Entry 360):* the dual factors are one plus half the spin-$\tfrac12$ character of a doubled angle, $\tfrac49+\tfrac{4\pi n}3\pm\tfrac\pi2$, which needs the double cover and a choice of lift, and only the identity lift is Koide's; the $\tfrac49$ of complementary projectors is a probability, and the complementary fibers' geometric phases are multiples of $2\pi/3$ — a selection-law conjecture, numerically $\theta = 2/9$. *The two-scale theorem:* with the exact angles and the dual factors, $m_\tau<1776.965825$ MeV on every positive branch and $\varepsilon_R/\varepsilon_L\leq2.0094647320$; parity proper excludes the dual factors, and equal Yukawa strengths with $A_-$ on the left hop put the $\tau$ $0.40\sigma$ high, a postulate. *The Z-linked statistics:* with the muon's and the Z's errors propagated the strict model's electron pulls are $-87.0$ and $+722.5$; the strict identification is excluded within this pole-mass realization, enlarged ones are not excluded by this comparison; with one hop scale the direct-mass interval is signed, and with two the same hop's is unchanged while the $\tau$ bounds the dual factors' on both sides. *Transport:* the carrier's complete connection is flat, and the lines' connection a stipulated, different action that agrees with it in the adiabatic regime. *The report on v36.8:* deletion keeps equal survival, not distinguishability; the trace form's coefficient is Koide's postulate; the fit is an unweighted projection; the trimaximal column's atmospheric and CP condition is untested; the localization thresholds are numerical, not certified bounds; coherent reception needs the two transports' amplitudes; for the cone penalties the mirror solution's second variation has no eigenvalue below the residual's bound, by a ground-state transform and a comparison — a floating-point certificate on the grid, second variation only. The claims the two reports found overstated are corrected in place, each tagged, with the superseded wording quoted in the ledger; no post-freeze note is added. v36.12 answers the review of v36.11 and records Entries 361–364 with six sections of Part XXXIV (§§XXXIV.29–34, R395–R399). *The limiting map:* under one smooth connection in one representation the comparison of two converging histories' transports tends to the identity, linearly in the separation — a theorem — while the Cartan-twisted reading of the second leg, which the quaternionic structure $j$ supplies as the intertwiner ($\rho(g)\xi = j^{-1}(g(j\xi))$), gives the Hermitian square of the transport; for two legs leaving rest together and separating to order $r$, each carrying §XX.8a's Fermi–Walker transport, the Cartan comparison tends to $B(u)^2 = u\cdot\bar\sigma$ as $r\to0$, path-independent at zero separation while the Thomas rotation is not, and the limit pair is §XX.8b's Cartan pair obeying the Dirac identity; given the twist, the legs' relative velocity is not needed. The second leg's reading through $j$ is the one stipulation, put in rather than produced; that the physical pair's transport is this one stays a proposal. *Entries 361–364,* which arrived during the refereeing, are recorded with their responses, and every number the responses state is recomputed and found as stated: the quotients of the carrier $V = \mathbb C^3$ by one or two of its six lines (a Cartesian quotient keeps the flavor vectors as a trine, a flavor quotient makes the Cartesian images one, and the mass operator descends only through the flavor quotients), the four orbital sign sectors and the signed chord's $4\pi$ period, §XXVII.7's two-arc orbit, and the Hopf-sign and $SO(4)$ identities of the fourth response; Entry 363's two rendering branches of one canonical orbit and Entry 364's Hopf-sign switch at the apsis are recorded as hypotheses. Nothing is fitted and nothing earlier is corrected; no post-freeze note is added.
+> **How to read this archive (v36.13).** Three tables govern: the table of Parts XXXIII–XXXIV, for the open work; the frozen v35.8 table that follows it, for Parts XXX–XXXII; and the frozen v34.10 table after that, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX; §XXX.9, frozen with Parts XXX–XXXII; and §XXXIII.12) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place. v36.0 freezes Parts XXX–XXXII at v35.8 with `pg_v35_numerics.py`, whose frozen-results record is the v35.8 current manuscript, and opens Part XXXIII, the observed rotation curve, after Part XXXII, with its own register (§XXXIII.12) and suite (§XXXIII.13, `pg_v36_numerics.py`). Its corrections to frozen Parts are post-freeze notes (R313). v36.1 is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§§XXXIII.14–26, R318–R331): it corrects v36.0's operative statements in place, with the superseded wording in §XXXIII.26, and adds no post-freeze note. v36.2 answers Entries 323–324 and the two responses on them (§§XXXIII.27–33, R332–R338): orbital occupancy on the leaf, the exponential as a rendering, the conformal route, the frame-selection hypothesis; it corrects two v36.1 sentences in place (R332) and adds no post-freeze note. v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§§XXXIII.34–43, R339–R348): two source families regular at the equator, their orbital populations and the dwarfs with them, the isothermal fixed points, the null cone, the split model, the $\mathfrak{so}(4)$ sectors; it applies the review's two distinctions in place (R347) and adds no post-freeze note. v36.4 answers the review of v36.3 and Entries 340–341 with the response (§§XXXIII.44–50, R349–R354): the fixed-point erratum and stability in two ensembles, the radial–normal duality and the CMB dipole, the first test of the clash invariant, and Entries 342–345 recorded for v36.5; it corrects §XXXIII.38 and §XXXIII.42 in place (R350) and adds no post-freeze content note — one marked rendering repair in frozen §XXX.11 (R355: a doubled brace in a subscript, which the author's site's templating engine read as a tag; the mathematics unchanged). v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§§XXXIII.51–55, R356–R359): the orbit library's kinematics erratum — the velocity moments integrated along the orbit, the mis-certified witnesses re-evaluated, the joint crossing–dispersion frontier, every library bound rescoped as a compatibility witness — with §§XXXIII.28, 29(b), 32, 36, 37, 42 and two register entries corrected in place (R357); the clash invariant's nullspace and the sum's fall-off, the high-sector bound, §§XXXIII.45, 47, 50 annotated (R358); no post-freeze note. v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§§XXXIII.56–60, R360–R364): one localization model, from the admissibility scalar to the spectrum — one action for the two sectors, a probe in the induced potential and the exterior theorem for its tail — which localizes and derives neither the thin–broad disk nor the sine-exponential; and the note's question in a reduction of the smallest two-path, one-qubit model; nothing earlier is corrected and no post-freeze note is added. v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§§XXXIII.61–66, R365–R369): the penalties of the admissibility geometry compared on the full two-sector configuration — the review's cone at the aligned vacuum confirmed, Entry 349's sine blind to the normal in the responses' reading, the response's and the review's smooth forms zero exactly on the family; v36.6's localization model with each, an exchange-even penalty smooth at the aligned vacuum confining the pinned tilt to a patch, the lowest-order smooth forms with their pinning losing the mode at v36.6's coupling (a smooth form with v36.6's gap binds two), the exterior obstruction holding for every gapped penalty; and off its ansatz the mirror solution's second variation with no eigenvalue below $-10^{-6}$ (certified on the grid up to the residual's bound for the cone penalties; second variation only), the sine's second zero leaving no metastable state in the one-wall family examined *[v36.11, R393]*; nothing earlier is corrected and no post-freeze note is added. v36.8 answers Entries 351–353 and the three responses by opening Part XXXIV, flavor, after Part XXXIII (§§XXXIV.1–6, R370–R374), as §XXXIII.9 planned, with Part XXXIII's suite: on the reading of the two families as orthonormal bases of one complex carrier, Entry 352's rule for a complement of the Cartesian fibers is mutual unbiasedness, which needs the complex structure and, with the archive's flavor lines, makes the selected axis the fibers' body diagonal, the frame's shift and clock then the archive's clock and conveyor and the Cartesian triad §XXX.13's trigonal frame, as a datum; the archive's mass operator read on the fibers is a ring with a flux, the mean mass on every fiber, the $e$–$\mu$ distinction the part odd under complex conjugation in the real frame, and Koide's relation a light cone on $\sqrt M$, the form's coefficient Koide's postulate; the bare Dirac toy's mass term can be the internal part of a parent operator, whose square gives the invariant difference $p^2-\mathcal M^2$ for a constant $\mathcal M$ *[v36.11, R387]*, the interchange holding in a flat parent and broken by any discrete internal spectrum. Part XXXIII's rows on the flavor note and on the next pieces are amended, the rest of flavor leaving its backlog (R374); nothing earlier is corrected and no post-freeze note is added. v36.9 answers the review of v36.8 with six sections of Part XXXIV (§§XXXIV.7–12, R375–R379), three of them (§§XXXIV.8–10) one for each part of the review's decisive test. *Frame consistency:* three distinct masses need an abelian residual symmetry — among the rotations the oriented triad's $\mathbb Z_3$, with the complement as its lines — and the mass operator itself keeps $SO(2)_{N_+}$; on $S_D\otimes G_{\rm gen}$, by the descent's typing (a definition), the mass operator commutes with every Lorentz transformation, the physical rotations acting on $S_D$ and those of the carrier internal; a coupling of the carrier to the spin is bounded by the electron's preferred-frame limits, $\lambda\leq3.46\times10^{-22}$ eV at one standard deviation for the Galactic normal ($(1.6\pm2.9)\times10^{-22}$ eV from a fit), and so excluded near the flavor scale. *Spectral selection:* no residual symmetry selects; Koide's ratio is fixed by the overlap of the two dual references, and $K = \tfrac23$ is their bases being mutually unbiased — Entry 352's rule on a qubit — a premise equivalent to Koide's relation, a dictionary rather than a derivation. *Mass generation:* a parity-symmetric pair with a heavy flavor-blind partner gives the square from two internal hops, Koide's masses at leading order, its corrections lowering $K$; on the premise that the relation holds for pole masses, the measured $K$ bounds the partner's mass from below. A tagged sentence is added in §XXXIV.3(d) (R377) and Part XXXIV's row on the next pieces is reworded (R379); nothing earlier is corrected and no post-freeze note is added. v36.10 answers Entry 354, the response to it and the review of v36.9 with seven sections of Part XXXIV (§§XXXIV.13–19, R380–R385). *The exact angles:* with $\theta = 2/9$ and $\cos\alpha = 1/\sqrt2$ held fixed, any first-order correction fixed by the electron and the muon predicts the $\tau$ through its pattern; the same hop twice gives $m_\tau$ $2.67\sigma$ low, and the dual factors $0.23\sigma$ low, their angle offsets then matching the measured ones (the same $\tau$ test) — on the pole-mass premise and the zero block at the eV level, with the construction chosen after the fact. *The mixing scale:* v36.9's $\mu$ was a two-sigma lower bound, and imposing $\mu = M_Z$ with the exact angles and one hop scale gives the $\tau$ $2.07\sigma$ or $1.27\sigma$ low, while with the strict zero block the electron excludes it within this pole-mass realization ($-87.0\sigma$ and $+722.5\sigma$ with the muon's and the Z's errors propagated), a direct mass restoring it in an enlarged realization *[v36.11, R388]*. *The chiral two-hop seesaw:* with a bare right hop the zero block is a choice of basis, while a charged vev for the right hop, or $SU(2)_R$, protects it up to dimension five; with two hop scales the dual factors' prediction of the $\tau$ becomes an inequality, met. *A moving frame:* its connection changes flavor only for a field on the carrier itself, far below detection at the illustrative rates. Part XXXIV's row on the next pieces is reworded (R385), and the head table's flavor heading now says when the Part was opened; nothing earlier is corrected and no post-freeze note is added. v36.11 answers Entries 357 and 360, the responses to them, the review of v36.10 and the referee reports on v36.8 and v36.10 with nine sections of Part XXXIV (§§XXXIV.20–28, R386–R392 and R394) and one of Part XXXIII (§XXXIII.67, R393). *The two histories:* the quaternionic structure intertwines the two Weyl types, so both of Part XX's pairings pass the Lorentz test; at rest the Cartan pair shares one spin state, while the antipodal pair, taken as a fixed relation between the components, is the conjugate pairing, which admits no electric charge — so for the electron the two readings exclude each other, and its Weyl components would be the Cartan pair, whose comparison is the four-velocity. *The doubled angle (Entry 360):* the dual factors are one plus half the spin-$\tfrac12$ character of a doubled angle, $\tfrac49+\tfrac{4\pi n}3\pm\tfrac\pi2$, which needs the double cover and a choice of lift, and only the identity lift is Koide's; the $\tfrac49$ of complementary projectors is a probability, and the complementary fibers' geometric phases are multiples of $2\pi/3$ — a selection-law conjecture, numerically $\theta = 2/9$. *The two-scale theorem:* with the exact angles and the dual factors, $m_\tau<1776.965825$ MeV on every positive branch and $\varepsilon_R/\varepsilon_L\leq2.0094647320$; parity proper excludes the dual factors, and equal Yukawa strengths with $A_-$ on the left hop put the $\tau$ $0.40\sigma$ high, a postulate. *The Z-linked statistics:* with the muon's and the Z's errors propagated the strict model's electron pulls are $-87.0$ and $+722.5$; the strict identification is excluded within this pole-mass realization, enlarged ones are not excluded by this comparison; with one hop scale the direct-mass interval is signed, and with two the same hop's is unchanged while the $\tau$ bounds the dual factors' on both sides *[v36.13, R401: for $\lvert m_0\rvert<\Lambda$, on the branch connected to the zero-block solution; a second branch near $1.03$ MeV, §XXXIV.36]*. *Transport:* the carrier's complete connection is flat, and the lines' connection a stipulated, different action that agrees with it in the adiabatic regime. *The report on v36.8:* deletion keeps equal survival, not distinguishability; the trace form's coefficient is Koide's postulate; the fit is an unweighted projection; the trimaximal column's atmospheric and CP condition is untested; the localization thresholds are numerical, not certified bounds; coherent reception needs the two transports' amplitudes; for the cone penalties the mirror solution's second variation has no eigenvalue below the residual's bound, by a ground-state transform and a comparison — a floating-point certificate on the grid, second variation only. The claims the two reports found overstated are corrected in place, each tagged, with the superseded wording quoted in the ledger; no post-freeze note is added. v36.12 answers the review of v36.11 and records Entries 361–364 with six sections of Part XXXIV (§§XXXIV.29–34, R395–R399). *The limiting map:* under one smooth connection in one representation the comparison of two converging histories' transports tends to the identity, linearly in the separation — a theorem — while the Cartan-twisted reading of the second leg, which the quaternionic structure $j$ supplies as the intertwiner ($\rho(g)\xi = j^{-1}(g(j\xi))$), gives the Hermitian square of the transport; for two legs leaving rest together and separating to order $r$, each carrying §XX.8a's Fermi–Walker transport, the Cartan comparison tends to $B(u)^2 = u\cdot\bar\sigma$ as $r\to0$, path-independent at zero separation while the Thomas rotation is not, and the limit pair is §XX.8b's Cartan pair obeying the Dirac identity; given the twist, the legs' relative velocity is not needed. The second leg's reading through $j$ is the one stipulation, put in rather than produced; that the physical pair's transport is this one stays a proposal. *Entries 361–364,* which arrived during the refereeing, are recorded with their responses, and every number the responses state is recomputed and found as stated: the quotients of the carrier $V = \mathbb C^3$ by one or two of its six lines (a Cartesian quotient keeps the flavor vectors as a trine, a flavor quotient makes the Cartesian images one, and the mass operator descends only through the flavor quotients), the four orbital sign sectors and the signed chord's $4\pi$ period, §XXVII.7's two-arc orbit, and the Hopf-sign and $SO(4)$ identities of the fourth response; Entry 363's two rendering branches of one canonical orbit and Entry 364's Hopf-sign switch at the apsis are recorded as hypotheses. Nothing is fitted and nothing earlier is corrected; no post-freeze note is added. v36.13 answers the review of v36.12, the referee report on v36.12 and Entries 365 and 366 with seven sections of Part XXXIV (§§XXXIV.35–41, R400–R405). *The report's required correction is made:* v36.11's eV direct-mass intervals hold on the branch connected to the zero-block solution, the three determinants negative; a second branch, the electron's determinant positive, fits all three charged-lepton masses for $1.028484<m_0<1.081583$ MeV (the report's counterexample with a 10 TeV heavy partner among its solutions), and a quartic enumerates every solution at fixed $m_0$ (for the direct mass the smaller diagonal entry) — §XXXIV.22(c)–(d), §XXXIV.27, R388 and the head table are corrected in place, each tagged *[v36.13, R401]*, the manuscript marked v36.13 and the suite's prints referenced to v36.13-1, with the superseded wording in the ledger; the zero-block theorem is untouched. *The transport repairs:* the Fermi–Walker benchmark started at its own initial velocity (second order), the thin-loop first variation with transported curvature, the sewing datum $H_0$ making $P_1H_0P_2^\dagger$ covariant, and the antilinear phase that keeps "one connection suffices" a statement about spin — §XXXIV.30(a)–(c) tagged *[v36.13, R402]*. *New:* $q\mapsto aqb^{-1}$ preserves the Hopf fibration only for $b$ in the normalizer of its $U(1)$, a condition distinct from fixing a galaxy's center; the apsidal residence time and the attenuation an exponential image would need, from Entry 365's response; Entry 366's $\tfrac49$ — the response's square is exactly the two-hop product, the half-turn about the body diagonal has spinor half-angle $\pi/2$, the cap volume of $S^3$ is the sine-minus-angle precedent and the leaf's rotation-speed formula carries none, and the conjectured transport $\Phi = p$ is recorded as the response's (§§XXXIV.38–39). Nothing is fitted; no post-freeze note is added.
 
 > **v34.0 governing ontology correction (11 October 2026).** **Matter and its stress-energy content live fundamentally in the five-dimensional middle space** $\mathcal M=E/U(1)_H$, not solely on the representational bisection. The four-dimensional gravity base $B_{\rm grav}=\mathcal M/U_{\rm mer}$ is the quotient where the effective Einstein equation is expressed. The source $T^{(g)}$ must be obtained from the **entire** one-dimensional meridian fiber, including both arcs and possible pole/core contributions, by a covariant, action-compatible fiber reduction with a geometrically justified measure and tensor projection. A sum of contributions at the two points of $B_{\rm rep}$ is **not Law I**: it is only a distributionally leaf-supported special case. Einstein equations on the base impose constraints on the admissible middle-space configurations; equivalently their pullback imposes a horizontal constraint on $\mathcal M$, **not** independent five-dimensional Einstein equations. The full measure, singular-fiber rule, conservation identity and parent variational principle are **open**. Previously frozen text about source localization and two-point sourcing is superseded by this paragraph, the corrected Law I in Part III, and §XXIX.8; historical derivations remain conditional benchmarks where their premises apply. The observation that $\ell/G$ has a numerically suggestive relation to a galactic mass was an exploratory coincidence, **not** a premise that the closure mass is the Galaxy's baryonic mass. The author also prefers a *macroscopic middle-space* origin of $G$ (with the closure ratio as a target) and a separate Boltzmannian-compatibility origin of the effective quantum/Planck-area scale; the induced-gravity calculation remains a benchmark, not the preferred ontological explanation of $G$.
 
@@ -15925,7 +15930,7 @@ With $S = 1+iT$ this is $2\,{\rm Im}\,T^{(2)}_{ii} = \sum_f\lvert T^{(1)}_{fi}\r
 - *the Milky Way, seen from inside with the leaf's own light, fails on every scanned leaf and at the continuous optimum — as a cold-tracer proxy for the published estimator, which is not yet applied (§XXXIII.19) [v36.1, R323];*
 - *the SPARC galaxies, with the arena law, fail too.*
 
-*With the author's zoom labels as two free numbers per galaxy, the gnomonic premise improves the SPARC curves greatly; under the quoted errors one of the eight fits is acceptable, one borderline, and six are not (§XXXIII.17) [v36.1, R319]. The labels the fits need trend with mass, and must now come from a law. §XXXIII.11 locates each failure; §XXXIII.25 is the operative standing after v36.1, §XXXIII.32 its continuation after v36.2 (Entries 323–324: a stationary population on the leaf does not remove the dwarfs' required outer mass, and must be hot where it lacks circular support), §XXXIII.42 after v36.3 (the review and Entries 325–339: sources regular at the equator keep the plateau and admit crossing orbits; the isothermal law selects no cold disk; a transfer with a fixed scale is not a small deformation of a large leaf), §XXXIII.48 after v36.4 (the erratum; at fixed energy a concentrated isothermal state is stable but hot; the proposed clash invariant is blind to the departure it was built from), §XXXIII.54 after v36.5 (the kinematics erratum: library bounds are compatibility witnesses, not certificates; the clash sum detects the tilt but confines nothing), §XXXIII.59 after v36.6 (a minimal localization model from one action localizes but derives neither the thin–broad disk nor the profile; the localized tail's rates and aspect are the probe's kinetic metric's, an input; an observer-side receiver selects within a family of profiles the source fixes, unless the profile is written into it), §XXXIII.65 after v36.7 (an exchange-even penalty smooth at the aligned vacuum confines the pinned tilt to a patch; the lowest-order smooth forms, with their pinning, bind nothing at v36.6's coupling; the sine keeps v36.6's three modes; no gapped penalty of the tilt, with a constant kinetic metric, lets a strictly bound mode follow the image). v36.11 adds §XXXIII.67 (the localization thresholds numerical, not certified bounds; coherent reception through two transports; the mirror solution's second variation without eigenvalues below the residual's bound, by a ground-state transform and a comparison — a certificate on the grid for the cone penalties). v36.8 opens Part XXXIV, flavor, after this Part; §XXXIV.5 is its standing, §XXXIV.11 after v36.9, §XXXIV.18 after v36.10, §XXXIV.27 after v36.11 and §XXXIV.33 after v36.12.*
+*With the author's zoom labels as two free numbers per galaxy, the gnomonic premise improves the SPARC curves greatly; under the quoted errors one of the eight fits is acceptable, one borderline, and six are not (§XXXIII.17) [v36.1, R319]. The labels the fits need trend with mass, and must now come from a law. §XXXIII.11 locates each failure; §XXXIII.25 is the operative standing after v36.1, §XXXIII.32 its continuation after v36.2 (Entries 323–324: a stationary population on the leaf does not remove the dwarfs' required outer mass, and must be hot where it lacks circular support), §XXXIII.42 after v36.3 (the review and Entries 325–339: sources regular at the equator keep the plateau and admit crossing orbits; the isothermal law selects no cold disk; a transfer with a fixed scale is not a small deformation of a large leaf), §XXXIII.48 after v36.4 (the erratum; at fixed energy a concentrated isothermal state is stable but hot; the proposed clash invariant is blind to the departure it was built from), §XXXIII.54 after v36.5 (the kinematics erratum: library bounds are compatibility witnesses, not certificates; the clash sum detects the tilt but confines nothing), §XXXIII.59 after v36.6 (a minimal localization model from one action localizes but derives neither the thin–broad disk nor the profile; the localized tail's rates and aspect are the probe's kinetic metric's, an input; an observer-side receiver selects within a family of profiles the source fixes, unless the profile is written into it), §XXXIII.65 after v36.7 (an exchange-even penalty smooth at the aligned vacuum confines the pinned tilt to a patch; the lowest-order smooth forms, with their pinning, bind nothing at v36.6's coupling; the sine keeps v36.6's three modes; no gapped penalty of the tilt, with a constant kinetic metric, lets a strictly bound mode follow the image). v36.11 adds §XXXIII.67 (the localization thresholds numerical, not certified bounds; coherent reception through two transports; the mirror solution's second variation without eigenvalues below the residual's bound, by a ground-state transform and a comparison — a certificate on the grid for the cone penalties). v36.8 opens Part XXXIV, flavor, after this Part; §XXXIV.5 is its standing, §XXXIV.11 after v36.9, §XXXIV.18 after v36.10, §XXXIV.27 after v36.11, §XXXIV.33 after v36.12 and §XXXIV.40 after v36.13.*
 
 *v36.1 (16 October 2026) is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§XXXIII.14): the plateau coefficient of an extended source (§XXXIII.15), the label condition corrected (§XXXIII.16), the pilot's statistics and its sources in error units (§XXXIII.17), the gas reconstruction's family (§XXXIII.18), the Milky Way comparison as a cold-tracer proxy with its leaf radius continuous (§XXXIII.19), the plateau's observable reach (§XXXIII.20), the orbit statements' domain (§XXXIII.21), the author's 8 kpc leaf (§XXXIII.22), Entry 322's shape family (§XXXIII.23), the current results (§XXXIII.24), the standing (§XXXIII.25) and the register (§XXXIII.26). The suite of §XXXIII.13 is extended to 18 checks.*
 
@@ -16458,16 +16463,16 @@ This answers the author's question of what the families of labels capture: given
 
   [reproducibility]
 
-## XXXIII.13 Executable appendix: `pg_v36_numerics.py`, embedded [reproducibility; v36.0–v36.12, R317, R331, R338, R348, R353, R359, R364, R369, R374, R379, R385, R392, R399]
+## XXXIII.13 Executable appendix: `pg_v36_numerics.py`, embedded [reproducibility; v36.0–v36.13, R317, R331, R338, R348, R353, R359, R364, R369, R374, R379, R385, R392, R399, R405]
 
-*The standalone suite (NumPy and SciPy only) that prints every computed number of Parts XXXIII–XXXIV. Save the block as `pg_v36_numerics.py` and run `python3 -I pg_v36_numerics.py` (the regression suite of Parts XXXIII–XXXIV, v36.0–v36.12: 60 checks; exit status 1 if any fails, in every mode; about thirty-five minutes on two cores, depending on the machine), one round with `python3 -I pg_v36_numerics.py v36_0`, `v36_1` (with the v36.0 computations it builds on), `v36_2`, `v36_3` (one to three minutes), `v36_4`, `v36_5`, `v36_6` (a few minutes each), `v36_7` (about eight minutes), `v36_8`, `v36_9`, `v36_10` (a few seconds each), `v36_11` (under a minute; §§XXXIV.21–26 and XXXIII.67) or `v36_12` (under a minute; §§XXXIV.30 and XXXIV.32), or the checks that run in a few minutes with `quick` (44 checks, for a referee's time limit); an unknown mode prints the usage line and exits with status 2. It embeds its data: the two Milky Way tables, McMillan 2017's parameters, the eight SPARC galaxies' rows, the charged-lepton masses (PDG 2025, with their uncertainties), NuFIT 6.0's $\sin^2\theta_{12}$ and $\sin^2\theta_{13}$ for normal ordering, without and with SK-atm, and its central $\sin^2\theta_{23}$ in the two analyses, Heckel et al.'s (2008) bounds on the electron's preferred-frame coefficient and their measured components, the Galactic pole as astropy defines it, the fine-structure constant, the Higgs, W and Z masses of PDG 2025 and PDG 2026 with PDG 2026's W and Z widths and its electron mass, the effective weak angle, the Fermi constant, $\hbar c$, the kiloparsec and the illustrative $v_R = 10$ TeV. The frozen suites remain `pg_v35_numerics.py` (Parts XXX–XXXII, §XXX.10) and `pg_v34_numerics.py` (Part XXIX, §XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v36`, `v36_0`, `v36_1`, `v36_2`, `v36_3`, `v36_4`, `v36_5`, `v36_6`, `v36_7`, `v36_8`, `v36_9`, `v36_10`, `v36_11`, `v36_12` and `quick` run it and whose `all` runs the frozen v34.10 and v35.8 suites and Parts XXXIII–XXXIV together (247 checks). The figures come from `pg_v36_0_plots.py`, `pg_v36_1_plots.py`, `pg_v36_2_plots.py` and `pg_v36_3_plots.py`, which load this suite. SHA-256 of the file: `3b402634cedfe463fc730c984149a81076cb56f0729031cc7b55efe8f75b5361`.*
+*The standalone suite (NumPy and SciPy only) that prints every computed number of Parts XXXIII–XXXIV. Save the block as `pg_v36_numerics.py` and run `python3 -I pg_v36_numerics.py` (the regression suite of Parts XXXIII–XXXIV, v36.0–v36.13: 63 checks; exit status 1 if any fails, in every mode; about thirty-five minutes on two cores, depending on the machine), one round with `python3 -I pg_v36_numerics.py v36_0`, `v36_1` (with the v36.0 computations it builds on), `v36_2`, `v36_3` (one to three minutes), `v36_4`, `v36_5`, `v36_6` (a few minutes each), `v36_7` (about eight minutes), `v36_8`, `v36_9`, `v36_10` (a few seconds each), `v36_11` (under a minute; §§XXXIV.21–26 and XXXIII.67), `v36_12` (under a minute; §§XXXIV.30 and XXXIV.32) or `v36_13` (one to two minutes; §§XXXIV.36–37 and XXXIV.39), or the checks that run in a few minutes with `quick` (47 checks, for a referee's time limit); an unknown mode prints the usage line and exits with status 2. It embeds its data: the two Milky Way tables, McMillan 2017's parameters, the eight SPARC galaxies' rows, the charged-lepton masses (PDG 2025, with their uncertainties), NuFIT 6.0's $\sin^2\theta_{12}$ and $\sin^2\theta_{13}$ for normal ordering, without and with SK-atm, and its central $\sin^2\theta_{23}$ in the two analyses, Heckel et al.'s (2008) bounds on the electron's preferred-frame coefficient and their measured components, the Galactic pole as astropy defines it, the fine-structure constant, the Higgs, W and Z masses of PDG 2025 and PDG 2026 with PDG 2026's W and Z widths and its electron mass, the effective weak angle, the Fermi constant, $\hbar c$, the kiloparsec and the illustrative $v_R = 10$ TeV. The frozen suites remain `pg_v35_numerics.py` (Parts XXX–XXXII, §XXX.10) and `pg_v34_numerics.py` (Part XXIX, §XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v36`, `v36_0`, `v36_1`, `v36_2`, `v36_3`, `v36_4`, `v36_5`, `v36_6`, `v36_7`, `v36_8`, `v36_9`, `v36_10`, `v36_11`, `v36_12`, `v36_13` and `quick` run it and whose `all` runs the frozen v34.10 and v35.8 suites and Parts XXXIII–XXXIV together (250 checks). The figures come from `pg_v36_0_plots.py`, `pg_v36_1_plots.py`, `pg_v36_2_plots.py` and `pg_v36_3_plots.py`, which load this suite. SHA-256 of the file: `1f1c631b313e31559337fb7cce7e30dcbbd3f50e3bda68f20b9bae3ba6c0d2c8`.*
 
 ```python
 """Projective Gravity v36 -- standalone numerical suite for Parts XXXIII-XXXIV: the observed rotation curve and flavor (NumPy + SciPy only;
 Python 3.12/3.13 tested).  Parts XXX-XXXII are frozen at v35.8 with their suite pg_v35_numerics.py; Part XXIX's frozen suite is pg_v34_numerics.py (v34.10).
 
 Run (from the directory holding this file):
-    python3 -I pg_v36_numerics.py              # current regression suite of Parts XXXIII-XXXIV, v36.0-v36.12 (check summary; about thirty-five minutes on two cores)
+    python3 -I pg_v36_numerics.py              # current regression suite of Parts XXXIII-XXXIV, v36.0-v36.13 (check summary; about thirty-five minutes on two cores)
     python3 -I pg_v36_numerics.py v36_0        # the v36.0 sections only
     python3 -I pg_v36_numerics.py v36_1        # the v36.1 sections, with the v36.0 computations they build on
     python3 -I pg_v36_numerics.py v36_2        # the v36.2 sections only (Entries 323-324)
@@ -16481,6 +16486,7 @@ Run (from the directory holding this file):
     python3 -I pg_v36_numerics.py v36_10       # the v36.10 sections only (Entry 354 and the v36.9 review: the exact angles; the mixing scale; the chiral seesaw; a moving frame)
     python3 -I pg_v36_numerics.py v36_11       # the v36.11 sections only (Entries 357 and 360, the v36.10 review, the reports on v36.8 and v36.10; under a minute)
     python3 -I pg_v36_numerics.py v36_12       # the v36.12 sections only (the review of v36.11: the limiting map to the Cartan pair; Entries 361-364: the quotients, the two-arc orbit and the Hopf-sign switch; under a minute)
+    python3 -I pg_v36_numerics.py v36_13       # the v36.13 sections only (the report on v36.12: the direct-mass branches; transport repairs, the fibration normalizer, Entry 365; Entry 366's 4/9; one to two minutes)
     python3 -I pg_v36_numerics.py quick        # the checks that run in a few minutes (for a referee's time limit)
 Every mode exits with status 1 if any check fails.
 
@@ -16664,9 +16670,9 @@ v36_10_quick(): v36_9_quick plus the v36.10 sections.
 v36_11_suite(): Entries 357 and 360, the responses to them, the review of v36.10 and the referee reports on v36.8 and v36.10.  The Z-linked statistics: with
 the exact angles, mu = M_Z and the strict zero block, Lam^2 = (x y/m_mu)^2 + m_mu^2 - x^2 - y^2 in closed form and the electron's pulls with the
 muon's and the Z's errors propagated (-87.0, +722.5; v36.10's counts were multiples of the electron's own error); the three hypotheses; the
-direct-mass interval, signed with one hop scale (no fit below -5.05 eV; the tau within one standard deviation below -2.731 eV for the same hop
+direct-mass interval, signed with one hop scale (no fit below -5.05 eV for |m0| < Lam, v36.13-1(d); the tau within one standard deviation below -2.731 eV for the same hop
 twice and +6.017 eV for the dual factors), with two independent hop scales the same hop's unchanged and the dual factors' set by the tau (exact
-fits only for -8.446 < m0 < +113.612 eV; the tau's supremum at fixed m0, approached as one hop's eps -> 0); the dimension-five condition on a coefficient.  The two-scale theorem: the one-variable reduction X(Y); the supremum
+fits only for -8.446 < m0 < +113.612 eV on the branch connected to the zero-block solution, v36.13-1; the tau's supremum at fixed m0, approached as one hop's eps -> 0); the dimension-five condition on a coefficient.  The two-scale theorem: the one-variable reduction X(Y); the supremum
 m_tau < 1776.965825 MeV on every positive branch (C_0, C_1, Y_c, the Rayleigh bound); the fold rho_max = 2.0094647320; the two branches; the
 algebraic inverse and its rejected root.  Left-right parity: the review's numbers; parity proper excluding the dual factors; equal strengths
 with A_+ on the left impossible above v_R = 349 GeV, with A_- on the left m_tau = 1776.9658 MeV.  Transport: the complete connection flat
@@ -16700,6 +16706,22 @@ sends 1 to a b^-1, the diagonal fixing it; SO(4) preserves the self-dual and ant
 density (q.n)^2 keeps a quadrupole.
 
 v36_12_quick(): v36_11_quick plus the two v36.12 sections.
+
+v36_13_suite(): the review of v36.12, the referee report on v36.12 and Entries 365 and 366.  The direct-mass branches (the report's required correction): the statement
+that with two dual-hop scales exact three-mass fits exist only for -8.446 < m0 < +113.612 eV holds on the branch connected to the zero-block solution
+(determinants all negative); a quartic in t = Lam/(mu_A mu_B) enumerates every solution at fixed m0, and on a grid of 12001 direct masses a second
+branch, the electron's determinant positive, fits all three masses for 1.028484 < m0 < 1.081583 MeV (the report's 10 TeV example at its lower end);
+each one-scale construction has two isolated exact fits with |m0| < Lam, the direct mass the smaller entry (near-zero, near 1.03 MeV), their mirrors excluded.  The transport repairs: the
+Fermi-Walker benchmark started at B(u(0)) converges at second order (v36.12-1(c) now does); the thin-loop first variation needs the curvature
+transported to one fiber; the sewing datum H_0 makes P_1 H_0 P_2^dag covariant; j^-1 e^(i chi) g j = e^(-i chi) rho(g), so the spin identity is not a
+charge-preserving twist; the trine's 2/3 success probability.  The SO(4) elements preserving the Hopf fibration: b in the normalizer of U(1), not the
+center's stabilizer.  Entry 365: the apsidal residence time as sqrt(delta); an exponential gnomonic image needs an attenuation diverging at the equator.
+Entry 366: the response's square d_n^2 = 1 + sqrt2 cos theta_n + (1/2) cos 2 theta_n is the two-hop product a_+ a_-; the half-turn about the body diagonal attains
+the real-frame bound 4/9 with spinor half-angle pi/2; the S^3 cap volume 2 pi ell^3 (chi - sin(2 chi)/2); the point source's csc chi + 2 sin chi has no linear
+angle term, while the Green functions of a single pole on S^3 carry (pi - chi) for the plain Laplacian and for Delta + 3 alike, and PG's even source needs none;
+a flat connection's contractible holonomy is the identity.
+
+v36_13_quick(): v36_12_quick plus the three v36.13 sections.
 """
 import numpy as np
 PI = np.pi
@@ -22669,13 +22691,14 @@ def v36_10_chiral(ex=None):
     print("     seesaw, as in Davidson and Wali 1987), the hops being Yukawa terms with the scalar doublets phi_L and phi_R, whose vevs are v_L/sqrt2 and")
     print("     v_R/sqrt2.  The dimension-five term, (l_L-bar phi_L)(phi_R^dagger l_R)/M, is generated by integrating out E with the seesaw's own flavor")
     print("     structure; another source with a flavor-blind structure gives a direct mass m0 = v_L v_R/(2M).  A flavor-blind m0 moves the electron-to-muon")
-    print(f"     ratio by about m0/m_e, so with one hop scale (v36.11, R388) the exact-angle test bounds it: below m0 = {m0_cf:.2e} MeV (-delta r m_mu/(1 - r), r the ideal ratio) no exact fit exists,")
+    print(f"     ratio by about m0/m_e, so with one hop scale (v36.11, R388) the exact-angle test bounds it: below m0 = {m0_cf:.2e} MeV (-delta r m_mu/(1 - r), r the ideal ratio) no exact fit exists (for |m0| < Lam, v36.13-1(d)),")
     print(f"     and m0 = +{m0_1s:.1e} MeV brings the dual factors' tau to one standard deviation below the measured value.  With v_L = {v:.2f} GeV (from G_F) and, as an illustration,")
     print(f"     v_R = 10 TeV, a flavor-blind operator with |C5| = 1, its direct mass held below the size of the one-scale boundary, {abs(m0_cf):.2e} MeV (about {abs(m0_cf)*1e6:.0f} eV),")
     print(f"     needs M >= {M5:.1e} GeV -- a condition on that coefficient, not a limit on every completion; with one hop scale the allowed direct mass is a signed")
     print("     interval; with two independent hop scales the same hop's is unchanged, and the dual factors' is set by the tau, exact fits existing for")
-    print("     -8.446 < m0 < +113.612 eV (v36.11, R388; v36.11-1(c), (d)).  This does not reach the eV level at which the tau's test (v36.10-1(e)) needs the zero")
-    print("     block: the direct masses that let either one-scale construction fit all three masses lie inside the interval.")
+    print("     -8.446 < m0 < +113.612 eV (v36.11, R388; v36.11-1(c), (d)) -- on the branch connected to the zero-block solution; a second branch near 1.03 MeV fits all three")
+    print("     masses too (v36.13-1).  On the first branch this does not reach the eV level at which the tau's test (v36.10-1(e)) needs the zero block: the near-zero direct masses")
+    print("     that let either one-scale construction fit all three masses lie inside the interval, and each construction has one more exact fit near 1.03 MeV (v36.13-1(d)).")
     # (b) two hop scales: the spectrum
     muL, muR, Lam = 3.0e5, 1.7e5, 4.0e7
     Ms = np.block([[np.zeros((3, 3)), muL*np.diag(ap)], [muR*np.diag(am), Lam*np.eye(3)]])
@@ -22768,7 +22791,7 @@ def v36_10_chiral(ex=None):
           and abs(zz['L']['mt'] - 1776.8187) < 2e-4 and abs(zz['R']['mt'] - 1776.7271) < 2e-4 and abs(zz['L']['Lam']/1.5942e7 - 1) < 1e-3 and abs(zz['L']['other']/1.09744e5 - 1) < 1e-4
           and abs(adm[0]/3.5e-5 - 1) < 0.03)
     check(ok, f"the chiral version: with a bare right hop the zero block a choice of basis (the rotation trading the right hop for the seesaw mass in the direct entry); "
-          f"a charged scalar for the right hop protects it, up to a dimension-five term the exact-angle test constrains with one hop scale (no fit below m0 = {m0_cf:.2e} MeV, a signed interval; with two scales the same hop's unchanged and the dual factors' set by the tau; v36.11, R388); the two-scale "
+          f"a charged scalar for the right hop protects it, up to a dimension-five term the exact-angle test constrains with one hop scale (no fit below m0 = {m0_cf:.2e} MeV for |m0| < Lam, a signed interval; with two scales the same hop's unchanged and the dual factors' set by the tau; v36.11, R388; v36.13-1(d)); the two-scale "
           f"spectrum against its closed form; the same hop's m_tau robust ({same_split[1]:.4f} MeV); the dual factors with two scales m_tau < {mt_end:.4f} MeV, falling "
           f"along eps_R/eps_L; the measured tau fixing eps_R/eps_L = {s0['eR']/s0['eL']:.3f} and Lam = {s0['Lam']/1e6:.1f} TeV; mu_L = M_Z: m_tau = {zz['L']['mt']:.4f} MeV")
     print("   [T] The charge identity; the rotation; the two-scale spectrum.  [V] The fits, the scan and the supremum.  [S] The gauge structure, the hops as")
@@ -23006,7 +23029,7 @@ def v36_11_z_statistics():
     fit_lo = _v36_11_fit_m0('dual', thr*(1 - 1e-4), solves); fit_below = _v36_11_fit_m0('dual', thr*(1 + 1e-3), solves)
     fit_lo_s = _v36_11_fit_m0('same', thr*(1 - 1e-4), solves); fit_below_s = _v36_11_fit_m0('same', thr*(1 + 1e-3), solves)
     print(f"   (c) The signed direct-mass interval, with one hop scale [V].  With a flavor-blind direct mass m0 (in the light block; a positive m0 lowers each light mass by")
-    print(f"     about m0) and one hop scale (m* and Lam fitted, mu = sqrt(m* Lam) on both hops), no exact fit exists below m0 = {thr*1e6:.4f} eV (-delta r m_mu/(1 - r); a fit at")
+    print(f"     about m0) and one hop scale (m* and Lam fitted, mu = sqrt(m* Lam) on both hops), no exact fit exists below m0 = {thr*1e6:.4f} eV for |m0| < Lam (v36.13-1(d); -delta r m_mu/(1 - r); a fit at")
     print(f"     {thr*(1 - 1e-4)*1e6:.4f} eV, none at {thr*(1 + 1e-3)*1e6:.4f}), for either construction.  Above it the tau sets the other end.  The tau (MeV) against m0 (eV), the electron")
     print("     and the muon fitted:")
     for name, lab in (("same", "the same hop twice"), ("dual", "the dual factors")):
@@ -23041,16 +23064,17 @@ def v36_11_z_statistics():
     print("     fits e and mu toward a supremum, approached as one hop's eps -> 0 (Lam -> infinity at fixed m*), where the light masses are exactly")
     print("     |m* a_+ a_- - m0|/sqrt(1 + eps w): w = a_-^2 as eps_A -> 0 below the one-scale threshold, a_+^2 as eps_B -> 0 above it.  The supremum (MeV):")
     print("       " + ", ".join(f"m0 = {m0:+.0f} eV: {v:.4f}" for m0, v in sup.items()))
-    print(f"     (the full model at eps_B/eps_A = 1e6 gives {full_lo[0]:.4f} at -20 eV, and at 1e-6 {full_hi[0]:.4f} at +200 eV).  So exact three-mass fits exist only for")
+    print(f"     (the full model at eps_B/eps_A = 1e6 gives {full_lo[0]:.4f} at -20 eV, and at 1e-6 {full_hi[0]:.4f} at +200 eV).  So on this branch -- the one continuously connected to the")
+    print(f"     zero-block solution, all three determinants m0 Lam - mu_A mu_B a_+ a_- negative; v36.13-1 finds a second, the electron's determinant positive, near 1.03 MeV -- exact three-mass fits exist only for")
     print(f"     {win[('lo', 0)]:.3f} < m0 < {win[('hi', 0)]:+.3f} eV -- the full model fits all three at -8.40 eV (mu_A = {two[-8.40]['muA']/1e3:.1f} GeV, mu_B = {two[-8.40]['muB']/1e3:.0f} GeV,")
     print(f"     Lam = {two[-8.40]['Lam']/1e6:.1f} TeV; eps_B/eps_A = {(two[-8.40]['muB']/two[-8.40]['muA'])**2:.1f}) and at +113.5 eV ({two[113.5]['muA']/1e3:.0f} GeV, {two[113.5]['muB']/1e3:.1f} GeV, {two[113.5]['Lam']/1e6:.1f} TeV; {(two[113.5]['muB']/two[113.5]['muA'])**2:.1e}) --")
     print(f"     and the tau within one standard deviation needs {win[('lo', 1)]:.3f} < m0 < {win[('hi', 1)]:+.3f} eV ({win[('lo', 2)]:.3f} and {win[('hi', 2)]:+.3f} at two).  The interval")
-    print("     above is the one-scale model's.")
+    print("     above is the one-scale model's, on the same branch (v36.13, the report on v36.12: the lepton data alone do not impose these eV intervals on the unrestricted matrix).")
     vL = _v36_11_vL(); Mreq = vL*_V3611_VR/(2*abs(thr))/1e3; Mreq2 = vL*_V3611_VR/(2*abs(win[('lo', 0)])*1e-6)/1e3
     print(f"   (d) The dimension-five coefficient, as a condition [S].  A flavor-blind operator C5 (lbar_L phi_L)(phi_R^dag l_R)/M gives m0 = C5 v_L v_R/(2M), so a tolerance")
     print(f"     m_tol needs |C5| v_L v_R/(2M) <= m_tol: with |C5| = 1, v_R = 10 TeV and m_tol = {abs(thr)*1e6:.2f} eV, the one-scale boundary taken as a tolerance,")
-    print(f"     M >= {Mreq:.1e} GeV -- a requirement on that coefficient, not a limit on every completion.  With two hop scales the dual factors' boundary is the tau's,")
-    print(f"     {win[('lo', 0)]:.2f} eV for an exact fit, which needs M >= {Mreq2:.1e} GeV.  Three contributions are distinct: the operator the heavy partner itself")
+    print(f"     M >= {Mreq:.1e} GeV -- a requirement on that coefficient, not a limit on every completion.  With two hop scales the dual factors' boundary on this branch is the tau's,")
+    print(f"     {win[('lo', 0)]:.2f} eV for an exact fit, which needs M >= {Mreq2:.1e} GeV (on the second branch, v36.13-1(e), 1.2e9 GeV).  Three contributions are distinct: the operator the heavy partner itself")
     print("     generates (the mechanism, with the hops' flavor structure); independent matching terms with other flavor tensors; loops and symmetry-breaking")
     print("     spurions.  An allowed operator's coefficient must be computed or kept as a parameter; being allowed does not make it of order one.")
     nsolve = len(solves); maxres = max(r_ for r_, _ in solves)
@@ -23068,9 +23092,9 @@ def v36_11_z_statistics():
           and abs(Mreq/2.44e14 - 1) < 0.01 and maxres < 1e-12)
     check(ok, "the Z-linked identification: Lam from the muon in closed form; the electron's offsets (-0.97, +8.05 eV) with the muon's and the Z's errors propagated, "
           "pulls -87.0 and +722.5 (profile 87.02, 722.54), against -6454 and +53656 for the electron's error alone; the three hypotheses; with one hop scale the "
-          "direct-mass interval signed (no fit below -5.0486 eV for either construction; the tau within 1 sigma up to -2.731 eV for the same hop, +6.017 eV for the "
-          "dual factors; -1.094, +13.836 at two); with two scales the same hop's interval unchanged and the dual factors' set by the tau (exact fits for "
-          "-8.446 < m0 < +113.612 eV, at -6, +40, -8.40 and +113.5 eV among them; the tau within 1 sigma for -16.617 < m0 < +399.405 eV); the dimension-five condition")
+          "direct-mass interval signed (no fit below -5.0486 eV for either construction, for |m0| < Lam, v36.13-1(d); the tau within 1 sigma up to -2.731 eV for the same hop, +6.017 eV for the "
+          "dual factors; -1.094, +13.836 at two); with two scales the same hop's interval unchanged and the dual factors' set by the tau on the branch connected to the zero-block solution (exact fits for "
+          "-8.446 < m0 < +113.612 eV, at -6, +40, -8.40 and +113.5 eV among them; the tau within 1 sigma for -16.617 < m0 < +399.405 eV; a second branch near 1.03 MeV in v36.13-1); the dimension-five condition")
     print("   [V] The pulls, the fits, the interval.  [S] The hypotheses' status; the dimension-five condition.  [O] A computed coefficient for the leak.")
     return dict(rows=rows, edges=edges, thr=thr)
 
@@ -23654,11 +23678,12 @@ def _v36_12_boost_to(u):
     gam = u[0]; v = u[1:]/gam; vn = np.linalg.norm(v)
     return np.eye(2, dtype=complex) if vn < 1e-15 else _v36_12_boost(np.arctanh(vn)*v/vn)
 
-def _v36_12_fw(u_of, taus):
+def _v36_12_fw(u_of, taus, g0=None):
     """Fermi-Walker transport of the rest-frame spinor frame along a worldline in flat spacetime, in SL(2,C): the frame g with Lambda(g) rest -> u(tau),
     advanced by the pure boost measured in the frame g carries (XX.8a's horizontal lift: successive pure boosts in the momentary transported frame).
-    X = u.sigmabar transforms as X -> g X g^dag, so the increment is read from g^-1 X(tau_k+1) g^-dag.  Returns g at the last tau."""
-    S = _v36_12_sigma(); I2 = np.eye(2, dtype=complex); g = I2.copy()
+    X = u.sigmabar transforms as X -> g X g^dag, so the increment is read from g^-1 X(tau_k+1) g^-dag.  Starts at g0 (the identity when None: a worldline
+    leaving rest; a frame with g0 g0^dag = u(tau_0).sigmabar otherwise -- v36.13, the report on v36.12's 5.5).  Returns g at the last tau."""
+    S = _v36_12_sigma(); I2 = np.eye(2, dtype=complex); g = I2.copy() if g0 is None else np.array(g0, dtype=complex)
     for k in range(len(taus) - 1):
         u1 = u_of(taus[k + 1]); gi = np.linalg.inv(g)
         X1 = u1[0]*I2 + sum(u1[i + 1]*S[i] for i in range(3)); Xr = gi @ X1 @ gi.conj().T
@@ -23710,14 +23735,14 @@ def v36_12_limiting_map():
     for v in (0.3, 0.6, 0.9):
         gam = 1/np.sqrt(1 - v**2); taus = np.linspace(0, 1, 12001)
         uc = lambda t, v=v, gam=gam: np.array([gam, gam*v*np.cos(2*PI*t), gam*v*np.sin(2*PI*t), 0.0])
-        g = _v36_12_fw(uc, taus); Bf = _v36_12_boost_to(uc(1.0)); U = np.linalg.inv(Bf) @ g
+        g = _v36_12_fw(uc, taus, _v36_12_boost_to(uc(0.0))); Bf = _v36_12_boost_to(uc(1.0)); U = np.linalg.inv(Bf) @ g         # started at the orbit's own initial frame (v36.13)
         E = expm(1j*2*PI*(gam - 1)*s3/2)                                                        # retrograde about z: exp(-i(-theta) sigma_z/2)
         th[v] = (np.linalg.norm(U - E), np.linalg.norm(polar(U)[1] - I2), gam)
     print("   (c) The transport [V].  XX.8a's horizontal lift along a worldline is Fermi-Walker transport: successive pure boosts in the momentary transported frame,")
     print("     here integrated in SL(2,C) with the increment read in the frame carried (X = u.sigmabar -> g X g^dag).  Around a circular orbit the frame returns as")
     nb = lambda x: f"<{10.0**np.ceil(np.log10(x)):.0e}"                                           # the next power of ten: a discretization error, binned
     print("     g = B(u) U with U the Thomas rotation exp(i pi (gamma - 1) sigma_z) -- retrograde for the orbit counterclockwise about +z, in XX.7's U_z(phi) = exp(-i phi sigma_z/2) --")
-    print("     to " + ", ".join(nb(th[v][0]) for v in th) + f" at v = 0.3, 0.6, 0.9 (12000 steps; residual boost " + ", ".join(_v36_8_r(th[v][1]) for v in th) + ").")
+    print("     to " + ", ".join(nb(th[v][0]) for v in th) + f" at v = 0.3, 0.6, 0.9 (12000 steps, the frame started at B(u(0)) -- v36.13-2(a); residual boost " + ", ".join(_v36_8_r(th[v][1]) for v in th) + ").")
     # (d) the doubled history: two legs from a common start, converging as r -> 0; the Cartan comparison tends to B(u)^2, the same-representation one to I
     def leg(r):
         def u(t):
@@ -23760,7 +23785,7 @@ def v36_12_limiting_map():
     lin_same = all(abs(same[rs[i]]/rs[i] / (same[rs[-1]]/rs[-1]) - 1) < 0.15 for i in range(len(rs)))
     lin_fam = all(abs(fam[r][0]/r / (fam[0.025][0]/0.025) - 1) < 0.15 and abs(fam[r][1]/r / (fam[0.025][1]/0.025) - 1) < 0.15 for r in fam)
     ok = (lin_same and same[0.025] < 0.2 and all(twist[r] > 0.1 for r in rs) and np.linalg.norm(P1sq - I2) > 1 and e_j < 1e-12
-          and all(th[v][0] < 1e-3 and th[v][1] < 1e-10 for v in th) and lin_fam and fam[0.025][0] < 0.05 and fam[0.025][1] < 0.05 and fam[0.025][2] < 0.05
+          and all(th[v][0] < 1e-5 and th[v][1] < 1e-10 for v in th) and lin_fam and fam[0.025][0] < 0.05 and fam[0.025][1] < 0.05 and fam[0.025][2] < 0.05
           and e_B2 < 1e-12 and e_X < 1e-12 and e_alt < 1e-12 and e_rel > 0.01 and e_pair < 1e-12 and e_U < 1e-12 and e_dirac < 1e-12)
     check(ok, "the limiting map: one connection in one representation gives W(r) -> I linearly in r, the Cartan-twisted reading gives P_1 P_1^dag; rho(g) xi = j^-1(g(j xi)); "
           "Fermi-Walker transport in SL(2,C) returns the Thomas rotation exp(i pi (gamma - 1) sigma_z) at v = 0.3, 0.6, 0.9; for two legs separating to order r g_1 g_2^dag -> B(u)^2 = u.sigmabar "
@@ -23907,6 +23932,426 @@ def v36_12_suite():
 def v36_12_quick():
     """v36_11_quick plus the two v36.12 sections."""
     v36_11_quick(); v36_12_limiting_map(); v36_12_quotients()
+# ==================================================================================================== v36.13 (23 October 2026): sections
+# The review of v36.12, the referee report on v36.12 and Entry 365 with its response: the direct-mass branches of the seesaw blocks enumerated by a
+# quartic (the report's required correction: the eV intervals are one branch's; a second branch near 1.03 MeV fits all three masses); the transport
+# repairs (the Fermi-Walker benchmark started at its own velocity, the first variation with transported curvature, the sewing datum H_0 and its
+# covariance, the charge phase under j, the trine's distinguishability); the SO(4) elements that preserve the Hopf fibration; Entry 365's kinematics.
+
+def _v36_13_sv0(m0, x, y, Lam):
+    """The small and the large singular value of [[m0, x], [y, Lam]] per flavor mode, and the determinant: light = |det|/heavy, heavy^2 = (S + sqrt(S^2 - 4 det^2))/2."""
+    det = m0*Lam - x*y; S = m0**2 + x**2 + y**2 + Lam**2; heavy = np.sqrt((S + np.sqrt(S**2 - 4*det**2))/2); return np.abs(det)/heavy, heavy, det
+
+def _v36_13_quartic(m0, a, b, masses, smaller=True):
+    """All admissible solutions (mu_A, mu_B, Lam) > 0 of the three exact light-mass equations for the blocks [[m0, mu_A a_n], [mu_B b_n, Lam]] at fixed m0
+    (the report on v36.12, section 3.6), with |m0| < Lam when smaller is True -- the direct mass the smaller diagonal entry, the convention under which the
+    blocks are read; the singular values are invariant under m0 <-> Lam and under (m0, Lam) -> (-m0, -Lam), so every solution has mirrors with the roles exchanged.  With X = mu_A^2, Y = mu_B^2, P = mu_A mu_B and t = Lam/P, the condition that m_n is a singular value reads
+    A_n X + B_n Y - K_n(t) P^2 = m_n^2 - m0^2 with A_n = a_n^2, B_n = b_n^2, K_n(t) = (m0 t - c_n)^2/m_n^2 - t^2, c_n = a_n b_n: for fixed t three linear
+    equations in (X, Y, P^2), solved by Cramer's rule with D(t), N_X(t), N_Y(t) quadratic in t and C constant, so that X Y = P^2 is the quartic
+    N_X N_Y - C D = 0.  Each positive real root with X, Y, P^2 > 0 is polished on the full equations; a solution is kept when every target mass is the
+    SMALL singular value of its mode (relative residual below 1e-10).  Returns a list of dicts with the determinant signs (tau, e, mu)."""
+    from scipy.optimize import fsolve
+    A = a**2; B = b**2; c = a*b; rhs = masses**2 - m0**2
+    k2 = m0**2/masses**2 - 1; k1 = -2*m0*c/masses**2; k0 = c**2/masses**2
+    AxB = np.cross(A, B); rxB = np.cross(rhs, B); Axr = np.cross(A, rhs); C = AxB @ rhs
+    D = -np.array([AxB @ k2, AxB @ k1, AxB @ k0]); NX = -np.array([rxB @ k2, rxB @ k1, rxB @ k0]); NY = -np.array([Axr @ k2, Axr @ k1, Axr @ k0])
+    F = np.polysub(np.polymul(NX, NY), C*D); out = []
+    for r_ in np.roots(F):
+        if abs(r_.imag) > 1e-6*max(1.0, abs(r_.real)) or r_.real <= 0: continue
+        t = r_.real; Dt = np.polyval(D, t)
+        if Dt == 0: continue
+        X, Y, P2 = np.polyval(NX, t)/Dt, np.polyval(NY, t)/Dt, C/Dt
+        if not (X > 0 and Y > 0 and P2 > 0): continue
+        g0 = np.log10([np.sqrt(X), np.sqrt(Y), t*np.sqrt(P2)])
+        def eqs(p):
+            return _v36_13_sv0(m0, 10**p[0]*a, 10**p[1]*b, 10**p[2])[0]/masses - 1
+        with np.errstate(all='ignore'):
+            x, info, ier, msg = fsolve(eqs, g0, xtol=1e-14, full_output=True)
+        res = float(np.max(np.abs(eqs(x))))
+        if res < 1e-10:
+            muA, muB, Lam = 10**x; light, heavy, det = _v36_13_sv0(m0, muA*a, muB*b, Lam)
+            if smaller and not abs(m0) < Lam: continue
+            if not any(abs(muA/o_['muA'] - 1) < 1e-6 and abs(muB/o_['muB'] - 1) < 1e-6 and abs(Lam/o_['Lam'] - 1) < 1e-6 for o_ in out):     # two roots can polish to one solution
+                out.append(dict(muA=float(muA), muB=float(muB), Lam=float(Lam), res=res, sgn=tuple(int(s_) for s_ in np.sign(det)), t=float(t)))
+    return out
+
+def _v36_13_end(lo, hi, a, b, masses):
+    """An end of a branch: the direct mass at which the quartic's root meets a pole of Cramer's rule, D(t) = 0, where X, Y or P^2 run to infinity (Lam -> infinity).
+    The quartic F and the quadratic D of _v36_13_quartic are formed at m0; with t_D the positive roots of D (sorted, largest first), the sign of F(t_D) changes
+    across the end, and brentq on m0 locates it -- polynomial arithmetic only, so the value does not depend on the solver."""
+    from scipy.optimize import brentq
+    def FD(m0):
+        A = a**2; B = b**2; c = a*b; rhs = masses**2 - m0**2; k2 = m0**2/masses**2 - 1; k1 = -2*m0*c/masses**2; k0 = c**2/masses**2
+        AxB = np.cross(A, B); rxB = np.cross(rhs, B); Axr = np.cross(A, rhs); C = AxB @ rhs
+        D = -np.array([AxB @ k2, AxB @ k1, AxB @ k0]); NX = -np.array([rxB @ k2, rxB @ k1, rxB @ k0]); NY = -np.array([Axr @ k2, Axr @ k1, Axr @ k0])
+        F = np.polysub(np.polymul(NX, NY), C*D); tD = sorted([r_.real for r_ in np.roots(D) if abs(r_.imag) < 1e-12 and r_.real > 0], reverse=True)
+        return [np.polyval(F, t_)/np.max(np.abs(F)) for t_ in tD]
+    flo, fhi = FD(lo), FD(hi)
+    for k_ in range(min(len(flo), len(fhi))):
+        if flo[k_]*fhi[k_] < 0:
+            return brentq(lambda m0, k_=k_: FD(m0)[k_], lo, hi, xtol=1e-16, rtol=1e-14)
+    return None
+
+def _v36_13_onescale(a, b, masses, grid):
+    """One hop scale mu (X = Y = mu^2): the three exact-mass equations in the three unknowns (m0, mu, Lam) have isolated solutions.  For fixed (m0, t) the
+    equations (A_n + B_n) X - K_n(t) Q = m_n^2 - m0^2 are linear in (X, Q = P^2 = X^2); their consistency det[A + B, -K(t), rhs] = 0 is a quadratic in t,
+    and with t a root, X and Q follow from two of the equations; the remaining condition Q = X^2, written pole-free as G = N_Q D_M - N_X^2 = 0 with Cramer's
+    numerators and the 2 x 2 determinant, is a function of m0 whose sign changes on the grid locate the solutions, each polished on the full equations."""
+    from scipy.optimize import fsolve
+    A = a**2; B = b**2; c = a*b; AB = A + B
+    def G_all(m0):
+        rhs = masses**2 - m0**2; k2 = m0**2/masses**2 - 1; k1 = -2*m0*c/masses**2; k0 = c**2/masses**2
+        v_ = np.cross(AB, rhs); quad = -np.array([v_ @ k2, v_ @ k1, v_ @ k0]); out = []
+        for r_ in sorted([r.real for r in np.roots(quad) if abs(r.imag) < 1e-9*max(1.0, abs(r.real)) and r.real > 0], reverse=True):
+            t = r_; K = k2*t**2 + k1*t + k0
+            DM = AB[0]*(-K[1]) - (-K[0])*AB[1]; NXv = rhs[0]*(-K[1]) - (-K[0])*rhs[1]; NQ = AB[0]*rhs[1] - rhs[0]*AB[1]
+            out.append((t, NQ*DM - NXv**2, NXv/DM if DM else np.nan, NQ/DM if DM else np.nan))
+        return out
+    sols = []; prev = None
+    for i_, m0 in enumerate(grid):
+        cur = G_all(m0)
+        if prev and len(cur) == len(prev):
+            for (t, G, X, Q), (tp, Gp, Xp, Qp) in zip(cur, prev):
+                if G*Gp < 0 and abs(np.log(t/tp)) < 0.3:
+                    Xg = X if X > 0 else Xp; Qg = Q if Q > 0 else Qp
+                    if not (Xg > 0 and Qg > 0): continue
+                    def eqs(p):
+                        return _v36_13_sv0(p[0], 10**p[1]*a, 10**p[1]*b, 10**p[2])[0]/masses - 1
+                    g_ = [0.5*(m0 + grid[i_ - 1]), 0.5*np.log10(Xg), np.log10(t*np.sqrt(Qg))]
+                    with np.errstate(all='ignore'):
+                        x, info, ier, msg = fsolve(eqs, g_, xtol=1e-14, full_output=True)
+                    res = float(np.max(np.abs(eqs(x))))
+                    if res < 1e-10:
+                        mu, Lam = 10**x[1], 10**x[2]; light, heavy, det = _v36_13_sv0(x[0], mu*a, mu*b, Lam)
+                        sols.append(dict(m0=float(x[0]), mu=float(mu), Lam=float(Lam), res=res, sgn=tuple(int(s_) for s_ in np.sign(det)), smaller=bool(abs(x[0]) < Lam)))
+        prev = cur
+    uniq = []
+    for s_ in sols:
+        if not any(abs(s_['m0'] - u['m0']) < 1e-7*max(1.0, abs(s_['m0'])) and abs(s_['mu']/u['mu'] - 1) < 1e-5 for u in uniq): uniq.append(s_)
+    return sorted(uniq, key=lambda s_: s_['m0'])
+
+def v36_13_branches():
+    print("\n== v36.13-1. The direct-mass branches: the eV intervals of v36.11-1(c) are one branch's, and a second branch near 1.03 MeV fits all three masses (the referee report on v36.12, section 3; R401) ==")
+    print("   The report: the statement that with two independent dual-hop scales exact three-mass fits exist only for -8.446 < m0 < +113.612 eV is false globally for")
+    print("   the mass matrices as written -- it describes the branch continuously connected to the zero-direct-mass solution, on which all three determinants")
+    print("   m0 Lam - mu_A mu_B a_+ a_- are negative.  Its counterexample keeps the exact angles and the dual factors and fits all three masses with a 10 TeV")
+    print("   heavy partner at m0 = 1.028 MeV, the electron's determinant positive.  Its section 3.6 gives the algebraic route to every branch at fixed m0: a quartic.")
+    print("   Throughout, the direct mass is the smaller diagonal entry, |m0| < Lam: the blocks' singular values are invariant under m0 <-> Lam and under (m0, Lam) -> (-m0, -Lam),")
+    print("   so every solution has mirrors with the roles of the direct mass and the heavy scale exchanged, which that convention excludes (see (d)).")
+    me, mmu, mtau = _V368_MASSES; masses = np.array([mtau, me, mmu]); d, ap, am = _v36_10_exact()
+    # (a) the report's counterexamples, reproduced
+    m0c, muAc, muBc, Lc = 1.0284839364105727, 8598.329913543436, 737172.7775304100, 1.0e7
+    light, heavy, det = _v36_13_sv0(m0c, muAc*ap, muBc*am, Lc); res_c = np.max(np.abs(light/masses - 1))
+    one_c = {'dual': (1.031297316616511, 8817.296879233462, 121976.9768189071), 'same': (1.027261429147080, 10753.45631473689, 182339.9836554575)}
+    res_one = {}
+    for name, (m0_, mu_, L_) in one_c.items():
+        a_, b_ = (ap, am) if name == 'dual' else (d, d); l_, h_, d_ = _v36_13_sv0(m0_, mu_*a_, mu_*b_, L_); res_one[name] = (np.max(np.abs(l_/masses - 1)), tuple(int(s_) for s_ in np.sign(d_)), np.all(l_ < h_))
+    sgn0 = tuple(int(s_) for s_ in np.sign(_v36_13_sv0(0.0, 180.1e3*ap, 302.3e3*am, 86.7e6)[2]))
+    print(f"   (a) The counterexample [V].  With the exact angles, the dual factors, m0 = {m0c:.6f} MeV, mu_A = {muAc/1e3:.6f} GeV, mu_B = {muBc/1e3:.4f} GeV and Lam = 10 TeV the light")
+    print(f"     singular values are the tau, the electron and the muon to {_v36_8_r(res_c)} (relative), the heavy ones {heavy[0]/1e6:.4f}, {heavy[1]/1e6:.4f}, {heavy[2]/1e6:.4f} TeV, and the determinants have")
+    print(f"     signs ({', '.join('+' if s_ > 0 else '-' for s_ in np.sign(det))}) -- the electron's positive -- against ({', '.join('+' if s_ > 0 else '-' for s_ in sgn0)}) on the branch v36.11 followed (at m0 = 0 the determinants are -mu_A mu_B a_+ a_-, all negative).")
+    print(f"     Its one-scale examples: the dual factors with equal hop scales at m0 = {one_c['dual'][0]:.6f} MeV, mu = {one_c['dual'][1]/1e3:.6f} GeV, Lam = {one_c['dual'][2]/1e3:.4f} GeV ({_v36_8_r(res_one['dual'][0])}, signs"
+          f" ({', '.join('+' if s_ > 0 else '-' for s_ in res_one['dual'][1])})); the same hop twice at m0 = {one_c['same'][0]:.6f} MeV, mu = {one_c['same'][1]/1e3:.6f} GeV, Lam = {one_c['same'][2]/1e3:.4f} GeV ({_v36_8_r(res_one['same'][0])}, signs"
+          f" ({', '.join('+' if s_ > 0 else '-' for s_ in res_one['same'][1])})).  Every target mass is the small singular value of its mode; all hop scales and the heavy scale are positive.")
+    # (b) the quartic at the v36.11 points and at the report's
+    pts = {}
+    for m0eV in (-6.0, 40.0, -8.40, 113.5):
+        pts[m0eV] = _v36_13_quartic(m0eV*1e-6, ap, am, masses)
+    q_c = _v36_13_quartic(m0c, ap, am, masses); q_103 = _v36_13_quartic(1.03, ap, am, masses)
+    print("   (b) The quartic [T/V].  At fixed m0 the three exact-mass equations for [[m0, mu_A a_n], [mu_B b_n, Lam]] reduce, with X = mu_A^2, Y = mu_B^2, P = mu_A mu_B and")
+    print("     t = Lam/P, to A_n X + B_n Y - K_n(t) P^2 = m_n^2 - m0^2, K_n(t) = (m0 t - a_n b_n)^2/m_n^2 - t^2: linear in (X, Y, P^2) for fixed t, so that X Y = P^2 is a")
+    AxB_ = np.cross(ap**2, am**2); m0sq_C0 = (AxB_ @ masses**2)/(AxB_ @ np.ones(3))
+    print(f"     quartic in t whose positive roots with X, Y, P^2 > 0, polished and kept only when every target is the small singular value, are ALL the solutions (a finite")
+    print(f"     solution at a pole D(t) = 0 would need C = det[A, B, rhs] = 0, which happens only at m0^2 = {m0sq_C0:.3e} MeV^2 -- no real m0).")
+    for m0eV in (-6.0, 40.0, -8.40, 113.5):
+        s_ = [x_ for x_ in pts[m0eV] if x_['sgn'] == (-1, -1, -1)]
+        print(f"     m0 = {m0eV:+.2f} eV: {len(pts[m0eV])} admissible solution(s); on the (-, -, -) branch mu_A = {s_[0]['muA']/1e3:.1f} GeV, mu_B = {s_[0]['muB']/1e3:.1f} GeV, Lam = {s_[0]['Lam']/1e6:.1f} TeV -- v36.11-1(c)'s fit.")
+    s_c = [x_ for x_ in q_c if x_['sgn'] == (-1, 1, -1)]; s_103 = [x_ for x_ in q_103 if x_['sgn'] == (-1, 1, -1)]
+    print(f"     m0 = {m0c:.6f} MeV: {len(q_c)} admissible solution(s); on the (-, +, -) branch mu_A = {s_c[0]['muA']/1e3:.4f} GeV, mu_B = {s_c[0]['muB']/1e3:.2f} GeV, Lam = {s_c[0]['Lam']/1e6:.3f} TeV -- the report's")
+    print(f"     counterexample; m0 = 1.03 MeV: mu_A = {s_103[0]['muA']/1e3:.4f} GeV, mu_B = {s_103[0]['muB']/1e3:.4f} GeV, Lam = {s_103[0]['Lam']/1e3:.2f} GeV -- its two-scale solution at 1.03 MeV.")
+    # (c) the branch map on a declared grid, and the ends by bisection
+    grid = np.concatenate([-np.logspace(-9, 3, 6000)[::-1], [0.0], np.logspace(-9, 3, 6000)])
+    found = {}
+    for m0 in grid:
+        for x_ in _v36_13_quartic(m0, ap, am, masses): found.setdefault(x_['sgn'], []).append(m0)
+    ends = {('mmm', 'lo'): _v36_13_end(-9e-6, -8e-6, ap, am, masses), ('mmm', 'hi'): _v36_13_end(110e-6, 120e-6, ap, am, masses),
+            ('mpm', 'lo'): _v36_13_end(1.02, 1.03, ap, am, masses), ('mpm', 'hi'): _v36_13_end(1.08, 1.10, ap, am, masses)}
+    e_lo = _v36_13_quartic(ends[('mpm', 'lo')]*(1 + 1e-6), ap, am, masses); e_hi = _v36_13_quartic(ends[('mpm', 'hi')]*(1 - 1e-6), ap, am, masses)
+    e_lo = [x_ for x_ in e_lo if x_['sgn'] == (-1, 1, -1)]; e_hi = [x_ for x_ in e_hi if x_['sgn'] == (-1, 1, -1)]
+    pats = sorted(found.keys()); other = [p_ for p_ in pats if p_ not in ((-1, -1, -1), (-1, 1, -1))]
+    print(f"   (c) The branch map [V].  On a grid of {len(grid)} direct masses, +-10^-9 to +-10^3 MeV log-spaced (500 per decade) and 0, the quartic admits solutions with")
+    inside = all(ends[('mmm', 'lo')] <= m0 <= ends[('mmm', 'hi')] for m0 in found.get((-1, -1, -1), [])) and all(ends[('mpm', 'lo')] <= m0 <= ends[('mpm', 'hi')] for m0 in found.get((-1, 1, -1), []))
+    print(f"     {len(pats)} sign pattern(s): " + "; ".join(f"({', '.join('+' if s_ > 0 else '-' for s_ in p_)})" for p_ in pats) + f", every grid solution lying between the ends below ({'yes' if inside else 'NO'}).")
+    print(f"     The ends -- each of the four found is where the quartic's root meets a pole of Cramer's rule, Lam and one hop scale running to infinity: the (-, -, -) branch exists for {ends[('mmm', 'lo')]*1e6:.4f} < m0 < {ends[('mmm', 'hi')]*1e6:+.3f} eV (v36.11-1(c)'s -8.446 and")
+    print(f"     +113.612, recovered), the (-, +, -) branch for {ends[('mpm', 'lo')]:.6f} < m0 < {ends[('mpm', 'hi')]:.6f} MeV, mu_B running to infinity with Lam at the lower end and mu_A at the upper")
+    print(f"     (the roots at 10^-6 of each end have the (-, +, -) signs and mu_B, respectively mu_A, the larger scale: {'yes' if e_lo[0]['muB'] > e_lo[0]['muA'] and e_hi[0]['muA'] > e_hi[0]['muB'] else 'NO'}).  No other sign pattern appears on the grid{' (patterns seen: ' + str(other) + ')' if other else ''}; the heavy-root assignments")
+    print("     the roots also produce are excluded by the small-singular-value filter, as in XXXIV.23.  A branch narrower than the grid's 0.46% spacing would be missed: the map")
+    mir = _v36_13_sv0(Lc, muAc*ap, muBc*am, m0c); res_mir = np.max(np.abs(mir[0]/masses - 1))
+    print("     is a numerical classification on the declared grid, not a theorem, and it is for |m0| < Lam: by the two symmetries each branch has mirror images with the roles exchanged")
+    print(f"     (the counterexample's, m0 = 10 TeV with Lam = {m0c:.6f} MeV, fits the masses to {_v36_8_r(res_mir)} with signs ({', '.join('+' if s_ > 0 else '-' for s_ in np.sign(mir[2]))}) and is excluded by the convention).")
+    # (d) the one-scale models: all isolated exact fits on the grid
+    grid1 = np.concatenate([-np.logspace(-9, 6, 30000)[::-1], [0.0], np.logspace(-9, 6, 30000)])
+    one = {'same': _v36_13_onescale(d, d, masses, grid1), 'dual': _v36_13_onescale(ap, am, masses, grid1)}
+    print(f"   (d) One hop scale [V].  With (m0, mu, Lam) free the three equations have isolated solutions; the consistency quadratic and the pole-free sign test on a grid of {len(grid1)}")
+    print("     direct masses, +-10^-9 to +-10^6 MeV, find for each construction three on the grid -- two with |m0| < Lam and the m0 <-> Lam mirror of the second -- and the composite")
+    print("     mirror (m0, Lam) -> (-Lam, -m0) of the first lies beyond it; under the convention each construction has two:")
+    for name in ('same', 'dual'):
+        lab = "the same hop twice" if name == 'same' else "the dual factors, equal scales"
+        print(f"       {lab}: " + "; ".join(f"m0 = {s_['m0']*1e6:.3f} eV, mu = {s_['mu']/1e3:.1f} GeV, Lam = {s_['Lam']/1e3:.1f} GeV, signs ({', '.join('+' if x_ > 0 else '-' for x_ in s_['sgn'])})" if abs(s_['m0']) < 1e-3 else
+                                             f"m0 = {s_['m0']:.6f} MeV, mu = {s_['mu']/1e3:.4f} GeV, Lam = {s_['Lam']/1e3:.4f} GeV, signs ({', '.join('+' if x_ > 0 else '-' for x_ in s_['sgn'])})" if s_['m0'] < 1e3 else
+                                             f"m0 = {s_['m0']/1e3:.4f} GeV, mu = {s_['mu']/1e3:.4f} GeV, Lam = {s_['Lam']:.6f} MeV (the m0 <-> Lam mirror, |m0| > Lam, excluded)" for s_ in one[name]) + ".")
+    sm = {}
+    for name, (a_, b_) in (('same', (d, d)), ('dual', (ap, am))):
+        s1_ = one[name][0]; l_, h_, d_ = _v36_13_sv0(-s1_['Lam'], s1_['mu']*a_, s1_['mu']*b_, -s1_['m0']); sm[name] = (np.max(np.abs(l_/masses - 1)), -s1_['Lam'], -s1_['m0'])
+    print("       the composite mirrors (-Lam, -m0), beyond the grid: " + "; ".join(f"{'the same hop' if n_ == 'same' else 'the dual factors'} at m0 = {sm[n_][1]/1e6:.1f} TeV, Lam = {sm[n_][2]*1e6:.3f} eV ({_v36_8_r(sm[n_][0])})" for n_ in ('same', 'dual')) + ".")
+    print("     So the one-scale constructions, which v36.11-1(c) placed inside the eV interval, also fit all three masses exactly near 1.03 MeV on the (-, +, -) branch; the")
+    print("     near-zero fits are on the (-, -, -) branch, inside v36.11's signed interval, whose 'no fit below -5.0486 eV' is likewise a statement for |m0| < Lam.")
+    # (e) the dimension-five condition on the second branch
+    vL = _v36_11_vL(); M5 = vL*_V3611_VR/(2*ends[('mpm', 'lo')])/1e3
+    print(f"   (e) The dimension-five condition on the second branch [S].  A flavor-blind |C5| = 1 with v_R = 10 TeV gives m0 = v_L v_R/(2M), so m0 = {ends[('mpm', 'lo')]:.3f} MeV needs M = {M5:.1e} GeV,")
+    print("     against the 10^14 GeV of the eV branch: the lepton data alone do not impose the eV interval on the unrestricted matrix (the report's point); the eV")
+    print("     statements of v36.11-1(c)-(d) hold on the (-, -, -) branch, and a near-zero direct term is a hypothesis to state, not a consequence of the masses.")
+    print("   (f) Status.  [T] The quartic reduction and the mirror symmetry.  [V] The counterexamples, the branch map on its grid, the ends, the one-scale solutions.  [S] A chosen")
+    print("     branch or tolerance.  [O] Which branch, if either, a completion's interactions select; a continuum classification of the branches.")
+    ok = (res_c < 1e-12 and tuple(int(s_) for s_ in np.sign(det)) == (-1, 1, -1) and sgn0 == (-1, -1, -1) and all(np.abs(heavy/1e6 - np.array([10.0921, 10.0293, 10.0004])) < 1e-3)
+          and res_one['dual'][0] < 1e-12 and res_one['same'][0] < 1e-12 and res_one['dual'][1] == (-1, 1, -1) and res_one['same'][1] == (-1, 1, -1)
+          and all(len([x_ for x_ in pts[k] if x_['sgn'] == (-1, -1, -1)]) == 1 for k in pts)
+          and abs(pts[-6.0][0]['muA']/180.1e3 - 1) < 1e-3 and abs(pts[-6.0][0]['muB']/302.3e3 - 1) < 1e-3 and abs(pts[-6.0][0]['Lam']/86.7e6 - 1) < 1e-3
+          and abs(pts[40.0][0]['muA']/229.6e3 - 1) < 1e-3 and abs(pts[40.0][0]['muB']/67.9e3 - 1) < 2e-3 and abs(pts[40.0][0]['Lam']/24.8e6 - 1) < 2e-3
+          and len(s_c) == 1 and abs(s_c[0]['Lam']/1e7 - 1) < 1e-4 and abs(s_c[0]['muA']/muAc - 1) < 1e-5 and len(s_103) == 1 and abs(s_103[0]['Lam']/164326.8 - 1) < 1e-4
+          and set(pats) == {(-1, -1, -1), (-1, 1, -1)} and inside and len(found[(-1, -1, -1)]) > 4000 and 5 <= len(found[(-1, 1, -1)]) <= 20 and e_lo[0]['muB'] > e_lo[0]['muA'] and e_hi[0]['muA'] > e_hi[0]['muB']
+          and abs(ends[('mmm', 'lo')]*1e6 + 8.4457) < 2e-3 and abs(ends[('mmm', 'hi')]*1e6 - 113.612) < 2e-3
+          and abs(ends[('mpm', 'lo')] - 1.028484) < 1e-5 and abs(ends[('mpm', 'hi')] - 1.081583) < 1e-5
+          and len(one['same']) == 3 and len(one['dual']) == 3 and sum(s_['smaller'] for s_ in one['same']) == 2 and sum(s_['smaller'] for s_ in one['dual']) == 2
+          and res_mir < 1e-12 and abs(m0c) < Lc and sm['same'][0] < 1e-9 and sm['dual'][0] < 1e-9 and m0sq_C0 < 0
+          and abs(one['same'][0]['m0']*1e6 + 4.368) < 2e-3 and abs(one['dual'][0]['m0']*1e6 + 1.800) < 2e-3
+          and abs(one['same'][1]['m0'] - 1.027261) < 1e-5 and abs(one['dual'][1]['m0'] - 1.031297) < 1e-5 and abs(one['dual'][1]['Lam']/121977 - 1) < 1e-4 and abs(one['same'][1]['Lam']/182340 - 1) < 1e-4
+          and abs(M5/1.2e9 - 1) < 0.05)
+    check(ok, "the direct-mass branches: the report's 10 TeV counterexample (m0 = 1.028 MeV, signs (-, +, -)) and its one-scale examples reproduced; the quartic recovers v36.11's fits at "
+          "-6, +40, -8.40 and +113.5 eV on the (-, -, -) branch; the branch map on the declared grid shows two sign patterns, (-, -, -) for -8.446 < m0 < +113.612 eV and (-, +, -) for "
+          "1.028484 < m0 < 1.081583 MeV; each one-scale construction has two isolated exact fits with |m0| < Lam (near-zero on (-, -, -), near 1.03 MeV on (-, +, -)) and their mirrors; "
+          "the second branch's |C5| = 1 scale 1.2e9 GeV")
+    return dict(ends=ends, one=one)
+
+def _v36_13_curv(x, coef, Ta):
+    """The curvature F_ij = d_i A_j - d_j A_i + [A_i, A_j] of the affine sl(2,C) connection of v36.12-1(a) (A_k(x) = sum_a (coef[a,k,0] + coef[a,k,1:].x) T_a)."""
+    A = [sum((coef[a_, k_, 0] + coef[a_, k_, 1:] @ x)*Ta[a_] for a_ in range(6)) for k_ in range(3)]; F = np.zeros((3, 3, 2, 2), complex)
+    for i_ in range(3):
+        for j_ in range(3):
+            dAj_i = sum(coef[a_, j_, 1 + i_]*Ta[a_] for a_ in range(6)); dAi_j = sum(coef[a_, i_, 1 + j_]*Ta[a_] for a_ in range(6))
+            F[i_, j_] = dAj_i - dAi_j + A[i_] @ A[j_] - A[j_] @ A[i_]
+    return A, F
+
+def v36_13_transport():
+    print("\n== v36.13-2. Transport repairs, the Hopf-fibration normalizer and Entry 365's kinematics: the report on v36.12 (sections 5-7), the review (section 4) and the response to Entry 365 (R402) ==")
+    from scipy.linalg import expm, polar
+    S = _v36_12_sigma(); s1, s2, s3 = S; I2 = np.eye(2, dtype=complex)
+    rg = np.random.default_rng(3613)
+    # (a) the Fermi-Walker benchmark started at its own velocity: second-order convergence
+    conv = {}
+    for v in (0.3, 0.6, 0.9):
+        gam = 1/np.sqrt(1 - v**2); uc = lambda t, v=v, gam=gam: np.array([gam, gam*v*np.cos(2*PI*t), gam*v*np.sin(2*PI*t), 0.0]); E = expm(1j*2*PI*(gam - 1)*s3/2)
+        row = {}
+        for N in (400, 800, 1600):
+            taus = np.linspace(0, 1, N + 1); Bf = _v36_12_boost_to(uc(1.0))
+            eI = np.linalg.norm(np.linalg.inv(Bf) @ _v36_12_fw(uc, taus) - E); eB = np.linalg.norm(np.linalg.inv(Bf) @ _v36_12_fw(uc, taus, _v36_12_boost_to(uc(0.0))) - E)
+            row[N] = (eI, eB)
+        conv[v] = row
+    ordI = {v: np.log2(conv[v][400][0]/conv[v][1600][0])/2 for v in conv}; ordB = {v: np.log2(conv[v][400][1]/conv[v][1600][1])/2 for v in conv}
+    print("   (a) The benchmark's initial frame [V].  v36.12's circular benchmark started the frame at the identity although its velocity is nonzero at the first sample,")
+    print("     inserting a rest-to-first-sample boost and omitting the first segment of the intended transport (the report, 5.5).  Started at g_0 = B(u(0)), the error")
+    print("     against the Thomas rotation falls as the square of the step; from the identity, as the step:")
+    for v in conv:
+        print(f"       v = {v}: steps 400, 800, 1600 -> identity start " + ", ".join(_v36_8_r(conv[v][N][0]) if conv[v][N][0] < 1e-8 else f"{conv[v][N][0]:.1e}" for N in (400, 800, 1600)) + "; boost start " + ", ".join(f"{conv[v][N][1]:.1e}" for N in (400, 800, 1600)) + f" (orders {ordI[v]:.2f} and {ordB[v]:.2f})")
+    print("     v36.12-1(c) now starts at B(u(0)); its printed bins fall accordingly.  The legs of v36.12-1(d) start at rest and were right as they were.")
+    # (b) the first variation with transported curvature
+    Ta = [s_/2 for s_ in S] + [1j*s_/2 for s_ in S]; coef = np.random.default_rng(3612).normal(size=(6, 3, 4))*0.5      # v36.12-1(a)'s connection
+    gam1 = lambda s_: np.array([np.sin(PI*s_), 1 - np.cos(PI*s_), 0.3*s_]); Yv = lambda s_: np.sin(PI*s_)*np.array([0.2, -0.5, 1.0]); dgam = lambda s_: np.array([PI*np.cos(PI*s_), PI*np.sin(PI*s_), 0.3])
+    n = 1500; ss = np.linspace(0, 1, n + 1); Ps = [I2.copy()]
+    for k in range(n):
+        A_, _ = _v36_13_curv(gam1(0.5*(ss[k] + ss[k + 1])), coef, Ta); dx = gam1(ss[k + 1]) - gam1(ss[k]); Ps.append(expm(-sum(A_[i]*dx[i] for i in range(3))) @ Ps[-1])
+    P10 = Ps[-1]; integ = np.zeros((2, 2), complex); bare = np.zeros((2, 2), complex)
+    for k in range(n):
+        s_ = 0.5*(ss[k] + ss[k + 1]); _, F = _v36_13_curv(gam1(s_), coef, Ta); Y = Yv(s_); dg = dgam(s_)
+        FYd = sum(Y[i]*dg[j]*F[i, j] for i in range(3) for j in range(3)); Pk = 0.5*(Ps[k] + Ps[k + 1]); P1s = P10 @ np.linalg.inv(Pk)
+        integ += P1s @ FYd @ np.linalg.inv(P1s)/n; bare += FYd/n
+    def transport(path, n_=1500):
+        g = I2.copy(); ss_ = np.linspace(0, 1, n_ + 1)
+        for k in range(n_):
+            A_, _ = _v36_13_curv(path(0.5*(ss_[k] + ss_[k + 1])), coef, Ta); dx = path(ss_[k + 1]) - path(ss_[k]); g = expm(-sum(A_[i]*dx[i] for i in range(3))) @ g
+        return g
+    fv = {}
+    for r in (0.05, 0.025, 0.0125):
+        W = P10 @ np.linalg.inv(transport(lambda s_, r=r: gam1(s_) + r*Yv(s_))); dW = (W - I2)/r; fv[r] = (np.linalg.norm(dW - integ), np.linalg.norm(dW - bare))
+    print("   (b) The first variation [T/V].  For a non-abelian connection the thin-loop expansion of v36.12-1(a) needs the curvature carried to one fiber before it is")
+    print("     added (the report, 5.4): with P(1, s) the transport along the base path, W(r) = I + r int_0^1 P(1, s) F(Y, dGamma/ds) P(s, 1) ds + O(r^2).  On v36.12-1(a)'s connection")
+    print("       r = 0.05, 0.025, 0.0125: |(W - I)/r - transported integral| = " + ", ".join(f"{fv[r][0]:.3f}" for r in fv) + " (linear in r); against the bare integral " + ", ".join(f"{fv[r][1]:.2f}" for r in fv) + f" (|transported| = {np.linalg.norm(integ):.3f},")
+    print(f"     |bare| = {np.linalg.norm(bare):.3f}; v36.12-1(a)'s ratio |W - I|/r tends to the former).  The identity limit is unchanged; the local formula is corrected.")
+    # (c) the sewing datum and its covariance; the charge phase under j
+    def randsl():
+        m_ = rg.normal(size=(2, 2)) + 1j*rg.normal(size=(2, 2)); return m_/np.sqrt(np.linalg.det(m_))
+    P1, P2, h0, h1, h2 = randsl(), randsl(), randsl(), randsl(), randsl(); B0 = _v36_12_boost(rg.normal(size=3)); H0 = B0 @ B0
+    Wc = P1 @ H0 @ P2.conj().T; Wc2 = (h1 @ P1 @ np.linalg.inv(h0)) @ (h0 @ H0 @ h0.conj().T) @ (h2 @ P2 @ np.linalg.inv(h0)).conj().T
+    e_cov = np.linalg.norm(Wc2 - h1 @ Wc @ h2.conj().T); e_unsewn = np.linalg.norm((h1 @ P1 @ np.linalg.inv(h0)) @ (h2 @ P2 @ np.linalg.inv(h0)).conj().T - h1 @ (P1 @ P2.conj().T) @ h2.conj().T)
+    eps = np.array([[0, 1], [-1, 0]], complex); jm = lambda x: eps @ np.conj(x); rho = lambda g: np.linalg.inv(g.conj().T)
+    g_ = randsl(); chi = 0.7; xi = rg.normal(size=2) + 1j*rg.normal(size=2); lhs = -jm(np.exp(1j*chi)*g_ @ jm(xi))
+    e_minus = np.linalg.norm(lhs - np.exp(-1j*chi)*rho(g_) @ xi); e_plus = np.linalg.norm(lhs - np.exp(1j*chi)*rho(g_) @ xi)
+    print("   (c) The sewing datum and the charge [T/V].  v36.12-1's comparison P_1 P_2^dag is written in a common initial rest frame; with the initial four-velocity")
+    print("     H_0 = B_0^2 as an explicit datum, W = P_1 H_0 P_2^dag transforms under independent endpoint frame changes P_i -> h_i P_i h_0^-1, H_0 -> h_0 H_0 h_0^dag as")
+    print(f"     W -> h_1 W h_2^dag ({_v36_8_r(e_cov)}; without the datum, with H_0 reset to I, the law fails by {e_unsewn:.2f}) -- the transformation law of a Hermitian four-vector at coincident")
+    print(f"     endpoints, H_0 = I recovering v36.12's formula (the report, 5.2).  And j is antilinear: for a transport with an electromagnetic phase, T = e^(i chi) g, j^-1 T j = e^(-i chi) rho(g)")
+    print(f"     ({_v36_8_r(e_minus)}; against e^(+i chi) rho(g): {e_plus:.2f}), while the right-handed component of a charged Dirac field carries the SAME charge: the spin identity of v36.12-1(b)")
+    print("     does not extend by itself to a charge-preserving twist of the full transport (the report, 5.3).  'One connection suffices' is a statement about the spin construction.")
+    # (d) the trine's distinguishability
+    w = np.exp(2j*PI/3); psis = [np.array([1, 1])/np.sqrt(2), np.array([w**2, w])/np.sqrt(2), np.array([w, w**2])/np.sqrt(2)]
+    Esum = sum((2/3)*np.outer(p_, p_.conj()) for p_ in psis); Psucc = sum((1/3)*abs(np.vdot(p_, (2/3)*np.outer(p_, p_.conj()) @ p_)) for p_ in psis)
+    print(f"   (d) The trine [T/V].  The three effects (2/3)|psi_a><psi_a| sum to the identity on the surviving plane ({_v36_8_r(np.linalg.norm(Esum - np.eye(2)))}) and, with equal priors, identify the")
+    print(f"     state with probability {Psucc:.6f} = 2/3, which rho_a <= I also bounds from above: v36.12-2(b)'s survivors are not perfectly distinguishable, not indistinguishable (the report, 6.1).")
+    # (e) the SO(4) elements that preserve the Hopf fibration: b in the normalizer of U(1)
+    def qm(a_, b_):
+        w1, x1, y1, z1 = a_; w2, x2, y2, z2 = b_
+        return np.array([w1*w2 - x1*x2 - y1*y2 - z1*z2, w1*x2 + x1*w2 + y1*z2 - z1*y2, w1*y2 - x1*z2 + y1*w2 + z1*x2, w1*z2 + x1*y2 - y1*x2 + z1*w2])
+    qc = lambda q_: q_*np.array([1, -1, -1, -1.0]); unit4 = lambda: (lambda v_: v_/np.linalg.norm(v_))(rg.normal(size=4))
+    iq = np.array([0, 1, 0, 0.0]); jq = np.array([0, 0, 1, 0.0]); base = lambda q_: qm(qm(q_, iq), qc(q_))[1:]
+    def fiber_dev(a_, b_, q_):
+        return max(np.linalg.norm(base(qm(qm(a_, qm(q_, np.array([np.cos(p_), np.sin(p_), 0, 0.0]))), qc(b_))) - base(qm(qm(a_, q_), qc(b_)))) for p_ in np.linspace(0, 2*PI, 13))
+    th = 0.9; bU = np.array([np.cos(th), np.sin(th), 0, 0.0]); a_ = unit4(); q_ = unit4()
+    dev_U = fiber_dev(a_, bU, q_); dev_j = fiber_dev(a_, jq, q_); dev_g = min(fiber_dev(a_, unit4(), q_) for _ in range(20))
+    norm_U = min(np.linalg.norm(qm(qm(bU, iq), qc(bU)) - iq), np.linalg.norm(qm(qm(bU, iq), qc(bU)) + iq)); norm_j = min(np.linalg.norm(qm(qm(jq, iq), qc(jq)) - iq), np.linalg.norm(qm(qm(jq, iq), qc(jq)) + iq))
+    print("   (e) The fibration's stabilizer [T/V].  With the Hopf fibers the right U(1) orbits q ~ q e^(i phi), q -> a q b^-1 carries fibers to fibers only if b normalizes")
+    print(f"     that U(1), b i b^-1 = +-i: for b = e^(i theta) and for b = j the image of a fiber is a fiber ({_v36_8_r(dev_U)}, {_v36_8_r(dev_j)}; b i b^-1 = +-i to {_v36_8_r(norm_U)}, {_v36_8_r(norm_j)}), for generic b it is")
+    print(f"     not (smallest deviation over 20 random b: {dev_g:.2f}).  The normalizer's connected component is the U(1) itself, so preserving the galaxy's center (a = b, the diagonal")
+    print("     SO(3), v36.12-2(j)) and preserving the selected Hopf fibration (b in the normalizer) are different conditions -- the review of v36.12's section 4.")
+    # (f) Entry 365: residence time near an apsis; the exponential image's attenuation
+    from scipy.integrate import quad
+    rp, ra = 1.0, 2.0; L2 = 2*np.log(ra/rp)/(1/rp**2 - 1/ra**2); En = np.log(rp) + L2/(2*rp**2)
+    vr = lambda r_: np.sqrt(max(2*(En - np.log(r_)) - L2/r_**2, 0.0))
+    def time_within(delta):                                                                      # time spent within delta of the apocenter, per half radial period
+        return quad(lambda r_: 1/vr(r_), ra - delta, ra*(1 - 1e-12), limit=200)[0]
+    tw = {d_: time_within(d_) for d_ in (0.04, 0.01, 0.0025)}; half = quad(lambda r_: 1/vr(r_), rp*(1 + 1e-12), ra*(1 - 1e-12), limit=400)[0]
+    ratios = [tw[0.04]/tw[0.01], tw[0.01]/tw[0.0025]]
+    chi_ = np.array([1.0, 1.3, 1.5]); ell_h = 5.0; logT = -ell_h*np.tan(chi_) - 3*np.log(np.cos(chi_))
+    print(f"   (f) Entry 365 [V].  Near a nondegenerate apsis |dt/dr| is proportional to 1/sqrt|r - r_a|, so the time within delta of the apocenter grows as sqrt(delta): for XXVII.7's orbit")
+    print(f"     (r_p = 1, r_a = 2, Phi = ln r) the time within 0.04, 0.01 and 0.0025 of r_a is {tw[0.04]:.4f}, {tw[0.01]:.4f}, {tw[0.0025]:.4f} against a half radial period of {half:.4f} ({100*tw[0.04]/half:.0f}%, {100*tw[0.01]/half:.0f}%, {100*tw[0.0025]/half:.0f}% of it), ratios {ratios[0]:.3f} and {ratios[1]:.3f}")
+    print("     (2 for the square root) -- the residence-time enhancement the response derives (the suite checks the apocenter; the expansion is the same at the pericenter).  And the gnomonic image Sigma_obs = cos^3 chi T(chi) Sigma_source")
+    print(f"     at R = ell tan chi is exponential, exp(-R/h), only if ln T = -(ell/h) tan chi - 3 ln cos chi + const for a regular source: with ell/h = 5, ln T = {logT[0]:.2f}, {logT[1]:.2f}, {logT[2]:.2f} at")
+    print("     chi = 1.0, 1.3, 1.5, diverging at the equator -- a bounded attenuation rate over a finite path cannot give an exponential to infinity: the optical path must be")
+    print("     effectively unbounded, the coupling develops special behavior near the equator (the response's phrase), or the exponential describes a finite range, the response's third option, which it favors (its section 4).")
+    print("     The two-channel transfer dI_+/ds = -gamma_+ I_+ + gamma_- I_-, dI_-/ds = gamma_+ I_+ - gamma_- I_- conserves I_+ + I_- and, one-way, gives I_+ = I_+(0) exp(-int gamma_+):")
+    print("     recorded with the response's proposal; what fixes gamma_+ is the open dynamics.  The matter-side claim -- the vertical speed set by the conserved Hopf momentum, not by")
+    print("     the radial velocity -- is the response's reading of a Hopf-symmetric metric, recorded as such.")
+    print("   (g) Status.  [T] (b)'s formula, (c)'s laws, (d)'s bound, (e)'s normalizer.  [V] Their checks; (a)'s orders; (f)'s kinematics.  [O] The charged twist; the optical law;")
+    print("     Entry 365's coupled transport.")
+    ok = (all(ordB[v] > 1.8 for v in ordB) and all(ordI[v] < 1.3 for v in ordI) and all(conv[v][1600][1] < conv[v][1600][0] for v in conv)
+          and abs(fv[0.05][0]/fv[0.0125][0] - 4) < 0.3 and all(fv[r][1] > 5 for r in fv) and abs(np.linalg.norm(integ) - 6.06) < 0.02
+          and e_cov < 1e-12 and e_unsewn > 0.1 and e_minus < 1e-12 and e_plus > 0.1
+          and np.linalg.norm(Esum - np.eye(2)) < 1e-12 and abs(Psucc - 2/3) < 1e-12
+          and dev_U < 1e-12 and dev_j < 1e-12 and dev_g > 0.1 and norm_U < 1e-12 and norm_j < 1e-12
+          and abs(ratios[0] - 2) < 0.03 and abs(ratios[1] - 2) < 0.03 and logT[2] < -60)
+    check(ok, "transport repairs and the fibration: the Fermi-Walker benchmark second order from B(u(0)) and first order from I; the first variation with transported curvature "
+          "matches (W - I)/r linearly and the bare integral does not; W = P_1 H_0 P_2^dag covariant and the unsewn form not; j^-1 e^(i chi) g j = e^(-i chi) rho(g); the trine's 2/3; "
+          "fibers to fibers only for b in the normalizer of U(1); the apsidal residence time as sqrt(delta); the exponential image's attenuation diverging at the equator")
+    return dict(conv=conv, fv=fv)
+
+
+# ---------------------------------------------------------------------------------------------- v36.13-3: Entry 366 (the 4/9 inside and outside the cosine)
+def _v36_13_rb(x):
+    """A residual in coarser bins than _v36_8_r, for finite-difference and stepped-integration residuals: '<1e-12' ... '<1e-04', else 1 digit."""
+    x = float(abs(x))
+    for b in (1e-12, 1e-10, 1e-8, 1e-6, 1e-5, 1e-4):
+        if x < b: return f"<{b:.0e}"
+    return f"{x:.1e}"
+
+def v36_13_entry366():
+    """Entry 366 and the response to it (XXXIV.38): the author's idea that the 4/9 appearing outside a cosine (the real-frame bound of XXXIV.2(b)) and inside
+    one (the doubled lepton angle of XXXIV.26) might be two readouts of one geometric operation, on the precedent of a leaf formula with an angle inside and
+    outside a sine.  Checked: the response's square d_n^2 = 1 + sqrt2 cos theta_n + (1/2) cos 2 theta_n is the archive's two-hop product a_+ a_-; the half-turn
+    about the body diagonal attains the bound with spinor half-angle pi/2; the S^3 volume identity; the leaf's point-source speed has no linear angle term,
+    a single pole's Green function on S^3 has one for the plain Laplacian and for Delta + 3 alike, and PG's even source needs none; a flat connection's contractible
+    holonomy is trivial."""
+    from scipy.integrate import quad
+    from scipy.linalg import expm
+    print("\n== v36.13-3. Entry 366: the 4/9 inside and outside the cosine -- the two-hop product as the response's square, the half-turn's half-angle, the sine-minus-angle")
+    print("   precedent on the leaf, and what a transport would have to supply (Entry 366 and its response; R404) ==")
+    print("   Entry 366 asks whether the 4/9 that appears outside a cosine (the real-frame bound, XXXIV.2(b)) and inside one (the doubled angle, XXXIV.26) can be")
+    print("   explained by one pathway, as an argument that sits on both sides -- the author recalling a sin(t) - t in the leaf's v^2 formula.  The response proposes")
+    print("   three consecutive operations (a real-frame probability p = 4/9; a transport angle Phi = p, the missing step; the spinor half-angle 2/9 with the two-hop")
+    print("   square restoring cos(2 theta) = cos 4/9), with the volume of a cap of S^3 as the precedent.  What can be checked is checked here.")
+    th0 = 2/9; thn = th0 + 2*PI*np.arange(3)/3
+    ap, am = 1 + np.cos(thn + PI/4), 1 + np.cos(thn - PI/4)
+    prod = ap*am; sq = (np.cos(thn) + 1/np.sqrt(2))**2; expand = 1 + np.sqrt(2)*np.cos(thn) + 0.5*np.cos(2*thn)
+    rng = np.random.default_rng(366); tr = rng.uniform(-PI, PI, 200)
+    e_id = max(np.max(np.abs(prod - sq)), np.max(np.abs(sq - expand)),
+               np.max(np.abs((1 + np.cos(tr + PI/4))*(1 + np.cos(tr - PI/4)) - (np.cos(tr) + 1/np.sqrt(2))**2)))
+    koide = 1 + np.sqrt(2)*np.cos(thn); e_koide = np.max(np.abs(koide - np.sqrt(2)*(np.cos(thn) + 1/np.sqrt(2))))
+    print(f"   (a) The square is the two-hop product [T/V].  The response squares d_n = cos(theta_n) + 1/sqrt2, theta_n = 2/9 + 2 pi n/3, and finds d_n^2 = 1 + sqrt2 cos theta_n + (1/2) cos(2 theta_n):")
+    print(f"     the doubled angle 4/9 inside the cosine of the mass, 'automatically generated by the square'.  The archive's dual factors a_+-,n = 1 + cos(theta_n +- pi/4) multiply to the")
+    print(f"     same expression: a_+ a_- = 1 + sqrt2 cos theta_n + (1/2) cos(2 theta_n) = d_n^2 exactly ({_v36_8_r(e_id)} over the three leptons and 200 random angles), so the two-hop product")
+    print(f"     of XXXIV.10 is the response's square, and d_n is Koide's amplitude 1 + sqrt2 cos theta_n (XXXIV.14) divided by sqrt2 ({_v36_8_r(e_koide)}).  For the tau (n = 0) the inside")
+    print(f"     term is (1/2) cos(4/9) = {0.5*np.cos(4/9):.6f}; for n = 1, 2 it is (1/2) cos(4/9 + 4 pi n/3), XXXIV.26(a)'s doubled cycle.  The identity is XXXIV.26(a)'s a = 1 + cos(Phi/2)")
+    print("     read from the product: the mass sees 2 theta_n through the cross term of the two hops.  Why theta starts at 2/9 it does not say.")
+    # (b) the half-turn about the body diagonal
+    R = np.array([[-1, 2, 2], [2, -1, 2], [2, 2, -1]])/3.0; nax = np.ones(3)/np.sqrt(3)
+    e_orth = np.linalg.norm(R.T @ R - np.eye(3)); detR = np.linalg.det(R); ang = np.arccos(np.clip((np.trace(R) - 1)/2, -1, 1)); e_ax = np.linalg.norm(R @ nax - nax)
+    off = R[0, 1]**2; half_angle = ang/2; acos23 = np.arccos(2/3)
+    sig = [np.array([[0, 1], [1, 0]], complex), np.array([[0, -1j], [1j, 0]]), np.array([[1, 0], [0, -1]], complex)]
+    U = expm(-1j*ang/2*sum(nax[k]*sig[k] for k in range(3))); e_U = np.linalg.norm(U + 1j*sum(nax[k]*sig[k] for k in range(3)))
+    print(f"   (b) The half-turn about the body diagonal [T/V].  R = (1/3)[[-1, 2, 2], [2, -1, 2], [2, 2, -1]] is a rotation (orthogonality {_v36_8_r(e_orth)}, det {detR:.6f}) by {ang:.6f} = pi about")
+    print(f"     (1, 1, 1)/sqrt3 ({_v36_8_r(e_ax)}), with every off-diagonal squared entry {off:.6f} = 4/9: it attains XXXIV.2(b)'s bound, as one of the 16 half-turns among the 96 rotations with")
+    print(f"     entries +-1/3, +-2/3 found there (Ad_g for g = (i + j + k)/sqrt3).  Its spinor lift is U = -i n.sigma ({_v36_8_r(e_U)}), half-angle {half_angle:.6f} = pi/2, not 2/9 = {2/9:.6f}; and")
+    print(f"     reading 4/9 as a squared cosine gives arccos(2/3) = {acos23:.5f}, not 2/9 either -- the response's two negative results: renaming the overlap as an angle does not give 2/9.")
+    print("     In the complex carrier the unbiased pair's overlaps are 1/3 (XXXIV.2(a)); 4/9 is the real frames' invariant, as XXXIV.26(d) notes -- the response's 'upstream of complexification' obstacle.")
+    # (c) the sine-minus-angle precedent
+    V = lambda chi: 4*PI*quad(lambda u: np.sin(u)**2, 0, chi)[0]; Vf = lambda chi: 2*PI*(chi - 0.5*np.sin(2*chi))
+    chis = [PI/4, PI/2, PI]; e_V = max(abs(V(c_) - Vf(c_)) for c_ in chis)
+    F_pg = lambda chi: np.cos(2*chi)/np.sin(chi); dF = lambda chi: (-2*np.sin(2*chi)*np.sin(chi) - np.cos(2*chi)*np.cos(chi))/np.sin(chi)**2
+    speed = lambda chi: -dF(chi)*np.tan(chi); e_speed = max(abs(speed(c_) - (1/np.sin(c_) + 2*np.sin(c_))) for c_ in (0.3, 0.7, 1.1, 1.5))
+    G = lambda chi: (PI - chi)/np.tan(chi)/(4*PI**2); G3 = lambda chi: (PI - chi)*np.cos(2*chi)/np.sin(chi)
+    def lap(f, chi, h=1e-4): return (f(chi + h) - 2*f(chi) + f(chi - h))/h**2 + 2/np.tan(chi)*(f(chi + h) - f(chi - h))/(2*h)
+    e_G = max(abs(lap(G, c_) - 1/(2*PI**2)) for c_ in (0.4, 0.8, 1.2, 1.6, 2.0, 2.4, 2.8)); e_3G = max(abs(lap(G, c_) + 3*G(c_) - 1/(2*PI**2)) for c_ in (0.4, 0.8, 1.2, 1.6, 2.0, 2.4, 2.8))
+    e_F = max(abs(lap(F_pg, c_) + 3*F_pg(c_)) for c_ in (0.4, 0.8, 1.2, 1.6, 2.0, 2.4, 2.8))
+    e_G3 = max(abs(lap(G3, c_) + 3*G3(c_) - 8*np.cos(c_)) for c_ in (0.4, 0.8, 1.2, 1.6, 2.0, 2.4, 2.8))    # (Delta + 3)[(pi - chi) cos 2chi / sin chi] = 8 cos chi, the n = 1 kernel mode
+    print(f"   (c) The sine-minus-angle precedent [V].  The volume of the cap of angular radius chi on a round S^3 of radius ell is V = 4 pi ell^3 int_0^chi sin^2 u du = 2 pi ell^3 (chi - (1/2) sin 2 chi)")
+    print(f"     (the response's identity; quadrature against the closed form at chi = pi/4, pi/2, pi: {_v36_8_r(e_V)}; V(pi) = {Vf(PI):.4f} ell^3 = 2 pi^2 ell^3, the whole sphere): the angle enters linearly from")
+    print(f"     the constant part of sin^2 u and trigonometrically from its cosine part.  The leaf's rotation-speed formula has no such term: the point source's v^2/(mu c^2) = csc chi + 2 sin chi")
+    print(f"     (XXV.2; R302) follows from the even Green function F = cos 2 chi / sin chi of PG's operator Delta + 3 ({_v36_8_r(e_speed)}; (Delta + 3) F = 0 away from the poles, {_v36_13_rb(e_F)} by central")
+    print(f"     differences).  The angle-on-both-sides structure the author recalls is a single pole's compensation for the operator's kernel: for the plain Laplacian the Green function")
+    print(f"     on the unit S^3 is G = (pi - chi) cot chi / (4 pi^2) + const, with Delta G = 1/(2 pi^2) away from the pole ({_v36_13_rb(e_G)}; the Coulomb singularity 1/(4 pi chi)), the (pi - chi)")
+    print(f"     compensating the constant mode; for Delta + 3 the kernel mode is cos chi and a single pole's Green function is (pi - chi) cos 2 chi / (4 pi^2 sin chi) modulo it")
+    print(f"     ((Delta + 3)[(pi - chi) cos 2 chi / sin chi] = 8 cos chi, {_v36_13_rb(e_G3)}), the angle on both sides again.  What the leaf's formula lacks is the compensation: XXV.2's source is even")
+    print("     (the antipodal pair), the n = 1 mode is excluded, and F = cos 2 chi / sin chi needs none.  The response's qualification stands: the precedent is the volume identity, not the")
+    print("     rotation-speed formula -- the structure the author recalls does occur in a single pole's Green function on S^3, and not in PG's even one.")
+    # (d) the transport step: a flat connection's holonomy, and the normalization an area would need
+    Uc = lambda s: expm(1j*s*sig[2]) @ expm(1j*0.6*sig[1]) @ expm(-1j*s*sig[2]); N = 4000; ds = 2*PI/N; hol = np.eye(2, dtype=complex)
+    Aof = lambda s: 1j*np.conj(Uc(s).T) @ sig[2] @ Uc(s) - 1j*sig[2]                                            # A = U^dag dU/ds for U(s) = e^{i s sigma_z} e^{0.6 i sigma_y} e^{-i s sigma_z}
+    for k in range(N):
+        hol = expm(-Aof((k + 0.5)*ds)*ds) @ hol                                                                  # the transport g' = -A g, midpoint steps around the closed loop
+    e_hol = np.linalg.norm(hol - np.eye(2)); Omega = 2*(4/9); frac = Omega/(4*PI)
+    print(f"   (d) What the missing step would need [T/D].  The response's bridge is a transport whose holonomy angle equals the probability p = 4/9 -- 'There is no general identity making that")
+    print(f"     true' -- with the leaf's curvature F ~ 1/ell^2 over an area ~ ell^2 giving a dimensionless phase in which the leaf radius cancels.  Two facts frame it.  A flat connection has no")
+    print(f"     holonomy on a contractible loop: the carrier's complete connection is flat (XXXIV.24(a)), and the transport of the pure gauge A = U^dag dU around a closed loop returns the identity")
+    print(f"     ({_v36_13_rb(e_hol)} in {N} midpoint steps), so this route needs curvature the carrier's connection does not have.  And under the spin-1/2 normalization, holonomy angle = half the enclosed")
+    print(f"     solid angle, a phase of 4/9 needs Omega = 8/9 sr, {100*frac:.2f}% of the sphere -- a number no geometric selection on offer produces, the response's normalization caveat in figures.")
+    print("     The conjecture (a canonical transport whose spinorial phase is half the real-frame bound) is XXXIV.26(e)'s open law, now with the response's three calculations as its program [S/O].")
+    print("   (e) Status.  [T] (a)'s identity; (b)'s rotation facts; (c)'s identities; (d)'s flatness.  [V] Their checks.  [D] (d)'s normalization.  [S/O] The conjecture Phi = p and the")
+    print("     leaf-scale reading, recorded as the response's; the angle's origin.")
+    ok = (e_id < 1e-14 and e_koide < 1e-14 and e_orth < 1e-14 and abs(detR - 1) < 1e-12 and abs(ang - PI) < 1e-8 and e_ax < 1e-14 and abs(off - 4/9) < 1e-15 and e_U < 1e-12
+          and abs(half_angle - PI/2) < 1e-8 and abs(acos23 - 0.84107) < 1e-5 and e_V < 1e-10 and e_speed < 1e-10 and e_G < 1e-5 and e_3G > 0.01 and e_F < 1e-5 and e_G3 < 1e-4 and e_hol < 1e-5
+          and abs(frac - 8/9/(4*PI)) < 1e-15)
+    check(ok, "Entry 366: the two-hop product a_+ a_- is the response's square d_n^2 = 1 + sqrt2 cos theta_n + (1/2) cos 2 theta_n, the doubled angle inside the cosine of the mass; the half-turn "
+          "about the body diagonal attains the real-frame bound 4/9 with spinor half-angle pi/2, not 2/9, and arccos(2/3) is not 2/9; the S^3 cap volume 2 pi ell^3 (chi - sin(2 chi)/2); the "
+          "point source's csc chi + 2 sin chi has no linear angle term, a single pole's Green function carries (pi - chi) for the Laplacian and for Delta + 3 alike and PG's even source needs none; a flat connection's "
+          "contractible holonomy is the identity")
+    return dict(e_id=e_id, hol=e_hol)
+
+def v36_13_suite():
+    """The v36.13 sections: the direct-mass branches (the report's correction), the transport repairs, the fibration normalizer and Entry 365's kinematics,
+    and Entry 366's 4/9."""
+    v36_13_branches(); v36_13_transport(); v36_13_entry366()
+
+def v36_13_quick():
+    """v36_12_quick plus the three v36.13 sections."""
+    v36_12_quick(); v36_13_branches(); v36_13_transport(); v36_13_entry366()
 # ---------------------------------------------------------------------------------------------- the suites
 def v36_1_suite(prev=None):
     """The v36.1 sections.  prev: the dicts returned by v36_0_milky_way, v36_0_sparc_pilot and v36_0_zoom_labels (recomputed if None)."""
@@ -23936,8 +24381,8 @@ def v36_0_suite():
     return dict(mw=mw, pilot=p, zoom=z)
 
 def current_suite_v36():
-    """The current regression suite of Parts XXXIII-XXXIV (v36.0-v36.12), followed by the check summary."""
-    prev = v36_0_suite(); v36_1_suite(prev); v36_2_suite(); v36_3_suite(); v36_4_suite(); v36_5_suite(); v36_6_suite(); v36_7_suite(); v36_8_suite(); v36_9_suite(); v36_10_suite(); v36_11_suite(); v36_12_suite()
+    """The current regression suite of Parts XXXIII-XXXIV (v36.0-v36.13), followed by the check summary."""
+    prev = v36_0_suite(); v36_1_suite(prev); v36_2_suite(); v36_3_suite(); v36_4_suite(); v36_5_suite(); v36_6_suite(); v36_7_suite(); v36_8_suite(); v36_9_suite(); v36_10_suite(); v36_11_suite(); v36_12_suite(); v36_13_suite()
     npass = sum(1 for ok, _ in _CHECKS if ok); nfail = len(_CHECKS)-npass
     print(f"\n== check summary (Parts XXXIII-XXXIV): {npass} passed, {nfail} failed ==")
     for ok, msg in _CHECKS:
@@ -23948,7 +24393,7 @@ def current_suite_v36():
 if __name__ == "__main__":
     import sys
     arg = sys.argv[1] if len(sys.argv) > 1 else "current"
-    suites = {"current": current_suite_v36, "v36_0": v36_0_suite, "v36_1": v36_1_suite, "v36_2": v36_2_suite, "v36_3": v36_3_suite, "v36_4": v36_4_suite, "v36_5": v36_5_suite, "v36_6": v36_6_suite, "v36_7": v36_7_suite, "v36_8": v36_8_suite, "v36_9": v36_9_suite, "v36_10": v36_10_suite, "v36_11": v36_11_suite, "v36_12": v36_12_suite, "quick": v36_12_quick}
+    suites = {"current": current_suite_v36, "v36_0": v36_0_suite, "v36_1": v36_1_suite, "v36_2": v36_2_suite, "v36_3": v36_3_suite, "v36_4": v36_4_suite, "v36_5": v36_5_suite, "v36_6": v36_6_suite, "v36_7": v36_7_suite, "v36_8": v36_8_suite, "v36_9": v36_9_suite, "v36_10": v36_10_suite, "v36_11": v36_11_suite, "v36_12": v36_12_suite, "v36_13": v36_13_suite, "quick": v36_13_quick}
     if arg not in suites:
         print("usage: python3 -I pg_v36_numerics.py [" + " | ".join(suites) + "]"); sys.exit(2)
     suites[arg]()
@@ -32625,6 +33070,8 @@ Likewise §XXXIII.63(a)'s "weak matter cannot tilt the sectors at all" means no 
 
 *v36.12 answers the review of v36.11 (§XXXIV.29) with the limiting map from separated histories to the Cartan pair (§XXXIV.30), and records Entries 361–364 with the responses to them (§XXXIV.31), recomputing every number they state (§XXXIV.32). §XXXIV.33 is the Part's standing after v36.12 and §XXXIV.34 its register.*
 
+*v36.13 answers the review of v36.12, the referee report on v36.12 and Entry 365 (§XXXIV.35): the direct-mass intervals of §XXXIV.22 are corrected in place as one branch's (§XXXIV.36), and the transport of §XXXIV.30 is repaired and extended (§XXXIV.37); Entry 366's $\tfrac49$ is recorded and checked (§§XXXIV.38–39). §XXXIV.40 is the Part's standing after v36.13 and §XXXIV.41 its register.*
+
 ## XXXIV.1 Entries 351–353 and the three responses, as formulated (21 October 2026) [record; R370]
 
 **The author's first message (21 October), with Entry 351 attached.** In the author's words, as the session recorded them (the message itself is not among the uploads; Entry 351 is quoted from its upload):
@@ -35270,7 +35717,7 @@ Two of its remarks are kept with a qualification.
 - *The two placements of Entry 352's rule* are applications of one principle to different carriers: "something in its canonical structure must make that principle compulsory in both places". The review calls this "the outstanding selection theorem". It becomes a next piece (§XXXIV.18).
 - *The radiative corrections* remain the pole-mass premise (§§XXXIV.9(a), (c), XXXIV.14(e)).
 - *A mixing scale near the electroweak scale* (its $92.4$ GeV takes the rounded $13.6$ TeV): §XXXIV.15.
-- *The zero block:* "a formal requirement of the chiral model". §XXXIV.16(a) shows that with a bare right hop it is a choice of basis, and that a charged vev for the right hop, or $SU(2)_R$, protects it up to a dimension-five leak, which, with one hop scale, the exact angles bound only from below, $m_0>-5.05$ eV, the $\tau$ setting the upper end; with two scales the same hop keeps that bound and the $\tau$ bounds the dual factors' on both sides, $-8.45<m_0<+113.6$ eV *[v36.11, R388]* — in no case reaching the eV level at which, as §XXXIV.14(e) shows, the $\tau$'s test needs it.
+- *The zero block:* "a formal requirement of the chiral model". §XXXIV.16(a) shows that with a bare right hop it is a choice of basis, and that a charged vev for the right hop, or $SU(2)_R$, protects it up to a dimension-five leak, which, with one hop scale, the exact angles bound only from below, $m_0>-5.05$ eV, the $\tau$ setting the upper end; with two scales the same hop keeps that bound and the $\tau$ bounds the dual factors' on both sides, $-8.45<m_0<+113.6$ eV *[v36.11, R388]* *[v36.13, R401: the one-scale bound and the two-scale interval hold for $\lvert m_0\rvert<\Lambda$, the direct mass the smaller diagonal entry, on the branch connected to the zero-block solution; a second branch near $1.03$ MeV fits all three masses, §XXXIV.36]* — in no case reaching the eV level at which, as §XXXIV.14(e) shows, the $\tau$'s test needs it.
 - *The dual factors' asymmetry* needs chiral transformation laws: §XXXIV.16(a) gives the hops' charges, and §XXXIV.16(b)–(c) gives them their own scales. The second scale is an added adjustable ratio, the kind of structure the review warns about — "Otherwise the number of adjustable structures could grow faster than the number of new predictions." The measured $\tau$ fixes it, and nothing is predicted from it.
 - *Its other points agree with v36.9's text:* the frame's orientation "remains an independent datum rather than something selected by the observed masses" (§XXXIV.8(c)); the preferred-frame bounds "do not prove that the internal carrier must be unobservable" (§XXXIV.8(e)); its own check of the coefficient, $168.5803$ MeV, matches §XXXIV.10(b)'s $168.6$ MeV; and "the heavy field, its mass and its couplings are still assumed rather than obtained from PG" (§XXXIV.11). A Yukawa reading of $\mu$ would bring "independent perturbativity and precision-electroweak constraints"; §XXXIV.16(d) lists them among the checks not made.
 - *Part XXXIII's open problems* are kept separate from Part XXXIV, as the head table keeps them.
@@ -35312,7 +35759,7 @@ So the dual factors match both offsets within the $\tau$'s error, as Entry 354 h
 
 **(e) The premises [S/O].**
 - *Pole masses.* The angles are taken to hold for pole masses. At one loop the running masses' electron-to-muon ratio differs from the pole masses' by $(3\alpha/2\pi)\ln(m_\mu/m_e) = 1.858\times10^{-2}$, $1889$ times $\delta$. For running masses the test is therefore empty unless the QED running is canceled (§XXXIV.9(a), (c)). The response makes the same point with Koide's ratio: radiative effects are "potentially hundreds of times larger" than the correction being interpreted — the one-loop shift of $K$, $+1.15\times10^{-3}$, is $341$ times the dual fit's $\lvert K-\tfrac23\rvert$.
-- *The zero block, at the eV level* (§XXXIV.10(d)). With a flavor-blind direct mass $m_0$ as a third parameter — in the light block, so that a positive $m_0$ lowers each light mass by about $m_0$ — both constructions fit all three masses: $m_0 = -4.37$ eV ($\Lambda = 7.93\times10^7$ MeV) for the same hop twice, and $-1.80$ eV ($\Lambda = 5.36\times10^7$ MeV) for the dual factors. So the $\tau$ tells the constructions apart only if the light–light block vanishes at the eV level. §XXXIV.16(a) says what can protect it; with one hop scale the exact angles themselves bound a direct mass only from below, $m_0>-5.05$ eV, the $\tau$ setting the other end — a signed interval (§XXXIV.22(c), which also gives the two-scale case) *[v36.11, R388]* — short of that level.
+- *The zero block, at the eV level* (§XXXIV.10(d)). With a flavor-blind direct mass $m_0$ as a third parameter — in the light block, so that a positive $m_0$ lowers each light mass by about $m_0$ — both constructions fit all three masses: $m_0 = -4.37$ eV ($\Lambda = 7.93\times10^7$ MeV) for the same hop twice, and $-1.80$ eV ($\Lambda = 5.36\times10^7$ MeV) for the dual factors. So the $\tau$ tells the constructions apart only if the light–light block vanishes at the eV level. §XXXIV.16(a) says what can protect it; with one hop scale the exact angles themselves bound a direct mass only from below, $m_0>-5.05$ eV, the $\tau$ setting the other end — a signed interval (§XXXIV.22(c), which also gives the two-scale case) *[v36.11, R388]* *[v36.13, R401: for $\lvert m_0\rvert<\Lambda$, §XXXIV.36(d)]* — short of that level.
 - *The construction, chosen after the fact.* The dual factors were available before the test: in the response's words the dual-hop model "was already an available option", but "selecting it because it matches the tau mass better would not be an independent derivation". What would make the $\tau$ a prediction is a reason, from PG, for the dual factors as the two hops — and, as §XXXIV.16(c) shows, for their equal scales.
 
 **(f) The 2026 electron mass [V].** PDG 2026 takes CODATA 2022's electron mass, $0.51099895069$ MeV, $6.9\times10^{-10}$ MeV above PDG 2025's ($4.6$ of its standard deviations). The archive's inputs remain PDG 2025's (§XXX.3). With the 2026 value, $\delta = 9.8335\times10^{-6}$; $\Lambda = 1.0693\times10^7$ and $3.4461\times10^7$ MeV; $\mu = 81.93$ and $147.08$ GeV; and $m_\tau = 1776.6898$ and $1776.9093$ MeV. The last digits move, and no conclusion does.
@@ -35354,7 +35801,7 @@ The electron's offsets are only eV, and the zero block decides them. A flavor-bl
 - *With a bare right hop the zero block is a choice of basis.* For abelian charges $q(\bar\ell_LHe_R) = q(\bar\ell_LHE_R)+q(\bar E_Le_R)-q(\bar E_LE_R)$, so any $\mathbb Z_N$ or $U(1)$ — flavor-universal, or diagonal in the hop basis — that allows the three terms allows the direct one. More generally, a bare right hop and the partner's mass give $e_R$ and $E_R$ the same charges under any symmetry. A rotation between them then removes the right hop and puts the seesaw mass, $-xy/\sqrt{y^2+\Lambda^2}$ for hops $x$ and $y$, in the direct entry, with the same singular values. Nothing can forbid the direct mass there, because it is a convention.
 - *With the right hop from a vev it can be forbidden.* If the right hop is $\bar E_LSe_R$ with a scalar $S$, the identity gives $q(\bar\ell_LHe_R) = -q(S)$: a charge on $S$ forbids the direct term at the renormalizable level. It returns at dimension five, as $\bar\ell_LHSe_R$.
 - *The left-right group does the same with $SU(2)_R$.* With $\ell_L$ and $\ell_R$ doublets of $SU(2)_L$ and $SU(2)_R$ and no scalar bidoublet, there is no renormalizable $\bar\ell_L\ell_R$ (the left-right universal seesaw, as in Davidson and Wali 1987; Patra and Rai 2018; Borah, Dasgupta and Patra 2018). The hops are then Yukawa terms with the scalar doublets $\phi_L$ and $\phi_R$, whose vevs are $v_L/\sqrt2$ (the electroweak one) and $v_R/\sqrt2$.
-- *The dimension-five leak.* The operator $(\bar\ell_L\phi_L)(\phi_R^\dagger\ell_R)/M$ is gauge-invariant. Integrating out $E$ generates it with the seesaw's own flavor structure (as in Gu and Lindner 2011). Another source with a flavor-blind structure would give a direct mass $m_0 = v_Lv_R/(2M)$. A flavor-blind $m_0$ moves the electron-to-muon ratio by about $m_0/m_e$, so with one hop scale the exact-angle test bounds it *[v36.11, R388]*. Below $m_0 = -5.05\times10^{-6}$ MeV, $-\delta\,r\,m_\mu/(1-r)$ with $r$ the ideal ratio, no exact fit exists; and $m_0 = +6.0\times10^{-6}$ MeV brings the dual factors' $\tau$ to one standard deviation below the measured value. With one hop scale the allowed direct mass is a signed interval: $m_0>-5.05$ eV for either construction, and with the $\tau$ within one standard deviation $m_0<-2.731$ eV for the same hop twice and $m_0<+6.017$ eV for the dual factors. With two independent hop scales — this model's own case, (b)–(c) below — the same hop twice keeps that boundary, while for the dual factors the electron and the muon no longer bound $m_0$ from below and the $\tau$ bounds it on both sides: exact fits exist only for $-8.45<m_0<+113.6$ eV (§XXXIV.22(c)). With $v_L = 246.22$ GeV (from $G_F$) and, as an illustration, $v_R = 10$ TeV, a flavor-blind operator with $\lvert C_5\rvert = 1$, its direct mass held below the size of the one-scale boundary, $5.05$ eV, needs $M\geq2.4\times10^{14}$ GeV — a condition on that coefficient, its tolerance borrowed from the one-scale model, not a limit on every completion *[v36.11, R388]* [V/S]. This does not reach the eV level at which §XXXIV.14(e) needs the zero block: the direct masses that let either one-scale construction fit all three masses lie inside the interval.
+- *The dimension-five leak.* The operator $(\bar\ell_L\phi_L)(\phi_R^\dagger\ell_R)/M$ is gauge-invariant. Integrating out $E$ generates it with the seesaw's own flavor structure (as in Gu and Lindner 2011). Another source with a flavor-blind structure would give a direct mass $m_0 = v_Lv_R/(2M)$. A flavor-blind $m_0$ moves the electron-to-muon ratio by about $m_0/m_e$, so with one hop scale the exact-angle test bounds it *[v36.11, R388]*. Below $m_0 = -5.05\times10^{-6}$ MeV, $-\delta\,r\,m_\mu/(1-r)$ with $r$ the ideal ratio, no exact fit exists *[v36.13, R401: for $\lvert m_0\rvert<\Lambda$, §XXXIV.36(d)]*; and $m_0 = +6.0\times10^{-6}$ MeV brings the dual factors' $\tau$ to one standard deviation below the measured value. With one hop scale the allowed direct mass is a signed interval: $m_0>-5.05$ eV for either construction, and with the $\tau$ within one standard deviation $m_0<-2.731$ eV for the same hop twice and $m_0<+6.017$ eV for the dual factors. With two independent hop scales — this model's own case, (b)–(c) below — the same hop twice keeps that boundary, while for the dual factors the electron and the muon no longer bound $m_0$ from below and the $\tau$ bounds it on both sides: exact fits exist only for $-8.45<m_0<+113.6$ eV (§XXXIV.22(c)) *[v36.13, R401: the one-scale bound and the two-scale interval hold for $\lvert m_0\rvert<\Lambda$, the direct mass the smaller diagonal entry, on the branch connected to the zero-block solution; a second branch near $1.03$ MeV fits all three masses, §XXXIV.36]*. With $v_L = 246.22$ GeV (from $G_F$) and, as an illustration, $v_R = 10$ TeV, a flavor-blind operator with $\lvert C_5\rvert = 1$, its direct mass held below the size of the one-scale boundary, $5.05$ eV, needs $M\geq2.4\times10^{14}$ GeV — a condition on that coefficient, its tolerance borrowed from the one-scale model, not a limit on every completion *[v36.11, R388]* [V/S]. This does not reach the eV level at which §XXXIV.14(e) needs the zero block: the direct masses that let either one-scale construction fit all three masses lie inside the interval.
 
 So the zero block can be protected — by a charge on the right hop's vev, or by $SU(2)_R$ — up to dimension-five terms whose scale the exact angles bound — from below with one hop scale or for the same hop twice, from both sides through the $\tau$ for the dual factors with two *[v36.11, R388]*. That the hops are vevs is a premise of the chiral model [S].
 
@@ -35415,7 +35862,7 @@ So a moving frame changes flavor only if the field lives on the carrier itself, 
   - $\mu_H$ lies $0.52\sigma$ from $M_Z$ with PDG 2026's inputs and the on-shell angle, $0.94\sigma$ from the Z pole; the effective angle puts it $1.92\sigma$ above;
   - with one hop scale, $\mu = M_Z$ imposed gives the $\tau$ $2.07\sigma$ or $1.27\sigma$ low, and misses the electron by $-0.97$ or $+8.05$ eV ($-87.0\sigma$ and $+722.5\sigma$ with the muon's and the Z's errors propagated) unless the zero block allows a direct mass of that size — the strict identification excluded within this pole-mass realization *[v36.11, R388]*; in the chiral version $\mu_L = M_Z$ gives the $\tau$ $1.24\sigma$ low, one choice among several.
 - *The chiral two-hop seesaw* (§XXXIV.16):
-  - with a bare right hop the zero block is a choice of basis; with the right hop a charged vev, or with $SU(2)_R$, the direct mass is forbidden up to dimension five; with one hop scale the exact angles bound a flavor-blind direct mass only from below, $m_0>-5.05$ eV, the $\tau$ setting the upper end — short of the eV level the $\tau$'s test needs — and with two hop scales the same hop keeps that bound while the $\tau$ bounds the dual factors' on both sides, $-8.45<m_0<+113.6$ eV *[v36.11, R388]*;
+  - with a bare right hop the zero block is a choice of basis; with the right hop a charged vev, or with $SU(2)_R$, the direct mass is forbidden up to dimension five; with one hop scale the exact angles bound a flavor-blind direct mass only from below, $m_0>-5.05$ eV, the $\tau$ setting the upper end — short of the eV level the $\tau$'s test needs — and with two hop scales the same hop keeps that bound while the $\tau$ bounds the dual factors' on both sides, $-8.45<m_0<+113.6$ eV *[v36.11, R388]* *[v36.13, R401: the one-scale bound and the two-scale interval hold for $\lvert m_0\rvert<\Lambda$, the direct mass the smaller diagonal entry, on the branch connected to the zero-block solution; a second branch near $1.03$ MeV fits all three masses, §XXXIV.36]*;
   - with two hop scales the same hop's $\tau$ is unchanged, and the dual factors' becomes $m_\tau<1776.9658$ MeV on every positive branch (§XXXIV.23) *[v36.11, R389]* — met, with the measured $\tau$ fixing $\varepsilon_R/\varepsilon_L = 0.775$.
 - *A moving frame* (§XXXIV.17):
   - the connection's diagonal part is the lines' Berry connection, removable when only the frame's angle varies;
@@ -35454,7 +35901,7 @@ So a moving frame changes flavor only if the field lives on the carrier itself, 
   - $\mu = M_Z$ imposed with the exact angles and one hop scale: the $\tau$ at $1776.7434$ and $1776.8160$ MeV ($-2.07\sigma$, $-1.27\sigma$); the electron off by $-0.97$ and $+8.05$ eV ($-87.0\sigma$ and $+722.5\sigma$ with the muon's and the Z's errors propagated), which a direct mass of $-0.97$ or $+8.09$ eV restores: the strict identification excluded within this pole-mass realization, an enlarged one not excluded by this comparison *[v36.11, R388]*; in the chiral version $\mu_L = M_Z$ gives $1776.8187$ MeV ($-1.24\sigma$), one choice among several. [V/S/O]
 - **R383** (§XXXIV.16). The chiral two-hop seesaw:
   - with a bare right hop the zero block is a choice of basis (abelian charges: the direct term's charge is the hops' and the mass's combination; any symmetry: a rotation of $e_R$ and $E_R$ trades the right hop for the seesaw mass in the direct entry); a charged scalar for the right hop protects it, up to dimension five; the left-right group does it with $SU(2)_R$;
-  - the direct mass's signed interval from the exact-angle test with one hop scale: no fit below $m_0 = -5.05\times10^{-6}$ MeV, the dual factors' $\tau$ one standard deviation low at $+6.0\times10^{-6}$ MeV — not a bound on $\lvert m_0\rvert$, and short of the eV level the $\tau$'s test needs; with two hop scales the same hop's unchanged and the dual factors' set by the $\tau$, exact fits for $-8.45<m_0<+113.6$ eV *[v36.11, R388]*; $M\geq2.4\times10^{14}$ GeV for $v_R = 10$ TeV, a condition on a coefficient of $1$ *[v36.11, R388]*;
+  - the direct mass's signed interval from the exact-angle test with one hop scale: no fit below $m_0 = -5.05\times10^{-6}$ MeV, the dual factors' $\tau$ one standard deviation low at $+6.0\times10^{-6}$ MeV — not a bound on $\lvert m_0\rvert$, and short of the eV level the $\tau$'s test needs; with two hop scales the same hop's unchanged and the dual factors' set by the $\tau$, exact fits for $-8.45<m_0<+113.6$ eV *[v36.11, R388]* *[v36.13, R401: the one-scale bound and the two-scale interval hold for $\lvert m_0\rvert<\Lambda$, the direct mass the smaller diagonal entry, on the branch connected to the zero-block solution; a second branch near $1.03$ MeV fits all three masses, §XXXIV.36]*; $M\geq2.4\times10^{14}$ GeV for $v_R = 10$ TeV, a condition on a coefficient of $1$ *[v36.11, R388]*;
   - two hop scales: $m_n = m_*a_La_R(1-(\varepsilon_La_L^2+\varepsilon_Ra_R^2)/2)$;
   - with the exact angles the same hop's $\tau$ unchanged ($1776.6899$ MeV), the dual factors' $m_\tau<1776.9658$ MeV (the supremum as $\varepsilon_R/\varepsilon_L\to0$, on every positive branch *[v36.11, R389]*; $m_\tau$ falling along the ratio, the exact fits ending at $2.0095$), the measured $\tau$ fixing $\varepsilon_R/\varepsilon_L = 0.775$, $\Lambda = 47.9$ TeV; $\mu_L = M_Z$ gives $1776.8187$ MeV, one choice among several. [T/V/S/O]
 - **R384** (§XXXIV.17). A moving frame:
@@ -37428,7 +37875,7 @@ So a moving frame changes flavor only if the field lives on the carrier itself, 
 Its brief B's contact reading of the shell's frame is checked (§XXXIV.21(h)); its brief C is begun: a basis varying over spacetime brings a connection, and a varying internal operator changes the parent's square (§XXXIV.21(g)); its two cases (a pure basis change and a physical change of the background), the linear-versus-quadratic fork and the weak sector are next pieces; and its brief D's conditional positivity theorem is made a floating-point certificate on the grid, up to the residual's bound, for the three cone penalties and stated for the smooth ones — second variation only (§XXXIII.67(c)). Its other items stand as recorded: the fibers' meaning and the three-mode count (§XXXIV.21(h)), the localization's tail obstruction and its native-metric control, the readability of the working argument (brief F), and the gravity program (brief E), which this round does not advance.
 
 *The referee report on v36.10.* Its verdict is "retain and develop this version". Its findings are applied:
-- *the Z-linked statistics* (its section 3) — the pulls with the calibration error, the three hypotheses with its suggested wording, and the signed interval, which holds with one hop scale, and with two for the same hop twice, while the $\tau$ bounds the dual factors' on both sides — in §XXXIV.22 and in place in §§XXXIV.14–16;
+- *the Z-linked statistics* (its section 3) — the pulls with the calibration error, the three hypotheses with its suggested wording, and the signed interval, which holds with one hop scale, and with two for the same hop twice, while the $\tau$ bounds the dual factors' on both sides *[v36.13, R401: for $\lvert m_0\rvert<\Lambda$, on the branch connected to the zero-block solution; a second branch near $1.03$ MeV, §XXXIV.36]* — in §XXXIV.22 and in place in §§XXXIV.14–16;
 - *transport* (section 4) — the flat complete connection, the stipulated line connections, the adiabatic reduction, a source-to-detector probability, and §XXXIV.8(d) made consistent with §XXXIV.17(e) — in §XXXIV.24 and in place in §§XXXIV.8 and XXXIV.17;
 - *the tau bound and the fold* (section 5) — checked, recomputed and implemented with the algebraic inverse and its filter, the solver's status no longer silenced — in §XXXIV.23;
 - *the zero block and matching* (section 6) — the three contributions to a dimension-five term, "conditional pole-mass realizations", and matching as a defined calculation (the report cites Sumino's paper for the pole–running relation) — in §XXXIV.22(d) and the standing;
@@ -37516,7 +37963,7 @@ The direct mass and the second hop scale are legitimate possibilities; each enla
 
 > The strict zero-block, equal-scale identification is excluded within this pole-mass realization. Allowing a direct mass or an independent chiral hop scale yields enlarged realizations that are not presently excluded by this mass comparison. No common origin with the Z mass has been derived.
 
-**(c) The signed direct-mass interval, with one hop scale [V].** With one hop scale — $m_*$ and $\Lambda$ fitted, $\mu = \sqrt{m_*\Lambda}$ on both hops — no exact fit exists below $m_0 = -5.0486$ eV for either construction: the threshold is $-\delta\,r\,m_\mu/(1-r)$, with a fit at $-5.0481$ eV and none at $-5.0537$ eV. Above it the $\tau$ sets the other end. The $\tau$ (MeV) against $m_0$, the electron and the muon fitted:
+**(c) The signed direct-mass interval, with one hop scale [V].** With one hop scale — $m_*$ and $\Lambda$ fitted, $\mu = \sqrt{m_*\Lambda}$ on both hops — no exact fit exists below $m_0 = -5.0486$ eV for either construction *[v36.13, R401: for the direct mass the smaller diagonal entry, $\lvert m_0\rvert<\Lambda$, the convention under which the blocks are read; the blocks' symmetries give each solution mirrors with the roles exchanged, §XXXIV.36(d)]*: the threshold is $-\delta\,r\,m_\mu/(1-r)$, with a fit at $-5.0481$ eV and none at $-5.0537$ eV. Above it the $\tau$ sets the other end. The $\tau$ (MeV) against $m_0$, the electron and the muon fitted:
 
 | $m_0$ (eV) | $-5.00$ | $-4.37$ | $-3.00$ | $-1.80$ | $0$ | $+2.00$ | $+4.00$ | $+6.00$ | $+8.00$ |
 |:--|:--|:--|:--|:--|:--|:--|:--|:--|:--|
@@ -37533,9 +37980,9 @@ With two independent hop scales — the chiral model's own case (§XXXIV.16(b)�
 - *For the dual factors the electron and the muon no longer bound $m_0$ from below.* The correction lowers their ratio once $\varepsilon_B/\varepsilon_A$ exceeds about $-\Delta A/\Delta B = 2.0114$ (first order), and the dual factors fit all three masses exactly at $m_0 = -6$ eV ($\mu_A = 180.1$ GeV, $\mu_B = 302.3$ GeV, $\Lambda = 86.7$ TeV) and at $+40$ eV ($229.6$ GeV, $67.9$ GeV, $24.8$ TeV).
 - *The $\tau$ then bounds $m_0$ on both sides.* At fixed $m_0$ it rises along the family that fits the electron and the muon toward a supremum, approached as one hop's $\varepsilon\to0$ ($\Lambda\to\infty$ at fixed $m_*$), where the light masses are exactly $\lvert m_*a_+a_--m_0\rvert/\sqrt{1+\varepsilon w}$ — with $w = a_-^2$ as $\varepsilon_A\to0$ below the one-scale threshold and $w = a_+^2$ as $\varepsilon_B\to0$ above it. The supremum is $1776.4725$, $1776.8027$, $1776.9569$, $1776.9658$, $1776.9532$ and $1776.9028$ MeV at $m_0 = -50$, $-20$, $-6$, $0$, $+40$ and $+200$ eV; the full model at $\varepsilon_B/\varepsilon_A = 10^6$ gives $1776.8027$ MeV at $-20$ eV, and at $10^{-6}$ $1776.9028$ MeV at $+200$ eV.
 
-So exact three-mass fits exist only for $-8.446<m_0<+113.612$ eV — the full model fits all three at $-8.40$ eV ($\mu_A = 178.3$ GeV, $\mu_B = 2212$ GeV, $\Lambda = 628.5$ TeV, $\varepsilon_B/\varepsilon_A = 153.9$) and at $+113.5$ eV ($5883$ GeV, $42.8$ GeV, $401.2$ TeV, $5.3\times10^{-5}$) — and the $\tau$ within one standard deviation needs $-16.617<m_0<+399.405$ eV ($-24.790$ and $+685.729$ at two). The interval above is the one-scale model's.
+So on this branch exact three-mass fits exist only for $-8.446<m_0<+113.612$ eV *[v36.13, R401: on the branch continuously connected to the zero-block solution, the three determinants $m_0\Lambda-\mu_A\mu_Ba_{+,n}a_{-,n}$ negative; the statement was written as global and is not — a second branch, the electron's determinant positive, fits all three masses for $1.028484<m_0<1.081583$ MeV, §XXXIV.36, both for the direct mass the smaller diagonal entry; the ends here are recovered there as the first branch's]* — the full model fits all three at $-8.40$ eV ($\mu_A = 178.3$ GeV, $\mu_B = 2212$ GeV, $\Lambda = 628.5$ TeV, $\varepsilon_B/\varepsilon_A = 153.9$) and at $+113.5$ eV ($5883$ GeV, $42.8$ GeV, $401.2$ TeV, $5.3\times10^{-5}$) — and the $\tau$ within one standard deviation needs $-16.617<m_0<+399.405$ eV ($-24.790$ and $+685.729$ at two). The interval above is the one-scale model's, on the same branch *[v36.13, R401: each one-scale construction also has an exact three-mass fit near $1.03$ MeV on the second branch, §XXXIV.36(d); the lepton data alone do not impose the eV intervals on the unrestricted matrix]*.
 
-**(d) The dimension-five coefficient, as a condition [S].** A flavor-blind operator $C_5(\bar\ell_L\phi_L)(\phi_R^\dagger\ell_R)/M$ gives $m_0 = C_5v_Lv_R/(2M)$, so a tolerance $m_{\rm tol}$ needs $\lvert C_5\rvert v_Lv_R/(2M)\leq m_{\rm tol}$. With $\lvert C_5\rvert = 1$, $v_R = 10$ TeV and $m_{\rm tol} = 5.05$ eV — the one-scale boundary taken as a tolerance; with two hop scales the dual factors' boundary is the $\tau$'s, $-8.45$ eV for an exact fit, which needs $M\geq1.5\times10^{14}$ GeV — $M\geq2.4\times10^{14}$ GeV, a requirement on that coefficient, not a limit on every completion. Three contributions are distinct, as the report says:
+**(d) The dimension-five coefficient, as a condition [S].** A flavor-blind operator $C_5(\bar\ell_L\phi_L)(\phi_R^\dagger\ell_R)/M$ gives $m_0 = C_5v_Lv_R/(2M)$, so a tolerance $m_{\rm tol}$ needs $\lvert C_5\rvert v_Lv_R/(2M)\leq m_{\rm tol}$. With $\lvert C_5\rvert = 1$, $v_R = 10$ TeV and $m_{\rm tol} = 5.05$ eV — the one-scale boundary taken as a tolerance; with two hop scales the dual factors' boundary on the first branch is the $\tau$'s, $-8.45$ eV for an exact fit, which needs $M\geq1.5\times10^{14}$ GeV *[v36.13, R401: on the second branch $m_0 = 1.028$ MeV corresponds to $M = 1.2\times10^9$ GeV, §XXXIV.36(e); a near-zero direct term is a hypothesis to state]* — $M\geq2.4\times10^{14}$ GeV, a requirement on that coefficient, not a limit on every completion. Three contributions are distinct, as the report says:
 1. the operator the heavy partner itself generates — the mechanism, with the hops' flavor structure;
 2. independent matching terms with other flavor tensors;
 3. loops and symmetry-breaking spurions that change the texture.
@@ -37728,7 +38175,7 @@ What would derive it is a law, from PG's transport, that produces a phase of $\t
 
 *Established [T/V], added.*
 - *The report on v36.8's items* (§XXXIV.21): the deletion's survivors equal but not distinguishable (Gram rank two); the ring's derivative a discrete momentum operator, not a derivation; the trace form Lorentzian for every $c>\tfrac13$, so $c = \tfrac23$ is Koide's postulate; the unweighted projection told from the test with the electron and the muon fixed ($m_\tau = 1776.96903$ MeV, $+0.43\sigma$); the hop product's domain; the trimaximal column's two conditions; constant and varying operators; the shell's circular lines a CR structure.
-- *The Z-linked identification* (§XXXIV.22): with the muon's and the Z's errors propagated the strict model's pulls are $-87.0$ and $+722.5$; three hypotheses, the strict one excluded within this pole-mass realization; with one hop scale the direct-mass interval signed ($m_0>-5.05$ eV; with the $\tau$ within one standard deviation $m_0<-2.731$ eV for the same hop twice and $m_0<+6.017$ eV for the dual factors), and with two independent scales the same hop's unchanged and the dual factors' set by the $\tau$ (exact fits for $-8.446<m_0<+113.612$ eV); the dimension-five bound a condition on a coefficient.
+- *The Z-linked identification* (§XXXIV.22): with the muon's and the Z's errors propagated the strict model's pulls are $-87.0$ and $+722.5$; three hypotheses, the strict one excluded within this pole-mass realization; with one hop scale the direct-mass interval signed ($m_0>-5.05$ eV; with the $\tau$ within one standard deviation $m_0<-2.731$ eV for the same hop twice and $m_0<+6.017$ eV for the dual factors), and with two independent scales the same hop's unchanged and the dual factors' set by the $\tau$ (exact fits for $-8.446<m_0<+113.612$ eV — the one-scale interval and this one for $\lvert m_0\rvert<\Lambda$, on the branch connected to the zero-block solution; a second branch near $1.03$ MeV fits all three masses *[v36.13, R401]*); the dimension-five bound a condition on a coefficient.
 - *The two-scale theorem* (§XXXIV.23): $m_\tau<1776.965825$ MeV on every positive branch; the fold at $\rho_{\max} = 2.0094647320$; the inverse's two roots, one rejected; parity proper excludes the dual factors, and equal strengths with $A_-$ on the left hop give $m_\tau = 1776.965807$ MeV at $v_R = 10$ TeV.
 - *Transport* (§XXXIV.24): the complete connection flat, the projected phases $0$ and $\mp\Omega$, the two actions and their adiabatic agreement, a source-to-detector probability.
 - *The two histories* (§XXXIV.25): $j$ intertwines the Weyl types; at rest the Cartan pair shares the spin and the antipodal pair, taken as the fixed relation $\psi_R = j\psi_L$, is the conjugate pairing, chargeless — and in every frame the blocks' overlap separates the two; the Cartan comparison is the four-velocity; three handednesses kept apart.
@@ -37746,7 +38193,7 @@ What would derive it is a law, from PG's transport, that produces a phase of $\t
 | $\mu = M_Z$, one scale | $\Lambda$ | $\mu$ | the electron ($-87.0\sigma$, $+722.5\sigma$); the $\tau$ | zero block |
 | $\mu = M_Z$ with $m_0$ | $\Lambda$, $m_0$ | $e$, $\mu$ | the $\tau$ ($-2.07\sigma$, $-1.27\sigma$) | — |
 | the dual factors, two scales | $\mu_L$, $\mu_R$, $\Lambda$ | $e$, $\mu$, $\tau$ | the inequality $m_\tau<1776.965825$ MeV, met | zero block; positive real scales |
-| the dual factors, two scales, with $m_0$ | $\mu_L$, $\mu_R$, $\Lambda$, $m_0$ | $e$, $\mu$, $\tau$ | none; exact fits only for $-8.446<m_0<+113.612$ eV | positive real scales |
+| the dual factors, two scales, with $m_0$ | $\mu_L$, $\mu_R$, $\Lambda$, $m_0$ | $e$, $\mu$, $\tau$ | none; exact fits for $-8.446<m_0<+113.612$ eV on the branch connected to the zero-block solution, and for $1.028484<m_0<1.081583$ MeV on a second *[v36.13, R401]* | positive real scales; the branch |
 | two scales, $\mu_L = M_Z$ | $\mu_R$, $\Lambda$ | $e$, $\mu$ | the $\tau$, $-1.24\sigma$ | zero block |
 | parity proper (the same hop) | $y$, $\Lambda$ ($v_R$ given) | $e$, $\mu$ | the $\tau$, $-2.67\sigma$, for every $v_R$ | zero block |
 | equal strengths, $A_-$ on the left | $y$, $\Lambda$ ($v_R$ given) | $e$, $\mu$ | the $\tau$, $+0.40\sigma$ at $v_R = 10$ TeV | zero block; the postulate; the assignment |
@@ -37769,7 +38216,7 @@ Every row compares a tree-level texture with pole masses; none has a defined mat
 
 - **R386** (§XXXIV.20). Entries 357 and 360 in the author's words; the responses to them, the review of v36.10 and the referee reports on v36.8 and v36.10 as he sent them; the first response's "Entry 355" kept; what v36.11 does with each is stated there. [record]
 - **R387** (§XXXIV.21; corrected in place in §§XXXIV.1, XXXIV.2(a), XXXIV.3(a)–(e), XXXIV.4(a)–(b), XXXIV.5, the register entries R371–R373, the head table, the reader's note, the Round record and the suite's v36.8 prints). The report on v36.8's items in Part XXXIV: the deletion's survivors ($\tfrac23$ each, overlaps $\tfrac12$, Gram eigenvalues $0$, $\tfrac32$, $\tfrac32$); the ring's derivative a discrete momentum operator (Leibniz defect $1/\sqrt2$; no derivations on the three-point algebra); $\mathfrak g_c$ Lorentzian for every $c>\tfrac13$; the unweighted projection ($5.47\times10^5$ and $372$ standard errors) and the test with $e$ and $\mu$ fixed ($1776.96903$ MeV); the hop product's domain; the trimaximal column's two conditions ($0.340814$, $124.78^\circ$ or $235.22^\circ$; $0.340884$, $73.88^\circ$ or $286.12^\circ$); constant and varying operators ($\mathcal D^2 = -\Box-\mathcal M^2+\gamma^\mu\gamma_5\partial_\mu\mathcal M$); the shell's circular lines a CR structure. [T/V/D/O]
-- **R388** (§XXXIV.22; corrected in place in §§XXXIV.13, XXXIV.14(e), XXXIV.15(c), XXXIV.16(a), XXXIV.18, R381–R383, the head table, the reader's note, the Round record and the suite's v36.10 prints). The Z-linked identification: the pulls with the muon's and the Z's errors propagated ($-87.01$, $+722.47$; profile $87.02$, $722.54$) against v36.10's multiples of the electron's error; the three hypotheses, in the report's wording; the signed direct-mass interval with one hop scale ($m_0>-5.0486$ eV; $-2.731$ and $+6.017$ eV at one standard deviation); with two, the same hop's unchanged and the dual factors' set by the $\tau$ (exact fits for $-8.446<m_0<+113.612$ eV, at $-6$ and $+40$ eV among them; the $\tau$ within one standard deviation for $-16.617<m_0<+399.405$ eV); the dimension-five term a condition on a coefficient, with the three contributions distinct; the fits conditional pole-mass realizations. [V/S/O]
+- **R388** (§XXXIV.22; corrected in place in §§XXXIV.13, XXXIV.14(e), XXXIV.15(c), XXXIV.16(a), XXXIV.18, R381–R383, the head table, the reader's note, the Round record and the suite's v36.10 prints). The Z-linked identification: the pulls with the muon's and the Z's errors propagated ($-87.01$, $+722.47$; profile $87.02$, $722.54$) against v36.10's multiples of the electron's error; the three hypotheses, in the report's wording; the signed direct-mass interval with one hop scale ($m_0>-5.0486$ eV; $-2.731$ and $+6.017$ eV at one standard deviation); with two, the same hop's unchanged and the dual factors' set by the $\tau$ (exact fits for $-8.446<m_0<+113.612$ eV, at $-6$ and $+40$ eV among them; the $\tau$ within one standard deviation for $-16.617<m_0<+399.405$ eV — the one-scale interval and this one for $\lvert m_0\rvert<\Lambda$, on the branch connected to the zero-block solution; a second branch in §XXXIV.36 *[v36.13, R401]*); the dimension-five term a condition on a coefficient, with the three contributions distinct; the fits conditional pole-mass realizations. [V/S/O]
 - **R389** (§XXXIV.23; corrected in place in §§XXXIV.16(c), XXXIV.18, R383, the head table and the Round record; the suite's solver helper). The two-scale theorem: the reduction $X(Y)$, $Y_\infty = 3.854054\times10^6$; the supremum $1776.965825$ MeV on every positive branch ($C_0$, $C_1$, $Y_c = 80.6130577$, the Rayleigh bound $95.3900215$); the fold $\rho_{\max} = 2.0094647320$ at $Y = 1899.1308$; $\Lambda^2>0$ above $Y = 75.786481$ and below $2.1643\times10^{-5}$, the latter rejected by the light-branch filter; the two branches; the algebraic inverse, its light root v36.10's fit and its heavy root rejected; left-right parity — the review's numbers, parity proper excluding the dual factors, equal strengths impossible with $A_+$ on the left above $349.03$ GeV and with $A_-$ on the left giving $1776.965807$ MeV at $v_R = 10$ TeV. [T/V/S/O]
 - **R390** (§XXXIV.24; corrected in place in §§XXXIV.8(d), XXXIV.17(c)–(e), XXXIV.18, R384, the head table, the Round record and the suite's v36.10 prints). Transport: the complete connection flat (closed transport the identity, curvature zero); the projected phases; the two actions, the lines' a stipulation or the carrier's adiabatic limit with its omitted terms; a $\tau$-to-muon probability from the $12\times12$ co-rotating evolution within a few percent of the two-level formula; basis independence; the rates illustrations, not bounds. [T/V/D/S/O]
 - **R391** (§XXXIV.25). The two histories and the Weyl pair: $j(g\xi) = \rho(g)j(\xi)$; both pairings pass the Lorentz test; at rest the Cartan pair shares the spin, the antipodal pair is half negative-frequency and a charge-conjugation eigenstate; the blocks' overlap Lorentz-invariant, $\lvert\xi\rvert^2$ and $0$; taken as the fixed relation $\psi_R = j\psi_L$ the antipodal pairing admits $\mathbb Z_2$, not $U(1)$; the Cartan comparison $gg^\dagger = P^2 = p\cdot\bar\sigma/m$; three handednesses; what separation would add. [T/V/D/S/O]
@@ -38145,7 +38592,7 @@ Every row compares a tree-level texture with pole masses; none has a defined mat
 
 *The review of v36.11 (§XXXIV.29) sets one formal requirement. §XXXIV.25(d) read the electron's two Weyl components as the Cartan pair $(B^{-1}\xi,B\xi)$, whose comparison $W = gg^\dagger = B^2 = p\cdot\bar\sigma/m$ is the four-velocity. But if two histories approach one smooth path and their transports under one smooth connection are compared, $W(r) = P_2(r)^{-1}P_1(r)\to I$; "These are different limits." So the two histories must carry more than one connection in one representation — Cartan-related representations, an explicit intertwiner, or velocity data surviving the coincident limit, §XX.3's $D_uY$ — and the requirement is to derive $B^2$ as the zero-separation limit of the doubled-history transport, "rather than adding it as an identification at the endpoint". The suite's `v36_12_limiting_map` runs the construction below.*
 
-**(a) One connection, one representation [T/V].** Let $\Gamma_1$ and $\Gamma_2 = \Gamma_1+rY$ be two paths with common endpoints, carrying the parallel transports $P_1$ and $P_2$ of one smooth connection $A$ in one representation. Then $W(r) = P_1P_2^{-1}$ — the comparison based at the common far endpoint, the transports running from the start; the review's $P_2^{-1}P_1$, based at the common start, is its conjugate and equally of order $r$ — is the holonomy of the thin loop $\Gamma_2^{-1}\circ\Gamma_1$, which is $I+\int F+O(r^2)$ over the strip between the paths, of area $O(r)$: $W(r)\to I$ linearly in $r$, whatever the connection. Numerically, for an $\mathfrak{sl}(2,\mathbb C)$-valued connection with curvature on $\mathbb R^3$ (six generators with affine coefficients) and a curved $\Gamma_1$, $\lvert W(r)-I\rvert = 1.17$, $0.59$, $0.30$, $0.15$ at $r = 0.2$, $0.1$, $0.05$, $0.025$, the ratio to $r$ steady at $5.9$–$6.0$. The review's first statement is a theorem: no single connection in one representation gives a non-identity comparison of coincident histories.
+**(a) One connection, one representation [T/V].** Let $\Gamma_1$ and $\Gamma_2 = \Gamma_1+rY$ be two paths with common endpoints, carrying the parallel transports $P_1$ and $P_2$ of one smooth connection $A$ in one representation. Then $W(r) = P_1P_2^{-1}$ — the comparison based at the common far endpoint, the transports running from the start; the review's $P_2^{-1}P_1$, based at the common start, is its conjugate and equally of order $r$ — is the holonomy of the thin loop $\Gamma_2^{-1}\circ\Gamma_1$, which is $I+r\int_0^1P(1,s)F(Y,\dot\Gamma_1)P(s,1)\,ds+O(r^2)$ with the curvature transported to the far endpoint's fiber *[v36.13, R402: written as $I+\int F+O(r^2)$ in v36.12; a bare integral of matrix-valued curvature is wrong at order $r$ for a non-abelian connection, §XXXIV.37(b)]*, the strip between the paths having area $O(r)$: $W(r)\to I$ linearly in $r$, whatever the connection. Numerically, for an $\mathfrak{sl}(2,\mathbb C)$-valued connection with curvature on $\mathbb R^3$ (six generators with affine coefficients) and a curved $\Gamma_1$, $\lvert W(r)-I\rvert = 1.17$, $0.59$, $0.30$, $0.15$ at $r = 0.2$, $0.1$, $0.05$, $0.025$, the ratio to $r$ steady at $5.9$–$6.0$. The review's first statement is a theorem: no single connection in one representation gives a non-identity comparison of coincident histories.
 
 If instead the second path's transport is read in the Cartan-twisted representation, $W_\rho(r) = P_1\,\rho(P_2)^{-1} = P_1P_2^\dagger$ tends to $P_1P_1^\dagger$, the Hermitian square of the first transport ($\lvert W_\rho-P_1P_1^\dagger\rvert = 3.26$ to $0.36$ along the same sequence, with $\lvert P_1P_1^\dagger-I\rvert = 4.83$ for that connection). The twist, not the separation, is what can make the limit differ from the identity.
 
@@ -38153,9 +38600,9 @@ If instead the second path's transport is read in the Cartan-twisted representat
 
 $$\rho(g)\,\xi = j^{-1}\big(g\,(j\xi)\big)$$
 
-(to $10^{-12}$ on $200$ random elements of $SL(2,\mathbb C)$). So the Cartan-twisted transport of a spinor along the second history is the ordinary transport $g$ of its $j$-conjugate, read back through $j^{-1}$: one connection suffices if the second leg carries the $j$-conjugate state and the comparison includes the intertwiner $j^{-1}$. This is the review's second alternative, and the structure is one the archive already has — the quaternionic structure of §XIX.2d, the conjugate lift ($j\xi = \varepsilon\bar\xi$ here, the negative of §XIX.2d's $j(\alpha,\beta) = (-\bar\beta,\bar\alpha)$; the identity is blind to the sign of $j$). Its two uses are the two readings of §XXXIV.25: applied to the *representation*, as here, $j$ produces the Cartan pair; applied to the *state* as a fixed relation $\psi_R = j\psi_L$, it produces the Majorana pairing of §XXXIV.25(c).
+(to $10^{-12}$ on $200$ random elements of $SL(2,\mathbb C)$). So the Cartan-twisted transport of a spinor along the second history is the ordinary transport $g$ of its $j$-conjugate, read back through $j^{-1}$: one connection suffices for the spin transport if the second leg carries the $j$-conjugate state and the comparison includes the intertwiner $j^{-1}$ *[v36.13, R402: for a transport carrying an electromagnetic phase the antilinear $j$ gives $e^{-i\chi}\rho(g)$, the opposite charge, so the identity does not extend by itself to the charged transport, §XXXIV.37(c)]*. This is the review's second alternative, and the structure is one the archive already has — the quaternionic structure of §XIX.2d, the conjugate lift ($j\xi = \varepsilon\bar\xi$ here, the negative of §XIX.2d's $j(\alpha,\beta) = (-\bar\beta,\bar\alpha)$; the identity is blind to the sign of $j$). Its two uses are the two readings of §XXXIV.25: applied to the *representation*, as here, $j$ produces the Cartan pair; applied to the *state* as a fixed relation $\psi_R = j\psi_L$, it produces the Majorana pairing of §XXXIV.25(c).
 
-**(c) The transport [V].** §XX.8a's horizontal lift along a worldline is Fermi–Walker transport: successive pure boosts in the momentary transported frame. The suite integrates it in $SL(2,\mathbb C)$, reading each increment in the frame carried ($X = u\cdot\bar\sigma\to gXg^\dagger$). Around a circular orbit the frame returns as $g = B(u)\,U$ with $U$ the Thomas rotation $e^{i\pi(\gamma-1)\sigma_z}$ — retrograde for the orbit counterclockwise about $+z$, in §XX.7's $U_z(\varphi) = e^{-i\varphi\sigma_z/2}$ — to the discretization error at $v = 0.3$, $0.6$ and $0.9$ ($12000$ steps), the residual boost below $10^{-12}$ — §XX.8's check, repeated for the integrator used here.
+**(c) The transport [V].** §XX.8a's horizontal lift along a worldline is Fermi–Walker transport: successive pure boosts in the momentary transported frame. The suite integrates it in $SL(2,\mathbb C)$, reading each increment in the frame carried ($X = u\cdot\bar\sigma\to gXg^\dagger$). Around a circular orbit the frame returns as $g = B(u)\,U$ with $U$ the Thomas rotation $e^{i\pi(\gamma-1)\sigma_z}$ — retrograde for the orbit counterclockwise about $+z$, in §XX.7's $U_z(\varphi) = e^{-i\varphi\sigma_z/2}$ — to the discretization error at $v = 0.3$, $0.6$ and $0.9$ ($12000$ steps; below $10^{-7}$, $10^{-7}$ and $10^{-6}$ with the frame started at $B(u(0))$ *[v36.13, R402: v36.12 started it at the identity, which inserted a rest-to-first-sample boost and left a first-order error, the residuals then below $10^{-4}$, $10^{-4}$ and $10^{-3}$; §XXXIV.37(a)]*), the residual boost below $10^{-12}$ — §XX.8's check, repeated for the integrator used here.
 
 **(d) The doubled history [T/V/D].** Two legs leave rest together and separate: leg 1 turns at rate $2$, leg 2 at rate $2(1+r)$, both reaching speed $0.6$ along a turning direction, so that at proper time $1$ their positions and velocities differ by order $r$ — the analogues of §XX.3's $Y$ and $D_uY$ for accelerated worldlines in flat space — and the family converges to leg 1 as $r\to0$. Each leg carries §XX.8a's transport, the second read through $j$ as in (b); at finite $r$ the two frames sit at different base points and are compared in the flat trivialization. Then the Cartan comparison $W_\rho(r) = g_1g_2^\dagger$ tends to $B(u)^2 = u\cdot\bar\sigma$ and the same-representation comparison $g_1g_2^{-1}$ to $I$, each linearly in $r$ — continuity of the transport in $r$, not (a)'s thin-loop holonomy, since the legs do not rejoin:
 
@@ -39287,6 +39734,8 @@ At $r = 0$ the comparison is exact and path-independent: $g_1g_1^\dagger = B(u)^
 
 ## XXXIV.33 Standing of Part XXXIV after v36.12, and the next pieces [S/O; R399]
 
+*[v36.13, R405: §XXXIV.40 is Part XXXIV's standing after v36.13. The direct-mass intervals this standing inherits from §XXXIV.22 are one branch's (§XXXIV.36); the next pieces are reordered as the review of v36.12 and the referee report give them and gain the branches' classification, the charged transport, Entry 365's coupled transport and Entry 366's conjecture.]*
+
 *Established [T/V], added.* The limiting map (§XXXIV.30): under one connection in one representation the comparison of two converging histories' transports tends to the identity; the Cartan-twisted reading of the second leg, which $j$ supplies as the intertwiner, gives the Hermitian square of the transport; for two legs carrying §XX.8a's transport and separating to order $r$, that square is $B(u)^2 = u\cdot\bar\sigma$ in the limit, path-independent at $r = 0$ while the Thomas rotation is not; the limit pair is the Cartan pair with the shared Thomas rotation, obeying the Dirac identity; given the twist, the legs' relative velocity is not needed. The reductions of the carrier (§XXXIV.32): the trines under $V/\mathbb CX$ and $V/\mathbb CT$, $V/(\mathbb CE+\mathbb CM) = \mathbb CT$, the mass operator's descent, and the shell's nonintegrable transverse plane — the responses' statements, all recomputed.
 
 *The model ledger* of §XXXIV.27 stands unchanged: nothing was fitted this round.
@@ -39310,9 +39759,1556 @@ At $r = 0$ the comparison is exact and path-independent: $g_1g_1^\dagger = B(u)^
 - **R398** (§XXXIV.32). The responses' numbers recomputed, all as stated: in $V = \mathbb C^3$, $V/\mathbb CX$ keeps the three flavor vectors at $\tfrac23$ of their squared norm as a trine (inner products $-\tfrac12$, summing to zero); $V/\mathbb CT$ makes the Cartesian images a trine in $x+y+z = 0$ with $E$, $M$ its orthogonal circular directions; $V/\mathbb CE$ the same up to phases (Bargmann invariant $-\tfrac18$), with conjugation not descending; $V/(\mathbb CE+\mathbb CM) = \mathbb CT$; the mass operator descends through the flavor quotients and not through $\mathbb CX$, its compression onto $\{Y,Z\}$ having eigenvalues $52.2836$ and $1203.1160$ MeV, $a\mp\lvert b\rvert$ in closed form; $[X_u,X_v] = 2X_T$ on $SU(2)$, the bracket proportional to $T$; a crossing orbit visits all four (hemisphere, radial sense) sectors; the signed chord $2R\sin(\varphi/2)$ changes sign after $2\pi$, not at the far apsis; §XXVII.7's two-arc orbit sweeps $126.04^\circ$ per arc; on $S^3 = SU(2)$, $-q = qe^{i\pi}$ is the antipodal point of the same Hopf circle, with $\pi_H(q) = \pi_H(-q)$, $q\mapsto aqb^{-1}$ sends $1$ to $ab^{-1}$ with the diagonal as the $SO(3)$ stabilizer, $SO(4)$ preserves the self-dual and anti-self-dual sectors and conjugation swaps them, and the even density $(q\cdot n)^2$ keeps a quadrupole, its moments taken by quadrature. The two-branch reading of Entry 363 and the apsidal Hopf-sign switch of Entry 364 recorded as hypotheses with the responses' tests. [T/V/S/O]
 - **R399** (§XXXIV.33; §XXXIII.13; the head table; pointers in Part XXXIII's opening, Part XXXIV's opening and §XXXIV.27; the toy). The standing of Part XXXIV after v36.12 and its next pieces, in the review's order, with Entries 363–364's proposal added for the other-galaxies wing. The suite `pg_v36_numerics.py` at v36.12 has two new sections and checks, $60$ in all; the helpers `_v36_12_sigma`, `_v36_12_boost`, `_v36_12_boost_to` and `_v36_12_fw`; the mode `v36_12`, under a minute; `quick`, now $44$ checks. The toy `v32_toy_three_ends.py` gains `v36_12`, its `all` counting $247$. No new figure. The SHA-256 of the suite is in §XXXIII.13. [S/O; reproducibility]
 
-## Round record: the version summaries, v16 to v36.12 (moved from the head of the archive in v34.9, R190)
+## XXXIV.35 The review of v36.12, the referee report on v36.12, and Entry 365 with its response, as formulated (23 October 2026) [record; R400]
 
-*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v36.12, v36.11, v36.10, v36.9, v36.8, v36.7, v36.6, v36.5, v36.4, v36.3, v36.2, v36.1, v36.0, v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+**The author's message (23 October), with three attachments.** Entry 365, followed by the review of v36.12, the referee report on v36.12 and the response to Entry 365. As he sent them:
+
+> Entry 365, 5:05 PM, Oct 23, 2026
+> Right so basically my instinct is that we have a rule for how the matter/spirals themselves move along the Hopf fibers, and a rule for how the photons move along the fibers, such that these rules jointly constrain visibility fading rather rapidly at the inner approach point (my instinct is that we might have some kind of kinematic property for which the property of approximately having zero radial time derivative at that instant might signify like “more direction being pointed/given to the Hopf direction” or something like that as if a continual tradeoff) and maybe even the exponential fading itself on the way to the outer point as the actual “visual space realization” outcome (which I suspect would have to do with photons physically having a harder time of reaching you from the “other side”, so funnily enough similarly to the hemisphere gnomonic split you case a net into exactly half of it at a time—and yeah weirdly actually what kind of invariance transformation even would we want to instate there to make it so as you yourself move to other spots to sweep a different half the galaxy still remains a galaxy—like would you see the spirals being preserved by sweep their stars through as if in time, or would you sweep between elliptical kind of thing, or would the spirals become more circular and maybe the galactic center move outward in the intermediate limiting case of no inward travel??? What even would all of this have to say about the middle space metric itself, and how much of it itself therefore becomes a gnomonic-like rendering effect, merely, and what survives as the invariant version irrespective of your own position and light visibility??? Does it affect the literal Hopf fiber quotienting to and everything???), which after all we know is more gradual, AND then altogether in turn reproduces/consists exactly with the middle space’s own spacetime curvature metric as induced by quotienting out the Hopf fibers or otherwise watching how orbits move locally and all, AND in turn is fixed by the constraint of having to furthermore in the gravity base space quotient consist with the EFEs on that space directly, and all! Anyways that’s the idea, thanks!
+
+*The review of v36.12* ("Projective Gravity v36.12 — Review"), the first attachment:
+
+> # Projective Gravity v36.12 — Review
+>
+> I've now located and read the new version. v36.12 is a worthwhile continuation of v36.11, but its main advance is in the two-history/Weyl-spinor construction—not yet in the new galactic doorway mechanism.
+>
+> The manuscript makes an important distinction between what it actually calculates and what it records as a proposed physical interpretation.
+>
+> In particular:
+>
+> - §XXXIV.30 constructs a finite-separation limiting model for the two histories and their Cartan-related Weyl representations. This is the strongest new mathematical development.
+> - §XXXIV.32 independently checks the quotient calculations, the four handedness distinctions, and the \\(SO(4)\\)/Hopf-sign identities.
+> - Entries 363–364 are incorporated faithfully, including your original two spirals joined together construction. However, the proposed switch between visible and invisible galactic regimes remains a hypothesis; no new optical dynamics has yet been calculated.
+>
+> That last distinction is important: the manuscript has not rejected your doorway idea. It has identified the precise construction that would be needed to test it.
+>
+> ## 1. Numerical verification
+>
+> v36.12 checks
+>
+> 2 passed · 0 failed
+>
+> Embedded source SHA-256 matched the manuscript:
+>
+> `3b402634cedfe463fc730c984149a81076cb56f0729031cc7b55efe8f75b5361`
+>
+> I extracted the standalone Python suite and ran its `v36_12` mode. Both new sections completed successfully.
+>
+> The manuscript now specifies 60 regression checks in total. I independently executed the two new v36.12 checks, not all 60 historical checks.
+>
+> The numerical checks reproduce the new manuscript's reported values, including:
+>
+> | Quantity                                 | Verified result                  |
+> | ---------------------------------------- | -------------------------------- |
+> | Cartan comparison error at \\(r=0.2\\)   | 0.209                            |
+> | Cartan comparison error at \\(r=0.025\\) | 0.026                            |
+> | Same-representation comparison           | Converges to identity            |
+> | Two-arc orbital angle                    | \\(126.04^\circ\\)               |
+> | Compressed Cartesian-quotient masses     | 52.2836 and 1203.1160 MeV        |
+> | Hopf sign identity                       | \\(\pi_H(q)=\pi_H(-q)\\)         |
+> | \\(SO(4)\\) quaternion action            | Orthogonal, determinant \\(+1\\) |
+>
+> These establish computational consistency with the specified examples, not empirical confirmation of the physical model.
+>
+> ## 2. The main advance: the histories now have an explicit limiting construction
+>
+> I particularly like the logical organization of §XXXIV.30.
+>
+> It starts with the problem we identified in the previous review.
+>
+> When two histories approach the same curve and are transported with the same smooth connection in the same representation, their relative transport satisfies
+>
+> \\[ \boxed{ P_1(r)P_2(r)^{-1}\longrightarrow I. } \\]
+>
+> That's inevitable.
+>
+> But PG wants its limiting Dirac construction to retain the nontrivial comparison
+>
+> \\[ \boxed{ W(0)=B(u)^2=u\cdot\bar\sigma. } \\]
+>
+> The revision solves the mathematical compatibility problem by using the Cartan involution on the second representation:
+>
+> \\[ \boxed{ W\_\rho(r) = P_1(r)\rho(P_2(r))^{-1} = P_1(r)P_2(r)^\dagger. } \\]
+>
+> As the two histories converge,
+>
+> \\[ \boxed{ W\_\rho(r)\longrightarrow P_1P_1^\dagger = B(u)^2. } \\]
+>
+> The numerical errors shrink approximately linearly with separation, as expected.
+>
+> This is a well-defined result.
+>
+> ### Why the quaternionic structure matters
+>
+> The manuscript also shows that the required intertwiner is already present:
+>
+> \\[ \boxed{ \rho(g)=j^{-1}gj, } \\]
+>
+> where \\(j\\) is antilinear.
+>
+> That provides a relationship between the two Weyl representations without inventing an entirely new operation.
+>
+> And the transport construction retains the Thomas rotation in the common spin datum while its Hermitian comparison depends only on the final four-velocity.
+>
+> That is an appealing separation between spin transport and boost kinematics.
+>
+> ### The qualification I would emphasize
+>
+> The construction works because the second leg is assigned the Cartan-twisted representation at every separation, not because the physical separation itself somehow generates chirality.
+>
+> Indeed, the manuscript acknowledges this explicitly.
+>
+> So the advance is:
+>
+> \\[ \boxed{ \text{Specified two-history transport} \Longrightarrow \text{correct Dirac limiting pair}. } \\]
+>
+> It is not yet:
+>
+> \\[ \boxed{ \text{PG geometry alone} \Longrightarrow \text{physical Weyl chirality}. } \\]
+>
+> There is another extension needed at finite separation. The example compares frames at different endpoints using a flat-spacetime trivialization. On a curved or nontrivial bundle, a connector between the endpoints is required before the comparison has an invariant physical meaning.
+>
+> I would therefore regard §XXXIV.30 as a successful limiting construction with a still-unexplained representation assignment, rather than a derivation of the electron from two histories.
+>
+> That is nevertheless a real improvement.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> ## 3. The six-fiber quotients are handled correctly
+>
+> The new §XXXIV.32 also checks several important details from Entry 361.
+>
+> A quotient of the complex generation carrier is not automatically a quotient of the canonical shell.
+>
+> And the three Cartesian and three flavor directions are not six independent dimensions.
+>
+> The revised calculations correctly preserve these distinctions.
+>
+> The most interesting quotient remains
+>
+> \\[ \boxed{ \mathbb C^3/\mathbb CX\cong\mathbb C^2. } \\]
+>
+> All three flavor states survive with \\(2/3\\) of their squared norm, but become a nonorthogonal trine.
+>
+> Meanwhile,
+>
+> \\[ \boxed{ \mathbb C^3/(\mathbb CE+\mathbb CM) \cong\mathbb CT } \\]
+>
+> preserves the real body-diagonal direction alone.
+>
+> The revision also verifies that removing a Cartesian line generally prevents the original flavor mass operator from descending, whereas quotients by flavor eigenlines preserve that operator.
+>
+> This is a useful result because it prevents a misleading interpretation of quotienting as simply deleting one generation while preserving all its original physics.
+>
+> Source: §XXXIV.32(a)–(g).&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> ## 4. The most important additional check I would propose
+>
+> This concerns your latest \\(SO(4)\\) doorway idea.
+>
+> Not every \\(SO(4)\\) rotation preserves the particular Hopf fibration PG uses to define its middle space.
+>
+> I think this is an especially valuable next question, and I don't see it resolved by v36.12's checks.
+>
+> Take the Hopf fibers to be right \\(U(1)\\) orbits:
+>
+> \\[ q\sim qh,\qquad h\in H=\\{e^{i\varphi}\\}. \\]
+>
+> Now apply a general four-dimensional rotation:
+>
+> \\[ q\longmapsto aqb^{-1}. \\]
+>
+> Two points initially belonging to the same Hopf fiber transform as
+>
+> \\[ q\longmapsto aqb^{-1}, \\]
+>
+> and
+>
+> \\[ qh\longmapsto aqhb^{-1} =(aqb^{-1})(bhb^{-1}). \\]
+>
+> For those two transformed points still to belong to the same original Hopf fiber, we require
+>
+> \\[ \boxed{ bHb^{-1}=H. } \\]
+>
+> That's a nontrivial restriction.
+>
+> It means the right-hand rotation \\(b\\) must preserve the selected Hopf-circle subgroup as a set.
+>
+> In group-theoretic terms,
+>
+> \\[ \boxed{ b\in N\_{SU(2)}(U(1)), } \\]
+>
+> the normalizer of that \\(U(1)\\).
+>
+> Its connected component is \\(U(1)\\), not all of \\(SU(2)\\).
+>
+> ### Why this matters to your galaxy-center idea
+>
+> The manuscript has correctly established that:
+>
+> \\[ a=b \\]
+>
+> preserves the selected center \\(q_c=1\\).
+>
+> But preserving the center and preserving the Hopf fibration are different conditions.
+>
+> A diagonal transformation can preserve the galaxy center while rotating the Hopf-circle structure relative to it.
+>
+> Conversely, a non-diagonal transformation can move the center while preserving the chosen Hopf fibration.
+>
+> That gives us two distinct geometrical questions:
+>
+> | Selection                                                   | Required structure                           |
+> | ----------------------------------------------------------- | -------------------------------------------- |
+> | Which transformations preserve the galaxy's center?         | Diagonal \\(SU(2)\\)                         |
+> | Which transformations preserve the selected Hopf fibration? | Right factor in the normalizer of \\(U(1)\\) |
+>
+> This might be highly relevant to the galactic normal.
+>
+> A galaxy selecting both a center and a Hopf axis generally leaves a smaller rotational symmetry than selecting its center alone.
+>
+> That could provide a more rigorous language for distinguishing ordinary rotations of the visible galactic frame from additional rotations of the canonical structure.
+>
+> This is my strongest new recommendation for the next revision.
+>
+> It is also important not to overinterpret the restriction. Full \\(SO(4)\\) could still act on the entire configuration if the selected Hopf fibration transforms with the matter fields. But then it is acting on a family of quotients, rather than as a symmetry of one fixed middle-space quotient.
+>
+> Those are different proposed physical architectures.
+>
+> ## 5. The apsidal doorway still has one particularly sharp test
+>
+> The revision correctly records your proposed transition as
+>
+> \\[ \boxed{ q\_+=-q\_-, \qquad \dot q\_+=-\dot q\_-. } \\]
+>
+> As a change of representatives in an antipodal quotient, this can be compatible with a smooth projected trajectory.
+>
+> But there are two interpretations:
+>
+> - If \\(q\_+\\) and \\(q\_-\\) are different representatives of the same physical point, the switch may be merely a change of coordinates or gauge.
+> - If they are physically distinct points of the canonical space, the instantaneous antipodal change is discontinuous unless the complete trajectory includes additional connecting geometry.
+>
+> The distinction is especially consequential because
+>
+> \\[ \pi_H(q)=\pi_H(-q). \\]
+>
+> The existing Hopf quotient forgets the sign.
+>
+> Therefore, simply assigning opposite signs at an apsis does not make one branch optically invisible.
+>
+> To obtain the physical effect you envision, PG needs an optical structure sensitive to something the quotient discards—perhaps an admissible-history class, an independently selected optical channel, or a nontrivial relative holonomy.
+>
+> I would investigate that before asking whether the intermediate \\(SO(4)\\) rotations produce elliptical galaxies.
+>
+> ### What would count as a successful first test?
+>
+> Use the already computed \\(126.04^\circ\\) two-arc orbit, but do not impose the old literal reflection on visible trajectories.
+>
+> Instead, construct one canonical orbit and two rendering maps. Then demonstrate that the transitions preserve the observed position and velocity relationships and do not produce the earlier 50% retrograde population.
+>
+> Next, calculate the photon amplitudes reaching each observer.
+>
+> Crucially, the total matter must still contribute to the gravitational reduction only once.
+>
+> That would turn Entry 364 from a geometric proposal into an actual optical model.
+>
+> The manuscript itself is careful about this: §XXXIV.32(j) records the hypothesis rather than claiming its mechanism has been computed.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> ## 6. What has not changed since v36.11
+>
+> The lepton fit is unchanged.
+>
+> The dual-reference equal-strength construction still gives
+>
+> \\[ \boxed{ m\_\tau=1776.9093\ {\rm MeV} } \\]
+>
+> after fitting the electron and muon, or approximately \\(0.23\sigma\\) below the measured tau mass used in the manuscript.
+>
+> The generalized chiral model still admits a three-mass fit through its third parameter.
+>
+> There is no new mass prediction, radiative matching calculation or electroweak completion.
+>
+> Likewise, the optical and gravitational observational discrepancies identified in Part XXXIII remain unresolved.
+>
+> That doesn't diminish the new geometric results. It simply means v36.12 adds structural mathematical work, rather than another phenomenological result.
+>
+> ## 7. What I'd want in v36.13
+>
+> I would prioritize the work this way:
+>
+> 1\. Classify the \\(SO(4)\\) transformations relative to a chosen galactic center and a chosen Hopf fibration. Determine exactly which preserve each structure, which change only representatives, and which change the physically selected quotient.
+>
+> 2\. Build one smooth two-branch orbital history. Apply a concrete apsidal transition to the already-computed orbit, with both positional and velocity continuity in the appropriate projected sense.
+>
+> 3\. Supply a nontrivial optical selection rule. Show why one branch reaches the home galaxy's observer and the other does not, without treating an unobservable Hopf sign as an observable by declaration.
+>
+> 4\. Apply Law I once to the complete source. Verify that the two branches neither duplicate matter nor create apparent gravitational isotropy from antipodal symmetry alone.
+>
+> I would leave elliptical morphology as the next experiment after those steps. Otherwise, an intermediate rotated image could look elliptical without displaying an elliptical galaxy's actual stellar kinematics.
+>
+> ## Overall assessment
+>
+> I would retain v36.12.
+>
+> The manuscript has successfully addressed a genuine mathematical compatibility issue raised in the v36.11 review, reproduced the new quotient calculations, and accurately preserved your latest galaxy-rendering ideas without claiming to have proved them.
+>
+> My assessment of the new work is:
+>
+> | Area                                  | Status in v36.12                                        |
+> | ------------------------------------- | ------------------------------------------------------- |
+> | Two-history Cartan limit              | Explicit mathematical construction; numerically checked |
+> | Physical origin of the Cartan pairing | Still open                                              |
+> | Six-direction quotients               | Algebraically verified                                  |
+> | \\(SO(4)\\) center-relative rotations | Verified                                                |
+> | Apsidal Hopf doorway                  | Proposed, not dynamically constructed                   |
+> | Elliptical-galaxy intermediate        | Speculative                                             |
+> | Charged-lepton phenomenology          | Unchanged from v36.11                                   |
+>
+> The strongest insight I would take forward is that choosing a galaxy center and choosing its Hopf fibration impose two distinct geometric constraints on the allowed rotations.
+>
+> That seems directly connected to your idea that ordinary rotations pivot about a visible galaxy, while additional canonical rotations might connect different geometric regimes.
+>
+> The question now is not whether the larger rotations exist—they do—but which of them act meaningfully on PG's physical matter and optical structures, rather than simply changing the way those structures are represented.
+>
+> Solving that would be a particularly substantive next step.
+
+*The referee report on v36.12* ("Projective Gravity v36.12: referee report and continuation brief"), the second attachment (its file ends with two line breaks, the second not reproduced):
+
+> # Projective Gravity v36.12: referee report and continuation brief
+>
+> 23 October 2026
+>
+> **Verdict: retain this version, with one substantive correction required. The v36.11 repairs are extensive and mostly successful; v36.12 gives a consistent conditional construction of the Cartan pair. However, the new eV-scale direct-mass intervals are not global bounds for the mass matrices as written. A separate sign branch fits all three charged-lepton masses outside them, including with a 10 TeV heavy partner.**
+>
+> This is a stronger and more careful document than v36.10. It now explicitly distinguishes projected from complete connections, internal quotients from spacetime quotients, numerical evidence from continuum certificates, and a stipulated Cartan twist from a derived physical mechanism. Those improvements should be retained. The main new problem is a familiar one in a more complicated setting: a successful numerical continuation of one branch has been promoted to an exclusion of other branches.
+>
+> The zero-direct-mass tau theorem survives. The counterexamples below concern the extension with a nonzero direct mass, not the theorem whose hypothesis is an exact zero block.
+>
+> ## 1. Scope and reproducibility
+>
+> I compared the supplied **v36.12** with the previously reviewed **v36.10**, including the operative v36.11 corrections, the new v36.12 sections, Entries 357 and 360–364, and the associated executable code. This is an incremental review, not a recertification of every historical assertion in the approximately 882,000-word archive.
+>
+> The current numerical program has 7,493 lines. Its extracted SHA-256 agrees with the manuscript:
+>
+> 3b402634cedfe463fc730c984149a81076cb56f0729031cc7b55efe8f75b5361
+>
+> The frozen v34 and v35 programs are unchanged. Most alterations to older v36 functions are interpretation strings; substantive changes include the solver acceptance helper and the small-tilt evaluation in the Hessian helper.
+>
+> | Verification performed here | Result |
+> |---|---|
+> | Author's v36.11 mode | 8 passed, 0 failed; exit 0 |
+> | Author's v36.12 mode | 2 passed, 0 failed; exit 0 |
+> | v36.8 regression mode | 3 passed, 0 failed; exit 0 |
+> | v36.10 regression mode | 4 passed, 0 failed; exit 0 |
+> | Independent checks, without importing the author's program | 12 groups passed |
+> | Alternate direct-mass branches | Four counterexamples refined with 75-digit decimal arithmetic |
+> | Full current 60-check suite | Not rerun |
+> | Separately named combined toy and plotting programs | Not independently certified as separate executable deliverables |
+>
+> The author checks therefore give **17 executed passes**, including all ten new checks. They reproduce the selected calculations. They do not establish branch completeness: the new counterexamples pass the exact mass equations while lying outside the claimed intervals.
+>
+> The environment was Python 3.12.14, NumPy 2.3.5 and SciPy 1.17.0, with one BLAS/OpenMP thread. Decimal precision verifies the counterexamples algebraically; it does not imply comparable experimental precision.
+>
+> ## 2. The last reviews have been addressed seriously
+>
+> These are actual repairs, including changes in the operative prose and printed summaries.
+>
+> | Earlier issue | Current treatment | Assessment |
+> |---|---|---|
+> | Electron pulls omitted the muon calibration error | Propagated uncertainties and separate hypotheses in §XXXIV.22 | Correct repair |
+> | “Not excluded” silently enlarged the model | Strict zero block, direct term and two-scale variants separated | Correct repair |
+> | A one-sided direct-mass boundary became an absolute-value bound | Signed intervals and explicit dimension-five coefficient | Correct direction; global branch scope still needs repair |
+> | Full frame connection confused with projected line connections | Two actions, flat full transport, nonflat projected holonomy in §XXXIV.24 | Substantial conceptual repair |
+> | Stationary admixture called a transition probability | Explicit 12-component co-rotating evolution and detection projection | A useful defined transition toy |
+> | Deletion treated as preservation of information | Nonorthogonal rank-two survivors identified | Correct repair |
+> | Three-site momentum called a derivation | Leibniz defect and absence of nonzero derivations stated | Correct repair |
+> | Lorentzian trace-form signature implicitly selected Koide's coefficient | Whole coefficient family exhibited | Correct repair |
+> | Unweighted amplitude projection treated like a statistical fit | Distinguished from fixing electron/muon inputs | Correct repair |
+> | Hop product treated as generally basis invariant | Restricted to the circulant/site realization | Correct repair |
+> | TM2 assessed only through the solar constraint | Atmospheric/CP condition added; full significance left open | Correct repair |
+> | Local basis changes omitted the connection and mass derivative | Both terms added explicitly | Correct repair |
+> | Finite-volume thresholds treated as continuum bounds | Relabeled numerical; CLR integral uncertainty acknowledged | Correct repair |
+> | A limited wall search implied global metastability classification | Restricted to the tested family | Correct repair |
+> | “No forcing” implied compact support | Local forcing distinguished from an evanescent tail | Correct repair |
+>
+> The ground-state-transform argument in §XXXIII.67 is a worthwhile strengthening. It states the positivity conditions, the residual bound, and the difficulty for the three smooth penalties whose numerical tilts change sign at roundoff level. Its continuum and dynamical limitations are now substantially clearer.
+>
+> “Floating-point certificate” should continue to mean an algebraic check at the computed matrix and vector, without an interval enclosure. It should not gradually become a certified statement about the exact continuum background.
+>
+> ## 3. Required correction: the direct-mass intervals miss other sign branches
+>
+> ### 3.1 What the manuscript claims
+>
+> Section XXXIV.22(c), the model ledger in §XXXIV.27, the head table and the printed check say that with two independent dual-hop scales, exact three-mass fits exist only for approximately
+>
+> $$
+> -8.446<m_0<113.612\ {\rm eV}.
+> $$
+>
+> The one-scale discussion likewise presents its near-zero intervals as the allowed direct-mass range for a specified tau tolerance.
+>
+> Those statements are false globally for the mass matrices and singular-value prescription supplied. They describe a branch near the zero-direct-mass model. The formulas themselves admit another branch.
+>
+> ### 3.2 A counterexample with a 10 TeV heavy partner
+>
+> Keep the exact angles and the same dual factors,
+>
+> $$
+> a_{\pm,n}=1+\cos\!\left(\frac29+\frac{2\pi n}{3}\pm\frac\pi4\right),
+> $$
+>
+> and use exactly the manuscript's block,
+>
+> $$
+> \mathcal M_n=
+> \begin{pmatrix}
+> m_0&\mu_Aa_{+,n}\\
+> \mu_Ba_{-,n}&\Lambda
+> \end{pmatrix}.
+> $$
+>
+> All quantities in the following reproducible specification are in MeV:
+>
+> $$
+> \begin{aligned}
+> m_0&=1.0284839364105727,\\
+> \mu_A&=8598.329913543436,\\
+> \mu_B&=737172.7775304100,\\
+> \Lambda&=10000000.
+> \end{aligned}
+> $$
+>
+> The smaller singular values, ordered as tau, electron and muon, are
+>
+> $$
+> 1776.93,\qquad0.51099895000,\qquad105.6583755\ {\rm MeV}.
+> $$
+>
+> The larger singular values are approximately
+>
+> $$
+> 10.0921321,\qquad10.0293209,\qquad10.0003665\ {\rm TeV}.
+> $$
+>
+> Thus every observed mass is on the **smaller-singular-value branch**. All hop scales and the common heavy scale are positive. This is not the inadmissible heavy-root assignment that §XXXIV.23 correctly rejects.
+>
+> The displayed parameters are rounded. Refining them with 75-digit arithmetic gives relative mass residuals below $10^{-60}$, and direct substitution in the singular-value characteristic polynomials independently verifies the roots. Ordinary double precision using the displayed numbers gives a largest relative residual around $6\times10^{-14}$ with a cancellation-resistant formula.
+>
+> Here $m_0$ is approximately **1,028,484 eV**, far outside the stated upper endpoint of 113.612 eV.
+>
+> ### 3.3 This is not peculiar to two independent scales
+>
+> There are alternate one-scale solutions too:
+>
+> | Construction | Direct mass $m_0$ (MeV) | Common hop scale (GeV) | Heavy scale (GeV) |
+> |---|---:|---:|---:|
+> | Dual factors, equal hop scales | 1.031297316616511 | 8.817296879233462 | 121.9769768189071 |
+> | Same hop twice | 1.027261429147080 | 10.75345631473689 | 182.3399836554575 |
+>
+> Both reproduce the same three baseline lepton masses as smaller singular values. I also checked a two-scale solution with $m_0$ fixed exactly at 1.03 MeV:
+>
+> $$
+> \mu_A=8.714038746627\ {\rm GeV},\quad
+> \mu_B=11.988706380327\ {\rm GeV},\quad
+> \Lambda=164.326826807798\ {\rm GeV}.
+> $$
+>
+> These are mathematical counterexamples to global mass-only interval statements. I am not claiming that they pass a complete model's collider, electroweak or matching tests. Such extra tests can exclude a branch only after their assumptions and field content are supplied. The 10 TeV example also shows that the issue cannot be dismissed merely as a nearly degenerate light/heavy assignment.
+>
+> ### 3.4 What the solver missed
+>
+> For positive $\Lambda$, the determinant is
+>
+> $$
+> D_n=m_0\Lambda-\mu_A\mu_Ba_{+,n}a_{-,n}.
+> $$
+>
+> At $m_0=0$, all three determinants are negative. The branch followed in the near-zero scans retains that sign pattern. The counterexamples have
+>
+> $$
+> \operatorname{sgn}(D_\tau,D_e,D_\mu)=(-,+,-).
+> $$
+>
+> The effective electron entry has crossed sign; its **physical mass is still positive**, because it is a singular value. This possibility is already present in the absolute value in the author's own formula.
+>
+> The smaller-singular-value filter does not remove this branch. Nor does fixing the ideal angles remove it. An additional determinant-sign or small-direct-term restriction would remove it, but that restriction has to be stated as a hypothesis.
+>
+> This is why a finite list of successful starting guesses, a failed endpoint solve, or a residual below $10^{-12}$ cannot prove nonexistence elsewhere.
+>
+> ### 3.5 The appropriate repair
+>
+> A defensible replacement is:
+>
+> > On the branch continuously connected to the zero-direct-mass solution, with the stated determinant signs and the near-zero direct-term restriction, the numerical continuation gives the quoted eV-scale intervals. These are branch-conditional intervals. Other determinant-sign branches can fit the masses and have not been globally classified or physically tested.
+>
+> Then prove or bound the claimed interval within that explicitly defined component. The endpoint formulas are useful evidence, but their asserted global supremum for $m_0\ne0$ needs an argument; the proof for $m_0=0$ does not automatically extend.
+>
+> Correct the statement everywhere it appears, including the model ledger and the dimension-five discussion. A chosen tolerance such as 5 eV remains a legitimate model-building requirement. The lepton data alone do not impose the advertised global eV interval on the unrestricted matrix.
+>
+> ### 3.6 There is a practical algebraic route to all branches
+>
+> A global treatment need not rely on a larger random search.
+>
+> At fixed $m_0$, put
+>
+> $$
+> c_n=a_{+,n}a_{-,n},\quad A_n=a_{+,n}^2,\quad
+> B_n=a_{-,n}^2,
+> $$
+>
+> $$
+> P=\mu_A\mu_B>0,\quad t=\frac{\Lambda}{P}>0,\quad
+> X=\mu_A^2,\quad Y=\mu_B^2.
+> $$
+>
+> For a target physical mass $m_n$, the exact characteristic equation becomes
+>
+> $$
+> A_nX+B_nY-K_n(t)P^2=m_n^2-m_0^2,
+> $$
+>
+> where
+>
+> $$
+> K_n(t)=\frac{(m_0t-c_n)^2}{m_n^2}-t^2.
+> $$
+>
+> For fixed $t$, these are three **linear** equations for $X,Y,P^2$. Their coefficient matrix has constant first two columns and a third column quadratic in $t$. In the nonsingular case, Cramer's rule gives
+>
+> $$
+> X=\frac{N_X(t)}{D(t)},\qquad
+> Y=\frac{N_Y(t)}{D(t)},\qquad
+> P^2=\frac{C}{D(t)},
+> $$
+>
+> where $N_X,N_Y,D$ are at most quadratic and $C$ is constant in $t$. The condition $XY=P^2$ is therefore
+>
+> $$
+> N_X(t)N_Y(t)-C\,D(t)=0,
+> $$
+>
+> a polynomial of degree at most four.
+>
+> Isolate all positive real roots, retain $X,Y,P^2,\Lambda^2>0$, and check that every requested mass is the smaller singular value. Singular coefficient matrices need separate treatment. This supplies a realistic route to branch completeness, including determinant signs. Equal-scale models add $X=Y$.
+>
+> ## 4. The two-scale theorem and parity analysis remain useful
+>
+> Section XXXIV.23 correctly incorporates the zero-block theorem and the scale-ratio fold. Its assumptions explicitly exclude $m_0\ne0$, so the counterexamples above do not contradict it.
+>
+> The inverse's second positive-parameter solution is correctly rejected because the requested tau is the larger singular value. The distinction between positive parameters and an admissible light spectrum is now explicit.
+>
+> The parity discussion also makes a useful separation:
+>
+> - A genuine symmetry exchanging the two Yukawa maps must preserve their singular spectra, under the stated unitary flavor transformations.
+> - The dual factors have different singular spectra and cannot be related that way.
+> - Equal overall strengths for two different matrices are an additional postulate, not that symmetry.
+>
+> The alternative factor assignment with equal strengths is a sensible conditional benchmark near the proven supremum. Its agreement is not another independent derivation of the scale ratio. A physical mechanism selecting the assignment, the strength relation and the vevs remains necessary.
+>
+> Continue to distinguish tree-level mass-matrix consistency from a pole-mass prediction with controlled matching.
+>
+> ## 5. The Cartan construction works conditionally; make its bundle data explicit
+>
+> ### 5.1 What has been established
+>
+> The identities
+>
+> $$
+> j(g\xi)=\rho(g)j(\xi),\qquad
+> \rho(g)=(g^\dagger)^{-1},\qquad
+> j\xi=i\sigma_2\bar\xi
+> $$
+>
+> are correct for $g\in SL(2,\mathbb C)$. I checked the intertwiner independently on 100 random examples.
+>
+> For $g=B(u)U$ with $U$ unitary,
+>
+> $$
+> gg^\dagger=B(u)^2
+> $$
+>
+> is independent of the spin-frame factor $U$. The limit pair is
+>
+> $$
+> (\rho(g)\xi,g\xi)
+> =(B^{-1}U\xi,BU\xi).
+> $$
+>
+> That is the standard Cartan/Dirac kinematics with a shared rest spinor. A same-representation comparison of converging transports tends to the identity; a stipulated Cartan-twisted comparison can tend to the Hermitian square.
+>
+> The manuscript now says that the twist is put in and that the limit adds continuity and endpoint path independence. This is the correct status. It should remain a conditional construction of the proposed history interpretation, rather than being counted as a derivation of physical chirality or the Dirac dynamics.
+>
+> The distinction from the fixed antipodal/Majorana relation is also sound. Lorentz transformation laws and the particle's internal gauge charges must nevertheless be checked separately.
+>
+> ### 5.2 The common initial rest datum is part of the comparison
+>
+> The product $P_1P_2^\dagger$ is written in a common initial rest frame. It is invariant under an initial unitary spin-frame change, but not under an arbitrary initial Lorentz-frame change if that initial datum is silently reset to the identity.
+>
+> There is a simple covariant formulation. Let $H_0$ be the positive Hermitian unit-determinant matrix representing the initial four-velocity, or equivalently the initial sewing between the two Weyl fibers. Define
+>
+> $$
+> \mathcal W=P_1H_0P_2^\dagger.
+> $$
+>
+> Under independent endpoint frame changes,
+>
+> $$
+> P_i\longmapsto h_iP_ih_0^{-1},\qquad
+> H_0\longmapsto h_0H_0h_0^\dagger,
+> $$
+>
+> one obtains
+>
+> $$
+> \mathcal W\longmapsto h_1\mathcal W h_2^\dagger.
+> $$
+>
+> At coincident endpoints this is precisely the transformation law of the Hermitian four-vector matrix. In the initial rest frame $H_0=I$, recovering the manuscript's formula. For coincident Fermi–Walker transports, $PH_0P^\dagger$ is the final four-velocity matrix.
+>
+> This does not introduce a Lorentz-violating preferred frame. It makes the already chosen initial velocity transform correctly. Add this datum and the endpoint bundle types explicitly. At finite separation, $\mathcal W$ is a two-point object; turning its matrix entries or trace into an observable requires the endpoint comparison or measurement prescription.
+>
+> My frame-change check fails for the unsewn expression under a boost at the start and succeeds to roundoff when $H_0$ is included.
+>
+> ### 5.3 The $j$ identity is a spin-sector statement, not yet charged transport
+>
+> For a spin transport $g$, $j^{-1}gj=\rho(g)$. For a transport that also carries an electromagnetic phase,
+>
+> $$
+> T=e^{i\chi}g,
+> $$
+>
+> antilinearity instead gives
+>
+> $$
+> j^{-1}Tj=e^{-i\chi}\rho(g).
+> $$
+>
+> The right-handed component of an ordinary charged Dirac field carries the **same** electromagnetic charge as the left-handed component. Its desired transport is $e^{i\chi}\rho(g)$, not the expression above.
+>
+> Thus the identity implementing the spin Cartan twist does not automatically extend to a charge-preserving twist of the full transport. In group terms, the desired extension is
+>
+> $$
+> (z,g)\longmapsto(z,\rho(g)),
+> $$
+>
+> whereas conjugation by $j$ on the full complex spinor amplitude gives $(\bar z,\rho(g))$.
+>
+> This is a concrete next consistency test, not a proof that the proposed history construction is impossible. Specify the charge bundle and whether the second leg is physically charge-conjugate, is subsequently reinterpreted through a separate bundle map, or simply carries an independently defined same-charge Weyl representation. Include the gauge connection and the mass coupling, not just the Lorentz matrices.
+>
+> [Tong's treatment of chiral spinors, Majorana spinors and the vector symmetry](https://www.damtp.cam.ac.uk/user/tong/qft/qfthtml/S4.html), especially §§4.5–4.6, provides a useful primary check on the distinction. The manuscript already leaves the charged action open; keep “one connection suffices” explicitly restricted to the spin construction until this extension is supplied.
+>
+> ### 5.4 The thin-loop expansion needs transported curvature
+>
+> The limit to the identity is correct. The displayed schematic
+>
+> $$
+> W(r)=I+\int F+O(r^2)
+> $$
+>
+> needs clarification for a non-Abelian connection along a finite base path. Curvature at different points must be transported into one fiber before it can be added.
+>
+> With $P(t,s)$ the base-path transport for $d+A$ and a deformation $rY$ vanishing at the endpoints, the far-endpoint comparison has first variation, with the corresponding orientation,
+>
+> $$
+> W(r)=I+
+> r\int_0^1
+> P(1,s)F(Y,\dot\Gamma)(s)P(s,1)\,ds+O(r^2).
+> $$
+>
+> A bare integral of matrix-valued curvature is generally wrong already at order $r$. In an independent test with $A_x=K+yL$, $A_y=0$ and $[K,L]\ne0$, the transported integral matches the first variation, while the bare integral does not. The standard path-ordered framework is also explicit in [Curry and Mansfield](https://arxiv.org/pdf/1810.04417).
+>
+> This is a local formula repair; it does not change the claimed identity limit.
+>
+> ### 5.5 Initialize the Fermi–Walker helper at the actual initial velocity
+>
+> The helper starts with $g=I$ for every input path. That is correct for the new legs that start at rest. It is not the stated initial condition for the circular benchmark, whose input velocity is already nonzero at the first sample.
+>
+> Initialize with a frame satisfying
+>
+> $$
+> g_0g_0^\dagger=u(0)\cdot\bar\sigma,
+> $$
+>
+> for example $g_0=B(u(0))$, or require an explicit initial frame. Starting at the identity inserts a rest-to-first-sample boost and omits the first segment of the intended circular transport.
+>
+> I checked an independent integrator using the closed-form positive square root of a unit-determinant Hermitian $2\times2$ matrix. At speed 0.6, the errors against the quoted Thomas rotation were:
+>
+> | Steps | Correct initial boost | Initial identity |
+> |---|---:|---:|
+> | 400 | $6.42\times10^{-5}$ | $2.84\times10^{-3}$ |
+> | 800 | $1.61\times10^{-5}$ | $1.40\times10^{-3}$ |
+>
+> The proper initialization gives the expected second-order convergence here; the inserted initial jump leaves a first-order error. The limiting Thomas result is sound, and the rest-start history example is unaffected. This is an implementation correction to its benchmark.
+>
+> For context on standard boosts, little-group frame freedom and the geometric phase, see [Oblak's primary treatment](https://arxiv.org/pdf/1710.06883), especially §§2.1–2.3 and 4–5.
+>
+> ## 6. The quotient and doubled-angle sections are mostly good controls
+>
+> ### 6.1 The quotient calculation has the right scope
+>
+> Section XXXIV.32 correctly computes reductions of one complex three-dimensional carrier with two bases. It does not confuse six named lines with six independent dimensions.
+>
+> | Reduction | Result | Dynamical qualification |
+> |---|---|---|
+> | Remove one Cartesian line | Complex dimension two; projected flavor states form a trine | The original mass operator does not descend |
+> | Remove the tau line | Reciprocal Cartesian trine; electron and muon remain orthogonal | Flavor-invariant quotient |
+> | Remove the electron line | A rephased trine | The original Cartesian conjugation does not descend |
+> | Remove electron and muon lines | One complex tau line; projectivization is a point | A carrier reduction, not a quotient by two integrable shell flows |
+>
+> I independently obtain the trine Gram eigenvalues $0,3/2,3/2$, the mass-line noninvariance of about 813.76145 MeV, and compressed Cartesian-block eigenvalues
+>
+> $$
+> 52.28355176,\qquad1203.11603121\ {\rm MeV}.
+> $$
+>
+> Compression and quotient descent are correctly kept distinct. This is particularly useful: preserving nonzero projections of three named vectors does not preserve their original mass dynamics.
+>
+> Use “not perfectly distinguishable” instead of simply “not distinguishable.” The three trine states remain distinct and retain partial information. With equal priors, the three effects $(2/3)|\psi_a\rangle\langle\psi_a|$ sum to the identity on the surviving plane and achieve success probability $2/3$. That is also an upper bound, since $\rho_a\leq I$ gives $P_{\rm succ}\leq(1/3)\sum_a\operatorname{tr}E_a=2/3$.
+>
+> The shell's nonintegrable transverse distribution remains an obstruction to treating the corresponding carrier quotient as a quotient by two shell flows. The manuscript now states that limitation clearly.
+>
+> ### 6.2 Doubling an angle is a reformulation until transport selects it
+>
+> The half-angle character identity, the double-cover dependence, the four lift spectra and the interpretation of the reference separation are consistent. My independent four lift values of $K$ reproduce
+>
+> $$
+> 0.666667,\quad0.633485,\quad0.424654,\quad0.438052.
+> $$
+>
+> The projector overlap $4/9$ is a probability under the specified maximally mixed state. Its equality to a desired angle in radians does not follow from that probability alone.
+>
+> The complementary pair's nonzero Bargmann cycles have phases in multiples of $2\pi/3$; I independently checked the phase cancellation under rephasings. That is a useful restricted negative result. It rules out deriving $2/9$ or $4/9$ as one of those particular phases. It does not rule out every new transport law.
+>
+> The next valid task is therefore a specified transport or action with a fixed normalization and a selected lift. Writing an exponential of the numerical probability with an arbitrary coefficient would simply relocate the missing parameter.
+>
+> ## 7. Entries 362–364: the new galaxy proposal is still an open model
+>
+> The document now understands the proposal as **one canonical history with two possible optical/rendering branches**, rather than merely reusing the retired turn-over rendering in ordinary visible space. That is the right distinction.
+>
+> The previous counter-rotation result constrains the previous readout. It does not by itself refute every extension with a wider canonical history and a different optical law. Conversely, the new geometric identities do not yet test such an extension. Section XXXIV.32 appropriately says it is recorded, not computed.
+>
+> Three verified facts should guide the next test:
+>
+> 1. **Radial sense and hemisphere are different.** A crossing orbit can visit all four sign pairs. A hemisphere cut cannot generally replace a rule that selects one radial half of a phase-space orbit.
+> 2. **The antipode is forgotten by the stated Hopf quotient.** If an observable factors through that quotient, it cannot distinguish $q$ from $-q$. A distinct optical effect must use additional retained lift or history data and a gauge-invariant measurement law.
+> 3. **Antipodal equality is weaker than isotropy.** The example $\rho=(q\cdot n)^2$ is even but has a nonzero quadrupole. I reproduce its norm $1/\sqrt{192}=0.07216878\ldots$. Summing equal antipodal contributions cancels odd moments, not arbitrary even angular structure.
+>
+> There is also a useful positive control for the suggested switch. The map
+>
+> $$
+> (q,p)\longmapsto(-q,-p)
+> $$
+>
+> preserves the canonical symplectic form and $q\wedge p$. If the chosen Hamiltonian is antipodally invariant, it preserves the energy as well. These are necessary consistency checks that can be satisfied.
+>
+> They do not explain why an apsis triggers the map, whether it is a physical switch or a change of chart, or how an observable distinguishes the two readings. A smooth Hamiltonian trajectory does not become a physical jump simply because the antipodal map is a symmetry.
+>
+> The $SO(4)$ statements are also correctly separated. Its center stabilizer is the diagonal $SO(3)$, and proper rotations preserve the self-dual and anti-self-dual sectors separately. Moving $q$ to $-q$ does not itself exchange those sectors or produce weak chirality.
+>
+> An “intermediate” elliptical-galaxy interpretation must eventually reproduce stellar velocities, dispersions and source distributions as well as an outline. A passive change of frame cannot change observables when the source and observer data are transformed consistently; a change of observer or physical optical channel requires an explicit forward map.
+>
+> ## 8. Concrete continuation brief for Claude
+>
+> ### Priority A: repair and classify the direct-mass branches
+>
+> Make this the first correction release.
+>
+> - Withdraw global eV-interval language in §XXXIV.22(c), §XXXIV.27, the head table, register and printed summaries.
+> - Add the counterexamples in Section 3 as regression cases, including the 10 TeV example.
+> - Record determinant-sign components and the smaller-singular-value conditions as separate filters.
+> - Implement the generic quartic reduction, treating singular coefficient matrices separately.
+> - Establish the near-zero interval only on a precisely declared component and parameter domain. A failed nonlinear solve is not a nonexistence proof.
+> - Reassess every claim about a dimension-five scale that used the interval as a global data bound.
+> - Keep the exact-zero-block theorem intact and separately labeled.
+>
+> Deliverable: a branch map or a deliberately restricted theorem with a reproducible domain, rather than another scan presented as an exclusion.
+>
+> ### Priority B: complete the charged transport test
+>
+> Formulate the history pair as a two-point bundle object with an initial sewing datum. Include $H_0$ and its Lorentz transformation. State what identifies endpoint fibers at finite separation and which resulting quantity is observable.
+>
+> Extend the transport from $SL(2,\mathbb C)$ to include electromagnetism. Demonstrate explicitly that the two Weyl components of the proposed charged particle carry the required common electric charge. Explain the role of antilinearity and the charge bundle; do not assume the spin-only $j$ identity establishes the full charged connection.
+>
+> Write a local coincident-limit action with the kinetic terms, gauge connections and mass coupling. If finite separation gives a bilocal coupling, specify its gauge transporter and causal prescription. State which additional assumption selects the twist at every separation.
+>
+> Fix the Fermi–Walker initial condition and the non-Abelian variation formula. Test independent endpoint frame changes, not only a common constant rotation.
+>
+> Deliverable: a covariant charged transport/action model whose coincident limit is actually checked, with the stipulated versus derived ingredients explicit.
+>
+> ### Priority C: specify one chiral mass model and its matching
+>
+> Choose one complete gauge assignment for the light fields, heavy partner and scalars. Give representations, couplings, symmetry breaking, anomaly consistency and operators through dimension five.
+>
+> Determine whether the two Yukawa matrices are symmetry-related, merely assigned different geometrical forms, or independent parameters. Preserve the valid distinction between parity proper and equal scalar strengths. A symmetry must explain the factor assignment and relative normalization before the tau is fitted.
+>
+> At one benchmark, compute the left and right mixing matrices, weak-current and Higgs couplings, and the applicable perturbativity and experimental checks. The alternate sign branches may differ in interactions even when their masses agree; that is where a physical selection can become meaningful.
+>
+> Define the renormalized quantities to which the texture applies, then calculate pole matching with a theoretical uncertainty below the effect being interpreted. Include threshold terms, the QED logarithm and independent Wilson coefficients. A radiative cancellation is one possibility, not a substitute for specifying the action.
+>
+> Deliverable: one physically testable benchmark and a parameter count, with a prediction that was not used to choose the construction.
+>
+> ### Priority D: make the angle-selection target operational
+>
+> Specify the configuration space and connection that are supposed to convert the complementary structure into a phase. Give its normalization, loop or path, gauge equivalences, and spin lift.
+>
+> Calculate the phase for all admissible extrema or transport classes. Establish whether the value $4/9$ is selected without a fitted coefficient and whether the descent and lift select $2/9$ on the correct branch.
+>
+> Retain the restricted Bargmann-phase obstruction as a control. If a new connection evades it, identify exactly what extra structure was added.
+>
+> Deliverable: a selection theorem, a calculable action with alternatives, or a clearly named new postulate. Numerical equivalence of two ways to write the same angle is not an additional test.
+>
+> ### Priority E: build the smallest two-branch galaxy experiment
+>
+> Use one canonical orbit first. A logarithmic-potential orbit with the already recorded apsidal angle is sufficient as a control.
+>
+> Specify:
+>
+> 1. The phase space and Hamiltonian, including whether the antipode is a symmetry or an identification.
+> 2. The event surface defining the proposed apsidal transition, its matching rule for position and momentum, and the circular-orbit limit.
+> 3. The retained lift/history variable that distinguishes the two optical channels after the Hopf quotient.
+> 4. A light-transfer kernel for each observer, determining image position, frequency, intensity and travel time.
+> 5. A source reduction that counts the matter once, together with the even and odd angular moments of its gravitational readout.
+>
+> Then evolve the same population through both optical maps. Test whether both spiral arcs are accounted for without manufacturing counter-rotation, disappearing matter or a flux imbalance. A position-only visibility mask should not be assumed to select radial momentum sense for arbitrary orbit populations.
+>
+> Vary the observer and center consistently under $SO(4)$ and distinguish active changes from passive frame changes. Require the model to preserve the relevant conservation laws. Keep the earlier long-way-image and radiation-accumulation constraints as tests, not as problems solved by adding a sign label.
+>
+> Only after a working forward map should the model address an elliptical-galaxy interpolation and its kinematics.
+>
+> Deliverable: one conserved orbit with two computed optical readouts, or a precise obstruction showing which additional structure would be required.
+>
+> ### Priority F: consolidate the active argument and maintain the gravity controls
+>
+> The archive has grown by roughly 75,000 words since the last reviewed version, much of it records and responses. Preserve that history separately, but prepare a compact active manuscript with one set of assumptions, one model ledger and one current statement per result.
+>
+> The useful new results are the corrected theorem, the explicit transport distinction and the quotient controls. Their significance should be visible without traversing the recorded correspondence.
+>
+> For the gravity/localization track, keep the repaired finite-volume and stability qualifications. The next substantive step remains either a controlled positive supersolution/continuum enclosure or a native metric–measure–source–observable calculation. A new flavor identity does not resolve the galactic source/profile failure.
+>
+> A successful next version should complete one of these tasks, even if it ends with a scoped negative result. Further conditional coincidences would not replace the missing dynamics.
+>
+> ## 9. Reproducible counterexample
+>
+> This short independent calculation uses the displayed 10 TeV parameters. It imports none of the author's code.
+>
+> ~~~python
+> import numpy as np
+>
+> # All dimensional quantities are in MeV; order is tau, electron, muon.
+> m0 = 1.0284839364105727
+> muA = 8598.329913543436
+> muB = 737172.7775304100
+> Lambda = 1.0e7
+>
+> phi = 2/9 + 2*np.pi*np.arange(3)/3
+> a = 1 + np.cos(phi + np.pi/4)
+> b = 1 + np.cos(phi - np.pi/4)
+> x, y = muA*a, muB*b
+>
+> S = m0*m0 + Lambda*Lambda + x*x + y*y
+> det = m0*Lambda - x*y
+> heavy = np.sqrt((S + np.sqrt(S*S - 4*det*det))/2)
+> light = np.abs(det)/heavy
+>
+> target = np.array([1776.93, 0.51099895000, 105.6583755])
+> assert np.all(light < heavy)
+> assert np.max(np.abs(light/target - 1)) < 1e-10
+> print(light)
+> print(np.sign(det))  # [-1, +1, -1]
+> ~~~
+>
+> The stable determinant-over-heavy formula avoids the loss of accuracy that can occur when subtracting two nearly equal eigenvalue expressions or applying an unconditioned singular-value calculation across a very large hierarchy.
+>
+> The counterexamples, frame-change and electromagnetic-phase checks, thin-loop comparison, initialized Fermi–Walker control, quotient algebra and antipodal tests in this report were independently calculated. The source references above support the relevant standard frameworks; the new branch counterexamples and proposed algebraic classification are findings of this review.
+
+*The response to Entry 365* ("Entry 365 — Matter transport, photon transport, and the geometry of a visible galaxy"), the third attachment:
+
+> # Entry 365 — Matter transport, photon transport, and the geometry of a visible galaxy
+>
+> I think this is a useful next direction for PG because you're now proposing a coupled physical mechanism, rather than just an identification between two geometric signs.
+>
+> The picture I understand is:
+>
+> 1. Matter follows continuous trajectories in the larger canonical space, potentially involving motion along the Hopf fibers.
+> 2. Photons obey their own transport rule, so their ability to reach a particular observer depends on how those trajectories and optical histories fit together.
+> 3. Near an orbital apsis, the matter's motion might redistribute between visible spatial directions and the Hopf direction.
+> 4. What appears as a fading spiral, a hidden orbital continuation, or potentially another galactic representation is then determined by the joint matter–photon dynamics.
+> 5. The whole construction must agree with the middle-space metric and ultimately with the Einstein equations on PG's gravity base.
+>
+> That's a more restrictive and more interesting proposal than simply making one half of an orbit invisible. It asks whether the geometry, trajectories, light propagation, and gravity can all be consequences of one compatible system.
+>
+> There is, however, an especially important distinction we must preserve in building it.
+>
+> ## 1. Matter moving along a Hopf fiber is not automatically physical motion in PG
+>
+> The current architecture is
+>
+> \\[ \boxed{ E^6\xrightarrow{/U(1)\_H}\mathcal M^5 \xrightarrow{\text{meridian reduction}}B\_{\rm grav}^4. } \\]
+>
+> Here \\(E\\) is the canonical space, \\(\mathcal M\\) is the middle space where PG locates fundamental matter and stress-energy, and \\(B\_{\rm grav}\\) carries the effective Einstein equation.
+>
+> A Hopf fiber is eliminated by the first quotient.
+>
+> So if we move a representative through a Hopf phase,
+>
+> \\[ q\longmapsto qe^{i\psi}, \\]
+>
+> the middle-space position is unchanged:
+>
+> \\[ \boxed{ \pi_H(qe^{i\psi})=\pi_H(q). } \\]
+>
+> This means your proposed matter transport requires us to distinguish two possibilities:
+>
+> - Pure lift motion: the representative changes Hopf phase, but its physical middle-space state does not.
+> - Physical fiber-sensitive transport: the state carries additional information, such as a connection-relative phase or another internal degree of freedom, which influences its middle-space dynamics or interactions.
+>
+> Only the second can produce new observational effects.
+>
+> And the current effective Maxwell sector is explicitly \\(U(1)\_H\\)-invariant. It doesn't yet supply the photon coupling you are imagining.
+>
+> So Entry 365 would require a genuine extension of PG's matter–light transport laws, not merely a reinterpretation of its existing Hopf quotient.
+>
+> ## 2. Can an apsis automatically redirect motion into the Hopf fiber?
+>
+> This is the first calculation I'd perform.
+>
+> Locally, a metric on the canonical bundle can be written schematically as
+>
+> \\[ \boxed{ d\hat s^2 = g\_{AB}(x)\\,dx^A dx^B + R_H(x)^2\left(d\psi+A_A(x)\\,dx^A\right)^2. } \\]
+>
+> Here \\(g\_{AB}\\) is the horizontal middle-space metric, \\(R_H\\) is the Hopf-fiber radius, \\(\psi\\) is its phase coordinate, and \\(A_A\\) is the connection.
+>
+> The gauge-invariant vertical velocity is not \\(\dot\psi\\) alone, but
+>
+> \\[ \boxed{ v_H=R_H\left(\dot\psi+A_A\dot x^A\right). } \\]
+>
+> That gives a precise meaning to your phrase more motion being directed into the Hopf direction.
+>
+> At a radial apsis,
+>
+> \\[ \dot r=0. \\]
+>
+> But this condition does not automatically imply that \\(v_H\\) increases.
+>
+> For example, for ordinary geodesic motion in a metric with exact Hopf-circle symmetry,
+>
+> \\[ \boxed{ p\_\psi = R_H^2(\dot\psi+A_A\dot x^A) = \text{constant}. } \\]
+>
+> Consequently,
+>
+> \\[ \boxed{ v_H^2=\frac{p\_\psi^2}{R_H^2}. } \\]
+>
+> The vertical speed is controlled by the conserved Hopf momentum and the local fiber radius—not directly by the radial velocity.
+>
+> Indeed, within PG's existing regular-region fiber-length ansatz, \\(R_H\\) grows toward a gravitating source. If \\(p\_\psi\\) remains constant, that tends to reduce the vertical speed on the inward approach, rather than increase it.
+>
+> So your intuition is testable, but it doesn't follow from the metric decomposition alone.
+>
+> To realize it, a physical coupling would need to change the vertical transport or redistribute motion between the horizontal and fiber sectors.
+>
+> That would be the first dynamical law to derive.
+>
+> ## 3. There is nevertheless a natural enhancement at an apsis
+>
+> Here's a related effect that I think is worth investigating.
+>
+> Near a nondegenerate radial turning point \\(r_a\\), the orbit has the local expansion
+>
+> \\[ r(t)=r_a+\frac12\ddot r_a(t-t_a)^2+\cdots. \\]
+>
+> Therefore,
+>
+> \\[ \boxed{ \left|\frac{dt}{dr}\right| \propto \frac1{\sqrt{|r-r_a|}}. } \\]
+>
+> A star spends more time per unit radial distance near an apsis.
+>
+> This is a genuine kinematic effect, derived without introducing a new physical law.
+>
+> If there were a matter-sector transition process occurring at some finite rate per unit proper time, its integrated effect could therefore be enhanced near the apsis.
+>
+> That's a potentially more natural route to your intuition than imposing a sudden fiber flip exactly at \\(\dot r=0\\).
+>
+> But two limitations matter.
+>
+> First, the enhancement occurs near both pericenter and apocenter; it does not choose one automatically.
+>
+> Second, longer residence times normally enhance an orbit's matter density near turning points. They do not, by themselves, reduce its light.
+>
+> A real visibility loss would require the second ingredient you're proposing: a coupling that takes the locally emitted light into another channel or prevents an admissible photon history from reaching the selected observer.
+>
+> Also, circular orbits have \\(\dot r=0\\) everywhere. Any switching rule must distinguish genuine turning events from circular motion.
+>
+> ## 4. How could the photon transport generate exponential fading?
+>
+> The most direct toy model would have two optical channels, initially corresponding to the home-galaxy readout and its counterpart.
+>
+> Let their intensities be \\(I\_+\\) and \\(I\_-\\). Suppose transport over optical path parameter \\(s\\) obeys
+>
+> \\[ \boxed{ \frac{d}{ds} \begin{pmatrix} I\_+\\\ I\_- \end{pmatrix} = \begin{pmatrix} -\gamma\_+&\gamma\_-\\\ \gamma\_+&-\gamma\_- \end{pmatrix} \begin{pmatrix} I\_+\\\ I\_- \end{pmatrix}. } \\]
+>
+> This is a hypothetical intensity-transfer model, not yet a PG law.
+>
+> It conserves total intensity:
+>
+> \\[ \boxed{ \frac{d}{ds}(I\_++I\_-)=0. } \\]
+>
+> In the limiting case of one-way transfer, \\(\gamma\_-=0\\),
+>
+> \\[ \boxed{ I\_+(s) = I\_+(0)\exp\left[-\int_0^s\gamma\_+(u)\\,du\right]. } \\]
+>
+> So exponential fading can arise from cumulative optical conversion without destroying photons or removing their gravitational source.
+>
+> That seems compatible with the structure you have in mind.
+>
+> But the key missing result is what fixes \\(\gamma\_+\\).
+>
+> If we simply choose it to give an exponential galaxy, we haven't explained anything. It must follow from the matter trajectory, the connection, the relevant geometric fields, and the optical interaction.
+>
+> And there is an important difference between coherent, two-channel unitary evolution, which generally produces oscillatory probabilities, and irreversible-looking exponential intensity transfer, which requires effects such as scattering, decoherence, or unresolved additional channels.
+>
+> ### A particularly sharp constraint from PG's earlier calculations
+>
+> PG already has the gnomonic density factor
+>
+> \\[ \Sigma\_{\rm obs}(R) = \cos^3\chi\\, T(\chi)\\, \Sigma\_{\rm source}(\chi), \qquad R=\ell\tan\chi. \\]
+>
+> For a regular nonzero source and transfer factor near the equator, the gnomonic factor produces a power-law tail, not a true exponential all the way to infinity.
+>
+> If the desired image obeys
+>
+> \\[ \Sigma\_{\rm obs}\propto e^{-R/h}, \\]
+>
+> then the necessary optical attenuation would involve
+>
+> \\[ T(\chi)\sim \exp\left[-\frac{\ell}{h}\tan\chi\right] \\]
+>
+> up to source and Jacobian factors.
+>
+> Its exponent diverges as \\(\chi\to\pi/2\\).
+>
+> That means an exact exponential extending indefinitely cannot generally come from a bounded, smooth attenuation rate integrated over a finite canonical path.
+>
+> Either the optical path length must become effectively unbounded, the coupling must develop special behavior near the equator, or the exponential must only describe a finite observational range.
+>
+> The last option is quite reasonable. Real galactic light profiles need not be exact exponentials everywhere.
+>
+> The manuscript's §XXXIII.29–30 already supplies important negative controls here: simple gnomonic rendering produces outer tails, and inserting extra fading while preserving the observed source profile can substantially increase the inferred gravitating mass.
+>
+> This is why your joint matter–photon approach is preferable to treating fading as an independent optical correction.
+>
+> ## 5. What stays invariant when the observer moves?
+>
+> Your question about moving around a galaxy is extremely important.
+>
+> I would distinguish three kinds of transformation.
+>
+> | Transformation                                              | What must happen                                                              |
+> | ----------------------------------------------------------- | ----------------------------------------------------------------------------- |
+> | Passive change of coordinates or frame                      | Physical observations remain the same                                         |
+> | Moving the observer relative to the galaxy                  | The visible image changes according to actual propagation and projection      |
+> | Changing the selected Hopf fibration or canonical rendering | Potentially a different physical readout; its equivalence must be established |
+>
+> The relevant consistency principle is equivariance.
+>
+> Suppose \\(\mathcal R_o\\) is the rendering seen by observer \\(o\\), and \\(g\\) is a genuine symmetry of the complete matter–metric–optical system.
+>
+> Then we would want
+>
+> \\[ \boxed{ \mathcal R\_{go}(g\Phi) = g\_{\rm sky}\mathcal R_o(\Phi), } \\]
+>
+> where \\(\Phi\\) represents the whole physical configuration.
+>
+> In words:
+>
+> Transforming both the source and observer by a genuine symmetry must not change their physical relationship.
+>
+> But moving only the observer is different. A face-on spiral can appear as an elongated disk from another direction without becoming a physically different type of galaxy.
+>
+> And if an observer really could move continuously into another optical branch, the images seen along that journey would need to be mutually compatible. Features cannot arbitrarily disappear, shift their center of gravity, or reappear without a propagation rule accounting for the change.
+>
+> ### Could the spiral become elliptical during the sweep?
+>
+> Possibly as an image, but this is not automatic.
+>
+> A transformation that changes the visible orbit population could potentially make a spiral pattern less apparent.
+>
+> But producing an actual elliptical galaxy also requires the correct stellar orbital distribution and velocity dispersions.
+>
+> Merely viewing one canonical population through an intermediate \\(SO(4)\\) orientation does not imply those properties.
+>
+> I would therefore first test whether an intermediate orientation preserves a coherent gravitational center and yields smooth, consistent stellar motions.
+>
+> The classification as spiral or elliptical should follow from the calculated result.
+>
+> ### Is the galactic center allowed to move?
+>
+> Its apparent image can move under a rendering.
+>
+> Its physical center of mass cannot move merely because the observer changes coordinates.
+>
+> If a non-diagonal \\(SO(4)\\) transformation actively moves the selected canonical center, that is a different operation and must be accompanied by the corresponding transformation of the matter configuration and gravitational geometry.
+>
+> There is a further constraint from PG's existing geometry: its squashed, Berger-type shells do not generally possess the full \\(SO(4)\\) group as isometries of one fixed metric.
+>
+> Therefore, a general \\(SO(4)\\) rotation may change the selected Hopf quotient itself, rather than preserving the same quotient metric.
+>
+> That makes the metric compatibility problem in your entry very real.
+>
+> ## 6. What must survive all the renderings?
+>
+> I would require the following hierarchy.
+>
+> Canonical bundle \\(E\\)
+>
+> Hopf connection, metric, lifted transport
+>
+> Physical middle space \\(\mathcal M\\)
+>
+> Matter dynamics and stress-energy
+>
+> Two linked outputs
+>
+> Gravity base
+>
+> \\(G\_{\mu\nu}=8\pi G T\_{\mu\nu}^{(g)}+\cdots\\)
+>
+> Optical readout
+>
+> \\(I_o=\mathcal R_o[\Phi]\\)
+>
+> The critical point is that the optical rendering and gravitational reduction must use one underlying source, but they are not necessarily the same operation.
+>
+> And agreement with the Einstein field equations must be imposed on the gravity-base metric, not simply inferred from the existence of the Hopf quotient.
+>
+> A quotient does not automatically produce an Einstein solution.
+>
+> For this program to become a theory, we'd need a parent action or equivalently specified coupled equations giving the middle-space matter dynamics, the connection-dependent optical transport, and the reduced stress tensor
+>
+> \\[ T\_{\mu\nu}^{(g)} = -\frac{2}{\sqrt{-g_G}} \frac{\delta S\_{\rm source}}{\delta g_G^{\mu\nu}}. \\]
+>
+> That last requirement also constrains any energy carried by the newly introduced transport fields.
+>
+> We cannot, for example, add a physically energetic optical mode-conversion field and then simply exclude all its stress-energy from gravity.
+>
+> ## 7. The most informative experiment for Entry 365
+>
+> I would use the exact two-arc orbit already studied in §§XIII.7 and XXVII.7, with apsidal separation approximately \\(126^\circ\\), and make a paired calculation.
+>
+> On the matter side, construct a Hopf-lifted trajectory with its vertical momentum and horizontal motion. Determine whether an apsidal enhancement or transition is permitted by the metric and conserved quantities.
+>
+> On the photon side, propagate light from the two orbital arcs to observers in different positions using one common channel-transport law. Do not specify a separate visibility function for each observer.
+>
+> Then compare the resulting maps of stellar brightness, positions, and velocities, while computing the gravitational source from the complete matter configuration.
+>
+> The decisive result would not merely be a pair of attractive spiral images. It would be that one law explains the observer-dependent visibility and preserves the underlying orbit, center of mass, source conservation, and gravitational metric.
+>
+> If it fails, the failure could identify whether the problem is the apsidal coupling, the Hopf quotient, the optical transport, or the assumed galactic source.
+>
+> ## My assessment
+>
+> I think Entry 365 is a stronger research proposal than simply equating the other orbital arc with the opposite hemisphere.
+>
+> It effectively asks for a dynamical theory of rendered galaxies:
+>
+> \\[ \boxed{ \text{Canonical motion} + \text{photon transport} + \text{observer selection} \longrightarrow \text{visible morphology}, } \\]
+>
+> subject to
+>
+> \\[ \boxed{ \text{one physical source} \longrightarrow \text{one consistent gravitational reduction}. } \\]
+>
+> Two elements are especially worth developing: the possibility that orbital turning points enhance a physically derived channel-transition process, and the requirement that all observer-dependent renderings fit together consistently.
+>
+> The strongest immediate restriction is that ordinary Hopf-phase motion is invisible after PG's first quotient. The physically significant object must therefore be something relational—a holonomy, a coupled mode, or a nontrivial history compatibility condition—not just the sign of a Hopf representative.
+>
+> And there is a useful piece of guidance from the mathematics already available: apsidal residence-time enhancement is real, but conversion into fiber motion and exponential optical fading are additional dynamical questions.
+>
+> Those are three separate things we can now test, rather than three effects we have to assume coincide.
+>
+> I would make the coupled matter–photon transport experiment, with the existing metric and Law I held fixed, the immediate next step. Only if it works would I promote the broader idea of changing the quotient metric or interpreting elliptical galaxies as intermediate canonical rotations.
+
+*The attachments' markup* — the escaped brackets around the review's and the response's mathematics, the display mathematics and the Python block of the report, the escaped underscores, the review's escaped list numerals and brace pair and its `&#x20;` entities, the tables, the lines reading "Pasted text.txt" and the links — is their own, quoted unchanged. The three texts are the ones the author forwarded, not this archive's.
+
+**What v36.13 does with them.**
+
+*The review of v36.12* retains the round: "I would retain v36.12." It extracted the suite, matched its SHA-256 (`3b402634…`) and ran the `v36_12` mode ("2 passed · 0 failed"), reproducing the values its table lists. Its reading of §XXXIV.30 — "a successful limiting construction with a still-unexplained representation assignment, rather than a derivation of the electron from two histories" — is the status §XXXIV.30(f) gives, and its note that at finite separation "a connector between the endpoints is required before the comparison has an invariant physical meaning" is recorded with the referee report's sewing datum in §XXXIV.37(c) and stays open (§XXXIV.40). Its section 4 is new and is answered in §XXXIV.37(e): not every $SO(4)$ element preserves the Hopf fibration that defines the middle space — with the fibers the right $U(1)$ orbits, $q\mapsto aqb^{-1}$ carries fibers to fibers only if $b$ lies in "the normalizer of that" $U(1)$ — "Its connected component is" the $U(1)$, "not all of" $SU(2)$ — so preserving the galaxy's center (the diagonal, §XXXIV.32(j)) and preserving the selected fibration are different conditions, "two distinct geometrical questions". Its section 5's two interpretations of the apsidal switch and its first test — one canonical orbit, two rendering maps, the photon amplitudes to each observer, the matter counted once — and its priorities for v36.13 (classify the $SO(4)$ transformations relative to a center and a fibration; one smooth two-branch history; a nontrivial optical selection rule; Law I applied once; elliptical morphology after those) are recorded and carried to §XXXIV.40.
+
+*The referee report on v36.12* retains the version "with one substantive correction required": "the new eV-scale direct-mass intervals are not global bounds for the mass matrices as written. A separate sign branch fits all three charged-lepton masses outside them, including with a 10 TeV heavy partner." This is correct, and v36.13 makes the correction (§XXXIV.36). Its counterexample — the exact angles, the dual factors, $m_0 = 1.0284839364105727$ MeV, $\mu_A = 8598.329913543436$ MeV, $\mu_B = 737172.7775304100$ MeV, $\Lambda = 10^7$ MeV, the three light singular values the $\tau$, the electron and the muon, the determinants' signs $(-,+,-)$ — is reproduced to $10^{-12}$, as are its one-scale examples; its algebraic route to all branches ("a polynomial of degree at most four") is implemented and gives the branch map for the direct mass as the smaller diagonal entry: two sign patterns, the eV branch of v36.11 and a second between $1.028484$ and $1.081583$ MeV, each with mirror images under the blocks' two symmetries. §XXXIV.22(c)–(d), the model ledger of §XXXIV.27, the head table and R388 are corrected in place, each tagged — and so are the repetitions that rounded the interval to $-8.45<m_0<+113.6$ eV or stated it in words, with the one-scale exclusion beside them, in the head table's chiral-seesaw row, the reader's note, §§XXXIV.13, XXXIV.14(e), XXXIV.16(a), XXXIV.18, R383 and XXXIV.20 and the Round record's v36.10 and v36.11 paragraphs (the second reading and the confirmation found them) — the manuscript marked and the suite's v36.10 and v36.11 prints, labels and docstring referenced to v36.13-1, with the superseded wording quoted in the ledger: the eV intervals are "branch-conditional intervals", the report's phrase. Its section 5 asks for the bundle data of the Cartan construction, and §XXXIV.37 supplies what can be checked: the Fermi–Walker benchmark started at its own initial velocity (second-order convergence restored, v36.12-1(c) rerun — the report's $6.42\times10^{-5}$ and $2.84\times10^{-3}$ at $v = 0.6$ reproduced); the thin-loop first variation with the curvature transported to one fiber, against which the bare integral fails; the sewing datum $H_0$ with $\mathcal W = P_1H_0P_2^\dagger$ covariant; and the antilinearity of $j$, which gives $e^{-i\chi}\rho(g)$ for a charged transport, so that "one connection suffices" is restricted to the spin construction and the charged twist is open. Its section 6's "not perfectly distinguishable" is adopted with the trine's $2/3$ computed. Its section 7's three verified facts are §XXXIV.32's; its continuation brief (A–F) is recorded in §XXXIV.40, Priority A being this round's correction. Its request for "a compact active manuscript with one set of assumptions, one model ledger and one current statement per result" is the current manuscript's purpose; the author decides its form.
+
+*Entry 365* proposes a coupled mechanism: a rule for how matter moves along the Hopf fibers and a rule for how photons do, jointly constraining a visibility that fades rapidly at the inner approach point and exponentially toward the outer one, with the kinematic instinct that a vanishing radial velocity means "more direction being pointed/given to the Hopf direction"; asks what invariance keeps a galaxy a galaxy as the observer sweeps to other spots, what survives as the invariant version, and whether the Hopf-fiber quotient itself is affected; and requires the whole to reproduce the middle space's metric and to be fixed by the Einstein equations on the gravity base. Its response separates what follows from what must be supplied: motion along a Hopf fiber is invisible after the first quotient, $\pi_H(qe^{i\psi}) = \pi_H(q)$, so a fiber-sensitive transport needs an additional structure, and the effective Maxwell sector is $U(1)_H$-invariant; for a Hopf-symmetric metric the gauge-invariant vertical speed is set by the conserved Hopf momentum and the fiber radius, not by the radial velocity, so the apsidal instinct is testable but does not follow from the metric; the time per unit radial distance near an apsis grows as $\lvert r-r_a\rvert^{-1/2}$, the time within $\delta$ of it as $\sqrt\delta$ — a kinematic enhancement at both apsides that does not by itself reduce light; a two-channel transfer conserving total intensity gives exponential fading in the one-way limit, but an exact exponential to infinity would need an attenuation diverging at the equator, so either the optical path is effectively unbounded, the coupling develops special behavior near the equator (the response's phrase), or the exponential describes a finite range, the third "quite reasonable"; the invariance asked for is equivariance under genuine symmetries, with a passive frame change leaving observations unchanged and an observer's motion changing the image by propagation; and the gravity base must satisfy the field equations, which a quotient does not supply. §XXXIV.37(f) recomputes the residence-time scaling on §XXVII.7's orbit and the attenuation an exponential image would need; the matter-side statement and the two-channel model are recorded as the response's. The proposal — canonical motion, photon transport and observer selection producing the visible morphology, one source giving one gravitational reduction — is recorded as a hypothesis with the response's paired experiment [S/O] and joins §XXXIV.40's next pieces.
+
+## XXXIV.36 The direct-mass branches: the eV intervals are one branch's, and a second branch near $1.03$ MeV fits all three masses [T/V/S/O; R401] *(`v36_13_branches()`)*
+
+*The referee report on v36.12 (§XXXIV.35) requires one correction. §XXXIV.22(c) said that with two independent dual-hop scales exact three-mass fits exist only for $-8.446<m_0<+113.612$ eV, and §XXXIV.27's model ledger, R388, the head table, the manuscript and the suite's v36.10 and v36.11 prints repeated it. The statement is true of one branch — the one continuously connected to the zero-direct-mass solution, on which the three determinants $m_0\Lambda-\mu_A\mu_Ba_{+,n}a_{-,n}$ are negative — and false of the mass matrices as written: the report's counterexample fits all three masses at $m_0 = 1.028$ MeV with a 10 TeV heavy partner, the electron's determinant positive. The error is the one the report names, "a successful numerical continuation of one branch has been promoted to an exclusion of other branches". v36.13 reproduces the counterexamples, implements the report's algebraic route to every branch, maps the branches, and corrects the statements in place (each tagged in the archive, marked v36.13 in the manuscript and referenced to v36.13-1 in the suite's prints, the superseded wording in the ledger). Throughout, the direct mass is the smaller diagonal entry, $\lvert m_0\rvert<\Lambda$ — the convention under which the blocks are read; the blocks' singular values are invariant under $m_0\leftrightarrow\Lambda$ and under $(m_0,\Lambda)\mapsto(-m_0,-\Lambda)$, so every solution has mirrors with the roles of the direct mass and the heavy scale exchanged, which the convention excludes. The zero-block theorem of §XXXIV.23 is untouched: its hypothesis is an exact zero block.*
+
+**(a) The counterexample [V].** With the exact angles and the dual factors $a_{\pm,n} = 1+\cos(\tfrac29+\tfrac{2\pi n}3\pm\tfrac\pi4)$, the blocks $\begin{pmatrix}m_0&\mu_Aa_{+,n}\\\mu_Ba_{-,n}&\Lambda\end{pmatrix}$ at $m_0 = 1.028484$ MeV, $\mu_A = 8.598330$ GeV, $\mu_B = 737.1728$ GeV and $\Lambda = 10$ TeV have light singular values equal to the $\tau$, the electron and the muon to $10^{-12}$ (relative), heavy ones of $10.0921$, $10.0293$ and $10.0004$ TeV, and determinant signs $(-,+,-)$ — the electron's positive — against $(-,-,-)$ on the branch v36.11 followed, where at $m_0 = 0$ every determinant is $-\mu_A\mu_Ba_+a_-$. Every target mass is the small singular value of its mode; every scale is positive: this is not the heavy-root assignment §XXXIV.23 rejects. The report's one-scale examples — the dual factors with equal hop scales at $m_0 = 1.031297$ MeV, $\mu = 8.817297$ GeV, $\Lambda = 121.9770$ GeV, and the same hop twice at $1.027261$ MeV, $10.753456$ GeV, $182.3400$ GeV — fit all three masses too, with the same signs.
+
+**(b) The quartic [T/V].** At fixed $m_0$ write $X = \mu_A^2$, $Y = \mu_B^2$, $P = \mu_A\mu_B$ and $t = \Lambda/P$. That $m_n$ is a singular value of the $n$th block is $m_n^4-S_nm_n^2+D_n^2 = 0$ with $S_n = m_0^2+\Lambda^2+A_nX+B_nY$, $D_n = P(m_0t-c_n)$, $A_n = a_{+,n}^2$, $B_n = a_{-,n}^2$, $c_n = a_{+,n}a_{-,n}$, which is
+
+$$A_nX+B_nY-K_n(t)\,P^2 = m_n^2-m_0^2,\qquad K_n(t) = \frac{(m_0t-c_n)^2}{m_n^2}-t^2,$$
+
+the report's reduction: for fixed $t$ three linear equations in $(X,Y,P^2)$, solved by Cramer's rule with $D(t)$, $N_X(t)$, $N_Y(t)$ quadratic in $t$ and $C$ constant, so that $XY = P^2$ is the quartic $N_X(t)N_Y(t)-C\,D(t) = 0$. Each positive real root with $X,Y,P^2>0$ is polished on the full equations and kept only when every target mass is the small singular value of its mode; the roots that place a target on the large singular value are the heavy-root assignments and are discarded, as in §XXXIV.23. This enumerates every solution at that $m_0$: a finite solution at a pole $D(t) = 0$ would need $C = \det[A,B,{\rm rhs}] = 0$, which happens only at $m_0^2 = -9.725\times10^5$ MeV$^2$, for no real $m_0$. At $-6$, $+40$, $-8.40$ and $+113.5$ eV the quartic has one admissible solution, v36.11's fit at each ($180.1$, $302.3$ GeV, $86.7$ TeV at $-6$ eV; $229.6$, $67.9$ GeV, $24.8$ TeV at $+40$; $178.3$, $2212.3$ GeV, $628.5$ TeV at $-8.40$; $5883.5$, $42.8$ GeV, $401.2$ TeV at $+113.5$); at $1.028484$ MeV one, the report's counterexample; at $1.03$ MeV one, the report's two-scale solution there ($8.7140$ GeV, $11.9887$ GeV, $164.33$ GeV).
+
+**(c) The branch map [V].** On a grid of $12001$ direct masses — $\pm10^{-9}$ to $\pm10^3$ MeV log-spaced at $500$ per decade, and $0$ — the quartic admits solutions with two sign patterns and no other: $(-,-,-)$ and $(-,+,-)$, every grid solution lying between the ends below. Each of the four ends found is where the quartic's root meets a pole of Cramer's rule, $D(t) = 0$, and a scale runs to infinity with $\Lambda$; located by polynomial arithmetic alone, the ends are
+
+| branch | determinant signs $(\tau,e,\mu)$ | exact three-mass fits for | at the ends |
+|:--|:--|:--|:--|
+| v36.11's | $(-,-,-)$ | $-8.4457<m_0<+113.612$ eV | $\mu_B\to\infty$ at the lower, $\mu_A\to\infty$ at the upper, with $\Lambda$ |
+| the report's | $(-,+,-)$ | $1.028484<m_0<1.081583$ MeV | the same, $\mu_B$ then $\mu_A$ |
+
+— v36.11's $-8.446$ and $+113.612$ recovered as the first branch's ends. A branch narrower than the grid's $0.46\%$ spacing would be missed: the map is a numerical classification on the declared grid, not a theorem, and a continuum classification is open [O]. It is a map for $\lvert m_0\rvert<\Lambda$: by the two symmetries each branch has mirror images with the roles of the direct mass and the heavy scale exchanged — the counterexample's mirror, $m_0 = 10$ TeV with $\Lambda = 1.028484$ MeV, fits the masses to $10^{-12}$ with the same signs and is excluded by the convention.
+
+**(d) One hop scale [V].** With $(m_0,\mu,\Lambda)$ free, the three equations have isolated solutions. For fixed $(m_0,t)$ the equations $(A_n+B_n)X-K_n(t)Q = m_n^2-m_0^2$ are linear in $(X,Q = X^2)$; their consistency is a quadratic in $t$, and the remaining condition $Q = X^2$, written pole-free, is a function of $m_0$ whose sign changes on a grid of $60001$ direct masses ($\pm10^{-9}$ to $\pm10^6$ MeV) locate the solutions. Each construction has two with $\lvert m_0\rvert<\Lambda$ and, on the grid, the $m_0\leftrightarrow\Lambda$ mirror of the second; the composite mirror $(m_0,\Lambda)\mapsto(-\Lambda,-m_0)$ of the first, both symmetries composed, lies beyond the grid: the same hop twice at $m_0 = -4.368$ eV ($\mu = 223.2$ GeV, $\Lambda = 79345.5$ GeV; signs $(-,-,-)$) and at $1.027261$ MeV ($10.7535$ GeV, $182.3400$ GeV; $(-,+,-)$), with the mirrors at $m_0 = 182.3400$ GeV, $\Lambda = 1.027261$ MeV and at $m_0 = -79.3$ TeV, $\Lambda = 4.368$ eV; the dual factors with equal scales at $-1.800$ eV ($183.4$ GeV, $53558.6$ GeV; $(-,-,-)$) and at $1.031297$ MeV ($8.8173$ GeV, $121.9770$ GeV; $(-,+,-)$), with the mirrors at $121.9770$ GeV, $1.031297$ MeV and at $-53.6$ TeV, $1.800$ eV (each mirror verified to $10^{-12}$, each excluded by the convention). So the one-scale constructions, which §XXXIV.22(c) placed inside the eV interval, also fit all three masses exactly near $1.03$ MeV on the second branch; their near-zero fits are on the first, inside v36.11's signed interval, as §XXXIV.22(c) said of that branch — whose "no exact fit exists below" $m_0 = -5.0486$ eV is likewise a statement for $\lvert m_0\rvert<\Lambda$.
+
+**(e) The dimension-five condition on the second branch [S].** A flavor-blind operator with $\lvert C_5\rvert = 1$ and $v_R = 10$ TeV gives $m_0 = v_Lv_R/(2M)$, so the second branch's $m_0 = 1.028$ MeV corresponds to $M = 1.2\times10^9$ GeV against the $10^{14}$ GeV of the eV branch (§XXXIV.22(d)). The lepton data alone do not impose the eV interval on the unrestricted matrix — the report's point; a near-zero direct term is a hypothesis to state, and the eV statements of §XXXIV.22(c)–(d) hold on the first branch under it.
+
+**(f) What is corrected, and what stands [D/S/O].** Corrected in place: §XXXIV.22(c)'s "exact three-mass fits exist only for" and the one-scale sentence after it, and the one-scale exclusion "no exact fit exists below", §XXXIV.22(d)'s "the dual factors' boundary is the $\tau$'s", §XXXIV.27's standing bullet and model-ledger row, R388 and the head table's Z-linked row (each tagged *[v36.13, R401]*); the repetitions that rounded the interval to $-8.45<m_0<+113.6$ eV or stated it in words, with the one-scale bound $m_0>-5.05$ eV beside them — the head table's chiral-seesaw row, the reader's note's v36.11 passage, §XXXIV.13, §XXXIV.14(e), §XXXIV.16(a), §XXXIV.18, R383, §XXXIV.20 and the Round record's v36.10 and v36.11 paragraphs (each tagged *[v36.13, R401]*; the second reading and the confirmation found them); the manuscript's rows and §13 bullets (marked v36.13); and the suite's v36.10-3 and v36.11-1 prints and check labels and the docstring (referenced to v36.13-1) — each now scoped to the branch connected to the zero-block solution and to $\lvert m_0\rvert<\Lambda$, with the second branch named. Standing: the zero-block theorem and the fold of §XXXIV.23 (an exact zero block); the fits themselves; the signed one-scale interval, on its branch. Open: which branch, if either, a completion's interactions select — the report notes that the branches may differ in their couplings where their masses agree — and the continuum classification. Status: the quartic reduction and the mirror symmetry [T]; the counterexamples, the map on its grid, the ends and the one-scale solutions [V]; a chosen branch or tolerance [S]; the selection and the classification [O].
+
+## XXXIV.37 Transport repairs, the Hopf-fibration normalizer, and Entry 365's kinematics [T/V/O; R402] *(`v36_13_transport()`)*
+
+*Section 5 of the referee report asks for the bundle data of §XXXIV.30's construction; section 4 of the review of v36.12 asks which $SO(4)$ elements preserve the Hopf fibration; the response to Entry 365 derives two kinematic facts. What can be checked is checked here; §XXXIV.30's claims change where noted, each tagged *[v36.13, R402]*.*
+
+**(a) The benchmark's initial frame [V].** v36.12-1(c)'s circular benchmark started the Fermi–Walker frame at the identity although the orbit's velocity is nonzero at the first sample, inserting a rest-to-first-sample boost and omitting the first segment of the intended transport (the report, 5.5). Started at $g_0 = B(u(0))$, the error against the Thomas rotation falls as the square of the step — at $v = 0.6$, $6.4\times10^{-5}$, $1.6\times10^{-5}$, $4.0\times10^{-6}$ for $400$, $800$, $1600$ steps (order $2.00$), the report's $6.42\times10^{-5}$ and $1.61\times10^{-5}$ — where from the identity it fell as the step ($2.8\times10^{-3}$, $1.4\times10^{-3}$, $7.0\times10^{-4}$; order $1.01$), and likewise at $v = 0.3$ and $0.9$ (orders $2.00$ against $1.01$ and $1.03$). The `_v36_12_fw` helper takes an initial frame, the benchmark starts at $B(u(0))$, and §XXXIV.30(c)'s printed residuals fall from below $10^{-4}$, $10^{-4}$, $10^{-3}$ to below $10^{-7}$, $10^{-7}$, $10^{-6}$ at $12000$ steps; the legs of §XXXIV.30(d) leave rest and were right as they were. The limiting Thomas result is unchanged.
+
+**(b) The first variation [T/V].** For a non-abelian connection the thin-loop expansion of §XXXIV.30(a), written there as $I+\int F+O(r^2)$, needs the curvature carried to one fiber before it is added (the report, 5.4): with $P(1,s)$ the transport along the base path from $s$ to its far endpoint and $\Gamma_2 = \Gamma_1+rY$, $Y$ vanishing at the endpoints,
+
+$$W(r) = I+r\int_0^1P(1,s)\,F\big(Y,\dot\Gamma_1\big)(s)\,P(s,1)\,ds+O(r^2).$$
+
+On §XXXIV.30(a)'s connection, $\lvert(W-I)/r-\text{the transported integral}\rvert = 0.312$, $0.156$, $0.078$ at $r = 0.05$, $0.025$, $0.0125$ — linear in $r$ — while against the bare integral $\int F(Y,\dot\Gamma_1)\,ds$ the difference is $8.61$, $8.63$, $8.65$ ($\lvert$transported$\rvert = 6.063$, $\lvert$bare$\rvert = 4.230$; §XXXIV.30(a)'s ratio $\lvert W-I\rvert/r$, $5.9$–$6.0$, tends to the former). The identity limit is unchanged; the local formula is corrected in §XXXIV.30(a).
+
+**(c) The sewing datum and the charge [T/V].** §XXXIV.30's comparison $P_1P_2^\dagger$ is written in a common initial rest frame, which an arbitrary initial Lorentz-frame change would reset silently (the report, 5.2). With the initial four-velocity $H_0 = B_0^2$ — the initial sewing of the two Weyl fibers — as an explicit datum, $\mathcal W = P_1H_0P_2^\dagger$ transforms under independent endpoint frame changes $P_i\mapsto h_iP_ih_0^{-1}$, $H_0\mapsto h_0H_0h_0^\dagger$ as $\mathcal W\mapsto h_1\mathcal Wh_2^\dagger$ (to $10^{-12}$; with $H_0$ reset to $I$ the law fails by $8.84$ on the same random frames) — the transformation law of a Hermitian four-vector at coincident endpoints; at finite separation $\mathcal W$ is a two-point object, and the connector between the endpoint fibers that the review asks for remains to be supplied (§XXXIV.40) [O]; $H_0 = I$ recovers §XXXIV.30's formula. And $j$ is antilinear: for a transport carrying an electromagnetic phase, $T = e^{i\chi}g$, $j^{-1}Tj = e^{-i\chi}\rho(g)$ (to $10^{-12}$; against $e^{+i\chi}\rho(g)$, $7.05$), while the right-handed component of a charged Dirac field carries the *same* charge as the left-handed one. So §XXXIV.30(b)'s identity implements the spin twist and does not extend by itself to a charge-preserving twist of the full transport (the report, 5.3): "one connection suffices" is restricted there to the spin construction, and the charged twist — whether the second leg is charge-conjugate, reinterpreted through a separate bundle map, or carries an independently defined same-charge representation — is open [O], with the gauge connection and the mass coupling.
+
+**(d) The trine [T/V].** The three effects $\tfrac23\lvert\psi_a\rangle\langle\psi_a\rvert$ of §XXXIV.32(b)'s trine sum to the identity on the surviving plane (to $10^{-12}$) and, with equal priors, identify the state with probability $\tfrac23$, which $\rho_a\leq I$ also bounds from above: the survivors are not perfectly distinguishable, not indistinguishable (the report, 6.1); the three labels keep partial information.
+
+**(e) The fibration's stabilizer [T/V].** With the Hopf fibers the right $U(1)$ orbits $q\sim qe^{i\varphi}$, the element $q\mapsto aqb^{-1}$ of $SO(4)$ carries fibers to fibers only if $b$ normalizes that $U(1)$, $bib^{-1} = \pm i$: for $b = e^{i\theta}$ and for $b = j$ the image of a fiber is a fiber (to $10^{-12}$), for a generic $b$ it is not (the smallest deviation over $20$ random $b$, $0.37$). The normalizer's connected component is the $U(1)$ itself (its other component, $j\,U(1)$, reverses the fibers' orientation). So preserving the galaxy's center — $a = b$, the diagonal $SO(3)$ of §XXXIV.32(j) — and preserving the selected Hopf fibration are different conditions, the review of v36.12's point: a diagonal element can turn the fibration about a fixed center, and a non-diagonal one with $b$ in the normalizer can move the center and keep the fibration. A full $SO(4)$ acting on the configuration with the fibration transforming along is an action on a family of quotients, not a symmetry of one middle space — the review's distinction, recorded.
+
+**(f) Entry 365 [V].** Near a nondegenerate apsis $\lvert dt/dr\rvert\propto\lvert r-r_a\rvert^{-1/2}$, so the time spent within $\delta$ of the apocenter grows as $\sqrt\delta$: on §XXVII.7's orbit ($r_p = 1$, $r_a = 2$, $\Phi = \ln r$) the time within $0.04$, $0.01$ and $0.0025$ of $r_a$ is $0.5461$, $0.2728$ and $0.1364$ against a half radial period of $3.3640$ ($16\%$, $8\%$ and $4\%$ of it), ratios $2.002$ and $2.000$ — the response's residence-time enhancement, checked at the outer apsis; the same expansion holds at the inner one. And the gnomonic image $\Sigma_{\rm obs} = \cos^3\chi\,T(\chi)\,\Sigma_{\rm source}$ at $R = \ell\tan\chi$ is exponential, $e^{-R/h}$, for a regular source only if $\ln T = -(\ell/h)\tan\chi-3\ln\cos\chi+{\rm const}$: with $\ell/h = 5$, $\ln T = -5.94$, $-14.05$, $-62.56$ at $\chi = 1.0$, $1.3$, $1.5$, diverging at the equator — a bounded attenuation rate over a finite canonical path cannot give an exponential to infinity: the optical path must be effectively unbounded, the coupling must develop special behavior near the equator (the response's phrase), or the exponential describes a finite range, the response's third option, which it favors (its section 4; §§XXXIII.29–30's controls). The two-channel transfer $dI_\pm/ds = \mp\gamma_+I_+\pm\gamma_-I_-$ conserves $I_++I_-$ and gives $I_+ = I_+(0)e^{-\int\gamma_+}$ one-way: recorded with the proposal, the law fixing $\gamma_+$ being the open dynamics. The matter-side statement — that for a Hopf-symmetric metric the vertical speed is $\lvert p_\psi\rvert/R_H$, set by the conserved Hopf momentum and not by $\dot r$ — is the response's reading, recorded as such.
+
+**(g) Status.** [T] (b)'s formula, (c)'s transformation laws, (d)'s bound, (e)'s normalizer. [V] Their checks; (a)'s convergence orders; (f)'s kinematics. [O] The charged twist; the optical law and what fixes $\gamma_+$; Entry 365's coupled matter–photon transport, its invariance and its metric compatibility; which $SO(4)$ elements act on PG's matter and optics rather than on their representation.
+
+## XXXIV.38 Entry 366 and the response to it, as formulated (23 October 2026) [record; R403]
+
+**The author's second message (23 October, 6:46 PM), with one attachment.** Entry 366, followed by the response to it. As he sent them:
+
+> Entry 366, 6:46 PM, Oct 23, 2026
+> By the way I also just got the idea that maybe we can try explaining that 4/9 concept showing up both inside AND outside a cosine using a similar pathway to how I believe the v^2 formula on the leaf had a sin(t)-t or something. That is, at least it's the only precedent I've seen for an argument existing on both sides, kind of thing! So maybe we try to tie that into the 4/9 somehow being induced from something outside, even entertaining leaf-scale???
+
+*The response to Entry 366*, the attachment (its inline mathematics did not survive the paste — several sentences stop at a missing symbol, as in "The important question is whether PG can do that with ." — while its display mathematics stands as bare LaTeX, without delimiters; quoted as received, markup and all):
+
+> I think there is a genuinely interesting mathematical route here. And your recollection of the leaf calculation points toward exactly the kind of mechanism we should investigate:
+>
+> A number can appear both outside a trigonometric function and inside its argument because both appearances were generated by one geometric operation—not because someone independently inserted the same number twice.
+>
+> The important question is whether PG can do that with .
+>
+> I checked the relevant expressions in v36.9, and there’s a fairly precise way to formulate the experiment.
+>
+> 1. First, what are the two appearances of ?
+>
+> Your manuscript currently contains two suggestive facts.
+>
+> The first is an actual geometrical theorem. For two real orthonormal frames in three dimensions,
+>
+> \max_{i,j}|\langle e_i,f_j\rangle|^2
+> \geq \frac49.
+>
+> The bound is sharp.
+>
+> One rotation that attains it is the half-turn about the body diagonal:
+>
+> R=\frac13
+> \begin{pmatrix}
+> -1&2&2\\
+> 2&-1&2\\
+> 2&2&-1
+> \end{pmatrix}.
+>
+> Its off-diagonal squared overlaps are
+>
+> \left(\frac23\right)^2=\boxed{\frac49}.
+>
+> So is not merely a convenient decimal. It is the exact optimum in a particular real three-dimensional frame problem.
+>
+> The second is the proposed lepton phase.
+>
+> Your charged-lepton mass law uses
+>
+> d_n=\cos\left(\theta+\frac{2\pi n}{3}\right)+\frac1{\sqrt2},
+> \qquad \theta=\frac29.
+>
+> But now look what happens when we square one of these amplitudes:
+>
+> \begin{aligned}
+> d_0^2
+> &=\left(\cos\theta+\frac1{\sqrt2}\right)^2\\
+> &=1+\sqrt2\cos\theta+\frac12\cos(2\theta).
+> \end{aligned}
+>
+> Therefore,
+>
+> \boxed{
+> d_0^2
+>
+> 1+\sqrt2\cos\frac29
+> +\frac12\cos\frac49.
+> }
+>
+> The inside the cosine is automatically generated by the square.
+>
+> That’s a useful little result. The two-hop mechanism you were just exploring supplies precisely the operation that doubles the phase.
+>
+> But it doesn’t yet explain why the phase started at , or why its doubled value should coincide with the frame-overlap bound .
+>
+> That’s the missing bridge.
+>
+> 2. Your sine-minus-angle precedent is mathematically real
+>
+> Consider a round three-sphere of radius , the kind of geometry used in PG’s leaf calculations.
+>
+> Its volume element in geodesic polar coordinates contains .
+>
+> Consequently, the volume enclosed within angular radius is
+>
+> V(\chi)
+> =4\pi\ell^3\int_0^\chi\sin^2u\,du.
+>
+> Integrating gives
+>
+> \boxed{
+> V(\chi)=2\pi\ell^3
+> \left(\chi-\frac12\sin2\chi\right).
+> }
+>
+> Notice the structure:
+>
+> \underbrace{2\chi}{\text{outside sine}}
+> \quad-\quad
+> \underbrace{\sin(2\chi)}{\text{inside sine}}.
+>
+> Here the same angle occurs both linearly and trigonometrically because one geometric integral produced both terms.
+>
+> The linear term comes from the constant component of . The oscillating term comes from its cosine component.
+>
+> That’s a legitimate precedent for your intuition.
+>
+> One qualification: this is an exact spherical-volume identity, not the standing point-source rotation-speed formula in v36.9. That formula is expressed through . So I wouldn’t yet identify your remembered expression with this particular integral.
+>
+> But the underlying mathematical mechanism is exactly the sort of thing you’re describing.
+>
+> 3. A possible bridge: a frame overlap becomes a transport angle
+>
+> Here is the construction I would investigate.
+>
+> REAL THREE-DIMENSIONAL FRAME GEOMETRY
+>
+> p=\max_{i,j}|R_{ij}|^2=\frac49
+>
+> Missing PG theorem
+>
+> \text{Transport angle }\Phi=pA projection probability induces a normalized geometric rotation or holonomy
+>
+> SPINOR HALF-ANGLE
+>
+> \theta=\frac{\Phi}{2}=\frac29
+>
+> TWO-HOP LEPTON MASS OPERATOR
+>
+> \cos(2\theta)=\cos\frac49
+>
+> The idea is that there might be three consecutive operations:
+>
+> * A real-frame obstruction supplies an invariant probability .
+> * A canonical PG connection translates that invariant into an angle .
+> * The spinorial representation supplies the half-angle, and the two-hop mass mechanism restores the doubled angle.
+>
+> Two parts of this pipeline already have well-defined mathematical explanations. The real-frame bound is a theorem; the half-angle is standard for spinors; and phase doubling is an exact trigonometric consequence of the square.
+>
+> The genuinely new requirement is the middle step:
+>
+> \boxed{\Phi\overset{?}{=}p.}
+>
+> Why should a squared overlap, which is a probability, equal a rotation angle measured in radians?
+>
+> There is no general identity making that true.
+>
+> Indeed, the simplest attempt actually fails. The rotation matrix above is a half-turn, meaning its rotation angle is . Its direct spinor lift therefore has half-angle , not .
+>
+> Similarly, interpreting as a squared cosine gives
+>
+> \arccos\sqrt{4/9}
+> =\arccos(2/3)
+> \approx0.84107,
+>
+> again not .
+>
+> Those are valuable negative results. They tell us the numerical coincidence cannot be obtained merely by renaming an overlap as an angle.
+>
+> What we need is an actual transport law.
+>
+> 4. Could the leaf supply that transport law?
+>
+> Potentially, yes—and I think this is where your suggestion becomes more than numerical pattern matching.
+>
+> On a curved space, parallel transport around a loop can rotate an internal frame. Mathematically, the rotation can be measured by a connection and its curvature :
+>
+> \boxed{
+> \Phi=\oint_\gamma A
+> =\int_\Sigma F
+> }
+>
+> in an appropriate Abelian sector.
+>
+> Here is the possible physical story.
+>
+> A complementary frame configuration on the PG leaf determines a canonical loop or enclosed region. The geometry’s connection has a fixed curvature. Transport around that region creates a rotation. That rotation acts on the internal flavor carrier, potentially supplying its phase.
+>
+> If PG’s optimization of the complementary frames fixes the relevant normalized area or flux using the same invariant, then perhaps the lepton phase would not need to be fitted at all.
+>
+> And notice the leaf-scale opportunity.
+>
+> If the curvature scales as
+>
+> F\sim\frac1{\ell^2}
+>
+> while the enclosed area scales as
+>
+> \operatorname{Area}(\Sigma)\sim\ell^2,
+>
+> their product is dimensionless. The leaf radius cancels:
+>
+> \Phi\sim\frac1{\ell^2}\times\ell^2.
+>
+> That gives us a possible route by which leaf geometry could induce a universal internal phase without making charged-lepton masses depend on the size of a galaxy.
+>
+> I would consider that a much more promising version of a leaf-scale connection than asserting that the electron mass directly depends on a galactic radius.
+>
+> There are, however, two requirements we cannot skip.
+>
+> First, the relevant connection must actually exist within PG’s parent structure, and the loop must be chosen by the theory, not by us.
+>
+> Second, the holonomy normalization has to come out correctly. Normalized spherical areas naturally introduce factors of or , so obtaining exactly radians, rather than or some inverse cosine, is a substantive challenge.
+>
+> A flat connection on simply connected cannot produce a nontrivial contractible-loop holonomy, either; this route would require curvature or other appropriately specified structure.
+>
+> 5. The test I would actually run
+>
+> I would formulate the conjecture as:
+>
+> Conjecture: The real-frame least-privileging configuration induces a canonical internal transport whose spinorial phase is half the sharp real-frame squared-overlap bound.
+>
+> Then demand three calculations, in order.
+>
+> * Calculate the transport from native geometry. Start with the left- and right-invariant frames on the leaf, the PG connection, and whatever canonical cycle their relation selects. Compute its holonomy without referring to the charged-lepton masses.
+> * Check whether that transport phase really equals . Not approximately, not after an arbitrary rescaling, and not merely because the overlapping frame has entries .
+> * Apply the actual generation representation. Determine whether the resulting operator is the cyclic flavor operator with , and whether the two-hop realization then produces its harmonic automatically.
+>
+> There’s one additional conceptual obstacle: the theorem concerns real frames, whereas the exact mutually unbiased flavor construction uses a complex carrier, where the squared overlaps are . We would need to show that the real obstruction remains physically meaningful upstream of complexification, rather than assuming that its value is inherited.
+>
+> That makes this a hard conjecture—but also a very specific one.
+>
+> Where I land
+>
+> I think you’ve identified a good derivational target, not a derivation yet.
+>
+> The strongest insight is that there may be three distinct reasons for the same number to reappear:
+>
+> \boxed{
+> \begin{aligned}
+> \text{Real frame geometry}&\longrightarrow p=\frac49,\\
+> \text{Geometric transport}&\longrightarrow \Phi=p\quad\text{(open)},\\
+> \text{Spinor representation}&\longrightarrow\theta=\frac{\Phi}{2},\\
+> \text{Two-hop mass law}&\longrightarrow\cos(2\theta)=\cos\frac49.
+> \end{aligned}
+> }
+>
+> What I particularly like as a research strategy is that this proposal identifies one sharply localized missing theorem rather than asking for a vaguely deeper connection between gravity and leptons.
+>
+> And your sine-minus-angle intuition helps articulate why such a theorem is worth looking for: in curved geometry, integrating or transporting a quantity can naturally place one parameter into several mathematical roles.
+>
+> If PG can derive the transport step independently, then outside the cosine and inside it really could become two readouts of one source.
+>
+> If that step fails, we keep the independently valid real-frame bound and the doubled-phase identity, but we don’t force them together.
+>
+> Either outcome would teach us something useful about the geometry.
+
+**What v36.13 does with them.**
+
+*Entry 366* asks whether the $\tfrac49$ that appears outside a cosine (the real-frame bound of §XXXIV.2(b)) and inside one (the doubled angle of §XXXIV.26) can be explained by one pathway — "the 4/9 somehow being induced from something outside, even entertaining leaf-scale" — on the precedent of a leaf formula the author recalls as having an angle both inside and outside a sine, "the only precedent I've seen for an argument existing on both sides". *The response* states the mechanism it would need — "A number can appear both outside a trigonometric function and inside its argument because both appearances were generated by one geometric operation" — and formulates the experiment: the real-frame theorem and the half-turn about the body diagonal that attains it; the square of the lepton amplitude, which puts the doubled angle inside a cosine; the volume of a cap of $S^3$ as a precedent that is "mathematically real", with the qualification that it is "an exact spherical-volume identity, not the standing point-source rotation-speed formula in v36.9"; three consecutive operations (a real-frame probability; a transport angle equal to it; the spinor half-angle, with the two-hop square restoring the doubled angle), whose middle step — "That’s the missing bridge." — has no general identity behind it, the half-turn's own spinor half-angle and the arccosine of the overlap both failing to give $\tfrac29$ ("Those are valuable negative results."); the leaf as a possible source of the transport, with a dimensionless flux in which the leaf radius cancels, under two requirements (the connection must exist in PG's parent structure and "the loop must be chosen by the theory, not by us"; the normalization is "a substantive challenge") and the caveat that a flat connection on a simply connected space gives no contractible-loop holonomy; a conjecture ("Conjecture: The real-frame least-privileging configuration induces a canonical internal transport whose spinorial phase is half the sharp real-frame squared-overlap bound.") with three calculations in order; and the obstacle that the theorem concerns real frames where the flavor construction is complex. It lands on "a good derivational target, not a derivation yet", "one sharply localized missing theorem". §XXXIV.39 checks what can be checked: the response's square is the archive's two-hop product exactly; the half-turn's facts; the volume identity; what the leaf's own formulas carry, which locates the author's recollection; and what a transport would have to supply. The conjecture is §XXXIV.26(e)'s open law in a sharper form and is recorded as the response's [S/O]; it joins §XXXIV.40's next pieces under the angle-selection target.
+
+## XXXIV.39 Entry 366: the $\tfrac49$ inside and outside the cosine — the two-hop product as the response's square, the half-turn's half-angle, the sine-minus-angle precedent on the leaf, and what a transport would have to supply [T/V/D/S/O; R404] *(`v36_13_entry366()`)*
+
+*Entry 366 and its response are recorded in §XXXIV.38. The response's three consecutive operations — a real-frame probability $p = \tfrac49$; a transport angle $\Phi = p$, the missing step; the spinor half-angle $\tfrac29$ with the two-hop square restoring $\cos2\theta = \cos\tfrac49$ — are the conjecture §XXXIV.26(e) left open, with a precedent for the mechanism. What can be checked is checked here; nothing is derived.*
+
+**(a) The square is the two-hop product [T/V].** The response squares $d_n = \cos\theta_n+1/\sqrt2$, $\theta_n = \tfrac29+\tfrac{2\pi n}3$, and finds $d_n^2 = 1+\sqrt2\cos\theta_n+\tfrac12\cos2\theta_n$ — the doubled angle $\tfrac49$ inside the cosine of the mass, "automatically generated by the square". The archive's dual factors $a_{\pm,n} = 1+\cos(\theta_n\pm\tfrac\pi4)$ multiply to the same expression,
+
+$$a_{+,n}a_{-,n} = 1+\sqrt2\cos\theta_n+\tfrac12\cos2\theta_n = d_n^2$$
+
+exactly (to $10^{-12}$ over the three leptons and $200$ random angles), so the two-hop product of §XXXIV.10 *is* the response's square, and $d_n$ is Koide's amplitude $1+\sqrt2\cos\theta_n$ of §XXXIV.14 divided by $\sqrt2$. For the $\tau$ the inside term is $\tfrac12\cos\tfrac49 = 0.451425$; for $n = 1, 2$ it is $\tfrac12\cos(\tfrac49+\tfrac{4\pi n}3)$, §XXXIV.26(a)'s doubled cycle. The identity is §XXXIV.26(a)'s $a = 1+\cos(\Phi/2)$ read from the product: the mass sees $2\theta_n$ through the cross term of the two hops. Why $\theta$ starts at $\tfrac29$ it does not say.
+
+**(b) The half-turn about the body diagonal [T/V].** $R = \tfrac13\begin{pmatrix}-1&2&2\\2&-1&2\\2&2&-1\end{pmatrix}$ is a rotation by $\pi$ about $(1,1,1)/\sqrt3$ with every off-diagonal squared entry $\tfrac49$: it attains §XXXIV.2(b)'s bound, one of the $16$ half-turns among the $96$ rotations with entries $\pm\tfrac13$, $\pm\tfrac23$ found there (${\rm Ad}_g$ for $g = (i+j+k)/\sqrt3$). Its spinor lift is $U = -i\,\mathbf n\cdot\boldsymbol\sigma$, half-angle $\pi/2 = 1.570796$, not $\tfrac29 = 0.222222$; and reading $\tfrac49$ as a squared cosine gives $\arccos\tfrac23 = 0.84107$, not $\tfrac29$ either — the response's two negative results: renaming the overlap as an angle does not give $\tfrac29$. In the complex carrier the unbiased pair's overlaps are $\tfrac13$ (§XXXIV.2(a)); $\tfrac49$ is the real frames' invariant, as §XXXIV.26(d) notes — the response's "upstream of complexification" obstacle.
+
+**(c) The sine-minus-angle precedent [V].** The volume of the cap of angular radius $\chi$ on a round $S^3$ of radius $\ell$ is $V = 4\pi\ell^3\int_0^\chi\sin^2u\,du = 2\pi\ell^3(\chi-\tfrac12\sin2\chi)$, the response's identity (quadrature against the closed form at $\chi = \pi/4$, $\pi/2$, $\pi$ to $10^{-12}$; $V(\pi) = 19.7392\,\ell^3 = 2\pi^2\ell^3$, the whole sphere): the angle enters linearly from the constant part of $\sin^2u$ and trigonometrically from its cosine part. The leaf's rotation-speed formula has no such term: the point source's $v^2/(\mu c^2) = \csc\chi+2\sin\chi$ (§XXV.2; R302) follows from the even Green function $F = \cos2\chi/\sin\chi$ of PG's operator $\Delta+3$ (verified to $10^{-12}$; $(\Delta+3)F = 0$ away from the poles, below $10^{-6}$ by central differences). The angle-on-both-sides structure the author recalls is a single pole's compensation for the operator's kernel. For the plain Laplacian the Green function on the unit $S^3$ is $G = (\pi-\chi)\cot\chi/(4\pi^2)+{\rm const}$, with $\Delta G = 1/(2\pi^2)$ away from the pole (below $10^{-8}$ by central differences) and the Coulomb singularity $1/(4\pi\chi)$, the factor $\pi-\chi$ compensating the constant mode; for $\Delta+3$ the kernel mode is $\cos\chi$, and a single pole's Green function is $(\pi-\chi)\cos2\chi/(4\pi^2\sin\chi)$ modulo it — $(\Delta+3)\big[(\pi-\chi)\cos2\chi/\sin\chi\big] = 8\cos\chi$ (below $10^{-6}$) — the angle on both sides again. What the leaf's formula lacks is the compensation: §XXV.2's source is even, the antipodal pair, the $n = 1$ mode is excluded there, and $F = \cos2\chi/\sin\chi$ needs none. The response's qualification stands: the precedent is the volume identity, not the rotation-speed formula — the structure the author recalls does occur in a single pole's Green function on $S^3$, and not in PG's even one.
+
+**(d) What the missing step would need [T/D].** The response's bridge is a transport whose holonomy angle equals the probability $p = \tfrac49$ — "There is no general identity making that true." — with the leaf's curvature $F\sim1/\ell^2$ over an area $\sim\ell^2$ giving a dimensionless phase in which the leaf radius cancels. Two facts frame it. A flat connection has no holonomy on a contractible loop: the carrier's complete connection is flat (§XXXIV.24(a)), and the transport of the pure gauge $A = U^{-1}dU$ around a closed loop returns the identity (below $10^{-5}$ in $4000$ midpoint steps), so this route needs curvature the carrier's connection does not have [T]. And under the spin-$\tfrac12$ normalization — holonomy angle half the enclosed solid angle — a phase of $\tfrac49$ needs $\Omega = \tfrac89$ sr, $7.07\%$ of the sphere, a number no geometric selection on offer produces: the response's normalization caveat in figures [D]. The conjecture — a canonical transport whose spinorial phase is half the real-frame bound — is §XXXIV.26(e)'s open law, now with the response's three calculations as its program [S/O].
+
+**(e) Status.** [T] (a)'s identity; (b)'s rotation facts; (c)'s identities; (d)'s flatness. [V] Their checks. [D] (d)'s normalization. [S/O] The conjecture $\Phi = p$ and the leaf-scale reading, recorded as the response's; the angle's origin.
+
+## XXXIV.40 Standing of Part XXXIV after v36.13, and the next pieces [S/O; R405]
+
+*Corrected [V].* The direct-mass intervals of §XXXIV.22(c)–(d) are one branch's; a second branch near $1.03$ MeV fits all three masses (§XXXIV.36). §XXXIV.30(a)'s thin-loop formula, (b)'s "one connection suffices" and (c)'s benchmark (§XXXIV.37(a)–(c)). No other claim changes.
+
+*Established [T/V], added.* The quartic reduction and the branch map on its grid, for $\lvert m_0\rvert<\Lambda$; the one-scale constructions' two exact fits each under that convention, with their mirrors; the sewing datum's covariance; the first variation with transported curvature; the antilinear phase; the trine's $\tfrac23$; the normalizer of the Hopf $U(1)$ as the fibration's stabilizer; the apsidal residence time and the exponential image's required attenuation; Entry 366's square as the two-hop product, and the half-turn's half-angle $\pi/2$ (§XXXIV.39).
+
+*The model ledger* of §XXXIV.27 stands with its dual-factor rows scoped to the first branch (tagged there); nothing was fitted this round.
+
+*Not demonstrated,* now including: the continuum classification of the direct-mass branches; which branch a completion selects; the charged twist and the bilocal action; the optical selection rule and the transport law of Entry 365; the finite-separation connector beyond the flat trivialization; the transport that would make $\tfrac49$ a phase (Entry 366's conjecture, §XXXIV.26(e)'s open law). The rest of §XXXIV.33's list stands.
+
+*The next pieces,* in the order the review of v36.12 and the referee report give them.
+1. *The direct-mass branches* (the report's Priority A, this round's correction): a continuum classification of the branches or a theorem restricted to a declared component; the interactions of the second branch at a benchmark, where the report says the branches may differ.
+2. *The charged transport* (Priority B): the history pair as a two-point bundle object with $H_0$; the extension from $SL(2,\mathbb C)$ to the electromagnetic phase with the two Weyl components' common charge; a local coincident-limit action with its gauge connections and mass coupling; independent endpoint frame changes tested.
+3. *One chiral mass model and its matching* (Priority C; the review of v36.11's first priority): one complete gauge assignment through dimension five, the mixings and couplings at a benchmark, the pole matching with a stated uncertainty — a prediction not used to choose the construction.
+4. *The angle-selection target* (Priority D): a specified configuration space and connection, its normalization, loop and lift; the phase for all admissible classes; the Bargmann obstruction kept as a control; Entry 366's conjecture as the response's three calculations — the transport from the native geometry without the lepton masses, whether its phase is $\tfrac49$ exactly, and whether the generation representation then gives the cyclic flavor operator with its two-hop harmonic (§XXXIV.39(d)).
+5. *The two-branch galaxy experiment* (Priority E; the review's four priorities): the $SO(4)$ elements classified against a chosen center and a chosen fibration (§XXXIV.37(e) is the first step); one smooth two-branch history on §XXVII.7's orbit with position and velocity continuity in the projected sense; a nontrivial optical selection rule, not a Hopf sign declared observable; Law I applied once to the complete source, with the even and odd moments of its readout; then Entry 365's coupled matter–photon transport with the existing metric and Law I held fixed, and only after a working forward map the elliptical interpolation and its kinematics.
+6. *Consolidation and the gravity controls* (Priority F): the compact active manuscript the report asks for — the current manuscript's role, its form the author's to decide; on the localization track, a positive supersolution or a native metric–measure–source–observable calculation.
+
+*Not claimed.* No mass, mixing angle or phase is derived, and none was fitted. The eV direct-mass intervals are branch-conditional; the limiting map of §XXXIV.30 is a spin construction with one stipulation and no charged extension yet; the quotients of §XXXIV.32 are reductions of the carrier; the two-branch and coupled-transport readings of Entries 363–365 are recorded, not tested; Entry 366's $\Phi = p$ is a conjecture, its square identity a rewriting.
+
+## XXXIV.41 Register R400–R405 [D/O; v36.13]
+
+- **R400** (§XXXIV.35). The review of v36.12, the referee report on v36.12 and Entry 365 with its response, as the author sent them; what v36.13 does with each. [record]
+- **R401** (§XXXIV.36; corrected in place in §§XXXIV.22(c)–(d), XXXIV.27, R388, the head table's Z-linked and chiral-seesaw rows, the reader's note, §§XXXIV.13, XXXIV.14(e), XXXIV.16(a), XXXIV.18, R383, XXXIV.20, the Round record's v36.10 and v36.11 paragraphs, the manuscript and the suite's v36.10-3 and v36.11-1 prints, labels and docstring). The direct-mass branches: the report's counterexamples reproduced (the dual factors at $m_0 = 1.028484$ MeV with $\Lambda = 10$ TeV, signs $(-,+,-)$; the one-scale examples); the quartic in $t = \Lambda/(\mu_A\mu_B)$ enumerating every solution at fixed $m_0$, recovering v36.11's fits; the branch map on a grid of $12001$ direct masses — two sign patterns, $(-,-,-)$ for $-8.4457<m_0<+113.612$ eV and $(-,+,-)$ for $1.028484<m_0<1.081583$ MeV, the ends where the quartic's root meets a pole; the map for $\lvert m_0\rvert<\Lambda$, the direct mass the smaller entry, every solution having mirrors with the roles exchanged; each one-scale construction's two isolated exact fits under that convention, with their mirrors; the second branch's $\lvert C_5\rvert = 1$ scale $1.2\times10^9$ GeV. The eV intervals are branch-conditional. [T/V/S/O]
+- **R402** (§XXXIV.37; corrected in place in §XXXIV.30(a)–(c) and the suite's v36.12-1(c) print). The Fermi–Walker benchmark started at $B(u(0))$, second order; the first variation with transported curvature, matching $(W-I)/r$ linearly where the bare integral does not; $\mathcal W = P_1H_0P_2^\dagger$ covariant under independent endpoint frame changes; $j^{-1}e^{i\chi}gj = e^{-i\chi}\rho(g)$, so the spin identity is not a charge-preserving twist; the trine's $\tfrac23$; fibers to fibers only for $b$ in the normalizer of the Hopf $U(1)$; the apsidal residence time as $\sqrt\delta$ and the exponential image's attenuation diverging at the equator. [T/V/O]
+- **R403** (§XXXIV.38). Entry 366 and the response to it, as the author sent them; what v36.13 does with them. [record]
+- **R404** (§XXXIV.39). Entry 366's $\tfrac49$: the two-hop product $a_{+,n}a_{-,n} = 1+\sqrt2\cos\theta_n+\tfrac12\cos2\theta_n$ is the response's square $d_n^2$, the doubled angle inside the cosine of the mass; the half-turn about the body diagonal attains the real-frame bound with spinor half-angle $\pi/2$, and $\arccos\tfrac23$ is not $\tfrac29$; the cap volume $2\pi\ell^3(\chi-\tfrac12\sin2\chi)$; the point source's $\csc\chi+2\sin\chi$ has no linear angle term, while a single pole's Green function carries $\pi-\chi$ for the Laplacian and for $\Delta+3$ alike and PG's even source needs none; a flat connection's contractible holonomy is the identity; the conjecture $\Phi = p$ recorded as the response's. [T/V/D/S/O]
+- **R405** (§XXXIV.40; §XXXIII.13; the head table; pointers in Part XXXIII's opening, Part XXXIV's opening and §XXXIV.33; the toy). The standing of Part XXXIV after v36.13 and its next pieces, in the review's and the report's order. The suite `pg_v36_numerics.py` at v36.13 has three new sections and checks, $63$ in all; the helpers `_v36_13_sv0`, `_v36_13_quartic`, `_v36_13_end`, `_v36_13_onescale`, `_v36_13_curv` and `_v36_13_rb`; `_v36_12_fw` taking an initial frame; the mode `v36_13`, one to two minutes; `quick`, now $47$ checks. The toy `v32_toy_three_ends.py` gains `v36_13`, its `all` counting $250$. No new figure. The SHA-256 of the suite is in §XXXIII.13. [S/O; reproducibility]
+
+## Round record: the version summaries, v16 to v36.13 (moved from the head of the archive in v34.9, R190)
+
+*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v36.13, v36.12, v36.11, v36.10, v36.9, v36.8, v36.7, v36.6, v36.5, v36.4, v36.3, v36.2, v36.1, v36.0, v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+
+> **v36.13 — the review of v36.12, the referee report on v36.12 and Entries 365 and 366 with their responses (23 October 2026): the direct-mass branches corrected, the transport repairs, the fibration's stabilizer, Entry 366's $\tfrac49$, in Part XXXIV. Parts XXX–XXXII frozen at v35.8.**
+>
+> *What was asked.* The review of v36.12 retains the round — "I would retain v36.12." — having run the suite's new mode ($2$ of $2$, the SHA-256 matched); it asks which $SO(4)$ elements preserve the Hopf fibration that defines the middle space, as distinct from fixing a galaxy's center, and sets four priorities for the two-branch galaxy proposal (classify, build one smooth two-branch history, supply an optical selection rule, apply Law I once). The referee report retains the version "with one substantive correction required": the eV direct-mass intervals of v36.11 "are not global bounds for the mass matrices as written" — a second sign branch fits all three charged-lepton masses near $1.03$ MeV, with a 10 TeV heavy partner among its solutions — and it supplies the algebraic route to every branch; it also asks for the Cartan construction's bundle data (the initial sewing datum, the transported curvature in the thin-loop formula, the benchmark's initial frame, the charged extension) and gives a six-part continuation brief. Entry 365 proposes a coupled rule for matter and photons along the Hopf fibers, with the visibility's fading, the observer's invariance and the middle-space metric as joint constraints; its response separates what follows (the apsidal residence time; the attenuation an exponential image needs) from what must be supplied. Entry 366, sent while the referees read, asks whether the $\tfrac49$ outside a cosine (the real-frame bound) and inside one (the doubled lepton angle) have one source, as an angle on both sides of a sine does; its response formulates the experiment and names the missing step, a transport whose angle equals the real-frame probability.
+>
+> **What v36.13 does (R400–R405; §§XXXIV.35–41).**
+> - *The correction.* The report's counterexamples are reproduced to $10^{-12}$; the quartic in $t = \Lambda/(\mu_A\mu_B)$ enumerates every solution at fixed $m_0$; on a grid of $12001$ direct masses two sign patterns appear and no other — v36.11's $(-,-,-)$ for $-8.4457<m_0<+113.612$ eV and $(-,+,-)$ for $1.028484<m_0<1.081583$ MeV, the ends where the quartic's root meets a pole — and, with the direct mass the smaller diagonal entry, each one-scale construction has two isolated exact fits, one near $1.03$ MeV, their mirrors under the blocks' symmetries excluded by that convention. §XXXIV.22(c)–(d), §XXXIV.27's bullet and model-ledger row, R388, the head table, the repetitions that rounded or worded the interval in §§XXXIV.13–20, the reader's note and this record's v36.10 and v36.11 paragraphs, the manuscript and the suite's v36.10-3 and v36.11-1 prints are corrected in place — tagged in the archive, marked in the manuscript, referenced to v36.13-1 in the prints, their check labels and the docstring — the eV intervals now branch-conditional. The zero-block theorem is untouched.
+> - *The transport repairs.* The Fermi–Walker benchmark started at $B(u(0))$ converges at second order and §XXXIV.30(c)'s residuals fall to below $10^{-7}$, $10^{-7}$, $10^{-6}$; the thin-loop first variation is written with the curvature transported to one fiber, the bare integral failing; $\mathcal W = P_1H_0P_2^\dagger$ with the initial four-velocity as a datum is covariant under independent endpoint frame changes; $j^{-1}e^{i\chi}gj = e^{-i\chi}\rho(g)$, so §XXXIV.30(b)'s "one connection suffices" is restricted to the spin construction and the charged twist is open; the trine identifies its state with probability $\tfrac23$.
+> - *The fibration and Entry 365.* $q\mapsto aqb^{-1}$ preserves the Hopf fibration only for $b$ in the normalizer of its $U(1)$ — a condition distinct from fixing the center. On §XXVII.7's orbit the time within $\delta$ of the apocenter grows as $\sqrt\delta$, and an exponential gnomonic image needs $\ln T = -(\ell/h)\tan\chi-3\ln\cos\chi$, diverging at the equator. Entry 365's coupled transport is recorded as a hypothesis with the response's paired experiment.
+> - *Entry 366.* The response's square $d_n^2 = 1+\sqrt2\cos\theta_n+\tfrac12\cos2\theta_n$ is exactly the archive's two-hop product $a_{+,n}a_{-,n}$, so the doubled angle sits inside the cosine of the mass already; the half-turn about the body diagonal attains the real-frame bound with spinor half-angle $\pi/2$, not $\tfrac29$; the cap volume $2\pi\ell^3(\chi-\tfrac12\sin2\chi)$ is the precedent, the leaf's rotation-speed formula carrying no such term (a single pole's Green function on $S^3$ does, for the Laplacian and for $\Delta+3$ alike; PG's even source needs no such compensation); a flat connection gives no holonomy on a contractible loop, so the route needs curvature the carrier's connection lacks. The conjecture $\Phi = p$ is recorded as the response's, §XXXIV.26(e)'s open law in a sharper form.
+> - *Nothing fitted.* No new parameter; no claim's status rises.
+> - *The suite.* Three new sections in `pg_v36_numerics.py`, mode `v36_13`: $63$ checks in all; the prints of three earlier sections (v36.10-3, v36.11-1, v36.12-1(c)), two check labels and the docstring reworded, the old lines quoted in the ledger.
+> - *Review.* Two independent referees read the round twice before delivery and confirmed the final files; what they caught is in the ledger (§EE; the development errors in §EC).
+>
+> **Next.** The report's order: the branches' classification and the second branch's interactions; the charged transport with $H_0$ and a coincident-limit action; one concrete chiral Lagrangian, then matching; the angle-selection target; the two-branch galaxy experiment in the review's four steps, then Entry 365's coupled transport; the compact active manuscript; the author's choice for the cap, still open from earlier rounds.
 
 > **v36.12 — the review of v36.11, and Entries 361–364 with the responses to them (23 October 2026): the limiting map from separated histories to the Cartan pair, and the quotients of the carrier, in Part XXXIV. Parts XXX–XXXII frozen at v35.8.**
 >
@@ -39335,7 +41331,7 @@ At $r = 0$ the comparison is exact and path-independent: $g_1g_1^\dagger = B(u)^
 > - *The two histories.* $j(g\xi) = \rho(g)j(\xi)$, so both of Part XX's pairings pass the Lorentz test. At rest the Cartan pair's Weyl blocks are one spin state, while the antipodal pair, taken as the fixed relation $\psi_R = j\psi_L$, is half negative-frequency, a charge-conjugation eigenstate, and admits no $U(1)$ charge. So for the electron the two readings exclude each other: its Weyl components would be the Cartan pair, whose comparison $gg^\dagger = p\cdot\bar\sigma/m$ is the four-velocity. Lorentz chirality, the leaf's left and right $SU(2)$ factors and weak isospin are kept apart.
 > - *The doubled angle.* The dual factors are one plus half the spin-$\tfrac12$ character of the doubled angle: a function on $SU(2)$, so the parent angle needs the double cover and a choice of lift, and only the identity lift puts $2/9$ on the common-sign branch. In the archive's dictionary the factor of two is already the separation of a mirror pair. The $\tfrac49$ of complementary projectors is unbiasedness, a probability, and the complementary fibers' Bargmann phases are multiples of $2\pi/3$. Numerically the hypothesis is $\theta = 2/9$: a selection-law conjecture.
 > - *The two-scale theorem.* With the exact angles and the dual factors, $m_\tau<1776.965825$ MeV on every positive branch (the report's proof, checked), the fold at $\varepsilon_R/\varepsilon_L = 2.0094647320$, and the algebraic inverse's second root rejected. Parity proper excludes the dual factors; equal Yukawa strengths with $A_-$ on the left hop give $m_\tau = 1776.965807$ MeV ($+0.40\sigma$) at $v_R = 10$ TeV — a postulate, not a derivation.
-> - *The Z-linked statistics.* With the muon's and the Z's errors propagated the strict model's electron pulls are $-87.0$ and $+722.5$, not thousands; the three hypotheses are kept apart in the report's wording; with one hop scale the direct-mass interval is signed; with two the same hop's is unchanged, and the $\tau$ bounds the dual factors' on both sides.
+> - *The Z-linked statistics.* With the muon's and the Z's errors propagated the strict model's electron pulls are $-87.0$ and $+722.5$, not thousands; the three hypotheses are kept apart in the report's wording; with one hop scale the direct-mass interval is signed; with two the same hop's is unchanged, and the $\tau$ bounds the dual factors' on both sides *[v36.13, R401: the one-scale bound and the two-scale interval hold for $\lvert m_0\rvert<\Lambda$, the direct mass the smaller diagonal entry, on the branch connected to the zero-block solution; a second branch near $1.03$ MeV fits all three masses, §XXXIV.36]*.
 > - *Transport.* The carrier's complete connection is flat; the lines' connection is a stipulated direct sum, a different action, which agrees with the carrier's in the adiabatic regime; a $\tau$-to-muon probability from the co-rotating Dirac evolution lies within a few percent of the two-level formula.
 > - *The report on v36.8.* Deletion keeps equal survival, not distinguishability; the ring's derivative is a discrete momentum operator; the trace form's coefficient is Koide's postulate; the fit is an unweighted projection; the hop product is a rephasing invariant; the trimaximal column's atmospheric and CP condition is untested; constant and varying operators are told apart; the shell's circular lines are a CR structure. In Part XXXIII the localization thresholds are numerical, coherent reception needs the two transports' amplitudes, the mirror solution's second variation is certified on the grid, up to the residual's bound, for the three cone penalties — second variation only — and "no metastable state" is the one-wall family's.
 > - *In place.* The claims the two reports found overstated — in the head table, the reader's note, §§XXXIII.57–61, XXXIII.63–66, XXXIV.1–6, XXXIV.8, XXXIV.13–19 and this record — each tagged, with the superseded wording quoted in the ledger; pointers in Part XXXIII's opening, Part XXXIV's opening and §§XXXIII.65 and XXXIV.18; a model ledger in §XXXIV.27 and in the manuscript.
@@ -39351,7 +41347,7 @@ At $r = 0$ the comparison is exact and path-independent: $g_1g_1^\dagger = B(u)^
 > **What v36.10 does (R380–R385; §§XXXIV.13–19).**
 > - *The exact angles.* Any first-order correction fixed by the electron and the muon predicts the $\tau$ through its pattern's $R$, and the measured $\tau$ asks for $R = 2.15\pm5.15$. The same hop twice ($R = 15.89$) gives $m_\tau = 1776.6899$ MeV ($-2.67\sigma$). The dual factors ($R = 3.33$, corrections linear in the amplitude) give $1776.9093$ MeV ($-0.23\sigma$), their angle offsets matching the measured ones (the same $\tau$ test). These are the response's numbers, on the pole-mass premise, with the zero block at the eV level, and with the construction chosen after the fact.
 > - *The mixing scale.* v36.9's $\mu$ was the two-sigma lower bound, $92.5$ GeV ($120.5$ GeV at one sigma); with the exact angles it is $81.93$ or $147.09$ GeV. Part XXIV's $\mu_H$ lies $0.52\sigma$ from $M_Z$ with PDG 2026's inputs and the on-shell angle, $0.94\sigma$ from the Z pole, and $1.92\sigma$ with the effective angle. Imposing $\mu = M_Z$ with one hop scale gives the $\tau$ $2.07\sigma$ or $1.27\sigma$ low and misses the electron by $-0.97$ or $+8.05$ eV, which a direct mass of that size would restore — with the strict zero block, excluded within this pole-mass realization ($-87.0\sigma$ and $+722.5\sigma$ with the muon's and the Z's errors propagated), an enlarged realization not excluded by this comparison *[v36.11, R388]*. In the chiral version $\mu_L = M_Z$ gives the $\tau$ $1.24\sigma$ low, one choice among several.
-> - *The chiral two-hop seesaw.* With a bare right hop the zero block is a choice of basis; a charged vev for the right hop, or $SU(2)_R$, protects it up to dimension five, and, with one hop scale, the exact angles bound a flavor-blind direct mass from below, $m_0>-5.05$ eV, the $\tau$ setting the upper end, short of the eV level the $\tau$'s test needs; with two hop scales the same hop keeps that bound, and the $\tau$ bounds the dual factors' on both sides *[v36.11, R388]*. With two hop scales the same hop's $\tau$ is unchanged, and the dual factors' becomes $m_\tau<1776.9658$ MeV on every positive branch (§XXXIV.23) *[v36.11, R389]* — met, the measured $\tau$ fixing the ratio of the scales.
+> - *The chiral two-hop seesaw.* With a bare right hop the zero block is a choice of basis; a charged vev for the right hop, or $SU(2)_R$, protects it up to dimension five, and, with one hop scale, the exact angles bound a flavor-blind direct mass from below, $m_0>-5.05$ eV, the $\tau$ setting the upper end, short of the eV level the $\tau$'s test needs; with two hop scales the same hop keeps that bound, and the $\tau$ bounds the dual factors' on both sides *[v36.11, R388]* *[v36.13, R401: the one-scale bound and the two-scale interval hold for $\lvert m_0\rvert<\Lambda$, the direct mass the smaller diagonal entry, on the branch connected to the zero-block solution; a second branch near $1.03$ MeV fits all three masses, §XXXIV.36]*. With two hop scales the same hop's $\tau$ is unchanged, and the dual factors' becomes $m_\tau<1776.9658$ MeV on every positive branch (§XXXIV.23) *[v36.11, R389]* — met, the measured $\tau$ fixing the ratio of the scales.
 > - *A moving frame.* The connection's off-diagonal part changes flavor only for a field on the carrier itself, with probability at most $3\times10^{-69}$ for an illustrative turn of one radian per kiloparsec at $10$ GeV. With the archive's typing — a stipulated connection, a different action from the carrier's *[v36.11, R390]* — nothing changes flavor, and the holonomy is §XXI.4c's.
 > - *In place.* Pointers in Part XXXIII's opening, Part XXXIV's opening and §XXXIV.11; the head table's flavor heading; Part XXXIV's row on the next pieces reworded (R385); in the manuscript, the fit's value added beside the hard-limit bound in §13.
 > - *The suite.* Four new sections in `pg_v36_numerics.py`, mode `v36_10`: $50$ checks in all.
