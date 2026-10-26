@@ -1,8 +1,8 @@
-# Projective Gravity — Version 36.13 (draft): the observed rotation curve and flavor
+# Projective Gravity — Version 36.15 (draft): the observed rotation curve and flavor
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases — with branches on charge and extremality, and on rendering and canonical optics
 
-**Claim status of Parts XXXIII–XXXIV (v36.13).** This table governs the open work: Part XXXIII, the observed rotation curve, and Part XXXIV, flavor, opened in v36.8. Parts XXX–XXXII are frozen at v35.8, and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the two frozen tables that follow, unchanged except for marked post-freeze notes; v36.0 added such notes and pointers in §§XXXI.37, XXXI.38, XXXI.41, XXXII.5 and XXXII.7 and in four rows (R313); v36.1–v36.13 add none (v36.4's one rendering repair in §XXX.11, R355, excepted). v36.1 was the corrective round on the two reports on v36.0 (§XXXIII.14), §XXXIII.24 listing each v36.0 claim against its status; v36.2 answers Entries 323–324 and the two responses on them (§XXXIII.27), with the rows marked R332–R337 added, the row on Entry 322's family reworded (R332; its v36.1 text quoted under R337) and the row on the next pieces extended (R337); v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§XXXIII.34), with the rows marked R339–R348 added, the occupancy row reworded for the review's two distinctions (R347; its v36.2 text quoted there) and the row on the next pieces extended (R348); v36.4 answers the review of v36.3 and Entries 340–341 with the response (§XXXIII.44), with the rows marked R349–R354 added, the isothermal row extended for the erratum and the two ensembles (R350; its v36.3 text quoted there) and the row on the next pieces extended (R353); v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§XXXIII.51), with the rows marked R356–R358 added, the occupancy and regular-family rows corrected for the kinematics erratum (R357; their v36.4 text quoted in the ledger), the isothermal and clash rows extended (R358) and the row on the next pieces extended (R359); v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§XXXIII.56), with the rows marked R360–R363 added and the row on the next pieces extended (R364); v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§XXXIII.61), with the rows marked R365–R368 added and the row on the next pieces reworded and extended (R369); v36.8 answers Entries 351–353 and the three responses by opening Part XXXIV (§XXXIV.1), with the flavor heading, the rows marked R370–R373 and a row on Part XXXIV's next pieces added, and Part XXXIII's rows on the flavor note and on the next pieces amended, the rest of flavor leaving its backlog while the categories of mass and Entry 319's audit stay there (R374; their v36.7 text quoted in the ledger); v36.9 answers the review of v36.8 (§XXXIV.7), with the rows marked R375–R378 added and Part XXXIV's row on the next pieces reworded (R379; its v36.8 text quoted in the ledger); v36.10 answers Entry 354, the response to it and the review of v36.9 (§XXXIV.13), with the rows marked R380–R384 added, the flavor heading now saying when Part XXXIV was opened, and Part XXXIV's row on the next pieces reworded (R385; the v36.9 texts quoted in the ledger); v36.11 answers Entries 357 and 360, the responses to them, the review of v36.10 and the referee reports on v36.8 and v36.10 (§XXXIV.20), with the rows marked R386–R391 and R394 added under the flavor heading and R393 under Part XXXIII's, the rows marked R362, R363, R368, R371–R373 and R381–R384 corrected in place where the reports found them overstated (tagged), and both rows on the next pieces reworded (R392, R393; the v36.10 texts quoted in the ledger); v36.12 answers the review of v36.11 (§XXXIV.29) and records Entries 361–364 (§XXXIV.31), with the rows marked R395–R398 added under the flavor heading and Part XXXIV's row on the next pieces reworded (R399; the v36.11 text quoted in the ledger), and corrects nothing; v36.13 answers the review of v36.12, the referee report on v36.12 and Entries 365 and 366 (§§XXXIV.35, XXXIV.38), corrects the Z-linked row in place and scopes the chiral-seesaw row's interval (the direct-mass intervals are one branch's; tagged R401, the v36.12 texts quoted in the ledger), adds the rows marked R400–R404 under the flavor heading and rewords Part XXXIV's row on the next pieces (R405; the v36.12 text quoted in the ledger). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*; a fit that fails is marked *(negative)*.
+**Claim status of Parts XXXIII–XXXIV (v36.15).** This table governs the open work: Part XXXIII, the observed rotation curve, and Part XXXIV, flavor, opened in v36.8. Parts XXX–XXXII are frozen at v35.8, and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the two frozen tables that follow, unchanged except for marked post-freeze notes; v36.0 added such notes and pointers in §§XXXI.37, XXXI.38, XXXI.41, XXXII.5 and XXXII.7 and in four rows (R313); v36.1–v36.15 add none (v36.4's one rendering repair in §XXX.11, R355, excepted). v36.1 was the corrective round on the two reports on v36.0 (§XXXIII.14), §XXXIII.24 listing each v36.0 claim against its status; v36.2 answers Entries 323–324 and the two responses on them (§XXXIII.27), with the rows marked R332–R337 added, the row on Entry 322's family reworded (R332; its v36.1 text quoted under R337) and the row on the next pieces extended (R337); v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§XXXIII.34), with the rows marked R339–R348 added, the occupancy row reworded for the review's two distinctions (R347; its v36.2 text quoted there) and the row on the next pieces extended (R348); v36.4 answers the review of v36.3 and Entries 340–341 with the response (§XXXIII.44), with the rows marked R349–R354 added, the isothermal row extended for the erratum and the two ensembles (R350; its v36.3 text quoted there) and the row on the next pieces extended (R353); v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§XXXIII.51), with the rows marked R356–R358 added, the occupancy and regular-family rows corrected for the kinematics erratum (R357; their v36.4 text quoted in the ledger), the isothermal and clash rows extended (R358) and the row on the next pieces extended (R359); v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§XXXIII.56), with the rows marked R360–R363 added and the row on the next pieces extended (R364); v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§XXXIII.61), with the rows marked R365–R368 added and the row on the next pieces reworded and extended (R369); v36.8 answers Entries 351–353 and the three responses by opening Part XXXIV (§XXXIV.1), with the flavor heading, the rows marked R370–R373 and a row on Part XXXIV's next pieces added, and Part XXXIII's rows on the flavor note and on the next pieces amended, the rest of flavor leaving its backlog while the categories of mass and Entry 319's audit stay there (R374; their v36.7 text quoted in the ledger); v36.9 answers the review of v36.8 (§XXXIV.7), with the rows marked R375–R378 added and Part XXXIV's row on the next pieces reworded (R379; its v36.8 text quoted in the ledger); v36.10 answers Entry 354, the response to it and the review of v36.9 (§XXXIV.13), with the rows marked R380–R384 added, the flavor heading now saying when Part XXXIV was opened, and Part XXXIV's row on the next pieces reworded (R385; the v36.9 texts quoted in the ledger); v36.11 answers Entries 357 and 360, the responses to them, the review of v36.10 and the referee reports on v36.8 and v36.10 (§XXXIV.20), with the rows marked R386–R391 and R394 added under the flavor heading and R393 under Part XXXIII's, the rows marked R362, R363, R368, R371–R373 and R381–R384 corrected in place where the reports found them overstated (tagged), and both rows on the next pieces reworded (R392, R393; the v36.10 texts quoted in the ledger); v36.12 answers the review of v36.11 (§XXXIV.29) and records Entries 361–364 (§XXXIV.31), with the rows marked R395–R398 added under the flavor heading and Part XXXIV's row on the next pieces reworded (R399; the v36.11 text quoted in the ledger), and corrects nothing; v36.13 answers the review of v36.12, the referee report on v36.12 and Entries 365 and 366 (§§XXXIV.35, XXXIV.38), corrects the Z-linked row in place and scopes the chiral-seesaw row's interval (the direct-mass intervals are one branch's; tagged R401, the v36.12 texts quoted in the ledger), adds the rows marked R400–R404 under the flavor heading and rewords Part XXXIV's row on the next pieces (R405; the v36.12 text quoted in the ledger); v36.14 answers the review of v36.13 (§XXXIV.42), adds the rows marked R406–R408 under the flavor heading, rewords Part XXXIV's row on the next pieces (R409; the v36.13 text quoted in the ledger) and corrects nothing; v36.15 answers Entries 367–368 and the three responses to them (§XXXIV.47), adds the rows marked R410–R412 under the flavor heading, rewords Part XXXIV's row on the next pieces (R413; the v36.14 text quoted in the ledger) and corrects nothing. Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*; a fit that fails is marked *(negative)*.
 
 | claim | type | evidence | archive |
 |:--|:--|:--|:--|
@@ -82,7 +82,13 @@
 | Transport repairs and the fibration (the report's section 5, the review's section 4, Entry 365). The Fermi–Walker benchmark started at $B(u(0))$ converges at second order (the identity start, first); the thin-loop first variation is $r\int P(1,s)F(Y,\dot\Gamma)P(s,1)\,ds$ with the curvature transported, the bare integral failing; $\mathcal W = P_1H_0P_2^\dagger$ with the initial four-velocity as a datum transforms as $h_1\mathcal Wh_2^\dagger$ under independent endpoint frame changes; $j^{-1}e^{i\chi}gj = e^{-i\chi}\rho(g)$, so the spin identity is not a charge-preserving twist and the charged extension is open; the trine's equal-prior success probability is $\tfrac23$; $q\mapsto aqb^{-1}$ preserves the Hopf fibration only for $b$ in the normalizer of its $U(1)$, a condition distinct from fixing the center; near an apsis the residence time grows as $\sqrt\delta$, and an exponential gnomonic image needs an attenuation diverging at the equator (R402) | analytic theorem; numerical control; open bridge | — | §XXXIV.37; §§XXXIV.30, XXXIV.32, XXVII.7 |
 | Entry 366 and the response to it, as the author sent them (23 October, 6:46 PM): the $\tfrac49$ outside a cosine and inside one as two readouts of one geometric operation; the response's experiment and its missing step (R403) | record | — | §XXXIV.38 |
 | Entry 366's $\tfrac49$. The response's square $d_n^2 = 1+\sqrt2\cos\theta_n+\tfrac12\cos2\theta_n$ is exactly the two-hop product $a_{+,n}a_{-,n}$, the doubled angle inside the cosine of the mass; the half-turn about the body diagonal attains the real-frame bound with spinor half-angle $\pi/2$, and $\arccos\tfrac23 = 0.84107$ is not $\tfrac29$; the cap volume $2\pi\ell^3(\chi-\tfrac12\sin2\chi)$ is the precedent — the point source's $\csc\chi+2\sin\chi$ has no linear angle term, while a single pole's Green function carries $\pi-\chi$ for the Laplacian and for $\Delta+3$ alike and PG's even source needs none; a flat connection's contractible holonomy is the identity, so the route needs curvature the carrier's connection lacks; a phase of $\tfrac49$ under the spin-$\tfrac12$ normalization needs $\tfrac89$ sr. The conjecture $\Phi = p$ is recorded as the response's (R404) | analytic theorem; numerical control; dictionary; open bridge | — | §XXXIV.39; §§XXXIV.2, XXXIV.26, XXV.2 |
-| The next pieces of Part XXXIV, in the order the review of v36.12 and the referee report on v36.12 give them: a continuum classification of the direct-mass branches, or a theorem on a declared component, and the second branch's interactions at a benchmark; the charged transport — the history pair as a two-point bundle object with $H_0$, the electromagnetic phase with the two Weyl components' common charge, a coincident-limit action with its gauge connections and mass coupling; one concrete chiral Lagrangian whose geometry or symmetry fixes the hop operators and their strength ratio without the $\tau$ — one gauge construction with its representations, couplings and potential, the operators through dimension five, the mixings and the electroweak checks at a benchmark — then the radiative matching to pole masses with a stated uncertainty; the angle-selection target as a specified connection with its lift, the Bargmann obstruction kept as a control, and Entry 366's conjecture as the response's three calculations; the two-branch galaxy experiment — the $SO(4)$ elements classified against a center and a fibration, one smooth two-branch history on §XXVII.7's orbit, a nontrivial optical selection rule, Law I applied once — then Entry 365's coupled matter–photon transport with the metric and Law I fixed, and only after a working forward map the elliptical interpolation; the two-history ontology's remaining items — the physical origin of the Cartan twist, §XX.12's family, the neutral leptons' conjugate pairing, weak isospin and the galaxies' labels; §XXXIV.27's remaining items — the selection theorem and the trigonal frame's source, the carrier's and the lines' actions with the chiral rotations, neutrino mixing once the field content is fixed, the stitching target $B\cong{\rm Fix}(\tau)$; the quarks' "heterogeneous" form and the "lepton-coordinates radius" not attempted; the compact active manuscript the report asks for, the author's to shape (R374; R379; R385; R392; R394; R399; R405) | open bridge | — | §§XXXIV.5, XXXIV.11, XXXIV.18, XXXIV.26, XXXIV.27, XXXIV.33, XXXIV.40 |
+| The review of v36.13, as the author sent it (24 October): its verification of the suite (`v36_13`, $3$ of $3$, the SHA-256 matched), its recomputation of the counterexample, its stabilizer hierarchy, its call for physical discrimination between the branches and its two recommended constructions (R406) | record | — | §XXXIV.42 |
+| The two direct-mass branches against data (the review's section 2). The review's twelve-digit masses reproduced; the one-scale zero-block dual factors' $m_\tau = 1776.9093$ MeV ($-0.23\sigma$), a conditional prediction. §XXXIV.16(a)'s protecting symmetry leaves the dimension-five term $m_0 = C_5v_Lv_R/(2M)$, so each branch is a window of the cutoff: for $C_5 = +1$ and $v_R = 10$ TeV, $1.1382\times10^9<M<1.1970\times10^9$ GeV for the second, $M>1.0836\times10^{13}$ GeV for the first. Under §XXXIV.16(a)'s assignment only the left mixing moves the Standard-Model couplings at tree level: below $5.1\times10^{-4}$ on the first branch with the partner above $24.30$ TeV; on the second it approaches $0.20$, with the partner down to $53.04$ GeV and below the L3 limit of $100.8$ GeV on a sequential heavy lepton for $1.032732<m_0<1.077868$ MeV. Against the PDG's $Z$-pole couplings this leaves, for orientation, the first branch and a neighborhood of the second's lower end — with the universality ratio's two-sigma edge as a scale, $m_0<1.028735$ MeV, the branch's first $0.5\%$ (R407) | numerical control; specified physical premise; open bridge | PDG ($Z$ couplings; heavy-lepton limit) | §XXXIV.43; §§XXXIV.16, XXXIV.36 |
+| The stabilizers of the Hopf structure and the charged comparison (the review's sections 3–4). Dimensions $6$, $4$, $3$, $2$, $1$ for $SO(4)$, the fibration, the center, the fibration with the center's fiber, and the fibration with the center (the review's $SO(2)$), with its $O(2)$ component; the fibration's stabilizer acts on the middle space as $O(3)$, the right $U(1)$ invisibly and $jU(1)$ as the antipode. $j^{-1}(e^{-i\chi}g)j = e^{i\chi}\rho(g)$: the comparison of charged transports is gauge-invariant exactly when the second history carries the opposite charge, its phase the loop's flux — the two-component form of a Dirac fermion; why a history would carry the conjugate charge is open (R408) | analytic theorem; numerical control; definition; open bridge | — | §XXXIV.44; §XX.8b; §§XXXIV.25, XXXIV.30, XXXIV.37 |
+| Entries 367–368 and the three responses to them, as the author sent them (24 October): a disk galaxy's ring as a Hopf-lifted circle, the space between the arms as a failure of exactness, and the middle space's metric lifted to a family of canonical metrics (R410) | record | — | §XXXIV.47 |
+| The Hopf-lifted ring (Entry 367 and its two responses). The responses' geometry checked: the equator's horizontal great circle reaches its antipode after one revolution; a torus line is a great circle exactly when $\omega_1^2 = \omega_2^2$ and meets the antipode of its start exactly for odd ratios. A ring of angular radius $\rho$ has holonomy $e^{i\pi(1-\cos\rho)}$, so the horizontal lift reaches the antipode after one revolution only over simple area-bisecting loops; on a round shell the geodesic lift of every ring does (for the source shells, R412), its image radius the angle to the fiber, the closure phase $\pi = \pi(1-\cos\rho)+\pi\cos\rho$. Fiber modes average away; the phase-matching toy's two arms are put in; the closure phase is the gauge-invariant quantity. Two right fibrations at angle $\beta$: $\beta$ the pair's only invariant, the correspondence through the unit imaginary quaternions canonical up to the antipode, a source point seen as a ring of radius $\beta$, a geodesic of the round shell as a ring about one center for every receiver, a source ring as the band $\lvert r_0-\beta\rvert\le d\le r_0+\beta$ with inverse-square-root edges (for $r_0\neq\beta$, $r_0+\beta<\pi$); the orbit plane's exactness, §XXVII.7's pattern-speed minimum, recomputed (R411) | analytic theorem; numerical control; definition; open bridge | — | §XXXIV.48; §§XXVII.7–XXVII.9, XXXIV.44 |
+| The metric lift (Entry 368 and its response). The response's connection metric is §XXIV.18's shell metric, round exactly when $R_H = 2R$, Chern number $1$; Law I locks the fiber length, and the connection's two local components are open. Its geodesics, in §XXVII.2's closed form, project to the same rings for every member; after one revolution the geodesic is displaced along the fiber by $\Delta\psi = \pi+\pi(4R^2/f^2-1)\cos\rho$, the antipode for every ring only in the round member; on §XXIV.23's source shells, under its conformal lift $R_H/R = 1/\sin x$, by $\pi+\pi(4\sin^2x-1)\cos\rho$ — the antipode for every ring only on the round shells $x = \pi/6$ and its twin, and on every shell for a source-centered disk's own rings. Null geodesics with fiber momentum project to timelike curves (R412) | analytic theorem; numerical control; specified physical premise (§XXIV.23's conformal lift, for the source shells); open bridge | — | §XXXIV.49; §§III.2–III.3, XXIV.18, XXIV.23, XXVII.2 |
+| The next pieces of Part XXXIV, in the order the review of v36.13 gives them, its strongest recommendation first, with §XXXIV.40's six items merged in and Entries 367–368's added to the second: the charged two-history action — the second history as the conjugate-charge field, the history pair as a two-point bundle object with $H_0$ and the bilocal connector at finite separation, a local coincident-limit action with one electromagnetic connection, its gauge connections and the Dirac mass coupling, independent endpoint frame changes tested; the two-branch galactic optical experiment — the matter source fixed, one smooth two-branch history on §XXVII.7's orbit with position and velocity continuity in the projected sense, the simplest nontrivial optical transport that distinguishes its two halves (an optical selection rule, not a Hopf sign declared observable), the observer's Hopf frame varied within the stabilizers, with continuity, apparent angular momentum, photon conservation and the gravity-base source tested, Law I applied once to the complete source, with the even and odd moments of its readout, Entry 365's coupled matter–photon transport with the existing metric and Law I held fixed, and only after a working forward map the elliptical interpolation and its kinematics, with Entries 367–368's additions — the connection-metric lift under PG's own locking (a global member, the connection's two open components, a readout of the displacement along the fiber), the two-endpoint transport with the source's and the receiver's fibrations (whether the receiver's axis is physical; the band law carried from the middle space to the observer's sky), and the arms' radial phase derived from the canonical connection or the leaf's orbits rather than put in, §XXVII.7's kinematic route the control; the mass sector's selection — one concrete chiral Lagrangian whose geometry or symmetry fixes the hop operators and their strength ratio without the $\tau$, one gauge construction with its representations, couplings and potential, the hops as Yukawa terms, the operators through dimension five, a completion fixing $C_5v_R/M$ or excluding a flavor-blind dimension-five source, the couplings in the $SU(2)_R$ variant and the electroweak fit with its correlations, the radiative matching to pole masses with a stated uncertainty — a prediction not used to choose the construction — and the continuum classification of the direct-mass branches or a theorem on a declared component; the angle-selection target as a specified configuration space and connection with its normalization, loop and lift, the phase for all admissible classes, the Bargmann obstruction kept as a control, and Entry 366's conjecture as the response's three calculations, a separate target until a connection and loop are specified; consolidation — the compact active manuscript, the author's to shape, and the localization track's controls; then, carried from §XXXIV.33, the two-history ontology's remaining items — the physical origin of the Cartan twist, §XX.12's family, the neutral leptons' conjugate pairing, weak isospin and the galaxies' labels — and §XXXIV.27's — the selection theorem and the trigonal frame's source, the carrier's and the lines' actions with the chiral rotations, neutrino mixing once the field content is fixed, the stitching target $B\cong{\rm Fix}(\tau)$ — and, from Entries 361–364, a canonical shell operation inducing a complementary-basis reduction on the carrier; the quarks' "heterogeneous" form and the "lepton-coordinates radius" not attempted (R374; R379; R385; R392; R394; R399; R405; R409; R413) | open bridge | — | §§XXXIV.5, XXXIV.11, XXXIV.18, XXXIV.26, XXXIV.27, XXXIV.33, XXXIV.40, XXXIV.45, XXXIV.50 |
 
 **Claim status of Parts XXX–XXXII at the v35 freeze (v35.8).** This table governs Parts XXX–XXXII, frozen at v35.8 (15 October 2026) with their suite `pg_v35_numerics.py`, unchanged except for marked post-freeze notes (v36.0, R307, R313) and one marked rendering repair in §XXX.11 (v36.4, R355): Part XXX (the hyper-canonical completion and the charged-lepton cycle), Part XXXI (the visible rendering of the leaf) and Part XXXII (reflectrons: Feynman diagrams as the joint residue of paired histories). Their frozen-results record is the v35.8 current manuscript, `projective_gravity_v35_8_current_manuscript.md`. Parts 0–XXIX are frozen — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10 — and their claim status is the frozen table that follows this one, unchanged except for marked post-freeze notes. Post-freeze notes correct them without rewriting them: two erratum notes in §§XXI.4–4a (R211), clarification notes in §§XXIX.40(e), XXIX.41(d), XXIX.42(g) and XXIX.43(b) (R212–R216, §XXX.12), two pointer notes in §§XXIX.18 and XXIX.42(f) (R238, Part XXXI; the first corrected in v35.3, R243, and in v35.4, R254), and two pointer notes of v35.6, in §§XIII.10 and XXIX.42(c) (R277, R276; the first scoped in v35.7, R288). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*. Rows changed or added since v35.1 carry their register number. Three rows — the cap, the refocusing and the darkness of the sky — are marked as **central limiting conditions**: every proposal for the visible sky must say how it meets them (R255, R267).
 
@@ -210,7 +216,7 @@
 | Observational fits | none | no supernova likelihood, no count comparison with a selected sample, no rotation-curve fit (post-freeze note, v35.1, R216: the current predictive model; Part XII's exploratory fits, §XII.3, belong to its detached wing) (post-freeze note, v36.0, R313: rotation curves are compared with data in Part XXXIII — the Milky Way from inside and a SPARC pilot — and are not reproduced by the theory as specified) | §XXIX.39(f) |
 | The photon wave operator and its mode projection; a $q = 0$ reader; a frequency bridge with time dilation and a derived echo law; a pair-selection law; a detector law for the image map, with one forward image of a fixed galaxy; a derived spectral transport, even and odd | open bridge | — | §§XXIX.39(b), 41, 42, 43(f) |
 
-> **How to read this archive (v36.13).** Three tables govern: the table of Parts XXXIII–XXXIV, for the open work; the frozen v35.8 table that follows it, for Parts XXX–XXXII; and the frozen v34.10 table after that, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX; §XXX.9, frozen with Parts XXX–XXXII; and §XXXIII.12) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place. v36.0 freezes Parts XXX–XXXII at v35.8 with `pg_v35_numerics.py`, whose frozen-results record is the v35.8 current manuscript, and opens Part XXXIII, the observed rotation curve, after Part XXXII, with its own register (§XXXIII.12) and suite (§XXXIII.13, `pg_v36_numerics.py`). Its corrections to frozen Parts are post-freeze notes (R313). v36.1 is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§§XXXIII.14–26, R318–R331): it corrects v36.0's operative statements in place, with the superseded wording in §XXXIII.26, and adds no post-freeze note. v36.2 answers Entries 323–324 and the two responses on them (§§XXXIII.27–33, R332–R338): orbital occupancy on the leaf, the exponential as a rendering, the conformal route, the frame-selection hypothesis; it corrects two v36.1 sentences in place (R332) and adds no post-freeze note. v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§§XXXIII.34–43, R339–R348): two source families regular at the equator, their orbital populations and the dwarfs with them, the isothermal fixed points, the null cone, the split model, the $\mathfrak{so}(4)$ sectors; it applies the review's two distinctions in place (R347) and adds no post-freeze note. v36.4 answers the review of v36.3 and Entries 340–341 with the response (§§XXXIII.44–50, R349–R354): the fixed-point erratum and stability in two ensembles, the radial–normal duality and the CMB dipole, the first test of the clash invariant, and Entries 342–345 recorded for v36.5; it corrects §XXXIII.38 and §XXXIII.42 in place (R350) and adds no post-freeze content note — one marked rendering repair in frozen §XXX.11 (R355: a doubled brace in a subscript, which the author's site's templating engine read as a tag; the mathematics unchanged). v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§§XXXIII.51–55, R356–R359): the orbit library's kinematics erratum — the velocity moments integrated along the orbit, the mis-certified witnesses re-evaluated, the joint crossing–dispersion frontier, every library bound rescoped as a compatibility witness — with §§XXXIII.28, 29(b), 32, 36, 37, 42 and two register entries corrected in place (R357); the clash invariant's nullspace and the sum's fall-off, the high-sector bound, §§XXXIII.45, 47, 50 annotated (R358); no post-freeze note. v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§§XXXIII.56–60, R360–R364): one localization model, from the admissibility scalar to the spectrum — one action for the two sectors, a probe in the induced potential and the exterior theorem for its tail — which localizes and derives neither the thin–broad disk nor the sine-exponential; and the note's question in a reduction of the smallest two-path, one-qubit model; nothing earlier is corrected and no post-freeze note is added. v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§§XXXIII.61–66, R365–R369): the penalties of the admissibility geometry compared on the full two-sector configuration — the review's cone at the aligned vacuum confirmed, Entry 349's sine blind to the normal in the responses' reading, the response's and the review's smooth forms zero exactly on the family; v36.6's localization model with each, an exchange-even penalty smooth at the aligned vacuum confining the pinned tilt to a patch, the lowest-order smooth forms with their pinning losing the mode at v36.6's coupling (a smooth form with v36.6's gap binds two), the exterior obstruction holding for every gapped penalty; and off its ansatz the mirror solution's second variation with no eigenvalue below $-10^{-6}$ (certified on the grid up to the residual's bound for the cone penalties; second variation only), the sine's second zero leaving no metastable state in the one-wall family examined *[v36.11, R393]*; nothing earlier is corrected and no post-freeze note is added. v36.8 answers Entries 351–353 and the three responses by opening Part XXXIV, flavor, after Part XXXIII (§§XXXIV.1–6, R370–R374), as §XXXIII.9 planned, with Part XXXIII's suite: on the reading of the two families as orthonormal bases of one complex carrier, Entry 352's rule for a complement of the Cartesian fibers is mutual unbiasedness, which needs the complex structure and, with the archive's flavor lines, makes the selected axis the fibers' body diagonal, the frame's shift and clock then the archive's clock and conveyor and the Cartesian triad §XXX.13's trigonal frame, as a datum; the archive's mass operator read on the fibers is a ring with a flux, the mean mass on every fiber, the $e$–$\mu$ distinction the part odd under complex conjugation in the real frame, and Koide's relation a light cone on $\sqrt M$, the form's coefficient Koide's postulate; the bare Dirac toy's mass term can be the internal part of a parent operator, whose square gives the invariant difference $p^2-\mathcal M^2$ for a constant $\mathcal M$ *[v36.11, R387]*, the interchange holding in a flat parent and broken by any discrete internal spectrum. Part XXXIII's rows on the flavor note and on the next pieces are amended, the rest of flavor leaving its backlog (R374); nothing earlier is corrected and no post-freeze note is added. v36.9 answers the review of v36.8 with six sections of Part XXXIV (§§XXXIV.7–12, R375–R379), three of them (§§XXXIV.8–10) one for each part of the review's decisive test. *Frame consistency:* three distinct masses need an abelian residual symmetry — among the rotations the oriented triad's $\mathbb Z_3$, with the complement as its lines — and the mass operator itself keeps $SO(2)_{N_+}$; on $S_D\otimes G_{\rm gen}$, by the descent's typing (a definition), the mass operator commutes with every Lorentz transformation, the physical rotations acting on $S_D$ and those of the carrier internal; a coupling of the carrier to the spin is bounded by the electron's preferred-frame limits, $\lambda\leq3.46\times10^{-22}$ eV at one standard deviation for the Galactic normal ($(1.6\pm2.9)\times10^{-22}$ eV from a fit), and so excluded near the flavor scale. *Spectral selection:* no residual symmetry selects; Koide's ratio is fixed by the overlap of the two dual references, and $K = \tfrac23$ is their bases being mutually unbiased — Entry 352's rule on a qubit — a premise equivalent to Koide's relation, a dictionary rather than a derivation. *Mass generation:* a parity-symmetric pair with a heavy flavor-blind partner gives the square from two internal hops, Koide's masses at leading order, its corrections lowering $K$; on the premise that the relation holds for pole masses, the measured $K$ bounds the partner's mass from below. A tagged sentence is added in §XXXIV.3(d) (R377) and Part XXXIV's row on the next pieces is reworded (R379); nothing earlier is corrected and no post-freeze note is added. v36.10 answers Entry 354, the response to it and the review of v36.9 with seven sections of Part XXXIV (§§XXXIV.13–19, R380–R385). *The exact angles:* with $\theta = 2/9$ and $\cos\alpha = 1/\sqrt2$ held fixed, any first-order correction fixed by the electron and the muon predicts the $\tau$ through its pattern; the same hop twice gives $m_\tau$ $2.67\sigma$ low, and the dual factors $0.23\sigma$ low, their angle offsets then matching the measured ones (the same $\tau$ test) — on the pole-mass premise and the zero block at the eV level, with the construction chosen after the fact. *The mixing scale:* v36.9's $\mu$ was a two-sigma lower bound, and imposing $\mu = M_Z$ with the exact angles and one hop scale gives the $\tau$ $2.07\sigma$ or $1.27\sigma$ low, while with the strict zero block the electron excludes it within this pole-mass realization ($-87.0\sigma$ and $+722.5\sigma$ with the muon's and the Z's errors propagated), a direct mass restoring it in an enlarged realization *[v36.11, R388]*. *The chiral two-hop seesaw:* with a bare right hop the zero block is a choice of basis, while a charged vev for the right hop, or $SU(2)_R$, protects it up to dimension five; with two hop scales the dual factors' prediction of the $\tau$ becomes an inequality, met. *A moving frame:* its connection changes flavor only for a field on the carrier itself, far below detection at the illustrative rates. Part XXXIV's row on the next pieces is reworded (R385), and the head table's flavor heading now says when the Part was opened; nothing earlier is corrected and no post-freeze note is added. v36.11 answers Entries 357 and 360, the responses to them, the review of v36.10 and the referee reports on v36.8 and v36.10 with nine sections of Part XXXIV (§§XXXIV.20–28, R386–R392 and R394) and one of Part XXXIII (§XXXIII.67, R393). *The two histories:* the quaternionic structure intertwines the two Weyl types, so both of Part XX's pairings pass the Lorentz test; at rest the Cartan pair shares one spin state, while the antipodal pair, taken as a fixed relation between the components, is the conjugate pairing, which admits no electric charge — so for the electron the two readings exclude each other, and its Weyl components would be the Cartan pair, whose comparison is the four-velocity. *The doubled angle (Entry 360):* the dual factors are one plus half the spin-$\tfrac12$ character of a doubled angle, $\tfrac49+\tfrac{4\pi n}3\pm\tfrac\pi2$, which needs the double cover and a choice of lift, and only the identity lift is Koide's; the $\tfrac49$ of complementary projectors is a probability, and the complementary fibers' geometric phases are multiples of $2\pi/3$ — a selection-law conjecture, numerically $\theta = 2/9$. *The two-scale theorem:* with the exact angles and the dual factors, $m_\tau<1776.965825$ MeV on every positive branch and $\varepsilon_R/\varepsilon_L\leq2.0094647320$; parity proper excludes the dual factors, and equal Yukawa strengths with $A_-$ on the left hop put the $\tau$ $0.40\sigma$ high, a postulate. *The Z-linked statistics:* with the muon's and the Z's errors propagated the strict model's electron pulls are $-87.0$ and $+722.5$; the strict identification is excluded within this pole-mass realization, enlarged ones are not excluded by this comparison; with one hop scale the direct-mass interval is signed, and with two the same hop's is unchanged while the $\tau$ bounds the dual factors' on both sides *[v36.13, R401: for $\lvert m_0\rvert<\Lambda$, on the branch connected to the zero-block solution; a second branch near $1.03$ MeV, §XXXIV.36]*. *Transport:* the carrier's complete connection is flat, and the lines' connection a stipulated, different action that agrees with it in the adiabatic regime. *The report on v36.8:* deletion keeps equal survival, not distinguishability; the trace form's coefficient is Koide's postulate; the fit is an unweighted projection; the trimaximal column's atmospheric and CP condition is untested; the localization thresholds are numerical, not certified bounds; coherent reception needs the two transports' amplitudes; for the cone penalties the mirror solution's second variation has no eigenvalue below the residual's bound, by a ground-state transform and a comparison — a floating-point certificate on the grid, second variation only. The claims the two reports found overstated are corrected in place, each tagged, with the superseded wording quoted in the ledger; no post-freeze note is added. v36.12 answers the review of v36.11 and records Entries 361–364 with six sections of Part XXXIV (§§XXXIV.29–34, R395–R399). *The limiting map:* under one smooth connection in one representation the comparison of two converging histories' transports tends to the identity, linearly in the separation — a theorem — while the Cartan-twisted reading of the second leg, which the quaternionic structure $j$ supplies as the intertwiner ($\rho(g)\xi = j^{-1}(g(j\xi))$), gives the Hermitian square of the transport; for two legs leaving rest together and separating to order $r$, each carrying §XX.8a's Fermi–Walker transport, the Cartan comparison tends to $B(u)^2 = u\cdot\bar\sigma$ as $r\to0$, path-independent at zero separation while the Thomas rotation is not, and the limit pair is §XX.8b's Cartan pair obeying the Dirac identity; given the twist, the legs' relative velocity is not needed. The second leg's reading through $j$ is the one stipulation, put in rather than produced; that the physical pair's transport is this one stays a proposal. *Entries 361–364,* which arrived during the refereeing, are recorded with their responses, and every number the responses state is recomputed and found as stated: the quotients of the carrier $V = \mathbb C^3$ by one or two of its six lines (a Cartesian quotient keeps the flavor vectors as a trine, a flavor quotient makes the Cartesian images one, and the mass operator descends only through the flavor quotients), the four orbital sign sectors and the signed chord's $4\pi$ period, §XXVII.7's two-arc orbit, and the Hopf-sign and $SO(4)$ identities of the fourth response; Entry 363's two rendering branches of one canonical orbit and Entry 364's Hopf-sign switch at the apsis are recorded as hypotheses. Nothing is fitted and nothing earlier is corrected; no post-freeze note is added. v36.13 answers the review of v36.12, the referee report on v36.12 and Entries 365 and 366 with seven sections of Part XXXIV (§§XXXIV.35–41, R400–R405). *The report's required correction is made:* v36.11's eV direct-mass intervals hold on the branch connected to the zero-block solution, the three determinants negative; a second branch, the electron's determinant positive, fits all three charged-lepton masses for $1.028484<m_0<1.081583$ MeV (the report's counterexample with a 10 TeV heavy partner among its solutions), and a quartic enumerates every solution at fixed $m_0$ (for the direct mass the smaller diagonal entry) — §XXXIV.22(c)–(d), §XXXIV.27, R388 and the head table are corrected in place, each tagged *[v36.13, R401]*, the manuscript marked v36.13 and the suite's prints referenced to v36.13-1, with the superseded wording in the ledger; the zero-block theorem is untouched. *The transport repairs:* the Fermi–Walker benchmark started at its own initial velocity (second order), the thin-loop first variation with transported curvature, the sewing datum $H_0$ making $P_1H_0P_2^\dagger$ covariant, and the antilinear phase that keeps "one connection suffices" a statement about spin — §XXXIV.30(a)–(c) tagged *[v36.13, R402]*. *New:* $q\mapsto aqb^{-1}$ preserves the Hopf fibration only for $b$ in the normalizer of its $U(1)$, a condition distinct from fixing a galaxy's center; the apsidal residence time and the attenuation an exponential image would need, from Entry 365's response; Entry 366's $\tfrac49$ — the response's square is exactly the two-hop product, the half-turn about the body diagonal has spinor half-angle $\pi/2$, the cap volume of $S^3$ is the sine-minus-angle precedent and the leaf's rotation-speed formula carries none, and the conjectured transport $\Phi = p$ is recorded as the response's (§§XXXIV.38–39). Nothing is fitted; no post-freeze note is added.
+> **How to read this archive (v36.15).** Three tables govern: the table of Parts XXXIII–XXXIV, for the open work; the frozen v35.8 table that follows it, for Parts XXX–XXXII; and the frozen v34.10 table after that, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX; §XXX.9, frozen with Parts XXX–XXXII; and §XXXIII.12) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place. v36.0 freezes Parts XXX–XXXII at v35.8 with `pg_v35_numerics.py`, whose frozen-results record is the v35.8 current manuscript, and opens Part XXXIII, the observed rotation curve, after Part XXXII, with its own register (§XXXIII.12) and suite (§XXXIII.13, `pg_v36_numerics.py`). Its corrections to frozen Parts are post-freeze notes (R313). v36.1 is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§§XXXIII.14–26, R318–R331): it corrects v36.0's operative statements in place, with the superseded wording in §XXXIII.26, and adds no post-freeze note. v36.2 answers Entries 323–324 and the two responses on them (§§XXXIII.27–33, R332–R338): orbital occupancy on the leaf, the exponential as a rendering, the conformal route, the frame-selection hypothesis; it corrects two v36.1 sentences in place (R332) and adds no post-freeze note. v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§§XXXIII.34–43, R339–R348): two source families regular at the equator, their orbital populations and the dwarfs with them, the isothermal fixed points, the null cone, the split model, the $\mathfrak{so}(4)$ sectors; it applies the review's two distinctions in place (R347) and adds no post-freeze note. v36.4 answers the review of v36.3 and Entries 340–341 with the response (§§XXXIII.44–50, R349–R354): the fixed-point erratum and stability in two ensembles, the radial–normal duality and the CMB dipole, the first test of the clash invariant, and Entries 342–345 recorded for v36.5; it corrects §XXXIII.38 and §XXXIII.42 in place (R350) and adds no post-freeze content note — one marked rendering repair in frozen §XXX.11 (R355: a doubled brace in a subscript, which the author's site's templating engine read as a tag; the mathematics unchanged). v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§§XXXIII.51–55, R356–R359): the orbit library's kinematics erratum — the velocity moments integrated along the orbit, the mis-certified witnesses re-evaluated, the joint crossing–dispersion frontier, every library bound rescoped as a compatibility witness — with §§XXXIII.28, 29(b), 32, 36, 37, 42 and two register entries corrected in place (R357); the clash invariant's nullspace and the sum's fall-off, the high-sector bound, §§XXXIII.45, 47, 50 annotated (R358); no post-freeze note. v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§§XXXIII.56–60, R360–R364): one localization model, from the admissibility scalar to the spectrum — one action for the two sectors, a probe in the induced potential and the exterior theorem for its tail — which localizes and derives neither the thin–broad disk nor the sine-exponential; and the note's question in a reduction of the smallest two-path, one-qubit model; nothing earlier is corrected and no post-freeze note is added. v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§§XXXIII.61–66, R365–R369): the penalties of the admissibility geometry compared on the full two-sector configuration — the review's cone at the aligned vacuum confirmed, Entry 349's sine blind to the normal in the responses' reading, the response's and the review's smooth forms zero exactly on the family; v36.6's localization model with each, an exchange-even penalty smooth at the aligned vacuum confining the pinned tilt to a patch, the lowest-order smooth forms with their pinning losing the mode at v36.6's coupling (a smooth form with v36.6's gap binds two), the exterior obstruction holding for every gapped penalty; and off its ansatz the mirror solution's second variation with no eigenvalue below $-10^{-6}$ (certified on the grid up to the residual's bound for the cone penalties; second variation only), the sine's second zero leaving no metastable state in the one-wall family examined *[v36.11, R393]*; nothing earlier is corrected and no post-freeze note is added. v36.8 answers Entries 351–353 and the three responses by opening Part XXXIV, flavor, after Part XXXIII (§§XXXIV.1–6, R370–R374), as §XXXIII.9 planned, with Part XXXIII's suite: on the reading of the two families as orthonormal bases of one complex carrier, Entry 352's rule for a complement of the Cartesian fibers is mutual unbiasedness, which needs the complex structure and, with the archive's flavor lines, makes the selected axis the fibers' body diagonal, the frame's shift and clock then the archive's clock and conveyor and the Cartesian triad §XXX.13's trigonal frame, as a datum; the archive's mass operator read on the fibers is a ring with a flux, the mean mass on every fiber, the $e$–$\mu$ distinction the part odd under complex conjugation in the real frame, and Koide's relation a light cone on $\sqrt M$, the form's coefficient Koide's postulate; the bare Dirac toy's mass term can be the internal part of a parent operator, whose square gives the invariant difference $p^2-\mathcal M^2$ for a constant $\mathcal M$ *[v36.11, R387]*, the interchange holding in a flat parent and broken by any discrete internal spectrum. Part XXXIII's rows on the flavor note and on the next pieces are amended, the rest of flavor leaving its backlog (R374); nothing earlier is corrected and no post-freeze note is added. v36.9 answers the review of v36.8 with six sections of Part XXXIV (§§XXXIV.7–12, R375–R379), three of them (§§XXXIV.8–10) one for each part of the review's decisive test. *Frame consistency:* three distinct masses need an abelian residual symmetry — among the rotations the oriented triad's $\mathbb Z_3$, with the complement as its lines — and the mass operator itself keeps $SO(2)_{N_+}$; on $S_D\otimes G_{\rm gen}$, by the descent's typing (a definition), the mass operator commutes with every Lorentz transformation, the physical rotations acting on $S_D$ and those of the carrier internal; a coupling of the carrier to the spin is bounded by the electron's preferred-frame limits, $\lambda\leq3.46\times10^{-22}$ eV at one standard deviation for the Galactic normal ($(1.6\pm2.9)\times10^{-22}$ eV from a fit), and so excluded near the flavor scale. *Spectral selection:* no residual symmetry selects; Koide's ratio is fixed by the overlap of the two dual references, and $K = \tfrac23$ is their bases being mutually unbiased — Entry 352's rule on a qubit — a premise equivalent to Koide's relation, a dictionary rather than a derivation. *Mass generation:* a parity-symmetric pair with a heavy flavor-blind partner gives the square from two internal hops, Koide's masses at leading order, its corrections lowering $K$; on the premise that the relation holds for pole masses, the measured $K$ bounds the partner's mass from below. A tagged sentence is added in §XXXIV.3(d) (R377) and Part XXXIV's row on the next pieces is reworded (R379); nothing earlier is corrected and no post-freeze note is added. v36.10 answers Entry 354, the response to it and the review of v36.9 with seven sections of Part XXXIV (§§XXXIV.13–19, R380–R385). *The exact angles:* with $\theta = 2/9$ and $\cos\alpha = 1/\sqrt2$ held fixed, any first-order correction fixed by the electron and the muon predicts the $\tau$ through its pattern; the same hop twice gives $m_\tau$ $2.67\sigma$ low, and the dual factors $0.23\sigma$ low, their angle offsets then matching the measured ones (the same $\tau$ test) — on the pole-mass premise and the zero block at the eV level, with the construction chosen after the fact. *The mixing scale:* v36.9's $\mu$ was a two-sigma lower bound, and imposing $\mu = M_Z$ with the exact angles and one hop scale gives the $\tau$ $2.07\sigma$ or $1.27\sigma$ low, while with the strict zero block the electron excludes it within this pole-mass realization ($-87.0\sigma$ and $+722.5\sigma$ with the muon's and the Z's errors propagated), a direct mass restoring it in an enlarged realization *[v36.11, R388]*. *The chiral two-hop seesaw:* with a bare right hop the zero block is a choice of basis, while a charged vev for the right hop, or $SU(2)_R$, protects it up to dimension five; with two hop scales the dual factors' prediction of the $\tau$ becomes an inequality, met. *A moving frame:* its connection changes flavor only for a field on the carrier itself, far below detection at the illustrative rates. Part XXXIV's row on the next pieces is reworded (R385), and the head table's flavor heading now says when the Part was opened; nothing earlier is corrected and no post-freeze note is added. v36.11 answers Entries 357 and 360, the responses to them, the review of v36.10 and the referee reports on v36.8 and v36.10 with nine sections of Part XXXIV (§§XXXIV.20–28, R386–R392 and R394) and one of Part XXXIII (§XXXIII.67, R393). *The two histories:* the quaternionic structure intertwines the two Weyl types, so both of Part XX's pairings pass the Lorentz test; at rest the Cartan pair shares one spin state, while the antipodal pair, taken as a fixed relation between the components, is the conjugate pairing, which admits no electric charge — so for the electron the two readings exclude each other, and its Weyl components would be the Cartan pair, whose comparison is the four-velocity. *The doubled angle (Entry 360):* the dual factors are one plus half the spin-$\tfrac12$ character of a doubled angle, $\tfrac49+\tfrac{4\pi n}3\pm\tfrac\pi2$, which needs the double cover and a choice of lift, and only the identity lift is Koide's; the $\tfrac49$ of complementary projectors is a probability, and the complementary fibers' geometric phases are multiples of $2\pi/3$ — a selection-law conjecture, numerically $\theta = 2/9$. *The two-scale theorem:* with the exact angles and the dual factors, $m_\tau<1776.965825$ MeV on every positive branch and $\varepsilon_R/\varepsilon_L\leq2.0094647320$; parity proper excludes the dual factors, and equal Yukawa strengths with $A_-$ on the left hop put the $\tau$ $0.40\sigma$ high, a postulate. *The Z-linked statistics:* with the muon's and the Z's errors propagated the strict model's electron pulls are $-87.0$ and $+722.5$; the strict identification is excluded within this pole-mass realization, enlarged ones are not excluded by this comparison; with one hop scale the direct-mass interval is signed, and with two the same hop's is unchanged while the $\tau$ bounds the dual factors' on both sides *[v36.13, R401: for $\lvert m_0\rvert<\Lambda$, on the branch connected to the zero-block solution; a second branch near $1.03$ MeV, §XXXIV.36]*. *Transport:* the carrier's complete connection is flat, and the lines' connection a stipulated, different action that agrees with it in the adiabatic regime. *The report on v36.8:* deletion keeps equal survival, not distinguishability; the trace form's coefficient is Koide's postulate; the fit is an unweighted projection; the trimaximal column's atmospheric and CP condition is untested; the localization thresholds are numerical, not certified bounds; coherent reception needs the two transports' amplitudes; for the cone penalties the mirror solution's second variation has no eigenvalue below the residual's bound, by a ground-state transform and a comparison — a floating-point certificate on the grid, second variation only. The claims the two reports found overstated are corrected in place, each tagged, with the superseded wording quoted in the ledger; no post-freeze note is added. v36.12 answers the review of v36.11 and records Entries 361–364 with six sections of Part XXXIV (§§XXXIV.29–34, R395–R399). *The limiting map:* under one smooth connection in one representation the comparison of two converging histories' transports tends to the identity, linearly in the separation — a theorem — while the Cartan-twisted reading of the second leg, which the quaternionic structure $j$ supplies as the intertwiner ($\rho(g)\xi = j^{-1}(g(j\xi))$), gives the Hermitian square of the transport; for two legs leaving rest together and separating to order $r$, each carrying §XX.8a's Fermi–Walker transport, the Cartan comparison tends to $B(u)^2 = u\cdot\bar\sigma$ as $r\to0$, path-independent at zero separation while the Thomas rotation is not, and the limit pair is §XX.8b's Cartan pair obeying the Dirac identity; given the twist, the legs' relative velocity is not needed. The second leg's reading through $j$ is the one stipulation, put in rather than produced; that the physical pair's transport is this one stays a proposal. *Entries 361–364,* which arrived during the refereeing, are recorded with their responses, and every number the responses state is recomputed and found as stated: the quotients of the carrier $V = \mathbb C^3$ by one or two of its six lines (a Cartesian quotient keeps the flavor vectors as a trine, a flavor quotient makes the Cartesian images one, and the mass operator descends only through the flavor quotients), the four orbital sign sectors and the signed chord's $4\pi$ period, §XXVII.7's two-arc orbit, and the Hopf-sign and $SO(4)$ identities of the fourth response; Entry 363's two rendering branches of one canonical orbit and Entry 364's Hopf-sign switch at the apsis are recorded as hypotheses. Nothing is fitted and nothing earlier is corrected; no post-freeze note is added. v36.13 answers the review of v36.12, the referee report on v36.12 and Entries 365 and 366 with seven sections of Part XXXIV (§§XXXIV.35–41, R400–R405). *The report's required correction is made:* v36.11's eV direct-mass intervals hold on the branch connected to the zero-block solution, the three determinants negative; a second branch, the electron's determinant positive, fits all three charged-lepton masses for $1.028484<m_0<1.081583$ MeV (the report's counterexample with a 10 TeV heavy partner among its solutions), and a quartic enumerates every solution at fixed $m_0$ (for the direct mass the smaller diagonal entry) — §XXXIV.22(c)–(d), §XXXIV.27, R388 and the head table are corrected in place, each tagged *[v36.13, R401]*, the manuscript marked v36.13 and the suite's prints referenced to v36.13-1, with the superseded wording in the ledger; the zero-block theorem is untouched. *The transport repairs:* the Fermi–Walker benchmark started at its own initial velocity (second order), the thin-loop first variation with transported curvature, the sewing datum $H_0$ making $P_1H_0P_2^\dagger$ covariant, and the antilinear phase that keeps "one connection suffices" a statement about spin — §XXXIV.30(a)–(c) tagged *[v36.13, R402]*. *New:* $q\mapsto aqb^{-1}$ preserves the Hopf fibration only for $b$ in the normalizer of its $U(1)$, a condition distinct from fixing a galaxy's center; the apsidal residence time and the attenuation an exponential image would need, from Entry 365's response; Entry 366's $\tfrac49$ — the response's square is exactly the two-hop product, the half-turn about the body diagonal has spinor half-angle $\pi/2$, the cap volume of $S^3$ is the sine-minus-angle precedent and the leaf's rotation-speed formula carries none, and the conjectured transport $\Phi = p$ is recorded as the response's (§§XXXIV.38–39). Nothing is fitted; no post-freeze note is added. v36.14 answers the review of v36.13 with five sections of Part XXXIV (§§XXXIV.42–46, R406–R409) and corrects nothing. *The branches against data:* the protecting symmetry of §XXXIV.16(a) leaves a dimension-five direct mass, so each branch is a window of the cutoff, and under §XXXIV.16(a)'s assignment the left mixing — below $5.1\times10^{-4}$ on the first branch, approaching $0.20$ on the second, whose partner falls to $53.04$ GeV — is what moves the Standard-Model couplings at tree level; against the PDG's $Z$-pole couplings and heavy-lepton limit this leaves, for orientation, the first branch and a neighborhood of the second's lower end (§XXXIV.43). *The stabilizers and the charge:* the review's three levels of symmetry, with two more between them and the action on the middle space; the comparison of two charged transports gauge-invariant exactly when the second history carries the opposite charge (§XXXIV.44). Nothing is fitted; no post-freeze note is added. v36.15 answers Entries 367–368 and the three responses to them with five sections of Part XXXIV (§§XXXIV.47–51, R410–R413) and corrects nothing. *The Hopf-lifted ring:* a ring of angular radius $\rho$ in the middle space has holonomy $e^{i\pi(1-\cos\rho)}$, so its horizontal lift reaches the antipode after one revolution only when the ring bisects the sphere, while on a round shell its geodesic lifts — at the angle $\rho$ to the fiber — reach it for every ring; a receiver whose fibration makes the angle $\beta$ with the source's sees a source point as a ring of radius $\beta$ and a source ring as a band (§XXXIV.48). *The metric lift:* the response's family of canonical metrics over one middle-space metric is §XXIV.18's shell metric, and after one revolution a geodesic is displaced along the fiber by $\pi+\pi(4R^2/f^2-1)\cos\rho$ — on §XXIV.23's source shells, under its conformal lift, exact for every ring only at $x = \pi/6$ and its twin (§XXXIV.49). Nothing is fitted; no post-freeze note is added.
 
 > **v34.0 governing ontology correction (11 October 2026).** **Matter and its stress-energy content live fundamentally in the five-dimensional middle space** $\mathcal M=E/U(1)_H$, not solely on the representational bisection. The four-dimensional gravity base $B_{\rm grav}=\mathcal M/U_{\rm mer}$ is the quotient where the effective Einstein equation is expressed. The source $T^{(g)}$ must be obtained from the **entire** one-dimensional meridian fiber, including both arcs and possible pole/core contributions, by a covariant, action-compatible fiber reduction with a geometrically justified measure and tensor projection. A sum of contributions at the two points of $B_{\rm rep}$ is **not Law I**: it is only a distributionally leaf-supported special case. Einstein equations on the base impose constraints on the admissible middle-space configurations; equivalently their pullback imposes a horizontal constraint on $\mathcal M$, **not** independent five-dimensional Einstein equations. The full measure, singular-fiber rule, conservation identity and parent variational principle are **open**. Previously frozen text about source localization and two-point sourcing is superseded by this paragraph, the corrected Law I in Part III, and §XXIX.8; historical derivations remain conditional benchmarks where their premises apply. The observation that $\ell/G$ has a numerically suggestive relation to a galactic mass was an exploratory coincidence, **not** a premise that the closure mass is the Galaxy's baryonic mass. The author also prefers a *macroscopic middle-space* origin of $G$ (with the closure ratio as a target) and a separate Boltzmannian-compatibility origin of the effective quantum/Planck-area scale; the induced-gravity calculation remains a benchmark, not the preferred ontological explanation of $G$.
 
@@ -15930,7 +15936,7 @@ With $S = 1+iT$ this is $2\,{\rm Im}\,T^{(2)}_{ii} = \sum_f\lvert T^{(1)}_{fi}\r
 - *the Milky Way, seen from inside with the leaf's own light, fails on every scanned leaf and at the continuous optimum — as a cold-tracer proxy for the published estimator, which is not yet applied (§XXXIII.19) [v36.1, R323];*
 - *the SPARC galaxies, with the arena law, fail too.*
 
-*With the author's zoom labels as two free numbers per galaxy, the gnomonic premise improves the SPARC curves greatly; under the quoted errors one of the eight fits is acceptable, one borderline, and six are not (§XXXIII.17) [v36.1, R319]. The labels the fits need trend with mass, and must now come from a law. §XXXIII.11 locates each failure; §XXXIII.25 is the operative standing after v36.1, §XXXIII.32 its continuation after v36.2 (Entries 323–324: a stationary population on the leaf does not remove the dwarfs' required outer mass, and must be hot where it lacks circular support), §XXXIII.42 after v36.3 (the review and Entries 325–339: sources regular at the equator keep the plateau and admit crossing orbits; the isothermal law selects no cold disk; a transfer with a fixed scale is not a small deformation of a large leaf), §XXXIII.48 after v36.4 (the erratum; at fixed energy a concentrated isothermal state is stable but hot; the proposed clash invariant is blind to the departure it was built from), §XXXIII.54 after v36.5 (the kinematics erratum: library bounds are compatibility witnesses, not certificates; the clash sum detects the tilt but confines nothing), §XXXIII.59 after v36.6 (a minimal localization model from one action localizes but derives neither the thin–broad disk nor the profile; the localized tail's rates and aspect are the probe's kinetic metric's, an input; an observer-side receiver selects within a family of profiles the source fixes, unless the profile is written into it), §XXXIII.65 after v36.7 (an exchange-even penalty smooth at the aligned vacuum confines the pinned tilt to a patch; the lowest-order smooth forms, with their pinning, bind nothing at v36.6's coupling; the sine keeps v36.6's three modes; no gapped penalty of the tilt, with a constant kinetic metric, lets a strictly bound mode follow the image). v36.11 adds §XXXIII.67 (the localization thresholds numerical, not certified bounds; coherent reception through two transports; the mirror solution's second variation without eigenvalues below the residual's bound, by a ground-state transform and a comparison — a certificate on the grid for the cone penalties). v36.8 opens Part XXXIV, flavor, after this Part; §XXXIV.5 is its standing, §XXXIV.11 after v36.9, §XXXIV.18 after v36.10, §XXXIV.27 after v36.11, §XXXIV.33 after v36.12 and §XXXIV.40 after v36.13.*
+*With the author's zoom labels as two free numbers per galaxy, the gnomonic premise improves the SPARC curves greatly; under the quoted errors one of the eight fits is acceptable, one borderline, and six are not (§XXXIII.17) [v36.1, R319]. The labels the fits need trend with mass, and must now come from a law. §XXXIII.11 locates each failure; §XXXIII.25 is the operative standing after v36.1, §XXXIII.32 its continuation after v36.2 (Entries 323–324: a stationary population on the leaf does not remove the dwarfs' required outer mass, and must be hot where it lacks circular support), §XXXIII.42 after v36.3 (the review and Entries 325–339: sources regular at the equator keep the plateau and admit crossing orbits; the isothermal law selects no cold disk; a transfer with a fixed scale is not a small deformation of a large leaf), §XXXIII.48 after v36.4 (the erratum; at fixed energy a concentrated isothermal state is stable but hot; the proposed clash invariant is blind to the departure it was built from), §XXXIII.54 after v36.5 (the kinematics erratum: library bounds are compatibility witnesses, not certificates; the clash sum detects the tilt but confines nothing), §XXXIII.59 after v36.6 (a minimal localization model from one action localizes but derives neither the thin–broad disk nor the profile; the localized tail's rates and aspect are the probe's kinetic metric's, an input; an observer-side receiver selects within a family of profiles the source fixes, unless the profile is written into it), §XXXIII.65 after v36.7 (an exchange-even penalty smooth at the aligned vacuum confines the pinned tilt to a patch; the lowest-order smooth forms, with their pinning, bind nothing at v36.6's coupling; the sine keeps v36.6's three modes; no gapped penalty of the tilt, with a constant kinetic metric, lets a strictly bound mode follow the image). v36.11 adds §XXXIII.67 (the localization thresholds numerical, not certified bounds; coherent reception through two transports; the mirror solution's second variation without eigenvalues below the residual's bound, by a ground-state transform and a comparison — a certificate on the grid for the cone penalties). v36.8 opens Part XXXIV, flavor, after this Part; §XXXIV.5 is its standing, §XXXIV.11 after v36.9, §XXXIV.18 after v36.10, §XXXIV.27 after v36.11, §XXXIV.33 after v36.12, §XXXIV.40 after v36.13, §XXXIV.45 after v36.14 and §XXXIV.50 after v36.15.*
 
 *v36.1 (16 October 2026) is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§XXXIII.14): the plateau coefficient of an extended source (§XXXIII.15), the label condition corrected (§XXXIII.16), the pilot's statistics and its sources in error units (§XXXIII.17), the gas reconstruction's family (§XXXIII.18), the Milky Way comparison as a cold-tracer proxy with its leaf radius continuous (§XXXIII.19), the plateau's observable reach (§XXXIII.20), the orbit statements' domain (§XXXIII.21), the author's 8 kpc leaf (§XXXIII.22), Entry 322's shape family (§XXXIII.23), the current results (§XXXIII.24), the standing (§XXXIII.25) and the register (§XXXIII.26). The suite of §XXXIII.13 is extended to 18 checks.*
 
@@ -16463,16 +16469,16 @@ This answers the author's question of what the families of labels capture: given
 
   [reproducibility]
 
-## XXXIII.13 Executable appendix: `pg_v36_numerics.py`, embedded [reproducibility; v36.0–v36.13, R317, R331, R338, R348, R353, R359, R364, R369, R374, R379, R385, R392, R399, R405]
+## XXXIII.13 Executable appendix: `pg_v36_numerics.py`, embedded [reproducibility; v36.0–v36.15, R317, R331, R338, R348, R353, R359, R364, R369, R374, R379, R385, R392, R399, R405, R409, R413]
 
-*The standalone suite (NumPy and SciPy only) that prints every computed number of Parts XXXIII–XXXIV. Save the block as `pg_v36_numerics.py` and run `python3 -I pg_v36_numerics.py` (the regression suite of Parts XXXIII–XXXIV, v36.0–v36.13: 63 checks; exit status 1 if any fails, in every mode; about thirty-five minutes on two cores, depending on the machine), one round with `python3 -I pg_v36_numerics.py v36_0`, `v36_1` (with the v36.0 computations it builds on), `v36_2`, `v36_3` (one to three minutes), `v36_4`, `v36_5`, `v36_6` (a few minutes each), `v36_7` (about eight minutes), `v36_8`, `v36_9`, `v36_10` (a few seconds each), `v36_11` (under a minute; §§XXXIV.21–26 and XXXIII.67), `v36_12` (under a minute; §§XXXIV.30 and XXXIV.32) or `v36_13` (one to two minutes; §§XXXIV.36–37 and XXXIV.39), or the checks that run in a few minutes with `quick` (47 checks, for a referee's time limit); an unknown mode prints the usage line and exits with status 2. It embeds its data: the two Milky Way tables, McMillan 2017's parameters, the eight SPARC galaxies' rows, the charged-lepton masses (PDG 2025, with their uncertainties), NuFIT 6.0's $\sin^2\theta_{12}$ and $\sin^2\theta_{13}$ for normal ordering, without and with SK-atm, and its central $\sin^2\theta_{23}$ in the two analyses, Heckel et al.'s (2008) bounds on the electron's preferred-frame coefficient and their measured components, the Galactic pole as astropy defines it, the fine-structure constant, the Higgs, W and Z masses of PDG 2025 and PDG 2026 with PDG 2026's W and Z widths and its electron mass, the effective weak angle, the Fermi constant, $\hbar c$, the kiloparsec and the illustrative $v_R = 10$ TeV. The frozen suites remain `pg_v35_numerics.py` (Parts XXX–XXXII, §XXX.10) and `pg_v34_numerics.py` (Part XXIX, §XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v36`, `v36_0`, `v36_1`, `v36_2`, `v36_3`, `v36_4`, `v36_5`, `v36_6`, `v36_7`, `v36_8`, `v36_9`, `v36_10`, `v36_11`, `v36_12`, `v36_13` and `quick` run it and whose `all` runs the frozen v34.10 and v35.8 suites and Parts XXXIII–XXXIV together (250 checks). The figures come from `pg_v36_0_plots.py`, `pg_v36_1_plots.py`, `pg_v36_2_plots.py` and `pg_v36_3_plots.py`, which load this suite. SHA-256 of the file: `1f1c631b313e31559337fb7cce7e30dcbbd3f50e3bda68f20b9bae3ba6c0d2c8`.*
+*The standalone suite (NumPy and SciPy only) that prints every computed number of Parts XXXIII–XXXIV. Save the block as `pg_v36_numerics.py` and run `python3 -I pg_v36_numerics.py` (the regression suite of Parts XXXIII–XXXIV, v36.0–v36.15: 67 checks; exit status 1 if any fails, in every mode; about thirty-five minutes on two cores, depending on the machine), one round with `python3 -I pg_v36_numerics.py v36_0`, `v36_1` (with the v36.0 computations it builds on), `v36_2`, `v36_3` (one to three minutes), `v36_4`, `v36_5`, `v36_6` (a few minutes each), `v36_7` (about eight minutes), `v36_8`, `v36_9`, `v36_10` (a few seconds each), `v36_11` (under a minute; §§XXXIV.21–26 and XXXIII.67), `v36_12` (under a minute; §§XXXIV.30 and XXXIV.32), `v36_13` (one to two minutes; §§XXXIV.36–37 and XXXIV.39), `v36_14` (a few seconds; §§XXXIV.43–44) or `v36_15` (a few seconds; §§XXXIV.48–49), or the checks that run in a few minutes with `quick` (51 checks, for a referee's time limit); an unknown mode prints the usage line and exits with status 2. It embeds its data: the two Milky Way tables, McMillan 2017's parameters, the eight SPARC galaxies' rows, the charged-lepton masses (PDG 2025, with their uncertainties), NuFIT 6.0's $\sin^2\theta_{12}$ and $\sin^2\theta_{13}$ for normal ordering, without and with SK-atm, and its central $\sin^2\theta_{23}$ in the two analyses, Heckel et al.'s (2008) bounds on the electron's preferred-frame coefficient and their measured components, the Galactic pole as astropy defines it, the fine-structure constant, the Higgs, W and Z masses of PDG 2025 and PDG 2026 with PDG 2026's W and Z widths and its electron mass, the effective weak angle, the Fermi constant, $\hbar c$, the kiloparsec, the illustrative $v_R = 10$ TeV, the PDG's $Z$-pole axial couplings of the three charged leptons and the L3 limit on a charged heavy lepton. The frozen suites remain `pg_v35_numerics.py` (Parts XXX–XXXII, §XXX.10) and `pg_v34_numerics.py` (Part XXIX, §XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v36`, `v36_0`, `v36_1`, `v36_2`, `v36_3`, `v36_4`, `v36_5`, `v36_6`, `v36_7`, `v36_8`, `v36_9`, `v36_10`, `v36_11`, `v36_12`, `v36_13`, `v36_14`, `v36_15` and `quick` run it and whose `all` runs the frozen v34.10 and v35.8 suites and Parts XXXIII–XXXIV together (254 checks). The figures come from `pg_v36_0_plots.py`, `pg_v36_1_plots.py`, `pg_v36_2_plots.py` and `pg_v36_3_plots.py`, which load this suite. SHA-256 of the file: `34c90ded677bfc4095c5f1b059078307bb1e2df1bc1acd8b3cc5445f01c44c16`.*
 
 ```python
 """Projective Gravity v36 -- standalone numerical suite for Parts XXXIII-XXXIV: the observed rotation curve and flavor (NumPy + SciPy only;
 Python 3.12/3.13 tested).  Parts XXX-XXXII are frozen at v35.8 with their suite pg_v35_numerics.py; Part XXIX's frozen suite is pg_v34_numerics.py (v34.10).
 
 Run (from the directory holding this file):
-    python3 -I pg_v36_numerics.py              # current regression suite of Parts XXXIII-XXXIV, v36.0-v36.13 (check summary; about thirty-five minutes on two cores)
+    python3 -I pg_v36_numerics.py              # current regression suite of Parts XXXIII-XXXIV, v36.0-v36.15 (check summary; about thirty-five minutes on two cores)
     python3 -I pg_v36_numerics.py v36_0        # the v36.0 sections only
     python3 -I pg_v36_numerics.py v36_1        # the v36.1 sections, with the v36.0 computations they build on
     python3 -I pg_v36_numerics.py v36_2        # the v36.2 sections only (Entries 323-324)
@@ -16487,6 +16493,8 @@ Run (from the directory holding this file):
     python3 -I pg_v36_numerics.py v36_11       # the v36.11 sections only (Entries 357 and 360, the v36.10 review, the reports on v36.8 and v36.10; under a minute)
     python3 -I pg_v36_numerics.py v36_12       # the v36.12 sections only (the review of v36.11: the limiting map to the Cartan pair; Entries 361-364: the quotients, the two-arc orbit and the Hopf-sign switch; under a minute)
     python3 -I pg_v36_numerics.py v36_13       # the v36.13 sections only (the report on v36.12: the direct-mass branches; transport repairs, the fibration normalizer, Entry 365; Entry 366's 4/9; one to two minutes)
+    python3 -I pg_v36_numerics.py v36_14       # the v36.14 sections only (the review of v36.13: the branches against data; the stabilizers of the Hopf structure, the charged comparison; a few seconds)
+    python3 -I pg_v36_numerics.py v36_15       # the v36.15 sections only (Entries 367-368 and the responses: the Hopf-lifted ring, two fibrations; the metric lift; a few seconds)
     python3 -I pg_v36_numerics.py quick        # the checks that run in a few minutes (for a referee's time limit)
 Every mode exits with status 1 if any check fails.
 
@@ -16722,6 +16730,28 @@ angle term, while the Green functions of a single pole on S^3 carry (pi - chi) f
 a flat connection's contractible holonomy is the identity.
 
 v36_13_quick(): v36_12_quick plus the three v36.13 sections.
+
+v36_14_suite(): the review of v36.13.  The two direct-mass branches against data: the review's twelve-digit masses at the counterexample; the one-scale
+zero-block dual factors' m_tau = 1776.9093 MeV (-0.23 sigma); the protecting symmetry's dimension-five term read as a cutoff window per branch (for C5 = +1,
+v_R = 10 TeV: the second branch 1.138e9 < M < 1.197e9 GeV, the first above 1.084e13 GeV); the light-heavy mixings and tree-level electroweak couplings on
+both branches in XXXIV.16(a)'s assignment, with the PDG's Z-pole couplings and the L3 heavy-lepton limit for orientation.  The stabilizers of the Hopf
+structure: dimensions 6, 4, 3, 2, 1 (SO(4), the fibration, the center, the fibration and the center's fiber, the fibration and the center), the O(2)
+component, the induced action on the middle space (O(3): the right U(1) invisible, j U(1) the antipode); the charged comparison of two histories, gauge-
+invariant exactly when the second carries the opposite charge, its phase the loop's flux.
+
+v36_14_quick(): v36_13_quick plus the two v36.14 sections.
+
+v36_15_suite(): Entries 367 and 368 and the three responses to them.  A galaxy ring as a Hopf-lifted circle: the responses' geometry checked (the
+equator's horizontal great circle and its antipode, the Clifford torus metric, torus lines great circles exactly for w1^2 = w2^2 and through the antipode
+exactly for odd ratios); the ring's holonomy e^(i pi (1 - cos rho)); on the round shell, the geodesic lift of every ring at its antipode after one
+revolution, its image radius the angle to the fiber; the fiber modes, the phase-matching toy and the closure phase; two right fibrations at angle beta (the pair's only
+invariant; a source point seen as a ring of radius beta, a ring as a band); the two-endpoint transmission; XXVII.7's orbit-plane exactness recomputed.
+The middle space's metric lifted to a family of canonical metrics: XXIV.18's shell metric, round for f = 2R; its geodesics in XXVII.2's closed form;
+the displacement along the fiber after one revolution, pi + pi (4R^2/f^2 - 1) cos rho, under XXIV.23's conformal lift on its source shells
+pi + pi (4 sin^2 x - 1) cos rho;
+null geodesics projecting with g_M = -p^2/f^2.
+
+v36_15_quick(): v36_14_quick plus the two v36.15 sections.
 """
 import numpy as np
 PI = np.pi
@@ -24352,6 +24382,558 @@ def v36_13_suite():
 def v36_13_quick():
     """v36_12_quick plus the three v36.13 sections."""
     v36_12_quick(); v36_13_branches(); v36_13_transport(); v36_13_entry366()
+
+# ==================================================================================================== v36.14 (24 October 2026): sections
+# The review of v36.13: its counterexample digits and its 0.23-sigma statement checked; the two direct-mass branches compared where the review asks
+# for physical discrimination -- the protecting symmetry's dimension-five term read as a cutoff window per branch, and the light-heavy mixings and
+# tree-level electroweak couplings on both branches under the archive's own assignment (XXXIV.16(a)); the review's stabilizer hierarchy checked and
+# completed (SO(4), the fibration's stabilizer, the center's fiber, the center), with the induced action on the middle space; and the charged
+# comparison of two histories, which is gauge-invariant exactly when the second history carries the opposite charge.
+
+_V3614_LEP_L = 100.8e3                                     # MeV: the L3 lower limit (95% CL) on a sequential charged heavy lepton decaying to nu W (PDG listing S025; Achard et al. 2001)
+_V3614_GA = ((-0.50111, 0.00035), (-0.50120, 0.00054), (-0.50204, 0.00064))   # g_A^e, g_A^mu, g_A^tau: the PDG's Z listing (pdgLive, consulted 24 October 2026)
+
+def _v36_14_mix(m0, s, a, b):
+    """Per flavor mode, for the block [[m0, mu_A a_n], [mu_B b_n, Lam]] with rows (l_L, E_L) and columns (e_R, E_R) (XXXIV.16(a)): the squared light-heavy
+    mixing on the left (the E_L component of the light left singular vector), on the right (the E_R component of the light right singular vector), and the
+    heavy singular value -- in closed form from the 2 x 2 Gram matrices, without a library eigensolver.  Order (tau, e, mu)."""
+    x = s['muA']*a; y = s['muB']*b; Lam = s['Lam']; light, heavy, det = _v36_13_sv0(m0, x, y, Lam)
+    bL = m0*y + x*Lam; cL = y**2 + Lam**2 - light**2; bR = m0*x + y*Lam; cR = x**2 + Lam**2 - light**2     # M M^T and M^T M: the light eigenvector is (c - lambda, -b), no cancellation
+    return np.stack([bL**2/(cL**2 + bL**2), bR**2/(cR**2 + bR**2), heavy], axis=1)
+
+def v36_14_branches():
+    """The review of v36.13, section 2: its counterexample's digits and its conditional tau prediction checked; the two branches compared through the
+    protecting symmetry's cutoff and through the mixings and couplings they imply."""
+    from scipy.optimize import fsolve, brentq
+    print("\n== v36.14-1. The two direct-mass branches against data: the review's digits, the cutoff window of each branch, and the mixings and tree-level")
+    print("   electroweak couplings under the archive's own assignment (the review of v36.13, section 2; R407) ==")
+    me, mmu, mtau = _V368_MASSES; s_me, s_mmu, s_mtau = _V368_SIG; masses = np.array([mtau, me, mmu]); d, ap, am = _v36_10_exact()
+    # (a) the review's digits
+    m0c, muAc, muBc, Lamc = 1.0284839364105727, 8598.329913543436, 737172.7775304100, 1e7
+    light, heavy, det = _v36_13_sv0(m0c, muAc*ap, muBc*am, Lamc)
+    rev = np.array([1776.929999999965, 0.510998950020, 105.658375500036])                   # the review's table: tau, electron, muon (MeV)
+    e_rev = float(np.max(np.abs(rev - light)/masses)); e_pdg = float(np.max(np.abs(light/masses - 1)))
+    print("   The review recomputed the report's counterexample by its own matrix calculation and printed the three light masses to twelve digits.")
+    print(f"   (a) Its digits [V].  The light singular values at the counterexample agree with the review's to {_v36_8_r(e_rev)} relative (the electron's last printed digits")
+    print(f"     carry its precision) and with the PDG masses to {_v36_8_r(e_pdg)}; the determinants' signs are ({', '.join('+' if x > 0 else '-' for x in det)}), the electron's opposite to the others, as it says.")
+    # (b) the conditional tau prediction
+    def eqs(p):
+        mu_, Lam_ = 10**p; l_ = _v36_10_sv(mu_*ap, mu_*am, Lam_); return [l_[1]/me - 1, l_[2]/mmu - 1]
+    p1 = fsolve(eqs, np.log10([147.09e3, 3.4466e7]), xtol=1e-14); mu1, Lam1 = 10**p1; mt1 = _v36_10_sv(mu1*ap, mu1*am, Lam1)[0]; pull1 = (mt1 - mtau)/s_mtau
+    print(f"   (b) The 0.23-sigma prediction [V].  The dual factors with one hop scale and the exact zero block, the electron and the muon fitted (mu = {mu1/1e3:.2f} GeV,")
+    print(f"     Lam = {Lam1/1e3:.0f} GeV), give m_tau = {mt1:.4f} MeV, {pull1:+.2f} sigma -- XXXIV.14(c)'s value, which the review calls a conditional prediction of the")
+    print("     exact-zero-block, equal-hop model; with m0 free (the three-parameter fits of v36.13-1(d)) the tau is fitted, not predicted.  Both statements are the archive's.")
+    # (c) the protecting symmetry's cutoff window per branch
+    ends = {'lo1': _v36_13_end(-9e-6, -8e-6, ap, am, masses), 'hi1': _v36_13_end(110e-6, 120e-6, ap, am, masses),
+            'lo2': _v36_13_end(1.02, 1.03, ap, am, masses), 'hi2': _v36_13_end(1.07, 1.09, ap, am, masses)}
+    vL = _v36_11_vL(); Mof = lambda m0: vL*_V3611_VR/(2*abs(m0))/1e3                       # GeV, for |C5| = 1
+    M1p, M1m, M2a, M2b = Mof(ends['hi1']), Mof(ends['lo1']), Mof(ends['hi2']), Mof(ends['lo2'])
+    print("   (c) What the protecting symmetry selects [S/V].  The review: a symmetry that forbids m0, rather than assuming it small, could exclude the second branch.")
+    print("     XXXIV.16(a)'s symmetry (a charge on the right hop's vev, or SU(2)_R without a bidoublet) forbids m0 at the renormalizable level; the dimension-five")
+    print(f"     operator then gives m0 = C5 v_L v_R/(2M).  With |C5| = 1 and v_R = 10 TeV the branches are cutoff windows: for C5 > 0 the first branch needs M > {M1p:.4e} GeV and")
+    print(f"     the second {M2a:.4e} < M < {M2b:.4e} GeV (a window of {100*(M2b/M2a - 1):.1f}% in M); for C5 < 0 only the first exists, for M > {M1m:.4e} GeV.  Between the windows")
+    print("     v36.13-1(c)'s map -- a numerical classification on its grid, for |m0| < Lam -- has no exact fit.  The symmetry itself allows the operator: exchange of E")
+    print("     generates it with the seesaw's own flavor structure, and a flavor-blind m0 needs another source of it (XXXIV.16(a)); with none, C5 = 0 and m0 = 0, on the")
+    print("     first branch.  So the symmetry does not by itself exclude the second branch; it turns the branch choice into a statement about the flavor-blind source's")
+    print("     C5 v_R/M, which a completion fixes [S].")
+    # (d) the mixings and couplings on both branches
+    print("   (d) Mixings and couplings [V/S].  In XXXIV.16(a)'s assignment the partner E is an SU(2) singlet with e_R's charges, the block's rows (l_L, E_L) and columns")
+    print("     (e_R, E_R).  At tree level the right mixing changes no Standard-Model gauge coupling (e_R and E_R carry the same charges); the left mixing gives the light")
+    print("     lepton the singlet admixture sin^2 theta_L, which lowers its W coupling by cos theta_L and its Z axial coupling g_A by cos^2 theta_L.  Along the branches:")
+    pts = [(-8.40e-6, 1), (0.0, 1), (40e-6, 1), (113.5e-6, 1), (m0c, 2), (1.03, 2), (1.0559626933464765, 2), (1.08, 2)]
+    rows = []
+    for m0, br in pts:
+        s_ = _v36_13_quartic(m0, ap, am, masses)[0]; mx = _v36_14_mix(m0, s_, ap, am); rows.append((m0, br, s_, mx))
+        lab = f"{m0*1e6:+.2f} eV" if abs(m0) < 1e-3 else f"{m0:.6f} MeV"
+        pos = lambda x_: np.format_float_positional(x_, precision=4, unique=False, fractional=False, trim='-')
+        print(f"       branch {br}, m0 = {lab:>15}: Lam = {pos(s_['Lam']/1e3):>8} GeV, lightest heavy {pos(mx[:, 2].min()/1e3):>8} GeV; sin^2 theta_L (tau, e, mu) = {mx[0, 0]:.2e}, {mx[1, 0]:.1e}, {mx[2, 0]:.2e};"
+              f" sin^2 theta_R(tau) = {mx[0, 1]:.2e}")
+    lim = {}; l3 = {}; l4 = {}; inward = {'lo1': -1, 'hi1': -1, 'lo2': +1, 'hi2': -1}      # the limits read at 10^-6 inside each end; the vanishing ones by their
+    for key in ends:                                                                          # tenfold fall from 10^-3 to 10^-4 inside (closer, branch 1's ends are ill-conditioned)
+        for store, off in ((lim, 1e-6), (l3, 1e-3), (l4, 1e-4)):
+            m0 = ends[key]*(1 + inward[key]*off); store[key] = _v36_14_mix(m0, _v36_13_quartic(m0, ap, am, masses)[0], ap, am)
+    vanish = lambda k_, c_: l3[k_][0, c_] < 1e-2 and 9 < l3[k_][0, c_]/l4[k_][0, c_] < 11
+    lamin2 = None
+    from scipy.optimize import minimize_scalar
+    r2 = minimize_scalar(lambda m0: _v36_13_quartic(m0, ap, am, masses)[0]['Lam'], bounds=(1.04, 1.07), method='bounded', options={'xatol': 1e-10})
+    r1 = minimize_scalar(lambda m0: _v36_13_quartic(m0, ap, am, masses)[0]['Lam'], bounds=(1e-6, 100e-6), method='bounded', options={'xatol': 1e-12})
+    hmin2 = minimize_scalar(lambda m0: _v36_14_mix(m0, _v36_13_quartic(m0, ap, am, masses)[0], ap, am)[:, 2].min(), bounds=(1.04, 1.07), method='bounded', options={'xatol': 1e-10})
+    g1 = [_v36_13_quartic(m0, ap, am, masses)[0]['Lam'] for m0 in np.linspace(ends['lo1'], ends['hi1'], 103)[1:-1]]       # the minima are the branches' least values on a grid too
+    g2 = [_v36_14_mix(m0, _v36_13_quartic(m0, ap, am, masses)[0], ap, am)[:, 2].min() for m0 in np.linspace(ends['lo2'], ends['hi2'], 103)[1:-1]]
+    f_lep = lambda m0: _v36_14_mix(m0, _v36_13_quartic(m0, ap, am, masses)[0], ap, am)[:, 2].min() - _V3614_LEP_L
+    x_lo = brentq(f_lep, ends['lo2']*(1 + 1e-9), hmin2.x, xtol=1e-13); x_hi = brentq(f_lep, hmin2.x, ends['hi2']*(1 - 1e-9), xtol=1e-13)
+    frac = (x_hi - x_lo)/(ends['hi2'] - ends['lo2'])
+    print(f"     At the ends the mixings tend to limits: on the first branch sin^2 theta_L(tau) -> 0 at the lower end and {lim['hi1'][0, 0]:.3e} at the upper, sin^2 theta_R(tau) ->")
+    print(f"     {lim['lo1'][0, 1]:.3e} and 0; on the second, sin^2 theta_L(tau) -> 0 at the lower end (Lam -> infinity with mu_B) and {lim['hi2'][0, 0]:.3f} at the upper (with mu_A), sin^2")
+    print(f"     theta_R(tau) -> {lim['lo2'][0, 1]:.4f} and 0.  The partner is never lighter than {r1.fun/1e6:.2f} TeV on the first branch; on the second Lam falls to {r2.fun/1e3:.2f} GeV and the")
+    print(f"     lightest heavy singular value to {hmin2.fun/1e3:.2f} GeV, below 100.8 GeV for {x_lo:.6f} < m0 < {x_hi:.6f} MeV ({100*frac:.0f}% of the branch's width).")
+    gae, gam, gat = [g for g, _ in _V3614_GA]; sge, sgm, sgt = [s for _, s in _V3614_GA]
+    rt = gat/gae; srt = rt*np.hypot(sgt/gat, sge/gae); rm = gam/gae; srm = rm*np.hypot(sgm/gam, sge/gae)
+    s_ua = 1 - (rt - 2*srt)                                                                     # the left mixing at which cos^2 theta_L(tau) reaches the ratio's two-sigma lower edge
+    f_ua = lambda m0: _v36_14_mix(m0, _v36_13_quartic(m0, ap, am, masses)[0], ap, am)[0, 0] - s_ua
+    x_ua = brentq(f_ua, ends['lo2']*(1 + 1e-9), x_lo, xtol=1e-13); Lam_ua = _v36_13_quartic(x_ua, ap, am, masses)[0]['Lam']
+    frac_ua = (x_ua - ends['lo2'])/(ends['hi2'] - ends['lo2']); M_ua = Mof(x_ua)
+    print(f"   (e) For orientation [S].  The PDG's Z-pole couplings give g_A^tau/g_A^e = {rt:.4f} +- {srt:.4f} and g_A^mu/g_A^e = {rm:.4f} +- {srm:.4f} (from its listed values, the")
+    print("     errors taken as uncorrelated); a left mixing makes the ratio cos^2 theta_L(tau)/cos^2 theta_L(e), so universality probes sin^2 theta_L at the 10^-3 level.  The")
+    print(f"     first branch stays below {lim['hi1'][0, 0]:.1e}; the second's approaches {lim['hi2'][0, 0]:.2f} toward its upper end, and its partner falls below the L3 limit of 100.8 GeV on a sequential heavy")
+    print("     lepton (PDG) over most of its width.  On this assignment and at tree level, the first branch and, on the second, only a neighborhood of its lower end -- where")
+    print("     Lam is large, the left mixing small and the right one finite, as at the report's 10 TeV example -- are not at once in tension with these data.  As a scale,")
+    print(f"     the ratio's two-sigma lower edge allows sin^2 theta_L(tau) < {s_ua:.2e}: the whole first branch, and on the second only m0 < {x_ua:.6f} MeV -- the first {100*frac_ua:.1f}%")
+    print(f"     of its width, Lam > {Lam_ua/1e3:.0f} GeV, {M_ua:.5e} < M < {M2b:.5e} GeV for C5 = +1.  The comparison is an orientation, not a fit (the singlet's own production and")
+    print("     decays, the correlations of the Z-pole fit and the radiative matching are not included) [S].")
+    print("   (f) Status.  [V] (a), (b), the mixings and their limits.  [S] The cutoff reading of (c), the assignment and the comparison of (e).  [O] Which branch a completion's")
+    print("     C5 v_R/M selects; the couplings in the SU(2)_R variant; the matching to pole masses.")
+    ok = (e_rev < 1e-10 and e_pdg < 1e-12 and tuple(int(x) for x in np.sign(det)) == (-1, 1, -1) and abs(mt1 - 1776.9093) < 1e-4 and abs(pull1 + 0.23) < 0.005
+          and M2a < M2b < M1p < M1m and abs(M2a/1.13824e9 - 1) < 1e-4 and abs(M1p/1.08360e13 - 1) < 1e-4
+          and all(r_[3][:, 0].max() < 6e-4 for r_ in rows if r_[1] == 1) and rows[6][3][0, 0] > 0.01 and lim['hi2'][0, 0] > 0.19 and vanish('lo2', 0) and vanish('lo1', 0) and vanish('hi1', 1) and vanish('hi2', 1)
+          and min(g1) >= r1.fun*(1 - 1e-6) and min(g2) >= hmin2.fun*(1 - 1e-6) and 50e3 < hmin2.fun < 60e3 and 1.03 < x_lo < 1.035 and 1.075 < x_hi < 1.08 and r1.fun > 2e7
+          and lim['hi1'][0, 0] < s_ua and 1.0287 < x_ua < 1.0288 and 0 < frac_ua < 0.01 and Lam_ua > 3e5 and M_ua < M2b and 50e3 < r2.fun <= hmin2.fun)
+    check(ok, "the two branches against data: the review's twelve-digit masses at the counterexample reproduced, signs (-, +, -); the one-scale zero-block dual factors' "
+          "m_tau = 1776.9093 MeV (-0.23 sigma); the protecting symmetry's dimension-five term puts the second branch in a 5% cutoff window near 1.2e9 GeV and the first above 1.08e13 GeV; "
+          "on XXXIV.16(a)'s assignment the first branch's left mixing stays below 5.1e-4 with the partner above 24 TeV, the second's approaches 0.20 with the partner down to 53 GeV; "
+          "with the universality ratio's two-sigma edge as a scale, the second branch's part not at once in tension ending near m0 = 1.0287 MeV")
+    return dict(ends=ends, rows=rows, x_lo=x_lo, x_hi=x_hi, x_ua=x_ua)
+
+def v36_14_geometry():
+    """The review of v36.13, sections 3-4: the stabilizer hierarchy of the Hopf structure, with the induced action on the middle space, and the charged
+    comparison of two histories."""
+    print("\n== v36.14-2. The stabilizers of the Hopf structure and the charged comparison of two histories (the review of v36.13, sections 3-4; R408) ==")
+    rg = np.random.default_rng(3614)
+    def qm(a_, b_):
+        w1, x1, y1, z1 = a_; w2, x2, y2, z2 = b_
+        return np.array([w1*w2 - x1*x2 - y1*y2 - z1*z2, w1*x2 + x1*w2 + y1*z2 - z1*y2, w1*y2 - x1*z2 + y1*w2 + z1*x2, w1*z2 + x1*y2 - y1*x2 + z1*w2])
+    qc = lambda q_: q_*np.array([1, -1, -1, -1.0]); unit4 = lambda: (lambda v_: v_/np.linalg.norm(v_))(rg.normal(size=4))
+    E = [np.array(v_, float) for v_ in ([0, 1, 0, 0], [0, 0, 1, 0], [0, 0, 0, 1])]; iq = E[0]; one = np.array([1, 0, 0, 0.0])
+    # (a) the lattice of stabilizers, by the dimension of each Lie algebra: (alpha, beta) in su(2) + su(2) acting as q -> alpha q - q beta
+    gens = [(E[k], 0*iq) for k in range(3)] + [(0*iq, E[k]) for k in range(3)]
+    V = lambda al, be, q_: qm(al, q_) - qm(q_, be)
+    def dim(rows):
+        if not rows: return 6
+        s_ = np.linalg.svd(np.array(rows), compute_uv=False); return 6 - int(np.sum(s_ > 1e-10*max(1.0, s_[0])))
+    r_pt = [[V(*g, one)[c] for g in gens] for c in range(4)]
+    r_fib = [[(qm(g[1], iq) - qm(iq, g[1]))[c] for g in gens] for c in range(4)]
+    r_cf = []
+    for ph in np.linspace(0, 2*PI, 7)[:-1]:
+        q_ = np.array([np.cos(ph), np.sin(ph), 0, 0]); t_ = qm(iq, q_); Pp = np.eye(4) - np.outer(t_, t_) - np.outer(q_, q_)
+        r_cf += [[(Pp @ V(*g, q_))[c] for g in gens] for c in range(4)]
+    dims = dict(all=dim([]), fib=dim(r_fib), pt=dim(r_pt), fibcf=dim(r_fib + r_cf), fibpt=dim(r_fib + r_pt), ptcf=dim(r_pt + r_cf))
+    # the review's disconnected component: a = b = j e^(i theta) fixes the center and preserves the fibration, reversing the center's fiber and the i axis
+    def Rot(a_): return np.array([qm(qm(a_, e_), qc(a_))[1:] for e_ in E]).T
+    th = 0.7; aj = qm(E[1], np.array([np.cos(th), np.sin(th), 0, 0])); Rj = Rot(aj)
+    e_rev = np.linalg.norm(Rj @ np.array([1, 0, 0.]) + np.array([1, 0, 0.])); det_j = np.linalg.det(Rj)
+    e_fixc = np.linalg.norm(qm(qm(aj, one), qc(aj)) - one)
+    e_fibrev = max(np.linalg.norm(qm(qm(aj, np.array([np.cos(p_), np.sin(p_), 0, 0])), qc(aj)) - np.array([np.cos(p_), -np.sin(p_), 0, 0])) for p_ in np.linspace(0, 2*PI, 9))
+    aj1 = qm(E[1], np.array([np.cos(0.4), np.sin(0.4), 0, 0])); bj2 = qm(E[1], np.array([np.cos(1.3), np.sin(1.3), 0, 0]))   # a, b in j U(1): the center's fiber to itself
+    e_cf2 = max(np.linalg.norm(qm(qm(aj1, np.array([np.cos(p_), np.sin(p_), 0, 0])), qc(bj2))[2:]) for p_ in np.linspace(0, 2*PI, 9))
+    print("   The review: if both the center and the chosen Hopf fibration are fixed, a = b in the normalizer of U(1), so the connected residual symmetry is a circle")
+    print("   SO(2) inside SO(3), with an O(2)-type symmetry once the normalizer's other component is included -- the levels SO(4), SO(3), SO(2).")
+    print(f"   (a) The lattice [T/V].  As Lie algebras of (alpha, beta) acting as q -> alpha q - q beta: SO(4) has dimension {dims['all']}; fixing the center (q = 1) leaves {dims['pt']} (the")
+    print(f"     diagonal SO(3)); preserving the fibration, {dims['fib']} (the left SU(2) with the right normalizer U(1) and j U(1), modulo +-1; identity component U(2)); preserving the")
+    print(f"     fibration and the center's own fiber (the circle e^(i phi)), {dims['fibcf']} (U(1) x U(1) with j U(1) x j U(1), modulo +-1 -- {_v36_8_r(e_cf2)} for the second component);")
+    print(f"     preserving the fibration and the center, {dims['fibpt']} -- the review's SO(2).  (Fixing the center and its fiber without the")
+    print(f"     fibration also leaves {dims['ptcf']}.)  The review's levels are confirmed, and two more lie between them: the fibration's stabilizer, of dimension 4 (more than the")
+    print("     center's 3), and, between it and the center's SO(2), the 2-dimensional group that keeps the center's fiber but moves the center along it.  The other component: a = b = j e^(i theta) fixes the")
+    print(f"     center ({_v36_8_r(e_fixc)}), acts on R^3 as a rotation (det {det_j:+.6f}) reversing the i axis ({_v36_8_r(e_rev)}) and reverses the center's fiber, e^(i phi) -> e^(-i phi) ({_v36_8_r(e_fibrev)}):")
+    print("     with the circle, the stabilizer of an unoriented axis -- the review's O(2), inside SO(3).")
+    # (b) the induced action on the middle space S^2 = S^3/U(1)
+    pi_ = lambda q_: qm(qm(q_, iq), qc(q_))[1:]
+    e_U = 0.0; e_J = 0.0
+    for _ in range(50):
+        a_ = unit4(); q_ = unit4(); t_ = rg.uniform(0, 2*PI); bU = np.array([np.cos(t_), np.sin(t_), 0, 0]); bJ = qm(E[1], bU)
+        e_U = max(e_U, np.linalg.norm(pi_(qm(qm(a_, q_), qc(bU))) - Rot(a_) @ pi_(q_))); e_J = max(e_J, np.linalg.norm(pi_(qm(qm(a_, q_), qc(bJ))) + Rot(a_) @ pi_(q_)))
+    print(f"   (b) What the middle space sees [T/V].  With the Hopf map pi(q) = q i q^-1, an element q -> a q b^-1 of the fibration's stabilizer acts on the middle space S^2 as")
+    print(f"     the rotation of a when b lies in the U(1) ({_v36_8_r(e_U)} on 50 random elements) and as that rotation composed with the antipodal map when b lies in j U(1)")
+    print(f"     ({_v36_8_r(e_J)}): the right U(1) moves points along their fibers and is invisible there, and the normalizer's other component is the antipodal map of the middle")
+    print("     space.  So the fibration's stabilizer acts on the middle space as O(3) [T].  For the review's question which transformations are passive: the right U(1)")
+    print("     changes nothing the middle space can see, while j U(1) acts there as the antipode; whether either acts on PG's optics is open [O].")
+    # (c) the charged comparison of two histories
+    eps = np.array([[0, 1], [-1, 0]], complex); jop = lambda x_: eps @ x_.conj()
+    e_anti = 0.0
+    for _ in range(100):
+        g_ = rg.normal(size=(2, 2)) + 1j*rg.normal(size=(2, 2)); g_ /= np.sqrt(np.linalg.det(g_)); chi_ = rg.uniform(0, 2*PI); xi_ = rg.normal(size=2) + 1j*rg.normal(size=2)
+        e_anti = max(e_anti, np.linalg.norm(jop(np.exp(-1j*chi_)*(g_ @ xi_)) - np.exp(1j*chi_)*(np.linalg.inv(g_.conj().T) @ jop(xi_))))
+    Afield = lambda x_: np.array([np.sin(x_[1]) + 0.3*x_[2], np.cos(x_[0]*x_[3]), 0.5*x_[0]**2, np.sin(x_[2] + x_[1])])
+    lam = lambda x_: np.sin(x_[0] + 2*x_[1]) + x_[2]*x_[3]
+    s_ = np.linspace(0, 1, 4001); G0 = np.stack([s_, 0.3*s_**2, 0.1*s_, 0.2*s_]).T; Y0 = np.stack([0*s_, np.sin(PI*s_), 0.5*np.sin(PI*s_), 0*s_]).T
+    def chi(P_, gauge=False):
+        mid = 0.5*(P_[1:] + P_[:-1]); dx = P_[1:] - P_[:-1]; c_ = float(np.sum(np.einsum('ij,ij->i', np.array([Afield(m_) for m_ in mid]), dx)))
+        return c_ + (lam(P_[-1]) - lam(P_[0]) if gauge else 0.0)
+    # the full comparison with spin parts: tau(P)^-1 = P^dag, and W = e^(i(q_1 chi_1 + q_2 chi_2)) P_1 H_0 P_2^dag covariant under endpoint frame changes
+    def rsl():
+        m_ = rg.normal(size=(2, 2)) + 1j*rg.normal(size=(2, 2)); return m_/np.sqrt(np.linalg.det(m_))
+    tau = lambda T_: np.linalg.inv(eps) @ T_.conj() @ eps
+    e_tauinv = 0.0; e_cov = 0.0
+    for _ in range(50):
+        P1, P2, h0, h1, h2 = rsl(), rsl(), rsl(), rsl(), rsl(); H0 = h0 @ h0.conj().T; c1_, c2_ = rg.uniform(0, 2*PI, 2)
+        T1, T2 = np.exp(1j*c1_)*P1, np.exp(-1j*c2_)*P2
+        W0 = T1 @ H0 @ np.linalg.inv(tau(T2)); e_tauinv = max(e_tauinv, np.linalg.norm(np.linalg.inv(tau(P2)) - P2.conj().T)/np.linalg.norm(P2))
+        Wh = (np.exp(1j*c1_)*(h1 @ P1 @ np.linalg.inv(h0))) @ (h0 @ H0 @ h0.conj().T) @ np.linalg.inv(tau(np.exp(-1j*c2_)*(h2 @ P2 @ np.linalg.inv(h0))))
+        e_cov = max(e_cov, np.linalg.norm(Wh - h1 @ W0 @ h2.conj().T)/np.linalg.norm(W0))
+    res = {}
+    for r in (0.2, 0.1, 0.05):
+        c1, c2, c1g, c2g = chi(G0), chi(G0 + r*Y0), chi(G0, True), chi(G0 + r*Y0, True)
+        for q2 in (-1.0, 1.0):
+            W_ = np.exp(1j*(c1 + q2*c2)); Wg = np.exp(1j*(c1g + q2*c2g)); res[(r, q2)] = (abs(Wg - W_), np.angle(W_))
+    print("   (c) The charged comparison [T/V/D].  The review: applying j to the full gauge transport would give the wrong charge relationship, since the two chiral")
+    print("     components of a charged Dirac field carry the same charge.  That holds when the two histories carry the same charge.  With the second history carrying the")
+    print(f"     opposite one, j^-1 (e^(-i chi) g) j = e^(+i chi) rho(g) ({_v36_8_r(e_anti)} on 100 random elements): the j-read leg then carries the first leg's charge, as the")
+    print("     other chiral component must (XX.8b's S_L block; a leg's transport g acts on S_R).  The comparison W = T_1 H_0 tau(T_2)^-1 of transports T_k = e^(i q_k chi_k) P_k")
+    print(f"     between common endpoints -- at zero charge v36.13-2(c)'s P_1 H_0 P_2^dag, since tau(P)^-1 = P^dag ({_v36_8_r(e_tauinv)}) -- keeps its law W -> h_1 W h_2^dag under independent")
+    print(f"     endpoint frame changes ({_v36_8_r(e_cov)} on 50 random frames, with charge) and changes under a gauge transformation by e^(i (q_1 + q_2) Delta lambda): it is gauge-invariant")
+    print("     exactly when q_2 = -q_1, and its phase is then the loop's electromagnetic holonomy e^(i q_1 (chi_1 - chi_2)).  On a test connection, two legs r apart")
+    print(f"     (r = 0.2, 0.1, 0.05): with q_2 = -q_1 the gauge change moves the phase factor of W by {_v36_8_r(max(res[(r, -1.0)][0] for r in (0.2, 0.1, 0.05)))}, and the phase is {res[(0.2, -1.0)][1]:+.4f}, {res[(0.1, -1.0)][1]:+.4f}, {res[(0.05, -1.0)][1]:+.4f}")
+    print("     -- linear in r, the flux through the thin loop -- so the charge phase has v36.12-1(a)'s identity limit and the coincident limit of W is the uncharged one, the")
+    print(f"     transported four-velocity; with q_2 = +q_1 the gauge change moves that factor by {res[(0.2, 1.0)][0]:.2f} and the phase does not vanish ({res[(0.05, 1.0)][1]:+.2f} at r = 0.05).  This is the")
+    print("     two-component form of a Dirac fermion: two Weyl fields of one type and opposite charge -- in XX.8b's labels both of the S_R type -- the S_L component the")
+    print("     j-conjugate of the second.  XXXIV.25(c)'s obstruction is for a fixed relation psi_R = j psi_L within one field, which this is not [D].  The charged twist is")
+    print("     consistent with one electromagnetic connection exactly on the report's first option; why a PG history should carry the conjugate charge, and the")
+    print("     coincident-limit action with its mass coupling, are open [O].")
+    print("   (d) Status.  [T] (a)'s lattice, (b)'s induced action, (c)'s identity and transformation law.  [V] Their checks.  [D] The two-component reading.  [O] The")
+    print("     second history's charge; the bilocal connector; the action; which stabilizer elements act on PG's optics.")
+    ok = (dims == dict(all=6, fib=4, pt=3, fibcf=2, fibpt=1, ptcf=1) and e_rev < 1e-12 and abs(det_j - 1) < 1e-12 and e_fixc < 1e-12 and e_fibrev < 1e-12
+          and e_U < 1e-12 and e_J < 1e-12 and e_anti < 1e-12 and e_tauinv < 1e-12 and e_cov < 1e-12 and e_cf2 < 1e-12 and all(res[(r, -1.0)][0] < 1e-12 for r in (0.2, 0.1, 0.05))
+          and abs(res[(0.2, -1.0)][1]/res[(0.1, -1.0)][1] - 2) < 0.05 and abs(res[(0.1, -1.0)][1]/res[(0.05, -1.0)][1] - 2) < 0.05 and min(res[(r, 1.0)][0] for r in (0.2, 0.1, 0.05)) > 0.1)
+    check(ok, "the stabilizers and the charged comparison: dimensions 6 (SO(4)), 4 (the fibration), 3 (the center), 2 (the fibration and the center's fiber), 1 (the fibration and "
+          "the center); the other component an O(2) reversing the center's fiber; the fibration's stabilizer acting on the middle space as O(3), the right U(1) invisibly, j U(1) "
+          "as the antipode; j^-1 (e^(-i chi) g) j = e^(i chi) rho(g); tau(P)^-1 = P^dag and the frame law W -> h_1 W h_2^dag with charge; the second component of the "
+          "dimension-2 group; the charged comparison gauge-invariant exactly for opposite charges, its phase the loop's flux")
+    return dict(dims=dims)
+
+def v36_14_suite():
+    """The v36.14 sections: the two branches against data, and the stabilizers of the Hopf structure with the charged comparison."""
+    v36_14_branches(); v36_14_geometry()
+
+def v36_14_quick():
+    """v36_13_quick plus the two v36.14 sections."""
+    v36_13_quick(); v36_14_branches(); v36_14_geometry()
+
+# ==================================================================================================== v36.15 (24 October 2026): sections
+# Entries 367 and 368, with the three responses to them: a galaxy ring as a circle in the middle space, lifted to its Hopf torus in the canonical shell --
+# the responses' geometry checked, the ring's holonomy, the geodesic lifts of every ring and their antipodes on the round shell, the fiber modes and the phase-matching toy,
+# two right fibrations at the two ends of a history, the two-endpoint transmission, the orbit plane's exactness (XXVII.7); and the middle space's metric
+# lifted to a family of canonical metrics -- the round and squashed members over one base, their geodesics in closed form, the displacement along the
+# fiber after one circuit, and the response's photon statement.
+
+def _v36_15_q():
+    """Quaternion helpers for the v36.15 sections, on arrays (..., 4) = (w, x, y, z): the product, the conjugate, the Hopf map pi_m(q) = q m q^-1 of the
+    right fibration with axis m (fibers q e^(t m)), the unit quaternion cos t + m sin t, and the row-wise dot product (no BLAS call; the matrix operations elsewhere reach
+    the prints only as binned residuals and rounded values, so the prints do not depend on the kernel)."""
+    def qm(a, b):
+        a = np.asarray(a, float); b = np.asarray(b, float); w1, x1, y1, z1 = np.moveaxis(a, -1, 0); w2, x2, y2, z2 = np.moveaxis(b, -1, 0)
+        return np.stack([w1*w2 - x1*x2 - y1*y2 - z1*z2, w1*x2 + x1*w2 + y1*z2 - z1*y2, w1*y2 - x1*z2 + y1*w2 + z1*x2, w1*z2 + x1*y2 - y1*x2 + z1*w2], -1)
+    qc = lambda a: np.asarray(a, float)*np.array([1, -1, -1, -1.0])
+    def pim(q, m):
+        q = np.asarray(q, float); M = np.broadcast_to(np.concatenate([[0.0], np.asarray(m, float)]), q.shape); return qm(qm(q, M), qc(q))[..., 1:]
+    def qexp(m, t):
+        t = np.asarray(t, float); return np.concatenate([np.cos(t)[..., None], np.multiply.outer(np.sin(t), np.asarray(m, float))], -1)
+    dot = lambda a, b: np.sum(np.asarray(a, float)*np.asarray(b, float), -1)
+    return qm, qc, pim, qexp, dot
+
+def v36_15_ring():
+    """Entry 367 and the two responses to it (XXXIV.48): a galaxy ring as a circle in the middle space, lifted to its Hopf torus in the canonical shell --
+    the responses' geometry checked; the ring's holonomy; the geodesic lifts of every ring and their antipodes on the round shell; the fiber modes, the phase-matching toy and
+    the closure phase; two right fibrations at the two ends of a history; the two-endpoint transmission; and the orbit plane's exactness (XXVII.7)."""
+    from scipy.integrate import quad
+    from scipy.optimize import minimize_scalar
+    print("\n== v36.15-1. A galaxy ring as a Hopf-lifted circle: the responses' geometry, the ring's holonomy and its geodesic lifts, the fiber modes, two")
+    print("   fibrations at the two ends of a history, and the orbit plane's exactness (Entry 367 and the two responses to it; R411) ==")
+    rg = np.random.default_rng(3615); qm, qc, pim, qexp, dot = _v36_15_q()
+    I3, J3, K3 = np.eye(3); one = np.array([1, 0, 0, 0.0]); unit = lambda v: np.asarray(v, float)/np.sqrt(dot(v, v))[..., None]
+    rq = lambda n=None: unit(rg.normal(size=(4,) if n is None else (n, 4))); r3 = lambda: unit(rg.normal(size=3))
+    # (a) the responses' geometry, in their complex coordinates (z1, z2), h(z1, z2) = (2 z1 conj(z2), |z1|^2 - |z2|^2)
+    h = lambda z1, z2: np.stack([(2*z1*np.conj(z2)).real, (2*z1*np.conj(z2)).imag, np.abs(z1)**2 - np.abs(z2)**2], -1)
+    ph = np.linspace(0, 4*PI, 801); z1 = np.exp(0.5j*ph)/np.sqrt(2); z2 = np.exp(-0.5j*ph)/np.sqrt(2)
+    e_img = np.abs(h(z1, z2) - np.stack([np.cos(ph), np.sin(ph), 0*ph], -1)).max()
+    e_anti = abs(z1[400] + z1[0]) + abs(z2[400] + z2[0]); e_ret = abs(z1[-1] - z1[0]) + abs(z2[-1] - z2[0])          # ph[400] = 2 pi
+    R4 = np.stack([z1.real, z1.imag, z2.real, z2.imag], -1); a4 = R4[0]; b4 = np.array([0, 1, 0, -1])/np.sqrt(2)
+    e_gc = max(np.abs(R4 - (np.cos(ph/2)[:, None]*a4 + np.sin(ph/2)[:, None]*b4)).max(), abs(dot(a4, b4)), abs(dot(a4, a4) - 1), abs(dot(b4, b4) - 1))
+    e_hor = np.abs((np.conj(z1)*0.5j*z1 + np.conj(z2)*(-0.5j)*z2).imag).max()             # the connection Im(conj(z) dz) along the curve
+    w1, w2 = np.exp(0.5j*ph)*z1, np.exp(0.5j*ph)*z2; e_lam = max(np.abs(w1 - np.exp(1j*ph)/np.sqrt(2)).max(), np.abs(w2 - 1/np.sqrt(2)).max(), np.abs(h(w1, w2) - h(z1, z2)).max())
+    print("   (a) The responses' geometry [V].  The first: for h(z1, z2) = (2 z1 conj(z2), |z1|^2 - |z2|^2) the curve q(phi) = (e^(i phi/2), e^(-i phi/2))/sqrt2 projects to")
+    print(f"     the equator, h(q(phi)) = (e^(i phi), 0) ({_v36_8_r(e_img)}); q(phi + 2 pi) = -q(phi) ({_v36_8_r(e_anti)}) and q(phi + 4 pi) = q(phi) ({_v36_8_r(e_ret)}); it is a great circle of S^3")
+    print(f"     traced at half the projected rate ({_v36_8_r(e_gc)}) and horizontal for the connection Im(conj(z).dz) ({_v36_8_r(e_hor)}); and e^(i phi/2) q(phi) = (e^(i phi), 1)/sqrt2, with the same image,")
+    print(f"     closes after one revolution ({_v36_8_r(e_lam)}).  The second: on the Clifford torus (e^(i alpha), e^(i beta))/sqrt2 with phi = alpha - beta, psi = (alpha + beta)/2,")
+    zt = lambda al, be: np.array([np.exp(1j*al), np.exp(1j*be)])/np.sqrt(2)
+    e_met = 0.0
+    for al, be in rg.uniform(0, 2*PI, size=(6, 2)):
+        dphi = (zt(al + 0.5e-6, be - 0.5e-6) - zt(al - 0.5e-6, be + 0.5e-6))/2e-6; dpsi = (zt(al + 1e-6, be + 1e-6) - zt(al - 1e-6, be - 1e-6))/2e-6
+        G = np.array([[np.vdot(u, v).real for v in (dphi, dpsi)] for u in (dphi, dpsi)]); e_met = max(e_met, np.abs(G - np.diag([0.25, 1.0])).max())
+    def kurv(o1, o2):                                     # the acceleration of (e^(i o1 t), e^(i o2 t))/sqrt2 tangent to S^3, per unit speed squared
+        sp2 = (o1**2 + o2**2)/2; acc = -np.array([o1**2, o2**2])/np.sqrt(2); return float(np.linalg.norm(acc + sp2*np.array([1, 1])/np.sqrt(2)))/sp2
+    kv = {k_: kurv(*k_) for k_ in ((1, 1), (1, -1), (2, 1), (np.sqrt(2), 1))}
+    dA = lambda k_, t: np.sqrt((np.abs(np.exp(1j*k_[0]*t) + 1)**2 + np.abs(np.exp(1j*k_[1]*t) + 1)**2)/2)       # the distance from the antipode of the start
+    tt = np.linspace(0, 400*PI, 400001); d_anti = {}
+    for k_ in ((3, 1), (2, 1)):
+        i_ = int(np.argmin(dA(k_, tt))); d_anti[k_] = float(minimize_scalar(lambda t: float(dA(k_, t)), bounds=(tt[max(i_ - 1, 0)], tt[i_ + 1]), method='bounded', options={'xatol': 1e-12}).fun)
+    print(f"     the metric is d phi^2/4 + d psi^2 ({_v36_13_rb(e_met)}); a torus line (e^(i w1 t), e^(i w2 t))/sqrt2 is a great circle exactly when w1^2 = w2^2 (its geodesic curvature in")
+    print(f"     S^3, |w1^2 - w2^2|/(w1^2 + w2^2): {kv[(1, 1)]:.3f} for (1, 1), the Hopf fiber; {kv[(1, -1)]:.3f} for (1, -1), the horizontal great circle; {kv[(2, 1)]:.3f} for (2, 1); {kv[(np.sqrt(2), 1)]:.3f} for (sqrt2, 1)).")
+    print(f"     It meets the antipode of its starting point exactly when w1/w2 is a ratio of odd integers: (3, 1) at t = pi ({_v36_8_r(d_anti[(3, 1)])}); (2, 1) never, its")
+    print(f"     closest approach, as a chord in C^2, {d_anti[(2, 1)]:.6f} = sqrt(7/8), where cos t = -1/4; an irrational ratio never exactly, though it comes arbitrarily close (the line is dense).")
+    # the dictionary to the archive's right fibers: q = z1 + j z2
+    Z = rg.normal(size=(200, 2)) + 1j*rg.normal(size=(200, 2)); Z /= np.sqrt(np.sum(np.abs(Z)**2, 1))[:, None]
+    Q = np.stack([Z[:, 0].real, Z[:, 0].imag, Z[:, 1].real, -Z[:, 1].imag], -1)            # z1 + j z2 = a + b i + c j - d k
+    tq = 0.83; Zt = Z*np.exp(1j*tq); Qt = np.stack([Zt[:, 0].real, Zt[:, 0].imag, Zt[:, 1].real, -Zt[:, 1].imag], -1)
+    e_fib = np.abs(Qt - qm(Q, qexp(I3, tq))).max()
+    Hz = h(Z[:, 0], Z[:, 1]); Pq = pim(Q, I3); Rd = np.linalg.lstsq(Pq, Hz, rcond=None)[0].T; e_dic = np.abs(Pq @ Rd.T - Hz).max(); Rr = np.round(Rd).astype(int)
+    print(f"     In the archive's quaternions, with q = z1 + j z2, the responses' fiber (e^(i t) z1, e^(i t) z2) is the right fiber q e^(t i) ({_v36_8_r(e_fib)}), and h is the archive's")
+    print(f"     pi_i(q) = q i q^-1 followed by the fixed rotation {Rr.tolist()} ({_v36_13_rb(e_dic)}, det {int(round(np.linalg.det(Rd))):+d}).")
+    # (b) the ring's holonomy: the horizontal lift of the ring of angular radius rho about the pole of h
+    print("   (b) The ring's holonomy [T/V].  The ring of angular radius rho about the pole has the horizontal lift")
+    print("     q(phi) = (cos(rho/2) e^(i phi sin^2(rho/2)), sin(rho/2) e^(-i phi cos^2(rho/2))); after one revolution it returns multiplied by e^(i pi (1 - cos rho)), half the")
+    print("     solid angle the ring encloses:")
+    hol = {}
+    for rho in (0.3, 0.9, PI/2, 2.2):
+        p_ = np.linspace(0, 2*PI, 401); u1 = np.cos(rho/2)*np.exp(1j*p_*np.sin(rho/2)**2); u2 = np.sin(rho/2)*np.exp(-1j*p_*np.cos(rho/2)**2)
+        e_h = np.abs((np.conj(u1)*1j*np.sin(rho/2)**2*u1 + np.conj(u2)*(-1j)*np.cos(rho/2)**2*u2).imag).max()
+        Hr = h(u1, u2); e_r = max(np.abs(Hr[:, 2] - np.cos(rho)).max(), np.abs(Hr[:, 0] + 1j*Hr[:, 1] - np.sin(rho)*np.exp(1j*p_)).max())
+        g_ = u1[-1]/u1[0]; e_c = abs(u2[-1] - g_*u2[0]); hol[rho] = (g_, e_h, e_r, e_c)
+        print(f"       rho = {rho:.4f}: return factor {g_.real:+.6f} {g_.imag:+.6f}i, e^(i pi(1 - cos rho)) = {np.cos(PI*(1 - np.cos(rho))):+.6f} {np.sin(PI*(1 - np.cos(rho))):+.6f}i"
+              f" (horizontal {_v36_8_r(e_h)}, on the ring {_v36_8_r(e_r)}, one fiber {_v36_8_r(e_c)})")
+    print("     So the antipode, a factor -1, is reached after one revolution only by the ring that bisects the sphere's area -- among rings about a point, the great")
+    print("     circle; any simple closed curve enclosing half the area does the same.  The first response's caution, that the sign change belongs to this particular")
+    print("     base circle, is borne out: among rings, only the great circle.")
+    # (c) the geodesic lifts of every ring
+    gl = []
+    for rho in (0.3, 0.7, 1.2, PI/2):
+        q0 = rq(); fq = qm(q0, np.concatenate([[0.0], I3])); hd = rq(); hd = hd - dot(hd, q0)*q0 - dot(hd, fq)*fq; hd = hd/np.sqrt(dot(hd, hd))
+        v = np.cos(rho)*fq + np.sin(rho)*hd; w = qm(qc(q0), v)[1:]; c_ = pim(q0, w)
+        s_ = np.linspace(0, PI, 801); g = np.cos(s_)[:, None]*q0 + np.sin(s_)[:, None]*v
+        dist = np.arccos(np.clip(dot(pim(g, I3), c_), -1, 1)); e_rad = np.abs(dist - rho).max()
+        gp = -np.sin(s_)[:, None]*q0 + np.cos(s_)[:, None]*v; pmom = dot(gp, qm(g, np.concatenate([[0.0], I3])))
+        gl.append((rho, e_rad, np.abs(pmom - np.cos(rho)).max(), np.abs(g[-1] + q0).max(), PI*(1 - np.cos(rho)), PI*np.cos(rho)))
+    e_leftc = 0.0
+    for _ in range(20):                                    # a great circle of the middle space with pole c: its horizontal lift is e^(t c) q0, a left fiber
+        c3 = r3(); x3 = unit(np.cross(c3, r3())); q0 = unit(one - qm(np.concatenate([[0.0], x3]), np.concatenate([[0.0], I3])))
+        tt_ = np.linspace(0, PI, 181); lq = qm(qexp(c3, tt_), np.broadcast_to(q0, (tt_.size, 4))); lp = qm(np.broadcast_to(np.concatenate([[0.0], c3]), lq.shape), lq)
+        e_leftc = max(e_leftc, np.abs(dot(lp, qm(lq, np.concatenate([[0.0], I3])))).max(), np.abs(dot(pim(lq, I3), c3)).max(), np.abs(lq[-1] + q0).max())
+    q0 = (one + np.array([0, 0, 1, 0.0]))/np.sqrt(2); e_left = np.abs(qm(qexp(I3, ph[:401]/2), q0) - np.stack([z1[:401].real, z1[:401].imag, z2[:401].real, -z2[:401].imag], -1)).max()
+    print("   (c) The geodesic lifts of every ring, on the round shell [T/V].  A great circle q0 cos s + v sin s whose tangent makes the angle rho with the fiber q0 i")
+    print("     projects to the ring of"
+          " angular radius rho about q0 w q0^-1 (w = q0^-1 v), carries the fiber momentum cos rho, and after one revolution of the ring (s = pi) is at -q0, the")
+    print("     antipode -- for every rho on this round shell (on squashed shells, v36.15-2).  The closure phase pi splits into the ring's holonomy and the fiber")
+    print("     momentum's share:")
+    for rho, e_rad, e_p, e_a, h1, v1 in gl:
+        print(f"       rho = {rho:.4f}: image radius {_v36_8_r(e_rad)} off rho, momentum {_v36_8_r(e_p)} off cos rho, at -q0 {_v36_8_r(e_a)}; pi = {h1:.6f} (holonomy) + {v1:.6f} (momentum)")
+    print("     So the image's radius is the angle to the fiber -- a point for the fiber itself, a great circle for a horizontal tangent -- and passing through its own")
+    print("     antipode does not make a path's image a great circle: every geodesic of the round shell does, every image is a ring, and the horizontal lift is a")
+    print(f"     geodesic only for a great circle, where it is the fiber e^(t c) q0 of the left fibration whose axis is the circle's pole c ({_v36_8_r(e_leftc)} on 20 random great")
+    print(f"     circles): the first response's q(phi) is e^(i phi/2) q0 with q0 = (1 + j)/sqrt2, its pole i ({_v36_8_r(e_left)}).")
+    # (d) the fiber modes, the phase-matching toy, the closure phase
+    psi = np.linspace(0, 2*PI, 64, endpoint=False); e_avg = 0.0; e_toy = 0.0
+    for k_ in (1, 2, 3):
+        eta, dl = rg.uniform(0.1, 0.9), rg.uniform(0, 2*PI); e_avg = max(e_avg, abs(np.mean(1 + eta*np.cos(k_*psi + dl)) - 1))
+        for _ in range(5):
+            eps_, et_, f_, do_, phi_ = rg.uniform(0.1, 0.9), rg.uniform(0.1, 0.9), rg.uniform(0, 2*PI), rg.uniform(0, 2*PI), rg.uniform(0, 2*PI)
+            Io = np.mean((1 + eps_*np.cos(2*phi_ + k_*psi - f_))*0.5*(1 + et_*np.cos(k_*psi - do_)))
+            e_toy = max(e_toy, abs(Io - 0.5*(1 + 0.5*eps_*et_*np.cos(2*phi_ - f_ + do_))))
+    rho = 0.9; nax = r3(); tp = unit(np.cross(nax, r3())); x0 = np.cos(rho)*nax + np.sin(rho)*tp; q0 = unit(one - qm(np.concatenate([[0.0], x0]), np.concatenate([[0.0], I3])))
+    def transport(qst, N=4000):                            # the discrete horizontal lift of the ring of radius rho about nax: each step to the nearest point of the next fiber
+        qk = qst
+        for k_ in range(1, N + 1):
+            p_ = qm(qexp(nax, PI*k_/N), q0); pi_ = qm(p_, np.concatenate([[0.0], I3])); t_ = np.arctan2(dot(qk, pi_), dot(qk, p_)); qk = qm(p_, qexp(I3, t_))
+        return qm(qc(qst), qk)
+    g1 = transport(q0); g2 = transport(qm(q0, qexp(I3, 1.1))); hol_ = np.exp(1j*PI*(1 - np.cos(rho)))
+    e_gauge = np.abs(g1 - g2).max(); e_tr = abs(g1[0] + 1j*g1[1] - hol_) + abs(g1[2]) + abs(g1[3])
+    print(f"   (d) The fiber modes [V/D].  A mode 1 + eta cos(k psi + delta) along the fiber averages to 1 ({_v36_8_r(e_avg)} for k = 1, 2, 3), so the fiber-averaged density")
+    print("     keeps none of it, as both responses say.  The second response's phase-matching toy -- the lifted source rho0 [1 + eps cos(2 phi + k psi - f)] read through")
+    print(f"     the channel (1 + eta cos(k psi - delta_o))/2 -- gives (rho0/2) [1 + (eps eta/2) cos(2 phi - f + delta_o)] ({_v36_8_r(e_toy)} at fifteen random settings): a two-armed image")
+    print("     from a fiber-averaged axisymmetric source, with the radial phase f(R) put in, as it says.  psi is a coordinate; its gauge-invariant form is the closure")
+    print(f"     phase q(0)^-1 q(T) of a lift of a closed loop: transported horizontally around a ring of radius {rho} about a random center (4000 nearest-point steps), it is")
+    print(f"     e^(i pi (1 - cos rho)) ({_v36_13_rb(e_tr)}) and the same from another starting point on the fiber ({_v36_8_r(e_gauge)}) -- the quantity a readout could compare.")
+    # (e) two right fibrations at the two ends of a history
+    e_inv = 0.0; e_rel = 0.0; e_map = 0.0
+    for _ in range(50):
+        m1, m2 = r3(), r3(); a_ = rq(); b_ = rq(); Rb = lambda m: qm(qm(b_, np.concatenate([[0.0], m])), qc(b_))[1:]
+        e_inv = max(e_inv, abs(abs(dot(Rb(m1), Rb(m2))) - abs(dot(m1, m2))))
+        q_ = rq(); t_ = np.linspace(0, PI, 31); g_q = lambda x: qm(qm(np.broadcast_to(a_, x.shape), x), np.broadcast_to(qc(b_), x.shape))     # q -> a q b^-1
+        e_map = max(e_map, np.abs(g_q(qm(np.broadcast_to(q_, (t_.size, 4)), qexp(m1, t_))) - qm(np.broadcast_to(g_q(q_[None, :])[0], (t_.size, 4)), qexp(Rb(m1), t_))).max())
+    for _ in range(20):
+        beta = rg.uniform(0.05, PI/2); m1 = r3(); m2 = unit(np.cos(beta)*m1 + np.sin(beta)*unit(np.cross(m1, r3())))
+        n1 = r3(); n2 = unit(np.cos(beta)*n1 + np.sin(beta)*unit(np.cross(n1, r3())))
+        # the rotation taking (m1, m2) to (n1, n2): orthonormal frames from each pair
+        F = lambda x, y: np.stack([x, unit(y - dot(x, y)*x), np.cross(x, unit(y - dot(x, y)*x))], 1)
+        Rm = F(n1, n2) @ F(m1, m2).T; e_rel = max(e_rel, np.abs(Rm @ m1 - n1).max() + np.abs(Rm @ m2 - n2).max() + abs(np.linalg.det(Rm) - 1))
+    e_pt = 0.0; e_geo = 0.0
+    for _ in range(30):
+        beta = rg.uniform(0.05, PI/2); ms = r3(); mo = unit(np.cos(beta)*ms + np.sin(beta)*unit(np.cross(ms, r3()))); q_ = rq(); t_ = np.linspace(0, PI, 181)
+        img = pim(qm(np.broadcast_to(q_, (t_.size, 4)), qexp(ms, t_)), mo); e_pt = max(e_pt, np.abs(np.arccos(np.clip(dot(img, pim(q_, ms)), -1, 1)) - beta).max())
+        w_ = r3(); m_ = r3(); gq = qm(np.broadcast_to(q_, (t_.size, 4)), qexp(w_, t_))
+        e_geo = max(e_geo, np.abs(np.arccos(np.clip(dot(pim(gq, m_), pim(q_, w_)), -1, 1)) - np.arccos(np.clip(dot(w_, m_), -1, 1))).max())
+    r0, beta = 0.6, 0.25; uo = np.array([np.sin(beta), 0, np.cos(beta)]); n_ = 200000
+    pg, sg = np.meshgrid(np.linspace(0, 2*PI, 60, endpoint=False), np.linspace(0, PI, 2000, endpoint=False), indexing='ij')     # 60 azimuths along the ring
+    Qa = qm(qm(qexp(K3, pg/2), np.broadcast_to(qexp(J3, r0/2), pg.shape + (4,))), qexp(K3, sg)); Da = np.arccos(np.clip(dot(pim(Qa, uo), K3), -1, 1))
+    e_az = np.abs(Da - Da[0]).max()                                                       # the same at every azimuth, fiber angle by fiber angle
+    sg1 = np.linspace(0, PI, n_, endpoint=False); Qt = qm(np.broadcast_to(qexp(J3, r0/2), (n_, 4)), qexp(K3, sg1))         # one azimuth, n_ fiber angles
+    e_on = max(np.abs(np.arccos(np.clip(dot(pim(Qt, K3), K3), -1, 1)) - r0).max(), np.abs(np.arccos(np.clip(dot(pim(Qa, K3), K3), -1, 1)) - r0).max())
+    cd = dot(pim(Qt, uo), K3); D_ = np.arccos(np.clip(cd, -1, 1))
+    m1e = abs(np.mean(cd) - np.cos(r0)*np.cos(beta)); m2e = abs(np.mean(cd**2) - (np.cos(r0)**2*np.cos(beta)**2 + 0.5*np.sin(r0)**2*np.sin(beta)**2))
+    fd = lambda d: np.sin(d)/np.sqrt(max(np.sin(r0)**2*np.sin(beta)**2 - (np.cos(d) - np.cos(r0)*np.cos(beta))**2, 1e-300))/PI
+    lo, hi = abs(r0 - beta), r0 + beta; nrm = quad(fd, lo, hi, limit=200)[0]; mom = quad(lambda d: np.cos(d)*fd(d), lo, hi, limit=200)[0]
+    edges = np.linspace(lo, hi, 9); frac = np.histogram(np.clip(D_, lo, hi), bins=edges)[0]/D_.size; ana = np.array([quad(fd, a, b, limit=200)[0] for a, b in zip(edges[:-1], edges[1:])])
+    print("   (e) Two fibrations at the two ends of a history [T/V].  For the right fibrations of the one canonical shell (axes m, as unoriented lines), every element")
+    print(f"     q -> a q b^-1 of SO(4) carries the fiber q e^(t m) onto the fiber (a q b^-1) e^(t b m b^-1) ({_v36_8_r(e_map)} over 50 random elements), so it moves the axes by the")
+    print(f"     rotation of b and keeps the angle beta between the source's axis and the receiver's ({_v36_8_r(e_inv)}); any two pairs with the same beta are related by")
+    print(f"     one ({_v36_8_r(e_rel)} over 20 constructed): beta is the pair's only invariant.  Both quotients land in the unit imaginary quaternions and commute with the")
+    print("     left SU(2) they share; the only maps of the sphere commuting with every rotation are the identity and the antipode, so that identification of the two")
+    print(f"     middle spaces is canonical up to the antipode.  With it, the receiver sees each source fiber as the ring of radius beta about the source's image point")
+    print(f"     ({_v36_8_r(e_pt)} over 30 random fibers and angles), and sees any geodesic q e^(s w) of the round shell -- a fiber of the fibration with axis w -- as the ring of")
+    print(f"     radius angle(w, m) about q w q^-1, one center for every receiver axis m ({_v36_8_r(e_geo)}).  A source ring of radius r0 = {r0} seen at beta = {beta}: the torus")
+    print(f"     over it ({_v36_8_r(e_on)} on the ring) maps onto the band {lo:.2f} <= d <= {hi:.2f} about the ring's center (sampled {D_.min():.4f} to {D_.max():.4f}; the band is")
+    print(f"     |r0 - beta| <= d <= r0 + beta for r0 + beta <= pi), the distance d independent of the azimuth along the ring ({_v36_8_r(e_az)} over 60 azimuths), with")
+    print(f"     <cos d> = cos r0 cos beta ({_v36_8_r(m1e)}), the second moment")
+    print(f"     exact ({_v36_8_r(m2e)}) and the density (1/pi) sin d / sqrt(sin^2 r0 sin^2 beta - (cos d - cos r0 cos beta)^2) (normalized to {nrm:.9f}, first moment off by {_v36_13_rb(abs(mom - np.cos(r0)*np.cos(beta)))}; its")
+    print(f"     eight bin fractions match those of {n_} fiber angles, every one counted, to {np.abs(frac - ana).max():.1e}), which diverges as an inverse square root at both edges (for r0 != beta and")
+    print("     r0 + beta < pi): one ring becomes a band with bright edges at |r0 - beta| and r0 + beta, its center unmoved.")
+    # (f) the two-endpoint transmission
+    e_T = 0.0; e_sum = 0.0; e_cov = 0.0
+    sx = np.array([[0, 1], [1, 0]], complex); sy = np.array([[0, -1j], [1j, 0]]); sz = np.array([[1, 0], [0, -1]], complex); S_ = [sx, sy, sz]
+    Pn = lambda n: 0.5*(np.eye(2) + sum(n[k_]*S_[k_] for k_ in range(3)))
+    for _ in range(40):
+        qv = rq(); U = np.array([[qv[0] + 1j*qv[3], qv[2] + 1j*qv[1]], [-qv[2] + 1j*qv[1], qv[0] - 1j*qv[3]]]); ns, no_ = r3(), r3()
+        Rm = np.array([[0.5*np.trace(S_[a] @ U @ S_[b] @ U.conj().T).real for b in range(3)] for a in range(3)])
+        T_ = np.trace(Pn(no_) @ U @ Pn(ns) @ U.conj().T).real; e_T = max(e_T, abs(T_ - 0.5*(1 + dot(no_, Rm @ ns))))
+        e_sum = max(e_sum, abs(T_ + np.trace(Pn(-no_) @ U @ Pn(ns) @ U.conj().T).real - 1))
+        qv2 = rq(); V = np.array([[qv2[0] + 1j*qv2[3], qv2[2] + 1j*qv2[1]], [-qv2[2] + 1j*qv2[1], qv2[0] - 1j*qv2[3]]])
+        Rv = np.array([[0.5*np.trace(S_[a] @ V @ S_[b] @ V.conj().T).real for b in range(3)] for a in range(3)])
+        e_cov = max(e_cov, abs(np.trace(Pn(Rv @ no_) @ (V @ U @ V.conj().T) @ Pn(Rv @ ns) @ (V @ U @ V.conj().T).conj().T).real - T_))
+    print(f"   (f) The two-endpoint transmission [V].  The first response's tr(P_o U P_s U^dag) = (1 + n_o . R_U n_s)/2 ({_v36_8_r(e_T)} over 40 random transports), the two")
+    print(f"     receiving channels summing to one ({_v36_8_r(e_sum)}), unchanged when source, receiver and transport are rotated together ({_v36_8_r(e_cov)}) -- the familiar two-state law, as it")
+    print("     says, with both endpoints in it; which internal state of a photon it would read is not fixed by anything in PG yet.")
+    # (g) the orbit plane's exactness, recomputed from XXVII.7
+    Om = lambda x: np.sqrt((1 + 2*np.sin(x)**2)/np.sin(x)**3); ka = lambda x: np.sqrt(np.cos(x)**2*(1 + 6*np.sin(x)**2)/np.sin(x)**3); Op = lambda x: Om(x) - ka(x)/2
+    rp = minimize_scalar(Op, bounds=(0.3, 1.4), method='bounded', options={'xatol': 1e-12}); hh = 1e-4; Opp = (Op(rp.x + hh) - 2*Op(rp.x) + Op(rp.x - hh))/hh**2
+    e_pi4 = abs(Om(PI/4) - ka(PI/4)); e_v2 = abs(Om(0.7)**2 - (1/np.sin(0.7) + 2*np.sin(0.7))/np.sin(0.7)**2)
+    print("   (g) The orbit plane's exactness [V; XXVII.7 recomputed].  On the leaf, with v^2/(mu c^2) = csc chi + 2 sin chi (XXV.2; " + _v36_8_r(e_v2) + " against Omega^2 sin^2 chi),")
+    print(f"     a near-circular orbit closes after one radial period where kappa = Omega, at chi = pi/4 exactly ({_v36_8_r(e_pi4)}); a near-circular oval closes point-symmetrically in the")
+    print(f"     frame rotating at Omega - kappa/2, whose minimum is at chi = {rp.x:.4f}, {rp.fun:.4f} sqrt(mu), with second derivative {Opp:.3f} sqrt(mu) -- XXVII.7's 0.8559, 1.1792 and 3.683:")
+    print("     there the spread of that rate, the orbit plane's failure of exactness, is of second order, and there XXVII.7's aligned population kept a weak two-armed")
+    print("     pattern longest.")
+    ok = (max(e_img, e_anti, e_ret, e_gc, e_hor, e_lam) < 1e-12 and e_met < 1e-8 and kv[(1, 1)] < 1e-12 and kv[(1, -1)] < 1e-12 and kv[(2, 1)] > 0.1 and kv[(np.sqrt(2), 1)] > 0.1
+          and d_anti[(3, 1)] < 1e-12 and abs(d_anti[(2, 1)] - np.sqrt(7/8)) < 1e-9 and e_fib < 1e-12 and e_dic < 1e-12 and np.all(np.abs(np.abs(Rr) - np.abs(Rd)) < 1e-12)
+          and all(abs(hol[r][0] - np.exp(1j*PI*(1 - np.cos(r)))) < 1e-12 and max(hol[r][1:]) < 1e-12 for r in hol) and abs(hol[PI/2][0] + 1) < 1e-12
+          and all(abs(hol[r][0] + 1) > 0.1 for r in (0.3, 0.9, 2.2)) and all(max(x[1:4]) < 1e-12 and abs(x[4] + x[5] - PI) < 1e-12 for x in gl) and e_left < 1e-12
+          and e_avg < 1e-12 and e_toy < 1e-12 and e_gauge < 1e-12 and e_tr < 1e-5 and e_leftc < 1e-12 and e_map < 1e-12 and e_az < 1e-12 and e_inv < 1e-12 and e_rel < 1e-12 and e_pt < 1e-7 and e_geo < 1e-7 and e_on < 1e-7
+          and abs(D_.min() - lo) < 1e-3 and abs(D_.max() - hi) < 1e-3 and m1e < 1e-12 and m2e < 1e-12 and abs(nrm - 1) < 1e-8 and abs(mom - np.cos(r0)*np.cos(beta)) < 1e-8
+          and np.abs(frac - ana).max() < 1e-4 and e_T < 1e-12 and e_sum < 1e-12 and e_cov < 1e-12 and abs(rp.x - 0.8559) < 1e-4 and abs(rp.fun - 1.1792) < 1e-4
+          and abs(Opp - 3.683) < 1e-3 and e_pi4 < 1e-12 and e_v2 < 1e-12)
+    check(ok, "Entry 367 and the responses: their geometry (the equator's horizontal great circle and its antipode, the closing lift, the Clifford torus metric, great "
+          "circles exactly for w1^2 = w2^2, the antipode for odd ratios); the ring's holonomy e^(i pi (1 - cos rho)), the antipode for the great circle only; on the round "
+          "shell the geodesic lift of every ring at its antipode after one revolution, image radius the angle to the fiber, pi = holonomy + momentum share, the "
+          "horizontal lift of a great circle the left fiber of its pole; the fiber modes, the phase-"
+          "matching toy and the gauge-invariant closure phase; two fibrations: the fiber map of SO(4), beta the only invariant, a fiber seen as a ring of radius beta, a geodesic of the round shell as a ring about "
+          "one center, a ring as a band with inverse-square-root edges (r0 != beta, r0 + beta < pi); the two-endpoint transmission; XXVII.7's kappa = Omega at pi/4 and pattern-speed minimum")
+
+def v36_15_lift():
+    """Entry 368 and the response to it (XXXIV.49): the middle space's metric lifted to a family of canonical metrics -- the connection metric over the
+    round middle-space shell, round for one fiber length and squashed (Berger) otherwise; its geodesics in closed form, which project to rings of the one
+    base; the displacement along the fiber after one revolution; and the response's statement about photons."""
+    from scipy.integrate import solve_ivp, quad
+    print("\n== v36.15-2. The middle space's metric lifted to a family of canonical metrics: the round and squashed members over one base, their geodesics and")
+    print("   the displacement along the fiber after one revolution (Entry 368 and the response to it; R412) ==")
+    rg = np.random.default_rng(36152); qm, qc, pim, qexp, dot = _v36_15_q()
+    I3 = np.eye(3)[0]
+    # (a) the family over the base S^2(R): g_f = R^2 (d theta^2 + sin^2 theta d phi^2) + f^2 (d psi + A)^2, A = (1 - cos theta)/2 d phi
+    R_ = 0.7
+    emb = lambda th, ph, ps: 2*R_*np.array([np.cos(th/2)*np.exp(1j*ps), np.sin(th/2)*np.exp(1j*(ps + ph))])
+    e_round = 0.0
+    for th, ph, ps in zip(rg.uniform(0.2, 2.9, 6), rg.uniform(0, 2*PI, 6), rg.uniform(0, 2*PI, 6)):
+        dv = []
+        for k_ in range(3):
+            d_ = np.zeros(3); d_[k_] = 1e-6; dv.append((emb(*(np.array([th, ph, ps]) + d_)) - emb(*(np.array([th, ph, ps]) - d_)))/2e-6)
+        G = np.array([[np.vdot(u, v).real for v in dv] for u in dv]); a_ = (1 - np.cos(th))/2; f_ = 2*R_
+        Gm = np.array([[R_**2, 0, 0], [0, R_**2*np.sin(th)**2 + f_**2*a_**2, f_**2*a_], [0, f_**2*a_, f_**2]]); e_round = max(e_round, np.abs(G - Gm).max())
+    chern = quad(lambda th: np.sin(th)/2, 0, PI)[0]*2*PI/(2*PI)
+    print("   The response: hold the middle space's metric and vary the connection and the fiber's length -- g_f = pi^* g_M + f^2 (d psi + A_H)^2 -- one quotient")
+    print("   geometry, many canonical ones; on the round shell, f = 2R round and f != 2R squashed (Berger).")
+    print(f"   (a) The family [T/V].  With A = (1 - cos theta)/2 d phi and psi of period 2 pi, the embedding 2R (cos(theta/2) e^(i psi), sin(theta/2) e^(i(psi + phi))) induces g_f with")
+    print(f"     f = 2R exactly ({_v36_13_rb(e_round)} by central differences at six points, R = {R_}): the round S^3 of radius 2R.  The bundle's Chern number (1/2 pi) Int dA = {chern:.12f}, for")
+    print("     every f.  In the archive's own count (III.3) the shell's six metric components are three of the base, one fiber length L_H and two local connection")
+    print("     components; Law I sets the first four and the last two are open -- so in PG the freedom the response describes is, at present, the connection's.")
+    # (b) the geodesics in closed form: with eps = f/(2R) the metric is (2R)^2 times the left-invariant metric diag(eps^2, 1, 1) on the unit S^3 (fibers along i)
+    def geo(q0, om, eps, t):
+        M = np.array([eps**2*om[0], om[1], om[2]]); nM = np.sqrt(dot(M, M)); Mh = M/nM
+        return qm(qm(np.broadcast_to(q0, np.shape(t) + (4,)), qexp(Mh, nM*np.asarray(t))), qexp(I3, (1 - eps**2)*om[0]*np.asarray(t))), M
+    def rhs(t, y, Iv):
+        q = y[:4]; om = y[4:]/Iv; return np.concatenate([qm(q, np.concatenate([[0.0], om])), 2*np.cross(y[4:], om)])
+    e_ode = 0.0
+    for eps in (0.8, 1.3):
+        q0 = rg.normal(size=4); q0 /= np.sqrt(dot(q0, q0)); om = rg.normal(size=3); om /= np.sqrt(eps**2*om[0]**2 + om[1]**2 + om[2]**2); Iv = np.array([eps**2, 1, 1.0])
+        sol = solve_ivp(rhs, (0, 6), np.concatenate([q0, Iv*om]), args=(Iv,), rtol=1e-12, atol=1e-13, dense_output=True)
+        tt = np.linspace(0, 6, 61); e_ode = max(e_ode, np.abs(sol.sol(tt)[:4].T - geo(q0, om, eps, tt)[0]).max())
+    rows = []; e_img = 0.0; e_disp = 0.0
+    for eps in (0.8, 1.0, 1.3):
+        for rho in (0.4, 0.9, 1.3, PI/2):
+            # body velocity with image radius rho: cos rho = eps^2 om1/|M|, unit Berger speed eps^2 om1^2 + om2^2 = 1
+            c_ = np.cos(rho); s_ = np.sin(rho); om1 = c_/np.sqrt(eps**2*c_**2 + eps**4*s_**2); om2 = np.sqrt(max(0.0, 1 - eps**2*om1**2)); om = np.array([om1, om2, 0.0])
+            q0 = rg.normal(size=4); q0 /= np.sqrt(dot(q0, q0)); qT, M = geo(q0, om, eps, 0.0); nM = np.sqrt(dot(M, M)); T_ = PI/nM
+            ts = np.linspace(0, T_, 241); qs, _ = geo(q0, om, eps, ts); cen = pim(q0, M/nM)
+            e_img = max(e_img, np.abs(np.arccos(np.clip(dot(pim(qs, I3), cen), -1, 1)) - rho).max())
+            g_ = qm(qc(q0), qs[-1]); dpsi = np.arctan2(g_[1], g_[0]) % (2*PI); pred = (PI + PI*(1/eps**2 - 1)*np.cos(rho)) % (2*PI)
+            e_disp = max(e_disp, abs(dpsi - pred) if abs(dpsi - pred) < PI else 2*PI - abs(dpsi - pred), abs(g_[2]) + abs(g_[3])); rows.append((eps, rho, T_, dpsi))
+    print("   (b) The geodesics [T/V].  With eps = f/2R the metric is (2R)^2 times the left-invariant metric diag(eps^2, 1, 1) on the unit S^3, and the geodesic with body")
+    print("     velocity (w1, w2, w3) is q(t) = q0 exp(t M) exp(t (1 - eps^2) w1 i), M = (eps^2 w1, w2, w3) -- the free symmetric top -- in agreement with the integrated")
+    print(f"     geodesic equation ({_v36_13_rb(e_ode)} at eps = 0.8 and 1.3).  The last factor lies along the fiber, so its middle-space image is the image of the round great circle")
+    print(f"     q0 exp(t M): a ring of angular radius rho, cos rho = eps^2 w1/|M|, about q0 M q0^-1, revolved in t = pi/|M| ({_v36_8_r(e_img)}) -- every member's geodesics project to")
+    print("     the same rings of the one base.  What the member changes is the return: after one revolution the geodesic is displaced along the fiber by")
+    print("       Delta psi = pi + pi (4R^2/f^2 - 1) cos rho            (" + _v36_8_r(e_disp) + " against the closed form)")
+    for eps, rho, T_, dpsi in rows:
+        print(f"       f/2R = {eps:.1f}, rho = {rho:.4f}: one revolution in {T_:.6f}, Delta psi = {dpsi:.6f}")
+    print("     so the antipode (Delta psi = pi) is reached after one revolution by every geodesic in the round member, and by the horizontal ones (rho = pi/2, the great")
+    print("     circles of the base) in every member; otherwise the geodesic misses its antipode by pi (4R^2/f^2 - 1) cos rho, and closes after N revolutions only when")
+    print("     N [1/2 + (4R^2/f^2 - 1) cos rho / 2] is an integer.  The round member is the one whose geodesics all close -- the exactness of Entry 367, as a choice of")
+    print("     canonical metric over a fixed middle-space metric.")
+    # (c) the arena's source shells: XXIV.23's squashing R_H/R = 1/sin x, so f/2R = 1/(2 sin x)
+    shell = []
+    for x in (0.3, PI/6, 0.9, PI/2):
+        eps = 1/(2*np.sin(x))
+        for rho in (0.5, 1.0, PI/2):
+            c_ = np.cos(rho); s_ = np.sin(rho); om1 = c_/np.sqrt(eps**2*c_**2 + eps**4*s_**2); om2 = np.sqrt(max(0.0, 1 - eps**2*om1**2)); om = np.array([om1, om2, 0.0])
+            q0 = rg.normal(size=4); q0 /= np.sqrt(dot(q0, q0)); _, M = geo(q0, om, eps, 0.0); qT, _ = geo(q0, om, eps, PI/np.sqrt(dot(M, M)))
+            g_ = qm(qc(q0), qT); dpsi = np.arctan2(g_[1], g_[0]) % (2*PI); unw = PI*(4*np.sin(x)**2 - 1)*np.cos(rho); shell.append((x, rho, dpsi, (PI + unw) % (2*PI), unw))
+    e_shell = max(min(abs(d - p_), 2*PI - abs(d - p_)) for x, r, d, p_, u in shell)
+    print("   (c) On the arena's own shells [V | conformal lift].  XXIV.23 finds each source shell's Hopf S^3 a Berger sphere with R_H/R = 1/sin x, x the reference")
+    print(f"     colatitude, round exactly at x = pi/6 and its twin; so 4R^2/R_H^2 = 4 sin^2 x, and the displacement beyond the antipode is Delta psi - pi = pi (4 sin^2 x - 1) cos rho")
+    print(f"     ({_v36_8_r(e_shell)} against the closed form, modulo 2 pi):")
+    for x in (0.3, PI/6, 0.9, PI/2):
+        print(f"       x = {x:.4f}: " + "; ".join(f"rho = {r:.4f}: {(u if abs(u) > 5e-13 else 0.0):+.6f}" for xx, r, d, p_, u in shell if xx == x))
+    print("     Under that lift the locking fixes each shell's squashing by its reference colatitude alone, and with the standard connection, which spherical symmetry")
+    print("     fixes up to gauge, nothing is left to choose on a static source shell; beyond that sector the connection's two components, which PG's laws leave open,")
+    print("     and any receiver dependence stay open.  Every ring's geodesic lift reaches its antipode after one revolution only on the round shells x = pi/6 and its")
+    print("     twin 5 pi/6; for rho < pi/2 the unwrapped displacement falls short nearer the source or its twin and overshoots between them, the closure phase itself")
+    print("     being modulo 2 pi.  A disk centered on the source meets every source shell in great circles, rho = pi/2, whose geodesic lifts are horizontal and reach")
+    print("     the antipode on every shell; the displacement belongs to rings that are small circles of a shell.")
+    # (d) photons: null geodesics of -dt^2 + g_f project with g_M(x', x') = -p^2/f^2
+    e_null = 0.0
+    for eps in (0.8, 1.3):
+        for rho in (0.5, 1.1):
+            c_ = np.cos(rho); s_ = np.sin(rho); om1 = c_/np.sqrt(eps**2*c_**2 + eps**4*s_**2); om2 = np.sqrt(max(0.0, 1 - eps**2*om1**2)); om = np.array([om1, om2, 0.0])
+            q0 = rg.normal(size=4); q0 /= np.sqrt(dot(q0, q0)); ts = np.array([0.3, 0.3 + 1e-6, 0.3 - 1e-6]); qs, _ = geo(q0, om, eps, ts)
+            dP = (pim(qs[1], I3) - pim(qs[2], I3))/2e-6; base2 = dot(dP, dP)/4                     # the base S^2(1/2) of the unit S^3: |d pi|^2/4
+            p_over_f = eps*om1                                                                    # fiber part of the unit speed: eps w1
+            e_null = max(e_null, abs((-1 + base2) - (-(p_over_f)**2)))
+    print(f"   (d) Photons [V].  With a time direction, -dt^2 + g_f, a null geodesic's spatial part has unit speed, and its projection has g_M(x', x') = -1 + (base speed)^2")
+    print(f"     = -p^2/f^2 ({_v36_13_rb(e_null)} at four settings): timelike unless the fiber momentum p vanishes, as the response says -- so a photon that stays null in the middle")
+    print("     space moves horizontally, and its two-endpoint state must be carried by something other than motion along the fiber.")
+    print("   (e) What the reduction must meet [D].  The completion's price (II.2, new in 17.6): a smooth completion collapses the fiber on the restored meridian,")
+    print("     L_H = O(sqrt rho), while Law I's locking grows it toward a source -- the tension the response cites, which a global member of this family must meet;")
+    print("     and the charge branch (X.11) declined the analogous geometrization on the meridian circle, a dilaton among its three costs.")
+    ok = (e_round < 1e-8 and abs(chern - 1) < 1e-12 and e_ode < 1e-8 and e_img < 1e-10 and e_disp < 1e-10 and e_null < 1e-6 and e_shell < 1e-10
+          and all(abs(d - PI) < 1e-10 and abs(u) < 1e-10 for x, r, d, p_, u in shell if abs(x - PI/6) < 1e-12 or abs(r - PI/2) < 1e-12)
+          and all(abs(u) > 1e-3 and (u < 0) == (x < PI/6) for x, r, d, p_, u in shell if abs(x - PI/6) > 1e-12 and abs(r - PI/2) > 1e-12)
+          and all(abs(d - PI) < 1e-10 for e, r, T, d in rows if abs(e - 1) < 1e-12 or abs(r - PI/2) < 1e-12)
+          and all(abs(d - PI) > 1e-3 for e, r, T, d in rows if abs(e - 1) > 1e-12 and abs(r - PI/2) > 1e-12))
+    check(ok, "Entry 368 and the response: the connection metric round for f = 2R, Chern number 1; its geodesics in closed form (the free symmetric top) agreeing with "
+          "the integrated equation, projecting to rings of the one base; the displacement along the fiber after one revolution, pi + pi (4R^2/f^2 - 1) cos rho -- the "
+          "antipode for every geodesic only in the round member, for the horizontal ones in every member; under XXIV.23's conformal lift, on its source shells pi + pi (4 sin^2 x - 1) cos rho, exact "
+          "only at x = pi/6 and its twin; null geodesics projecting with g_M = -p^2/f^2")
+
+def v36_15_suite():
+    """The v36.15 sections: Entries 367 and 368 and the three responses to them."""
+    v36_15_ring(); v36_15_lift()
+
+def v36_15_quick():
+    """The quick set: v36_14_quick and the two v36.15 sections."""
+    v36_14_quick(); v36_15_ring(); v36_15_lift()
 # ---------------------------------------------------------------------------------------------- the suites
 def v36_1_suite(prev=None):
     """The v36.1 sections.  prev: the dicts returned by v36_0_milky_way, v36_0_sparc_pilot and v36_0_zoom_labels (recomputed if None)."""
@@ -24381,8 +24963,8 @@ def v36_0_suite():
     return dict(mw=mw, pilot=p, zoom=z)
 
 def current_suite_v36():
-    """The current regression suite of Parts XXXIII-XXXIV (v36.0-v36.13), followed by the check summary."""
-    prev = v36_0_suite(); v36_1_suite(prev); v36_2_suite(); v36_3_suite(); v36_4_suite(); v36_5_suite(); v36_6_suite(); v36_7_suite(); v36_8_suite(); v36_9_suite(); v36_10_suite(); v36_11_suite(); v36_12_suite(); v36_13_suite()
+    """The current regression suite of Parts XXXIII-XXXIV (v36.0-v36.15), followed by the check summary."""
+    prev = v36_0_suite(); v36_1_suite(prev); v36_2_suite(); v36_3_suite(); v36_4_suite(); v36_5_suite(); v36_6_suite(); v36_7_suite(); v36_8_suite(); v36_9_suite(); v36_10_suite(); v36_11_suite(); v36_12_suite(); v36_13_suite(); v36_14_suite(); v36_15_suite()
     npass = sum(1 for ok, _ in _CHECKS if ok); nfail = len(_CHECKS)-npass
     print(f"\n== check summary (Parts XXXIII-XXXIV): {npass} passed, {nfail} failed ==")
     for ok, msg in _CHECKS:
@@ -24393,7 +24975,7 @@ def current_suite_v36():
 if __name__ == "__main__":
     import sys
     arg = sys.argv[1] if len(sys.argv) > 1 else "current"
-    suites = {"current": current_suite_v36, "v36_0": v36_0_suite, "v36_1": v36_1_suite, "v36_2": v36_2_suite, "v36_3": v36_3_suite, "v36_4": v36_4_suite, "v36_5": v36_5_suite, "v36_6": v36_6_suite, "v36_7": v36_7_suite, "v36_8": v36_8_suite, "v36_9": v36_9_suite, "v36_10": v36_10_suite, "v36_11": v36_11_suite, "v36_12": v36_12_suite, "v36_13": v36_13_suite, "quick": v36_13_quick}
+    suites = {"current": current_suite_v36, "v36_0": v36_0_suite, "v36_1": v36_1_suite, "v36_2": v36_2_suite, "v36_3": v36_3_suite, "v36_4": v36_4_suite, "v36_5": v36_5_suite, "v36_6": v36_6_suite, "v36_7": v36_7_suite, "v36_8": v36_8_suite, "v36_9": v36_9_suite, "v36_10": v36_10_suite, "v36_11": v36_11_suite, "v36_12": v36_12_suite, "v36_13": v36_13_suite, "v36_14": v36_14_suite, "v36_15": v36_15_suite, "quick": v36_15_quick}
     if arg not in suites:
         print("usage: python3 -I pg_v36_numerics.py [" + " | ".join(suites) + "]"); sys.exit(2)
     suites[arg]()
@@ -33072,6 +33654,10 @@ Likewise §XXXIII.63(a)'s "weak matter cannot tilt the sectors at all" means no 
 
 *v36.13 answers the review of v36.12, the referee report on v36.12 and Entry 365 (§XXXIV.35): the direct-mass intervals of §XXXIV.22 are corrected in place as one branch's (§XXXIV.36), and the transport of §XXXIV.30 is repaired and extended (§XXXIV.37); Entry 366's $\tfrac49$ is recorded and checked (§§XXXIV.38–39). §XXXIV.40 is the Part's standing after v36.13 and §XXXIV.41 its register.*
 
+*v36.14 answers the review of v36.13 (§XXXIV.42): the two direct-mass branches are compared against data (§XXXIV.43), and the stabilizers of the Hopf structure and the charged comparison of two histories are worked out (§XXXIV.44). §XXXIV.45 is the Part's standing after v36.14 and §XXXIV.46 its register.*
+
+*v36.15 answers Entries 367–368 and the three responses to them (§XXXIV.47): a galaxy ring is followed into its Hopf torus, with the ring's holonomy, its geodesic lifts and two fibrations at the two ends of a history (§XXXIV.48), and the middle space's metric is lifted to a family of canonical metrics (§XXXIV.49). §XXXIV.50 is the Part's standing after v36.15 and §XXXIV.51 its register.*
+
 ## XXXIV.1 Entries 351–353 and the three responses, as formulated (21 October 2026) [record; R370]
 
 **The author's first message (21 October), with Entry 351 attached.** In the author's words, as the session recorded them (the message itself is not among the uploads; Entry 351 is quoted from its upload):
@@ -41264,6 +41850,8 @@ exactly (to $10^{-12}$ over the three leptons and $200$ random angles), so the t
 
 ## XXXIV.40 Standing of Part XXXIV after v36.13, and the next pieces [S/O; R405]
 
+*[v36.14, R409: §XXXIV.45 is Part XXXIV's standing after v36.14. Nothing in this standing is corrected; the next pieces are reordered and merged as the review of v36.13 gives them, the charged two-history action and the two-branch galactic optical experiment first, with the results of §§XXXIV.43–44.]*
+
 *Corrected [V].* The direct-mass intervals of §XXXIV.22(c)–(d) are one branch's; a second branch near $1.03$ MeV fits all three masses (§XXXIV.36). §XXXIV.30(a)'s thin-loop formula, (b)'s "one connection suffices" and (c)'s benchmark (§XXXIV.37(a)–(c)). No other claim changes.
 
 *Established [T/V], added.* The quartic reduction and the branch map on its grid, for $\lvert m_0\rvert<\Lambda$; the one-scale constructions' two exact fits each under that convention, with their mirrors; the sewing datum's covariance; the first variation with transported curvature; the antilinear phase; the trine's $\tfrac23$; the normalizer of the Hopf $U(1)$ as the fibration's stabilizer; the apsidal residence time and the exponential image's required attenuation; Entry 366's square as the two-hop product, and the half-turn's half-angle $\pi/2$ (§XXXIV.39).
@@ -41291,9 +41879,1541 @@ exactly (to $10^{-12}$ over the three leptons and $200$ random angles), so the t
 - **R404** (§XXXIV.39). Entry 366's $\tfrac49$: the two-hop product $a_{+,n}a_{-,n} = 1+\sqrt2\cos\theta_n+\tfrac12\cos2\theta_n$ is the response's square $d_n^2$, the doubled angle inside the cosine of the mass; the half-turn about the body diagonal attains the real-frame bound with spinor half-angle $\pi/2$, and $\arccos\tfrac23$ is not $\tfrac29$; the cap volume $2\pi\ell^3(\chi-\tfrac12\sin2\chi)$; the point source's $\csc\chi+2\sin\chi$ has no linear angle term, while a single pole's Green function carries $\pi-\chi$ for the Laplacian and for $\Delta+3$ alike and PG's even source needs none; a flat connection's contractible holonomy is the identity; the conjecture $\Phi = p$ recorded as the response's. [T/V/D/S/O]
 - **R405** (§XXXIV.40; §XXXIII.13; the head table; pointers in Part XXXIII's opening, Part XXXIV's opening and §XXXIV.33; the toy). The standing of Part XXXIV after v36.13 and its next pieces, in the review's and the report's order. The suite `pg_v36_numerics.py` at v36.13 has three new sections and checks, $63$ in all; the helpers `_v36_13_sv0`, `_v36_13_quartic`, `_v36_13_end`, `_v36_13_onescale`, `_v36_13_curv` and `_v36_13_rb`; `_v36_12_fw` taking an initial frame; the mode `v36_13`, one to two minutes; `quick`, now $47$ checks. The toy `v32_toy_three_ends.py` gains `v36_13`, its `all` counting $250$. No new figure. The SHA-256 of the suite is in §XXXIII.13. [S/O; reproducibility]
 
-## Round record: the version summaries, v16 to v36.13 (moved from the head of the archive in v34.9, R190)
+## XXXIV.42 The review of v36.13, as formulated (24 October 2026) [record; R406]
 
-*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v36.13, v36.12, v36.11, v36.10, v36.9, v36.8, v36.7, v36.6, v36.5, v36.4, v36.3, v36.2, v36.1, v36.0, v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+**The author's message (24 October), with one attachment.** "Here's the response, thanks!" The attachment is the review of v36.13 ("Projective Gravity v36.13 — Review"). As he sent it:
+
+> # Projective Gravity v36.13 — Review
+>
+> I think v36.13 is a meaningful improvement over v36.12, especially in mathematical reliability. Its most important change is an actual correction to the charged-lepton mass model, while the new Hopf and transport calculations sharpen the geometric framework.
+>
+> The strongest developments are:
+>
+> - A previously missed mass-matrix branch has been found. The eV-scale limits on the direct electron mass were not global exclusions; a separate branch near 1.03 MeV also fits all three charged-lepton masses.
+> - The two-history transport calculation is better specified. It now includes an initial sewing datum, correct non-Abelian curvature transport, and an essential distinction between the spinorial Cartan twist and electromagnetic charge.
+> - The \\(SO(4)\\) doorway proposal has a precise symmetry restriction. The rotations preserving a chosen Hopf fibration are not the same as those preserving a galaxy's center.
+> - The proposed \\(4/9\rightarrow2/9\\) connection has a cleaner mathematical target, though the actual angle-selection law remains unproved.
+>
+> I particularly appreciate that the manuscript explicitly corrects its earlier claims rather than hiding the newly discovered branch. That correction changes what can legitimately be inferred from the lepton data.
+>
+> ## 1. Numerical verification
+>
+> v36.13 regression suite
+>
+> 3 / 3 passed
+>
+> Embedded Python source: 7,933 lines
+>
+> SHA-256 matches the manuscript exactly:
+>
+> `1f1c631b313e31559337fb7cce7e30dcbbd3f50e3bda68f20b9bae3ba6c0d2c8`
+>
+> All three new checks passed: direct-mass branches, transport and Hopf geometry, and Entry 366's angle identities.
+>
+> The complete historical suite contains 63 checks. I ran the three new v36.13 checks, not the full 63-check suite.
+>
+> I also independently recalculated the singular values of the new charged-lepton counterexample using a separate matrix calculation.
+>
+> Independent counterexample verification
+>
+> | Lepton   | Computed light mass   |
+> | -------- | --------------------- |
+> | Tau      | 1776.929999999965 MeV |
+> | Electron | 0.510998950020 MeV    |
+> | Muon     | 105.658375500036 MeV  |
+>
+> These reproduce the three input masses to the displayed precision. Crucially, the electron's determinant has the opposite sign from the other two.
+>
+> So this is a genuine additional fit branch, not a numerical accident or an incorrectly selected heavy singular value.
+>
+> ## 2. The mass-branch correction is the biggest scientific change
+>
+> Section XXXIV.36 identifies two distinct families of solutions to
+>
+> \\[ \mathcal M_n= \begin{pmatrix} m_0&\mu_Aa\_{+,n}\\\ \mu_Ba\_{-,n}&\Lambda \end{pmatrix}. \\]
+>
+> The distinction is the sign of the determinant for each generation.
+>
+> Two branches of the exact three-mass fit
+>
+> | Property                             | Near-zero branch      | New branch               |
+> | ------------------------------------ | --------------------- | ------------------------ |
+> | Direct mass \\(m_0\\)                | −8.446 to +113.612 eV | 1.028484 to 1.081583 MeV |
+> | Determinant signs \\((\tau,e,\mu)\\) | \\((-,-,-)\\)         | \\((-,+,-)\\)            |
+> | Connected to \\(m_0=0\\)?            | Yes                   | No                       |
+>
+> Two independent hopping strengths; \\(|m_0|<\Lambda\\). Intervals are the reported numerically mapped solution ranges, not continuum classification theorems.
+>
+> What makes this particularly substantive is the algebraic reduction to a quartic equation.
+>
+> At each fixed \\(m_0\\), the revised method can enumerate candidate solutions, filter for positive hopping scales, and discard cases assigning an observed lepton to a heavy branch.
+>
+> That is a better approach than continuing only one fitted solution as \\(m_0\\) changes. The earlier procedure could never have discovered a disconnected branch.
+>
+> ### An unexpected result: one-scale models can also fit all three masses
+>
+> The manuscript finds exact three-mass fits even with equal hopping strengths, provided the direct mass is allowed to be nonzero.
+>
+> For the dual-reference construction, one such fit is approximately
+>
+> \\[ \boxed{ \begin{aligned} m_0&=1.031297\ \mathrm{MeV},\\\ \mu&=8.817297\ \mathrm{GeV},\\\ \Lambda&=121.9770\ \mathrm{GeV}. \end{aligned} } \\]
+>
+> This is mathematically distinct from the familiar zero-block benchmark,
+>
+> \\[ m\_\tau^{\rm pred}=1776.9093\ \mathrm{MeV}. \\]
+>
+> The key consequence: the \\(0.23\sigma\\) tau prediction remains valid as a conditional prediction of the exact-zero-block, equal-hop model. But it cannot be promoted to a prediction of every enlarged dual-hop model.
+>
+> On the new three-parameter branch, the tau mass is fitted along with the electron and muon.
+>
+> I would also investigate the new branch's mixing angles and electroweak couplings. Two mass matrices can possess identical light singular values yet have substantially different interactions and heavy-sector phenomenology.
+>
+> A symmetry that really forbids \\(m_0\\), rather than merely assuming it to be small, could exclude the second branch. That is now more important than ever.
+>
+> Pasted text.txt
+>
+> ## 3. The two-history/Weyl construction has become more rigorous
+>
+> Section XXXIV.37 contains three corrections I consider valuable.
+>
+> First, the Fermi–Walker benchmark now starts with the appropriate initial boost \\(B(u(0))\\). The numerical convergence improves from first order to second order.
+>
+> Second, the thin-loop expansion now parallel-transports its curvature contributions to a common fiber before adding them:
+>
+> \\[ \boxed{ W(r)=I+ r\int_0^1 P(1,s)\\, F(Y,\dot\Gamma)(s)\\, P(s,1)\\,ds +O(r^2). } \\]
+>
+> This is important because non-Abelian curvature values at different points cannot simply be summed without identifying their fibers.
+>
+> Third, the comparison between the histories acquires an initial sewing datum:
+>
+> \\[ \boxed{ \mathcal W=P_1H_0P_2^\dagger. } \\]
+>
+> It transforms correctly when the Lorentz frames are changed.
+>
+> Together, these make the limiting construction much better defined.
+>
+> ### The charged-electron obstruction is particularly important
+>
+> Here the referee correction catches something physical, not merely numerical.
+>
+> Because the quaternionic intertwiner \\(j\\) is antilinear,
+>
+> \\[ \boxed{ j^{-1}(e^{i\chi}g)j = e^{-i\chi}\rho(g). } \\]
+>
+> The electromagnetic phase changes sign.
+>
+> But the left- and right-chiral components of a charged Dirac electron carry the same electric charge.
+>
+> Therefore, applying \\(j\\) to the full gauge transport would produce the wrong charge relationship.
+>
+> The revised manuscript correctly restricts its construction to the Lorentz-spin part and leaves the charged completion open.
+>
+> I think this is a major improvement in the theory's internal consistency. It prevents the beautiful geometry of conjugate Weyl representations from being confused with an actual derivation of the charged Dirac field.
+>
+> The next step needs a common-charge gauge connection and a mass term in one well-defined field action.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> ## 4. The \\(SO(4)\\) result gives your galaxy-doorway idea a more exact symmetry structure
+>
+> This is the most relevant result for Entries 364–365.
+>
+> The revision proves that a transformation
+>
+> \\[ q\mapsto aqb^{-1} \\]
+>
+> preserves the selected right Hopf fibration only when
+>
+> \\[ \boxed{ b\in N\_{SU(2)}(U(1)). } \\]
+>
+> That's different from preserving the galaxy's selected center, which requires \\(a=b\\) when that center is represented by \\(q_c=1\\).
+>
+> There is a further consequence worth spelling out.
+>
+> If we require both the center and the chosen Hopf fibration to remain fixed, then
+>
+> \\[ a=b\in N\_{SU(2)}(U(1)). \\]
+>
+> The connected residual symmetry is just a circle:
+>
+> \\[ \boxed{ SO(2)\subset SO(3). } \\]
+>
+> Including the disconnected normalizer component gives an \\(O(2)\\)-type symmetry acting on the selected axis.
+>
+> So the geometry naturally distinguishes three levels:
+>
+> ## \\(SO(4)\\)
+>
+> Rotations of the full round canonical shell
+>
+> ## \\(SO(3)\\)
+>
+> Rotations preserving a selected center
+>
+> ## \\(SO(2)\\)
+>
+> Connected rotations preserving both center and selected Hopf axis
+>
+> This is a cleaner geometric hierarchy than a vague notion of ordinary versus non-Euclidean rotations.
+>
+> For your proposed doorway, the essential question is then which transformations change the selected Hopf structure and which are genuine physical changes rather than passive frame changes.
+>
+> What v36.13 does not yet establish is that moving outside the smaller symmetry group sends light into another visible galaxy.
+>
+> That still requires the optical dynamics.
+>
+> ## 5. Entry 365: good kinematics, but not yet the requested coupled transport
+>
+> I think the manuscript handles your apsidal intuition appropriately.
+>
+> It verifies the residence-time enhancement near an apsis,
+>
+> \\[ \boxed{ \Delta t\propto\sqrt{\Delta r}. } \\]
+>
+> For its benchmark orbit, the time spent within a given radial tolerance halves when that tolerance is reduced by a factor of four.
+>
+> This supports the idea that a physical transition occurring at a finite rate might accumulate more strongly near an apsis.
+>
+> But it doesn't establish an increase in Hopf-fiber momentum, nor does it select the inner rather than the outer turning point.
+>
+> The revision also finds the required transfer function for an exactly exponential gnomonic image. If the source is regular and nonzero,
+>
+> \\[ \Sigma\_{\rm obs} = \cos^3\chi\\, T(\chi)\Sigma\_{\rm source}, \qquad R=\ell\tan\chi, \\]
+>
+> then, up to source factors,
+>
+> \\[ \boxed{ \ln T(\chi) = -\frac{\ell}{h}\tan\chi -3\ln\cos\chi +\text{constant}. } \\]
+>
+> That diverges negatively near the equator.
+>
+> This means the exact exponential profile imposes a very strong condition on photon transport; it is not supplied by a smooth, bounded loss rate over a finite optical path.
+>
+> I would interpret this as a useful constraint on the doorway mechanism, not as evidence that the doorway already exists.
+>
+> The central proposed experiment is still outstanding: one stellar orbit, one matter source, two admissible optical channels, and a propagation law that decides which observer receives which branch.
+>
+> ## 6. The \\(4/9\\) result is algebraically satisfying
+>
+> Section XXXIV.39 gives your earlier half-angle observation a particularly clean form.
+>
+> Let
+>
+> \\[ \theta_n=\frac29+\frac{2\pi n}{3}. \\]
+>
+> Then
+>
+> \\[ \begin{aligned} a\_{+,n}a\_{-,n} &= [1+\cos(\theta_n+\pi/4)] [1+\cos(\theta_n-\pi/4)]\\\ &= \left(\cos\theta_n+\frac1{\sqrt2}\right)^2\\\ &= \boxed{ 1+\sqrt2\cos\theta_n +\frac12\cos2\theta_n. } \end{aligned} \\]
+>
+> So the doubled phase
+>
+> \\[ \boxed{2\theta_n=\frac49+\frac{4\pi n}{3}} \\]
+>
+> is not merely a possible notation for the lepton formula.
+>
+> It is already present explicitly in its second harmonic.
+>
+> That makes your observation about mass-square factorization and angle doubling especially natural.
+>
+> But the revised analysis also performs the correct negative test.
+>
+> The real-frame rotation attaining squared overlap \\(4/9\\) is a half-turn around the body diagonal. Its spinor half-angle is
+>
+> \\[ \frac\pi2, \\]
+>
+> not \\(2/9\\).
+>
+> So the real-frame invariant still does not directly generate the lepton phase.
+>
+> The model would need a transport mechanism satisfying something like
+>
+> \\[ \boxed{ \Phi\_{\rm transport} = \frac49\ \text{radians}, \qquad \theta\_{\rm spinor} = \frac{\Phi\_{\rm transport}}2 = \frac29. } \\]
+>
+> The equality between overlap and transport angle would be the genuine new law.
+>
+> I also like the clarification that PG's existing even Green function does not contain the sine-minus-angle structure you recalled, although related angle-plus-trigonometric terms do occur in spherical cap volumes and certain single-source Green functions.
+>
+> That keeps an evocative analogy from becoming a false derivation.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> ## 7. My priorities for v36.14
+>
+> I would now prioritize physical discrimination between mathematically allowed alternatives, rather than producing more exact algebraic identities.
+>
+> The mass sector needs a symmetry or action that selects a branch, plus electroweak couplings and radiative matching. The two-history sector needs the charged Dirac extension with an explicit bilocal connector and then a coincident-limit action.
+>
+> For the galaxy doorway, I would hold the gravitational matter source fixed and construct the simplest nontrivial optical transport that might distinguish the two halves of the already-calculated spiral-like orbit. Then vary the observer's selected Hopf frame and test continuity, apparent angular momentum, photon conservation and the gravity-base source. Only after that should elliptical-galaxy morphology be introduced as a further consequence.
+>
+> The \\(4/9\\) selection law can remain a separate geometric research target until a natural connection and transport loop have been specified.
+>
+> ## Overall verdict
+>
+> I would keep v36.13 as the new baseline.
+>
+> Its most important virtue is that it fixes an overstated exclusion claim by finding a genuine counterexample and organizing the solution space more carefully.
+>
+> Its strongest geometrical improvement is the explicit identification of the selected Hopf fibration's stabilizer and its separation from the selected galaxy center.
+>
+> And its most important physics correction is recognizing that the quaternionic spinor intertwiner does not, by itself, preserve an electron's electromagnetic charge representation.
+>
+> The manuscript is still a speculative framework, and its distinctive gravitational and optical mechanisms remain unverified. The earlier rotation-curve discrepancies also remain serious and unresolved.
+>
+> But v36.13 now provides sharper mathematical constraints on the exact physical theories PG could become. That's a valuable form of progress: several attractive geometric possibilities are no longer treated as automatic physical consequences, and the next calculations have clearer criteria for success or failure.
+>
+> My strongest recommendation is to make the charged two-history action and the two-branch galactic optical experiment the next two concrete constructions. They would directly test the two most interesting mechanisms currently suggested by the geometry.
+
+*The attachment's markup* — the escaped brackets around its mathematics, the escaped underscores, the tables, the headings inside its section 4, the lines reading "Pasted text.txt" and the `&#x20;` entities — is its own, quoted unchanged. The text is the one the author forwarded, not this archive's.
+
+**What v36.14 does with it.**
+
+*The review retains the round:* "I would keep v36.13 as the new baseline." It extracted the suite, matched its SHA-256 (`1f1c631b…`, the one v36.13's §XXXIII.13 states), counted "Embedded Python source: 7,933 lines" (the embedded block's length) and ran the `v36_13` mode ("3 / 3 passed"; "I ran the three new v36.13 checks, not the full 63-check suite."). It recomputed the report's counterexample by its own matrix calculation, printed the three light masses to twelve decimal places, and concluded: "So this is a genuine additional fit branch, not a numerical accident or an incorrectly selected heavy singular value." §XXXIV.43(a) checks its digits against the suite's. Its statement that the zero-block prediction survives conditionally — the "…tau prediction remains valid as a conditional prediction of the exact-zero-block, equal-hop model" — is §XXXIV.14(c)'s, recomputed in §XXXIV.43(b).
+
+*Its central request* is discrimination: "I would now prioritize physical discrimination between mathematically allowed alternatives, rather than producing more exact algebraic identities." For the branches it asks two things. "I would also investigate the new branch's mixing angles and electroweak couplings", since "Two mass matrices can possess identical light singular values yet have substantially different interactions and heavy-sector phenomenology"; and a symmetry that forbids the direct mass, "…rather than merely assuming it to be small, could exclude the second branch." §XXXIV.43 does both as far as the archive's own model allows. The protecting symmetry of §XXXIV.16(a) leaves a dimension-five direct mass, so it turns each branch into a window of the cutoff rather than excluding one (§XXXIV.43(c)). Under §XXXIV.16(a)'s assignment, the left mixing alone moves the Standard-Model couplings at tree level; on the first branch it stays below $5.1\times10^{-4}$ with the partner above $24$ TeV, while the second branch's interior combines light partners with large left mixing (§XXXIV.43(d)–(e)). That comparison is an orientation against two published results, not a fit.
+
+*Its section 3* calls the charged-electron obstruction "particularly important": because $j$ is antilinear, "…applying" $j$ "to the full gauge transport would produce the wrong charge relationship"; "The next step needs a common-charge gauge connection and a mass term in one well-defined field action." §XXXIV.44(c) finds when applying $j$ gives the right charge relationship: with the second history carrying the opposite charge, the $j$-read leg carries the first leg's charge. The comparison of the two charged transports is then gauge-invariant, its phase the loop's electromagnetic flux, which vanishes in the thin-loop limit. This is the two-component form of a Dirac fermion, the report's first option in §XXXIV.37(c). Why a PG history should carry the conjugate charge, and the action, stay open.
+
+*Its section 4* completes v36.13's stabilizer result: "If we require both the center and the chosen Hopf fibration to remain fixed, then" $a = b$ in the normalizer, and "The connected residual symmetry is just a circle", with an $O(2)$-type symmetry once the other component is included — three levels, $SO(4)$, $SO(3)$ and $SO(2)$, the last "Connected rotations preserving both center and selected Hopf axis". §XXXIV.44(a)–(b) confirms the three levels and the $O(2)$, and finds two more between them: the fibration's own stabilizer, of dimension $4$, and a $2$-dimensional group that keeps the center's fiber but moves the center along it. It also says what the middle space sees of them. It records, with the review, that "What v36.13 does not yet establish is that moving outside the smaller symmetry group sends light into another visible galaxy."
+
+*Its sections 5 and 6* read v36.13's Entry 365 and Entry 366 results as v36.13 stated them. The residence time "halves when that tolerance is reduced by a factor of four" (§XXXIV.37(f)'s ratios $2.002$ and $2.000$); "But it doesn't establish an increase in Hopf-fiber momentum, nor does it select the inner rather than the outer turning point"; the exponential image is "a useful constraint on the doorway mechanism"; and in the $\tfrac49$ result "The equality between overlap and transport angle would be the genuine new law", while the Green-function clarification "keeps an evocative analogy from becoming a false derivation." These are recorded; nothing in them asks for a change.
+
+*Its priorities* (its section 7) are four. For the mass sector, a symmetry or action selecting a branch, electroweak couplings and radiative matching. For the two histories, "the charged Dirac extension with an explicit bilocal connector and then a coincident-limit action". For the galaxy doorway, the matter source held fixed and "the simplest nontrivial optical transport that might distinguish the two halves of the already-calculated spiral-like orbit", then the observer's Hopf frame varied, with continuity, apparent angular momentum, photon conservation and the gravity-base source tested, elliptical morphology last. And the $\tfrac49$ law as a separate target. Its "strongest recommendation", "to make the charged two-history action and the two-branch galactic optical experiment the next two concrete constructions", sets the order of §XXXIV.45's next pieces. Its closing caution — "The manuscript is still a speculative framework, and its distinctive gravitational and optical mechanisms remain unverified. The earlier rotation-curve discrepancies also remain serious and unresolved." — is the archive's as well (the head table's Part XXXIII rows; the manuscript's "No observed rotation curve is reproduced from the theory as specified").
+
+## XXXIV.43 The two direct-mass branches against data: the review's digits, the cutoff window of each branch, and the mixings and tree-level electroweak couplings under the archive's own assignment [V/S/O; R407] *(`v36_14_branches()`)*
+
+*The review of v36.13 (§XXXIV.42) asks for physical discrimination between the two branches of §XXXIV.36: a symmetry that forbids the direct mass, and the second branch's mixing angles and electroweak couplings. This section checks the review's numbers and does both within the archive's own model — the chiral two-hop seesaw of §XXXIV.16, read with the direct mass the smaller diagonal entry, $\lvert m_0\rvert<\Lambda$, as in §XXXIV.36. Nothing is fitted.*
+
+**(a) The review's digits [V].** The review recomputed the report's counterexample and printed the light masses as $1776.929999999965$, $0.510998950020$ and $105.658375500036$ MeV. The suite's light singular values at the same parameters agree with these to $10^{-10}$ relative — the electron's last printed digits carry the review's precision — and with the PDG masses to $10^{-12}$. The determinants' signs are $(-,+,-)$, the electron's opposite to the others, as the review says.
+
+**(b) The conditional $\tau$ prediction [V].** The dual factors with one hop scale and the exact zero block, the electron and the muon fitted ($\mu = 147.09$ GeV, $\Lambda = 34466$ GeV), give $m_\tau = 1776.9093$ MeV, $-0.23\sigma$. That is §XXXIV.14(c)'s value, which the review calls a conditional prediction of the exact-zero-block, equal-hop model. With $m_0$ free, as in the three-parameter fits of §XXXIV.36(d), the $\tau$ is fitted, not predicted. Both statements are the archive's.
+
+**(c) What the protecting symmetry selects [S/V].** The review: a symmetry that forbids $m_0$, "rather than merely assuming it to be small, could exclude the second branch." §XXXIV.16(a)'s symmetry — a charge on the right hop's vev, or $SU(2)_R$ without a bidoublet — forbids $m_0$ at the renormalizable level, and the dimension-five operator then gives $m_0 = C_5v_Lv_R/(2M)$. With $\lvert C_5\rvert = 1$ and $v_R = 10$ TeV the branches become windows of the cutoff:
+
+| $C_5$ | first branch | second branch |
+|:--|:--|:--|
+| $>0$ | $M>1.0836\times10^{13}$ GeV | $1.1382\times10^{9}<M<1.1970\times10^{9}$ GeV |
+| $<0$ | $M>1.4577\times10^{14}$ GeV | none |
+
+Between the windows §XXXIV.36(c)'s map — a numerical classification on its grid, for $\lvert m_0\rvert<\Lambda$ — has no exact fit, and the second branch's window is $5.2\%$ wide in $M$. The symmetry itself allows the dimension-five operator: exchange of $E$ generates it with the seesaw's own flavor structure, and a flavor-blind $m_0$ needs another source of it (§XXXIV.16(a)). With no such source, $C_5 = 0$ and $m_0 = 0$, on the first branch. So the symmetry does not by itself exclude the second branch. It turns the choice of branch into a statement about the flavor-blind source's $C_5v_R/M$, which a completion must fix [S].
+
+**(d) Mixings and couplings [V/S].** In §XXXIV.16(a)'s assignment the partner $E$ is an $SU(2)$ singlet with $e_R$'s charges, and the block's rows are $(\ell_L,E_L)$, its columns $(e_R,E_R)$. At tree level:
+- *the right mixing* changes no Standard-Model gauge coupling, since $e_R$ and $E_R$ carry the same charges;
+- *the left mixing* gives the light lepton a singlet admixture $\sin^2\theta_L$, which lowers its $W$ coupling by $\cos\theta_L$ and its $Z$ axial coupling $g_A$ by $\cos^2\theta_L$.
+
+The suite computes both mixings in closed form from the $2\times2$ Gram matrices:
+
+| branch | $m_0$ | $\Lambda$ (GeV) | lightest heavy (GeV) | $\sin^2\theta_L$ ($\tau$, $e$, $\mu$) | $\sin^2\theta_R(\tau)$ |
+|:--|:--|:--|:--|:--|:--|
+| first | $-8.40$ eV | $628500$ | $628500$ | $1.89\times10^{-7}$, $4.9\times10^{-14}$, $1.73\times10^{-7}$ | $4.22\times10^{-5}$ |
+| first | $0$ | $47890$ | $47890$ | $3.50\times10^{-5}$, $9.1\times10^{-12}$, $3.20\times10^{-5}$ | $3.93\times10^{-5}$ |
+| first | $+40.00$ eV | $24840$ | $24840$ | $2.01\times10^{-4}$, $5.2\times10^{-11}$, $1.83\times10^{-4}$ | $2.55\times10^{-5}$ |
+| first | $+113.50$ eV | $401200$ | $401200$ | $5.06\times10^{-4}$, $1.3\times10^{-10}$, $4.62\times10^{-4}$ | $3.88\times10^{-8}$ |
+| second | $1.028484$ MeV | $10000$ | $10000$ | $1.68\times10^{-6}$, $4.6\times10^{-13}$, $1.59\times10^{-6}$ | $1.82\times10^{-2}$ |
+| second | $1.030000$ MeV | $164.3$ | $164.8$ | $6.34\times10^{-3}$, $1.7\times10^{-9}$, $6.00\times10^{-3}$ | $1.76\times10^{-2}$ |
+| second | $1.055963$ MeV | $52.95$ | $53.04$ | $1.08\times10^{-1}$, $3.2\times10^{-8}$, $1.01\times10^{-1}$ | $8.15\times10^{-3}$ |
+| second | $1.080000$ MeV | $150.7$ | $150.7$ | $1.92\times10^{-1}$, $6.2\times10^{-8}$, $1.78\times10^{-1}$ | $4.73\times10^{-4}$ |
+
+The electron's left mixing is negligible throughout, since its left-hop factor $a_{+,e}$ is small.
+
+At the ends the mixings tend to limits:
+- on the first branch, $\sin^2\theta_L(\tau)\to0$ at the lower end and $5.062\times10^{-4}$ at the upper, while $\sin^2\theta_R(\tau)\to4.222\times10^{-5}$ and $0$;
+- on the second, $\sin^2\theta_L(\tau)\to0$ at the lower end, where $\Lambda$ runs to infinity with $\mu_B$, and $0.197$ at the upper, where it runs with $\mu_A$; $\sin^2\theta_R(\tau)\to0.0182$ and $0$.
+
+The partner is never lighter than $24.30$ TeV on the first branch. On the second, $\Lambda$ falls to $52.95$ GeV and the lightest heavy singular value to $53.04$ GeV, below $100.8$ GeV for $1.032732<m_0<1.077868$ MeV — $85\%$ of the branch's width. The minima are confirmed on grids of $101$ points across each branch.
+
+**(e) For orientation [S].** Two published results place these numbers:
+- *Universality.* The PDG's $Z$-pole couplings ($g_A^e = -0.50111\pm0.00035$, $g_A^\mu = -0.50120\pm0.00054$, $g_A^\tau = -0.50204\pm0.00064$) give $g_A^\tau/g_A^e = 1.0019\pm0.0015$ and $g_A^\mu/g_A^e = 1.0002\pm0.0013$, with the errors taken as uncorrelated. A left mixing makes the ratio $\cos^2\theta_L(\tau)/\cos^2\theta_L(e)$, so universality probes $\sin^2\theta_L$ at the $10^{-3}$ level.
+- *Direct searches.* The PDG's lower limit on a sequential charged heavy lepton decaying to $\nu W$ is $100.8$ GeV (L3).
+
+The first branch's left mixing stays below $5.1\times10^{-4}$. The second's approaches $0.20$ toward its upper end, and its partner falls below $100.8$ GeV over most of its width. On this assignment and at tree level, the first branch and, on the second, only a neighborhood of its lower end are not at once in tension with these data. Near that end $\Lambda$ is large and the left mixing small, while the right mixing stays finite, as at the report's 10 TeV example. As a scale, the ratio's two-sigma lower edge allows $\sin^2\theta_L(\tau)<1.06\times10^{-3}$: the whole first branch, and on the second only $m_0<1.028735$ MeV — the first $0.5\%$ of its width, where $\Lambda>399$ GeV and, for $C_5 = +1$, $1.19671\times10^9<M<1.19700\times10^9$ GeV. The comparison is an orientation, not a fit: the singlet's own production and decays, the correlations of the $Z$-pole fit and the radiative matching are not included, and the L3 limit is for a sequential lepton, not this singlet [S].
+
+**(f) Status.** [V] (a), (b), the mixings and their limits. [S] The cutoff reading of (c), the assignment and the comparison of (e). [O] Which branch a completion's $C_5v_R/M$ selects; the couplings in the $SU(2)_R$ variant, where the right mixing would enter through the right-handed currents; the matching to pole masses.
+
+## XXXIV.44 The stabilizers of the Hopf structure and the charged comparison of two histories [T/V/D/O; R408] *(`v36_14_geometry()`)*
+
+*The review's section 4 sets three levels: $SO(4)$, the $SO(3)$ that fixes a galaxy's center, and the circle that fixes the center and the selected Hopf fibration, with an $O(2)$ once the normalizer's other component is included. Its section 3 asks for a common-charge gauge connection. This section checks the first and completes it, and finds the condition under which the second holds.*
+
+**(a) The lattice [T/V].** Take the Lie algebras of the pairs $(\alpha,\beta)$ acting as $q\mapsto\alpha q-q\beta$:
+
+| what is preserved | dimension | the group |
+|:--|:--|:--|
+| nothing | $6$ | $SO(4)$ |
+| the center, $q = 1$ | $3$ | the diagonal $SO(3)$ |
+| the fibration | $4$ | the left $SU(2)$ with the right normalizer $U(1)\cup jU(1)$, modulo $\pm1$ (identity component $U(2)$) |
+| the fibration and the center's fiber $\{e^{i\varphi}\}$ | $2$ | $U(1)\times U(1)$ with $jU(1)\times jU(1)$, modulo $\pm1$ (identity component a torus) |
+| the fibration and the center | $1$ | the diagonal $U(1)\cup jU(1)$, modulo $\pm1$: the review's $SO(2)$, with its $O(2)$ |
+
+(Fixing the center and its fiber without the fibration also leaves $1$.) The review's three levels are confirmed, and two more lie between them. The fibration's stabilizer has dimension $4$, more than the center's $3$. Between it and the center's circle sits the $2$-dimensional group that keeps the center's fiber but moves the center along it.
+
+The other component: $a = b = je^{i\theta}$ fixes the center and acts on $\mathbb R^3$ as a rotation (determinant $+1$). It reverses the $i$ axis and the center's fiber, $e^{i\varphi}\mapsto e^{-i\varphi}$. With the circle it gives the stabilizer of an unoriented axis — the review's $O(2)$, inside $SO(3)$.
+
+**(b) What the middle space sees [T/V].** With the Hopf map $\pi(q) = qiq^{-1}$, an element $q\mapsto aqb^{-1}$ of the fibration's stabilizer acts on the middle space $S^2$ in two ways, each checked on $50$ random elements to $10^{-12}$:
+- *as the rotation of $a$* when $b$ lies in the $U(1)$;
+- *as that rotation composed with the antipodal map* when $b$ lies in $jU(1)$.
+
+So the right $U(1)$ moves points along their fibers and is invisible in the middle space, the normalizer's other component is its antipodal map, and the fibration's stabilizer acts there as $O(3)$ [T]. For the review's question which transformations are passive: the right $U(1)$ changes nothing the middle space can see, while $jU(1)$ acts there as the antipode. Whether either acts on PG's optics is open [O].
+
+**(c) The charged comparison [T/V/D].** The review: applying $j$ "to the full gauge transport would produce the wrong charge relationship", since the two chiral components of a charged Dirac field carry the same charge. That holds when the two histories carry the same charge.
+
+With the second history carrying the opposite charge,
+
+$$j^{-1}\big(e^{-i\chi}g\big)j = e^{+i\chi}\rho(g)$$
+
+(to $10^{-12}$ on $100$ random elements), so the $j$-read leg carries the first leg's charge, as the other chiral component must — §XX.8b's $S_L$ block, a leg's transport $g$ acting on $S_R$. Take the comparison $\mathcal W = T_1H_0\tau(T_2)^{-1}$ of transports $T_k = e^{iq_k\chi_k}P_k$ between common endpoints. At zero charge it is §XXXIV.37(c)'s $P_1H_0P_2^\dagger$, since $\tau(P)^{-1} = P^\dagger$, and with charge it keeps that section's law $\mathcal W\mapsto h_1\mathcal Wh_2^\dagger$ under independent endpoint frame changes (to $10^{-12}$ on $50$ random frames). Under a gauge transformation it changes by $e^{i(q_1+q_2)\Delta\lambda}$, so it is gauge-invariant exactly when $q_2 = -q_1$, and its phase is then the loop's electromagnetic holonomy $e^{iq_1(\chi_1-\chi_2)}$.
+
+On a test connection with two legs $r$ apart ($r = 0.2$, $0.1$, $0.05$):
+- *with $q_2 = -q_1$* the gauge change moves the phase factor of $\mathcal W$ by less than $10^{-12}$, and the phase is $-0.1511$, $-0.0763$, $-0.0383$ — linear in $r$, the flux through the thin loop — so the charge phase has §XXXIV.30(a)'s identity limit, and the coincident limit of $\mathcal W$ is the uncharged one, the transported four-velocity;
+- *with $q_2 = +q_1$* the gauge change moves that factor by $1.70$, and the phase does not vanish ($+0.96$ at $r = 0.05$).
+
+This is the two-component form of a Dirac fermion: two Weyl fields of one type and opposite charge — in §XX.8b's labels both of the $S_R$ type — the $S_L$ component the $j$-conjugate of the second [D]. §XXXIV.25(c)'s obstruction is for a fixed relation $\psi_R = j\psi_L$ within one field, which this is not. The charged twist is therefore consistent with one electromagnetic connection on the first of the report's three options recorded in §XXXIV.37(c), "the second leg is charge-conjugate". Why a PG history should carry the conjugate charge, the bilocal connector at finite separation, and the coincident-limit action with its mass coupling are open [O].
+
+**(d) Status.** [T] (a)'s lattice; (b)'s induced action; (c)'s identity and transformation law. [V] Their checks. [D] The two-component reading. [O] The second history's charge; the bilocal connector; the action; which stabilizer elements act on PG's optics.
+
+## XXXIV.45 Standing of Part XXXIV after v36.14, and the next pieces [S/O; R409]
+
+*[v36.15, R413: §XXXIV.50 is Part XXXIV's standing after v36.15. Nothing in this standing is corrected; its next pieces stand in their order, with Entries 367–368's added to the galactic optical experiment, the second, from §§XXXIV.48–49.]*
+
+*Corrected.* Nothing; no claim's status changes.
+
+*Established [T/V], added.*
+- the review's counterexample digits and the conditional $\tau$ prediction, reproduced;
+- the mixings on both branches and their limits at the ends;
+- the stabilizer lattice of the Hopf structure, and its action on the middle space;
+- the charged comparison's gauge invariance exactly for opposite charges.
+
+*Specified [S].*
+- the branches as windows of the cutoff under the protecting symmetry's dimension-five term (the windows computed);
+- the tree-level couplings under §XXXIV.16(a)'s assignment, and their orientation against the PDG's $Z$-pole couplings and heavy-lepton limit, which leave the first branch and a neighborhood of the second branch's lower end.
+
+*Not demonstrated*, now including:
+- which value of $C_5v_R/M$ a completion selects;
+- the couplings in the $SU(2)_R$ variant and a fit to the electroweak data with their correlations;
+- why a PG history would carry the conjugate charge;
+- which stabilizer elements act on PG's optics.
+
+The rest of §XXXIV.40's list stands.
+
+*The next pieces,* in the order the review of v36.13 gives them, its strongest recommendation first. §XXXIV.40's six items are merged into them, each with its conditions, apart from the steps this round takes: the second branch's interactions, and the mixings and couplings, that its items 1 and 3 ask for at a benchmark (§XXXIV.43(d), along both branches); the extension to the electromagnetic phase with the two Weyl components' common charge that its item 2 asks for (§XXXIV.44(c): met when the second history carries the opposite charge); and the classification of the $SO(4)$ elements against a center and a fibration that its item 5 begins with (§XXXIV.44(a)).
+1. *The charged two-history action* (the review's first construction; §XXXIV.40's item 2):
+   - the second history as the conjugate-charge field (§XXXIV.44(c));
+   - the history pair as a two-point bundle object with $H_0$, and the bilocal connector at finite separation;
+   - a local coincident-limit action with one electromagnetic connection, its gauge connections and the Dirac mass coupling;
+   - independent endpoint frame changes tested.
+2. *The two-branch galactic optical experiment* (the review's second construction; §XXXIV.40's item 5):
+   - the matter source held fixed, and one smooth two-branch history on §XXVII.7's orbit with position and velocity continuity in the projected sense;
+   - the simplest nontrivial optical transport that distinguishes the two halves — an optical selection rule, not a Hopf sign declared observable;
+   - then the observer's Hopf frame varied within the stabilizers of §XXXIV.44, with continuity, apparent angular momentum, photon conservation and the gravity-base source tested, and Law I applied once to the complete source, with the even and odd moments of its readout;
+   - Entry 365's coupled matter–photon transport within it, with the existing metric and Law I held fixed;
+   - only after a working forward map, the elliptical interpolation and its kinematics.
+3. *The mass sector's selection* (§XXXIV.40's items 1 and 3):
+   - one concrete chiral Lagrangian whose geometry or symmetry fixes the hop operators and their strength ratio without the $\tau$ — one complete gauge assignment with its representations, couplings and potential, through dimension five;
+   - a completion that fixes $C_5v_R/M$, or excludes a flavor-blind dimension-five source by a further symmetry;
+   - the couplings in the $SU(2)_R$ variant, and the electroweak fit with its correlations;
+   - the pole matching with a stated uncertainty — a prediction not used to choose the construction;
+   - the continuum classification of the branches, or a theorem restricted to a declared component.
+4. *The angle-selection target and the $\tfrac49$ law* (§XXXIV.40's item 4), a separate geometric target, as the review says, until a natural connection and transport loop are specified:
+   - a specified configuration space and connection, its normalization, loop and lift;
+   - the phase for all admissible classes, the Bargmann obstruction kept as a control;
+   - Entry 366's conjecture as the response's three calculations (§XXXIV.39(d)).
+5. *Consolidation and the gravity controls* (§XXXIV.40's item 6):
+   - the compact active manuscript, its form the author's to decide;
+   - on the localization track, a positive supersolution or a native metric–measure–source–observable calculation.
+
+Carried from §XXXIV.33, unchanged:
+- the two-history ontology's remaining items (its item 2): the physical origin of the twist, §XX.12's family, the neutral leptons' conjugate pairing, weak isospin and the galaxies' labels;
+- §XXXIV.27's remaining items (its item 4): the selection theorem and the trigonal frame's source, transport at the action level with the chiral rotations, neutrino mixing once the field content is fixed, the stitching target;
+- from Entries 361–364 (its item 5), a canonical operation on the shell inducing one of §XXXIV.32's reductions on the carrier.
+
+The quark-sector items the head table lists remain not attempted.
+
+*Not claimed.* No mass, mixing angle or phase is derived, and none was fitted. The orientation of §XXXIV.43(e) is not an exclusion. The charged comparison's consistency is a condition, not a derivation of the electron. The stabilizers are of the representation, not yet of PG's optics.
+
+## XXXIV.46 Register R406–R409 [D/O; v36.14]
+
+- **R406** (§XXXIV.42). The review of v36.13, as the author sent it; what v36.14 does with it. [record]
+- **R407** (§XXXIV.43). The two direct-mass branches against data:
+  - the review's twelve-digit masses reproduced, signs $(-,+,-)$;
+  - the one-scale zero-block dual factors' $m_\tau = 1776.9093$ MeV ($-0.23\sigma$);
+  - the protecting symmetry's dimension-five term making each branch a window of the cutoff — for $C_5 = +1$ and $v_R = 10$ TeV, $1.1382\times10^9<M<1.1970\times10^9$ GeV for the second and $M>1.0836\times10^{13}$ GeV for the first; for $C_5 = -1$, the first alone, $M>1.4577\times10^{14}$ GeV;
+  - under §XXXIV.16(a)'s assignment, the left mixing alone moving the Standard-Model couplings at tree level — below $5.1\times10^{-4}$ on the first branch with the partner above $24.30$ TeV, approaching $0.20$ on the second with the partner down to $53.04$ GeV and below $100.8$ GeV for $1.032732<m_0<1.077868$ MeV;
+  - the orientation against the PDG's $Z$-pole couplings and the L3 limit on a sequential heavy lepton — with the universality ratio's two-sigma edge as a scale, $m_0<1.028735$ MeV on the second branch, its first $0.5\%$.
+
+  [V/S/O]
+- **R408** (§XXXIV.44). The stabilizers of the Hopf structure and the charged comparison:
+  - dimensions $6$, $4$, $3$, $2$, $1$ for $SO(4)$, the fibration, the center, the fibration with the center's fiber, and the fibration with the center;
+  - the $O(2)$ component;
+  - the fibration's stabilizer acting on the middle space as $O(3)$, the right $U(1)$ invisibly and $jU(1)$ as the antipode;
+  - $j^{-1}(e^{-i\chi}g)j = e^{i\chi}\rho(g)$, so the charged comparison $\mathcal W = T_1H_0\tau(T_2)^{-1}$ is gauge-invariant exactly when the second history carries the opposite charge, its phase the loop's flux — the two-component form of a Dirac fermion.
+
+  [T/V/D/O]
+- **R409** (§XXXIV.45; §XXXIII.13; the head table; pointers in Part XXXIII's opening, Part XXXIV's opening and §XXXIV.40; the toy). The standing of Part XXXIV after the review of v36.13 and its next pieces, in the review's order.
+  - The suite `pg_v36_numerics.py` at v36.14 has two new sections and checks, $65$ in all, and the helper `_v36_14_mix`.
+  - The mode `v36_14` runs in a few seconds; `quick` now has $49$ checks.
+  - The toy `v32_toy_three_ends.py` gains `v36_14`, its `all` counting $252$.
+  - No new figure. The SHA-256 of the suite is in §XXXIII.13.
+
+  [S/O; reproducibility]
+
+## XXXIV.47 Entries 367 and 368 and the three responses to them, as formulated (24 October 2026) [record; R410]
+
+**The author's first message (24 October), with one attachment.** Entry 367, in two parts, as he sent it:
+
+> Entry 367, 4:17 PM, Oct 24, 2026
+> I mean the explicit idea I’m also thinking of in seeing this fiber-change and center-change hierarchy you’ve lined up here (which is super lovely by the way—that’s an independent idea I was thinking of, which we’ve now connected to galaxy non-Euclidean orientation proper, interestingly) is how an assumed disc galaxy is simply quite literally a circle in the middle space shell, and so a Hopf rising of a circle in the canonical shell—and that of course feels super rich as a starting construction to probe in place of a “galaxy disc” proper! Basically my thought is “how much can we perturb away from along-Hopf-fiber uniformity while still realizing the end circle in the middle space”, and better yet “how can we set this up so that we get the galaxy’s own visible profile of more gas (and I assume more matter density) in the arms but less in the equal-radius circle running through it in other spots, as follows the same orbit pattern formula granted by the metric” and then try to get at the inductive reasoning constraints through that—together with the constraint that we maybe want matter paths to travel through their own antipodes on this, so maybe that means automatically they’re great circles when projected to a single shell or something along those lines—maybe just geodesics more broadly, but it’s especially the lack of sticking to a fiber that I’m especially interested in!
+> Also an even subtler possibility, right, since we also want to hit the mark of the full family of possibilities like normal axis-shifting and all, is like what if we the “observer’s own” information also contributes half the degrees of freedom or something??? As in, even the geodesic on the shell itself is actually a projective artifact of sorts, that way we’re able to arbitrarily shift the view of the galaxy in a variety of ways by updating the viewer’s own structure. Maybe it could be triggered by allowing the viewer end of the dual paths to have one fibration, and the target end have another or something? Or if that simply turns out to be naive, then what could we do to instate viewer-side influence over the target circle??? Thanks!
+>
+> Entry 367, 4:37 PM, Oct 24, 2026
+> Also by the way I wonder if we can interpret the emptier space between spirals as some kind of “failure of exactness” for geodesics or something, like since geodesic alone gives perfect antipodal symmetry heuristically, maybe if we make the paths more wild like some kind of modular difference between orthogonal circle and equator periods or something then that shows up as the space between the spirals or something! Then the spirals themselves can be constrained by the actual GR-style-metric leaf orbits or something! See what I mean???
+> And if not the actual modular matter orbit thing itself, maybe the failure of exactness could itself be involved with some kind of perspectival effect, who knows! Anyways thanks!
+
+The attachment, the response to the entry's first part ("Entry 367 — A galaxy as a Hopf-lifted circle"), as he sent it:
+
+> # Entry 367 — A galaxy as a Hopf-lifted circle
+>
+> I think this gives us a particularly promising new starting point. Rather than beginning with a three-dimensional disk and asking how to hide parts of it, you're suggesting we begin with a closed curve in PG's middle-space shell, examine its entire Hopf lift in canonical space, and ask which distributions of matter and which observer-dependent light histories could make that structure appear as a galaxy.
+>
+> And there's a striking exact result here:
+>
+> A circle in the Hopf base lifts naturally to a torus in the canonical three-sphere. A suitable horizontal lift of that circle is itself a great circle, and after one trip around the projected circle it arrives at its antipode.
+>
+> That directly connects three of your intuitions: the galactic circle, canonical motion extending beyond a single visible representative, and the possibility of a Hopf-sign change.
+>
+> ## 1. The exact geometry: circle downstairs, torus upstairs
+>
+> For PG's compact source-shell model, take
+>
+> \\[ S^3=\\{(z_1,z_2)\in\mathbb C^2:|z_1|^2+|z_2|^2=1\\} \\]
+>
+> with Hopf projection
+>
+> \\[ \boxed{ h(z_1,z_2)= \left( 2z_1\overline{z_2}, |z_1|^2-|z_2|^2 \right)\in S^2. } \\]
+>
+> Now choose a circle \\(C\\) around the equator of the base \\(S^2\\).
+>
+> Every point of \\(C\\) has an entire Hopf circle above it. Collectively, those fibers make a torus:
+>
+> \\[ \boxed{ h^{-1}(C)=S^1\times S^1. } \\]
+>
+> For an equatorial \\(C\\), this is the Clifford torus.
+>
+> Schematic only: the torus is drawn using an ordinary three-dimensional illustration, although its natural embedding is in four real dimensions.
+>
+> This already gives your question about perturbing away from Hopf-fiber uniformity a precise mathematical home.
+>
+> We can study distributions on that lifted torus, and ask which structures descend to the circle and which require additional optical information to become observable.
+>
+> A geometric qualification: one circle represents an orbital ring or selected orbital curve, not an entire disk. A galactic disk would require a family of such circles or other trajectories, together with a matter distribution across them.
+>
+> ## 2. The antipodal connection is exact
+>
+> Here is an especially relevant curve:
+>
+> \\[ \boxed{ q(\varphi)=\frac1{\sqrt2} \left(e^{i\varphi/2},e^{-i\varphi/2}\right). } \\]
+>
+> Its Hopf projection is
+>
+> \\[ \boxed{ h(q(\varphi))=(e^{i\varphi},0). } \\]
+>
+> So downstairs, it goes around the equator once as \\(\varphi\\) runs from \\(0\\) to \\(2\pi\\).
+>
+> But upstairs,
+>
+> \\[ \boxed{ q(\varphi+2\pi)=-q(\varphi), } \\]
+>
+> and only after \\(4\pi\\) does the lifted curve return to its original point.
+>
+> Moreover, \\(q(\varphi)\\) is a genuine great circle of the round \\(S^3\\), traced at half the rate of its projected angular coordinate. Its tangent is horizontal with respect to the standard Hopf connection.
+>
+> A complete base-circle traversal reaches the opposite point on the horizontal great-circle lift.
+>
+> This is not a fitted relationship. It follows from the Hopf geometry itself.
+>
+> It is also a concrete realization of the signed-lift idea you raised in Entry 362.
+>
+> One important limitation: this does not make an arbitrary orbital apsis a Hopf-sign gateway. The sign change occurs after one full traversal of this particular base circle. PG would still have to show how an apsidal transition in its actual orbital dynamics relates to this transport.
+>
+> Nor does reaching \\(-q\\) automatically hide a star: the middle-space Hopf quotient identifies \\(q\\) and \\(-q\\). That additional distinction must arise in physical transport or optical readout.
+>
+> The geometry above is a standard feature of Hopf fibrations: the preimage of a closed base curve is a torus.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://environmentinstitute.uci.edu\&sz=32)
+>
+> environmentinstitute.uci.edu
+>
+> +1
+>
+> &#x20;The next questions—matter distribution, orbital dynamics, and observer-dependent rendering—are the proposed extensions specific to PG.
+>
+>
+>
+> ## 3. How much can we depart from fiber uniformity while preserving the same circle?
+>
+> Quite a lot geometrically.
+>
+> Start from the horizontal lift \\(q(\varphi)\\) above and introduce an arbitrary smooth phase function \\(\lambda(\varphi)\\):
+>
+> \\[ \boxed{ q\_\lambda(\varphi) = e^{i\lambda(\varphi)}q(\varphi). } \\]
+>
+> Because the Hopf map removes the common phase,
+>
+> \\[ \boxed{ h(q\_\lambda(\varphi)) = h(q(\varphi)) = (e^{i\varphi},0). } \\]
+>
+> Every one of these lifted curves has exactly the same middle-space image.
+>
+> Yet their canonical trajectories can be different.
+>
+> For instance, the original horizontal lift has \\(\lambda=0\\). It reaches its antipode after one projected revolution.
+>
+> Choosing
+>
+> \\[ \lambda(\varphi)=\frac{\varphi}{2} \\]
+>
+> instead gives
+>
+> \\[ q\_\lambda(\varphi) = \frac1{\sqrt2}(e^{i\varphi},1), \\]
+>
+> which closes after a single projected revolution.
+>
+> Both trace the same downstairs circle.
+>
+> So your idea of exploring different canonical motions while preserving a fixed middle-space orbit is mathematically very natural.
+>
+> ### The distinction that makes it physical
+>
+> In the standard Hopf connection, the original \\(q(\varphi)\\) is horizontal. Applying a varying \\(\lambda\\) gives it a vertical component proportional to
+>
+> \\[ \boxed{\lambda'(\varphi).} \\]
+>
+> A metric can assign kinetic energy to that component.
+>
+> Thus, even though the projected position is unchanged, the lifted path need not remain a geodesic or have the same dynamical action.
+>
+> That's a possible starting point for a real selection law:
+>
+> > Which lifted trajectories minimize an action, satisfy the canonical matter equations, and remain compatible with the given orbit downstairs?
+>
+> And the answer need not be just one lift.
+>
+> For example, closed curves on the Hopf torus have two winding numbers, representing motion around the base circle and around the fiber. These provide a natural mathematical classification before introducing any visibility mechanism.
+>
+> However, a strict Hopf quotient identifies all phases. If PG maintains that only middle-space positions are physical, the different lifts cannot be distinguished simply by declaring that one has a different phase. An interaction, conserved fiber momentum, or gauge-invariant holonomy must carry the distinction.
+>
+> ## 4. There's a particularly direct way to represent enhanced spiral arms
+>
+> You asked whether the same construction could produce more gas and matter in the spiral portions, and less at other positions of equal galactocentric radius.
+>
+> That is the right density-level question.
+>
+> Let \\(R,\varphi\\) be coordinates on a middle-space galactic disk. As a trial distribution, take
+>
+> \\[ \boxed{ \Sigma(R,\varphi,t) = \Sigma_0(R) \left[ 1+\varepsilon(R) \cos\left( 2[\varphi-\Omega_p t-\kappa\ln(R/R_0)] \right) \right], } \\]
+>
+> where \\(0\leq\varepsilon(R)<1\\).
+>
+> Here \\(\Sigma_0\\) is the azimuthally averaged density, \\(\varepsilon\\) measures spiral contrast, and \\(\kappa\\) sets the winding.
+>
+> A two-armed density pattern at equal radius
+>
+> Schematic logarithmic winding. The density formula defines the proposed pattern; the drawing is illustrative rather than a solution of PG's field equations.
+>
+> The azimuthal average is exactly
+>
+> \\[ \boxed{ \frac1{2\pi}\int_0^{2\pi} \Sigma(R,\varphi,t)\\,d\varphi = \Sigma_0(R). } \\]
+>
+> And the two arms are separated by \\(\pi\\) in azimuth.
+>
+> This is valuable for your center-of-mass intuition: we can generate a two-armed non-axisymmetric distribution without shifting its center simply by maintaining the appropriate twofold symmetry.
+>
+> But notice the distinction between averaging to an axisymmetric density and producing a perfectly isotropic gravitational field.
+>
+> The spiral's nonzero quadrupole generally remains gravitationally relevant. A radial or fiber reduction cannot discard it without a specific source law.
+>
+> ### How could the Hopf lift contribute?
+>
+> Imagine a fiber-dependent distribution upstairs,
+>
+> \\[ \rho_E(R,\varphi,\psi) = \rho_0(R,\varphi) \left[ 1+\eta(R,\varphi)\cos(k\psi+\delta(R,\varphi)) \right]. \\]
+>
+> Integrating over a full uniformly measured Hopf circle gives
+>
+> \\[ \boxed{ \frac1{2\pi}\int_0^{2\pi}\rho_E\\,d\psi = \rho_0(R,\varphi). } \\]
+>
+> The nonuniform fiber mode disappears under that average.
+>
+> That gives us an interesting division of labor:
+>
+> - \\(\rho_0(R,\varphi)\\) determines the actual reduced matter density, including any real spiral overdensities.
+> - The nonuniform lift data might influence an observer-sensitive transport amplitude, if a physical coupling makes that data measurable.
+>
+> In PG's present ontology, though, \\(\rho_E\\) is not automatically a physical matter density, since matter lives after the Hopf quotient. A varying \\(\psi\\)-profile would have to be defined as a legitimate bundle field, not as an observable dependence on an arbitrary gauge coordinate.
+>
+> The geometric construction is available. Its physical role is not yet selected.
+>
+> And the spiral formula above remains an ansatz. The real dynamical test is whether PG's matter equations admit and maintain such a pattern in the actual gravitational potential, rather than merely displaying it at one instant.
+>
+> ## 5. Your proposal about the observer supplying part of the structure is especially interesting
+>
+> I would approach this through two endpoint states and a transport between them.
+>
+> That is actually quite close to the already-established source/receiver structure in PG's two-path work.
+>
+> Let the source and observer possess selected internal directions,
+>
+> \\[ \mathbf n_s,\mathbf n_o\in S^2, \\]
+>
+> and let a photon history \\(\gamma\\) carry a transport operator \\(U\_\gamma\\).
+>
+> For the simplest two-state system, define projectors
+>
+> \\[ P_s=\frac{I+\mathbf n_s\cdot\boldsymbol\sigma}{2}, \qquad P_o=\frac{I+\mathbf n_o\cdot\boldsymbol\sigma}{2}. \\]
+>
+> Then the transmitted fraction into the observer's selected mode is
+>
+> \\[ \boxed{ T_o(\gamma) = \operatorname{tr} (P_oU\_\gamma P_sU\_\gamma^\dagger). } \\]
+>
+> Equivalently,
+>
+> \\[ \boxed{ T_o(\gamma) = \frac{1+\mathbf n_o\cdot \mathcal R\_\gamma\mathbf n_s}{2}, } \\]
+>
+> where \\(\mathcal R\_\gamma\\) is the three-dimensional rotation induced by the transport.
+>
+> This is a familiar mathematical transmission law for a two-state system, not yet an established PG photon law.
+>
+> But it has several attractive features for your question.
+>
+> Both endpoints matter. The source determines one state, the observer supplies another, and the path determines how they are compared.
+>
+> The result is relational. Rotating all the ingredients consistently leaves the transmission unchanged.
+>
+> A moving observer can see a changing image without changing the physical source. The observer's direction changes relative to the transported source state.
+>
+> And the complementary detector mode satisfies
+>
+> \\[ \boxed{T_o+T\_{o^\perp}=1.} \\]
+>
+> So an initially normalized photon state isn't destroyed just because one channel ceases to receive it.
+>
+> This is a mathematically clean way of developing your thought that the viewer provides part of the information that determines the rendered galaxy.
+>
+> ### Can source and viewer choose different Hopf fibrations?
+>
+> Yes as a proposed relative-frame structure, but there are two different meanings.
+>
+> If the source and observer merely choose different reference directions within the same underlying bundle, their comparison can be made using parallel transport. This is the simpler, cleaner construction.
+>
+> If they literally quotient the canonical space by different Hopf \\(U(1)\\) subgroups, they can produce different middle-space descriptions. Those quotients then need an explicit map or correspondence before source and observer data can be compared.
+>
+> The latter is much more ambitious. It could also alter which metric descends, since not every \\(SO(4)\\) transformation preserves one fixed Hopf fibration.
+>
+> I would begin with different source and observer selections on one fixed bundle, rather than changing the quotient itself.
+>
+> There is also a physical catch: ordinary polarization-sensitive selection changes which optical modes a detector receives, not whether an entire galaxy is fundamentally visible. To produce the stronger disappearance effect you envision, the internal channels must have an independently justified physical meaning and coupling to ordinary light.
+>
+> ## 6. Could even the geodesic be a projective artifact?
+>
+> There is a distinction here I think you'd find useful.
+>
+> A geodesic upstairs need not project to a geodesic downstairs if it carries nonzero Hopf-fiber momentum.
+>
+> Take a schematic canonical metric
+>
+> \\[ d\hat s^2 = g\_{ij}(x)\\,dx^i dx^j + R_H^2(x)(d\psi+A_i dx^i)^2. \\]
+>
+> The fiber momentum is
+>
+> \\[ p_H=R_H^2(\dot\psi+A_i\dot x^i). \\]
+>
+> When this is conserved, reducing the geodesic action produces an effective middle-space motion with a connection force and a fiber-radius potential.
+>
+> Schematically, its reduced Lagrangian is
+>
+> \\[ \boxed{ L\_{\rm red} = \frac12g\_{ij}\dot x^i\dot x^j +p_HA_i\dot x^i -\frac{p_H^2}{2R_H^2}. } \\]
+>
+> That's an important possibility for PG.
+>
+> The apparent middle-space orbit can be influenced by the geometry of a direction that the quotient removes.
+>
+> In other words, the projected orbit need not be a free geodesic of the bare quotient metric, even though its parent is a geodesic upstairs.
+>
+> This offers a rigorous interpretation of your intuition that the observable orbit might not contain all the information about the canonical motion.
+>
+> But it is not quite the same as saying that an observer can arbitrarily alter the physical orbit. Changing a rendering can alter the apparent path, while the invariant canonical history and its equations stay fixed.
+>
+> This also reinforces the need to derive the matter action before applying such effects to actual stellar or gas dynamics.
+>
+> ## 7. The experiment I'd do first
+>
+> I would combine these ideas in a sequence where the mathematics is already controlled.
+>
+> 1. Start with the exact Hopf torus. Choose the equatorial middle-space circle, and classify its horizontal, closed, and antipodal lifted histories, including their fiber winding and action.
+> 2. Introduce one rotating, non-axisymmetric matter distribution. Use a two-armed density mode, then ask whether the reduced equations support its orbital kinematics and evolution.
+> 3. Place two observers at different positions or with different selected reference states. Transport photons from the same matter distribution using the same connection and coupling constants.
+> 4. Compare both rendered galaxies and the one gravitational source. Check whether observer motion changes the apparent spiral, how the center and radial velocities transform, and whether the gravity-base source remains conserved and is counted once.
+>
+> The most compelling outcome would be if an antipodal lift or nontrivial Hopf holonomy led to a specific relative source–observer transmission difference that could not be removed by changing gauge.
+>
+> That would connect your earlier signed-circle observation to the actual optical problem.
+>
+> The strongest negative control is equally clear: if all lift variations disappear under the Hopf quotient and the photon transport is insensitive to them, then the proposed spiral visibility mechanism does not follow from that geometry.
+>
+> ## Overall
+>
+> I think the exact horizontal great-circle lift is the most exciting mathematical result to extract from Entry 367:
+>
+> \\[ \boxed{ \begin{aligned} \text{One projected circle:}&\quad \varphi\to\varphi+2\pi,\\\ \text{One horizontal lift:}&\quad q\to-q,\\\ \text{Full lifted return:}&\quad \varphi\to\varphi+4\pi. \end{aligned} } \\]
+>
+> It gives a precise, geometrically native version of the extra sign information you've repeatedly been looking for. And it does so without fitting a phase, inserting an orbital discontinuity, or postulating a second copy of the star.
+>
+> The more speculative—but potentially useful—extension is to let source and observer each contribute a reference state, with their relative relationship determined by photon transport. Then the canonical matter configuration can remain fixed while the received image changes.
+>
+> My recommendation would be to build Entry 367 around the Hopf-lifted ring and its antipodal holonomy first, with the two-endpoint optical transport as the next layer. The dynamical spiral density, the full galaxy disk, and ultimately a possible elliptical-like rendering can then be tested
+
+**The author's second message (24 October), with two attachments.** Entry 368, as he sent it:
+
+> Entry 368, 4:47 PM, Oct 24, 2026
+> Basically the general idea I’d also want to get at pertaining to these two different orthogonal periods in the canonical space is, like, what kind of specific choice from the more general metric configuration in the canonical space can we pick to get this kind of behavior—maybe even basing it in part on the receiver of the dual light path’s own assigned local structure and the holonomy or whatever else structure of the dual light path itself so as to get family structure for galaxies or something—such that still whatever geodesic (or whatever else I guess, maybe there’s multiple options for all I care lol quantum superposition style) trajectory in it consists with the constraint that projecting said wider trajectory back into the middle space (or maybe gravity base space since that’s where the EFEs live directly) agrees with its metric tensor—or frankly is there actually a better way to lift the whole metric tensor of the middle space itself to a family of possible metric tensors for the canonical space or something, rather than having to constraint particle path-wise??? Anyways thanks!
+
+The first attachment, the response to Entry 367's second part ("Entry 367 — Could the spaces between spiral arms arise from imperfect geometric closure?"), as he sent it:
+
+> # Entry 367 — Could the spaces between spiral arms arise from imperfect geometric closure?
+>
+> Yes, I see what you're getting at. And I think the mismatch between two canonical winding periods is an especially worthwhile possibility to investigate.
+>
+> The interesting version is not that matter somehow stops following geodesics between the arms. It's that different motions or transport phases that agree exactly in a special configuration can fail to agree elsewhere, and that failure might affect either the actual matter distribution or the optical reconstruction of it.
+>
+> There's a precise mathematical setting for this, building directly on your previous idea of a galaxy circle lifted into a Hopf torus.
+>
+> ## 1. Two winding periods naturally exist on the lifted circle
+>
+> On the equatorial Clifford torus of the round \\(S^3\\), write
+>
+> \\[ \boxed{ (z_1,z_2)=\frac1{\sqrt2}(e^{i\alpha},e^{i\beta}). } \\]
+>
+> There are two independent periodic angles, \\(\alpha\\) and \\(\beta\\).
+>
+> They can be reorganized as
+>
+> \\[ \boxed{ \phi=\alpha-\beta,\qquad \psi=\frac{\alpha+\beta}{2}. } \\]
+>
+> Here \\(\phi\\) describes position around the equatorial circle in the Hopf base, while \\(\psi\\) is the local Hopf-fiber phase.
+>
+> For the round unit \\(S^3\\), the metric restricted to this torus is
+>
+> \\[ \boxed{ ds^2=\frac14\\,d\phi^2+d\psi^2. } \\]
+>
+> So the two kinds of motion you are wondering about exist within one exact geometric construction.
+>
+> Consider a trajectory
+>
+> \\[ \boxed{ (z_1(t),z_2(t)) = \frac1{\sqrt2} (e^{i\omega_1t},e^{i\omega_2t}). } \\]
+>
+> Its projected motion and fiber motion are
+>
+> \\[ \dot\phi=\omega_1-\omega_2, \qquad \dot\psi=\frac{\omega_1+\omega_2}{2}. \\]
+>
+> Now an interesting classification appears.
+>
+> | Frequency relationship             | Behavior on the lifted torus                  |
+> | ---------------------------------- | --------------------------------------------- |
+> | \\(\omega_1/\omega_2\\) rational   | Trajectory closes after a common period       |
+> | \\(\omega_1/\omega_2\\) irrational | Trajectory winds densely over the torus       |
+> | \\(\omega_1=-\omega_2\\)           | Horizontal great circle; no local fiber drift |
+> | \\(\omega_1=\omega_2\\)            | A single Hopf fiber                           |
+>
+> The rational-versus-irrational closure result is a standard property of geodesics on flat tori.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://math.uchicago.edu\&sz=32)
+>
+> math.uchicago.edu
+>
+>
+>
+> And here's a sharper geometric result:
+>
+> These constant-frequency paths are intrinsic geodesics of the flat Clifford torus, but they are geodesics of the surrounding round \\(S^3\\) only when
+>
+> \\[ \boxed{\omega_1^2=\omega_2^2.} \\]
+>
+> That follows because a round-sphere great circle must have acceleration proportional to its position vector, which forces equal squared angular frequencies in this construction.
+>
+> So your instinct actually distinguishes two mathematically different things:
+>
+> - Perfect great-circle motion in the canonical shell.
+> - More general winding motion confined to the Hopf-lifted torus.
+>
+> That second class has precisely the period mismatch you're describing.
+>
+> ### What about antipodal symmetry?
+>
+> A round \\(S^3\\) great circle reaches its antipode halfway through its full circuit.
+>
+> A generic irrational-slope torus trajectory, however, need never pass through the exact antipode of its starting point.
+>
+> Thus perfect antipodal arrival is not automatic once we allow more general lifted motion.
+>
+> That's an exact way to depart from great-circle antipodal behavior while staying on a smooth, geometrically well-defined trajectory.
+>
+> It is not a failure of the geodesic equation: the distinction is between intrinsic torus geodesics and geodesics of the ambient three-sphere.
+>
+> And it doesn't yet make any region empty.
+>
+> ## 2. Why a period mismatch doesn't automatically make spiral gaps
+>
+> Here's the central catch.
+>
+> Even if a lifted trajectory winds densely across the torus, its projection into the Hopf base can still be an ordinary circle:
+>
+> \\[ \phi(t)=(\omega_1-\omega_2)t. \\]
+>
+> Over many periods, that motion populates the entire projected circle rather than favoring two particular arcs.
+>
+> So an irrational winding ratio alone doesn't explain why some azimuths should contain more gas or stars than others.
+>
+> What we need is a rule that makes certain phase relationships preferred.
+>
+> For actual matter concentrations, that could be a collective dynamical resonance. For optical concentrations, it could be a phase-matching condition between source transport and observer transport.
+>
+> These lead to two different mechanisms.
+>
+> ## 3. The dynamical possibility: spiral arms as phase-locked orbital families
+>
+> PG's existing orbital calculations already give a useful starting point.
+>
+> An eccentric orbit has a radial oscillation frequency \\(\Omega_r\\) and an azimuthal frequency \\(\Omega\_\phi\\).
+>
+> When their periods don't match appropriately, the apsidal direction precesses.
+>
+> For a two-armed spiral pattern rotating at angular speed \\(\Omega_p\\), a possible resonance condition is
+>
+> \\[ \boxed{ 2(\Omega\_\phi-\Omega_p) -\ell\Omega_r -k\Omega_H \approx0, } \\]
+>
+> where \\(\ell,k\\) are integers and \\(\Omega_H\\) would represent an appropriately defined, gauge-invariant Hopf transport rate.
+>
+> Here \\(\Omega_H\\) is proposed new physics; it is not an established orbital frequency of matter in PG's middle space.
+>
+> The idea would be that orbital families satisfying some phase-matching relationship reinforce a common spiral pattern, while others don't remain correlated with it.
+>
+> This could generate a distinction between arms and interarm regions without treating either region as literally empty.
+>
+> But PG has already encountered an important constraint. Its earlier apsidally aligned orbital populations produced spiral-like structures that lost coherence through differential precession. An imposed orbital flip could create winding, but it did not produce a stable spiral with correct stellar motions.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> So a persistent spiral would need an actual collective restoring or synchronization mechanism.
+>
+> The useful new question is whether Hopf transport contributes to that synchronization, rather than merely adding another arbitrary frequency.
+>
+> ## 4. The perspectival possibility: a spiral produced by relative phase matching
+>
+> I think this is especially close to the second possibility you mentioned.
+>
+> Suppose, just as a mathematical experiment, the lifted torus carries a source pattern
+>
+> \\[ \widetilde\rho(R,\phi,\psi) = \rho_0(R) \left[ 1+\epsilon\cos\bigl(2\phi+k\psi-f(R)\bigr) \right]. \\]
+>
+> Here \\(\psi\\) is the Hopf phase and \\(k\\) is a nonzero integer.
+>
+> If the gravitationally relevant source simply averages uniformly over \\(\psi\\), then
+>
+> \\[ \boxed{ \frac1{2\pi}\int_0^{2\pi} \widetilde\rho\\,d\psi =\rho_0(R). } \\]
+>
+> So the reduced density is axisymmetric even though the lifted distribution is not.
+>
+> Now suppose an observer's optical channel has sensitivity
+>
+> \\[ T_o(\psi) = \frac12\left[1+\eta\cos(k\psi-\delta_o)\right]. \\]
+>
+> Integrating the source with that optical weight gives
+>
+> \\[ \boxed{ I_o(R,\phi) = \frac{\rho_0(R)}2 \left[ 1+\frac{\epsilon\eta}{2} \cos\bigl(2\phi-f(R)+\delta_o\bigr) \right]. } \\]
+>
+> That's quite an interesting result.
+>
+> The gravitationally averaged density is circularly symmetric, while the received image has two brighter regions at each radius.
+>
+> If the phase function happens to be
+>
+> \\[ f(R)=2\cot p\ln(R/R_0), \\]
+>
+> then the brightness maxima satisfy
+>
+> \\[ \boxed{ \phi=\cot p\ln(R/R_0)+\text{constant}\pmod\pi, } \\]
+>
+> which gives two logarithmic spiral loci of pitch angle \\(p\\).
+>
+> So, mathematically, a relative phase between a lifted source pattern and an observer-dependent optical channel can turn an axisymmetric fiber average into a two-armed spiral image.
+>
+> That is a concrete realization of your perspectival idea.
+>
+> But three qualifications are essential.
+>
+> First, I deliberately chose the source mode and its radial phase function. The logarithmic spiral has therefore been constructed, not derived from PG's metric.
+>
+> Second, the source and optical phases must be defined relationally, using the Hopf connection and the transport between emitter and receiver. Otherwise \\(\psi\\) is just a gauge coordinate and this is not a physical observable.
+>
+> Third, PG presently places fundamental matter in the Hopf-quotiented middle space. A nonuniform density along the removed fiber is therefore not automatically a permissible physical matter density. The toy would need to be implemented as an additional lifted internal state or transport field, or through a revised parent action. Its contribution to gravitational stress must then be accounted for, not simply assumed to vanish.
+>
+> Still, the algebra demonstrates something useful: the mechanism you are imagining is not conceptually incoherent. It has a simple mathematical prototype with a clear missing physical law.
+>
+> ## 5. Maybe “failure of exactness” should mean failure of closure
+>
+> This is the terminology I would recommend preserving for your idea.
+>
+> Instead of saying geodesics fail to be exact, we could investigate a closure defect or phase-locking defect.
+>
+> One candidate schematic quantity would be
+>
+> \\[ \boxed{ \Delta = 2\phi-\ell\theta_r-k\Phi_H \pmod{2\pi}, } \\]
+>
+> where \\(\theta_r\\) is the radial orbital phase and \\(\Phi_H\\) is a properly defined relative Hopf transport phase.
+>
+> A dynamical interpretation would ask whether matter populations preferentially occupy configurations with certain values of \\(\Delta\\).
+>
+> An optical interpretation would ask whether photons are more likely to belong to an admissible source-to-observer channel for those values.
+>
+> This is closely related to your earlier doorway idea, but it need not impose an instantaneous jump at an apsis. A mismatch could accumulate continuously, and the visibility or density contrast could develop gradually.
+>
+> The distinction matters:
+>
+> | Interpretation    | Arm–interarm contrast comes from                                       |
+> | ----------------- | ---------------------------------------------------------------------- |
+> | Matter dynamics   | Actual differences in physical density or phase-space occupancy        |
+> | Optical readout   | Different transmission or admissibility for the same underlying source |
+> | Coupled mechanism | Matter concentration and optical selection acting together             |
+>
+> The third is the most ambitious, and probably closest to Entry 365.
+>
+> ## 6. What I would test first
+>
+> I would start with a radius-dependent family of Hopf-lifted orbital circles, rather than attempting a complete galaxy immediately.
+>
+> For each radius, calculate the two orbital frequencies from PG's existing middle-space gravitational metric. Introduce a Hopf connection without assigning it an arbitrary spiral phase, and compute the relative holonomy around the actual trajectory.
+>
+> Then ask whether any geometrically preferred condition produces a coherent two-armed phase over a range of radii.
+>
+> The initial decisive test is simple:
+>
+> Does the phase selected by the geometry wind with radius in the required way, or does it remain constant, average out, or shear apart over successive orbital periods?
+>
+> If it winds coherently, we would then ask whether it controls physical matter density, optical admissibility, or both.
+>
+> And we'd compare the outcomes against PG's existing orbital experiment, which showed that constructing a spiral-looking pattern is easier than making one dynamically persistent.
+>
+> ## My take on your new idea
+>
+> I think you've identified a productive distinction.
+>
+> Great-circle antipodal symmetry is a special geometrical case. The broader Hopf-lifted circle admits additional winding structures, nonclosing trajectories, and potentially nontrivial transport phases.
+>
+> Those are real mathematical freedoms.
+>
+> But the missing regions between spiral arms cannot be attributed to nonclosure alone. We need a mechanism that turns the phase mismatch into preferential occupancy or preferential visibility.
+>
+> The especially interesting discovery in the toy calculation is that a source can have a nonuniform lifted pattern whose simple fiber average is circular, while a phase-sensitive optical channel produces a spiral-shaped image.
+>
+> That gives us a way to investigate your intuition without initially changing the gravitational base's axisymmetric source.
+>
+> I'd therefore keep both branches alive, but distinguish them experimentally: one predicts genuine matter overdensities along the arms; the other predicts observer-dependent image contrast from a more symmetric underlying source.
+>
+> The next important result would be deriving their radial phase from the canonical connection or PG's orbital dynamics rather than prescribing it.
+
+The second attachment, the response to Entry 368 ("Entry 368 — Lifting the middle-space metric instead of prescribing individual orbits"), as he sent it:
+
+> # Entry 368 — Lifting the middle-space metric instead of prescribing individual orbits
+>
+> Yes. I think your second approach is mathematically stronger: rather than choosing a special trajectory in canonical space and trying to make its projection agree with the middle-space geometry, start with the middle-space metric and construct a family of compatible canonical metrics.
+>
+> Then let the geodesics, Hopf winding, orbital projections, and photon histories follow from those metrics.
+>
+> There is an established geometric construction for precisely this: a connection metric, closely related to Kaluza–Klein geometry and Riemannian submersions.
+>
+> It fits PG's existing architecture particularly well:
+>
+> \\[ \boxed{ E^6\xrightarrow{\\;\pi_H\\;}\mathcal M^5 \xrightarrow{\\;\pi\_{\rm mer}\\;}B\_{\rm grav}^4. } \\]
+>
+> The critical distinction is that this construction gives us many canonical metrics over one fixed middle-space metric. It does not automatically mean that every geodesic upstairs projects to a geodesic downstairs.
+>
+> That difference actually gives us a way to test your idea.
+>
+> ## 1. A whole family of canonical metrics over one middle-space metric
+>
+> Suppose \\(g\_{\mathcal M}\\) is the Lorentzian metric on PG's five-dimensional middle space, and \\(A_H\\) is a connection on its Hopf-circle bundle.
+>
+> On a regular local patch, define
+>
+> \\[ \boxed{ \widehat g = \pi_H^\*g\_{\mathcal M} + f(x)^2\bigl(d\psi+A_H\bigr)^2. } \\]
+>
+> Here:
+>
+> - \\(g\_{\mathcal M}\\) fixes the geometry that survives the Hopf quotient.
+> - \\(A_H\\) specifies what counts as horizontal versus Hopf-fiber motion.
+> - \\(f(x)>0\\) specifies the local physical radius of the Hopf circle.
+>
+> The first term by itself is degenerate in the fiber direction, so the second term is what turns it into a nondegenerate metric on canonical space.
+>
+> The important result is that changing \\(A_H\\) or \\(f\\), while holding \\(g\_{\mathcal M}\\) fixed, changes the canonical geometry without changing its quotient metric.
+>
+> One middle-space metric, many possible lifts
+>
+> ## \\(g\_{\mathcal M}\\)
+>
+> Fixed quotient geometry
+>
+> Lift A
+>
+> Round Hopf shell
+>
+> Lift B
+>
+> Squashed Hopf shell
+>
+> Lift C
+>
+> Deformed connection
+>
+> All three can possess the same horizontal quotient metric, while differing in their vertical lengths and lifted transport.
+>
+> This is essentially the construction you've been asking for.
+>
+> Even better, PG already contains some of its ingredients: a unit-Chern-class Hopf bundle, a reference connection, and a proposed fiber-length law. The next task would be to determine which members of this metric family are actually allowed by PG's dynamics.
+>
+> ## 2. A concrete example: round and squashed Hopf geometries
+>
+> On the physical source shell, let the quotient \\(S^2\\) have radius \\(R\\). Write its metric as
+>
+> \\[ g\_{S^2}=R^2(d\theta^2+\sin^2\theta\\,d\phi^2). \\]
+>
+> Using a local Hopf connection
+>
+> \\[ A_H=\frac{1-\cos\theta}{2}\\,d\phi, \\]
+>
+> a family of metrics on the lifted \\(S^3\\) is
+>
+> \\[ \boxed{ \widehat g_f = R^2(d\theta^2+\sin^2\theta\\,d\phi^2) + f^2(d\psi+A_H)^2. } \\]
+>
+> Here \\(\psi\\) has period \\(2\pi\\). The connection is given in one gauge patch; another patch is needed for a globally regular description.
+>
+> Now we can distinguish two cases.
+>
+> [The hypersphere in four dimensions | plus.maths.org](https://images.openai.com/static-rsc-4/z6TxwRpxah6YP0Rqdi7PFUDcEIKiLIG93EwIxGf9y9efqVXkaqVGtgRFOnso9Pwk5C-o479cLtNDXmrGh-fWooNqqiA0MW84nwsqTN_xc-VhEQAcxt7ILkuiHVmPnHawSIhbEMfD2Kb6Wfhz8cA7ky4Oy_OFFlzNFfPrnNMCACo?purpose=inline)
+>
+> Round Hopf shell
+>
+> \\(f=2R\\)
+>
+> The canonical metric is round, with maximal rotational symmetry.
+>
+> [Zongfu Yu](https://images.openai.com/static-rsc-4/kTljQI03lIznW5cg7YNjyoFHqYJjLYbRFhFGmcQRgIX8T-lRuzQIlvlOuJXhPgtMgai8PqFjbwlVxCHMbDi4uJ-uamcI-3H70sFsF_D7zpKsXC8HlbnYgl3RZ9IvmqUSShxrpZwj1Aw95cBGTO7jen08oYs9vw6q3H48W9HNOLc?purpose=inline)
+>
+> Berger-type shell
+>
+> \\(f\ne2R\\)
+>
+> The Hopf direction is stretched or compressed relative to the quotient sphere.
+>
+> In both cases, the quotient metric can remain exactly
+>
+> \\[ \boxed{g\_{S^2}=R^2d\Omega_2^2.} \\]
+>
+> But the canonical metrics differ.
+>
+> This is especially interesting for your proposed galaxy family: the visible base geometry need not reveal the full metric structure of the underlying canonical shell.
+>
+> And we could go further by allowing \\(f=f(x)\\), deforming \\(A_H\\), or coupling them to PG's galactic orientation fields.
+>
+> This isn't entirely new to PG: §III.3 already decomposes the shell metric into three base-metric components, one fiber-length component and two local connection components. Entry 368 suggests taking that existing decomposition and using it to define the admissible family of canonical metrics systematically.
+>
+> The Hopf bundle's Chern number remains fixed:
+>
+> \\[ \boxed{ \frac1{2\pi}\int\_{S^2}F_H=\pm1, \qquad F_H=dA_H. } \\]
+>
+> Changing the fiber length does not change this topological invariant. Smooth connection deformations may change local holonomies while retaining the same integrated Chern class.
+>
+> ## 3. Which canonical geodesics project to middle-space geodesics?
+>
+> This is where the construction becomes physically useful.
+>
+> Consider the canonical geodesic Lagrangian
+>
+> \\[ L=\frac12g\_{AB}\dot x^A\dot x^B+ \frac12 f^2(\dot\psi+A_A\dot x^A)^2. \\]
+>
+> Because the metric does not depend explicitly on \\(\psi\\), we have a conserved momentum:
+>
+> \\[ \boxed{ p\_\psi=f^2(\dot\psi+A_A\dot x^A). } \\]
+>
+> Eliminating the fiber coordinate produces an effective equation for the projected trajectory:
+>
+> \\[ \boxed{ \nabla\_{\dot x}\dot x^A = p\_\psi F^A{}\_B\dot x^B - \nabla^A\left(\frac{p\_\psi^2}{2f^2}\right). } \\]
+>
+> This is a standard Kaluza–Klein-type result for affinely parametrized geodesics.
+>
+> It gives us a very useful classification.
+>
+> | Canonical trajectory                | Projected behavior                                          |
+> | ----------------------------------- | ----------------------------------------------------------- |
+> | \\(p\_\psi=0\\)                     | Ordinary geodesic of \\(g\_{\mathcal M}\\)                  |
+> | \\(p\_\psi\ne0\\), constant \\(f\\) | Geodesic with an effective connection-curvature force       |
+> | \\(p\_\psi\ne0\\), varying \\(f\\)  | Connection-curvature force plus fiber-radius-gradient force |
+>
+> So we get a whole family of canonical trajectories that agree with one middle-space metric, even though not all of their projections are free geodesics.
+>
+> That's a powerful improvement over trying to force each lifted trajectory to project onto a prescribed orbit.
+>
+> And there's a particularly strong conclusion:
+>
+> \\[ \boxed{ p\_\psi=0 \quad\Longrightarrow\quad \text{horizontal canonical geodesics project to base geodesics}. } \\]
+>
+> This gives a direct geometrical role to the horizontal lifts you were discussing in Entry 367.
+>
+> ### The relationship to the two periods
+>
+> The Hopf lift of a base circle lies on a torus. It has two independent cycle directions: one associated with the circle downstairs, the other with the Hopf fiber.
+>
+> A horizontal lift has zero covariant Hopf velocity,
+>
+> \\[ \dot\psi+A_A\dot x^A=0, \\]
+>
+> but it can still accumulate a nonzero Hopf phase after going around a closed base loop.
+>
+> For the equatorial great circle of the standard Hopf connection,
+>
+> \\[ \boxed{ \Delta\psi=-\pi\pmod{2\pi}. } \\]
+>
+> Consequently, a complete revolution in the base reaches the antipodal point in the lifted shell.
+>
+> This is the exact two-period behavior we discussed previously.
+>
+> Now the important distinction: the antipodal result comes from connection holonomy, not from physically accelerating into the Hopf direction at an apsis.
+>
+> Moreover, a line that is a geodesic of the lifted torus need not be a geodesic of the complete three-sphere; its acceleration normal to the torus must also vanish.
+>
+> That's precisely why deriving trajectories from the full canonical metric is preferable.
+>
+> ## 4. What about photons? Here is a strong restriction
+>
+> Suppose canonical photon trajectories are null geodesics of this six-dimensional metric.
+>
+> Then
+>
+> \\[ 0=\widehat g(\dot\Gamma,\dot\Gamma) = g\_{\mathcal M}(\dot x,\dot x) + \frac{p\_\psi^2}{f^2}. \\]
+>
+> Therefore,
+>
+> \\[ \boxed{ g\_{\mathcal M}(\dot x,\dot x) = -\frac{p\_\psi^2}{f^2}. } \\]
+>
+> For a Lorentzian middle-space metric, this means a canonical null geodesic with nonzero Hopf momentum projects to a timelike, not null, trajectory.
+>
+> That is an immediate consistency test.
+>
+> If PG wants ordinary photons to propagate as null rays of the middle-space metric, then in this simple model they must have
+>
+> \\[ \boxed{p\_\psi=0.} \\]
+>
+> If instead you want the photon's canonical trajectory to carry nonzero vertical momentum, PG must explain the resulting effective propagation law and why it remains compatible with observed massless-photon behavior.
+>
+> So there may be a better route to the optical doorway than literally moving photon position along the Hopf fiber.
+>
+> Let photons remain geometrically null downstairs, but carry an additional transported internal state that determines which optical readout receives them.
+>
+> That preserves the geometrical metric and gives your dual-light-path construction a separate job.
+>
+> ## 5. Your observer-side idea is especially interesting
+>
+> You suggested that the target end of a light history and the receiver end might have different selected fibrations.
+>
+> I think that can be made precise without allowing an observer to change a distant galaxy's actual matter geometry.
+>
+> Suppose the source has a local state \\(|s\rangle\\), the observer has a selected receiving state \\(|d\rangle\\), and a photon history \\(\gamma\\) transports the source state by \\(U\_\gamma\\).
+>
+> Then the reception probability is
+>
+> \\[ \boxed{ T\_{\gamma}(s,d) = \left|\langle d|U\_\gamma|s\rangle\right|^2. } \\]
+>
+> This already gives both endpoints a role.
+>
+> The source selects what is emitted. The observer selects what is received. The path determines the relationship between those selections.
+>
+> For multiple histories, the amplitudes can be combined coherently when their coherence conditions permit it; otherwise their intensities must be added.
+>
+> ### Different Hopf fibrations at source and receiver
+>
+> Let's suppose the source and receiver each select a complex axis in the quaternionic structure.
+>
+> Those axes can be represented by points of
+>
+> \\[ SU(2)/U(1)\simeq S^2. \\]
+>
+> The source-selected axis and receiver-selected axis need not agree.
+>
+> But to compare states defined using different local fibrations, PG needs a well-defined identification or soldering map between the endpoint bundles.
+>
+> Without that, the inner product above is not physically defined.
+>
+> With that identification, the receiving probability could depend on the relative orientation of the two endpoints and the holonomy of the complete path.
+>
+> This gives a mathematically controlled version of your idea that part of a galaxy's visible realization comes from the receiver's own structure.
+>
+> It need not imply that the receiver changes the actual distant galaxy.
+>
+> Instead, the full canonical source is fixed, while different receivers extract different observational representations.
+>
+> ### The invariance we'd want
+>
+> If we transform the source frame, receiver frame and transport consistently, the observed probability should remain unchanged:
+>
+> \\[ \boxed{ T\_\gamma \quad\text{is invariant under simultaneous gauge changes}. } \\]
+>
+> But physically moving the observer, changing the detector orientation, or changing the path can change \\(T\_\gamma\\).
+>
+> That is the essential distinction between a passive change of description and a genuine change in optical reception.
+>
+> It could eventually provide a principled way to investigate whether some observers see a spiral-like image while others see a different distribution.
+>
+> It does not, by itself, guarantee that such a difference occurs, nor that the difference resembles an elliptical galaxy.
+>
+> ## 6. How do we retain Einstein's equations on the gravity base?
+>
+> This is the final constraint in your question.
+>
+> We have constructed
+>
+> \\[ \widehat g \longrightarrow g\_{\mathcal M}. \\]
+>
+> But PG also requires
+>
+> \\[ g\_{\mathcal M} \longrightarrow g_G \\]
+>
+> through its meridian reduction, and Law I must hold on \\(B\_{\rm grav}\\).
+>
+> The crucial requirement is not merely that individual trajectories project correctly.
+>
+> The metric, matter action, connection fields and stress-energy must reduce together.
+>
+> A possible route is to begin with an action in canonical space. For illustration, a six-dimensional Einstein–Hilbert term based on the metric ansatz reduces schematically to a five-dimensional action containing
+>
+> \\[ \boxed{ S\_{\rm eff}\propto \int\_{\mathcal M} \sqrt{-g\_{\mathcal M}}\\,f \left[ R(g\_{\mathcal M}) -\frac{f^2}{4}F\_{AB}F^{AB} \right]d^5x } \\]
+>
+> up to normalization, boundary terms and additional matter terms.
+>
+> This is an example of dimensional reduction, not a derived PG action.
+>
+> It demonstrates something important: the connection and fiber-radius fields are not arbitrary once we require a dynamical parent theory. Their contributions appear in the lower-dimensional equations and stress-energy accounting.
+>
+> The next meridian reduction would then need to produce
+>
+> \\[ \boxed{ G\_{\mu\nu}[g_G]+\Lambda g^G\_{\mu\nu} = \frac{8\pi G}{c^4}T^{(g)}\_{\mu\nu}. } \\]
+>
+> There is a significant global qualification. PG's meridian pencil is not everywhere a smooth free circle fibration; the poles and source/core structure still require a resolution. So the two-stage metric reduction is presently a local regular-stratum construction, not yet a complete global solution of Law 0.
+>
+> Also, the manuscript already notes a tension between its proposed fiber-length growth toward sources and the collapse of fibers required at a smooth fixed-point completion. A global canonical metric must confront that issue rather than bypass it.
+>
+> ## 7. What I'd actually construct next
+>
+> I would start with a very small, explicit family rather than attempt all galaxies immediately:
+>
+> \\[ \boxed{ \widehat g\_{\lambda} = \pi_H^\*g\_{\mathcal M} + f\_\lambda^2 \left(d\psi+A_H+\lambda\\,a\right)^2. } \\]
+>
+> Here \\(a\\) is a globally defined one-form on the base, pulled back to the bundle, and \\(\lambda\\) controls a connection deformation. We can separately vary the allowed fiber-radius profile \\(f\_\lambda\\).
+>
+> At \\(\lambda=0\\), use PG's reference Hopf geometry.
+>
+> Then study the same source-circle family under the different lifted metrics, calculating the projected trajectories and their holonomies.
+>
+> The first question would be whether a perturbation produces a new projected orbital response or only changes unobservable Hopf transport.
+>
+> The second would be whether a single observer-dependent optical law can reveal different portions of the same underlying matter distribution without changing its gravitational source.
+>
+> For spiral structure specifically, perturbing only the fiber distribution is insufficient to create a physical overdensity in the middle-space circle: a full Hopf-fiber average removes nonzero fiber Fourier modes. A genuine arm overdensity downstairs requires nonuniform base density, dynamically induced metric effects, or an explicitly fiber-sensitive optical readout.
+>
+> That is a useful diagnostic: which part of the spiral pattern belongs to matter, and which part belongs to rendering?
+>
+> Finally, rather than independently adjusting \\(g\_{\mathcal M}\\) to match each desired orbit, we would solve for the allowed \\(f\_\lambda\\), \\(a\\), matter configuration and optical transport under the same action and the required gravity-base equations.
+>
+> ## My assessment of Entry 368
+>
+> I think you've identified a better mathematical organizing principle for this part of PG.
+>
+> The new sequence should be
+>
+> \\[ \boxed{ \begin{gathered} \text{Gravity-base metric and source constraints}\\\ \Updownarrow\\\ \text{Admissible middle-space metric and matter}\\\ \Updownarrow\\\ \text{Family of canonical Hopf metrics}\\\ \Downarrow\\\ \text{Geodesics, holonomies and lifted matter histories}\\\ \Downarrow\\\ \text{Source-to-observer optical reception}. \end{gathered} } \\]
+>
+> The double arrows represent consistency conditions that would still have to be established dynamically, not equivalences already proved by PG.
+>
+> The best part is that the two Hopf periods, the canonical geodesics and the observer-dependent light readouts can now be studied as consequences of one geometric construction, rather than being matched afterward by separate rules.
+>
+> And I think your receiver-side intuition deserves serious exploration: not as a receiver literally rewriting distant spacetime, but as a relative configuration of source fibration, optical transport and receiver fibration, with a gauge-invariant observable resulting from their comparison.
+>
+> My strongest recommendation is to pursue the connection-metric lift first, then couple it to a two-endpoint optical transport law. That is the most direct route I see from your geometric intuition to a concrete model whose trajectories, visibility and gravitational consistency can all be checked.
+
+*The attachments' markup* — the escaped brackets and underscores around their mathematics, the headings and boxed formulas, the three tables, the lines that name a source or count more of them ("environmentinstitute.uci.edu", "+1", "math.uchicago.edu", "Pasted text.txt"), the four image links (two site icons and two pictures, with their captions), the captions of figures not included and the `&#x20;` entities — is their own, quoted unchanged. The first response ends mid-sentence, without a final period, as received. The texts are the ones the author forwarded, not this archive's.
+
+**What v36.15 does with them.**
+
+*Entry 367's first part* takes "an assumed disc galaxy is simply quite literally a circle in the middle space shell, and so a Hopf rising of a circle in the canonical shell". It asks "how much can we perturb away from along-Hopf-fiber uniformity while still realizing the end circle in the middle space", how to get "more gas" … "in the arms but less in the equal-radius circle running through it in other spots" from "the same orbit pattern formula granted by the metric", whether paths through their own antipodes are great circles when projected, and whether "the “observer’s own” information also contributes half the degrees of freedom". The first response answers with the torus over the circle and its horizontal great-circle lift, which reaches the antipode after one revolution — "the most exciting mathematical result to extract from Entry 367" — and with the phase family of lifts, a spiral-density ansatz, a fiber-dependent density that averages away, a two-state transmission law and the Kaluza–Klein reading of projected motion. §XXXIV.48 checks it and makes two of its statements exact. For the horizontal lift, the antipode after one revolution belongs to the area-bisecting ring, the great circle, only; on the round shell the geodesic lift of every ring reaches its antipode after one revolution, its image's radius set by its angle to the fiber. And a receiver whose fibration makes the angle $\beta$ with the source's sees each source point as a ring of radius $\beta$ and a source ring as a band, under the correspondence the response says is needed "before source and observer data can be compared" — which exists, canonical up to the antipode, for the right fibrations of one shell.
+
+*Its second part* asks whether "the emptier space between spirals" could be "some kind of “failure of exactness” for geodesics", perhaps a "modular difference between orthogonal circle and equator periods", with the spirals "constrained by the actual GR-style-metric leaf orbits", or a "perspectival effect". The second response gives the Clifford torus's two winding periods and their rational and irrational closures, and its "central catch": a period mismatch alone fills the projected circle. §XXXIV.48(a), (d) and (g) check it, sharpen its antipode statement to odd ratios, confirm its phase-matching toy, and locate the nearest exact counterpart, where the leaf's matter moves, to the exactness the entry asks about: the orbit plane's closure, and §XXVII.7's pattern-speed minimum.
+
+*Entry 368* asks "what kind of specific choice from the more general metric configuration in the canonical space can we pick to get this kind of behavior", with the receiver's structure and the dual path's holonomy giving "family structure for galaxies", and whether there is "a better way to lift the whole metric tensor of the middle space itself to a family of possible metric tensors for the canonical space". Its response takes the second road, "a connection metric, closely related to Kaluza–Klein geometry and Riemannian submersions". §XXXIV.49 finds the archive already has it: the family is §XXIV.18's shell metric, Law I locks the fiber length (§§III.2–3), and on the arena's source shells, under §XXIV.23's conformal lift, that locking fixes each shell's squashing, and spherical symmetry its connection, whose two components PG's laws otherwise leave open. The new result is the geodesic's displacement along the fiber after one revolution, $\pi+\pi(4R^2/f^2-1)\cos\rho$. It is $\pi$, the antipode, for every ring in the round member; under that lift, on the source shells, for every ring only at $x = \pi/6$ and its twin, and for a source-centered disk's own rings on every shell.
+
+*Recorded, with no change asked:* the responses' cautions are the archive's as well — "The geometric construction is available. Its physical role is not yet selected." (the first), "But the missing regions between spiral arms cannot be attributed to nonclosure alone." (the second), and "The double arrows represent consistency conditions that would still have to be established dynamically, not equivalences already proved by PG." (the third).
+
+*Their recommendations* set the additions to §XXXIV.50's next pieces: the first's "build Entry 367 around the Hopf-lifted ring and its antipodal holonomy first, with the two-endpoint optical transport as the next layer"; the second's "deriving their radial phase from the canonical connection or PG's orbital dynamics rather than prescribing it"; and the third's "pursue the connection-metric lift first, then couple it to a two-endpoint optical transport law".
+
+## XXXIV.48 A galaxy ring as a Hopf-lifted circle: the responses' geometry, the ring's holonomy and its geodesic lifts, the fiber modes, two fibrations at the two ends of a history [T/V/D/O; R411] *(`v36_15_ring()`)*
+
+*Entry 367 takes a disk galaxy's ring as a circle in the middle space and asks how far its lift in the canonical shell can depart from uniformity along the Hopf fiber while still projecting onto that circle; whether matter paths through their own antipodes are great circles when projected; and whether the receiver could supply part of the structure, its end of the history carrying one fibration and the target's another. Its second part asks whether the emptier space between spiral arms could be a failure of exactness. The two responses (§XXXIV.47) answer with the Hopf torus over the circle, its horizontal great-circle lift, the phase family of lifts, a spiral-density ansatz, a two-state transmission law, the two winding periods of the Clifford torus and a phase-matching toy. This section checks them and adds what the geometry fixes. Nothing is fitted.*
+
+**(a) The responses' geometry [V].** In the responses' coordinates, $h(z_1,z_2) = (2z_1\bar z_2,\,|z_1|^2-|z_2|^2)$:
+- the curve $q(\varphi) = (e^{i\varphi/2},e^{-i\varphi/2})/\sqrt2$ projects to the equator, $h(q(\varphi)) = (e^{i\varphi},0)$; $q(\varphi+2\pi) = -q(\varphi)$ and $q(\varphi+4\pi) = q(\varphi)$; it is a great circle of $S^3$ traced at half the projected rate, horizontal for the connection ${\rm Im}(\bar z\cdot dz)$; and $e^{i\varphi/2}q(\varphi) = (e^{i\varphi},1)/\sqrt2$, with the same image, closes after one revolution — each to $10^{-12}$;
+- on the Clifford torus $(e^{i\alpha},e^{i\beta})/\sqrt2$, with $\phi = \alpha-\beta$ and $\psi = (\alpha+\beta)/2$, the metric is $\tfrac14d\phi^2+d\psi^2$; a torus line $(e^{i\omega_1t},e^{i\omega_2t})/\sqrt2$ is a great circle exactly when $\omega_1^2 = \omega_2^2$ — the Hopf fiber $(1,1)$ and the horizontal great circle $(1,-1)$ — its geodesic curvature in $S^3$, $\lvert\omega_1^2-\omega_2^2\rvert/(\omega_1^2+\omega_2^2)$, being $0.600$ for $(2,1)$ and $0.333$ for $(\sqrt2,1)$.
+
+The second response's "need never pass through the exact antipode" is sharpened: a torus line meets the antipode of its starting point exactly when $\omega_1/\omega_2$ is a ratio of odd integers — $(3,1)$ at $t = \pi$; $(2,1)$ never, its closest approach, as a chord in $\mathbb C^2$, $0.935414 = \sqrt{7/8}$, where $\cos t = -\tfrac14$; an irrational ratio never exactly, though it comes arbitrarily close, the line being dense.
+
+In the archive's quaternions, with $q = z_1+jz_2$, the responses' fiber $(e^{it}z_1,e^{it}z_2)$ is the right fiber $qe^{ti}$ of §XXXIV.44, and $h$ is $\pi_i(q) = qiq^{-1}$ followed by a fixed rotation, so every statement below holds in either notation.
+
+**(b) The ring's holonomy [T/V].** The ring of angular radius $\rho$ about the pole of $h$ (any other center by a left rotation) has the horizontal lift
+$$q(\varphi) = \big(\cos\tfrac\rho2\,e^{i\varphi\sin^2(\rho/2)},\ \sin\tfrac\rho2\,e^{-i\varphi\cos^2(\rho/2)}\big),$$
+which after one revolution returns multiplied by $e^{i\pi(1-\cos\rho)}$, half the solid angle the ring encloses (to $10^{-12}$ at $\rho = 0.3$, $0.9$, $\pi/2$, $2.2$). The antipode, a factor $-1$, is therefore reached after one revolution only by a ring that bisects the sphere's area — among rings about a point, the great circle; any simple closed curve enclosing half the area does the same. The first response's caution, that the sign change belongs to "this particular base circle", is borne out: among rings, only the great circle.
+
+**(c) The geodesic lifts of every ring, on the round shell [T/V].** On the round canonical shell, a great circle $q_0\cos s+v\sin s$ whose tangent makes the angle $\rho$ with the fiber $q_0i$:
+- projects to the ring of angular radius $\rho$ about $q_0wq_0^{-1}$, $w = q_0^{-1}v$;
+- carries the fiber momentum $\cos\rho$;
+- after one revolution of the ring ($s = \pi$) is at $-q_0$, the antipode — for every $\rho$ (on §XXIV.23's source shells, under its conformal lift, for every $\rho$ only on the round ones, $x = \pi/6$ and its twin; §XXXIV.49(c)).
+
+The closure phase $\pi$ splits into the ring's holonomy $\pi(1-\cos\rho)$ and the momentum's share $\pi\cos\rho$; at $\rho = \pi/2$ it is holonomy alone (each checked to $10^{-12}$ at $\rho = 0.3$, $0.7$, $1.2$, $\pi/2$). So the image's radius is the path's angle to the fiber: a point for the fiber itself, a great circle for a horizontal tangent, and every radius between. Entry 367's guess — paths through their own antipodes, "so maybe that means automatically they’re great circles when projected" — divides in two. Every geodesic of the round shell passes through its own antipode, and its image is a ring of the radius its fiber angle sets, a great circle only when it does not move along the fiber at all. The horizontal lift is a geodesic only for a great circle, where it is the fiber $e^{tc}q_0$ of the left fibration whose axis is the circle's pole $c$ (on $20$ random great circles): the first response's $q(\varphi)$ is $e^{i\varphi/2}q_0$ with $q_0 = (1+j)/\sqrt2$, its pole $i$. The "lack of sticking to a fiber" the entry asks about is this angle.
+
+**(d) The fiber modes, the phase-matching toy and the closure phase [V/D].**
+- *Fiber modes.* A mode $1+\eta\cos(k\psi+\delta)$ along the fiber averages to $1$ ($k = 1$, $2$, $3$), so the fiber-averaged density keeps none of it, as both responses say; how far a lift may depart from fiber uniformity while projecting onto the ring is, for the density, unlimited, and invisible after the average.
+- *The phase-matching toy.* The second response's lifted source $\rho_0[1+\epsilon\cos(2\phi+k\psi-f)]$ read through the channel $\tfrac12[1+\eta\cos(k\psi-\delta_o)]$ gives $\tfrac{\rho_0}2[1+\tfrac{\epsilon\eta}2\cos(2\phi-f+\delta_o)]$ (to $10^{-12}$ at fifteen random settings): a two-armed image from a fiber-averaged axisymmetric source, with the radial phase $f(R)$ put in, as it says.
+- *The closure phase.* $\psi$ is a coordinate. Its gauge-invariant form is the closure phase $q(0)^{-1}q(T)$ of a lift of a closed loop: transported horizontally around a ring of radius $0.9$ about a random center, in $4000$ nearest-point steps, it is $e^{i\pi(1-\cos\rho)}$ to $10^{-6}$, and the same from another starting point on the fiber to $10^{-12}$. This is the quantity a readout could compare [D].
+
+**(e) Two fibrations at the two ends of a history [T/V].** Take two right fibrations of the one canonical shell, their axes as unoriented lines (§XXVII.9's $\mathbb{RP}^2$). Every element $q\mapsto aqb^{-1}$ of $SO(4)$ carries the fiber $qe^{tm}$ onto the fiber $(aqb^{-1})e^{t\,bmb^{-1}}$ (on $50$ random elements), so it moves the axes by the rotation of $b$ and keeps the angle $\beta$ between the source's axis and the receiver's; any two pairs with the same $\beta$ are related by one (on $20$ constructed pairs): $\beta$ is the pair's only invariant. Both quotients land in the unit imaginary quaternions and commute with the left $SU(2)$ they share. The only maps of the sphere commuting with every rotation are the identity and the antipode, so this identification of the two middle spaces — the correspondence the responses ask for before source and receiver data can be compared — is canonical up to the antipode. With it:
+- the receiver sees each source fiber, a single point of the source's middle space, as the ring of radius $\beta$ about that point;
+- any geodesic $qe^{sw}$ of the round shell — itself a fiber of the fibration with axis $w$ — is seen through every fibration $m$ as the ring of radius $\angle(w,m)$ about $qwq^{-1}$: one center for every receiver, the radius set by the receiver's axis;
+- a source ring of radius $r_0$ seen at $\beta$ — the torus over it — fills the band $\lvert r_0-\beta\rvert\le d\le r_0+\beta$ (for $r_0+\beta\le\pi$; beyond, the outer edge is $2\pi-r_0-\beta$) about the ring's unmoved center, the distance $d$ the same at every azimuth along the ring, with density
+
+  $$\frac1\pi\,\frac{\sin d}{\sqrt{\sin^2r_0\sin^2\beta-(\cos d-\cos r_0\cos\beta)^2}},$$
+
+  normalized, with the exact first and second moments ($\langle\cos d\rangle = \cos r_0\cos\beta$), its eight bin fractions matching those of $200000$ fiber angles, every one counted, to $6.6\times10^{-6}$ at $r_0 = 0.6$, $\beta = 0.25$. For $r_0\neq\beta$ and $r_0+\beta<\pi$ it diverges as an inverse square root at both edges: one ring becomes a band with bright edges at $\lvert r_0-\beta\rvert$ and $r_0+\beta$.
+
+Each statement to $10^{-12}$ except where stated. This is one exact reading, for right Hopf fibrations of one shell, of the entry's "allowing the viewer end of the dual paths to have one fibration, and the target end have another": with the correspondence, canonical up to the antipode, the receiver's axis changes what a source point and a source ring look like in its middle space by one angle, and leaves the center where it was. Whether a receiver's fibration is a physical datum, and how the middle-space image becomes the observer's sky (§XXVII.8's caution), is open [O].
+
+**(f) The two-endpoint transmission [V].** The first response's law ${\rm tr}(P_oU_\gamma P_sU_\gamma^\dagger) = \tfrac12(1+\mathbf n_o\cdot\mathcal R_\gamma\mathbf n_s)$ holds on $40$ random transports, with the two receiving channels summing to one and invariance when source, receiver and transport are rotated together — the familiar two-state law, as the response says, with both endpoints in it. Which internal state of a photon it would read, nothing in PG fixes yet [O].
+
+**(g) The orbit plane's exactness [V; §XXVII.7 recomputed].** The entry's second part — "since geodesic alone gives perfect antipodal symmetry heuristically", a "modular difference between orthogonal circle and equator periods" as the space between the arms, and "the spirals themselves … constrained by the actual GR-style-metric leaf orbits" — has an exact counterpart where the leaf's matter moves. On the leaf, with $v^2/(\mu c^2) = \csc\chi+2\sin\chi$ (§XXV.2), a near-circular orbit closes after one radial period where $\kappa = \Omega$, at $\chi = \pi/4$ exactly. A near-circular oval closes point-symmetrically — antipodally symmetric about the center — in the frame rotating at $\Omega-\kappa/2$ (at finite eccentricity, at the orbit's own $\Omega_\varphi-\Omega_r/2$). That rate's minimum is at $\chi = 0.8559$, $1.1792\sqrt\mu$, with second derivative $3.683\sqrt\mu$, §XXVII.7's values. There the spread of the rate across orbits, the orbit plane's failure of exactness, is of second order, and there §XXVII.7's aligned population kept a weak two-armed pattern longest. In that kinematic reading the arms are where aligned point-symmetric ovals crowd, and the emptier space between them is where the ovals spread — by §XXVII.7's own verdict a weak, decaying wave in a narrow resonant band, its amplitude an order of magnitude below a grand-design arm; the failure of exactness is what winds them up [D]. §XXVII.7's stationarity theorem ([T], standard) says that in a fixed integrable axisymmetric potential a smooth planar population of finite action-space width cannot hold an exact, rigidly rotating two-armed mode unless that rate is the same over an open set of its orbits. The second response's caution stands: the lift's non-closure in (a) and (c) moves no matter in the middle space — every lift of a ring projects onto that ring — so it can make arms only through a readout that converts the closure phase into intensity [D/O].
+
+**(h) Status.** [T] (b)'s holonomy; (c)'s geodesic lifts and their antipodes on the round shell; (e)'s invariant, correspondence, ring and band. [V] Their checks; the responses' geometry; (d)'s averages and toy; (f); (g)'s recomputation. [D] The closure phase as the comparable quantity; the kinematic reading of the arms. [O] A readout of the closure phase; whether a receiver's fibration is physical; the internal state a transmission law would read.
+
+## XXXIV.49 The middle space's metric lifted to a family of canonical metrics: the round and squashed members over one base, their geodesics, and the displacement along the fiber after one revolution [T/V/D/O; R412] *(`v36_15_lift()`)*
+
+*Entry 368 asks which choice from the more general canonical metric would give the two periods' behavior — perhaps from the receiver's local structure and the dual path's holonomy, so as to give galaxies a family structure — with every trajectory's projection agreeing with the middle-space (or gravity-base) metric; or whether "a better way" would "lift the whole metric tensor of the middle space itself to a family of possible metric tensors for the canonical space". The response takes the second road: the connection metric $\widehat g = \pi_H^*g_{\mathcal M}+f^2(d\psi+A_H)^2$, its Kaluza–Klein geodesics, a photon restriction and a dimensional reduction. This section checks it on the canonical shell and finds that, under §XXIV.23's conformal lift, PG's locking already fixes the squashing. Nothing is fitted.*
+
+**(a) The family is the archive's shell metric [T/V].** On the round middle-space shell of radius $R$, with $A = \tfrac12(1-\cos\theta)d\phi$ and $\psi$ of period $2\pi$, the response's
+$$\widehat g_f = R^2(d\theta^2+\sin^2\theta\,d\phi^2)+f^2(d\psi+A)^2$$
+is §XXIV.18's shell metric with $f = R_H$, "a Berger sphere, round exactly when $R_H = 2R$". The embedding $2R\big(\cos\tfrac\theta2e^{i\psi},\sin\tfrac\theta2e^{i(\psi+\phi)}\big)$ induces $\widehat g_{2R}$ (to $10^{-8}$ by central differences), the round $S^3$ of radius $2R$, and the bundle's Chern number $\frac1{2\pi}\int dA = 1$ for every $f$, as the response says. In the archive's own count (§III.3) the shell's six metric components are three of the base, one fiber length $L_H$ and two local connection components; Law I sets the first four, the length by its locking (§III.2), and the last two are open. So in PG the freedom the response describes is, at present, the connection's, and the fiber length is not chosen but locked.
+
+**(b) The geodesics, and the displacement after one revolution [T/V].** With $\epsilon = f/2R$, $\widehat g_f$ is $(2R)^2$ times the left-invariant metric ${\rm diag}(\epsilon^2,1,1)$ on the unit $S^3$, and the geodesic with body velocity $(w_1,w_2,w_3)$ is
+$$q(t) = q_0\exp(tM)\exp\big(t(1-\epsilon^2)w_1i\big),\qquad M = (\epsilon^2w_1,w_2,w_3),$$
+the free symmetric top — §XXVII.2's closed form for its auxiliary Berger arena, here on the canonical shell where §XXVII.2 says that squashing belongs. It agrees with the integrated geodesic equation to $10^{-10}$ at $\epsilon = 0.8$ and $1.3$. The last factor lies along the fiber, so the middle-space image is the image of the round great circle $q_0\exp(tM)$: a ring of angular radius $\rho$, $\cos\rho = \epsilon^2w_1/\lvert M\rvert$, about $q_0Mq_0^{-1}$, revolved in $t = \pi/\lvert M\rvert$. Every member has the same quotient metric, and its geodesics project to the same rings of the one base. As the response says, only the horizontal ones ($p = 0$) project to geodesics of the base, its great circles; the others carry the connection's force. What the member changes is the return: after one revolution the geodesic is displaced along the fiber by
+$$\Delta\psi = \pi+\pi\Big(\frac{4R^2}{f^2}-1\Big)\cos\rho$$
+(to $10^{-12}$ against the closed form; at $f/2R = 0.8$, $\Delta\psi = 4.769242$, $4.240068$, $3.614302$ for $\rho = 0.4$, $0.9$, $1.3$; at $1.3$, $1.960183$, $2.344277$, $2.798482$; $\pi$ at $\rho = \pi/2$ in each, and $\pi$ for every $\rho$ in the round member). The antipode after one revolution is reached by every geodesic in the round member and by the horizontal ones — the great circles of the base — in every member. Otherwise the geodesic misses its antipode by $\pi(4R^2/f^2-1)\cos\rho$, and closes after $N$ revolutions only when $N\big[\tfrac12+\tfrac12(4R^2/f^2-1)\cos\rho\big]$ is an integer: the "modular" closure of Entry 367's second part, with the squashing as its parameter. The round member is the one whose geodesics all close.
+
+**(c) On the arena's own shells [V $\mid$ conformal lift].** §XXIV.23 finds each source shell's Hopf $S^3$ a Berger sphere with $R_H/R = 1/\sin x$, $x$ the reference colatitude, round exactly at $x = \pi/6$ and its twin. So $4R^2/R_H^2 = 4\sin^2x$, and the displacement beyond the antipode is
+
+$$\Delta\psi-\pi = \pi(4\sin^2x-1)\cos\rho$$
+
+(to $10^{-12}$ against the closed form, modulo $2\pi$):
+
+| shell $x$ | $\rho = 0.5$ | $\rho = 1.0$ | $\rho = \pi/2$ |
+|:--|:--|:--|:--|
+| $0.3$ | $-1.793905$ | $-1.104456$ | $0$ |
+| $\pi/6$ | $0$ | $0$ | $0$ |
+| $0.9$ | $+4.009802$ | $+2.468720$ | $0$ |
+| $\pi/2$ | $+8.271021$ | $+5.092229$ | $0$ |
+
+Under that lift the locking fixes each shell's squashing by its reference colatitude alone, and with the standard connection, which spherical symmetry fixes up to gauge, nothing is left to choose on a static source shell; beyond that sector the connection's two components of (a), which PG's laws leave open, and any receiver dependence stay open. Every ring's geodesic lift reaches its antipode after one revolution only on the round shells $x = \pi/6$ and its twin $5\pi/6$; for $\rho<\pi/2$ the unwrapped displacement falls short nearer the source or its twin and overshoots between them, the closure phase itself being modulo $2\pi$. A disk centered on the source meets every source shell in great circles, $\rho = \pi/2$, whose geodesic lifts are horizontal and reach the antipode on every shell. The displacement belongs to rings that are small circles of a shell. Whether the squashing of the shells, or the receiver's axis of §XXXIV.48(e), labels families of galaxies, as the entry hopes, is open [O].
+
+**(d) Photons [V].** With a time direction, $-dt^2+\widehat g_f$, a null geodesic's spatial part has unit speed, and its projection has $g_{\mathcal M}(\dot x,\dot x) = -1+(\text{base speed})^2 = -p^2/f^2$ (to $10^{-10}$ at four settings): timelike unless the fiber momentum $p$ vanishes, as the response says. A photon that stays null in the middle space moves horizontally, and its two-endpoint state must be carried by something other than motion along the fiber — the response's "additional transported internal state" [D].
+
+**(e) What the reduction must meet [D].** The response's reduced action $\int\sqrt{-g}\,f[R-\tfrac{f^2}4F^2]$ is, as it says, an example of dimensional reduction, not a derived PG action. The archive's charge branch (§X.11) declined the analogous geometrization on the meridian circle for three costs, a dilaton among them, as §XX.8 recounts (citing it as §X.10); the frozen architecture keeps Maxwell a separate field and the Hopf circle's connection Structure III's. The archive also records that a smooth completion collapses the fiber on the restored meridian, $L_H = O(\sqrt\rho)$, while Law I's locking grows it toward a source (§II.2, new in 17.6): a global member of this family must meet that, and the meridian pencil is not a free circle action. These are the response's own qualifications, located in the archive.
+
+**(f) Status.** [T] (a)'s identification; (b)'s displacement and closure condition. [V] The checks; (c)'s values under §XXIV.23's lift; (d). [D] The two-endpoint state as internal; (e)'s constraints on a global member. [O] A global member and its action; whether the connection's two open components or the shells' squashing select galaxy families; a readout of the displacement.
+
+## XXXIV.50 Standing of Part XXXIV after v36.15, and the next pieces [S/O; R413]
+
+*Corrected.* Nothing; no claim's status changes.
+
+*Established [T/V], added.*
+- the ring's holonomy $e^{i\pi(1-\cos\rho)}$, the antipode for simple area-bisecting loops only;
+- on the round shell, the geodesic lifts of every ring at their antipode after one revolution, the image radius the fiber angle;
+- two fibrations: $\beta$ the pair's only invariant, the correspondence canonical up to the antipode, a point seen as a ring and a ring as a band;
+- the connection-metric family as §XXIV.18's shell metric, its geodesics in closed form, and the displacement $\Delta\psi = \pi+\pi(4R^2/f^2-1)\cos\rho$;
+- [V $\mid$ conformal lift] on the source shells, under §XXIV.23's conformal lift, $\pi+\pi(4\sin^2x-1)\cos\rho$.
+
+*Specified [S].* Nothing new.
+
+*Not demonstrated*, now including:
+- a readout converting the closure phase or the displacement into intensity;
+- whether a receiver's fibration is a physical datum;
+- a global member of the metric family with its action;
+- what labels galaxy families.
+
+The rest of §XXXIV.45's list stands.
+
+*The next pieces,* §XXXIV.45's in its order — the review of v36.13's two constructions first — with Entries 367–368's added to the second, as the responses recommend: "build Entry 367 around the Hopf-lifted ring and its antipodal holonomy first, with the two-endpoint optical transport as the next layer", and "pursue the connection-metric lift first, then couple it to a two-endpoint optical transport law".
+1. *The charged two-history action*, as §XXXIV.45 lists it.
+2. *The two-branch galactic optical experiment*, as §XXXIV.45 lists it, with:
+   - the connection-metric lift under PG's own locking (§XXXIV.49): a global member, the connection's two open components, and whether the displacement has a readout;
+   - the two-endpoint transport with the source's and receiver's fibrations (§XXXIV.48(e)): whether the receiver's axis is physical, and the band law carried from the middle space to the observer's sky;
+   - the arms' radial phase derived from the canonical connection or from the leaf's orbits rather than put in — the second response's decisive test, "Does the phase selected by the geometry wind with radius in the required way" — with §XXVII.7's kinematic route as the control.
+3. *The mass sector's selection*, 4. *the angle-selection target and the $\tfrac49$ law*, and 5. *consolidation and the gravity controls*, as §XXXIV.45 lists them, with the items carried from §XXXIV.33.
+
+*Not claimed.* No galaxy is rendered, no arm is derived, and nothing was fitted. The displacement and the band are properties of the canonical shell and its quotients, not of an observed image; the kinematic reading of §XXXIV.48(g) is §XXVII.7's.
+
+## XXXIV.51 Register R410–R413 [D/O; v36.15]
+
+- **R410 (record).** Entries 367–368 and the three responses to them, as the author sent them, with what v36.15 does with them (§XXXIV.47).
+- **R411 (the Hopf-lifted ring).** The responses' geometry checked and sharpened; the ring's holonomy, the antipode for simple area-bisecting loops only; on the round shell, the geodesic lifts of every ring at their antipode, image radius the fiber angle; the fiber modes, the phase-matching toy and the closure phase; two fibrations — the invariant $\beta$, the correspondence canonical up to the antipode, the ring and the band; the transmission law; the orbit plane's exactness recomputed from §XXVII.7 (§XXXIV.48).
+- **R412 (the metric lift).** The response's family as §XXIV.18's shell metric; its geodesics in §XXVII.2's closed form; the displacement after one revolution and the modular closure; under §XXIV.23's conformal lift, on its source shells exactness only at $x = \pi/6$ and its twin, and a source-centered disk's own rings exact on every shell; the photon restriction; the reduction's constraints (§XXXIV.49).
+- **R413 (standing).** The standing after v36.15 and the next pieces, Entries 367–368's added to the galactic optical experiment (§XXXIV.50).
+
+## Round record: the version summaries, v16 to v36.15 (moved from the head of the archive in v34.9, R190)
+
+*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v36.15, v36.14, v36.13, v36.12, v36.11, v36.10, v36.9, v36.8, v36.7, v36.6, v36.5, v36.4, v36.3, v36.2, v36.1, v36.0, v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+
+> **v36.15 — Entries 367–368 and the three responses to them (24 October 2026): a galaxy ring as a Hopf-lifted circle, two fibrations at the two ends of a history, and the middle space's metric lifted to a family of canonical metrics, in Part XXXIV. Parts XXX–XXXII frozen at v35.8.**
+>
+> *What was asked.* Entry 367 takes a disk galaxy's ring as a circle in the middle space and asks how far its lift may depart from uniformity along the Hopf fiber while still projecting onto it, whether paths through their own antipodes are great circles when projected, and whether the receiver's end of a history could carry one fibration and the target's another; its second part asks whether the space between spiral arms could be a "failure of exactness". Entry 368 asks which canonical metric would give that behavior, or whether the middle space's metric could be lifted "to a family of possible metric tensors for the canonical space". The three responses answer with the Hopf torus and its antipodal horizontal lift, the two winding periods and a phase-matching toy, and a connection metric with its Kaluza–Klein geodesics.
+>
+> **What v36.15 does (R410–R413; §§XXXIV.47–51).**
+> - *The Hopf-lifted ring.* A ring of angular radius $\rho$ has holonomy $e^{i\pi(1-\cos\rho)}$, so the horizontal lift reaches the antipode after one revolution only when the ring bisects the sphere; on a round shell the geodesic lifts, at the angle $\rho$ to the fiber, reach it for every ring, and their image's radius is that angle. Fiber modes average away, and the closure phase is the gauge-invariant quantity a readout could compare.
+> - *Two fibrations.* For two right fibrations the angle $\beta$ between their axes is the only invariant, and the two middle spaces are identified canonically, up to the antipode. A source point is seen as a ring of radius $\beta$, a geodesic of the round shell as a ring about one center for every receiver, and a source ring as a band with bright edges at $\lvert r_0-\beta\rvert$ and $r_0+\beta$ (for $r_0\neq\beta$, $r_0+\beta<\pi$).
+> - *The metric lift.* The response's family is §XXIV.18's shell metric, with the fiber length locked by Law I. After one revolution a geodesic is displaced along the fiber by $\pi+\pi(4R^2/f^2-1)\cos\rho$; on §XXIV.23's source shells, under its conformal lift, this is exact for every ring only at $x = \pi/6$ and its twin, and for a source-centered disk's own rings on every shell. Null geodesics with fiber momentum project to timelike curves.
+> - *The orbit plane.* §XXVII.7's exactness — $\kappa = \Omega$ at $\pi/4$, the pattern-speed minimum at $0.8559$ — is recomputed as the nearest exact counterpart where the leaf's matter moves.
+> - *Nothing fitted.* No new parameter; no claim's status rises; nothing earlier is corrected.
+> - *The suite.* Two new sections in `pg_v36_numerics.py`, mode `v36_15`: $67$ checks in all.
+> - *Review.* Two independent referees read the round twice before delivery and confirmed the final files; what they caught is in the ledger (§EM; the development errors in §EK).
+>
+> **Next.** §XXXIV.45's order, with Entries 367–368's added to the galactic optical experiment: the connection-metric lift under PG's own locking, the two-endpoint transport with the source's and receiver's fibrations, and the arms' radial phase derived rather than put in; the author's choice for the cap, still open from earlier rounds.
+
+> **v36.14 — the review of v36.13 (24 October 2026): the two direct-mass branches against data, the stabilizers of the Hopf structure and the charged comparison of two histories, in Part XXXIV. Parts XXX–XXXII frozen at v35.8.**
+>
+> *What was asked.* The review retains the round — "I would keep v36.13 as the new baseline." — having run the suite's `v36_13` mode ($3$ of $3$, the SHA-256 matched) and recomputed the report's counterexample to twelve digits. It asks for "physical discrimination between mathematically allowed alternatives": the second branch's mixing angles and electroweak couplings, and a symmetry that forbids the direct mass. It reads the charged-electron obstruction as requiring "a common-charge gauge connection and a mass term in one well-defined field action", sets three levels of symmetry ($SO(4)$, $SO(3)$, $SO(2)$), and recommends the charged two-history action and the two-branch galactic optical experiment as the next two constructions.
+>
+> **What v36.14 does (R406–R409; §§XXXIV.42–46).**
+> - *The branches against data.* The review's digits and the conditional $\tau$ prediction ($1776.9093$ MeV, $-0.23\sigma$) are reproduced. §XXXIV.16(a)'s protecting symmetry leaves a dimension-five direct mass, so each branch becomes a window of the cutoff: for $C_5 = +1$ and $v_R = 10$ TeV, $1.1382\times10^9<M<1.1970\times10^9$ GeV for the second and $M>1.0836\times10^{13}$ GeV for the first. Under §XXXIV.16(a)'s assignment only the left mixing moves the Standard-Model couplings at tree level. It stays below $5.1\times10^{-4}$ on the first branch, with the partner above $24.30$ TeV. On the second it approaches $0.20$, and the partner falls to $53.04$ GeV, below the L3 limit of $100.8$ GeV on a sequential heavy lepton for $1.032732<m_0<1.077868$ MeV. Against the PDG's $Z$-pole couplings this leaves, for orientation, the first branch and a neighborhood of the second's lower end.
+> - *The stabilizers.* Dimensions $6$, $4$, $3$, $2$, $1$ for $SO(4)$, the fibration, the center, the fibration with the center's fiber, and the fibration with the center — the review's three levels, its $O(2)$, and two more between them. The fibration's stabilizer acts on the middle space as $O(3)$, the right $U(1)$ invisibly and $jU(1)$ as the antipode.
+> - *The charged comparison.* $j^{-1}(e^{-i\chi}g)j = e^{i\chi}\rho(g)$, so the comparison of two charged transports is gauge-invariant exactly when the second history carries the opposite charge. Its phase is then the loop's flux, vanishing in the thin-loop limit — the two-component form of a Dirac fermion. Why a history would carry the conjugate charge is open.
+> - *Nothing fitted.* No new parameter; no claim's status rises; nothing earlier is corrected.
+> - *The suite.* Two new sections in `pg_v36_numerics.py`, mode `v36_14`: $65$ checks in all.
+> - *Review.* Two independent referees read the round twice before delivery and confirmed the final files; what they caught is in the ledger (§EI; the development errors in §EG).
+>
+> **Next.** The review's order: the charged two-history action; the two-branch galactic optical experiment; the mass sector's selection with the electroweak fit and the matching; the $\tfrac49$ law as a separate target; the compact active manuscript; the author's choice for the cap, still open from earlier rounds.
 
 > **v36.13 — the review of v36.12, the referee report on v36.12 and Entries 365 and 366 with their responses (23 October 2026): the direct-mass branches corrected, the transport repairs, the fibration's stabilizer, Entry 366's $\tfrac49$, in Part XXXIV. Parts XXX–XXXII frozen at v35.8.**
 >
