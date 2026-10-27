@@ -19,6 +19,11 @@
 % positions are restored, with error fixes only, as the companion phil_sci_positions.tex (key PhilSciPositions), which
 % supersedes phil_sci_deferred.tex as the home of the deferred material. Changes here: cross-references only, each
 % marked "% >>> R860"; no text of the analysis changed.
+% R862 (Opus 5.5, Oct 26 2026; the referee's report on the three manuscripts, author-directed): the transition codes
+% made mutually exclusive by a fixed procedure (indeterminates resolved, cases fixed, precedence within each case, Mixed
+% between cases), with Unchanged added and Abandonment confined to constructs (S4, Table 3); the coding sheet given the
+% items the procedure needs; the third transition recoded under it; the planned deposits turned into a completion list
+% (S10.2), the independent recoding among its items. Each change marked "% >>> R862".
 % ROUND LOG (P9-R3, this transcript; staged by the author's prep doc,
 % drafting-executed; dispositions convention adopted per review): Item 1
 % EXECUTED in the safe arbitration form — counts deferred to the provenance
@@ -1157,7 +1162,7 @@ Two derived artifacts need grading of their own. The talks are quoted from trans
 % ============================================================================
 \section{An audit protocol}\label{sec:protocol}
 
-A transition is an ordered pair of formulations of one construct, each tied to an artifact in Table~\ref{tab:register}. Constructs are identified by function, not by name: the third rule of January 2023 and the third postulate of May 2023 are formulations of one construct because each is the framework's condition on which states can be realized. By the same criterion, a statement of how a state is updated belongs to a different construct from a statement of which states are real, in superposition, or valid. Each formulation is divided into components, claims that can be located in its text, and the coding proceeds component by component. A transition's code is derived from its components' codes, and a later account is tested claim by claim. Table~\ref{tab:codes} defines the codes and verdicts.
+A transition is an ordered pair of formulations of one construct, each tied to an artifact in Table~\ref{tab:register}. Constructs are identified by function, not by name: the third rule of January 2023 and the third postulate of May 2023 are formulations of one construct because each is the framework's condition on which states can be realized. By the same criterion, a statement of how a state is updated belongs to a different construct from a statement of which states are real, in superposition, or valid. Each formulation is divided into components, claims that can be located in its text, and the coding proceeds component by component. A transition's code is computed from its components' codes by the procedure stated in this section, and a later account is tested claim by claim. Table~\ref{tab:codes} defines the codes and verdicts.
 
 \begin{table}[htbp]
 \centering\small
@@ -1172,15 +1177,17 @@ Added & A component of the later formulation, neither stated nor entailed in the
 Dropped & A component of the earlier formulation, neither stated nor entailed in the later\\
 Indeterminate & The texts do not settle which of the codes above applies; the rival codes are named\\
 \midrule
-\multicolumn{2}{@{}l}{\emph{Transition codes, derived from the component codes}}\\
+\multicolumn{2}{@{}l}{\emph{Transition codes, computed from the component codes; and the code for a construct with no successor}}\\
 \midrule
-Renaming & Every component preserved, some under new terms, nothing else changed\\
-Clarification & Every component of each formulation preserved in the other; wording, explicitness, or organization changed\\
+% >>> R862: Unchanged added; Renaming and Clarification made exclusive; Mixed fixed at the level of cases; Abandonment confined to constructs.
+Unchanged & Every component preserved, and nothing changed\\
+Renaming & Every component preserved or renamed, at least one renamed, and nothing changed but terms\\
+Clarification & Every component preserved or renamed, with some change of wording, explicitness, or organization beyond terms\\
 Extension & Some component added, none dropped\\
 Contraction & Some component dropped, none added\\
 Revision & Components both added and dropped\\
-Mixed & Parts of the transition, such as different cases, receive different codes; each part is reported with its own\\
-Abandonment & A construct dropped without successor; where its work is absorbed, if anywhere, is recorded\\
+Mixed & Cases that both formulations treat separately receive different determinate codes; each case is reported with its own\\
+Abandonment & A construct with no later formulation, coded as a construct rather than as a transition; where its work is absorbed, if anywhere, is recorded\\
 \midrule
 \multicolumn{2}{@{}l}{\emph{Verdicts, for each atomic claim of a later account}}\\
 \midrule
@@ -1189,20 +1196,23 @@ Contradicted & An earlier artifact states or entails its negation\\
 Compatible, not discriminating & The earlier artifacts fit the claim and a named rival equally\\
 Open & The record does not bear on the claim, or bears on it only through an unsettled code\\
 \bottomrule
-\multicolumn{2}{@{}p{\textwidth}@{}}{\footnotesize A code that holds only on an interpretive assumption is conditional on it. Each verdict carries the grade of its best evidence: independent, when a third party dates it, or self-dated.}\\
+\multicolumn{2}{@{}p{\textwidth}@{}}{\footnotesize The transition codes are mutually exclusive, by the procedure stated in this section. A code that holds only on an interpretive assumption is conditional on it. Each verdict carries the grade of its best evidence: independent, when a third party dates it, or self-dated.}\\
 \end{tabularx}
 \end{table}
+
+% >>> R862: the procedure that makes the transition codes exclusive.
+The transition codes are computed by a fixed procedure, which makes them mutually exclusive. First, each indeterminate component is resolved each way its rival codes allow, and the rest of the procedure runs on each resolution; if the resolutions give one code, the code stands, and otherwise the transition is reported with each conditional code. Second, the cases are fixed: cases that both formulations treat separately, such as a run with a detector and a run without one, are listed from the texts before coding, and each component is assigned to one case or to the whole, a component of the whole applying to every case. Third, each case, or the whole if there are no such cases, is coded by precedence. Content comes first: any component added or dropped makes it an extension, a contraction, or a revision, whatever is renamed or reworded beside it, and the renamed components are reported with the code; otherwise it is a clarification if anything beyond terms changed, a renaming if only terms changed, and unchanged if nothing did. Fourth, if the cases receive different codes, the transition is mixed and is reported with each case's code; otherwise it takes their common code. Two coders who agree on every component code, on the cases, and on whether anything beyond terms changed in each case therefore agree on the transition code, and the coding sheet records all three (Appendix~\ref{app:coding}).
 
 Five rules govern the coding.
 \begin{enumerate}[label=(\roman*), leftmargin=*, itemsep=2pt, topsep=4pt]
 \item \emph{Sense by use.} A term's content is fixed by how the artifact uses it, not by its textbook sense and not by the sense a later text gives it. Table~\ref{tab:glossary} records the senses used here, and Section~\ref{sec:masking} explains why this rule carries weight in this record.
 \item \emph{Two-way preservation.} A transition is a clarification only if every component of each formulation is preserved in the other. One-way entailment is not enough: a later formulation entailed by the earlier may have dropped some of its content, as $A$ is entailed by $A \land B$.
 \item \emph{Stated interpretations.} Each component code is entered with the interpretive assumptions it needs. A code that holds only on an assumption is conditional on it, and the transition is reported with the code it receives if the assumption is denied.
-\item \emph{Paired readings.} Each code is entered with the strongest competing reading, stated as the denial of a named assumption or as a rival code for a named component, so that a coder who disagrees can say where. A transition whose parts receive different determinate codes is mixed; a component whose code the texts do not settle is indeterminate. The first is a finding about the transition, the second about the evidence.
+\item \emph{Paired readings.} Each code is entered with the strongest competing reading, stated as the denial of a named assumption or as a rival code for a named component, so that a coder who disagrees can say where. A transition whose cases, treated separately by both formulations, receive different determinate codes is mixed; a component whose code the texts do not settle is indeterminate. The first is a finding about the transition, the second about the evidence.
 \item \emph{Outcome-blind coding, and direction of test.} A transition is coded from its two artifacts before consulting whether the construct survived; survival is recorded separately. A later account is split into atomic claims, each asserting one thing, and each claim is tested only against artifacts dated before the account.
 \end{enumerate}
 
-The codes and rules were developed during this retrospective analysis, by the person whose record it is, and are frozen in this version. They were not preregistered; their place before the transitions they are applied to is an order of exposition. The codes in Sections~\ref{sec:transitions} and~\ref{sec:reconstruction} cannot meet the first clause of rule~(v), since I chose the transitions knowing their outcomes, and they are offered as a first coding for an independent coder to test. A coder with no stake in the framework, working from the frozen passages with Tables~\ref{tab:codes} and~\ref{tab:glossary} and the coding sheet of Appendix~\ref{app:coding}, can recode the same transitions blind to my codes. Such a recoding tests the reliability of the codes, not the hypotheses of Sections~\ref{sec:stages} and~\ref{sec:hazards}, which need records other than mine.
+The codes and rules were developed during this retrospective analysis, by the person whose record it is, and are frozen in this version. They were not preregistered; their place before the transitions they are applied to is an order of exposition. The codes in Sections~\ref{sec:transitions} and~\ref{sec:reconstruction} cannot meet the first clause of rule~(v), since I chose the transitions knowing their outcomes, and they are offered as a first coding for an independent coder to test. A coder with no stake in the framework, working from the frozen passages with Tables~\ref{tab:codes} and~\ref{tab:glossary} and the coding sheet of Appendix~\ref{app:coding}, can recode the same transitions blind to my codes; that recoding is outstanding (Section~\ref{sec:methods}). Such a recoding tests the reliability of the codes, not the hypotheses of Sections~\ref{sec:stages} and~\ref{sec:hazards}, which need records other than mine.
 
 % ============================================================================
 \section{Three transitions}\label{sec:transitions}
@@ -1340,7 +1350,7 @@ The May manuscript draws the distinction that removes the paradox, without namin
 
 Is the 2024 name a renaming of the 2023 distinction? Component by component, partly (Table~\ref{tab:t3}). On the double-slit case the names attach to the cases the May manuscript distinguished: the disagreeing superposition of the two slits is its ``one slit but not the other in both ways,'' and the agreeing one is its ``both slits at once.'' Those components are renamed, and the insistence that the two differ is preserved. The general definition is added. The 2024 drafts define a disagreeing superposition for any attribute, one alternative at a time switched on and every other switched off, the resulting cases superposed, and an agreeing superposition as the attribute's alternatives superposed together; the 2023 texts draw the distinction only for the two slits, though the May manuscript's list of four cases for the detector-off run, ``both slits at once, the first slit but not the second, the second but not the first, or neither,'' points toward the general construction.
 
-One component is indeterminate: the case in which the particle passes through neither slit. The May manuscript lists it among the detector-off possibilities, and its detector-on analysis reads both ways. Its statement that all that is left is for ``the particle to either go through one slit and not the other in either way'' excludes it; ``just knowing that it did not go through (at least) one of them'' and ``given that at least one slit was not traversed'' leave room for it. The October 2023 talk counts it among the detector-on alternatives (``and I guess neither,'' 46:42), the summary of the same week keeps it in both runs, and so does Part~2 of the July 13, 2024 draft (``no slits at all, the first but not the second, or the second but not the first,'' 9:05, detector on; ``particle could just miss both slits,'' 16:40, detector off). Yet both October 2023 sources also restate the detector-on result in May's two-case wording (``one slit but not the other in both ways,'' 48:26; ``to one but not the other in both ways,'' summary). Whether the May verdicts excluded the case or left it standing, the texts do not settle. On the first reading the later verdicts add a component; on the second they state one that May left implicit, and the October restatements, which keep the case while using May's wording, fit the second. On the second reading the transition is mixed, a renaming on the shared case and an extension in the general definition; on the first it is an extension throughout. Which it is turns on the indeterminate component, a finding about the evidence rather than about the transition.
+One component is indeterminate: the case in which the particle passes through neither slit. The May manuscript lists it among the detector-off possibilities, and its detector-on analysis reads both ways. Its statement that all that is left is for ``the particle to either go through one slit and not the other in either way'' excludes it; ``just knowing that it did not go through (at least) one of them'' and ``given that at least one slit was not traversed'' leave room for it. The October 2023 talk counts it among the detector-on alternatives (``and I guess neither,'' 46:42), the summary of the same week keeps it in both runs, and so does Part~2 of the July 13, 2024 draft (``no slits at all, the first but not the second, or the second but not the first,'' 9:05, detector on; ``particle could just miss both slits,'' 16:40, detector off). Yet both October 2023 sources also restate the detector-on result in May's two-case wording (``one slit but not the other in both ways,'' 48:26; ``to one but not the other in both ways,'' summary). Whether the May verdicts excluded the case or left it standing, the texts do not settle. On the first reading the later verdicts drop May's exclusion of the case and add the case; on the second they state one that May left implicit, and the October restatements, which keep the case while using May's wording, fit the second. The two formulations treat the runs with and without the detector separately, so these are the cases, and the general definition, a component of the whole, applies to both. On the first reading, with the detector on a component is dropped and one added, a revision, while with the detector off, where both list the case, the general definition makes an extension; the cases differ, and the transition is mixed. On the second reading both cases are extensions, and so is the transition. Which it is turns on the indeterminate component, a finding about the evidence rather than about the transition.
 
 The competing reading is that the May distinction was posited to absorb the January paradox, with the general typology read back into it later. The May text answers part of that reading, since there the distinction falls out of the second and third postulates applied to the detector case; Section~\ref{sec:installed} states the criterion on which that answer turns. Two later descriptions of this transition are among the claims tested in Section~\ref{sec:reconstruction}.
 
@@ -1357,9 +1367,10 @@ Date and basis & Draft video \emph{Solution to the Measurement Problem}, Part 1,
 Renamed & The two double-slit superpositions, under the new names\\
 Preserved & Their difference, and its criterion: ``one slit is not being passed through no matter what''\\
 Added & A definition for attributes with any number of alternatives\\
-Indeterminate & The ``neither'' case: May's detector-on analysis reads both ways; kept in the October 2023 and July 2024 analyses, which also restate May's two-case result. Rival codes: added or preserved\\
+Indeterminate & The ``neither'' case: May's detector-on analysis reads both ways; kept in the October 2023 and July 2024 analyses, which also restate May's two-case result. Rival codes: May's exclusion dropped and the case added, or the case preserved\\
 Competing reading & A case-specific device installed against the January paradox and generalized in retrospect. Partly answered by the May derivation from the second and third postulates (Section~\ref{sec:installed})\\
-Code & Mixed (renaming on the shared case, extension in the general definition) if May left ``neither'' implicit; extension if the later texts add it\\
+% >>> R862: recoded under the procedure of S4.
+Code & Mixed, a revision with the detector on and an extension with it off, if May's detector-on verdict excluded the ``neither'' case; an extension if it left the case standing\\
 \bottomrule
 \end{tabularx}
 \end{table}
@@ -1520,7 +1531,17 @@ The 2026 versions of this paper were drafted within an AI-assisted collaboration
 \begin{description}[leftmargin=0pt, itemsep=2pt, topsep=4pt]
 \item[Completed.] The deposits listed in Table~\ref{tab:register}; the public version trail of the companion manuscript; a public ledger of the drafting sessions and a provenance record of the collaboration, in the \texttt{provenance} directory of my repository at commit 8e54a6e \cite{AethicCode}; and the supplementary dossier, which freezes every passage this paper quotes or tests, with its location and the SHA-256 hash of its source file.
 % >>> R860 (Oct 26 2026): the planned deposit names the draft by its date.
-\item[Planned.] Deposit of the full session record, the conversation exports with their SHA-256 hashes, which will establish the integrity of those bytes from the date of deposit, not their earlier existence; and deposit of the draft of September 2026, identified now by its hash in the dossier.
+% >>> R862: the planned deposits and outstanding checks made one completion list.
+\item[To complete.] The audit can be reproduced from the dossier except where it depends on items 1 to 5 below, and it is complete only when items 6 and 7 are done; a claim that depends on an item stands as unverified until that item is done.
+\begin{enumerate}[label=\arabic*., leftmargin=*, itemsep=1pt, topsep=2pt]
+\item Version~1 of the preprint added to the dossier with its hash, and the term counts of Section~\ref{sec:record}, the two superposition names and the two-generation third postulate checked against it.
+\item The coined names at 8:21 of the draft video listed under July 13, 2024 checked against the audio, and the draft series' platform record linked.
+\item The correspondence between the long manuscript's version~519 at PhilArchive and the source file the dossier hashes confirmed, and that source placed in the repository.
+\item The arXiv message of claim~13 added to the dossier from the correspondence archive in the repository, with its hash, and its DKIM signature checked.
+\item The full session record, with the conversation exports and their SHA-256 hashes, and the draft of September 2026 deposited, so that the dossier's hashes resolve publicly; a deposit fixes the bytes from its date, not their earlier existence.
+\item The eligible statements of Section~\ref{sec:reconstruction} left untested, tested by the same rules.
+\item An independent recoding of the three transitions, the twenty-three claims, the markers of Table~\ref{tab:markers}, and the codes of Section~\ref{sec:installed}, by a coder with no stake in the framework, blind to my codes (Section~\ref{sec:protocol}).
+\end{enumerate}
 \item[AI-assisted checking.] Pre-submission reviews by language models, of the drafting model's family and of another family.
 \item[Independent human review.] None yet; it precedes submission.
 \end{description}
@@ -1543,9 +1564,12 @@ For each transition, a coder records:
 \item the later formulation, with the same fields;
 \item the components of each formulation, each a claim located in its text, with senses fixed by use (Table~\ref{tab:glossary});
 \item for each component, a code from Table~\ref{tab:codes}, the passage in the other formulation that supplies it, and any interpretive assumption the code needs;
-\item the transition's code, derived from item 5 alone, and, where an assumption is needed, the code the transition receives if the assumption is denied;
+% >>> R862: the items the procedure of S4 needs.
+\item the cases both formulations treat separately, fixed from the texts before coding, with each component assigned to one case or to the whole;
+\item for each case, or for the whole if there are no such cases, whether anything other than terms changed: wording, explicitness, or organization;
+\item the transition's code, derived from items 5 to 7 by the procedure of Section~\ref{sec:protocol}, and, where an assumption is needed, the code the transition receives if the assumption is denied;
 \item the strongest competing reading, stated as the denial of an assumption in item 5 or as a rival code for a named component, and the evidence that would decide between it and the code;
-\item the construct's survival, recorded after item 6.
+\item the construct's survival, recorded after item 8.
 \end{enumerate}
 For each later account, the coder splits the account into atomic claims, each asserting one thing, and records for each its source, version, location, and whose wording it is; the earlier artifacts consulted; and a verdict from Table~\ref{tab:codes}, with the grade of its best evidence. Where the coder's entries differ from those of Tables~\ref{tab:t1}--\ref{tab:recon}, the difference and its ground are the data the recoding exists to produce.
 
