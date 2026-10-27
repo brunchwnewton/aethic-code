@@ -928,3 +928,7 @@ Note that I’m explicitly interpreting “Golden Point” in the sense of the g
 ## Written up at 4:51 PM ET, October 27, 2026
 
 Also hopefully you see the general application (in addition to the usual application of simply applying it to the Aethus for which we know the state A to be actual already) of the accordance principle for, like, for Aethus X weight not X with the weight of failing the bound of the accordance principle if you assume X, and then weight X with the remaining weight. Such is the general idea for that style of procedure, almost like a “scoping for inhabitability of a given Aethus”. Thanks\!
+
+## Written up at 4:56 PM ET, October 27, 2026
+
+The retrocausal accordance principle is meant to be exactly an instance of this, such that you’re scoping the admissibility of YOUR OWN Aethus conditioning on a variety of different pins from a given attribute happening in the future, is the idea\! Hence why I take it to be a particularly breathtaking idea—a highlight of Golden reasoning for sure\! Thanks\!
