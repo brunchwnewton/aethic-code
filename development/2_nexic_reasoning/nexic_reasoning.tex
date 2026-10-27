@@ -3686,8 +3686,11 @@ There are a few highly important immediate consequences to the High-Contrast Ear
 The Strong Accordance Principle is the effect of the Accordance Principle's inequality bound becoming almost surely absolute rather than merely ``more likely true than not'' due to the incorporation of the High-Contrast Earth Hypothesis, with failure probability suppressed to the order of $10^{-(c+k)}$ at contrast $c$ and prior-odds toll $k$. Let a predeclared attribute have fixed sides, the prior of each fixed across the landscape draw, and let the fixed-label contrast $R(\alpha)$ of \autoref{conj:high-contrast-earth-hypothesis} be spread as the Hypothesis spreads it, with a density at most $1/(2M_\alpha)$---or, where the prior varies across the draw, with a conditional density given the prior at most $1/(2M_\alpha)$. Let the realization then land on one side, as the Accordance Principle draws it, and write $A$ for the side it lands on and $A'$ for the other. Then for every $\kappa > 0$,
 \begin{equation}
 \label{eq:nx-strong-full}
-\Pr\!\left[\, \frac{P(H \mid A')}{P(H \mid A)} \;\ge\; \kappa\, \frac{P(A)}{1 - P(A)} \,\right] \;\le\; \frac{\log_{10}\!\big(1 + 1/\kappa\big)}{M_\alpha},
+\boxed{\; \Pr\!\left[\, \frac{P(H \mid A')}{P(H \mid A)} \;\ge\; \kappa\, \frac{P(A)}{1 - P(A)} \,\right] \;\le\; \frac{\log_{10}\!\big(1 + 1/\kappa\big)}{M_\alpha} \;},
 \end{equation}
+% R873 (Opus 5.5, Oct 27 2026), at the author's direction (Oct 27: the right things boxed, the general form before the
+% special overall): the full form boxed, the box moved here from the effective form below (R869 had boxed the median
+% form).
 % R842 (Opus 5.5, Oct 22 2026), with the referee's report on Optimal Earth: the bound written in closed form; it read
 % ([log10(1/kappa)]^+ + log10(1 + min(kappa, 1/kappa)))/M_alpha, the same quantity (the derivation keeps the two terms).
 % "prices our side's outweighing" read as "bounds the chance that our side fails to outweigh"; the d-form simplified.
@@ -3714,10 +3717,10 @@ With $a = |\log_{10}\kappa|$ the two terms are $\big[\log_{10}(1/\kappa)\big]^{+
 The effective form of the Strong Accordance Principle is its median, as the Accordance Principle's is. Under the conditions of Principle~\ref{prin:strong-full}, at the threshold $\kappa_{1/2} = 1/(10^{M_\alpha/2} - 1)$, where the bound of \eqref{eq:nx-strong-full} is one half,
     \begin{equation}
     \label{eq:nx-strong-median}
-        \boxed{
-        \frac{P(H \mid A')}{P(H \mid A)} \;\lesssim\; \frac{1}{10^{M_\alpha/2} - 1} \cdot \frac{P(A)}{1 - P(A)}
-        }
+        \frac{P(H \mid A')}{P(H \mid A)} \;\lesssim\; \frac{1}{10^{M_\alpha/2} - 1} \cdot \frac{P(A)}{1 - P(A)},
     \end{equation}
+    % R873 (Opus 5.5, Oct 27 2026), at the author's direction: the effective form unboxed, the box being the full form's
+    % (Principle prin:strong-full).
 with $\lesssim$ in the sense of Corollary~\ref{cor:tendency}, the median: the inequality fails with probability at most one half, jointly over the realization and the contrast, so that the median of the accordance ratio is at most $\kappa_{1/2}$. The canonical ratio lies about $M_\alpha/2$ orders of magnitude below the prior odds more likely than not.
 % R871 (Opus 5.5, Oct 27 2026), at the author's direction: the reading of the symbol now the convention's own; it read "with $\lesssim$ read
 % as in Corollary~\ref{cor:tendency} at the strong form's median: the median of the accordance ratio is at most

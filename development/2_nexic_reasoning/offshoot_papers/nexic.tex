@@ -239,13 +239,22 @@ Two mediocrity commitments are now statable cleanly. \emph{Self-mediocrity} (P1)
 
 \begin{principle}[The Accordance Principle]\footnotemark
 \label{prin:accordance}
-For a natural-historical attribute $A$ with alternative $A'$ --- canonically its complement, so that $P(A') = 1 - P(A)$ and the display matches the companion's boxed form \cite{Nexus} --- and $H$ the production of an observer, every probability relative to a declared background state in which the interrogated attribute is blank, the draw taken over that attribute's answer space,
+For a natural-historical attribute $A$ with alternative $A'$ --- canonically its complement, so that $P(A') = 1 - P(A)$ and the boxed display matches the companion's \cite{Nexus} --- and $H$ the production of an observer, every probability relative to a declared background state in which the interrogated attribute is blank, the draw taken over that attribute's answer space,
+\begin{equation}
+\label{eq:exceedance}
+\boxed{\;\Pr\!\left[\, \frac{P(H \mid A')}{P(H \mid A)} \;\ge\; \kappa\, \frac{P(A)}{P(A')} \,\right] \;\le\; \frac{1}{1+\kappa}, \qquad \kappa \ge 1,\;}
+\end{equation}
+the probability taken over the realization, and the event strict at $\kappa = 1$; its effective form is its median, at $\kappa = 1$,
 \begin{equation}
 \label{eq:accordance}
 \frac{P(H \mid A')}{P(H \mid A)} \;\lesssim\; \frac{P(A)}{P(A')},
 \end{equation}
 read attribute by attribute over a partial state, with the canonical ratio on the left: the prior improbability of a realized attribute must be accorded---compensated---by that attribute's relevance to the production of observers.
 \end{principle}
+% R873 (Opus 5.5, Oct 27 2026), at the author's direction (Oct 27: the right things boxed, the general form before the
+% special overall): the principle stated with its general form first, the boxed exceedance display moved here from the
+% end of the derivation's third step, and its effective form, the median, second; "the display matches the companion's
+% boxed form" read "the boxed display matches the companion's", the companion now boxing the exceedance form.
 \footnotetext{A dating and origin note, retained as provenance, with the principle's retrospective reinterpretation. The original motivation (2019--2020, predating the framework): imagine an infinite universe in which all possibilities happen somewhere, so that the number of ``Earths'' on which a given event occurs is proportional to that event's probability of occurring; the Accordance Principle then deduces as simply as dropping oneself on a random such Earth. The retrospectively remarkable feature is that this is accidentally an entirely Aethic argument --- Aethic precisely because the discriminating attribute is valued as \emph{non-exhaustive}, everything neither specified by nor deducible from the stated attribute standing in Aethic superposition relative to it --- unrecognized at the time under a still-classical paradigm. In the Aethic writeup \cite{AethusSemantics}, probability is valued over superposition objects --- Aethae --- rather than over determinate classical worlds, so the standard anthropic dictum ``the probability of being born somewhere is proportional to the population size'' becomes ``the probability of existing somewhere is proportional to the population size times the Aethic weight.'' Qualitatively, a population turns \emph{translucent} under partial weight: within the linear combination it matters how partial a population's weight is, the random drawing occurring at the interface between Aethic realities. The principle as used here then assumes each eventuality carries the same population size --- eventualities being Aethae, they hold multiple determinate population sizes in disagreeing superposition under the extra unknown information, hence inferring in the ``do observers exist'' case of the Accordance Principle that these differences might average out to common similarity. If, however, they do not, then simply by switching ``do observers exist'' to an Aethus holding more attributes targeted at a more individual person such as one's own Aethus, one attains that a smaller population becomes interpretable simply as a lower probability of generating such a person in particular. The derivation's own history completes the note, dictated for the record in August 2026, with one calibration the author insists on: the construction was seeded by popular exposure to the Doomsday argument --- heard of online before 2019, no paper of the tradition read --- and it diverged from the literature precisely because the reaction to that much was phenomenological rather than textual. The original construction was an infinite-cosmos \emph{Earth count} --- the number of Earths satisfying $A$ against a counterfactual $A'$, relative to the branch point $B = A \cup A'$, their ratio read directly as the probabilities' ratio --- from which the Copernican draw, and the principle, followed as consequences. By 2021 the Earth count and timeline-counterfactuals stood intuitively unified; a 2022 intermediate replaced the census with a \emph{mass of timelines} under each probability, transitional between the discrete count and value over states; and the 2022--2023 step re-valued the premises over indexed partial states --- past light-cone attributes able to roll from scratch, the born-once-on-a-random-Earth picture retired --- which is what turned a striking property of an imagined cosmos into a deduction from the relativity of determinacy.}
 
 \begin{proof}[Derivation]
@@ -253,7 +262,7 @@ Self-mediocrity, applied to the realized attribute, says the realized value shou
 \[
 \frac{P(A' \mid H)}{P(A \mid H)} \;=\; \frac{P(H \mid A')}{P(H \mid A)} \cdot \frac{P(A')}{P(A)},
 \]
-and the typicality condition is therefore the displayed bound. The content is direct: where the realized attribute was the a priori unlikely member of the pair, the constraint forces the canonical ratio below one, the alternative having been the less observer-productive member---improbability on the path to an observer must be bought by observer-relevance.
+and the typicality condition is therefore the effective form \eqref{eq:accordance}; the general form is derived below. The content is direct: where the realized attribute was the a priori unlikely member of the pair, the constraint forces the canonical ratio below one, the alternative having been the less observer-productive member---improbability on the path to an observer must be bought by observer-relevance.
 \end{proof}
 
 The relation $\lesssim$ carries the principle's modality, and it can be given a definite meaning rather than left as a tolerance. The formal content of self-mediocrity is the \emph{Copernican draw}, and on that formalization the bound needs no tolerance parameter: it is the mediocrity principle read at a threshold and rewritten by Bayes' theorem. The derivation runs in three steps.
@@ -292,12 +301,11 @@ and by Bayes' theorem, $P(X \mid H) = P(H \mid X)\,P(X)/P(H)$,
 \label{eq:bayes}
 P(A' \mid H) \;\ge\; \kappa\, P(A \mid H) \quad\Longleftrightarrow\quad \frac{P(H \mid A')}{P(H \mid A)} \;\ge\; \kappa\, \frac{P(A)}{P(A')}.
 \end{equation}
-Substituting \eqref{eq:complement}--\eqref{eq:bayes} into \eqref{eq:draw} gives the principle:
-\begin{equation}
-\label{eq:exceedance}
-\boxed{\;\Pr\!\left[\, \frac{P(H \mid A')}{P(H \mid A)} \;\ge\; \kappa\, \frac{P(A)}{P(A')} \,\right] \;\le\; \frac{1}{1+\kappa}, \qquad \kappa \ge 1,\;}
-\end{equation}
-the probability taken over the realization, the event's left-hand side being the canonical ratio and its inequality strict at $\kappa = 1$. In the idiom of surprise: to find oneself on a statistically surprising branch is evidence that the branch was less surprising from the standpoint of the process that produces observers than from the standpoint of the prior, and the display says by how much.
+Substituting \eqref{eq:complement}--\eqref{eq:bayes} into \eqref{eq:draw} gives the principle's general form, \eqref{eq:exceedance}, the probability taken over the realization, the event's left-hand side being the canonical ratio and its inequality strict at $\kappa = 1$. In the idiom of surprise: to find oneself on a statistically surprising branch is evidence that the branch was less surprising from the standpoint of the process that produces observers than from the standpoint of the prior, and \eqref{eq:exceedance} says by how much.
+% R873 (Opus 5.5, Oct 27 2026), at the author's direction: the boxed display that stood here, after "gives the
+% principle:", moved into the principle's statement; "the display says by how much" read "\eqref{eq:exceedance} says
+% by how much". In the derivation after the statement, "the typicality condition is therefore the displayed bound"
+% read "the effective form \eqref{eq:accordance}; the general form is derived below".
 
 \textit{Three readings of the bound.} Write $R = P(A' \mid H)/P(A \mid H)$ for the posterior odds against the realized attribute, the canonical ratio divided by the prior odds $P(A)/P(A')$, and $Q = P(A \mid H)$ for its proportion, so that $R = (1-Q)/Q$. First, the \emph{quantile ladder}: taking $\kappa = (1-p)/p$ in \eqref{eq:exceedance} gives
 \begin{equation}
