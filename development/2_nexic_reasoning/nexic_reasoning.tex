@@ -1871,15 +1871,13 @@ The physical universe, the Cosmic Nexus, conditioned on an Aethus that is a memb
     \[ \Pr\!\left[\, R \;\ge\; \frac{1-p}{p} \,\right] \;\le\; p, \]
     so the $(1-p)$-quantile of $R$ is at most $(1-p)/p$: its $90$th percentile at most $9$, its $99$th at most $99$, and its median at most $1$ in the strict form. The tendency form of the framework's earlier development,
     \[ \frac{\mathrm{P}(H \mid A')}{\mathrm{P}(H \mid A)} \;\lesssim\; \frac{\mathrm{P}(A)}{1 - \mathrm{P}(A)}, \]
-    is the ladder's middle rung: $\lesssim$ asserts that the \emph{median} of the accordance ratio is at most one. The other rungs carry a subscript, the failure probability: $x \lesssim_q y$ asserts that $x \le y$ fails with probability at most $q$, so that the ladder reads
-    \[ \frac{\mathrm{P}(H \mid A')}{\mathrm{P}(H \mid A)} \;\lesssim_{p}\; \frac{1-p}{p} \cdot \frac{\mathrm{P}(A)}{1 - \mathrm{P}(A)}, \qquad p \in (0, \tfrac12], \]
-    nine times the prior odds at $p = 10\%$, and a bare $\lesssim$ is $\lesssim_{50\%}$.
+    is the ladder's middle rung: $\lesssim$ asserts that the \emph{median} of the accordance ratio is at most one.
     \end{coro}
-    \noindent The subscript is fixed in advance, a numerical one written as a percentage, and the probability is the one the principle in use is stated over: the realization for the Accordance Principle, the realization and the contrast jointly for Strong Accordance, whose median falls far below $\kappa = 1$ (Principle~\ref{prin:strong-accordance}). It runs as the canonical quantiles of Definition~\ref{def:canonical-quantiles} do, so that for a point prior $\mathrm{P}(H \mid A')/\mathrm{P}(H \mid A) \lesssim_q r_q$, the canonical bound at canonical quantile $q$ (Proposition~\ref{prop:canonical-scale}). A bare $\lesssim$ is the median, $x \gtrsim_q y$ is $y \lesssim_q x$, and a statement that carries its probability in $\Pr[\cdot]$ writes its inequality exactly. Wherever $\lesssim$ stands without one, the inequality is a priced tendency and not an absolute.
-    % R871 (Opus 5.5, Oct 27 2026), at the author's direction (Oct 27: \lesssim for the effective forms, the heuristic median,
-    % as the running convention; a subscript for an arbitrary quantile, the median its default; a Pr[] form keeps its exact
-    % inequality): the subscripted form and the convention stated. The subscript is the failure probability, the author's
-    % choice, so that it runs as the canonical quantiles do.
+    \noindent The exceedance form is the default statement of every rung: its $\Pr[\cdot]$ carries the probability, and inside it the inequality is written exactly. The tendency symbol is reserved for a rung that would otherwise be written as a bare inequality, with the modality of an absolute that the principle does not have, and above all for the effective form, the median, which for the Accordance Principle falls at $\kappa = 1$ and for Strong Accordance far below it (Principle~\ref{prin:strong-accordance}). Where it abbreviates another rung, a subscript gives the failure probability, $x \lesssim_q y$ asserting that $x \le y$ fails with probability at most $q$, fixed in advance, as the canonical quantiles of Definition~\ref{def:canonical-quantiles} run; a bare $\lesssim$ is $\lesssim_{50\%}$, and $x \gtrsim_q y$ is $y \lesssim_q x$. The probability is the one the principle in use is stated over: the realization for the Accordance Principle, and the realization and the contrast jointly for Strong Accordance.
+    % R872 (Opus 5.5, Oct 27 2026), at the author's direction (Oct 27: the Pr[] form the default throughout, \lesssim used
+    % only where an inequality would otherwise stand bare, as at the median or effective form): the convention, added in
+    % R871, restated with the exceedance form first and the subscripted symbol an abbreviation only; R871's restatement of
+    % the ladder in the subscripted notation, inside the corollary, withdrawn, the ladder standing in its Pr[] form above.
 
     % R845 (Opus 5.5, Oct 22 2026), with the referee's report on the Copernican foundation: the uniform Q is the postulate's
     % extremal case and the envelope, not a mixture of two-cell draws, whose E[R] is one (it read "No expectation statement
@@ -1892,9 +1890,10 @@ The physical universe, the Cosmic Nexus, conditioned on an Aethus that is a memb
     % R843 (Opus 5.5, Oct 22 2026): with the referee's third report on Optimal Earth, the scale's percentiles are the
     % envelope's and the principle guarantees the level, not the percentile; at the author's direction, the table's strong
     % column (Proposition prop:strong-canonical, at an illustrative M_alpha = 10).
-    \paragraph{The percentile scale.} The quantile ladder is a percentile scale for $\kappa$. At guaranteed level $\beta$ the canonical ratio is at most $\kappa_\beta = \beta/(1-\beta)$ times the prior odds, equivalently $R \lesssim_{1-\beta} \kappa_\beta$, the bound failing with probability at most $1 - \beta = 1/(1+\kappa_\beta)$ (Table~\ref{tab:kappa-scale}). Three features fix how the scale is read.
-    % R871 (Opus 5.5, Oct 27 2026), at the author's direction: the level's inequality written in the convention; it read "equivalently
-    % $R \le \kappa_\beta$".
+    \paragraph{The percentile scale.} The quantile ladder is a percentile scale for $\kappa$. At guaranteed level $\beta$ the canonical ratio is at most $\kappa_\beta = \beta/(1-\beta)$ times the prior odds, that is, $\Pr[R > \kappa_\beta] \le 1 - \beta = 1/(1+\kappa_\beta)$ (Table~\ref{tab:kappa-scale}). Three features fix how the scale is read.
+    % R872 (Opus 5.5, Oct 27 2026), at the author's direction (the Pr[] form the default): the level's inequality written
+    % in the exceedance form; it read "equivalently $R \le \kappa_\beta$, the bound failing with probability at most $1 -
+    % \beta = 1/(1+\kappa_\beta)$" (R871 had the subscripted symbol).
     \begin{itemize}[leftmargin=*]
     \item \emph{A level at a threshold, not a percentile.} The principle guarantees $\Pr[R \le \kappa_\beta] \ge \beta$, so the accordance ratio's own $\beta$-th percentile is at most $\kappa_\beta$ and may lie well below it, $\Pr[R \le 4]$ being at least $0.8$ and perhaps $0.9$ or one; the scale's percentiles are those of the envelope $\kappa(U)$ of Definition~\ref{def:canonical-quantiles}, which attains the bound.
     \item \emph{Its check, and its start.} The scale's check is its middle: $\kappa = 1$ sits at the $50$th percentile, and the standing rungs $\kappa = 1$ and $\kappa = 4$ are its $50$th and $80$th percentiles. It also begins there. The draw is postulated in its lower tail (Principle~\ref{prin:copernican-draw}), so the principle licenses $\kappa \ge 1$, with $\kappa = 1$ in strict form; below the median a tighter bound would need the realized side to outweigh its alternative by a margin, which an attribute whose two sides carry nearly equal observer-weight defeats, and below the $50$th percentile the bound therefore stays at the median's.
@@ -2753,9 +2752,12 @@ Fourth, the schema is only as strong as the rarity the substituted principle est
     \end{equation}
     and with $\mathrm{P}(B \mid A) \approx 0.13$ the prior odds are $0.13/0.87 \approx 0.15$. Write $r_B$ for the canonical ratio on the left, the never-extinct branch's observer-productivity relative to ours.
 
-    \paragraph{The rungs.} At the median rung, $\kappa = 1$ in strict form, $r_B \lesssim 0.15$, in at least half of the cases: the never-extinct scenario is at most about fifteen percent as productive of Aetherians as our own, which is the tendency form's figure. At $\kappa = 4$ the bound is $r_B \lesssim_{20\%} 0.60$, in at least four fifths of the cases, and at $\kappa = 9$ it is $r_B \lesssim_{10\%} 1.35$, in at least nine tenths, which no longer separates the branches: at the ninth-decile rung the one-node application on its own does not exclude the never-extinct branch's being the more productive. The linkage floors say the same on their scale: $L_B \gtrsim 0.74$ at the median rung, $L_B \gtrsim_{20\%} 0.25$ at $\kappa = 4$, and a negative floor at $\kappa = 9$, $L_B \gtrsim_{10\%} -0.15$, which fixes no sign (Table~\ref{tab:dino-rungs}).
-    % R871 (Opus 5.5, Oct 27 2026), at the author's direction: the rungs written in the convention, the words kept; they read
-    % "$r_B \le 0.15$", "$r_B < 0.60$", "$r_B < 1.35$" and "$L_B \ge 0.74$", "$L_B \ge 0.25$", "$L_B \ge -0.15$".
+    \paragraph{The rungs.} At the median rung, $\kappa = 1$ in strict form, $r_B \lesssim 0.15$, in at least half of the cases: the never-extinct scenario is at most about fifteen percent as productive of Aetherians as our own, which is the tendency form's figure. At $\kappa = 4$ the bound is $\Pr[r_B \ge 0.60] \le \tfrac15$, and at $\kappa = 9$ it is $\Pr[r_B \ge 1.35] \le \tfrac{1}{10}$, which no longer separates the branches: at the ninth-decile rung the one-node application on its own does not exclude the never-extinct branch's being the more productive. The linkage floors say the same on their scale: $L_B \gtrsim 0.74$ at the median rung, $\Pr[L_B < 0.25] \le \tfrac15$ at $\kappa = 4$, and a negative floor at $\kappa = 9$, $\Pr[L_B < -0.15] \le \tfrac{1}{10}$, which fixes no sign (Table~\ref{tab:dino-rungs}).
+    % R872 (Opus 5.5, Oct 27 2026), at the author's direction (the Pr[] form the default, \lesssim only where an
+    % inequality would otherwise stand bare): the median rung written with \lesssim and \gtrsim (R871), the other rungs in
+    % the exceedance form; they read "$r_B \le 0.15$ in at least half of the cases", "$r_B < 0.60$ in at least four fifths
+    % of the cases", "$r_B < 1.35$ in at least nine tenths", and "$L_B \ge 0.74$", "$L_B \ge 0.25$", "$L_B \ge -0.15$"
+    % (R871 had the subscripted symbol at kappa = 4 and 9).
 
     \paragraph{What the two constraints say together.} The bound is relative; the Constraint of Dinosaurian Dominance is absolute, $\mathrm{P}(H \mid A \cap B') \approx 0$, and it is a separate empirical input, not a reading of the bound. The two agree in direction: the never-extinct scenario is depressed in observer-productivity both as a fraction of our scenario's and in itself. The dinosaurian extinction is therefore an anthropic parameter---an event whose realization in our history was structurally required for our existence---at the priced grade the rungs state, and it is the Dominance constraint, not the one-node bound, that the two-node application consumes, because the bound leaves the never-extinct branch's weight free and the constraint fixes it.
 
@@ -2810,9 +2812,12 @@ Fourth, the schema is only as strong as the rarity the substituted principle est
     \[ \Pr\big[\, r_A \;\ge\; c\,\kappa \,\big] \;\le\; \frac{1}{1+\kappa}, \qquad c \;=\; \frac{0.33 \times 0.13}{0.67} \;\approx\; 0.064, \]
     the inputs' own two figures being all the precision $c$ carries.
 
-    \paragraph{The rungs.} At the median rung $r_A \lesssim 0.064$, in at least half of the cases, the six percent of the Principle below: the never-dinosaur scenario is at most $0.064$ times as productive of Aetherians as ours; at $\kappa = 4$, $r_A \lesssim_{20\%} 0.26$, in at least four fifths of the cases; at $\kappa = 9$, $r_A \lesssim_{10\%} 0.58$, in at least nine tenths. Unlike the one-node bound, the two-node bound separates the branches at every standing rung: the never-dinosaur branch is the less productive in at least half, four fifths and nine tenths of the cases. On the linkage scale the realized Mesozoic, $C$ against $C'$, has $L_C \gtrsim 0.91$ at the median rung, $L_C \gtrsim_{20\%} 0.69$ at $\kappa = 4$ and $L_C \gtrsim_{10\%} 0.42$ at $\kappa = 9$ (Table~\ref{tab:dino-rungs}).
-    % R871 (Opus 5.5, Oct 27 2026), at the author's direction: the rungs written in the convention, the words kept; they read
-    % "$r_A \le 0.064$", "$r_A \le 0.26$", "$r_A \le 0.58$" and "$L_C \ge 0.91$", "$L_C \ge 0.69$", "$L_C \ge 0.42$".
+    \paragraph{The rungs.} At the median rung $r_A \lesssim 0.064$, in at least half of the cases, the six percent of the Principle below: the never-dinosaur scenario is at most $0.064$ times as productive of Aetherians as ours; at $\kappa = 4$, $\Pr[r_A \ge 0.26] \le \tfrac15$; at $\kappa = 9$, $\Pr[r_A \ge 0.58] \le \tfrac{1}{10}$. Unlike the one-node bound, the two-node bound separates the branches at every standing rung: the never-dinosaur branch is the less productive in at least half, four fifths and nine tenths of the cases. On the linkage scale the realized Mesozoic, $C$ against $C'$, has $L_C \gtrsim 0.91$ at the median rung, $\Pr[L_C < 0.69] \le \tfrac15$ at $\kappa = 4$ and $\Pr[L_C < 0.42] \le \tfrac{1}{10}$ at $\kappa = 9$ (Table~\ref{tab:dino-rungs}).
+    % R872 (Opus 5.5, Oct 27 2026), at the author's direction (the Pr[] form the default, \lesssim only where an
+    % inequality would otherwise stand bare): the median rung written with \lesssim and \gtrsim (R871), the other rungs in
+    % the exceedance form; they read "$r_A \le 0.064$ in at least half of the cases", "$r_A \le 0.26$ in at least four
+    % fifths of the cases", "$r_A \le 0.58$ in at least nine tenths", and "$L_C \ge 0.91$", "$L_C \ge 0.69$", "$L_C \ge
+    % 0.42$" (R871 had the subscripted symbol at kappa = 4 and 9).
 
     \begin{table}[ht]
     \centering
@@ -3722,16 +3727,13 @@ with $\lesssim$ in the sense of Corollary~\ref{cor:tendency}, the median: the in
 At $\kappa_{1/2}$, $\log_{10}(1 + 1/\kappa_{1/2}) = \log_{10} 10^{M_\alpha/2} = M_\alpha/2$, so the bound of \eqref{eq:nx-strong-full} is one half.
 \end{proof}
 
-\noindent For the Accordance Principle the median falls at $\kappa = 1$, which is why its effective form and its $\kappa = 1$ form are one display. Under the Hypothesis they come apart. At $\kappa = 1$ the full form gives $P(H \mid A')/P(H \mid A) \lesssim_{q} P(A)/(1 - P(A))$ at $q = \log_{10} 2/M_\alpha$, near-certain, but that is the conservative statement: it places the canonical ratio below the prior odds, where the median places it some $\log_{10}(10^{M_\alpha/2} - 1)$ orders of magnitude further down. The effective form is the strong canonical bound at canonical quantile one half (Proposition~\ref{prop:strong-canonical}), and it lies below the Accordance Principle's median bound exactly when $M_\alpha \ge \log_{10} 4$. It is the case $q = \tfrac12$ of the full form read at every failure probability fixed in advance,
-\begin{equation}
-\label{eq:nx-strong-quantile}
-\frac{P(H \mid A')}{P(H \mid A)} \;\lesssim_{q}\; \frac{1}{10^{qM_\alpha} - 1} \cdot \frac{P(A)}{1 - P(A)}, \qquad 0 < q < 1,
-\end{equation}
-the strong counterpart of the Accordance ladder of Corollary~\ref{cor:tendency}.
-% R871 (Opus 5.5, Oct 27 2026), at the author's direction: the kappa = 1 face written in the convention, its failure probability the
-% subscript, and the full form displayed at every quantile; the first read "At $\kappa = 1$ the full form makes the
-% inequality $P(H \mid A')/P(H \mid A) < P(A)/(1 - P(A))$ near-certain, failing with probability at most $\log_{10}
-% 2/M_\alpha$, but that inequality is the conservative statement".
+\noindent For the Accordance Principle the median falls at $\kappa = 1$, which is why its effective form and its $\kappa = 1$ form are one display. Under the Hypothesis they come apart. At $\kappa = 1$ the full form gives $\Pr\big[P(H \mid A')/P(H \mid A) \ge P(A)/(1 - P(A))\big] \le \log_{10} 2/M_\alpha$, near-certainty for the reverse inequality, but that inequality is the conservative statement: it places the canonical ratio below the prior odds, where the median places it some $\log_{10}(10^{M_\alpha/2} - 1)$ orders of magnitude further down. The effective form is the strong canonical bound at canonical quantile one half (Proposition~\ref{prop:strong-canonical}), and it lies below the Accordance Principle's median bound exactly when $M_\alpha \ge \log_{10} 4$.
+% R872 (Opus 5.5, Oct 27 2026), at the author's direction (the Pr[] form the default): the kappa = 1 face under the
+% Hypothesis written in the exceedance form; it read "At $\kappa = 1$ the full form makes the inequality $P(H \mid
+% A')/P(H \mid A) < P(A)/(1 - P(A))$ near-certain, failing with probability at most $\log_{10} 2/M_\alpha$, but that
+% inequality is the conservative statement". R871's subscripted statement of it, and its display of the full form at
+% every quantile in that notation, withdrawn: Proposition prop:strong-canonical (ii) states the latter in the
+% exceedance form.
 % R869 (Opus 5.5, Oct 27 2026), at the author's direction: the effective form restated as the full form's median, as the author's note
 % directs; the derivation is the full form at kappa_{1/2}, and Proposition prop:strong-canonical (ii) at q = 1/2.
 
@@ -4302,9 +4304,10 @@ $100$ & $12.6$ & $98$ & $408$ \\
     \label{eq:rareearth-bound}
     P(H^{+}) \;\le\; (1+\kappa)\, P(A).
     \end{equation}
-    At $\kappa = 1$ this is $P(H^{+}) \lesssim 2\,P(A)$, the tendency form; at $\kappa = 9$ it is $P(H^{+}) \lesssim_{10\%} 10\,P(A)$, with probability at least $0.9$; and at every failure probability $q \le \tfrac12$ it is $P(H^{+}) \lesssim_q P(A)/q$: the multiplier and the confidence rise together, and the trade is the quantile ladder of Corollary~\ref{cor:tendency} read on $P(H^{+})$.
-    % R871 (Opus 5.5, Oct 27 2026), at the author's direction: the rung at kappa = 9 written in the convention, and every rung;
-    % it read "at $\kappa = 9$ it is $P(H^{+}) \le 10\,P(A)$ with probability at least $0.9$; the multiplier".
+    At $\kappa = 1$ this is $P(H^{+}) \lesssim 2\,P(A)$, the tendency form; at $\kappa = 9$ it is $\Pr[P(H^{+}) > 10\,P(A)] \le 0.1$; the multiplier and the confidence rise together, and the trade is the quantile ladder of Corollary~\ref{cor:tendency} read on $P(H^{+})$.
+    % R872 (Opus 5.5, Oct 27 2026), at the author's direction (the Pr[] form the default): the rung at kappa = 9 written
+    % in the exceedance form; it read "at $\kappa = 9$ it is $P(H^{+}) \le 10\,P(A)$ with probability at least $0.9$; the
+    % multiplier" (R871's subscripted forms withdrawn).
     \end{theorem}
     % R845 (Opus 5.5, Oct 22 2026), with the referee's report on the Copernican foundation: the tower above H under the
     % Substitution Property's rung-screening license (it read "That H+ is free is what makes the bound a tower", the
@@ -6992,7 +6995,7 @@ and $\le 1$ below $2^{m}$. At $m = 1$ and $t \ge 2$ the right-hand side is $1/t$
 \label{eq:median-multiplier}
 \ln \operatorname{med} \prod_{i=1}^{m} (1+\kappa_i) \;\approx\; \big(\ln 2 + \tfrac12\big)\, m \;\approx\; 1.19\, m,
 \end{equation}
-so compounding costs a factor of about $2\sqrt{e} \approx 3.3$ per attribute. This is the envelope's cost: the envelope's multiplier is heavy-tailed with infinite mean, the same non-integrability that forced the median reading of the tendency form at Corollary~\ref{cor:tendency}, appearing again where the same quantity is compounded, and it is the envelope's median that transports. The actual multiplier of a fixed binary partition is not heavy-tailed in this way. A side of observer-conditioned probability $q$ is realized with probability $q$ and contributes $1/q$, so its mean is exactly $2$ per attribute, and under draw-level independence Markov's inequality gives $P(H^{+}) \lesssim_{\delta} (2p)^m/\delta$, at coverage $1-\delta$: the threshold $p < \tfrac12$, which the realized-cell bound of Lemma~\ref{lem:nx-realized-cell} reaches without that independence. \emph{Second, the threshold.} With each cosmic prior at $p$, the median bound of \eqref{eq:reading1} is
+so compounding costs a factor of about $2\sqrt{e} \approx 3.3$ per attribute. This is the envelope's cost: the envelope's multiplier is heavy-tailed with infinite mean, the same non-integrability that forced the median reading of the tendency form at Corollary~\ref{cor:tendency}, appearing again where the same quantity is compounded, and it is the envelope's median that transports. The actual multiplier of a fixed binary partition is not heavy-tailed in this way. A side of observer-conditioned probability $q$ is realized with probability $q$ and contributes $1/q$, so its mean is exactly $2$ per attribute, and under draw-level independence Markov's inequality gives $\Pr\big[P(H^{+}) > (2p)^m/\delta\big] \le \delta$: the threshold $p < \tfrac12$, which the realized-cell bound of Lemma~\ref{lem:nx-realized-cell} reaches without that independence. \emph{Second, the threshold.} With each cosmic prior at $p$, the median bound of \eqref{eq:reading1} is
 \begin{equation}
 \label{eq:pe}
 P(H^{+}) \;\lesssim\; \big(2\sqrt{e}\; p\big)^{m},
@@ -7006,11 +7009,11 @@ This is the threshold Reading~1 imposes, and it is worth stating as bluntly as i
     \item \emph{List the attributes.} Enumerate $m$ realized attributes of the record whose cosmic priors are separately estimable from published work, and which are independent under the cosmic weighting. Record each $p_i$ with its source and its uncertainty. The independence claim is the one to argue explicitly; causal disconnection is the usual ground for it, and where two attributes share a common cause they are one attribute for this purpose.
     \item \emph{Choose a confidence.} Fix $\delta$, the probability with which the bound is permitted to fail. This is a choice of how much of the draw's tail to accept, not an estimate of anything.
     \item \emph{Read the multiplier.} Compute $t_\delta(m) = \exp\!\big(\Gamma^{-1}_{m,1}(1-\delta)\big)$, the $(1-\delta)$-quantile of the compounded multiplier, by inverting \eqref{eq:multiplier-tail} or from Table~\ref{tab:multiplier}.
-    \item \emph{Report the bound.} $P(H^{+}) \lesssim_{\delta} t_\delta(m)\prod_{i} p_i$, at confidence $1-\delta$, together with $m$, the list, and $\delta$, since the bound is uninterpretable without them.
+    \item \emph{Report the bound.} $\Pr\big[P(H^{+}) > t_\delta(m)\prod_{i} p_i\big] \le \delta$, together with $m$, the list, and $\delta$, since the bound is uninterpretable without them.
     \end{enumerate}
     \begin{table}[htbp]
     \centering
-    \caption{The compounded multiplier $t_\delta(m)$ of \eqref{eq:multiplier-tail}: with $m$ attributes independent under the cosmic weighting, $P(H^{+}) \lesssim_{\delta} t_\delta(m)\prod_i p_i$, with probability at least $1-\delta$. The $m=1$ row is the Accordance tail itself, $t_\delta(1) = 1/\delta$.}
+    \caption{The compounded multiplier $t_\delta(m)$ of \eqref{eq:multiplier-tail}: with $m$ attributes independent under the cosmic weighting, $\Pr\big[P(H^{+}) > t_\delta(m)\prod_i p_i\big] \le \delta$. The $m=1$ row is the Accordance tail itself, $t_\delta(1) = 1/\delta$.}
     \label{tab:multiplier}
     \begin{tabular}{r rrrrr}
     \toprule
@@ -7029,9 +7032,11 @@ This is the threshold Reading~1 imposes, and it is worth stating as bluntly as i
 
     \noindent
 
-\emph{A worked case under the envelope, and how it degrades.} Take $m = 30$ attributes at cosmic prior $p = 0.2$ and a confidence of ninety percent. The product is $0.2^{30} \approx 1.1\times10^{-21}$; the table gives $t_{0.1}(30) \approx 1.4\times10^{16}$; the bound is $P(H^{+}) \lesssim_{10\%} 1.6\times10^{-5}$, with probability at least $0.9$. At $p = 0.1$ the same thirty attributes give $1.4\times10^{-14}$. Now suppose a reader rejects six of the thirty---three whose priors they think overstated, three whose independence they doubt. The calculation moves to $m = 24$ and $\prod_i p_i = 0.2^{24}$, and can be redone from the table in a line; nothing else in the argument is touched. That is the separability Reading~1 was recommended for, and it is what makes the bound a claim a specialist can contest attribute by attribute rather than a claim they must accept or reject whole.
-% R871 (Opus 5.5, Oct 27 2026), at the author's direction: the coverage bounds of this passage written in the convention, as its
-% median already was; they read "\le" (Markov's bound, the pipeline's report, the table's caption, this case).
+\emph{A worked case under the envelope, and how it degrades.} Take $m = 30$ attributes at cosmic prior $p = 0.2$ and a confidence of ninety percent. The product is $0.2^{30} \approx 1.1\times10^{-21}$; the table gives $t_{0.1}(30) \approx 1.4\times10^{16}$; the bound is $\Pr[P(H^{+}) > 1.6\times10^{-5}] \le 0.1$. At $p = 0.1$ the same thirty attributes give $1.4\times10^{-14}$. Now suppose a reader rejects six of the thirty---three whose priors they think overstated, three whose independence they doubt. The calculation moves to $m = 24$ and $\prod_i p_i = 0.2^{24}$, and can be redone from the table in a line; nothing else in the argument is touched. That is the separability Reading~1 was recommended for, and it is what makes the bound a claim a specialist can contest attribute by attribute rather than a claim they must accept or reject whole.
+% R872 (Opus 5.5, Oct 27 2026), at the author's direction (the Pr[] form the default): the coverage bounds of this
+% passage written in the exceedance form; they read "\le" with "at coverage $1-\delta$", "at confidence $1-\delta$" or
+% "with probability at least" (Markov's bound, the pipeline's report, the table's caption, this case; R871 had the
+% subscripted symbol).
 
 \printbibliography
     
