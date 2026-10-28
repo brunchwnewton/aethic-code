@@ -15955,7 +15955,14 @@ non-contradictory weight: its inhabitability, the part of its weight
 that does not contradict the bound. Where a prior over the
 pins is given and the complement makes the present typical, Bayes's
 theorem returns the same verdict up to the prior odds, the posterior odds
-of a pin being its prior odds times its inhabitability. The principle's
+of a pin being its prior odds times its inhabitability. Across competing
+pins the confidences are therefore the inhabitabilities weighted by the
+pins' prior weights and normalized, not the inhabitabilities themselves,
+which are likelihoods and need not sum to one; the cap
+$\mathrm{cr}\lesssim\iota$ is that rule's reading for a pin not favored in
+advance. The principle's
+% R876 (Opus 5.5, Oct 27 2026), at the author's direction: across competing pins, inhabitability times prior, normalized; the cap its reading for an
+% unfavored pin.
 applications in this work are such pins: the worked case below pins
 a life in which no task calls on a standing ability
 (\S\ref{ra:sub:example}); the finale paradox's filter pins a future that

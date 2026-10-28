@@ -140,6 +140,13 @@ relative entropy, whose rate is the information flux. And the limit on
 certification: the two laws are mutually absolutely continuous on their specified common support on every finite horizon and singular only at infinity, so no event of bounded
 duration separates them with probability one, while statistical
 discrimination remains available and is what the Bayes factor measures.
+Read from the other side, the conditioned mass scores futures: the
+inhabitability of a candidate future is the weight it gives one's
+realized record, scoping the future caps one's credence in it at that
+weight, and across competing futures the inhabitabilities are
+normalized against prior weights; targeted accordance is the scoping of
+one's own record pinned at each attribute of its future.
+% R876 (Opus 5.5, Oct 27 2026), at the author's direction: the inhabitability scoping conveyed.
 A conjunction of predeclared attributes sharpens the theorem
 multiplicatively under submultiplicativity, and the multiplicity guard
 that any retrospective scan owes is stated as part of the result. The theorem holds for any fixed target, including one an analyst selected after seeing the record; prospective fixation is a restriction on the application, not a consequence of the theorem. The multiplicity bound counts violations under the proposed target-conditioned law and is not a false-positive calibration for accepting that law against an unconditioned rival, so the protocol requires predictive probabilities under both competing laws, not baseline priors and a target label alone.
@@ -200,7 +207,11 @@ conditioning that a naive statement of the survival target commits. The
 between-model layer (Section~\ref{sec:models}): the Bayes factor between
 conditioned and unconditioned laws identified with the Doob density at
 finite information, and the information flux as the monotone statistic
-the realized evidence lacks. The limit on certification
+the realized evidence lacks. The scoping of a candidate future for
+inhabitability (Section~\ref{sec:scoping}), the theorem's conditioned
+mass read as a score on futures, with its exact relation to Bayes's
+theorem and with targeted accordance as its instance at one's own record. The limit on certification
+% R876 (Opus 5.5, Oct 27 2026), at the author's direction: the inhabitability scoping conveyed.
 (Section~\ref{sec:ceiling}) stated at its exact strength. And the
 protocol under which the theorem's application to a real record is a
 prospective test rather than a retrospective fit
@@ -216,9 +227,12 @@ survivorship one for its mechanism; and a terminal Route World
 companion imports all three to state its hypothesis. Neither downstream
 paper is cited here, so that the citation graph, like the logical one,
 runs one way. No downstream paper is cited here as support for
-anything.
+anything. The scoping of Section~\ref{sec:scoping} depends on nothing
+Golden either; its examples name the program's uses without consuming
+them.
 
 \emph{What is refused.} No claim that any actual record is drawn under a
+% R876 (Opus 5.5, Oct 27 2026), at the author's direction: the inhabitability scoping conveyed.
 future-conditioned law is made here; that is the downstream companion's
 hypothesis, and it is carried there at a hypothesis's grade. No
 retrocausal mechanism is invoked anywhere. And no result below certifies
@@ -442,6 +456,32 @@ $\PP(G\mid A)$ with $G$ the event of indefinite survival are shorthand for the n
 the attribute-level ratios are ratios of its averages.
 \end{remark}
 
+% R876 (Opus 5.5, Oct 27 2026), at the author's direction: survival through every horizon stated as content, the Golden Aethus at its
+% primitive, and its statedness as the program's Golden Axiom, at [O]; no downstream companion cited.
+\begin{remark}[Survival through every horizon, stated as content]
+\label{rem:goldenaxiom}
+Each horizon event $\{T>t\}$ has positive probability, and $Q$ is the
+law that has absorbed every one of them. Read not as a limit of laws
+but as the content of an information state, $Q$ states the survival
+attribute at every horizon at once, every other attribute blank: in set
+notation $\bigcap_t\{T>t\}=\{T=\infty\}$, null in the critical regime,
+which is why it is stated through the horizon family and never
+conditioned on as an event. The Golden program calls this content the
+\emph{Golden Aethus} at its primitive, and its \emph{Golden Axiom} is
+that this Aethus is a parent of one's own information state: one's
+state refines it, decomposing with it as a factor, so that the survival
+attributes are stated in it. The parent form is what lets a conditioning
+of the universe be stated at all, an attribution being a relation to an
+information state and never to an absolute ledger; the bare sentence
+that the universe is conditioned on indefinite survival is, by
+contrast, ill-defined. Under the axiom the law of one's own record is
+$Q$, which is the hypothesis $H_Q$ of Definition~\ref{def:hyps} stated
+as content. The axiom is an exposed postulate, carried downstream at the
+grade of an open hypothesis and nowhere asserted or used here;
+Theorem~\ref{thm:ceiling} is why no finite record could certify it, and
+Section~\ref{sec:models} is how a record would bear on it.
+\end{remark}
+
 \section{Rival laws for a record: the between-model layer}
 \label{sec:models}
 
@@ -534,6 +574,141 @@ since mutual singularity on $\Fc_\infty$ forces the relative entropy to
 diverge.
 \end{proof}
 
+% R876 (Opus 5.5, Oct 27 2026), at the author's direction: a new section, the scoping of a future for inhabitability, the program's
+% general procedure, with targeted accordance as its instance at one's own record; no downstream companion cited.
+\section{Scoping a future for inhabitability}\label{sec:scoping}
+
+Theorem~\ref{thm:accordance} reads the conditioned mass of a record
+already in hand under a target law. The same mass, read from the other
+side, scores candidate futures: a future under which one's record would
+be a fluke can be held only to the extent of the weight it gives that
+record. This section states that use as a procedure, gives its exact
+relation to Bayes's theorem, and shows that targeted accordance is its
+instance at one's own record. Like the theorem, it depends on nothing
+Golden; its examples name the program's uses without being consumed.
+
+\begin{definition}[Inhabitability, and scoping; the author's
+procedure]\label{def:scoping}
+Let $A^\ast$ be the realized member of a binary partition of one's
+record, with $A^{\ast\prime}$ its complement, and let $X$ be a
+\emph{candidate}: an attribute with $\PP(X)>0$, a future one in
+particular, or any information state one has not been shown to occupy.
+Suppose $X$ obtains. The \emph{inhabitability} of $X$, or its
+admissibility, is the weight $X$ gives one's realized record,
+\begin{equation}\label{eq:inhab}
+\iota(X)\;:=\;\PP(A^\ast\mid X)\;=\;\frac{1}{1+\kappa_X},\qquad
+\kappa_X:=\frac{\PP(A^{\ast\prime}\mid X)}{\PP(A^\ast\mid X)},
+\end{equation}
+so that $\kappa_X$ is the exceedance at which $X$ would place the
+record. To \emph{scope} $X$ is to weight $\neg X$ with the weight of
+failing the bound on the supposition of $X$, the weight
+$1-\iota(X)=\kappa_X/(1+\kappa_X)$ that $X$ gives the record's
+complement, and $X$ with what remains: one's credence in $X$ is capped
+at its inhabitability, $\mathrm{cr}(X)\le\iota(X)$. With $c$ one's
+confidence in the procedure's application and $\pi_0(X)$ the weight $X$
+would carry without it, the scoped credence is at most the linear
+combination $c\,\iota(X)+(1-c)\,\pi_0(X)$.
+\end{definition}
+
+\begin{proposition}[What is proved about the scoping; \textbf{[P]}]
+\label{prop:scoping}
+In the notation of Definition~\ref{def:scoping}:
+\begin{enumerate}[label=\emph{(\roman*)},itemsep=2pt]
+\item \emph{Super-uniformity.} Under the $X$-conditioned draw, for every
+$u<\tfrac12$, $\PP_X\bigl[\iota(X)\le u\bigr]\le u$: a record whose
+inhabitability under $X$ is $u$ is a fluke of level $u$ under $X$'s own
+law.
+\item \emph{The cap is Bayes where the candidate is not favored.} For a
+prior weight $\pi_0=\pi_0(X)$, the posterior odds of $X$ against $\neg X$
+given $A^\ast$ are the prior odds times
+$\iota(X)/\PP(A^\ast\mid\neg X)$. Where $\neg X$ makes the record
+typical, $\PP(A^\ast\mid\neg X)\approx1$, they are the prior odds times
+$\iota(X)$, and the posterior credence is at most $\iota(X)$ exactly when
+$\pi_0\le1/(2-\iota(X))$, in particular whenever $\pi_0\le\tfrac12$.
+\item \emph{Normalization.} Across a partition of competing candidates
+$X_1,\dots,X_m$ with prior weights $\pi_1,\dots,\pi_m$, the credences
+are $\pi_j\,\iota(X_j)/\sum_k\pi_k\,\iota(X_k)$. The inhabitabilities
+are likelihoods, not a distribution over candidates, and need not sum to
+one.
+\end{enumerate}
+\end{proposition}
+
+\begin{proof}
+(i) With $B=X$, the event of \eqref{eq:accordance} is that the realized
+member carries $X$-conditioned weight at most $1/(1+\kappa)$, which is
+$\iota(X)\le u$ with $u=1/(1+\kappa)<\tfrac12$, and
+Theorem~\ref{thm:accordance} bounds its probability by $u$. (ii) Bayes's
+theorem; and with $\PP(A^\ast\mid\neg X)=1$ the posterior is
+$\pi_0\iota/(\pi_0\iota+1-\pi_0)$, which is at most $\iota$ if and only
+if $\pi_0(2-\iota)\le1$. (iii) Bayes's theorem over the partition, the
+likelihood of $A^\ast$ under $X_j$ being $\iota(X_j)$.
+\end{proof}
+
+\begin{remark}[Targeted accordance is the scoping of one's own record]
+\label{rem:pins}
+Pin an attribute $B$ of one's future and take one's own record
+conditioned on the pin: its inhabitability is $\PP(A^\ast\mid B)$, the
+conditioned weight $w$ of the proof of Theorem~\ref{thm:accordance},
+which the theorem reads as an exceedance with outer probability $\PP_B$
+and the scoping reads as a cap on the pin. With $A^\ast$ rare under
+$\PP$, the cap is the \emph{bound form} of targeted accordance: the
+credence in unfolding into a future containing $B$ is at most the
+probability that future gives one's present,
+\begin{equation}\label{eq:boundform}
+\mathrm{cr}(B)\;\le\;\PP(A^\ast\mid B),
+\end{equation}
+which is Bayes's theorem at the grade of
+Proposition~\ref{prop:scoping}(ii) where $B$ is not favored in advance
+and the complement makes the present typical, and a commitment of the
+procedure, not a theorem, where it is stated free of priors. Running
+the pin over the attributes that might occur in one's future scopes the
+admissibility of one's own record under each of them. Each pin is then
+predicted, in the author's phrase, with the confidence administered by
+its non-contradictory weight, its inhabitability, normalized across
+competing pins as in Proposition~\ref{prop:scoping}(iii). This is what
+the Golden program calls retrocausal accordance, in the deflationary
+sense of a conditioning on a future attribute and nothing further, and
+the author counts it among the highlights of Golden reasoning.
+\end{remark}
+
+\begin{remark}[Two scopings the program runs]\label{rem:scopings}
+The author's worked case is a scoping at the scale of one life: a
+standing ability that no task in one's future calls on would be a fluke
+with respect to that future, so the pin of a life without such a task
+carries low inhabitability. At the scale of a biosphere, the program's
+\emph{Paradox of Departures} scopes a \emph{departing} future, one in
+which one's biosphere departs short of the target. In its general form
+the record's predeclared structure $E$, rare under $\PP$ with
+$\PP(E)=q$ as in Proposition~\ref{prop:bf}, is something a departing
+future takes no part in producing, so its inhabitability is
+$\PP(E\mid\text{departing})\le q/\PP(\text{departing})\approx q$, the
+departing futures holding nearly all of the unconditioned weight. In its
+external form the departure is made by a constant-rate external hazard
+within a window of length $\ell$ opening after a record of length
+$\tau$, and under every rate $\lambda$ the configuration has probability
+\[
+e^{-\lambda\tau}\bigl(1-e^{-\lambda\ell}\bigr)\;\le\;
+\frac{\ell}{\tau}\Bigl(1+\frac{\ell}{\tau}\Bigr)^{-(1+\tau/\ell)}
+\;<\;\frac{\ell}{e\,\tau},
+\]
+the maximum falling at $\lambda=\ell^{-1}\log(1+\ell/\tau)$, near
+$1/\tau$, since the derivative changes sign once there and
+$(1+1/r)\log(1+r)>1$ for every $r>0$: a low rate makes the timing the
+fluke, a high one the record's length. The program's conclusion from
+these scopings, that the record caps the weight of departing and so of
+missing its target, is a hypothesis-level argument made downstream at
+its own grade; nothing here asserts it.
+\end{remark}
+
+\begin{remark}[Scoping inherits the protocol]\label{rem:scopeprotocol}
+The present's description $A^\ast$ is fixed before any pin is read, as
+the target is fixed before the record is read in
+Section~\ref{sec:protocol}; otherwise a description can be tailored to
+any pin. And a pin selected because a scan found its inhabitability
+extreme carries the scan's multiplicity, as an attribute does under
+Proposition~\ref{prop:guard}.
+\end{remark}
+
 \section{The limit on certification}\label{sec:ceiling}
 
 \begin{theorem}[No bounded observation certifies the law; grade as
@@ -586,6 +761,13 @@ observe. A retrospective exercise on an existing record, however
 suggestive, is hypothesis-generating and is reported as such.
 \end{definition}
 
+\noindent A scoping of futures (Section~\ref{sec:scoping}) is run under the
+same declarations: the description of the present fixed before any pin
+is read, the pins declared as a family with their prior weights, and
+each pin's inhabitability reported with the normalization across the
+family.
+% R876 (Opus 5.5, Oct 27 2026), at the author's direction: the inhabitability scoping conveyed.
+
 \section{Open problems}\label{sec:open}
 
 Every open item is gathered here. The soft-wall ratio hypothesis on which
@@ -599,7 +781,12 @@ monotone evidence budget under which a Copernican position statement
 would be well posed is not defined, and no Lindy-type result is claimed.
 And the extension of the multiplicity guard from a fixed family to a
 sequentially chosen one, with a stopping rule, is stated as a protocol
-requirement rather than proved as a bound.
+requirement rather than proved as a bound. The scoping's cap stated free
+of priors is a commitment of the procedure and not a theorem: it is
+Bayes's theorem where the candidate is not favored in advance
+(Proposition~\ref{prop:scoping}), and what licenses it elsewhere is
+open.
+% R876 (Opus 5.5, Oct 27 2026), at the author's direction: the inhabitability scoping conveyed.
 
 \section{Conclusion}\label{sec:conclusion}
 
@@ -614,7 +801,11 @@ past of a weighted history carries the weight; that is the whole of what
 ``conditioning a record on its own future'' means, and it is enough to
 make the companion's hypothesis about the record of natural history a
 hypothesis with a stated test rather than a reading with a stated
-feeling.
+feeling. The same weight, read from the other side, scores futures: a
+future under which one's record would be a fluke can be held only to the
+extent of the weight it gives that record, and targeted accordance is
+that scoping run over one's own future, pin by pin.
 
 \printbibliography
+% R876 (Opus 5.5, Oct 27 2026), at the author's direction: the inhabitability scoping conveyed.
 \end{document}

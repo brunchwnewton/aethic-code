@@ -1109,6 +1109,94 @@ the interpolation --- by whether the survivor's measure class is
 approached polynomially, without a clock, or exponentially, with one.
 \end{theorem}
 
+% R876 (Opus 5.5, Oct 27 2026), at the author's direction: the class-selection proposition and its hypotheses, and Q read as
+% stated content; neutral vocabulary, no downstream companion cited.
+\begin{proposition}[Survivorship conditioning selects any linearly
+growing hazard gap; {[P]}]\label{prop:select}
+Let the histories split into two classes, $C_1$ of prior weight
+$\alpha\in(0,1)$ and $C_0$ of weight $1-\alpha$, whose hazards are
+realized on one probability space, with cumulative hazards
+$\Lambda^{(1)},\Lambda^{(0)}$ and class survival functions
+$S_j(t)=\E\bigl[e^{-\Lambda^{(j)}_t}\bigr]$ as in the Cox construction,
+and suppose that for some $\Delta>0$ and $K<\infty$
+\begin{equation}\label{eq:gap}
+\Lambda^{(0)}_t-\Lambda^{(1)}_t\;\ge\;\Delta t-K
+\qquad\text{for all }t\ge0,\ \text{almost surely}.
+\end{equation}
+Then the odds of $C_0$ against $C_1$ under the interpolation satisfy
+\begin{equation}\label{eq:selectodds}
+O(\eta):=\frac{\PP(C_0\mid T>\eta)}{\PP(C_1\mid T>\eta)}
+\;\le\;\frac{1-\alpha}{\alpha}\,e^{K-\Delta\eta},
+\end{equation}
+so that $O(\eta)<\beta$ for every $\eta>\eta_\ast:=\Delta^{-1}
+\bigl[\log\tfrac{1-\alpha}{\alpha}+\log\tfrac1\beta+K\bigr]$, which is
+finite for every $\alpha>0$, and $\PP(C_1\mid T>\eta)\to1$ as
+$\eta\to\infty$. The bound holds with equality for constant hazards
+differing by $\Delta$ with $K=0$. In particular \eqref{eq:gap} holds with
+$\Delta=\delta h_{\min}$ when
+$\Lambda^{(1)}\le(1-\delta)\Lambda^{(0)}+K$ for some $\delta\in(0,1]$
+and the hazard of $C_0$ has a floor $h_{\min}>0$.
+\end{proposition}
+
+\begin{proof}
+By \eqref{eq:gap}, $e^{-\Lambda^{(0)}_t}\le e^{K-\Delta t}\,
+e^{-\Lambda^{(1)}_t}$ on every path; taking expectations,
+$S_0(t)\le e^{K-\Delta t}S_1(t)$, and by Bayes
+$O(\eta)=(1-\alpha)S_0(\eta)/\bigl(\alpha S_1(\eta)\bigr)$. In the
+fractional case $\Lambda^{(0)}_t-\Lambda^{(1)}_t\ge\delta\Lambda^{(0)}_t-K
+\ge\delta h_{\min}t-K$.
+\end{proof}
+
+\begin{remark}[What the hypothesis needs; the two-channel instance
+{[P]}]\label{rem:select}
+Rarity enters only as $\log(1/\alpha)$: a class of prior weight
+$10^{-12}$ whose hazard sits a hundredth of the floor below the other's
+has odds below $10^{-6}$ once $\eta$ exceeds about $4.1\times10^{3}/h_{\min}$.
+Both hypotheses are needed. Without a floor the higher class could
+itself be viable, $\Lambda^{(0)}_\infty<\infty$ with positive
+probability, and a fractional drop would leave the odds at a positive
+limit, as in mode (I) of Theorem~\ref{thm:modes}. And the comparison
+must hold along paths, the lower hazard carried below the other with its
+fluctuations, and not merely in mean: a hazard that fluctuates more
+widely can outsurvive a lower and steadier one, since
+$\E[e^{-\Lambda}]\ge e^{-\E[\Lambda]}$ with the gap in the survivor's
+favor, so a lower mean hazard alone selects nothing. In the two-channel
+model of Definition~\ref{def:twochannel} with $\rho>0$ the hypothesis has
+a direct instance. Along a common background path, credit held at or
+above $x_\ast>0$ gives $h^{\mathrm{tot}}\le(1-\delta)(B_t+\Gamma)$ with
+$1-\delta=\max\{\varsigma_b(x_\ast),e^{-\rho x_\ast}\}$, while credit at
+or below zero leaves $h^{\mathrm{tot}}\ge B_t+\Gamma\ge\Gamma$, since
+$\varsigma_b\ge1$ and $e^{-\rho x}\ge1$ there. A class that holds the
+one and a class confined to the other therefore satisfy the fractional
+hypothesis with floor $\Gamma$, the background's independence of the
+driver supplying the coupling, and any positive held credit is a
+positive drop. Holding credit indefinitely carries positive weight only
+where the driver's long-run behavior is favorable, the second factor of
+Theorem~\ref{thm:twocond}.
+\end{remark}
+
+\begin{remark}[The conditioned law read as stated content]
+\label{rem:qcontent}
+Each horizon event $\{T>t\}$ has positive probability, and the limit of
+Theorem~\ref{thm:Q} is the law that has absorbed every one of them. Read
+not as a limit of laws but as the content of an information state, it
+states survival through every horizon at once, every other attribute
+blank: in set notation $\bigcap_t\{T>t\}=\{T=\infty\}$, null in the
+critical regime, which is why it is reached through the interpolation
+and never conditioned on as an event. The larger program in which these
+results are interpreted, whose vocabulary this paper otherwise does not
+use, calls that content the Golden Aethus at its primitive, and takes
+as its Golden Axiom that it is stated in one's own information state:
+an exposed postulate, carried in the downstream companions at the grade
+of an open hypothesis {[O]} and nowhere asserted or used here.
+Theorem~\ref{thm:singular} says what it would cost, since no event of
+bounded duration separates the conditioned law from the unconditioned
+one with certainty, and no finite record could therefore certify the
+statedness; Proposition~\ref{prop:select} says what it would buy, since
+under the conditioning any class whose hazard sits linearly below
+another's takes all of the weight.
+\end{remark}
+
 \section{Numerical experiments}\label{sec:numerics}
 
 The one load-bearing heuristic, Ansatz~\ref{ans:soft}, admits a direct

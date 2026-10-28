@@ -267,8 +267,11 @@ surviving-completion kernel, with its derailment hazard, its modern-era
 term acting on the anatomy rather than the capacity, a survival-time
 threshold past which conditioning switches from favoring the unpushed
 schedule to favoring the pushed one, survival-weighted toward better
-completion states, and a
+completion states, the author's emergence theorem, that survival
+conditioning selects any fractional lowering of the total hazard
+however rare the structure that buys it, and a
 survivorship-prefers-early-change result under stated monotone-coupling
+% R876 (Opus 5.5, Oct 27 2026), at the author's direction: the emergence theorem cross-referenced.
 conditions; the leak law that makes the modern era the schedule's
 high-leverage stage is stipulated, and every consequence that depends on
 it is carried at that grade.
@@ -350,7 +353,8 @@ with log-spread rates, its derailment hazard, its modern-era term acting
 on the anatomy rather than on the capacity, the surviving-completion
 kernel through which it feeds the survivorship model, the survival-time
 threshold past which conditioning switches from favoring the unpushed
-schedule to favoring the pushed one, tilted toward better completion states, and the front-loading
+schedule to favoring the pushed one, tilted toward better completion states, the author's emergence theorem, which generalizes that threshold to any fractional drop in the total hazard of departure, however small and however rare the structure that buys it (Theorem~\ref{sch:thm:emergence}), and the front-loading
+% R876 (Opus 5.5, Oct 27 2026), at the author's direction: the emergence theorem cross-referenced.
 result under stated monotone-coupling conditions. The two applications
 (Sections~\ref{sec:refutes} and \ref{sec:precipice}): the Kardashev
 scale as the cleanest case of strength against anatomy, and the
@@ -378,7 +382,16 @@ to the internal hazard; the decisive variable.
 infinity; the second, sign-blind necessary condition.
 \item \textbf{Departure / Golden Point}: the survivorship companion's
 killing event and its complement, the state past which the external
-hazard is driven to zero; labels here, not imports from downstream.
+hazard is driven to zero; labels here, not imports from downstream. For
+the emergence theorem the author reads the Golden Point more broadly,
+as any successful lowering of the total hazard of departure, its
+external, internal and schedule channels together.
+\item \textbf{Emergence theorem}: the author's theorem that survival
+conditioning selects any fractional lowering of the total hazard,
+however small, bought by any structure, however rare, past a horizon
+logarithmic in the rarity and inverse in the drop
+(Theorem~\ref{sch:thm:emergence}).
+% R876 (Opus 5.5, Oct 27 2026), at the author's direction: the author's reading of the Golden Point for the emergence theorem, and the theorem's entry.
 \item \textbf{Schedule}: the gated sequence of prerequisites, each a race
 among competing clocks, that a civilization must land.
 \item \textbf{Gate, clock, leak}: one prerequisite; one candidate route
@@ -1530,6 +1543,9 @@ Proposition~\ref{sch:prop:gating}, and survives to $t$ with probability
 $e^{-(B+\Gamma)t}>0$. The un-climbed branches therefore carry
 positive weight under every finite-horizon conditioning, and the lucky
 route, survive by not being struck, and never pay the schedule at all, remains in the support throughout.
+How fast the selection runs, for a drop of any size bought by a
+structure of any rarity, is Theorem~\ref{sch:thm:emergence}.
+% R876 (Opus 5.5, Oct 27 2026), at the author's direction: the emergence theorem cross-referenced.
 
 \emph{The asymptote excludes.} Condition instead on the viability event
 $\Imm=\{\Lambda_\infty<\infty\}$ of Definition~\ref{imp:model}. By
@@ -1623,7 +1639,11 @@ recedes as $C$ falls, and $C$ is set by the state completion leaves
 (Remark~\ref{sch:rem:initialdata}), so a biosphere completing into a
 poor state finds the schedule worth having climbed only at horizons
 that run toward the asymptote; the threshold's dependence on $C$ is
-again logarithmic.
+again logarithmic. Theorem~\ref{sch:thm:emergence} below generalizes
+(ii): the pushed class need not decay polynomially, any fractional drop
+in the total hazard of departure sufficing, with the threshold stretched
+by the reciprocal of the drop.
+% R876 (Opus 5.5, Oct 27 2026), at the author's direction: the emergence theorem cross-referenced.
 
 The reading is the one that matters for what this channel is for.
 \emph{Nothing about surviving a finite stretch gives a reason to climb.}
@@ -1631,6 +1651,121 @@ Only conditioning on there being no last moment makes the climb pay ---
 which is why the schedule appears in the record of a biosphere whose
 history was conditioned, and would not appear in the record of one that
 had merely lasted.
+\end{remark}
+
+% R876 (Opus 5.5, Oct 27 2026), at the author's direction: the author's emergence theorem, stated and proved beside the threshold it
+% generalizes. Adapted from the Golden paper's Theorem and Remark on emergence (R875).
+\begin{theorem}[Emergence: survival conditioning selects any fractional
+drop in the total hazard; the author's theorem, \textbf{[P]} given its
+hypotheses]\label{sch:thm:emergence}
+Divide the histories of a biosphere into a \emph{Golden} class $G$, of
+prior weight $\alpha\in(0,1)$, the cumulative probability of the exotic
+structure the Golden Point requires, and a \emph{non-Golden} class $N$,
+of weight $1-\alpha$. Let the two classes' total hazards of departure,
+the crest and trough of Definition~\ref{imp:model} together with the
+schedule's derailment hazard \eqref{sch:eq:derailment}, be realized on
+one probability space, the two classes facing one universe, with
+cumulative hazards $\Lambda_G$ and $\Lambda_N$ and survival functions
+$S_C(t)=\E\bigl[e^{-\Lambda_C(t)}\bigr]$, departure being the killing
+time; and suppose that the cumulative gap grows at least linearly, for
+some $\Delta>0$ and $K<\infty$:
+\begin{equation}\label{sch:eq:emergencegap}
+\Lambda_N(t)-\Lambda_G(t)\;\ge\;\Delta t-K
+\qquad\text{for all }t\ge0,\ \text{almost surely}.
+\end{equation}
+This holds in particular when the Golden Point lowers the center about
+which the total hazard fluctuates by a fraction $\delta\in(0,1]$, its
+fluctuations carried along, so that $\Lambda_G\le(1-\delta)\Lambda_N+K$
+with $K$ what the climb costs before the drop takes hold, and the
+non-Golden hazard has a floor $h_N\ge h_{\min}>0$; then
+$\Delta=\delta h_{\min}$. Then:
+\begin{enumerate}[label=\emph{(\roman*)},itemsep=2pt]
+\item the odds of the non-Golden class against the Golden, given
+survival to $\eta$, satisfy
+\begin{equation}\label{sch:eq:emergenceodds}
+O(\eta)\;:=\;\frac{\PP(N\mid T>\eta)}{\PP(G\mid T>\eta)}
+\;\le\;\frac{1-\alpha}{\alpha}\,e^{K-\Delta\eta};
+\end{equation}
+\item for every $\beta>0$, $O(\eta)<\beta$ at every $\eta>\eta_\ast$,
+where
+\begin{equation}\label{sch:eq:emergencehorizon}
+\eta_\ast\;=\;\frac{1}{\Delta}\Bigl[\log\frac{1-\alpha}{\alpha}
++\log\frac{1}{\beta}+K\Bigr],
+\end{equation}
+which is finite for every $\alpha>0$: the rarity of the structure enters
+only through $\log(1/\alpha)$, and the smallness of the drop only
+through $1/\Delta$;
+\item $\PP(G\mid T>\eta)\to1$ as $\eta\to\infty$, so that conditioning
+on survival through every proper time gives the Golden class all of the
+weight.
+\end{enumerate}
+The bound \eqref{sch:eq:emergenceodds} holds with equality for constant
+hazards differing by $\Delta$, with $K=0$.
+\end{theorem}
+
+\begin{proof}
+By \eqref{sch:eq:emergencegap},
+$e^{-\Lambda_N(t)}\le e^{K-\Delta t}\,e^{-\Lambda_G(t)}$ on every path,
+and taking expectations, $S_N(t)\le e^{K-\Delta t}S_G(t)$. By Bayes,
+$O(\eta)=(1-\alpha)S_N(\eta)/\bigl(\alpha S_G(\eta)\bigr)$, which gives
+(i); (ii) solves (i) for $\eta$; and (iii) is $O(\eta)\to0$. In the
+fractional case the floor gives $\Lambda_N(t)\ge h_{\min}t$, so that
+$\Lambda_N-\Lambda_G\ge\delta\Lambda_N-K\ge\delta h_{\min}t-K$. For
+constant hazards $\lambda$ and $\lambda-\Delta$ with $K=0$,
+$S_N/S_G=e^{-\Delta t}$ exactly.
+\end{proof}
+
+\begin{remark}[What the theorem needs, and why the necessity is
+emergent]\label{sch:rem:emergence}
+The theorem is the author's intuition behind the ladder of
+Remark~\ref{sch:rem:asymptote}, and it removes the one feature of
+Proposition~\ref{sch:prop:threshold} that looked special. The
+proposition compares an exponential tail with a polynomial one, a drop
+of the whole exponential rate, and to leading order its threshold
+\eqref{sch:eq:threshold} is \eqref{sch:eq:emergencehorizon} with
+$\Delta=B+\Gamma$, $\beta=1$ and $K=0$. The theorem needs only some
+drop, however small, bought by some structure, however rare. For it the
+author reads the Golden Point as the successful lowering of the total
+hazard of departure, the external, internal and schedule channels
+together, at the center about which it fluctuates; the viability target
+of Definition~\ref{imp:goldenpoint} is the drop carried to its limit. A
+drop by a fraction $\delta$ of the floor stretches the threshold by
+$1/\delta$ and no further, so that a one-in-a-trillion structure buying
+a one-per-cent drop brings the odds below one in a million at
+$\eta_\ast\approx4.1\times10^{3}/h_{\min}$, against $41/h_{\min}$ for a
+complete drop. Applied pairwise, the theorem orders any two classes by
+their drops, so the asymptote selects the class of greatest drop; and
+where a class of positive weight is viable, its survival bounded away
+from zero, it is selected over every class whose cumulative hazard grows
+linearly. That is the sense in which the Golden Point's necessity is
+emergent. Conditioned on survival through every proper time, the Golden
+class, of prior weight $\alpha$, carries weight one, and nothing in the
+conditioning names humans, civilization or any technology: only a hazard
+and a time. Remark~\ref{gr1:rem:forwardforcing} states the same
+threshold for configurations, in the author's words a threshold beyond
+which surviving with non-Golden dangers of any kind still standing
+becomes arbitrarily unlikely; the theorem computes its horizon at the
+level of classes.
+
+Two hypotheses carry the weight, and the model supplies each. The
+\emph{floor} is Proposition~\ref{sch:prop:gating}: an incomplete
+schedule leaves the internal channel at its full coefficient, so the
+non-Golden hazard is at least $\Gamma$. Without a floor the non-Golden
+class could itself be viable, and a fractional drop would then leave the
+odds at a positive limit. The \emph{coupling}, the center moved with its
+fluctuations carried along, is what lowering a fluctuation-center means
+in a model whose fluctuations are multiplicative, as the hazard of
+Definition~\ref{imp:model} is: a completed biosphere holding credit
+$x\ge x_\ast>0$ has $h^{\mathrm{tot}}\le(1-\delta)(B_t+\Gamma)$ along the
+same background path, with
+$1-\delta=\max\{\varsigma_b(x_\ast),e^{-\rho x_\ast}\}$, so that any
+positive held credit is a positive drop; and the derailment hazard,
+which completion closes, only widens it. A drop in the mean alone would
+not do. Since $\E[e^{-\Lambda}]\ge e^{-\E[\Lambda]}$, a hazard that
+fluctuates more widely can outsurvive a lower and steadier one: the
+difference between what a typical path experiences and what an ensemble
+reports (Remark~\ref{sch:rem:bpre}) falls, for survival, in the
+survivor's favor.
 \end{remark}
 
 \begin{remark}[The schedule supplies the initial data the model assumes]
@@ -2228,7 +2363,10 @@ asymptotically decisive, and under full conditioning on indefinite
 survival the competence the Golden Point marks is not made likely but
 implied, there being a threshold beyond which surviving with
 non-Golden dangers of any kind still standing becomes arbitrarily
-unlikely. This is the to-the-future extension of the past-direction
+unlikely; Theorem~\ref{sch:thm:emergence} computes that threshold's
+horizon at the level of classes, for a drop of any size bought by a
+structure of any rarity. This is the to-the-future extension of the past-direction
+% R876 (Opus 5.5, Oct 27 2026), at the author's direction: the emergence theorem cross-referenced.
 result that the same conditioning forces the evolutionary climb by
 which the Golden Point is reachable at all, the end-Cretaceous impact
 standing among the record's clearest instances as one of the bigger
@@ -2830,7 +2968,14 @@ law is the one our natural-historical record is drawn under, is a
 downstream hypothesis and is not assumed anywhere above; what this
 paper offers it is a mechanism, the schedule through which a lineage
 under that conditioning would be read as pushed, and the offer runs in
-one direction.
+one direction. The downstream hypothesis states its strongest form as an
+axiom, that one's biosphere surviving through every proper time is
+stated in the information state one holds, and what conditioning on
+survival through every proper time selects is computed here: by
+Theorem~\ref{sch:thm:emergence}, any lowering of the total hazard, by
+any fraction and however rare the structure that buys it. That too is
+offered in one direction.
+% R876 (Opus 5.5, Oct 27 2026), at the author's direction: the emergence theorem cross-referenced.
 
 The mechanism above has consequences that are not part of its
 mathematics, and they are collected here at the grade of applications
@@ -2858,7 +3003,11 @@ now at the highest leverage in the record, which is the modern-era term
 read on a stipulated leak law; conditioning on survival prefers that it
 be settled early under stated monotone-coupling conditions, and past a
 survival-time threshold prefers the schedule pushed, tilted toward
-better completion states, which is the mechanism of the ladder; and no event of bounded duration can certify the generating path law, which is the ceiling; identifying which way the anatomy has gone is a different and attainable task, and the two are not run together. The
+better completion states, which is the mechanism of the ladder, and by
+the author's emergence theorem any fractional lowering of the total
+hazard is selected the same way, past a horizon logarithmic in the
+rarity of the structure that buys it; and no event of bounded duration can certify the generating path law, which is the ceiling; identifying which way the anatomy has gone is a different and attainable task, and the two are not run together. The
+% R876 (Opus 5.5, Oct 27 2026), at the author's direction: the emergence theorem cross-referenced.
 practice that follows is not a new ledger but a different quantity on
 the old one: an audit of what each added capacity does to the sign, in
 place of a tally of what could go wrong; a governance built for the
