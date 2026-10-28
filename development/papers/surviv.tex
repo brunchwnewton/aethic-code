@@ -1214,9 +1214,14 @@ $\mu\mathrel{+}=\sigma\xi$, $D\mathrel{+}=\mu\Delta+\sigma\eta$
 reproduces the law at grid points with zero discretization error; the
 only approximations are the trapezoidal quadrature of $\Lambda$ and
 discrete monitoring of the wall. Parameters: $\sigma=1$,
-$\mu_0=0$, with the soft-wall runs labeled by the initial hazard
-$h_0=e^{-D_0}$ (so $h_0\in\{0.3,1,3,30\}$ is $D_0\in\{1.20,0,-1.10,-3.40\}$,
-the gauge of Lemma~\ref{lem:gauge} realized as a credit translation);
+$\mu_0=0$, with the soft-wall curves labeled by the initial hazard
+$h_0=e^{-D_0}$ (so $h_0\in\{0.3,1,3,30\}$ is $D_0\in\{1.20,0,-1.10,-3.40\}$).
+The soft-wall curves are not separate runs: they come from the one run at
+$D_0=1$ with the hazard rescaled by $h_0e^{D_0}$, which is exact for the soft
+wall by Lemma~\ref{lem:gauge}, a multiplicative constant in the hazard being a
+translation of the initial credit;
+% R877 (Opus 5.5, Oct 27 2026), at the author's direction, on the referee's check of the numerics: "with the soft-wall runs labeled by the initial hazard ... the gauge of Lemma lem:gauge realized
+% as a credit translation" said the h0 curves were separate runs; they are one rescaled run, as now stated.
 $N=1.5\times10^5$ paths; a uniform grid of step
 $0.025$ to $t=40$ (the zone where the $\Lambda$-mass accrues),
 geometric thereafter at ratio $1.01$ to $t=3\times10^4$; slopes fitted
@@ -1237,8 +1242,11 @@ $-1/4$ (theorem) & validates code\\
 soft-wall slope, $h_0=0.3$ & $-0.2487$ & $-1/4$ [A] & supports\\
 soft-wall slope, $h_0=1$ & $-0.2480\ [-0.255,-0.242]$ & $-1/4$ [A] & supports\\
 soft-wall slope, $h_0=3$ & $-0.2483$ & $-1/4$ [A] & supports\\
-soft-wall slope, $h_0=30$, late window & $-0.240$ & $-1/4$;
-transient delayed & consistent with gauge (exact)\\
+soft-wall slope, $h_0=30$ & not resolved at this $N$ ($\PP\sim10^{-11}$) & $-1/4$ by
+Lemma~\ref{lem:gauge} & not tested\\
+% R877 (Opus 5.5, Oct 27 2026), at the author's direction, on the referee's check of the numerics: the row read "soft-wall slope, h0=30, late window & -0.240 & -1/4; transient delayed & consistent with gauge
+% (exact)". The -0.240 came from the t >= 3000 window alone; over t >= 10^2, 10^3, 3x10^3 and 10^4 the fitted slope is
+% -0.2976, -0.2979, -0.2395 and -0.122, a probability near 1e-11 resting on a handful of paths at N = 1.5e5.
 ratio $\PP(T>t)/\PP(\tau>t)$, $h_0=1$, $t\ge10^2$ &
 $\in[0.1768,0.1788]$ & bounded [A] & supports, sharply\\
 kinematic coefficient (grid-exact) & $0.2874\pm0.0133$ & $0.2859$ &
@@ -1257,16 +1265,28 @@ factor, not merely its linearization $1/4$.}
 \end{table}
 
 Three findings deserve emphasis. First, the soft-killing functional
-carries the $t^{-1/4}$ exponent at every tested $h_0$, and the
-$h_0=30$ case exhibits exactly the behavior Lemma~\ref{lem:gauge}
-predicts: a steepened transient over early windows (fitted slope
-$-0.298$ over $t\ge10^2$) relaxing toward $-1/4$ as the window moves
-late --- the gauge acts on the timescale, never the exponent. Second,
+carries the $t^{-1/4}$ exponent at $h_0\in\{0.3,1,3\}$, with no dependence
+on $h_0$ beyond sampling error (Figure~\ref{fig:ansatz}b), and the argument
+rests on these three. The $h_0=30$ curve is not resolved at this sample
+size: its survival probability is of order $10^{-11}$, which $1.5\times10^5$
+paths cannot estimate, so the estimate rests on a handful of paths and its
+fitted slope moves with the window, $-0.298$ over $t\ge10^2$, a value
+inside the initial transient, and $-0.24$ or $-0.12$ over later windows.
+It neither supports nor counts against the Ansatz; there the exponent is
+fixed by Lemma~\ref{lem:gauge}, which is exact, and a rare-event estimator
+(importance sampling on the driver) is the computation that would resolve
+it. Second,
+% R877 (Opus 5.5, Oct 27 2026), at the author's direction, on the referee's check of the numerics: the first finding read "carries the t^{-1/4} exponent at every tested h0, and the h0=30 case
+% exhibits exactly the behavior Lemma lem:gauge predicts: a steepened transient over early windows (fitted slope -0.298
+% over t>=10^2) relaxing toward -1/4 as the window moves late --- the gauge acts on the timescale, never the exponent."
+% The relaxation reading is withdrawn: the late-window slopes are noise at this N.
 and this is the sharpest support for Ansatz~\ref{ans:soft}, the ratio
 $\PP(T>t)/\PP(\tau>t)$ is not merely bounded over the fitted two
-decades but constant to three decimal places
-(Figure~\ref{fig:ansatz}b), consistent with convergence to a limit
-constant $\approx0.178$ at these initial data --- a stronger behavior
+decades but constant to within about one per cent, drifting slowly from
+$0.1768$ to $0.1788$ (Figure~\ref{fig:ansatz}c), consistent with
+convergence to a limit constant $\approx0.178$ at these initial data --- a stronger behavior
+% R877 (Opus 5.5, Oct 27 2026), at the author's direction, on the referee's check of the numerics: "constant to three decimal places (Figure fig:ansatz b)" read "constant to within about one per cent,
+% drifting slowly from 0.1768 to 0.1788 (Figure fig:ansatz c)"; the figure is now three panels.
 than the Ansatz asserts. Third, the survivorship drift's qualitative
 structure is confirmed: among paths surviving to the horizon, the
 conditional increment $\E[\Delta\mu]$ regressed on $1/\mu$ over a
@@ -1287,14 +1307,21 @@ $\hm(x)/\hm(y)$, or to $\hm(x+\delta)/\hm(y+\delta)$ for a fixed
 translation, or to a ratio of some other positive $g$; with
 harmonic-function importance sampling the deep tail is reachable.
 \emph{None of the three falsifiers fired}: no fitted slope departs robustly from
-$-1/4$, no dependence of the slope on $h_0$ appears, and the
-conditioned rescaled credit is stable.
+$-1/4$, no dependence of the slope on $h_0$ appears among the resolved
+values, and the conditioned rescaled credit is stable.
+% R877 (Opus 5.5, Oct 27 2026), at the author's direction, on the referee's check of the numerics: "no dependence of the slope on h0 appears" qualified "among the resolved values".
 
 \begin{figure}[h]\centering
 \includegraphics[width=0.95\textwidth]{fig_ansatz.pdf}
-\caption{\small (a) Hard- and soft-wall survival curves against the
-$t^{-1/4}$ reference. (b) The soft-to-hard ratio at $h_0=1$ over the
-fitted window: flat to three decimals across two decades.}
+\caption{\small (a) Hard-wall survival and soft-wall survival at
+$h_0\in\{0.3,1,3\}$, with the $t^{-1/4}$ reference and the fitted window
+$t\ge10^2$ shaded. (b) The local exponent $d\log\PP/d\log t$ of each curve,
+converging to $-1/4$. (c) The soft-to-hard ratio at $h_0=1$ over the
+fitted window: constant to within about $1\%$ across two decades. The
+$h_0=30$ curve, not resolved at this sample size, is not drawn.}
+% R877 (Opus 5.5, Oct 27 2026), at the author's direction, on the referee's check of the numerics: the caption read "(a) Hard- and soft-wall survival curves against the t^{-1/4} reference. (b) The
+% soft-to-hard ratio at h0=1 over the fitted window: flat to three decimals across two decades."; matched to the redrawn
+% figure (plot_fig_ansatz.py), and "flat to three decimals" corrected.
 \label{fig:ansatz}
 \end{figure}
 
