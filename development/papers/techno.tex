@@ -2,6 +2,19 @@
 % Fallback copies of canonical corpus entries, loaded after the shared refs.bib,
 % which loads first and so wins every duplicate key (biber first-wins).
 % Every key below is canonical in the corpus bibliography of September 19, 2026.
+@article{Aethus,
+  author      = {Benander, Ajax},
+  title       = {Aethic Reasoning: A Comprehensive Solution to the Quantum Measurement Problem},
+  year        = {2024},
+  month       = {November},
+  url         = {https://philpapers.org/rec/BENARA-5},
+  eprint      = {https://philsci-archive.pitt.edu/id/eprint/25713},
+  eprinttype  = {Alternative URL},
+  note        = {Manuscript; the complete development of the framework, successive
+                 deposits November 2024--2026. PhilArchive version history at
+                 \url{https://philarchive.org/versions/BENARA-5}. This version: September 2026.}
+}
+% R885 (Opus 5.5, Oct 28 2026), at the author's direction: Aethus added, copied from golden_reasoning.tex, for the Aethic Lindy principle.
 @misc{AethusMethodology,
   author       = {Benander, Ajax},
   title        = {Inductive Reasoning as Art, Not Algorithm: Criteria and a Dated Genealogy for Inference-Driven Discovery},
@@ -2380,6 +2393,160 @@ observer's epistemic state, so survival so far, at any finite time,
 certifies nothing for the one surviving.
 \end{remark}
 
+\begin{theorem}[The Square--Cube Theorem; \textbf{[P]} given the model]
+\label{gr1:thm:squarecube}
+Suppose that throughout a window $[t_0,t_0+\delta]$ the anatomy is adverse
+and the strength positive, $\rho_t\le-a<0$ and $x_t\ge b>0$. Then the
+probability of surviving the window, given the path, is at most
+$\exp(-\delta\,\Gamma e^{ab})$. In particular, if from $t_0$ on the anatomy
+is never repaired, the remaining time to Departure has mean at most
+$\Gamma^{-1}e^{-ab}$: scaling the strength at fixed adverse anatomy brings
+the Departure Point exponentially closer.
+\end{theorem}
+
+\noindent\emph{Proof.} On the window $-\rho_tx_t\ge ax_t\ge ab$, so the
+internal channel alone gives $h_t\ge\Gamma e^{-\rho_tx_t}\ge\Gamma e^{ab}$,
+and survival of the killed process given its path is $e^{-\int h}$. Without
+repair the bound holds for every $\delta$, and integrating
+$e^{-\delta\Gamma e^{ab}}$ over $\delta$ gives the mean. $\square$
+
+\noindent This is the square--cube thought experiment of \S\ref{gr:subsub:neglect} as a theorem: the
+elephant-sized ant is a structure scaled up at fixed anatomy. It concerns
+the genuine Departure Point and admits no escape, since the anatomy is held.
+
+\begin{theorem}[The Upscaling Theorem; \textbf{[P]} given the model]
+\label{gr1:thm:upscaling}
+Let the strength satisfy $x_t\ge X>0$ from $t_0$ on, and let the anatomy,
+adverse at $\rho_t\le-a<0$, stay so for a delay $d$ and then be repaired
+continuously but no faster than a rate $\kappa$, so that
+$\rho_t\le-a+\kappa(t-t_0-d)$ for $t\ge t_0+d$. Then the probability of
+surviving until the anatomy first reaches zero is at most
+\[
+\exp\!\Big(-\Gamma\Big[e^{aX}d+\frac{e^{aX}-1}{\kappa X}\Big]\Big).
+\]
+\end{theorem}
+
+\noindent\emph{Proof.} The anatomy cannot reach zero before
+$t_0+d+a/\kappa$. On $[t_0,t_0+d]$, $-\rho_tx_t\ge aX$; on the repair,
+$-\rho_tx_t\ge(a-\kappa u)X$ at time $u\in[0,a/\kappa]$ after it begins.
+Integrating the internal channel gives
+$\Gamma e^{aX}d+\Gamma\int_0^{a/\kappa}e^{(a-\kappa u)X}\,du$, and the
+second term is $\Gamma(e^{aX}-1)/(\kappa X)$. $\square$
+
+\noindent In its full definition the Departure Point is a fixed point, the
+state in which the hazard can no longer be improved, and for a civilization
+whose anatomy is adverse the one exact escape from it is the repair of the
+anatomy. The Upscaling Theorem prices that escape as a function of the
+upscale $X$. Every unit of delay costs $\Gamma e^{aX}$ of cumulative hazard.
+The repair itself, because it takes time, costs
+$\Gamma(e^{aX}-1)/(\kappa X)$, as much as remaining fully adverse for a time
+$(1-e^{-aX})/(\kappa X)$; a repair treated as an instantaneous jump loses
+that term and so underestimates the crisis by an amount growing
+exponentially in the strength. Read as a principle rather than a theorem,
+the result is the \emph{Upscaling Principle}: the greater a civilization's
+capacity, the less adverse anatomy it can afford, the less time it has to
+correct it, and the more the correction's own duration costs. The theorem
+carries the first-principles use, the principle the interpretive one, and
+they are one result.
+
+\begin{definition}[The Aethic Lindy principle; \textbf{[$\Phi$]}, a heuristic premise]
+\label{gr1:def:aethiclindy}
+A parameter is \emph{Aethic nonperishable} relative to an Aethus when the
+hazard rate of its changing beyond a given threshold is held in disagreeing
+superposition over rates each constant in proper time, so that the rate's
+logarithmic derivative is locally zero in its central tendency
+\cite{Aethus}. The \emph{Aethic Lindy principle} is the heuristic premise
+that a given parameter is Aethic nonperishable in the absence of
+information that it is otherwise. Under it, by the Aethic Lindy law of
+\cite{Aethus} at its mediocrity value, a parameter that has held for a
+proper time $t_0$ holds for a further $s$ with probability $t_0/(t_0+s)$,
+and its median further duration equals $t_0$.
+\end{definition}
+
+\begin{corollary}[The Inaction Corollary; \textbf{[P]} given the model and
+Definition~\ref{gr1:def:aethiclindy}]
+\label{gr1:cor:inaction}
+Suppose the anatomy has been held at $\rho\le-a<0$, without repair, for a
+proper time $t_0$, and that by the Aethic Lindy principle the further
+duration $D$ of that inaction satisfies $\PP(D>s)=t_0/(t_0+s)$. Suppose the
+strength meanwhile grows at least linearly, $x_{t_0+u}\ge X_0+gu$ with
+$X_0>0$ and $g\ge0$, and write
+$\Lambda(s)=\Gamma e^{aX_0}(e^{ags}-1)/(ag)$, read as $\Gamma e^{aX_0}s$ at
+$g=0$. Then
+\[
+\PP(\text{Departure})\;\ge\;\sup_{s>0}\;\frac{t_0}{t_0+s}\Big(1-e^{-\Lambda(s)}\Big).
+\]
+The bound allows every escape: it uses only the hazard accrued while the
+inaction lasts, so any repair that follows, at any rate, leaves it intact.
+\end{corollary}
+
+\noindent\emph{Proof.} On $\{D>s\}$ the internal channel accrues at least
+$\Lambda(s)$ over the first $s$, since there $-\rho x\ge a(X_0+gu)$. Hence
+$\PP(\text{survive},D>s)\le\PP(D>s)e^{-\Lambda(s)}$, and
+$\PP(\text{survive})\le1-\PP(D>s)\big(1-e^{-\Lambda(s)}\big)$. $\square$
+
+\noindent For scale: if the upscaled hazard accrues three units within a
+tenth of the inaction's age, $s=t_0/10$ gives a Departure probability of at
+least $\tfrac{10}{11}(1-e^{-3})\approx0.86$. The bound was checked against
+direct simulation of the model under the Lindy duration law.
+
+\begin{remark}[The anti-Longtermism argument]\label{gr1:rem:antilongtermism}
+The author's argument from the corollary is against the deferral form of
+longtermism: the position that improving technoanatomy can wait while
+capacity is built for the long run. Inaction now is not neutral toward
+later action. Under the Aethic Lindy principle, an Aethus that records
+inaction up to now is conditioned, in the Aethic Bayesian sense, on further
+inaction, since the median further duration of a policy of not repairing
+equals its age. The Inaction Corollary projects a Departure probability from
+that conditioning, and it does so while enforcing two things at once: that
+the anatomy is adverse, and that its logarithmic derivative is, in central
+tendency, currently zero. Building capacity in the meantime makes the
+projection worse rather than better, since $\Lambda$ grows exponentially in
+the strength. The argument grants the long-run criterion and shows deferral
+failing by it, which places it beside the internal-neglect argument of
+\S\ref{gr:subsub:neglect}: that argument concerns trading cohesion for
+capacity, and this one concerns postponing the repair. Its grade is the
+corollary's, with the Aethic Lindy principle as an exposed heuristic
+premise and the identification of any actual arrangement's anatomy carried
+at the grade $\Phi3$ gives it. By $\Phi2$ it establishes no duty; it establishes that
+deferral, judged by its own criterion, projects Departure.
+\end{remark}
+
+\noindent The three results carry different names because they say
+different things. The Square--Cube Theorem concerns the genuine Departure
+Point with no escape, and says how fast scaling the strength at fixed
+adverse anatomy brings it. The Upscaling Theorem admits the escape, the
+repair of the anatomy, and prices it as a function of the upscale. The
+Inaction Corollary applies the second to the present under the Aethic Lindy
+principle.
+
+\noindent Corollary~\ref{gr1:cor:recurrentanatomy} is the Square--Cube
+Theorem's long-run form.
+% R885 (Opus 5.5, Oct 28 2026), at the author's direction: the R884 theorem split into the Square--Cube Theorem (no escape) and the Upscaling Theorem (escape by a repair that takes time, priced by the upscale); the Aethic Lindy principle, the Inaction Corollary, and the anti-Longtermism argument added. The R884 block, kept:
+% was: \begin{theorem}[The Upscaling Theorem; \textbf{[P]} given the model]
+% was: \label{gr1:thm:upscaling}
+% was: Suppose that throughout a window $[t_0,t_0+\delta]$ the anatomy is adverse
+% was: and the strength positive, $\rho_t\le-a<0$ and $x_t\ge b>0$. Then the
+% was: probability of surviving the window, given the path, is at most
+% was: $\exp(-\delta\,\Gamma e^{ab})$. Poor technoanatomy therefore upscales
+% was: with technostrength: the time within which Departure becomes all but
+% was: certain is of order $\Gamma^{-1}e^{-ab}$, shrinking exponentially in the
+% was: strength at which the adverse anatomy is held.
+% was: \end{theorem}
+% was: 
+% was: \noindent\emph{Proof.} On the window $-\rho_tx_t\ge ax_t\ge ab$, so the
+% was: internal channel alone gives $h_t\ge\Gamma e^{-\rho_tx_t}\ge\Gamma e^{ab}$;
+% was: survival of the killed process given its path is $e^{-\int h}$. $\square$
+% was: 
+% was: \noindent Read as a principle rather than a theorem, the result is the
+% was: \emph{Upscaling Principle}: the greater a civilization's capacity, the
+% was: less adverse anatomy it can afford and the less time it has to correct
+% was: it. The theorem carries the first-principles use, the principle the
+% was: interpretive one, and they are one result.
+% was: 
+% was: \noindent Corollary~\ref{gr1:cor:recurrentanatomy} is the theorem's long-run
+% was: form.
+% R884 (Opus 5.5, Oct 28 2026), at the author's direction: the Upscaling Theorem named and stated, copied from golden_reasoning.tex; the corollary below is unchanged.
 \begin{corollary}[Adverse anatomy overlapping positive strength is
 fatal; \textbf{[P]} given the model]
 \label{gr1:cor:recurrentanatomy}
