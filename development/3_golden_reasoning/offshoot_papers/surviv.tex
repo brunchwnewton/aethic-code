@@ -458,7 +458,21 @@ the three limits of Theorem~\ref{thm:modes}.
 \noindent\textit{Why two channels.} The model's split of the hazard into an external channel and an internal one, with the internal channel's response to capacity carrying its own sign, records one observation that motivated it, the internal/external decomposition itself going back to \cite{GoldenScience2022}: once a civilization can destroy or redirect an asteroid on course to wipe out its planet, it has muffled an external hazard with a power that can equally be turned back on the biosphere as a weapon, so the same growth of capacity that answers the external channel opens the internal one, and maintaining the biosphere with stability, an internal rate low and robustly low, becomes a requirement that grows with capacity rather than one it discharges. The single exponent $\rho$ that carries that sign below is an idealization of a structural property the companion paper on technoanatomy decomposes further; the results here are stated for the scalar.
 
 
-\begin{definition}[Driftless model]\label{def:model}
+\begin{definition}[Driftless model]\label{def:model}\footnote{The explicit reason I chose to use the logarithmic derivative of the
+hazard rate for the Wiener noise in the first place was for better consistency
+with the Lindy effect, which makes the system want to ``hold'' its intrinsic
+parameters for a time. That is, in that my original statement of the Golden
+Point already emphasizes the local capacity in a civilization for
+self-preservation, (with this capacity intuitively being related to the
+negative logarithmic derivative of the hazard rate, which after all remains a
+positive constant in a biosphere whose hazard rate decays exponentially), then
+applying the Lindy effect to this capacity itself has you expect to see each
+next metaphorical second typically undergo a similar proportional shift in the
+hazard rate as did the previous one, (since intuitively you would expect the
+central tendency to continue this progression nonconfrontationally rather than
+veer off of it suddenly). Hence, oscillations should probably be in this
+capacity itself as opposed to in the hazard rate directly.}
+% R886 (Opus 5.5, Oct 30 2026), at the author's direction: the author's footnote on the noise placement, synced from golden_reasoning.tex R880, verbatim.
 Fix $\sigma>0$ and initial data $(\mu_0,D_0)\in\R\times\R$. Define
 \begin{equation}\label{eq:model}
 \mu_t=\mu_0+\sigma W_t,\qquad
