@@ -1,12 +1,12 @@
-# Projective Gravity — Version 37.3 (draft): the reality involution and the flavor cycle
+# Projective Gravity — Version 37.4 (draft): the reality involution and the flavor cycle
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases — with branches on charge and extremality, and on rendering and canonical optics
 
-**Claim status of Part XXXV (v37.3).** This table governs the open work: Part XXXV, the reality involution and the flavor cycle, opened in v37.0 on Entry 369, with Entries 371–373 on the two ends of a history; v37.1 adds the review of v37.0 and its dynamical experiment, and the messages of 27 October with Entries 375–384; v37.2 adds the review of v37.1 and the referee report with its brief, and Entries 385–386; v37.3 adds the review of v37.2 and the finite room it recommends, Entries 387–390 with the turnover in that room, and Entries 392–397 with the two worldlines and the Hopf shell. Parts XXXIII–XXXIV are frozen at v36.16, the freeze declared at v37.0 (§XXXV.2); Parts XXX–XXXII are frozen at v35.8; and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the three frozen tables that follow, unchanged except for marked post-freeze notes. v37.0 adds such notes in §§XXXIII.13, XXXIII.68, XXXIV.55, XXXIV.56 and XXXIV.57 and in four rows of the v36.16 table (R422), and one in §XIX.2b on the soldering (R424); v37.1 adds one, in §XXVII.7 on its apsidal angles (R438). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*; a fit that fails is marked *(negative)*.
+**Claim status of Part XXXV (v37.4).** This table governs the open work: Part XXXV, the reality involution and the flavor cycle, opened in v37.0 on Entry 369, with Entries 371–373 on the two ends of a history; v37.1 adds the review of v37.0 and its dynamical experiment, and the messages of 27 October with Entries 375–384; v37.2 adds the review of v37.1 and the referee report with its brief, and Entries 385–386; v37.3 adds the review of v37.2 and the finite room it recommends, Entries 387–390 with the turnover in that room, and Entries 392–397 with the two worldlines and the Hopf shell; v37.4 adds the review of v37.3 and the room with records it recommends, and Entries 398–403 with Kerr's two horizons as two switches, the other sides of its extension and charge across the pair. Parts XXXIII–XXXIV are frozen at v36.16, the freeze declared at v37.0 (§XXXV.2); Parts XXX–XXXII are frozen at v35.8; and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the three frozen tables that follow, unchanged except for marked post-freeze notes. v37.0 adds such notes in §§XXXIII.13, XXXIII.68, XXXIV.55, XXXIV.56 and XXXIV.57 and in four rows of the v36.16 table (R422), and one in §XIX.2b on the soldering (R424); v37.1 adds one, in §XXVII.7 on its apsidal angles (R438). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*; a fit that fails is marked *(negative)*.
 
 | claim | type | evidence | archive |
 |:--|:--|:--|:--|
-| **The reality involution and the flavor cycle (Part XXXV, opened in v37.0 for Entry 369; Entries 371–373; v37.1, the review of v37.0 and Entries 375–384; v37.2, the review of v37.1, the referee report and Entries 385–386; v37.3, the review of v37.2 and Entries 387–390 and 392–397)** | | | |
+| **The reality involution and the flavor cycle (Part XXXV, opened in v37.0 for Entry 369; Entries 371–373; v37.1, the review of v37.0 and Entries 375–384; v37.2, the review of v37.1, the referee report and Entries 385–386; v37.3, the review of v37.2 and Entries 387–390 and 392–397; v37.4, the review of v37.3 and Entries 398–403)** | | | |
 | Entry 369, the freeze review of v36.16 and the briefing for v37, recorded as sent, with their markup and what v37.0 does with them (R421) | definition | — | §XXXV.1 |
 | The freeze of Parts XXXIII–XXXIV at v36.16, declared at v37.0 on §XXXIV.56's boundary, with the review's three release items: the ontology notes on §XXXIV.55 — source P's fiber pattern an auxiliary canonical-lift weight, not ordinary middle-space matter, and its fiber average the test's bookkeeping, not a completed Law I reduction; the complete output of v36.16's final run, delivered ($2782$ lines; $69$ passed, $0$ failed); the conflict ledger and the boundary locked, with the next pieces moved to v37 (R422) | definition; numerical control | the freeze review of v36.16; v36.16's final run (the ledger's §EQ) | §XXXV.2 |
 | Entry 369 against the archive: the real slice as $\rho_E$'s fixed set (§0.4), the $\tau$ on it and the $e$ and $\mu$ off it (§XXXIV.2(c)), the swap as §XXI.4a's $K$, the cycle's discontinuity (§§XXI.4, XXX.3(c), XXX.7), the classes in the rendering groupoid (§§XVIII.5, XXX.3), the entropy as §§XIII.6 and XVIII.8's; six additions made questions. The archive's involutions kept apart, each with its own symbol, with their compatibilities: on the carrier the compact real structure is represented by $\kappa_0$, the split ones of the axis by $\pm P_N\kappa_0$, and $j\otimes j$ is $-\kappa_0$ (R423) | definition; analytic theorem; numerical control; open bridge | — | §XXXV.3 |
@@ -47,7 +47,12 @@
 | The turnover in the finite room: with the anchors agreeing, a seed-fixed turnover of the far associations is a relabeling — no visibility, entropy or partition function changed, the phase of $K_r$ turned by $r$ times the nearest pair's — exactly when it turns every anchor alike, so a turnover held only at the seed changes no visibility and shifts the fringes, the pair reaching link $1+r$ by $r\tau$ labels; against the far frame it costs free energy, keeps the room's entropy above its untwisted value until the full turn and reorders the seed's associations, a far link becoming more associated with the seed than some nearer ones; with the sectors weighted alike a priori, the room's Boltzmann law weights the untwisted one most, above one half from ten links, the five links nearest the seed ordered in the conditioned room from thirteen links, and the conditioned counts keep the Born form (R459) | analytic theorem; numerical control; definition; specified physical premise; open bridge | — | §XXXV.43 |
 | Entries 392–397 and the six responses, recorded as sent, with their markup: the responses' headings, boxed formulas, lists, tables and block quotes, the image links and source lines of the responses to Entries 392, 394 and 397, and the lines of the pages' panels; the mapping, a reading, and what v37.3 does with them (R460) | definition | — | §XXXV.44 |
 | The six responses checked: their readings of Parts X, VI and VIII hold, with refinements — §X.4's third obstruction is stronger, the half-angle weights are already §X.0's; and the response to Entry 392's "The other two are not" is refined for the horizon polynomial, which the pair's mean fixes; on the compactified meridian the half turn and the imaginary displacement are distinct, the half turn the antipode only on the neutral circle; a pair displaced by $\pm i\mu$ is separated by $\theta = 2\operatorname{gd}\mu$, with $Q/M = \sin(\theta/2)$ and the half-angle weights, aligned at zero charge and antipodal only at the extremal boundary; on the Hopf shell the response to Entry 394's pair below extremality stays on one fiber exactly for $Q = 0$, every extremal pair half a fiber apart, the shell's breadth half a fiber; the complex-center field of a charge on the spin's displacement has the magnetic dipole $Qa$, and with a meridian component the potential is not harmonic on the leaf; the two-angle model is the meridian's coordinate with another compact angle, and the matching matrix is positive exactly between the horizons and blind to the split of $a^2+Q^2$; in the round model the meridian and Hopf semicircles' relative holonomy is a rotation by $\pi$, and the complex quadric holds the imaginary displacements, the meridian's complex angle among them, with the one scale $\ell$ (R461) | analytic theorem; numerical control; definition; specified physical premise; open bridge | Kim (2026) | §XXXV.45 |
-| The next pieces after v37.3: the room with records, the kernel's overlaps as records' fidelities, with the turnover's sectors in it; the turnover extended — a room of $SU(2)$-valued links with the selected Hopf readout as the second anchor, the sectors' prior from the deeper count, the electromagnetic probe in the room; the chiral pair's lift from the self-dual and anti-self-dual constituents to the Hopf shell and the compactified meridian, with a dynamics on the meridian's rapidity; a coupling for the involution room, set against the anisotropy-of-inertia bounds; the signed comparison from an association, or its premise kept and named; the room's frame as an inertial frame for the particle's motion; amplitude-weighted detectors and the general measurements they reach; and §XXXV.35's pieces as they stand (R462) | open bridge | — | §XXXV.46; §§XXXV.35, XXXV.27 |
+| The review of v37.3, recorded as sent, with its markup — headings, tables, escaped mathematics, boxed formulas, a code span and the lines of its two panels — and what v37.4 does with it (R463) | definition | — | §XXXV.48 |
+| The review's readings of v37.3 hold, against the sections they cite, and its reproduction of the suite — $19$ checks, $3{,}125$ lines, the SHA-256 beginning `78f647f2facec278` — matches v37.3's. Its clarifications made: without records the room reads two ways that give every count alike — a classical ensemble whose configuration is a key, and a coherent state whose paths' states are a record readable only off the configuration basis — and §XXXV.40(d)'s sentence on records is corrected in place, tagged; a reflecting link is a unitary permutation of the labels, exchanging the Fourier modes $k$ and $-k$, so no antiunitary operation is needed; with each label used at most once a preparation reaches finitely many amplitudes, $12$, $73$ or $361$, so the density of the prepared amplitudes needs multiplicities, which no mechanism supplies (R464) | analytic theorem; numerical control; definition; open bridge | the review of v37.3 | §XXXV.49 |
+| The room with records: a path turns each link it passes by $\kappa$ labels, so the room's law depends on the path. In the classical reading any record removes the fringe while a reading of the room tells the path only in part; in the coherent reading the fringe is at most the records' fidelity, $V^2+D^2 = 1$, and an eraser recovers the fidelity; the record is a turn of the frame; and the frame and the fringe compete, the one-link-longer fringe greatest at an intermediate frame for a turn other than none or a half turn. Every count is standard quantum mechanics with the room as an environment: nothing new survives decoherence, gauge and phase, by construction for this class of rooms; the room specifies the frame, the fringe and the record from one law (R465) | analytic theorem; numerical control; definition; specified physical premise; open bridge | Englert (1996); Jaeger–Shimony–Vaidman (1995) | §XXXV.50 |
+| Entries 398–403 and their seven responses, recorded as sent, with their markup — headings, tables, lists, escaped mathematics, boxed formulas, site icons, links to pictures and the lines of their panels — the mapping, a reading, and what v37.4 does with them (R466) | definition | — | §XXXV.51 |
+| Entries 398–399: the response to Entry 398's horizon data obey the first law and Smarr's relation at both horizons, with $1/\kappa_++1/\kappa_- = 4M$. Read as two spin states, §XXXV.45's pair has a mass operator $M(P_++P_-) = M(I+\bar{\mathbf u}\cdot\boldsymbol\sigma)$, trace $2M$ and determinant $a^2+Q^2$, whose spectrum is the two horizons: the response's two-channel operator is, up to a change of basis, $(r-M)I-M\bar{\mathbf u}\cdot\boldsymbol\sigma$, the outer horizon the switch of the pair's aligned channel and the inner of its anti-aligned one, each member alone switching at $2M$ and $0$. The shell's antipode on the pair, its members exchanged, exchanges the two horizons on one solution. The passage through the ring is a double cover whose deck transformation flips the complex radius — $\Sigma$ and $g = 2$ kept, $M$, $Q$, $J$ and $\mu$ flipped, and for Kerr the Kretschmann scalar kept and $\Psi_2$ and the cubic invariant flipped — the Hopf antipode's structure, not its identity; each horizon's other side is a half turn of its Euclidean time, the two with different periods. The response to Entry 399's form of the metric is exact; the radial action's residues are $(E-\Omega_\pm L_z)/2\kappa_\pm$; the cosine of the action difference without records is the room's classical reading. Entries 400–403: the cross coupling that gives Kerr–Newman's $\Delta$ is the two-channel operator boosted by a rapidity — §X.11's meridian rapidity for Reissner–Nordström — an imaginary rotation; the pair's common and difference parts are the horizons over $2M$, a transport's phase reading the pair as other holes of one mass; a loop of three associations, read as coherences, has its phase bounded by their loss of visibility; the meridian dipole's half chord has the form of the archive's $Q/M$, and a parity network's zero total is what Gauss on the closed base requires; Kerr–Newman's Ricci tensor meets Rainich's algebraic conditions, a Maxwell stress fixed by the metric up to its duality angle; a leaf of a source-free middle space sees conserved electric sources, a uniform quotient keeps the energy, though not as a Maxwell stress, and loses the charge, and with the removed meridians meeting at the poles the middle space has no electric charge without charge (R467) | analytic theorem; numerical control; definition; specified physical premise; open bridge | the responses to Entries 398–403; Rainich (1925); Misner and Wheeler (1957); Hatcher (2002) | §XXXV.52 |
+| The next pieces after v37.4: the room's frame as an inertial frame for the particle's motion; records with a dynamics, a room that relaxes between the two paths' passages, since a relaxation after both records cannot restore the fringe, with the turnover's sectors in it, and which reading the room takes, from a law of the room; the chiral pair's lift from the self-dual and anti-self-dual constituents to the Hopf shell and the compactified meridian, with a dynamics on the meridian's rapidity, the two switches as the lifted pair's spectrum with $r$ reconstructed relationally, and the horizons' surface gravities, angular velocities and radial action as its checks, and the ring's sheet change set against the fiber's antipode; charge across the pair — a comparison of regimes that gives the cross coupling's rapidity, a middle-space Maxwell law with its descent to the leaves and the base, what the quotient reads at the poles, and Law II's meridian structure; the turnover extended — a room of $SU(2)$-valued links with the selected Hopf readout as the second anchor, the sectors' prior from the deeper count, the electromagnetic probe in the room; a coupling for the involution room, set against the anisotropy-of-inertia bounds; the signed comparison from an association — from the same sewing that gives the two switches — or its premise kept and named; multiplicities, in the detector and in the preparation, and the general measurements they reach; and §XXXV.35's pieces as they stand (R468) | open bridge | — | §XXXV.53; §§XXXV.46, XXXV.35, XXXV.27 |
 
 **Claim status of Parts XXXIII–XXXIV at the v36 freeze (v36.16).** This table governs Parts XXXIII–XXXIV — Part XXXIII, the observed rotation curve, and Part XXXIV, flavor, opened in v36.8 — frozen at v36.16 with their suite `pg_v36_numerics.py`, the freeze declared at v37.0 (26 October 2026) on §XXXIV.56's boundary, and unchanged except for marked post-freeze notes (v37.0, R422). Their frozen-results record is the v36.16 current manuscript, `projective_gravity_v36_16_current_manuscript.md`, and the complete output of their final regression run is `pg_v36_16_regression_output.txt` (§XXXV.2(c)). Parts XXX–XXXII are frozen at v35.8, and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the two frozen tables that follow, unchanged except for marked post-freeze notes; v36.0 added such notes and pointers in §§XXXI.37, XXXI.38, XXXI.41, XXXII.5 and XXXII.7 and in four rows (R313); v36.1–v36.16 add none (v36.4's one rendering repair in §XXX.11, R355, excepted). v36.1 was the corrective round on the two reports on v36.0 (§XXXIII.14), §XXXIII.24 listing each v36.0 claim against its status; v36.2 answers Entries 323–324 and the two responses on them (§XXXIII.27), with the rows marked R332–R337 added, the row on Entry 322's family reworded (R332; its v36.1 text quoted under R337) and the row on the next pieces extended (R337); v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§XXXIII.34), with the rows marked R339–R348 added, the occupancy row reworded for the review's two distinctions (R347; its v36.2 text quoted there) and the row on the next pieces extended (R348); v36.4 answers the review of v36.3 and Entries 340–341 with the response (§XXXIII.44), with the rows marked R349–R354 added, the isothermal row extended for the erratum and the two ensembles (R350; its v36.3 text quoted there) and the row on the next pieces extended (R353); v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§XXXIII.51), with the rows marked R356–R358 added, the occupancy and regular-family rows corrected for the kinematics erratum (R357; their v36.4 text quoted in the ledger), the isothermal and clash rows extended (R358) and the row on the next pieces extended (R359); v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§XXXIII.56), with the rows marked R360–R363 added and the row on the next pieces extended (R364); v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§XXXIII.61), with the rows marked R365–R368 added and the row on the next pieces reworded and extended (R369); v36.8 answers Entries 351–353 and the three responses by opening Part XXXIV (§XXXIV.1), with the flavor heading, the rows marked R370–R373 and a row on Part XXXIV's next pieces added, and Part XXXIII's rows on the flavor note and on the next pieces amended, the rest of flavor leaving its backlog while the categories of mass and Entry 319's audit stay there (R374; their v36.7 text quoted in the ledger); v36.9 answers the review of v36.8 (§XXXIV.7), with the rows marked R375–R378 added and Part XXXIV's row on the next pieces reworded (R379; its v36.8 text quoted in the ledger); v36.10 answers Entry 354, the response to it and the review of v36.9 (§XXXIV.13), with the rows marked R380–R384 added, the flavor heading now saying when Part XXXIV was opened, and Part XXXIV's row on the next pieces reworded (R385; the v36.9 texts quoted in the ledger); v36.11 answers Entries 357 and 360, the responses to them, the review of v36.10 and the referee reports on v36.8 and v36.10 (§XXXIV.20), with the rows marked R386–R391 and R394 added under the flavor heading and R393 under Part XXXIII's, the rows marked R362, R363, R368, R371–R373 and R381–R384 corrected in place where the reports found them overstated (tagged), and both rows on the next pieces reworded (R392, R393; the v36.10 texts quoted in the ledger); v36.12 answers the review of v36.11 (§XXXIV.29) and records Entries 361–364 (§XXXIV.31), with the rows marked R395–R398 added under the flavor heading and Part XXXIV's row on the next pieces reworded (R399; the v36.11 text quoted in the ledger), and corrects nothing; v36.13 answers the review of v36.12, the referee report on v36.12 and Entries 365 and 366 (§§XXXIV.35, XXXIV.38), corrects the Z-linked row in place and scopes the chiral-seesaw row's interval (the direct-mass intervals are one branch's; tagged R401, the v36.12 texts quoted in the ledger), adds the rows marked R400–R404 under the flavor heading and rewords Part XXXIV's row on the next pieces (R405; the v36.12 text quoted in the ledger); v36.14 answers the review of v36.13 (§XXXIV.42), adds the rows marked R406–R408 under the flavor heading, rewords Part XXXIV's row on the next pieces (R409; the v36.13 text quoted in the ledger) and corrects nothing; v36.15 answers Entries 367–368 and the three responses to them (§XXXIV.47), adds the rows marked R410–R412 under the flavor heading, rewords Part XXXIV's row on the next pieces (R413; the v36.14 text quoted in the ledger) and corrects nothing; v36.16 answers the review of v36.15 (§XXXIV.52), adds the rows marked R414–R417 and R419 under the flavor heading and R418 under Part XXXIII's, rewords Part XXXIV's row on the next pieces (R420; the v36.15 text quoted in the ledger) and corrects nothing. Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*; a fit that fails is marked *(negative)*.
 
@@ -269,7 +274,7 @@
 | Observational fits | none | no supernova likelihood, no count comparison with a selected sample, no rotation-curve fit (post-freeze note, v35.1, R216: the current predictive model; Part XII's exploratory fits, §XII.3, belong to its detached wing) (post-freeze note, v36.0, R313: rotation curves are compared with data in Part XXXIII — the Milky Way from inside and a SPARC pilot — and are not reproduced by the theory as specified) | §XXIX.39(f) |
 | The photon wave operator and its mode projection; a $q = 0$ reader; a frequency bridge with time dilation and a derived echo law; a pair-selection law; a detector law for the image map, with one forward image of a fixed galaxy; a derived spectral transport, even and odd | open bridge | — | §§XXIX.39(b), 41, 42, 43(f) |
 
-> **How to read this archive (v37.3).** Four tables govern: the table of Part XXXV, for the open work; the frozen v36.16 table that follows it, for Parts XXXIII–XXXIV; the frozen v35.8 table after that, for Parts XXX–XXXII; and the frozen v34.10 table, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX; §XXX.9, frozen with Parts XXX–XXXII; §XXXIII.12 and Part XXXIV's registers, frozen with Parts XXXIII–XXXIV; and §§XXXV.13, XXXV.28, XXXV.36 and XXXV.47) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place. v36.0 freezes Parts XXX–XXXII at v35.8 with `pg_v35_numerics.py`, whose frozen-results record is the v35.8 current manuscript, and opens Part XXXIII, the observed rotation curve, after Part XXXII, with its own register (§XXXIII.12) and suite (§XXXIII.13, `pg_v36_numerics.py`). Its corrections to frozen Parts are post-freeze notes (R313). v36.1 is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§§XXXIII.14–26, R318–R331): it corrects v36.0's operative statements in place, with the superseded wording in §XXXIII.26, and adds no post-freeze note. v36.2 answers Entries 323–324 and the two responses on them (§§XXXIII.27–33, R332–R338): orbital occupancy on the leaf, the exponential as a rendering, the conformal route, the frame-selection hypothesis; it corrects two v36.1 sentences in place (R332) and adds no post-freeze note. v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§§XXXIII.34–43, R339–R348): two source families regular at the equator, their orbital populations and the dwarfs with them, the isothermal fixed points, the null cone, the split model, the $\mathfrak{so}(4)$ sectors; it applies the review's two distinctions in place (R347) and adds no post-freeze note. v36.4 answers the review of v36.3 and Entries 340–341 with the response (§§XXXIII.44–50, R349–R354): the fixed-point erratum and stability in two ensembles, the radial–normal duality and the CMB dipole, the first test of the clash invariant, and Entries 342–345 recorded for v36.5; it corrects §XXXIII.38 and §XXXIII.42 in place (R350) and adds no post-freeze content note — one marked rendering repair in frozen §XXX.11 (R355: a doubled brace in a subscript, which the author's site's templating engine read as a tag; the mathematics unchanged). v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§§XXXIII.51–55, R356–R359): the orbit library's kinematics erratum — the velocity moments integrated along the orbit, the mis-certified witnesses re-evaluated, the joint crossing–dispersion frontier, every library bound rescoped as a compatibility witness — with §§XXXIII.28, 29(b), 32, 36, 37, 42 and two register entries corrected in place (R357); the clash invariant's nullspace and the sum's fall-off, the high-sector bound, §§XXXIII.45, 47, 50 annotated (R358); no post-freeze note. v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§§XXXIII.56–60, R360–R364): one localization model, from the admissibility scalar to the spectrum — one action for the two sectors, a probe in the induced potential and the exterior theorem for its tail — which localizes and derives neither the thin–broad disk nor the sine-exponential; and the note's question in a reduction of the smallest two-path, one-qubit model; nothing earlier is corrected and no post-freeze note is added. v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§§XXXIII.61–66, R365–R369): the penalties of the admissibility geometry compared on the full two-sector configuration — the review's cone at the aligned vacuum confirmed, Entry 349's sine blind to the normal in the responses' reading, the response's and the review's smooth forms zero exactly on the family; v36.6's localization model with each, an exchange-even penalty smooth at the aligned vacuum confining the pinned tilt to a patch, the lowest-order smooth forms with their pinning losing the mode at v36.6's coupling (a smooth form with v36.6's gap binds two), the exterior obstruction holding for every gapped penalty; and off its ansatz the mirror solution's second variation with no eigenvalue below $-10^{-6}$ (certified on the grid up to the residual's bound for the cone penalties; second variation only), the sine's second zero leaving no metastable state in the one-wall family examined *[v36.11, R393]*; nothing earlier is corrected and no post-freeze note is added. v36.8 answers Entries 351–353 and the three responses by opening Part XXXIV, flavor, after Part XXXIII (§§XXXIV.1–6, R370–R374), as §XXXIII.9 planned, with Part XXXIII's suite: on the reading of the two families as orthonormal bases of one complex carrier, Entry 352's rule for a complement of the Cartesian fibers is mutual unbiasedness, which needs the complex structure and, with the archive's flavor lines, makes the selected axis the fibers' body diagonal, the frame's shift and clock then the archive's clock and conveyor and the Cartesian triad §XXX.13's trigonal frame, as a datum; the archive's mass operator read on the fibers is a ring with a flux, the mean mass on every fiber, the $e$–$\mu$ distinction the part odd under complex conjugation in the real frame, and Koide's relation a light cone on $\sqrt M$, the form's coefficient Koide's postulate; the bare Dirac toy's mass term can be the internal part of a parent operator, whose square gives the invariant difference $p^2-\mathcal M^2$ for a constant $\mathcal M$ *[v36.11, R387]*, the interchange holding in a flat parent and broken by any discrete internal spectrum. Part XXXIII's rows on the flavor note and on the next pieces are amended, the rest of flavor leaving its backlog (R374); nothing earlier is corrected and no post-freeze note is added. v36.9 answers the review of v36.8 with six sections of Part XXXIV (§§XXXIV.7–12, R375–R379), three of them (§§XXXIV.8–10) one for each part of the review's decisive test. *Frame consistency:* three distinct masses need an abelian residual symmetry — among the rotations the oriented triad's $\mathbb Z_3$, with the complement as its lines — and the mass operator itself keeps $SO(2)_{N_+}$; on $S_D\otimes G_{\rm gen}$, by the descent's typing (a definition), the mass operator commutes with every Lorentz transformation, the physical rotations acting on $S_D$ and those of the carrier internal; a coupling of the carrier to the spin is bounded by the electron's preferred-frame limits, $\lambda\leq3.46\times10^{-22}$ eV at one standard deviation for the Galactic normal ($(1.6\pm2.9)\times10^{-22}$ eV from a fit), and so excluded near the flavor scale. *Spectral selection:* no residual symmetry selects; Koide's ratio is fixed by the overlap of the two dual references, and $K = \tfrac23$ is their bases being mutually unbiased — Entry 352's rule on a qubit — a premise equivalent to Koide's relation, a dictionary rather than a derivation. *Mass generation:* a parity-symmetric pair with a heavy flavor-blind partner gives the square from two internal hops, Koide's masses at leading order, its corrections lowering $K$; on the premise that the relation holds for pole masses, the measured $K$ bounds the partner's mass from below. A tagged sentence is added in §XXXIV.3(d) (R377) and Part XXXIV's row on the next pieces is reworded (R379); nothing earlier is corrected and no post-freeze note is added. v36.10 answers Entry 354, the response to it and the review of v36.9 with seven sections of Part XXXIV (§§XXXIV.13–19, R380–R385). *The exact angles:* with $\theta = 2/9$ and $\cos\alpha = 1/\sqrt2$ held fixed, any first-order correction fixed by the electron and the muon predicts the $\tau$ through its pattern; the same hop twice gives $m_\tau$ $2.67\sigma$ low, and the dual factors $0.23\sigma$ low, their angle offsets then matching the measured ones (the same $\tau$ test) — on the pole-mass premise and the zero block at the eV level, with the construction chosen after the fact. *The mixing scale:* v36.9's $\mu$ was a two-sigma lower bound, and imposing $\mu = M_Z$ with the exact angles and one hop scale gives the $\tau$ $2.07\sigma$ or $1.27\sigma$ low, while with the strict zero block the electron excludes it within this pole-mass realization ($-87.0\sigma$ and $+722.5\sigma$ with the muon's and the Z's errors propagated), a direct mass restoring it in an enlarged realization *[v36.11, R388]*. *The chiral two-hop seesaw:* with a bare right hop the zero block is a choice of basis, while a charged vev for the right hop, or $SU(2)_R$, protects it up to dimension five; with two hop scales the dual factors' prediction of the $\tau$ becomes an inequality, met. *A moving frame:* its connection changes flavor only for a field on the carrier itself, far below detection at the illustrative rates. Part XXXIV's row on the next pieces is reworded (R385), and the head table's flavor heading now says when the Part was opened; nothing earlier is corrected and no post-freeze note is added. v36.11 answers Entries 357 and 360, the responses to them, the review of v36.10 and the referee reports on v36.8 and v36.10 with nine sections of Part XXXIV (§§XXXIV.20–28, R386–R392 and R394) and one of Part XXXIII (§XXXIII.67, R393). *The two histories:* the quaternionic structure intertwines the two Weyl types, so both of Part XX's pairings pass the Lorentz test; at rest the Cartan pair shares one spin state, while the antipodal pair, taken as a fixed relation between the components, is the conjugate pairing, which admits no electric charge — so for the electron the two readings exclude each other, and its Weyl components would be the Cartan pair, whose comparison is the four-velocity. *The doubled angle (Entry 360):* the dual factors are one plus half the spin-$\tfrac12$ character of a doubled angle, $\tfrac49+\tfrac{4\pi n}3\pm\tfrac\pi2$, which needs the double cover and a choice of lift, and only the identity lift is Koide's; the $\tfrac49$ of complementary projectors is a probability, and the complementary fibers' geometric phases are multiples of $2\pi/3$ — a selection-law conjecture, numerically $\theta = 2/9$. *The two-scale theorem:* with the exact angles and the dual factors, $m_\tau<1776.965825$ MeV on every positive branch and $\varepsilon_R/\varepsilon_L\leq2.0094647320$; parity proper excludes the dual factors, and equal Yukawa strengths with $A_-$ on the left hop put the $\tau$ $0.40\sigma$ high, a postulate. *The Z-linked statistics:* with the muon's and the Z's errors propagated the strict model's electron pulls are $-87.0$ and $+722.5$; the strict identification is excluded within this pole-mass realization, enlarged ones are not excluded by this comparison; with one hop scale the direct-mass interval is signed, and with two the same hop's is unchanged while the $\tau$ bounds the dual factors' on both sides *[v36.13, R401: for $\lvert m_0\rvert<\Lambda$, on the branch connected to the zero-block solution; a second branch near $1.03$ MeV, §XXXIV.36]*. *Transport:* the carrier's complete connection is flat, and the lines' connection a stipulated, different action that agrees with it in the adiabatic regime. *The report on v36.8:* deletion keeps equal survival, not distinguishability; the trace form's coefficient is Koide's postulate; the fit is an unweighted projection; the trimaximal column's atmospheric and CP condition is untested; the localization thresholds are numerical, not certified bounds; coherent reception needs the two transports' amplitudes; for the cone penalties the mirror solution's second variation has no eigenvalue below the residual's bound, by a ground-state transform and a comparison — a floating-point certificate on the grid, second variation only. The claims the two reports found overstated are corrected in place, each tagged, with the superseded wording quoted in the ledger; no post-freeze note is added. v36.12 answers the review of v36.11 and records Entries 361–364 with six sections of Part XXXIV (§§XXXIV.29–34, R395–R399). *The limiting map:* under one smooth connection in one representation the comparison of two converging histories' transports tends to the identity, linearly in the separation — a theorem — while the Cartan-twisted reading of the second leg, which the quaternionic structure $j$ supplies as the intertwiner ($\rho(g)\xi = j^{-1}(g(j\xi))$), gives the Hermitian square of the transport; for two legs leaving rest together and separating to order $r$, each carrying §XX.8a's Fermi–Walker transport, the Cartan comparison tends to $B(u)^2 = u\cdot\bar\sigma$ as $r\to0$, path-independent at zero separation while the Thomas rotation is not, and the limit pair is §XX.8b's Cartan pair obeying the Dirac identity; given the twist, the legs' relative velocity is not needed. The second leg's reading through $j$ is the one stipulation, put in rather than produced; that the physical pair's transport is this one stays a proposal. *Entries 361–364,* which arrived during the refereeing, are recorded with their responses, and every number the responses state is recomputed and found as stated: the quotients of the carrier $V = \mathbb C^3$ by one or two of its six lines (a Cartesian quotient keeps the flavor vectors as a trine, a flavor quotient makes the Cartesian images one, and the mass operator descends only through the flavor quotients), the four orbital sign sectors and the signed chord's $4\pi$ period, §XXVII.7's two-arc orbit, and the Hopf-sign and $SO(4)$ identities of the fourth response; Entry 363's two rendering branches of one canonical orbit and Entry 364's Hopf-sign switch at the apsis are recorded as hypotheses. Nothing is fitted and nothing earlier is corrected; no post-freeze note is added. v36.13 answers the review of v36.12, the referee report on v36.12 and Entries 365 and 366 with seven sections of Part XXXIV (§§XXXIV.35–41, R400–R405). *The report's required correction is made:* v36.11's eV direct-mass intervals hold on the branch connected to the zero-block solution, the three determinants negative; a second branch, the electron's determinant positive, fits all three charged-lepton masses for $1.028484<m_0<1.081583$ MeV (the report's counterexample with a 10 TeV heavy partner among its solutions), and a quartic enumerates every solution at fixed $m_0$ (for the direct mass the smaller diagonal entry) — §XXXIV.22(c)–(d), §XXXIV.27, R388 and the head table are corrected in place, each tagged *[v36.13, R401]*, the manuscript marked v36.13 and the suite's prints referenced to v36.13-1, with the superseded wording in the ledger; the zero-block theorem is untouched. *The transport repairs:* the Fermi–Walker benchmark started at its own initial velocity (second order), the thin-loop first variation with transported curvature, the sewing datum $H_0$ making $P_1H_0P_2^\dagger$ covariant, and the antilinear phase that keeps "one connection suffices" a statement about spin — §XXXIV.30(a)–(c) tagged *[v36.13, R402]*. *New:* $q\mapsto aqb^{-1}$ preserves the Hopf fibration only for $b$ in the normalizer of its $U(1)$, a condition distinct from fixing a galaxy's center; the apsidal residence time and the attenuation an exponential image would need, from Entry 365's response; Entry 366's $\tfrac49$ — the response's square is exactly the two-hop product, the half-turn about the body diagonal has spinor half-angle $\pi/2$, the cap volume of $S^3$ is the sine-minus-angle precedent and the leaf's rotation-speed formula carries none, and the conjectured transport $\Phi = p$ is recorded as the response's (§§XXXIV.38–39). Nothing is fitted; no post-freeze note is added. v36.14 answers the review of v36.13 with five sections of Part XXXIV (§§XXXIV.42–46, R406–R409) and corrects nothing. *The branches against data:* the protecting symmetry of §XXXIV.16(a) leaves a dimension-five direct mass, so each branch is a window of the cutoff, and under §XXXIV.16(a)'s assignment the left mixing — below $5.1\times10^{-4}$ on the first branch, approaching $0.20$ on the second, whose partner falls to $53.04$ GeV — is what moves the Standard-Model couplings at tree level; against the PDG's $Z$-pole couplings and heavy-lepton limit this leaves, for orientation, the first branch and a neighborhood of the second's lower end (§XXXIV.43). *The stabilizers and the charge:* the review's three levels of symmetry, with two more between them and the action on the middle space; the comparison of two charged transports gauge-invariant exactly when the second history carries the opposite charge (§XXXIV.44). Nothing is fitted; no post-freeze note is added. v36.15 answers Entries 367–368 and the three responses to them with five sections of Part XXXIV (§§XXXIV.47–51, R410–R413) and corrects nothing. *The Hopf-lifted ring:* a ring of angular radius $\rho$ in the middle space has holonomy $e^{i\pi(1-\cos\rho)}$, so its horizontal lift reaches the antipode after one revolution only when the ring bisects the sphere, while on a round shell its geodesic lifts — at the angle $\rho$ to the fiber — reach it for every ring; a receiver whose fibration makes the angle $\beta$ with the source's sees a source point as a ring of radius $\beta$ and a source ring as a band (§XXXIV.48). *The metric lift:* the response's family of canonical metrics over one middle-space metric is §XXIV.18's shell metric, and after one revolution a geodesic is displaced along the fiber by $\pi+\pi(4R^2/f^2-1)\cos\rho$ — on §XXIV.23's source shells, under its conformal lift, exact for every ring only at $x = \pi/6$ and its twin (§XXXIV.49). Nothing is fitted; no post-freeze note is added. v36.16 answers the review of v36.15 with seven sections of Part XXXIV (§§XXXIV.52–58, R414–R417, R419 and R420) and one of Part XXXIII (§XXXIII.68, R418) and corrects nothing. *The review's readings:* each is the cited section's; of the three limits the review draws out, two are adopted as restrictions — a disk centered on the source meets every source shell in great circles, whose return defect vanishes on every shell, and under the connection metric a null geodesic that stays null in the middle space has no momentum along the fiber, moving along it only as the connection fixes, so that anything further in Entry 365's photon rule must act on an internal state — and the third, on fiber density, is already the archive's (§XXXIV.53). *The audit:* the ring's holonomy, the Berger return, the direct-mass branches and the charged comparison, each confirmed by a method its original test does not use; the branch map stays a numerical classification (§XXXIV.54). *The optical test:* with one rule fixed first, two receivers and the gravitating source counted once, the rule's transmission is uniform and draws no structure; the receivers' images differ only through their quotient maps — a fiber-uniform source shows only the band, an $m = 2$, $k = 2$ fiber pattern, invisible to the source's own fibration, appears at $\beta = 0.3$ as two arms, wound by the horizontal lift and not by the exact one, and under that lift the receiver reads a slower mean rotation at image radii $0.4$–$1.0$ — so the review's stopping condition is met only in that geometric sense (§XXXIV.55). *The conflict ledger:* Part XXXIII's failed benchmarks, the frozen Part XXXI's central limiting conditions and flavor's negative comparisons, with their premises and their domains (§XXXIII.68). *The map:* the galaxy and the flavor projects and four kinds of result, with the boundary a freeze would pin proposed for the author to decide (§XXXIV.56). Nothing is fitted; no post-freeze note is added. v37.0 freezes Parts XXXIII–XXXIV at v36.16 with `pg_v36_numerics.py`, whose frozen-results record is the v36.16 current manuscript. The freeze review's three release items are made as post-freeze notes (R422): source P of §XXXIV.55 is marked an auxiliary canonical-lift weight, and its fiber average not a completed Law I reduction; the complete output of v36.16's final run is delivered as `pg_v36_16_regression_output.txt`; and the conflict ledger and the boundary are locked, with the next pieces moved to v37. A further post-freeze note, at §XIX.2b, says that its soldering can hold fiber by fiber but not globally over a shell's base (R424). v37.0 opens Part XXXV, the reality involution and the flavor cycle, after Part XXXIV, with its own register (§XXXV.13) and suite (§XXXV.14, `pg_v37_numerics.py`), on Entry 369 and the briefing for v37, and on Entries 371–373 (R421–R432). On the archive's flavor carrier the conveyor and the conjugation of the real frame form one semilinear $S_3$ whose reflections are real structures. Its 3-cycle is excluded from the complexified geometry and, globally, from the axis family; its continuous counterpart is a flux quantum threaded through the ring of Cartesian fibers. The two factors are exchanged only with the phase reflected, and the three rendering classes are inequivalent as internal rendering data, their physical inequivalence open *[v37.1, R434]*, but of one spectrum and equal multiplicity. On the round canonical shell, with a fibration at each end of a history, the receiver's apses on every ring, where the history keeps moving along the fiber, are exactly the zeros of one observer-indexed cut, a candidate visibility boundary only *[v37.1, R434]*, for every index, but by construction, the cut being the fiber derivative of the receiver's height; on the horizontal lift, for $\beta\neq\pi/2$, no single static field symmetric about the center carries the receiver's renderings of overlapping rings off the equator, and off a ring the alignment fails. Nothing is fitted. v37.1 answers the review of v37.0 (§§XXXV.15–17, R433–R435). It checks the review's readings and makes its three tightenings in place, each tagged, with the superseded wording in §XXXV.28 and the ledger: the Law I statement a no-go for its lift and field class, the cut a candidate visibility boundary, the classes distinct as internal rendering data and not called physical universes. Its dynamical experiment takes an orbit of §XXV.2's point-source field on the round shell over the orbit's own sphere, with the matter counted once in the source's quotient. The shell's dynamics gives the horizontal lift as its neutral sector, the one that reproduces PG's orbit *[v37.2, R448]*. The receiver's rendering does not align its apses with the cut; at the indices tested it is no orbit of a static field symmetric about the center and follows no second-order law shared by the neutral histories in the receiver's quotient; the dynamics reduces through the receiver's fibration only when the two axes are on one line; and the derived optics draws no line on the orbit. It takes in the message of 27 October (§§XXXV.18–20, R436–R438). On the carrier the first response's family of compatible pairings exists: the conveyor carries one compatible triple to another, and every real structure has exactly one pairing, so the family adds no datum to the three classes. $\mathbb C^1$ amplitudes reach any two histories and the kernels of rank at most two. Entry 375's orbits turn only at their two turning radii, and their subperiod is not an integer. The receiver's index is the star's fiber phase. A conformal update of the projection moves the apses only by moving the twin and carries no cut; one star's moved orbit is, retimed, an orbit of a potential of its own, and two stars of different energies whose images share a region, so retimed, have no common potential there. It takes in Entries 376–379 (§§XXXV.21–22, R439–R440): the switcheroo's cropping needs a phase-independent reservoir of at least $(\sqrt{P_1}+\sqrt{P_2})^2$, half of which is cropped for two equal slits; emptying the room restores interference in standard quantum mechanics; $\rho_E$'s fixed set is not its quotient but the quotient's singular stratum; collective reality, in the third response's toy, is the reality of a conjugation composed with the exchange, as the carrier's $\kappa_0$ makes the $e$–$\mu$ pair real together; and the order of the constants restates §XXIX.7's notes. It takes in Entries 380–381 (§§XXXV.23–24, R441–R442): a real slice with one negative direction always exists, as a choice of real structure, not of coordinates; exactly one negative direction is the only signature whose timelike vectors fall into past and future, and the reductions along the positive fiber and meridian keep it; and one time value cannot carry several deeper dimensions at an instant, while along a history a conserved momentum and a connection carry what a quotient forgets — on a positive metric, so the augmentation does not yet select the signature. It takes in Entries 382–384 (§§XXXV.25–26, R443–R444): the exchange's quotient keeps the mean and the difference up to sign, and the doubled integral's readout on it is real, a probability under positivity and normalization *[v37.2, R448]*; whether a pair's phase or its scale is two-sided depends on which real form of $\mathbb C^\times$ its exchange fixes — a history and its $\rho_E$-conjugate share the phase, conditionally on §XV.7's descent, while the closed-time-path's branches and the orthogonal partners reverse it; two potentials on two legs have a relative phase that is gauge-invariant only with a sewing at the nodes and that, by §XV.6's offloading, cannot by itself tell a two-sided field from two paths in one field when one potential is the other pulled back; and the two regimes of paired histories have two operations in common as kinematics, the relative holonomy and a phase-reversing exchange, whether a physical pair carries them being open, while the leaf's derived doubling, $\rho_E$, keeps the phase in the mean. §XXXV.27 is the standing (R445) and §XXXV.28 the register. Nothing is fitted; one post-freeze note is added, at §XXVII.7, whose first apsidal angle is $1.2307^\circ$ from the value recomputed on its orbit. v37.2 answers the review of v37.1 and the referee report with its continuation brief (§§XXXV.29, XXXV.31, R446, R448). It checks their readings, reproduces the report's numbers and its local argument for the receiver obstruction, and makes the report's five corrections in place, each tagged, with the superseded wording in §XXXV.36 and the ledger: the antilinear elements of the semilinear group act on the full fermion field with a Lorentz-covariant spinor map, since no map is antilinear on one factor of a complex tensor product and the identity on the other; criterion S's candidate set is the real structures preserving each of the real frame's lines and permuting the flavor lines, a zero-defect structure lying outside it; the horizontal lift is the action's neutral sector, given the requirement that the shell reproduce PG's orbit; Law I's count is the chosen assignment of source and field; and the doubled integral's readout is real and exchange-invariant, a probability under positivity and normalization. It builds the two pieces the report's brief puts first (§§XXXV.32–33, R449–R450). The completed antilinear elements form the semilinear $S_3$ on the Dirac field, commute with every proper orthochronous Lorentz transformation, carry a charged field to the conjugate charge, and map the theory with the mass operator $M$ to the charge-conjugate theory with $\kappa_jM\kappa_j^{-1}$, a symmetry exactly when the reality defect vanishes; the report's zero-defect real structure is the flavor basis's conjugation, one of §XXXV.4(d)'s reflections, a class of zero defect. In a finite association model a removal rule reaches nothing constructive and a pair count with nonnegative weights no destructive interference, while a signed comparison of two wings is quadratic for every relation, normalized exactly without a constant mode, and then of rank two exactly for one character — the cosine of §XXVI.4, forced, not inserted, its positivity following — the signed relation being the one posited step. It takes in Entries 385–386 (§§XXXV.30, XXXV.34, R447, R451): the agreeing structure of §XIII.4 fixes the ground of comparison, not the kernel; the two ghost rooms are §XXXV.26's $S^0$ pair with its sewing, and the dark fringe's clash is the signed count's zero, a cancellation. §XXXV.35 is the standing (R452) and §XXXV.36 the register. Nothing is fitted; no frozen Part changes. v37.3 answers the review of v37.2 (§§XXXV.37–38, R453–R454). It checks the review's readings and makes its terminology correction in place, tagged: the exchange of the wings, the comparison's evenness and the reality involution are kept apart. It states the readout as a measurement (§XXXV.39, R455): the Fourier multiport is a positive operator-valued measure for every preparation exactly when its port charges are distinct, and its effects are flat. And it builds the finite room the review recommends (§XXXV.40, R456): under one Boltzmann law the kernel of two paths is the room's characteristic function at their coefficient vector, the frame's order parameter is the kernel of a one-link path difference, paths of equal length read only the room's correlations, and the kernel is an environment overlap; a room of local involutions makes the fringe of paths of mixed parity follow the apparatus's orientation relative to the room's axis. The room's part of the kernel is derived and the sign is not — the postulate is the signed overlap at the sewing node — and for rotating links nothing is left beyond decoherence and phase. It takes in Entries 387–390 and their four responses (§§XXXV.41–42, R457–R458), checks the responses against the archive and reproduces their exact statements, and builds the turnover they describe in the room (§XXXV.43, R459): with the room's anchors agreeing, a turnover that fixes the seed and turns the far associations more than the near is a relabeling — no visibility and no entropy changes, only the fringes' positions, the fringe of the pair reaching link $1+r$ shifted by $r\tau$ labels — exactly when it turns every anchor alike, so a turnover held only at the seed changes no visibility; against the far frame it costs free energy, keeps the room's entropy above its untwisted value until the full turn and reorders the seed's associations; and conditioned on the room's Boltzmann law the untwisted sector is weighted most, its share growing with the room, the counts keeping the Born form. And it takes in Entries 392–397 and their six responses (§§XXXV.44–45, R460–R461), on the two complex worldlines of Kerr, the meridian and the Hopf shell: on the compactified meridian a pair displaced by $\pm i\mu$, purely imaginary, is aligned at zero charge and antipodal only at the extremal boundary, with $Q/M = \sin(\theta/2)$ for its separation $\theta$ and §X.0's half-angle weights; on the Hopf shell every extremal pair is half a fiber apart; and a charge riding the spin's displacement has the magnetic dipole $Qa$, while with a meridian component in the field's displacement the potential is not harmonic on the leaf. Every construction takes $M$, $a$ and $Q$, or the round model's $\ell$, as inputs. §XXXV.46 is the standing (R462) and §XXXV.47 the register. Nothing is fitted; no frozen Part changes.
+> **How to read this archive (v37.4).** Four tables govern: the table of Part XXXV, for the open work; the frozen v36.16 table that follows it, for Parts XXXIII–XXXIV; the frozen v35.8 table after that, for Parts XXX–XXXII; and the frozen v34.10 table, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX; §XXX.9, frozen with Parts XXX–XXXII; §XXXIII.12 and Part XXXIV's registers, frozen with Parts XXXIII–XXXIV; and §§XXXV.13, XXXV.28, XXXV.36, XXXV.47 and XXXV.54) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place. v36.0 freezes Parts XXX–XXXII at v35.8 with `pg_v35_numerics.py`, whose frozen-results record is the v35.8 current manuscript, and opens Part XXXIII, the observed rotation curve, after Part XXXII, with its own register (§XXXIII.12) and suite (§XXXIII.13, `pg_v36_numerics.py`). Its corrections to frozen Parts are post-freeze notes (R313). v36.1 is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§§XXXIII.14–26, R318–R331): it corrects v36.0's operative statements in place, with the superseded wording in §XXXIII.26, and adds no post-freeze note. v36.2 answers Entries 323–324 and the two responses on them (§§XXXIII.27–33, R332–R338): orbital occupancy on the leaf, the exponential as a rendering, the conformal route, the frame-selection hypothesis; it corrects two v36.1 sentences in place (R332) and adds no post-freeze note. v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§§XXXIII.34–43, R339–R348): two source families regular at the equator, their orbital populations and the dwarfs with them, the isothermal fixed points, the null cone, the split model, the $\mathfrak{so}(4)$ sectors; it applies the review's two distinctions in place (R347) and adds no post-freeze note. v36.4 answers the review of v36.3 and Entries 340–341 with the response (§§XXXIII.44–50, R349–R354): the fixed-point erratum and stability in two ensembles, the radial–normal duality and the CMB dipole, the first test of the clash invariant, and Entries 342–345 recorded for v36.5; it corrects §XXXIII.38 and §XXXIII.42 in place (R350) and adds no post-freeze content note — one marked rendering repair in frozen §XXX.11 (R355: a doubled brace in a subscript, which the author's site's templating engine read as a tag; the mathematics unchanged). v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§§XXXIII.51–55, R356–R359): the orbit library's kinematics erratum — the velocity moments integrated along the orbit, the mis-certified witnesses re-evaluated, the joint crossing–dispersion frontier, every library bound rescoped as a compatibility witness — with §§XXXIII.28, 29(b), 32, 36, 37, 42 and two register entries corrected in place (R357); the clash invariant's nullspace and the sum's fall-off, the high-sector bound, §§XXXIII.45, 47, 50 annotated (R358); no post-freeze note. v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§§XXXIII.56–60, R360–R364): one localization model, from the admissibility scalar to the spectrum — one action for the two sectors, a probe in the induced potential and the exterior theorem for its tail — which localizes and derives neither the thin–broad disk nor the sine-exponential; and the note's question in a reduction of the smallest two-path, one-qubit model; nothing earlier is corrected and no post-freeze note is added. v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§§XXXIII.61–66, R365–R369): the penalties of the admissibility geometry compared on the full two-sector configuration — the review's cone at the aligned vacuum confirmed, Entry 349's sine blind to the normal in the responses' reading, the response's and the review's smooth forms zero exactly on the family; v36.6's localization model with each, an exchange-even penalty smooth at the aligned vacuum confining the pinned tilt to a patch, the lowest-order smooth forms with their pinning losing the mode at v36.6's coupling (a smooth form with v36.6's gap binds two), the exterior obstruction holding for every gapped penalty; and off its ansatz the mirror solution's second variation with no eigenvalue below $-10^{-6}$ (certified on the grid up to the residual's bound for the cone penalties; second variation only), the sine's second zero leaving no metastable state in the one-wall family examined *[v36.11, R393]*; nothing earlier is corrected and no post-freeze note is added. v36.8 answers Entries 351–353 and the three responses by opening Part XXXIV, flavor, after Part XXXIII (§§XXXIV.1–6, R370–R374), as §XXXIII.9 planned, with Part XXXIII's suite: on the reading of the two families as orthonormal bases of one complex carrier, Entry 352's rule for a complement of the Cartesian fibers is mutual unbiasedness, which needs the complex structure and, with the archive's flavor lines, makes the selected axis the fibers' body diagonal, the frame's shift and clock then the archive's clock and conveyor and the Cartesian triad §XXX.13's trigonal frame, as a datum; the archive's mass operator read on the fibers is a ring with a flux, the mean mass on every fiber, the $e$–$\mu$ distinction the part odd under complex conjugation in the real frame, and Koide's relation a light cone on $\sqrt M$, the form's coefficient Koide's postulate; the bare Dirac toy's mass term can be the internal part of a parent operator, whose square gives the invariant difference $p^2-\mathcal M^2$ for a constant $\mathcal M$ *[v36.11, R387]*, the interchange holding in a flat parent and broken by any discrete internal spectrum. Part XXXIII's rows on the flavor note and on the next pieces are amended, the rest of flavor leaving its backlog (R374); nothing earlier is corrected and no post-freeze note is added. v36.9 answers the review of v36.8 with six sections of Part XXXIV (§§XXXIV.7–12, R375–R379), three of them (§§XXXIV.8–10) one for each part of the review's decisive test. *Frame consistency:* three distinct masses need an abelian residual symmetry — among the rotations the oriented triad's $\mathbb Z_3$, with the complement as its lines — and the mass operator itself keeps $SO(2)_{N_+}$; on $S_D\otimes G_{\rm gen}$, by the descent's typing (a definition), the mass operator commutes with every Lorentz transformation, the physical rotations acting on $S_D$ and those of the carrier internal; a coupling of the carrier to the spin is bounded by the electron's preferred-frame limits, $\lambda\leq3.46\times10^{-22}$ eV at one standard deviation for the Galactic normal ($(1.6\pm2.9)\times10^{-22}$ eV from a fit), and so excluded near the flavor scale. *Spectral selection:* no residual symmetry selects; Koide's ratio is fixed by the overlap of the two dual references, and $K = \tfrac23$ is their bases being mutually unbiased — Entry 352's rule on a qubit — a premise equivalent to Koide's relation, a dictionary rather than a derivation. *Mass generation:* a parity-symmetric pair with a heavy flavor-blind partner gives the square from two internal hops, Koide's masses at leading order, its corrections lowering $K$; on the premise that the relation holds for pole masses, the measured $K$ bounds the partner's mass from below. A tagged sentence is added in §XXXIV.3(d) (R377) and Part XXXIV's row on the next pieces is reworded (R379); nothing earlier is corrected and no post-freeze note is added. v36.10 answers Entry 354, the response to it and the review of v36.9 with seven sections of Part XXXIV (§§XXXIV.13–19, R380–R385). *The exact angles:* with $\theta = 2/9$ and $\cos\alpha = 1/\sqrt2$ held fixed, any first-order correction fixed by the electron and the muon predicts the $\tau$ through its pattern; the same hop twice gives $m_\tau$ $2.67\sigma$ low, and the dual factors $0.23\sigma$ low, their angle offsets then matching the measured ones (the same $\tau$ test) — on the pole-mass premise and the zero block at the eV level, with the construction chosen after the fact. *The mixing scale:* v36.9's $\mu$ was a two-sigma lower bound, and imposing $\mu = M_Z$ with the exact angles and one hop scale gives the $\tau$ $2.07\sigma$ or $1.27\sigma$ low, while with the strict zero block the electron excludes it within this pole-mass realization ($-87.0\sigma$ and $+722.5\sigma$ with the muon's and the Z's errors propagated), a direct mass restoring it in an enlarged realization *[v36.11, R388]*. *The chiral two-hop seesaw:* with a bare right hop the zero block is a choice of basis, while a charged vev for the right hop, or $SU(2)_R$, protects it up to dimension five; with two hop scales the dual factors' prediction of the $\tau$ becomes an inequality, met. *A moving frame:* its connection changes flavor only for a field on the carrier itself, far below detection at the illustrative rates. Part XXXIV's row on the next pieces is reworded (R385), and the head table's flavor heading now says when the Part was opened; nothing earlier is corrected and no post-freeze note is added. v36.11 answers Entries 357 and 360, the responses to them, the review of v36.10 and the referee reports on v36.8 and v36.10 with nine sections of Part XXXIV (§§XXXIV.20–28, R386–R392 and R394) and one of Part XXXIII (§XXXIII.67, R393). *The two histories:* the quaternionic structure intertwines the two Weyl types, so both of Part XX's pairings pass the Lorentz test; at rest the Cartan pair shares one spin state, while the antipodal pair, taken as a fixed relation between the components, is the conjugate pairing, which admits no electric charge — so for the electron the two readings exclude each other, and its Weyl components would be the Cartan pair, whose comparison is the four-velocity. *The doubled angle (Entry 360):* the dual factors are one plus half the spin-$\tfrac12$ character of a doubled angle, $\tfrac49+\tfrac{4\pi n}3\pm\tfrac\pi2$, which needs the double cover and a choice of lift, and only the identity lift is Koide's; the $\tfrac49$ of complementary projectors is a probability, and the complementary fibers' geometric phases are multiples of $2\pi/3$ — a selection-law conjecture, numerically $\theta = 2/9$. *The two-scale theorem:* with the exact angles and the dual factors, $m_\tau<1776.965825$ MeV on every positive branch and $\varepsilon_R/\varepsilon_L\leq2.0094647320$; parity proper excludes the dual factors, and equal Yukawa strengths with $A_-$ on the left hop put the $\tau$ $0.40\sigma$ high, a postulate. *The Z-linked statistics:* with the muon's and the Z's errors propagated the strict model's electron pulls are $-87.0$ and $+722.5$; the strict identification is excluded within this pole-mass realization, enlarged ones are not excluded by this comparison; with one hop scale the direct-mass interval is signed, and with two the same hop's is unchanged while the $\tau$ bounds the dual factors' on both sides *[v36.13, R401: for $\lvert m_0\rvert<\Lambda$, on the branch connected to the zero-block solution; a second branch near $1.03$ MeV, §XXXIV.36]*. *Transport:* the carrier's complete connection is flat, and the lines' connection a stipulated, different action that agrees with it in the adiabatic regime. *The report on v36.8:* deletion keeps equal survival, not distinguishability; the trace form's coefficient is Koide's postulate; the fit is an unweighted projection; the trimaximal column's atmospheric and CP condition is untested; the localization thresholds are numerical, not certified bounds; coherent reception needs the two transports' amplitudes; for the cone penalties the mirror solution's second variation has no eigenvalue below the residual's bound, by a ground-state transform and a comparison — a floating-point certificate on the grid, second variation only. The claims the two reports found overstated are corrected in place, each tagged, with the superseded wording quoted in the ledger; no post-freeze note is added. v36.12 answers the review of v36.11 and records Entries 361–364 with six sections of Part XXXIV (§§XXXIV.29–34, R395–R399). *The limiting map:* under one smooth connection in one representation the comparison of two converging histories' transports tends to the identity, linearly in the separation — a theorem — while the Cartan-twisted reading of the second leg, which the quaternionic structure $j$ supplies as the intertwiner ($\rho(g)\xi = j^{-1}(g(j\xi))$), gives the Hermitian square of the transport; for two legs leaving rest together and separating to order $r$, each carrying §XX.8a's Fermi–Walker transport, the Cartan comparison tends to $B(u)^2 = u\cdot\bar\sigma$ as $r\to0$, path-independent at zero separation while the Thomas rotation is not, and the limit pair is §XX.8b's Cartan pair obeying the Dirac identity; given the twist, the legs' relative velocity is not needed. The second leg's reading through $j$ is the one stipulation, put in rather than produced; that the physical pair's transport is this one stays a proposal. *Entries 361–364,* which arrived during the refereeing, are recorded with their responses, and every number the responses state is recomputed and found as stated: the quotients of the carrier $V = \mathbb C^3$ by one or two of its six lines (a Cartesian quotient keeps the flavor vectors as a trine, a flavor quotient makes the Cartesian images one, and the mass operator descends only through the flavor quotients), the four orbital sign sectors and the signed chord's $4\pi$ period, §XXVII.7's two-arc orbit, and the Hopf-sign and $SO(4)$ identities of the fourth response; Entry 363's two rendering branches of one canonical orbit and Entry 364's Hopf-sign switch at the apsis are recorded as hypotheses. Nothing is fitted and nothing earlier is corrected; no post-freeze note is added. v36.13 answers the review of v36.12, the referee report on v36.12 and Entries 365 and 366 with seven sections of Part XXXIV (§§XXXIV.35–41, R400–R405). *The report's required correction is made:* v36.11's eV direct-mass intervals hold on the branch connected to the zero-block solution, the three determinants negative; a second branch, the electron's determinant positive, fits all three charged-lepton masses for $1.028484<m_0<1.081583$ MeV (the report's counterexample with a 10 TeV heavy partner among its solutions), and a quartic enumerates every solution at fixed $m_0$ (for the direct mass the smaller diagonal entry) — §XXXIV.22(c)–(d), §XXXIV.27, R388 and the head table are corrected in place, each tagged *[v36.13, R401]*, the manuscript marked v36.13 and the suite's prints referenced to v36.13-1, with the superseded wording in the ledger; the zero-block theorem is untouched. *The transport repairs:* the Fermi–Walker benchmark started at its own initial velocity (second order), the thin-loop first variation with transported curvature, the sewing datum $H_0$ making $P_1H_0P_2^\dagger$ covariant, and the antilinear phase that keeps "one connection suffices" a statement about spin — §XXXIV.30(a)–(c) tagged *[v36.13, R402]*. *New:* $q\mapsto aqb^{-1}$ preserves the Hopf fibration only for $b$ in the normalizer of its $U(1)$, a condition distinct from fixing a galaxy's center; the apsidal residence time and the attenuation an exponential image would need, from Entry 365's response; Entry 366's $\tfrac49$ — the response's square is exactly the two-hop product, the half-turn about the body diagonal has spinor half-angle $\pi/2$, the cap volume of $S^3$ is the sine-minus-angle precedent and the leaf's rotation-speed formula carries none, and the conjectured transport $\Phi = p$ is recorded as the response's (§§XXXIV.38–39). Nothing is fitted; no post-freeze note is added. v36.14 answers the review of v36.13 with five sections of Part XXXIV (§§XXXIV.42–46, R406–R409) and corrects nothing. *The branches against data:* the protecting symmetry of §XXXIV.16(a) leaves a dimension-five direct mass, so each branch is a window of the cutoff, and under §XXXIV.16(a)'s assignment the left mixing — below $5.1\times10^{-4}$ on the first branch, approaching $0.20$ on the second, whose partner falls to $53.04$ GeV — is what moves the Standard-Model couplings at tree level; against the PDG's $Z$-pole couplings and heavy-lepton limit this leaves, for orientation, the first branch and a neighborhood of the second's lower end (§XXXIV.43). *The stabilizers and the charge:* the review's three levels of symmetry, with two more between them and the action on the middle space; the comparison of two charged transports gauge-invariant exactly when the second history carries the opposite charge (§XXXIV.44). Nothing is fitted; no post-freeze note is added. v36.15 answers Entries 367–368 and the three responses to them with five sections of Part XXXIV (§§XXXIV.47–51, R410–R413) and corrects nothing. *The Hopf-lifted ring:* a ring of angular radius $\rho$ in the middle space has holonomy $e^{i\pi(1-\cos\rho)}$, so its horizontal lift reaches the antipode after one revolution only when the ring bisects the sphere, while on a round shell its geodesic lifts — at the angle $\rho$ to the fiber — reach it for every ring; a receiver whose fibration makes the angle $\beta$ with the source's sees a source point as a ring of radius $\beta$ and a source ring as a band (§XXXIV.48). *The metric lift:* the response's family of canonical metrics over one middle-space metric is §XXIV.18's shell metric, and after one revolution a geodesic is displaced along the fiber by $\pi+\pi(4R^2/f^2-1)\cos\rho$ — on §XXIV.23's source shells, under its conformal lift, exact for every ring only at $x = \pi/6$ and its twin (§XXXIV.49). Nothing is fitted; no post-freeze note is added. v36.16 answers the review of v36.15 with seven sections of Part XXXIV (§§XXXIV.52–58, R414–R417, R419 and R420) and one of Part XXXIII (§XXXIII.68, R418) and corrects nothing. *The review's readings:* each is the cited section's; of the three limits the review draws out, two are adopted as restrictions — a disk centered on the source meets every source shell in great circles, whose return defect vanishes on every shell, and under the connection metric a null geodesic that stays null in the middle space has no momentum along the fiber, moving along it only as the connection fixes, so that anything further in Entry 365's photon rule must act on an internal state — and the third, on fiber density, is already the archive's (§XXXIV.53). *The audit:* the ring's holonomy, the Berger return, the direct-mass branches and the charged comparison, each confirmed by a method its original test does not use; the branch map stays a numerical classification (§XXXIV.54). *The optical test:* with one rule fixed first, two receivers and the gravitating source counted once, the rule's transmission is uniform and draws no structure; the receivers' images differ only through their quotient maps — a fiber-uniform source shows only the band, an $m = 2$, $k = 2$ fiber pattern, invisible to the source's own fibration, appears at $\beta = 0.3$ as two arms, wound by the horizontal lift and not by the exact one, and under that lift the receiver reads a slower mean rotation at image radii $0.4$–$1.0$ — so the review's stopping condition is met only in that geometric sense (§XXXIV.55). *The conflict ledger:* Part XXXIII's failed benchmarks, the frozen Part XXXI's central limiting conditions and flavor's negative comparisons, with their premises and their domains (§XXXIII.68). *The map:* the galaxy and the flavor projects and four kinds of result, with the boundary a freeze would pin proposed for the author to decide (§XXXIV.56). Nothing is fitted; no post-freeze note is added. v37.0 freezes Parts XXXIII–XXXIV at v36.16 with `pg_v36_numerics.py`, whose frozen-results record is the v36.16 current manuscript. The freeze review's three release items are made as post-freeze notes (R422): source P of §XXXIV.55 is marked an auxiliary canonical-lift weight, and its fiber average not a completed Law I reduction; the complete output of v36.16's final run is delivered as `pg_v36_16_regression_output.txt`; and the conflict ledger and the boundary are locked, with the next pieces moved to v37. A further post-freeze note, at §XIX.2b, says that its soldering can hold fiber by fiber but not globally over a shell's base (R424). v37.0 opens Part XXXV, the reality involution and the flavor cycle, after Part XXXIV, with its own register (§XXXV.13) and suite (§XXXV.14, `pg_v37_numerics.py`), on Entry 369 and the briefing for v37, and on Entries 371–373 (R421–R432). On the archive's flavor carrier the conveyor and the conjugation of the real frame form one semilinear $S_3$ whose reflections are real structures. Its 3-cycle is excluded from the complexified geometry and, globally, from the axis family; its continuous counterpart is a flux quantum threaded through the ring of Cartesian fibers. The two factors are exchanged only with the phase reflected, and the three rendering classes are inequivalent as internal rendering data, their physical inequivalence open *[v37.1, R434]*, but of one spectrum and equal multiplicity. On the round canonical shell, with a fibration at each end of a history, the receiver's apses on every ring, where the history keeps moving along the fiber, are exactly the zeros of one observer-indexed cut, a candidate visibility boundary only *[v37.1, R434]*, for every index, but by construction, the cut being the fiber derivative of the receiver's height; on the horizontal lift, for $\beta\neq\pi/2$, no single static field symmetric about the center carries the receiver's renderings of overlapping rings off the equator, and off a ring the alignment fails. Nothing is fitted. v37.1 answers the review of v37.0 (§§XXXV.15–17, R433–R435). It checks the review's readings and makes its three tightenings in place, each tagged, with the superseded wording in §XXXV.28 and the ledger: the Law I statement a no-go for its lift and field class, the cut a candidate visibility boundary, the classes distinct as internal rendering data and not called physical universes. Its dynamical experiment takes an orbit of §XXV.2's point-source field on the round shell over the orbit's own sphere, with the matter counted once in the source's quotient. The shell's dynamics gives the horizontal lift as its neutral sector, the one that reproduces PG's orbit *[v37.2, R448]*. The receiver's rendering does not align its apses with the cut; at the indices tested it is no orbit of a static field symmetric about the center and follows no second-order law shared by the neutral histories in the receiver's quotient; the dynamics reduces through the receiver's fibration only when the two axes are on one line; and the derived optics draws no line on the orbit. It takes in the message of 27 October (§§XXXV.18–20, R436–R438). On the carrier the first response's family of compatible pairings exists: the conveyor carries one compatible triple to another, and every real structure has exactly one pairing, so the family adds no datum to the three classes. $\mathbb C^1$ amplitudes reach any two histories and the kernels of rank at most two. Entry 375's orbits turn only at their two turning radii, and their subperiod is not an integer. The receiver's index is the star's fiber phase. A conformal update of the projection moves the apses only by moving the twin and carries no cut; one star's moved orbit is, retimed, an orbit of a potential of its own, and two stars of different energies whose images share a region, so retimed, have no common potential there. It takes in Entries 376–379 (§§XXXV.21–22, R439–R440): the switcheroo's cropping needs a phase-independent reservoir of at least $(\sqrt{P_1}+\sqrt{P_2})^2$, half of which is cropped for two equal slits; emptying the room restores interference in standard quantum mechanics; $\rho_E$'s fixed set is not its quotient but the quotient's singular stratum; collective reality, in the third response's toy, is the reality of a conjugation composed with the exchange, as the carrier's $\kappa_0$ makes the $e$–$\mu$ pair real together; and the order of the constants restates §XXIX.7's notes. It takes in Entries 380–381 (§§XXXV.23–24, R441–R442): a real slice with one negative direction always exists, as a choice of real structure, not of coordinates; exactly one negative direction is the only signature whose timelike vectors fall into past and future, and the reductions along the positive fiber and meridian keep it; and one time value cannot carry several deeper dimensions at an instant, while along a history a conserved momentum and a connection carry what a quotient forgets — on a positive metric, so the augmentation does not yet select the signature. It takes in Entries 382–384 (§§XXXV.25–26, R443–R444): the exchange's quotient keeps the mean and the difference up to sign, and the doubled integral's readout on it is real, a probability under positivity and normalization *[v37.2, R448]*; whether a pair's phase or its scale is two-sided depends on which real form of $\mathbb C^\times$ its exchange fixes — a history and its $\rho_E$-conjugate share the phase, conditionally on §XV.7's descent, while the closed-time-path's branches and the orthogonal partners reverse it; two potentials on two legs have a relative phase that is gauge-invariant only with a sewing at the nodes and that, by §XV.6's offloading, cannot by itself tell a two-sided field from two paths in one field when one potential is the other pulled back; and the two regimes of paired histories have two operations in common as kinematics, the relative holonomy and a phase-reversing exchange, whether a physical pair carries them being open, while the leaf's derived doubling, $\rho_E$, keeps the phase in the mean. §XXXV.27 is the standing (R445) and §XXXV.28 the register. Nothing is fitted; one post-freeze note is added, at §XXVII.7, whose first apsidal angle is $1.2307^\circ$ from the value recomputed on its orbit. v37.2 answers the review of v37.1 and the referee report with its continuation brief (§§XXXV.29, XXXV.31, R446, R448). It checks their readings, reproduces the report's numbers and its local argument for the receiver obstruction, and makes the report's five corrections in place, each tagged, with the superseded wording in §XXXV.36 and the ledger: the antilinear elements of the semilinear group act on the full fermion field with a Lorentz-covariant spinor map, since no map is antilinear on one factor of a complex tensor product and the identity on the other; criterion S's candidate set is the real structures preserving each of the real frame's lines and permuting the flavor lines, a zero-defect structure lying outside it; the horizontal lift is the action's neutral sector, given the requirement that the shell reproduce PG's orbit; Law I's count is the chosen assignment of source and field; and the doubled integral's readout is real and exchange-invariant, a probability under positivity and normalization. It builds the two pieces the report's brief puts first (§§XXXV.32–33, R449–R450). The completed antilinear elements form the semilinear $S_3$ on the Dirac field, commute with every proper orthochronous Lorentz transformation, carry a charged field to the conjugate charge, and map the theory with the mass operator $M$ to the charge-conjugate theory with $\kappa_jM\kappa_j^{-1}$, a symmetry exactly when the reality defect vanishes; the report's zero-defect real structure is the flavor basis's conjugation, one of §XXXV.4(d)'s reflections, a class of zero defect. In a finite association model a removal rule reaches nothing constructive and a pair count with nonnegative weights no destructive interference, while a signed comparison of two wings is quadratic for every relation, normalized exactly without a constant mode, and then of rank two exactly for one character — the cosine of §XXVI.4, forced, not inserted, its positivity following — the signed relation being the one posited step. It takes in Entries 385–386 (§§XXXV.30, XXXV.34, R447, R451): the agreeing structure of §XIII.4 fixes the ground of comparison, not the kernel; the two ghost rooms are §XXXV.26's $S^0$ pair with its sewing, and the dark fringe's clash is the signed count's zero, a cancellation. §XXXV.35 is the standing (R452) and §XXXV.36 the register. Nothing is fitted; no frozen Part changes. v37.3 answers the review of v37.2 (§§XXXV.37–38, R453–R454). It checks the review's readings and makes its terminology correction in place, tagged: the exchange of the wings, the comparison's evenness and the reality involution are kept apart. It states the readout as a measurement (§XXXV.39, R455): the Fourier multiport is a positive operator-valued measure for every preparation exactly when its port charges are distinct, and its effects are flat. And it builds the finite room the review recommends (§XXXV.40, R456): under one Boltzmann law the kernel of two paths is the room's characteristic function at their coefficient vector, the frame's order parameter is the kernel of a one-link path difference, paths of equal length read only the room's correlations, and the kernel is an environment overlap; a room of local involutions makes the fringe of paths of mixed parity follow the apparatus's orientation relative to the room's axis. The room's part of the kernel is derived and the sign is not — the postulate is the signed overlap at the sewing node — and for rotating links nothing is left beyond decoherence and phase. It takes in Entries 387–390 and their four responses (§§XXXV.41–42, R457–R458), checks the responses against the archive and reproduces their exact statements, and builds the turnover they describe in the room (§XXXV.43, R459): with the room's anchors agreeing, a turnover that fixes the seed and turns the far associations more than the near is a relabeling — no visibility and no entropy changes, only the fringes' positions, the fringe of the pair reaching link $1+r$ shifted by $r\tau$ labels — exactly when it turns every anchor alike, so a turnover held only at the seed changes no visibility; against the far frame it costs free energy, keeps the room's entropy above its untwisted value until the full turn and reorders the seed's associations; and conditioned on the room's Boltzmann law the untwisted sector is weighted most, its share growing with the room, the counts keeping the Born form. And it takes in Entries 392–397 and their six responses (§§XXXV.44–45, R460–R461), on the two complex worldlines of Kerr, the meridian and the Hopf shell: on the compactified meridian a pair displaced by $\pm i\mu$, purely imaginary, is aligned at zero charge and antipodal only at the extremal boundary, with $Q/M = \sin(\theta/2)$ for its separation $\theta$ and §X.0's half-angle weights; on the Hopf shell every extremal pair is half a fiber apart; and a charge riding the spin's displacement has the magnetic dipole $Qa$, while with a meridian component in the field's displacement the potential is not harmonic on the leaf. Every construction takes $M$, $a$ and $Q$, or the round model's $\ell$, as inputs. §XXXV.46 is the standing (R462) and §XXXV.47 the register. Nothing is fitted; no frozen Part changes. v37.4 answers the review of v37.3 (§§XXXV.48–49, R463–R464). It checks the review's readings and makes its clarifications: without records the room reads two ways that give every count alike — a classical ensemble, whose configuration is a key and holds no record, and a coherent state, whose paths' states are a record readable only off the configuration basis — and §XXXV.40(d)'s sentence on records is corrected in place, tagged; a reflecting link is a unitary permutation of the labels, so no antiunitary operation is needed; and with each label used at most once a preparation reaches finitely many amplitudes. And it builds the room with records the review recommends (§XXXV.50, R465): paths that turn the links they pass part the two readings — in the classical one any record removes the fringe while a reading of the room tells the path only in part; in the coherent one the fringe is at most the records' fidelity, with $V^2+D^2 = 1$ — the record is a turn of the frame, and the frame and the fringe compete, the one-link-longer fringe greatest at an intermediate frame for a turn other than none or a half turn. Every count is standard quantum mechanics with the room as an environment. Entries 398–403 and their seven responses (§§XXXV.51–52, R466–R467) take Kerr's two horizons as two switches: read as two spin states, §XXXV.45's pair has a mass operator whose spectrum is the two horizons, the outer the switch of its aligned channel and the inner of its anti-aligned one; the shell's antipode, applied to the pair with its members exchanged, exchanges the two horizons; the passage through the ring is a double cover whose deck transformation flips the complex radius, keeping $g = 2$ and flipping $M$, $Q$, $J$ and $\mu$ — the Hopf antipode's structure, not its identity; and each horizon's other side is a half turn of its Euclidean time. And they turn to charge across the pair: the cross coupling that gives Kerr–Newman's $\Delta$ is the two-channel operator boosted by a rapidity, the meridian's for Reissner–Nordström; a loop of three associations, read as coherences, has its phase bounded by their loss of visibility; whatever overlay makes Kerr–Newman carries a Maxwell stress the metric fixes up to its duality angle; and a source-free middle space whose removed meridians meet has no electric charge without charge. §XXXV.53 is the standing (R468) and §XXXV.54 the register. Nothing is fitted; no frozen Part changes.
 
 > **v34.0 governing ontology correction (11 October 2026).** **Matter and its stress-energy content live fundamentally in the five-dimensional middle space** $\mathcal M=E/U(1)_H$, not solely on the representational bisection. The four-dimensional gravity base $B_{\rm grav}=\mathcal M/U_{\rm mer}$ is the quotient where the effective Einstein equation is expressed. The source $T^{(g)}$ must be obtained from the **entire** one-dimensional meridian fiber, including both arcs and possible pole/core contributions, by a covariant, action-compatible fiber reduction with a geometrically justified measure and tensor projection. A sum of contributions at the two points of $B_{\rm rep}$ is **not Law I**: it is only a distributionally leaf-supported special case. Einstein equations on the base impose constraints on the admissible middle-space configurations; equivalently their pullback imposes a horizontal constraint on $\mathcal M$, **not** independent five-dimensional Einstein equations. The full measure, singular-fiber rule, conservation identity and parent variational principle are **open**. Previously frozen text about source localization and two-point sourcing is superseded by this paragraph, the corrected Law I in Part III, and §XXIX.8; historical derivations remain conditional benchmarks where their premises apply. The observation that $\ell/G$ has a numerically suggestive relation to a galactic mass was an exploratory coincidence, **not** a premise that the closure mass is the Galaxy's baryonic mass. The author also prefers a *macroscopic middle-space* origin of $G$ (with the closure ratio as a target) and a separate Boltzmannian-compatibility origin of the effective quantum/Planck-area scale; the induced-gravity calculation remains a benchmark, not the preferred ontological explanation of $G$.
 
@@ -44408,11 +44413,11 @@ The rest of §XXXIV.50's list stands.
 
 ---
 
-# PART XXXV — THE REALITY INVOLUTION AND THE FLAVOR CYCLE (v37.0, opened 26 October 2026; Entry 369, the freeze review of v36.16 and the briefing for v37; Entries 371–373; v37.1, the review of v37.0 and Entries 375–384; v37.2, the review of v37.1, the referee report and Entries 385–386; v37.3, the review of v37.2 and Entries 387–390 and 392–397) [T/V/D/S/O]
+# PART XXXV — THE REALITY INVOLUTION AND THE FLAVOR CYCLE (v37.0, opened 26 October 2026; Entry 369, the freeze review of v36.16 and the briefing for v37; Entries 371–373; v37.1, the review of v37.0 and Entries 375–384; v37.2, the review of v37.1, the referee report and Entries 385–386; v37.3, the review of v37.2 and Entries 387–390 and 392–397; v37.4, the review of v37.3 and Entries 398–403) [T/V/D/S/O]
 
 *v37.0 freezes Parts XXXIII–XXXIV at v36.16, with their suite `pg_v36_numerics.py` (§XXXV.2), and opens this Part on Entry 369. The entry asks whether the real slice, the conjugation that exchanges the $e$ and $\mu$ lines, and the conveyor that cycles the three lepton lines are parts of one structure — reflections and rotations "on one substrate" — and whether the three renderings the cycle relates are three classes of unequal entropy. Parts XXI and XXX are frozen and are cited, not edited; Part XXXIV, frozen at v36.16, receives only the marked post-freeze notes of §§XXXIV.55–57 (R422). The carrier is §XXI.4b's, and the frame, the two clocks and the conveyor are §XXXIV.2(c)'s. The mass family is §XXI.4's, with §XXXIV.3's reading on the Cartesian fibers. Entries 371–373, which arrived during the round, ask about the two ends of a history: whether the source's and the receiver's fibrations, giving different verdicts on a source point, make light lose half of each orbit, cut at the apses, and whether the observer's index could move those points anywhere along it. They are taken on §XXXIV.48(e)'s round canonical shell.*
 
-*The head table at the top of the archive governs this Part, through its own table, "Claim status of Part XXXV (v37.3)". The computations are in a new suite, `pg_v37_numerics.py` (§XXXV.14), modes `v37_0`, `v37_1`, `v37_2` and `v37_3`, and the register starts at R421.*
+*The head table at the top of the archive governs this Part, through its own table, "Claim status of Part XXXV (v37.4)". The computations are in a new suite, `pg_v37_numerics.py` (§XXXV.14), modes `v37_0`, `v37_1`, `v37_2`, `v37_3` and `v37_4`, and the register starts at R421.*
 
 *The Part follows the briefing's stages on the smallest model it names, the archive's carrier:*
 - *the record (§XXXV.1), the freeze (§XXXV.2) and the crosswalk to the archive, with its involutions kept apart (§XXXV.3);*
@@ -44432,6 +44437,8 @@ The rest of §XXXIV.50's list stands.
 
 *v37.3 adds the review of v37.2 (§XXXV.37), its readings checked and its correction made (§XXXV.38), the readout as a measurement (§XXXV.39) and the finite room it recommends (§XXXV.40); and Entries 387–390 with the four responses (§XXXV.41), the responses checked (§XXXV.42) and the turnover in the room (§XXXV.43); and Entries 392–397 with the six responses (§XXXV.44) and the two worldlines, the meridian's two directions and the Hopf shell (§XXXV.45). §XXXV.46 is the standing after v37.3 and §XXXV.47 its register.*
 
+*v37.4 adds the review of v37.3 (§XXXV.48), its readings checked and its clarifications made (§XXXV.49), and the room with records it recommends (§XXXV.50); and Entries 398–403 with their seven responses (§XXXV.51), checked, with Kerr's two horizons as two switches, the other sides of its extension and charge across the pair (§XXXV.52). §XXXV.53 is the standing after v37.4 and §XXXV.54 its register.*
+
 *In brief.* The conveyor and the conjugation generate a group $S_3$ in which the three reflections are real structures — each makes one lepton line real — and the conveyor is the product of two of them, as a rotation is the product of two reflections. Of the three, only the archive's own conjugation is a real form of the complexified rest space, and it is the only real form with that space's metric positive on its slice. The conveyor and the other two real structures exchange its non-null $\tau$ line with the null $e$ and $\mu$ lines, which no conformal map, no map induced by the shell's spinors and no bundle map over the family of axes can do. So none of them is a transformation of the complexified geometry: they need the Hermitian structure and the trigonal frame. The continuous counterpart of the cycle is the threading of one flux quantum through the ring of Cartesian fibers. The three classes are inequivalent as internal rendering data but have one spectrum; whether they are physically inequivalent renderings is open *[v37.1, R434]*. An entropy hierarchy among them needs a measure that reads the real slice, which nothing yet supplies.
 
 On the round canonical shell with a fibration at each end of a history, the two verdicts on a point are a fixed angle apart, and the receiver's verdict turns about the source's with the history's phase along the fiber. On every ring, where the history keeps moving along the fiber, the receiver's apses are then exactly the zeros of one observer-indexed function, a candidate visibility boundary only *[v37.1, R434]*, whose two sides are solid tori of equal volume, and the receiver's index moves both together. But that function is the fiber derivative of the receiver's height, so the alignment holds by construction; on the horizontal lift, for $\beta\neq\pi/2$, no single static field symmetric about the center carries the receiver's renderings of overlapping rings off the equator; and off a ring the alignment fails.
@@ -44443,6 +44450,8 @@ The review of v37.1 and the referee report ask for corrections and a finite mode
 *Synopsis after v37.2, as the review asks, in ordinary prose.* The dynamical calculation of §XXXV.17 rules out generic receiver reductions for the tested single-source potential, on the orbit and at the indices tested. The conformal calculation of §XXXV.20 relocates one star's apses but gives no common, source-consistent dynamics for a population whose orbits share a region. The compatible flavor pairings of §XXXV.19 exist and select nothing. The doubled-history construction of §XXXV.26 has an exact quotient and sewing algebra, and neither its centrade origin nor the probability-first selection law is derived. v37.2 adds that the semilinear action is defined on the Dirac field and there changes the theory unless the reality defect vanishes; that criterion S's domain is a premise; and that, in a finite model, the cosine kernel is forced, once two wings are compared with a sign, by normalization and rank two, with positivity following, the sign being the one thing left to derive.
 
 The review of v37.2 asks for a room. In the finite room of §XXXV.40 one Boltzmann law gives the frame — the order parameter of the room's link orientations — and the kernel — the room's characteristic function at the paths' coefficient vector; the frame's order parameter is itself the kernel of a one-link path difference, and paths of equal length read only the room's correlations, so a room can keep fringes without selecting a frame. The kernel is an environment overlap: for rotating links the room adds nothing beyond decoherence and phase. A room of local involutions makes the fringe of paths of mixed parity follow the apparatus relative to the room's axis. The sign stays at the sewing node, and the readout is a positive operator-valued measure for every preparation (§§XXXV.39–40). Entries 387–390 ask for a turnover that fixes the seed and moves the far matter more than the near. In the room it changes no visibility and no entropy — only the fringes' positions — unless it turns two anchors differently; what it does to the visibilities, the entropy and $Z$ is the twist of the far associations against the far frame: a free-energy cost, a scrambled room until the full turn, the seed's associations reordered. Conditioning on the room weights the untwisted sector most, more as the room grows (§XXXV.43). Entries 392–397 return to Part X's two worldlines: kept purely imaginary, a pair displaced along the compactified meridian is aligned at zero charge and antipodal only at the extremal boundary, every extremal pair on the Hopf shell is half a fiber apart, and the leaf's Maxwell field admits no meridian displacement of its source in the complex-center form — the charge's imaginary displacement can be the weights' rapidity, not a place (§XXXV.45).
+
+The review of v37.3 asks for records. Without them the room reads two ways that give every count alike: as a classical ensemble its configuration is a key, which restores the fringe and records nothing; as a coherent state the paths' states are a record, readable only off the configuration basis (§XXXV.49). With paths that turn the links they pass the readings part: in the classical one any record removes the fringe, in the coherent one the fringe is at most the records' fidelity; the record is a turn of the frame, and the frame and the fringe compete. Every count is standard quantum mechanics with the room as an environment (§XXXV.50). Entries 398–399 ask for Kerr's two horizons as the switches of two usually aligned objects: read as two spin states, the archive's pair has a mass operator whose spectrum is the two horizons, each the switch of one of the pair's two channels, and the passage through the ring is a double cover whose deck transformation flips the complex radius — the Hopf antipode's structure, not its identity. Entries 400, 402 and 403 ask for charge across leaves, and Entry 401 for renderings the pair's history re-indexes: the cross coupling that gives Kerr–Newman's $\Delta$ is a boost between the pair's two channels, by the meridian's rapidity for Reissner–Nordström, and a source-free middle space shows its leaves electric sources and its uniform quotient only their energy, not as a Maxwell stress (§XXXV.52).
 
 ## XXXV.1 Entry 369, the freeze review of v36.16 and the briefing for v37, as formulated (26 October 2026) [record; R421]
 
@@ -46454,24 +46463,27 @@ The briefing counts results of these kinds as substantial: "Showing that the con
 - **R431 (the two endpoints).** The responses checked; the two verdicts, the receiver's radius and cut, the ring's alignment identity, which holds by construction, the rendering's angular momentum and what it excludes, the cut's solid tori, the alignment's failure off a ring, the fiber momentum and §XXVII.7's legs, and the isometry obstruction (§XXXV.11).
 - **R432 (standing).** The standing after v37.0 and the next pieces (§XXXV.12).
 
-## XXXV.14 Executable appendix: `pg_v37_numerics.py`, embedded [reproducibility; v37.0–v37.3, R424–R428, R431, R435, R437–R438, R448–R450, R455–R456, R458–R459, R461]
+## XXXV.14 Executable appendix: `pg_v37_numerics.py`, embedded [reproducibility; v37.0–v37.4, R424–R428, R431, R435, R437–R438, R448–R450, R455–R456, R458–R459, R461, R464–R465, R467]
 
-*The standalone suite (NumPy only) that prints every computed number of Part XXXV. Save the block as `pg_v37_numerics.py` and run `python3 -I pg_v37_numerics.py` (the regression suite of Part XXXV, v37.0–v37.3: 19 checks; exit status 1 if any fails, in every mode; about fifteen seconds on the build machine), or one round's sections with `python3 -I pg_v37_numerics.py v37_0`, `v37_1`, `v37_2` or `v37_3`; an unknown mode prints the usage line and exits with status 2. It embeds its data: the charged-lepton masses (PDG 2025, the inputs of §XXX.3). The frozen suites remain `pg_v36_numerics.py` (Parts XXXIII–XXXIV, §XXXIII.13), `pg_v35_numerics.py` (Parts XXX–XXXII, §XXX.10) and `pg_v34_numerics.py` (Part XXIX, §XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v37`, `v37_0`, `v37_1`, `v37_2` and `v37_3` run it and whose `all` runs the frozen v34.10, v35.8 and v36.16 suites and Part XXXV together (275 checks). The figure of §XXXV.20 comes from `pg_v37_1_plots.py`, which loads this suite from its own directory and writes `pg_v37_1_apses.png` (a few seconds). SHA-256 of the file: `78f647f2facec2783466223d643038ce4e747fcce1181c6d49bbb7e8351bd283`.*
+*The standalone suite (NumPy only) that prints every computed number of Part XXXV. Save the block as `pg_v37_numerics.py` and run `python3 -I pg_v37_numerics.py` (the regression suite of Part XXXV, v37.0–v37.4: 24 checks; exit status 1 if any fails, in every mode; about thirty seconds on the build machine), or one round's sections with `python3 -I pg_v37_numerics.py v37_0`, `v37_1`, `v37_2`, `v37_3` or `v37_4`; an unknown mode prints the usage line and exits with status 2. It embeds its data: the charged-lepton masses (PDG 2025, the inputs of §XXX.3). The frozen suites remain `pg_v36_numerics.py` (Parts XXXIII–XXXIV, §XXXIII.13), `pg_v35_numerics.py` (Parts XXX–XXXII, §XXX.10) and `pg_v34_numerics.py` (Part XXIX, §XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v37`, `v37_0`, `v37_1`, `v37_2`, `v37_3` and `v37_4` run it and whose `all` runs the frozen v34.10, v35.8 and v36.16 suites and Part XXXV together (280 checks). The figure of §XXXV.20 comes from `pg_v37_1_plots.py`, which loads this suite from its own directory and writes `pg_v37_1_apses.png` (a few seconds). SHA-256 of the file: `7c9390b7791160a581cd19063d2598852f65aeff438a5a83a30f77250464b4b3`.*
 
 ```python
 """Projective Gravity v37 -- standalone numerical suite for Part XXXV: Entry 369's reality involution and flavor cycle, Entries 371-373's two
 endpoints, the dynamical experiment the review of v37.0 asks for, the message of 27 October with Entry 375, the report on v37.1 -- the
 semilinear action on the Dirac field, criterion S's candidate set and a finite association model -- the review of v37.2, with the readout as a
-measurement and a finite room, Entries 387-390 with the turnover in that room, and Entries 392-397 with the two worldlines and the Hopf shell
-(NumPy only; Python 3.11-3.13 tested).  Parts XXXIII-XXXIV are frozen at v36.16 with their suite pg_v36_numerics.py; Parts XXX-XXXII are frozen
-at v35.8 with pg_v35_numerics.py; Part XXIX's frozen suite is pg_v34_numerics.py (v34.10).
+measurement and a finite room, Entries 387-390 with the turnover in that room, Entries 392-397 with the two worldlines and the Hopf shell, and
+the review of v37.3, with the room's two readings and the room with records, Entries 398-399 with Kerr's two horizons as two switches, and
+Entries 400-403 with charge across the pair and the source-free middle space (NumPy only; Python 3.11-3.13 tested).  Parts XXXIII-XXXIV are
+frozen at v36.16 with their suite pg_v36_numerics.py; Parts XXX-XXXII are frozen at v35.8 with pg_v35_numerics.py; Part XXIX's frozen suite is
+pg_v34_numerics.py (v34.10).
 
 Run (from the directory holding this file):
-    python3 -I pg_v37_numerics.py              # the regression suite of Part XXXV, v37.0-v37.3 (check summary; about fifteen seconds)
+    python3 -I pg_v37_numerics.py              # the regression suite of Part XXXV, v37.0-v37.4 (check summary; about thirty seconds)
     python3 -I pg_v37_numerics.py v37_0        # the v37.0 sections only
     python3 -I pg_v37_numerics.py v37_1        # the v37.1 sections only
     python3 -I pg_v37_numerics.py v37_2        # the v37.2 sections only
     python3 -I pg_v37_numerics.py v37_3        # the v37.3 sections only
+    python3 -I pg_v37_numerics.py v37_4        # the v37.4 sections only
 Every mode exits with status 1 if any check fails; an unknown mode prints the usage line and exits with status 2.
 
 v37_0_suite(): Entry 369, the freeze review of v36.16 and the briefing for v37, on the spin-one flavor carrier in the archive's frame (XXXIV.2(c)).  The
@@ -46527,6 +46539,21 @@ anchor alike, otherwise a free-energy cost; the twelve sectors conditioned on th
 the complexified meridian's two directions on its Riemann sphere, a pair displaced by +-i mu, the normalized pair and the quaternion pair on the
 Hopf shell, the complex-center field with and without a meridian component, the two-angle model and the matching matrix, and the round model's
 great circles, their holonomy, the complex quadric and the linking of two Hopf fibers.
+
+v37_4_suite(): the review of v37.3.  Its clarifications: the room of v37.3 read two ways -- as a classical ensemble its configuration a key and no
+record, as a coherent state the paths' states a record readable off the configuration basis -- the reflecting link a unitary permutation exchanging
+the Fourier modes k and -k, and the amplitudes a preparation reaches with each label at most once, finitely many.  The room with records it
+recommends: paths that turn the links they pass, the classical reading's fringe removed by any record while a reading of the room tells the path only
+in part, the coherent reading's fringe bounded by the records' fidelity with V^2 + D^2 = 1, the eraser, the record a turn of the frame; and under
+records the frame and the fringe compete, the one-link-longer fringe greatest at an intermediate frame for a turn other than none or a half turn.
+Entries 398-399 and their two responses: the response's surface gravities and angular velocities against the first law and Smarr's relation at both
+horizons; the archive's pair read as two spin states, the aligned and anti-aligned channels of its mass operator switching at the outer and the inner
+horizon; the shell's antipode on the pair exchanging the horizons; the ring's two sheets, a double cover whose deck transformation flips the complex
+radius; each horizon's other side a half turn of its Euclidean time; the response to Entry 399's form of the metric and the radial action's residues.
+Entries 400-403 and their five responses: Kerr's two channels with an antisymmetric cross coupling, whose determinant is Kerr-Newman's Delta, a boost
+of the channels, by the meridian's rapidity for Reissner-Nordstrom; the pair's common and difference parts, the horizons over 2M, and a transport's
+phase; a sheet-switching circuit; three regimes' weights and the cost of their loop; the meridian dipole and a parity network; the Ricci tensor any
+overlay must carry; and a field source-free in the middle space, read on its leaves and averaged along the meridian.
 """
 import numpy as np
 PI = np.pi
@@ -49541,6 +49568,814 @@ def v37_3_pairs():
           "to the split of a^2 + Q^2; the meridian and Hopf semicircles' relative holonomy a rotation by pi, the interpolating routes' by 2 eta; the "
           "complex quadric holding the imaginary displacements and the meridian's complex angle; two Hopf fibers linked once")
 
+def _v374_kick(U, L1, L2, kappa, k=1, n=12, phase=True):
+    """The room with records, by transfer matrices along the chain (pure Python, in a fixed order).  Path i passes the links L_i, each link turning a
+    passing orientation by its own and then turned by kappa labels: the record.  The room in the coherent reading is the state sum_e sqrt(P(e)) |e>, and
+    after the paths its two states overlap in K_12 = sum_e sqrt(P(e) P(e + kappa c)) e^(2 pi i k (T_1(e) - T_2(e + kappa c))/n), c = 1_(L1) - 1_(L2),
+    T_i(e) the sum of the orientations path i passes; with phase=False, the records' fidelity sum_e sqrt(P(e) P(e + kappa c))."""
+    m, beta, h, th = U; site, bond = _v373_room(m, beta, h, th, n)
+    c = [(1 if l in L1 else 0) - (1 if l in L2 else 0) for l in range(m)]
+    if phase:
+        ph = lambda cc, e: complex(math.cos(2*PI*k*cc*e/n), math.sin(2*PI*k*cc*e/n))
+    else:
+        ph = lambda cc, e: 1.0
+    sq = lambda l, a: math.sqrt(site[a]*site[(a + kappa*c[l]) % n])
+    v = [site[e] for e in range(n)]; w = [sq(0, e)*ph(c[0], e) for e in range(n)]
+    for l in range(1, m):
+        v = [sum(v[a]*bond[a][b] for a in range(n))*site[b] for b in range(n)]
+        w = [sum(w[a]*math.sqrt(bond[a][b]*bond[(a + kappa*c[l - 1]) % n][(b + kappa*c[l]) % n]) for a in range(n))*sq(l, b)*ph(c[l], b)
+             for b in range(n)]
+    out = sum(w)/sum(v)
+    if phase:
+        u2 = sum(1 for l in L2 if l not in L1)                  # T_2(e + kappa c) = T_2(e) - kappa |L2 \ L1|
+        out = out*complex(math.cos(2*PI*k*kappa*u2/n), math.sin(2*PI*k*kappa*u2/n))
+    return out
+
+def _v374_brute(U, L1, L2, kappa, k=1, n=12):
+    """The same on every configuration of the room (for m = 4), as standard quantum mechanics with the room as an environment: the room's states after
+    path i, indexed by the final configuration f, psi_i(f) = sqrt(P(f - kappa 1_(L_i))) e^(2 pi i k T_i(f - kappa 1_(L_i))/n).  Returns their overlap
+    K, the records' fidelity BC, the total variation TV between the two final laws (what a reading of the room's configuration can tell), the kernel
+    of the classical reading (the room in one configuration e, drawn from P, the paths leaving it in the configurations f_i(e) = e + kappa 1_(L_i), whose
+    overlap is 1 if they are equal and 0 if not), the eraser's mean visibility in the coherent and in the classical reading (the room's final
+    configuration read, the paths' weights equal, each outcome's fringe from its counts in one output port at the four phases 0, pi/2, pi, 3 pi/2),
+    and the order parameter at each link before the paths and after them with equal weights."""
+    import itertools
+    m, beta, h, th = U; site, bond = _v373_room(m, beta, h, th, n)
+    confs = list(itertools.product(range(n), repeat=m)); W = []
+    for e in confs:
+        p = 1.0
+        for l in range(m): p *= site[e[l]]
+        for l in range(m - 1): p *= bond[e[l]][e[l + 1]]
+        W.append(p)
+    Z = sum(W); P = dict(zip(confs, [x/Z for x in W]))
+    s1 = [1 if l in L1 else 0 for l in range(m)]; s2 = [1 if l in L2 else 0 for l in range(m)]
+    cis = lambda t: complex(math.cos(2*PI*k*t/n), math.sin(2*PI*k*t/n))
+    T = lambda e, L: sum(e[l] for l in L)
+    psi1 = {}; psi2 = {}; f1 = {}; f2 = {}
+    for e in confs:
+        p = P[e]
+        f1[e] = tuple((e[l] + kappa*s1[l]) % n for l in range(m)); f2[e] = tuple((e[l] + kappa*s2[l]) % n for l in range(m))
+        psi1[f1[e]] = math.sqrt(p)*cis(T(e, L1)); psi2[f2[e]] = math.sqrt(p)*cis(T(e, L2))
+    K = sum(psi1[f]*psi2[f].conjugate() for f in confs)
+    P1 = [abs(psi1[f])**2 for f in confs]; P2 = [abs(psi2[f])**2 for f in confs]
+    BC = sum(math.sqrt(a*b) for a, b in zip(P1, P2)); TV = 0.5*sum(abs(a - b) for a, b in zip(P1, P2))
+    Kcl = sum(P[e]*cis(T(e, L1) - T(e, L2))*(1 if f1[e] == f2[e] else 0) for e in confs)
+    # the eraser: the counts of the outcome f in one output port at the phase phi_j = j pi/2 are |a_1 + e^(i phi_j) a_2|^2/4, a_i path i's amplitude at
+    # f; the outcome's probability is half their sum, its visibility 2 |sum_j I_j e^(-i phi_j)|/sum_j I_j, so the outcomes' mean visibility, weighted by
+    # their probabilities, is sum_f |sum_j I_j(f) e^(-i phi_j)|.  In the classical reading the counts are summed over the configurations e.
+    ph4 = (1, 1j, -1, -1j)
+    vis = lambda I: abs(sum(I[j]*ph4[j].conjugate() for j in range(4)))
+    er = sum(vis([abs(psi1[f] + ph4[j]*psi2[f])**2/4 for j in range(4)]) for f in confs)
+    Icl = {f: [0.0]*4 for f in confs}
+    for e in confs:                                          # the room in the configuration e: the paths' amplitudes add only where they end alike
+        a1 = cis(T(e, L1)); a2 = cis(T(e, L2)); g1 = f1[e]; g2 = f2[e]
+        for j in range(4):
+            if g1 == g2:
+                Icl[g1][j] += P[e]*abs(a1 + ph4[j]*a2)**2/4
+            else:
+                Icl[g1][j] += P[e]*abs(a1)**2/4; Icl[g2][j] += P[e]*abs(ph4[j]*a2)**2/4
+    ercl = sum(vis(Icl[f]) for f in confs)
+    M0 = [sum(P[e]*cis(e[l]) for e in confs) for l in range(m)]
+    Ms = [sum(0.5*(a + b)*cis(f[l]) for a, b, f in zip(P1, P2, confs)) for l in range(m)]
+    return K, BC, TV, Kcl, er, ercl, M0, Ms
+
+def _v374_ring():
+    """Z[zeta], zeta = e^(2 pi i/12), with the basis 1, zeta, zeta^2, zeta^3 (zeta^4 = zeta^2 - 1): the twelve roots of unity as integer 4-vectors, so
+    that sums of roots are compared exactly."""
+    R = [(1, 0, 0, 0), (0, 1, 0, 0), (0, 0, 1, 0), (0, 0, 0, 1)]
+    for j in range(4, 12):                                        # zeta^j = zeta^(j-4) (zeta^2 - 1)
+        a = R[j - 4]; sh = (0, 0, a[0], a[1]); rest = (a[2], a[3])   # multiply a by zeta^2: a0 z^2 + a1 z^3 + a2 z^4 + a3 z^5
+        z4 = (-1, 0, 1, 0); z5 = (0, -1, 0, 1)
+        R.append(tuple(sh[i] + rest[0]*z4[i] + rest[1]*z5[i] - a[i] for i in range(4)))
+    return R
+
+def v37_4_readings():
+    """The review of v37.3, its clarifications.  The room of v37.3 read two ways: as a classical ensemble its configuration is a key -- known, it restores
+    the fringe -- and holds no record; as the coherent state sum_e sqrt(P(e)) |e>, the paths' states |E_i> are distinguishable when |K| < 1, a record
+    readable off the configuration basis only.  A reflecting link on the labels is a permutation, unitary, exchanging the modes k and -k: it acts
+    antilinearly only on one mode's amplitude.  And the amplitudes a preparation reaches with each label at most once are finitely many: the density
+    of the prepared amplitudes needs labels used more than once."""
+    print("\n== v37.4-1. The review of v37.3, its clarifications: the room's two readings, the reflection as a unitary, the reachable amplitudes (R464) ==")
+    n, k = 12, 1
+    cis = lambda t: complex(math.cos(2*PI*k*t/n), math.sin(2*PI*k*t/n))
+    # (a) the room's two readings, without records (kappa = 0): the stiff room with the frame at 0, the adjacent and the far pairs
+    U = (6, 1.5, 1.0, 0.0)
+    Kad = _v373_expect(U, (0, 0, 0, 1, -1, 0)); Kfar = _v373_expect(U, (1, 0, 0, 0, 0, -1))
+    hel = lambda K: 0.5*(1 + math.sqrt(1 - abs(K)**2))
+    # on a four-link room, summed over every configuration: the two readings' kernels, the paths' laws and the fringe with the configuration read
+    U4 = (4, 1.5, 1.0, 0.0)
+    K4, BC4, TV4, Kcl4, er4, ercl4, M04, Ms4 = _v374_brute(U4, (2,), (3,), 0)
+    _v37_wrap(f"(a) The room's two readings, without records [T/V].  In the stiff room with the frame at 0 (beta = 1.5, h = 1, six links) the adjacent pair "
+              f"has |K| = {abs(Kad):.6f} and the far pair {abs(Kfar):.6f}.  Read as a classical ensemble, each configuration e gives the pair the pure "
+              f"phase e^(2 pi i k c.e/n): the configuration is a key, which, known, restores the whole fringe, and the paths leave the room's law "
+              f"unchanged, so a reading of its configuration tells nothing of the path -- no record.  Read as the coherent state sum_e sqrt(P(e)) |e>, "
+              f"the paths leave the states |E_i> with <E_2|E_1> = K: two pure states, told apart at best with the probability (1 + sqrt(1 - |K|^2))/2, "
+              f"{hel(Kad):.6f} and {hel(Kfar):.6f} -- a record, readable only off the configuration basis.  On a four-link room the two readings give "
+              f"one kernel ({_v371_r(abs(K4 - Kcl4))}), a reading of the configuration distinguishes nothing (total variation {_v37_z(TV4):.6f}) and "
+              f"restores the fringe in full (mean conditional visibility {ercl4:.6f} in the classical reading, the configuration known, and {er4:.6f} in "
+              f"the coherent one, the configuration read).  The two readings differ only in what a measurement of the room "
+              f"could tell, not in any count of the particle.", first="   ")
+    # (b) the reflection s -> 2e - s on the labels: a permutation, unitary, an involution, exchanging the Fourier modes k and -k
+    e_unit = 0; e_inv = 0; e_mode = 0.0
+    for e in range(n):
+        R = [[1 if (2*e - s) % n == t else 0 for s in range(n)] for t in range(n)]          # R[t][s]: |s> -> |2e - s>
+        RRt = [[sum(R[i][j]*R[l][j] for j in range(n)) for l in range(n)] for i in range(n)]
+        e_unit = max(e_unit, max(abs(RRt[i][l] - (1 if i == l else 0)) for i in range(n) for l in range(n)))
+        RR = [[sum(R[i][j]*R[j][l] for j in range(n)) for l in range(n)] for i in range(n)]
+        e_inv = max(e_inv, max(abs(RR[i][l] - (1 if i == l else 0)) for i in range(n) for l in range(n)))
+        for kk in range(n):
+            F = [cis(kk*s)/math.sqrt(n) for s in range(n)]; Fm = [cis(-kk*s)/math.sqrt(n) for s in range(n)]
+            RF = [sum(R[t][s]*F[s] for s in range(n)) for t in range(n)]
+            e_mode = max(e_mode, max(abs(RF[t] - cis(2*kk*e)*Fm[t]) for t in range(n)))
+    _v37_wrap(f"(b) The reflection as a unitary [T/V].  The reflecting link of v37.3-3, s -> 2e - s on the labels Z_12, is a permutation of the label "
+              f"basis: an orthogonal matrix (exactly, for every e), its own inverse (exactly), and on the Fourier modes F_k = (e^(2 pi i k s/n))_s/sqrt(n) "
+              f"it acts as R_e F_k = e^(4 pi i k e/n) F_(-k) ({_v371_r(e_mode)}).  So it is a unitary on the labels, implementable, exchanging the modes k "
+              f"and -k; its antilinear form z -> e^(4 pi i k e/n) conj(z) is its action on one mode's amplitude, read as a function of the label, and no "
+              f"antiunitary operation on a subsystem is needed.", first="   ")
+    # (c) the amplitudes a preparation reaches: exact sums of the twelfth roots of unity in Z[zeta]
+    Rz = _v374_ring()
+    add = lambda a, b: tuple(x + y for x, y in zip(a, b))
+    zero = (0, 0, 0, 0)
+    def tot(S):
+        t = zero
+        for j in S: t = add(t, Rz[j % n])
+        return t
+    w3 = {tot(range(s0, s0 + 3)) for s0 in range(n)}
+    wall = {zero} | {tot(range(s0, s0 + w)) for s0 in range(n) for w in range(1, n + 1)}
+    sets = {tot([j for j in range(n) if mask >> j & 1]) for mask in range(1 << n)}
+    cnt = []; cur = {zero}; allv = {zero}
+    for N in range(1, 7):
+        cur = {add(a, Rz[j]) for a in cur for j in range(n)}; allv |= cur; cnt.append(len(allv))
+    # the exact representation agrees with the complex numbers
+    zc = [cis(j) for j in range(n)]
+    e_ring = max(abs(sum(c*zc[i] for i, c in enumerate(Rz[j])) - zc[j]) for j in range(n))
+    e_w3 = max(abs(abs(sum(zc[(s0 + t) % n] for t in range(3))) - (1 + math.sqrt(3))) for s0 in range(n))
+    _v37_wrap(f"(c) The reachable amplitudes [T/V].  Counted exactly in Z[zeta], zeta = e^(2 pi i/12), with the basis 1, zeta, zeta^2, zeta^3 "
+              f"({_v371_r(e_ring)} against the complex roots): the windows of three labels of XXXV.33 prepare {len(w3)} amplitudes, all of modulus "
+              f"1 + sqrt(3); windows of consecutive labels of every width, the empty one included, {len(wall)}; sets of labels, each label at most once, "
+              f"{len(sets)}.  So with each label used at most once a preparation reaches finitely many amplitudes, and the density of v37.3-1 needs labels "
+              f"used more than once: multisets of at most N labels reach {', '.join(str(c) for c in cnt)} amplitudes for N = 1, ..., 6, without bound.  "
+              f"The model gives no mechanism for the multiplicities, as it gives none for the detector's amplitude weights.", first="   ")
+    ok = (abs(abs(Kad) - 0.742120) < 5e-7 and 0.5 < hel(Kad) < 1 and abs(K4 - Kcl4) < 1e-11 and TV4 < 1e-12 and abs(er4 - 1) < 1e-11 and abs(ercl4 - 1) < 1e-11
+          and e_unit == 0 and e_inv == 0 and e_mode < 1e-12 and e_ring < 1e-12 and e_w3 < 1e-12 and len(w3) == 12 and len(wall) == 73 and len(sets) == 361
+          and cnt[:2] == [13, 73] and all(a < b for a, b in zip(cnt, cnt[1:])))
+    check(ok, "the review's clarifications: the room's two readings one kernel, the classical reading's configuration a key with no record, the "
+              "coherent reading's states a record off the configuration basis; the reflection a unitary permutation exchanging the modes k and -k; "
+              "the amplitudes reached with each label at most once finitely many (12, 73, 361)")
+
+def v37_4_records():
+    """The review of v37.3, its recommendation: a room with records.  A passing path turns each link it passes by kappa labels after reading it, so the
+    room's law after the path depends on the path.  In the classical reading -- each configuration a definite state -- differently turned rooms are
+    orthogonal and any record removes the fringe, while a reading of the room tells the path only imperfectly; in the coherent reading the fringe is the
+    overlap of the two turned rooms, at most the records' fidelity, with V^2 + D^2 = 1 for the optimal distinction.  Standard quantum mechanics with the
+    room as an environment gives every count; the record is a turn of the frame at the turned links."""
+    import random
+    print("\n== v37.4-2. The room with records: paths that turn the links they pass (the review of v37.3, its recommendation; R465) ==")
+    n, k = 12, 1
+    cis = lambda t: complex(math.cos(2*PI*k*t/n), math.sin(2*PI*k*t/n))
+    # (a) the transfer matrices against standard quantum mechanics on every configuration of four-link rooms
+    e_tb = 0.0; e_bc = 0.0
+    tests = [((4, 1.5, 1.0, 0.0), (1,), (2,), 1), ((4, 1.5, 0.0, 0.0), (0,), (3,), 3), ((4, 0.0, 1.0, 2.0), (1, 2), (3,), 2), ((4, 1.0, 0.5, 5.0), (2,), (), 6)]
+    for U4, L1, L2, kap in tests:
+        K, BC, TV, Kcl, er, ercl, M0, Ms = _v374_brute(U4, L1, L2, kap)
+        e_tb = max(e_tb, abs(_v374_kick(U4, L1, L2, kap) - K)); e_bc = max(e_bc, abs(_v374_kick(U4, L1, L2, kap, phase=False) - BC))
+    _v37_wrap(f"(a) The room with records [T/V].  A path turns each link it passes by kappa labels after reading it; so the room's law after path i is "
+              f"P(e - kappa 1_(L_i)), path-dependent.  As standard quantum mechanics with the room as an environment -- its two states after the paths, "
+              f"indexed by the final configuration, summed over every configuration of four-link rooms -- the overlap is K_12 = sum_e sqrt(P(e) "
+              f"P(e + kappa c)) e^(2 pi i k (T_1(e) - T_2(e + kappa c))/n), c = 1_(L1) - 1_(L2), and the transfer matrices with the weights' square "
+              f"roots reproduce it and the records' fidelity BC = sum_e sqrt(P(e) P(e + kappa c)) ({_v371_r(max(e_tb, e_bc))}, four rooms, kappa = 1, "
+              f"2, 3, 6).", first="   ")
+    # (b) the two readings with records, the duality and the eraser: random four-link rooms
+    rnd = random.Random(3741); worst = []
+    e_cl = 0.0; e_er = 0.0; e_ercl = 0.0; viol = 0; e_fr = 0.0; minus = 0.0; tvs = []
+    for _ in range(12):
+        U4 = (4, rnd.choice((0.5, 1.0, 1.5, 2.0)), rnd.choice((0.0, 0.5, 1.0, 2.0)), float(rnd.randrange(n)))
+        L1 = tuple(sorted(rnd.sample(range(4), rnd.choice((1, 2))))); L2 = tuple(sorted(set(rnd.sample(range(4), rnd.choice((0, 1, 2)))) - set(L1)))
+        kap = rnd.randrange(1, n)
+        K, BC, TV, Kcl, er, ercl, M0, Ms = _v374_brute(U4, L1, L2, kap)
+        V = abs(K); DQ = math.sqrt(max(0.0, 1 - V*V))
+        e_cl = max(e_cl, abs(Kcl)); e_er = max(e_er, abs(er - BC)); e_ercl = max(e_ercl, ercl)
+        if not (V <= BC + 1e-12 and 1 - BC <= TV + 1e-12 and TV <= math.sqrt(max(0.0, 1 - BC*BC)) + 1e-12 and TV <= DQ + 1e-12): viol += 1
+        minus = max(minus, BC - V); tvs.append(TV)
+        for l in range(4):
+            fac = 0.5*(cis(kap*(1 if l in L1 else 0)) + cis(kap*(1 if l in L2 else 0)))
+            e_fr = max(e_fr, abs(Ms[l] - fac*M0[l]))
+    _v37_wrap(f"(b) The two readings with records [T/V].  In the classical reading -- each configuration a definite state -- the rooms the two paths "
+              f"leave are differently turned configurations, orthogonal, so any record on a link one path alone passes removes the fringe: K = 0 "
+              f"({_v371_r(e_cl)}, twelve random four-link rooms, paths and turns drawn from 1, ..., 11), while a reading of the final configuration tells the "
+              f"path only with the advantage TV, the total variation between the two final laws, short of 1 ({min(tvs):.6f} to {max(tvs):.6f} here) -- "
+              f"a complete loss of fringe from an incomplete record, the two final rooms being mixtures diagonal in the configurations, whose best "
+              f"distinction is that reading.  In the coherent reading the fringe is V = |K| <= BC, the records' fidelity; the two states are told apart at best "
+              f"with D = sqrt(1 - V^2), so V^2 + D^2 = 1; and 1 - BC <= TV <= sqrt(1 - BC^2) <= D, a reading of the configuration telling less "
+              f"(violations {viol} of 12).  Read the final configuration and sort the counts by it, each outcome's fringe from its counts at four "
+              f"phases: the outcomes' mean visibility is BC ({_v371_r(e_er)}) -- the eraser recovers the fidelity, its gain BC - V reaching "
+              f"{minus:.6f} here, the outcomes' fringes differing in phase; in the classical reading it recovers nothing (mean visibility at most "
+              f"{_v37_z(e_ercl):.6f}).  And the record is a turn of the frame: after both paths with equal weights the order "
+              f"parameter at link l is (e^(2 pi i k kappa s1_l/n) + e^(2 pi i k kappa s2_l/n))/2 times its value, s_i the indicator of L_i "
+              f"({_v371_r(e_fr)}) -- at a link one path alone turns, |M| times |cos(pi k kappa/n)|.", first="   ")
+    # (c) the six-link rooms: the fringe and the fidelity under records
+    m = 6
+    Us = [("aligned links", (m, 0.0, 1.0, 0.0)), ("stiff, no frame", (m, 1.5, 0.0, 0.0)), ("stiff, frame at 0", (m, 1.5, 1.0, 0.0))]
+    G = [("adjacent", (3,), (4,)), ("far", (0,), (5,)), ("two and two", (2, 3), (4, 5)), ("one link more", (2,), ())]
+    kaps = (0, 1, 2, 3, 6)
+    print("   (c) The six-link rooms of v37.3-2 [V]: the fringe V = |K| and, in brackets, the records' fidelity BC, for kappa = 0, 1, 2, 3, 6 "
+          "(the classical reading's fringe is 0 for every kappa > 0):")
+    tab = {}
+    for name, U in Us:
+        for pn, L1, L2 in G:
+            vals = [(abs(_v374_kick(U, L1, L2, kp)), _v374_kick(U, L1, L2, kp, phase=False).real) for kp in kaps]
+            tab[(name, pn)] = vals
+            print(f"     {name:18s} {pn:14s} " + "  ".join(f"{_v37_z(v):.6f} ({_v37_z(b):.6f})" for v, b in vals))
+    noinc = all(all(v <= vals[0][0] + 1e-12 and v <= b + 1e-12 for v, b in vals) for vals in tab.values())
+    zs = [v for vals in tab.values() for v, b in vals if _v37_z(v) == 0]
+    _v37_wrap(f"So in these rooms a record never raises the fringe and the fidelity bounds it; the stiff room with the frame, the most persistent, "
+              f"records best: its "
+              f"adjacent pair's fidelity is {tab[('stiff, frame at 0', 'adjacent')][1][1]:.6f} for one label's turn, against "
+              f"{tab[('stiff, no frame', 'adjacent')][1][1]:.6f} without the frame and {tab[('aligned links', 'adjacent')][1][1]:.6f} in the room of "
+              f"aligned links.  The zeros are exact: a half turn of a link's label or of a bond's label difference cancels that weight, cos(x + pi) "
+              f"being -cos(x), and leaves a sum of a character of Z_12 over its labels, which vanishes; and without a frame the one-link-longer pair's "
+              f"sum vanishes for every kappa by the room's rotation.  The {len(zs)} entries printed as zero are each below 1e-12.", first="   ")
+    ok = (e_tb < 1e-11 and e_bc < 1e-11 and e_cl == 0 and e_er < 1e-11 and e_ercl < 1e-12 and viol == 0 and e_fr < 1e-11 and minus > 0.01
+          and max(tvs) < 1 and noinc and len(zs) == 14 and max(zs) < 1e-12 and abs(tab[('stiff, frame at 0', 'adjacent')][0][0] - 0.742120) < 5e-7)
+    check(ok, "the room with records: the transfer matrices and standard quantum mechanics agree; the classical reading's fringe 0 with an incomplete "
+              "record, the coherent reading's at most the records' fidelity with V^2 + D^2 = 1 and the configuration's total variation between 1 - BC and "
+              "sqrt(1 - BC^2); the eraser's mean visibility the fidelity, and nothing in the classical reading; the record a turn of the frame; the "
+              "table's zeros at rounding")
+
+def v37_4_frame_fringe():
+    """With records the frame and the fringe compete.  The fringe of the path one link longer is the frame's order parameter without records; with
+    records it is bounded by the records' fidelity, which falls as the frame sharpens.  So, for a turn other than none or a half turn, it vanishes
+    for no frame, rises with the frame's strength, and falls again as the frame records the path: it is greatest at an intermediate frame."""
+    print("\n== v37.4-3. The frame and the fringe compete under records (R465) ==")
+    n, k = 12, 1
+    cis = lambda t: complex(math.cos(2*PI*k*t/n), math.sin(2*PI*k*t/n))
+    def one(h, kap):
+        p = [math.exp(h*math.cos(2*PI*e/n)) for e in range(n)]; Z = sum(p); p = [x/Z for x in p]
+        V = abs(sum(math.sqrt(p[e]*p[(e + kap) % n])*cis(e) for e in range(n))); BC = sum(math.sqrt(p[e]*p[(e + kap) % n]) for e in range(n))
+        return V, BC
+    hs = (1.0, 2.0, 4.0, 8.0, 16.0)
+    lines = []; peaks = []; mono0 = True; unimodal = True
+    grid = [j*0.001 for j in range(20001)]
+    half = max(one(h, n//2)[0] for h in grid[::100])                 # the half turn: sqrt(p(e) p(e + n/2)) is constant, so V vanishes
+    for kap in (0, 1, 2, 3):
+        Vg = [one(h, kap)[0] for h in grid]
+        if kap == 0:
+            mono0 = all(b > a for a, b in zip(Vg, Vg[1:]))
+        else:
+            i = max(range(len(Vg)), key=lambda j: Vg[j]); peaks.append((kap, grid[i], Vg[i]))
+            unimodal = unimodal and all(b > a for a, b in zip(Vg[:i], Vg[1:i + 1])) and all(b < a for a, b in zip(Vg[i:], Vg[i + 1:]))
+        lines.append(f"kappa = {kap}: " + ", ".join(f"{one(h, kap)[0]:.6f}" for h in hs))
+    _v37_wrap(f"(a) One link, the alignment h its only weight [T/V].  The path one link longer than its partner has, without records, the fringe |M|, the "
+              f"frame's order parameter, rising with h to 1.  With records it is V = |sum_e sqrt(p(e) p(e + kappa)) e^(2 pi i k e/n)| <= BC: at h = 0 the "
+              f"law is uniform and V = 0; as h grows the frame sharpens, the turned and unturned laws separate and BC falls to 0.  So for a turn other "
+              f"than none or a half turn V rises and falls, with a maximum at an intermediate frame [T]; at the half turn kappa = 6, sqrt(p(e) p(e + 6)) "
+              f"is constant and V vanishes for every h ({_v371_r(half)}, h = 0, 0.1, ..., 20).  At h = 1, 2, 4, 8, 16: " + "; ".join(lines)
+              + ".  On a grid of step 0.001 in [0, 20], V is increasing for kappa = 0 and, for kappa = 1, 2, 3, increasing up to its largest value on "
+              f"the grid and decreasing after it: the largest values are " + ", ".join(f"{V:.6f} at h = {h:.3f} for kappa = {kp}" for kp, h, V in peaks)
+              + ".", first="   ")
+    # (b) the chain: six links with the stiffness 1.5, the path one link longer at link 3
+    hs2 = (0.25, 0.5, 1.0, 2.0, 4.0, 8.0)
+    rows = []; cpeaks = []; cuni = True
+    grid2 = [j*0.01 for j in range(1201)]
+    for kap in (0, 1, 2):
+        rows.append(f"kappa = {kap}: " + ", ".join(f"{abs(_v374_kick((6, 1.5, h, 0.0), (2,), (), kap)):.6f}" for h in hs2))
+        if kap > 0:
+            Vg = [abs(_v374_kick((6, 1.5, h, 0.0), (2,), (), kap)) for h in grid2]
+            i = max(range(len(Vg)), key=lambda j: Vg[j]); cpeaks.append((kap, grid2[i], Vg[i]))
+            cuni = (cuni and 0 < i < len(Vg) - 1 and Vg[-1] < Vg[i] - 0.05 and Vg[0] < Vg[i] - 0.05
+                    and all(b > a for a, b in zip(Vg[:i], Vg[1:i + 1])) and all(b < a for a, b in zip(Vg[i:], Vg[i + 1:])))
+    _v37_wrap(f"(b) The chain [V].  In the six-link room with the stiffness 1.5, the path one link longer at link 3, against the frame's strength h = "
+              f"0.25, 0.5, 1, 2, 4, 8: " + "; ".join(rows) + ".  On a grid of step 0.01 in [0, 12], for kappa = 1, 2, V increases up to its largest value "
+              f"on the grid and decreases after it: the largest values are " + ", ".join(f"{V:.6f} at h = {h:.2f} for kappa = {kp}" for kp, h, V in cpeaks)
+              + ", inside the grid.  So with records the frame that "
+              f"fixes the fringe's phase also records the path: the sharper the frame, the better the record, and the fringe is best at an "
+              f"intermediate frame.", first="   ")
+    ok = (mono0 and unimodal and cuni and len(peaks) == 3 and all(0 < h < 20 for _, h, _ in peaks) and peaks[0][2] > peaks[1][2] > peaks[2][2]
+          and half < 1e-12)
+    check(ok, "the frame and the fringe compete under records: the one-link-longer fringe, |M| without records, rises and falls with the frame's "
+              "strength when the path turns the link by other than none or a half turn, its maximum inside the range, for one link and for the "
+              "chain; the half turn's fringe zero")
+
+def _v374_hor(M, a, Q, sgn, d=None):
+    """Kerr-Newman's horizon r = M + sgn d, d = sqrt(M^2 - a^2 - Q^2) unless given: its surface gravity (r - r_other)/(2(r^2 + a^2)), angular velocity
+    a/(r^2 + a^2), area 4 pi (r^2 + a^2) and electric potential Q r/(r^2 + a^2)."""
+    if d is None: d = math.sqrt(M*M - a*a - Q*Q)
+    rh = M + sgn*d; den = rh*rh + a*a
+    return {'r': rh, 'kap': (rh - (M - sgn*d))/(2*den), 'Om': a/den, 'A': 4*PI*den, 'Phi': Q*rh/den}
+
+def _v374_gBL(r, th, M, a, Q):
+    """The Kerr-Newman metric in Boyer-Lindquist coordinates (t, r, theta, phi), as a 4 x 4 list."""
+    S = r*r + (a*math.cos(th))**2; D = r*r - 2*M*r + a*a + Q*Q; s2 = math.sin(th)**2; w = 2*M*r - Q*Q
+    g = [[0.0]*4 for _ in range(4)]
+    g[0][0] = -(1 - w/S); g[0][3] = g[3][0] = -a*s2*w/S; g[1][1] = S/D; g[2][2] = S; g[3][3] = (r*r + a*a + a*a*s2*w/S)*s2
+    return g
+
+def _v374_riem(r, th, M, a, Q, h=2e-3):
+    """The Boyer-Lindquist metric at (r, theta), its inverse and its Riemann tensor, from the metric alone: its first and second derivatives by
+    fourth-order central differences of step h, the Christoffel symbols and R_abcd = (g_ad,bc + g_bc,ad - g_ac,bd - g_bd,ac)/2
+    + g_ef (G^e_bc G^f_ad - G^e_bd G^f_ac), in the signature (-, +, +, +) with the sign of Misner, Thorne and Wheeler (pure Python)."""
+    f = lambda rr, tt: _v374_gBL(rr, tt, M, a, Q)
+    g = f(r, th); det = g[0][0]*g[3][3] - g[0][3]**2
+    gi = [[0.0]*4 for _ in range(4)]
+    gi[0][0] = g[3][3]/det; gi[0][3] = gi[3][0] = -g[0][3]/det; gi[3][3] = g[0][0]/det; gi[1][1] = 1/g[1][1]; gi[2][2] = 1/g[2][2]
+    c1 = ((-2, 1/12), (-1, -8/12), (1, 8/12), (2, -1/12)); c2 = ((-2, -1/12), (-1, 16/12), (0, -30/12), (1, 16/12), (2, -1/12))
+    def lin(terms):
+        out = [[0.0]*4 for _ in range(4)]
+        for wgt, G in terms:
+            for i in range(4):
+                for j in range(4): out[i][j] += wgt*G[i][j]
+        return out
+    dr = lin([(w/h, f(r + k*h, th)) for k, w in c1]); dt = lin([(w/h, f(r, th + k*h)) for k, w in c1])
+    drr = lin([(w/h**2, f(r + k*h, th)) for k, w in c2]); dtt = lin([(w/h**2, f(r, th + k*h)) for k, w in c2])
+    drt = lin([(wi*wj/h**2, f(r + ki*h, th + kj*h)) for ki, wi in c1 for kj, wj in c1])
+    Z = [[0.0]*4 for _ in range(4)]; d1 = [Z, dr, dt, Z]
+    d2 = lambda c, d: Z if (c in (0, 3) or d in (0, 3)) else (drr if c == d == 1 else (dtt if c == d == 2 else drt))
+    G = [[[0.5*sum(gi[a_][e]*(d1[b][e][c] + d1[c][e][b] - d1[e][b][c]) for e in range(4)) for c in range(4)] for b in range(4)] for a_ in range(4)]
+    R = [[[[0.5*(d2(b, c)[a_][d] + d2(a_, d)[b][c] - d2(a_, c)[b][d] - d2(b, d)[a_][c])
+            + sum(g[e][f_]*(G[e][b][c]*G[f_][a_][d] - G[e][b][d]*G[f_][a_][c]) for e in range(4) for f_ in range(4))
+            for d in range(4)] for c in range(4)] for b in range(4)] for a_ in range(4)]
+    return g, gi, R
+
+def _v374_curv(r, th, M, a, Q, h=2e-3):
+    """The Kretschmann scalar R_abcd R^abcd and the cubic invariant R_ab^cd R_cd^ef R_ef^ab of the Boyer-Lindquist metric at (r, theta), from
+    _v374_riem's Riemann tensor, contracted as 6 x 6 bivector matrices."""
+    g, gi, R = _v374_riem(r, th, M, a, Q, h)
+    P6 = [(0, 1), (0, 2), (0, 3), (1, 2), (1, 3), (2, 3)]
+    X = [[sum(gi[a_][e]*gi[b][f_]*R[e][f_][c][d] for e in range(4) for f_ in range(4)) for (c, d) in P6] for (a_, b) in P6]
+    mm = lambda A, B_: [[sum(A[i][k]*B_[k][j] for k in range(6)) for j in range(6)] for i in range(6)]
+    X2 = mm(X, X); X3 = mm(X2, X)
+    return 4*sum(X2[i][i] for i in range(6)), 8*sum(X3[i][i] for i in range(6))
+
+def v37_4_horizons():
+    """Entries 398-399: Kerr's two horizons as two switches, and the other sides of the analytic extension against the Hopf shell's antipode.  The response's
+    data checked by the first law and Smarr's relation at both horizons; its two-channel operator as the archive's pair read as projectors, the outer
+    horizon the switch of the pair's aligned channel and the inner of its anti-aligned one; the shell's antipode on the pair the exchange of the two
+    horizons; the ring's two sheets a double cover whose deck transformation flips the complex radius, kept for Kerr by the even invariant and seen
+    by the odd ones; each horizon's other side the half turn of its Euclidean time; the response to Entry 399's form of the metric, and the radial
+    action's residues at the two horizons."""
+    import random, cmath
+    print("\n== v37.4-4. Entries 398-399: the two switches, the other sides of Kerr and the radial action (R467) ==")
+    M = 1.0
+    holes = [(0.6, 0.0), (0.8, 0.0), (0.6, 0.6), (0.0, 0.8), (0.99, 0.0)]
+    # (a) the response's data; the first law and Smarr's relation at both horizons; the sum of the inverse surface gravities
+    st = ((-2, 1/12), (-1, -8/12), (1, 8/12), (2, -1/12))
+    e_fl = 0.0; e_sm = 0.0; e_sum = 0.0; signs = True; rows = []
+    for a, Q in holes:
+        J = M*a; Hp, Hm = _v374_hor(M, a, Q, 1), _v374_hor(M, a, Q, -1)
+        for sgn, H in ((1, Hp), (-1, Hm)):
+            Af = lambda MM, JJ, QQ: _v374_hor(MM, JJ/MM, QQ, sgn)['A']; eps = 2e-5
+            dAM = sum(w*Af(M + k*eps, J, Q) for k, w in st)/eps; dAJ = sum(w*Af(M, J + k*eps, Q) for k, w in st)/eps
+            dAQ = sum(w*Af(M, J, Q + k*eps) for k, w in st)/eps
+            for num, ex in ((dAM, 8*PI/H['kap']), (dAJ, -8*PI*H['Om']/H['kap']), (dAQ, -8*PI*H['Phi']/H['kap'])):
+                e_fl = max(e_fl, abs(num - ex)/max(1.0, abs(ex)))
+            e_sm = max(e_sm, abs(2*H['Om']*J + H['kap']*H['A']/(4*PI) + H['Phi']*Q - M))
+        e_sum = max(e_sum, abs(1/Hp['kap'] + 1/Hm['kap'] - 4*M))
+        signs = signs and Hp['kap'] > 0 > Hm['kap'] and abs(Hm['kap']) > Hp['kap']
+        rows.append(f"(a, Q) = ({a:g}, {Q:g}): r = {Hp['r']:.6f}, {Hm['r']:.6f}, kappa = {Hp['kap']:.6f}, {Hm['kap']:.6f}, Omega = {_v37_z(Hp['Om']):.6f}, "
+                    f"{_v37_z(Hm['Om']):.6f}")
+    _v37_wrap("(a) The response's data [T/V].  For M = 1, the outer and inner horizons' radii, surface gravities kappa = (r - r_other)/(2(r^2 + a^2)) and "
+              "angular velocities Omega = a/(r^2 + a^2): " + "; ".join(rows) + f".  kappa_+ > 0 > kappa_- and |kappa_-| > kappa_+ in "
+              f"{'each' if signs else 'NOT EACH'}.  "
+              f"The first law dM = kappa dA/(8 pi) + Omega dJ + Phi dQ holds at both horizons, with A = 4 pi (r^2 + a^2) and Phi = Q r/(r^2 + a^2), the "
+              f"area's derivatives in M, J and Q taken by differences ({_v371_r(e_fl)}, relative), and Smarr's relation M = 2 Omega J + kappa A/(4 pi) + "
+              f"Phi Q at both ({_v371_r(e_sm)}): the inner horizon's surface gravity enters both negative.  And 1/kappa_+ + 1/kappa_- = 4M for each "
+              f"({_v371_r(e_sum)}): the residues 1/(2 kappa_+-) of (r^2 + a^2)/Delta sum to 2M, its coefficient of 1/r at infinity, so the two horizons' "
+              f"inverse surface gravities differ by Schwarzschild's.",
+              first="   ")
+    # (b) the two channels from v37.3-6(c)'s pair read as projectors; v37.3's matching matrix; Weyl's rod; Kerr in the pair's half angle
+    def state(u):
+        x, y, z = u; th_ = math.acos(max(-1.0, min(1.0, z))); ph_ = math.atan2(y, x)
+        return (complex(math.cos(th_/2), 0.0), complex(math.cos(ph_), math.sin(ph_))*math.sin(th_/2))
+    def eig2(A):
+        m_ = (A[0][0].real + A[1][1].real)/2; s_ = math.sqrt(((A[0][0].real - A[1][1].real)/2)**2 + abs(A[0][1])**2)
+        return m_ - s_, m_ + s_
+    sdot = lambda u: [[complex(u[2], 0.0), complex(u[0], -u[1])], [complex(u[0], u[1]), complex(-u[2], 0.0)]]      # u.sigma
+    mul2 = lambda A, C: [[sum(A[i][k]*C[k][j] for k in range(2)) for j in range(2)] for i in range(2)]
+    dag2 = lambda A: [[A[j][i].conjugate() for j in range(2)] for i in range(2)]
+    e_ev = e_ov = e_vec = e_mean = e_x = e_td = 0.0
+    for a, Q in holes:
+        d = math.sqrt(M*M - a*a - Q*Q); up_, um_ = (d/M, Q/M, a/M), (d/M, -Q/M, -a/M); pp = state(up_); pm = state(um_)
+        P1 = [[pp[i]*pp[j].conjugate() for j in range(2)] for i in range(2)]; P2 = [[pm[i]*pm[j].conjugate() for j in range(2)] for i in range(2)]
+        F = [[P1[i][j] + P2[i][j] for j in range(2)] for i in range(2)]
+        lo, hi = eig2(F); e_ev = max(e_ev, abs(M*hi - (M + d)), abs(M*lo - (M - d)))
+        e_td = max(e_td, abs(M*(F[0][0] + F[1][1]).real - 2*M), abs(M*M*(F[0][0]*F[1][1] - F[0][1]*F[1][0]).real - (a*a + Q*Q)))
+        ub = tuple((x + y)/2 for x, y in zip(up_, um_)); Su = sdot(ub)
+        e_mean = max(e_mean, max(abs(F[i][j] - ((1 if i == j else 0) + Su[i][j])) for i in range(2) for j in range(2)))
+        nb = math.sqrt(sum(x*x for x in ub)); X = [[-1j*x/nb for x in row] for row in sdot(ub)]           # the half turn about ubar
+        XP1 = mul2(mul2(X, P1), dag2(X))
+        e_x = max(e_x, max(abs(XP1[i][j] - P2[i][j]) for i in range(2) for j in range(2)))
+        c = sum(pm[i].conjugate()*pp[i] for i in range(2)); e_ov = max(e_ov, abs(abs(c) - d/M)); ph = c/abs(c)
+        for sg, lam in ((1, 1 + abs(c)), (-1, 1 - abs(c))):
+            v = [pp[i] + sg*ph*pm[i] for i in range(2)]; nv = math.sqrt(sum(abs(x)**2 for x in v)); v = [x/nv for x in v]
+            e_vec = max(e_vec, max(abs(sum(F[i][j]*v[j] for j in range(2)) - lam*v[i]) for i in range(2)))
+            e_vec = max(e_vec, max(abs(sum(Su[i][j]*v[j] for j in range(2))/nb - sg*v[i]) for i in range(2)))
+    a, Q = 0.6, 0.0; d = math.sqrt(M*M - a*a - Q*Q); rp, rm = M + d, M - d
+    sg = lambda x: '+' if x > 0 else '-'
+    chD = []; chK = []
+    for rr in (rp + 0.5, (rp + rm)/2, rm/2):
+        chD.append(f"({sg(rr - rp)},{sg(rr - rm)})")
+        Kmat = [[complex(M + (rr - M), 0.0), complex(a, Q)], [complex(a, -Q), complex(M - (rr - M), 0.0)]]     # M I + (r - M) s3 + a s1 - Q s2
+        lo, hi = eig2(Kmat); chK.append(f"({sg(hi)},{sg(lo)})")
+    rnd = random.Random(3984); e_weyl = 0.0; nweyl = 0
+    for _ in range(40):
+        a, Q = rnd.uniform(0, 0.7), rnd.uniform(-0.7, 0.7); d = math.sqrt(max(0.0, M*M - a*a - Q*Q))
+        if d < 0.05: continue
+        nweyl += 1
+        r = M + d + rnd.uniform(0.01, 3.0); th = rnd.uniform(0.0, PI); D = r*r - 2*M*r + a*a + Q*Q
+        rho = math.sqrt(D)*math.sin(th); z = (r - M)*math.cos(th)
+        for sgn in (1, -1):
+            e_weyl = max(e_weyl, abs(math.sqrt(rho*rho + (z - sgn*d)**2) - abs(r - M - sgn*d*math.cos(th))))
+    e_eta = 0.0
+    for a, Q in holes:
+        if Q != 0.0: continue
+        eta = math.asin(a/M); Hp, Hm = _v374_hor(M, a, 0.0, 1), _v374_hor(M, a, 0.0, -1); t2 = math.tan(eta/2)
+        e_eta = max(e_eta, abs(Hp['Om'] - t2/(2*M)), abs(Hm['Om'] - 1/(t2*2*M)), abs(Hp['kap']/abs(Hm['kap']) - t2*t2), abs(Hm['r']/Hp['r'] - t2*t2))
+    _v37_wrap(f"(b) The two channels [T/V].  Read v37.3-6(c)'s pair u_+- = (delta, +-Q, +-a)/M as Bloch vectors, psi_+- their states and P_+- their "
+              f"projectors: |<psi_-|psi_+>| = delta/M ({_v371_r(e_ov)}), and the pair's mass operator M(P_+ + P_-) = M(I + ubar.sigma), ubar the "
+              f"pair's mean ({_v371_r(e_mean)}), has the trace 2M and the determinant a^2 + Q^2 ({_v371_r(e_td)}) and the eigenvalues r_+- "
+              f"({_v371_r(e_ev)}), its eigenvectors the spin states along and against ubar, which are the pair's aligned and anti-aligned combinations "
+              f"psi_+ +- e^(i phi) psi_-, e^(i phi) the overlap's phase ({_v371_r(e_vec)}; the five holes); the half turn about ubar exchanges the two "
+              f"members ({_v371_r(e_x)}) and keeps each channel.  So the response's D(r) is r I - M(P_+ + P_-) = (r - M) I - M ubar.sigma up to a change "
+              f"of basis: the aligned channel, r - r_+, switches at the outer horizon and the anti-aligned one, r - r_-, at the inner.  For a = 0.6 the signs of (aligned, anti-aligned) outside, between the horizons and inside are "
+              f"{', '.join(chD)}; v37.3's matching matrix M I + (r - M) s3 + a s1 - Q s2 has at the same radii the signs {', '.join(chK)}, one "
+              f"channel switching in and out.  Weyl's coordinates, the distance sqrt(Delta) sin(theta) from the axis and the height z = (r - M) cos(theta), "
+              f"put the horizon on the rod |z| <= "
+              f"delta of the axis, and a point's distances to its ends are |r - M -+ delta cos(theta)| ({_v371_r(e_weyl)}, {nweyl} exterior points): on the "
+              f"axis, |r - r_+-|.  For Kerr, a = M sin(eta): Omega_+- = tan(eta/2)^(+-1)/(2M) and kappa_+/|kappa_-| = r_-/r_+ = tan(eta/2)^2 "
+              f"({_v371_r(e_eta)}).", first="   ")
+    # (c) the Hopf antipode; the base's antipode lifted; the pair's antipode with its members exchanged
+    qi, qj = (0.0, 1.0, 0.0, 0.0), (0.0, 0.0, 1.0, 0.0)
+    hopf = lambda q: _v373_qconj(q, qi)[1:]
+    e_neg = e_lift = e_sq = 0.0
+    for _ in range(50):
+        q = _v373_qn(tuple(rnd.gauss(0, 1) for _ in range(4))); mq = tuple(-x for x in q); qjq = _v373_qm(q, qj)
+        e_neg = max(e_neg, max(abs(x - y) for x, y in zip(hopf(mq), hopf(q))))
+        e_lift = max(e_lift, max(abs(x + y) for x, y in zip(hopf(qjq), hopf(q))))
+        e_sq = max(e_sq, max(abs(x + y) for x, y in zip(_v373_qm(qjq, qj), q)))
+    e_swap = 0.0; e_rel = 0.0
+    for a, Q in holes:
+        d = math.sqrt(M*M - a*a - Q*Q); qp = (d/M, a/M, Q/M, 0.0); qm_ = (d/M, -a/M, -Q/M, 0.0)
+        qp2 = tuple(-x for x in qm_); qm2 = tuple(-x for x in qp)
+        d2, a2, Q2 = M*qp2[0], M*qp2[1], M*qp2[2]
+        e_swap = max(e_swap, max(abs(_v374_hor(M, a2, Q2, s_, d2)[k] - _v374_hor(M, a, Q, -s_)[k]) for s_ in (1, -1) for k in ('r', 'kap', 'Om', 'A', 'Phi')))
+        e_rel = max(e_rel, max(abs(x - y) for x, y in zip(_v373_qm(_v373_qc(qp2), qm2), _v373_qc(_v373_qm(_v373_qc(qp), qm_)))))
+    _v37_wrap(f"(c) The Hopf antipode [T/V].  With pi(q) = q i q^-1: pi(-q) = pi(q) ({'exactly' if e_neg == 0 else _v371_r(e_neg)}, fifty random q), the "
+              f"antipode invisible on the base; the base's antipode lifts to q -> q j, pi(q j) = -pi(q) ({_v371_r(e_lift)}), of order four, (q j) j = -q "
+              f"({'exactly' if e_sq == 0 else _v371_r(e_sq)}).  On v37.3-6(d)'s pair q_+- = delta/M +- (a i + Q j)/M the shell's antipode with the two "
+              f"members exchanged, (q_+, q_-) -> (-q_-, -q_+), is delta -> -delta at fixed M, a and Q: it exchanges r_+ and r_-, and with them each "
+              f"horizon's kappa, Omega, area and potential ({'exactly' if e_swap == 0 else _v371_r(e_swap)}, the five holes), and inverts the relative "
+              f"element ({_v371_r(e_rel)}) -- the same solution with its horizons relabeled.", first="   ")
+    # (d) the ring's two sheets: the complex radius continued around the ring; the metric's identity; the other sheet's infinity; the invariants
+    a = 0.6; eps = 0.15
+    sfun = lambda x, y, z: complex(x*x + y*y + z*z - a*a, -2*a*z)
+    def carry(nl, N=4000):
+        rho0 = cmath.sqrt(sfun(a + eps, 0.0, 0.0)); rho = rho0; flips = 0
+        for k in range(1, nl*N + 1):
+            t = 2*PI*k/N; r1 = cmath.sqrt(sfun(a + eps*math.cos(t), 0.0, eps*math.sin(t)))
+            nw = r1 if abs(r1 - rho) <= abs(r1 + rho) else -r1
+            flips += (nw.real > 0) != (rho.real > 0); rho = nw
+        return rho/rho0, flips
+    once, f1 = carry(1); twice, f2 = carry(2)
+    rnd2 = random.Random(3985); e_g = 0.0; e_A = 0.0
+    ABL = lambda r, th, a_, Q_: (-Q_*r/(r*r + (a_*math.cos(th))**2), Q_*r*a_*math.sin(th)**2/(r*r + (a_*math.cos(th))**2))
+    for _ in range(20):
+        r = rnd2.uniform(-5, 5); th = rnd2.uniform(0.1, 3.0); aa = rnd2.uniform(0, 1); QQ = rnd2.uniform(-1, 1); MM = rnd2.uniform(0.2, 2)
+        g1 = _v374_gBL(-r, th, -MM, aa, QQ); g2 = _v374_gBL(r, th, MM, aa, QQ)
+        e_g = max(e_g, max(abs(g1[i][j] - g2[i][j]) for i in range(4) for j in range(4)))
+        e_A = max(e_A, max(abs(x - y) for x, y in zip(ABL(-r, th, aa, QQ), ABL(r, th, aa, -QQ))))
+    a, Q, th, Rf = 0.6, 0.6, 1.1, 1e8
+    g = _v374_gBL(-Rf, th, M, a, Q); At, Ap = ABL(-Rf, th, a, Q); s2 = math.sin(th)**2
+    Mp = (g[0][0] + 1)*Rf/2; Jp = -g[0][3]*Rf/(2*s2); Qp = -At*Rf; mup = Ap*Rf/s2; gp = 2*Mp*mup/(Qp*Jp)
+    a = 0.6; pts = ((3.0, 1.0), (2.5, 0.4)); inv = []; e_K = e_W = 0.0
+    for r, th in pts:
+        K1, W1 = _v374_curv(r, th, M, a, 0.0); K2, W2 = _v374_curv(-r, PI - th, M, a, 0.0)
+        for rr, tt, K_, W_ in ((r, th, K1, W1), (-r, PI - th, K2, W2)):
+            rho = complex(rr, -a*math.cos(tt)); psi2 = -M/rho**3
+            e_K = max(e_K, abs(K_/(48*(psi2*psi2).real) - 1)); e_W = max(e_W, abs(W_/(-96*(psi2**3).real) - 1))
+        inv.append((r, th, K1, K2, W1, W2))
+    KQ1, WQ1 = _v374_curv(3.0, 1.0, M, 0.6, 0.6); KQ2, WQ2 = _v374_curv(-3.0, PI - 1.0, M, 0.6, 0.6)       # a charged hole: no parity
+    _v37_wrap(f"(d) The ring's two sheets [T/V].  s = (x - i a z^).(x - i a z^) is single-valued; its root, the complex radius rho = r - i a cos(theta), "
+              f"carried around a loop linking the ring once (a = 0.6, radius 0.15) returns as {_v37_z(once.real):.6f} times itself, its real part r "
+              f"changing sign {'once' if f1 == 1 else str(f1) + ' times'}, where the loop crosses the disk; carried twice, as {_v37_z(twice.real):.6f} "
+              f"times itself ({f2} crossings; "
+              f"imaginary parts {_v371_r(max(abs(once.imag), abs(twice.imag)))}).  The sheet r < 0 is the deck transformation rho -> -rho of a double "
+              f"cover branched on the ring.  The Boyer-Lindquist metric obeys g(-r, theta; -M, a, Q) = g(r, theta; M, a, Q) and the potential "
+              f"A(-r; Q) = A(r; -Q) ({'exactly' if e_g == 0 and e_A == 0 else _v371_r(max(e_g, e_A))}, twenty random points and holes): the sheet r < 0 "
+              f"of (M, a, Q) is the hole (-M, a, -Q) seen from its own infinity, where the metric and potential at r = -10^8 read M' = {Mp:.6f}, "
+              f"J' = {Jp:.6f}, Q' = {Qp:.6f} and mu' = {mup:.6f} for (1, 0.6, 0.6), and g = 2 M' mu'/(Q' J') = {gp:.6f}.  The curvature of Kerr "
+              f"(a = 0.6), from the metric by differences: " + "; ".join(f"at (r, theta) = ({r:g}, {th:g}) the Kretschmann scalar {K1:.6f} and on "
+              f"the other sheet, (-r, pi - theta), {K2:.6f}; the cubic invariant {W1:.6f} and {W2:.6f}" for r, th, K1, K2, W1, W2 in inv)
+              + f".  They are 48 Re(Psi_2^2) ({_v371_r(e_K)}) and -96 Re(Psi_2^3) ({_v371_r(e_W)}, relative), Psi_2 = -M/rho^3, in the signature "
+              f"(-, +, +, +) with the Riemann tensor's sign of Misner, Thorne and Wheeler: the cubic's overall sign is a convention, its flip between "
+              f"the sheets is not.  So for Kerr the sheet change keeps the Kretschmann scalar and flips Psi_2 and the cubic invariant.  With charge the "
+              f"Q^2 parts of the curvature are even under it and the invariants have no parity: for (1, 0.6, 0.6) the Kretschmann scalar is "
+              f"{KQ1:.6f} at (3, 1) and {KQ2:.6f} at (-3, pi - 1), the cubic invariant {WQ1:.6f} and {WQ2:.6f}.  In every hole the sheet change "
+              f"keeps Sigma = |rho|^2 and g = 2 and flips M, Q, J and mu.", first="   ")
+    # (e) each horizon's other side: the Kruskal coordinates carried around r_+ and r_- in the complex r-plane, and around both
+    def loop(c0, rad, a_, Q_, N=512):
+        tot = 0j
+        for k in range(N):
+            e_ = cmath.exp(complex(0.0, 2*PI*k/N)); z = c0 + rad*e_
+            tot += (z*z + a_*a_)/(z*z - 2*M*z + a_*a_ + Q_*Q_)*complex(0.0, rad)*e_*(2*PI/N)
+        return tot
+    e_m1 = 0.0; e_4M = 0.0; ph = []
+    for a, Q in holes:
+        if (a, Q) not in ((0.6, 0.0), (0.6, 0.6), (0.99, 0.0)): continue
+        d = math.sqrt(M*M - a*a - Q*Q); Hp, Hm = _v374_hor(M, a, Q, 1), _v374_hor(M, a, Q, -1)
+        fp = cmath.exp(Hp['kap']*loop(Hp['r'], d/2, a, Q)); fm = cmath.exp(Hm['kap']*loop(Hm['r'], d/2, a, Q)); both = loop(M, 1.5*d + 0.5, a, Q)
+        e_m1 = max(e_m1, abs(fp + 1), abs(fm + 1)); e_4M = max(e_4M, abs(both/complex(0.0, 4*PI*M) - 1)); ph.append(4*M*Hp['kap'])
+    _v37_wrap(f"(e) Each horizon's other side [T/V].  The tortoise coordinate's integrand (r^2 + a^2)/Delta has the residues 1/(2 kappa_+-) at r_+-: "
+              f"carried around r_+ in the complex r-plane, the Kruskal coordinate e^(kappa_+ r*) returns multiplied by -1, and around r_- e^(kappa_- r*) "
+              f"too ({_v371_r(e_m1)}; the holes (0.6, 0), (0.6, 0.6), (0.99, 0)) -- each horizon's other side is the antipode of its Kruskal plane, the "
+              f"half turn t -> t + i pi/|kappa| of the Euclidean time at a fixed corotating angle phi - Omega t.  Around both horizons r* gains 4 pi i M ({_v371_r(e_4M)}), and the outer coordinate "
+              f"returns multiplied by e^(i pi 4M kappa_+), with 4M kappa_+ = " + ", ".join(f"{x:.6f}" for x in ph) + ": the two half turns have "
+              f"different periods and do not compose to a sign.", first="   ")
+    # (f) the response to Entry 399's form of the metric: the coframe (dt - a sin^2 dphi, (r^2 + a^2) dphi - a dt) with Delta = det C
+    rnd3 = random.Random(3991); e_car = 0.0; e_det = 0.0; flips = True; nreg = [0, 0, 0]; nkn = 0
+    for _ in range(30):
+        a, Q = rnd3.uniform(0, 0.8), rnd3.choice((0.0, rnd3.uniform(-0.5, 0.5))); d = math.sqrt(max(0.0, M*M - a*a - Q*Q))
+        if d < 0.2: continue
+        reg = rnd3.randrange(3); nreg[reg] += 1; nkn += Q != 0.0
+        r = (M + d + rnd3.uniform(0.05, 3.0), M + rnd3.uniform(-0.9, 0.9)*d, (M - d)*rnd3.uniform(0.05, 0.95))[reg]; th = rnd3.uniform(0.1, 3.0)
+        S = r*r + (a*math.cos(th))**2; D = (r - M - d)*(r - M + d); s2 = math.sin(th)**2           # Delta = det((r - M) I + delta s3)
+        wt = (1.0, -a*s2); wp = (-a, r*r + a*a)                                                       # (dt, dphi) components of the two one-forms
+        gc = [[-(D/S)*wt[i]*wt[j] + (s2/S)*wp[i]*wp[j] for j in range(2)] for i in range(2)]
+        g = _v374_gBL(r, th, M, a, Q)
+        e_car = max(e_car, abs(gc[0][0] - g[0][0]), abs(gc[0][1] - g[0][3]), abs(gc[1][1] - g[3][3]), abs(S/D - g[1][1]), abs(S - g[2][2]))
+        det4 = g[1][1]*g[2][2]*(g[0][0]*g[3][3] - g[0][3]**2); e_det = max(e_det, abs(det4/(-(S*S)*s2) - 1))
+        flips = flips and ((-D/S < 0) == (S/D > 0))
+    # (g) the radial action's residues at the two horizons: E = 1, L_z = -1, m = 1, Carter's constant 0.5, in the hole (1, 0.6, 0)
+    a = 0.6; d = math.sqrt(M*M - a*a); E_, L_, m_, C_ = 1.0, -1.0, 1.0, 0.5
+    Rf = lambda z: (E_*(z*z + a*a) - a*L_)**2 - (z*z - 2*M*z + a*a)*(m_*m_*z*z + (L_ - a*E_)**2 + C_)
+    def aloop(c0, rad, N=2000):
+        e0 = complex(1.0, 0.0); z0 = c0 + rad; w = cmath.sqrt(Rf(z0)); w0 = w; tot = 0j
+        for k in range(N):
+            e_ = cmath.exp(complex(0.0, 2*PI*(k + 0.5)/N)); z = c0 + rad*e_; w1 = cmath.sqrt(Rf(z))
+            w = w1 if abs(w1 - w) <= abs(w1 + w) else -w1
+            tot += w/(z*z - 2*M*z + a*a)*complex(0.0, rad)*e_*(2*PI/N)
+        w1 = cmath.sqrt(Rf(z0)); wend = w1 if abs(w1 - w) <= abs(w1 + w) else -w1
+        return tot, abs(wend - w0)
+    res = []; e_res = 0.0; e_close = 0.0
+    for sgn, rad in ((1, 0.4), (-1, 0.05)):
+        H = _v374_hor(M, a, 0.0, sgn); tot, cl = aloop(H['r'], rad); r_num = tot/complex(0.0, 2*PI); r_ex = (E_ - H['Om']*L_)/(2*H['kap'])
+        e_res = max(e_res, abs(r_num - r_ex)); e_close = max(e_close, cl); res.append((r_num.real, r_ex))
+    _v37_wrap(f"(f) The response to Entry 399's form of the metric [T/V].  With Delta = det((r - M) I + delta s3), Sigma = |rho|^2 and the one-forms dt - a "
+              f"sin^2(theta) dphi and (r^2 + a^2) dphi - a dt, the metric -(Delta/Sigma)(dt - a sin^2 dphi)^2 + (Sigma/Delta) dr^2 + Sigma dtheta^2 + "
+              f"(sin^2(theta)/Sigma)((r^2 + a^2) dphi - a dt)^2 is Boyer-Lindquist's ({_v371_r(e_car)}; {nreg[0]}, {nreg[1]} and {nreg[2]} points "
+              f"outside, between and inside the horizons, {nkn} of them in Kerr-Newman holes); its determinant is -Sigma^2 sin^2(theta) in all three "
+              f"regions ({_v371_r(e_det)}, relative), and the first two coefficients change sign together {'at each point' if flips else 'NOT AT EACH'}: "
+              f"one time direction throughout, exchanged between the coframe's first form and dr.", first="   ")
+    _v37_wrap(f"(g) The radial action [T/V].  For Kerr (a = 0.6) and a particle with E = 1, L_z = -1, m = 1 and Carter's constant 0.5, the integrand "
+              f"sqrt(R)/Delta of the radial action, R = (E(r^2 + a^2) - a L_z)^2 - Delta (m^2 r^2 + (L_z - a E)^2 + Carter's constant), has at r_+ and "
+              f"r_- the residues {res[0][0]:.6f} and {res[1][0]:.6f}, which are (E - Omega L_z)/(2 kappa) at each horizon, {res[0][1]:.6f} and "
+              f"{res[1][1]:.6f} ({_v371_r(e_res)}; sqrt(R) carried around each loop returns to itself, {_v371_r(e_close)}).  So both horizons enter the "
+              f"one radial action, each with its own kappa and Omega, and a loop around a horizon changes the action by pi i (E - Omega L_z)/kappa, up to "
+              f"its sign the change of -E t + L_z phi under (e)'s half turn.", first="   ")
+    ok = (signs and e_fl < 1e-8 and e_sm < 1e-12 and e_sum < 1e-12 and e_ev < 1e-12 and e_ov < 1e-12 and e_vec < 1e-12 and chD == ['(+,+)', '(-,+)', '(-,-)']
+          and chK == ['(+,-)', '(+,+)', '(+,-)'] and e_weyl < 1e-12 and e_eta < 1e-12 and e_neg == 0 and e_lift < 1e-12 and e_sq == 0 and e_swap == 0
+          and e_rel < 1e-12 and abs(once + 1) < 1e-12 and abs(twice - 1) < 1e-12 and f1 == 1 and f2 == 2 and e_g == 0 and e_A == 0
+          and abs(Mp + 1) < 1e-6 and abs(Jp + 0.6) < 1e-6 and abs(Qp + 0.6) < 1e-6 and abs(mup + 0.36) < 1e-6 and abs(gp - 2) < 1e-6
+          and e_K < 1e-8 and e_W < 1e-8 and all(abs(K2/K1 - 1) < 1e-8 and abs(W2/W1 + 1) < 1e-8 for _, _, K1, K2, W1, W2 in inv)
+          and abs(KQ2/KQ1 - 1) > 0.1 and abs(WQ2/WQ1 + 1) > 0.1
+          and e_m1 < 1e-12 and e_4M < 1e-12 and all(0 < x < 1 for x in ph) and e_mean < 1e-12 and e_td < 1e-12 and e_x < 1e-12
+          and e_car < 1e-12 and e_det < 1e-11 and flips and min(nreg) >= 5 and nkn >= 5 and nweyl >= 30 and e_res < 1e-10 and e_close < 1e-12)
+    check(ok, "Entries 398-399: the response's surface gravities and angular velocities obey the first law and Smarr's relation at both horizons; "
+              "its two channels are the pair's aligned and anti-aligned combinations, the spectrum of the pair's mass operator; the shell's antipode on the "
+              "pair exchanges the horizons; the ring's sheets differ by the complex radius's sign, for Kerr the even invariant kept and the odd ones "
+              "flipped, M, Q, J and mu flipped and g = 2 kept in every hole; "
+              "each horizon's other side a half turn of its Euclidean time; the response to Entry 399's form of the metric is Boyer-Lindquist's, and the "
+              "radial action's residues are (E - Omega L_z)/(2 kappa) at both horizons")
+
+def _v374_ricci(r, th, M, a, Q):
+    """The Ricci tensor R_bd = g^ac R_abcd of the Boyer-Lindquist metric at (r, theta), its trace, R_ab R^ab, the mixed tensor R^b_d and the metric,
+    from _v374_riem."""
+    g, gi, R = _v374_riem(r, th, M, a, Q)
+    Ric = [[sum(gi[a_][c]*R[a_][b][c][d] for a_ in range(4) for c in range(4)) for d in range(4)] for b in range(4)]
+    Rs = sum(gi[b][d]*Ric[b][d] for b in range(4) for d in range(4))
+    mixed = [[sum(gi[b][a_]*Ric[a_][d] for a_ in range(4)) for d in range(4)] for b in range(4)]
+    return Ric, Rs, sum(mixed[b][d]*mixed[d][b] for b in range(4) for d in range(4)), mixed, g
+
+def v37_4_charge():
+    """Entries 400-403: Kerr-Newman's Delta as the determinant of Kerr's two channels with an antisymmetric cross coupling, which is a boost of the
+    channels, by the meridian's rapidity of X.11 for Reissner-Nordstrom; what a Hermitian coupling cannot do; the common and difference parts of the pair, whose norms are the
+    horizons over 2M, and a transport's phase, which reads the same pair as the horizons of another hole of the same mass; a sheet-switching
+    circuit; three regimes' weights, and the cost of their loop read as coherences, a phase bounded by the loss of visibility; the meridian dipole's
+    Fourier modes and the charges of a parity network; what the field equations ask of any overlay: a traceless Ricci tensor whose square is
+    (Q^2/Sigma^2)^2 times the identity and whose energy is positive, the stress of a Maxwell field; and a field source-free in the middle space whose
+    leaves see charges of either sign that cancel around the meridian, while its energy is the same on every leaf, kept by the uniform quotient as a
+    stress with a trace."""
+    import random
+    from fractions import Fraction as Fr
+    print("\n== v37.4-5. Entries 400-403: charge as a cross coupling, the pair's common and difference parts, the meridian parity, the source-free "
+          "middle space (R467) ==")
+    M = 1.0
+    rnd = random.Random(4001)
+    # (a) the cross coupling C = x I + d_K s3 + Q J, J = [[0, 1], [-1, 0]]: its determinant, eigenvalues, and the boost that makes it Hermitian
+    e_det = e_eig = e_sim = e_herm = 0.0; herm_max = -1.0; nh = 0
+    for _ in range(40):
+        a = rnd.uniform(0.0, 0.8); dK = math.sqrt(M*M - a*a); Q = rnd.uniform(-0.95, 0.95)*dK; x = rnd.uniform(-1.5, 1.5); r = M + x
+        D = r*r - 2*M*r + a*a + Q*Q; d = math.sqrt(dK*dK - Q*Q)
+        C = [[x + dK, Q], [-Q, x - dK]]
+        e_det = max(e_det, abs(C[0][0]*C[1][1] - C[0][1]*C[1][0] - D))
+        tr = C[0][0] + C[1][1]; disc = math.sqrt(max(0.0, (C[0][0] - C[1][1])**2/4 + C[0][1]*C[1][0]))
+        e_eig = max(e_eig, abs(tr/2 + disc - (r - M + d)), abs(tr/2 - disc - (r - M - d)))
+        psi = math.atanh(Q/dK); ch, sh = math.cosh(psi/2), math.sinh(psi/2)
+        S = [[ch, -sh], [-sh, ch]]; Si = [[ch, sh], [sh, ch]]                       # exp(-psi s1/2) and its inverse
+        Hd = [[x + d, 0.0], [0.0, x - d]]
+        T = [[sum(S[i][k]*Hd[k][l]*Si[l][j] for k in range(2) for l in range(2)) for j in range(2)] for i in range(2)]
+        e_sim = max(e_sim, max(abs(T[i][j] - C[i][j]) for i in range(2) for j in range(2)))
+        b = complex(rnd.uniform(-0.5, 0.5), rnd.uniform(-0.5, 0.5)); Dk = r*r - 2*M*r + a*a
+        Hm = [[complex(x + dK), b], [b.conjugate(), complex(x - dK)]]; Hdet = (Hm[0][0]*Hm[1][1] - Hm[0][1]*Hm[1][0]).real
+        e_herm = max(e_herm, abs(Hdet - (Dk - abs(b)**2))); herm_max = max(herm_max, Hdet - Dk); nh += 1
+    a, Q = 0.6, 0.4; dK = math.sqrt(M*M - a*a); d_p = math.sqrt(dK*dK - Q*Q); psi_p = math.atanh(Q/dK)
+    psi_rn = math.atanh(math.tanh(1.0)/M)                                           # Reissner-Nordstrom with Q/M = tanh 1
+    mu_p = math.atanh(Q/M); mu_ext = math.atanh(0.8/M)                              # X.11's mu = atanh(Q/M) for (1, 0.6, 0.4) and (1, 0.6, 0.8)
+    e_cone = abs(dK - d_p*math.cosh(psi_p)) + abs(Q - d_p*math.sinh(psi_p))          # (d_K, Q) = delta (cosh psi, sinh psi)
+    N1 = [[0.8, 0.8], [-0.8, -0.8]]                                                 # (1, 0.6, 0.8): Q^2 = M^2 - a^2, C - (r - M) I
+    N1sq = [[sum(N1[i][k]*N1[k][j] for k in range(2)) for j in range(2)] for i in range(2)]
+    _v37_wrap(f"(a) The cross coupling [T/V].  The response to Entry 400's C(r) = (r - M) I + d_K s3 + Q J, d_K = sqrt(M^2 - a^2) and J = [[0, 1], "
+              f"[-1, 0]], has the determinant Delta = r^2 - 2Mr + a^2 + Q^2 ({_v371_r(e_det)}) and the eigenvalues r - M +- delta ({_v371_r(e_eig)}; "
+              f"forty random holes and radii).  Since d_K s3 + Q J = delta exp(-psi s1/2) s3 exp(psi s1/2) with tanh(psi) = Q/d_K, C is the "
+              f"Hermitian channel operator (r - M) I + delta s3 boosted by the rapidity psi ({_v371_r(e_sim)}): for M = 1, a = 0.6, Q = 0.4 the "
+              f"horizons are {M + d_p:.6f} and {M - d_p:.6f}, their gap {2*d_p:.6f}, and psi = {psi_p:.6f}.  For Reissner-Nordstrom psi is the "
+              f"meridian's rapidity of X.11, tanh(psi) = Q/M -- {psi_rn:.6f} for Q/M = tanh 1, v37.3-6(b)'s mu = 1; with spin (d_K, Q) = delta "
+              f"(cosh psi, sinh psi) ({_v371_r(e_cone)}), X.11's cone with d_K in the place of M, and psi is not mu = atanh(Q/M): {psi_p:.6f} against "
+              f"{mu_p:.6f} for (1, 0.6, 0.4).  At charged extremality, Q^2 = M^2 - a^2, C - (r - M) I is nonzero and squares to zero "
+              f"({'exactly' if all(v == 0 for row in N1sq for v in row) else 'NOT'}, for (1, 0.6, 0.8)): an exceptional point, the boost's rapidity "
+              f"infinite -- for Reissner-Nordstrom X.11's poles, with spin at finite mu, {mu_ext:.6f} for (1, 0.6, 0.8); at a = M with Q = 0 it is "
+              f"zero.  A Hermitian coupling b between Kerr's two channels gives the determinant Delta_Kerr - |b|^2 ({_v371_r(e_herm)}, from the "
+              f"matrix; its excess over Delta_Kerr at most {_v37_z(herm_max):.6f}, {nh} couplings): it moves the horizons apart, and +Q^2 needs the "
+              f"antisymmetric coupling, the imaginary rotation.", first="   ")
+    # (b) the pair's common and difference parts (the response to Entry 401), a transport's phase, and a sheet-switching circuit
+    def state(u):
+        x_, y_, z_ = u; t_ = math.acos(max(-1.0, min(1.0, z_))); p_ = math.atan2(y_, x_)
+        return (complex(math.cos(t_/2), 0.0), complex(math.cos(p_), math.sin(p_))*math.sin(t_/2))
+    e_md = e_al = 0.0; shown = {}
+    for a, Q in ((0.6, 0.0), (0.8, 0.0), (0.6, 0.6), (0.0, 0.8), (0.99, 0.0)):
+        d = math.sqrt(M*M - a*a - Q*Q); pp = state((d/M, Q/M, a/M)); pm = state((d/M, -Q/M, -a/M))
+        c = sum(pp[i].conjugate()*pm[i] for i in range(2)); w = c.conjugate()/abs(c)      # the transport aligning psi_- with psi_+
+        for k_al, al in enumerate((0.0, PI/3, PI/2, PI)):
+            wa = w*complex(math.cos(al), math.sin(al))                                   # the same transport with the extra phase alpha
+            mvec = [(pp[i] + wa*pm[i])/2 for i in range(2)]; dvec = [(pp[i] - wa*pm[i])/2 for i in range(2)]
+            m2 = sum(abs(z)**2 for z in mvec); d2 = sum(abs(z)**2 for z in dvec)
+            err = max(abs(m2 - (M + d*math.cos(al))/(2*M)), abs(d2 - (M - d*math.cos(al))/(2*M)), abs(m2 + d2 - 1))
+            if k_al == 0: e_md = max(e_md, err)
+            else: e_al = max(e_al, err)
+            if (a, Q) == (0.6, 0.0): shown[k_al] = (m2, d2)
+    X = ((0, 1), (1, 0)); I2 = ((1, 0), (0, 1))
+    mm = lambda A, Bm: tuple(tuple(sum(A[i][k]*Bm[k][j] for k in range(2)) for j in range(2)) for i in range(2))
+    hol = mm(mm(X, X), X); inv_ok = True
+    for sA in (I2, X):
+        for sB in (I2, X):
+            for sC in (I2, X):                                                      # relabel the sheets at the three regions
+                lk = [mm(mm(sA, X), sB), mm(mm(sB, X), sC), mm(mm(sC, X), sA)]
+                inv_ok = inv_ok and mm(mm(lk[0], lk[1]), lk[2]) == X
+    _v37_wrap(f"(b) The common and difference parts [T/V].  For v37.3-6(c)'s pair as two spin states, with the phase W that aligns psi_- with "
+              f"psi_+, the response to Entry 401's common part m = (psi_+ + W psi_-)/2 and difference part (psi_+ - W psi_-)/2 have the squared norms "
+              f"r_+/2M and r_-/2M, summing to 1 ({_v371_r(e_md)}; the five holes of v37.4-4): the two horizons are 2M times the common and the difference "
+              f"parts, cos^2(eta/2) and sin^2(eta/2), the response's cos^2(Delta S/2 hbar) with the pair's half angle eta in the place of Delta S/hbar.  "
+              f"With the phase given a further alpha the same pair has the norms (M +- delta cos(alpha))/2M ({_v371_r(e_al)}): for (0.6, 0), "
+              f"{shown[1][0]:.6f} and {shown[1][1]:.6f} at alpha = pi/3, the horizons over 2M of the hole of the same mass with delta/2; "
+              f"{shown[2][0]:.6f} and {shown[2][1]:.6f} at pi/2, an extremal hole's; {shown[3][0]:.6f} and {shown[3][1]:.6f} at pi, the horizons "
+              f"exchanged, as by v37.4-4(c)'s antipode on the pair.  A circuit of three regions whose every transition switches a hidden sheet has the "
+              f"holonomy X^3 = {'X' if hol == X else 'NOT X'}, unchanged by relabeling the sheets at the three regions "
+              f"({'all eight' if inv_ok else 'NOT ALL'}): a return to the same region on the other sheet.", first="   ")
+    # (c) three regimes: the response to Entry 400's weights, and the cost of a loop of associations read as coherences (XXVI.7)
+    m_ = [Fr(1), Fr(2), Fr(4)]; s_ = [Fr(0), Fr(1), Fr(3)]
+    w = {(i, j): m_[i]*m_[j]/(1 + abs(s_[i] - s_[j])) for i in range(3) for j in range(3) if i != j}
+    V3 = 3*(float(w[(0, 1)]*w[(1, 2)]*w[(2, 0)]))**(1/3)/float(w[(0, 1)] + w[(1, 2)] + w[(2, 0)])
+    cis = lambda t: complex(math.cos(t), math.sin(t))
+    def gram(v12, v23, v31, p12, p23, p31):
+        A, Bc, Cc = v12*cis(p12), v23*cis(p23), v31*cis(p31)
+        G = [[1, A, Cc.conjugate()], [A.conjugate(), 1, Bc], [Cc, Bc.conjugate(), 1]]
+        return (G[0][0]*(G[1][1]*G[2][2] - G[1][2]*G[2][1]) - G[0][1]*(G[1][0]*G[2][2] - G[1][2]*G[2][0])
+                + G[0][2]*(G[1][0]*G[2][1] - G[1][1]*G[2][0]))
+    e_gram = 0.0
+    for _ in range(20):
+        vv = [rnd.uniform(0.0, 1.0) for _k in range(3)]; pp_ = [rnd.uniform(-PI, PI) for _k in range(3)]; z = sum(pp_)
+        dg = gram(*vv, *pp_)
+        e_gram = max(e_gram, abs(dg.imag), abs(dg.real - (1 - vv[0]**2 - vv[1]**2 - vv[2]**2 + 2*vv[0]*vv[1]*vv[2]*math.cos(z))))
+    e_cl = 0.0; at_edge = 0.0; sign_ok = True; pmax = []
+    for v in (0.9, 0.99, 0.999):
+        Pm = math.acos((3*v*v - 1)/(2*v**3)); pmax.append((v, Pm, Pm/(math.sqrt(3)*(1 - v))))
+        e_cl = max(e_cl, abs(math.sin(Pm/2) - (1 - v)*math.sqrt(1 + 2*v)/(2*v**1.5)))
+        split = lambda P: (0.37, -1.1, P - 0.37 + 1.1)                                 # the loop phase split unevenly among the three links
+        at_edge = max(at_edge, abs(gram(v, v, v, *split(Pm))))
+        sign_ok = sign_ok and gram(v, v, v, *split(0.99*Pm)).real > 0 and gram(v, v, v, *split(1.01*Pm)).real < 0
+    low = [(v, min(gram(v, v, v, *split(PI*j/50)).real for j in range(-50, 51))) for v in (0.5, 0.4)]   # v <= 1/2: every phase allowed
+    e_low = max(abs(dmin - (1 + v)**2*(1 - 2*v)) for v, dmin in low)
+    _v37_wrap(f"(c) Three regimes [T/V].  The response to Entry 400's weights m_i m_j/(1 + |s_i - s_j|/L) for the masses (1, 2, 4) at (0, L, 3L) "
+              f"are {w[(0, 1)]}, {w[(0, 2)]} and {w[(1, 2)]}, their coherence 3 (w_12 w_23 w_31)^(1/3)/(w_12 + w_23 + w_31) = {V3:.6f}, a ratio of "
+              f"the weights' means, not a visibility.  Read as coherences -- the overlaps of three states, as the room's kernels are -- three "
+              f"associations v_ij e^(i phi_ij) have the Gram determinant 1 - v_12^2 - v_23^2 - v_31^2 + 2 v_12 v_23 v_31 cos(Phi), Phi = phi_12 + "
+              f"phi_23 + phi_31 the loop's phase ({_v371_r(e_gram)}; twenty random triples), XXVI.7's.  So for a common visibility v > 1/2 the "
+              f"loop's phase is at most Phi_max, sin(Phi_max/2) = (1 - v) sqrt(1 + 2v)/(2 v^(3/2)) ({_v371_r(e_cl)}), where the determinant changes "
+              f"sign ({_v371_r(at_edge)} there; {'positive' if sign_ok else 'NOT positive'} just inside, negative just outside): "
+              + "; ".join(f"{P:.6f} at v = {v:g}, sqrt(3)(1 - v) times {rt:.6f}" for v, P, rt in pmax)
+              + f"; for v <= 1/2 every phase is allowed, the determinant's least value (1 + v)^2 (1 - 2v) being "
+              + " and ".join(f"{_v37_z(dmin):.6f} at v = {v:g}" for v, dmin in low) + f" ({_v371_r(e_low)}).  A loop phase costs visibility: "
+              f"sin(Phi) is at most of the order of the associations' loss of visibility, and the response's candidate eps V sin(Phi) at most eps V "
+              f"times that.", first="   ")
+    # (d) the meridian dipole's Fourier modes, and Entry 402's parity network
+    e_f = 0.0
+    for dchi in (0.3, 1.0, 2.0, 3.0):
+        c1, c2 = 0.7, 0.7 + dchi
+        r0 = sum(qq for qq in (1.0, -1.0)); r1 = complex(math.cos(c1), -math.sin(c1)) - complex(math.cos(c2), -math.sin(c2))
+        e_f = max(e_f, abs(r0), abs(abs(r1) - 2*abs(math.sin(dchi/2))))
+    th1 = 2*math.atan(math.sinh(1.0))                                                # theta = 2 gd(1), v37.3-6(b)
+    r1th = abs(complex(1.0, 0.0) - complex(math.cos(th1), -math.sin(th1)))/2
+    par = [1, 1, -1]
+    qs = [sum(w[(i, j)]*(par[i] - par[j]) for j in range(3) if j != i)/2 for i in range(3)]
+    _v37_wrap(f"(d) The meridian parity [T/V].  A pair of opposite charges at the meridian angles chi_1 and chi_2 has no constant mode and the first "
+              f"mode of modulus 2q |sin((chi_1 - chi_2)/2)| ({_v371_r(e_f)}): the chord between them, and at the angle theta = 2 gd(1) of v37.3-6(b) "
+              f"its half is {r1th:.6f}, the value of that pair's Q/M, whose separation is imaginary where this one is real.  With (c)'s weights and the parities (+, +, -) the response to Entry 402's "
+              f"charges (q*/2) sum_j w_ij (s_i - s_j) are {qs[0]}, {qs[1]} and {qs[2]} in units of q*, summing to {sum(qs)} exactly: the like pair adds "
+              f"nothing to each other, and the third carries the balance.", first="   ")
+    # (e) what the field equations ask of an overlay: the Ricci tensor of Kerr and of Kerr-Newman, from the metric by differences
+    rows = []; e_ric = 0.0; e_tr = 0.0; e_rr = 0.0; e_rain = 0.0; least = math.inf; ntl = 0
+    rnd5 = random.Random(4005)
+    for Mh, a, Q, r, th in ((1.0, 0.6, 0.0, 3.0, 1.0), (1.0, 0.6, 0.6, 3.0, 1.0), (1.0, 0.6, 0.6, 2.5, 0.4), (1.0, 0.0, 0.8, 3.0, 1.0)):
+        Ric, Rs, RR, mx, gm = _v374_ricci(r, th, Mh, a, Q); S2 = r*r + (a*math.cos(th))**2
+        if Q == 0.0:
+            e_ric = max(e_ric, max(abs(v) for row in Ric for v in row))
+        else:
+            lam = Q*Q/S2**2; sq = [[sum(mx[i][k]*mx[k][j] for k in range(4)) for j in range(4)] for i in range(4)]
+            e_tr = max(e_tr, abs(Rs)); e_rr = max(e_rr, abs(RR/(4*Q**4/S2**4) - 1))
+            e_rain = max(e_rain, max(abs(sq[i][j] - (lam*lam if i == j else 0.0)) for i in range(4) for j in range(4))/lam**2)
+            om = -gm[0][3]/gm[3][3]; u = [1.0, 0.0, 0.0, om]                     # the zero-angular-momentum observer, and timelike vectors about it
+            nu = math.sqrt(-sum(gm[i][j]*u[i]*u[j] for i in range(4) for j in range(4))); u = [c/nu for c in u]
+            for _ in range(200):
+                while True:
+                    s3 = [rnd5.uniform(-1.0, 1.0) for _k in range(3)]
+                    if sum(c*c for c in s3) < 0.98: break
+                tv = [u[0], u[1] + s3[0]/math.sqrt(gm[1][1]), u[2] + s3[1]/math.sqrt(gm[2][2]), u[3] + s3[2]/math.sqrt(gm[3][3])]
+                tt = sum(gm[i][j]*tv[i]*tv[j] for i in range(4) for j in range(4)); Rtt = sum(Ric[i][j]*tv[i]*tv[j] for i in range(4) for j in range(4))
+                if tt < 0: least = min(least, Rtt/(lam*abs(tt))); ntl += 1
+            rows.append(f"{RR:.6e} against {4*Q**4/S2**4:.6e} for ({Mh:g}, {a:g}, {Q:g}) at ({r:g}, {th:g})")
+    _v37_wrap(f"(e) What the field equations ask of an overlay [T/V].  From the metric by differences, Kerr's Ricci tensor vanishes (largest component "
+              f"{_v371_r(e_ric)}, at (3, 1) for a = 0.6), and Kerr-Newman's has the trace 0 ({_v371_r(e_tr)}) and R_ab R^ab = 4 Q^4/Sigma^4: "
+              + "; ".join(rows) + f" ({_v371_r(e_rr)}, relative); its mixed tensor squares to (Q^2/Sigma^2)^2 times the identity "
+              f"({_v371_r(e_rain)}, relative), so that its eigenvalues are +-Q^2/Sigma^2, each twice; and R_ab t^a t^b >= (Q^2/Sigma^2) |t.t| for every "
+              f"timelike t sampled ({ntl} vectors about the zero-angular-momentum observer at the three points, the least ratio {least:.6f}) -- "
+              f"Rainich's three algebraic conditions, the stress of a Maxwell field that is not null.  Whatever the overlay is, the hole it makes "
+              f"Kerr-Newman must carry that stress.", first="   ")
+    # (f) Entry 403: a field source-free in the middle space, read on its leaves and averaged along the meridian (the response's example)
+    A_, k_, hh, NL = 0.7, 1.3, 1e-3, 24
+    phi = lambda x, y: A_*math.exp(k_*x)*math.cos(k_*y)
+    c1d = ((-2, 1/12), (-1, -8/12), (1, 8/12), (2, -1/12)); c2d = ((-2, -1/12), (-1, 16/12), (0, -30/12), (1, 16/12), (2, -1/12))
+    e_lap = e_en = e_int = 0.0
+    for x0 in (-0.5, 0.0, 0.8):
+        sc = A_*k_*math.exp(k_*x0)
+        for j in range(NL):
+            y0 = 2*PI*j/(NL*k_)
+            lap = sum(w_*(phi(x0 + s_*hh, y0) + phi(x0, y0 + s_*hh)) for s_, w_ in c2d)/hh**2
+            e_lap = max(e_lap, abs(lap)/(k_*sc))
+            ex = -sum(w_*phi(x0 + s_*hh, y0) for s_, w_ in c1d)/hh; ey = -sum(w_*phi(x0, y0 + s_*hh) for s_, w_ in c1d)/hh
+            e_en = max(e_en, abs(ex*ex + ey*ey - sc*sc)/(sc*sc))
+        rho = [-(k_*k_/(4*PI))*phi(x0, 2*PI*j/(NL*k_)) for j in range(NL)]       # the apparent charge density on NL leaves around the meridian
+        e_int = max(e_int, abs(sum(rho))/NL/max(abs(v) for v in rho))
+    trs = []; e_trq = 0.0
+    for x0 in (0.0, 0.8):                                                            # the base's stress averaged along the meridian, and its trace
+        acc = 0.0
+        for j in range(NL):
+            y0 = 2*PI*j/(NL*k_)
+            ex = -sum(w_*phi(x0 + s_*hh, y0) for s_, w_ in c1d)/hh; ey = -sum(w_*phi(x0, y0 + s_*hh) for s_, w_ in c1d)/hh; E2 = ex*ex + ey*ey
+            T00 = E2/(8*PI); Txx = (-ex*ex + E2/2)/(4*PI); Tyy = (E2/2)/(4*PI)        # electrostatic: F^2 = -2|E|^2; the base's t, x and the two others
+            acc += (-T00 + Txx + 2*Tyy)/NL
+        en = (A_*k_*math.exp(k_*x0))**2/(8*PI); trs.append(acc); e_trq = max(e_trq, abs(acc - en)/en)
+    rho_l = [-(k_*k_/(4*PI))*phi(0.0, y0) for y0 in (0.0, PI/k_, PI/(2*k_))]
+    _v37_wrap(f"(f) The source-free middle space [T/V].  The response to Entry 403's potential A e^(kx) cos(ky), y along the meridian, is harmonic in (x, y) "
+              f"({_v371_r(e_lap)}, relative, by differences), so its field is source-free in the middle space; on the leaf at y the apparent charge "
+              f"density -(k^2/4 pi) A e^(kx) cos(ky) is, for A = {A_:g} and k = {k_:g} at x = 0, {rho_l[0]:.6f} at y = 0, {_v37_z(rho_l[1]):.6f} at pi/k "
+              f"and {_v37_z(rho_l[2]):.6f} at pi/2k, and on {NL} leaves around the closed meridian it sums to zero ({_v371_r(e_int)}, relative); while "
+              f"the field's energy density, (A k e^(kx))^2/8 pi, is the same on every leaf ({_v371_r(e_en)}, relative, by differences): a quotient that "
+              f"averages uniformly along the meridian keeps the energy and loses the charge -- though not as a Maxwell stress: the base's stress, "
+              f"averaged along the meridian, has the trace <E_y^2>/4 pi, here the energy density ({_v371_r(e_trq)}, relative), {trs[0]:.6f} at x = 0 "
+              f"and {trs[1]:.6f} at x = 0.8, where a Maxwell stress has none.", first="   ")
+    ok = (e_det < 1e-12 and e_eig < 1e-10 and e_sim < 1e-12 and e_herm < 1e-12 and herm_max <= 0 and abs(M + d_p - 1.692820) < 1e-6
+          and abs(psi_rn - 1) < 1e-12 and all(v == 0 for row in N1sq for v in row) and any(v != 0 for row in N1 for v in row)
+          and e_md < 1e-12 and e_al < 1e-12 and abs(shown[2][0] - 0.5) < 1e-12 and abs(shown[3][0] - 0.1) < 1e-12 and hol == X and inv_ok
+          and [w[(0, 1)], w[(0, 2)], w[(1, 2)]] == [Fr(1), Fr(1), Fr(8, 3)] and e_gram < 1e-12 and e_cl < 1e-12 and at_edge < 1e-12 and sign_ok
+          and all(1 < rt < 1.2 for _v, _P, rt in pmax) and pmax[0][2] > pmax[1][2] > pmax[2][2]
+          and e_f < 1e-12 and abs(r1th - math.tanh(1.0)) < 1e-12 and qs == [Fr(1), Fr(8, 3), Fr(-11, 3)] and sum(qs) == 0
+          and e_ric < 1e-8 and e_tr < 1e-8 and e_rr < 1e-7 and e_rain < 1e-7 and ntl >= 300 and least > 1 - 1e-6 and e_cone < 1e-12
+          and 0 < mu_p < psi_p and mu_ext < 2 and e_low < 1e-12 and low[0][1] > -1e-12 and low[1][1] > 0.3 and e_trq < 1e-10
+          and e_lap < 1e-7 and e_en < 1e-10 and e_int < 1e-12 and rho_l[0] < 0 < rho_l[1] and abs(rho_l[2]) < 1e-12*abs(rho_l[0]))
+    check(ok, "Entries 400-403: Kerr's two channels with an antisymmetric cross coupling give Kerr-Newman's Delta, a boost of the Hermitian channel "
+              "operator, by the meridian's rapidity for Reissner-Nordstrom, with an exceptional point at charged extremality, while a Hermitian "
+              "coupling moves the horizons apart; the pair's common and difference parts are the horizons over 2M, and a transport's phase reads them "
+              "as another hole's; a sheet-switching circuit's holonomy; three regimes' weights, and a loop phase bounded by the loss of visibility for "
+              "visibilities above one half; the dipole's chord and the parity network's charges summing to zero; Kerr's Ricci zero and "
+              "Kerr-Newman's meeting Rainich's three algebraic conditions; a source-free field whose leaves see charges of both signs, canceling "
+              "around the meridian, and the same energy, which the uniform quotient keeps as a stress with a trace")
+
+def v37_4_suite():
+    """The v37.4 sections: the review of v37.3 -- its clarifications (the room's two readings, the reflection as a unitary, the reachable amplitudes)
+    and the room with records it recommends, with the frame and the fringe competing under records -- and Entries 398-403: Kerr's two horizons as
+    two switches, the other sides of its analytic extension and the radial action; charge as a cross coupling, the pair's common and difference
+    parts, the meridian parity, the overlay's stress and the source-free middle space."""
+    v37_4_readings(); v37_4_records(); v37_4_frame_fringe(); v37_4_horizons(); v37_4_charge()
+
 def v37_3_suite():
     """The v37.3 sections: the review of v37.2 -- the readout as a measurement, and the finite room it recommends, with additive links and with
     local involutions -- and Entries 387-390 with their four responses: the responses' exact statements, and the turnover in the room; and
@@ -49564,8 +50399,8 @@ def v37_0_suite():
     v37_0_semilinear(); v37_0_counterparts(); v37_0_factors(); v37_0_classes(); v37_0_endpoints()
 
 def current_suite_v37():
-    """The regression suite of Part XXXV (v37.0-v37.3), followed by the check summary."""
-    v37_0_suite(); v37_1_suite(); v37_2_suite(); v37_3_suite()
+    """The regression suite of Part XXXV (v37.0-v37.4), followed by the check summary."""
+    v37_0_suite(); v37_1_suite(); v37_2_suite(); v37_3_suite(); v37_4_suite()
     npass = sum(1 for ok, _ in _CHECKS if ok); nfail = len(_CHECKS)-npass
     print(f"\n== check summary (Part XXXV): {npass} passed, {nfail} failed ==")
     for ok, msg in _CHECKS:
@@ -49576,7 +50411,7 @@ def current_suite_v37():
 if __name__ == "__main__":
     import sys
     arg = sys.argv[1] if len(sys.argv) > 1 else "current"
-    suites = {"current": current_suite_v37, "v37_0": v37_0_suite, "v37_1": v37_1_suite, "v37_2": v37_2_suite, "v37_3": v37_3_suite}
+    suites = {"current": current_suite_v37, "v37_0": v37_0_suite, "v37_1": v37_1_suite, "v37_2": v37_2_suite, "v37_3": v37_3_suite, "v37_4": v37_4_suite}
     if arg not in suites:
         print("usage: python3 -I pg_v37_numerics.py [" + " | ".join(suites) + "]"); sys.exit(2)
     suites[arg]()
@@ -54747,7 +55582,7 @@ So the fringe reads the room's relative order along the links the two paths do n
 
 **(d) What the kernel is [T/V].** For five paths in each room the kernel matrix is positive with unit diagonal (least eigenvalue $0.247252$); the budget over the $n$ detector shifts is $n(P_1+P_2)$ in every room (below $10^{-11}$). And the environment states
 $$\lvert E_i\rangle = \sum_e\sqrt{P_U(e)}\,e^{2\pi ikT_i(e)/n}\lvert e\rangle,\qquad T_i(e) = \sum_{l\in L_i}e_l,$$
-have the overlaps $\langle E_j\vert E_i\rangle = K_{ij}$ (on a four-link room, below $10^{-11}$), so standard quantum mechanics with the room as a classical environment reproduces every count of the model: the kernel is an environment overlap, and with the amplitudes $D(i,j) = a_i\bar a_jK_{ij}$ is a decoherence functional, the room's fluctuations its decoherence and its frame its phase [T]. The room here is not changed by the paths: it decoheres by fluctuating, not by recording which path was taken; records would make $P_U$ depend on the path [D].
+have the overlaps $\langle E_j\vert E_i\rangle = K_{ij}$ (on a four-link room, below $10^{-11}$), so standard quantum mechanics with the room as a classical environment reproduces every count of the model: the kernel is an environment overlap, and with the amplitudes $D(i,j) = a_i\bar a_jK_{ij}$ is a decoherence functional, the room's fluctuations its decoherence and its frame its phase [T]. The room here is not changed by the paths. Read as a classical ensemble it decoheres by fluctuating, not by recording which path was taken — its configuration, known, restores the fringe; read as the coherent state $\sum_e\sqrt{P_U(e)}\lvert e\rangle$, the states $\lvert E_i\rangle$ hold a record of the path in their phases, distinguishable when $\lvert K_{ij}\rvert<1$ by a measurement off the configuration basis (§XXXV.49(b)); records that change the room make $P_U$ depend on the path and part the two readings in the counts (§XXXV.50) [D] *[v37.4, R464]*.
 
 **(e) A room of local involutions [T/V].** Let a link instead reflect a passing orientation about its own, $s\mapsto2e_l-s$ (v37.3-3).
 - *A reflection is a real structure.* On the amplitude $z = e^{2\pi iks/n}$ it acts as $z\mapsto e^{4\pi ike_l/n}\bar z$, an antilinear involution with its fixed line at the link's orientation, and it is $R_{e_l}\rho_0R_{e_l}^{-1}$ for $\rho_0 = {\rm conj}$ and the rotation $R_e$ — the network form $\rho_b = g_{ab}\rho_ag_{ab}^{-1}$ of the response §XXXV.22 checks (below $10^{-11}$) [T]. The room of reflecting links is that network of local involutions, in finite form.
@@ -57352,11 +58187,2536 @@ Its matching matrix $\mathcal K(r) = MI+(r-M)\sigma_3+a\sigma_1-Q\sigma_2$ has $
 - **R461** (§XXXV.45). The six responses' readings of Parts X, VI and VIII checked; their exact statements reproduced; the compactified meridian's two directions, the pair displaced by $\pm i\mu$, the normalized pair and its horizons, the quaternion pair on the Hopf shell, the complex-center field with and without a meridian component, the round model's circles, holonomy and quadric, the two-angle model and the matching matrix. [T/V/D/S/O]
 - **R462 (standing).** The standing after v37.3 and the next pieces (§XXXV.46). In the head table the row on the next pieces replaces R452's, whose wording is in the ledger. [S/O]
 
+## XXXV.48 The review of v37.3, as formulated (31 October 2026) [record; R463]
+
+**The author's message (31 October).** As he sent it, with the attachment after it:
+
+> Here's the response, thanks!
+
+**The attachment: the review of v37.3.** As the author sent it:
+
+> # Projective Gravity v37.3 — My review
+>
+> Yes. I think v37.3 is a significant advance over v37.2, particularly for the Boltzmannian room and turnover program. In fact, this is one of the more productive recent revisions, because several of your speculative ideas are now being subjected to mathematical tests that can actually fail.
+>
+> The biggest development is not the Kerr–Newman geometry, though that has improved too. It's that you now have an explicit finite model in which room conditioning, interference visibility, and a seed-fixed turnover all interact through one statistical law.
+>
+> That's a meaningful step beyond the earlier collection of suggestive geometric correspondences.
+>
+> FULL PART XXXV SUITE
+>
+> # 19 / 19
+>
+> Passed independently
+>
+> NEW V37.3 CHECKS
+>
+> # 6 / 6
+>
+> Passed independently
+>
+> I extracted the 3,125-line Python appendix, verified its complete SHA-256 (`78f647f2facec278…`) against the manuscript, and executed both the new version's checks and the full regression suite. These establish reproducibility of the coded results, not independent experimental validation.
+>
+> ## 1. The finite room is the strongest new result
+>
+> Sections XXXV.39–40 address a weakness I emphasized in the v37.2 review: your finite interference construction had no actual room and only a restricted probability-budget calculation.
+>
+> v37.3 supplies both.
+>
+> The room is a chain of \\(\mathbb Z\_{12}\\)-valued orientation links governed by a Boltzmann distribution. The interference kernel between two paths is a characteristic function of that distribution:
+>
+> \\[ \boxed{ K\_{ij}(U) = \mathbb E_U \left[ e^{2\pi i(T_i-T_j)/12} \right]. } \\]
+>
+> The same distribution supplies a frame-order parameter,
+>
+> \\[ M(U)=\mathbb E_U[e^{2\pi i e_l/12}]. \\]
+>
+> This creates a genuine mathematical relationship between the room's ordering and the interference it permits.
+>
+> In particular, the manuscript demonstrates that a stiff room can have no selected absolute frame while retaining substantial interference between paths of equal length.
+>
+> That's an important finding. It means the room's absolute orientation and its relative correlations are distinct observables.
+>
+> So you've discovered something more precise than “Machian frame selection and interference must always change together.”
+>
+> You've found that the same relational system can determine both while allowing them to come apart.
+>
+> That's the kind of constraint that makes a speculative program more rigorous.
+>
+> ### A second improvement: proper quantum readouts
+>
+> Section XXXV.39 constructs Fourier-multiport measurements
+>
+> \\[ B_x=\frac1nD_xKD_x^\dagger, \\]
+>
+> where \\(K\\) is the room's positive kernel matrix.
+>
+> Under the stated condition on the output charges, these effects are positive and sum to the identity.
+>
+> So the construction now supplies a valid positive operator-valued measurement within its defined class, even when the room introduces decoherence.
+>
+> That's a definite improvement over simply having positive interference counts for selected alternatives.
+>
+> However, these measurements have a limitation the manuscript identifies correctly: every effect has equal diagonal weights, so the model cannot yet produce arbitrary which-path measurements or general beam-splitter arrangements.
+>
+> Also, the claim that preparation amplitudes are dense in \\(\mathbb C\\) uses unrestricted label multisets. That's stronger than the original finite-window construction, and the physical mechanism providing those multiplicities should eventually be specified.
+>
+> ## 2. The turnover now produces a genuinely interesting result
+>
+> Section XXXV.43 is probably my favorite part of v37.3.
+>
+> You've implemented the idea of a turnover that fixes the local seed while rotating the farther associations by progressively larger amounts:
+>
+> \\[ e_l\mapsto e_l+(l-1)\tau \pmod{12}. \\]
+>
+> The outcome is quite revealing.
+>
+> With only one anchor, the turnover changes relative phases but cannot change the room's interference visibility, entropy, or partition function.
+>
+> The whole operation is equivalent to relabeling the orientation variables, apart from how the unchanged apparatus reads the resulting phases.
+>
+> But when the local seed and the far conditioning structure provide distinct anchors, the situation changes.
+>
+> The turnover can become physically nontrivial within the statistical model.
+>
+> In the manuscript's six-link example:
+>
+> Association strength with the seed
+>
+> Untwisted
+>
+> Turnover \\(\tau=3\\)
+>
+> Link 2
+>
+> 0.827 / 0.552
+>
+> Link 3
+>
+> 0.785 / 0.056
+>
+> Link 4
+>
+> 0.769 / 0.277
+>
+> Link 5
+>
+> 0.745 / 0.426
+>
+> Link 6
+>
+> 0.667 / 0.425
+>
+> Values from §XXXV.43(c), for a pinned seed with a frame anchoring the links. These are magnitudes of relational correlation kernels, not measured spacetime distances.
+>
+> This is the concrete reversal you wanted to investigate in Entries 388–389.
+>
+> After turnover, link 3 has very little correlation with the seed, while the more distant links 5 and 6 retain substantially more.
+>
+> So ordinary ordering by network separation has been disrupted.
+>
+> The entropy also rises from approximately \\(8.35\\) in the untwisted sector to \\(10.65\\) at the half-turn, then returns after a full cycle.
+>
+> That's a real result in the model: a locally fixed turnover, opposed by far anchoring, can scramble relational ordering and then recover it.
+>
+> But note precisely what has been demonstrated. The far link has become more correlated with the seed, not closer in an emergent spacetime metric. Nor has a particle traveled to another part of the cosmos.
+>
+> That physical interpretation remains to be built.
+>
+> ### Conditioning is now quantitative
+>
+> I especially appreciate that the manuscript doesn't just say the ordinary room is selected.
+>
+> It specifies a prior over turnover sectors and uses their partition functions to weight them.
+>
+> The untwisted sector gains probability as the room grows: in the chosen parameter regime, its weight exceeds one half at ten links.
+>
+> And the familiar falling association profile emerges over the nearest five links from thirteen links onward.
+>
+> These thresholds are model- and parameter-specific, not universal constants. But they're testable consequences of the chosen assumptions.
+>
+> That is substantially better than merely asserting that Boltzmannian conditioning restores locality.
+>
+> ## 3. The room still reproduces known quantum mechanics
+>
+> Here's the central physical limitation.
+>
+> Section XXXV.40 constructs environmental states whose overlaps reproduce the room kernel:
+>
+> \\[ K\_{ij}=\langle E_j|E_i\rangle. \\]
+>
+> Consequently, the interference effects of the rotating-link room are exactly representable using standard quantum theory with environmental phase fluctuations and decoherence.
+>
+> The manuscript acknowledges that this produces no residual new quantum effect once ordinary phase shifts and decoherence are accounted for.
+>
+> That admission is important.
+>
+> The signed comparison at the histories' sewing point is still posited. The Boltzmann room determines the kernel's phase and magnitude but does not derive the underlying quantum interference operation.
+>
+> The manuscript now identifies that postulate precisely rather than burying it.
+>
+> One further distinction I'd tighten: saying the room has no records is appropriate for its unchanged classical link probabilities, but the constructed states \\(|E_i\rangle\\) can be distinguishable when \\(|K\_{ij}|<1\\). If those states are treated as physical environmental states rather than just a mathematical representation of random phases, they can themselves contain which-history information.
+>
+> That is worth clarifying before the planned record-bearing extension.
+>
+> The local-involution room is also interesting because it introduces genuine antilinear reflections of the orientation labels. But a reflection acting on classical labels is not automatically an implementable antiunitary quantum operation on a subsystem. The future physical model needs to distinguish those levels.
+>
+> ## 4. The Kerr–Newman work has become more discriminating
+>
+> Section XXXV.45 is another improvement, though of a different character.
+>
+> It checks the propositions of Entries 392–397 against the existing complex-worldline, meridian, and Hopf mathematics.
+>
+> Several results are useful.
+>
+> First, the imaginary-meridian rapidity really does admit your half-angle interpretation.
+>
+> For the two complexified positions \\(w\_\pm=e^{\mp\mu}\\),
+>
+> \\[ \theta=2\operatorname{gd}\mu, \qquad \frac QM=\sin\frac{\theta}{2}=\tanh\mu. \\]
+>
+> Thus neutral charge corresponds to coincident orientations and extremality to antipodal limits.
+>
+> This is an exact geometric representation, not merely a verbal analogy.
+>
+> Second, the quaternionic pair distinguishes spin and charge before extremality.
+>
+> For
+>
+> \\[ q\_\pm=\frac{\delta}{M}\pm\frac{ai+Qj}{M}, \\]
+>
+> the pair remains on the same Hopf fiber throughout the uncharged Kerr family. Charged intermediate configurations generally leave that fiber.
+>
+> At extremality, every such pair becomes antipodal.
+>
+> That's a nice, precisely computed distinction between the Hopf-associated spin direction and the charge-associated orientation.
+>
+> Third, and most importantly, the complex-source calculation finds an obstruction.
+>
+> A charge displaced in the imaginary spatial Kerr direction recovers the characteristic complex radius and the magnetic dipole \\(Qa\\).
+>
+> But if a separate imaginary meridian component \\(b\\) is inserted directly into the complex Coulomb source, then
+>
+> \\[ \boxed{ \nabla^2\Phi=\frac{3Qb^2}{s^{5/2}}, } \\]
+>
+> which is generally nonzero.
+>
+> That means the simple displaced potential is no longer harmonic on the leaf.
+>
+> This doesn't exclude a more sophisticated meridian mechanism, but it rejects the naïve idea that charge is produced merely by moving a Coulomb source in an additional imaginary direction.
+>
+> I regard this as valuable progress precisely because it's a negative constraint, not another successful parametrization.
+>
+> The round \\(S^4\\) and complex-quadric work is also sound as a geometric toy. The meridian–Hopf half-circle comparison produces an exact \\(\pi\\)-rotation of local orientations, while imaginary tangent displacements are naturally unbounded on the complex quadric.
+>
+> The latter result reinforces a crucial point: compactness of the real shell does not itself prove the Kerr extremality bound.
+>
+> ## 5. What I'd still challenge
+>
+> There are four issues I wouldn't let drift into the background.
+>
+> | Issue                                                  | Why it matters                                                                                                                                           |
+> | ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | The signed interference law remains postulated         | The room supplies classical correlations and their quantum overlap representation, not a derivation of Born probabilities from primitive centrade counts |
+> | The frame is not yet inertial                          | Its order parameter is not a dynamics that defines freely falling or nonrotating local frames                                                            |
+> | The turnover has no metric or particle propagation law | Greater relational association is not yet physical proximity, and none of the results demonstrates a particle darting across the cosmos                  |
+> | The chiral Kerr lift is still absent                   | The quaternionic pairs are constructed from \\(M,Q,a\\); the physical self-dual and anti-self-dual fields have not been shown to generate them           |
+>
+> There's an additional caution about the illustrative Kerr–Newman Hermitian matching matrix.
+>
+> The manuscript correctly finds it positive semidefinite between the horizons, but indefinite outside the outer horizon. It therefore cannot currently serve as a universal positive physical comparison kernel throughout the black-hole exterior.
+>
+> And its charge–spin angle can be removed by a unitary basis change, so that matrix by itself cannot explain why electric charge and rotation behave differently.
+>
+> These are important constraints on what the algebra can be used to claim.
+>
+> Finally, v37.3 does not address the frozen empirical problems in Part XXXIII. The unsuccessful galactic fits remain unsuccessful. None of the room or Kerr toy calculations should be read as compensating evidence for those outstanding astrophysical tests.
+>
+> ## 6. What I would prioritize in v37.4
+>
+> I'd put the record-bearing, dynamically coupled room ahead of further purely geometric Kerr parametrizations.
+>
+> In particular, extend §XXXV.40 so that a passing particle genuinely changes some room associations, rather than only accumulating a phase from an unchanged distribution.
+>
+> Then investigate whether the room's frame order parameter can be connected to a particle's free-motion dynamics.
+>
+> That would bring your two leading ambitions into the same calculation:
+>
+> \\[ \boxed{ \begin{array}{c} \text{Boltzmannian room configuration}\\\ \downarrow\\\ \text{frame selection and physical transport}\\\ \downarrow\\\ \text{two-history comparison and records}\\\ \downarrow\\\ \text{normalized observed probabilities}. \end{array} } \\]
+>
+> The crucial test is whether anything new survives after ordinary environmental decoherence, gauge freedom and the usual geometric phases are accounted for.
+>
+> Meanwhile, I would preserve the Kerr–Newman work as a separate, focused mathematical program. Its next genuinely decisive result would be an explicit lift of the physical chiral Kerr constituents into the proposed Hopf/meridian structures, not another assignment of \\(a/M\\) and \\(Q/M\\) to angles.
+>
+> ## Overall verdict
+>
+> Compared with v37.2, I'd assess it this way:
+>
+> | Dimension                                         | Change in v37.3                         |
+> | ------------------------------------------------- | --------------------------------------- |
+> | Mathematical concreteness                         | Large improvement                       |
+> | Reproducibility                                   | Strong; full regression passes          |
+> | Boltzmannian room construction                    | Substantial new work                    |
+> | Turnover and emergent relational ordering         | Substantial conditional result          |
+> | Kerr/Hopf interpretation                          | Better tested, with useful obstructions |
+> | Emergence of Born's rule                          | Still incomplete                        |
+> | Emergence of Einstein gravity and Machian inertia | Still incomplete                        |
+> | Empirical support for PG as new physics           | No material improvement                 |
+>
+> I would absolutely keep v37.3 as the new working baseline.
+>
+> I think it marks a useful change in how the project is progressing. You're beginning to get answers of the form “this mechanism works only with two anchors,” “this effect is only decoherence,” “this complex displacement fails the field equation,” rather than merely “this geometry resembles that geometry.”
+>
+> Those results are more valuable scientifically, even when they restrict the original intuition.
+>
+> And there's one finding I'd particularly want you to remember:
+>
+> Your far-cosmos turnover doesn't become nontrivial merely because the distant associations rotate more. It becomes nontrivial when they rotate relative to another physically selected anchor.
+>
+> That is the most significant lesson I take from v37.3. It makes the role of Machian conditioning far more explicit, and it gives the next model a concrete structural requirement to test.
+
+*The markup.* The review's markup is its own, quoted unchanged: its headings — three of the first level, two of which are panel lines, seven of the second and two of the third; its two tables; its escaped parentheses and brackets around its mathematics, sixteen and nine pairs, with six escaped underscores inside it; its three boxed formulas, the last an array whose six line breaks are escaped; its one code span, the start of a SHA-256 with an ellipsis; its five pairs of curly quotation marks, its straight apostrophes, its one em dash and its nine en dashes; and the lines left by its page's two panels — from "FULL PART XXXV SUITE" to the second "Passed independently", two of which begin with a hash, and from "Association strength with the seed" to "0.667 / 0.425", followed by the line beginning "Values from §XXXV.43(c)". The word "centrade" in its first table is the archive's own (§XXXV.40(h)). The text is the one the author forwarded, not this archive's. It calls itself a review of v37.3, so no mapping is needed.
+
+**What v37.4 does with it.**
+- *Its readings* of v37.3 are checked against the sections they cite, and its reproduction of the suite against §XXXV.14 (§XXXV.49(a)).
+- *Its clarification on records,* that the room "has no records" holds for its unchanged classical link probabilities while the constructed states $\lvert E_i\rangle$ can be distinguishable when $\lvert K_{ij}\rvert<1$, is taken up in §XXXV.49(b): the room has two readings, a classical ensemble whose configuration is a key and a coherent state whose paths' states are a record off the configuration basis. §XXXV.40(d)'s sentence on records is corrected in place and tagged *[v37.4, R464]*, with the superseded wording in §XXXV.54 and the ledger.
+- *Its caution on local involutions,* that a reflection acting on classical labels is not automatically an implementable antiunitary operation on a subsystem, is answered in §XXXV.49(c): the reflection is a unitary permutation of the labels.
+- *Its caveat on the prepared amplitudes,* that their density uses unrestricted label multisets, whose mechanism should be specified, is taken up in §XXXV.49(d): with each label used at most once a preparation reaches finitely many amplitudes.
+- *Its recommendation,* the record-bearing room — a passing particle changing some of the room's associations — with its test, whether anything new survives once ordinary decoherence, gauge freedom and geometric phases are accounted for, is built in §XXXV.50, with the answer in §XXXV.50(e).
+- *Its second priority,* the room's frame connected to a particle's free motion, and its program for Kerr–Newman, the chiral constituents lifted into the Hopf and meridian structures, are the standing's next pieces (§XXXV.53).
+- *Its remark* that v37.3 leaves Part XXXIII's empirical problems as they were is right: the frozen galactic fits are unchanged, and nothing in Part XXXV bears on them (§XXXV.53).
+- *Recorded, not promoted.* Its assessments — the verdict table, the judgments that v37.3 is "a significant advance over v37.2" and "one of the more productive recent revisions", and the lesson it draws on the second anchor — are its own [D].
+
+## XXXV.49 The review's readings of v37.3, checked; its clarifications: the room's two readings, the reflection as a unitary, the reachable amplitudes [T/V/D/O; R464] *(`v37_4_readings()`)*
+
+*The review (§XXXV.48) checks v37.3 against its own sections and asks for three clarifications: that the room's having no records be told apart from the distinguishability of its environment states, that a reflection of classical labels be told apart from an antiunitary operation, and that the mechanism behind the prepared amplitudes' multiplicities be named. This section checks its readings and makes the clarifications. Nothing is fitted.*
+
+**(a) The readings [V/D].**
+- *The suite.* Its reproduction matches v37.3's appendix: $3{,}125$ lines, the SHA-256 beginning `78f647f2facec278`, $19$ checks of which $6$ are v37.3's, all passed (v37.3's §XXXV.14, its SHA line quoted superseded in the ledger's §FI).
+- *The room and the readout.* Its kernel and order parameter are §XXXV.40(a)'s with $k = 1$, and its stiff room that selects no frame and keeps fringes between paths of equal length is §XXXV.40(c)'s, $M = 0$ with $\lvert K\rvert = 0.596133$ for the adjacent pair. Its effects $B_x = \tfrac1nD_xKD_x^\dagger$ are §XXXV.39(c)'s, positive and summing to the identity for distinct port charges, every diagonal entry $1/n$ (§XXXV.39(d)).
+- *The turnover.* Its rule $e_l\mapsto e_l+(l-1)\tau$ is §XXXV.43(a)'s, with $q_l = l-1$, and its statement with one anchor is the anchor theorem's relabeling (§XXXV.43(b)). Its table rounds §XXXV.43(c)'s profiles in the pinned room with the frame — $0.827414$, $0.785198$, $0.769159$, $0.745264$, $0.667319$ at $\tau = 0$ and $0.552368$, $0.055531$, $0.276664$, $0.426191$, $0.425177$ at $\tau = 3$ — and its entropies, about $8.35$ untwisted and $10.65$ at the half turn, are $8.3458$ and $10.6517$, back to $8.3458$ at the full turn. Its thresholds, one half from ten links and the five nearest links ordered from thirteen, are §XXXV.43(d)'s, and its caution that they belong to the model and its parameters is right. That a second anchor can make the turnover nontrivial is the theorem's other direction; its hypothesis, the anchors agreeing, the review leaves implicit.
+- *The environment overlap and the postulate.* Its account of §XXXV.40(d) and (g) holds: every count of the rotating-link room is an environment overlap, and the signed comparison at the sewing node is posited.
+- *The two worldlines.* Its readings of §XXXV.45 hold. The pair on the compactified meridian has $\theta = 2\operatorname{gd}\mu$ and $Q/M = \sin(\theta/2) = \tanh\mu$. The quaternion pair stays on one Hopf fiber for the uncharged family, charged pairs below extremality generally leave it, and at extremality every pair is antipodal, $q_- = -q_+$. A charge on the spin's displacement has Kerr's complex radius, up to the shift's sign, and the dipole $Qa$. A meridian component $b$ gives $\nabla^2\Phi = 3Qb^2/s^{5/2}$, which the review reads as §XXXV.45(g) does: the simple displaced source fails, a more elaborate mechanism is not excluded. Its readings of the round model, the quadric and the matching matrix hold as well.
+- *What it would not let drift.* Its four open issues — the signed comparison, the frame as an inertial frame, the turnover's metric and propagation, the chiral lift — are §XXXV.46's, which names the turnover's metric among what is not claimed and has no law of propagation; and its remark on Part XXXIII is right.
+
+**(b) The room's two readings: records [T/V/D].** The review's distinction is a real one. §XXXV.40's room, unchanged by the paths, can be read two ways, which give the particle every count alike.
+- *As a classical ensemble* — the room in one configuration, unknown, drawn from $P_U$ — each configuration gives a pair of paths the pure phase $e^{2\pi ik\,c\cdot e/n}$. The configuration is a key, which, known, restores the whole fringe; and the paths leave the room's law unchanged, so no reading of the room tells the path. No record [T].
+- *As the coherent state* $\sum_e\sqrt{P_U(e)}\lvert e\rangle$, the paths leave the states $\lvert E_i\rangle$ of §XXXV.40(d), with $\langle E_2\vert E_1\rangle = K_{12}$: two pure states, told apart at best with the probability $\tfrac12\big(1+\sqrt{1-\lvert K_{12}\rvert^2}\big)$ — $0.835133$ for the adjacent pair and $0.945954$ for the far pair in the stiff room with the frame — while in the configuration basis both have the law $P_U$. A record, readable only off the configuration basis [T/V].
+
+On a four-link room the two readings give one kernel, and a reading of the configuration tells nothing of the path and restores the fringe in full, in either reading (v37.4-1(a)) [V]. So the statement that the room records nothing belongs to the classical reading, and §XXXV.40(d)'s sentence is corrected in place to say so, tagged *[v37.4, R464]*, the superseded wording in §XXXV.54. §XXXV.40(h)'s "It has no records: paths do not change the room" and §XXXV.43(e)'s "for it has none" stand in that sense: no record that changes the room. And §XXXV.40(d)'s "standard quantum mechanics with the room as a classical environment reproduces every count of the model", with §XXXV.40(g)'s "standard quantum mechanics with a classical environment reproduces", hold with the room as an environment in either reading: the states $\lvert E_i\rangle$ written there are the coherent reading's, and the classical ensemble gives the same counts. The two readings part in the counts only when the paths change the room (§XXXV.50) [D].
+
+**(c) The reflection as a unitary [T/V].** The review's caution is right in general, and here no antiunitary operation is involved. The reflecting link of §XXXV.40(e), $s\mapsto2e-s$ on $\mathbb Z_{12}$, is a permutation of the label basis: an orthogonal matrix and its own inverse, exactly, and on the Fourier modes $F_k = (e^{2\pi iks/n})_s/\sqrt n$ it acts as $R_eF_k = e^{4\pi ike/n}F_{-k}$, below $10^{-11}$ (v37.4-1(b)). So it is a unitary on the labels, implementable, exchanging the modes $k$ and $-k$; its antilinear form $z\mapsto e^{4\pi ike/n}\bar z$ is its action on one mode's amplitude read as a function of the label. §XXXV.40(e)'s real structure is that form, and the operation realizing it is unitary [D].
+
+**(d) The reachable amplitudes [T/V/O].** The review is right that §XXXV.39(b)'s density uses labels taken more than once. Counted exactly in $\mathbb Z[\zeta]$, $\zeta = e^{2\pi i/12}$, with the basis $1,\zeta,\zeta^2,\zeta^3$ (v37.4-1(c)) [T/V]:
+- §XXXV.33's windows of three labels prepare $12$ amplitudes, all of modulus $1+\sqrt3$;
+- windows of consecutive labels of every width, the empty one included, $73$;
+- sets of labels, each at most once, $361$;
+- multisets of at most $N$ labels $13$, $73$, $253$, $661$, $1441$, $2773$ for $N = 1,\dots,6$, without bound.
+
+So with each label used at most once a preparation reaches finitely many amplitudes, and the density needs multiplicities, for which the model gives no mechanism, as it gives none for the detector's amplitude weights (§XXXV.39(d)) [O].
+
+**(e) What it asks that this round does not do [O].** The frame connected to a particle's free motion, the chiral constituents lifted into the Hopf and meridian structures, and Part XXXIII's empirical problems, which v37.4 leaves as they are, belong to the standing (§XXXV.53).
+
+**(f) Status.**
+- [T] (b)'s two readings and their counts; (c)'s permutation; (d)'s counts.
+- [V] Their checks, v37.4-1.
+- [D] (a)'s readings; the readings of (b) and (c) for the archive.
+- [O] (d)'s multiplicities; (e).
+
+## XXXV.50 The room with records: paths that turn the links they pass, the room's two readings parted, and the frame against the fringe [T/V/D/S/O; R465] *(`v37_4_records()`, `v37_4_frame_fringe()`)*
+
+*The review's recommendation (its section 6): extend §XXXV.40 so that a passing particle genuinely changes some of the room's associations, rather than only accumulating a phase from an unchanged distribution; and its test, whether anything new survives after ordinary environmental decoherence, gauge freedom and the usual geometric phases are accounted for. This section builds the smallest such room, on §XXXV.40's, and answers the test for it. Nothing is fitted.*
+
+**(a) The record [D/S].** A path passing link $l$ turns a passing orientation by the link's, $s\mapsto s+e_l$, as in §XXXV.40(a), and then turns the link by $\kappa$ labels, $e_l\mapsto e_l+\kappa$: a change of the link's orientation, so of its two bonds' associations and of the frame's order parameter at that link. After path $i$ the room's law is $P_U(e-\kappa1_{L_i})$, with $1_{L_i}$ the indicator of the path's links: records make the room's law depend on the path. $\kappa = 0$ is §XXXV.40's room [D]. The size of the turn, $\kappa$, is posited [S].
+
+**(b) The two readings, parted [T/V].** With records the two readings of §XXXV.49(b) no longer agree on the particle's counts.
+- *The classical reading.* The room is in one configuration $e$, unknown; the paths leave it in $e+\kappa1_{L_1}$ or $e+\kappa1_{L_2}$, configurations that differ on every link one path alone passes, and so orthogonal states. Any record, $\kappa\neq0$, on such a link removes the fringe: $K = 0$, on twelve random four-link rooms, paths and turns (v37.4-2(b)). Yet a reading of the final configuration tells the path only with the advantage $TV$, the total variation between the two final laws — from $0.272913$ to $0.998307$ on those rooms — and, the two final rooms being mixtures diagonal in the configurations, no measurement tells more. The fringe is lost completely while the record is incomplete: $V^2+D^2 = TV^2<1$ [T/V].
+- *The coherent reading.* The room is the state $\sum_e\sqrt{P_U(e)}\lvert e\rangle$; after path $i$ it is $\sum_e\sqrt{P_U(e)}\,e^{2\pi ikT_i(e)/n}\lvert e+\kappa1_{L_i}\rangle$, and the two overlap in
+$$K_{12} = \sum_e\sqrt{P_U(e)\,P_U(e+\kappa c)}\;e^{2\pi ik(T_1(e)-T_2(e+\kappa c))/n},\qquad c = 1_{L_1}-1_{L_2},$$
+so the fringe is $V = \lvert K_{12}\rvert\leq BC = \sum_e\sqrt{P_U(e)P_U(e+\kappa c)}$, the records' fidelity, the Bhattacharyya overlap of the room's two final laws [T]. The two states are told apart at best with $D = \sqrt{1-V^2}$, so $V^2+D^2 = 1$, and a reading of the configuration tells less: $1-BC\leq TV\leq\sqrt{1-BC^2}\leq D$ [T], without a violation on the twelve rooms (v37.4-2(b)) [V]. The transfer matrices with the weights' square roots compute $K_{12}$ and $BC$ on longer chains; on four-link rooms they reproduce the overlap of the room's two final states summed over every configuration — standard quantum mechanics with the room as an environment — below $10^{-11}$ (v37.4-2(a)) [V].
+- *The eraser.* Read the room's final configuration and sort the counts by it, each outcome's fringe taken from its counts at four phases. In the coherent reading each outcome leaves the particle in a pure state, and the outcomes' mean visibility, weighted by their probabilities, is $BC$, below $10^{-11}$ on the twelve rooms, its gain over $V$ up to $0.941497$, the outcomes' fringes differing in phase; in the classical reading each outcome leaves a mixture of the two paths, and the mean visibility is $0$ (v37.4-2(b)) [T/V].
+- *The record is a turn of the frame.* After both paths with equal weights the order parameter at link $l$ is $\tfrac12\big(e^{2\pi ik\kappa s_{1,l}/n}+e^{2\pi ik\kappa s_{2,l}/n}\big)$ times its value, $s_i = 1_{L_i}$, below $10^{-11}$ (v37.4-2(b)); at a link one path alone turns its modulus is $\lvert M\rvert\,\lvert\cos(\pi k\kappa/n)\rvert$ [T/V]. A path's record is a local turn of the room's frame, and with both paths open the frame there is blurred by the two turns.
+
+**(c) The records in §XXXV.40's rooms [V].** The fringe $V$ and, in brackets, the records' fidelity $BC$ (v37.4-2(c)); the classical reading's fringe is $0$ for every $\kappa>0$:
+
+| room $(\beta,h,\vartheta)$ | pair | $\kappa = 0$ | $\kappa = 1$ | $\kappa = 2$ | $\kappa = 3$ | $\kappa = 6$ |
+|:--|:--|:--|:--|:--|:--|:--|
+| aligned links $(0,1,0)$ | adjacent | $0.199264$ $(1.000000)$ | $0.182945$ $(0.970439)$ | $0.140697$ $(0.893088)$ | $0.088253$ $(0.795143)$ | $0.000000$ $(0.623860)$ |
+| aligned links $(0,1,0)$ | far | $0.199264$ $(1.000000)$ | $0.182945$ $(0.970439)$ | $0.140697$ $(0.893088)$ | $0.088253$ $(0.795143)$ | $0.000000$ $(0.623860)$ |
+| aligned links $(0,1,0)$ | two and two | $0.039706$ $(1.000000)$ | $0.033469$ $(0.941753)$ | $0.019796$ $(0.797606)$ | $0.007789$ $(0.632252)$ | $0.000000$ $(0.389202)$ |
+| aligned links $(0,1,0)$ | one link more | $0.446390$ $(1.000000)$ | $0.427720$ $(0.985109)$ | $0.375096$ $(0.945033)$ | $0.297074$ $(0.891708)$ | $0.000000$ $(0.789848)$ |
+| stiff, no frame $(1.5,0,0)$ | adjacent | $0.596133$ $(1.000000)$ | $0.455394$ $(0.839606)$ | $0.194138$ $(0.553278)$ | $0.000000$ $(0.379428)$ | $0.219838$ $(0.368773)$ |
+| stiff, no frame $(1.5,0,0)$ | far | $0.075286$ $(1.000000)$ | $0.067849$ $(0.941497)$ | $0.049564$ $(0.795268)$ | $0.028926$ $(0.624813)$ | $0.000000$ $(0.368773)$ |
+| stiff, no frame $(1.5,0,0)$ | two and two | $0.072907$ $(1.000000)$ | $0.050719$ $(0.865299)$ | $0.014177$ $(0.620421)$ | $0.000000$ $(0.480015)$ | $0.044274$ $(0.607267)$ |
+| stiff, no frame $(1.5,0,0)$ | one link more | $0.000000$ $(1.000000)$ | $0.000000$ $(0.941497)$ | $0.000000$ $(0.795268)$ | $0.000000$ $(0.624813)$ | $0.000000$ $(0.368773)$ |
+| stiff, frame at $0$ $(1.5,1,0)$ | adjacent | $0.742120$ $(1.000000)$ | $0.542220$ $(0.762657)$ | $0.219698$ $(0.374935)$ | $0.044293$ $(0.164271)$ | $0.054302$ $(0.091090)$ |
+| stiff, frame at $0$ $(1.5,1,0)$ | far | $0.452216$ $(1.000000)$ | $0.389963$ $(0.889320)$ | $0.251687$ $(0.637471)$ | $0.122943$ $(0.390727)$ | $0.000000$ $(0.123570)$ |
+| stiff, frame at $0$ $(1.5,1,0)$ | two and two | $0.315666$ $(1.000000)$ | $0.215606$ $(0.753568)$ | $0.067992$ $(0.357777)$ | $0.005934$ $(0.148397)$ | $0.005126$ $(0.070312)$ |
+| stiff, frame at $0$ $(1.5,1,0)$ | one link more | $0.762945$ $(1.000000)$ | $0.682553$ $(0.903363)$ | $0.493193$ $(0.675154)$ | $0.294836$ $(0.435901)$ | $0.000000$ $(0.143272)$ |
+
+In these rooms a record never raises the fringe, and the fidelity bounds it. The most persistent room records best: one label's turn leaves the adjacent pair a fidelity of $0.762657$ in the stiff room with the frame, $0.839606$ without the frame and $0.970439$ in the room of aligned links. The zeros are exact: a half turn of a link's label, or of a bond's label difference, cancels that weight, since $\cos(x+\pi) = -\cos x$, and leaves a sum of a nontrivial character of $\mathbb Z_{12}$ over its labels, which vanishes; and without a frame the sum for the path one link longer vanishes for every $\kappa$, by the room's rotation [T]. The fourteen entries printed as zero are each below $10^{-12}$ (v37.4-2(c)) [V].
+
+**(d) The frame and the fringe compete [T/V].** Without records the path one link longer than its partner has the fringe $\lvert M\rvert$, the frame's order parameter (§XXXV.40(c)), which grows with the frame's strength. With records, on one link with the law $p(e)\propto e^{h\cos(2\pi e/n)}$, its fringe is $V = \big\lvert\sum_e\sqrt{p(e)p(e+\kappa)}\,e^{2\pi ike/n}\big\rvert\leq BC$. At $h = 0$ the law is uniform and $V = 0$; as $h$ grows the turned and unturned laws separate and $BC$ falls to $0$; so for a turn other than none or a half turn the fringe rises and falls, its maximum at an intermediate frame [T]. At the half turn, $\kappa = n/2 = 6$, $\sqrt{p(e)p(e+6)}$ does not depend on $e$ and $V = 0$ for every $h$, below $10^{-11}$ (v37.4-3(a)): (c)'s zeros [T/V]. On a grid of step $0.001$ in $[0,20]$ it increases up to its maximum and decreases after it — $0.765337$ at $h = 4.528$ for $\kappa = 1$, $0.565550$ at $h = 2.743$ for $\kappa = 2$, $0.395220$ at $h = 2.114$ for $\kappa = 3$ — while for $\kappa = 0$ it increases throughout; at $h = 16$ it is $0.974296$ without a record and $0.542712$, $0.120692$ and $0.010194$ with one (v37.4-3(a)) [V]. In the six-link room with the stiffness $1.5$, the path one link longer at link $3$ has its largest value on a grid of step $0.01$ in $[0,12]$, $0.747463$ at $h = 2.67$ for $\kappa = 1$ and $0.500364$ at $h = 1.30$ for $\kappa = 2$, inside the grid, increasing up to it and decreasing after it (v37.4-3(b)) [V]. So with records the frame that fixes the fringe's phase also records the path: the sharper the frame, the better the record, and for a turn other than none or a half turn the fringe is best at an intermediate frame [D].
+
+**(e) The review's test, answered for this room [D].** Nothing new survives in the counts — by construction, for this class of rooms, whose record is a permutation of the room's configurations, unitary in the coherent reading, and whose comparison is the posited signed overlap. In both readings every count is standard quantum mechanics with the room as an environment — a classical one, recording in orthogonal configurations, or a pure one, whose two states overlap by at most the records' fidelity. The relation $V^2+D^2\leq1$ is the standard duality of visibility and distinguishability (Englert, 1996; its a-priori form is Jaeger, Shimony and Vaidman's, 1995); its equality for the coherent reading's pure states is (b)'s. A common rotation of the room still acts only on the phases of paths of unequal length, and the records' phases are environment phases. What the room supplies is a specification, from one law, of the frame, the fringe and the record, and two constraints on it.
+- *The readings decide.* Whether the room is a classical ensemble or a coherent state, which the counts cannot tell without records (§XXXV.49(b)), they can tell once paths leave records: in the classical reading any record removes the fringe; in the coherent one the fringe can survive a record, bounded by the record's fidelity — and it does, except at (c)'s exact zeros, where both readings give none.
+- *The frame and the fringe compete.* In this room, whose record is a turn of the variable that carries its frame, the room cannot select a sharper frame without becoming a better recorder.
+
+Neither departs from quantum mechanics; both bound rooms of this kind.
+
+**(f) What it does not do [O].** The room does not relax after a record: the turn is permanent, and the room has no dynamics. A relaxation of the room alone after both paths' records could not restore the fringe — the fringe is the trace of the room's cross term, which every trace-preserving map keeps — so a dynamics of the records could act only between the two paths' passages [T]. The size of the turn is posited, not derived from an association rule. The model does not decide which reading the room takes. The turnover's sectors are not built with records. And the signed comparison, the frame as an inertial frame for the particle's motion and a coupling strength remain as §XXXV.40(h) left them.
+
+**(g) Status.**
+- [T] (b)'s two readings with records, the bound by the fidelity, the duality and the inequalities, the eraser and the frame's turn; (c)'s zeros; (d)'s rise and fall for a turn other than none or a half turn, and the half turn's zero; (f)'s trace.
+- [V] Their checks, v37.4-2 and v37.4-3.
+- [D] (a)'s record; the readings of (d) and (e).
+- [S] The turn $\kappa$; the room's law and transport, as in §XXXV.40(f).
+- [O] (f), apart from its trace.
+
+## XXXV.51 Entries 398–403 and the seven responses, as formulated (31 October 2026) [record; R466]
+
+**The author's second message of the round (31 October).** It arrived while v37.4 was being built, before the referees' first reading. As he sent it — Entry 398 after a line with its number and time, in two paragraphs — with its attachment after it:
+
+> Entry 398, 1:56 PM, Oct 31, 2026
+> Another ambition I have by the way is trying to understand the actual interior of a Kerr black hole, both between horizons and on the other side of the inner horizon, in more detail. Fittingly enough once again my strong intuition is that the fact that there’s two horizons maybe should come about by some fundamental “separation of usually treated as aligned” two objects at play, not necessarily as indexes the horizons directly so much as explaining what on Earth is happening in this regime where g_rr turns negative and everything—and then why it wants to switch back when you go yet even farther! So if you will something about one of the two parts changing its behavior consists with crossing the outer horizon, and the second doing so makes you cross the inner horizon or something lol!
+> Also then as like a starting probe of this, can we check out maybe having it be that the “second continuation spacetime” of a Kerr black hole just IS the antipodal side of the canonical space Hopf shell object thingy, since it seems almost too good to miss that this “bridge to the other side” of a Kerr black hole, g factor 2 and all, could be related to one of these switches of the Hopf doubling of angles! Anyways thanks!
+
+**The attachment: a response to Entry 398.** As the author sent it:
+
+> # Entry 398 — Could Kerr's two horizons be two separate chiral transitions?
+>
+> I think your “first one switches, then the second one switches” intuition has a particularly good mathematical realization in Kerr. In fact, the two horizon crossings are exactly where the sign of the radial causal structure changes, first one way and then back.
+>
+> And there's a simple two-channel operator that reproduces that behavior without starting from the Einstein field equations.
+>
+> But your second suggestion—that the other Kerr spacetime might literally be the antipodal side of a Hopf shell—faces a much sharper test. The Hopf antipode is not automatically a second spacetime.
+>
+> Let me distinguish the two ideas.
+>
+> ## 1. What actually happens between Kerr's two horizons?
+>
+> For Kerr–Newman, in geometrized units,
+>
+> \\[ \Delta(r)=r^2-2Mr+a^2+Q^2. \\]
+>
+> For a subextremal black hole, define
+>
+> \\[ \delta=\sqrt{M^2-a^2-Q^2}, \qquad r\_\pm=M\pm\delta. \\]
+>
+> Then
+>
+> \\[ \boxed{\Delta(r)=(r-r\_+)(r-r\_-).} \\]
+>
+> In Boyer–Lindquist coordinates,
+>
+> \\[ g\_{rr}=\frac{\Sigma}{\Delta}, \qquad g^{rr}=\frac{\Delta}{\Sigma}, \qquad \Sigma=r^2+a^2\cos^2\vartheta. \\]
+>
+> Away from the ring singularity, \\(\Sigma>0\\).
+>
+> Therefore the sign of \\(g^{rr}\\), equivalently the squared norm of the gradient \\(\nabla r\\), is governed entirely by \\(\Delta\\).
+>
+> The three radial regimes of a subextremal Kerr black hole
+>
+> Exterior
+>
+> ## +
+>
+> \\(r>r\_+\\)
+>
+> \\(r\\) spacelike
+>
+> Between horizons
+>
+> ## −
+>
+> \\(r\_-\<r\<r\_+\\)
+>
+> \\(r\\) timelike
+>
+> Inner region
+>
+> ## +
+>
+> \\(r\<r\_-\\)
+>
+> \\(r\\) spacelike again
+>
+> The signs are those of \\(\Delta\\) and \\(g^{rr}\\). This describes the idealized stationary solution, not the necessarily perturbed interior of a realistic black hole.
+>
+> This is exactly the progression you noticed.
+>
+> Outside the event horizon, motion toward smaller or larger \\(r\\) is possible.
+>
+> Between the horizons, \\(r\\) behaves as a time coordinate. In the black-hole interior branch, decreasing \\(r\\) is future-directed: you cannot simply choose to remain at one radius or travel back outward in the normal way.
+>
+> Inside the inner horizon, the gradient of \\(r\\) becomes spacelike again. The local causal cones have reorganized a second time.
+>
+> But spacetime has not acquired and then lost a time dimension. It remains Lorentzian, with one timelike direction throughout the nonsingular regions. The orientation of the timelike direction relative to the Boyer–Lindquist coordinate \\(r\\) is what's changing.
+>
+> Also, the divergence of \\(g\_{rr}\\) at either horizon is a coordinate singularity of that chart, not a curvature singularity. Regular coordinates can cross both horizons in exact Kerr.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://relativite.obspm.fr\&sz=32)
+>
+> Relativité+1
+>
+>
+>
+> ## 2. Your two-switch interpretation has an exact algebraic realization
+>
+> Here's a toy I think fits your idea unusually well.
+>
+> Instead of treating the two factors of \\(\Delta\\) only as two numbers, construct a Hermitian two-channel operator:
+>
+> \\[ \boxed{ \mathcal D(r)= (r-M)I+\delta\sigma_3. } \\]
+>
+> Its two eigenvalues are
+>
+> \\[ \lambda_1(r)=r-r\_-, \qquad \lambda_2(r)=r-r\_+. \\]
+>
+> And its determinant is
+>
+> \\[ \boxed{ \det\mathcal D(r) =(r-r\_-)(r-r\_+) =\Delta(r). } \\]
+>
+> Now look at what happens as we move inward.
+>
+> | Radial region       | Channel 1 | Channel 2 | Product |
+> | ------------------- | --------- | --------- | ------- |
+> | \\(r>r\_+\\)        | \\(+\\)   | \\(+\\)   | \\(+\\) |
+> | \\(r\_-\<r\<r\_+\\) | \\(+\\)   | \\(−\\)   | \\(−\\) |
+> | \\(r\<r\_-\\)       | \\(−\\)   | \\(−\\)   | \\(+\\) |
+>
+> It really is a two-switch system.
+>
+> At the outer horizon, one channel changes sign.
+>
+> At the inner horizon, the other changes sign.
+>
+> Only after both have changed does the product become positive again.
+>
+> And at extremality,
+>
+> \\[ \delta=0,\qquad r\_+=r\_-=M, \\]
+>
+> so
+>
+> \\[ \mathcal D(r)=(r-M)I. \\]
+>
+> The two transitions coincide. There is no finite radial interval in which only one channel has switched.
+>
+> That is a beautiful algebraic match to your idea of two usually aligned components becoming sequentially misaligned and then realigned.
+>
+> ### What this establishes—and what it doesn't
+>
+> This is an exact factorization of Kerr–Newman's horizon polynomial into a two-channel Hermitian operator.
+>
+> But I've constructed the operator from the known horizon locations. Its channels are not yet identified with Kerr's physical self-dual and anti-self-dual sectors.
+>
+> That distinction matters. The existing chiral decomposition of gravitational curvature does not automatically assign one horizon to each chirality.
+>
+> So the new research target is:
+>
+> \\[ \boxed{ \text{chiral transport data} \quad\stackrel{?}{\longrightarrow}\quad \mathcal D(r) \quad\longrightarrow\quad \text{two causal transitions}. } \\]
+>
+> That is a much more specific target than simply interpreting the horizon pair as a mysterious doubling.
+>
+> ## 3. Something more physical is different at the two horizons
+>
+> There's a second reason your idea is worth exploring: the two Kerr horizons are not just interchangeable zeros of the same polynomial.
+>
+> They have different angular velocities,
+>
+> \\[ \boxed{ \Omega\_\pm=\frac{a}{r\_\pm^2+a^2}, } \\]
+>
+> and different signed surface gravities,
+>
+> \\[ \boxed{ \kappa\_\pm = \frac{r\_\pm-r\_\mp}{2(r\_\pm^2+a^2)}. } \\]
+>
+> For a subextremal hole,
+>
+> \\[ \kappa\_+>0,\qquad \kappa\_-<0. \\]
+>
+> The inner horizon's surface-gravity magnitude is also greater than the outer horizon's for a rotating subextremal Kerr hole.
+>
+> This gives you two quite different local-frame transitions to examine.
+>
+> Each horizon is generated by a different co-rotating Killing vector,
+>
+> \\[ \chi\_\pm = \partial_t+\Omega\_\pm\partial\_\varphi. \\]
+>
+> So, if you want to reconstruct the interior by studying how local orientations behave, I would compare the chiral spin-frame transports associated with these two distinct horizon generators.
+>
+> The model should reproduce not only the two zeros of \\(\Delta\\), but also \\(\Omega\_\pm\\) and \\(\kappa\_\pm\\).
+>
+> Those are much stronger geometric tests than the horizon polynomial alone.
+>
+> ## 4. Is the other side of Kerr the antipode of the Hopf shell?
+>
+> Here's the part where I would distinguish a promising hypothesis from a literal identification.
+>
+> The idealized Kerr analytic extension has more structure than simply two halves separated by a horizon.
+>
+> After crossing the outer horizon, one encounters the inner horizon. Beyond it, the exact mathematical solution admits further regions. A continuation through \\(r=0\\), away from the equatorial ring singularity, can lead into a negative-\\(r\\) region.
+>
+> The standard extension also contains additional exterior blocks, giving the familiar repeating spacetime diagram. The negative-\\(r\\) region and the other positive-\\(r\\) exterior blocks should not be conflated.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://www.damtp.cam.ac.uk\&sz=32)
+>
+> DAMTP
+>
+>
+>
+> Now compare that with PG's Hopf antipode.
+>
+> For a quaternionic Hopf shell,
+>
+> \\[ \pi(q)=qiq^{-1}. \\]
+>
+> Its antipodal operation is
+>
+> \\[ q\longmapsto-q. \\]
+>
+> But
+>
+> \\[ \boxed{\pi(-q)=\pi(q).} \\]
+>
+> The antipode is a different point on the Hopf total space, yet it represents exactly the same point on the Hopf base.
+>
+> That's an important obstacle to saying that the antipode simply is another observable spacetime.
+>
+> In PG's own language, a difference that disappears under the appropriate quotient cannot produce a second gravitational region unless additional structure makes that difference physically observable.
+>
+> However, this doesn't kill your intuition. It suggests a more interesting version.
+>
+> ### A sheet-changing Hopf lift
+>
+> Instead of identifying the second Kerr spacetime directly with \\(-q\\), suppose the antipodal operation changes a sheet label or chiral sewing condition of the spacetime rendering.
+>
+> Schematically,
+>
+> \\[ \boxed{ (q,\mathcal S) \longmapsto (-q,\mathcal S'), } \\]
+>
+> where \\(\mathcal S\\) represents the selected rendering or continuation structure.
+>
+> A physical distinction would require
+>
+> \\[ \mathcal R(q,\mathcal S) \neq \mathcal R(-q,\mathcal S'). \\]
+>
+> This is different from ordinary Hopf projection, which erases the sign.
+>
+> Under such a proposal, the antipodal operation would not itself be spatial translation into a second universe. It would change how a deeper canonical configuration is rendered into spacetime.
+>
+> That's much more consistent with the turnover concept you've been developing.
+>
+> There would then be a precise condition to check:
+>
+> Can a nontrivial antipodal sewing map carry the metric, principal null directions, Maxwell field, and curvature invariants of one Kerr continuation into those of another?
+>
+> If not, the correspondence would be at most a label analogy.
+>
+> In particular, the naive identification \\(r\mapsto-r\\) is not an isometry of Kerr at fixed \\(M\\):
+>
+> \\[ \Delta(-r)=r^2+2Mr+a^2 \neq \Delta(r). \\]
+>
+> So the standard negative-\\(r\\) continuation cannot simply be equated with an antipodal symmetry of the same physical Kerr metric.
+>
+> ## 5. The biggest physical complication: the inner horizon is unstable
+>
+> This is especially important for the ambition to understand what really exists beyond the inner horizon.
+>
+> The inner horizon of exact Kerr is a Cauchy horizon. It marks the boundary beyond which the original initial data no longer uniquely determine the continuation in the usual way.
+>
+> Incoming perturbations are strongly blueshifted there. Their gravitational backreaction can cause mass inflation, potentially producing divergent curvature and singular behavior.
+>
+> This isn't just a qualitative objection. Mathematical work has established blueshift instability under specified conditions for linearized gravitational perturbations of subextremal Kerr. Semiclassical investigations also find significant quantum backreaction at the inner horizon.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://link.springer.com\&sz=32)
+>
+> Springer Nature Link+1
+>
+>
+>
+> So the exact Kerr spacetime's elegant continuation is a legitimate mathematical object, but it is not a reliable prediction that a physically formed, perturbed rotating black hole contains a traversable passage to another universe.
+>
+> There is still active research concerning precisely what regularity of continuation may survive. We shouldn't replace that subtle question with the categorical assertion that no continuation whatsoever exists.
+>
+> For PG, I think this suggests two distinct possible ambitions:
+>
+> - Reinterpret the exact stationary Kerr solution's analytic continuation using canonical geometry.
+> - Investigate whether the deeper structure supplies a meaningful replacement for the unstable physical inner horizon.
+>
+> The second would be the more ambitious claim, because it would require new dynamics.
+>
+> ## 6. What about \\(g=2\\)?
+>
+> The Kerr–Newman gyromagnetic relation is
+>
+> \\[ \mu\_{\rm magnetic}=Qa=\frac QM J, \\]
+>
+> corresponding to \\(g=2\\).
+>
+> It's certainly an attractive clue when considering paired spinorial structures.
+>
+> But uncharged Kerr has \\(Q=0\\), so its electromagnetic dipole moment vanishes. The \\(g=2\\) relation isn't evidence by itself for a physical Hopf bridge or a second spacetime.
+>
+> I would keep it as a later electromagnetic consistency test, after the interior geometry and chiral transport are established.
+>
+> ## The experiment I'd prioritize
+>
+> I think Entry 398 leads to a very concrete calculation, building on v37.3.
+>
+> Start with the two-channel horizon operator
+>
+> \\[ \mathcal D(r)=(r-M)I+\delta\sigma_3. \\]
+>
+> Now try to construct a genuine chiral transport operator \\(\mathcal U(r)\\) from the lifted self-dual and anti-self-dual Kerr structures.
+>
+> Ask whether its physically defined matching form reproduces \\(\mathcal D(r)\\) up to an admissible change of frame.
+>
+> Then test three things:
+>
+> 1. Does one channel become singular or change its admissible orientation at \\(r\_+\\), and the other at \\(r\_-\\)?
+> 2. Does the resulting causal structure reproduce the behavior of \\(g^{rr}\\), together with both horizon angular velocities and surface gravities?
+> 3. Does a gauge-invariant relative holonomy approach the nontrivial spinorial sign \\(-1\\) along a continuation associated with the proposed Hopf antipode?
+>
+> The third must be tested using an actual closed transport comparison, not merely by observing that \\(-q\\) lies opposite \\(q\\) in \\(S^3\\).
+>
+> If these tests work, you could have a geometrically meaningful interpretation of the two horizons as separate transitions in a paired structure.
+>
+> If the third fails, that wouldn't invalidate the first two.
+>
+> ### My assessment
+>
+> I think the two sequential switches are the stronger idea to develop first.
+>
+> They correspond exactly to a mathematical feature of the known solution:
+>
+> \\[ \boxed{ (+,+)\ \longrightarrow\ (+,-)\ \longrightarrow\ (-,-), } \\]
+>
+> with the sign of the product controlling whether \\(r\\) is spatial or temporal.
+>
+> The Hopf-antipodal continuation is a fascinating additional hypothesis, but it faces genuine quotient, curvature, and inner-horizon-instability obstacles.
+>
+> And there's one particularly pleasing connection with your extremal Kerr intuition from Entries 393–397:
+>
+> At extremality the two horizon transitions merge, just as your proposed chiral shell separation reaches its saturation configuration.
+>
+> Those two facts are mathematically compatible. The challenge is to derive them from the same chiral/Hopf transport construction rather than imposing both separately.
+>
+> That, I think, is the most promising precise direction for Entry 398.
+
+**The author's third message of the round (31 October).** It arrived next, while Entry 398 was being taken in. As he sent it — Entry 399 after a line with its number and time — with its attachment after it:
+
+> Entry 399, 2:04 PM, Oct 31, 2026
+> I also suspect by the way that the flipping in each of these two parts might be represented by each one “moving through the fundamental centrade”, emphasis on I’d love to figure out what fundamental means in this context! But yeah to be clear the ultimate ultimate ambition with this—and like this already would be hugely satisfying if we can land it toward all of projective gravity—move here is to try and reinterpret the “interior” of the Kerr black hole itself so as to move it from being a special region of spacetime to being some kind of emergent construction coming about from these two dual objects moving through their own designated space—but crucially all while still reproducing the Kerr metric as we’d want it as we use the “frame” of spacetime itself as combines both objects as it does or something! So if we could nail this I think we would have a lot of reframing to reap in terms of bringing the distinction back to the actual room-induced Boltzmannian space structure itself, and like also to be abundantly clear I’m thinking really kinematically for what it induces, as in literally cosine of the action difference in place of which-path information, which I see as more qualitative even than decoherence. Anyways thanks!
+
+**The attachment: a response to Entry 399.** As the author sent it:
+
+> # Entry 399 — The Kerr interior as a two-channel centrade rendering
+>
+> I think this is a more ambitious—and more precise—proposal than merely identifying Kerr's second spacetime with an antipodal Hopf point.
+>
+> You want the Kerr interior to emerge as a change in how two underlying relational structures are jointly rendered as one spacetime. The two horizons would mark successive transitions in that joint rendering, rather than being fundamental places that the structures travel through.
+>
+> And importantly, you want the familiar Kerr metric to remain intact. What changes is its interpretation and derivation, not its successful predictions.
+>
+> There is a mathematical starting point that fits this very closely.
+>
+> ## 1. First, what would a “fundamental centrade” mean?
+>
+> Your existing PG archive actually provides a useful answer in §§XXVI.5–6.
+>
+> A centrade is a zero-dimensional object of the underlying constraint and visibility network, not necessarily a point of ordinary spacetime. Its worldline or worldtube is something the selected rendering produces. The archive also explicitly treats self-dual and anti-self-dual Weyl components as two channels of one centrade, rather than two independent spacetime points.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> I would distinguish three possible meanings of fundamental:
+>
+> - Structurally fundamental: the smallest relational object whose constraint and association data cannot be decomposed further without losing relevant observables.
+> - Rendering-fundamental: the common object that survives a change of room conditioning even when its two visible channels change their identities or roles.
+> - Dynamically fundamental: an object whose behavior follows directly from a primitive law of the Boltzmannian network, not from an already assumed Kerr coordinate system.
+>
+> The third is the difficult one. But the second is particularly appropriate for what you're describing.
+>
+> It suggests that the two Kerr channels should belong to one parent centrade. Their apparent separation, horizon crossings, and perhaps even the existence of distinct interior spacetime regions would be properties of the selected joint readout.
+>
+> Thus “passing through the fundamental centrade” might mean passing through a degeneracy or change of admissible sewing between its two channels, rather than passing through a literal central point.
+>
+> That distinction avoids introducing a new physical location into Kerr before we've derived one.
+>
+> ## 2. A two-channel construction that gives the exact Kerr causal flips
+>
+> Take an uncharged, subextremal Kerr black hole, with
+>
+> \\[ 0<|a|\<M,\qquad \delta=\sqrt{M^2-a^2}. \\]
+>
+> Consider the Hermitian matrix
+>
+> \\[ \boxed{ C(r)=(r-M)I+\delta\sigma_3. } \\]
+>
+> It has two eigenvalues,
+>
+> \\[ \lambda\_\pm(r)=r-M\pm\delta, \\]
+>
+> and therefore
+>
+> \\[ \boxed{ \det C(r)=r^2-2Mr+a^2=\Delta(r). } \\]
+>
+> Here is the proposed interpretation:
+>
+> Two channel transitions, one rendered radial causal structure
+>
+> The rows represent the signs of two eigenvalues, not two physical particles. The diagram is ordered from exterior to interior.
+>
+> Each horizon is a rank-loss point of \\(C\\). At the outer horizon, the first eigenvalue changes sign; at the inner horizon, the other does.
+>
+> The combined determinant changes
+>
+> \\[ +\longrightarrow-\longrightarrow+. \\]
+>
+> That's exactly the sign progression of Kerr's \\(g^{rr}\\).
+>
+> So the “one part crosses, then the other” idea has an exact algebraic analogue. What we haven't shown is that the physical chiral transport generates this matrix.
+>
+> ## 3. We can already reconstruct the full Kerr metric from two kinds of data
+>
+> This is the next calculation I would prioritize, because it shows exactly what your proposal has to recover.
+>
+> The two-channel operator supplies
+>
+> \\[ \Delta(r)=\det C(r). \\]
+>
+> Meanwhile, the imaginary Newman–Janis worldline separation supplies the complex radius
+>
+> \\[ \rho=r+ia\cos\vartheta, \qquad \Sigma=|\rho|^2=r^2+a^2\cos^2\vartheta. \\]
+>
+> Now introduce the two one-forms
+>
+> \\[ \omega_t=dt-a\sin^2\vartheta\\,d\varphi, \\]
+>
+> \\[ \omega\_\varphi=(r^2+a^2)d\varphi-a\\,dt. \\]
+>
+> Then the complete Kerr metric can be written as
+>
+> \\[ \boxed{ \begin{aligned} ds^2={}&-\frac{\det C}{\Sigma}\\,\omega_t^2 +\frac{\Sigma}{\det C}\\,dr^2\\\ &+\Sigma\\,d\vartheta^2 +\frac{\sin^2\vartheta}{\Sigma}\\,\omega\_\varphi^2. \end{aligned} } \\]
+>
+> This is exactly the standard Boyer–Lindquist Kerr metric, reorganized using your proposed two-channel determinant.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://academic.oup.com\&sz=32)
+>
+> Oxford Academic
+>
+>
+>
+> And notice what happens to its causal signature.
+>
+> In the displayed one-form basis, the metric has coefficients
+>
+> \\[ \left( -\frac{\Delta}{\Sigma}, \frac{\Sigma}{\Delta}, \Sigma, \frac{\sin^2\vartheta}{\Sigma} \right). \\]
+>
+> When \\(\Delta\\) changes sign, the first two coefficients exchange signs.
+>
+> One channel's transition changes the radial–temporal assignment; the second reverses it.
+>
+> Yet the metric has one timelike direction on both sides of either regular horizon.
+>
+> I think this is especially close to your intended picture:
+>
+> > The interior is the region of the joint spacetime rendering in which the two underlying channels have opposite signs.
+>
+> And the region beyond the inner horizon is the one in which they've both crossed their relevant thresholds.
+>
+> The algebra works exactly.
+>
+> However, the important qualification is that we supplied the Kerr coframe \\(\omega_t,\omega\_\varphi\\) and complex radius \\(\rho\\) independently. Therefore this is not yet a derivation of the metric from a centrade. It is a target decomposition identifying which geometric ingredients that derivation must generate.
+>
+> It also remains a description of the exact stationary Kerr solution; PG's exact closed-arena rotating solution is still open.
+>
+> At the horizons, the Boyer–Lindquist coframe expression is singular even though the regular Kerr geometry need not be. So a physical sewing model must continue smoothly across those points in an appropriate frame. The vanishing determinant of \\(C\\) must not be misinterpreted as a curvature singularity.
+>
+> ## 4. Now the deeper claim: the two channels should not be two separate particles
+>
+> This is where your use of centrade becomes valuable.
+>
+> I would propose a parent relational object
+>
+> \\[ \mathfrak C=(\mathcal C\_+,\mathcal C\_-,\mathcal J,U), \\]
+>
+> with two chiral channels, a sewing relation \\(\mathcal J\\), and a room-conditioning structure \\(U\\).
+>
+> Rather than letting either channel move through an already existing Kerr spacetime, let the room-conditioned projection generate the combined geometry:
+>
+> \\[ \boxed{ (\mathfrak C,U) \overset{\Pi_U}{\longrightarrow} (g\_{\mu\nu}^{\rm eff},\mathcal F\_{\rm inertial}, \text{admissible histories}). } \\]
+>
+> Then the two horizons could be places where the selected joint sewing changes its signature or causal role.
+>
+> A possible microscopic picture is that the two channels have separate transport operators,
+>
+> \\[ T\_+(\lambda),\qquad T\_-(\lambda), \\]
+>
+> defined along a relational progression parameter \\(\lambda\\).
+>
+> The physical matching form would be something like
+>
+> \\[ \mathcal H_U(\lambda) = \mathscr J_U[T\_+(\lambda),T\_-(\lambda)], \\]
+>
+> with \\(\mathscr J_U\\) determined by the room's associations and real-structure selection.
+>
+> A successful construction would show that
+>
+> \\[ \det\mathcal H_U(\lambda) \propto\Delta(r_U(\lambda)), \\]
+>
+> where the effective radius \\(r_U\\) is itself reconstructed from relational measurements.
+>
+> That last condition is crucial. If we put \\(r\\) into the fundamental model at the outset, we have already assumed the spacetime coordinate whose emergence we're trying to explain.
+>
+> And the microscopic two channels must satisfy a reality constraint. In Lorentzian four-dimensional geometry, the self-dual and anti-self-dual parts of a real curvature tensor are complex conjugate, not arbitrary independent objects. Any separate switching behavior has to be compatible with that relationship.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://pure.mpg.de\&sz=32)
+>
+> Max Planck Institute
+>
+>
+>
+> So I'd treat the switches as changes in their joint real sewing, not assume the left-handed sector has its own independently adjustable event horizon.
+>
+> That is how I'd make “moving through the fundamental centrade” mathematically meaningful.
+>
+> ## 5. The cosine of the action difference is a crucial second part of your proposal
+>
+> I also understand your distinction about decoherence.
+>
+> You aren't primarily saying that the room randomly destroys coherence. You're asking whether the kinematic relation between two centrade histories is already something that appears to an observer as the familiar cosine of an action difference.
+>
+> For two equally weighted coherent alternatives, the usual interference rule is
+>
+> \\[ \boxed{ P\_+ = \frac12\left[ 1+\cos\left(\frac{S\_+-S\_-}{\hbar}\right) \right] = \cos^2\left(\frac{S\_+-S\_-}{2\hbar}\right). } \\]
+>
+> That is a phase-sensitive comparison. It does not require either path to have been recorded by the environment.
+>
+> By contrast, if the two histories leave distinguishable environmental records \\(|E\_+\rangle\\) and \\(|E\_-\rangle\\), the result is
+>
+> \\[ \boxed{ P\_+ = \frac12\left[ 1+ \operatorname{Re} \left( e^{i(S\_+-S\_-)/\hbar} \langle E\_-|E\_+\rangle \right) \right]. } \\]
+>
+> The overlap controls visibility; the action difference controls phase. When the records are identical, visibility can be one. When they're perfectly distinguishable, the cross term disappears.
+>
+> So your proposed kinematic comparison is logically prior to environmental loss of interference within the proposed model, even though both effects already have established descriptions in standard quantum mechanics.
+>
+> And this ties directly into v37.3. Section XXXV.40 derives room-dependent correlation kernels, but still postulates the signed comparison at the histories' sewing point.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> If PG could derive that signed comparison from the same centrade sewing rule that produces the Kerr causal transitions, that would be substantially more interesting than using a Boltzmannian room to reproduce ordinary decoherence.
+>
+> ### Kerr provides a direct action calculation to test
+>
+> This needn't remain a purely abstract possibility.
+>
+> The Hamilton–Jacobi action in Kerr separates into radial and angular parts. The radial branches have the form
+>
+> \\[ S_r^\pm(r)= \pm\int^r\frac{\sqrt{\mathcal R(x)}}{\Delta(x)}\\,dx, \\]
+>
+> where
+>
+> \\[ \mathcal R(r)= [E(r^2+a^2)-aL_z]^2 -\Delta\left[ m^2r^2+(L_z-aE)^2+\mathcal Q \right]. \\]
+>
+> Here \\(\mathcal Q\\) is Carter's constant, not electric charge.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://www.roma1.infn.it\&sz=32)
+>
+> INFN Sezione di Roma
+>
+>
+>
+> The important feature is that both horizon locations enter the same radial action through \\(\Delta\\).
+>
+> So you could take the established Kerr action as a benchmark and ask whether a two-channel centrade calculation independently reproduces it.
+>
+> I would not directly declare \\(S_r^+-S_r^-\\) to be an observable interference phase. These are locally defined radial branches, not automatically two physical histories recombining at one detector. The full action, common endpoints, horizon-regular frames, and gauge-invariant sewing must be included.
+>
+> But the benchmark is concrete.
+>
+> There is also a subtle constraint: Kerr's underlying chiral spin transport is naturally \\(SL(2,\mathbb C)\\)-valued, and a generic such transport has hyperbolic as well as circular behavior. A simple cosine only follows after the physical comparison selects an appropriate unitary or phase-valued sector.
+>
+> That selection could be an important job for your Boltzmannian room.
+>
+> ## 6. The decisive opportunity: one sewing law should do both jobs
+>
+> I would make this the centerpiece of the new investigation.
+>
+> Let
+>
+> \\[ \mathcal J_U[\mathcal C\_+,\mathcal C\_-] \\]
+>
+> be the room-selected comparison structure for the two chiral channels of one parent centrade.
+>
+> Then seek two outputs from it:
+>
+> Fundamental paired centrade and selected room
+>
+> \\[ (\mathcal C\_+,\mathcal C\_-,\mathcal J_U) \\]
+>
+> Causal readout
+>
+> \\[ \det\mathcal H_U \\]
+>
+> Two signature transitions, rendered as Kerr horizons
+>
+> History readout
+>
+> \\[ K_U(\gamma\_+,\gamma\_-) \\]
+>
+> Relative action phase, interference and records
+>
+> One coherent spacetime and detector description
+>
+> That would realize the intuition you're developing: both the classical causal organization and the quantum-history comparison are different observable consequences of the same deeper association scheme.
+>
+> A particularly strong version would have the following properties:
+>
+> 1. The relational construction determines an effective radial variable rather than assuming Kerr's \\(r\\).
+> 2. Its joint orientation form reconstructs \\(\Delta\\), \\(\Sigma\\), frame dragging, and ultimately the full regular Kerr geometry.
+> 3. Its two chiral history transports possess a gauge-invariant comparison whose selected coherent limit is \\(\cos(\Delta S/\hbar)\\).
+> 4. Its Boltzmannian selector explains why these structures are normally experienced as one smooth spacetime, including what an observer actually measures between horizons.
+>
+> That would constitute a serious explanatory framework, not merely a reinterpretation of the factorization \\((r-r\_+)(r-r\_-)\\).
+>
+> There's an important physical limit: a derived Kerr interior must retain its tidal effects, causal structure, and locally testable spacetime geometry. Calling it emergent cannot make those observables disappear. And the exact stationary continuation past the inner horizon faces significant instability under perturbations, so reproducing the stationary metric would be only the first stage. Recent work continues to sharpen that issue.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://arxiv.org\&sz=32)
+>
+> arXiv
+>
+>
+>
+> ## My assessment of Entry 399
+>
+> I think this points to a more unified research direction than trying to identify the negative-\\(r\\) continuation with the Hopf antipode immediately.
+>
+> Your real proposal is:
+>
+> > The two Kerr horizons may arise from sequential changes in the admissible joint rendering of two chiral channels belonging to one fundamental centrade. Between the transitions, their relative configuration induces the causal signature characteristic of the Kerr interior; after the second transition, the rendered radial–temporal roles revert. The same room-conditioned centrade structure may also govern coherent comparisons of histories, with the cosine of their action difference appearing as its selected quantum readout.
+>
+> That is a hypothesis, not a derived consequence of PG. But it gives us an unusually well-defined target.
+>
+> And there is one reason I particularly like the direction: the Kerr metric and the Born interference law would no longer be two unrelated achievements you hope PG can eventually reproduce. They would become two separate tests of a single proposed microscopic sewing mechanism.
+>
+> The next model I'd build is therefore not another black-hole diagram. It is a finite paired-centrade transport model with one operator for joint causal orientation and a second, linked readout for coherent history comparison, both derived from the same underlying connection and room selection.
+>
+> If it produces the two Kerr transitions but cannot produce the signed cosine kernel, or produces the cosine but cannot reproduce Kerr's regular causal geometry, we'll know exactly which part of the proposed unification fails.
+>
+> And if it genuinely produces both without inserting either formula by hand, that would be a major result for Projective Gravity.
+
+**The author's fourth message of the round (31 October).** It arrived after the referees' first reading, while its findings were being answered. As he sent it — Entry 400 after a line with its number and time, in two paragraphs, then Entries 401 and 402, each after a line with its number and time — with the three attachments after it:
+
+> Entry 400, 2:53 PM, Oct 31, 2026
+> Ok weirdly enough I also just now got hit with an intuition saying “the electromagnetic monopole, like in Kerr-Newman itself, is actually a heterogeneity condition of basically letting a ‘parallel regime’ or something bleed into our considerations here in our own standard regime of something” right when I asked myself the question “oh maybe should I consider also treating the full Kerr-Newman Delta function as a determinant?”. So this could actually be significant especially for explaining why empirically the black hole charge appears so small, and without the excessive guess of winding around a complexified meridian which in turn seems already to undermine the Kerr-emergence idea! So how cool is that then therefore lol??? But yeah the inspiration comes from the consistent electroweak idea itself, or bi-electromagnetism or whatever the heck it is, which seems to keep pushing on us to interpret the electroweak “slots” as some kind of cross-regime bleeding of considerations, while the actual kinematics filling those slots remain intrinsic TO these regimes independently! So since we already understand the meridian direction to perhaps in some fundamental sense index electromagnetic charge, especially as is relevant to a Kerr-Newman black hole, I suppose my idea would be to continue this investigation here for emergent-by-parts-duality spacetime on Kerr alone, and then consider Kerr-Newman not merely as “making the matrix yielding the eigenvalues more complicated” but rather as opening up its scope to be specifically cross-regime in some kind of verdict or something! So like, maybe it’s as simple as imagining the leaf “next door” on either side of our own per one step along the meridian, and its comparative content of matter, as somehow invoking electromagnetism in this cross-regime sense, since we already understand flux through the meridian as setting charge proper should the middle space have zero net electromagnetic flux??? But surely we can do better I think than simply this “adjacent” thing alone, so like maybe what we can actually do is imagine several adjacent leaves to us, and then literally picture the meridian distance between us and it as giving the “grade of adjacency”. That is, like a so to speak “big” contribution a little bit farther away can maybe be qualitatively felt as “as adjacent” to a “smaller” contribution just next to us along the meridian, that way adjacency itself can be extended apart from just “local flux” itself sort of thing! So like, intuitively then here’s maybe the idea itself—supposing we have a tube-like extrusion of a Kerr black hole along the meridian direction, which fundamentally speaking is crucial to be aligned in parallel like that, (since the very quotienting by the meridian to gravity would make an extrusion of say a star or a cloud of gas or something which is askew to the meridian be “attracted” to it gravitationally as the leaf cross sections at one part pull one those from another—fundamentally I think this should be a named theorem and all)—I then would think that something about the pairwise such scoped out “interaction” between different parts of this IS specifically the electromagnetic contribution, again as opposed to merely some kind of naive local flux effect. So, like, even without a tube, simply suppose we have a Kerr black hole on one leaf (that’s “ours”), and several leaves down there’s another Kerr black hole, and then several more down there’s a third, bigger one for good measure right, then I would imagine what we call the “charge” is itself some kind of pairwise contribution between these in some direct sense of the flux integral of the electromagnetic field between them as opposed to say the local flux itself! So yeah what are your thoughts on this, and how it would realize with three rather than merely two Kerr black holes, especially if they have different sizes??? Does GR on the quotient already give a verdict about what on Earth the “overlay” object would have to be, and if this itself contributes to the electromagnetic realization??? Anyways thanks!
+> So I guess in short the motto would be “the degrees of freedom of only one leaf is insufficient to get a concept of charge—it always comes from a cross-leaf something to be determined, hence landing the leading intuition’s hope of regime-crossing of a sort as the trigger”.
+> Entry 401, 3:10 PM, Oct 31, 2026
+> Also for the immediate Kerr-only idea by the way, I really really want to push for thinking outside the box with the two parts or channels idea here, specifically in the sense that maybe we can realize the idea itself here of not actually necessarily getting a single unique output spacetime from the full underlying structure we’re going for which separates the two channels—instead we get my heuristic idea I wanted to go for which I illustrated with the MP metric throats toy model, where we had defining a crossing from one throat to another to a third and then back can put you at a different “underlying space” spot if you always switch pairwise between underlying states for the throats, despite the apparent spacetime destination point being the same. That is, rather than taking that particular toy too literally, I want to see if we can lead with making this model flexible enough here that we can drop the standard assumption of a state in the underlying space having to uniquely define the state or location in the emergent spacetime—instead it’s specifically the pair channel history structure either relationally, absolutely (ie more like average) or maybe even both which can be made to re-index the output spacetime altogether, either as locations within one spacetime or maybe even entirely new or rescrambled spacetimes, as brings back in the turnover transformation object directly. Anyways thanks!
+> Entry 402, 3:19 PM, Oct 31, 2026
+> Also by the way for nearby adjacent leaves as electric charge idea proper, another explicit intuition I have at the moment is that maybe we suppose “nonzero charge” as occurring when the two pairwise objects basically have opposite “orientation” on the leaf, ie in the sense of one in some sense having opposite meridian direction-wise parity to the other. If they have the same orientation, then their “charges” cancel rather than kind of form a whole sort of meridian-directed dipole object thing I’m envisioning. So yeah quite explicitly we might very well have two Kerr-like black holes to a meridian which are nearby to each other and have the electromagnetic field lines terminate at THEM and then loop back around like a bar magnet rather than trace all the way through the core/primary object. And, then in that case we’d want to ditch the “hard to support by itself-configuration” idea I’ve kept fighting for for why empirically charges are never near extremal for simply the idea that in a random case this meridian-parity is pretty much random between objects, hence why on average they all cancel out to zero, and literally electrically attract other objects in the vicinity on any of the references leaves to cancel out to zero, as is the standard explanation for why extremal RN doesn’t exist anyway lol! So yeah how about that then!
+
+**The first attachment: a response to Entry 400.** As the author sent it:
+
+> # Entry 400 — Electric charge as a cross-regime heterogeneity
+>
+> I think this may be a more productive direction for the charge problem than imaginary-meridian winding alone. It also fits your intention to work out emergent Kerr spacetime first, then introduce Kerr–Newman as an enlargement of the underlying comparison rather than just an extra parameter in a matrix.
+>
+> The most promising version of your idea is:
+>
+> Mass and spin describe aspects of a centrade's gravitational rendering, while electric charge measures an additional, oriented incompatibility between relational structures that the gravitational quotient combines.
+>
+> That would make charge a cross-regime property, not necessarily a property of an individual neighboring black hole or a displacement of one worldline.
+>
+> The word oriented will turn out to be important. A simple mismatch can produce a nonnegative quantity resembling \\(Q^2\\), but electric charge also has a sign, sources a Maxwell field, and obeys conservation laws.
+>
+> ## 1. Does PG's existing Law I permit your proposed overlay?
+>
+> Yes—at the level of its sourcing architecture.
+>
+> The manuscript explicitly says that physical matter belongs to the five-dimensional middle space, while Law I obtains the four-dimensional gravitational source by reducing matter over the entire meridian fiber:
+>
+> \\[ \boxed{ T\_{\mu\nu}^{(g)}(b) = \mathscr R_q[\mathcal T]\_{\mu\nu}(b). } \\]
+>
+> That reduction includes appropriately weighted, horizontally projected contributions from the complete meridian, not merely the two points where it intersects our representational leaf.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> Therefore, if three matter concentrations occupy three distinct positions along the same resolved meridian, their contributions can enter the same gravitational-base source.
+>
+> That is an important structural fact.
+>
+> But it doesn't follow that their fields simply add as three Kerr metrics. General relativity is nonlinear, and the metric must be found from the reduced stress-energy and the appropriate gravitational boundary data.
+>
+> Nor does Law I automatically generate electromagnetism from differences between the concentrations. That is precisely the additional mechanism your new proposal would need.
+>
+> I'd summarize the division this way:
+>
+> \\[ \boxed{ \begin{array}{c} \text{Matter on multiple meridian positions}\\\ \downarrow\\\ \text{Law I: weighted gravitational reduction}\\\ \downarrow\\\ \text{effective gravitational source} \end{array} \qquad \begin{array}{c} \text{Cross-regime comparison data}\\\ \downarrow\\\ \text{new constitutive or descent law}\\\ \downarrow\\\ \text{effective electromagnetic charge and field}. \end{array} } \\]
+>
+> The second column is not yet part of the established PG laws.
+>
+> And that separation is a strength: it lets us test a charge mechanism without disturbing the Kerr interior model prematurely.
+>
+> ## 2. There's a remarkably simple determinant for your cross-regime idea
+>
+> Let's first construct the algebraic Kerr benchmark, without electromagnetic charge.
+>
+> Write
+>
+> \\[ d_K=\sqrt{M^2-a^2},\qquad x=r-M. \\]
+>
+> A two-channel Kerr operator is
+>
+> \\[ C_K(r)= \begin{pmatrix} x+d_K&0\\\ 0&x-d_K \end{pmatrix}. \\]
+>
+> Its determinant gives Kerr's horizon polynomial:
+>
+> \\[ \det C_K =x^2-d_K^2 =r^2-2Mr+a^2. \\]
+>
+> Now, instead of changing those two channels individually, introduce a cross-channel coupling:
+>
+> \\[ \boxed{ C\_{\rm cross}(r)= \begin{pmatrix} x+d_K&Q\\\ -Q&x-d_K \end{pmatrix}. } \\]
+>
+> Look at the sign difference between its off-diagonal elements. That's the crucial feature.
+>
+> Its determinant is
+>
+> \\[ \begin{aligned} \det C\_{\rm cross} &=(x+d_K)(x-d_K)+Q^2\\\ &=x^2-(M^2-a^2)+Q^2\\\ &=\boxed{r^2-2Mr+a^2+Q^2}. \end{aligned} \\]
+>
+> That is exactly Kerr–Newman's \\(\Delta(r)\\).
+>
+> And we obtained it by retaining the original Kerr two-channel structure and adding an antisymmetric coupling between the channels.
+>
+> This is much closer to your proposed interpretation than simply assigning \\(Q\\) to a third diagonal direction.
+>
+> ### Why the antisymmetry matters
+>
+> Define
+>
+> \\[ J= \begin{pmatrix} 0&1\\\ -1&0 \end{pmatrix}, \qquad J^2=-I. \\]
+>
+> Then
+>
+> \\[ C\_{\rm cross}=xI+d_K\sigma_3+QJ. \\]
+>
+> Because \\(J\\) anticommutes with \\(\sigma_3\\),
+>
+> \\[ (d_K\sigma_3+QJ)^2=(d_K^2-Q^2)I. \\]
+>
+> The two eigenvalues are therefore
+>
+> \\[ \boxed{ \lambda\_\pm = r-M\pm\sqrt{M^2-a^2-Q^2}. } \\]
+>
+> So the cross-channel coupling causes the two horizon thresholds to move toward one another.
+>
+> As the coupling grows, the interval between the horizons shrinks. At \\(Q^2=M^2-a^2\\), the thresholds coincide.
+>
+> Cross-regime coupling and the horizon thresholds
+>
+> Illustrative normalized black hole with \\(M=1\\), \\(a=0.6\\); \\(Q\\) is the algebraic cross-coupling, not a derived electric charge.
+>
+> Cross-coupling \\(Q\\)
+>
+> 0.40
+>
+> Inner \\(r\_-\\)
+>
+> ## 0.307
+>
+> Outer \\(r\_+\\)
+>
+> ## 1.693
+>
+> Gap
+>
+> ## 1.386
+>
+> The highlighted interval represents the separation between \\(r\_-\\) and \\(r\_+\\), on a radial display running from \\(r=0\\) to \\(r=2M\\).
+>
+> There's a further mathematical distinction. At charged extremality, with \\(Q\neq0\\), this real matrix becomes nondiagonalizable at its repeated eigenvalue: it reaches an exceptional point. At uncharged extremal Kerr, \\(a=M,Q=0\\), the matrix is simply \\((r-M)I\\).
+>
+> That is an exact difference between the two algebraic routes to extremality. Whether it represents any physical difference between charge and rotation is still entirely unproved.
+>
+> Most importantly, \\(C\_{\rm cross}\\) is not Hermitian. Its skew component cannot simply be declared a positive energy operator or a quantum measurement effect.
+>
+> For now it is a candidate sewing or compatibility operator.
+>
+> But it exhibits exactly the structural possibility you want:
+>
+> \\[ \boxed{ \text{Kerr channels} + \text{antisymmetric cross-regime coupling} \longrightarrow \text{Kerr–Newman horizon polynomial}. } \\]
+>
+> The next problem is to determine where that cross-coupling could come from.
+>
+> ## 3. Three unequal sources on a meridian: a concrete graded-adjacency toy
+>
+> Let's use your example of three differently sized Kerr-like concentrations. I would model them as middle-space source configurations, rather than assume we already possess three independently valid Kerr spacetimes on three separate leaves.
+>
+> In the round \\(S^4\\) benchmark, neighboring latitude slices also have different intrinsic radii. More generally, Law II's meridians are selected by the matter configuration; they aren't guaranteed to form a global stack of identical parallel leaves.
+>
+> Nevertheless, we can choose a local meridian coordinate \\(s\\) and put three source configurations at different positions.
+>
+> Suppose their illustrative mass weights and positions are
+>
+> \\[ (m_1,m_2,m_3)=(1,2,4), \qquad (s_1,s_2,s_3)=(0,L,3L). \\]
+>
+> Define your proposed graded association strength by
+>
+> \\[ \boxed{ w\_{ij}= \frac{m_im_j}{1+|s_i-s_j|/L}. } \\]
+>
+> This is a chosen toy law, not a gravitational law.
+>
+> It produces:
+>
+> | Pair                    | Meridian separation | Association weight |
+> | ----------------------- | ------------------- | ------------------ |
+> | \\(1\leftrightarrow2\\) | \\(L\\)             | \\(1\\)            |
+> | \\(1\leftrightarrow3\\) | \\(3L\\)            | \\(1\\)            |
+> | \\(2\leftrightarrow3\\) | \\(2L\\)            | \\(8/3\\)          |
+>
+> Notice exactly the effect you're asking about.
+>
+> Source 3 is three times farther from source 1 than source 2 is, yet source 3's larger mass weight gives it the same association strength with source 1.
+>
+> So adjacency is no longer merely an ordered list of nearby leaf locations.
+>
+> It becomes a relational quantity involving both separation and the content being compared.
+>
+> This resembles the operational notion of proximity you were exploring in v37.3, but now applied to possible cross-leaf sectors.
+>
+> Still, none of these weights is electric charge.
+>
+> ### Two different things can emerge from the same source configuration
+>
+> If the three sources simply contribute gravitational stress, Law I has a schematic reduction
+>
+> \\[ T\_{\rm eff}^{(g)} = \sum\_{i=1}^3 \mathcal W_i\\,\mathcal P_i(T_i) + T\_{\rm interaction} + T\_{\rm core}, \\]
+>
+> where the weights, projections, and interaction terms must come from the action.
+>
+> But a cross-regime comparison might depend on how the source configurations differ from one another, rather than only on their total.
+>
+> For example, let each source carry an internal orientation \\(\alpha_i\\). Define
+>
+> \\[ \boxed{ H\_{\rm mismatch} = \sum\_{i\<j} w\_{ij}\bigl[1-\cos(\alpha_i-\alpha_j)\bigr]. } \\]
+>
+> This quantity is nonnegative and invariant under a common shift of all the orientations.
+>
+> It also vanishes when all three are aligned—even though their masses are unequal.
+>
+> That's a promising charge-squared-like heterogeneity measure.
+>
+> But it cannot, by itself, define signed electric charge. And unequal masses alone don't make it nonzero.
+>
+> We need one further ingredient.
+>
+> ## 4. Three regimes give us something two regimes cannot: a closed comparison loop
+>
+> This may be the most useful mathematical reason to study your three-black-hole example instead of only two.
+>
+> Suppose each pair has an oriented association transport,
+>
+> \\[ U\_{12},\qquad U\_{23},\qquad U\_{31}, \\]
+>
+> taking values in a \\(U(1)\\)-like internal comparison structure.
+>
+> Under independent changes of the three local frames,
+>
+> \\[ U\_{ij}\mapsto e^{i\lambda_i}U\_{ij}e^{-i\lambda_j}. \\]
+>
+> An individual link phase is not gauge invariant.
+>
+> But the closed three-regime product is:
+>
+> \\[ \boxed{ W\_{123}=U\_{12}U\_{23}U\_{31} =e^{i\Phi\_{123}}. } \\]
+>
+> This is a genuine gauge-invariant relational quantity.
+>
+> It compares the direct association between regimes 1 and 3 with the association through regime 2.
+>
+> If the transports are entirely consistent—just differences of three underlying orientation labels—then
+>
+> \\[ W\_{123}=1. \\]
+>
+> The triangle has no mismatch.
+>
+> But if the direct association is not equivalent to the two-step association, we can have
+>
+> \\[ W\_{123}\neq1. \\]
+>
+> That gives a precise definition of cross-regime heterogeneity.
+>
+> There's a connection here with your centrade framework: a constraint network with higher-order incidence is better suited to carrying these distinct association routes than a simple chain of nearest-neighbor links.
+>
+> One qualification: three locations lying along a single meridian do not automatically produce nontrivial holonomy. If the direct route \\(1\to3\\) is literally just the concatenation of \\(1\to2\\) and \\(2\to3\\), their loop holonomy is trivial. We need a genuinely independent association path or a nontrivial connection structure. Two locations could also suffice if there are two distinct paths between them.
+>
+> ### Could charge be a signed readout of that loop?
+>
+> Here's a candidate worth testing:
+>
+> \\[ \boxed{ \frac{Q\_{\rm toy}}{M\_{\rm eff}} = \varepsilon\\,\mathcal V\sin\Phi\_{123}, } \\]
+>
+> where \\(\varepsilon\\) is a dimensionless coupling and \\(\mathcal V\\) weights the coherence of the three associations.
+>
+> One normalized choice is
+>
+> \\[ \mathcal V = \frac{3(w\_{12}w\_{23}w\_{31})^{1/3}} {w\_{12}+w\_{23}+w\_{31}}. \\]
+>
+> By the arithmetic–geometric mean inequality,
+>
+> \\[ 0\leq\mathcal V\leq1. \\]
+>
+> For the unequal three-source example, \\(\mathcal V\approx0.8915\\).
+>
+> So you obtain a model in which both the relational phase and the relative strengths of the three source associations affect the candidate charge.
+>
+> This has several appealing features. It vanishes for a flat comparison, can be either sign, distinguishes the orientation of a comparison loop, and suppresses the result when one association becomes very weak compared with the others.
+>
+> But \\(Q\_{\rm toy}\\) is not yet electric charge. A Wilson-loop phase is naturally flux-like; it cannot be identified with Maxwell's electric Gauss charge without an additional derivation. Also, PG's meridian has no universally chosen orientation, so the sign of the loop must be related consistently to charge conjugation rather than an arbitrary ordering of labels.
+>
+> What this gives you is a possible input for the cross-coupling of the earlier determinant.
+>
+> In other words,
+>
+> \\[ \boxed{ \begin{array}{c} \text{Three or more relational regimes}\\\ \downarrow\\\ \text{Gauge-invariant association mismatch}\\\ \downarrow\\\ Q\_{\rm toy}\\\ \downarrow\\\ C\_{\rm cross}(r)\\\ \downarrow\\\ \Delta\_{\rm KN}(r). \end{array} } \\]
+>
+> That is a coherent mathematical research program.
+>
+> It does not yet derive any of the physical arrows after the mismatch.
+>
+> ## 5. What does GR say the overlay must be?
+>
+> This is where we get a hard verdict.
+>
+> GR does not require a cross-regime overlay to carry electric charge. It requires the quotient geometry to respond to whatever effective stress-energy has actually been derived.
+>
+> For Kerr–Newman, the charged exterior is an Einstein–Maxwell electrovacuum. Its electromagnetic stress-energy is
+>
+> \\[ \boxed{ T\_{\mu\nu}^{\rm EM} = \frac{1}{4\pi} \left( F\_{\mu\alpha}F\_\nu{}^\alpha -\frac14g\_{\mu\nu}F\_{\alpha\beta}F^{\alpha\beta} \right). } \\]
+>
+> It is traceless, has a specific anisotropic principal structure, and in the asymptotic Coulomb region its magnitude falls as \\(Q^2/r^4\\). Kerr's vacuum exterior has zero Ricci tensor, while Kerr–Newman has nonzero Ricci curvature.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://blackhole.org\&sz=32)
+>
+> blackhole.org+1
+>
+>
+>
+> So if your overlay produces a quantity that resembles \\(Q^2\\), that is only the first test.
+>
+> It must also produce the correct electromagnetic field.
+>
+> For the ordinary four-dimensional electric charge,
+>
+> \\[ \boxed{ Q=\frac1{4\pi}\int\_{S^2}{}^\star F } \\]
+>
+> in geometrized Maxwell conventions, with \\(d\\,{}^\star F=0\\) in the source-free exterior.
+>
+> This flux is not the same thing as an integral of \\(F\\) through a two-sphere linking a meridian worldsheet in the five-dimensional middle space.
+>
+> In fact, PG Part X already established that the latter is magnetic-type flux, and the canonical Hopf flux has fixed unit Chern class. It cannot account for a continuously variable electric charge.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> Your proposed cross-regime mechanism would therefore need to generate an effective Maxwell potential or field \\(F\\), not merely a scalar mismatch.
+>
+> It also needs an action-level mechanism ensuring that the corresponding reduced stress tensor is conserved.
+>
+> ### What about “three Kerr black holes making one Kerr–Newman”?
+>
+> No general theorem says that three Kerr solutions can be superposed into a Kerr–Newman solution. Even ordinary stationary configurations of multiple rotating black holes are highly constrained by the nonlinear field equations and possible struts or singularities.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://www.sciencedirect.com\&sz=32)
+>
+> ScienceDirect
+>
+>
+>
+> For PG, the most defensible intermediate model is:
+>
+> Three middle-space Kerr-like source sectors are reduced into one effective gravitational object, whose external multipole data are tested against Kerr–Newman.
+>
+> Whether the reduced object is one black hole, three resolved bodies, or an entirely different geometry depends on the resulting spatial source distribution and fields.
+>
+> If all three lie over one quotient point, they may contribute to one localized reduced source. If they lie over different quotient fibers, they produce distinct reduced sources. Neither case guarantees an exact Kerr–Newman exterior.
+>
+> ## 6. There is also a rigorous answer to your proposed meridian-alignment theorem
+>
+> You suggested that an askew tube of matter should be gravitationally pulled toward alignment with the meridian because gravity quotients those directions.
+>
+> I would not promote that to a theorem. In fact, the quotient gives a useful opposite result.
+>
+> Let \\(q:\mathcal M\to B\_{\rm grav}\\) be the meridian quotient and let \\(\Phi_G\\) be any gravitational scalar defined on the base. Its middle-space pullback is
+>
+> \\[ \Phi\_{\mathcal M}=\Phi_G\circ q. \\]
+>
+> For any vertical vector \\(V\in\ker dq\\),
+>
+> \\[ \boxed{ V(\Phi\_{\mathcal M}) = d\Phi_G(dq(V)) =0. } \\]
+>
+> We could call this the quotient-indifference lemma.
+>
+> A gravitational potential inherited solely from the base is constant along each meridian fiber. It therefore supplies no restoring potential along the fiber itself.
+>
+> This does not say that an askew distribution cannot change the reduced horizontal gravitational field. Nor does it forbid a separate meridian-equilibrium law from favoring alignment.
+>
+> It says alignment does not follow from quotienting alone.
+>
+> PG's still-open Law II would have to derive such an effect from a matter-responsive selection principle. The variation of the meridian structure could then matter, but the sign and strength of the response are not predetermined.
+>
+> That distinction is particularly important if alignment or the scarcity of charge is meant to emerge statistically, rather than being assumed.
+>
+> ## 7. Could this make strong electric charge rare?
+>
+> Possibly as a future Boltzmannian hypothesis, and there is a cleaner route now than assigning an arbitrary large cost to imaginary-meridian displacement.
+>
+> If the ordinary room strongly favors compatible associations, then nontrivial cross-regime holonomy might be statistically disfavored.
+>
+> For example, an illustrative prior over loop mismatch could take the form
+>
+> \\[ P_U(\Phi) \propto e^{\kappa_U\cos\Phi}. \\]
+>
+> For large positive \\(\kappa_U\\), the measure concentrates near \\(\Phi=0\\). In the loop model, that would also favor small \\(Q\_{\rm toy}\\).
+>
+> This resembles the alignment statistics already used in v37.3, so it's a relatively economical extension.
+>
+> But nothing in PG currently proves that the same stiffness controls such cross-regime holonomies, or that their mismatch is electric charge.
+>
+> And we must be careful about the empirical premise: astrophysical black holes are expected to shed substantial net electric charge through conventional processes. A new PG mechanism would have to predict something additional to, or quantitatively explain, those discharge processes.
+>
+> ## What I would carry into v37.4
+>
+> I would preserve Entry 400 in this form:
+>
+> > Electric charge may be a cross-regime compatibility defect rather than an intrinsic displacement coordinate of a single Kerr constituent. Kerr's paired chiral structure would remain the neutral gravitational benchmark. Additional middle-space sectors, compared by gauge-covariant associations along and across the meridian structure, could support a signed compatibility invariant. If an action-level reduction converts that invariant into a Maxwell field, its electromagnetic stress might modify the neutral Kerr rendering into Kerr–Newman. The physical content of the claim is the proposed conversion from cross-regime comparison to electric charge, not the already available algebraic appearance of \\(Q^2\\) in the horizon determinant.
+>
+> And I'd make the first experiment unusually focused.
+>
+> Build a three-regime centrade model with unequal source weights and two distinct association routes. Derive its gauge-invariant comparison, then determine whether a common variational principle can give both its electromagnetic field and its contribution to the reduced gravitational stress tensor.
+>
+> Only after that would I insert the result into the Kerr two-channel operator.
+>
+> My assessment is that the antisymmetric cross-coupling matrix is the most promising new mathematical toy here. It reproduces the Kerr–Newman horizon structure exactly while preserving your distinction between native Kerr channels and a cross-regime ingredient.
+>
+> The more ambitious claim—that this ingredient actually is electric charge—remains open.
+>
+> But you've sharpened it considerably:
+>
+> The decisive question is no longer “How far along an imaginary meridian must a source move to acquire charge?” It is “What new, gauge-invariant relational information appears when several middle-space configurations are compared, and can that information descend as the Maxwell field of one rendered black hole?”
+>
+> That is a more discriminating and, I think, better-connected direction for Projective Gravity.
+
+**The second attachment: a response to Entry 401.** As the author sent it:
+
+> # Entry 401 — The Kerr interior as a history-dependent rendering of paired centrades
+>
+> I think this is a substantial refinement of the Kerr program. You are proposing something more radical than two channels jointly producing one Kerr spacetime: the joint channel structure might not determine a unique spacetime at all until a relational history and a Boltzmannian room have been selected.
+>
+> That is an important distinction.
+>
+> It also brings together three ideas already present in PG:
+>
+> - The three-ended Majumdar–Papapetrou optical model, where the choice of end changes the rooted description.
+> - The rendering groupoid of §XVIII.5, where identity depends on the transport history.
+> - The room turnover of §XXXV.43, which can reorder relational accessibility when the seed and distant frame act as distinct anchors.
+>
+> And I think there's a precise way to combine them without abandoning the requirement that one ordinary rendering reproduce the exact Kerr metric.
+>
+> ## 1. The essential change: rendering is not a function of the underlying state alone
+>
+> The simplest version of an emergent-spacetime theory might assume
+>
+> \\[ \Pi:\mathfrak X\longrightarrow\mathcal M\_{\rm spacetime}, \\]
+>
+> where every fundamental state \\(\xi\in\mathfrak X\\) has one predetermined spacetime appearance \\(\Pi(\xi)\\).
+>
+> You want to relax that assumption.
+>
+> I would instead introduce a history- and room-dependent rendering:
+>
+> \\[ \boxed{ \mathcal R\_{U,[\gamma]}: \mathfrak X\_{\rm paired} \longrightarrow \left\\{ \text{spacetime appearances and geometric data} \right\\}. } \\]
+>
+> Here:
+>
+> - \\(\mathfrak X\_{\rm paired}\\) contains the two chiral channels of a fundamental centrade, together with their compatibility data.
+> - \\(U\\) is the selected Boltzmannian room, including its reference anchors.
+> - \\([\gamma]\\) records an admissible relational history, not necessarily a path through already-existing spacetime.
+> - \\(\mathcal R\_{U,[\gamma]}\\) supplies the emergent spacetime event, local frame and metric data.
+>
+> The consequential possibility is
+>
+> \\[ \boxed{ \mathcal R\_{U,[\gamma_1]}(\xi) \neq \mathcal R\_{U,[\gamma_2]}(\xi) } \\]
+>
+> even for the same underlying state \\(\xi\\).
+>
+> And the converse is also possible:
+>
+> \\[ \mathcal R\_{U,[\gamma]}(\xi_1) = \mathcal R\_{U,[\gamma']}(\xi_2), \qquad \xi_1\neq\xi_2. \\]
+>
+> So the relationship between fundamental states and emergent events can be many-to-many, once we include which histories and comparisons make an appearance meaningful.
+>
+> Your archive already permits multiple fundamental lifts of one effective metric in §XXVI.6. But Entry 401 is stronger because it explicitly questions the uniqueness of the forward rendering too.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> I think this deserves to be a named principle of the proposed model, perhaps history-dependent relational rendering.
+>
+> ## 2. The three-throat switching idea has an exact finite realization
+>
+> Let's model the MP inspiration without assuming the throat inversions themselves perform the switches.
+>
+> Suppose there are three rendered regions \\(A,B,C\\). At each one, the underlying relational object has two possible channels or sheets, labeled \\(0\\) and \\(1\\).
+>
+> The local readout temporarily forgets the sheet:
+>
+> \\[ (A,0)\mapsto A,\qquad (A,1)\mapsto A, \\]
+>
+> and likewise for \\(B,C\\).
+>
+> Now suppose that each admissible inter-region transition switches the hidden sheet:
+>
+> \\[ s\mapsto s\oplus1. \\]
+>
+> Follow this closed rendered circuit:
+>
+> One full circuit, two different underlying endpoints
+>
+> | Start             | \\((A,0)\\) |
+> | ----------------- | ----------- |
+> | First transition  | \\((B,1)\\) |
+> | Second transition | \\((C,0)\\) |
+> | Third transition  | \\((A,1)\\) |
+>
+> You return to rendered region \\(A\\), but not to the starting underlying state.
+>
+> Represent the sheet exchange by
+>
+> \\[ X= \begin{pmatrix} 0&1\\\ 1&0 \end{pmatrix}. \\]
+>
+> If every transition applies \\(X\\), then the complete circuit has
+>
+> \\[ \boxed{ W\_{ABC}=X^3=X\neq I. } \\]
+>
+> That's an exact version of the behavior you described.
+>
+> And the important object isn't the state at \\(A\\) considered in isolation. It's the closed history's transport operator.
+>
+> In a \\(\mathbb Z_2\\) network, the nontrivial loop product is invariant under independently relabeling the sheets at the three vertices.
+>
+> This is a genuine relational invariant of the toy.
+>
+> A qualification matters: the loop must represent a genuinely independent circuit in the association network, or a nonflat connection. If the triangle is a filled, contractible region with an imposed flat connection, its holonomy must instead be trivial.
+>
+> And the circuit shown here is a circuit of relational comparisons. It is not a claim that a physical observer can traverse a closed causal curve through Kerr's horizons.
+>
+> ## 3. What the MP result does—and doesn't—contribute
+>
+> PG §XXVIII.2 provides the right inspiration because the two-center Majumdar–Papapetrou solution has three optical ends: the two extremal throats and spatial infinity.
+>
+> Changing the root gives exact algebraically related descriptions of the same optical metric. In the special symmetric case \\(m_1=m_2=d\\), the three ends really do admit \\(S_3\\) optical end-permutation symmetries.
+>
+> But this is not a demonstrated sheet-switching holonomy.
+>
+> The full Einstein–Maxwell configuration does not possess the same three-end symmetry: the electromagnetic fluxes distinguish the ends. The four-dimensional inversion is generally conformal, not an isometry of the physical spacetime.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> So our three-switch model is an independent relational construction motivated by the MP example, not a consequence already hidden inside it.
+>
+> I think that's actually preferable to forcing Kerr into the MP geometry.
+>
+> ## 4. The same transport can act on the average and the relative parts of the chiral pair
+>
+> This is where your suggestion becomes particularly interesting to me.
+>
+> Suppose the two channels of one centrade carry normalized vectors \\(\xi\_+\\) and \\(\xi\_-\\). They may initially belong to different comparison fibers, so we need a history-dependent transport \\(W_U(\gamma)\\) to compare them.
+>
+> Once transported into a common Hermitian space, define
+>
+> \\[ \boxed{ m\_{U,\gamma} = \frac{\xi\_++W_U(\gamma)\xi\_-}{2}, \qquad d\_{U,\gamma} = \frac{\xi\_+-W_U(\gamma)\xi\_-}{2}. } \\]
+>
+> These are the common and difference parts of the paired structure.
+>
+> They aren't necessarily two independent physical fields. They're two ways of reading the same transported pair.
+>
+> Now notice the exact identity
+>
+> \\[ \boxed{ \\|m\_{U,\gamma}\\|^2+ \\|d\_{U,\gamma}\\|^2=1. } \\]
+>
+> And more revealingly,
+>
+> \\[ \boxed{ \\|m\_{U,\gamma}\\|^2 = \frac12 \left[ 1+\operatorname{Re} \langle\xi\_+,W_U(\gamma)\xi\_-\rangle \right]. } \\]
+>
+> This gives a direct bridge to your action-difference intuition.
+>
+> If the channels initially agree and the transport acts by a relative phase,
+>
+> \\[ W_U(\gamma)\xi\_- = e^{i\Delta S/\hbar}\xi\_+, \\]
+>
+> then
+>
+> \\[ \boxed{ \\|m\_{U,\gamma}\\|^2 = \cos^2\left(\frac{\Delta S}{2\hbar}\right), \qquad \\|d\_{U,\gamma}\\|^2 = \sin^2\left(\frac{\Delta S}{2\hbar}\right). } \\]
+>
+> The cosine emerges as the squared common component of two transported orientations.
+>
+> One paired object, different common/difference readouts
+>
+> Relative transport phase
+>
+> 90°
+>
+> Common component
+>
+> 50.0%
+>
+> Difference component
+>
+> 50.0%
+>
+> Exact algebra for two aligned unit vectors under a relative phase. Interpreting these squared norms as physical probabilities or spacetime weights is a further premise.
+>
+> Here's why I think this bears directly on Entry 401.
+>
+> The underlying pair can stay the same while a different history changes \\(W_U(\gamma)\\).
+>
+> That changes the common and difference components, even though the pair itself hasn't been replaced.
+>
+> A spacetime rendering could therefore depend on
+>
+> \\[ \mathcal R_U\bigl(m\_{U,\gamma},d\_{U,\gamma}\bigr) \\]
+>
+> rather than on \\(\xi\_+\\) and \\(\xi\_-\\) independently.
+>
+> In that case, the history helps determine what the paired object appears to be.
+>
+> You could even distinguish two contributions:
+>
+> \\[ \boxed{ \begin{aligned} \text{Absolute or collective readout} &\sim m\_{U,\gamma},\\\ \text{Relational or comparative readout} &\sim d\_{U,\gamma}. \end{aligned} } \\]
+>
+> A turnover could redistribute information between them without necessarily changing a conserved total.
+>
+> This is a very concrete model of the flexibility you asked for.
+>
+> But it also gives a sharp limitation: the identity above is simply Hilbert-space geometry. It does not, by itself, derive Born's rule or reconstruct a spacetime metric. Those require specifying the physical readout.
+>
+> There is an especially instructive distinction between the two kinds of loop operation we've discussed.
+>
+> A loop acting as \\(-I\\) on a spinor changes the relative interference phase but need not move the system to a different underlying sheet. A loop acting as the sheet exchange \\(X\\) can return the system to an orthogonal hidden state; if the two histories retain that distinguishability, their interference disappears unless an appropriate coherent sewing or erasure is supplied.
+>
+> So a path-dependent destination and a path-dependent cosine are related ambitions, but not automatically the same physical effect.
+>
+> ## 5. Reintroducing the turnover as a change of the rendering itself
+>
+> Now let's go beyond a fixed rendering map.
+>
+> In v37.3, the turnover rearranges associations relative to the room. The important result was that turning the seed-relative associations alone changes phases but not their visibility magnitudes; a second differently responding anchor makes the turnover alter the relational correlations.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> I would apply that lesson directly to your proposed Kerr model.
+>
+> Let the room choose not just a preferred inertial frame, but an entire admissible rendering atlas:
+>
+> \\[ \mathscr A_U = \\{\mathcal R\_{U,\gamma},\\,\text{allowed comparisons and gluing maps}\\}. \\]
+>
+> Then a turnover \\(T\\) acts schematically as
+>
+> \\[ \boxed{ (U,\mathscr A_U,W_U) \longmapsto (TU,\mathscr A\_{TU},W\_{TU}). } \\]
+>
+> The two most interesting outcomes are different.
+>
+> Re-indexing within one spacetime: the turnover changes which underlying histories count as the same apparent location, but the rendered metric and physical field configuration remain isometric. There may still be observable differences if fixed detectors, matter records or anchors distinguish the histories.
+>
+> Re-rendering into another spacetime: the turnover changes the complete geometry or matter configuration, perhaps even its global topology or causal organization.
+>
+> The second possibility is considerably stronger. It needs new physical equations or a lawful transition between solutions, not merely a new choice of coordinates.
+>
+> This is where the groupoid language already developed in §XVIII.5 becomes indispensable. That section explicitly rejects path-independent equivalence as sufficient for the intended relational identity, and replaces it with history transports and their holonomy.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> Entry 401 would generalize this to a groupoid of admissible spacetime renderings, not just a groupoid of appearances inside one fixed spacetime.
+>
+> I'd resist treating that as a single ordinary quotient too early. Different room selections might define genuinely different equivalence relations, with no globally preferred identification of their events.
+>
+> ## 6. How do we retain exact Kerr?
+>
+> This is the crucial discipline.
+>
+> We should not demand that every admissible rendering be the same spacetime, but we should require the selected ordinary rendering to produce the Kerr metric exactly.
+>
+> The simplest target would be
+>
+> \\[ \boxed{ \mathcal R\_{U_0,\gamma_0}(\mathfrak C) = (\mathcal M\_{\rm Kerr},g\_{\rm Kerr}) } \\]
+>
+> for an appropriate normal room \\(U_0\\) and selected rendering history.
+>
+> A different history or room could then supply another atlas, a different underlying sheet of the same Kerr continuation, or—in the genuinely speculative extension—a different emergent geometry.
+>
+> For the first branch, we need to reconstruct the Kerr quantities
+>
+> \\[ \Sigma=r^2+a^2\cos^2\vartheta, \qquad \Delta=r^2-2Mr+a^2, \\]
+>
+> including the frame-dragging terms and the regular continuation through both horizons.
+>
+> What I'd like to change from Entry 399 is not to assign a fixed spacetime radius \\(r\\) to the underlying pair.
+>
+> Instead, give the pair relational clocks, orientation comparisons and tidal data. Require the selected rendering to reconstruct \\(r\\) as an effective geometric quantity.
+>
+> Then the two-channel determinant from Entry 399 becomes a benchmark to derive:
+>
+> \\[ \det C_U \stackrel{?}{=} \Delta(r_U), \\]
+>
+> with \\(r_U\\) emerging from the room-conditioned history structure.
+>
+> This makes the two horizons potential changes in the admissibility of a joint rendering, rather than little doors through which two underlying particles literally pass.
+>
+> One could investigate whether the two horizon crossings change two separate channel-sewing conditions, while the global transport carries an additional sheet label. Those are separate structures, so we don't need to assume that every horizon crossing necessarily flips the sheet.
+>
+> The inner horizon's instability is still a major constraint. A hypothetical alternative rendering must reproduce the exact Kerr continuation where it is mathematically defined and must separately explain what perturbations do to that continuation.
+>
+> ## 7. The hardest test: when is a new rendering physically new?
+>
+> A theory allowing many renderings needs a firm equivalence criterion, otherwise it risks counting ordinary coordinate changes or gauge transformations as different universes.
+>
+> I would classify its outputs by three increasingly demanding tests:
+>
+> | Level                     | What changes?                                                                                                   | Significance                                    |
+> | ------------------------- | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+> | Coordinate/frame change   | Only the description                                                                                            | Gauge or ordinary covariance                    |
+> | Relational-history change | A gauge-invariant comparison or anchored detector result                                                        | Potential physical content within one spacetime |
+> | Spacetime change          | Metric/field invariants, causal structure, or global topology not related by an admissible physical equivalence | A genuinely different physical rendering        |
+>
+> A nontrivial holonomy alone is not enough: ordinary curved spacetime and standard gauge theory already have holonomies.
+>
+> The new effect must concern how the centrade association network determines spacetime identity itself, or produce observable relations not reducible to those standard structures.
+>
+> That also means the full set of constraints—causality, local Lorentz invariance, conservation, quantum probabilities and the room's physical selection—has to survive.
+>
+> ## My proposed first model for Entry 401
+>
+> I would actually combine the preceding constructions into a small experiment with three rendered regions, two channels per region, and a finite Boltzmannian room.
+>
+> The three-region circuit carries a \\(\mathbb Z_2\\) sheet connection, so a completed circuit can return to the same rendered location with the opposite underlying sheet.
+>
+> The two chiral channels additionally carry a continuous, possibly \\(SU(2)\\)-valued comparison connection. That determines the common and relative components, including the cosine relation in the phase-valued sector.
+>
+> And the room controls how these quantities are made observable: which region is the reference, which histories are identified, and which anchors remain fixed during a turnover.
+>
+> The important experiment would be to see whether changing only the room-conditioned rendering, with the underlying centrade inventory held fixed, can:
+>
+> 1. Change which underlying states are identified as one event.
+> 2. Produce a nontrivial closed-history sheet holonomy.
+> 3. Change a physically anchored interference comparison rather than merely its labels.
+> 4. Preserve an ordinary Lorentzian geometric sector that could eventually be matched to Kerr.
+>
+> These four tests can be investigated before claiming anything about actual black-hole interiors.
+>
+> And I'd leave the cross-regime electric-charge proposal of Entry 400 out of this first model. Otherwise we'd be asking it to explain too many independent things simultaneously.
+>
+> ## My assessment
+>
+> I think Entry 401 identifies a structural move that PG was already approaching in Parts XVIII and XXVI, but had not yet made explicit enough for the Kerr investigation.
+>
+> Rather than:
+>
+> \\[ \text{two chiral structures} \longrightarrow \text{one predetermined spacetime}, \\]
+>
+> you want:
+>
+> \\[ \boxed{ \begin{array}{c} \text{One underlying centrade association structure}\\\ +\text{ two transported channels}\\\ +\text{ selected Boltzmannian room}\\\ +\text{ relational history}\\\ \downarrow\\\ \text{an admissible spacetime rendering} \end{array} } \\]
+>
+> with other histories or room selections potentially producing other renderings of the same underlying material.
+>
+> That distinction is not a mathematical impossibility. We can model it exactly with groupoids, connections, contextual projections and transport-dependent equivalence relations.
+>
+> The major open question is whether PG's actual field and association laws select such a structure and make it observably different from an ordinary gauge-bundle description.
+>
+> The idea I'd particularly carry forward is that spacetime identity might belong to the transported pair, not to either underlying state separately.
+>
+> That could allow the Kerr interior to emerge as a particular organization of paired-channel histories while the ordinary observer still measures the standard Kerr geometry. It also brings your three-throat return-to-a-different-underlying-spot intuition and your larger Machian turnover program into the same mathematical investigation—without demanding that either of those earlier toys already proves the physical picture.
+
+**The third attachment: a response to Entry 402.** As the author sent it:
+
+> # Entry 402 — Charge as a meridian-parity mismatch
+>
+> I think this is a substantial improvement in the mechanism you're proposing for charge. It replaces the idea of physically displacing a Kerr constituent along an imaginary meridian with something more distinctly relational:
+>
+> Two otherwise neutral Kerr-like structures may acquire an electromagnetic relationship when their meridian orientations disagree.
+>
+> And I especially like that you've separated this from the immediate Kerr-only investigation. We can continue developing the two-channel emergence of Kerr spacetime without requiring that same construction to generate electric charge. Charge would instead enter when we compare distinct middle-space configurations.
+>
+> There's one important refinement, though:
+>
+> Opposite orientations naturally produce an electric dipole, but an electric dipole has zero total charge.
+>
+> That isn't a problem for your proposal. It may actually be the key to making the accounting work. We just need to distinguish a black hole's local electric monopole charge from the total charge of the entire paired configuration.
+>
+> ## 1. Your parity idea has a very simple algebra
+>
+> Suppose two middle-space configurations have meridian-orientation labels
+>
+> \\[ s_1,s_2\in\\{+1,-1\\}. \\]
+>
+> Define a mismatch indicator
+>
+> \\[ \boxed{\chi\_{12}=\frac{1-s_1s_2}{2}.} \\]
+>
+> Then:
+>
+> | Meridian parities | Mismatch | Proposed electromagnetic response |
+> | ----------------- | -------- | --------------------------------- |
+> | \\(+,+\\)         | \\(0\\)  | None                              |
+> | \\(−,−\\)         | \\(0\\)  | None                              |
+> | \\(+,−\\)         | \\(1\\)  | Active                            |
+> | \\(−,+\\)         | \\(1\\)  | Active                            |
+>
+> That exactly implements your statement: equal orientations cancel the relational charge-producing effect, while opposite orientations activate it.
+>
+> But \\(\chi\_{12}\\) has no sign. To obtain electric charge, we must also specify which end of the relationship is positive and which is negative.
+>
+> In a common, physically selected orientation frame, an elementary toy assignment is
+>
+> \\[ \boxed{ q_1=\frac{q\_\*}{2}(s_1-s_2), \qquad q_2=-q_1. } \\]
+>
+> Equal parity yields two neutral effective sources. Opposite parity yields equal and opposite effective charges.
+>
+> The pair is then globally neutral, but each member can be electrically charged when observed separately.
+>
+> That is an internally consistent starting point, provided we can derive rather than assume this coupling.
+>
+> ## 2. What the field lines would actually look like
+>
+> [4.8 Extended Topic: The Four Basic Forces—An Introduction - College Physics 2e | OpenStax](https://images.openai.com/static-rsc-4/Qrk9pIfsxevoXbgEEfNRWKd6YAoORo9nrudt1P88F0LYDHxz8MUJC1lYBkQBaf1NS4Wu9R9OrHWwb6iXfJJXjwXcpc3fpMvXgW0_AOKqnU-76mavfb0N1bWmyqba1dDnZS_NWN-ZT9G5bev_YhqvuPcleV3halfsiIf_vi3ofRA?purpose=inline)
+>
+> Electric dipole
+>
+> Electric field lines begin on positive charge and end on negative charge.
+>
+> [Permanent Magnet - Magnosphere](https://images.openai.com/static-rsc-4/wUc78bLucrc9RPOftwclxWcRypJzTQakLn6br7dBqVUP_r_x5B0EJMeMF2cFyea6wXr-L2HDwaRd1BQTF6RtbGVlv1Nyc0gTa_zXf73Xlj6PPrbNhHtoNgz9MShTAPtsxzTPCVf0NfbKdAsTECKPlprtX8u-LN_40MH8h3wKnX8?purpose=inline)
+>
+> Magnetic dipole
+>
+> Magnetic field lines form closed loops, including through the magnet.
+>
+> Your bar-magnet analogy captures the paired geometry well, with one correction: ordinary electric field lines do not form closed loops. They can connect two opposite electric charges; magnetic field lines, in standard electromagnetism without magnetic monopoles, are the ones that are closed.
+>
+> Suppose the two rendered sources sit at distinct positions \\(\mathbf x_1,\mathbf x_2\\), with charges \\(+q,-q\\). In the weak-field limit their electrostatic potential is
+>
+> \\[ \Phi(\mathbf x) = \frac{q}{4\pi} \left( \frac1{|\mathbf x-\mathbf x_1|} - \frac1{|\mathbf x-\mathbf x_2|} \right). \\]
+>
+> At large distances, its electric monopole term cancels. The leading field is dipolar, with
+>
+> \\[ \mathbf p=q(\mathbf x_1-\mathbf x_2). \\]
+>
+> Thus the configuration is globally neutral but can still exert electromagnetic forces.
+>
+> That would give your model a particularly interesting distinction:
+>
+> A local observer could measure a nonzero charge around one member, while an observer enclosing the entire pair measures zero net charge.
+>
+> For the standard Maxwell flux,
+>
+> \\[ \frac1{4\pi}\int\_{S_i^2}{}^\star F=q_i, \\]
+>
+> whereas a surface enclosing both gives zero.
+>
+> But Kerr–Newman itself has an electric monopole \\(Q\\) at large distances from the individual black hole, together with a spin-induced magnetic dipole \\(Qa\\). Those are different electromagnetic multipoles.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://heiup.uni-heidelberg.de\&sz=32)
+>
+> Heidelberg University+1
+>
+>
+>
+> So the paired configuration may resemble a dipole globally while one member still has the local Kerr–Newman field.
+>
+> ## 3. The central obstacle: the two sources may occupy one gravitational-base location
+>
+> Here's where PG's quotient architecture becomes decisive.
+>
+> If your two objects lie at different meridian positions but project to the same point of the gravitational base, then their separation is not necessarily visible as an ordinary spatial separation.
+>
+> Suppose their projected positions coincide:
+>
+> \\[ \mathbf x_1=\mathbf x_2. \\]
+>
+> Then the elementary four-dimensional dipole potential above vanishes identically.
+>
+> So merely separating two opposite charges along the hidden meridian is not enough to produce an observable electric field on the representational leaf.
+>
+> That suggests the next step.
+>
+> Instead of treating charge as the sum of two hidden sources, perhaps the selected representational leaf reads them through different comparison weights:
+>
+> \\[ \boxed{ Q\_{\rm rep} = q\\,[K_U(\chi_1)-K_U(\chi_2)]. } \\]
+>
+> Here \\(K_U\\) is a proposed, room-dependent electromagnetic readout kernel, and \\(\chi_1,\chi_2\\) label their meridian positions.
+>
+> If \\(K_U\\) is constant along the meridian, the charges cancel.
+>
+> If the readout distinguishes their positions or orientations, the pair can yield a nonzero effective charge.
+>
+> This is speculative, but it gives your idea a much more precise target:
+>
+> Electromagnetic charge would measure the part of a meridian-antisymmetric configuration that survives the selected electromagnetic readout, even when its total gravitational reduction treats the pair together.
+>
+> That fits PG's separation between Law I's full-meridian gravitational reduction and Law IV's representational Maxwell field. Neither law currently supplies such a kernel, so deriving it would be new work.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> ### A useful exact Fourier test
+>
+> Imagine, temporarily, that the resolved meridian is a circle, parametrized by \\(\chi\\), and the paired source distribution is
+>
+> \\[ \rho(\chi) = q\left[ \delta(\chi-\chi_1) - \delta(\chi-\chi_2) \right]. \\]
+>
+> Its zeroth Fourier component is
+>
+> \\[ \boxed{\rho_0=\int\rho(\chi)\\,d\chi=0.} \\]
+>
+> But its first nonconstant mode is
+>
+> \\[ \boxed{ \rho_1 = -2iq\\,e^{-i(\chi_1+\chi_2)/2} \sin\frac{\chi_1-\chi_2}{2}. } \\]
+>
+> That's rather suggestive in view of Entries 392–397.
+>
+> The half-angle sine arises naturally from a difference between two sources on a circle, without inventing an imaginary displacement of either Kerr worldline.
+>
+> Yet the calculation gives a warning too: the nonzero Fourier mode is a meridian heterogeneity, while the total mode is zero.
+>
+> It would take an additional, physically justified readout to make that heterogeneity appear as a four-dimensional electric monopole.
+>
+> This is exactly the type of problem I'd investigate next.
+>
+> ## 4. With three Kerr-like sources, the parity idea becomes a network law
+>
+> Your previous three-source example becomes particularly useful now.
+>
+> In a common selected meridian-orientation frame, let the three source parities be
+>
+> \\[ (s_1,s_2,s_3)=(+1,+1,-1). \\]
+>
+> Let \\(w\_{ij}=w\_{ji}\geq0\\) be their relational coupling strengths, perhaps determined by the room and the graded adjacency introduced in Entry 400.
+>
+> Define
+>
+> \\[ \boxed{ q_i = \frac{q\_\*}{2} \sum\_{j\neq i}w\_{ij}(s_i-s_j). } \\]
+>
+> This is the weighted graph-Laplacian construction for signed charges.
+>
+> Its properties are exact:
+>
+> \\[ \boxed{\sum_iq_i=0.} \\]
+>
+> Equal-parity pairs make no contribution, opposite-parity pairs carry opposite charges at their ends, and total charge is conserved at the level of the finite network.
+>
+> Using the illustrative weights from Entry 400,
+>
+> \\[ w\_{12}=1,\qquad w\_{13}=1,\qquad w\_{23}=\frac83, \\]
+>
+> we get
+>
+> \\[ \boxed{ (q_1,q_2,q_3) = q\_\* \left(1,\frac83,-\frac{11}{3}\right). } \\]
+>
+> The first two sources have the same parity and contribute nothing directly to one another's charge. Both mismatch the third, and their relational contributions add.
+>
+> This is a concrete realization of your proposed multi-regime charge accounting.
+>
+> The sign convention is meaningful only after a common orientation has been physically selected. PG's meridian is originally an unoriented line field; flipping a locally arbitrary orientation label must not change an observable. A more complete model would introduce a \\(\mathbb Z_2\\) comparison connection and define gauge-invariant relative parity through transported orientations.
+>
+> Also, this network construction guarantees total neutrality but not small charge on each source. In the example, one member carries \\(11q\_\*/3\\) in magnitude. That matters for the astrophysical argument.
+>
+> ## 5. Does random parity explain why astrophysical black holes are almost neutral?
+>
+> Here I would be careful, because there are two different statistical effects.
+>
+> If two independent parity labels are equally likely to be positive or negative, then
+>
+> \\[ \boxed{ P(\text{opposite parity})=\frac12. } \\]
+>
+> So parity mismatch alone is not rare.
+>
+> In the graph-Laplacian toy, a source of positive parity receives contributions of the same sign from all negatively oriented neighbors. Random neighboring parities therefore need not cancel its own charge. They can instead produce a substantial local charge, balanced by opposite charges elsewhere.
+>
+> To obtain the usual statistical suppression of net charge, you'd need a finer collection of independently signed microscopic contributions.
+>
+> For example, if a macroscopic object contains \\(N\\) independently signed elementary charge contributions, their typical imbalance scales as
+>
+> \\[ |Q\_{\rm net}|\_{\rm rms}\sim q\_\*\sqrt N, \\]
+>
+> while its mass might scale as
+>
+> \\[ M\sim Nm\_\*. \\]
+>
+> Hence its charge-to-mass ratio decreases roughly as \\(N^{-1/2}\\), with the appropriate gravitational-charge normalization.
+>
+> That's the statistical argument you seem to be reaching for. But it requires sufficiently independent positive and negative contributions and an appropriate mass relation—not merely two macroscopic parity orientations.
+>
+> Then ordinary electromagnetic attraction and plasma dynamics can further drive black holes toward small net charge. Indeed, conventional studies find strong neutralization mechanisms for charged nonrotating black holes and for rotating charged black holes in several environments, although magnetospheres complicate the Kerr–Newman case.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://academic.oup.com\&sz=32)
+>
+> Oxford Academic+1
+>
+>
+>
+> So I'd phrase your revised hypothesis as:
+>
+> Random microscopic meridian-parity mismatches generate locally signed electromagnetic contributions, while collective cancellation, Boltzmannian conditioning and ordinary electromagnetic discharge favor almost-neutral macroscopic Kerr renderings.
+>
+> That is more defensible than saying random parity by itself guarantees near-neutrality.
+>
+> ## 6. How this fits the existing meridian flux result
+>
+> There is an important compatibility issue from Part X.
+>
+> PG already has an orientation-sensitive Hopf flux associated with linking meridians. But §X.5 explicitly distinguishes this from ordinary electric charge: its Chern number has fixed magnitude, and its native five-dimensional flux type is magnetic.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> I would therefore not identify your new parity \\(s_i\\) with the sign of the Hopf Chern class outright.
+>
+> Instead, treat the parity as a candidate property of a comparison between two meridian-oriented sectors, with the Hopf connection perhaps providing the transport necessary to compare them.
+>
+> That makes the proposal genuinely cross-regime.
+>
+> And it leaves open a compelling possibility: the orientation mismatch is fundamental, while the electromagnetic field is the effective response to that mismatch.
+>
+> However, a candidate charge must ultimately come with a conserved four-current \\(j^\mu\\) and a Maxwell field satisfying
+>
+> \\[ \nabla\_\nu F^{\nu\mu}=4\pi j^\mu. \\]
+>
+> A mismatch indicator or a graph-Laplacian charge is not yet that field.
+>
+> ## 7. The next experiment I'd recommend
+>
+> I'd keep Kerr itself electrically neutral and unchanged, just as you've suggested, and add only one new ingredient: a binary relative-meridian-parity field on the centrade association network.
+>
+> I'd test four requirements in order:
+>
+> 1. Equal parity produces no electric charge, while opposite parity produces a signed pair and exact total-charge conservation.
+> 2. A room-conditioned readout can produce a genuine Maxwell monopole around one rendered member without creating charge from nothing.
+> 3. The resulting electromagnetic stress has the Kerr–Newman form and adds \\(+Q^2\\) to the horizon polynomial, while retaining the correct \\(Qa\\) magnetic moment.
+> 4. A Boltzmannian distribution over microscopic parity configurations predicts a small typical macroscopic \\(|Q|/M\\) without inserting the desired suppression by hand.
+>
+> The second test is the most decisive. If every opposite-parity pair cancels under the representational readout, we'd have constructed an interesting hidden meridian dipole—but not electric charge.
+>
+> ### My assessment
+>
+> I think you've made the proposed origin of charge more economical.
+>
+> You no longer need charge to be a continuous imaginary displacement of a Kerr worldline, or to approach extremality only through an increasingly costly meridian winding.
+>
+> Instead, the core suggestion is that electric charge is a signed response to incompatibility between otherwise neutral relational regimes.
+>
+> That fits your larger intention of making the intrinsic Kerr geometry arise from paired chiral transport while placing electromagnetic charge at the level of comparisons between middle-space configurations.
+>
+> The additional finding I'd emphasize is that a meridian dipole is naturally invisible to a uniform full-fiber readout. That creates both the main obstacle and the main opportunity.
+>
+> If PG can derive why gravitational reduction sees the collective source while electromagnetic rendering detects a selected parity-odd difference, then you will have a precise mechanism for the separation you're after.
+>
+> I think that's the strongest mathematical formulation of Entry 402 so far: not “charge is meridian flux,” but “charge is a dynamically selected, gauge-invariant readout of meridian-parity heterogeneity.”
+
+**The author's fifth message of the round (31 October).** It arrived next, while Entries 400–402 were being taken in. As he sent it — Entry 403 after a line with its number and time — with the two attachments after it:
+
+> Entry 403, 3:27 PM, Oct 31, 2026
+> Well ok yes obviously electric field lines do not form closed loops, hence my existing idea in projective gravity already that the middle space can support zero divergence of the whole electromagnetic field, and it simply appears that you get electric monopoles by either taking leaf cross sections or quotienting away the meridian to get the gravity base space! See the idea??? Thanks!
+
+**The first attachment: a response to Entry 403.** As the author sent it:
+
+> Yes! And I see now why my previous objection about electric field lines not forming closed loops missed your actual proposal. You're not suggesting that electric fields violate Gauss's law. You're suggesting that what appears to be an electric monopole on one representational leaf could be a completely source-free electromagnetic configuration when viewed in the full middle space.
+>
+> In other words, the electromagnetic field has access to a direction that the observer's leaf does not.
+>
+> A positive charge on one leaf and a negative charge on another could be two appearances of a single, globally sourceless field structure. The electric flux need not terminate anywhere in the middle space; it can pass through the meridian direction and reappear elsewhere.
+>
+> That's a much more precise idea than simply assigning opposite charges to two black holes.
+>
+> ## 1. The Gauss-law calculation is exactly suggestive
+>
+> Suppose locally that the middle space has one time direction, three ordinary spatial directions \\(\mathbf x\\), and one meridian direction \\(y\\).
+>
+> Decompose a hypothetical middle-space electric field into
+>
+> \\[ \mathcal E=(\mathbf E\_\parallel,E_y). \\]
+>
+> If the complete field has zero electric divergence,
+>
+> \\[ \boxed{ \nabla_4\cdot\mathcal E = \nabla_3\cdot\mathbf E\_\parallel + \partial_y E_y =0, } \\]
+>
+> then an observer on the leaf \\(y=y_0\\), measuring only \\(\mathbf E\_\parallel\\), finds
+>
+> \\[ \boxed{ \nabla_3\cdot\mathbf E\_\parallel = -\partial_yE_y. } \\]
+>
+> And therefore, in Gaussian units,
+>
+> \\[ \boxed{ \rho\_{\rm apparent} = -\frac{1}{4\pi}\partial_y E_y. } \\]
+>
+> A nonzero apparent electric charge density can arise on a leaf even though the full middle-space electric field has zero divergence.
+>
+> That's the key identity behind your intuition.
+>
+> The apparent source and sink are features of different restricted readouts. The sketch is not a solved Maxwell field configuration.
+>
+> The deeper field is source-free; its restriction need not be.
+>
+> That's mathematically legitimate in principle.
+>
+> ## 2. We can even construct an exact source-free example
+>
+> Take a local flat middle-space model with a periodic meridian coordinate \\(y\\), and define an electrostatic potential
+>
+> \\[ \Phi(x,y)=A e^{kx}\cos(ky). \\]
+>
+> It satisfies the four-spatial-dimensional Laplace equation:
+>
+> \\[ \boxed{ \nabla_4^2\Phi = \partial_x^2\Phi+\partial_y^2\Phi=0. } \\]
+>
+> Therefore \\(\mathcal E=-\nabla_4\Phi\\) is both curl-free and divergence-free in the full space.
+>
+> But on a leaf at fixed \\(y\\),
+>
+> \\[ \nabla_3\cdot\mathbf E\_\parallel = -Ak^2e^{kx}\cos(ky). \\]
+>
+> At \\(y=0\\), the apparent charge density has one sign.
+>
+> At \\(y=\pi/k\\), it has the opposite sign.
+>
+> And at \\(y=\pi/(2k)\\), it vanishes.
+>
+> All three leaves are seeing different electromagnetic source patterns from one perfectly source-free bulk Maxwell solution.
+>
+> This is an exact local mathematical example, although its fields grow exponentially in one direction, so it is not a model of an isolated charged black hole.
+>
+> Still, it establishes that the mechanism you're describing is not inherently inconsistent with Gauss's law.
+>
+> ## 3. The full-meridian cancellation becomes part of the explanation
+>
+> For a fixed three-dimensional volume \\(V\\),
+>
+> \\[ Q\_{\rm leaf}(y) = -\frac1{4\pi} \frac{d}{dy}\int_V E_y\\,d^3x. \\]
+>
+> If the meridian is a smooth closed circle and the relevant fields are single-valued, then
+>
+> \\[ \boxed{ \oint Q\_{\rm leaf}(y)\\,dy=0. } \\]
+>
+> That's exactly the kind of global cancellation you're imagining.
+>
+> However, it reveals an important distinction between two PG readouts.
+>
+> Taking a leaf cross-section can yield a nonzero apparent charge.
+>
+> Quotienting the entire meridian does not automatically preserve that charge. Under a simple uniform integration, these derivative contributions cancel.
+>
+> Therefore, for the gravitational quotient to retain Kerr–Newman's \\(Q^2\\) contribution, it may have to retain the electromagnetic stress-energy, rather than the signed charge itself.
+>
+> That's quite natural, because electromagnetic energy is quadratic in the field.
+>
+> Opposite electric field orientations can cancel in a signed average while still contributing positive electromagnetic stress.
+>
+> This fits your existing distinction between Law I's full-meridian gravitational reduction and Law IV's Maxwell readout on the representational leaf. But the manuscript has not yet constructed the full middle-space electromagnetic action or the descent rule connecting these fields.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> There's also a topological qualification: the globally source-free construction must support the flux of an isolated Kerr–Newman electric monopole. A compact, completely smooth, boundaryless construction cannot produce arbitrary net charge by a mere choice of coordinates. Nontrivial topology, excluded cores, boundaries, or a genuine cross-regime coupling may be necessary.
+>
+> ## 4. And this changes my reading of your opposite-parity proposal
+>
+> I now see the intended sequence as something like
+>
+> \\[ \boxed{ \begin{array}{c} \text{Two Kerr-like middle-space constituents}\\\ \downarrow\\\ \text{Opposite relative meridian parity}\\\ \downarrow\\\ \text{Nontrivial electromagnetic flux transfer between regimes}\\\ \downarrow\\\ \text{Globally source-free middle-space field}\\\ \downarrow\\\ \text{Locally charged representational readouts}\\\ +\text{electromagnetic stress retained by gravity}. \end{array} } \\]
+>
+> Equal parity would instead correspond to a configuration with no relevant mismatch-driven flux transfer.
+>
+> That's a hypothesis requiring an electromagnetic transport law, but it's much closer to your idea than the picture of two ordinary four-dimensional charged particles whose field lines must be drawn between them.
+>
+> In particular, you could have an apparently isolated charged Kerr–Newman black hole on our leaf whose balancing electromagnetic structure lies elsewhere in the middle space. The visible four-dimensional exterior could have its usual \\(1/r^2\\) electric field and Gauss flux, while the deeper field satisfies a global source-free condition.
+>
+> One important distinction from §X.5 remains: the existing topological Hopf flux is not automatically electric flux. The new mechanism would have to be defined using the electromagnetic field itself, or an independently derived constitutive coupling.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> ### My revised assessment
+>
+> Yes, I see the idea, and I think its mathematical core is legitimate. The striking feature is that source-free in the middle space need not mean source-free after restriction to a leaf.
+>
+> And the second striking feature is that gravitational reduction may retain the quadratic energy of a cross-meridian electromagnetic configuration even when its signed net charge cancels.
+>
+> That gives us a quite concrete target for Entry 402: derive a full middle-space electromagnetic field with opposite-parity pairings, take its representational cross-sections and its gravitational quotient, and see whether the former yields a genuine Maxwell monopole while the latter yields the exact Kerr–Newman electromagnetic stress tensor.
+>
+> I think that is the right calculation now—not another model that just assigns \\(Q\\) to a meridian angle.
+
+**The second attachment: a second response to Entry 403, or to a remark the message does not contain (a reading; see *The mapping*).** As the author sent it:
+
+> Yes—that makes the deeper point much clearer. You're describing a reality in which different physical sectors disagree about which distinctions between underlying states count as spatially observable.
+>
+> And I think this is more fundamental to your proposal than the electromagnetic field-line picture itself.
+>
+> In PG, the middle space is five-dimensional, but the gravity base is obtained by quotienting its meridian direction. Meanwhile, the representational leaf can distinguish configurations that the gravitational quotient identifies.
+>
+> So you're not saying the meridian is physically nonexistent. You're saying it is part of the underlying geometry but not an independent spatial direction of the rendered gravitational spacetime.
+>
+> ## 1. A precise way to express that
+>
+> On a regular part of the middle space, use local coordinates
+>
+> \\[ (x^\mu,\chi), \\]
+>
+> where \\(\chi\\) labels position along a meridian.
+>
+> The gravitational quotient acts as
+>
+> \\[ \boxed{ q(x^\mu,\chi)=x^\mu. } \\]
+>
+> Consequently,
+>
+> \\[ q(x^\mu,\chi_1)=q(x^\mu,\chi_2) \\]
+>
+> even when \\(\chi_1\neq\chi_2\\).
+>
+> These are two distinct middle-space points representing one gravitational-base point.
+>
+> But an electromagnetic readout need not identify them in the same way.
+>
+> It might depend on \\(\chi\\), on which representational crossing is selected, or on comparison data between different meridian positions.
+>
+> That yields your heterogeneous structure:
+>
+> | Physical structure                       | Meridian direction                                            |
+> | ---------------------------------------- | ------------------------------------------------------------- |
+> | Gravity-base spacetime geometry          | Quotiented away                                               |
+> | Middle-space matter and associations     | Retained                                                      |
+> | Representational electromagnetic physics | Potentially sensitive to representatives and their comparison |
+> | Boltzmannian room                        | Can condition which comparisons and renderings are admissible |
+>
+> The crucial mathematical distinction is that the gravitational metric descends through \\(q\\), while a more general electromagnetic configuration need not.
+>
+> ## 2. There's an exact geometric test for this
+>
+> Let \\(V\\) be tangent to the meridian direction.
+>
+> A tensor pulled back from the gravity base must, in the appropriate sense, be insensitive to movement along the fibers. For the gravitational metric,
+>
+> \\[ \boxed{ g\_{\mathcal M}=q^\*g_G } \\]
+>
+> implies
+>
+> \\[ g\_{\mathcal M}(V,\cdot)=0, \qquad \mathcal L_Vg\_{\mathcal M}=0. \\]
+>
+> So the inherited gravitational metric literally supplies no distance in that direction.
+>
+> But consider a candidate middle-space electromagnetic two-form \\(\mathcal F\\).
+>
+> For it to be the pullback of a two-form on the gravity base, it must satisfy the basic-form conditions:
+>
+> \\[ \boxed{ \iota_V\mathcal F=0, \qquad \mathcal L_V\mathcal F=0. } \\]
+>
+> The first says the field has no meridian leg. The second says it does not vary along the meridian.
+>
+> Your hypothesis is that the physical electromagnetic structure need not satisfy those conditions.
+>
+> That is a particularly elegant way to distinguish the sectors.
+>
+> The gravity-base metric forgets the meridian. The electromagnetic configuration may contain precisely the information that the quotient forgets.
+>
+> And importantly, this doesn't mean electromagnetic physics violates covariance. It means different physical objects descend through different maps.
+>
+> ## 3. This gives apparent electric charge a possible mechanism
+>
+> For a local flat product model, suppose a five-dimensional Maxwell field satisfies
+>
+> \\[ \partial_A\mathcal F^{A\nu}=0. \\]
+>
+> Split its indices into the four rendered spacetime directions \\(\mu\\) and the meridian coordinate \\(\chi\\):
+>
+> \\[ \partial\_\mu\mathcal F^{\mu\nu} + \partial\_\chi\mathcal F^{\chi\nu}=0. \\]
+>
+> Therefore,
+>
+> \\[ \boxed{ \partial\_\mu\mathcal F^{\mu\nu} = 4\pi j\_{\rm eff}^{\nu}, \qquad j\_{\rm eff}^{\nu} = -\frac1{4\pi} \partial\_\chi\mathcal F^{\chi\nu}. } \\]
+>
+> That's an exact identity in this local product model.
+>
+> The apparent four-dimensional charge-current is the rate at which electromagnetic flux changes along a direction that the gravitational spacetime does not independently represent.
+>
+> The full field can be source-free while its selected four-dimensional restriction has an effective source.
+>
+> This is much closer to the phenomenon you've been imagining than an ordinary pair of charges connected by lines in already-existing three-dimensional space.
+>
+> And because the effective current comes from the meridian variation of a field, it is naturally capable of changing sign between different leaf readouts.
+>
+> In a smooth periodic meridian model, the integral of this derivative over the complete circle vanishes, giving the global cancellation you've been describing.
+>
+> The qualification is that PG has not yet supplied this five-dimensional Maxwell law as a derived physical law; its existing Law IV is formulated on the representational base. So this is a candidate extension, not a result already established by the manuscript.
+>
+> ## 4. Now the Kerr–Newman consequence becomes more interesting
+>
+> Suppose we succeed in deriving ordinary Kerr from the paired chiral-centrade rendering without introducing charge.
+>
+> Then the same gravitational quotient could admit additional middle-space electromagnetic configurations that vary along the meridian.
+>
+> A selected representational leaf could detect a nonzero electric monopole \\(Q\\), while a complete meridian comparison might have zero signed net charge.
+>
+> Nevertheless, the electromagnetic stress-energy need not cancel because it is quadratic in the field:
+>
+> \\[ T\_{\mu\nu}^{\rm EM}\sim \mathcal F\_{\mu\alpha}\mathcal F\_\nu{}^\alpha -\frac14g\_{\mu\nu}\mathcal F^2. \\]
+>
+> So your separation of gravitational and electromagnetic readouts provides a possible reason why the base geometry could retain a \\(Q^2\\) contribution even when the net meridian-averaged charge vanishes.
+>
+> It does not automatically produce the precise Kerr–Newman stress tensor or its field \\(F\_{\mu\nu}\\). The full tensorial reduction and Maxwell readout still have to be derived from an action.
+>
+> There's also an important point already present in PG's Law I: quotienting away the meridian does not mean gravity ignores everything located along it. It means that meridian position is not itself an independent base coordinate, while the complete fiber's matter and stress can still affect the reduced gravitational source.
+>
+> That distinction should be preserved.&#x20;
+>
+> Pasted text.txt
+>
+>
+>
+> ## 5. What I think this clarifies about Projective Gravity
+>
+> I would call the organizing idea selective physical descent.
+>
+> The underlying world supports more relational distinctions than any one emergent physical description retains.
+>
+> Gravity selects one quotient of those distinctions. Electromagnetism may read a different aspect of them. And the Boltzmannian room could determine how the available readouts are selected and made mutually consistent.
+>
+> Schematically,
+>
+> \\[ \boxed{ \begin{array}{c} \text{One middle-space relational configuration}\\\ \downarrow\\\ \begin{matrix} \text{Meridian quotient} & \text{Representative-sensitive readout}\\\ \downarrow & \downarrow\\\ \text{Gravitational geometry} & \text{Electromagnetic structure} \end{matrix} \end{array} } \\]
+>
+> The two branches are not independent physical universes. They're different ways of accessing one deeper configuration, subject to a common consistency law.
+>
+> And here is the aspect I find especially worth pursuing:
+>
+> Electric charge may not be a new fundamental object added to a neutral gravitational world. It may be a measure of the failure of electromagnetic information to descend through the same quotient that defines gravitational spacetime.
+>
+> That is a much sharper hypothesis than identifying charge with an imaginary distance, a meridian winding, or a Hopf Chern number.
+>
+> The next theorem target is to show that a meridian-heterogeneous, globally source-free electromagnetic configuration can induce a conserved Maxwell current on a selected leaf, while its correctly reduced stress-energy yields the gravitational contribution of Kerr–Newman.
+>
+> If that works, the apparent inconsistency between the two notions of space becomes the very mechanism that produces charge.
+>
+> And I think that's the essential insight you're articulating: not every physical degree of freedom has to count as a spacetime degree of freedom for every physical interaction.
+
+*The markup.* The entries' wording, curly apostrophes and quotation marks, dashes, exclamation marks and question marks are their own, kept as sent — Entry 398's "g_rr" and "lol" among them, Entry 400's "Kerr-Newman", with a hyphen, the single curly quotation marks around its "parallel regime" and its four triple question marks, Entry 402's "THEM" and Entry 403's triple question mark; in each message the lines follow one another without an empty line between them, as sent, so a renderer joins them. The attachments' markup is their own, quoted unchanged:
+- the escaped parentheses and brackets around their mathematics, with the escaped underscores inside it, thirty-five in the response to Entry 398 and thirty-two in the response to Entry 399; six escaped less-than signs in the first and one in the second, each beside an unescaped one; in the response to Entry 399, seven escaped thin spaces and the escaped line break of its one aligned formula; one pair of curly quotation marks in the response to Entry 398 and four in the response to Entry 399; and the minus signs of the first's table and of one of its headings;
+- their headings — in the response to Entry 398 one of the first level, ten of the second, three of which are a panel's signs, and three of the third; in the response to Entry 399 one of the first level, seven of the second and one of the third — and their boxed formulas, nine and six; the response to Entry 398's table of four columns, its bullet list of two and its numbered list of three; the response to Entry 399's bullet list of three, its numbered list of four and its two block quotes;
+- the `&#x20;` entities, three and six; the image links, three and four, each a site icon whose address escapes its ampersand; and the lines that name a source — in the response to Entry 398 "Relativité+1", "DAMTP" and "Springer Nature Link+1", in the response to Entry 399 "Pasted text.txt", twice, "Oxford Academic", "Max Planck Institute", "INFN Sezione di Roma" and "arXiv" — each followed by a run of three empty lines;
+- the lines left by the pages' panels: in the response to Entry 398, from "The three radial regimes of a subextremal Kerr black hole" to the line ending "spacelike again", with the regions' names and their signs as headings, and the caption after it beginning "The signs are those of"; in the response to Entry 399, the line "Two channel transitions, one rendered radial causal structure" and the one beginning "The rows represent the signs of two eigenvalues", which describe a diagram the text does not contain, and the lines from "Fundamental paired centrade and selected room" to "One coherent spacetime and detector description".
+
+The fourth message's three attachments, the responses to Entries 400, 401 and 402, have:
+- the escaped parentheses and brackets around their mathematics, with the escaped underscores inside it, fifty-four, thirty-nine and twenty; escaped thin spaces, three, one and three; the escaped line breaks of the arrays, matrices and aligned formulas of the first two, twenty-one and seven; one escaped less-than sign in the first; in the second, two escaped pairs of braces and ten escaped bars, those of its norms; in the third, one escaped pair of braces and six escaped asterisks; three pairs of curly quotation marks in the first and two in the third; and the four minus signs of the third's table;
+- their headings — in the first one of the first level, eleven of the second, three of which are a panel's values, and four of the third; in the second one of the first level and nine of the second; in the third one of the first level, seven of the second and two of the third — and their boxed formulas, fourteen, eleven and nine; the first's table of three columns and its block quote; the second's two tables, of two columns, with a row of values where its header would be, and of three, its two bullet lists, of three and four, and its numbered list of four; the third's table of three columns and its numbered list of four;
+- the `&#x20;` entities, four in each; in the first and the third, two image links each, each a site icon whose address escapes its ampersand; and the lines that name a source — in the first "Pasted text.txt", "blackhole.org+1", "Pasted text.txt" again and "ScienceDirect", in the second "Pasted text.txt", four times, in the third "Heidelberg University+1", "Pasted text.txt", "Oxford Academic+1" and "Pasted text.txt" again — each followed by a run of three empty lines;
+- the lines left by the pages' panels and pictures: in the first, from "Cross-regime coupling and the horizon thresholds" to the line beginning "The highlighted interval represents", with the reading "0.40" and the values "0.307", "1.693" and "1.386" as headings; in the second, the line "One full circuit, two different underlying endpoints" above its first table, and the lines from "One paired object, different common/difference readouts" to the line beginning "Exact algebra for two aligned unit vectors", with the readings "90°" and "50.0%", twice; in the third, two links to pictures, each named by its page's title — the first title with a vertical bar in it — and each followed by a caption, "Electric dipole" and "Magnetic dipole", and a sentence.
+
+The fifth message's two attachments, which have no title, have:
+- the escaped parentheses and brackets around their mathematics, with the escaped underscores inside it, eight and fourteen; in the first, two escaped thin spaces and the nine escaped line breaks of its one array; in the second, the four escaped line breaks of its array, with a matrix inside it, and one escaped asterisk;
+- their headings — in the first four of the second level and one of the third, in the second five of the second level — and their boxed formulas, six and five; the second's table of two columns;
+- the `&#x20;` entities, two and one; and the line "Pasted text.txt", twice in the first and once in the second, each followed by a run of three empty lines.
+
+The texts are the ones the author forwarded, not this archive's.
+
+*The mapping, a reading.* The attachment of the second message is titled "Entry 398 — Could Kerr's two horizons be two separate chiral transitions?" and that of the third "Entry 399 — The Kerr interior as a two-channel centrade rendering", whose last section is headed "My assessment of Entry 399". The fourth message's attachments are titled "Entry 400 — Electric charge as a cross-regime heterogeneity", "Entry 401 — The Kerr interior as a history-dependent rendering of paired centrades" and "Entry 402 — Charge as a meridian-parity mismatch"; the second leaves "the cross-regime electric-charge proposal of Entry 400" out of its first model, and the third uses "the illustrative weights from Entry 400". The fifth message's first attachment opens "Yes! And I see now why my previous objection about electric field lines not forming closed loops missed your actual proposal." — the objection is the response to Entry 402's, that "ordinary electric field lines do not form closed loops" — so it answers Entry 403. The second opens "Yes—that makes the deeper point much clearer." and describes "a reality in which different physical sectors disagree about which distinctions between underlying states count as spatially observable": it may answer a remark of the author's that the message does not contain, or Entry 403 itself, whose leaf cross sections and quotient it develops; this archive calls it the second response to Entry 403. So the responses answer Entries 398–403 in turn, Entry 403 perhaps twice. The author does not say which answers which; this is a reading of the texts.
+
+**What v37.4 does with them.**
+- *In this round.* The second and third messages came while v37.4 was being built, before the referees' first reading, and the fourth and fifth after it, while its findings were being answered; v37.4 takes all four in, as v37.3 took Entries 387–390 and 392–397. §XXXV.52 checks the seven responses against the archive and against the Kerr–Newman geometry, reproduces their exact statements and adds what the archive's pair and the metric give (`v37_4_horizons()` and `v37_4_charge()`). Both referees read the new sections before delivery.
+- *Recorded, not promoted.* The entries' proposals are the author's hypotheses [S/O]:
+  - the two horizons as coming about from a fundamental "separation of usually treated as aligned" two objects, explaining what happens where $g_{rr}$ turns negative and why it switches back farther in — one of the two parts changing its behavior at the outer horizon and the second at the inner (Entry 398);
+  - the "second continuation spacetime" of a Kerr black hole as the antipodal side of the canonical space's Hopf shell, its "bridge to the other side", $g = 2$ included, related to one of the switches of the Hopf doubling of angles (Entry 398);
+  - each part's flipping as "moving through the fundamental centrade", with the question of what fundamental means here; the interior of the Kerr black hole as an emergent construction of the two dual objects "moving through their own designated space", the Kerr metric reproduced with spacetime's "frame" combining both; the distinction brought back to the room-induced Boltzmannian space; and a kinematic reading — "cosine of the action difference in place of which-path information" — which the author sees as more qualitative than decoherence (Entry 399);
+  - "the electromagnetic monopole, like in Kerr-Newman itself, is actually a heterogeneity condition" of letting a "parallel regime" bleed into our own, which came with "treating the full Kerr-Newman Delta function as a determinant", as a reason why black-hole charge is small "without the excessive guess of winding around a complexified meridian"; the electroweak "slots" read as cross-regime bleeding; Kerr–Newman not as "making the matrix yielding the eigenvalues more complicated" but as opening the scope "to be specifically cross-regime"; the leaves next door along the meridian, and several such leaves, the meridian distance setting a "grade of adjacency"; a "tube-like extrusion of a Kerr black hole along the meridian direction", aligned with it, an extrusion askew to the meridian being pulled toward it — "fundamentally I think this should be a named theorem and all"; three Kerr black holes on three leaves, the third bigger, charge a pairwise contribution between them rather than a local flux, with the questions how it "would realize with three rather than merely two Kerr black holes, especially if they have different sizes" and whether GR on the quotient gives a verdict on the "overlay" object; and the motto that "the degrees of freedom of only one leaf is insufficient to get a concept of charge" (Entry 400);
+  - "not actually necessarily getting a single unique output spacetime from the full underlying structure", after the "MP metric throats toy model": dropping "the standard assumption of a state in the underlying space having to uniquely define the state or location in the emergent spacetime", the "pair channel history structure", relational, absolute or both, made to "re-index the output spacetime altogether", within one spacetime or into "entirely new or rescrambled spacetimes", as "brings back in the turnover transformation object directly" (Entry 401);
+  - "nonzero charge" when two objects have "opposite meridian direction-wise parity", their charges canceling for the same orientation rather than forming "a whole sort of meridian-directed dipole object thing"; two nearby Kerr-like black holes whose field lines "terminate at THEM and then loop back around like a bar magnet"; and, in place of the "hard to support by itself-configuration" idea, a meridian parity "pretty much random between objects", so that charges cancel on average and objects "literally electrically attract other objects in the vicinity" (Entry 402);
+  - the author's "existing idea in projective gravity", that the middle space can support "zero divergence of the whole electromagnetic field", electric monopoles appearing "by either taking leaf cross sections or quotienting away the meridian to get the gravity base space" (Entry 403).
+
+  The responses' constructions are theirs, recorded as proposals [S/O]: the response to Entry 398's two-channel operator $\mathcal D(r) = (r-M)I+\delta\sigma_3$ with its table of signs, its horizon data $\Omega_\pm$ and $\kappa_\pm$ as tests, its sheet-changing Hopf lift $(q,\mathcal S)\mapsto(-q,\mathcal S')$, its account of the inner horizon's instability, its three tests and its assessment; the response to Entry 399's three meanings of fundamental, its two-channel matrix $C(r)$ with each horizon a rank-loss point, its form of the Kerr metric with the one-forms $\omega_t$ and $\omega_\varphi$, its parent relational object with two chiral channels, a sewing relation and a room conditioning, its projection $\Pi_U$ and matching form $\mathcal H_U$, its reality constraint, its two interference rules, its radial action as a benchmark, and its one sewing law with two readouts; the response to Entry 400's reading of Law I with its two columns, its cross-coupled operator $C_{\rm cross}(r) = xI+d_K\sigma_3+QJ$ with its panel and its exceptional point, its graded association weights $w_{ij}$ with their table, its mismatch $H_{\rm mismatch}$, its loop $W_{123}$ and candidate $Q_{\rm toy}/M_{\rm eff} = \varepsilon\mathcal V\sin\Phi_{123}$, its account of what GR asks of the overlay, its quotient-indifference lemma, its prior $P_U(\Phi)\propto e^{\kappa_U\cos\Phi}$ and its form of Entry 400; the response to Entry 401's history- and room-dependent rendering $\mathcal R_{U,[\gamma]}$, its three-region sheet circuit with $W_{ABC} = X^3 = X$, its reading of the Majumdar–Papapetrou result, its common and difference parts $m_{U,\gamma}$ and $d_{U,\gamma}$ with their norms, its rendering atlas and turnover, its requirement of exact Kerr, its table of three levels of change, and its first model with four tests; and the response to Entry 402's mismatch indicator $\chi_{12}$ with its table, its paired charges $q_1 = \tfrac{q_*}2(s_1-s_2) = -q_2$, its dipole, its readout kernel $K_U$ with $Q_{\rm rep}$, its Fourier test, its graph-Laplacian charges, its statistics, its reading of §X.5 and its four requirements; the first response to Entry 403's split of a middle-space electric field with its apparent charge density $\rho_{\rm apparent} = -\tfrac1{4\pi}\partial_yE_y$, its source-free example $\Phi = Ae^{kx}\cos ky$, its full-meridian cancellation $\oint Q_{\rm leaf}\,dy = 0$ with the quadratic stress retained, its topological qualification and its reading of the opposite-parity proposal; and the second's quotient $q(x^\mu,\chi) = x^\mu$ with its table, its basic-form conditions $\iota_V\mathcal F = 0$ and $\mathcal L_V\mathcal F = 0$, its effective current $j_{\rm eff}^\nu = -\tfrac1{4\pi}\partial_\chi\mathcal F^{\chi\nu}$, its Kerr–Newman consequence, and its "selective physical descent" with its theorem target.
+
+## XXXV.52 Entries 398–403: the two switches, the other sides of Kerr, the centrade, and charge across the pair [T/V/D/S/O; R467] *(`v37_4_horizons()`, `v37_4_charge()`)*
+
+*Entry 398 asks for Kerr's two horizons as the switches of two usually aligned objects, and whether the hole's second continuation is the Hopf shell's antipodal side; Entry 399 asks what a fundamental centrade would be, wants the interior as an emergent construction of the two objects with the Kerr metric kept, and reads the room kinematically, by the cosine of the action difference rather than by records. Entries 400–403 turn to charge: Entry 400 reads Kerr–Newman's $\Delta$ as a determinant and charge as a heterogeneity across regimes — three Kerr holes of different sizes on different leaves — and asks what GR on the quotient says the overlay must be; Entry 401 asks for renderings the underlying state does not fix, re-indexed by the pair's history; Entry 402 puts charge in opposite meridian parities, random between objects; and Entry 403 recalls the middle space's source-free field, whose leaves and quotient show monopoles (§XXXV.51). This section checks the seven responses against the archive and the Kerr–Newman geometry, reproduces their exact statements, and adds what the archive's pair (§XXXV.45(e)–(f)), its coherence matrix (§XXVI.7), the metric and the middle space's topology give. Every construction takes $M$, $a$ and $Q$, or a toy's stated inputs, as given; nothing is fitted.*
+
+**(a) The responses' readings [T/V/D].**
+- *The horizons.* The response to Entry 398's facts hold: $\Delta = (r-r_+)(r-r_-)$ with $r_\pm = M\pm\delta$; off the ring the sign of $g^{rr} = \Delta/\Sigma$ is that of $\Delta$ — positive outside, negative between the horizons, positive inside — and the divergence of $g_{rr}$ at the horizons belongs to the chart. Its $\Omega_\pm = a/(r_\pm^2+a^2)$ and $\kappa_\pm = (r_\pm-r_\mp)/2(r_\pm^2+a^2)$ obey the first law $dM = \kappa\,dA/8\pi+\Omega\,dJ+\Phi\,dQ$ at both horizons, the area's derivatives taken by differences, and Smarr's relation $M = 2\Omega J+\kappa A/4\pi+\Phi Q$ at both, the inner horizon's $\kappa_-$ entering both negative: for $(a,Q) = (0.6,0)$ and $M = 1$, $\kappa_\pm = 0.222222$ and $-2.000000$ and $\Omega_\pm = 0.166667$ and $1.500000$, and $\kappa_+>0>\kappa_-$ with $\lvert\kappa_-\rvert>\kappa_+$ in each of five holes, the two charged ones included (v37.4-4(a)) [V]. The last holds for every subextremal hole with $a^2+Q^2>0$, since $\lvert\kappa_-\rvert/\kappa_+ = (r_+^2+a^2)/(r_-^2+a^2)$; and $1/\kappa_++1/\kappa_- = 4M$, since the residues $1/2\kappa_\pm$ of $(r^2+a^2)/\Delta$ sum to $2M$, its coefficient of $1/r$ at infinity: the two horizons' inverse surface gravities differ by Schwarzschild's [T].
+- *The antipode and $g$.* $\pi(-q) = \pi(q)$, $\Delta(-r)\neq\Delta(r)$ at fixed $M$, and $g = 2$ from $\mu = Qa$ (§VI.3) hold. The response's account of the inner horizon's instability — mass inflation, a blueshift instability of linearized gravitational perturbations of subextremal Kerr under specified conditions, semiclassical backreaction — is the literature's, cited by site icons; the round neither checks nor uses it, and the archive takes no position on the physical interior [D].
+- *The centrade.* The response to Entry 399's reading of §§XXVI.5–6 holds: a centrade is zero-dimensional in the constraint and visibility network, not in rendered spacetime, its worldline the rendered history of one relational object, and "The self-dual and anti-self-dual Weyl parts are two visibility channels of one centrade, not two points" — scoped targets there [S/O], not results. Its form of the Kerr metric is exact ((f) below), its two interference rules are standard, and its reality constraint holds: the self-dual and anti-self-dual parts of a real Weyl tensor are complex conjugates [D].
+
+**(b) The two switches: the pair's two channels [T/V].** Read §XXXV.45(e)'s pair $\mathbf u_\pm = (\delta,\pm Q,\pm a)/M$ as Bloch vectors, with states $\psi_\pm$ and projectors $P_\pm$. Then $\lvert\langle\psi_-\vert\psi_+\rangle\rvert = \delta/M$, and the pair's mass operator
+
+$$M(P_++P_-) = M(I+\bar{\mathbf u}\cdot\boldsymbol\sigma),\qquad \bar{\mathbf u} = \tfrac12(\mathbf u_++\mathbf u_-),$$
+
+has the trace $2M$, the determinant $a^2+Q^2$ and the eigenvalues $r_\pm = M\big(1\pm\lvert\langle\psi_-\vert\psi_+\rangle\rvert\big)$ (v37.4-4(b)). So the response to Entry 398's operator is, up to a change of basis,
+
+$$\mathcal D(r) = rI-M(P_++P_-) = (r-M)I-M\,\bar{\mathbf u}\cdot\boldsymbol\sigma,$$
+
+and its two channels are the spin states along and against $\bar{\mathbf u}$: the pair's aligned and anti-aligned combinations $\psi_+\pm e^{i\phi}\psi_-$, $e^{i\phi}$ the overlap's phase. The aligned channel, $r-r_+$, switches at the outer horizon; the anti-aligned, $r-r_-$, at the inner. So Entry 398's picture has an exact form in the archive's pair, with one refinement: what switches is not one member and then the other — each member alone, $rI-2MP_\pm$, switches at $2M$ and $0$, Schwarzschild's radii, whatever the separation — but the pair's two combinations. Aligned (Schwarzschild), the anti-aligned channel switches at $r = 0$; as the two separate, its switch moves out — the inner horizon's radius grows with the separation; antipodal (extremal), the two channels are one and the switches coincide [T]. The half turn about $\bar{\mathbf u}$ exchanges the two members and keeps each channel [T/V]; the switches are therefore joint — compatible with the response to Entry 399's reality constraint, not an instance of it, for the constraint is a complex conjugation and the half turn is unitary [D]. And the two horizons are the spectrum of one operator, $M(P_++P_-)$, whose trace and determinant are $2M$ and $a^2+Q^2$; Hermitian, it has a real spectrum, $(\operatorname{tr}/2)^2\geq\det$, which is $a^2+Q^2\leq M^2$ — §XXXV.45(f)'s bound on the real parametrization, not on the solutions [T].
+
+Against it, the same polynomial read otherwise, and the data the channels carry [T/V]:
+- v37.3's matching matrix $\mathcal K(r) = MI+(r-M)\sigma_3+a\sigma_1-Q\sigma_2$, $\det\mathcal K = -\Delta$ (§XXXV.45(i)), has outside, between the horizons and inside the channel signs $(+,-)$, $(+,+)$, $(+,-)$, against $\mathcal D$'s $(+,+)$, $(-,+)$, $(-,-)$ (v37.4-4(b), $a = 0.6$): one channel switching in and out. The two-switch reading is a factorization of $\Delta$, which the pair supplies, not a property of the polynomial.
+- In Weyl's coordinates — the distance $\sqrt\Delta\sin\vartheta$ from the axis and the height $z = (r-M)\cos\vartheta$ — the horizon is the rod $\lvert z\rvert\leq\delta$ of the axis, and a point's distances to the rod's two ends are $\lvert r-M\mp\delta\cos\vartheta\rvert$ (v37.4-4(b)); on the axis they are $\lvert r-r_\pm\rvert$, the two channels. The rod's half-length is $\delta = M\lvert\bar{\mathbf u}\rvert$: its ends merge at extremality, when the pair is antipodal, and are farthest apart, $2M$, for Schwarzschild, when it is aligned.
+- $\Delta'(r_\pm) = r_\pm-r_\mp$ is the other channel's value there, so each horizon's surface gravity has the sign of the channel that does not switch there: positive at $r_+$, where the anti-aligned channel is still positive; negative at $r_-$, where the aligned one already is [T]. With §XXXV.45(f)'s half angle, $\sin\eta = \sqrt{a^2+Q^2}/M$, $r_\pm = 2M\cos^2\tfrac\eta2$ and $2M\sin^2\tfrac\eta2$; for Kerr, $\Omega_\pm = \tan^{\pm1}(\eta/2)/2M$ and $\kappa_+/\lvert\kappa_-\rvert = r_-/r_+ = \tan^2(\eta/2)$ (v37.4-4(b)) [T/V]. The magnitudes of $\kappa_\pm$ and $\Omega_\pm$ need $r^2+a^2$, the metric's; the pair gives the radii and, with $a$, the rest.
+
+**(c) The Hopf antipode and the horizons [T/V].** With $\pi(q) = qiq^{-1}$, $\pi(-q) = \pi(q)$ exactly — the shell's antipode is invisible on the base, as the response says — while the base's antipode lifts to $q\mapsto qj$, $\pi(qj) = -\pi(q)$, a map of order four whose square is the shell's antipode, $(qj)j = -q$ (v37.4-4(c)). On §XXXV.45(f)'s pair $q_\pm = \delta/M\pm(a\,i+Q\,j)/M$ the shell's antipode with the two members exchanged,
+
+$$(q_+,q_-)\longmapsto(-q_-,-q_+),$$
+
+is $\delta\mapsto-\delta$ at fixed $M$, $a$ and $Q$: it exchanges $r_+$ and $r_-$ and with them each horizon's $\kappa$, $\Omega$, area and potential, exactly, and inverts the relative element $\bar q_+q_-$ (v37.4-4(c)). So the shell's antipode, applied to the pair, is the exchange of the two horizons — one switch traded for the other — on the same solution: a relabeling, not a second spacetime [T/V]. The response's sheet-changing lift is right that the antipode needs further structure to make one [D].
+
+**(d) The ring's two sheets: the antipodal structure that exists [T/V].** Kerr's analytic extension through the disk the ring bounds is a double cover of space branched on the ring. The complex radius $\rho = \sqrt s = r-ia\cos\vartheta$, with $s = (\mathbf x-ia\hat{\mathbf z})\cdot(\mathbf x-ia\hat{\mathbf z})$ single-valued (§XXXV.45(g)), carried around a loop linking the ring once returns as $-\rho$, its real part $r$ changing sign once, where the loop crosses the disk; carried twice, as $\rho$ (v37.4-4(d)). The sheet $r<0$ is the deck transformation $\rho\mapsto-\rho$. Like the Hopf antipode it is erased by a projection — here to space — and seen by what is odd in it:
+- the Boyer–Lindquist metric obeys $g(-r,\vartheta;-M,a,Q) = g(r,\vartheta;M,a,Q)$ and the potential $A(-r;Q) = A(r;-Q)$, exactly, so the sheet $r<0$ of $(M,a,Q)$ is the hole $(-M,a,-Q)$ seen from its own infinity: there the metric and the potential read $M' = -1.000000$, $J' = -0.600000$, $Q' = -0.600000$ and $\mu' = -0.360000$ for $(M,a,Q) = (1,0.6,0.6)$, and $g = 2M'\mu'/Q'J' = 2.000000$ — the gyromagnetic ratio is even under the sheet change [T/V];
+- for Kerr, $Q = 0$, the curvature, computed from the metric by differences, keeps its even invariant and flips its odd one: with $a = 0.6$ the Kretschmann scalar is $0.050782$ at $(r,\vartheta) = (3,1)$ and at the same point of the other sheet, $(-3,\pi-1)$, and the cubic invariant $R_{ab}{}^{cd}R_{cd}{}^{ef}R_{ef}{}^{ab}$ there is $0.002621$ and $-0.002621$; at $(2.5,0.4)$ they are $0.044702$ twice, and $-0.007667$ and $0.007667$ — the first $48\operatorname{Re}\Psi_2^2$ and the second $-96\operatorname{Re}\Psi_2^3$, with $\Psi_2 = -M/\rho^3$, in the signature $(-,+,+,+)$ with the Riemann tensor's sign of Misner, Thorne and Wheeler: the cubic invariant's overall sign is a convention, its flip between the sheets is not (v37.4-4(d)) [V];
+- with charge, the $Q^2$ parts of the curvature are even under the sheet change and the invariants have no parity: for $(1,0.6,0.6)$ the Kretschmann scalar is $0.038727$ at $(3,1)$ and $0.064783$ at $(-3,\pi-1)$, and the cubic invariant $0.001735$ and $-0.003922$ (v37.4-4(d)) [V].
+
+So in every hole the sheet change keeps $\Sigma = \lvert\rho\rvert^2$ and $g = 2$ and flips $M$, $Q$, $J$ and $\mu$, and for Kerr it keeps what is even in $\rho$, the Kretschmann scalar, and flips what is odd, $\Psi_2$ and the cubic invariant. The maps $\rho\mapsto\rho^2 = s$ and $q\mapsto(v\mapsto qvq^{-1})$ are both double covers whose deck transformation is the sign, and $\pi$, which factors through the second, erases the sign as the projection to space erases the sheet [T]. This is the structure Entry 398 pictures — a sign the base does not see and the odd quantities do — but it lives on the passage through the ring into the region $r<0$, not on the shell, and $g = 2$ is what it keeps rather than what it explains. To identify the two would need a map carrying the loop that links the ring to the Hopf fiber, with its scale; the archive has none, and §VI.2 keeps the Kerr displacement apart from winding around the fiber [O].
+
+**(e) Each horizon's other side: a half turn of the Euclidean time [T/V].** The regions of the extension are joined also across the bifurcation spheres of $r_+$ and $r_-$. The tortoise coordinate's integrand $(r^2+a^2)/\Delta$ has the residues $1/2\kappa_\pm$ at $r_\pm$: carried around $r_+$ in the complex $r$-plane, the Kruskal coordinate $e^{\kappa_+r_*}$ returns multiplied by $-1$, and around $r_-$, $e^{\kappa_-r_*}$ too (v37.4-4(e)). Each horizon's other side is the antipode of its Kruskal plane, $(U,V)\mapsto(-U,-V)$, the half turn $t\mapsto t+i\pi/\lvert\kappa_\pm\rvert$ of the Euclidean time at a fixed corotating angle $\varphi-\Omega_\pm t$ [T/V]. The two are half turns of different circles: around both horizons $r_*$ gains $4\pi iM$, and the outer coordinate returns multiplied by $e^{i\pi\cdot4M\kappa_+}$, with $4M\kappa_+ = 0.888889$, $0.784420$ and $0.247255$ for $(a,Q) = (0.6,0)$, $(0.6,0.6)$ and $(0.99,0)$ — not a sign (v37.4-4(e)) [T/V]. So each of Entry 398's switches has its own antipode, with its own period $2\pi/\lvert\kappa_\pm\rvert$; one antipode of one Hopf fiber cannot be both unless something fixes their ratio, $\tan^2(\eta/2)$ for Kerr [D].
+
+**(f) The response to Entry 399's form of the metric [T/V].** With $\Delta = \det C(r)$, $C(r) = (r-M)I+\delta\sigma_3$, the response's
+
+$$ds^2 = -\frac\Delta\Sigma\,\omega_t^2+\frac\Sigma\Delta\,dr^2+\Sigma\,d\vartheta^2+\frac{\sin^2\vartheta}\Sigma\,\omega_\varphi^2,\qquad \omega_t = dt-a\sin^2\vartheta\,d\varphi,\quad \omega_\varphi = (r^2+a^2)\,d\varphi-a\,dt,$$
+
+is the Boyer–Lindquist metric — of Kerr, and of Kerr–Newman with $Q^2$ in $\Delta$ — at points outside, between and inside the horizons; its determinant is $-\Sigma^2\sin^2\vartheta$ in all three regions, and its first two coefficients change sign together (v37.4-4(f)): one time direction throughout, carried by $\omega_t$ outside and inside and by $dr$ between [T/V]. It is exact, as the response says, and, as it says, a target: the coframe and $\rho$ are supplied, not derived. In the pair's reading its "interior is the region of the joint spacetime rendering in which the two underlying channels have opposite signs": between the horizons the aligned channel has switched and the anti-aligned has not [T].
+
+**(g) The radial action [T/V].** The response to Entry 399's benchmark is Kerr's radial action, $S_r = \int\sqrt{\mathcal R}/\Delta\,dr$ with $\mathcal R = [E(r^2+a^2)-aL_z]^2-\Delta[m^2r^2+(L_z-aE)^2+\mathcal Q]$, $\mathcal Q$ Carter's constant. Its integrand has at $r_\pm$, with $\sqrt{\mathcal R}$ positive there, the residues $(E-\Omega_\pm L_z)/2\kappa_\pm$ for $E>\Omega_\pm L_z$ [T]: for $a = 0.6$ and a particle with $E = 1$, $L_z = -1$, $m = 1$ and $\mathcal Q = 0.5$, $2.625000$ at $r_+$ and $-0.625000$ at $r_-$ (v37.4-4(g)) [V]. So both horizons enter the one radial action, as the response says, each with its own $\kappa$ and $\Omega$ — the data the response to Entry 398 asks a model to reproduce — and a loop around a horizon changes the action by $\pi i(E-\Omega L_z)/\kappa$, up to its sign the change of $-Et+L_z\varphi$ under (e)'s half turn [T]. Its caution holds: the branches $\pm S_r$ are not two histories recombining at a detector, and their difference is no interference phase without common endpoints and a sewing [D].
+
+**(h) The cosine of the action difference, and the room [T/D/O].** Entry 399's kinematic reading is the room's classical reading (§XXXV.49(b)). Without records each configuration $e$ gives a pair of paths the pure phase $e^{2\pi ik\,c\cdot e/n}$ — a definite action difference, whose fringe is its cosine, of full visibility: with the configuration known the mean conditional visibility is $1$ (v37.4-1(a)). The room's fringe is the mean of these phases, $K_{12} = E_U[e^{2\pi ik\,c\cdot e/n}]$, lowered by the spread of the action differences and not by which-path information: no reading of the room tells the path [T]. The response's second rule, $P_+ = \tfrac12[1+\operatorname{Re}(e^{i(S_+-S_-)/\hbar}\langle E_-\vert E_+\rangle)]$, is the coherent reading's, and with records it is §XXXV.50(b)'s $K_{12}$, at most the records' fidelity [T]. So the room's two readings carry the two mechanisms the entry distinguishes — dephasing by the spread of a cosine's argument, in the classical reading, with no record, and loss by records, the room's states told apart, in the coherent one — and no count tells them apart until paths leave records (§XXXV.50). What it does not do is derive the cosine: the signed comparison at the sewing node is still posited (§XXXV.40(g)) [O]. The response's one sewing law — one comparison structure giving both the two causal switches and the cosine — is a target here [S/O].
+
+**(i) The responses' readings, Entries 400–403 [T/V/D].**
+- *Law I and the overlay.* The response to Entry 400's reading of Law I holds: the gravitational source is the full-fiber reduction $T^{(g)} = \mathscr R_q[\mathcal T_{\mathcal M}]$ of all middle-space matter (§III.1's table of the laws), so concentrations at several positions of one meridian enter one base source, and Law I makes no electromagnetism from their differences. The archive already has one instance across leaves of what Entry 400 asks the overlay to be, in its leaf-supported model (§IV.7's v34.0 note): §X.6(a)'s barren twin of an extremal hole, whose observer infers from the geometry alone a Maxwell-form stress with no Maxwell field there — "Maxwell-form gravitational stress without Maxwell matter", one crossing's charge read at the other.
+- *§X.5, Law IV and §X.13.* The responses to Entries 400, 402 and 403 read §X.5 rightly: the meridian flux has $\lvert c_1\rvert = 1$ for every source, and its native type is magnetic. Law IV places Maxwell on the representational base, sourced by charge, and §X.13 states the descent the second response to Entry 403 calls selective: "The gravity base receives electromagnetism only through stress-energy, which is quadratic in $F$ and blind to its sign", quoting the seed: "light resolves a representative; gravity resolves a class". Entry 403's idea is §X.1's motivation, "Maxwell's field in the canonical space is divergence-free, so an electric monopole would really be flux threading the removed meridian", which §X.5 tested and §X.14 records as failing as stated, with charge without charge left open; and §IV.7's v34.0 note leaves "the Maxwell field's placement along the fiber" open.
+- *Law II and alignment.* The response to Entry 400's quotient-indifference lemma is exact: a scalar pulled back from the base is constant along each fiber, $V(\Phi_G\circ q) = d\Phi_G(dq\,V) = 0$ for $V$ in $\ker dq$, so alignment along the meridian does not follow from the quotient alone [T]. Law II, the meridian structure, is "a universal matter-responsive law not yet constructed" (§III.1's table), and an alignment would have to come from it [D].
+- *The rendering's history.* The response to Entry 401's readings hold: §XVIII.5's rendering groupoid, whose morphisms are history transports with holonomy; §XXVI.6's "Effective spacetime geometries need not have unique ontological lifts"; §XXVIII.2's three-ended geometry, whose full $S_3$ of end permutations is not a symmetry of the Einstein–Maxwell configuration, only its $S_2$ — "The metric already breaks the full symmetry before Maxwell is consulted", as §XXXV.42(a) records; and §XXXV.43's turnover, which changes visibilities only against a second anchor.
+- *The literature.* The responses' accounts of stationary configurations of several rotating holes, with their struts and singularities, and of the discharge of astrophysical holes are the literature's, cited by site icons; the round neither checks nor uses them [D].
+
+**(j) The cross coupling: a boost, by the meridian's rapidity for Reissner–Nordström [T/V/D].** The response to Entry 400's $C_{\rm cross}(r) = (r-M)I+d_K\sigma_3+QJ$, with $d_K = \sqrt{M^2-a^2}$ and $J = i\sigma_2$, has the determinant $\Delta$ of Kerr–Newman and the eigenvalues $r-M\pm\delta$, and its panel's $0.307$, $1.693$ and $1.386$ for $M = 1$, $a = 0.6$, $Q = 0.4$ are the horizons $0.307180$ and $1.692820$ and their gap $1.385641$ (v37.4-5(a)) [T/V]. What the archive adds: since $d_K\sigma_3+QJ = \delta\,e^{-\psi\sigma_1/2}\sigma_3\,e^{\psi\sigma_1/2}$ with $\tanh\psi = Q/d_K$,
+
+$$C_{\rm cross}(r) = e^{-\psi\sigma_1/2}\big[(r-M)I+\delta\sigma_3\big]e^{\psi\sigma_1/2},$$
+
+the two-channel operator $(r-M)I+\delta\sigma_3$ of the responses to Entries 398 and 399, Hermitian, boosted by the rapidity $\psi$ — $0.549306$ for those values — and for Reissner–Nordström, $a = 0$, $\tanh\psi = Q/M$: §X.11's meridian rapidity, $Q/M = \tanh\mu$, here $1.000000$ for $Q/M = \tanh1$, v37.3-6(b)'s $\mu = 1$ (v37.4-5(a)) [T/V]. With spin, $(d_K,Q) = \delta(\cosh\psi,\sinh\psi)$ is §X.11's cone $(M,Q) = \delta(\cosh\mu,\sinh\mu)$ with $d_K$ in the place of $M$, and $\psi$ is not the $\mu$ of $\tanh\mu = Q/M$: $0.549306$ against $0.423649$ for $(1,0.6,0.4)$ (v37.4-5(a)) [T/V]. The response's exceptional point at charged extremality is the boost's infinite rapidity — for Reissner–Nordström §X.11's poles $\mu\to\pm\infty$, while with spin it lies at finite $\mu$, $1.098612$ for $(1,0.6,0.8)$, as §XXXV.45(i)'s extremal holes do; uncharged extremal Kerr is the matrix $(r-M)I$ (v37.4-5(a)) [T/V]. A Hermitian coupling $b$ between Kerr's channels gives $\Delta_{\rm Kerr}-\lvert b\rvert^2$ instead, moving the horizons apart (v37.4-5(a)): $+Q^2$ needs the coupling of imaginary strength, $QJ = iQ\sigma_2$, a rotation by an imaginary angle [T/V]. So for Reissner–Nordström the determinant reading, which Entry 400 hoped would do "without the excessive guess of winding around a complexified meridian", does not leave the complexified meridian: its cross coupling is §X.11's rapidity acting between the two channels, an imaginary rotation where Part X had an imaginary displacement; with spin its rapidity is that of §X.11's cone with $\sqrt{M^2-a^2}$ in the place of $M$, not the $\mu$ of §XXXV.45(i)'s two-angle model [D].
+
+**(k) The common and the difference parts, and history [T/V/D].** The response to Entry 401's common and difference parts, $m = (\xi_++W\xi_-)/2$ and $d = (\xi_+-W\xi_-)/2$, with $\lVert m\rVert^2+\lVert d\rVert^2 = 1$ and $\lVert m\rVert^2 = \tfrac12[1+\operatorname{Re}\langle\xi_+,W\xi_-\rangle]$, are exact [T]. On (b)'s pair, with the phase that aligns $\psi_-$ with $\psi_+$, they are the two horizons: $\lVert m\rVert^2 = r_+/2M = \cos^2\tfrac\eta2$ and $\lVert d\rVert^2 = r_-/2M = \sin^2\tfrac\eta2$ in the five holes (v37.4-5(b)). The outer horizon is the pair's common part and the inner its difference — Entry 401's absolute and relational readouts — with the pair's half angle $\eta$ in the place of the response's $\Delta S/\hbar$ [T/V]. With the phase given a further $\alpha$, the same pair has the norms $(M\pm\delta\cos\alpha)/2M$: for $(a,Q) = (0.6,0)$, $0.700000$ and $0.300000$ at $\alpha = \pi/3$, the horizons over $2M$ of the hole of the same mass with $\delta/2$; $0.500000$ twice at $\pi/2$, an extremal hole's; and $0.100000$ and $0.900000$ at $\pi$, the horizons exchanged, as by (c)'s antipode (v37.4-5(b)) [T/V]. If the radii are read from these norms, a change of the history's phase alone reads one pair as different holes of one mass — Entry 401's re-indexing in its simplest exact form [D]; that a rendering reads radii so is the reading, not derived [O].
+
+The response's circuit of three regions, each transition switching a hidden sheet, has the holonomy $X^3 = X$, unchanged by relabeling the sheets at the three regions (v37.4-5(b)) [T/V]. Kerr's own extension has a circuit of this kind: (d)'s loop linking the ring returns to the same point of space on the other sheet, where the hole reads $(-M,a,-Q)$, and a second loop restores the first — one location in space with two underlying sheets, reached by the history of passages through the disk and told apart there by what is odd in $\rho$ ((d)) — unlike the response's circuit, whose readout forgets the sheet [T/D]. The response's cautions hold: a holonomy alone is no new physics, since curved spacetime and gauge fields have holonomies, and these circuits are of relational comparisons, not causal curves through the horizons [D].
+
+**(l) Three regimes, and the cost of a loop [T/V/D].** Entry 400's three Kerr holes of different sizes enter the response's graded weights $w_{ij} = m_im_j/(1+\lvert s_i-s_j\rvert/L)$: for the masses $(1,2,4)$ at $(0,L,3L)$ they are $1$, $1$ and $8/3$, and their coherence $\mathcal V$ is $0.891464$, the response's $0.8915$ — a ratio of the weights' means, not a visibility (v37.4-5(c)) [T/V]. Three regimes give what two cannot, a closed loop $W_{123} = U_{12}U_{23}U_{31} = e^{i\Phi_{123}}$, gauge-invariant, with the response's qualification that three positions along one meridian, the direct route the concatenation of the other two, have a flat loop [T]. What the archive adds is the loop's cost. Read as coherences — the overlaps of three states, as the room's kernels are (§XXXV.40(d)) — three associations $v_{ij}e^{i\phi_{ij}}$ form a coherence matrix whose determinant is §XXVI.7's, $1-v_{12}^2-v_{23}^2-v_{31}^2+2v_{12}v_{23}v_{31}\cos\Phi$ (v37.4-5(c)), and its positivity bounds the loop's phase: for a common visibility $v>\tfrac12$,
+
+$$\sin\frac{\Phi_{\max}}2 = \frac{(1-v)\sqrt{1+2v}}{2v^{3/2}},$$
+
+$\Phi_{\max} = 0.196297$ at $v = 0.9$, $0.017525$ at $0.99$ and $0.001734$ at $0.999$, approaching $\sqrt3(1-v)$; for $v\leq\tfrac12$ every phase is allowed, the determinant's least value being $(1+v)^2(1-2v)\geq0$ (v37.4-5(c)) [T/V]. §XXVI.7's "Holonomy requires visibility loss" thus caps $\sin\Phi_{123}$ at the order of the associations' loss of visibility, and the response's candidate, $Q_{\rm toy}/M_{\rm eff} = \varepsilon\mathcal V\sin\Phi_{123}$, at $\varepsilon\mathcal V$ times that: a coherent room keeps the loop nearly flat — a reason, in the model's own terms, for small charge, were charge such a loop and its coupling $\varepsilon$ of order one [D/O]. The bound is the coherences'; a connection's holonomy, the Hopf bundle's for one, has no such bound [T].
+
+**(m) The meridian parity [T/V/D].** The response to Entry 402's indicator $\chi_{12} = (1-s_1s_2)/2$ and paired charges $q_1 = -q_2 = \tfrac{q_*}2(s_1-s_2)$ are exact: equal parities give no charge, opposite ones a signed pair with zero total [T]. Its correction holds — electric field lines end on charges, and the closed lines are the magnetic field's — and so does its central obstacle: two opposite charges over one base point make no field on the base, and a meridian dipole $q[\delta(\chi-\chi_1)-\delta(\chi-\chi_2)]$ has no constant mode while its first mode has the modulus $2q\lvert\sin\tfrac{\chi_1-\chi_2}2\rvert$, the chord between them (v37.4-5(d)) [T/V]. At the separation $2\operatorname{gd}1$ the half chord is $0.761594 = \tanh1$ (v37.4-5(d)) [T/V]: the half-angle sine the response finds "rather suggestive in view of Entries 392–397" has the form, and there the value, of the archive's $Q/M = \sin(\theta/2)$ for v37.3-6(b)'s pair, with a real separation along the meridian where that pair's is imaginary [D]. Its parity network $q_i = \tfrac{q_*}2\sum_jw_{ij}(s_i-s_j)$ gives, with (l)'s weights and the parities $(+,+,-)$, the charges $1$, $8/3$ and $-11/3$ in units of $q_*$, summing to $0$ exactly (v37.4-5(d)) [T/V]. The archive has both halves of this. The zero total, built into the network for any symmetric weights, is what Gauss on the closed base requires, which "needs the total to vanish" (§X.6(b)); and a pair of opposite charges along one meridian has the pattern of §X.5's charge without charge, which "for a single meridian would place $-Q$ at the twin" — periods that (o) finds of the magnetic type in the middle space — and of the identity "the twin carries opposite electric charge", retracted in version 6 because it puts charge where the seed puts nothing (§X.5). Entry 402 puts the opposite charge on another body rather than on the twin, which that retraction does not reach [D]. The response's statistics hold — opposite parity has the probability $\tfrac12$, and $N$ independent signs give $\lvert Q\rvert\sim q_*\sqrt N$ and so $Q/M\sim N^{-1/2}$ — and so does its warning: random parity between two macroscopic bodies does not make their charges small; many independent microscopic signs would [T/D].
+
+**(n) What GR on the quotient asks of the overlay [T/V/D].** The response to Entry 400's verdict holds: Kerr's Ricci tensor vanishes and Kerr–Newman's is traceless, with $R_{ab}R^{ab} = 4Q^4/\Sigma^4$, $7.542709\times10^{-5}$ at $(r,\vartheta) = (3,1)$ for $(1,0.6,0.6)$ (v37.4-5(e)) [T/V]. The field equations say more: Kerr–Newman's mixed Ricci tensor squares to $(Q^2/\Sigma^2)^2$ times the identity, so that its eigenvalues are $\pm Q^2/\Sigma^2$, each twice, and $R_{ab}t^at^b\geq(Q^2/\Sigma^2)\lvert t\cdot t\rvert$ for every timelike $t$ sampled (v37.4-5(e)) — with the zero trace, Rainich's three algebraic conditions, which with his differential condition let the metric itself determine a Maxwell field, up to a constant duality rotation (Rainich, 1925; Misner and Wheeler, 1957) [T/V/D]. So GR on the quotient does give a verdict: whatever the overlay is, the hole it makes Kerr–Newman carries exactly the stress of a Maxwell field that is not null, and the metric fixes that field but for its duality angle — the metric sees only $Q^2+P^2$ (§X.5), so it cannot tell an electric overlay from a magnetic one [T/D]. That much of the electromagnetic realization the overlay has from gravity alone; the duality angle and the coupling to test charges are Law IV's [D]. The response's caution stands: no theorem superposes three Kerr holes into one Kerr–Newman hole [D].
+
+**(o) The source-free middle space (Entry 403) [T/V/D].** The two responses' identities are exact in a flat product of the base with the meridian coordinate $\chi$: a field with $\partial_A\mathcal F^{A\nu} = 0$ in the middle space has on each leaf $\partial_\mu\mathcal F^{\mu\nu} = 4\pi j^\nu_{\rm eff}$, with $j^\nu_{\rm eff} = -\tfrac1{4\pi}\partial_\chi\mathcal F^{\chi\nu}$ [T]. Three things follow. The first proves half of the second response's theorem target; the first response states the second in words, which its example makes exact, and the third in general — its "topological qualification" —, which the round benchmark's topology makes exact.
+- *A leaf sees electric sources, conserved, and no magnetic ones.* The meridian component of the field equation, $\partial_\mu\mathcal F^{\mu\chi} = 0$, makes the effective current conserved, $\partial_\nu j^\nu_{\rm eff} = 0$; and since $d(\iota^*\mathcal F) = \iota^*d\mathcal F = 0$, restriction makes no magnetic source — a leaf's magnetic charges are periods around the points where removed meridians cross it [T]. So the first half of the second response's theorem target, a conserved Maxwell current on a selected leaf, holds identically here; the second half, the reduced stress of Kerr–Newman, is open [O].
+- *The uniform quotient keeps the energy and loses the charge.* In the first response's exact example, $\Phi = Ae^{kx}\cos ky$, harmonic in $(x,y)$, the apparent charge density on the leaf at $y$, $-\tfrac{k^2}{4\pi}Ae^{kx}\cos ky$, is $-0.094140$ at $y = 0$, $0.094140$ at $\pi/k$ and $0.000000$ at $\pi/2k$, for $A = 0.7$ and $k = 1.3$ at $x = 0$, and on $24$ leaves around the closed meridian it sums to zero, while the energy density $(Ake^{kx})^2/8\pi$ is the same on every leaf (v37.4-5(f)) [T/V]. A quotient that averages uniformly along the meridian keeps the energy and no charge — §X.13's descent, "quadratic in $F$ and blind to its sign" — though not as a Maxwell stress: the meridian component adds to the base's averaged stress the trace $\langle E_\chi^2\rangle/4\pi$, in the example the energy density, $0.032949$ at $x = 0$ and $0.263740$ at $x = 0.8$, where (n) asks for none (v37.4-5(f)) [T/V/D].
+- *The topology decides which charges can be without charge.* In the round benchmark of §VIII.1 the middle space's spatial section is $S^4$ and its meridians the great circles through both poles, and §X.5's setting is $S^4\setminus\Gamma$, $\Gamma$ the removed meridians. At a fixed time a source-free field's electric flux through a closed 3-surface, and its magnetic flux through a closed 2-surface, depend only on their classes in $S^4\setminus\Gamma$, and Alexander duality gives $\tilde H_3(S^4\setminus\Gamma)\cong\tilde H^0(\Gamma)$ and $H_2(S^4\setminus\Gamma)\cong H^1(\Gamma)$ (Hatcher, *Algebraic Topology*, Theorem 3.44). Every meridian passes through both poles, so $\Gamma$ is connected, $\tilde H^0(\Gamma) = 0$, and every closed 3-surface in the complement bounds: no electric charge without charge. The 2-surface periods remain — for $k$ meridians $H^1(\Gamma)$ has the rank $2k-1$, the 2-spheres linking the $2k$ half-meridians, with one Kirchhoff relation at the poles — and they are §X.5's periods, of the magnetic type [T]. Electric periods would need a removed set of several components, their periods then summing to zero, Gauss on the closed space [T]. So, of Entry 403's two routes, the leaf's cross-section gives electric charges, local, that cancel around each closed meridian on which the field is regular — the flat product's case; in the round benchmark every meridian runs through the poles —; and the middle space itself holds no electric charge without charge while its removed meridians meet, so an electric monopole of the uniform quotient would have to come from the poles, where they all meet and the quotient is singular, which nothing here settles, or from a meridian structure, Law II's, that keeps them apart; a readout weighting the meridian, the response to Entry 402's $K_U$, is not covered [T/O].
+
+**(p) What it does not do [O].** No construction here derives the Kerr–Newman metric, its coframe or its complex radius from the pair or from a centrade: the pair, as in §XXXV.45, takes $M$, $a$ and $Q$ as inputs, and the two switches are its spectrum, not a dynamics. The ring's sheet change has the Hopf antipode's structure but is not identified with the shell's antipode, and the shell's antipode on the pair exchanges the horizons rather than reaching a second spacetime. The inner horizon's instability, and with it the physical interior beyond it, is not addressed. The radial action carries both horizons' $\kappa$ and $\Omega$, but no two-channel transport reproduces it; and the signed comparison is not derived. For Entries 400–403: the cross coupling's rapidity is put in, as §X.11's was, not derived from a comparison of regimes; no loop phase or parity network is made a Maxwell charge with its field and a conserved current; no readout kernel tells meridian positions apart; no middle-space Maxwell law or descent rule is supplied, so the reduced stress of Kerr–Newman from a field varying along the meridian is not derived; Rainich's differential condition is cited, not checked; and the split between electric and magnetic charge that the metric cannot see is left to Law IV.
+
+**(q) Status.**
+- [T] (a)'s ratio and sum of the surface gravities; (b)'s mass operator, channels, exchange, polynomial readings and surface-gravity signs; (c)'s antipodes and exchange; (d)'s double cover, metric identity and parities; (e)'s half turns; (f)'s form of the metric; (g)'s residues; (h)'s readings of the room; (i)'s lemma; (j)'s determinant, boost and Hermitian coupling; (k)'s norms, the transport's phase, the circuit and the ring's sheets; (l)'s weights, loop and bound; (m)'s charges, modes and network; (n)'s Ricci tensor and Rainich's three algebraic conditions; (o)'s identities, conservation, example, averaged stress and topology.
+- [V] Their checks, v37.4-4 and v37.4-5, with v37.4-1(a) for (h).
+- [D] (a)'s and (i)'s readings; the readings of (b)–(h) and (j)–(o) for the entries, among them (j)'s for Reissner–Nordström and (m)'s comparison with v37.3-6(b)'s $Q/M$.
+- [S] The entries' proposals and the responses' constructions, as the author's hypotheses (§XXXV.51); (l)'s reading of the associations as overlaps of states.
+- [O] (p); and (k)'s reading of radii from the norms, (l)'s charge as a loop, and (o)'s base at the poles.
+
+## XXXV.53 Standing of Part XXXV after v37.4, and the next pieces [S/O; R468]
+
+*What v37.4 adds to §XXXV.46's standing, and the next pieces.*
+
+**Established in v37.4:**
+- the review's readings of v37.3, checked (§XXXV.49(a)): its reproduction of the suite matches, and its readings of the room, the readout, the turnover, the environment overlap and the two worldlines hold;
+- the room's two readings (§XXXV.49(b)): without records, a classical ensemble whose configuration is a key, and a coherent state whose paths' states are a record readable only off the configuration basis, giving the particle every count alike; §XXXV.40(d)'s sentence on records corrected in place (R464);
+- the reflection as a unitary (§XXXV.49(c)): a reflecting link a permutation of the labels, exchanging the Fourier modes $k$ and $-k$, its antilinear form its action on one mode's amplitude;
+- the reachable amplitudes (§XXXV.49(d)): with each label used at most once, $12$, $73$ and $361$ from windows of three, windows of every width and sets, so the density of the prepared amplitudes needs multiplicities;
+- the room with records (§XXXV.50): paths that turn the links they pass part the two readings — in the classical one any record removes the fringe while a reading of the room tells the path only in part; in the coherent one the fringe is bounded by the records' fidelity, $V^2+D^2 = 1$, and an eraser recovers the fidelity; the record is a turn of the frame; and the frame and the fringe compete, the one-link-longer fringe greatest at an intermediate frame for a turn other than none or a half turn. Every count is standard quantum mechanics with the room as an environment, by construction for this class of rooms;
+- Entries 398–399, the two switches (§XXXV.52): read as two spin states, §XXXV.45's pair has a mass operator $M(P_++P_-)$ whose spectrum is the two horizons — the outer the switch of the pair's aligned channel, the inner of its anti-aligned one, each member alone switching at Schwarzschild's $2M$ and $0$ — so the response's two-channel operator has an exact form in the pair, its switches joint; the response to Entry 398's horizon data obey the first law and Smarr's relation at both horizons, with $1/\kappa_++1/\kappa_- = 4M$;
+- the other sides of Kerr (§XXXV.52): the shell's antipode, applied to the pair with its members exchanged, exchanges the two horizons on one solution; the passage through the ring is a double cover whose deck transformation flips the complex radius, keeping $\Sigma$ and $g = 2$ and flipping $M$, $Q$, $J$ and $\mu$ in every hole, and for Kerr keeping the Kretschmann scalar and flipping $\Psi_2$ and the cubic invariant — the Hopf antipode's structure, not its identity; each horizon's other side is a half turn of its Euclidean time, the two with different periods;
+- the response to Entry 399's form of the Kerr metric is exact, a target with its coframe supplied; Kerr's radial action carries both horizons' $\kappa$ and $\Omega$ in its residues; and Entry 399's kinematic reading — the cosine of the action difference rather than which-path information — is the room's classical reading, while the cosine itself is still posited;
+- Entries 400–403, charge across the pair (§XXXV.52(i)–(m)): the response to Entry 400's cross coupling gives Kerr–Newman's $\Delta$ and is the two-channel operator boosted by a rapidity — §X.11's meridian rapidity for Reissner–Nordström — an imaginary rotation, a Hermitian coupling moving the horizons apart; the pair's common and difference parts are the two horizons over $2M$, and a transport's phase reads the same pair as other holes of one mass; Kerr's ring loop is a sheet circuit at one place in space; a loop of three associations read as coherences has its phase bounded by their loss of visibility, §XXVI.7's obstruction; the meridian dipole's first mode is the chord between its charges, its half of the form of the archive's $Q/M$, and a parity network's zero total is what Gauss on the closed base requires;
+- what GR on the quotient asks of an overlay (§XXXV.52(n)): Kerr–Newman's Ricci tensor is traceless, squares to $(Q^2/\Sigma^2)^2$ times the identity and has positive energy — Rainich's algebraic conditions, the stress of a Maxwell field the metric fixes up to its duality angle, which the metric cannot see;
+- the source-free middle space (§XXXV.52(o)): a leaf sees conserved electric sources from the field's variation along the meridian and no magnetic ones; a uniform quotient keeps the energy, though not as a Maxwell stress, and loses the charge; and with its removed meridians meeting at the poles the middle space has no electric charge without charge, only §X.5's periods of the magnetic type.
+
+**Not claimed:** §XXXV.46's list, and: that the model decides whether the room is a classical ensemble or a coherent state; that the size of the turn, or a relaxation of the room after a record, is derived; that the competition of the frame and the fringe departs from quantum mechanics; that the multiplicities behind the prepared amplitudes' density have a mechanism; that v37.4 bears on Part XXXIII's empirical problems; that the pair's channels, or a centrade, derive the Kerr–Newman metric, its coframe or its complex radius; that the ring's sheet change is the Hopf shell's antipode, or that the shell's antipode reaches a second spacetime; that the region beyond the inner horizon is physical, its instability unaddressed; that the cosine of the action difference is derived; that the cross coupling's rapidity, a loop's phase or a parity network is derived from a comparison of regimes, or is electric charge; that a rendering reads radii from the pair's norms; that the middle space has a Maxwell law, or a descent giving Kerr–Newman's reduced stress; or what the quotient reads at the poles.
+
+**The next pieces,** first the review's, then the earlier ones:
+1. *The frame as an inertial frame:* a dynamics in which free paths are unaccelerated in the room's selected frame — the review's second priority;
+2. *Records with a dynamics:* a room that relaxes between the two paths' passages — a relaxation after both records cannot restore the fringe — at a rate its law fixes, with the turnover's sectors in such a room; and which reading the room takes, a classical ensemble or a coherent state, from a law of the room rather than posited;
+3. *The chiral pair's lift:* from the self-dual and anti-self-dual constituents (§XI.3; Kim's) to the Hopf shell and the compactified meridian, with their relative element defined from them and a dynamics on the meridian's rapidity — the review's program for Kerr–Newman, with §XXXV.45's open tests as its checks, and §XXXV.52's: the two switches as the lifted pair's spectrum with $r$ reconstructed from relational data, the horizons' $\kappa_\pm$ and $\Omega_\pm$ and the radial action as checks, and the ring's sheet change against the fiber's antipode;
+4. *Charge across the pair:* after Entries 400–403, a comparison of regimes from which the cross coupling's rapidity follows, or the loop's phase with its cost in visibility; a middle-space Maxwell law with its descent to the leaves and the base, giving a conserved current on a leaf and Kerr–Newman's reduced stress; what the quotient reads at the poles; and the meridian structure, Law II's, that decides whether removed meridians meet;
+5. *The turnover extended:* a room of $SU(2)$-valued links on which the seed-fixed $SO(3)$ acts, with the selected Hopf readout as the second anchor; the sectors' prior from the deeper count; and the electromagnetic probe of Entry 387 in the room;
+6. *A coupling for the involution room:* how strongly a room's axis acts on a passing orientation, set against the anisotropy-of-inertia bounds, or the reason it cannot be;
+7. *The signed comparison from an association* — after Entry 399, from the same sewing that gives the two switches — or its premise kept and named, as §XXXV.40(g) names it;
+8. *Multiplicities:* amplitude-weighted detectors and multiplied preparations, and the general positive operator-valued measures they reach;
+9. §XXXV.35's pieces, as they stand.
+
+## XXXV.54 Register R463–R468 [D/O; v37.4]
+
+- **R463 (record).** The author's message of 31 October with its attachment, the review of v37.3, as he sent them, with its markup and what v37.4 does with it (§XXXV.48). [D]
+- **R464** (§XXXV.49; §XXXV.40(d), corrected in place). The review's readings checked; its clarifications made: the room's two readings, the reflection as a unitary, the reachable amplitudes.
+
+  Superseded wording (quoted without a final period, which is not part of the replaced words):
+  - §XXXV.40(d): "The room here is not changed by the paths: it decoheres by fluctuating, not by recording which path was taken; records would make $P_U$ depend on the path [D]".
+
+  [T/V/D/O]
+- **R465 (the room with records).** The record; the room's two readings parted; the bound by the records' fidelity, the duality and the eraser; the record a turn of the frame; the frame and the fringe competing; the review's test (§XXXV.50). [T/V/D/S/O]
+- **R466 (record).** The author's messages of 31 October with Entries 398 and 399, each with its attachment, a response, with Entries 400–402 and their three responses, and with Entry 403 and its two, as he sent them, with their markup and what v37.4 does with them (§XXXV.51). [D]
+- **R467 (the two switches, the other sides of Kerr, and charge across the pair).** The responses' readings checked, with the first law and Smarr's relation at both horizons; the pair's mass operator, its two channels and their switches; the shell's antipode on the pair as the horizons' exchange; the ring's two sheets, a double cover with its parities, Kerr's curvature among them; each horizon's other side a half turn of its Euclidean time; the response to Entry 399's form of the metric; the radial action's residues; the cosine of the action difference as the room's classical reading; the cross coupling as a boost, by the meridian's rapidity for Reissner–Nordström; the common and difference parts as the horizons, and a transport's phase; the sheet circuit and the ring; the loop's cost in visibility; the meridian dipole and the parity network; what GR asks of the overlay; and the source-free middle space, its leaves, its quotient and its topology (§XXXV.52). [T/V/D/S/O]
+- **R468 (standing).** The standing after v37.4 and the next pieces (§XXXV.53). In the head table the row on the next pieces replaces R462's, whose wording is in the ledger. [S/O]
+
 ---
 
-## Round record: the version summaries, v16 to v37.3 (moved from the head of the archive in v34.9, R190)
+## Round record: the version summaries, v16 to v37.4 (moved from the head of the archive in v34.9, R190)
 
-*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v37.3, v37.2, v37.1, v37.0, v36.16, v36.15, v36.14, v36.13, v36.12, v36.11, v36.10, v36.9, v36.8, v36.7, v36.6, v36.5, v36.4, v36.3, v36.2, v36.1, v36.0, v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v37.4, v37.3, v37.2, v37.1, v37.0, v36.16, v36.15, v36.14, v36.13, v36.12, v36.11, v36.10, v36.9, v36.8, v36.7, v36.6, v36.5, v36.4, v36.3, v36.2, v36.1, v36.0, v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+
+> **v37.4 — the review of v37.3 and Entries 398–403 (31 October 2026): the review's readings checked and its three clarifications made — the room's two readings, the reflection as a unitary, the reachable amplitudes — and the room with records it recommends built: paths that turn the links they pass part the classical and coherent readings, the fringe is bounded by the records' fidelity, and the frame and the fringe compete. Entries 398–399: Kerr's two horizons as the switches of the pair's two channels, and the other sides of its extension. Entries 400–403: charge across the pair — the cross coupling as a boost, by the meridian's rapidity for Reissner–Nordström, the loop's cost, the overlay's stress, and the source-free middle space.**
+>
+> *What was asked.* The review keeps v37.3 as the working baseline, with the finite room its strongest result and the turnover's need for a second anchor its lesson. It asks that the room's having no records be told apart from the distinguishability of its environment states, that a reflection of classical labels be told apart from an antiunitary operation, and that the mechanism behind the prepared amplitudes' multiplicities be named. It recommends the record-bearing room, with one test — whether anything new survives once ordinary decoherence, gauge freedom and geometric phases are accounted for — then the room's frame connected to a particle's free motion, and, for Kerr–Newman, the chiral constituents lifted into the Hopf and meridian structures. Entry 398, with a response, asks for Kerr's two horizons as the switches of two usually aligned objects and whether the hole's second continuation is the Hopf shell's antipodal side; Entry 399, with a response, asks what a fundamental centrade would be, wants the interior as an emergent construction with the Kerr metric kept, and reads the room by the cosine of the action difference rather than by records. Entries 400–403, with five responses, turn to charge: Kerr–Newman's $\Delta$ as a determinant and charge as a heterogeneity across leaves, three Kerr holes of different sizes, and what GR on the quotient says the overlay must be (Entry 400); renderings re-indexed by the pair's history (Entry 401); charge as opposite meridian parities, random between objects (Entry 402); and the middle space's source-free field, whose leaves and quotient show monopoles (Entry 403).
+>
+> **What v37.4 does (R463–R468; Part XXXV).**
+> - *The records.* The message and the review, and Entries 398–403 with their seven responses, are recorded as sent, with their markup.
+> - *The readings.* The review's readings of v37.3 hold against the sections they cite, and its reproduction of the suite matches.
+> - *The room's two readings.* Without records the room reads two ways that give every count alike: a classical ensemble, whose configuration is a key and holds no record, and a coherent state, whose paths' states are a record readable only off the configuration basis. §XXXV.40(d)'s sentence on records is corrected in place and tagged.
+> - *The reflection.* A reflecting link is a unitary permutation of the labels, exchanging the Fourier modes $k$ and $-k$: no antiunitary operation is needed.
+> - *The reachable amplitudes.* With each label used at most once a preparation reaches $12$, $73$ or $361$ amplitudes; the density needs multiplicities, which no mechanism supplies.
+> - *The room with records.* A path turns each link it passes. In the classical reading any record removes the fringe while a reading of the room tells the path only in part; in the coherent reading the fringe is at most the records' fidelity, with $V^2+D^2 = 1$ and an eraser recovering the fidelity; the record is a turn of the frame; and the frame and the fringe compete, the one-link-longer fringe greatest at an intermediate frame for a turn other than none or a half turn. Every count is standard quantum mechanics with the room as an environment: nothing new survives the review's test, by construction for this class of rooms, and the room specifies the frame, the fringe and the record from one law.
+> - *The two switches.* Read as two spin states, §XXXV.45's pair has a mass operator whose spectrum is the two horizons: the outer horizon is the switch of its aligned channel and the inner of its anti-aligned one, each member alone switching at Schwarzschild's radii — the response's two-channel operator in exact form, its switches joint. The response to Entry 398's horizon data obey the first law and Smarr's relation at both horizons.
+> - *The other sides.* The shell's antipode, applied to the pair with its members exchanged, exchanges the two horizons on one solution. The passage through the ring is a double cover whose deck transformation flips the complex radius, keeping $\Sigma$ and $g = 2$ and flipping $M$, $Q$, $J$ and $\mu$ — for Kerr keeping the Kretschmann scalar and flipping $\Psi_2$ — the Hopf antipode's structure, not its identity. Each horizon's other side is a half turn of its Euclidean time, the two with different periods. The response to Entry 399's form of the metric is exact; the radial action's residues carry both horizons' $\kappa$ and $\Omega$; the cosine of the action difference without records is the room's classical reading, the cosine itself still posited.
+> - *Charge across the pair.* The cross coupling that gives Kerr–Newman's $\Delta$ is the two-channel operator boosted by a rapidity, for Reissner–Nordström the meridian's rapidity of §X.11: an imaginary rotation, for Reissner–Nordström not a way around the complexified meridian. The pair's common and difference parts are its two horizons over $2M$, and a transport's phase reads the same pair as other holes of one mass. Read as coherences, a loop of three associations has its phase bounded by their loss of visibility. The meridian dipole's half chord has the form of the archive's $Q/M$, and a parity network's zero total is what Gauss on the closed base requires. Kerr–Newman's Ricci tensor meets Rainich's algebraic conditions: whatever the overlay, it carries a Maxwell stress the metric fixes up to its duality angle. A source-free middle space shows its leaves conserved electric sources and its uniform quotient only the energy, not as a Maxwell stress, and with its removed meridians meeting at the poles it has no electric charge without charge.
+> - *Nothing fitted.* No new parameter but the turn's size, posited; no claim's status rises; no frozen Part changes.
+> - *The suite.* `pg_v37_numerics.py` gains a `v37_4` mode with $5$ checks, $24$ in all; the toy's `all` runs $280$. The technical note is brought to v37.4, `projective_gravity_v37_4_technical_note.md`.
+> - *Review.* Two independent referees, one on the physics and numerics and one on the record and text, read the round before delivery, read it again after the repairs and Entries 400–403's material, and a third time to confirm those fixes; what they caught is in the ledger's §FK with the development errors in §FI.
+>
+> **Next.** The room's frame as an inertial frame; records with a dynamics, between the paths' passages, and which reading the room takes; the chiral pair's lift, with the two switches as its spectrum and the horizons' data as checks, and the ring's sheet change set against the fiber's antipode; charge across the pair, with a middle-space Maxwell law and its descent; the turnover extended; a coupling for the involution room; the signed comparison from an association, or its premise kept; multiplicities in the detector and the preparation; then §XXXV.35's pieces. The author's choice for the cap is still open from earlier rounds.
 
 > **v37.3 — the review of v37.2 and Entries 387–390 and 392–397 (30 October 2026): the review's readings checked, its terminology correction made in place, the readout stated as a measurement, and the finite room it recommends built — one law for the frame and the kernel, a room of local involutions, and its three questions answered; then the turnover of Entries 387–390 built in that room, and Entries 392–397's two worldlines placed on the compactified meridian and the Hopf shell.**
 >
