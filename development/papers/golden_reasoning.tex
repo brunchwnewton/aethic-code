@@ -20008,12 +20008,16 @@ own expected completion time $\mathbb{E}[T_n]_i$ for the shift's
 completion type affords,
 \begin{equation}\label{gs:eq:lowpressure}
   r_i \;=\; \frac{\mathbf{1}[\Delta > 0]}{\mathbb{E}[T_n]_i}, \qquad
-  w_i \;=\; \frac{\mathbb{E}[T_n]_i}{n/\lambda} - 1, \qquad
+  \rho_i \;=\; \frac{a}{\sqrt{2\ln\bigl((1+w_i)/w_i\bigr)}}, \quad w_i \;=\; \frac{\mathbb{E}[T_n]_i}{n/\lambda} - 1, \qquad
+% R934 (Fable 5.1, Nov 07 2026), at the author's direction: the blur radius by his constraint (R934 in the Outliers paper).
+% was:   w_i \;=\; \frac{\mathbb{E}[T_n]_i}{n/\lambda} - 1, \qquad
   R \;=\; \sum_i r_i, \quad c_i \;=\; \frac{r_i}{R}, \qquad
   R(\Delta) \;\approx\; \frac{\lambda}{n}\,N\,\bar\Phi\!\Bigl(\frac{\ln s_c(n,\Delta)}{\sigma}\Bigr),
 \end{equation}
 the coupling rate, switched off where there is no region to couple to;
-the blur width, zero in the linear regime, where the person sees the
+the blur radius of the person's view of the vacancy spot of radius $a$, fixed by the constraint that the contribution their blurred view would produce equal the contribution their time complexity allows, zero in the linear regime, where the person sees the
+% R934 (Fable 5.1, Nov 07 2026), at the author's direction: the gloss matched.
+% was: the blur width, zero in the linear regime, where the person sees the
 landscape in real time, and unbounded deep in the exponential regime,
 where they see it uniform and the field finished; the population's
 hazard of the transition as the sum of rates, with $c_i$ the share of
