@@ -20008,19 +20008,25 @@ own expected completion time $\mathbb{E}[T_n]_i$ for the shift's
 completion type affords,
 \begin{equation}\label{gs:eq:lowpressure}
   r_i \;=\; \frac{\mathbf{1}[\Delta > 0]}{\mathbb{E}[T_n]_i}, \qquad
-  \rho_i \;=\; \frac{a}{\sqrt{2\ln\bigl((1+w_i)/w_i\bigr)}}, \quad w_i \;=\; \frac{\mathbb{E}[T_n]_i}{n/\lambda} - 1, \qquad
+  \rho_i \;=\; \frac{\ell}{\sqrt{2\ln\bigl((1+w_i)/w_i\bigr)}}, \quad w_i \;=\; \frac{\mathbb{E}[T_n]_i}{n/\lambda} - 1, \qquad
+% R937 (Opus 5.5, Nov 07 2026), at the author's direction: the spot radius is ell, as in the Outliers paper after R937.
+% was:   \rho_i \;=\; \frac{a}{\sqrt{2\ln\bigl((1+w_i)/w_i\bigr)}}, \quad w_i \;=\; \frac{\mathbb{E}[T_n]_i}{n/\lambda} - 1, \qquad
 % R934 (Fable 5.1, Nov 07 2026), at the author's direction: the blur radius by his constraint (R934 in the Outliers paper).
 % was:   w_i \;=\; \frac{\mathbb{E}[T_n]_i}{n/\lambda} - 1, \qquad
   R \;=\; \sum_i r_i, \quad c_i \;=\; \frac{r_i}{R}, \qquad
   R(\Delta) \;\approx\; \frac{\lambda}{n}\,N\,\bar\Phi\!\Bigl(\frac{\ln s_c(n,\Delta)}{\sigma}\Bigr),
 \end{equation}
 the coupling rate, switched off where there is no region to couple to;
-the blur radius of the person's view of the vacancy spot of radius $a$, fixed by the constraint that the contribution their blurred view would produce equal the contribution their time complexity allows, zero in the linear regime, where the person sees the
+the blur radius of the person's view of the vacancy spot of radius $\ell$, fixed by the constraint that the contribution their blurred view would produce equal the contribution their time complexity allows, $1/(1+w_i)$ being the share of the person's time spent in the run that completes and not undone by a restart, zero in the linear regime, where the person sees the
+% R937 (Opus 5.5, Nov 07 2026), at the author's direction: the spot radius ell; the kept share named (R937 in the Outliers paper).
+% was: the blur radius of the person's view of the vacancy spot of radius $a$, fixed by the constraint that the contribution their blurred view would produce equal the contribution their time complexity allows, zero in the linear regime, where the person sees the
 % R934 (Fable 5.1, Nov 07 2026), at the author's direction: the gloss matched.
 % was: the blur width, zero in the linear regime, where the person sees the
 landscape in real time, and unbounded deep in the exponential regime,
 where they see it uniform and the field finished; the population's
-hazard of the transition as the sum of rates, with $c_i$ the share of
+hazard of the transition as the sum of rates, which is what the objective view is, the view with no blur being no one's vantage but the combination of everybody's contributions given their limitations, a person with a high blur having from their vantage barely any thermodynamic arrow of time for the transition and so contributing only a tiny amount of its time evolution, with $c_i$ the share of
+% R936 (Fable 5.1, Nov 07 2026), at the author's direction: the objective view as the sum of the limited contributions, the thermodynamic reading (R936 in the Outliers paper).
+% was: hazard of the transition as the sum of rates, with $c_i$ the share of
 the credit; and the recruitment relation, by which a deeper deficit
 lowers the crossover $s_c(n,\Delta)$ and so pulls more of the population
 into the linear regime for the field, $\bar\Phi$ the standard-normal
