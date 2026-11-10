@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Code & Archive — Aethic Reasoning | aethus.org"
-description: "Resources behind the Aethic reasoning papers: the interactive Powerset Invalidation demo, the Python algorithm, slide decks and videos, the dinosaur-recalibration work, and the historical archive including the original 2023 manuscript."
+description: "Resources behind the Aethic reasoning papers: the interactive Powerset Invalidation demo, the Python algorithm, slide decks and videos, the dinosaur-recalibration work, and the historical archive including the 2022 material and the original 2023 manuscript."
 ---
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -263,13 +263,75 @@ details.aside[open]>summary .mk{transform:rotate(45deg);}
 details.aside .inner{padding:0 1.2rem 1.1rem;}
 details.aside .inner p{color:var(--ink-2);font-size:.96rem;line-height:1.62;margin:0 0 .9em;}
 .arch-intro{font-family:var(--mono);font-size:.8rem;color:var(--ink-3);line-height:1.6;border-left:2px solid var(--rule);padding-left:1.1rem;margin:1.2rem 0;}
+.prov{border:1px solid var(--gold);background:rgba(215,181,109,.07);padding:1.3rem 1.4rem 1.4rem;margin:0 0 2.2rem;}
+.prov .ph{font-family:var(--display);font-size:clamp(1.25rem,3vw,1.6rem);color:var(--ink);line-height:1.15;letter-spacing:-.01em;margin:0;}
+.prov .ph em{color:var(--gold-2);font-style:italic;}
+.prov .pk{font-family:var(--mono);font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-2);display:block;margin-bottom:.7rem;font-weight:500;}
+.prov .pnote{margin:1.3rem 0 0;padding-top:1.1rem;border-top:1px solid rgba(215,181,109,.35);max-width:46rem;}
+.prov .pnote .pk{margin-bottom:.6rem;}
+.prov .pnote p{margin:0 0 .85em;font-size:.95rem;line-height:1.6;color:var(--ink-2);}
+.prov .pnote p:last-child{margin-bottom:0;}
+.prov .pnote strong{color:var(--ink);}
+.prov .pl{margin:.75rem 0 0;font-size:.98rem;line-height:1.55;color:var(--ink-2);max-width:46rem;}
+.prov-list{list-style:none;margin:1.1rem 0 0;padding:0;border-top:1px solid rgba(215,181,109,.35);}
+.prov-list li{display:grid;grid-template-columns:7.2rem 1fr auto;gap:.4rem 1rem;align-items:baseline;padding:.72rem 0;border-bottom:1px solid var(--rule);}
+.prov-list .pd{font-family:var(--mono);font-size:.74rem;letter-spacing:.04em;color:var(--gold-2);white-space:nowrap;}
+.prov-list .pt{color:var(--ink);font-size:1rem;line-height:1.4;}
+.prov-list .pt small{display:block;color:var(--ink-3);font-size:.86rem;margin-top:.15rem;}
+.prov-list .pa{display:flex;gap:.45rem;flex-wrap:wrap;justify-content:flex-end;}
+.prov-list .pa a{font-family:var(--mono);font-size:.7rem;letter-spacing:.02em;padding:.36rem .7rem;border:1px solid var(--ink-3);color:var(--ink);white-space:nowrap;transition:.12s;}
+.prov-list .pa a:hover{border-color:var(--ink);background:var(--paper-3);}
+.prov-list li.lead-item .pt{font-family:var(--display);font-size:1.14rem;}
+.prov-list li.lead-item .pa a.go{background:var(--gold);border-color:var(--gold);color:var(--block);font-weight:600;}
+.prov-list li.lead-item .pa a.go:hover{background:var(--gold-2);border-color:var(--gold-2);}
+@media(max-width:640px){.prov-list li{grid-template-columns:1fr;}.prov-list .pa{justify-content:flex-start;margin-top:.3rem;}}
+.res.y2022{border-color:var(--gold);}
+.res.y2022 .rtag{color:var(--gold-2);border-color:var(--gold);}
 </style>
 
 <header class="mast indexed">
   <div class="wide">
+    <aside class="prov" id="provenance" aria-labelledby="prov-h">
+      <span class="pk">Provenance</span>
+      <h2 class="ph" id="prov-h">For provenance questions, see my <em>2022 material.</em></h2>
+      <p class="pl">Questions of priority are best settled from the earliest dated records, not from the 2026 papers. Start with <em>Golden Science</em> (November 2022) and the 2022 journal entries, then the two 2023 prints that follow them.</p>
+      <ul class="prov-list">
+        <li class="lead-item">
+          <span class="pd">Nov 2022</span>
+          <span class="pt"><em>Golden Science</em><small>Title page dated August 2022, the date of the first version; this version created November 2022.</small></span>
+          <span class="pa"><a class="go" href="history/GoldenScience_Nov2022.pdf">Open PDF</a><a href="history/GoldenScience_Nov2022.pdf" download>&darr; Download</a></span>
+        </li>
+        <li>
+          <span class="pd">2022</span>
+          <span class="pt">Foundational Journal Entries<small>The journal entries, as written.</small></span>
+          <span class="pa"><a href="development/journals/Foundational%20Journal%20Entries.docx" download>&darr; Download .docx</a></span>
+        </li>
+        <li>
+          <span class="pd">Jan 28, 2023</span>
+          <span class="pt">Centric Unfolding &mdash; the January 2023 manuscript<small>The three rules numbered for the first time, under the early &ldquo;Ethus&rdquo; vocabulary.</small></span>
+          <span class="pa"><a href="history/Jan2023Aethic.pdf">Open PDF</a></span>
+        </li>
+        <li>
+          <span class="pd">May 20, 2023</span>
+          <span class="pt">The Original Aethic Paper<small>The priority instrument; the Marked Paper annotates it line by line.</small></span>
+          <span class="pa"><a href="history/Original_Aethic.pdf">Open PDF</a><a href="history/marked_original.html">Marked paper</a></span>
+        </li>
+        <li>
+          <span class="pd">2024</span>
+          <span class="pt">Aethic Reasoning &mdash; the first public version<small>Version 1 of the main paper on PhilArchive.</small></span>
+          <span class="pa"><a href="https://philarchive.org/archive/BENARA-5v1">Open PDF &#8599;</a></span>
+        </li>
+      </ul>
+      <div class="pnote">
+        <span class="pk">On the 2026 papers</span>
+        <p>Note that my most recent 2026 papers are AI written, but to be clear <strong>the core ontological ideas themselves date to 2021, 2022, and 2023</strong>. The reason I ended up using AI is because the experiment in 2024 of just writing it all in my voice sort of failed, so now I'm trying to optimize for reception clarity rather than perfect human touch. I hope to cycle back to that though after the reception period!</p>
+        <p>Also I'm happy to answer questions as they come (although I've tried to state that all explicitly in my verbatim footnotes, saying things like "I didn't think of that" whenever it happens) about what the AI did indeed contribute, because there certainly is stuff there. For example, the cautious monotony proof was Claude's, but I defined the ontology AND the algebra AND I stated it uniquely prior to Claude touching anything, AND then on top of that I went over several dozen entries with Claude where I corrected its misreadings and clarified misunderstandings as it went (for example it would ask 'do you mean A or B', and most times sure enough I would say 'neither, it's actually C'). So yeah inductive reasoning is the thing Claude can NOT do by a long shot, and also even when I give it all the outputs of that it still has mostly error toward capturing it and carrying out the inference correctly, that is until it reaches the fixed point of good inference after I clarify enough times&mdash;sort of like giving it a mini literature that it would have trained on to get that inferential context if this were a mainstream paper, but in my case the vacuum in place of a literature sort of highlights what it looks like on its own, and what that is is a state embodying conformity rather than the polar opposite mentality required for inductive reasoning or even low error. So the general rule for what it produced is deduction off of stuff I already stated in the abstract, so the deductive contents of the papers are split between me and the AI, while the inductive contents are all me.</p>
+        <p>Even recently by the way, I don't think in a million years it could have thought of the 'Nexus structure invalidated terms surviving, and we reopen those back to invalidity to bake weights in'&mdash;instead I realized that by unifying the toy example of backtracking-along-your-own-centric-unfolding with weightless-reopening, and voila! So yes that was me, and it had to be me instead of the AI because the idea has even a fragment of creativity inside of it. For an example of what Claude DID do, it'd say explicitly it was stuck on how to address the open problem&mdash;emphasis on I&mdash;told it about pertaining to allowing reopening to be compatible with restoring Aethic weights as it does in the centric unfolding-backtracking special case. It then would give me options that were purely patches, like I don't remember the particularities of it but it's always something like "what if we just write a new index stating that a parent Aethus is in a particular line" or garbage like that&mdash;so yes there's a very explicit art form to NOT just throwing in a patch, and I would say most humans have trouble with that while AI has absolute trouble with that. I've never once seen AI make the non-patch metaphorical chess move, which in a word is why I but not it could produce the framework down to every fine detail. As for why it took me until 2026 to think of that particular idea, for that you can let me have it lol&mdash;I think it's because I overwrote my 2023 intuition (present in the videos as "Aethic concatenation", if you want to fact check me on whether I had it then!) about Aethic addition when I wrote the 2024 papers, and so I conflated the LCA-based union with the overlay-based addition!</p>
+      </div>
+    </aside>
     <div class="kicker">Code &amp; archive &middot; resources behind the papers</div>
     <h1>The workbench<br>&amp; the <em>record.</em></h1>
-    <p class="standfirst">The live demos, the algorithm, the slide decks and videos, and the historical archive &mdash; the original 2023 manuscript, the earliest code, and the author&rsquo;s own account of how the framework got its words.</p>
+    <p class="standfirst">The live demos, the algorithm, the slide decks and videos, and the historical archive &mdash; the 2022 material, the original 2023 manuscript, the earliest code, and the author&rsquo;s own account of how the framework got its words.</p>
 <div class="mission-box" style="margin:1.4rem 0;border-left:3px solid #6FA8FF;padding:.9rem 1.2rem;background:rgba(111,168,255,.10);">
   <p style="margin:0;"><strong>How to read the historical archive (September 2026).</strong> The materials below divide by date into two strata, and the division is worth keeping. The 2023 manuscripts and the earliest code are the framework <em>before literature exposure</em>: the ontology complete, the vocabulary improvised, no engagement with the counterfactual-semantics or reconstruction literatures. The 2026 papers are the same framework after that exposure and after its formalization &mdash; the long paper&rsquo;s &sect;13.11, &ldquo;For the Historian,&rdquo; lays out the three dated instruments and what changed between them (the apparatus, and one input) and what did not (the postulates). The Marked Paper on this page carries a table mapping the 2023 wording onto the principles as they are now named, so the correspondence can be checked phrase by phrase.</p>
 </div>
@@ -419,6 +481,20 @@ if __name__ == "__main__":
   <div class="wide">
     <div class="sec-head"><span class="eyebrow">The historical archive</span><h2>How it got here.</h2></div>
     <div class="arch-intro">Early artifacts and superseded drafts, kept for the record. None of these represent the current state of the framework &mdash; they document how it got here.</div>
+    <div class="res-grid" style="margin-top:.4rem;">
+      <article class="res y2022">
+        <span class="rtag">Historical &middot; 2022</span>
+        <h3>Golden Science (November 2022)</h3>
+        <div class="rdesc">The Golden program in its 2022 form. The title page carries August 2022, the date of the first version; this version was created in November 2022. It is the dated source the Golden papers cite for two early statements: the split of a biosphere's Departure Point into internal and external hazards, and the conjecture on when the Golden Point may arrive.</div>
+        <div class="ractions"><a href="history/GoldenScience_Nov2022.pdf">&#9654; Open PDF</a><a href="history/GoldenScience_Nov2022.pdf" download>&darr; Download PDF</a></div>
+      </article>
+      <article class="res y2022">
+        <span class="rtag">Historical &middot; 2022</span>
+        <h3>Foundational Journal Entries</h3>
+        <div class="rdesc">The 2022 journal entries, as written, before the January and May 2023 prints that follow them.</div>
+        <div class="ractions"><a href="development/journals/Foundational%20Journal%20Entries.docx" download>&darr; Download .docx</a></div>
+      </article>
+    </div>
     <article class="res">
       <span class="rtag">Historical &middot; the priority instrument</span>
       <h3>The Original Aethic Paper (May 2023)</h3>
