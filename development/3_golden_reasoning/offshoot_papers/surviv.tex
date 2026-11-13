@@ -277,50 +277,54 @@ and survivorship theory of a larger framework; the companion
 developments carry the program built on them and are cited, not
 presupposed. Drafting collaboration: Anthropic Claude (Opus~4.x,
 Fable~5), under the author's direction.}}
-\date{September 2026 --- Working Draft, rev.~7}
+\date{November 2026 --- Working Draft, rev.~7}
+% R943 (Opus 5.5, Nov 08 2026), at the author's direction: the current version date set to November 2026 (his request of Nov 8).
+% was: \date{September 2026 --- Working Draft, rev.~7}
 
 \begin{document}
 \maketitle
 
 \begin{abstract}
-We study the survival theory of a hazard rate whose noise is placed one
-integration further out than is standard: rather than diffusing $h$ or
-$\log h$, we diffuse the negative logarithmic derivative
-$\mu=-\frac{d}{dt}\log h$, so that the integrated driver is a
-Kolmogorov diffusion and the governing persistence exponent moves from
-$\tfrac12$ to $\tfrac14$. The hazard carries two channels: an external
-background, muffled by the accumulated exponent through a bounded
-logistic factor, and an internal term $\Gamma e^{-\rho x}$ the same
-exponent feeds or starves according to the sign of the response
-exponent $\rho$. The paper's claim in one sentence: the
-total hazard ever accrued stays finite exactly when the response
-exponent is positive and the driver's long-run behavior is favorable,
-so that no magnitude of accumulated capacity substitutes for the sign,
-and no event of bounded duration on a surviving path
-perfectly separates the survivorship-conditioned law from the
-unconditioned one. Three results carry the claim. First, a
-trichotomy in $\rho$: for $\rho\le0$ the viability event
-$\{\Lambda_\infty<\infty\}$ is null for every parameter value and every
-driver, with an exponential survival tail at frozen background, while
-for $\rho>0$ viability factors exactly as an indicator in $\rho$ times
-a piecewise driver-viability functional --- the classical
-scale-function escape probability for a transient driver, the
-stationary-mean criterion in the positive-recurrent case, where the
-driver does not escape ---
-two logically distinct necessary conditions, with a closed-form Gaussian
-sigmoid in the canonical self-reinforcing case. Second, a conjectural transfer: the two-channel model's survival asymptotics are conjectured to coincide with those of the bare integrated-driver model up to a shift of initial data and bounded constants, conditional on a soft-wall reduction stated as an explicit Ansatz and supported numerically but not proved. Third, the survivorship
-interpolation $\PP(\cdot\mid T>t)$ is a monotone flow of upward tilts
-whose $t\to\infty$ limit, in the critical regime, is the pure Doob
-$\hm$-transform by the persistence-harmonic function: locally
-absolutely continuous with respect to the unconditioned law on
-survivors, globally singular, with a universal kinematic factor whose explicit coefficient is the tail index $1/4$, the unspecified $o(1)$ remainder of the asymptotic being able to dominate the proposed $1/t$ correction, so that no linear-response coefficient is established, and classified
-against exponential-tail regimes into three modes. Monte Carlo
-experiments with exact pair simulation support the $t^{-1/4}$ exponent
-for the soft-killing functional, the boundedness (indeed apparent
-convergence) of the soft-to-hard survival ratio, the gauge role of the
-initial hazard, the finite-window kinematic factor $(1-s/t)^{-1/4}$,
-self-similar convergence of the conditioned credit, and the
-qualitative structure of the survivorship drift. One candidate empirical signature follows: under criticality the population hazard of survivors decays as $1/(4t)$. The signature does not by itself distinguish the model from static frailty, since a gamma frailty of shape $1/4$ reproduces the same asymptotic, so the contrast requires a specified competing model rather than a plateau alone; and the two-channel transfer beyond the bare soft-wall hypothesis is conjectural throughout.
+We study the survival theory of a hazard rate whose noise is placed one integration further out than is standard: rather than diffusing $h$ or $\log h$, we diffuse the negative logarithmic derivative $\mu=-\frac{d}{dt}\log h$, so that the integrated driver is a Kolmogorov diffusion and the governing persistence exponent moves from $\tfrac12$ to $\tfrac14$. The hazard carries two channels: an external background, muffled by the accumulated exponent, and an internal term $\Gamma e^{-\rho x}$ that the same exponent feeds or starves according to the sign of the response exponent $\rho$. The total hazard stays finite exactly when $\rho$ is positive and the driver's long-run behavior is favorable, so that no magnitude of accumulated capacity substitutes for the sign, and no event of bounded duration perfectly separates the survivorship-conditioned law from the unconditioned one. First, a trichotomy in $\rho$: for $\rho\le0$ the viability event $\{\Lambda_\infty<\infty\}$ is null for every parameter value and every driver, while for $\rho>0$ viability factors as an indicator in $\rho$ times a driver-viability functional, two logically distinct necessary conditions. Second, a conjectural transfer: the two-channel model's survival asymptotics are conjectured to coincide with those of the bare integrated-driver model up to a shift of initial data and bounded constants, conditional on a soft-wall reduction stated as an explicit Ansatz, supported numerically and not proved. Third, the survivorship interpolation $\PP(\cdot\mid T>t)$ is a monotone flow of upward tilts whose limit, in the critical regime, is the Doob $\hm$-transform: locally absolutely continuous with respect to the unconditioned law on survivors and globally singular. Monte Carlo experiments support the $t^{-1/4}$ exponent and the finite-window kinematic factor. One candidate empirical signature follows, a survivor hazard decaying as $1/(4t)$ under criticality, which does not by itself distinguish the model from static frailty.
+% R985 (Fable 5.2, Nov 13 2026), at the author's direction: abstract shortened from about 495 words to 296; no claim added, the detail removed remains in the body.
+% was: We study the survival theory of a hazard rate whose noise is placed one
+% was: integration further out than is standard: rather than diffusing $h$ or
+% was: $\log h$, we diffuse the negative logarithmic derivative
+% was: $\mu=-\frac{d}{dt}\log h$, so that the integrated driver is a
+% was: Kolmogorov diffusion and the governing persistence exponent moves from
+% was: $\tfrac12$ to $\tfrac14$. The hazard carries two channels: an external
+% was: background, muffled by the accumulated exponent through a bounded
+% was: logistic factor, and an internal term $\Gamma e^{-\rho x}$ the same
+% was: exponent feeds or starves according to the sign of the response
+% was: exponent $\rho$. The paper's claim in one sentence: the
+% was: total hazard ever accrued stays finite exactly when the response
+% was: exponent is positive and the driver's long-run behavior is favorable,
+% was: so that no magnitude of accumulated capacity substitutes for the sign,
+% was: and no event of bounded duration on a surviving path
+% was: perfectly separates the survivorship-conditioned law from the
+% was: unconditioned one. Three results carry the claim. First, a
+% was: trichotomy in $\rho$: for $\rho\le0$ the viability event
+% was: $\{\Lambda_\infty<\infty\}$ is null for every parameter value and every
+% was: driver, with an exponential survival tail at frozen background, while
+% was: for $\rho>0$ viability factors exactly as an indicator in $\rho$ times
+% was: a piecewise driver-viability functional --- the classical
+% was: scale-function escape probability for a transient driver, the
+% was: stationary-mean criterion in the positive-recurrent case, where the
+% was: driver does not escape ---
+% was: two logically distinct necessary conditions, with a closed-form Gaussian
+% was: sigmoid in the canonical self-reinforcing case. Second, a conjectural transfer: the two-channel model's survival asymptotics are conjectured to coincide with those of the bare integrated-driver model up to a shift of initial data and bounded constants, conditional on a soft-wall reduction stated as an explicit Ansatz and supported numerically but not proved. Third, the survivorship
+% was: interpolation $\PP(\cdot\mid T>t)$ is a monotone flow of upward tilts
+% was: whose $t\to\infty$ limit, in the critical regime, is the pure Doob
+% was: $\hm$-transform by the persistence-harmonic function: locally
+% was: absolutely continuous with respect to the unconditioned law on
+% was: survivors, globally singular, with a universal kinematic factor whose explicit coefficient is the tail index $1/4$, the unspecified $o(1)$ remainder of the asymptotic being able to dominate the proposed $1/t$ correction, so that no linear-response coefficient is established, and classified
+% was: against exponential-tail regimes into three modes. Monte Carlo
+% was: experiments with exact pair simulation support the $t^{-1/4}$ exponent
+% was: for the soft-killing functional, the boundedness (indeed apparent
+% was: convergence) of the soft-to-hard survival ratio, the gauge role of the
+% was: initial hazard, the finite-window kinematic factor $(1-s/t)^{-1/4}$,
+% was: self-similar convergence of the conditioned credit, and the
+% was: qualitative structure of the survivorship drift. One candidate empirical signature follows: under criticality the population hazard of survivors decays as $1/(4t)$. The signature does not by itself distinguish the model from static frailty, since a gamma frailty of shape $1/4$ reproduces the same asymptotic, so the contrast requires a specified competing model rather than a plateau alone; and the two-channel transfer beyond the bare soft-wall hypothesis is conjectural throughout.
 \end{abstract}
 
 \section{Introduction}\label{sec:intro}
