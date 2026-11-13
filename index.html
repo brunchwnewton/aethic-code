@@ -287,11 +287,53 @@ details.aside .inner p{color:var(--ink-2);font-size:.96rem;line-height:1.62;marg
 @media(max-width:640px){.prov-list li{grid-template-columns:1fr;}.prov-list .pa{justify-content:flex-start;margin-top:.3rem;}}
 .res.y2022{border-color:var(--gold);}
 .res.y2022 .rtag{color:var(--gold-2);border-color:var(--gold);}
+.prompts{margin:1.6rem 0 0;font-family:var(--mono);font-size:.72rem;letter-spacing:.03em;color:var(--ink-3);line-height:1.9;}
+.prompts .pk2{text-transform:uppercase;letter-spacing:.18em;margin-right:.9rem;}
+.prompts a{color:var(--ink-3);border-bottom:1px solid var(--rule);margin-right:1.1rem;display:inline-block;}
+.prompts{overflow-wrap:anywhere;}
+.prompts a:hover{color:var(--ink);border-color:var(--ink-3);}
+.prompts .later{display:block;margin-top:.2rem;font-size:.68rem;opacity:.8;}
+.clamp{position:relative;overflow:hidden;max-height:var(--clamp,7.6rem);}
+.clamp::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2.6rem;background:linear-gradient(to bottom,transparent,var(--fade,var(--paper-2)));pointer-events:none;}
+.clamp.open{max-height:none;}
+.clamp.open::after{display:none;}
+.morebtn{display:inline-block;margin:.1rem 0 .9rem;padding:0;border:0;background:none;cursor:pointer;font-family:var(--mono);font-size:.72rem;letter-spacing:.04em;color:var(--garnet);border-bottom:1px solid currentColor;}
+.morebtn:hover{color:var(--ink);}
+.prov .pnote .morebtn{color:var(--gold-2);margin:.6rem 0 0;}
+.channel{border:1px solid var(--rule);background:var(--paper-2);padding:1.4rem 1.5rem .6rem;}
+.chead{display:flex;gap:1.2rem;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;padding-bottom:1.1rem;}
+.chead .rtag{display:inline-block;font-family:var(--mono);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--garnet);border:1px solid var(--garnet);padding:.1em .55ch;margin-bottom:.7rem;}
+.chead h3{font-family:var(--display);font-size:1.4rem;color:var(--ink);margin:0 0 .4rem;}
+.chead p{margin:0;color:var(--ink-2);font-size:.96rem;line-height:1.55;max-width:38rem;}
+.cgo{font-family:var(--mono);font-size:.72rem;padding:.5rem .9rem;border:1px solid var(--ink);color:var(--ink);white-space:nowrap;transition:.12s;}
+.cgo:hover{background:var(--ink);color:var(--paper);}
+.vgroup{border-top:1px solid var(--rule);padding:.9rem 0 .3rem;}
+.vg{display:block;font-family:var(--mono);font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;color:var(--garnet);margin-bottom:.2rem;}
+.vrow{border-bottom:1px solid var(--rule);}
+.vgroup .vrow:last-child{border-bottom:0;}
+.vrow>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:7.2rem 1fr auto;gap:.4rem 1rem;align-items:baseline;padding:.75rem 0;}
+.vrow>summary::-webkit-details-marker{display:none;}
+.vrow .vd{font-family:var(--mono);font-size:.74rem;color:var(--ink-3);white-space:nowrap;}
+.vrow .vt{font-family:var(--display);font-size:1.08rem;color:var(--ink);line-height:1.35;}
+.vrow .vt small{display:block;font-family:var(--body,inherit);color:var(--ink-3);font-size:.88rem;margin-top:.15rem;line-height:1.5;}
+.vrow .va{display:flex;gap:.45rem;flex-wrap:wrap;justify-content:flex-end;}
+.vrow .va a,.vrow .vplay{font-family:var(--mono);font-size:.7rem;padding:.36rem .7rem;border:1px solid var(--ink-3);color:var(--ink);white-space:nowrap;transition:.12s;}
+.vrow .va a:hover,.vrow>summary:hover .vplay{border-color:var(--ink);background:var(--paper-3);}
+.vrow[open] .vplay,.vrow[open]>summary:hover .vplay{background:none;color:var(--garnet);border-color:var(--garnet);}
+.vrow .vembed{margin:.2rem 0 1.1rem 8.2rem;max-width:40rem;padding-bottom:0;height:auto;aspect-ratio:16/9;}
+@media(max-width:640px){.vrow>summary{grid-template-columns:1fr;}.vrow .va{justify-content:flex-start;margin-top:.3rem;}.vrow .vembed{margin-left:0;}}
+.slides{margin:1.1rem 0 0;font-family:var(--mono);font-size:.76rem;color:var(--ink-3);line-height:1.9;overflow-wrap:anywhere;}
+.slides .pk2{text-transform:uppercase;letter-spacing:.18em;margin-right:.9rem;}
+.slides a{color:var(--ink-2);border-bottom:1px solid var(--rule);margin-right:1.2rem;display:inline-block;}
+.slides a:hover{color:var(--ink);border-color:var(--ink-3);}
 </style>
 
 <header class="mast indexed">
   <div class="wide">
-    <aside class="prov" id="provenance" aria-labelledby="prov-h">
+    <div class="kicker">Code &amp; archive &middot; resources behind the papers</div>
+    <h1>The workbench<br>&amp; the <em>record.</em></h1>
+    <p class="standfirst">The live demos, the algorithm, the slide decks and videos, and the historical archive &mdash; the 2022 material, the original 2023 manuscript, the earliest code, and the author&rsquo;s own account of how the framework got its words.</p>
+    <aside class="prov" id="provenance" style="margin-top:2.2rem;" aria-labelledby="prov-h">
       <span class="pk">Provenance</span>
       <h2 class="ph" id="prov-h">For provenance questions, see my <em>2022 material.</em></h2>
       <p class="pl">Questions of priority are best settled from the earliest dated records, not from the 2026 papers. Start with <em>Golden Science</em> (November 2022) and the 2022 journal entries, then the two 2023 prints that follow them.</p>
@@ -329,9 +371,6 @@ details.aside .inner p{color:var(--ink-2);font-size:.96rem;line-height:1.62;marg
         <p>Even recently by the way, I don't think in a million years it could have thought of the 'Nexus structure invalidated terms surviving, and we reopen those back to invalidity to bake weights in'&mdash;instead I realized that by unifying the toy example of backtracking-along-your-own-centric-unfolding with weightless-reopening, and voila! So yes that was me, and it had to be me instead of the AI because the idea has even a fragment of creativity inside of it. For an example of what Claude DID do, it'd say explicitly it was stuck on how to address the open problem&mdash;emphasis on I&mdash;told it about pertaining to allowing reopening to be compatible with restoring Aethic weights as it does in the centric unfolding-backtracking special case. It then would give me options that were purely patches, like I don't remember the particularities of it but it's always something like "what if we just write a new index stating that a parent Aethus is in a particular line" or garbage like that&mdash;so yes there's a very explicit art form to NOT just throwing in a patch, and I would say most humans have trouble with that while AI has absolute trouble with that. I've never once seen AI make the non-patch metaphorical chess move, which in a word is why I but not it could produce the framework down to every fine detail. As for why it took me until 2026 to think of that particular idea, for that you can let me have it lol&mdash;I think it's because I overwrote my 2023 intuition (present in the videos as "Aethic concatenation", if you want to fact check me on whether I had it then!) about Aethic addition when I wrote the 2024 papers, and so I conflated the LCA-based union with the overlay-based addition!</p>
       </div>
     </aside>
-    <div class="kicker">Code &amp; archive &middot; resources behind the papers</div>
-    <h1>The workbench<br>&amp; the <em>record.</em></h1>
-    <p class="standfirst">The live demos, the algorithm, the slide decks and videos, and the historical archive &mdash; the 2022 material, the original 2023 manuscript, the earliest code, and the author&rsquo;s own account of how the framework got its words.</p>
 <div class="mission-box" style="margin:1.4rem 0;border-left:3px solid #6FA8FF;padding:.9rem 1.2rem;background:rgba(111,168,255,.10);">
   <p style="margin:0;"><strong>How to read the historical archive (September 2026).</strong> The materials below divide by date into two strata, and the division is worth keeping. The 2023 manuscripts and the earliest code are the framework <em>before literature exposure</em>: the ontology complete, the vocabulary improvised, no engagement with the counterfactual-semantics or reconstruction literatures. The 2026 papers are the same framework after that exposure and after its formalization &mdash; the long paper&rsquo;s &sect;13.11, &ldquo;For the Historian,&rdquo; lays out the three dated instruments and what changed between them (the apparatus, and one input) and what did not (the postulates). The Marked Paper on this page carries a table mapping the 2023 wording onto the principles as they are now named, so the correspondence can be checked phrase by phrase.</p>
 </div>
@@ -359,12 +398,13 @@ details.aside .inner p{color:var(--ink-2);font-size:.96rem;line-height:1.62;marg
       <article class="res">
   <span class="rtag">Algorithm</span>
   <h3>Python — bare-bones invalidation</h3>
-  <div class="rdesc">The core classification algorithm in plain Python with no dependencies. Computes detector signatures, equivalence classes, and labels each powerset element Valid, P2, or P3. Reproduced in full below. <strong>What it implements:</strong> the Powerset Invalidation Theorem of <em>Quantum Mechanics from Records</em> for a finite slit set under a supplied detector configuration, with each detector's signature taken as given (OR logic over the slits it watches). <strong>Assumptions it takes as input:</strong> that the supplied signatures are the complete record structure of the configuration and persist under refinement, which the theorem requires and the program cannot check. <strong>Conventions:</strong> the empty subset is returned as Valid by convention; a subset spanning two signature classes is P3 (consistency-pruned); a subset inside one class but short of it is P2 (over-specified); a full class is Valid. <strong>Expected output:</strong> a label for every element of the powerset, 2<sup>n</sup> entries for n slits. <strong>Limitation:</strong> it implements a finite classification under supplied record assumptions; it does not establish those assumptions for any actual laboratory, and it computes no weights, which the kernel supplies separately.</div>
+  <div class="rdesc">The core classification algorithm in plain Python with no dependencies. Computes detector signatures, equivalence classes, and labels each powerset element Valid, P2, or P3. The full source is under &ldquo;View source&rdquo;. <strong>What it implements:</strong> the Powerset Invalidation Theorem of <em>Quantum Mechanics from Records</em> for a finite slit set under a supplied detector configuration, with each detector's signature taken as given (OR logic over the slits it watches). <strong>Assumptions it takes as input:</strong> that the supplied signatures are the complete record structure of the configuration and persist under refinement, which the theorem requires and the program cannot check. <strong>Conventions:</strong> the empty subset is returned as Valid by convention; a subset spanning two signature classes is P3 (consistency-pruned); a subset inside one class but short of it is P2 (over-specified); a full class is Valid. <strong>Expected output:</strong> a label for every element of the powerset, 2<sup>n</sup> entries for n slits. <strong>Limitation:</strong> it implements a finite classification under supplied record assumptions; it does not establish those assumptions for any actual laboratory, and it computes no weights, which the kernel supplies separately.</div>
   <div class="ractions"><a href="files/aethic_invalidation.py" download>↓ Download .py</a><a href="#python-source">View source</a></div>
 </article>
     </div>
-    <div class="codeblock" id="python-source">
-      <div class="ch">aethic_invalidation.py</div>
+    <details class="aside" id="python-source">
+      <summary>Python source &middot; aethic_invalidation.py <span class="mk">+</span></summary>
+      <div class="codeblock" style="margin:0;border-width:1px 0 0;">
       <pre>from itertools import chain, combinations
 
 def powerset(iterable):
@@ -413,7 +453,8 @@ if __name__ == "__main__":
         shown = "".join(chr(65 + s) for s in sorted(subset)) or "Ø"
         print(f"{shown:&lt;6} {label}")
 </pre>
-    </div>
+      </div>
+    </details>
     <details class="aside">
       <summary>The core algorithm, as pseudocode <span class="mk">+</span></summary>
       <div class="inner">
@@ -436,44 +477,29 @@ if __name__ == "__main__":
 <section class="tight">
   <div class="wide">
     <div class="sec-head"><span class="eyebrow">Presentations &amp; media</span><h2>The framework, presented.</h2></div>
-    <div class="res-grid">
-      <article class="res">
-  <span class="rtag">Slides</span>
-  <h3>Aethic Reasoning — Slide Deck 1</h3>
-  <div class="rdesc">A slide deck intended for a future video on Aethic reasoning. Covers the basics in an intended fifteen-minute runtime.</div>
-  <div class="ractions"><a href="files/slides/before_era/Aethic_YouTube_Presentation.pptx.pdf" download>↓ Download PDF</a></div>
-</article>
-      <article class="res">
-  <span class="rtag">Slides</span>
-  <h3>Slide Deck 2 — RIT Math Club</h3>
-  <div class="rdesc">The deck from Ajax’s presentation at the RIT Math Club, April 26, 2025. Covers the extrusion principle, Aethic structure, the soccer-field thought experiment, and the double-slit derivation.</div>
-  <div class="ractions"><a href="files/slides/before_era/Aethic_Reasoning_Slides_PiRIT.pptx.pdf" download>↓ Download PDF</a></div>
-</article>
-      <article class="res video">
-  <span class="rtag">Video</span>
-  <h3>Did I Just Solve the Measurement Problem?</h3>
-  <div class="rdesc">Ajax’s first public presentation of Aethic reasoning — a deep dive covering the three postulates and the double-slit derivation. <span class="vdate">Oct 19, 2023</span></div>
-  <div class="vembed"><iframe src="https://www.youtube.com/embed/_XDr8mNfGRk" title="Did I Just Solve the Measurement Problem?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-</article>
-      <article class="res video">
-  <span class="rtag">Video</span>
-  <h3>Here’s How You Solve Quantum Physics</h3>
-  <div class="rdesc">A brief walkthrough of the full Aethic framework. <span class="vdate">Nov 12, 2023</span></div>
-  <div class="vembed"><iframe src="https://www.youtube.com/embed/rxsPpyi7QHY" title="Here’s How You Solve Quantum Physics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-</article>
-      <article class="res">
-  <span class="rtag">Channel</span>
-  <h3>YouTube — Brunch with Newton</h3>
-  <div class="rdesc">The full video series, including the Nexic and dinosaur material, on the author’s channel.</div>
-  <div class="ractions"><a href="https://www.youtube.com/@BrunchWithNewton">Visit channel ↗</a></div>
-</article>
-      <article class="res video">
-  <span class="rtag">Video</span>
-  <h3>Does the Aethus Solve the Fermi Paradox?</h3>
-  <div class="rdesc">The companion deep dive introducing Nexic reasoning: anthropic parameters, the Accordance Principle, and the Rare Earth derivation. <span class="vdate">Oct 19, 2023</span></div>
-  <div class="vembed"><iframe src="https://www.youtube.com/embed/pX_1WrcWi04" title="Does the Aethus Solve the Fermi Paradox?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-</article>
+    <div class="channel">
+      <div class="chead">
+        <div><span class="rtag">Channel</span><h3>YouTube &mdash; Brunch with Newton</h3><p>The full video series on the author&rsquo;s channel. The three talks below are the ones that present the framework.</p></div>
+        <a class="cgo" href="https://www.youtube.com/@BrunchWithNewton">Visit channel &#8599;</a>
+      </div>
+      <div class="vgroup"><span class="vg">Aethic reasoning</span>
+        <details class="vrow">
+          <summary><span class="vd">Oct 19, 2023</span><span class="vt">Did I Just Solve the Measurement Problem?<small>Ajax&rsquo;s first public presentation of Aethic reasoning: the three postulates and the double-slit derivation.</small></span><span class="va"><span class="vplay">&#9654; Play here</span><a href="https://www.youtube.com/watch?v=_XDr8mNfGRk">YouTube &#8599;</a></span></summary>
+          <div class="vembed"><iframe src="https://www.youtube.com/embed/_XDr8mNfGRk" title="Did I Just Solve the Measurement Problem?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+        </details>
+        <details class="vrow">
+          <summary><span class="vd">Nov 12, 2023</span><span class="vt">Here&rsquo;s How You Solve Quantum Physics<small>A brief walkthrough of the full Aethic framework.</small></span><span class="va"><span class="vplay">&#9654; Play here</span><a href="https://www.youtube.com/watch?v=rxsPpyi7QHY">YouTube &#8599;</a></span></summary>
+          <div class="vembed"><iframe src="https://www.youtube.com/embed/rxsPpyi7QHY" title="Here&rsquo;s How You Solve Quantum Physics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+        </details>
+      </div>
+      <div class="vgroup"><span class="vg">Nexic reasoning</span>
+        <details class="vrow">
+          <summary><span class="vd">Oct 19, 2023</span><span class="vt">Does the Aethus Solve the Fermi Paradox?<small>The companion talk introducing Nexic reasoning: anthropic parameters, the Accordance Principle, and the Rare Earth derivation.</small></span><span class="va"><span class="vplay">&#9654; Play here</span><a href="https://www.youtube.com/watch?v=pX_1WrcWi04">YouTube &#8599;</a></span></summary>
+          <div class="vembed"><iframe src="https://www.youtube.com/embed/pX_1WrcWi04" title="Does the Aethus Solve the Fermi Paradox?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+        </details>
+      </div>
     </div>
+    <p class="slides"><span class="pk2">Slides</span><a href="files/slides/before_era/Aethic_YouTube_Presentation.pptx.pdf" download>Deck 1, a fifteen-minute introduction (PDF)</a><a href="files/slides/before_era/Aethic_Reasoning_Slides_PiRIT.pptx.pdf" download>Deck 2, RIT Math Club, April 26, 2025 (PDF)</a></p>
   </div>
 </section>
 
@@ -598,5 +624,25 @@ if __name__ == "__main__":
       <a href="https://philpapers.org/rec/BENARI-3"><div class="nt">In Brief &#8599;</div><div class="nd">The compressed on-ramp — from a counterfactual semantics to the measurement problem.</div></a>
       <a href="https://philpapers.org/rec/BENNRD"><div class="nt">Nexic paper &#8599;</div><div class="nd">Defining a Generalized Calculus Over Anthropic Parameters.</div></a>
     </div>
+    <p class="prompts"><span class="pk2">Prompts</span><a href="provenance/FABLE_LEDGER.md">The edit ledger</a><a href="development/3_golden_reasoning/Brief%20on%20Golden%20Reasoning%20Concepts.md">Brief on Golden reasoning concepts</a><a href="development/4_active_reasoning/Claude%20Brief%20on%20Radical%20Cosmology%20Idea.md">Brief on the radical cosmology idea</a><span class="later">The two briefs belong to Golden and active reasoning, which come after the Aethic material in reading order.</span></p>
   </div>
 </section>
+
+<script>
+(function(){
+  function clamp(el,h,fade,labelMore){
+    if(el.scrollHeight<=h*1.35) return;
+    el.classList.add('clamp'); el.style.setProperty('--clamp',h+'px'); if(fade) el.style.setProperty('--fade',fade);
+    var b=document.createElement('button'); b.type='button'; b.className='morebtn'; b.textContent=labelMore; b.setAttribute('aria-expanded','false');
+    b.addEventListener('click',function(){var o=el.classList.toggle('open'); b.textContent=o?'Less':labelMore; b.setAttribute('aria-expanded',o);});
+    el.insertAdjacentElement('afterend',b);
+  }
+  var rem=parseFloat(getComputedStyle(document.documentElement).fontSize)||16;
+  document.querySelectorAll('.res .rdesc').forEach(function(el){clamp(el,7.6*rem,null,'More');});
+  var note=document.querySelector('.prov .pnote');
+  if(note){var w=document.createElement('div'); while(note.children.length>1){w.appendChild(note.children[1]);} note.appendChild(w); clamp(w,7.2*rem,'#1a1e27','Read the full note');}
+  function openSrc(){if(location.hash==='#python-source'){var d=document.getElementById('python-source'); if(d){d.open=true; d.scrollIntoView();}}}
+  window.addEventListener('hashchange',openSrc); openSrc();
+  document.querySelectorAll('a[href="#python-source"]').forEach(function(a){a.addEventListener('click',function(){var d=document.getElementById('python-source'); if(d) d.open=true;});});
+})();
+</script>
