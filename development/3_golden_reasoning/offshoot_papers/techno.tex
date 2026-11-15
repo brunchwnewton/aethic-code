@@ -171,6 +171,17 @@
   pages   = {217--221},
   note    = {Russian original, \emph{Astronomicheskii Zhurnal} \textbf{41} (1964), 282--287.}
 }
+@article{Jiang22,
+  author  = {Jiang, Jonathan H. and Feng, Fuyang and Rosen, Philip E. and Fahy, Kristen A. and Das, Prithwis and Obacz, Piotr and Zhang, Antong and Zhu, Zong-Hong},
+  title   = {Avoiding the Great Filter: Predicting the Timeline for Humanity to Reach {Kardashev} Type {I} Civilization},
+  journal = {Galaxies},
+  volume  = {10},
+  number  = {3},
+  pages   = {68},
+  year    = {2022},
+  doi     = {10.3390/galaxies10030068}
+}
+% R1002 (Opus 5.5, Nov 14 2026), at the author's direction: bibliography entry for the Type I forecast.
 @incollection{MacAskill22,
   author    = {MacAskill, William},
   title     = {Are we living at the hinge of history?},
@@ -523,7 +534,9 @@ which is what the survivorship companion \cite{GoldenSurvivorship} means by eati
 % R962 (Opus 5.5, Nov 11 2026), at the author's direction: author-attribution metacommentary set impersonal.
 % was: \paragraph{Where the two channels came from.} The split into an external and an internal hazard, and the coordinate $\rho$ that measures the second's response to capacity, have one motivating observation behind them, recorded here because it explains why the coordinate is a structural property and not a state. Once a civilization gains the technological power to destroy or redirect an asteroid on course to wipe out its planet, it has answered one external hazard and, in the same act, created a risk worth answering: that the same technology can be turned back on the biosphere as a weapon. The power that muffles the external channel is the power that opens the internal one. Dialing up technostrength therefore requires an increasingly explicit mechanism not merely for maintaining the biosphere but for maintaining it with stability, an internal hazard rate that is low and robustly low, and that requirement is what $\rho$ names. Technoanatomy is then the second half of the same observation: scale a civilization's reach to the whole galaxy while leaving its anatomy invariant, its grade of integration, its species-level self-awareness and initiative, its robust incentive against hostility, and the result is a galactic civilization that self-obliterates on the timescale of literal seconds, every capacity of the enlarged body available to every fracture of the unchanged one. The example the author has used is an ethics that counsels doing nothing while a continent of one's own species suffers, an ethics the author holds to be deeply immoral in its own right; the model's point is narrower and does not depend on that judgment. A civilization that cannot or will not protect one of its own continents has, in the model's terms, a profoundly poor anatomy, and scaling it to the size of the galaxy would be a spontaneous bloodied implosion rather than an expansion. That is why $\rho < 0$ is eating oneself, and why no magnitude of $x_t$ substitutes for its sign.
 
-\paragraph{The scalar as an idealization.} A single exponent $\rho$ is the first idealization of a structural-qualitative property, and the paper reads it so. A truer rendering would decompose technoanatomy into several scalars or a vector, the grade of integration, self-awareness and initiative, and hostility-avoidance incentive among its coordinates, as of a high-dimensional complex system, and would obtain the internal hazard rate as a function of that vector and of technostrength together. Two stepping-stone idealizations lie between the scalar and that rendering: an internal hazard written as a sum of several exponentials, one per coordinate, in place of a single one; and an imported constraint, whether through correlation among the coordinates or otherwise, giving the anatomy system a hard cutoff, a surface south of which the internal hazard inflates exponentially as a function of technostrength rather than declining with it. Every result below is stated for the scalar, and inherits the idealization; the sign result in particular is the statement that survives the decomposition, since a vector anatomy with any coordinate on the wrong side of its cutoff turns capacity against the biosphere along that coordinate, whatever the others do.
+\paragraph{The scalar as an idealization.} A single exponent $\rho$ is the first idealization of a structural-qualitative property, and the paper reads it so. A truer rendering would decompose technoanatomy into several scalars or a vector, the grade of integration, self-awareness and initiative, and hostility-avoidance incentive among its coordinates, as of a high-dimensional complex system, and would obtain the internal hazard rate as a function of that vector and of technostrength together. Two stepping-stone idealizations lie between the scalar and that rendering: an internal hazard written as a sum of several exponentials, one per coordinate, in place of a single one; and an imported constraint, whether through correlation among the coordinates or otherwise, giving the anatomy system a hard cutoff, a surface south of which the internal hazard inflates exponentially as a function of technostrength rather than declining with it. Every result below except those of \S\ref{gr:sub:reading}, which takes the first of the stepping stones, is stated for the scalar, and inherits the idealization; the sign result in particular is the statement that survives the decomposition, since a vector anatomy with any coordinate on the wrong side of its cutoff turns capacity against the biosphere along that coordinate, whatever the others do.
+% R997 (Fable 5.2, Nov 14 2026), at the author's direction: the paragraph excepts the new subsection from 'every result below is stated for the scalar'.
+% was: \paragraph{The scalar as an idealization.} A single exponent $\rho$ is the first idealization of a structural-qualitative property, and the paper reads it so. A truer rendering would decompose technoanatomy into several scalars or a vector, the grade of integration, self-awareness and initiative, and hostility-avoidance incentive among its coordinates, as of a high-dimensional complex system, and would obtain the internal hazard rate as a function of that vector and of technostrength together. Two stepping-stone idealizations lie between the scalar and that rendering: an internal hazard written as a sum of several exponentials, one per coordinate, in place of a single one; and an imported constraint, whether through correlation among the coordinates or otherwise, giving the anatomy system a hard cutoff, a surface south of which the internal hazard inflates exponentially as a function of technostrength rather than declining with it. Every result below is stated for the scalar, and inherits the idealization; the sign result in particular is the statement that survives the decomposition, since a vector anatomy with any coordinate on the wrong side of its cutoff turns capacity against the biosphere along that coordinate, whatever the others do.
 \emph{Adverse strength} is $x<0$; \emph{adverse anatomy} is $\rho<0$,
 and only the second is a defect.
 \end{definition}
@@ -544,6 +557,156 @@ Adverse \emph{strength} is therefore not a defect distinguishing some
 biospheres from others but a condition all of them occupy half of
 logarithmic time --- which is precisely why it cannot be what
 ``bad anatomy'' means, and why the two must be kept apart.
+
+\subsection{The anatomy read at a strength}\label{gr:sub:reading}
+
+The first stepping stone of Definition~\ref{gr:def:coords}, an internal
+hazard that is a sum of several exponentials, already changes what a
+single sign can be asked to carry. Let the internal hazard be borne by
+finitely many modes,
+\begin{equation}\label{gr:eq:modes}
+h^{\mathrm{int}}(x)=\sum_i\Gamma_i\,e^{-\rho_ix},\qquad\Gamma_i>0,
+\end{equation}
+each with its own response exponent, favorable where $\rho_i>0$ and
+adverse where $\rho_i<0$. The exponents and the amplitudes are the
+structure, and nothing in them depends on the strength.
+
+\begin{definition}[The reading]\label{gr:def:reading}
+The anatomy \emph{read at} strength $x$ is
+$\hat\rho(x):=-\partial_x\log h^{\mathrm{int}}(x)$, the quantity whose
+sign Definition~\ref{gr:def:coords} names, taken at the strength the
+biosphere has. For \eqref{gr:eq:modes} it is the mean of the $\rho_i$
+under the shares $w_i(x)=\Gamma_ie^{-\rho_ix}/h^{\mathrm{int}}(x)$ of the
+internal hazard that the modes carry at that strength.
+\end{definition}
+
+\begin{proposition}[The zero mark moves with technostrength; \textbf{[P]} given \eqref{gr:eq:modes}]\label{gr:prop:zeromark}
+\leavevmode
+\begin{enumerate}
+\item[(i)] \emph{The reading only falls.} $d\hat\rho/dx=-\Var_w(\rho)$,
+the variance of the exponents under the shares, so the reading is
+nonincreasing in the strength, strictly decreasing when two exponents
+differ, and tends to $\min_i\rho_i$. With
+$z(x)=\int_0^x\Var_w(\rho)\,dx'$ the structure reads favorable at
+strength $x$ exactly when $\hat\rho(0)>z(x)$: its reading at the base
+point is held against a mark that stands at zero there and rises with
+the strength.
+\item[(ii)] \emph{Two modes.} For $\rho_1>0>\rho_2$ and
+$\Delta=\rho_1+|\rho_2|$ the reading at $x$ is favorable exactly when
+\begin{equation}\label{gr:eq:zeromark}
+\frac{\Gamma_2}{\Gamma_1}<\frac{\rho_1}{|\rho_2|}\,e^{-\Delta x},
+\qquad\text{equivalently}\qquad
+\hat\rho(0)>Z(x):=\frac{\rho_1|\rho_2|\,(1-e^{-\Delta x})}{|\rho_2|+\rho_1e^{-\Delta x}} .
+\end{equation}
+The adverse amplitude a structure can carry while reading favorable
+falls exponentially in the strength at which it is read, and the mark
+$Z$, the same for every division of amplitude between the two modes,
+rises from $0$ at the base point to $\rho_1$. A structure with
+$0<\hat\rho(0)<\rho_1$ reads favorable below
+\begin{equation}\label{gr:eq:crossing}
+x^\ast=\frac1\Delta\log\frac{\rho_1\Gamma_1}{|\rho_2|\Gamma_2},
+\qquad
+\frac{\Gamma_2e^{|\rho_2|x}}{\Gamma_1e^{-\rho_1x}}=\frac{\rho_1}{|\rho_2|}\,e^{-\Delta(x^\ast-x)},
+\end{equation}
+and adverse above it. The hazard $h^{\mathrm{int}}$ is least at
+$x^\ast$, and the second relation is the adverse mode's hazard against
+the favorable mode's at strength $x$.
+\item[(iii)] \emph{A spread.} For a continuum of modes whose amplitudes
+are spread over the exponents with Gaussian weight of mean $\bar\rho$
+and variance $v$,
+$h^{\mathrm{int}}(x)=h^{\mathrm{int}}(0)\,e^{-\bar\rho x+vx^2/2}$ and
+$\hat\rho(x)=\bar\rho-vx$: the mark is $vx$, linear in the strength.
+\item[(iv)] \emph{Viability.} Theorem~\ref{imp:twocond} holds for
+\eqref{gr:eq:modes} with its anatomy factor replaced by
+$\one\{\min_i\rho_i>0\}$.
+\end{enumerate}
+\end{proposition}
+
+\begin{proof}
+The shares obey $\partial_xw_i=w_i(\hat\rho-\rho_i)$, so
+$d\hat\rho/dx=\hat\rho^{\,2}-\sum_iw_i\rho_i^2=-\Var_w(\rho)$, and the mode
+of least exponent comes to carry the whole hazard; that is (i). For
+(ii), $\hat\rho=\rho_1-\Delta w_2$, and $w_2/w_1$ grows as $e^{\Delta x}$
+from $\Gamma_2/\Gamma_1$; the reading is positive when
+$w_2<\rho_1/\Delta$, which is the first form, and putting the critical
+share into $\hat\rho(0)=\rho_1-\Delta w_2(0)$ gives the second. A sum of
+exponentials is log-convex, and
+$\partial_x\log h^{\mathrm{int}}=-\hat\rho$ vanishes at $x^\ast$. (iii) is
+the Gaussian moment generating function. For (iv), the cumulative
+hazard is the external channel's integral plus the sum of the modes'
+integrals $\Gamma_i\int_0^\infty e^{-\rho_ix_t}\,dt$, and is finite exactly
+when it is finite for each mode taken alone with the external channel.
+A mode with $\rho_i\le0$ makes that null by Theorem~\ref{imp:twocond};
+and for $\rho_i>0$ the companion's proof of that theorem
+\cite{GoldenSurvivorship} places it on an event of the driver that does
+not depend on the value of $\rho_i$, so the events coincide across the
+modes.
+\end{proof}
+
+With $\rho_1=0.3$, $\rho_2=-0.2$ and the adverse mode a thousandth of
+the favorable one at the base point, the reading is $+0.30$ there, zero
+at $x^\ast=14.6$, and $-0.18$ at $x=20$. At a millionth the crossing is
+at $28.4$. The crossing recedes by $\Delta^{-1}$ for each factor of $e$
+taken out of the adverse amplitude, which is logarithmic, so no
+reduction short of removal puts it out of the strength's reach. The
+mark of the pair stands at $0.062$ at $x=1$, $0.245$ at $x=5$ and
+$0.295$ at $x=10$, against a ceiling of $0.3$.
+
+Definition~\ref{gr:def:coords} calls technoanatomy a structural property
+that does not fluctuate, and for the sum that stands: the exponents and
+amplitudes are fixed, and the reading moves with the strength by no
+change of theirs. What the sum removes is the identification of a
+structure's anatomy with the sign read at the strength it happens to
+have. A structure with an adverse mode reads favorable wherever that
+mode's share is small, and the same structure, nothing in it altered,
+reads adverse past $x^\ast$. An anatomy good enough at one strength is
+held, by \eqref{gr:eq:zeromark}, to an exponentially tighter standard at
+a greater one. In the sign of the boundary-cost exponent
+$\alpha-\beta=-\rho$ of the broader Golden program, where the favorable
+side is the negative one, a structure that reads slightly below zero at
+a low strength reads above zero at a higher one.
+
+This is the square--cube law from the favorable side, the case
+Theorem~\ref{gr1:thm:squarecube} leaves out. That theorem takes a
+structure whose anatomy is adverse and scales its strength. Here the
+structure reads favorable at the strength it has, as an ant is sound at
+the size of an ant, and the reading belongs to the structure and the
+strength together, as the load a frame can bear belongs to its
+proportions and its size together. The theorem's bound holds throughout
+with the adverse mode's own constants, $\Gamma=\Gamma_2$ and
+$a=|\rho_2|$: below $x^\ast$ it is slack, and past $x^\ast$ it is the
+hazard.
+
+By (ii) the mode that decides is almost absent from what is read. At a
+strength below $x^\ast$ the reading is carried by modes that are being
+retired, and a favorable reading over a range of strengths bounds the
+adverse amplitude from above, by \eqref{gr:eq:zeromark} at the top of
+the range, without excluding it. The observation behind the two
+channels has this form: before anyone can redirect an asteroid, the
+turning of that capacity on the biosphere is a mode of the internal
+hazard with a negligible share, and its share grows with the strength
+that makes the capacity usable.
+
+Two standards follow, and they differ in kind. Over strengths bounded
+by some $x_{\max}$, a favorable reading throughout asks only that
+$x^\ast>x_{\max}$: a ceiling on the adverse amplitude, and not its
+absence. The viability event of Definition~\ref{imp:goldenpoint} sets no
+such bound, the external channel being driven to zero only as the
+strength grows without limit, and by (iv) it asks that no adverse mode
+remain. The sum has no way for one to cease, and the tree of hazard
+modes in the broader Golden program does: there a mode is individuated
+only by the records its own events leave, and an adverse mode whose content
+lies below a separatrix dissolves into the favorable mode above it and
+decays at that mode's rate, while above the separatrix it stays
+resolved and (ii) applies. On that program's worked tree an adverse
+mode started just above its separatrix gives a reading of $+0.80$ at
+the base point and a crossing at $x^\ast=14.5$; started just below, it
+gives the same $+0.80$ and no crossing, and the reading at a low
+strength does not tell the two apart. The sum takes its amplitudes as
+given at the base point; a law for them, and for whether an adverse
+mode of an actual biosphere can be brought below such a cutoff, is open
+\textbf{[O]}.
+% R997 (Fable 5.2, Nov 14 2026), at the author's direction: new subsection. His proposal of Nov 14: that the sum of hazards be read so that the zero mark of technoanatomy shifts with the scale of technostrength, an anatomy good enough at a low strength reading adverse at a higher one, as the square-cube analogy directly. Stated for a bare sum of modes, with the lane-tree numbers of the Golden master (its Table ln:tab:zeromark) quoted for the cutoff. His sign (negative favorable) is that of alpha - beta. The asteroid sentence is a reading of his two-channels paragraph in the sum's terms. Whether the Golden Point is met at a finite strength is not asserted either way.
 
 \subsection{What conditioning does to each coordinate}
 \label{gr:subsub:measured}
@@ -2455,6 +2618,11 @@ $e^{-\delta\Gamma e^{ab}}$ over $\delta$ gives the mean. $\square$
 elephant-sized ant is a structure scaled up at fixed anatomy. It concerns
 the genuine Departure Point and admits no escape, since the anatomy is held.
 
+\noindent Proposition~\ref{gr:prop:zeromark} is the companion case: a structure
+of several hazard modes whose anatomy reads favorable at the strength it
+has and, scaled with nothing in it altered, adverse past a crossing strength.
+% R997 (Fable 5.2, Nov 14 2026), at the author's direction: pointer from the Square-Cube Theorem to the proposition of the coordinates section.
+
 \begin{theorem}[The Upscaling Theorem; \textbf{[P]} given the model]
 \label{gr1:thm:upscaling}
 Let the strength satisfy $x_t\ge X>0$ from $t_0$ on, and let the anatomy,
@@ -2632,6 +2800,12 @@ The driver-viability factor is the accumulation of capacity, which energy
 capture does index, however crudely. The anatomy factor is not on the
 scale at all: $\rho$ does not appear in energy capture, is not
 monotone in it, and cannot be inferred from it.
+Nor would a second index, a reading of the internal channel taken at
+each rung, supply it: by Proposition~\ref{gr:prop:zeromark} the sign read
+at a rung is that of a hazard-weighted mean at that rung, and a
+structure with a small adverse mode shows it favorable on every rung
+below its crossing.
+% R997 (Fable 5.2, Nov 14 2026), at the author's direction: one sentence applying the proposition to the Kardashev objection (i).
 
 The objection is therefore not that the ladder has no top but that
 \emph{climbing it is neither necessary nor sufficient for reaching the
@@ -2690,6 +2864,20 @@ grabby model's arithmetic but with any normative or predictive reading
 of it that takes loudness for viability; Theorem~\ref{imp:ceiling} bounds
 what either conditioning can claim to certify.
 \end{remark}
+
+\paragraph{Dated rungs.} Forecasts of when the scale's rungs are reached
+fare no better. Trend extrapolations of energy use place Type~I status
+between 2333 and 2404 \cite{Jiang22}, but what they date is the crossing
+of a threshold by a variable that tracks at most the driver-viability
+factor of Theorem~\ref{imp:twocond}, and such a date says nothing about
+viability. Amara's law, the adage that the effect of a technology is
+overestimated in the short run and underestimated in the long run, is a
+claim about the bias of forecasts: it can say in which direction a
+forecast is likely to err and never by how much, and no century follows
+from it. The broader Golden program sorts timing inferences by what
+licenses them and holds its one dated expectation, that the Golden Point
+precedes such forecasts, as a conjecture outside its argument.
+% R1002 (Opus 5.5, Nov 14 2026), at the author's direction: a paragraph closing the Kardashev subsection, his request of Nov 14 (write in general about inferences for timing predictions in the long Golden paper, and a mention in the extractions), following his question whether the Amara's-law inference is in the new papers.
 
 \subsection{The violent-aliens thesis}\label{gr:subsub:violence}
 
@@ -3196,6 +3384,10 @@ practice can be assigned the favorable sign by preference, and which
 practices enter $\rho$'s dynamics, and with what sign, is a case of
 the attainable identification task the conclusion separates from
 certification, specified here and not run.
+The amplitudes of the hazard modes of \S\ref{gr:sub:reading} are taken
+as given at the base point; a law for them, and for whether an adverse
+mode can be brought below a cutoff of the tree's kind, is open.
+% R997 (Fable 5.2, Nov 14 2026), at the author's direction: the [O] of the new subsection gathered here, as the section's first sentence requires.
 % R928 (Fable 5.1, Nov 07 2026), at the author's direction: the referee's extension of Nov 7 (cultural practice as part of the mechanism under examination, with the caution that no favored practice can simply be labeled favorable anatomy) entered as an open problem at the identification grade; AUTHOR TO CONFIRM.
 % was: is shown to have decomposed.
 
