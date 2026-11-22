@@ -22,7 +22,7 @@
   ],
   "theropods_median_band": [
    0.14047039138356726,
-   0.205116791523848
+   0.20511679152384807
   ]
  },
  "dark_era_table": [
@@ -30,7 +30,7 @@
    "weight_kg": 0.02,
    "theropod_median": 0.00092922592374152,
    "theropod_band_low": 0.0007689765679280301,
-   "theropod_band_high": 0.0011228701281234539,
+   "theropod_band_high": 0.001122870128123454,
    "mammal": 0.0003515656524735473,
    "ratio": 2.6431078155777388,
    "context": "Mouse-sized"
@@ -39,7 +39,7 @@
    "weight_kg": 0.1,
    "theropod_median": 0.007917559683219217,
    "theropod_band_low": 0.0065521394916020995,
-   "theropod_band_high": 0.0095675239237024,
+   "theropod_band_high": 0.009567523923702402,
    "mammal": 0.0030921825639953922,
    "ratio": 2.5605084820700177,
    "context": "Rat-sized illustrative mammal"
@@ -57,7 +57,7 @@
    "weight_kg": 15,
    "theropod_median": 6.243205599123052,
    "theropod_band_low": 5.166535598955321,
-   "theropod_band_high": 7.544246121289233,
+   "theropod_band_high": 7.544246121289234,
    "mammal": 2.691593159438546,
    "ratio": 2.3195205327484767,
    "context": "Fox-sized (Velociraptor)"
@@ -66,7 +66,7 @@
    "weight_kg": 75,
    "theropod_median": 53.19583933542431,
    "theropod_band_low": 44.02196808661602,
-   "theropod_band_high": 64.28148139657159,
+   "theropod_band_high": 64.2814813965716,
    "mammal": 23.673807092435965,
    "ratio": 2.247033572915315,
    "context": "Human-sized (Deinonychus)"
@@ -75,7 +75,7 @@
    "weight_kg": 250,
    "theropod_median": 264.20115883301696,
    "theropod_band_low": 218.63843352968638,
-   "theropod_band_high": 319.258838447685,
+   "theropod_band_high": 319.25883844768504,
    "mammal": 120.40375874164208,
    "ratio": 2.1942932811585227,
    "context": "Lion-sized (Dakotaraptor)"
@@ -84,7 +84,7 @@
    "weight_kg": 500,
    "theropod_median": 664.7622474373621,
    "theropod_band_low": 550.1208892926903,
-   "theropod_band_high": 803.2940653937906,
+   "theropod_band_high": 803.2940653937907,
    "mammal": 307.1214338963106,
    "ratio": 2.1644931745851292,
    "context": "Bear-sized (Utahraptor)"
