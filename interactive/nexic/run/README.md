@@ -2,6 +2,8 @@
 
 Everything needed to go from the Carnivora.net Interspecific Conflict Directory to the numbers in *Dinosaur Recalibration* (revised October 2026) and on the interactive pages.
 
+**End result: `../final_scores.csv`**, in the nexic folder beside the paper. It holds every animal's score from the coupled model (last section): its crowd score once the entries that name one animal are pooled, its anatomy-corrected score, and error bars on both. `outputs/bt_scores_african_lion_100.csv` is the paper's own version, before the pooling; it stays as it is because the paper cites it.
+
 | step | file | does | writes |
 |---|---|---|---|
 | 1 | `1_link_scraper.py` | collects the matchup thread links (original scraper) | `versus_links.txt` |
@@ -25,9 +27,11 @@ python3 6_curve_fit.py
 python3 7_cultural_inflation.py duels.csv
 ```
 
+`python3 run_3_to_7.py` runs the same five steps in order, from any folder.
+
 Steps 3–7 run offline and take about a minute each. `verify_bradley_terry.py` (optional; needs scikit-learn) checks that step 3's objective is the Bradley–Terry likelihood, that its solution satisfies the Bradley–Terry score equations, and that an independent solver reproduces it. Steps 1–2 re-scrape the forum and need the internet. The forum's polls keep changing, so a fresh scrape will not reproduce `duels.csv` exactly.
 
-## The main output: `outputs/bt_scores_african_lion_100.csv`
+## The paper's output: `outputs/bt_scores_african_lion_100.csv`
 
 | column | meaning |
 |---|---|
@@ -60,24 +64,24 @@ The earlier processing scripts (`3_power_assembler.py`, `4_categorizer.py`, `5_r
 
 ## Category graph, merged and coupled fits, error bars (added November 2026)
 
-Two new scripts, run after steps 3–6. They leave the files above unchanged: `coupled_fit.py` imports steps 3–6 and its own copy of step 3's preprocessing reproduces step 3's scores exactly.
+Two new scripts. They leave the files above unchanged: `coupled_fit.py` imports the code of steps 3–6 and refits from `duels.csv` itself, so it does not need their outputs, and its own copy of step 3's preprocessing reproduces step 3's scores exactly.
 
 | file | does | writes |
 |---|---|---|
 | `category_graph.py` | links entries that name one animal: populations and subspecies under their species (taxon trees, nested: *West African Lion → African Lion → Lion*) and female or male forms to their base (*Lioness → Lion*, *Human (male) → Human*) | `category_graph.csv` (every candidate link with status, how it was found, reason), `category_graph.txt` (readable trees) |
-| `coupled_fit.py` | refits under the graph, puts error bars on every score, and reruns the anatomy factor and weight–score analysis for each fit | `outputs/graph/` |
+| `coupled_fit.py` | refits under the graph, puts error bars on every score, and reruns the anatomy factor and weight–score analysis for each fit | `../final_scores.csv` (the end result), `outputs/graph/` |
 
 ```
 python3 category_graph.py
-python3 coupled_fit.py duels.csv      # under a minute
+python3 coupled_fit.py duels.csv      # writes ../final_scores.csv; under a minute
 ```
 
 **The graph.** Taxon links come from names (a qualifier plus another entry's name, or a bracketed population such as *African Leopard (Congo)*) and from a short hand list of subspecies whose names hide the species (*Kodiak Bear → Brown Bear*, the grey wolf subspecies → *Grey Wolf*). They are vetted by step 7's rule: living populations or subspecies of the species the parent names. Other species, extinct and fossil forms and settings are cut, each with its reason. Sex links use plain sex qualifiers only; groups are left to step 3's pseudo-matchups. To switch a link on or off, flip `status` in `category_graph.csv` (rerunning `category_graph.py` rebuilds it from the tables in the script).
 
-**Three fits** (`scores_original.csv`, `scores_merge.csv`, `scores_coupled.csv`):
-- *original*: the paper's fit, now with error bars.
-- *merge* (variant A): each taxon tree becomes one animal named by its top entry; duels inside a tree are dropped.
-- *coupled* (variant B): every entry keeps its own score; each category gets a stand-in, a latent score tied to its members by a normal coupling (SD `tau_taxon`); each sex form is tied to its base around a common offset (SD `tau_sex`). The couplings and offsets are estimated from the votes by empirical Bayes. A broad name's row reports its stand-in, and its own entry's score is in `entry_score`.
+**Three fits**, written in the same layout:
+- *original* (`outputs/graph/scores_original.csv`): the paper's fit, now with error bars.
+- *merge*, variant A (`outputs/graph/scores_merge.csv`): each taxon tree becomes one animal named by its top entry; duels inside a tree are dropped.
+- *coupled*, variant B (`../final_scores.csv`, the end result): every entry keeps its own score; each category gets a stand-in, a latent score tied to its members by a normal coupling (SD `tau_taxon`); each sex form is tied to its base around a common offset (SD `tau_sex`). The couplings and offsets are estimated from the votes by empirical Bayes. A broad name's row reports its stand-in, which sits at the geometric mean of its members (the Lion row is the geometric mean of the generic Lion entry, the African Lion category and the Asiatic Lion), and its own entry's score is in `entry_score`.
 
 Each fit is on its own lion scale: the row holding the African Lion's votes reads 100.
 

@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """Category-graph models with error bars (new): the merge (variant A) and the coupled model (variant B).
 
-Usage:  python3 coupled_fit.py [duels.csv]          reads category_graph.csv  ->  outputs/graph/
+Usage:  python3 coupled_fit.py [duels.csv]          reads category_graph.csv  ->  ../final_scores.csv, outputs/graph/
+
+The end result is ../final_scores.csv, in the nexic folder beside the paper: variant B's scores. outputs/graph/ holds the
+paper's fit and variant A in the same layout, for comparison, with categories.csv and summary.json.
 
 Step 3 places every entry by its own votes, so a broad name such as "Tiger" and its sub-categories such as
 "Bengal Tiger" are fitted apart. Two variants use the category graph of category_graph.py:
@@ -41,7 +44,7 @@ def _load(name, file):
 bt, c4, c5, c6 = _load('bt', '3_bt_fit.py'), _load('c4', '4_categorize.py'), _load('c5', '5_rescale_dinos.py'), _load('c6', '6_curve_fit.py')
 LEVELS = (5, 16, 50, 84, 95); Z = stats.norm.ppf(np.array(LEVELS) / 100)
 N_DRAWS, SEED, S0 = 5000, 2026, 1.0            # joint draws; prior SD of the two sex offsets (log scale)
-OUT = 'outputs/graph'
+OUT, FINAL = 'outputs/graph', os.path.join('..', 'final_scores.csv')    # FINAL: the end result, in the nexic folder
 HEADLINE = ['Tyrannosaurus rex', 'Utahraptor ostrommaysorum', 'Dakotaraptor steini', 'Deinonychus antirrhopus', 'Velociraptor mongoliensis',
             'Mosasaurus hoffmannii', 'Lion', 'African Lion', 'Tiger', 'Bengal Tiger', 'Siberian Tiger', 'Leopard', 'Jaguar', 'Brown Bear',
             'Grizzly Bear', 'Grey Wolf', 'Human']
@@ -345,7 +348,7 @@ def main(path):
                               rank_p05=E['rank'][:, 0], rank_p50=E['rank'][:, 1], rank_p95=E['rank'][:, 2], real_matchups=F['matchups'], real_votes=F['votes'],
                               entry_score=100 * np.exp(F['entry_theta'] + offset), members=['; '.join(F['members'][r]) if len(F['members'][r]) > 1 else '' for r in F['rows']]))
         t = t.sort_values('median_score', ascending=False); t.insert(0, 'rank', range(1, len(t) + 1)); tables[F['label']] = t
-        t.to_csv(f"{OUT}/scores_{F['label']}.csv", index=False, float_format='%.6g')
+        t.to_csv(FINAL if F is b else f"{OUT}/scores_{F['label']}.csv", index=False, float_format='%.6g')
         v = dict(fit=F['summary'], anchor=F['anchor'], scale_slope_vs_paper=slope, anatomy_model=model, anatomy_model_alt_anchor=alt, alt_anchor=F['alt_anchor'],
                  ladder_redrawn=E['ladder'], weight_score=W)
         v['headline'] = {r['animal']: {k: (float(r[k]) if not isinstance(r[k], str) else r[k]) for k in ['score', 'crowd_p05', 'crowd_p95', 'median_score', 'joint_p05', 'joint_p95',
@@ -373,7 +376,7 @@ def main(path):
     summary['ridge_sensitivity_paper_fit'] = sens
     print('ridge sensitivity (paper fit): ' + '; '.join(f"lambda {k}: T. rex {v['Tyrannosaurus rex']:.0f}, Human {v['Human']:.2f}, F {v['anatomy_median']:.2f}" for k, v in sens.items()))
     json.dump(summary, open(f'{OUT}/summary.json', 'w'), indent=1, default=float)
-    print(f'wrote {OUT}/scores_original.csv, scores_merge.csv, scores_coupled.csv, categories.csv, summary.json')
+    print(f'wrote {os.path.abspath(FINAL)} (the end result) and {OUT}/scores_original.csv, scores_merge.csv, categories.csv, summary.json')
 
 
 if __name__ == '__main__':

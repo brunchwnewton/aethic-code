@@ -7,7 +7,10 @@
 # ...but still look inside folders, so the files below can be found
 !*/
 
-# !/.gitignore
+!/.gitignore
+
+# the end result: every animal's final scores with error bars (written by run/coupled_fit.py)
+!/final_scores.csv
 
 # the paper, its source and the interactive pages
 !/dark_era_score_analysis.tex
@@ -59,5 +62,4 @@
 !/run/outputs/graph/categories.csv
 !/run/outputs/graph/scores_original.csv
 !/run/outputs/graph/scores_merge.csv
-!/run/outputs/graph/scores_coupled.csv
 !/run/outputs/graph/summary.json
