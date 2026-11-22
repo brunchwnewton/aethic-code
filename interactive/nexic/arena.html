@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gladiators against a Raptor</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=JetBrains+Mono:wght@400;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+<style>
+  /* Layout: the arena on the left, the bout and its odds on the right; one column on a phone. Single dark theme, as on the paper's other pages. */
+  :root{color-scheme:dark;--bg:#08080a;--surface:#111114;--surface2:#19191e;--border:#2a2a30;--text:#d4d4d8;--text-dim:#8b8b94;--text-faint:#52525b;
+    --dino:#ef4444;--dino-text:#fca5a5;--men:#e7dcc3;--bench:#eab308;--sand:#b08d5c;
+    --display:'Playfair Display',Georgia,serif;--body:'DM Sans',system-ui,-apple-system,'Segoe UI',sans-serif;--mono:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace}
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:var(--bg);color:var(--text);font-family:var(--body);-webkit-font-smoothing:antialiased}
+  body{overflow-x:hidden}
+  .wrap{max-width:1180px;margin:0 auto;padding:28px 20px 48px;display:flex;flex-direction:column;gap:20px}
+  header h1{font-family:var(--display);font-size:clamp(26px,4vw,38px);line-height:1.1;text-wrap:balance}
+  header h1 em{color:var(--dino);font-style:italic}
+  header p{color:var(--text-dim);font-size:15px;line-height:1.5;max-width:66ch;margin-top:8px}
+  .stage{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(300px,1fr);gap:20px;align-items:start}
+  @media (max-width:900px){.stage{grid-template-columns:minmax(0,1fr)}}
+  .arena{background:var(--surface);border:1px solid var(--border);border-radius:10px;overflow:hidden}
+  canvas{display:block;width:100%;height:auto}
+  .bar{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;padding:10px 12px;border-top:1px solid var(--border);font-size:13px;color:var(--text-dim)}
+  .bar label{display:flex;align-items:center;gap:6px}
+  .panel{display:flex;flex-direction:column;gap:14px}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:10px}
+  .card h2{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-dim);font-weight:700}
+  .field{display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--text-dim)}
+  .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  select,input[type=number]{background:var(--surface2);color:var(--text);border:1px solid var(--border);border-radius:6px;padding:7px 8px;font:inherit;font-size:14px;width:100%}
+  input[type=number]{width:72px;font-family:var(--mono)}
+  input[type=range]{flex:1;min-width:90px;accent-color:var(--dino)}
+  input[type=checkbox],input[type=radio]{accent-color:var(--dino)}
+  .seg{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--border);border-radius:6px;overflow:hidden}
+  .seg label{padding:8px 6px;text-align:center;font-size:13px;color:var(--text-dim);cursor:pointer;background:var(--surface2);line-height:1.25}
+  .seg input{position:absolute;opacity:0}
+  .seg input:checked+span{color:var(--text);font-weight:700}
+  .seg label:has(input:checked){background:#2a1416;box-shadow:inset 0 -2px 0 var(--dino)}
+  .seg label:has(input:disabled){opacity:.45;cursor:default}
+  .seg label:has(input:focus-visible),button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--bench);outline-offset:1px}
+  button{font:inherit;font-size:14px;font-weight:700;border-radius:6px;padding:9px 12px;border:1px solid var(--border);background:var(--surface2);color:var(--text);cursor:pointer}
+  button.go{background:var(--dino);border-color:var(--dino);color:#160404}
+  button:hover{filter:brightness(1.12)}
+  .big{font-family:var(--mono);font-weight:600;font-size:34px;color:var(--text);font-variant-numeric:tabular-nums;line-height:1}
+  .big small{font-size:12px;color:var(--text-dim);font-family:var(--body);font-weight:400;margin-left:8px}
+  .note{font-size:12.5px;color:var(--text-dim);line-height:1.5}
+  .note b{color:var(--text);font-weight:500}
+  .bars{display:grid;grid-template-columns:auto 1fr auto;gap:6px 8px;align-items:center;font-size:12px}
+  .bars .lab{color:var(--text-dim);white-space:nowrap}
+  .bars .val{font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right;color:var(--text)}
+  .track{position:relative;height:12px;background:var(--surface2);border-radius:3px;min-width:60px}
+  .fill{position:absolute;left:0;top:0;bottom:0;border-radius:3px}
+  .whisk{position:absolute;top:5px;height:2px;background:#fff8;border-radius:1px}
+  .off{opacity:.38}
+  .tally{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+  .tally div{background:var(--surface2);border-radius:6px;padding:8px}
+  .tally b{display:block;font-family:var(--mono);font-size:18px;font-variant-numeric:tabular-nums;color:var(--text)}
+  .tally span{font-size:11px;color:var(--text-dim)}
+  .notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+  .notes .card p{font-size:13.5px;line-height:1.55;color:var(--text-dim)}
+  .notes .card p b{color:var(--text);font-weight:500}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Gladiators against a <em>raptor</em></h1>
+    <p>How many trained fighters does it take? The odds of every bout come from the scores of the Dinosaur Recalibration fit. Switch the animal between the score the crowd voted and the anatomy-corrected score, and watch what the correction means on the sand.</p>
+  </header>
+  <div class="stage">
+    <div class="arena">
+      <canvas id="cv" width="1200" height="820" role="img" aria-label="Top-down view of the arena with the fighters and the animal"></canvas>
+      <div class="bar">
+        <button class="go" id="fight" type="button">New bout</button>
+        <label><input type="checkbox" id="auto" checked> Keep fighting</label>
+        <label>Speed <input type="range" id="speed" min="0.25" max="4" step="0.25" value="1" style="width:110px"></label>
+        <span id="status" aria-live="polite"></span>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="card">
+        <h2>The bout</h2>
+        <div class="field"><label for="who">Fighters</label><select id="who"></select></div>
+        <div class="field"><label for="n">How many</label><div class="row"><input type="range" id="nr" min="1" max="40" value="5" aria-label="How many fighters"><input type="number" id="n" min="1" max="40" value="5"></div></div>
+        <div class="field"><label for="opp">Animal</label><select id="opp"></select></div>
+        <div class="field"><span>Animal's strength</span>
+          <div class="seg"><label><input type="radio" name="basis" id="b_crowd" value="crowd"><span>as the crowd voted</span></label><label><input type="radio" name="basis" id="b_corr" value="corr" checked><span>anatomy-corrected</span></label></div></div>
+        <div class="field"><label for="kmode">How numbers add up</label><select id="kmode"></select></div>
+        <label class="row note"><input type="checkbox" id="unc"> Draw each bout from the uncertainty bands</label>
+      </div>
+      <div class="card">
+        <h2>The odds</h2>
+        <div class="big"><span id="p">–</span><small id="plab">fighters win</small></div>
+        <div class="bars" id="bars"></div>
+        <p class="note" id="even"></p>
+      </div>
+      <div class="card">
+        <h2>The tally</h2>
+        <div class="tally"><div><b id="t_n">0</b><span>bouts</span></div><div><b id="t_w">–</b><span>won by the fighters</span></div><div><b id="t_d">–</b><span>the model's share</span></div></div>
+        <div class="row"><button id="batch" type="button">Run 1,000 bouts</button><button id="reset" type="button">Clear</button></div>
+      </div>
+    </div>
+  </div>
+  <div class="notes">
+    <div class="card"><h2>What is measured</h2><p>The scores are Bradley–Terry strengths fitted to public votes on animal matchups, <b>African Lion = 100</b>. A bout's odds are the vote share S<sub>fighters</sub> / (S<sub>fighters</sub> + S<sub>animal</sub>). The untrained man, the spear's premium and the way groups add up are read from those votes. The anatomy correction multiplies a dinosaur's crowd score by the paper's factor.</p></div>
+    <div class="card"><h2>What is judgment</h2><p>Skill, armour, the weapons other than spear and club, and how much of a duellist's skill carries over against an animal are estimates with wide bands, set in step 8 of the pipeline. Tick the uncertainty box and each bout draws the fighter, the animal and the group exponent from their bands.</p></div>
+    <div class="card"><h2>What is staging</h2><p>The winner of each bout is drawn with the model's share, and the exchanges are then choreographed to that result: a favoured side usually wins cleanly, an unfavoured one narrowly. The fighters count as beaten when half of them are down. Who is struck, and how many fall, come from that staging and not from data. A vote share is not a casualty forecast.</p></div>
+  </div>
+</div>
+<script>
+/*DATA*/const DATA = {"k":1.4419766991887197,"k_sd":0.15,"fighters":[{"name":"Knight on foot, poleaxe, full plate","mu":5.188933711447918,"sd":0.7099407471477331,"weapon":"pike or polearm","armour":"full plate","mass":78},{"name":"Venator, champion, hunting spear","mu":4.978570529415537,"sd":0.6232166174881913,"weapon":"spear","armour":"none","mass":80},{"name":"Greek hoplite, dory and aspis","mu":4.857374799815629,"sd":0.6191605783301406,"weapon":"spear + shield","armour":"mail or plates with helmet","mass":68},{"name":"Knight on foot, longsword, full plate","mu":4.590916136409775,"sd":0.7113748988198069,"weapon":"two-handed sword","armour":"full plate","mass":78},{"name":"Gladiator, hoplomachus","mu":4.5737446028622495,"sd":0.5857337236763454,"weapon":"spear + small shield","armour":"helmet and guards","mass":76},{"name":"Venator (arena hunter), hunting spear","mu":4.55496136024712,"sd":0.5469212908301806,"weapon":"spear","armour":"none","mass":74},{"name":"Swiss pikeman","mu":4.520903904970413,"sd":0.639428139466365,"weapon":"pike or polearm","armour":"helmet and guards","mass":70},{"name":"Gladiator, champion murmillo, 90 kg","mu":4.465561644874326,"sd":0.6318118461414362,"weapon":"sword + large shield","armour":"helmet and guards","mass":90},{"name":"Viking, axe and shield","mu":4.386988161913999,"sd":0.6429618605873872,"weapon":"axe + shield","armour":"mail or plates with helmet","mass":78},{"name":"Roman legionary, gladius and scutum","mu":4.3529679616275185,"sd":0.617789606378256,"weapon":"sword + large shield","armour":"mail or plates with helmet","mass":68},{"name":"Zulu warrior, iklwa and shield","mu":4.2198881308874725,"sd":0.5937401734871444,"weapon":"short stabbing spear + shield","armour":"none","mass":70},{"name":"Gladiator, murmillo","mu":4.188103645736081,"sd":0.5826369676725524,"weapon":"sword + large shield","armour":"helmet and guards","mass":78},{"name":"Samurai, katana","mu":4.105332372755772,"sd":0.6742059578742737,"weapon":"two-handed sword","armour":"mail or plates with helmet","mass":62},{"name":"Gladiator, retiarius","mu":4.094518356720467,"sd":0.6317086856259762,"weapon":"trident + net","armour":"arm and shoulder guard","mass":72},{"name":"Gladiator, thraex","mu":4.027949845375723,"sd":0.5832191989679464,"weapon":"sword + small shield","armour":"helmet and guards","mass":76},{"name":"Maasai warrior, spear and shield","mu":4.007105869115018,"sd":0.5034499796328751,"weapon":"spear + shield","armour":"none","mass":68},{"name":"Gladiator, novice murmillo","mu":3.7781269850272654,"sd":0.5222258451586269,"weapon":"sword + large shield","armour":"helmet and guards","mass":76},{"name":"Hunter with a spear","mu":3.707977955335295,"sd":0.4002447293570743,"weapon":"spear","armour":"none","mass":68},{"name":"Martial artist with a staff","mu":3.2483165748812493,"sd":0.6205175044077658,"weapon":"staff","armour":"none","mass":72},{"name":"Untrained man with a spear","mu":3.04925429718819,"sd":0.4189786284181777,"weapon":"spear","armour":"none","mass":70},{"name":"Martial artist with a knife","mu":2.9448113082035645,"sd":0.6239247698971384,"weapon":"knife","armour":"none","mass":72},{"name":"Professional MMA fighter, 120 kg","mu":2.8471434118600163,"sd":0.3171653035893821,"weapon":"none","armour":"none","mass":120},{"name":"Elite heavyweight champion, 110 kg","mu":2.82744122017061,"sd":0.3656715278844835,"weapon":"none","armour":"none","mass":110},{"name":"Untrained man with a knife","mu":2.275909210198848,"sd":0.4249710386925097,"weapon":"knife","armour":"none","mass":70},{"name":"Professional MMA fighter, 77 kg","mu":2.2709466435720014,"sd":0.30707884873799496,"weapon":"none","armour":"none","mass":77},{"name":"Untrained man with a club","mu":2.195138572996421,"sd":0.748075963496728,"weapon":"club","armour":"none","mass":70},{"name":"Amateur boxer, 75 kg","mu":2.1065225785888657,"sd":0.24813998322492714,"weapon":"none","armour":"none","mass":75},{"name":"Untrained man","mu":1.8639596020708034,"sd":0.21449951511503537,"weapon":"none","armour":"none","mass":70},{"name":"Professional woman fighter, 61 kg","mu":1.5046552531153776,"sd":0.487337455700164,"weapon":"none","armour":"none","mass":61},{"name":"Untrained woman","mu":1.1415686312483158,"sd":0.4314365289904519,"weapon":"none","armour":"none","mass":58}],"opponents":[{"name":"African Lion","kg":185,"length":2.6,"shape":"cat","crowd_mu":4.605170185988092,"crowd_sd":0.362743,"corr_mu":4.604379873773648,"corr_sd":0.3714099829576232,"dino":false},{"name":"Brown Bear","kg":300,"length":2.3,"shape":"bear","crowd_mu":4.820483158187113,"crowd_sd":0.195102,"corr_mu":4.82354237242341,"corr_sd":0.19837605071031653,"dino":false},{"name":"Deinonychus antirrhopus","kg":73,"length":3.3,"shape":"raptor","crowd_mu":3.5241168329508876,"crowd_sd":0.163347,"corr_mu":4.718320283920748,"corr_sd":0.5885161225221065,"dino":true},{"name":"Dakotaraptor steini","kg":250,"length":5.5,"shape":"raptor","crowd_mu":5.329462288876575,"crowd_sd":0.341473,"corr_mu":6.523472727981854,"corr_sd":0.6110768343800543,"dino":true},{"name":"Utahraptor ostrommaysorum","kg":500,"length":6.0,"shape":"raptor","crowd_mu":5.6554217182780455,"crowd_sd":0.177424,"corr_mu":6.850944686998094,"corr_sd":0.5918578805146181,"dino":true},{"name":"Tyrannosaurus rex","kg":8000,"length":12.3,"shape":"rex","crowd_mu":9.258053766160643,"crowd_sd":0.295197,"corr_mu":10.474695886507359,"corr_sd":0.6468817889790325,"dino":true}]};/*END DATA*/
+
+// ---------- the model (pure functions) ----------
+const KMODES = [['crowd', 'as the crowd\'s own groups do (n^' + (DATA ? DATA.k.toFixed(2) : '?') + ')'], ['1', 'in proportion (n^1)'], ['0.7', 'as step 3 of the pipeline assumes (n^0.7)']];
+function gauss() { let u = 0, v = 0; while (!u) u = Math.random(); while (!v) v = Math.random(); return Math.sqrt(-2 * Math.log(u)) * Math.cos(6.283185307 * v); }
+function woundsFor(kg) { return Math.max(3, Math.round(2.2 * Math.log10(kg) + 1)); }
+function kOf(mode, draw) { return mode === 'crowd' ? (draw ? Math.min(2.5, Math.max(0.5, DATA.k + DATA.k_sd * gauss())) : DATA.k) : +mode; }
+function share(f, o, n, basis, mode, draw) {
+  const lf = f.mu + (draw ? f.sd * gauss() : 0), lo = (basis === 'corr' ? o.corr_mu : o.crowd_mu) + (draw ? (basis === 'corr' ? o.corr_sd : o.crowd_sd) * gauss() : 0);
+  const r = Math.exp(kOf(mode, draw) * Math.log(n) + lf - lo); return r / (1 + r);
+}
+// The winner of a bout is drawn with the model's share; the exchanges are then choreographed to that result. A favoured side
+// usually wins cleanly, an unfavoured one narrowly. The fighters are beaten when half of them are down.
+function script(P, H, n) {
+  const win = Math.random() < P, a = Math.min(8, Math.max(0.4, P / (1 - P))), D = Math.ceil(n / 2);
+  if (!win) return { win, D, list: null, left: Math.min(H - 1, Math.floor(Math.pow(Math.random(), 1 / a) * H)) };
+  const list = Array(H - 1).fill('A').concat(Array(Math.floor(Math.pow(Math.random(), a) * 1.5 * D)).fill('M'));
+  for (let i = list.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [list[i], list[j]] = [list[j], list[i]]; }
+  list.push('A'); return { win, D, list, left: 0 };
+}
+if (typeof module !== 'undefined') module.exports = { script, woundsFor, share };
+
+// ---------- the page ----------
+if (typeof document !== 'undefined' && DATA) (function () {
+  const $ = id => document.getElementById(id), cv = $('cv'), ctx = cv.getContext('2d');
+  const W = 36, Hh = 24.6, AX = 15, AY = 10, PX = cv.width / W;       // metres: view, arena half-axes
+  const short = s => s === 'Tyrannosaurus rex' ? 'T. rex' : /Lion|Bear/.test(s) ? s : s.split(' ')[0];
+  const fmt = v => v >= 1000 ? Math.round(v).toLocaleString('en-US') : v >= 100 ? v.toFixed(0) : v >= 10 ? v.toFixed(1) : v.toFixed(2);
+  const pct = p => p < 0.005 ? '<1%' : p > 0.995 ? '>99%' : Math.round(p * 100) + '%';
+  const S = { f: 0, o: 0, n: 5, basis: 'corr', mode: 'crowd', unc: false, p: 0 }, T = { n: 0, w: 0 };
+  let B = null, last = 0;
+  DATA.fighters.forEach((f, i) => $('who').add(new Option(f.name + '  ·  ' + fmt(Math.exp(f.mu)), i)));
+  DATA.opponents.forEach((o, i) => $('opp').add(new Option(short(o.name) + '  ·  ' + o.kg.toLocaleString('en-US') + ' kg', i)));
+  KMODES.forEach(([v, t]) => $('kmode').add(new Option(t, v)));
+  S.f = Math.max(0, DATA.fighters.findIndex(f => f.name === 'Gladiator, murmillo')); S.o = Math.max(0, DATA.opponents.findIndex(o => /Utahraptor/.test(o.name)));
+  $('who').value = S.f; $('opp').value = S.o;
+  const F = () => DATA.fighters[S.f], O = () => DATA.opponents[S.o], basis = () => O().dino ? S.basis : 'crowd';
+
+  function expected() { let s = 0; for (let i = 0; i < 4000; i++) s += share(F(), O(), S.n, basis(), S.mode, true); return s / 4000; }
+  function odds() {
+    const f = F(), o = O(), k = kOf(S.mode, false), p = S.unc ? expected() : share(f, o, S.n, basis(), S.mode, false);
+    S.p = p; $('p').textContent = pct(p); $('plab').textContent = (S.n === 1 ? 'the fighter wins' : 'the fighters win') + (S.unc ? ', averaged over the bands' : '');
+    const sf = Math.exp(f.mu), sn = sf * Math.pow(S.n, k), rows = [['One fighter', sf, '--men', null, false], [S.n + (S.n === 1 ? ' fighter' : ' fighters'), sn, '--men', [f.sd, sn], false],
+      [short(o.name) + (o.dino ? ', crowd' : ''), Math.exp(o.crowd_mu), '--dino', [o.crowd_sd, Math.exp(o.crowd_mu)], basis() !== 'crowd']];
+    if (o.dino) rows.push([short(o.name) + ', corrected', Math.exp(o.corr_mu), '--dino', [o.corr_sd, Math.exp(o.corr_mu)], basis() !== 'corr']);
+    if (o.name !== 'African Lion') rows.push(['African Lion', 100, '--bench', null, false]);
+    const x = v => Math.max(0, Math.min(100, Math.log10(Math.max(v, 1)) / 5.3 * 100));
+    $('bars').innerHTML = rows.map(([lab, v, col, band, off]) => `<span class="lab${off ? ' off' : ''}">${lab}</span><span class="track${off ? ' off' : ''}"><span class="fill" style="width:${x(v)}%;background:var(${col})"></span>` +
+      (band ? `<span class="whisk" style="left:${x(band[1] * Math.exp(-1.645 * band[0]))}%;width:${x(band[1] * Math.exp(1.645 * band[0])) - x(band[1] * Math.exp(-1.645 * band[0]))}%"></span>` : '') +
+      `</span><span class="val${off ? ' off' : ''}">${fmt(v)}</span>`).join('');
+    const ne = b => Math.exp(((b === 'corr' ? o.corr_mu : o.crowd_mu) - f.mu) / k), one = v => v < 1 ? 'one is already favoured' : 'about <b>' + (v < 10 ? v.toFixed(1) : Math.round(v)) + '</b>';
+    $('even').innerHTML = o.dino ? `Fighters for an even bout: ${one(ne('crowd'))} against the ${short(o.name)} the crowd voted, ${one(ne('corr'))} against the anatomy-corrected one. Bars are on a log scale; the thin line is the 90% band.`
+      : `Fighters for an even bout: ${one(ne('crowd'))}. Bars are on a log scale; the thin line is the 90% band.`;
+    $('b_crowd').disabled = $('b_corr').disabled = !o.dino;
+  }
+  function tally() { $('t_n').textContent = T.n.toLocaleString('en-US'); $('t_w').textContent = T.n ? (100 * T.w / T.n).toFixed(T.n >= 200 ? 1 : 0) + '%' : '–'; $('t_d').textContent = (100 * S.p).toFixed(1) + '%'; }
+
+  // ---------- one bout, with the pictures ----------
+  const inside = (p, m) => { const e = Math.hypot(p.x / (AX - m), p.y / (AY - m)); if (e > 1) { p.x /= e; p.y /= e; } };
+  function newBout() {
+    const f = F(), o = O(), n = S.n, P = Math.min(1 - 1e-6, Math.max(1e-6, share(f, o, n, basis(), S.mode, S.unc))), H = woundsFor(o.kg);
+    B = { f, o, n, P, H, sc: script(P, H, n), t: 0, sub: 'enter', timer: 0, rot: Math.random() * 6.28, decals: [], texts: [], over: null, done: 0, strike: null,
+      opp: { x: AX - 3, y: 0, h: Math.PI, w: 0, kx: 0, ky: 0 }, men: [] };
+    const cols = Math.ceil(Math.sqrt(n));
+    for (let i = 0; i < n; i++) B.men.push({ x: -AX + 3 + (i % cols) * 1.1, y: (Math.floor(i / cols) - (Math.ceil(n / cols) - 1) / 2) * 1.2, h: 0, w: 0, kx: 0, ky: 0, lunge: 0 });
+    $('status').textContent = `${n} × ${f.name} against ${short(o.name)}: ${pct(P)} for the fighters this bout`;
+  }
+  function finish(win) {
+    const down = B.men.filter(m => m.w >= 2).length; B.over = win; B.done = 0; T.n++; if (win) T.w++; tally();
+    $('status').textContent = win ? `The fighters win, ${down} of ${B.n} down.` : `The ${short(B.o.name)} wins, wounded ${B.opp.w} of ${B.H} times; ${B.n > 1 ? 'the fighters break' : 'the fighter is down'}.`;
+  }
+  function step(dt) {
+    const o = B.opp, L = B.o.length, up = B.men.filter(m => m.w < 2); B.t += dt; B.rot += 0.12 * dt;
+    for (const e of [o, ...B.men]) { e.x += e.kx * dt; e.y += e.ky * dt; e.kx *= Math.pow(0.02, dt); e.ky *= Math.pow(0.02, dt); }
+    B.texts = B.texts.filter(t => (t.age += dt) < 1.6); if (B.strike && (B.strike.age += dt) > 0.25) B.strike = null;
+    const R = Math.max(L * 0.5 + 1.5, up.length * 1.0 / 6.283);
+    up.forEach((m, i) => {       // the fighters close a ring around the animal
+      const a = B.rot + 6.283 * i / up.length, s = B.over === false ? { x: -AX + 1.5, y: (i - up.length / 2) * 0.5 } : { x: o.x + R * Math.cos(a), y: o.y + R * Math.sin(a) }; inside(s, 0.8);
+      const dx = s.x - m.x, dy = s.y - m.y, d = Math.hypot(dx, dy), v = (m.w ? 1.9 : 3.4) * dt; if (d > 0.05) { m.x += dx / d * Math.min(v, d); m.y += dy / d * Math.min(v, d); }
+      m.h = Math.atan2(o.y - m.y, o.x - m.x); m.lunge = Math.max(0, m.lunge - dt * 3);
+    });
+    if (B.over !== null) { B.done += dt; return; }
+    const turn = (to, rate) => { let d = to - o.h; while (d > Math.PI) d -= 6.283; while (d < -Math.PI) d += 6.283; o.h += Math.sign(d) * Math.min(Math.abs(d), rate * dt); };
+    const move = (tx, ty, v) => { const dx = tx - o.x, dy = ty - o.y, d = Math.hypot(dx, dy) || 1; o.x += dx / d * v * dt; o.y += dy / d * v * dt; inside(o, 1.5); return d; };
+    const pick = () => { B.target = up[Math.floor(Math.random() * up.length)]; };
+    const reach = L * 0.42 + 0.5, charge = { cat: 12, bear: 8, raptor: 10, rex: 7 }[B.o.shape];
+    if (B.sub === 'enter') {
+      const near = Math.min(...up.map(m => Math.hypot(m.x - o.x, m.y - o.y))); turn(Math.PI, 2); move(2, 0, 2.2);
+      if (near < R + 5 || B.t > 5) { B.sub = 'stalk'; B.timer = 0.9; pick(); }
+    } else if (B.sub === 'stalk') {
+      if (!B.target || B.target.w >= 2) pick(); const tg = B.target; turn(Math.atan2(tg.y - o.y, tg.x - o.x), 4); move(tg.x, tg.y, 0.8);
+      if ((B.timer -= dt) <= 0) B.sub = 'lunge';
+    } else if (B.sub === 'lunge') {
+      const tg = B.target; turn(Math.atan2(tg.y - o.y, tg.x - o.x), 9);
+      if (move(tg.x, tg.y, charge) < reach) {       // the exchange
+        const ux = (tg.x - o.x) / (Math.hypot(tg.x - o.x, tg.y - o.y) || 1), uy = (tg.y - o.y) / (Math.hypot(tg.x - o.x, tg.y - o.y) || 1);
+        const sc = B.sc, downs = B.men.length - up.length; let ev = sc.win ? sc.list.shift() : (sc.left > 0 && Math.random() < sc.left / (sc.left + (sc.D - downs) * 1.5) ? 'A' : 'M');
+        if (ev === 'A' && !sc.win) sc.left--;
+        if (ev === 'M' && sc.win && tg.w === 1 && downs >= sc.D - 1) ev = 'P';       // a win never reaches the breaking point
+        if (ev === 'P') { tg.kx = ux * 4; tg.ky = uy * 4; B.texts.push({ x: tg.x, y: tg.y - 1, s: 'parried', c: '#e7dcc3', age: 0 }); }
+        else if (ev === 'A') {
+          const others = up.filter(m => m !== tg), by = others.length ? others.reduce((a, b) => Math.hypot(a.x - o.x, a.y - o.y) < Math.hypot(b.x - o.x, b.y - o.y) ? a : b) : tg;
+          o.w++; o.kx = -ux * 7; o.ky = -uy * 7; by.lunge = 1; B.strike = { x1: by.x, y1: by.y, x2: o.x, y2: o.y, age: 0 };
+          B.decals.push({ x: o.x + (Math.random() - .5), y: o.y + (Math.random() - .5), r: 0.14 + Math.random() * 0.16 }); B.texts.push({ x: o.x, y: o.y - L * 0.3, s: `wound ${o.w} of ${B.H}`, c: '#e7dcc3', age: 0 });
+        } else {
+          tg.w++; tg.kx = ux * 9; tg.ky = uy * 9; B.decals.push({ x: tg.x, y: tg.y, r: 0.1 + Math.random() * 0.12 }); B.texts.push({ x: tg.x, y: tg.y - 1, s: tg.w >= 2 ? 'down' : 'wounded', c: '#fca5a5', age: 0 });
+        }
+        B.sub = 'clash'; B.timer = 0.55;
+      }
+    } else if ((B.timer -= dt) <= 0) {
+      if (o.w >= B.H) finish(true); else if (B.men.filter(m => m.w >= 2).length >= B.sc.D) finish(false); else { B.sub = 'stalk'; B.timer = 0.5 + Math.random() * 0.9; pick(); }
+    }
+  }
+
+  // ---------- drawing (top-down, metres) ----------
+  const X = x => (x + W / 2) * PX, Y = y => (y + Hh / 2) * PX;
+  function arena() {
+    ctx.fillStyle = '#0d0d10'; ctx.fillRect(0, 0, cv.width, cv.height);
+    for (let i = 4; i >= 1; i--) { ctx.beginPath(); ctx.ellipse(X(0), Y(0), (AX + i * 0.85) * PX, (AY + i * 0.85) * PX, 0, 0, 6.283); ctx.fillStyle = ['#2b2620', '#231f1b', '#1c1917', '#161413'][i - 1]; ctx.fill(); }
+    const g = ctx.createRadialGradient(X(0), Y(0), 2 * PX, X(0), Y(0), AX * PX); g.addColorStop(0, '#c09a66'); g.addColorStop(1, '#93734a');
+    ctx.beginPath(); ctx.ellipse(X(0), Y(0), AX * PX, AY * PX, 0, 0, 6.283); ctx.fillStyle = g; ctx.fill(); ctx.lineWidth = 3; ctx.strokeStyle = '#4a4036'; ctx.stroke();
+    ctx.fillStyle = '#17130f'; ctx.fillRect(X(-AX) - 16, Y(-1.2), 16, 2.4 * PX); ctx.fillRect(X(AX), Y(-1.2), 16, 2.4 * PX);
+    for (const d of B.decals) { ctx.beginPath(); ctx.arc(X(d.x), Y(d.y), d.r * PX, 0, 6.283); ctx.fillStyle = 'rgba(110,18,14,.55)'; ctx.fill(); }
+    ctx.fillStyle = '#d4d4d8'; ctx.fillRect(X(-W / 2 + 1.2), Y(Hh / 2 - 1.2), 5 * PX, 3); ctx.font = '600 ' + 0.46 * PX + 'px JetBrains Mono, monospace'; ctx.textAlign = 'left'; ctx.fillText('5 m', X(-W / 2 + 1.2), Y(Hh / 2 - 1.5));
+  }
+  function man(m) {
+    const f = B.f, wp = f.weapon, down = m.w >= 2; ctx.save(); ctx.translate(X(m.x), Y(m.y)); ctx.rotate(m.h); ctx.scale(PX, PX); ctx.globalAlpha = down ? 0.75 : 1;
+    if (down) { ctx.rotate(1.2); ctx.fillStyle = '#6f6657'; ctx.beginPath(); ctx.ellipse(0, 0, 0.8, 0.26, 0, 0, 6.283); ctx.fill(); ctx.beginPath(); ctx.arc(0.85, 0, 0.14, 0, 6.283); ctx.fill(); ctx.restore(); return; }
+    const th = m.lunge * 0.5; ctx.lineCap = 'round';
+    if (wp !== 'none') {       // the weapon, held on the right
+      ctx.strokeStyle = /sword|knife|axe/.test(wp) ? '#cfd6dc' : '#6b4a2a'; ctx.lineWidth = /staff|club/.test(wp) ? 0.09 : 0.06; ctx.beginPath();
+      const len = /pike/.test(wp) ? 3.6 : /short/.test(wp) ? 1.2 : /spear|trident/.test(wp) ? 2.1 : /staff/.test(wp) ? 1.7 : /two-handed/.test(wp) ? 1.2 : /sword|axe|club/.test(wp) ? 0.75 : 0.3, back = /spear|pike|trident|staff/.test(wp) && !/short/.test(wp) ? -0.6 : 0.1;
+      ctx.moveTo(back + th, 0.3); ctx.lineTo(back + len + th, 0.3); ctx.stroke();
+      if (/spear|pike|trident/.test(wp)) { ctx.fillStyle = '#cfd6dc'; ctx.beginPath(); ctx.moveTo(back + len + th + 0.28, 0.3); ctx.lineTo(back + len + th, 0.22); ctx.lineTo(back + len + th, 0.38); ctx.fill(); }
+      if (/trident/.test(wp)) { ctx.lineWidth = 0.04; ctx.strokeStyle = '#cfd6dc'; ctx.beginPath(); ctx.moveTo(back + len + th, 0.14); ctx.lineTo(back + len + th + 0.25, 0.14); ctx.moveTo(back + len + th, 0.46); ctx.lineTo(back + len + th + 0.25, 0.46); ctx.stroke(); }
+      if (/axe/.test(wp)) { ctx.fillStyle = '#cfd6dc'; ctx.fillRect(0.7 + th, 0.18, 0.18, 0.26); }
+    }
+    ctx.fillStyle = /full plate/.test(f.armour) ? '#aab3bc' : /mail/.test(f.armour) ? '#8b939b' : '#e7dcc3'; ctx.beginPath(); ctx.ellipse(0, 0, 0.2, 0.34, 0, 0, 6.283); ctx.fill();
+    if (m.w) { ctx.strokeStyle = '#dc2626'; ctx.lineWidth = 0.07; ctx.stroke(); }
+    if (/shield/.test(wp)) { const big = /large|spear \+ shield/.test(wp) && !/small/.test(wp); ctx.strokeStyle = '#8f2f24'; ctx.lineWidth = big ? 0.16 : 0.13; ctx.beginPath(); ctx.arc(0.1, -0.2, big ? 0.42 : 0.3, -1.9, -0.1); ctx.stroke(); }
+    if (/net/.test(wp)) { ctx.strokeStyle = '#3d3a33'; ctx.lineWidth = 0.03; ctx.beginPath(); ctx.arc(0.25, -0.4, 0.28, 0, 6.283); ctx.moveTo(0, -0.4); ctx.lineTo(0.5, -0.4); ctx.moveTo(0.25, -0.65); ctx.lineTo(0.25, -0.15); ctx.stroke(); }
+    ctx.fillStyle = /helmet|plate/.test(f.armour) ? '#b9a26a' : '#3a2c20'; ctx.beginPath(); ctx.arc(0.02, 0, 0.14, 0, 6.283); ctx.fill(); ctx.restore();
+  }
+  function beast() {
+    const o = B.opp, L = B.o.length, sh = B.o.shape, dead = B.over === true, sway = dead ? 0.3 : Math.sin(B.t * (B.sub === 'lunge' ? 14 : 4)) * 0.12;
+    ctx.save(); ctx.translate(X(o.x), Y(o.y)); ctx.rotate(o.h); ctx.scale(PX * L, PX * L); ctx.globalAlpha = dead ? 0.7 : 1;
+    const E = (x, y, rx, ry, c) => { ctx.fillStyle = c; ctx.beginPath(); ctx.ellipse(x, y, rx, ry, 0, 0, 6.283); ctx.fill(); };
+    if (sh === 'raptor' || sh === 'rex') {       // unit length: snout at +0.5, tail tip at -0.5
+      const rex = sh === 'rex', body = rex ? '#55603f' : '#5a4433', dark = rex ? '#3c452c' : '#3d2e22', bw = rex ? 0.085 : 0.07;
+      ctx.fillStyle = dark; ctx.beginPath(); ctx.moveTo(-0.05, -bw * 0.8); ctx.quadraticCurveTo(-0.3, sway * 0.3, -0.5, sway); ctx.quadraticCurveTo(-0.3, sway * 0.3, -0.05, bw * 0.8); ctx.fill();
+      for (const s of [-1, 1]) { E(0.02, s * bw * 1.05, 0.07, 0.03, dark); if (!rex) { ctx.strokeStyle = '#d8d0c0'; ctx.lineWidth = 0.008; ctx.beginPath(); ctx.moveTo(0.08, s * bw * 1.2); ctx.lineTo(0.12, s * bw * 1.05); ctx.stroke(); } }
+      E(0.07, 0, 0.15, bw, body);
+      if (!rex) for (const s of [-1, 1]) { ctx.fillStyle = '#a3492c'; ctx.beginPath(); ctx.moveTo(0.16, s * bw * 0.7); ctx.lineTo(0.1, s * (bw + 0.075)); ctx.lineTo(0.02, s * (bw + 0.05)); ctx.lineTo(0.08, s * bw * 0.7); ctx.fill(); }
+      else for (const s of [-1, 1]) E(0.17, s * bw * 0.95, 0.018, 0.008, dark);
+      E(0.25, 0, 0.07, bw * 0.5, body); ctx.fillStyle = body; ctx.beginPath(); const hw = rex ? 0.055 : 0.036, hl = rex ? 0.2 : 0.17;
+      ctx.moveTo(0.3, -hw); ctx.quadraticCurveTo(0.3 + hl * 0.8, -hw * 0.9, 0.3 + hl, 0); ctx.quadraticCurveTo(0.3 + hl * 0.8, hw * 0.9, 0.3, hw); ctx.fill();
+      for (const s of [-1, 1]) E(0.34, s * hw * 0.62, 0.008, 0.006, '#e8c14a');
+      if (!rex) { ctx.strokeStyle = '#a3492c'; ctx.lineWidth = 0.012; ctx.beginPath(); ctx.moveTo(-0.02, 0); ctx.lineTo(0.3, 0); ctx.stroke(); }
+    } else if (sh === 'cat') {
+      ctx.strokeStyle = '#a87c44'; ctx.lineWidth = 0.03; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(-0.2, 0); ctx.quadraticCurveTo(-0.38, sway, -0.5, sway * 2); ctx.stroke();
+      E(-0.02, 0, 0.22, 0.085, '#b98a4b'); E(0.2, 0, 0.12, 0.115, '#6b4a22'); E(0.28, 0, 0.075, 0.065, '#c2954f'); for (const s of [-1, 1]) E(0.27, s * 0.06, 0.02, 0.02, '#6b4a22');
+    } else {
+      E(-0.05, 0, 0.36, 0.2, '#4a3626'); E(0.33, 0, 0.13, 0.11, '#5a4230'); E(0.45, 0, 0.05, 0.04, '#3a2a1e'); for (const s of [-1, 1]) E(0.29, s * 0.1, 0.03, 0.03, '#3a2a1e');
+    }
+    for (let i = 0; i < o.w; i++) E(0.15 - (i % 5) * 0.06, ((i * 7) % 3 - 1) * 0.03, 0.012, 0.012, '#b3160f');
+    ctx.restore();
+  }
+  function hud() {
+    const o = B.opp, pad = 0.7 * PX, sw = 0.38 * PX; ctx.font = '600 ' + 0.5 * PX + 'px JetBrains Mono, monospace'; ctx.textAlign = 'left'; ctx.fillStyle = '#d4d4d8';
+    ctx.fillText(`${B.n} × ${B.f.name}` + (B.n > 1 ? `, beaten when ${B.sc.D} are down` : ''), pad, pad + 0.3 * PX);
+    B.men.forEach((m, i) => { ctx.fillStyle = m.w >= 2 ? '#3f3f46' : m.w ? '#dc2626' : '#e7dcc3'; ctx.fillRect(pad + (i % 20) * (sw + 4), pad + 0.7 * PX + Math.floor(i / 20) * (sw + 4), sw, sw); });
+    ctx.textAlign = 'right'; ctx.fillStyle = '#d4d4d8'; ctx.fillText(short(B.o.name) + (B.o.dino ? (basis() === 'corr' ? ', anatomy-corrected' : ', as the crowd voted') : ''), cv.width - pad, pad + 0.3 * PX);
+    for (let i = 0; i < B.H; i++) { ctx.fillStyle = i < B.H - o.w ? '#ef4444' : '#3f3f46'; ctx.fillRect(cv.width - pad - (i + 1) * (sw * 1.6 + 4) + 4, pad + 0.7 * PX, sw * 1.6, sw); }
+    if (B.strike) { ctx.strokeStyle = 'rgba(255,255,255,' + (0.8 - B.strike.age * 3) + ')'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(X(B.strike.x1), Y(B.strike.y1)); ctx.lineTo(X(B.strike.x2), Y(B.strike.y2)); ctx.stroke(); }
+    ctx.textAlign = 'center'; for (const t of B.texts) { ctx.globalAlpha = Math.max(0, 1 - t.age / 1.6); ctx.fillStyle = t.c; ctx.fillText(t.s, X(t.x), Y(t.y - t.age * 1.2)); } ctx.globalAlpha = 1;
+    if (B.over !== null) {
+      ctx.fillStyle = 'rgba(8,8,10,.72)'; ctx.fillRect(0, cv.height / 2 - 1.1 * PX, cv.width, 2.2 * PX); ctx.fillStyle = B.over ? '#e7dcc3' : '#fca5a5'; ctx.font = 'italic 700 ' + 1.1 * PX + 'px Playfair Display, Georgia, serif';
+      ctx.fillText(B.over ? (B.n === 1 ? 'The fighter wins' : 'The fighters win') : `The ${short(B.o.name)} wins`, cv.width / 2, cv.height / 2 + 0.38 * PX);
+    }
+  }
+  function draw() { arena(); B.men.filter(m => m.w >= 2).forEach(man); beast(); B.men.filter(m => m.w < 2).forEach(man); hud(); }
+  function frame(ts) {
+    const dt = Math.min(0.05, (ts - last) / 1000 || 0) * +$('speed').value; last = ts;
+    for (let i = 0, k = Math.ceil(dt / 0.02) || 1; i < k; i++) step(dt / k);
+    if (B.over !== null && B.done > 2.6 && $('auto').checked) newBout();
+    draw(); requestAnimationFrame(frame);
+  }
+
+  // ---------- controls ----------
+  const change = () => { odds(); T.n = T.w = 0; tally(); newBout(); };
+  $('who').onchange = e => { S.f = +e.target.value; change(); }; $('opp').onchange = e => { S.o = +e.target.value; change(); };
+  const setN = v => { S.n = Math.max(1, Math.min(40, Math.round(+v) || 1)); $('n').value = $('nr').value = S.n; change(); };
+  $('n').onchange = e => setN(e.target.value); $('nr').oninput = e => setN(e.target.value);
+  $('b_crowd').onchange = $('b_corr').onchange = e => { S.basis = e.target.value; change(); }; $('kmode').onchange = e => { S.mode = e.target.value; change(); };
+  $('unc').onchange = e => { S.unc = e.target.checked; change(); }; $('fight').onclick = newBout; $('reset').onclick = () => { T.n = T.w = 0; tally(); };
+  $('batch').onclick = () => { for (let i = 0; i < 1000; i++) { T.n++; if (Math.random() < share(F(), O(), S.n, basis(), S.mode, S.unc)) T.w++; } tally(); };
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) { $('auto').checked = false; $('speed').value = 0.5; }
+  odds(); tally(); newBout(); requestAnimationFrame(frame);
+})();
+</script>
+</body>
+</html>

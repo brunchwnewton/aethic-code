@@ -1,0 +1,284 @@
+{
+ "human": 6.45065,
+ "spear_premium": {
+  "log": 1.863282953608968,
+  "sd": 0.3390972800155686,
+  "factor": 6.444860255983857,
+  "pairs": {
+   "Neanderthal (armed with a spear)": 1.864008027218253,
+   "Neanderthal (with spear)": 1.471215546463412,
+   "Homo erectus (armed with spear)": 1.5373010896347803,
+   "Archaic Human (armed with spear)": 1.636363285756129,
+   "Homo floresiensis (armed with a spear)": 2.5395766287267345
+  }
+ },
+ "club_premium": {
+  "log": 0.5254553791900405,
+  "factor": 1.691228823462272
+ },
+ "female": {
+  "log": -0.721258308965312,
+  "se": 0.3712482368941299,
+  "factor": 0.4861401564183454
+ },
+ "group_exponent": {
+  "k": 1.4419766991887197,
+  "se": 0.03317678864944023,
+  "pairs": 259,
+  "sd_used": 0.15
+ },
+ "gamma": [
+  0.35,
+  0.08
+ ],
+ "mass_exponent_real": [
+  4.5,
+  2.0
+ ],
+ "mass_exponent_scale": 1.289670388551146,
+ "armed_mass": 0.5,
+ "transfer": {
+  "unarmed": [
+   0.15,
+   0.1
+  ],
+  "duellist": [
+   0.5,
+   0.2
+  ],
+  "beast": [
+   1.0,
+   0.0
+  ]
+ },
+ "novice": [
+  0.65,
+  0.15
+ ],
+ "skill_real_log_odds": {
+  "untrained": [
+   0.0,
+   0.0
+  ],
+  "trained amateur": [
+   3.0,
+   1.0
+  ],
+  "professional": [
+   5.7,
+   1.2
+  ],
+  "elite": [
+   7.6,
+   1.5
+  ],
+  "novice": [
+   0.0,
+   0.0
+  ],
+  "competent": [
+   0.0,
+   0.0
+  ],
+  "professional (armed)": [
+   2.3,
+   0.9
+  ],
+  "elite (armed)": [
+   3.4,
+   1.1
+  ]
+ },
+ "weapon_vs_spear": {
+  "spear": [
+   [
+    0.0,
+    0.0
+   ],
+   [
+    0.0,
+    0.0
+   ]
+  ],
+  "spear + shield": [
+   [
+    0.3,
+    0.3
+   ],
+   [
+    0.8,
+    0.5
+   ]
+  ],
+  "spear + small shield": [
+   [
+    0.2,
+    0.3
+   ],
+   [
+    0.5,
+    0.5
+   ]
+  ],
+  "trident + net": [
+   [
+    -0.1,
+    0.4
+   ],
+   [
+    0.9,
+    0.6
+   ]
+  ],
+  "pike or polearm": [
+   [
+    0.2,
+    0.4
+   ],
+   [
+    0.5,
+    0.6
+   ]
+  ],
+  "sword + large shield": [
+   [
+    -0.2,
+    0.3
+   ],
+   [
+    0.5,
+    0.5
+   ]
+  ],
+  "sword + small shield": [
+   [
+    -0.35,
+    0.3
+   ],
+   [
+    0.5,
+    0.5
+   ]
+  ],
+  "two-handed sword": [
+   [
+    -0.4,
+    0.4
+   ],
+   [
+    0.0,
+    0.6
+   ]
+  ],
+  "axe + shield": [
+   [
+    -0.25,
+    0.35
+   ],
+   [
+    0.3,
+    0.5
+   ]
+  ],
+  "short stabbing spear + shield": [
+   [
+    0.1,
+    0.35
+   ],
+   [
+    0.5,
+    0.5
+   ]
+  ],
+  "staff": [
+   [
+    -0.9,
+    0.4
+   ],
+   [
+    -1.2,
+    0.6
+   ]
+  ],
+  "knife": [
+   [
+    -1.2,
+    0.4
+   ],
+   [
+    -2.5,
+    0.7
+   ]
+  ]
+ },
+ "armour": {
+  "none": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    0
+   ]
+  ],
+  "arm and shoulder guard": [
+   [
+    0.05,
+    0.1
+   ],
+   [
+    0.2,
+    0.3
+   ]
+  ],
+  "helmet and guards": [
+   [
+    0.2,
+    0.15
+   ],
+   [
+    0.6,
+    0.4
+   ]
+  ],
+  "mail or plates with helmet": [
+   [
+    0.45,
+    0.25
+   ],
+   [
+    1.5,
+    0.6
+   ]
+  ],
+  "full plate": [
+   [
+    0.8,
+    0.35
+   ],
+   [
+    3.0,
+    1.0
+   ]
+  ]
+ },
+ "cross": [
+  0.3,
+  0.15
+ ],
+ "raptors": {
+  "Dakotaraptor steini": {
+   "crowd": 206.327,
+   "corrected": 680.939,
+   "corrected_p05": 279.157,
+   "corrected_p95": 2084.36
+  },
+  "Utahraptor ostrommaysorum": {
+   "crowd": 285.837,
+   "corrected": 944.773,
+   "corrected_p05": 396.519,
+   "corrected_p95": 2779.25
+  }
+ }
+}

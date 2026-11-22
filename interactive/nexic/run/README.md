@@ -86,3 +86,30 @@ python3 coupled_fit.py duels.csv      # writes ../final_scores.csv; under a minu
 Each fit is on its own lion scale: the row holding the African Lion's votes reads 100.
 
 **Columns:** `score` crowd score; `se_log` its standard error against the field (the animals outside the graph), widened for overdispersion (phi = 1.85); `crowd_p05…p95` its percentiles; `median_factor`, `median_score` as in step 5; `joint_p05…p95` percentiles of the corrected score with the elicited factor at the ladder's point estimates; `full_p05…p95` the same with the ladder redrawn with the scores (one factor per draw, shared by all dinosaurs); `rank_p05/p50/p95` percentiles of the corrected-score rank; `members` the entries behind a merged or category row. `categories.csv` sets each category's paper scores beside the merged and coupled ones. `summary.json` holds the fit settings, the anatomy model and weight–score results for each fit, the redrawn-ladder spread, the coupling estimates and the paper fit's sensitivity to step 3's ridge penalty.
+
+## Step 8: human archetypes, and the arena page (added November 2026; exploratory, not part of the paper)
+
+```
+python3 8_human_archetypes.py      # reads ../final_scores.csv; a second or two
+```
+
+Places 30 human fighters on the scale (untrained, boxers, armed novices, hunters, gladiators by type, legionary, hoplite, knight, …) and answers how many of them match a raptor.
+
+**Two numbers per fighter.** `score` is where the fighter stands among the animals (African Lion = 100). `duel_elo` is how the fighter does against other humans, in real odds, the untrained 70 kg man at 1000; `human_duel_matrix.csv` holds every pairing. One number cannot do both: skill between humans is worth far more against a human than against an animal.
+
+**What is measured and what is not.** The `evidence` column grades each fighter by its weakest term.
+
+| grade | term | source |
+|---|---|---|
+| A | "Human" 6.45, "Human (female)" × 0.49 | the votes |
+| A | spear × 6.4, club × 1.7 | hominin entries with and without the weapon, five pairs |
+| A | n animals count as n^1.44 one animal (± 0.03) | all 259 group entries against their solo entries; step 3 assumes n^0.7 |
+| B | body mass | the fit's mammal exponent (1.29) on the scale; combat-sport weight studies for duels |
+| C | other weapons | set relative to the spear |
+| D | skill, its carry-over against animals, armour, the crowd-to-real conversion | judgment; no data set gives win rates |
+
+Most fighters are grade D, with 90% bands near a factor of three either way. The order among them is firmer than the levels.
+
+**Outputs:** `outputs/human_archetypes.csv`, `outputs/human_duel_matrix.csv`, `outputs/humans_vs_raptors.csv` (fighters for an even vote and vote shares at n = 1…50, for each raptor score and group exponent), `outputs/human_model.json` (every term and its spread).
+
+**`../arena.html`** stages the bouts: n fighters against a lion, a bear or a dinosaur, the animal on its crowd score or its anatomy-corrected score. Each bout's winner is drawn with the model's vote share; the exchanges are choreography. Step 8 rewrites the page's data block (between `/*DATA*/` and `/*END DATA*/`) on every run. The page has no Jekyll front matter; add it if the site needs it.

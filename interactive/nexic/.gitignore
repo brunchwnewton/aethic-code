@@ -63,3 +63,11 @@
 !/run/outputs/graph/scores_original.csv
 !/run/outputs/graph/scores_merge.csv
 !/run/outputs/graph/summary.json
+
+# step 8: human archetypes, and the arena page
+!/run/8_human_archetypes.py
+!/run/outputs/human_archetypes.csv
+!/run/outputs/human_duel_matrix.csv
+!/run/outputs/humans_vs_raptors.csv
+!/run/outputs/human_model.json
+!/arena.html
