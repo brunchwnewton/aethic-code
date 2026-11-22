@@ -69,9 +69,11 @@
   .off{opacity:.38}
   .scroll{overflow-x:auto}
   table{border-collapse:collapse;width:100%;font-size:12px}
-  th{font-weight:500;color:var(--text-dim);text-align:left;padding:3px 8px 5px 0;border-bottom:1px solid var(--border);white-space:nowrap}
+  th{font-weight:500;color:var(--text-dim);text-align:left;padding:3px 8px 5px 0;border-bottom:1px solid var(--border);vertical-align:bottom;line-height:1.25}
   td{padding:4px 8px 4px 0;border-bottom:1px solid #1d1d22;vertical-align:top;line-height:1.3}
-  td.num,th.num{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap;padding-right:0;padding-left:8px}
+  td.num,th.num{text-align:right;padding-right:0;padding-left:8px}
+  td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+  .tally b.three{font-size:13px}
   .tally{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
   .tally div{background:var(--surface2);border-radius:6px;padding:8px;min-width:0}
   .tally b{display:block;font-family:var(--mono);font-size:17px;font-variant-numeric:tabular-nums;color:var(--text);overflow-wrap:anywhere}
@@ -149,7 +151,7 @@
   </div>
 </div>
 <script>
-/*DATA*/const DATA = null;/*END DATA*/
+/*DATA*/const DATA = {"k":1.4419766991887197,"k_sd":0.15,"gamma":0.35,"gamma_sd":0.08,"cross":0.3,"fighters":[{"name":"Knight on foot, poleaxe, full plate","mu":5.188933711447916,"sd":0.7099407471477331,"duel":11.488834634178627,"duel_sd":2.358661994121611,"usk":0.0,"weapon":"pike or polearm","armour":"full plate","mass":78},{"name":"Venator, champion, hunting spear","mu":4.978570529415535,"sd":0.6232166174881913,"duel":9.097130425192773,"duel_sd":2.1339527932623135,"usk":0.0,"weapon":"spear","armour":"none","mass":80},{"name":"Greek hoplite, dory and aspis","mu":4.857374799815627,"sd":0.6191605783301407,"duel":9.93452052069495,"duel_sd":2.1824378733450285,"usk":0.0,"weapon":"spear + shield","armour":"mail or plates with helmet","mass":68},{"name":"Knight on foot, longsword, full plate","mu":4.590916136409774,"sd":0.7113748988198069,"duel":10.99167936119901,"duel_sd":2.358837959439149,"usk":0.0,"weapon":"two-handed sword","armour":"full plate","mass":78},{"name":"Gladiator, hoplomachus","mu":4.573744602862249,"sd":0.5857337236763454,"duel":8.984734106773157,"duel_sd":2.1370601941579475,"usk":0.0,"weapon":"spear + small shield","armour":"helmet and guards","mass":76},{"name":"Venator (arena hunter), hunting spear","mu":4.554961360247119,"sd":0.5469212908301805,"duel":7.806990643348664,"duel_sd":2.043217803142361,"usk":0.0,"weapon":"spear","armour":"none","mass":74},{"name":"Swiss pikeman","mu":4.520903904970412,"sd":0.639428139466365,"duel":8.787886593765997,"duel_sd":2.1648378854514774,"usk":0.0,"weapon":"pike or polearm","armour":"helmet and guards","mass":70},{"name":"Gladiator, champion murmillo, 90 kg","mu":4.465561644874324,"sd":0.6318118461414363,"duel":10.481736062691237,"duel_sd":2.232575948210881,"usk":0.0,"weapon":"sword + large shield","armour":"helmet and guards","mass":90},{"name":"Viking, axe and shield","mu":4.386988161913999,"sd":0.6429618605873872,"duel":9.755512338164909,"duel_sd":2.189364477906205,"usk":0.0,"weapon":"axe + shield","armour":"mail or plates with helmet","mass":78},{"name":"Roman legionary, gladius and scutum","mu":4.352967961627518,"sd":0.6177896063782561,"duel":9.647055003159107,"duel_sd":2.1882090927437203,"usk":0.0,"weapon":"sword + large shield","armour":"mail or plates with helmet","mass":68},{"name":"Zulu warrior, iklwa and shield","mu":4.2198881308874725,"sd":0.5937401734871444,"duel":8.189749313190198,"duel_sd":2.1056715589360775,"usk":0.0,"weapon":"short stabbing spear + shield","armour":"none","mass":70},{"name":"Gladiator, murmillo","mu":4.18810364573608,"sd":0.5826369676725524,"duel":9.045922873796876,"duel_sd":2.143520532355088,"usk":0.0,"weapon":"sword + large shield","armour":"helmet and guards","mass":78},{"name":"Samurai, katana","mu":4.105332372755771,"sd":0.6742059578742737,"duel":8.942223586674176,"duel_sd":2.213906619421608,"usk":0.0,"weapon":"two-handed sword","armour":"mail or plates with helmet","mass":62},{"name":"Gladiator, retiarius","mu":4.0945183567204655,"sd":0.6317086856259762,"duel":8.869314542853658,"duel_sd":2.1548937089568585,"usk":0.0,"weapon":"trident + net","armour":"arm and shoulder guard","mass":72},{"name":"Gladiator, thraex","mu":4.027949845375723,"sd":0.5832191989679463,"duel":8.988620649268615,"duel_sd":2.1434352586824943,"usk":0.0,"weapon":"sword + small shield","armour":"helmet and guards","mass":76},{"name":"Maasai warrior, spear and shield","mu":4.007105869115017,"sd":0.5034499796328751,"duel":6.072073006140576,"duel_sd":1.896061973173049,"usk":0.0,"weapon":"spear + shield","armour":"none","mass":68},{"name":"Gladiator, novice murmillo","mu":3.7781269850272645,"sd":0.5222258451586269,"duel":6.626726202193641,"duel_sd":1.940032916771889,"usk":0.0,"weapon":"sword + large shield","armour":"helmet and guards","mass":76},{"name":"Hunter with a spear","mu":3.707977955335294,"sd":0.4002447293570743,"duel":5.242928024682133,"duel_sd":1.8296057635007015,"usk":0.0,"weapon":"spear","armour":"none","mass":68},{"name":"Martial artist with a staff","mu":3.2483165748812484,"sd":0.6205175044077658,"duel":6.573258272852862,"duel_sd":2.126517406390476,"usk":0.0,"weapon":"staff","armour":"none","mass":72},{"name":"Untrained man with a spear","mu":3.0492542971881895,"sd":0.41897862841817757,"duel":3.406771175550676,"duel_sd":1.4849637843838286,"usk":0.0,"weapon":"spear","armour":"none","mass":70},{"name":"Martial artist with a knife","mu":2.9448113082035636,"sd":0.6239247698971384,"duel":5.268824167152048,"duel_sd":2.1651194511340033,"usk":0.0,"weapon":"knife","armour":"none","mass":72},{"name":"Professional MMA fighter, 120 kg","mu":2.8471434118600163,"sd":0.31716530358938205,"duel":8.125684314230067,"duel_sd":1.5920997269195936,"usk":5.7,"weapon":"none","armour":"none","mass":120},{"name":"Elite heavyweight champion, 110 kg","mu":2.82744122017061,"sd":0.3656715278844835,"duel":9.64316382211852,"duel_sd":1.737491267704892,"usk":7.6,"weapon":"none","armour":"none","mass":110},{"name":"Untrained man with a knife","mu":2.275909210198847,"sd":0.4249710386925097,"duel":1.7873653739752773,"duel_sd":1.3943538236619564,"usk":0.0,"weapon":"knife","armour":"none","mass":70},{"name":"Professional MMA fighter, 77 kg","mu":2.2709466435720014,"sd":0.30707884873799496,"duel":6.11953996049642,"duel_sd":1.2274755588506205,"usk":5.7,"weapon":"none","armour":"none","mass":77},{"name":"Untrained man with a club","mu":2.195138572996421,"sd":0.7480759634967279,"duel":0.9460656356971887,"duel_sd":2.2489987496158017,"usk":0.0,"weapon":"club","armour":"none","mass":70},{"name":"Amateur boxer, 75 kg","mu":2.1065225785888657,"sd":0.24813998322492714,"duel":3.304169311526329,"duel_sd":0.9989159754049843,"usk":3.0,"weapon":"none","armour":"none","mass":75},{"name":"Untrained man","mu":1.8639596020708034,"sd":0.21449951511503537,"duel":0.0,"duel_sd":0.0,"usk":0.0,"weapon":"none","armour":"none","mass":70},{"name":"Professional woman fighter, 61 kg","mu":1.5046552531153776,"sd":0.487337455700164,"duel":3.818538304851777,"duel_sd":1.7953578481791388,"usk":5.7,"weapon":"none","armour":"none","mass":61},{"name":"Untrained woman","mu":1.1415686312483158,"sd":0.4314365289904519,"duel":-2.047061708362506,"duel_sd":1.3256089854812032,"usk":0.0,"weapon":"none","armour":"none","mass":58}],"animals":[{"name":"African Lion","label":"Lion","plural":"Lions","kg":185,"length":2.6,"shape":"cat","coat":"mane","body":"#b98a4b","dark":"#6b4a22","accent":"#c2954f","mu":4.605170185988092,"sd":0.362743,"dino":false,"dmu":-0.0007903122144437275,"dsd":0.0797677340256193},{"name":"Tiger","label":"Tiger","plural":"Tigers","kg":220,"length":2.9,"shape":"cat","coat":"stripes","body":"#d9822b","dark":"#2b1a0c","accent":"#f1e3c8","mu":4.643852292580435,"sd":0.250688,"dino":false,"dmu":0.002267879736610394,"dsd":0.0},{"name":"Leopard","label":"Leopard","plural":"Leopards","kg":60,"length":2.0,"shape":"cat","coat":"spots","body":"#c9a35a","dark":"#3a2a14","accent":"#e2c98a","mu":3.085275858463979,"sd":0.20181,"dino":false,"dmu":-0.005639112687770262,"dsd":0.0},{"name":"Grey Wolf","label":"Grey Wolf","plural":"Grey Wolves","kg":40,"length":1.6,"shape":"dog","coat":"","body":"#8d8b84","dark":"#4c4a45","accent":"#c9c6bb","mu":1.841934388467191,"sd":0.19083,"dino":false,"dmu":-0.001559373489216112,"dsd":0.017622360818203703},{"name":"Spotted Hyena","label":"Spotted Hyena","plural":"Spotted Hyenas","kg":55,"length":1.5,"shape":"dog","coat":"spots","body":"#a8946a","dark":"#3d3222","accent":"#cdbb93","mu":2.963286558185905,"sd":0.131349,"dino":false,"dmu":7.230583304634337e-05,"dsd":0.0038727262610313584},{"name":"Brown Bear","label":"Brown Bear","plural":"Brown Bears","kg":300,"length":2.3,"shape":"bear","coat":"","body":"#4a3626","dark":"#3a2a1e","accent":"#5a4230","mu":4.820483158187113,"sd":0.195102,"dino":false,"dmu":0.0030592142362974055,"dsd":0.03589243780271931},{"name":"Polar Bear","label":"Polar Bear","plural":"Polar Bears","kg":450,"length":2.6,"shape":"bear","coat":"","body":"#e6e3d8","dark":"#bdb8a8","accent":"#f4f2ea","mu":5.767226647212736,"sd":0.155864,"dino":false,"dmu":-0.0011268664916730617,"dsd":0.0},{"name":"African Bush Elephant","label":"Elephant","plural":"Elephants","kg":6000,"length":6.5,"shape":"elephant","coat":"","body":"#77736c","dark":"#55514b","accent":"#efe6cf","mu":7.067924951134535,"sd":0.274596,"dino":false,"dmu":0.008483901876136318,"dsd":0.051871547801756165},{"name":"Velociraptor mongoliensis","label":"Velociraptor","plural":"Velociraptors","kg":15,"length":2.0,"shape":"raptor","coat":"","body":"#8a6f4d","dark":"#5c4830","accent":"#d9c8a0","mu":0.7625752906501664,"sd":0.191635,"dino":true,"dmu":1.1964061978571967,"dsd":0.5538164001297398},{"name":"Deinonychus antirrhopus","label":"Deinonychus","plural":"Deinonychus","kg":73,"length":3.3,"shape":"raptor","coat":"","body":"#5d5346","dark":"#3b352d","accent":"#7fa0b8","mu":3.5241168329508876,"sd":0.163347,"dino":true,"dmu":1.1942034509698598,"dsd":0.5653927697268997},{"name":"Dakotaraptor steini","label":"Dakotaraptor","plural":"Dakotaraptors","kg":250,"length":5.5,"shape":"raptor","coat":"","body":"#4d4038","dark":"#2f2722","accent":"#c9772e","mu":5.329462288876575,"sd":0.341473,"dino":true,"dmu":1.19401043910528,"dsd":0.5067653182558455},{"name":"Utahraptor ostrommaysorum","label":"Utahraptor","plural":"Utahraptors","kg":500,"length":6.0,"shape":"raptor","coat":"","body":"#5a4433","dark":"#3d2e22","accent":"#a3492c","mu":5.6554217182780455,"sd":0.177424,"dino":true,"dmu":1.1955229687200486,"dsd":0.5646383576690978},{"name":"Dilophosaurus wetherilli","label":"Dilophosaurus","plural":"Dilophosaurus","kg":400,"length":6.5,"shape":"rex","coat":"crest","body":"#6a6a3c","dark":"#48482a","accent":"#c05a2e","mu":4.8261914869212,"sd":0.391575,"dino":true,"dmu":1.214548820720927,"dsd":0.549191502348353},{"name":"Ceratosaurus nasicornis","label":"Ceratosaurus","plural":"Ceratosaurus","kg":700,"length":6.0,"shape":"rex","coat":"horn","body":"#7a4a34","dark":"#4f2f22","accent":"#d8c9a8","mu":6.19524381503928,"sd":0.25427,"dino":true,"dmu":1.206176686656486,"dsd":0.5661049030497937},{"name":"Carnotaurus sastrei","label":"Carnotaurus","plural":"Carnotaurus","kg":1500,"length":8.0,"shape":"rex","coat":"horns","body":"#7d4b3a","dark":"#52302a","accent":"#d8c9a8","mu":6.126227056597052,"sd":0.261704,"dino":true,"dmu":1.1959134278678087,"dsd":0.5797826320243721},{"name":"Allosaurus fragilis","label":"Allosaurus","plural":"Allosaurus","kg":1700,"length":8.5,"shape":"rex","coat":"crest","body":"#5e5a44","dark":"#3e3b2c","accent":"#a8452c","mu":7.436464041946344,"sd":0.273198,"dino":true,"dmu":1.210243986523915,"dsd":0.5731520919376863},{"name":"Tyrannosaurus rex","label":"T. rex","plural":"T. rexes","kg":8000,"length":12.3,"shape":"rex","coat":"","body":"#55603f","dark":"#3c452c","accent":"#e8c14a","mu":9.258053766160643,"sd":0.295197,"dino":true,"dmu":1.216642120346716,"dsd":0.5755994962677725}]};/*END DATA*/
 
 // ================= 1. strengths and odds =================
 const RHO = 0.4, F0 = 1 / 3;      // staging: a hit takes F0 * (attacker / victim)^RHO of the victim's staying power
@@ -198,7 +200,7 @@ function mkFight(sd, st) {
 }
 // One fight. A random fighter of a random side goes for a random enemy; one of the two is hit; a side is out when half its strength is down.
 function simulate(F, lam, rec) {
-  const U = F.units, n = U.length, T = F.T, hp = new Float64Array(n).fill(1), alive = [], downW = new Float64Array(T), downs = new Array(T).fill(0), ev = rec ? [] : null, teams = [];
+  const U = F.units, n = U.length, T = F.T, hp = new Float64Array(n).fill(1), alive = [], downW = new Float64Array(T), downs = new Array(T).fill(0), ev = rec ? [] : null, teams = []; let n2 = 0;
   for (let t = 0; t < T; t++) { alive.push([]); teams.push(t); }
   for (let i = 0; i < n; i++) alive[U[i].team].push(i);
   while (teams.length > 1) {
@@ -210,18 +212,27 @@ function simulate(F, lam, rec) {
       hp[v] = 0; const L = alive[tv], pv = aHits ? pb : pa; L[pv] = L[L.length - 1]; L.pop(); downW[tv] += U[v].wt; downs[tv]++;
       if (downW[tv] >= 0.5 * F.tot[tv] - 1e-9 || !L.length) { broke = tv; teams.splice(aHits ? ib : ia, 1); }
     }
-    if (rec) ev.push({ ka, kb, hpa, hpb, aHits, dmg, hpv: hp[v], broke });
+    if (rec) ev.push({ ka, kb, hpa, hpb, aHits, dmg, hpv: hp[v], broke }); n2++;
   }
-  return { win: teams[0], downs, events: ev };
+  return { win: teams[0], downs, events: ev, n: n2 };
 }
 function shareOf(F, lam, N, t) { let w = 0; for (let i = 0; i < N; i++) if (simulate(F, lam, false).win === t) w++; return w / N; }
-// one tilt per side, so that the fight model on its own gives each side its share p
+// One tilt per side, so that the fight model on its own gives each side its share p. Each tilt: a coarse bisection, then a
+// logistic line through five well-sampled points around it. (The bouts are exact whatever this finds; see drawBout.)
 function calibrate(F, p) {
-  const T = F.T, lam = new Array(T).fill(0), N = Math.round((T === 3 ? 400 : 700) * (F.units.length > 80 ? 0.5 : 1));
-  if (T === 2 && F.units.length === 2) return lam;
-  const solve = (t, set) => { let lo = -14, hi = 14; for (let i = 0; i < 13; i++) { const m = (lo + hi) / 2; set(m); if (shareOf(F, lam, N, t) < p[t]) lo = m; else hi = m; } set((lo + hi) / 2); };
+  const T = F.T, lam = new Array(T).fill(0), lg = v => Math.log(v / (1 - v)); let L = 0; for (let i = 0; i < 40; i++) L += simulate(F, lam, false).n / 40; F.len = L;
+  if (T === 2 && F.units.length === 2) return lam;      // one against one needs none
+  const Nc = clamp(Math.round(40000 / L), 150, 500), Nf = clamp(Math.round((T === 3 ? 250000 : 600000) / L), 500, T === 3 ? 2500 : 6000);
+  const solve = (t, set) => {
+    let lo = -14, hi = 14; for (let i = 0; i < 10; i++) { const m = (lo + hi) / 2; set(m); if (shareOf(F, lam, Nc, t) < p[t]) lo = m; else hi = m; }
+    const c = (lo + hi) / 2; set(c); if (p[t] < 0.01 || p[t] > 0.99) return;
+    let h = 0.3; for (let i = 0; i < 3; i++) { set(c - h); const a = shareOf(F, lam, Nc, t); set(c + h); const b = shareOf(F, lam, Nc, t); if (b - a < 0.12) h *= 2; else if (b - a > 0.6) h /= 2; else break; }
+    let sw = 0, sx = 0, sy = 0, sxx = 0, sxy = 0;
+    for (let i = -2; i <= 2; i++) { const x = c + i * h / 2; set(x); const sh = clamp(shareOf(F, lam, Nf, t), 0.5 / Nf, 1 - 0.5 / Nf), w = sh * (1 - sh), y = lg(sh); sw += w; sx += w * x; sy += w * y; sxx += w * x * x; sxy += w * x * y; }
+    const b = (sw * sxy - sx * sy) / (sw * sxx - sx * sx), a = (sy - b * sx) / sw; set(b > 0 ? clamp((lg(p[t]) - a) / b, c - 2 * h, c + 2 * h) : c);
+  };
   if (T === 2) solve(0, m => { lam[0] = m / 2; lam[1] = -m / 2; });
-  else for (let r = 0; r < 3; r++) for (let t = 0; t < T; t++) solve(t, m => { lam[t] = m; });
+  else for (let r = 0; r < 2; r++) for (let t = 0; t < T; t++) solve(t, m => { lam[t] = m; });
   return lam;
 }
 // A bout: the winner with exactly the shares p, then a fight from the model that ends that way.
@@ -255,7 +266,7 @@ function mkBout(F, res) {
   });
   const Lmax = Math.max(...units.map(u => u.len)), fp = units.reduce((s, u) => s + (u.hum ? 0.6 : u.len), 0), AX = clamp(8 + 0.9 * Lmax + 0.8 * Math.sqrt(fp), 12, 36);
   const B = { F, ev: res.events, win: res.win, ei: 0, units, T: F.T, AX, AY: AX * 2 / 3, t: 0, phase: 'enter', ex: [], cool: 0.3, re: 0, near: 1e9, decals: [], texts: [], strikes: [],
-    out: new Array(F.T).fill(false), downW: new Array(F.T).fill(0), over: false, done: 0 };
+    out: new Array(F.T).fill(false), downW: new Array(F.T).fill(0), over: false, done: 0, tempo: clamp(res.events.length / 25, 1, 3) };   // long fights are played faster
   for (let t = 0; t < F.T; t++) place(B, t);
   return B;
 }
@@ -301,12 +312,12 @@ function launch(B, inPlay) {      // the next exchange of the fight, played by w
   for (const u of inPlay) if (!u.busy) { if (fits(u, E.ka, E.hpa)) A.push(u); if (fits(u, E.kb, E.hpb)) Bs.push(u); }
   if (!A.length || !Bs.length) return false;           // its fighters are still in an earlier exchange
   const a = A[(Math.random() * A.length) | 0]; let b = null, bd = 1e9; for (const v of Bs) { const d = Math.hypot(v.x - a.x, v.y - a.y); if (d < bd) { bd = d; b = v; } }
-  const e = { a, b, E, ph: 'wind', t: 0.3 + Math.random() * 0.55 }; a.busy = b.busy = e; B.ex.push(e); B.ei++; return true;
+  const e = { a, b, E, ph: 'wind', t: (0.3 + Math.random() * 0.55) / B.tempo }; a.busy = b.busy = e; B.ex.push(e); B.ei++; return true;
 }
 function feint(B, inPlay) {       // an exchange that lands nothing; for the eye only
   const free = inPlay.filter(u => !u.busy); if (free.length < 2) return false; const a = free[(Math.random() * free.length) | 0]; let b = null, bd = 1e9;
   for (const v of free) if (v.team !== a.team) { const d = Math.hypot(v.x - a.x, v.y - a.y); if (d < bd) { bd = d; b = v; } }
-  if (!b) return false; const e = { a, b, E: null, ph: 'wind', t: 0.3 + Math.random() * 0.4 }; a.busy = b.busy = e; B.ex.push(e); return true;
+  if (!b) return false; const e = { a, b, E: null, ph: 'wind', t: (0.3 + Math.random() * 0.4) / B.tempo }; a.busy = b.busy = e; B.ex.push(e); return true;
 }
 function land(B, e) {
   const E = e.E, mx = (e.a.x + e.b.x) / 2, my = (e.a.y + e.b.y) / 2;
@@ -323,8 +334,8 @@ function runEx(B, e, dt) {
   const a = e.a, b = e.b, dx = b.x - a.x, dy = b.y - a.y, d = Math.hypot(dx, dy) || 1e-6, ang = Math.atan2(dy, dx);
   if (e.ph === 'wind') { turnTo(a, ang, dt, 1.5); turnTo(b, ang + Math.PI, dt, 1); a.x += dx / d * a.walk * 0.25 * dt; a.y += dy / d * a.walk * 0.25 * dt; if ((e.t -= dt) <= 0) { e.ph = 'go'; e.t = 0; } }
   else if (e.ph === 'go') {
-    turnTo(a, ang, dt, 2.5); turnTo(b, ang + Math.PI, dt, 1); const sp = Math.min(a.charge * (1 + e.t) * dt, d); a.x += dx / d * sp; a.y += dy / d * sp; e.t += dt;
-    if (d < ext(b, ang + Math.PI) + (a.hum ? a.reach : a.len * 0.42) || e.t > 5) { land(B, e); e.ph = 'clash'; e.t = 0.45; }
+    turnTo(a, ang, dt, 2.5); turnTo(b, ang + Math.PI, dt, 1); const sp = Math.min(a.charge * (0.75 + 0.25 * B.tempo) * (1 + e.t) * dt, d); a.x += dx / d * sp; a.y += dy / d * sp; e.t += dt;
+    if (d < ext(b, ang + Math.PI) + (a.hum ? a.reach : a.len * 0.42) || e.t > 5) { land(B, e); e.ph = 'clash'; e.t = 0.45 / B.tempo; }
   } else if ((e.t -= dt) <= 0) { a.busy = b.busy = null; B.ex.splice(B.ex.indexOf(e), 1); }
 }
 function step(B, dt) {
@@ -336,7 +347,7 @@ function step(B, dt) {
   else if (B.phase === 'enter') { if (B.near < 4 || B.t > 7) B.phase = 'fight'; }
   else {
     B.cool -= dt; const maxAct = 1 + Math.floor(inPlay.length / 10);
-    if (B.ei < B.ev.length && B.ex.length < maxAct && B.cool <= 0 && (Math.random() < 0.1 ? feint(B, inPlay) : launch(B, inPlay))) B.cool = (0.25 + Math.random() * 0.5) / Math.sqrt(maxAct);
+    if (B.ei < B.ev.length && B.ex.length < maxAct && B.cool <= 0 && (Math.random() < 0.1 ? feint(B, inPlay) : launch(B, inPlay))) B.cool = (0.25 + Math.random() * 0.5) / Math.sqrt(maxAct) / B.tempo;
     for (const e of B.ex.slice()) runEx(B, e, dt);
     if (B.ei >= B.ev.length && !B.ex.some(e => e.E)) { B.over = true; for (const e of B.ex) e.a.busy = e.b.busy = null; B.ex = []; }
   }
@@ -389,7 +400,7 @@ if (typeof document !== 'undefined' && DATA) (function () {
   function rebuild() {
     const sd = sides(), k = kOf(S.kmode, false), st = strengths(sd, drawCtx(false), k), F = mkFight(sd, st), lam = calibrate(F, st.p);
     let p = st.p; if (S.unc) { const N = 3000; p = new Array(sd.length).fill(0); for (let i = 0; i < N; i++) strengths(sd, drawCtx(true), kOf(S.kmode, true)).p.forEach((v, t) => { p[t] += v / N; }); }
-    const N = F.units.length > 80 ? 1500 : 4000, c = new Array(F.T).fill(0); for (let i = 0; i < N; i++) c[simulate(F, lam, false).win]++;
+    const N = clamp(Math.round(2e6 / F.len), 1500, 12000), c = new Array(F.T).fill(0); for (let i = 0; i < N; i++) c[simulate(F, lam, false).win]++;
     M = { sd, st, F, lam, p, self: c.map(v => v / N) }; T.n = 0; T.w = [0, 0, 0]; T.d = [0, 0, 0];
     renderOdds(); renderTally(); newBout();
   }
@@ -427,14 +438,14 @@ if (typeof document !== 'undefined' && DATA) (function () {
     // who does what to whom
     const pairs = []; F.kinds.forEach((a, i) => F.kinds.forEach((b, j) => { if (i < j && a.team !== b.team) pairs.push([i, j], [j, i]); }));
     const tr = ([i, j]) => { const a = F.kinds[i], b = F.kinds[j], q = 1 / (1 + Math.exp(-(F.lq[i][j] + lam[a.team] - lam[b.team])));
-      return `<tr><td style="color:${COL[a.team]}">${esc(a.t.label)}</td><td style="color:${COL[b.team]}">${esc(b.t.label)}</td><td class="num">${F.f[i][j] >= 1 ? 'all' : Math.max(1, Math.round(F.f[i][j] * 100)) + '%'}</td><td class="num">${F.hits[i][j]}</td><td class="num">${pct(q)}</td></tr>`; };
-    $('hits').innerHTML = '<thead><tr><th>A hit by</th><th>on</th><th class="num">takes</th><th class="num">hits to down</th><th class="num">lands</th></tr></thead><tbody>' + pairs.slice(0, 10).map(tr).join('') + '</tbody>';
+      return `<tr><td style="color:${COL[a.team]}">${esc(a.t.label)}</td><td style="color:${COL[b.team]}">${esc(b.t.label)}</td><td class="num">${F.f[i][j] >= 1 ? 'all' : Math.max(1, Math.floor(F.f[i][j] * 100 + 1e-9)) + '%'}</td><td class="num">${F.hits[i][j]}</td><td class="num">${pct(q)}</td></tr>`; };
+    $('hits').innerHTML = '<thead><tr><th>A hit by</th><th>on</th><th class="num">takes</th><th class="num">hits to down him</th><th class="num">lands</th></tr></thead><tbody>' + pairs.slice(0, 10).map(tr).join('') + '</tbody>';
     const selfTxt = M.self.map((v, t) => `${sideName(t)} ${pct1(v)} (share ${pct1(st.p[t])})`).slice(0, three ? 3 : 1).join(', ');
     $('self').innerHTML = (pairs.length > 10 ? 'The first ten pairings are shown. ' : '') + `“Takes” is the part of the victim's staying power one hit removes; “lands” is the share of their exchanges the attacker wins. Run on its own, with no winner fixed in advance, this fight model gives ${selfTxt}. Every bout you watch draws its winner with the exact share first.`;
   }
   function renderTally() {
     const three = M.sd.length === 3, sh = v => (100 * v).toFixed(T.n >= 200 ? 1 : 0);
-    $('t_n').textContent = T.n.toLocaleString('en-US');
+    $('t_n').textContent = T.n.toLocaleString('en-US'); $('t_w').className = $('t_d').className = three ? 'three' : '';
     $('t_w').textContent = !T.n ? '–' : three ? T.w.map(w => sh(w / T.n)).join(' / ') : sh(T.w[0] / T.n) + '%';
     $('t_wl').textContent = three ? 'won: ivory / red / blue, %' : 'won by ' + sideName(0);
     $('t_d').textContent = three ? M.p.map(v => (100 * v).toFixed(1)).join(' / ') : pct1(M.p[0]);

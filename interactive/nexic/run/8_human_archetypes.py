@@ -3,7 +3,7 @@
 
 Usage:  python3 8_human_archetypes.py      reads ../final_scores.csv (and outputs/graph/summary.json for the mass exponent)
         -> outputs/human_archetypes.csv, outputs/human_duel_matrix.csv, outputs/humans_vs_raptors.csv, outputs/human_model.json
-           and, when ../arena.html exists, the data block of that page
+           and, when ../arena.html exists, the data block of that page (fighters, animals, group exponent)
 
 Each archetype gets two numbers, because one cannot do both jobs.
   score      where the fighter stands among the animals, on the scale of final_scores.csv (African Lion = 100):
@@ -98,9 +98,24 @@ ARCHETYPES = {
 VERSUS = ['Venator (arena hunter), hunting spear', 'Gladiator, murmillo', 'Gladiator, hoplomachus', 'Gladiator, retiarius', 'Hunter with a spear', 'Untrained man']
 RAPTORS = ['Dakotaraptor steini', 'Utahraptor ostrommaysorum']
 ARENA = os.path.join('..', 'arena.html')
-OPPONENTS = {   # for the arena page: (kg, body length m, shape); masses as in step 6
-    'African Lion': (185, 2.6, 'cat'), 'Brown Bear': (300, 2.3, 'bear'), 'Deinonychus antirrhopus': (73, 3.3, 'raptor'), 'Dakotaraptor steini': (250, 5.5, 'raptor'),
-    'Utahraptor ostrommaysorum': (500, 6.0, 'raptor'), 'Tyrannosaurus rex': (8000, 12.3, 'rex')}
+ANIMALS = {     # for the arena page: (label, plural, kg, body length m, shape, coat, body colour, dark colour, accent); masses as in step 6 where it has them
+    'African Lion': ('Lion', 'Lions', 185, 2.6, 'cat', 'mane', '#b98a4b', '#6b4a22', '#c2954f'),
+    'Tiger': ('Tiger', 'Tigers', 220, 2.9, 'cat', 'stripes', '#d9822b', '#2b1a0c', '#f1e3c8'),
+    'Leopard': ('Leopard', 'Leopards', 60, 2.0, 'cat', 'spots', '#c9a35a', '#3a2a14', '#e2c98a'),
+    'Grey Wolf': ('Grey Wolf', 'Grey Wolves', 40, 1.6, 'dog', '', '#8d8b84', '#4c4a45', '#c9c6bb'),
+    'Spotted Hyena': ('Spotted Hyena', 'Spotted Hyenas', 55, 1.5, 'dog', 'spots', '#a8946a', '#3d3222', '#cdbb93'),
+    'Brown Bear': ('Brown Bear', 'Brown Bears', 300, 2.3, 'bear', '', '#4a3626', '#3a2a1e', '#5a4230'),
+    'Polar Bear': ('Polar Bear', 'Polar Bears', 450, 2.6, 'bear', '', '#e6e3d8', '#bdb8a8', '#f4f2ea'),
+    'African Bush Elephant': ('Elephant', 'Elephants', 6000, 6.5, 'elephant', '', '#77736c', '#55514b', '#efe6cf'),
+    'Velociraptor mongoliensis': ('Velociraptor', 'Velociraptors', 15, 2.0, 'raptor', '', '#8a6f4d', '#5c4830', '#d9c8a0'),
+    'Deinonychus antirrhopus': ('Deinonychus', 'Deinonychus', 73, 3.3, 'raptor', '', '#5d5346', '#3b352d', '#7fa0b8'),
+    'Dakotaraptor steini': ('Dakotaraptor', 'Dakotaraptors', 250, 5.5, 'raptor', '', '#4d4038', '#2f2722', '#c9772e'),
+    'Utahraptor ostrommaysorum': ('Utahraptor', 'Utahraptors', 500, 6.0, 'raptor', '', '#5a4433', '#3d2e22', '#a3492c'),
+    'Dilophosaurus wetherilli': ('Dilophosaurus', 'Dilophosaurus', 400, 6.5, 'rex', 'crest', '#6a6a3c', '#48482a', '#c05a2e'),
+    'Ceratosaurus nasicornis': ('Ceratosaurus', 'Ceratosaurus', 700, 6.0, 'rex', 'horn', '#7a4a34', '#4f2f22', '#d8c9a8'),
+    'Carnotaurus sastrei': ('Carnotaurus', 'Carnotaurus', 1500, 8.0, 'rex', 'horns', '#7d4b3a', '#52302a', '#d8c9a8'),
+    'Allosaurus fragilis': ('Allosaurus', 'Allosaurus', 1700, 8.5, 'rex', 'crest', '#5e5a44', '#3e3b2c', '#a8452c'),
+    'Tyrannosaurus rex': ('T. rex', 'T. rexes', 8000, 12.3, 'rex', '', '#55603f', '#3c452c', '#e8c14a')}
 
 
 def pooled(pairs, B):
@@ -186,10 +201,14 @@ def main():
                  raptors={r: dict(crowd=float(B.score[r]), corrected=float(B.full_p50[r]), corrected_p05=float(B.full_p05[r]), corrected_p95=float(B.full_p95[r])) for r in RAPTORS})
     json.dump(model, open('outputs/human_model.json', 'w'), indent=1)
     if os.path.exists(ARENA):   # refresh the data block of the arena page
-        data = dict(k=k_hat, k_sd=K_SD,
-                    fighters=[dict(name=a, mu=float(np.median(logs[a])), sd=sd(logs[a]), weapon=ARCHETYPES[a][2] or 'none', armour=ARCHETYPES[a][5], mass=ARCHETYPES[a][1]) for a in names],
-                    opponents=[dict(name=o, kg=kg, length=L, shape=shp, crowd_mu=float(np.log(B.score[o])), crowd_sd=float(B.se_log[o]), corr_mu=float(np.log(B.full_p50[o])),
-                                    corr_sd=float(np.log(B.full_p95[o] / B.full_p05[o]) / 3.29), dino=shp in ('raptor', 'rex')) for o, (kg, L, shp) in OPPONENTS.items()])
+        # a dinosaur's corrected log-score is its crowd log-score plus dmu, with the factor's own spread dsd (one draw shared by all dinosaurs)
+        data = dict(k=k_hat, k_sd=K_SD, gamma=GAMMA[0], gamma_sd=GAMMA[1], cross=CROSS[0],
+                    fighters=[dict(name=a, mu=float(np.median(logs[a])), sd=sd(logs[a]), duel=float(np.median(duel[a])), duel_sd=sd(duel[a]),
+                                   usk=float(SKILL[ARCHETYPES[a][3]][0]) if ARCHETYPES[a][2] is None else 0.0, weapon=ARCHETYPES[a][2] or 'none', armour=ARCHETYPES[a][5], mass=ARCHETYPES[a][1]) for a in names],
+                    animals=[dict(name=o, label=lab, plural=pl, kg=kg, length=L, shape=shp, coat=coat, body=body, dark=dark, accent=acc, mu=float(np.log(B.score[o])), sd=float(B.se_log[o]),
+                                  dino=bool(B['class'][o] == 'dinosaur'), dmu=float(np.log(B.full_p50[o] / B.score[o])),
+                                  dsd=float(np.sqrt(max((np.log(B.full_p95[o] / B.full_p05[o]) / 3.29)**2 - B.se_log[o]**2, 0.0))))
+                             for o, (lab, pl, kg, L, shp, coat, body, dark, acc) in ANIMALS.items()])
         page = open(ARENA, encoding='utf-8').read(); a, b = page.find('/*DATA*/'), page.find('/*END DATA*/')
         if 0 <= a < b: open(ARENA, 'w', encoding='utf-8').write(page[:a] + '/*DATA*/const DATA = ' + json.dumps(data, separators=(',', ':')) + ';' + page[b:]); print('refreshed ../arena.html')
     print(f"measured on the scale: spear x{np.exp(spear[0]):.2f} (log {spear[0]:.2f} ± {spear[1]:.2f}), club x{np.exp(club[0]):.2f}, female x{np.exp(female[0]):.2f}, "
