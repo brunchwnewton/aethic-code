@@ -6,56 +6,75 @@
 <title>Gladiators against a Raptor</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700&family=JetBrains+Mono:wght@400;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
 <style>
-  /* Layout: the arena on the left, the bout and its odds on the right; one column on a phone. Single dark theme, as on the paper's other pages. */
+  /* Layout: the arena and its blow-by-blow on the left, the setup and the odds on the right; one column on a phone. Single dark theme, as on the paper's other pages. */
   :root{color-scheme:dark;--bg:#08080a;--surface:#111114;--surface2:#19191e;--border:#2a2a30;--text:#d4d4d8;--text-dim:#8b8b94;--text-faint:#52525b;
-    --dino:#ef4444;--dino-text:#fca5a5;--men:#e7dcc3;--bench:#eab308;--sand:#b08d5c;
+    --t0:#e7dcc3;--t1:#ef4444;--t2:#60a5fa;--bench:#eab308;
     --display:'Playfair Display',Georgia,serif;--body:'DM Sans',system-ui,-apple-system,'Segoe UI',sans-serif;--mono:'JetBrains Mono',ui-monospace,Menlo,Consolas,monospace}
   *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  [hidden]{display:none!important}
   html,body{background:var(--bg);color:var(--text);font-family:var(--body);-webkit-font-smoothing:antialiased}
   body{overflow-x:hidden}
-  .wrap{max-width:1180px;margin:0 auto;padding:28px 20px 48px;display:flex;flex-direction:column;gap:20px}
+  .wrap{max-width:1220px;margin:0 auto;padding:28px 20px 48px;display:flex;flex-direction:column;gap:20px}
   header h1{font-family:var(--display);font-size:clamp(26px,4vw,38px);line-height:1.1;text-wrap:balance}
-  header h1 em{color:var(--dino);font-style:italic}
-  header p{color:var(--text-dim);font-size:15px;line-height:1.5;max-width:66ch;margin-top:8px}
-  .stage{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(300px,1fr);gap:20px;align-items:start}
-  @media (max-width:900px){.stage{grid-template-columns:minmax(0,1fr)}}
+  header h1 em{color:var(--t1);font-style:italic}
+  header p{color:var(--text-dim);font-size:15px;line-height:1.5;max-width:68ch;margin-top:8px}
+  .stage{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(320px,1fr);gap:20px;align-items:start}
+  @media (max-width:940px){.stage{grid-template-columns:minmax(0,1fr)}}
+  .col{display:flex;flex-direction:column;gap:14px;min-width:0}
+  .pair{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:14px}
   .arena{background:var(--surface);border:1px solid var(--border);border-radius:10px;overflow:hidden}
   canvas{display:block;width:100%;height:auto}
   .bar{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;padding:10px 12px;border-top:1px solid var(--border);font-size:13px;color:var(--text-dim)}
   .bar label{display:flex;align-items:center;gap:6px}
-  .panel{display:flex;flex-direction:column;gap:14px}
-  .card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:10px}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px;display:flex;flex-direction:column;gap:10px;min-width:0}
   .card h2{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-dim);font-weight:700}
+  .stack{display:flex;flex-direction:column;gap:10px}
   .field{display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--text-dim)}
   .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-  select,input[type=number]{background:var(--surface2);color:var(--text);border:1px solid var(--border);border-radius:6px;padding:7px 8px;font:inherit;font-size:14px;width:100%}
+  select,input[type=number]{background:var(--surface2);color:var(--text);border:1px solid var(--border);border-radius:6px;padding:7px 8px;font:inherit;font-size:14px;width:100%;min-width:0}
   input[type=number]{width:72px;font-family:var(--mono)}
-  input[type=range]{flex:1;min-width:90px;accent-color:var(--dino)}
-  input[type=checkbox],input[type=radio]{accent-color:var(--dino)}
+  input[type=range]{flex:1;min-width:80px;accent-color:var(--t1)}
+  input[type=checkbox],input[type=radio]{accent-color:var(--t1)}
   .seg{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--border);border-radius:6px;overflow:hidden}
   .seg label{padding:8px 6px;text-align:center;font-size:13px;color:var(--text-dim);cursor:pointer;background:var(--surface2);line-height:1.25}
   .seg input{position:absolute;opacity:0}
   .seg input:checked+span{color:var(--text);font-weight:700}
-  .seg label:has(input:checked){background:#2a1416;box-shadow:inset 0 -2px 0 var(--dino)}
+  .seg label:has(input:checked){background:#2a1416;box-shadow:inset 0 -2px 0 var(--t1)}
   .seg label:has(input:disabled){opacity:.45;cursor:default}
   .seg label:has(input:focus-visible),button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--bench);outline-offset:1px}
   button{font:inherit;font-size:14px;font-weight:700;border-radius:6px;padding:9px 12px;border:1px solid var(--border);background:var(--surface2);color:var(--text);cursor:pointer}
-  button.go{background:var(--dino);border-color:var(--dino);color:#160404}
+  button.go{background:var(--t1);border-color:var(--t1);color:#160404}
+  button.small{font-size:12px;font-weight:500;padding:6px 9px}
   button:hover{filter:brightness(1.12)}
+  button:disabled{opacity:.35;cursor:default;filter:none}
+  .side{display:flex;flex-direction:column;gap:6px;border-left:3px solid var(--c);padding-left:10px}
+  .side-h{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--c)}
+  .side .small{align-self:flex-start}
+  .trow{display:grid;grid-template-columns:62px minmax(0,1fr) 34px;gap:6px;align-items:center}
+  .trow input{width:100%}
+  .trow button{padding:0;height:35px;font-weight:500}
   .big{font-family:var(--mono);font-weight:600;font-size:34px;color:var(--text);font-variant-numeric:tabular-nums;line-height:1}
   .big small{font-size:12px;color:var(--text-dim);font-family:var(--body);font-weight:400;margin-left:8px}
+  .shares{display:flex;flex-wrap:wrap;gap:6px 14px;font-family:var(--mono);font-size:14px;font-weight:600;font-variant-numeric:tabular-nums}
   .note{font-size:12.5px;color:var(--text-dim);line-height:1.5}
   .note b{color:var(--text);font-weight:500}
-  .bars{display:grid;grid-template-columns:auto 1fr auto;gap:6px 8px;align-items:center;font-size:12px}
-  .bars .lab{color:var(--text-dim);white-space:nowrap}
+  .bars{display:grid;grid-template-columns:minmax(0,11.5em) minmax(50px,1fr) auto;gap:6px 8px;align-items:center;font-size:12px}
+  .bars .lab{color:var(--text-dim);line-height:1.25}
   .bars .val{font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right;color:var(--text)}
-  .track{position:relative;height:12px;background:var(--surface2);border-radius:3px;min-width:60px}
+  .bars .sub{padding-left:10px;font-size:11.5px}
+  .track{position:relative;height:12px;background:var(--surface2);border-radius:3px}
+  .track.thin{height:7px}
   .fill{position:absolute;left:0;top:0;bottom:0;border-radius:3px}
   .whisk{position:absolute;top:5px;height:2px;background:#fff8;border-radius:1px}
   .off{opacity:.38}
+  .scroll{overflow-x:auto}
+  table{border-collapse:collapse;width:100%;font-size:12px}
+  th{font-weight:500;color:var(--text-dim);text-align:left;padding:3px 8px 5px 0;border-bottom:1px solid var(--border);white-space:nowrap}
+  td{padding:4px 8px 4px 0;border-bottom:1px solid #1d1d22;vertical-align:top;line-height:1.3}
+  td.num,th.num{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap;padding-right:0;padding-left:8px}
   .tally{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
-  .tally div{background:var(--surface2);border-radius:6px;padding:8px}
-  .tally b{display:block;font-family:var(--mono);font-size:18px;font-variant-numeric:tabular-nums;color:var(--text)}
+  .tally div{background:var(--surface2);border-radius:6px;padding:8px;min-width:0}
+  .tally b{display:block;font-family:var(--mono);font-size:17px;font-variant-numeric:tabular-nums;color:var(--text);overflow-wrap:anywhere}
   .tally span{font-size:11px;color:var(--text-dim)}
   .notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
   .notes .card p{font-size:13.5px;line-height:1.55;color:var(--text-dim)}
@@ -66,247 +85,500 @@
 <div class="wrap">
   <header>
     <h1>Gladiators against a <em>raptor</em></h1>
-    <p>How many trained fighters does it take? The odds of every bout come from the scores of the Dinosaur Recalibration fit. Switch the animal between the score the crowd voted and the anatomy-corrected score, and watch what the correction means on the sand.</p>
+    <p>Put fighters and animals on the sand, on two sides or three. The odds of every bout come from the scores of the Dinosaur Recalibration fit. Switch a dinosaur between the score the crowd voted and the anatomy-corrected score, and watch what the correction means in the arena.</p>
   </header>
   <div class="stage">
-    <div class="arena">
-      <canvas id="cv" width="1200" height="820" role="img" aria-label="Top-down view of the arena with the fighters and the animal"></canvas>
-      <div class="bar">
-        <button class="go" id="fight" type="button">New bout</button>
-        <label><input type="checkbox" id="auto" checked> Keep fighting</label>
-        <label>Speed <input type="range" id="speed" min="0.25" max="4" step="0.25" value="1" style="width:110px"></label>
-        <span id="status" aria-live="polite"></span>
+    <div class="col">
+      <div class="arena">
+        <canvas id="cv" width="1200" height="820" role="img" aria-label="Top-down view of the arena with the sides fighting"></canvas>
+        <div class="bar">
+          <button class="go" id="fight" type="button">New bout</button>
+          <label><input type="checkbox" id="auto" checked> Keep fighting</label>
+          <label>Speed <input type="range" id="speed" min="0.25" max="4" step="0.25" value="1" style="width:110px"></label>
+          <span id="status" aria-live="polite"></span>
+        </div>
+      </div>
+      <div class="pair">
+        <div class="card">
+          <h2>Blow by blow</h2>
+          <div class="scroll"><table id="hits"></table></div>
+          <p class="note" id="self"></p>
+        </div>
+        <div class="card">
+          <h2>The tally</h2>
+          <div class="tally"><div><b id="t_n">0</b><span>bouts</span></div><div><b id="t_w">–</b><span id="t_wl">won</span></div><div><b id="t_d">–</b><span>the model's share</span></div></div>
+          <p class="note" id="cas"></p>
+          <div class="row"><button id="batch" type="button">Run 1,000 bouts</button><button id="reset" type="button">Clear</button></div>
+        </div>
       </div>
     </div>
-    <div class="panel">
+    <div class="col">
       <div class="card">
         <h2>The bout</h2>
-        <div class="field"><label for="who">Fighters</label><select id="who"></select></div>
-        <div class="field"><label for="n">How many</label><div class="row"><input type="range" id="nr" min="1" max="40" value="5" aria-label="How many fighters"><input type="number" id="n" min="1" max="40" value="5"></div></div>
-        <div class="field"><label for="opp">Animal</label><select id="opp"></select></div>
-        <div class="field"><span>Animal's strength</span>
-          <div class="seg"><label><input type="radio" name="basis" id="b_crowd" value="crowd"><span>as the crowd voted</span></label><label><input type="radio" name="basis" id="b_corr" value="corr" checked><span>anatomy-corrected</span></label></div></div>
+        <div class="seg"><label><input type="radio" name="mode" id="m_basic" value="basic" checked><span>Basic</span></label><label><input type="radio" name="mode" id="m_adv" value="adv"><span>Advanced</span></label></div>
+        <div id="basic" class="stack">
+          <div class="field"><label for="who">Fighters</label><select id="who"></select></div>
+          <div class="field"><label for="n">How many fighters</label><div class="row"><input type="range" id="nr" min="1" max="100" value="6" aria-label="How many fighters"><input type="number" id="n" min="1" max="100" value="6"><button type="button" class="small" id="even_btn">Make it even</button></div></div>
+          <div class="field"><label for="opp">Animal</label><select id="opp"></select></div>
+          <div class="field"><label for="na">How many animals</label><div class="row"><input type="range" id="nar" min="1" max="12" value="2" aria-label="How many animals"><input type="number" id="na" min="1" max="12" value="2"></div></div>
+          <div class="field"><span>Animal's strength</span>
+            <div class="seg"><label><input type="radio" name="basis" id="b_crowd" value="crowd"><span>as the crowd voted</span></label><label><input type="radio" name="basis" id="b_corr" value="corr" checked><span>anatomy-corrected</span></label></div></div>
+        </div>
+        <div id="adv" class="stack" hidden>
+          <div class="field"><label for="preset">Try a setup</label><select id="preset"></select></div>
+          <div id="sides" class="stack"></div>
+          <button type="button" class="small" id="third" style="align-self:flex-start">Add a third side</button>
+        </div>
         <div class="field"><label for="kmode">How numbers add up</label><select id="kmode"></select></div>
-        <label class="row note"><input type="checkbox" id="unc"> Draw each bout from the uncertainty bands</label>
+        <label class="row note"><input type="checkbox" id="unc"> Draw each bout's odds from the uncertainty bands</label>
       </div>
       <div class="card">
         <h2>The odds</h2>
-        <div class="big"><span id="p">–</span><small id="plab">fighters win</small></div>
+        <div class="big"><span id="p">–</span><small id="plab"></small></div>
+        <div class="shares" id="three" hidden></div>
         <div class="bars" id="bars"></div>
         <p class="note" id="even"></p>
-      </div>
-      <div class="card">
-        <h2>The tally</h2>
-        <div class="tally"><div><b id="t_n">0</b><span>bouts</span></div><div><b id="t_w">–</b><span>won by the fighters</span></div><div><b id="t_d">–</b><span>the model's share</span></div></div>
-        <div class="row"><button id="batch" type="button">Run 1,000 bouts</button><button id="reset" type="button">Clear</button></div>
       </div>
     </div>
   </div>
   <div class="notes">
-    <div class="card"><h2>What is measured</h2><p>The scores are Bradley–Terry strengths fitted to public votes on animal matchups, <b>African Lion = 100</b>. A bout's odds are the vote share S<sub>fighters</sub> / (S<sub>fighters</sub> + S<sub>animal</sub>). The untrained man, the spear's premium and the way groups add up are read from those votes. The anatomy correction multiplies a dinosaur's crowd score by the paper's factor.</p></div>
-    <div class="card"><h2>What is judgment</h2><p>Skill, armour, the weapons other than spear and club, and how much of a duellist's skill carries over against an animal are estimates with wide bands, set in step 8 of the pipeline. Tick the uncertainty box and each bout draws the fighter, the animal and the group exponent from their bands.</p></div>
-    <div class="card"><h2>What is staging</h2><p>The winner of each bout is drawn with the model's share, and the exchanges are then choreographed to that result: a favoured side usually wins cleanly, an unfavoured one narrowly. The fighters count as beaten when half of them are down. Who is struck, and how many fall, come from that staging and not from data. A vote share is not a casualty forecast.</p></div>
+    <div class="card"><h2>What is measured</h2><p>The scores are Bradley–Terry strengths fitted to public votes on animal matchups, <b>African Lion = 100</b>. A bout's odds are the vote share S<sub>one side</sub> / (S<sub>one side</sub> + S<sub>the other</sub>). The untrained man, the spear's premium and the way groups add up are read from those votes. The anatomy correction multiplies a dinosaur's crowd score by the paper's factor.</p></div>
+    <div class="card"><h2>What is judgment</h2><p>Skill, armour, the weapons other than spear and club, and how much of a duellist's skill carries over against an animal are estimates with wide bands, set in step 8 of the pipeline. Tick the uncertainty box and each bout draws its odds from those bands.</p></div>
+    <div class="card"><h2>How a bout is fought</h2><p>The winner is drawn first, with <b>exactly the model's share</b>, so the long-run tally is the Bradley–Terry share by construction. The fight you watch is then drawn from a fight model until it ends that way. In that model a hit takes (attacker's strength ÷ victim's strength)<sup>0.4</sup> of the victim's staying power, a third between equals, so a T. rex downs a man in one bite and a man needs dozens of thrusts. Who lands each exchange is solved so that one against one reproduces the share, and one tilt per side does the same for groups. A side is beaten when half its strength is down. The 0.4 and the third are staging choices; they shape the fight and not the odds.</p></div>
+    <div class="card"><h2>Mixed sides, three sides</h2><p>Different kinds on one side add as (Σ s<sup>1/k</sup>)<sup>k</sup>, which gives n<sup>k</sup> for n alike. With three sides each wins in proportion to its strength, the multi-way form of Bradley–Terry; the votes are all one against one, so that is an extension. When everyone on the sand is human, the odds are real odds from step 8's duel ratings and no longer vote shares.</p></div>
   </div>
 </div>
 <script>
-/*DATA*/const DATA = {"k":1.4419766991887197,"k_sd":0.15,"fighters":[{"name":"Knight on foot, poleaxe, full plate","mu":5.188933711447918,"sd":0.7099407471477331,"weapon":"pike or polearm","armour":"full plate","mass":78},{"name":"Venator, champion, hunting spear","mu":4.978570529415537,"sd":0.6232166174881913,"weapon":"spear","armour":"none","mass":80},{"name":"Greek hoplite, dory and aspis","mu":4.857374799815629,"sd":0.6191605783301406,"weapon":"spear + shield","armour":"mail or plates with helmet","mass":68},{"name":"Knight on foot, longsword, full plate","mu":4.590916136409775,"sd":0.7113748988198069,"weapon":"two-handed sword","armour":"full plate","mass":78},{"name":"Gladiator, hoplomachus","mu":4.5737446028622495,"sd":0.5857337236763454,"weapon":"spear + small shield","armour":"helmet and guards","mass":76},{"name":"Venator (arena hunter), hunting spear","mu":4.55496136024712,"sd":0.5469212908301806,"weapon":"spear","armour":"none","mass":74},{"name":"Swiss pikeman","mu":4.520903904970413,"sd":0.639428139466365,"weapon":"pike or polearm","armour":"helmet and guards","mass":70},{"name":"Gladiator, champion murmillo, 90 kg","mu":4.465561644874326,"sd":0.6318118461414362,"weapon":"sword + large shield","armour":"helmet and guards","mass":90},{"name":"Viking, axe and shield","mu":4.386988161913999,"sd":0.6429618605873872,"weapon":"axe + shield","armour":"mail or plates with helmet","mass":78},{"name":"Roman legionary, gladius and scutum","mu":4.3529679616275185,"sd":0.617789606378256,"weapon":"sword + large shield","armour":"mail or plates with helmet","mass":68},{"name":"Zulu warrior, iklwa and shield","mu":4.2198881308874725,"sd":0.5937401734871444,"weapon":"short stabbing spear + shield","armour":"none","mass":70},{"name":"Gladiator, murmillo","mu":4.188103645736081,"sd":0.5826369676725524,"weapon":"sword + large shield","armour":"helmet and guards","mass":78},{"name":"Samurai, katana","mu":4.105332372755772,"sd":0.6742059578742737,"weapon":"two-handed sword","armour":"mail or plates with helmet","mass":62},{"name":"Gladiator, retiarius","mu":4.094518356720467,"sd":0.6317086856259762,"weapon":"trident + net","armour":"arm and shoulder guard","mass":72},{"name":"Gladiator, thraex","mu":4.027949845375723,"sd":0.5832191989679464,"weapon":"sword + small shield","armour":"helmet and guards","mass":76},{"name":"Maasai warrior, spear and shield","mu":4.007105869115018,"sd":0.5034499796328751,"weapon":"spear + shield","armour":"none","mass":68},{"name":"Gladiator, novice murmillo","mu":3.7781269850272654,"sd":0.5222258451586269,"weapon":"sword + large shield","armour":"helmet and guards","mass":76},{"name":"Hunter with a spear","mu":3.707977955335295,"sd":0.4002447293570743,"weapon":"spear","armour":"none","mass":68},{"name":"Martial artist with a staff","mu":3.2483165748812493,"sd":0.6205175044077658,"weapon":"staff","armour":"none","mass":72},{"name":"Untrained man with a spear","mu":3.04925429718819,"sd":0.4189786284181777,"weapon":"spear","armour":"none","mass":70},{"name":"Martial artist with a knife","mu":2.9448113082035645,"sd":0.6239247698971384,"weapon":"knife","armour":"none","mass":72},{"name":"Professional MMA fighter, 120 kg","mu":2.8471434118600163,"sd":0.3171653035893821,"weapon":"none","armour":"none","mass":120},{"name":"Elite heavyweight champion, 110 kg","mu":2.82744122017061,"sd":0.3656715278844835,"weapon":"none","armour":"none","mass":110},{"name":"Untrained man with a knife","mu":2.275909210198848,"sd":0.4249710386925097,"weapon":"knife","armour":"none","mass":70},{"name":"Professional MMA fighter, 77 kg","mu":2.2709466435720014,"sd":0.30707884873799496,"weapon":"none","armour":"none","mass":77},{"name":"Untrained man with a club","mu":2.195138572996421,"sd":0.748075963496728,"weapon":"club","armour":"none","mass":70},{"name":"Amateur boxer, 75 kg","mu":2.1065225785888657,"sd":0.24813998322492714,"weapon":"none","armour":"none","mass":75},{"name":"Untrained man","mu":1.8639596020708034,"sd":0.21449951511503537,"weapon":"none","armour":"none","mass":70},{"name":"Professional woman fighter, 61 kg","mu":1.5046552531153776,"sd":0.487337455700164,"weapon":"none","armour":"none","mass":61},{"name":"Untrained woman","mu":1.1415686312483158,"sd":0.4314365289904519,"weapon":"none","armour":"none","mass":58}],"opponents":[{"name":"African Lion","kg":185,"length":2.6,"shape":"cat","crowd_mu":4.605170185988092,"crowd_sd":0.362743,"corr_mu":4.604379873773648,"corr_sd":0.3714099829576232,"dino":false},{"name":"Brown Bear","kg":300,"length":2.3,"shape":"bear","crowd_mu":4.820483158187113,"crowd_sd":0.195102,"corr_mu":4.82354237242341,"corr_sd":0.19837605071031653,"dino":false},{"name":"Deinonychus antirrhopus","kg":73,"length":3.3,"shape":"raptor","crowd_mu":3.5241168329508876,"crowd_sd":0.163347,"corr_mu":4.718320283920748,"corr_sd":0.5885161225221065,"dino":true},{"name":"Dakotaraptor steini","kg":250,"length":5.5,"shape":"raptor","crowd_mu":5.329462288876575,"crowd_sd":0.341473,"corr_mu":6.523472727981854,"corr_sd":0.6110768343800543,"dino":true},{"name":"Utahraptor ostrommaysorum","kg":500,"length":6.0,"shape":"raptor","crowd_mu":5.6554217182780455,"crowd_sd":0.177424,"corr_mu":6.850944686998094,"corr_sd":0.5918578805146181,"dino":true},{"name":"Tyrannosaurus rex","kg":8000,"length":12.3,"shape":"rex","crowd_mu":9.258053766160643,"crowd_sd":0.295197,"corr_mu":10.474695886507359,"corr_sd":0.6468817889790325,"dino":true}]};/*END DATA*/
+/*DATA*/const DATA = null;/*END DATA*/
 
-// ---------- the model (pure functions) ----------
-const KMODES = [['crowd', 'as the crowd\'s own groups do (n^' + (DATA ? DATA.k.toFixed(2) : '?') + ')'], ['1', 'in proportion (n^1)'], ['0.7', 'as step 3 of the pipeline assumes (n^0.7)']];
-function gauss() { let u = 0, v = 0; while (!u) u = Math.random(); while (!v) v = Math.random(); return Math.sqrt(-2 * Math.log(u)) * Math.cos(6.283185307 * v); }
-function woundsFor(kg) { return Math.max(3, Math.round(2.2 * Math.log10(kg) + 1)); }
-function kOf(mode, draw) { return mode === 'crowd' ? (draw ? Math.min(2.5, Math.max(0.5, DATA.k + DATA.k_sd * gauss())) : DATA.k) : +mode; }
-function share(f, o, n, basis, mode, draw) {
-  const lf = f.mu + (draw ? f.sd * gauss() : 0), lo = (basis === 'corr' ? o.corr_mu : o.crowd_mu) + (draw ? (basis === 'corr' ? o.corr_sd : o.crowd_sd) * gauss() : 0);
-  const r = Math.exp(kOf(mode, draw) * Math.log(n) + lf - lo); return r / (1 + r);
+// ================= 1. strengths and odds =================
+const RHO = 0.4, F0 = 1 / 3;      // staging: a hit takes F0 * (attacker / victim)^RHO of the victim's staying power
+const TAU = 6.283185307179586, clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+function gauss() { let u = 0, v = 0; while (!u) u = Math.random(); while (!v) v = Math.random(); return Math.sqrt(-2 * Math.log(u)) * Math.cos(TAU * v); }
+function kOf(mode, draw) { return mode === 'crowd' ? (draw ? clamp(DATA.k + DATA.k_sd * gauss(), 0.5, 2.5) : DATA.k) : +mode; }
+// one draw of everything uncertain: a z per fighter or animal (shared by both sides), one for the anatomy factor, one conversion rate
+function drawCtx(on) { return { on, zF: on ? gauss() : 0, g: on ? clamp(DATA.gamma + DATA.gamma_sd * gauss(), 0.15, 0.8) : DATA.gamma, c: {} }; }
+function zOf(c, key) { if (!c.on) return 0; if (!(key in c.c)) c.c[key] = gauss(); return c.c[key]; }
+function logScore(t, c) {         // log strength among the animals; a type is {human, ref, basis}
+  const r = t.ref; let v = r.mu + r.sd * zOf(c, r.name);
+  if (!t.human && t.basis === 'corr') v += r.dmu + r.dsd * c.zF; return v;
 }
-// The winner of a bout is drawn with the model's share; the exchanges are then choreographed to that result. A favoured side
-// usually wins cleanly, an unfavoured one narrowly. The fighters are beaten when half of them are down.
-function script(P, H, n) {
-  const win = Math.random() < P, a = Math.min(8, Math.max(0.4, P / (1 - P))), D = Math.ceil(n / 2);
-  if (!win) return { win, D, list: null, left: Math.min(H - 1, Math.floor(Math.pow(Math.random(), 1 / a) * H)) };
-  const list = Array(H - 1).fill('A').concat(Array(Math.floor(Math.pow(Math.random(), a) * 1.5 * D)).fill('M'));
-  for (let i = list.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [list[i], list[j]] = [list[j], list[i]]; }
-  list.push('A'); return { win, D, list, left: 0 };
+function logDuel(t, c, facingArmed) {   // real log-odds against the untrained man
+  const f = t.ref; let d = f.duel + f.duel_sd * zOf(c, f.name);
+  if (facingArmed && f.weapon === 'none') d -= (1 - DATA.cross) * f.usk; return d;
 }
-if (typeof module !== 'undefined') module.exports = { script, woundsFor, share };
+function teamLog(side, per, k) {  // log of (sum of n * s^(1/k))^k
+  const v = side.map(e => Math.log(e.n) + per(e.t) / k), m = Math.max(...v); return k * (m + Math.log(v.reduce((s, x) => s + Math.exp(x - m), 0)));
+}
+// sd: the sides, each a list of {t, n}. Returns each side's log strength and its share of wins (Bradley–Terry; Luce for three).
+function strengths(sd, c, k) {
+  const duel = sd.every(s => s.every(e => e.t.human)), armed = sd.map(s => s.some(e => e.t.human && e.t.ref.weapon !== 'none'));
+  const facing = sd.map((_, i) => armed.some((a, j) => a && j !== i)), base = DATA.fighters.find(f => f.name === 'Untrained man').mu;
+  const per = (t, team) => duel ? base + c.g * logDuel(t, c, facing[team]) : logScore(t, c);
+  const logS = sd.map((s, i) => teamLog(s, t => per(t, i), k)), sc = duel ? c.g : 1, m = Math.max(...logS), w = logS.map(v => Math.exp((v - m) / sc)), tot = w.reduce((a, b) => a + b, 0);
+  return { duel, per, logS, p: w.map(v => v / tot), k, g: c.g, sc, base };
+}
 
-// ---------- the page ----------
+// ================= 2. the fight model (no geometry) =================
+// chance to land H hits before taking F, each exchange going your way with chance q; and its inverse
+function boutChance(q, H, F) { let term = Math.pow(q, H), sum = 0; for (let j = 0; j < F; j++) { sum += term; term *= (H + j) / (j + 1) * (1 - q); } return Math.min(1, sum); }
+function solveQ(P, H, F) { let lo = 1e-9, hi = 1 - 1e-9; for (let i = 0; i < 60; i++) { const m = (lo + hi) / 2; if (boutChance(m, H, F) < P) lo = m; else hi = m; } return (lo + hi) / 2; }
+function mkFight(sd, st) {
+  const kinds = [], units = [], T = sd.length, tot = new Array(T).fill(0);
+  sd.forEach((side, team) => side.forEach(e => { const ls = st.per(e.t, team); kinds.push({ t: e.t, team, n: e.n, ls, wt: Math.exp(ls / st.k) }); }));
+  kinds.forEach((kd, ki) => { for (let i = 0; i < kd.n; i++) { units.push({ kind: ki, team: kd.team, wt: kd.wt }); tot[kd.team] += kd.wt; } });
+  const n = kinds.length, f = [], lq = [], hits = [];
+  for (let i = 0; i < n; i++) { f.push(new Float64Array(n)); lq.push(new Float64Array(n)); hits.push(new Array(n).fill(0)); }
+  for (let i = 0; i < n; i++) for (let j = 0; j < n; j++) if (kinds[i].team !== kinds[j].team) { f[i][j] = Math.min(1, F0 * Math.exp(RHO * (kinds[i].ls - kinds[j].ls))); hits[i][j] = Math.ceil(1 / f[i][j] - 1e-9); }
+  for (let i = 0; i < n; i++) for (let j = i + 1; j < n; j++) if (kinds[i].team !== kinds[j].team) {   // one against one: exchange odds that give exactly the pair's share
+    const P = 1 / (1 + Math.exp(-(kinds[i].ls - kinds[j].ls) / st.sc)), q = clamp(solveQ(clamp(P, 1e-9, 1 - 1e-9), hits[i][j], hits[j][i]), 1e-7, 1 - 1e-7);
+    lq[i][j] = Math.log(q / (1 - q)); lq[j][i] = -lq[i][j];
+  }
+  return { T, kinds, units, tot, f, lq, hits };
+}
+// One fight. A random fighter of a random side goes for a random enemy; one of the two is hit; a side is out when half its strength is down.
+function simulate(F, lam, rec) {
+  const U = F.units, n = U.length, T = F.T, hp = new Float64Array(n).fill(1), alive = [], downW = new Float64Array(T), downs = new Array(T).fill(0), ev = rec ? [] : null, teams = [];
+  for (let t = 0; t < T; t++) { alive.push([]); teams.push(t); }
+  for (let i = 0; i < n; i++) alive[U[i].team].push(i);
+  while (teams.length > 1) {
+    const ia = (Math.random() * teams.length) | 0; let ib = (Math.random() * (teams.length - 1)) | 0; if (ib >= ia) ib++;
+    const ta = teams[ia], tb = teams[ib], A = alive[ta], Bv = alive[tb], pa = (Math.random() * A.length) | 0, pb = (Math.random() * Bv.length) | 0, a = A[pa], b = Bv[pb], ka = U[a].kind, kb = U[b].kind;
+    const aHits = Math.random() < 1 / (1 + Math.exp(-(F.lq[ka][kb] + lam[ta] - lam[tb]))), v = aHits ? b : a, tv = aHits ? tb : ta, dmg = aHits ? F.f[ka][kb] : F.f[kb][ka], hpa = hp[a], hpb = hp[b];
+    hp[v] -= dmg; let broke = -1;
+    if (hp[v] <= 1e-9) {
+      hp[v] = 0; const L = alive[tv], pv = aHits ? pb : pa; L[pv] = L[L.length - 1]; L.pop(); downW[tv] += U[v].wt; downs[tv]++;
+      if (downW[tv] >= 0.5 * F.tot[tv] - 1e-9 || !L.length) { broke = tv; teams.splice(aHits ? ib : ia, 1); }
+    }
+    if (rec) ev.push({ ka, kb, hpa, hpb, aHits, dmg, hpv: hp[v], broke });
+  }
+  return { win: teams[0], downs, events: ev };
+}
+function shareOf(F, lam, N, t) { let w = 0; for (let i = 0; i < N; i++) if (simulate(F, lam, false).win === t) w++; return w / N; }
+// one tilt per side, so that the fight model on its own gives each side its share p
+function calibrate(F, p) {
+  const T = F.T, lam = new Array(T).fill(0), N = Math.round((T === 3 ? 400 : 700) * (F.units.length > 80 ? 0.5 : 1));
+  if (T === 2 && F.units.length === 2) return lam;
+  const solve = (t, set) => { let lo = -14, hi = 14; for (let i = 0; i < 13; i++) { const m = (lo + hi) / 2; set(m); if (shareOf(F, lam, N, t) < p[t]) lo = m; else hi = m; } set((lo + hi) / 2); };
+  if (T === 2) solve(0, m => { lam[0] = m / 2; lam[1] = -m / 2; });
+  else for (let r = 0; r < 3; r++) for (let t = 0; t < T; t++) solve(t, m => { lam[t] = m; });
+  return lam;
+}
+// A bout: the winner with exactly the shares p, then a fight from the model that ends that way.
+function drawBout(F, p, lam, rec) {
+  let r = Math.random(), w = 0; while (w < p.length - 1 && r >= p[w]) { r -= p[w]; w++; }
+  const l = lam.slice(); for (let i = 1; ; i++) { const res = simulate(F, l, rec); if (res.win === w) { res.tries = i; return res; } if (i % 40 === 0) l[w] += 0.7; }
+}
+
+// ================= 3. the bout on the sand (movement; still no drawing) =================
+const GATES = [[-1, 0], [1, 0], [0, 1]], CHARGE = { cat: 12, dog: 11, bear: 8, raptor: 10, rex: 7, elephant: 6 };
+function reachOf(w) { return /pike/.test(w) ? 3.0 : /short/.test(w) ? 1.0 : /spear|trident/.test(w) ? 1.7 : /staff/.test(w) ? 1.4 : /two-handed/.test(w) ? 1.1 : /sword|axe|club/.test(w) ? 0.8 : /knife/.test(w) ? 0.5 : 0.45; }
+function ext(v, a) { if (v.hum) return v.rad; const f = a - v.h; return 1 / Math.hypot(Math.cos(f) / (v.len * 0.5), Math.sin(f) / (v.len * 0.17)); }   // how far the body reaches in direction a
+function inside(B, p, m) { const e = Math.hypot(p.x / Math.max(1, B.AX - m), p.y / Math.max(1, B.AY - m)); if (e > 1) { p.x /= e; p.y /= e; } }
+function turnTo(u, ang, dt, m) { let d = ang - u.h; while (d > Math.PI) d -= TAU; while (d < -Math.PI) d += TAU; u.h += Math.sign(d) * Math.min(Math.abs(d), u.turn * m * dt); }
+function goTo(u, s, dt, sp) { const dx = s.x - u.x, dy = s.y - u.y, d = Math.hypot(dx, dy); if (d > 0.03) { const v = Math.min(sp * dt, d); u.x += dx / d * v; u.y += dy / d * v; } }
+function place(B, team) {         // a side forms up in ranks inside its gate, the largest in front
+  const [gx, gy] = GATES[team], R = gx ? B.AX : B.AY, span = (gx ? B.AY : B.AX) * 1.1, us = B.units.filter(u => u.team === team).sort((a, b) => b.half - a.half);
+  let d = R * 0.3, i = 0;
+  while (i < us.length) {
+    let h = 0, w = 0, j = i; while (j < us.length && (j === i || h + 2 * us[j].rad + 0.5 <= span)) { h += 2 * us[j].rad + 0.5; w = Math.max(w, us[j].half); j++; }
+    let v = -h / 2; for (let q = i; q < j; q++) { const u = us[q], dd = d + w; v += u.rad + 0.25; u.x = gx * dd + (gx ? 0 : v); u.y = gy * dd + (gx ? v : 0); v += u.rad + 0.25; u.h = Math.atan2(-gy, -gx); inside(B, u, Math.min(u.half, 2) + 0.3); }
+    d += 2 * w + 0.5; i = j;
+  }
+}
+function mkBout(F, res) {
+  const units = F.units.map((fu, i) => {
+    const t = F.kinds[fu.kind].t, hum = !!t.human, a = t.ref, len = hum ? 0.5 : a.length;
+    return { i, kind: fu.kind, t, team: fu.team, hum, len, rad: hum ? 0.38 : len * 0.2, half: hum ? 0.38 : len * 0.5, reach: hum ? reachOf(a.weapon) : len * 0.42, hp: 1, wt: fu.wt,
+      x: 0, y: 0, h: 0, kx: 0, ky: 0, lunge: 0, busy: null, tgt: null, sh: 0, ang: 0, da: 0, spin: Math.random() < 0.5 ? -1 : 1, ph: Math.random() * TAU,
+      walk: hum ? 3.3 : 2.4 + Math.min(1.2, len * 0.12), charge: hum ? 5.5 : CHARGE[a.shape] || 9, turn: hum ? 9 : 7 / (1 + len / 3), stand: hum ? reachOf(a.weapon) + 0.7 : len * 0.5 + 0.9 };
+  });
+  const Lmax = Math.max(...units.map(u => u.len)), fp = units.reduce((s, u) => s + (u.hum ? 0.6 : u.len), 0), AX = clamp(8 + 0.9 * Lmax + 0.8 * Math.sqrt(fp), 12, 36);
+  const B = { F, ev: res.events, win: res.win, ei: 0, units, T: F.T, AX, AY: AX * 2 / 3, t: 0, phase: 'enter', ex: [], cool: 0.3, re: 0, near: 1e9, decals: [], texts: [], strikes: [],
+    out: new Array(F.T).fill(false), downW: new Array(F.T).fill(0), over: false, done: 0 };
+  for (let t = 0; t < F.T; t++) place(B, t);
+  return B;
+}
+function assign(B, inPlay) {      // everyone not in an exchange shadows a near enemy, spread over the enemies there are
+  for (const u of inPlay) u.sh = 0; let near = 1e9;
+  for (const u of inPlay) {
+    if (u.busy) continue; let best = null, bc = 1e9;
+    for (const v of inPlay) { if (v.team === u.team) continue; const d = Math.hypot(u.x - v.x, u.y - v.y); near = Math.min(near, d - u.half - v.half); const c = d + 3 * v.sh * (u.hum ? 0.38 : u.len) / (v.len + 1) - (u.tgt === v ? 1.5 : 0); if (c < bc) { bc = c; best = v; } }
+    u.tgt = best; if (best) best.sh++;
+  }
+  B.near = near;
+}
+function shadow(B, dt, alive, inPlay) {
+  if ((B.re -= dt) <= 0) { B.re = 0.4; assign(B, inPlay); }
+  const groups = new Map();
+  for (const u of alive) {
+    if (u.busy) continue;
+    if (B.out[u.team]) {            // a beaten side falls back to its gate
+      const [gx, gy] = GATES[u.team], R = (gx ? B.AX : B.AY) - 1.5, s = { x: gx ? gx * R : u.x * 0.6, y: gx ? u.y * 0.6 : gy * R }; inside(B, s, u.rad + 0.3); goTo(u, s, dt, u.walk * (u.hp < 1 ? 0.7 : 1.2)); turnTo(u, Math.atan2(s.y - u.y, s.x - u.x), dt, 1); continue;
+    }
+    const v = u.tgt; if (B.over || !v || v.hp <= 1e-9 || B.out[v.team]) continue;
+    if (!groups.has(v)) groups.set(v, []); groups.get(v).push(u);
+  }
+  for (const [v, list] of groups) {  // those shadowing the same enemy spread around it
+    const n = list.length; for (const u of list) u.ang = Math.atan2(u.y - v.y, u.x - v.x);
+    if (n > 1) { list.sort((a, b) => a.ang - b.ang); for (let i = 0; i < n; i++) { let gp = list[i].ang - list[(i + n - 1) % n].ang, gn = list[(i + 1) % n].ang - list[i].ang; if (gp <= 0) gp += TAU; if (gn <= 0) gn += TAU; list[i].da = clamp((gn - gp) / 4, -0.5, 0.5); } } else list[0].da = 0;
+    for (const u of list) { const a = u.ang + u.da + u.spin * 0.06, d = ext(v, a) + u.stand, s = { x: v.x + d * Math.cos(a), y: v.y + d * Math.sin(a) }; inside(B, s, u.rad + 0.2); goTo(u, s, dt, u.hum && u.hp < 1 ? u.walk * 0.6 : u.walk); turnTo(u, Math.atan2(v.y - u.y, v.x - u.x), dt, 1); }
+  }
+}
+function separate(B, alive) {
+  for (let i = 0; i < alive.length; i++) {
+    const u = alive[i];
+    for (let j = i + 1; j < alive.length; j++) {
+      const v = alive[j], m = u.rad + v.rad, dx = v.x - u.x, dy = v.y - u.y; if (dx > m || dx < -m || dy > m || dy < -m || (u.busy && u.busy === v.busy)) continue;
+      const d = Math.hypot(dx, dy); if (d >= m) continue; const ux = d > 1e-6 ? dx / d : Math.cos(i), uy = d > 1e-6 ? dy / d : Math.sin(i), o = (m - d) * 0.5;
+      u.x -= ux * o * v.rad / m; u.y -= uy * o * v.rad / m; v.x += ux * o * u.rad / m; v.y += uy * o * u.rad / m;
+    }
+    inside(B, u, Math.min(u.half, 2));
+  }
+}
+function launch(B, inPlay) {      // the next exchange of the fight, played by whoever on the sand fits it and stands nearest
+  const E = B.ev[B.ei], fits = (u, k, hp) => u.kind === k && Math.abs(u.hp - hp) < 1e-9; let A = [], Bs = [];
+  for (const u of inPlay) if (!u.busy) { if (fits(u, E.ka, E.hpa)) A.push(u); if (fits(u, E.kb, E.hpb)) Bs.push(u); }
+  if (!A.length || !Bs.length) return false;           // its fighters are still in an earlier exchange
+  const a = A[(Math.random() * A.length) | 0]; let b = null, bd = 1e9; for (const v of Bs) { const d = Math.hypot(v.x - a.x, v.y - a.y); if (d < bd) { bd = d; b = v; } }
+  const e = { a, b, E, ph: 'wind', t: 0.3 + Math.random() * 0.55 }; a.busy = b.busy = e; B.ex.push(e); B.ei++; return true;
+}
+function feint(B, inPlay) {       // an exchange that lands nothing; for the eye only
+  const free = inPlay.filter(u => !u.busy); if (free.length < 2) return false; const a = free[(Math.random() * free.length) | 0]; let b = null, bd = 1e9;
+  for (const v of free) if (v.team !== a.team) { const d = Math.hypot(v.x - a.x, v.y - a.y); if (d < bd) { bd = d; b = v; } }
+  if (!b) return false; const e = { a, b, E: null, ph: 'wind', t: 0.3 + Math.random() * 0.4 }; a.busy = b.busy = e; B.ex.push(e); return true;
+}
+function land(B, e) {
+  const E = e.E, mx = (e.a.x + e.b.x) / 2, my = (e.a.y + e.b.y) / 2;
+  if (!E) { B.texts.push({ x: mx, y: my - 0.8, s: 'parried', team: -1, age: 0 }); e.a.lunge = 1; return; }
+  const hit = E.aHits ? e.a : e.b, v = E.aHits ? e.b : e.a, d = Math.hypot(v.x - hit.x, v.y - hit.y) || 1, ux = (v.x - hit.x) / d, uy = (v.y - hit.y) / d, kick = 8 / (1 + v.len * 1.3) * Math.min(1, 0.4 + E.dmg);
+  v.hp = E.hpv; v.kx += ux * kick; v.ky += uy * kick; hit.lunge = 1;
+  B.strikes.push({ x1: hit.x, y1: hit.y, x2: v.x, y2: v.y, age: 0 });
+  B.decals.push({ x: v.x + (Math.random() - 0.5) * v.rad, y: v.y + (Math.random() - 0.5) * v.rad, r: (0.08 + 0.2 * Math.min(1, E.dmg)) * (v.hum ? 1 : 1.3) });
+  const down = v.hp <= 1e-9; B.texts.push({ x: v.x, y: v.y - v.rad - 0.5, s: down ? 'down' : '−' + Math.max(1, Math.round(E.dmg * 100)) + '%', team: v.team, age: 0 });
+  if (down) B.downW[v.team] += v.wt;
+  if (E.broke >= 0) B.out[E.broke] = true;
+}
+function runEx(B, e, dt) {
+  const a = e.a, b = e.b, dx = b.x - a.x, dy = b.y - a.y, d = Math.hypot(dx, dy) || 1e-6, ang = Math.atan2(dy, dx);
+  if (e.ph === 'wind') { turnTo(a, ang, dt, 1.5); turnTo(b, ang + Math.PI, dt, 1); a.x += dx / d * a.walk * 0.25 * dt; a.y += dy / d * a.walk * 0.25 * dt; if ((e.t -= dt) <= 0) { e.ph = 'go'; e.t = 0; } }
+  else if (e.ph === 'go') {
+    turnTo(a, ang, dt, 2.5); turnTo(b, ang + Math.PI, dt, 1); const sp = Math.min(a.charge * (1 + e.t) * dt, d); a.x += dx / d * sp; a.y += dy / d * sp; e.t += dt;
+    if (d < ext(b, ang + Math.PI) + (a.hum ? a.reach : a.len * 0.42) || e.t > 5) { land(B, e); e.ph = 'clash'; e.t = 0.45; }
+  } else if ((e.t -= dt) <= 0) { a.busy = b.busy = null; B.ex.splice(B.ex.indexOf(e), 1); }
+}
+function step(B, dt) {
+  B.t += dt; const kd = Math.pow(0.02, dt);
+  for (const u of B.units) { u.x += u.kx * dt; u.y += u.ky * dt; u.kx *= kd; u.ky *= kd; u.lunge = Math.max(0, u.lunge - dt * 3); }
+  B.texts = B.texts.filter(t => (t.age += dt) < 1.5); B.strikes = B.strikes.filter(s => (s.age += dt) < 0.25);
+  const alive = B.units.filter(u => u.hp > 1e-9), inPlay = alive.filter(u => !B.out[u.team]);
+  if (B.over) B.done += dt;
+  else if (B.phase === 'enter') { if (B.near < 4 || B.t > 7) B.phase = 'fight'; }
+  else {
+    B.cool -= dt; const maxAct = 1 + Math.floor(inPlay.length / 10);
+    if (B.ei < B.ev.length && B.ex.length < maxAct && B.cool <= 0 && (Math.random() < 0.1 ? feint(B, inPlay) : launch(B, inPlay))) B.cool = (0.25 + Math.random() * 0.5) / Math.sqrt(maxAct);
+    for (const e of B.ex.slice()) runEx(B, e, dt);
+    if (B.ei >= B.ev.length && !B.ex.some(e => e.E)) { B.over = true; for (const e of B.ex) e.a.busy = e.b.busy = null; B.ex = []; }
+  }
+  shadow(B, dt, alive, inPlay); separate(B, alive);
+}
+if (typeof module !== 'undefined') module.exports = { DATA, kOf, drawCtx, strengths, mkFight, simulate, shareOf, calibrate, drawBout, mkBout, step, boutChance, solveQ };
+
+// ================= 4. the page =================
 if (typeof document !== 'undefined' && DATA) (function () {
   const $ = id => document.getElementById(id), cv = $('cv'), ctx = cv.getContext('2d');
-  const W = 36, Hh = 24.6, AX = 15, AY = 10, PX = cv.width / W;       // metres: view, arena half-axes
-  const short = s => s === 'Tyrannosaurus rex' ? 'T. rex' : /Lion|Bear/.test(s) ? s : s.split(' ')[0];
+  const NAMES = ['Ivory', 'Red', 'Blue'], COL = ['#e7dcc3', '#ef4444', '#60a5fa'];
+  const GEAR = [{ tunic: '#e7dcc3', shield: '#b98a2f', steel: '#b4bcc4', down: '#6f6657' }, { tunic: '#f0a9a0', shield: '#a3271f', steel: '#c9aaa6', down: '#7a4640' }, { tunic: '#a9c4f0', shield: '#2f55a3', steel: '#a3b4cc', down: '#465a7a' }];
   const fmt = v => v >= 1000 ? Math.round(v).toLocaleString('en-US') : v >= 100 ? v.toFixed(0) : v >= 10 ? v.toFixed(1) : v.toFixed(2);
-  const pct = p => p < 0.005 ? '<1%' : p > 0.995 ? '>99%' : Math.round(p * 100) + '%';
-  const S = { f: 0, o: 0, n: 5, basis: 'corr', mode: 'crowd', unc: false, p: 0 }, T = { n: 0, w: 0 };
-  let B = null, last = 0;
-  DATA.fighters.forEach((f, i) => $('who').add(new Option(f.name + '  ·  ' + fmt(Math.exp(f.mu)), i)));
-  DATA.opponents.forEach((o, i) => $('opp').add(new Option(short(o.name) + '  ·  ' + o.kg.toLocaleString('en-US') + ' kg', i)));
-  KMODES.forEach(([v, t]) => $('kmode').add(new Option(t, v)));
-  S.f = Math.max(0, DATA.fighters.findIndex(f => f.name === 'Gladiator, murmillo')); S.o = Math.max(0, DATA.opponents.findIndex(o => /Utahraptor/.test(o.name)));
-  $('who').value = S.f; $('opp').value = S.o;
-  const F = () => DATA.fighters[S.f], O = () => DATA.opponents[S.o], basis = () => O().dino ? S.basis : 'crowd';
+  const pct = p => p < 0.005 ? '<1%' : p > 0.995 ? '>99%' : Math.round(p * 100) + '%', pct1 = p => (100 * p).toFixed(1) + '%';
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])), cap = s => s.charAt(0).toUpperCase() + s.slice(1);
 
-  function expected() { let s = 0; for (let i = 0; i < 4000; i++) s += share(F(), O(), S.n, basis(), S.mode, true); return s / 4000; }
-  function odds() {
-    const f = F(), o = O(), k = kOf(S.mode, false), p = S.unc ? expected() : share(f, o, S.n, basis(), S.mode, false);
-    S.p = p; $('p').textContent = pct(p); $('plab').textContent = (S.n === 1 ? 'the fighter wins' : 'the fighters win') + (S.unc ? ', averaged over the bands' : '');
-    const sf = Math.exp(f.mu), sn = sf * Math.pow(S.n, k), rows = [['One fighter', sf, '--men', null, false], [S.n + (S.n === 1 ? ' fighter' : ' fighters'), sn, '--men', [f.sd, sn], false],
-      [short(o.name) + (o.dino ? ', crowd' : ''), Math.exp(o.crowd_mu), '--dino', [o.crowd_sd, Math.exp(o.crowd_mu)], basis() !== 'crowd']];
-    if (o.dino) rows.push([short(o.name) + ', corrected', Math.exp(o.corr_mu), '--dino', [o.corr_sd, Math.exp(o.corr_mu)], basis() !== 'corr']);
-    if (o.name !== 'African Lion') rows.push(['African Lion', 100, '--bench', null, false]);
-    const x = v => Math.max(0, Math.min(100, Math.log10(Math.max(v, 1)) / 5.3 * 100));
-    $('bars').innerHTML = rows.map(([lab, v, col, band, off]) => `<span class="lab${off ? ' off' : ''}">${lab}</span><span class="track${off ? ' off' : ''}"><span class="fill" style="width:${x(v)}%;background:var(${col})"></span>` +
-      (band ? `<span class="whisk" style="left:${x(band[1] * Math.exp(-1.645 * band[0]))}%;width:${x(band[1] * Math.exp(1.645 * band[0])) - x(band[1] * Math.exp(-1.645 * band[0]))}%"></span>` : '') +
-      `</span><span class="val${off ? ' off' : ''}">${fmt(v)}</span>`).join('');
-    const ne = b => Math.exp(((b === 'corr' ? o.corr_mu : o.crowd_mu) - f.mu) / k), one = v => v < 1 ? 'one is already favoured' : 'about <b>' + (v < 10 ? v.toFixed(1) : Math.round(v)) + '</b>';
-    $('even').innerHTML = o.dino ? `Fighters for an even bout: ${one(ne('crowd'))} against the ${short(o.name)} the crowd voted, ${one(ne('corr'))} against the anatomy-corrected one. Bars are on a log scale; the thin line is the 90% band.`
-      : `Fighters for an even bout: ${one(ne('crowd'))}. Bars are on a log scale; the thin line is the 90% band.`;
-    $('b_crowd').disabled = $('b_corr').disabled = !o.dino;
-  }
-  function tally() { $('t_n').textContent = T.n.toLocaleString('en-US'); $('t_w').textContent = T.n ? (100 * T.w / T.n).toFixed(T.n >= 200 ? 1 : 0) + '%' : '–'; $('t_d').textContent = (100 * S.p).toFixed(1) + '%'; }
+  // ---------- what can be put on the sand ----------
+  const TYPES = [], byId = {}, add = t => { TYPES.push(t); byId[t.id] = t; };
+  DATA.fighters.forEach((f, i) => add({ id: 'f' + i, human: true, ref: f, label: f.name, group: 'Fighters' }));
+  DATA.animals.forEach((a, i) => { if (!a.dino) add({ id: 'a' + i, ref: a, basis: 'crowd', label: a.label, group: 'Animals' }); });
+  DATA.animals.forEach((a, i) => { if (a.dino) add({ id: 'c' + i, ref: a, basis: 'crowd', label: a.label + ', as voted', group: 'Dinosaurs, as the crowd voted' }); });
+  DATA.animals.forEach((a, i) => { if (a.dino) add({ id: 'x' + i, ref: a, basis: 'corr', label: a.label + ', corrected', group: 'Dinosaurs, anatomy-corrected' }); });
+  const aIdx = lab => DATA.animals.findIndex(a => a.label === lab), fId = name => 'f' + DATA.fighters.findIndex(f => f.name === name);
+  const aId = (lab, basis) => { const i = aIdx(lab); return (DATA.animals[i].dino ? (basis === 'crowd' ? 'c' : 'x') : 'a') + i; };
+  const PRESETS = [
+    ['Four hunters and two lions against a Dakotaraptor and a Deinonychus', [[[fId('Hunter with a spear'), 4], [aId('Lion'), 2]], [[aId('Dakotaraptor'), 1], [aId('Deinonychus'), 1]]]],
+    ['A Dakotaraptor as voted against a Dakotaraptor corrected', [[[aId('Dakotaraptor', 'crowd'), 1]], [[aId('Dakotaraptor'), 1]]]],
+    ['Murmillo against retiarius', [[[fId('Gladiator, murmillo'), 1]], [[fId('Gladiator, retiarius'), 1]]]],
+    ['Ten legionaries against three Utahraptors', [[[fId('Roman legionary, gladius and scutum'), 10]], [[aId('Utahraptor'), 3]]]],
+    ['Three venatores and a bear against an Allosaurus', [[[fId('Venator (arena hunter), hunting spear'), 3], [aId('Brown Bear'), 1]], [[aId('Allosaurus'), 1]]]],
+    ['Forty hoplites against a T. rex', [[[fId('Greek hoplite, dory and aspis'), 40]], [[aId('T. rex'), 1]]]],
+    ['Three sides: gladiators, lions and a Utahraptor', [[[fId('Gladiator, murmillo'), 6]], [[aId('Lion'), 4]], [[aId('Utahraptor'), 1]]]]];
+  const preset = i => PRESETS[i][1].map(side => side.map(([id, n]) => ({ id, n })));
+  const S = { mode: 'basic', f: fId('Gladiator, murmillo'), nf: 6, a: Math.max(0, aIdx('Dakotaraptor')), na: 2, basis: 'corr', kmode: 'crowd', unc: false, adv: preset(0) };
+  const T = { n: 0, w: [0, 0, 0], d: [0, 0, 0] };
+  let M = null, B = null, last = 0, timer = 0, PX = 1;
 
-  // ---------- one bout, with the pictures ----------
-  const inside = (p, m) => { const e = Math.hypot(p.x / (AX - m), p.y / (AY - m)); if (e > 1) { p.x /= e; p.y /= e; } };
-  function newBout() {
-    const f = F(), o = O(), n = S.n, P = Math.min(1 - 1e-6, Math.max(1e-6, share(f, o, n, basis(), S.mode, S.unc))), H = woundsFor(o.kg);
-    B = { f, o, n, P, H, sc: script(P, H, n), t: 0, sub: 'enter', timer: 0, rot: Math.random() * 6.28, decals: [], texts: [], over: null, done: 0, strike: null,
-      opp: { x: AX - 3, y: 0, h: Math.PI, w: 0, kx: 0, ky: 0 }, men: [] };
-    const cols = Math.ceil(Math.sqrt(n));
-    for (let i = 0; i < n; i++) B.men.push({ x: -AX + 3 + (i % cols) * 1.1, y: (Math.floor(i / cols) - (Math.ceil(n / cols) - 1) / 2) * 1.2, h: 0, w: 0, kx: 0, ky: 0, lunge: 0 });
-    $('status').textContent = `${n} × ${f.name} against ${short(o.name)}: ${pct(P)} for the fighters this bout`;
+  function sides() {
+    if (S.mode === 'basic') { const a = DATA.animals[S.a]; return [[{ t: byId[S.f], n: S.nf }], [{ t: byId[(a.dino ? (S.basis === 'corr' ? 'x' : 'c') : 'a') + S.a], n: S.na }]]; }
+    return S.adv.map(side => side.map(e => ({ t: byId[e.id], n: e.n })));
   }
-  function finish(win) {
-    const down = B.men.filter(m => m.w >= 2).length; B.over = win; B.done = 0; T.n++; if (win) T.w++; tally();
-    $('status').textContent = win ? `The fighters win, ${down} of ${B.n} down.` : `The ${short(B.o.name)} wins, wounded ${B.opp.w} of ${B.H} times; ${B.n > 1 ? 'the fighters break' : 'the fighter is down'}.`;
+  const desc = side => side.map(e => e.n + ' × ' + e.t.label).join(' + '), count = side => side.reduce((s, e) => s + e.n, 0);
+  function sideName(i) {
+    if (S.mode !== 'basic') return NAMES[i];
+    if (i === 0) return S.nf === 1 ? 'the fighter' : 'the fighters'; const a = DATA.animals[S.a]; return 'the ' + (S.na === 1 ? a.label : a.plural);
   }
-  function step(dt) {
-    const o = B.opp, L = B.o.length, up = B.men.filter(m => m.w < 2); B.t += dt; B.rot += 0.12 * dt;
-    for (const e of [o, ...B.men]) { e.x += e.kx * dt; e.y += e.ky * dt; e.kx *= Math.pow(0.02, dt); e.ky *= Math.pow(0.02, dt); }
-    B.texts = B.texts.filter(t => (t.age += dt) < 1.6); if (B.strike && (B.strike.age += dt) > 0.25) B.strike = null;
-    const R = Math.max(L * 0.5 + 1.5, up.length * 1.0 / 6.283);
-    up.forEach((m, i) => {       // the fighters close a ring around the animal
-      const a = B.rot + 6.283 * i / up.length, s = B.over === false ? { x: -AX + 1.5, y: (i - up.length / 2) * 0.5 } : { x: o.x + R * Math.cos(a), y: o.y + R * Math.sin(a) }; inside(s, 0.8);
-      const dx = s.x - m.x, dy = s.y - m.y, d = Math.hypot(dx, dy), v = (m.w ? 1.9 : 3.4) * dt; if (d > 0.05) { m.x += dx / d * Math.min(v, d); m.y += dy / d * Math.min(v, d); }
-      m.h = Math.atan2(o.y - m.y, o.x - m.x); m.lunge = Math.max(0, m.lunge - dt * 3);
-    });
-    if (B.over !== null) { B.done += dt; return; }
-    const turn = (to, rate) => { let d = to - o.h; while (d > Math.PI) d -= 6.283; while (d < -Math.PI) d += 6.283; o.h += Math.sign(d) * Math.min(Math.abs(d), rate * dt); };
-    const move = (tx, ty, v) => { const dx = tx - o.x, dy = ty - o.y, d = Math.hypot(dx, dy) || 1; o.x += dx / d * v * dt; o.y += dy / d * v * dt; inside(o, 1.5); return d; };
-    const pick = () => { B.target = up[Math.floor(Math.random() * up.length)]; };
-    const reach = L * 0.42 + 0.5, charge = { cat: 12, bear: 8, raptor: 10, rex: 7 }[B.o.shape];
-    if (B.sub === 'enter') {
-      const near = Math.min(...up.map(m => Math.hypot(m.x - o.x, m.y - o.y))); turn(Math.PI, 2); move(2, 0, 2.2);
-      if (near < R + 5 || B.t > 5) { B.sub = 'stalk'; B.timer = 0.9; pick(); }
-    } else if (B.sub === 'stalk') {
-      if (!B.target || B.target.w >= 2) pick(); const tg = B.target; turn(Math.atan2(tg.y - o.y, tg.x - o.x), 4); move(tg.x, tg.y, 0.8);
-      if ((B.timer -= dt) <= 0) B.sub = 'lunge';
-    } else if (B.sub === 'lunge') {
-      const tg = B.target; turn(Math.atan2(tg.y - o.y, tg.x - o.x), 9);
-      if (move(tg.x, tg.y, charge) < reach) {       // the exchange
-        const ux = (tg.x - o.x) / (Math.hypot(tg.x - o.x, tg.y - o.y) || 1), uy = (tg.y - o.y) / (Math.hypot(tg.x - o.x, tg.y - o.y) || 1);
-        const sc = B.sc, downs = B.men.length - up.length; let ev = sc.win ? sc.list.shift() : (sc.left > 0 && Math.random() < sc.left / (sc.left + (sc.D - downs) * 1.5) ? 'A' : 'M');
-        if (ev === 'A' && !sc.win) sc.left--;
-        if (ev === 'M' && sc.win && tg.w === 1 && downs >= sc.D - 1) ev = 'P';       // a win never reaches the breaking point
-        if (ev === 'P') { tg.kx = ux * 4; tg.ky = uy * 4; B.texts.push({ x: tg.x, y: tg.y - 1, s: 'parried', c: '#e7dcc3', age: 0 }); }
-        else if (ev === 'A') {
-          const others = up.filter(m => m !== tg), by = others.length ? others.reduce((a, b) => Math.hypot(a.x - o.x, a.y - o.y) < Math.hypot(b.x - o.x, b.y - o.y) ? a : b) : tg;
-          o.w++; o.kx = -ux * 7; o.ky = -uy * 7; by.lunge = 1; B.strike = { x1: by.x, y1: by.y, x2: o.x, y2: o.y, age: 0 };
-          B.decals.push({ x: o.x + (Math.random() - .5), y: o.y + (Math.random() - .5), r: 0.14 + Math.random() * 0.16 }); B.texts.push({ x: o.x, y: o.y - L * 0.3, s: `wound ${o.w} of ${B.H}`, c: '#e7dcc3', age: 0 });
-        } else {
-          tg.w++; tg.kx = ux * 9; tg.ky = uy * 9; B.decals.push({ x: tg.x, y: tg.y, r: 0.1 + Math.random() * 0.12 }); B.texts.push({ x: tg.x, y: tg.y - 1, s: tg.w >= 2 ? 'down' : 'wounded', c: '#fca5a5', age: 0 });
-        }
-        B.sub = 'clash'; B.timer = 0.55;
-      }
-    } else if ((B.timer -= dt) <= 0) {
-      if (o.w >= B.H) finish(true); else if (B.men.filter(m => m.w >= 2).length >= B.sc.D) finish(false); else { B.sub = 'stalk'; B.timer = 0.5 + Math.random() * 0.9; pick(); }
+  const winsText = i => cap(sideName(i)) + (S.mode !== 'basic' || (i === 0 ? S.nf : S.na) === 1 ? ' wins' : ' win');
+
+  // ---------- the numbers ----------
+  function rebuild() {
+    const sd = sides(), k = kOf(S.kmode, false), st = strengths(sd, drawCtx(false), k), F = mkFight(sd, st), lam = calibrate(F, st.p);
+    let p = st.p; if (S.unc) { const N = 3000; p = new Array(sd.length).fill(0); for (let i = 0; i < N; i++) strengths(sd, drawCtx(true), kOf(S.kmode, true)).p.forEach((v, t) => { p[t] += v / N; }); }
+    const N = F.units.length > 80 ? 1500 : 4000, c = new Array(F.T).fill(0); for (let i = 0; i < N; i++) c[simulate(F, lam, false).win]++;
+    M = { sd, st, F, lam, p, self: c.map(v => v / N) }; T.n = 0; T.w = [0, 0, 0]; T.d = [0, 0, 0];
+    renderOdds(); renderTally(); newBout();
+  }
+  const boutShares = () => S.unc ? strengths(M.sd, drawCtx(true), kOf(S.kmode, true)).p : M.st.p;
+  function renderOdds() {
+    const { sd, st, F, lam, p } = M, three = sd.length === 3, rating = ls => 1000 + 400 / Math.LN10 * (ls - st.base) / st.g, val = ls => st.duel ? rating(ls) : Math.exp(ls);
+    $('p').textContent = pct(p[0]); $('plab').textContent = winsText(0).replace(/^./, c => S.mode === 'basic' ? c.toLowerCase() : c) + (S.unc ? ', averaged over the bands' : '');
+    $('three').hidden = !three; if (three) $('three').innerHTML = p.map((v, i) => `<span style="color:${COL[i]}">${NAMES[i]} ${pct(v)}</span>`).join('');
+    const rows = [];
+    if (S.mode === 'basic') {
+      const f = byId[S.f].ref, a = DATA.animals[S.a], corr = a.dino && S.basis === 'corr';
+      rows.push({ lab: 'One fighter', v: Math.exp(f.mu), c: 0, sd: f.sd }); if (S.nf > 1) rows.push({ lab: S.nf + ' fighters', v: Math.exp(st.logS[0]), c: 0 });
+      rows.push({ lab: 'One ' + a.label + (a.dino ? ', as voted' : ''), v: Math.exp(a.mu), c: 1, sd: a.sd, off: corr });
+      if (a.dino) rows.push({ lab: 'One ' + a.label + ', corrected', v: Math.exp(a.mu + a.dmu), c: 1, sd: Math.hypot(a.sd, a.dsd), off: !corr });
+      if (S.na > 1) rows.push({ lab: S.na + ' ' + a.plural, v: Math.exp(st.logS[1]), c: 1 });
+      if (a.label !== 'Lion') rows.push({ lab: 'African Lion', v: 100, c: -1 });
+    } else {
+      sd.forEach((side, t) => { rows.push({ lab: NAMES[t] + ' side', v: val(st.logS[t]), c: t }); if (side.length > 1 || side[0].n > 1) F.kinds.forEach(kd => { if (kd.team === t) rows.push({ lab: 'one ' + kd.t.label, v: val(kd.ls), c: t, sub: true }); }); });
+      rows.push(st.duel ? { lab: 'Untrained man', v: 1000, c: -1 } : { lab: 'African Lion', v: 100, c: -1 });
     }
+    const vmax = Math.max(...rows.map(r => r.v)), vmin = Math.min(...rows.map(r => r.v)), top = Math.max(3, Math.log10(vmax) + 0.3), lo = Math.min(600, vmin - 200);
+    const x = v => clamp(st.duel ? (v - lo) / (vmax + 200 - lo) : Math.log10(Math.max(v, 1)) / top, 0, 1) * 100;
+    $('bars').innerHTML = rows.map(r => `<span class="lab${r.sub ? ' sub' : ''}${r.off ? ' off' : ''}">${esc(r.lab)}</span><span class="track${r.sub ? ' thin' : ''}${r.off ? ' off' : ''}"><span class="fill" style="width:${x(r.v).toFixed(1)}%;background:${r.c < 0 ? 'var(--bench)' : COL[r.c]}"></span>` +
+      (r.sd && !st.duel ? `<span class="whisk" style="left:${x(r.v * Math.exp(-1.645 * r.sd)).toFixed(1)}%;width:${(x(r.v * Math.exp(1.645 * r.sd)) - x(r.v * Math.exp(-1.645 * r.sd))).toFixed(1)}%"></span>` : '') +
+      `</span><span class="val${r.off ? ' off' : ''}">${st.duel ? Math.round(r.v).toLocaleString('en-US') : fmt(r.v)}</span>`).join('');
+    let note;
+    if (S.mode === 'basic') {
+      const f = byId[S.f].ref, a = DATA.animals[S.a], ne = b => Math.exp((st.k * Math.log(S.na) + a.mu + (b === 'corr' ? a.dmu : 0) - f.mu) / st.k), one = v => v < 1 ? 'one is already favoured' : 'about <b>' + (v < 10 ? v.toFixed(1) : Math.round(v)) + '</b>';
+      const foe = S.na === 1 ? 'one ' + a.label : S.na + ' ' + a.plural;
+      note = a.dino ? `Fighters for an even bout against ${foe}: ${one(ne('crowd'))} as the crowd voted, ${one(ne('corr'))} anatomy-corrected.` : `Fighters for an even bout against ${foe}: ${one(ne('crowd'))}.`;
+      note += ' Bars are on a log scale; the thin line is the 90% band.';
+    } else if (st.duel) note = 'Everyone here is human, so these are real odds from the duel ratings (untrained man = 1000) and no longer vote shares. Against an armed side, an unarmed fighter\'s skill counts for ' + Math.round(DATA.cross * 100) + '%.';
+    else note = `Vote shares on the animal scale. Kinds on one side add as (Σ s<sup>1/k</sup>)<sup>k</sup> with k = ${st.k.toFixed(2)}${three ? '; with three sides each wins in proportion to its strength' : ''}. Bars are on a log scale.`;
+    $('even').innerHTML = note; $('b_crowd').disabled = $('b_corr').disabled = !DATA.animals[S.a].dino;
+    // who does what to whom
+    const pairs = []; F.kinds.forEach((a, i) => F.kinds.forEach((b, j) => { if (i < j && a.team !== b.team) pairs.push([i, j], [j, i]); }));
+    const tr = ([i, j]) => { const a = F.kinds[i], b = F.kinds[j], q = 1 / (1 + Math.exp(-(F.lq[i][j] + lam[a.team] - lam[b.team])));
+      return `<tr><td style="color:${COL[a.team]}">${esc(a.t.label)}</td><td style="color:${COL[b.team]}">${esc(b.t.label)}</td><td class="num">${F.f[i][j] >= 1 ? 'all' : Math.max(1, Math.round(F.f[i][j] * 100)) + '%'}</td><td class="num">${F.hits[i][j]}</td><td class="num">${pct(q)}</td></tr>`; };
+    $('hits').innerHTML = '<thead><tr><th>A hit by</th><th>on</th><th class="num">takes</th><th class="num">hits to down</th><th class="num">lands</th></tr></thead><tbody>' + pairs.slice(0, 10).map(tr).join('') + '</tbody>';
+    const selfTxt = M.self.map((v, t) => `${sideName(t)} ${pct1(v)} (share ${pct1(st.p[t])})`).slice(0, three ? 3 : 1).join(', ');
+    $('self').innerHTML = (pairs.length > 10 ? 'The first ten pairings are shown. ' : '') + `“Takes” is the part of the victim's staying power one hit removes; “lands” is the share of their exchanges the attacker wins. Run on its own, with no winner fixed in advance, this fight model gives ${selfTxt}. Every bout you watch draws its winner with the exact share first.`;
+  }
+  function renderTally() {
+    const three = M.sd.length === 3, sh = v => (100 * v).toFixed(T.n >= 200 ? 1 : 0);
+    $('t_n').textContent = T.n.toLocaleString('en-US');
+    $('t_w').textContent = !T.n ? '–' : three ? T.w.map(w => sh(w / T.n)).join(' / ') : sh(T.w[0] / T.n) + '%';
+    $('t_wl').textContent = three ? 'won: ivory / red / blue, %' : 'won by ' + sideName(0);
+    $('t_d').textContent = three ? M.p.map(v => (100 * v).toFixed(1)).join(' / ') : pct1(M.p[0]);
+    $('cas').textContent = T.n ? 'Down per bout: ' + M.sd.map((s, t) => `${sideName(t)} ${(T.d[t] / T.n).toFixed(1)} of ${count(s)}`).join(', ') + '.' : '';
+  }
+
+  // ---------- a bout ----------
+  function newBout() {
+    const p = boutShares(); B = mkBout(M.F, drawBout(M.F, p, M.lam, true)); B.names = M.sd.map(desc); PX = cv.width / (B.AX * 2.4);
+    $('status').textContent = B.names.join(' against ') + ': ' + (M.sd.length === 3 ? p.map((v, i) => NAMES[i] + ' ' + pct(v)).join(', ') : pct(p[0]) + ' for ' + sideName(0)) + (S.unc ? ' this bout' : '');
+  }
+  function finish() {
+    B.counted = true; T.n++; T.w[B.win]++; const dn = t => B.units.filter(u => u.team === t && u.hp <= 1e-9).length; for (let t = 0; t < B.T; t++) T.d[t] += dn(t); renderTally();
+    $('status').textContent = winsText(B.win) + '. Down: ' + M.sd.map((s, t) => `${sideName(t)} ${dn(t)} of ${count(s)}`).join(', ') + '.';
   }
 
   // ---------- drawing (top-down, metres) ----------
-  const X = x => (x + W / 2) * PX, Y = y => (y + Hh / 2) * PX;
+  const X = x => cv.width / 2 + x * PX, Y = y => cv.height / 2 + y * PX;
+  const E = (x, y, rx, ry, c) => { ctx.fillStyle = c; ctx.beginPath(); ctx.ellipse(x, y, rx, ry, 0, 0, TAU); ctx.fill(); };
   function arena() {
     ctx.fillStyle = '#0d0d10'; ctx.fillRect(0, 0, cv.width, cv.height);
-    for (let i = 4; i >= 1; i--) { ctx.beginPath(); ctx.ellipse(X(0), Y(0), (AX + i * 0.85) * PX, (AY + i * 0.85) * PX, 0, 0, 6.283); ctx.fillStyle = ['#2b2620', '#231f1b', '#1c1917', '#161413'][i - 1]; ctx.fill(); }
-    const g = ctx.createRadialGradient(X(0), Y(0), 2 * PX, X(0), Y(0), AX * PX); g.addColorStop(0, '#c09a66'); g.addColorStop(1, '#93734a');
-    ctx.beginPath(); ctx.ellipse(X(0), Y(0), AX * PX, AY * PX, 0, 0, 6.283); ctx.fillStyle = g; ctx.fill(); ctx.lineWidth = 3; ctx.strokeStyle = '#4a4036'; ctx.stroke();
-    ctx.fillStyle = '#17130f'; ctx.fillRect(X(-AX) - 16, Y(-1.2), 16, 2.4 * PX); ctx.fillRect(X(AX), Y(-1.2), 16, 2.4 * PX);
-    for (const d of B.decals) { ctx.beginPath(); ctx.arc(X(d.x), Y(d.y), d.r * PX, 0, 6.283); ctx.fillStyle = 'rgba(110,18,14,.55)'; ctx.fill(); }
-    ctx.fillStyle = '#d4d4d8'; ctx.fillRect(X(-W / 2 + 1.2), Y(Hh / 2 - 1.2), 5 * PX, 3); ctx.font = '600 ' + 0.46 * PX + 'px JetBrains Mono, monospace'; ctx.textAlign = 'left'; ctx.fillText('5 m', X(-W / 2 + 1.2), Y(Hh / 2 - 1.5));
+    for (let i = 4; i >= 1; i--) { ctx.beginPath(); ctx.ellipse(X(0), Y(0), B.AX * (1 + i * 0.055) * PX, (B.AY + B.AX * i * 0.055) * PX, 0, 0, TAU); ctx.fillStyle = ['#2b2620', '#231f1b', '#1c1917', '#161413'][i - 1]; ctx.fill(); }
+    const g = ctx.createRadialGradient(X(0), Y(0), 2 * PX, X(0), Y(0), B.AX * PX); g.addColorStop(0, '#c09a66'); g.addColorStop(1, '#93734a');
+    ctx.beginPath(); ctx.ellipse(X(0), Y(0), B.AX * PX, B.AY * PX, 0, 0, TAU); ctx.fillStyle = g; ctx.fill(); ctx.lineWidth = 3; ctx.strokeStyle = '#4a4036'; ctx.stroke();
+    ctx.fillStyle = '#17130f'; const gw = B.AX * 0.08 * PX; ctx.fillRect(X(-B.AX) - 16, Y(0) - gw, 16, 2 * gw); ctx.fillRect(X(B.AX), Y(0) - gw, 16, 2 * gw); if (B.T > 2) ctx.fillRect(X(0) - gw, Y(B.AY), 2 * gw, 16);
+    for (const d of B.decals) { ctx.beginPath(); ctx.arc(X(d.x), Y(d.y), d.r * PX, 0, TAU); ctx.fillStyle = 'rgba(110,18,14,.55)'; ctx.fill(); }
   }
-  function man(m) {
-    const f = B.f, wp = f.weapon, down = m.w >= 2; ctx.save(); ctx.translate(X(m.x), Y(m.y)); ctx.rotate(m.h); ctx.scale(PX, PX); ctx.globalAlpha = down ? 0.75 : 1;
-    if (down) { ctx.rotate(1.2); ctx.fillStyle = '#6f6657'; ctx.beginPath(); ctx.ellipse(0, 0, 0.8, 0.26, 0, 0, 6.283); ctx.fill(); ctx.beginPath(); ctx.arc(0.85, 0, 0.14, 0, 6.283); ctx.fill(); ctx.restore(); return; }
-    const th = m.lunge * 0.5; ctx.lineCap = 'round';
-    if (wp !== 'none') {       // the weapon, held on the right
-      ctx.strokeStyle = /sword|knife|axe/.test(wp) ? '#cfd6dc' : '#6b4a2a'; ctx.lineWidth = /staff|club/.test(wp) ? 0.09 : 0.06; ctx.beginPath();
-      const len = /pike/.test(wp) ? 3.6 : /short/.test(wp) ? 1.2 : /spear|trident/.test(wp) ? 2.1 : /staff/.test(wp) ? 1.7 : /two-handed/.test(wp) ? 1.2 : /sword|axe|club/.test(wp) ? 0.75 : 0.3, back = /spear|pike|trident|staff/.test(wp) && !/short/.test(wp) ? -0.6 : 0.1;
-      ctx.moveTo(back + th, 0.3); ctx.lineTo(back + len + th, 0.3); ctx.stroke();
-      if (/spear|pike|trident/.test(wp)) { ctx.fillStyle = '#cfd6dc'; ctx.beginPath(); ctx.moveTo(back + len + th + 0.28, 0.3); ctx.lineTo(back + len + th, 0.22); ctx.lineTo(back + len + th, 0.38); ctx.fill(); }
-      if (/trident/.test(wp)) { ctx.lineWidth = 0.04; ctx.strokeStyle = '#cfd6dc'; ctx.beginPath(); ctx.moveTo(back + len + th, 0.14); ctx.lineTo(back + len + th + 0.25, 0.14); ctx.moveTo(back + len + th, 0.46); ctx.lineTo(back + len + th + 0.25, 0.46); ctx.stroke(); }
+  function ring(u) {              // whose side an animal is on, when sides are mixed
+    ctx.save(); ctx.translate(X(u.x), Y(u.y)); ctx.rotate(u.h); ctx.beginPath(); ctx.ellipse(0, 0, u.len * 0.56 * PX, u.len * 0.26 * PX, 0, 0, TAU); ctx.globalAlpha = 0.14; ctx.fillStyle = COL[u.team]; ctx.fill(); ctx.globalAlpha = 0.7; ctx.lineWidth = 2; ctx.strokeStyle = COL[u.team]; ctx.stroke(); ctx.restore();
+  }
+  function man(u) {
+    const f = u.t.ref, wp = f.weapon, g = GEAR[u.team]; ctx.save(); ctx.translate(X(u.x), Y(u.y)); ctx.rotate(u.h); ctx.scale(PX, PX);
+    if (u.hp <= 1e-9) { ctx.globalAlpha = 0.75; ctx.rotate(1.2); E(0, 0, 0.8, 0.26, g.down); E(0.85, 0, 0.14, 0.14, g.down); ctx.restore(); return; }
+    const th = u.lunge * 0.5; ctx.lineCap = 'round';
+    if (wp !== 'none') {
+      const len = /pike/.test(wp) ? 3.6 : /short/.test(wp) ? 1.2 : /spear|trident/.test(wp) ? 2.1 : /staff/.test(wp) ? 1.7 : /two-handed/.test(wp) ? 1.2 : /sword|axe|club/.test(wp) ? 0.75 : 0.3, back = /spear|pike|trident|staff/.test(wp) && !/short/.test(wp) ? -0.6 : 0.1, tip = back + len + th;
+      ctx.strokeStyle = /sword|knife|axe/.test(wp) ? '#cfd6dc' : '#6b4a2a'; ctx.lineWidth = /staff|club/.test(wp) ? 0.09 : 0.06; ctx.beginPath(); ctx.moveTo(back + th, 0.3); ctx.lineTo(tip, 0.3); ctx.stroke();
+      if (/spear|pike|trident/.test(wp)) { ctx.fillStyle = '#cfd6dc'; ctx.beginPath(); ctx.moveTo(tip + 0.28, 0.3); ctx.lineTo(tip, 0.22); ctx.lineTo(tip, 0.38); ctx.fill(); }
+      if (/trident/.test(wp)) { ctx.lineWidth = 0.04; ctx.strokeStyle = '#cfd6dc'; ctx.beginPath(); ctx.moveTo(tip, 0.14); ctx.lineTo(tip + 0.25, 0.14); ctx.moveTo(tip, 0.46); ctx.lineTo(tip + 0.25, 0.46); ctx.stroke(); }
       if (/axe/.test(wp)) { ctx.fillStyle = '#cfd6dc'; ctx.fillRect(0.7 + th, 0.18, 0.18, 0.26); }
     }
-    ctx.fillStyle = /full plate/.test(f.armour) ? '#aab3bc' : /mail/.test(f.armour) ? '#8b939b' : '#e7dcc3'; ctx.beginPath(); ctx.ellipse(0, 0, 0.2, 0.34, 0, 0, 6.283); ctx.fill();
-    if (m.w) { ctx.strokeStyle = '#dc2626'; ctx.lineWidth = 0.07; ctx.stroke(); }
-    if (/shield/.test(wp)) { const big = /large|spear \+ shield/.test(wp) && !/small/.test(wp); ctx.strokeStyle = '#8f2f24'; ctx.lineWidth = big ? 0.16 : 0.13; ctx.beginPath(); ctx.arc(0.1, -0.2, big ? 0.42 : 0.3, -1.9, -0.1); ctx.stroke(); }
-    if (/net/.test(wp)) { ctx.strokeStyle = '#3d3a33'; ctx.lineWidth = 0.03; ctx.beginPath(); ctx.arc(0.25, -0.4, 0.28, 0, 6.283); ctx.moveTo(0, -0.4); ctx.lineTo(0.5, -0.4); ctx.moveTo(0.25, -0.65); ctx.lineTo(0.25, -0.15); ctx.stroke(); }
-    ctx.fillStyle = /helmet|plate/.test(f.armour) ? '#b9a26a' : '#3a2c20'; ctx.beginPath(); ctx.arc(0.02, 0, 0.14, 0, 6.283); ctx.fill(); ctx.restore();
+    E(0, 0, 0.2, 0.34, /plate|mail/.test(f.armour) ? g.steel : g.tunic);
+    if (u.hp < 1) E(-0.02, 0.12, 0.08, 0.08, '#b3160f');
+    if (/shield/.test(wp)) { const big = /large|^spear \+ shield/.test(wp); ctx.strokeStyle = g.shield; ctx.lineWidth = big ? 0.16 : 0.13; ctx.beginPath(); ctx.arc(0.1, -0.2, big ? 0.42 : 0.3, -1.9, -0.1); ctx.stroke(); }
+    if (/net/.test(wp)) { ctx.strokeStyle = '#3d3a33'; ctx.lineWidth = 0.03; ctx.beginPath(); ctx.arc(0.25, -0.4, 0.28, 0, TAU); ctx.moveTo(0, -0.4); ctx.lineTo(0.5, -0.4); ctx.moveTo(0.25, -0.65); ctx.lineTo(0.25, -0.15); ctx.stroke(); }
+    E(0.02, 0, 0.14, 0.14, /helmet|plate/.test(f.armour) ? '#b9a26a' : '#3a2c20'); ctx.restore();
   }
-  function beast() {
-    const o = B.opp, L = B.o.length, sh = B.o.shape, dead = B.over === true, sway = dead ? 0.3 : Math.sin(B.t * (B.sub === 'lunge' ? 14 : 4)) * 0.12;
-    ctx.save(); ctx.translate(X(o.x), Y(o.y)); ctx.rotate(o.h); ctx.scale(PX * L, PX * L); ctx.globalAlpha = dead ? 0.7 : 1;
-    const E = (x, y, rx, ry, c) => { ctx.fillStyle = c; ctx.beginPath(); ctx.ellipse(x, y, rx, ry, 0, 0, 6.283); ctx.fill(); };
-    if (sh === 'raptor' || sh === 'rex') {       // unit length: snout at +0.5, tail tip at -0.5
-      const rex = sh === 'rex', body = rex ? '#55603f' : '#5a4433', dark = rex ? '#3c452c' : '#3d2e22', bw = rex ? 0.085 : 0.07;
+  function beast(u) {             // drawn in body lengths: snout at +0.5, tail tip at -0.5
+    const a = u.t.ref, sh = a.shape, dead = u.hp <= 1e-9, going = u.busy && u.busy.a === u && u.busy.ph === 'go', sway = dead ? 0.3 : Math.sin(B.t * (going ? 14 : 4) + u.ph) * 0.12, body = a.body, dark = a.dark, acc = a.accent;
+    ctx.save(); ctx.translate(X(u.x), Y(u.y)); ctx.rotate(u.h + (dead ? 0.4 : 0)); ctx.scale(PX * u.len, PX * u.len); ctx.globalAlpha = dead ? 0.55 : 1; ctx.lineCap = 'round';
+    if (sh === 'raptor' || sh === 'rex') {
+      const rex = sh === 'rex', bw = rex ? 0.085 : 0.07, hw = rex ? 0.055 : 0.036, hl = rex ? 0.2 : 0.17;
       ctx.fillStyle = dark; ctx.beginPath(); ctx.moveTo(-0.05, -bw * 0.8); ctx.quadraticCurveTo(-0.3, sway * 0.3, -0.5, sway); ctx.quadraticCurveTo(-0.3, sway * 0.3, -0.05, bw * 0.8); ctx.fill();
       for (const s of [-1, 1]) { E(0.02, s * bw * 1.05, 0.07, 0.03, dark); if (!rex) { ctx.strokeStyle = '#d8d0c0'; ctx.lineWidth = 0.008; ctx.beginPath(); ctx.moveTo(0.08, s * bw * 1.2); ctx.lineTo(0.12, s * bw * 1.05); ctx.stroke(); } }
       E(0.07, 0, 0.15, bw, body);
-      if (!rex) for (const s of [-1, 1]) { ctx.fillStyle = '#a3492c'; ctx.beginPath(); ctx.moveTo(0.16, s * bw * 0.7); ctx.lineTo(0.1, s * (bw + 0.075)); ctx.lineTo(0.02, s * (bw + 0.05)); ctx.lineTo(0.08, s * bw * 0.7); ctx.fill(); }
-      else for (const s of [-1, 1]) E(0.17, s * bw * 0.95, 0.018, 0.008, dark);
-      E(0.25, 0, 0.07, bw * 0.5, body); ctx.fillStyle = body; ctx.beginPath(); const hw = rex ? 0.055 : 0.036, hl = rex ? 0.2 : 0.17;
-      ctx.moveTo(0.3, -hw); ctx.quadraticCurveTo(0.3 + hl * 0.8, -hw * 0.9, 0.3 + hl, 0); ctx.quadraticCurveTo(0.3 + hl * 0.8, hw * 0.9, 0.3, hw); ctx.fill();
-      for (const s of [-1, 1]) E(0.34, s * hw * 0.62, 0.008, 0.006, '#e8c14a');
-      if (!rex) { ctx.strokeStyle = '#a3492c'; ctx.lineWidth = 0.012; ctx.beginPath(); ctx.moveTo(-0.02, 0); ctx.lineTo(0.3, 0); ctx.stroke(); }
+      for (const s of [-1, 1]) { if (rex) E(0.17, s * bw * 0.95, 0.018, 0.008, dark); else { ctx.fillStyle = acc; ctx.beginPath(); ctx.moveTo(0.16, s * bw * 0.7); ctx.lineTo(0.1, s * (bw + 0.075)); ctx.lineTo(0.02, s * (bw + 0.05)); ctx.lineTo(0.08, s * bw * 0.7); ctx.fill(); } }
+      E(0.25, 0, 0.07, bw * 0.5, body); ctx.fillStyle = body; ctx.beginPath(); ctx.moveTo(0.3, -hw); ctx.quadraticCurveTo(0.3 + hl * 0.8, -hw * 0.9, 0.3 + hl, 0); ctx.quadraticCurveTo(0.3 + hl * 0.8, hw * 0.9, 0.3, hw); ctx.fill();
+      for (const s of [-1, 1]) { E(0.34, s * hw * 0.62, 0.008, 0.006, '#e8c14a'); if (a.coat === 'horns') E(0.345, s * hw * 0.95, 0.012, 0.008, acc); if (a.coat === 'crest') { ctx.strokeStyle = acc; ctx.lineWidth = 0.01; ctx.beginPath(); ctx.moveTo(0.36, s * hw * 0.4); ctx.lineTo(0.44, s * hw * 0.25); ctx.stroke(); } }
+      if (a.coat === 'horn') E(0.45, 0, 0.012, 0.008, acc);
+      if (!rex) { ctx.strokeStyle = acc; ctx.lineWidth = 0.012; ctx.beginPath(); ctx.moveTo(-0.02, 0); ctx.lineTo(0.3, 0); ctx.stroke(); }
     } else if (sh === 'cat') {
-      ctx.strokeStyle = '#a87c44'; ctx.lineWidth = 0.03; ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(-0.2, 0); ctx.quadraticCurveTo(-0.38, sway, -0.5, sway * 2); ctx.stroke();
-      E(-0.02, 0, 0.22, 0.085, '#b98a4b'); E(0.2, 0, 0.12, 0.115, '#6b4a22'); E(0.28, 0, 0.075, 0.065, '#c2954f'); for (const s of [-1, 1]) E(0.27, s * 0.06, 0.02, 0.02, '#6b4a22');
-    } else {
-      E(-0.05, 0, 0.36, 0.2, '#4a3626'); E(0.33, 0, 0.13, 0.11, '#5a4230'); E(0.45, 0, 0.05, 0.04, '#3a2a1e'); for (const s of [-1, 1]) E(0.29, s * 0.1, 0.03, 0.03, '#3a2a1e');
-    }
-    for (let i = 0; i < o.w; i++) E(0.15 - (i % 5) * 0.06, ((i * 7) % 3 - 1) * 0.03, 0.012, 0.012, '#b3160f');
+      ctx.strokeStyle = body; ctx.lineWidth = 0.03; ctx.beginPath(); ctx.moveTo(-0.2, 0); ctx.quadraticCurveTo(-0.38, sway, -0.5, sway * 2); ctx.stroke(); E(-0.02, 0, 0.22, 0.085, body);
+      if (a.coat === 'stripes') { ctx.strokeStyle = dark; ctx.lineWidth = 0.014; ctx.beginPath(); for (let i = 0; i < 5; i++) { ctx.moveTo(-0.16 + i * 0.07, -0.07); ctx.lineTo(-0.15 + i * 0.07, 0.07); } ctx.stroke(); }
+      if (a.coat === 'spots') for (let i = 0; i < 7; i++) E(-0.17 + i * 0.05, (i % 3 - 1) * 0.04, 0.011, 0.011, dark);
+      if (a.coat === 'mane') E(0.2, 0, 0.12, 0.115, dark);
+      E(0.28, 0, 0.075, 0.065, a.coat === 'mane' ? acc : body); for (const s of [-1, 1]) E(0.27, s * 0.06, 0.02, 0.02, dark);
+    } else if (sh === 'dog') {
+      ctx.strokeStyle = dark; ctx.lineWidth = 0.035; ctx.beginPath(); ctx.moveTo(-0.22, 0); ctx.quadraticCurveTo(-0.36, sway, -0.48, sway * 1.5); ctx.stroke(); E(-0.02, 0, 0.24, 0.085, body);
+      if (a.coat === 'spots') for (let i = 0; i < 6; i++) E(-0.16 + i * 0.06, (i % 3 - 1) * 0.04, 0.012, 0.012, dark);
+      E(0.27, 0, 0.09, 0.07, body); ctx.fillStyle = dark; ctx.beginPath(); ctx.moveTo(0.33, -0.04); ctx.lineTo(0.5, 0); ctx.lineTo(0.33, 0.04); ctx.fill(); for (const s of [-1, 1]) E(0.25, s * 0.06, 0.022, 0.018, dark);
+    } else if (sh === 'elephant') {
+      ctx.strokeStyle = dark; ctx.lineWidth = 0.012; ctx.beginPath(); ctx.moveTo(-0.38, 0); ctx.lineTo(-0.47, sway * 0.5); ctx.stroke(); E(-0.08, 0, 0.3, 0.17, body);
+      for (const s of [-1, 1]) E(0.2, s * (0.17 + sway * 0.1), 0.085, 0.1, dark); E(0.27, 0, 0.12, 0.11, body);
+      ctx.strokeStyle = body; ctx.lineWidth = 0.045; ctx.beginPath(); ctx.moveTo(0.36, 0); ctx.quadraticCurveTo(0.44, sway * 0.4, 0.5, sway); ctx.stroke();
+      ctx.strokeStyle = acc; ctx.lineWidth = 0.014; ctx.beginPath(); for (const s of [-1, 1]) { ctx.moveTo(0.35, s * 0.05); ctx.lineTo(0.45, s * 0.07); } ctx.stroke();
+    } else { E(-0.05, 0, 0.36, 0.2, body); E(0.33, 0, 0.13, 0.11, acc); E(0.45, 0, 0.05, 0.04, '#2a211a'); for (const s of [-1, 1]) E(0.29, s * 0.1, 0.03, 0.03, dark); }
+    for (let i = 0, nw = Math.min(12, Math.round((1 - u.hp) * 12)); i < nw; i++) E(0.16 - (i % 6) * 0.055, ((i * 7) % 3 - 1) * 0.03, 0.012, 0.012, '#b3160f');
     ctx.restore();
   }
+  function clip(s, w) { if (ctx.measureText(s).width <= w) return s; while (s.length > 4 && ctx.measureText(s + '…').width > w) s = s.slice(0, -1); return s + '…'; }
   function hud() {
-    const o = B.opp, pad = 0.7 * PX, sw = 0.38 * PX; ctx.font = '600 ' + 0.5 * PX + 'px JetBrains Mono, monospace'; ctx.textAlign = 'left'; ctx.fillStyle = '#d4d4d8';
-    ctx.fillText(`${B.n} × ${B.f.name}` + (B.n > 1 ? `, beaten when ${B.sc.D} are down` : ''), pad, pad + 0.3 * PX);
-    B.men.forEach((m, i) => { ctx.fillStyle = m.w >= 2 ? '#3f3f46' : m.w ? '#dc2626' : '#e7dcc3'; ctx.fillRect(pad + (i % 20) * (sw + 4), pad + 0.7 * PX + Math.floor(i / 20) * (sw + 4), sw, sw); });
-    ctx.textAlign = 'right'; ctx.fillStyle = '#d4d4d8'; ctx.fillText(short(B.o.name) + (B.o.dino ? (basis() === 'corr' ? ', anatomy-corrected' : ', as the crowd voted') : ''), cv.width - pad, pad + 0.3 * PX);
-    for (let i = 0; i < B.H; i++) { ctx.fillStyle = i < B.H - o.w ? '#ef4444' : '#3f3f46'; ctx.fillRect(cv.width - pad - (i + 1) * (sw * 1.6 + 4) + 4, pad + 0.7 * PX, sw * 1.6, sw); }
-    if (B.strike) { ctx.strokeStyle = 'rgba(255,255,255,' + (0.8 - B.strike.age * 3) + ')'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(X(B.strike.x1), Y(B.strike.y1)); ctx.lineTo(X(B.strike.x2), Y(B.strike.y2)); ctx.stroke(); }
-    ctx.textAlign = 'center'; for (const t of B.texts) { ctx.globalAlpha = Math.max(0, 1 - t.age / 1.6); ctx.fillStyle = t.c; ctx.fillText(t.s, X(t.x), Y(t.y - t.age * 1.2)); } ctx.globalAlpha = 1;
-    if (B.over !== null) {
-      ctx.fillStyle = 'rgba(8,8,10,.72)'; ctx.fillRect(0, cv.height / 2 - 1.1 * PX, cv.width, 2.2 * PX); ctx.fillStyle = B.over ? '#e7dcc3' : '#fca5a5'; ctx.font = 'italic 700 ' + 1.1 * PX + 'px Playfair Display, Georgia, serif';
-      ctx.fillText(B.over ? (B.n === 1 ? 'The fighter wins' : 'The fighters win') : `The ${short(B.o.name)} wins`, cv.width / 2, cv.height / 2 + 0.38 * PX);
+    const hs = cv.width / (cv.clientWidth || 700), fs = Math.round(11.5 * hs), pad = 10 * hs, bw = Math.min(250 * hs, cv.width * 0.3), bh = 5 * hs, mixed = S.mode !== 'basic';
+    for (const s of B.strikes) { ctx.strokeStyle = 'rgba(255,255,255,' + Math.max(0, 0.8 - s.age * 3) + ')'; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(X(s.x1), Y(s.y1)); ctx.lineTo(X(s.x2), Y(s.y2)); ctx.stroke(); }
+    ctx.font = `600 ${fs}px JetBrains Mono, monospace`; ctx.textAlign = 'center';
+    for (const t of B.texts) { ctx.globalAlpha = Math.max(0, 1 - t.age / 1.5); ctx.fillStyle = t.team < 0 ? '#d4d4d8' : COL[t.team]; ctx.fillText(t.s, X(t.x), Y(t.y) - t.age * 14 * hs); } ctx.globalAlpha = 1;
+    for (let t = 0; t < B.T; t++) {
+      const us = B.units.filter(u => u.team === t), up = us.filter(u => u.hp > 1e-9).length, frac = clamp(1 - B.downW[t] / B.F.tot[t], 0, 1);
+      const x0 = t === 0 ? pad : t === 1 ? cv.width - pad - bw : cv.width / 2 - bw / 2, y0 = t === 2 ? cv.height - pad - fs * 2.75 - bh : pad, tx = t === 0 ? pad : t === 1 ? cv.width - pad : cv.width / 2, by = y0 + fs * 1.45;
+      ctx.textAlign = t === 0 ? 'left' : t === 1 ? 'right' : 'center'; ctx.font = `600 ${fs}px JetBrains Mono, monospace`; ctx.fillStyle = mixed ? COL[t] : '#d4d4d8'; ctx.fillText(clip((mixed ? NAMES[t] + ': ' : '') + B.names[t], cv.width * 0.44), tx, y0 + fs);
+      ctx.fillStyle = '#26262b'; ctx.fillRect(x0, by, bw, bh); ctx.fillStyle = B.out[t] ? '#52525b' : COL[t]; ctx.fillRect(t === 1 ? x0 + bw * (1 - frac) : x0, by, bw * frac, bh);
+      ctx.fillStyle = '#08080a'; ctx.fillRect(x0 + bw / 2 - hs, by - 2 * hs, 2 * hs, bh + 4 * hs);
+      ctx.font = `400 ${Math.round(10.5 * hs)}px DM Sans, sans-serif`; ctx.fillStyle = '#8b8b94'; ctx.fillText((B.out[t] ? 'beaten, ' : '') + `${up} of ${us.length} standing`, tx, by + bh + fs * 1.05);
+    }
+    ctx.fillStyle = '#d4d4d8'; ctx.fillRect(pad, cv.height - pad - 2 * hs, 5 * PX, 2 * hs); ctx.font = `600 ${Math.round(10 * hs)}px JetBrains Mono, monospace`; ctx.textAlign = 'left'; ctx.fillText('5 m', pad, cv.height - pad - 6 * hs);
+    if (B.over) {
+      const h = 46 * hs; ctx.fillStyle = 'rgba(8,8,10,.72)'; ctx.fillRect(0, cv.height / 2 - h / 2, cv.width, h); ctx.fillStyle = COL[B.win]; ctx.textAlign = 'center'; ctx.font = `italic 700 ${Math.round(24 * hs)}px Playfair Display, Georgia, serif`; ctx.fillText(winsText(B.win), cv.width / 2, cv.height / 2 + 8 * hs);
     }
   }
-  function draw() { arena(); B.men.filter(m => m.w >= 2).forEach(man); beast(); B.men.filter(m => m.w < 2).forEach(man); hud(); }
+  function draw() {
+    arena(); const mixed = S.mode !== 'basic', live = B.units.filter(u => u.hp > 1e-9), beasts = live.filter(u => !u.hum).sort((a, b) => b.len - a.len);
+    for (const u of B.units) if (u.hp <= 1e-9) (u.hum ? man : beast)(u);
+    if (mixed) beasts.forEach(ring); beasts.forEach(beast); live.filter(u => u.hum).forEach(man); hud();
+  }
   function frame(ts) {
     const dt = Math.min(0.05, (ts - last) / 1000 || 0) * +$('speed').value; last = ts;
-    for (let i = 0, k = Math.ceil(dt / 0.02) || 1; i < k; i++) step(dt / k);
-    if (B.over !== null && B.done > 2.6 && $('auto').checked) newBout();
-    draw(); requestAnimationFrame(frame);
+    if (B) { for (let i = 0, n = Math.ceil(dt / 0.02) || 1; i < n; i++) step(B, dt / n); if (B.over && !B.counted) finish(); if (B.over && B.done > 2.6 && $('auto').checked) newBout(); draw(); }
+    requestAnimationFrame(frame);
   }
 
   // ---------- controls ----------
-  const change = () => { odds(); T.n = T.w = 0; tally(); newBout(); };
-  $('who').onchange = e => { S.f = +e.target.value; change(); }; $('opp').onchange = e => { S.o = +e.target.value; change(); };
-  const setN = v => { S.n = Math.max(1, Math.min(40, Math.round(+v) || 1)); $('n').value = $('nr').value = S.n; change(); };
-  $('n').onchange = e => setN(e.target.value); $('nr').oninput = e => setN(e.target.value);
-  $('b_crowd').onchange = $('b_corr').onchange = e => { S.basis = e.target.value; change(); }; $('kmode').onchange = e => { S.mode = e.target.value; change(); };
-  $('unc').onchange = e => { S.unc = e.target.checked; change(); }; $('fight').onclick = newBout; $('reset').onclick = () => { T.n = T.w = 0; tally(); };
-  $('batch').onclick = () => { for (let i = 0; i < 1000; i++) { T.n++; if (Math.random() < share(F(), O(), S.n, basis(), S.mode, S.unc)) T.w++; } tally(); };
+  const change = () => { clearTimeout(timer); timer = setTimeout(rebuild, 60); };
+  DATA.fighters.forEach((f, i) => $('who').add(new Option(f.name + '  ·  ' + fmt(Math.exp(f.mu)), 'f' + i)));
+  DATA.animals.forEach((a, i) => $('opp').add(new Option(a.label + '  ·  ' + a.kg.toLocaleString('en-US') + ' kg', i)));
+  [['crowd', 'as the crowd\'s own groups do (n^' + DATA.k.toFixed(2) + ')'], ['1', 'in proportion (n^1)'], ['0.7', 'as step 3 of the pipeline assumes (n^0.7)']].forEach(([v, t]) => $('kmode').add(new Option(t, v)));
+  $('preset').add(new Option('Your own setup', '')); PRESETS.forEach((p, i) => $('preset').add(new Option(p[0], i))); $('preset').value = '0';
+  $('who').value = S.f; $('opp').value = S.a;
+  const options = sel => { let h = '', g = ''; for (const t of TYPES) { if (t.group !== g) { h += (g ? '</optgroup>' : '') + `<optgroup label="${esc(t.group)}">`; g = t.group; } h += `<option value="${t.id}"${t.id === sel ? ' selected' : ''}>${esc(t.label)}</option>`; } return h + '</optgroup>'; };
+  function renderSides() {
+    $('sides').innerHTML = S.adv.map((side, t) => `<div class="side" style="--c:${COL[t]}"><div class="side-h"><span>${NAMES[t]} side</span>${t === 2 ? '<button type="button" class="small" data-drop="1">Remove this side</button>' : ''}</div>` +
+      side.map((e, r) => `<div class="trow"><input type="number" id="c${t}_${r}" min="1" max="40" value="${e.n}" aria-label="How many"><select id="t${t}_${r}" aria-label="Kind of fighter or animal">${options(e.id)}</select><button type="button" data-rm="${t}_${r}" aria-label="Remove this kind"${side.length < 2 ? ' disabled' : ''}>×</button></div>`).join('') +
+      (side.length < 4 ? `<button type="button" class="small" data-add="${t}">Add a kind</button>` : '') + '</div>').join('');
+    $('third').hidden = S.adv.length > 2;
+  }
+  $('sides').addEventListener('change', ev => {
+    const m = /^([ct])(\d)_(\d)$/.exec(ev.target.id); if (!m) return; const e = S.adv[+m[2]][+m[3]];
+    if (m[1] === 'c') { e.n = clamp(Math.round(+ev.target.value) || 1, 1, 40); ev.target.value = e.n; } else e.id = ev.target.value; $('preset').value = ''; change();
+  });
+  $('sides').addEventListener('click', ev => {
+    const b = ev.target.closest('button'); if (!b) return;
+    if (b.dataset.add) S.adv[+b.dataset.add].push({ id: aId('Lion'), n: 1 }); else if (b.dataset.rm) { const [t, r] = b.dataset.rm.split('_'); S.adv[+t].splice(+r, 1); } else if (b.dataset.drop) S.adv.pop(); else return;
+    $('preset').value = ''; renderSides(); change();
+  });
+  $('third').onclick = () => { S.adv.push([{ id: aId('Lion'), n: 2 }]); $('preset').value = ''; renderSides(); change(); };
+  $('preset').onchange = e => { if (e.target.value === '') return; S.adv = preset(+e.target.value); renderSides(); change(); };
+  $('m_basic').onchange = $('m_adv').onchange = e => { S.mode = e.target.value; $('basic').hidden = S.mode !== 'basic'; $('adv').hidden = S.mode === 'basic'; change(); };
+  $('who').onchange = e => { S.f = e.target.value; change(); }; $('opp').onchange = e => { S.a = +e.target.value; change(); };
+  const num = (key, a, b, max) => { const set = v => { S[key] = clamp(Math.round(+v) || 1, 1, max); $(a).value = $(b).value = S[key]; change(); }; $(a).onchange = e => set(e.target.value); $(b).oninput = e => set(e.target.value); return set; };
+  const setNf = num('nf', 'n', 'nr', 100); num('na', 'na', 'nar', 12);
+  $('even_btn').onclick = () => { const f = byId[S.f].ref, a = DATA.animals[S.a], k = kOf(S.kmode, false); setNf(Math.exp((k * Math.log(S.na) + a.mu + (a.dino && S.basis === 'corr' ? a.dmu : 0) - f.mu) / k)); };
+  $('b_crowd').onchange = $('b_corr').onchange = e => { S.basis = e.target.value; change(); }; $('kmode').onchange = e => { S.kmode = e.target.value; change(); };
+  $('unc').onchange = e => { S.unc = e.target.checked; change(); }; $('fight').onclick = newBout; $('reset').onclick = () => { T.n = 0; T.w = [0, 0, 0]; T.d = [0, 0, 0]; renderTally(); };
+  $('batch').onclick = () => { for (let i = 0; i < 1000; i++) { const r = drawBout(M.F, boutShares(), M.lam, false); T.n++; T.w[r.win]++; r.downs.forEach((d, t) => { T.d[t] += d; }); } renderTally(); };
   if (matchMedia('(prefers-reduced-motion: reduce)').matches) { $('auto').checked = false; $('speed').value = 0.5; }
-  odds(); tally(); newBout(); requestAnimationFrame(frame);
+  renderSides(); rebuild(); requestAnimationFrame(frame);
 })();
 </script>
 </body>
