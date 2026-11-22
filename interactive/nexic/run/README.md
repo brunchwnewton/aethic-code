@@ -57,3 +57,28 @@ The earlier processing scripts (`3_power_assembler.py`, `4_categorizer.py`, `5_r
 - **Step 5** replaces the "big cat = 100" benchmark and the single fixed dinosaur factor with the elicited lognormal anatomy model, log F ~ N(1.24511, 0.18923²) with median 3.473×. The calibration ladder is anchored on the African Lion; the generic-Lion version, 6.92×, is reported as a sensitivity.
 - **Step 6** replaces the slope grid search with exact median regression. It also drops the small-mammal re-anchoring, excluding mammals below 1 kg instead as the paper states, and adds the crowd's own equal-mass ratio.
 - **Step 7** is new: the cultural-inflation analysis of Section 8.
+
+## Category graph, merged and coupled fits, error bars (added November 2026)
+
+Two new scripts, run after steps 3–6. They leave the files above unchanged: `coupled_fit.py` imports steps 3–6 and its own copy of step 3's preprocessing reproduces step 3's scores exactly.
+
+| file | does | writes |
+|---|---|---|
+| `category_graph.py` | links entries that name one animal: populations and subspecies under their species (taxon trees, nested: *West African Lion → African Lion → Lion*) and female or male forms to their base (*Lioness → Lion*, *Human (male) → Human*) | `category_graph.csv` (every candidate link with status, how it was found, reason), `category_graph.txt` (readable trees) |
+| `coupled_fit.py` | refits under the graph, puts error bars on every score, and reruns the anatomy factor and weight–score analysis for each fit | `outputs/graph/` |
+
+```
+python3 category_graph.py
+python3 coupled_fit.py duels.csv      # under a minute
+```
+
+**The graph.** Taxon links come from names (a qualifier plus another entry's name, or a bracketed population such as *African Leopard (Congo)*) and from a short hand list of subspecies whose names hide the species (*Kodiak Bear → Brown Bear*, the grey wolf subspecies → *Grey Wolf*). They are vetted by step 7's rule: living populations or subspecies of the species the parent names. Other species, extinct and fossil forms and settings are cut, each with its reason. Sex links use plain sex qualifiers only; groups are left to step 3's pseudo-matchups. To switch a link on or off, flip `status` in `category_graph.csv` (rerunning `category_graph.py` rebuilds it from the tables in the script).
+
+**Three fits** (`scores_original.csv`, `scores_merge.csv`, `scores_coupled.csv`):
+- *original*: the paper's fit, now with error bars.
+- *merge* (variant A): each taxon tree becomes one animal named by its top entry; duels inside a tree are dropped.
+- *coupled* (variant B): every entry keeps its own score; each category gets a stand-in, a latent score tied to its members by a normal coupling (SD `tau_taxon`); each sex form is tied to its base around a common offset (SD `tau_sex`). The couplings and offsets are estimated from the votes by empirical Bayes. A broad name's row reports its stand-in, and its own entry's score is in `entry_score`.
+
+Each fit is on its own lion scale: the row holding the African Lion's votes reads 100.
+
+**Columns:** `score` crowd score; `se_log` its standard error against the field (the animals outside the graph), widened for overdispersion (phi = 1.85); `crowd_p05…p95` its percentiles; `median_factor`, `median_score` as in step 5; `joint_p05…p95` percentiles of the corrected score with the elicited factor at the ladder's point estimates; `full_p05…p95` the same with the ladder redrawn with the scores (one factor per draw, shared by all dinosaurs); `rank_p05/p50/p95` percentiles of the corrected-score rank; `members` the entries behind a merged or category row. `categories.csv` sets each category's paper scores beside the merged and coupled ones. `summary.json` holds the fit settings, the anatomy model and weight–score results for each fit, the redrawn-ladder spread, the coupling estimates and the paper fit's sensitivity to step 3's ridge penalty.

@@ -1,0 +1,63 @@
+# Whitelist: git sees only the files listed below. Everything else in this folder stays hidden: LaTeX build files,
+# __pycache__, new outputs, scratch files, macOS metadata. To track another file, add a line  !/path/to/file
+# (paths are relative to this folder). Files git already tracks stay tracked whatever this file says.
+
+# hide everything...
+*
+# ...but still look inside folders, so the files below can be found
+!*/
+
+!/.gitignore
+
+# the paper, its source and the interactive pages
+!/dark_era_score_analysis.tex
+!/dinosaur-recalibration.pdf
+!/dino-correct.html
+!/dark-era-chart.html
+# !/compile_paper.py
+
+# pipeline: README, requirements, scrapers (steps 1-2), steps 3-7 and their runner
+!/run/README.md
+!/run/requirements.txt
+!/run/1_link_scraper.py
+!/run/2_scrape_duels.py
+!/run/3_bt_fit.py
+!/run/4_categorize.py
+!/run/4_categorizer.py
+!/run/5_rescale_dinos.py
+!/run/6_curve_fit.py
+!/run/7_cultural_inflation.py
+!/run/run_3_to_7.py
+
+# scraped data
+!/run/versus_links.txt
+!/run/duels.csv
+
+# the earlier pipeline's outputs
+!/run/duels_ratings.csv
+!/run/duels_ratings_classified.csv
+!/run/duels_ratings_classified_rescaled.csv
+!/run/duels_ratings_classified_rescaled_dark_era.json
+!/run/duels_ratings_classified_rescaled_dark_era_comparison.csv
+
+# outputs of steps 3-7
+!/run/outputs/bt_fit_summary.json
+!/run/outputs/bt_scores.csv
+!/run/outputs/bt_scores_classified.csv
+!/run/outputs/bt_scores_african_lion_100.csv
+!/run/outputs/anatomy_model.json
+!/run/outputs/weight_score.json
+!/run/outputs/dark_era_table.csv
+!/run/outputs/cultural_inflation.csv
+!/run/outputs/cultural_inflation.json
+
+# category graph, merged and coupled fits, error bars
+!/run/category_graph.py
+!/run/category_graph.csv
+!/run/category_graph.txt
+!/run/coupled_fit.py
+!/run/outputs/graph/categories.csv
+!/run/outputs/graph/scores_original.csv
+!/run/outputs/graph/scores_merge.csv
+!/run/outputs/graph/scores_coupled.csv
+!/run/outputs/graph/summary.json
