@@ -42,12 +42,14 @@ def _load(name, file):
 
 
 bt, c4, c5, c6 = _load('bt', '3_bt_fit.py'), _load('c4', '4_categorize.py'), _load('c5', '5_rescale_dinos.py'), _load('c6', '6_curve_fit.py')
+c7 = _load('c7', '7_cultural_inflation.py')
 LEVELS = (5, 16, 50, 84, 95); Z = stats.norm.ppf(np.array(LEVELS) / 100)
 N_DRAWS, SEED, S0 = 5000, 2026, 1.0            # joint draws; prior SD of the two sex offsets (log scale)
 OUT, FINAL = 'outputs/graph', os.path.join('..', 'final_scores.csv')    # FINAL: the end result, in the nexic folder
 HEADLINE = ['Tyrannosaurus rex', 'Utahraptor ostrommaysorum', 'Dakotaraptor steini', 'Deinonychus antirrhopus', 'Velociraptor mongoliensis',
             'Mosasaurus hoffmannii', 'Lion', 'African Lion', 'Tiger', 'Bengal Tiger', 'Siberian Tiger', 'Leopard', 'Jaguar', 'Brown Bear',
             'Grizzly Bear', 'Grey Wolf', 'Human']
+FELT = ['Velociraptor mongoliensis', 'Deinonychus antirrhopus', 'Dakotaraptor steini', 'Utahraptor ostrommaysorum', 'Tyrannosaurus rex']
 
 
 # ---------------------------------------------------------------- category graph
@@ -148,10 +150,14 @@ def solve_plain(P):
 class Coupled:
     """Negative log posterior of variant B: step 3's penalized likelihood (BT plus ridge), tempered by 1/phi, on the
     entries (the ridge also on the stand-ins), taxon couplings (member - stand-in)^2 / (2 tau_t^2), sex couplings (form - base - offset)^2 / (2 tau_s^2),
-    and N(0, S0^2) priors on the two offsets. x = [entries (K), stand-ins (C), offset_female, offset_male]."""
-    def __init__(self, P, tax_pairs, sex_pairs, C, temper):
-        self.P, self.K, self.C, self.n = P, len(P['names']), C, len(P['names']) + C + 2
+    and N(0, S0^2) priors on the two offsets. x = [entries (K), stand-ins (C), offset_female, offset_male]. With broad_pairs
+    (broad entry, its stand-in), those couplings get a shared offset of their own, offset_broad, appended to x: the check of
+    whether broad names sit systematically above their categories."""
+    def __init__(self, P, tax_pairs, sex_pairs, C, temper, broad_pairs=None):
+        self.n_off = 2 if broad_pairs is None else 3
+        self.P, self.K, self.C, self.n = P, len(P['names']), C, len(P['names']) + C + self.n_off
         self.tm, self.ts = tax_pairs[:, 0], tax_pairs[:, 1]; self.sf, self.sb, self.so = sex_pairs.T; self.temper = temper
+        self.bb, self.bs = (None, None) if broad_pairs is None else (broad_pairs[:, 0], broad_pairs[:, 1])
         self.Nt = P['Wi'] + P['Wj']
 
     def prior(self, tau_t, tau_s):
@@ -160,7 +166,10 @@ class Coupled:
         for a, b, s in [(self.tm, self.tm, 1), (self.ts, self.ts, 1), (self.tm, self.ts, -1), (self.ts, self.tm, -1)]: np.add.at(Q, (a, b), s * wt)
         f, b_, o = self.sf, self.sb, self.so
         for a, b, s in [(f, f, 1), (b_, b_, 1), (o, o, 1), (f, b_, -1), (b_, f, -1), (f, o, -1), (o, f, -1), (b_, o, 1), (o, b_, 1)]: np.add.at(Q, (a, b), s * ws)
-        Q[KC:, KC:] += np.eye(2) / S0**2
+        if self.bb is not None:                                              # (broad - stand-in - offset_broad)^2 / (2 tau_t^2)
+            b_, s_, o = self.bb, self.bs, np.full(len(self.bb), KC + 2)
+            for a, b, s in [(b_, b_, 1), (s_, s_, 1), (o, o, 1), (b_, s_, -1), (s_, b_, -1), (b_, o, -1), (o, b_, -1), (s_, o, 1), (o, s_, 1)]: np.add.at(Q, (a, b), s * wt)
+        Q[KC:, KC:] += np.eye(self.n_off) / S0**2
         return Q
 
     def bt_terms(self, x):
@@ -221,6 +230,13 @@ def fit_coupled(path, parent, sex, phi, start):
         cache['x'] = x; cache['evals'].append((float(np.exp(lt)), float(np.exp(ls)), float(lm))); return -lm
     res = optimize.minimize(neg_logml, np.log([0.5, 0.5]), method='Nelder-Mead', options=dict(xatol=0.01, fatol=0.005, maxiter=80))
     tau_t, tau_s = np.exp(np.clip(res.x, np.log(0.02), np.log(5.0))); x, H, logml = model.mode(tau_t, tau_s, cache['x']); cov = np.linalg.inv(H)
+    # checks: the marginal likelihood near a full merge and near no pooling, and a shared offset for broad names
+    checks = {f'log_marginal_likelihood_tau_taxon_{t}': float(model.mode(t, tau_s, x)[2]) for t in (0.05, 2.0)}
+    broad = np.array([(idx[c], cidx[c]) for c, mem in cats.items() if ('entry', c) in mem])
+    rest = np.array([(tok(k, m), cidx[c]) for c, mem in cats.items() for k, m in mem if not (k == 'entry' and m == c)])
+    mb = Coupled(P, rest, sex_pairs, C, 1 / phi, broad_pairs=broad); xb, Hb, lmb = mb.mode(tau_t, tau_s, np.append(x, 0.0))
+    checks.update(broad_offset=float(xb[-1]), broad_offset_se=float(np.sqrt(np.linalg.inv(Hb)[-1, -1])), broad_offset_categories=len(broad),
+                  broad_offset_log_marginal_likelihood_change=float(lmb - logml))
     # rows: leaf entries keep their own score; a broad name's row is its stand-in
     rows, pos, kind, ent = [], [], [], []
     for n in P['names']:
@@ -237,7 +253,7 @@ def fit_coupled(path, parent, sex, phi, start):
     matchups = [sum(P['deg'][m] for m in members[r]) for r in rows]; votes = [sum(P['votes'][m] for m in members[r]) for r in rows]
     summary = dict(P['summary'], stand_ins=C, taxon_couplings=len(tax_pairs), sex_couplings=len(sex_in), tau_taxon=float(tau_t), tau_sex=float(tau_s),
                    offset_female=float(x[K + C]), offset_male=float(x[K + C + 1]), offset_female_se=float(np.sqrt(cov[K + C, K + C])),
-                   offset_male_se=float(np.sqrt(cov[K + C + 1, K + C + 1])), log_marginal_likelihood=float(logml), eb_evaluations=len(cache['evals']))
+                   offset_male_se=float(np.sqrt(cov[K + C + 1, K + C + 1])), log_marginal_likelihood=float(logml), eb_evaluations=len(cache['evals']), checks=checks)
     return dict(label='coupled', rows=rows, theta=x[pos], cov=cov[np.ix_(pos, pos)], kind=kind, members=members, matchups=matchups, votes=votes,
                 entry_theta=np.array(ent), summary=summary, anchor='African Lion', alt_anchor='Lion', eb_path=cache['evals'])
 
@@ -290,16 +306,26 @@ def classify_rows(rows):
 
 
 def weight_analysis(S, F, sig, mammals, generic):
-    """Step 6's analysis (main() of 6_curve_fit.py) on the scores S, with a given mammal list."""
+    """Step 6's analysis (main() of 6_curve_fit.py: the same arithmetic and output keys) on the scores S, with a given
+    mammal list and the generic names left out of its main mammal fit."""
     lad, pr = c6.lad, c6.pr
     th_all = [(w, S[n]) for n, (w, c) in c6.THEROPODS.items()]; th_carn = [(w, S[n]) for n, (w, c) in c6.THEROPODS.items() if c]
     mam = [(w, S[n]) for n, w in mammals.items() if n not in generic]; mam_gen = [(w, S[n]) for n, w in mammals.items()]
     fT, fC, fM, fMg = lad(th_all), lad(th_carn), lad(mam), lad(mam_gen)
-    out = dict(fits=dict(theropods=fT, theropods_carnivorous=fC, mammals=fM, mammals_with_generic=fMg, theropods_median_calibrated=(fT[0] * F, fT[1])))
-    out['dark_era_table'] = [dict(weight_kg=w, theropod_median=pr(fT, w) * F, mammal=pr(fM, w), ratio=pr(fT, w) * F / pr(fM, w)) for w in (.02, .1, 2, 15, 75, 250, 500)]
+    out = dict(fits=dict(theropods=fT, theropods_carnivorous=fC, mammals=fM, mammals_with_generic_lion_tiger=fMg,
+                         theropods_median_calibrated=(fT[0] * F, fT[1]), theropods_median_band=(fT[0] * F * np.exp(-sig), fT[0] * F * np.exp(sig))))
+    rows = []
+    for w, ctx in [(.02, 'Mouse-sized'), (.1, 'Rat-sized illustrative mammal'), (2, 'Squirrel-sized'), (15, 'Fox-sized (Velociraptor)'),
+                   (75, 'Human-sized (Deinonychus)'), (250, 'Lion-sized (Dakotaraptor)'), (500, 'Bear-sized (Utahraptor)')]:
+        t = pr(fT, w) * F; rows.append(dict(weight_kg=w, theropod_median=t, theropod_band_low=t * np.exp(-sig), theropod_band_high=t * np.exp(sig),
+                                            mammal=pr(fM, w), ratio=t / pr(fM, w), context=ctx))
+    out['dark_era_table'] = rows
+    out['median_ratio_1kg'] = pr(fT, 1) * F / pr(fM, 1); out['mammal_score_100g'] = pr(fM, .1)
+    out['cross_mass_ratios_vs_100g_mammal'] = {f'{w} kg': pr(fT, w) * F / pr(fM, .1) for w in (.4, 3, 15)}
     rng = np.random.default_rng(7); eq = {}
     for name, tp in [('carnivorous', th_carn), ('all', th_all)]:
-        eq[name] = {'crowd': {f'{w} kg': pr(lad(tp), w) / pr(fM, w) for w in (1, 30, 300)}}
+        eq[name] = {'without_generic': {f'{w} kg': pr(lad(tp), w) / pr(fM, w) for w in (1, 30, 300)},
+                    'with_generic': {f'{w} kg': pr(lad(tp), w) / pr(fMg, w) for w in (1, 30, 300)}}
         boot = {30: [], 300: []}
         for _ in range(1000):
             a = lad([tp[i] for i in rng.integers(0, len(tp), len(tp))]); m = lad([mam[i] for i in rng.integers(0, len(mam), len(mam))])
@@ -307,6 +333,27 @@ def weight_analysis(S, F, sig, mammals, generic):
         eq[name]['bootstrap_90'] = {f'{w} kg': [float(np.percentile(v, 5)), float(np.percentile(v, 95))] for w, v in boot.items()}
     out['equal_mass_crowd_ratio'] = eq; out['mammal_points'] = len(mam)
     return out
+
+
+def icon_inflation(path):
+    """Step 7's skew-normal fit to the iconic generic names' log-gaps over their populations, on the unpooled fit (the
+    arithmetic of main() in 7_cultural_inflation.py); returns the one-sided inflation scale s_I."""
+    names, idx, th, Sig, deg, votes, _ = bt.fit(path)
+    T = pd.DataFrame([dict(eta=float(th[idx[g]] - np.mean([th[idx[p]] for p in pops])), icon=g in c7.ICONS) for g, pops in c7.VET.items()])
+    a, xi, om = stats.skewnorm.fit(T.sort_values('eta', ascending=False)[lambda d: d.icon].eta.values)
+    return float(om * a / np.sqrt(1 + a * a))
+
+
+def felt_strength(mu, sig, s, crowd):
+    """Step 7's felt strength, log felt factor ~ SN(mu, sqrt(sigma^2 + s^2), s / sigma), on a given anatomy model; with the felt
+    median and 90% band of the given animals' scores (anatomy-factor and inflation uncertainty, as in the paper's table)."""
+    om, al = np.sqrt(sig**2 + s**2), s / sig; SN = stats.skewnorm(al, loc=mu, scale=om)
+    mc = np.random.default_rng(1); draws = mc.normal(mu, sig, 2_000_000) + np.abs(mc.normal(0, s, 2_000_000))
+    f = lambda q: float(np.exp(SN.ppf(q)))
+    return dict(xi=float(mu), omega=float(om), alpha=float(al), delta=float(s / om), median=f(.5), geometric_mean=float(np.exp(SN.mean())),
+                quantiles_5_16_50_84_95=[f(q) for q in (.05, .1587, .5, .8413, .95)],
+                monte_carlo_check=[float(np.exp(np.percentile(draws, q))) for q in (5, 15.87, 50, 84.13, 95)],
+                animals={n: dict(crowd=c, actual=c * float(np.exp(mu)), felt=c * f(.5), felt_p05=c * f(.05), felt_p95=c * f(.95)) for n, c in crowd.items()})
 
 
 def merged_mammals(root):
@@ -326,7 +373,8 @@ def main(path):
           f"{s['tau_sex']:.3f}; female offset {s['offset_female']:+.3f} ± {s['offset_female_se']:.3f}, male {s['offset_male']:+.3f} ± {s['offset_male_se']:.3f}")
     linked = set(parent) | set(parent.values()) | {f for f, _, _ in sex} | {x for _, x, _ in sex}
     bulk = sorted(set.intersection(*[{r for r, k in zip(F['rows'], F['kind']) if k == 'entry'} for F in fits]) - linked)
-    ref = dict(zip(o['rows'], o['theta'])); summary = dict(dispersion={k: v for k, v in disp.items() if k != 'start'}, bulk_animals=len(bulk), variants={})
+    ref = dict(zip(o['rows'], o['theta'])); s_icon = icon_inflation(path)
+    summary = dict(dispersion={k: v for k, v in disp.items() if k != 'start'}, bulk_animals=len(bulk), icon_one_sided_scale=s_icon, variants={})
     tables = {}
     for F in fits:
         R = dict(zip(F['rows'], F['theta'])); offset = -float(R[F['anchor']])
@@ -350,14 +398,14 @@ def main(path):
         t = t.sort_values('median_score', ascending=False); t.insert(0, 'rank', range(1, len(t) + 1)); tables[F['label']] = t
         t.to_csv(FINAL if F is b else f"{OUT}/scores_{F['label']}.csv", index=False, float_format='%.6g')
         v = dict(fit=F['summary'], anchor=F['anchor'], scale_slope_vs_paper=slope, anatomy_model=model, anatomy_model_alt_anchor=alt, alt_anchor=F['alt_anchor'],
-                 ladder_redrawn=E['ladder'], weight_score=W)
+                 ladder_redrawn=E['ladder'], weight_score=W, felt_strength=felt_strength(mu, sig, s_icon, {n: S[n] for n in FELT}))
         v['headline'] = {r['animal']: {k: (float(r[k]) if not isinstance(r[k], str) else r[k]) for k in ['score', 'crowd_p05', 'crowd_p95', 'median_score', 'joint_p05', 'joint_p95',
                          'full_p05', 'full_p50', 'full_p95', 'rank', 'rank_p05', 'rank_p50', 'rank_p95', 'kind']} for _, r in t.iterrows() if r['animal'] in HEADLINE}
         if F is b: v['eb_path'] = F['eb_path']
         summary['variants'][F['label']] = v
         c = W['equal_mass_crowd_ratio']['carnivorous']
         print(f"{F['label']:9s} slope vs paper {slope:.3f}; anchor {F['anchor']}: F median {model['median']:.3f} (sigma {sig:.3f}); ladder redrawn: logF sd {E['ladder']['draws_logF_sd']:.3f}; "
-              f"carnivorous equal-mass 30 kg {c['crowd']['30 kg']:.2f}, 300 kg {c['crowd']['300 kg']:.2f}")
+              f"carnivorous equal-mass 30 kg {c['without_generic']['30 kg']:.2f}, 300 kg {c['without_generic']['300 kg']:.2f}; felt median {v['felt_strength']['median']:.2f}")
     # the categories side by side: the paper's broad entry and populations, the merge, the stand-in
     O, A, B = (tables[k].set_index('animal') for k in ('original', 'merge', 'coupled')); rows = []
     for c in B.index[B.kind == 'category']:
