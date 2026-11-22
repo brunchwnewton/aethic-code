@@ -1,0 +1,264 @@
+Category graph: taxon trees (indented children), the sex forms of each member, [retained real matchups].
+
+African Wild Dog [25]
+    East African Wild Dog [5]
+
+African Wildcat [6]
+    Southern African Wildcat [1]
+
+American Bison [11]
+    Plains Bison [7]   (female: Plains Bison (cow) [0])
+    Wood Bison [8]   (female: Wood Bison (cow) [1])
+
+American Black Bear [26]   (female: American Black Bear (sow) [5])
+    Cinnamon Black Bear [1]
+        (YNP) Cinnamon Black Bear [1]
+    Florida Black Bear [1]
+    Glacier Bear [2]
+    Haida Gwaii Black Bear [4]
+    Kermode Bear [1]
+
+Asian Elephant [4]   (female: Asian Elephant (cow) [1])
+    Borneo Pygmy Elephant [1]
+    Sumatran Elephant [2]
+
+Asiatic Black Bear [13]   (female: Asiatic Black Bear (sow) [2])
+    Himalayan Black Bear [1]
+    Ussuri Black Bear [3]
+
+Aurochs [7]
+    Aurochs (Holocene) [2]
+    Aurochs (Pleistocene) [2]
+
+Bighorn Sheep [7]
+    Rocky Mountain Bighorn Sheep [3]
+
+Brown Bear [2]
+    Alaskan Peninsula Brown Bear [4]
+    Cantabrian Brown Bear [2]   (female: Cantabrian Brown Bear (sow) [1])
+    Coastal Brown Bear [3]
+    East Siberian Brown Bear [1]
+    Eurasian Brown Bear [2]
+    Gobi Bear [3]
+    Grizzly Bear [22]   (female: Grizzly Bear (sow) [9])
+        Barren Ground Grizzly Bear [2]
+        Inland Grizzly Bear [2]
+        Interior Grizzly Bear [1]
+    Himalayan Brown Bear [1]
+    Kamchatka Brown Bear [4]
+    Kodiak Bear [28]   (female: Kodiak Bear (sow) [2])
+    Syrian Brown Bear [2]   (female: Syrian Brown Bear (sow) [1])
+    Tibetan Blue Bear [4]
+    Ussuri Brown Bear [8]   (female: Ussuri Brown Bear (sow) [4])
+
+Carpet Python [2]
+    Coastal Carpet Python [1]
+
+Cheetah [39]   (female: Cheetah (female) [2]; male: Cheetah (male) [1])
+    Asiatic Cheetah [3]
+    Kalahari Cheetah [2]   (female: Kalahari Cheetah (female) [1])
+    Northwest African Cheetah [0]
+
+Common Chimpanzee [31]
+    Bili Ape [1]
+
+Cougar [52]   (female: Cougar (female) [4])
+    Brazilian Puma [1]   (female: Brazilian she-Puma [2])
+    Florida Panther [9]
+
+Coyote [21]
+    Eastern Coyote [10]
+    Mexican Coyote [4]
+    Northern Coyote [1]
+
+Dire Wolf [25]
+    (Eastern) Dire Wolf [1]
+    Dire Wolf (Eastern subspecies) [1]
+
+Eastern Gorilla [25]   (male: Eastern Gorilla (Silverback) [1]; female: Eastern Gorilla (female) [6])
+    Eastern Lowland Gorilla [4]
+    Mountain Gorilla [12]
+
+Elk [1]
+    Rocky Mountain Elk [5]
+    Roosevelt Elk [3]
+    Tule Elk [5]
+
+Feral Cat [2]
+    Feral Cat (Australian) [0]
+
+Gaur [10]
+    Indian Gaur [11]
+
+Green Darner [0]
+    Common Green Darner [4]
+
+Green Woodpecker [0]
+    European Green Woodpecker [1]
+
+Grey Wolf [29]   (female: Grey Wolf (female) [1])
+    Alexander Archipelago Wolf [3]
+    Arabian Wolf [4]
+    Arctic Wolf [3]
+    Eurasian Wolf [5]   (male: Eurasian Wolf (Dog) [1])
+    Iberian Wolf [2]   (female: Iberian Wolf (female) [0])
+    Indian Wolf [7]
+    Italian Wolf [3]
+    Mackenzie Valley Wolf [1]
+    Mexican Wolf [8]
+    Northwestern Wolf [35]   (female: Northwestern She-wolf [1]; female: Northwestern Wolf (female) [1])
+    Steppe Wolf [6]
+    Tundra Wolf [2]
+
+Jaguar [30]   (female: Jaguaress [8])
+    Mexican Jaguar [13]   (female: Mexican Jaguaress [3])
+    North American Jaguar [1]
+    Pantanal Jaguar [44]
+
+Jaguaress [8]
+    Mexican Jaguaress [3]
+
+Leopard [29]   (male: Leopard (male) [1]; female: Leopardess [6])
+    African Leopard [4]   (female: African Leopardess [3])
+        African Leopard (Congo) [1]
+    Amur Leopard [6]
+    Arabian Leopard [5]   (female: Arabian Leopardess [2])
+    Cape Leopard [18]   (female: Cape Leopardess [10])
+    Indian Leopard [4]
+    Indochinese Leopard [1]
+    Persian Leopard [14]
+    Sri Lankan Leopard [5]
+
+Leopard Cat [4]
+    Amur Leopard Cat [1]
+
+Leopardess [6]
+    African Leopardess [3]
+    Arabian Leopardess [2]
+    Cape Leopardess [10]
+
+Lion [10]   (female: Lioness [19])
+    African Lion [30]   (female: African Lioness [3])
+        West African Lion [1]
+    Asiatic Lion [7]   (female: Asiatic Lioness [9])
+    Namibian Lion [0]
+
+Lioness [19]
+    African Lioness [3]
+    Asiatic Lioness [9]
+
+Mountain Zebra [4]
+    Cape Mountain Zebra [3]
+
+Mule Deer [2]
+    Rocky Mountain Mule Deer [1]
+
+Orca (Killer Whale) [17]   (female: Orca (female) [1])
+    Orca (Antarctic - Type A) [0]
+    Orca (Ross Sea - Type C) [1]
+
+Portuguese Man o' War [1]
+    Atlantic Portuguese Man o' War [2]
+
+Pygmy Marmoset [0]
+    Western Pygmy Marmoset [3]
+
+Red Fox [19]
+    American Red Fox [2]
+    Arabian Red Fox [1]
+
+Red Panda [3]
+    Himalayan Red Panda [3]
+
+Sloth Bear [26]   (female: Sloth Bear (sow) [1])
+    Sri Lankan Sloth Bear [4]   (female: Sri Lankan Sloth Bear (sow) [1])
+
+Takin [1]
+    Mishmi Takin [1]
+
+Tiger [2]
+    Bengal Tiger [31]   (female: Bengal Tigress [7])
+    Indochinese Tiger [3]
+    Siberian Tiger [17]   (female: Siberian Tigress [5])
+    South China Tiger [1]
+    Sumatran Tiger [9]   (female: Sumatran Tigress [6])
+
+Walrus [12]   (male: Walrus (Bull) [1])
+    Atlantic Walrus [3]
+    Pacific Walrus [2]
+
+Water Buffalo [1]
+    (Wild) Water Buffalo [9]
+
+Water Monitor [7]
+    Asian Water Monitor [5]
+
+Wedge-tailed Eagle [5]
+    Tasmanian Wedge-tailed Eagle [1]
+
+Western Gorilla [15]   (female: Western Gorilla (female) [4])
+    Western Lowland Gorilla [5]
+
+White-throated Monitor [1]
+    Angolan White-throated Monitor [1]
+
+Wild Boar [19]
+    Indonesian Wild Boar [5]
+    Ussuri Wild Boar [19]
+
+Sex forms of animals outside the trees:
+African (Cape) Buffalo [32]   (female: African (Cape) Buffalo (cow) [2])
+African Bush Elephant [20]   (female: African Bush Elephant (cow) [6])
+African Crowned Eagle [14]   (female: African Crowned Eagle (female) [1]; male: African Crowned Eagle (male) [1])
+Alaskan Moose [10]   (male: Alaskan Moose (bull) [1]; female: Alaskan Moose (cow) [1])
+Arctodus simus [18]   (female: Arctodus simus (sow) [1])
+Bali Tiger [4]   (female: Bali Tigress [4])
+Bengal Cat [1]   (female: Bengal Cat (female) [1])
+Black Caiman [15]   (female: Black Caiman (cow) [2])
+Black Rat [4]   (male: Black Rat (male) [1])
+Bobcat [20]   (female: Bobcat (female) [1])
+Bonelli's Eagle [4]   (female: Bonelli's Eagle (female) [1])
+Bonobo (Pygmy Chimpanzee) [6]   (female: Bonobo (Pygmy Chimpanzee) (female) [1])
+Brown (Norway) Rat [9]   (female: Brown (Norway) Rat (female) [1])
+Brown Hyena [20]   (male: Brown Hyena (male) [1])
+Caracal [22]   (female: Caracal (female) [1]; male: Caracal (male) [0])
+Clouded Leopard [37]   (male: Clouded Leopard (male) [1]; female: Clouded Leopardess [1])
+Common Warthog [17]   (female: Common Warthog (sow) [1])
+Dhole [26]   (female: Dhole (female) [1])
+Dromedary (Arabian) Camel [6]   (female: Dromedary (Arabian) Camel (cow) [1])
+Eastern Wolf [7]   (female: Eastern Wolf (female) [2])
+Eurasian Lynx [39]   (female: Eurasian Lynx (female) [3]; male: Eurasian Lynx (male) [1])
+European Cave Bear [9]   (female: European Cave Bear (sow) [1])
+False Killer Whale [9]   (female: False Killer Whale (cow) [1])
+Fisher [24]   (male: Fisher (male) [1])
+Fishing Cat [11]   (female: Fishing Cat (female) [3])
+Giant Anteater [25]   (female: Giant Anteater (female) [1])
+Giant Otter [13]   (male: Giant Otter (Boar) [1])
+Gray Fox [4]   (female: Grey Fox (Vixen) [1])
+Great White Shark [22]   (male: Great White Shark (male) [2])
+Harpy Eagle [29]   (male: Harpy Eagle (male) [1])
+Hippopotamus [18]   (female: Hippopotamus (cow) [5])
+Honey Badger [34]   (male: Honey Badger (male) [1]; female: Honey Badger (sow) [6])
+Human [14]   (female: Human (female) [5]; male: Human (male) [7])
+Komodo Dragon [53]   (male: Komodo Dragon (male) [1])
+Least Weasel [8]   (female: Least Weasel (bitch) [0])
+Nile Crocodile [17]   (female: Nile Crocodile (Cow) [1]; female: Nile Crocodile (female) [1])
+Northern Elephant Seal [8]   (male: Northern Elephant Seal (Bull) [1])
+Ocelot [36]   (female: Ocelot (female) [2]; male: Ocelot (male) [2])
+Olive Baboon [12]   (male: Olive Baboon (male) [0])
+Plains (Common) Zebra [7]   (male: Plains (Common) Zebra (Stallion) [1])
+Polar Bear [29]   (female: Polar Bear (sow) [7])
+Roe Deer [2]   (female: Roe Deer (Doe) [1])
+Saltwater Crocodile [20]   (female: Saltwater Crocodile (cow) [3])
+Serval [13]   (female: Serval (female) [3])
+Smilodon fatalis [28]   (female: Smilodon fatalis (female) [1])
+Snow Leopard [38]   (female: Snow Leopardess [1])
+Southern Elephant Seal [12]   (female: Southern Elephant Seal (cow) [1])
+Spectacled Bear [7]   (female: Spectacled Bear (sow) [0])
+Spectacled Caiman [2]   (female: Spectacled Caiman (female) [1])
+Sperm Whale [7]   (male: Sperm Whale (Bull) [4]; female: Sperm Whale (Cow) [1])
+Spotted Hyena [40]   (female: Spotted Hyena (female) [2]; male: Spotted Hyena (male) [1])
+Sun Bear [40]   (male: Sun Bear (boar) [1]; female: Sun Bear (sow) [8])
+Tasmanian Giant Crab [7]   (male: Tasmanian Giant Crab (male) [1])
+Tiger Shark [11]   (female: Tiger Shark (female) [1])
+Wolverine [40]   (male: Wolverine (boar) [1]; female: Wolverine (female) [1])

@@ -1,0 +1,290 @@
+child,parent,link,status,how,root,note
+East African Wild Dog,African Wild Dog,taxon,kept,name,African Wild Dog,
+Southern African Wildcat,African Wildcat,taxon,kept,name,African Wildcat,
+Plains Bison,American Bison,taxon,kept,curated,American Bison,Bison bison bison
+Wood Bison,American Bison,taxon,kept,curated,American Bison,B. b. athabascae; step 7 pairs them too
+Cinnamon Black Bear,American Black Bear,taxon,kept,curated,American Black Bear,U. americanus cinnamomum
+Florida Black Bear,American Black Bear,taxon,kept,curated,American Black Bear,U. a. floridanus
+Glacier Bear,American Black Bear,taxon,kept,curated,American Black Bear,"blue-grey morph, U. a. emmonsii"
+Haida Gwaii Black Bear,American Black Bear,taxon,kept,curated,American Black Bear,U. a. carlottae
+Kermode Bear,American Black Bear,taxon,kept,curated,American Black Bear,U. a. kermodei
+(YNP) Cinnamon Black Bear,Cinnamon Black Bear,taxon,kept,name,American Black Bear,
+Borneo Pygmy Elephant,Asian Elephant,taxon,kept,curated,Asian Elephant,E. m. borneensis
+Sumatran Elephant,Asian Elephant,taxon,kept,curated,Asian Elephant,Elephas maximus sumatranus
+Himalayan Black Bear,Asiatic Black Bear,taxon,kept,curated,Asiatic Black Bear,U. thibetanus laniger
+Ussuri Black Bear,Asiatic Black Bear,taxon,kept,curated,Asiatic Black Bear,U. t. ussuricus
+Aurochs (Holocene),Aurochs,taxon,kept,bracket,Aurochs,
+Aurochs (Pleistocene),Aurochs,taxon,kept,bracket,Aurochs,
+Rocky Mountain Bighorn Sheep,Bighorn Sheep,taxon,kept,name,Bighorn Sheep,
+Alaskan Peninsula Brown Bear,Brown Bear,taxon,kept,name,Brown Bear,
+Cantabrian Brown Bear,Brown Bear,taxon,kept,name,Brown Bear,
+Coastal Brown Bear,Brown Bear,taxon,kept,name,Brown Bear,
+East Siberian Brown Bear,Brown Bear,taxon,kept,name,Brown Bear,
+Eurasian Brown Bear,Brown Bear,taxon,kept,name,Brown Bear,
+Gobi Bear,Brown Bear,taxon,kept,curated,Brown Bear,U. a. gobiensis
+Grizzly Bear,Brown Bear,taxon,kept,curated,Brown Bear,"Ursus arctos horribilis; keeps its own populations, so it is a category inside Brown Bear"
+Himalayan Brown Bear,Brown Bear,taxon,kept,name,Brown Bear,
+Kamchatka Brown Bear,Brown Bear,taxon,kept,name,Brown Bear,
+Kodiak Bear,Brown Bear,taxon,kept,curated,Brown Bear,U. a. middendorffi
+Syrian Brown Bear,Brown Bear,taxon,kept,name,Brown Bear,
+Tibetan Blue Bear,Brown Bear,taxon,kept,curated,Brown Bear,U. a. pruinosus
+Ussuri Brown Bear,Brown Bear,taxon,kept,name,Brown Bear,
+Barren Ground Grizzly Bear,Grizzly Bear,taxon,kept,name,Brown Bear,
+Inland Grizzly Bear,Grizzly Bear,taxon,kept,name,Brown Bear,
+Interior Grizzly Bear,Grizzly Bear,taxon,kept,name,Brown Bear,
+Coastal Carpet Python,Carpet Python,taxon,kept,name,Carpet Python,
+Asiatic Cheetah,Cheetah,taxon,kept,name,Cheetah,
+Kalahari Cheetah,Cheetah,taxon,kept,name,Cheetah,
+Northwest African Cheetah,Cheetah,taxon,kept,name,Cheetah,
+Bili Ape,Common Chimpanzee,taxon,kept,curated,Common Chimpanzee,a population of eastern chimpanzees
+Brazilian Puma,Cougar,taxon,kept,curated,Cougar,a South American cougar population
+Florida Panther,Cougar,taxon,kept,curated,Cougar,Puma concolor coryi
+Eastern Coyote,Coyote,taxon,kept,name,Coyote,
+Mexican Coyote,Coyote,taxon,kept,name,Coyote,
+Northern Coyote,Coyote,taxon,kept,name,Coyote,
+(Eastern) Dire Wolf,Dire Wolf,taxon,kept,name,Dire Wolf,
+Dire Wolf (Eastern subspecies),Dire Wolf,taxon,kept,bracket,Dire Wolf,
+Eastern Lowland Gorilla,Eastern Gorilla,taxon,kept,curated,Eastern Gorilla,Gorilla beringei graueri
+Mountain Gorilla,Eastern Gorilla,taxon,kept,curated,Eastern Gorilla,G. b. beringei
+Rocky Mountain Elk,Elk,taxon,kept,name,Elk,
+Roosevelt Elk,Elk,taxon,kept,name,Elk,
+Tule Elk,Elk,taxon,kept,name,Elk,
+Feral Cat (Australian),Feral Cat,taxon,kept,bracket,Feral Cat,
+Indian Gaur,Gaur,taxon,kept,name,Gaur,
+Common Green Darner,Green Darner,taxon,kept,name,Green Darner,
+European Green Woodpecker,Green Woodpecker,taxon,kept,name,Green Woodpecker,
+Alexander Archipelago Wolf,Grey Wolf,taxon,kept,curated,Grey Wolf,C. lupus ligoni
+Arabian Wolf,Grey Wolf,taxon,kept,curated,Grey Wolf,C. l. arabs
+Arctic Wolf,Grey Wolf,taxon,kept,curated,Grey Wolf,C. l. arctos
+Eurasian Wolf,Grey Wolf,taxon,kept,curated,Grey Wolf,C. l. lupus
+Iberian Wolf,Grey Wolf,taxon,kept,curated,Grey Wolf,C. l. signatus
+Indian Wolf,Grey Wolf,taxon,kept,curated,Grey Wolf,C. l. pallipes
+Italian Wolf,Grey Wolf,taxon,kept,curated,Grey Wolf,C. l. italicus
+Mackenzie Valley Wolf,Grey Wolf,taxon,kept,curated,Grey Wolf,C. l. occidentalis
+Mexican Wolf,Grey Wolf,taxon,kept,curated,Grey Wolf,C. l. baileyi
+Northwestern Wolf,Grey Wolf,taxon,kept,curated,Grey Wolf,C. l. occidentalis
+Steppe Wolf,Grey Wolf,taxon,kept,curated,Grey Wolf,C. l. campestris
+Tundra Wolf,Grey Wolf,taxon,kept,curated,Grey Wolf,C. l. albus
+Mexican Jaguar,Jaguar,taxon,kept,name,Jaguar,
+North American Jaguar,Jaguar,taxon,kept,name,Jaguar,
+Pantanal Jaguar,Jaguar,taxon,kept,name,Jaguar,
+Mexican Jaguaress,Jaguaress,taxon,kept,name,Jaguaress,
+African Leopard (Congo),African Leopard,taxon,kept,bracket,Leopard,
+African Leopard,Leopard,taxon,kept,name,Leopard,
+Amur Leopard,Leopard,taxon,kept,name,Leopard,
+Arabian Leopard,Leopard,taxon,kept,name,Leopard,
+Cape Leopard,Leopard,taxon,kept,name,Leopard,
+Indian Leopard,Leopard,taxon,kept,name,Leopard,
+Indochinese Leopard,Leopard,taxon,kept,name,Leopard,
+Persian Leopard,Leopard,taxon,kept,name,Leopard,
+Sri Lankan Leopard,Leopard,taxon,kept,name,Leopard,
+Amur Leopard Cat,Leopard Cat,taxon,kept,name,Leopard Cat,
+African Leopardess,Leopardess,taxon,kept,name,Leopardess,
+Arabian Leopardess,Leopardess,taxon,kept,name,Leopardess,
+Cape Leopardess,Leopardess,taxon,kept,name,Leopardess,
+West African Lion,African Lion,taxon,kept,name,Lion,
+African Lion,Lion,taxon,kept,name,Lion,
+Asiatic Lion,Lion,taxon,kept,name,Lion,
+Namibian Lion,Lion,taxon,kept,name,Lion,
+African Lioness,Lioness,taxon,kept,name,Lioness,
+Asiatic Lioness,Lioness,taxon,kept,name,Lioness,
+Cape Mountain Zebra,Mountain Zebra,taxon,kept,name,Mountain Zebra,
+Rocky Mountain Mule Deer,Mule Deer,taxon,kept,name,Mule Deer,
+Orca (Antarctic - Type A),Orca (Killer Whale),taxon,kept,bracket,Orca (Killer Whale),
+Orca (Ross Sea - Type C),Orca (Killer Whale),taxon,kept,bracket,Orca (Killer Whale),
+Atlantic Portuguese Man o' War,Portuguese Man o' War,taxon,kept,name,Portuguese Man o' War,
+Western Pygmy Marmoset,Pygmy Marmoset,taxon,kept,name,Pygmy Marmoset,
+American Red Fox,Red Fox,taxon,kept,name,Red Fox,
+Arabian Red Fox,Red Fox,taxon,kept,name,Red Fox,
+Himalayan Red Panda,Red Panda,taxon,kept,name,Red Panda,
+Sri Lankan Sloth Bear,Sloth Bear,taxon,kept,name,Sloth Bear,
+Mishmi Takin,Takin,taxon,kept,name,Takin,
+Bengal Tiger,Tiger,taxon,kept,name,Tiger,
+Indochinese Tiger,Tiger,taxon,kept,name,Tiger,
+Siberian Tiger,Tiger,taxon,kept,name,Tiger,
+South China Tiger,Tiger,taxon,kept,name,Tiger,
+Sumatran Tiger,Tiger,taxon,kept,name,Tiger,
+Atlantic Walrus,Walrus,taxon,kept,name,Walrus,
+Pacific Walrus,Walrus,taxon,kept,name,Walrus,
+(Wild) Water Buffalo,Water Buffalo,taxon,kept,name,Water Buffalo,
+Asian Water Monitor,Water Monitor,taxon,kept,name,Water Monitor,
+Tasmanian Wedge-tailed Eagle,Wedge-tailed Eagle,taxon,kept,name,Wedge-tailed Eagle,
+Western Lowland Gorilla,Western Gorilla,taxon,kept,curated,Western Gorilla,G. gorilla gorilla
+Angolan White-throated Monitor,White-throated Monitor,taxon,kept,name,White-throated Monitor,
+Indonesian Wild Boar,Wild Boar,taxon,kept,name,Wild Boar,
+Ussuri Wild Boar,Wild Boar,taxon,kept,name,Wild Boar,
+African Forest Buffalo,African (Cape) Buffalo,taxon,rejected,curated,,a subspecies under half the Cape buffalo's mass; the entry names the Cape form
+Pleistocene African Lion,African Lion,taxon,rejected,name,,fossil form
+Australian Blacktip Shark,Blacktip Shark,taxon,rejected,name,,separate species (Carcharhinus tilstoni)
+Atlas Bear,Brown Bear,taxon,rejected,curated,,extinct (19th century)
+Steppe Brown Bear,Brown Bear,taxon,rejected,name,,Pleistocene form
+Bull Shark (in shallow water),Bull Shark,taxon,rejected,bracket,,"a setting, not a population"
+American Cheetah,Cheetah,taxon,rejected,name,,another genus (Miracinonyx)
+Giant Cheetah,Cheetah,taxon,rejected,name,,extinct species (Acinonyx pardinensis)
+Sunda Clouded Leopard,Clouded Leopard,taxon,rejected,name,,separate species (Neofelis diardi)
+Pleistocene Cougar,Cougar,taxon,rejected,name,,fossil form
+Pleistocene Coyote,Coyote,taxon,rejected,name,,fossil form
+European Dhole,Dhole,taxon,rejected,name,,Pleistocene form
+European Elk,Elk,taxon,rejected,name,,a moose
+Irish Elk,Elk,taxon,rejected,name,,extinct deer (Megaloceros)
+Giant Fossa,Fossa,taxon,rejected,name,,extinct species (Cryptoprocta spelea)
+West African Gaboon Viper,Gaboon Viper,taxon,rejected,name,,usually a separate species (Bitis rhinoceros)
+Eastern Wolf,Grey Wolf,taxon,rejected,curated,,often treated as a separate species (Canis lycaon)
+Egyptian Wolf,Grey Wolf,taxon,rejected,curated,,an African golden wolf (Canis lupaster)
+Himalayan Wolf,Grey Wolf,taxon,rejected,curated,,species status debated (Canis lupus chanco or C. himalayensis)
+Mexican Grizzly Bear,Grizzly Bear,taxon,rejected,name,,extinct (1960s)
+Papuan Harpy Eagle,Harpy Eagle,taxon,rejected,name,,another genus (Harpyopsis)
+European Hippopotamus,Hippopotamus,taxon,rejected,name,,extinct species
+Pygmy Hippopotamus,Hippopotamus,taxon,rejected,name,,another genus (Choeropsis)
+Archaic Human,Human,taxon,rejected,name,,other Homo species
+European Jaguar,Jaguar,taxon,rejected,name,,extinct species (Panthera gombaszoegensis)
+Pleistocene Jaguar,Jaguar,taxon,rejected,name,,fossil form
+Clouded Leopard,Leopard,taxon,rejected,name,,another genus (Neofelis)
+European Ice Age Leopard,Leopard,taxon,rejected,name,,fossil form
+Snow Leopard,Leopard,taxon,rejected,name,,another species (Panthera uncia)
+Sunda Leopard Cat,Leopard Cat,taxon,rejected,name,,separate species since 2017 (Prionailurus javanensis)
+Clouded Leopardess,Leopardess,taxon,rejected,name,,"female clouded leopard, another genus"
+Snow Leopardess,Leopardess,taxon,rejected,name,,"female snow leopard, another species"
+American Lion,Lion,taxon,rejected,name,,extinct species (Panthera atrox)
+Barbary Lion,Lion,taxon,rejected,name,,extinct in the wild; left out by step 7 as well
+California Sea Lion,Lion,taxon,rejected,name,,a pinniped
+Early Middle Pleistocene European Cave Lion,Lion,taxon,rejected,name,,extinct species (cave lion)
+Eurasian Cave Lion,Lion,taxon,rejected,name,,extinct species (Panthera spelaea)
+Marsupial Lion,Lion,taxon,rejected,name,,a marsupial (Thylacoleo)
+Natodomeri Lion,Lion,taxon,rejected,name,,Pleistocene fossil lion
+Sambir Lion,Lion,taxon,rejected,name,,not a recognized living population; its only matchup is against the fossil Bornean tiger
+South American Sea Lion,Lion,taxon,rejected,name,,a pinniped
+Steller's (Northern) Sea Lion,Lion,taxon,rejected,name,,a pinniped
+Mountain Lioness,Lioness,taxon,rejected,name,,a female cougar
+Southern Mussurana,Mussurana,taxon,rejected,name,,another Clelia species
+Hall's New Guinea Crocodile,New Guinea Crocodile,taxon,rejected,name,,separate species since 2019 (Crocodylus halli)
+Pleistocene North American Jaguar,North American Jaguar,taxon,rejected,name,,fossil form
+Papuan Olive Python,Olive Python,taxon,rejected,name,,another genus (Apodora)
+Pleistocene Polar Bear,Polar Bear,taxon,rejected,name,,fossil form
+Salmon Shark (salmon/river battle),Salmon Shark,taxon,rejected,bracket,,"a setting, not a population"
+Dwarf Sperm Whale,Sperm Whale,taxon,rejected,name,,another genus (Kogia)
+Pygmy Sperm Whale,Sperm Whale,taxon,rejected,name,,another genus (Kogia)
+Yellow Spotted False Monitor,Spotted False Monitor,taxon,rejected,name,,another Callopistes species
+Asian Straight-tusked Elephant,Straight-tusked Elephant,taxon,rejected,name,,another extinct species (Palaeoloxodon namadicus)
+Bali Tiger,Tiger,taxon,rejected,name,,extinct subspecies (1940s)
+Bornean Tiger,Tiger,taxon,rejected,name,,fossil form
+Caspian Tiger,Tiger,taxon,rejected,name,,extinct subspecies (1970s)
+Longdan Tiger,Tiger,taxon,rejected,name,,extinct species (Panthera zdanskyi)
+Ngandong Tiger,Tiger,taxon,rejected,name,,Pleistocene fossil subspecies
+Trinil Tiger,Tiger,taxon,rejected,name,,Pleistocene fossil subspecies
+Wanhsien Tiger,Tiger,taxon,rejected,name,,Pleistocene fossil form
+Giant Water Bug,Water Bug,taxon,rejected,name,,'water bug' is a loose name for several families
+Mertens' Water Monitor,Water Monitor,taxon,rejected,name,,separate species (Varanus mertensi)
+African Wildcat,Wildcat,taxon,rejected,name,,"'Wildcat' spans two species since the 2017 split (Felis silvestris, F. lybica); left out, as in step 7"
+Asiatic Wildcat,Wildcat,taxon,rejected,name,,as African Wildcat
+European Wildcat,Wildcat,taxon,rejected,name,,as African Wildcat
+Scottish Wildcat,Wildcat,taxon,rejected,name,,as African Wildcat
+Yacare Caiman (on land),Yacare Caiman,taxon,rejected,bracket,,"a setting, not a population"
+African (Cape) Buffalo (cow),African (Cape) Buffalo,female,kept,sex form,,
+African Bush Elephant (cow),African Bush Elephant,female,kept,sex form,,
+African Crowned Eagle (female),African Crowned Eagle,female,kept,sex form,,
+African Crowned Eagle (male),African Crowned Eagle,male,kept,sex form,,
+African Leopardess,African Leopard,female,kept,sex form,,
+African Lioness,African Lion,female,kept,sex form,,
+Alaskan Moose (bull),Alaskan Moose,male,kept,sex form,,
+Alaskan Moose (cow),Alaskan Moose,female,kept,sex form,,
+American Black Bear (sow),American Black Bear,female,kept,sex form,,
+Arabian Leopardess,Arabian Leopard,female,kept,sex form,,
+Arctodus simus (sow),Arctodus simus,female,kept,sex form,,
+Asian Elephant (cow),Asian Elephant,female,kept,sex form,,
+Asiatic Black Bear (sow),Asiatic Black Bear,female,kept,sex form,,
+Asiatic Lioness,Asiatic Lion,female,kept,sex form,,
+Bali Tigress,Bali Tiger,female,kept,sex form,,
+Bengal Cat (female),Bengal Cat,female,kept,sex form,,
+Bengal Tigress,Bengal Tiger,female,kept,sex form,,
+Black Caiman (cow),Black Caiman,female,kept,sex form,,
+Black Rat (male),Black Rat,male,kept,sex form,,
+Bobcat (female),Bobcat,female,kept,sex form,,
+Bonelli's Eagle (female),Bonelli's Eagle,female,kept,sex form,,
+Bonobo (Pygmy Chimpanzee) (female),Bonobo (Pygmy Chimpanzee),female,kept,sex form,,
+Brazilian she-Puma,Brazilian Puma,female,kept,sex form,,
+Brown (Norway) Rat (female),Brown (Norway) Rat,female,kept,sex form,,
+Brown Hyena (male),Brown Hyena,male,kept,sex form,,
+Cantabrian Brown Bear (sow),Cantabrian Brown Bear,female,kept,sex form,,
+Cape Leopardess,Cape Leopard,female,kept,sex form,,
+Caracal (female),Caracal,female,kept,sex form,,
+Caracal (male),Caracal,male,kept,sex form,,
+Cheetah (female),Cheetah,female,kept,sex form,,
+Cheetah (male),Cheetah,male,kept,sex form,,
+Clouded Leopard (male),Clouded Leopard,male,kept,sex form,,
+Clouded Leopardess,Clouded Leopard,female,kept,sex form,,
+Common Warthog (sow),Common Warthog,female,kept,sex form,,
+Cougar (female),Cougar,female,kept,sex form,,
+Dhole (female),Dhole,female,kept,sex form,,
+Dromedary (Arabian) Camel (cow),Dromedary (Arabian) Camel,female,kept,sex form,,
+Eastern Gorilla (Silverback),Eastern Gorilla,male,kept,sex form,,
+Eastern Gorilla (female),Eastern Gorilla,female,kept,sex form,,
+Eastern Wolf (female),Eastern Wolf,female,kept,sex form,,
+Eurasian Lynx (female),Eurasian Lynx,female,kept,sex form,,
+Eurasian Lynx (male),Eurasian Lynx,male,kept,sex form,,
+Eurasian Wolf (Dog),Eurasian Wolf,male,kept,sex form,,
+European Cave Bear (sow),European Cave Bear,female,kept,sex form,,
+False Killer Whale (cow),False Killer Whale,female,kept,sex form,,
+Fisher (male),Fisher,male,kept,sex form,,
+Fishing Cat (female),Fishing Cat,female,kept,sex form,,
+Giant Anteater (female),Giant Anteater,female,kept,sex form,,
+Giant Otter (Boar),Giant Otter,male,kept,sex form,,
+Grey Fox (Vixen),Gray Fox,female,kept,sex form,,
+Great White Shark (male),Great White Shark,male,kept,sex form,,
+Grey Wolf (female),Grey Wolf,female,kept,sex form,,
+Grizzly Bear (sow),Grizzly Bear,female,kept,sex form,,
+Harpy Eagle (male),Harpy Eagle,male,kept,sex form,,
+Hippopotamus (cow),Hippopotamus,female,kept,sex form,,
+Honey Badger (male),Honey Badger,male,kept,sex form,,
+Honey Badger (sow),Honey Badger,female,kept,sex form,,
+Human (female),Human,female,kept,sex form,,
+Human (male),Human,male,kept,sex form,,
+Iberian Wolf (female),Iberian Wolf,female,kept,sex form,,
+Jaguaress,Jaguar,female,kept,sex form,,
+Kalahari Cheetah (female),Kalahari Cheetah,female,kept,sex form,,
+Kodiak Bear (sow),Kodiak Bear,female,kept,sex form,,
+Komodo Dragon (male),Komodo Dragon,male,kept,sex form,,
+Least Weasel (bitch),Least Weasel,female,kept,sex form,,
+Leopard (male),Leopard,male,kept,sex form,,
+Leopardess,Leopard,female,kept,sex form,,
+Lioness,Lion,female,kept,sex form,,
+Mexican Jaguaress,Mexican Jaguar,female,kept,sex form,,
+Nile Crocodile (Cow),Nile Crocodile,female,kept,sex form,,
+Nile Crocodile (female),Nile Crocodile,female,kept,sex form,,
+Northern Elephant Seal (Bull),Northern Elephant Seal,male,kept,sex form,,
+Northwestern She-wolf,Northwestern Wolf,female,kept,sex form,,
+Northwestern Wolf (female),Northwestern Wolf,female,kept,sex form,,
+Ocelot (female),Ocelot,female,kept,sex form,,
+Ocelot (male),Ocelot,male,kept,sex form,,
+Olive Baboon (male),Olive Baboon,male,kept,sex form,,
+Orca (female),Orca (Killer Whale),female,kept,sex form,,
+Plains (Common) Zebra (Stallion),Plains (Common) Zebra,male,kept,sex form,,
+Plains Bison (cow),Plains Bison,female,kept,sex form,,
+Polar Bear (sow),Polar Bear,female,kept,sex form,,
+Roe Deer (Doe),Roe Deer,female,kept,sex form,,
+Saltwater Crocodile (cow),Saltwater Crocodile,female,kept,sex form,,
+Serval (female),Serval,female,kept,sex form,,
+Siberian Tigress,Siberian Tiger,female,kept,sex form,,
+Sloth Bear (sow),Sloth Bear,female,kept,sex form,,
+Smilodon fatalis (female),Smilodon fatalis,female,kept,sex form,,
+Snow Leopardess,Snow Leopard,female,kept,sex form,,
+Southern Elephant Seal (cow),Southern Elephant Seal,female,kept,sex form,,
+Spectacled Bear (sow),Spectacled Bear,female,kept,sex form,,
+Spectacled Caiman (female),Spectacled Caiman,female,kept,sex form,,
+Sperm Whale (Bull),Sperm Whale,male,kept,sex form,,
+Sperm Whale (Cow),Sperm Whale,female,kept,sex form,,
+Spotted Hyena (female),Spotted Hyena,female,kept,sex form,,
+Spotted Hyena (male),Spotted Hyena,male,kept,sex form,,
+Sri Lankan Sloth Bear (sow),Sri Lankan Sloth Bear,female,kept,sex form,,
+Sumatran Tigress,Sumatran Tiger,female,kept,sex form,,
+Sun Bear (boar),Sun Bear,male,kept,sex form,,
+Sun Bear (sow),Sun Bear,female,kept,sex form,,
+Syrian Brown Bear (sow),Syrian Brown Bear,female,kept,sex form,,
+Tasmanian Giant Crab (male),Tasmanian Giant Crab,male,kept,sex form,,
+Tiger Shark (female),Tiger Shark,female,kept,sex form,,
+Ussuri Brown Bear (sow),Ussuri Brown Bear,female,kept,sex form,,
+Walrus (Bull),Walrus,male,kept,sex form,,
+Western Gorilla (female),Western Gorilla,female,kept,sex form,,
+Wolverine (boar),Wolverine,male,kept,sex form,,
+Wolverine (female),Wolverine,female,kept,sex form,,
+Wood Bison (cow),Wood Bison,female,kept,sex form,,
