@@ -7,7 +7,7 @@
 # ...but still look inside folders, so the files below can be found
 !*/
 
-!/.gitignore
+# !/.gitignore
 
 # the paper, its source and the interactive pages
 !/dark_era_score_analysis.tex
