@@ -35,6 +35,24 @@ Dakotaraptor steini,Untrained man,crowd,0.7 (step 3 rule),141.7,55.08,364.9,0.03
 Dakotaraptor steini,Untrained man,anatomy-corrected,"1.44 (crowd, measured)",25.3,10.94,71.21,0.009412,0.02512,0.04416,0.08807,0.208,0.4161,0.7284
 Dakotaraptor steini,Untrained man,anatomy-corrected,1 (linear),105.2,36.31,301.3,0.009412,0.01865,0.02771,0.04535,0.08677,0.1597,0.3221
 Dakotaraptor steini,Untrained man,anatomy-corrected,0.7 (step 3 rule),774.3,169.3,3478,0.009412,0.0152,0.02009,0.02848,0.04545,0.0718,0.1281
+Dakotaraptor steini,"Hunter, bolt-action .30-06 rifle",crowd,"1.44 (crowd, measured)",1.089,0.6391,1.825,0.4695,0.7065,0.8121,0.9004,0.9608,0.9852,0.996
+Dakotaraptor steini,"Hunter, bolt-action .30-06 rifle",crowd,1 (linear),1.13,0.5302,2.334,0.4695,0.639,0.7264,0.8157,0.8985,0.9465,0.9779
+Dakotaraptor steini,"Hunter, bolt-action .30-06 rifle",crowd,0.7 (step 3 rule),1.191,0.404,3.356,0.4695,0.5898,0.6563,0.7319,0.816,0.8781,0.9319
+Dakotaraptor steini,"Hunter, bolt-action .30-06 rifle",anatomy-corrected,"1.44 (crowd, measured)",2.472,1.138,5.604,0.213,0.4242,0.5693,0.7349,0.8828,0.9534,0.987
+Dakotaraptor steini,"Hunter, bolt-action .30-06 rifle",anatomy-corrected,1 (linear),3.696,1.206,11.07,0.213,0.3511,0.448,0.575,0.7302,0.844,0.9312
+Dakotaraptor steini,"Hunter, bolt-action .30-06 rifle",anatomy-corrected,0.7 (step 3 rule),6.472,1.306,31.01,0.213,0.3053,0.3686,0.455,0.5756,0.6878,0.8071
+Dakotaraptor steini,"Soldier, assault rifle",crowd,"1.44 (crowd, measured)",0.5297,0.2178,1.079,0.7141,0.8715,0.9239,0.9621,0.9858,0.9947,0.9986
+Dakotaraptor steini,"Soldier, assault rifle",crowd,1 (linear),0.4003,0.1182,1.119,0.7141,0.8332,0.8823,0.9259,0.9615,0.9804,0.9921
+Dakotaraptor steini,"Soldier, assault rifle",crowd,0.7 (step 3 rule),0.2704,0.04732,1.175,0.7141,0.8023,0.8435,0.8851,0.926,0.9531,0.9748
+Dakotaraptor steini,"Soldier, assault rifle",anatomy-corrected,"1.44 (crowd, measured)",1.201,0.4371,3.081,0.4347,0.6761,0.7898,0.8874,0.9552,0.9831,0.9954
+Dakotaraptor steini,"Soldier, assault rifle",anatomy-corrected,1 (linear),1.3,0.3077,4.909,0.4347,0.606,0.6976,0.7936,0.8849,0.939,0.9747
+Dakotaraptor steini,"Soldier, assault rifle",anatomy-corrected,0.7 (step 3 rule),1.455,0.1856,9.707,0.4347,0.5554,0.624,0.7035,0.794,0.8623,0.9224
+Dakotaraptor steini,"Machine gunner, belt-fed 7.62 mm",crowd,"1.44 (crowd, measured)",0.3074,0.109,0.7301,0.8449,0.9368,0.9636,0.9823,0.9934,0.9976,0.9994
+Dakotaraptor steini,"Machine gunner, belt-fed 7.62 mm",crowd,1 (linear),0.1835,0.04518,0.6325,0.8449,0.9159,0.9423,0.9646,0.982,0.9909,0.9963
+Dakotaraptor steini,"Machine gunner, belt-fed 7.62 mm",crowd,0.7 (step 3 rule),0.08875,0.01198,0.5198,0.8449,0.8985,0.9216,0.9439,0.9647,0.978,0.9883
+Dakotaraptor steini,"Machine gunner, belt-fed 7.62 mm",anatomy-corrected,"1.44 (crowd, measured)",0.7008,0.2262,1.986,0.6255,0.8199,0.8909,0.9446,0.9789,0.9921,0.9979
+Dakotaraptor steini,"Machine gunner, belt-fed 7.62 mm",anatomy-corrected,1 (linear),0.5986,0.1222,2.661,0.6255,0.7696,0.8337,0.8931,0.9435,0.9709,0.9882
+Dakotaraptor steini,"Machine gunner, belt-fed 7.62 mm",anatomy-corrected,0.7 (step 3 rule),0.4804,0.04962,4.048,0.6255,0.7307,0.7828,0.8375,0.8933,0.9315,0.9627
 Utahraptor ostrommaysorum,"Venator (arena hunter), hunting spear",crowd,"1.44 (crowd, measured)",2.15,1.098,4.225,0.2495,0.4738,0.6182,0.7719,0.9019,0.9616,0.9895
 Utahraptor ostrommaysorum,"Venator (arena hunter), hunting spear",crowd,1 (linear),3.008,1.149,7.416,0.2495,0.3994,0.4993,0.6244,0.7688,0.8693,0.9433
 Utahraptor ostrommaysorum,"Venator (arena hunter), hunting spear",crowd,0.7 (step 3 rule),4.822,1.219,17.5,0.2495,0.3507,0.4177,0.5063,0.6249,0.7302,0.8371
@@ -71,3 +89,21 @@ Utahraptor ostrommaysorum,Untrained man,crowd,0.7 (step 3 rule),225.9,117.9,433.
 Utahraptor ostrommaysorum,Untrained man,anatomy-corrected,"1.44 (crowd, measured)",31.91,13.62,90.32,0.006813,0.01821,0.03216,0.06488,0.1579,0.3379,0.6566
 Utahraptor ostrommaysorum,Untrained man,anatomy-corrected,1 (linear),145.8,51.69,413.3,0.006813,0.01353,0.02016,0.03316,0.06419,0.1206,0.2554
 Utahraptor ostrommaysorum,Untrained man,anatomy-corrected,0.7 (step 3 rule),1233,280.3,5465,0.006813,0.01102,0.01459,0.02072,0.03324,0.0529,0.0959
+Utahraptor ostrommaysorum,"Hunter, bolt-action .30-06 rifle",crowd,"1.44 (crowd, measured)",1.366,0.9095,2.032,0.3893,0.6338,0.7564,0.8665,0.9464,0.9796,0.9945
+Utahraptor ostrommaysorum,"Hunter, bolt-action .30-06 rifle",crowd,1 (linear),1.569,0.8717,2.701,0.3893,0.5604,0.6566,0.7612,0.8644,0.9273,0.9696
+Utahraptor ostrommaysorum,"Hunter, bolt-action .30-06 rifle",crowd,0.7 (step 3 rule),1.903,0.8219,4.135,0.3893,0.5087,0.579,0.6629,0.7616,0.8384,0.9079
+Utahraptor ostrommaysorum,"Hunter, bolt-action .30-06 rifle",anatomy-corrected,"1.44 (crowd, measured)",3.118,1.451,7.001,0.1629,0.3456,0.4861,0.6639,0.8424,0.9356,0.982
+Utahraptor ostrommaysorum,"Hunter, bolt-action .30-06 rifle",anatomy-corrected,1 (linear),5.141,1.718,15.1,0.1629,0.2801,0.3685,0.4931,0.6605,0.7955,0.9068
+Utahraptor ostrommaysorum,"Hunter, bolt-action .30-06 rifle",anatomy-corrected,0.7 (step 3 rule),10.37,2.166,48.34,0.1629,0.2401,0.2956,0.3751,0.4937,0.613,0.7505
+Utahraptor ostrommaysorum,"Soldier, assault rifle",crowd,"1.44 (crowd, measured)",0.6685,0.2972,1.25,0.6409,0.8291,0.8972,0.9483,0.9804,0.9928,0.9981
+Utahraptor ostrommaysorum,"Soldier, assault rifle",crowd,1 (linear),0.5603,0.1802,1.372,0.6409,0.7811,0.8426,0.8992,0.9469,0.9727,0.9889
+Utahraptor ostrommaysorum,"Soldier, assault rifle",crowd,0.7 (step 3 rule),0.4372,0.08645,1.571,0.6409,0.7435,0.7938,0.8463,0.8994,0.9356,0.965
+Utahraptor ostrommaysorum,"Soldier, assault rifle",anatomy-corrected,"1.44 (crowd, measured)",1.513,0.5486,3.811,0.3562,0.5986,0.7275,0.8479,0.9381,0.9764,0.9936
+Utahraptor ostrommaysorum,"Soldier, assault rifle",anatomy-corrected,1 (linear),1.807,0.4237,6.601,0.3562,0.5253,0.6241,0.7345,0.8469,0.9171,0.9651
+Utahraptor ostrommaysorum,"Soldier, assault rifle",anatomy-corrected,0.7 (step 3 rule),2.329,0.2933,14.82,0.3562,0.4734,0.5442,0.6306,0.735,0.8184,0.8954
+Utahraptor ostrommaysorum,"Machine gunner, belt-fed 7.62 mm",crowd,"1.44 (crowd, measured)",0.3865,0.1467,0.8591,0.7965,0.9137,0.9501,0.9756,0.9909,0.9966,0.9991
+Utahraptor ostrommaysorum,"Machine gunner, belt-fed 7.62 mm",crowd,1 (linear),0.2555,0.06869,0.8026,0.7965,0.8867,0.9215,0.9514,0.9751,0.9874,0.9949
+Utahraptor ostrommaysorum,"Machine gunner, belt-fed 7.62 mm",crowd,0.7 (step 3 rule),0.1423,0.0218,0.7304,0.7965,0.8641,0.8941,0.9235,0.9515,0.9696,0.9837
+Utahraptor ostrommaysorum,"Machine gunner, belt-fed 7.62 mm",anatomy-corrected,"1.44 (crowd, measured)",0.8802,0.2879,2.472,0.5459,0.7654,0.8538,0.9239,0.9707,0.989,0.9971
+Utahraptor ostrommaysorum,"Machine gunner, belt-fed 7.62 mm",anatomy-corrected,1 (linear),0.832,0.1701,3.621,0.5459,0.7062,0.7829,0.8573,0.9232,0.9601,0.9836
+Utahraptor ostrommaysorum,"Machine gunner, belt-fed 7.62 mm",anatomy-corrected,0.7 (step 3 rule),0.7689,0.07959,6.285,0.5459,0.6613,0.7217,0.7876,0.8576,0.9073,0.9489

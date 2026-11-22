@@ -1,31 +1,48 @@
-archetype,sex,mass_kg,weapon,skill,armour,score,score_p05,score_p95,lions,duel_elo,duel_elo_p05,duel_elo_p95,unarmed_skill_elo,evidence,note
-"Knight on foot, poleaxe, full plate",m,78,pike or polearm,professional (armed),full plate,179.3,57.64,594.6,1.793,2996,2417,3752,0,D,
-"Venator, champion, hunting spear",m,80,spear,elite (armed),none,145.3,55.99,431.1,1.453,2580,2090,3284,0,D,
-"Greek hoplite, dory and aspis",m,68,spear + shield,professional (armed),mail or plates with helmet,128.7,47.23,362.1,1.287,2726,2212,3434,0,D,
-"Knight on foot, longsword, full plate",m,78,two-handed sword,professional (armed),full plate,98.58,31.58,326.6,0.9858,2909,2340,3663,0,D,
-"Gladiator, hoplomachus",m,76,spear + small shield,professional (armed),helmet and guards,96.91,38.3,261.4,0.9691,2561,2074,3265,0,D,
-"Venator (arena hunter), hunting spear",m,74,spear,professional (armed),none,95.1,40.08,240.7,0.951,2356,1904,3039,0,D,trained for animals and given spears
-Swiss pikeman,m,70,pike or polearm,professional (armed),helmet and guards,91.92,33.14,270.7,0.9192,2527,2033,3237,0,D,
-"Gladiator, champion murmillo, 90 kg",m,90,sword + large shield,elite (armed),helmet and guards,86.97,32.4,259.8,0.8697,2821,2293,3551,0,D,
-"Viking, axe and shield",m,78,axe + shield,professional (armed),mail or plates with helmet,80.4,28.32,236.6,0.804,2695,2178,3402,0,D,
-"Roman legionary, gladius and scutum",m,68,sword + large shield,professional (armed),mail or plates with helmet,77.71,28.9,218.8,0.7771,2676,2162,3393,0,D,
-"Zulu warrior, iklwa and shield",m,70,short stabbing spear + shield,professional (armed),none,68.03,26.29,184.9,0.6803,2423,1953,3115,0,D,
-"Gladiator, murmillo",m,78,sword + large shield,professional (armed),helmet and guards,65.9,26.18,177.2,0.659,2571,2078,3280,0,D,"Ephesus stature (168 cm), fed to carry bulk"
-"Samurai, katana",m,62,two-handed sword,professional (armed),mail or plates with helmet,60.66,20.11,185,0.6066,2553,2032,3270,0,D,
-"Gladiator, retiarius",m,72,trident + net,professional (armed),arm and shoulder guard,60.01,21.3,169.5,0.6001,2541,2046,3251,0,D,
-"Gladiator, thraex",m,76,sword + small shield,professional (armed),helmet and guards,56.15,22.06,150.1,0.5615,2561,2073,3275,0,D,
-"Maasai warrior, spear and shield",m,68,spear + shield,competent,none,54.99,24.02,125.5,0.5499,2055,1674,2714,0,C,lion hunting is the tradition
-"Gladiator, novice murmillo",m,76,sword + large shield,competent,helmet and guards,43.73,18.52,103.1,0.4373,2151,1753,2828,0,D,first-year tiro
-Hunter with a spear,m,68,spear,competent,none,40.77,20.89,77.9,0.4077,1911,1565,2563,0,B,what the crowd's armed hominins stand for
-Martial artist with a staff,m,72,staff,professional (armed),none,25.75,9.349,71.98,0.2575,2142,1656,2834,0,D,
-Untrained man with a spear,m,70,spear,novice,none,21.1,11.2,44.51,0.211,1592,1307,2108,0,D,
-Martial artist with a knife,m,72,knife,professional (armed),none,19.01,6.916,53.76,0.1901,1915,1419,2620,0,D,
-"Professional MMA fighter, 120 kg",m,120,none,professional,none,17.24,10.73,30.19,0.1724,2412,1957,2869,990.2,D,
-"Elite heavyweight champion, 110 kg",m,110,none,elite,none,16.9,9.986,33.26,0.169,2675,2180,3171,1320,D,
-Untrained man with a knife,m,70,knife,novice,none,9.737,5.065,20.41,0.09737,1310,1051,1796,0,D,
-"Professional MMA fighter, 77 kg",m,77,none,professional,none,9.689,6.149,16.93,0.09689,2063,1712,2417,990.2,D,
-Untrained man with a club,m,70,club,novice,none,8.981,2.762,32.46,0.08981,1164,584.5,1850,0,D,
-"Amateur boxer, 75 kg",m,75,none,trained amateur,none,8.22,5.561,12.62,0.0822,1574,1293,1864,521.2,D,
-Untrained man,m,70,none,untrained,none,6.449,4.524,9.191,0.06449,1000,1000,1000,0,A,"the scale's own ""Human"""
-"Professional woman fighter, 61 kg",f,61,none,professional,none,4.503,2.078,10.31,0.04503,1663,1117,2132,990.2,D,
-Untrained woman,f,58,none,untrained,none,3.132,1.55,6.359,0.03132,644.4,217.3,948.9,0,A,"the scale's own ""Human (female)"""
+archetype,sex,mass_kg,weapon,skill,armour,score,score_p05,score_p95,lions,duel_elo,duel_elo_p05,duel_elo_p95,lethality_index,crew,unarmed_skill_elo,evidence,note
+"Medium tank, 75 mm gun (crew of 5)",m,75,tank gun,professional (armed),tank armour,3.053e+04,2737,3.901e+05,305.3,4452,3809,5223,575000,5,0,D,a Second World War medium
+"Howitzer crew, 105 mm (7 men)",m,75,howitzer,professional (armed),none,9688,995.1,1.126e+05,96.88,3610,3034,4361,657215,7,0,D,
+"Field gun crew, 75 mm (6 men)",m,75,field gun,professional (armed),none,7567,886.4,7.75e+04,75.67,3575,2992,4323,386530,6,0,D,the French 75
+"Heavy machine gun crew, .50 (3 men)",m,80,heavy machine gun,professional (armed),body armour and helmet,1435,417.5,6436,14.35,3762,3194,4516,9000,3,0,D,
+"Machine gunner, belt-fed 7.62 mm",m,85,machine gun,professional (armed),body armour and helmet,1119,374.4,4073,11.19,3686,3125,4425,4973,1,0,D,
+Soldier with a rocket launcher (RPG-7),m,80,rocket launcher,professional (armed),body armour and helmet,856.3,307.5,3094,8.563,3412,2844,4164,3000,1,0,D,
+"Special forces operator, assault rifle",m,85,assault rifle,elite (armed),body armour and helmet,689.2,271.2,2428,6.892,3613,3042,4373,1000,1,0,D,
+"Sniper, .50 anti-materiel rifle",m,80,.50 rifle,professional (armed),body armour and helmet,553.5,233.6,1722,5.535,3324,2769,4056,1200,1,0,D,
+"Soldier, assault rifle",m,80,assault rifle,professional (armed),body armour and helmet,509.4,218.8,1533,5.094,3411,2866,4150,1000,1,0,D,
+"Professional hunter, .470 double rifle",m,85,double rifle,professional (armed),none,369,172,1026,3.69,3073,2563,3789,600,1,0,D,a dangerous-game rifle
+"Hunter, bolt-action .30-06 rifle",m,80,bolt-action rifle,competent,none,182,115.9,303.8,1.82,2689,2252,3354,495,1,0,B,the anchor: bear incidents in Alaska
+"Knight on foot, poleaxe, full plate",m,78,pike or polearm,professional (armed),full plate,179.3,57.64,594.6,1.793,2996,2417,3752,,1,0,D,
+"Hunter, 12-gauge shotgun with slugs",m,80,12-gauge shotgun,competent,none,171.2,99.95,348.3,1.712,2740,2310,3417,450,1,0,D,
+"Alaskan guide, .44 Magnum revolver",m,85,.44 Magnum revolver,competent,none,165.6,97.09,323.9,1.656,2616,2179,3293,400,1,0,D,the bear-country sidearm
+"Venator, champion, hunting spear",m,80,spear,elite (armed),none,145.3,55.99,431.1,1.453,2580,2090,3284,,1,0,D,
+"Greek hoplite, dory and aspis",m,68,spear + shield,professional (armed),mail or plates with helmet,128.7,47.23,362.1,1.287,2726,2212,3434,,1,0,D,
+"Police officer, 9 mm pistol",m,85,9 mm pistol,competent,body armour and helmet,118.5,65.01,212.4,1.185,2783,2329,3481,150,1,0,D,
+English longbowman,m,72,longbow,professional (armed),helmet and guards,116.6,52.55,283.9,1.166,2622,2111,3340,36,1,0,D,
+"Musketeer, flintlock and bayonet",m,68,flintlock musket,professional (armed),none,101.8,48.95,233.3,1.018,2594,2100,3300,43,1,0,D,
+"Knight on foot, longsword, full plate",m,78,two-handed sword,professional (armed),full plate,98.58,31.58,326.6,0.9858,2909,2340,3663,,1,0,D,
+"Gladiator, hoplomachus",m,76,spear + small shield,professional (armed),helmet and guards,96.91,38.3,261.4,0.9691,2561,2074,3265,,1,0,D,
+"Venator (arena hunter), hunting spear",m,74,spear,professional (armed),none,95.1,40.08,240.7,0.951,2356,1904,3039,,1,0,D,trained for animals and given spears
+Swiss pikeman,m,70,pike or polearm,professional (armed),helmet and guards,91.92,33.14,270.7,0.9192,2527,2033,3237,,1,0,D,
+"Gladiator, champion murmillo, 90 kg",m,90,sword + large shield,elite (armed),helmet and guards,86.97,32.4,259.8,0.8697,2821,2293,3551,,1,0,D,
+"Viking, axe and shield",m,78,axe + shield,professional (armed),mail or plates with helmet,80.4,28.32,236.6,0.804,2695,2178,3402,,1,0,D,
+"Roman legionary, gladius and scutum",m,68,sword + large shield,professional (armed),mail or plates with helmet,77.71,28.9,218.8,0.7771,2676,2162,3393,,1,0,D,
+"Zulu warrior, iklwa and shield",m,70,short stabbing spear + shield,professional (armed),none,68.03,26.29,184.9,0.6803,2423,1953,3115,,1,0,D,
+"Gladiator, murmillo",m,78,sword + large shield,professional (armed),helmet and guards,65.9,26.18,177.2,0.659,2571,2078,3280,,1,0,D,"Ephesus stature (168 cm), fed to carry bulk"
+"Samurai, katana",m,62,two-handed sword,professional (armed),mail or plates with helmet,60.66,20.11,185,0.6066,2553,2032,3270,,1,0,D,
+"Gladiator, retiarius",m,72,trident + net,professional (armed),arm and shoulder guard,60.01,21.3,169.5,0.6001,2541,2046,3251,,1,0,D,
+Civilian with a 9 mm pistol,m,80,9 mm pistol,novice,none,59.75,31.66,117.7,0.5975,2279,1872,2904,150,1,0,D,
+"Gladiator, thraex",m,76,sword + small shield,professional (armed),helmet and guards,56.15,22.06,150.1,0.5615,2561,2073,3275,,1,0,D,
+"Maasai warrior, spear and shield",m,68,spear + shield,competent,none,54.99,24.02,125.5,0.5499,2055,1674,2714,,1,0,C,lion hunting is the tradition
+"Gladiator, novice murmillo",m,76,sword + large shield,competent,helmet and guards,43.73,18.52,103.1,0.4373,2151,1753,2828,,1,0,D,first-year tiro
+Hunter with a spear,m,68,spear,competent,none,40.77,20.89,77.9,0.4077,1911,1565,2563,,1,0,B,what the crowd's armed hominins stand for
+Martial artist with a staff,m,72,staff,professional (armed),none,25.75,9.349,71.98,0.2575,2142,1656,2834,,1,0,D,
+Untrained man with a spear,m,70,spear,novice,none,21.1,11.2,44.51,0.211,1592,1307,2108,,1,0,D,
+Martial artist with a knife,m,72,knife,professional (armed),none,19.01,6.916,53.76,0.1901,1915,1419,2620,,1,0,D,
+"Professional MMA fighter, 120 kg",m,120,none,professional,none,17.24,10.73,30.19,0.1724,2412,1957,2869,,1,990.2,D,
+"Elite heavyweight champion, 110 kg",m,110,none,elite,none,16.9,9.986,33.26,0.169,2675,2180,3171,,1,1320,D,
+Untrained man with a knife,m,70,knife,novice,none,9.737,5.065,20.41,0.09737,1310,1051,1796,,1,0,D,
+"Professional MMA fighter, 77 kg",m,77,none,professional,none,9.689,6.149,16.93,0.09689,2063,1712,2417,,1,990.2,D,
+Untrained man with a club,m,70,club,novice,none,8.981,2.762,32.46,0.08981,1164,584.5,1850,,1,0,D,
+"Amateur boxer, 75 kg",m,75,none,trained amateur,none,8.22,5.561,12.62,0.0822,1574,1293,1864,,1,521.2,D,
+Untrained man,m,70,none,untrained,none,6.449,4.524,9.191,0.06449,1000,1000,1000,,1,0,A,"the scale's own ""Human"""
+"Professional woman fighter, 61 kg",f,61,none,professional,none,4.503,2.078,10.31,0.04503,1663,1117,2132,,1,990.2,D,
+Untrained woman,f,58,none,untrained,none,3.132,1.55,6.359,0.03132,644.4,217.3,948.9,,1,0,A,"the scale's own ""Human (female)"""

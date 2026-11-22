@@ -49,6 +49,10 @@
   "beast": [
    1.0,
    0.0
+  ],
+  "ranged": [
+   0.8,
+   0.2
   ]
  },
  "novice": [
@@ -261,12 +265,190 @@
     3.0,
     1.0
    ]
+  ],
+  "body armour and helmet": [
+   [
+    0.1,
+    0.1
+   ],
+   [
+    1.0,
+    0.5
+   ]
+  ],
+  "tank armour": [
+   [
+    1.2,
+    0.5
+   ],
+   [
+    0,
+    0
+   ]
   ]
  },
  "cross": [
   0.3,
   0.15
  ],
+ "armour_vs_guns": 0.1,
+ "firearms": {
+  "bear": {
+   "success": 0.78,
+   "logit_sd": 0.35,
+   "context_sd": 0.5,
+   "incidents": {
+    "Brown Bear": 218,
+    "American Black Bear": 30,
+    "Polar Bear": 6
+   }
+  },
+  "bear_scale": 112.9640920672223,
+  "rifle_score": 174.23689258925336,
+  "rifle_premium_log": 3.3000441578287782,
+  "beta": 0.46967394632154313,
+  "beta_p05": 0.20685179202405393,
+  "beta_p95": 0.7409517337715534,
+  "index_hand": 23,
+  "index_rifle": 495,
+  "weapons": {
+   "longbow": {
+    "lethality_index": 36,
+    "dupuy": true,
+    "premium_factor": 8.014634922826211,
+    "duel_log_odds_over_spear": [
+     1.0,
+     0.7
+    ]
+   },
+   "flintlock musket": {
+    "lethality_index": 43,
+    "dupuy": true,
+    "premium_factor": 8.730718474251704,
+    "duel_log_odds_over_spear": [
+     1.5,
+     0.7
+    ]
+   },
+   "9 mm pistol": {
+    "lethality_index": 150,
+    "dupuy": false,
+    "premium_factor": 15.44472361177827,
+    "duel_log_odds_over_spear": [
+     3.7,
+     0.8
+    ]
+   },
+   ".44 Magnum revolver": {
+    "lethality_index": 400,
+    "dupuy": false,
+    "premium_factor": 23.96671243397227,
+    "duel_log_odds_over_spear": [
+     3.7,
+     0.8
+    ]
+   },
+   "12-gauge shotgun": {
+    "lethality_index": 450,
+    "dupuy": false,
+    "premium_factor": 25.44673406598622,
+    "duel_log_odds_over_spear": [
+     4.5,
+     0.8
+    ]
+   },
+   "bolt-action rifle": {
+    "lethality_index": 495,
+    "dupuy": true,
+    "premium_factor": 27.11631683323817,
+    "duel_log_odds_over_spear": [
+     4.2,
+     0.8
+    ]
+   },
+   "double rifle": {
+    "lethality_index": 600,
+    "dupuy": false,
+    "premium_factor": 29.156681812911792,
+    "duel_log_odds_over_spear": [
+     4.0,
+     0.8
+    ]
+   },
+   "assault rifle": {
+    "lethality_index": 1000,
+    "dupuy": false,
+    "premium_factor": 36.8521836669883,
+    "duel_log_odds_over_spear": [
+     5.0,
+     0.9
+    ]
+   },
+   ".50 rifle": {
+    "lethality_index": 1200,
+    "dupuy": false,
+    "premium_factor": 40.21773670755505,
+    "duel_log_odds_over_spear": [
+     4.5,
+     0.9
+    ]
+   },
+   "rocket launcher": {
+    "lethality_index": 3000,
+    "dupuy": false,
+    "premium_factor": 62.127999462614476,
+    "duel_log_odds_over_spear": [
+     5.0,
+     1.0
+    ]
+   },
+   "machine gun": {
+    "lethality_index": 4973,
+    "dupuy": true,
+    "premium_factor": 79.92197328078902,
+    "duel_log_odds_over_spear": [
+     6.5,
+     1.0
+    ]
+   },
+   "heavy machine gun": {
+    "lethality_index": 9000,
+    "dupuy": false,
+    "premium_factor": 104.26728196654308,
+    "duel_log_odds_over_spear": [
+     7.0,
+     1.0
+    ]
+   },
+   "field gun": {
+    "lethality_index": 386530,
+    "dupuy": true,
+    "premium_factor": 618.9711168146417,
+    "duel_log_odds_over_spear": [
+     7.0,
+     1.2
+    ]
+   },
+   "howitzer": {
+    "lethality_index": 657215,
+    "dupuy": true,
+    "premium_factor": 798.6245496551218,
+    "duel_log_odds_over_spear": [
+     7.2,
+     1.2
+    ]
+   },
+   "tank gun": {
+    "lethality_index": 575000,
+    "dupuy": true,
+    "premium_factor": 748.4792473228458,
+    "duel_log_odds_over_spear": [
+     12.0,
+     1.5
+    ]
+   }
+  }
+ },
  "raptors": {
   "Dakotaraptor steini": {
    "crowd": 206.327,
