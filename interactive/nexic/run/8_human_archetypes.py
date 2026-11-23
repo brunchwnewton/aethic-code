@@ -203,6 +203,9 @@ HEIGHT = {k: TALL[(v[7], v[0])] for k, v in TITANS.items()}; HEIGHT['Human Warri
 ROTG_GROUP = 'ROTG Titan schools (fantasy)'
 CLASSES = {
     'Untrained woman with a spear': ('f', 58, 'spear', 'novice', 'beast', 'none', ''),
+    'Roman veles, light spear and parma': ('m', 66, 'spear + small shield', 'competent', 'duellist', 'none', 'the skirmishers of the manipular legion; their javelins are not modelled'),
+    'Roman hastatus, gladius and scutum': ('m', 68, 'sword + large shield', 'competent', 'duellist', 'mail or plates with helmet', 'the first line: the younger men'),
+    'Roman triarius, hasta and scutum': ('m', 68, 'spear + shield', 'elite (armed)', 'duellist', 'mail or plates with helmet', 'the third line: the veterans. (The second line, the principes, is the legionary above.)'),
     'Warrior, spear or sword with shield': ('m', 70, KIT[0], 'professional (armed)', 'duellist', KIT[1], "the story's plain warrior"),
     'Woman warrior, spear or sword with shield': ('f', 58, KIT[0], 'professional (armed)', 'duellist', KIT[1], ''),
     **{'class: ' + s: ('m', 70, KIT[0], s, 'duellist', KIT[1], 'a Titan training school') for s in LADDER}}     # (the Titans of each school are in TITANS under the plain name)
