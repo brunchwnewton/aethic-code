@@ -663,12 +663,14 @@ if (typeof document !== 'undefined' && DATA) (function () {
   const BAT = [
     ['Sixty gladiators against twelve Dakotaraptors', [[[fId('Gladiator, murmillo'), 60]], [[aId('Dakotaraptor'), 12]]]],
     ['Sixty gladiators against the twelve Dakotaraptors of conventional belief', [[[fId('Gladiator, murmillo'), 60]], [[aId('Dakotaraptor', 'crowd'), 12]]]],
-    ['A century of legionaries against twelve Dakotaraptors', [[[fId('Roman legionary, gladius and scutum'), 80]], [[aId('Dakotaraptor'), 12]]]],
+    ['A Roman century, eighty men by rank, against twelve Dakotaraptors', 'w-80r8lbz-v-12xtf91'],
     ['Two hundred hoplites against five T. rexes', [[[fId('Greek hoplite, dory and aspis'), 200]], [[aId('T. rex'), 5]]]],
     ['A hundred hunters and thirty mastiffs against eight Utahraptors', [[[fId('Hunter with a spear'), 100], [aId('Alpine Mastiff'), 30]], [[aId('Utahraptor'), 8]]]],
     ['A rifle platoon against twenty Utahraptors', [[[fId('Soldier, assault rifle'), 30], [fId('Machine gunner, belt-fed 7.62 mm'), 2]], [[aId('Utahraptor'), 20]]]],
     ['Three armies: sixty gladiators, thirty lions, twelve Dakotaraptors', [[[fId('Gladiator, murmillo'), 60]], [[aId('Lion'), 30]], [[aId('Dakotaraptor'), 12]]]],
-    ['The Adamantine Guard against the Wolfpacks, an even fight', [[[tId('New Adamantine Guard'), 20], [tId('Mid Adamantine Guard'), 20], [tId('Veteran Adamantine Guard'), 10]], [[tId('New Wolfpacks'), 20], [tId('Veteran Wolfpacks'), 15]]]],
+    ['The Adamantine Guard, fifty strong, against thirty-four Wolfpacks: an even fight', 'w-50r7qm8-v-34rb5gz'],
+    ['A Roman army of two hundred against three T. rexes', 'w-200r8lbz-v-3xthxe'],
+    ['A Roman army of two hundred and fifty against fifty of the Adamantine Guard', 'w-250r8lbz-v-50r7qm8'],
     ['Thirty Titan legionaries against twelve Dakotaraptors', [[[tId('Roman legionary, gladius and scutum'), 30]], [[aId('Dakotaraptor'), 12]]]],
     ['Titan gunners: two 75 mm guns and twenty rifles against six T. rexes', [[[tId('Field gun crew, 75 mm (6 men)'), 2], [tId('Soldier, assault rifle'), 20]], [[aId('T. rex'), 6]]]]];
   const preset = (list, i) => list[i][1].map(side => side.map(([id, n]) => ({ id, n })));
