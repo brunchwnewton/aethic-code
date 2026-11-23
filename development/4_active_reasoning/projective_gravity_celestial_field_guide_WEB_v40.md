@@ -1,12 +1,12 @@
-# Projective Gravity — Version 40.2 (draft): the leaf between the horizons — the C-metric beside Kerr, Law I on the leaf, the galaxy as a rendering and the two Hopf structures
+# Projective Gravity — Version 40.3 (draft): the leaf between the horizons — the C-metric beside Kerr, Law I on the leaf, the galaxy as a rendering and the two Hopf structures
 
 ### The Canonical Space First: a complex Hopf lift of source shells, a derived middle space, and two bases — with branches on charge and extremality, and on rendering and canonical optics
 
-**Claim status of Part XXXVIII (v40.2).** This table governs the open work: Part XXXVIII, the leaf between the horizons — the C-metric beside Kerr, Law I on the leaf, the galaxy as a rendering and the two Hopf structures — opened in v40.0 on Entries 489–521 of 18–20 November, the responses to them and the assessments of the replies; v40.1 adds the follow-up of 20–21 November on the galaxy — Law I's symmetry, the falloff, the halo families and a leaf per galaxy — with six corrections in place; v40.2 adds the second follow-up of 22 November — the quick falloff read as meant, the point source's apparent halo, the image against the exponential and the density near the equator, with thirteen figures — with six corrections to v40.1 in place. Part XXXVII is frozen at v39.0, the freeze declared at v40.0 (§XXXVIII.2), with two pointer notes and no correction; Part XXXVI is frozen at v38.2; Part XXXV at v37.9; Parts XXXIII–XXXIV at v36.16; Parts XXX–XXXII at v35.8; and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the six frozen tables that follow, unchanged except for marked post-freeze notes; v40.0 adds two such notes in Part XXXVII, at §XXXVII.19 and at §XXXVII.17's next pieces (R563). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit*, an *observational comparison* — a model set against data with no parameter fitted — or an *open bridge*; a fit or comparison that fails is marked *(negative)*.
+**Claim status of Part XXXVIII (v40.3).** This table governs the open work: Part XXXVIII, the leaf between the horizons — the C-metric beside Kerr, Law I on the leaf, the galaxy as a rendering and the two Hopf structures — opened in v40.0 on Entries 489–521 of 18–20 November, the responses to them and the assessments of the replies; v40.1 adds the follow-up of 20–21 November on the galaxy — Law I's symmetry, the falloff, the halo families and a leaf per galaxy — with six corrections in place; v40.2 adds the second follow-up of 22 November — the quick falloff read as meant, the point source's apparent halo, the image against the exponential and the density near the equator, with thirteen figures — with six corrections to v40.1 in place; v40.3 adds the third follow-up of 22 November — the third freedom, a rescaling of the gravitating mass, on the Milky Way and eight SPARC galaxies against Newton, the radial acceleration relation and NFW, with the archive's MOND program read again and ten figures — with no correction. Part XXXVII is frozen at v39.0, the freeze declared at v40.0 (§XXXVIII.2), with two pointer notes and no correction; Part XXXVI is frozen at v38.2; Part XXXV at v37.9; Parts XXXIII–XXXIV at v36.16; Parts XXX–XXXII at v35.8; and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the six frozen tables that follow, unchanged except for marked post-freeze notes; v40.0 adds two such notes in Part XXXVII, at §XXXVII.19 and at §XXXVII.17's next pieces (R563). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit*, an *observational comparison* — a model set against data with no parameter fitted — or an *open bridge*; a fit or comparison that fails is marked *(negative)*.
 
 | claim | type | evidence | archive |
 |:--|:--|:--|:--|
-| **The leaf between the horizons — the C-metric beside Kerr, Law I on the leaf, the galaxy as a rendering and the two Hopf structures (Part XXXVIII, opened in v40.0 for Entries 489–521, the responses and the assessments of 18–20 November; v40.1, the follow-up of 20–21 November on the galaxy; v40.2, the second follow-up of 22 November)** | | | |
+| **The leaf between the horizons — the C-metric beside Kerr, Law I on the leaf, the galaxy as a rendering and the two Hopf structures (Part XXXVIII, opened in v40.0 for Entries 489–521, the responses and the assessments of 18–20 November; v40.1, the follow-up of 20–21 November on the galaxy; v40.2, the second follow-up of 22 November; v40.3, the third follow-up of 22 November)** | | | |
 | The round's inputs recorded as sent, with their markup — thirty-five messages, the first kept in the record of the last prompt before the compaction of 18 November and the last four copied after the transcript was rewritten at a second compaction, and thirty-five attachments: Entries 489 and 498, the responses, the assessments, a summary at Entry 516 — and what v40.0 does with them; nine doubled braces written with a character reference (R562) | definition | — | §XXXVIII.1 |
 | The freeze of Part XXXVII at v39.0, declared at v40.0: the complete output of v39.0's final run delivered ($400$ lines; $11$ passed, $0$ failed) and reproduced byte for byte; two pointer notes, at §XXXVII.19 and at §XXXVII.17's next pieces, and no correction (R563) | definition; numerical control | v39.0's final run | §XXXVIII.2 |
 | The sphere of references read again: $\langle z,z\rangle = \lvert s-M\rvert^2-b^2 = \Delta-a^2\sin^2\theta$; a reference's complement of signature $(1,1)$ outside the stationary limit, $317$ of $317$, and $(2,0)$ inside, $83$ of $83$, its stabilizer $U(1,1)$ or $U(2)$; the far reference's Harrison boost, $\sin p = \tanh b$, $b = 4.7413$ at $89^\circ$; the clock factors composing; $S''(0) = -2\pi Mr_+$, a spread of $(2\pi Mr_+)^{-1/2}$, $3.088\times10^{-39}$ rad for Schwarzschild at a solar mass, under an assumed weight; the Hopf circle of references as the NUT phase, its half-turn the other sheet; a tilt that varies breaking the Ernst equations, $2.28\times10^{-2}$ to $1.64\times10^{-1}$; two bodies' complements sharing one line and spanning the channels, $400$ of $400$, under a premise; the shared far reference, $\sinh d = b/\sqrt{\langle z,z\rangle}$; a boost that keeps it charging every body of an uncharged two-body seed, $m_i\sinh b$, and on a charged seed adding a NUT charge unless its phase matches the seed's charge phase modulo $\pi$; two boosts in either order giving NUT charges of opposite sign, from opposite phases of $w$, $\pm0.232124$, the composites mirror images and neither asymptotically flat (R564) | analytic theorem; numerical control; specified physical premise; open bridge | v40.0-1; the responses to Entries 489, 518 and 519 and the response titled Entry 521; the assessment of the reply to Entry 489 | §XXXVIII.3; §§XXXVII.6–8 |
@@ -32,7 +32,13 @@
 | The second follow-up of 22 November recorded — four messages, the first with an excerpt of the reply that delivered v40.1 attached, saved from the transcript before the compaction of 22 November, and eight later ones on the curve across the families, the figures and their notation (R587) | definition | — | §XXXVIII.26 |
 | The third message's "1/0.01" read as the author's correction gives it, a falloff length of $0.01\ell$, $k = 100$, the top of v40.1's scan, where v40.1 had read a slow falloff; six passages corrected in place; at the quick end the bump is the image's own Freeman peak, as §XXXVIII.22(b) found, $3.5931v_\infty$ at $2.15h_{\rm eff}$ for $k = 100$ against Freeman's $3.5921v_\infty$, the remainder taking at most $0.023$ of $v^2$ at $0.5$–$10h_{\rm eff}$ (R588) | definition; numerical control | v40.2-1(a); Freeman (1970) | §XXXVIII.27(a); §XXXVIII.21(b) |
 | The point source's apparent halo in closed form, $M_d = M[(1+3t^2)/\sqrt{1+t^2}-1]$, $2\sqrt2-1$ times the point's mass inside $R = \ell$, its density a $1/R$ cusp for $R\ll\ell$ turning to $1/R^2$; the image exponential while $R\ll\ell$, on the Milky Way's leaf to $8.06$ kpc, a part holding $83.1\%$ of the mass, with $1.46\%$ beyond $36$ kpc; the density beyond $36$ kpc moving that leaf's curve inside $24$ kpc by under $2$ km/s, at most $1.14$ of Eilers et al.'s mean errors and far below the leaf's own misfit, its mass bounded instead by the stellar halo's, and moving a slow falloff's by tens of km/s; an exhibit of thirteen figures in the gnomonic view, among them $v^2$ across the families against Newton's and the plane read as Euclidean against the leaf's image (R589) | analytic theorem; numerical control; specified physical premise | v40.2-1(b)–(c); v40.2-2; Eilers et al. (2019); Deason, Belokurov and Sanders (2019); `pg_v40_figures.py` | §XXXVIII.27(b)–(e); §XXXVIII.22(e) |
-| The suite `pg_v40_numerics.py`, embedded, with its v40.1 and v40.2 sections, and the toy's modes `v40`, `v40_0`, `v40_1` and `v40_2`; the figures' script `pg_v40_figures.py`, delivered beside it (R579, R586, R590) | numerical control | v40.2's final run | §XXXVIII.19; §XXXVIII.27(e) |
+| The third follow-up of 22 November recorded — the request for a status report, the third freedom with an excerpt of the report attached, the request for this version and the response titled Entry 526, the first three as the compaction's summary quotes them (R591) | definition | — | §XXXVIII.29 |
+| The archive's MOND program read again — Part XII's arena law and ceiling, Entries 287–288, the zoom labels and §XXXIII.16's label condition — the third freedom read as $\mathcal B = \zeta/\lambda$ and the response's $\mathcal BC\simeq3$ as that condition at $f = 1$; the response point by point and the replies corrected (R592) | definition | §§XII.1–XII.3, XXIX.42(e)–(g), XXXIII.9–10, XXXIII.16 | §§XXXVIII.30, XXXVIII.35 |
+| The Milky Way with $v^2 = \mathcal B(GM/\ell)u(R/\ell;\ell/h)$: $\chi^2/(N-3) = 3.73$ at $\ell = 23.77$ kpc, $h = 2.787$ kpc, $\mathcal B = 1.388$, the arena leaf $25.04$ kpc inside the profile's interval for the benchmark mass; $\mathcal B = 1$ more than doubles $\chi^2$, $\mathcal B = 3/C(k)$ on the arena leaf needs $1.612$ times the benchmark disk; on one disk at the light's scale length as good as an NFW halo and far better than the RAR in $\chi^2$ (R593) | observational fit; observational comparison | v40.3-1; Eilers et al. (2019); McGaugh, Lelli and Schombert (2016) | §XXXVIII.31 |
+| The eight galaxies of the v36 pilot with the leaf's remainder added to their own baryonic curves, the whole times $\mathcal B$: $\chi^2/(N-2)$ from $1.03$ to $14.05$, below NFW's for four and in total, not below NFW with the baryons' scale free too, and below v36's two labels for seven; the rescaling on the whole curve preferred for seven on leaves from $2.7R_{\rm disk}$, six without that floor; with nothing free an acceleration relation of its own, a fifth below the RAR in the transition (R594) | observational fit; observational comparison | v40.3-2; SPARC (Lelli, McGaugh and Schombert 2016) | §XXXVIII.32 |
+| Across the galaxies, at the adopted ratios, the leaves near the arena law, scaling as $M^{0.419}$; the label condition's left side identically the plateau's Tully–Fisher offset, tracking each galaxy's; at the arena leaf $\mathcal B$ identically $3/C_{\rm eff}$ times it, $3/C$ for one disk a function of the surface density; with $\mathcal B = 1$ no leaf puts Entry 326's source on the relation below a central surface density on the leaf of $303\,M_\odot$ pc$^{-2}$, Part XII's ceiling in its own definition (R595) | observational fit; numerical control; definition | v40.3-3; §§XII.2, XXXIII.16 | §XXXVIII.33 |
+| No per-galaxy freedom: the arena rule with $\mathcal B = 3/C_{\rm eff}$, nothing free, more than twice the RAR's $\chi^2$; with one or two universal constants on a par with it in sample, and with each galaxy left out in turn as good as the RAR refitted without it, not as good as the RAR at its published constant; none fitting any galaxy to $\chi^2/N$ below $2$ (R596) | observational fit; observational comparison | v40.3-4 | §XXXVIII.34 |
+| The suite `pg_v40_numerics.py`, embedded, with its v40.1, v40.2 and v40.3 sections, and the toy's modes `v40`, `v40_0`, `v40_1`, `v40_2` and `v40_3`; the figures' scripts `pg_v40_figures.py` and `pg_v403_figures.py`, delivered beside it (R579, R586, R590, R597) | numerical control | v40.3's final run | §XXXVIII.19; §§XXXVIII.27(e), XXXVIII.31–34 |
 
 **Claim status of Part XXXVII at the v39 freeze (v39.0).** This table governs Part XXXVII, Opened Kerr — the closing of channels, the sphere of references and the flavor fold — frozen at v39.0 with its suite `pg_v39_numerics.py`, the freeze declared at v40.0 (20 November 2026), and unchanged except for two marked pointer notes (v40.0, R563). Its frozen-results record is the v39.0 current manuscript, `projective_gravity_v39_0_current_manuscript.md`, and the complete output of its final regression run is `pg_v39_0_regression_output.txt` (§XXXVIII.2). As it stood at v39.0: Part XXXVII was opened in v39.0 on the review of v38.2 with its constrained action, the circle of fixed size explored on 14 November and set aside, the author's Opened Kerr toy with the export that carries Entries 476–477, Entries 481–482 on a half-turn and on charge as overlap, the responses of 17 November on the neutrino, flavor directions, the flavor plane and its fold, and Entry 487's response on the Higgs vacuum. Part XXXVI is frozen at v38.2, the freeze declared at v39.0 (§XXXVII.2); Part XXXV is frozen at v37.9; Parts XXXIII–XXXIV at v36.16; Parts XXX–XXXII at v35.8; and Parts 0–XXIX as before — Parts 0–XXVII at v31.27, Part XXVIII at v32.27 and Part XXIX at v34.10. Their claim status is in the five frozen tables that follow, unchanged except for marked post-freeze notes. v39.0 adds such notes in Part XXXVI — its opening and §§XXXVI.15, XXXVI.32 and XXXVI.37 — and in one row of the v38.2 table (R545), and one at §XIX.2c, on the stationary Ernst equations' target space, with pointers to it where that identification is restated, two in §XIX.8's table and one in the reference card of version 29.41 (R549). Each claim is typed as an *analytic theorem*, a *numerical control*, a *definition*, a *specified physical premise*, an *observational fit* or an *open bridge*; a fit that fails is marked *(negative)*.
 
@@ -402,7 +408,7 @@
 | Observational fits | none | no supernova likelihood, no count comparison with a selected sample, no rotation-curve fit (post-freeze note, v35.1, R216: the current predictive model; Part XII's exploratory fits, §XII.3, belong to its detached wing) (post-freeze note, v36.0, R313: rotation curves are compared with data in Part XXXIII — the Milky Way from inside and a SPARC pilot — and are not reproduced by the theory as specified) | §XXIX.39(f) |
 | The photon wave operator and its mode projection; a $q = 0$ reader; a frequency bridge with time dilation and a derived echo law; a pair-selection law; a detector law for the image map, with one forward image of a fixed galaxy; a derived spectral transport, even and odd | open bridge | — | §§XXIX.39(b), 41, 42, 43(f) |
 
-> **How to read this archive (v40.2).** Seven tables govern: the table of Part XXXVIII, for the open work; the frozen v39.0 table that follows it, for Part XXXVII; the frozen v38.2 table, for Part XXXVI; the frozen v37.9 table, for Part XXXV; the frozen v36.16 table after that, for Parts XXXIII–XXXIV; the frozen v35.8 table, for Parts XXX–XXXII; and the frozen v34.10 table, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX; §XXX.9, frozen with Parts XXX–XXXII; §XXXIII.12 and Part XXXIV's registers, frozen with Parts XXXIII–XXXIV; §§XXXV.13, XXXV.28, XXXV.36, XXXV.47, XXXV.54, XXXV.60, XXXV.76, XXXV.85, XXXV.90 and XXXV.97, frozen with Part XXXV; §§XXXVI.14, XXXVI.23 and XXXVI.38, frozen with Part XXXVI; §XXXVII.18, frozen with Part XXXVII; and §§XXXVIII.18, XXXVIII.25 and XXXVIII.28) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place. v36.0 freezes Parts XXX–XXXII at v35.8 with `pg_v35_numerics.py`, whose frozen-results record is the v35.8 current manuscript, and opens Part XXXIII, the observed rotation curve, after Part XXXII, with its own register (§XXXIII.12) and suite (§XXXIII.13, `pg_v36_numerics.py`). Its corrections to frozen Parts are post-freeze notes (R313). v36.1 is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§§XXXIII.14–26, R318–R331): it corrects v36.0's operative statements in place, with the superseded wording in §XXXIII.26, and adds no post-freeze note. v36.2 answers Entries 323–324 and the two responses on them (§§XXXIII.27–33, R332–R338): orbital occupancy on the leaf, the exponential as a rendering, the conformal route, the frame-selection hypothesis; it corrects two v36.1 sentences in place (R332) and adds no post-freeze note. v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§§XXXIII.34–43, R339–R348): two source families regular at the equator, their orbital populations and the dwarfs with them, the isothermal fixed points, the null cone, the split model, the $\mathfrak{so}(4)$ sectors; it applies the review's two distinctions in place (R347) and adds no post-freeze note. v36.4 answers the review of v36.3 and Entries 340–341 with the response (§§XXXIII.44–50, R349–R354): the fixed-point erratum and stability in two ensembles, the radial–normal duality and the CMB dipole, the first test of the clash invariant, and Entries 342–345 recorded for v36.5; it corrects §XXXIII.38 and §XXXIII.42 in place (R350) and adds no post-freeze content note — one marked rendering repair in frozen §XXX.11 (R355: a doubled brace in a subscript, which the author's site's templating engine read as a tag; the mathematics unchanged). v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§§XXXIII.51–55, R356–R359): the orbit library's kinematics erratum — the velocity moments integrated along the orbit, the mis-certified witnesses re-evaluated, the joint crossing–dispersion frontier, every library bound rescoped as a compatibility witness — with §§XXXIII.28, 29(b), 32, 36, 37, 42 and two register entries corrected in place (R357); the clash invariant's nullspace and the sum's fall-off, the high-sector bound, §§XXXIII.45, 47, 50 annotated (R358); no post-freeze note. v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§§XXXIII.56–60, R360–R364): one localization model, from the admissibility scalar to the spectrum — one action for the two sectors, a probe in the induced potential and the exterior theorem for its tail — which localizes and derives neither the thin–broad disk nor the sine-exponential; and the note's question in a reduction of the smallest two-path, one-qubit model; nothing earlier is corrected and no post-freeze note is added. v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§§XXXIII.61–66, R365–R369): the penalties of the admissibility geometry compared on the full two-sector configuration — the review's cone at the aligned vacuum confirmed, Entry 349's sine blind to the normal in the responses' reading, the response's and the review's smooth forms zero exactly on the family; v36.6's localization model with each, an exchange-even penalty smooth at the aligned vacuum confining the pinned tilt to a patch, the lowest-order smooth forms with their pinning losing the mode at v36.6's coupling (a smooth form with v36.6's gap binds two), the exterior obstruction holding for every gapped penalty; and off its ansatz the mirror solution's second variation with no eigenvalue below $-10^{-6}$ (certified on the grid up to the residual's bound for the cone penalties; second variation only), the sine's second zero leaving no metastable state in the one-wall family examined *[v36.11, R393]*; nothing earlier is corrected and no post-freeze note is added. v36.8 answers Entries 351–353 and the three responses by opening Part XXXIV, flavor, after Part XXXIII (§§XXXIV.1–6, R370–R374), as §XXXIII.9 planned, with Part XXXIII's suite: on the reading of the two families as orthonormal bases of one complex carrier, Entry 352's rule for a complement of the Cartesian fibers is mutual unbiasedness, which needs the complex structure and, with the archive's flavor lines, makes the selected axis the fibers' body diagonal, the frame's shift and clock then the archive's clock and conveyor and the Cartesian triad §XXX.13's trigonal frame, as a datum; the archive's mass operator read on the fibers is a ring with a flux, the mean mass on every fiber, the $e$–$\mu$ distinction the part odd under complex conjugation in the real frame, and Koide's relation a light cone on $\sqrt M$, the form's coefficient Koide's postulate; the bare Dirac toy's mass term can be the internal part of a parent operator, whose square gives the invariant difference $p^2-\mathcal M^2$ for a constant $\mathcal M$ *[v36.11, R387]*, the interchange holding in a flat parent and broken by any discrete internal spectrum. Part XXXIII's rows on the flavor note and on the next pieces are amended, the rest of flavor leaving its backlog (R374); nothing earlier is corrected and no post-freeze note is added. v36.9 answers the review of v36.8 with six sections of Part XXXIV (§§XXXIV.7–12, R375–R379), three of them (§§XXXIV.8–10) one for each part of the review's decisive test. *Frame consistency:* three distinct masses need an abelian residual symmetry — among the rotations the oriented triad's $\mathbb Z_3$, with the complement as its lines — and the mass operator itself keeps $SO(2)_{N_+}$; on $S_D\otimes G_{\rm gen}$, by the descent's typing (a definition), the mass operator commutes with every Lorentz transformation, the physical rotations acting on $S_D$ and those of the carrier internal; a coupling of the carrier to the spin is bounded by the electron's preferred-frame limits, $\lambda\leq3.46\times10^{-22}$ eV at one standard deviation for the Galactic normal ($(1.6\pm2.9)\times10^{-22}$ eV from a fit), and so excluded near the flavor scale. *Spectral selection:* no residual symmetry selects; Koide's ratio is fixed by the overlap of the two dual references, and $K = \tfrac23$ is their bases being mutually unbiased — Entry 352's rule on a qubit — a premise equivalent to Koide's relation, a dictionary rather than a derivation. *Mass generation:* a parity-symmetric pair with a heavy flavor-blind partner gives the square from two internal hops, Koide's masses at leading order, its corrections lowering $K$; on the premise that the relation holds for pole masses, the measured $K$ bounds the partner's mass from below. A tagged sentence is added in §XXXIV.3(d) (R377) and Part XXXIV's row on the next pieces is reworded (R379); nothing earlier is corrected and no post-freeze note is added. v36.10 answers Entry 354, the response to it and the review of v36.9 with seven sections of Part XXXIV (§§XXXIV.13–19, R380–R385). *The exact angles:* with $\theta = 2/9$ and $\cos\alpha = 1/\sqrt2$ held fixed, any first-order correction fixed by the electron and the muon predicts the $\tau$ through its pattern; the same hop twice gives $m_\tau$ $2.67\sigma$ low, and the dual factors $0.23\sigma$ low, their angle offsets then matching the measured ones (the same $\tau$ test) — on the pole-mass premise and the zero block at the eV level, with the construction chosen after the fact. *The mixing scale:* v36.9's $\mu$ was a two-sigma lower bound, and imposing $\mu = M_Z$ with the exact angles and one hop scale gives the $\tau$ $2.07\sigma$ or $1.27\sigma$ low, while with the strict zero block the electron excludes it within this pole-mass realization ($-87.0\sigma$ and $+722.5\sigma$ with the muon's and the Z's errors propagated), a direct mass restoring it in an enlarged realization *[v36.11, R388]*. *The chiral two-hop seesaw:* with a bare right hop the zero block is a choice of basis, while a charged vev for the right hop, or $SU(2)_R$, protects it up to dimension five; with two hop scales the dual factors' prediction of the $\tau$ becomes an inequality, met. *A moving frame:* its connection changes flavor only for a field on the carrier itself, far below detection at the illustrative rates. Part XXXIV's row on the next pieces is reworded (R385), and the head table's flavor heading now says when the Part was opened; nothing earlier is corrected and no post-freeze note is added. v36.11 answers Entries 357 and 360, the responses to them, the review of v36.10 and the referee reports on v36.8 and v36.10 with nine sections of Part XXXIV (§§XXXIV.20–28, R386–R392 and R394) and one of Part XXXIII (§XXXIII.67, R393). *The two histories:* the quaternionic structure intertwines the two Weyl types, so both of Part XX's pairings pass the Lorentz test; at rest the Cartan pair shares one spin state, while the antipodal pair, taken as a fixed relation between the components, is the conjugate pairing, which admits no electric charge — so for the electron the two readings exclude each other, and its Weyl components would be the Cartan pair, whose comparison is the four-velocity. *The doubled angle (Entry 360):* the dual factors are one plus half the spin-$\tfrac12$ character of a doubled angle, $\tfrac49+\tfrac{4\pi n}3\pm\tfrac\pi2$, which needs the double cover and a choice of lift, and only the identity lift is Koide's; the $\tfrac49$ of complementary projectors is a probability, and the complementary fibers' geometric phases are multiples of $2\pi/3$ — a selection-law conjecture, numerically $\theta = 2/9$. *The two-scale theorem:* with the exact angles and the dual factors, $m_\tau<1776.965825$ MeV on every positive branch and $\varepsilon_R/\varepsilon_L\leq2.0094647320$; parity proper excludes the dual factors, and equal Yukawa strengths with $A_-$ on the left hop put the $\tau$ $0.40\sigma$ high, a postulate. *The Z-linked statistics:* with the muon's and the Z's errors propagated the strict model's electron pulls are $-87.0$ and $+722.5$; the strict identification is excluded within this pole-mass realization, enlarged ones are not excluded by this comparison; with one hop scale the direct-mass interval is signed, and with two the same hop's is unchanged while the $\tau$ bounds the dual factors' on both sides *[v36.13, R401: for $\lvert m_0\rvert<\Lambda$, on the branch connected to the zero-block solution; a second branch near $1.03$ MeV, §XXXIV.36]*. *Transport:* the carrier's complete connection is flat, and the lines' connection a stipulated, different action that agrees with it in the adiabatic regime. *The report on v36.8:* deletion keeps equal survival, not distinguishability; the trace form's coefficient is Koide's postulate; the fit is an unweighted projection; the trimaximal column's atmospheric and CP condition is untested; the localization thresholds are numerical, not certified bounds; coherent reception needs the two transports' amplitudes; for the cone penalties the mirror solution's second variation has no eigenvalue below the residual's bound, by a ground-state transform and a comparison — a floating-point certificate on the grid, second variation only. The claims the two reports found overstated are corrected in place, each tagged, with the superseded wording quoted in the ledger; no post-freeze note is added. v36.12 answers the review of v36.11 and records Entries 361–364 with six sections of Part XXXIV (§§XXXIV.29–34, R395–R399). *The limiting map:* under one smooth connection in one representation the comparison of two converging histories' transports tends to the identity, linearly in the separation — a theorem — while the Cartan-twisted reading of the second leg, which the quaternionic structure $j$ supplies as the intertwiner ($\rho(g)\xi = j^{-1}(g(j\xi))$), gives the Hermitian square of the transport; for two legs leaving rest together and separating to order $r$, each carrying §XX.8a's Fermi–Walker transport, the Cartan comparison tends to $B(u)^2 = u\cdot\bar\sigma$ as $r\to0$, path-independent at zero separation while the Thomas rotation is not, and the limit pair is §XX.8b's Cartan pair obeying the Dirac identity; given the twist, the legs' relative velocity is not needed. The second leg's reading through $j$ is the one stipulation, put in rather than produced; that the physical pair's transport is this one stays a proposal. *Entries 361–364,* which arrived during the refereeing, are recorded with their responses, and every number the responses state is recomputed and found as stated: the quotients of the carrier $V = \mathbb C^3$ by one or two of its six lines (a Cartesian quotient keeps the flavor vectors as a trine, a flavor quotient makes the Cartesian images one, and the mass operator descends only through the flavor quotients), the four orbital sign sectors and the signed chord's $4\pi$ period, §XXVII.7's two-arc orbit, and the Hopf-sign and $SO(4)$ identities of the fourth response; Entry 363's two rendering branches of one canonical orbit and Entry 364's Hopf-sign switch at the apsis are recorded as hypotheses. Nothing is fitted and nothing earlier is corrected; no post-freeze note is added. v36.13 answers the review of v36.12, the referee report on v36.12 and Entries 365 and 366 with seven sections of Part XXXIV (§§XXXIV.35–41, R400–R405). *The report's required correction is made:* v36.11's eV direct-mass intervals hold on the branch connected to the zero-block solution, the three determinants negative; a second branch, the electron's determinant positive, fits all three charged-lepton masses for $1.028484<m_0<1.081583$ MeV (the report's counterexample with a 10 TeV heavy partner among its solutions), and a quartic enumerates every solution at fixed $m_0$ (for the direct mass the smaller diagonal entry) — §XXXIV.22(c)–(d), §XXXIV.27, R388 and the head table are corrected in place, each tagged *[v36.13, R401]*, the manuscript marked v36.13 and the suite's prints referenced to v36.13-1, with the superseded wording in the ledger; the zero-block theorem is untouched. *The transport repairs:* the Fermi–Walker benchmark started at its own initial velocity (second order), the thin-loop first variation with transported curvature, the sewing datum $H_0$ making $P_1H_0P_2^\dagger$ covariant, and the antilinear phase that keeps "one connection suffices" a statement about spin — §XXXIV.30(a)–(c) tagged *[v36.13, R402]*. *New:* $q\mapsto aqb^{-1}$ preserves the Hopf fibration only for $b$ in the normalizer of its $U(1)$, a condition distinct from fixing a galaxy's center; the apsidal residence time and the attenuation an exponential image would need, from Entry 365's response; Entry 366's $\tfrac49$ — the response's square is exactly the two-hop product, the half-turn about the body diagonal has spinor half-angle $\pi/2$, the cap volume of $S^3$ is the sine-minus-angle precedent and the leaf's rotation-speed formula carries none, and the conjectured transport $\Phi = p$ is recorded as the response's (§§XXXIV.38–39). Nothing is fitted; no post-freeze note is added. v36.14 answers the review of v36.13 with five sections of Part XXXIV (§§XXXIV.42–46, R406–R409) and corrects nothing. *The branches against data:* the protecting symmetry of §XXXIV.16(a) leaves a dimension-five direct mass, so each branch is a window of the cutoff, and under §XXXIV.16(a)'s assignment the left mixing — below $5.1\times10^{-4}$ on the first branch, approaching $0.20$ on the second, whose partner falls to $53.04$ GeV — is what moves the Standard-Model couplings at tree level; against the PDG's $Z$-pole couplings and heavy-lepton limit this leaves, for orientation, the first branch and a neighborhood of the second's lower end (§XXXIV.43). *The stabilizers and the charge:* the review's three levels of symmetry, with two more between them and the action on the middle space; the comparison of two charged transports gauge-invariant exactly when the second history carries the opposite charge (§XXXIV.44). Nothing is fitted; no post-freeze note is added. v36.15 answers Entries 367–368 and the three responses to them with five sections of Part XXXIV (§§XXXIV.47–51, R410–R413) and corrects nothing. *The Hopf-lifted ring:* a ring of angular radius $\rho$ in the middle space has holonomy $e^{i\pi(1-\cos\rho)}$, so its horizontal lift reaches the antipode after one revolution only when the ring bisects the sphere, while on a round shell its geodesic lifts — at the angle $\rho$ to the fiber — reach it for every ring; a receiver whose fibration makes the angle $\beta$ with the source's sees a source point as a ring of radius $\beta$ and a source ring as a band (§XXXIV.48). *The metric lift:* the response's family of canonical metrics over one middle-space metric is §XXIV.18's shell metric, and after one revolution a geodesic is displaced along the fiber by $\pi+\pi(4R^2/f^2-1)\cos\rho$ — on §XXIV.23's source shells, under its conformal lift, exact for every ring only at $x = \pi/6$ and its twin (§XXXIV.49). Nothing is fitted; no post-freeze note is added. v36.16 answers the review of v36.15 with seven sections of Part XXXIV (§§XXXIV.52–58, R414–R417, R419 and R420) and one of Part XXXIII (§XXXIII.68, R418) and corrects nothing. *The review's readings:* each is the cited section's; of the three limits the review draws out, two are adopted as restrictions — a disk centered on the source meets every source shell in great circles, whose return defect vanishes on every shell, and under the connection metric a null geodesic that stays null in the middle space has no momentum along the fiber, moving along it only as the connection fixes, so that anything further in Entry 365's photon rule must act on an internal state — and the third, on fiber density, is already the archive's (§XXXIV.53). *The audit:* the ring's holonomy, the Berger return, the direct-mass branches and the charged comparison, each confirmed by a method its original test does not use; the branch map stays a numerical classification (§XXXIV.54). *The optical test:* with one rule fixed first, two receivers and the gravitating source counted once, the rule's transmission is uniform and draws no structure; the receivers' images differ only through their quotient maps — a fiber-uniform source shows only the band, an $m = 2$, $k = 2$ fiber pattern, invisible to the source's own fibration, appears at $\beta = 0.3$ as two arms, wound by the horizontal lift and not by the exact one, and under that lift the receiver reads a slower mean rotation at image radii $0.4$–$1.0$ — so the review's stopping condition is met only in that geometric sense (§XXXIV.55). *The conflict ledger:* Part XXXIII's failed benchmarks, the frozen Part XXXI's central limiting conditions and flavor's negative comparisons, with their premises and their domains (§XXXIII.68). *The map:* the galaxy and the flavor projects and four kinds of result, with the boundary a freeze would pin proposed for the author to decide (§XXXIV.56). Nothing is fitted; no post-freeze note is added. v37.0 freezes Parts XXXIII–XXXIV at v36.16 with `pg_v36_numerics.py`, whose frozen-results record is the v36.16 current manuscript. The freeze review's three release items are made as post-freeze notes (R422): source P of §XXXIV.55 is marked an auxiliary canonical-lift weight, and its fiber average not a completed Law I reduction; the complete output of v36.16's final run is delivered as `pg_v36_16_regression_output.txt`; and the conflict ledger and the boundary are locked, with the next pieces moved to v37. A further post-freeze note, at §XIX.2b, says that its soldering can hold fiber by fiber but not globally over a shell's base (R424). v37.0 opens Part XXXV, the reality involution and the flavor cycle, after Part XXXIV, with its own register (§XXXV.13) and suite (§XXXV.14, `pg_v37_numerics.py`), on Entry 369 and the briefing for v37, and on Entries 371–373 (R421–R432). On the archive's flavor carrier the conveyor and the conjugation of the real frame form one semilinear $S_3$ whose reflections are real structures. Its 3-cycle is excluded from the complexified geometry and, globally, from the axis family; its continuous counterpart is a flux quantum threaded through the ring of Cartesian fibers. The two factors are exchanged only with the phase reflected, and the three rendering classes are inequivalent as internal rendering data, their physical inequivalence open *[v37.1, R434]*, but of one spectrum and equal multiplicity. On the round canonical shell, with a fibration at each end of a history, the receiver's apses on every ring, where the history keeps moving along the fiber, are exactly the zeros of one observer-indexed cut, a candidate visibility boundary only *[v37.1, R434]*, for every index, but by construction, the cut being the fiber derivative of the receiver's height; on the horizontal lift, for $\beta\neq\pi/2$, no single static field symmetric about the center carries the receiver's renderings of overlapping rings off the equator, and off a ring the alignment fails. Nothing is fitted. v37.1 answers the review of v37.0 (§§XXXV.15–17, R433–R435). It checks the review's readings and makes its three tightenings in place, each tagged, with the superseded wording in §XXXV.28 and the ledger: the Law I statement a no-go for its lift and field class, the cut a candidate visibility boundary, the classes distinct as internal rendering data and not called physical universes. Its dynamical experiment takes an orbit of §XXV.2's point-source field on the round shell over the orbit's own sphere, with the matter counted once in the source's quotient. The shell's dynamics gives the horizontal lift as its neutral sector, the one that reproduces PG's orbit *[v37.2, R448]*. The receiver's rendering does not align its apses with the cut; at the indices tested it is no orbit of a static field symmetric about the center and follows no second-order law shared by the neutral histories in the receiver's quotient; the dynamics reduces through the receiver's fibration only when the two axes are on one line; and the derived optics draws no line on the orbit. It takes in the message of 27 October (§§XXXV.18–20, R436–R438). On the carrier the first response's family of compatible pairings exists: the conveyor carries one compatible triple to another, and every real structure has exactly one pairing, so the family adds no datum to the three classes. $\mathbb C^1$ amplitudes reach any two histories and the kernels of rank at most two. Entry 375's orbits turn only at their two turning radii, and their subperiod is not an integer. The receiver's index is the star's fiber phase. A conformal update of the projection moves the apses only by moving the twin and carries no cut; one star's moved orbit is, retimed, an orbit of a potential of its own, and two stars of different energies whose images share a region, so retimed, have no common potential there. It takes in Entries 376–379 (§§XXXV.21–22, R439–R440): the switcheroo's cropping needs a phase-independent reservoir of at least $(\sqrt{P_1}+\sqrt{P_2})^2$, half of which is cropped for two equal slits; emptying the room restores interference in standard quantum mechanics; $\rho_E$'s fixed set is not its quotient but the quotient's singular stratum; collective reality, in the third response's toy, is the reality of a conjugation composed with the exchange, as the carrier's $\kappa_0$ makes the $e$–$\mu$ pair real together; and the order of the constants restates §XXIX.7's notes. It takes in Entries 380–381 (§§XXXV.23–24, R441–R442): a real slice with one negative direction always exists, as a choice of real structure, not of coordinates; exactly one negative direction is the only signature whose timelike vectors fall into past and future, and the reductions along the positive fiber and meridian keep it; and one time value cannot carry several deeper dimensions at an instant, while along a history a conserved momentum and a connection carry what a quotient forgets — on a positive metric, so the augmentation does not yet select the signature. It takes in Entries 382–384 (§§XXXV.25–26, R443–R444): the exchange's quotient keeps the mean and the difference up to sign, and the doubled integral's readout on it is real, a probability under positivity and normalization *[v37.2, R448]*; whether a pair's phase or its scale is two-sided depends on which real form of $\mathbb C^\times$ its exchange fixes — a history and its $\rho_E$-conjugate share the phase, conditionally on §XV.7's descent, while the closed-time-path's branches and the orthogonal partners reverse it; two potentials on two legs have a relative phase that is gauge-invariant only with a sewing at the nodes and that, by §XV.6's offloading, cannot by itself tell a two-sided field from two paths in one field when one potential is the other pulled back; and the two regimes of paired histories have two operations in common as kinematics, the relative holonomy and a phase-reversing exchange, whether a physical pair carries them being open, while the leaf's derived doubling, $\rho_E$, keeps the phase in the mean. §XXXV.27 is the standing (R445) and §XXXV.28 the register. Nothing is fitted; one post-freeze note is added, at §XXVII.7, whose first apsidal angle is $1.2307^\circ$ from the value recomputed on its orbit. v37.2 answers the review of v37.1 and the referee report with its continuation brief (§§XXXV.29, XXXV.31, R446, R448). It checks their readings, reproduces the report's numbers and its local argument for the receiver obstruction, and makes the report's five corrections in place, each tagged, with the superseded wording in §XXXV.36 and the ledger: the antilinear elements of the semilinear group act on the full fermion field with a Lorentz-covariant spinor map, since no map is antilinear on one factor of a complex tensor product and the identity on the other; criterion S's candidate set is the real structures preserving each of the real frame's lines and permuting the flavor lines, a zero-defect structure lying outside it; the horizontal lift is the action's neutral sector, given the requirement that the shell reproduce PG's orbit; Law I's count is the chosen assignment of source and field; and the doubled integral's readout is real and exchange-invariant, a probability under positivity and normalization. It builds the two pieces the report's brief puts first (§§XXXV.32–33, R449–R450). The completed antilinear elements form the semilinear $S_3$ on the Dirac field, commute with every proper orthochronous Lorentz transformation, carry a charged field to the conjugate charge, and map the theory with the mass operator $M$ to the charge-conjugate theory with $\kappa_jM\kappa_j^{-1}$, a symmetry exactly when the reality defect vanishes; the report's zero-defect real structure is the flavor basis's conjugation, one of §XXXV.4(d)'s reflections, a class of zero defect. In a finite association model a removal rule reaches nothing constructive and a pair count with nonnegative weights no destructive interference, while a signed comparison of two wings is quadratic for every relation, normalized exactly without a constant mode, and then of rank two exactly for one character — the cosine of §XXVI.4, forced, not inserted, its positivity following — the signed relation being the one posited step. It takes in Entries 385–386 (§§XXXV.30, XXXV.34, R447, R451): the agreeing structure of §XIII.4 fixes the ground of comparison, not the kernel; the two ghost rooms are §XXXV.26's $S^0$ pair with its sewing, and the dark fringe's clash is the signed count's zero, a cancellation. §XXXV.35 is the standing (R452) and §XXXV.36 the register. Nothing is fitted; no frozen Part changes. v37.3 answers the review of v37.2 (§§XXXV.37–38, R453–R454). It checks the review's readings and makes its terminology correction in place, tagged: the exchange of the wings, the comparison's evenness and the reality involution are kept apart. It states the readout as a measurement (§XXXV.39, R455): the Fourier multiport is a positive operator-valued measure for every preparation exactly when its port charges are distinct, and its effects are flat. And it builds the finite room the review recommends (§XXXV.40, R456): under one Boltzmann law the kernel of two paths is the room's characteristic function at their coefficient vector, the frame's order parameter is the kernel of a one-link path difference, paths of equal length read only the room's correlations, and the kernel is an environment overlap; a room of local involutions makes the fringe of paths of mixed parity follow the apparatus's orientation relative to the room's axis. The room's part of the kernel is derived and the sign is not — the postulate is the signed overlap at the sewing node — and for rotating links nothing is left beyond decoherence and phase. It takes in Entries 387–390 and their four responses (§§XXXV.41–42, R457–R458), checks the responses against the archive and reproduces their exact statements, and builds the turnover they describe in the room (§XXXV.43, R459): with the room's anchors agreeing, a turnover that fixes the seed and turns the far associations more than the near is a relabeling — no visibility and no entropy changes, only the fringes' positions, the fringe of the pair reaching link $1+r$ shifted by $r\tau$ labels — exactly when it turns every anchor alike, so a turnover held only at the seed changes no visibility; against the far frame it costs free energy, keeps the room's entropy above its untwisted value until the full turn and reorders the seed's associations; and conditioned on the room's Boltzmann law the untwisted sector is weighted most, its share growing with the room, the counts keeping the Born form. And it takes in Entries 392–397 and their six responses (§§XXXV.44–45, R460–R461), on the two complex worldlines of Kerr, the meridian and the Hopf shell: on the compactified meridian a pair displaced by $\pm i\mu$, purely imaginary, is aligned at zero charge and antipodal only at the extremal boundary, with $Q/M = \sin(\theta/2)$ for its separation $\theta$ and §X.0's half-angle weights; on the Hopf shell every extremal pair is half a fiber apart; and a charge riding the spin's displacement has the magnetic dipole $Qa$, while with a meridian component in the field's displacement the potential is not harmonic on the leaf. Every construction takes $M$, $a$ and $Q$, or the round model's $\ell$, as inputs. §XXXV.46 is the standing (R462) and §XXXV.47 the register. Nothing is fitted; no frozen Part changes. v37.4 answers the review of v37.3 (§§XXXV.48–49, R463–R464). It checks the review's readings and makes its clarifications: without records the room reads two ways that give every count alike — a classical ensemble, whose configuration is a key and holds no record, and a coherent state, whose paths' states are a record readable only off the configuration basis — and §XXXV.40(d)'s sentence on records is corrected in place, tagged; a reflecting link is a unitary permutation of the labels, so no antiunitary operation is needed; and with each label used at most once a preparation reaches finitely many amplitudes. And it builds the room with records the review recommends (§XXXV.50, R465): paths that turn the links they pass part the two readings — in the classical one any record removes the fringe while a reading of the room tells the path only in part; in the coherent one the fringe is at most the records' fidelity, with $V^2+D^2 = 1$ — the record is a turn of the frame, and the frame and the fringe compete, the one-link-longer fringe greatest at an intermediate frame for a turn other than none or a half turn. Every count is standard quantum mechanics with the room as an environment. Entries 398–403 and their seven responses (§§XXXV.51–52, R466–R467) take Kerr's two horizons as two switches: read as two spin states, §XXXV.45's pair has a mass operator whose spectrum is the two horizons, the outer the switch of its aligned channel and the inner of its anti-aligned one; the shell's antipode, applied to the pair with its members exchanged, exchanges the two horizons; the passage through the ring is a double cover whose deck transformation flips the complex radius, keeping $g = 2$ and flipping $M$, $Q$, $J$ and $\mu$ — the Hopf antipode's structure, not its identity; and each horizon's other side is a half turn of its Euclidean time. And they turn to charge across the pair: the cross coupling that gives Kerr–Newman's $\Delta$ is the two-channel operator boosted by a rapidity, the meridian's for Reissner–Nordström; a loop of three associations, read as coherences, has its phase bounded by their loss of visibility; whatever overlay makes Kerr–Newman carries a Maxwell stress the metric fixes up to its duality angle; and a source-free middle space whose removed meridians meet has no electric charge without charge. §XXXV.53 is the standing (R468) and §XXXV.54 the register. Nothing is fitted; no frozen Part changes. v37.5 answers the review of v37.4 (§§XXXV.55–56, R469–R470). It checks the review's readings and makes the tightening it flags: a phase of the pair's representatives leaves the mass operator and its spectrum, the two horizons, and moves only the norms of the common and difference parts, so §XXXV.52(k)'s holes at other phases are the norms' readings, and its sentence on them, with two of its summaries, is corrected in place, tagged. It builds the review's rendering connection (§XXXV.57, R471): a transport covariant under frame changes has an overlap invariant under them, a scalar factor reassigns only the interference phase, and only a transport that turns the Bloch sphere can reassign the spectrum; the room's transport is a phase on one Fourier mode and the dihedral group on the modes $\pm k$, and a definite orientation's component on the modes $\pm1$, carried along two histories, renders one of four holes of one mass, on the premise that those modes carry the pair's channels; at extremality two continuation rules differ by the horizons' exchange. And it runs the acceptance test for charge (§XXXV.58, R472) on a posited flat product with five-dimensional Maxwell: the leaf charge of a static electric field lies in the meridian modes and brings a trace, the varying modes, for fields vanishing far out on the leaf, are screened, and the meridian-constant field around a removed meridian passes, which the round benchmark's topology allows only when the removed meridians do not all meet. §XXXV.59 is the standing (R473) and §XXXV.60 the register. Nothing is fitted; no frozen Part changes. v37.6 answers the review of v37.5 (§§XXXV.61–62, R474–R475). It checks the review's readings and takes up the caveat the review makes an acceptance criterion (§XXXV.63, R476): the room's transports permute the labels, so a definite orientation's two histories render with their full states only Schwarzschild's pair or the extremal one, and the four holes are the rendering of a sector of modes, its overlap one term of the Born-weighted sum that gives the full one — read coherently, dephased or post-selected, with what selects the sector open. And it computes a resolved meridian structure of the kind the review asks for (§XXXV.64, R477): on $S^4$ every meridian structure degenerates somewhere; with the orbits of one plane's rotation as meridians, posited, removed meridians kept apart carry an electric period, a single one's flux ends on the degeneration set, and a leaf reads near a removed meridian its line density with Maxwell's algebraic stress and, wherever the field has a component along the gradient of the meridian length *[v37.7, R490]*, a polarization cloud. It takes in Entries 405–415 and their responses (§§XXXV.65–74, R478–R487). Entry 405 puts a crossing into another universe as a change of the structure of redundancy; in the response's two models a change of rendering on the torus is a relabeling that leaves the two renderings no agreeing structure, and the two gluings of two intervals are the two double covers of one circle — a holonomy read on the circle, a change of connectivity read on the glued space — with what would select a rendering relation open. Entries 406 and 407 put the test particle before its rendering and the worldline as an exhaust: averaged over sectors of different $a$, Kerr's multipoles differ from one Kerr hole's quadrupole, more oblate, so the archive's sector readings, read as holes, average to no Kerr hole; and in the exhaust's miniature a record of two visible values recovers a hidden bit, whether a finite record recovers the state being the dynamics' observability through its readout. Entry 408 puts a particle's spin as an indexing on a prime centrade that sets the inertial frame: two spins twirled jointly keep their relative alignment and nothing else; on a triangle of centrades a change of reference changes no invariant unless a link turns against the others; and in the archive's Cartan reading the four-velocity is the base over which the spin is the fiber, with what selects it open. Entry 409 reads the C-metric's acceleration as a failure of the middle space's isotropy: computed, the C-metric is a vacuum only through its conformal and angular factors, its acceleration horizon is not compact and so no twin's horizon, and its acceleration is physical only together with a source. Entry 410 puts mirror closure before the C-metric: the response's stereographic toy is the archive's readout, and the archive's symmetric mirror closure is the twin, whose horizon has the hole's area and surface gravity, while the C-metric's two horizons differ in surface gravity for every $2MA<1$; the archive has a mirror-covariant family of readouts, and a mirror-covariant family of metrics would have gravity read a representative. Entry 411 proposes to formulate quantum fields on the leaf's two-ended chart and read them back: the chart's coordinate is the logarithm of the archive's stereographic readout, the Einstein static universe has $C^2 = E_4 = 0$ out to the chart's ends, so a pole sent to infinity has no trace anomaly to explain, and a conformal scalar solved on the chart has the leaf's spectrum; its vacuum energy density is $1/480\pi^2\ell^4$ on the leaf and $-7/240\pi^2\ell^4$ for the modes that descend, and descent, not a mirror condition on the state, is what changes the stress. Entry 412 asks that the chart respond to the matter: the response's Brill–Lindquist ends are the archive's, a puncture an end at infinite distance whose mass carries the other source, and in the closed arena a second source pair gives a source a traceless tidal field at every angle while its pull vanishes at a right angle, an anisotropy without acceleration. Entry 413 asks what the renormalized quantum stress on the leaf becomes: classical Maxwell theory is unchanged by a Weyl rescaling; the leaf's two-ended conformal frame is two-dimensional anti-de Sitter space times a sphere of equal radius, the extremal Reissner–Nordström throat, where a conformal field's trace anomaly is $a/2\pi^2\ell^4$ while on the leaf it is zero; read back, the stress is the leaf's Casimir stress, and a boundary condition at the frame's ends other than regularity is a point source or a point interaction at a pole. Entry 415 reads fields as what remains of incompatible renderings and asks which two spaces physics identifies to state the electromagnetic potential: the response's separation of a pair, minimized over the room's transports, vanishes, a transport applied to one member aligning any two histories of one state, while one applied to both keeps their overlap; and on the leaf a charge's field with its conjugate twin is odd, the gravitational field of a source with its twin even, so the leaf's fields are assembled from the gravity base's functions and its twisted line, which physics written on one spacetime identifies. §XXXV.75 is the standing (R488) and §XXXV.76 the register. Nothing is fitted; no frozen Part changes. v37.7 answers the review of v37.6 (§§XXXV.77–78, R489–R490). It checks the review's readings and makes its correction: a field without divergence on the leaf is source-free in the middle space exactly where $\mathbf E\cdot\nabla\rho = 0$, so the meridian length may vary across the field, and the statements that asked it to be constant are corrected in place; and it computes the quotient the review flags: the resolved structure's twin is a reflection with a fixed two-sphere, not the antipodal map, so its space of meridians is a ball on which §IV.1's twin theorem fails, and a return to $\mathbb{RP}^3$ would sew the degeneration set antipodally, keeping every period of a field regular on it, a single meridian's flux needing another end. It takes up the alignment freedom as the review's central acceptance test (§XXXV.79, R491): if the admissible comparisons form a group containing every rotation, the law is the rotations or the whole room, and under the rotations alone — the orientation law, posited — the separation of two histories is the state's chirality, under the room's reflections *[v37.9, R502]*, when their handedness differs and zero when it agrees, read in no frame, so that on v37.5's premise $a_{\rm eff}^2+Q_{\rm eff}^2 = M^2\chi(\psi)$: no Kerr parameter is an input to the law, but the state is, and its preparation is not derived. It takes in Entries 416–419 and the response (§§XXXV.80–83, R492–R495). Entry 416 reads a neutrino's mass as the residue of our rendering's imperfect privilege, with an extra scale going to infinity as privilege becomes perfect: the entry's extra field is the archive's heavy partner of the charged leptons, whose scale is inversely proportional to the straying of their square; the response's mismatch, lowering the square, has the wrong sign to be that straying; and a neutrino's partner must be neutral. Entries 417–418 ask whether Hopf twins set the scale of destructive interference, and for a jointness of arena and paths with a coupling arrow: a Hopf twin is the same ray, and a full turn gives a dark fringe at zero relative phase — complete coherence, where no interference is no comparison; read as two interfering histories, the archive's quaternionic extremal pair is dark exactly at extremality, where its members are Hopf twins, and its Bloch pair two orthogonal states, with no fringe *[v37.9, R502]*; and an arrow needs a dynamics, as the room with records puts one in. Entry 419 sets the acceleration's cosine to one for an acceleration normal to the leaf: neither substitution is a vacuum; at $m = 0$ the C-metric's radial horizon is, at each finite time, Rindler's bifurcation plane in its coordinates, the horizon's null halves reached as limits *[v37.9, R502]*, its equator a hemisphere meeting that plane; and in five dimensions an acceleration normal to flat leaves leaves them flat, while on the archive's closed meridians a static lapse is periodic and the leaves' normal acceleration integrates to zero. §XXXV.84 is the standing (R496), the review's three gates first, and §XXXV.85 the register. Nothing is fitted; no frozen Part changes. v37.8 takes in Entry 420 and its response (§§XXXV.86, XXXV.88, R497, R499), and the author's file of entries, from which the fifteen entries the archive lacked are recorded (§XXXV.87, R498). Entry 420 asks what a Boltzmannian selection would mean as a transformation of the middle space leaving the gravity base invariant — the canonical space unwound, the Hopf shells extruded along the meridian read as three-spheres indexed along the Hopf fiber, the ortho-middle space built so and its lowest-entropy version selected — and reads a neutrino's exact neutrality, its relational flavor and its mass from it. The response's local model is §XXII.10's diamond and its obstruction §§XXII.10–11's and §XXIX.14's: the Hopf bundle has $c_1 = 1$ in §XXVIII.12's orientation, the round model's meridian structure is a pencil whose circles all meet at the poles, and no bijection carries it to the Hopf circle's disjoint orbits; the response's exchange is a reflection of the plane of a regular fiber, every primitive slope an $SL(2,\mathbb Z)$ image of the Hopf direction, a slope's orbits closing on that torus exactly when it is rational *[v37.9, R502]*. In §XXXV.8's model, an illustration, an $\varepsilon$ of the response's form reads a weight's sign and size, not the equal multiplicities; its $M_\nu = \varepsilon m_*K$ has an $\varepsilon$-free mixing, the splittings' ratio, the angles and the Dirac phase as tests on $K$, and a scale at its bound, with $K$ normalized to $k_3 = 1$, two to six orders below any mismatch the lepton square shows *[v37.9, R502]*. §XXXV.89 is the standing (R500) and §XXXV.90 the register. Nothing is fitted; no frozen Part changes. v37.9 takes in the reviews of v37.7 and v37.8 (§§XXXV.91–92, R501–R502) and Entries 421–424 with their four responses (§§XXXV.93–95, R503–R505). The reviews' readings hold, and at their request the archive now tells its two Kerr pairs apart at extremality — §XXXV.45(f)'s quaternions one ray with a sign, §XXXV.45(e)'s Bloch vectors two orthogonal states — places the C-metric's horizon on Rindler's bifurcation plane at each finite time, reads the two-mode square's mismatch through singular values, and states the neutrino scale's normalization and power, in place and tagged. Entry 421's quotient of the complex null directions collapses to a point; the real null directions are instead the fixed set of the Lorentzian real structure on them, the celestial sphere — directions only, the scale and the time sense of the vectors on them being further data *[v38.0, R509]* — the cone's interior the sums of two independent future null vectors, and the real part of a complex null vector is never timelike; two real structures agree when their composite is the identity, and in Minkowski space a chiral pair, as Kerr's two worldlines, is real only together. Entries 422–424's principle is named, at the author's request, the Invertible Exhaust Principle, and stated as a candidate with four clauses; tested, a misaligned configuration's exhaust is $(I-G)Z/2i$, and PG's own minimal exhausts — the Hopf phase, the twin bit — are twisted, gauge data rather than coordinates. §XXXV.96 is the standing (R506) and §XXXV.97 the register. Nothing is fitted; no frozen Part changes. v38.0 freezes Part XXXV at v37.9, with `pg_v37_numerics.py`; its frozen-results record is the v37.9 current manuscript, and v38.0 delivers the complete output of its final run, `pg_v37_9_regression_output.txt`. Its corrections to Part XXXV are post-freeze notes (R508), and this note's summary of v37.9 is corrected in place, tagged (R509). v38.0 opens Part XXXVI, the quotient rule, the dual structures and conformal selection, after Part XXXV, with its own register (§XXXVI.14) and suite (§XXXVI.15, `pg_v38_numerics.py`), on Entries 425–430, the review of v37.9 and the response to Entries 425–430, and on Entries 431–432 with their two responses and Entries 433–434 (R507–R520). The complex null directions modulo their right factor are a sphere onto which every Lorentzian real structure's real directions map one to one, so two structures are two sections and their misalignment a Möbius map; no single null vector has a scale, and between two misaligned structures the scale's odd part becomes an invariant that reads the misalignment; each Kerr worldline, read by both chiral factors, gives both twisted congruences, while the solution's spin sign puts the self-dual curvature on one and Maxwell's equations on that metric put a test field's self-dual part on the same one *[v38.1, R522]*; the rule $\Psi\Psi^\dagger$ quotients the $2\times n$ complex matrices onto the closed future cone for $n\ge2$, its time sense chosen inside it; a change of real structure can move the time axis onto a spatial direction, which no Weyl rescaling can; the conformal factor that makes a rendered metric Einstein is read off its Weyl tensor, exactly, where it exists, and Bach's condition and the first-order test show which classes have one; under the Hopf gauge the standard middle space loses nothing physical for one configuration and a relative phase between two branches; joint-option weights give neutrino oscillations only through interference; the two vertices' flavor frames differ by one matrix along the path, the oscillation amplitude, whose interference terms carry geometric phases of flavor and mass directions, its CP-odd part needing three flavors; and in the flavor carrier the trade of the electron's and the tau's lines is a real structure, antilinear and so reversing the charge *[v38.1, R522]*, two of which compose to the conveyor. §XXXVI.13 is the standing (R519) and §XXXVI.14 the register. Nothing is fitted. v38.1 takes in the review of v38.0 and Entries 435–438 with the responses to Entries 435, 437 and 438 (§§XXXVI.16–21, R521–R526). The review's readings hold, and its two tightenings are made in place and tagged: the Maxwell field tested on Kerr is a field on a background, the coupled solution being Kerr–Newman's, whose charged profile holds the product of the two worldlines' Coulomb potentials and whose self-dual curvature is no longer one worldline's; and the antilinear trade of the electron's and the tau's lines reverses the charge, the charge-keeping trade being its composite with the flavor basis's conjugation, a relabeling that the masses' difference forbids as a symmetry. Of three changes of Kerr's pair, two leave the conformally Einstein class, so that no factor continues the match with Einstein's vacuum equation; a family that meets it only at alignment is consistent and free until a rule fixes the factor; a factor of the time is a cosmology, and a factor moves slow matter and not light, which bounds its share of one lens galaxy's potential at about six percent, at $68$ percent confidence. One gravitational wave can ride two middle-space histories with one base ray; two lanes that part on the base are free at first order and interact at second, as general relativity's waves do, by a term no conformal factor supplies; their spinors are the two columns of one $\Psi$, whose quotient $\Psi\Psi^\dagger$ is their total and forgets the pair. The exchange of the Hopf and the meridian direction is a symmetry of a square torus; in the round model the two are the halves of one complex flow that differ in their periods; and with the Hopf connection the exchange is no symmetry but a relabeling of one space, the circles themselves kept apart by its fundamental group. §XXXVI.19 answers Entry 436 in plain terms. §XXXVI.22 is the standing (R527) and §XXXVI.23 the register. Nothing is fitted; no frozen Part changes. v38.2 takes in Entries 439–452 and 459, the author's notes of 10 and 13 November and a review of the round's scratch results (§§XXXVI.24–36, R529–R541). Two lanes give a timelike sum and a spacelike difference of one size; with their coherence they give the pair back up to one phase, and the sum alone does not; a stretch of the lanes is a boost of their frame, and a table records what every change of the lanes keeps. A time axis is a sphere of antipodal pairs of light rays, all with one sum — the leaf's own metric — and needs nothing complexified. On the leaf's six-dimensional space of planes, the selection by the Hopf rotation's generator keeps the Hermitian matrices; every plane casts a shadow outside the light cone or on it, on it exactly for the complex lines, which form the sky, the rotation's fixed set, and the time axis comes from the leaf's positive form; with the dropped plane negative the shadows would be time axes, in the leaf's own conformal geometry. Mutual redshift between observers at rest needs a factor of time, and a factor of time alone, on homogeneous slices, is, to every observer of light, a Friedmann–Lemaître–Robertson–Walker metric, with the supernovae's time dilation; two galaxies' mirrored renderings contradict each other unless each reception is read in its receiver's, and then they are that factor. The C-metric's two accelerated particles are a source and its antipode at rest in the static universe, its horizons the light cones of the twin's entry and exit, and equally of the source's own exit and entry. A rotating hole moving around an extra circle has a charge twice its momentum there, and $g = 2-v^2$; over a circle of fixed size, Kerr–Newman is vacuum, in the Einstein-tensor form, in every equation the base reads, the one left over being the circle's own — a constrained reduction, not a complete five-dimensional vacuum solution *[v39.0, R546]* — and the circle carries the Kaluza–Klein momentum $Q/2$; Maxwell's divergence is the canonical space's mixed equation; and the charge's flux passes from one of Kerr–Newman's sheets to the other. Entry 459's tilted quotient is that boost, and no conformal image of the untilted base by any map that keeps the spheres and the time translation. §XXXVI.35 answers Entries 444 and 451 in plain terms. §XXXVI.37 is the standing (R542) and §XXXVI.38 the register. Nothing is fitted; no frozen Part changes. v39.0 freezes Part XXXVI at v38.2, with `pg_v38_numerics.py`; its frozen-results record is the v38.2 current manuscript, and v39.0 delivers the complete output of its final run, `pg_v38_2_regression_output.txt`. Its corrections to Part XXXVI are post-freeze notes (R545), §XIX.2c receives one on the stationary Ernst equations' target space, with pointers to it where that identification is restated (R549), and this note's summary of v38.2 is corrected in place, tagged (R546). v39.0 opens Part XXXVII, Opened Kerr — the closing of channels, the sphere of references and the flavor fold — after Part XXXVI, with its own register (§XXXVII.18) and suite (§XXXVII.19, `pg_v39_numerics.py`), on the review of v38.2, the author's notes of 14 November, his Opened Kerr toy with the export that carries Entries 476–477, Entries 481–482, and the responses of 17 November with Entry 487's (R544–R561). The review's constrained action is solved exactly by v38.2's lift of Kerr–Newman, its multiplier $3(B^2-E^2)$, and the circle's other repairs explored on 14 November are set aside. A charged, spinning hole is a straight line in three complex channels, two positive and one negative; read against a reference it gives the metric and the potential together, and the two-channel closing is that reading's shadow. The references form a 3-sphere on which the charge is a tilt at a fixed mass, the other sheet the antipode and the extremal end's throat, a universe of uniform field, the right angle; its rotations, $SO(4)$, act on the references, and pointwise on the potentials only $U(2)$ and conjugation survive spin. A quarter-turn of the two positive channels, squared, gives the other sheet, and the same quarter-turn on a doublet gives the ortho charge; inside the stationary limit, waves of low frequency are negative-frequency for every local observer. The archive's charges sort the neutrino's mass operators under three symmetries, and the masslessness-first pure limit is the Standard Model with massless neutrinos; the six-direction flavor matrix makes the two charges a mirror parity; the flavor plane folds two to one onto a 4-sphere that forgets the electron–muon difference and puts the tau and the electron–muon point at antipodes; and a closing over a response field can turn the Higgs mass term negative, exactly for the vacuum. §XXXVII.15 explains Opened Kerr in plain terms, §XXXVII.17 is the standing (R560) and §XXXVII.18 the register. Nothing is fitted. v40.0 freezes Part XXXVII at v39.0, with `pg_v39_numerics.py`; its frozen-results record is the v39.0 current manuscript, and v40.0 delivers the complete output of its final run, `pg_v39_0_regression_output.txt`; Part XXXVII receives two pointer notes and no correction (R563). v40.0 opens Part XXXVIII, the leaf between the horizons — the C-metric beside Kerr, Law I on the leaf, the galaxy as a rendering and the two Hopf structures — after Part XXXVII, with its own register (§XXXVIII.18) and suite (§XXXVIII.19, `pg_v40_numerics.py`), on Entries 489–521 of 18–20 November, the responses to them and the assessments of the replies (R562–R579). A reference at a point of Kerr–Newman's line changes character at the stationary limit, its free directions boosted into each other outside and rotated freely inside; the far reference reads the tilt toward the throat as Harrison's boost, so the throat is at infinite rapidity, and every isolated body shares that far reference; a tilt that varies with distance is not a solution, a boost that keeps the far reference re-renders every mass of an uncharged seed at once and on a charged seed adds a NUT charge unless its phase matches the seed's charge phase modulo $\pi$, and two such boosts in different orders give NUT charges of opposite sign. The C-metric's two horizons are rods of one cubic exchanged by a swap of time and angle, the string's tension their temperature ratio, the region between them a rectangle; a conformal Killing–Yano form carries spin and acceleration together, and stripping the conformal factor leaves Bertotti–Robinson geometry without mass. The two-sided hole's slice is a 3-sphere with a pole at each antipode, its quotient one hole on the projective leaf, charge the poles' mismatch; on a closed leaf the slice runs throat to throat, and acceleration is a held reference's, odd under the antipodal map. Along the sphere of references the throat is the cold, low-entropy end. The sine-exponential galaxy renders as an exponential disk on the frozen leaf with a heavy faint tail, and the leaves that make it exponential turn the flat rotation curve into a bump above a lower plateau *[v40.1, R583]*; the leaf's left and right Hopf fields have an integrable difference whose surfaces carry light without relative phase, and the leaf's rays are pairs of Hopf labels, a sky the graph of a rotation. §XXXVIII.15 explains the round in plain terms, §XXXVIII.16 takes every response point by point, §XXXVIII.17 is the standing (R578) and §XXXVIII.18 the register. Nothing is fitted; no frozen Part changes but by the two pointer notes. v40.1 adds the follow-up of 20–21 November on the galaxy (R580–R586). Entry 326's source is already the one Law I's symmetry asks for, and its falloff $k = \ell/h$ — $\ell$ already in the exponent — sets the curve's class: a monotonic rise below $k = 5.9890$, a bump above the plateau from $k = 6.5029$, earlier and higher on a fixed leaf as the falloff quickens (§XXXVIII.21). Read the Newtonian way, the leaf's curve is its image's own disk and a remainder with a depressed center; every halo family follows the whole curve once the disk's mass is free, and none the remainder alone with errors on its own speed; a leaf per galaxy gives the Milky Way's speed and local slope at the Sun but not its decline beyond, and misses the dwarfs with their baryons (§XXXVIII.22). Six passages of v40.0 are corrected in place, tagged *[v40.1, R583]*; §XXXVIII.23 corrects the follow-up's replies and lists what the archive already had, §XXXVIII.24 is the standing after v40.1 (R585) and §XXXVIII.25 its register. v40.1 fits halo families to the leaf's own curves and leaves to observed curves, typed as fits, those to data negative; no frozen Part changes. v40.2 adds the second follow-up of 22 November (R587–R590). The third message's "1/0.01" meant a quick falloff, $k = 100$, the top of v40.1's scan, which v40.1 had read as a slow one; six passages are corrected in place, tagged *[v40.2, R588]*. At the quick end the curve's early, high bump is the visible disk's own Freeman peak, as §XXXVIII.22(b) found; a point mass on the leaf, read as Newton and a halo, carries an apparent halo in closed form, a $1/R$ cusp for $R\ll\ell$ falling as $1/R^2$ beyond; on the Milky Way's leaf the image is exponential to four scale lengths, a part that holds $83.1\%$ of the mass, and the $1.46\%$ beyond $36$ kpc moves the curve inside $24$ kpc by under $2$ km/s, about the data's errors at most, its mass bounded instead by the stellar halo's, while for a slow falloff removing or doubling it moves the curve by tens of km/s (§XXXVIII.27, with thirteen figures); §XXXVIII.28 is the register. v40.2 fits nothing; no frozen Part changes.
+> **How to read this archive (v40.3).** Seven tables govern: the table of Part XXXVIII, for the open work; the frozen v39.0 table that follows it, for Part XXXVII; the frozen v38.2 table, for Part XXXVI; the frozen v37.9 table, for Part XXXV; the frozen v36.16 table after that, for Parts XXXIII–XXXIV; the frozen v35.8 table, for Parts XXX–XXXII; and the frozen v34.10 table, for Parts 0–XXIX. Where an operative statement was replaced, it carries a short tag *[v3x.x, R…]*; the superseded wording is in the registers (§XXIX.16, frozen with Part XXIX; §XXX.9, frozen with Parts XXX–XXXII; §XXXIII.12 and Part XXXIV's registers, frozen with Parts XXXIII–XXXIV; §§XXXV.13, XXXV.28, XXXV.36, XXXV.47, XXXV.54, XXXV.60, XXXV.76, XXXV.85, XXXV.90 and XXXV.97, frozen with Part XXXV; §§XXXVI.14, XXXVI.23 and XXXVI.38, frozen with Part XXXVI; §XXXVII.18, frozen with Part XXXVII; and §§XXXVIII.18, XXXVIII.25, XXXVIII.28 and XXXVIII.36) and in the ledger. The round summaries are in the **Round record** at the end of the archive (R190). The v34.0 governing ontology correction, which states the ontology rather than a round, stays below. v35's work is Parts XXX (the leptons), XXXI (the visible rendering) and XXXII (reflectrons), placed after §XXIX.16; one register (§XXX.9) and one suite (§XXX.10) serve all three. The frozen Parts are not extended: a correction to one is made as a post-freeze note with its own register entry — R211 for the fitted phase of §§XXI.4–4a, R212–R216 for the clarifications to Part XXIX, collected in §XXX.12, and R238 for two pointer notes to Part XXXI (the first corrected in v35.3, R243, and in v35.4, R254). v35.4 is a repair round: it corrects statements of v35.1–v35.3 in place, with the superseded wording in R247–R255, and corrects the earlier rounds' suite prints in place too. It also takes up the author's two notes on the stereographic centre (R257–R258). v35.5 answers the author's note on light and visual space and the report on v35.3 (R259–R268), with corrections in place. v35.6 answers the author's two notes on another galaxy and three referee inputs (R269–R281), again with corrections in place, and adds post-freeze pointers to §§XIII.10 and XXIX.42(c). v35.7 answers the author's note on views from above and at a tilt and the review of v35.6 (R282–R292), with corrections in place, and scopes the §XIII.10 pointer (R288). v35.8 answers the author's note on reflectrons, with its analysis, in a new Part XXXII (R293–R299), and Entries 311–313, the review of v35.7, two analyses with a request, and a note on the plots in §§XXXI.36–41 (R300–R305), with corrections in place. v36.0 freezes Parts XXX–XXXII at v35.8 with `pg_v35_numerics.py`, whose frozen-results record is the v35.8 current manuscript, and opens Part XXXIII, the observed rotation curve, after Part XXXII, with its own register (§XXXIII.12) and suite (§XXXIII.13, `pg_v36_numerics.py`). Its corrections to frozen Parts are post-freeze notes (R313). v36.1 is the corrective round on the two reports on v36.0 and the author's three responses with Entry 322 (§§XXXIII.14–26, R318–R331): it corrects v36.0's operative statements in place, with the superseded wording in §XXXIII.26, and adds no post-freeze note. v36.2 answers Entries 323–324 and the two responses on them (§§XXXIII.27–33, R332–R338): orbital occupancy on the leaf, the exponential as a rendering, the conformal route, the frame-selection hypothesis; it corrects two v36.1 sentences in place (R332) and adds no post-freeze note. v36.3 answers the review of v36.2 and Entries 325–339 with their fourteen responses (§§XXXIII.34–43, R339–R348): two source families regular at the equator, their orbital populations and the dwarfs with them, the isothermal fixed points, the null cone, the split model, the $\mathfrak{so}(4)$ sectors; it applies the review's two distinctions in place (R347) and adds no post-freeze note. v36.4 answers the review of v36.3 and Entries 340–341 with the response (§§XXXIII.44–50, R349–R354): the fixed-point erratum and stability in two ensembles, the radial–normal duality and the CMB dipole, the first test of the clash invariant, and Entries 342–345 recorded for v36.5; it corrects §XXXIII.38 and §XXXIII.42 in place (R350) and adds no post-freeze content note — one marked rendering repair in frozen §XXX.11 (R355: a doubled brace in a subscript, which the author's site's templating engine read as a tag; the mathematics unchanged). v36.5 answers the two reviews of v36.4 and the author's journal entries with the response (§§XXXIII.51–55, R356–R359): the orbit library's kinematics erratum — the velocity moments integrated along the orbit, the mis-certified witnesses re-evaluated, the joint crossing–dispersion frontier, every library bound rescoped as a compatibility witness — with §§XXXIII.28, 29(b), 32, 36, 37, 42 and two register entries corrected in place (R357); the clash invariant's nullspace and the sum's fall-off, the high-sector bound, §§XXXIII.45, 47, 50 annotated (R358); no post-freeze note. v36.6 answers the review of v36.5 and the author's note of 19 October with the two responses on it (§§XXXIII.56–60, R360–R364): one localization model, from the admissibility scalar to the spectrum — one action for the two sectors, a probe in the induced potential and the exterior theorem for its tail — which localizes and derives neither the thin–broad disk nor the sine-exponential; and the note's question in a reduction of the smallest two-path, one-qubit model; nothing earlier is corrected and no post-freeze note is added. v36.7 answers the review of v36.6, Entry 349 and the two responses on it (§§XXXIII.61–66, R365–R369): the penalties of the admissibility geometry compared on the full two-sector configuration — the review's cone at the aligned vacuum confirmed, Entry 349's sine blind to the normal in the responses' reading, the response's and the review's smooth forms zero exactly on the family; v36.6's localization model with each, an exchange-even penalty smooth at the aligned vacuum confining the pinned tilt to a patch, the lowest-order smooth forms with their pinning losing the mode at v36.6's coupling (a smooth form with v36.6's gap binds two), the exterior obstruction holding for every gapped penalty; and off its ansatz the mirror solution's second variation with no eigenvalue below $-10^{-6}$ (certified on the grid up to the residual's bound for the cone penalties; second variation only), the sine's second zero leaving no metastable state in the one-wall family examined *[v36.11, R393]*; nothing earlier is corrected and no post-freeze note is added. v36.8 answers Entries 351–353 and the three responses by opening Part XXXIV, flavor, after Part XXXIII (§§XXXIV.1–6, R370–R374), as §XXXIII.9 planned, with Part XXXIII's suite: on the reading of the two families as orthonormal bases of one complex carrier, Entry 352's rule for a complement of the Cartesian fibers is mutual unbiasedness, which needs the complex structure and, with the archive's flavor lines, makes the selected axis the fibers' body diagonal, the frame's shift and clock then the archive's clock and conveyor and the Cartesian triad §XXX.13's trigonal frame, as a datum; the archive's mass operator read on the fibers is a ring with a flux, the mean mass on every fiber, the $e$–$\mu$ distinction the part odd under complex conjugation in the real frame, and Koide's relation a light cone on $\sqrt M$, the form's coefficient Koide's postulate; the bare Dirac toy's mass term can be the internal part of a parent operator, whose square gives the invariant difference $p^2-\mathcal M^2$ for a constant $\mathcal M$ *[v36.11, R387]*, the interchange holding in a flat parent and broken by any discrete internal spectrum. Part XXXIII's rows on the flavor note and on the next pieces are amended, the rest of flavor leaving its backlog (R374); nothing earlier is corrected and no post-freeze note is added. v36.9 answers the review of v36.8 with six sections of Part XXXIV (§§XXXIV.7–12, R375–R379), three of them (§§XXXIV.8–10) one for each part of the review's decisive test. *Frame consistency:* three distinct masses need an abelian residual symmetry — among the rotations the oriented triad's $\mathbb Z_3$, with the complement as its lines — and the mass operator itself keeps $SO(2)_{N_+}$; on $S_D\otimes G_{\rm gen}$, by the descent's typing (a definition), the mass operator commutes with every Lorentz transformation, the physical rotations acting on $S_D$ and those of the carrier internal; a coupling of the carrier to the spin is bounded by the electron's preferred-frame limits, $\lambda\leq3.46\times10^{-22}$ eV at one standard deviation for the Galactic normal ($(1.6\pm2.9)\times10^{-22}$ eV from a fit), and so excluded near the flavor scale. *Spectral selection:* no residual symmetry selects; Koide's ratio is fixed by the overlap of the two dual references, and $K = \tfrac23$ is their bases being mutually unbiased — Entry 352's rule on a qubit — a premise equivalent to Koide's relation, a dictionary rather than a derivation. *Mass generation:* a parity-symmetric pair with a heavy flavor-blind partner gives the square from two internal hops, Koide's masses at leading order, its corrections lowering $K$; on the premise that the relation holds for pole masses, the measured $K$ bounds the partner's mass from below. A tagged sentence is added in §XXXIV.3(d) (R377) and Part XXXIV's row on the next pieces is reworded (R379); nothing earlier is corrected and no post-freeze note is added. v36.10 answers Entry 354, the response to it and the review of v36.9 with seven sections of Part XXXIV (§§XXXIV.13–19, R380–R385). *The exact angles:* with $\theta = 2/9$ and $\cos\alpha = 1/\sqrt2$ held fixed, any first-order correction fixed by the electron and the muon predicts the $\tau$ through its pattern; the same hop twice gives $m_\tau$ $2.67\sigma$ low, and the dual factors $0.23\sigma$ low, their angle offsets then matching the measured ones (the same $\tau$ test) — on the pole-mass premise and the zero block at the eV level, with the construction chosen after the fact. *The mixing scale:* v36.9's $\mu$ was a two-sigma lower bound, and imposing $\mu = M_Z$ with the exact angles and one hop scale gives the $\tau$ $2.07\sigma$ or $1.27\sigma$ low, while with the strict zero block the electron excludes it within this pole-mass realization ($-87.0\sigma$ and $+722.5\sigma$ with the muon's and the Z's errors propagated), a direct mass restoring it in an enlarged realization *[v36.11, R388]*. *The chiral two-hop seesaw:* with a bare right hop the zero block is a choice of basis, while a charged vev for the right hop, or $SU(2)_R$, protects it up to dimension five; with two hop scales the dual factors' prediction of the $\tau$ becomes an inequality, met. *A moving frame:* its connection changes flavor only for a field on the carrier itself, far below detection at the illustrative rates. Part XXXIV's row on the next pieces is reworded (R385), and the head table's flavor heading now says when the Part was opened; nothing earlier is corrected and no post-freeze note is added. v36.11 answers Entries 357 and 360, the responses to them, the review of v36.10 and the referee reports on v36.8 and v36.10 with nine sections of Part XXXIV (§§XXXIV.20–28, R386–R392 and R394) and one of Part XXXIII (§XXXIII.67, R393). *The two histories:* the quaternionic structure intertwines the two Weyl types, so both of Part XX's pairings pass the Lorentz test; at rest the Cartan pair shares one spin state, while the antipodal pair, taken as a fixed relation between the components, is the conjugate pairing, which admits no electric charge — so for the electron the two readings exclude each other, and its Weyl components would be the Cartan pair, whose comparison is the four-velocity. *The doubled angle (Entry 360):* the dual factors are one plus half the spin-$\tfrac12$ character of a doubled angle, $\tfrac49+\tfrac{4\pi n}3\pm\tfrac\pi2$, which needs the double cover and a choice of lift, and only the identity lift is Koide's; the $\tfrac49$ of complementary projectors is a probability, and the complementary fibers' geometric phases are multiples of $2\pi/3$ — a selection-law conjecture, numerically $\theta = 2/9$. *The two-scale theorem:* with the exact angles and the dual factors, $m_\tau<1776.965825$ MeV on every positive branch and $\varepsilon_R/\varepsilon_L\leq2.0094647320$; parity proper excludes the dual factors, and equal Yukawa strengths with $A_-$ on the left hop put the $\tau$ $0.40\sigma$ high, a postulate. *The Z-linked statistics:* with the muon's and the Z's errors propagated the strict model's electron pulls are $-87.0$ and $+722.5$; the strict identification is excluded within this pole-mass realization, enlarged ones are not excluded by this comparison; with one hop scale the direct-mass interval is signed, and with two the same hop's is unchanged while the $\tau$ bounds the dual factors' on both sides *[v36.13, R401: for $\lvert m_0\rvert<\Lambda$, on the branch connected to the zero-block solution; a second branch near $1.03$ MeV, §XXXIV.36]*. *Transport:* the carrier's complete connection is flat, and the lines' connection a stipulated, different action that agrees with it in the adiabatic regime. *The report on v36.8:* deletion keeps equal survival, not distinguishability; the trace form's coefficient is Koide's postulate; the fit is an unweighted projection; the trimaximal column's atmospheric and CP condition is untested; the localization thresholds are numerical, not certified bounds; coherent reception needs the two transports' amplitudes; for the cone penalties the mirror solution's second variation has no eigenvalue below the residual's bound, by a ground-state transform and a comparison — a floating-point certificate on the grid, second variation only. The claims the two reports found overstated are corrected in place, each tagged, with the superseded wording quoted in the ledger; no post-freeze note is added. v36.12 answers the review of v36.11 and records Entries 361–364 with six sections of Part XXXIV (§§XXXIV.29–34, R395–R399). *The limiting map:* under one smooth connection in one representation the comparison of two converging histories' transports tends to the identity, linearly in the separation — a theorem — while the Cartan-twisted reading of the second leg, which the quaternionic structure $j$ supplies as the intertwiner ($\rho(g)\xi = j^{-1}(g(j\xi))$), gives the Hermitian square of the transport; for two legs leaving rest together and separating to order $r$, each carrying §XX.8a's Fermi–Walker transport, the Cartan comparison tends to $B(u)^2 = u\cdot\bar\sigma$ as $r\to0$, path-independent at zero separation while the Thomas rotation is not, and the limit pair is §XX.8b's Cartan pair obeying the Dirac identity; given the twist, the legs' relative velocity is not needed. The second leg's reading through $j$ is the one stipulation, put in rather than produced; that the physical pair's transport is this one stays a proposal. *Entries 361–364,* which arrived during the refereeing, are recorded with their responses, and every number the responses state is recomputed and found as stated: the quotients of the carrier $V = \mathbb C^3$ by one or two of its six lines (a Cartesian quotient keeps the flavor vectors as a trine, a flavor quotient makes the Cartesian images one, and the mass operator descends only through the flavor quotients), the four orbital sign sectors and the signed chord's $4\pi$ period, §XXVII.7's two-arc orbit, and the Hopf-sign and $SO(4)$ identities of the fourth response; Entry 363's two rendering branches of one canonical orbit and Entry 364's Hopf-sign switch at the apsis are recorded as hypotheses. Nothing is fitted and nothing earlier is corrected; no post-freeze note is added. v36.13 answers the review of v36.12, the referee report on v36.12 and Entries 365 and 366 with seven sections of Part XXXIV (§§XXXIV.35–41, R400–R405). *The report's required correction is made:* v36.11's eV direct-mass intervals hold on the branch connected to the zero-block solution, the three determinants negative; a second branch, the electron's determinant positive, fits all three charged-lepton masses for $1.028484<m_0<1.081583$ MeV (the report's counterexample with a 10 TeV heavy partner among its solutions), and a quartic enumerates every solution at fixed $m_0$ (for the direct mass the smaller diagonal entry) — §XXXIV.22(c)–(d), §XXXIV.27, R388 and the head table are corrected in place, each tagged *[v36.13, R401]*, the manuscript marked v36.13 and the suite's prints referenced to v36.13-1, with the superseded wording in the ledger; the zero-block theorem is untouched. *The transport repairs:* the Fermi–Walker benchmark started at its own initial velocity (second order), the thin-loop first variation with transported curvature, the sewing datum $H_0$ making $P_1H_0P_2^\dagger$ covariant, and the antilinear phase that keeps "one connection suffices" a statement about spin — §XXXIV.30(a)–(c) tagged *[v36.13, R402]*. *New:* $q\mapsto aqb^{-1}$ preserves the Hopf fibration only for $b$ in the normalizer of its $U(1)$, a condition distinct from fixing a galaxy's center; the apsidal residence time and the attenuation an exponential image would need, from Entry 365's response; Entry 366's $\tfrac49$ — the response's square is exactly the two-hop product, the half-turn about the body diagonal has spinor half-angle $\pi/2$, the cap volume of $S^3$ is the sine-minus-angle precedent and the leaf's rotation-speed formula carries none, and the conjectured transport $\Phi = p$ is recorded as the response's (§§XXXIV.38–39). Nothing is fitted; no post-freeze note is added. v36.14 answers the review of v36.13 with five sections of Part XXXIV (§§XXXIV.42–46, R406–R409) and corrects nothing. *The branches against data:* the protecting symmetry of §XXXIV.16(a) leaves a dimension-five direct mass, so each branch is a window of the cutoff, and under §XXXIV.16(a)'s assignment the left mixing — below $5.1\times10^{-4}$ on the first branch, approaching $0.20$ on the second, whose partner falls to $53.04$ GeV — is what moves the Standard-Model couplings at tree level; against the PDG's $Z$-pole couplings and heavy-lepton limit this leaves, for orientation, the first branch and a neighborhood of the second's lower end (§XXXIV.43). *The stabilizers and the charge:* the review's three levels of symmetry, with two more between them and the action on the middle space; the comparison of two charged transports gauge-invariant exactly when the second history carries the opposite charge (§XXXIV.44). Nothing is fitted; no post-freeze note is added. v36.15 answers Entries 367–368 and the three responses to them with five sections of Part XXXIV (§§XXXIV.47–51, R410–R413) and corrects nothing. *The Hopf-lifted ring:* a ring of angular radius $\rho$ in the middle space has holonomy $e^{i\pi(1-\cos\rho)}$, so its horizontal lift reaches the antipode after one revolution only when the ring bisects the sphere, while on a round shell its geodesic lifts — at the angle $\rho$ to the fiber — reach it for every ring; a receiver whose fibration makes the angle $\beta$ with the source's sees a source point as a ring of radius $\beta$ and a source ring as a band (§XXXIV.48). *The metric lift:* the response's family of canonical metrics over one middle-space metric is §XXIV.18's shell metric, and after one revolution a geodesic is displaced along the fiber by $\pi+\pi(4R^2/f^2-1)\cos\rho$ — on §XXIV.23's source shells, under its conformal lift, exact for every ring only at $x = \pi/6$ and its twin (§XXXIV.49). Nothing is fitted; no post-freeze note is added. v36.16 answers the review of v36.15 with seven sections of Part XXXIV (§§XXXIV.52–58, R414–R417, R419 and R420) and one of Part XXXIII (§XXXIII.68, R418) and corrects nothing. *The review's readings:* each is the cited section's; of the three limits the review draws out, two are adopted as restrictions — a disk centered on the source meets every source shell in great circles, whose return defect vanishes on every shell, and under the connection metric a null geodesic that stays null in the middle space has no momentum along the fiber, moving along it only as the connection fixes, so that anything further in Entry 365's photon rule must act on an internal state — and the third, on fiber density, is already the archive's (§XXXIV.53). *The audit:* the ring's holonomy, the Berger return, the direct-mass branches and the charged comparison, each confirmed by a method its original test does not use; the branch map stays a numerical classification (§XXXIV.54). *The optical test:* with one rule fixed first, two receivers and the gravitating source counted once, the rule's transmission is uniform and draws no structure; the receivers' images differ only through their quotient maps — a fiber-uniform source shows only the band, an $m = 2$, $k = 2$ fiber pattern, invisible to the source's own fibration, appears at $\beta = 0.3$ as two arms, wound by the horizontal lift and not by the exact one, and under that lift the receiver reads a slower mean rotation at image radii $0.4$–$1.0$ — so the review's stopping condition is met only in that geometric sense (§XXXIV.55). *The conflict ledger:* Part XXXIII's failed benchmarks, the frozen Part XXXI's central limiting conditions and flavor's negative comparisons, with their premises and their domains (§XXXIII.68). *The map:* the galaxy and the flavor projects and four kinds of result, with the boundary a freeze would pin proposed for the author to decide (§XXXIV.56). Nothing is fitted; no post-freeze note is added. v37.0 freezes Parts XXXIII–XXXIV at v36.16 with `pg_v36_numerics.py`, whose frozen-results record is the v36.16 current manuscript. The freeze review's three release items are made as post-freeze notes (R422): source P of §XXXIV.55 is marked an auxiliary canonical-lift weight, and its fiber average not a completed Law I reduction; the complete output of v36.16's final run is delivered as `pg_v36_16_regression_output.txt`; and the conflict ledger and the boundary are locked, with the next pieces moved to v37. A further post-freeze note, at §XIX.2b, says that its soldering can hold fiber by fiber but not globally over a shell's base (R424). v37.0 opens Part XXXV, the reality involution and the flavor cycle, after Part XXXIV, with its own register (§XXXV.13) and suite (§XXXV.14, `pg_v37_numerics.py`), on Entry 369 and the briefing for v37, and on Entries 371–373 (R421–R432). On the archive's flavor carrier the conveyor and the conjugation of the real frame form one semilinear $S_3$ whose reflections are real structures. Its 3-cycle is excluded from the complexified geometry and, globally, from the axis family; its continuous counterpart is a flux quantum threaded through the ring of Cartesian fibers. The two factors are exchanged only with the phase reflected, and the three rendering classes are inequivalent as internal rendering data, their physical inequivalence open *[v37.1, R434]*, but of one spectrum and equal multiplicity. On the round canonical shell, with a fibration at each end of a history, the receiver's apses on every ring, where the history keeps moving along the fiber, are exactly the zeros of one observer-indexed cut, a candidate visibility boundary only *[v37.1, R434]*, for every index, but by construction, the cut being the fiber derivative of the receiver's height; on the horizontal lift, for $\beta\neq\pi/2$, no single static field symmetric about the center carries the receiver's renderings of overlapping rings off the equator, and off a ring the alignment fails. Nothing is fitted. v37.1 answers the review of v37.0 (§§XXXV.15–17, R433–R435). It checks the review's readings and makes its three tightenings in place, each tagged, with the superseded wording in §XXXV.28 and the ledger: the Law I statement a no-go for its lift and field class, the cut a candidate visibility boundary, the classes distinct as internal rendering data and not called physical universes. Its dynamical experiment takes an orbit of §XXV.2's point-source field on the round shell over the orbit's own sphere, with the matter counted once in the source's quotient. The shell's dynamics gives the horizontal lift as its neutral sector, the one that reproduces PG's orbit *[v37.2, R448]*. The receiver's rendering does not align its apses with the cut; at the indices tested it is no orbit of a static field symmetric about the center and follows no second-order law shared by the neutral histories in the receiver's quotient; the dynamics reduces through the receiver's fibration only when the two axes are on one line; and the derived optics draws no line on the orbit. It takes in the message of 27 October (§§XXXV.18–20, R436–R438). On the carrier the first response's family of compatible pairings exists: the conveyor carries one compatible triple to another, and every real structure has exactly one pairing, so the family adds no datum to the three classes. $\mathbb C^1$ amplitudes reach any two histories and the kernels of rank at most two. Entry 375's orbits turn only at their two turning radii, and their subperiod is not an integer. The receiver's index is the star's fiber phase. A conformal update of the projection moves the apses only by moving the twin and carries no cut; one star's moved orbit is, retimed, an orbit of a potential of its own, and two stars of different energies whose images share a region, so retimed, have no common potential there. It takes in Entries 376–379 (§§XXXV.21–22, R439–R440): the switcheroo's cropping needs a phase-independent reservoir of at least $(\sqrt{P_1}+\sqrt{P_2})^2$, half of which is cropped for two equal slits; emptying the room restores interference in standard quantum mechanics; $\rho_E$'s fixed set is not its quotient but the quotient's singular stratum; collective reality, in the third response's toy, is the reality of a conjugation composed with the exchange, as the carrier's $\kappa_0$ makes the $e$–$\mu$ pair real together; and the order of the constants restates §XXIX.7's notes. It takes in Entries 380–381 (§§XXXV.23–24, R441–R442): a real slice with one negative direction always exists, as a choice of real structure, not of coordinates; exactly one negative direction is the only signature whose timelike vectors fall into past and future, and the reductions along the positive fiber and meridian keep it; and one time value cannot carry several deeper dimensions at an instant, while along a history a conserved momentum and a connection carry what a quotient forgets — on a positive metric, so the augmentation does not yet select the signature. It takes in Entries 382–384 (§§XXXV.25–26, R443–R444): the exchange's quotient keeps the mean and the difference up to sign, and the doubled integral's readout on it is real, a probability under positivity and normalization *[v37.2, R448]*; whether a pair's phase or its scale is two-sided depends on which real form of $\mathbb C^\times$ its exchange fixes — a history and its $\rho_E$-conjugate share the phase, conditionally on §XV.7's descent, while the closed-time-path's branches and the orthogonal partners reverse it; two potentials on two legs have a relative phase that is gauge-invariant only with a sewing at the nodes and that, by §XV.6's offloading, cannot by itself tell a two-sided field from two paths in one field when one potential is the other pulled back; and the two regimes of paired histories have two operations in common as kinematics, the relative holonomy and a phase-reversing exchange, whether a physical pair carries them being open, while the leaf's derived doubling, $\rho_E$, keeps the phase in the mean. §XXXV.27 is the standing (R445) and §XXXV.28 the register. Nothing is fitted; one post-freeze note is added, at §XXVII.7, whose first apsidal angle is $1.2307^\circ$ from the value recomputed on its orbit. v37.2 answers the review of v37.1 and the referee report with its continuation brief (§§XXXV.29, XXXV.31, R446, R448). It checks their readings, reproduces the report's numbers and its local argument for the receiver obstruction, and makes the report's five corrections in place, each tagged, with the superseded wording in §XXXV.36 and the ledger: the antilinear elements of the semilinear group act on the full fermion field with a Lorentz-covariant spinor map, since no map is antilinear on one factor of a complex tensor product and the identity on the other; criterion S's candidate set is the real structures preserving each of the real frame's lines and permuting the flavor lines, a zero-defect structure lying outside it; the horizontal lift is the action's neutral sector, given the requirement that the shell reproduce PG's orbit; Law I's count is the chosen assignment of source and field; and the doubled integral's readout is real and exchange-invariant, a probability under positivity and normalization. It builds the two pieces the report's brief puts first (§§XXXV.32–33, R449–R450). The completed antilinear elements form the semilinear $S_3$ on the Dirac field, commute with every proper orthochronous Lorentz transformation, carry a charged field to the conjugate charge, and map the theory with the mass operator $M$ to the charge-conjugate theory with $\kappa_jM\kappa_j^{-1}$, a symmetry exactly when the reality defect vanishes; the report's zero-defect real structure is the flavor basis's conjugation, one of §XXXV.4(d)'s reflections, a class of zero defect. In a finite association model a removal rule reaches nothing constructive and a pair count with nonnegative weights no destructive interference, while a signed comparison of two wings is quadratic for every relation, normalized exactly without a constant mode, and then of rank two exactly for one character — the cosine of §XXVI.4, forced, not inserted, its positivity following — the signed relation being the one posited step. It takes in Entries 385–386 (§§XXXV.30, XXXV.34, R447, R451): the agreeing structure of §XIII.4 fixes the ground of comparison, not the kernel; the two ghost rooms are §XXXV.26's $S^0$ pair with its sewing, and the dark fringe's clash is the signed count's zero, a cancellation. §XXXV.35 is the standing (R452) and §XXXV.36 the register. Nothing is fitted; no frozen Part changes. v37.3 answers the review of v37.2 (§§XXXV.37–38, R453–R454). It checks the review's readings and makes its terminology correction in place, tagged: the exchange of the wings, the comparison's evenness and the reality involution are kept apart. It states the readout as a measurement (§XXXV.39, R455): the Fourier multiport is a positive operator-valued measure for every preparation exactly when its port charges are distinct, and its effects are flat. And it builds the finite room the review recommends (§XXXV.40, R456): under one Boltzmann law the kernel of two paths is the room's characteristic function at their coefficient vector, the frame's order parameter is the kernel of a one-link path difference, paths of equal length read only the room's correlations, and the kernel is an environment overlap; a room of local involutions makes the fringe of paths of mixed parity follow the apparatus's orientation relative to the room's axis. The room's part of the kernel is derived and the sign is not — the postulate is the signed overlap at the sewing node — and for rotating links nothing is left beyond decoherence and phase. It takes in Entries 387–390 and their four responses (§§XXXV.41–42, R457–R458), checks the responses against the archive and reproduces their exact statements, and builds the turnover they describe in the room (§XXXV.43, R459): with the room's anchors agreeing, a turnover that fixes the seed and turns the far associations more than the near is a relabeling — no visibility and no entropy changes, only the fringes' positions, the fringe of the pair reaching link $1+r$ shifted by $r\tau$ labels — exactly when it turns every anchor alike, so a turnover held only at the seed changes no visibility; against the far frame it costs free energy, keeps the room's entropy above its untwisted value until the full turn and reorders the seed's associations; and conditioned on the room's Boltzmann law the untwisted sector is weighted most, its share growing with the room, the counts keeping the Born form. And it takes in Entries 392–397 and their six responses (§§XXXV.44–45, R460–R461), on the two complex worldlines of Kerr, the meridian and the Hopf shell: on the compactified meridian a pair displaced by $\pm i\mu$, purely imaginary, is aligned at zero charge and antipodal only at the extremal boundary, with $Q/M = \sin(\theta/2)$ for its separation $\theta$ and §X.0's half-angle weights; on the Hopf shell every extremal pair is half a fiber apart; and a charge riding the spin's displacement has the magnetic dipole $Qa$, while with a meridian component in the field's displacement the potential is not harmonic on the leaf. Every construction takes $M$, $a$ and $Q$, or the round model's $\ell$, as inputs. §XXXV.46 is the standing (R462) and §XXXV.47 the register. Nothing is fitted; no frozen Part changes. v37.4 answers the review of v37.3 (§§XXXV.48–49, R463–R464). It checks the review's readings and makes its clarifications: without records the room reads two ways that give every count alike — a classical ensemble, whose configuration is a key and holds no record, and a coherent state, whose paths' states are a record readable only off the configuration basis — and §XXXV.40(d)'s sentence on records is corrected in place, tagged; a reflecting link is a unitary permutation of the labels, so no antiunitary operation is needed; and with each label used at most once a preparation reaches finitely many amplitudes. And it builds the room with records the review recommends (§XXXV.50, R465): paths that turn the links they pass part the two readings — in the classical one any record removes the fringe while a reading of the room tells the path only in part; in the coherent one the fringe is at most the records' fidelity, with $V^2+D^2 = 1$ — the record is a turn of the frame, and the frame and the fringe compete, the one-link-longer fringe greatest at an intermediate frame for a turn other than none or a half turn. Every count is standard quantum mechanics with the room as an environment. Entries 398–403 and their seven responses (§§XXXV.51–52, R466–R467) take Kerr's two horizons as two switches: read as two spin states, §XXXV.45's pair has a mass operator whose spectrum is the two horizons, the outer the switch of its aligned channel and the inner of its anti-aligned one; the shell's antipode, applied to the pair with its members exchanged, exchanges the two horizons; the passage through the ring is a double cover whose deck transformation flips the complex radius, keeping $g = 2$ and flipping $M$, $Q$, $J$ and $\mu$ — the Hopf antipode's structure, not its identity; and each horizon's other side is a half turn of its Euclidean time. And they turn to charge across the pair: the cross coupling that gives Kerr–Newman's $\Delta$ is the two-channel operator boosted by a rapidity, the meridian's for Reissner–Nordström; a loop of three associations, read as coherences, has its phase bounded by their loss of visibility; whatever overlay makes Kerr–Newman carries a Maxwell stress the metric fixes up to its duality angle; and a source-free middle space whose removed meridians meet has no electric charge without charge. §XXXV.53 is the standing (R468) and §XXXV.54 the register. Nothing is fitted; no frozen Part changes. v37.5 answers the review of v37.4 (§§XXXV.55–56, R469–R470). It checks the review's readings and makes the tightening it flags: a phase of the pair's representatives leaves the mass operator and its spectrum, the two horizons, and moves only the norms of the common and difference parts, so §XXXV.52(k)'s holes at other phases are the norms' readings, and its sentence on them, with two of its summaries, is corrected in place, tagged. It builds the review's rendering connection (§XXXV.57, R471): a transport covariant under frame changes has an overlap invariant under them, a scalar factor reassigns only the interference phase, and only a transport that turns the Bloch sphere can reassign the spectrum; the room's transport is a phase on one Fourier mode and the dihedral group on the modes $\pm k$, and a definite orientation's component on the modes $\pm1$, carried along two histories, renders one of four holes of one mass, on the premise that those modes carry the pair's channels; at extremality two continuation rules differ by the horizons' exchange. And it runs the acceptance test for charge (§XXXV.58, R472) on a posited flat product with five-dimensional Maxwell: the leaf charge of a static electric field lies in the meridian modes and brings a trace, the varying modes, for fields vanishing far out on the leaf, are screened, and the meridian-constant field around a removed meridian passes, which the round benchmark's topology allows only when the removed meridians do not all meet. §XXXV.59 is the standing (R473) and §XXXV.60 the register. Nothing is fitted; no frozen Part changes. v37.6 answers the review of v37.5 (§§XXXV.61–62, R474–R475). It checks the review's readings and takes up the caveat the review makes an acceptance criterion (§XXXV.63, R476): the room's transports permute the labels, so a definite orientation's two histories render with their full states only Schwarzschild's pair or the extremal one, and the four holes are the rendering of a sector of modes, its overlap one term of the Born-weighted sum that gives the full one — read coherently, dephased or post-selected, with what selects the sector open. And it computes a resolved meridian structure of the kind the review asks for (§XXXV.64, R477): on $S^4$ every meridian structure degenerates somewhere; with the orbits of one plane's rotation as meridians, posited, removed meridians kept apart carry an electric period, a single one's flux ends on the degeneration set, and a leaf reads near a removed meridian its line density with Maxwell's algebraic stress and, wherever the field has a component along the gradient of the meridian length *[v37.7, R490]*, a polarization cloud. It takes in Entries 405–415 and their responses (§§XXXV.65–74, R478–R487). Entry 405 puts a crossing into another universe as a change of the structure of redundancy; in the response's two models a change of rendering on the torus is a relabeling that leaves the two renderings no agreeing structure, and the two gluings of two intervals are the two double covers of one circle — a holonomy read on the circle, a change of connectivity read on the glued space — with what would select a rendering relation open. Entries 406 and 407 put the test particle before its rendering and the worldline as an exhaust: averaged over sectors of different $a$, Kerr's multipoles differ from one Kerr hole's quadrupole, more oblate, so the archive's sector readings, read as holes, average to no Kerr hole; and in the exhaust's miniature a record of two visible values recovers a hidden bit, whether a finite record recovers the state being the dynamics' observability through its readout. Entry 408 puts a particle's spin as an indexing on a prime centrade that sets the inertial frame: two spins twirled jointly keep their relative alignment and nothing else; on a triangle of centrades a change of reference changes no invariant unless a link turns against the others; and in the archive's Cartan reading the four-velocity is the base over which the spin is the fiber, with what selects it open. Entry 409 reads the C-metric's acceleration as a failure of the middle space's isotropy: computed, the C-metric is a vacuum only through its conformal and angular factors, its acceleration horizon is not compact and so no twin's horizon, and its acceleration is physical only together with a source. Entry 410 puts mirror closure before the C-metric: the response's stereographic toy is the archive's readout, and the archive's symmetric mirror closure is the twin, whose horizon has the hole's area and surface gravity, while the C-metric's two horizons differ in surface gravity for every $2MA<1$; the archive has a mirror-covariant family of readouts, and a mirror-covariant family of metrics would have gravity read a representative. Entry 411 proposes to formulate quantum fields on the leaf's two-ended chart and read them back: the chart's coordinate is the logarithm of the archive's stereographic readout, the Einstein static universe has $C^2 = E_4 = 0$ out to the chart's ends, so a pole sent to infinity has no trace anomaly to explain, and a conformal scalar solved on the chart has the leaf's spectrum; its vacuum energy density is $1/480\pi^2\ell^4$ on the leaf and $-7/240\pi^2\ell^4$ for the modes that descend, and descent, not a mirror condition on the state, is what changes the stress. Entry 412 asks that the chart respond to the matter: the response's Brill–Lindquist ends are the archive's, a puncture an end at infinite distance whose mass carries the other source, and in the closed arena a second source pair gives a source a traceless tidal field at every angle while its pull vanishes at a right angle, an anisotropy without acceleration. Entry 413 asks what the renormalized quantum stress on the leaf becomes: classical Maxwell theory is unchanged by a Weyl rescaling; the leaf's two-ended conformal frame is two-dimensional anti-de Sitter space times a sphere of equal radius, the extremal Reissner–Nordström throat, where a conformal field's trace anomaly is $a/2\pi^2\ell^4$ while on the leaf it is zero; read back, the stress is the leaf's Casimir stress, and a boundary condition at the frame's ends other than regularity is a point source or a point interaction at a pole. Entry 415 reads fields as what remains of incompatible renderings and asks which two spaces physics identifies to state the electromagnetic potential: the response's separation of a pair, minimized over the room's transports, vanishes, a transport applied to one member aligning any two histories of one state, while one applied to both keeps their overlap; and on the leaf a charge's field with its conjugate twin is odd, the gravitational field of a source with its twin even, so the leaf's fields are assembled from the gravity base's functions and its twisted line, which physics written on one spacetime identifies. §XXXV.75 is the standing (R488) and §XXXV.76 the register. Nothing is fitted; no frozen Part changes. v37.7 answers the review of v37.6 (§§XXXV.77–78, R489–R490). It checks the review's readings and makes its correction: a field without divergence on the leaf is source-free in the middle space exactly where $\mathbf E\cdot\nabla\rho = 0$, so the meridian length may vary across the field, and the statements that asked it to be constant are corrected in place; and it computes the quotient the review flags: the resolved structure's twin is a reflection with a fixed two-sphere, not the antipodal map, so its space of meridians is a ball on which §IV.1's twin theorem fails, and a return to $\mathbb{RP}^3$ would sew the degeneration set antipodally, keeping every period of a field regular on it, a single meridian's flux needing another end. It takes up the alignment freedom as the review's central acceptance test (§XXXV.79, R491): if the admissible comparisons form a group containing every rotation, the law is the rotations or the whole room, and under the rotations alone — the orientation law, posited — the separation of two histories is the state's chirality, under the room's reflections *[v37.9, R502]*, when their handedness differs and zero when it agrees, read in no frame, so that on v37.5's premise $a_{\rm eff}^2+Q_{\rm eff}^2 = M^2\chi(\psi)$: no Kerr parameter is an input to the law, but the state is, and its preparation is not derived. It takes in Entries 416–419 and the response (§§XXXV.80–83, R492–R495). Entry 416 reads a neutrino's mass as the residue of our rendering's imperfect privilege, with an extra scale going to infinity as privilege becomes perfect: the entry's extra field is the archive's heavy partner of the charged leptons, whose scale is inversely proportional to the straying of their square; the response's mismatch, lowering the square, has the wrong sign to be that straying; and a neutrino's partner must be neutral. Entries 417–418 ask whether Hopf twins set the scale of destructive interference, and for a jointness of arena and paths with a coupling arrow: a Hopf twin is the same ray, and a full turn gives a dark fringe at zero relative phase — complete coherence, where no interference is no comparison; read as two interfering histories, the archive's quaternionic extremal pair is dark exactly at extremality, where its members are Hopf twins, and its Bloch pair two orthogonal states, with no fringe *[v37.9, R502]*; and an arrow needs a dynamics, as the room with records puts one in. Entry 419 sets the acceleration's cosine to one for an acceleration normal to the leaf: neither substitution is a vacuum; at $m = 0$ the C-metric's radial horizon is, at each finite time, Rindler's bifurcation plane in its coordinates, the horizon's null halves reached as limits *[v37.9, R502]*, its equator a hemisphere meeting that plane; and in five dimensions an acceleration normal to flat leaves leaves them flat, while on the archive's closed meridians a static lapse is periodic and the leaves' normal acceleration integrates to zero. §XXXV.84 is the standing (R496), the review's three gates first, and §XXXV.85 the register. Nothing is fitted; no frozen Part changes. v37.8 takes in Entry 420 and its response (§§XXXV.86, XXXV.88, R497, R499), and the author's file of entries, from which the fifteen entries the archive lacked are recorded (§XXXV.87, R498). Entry 420 asks what a Boltzmannian selection would mean as a transformation of the middle space leaving the gravity base invariant — the canonical space unwound, the Hopf shells extruded along the meridian read as three-spheres indexed along the Hopf fiber, the ortho-middle space built so and its lowest-entropy version selected — and reads a neutrino's exact neutrality, its relational flavor and its mass from it. The response's local model is §XXII.10's diamond and its obstruction §§XXII.10–11's and §XXIX.14's: the Hopf bundle has $c_1 = 1$ in §XXVIII.12's orientation, the round model's meridian structure is a pencil whose circles all meet at the poles, and no bijection carries it to the Hopf circle's disjoint orbits; the response's exchange is a reflection of the plane of a regular fiber, every primitive slope an $SL(2,\mathbb Z)$ image of the Hopf direction, a slope's orbits closing on that torus exactly when it is rational *[v37.9, R502]*. In §XXXV.8's model, an illustration, an $\varepsilon$ of the response's form reads a weight's sign and size, not the equal multiplicities; its $M_\nu = \varepsilon m_*K$ has an $\varepsilon$-free mixing, the splittings' ratio, the angles and the Dirac phase as tests on $K$, and a scale at its bound, with $K$ normalized to $k_3 = 1$, two to six orders below any mismatch the lepton square shows *[v37.9, R502]*. §XXXV.89 is the standing (R500) and §XXXV.90 the register. Nothing is fitted; no frozen Part changes. v37.9 takes in the reviews of v37.7 and v37.8 (§§XXXV.91–92, R501–R502) and Entries 421–424 with their four responses (§§XXXV.93–95, R503–R505). The reviews' readings hold, and at their request the archive now tells its two Kerr pairs apart at extremality — §XXXV.45(f)'s quaternions one ray with a sign, §XXXV.45(e)'s Bloch vectors two orthogonal states — places the C-metric's horizon on Rindler's bifurcation plane at each finite time, reads the two-mode square's mismatch through singular values, and states the neutrino scale's normalization and power, in place and tagged. Entry 421's quotient of the complex null directions collapses to a point; the real null directions are instead the fixed set of the Lorentzian real structure on them, the celestial sphere — directions only, the scale and the time sense of the vectors on them being further data *[v38.0, R509]* — the cone's interior the sums of two independent future null vectors, and the real part of a complex null vector is never timelike; two real structures agree when their composite is the identity, and in Minkowski space a chiral pair, as Kerr's two worldlines, is real only together. Entries 422–424's principle is named, at the author's request, the Invertible Exhaust Principle, and stated as a candidate with four clauses; tested, a misaligned configuration's exhaust is $(I-G)Z/2i$, and PG's own minimal exhausts — the Hopf phase, the twin bit — are twisted, gauge data rather than coordinates. §XXXV.96 is the standing (R506) and §XXXV.97 the register. Nothing is fitted; no frozen Part changes. v38.0 freezes Part XXXV at v37.9, with `pg_v37_numerics.py`; its frozen-results record is the v37.9 current manuscript, and v38.0 delivers the complete output of its final run, `pg_v37_9_regression_output.txt`. Its corrections to Part XXXV are post-freeze notes (R508), and this note's summary of v37.9 is corrected in place, tagged (R509). v38.0 opens Part XXXVI, the quotient rule, the dual structures and conformal selection, after Part XXXV, with its own register (§XXXVI.14) and suite (§XXXVI.15, `pg_v38_numerics.py`), on Entries 425–430, the review of v37.9 and the response to Entries 425–430, and on Entries 431–432 with their two responses and Entries 433–434 (R507–R520). The complex null directions modulo their right factor are a sphere onto which every Lorentzian real structure's real directions map one to one, so two structures are two sections and their misalignment a Möbius map; no single null vector has a scale, and between two misaligned structures the scale's odd part becomes an invariant that reads the misalignment; each Kerr worldline, read by both chiral factors, gives both twisted congruences, while the solution's spin sign puts the self-dual curvature on one and Maxwell's equations on that metric put a test field's self-dual part on the same one *[v38.1, R522]*; the rule $\Psi\Psi^\dagger$ quotients the $2\times n$ complex matrices onto the closed future cone for $n\ge2$, its time sense chosen inside it; a change of real structure can move the time axis onto a spatial direction, which no Weyl rescaling can; the conformal factor that makes a rendered metric Einstein is read off its Weyl tensor, exactly, where it exists, and Bach's condition and the first-order test show which classes have one; under the Hopf gauge the standard middle space loses nothing physical for one configuration and a relative phase between two branches; joint-option weights give neutrino oscillations only through interference; the two vertices' flavor frames differ by one matrix along the path, the oscillation amplitude, whose interference terms carry geometric phases of flavor and mass directions, its CP-odd part needing three flavors; and in the flavor carrier the trade of the electron's and the tau's lines is a real structure, antilinear and so reversing the charge *[v38.1, R522]*, two of which compose to the conveyor. §XXXVI.13 is the standing (R519) and §XXXVI.14 the register. Nothing is fitted. v38.1 takes in the review of v38.0 and Entries 435–438 with the responses to Entries 435, 437 and 438 (§§XXXVI.16–21, R521–R526). The review's readings hold, and its two tightenings are made in place and tagged: the Maxwell field tested on Kerr is a field on a background, the coupled solution being Kerr–Newman's, whose charged profile holds the product of the two worldlines' Coulomb potentials and whose self-dual curvature is no longer one worldline's; and the antilinear trade of the electron's and the tau's lines reverses the charge, the charge-keeping trade being its composite with the flavor basis's conjugation, a relabeling that the masses' difference forbids as a symmetry. Of three changes of Kerr's pair, two leave the conformally Einstein class, so that no factor continues the match with Einstein's vacuum equation; a family that meets it only at alignment is consistent and free until a rule fixes the factor; a factor of the time is a cosmology, and a factor moves slow matter and not light, which bounds its share of one lens galaxy's potential at about six percent, at $68$ percent confidence. One gravitational wave can ride two middle-space histories with one base ray; two lanes that part on the base are free at first order and interact at second, as general relativity's waves do, by a term no conformal factor supplies; their spinors are the two columns of one $\Psi$, whose quotient $\Psi\Psi^\dagger$ is their total and forgets the pair. The exchange of the Hopf and the meridian direction is a symmetry of a square torus; in the round model the two are the halves of one complex flow that differ in their periods; and with the Hopf connection the exchange is no symmetry but a relabeling of one space, the circles themselves kept apart by its fundamental group. §XXXVI.19 answers Entry 436 in plain terms. §XXXVI.22 is the standing (R527) and §XXXVI.23 the register. Nothing is fitted; no frozen Part changes. v38.2 takes in Entries 439–452 and 459, the author's notes of 10 and 13 November and a review of the round's scratch results (§§XXXVI.24–36, R529–R541). Two lanes give a timelike sum and a spacelike difference of one size; with their coherence they give the pair back up to one phase, and the sum alone does not; a stretch of the lanes is a boost of their frame, and a table records what every change of the lanes keeps. A time axis is a sphere of antipodal pairs of light rays, all with one sum — the leaf's own metric — and needs nothing complexified. On the leaf's six-dimensional space of planes, the selection by the Hopf rotation's generator keeps the Hermitian matrices; every plane casts a shadow outside the light cone or on it, on it exactly for the complex lines, which form the sky, the rotation's fixed set, and the time axis comes from the leaf's positive form; with the dropped plane negative the shadows would be time axes, in the leaf's own conformal geometry. Mutual redshift between observers at rest needs a factor of time, and a factor of time alone, on homogeneous slices, is, to every observer of light, a Friedmann–Lemaître–Robertson–Walker metric, with the supernovae's time dilation; two galaxies' mirrored renderings contradict each other unless each reception is read in its receiver's, and then they are that factor. The C-metric's two accelerated particles are a source and its antipode at rest in the static universe, its horizons the light cones of the twin's entry and exit, and equally of the source's own exit and entry. A rotating hole moving around an extra circle has a charge twice its momentum there, and $g = 2-v^2$; over a circle of fixed size, Kerr–Newman is vacuum, in the Einstein-tensor form, in every equation the base reads, the one left over being the circle's own — a constrained reduction, not a complete five-dimensional vacuum solution *[v39.0, R546]* — and the circle carries the Kaluza–Klein momentum $Q/2$; Maxwell's divergence is the canonical space's mixed equation; and the charge's flux passes from one of Kerr–Newman's sheets to the other. Entry 459's tilted quotient is that boost, and no conformal image of the untilted base by any map that keeps the spheres and the time translation. §XXXVI.35 answers Entries 444 and 451 in plain terms. §XXXVI.37 is the standing (R542) and §XXXVI.38 the register. Nothing is fitted; no frozen Part changes. v39.0 freezes Part XXXVI at v38.2, with `pg_v38_numerics.py`; its frozen-results record is the v38.2 current manuscript, and v39.0 delivers the complete output of its final run, `pg_v38_2_regression_output.txt`. Its corrections to Part XXXVI are post-freeze notes (R545), §XIX.2c receives one on the stationary Ernst equations' target space, with pointers to it where that identification is restated (R549), and this note's summary of v38.2 is corrected in place, tagged (R546). v39.0 opens Part XXXVII, Opened Kerr — the closing of channels, the sphere of references and the flavor fold — after Part XXXVI, with its own register (§XXXVII.18) and suite (§XXXVII.19, `pg_v39_numerics.py`), on the review of v38.2, the author's notes of 14 November, his Opened Kerr toy with the export that carries Entries 476–477, Entries 481–482, and the responses of 17 November with Entry 487's (R544–R561). The review's constrained action is solved exactly by v38.2's lift of Kerr–Newman, its multiplier $3(B^2-E^2)$, and the circle's other repairs explored on 14 November are set aside. A charged, spinning hole is a straight line in three complex channels, two positive and one negative; read against a reference it gives the metric and the potential together, and the two-channel closing is that reading's shadow. The references form a 3-sphere on which the charge is a tilt at a fixed mass, the other sheet the antipode and the extremal end's throat, a universe of uniform field, the right angle; its rotations, $SO(4)$, act on the references, and pointwise on the potentials only $U(2)$ and conjugation survive spin. A quarter-turn of the two positive channels, squared, gives the other sheet, and the same quarter-turn on a doublet gives the ortho charge; inside the stationary limit, waves of low frequency are negative-frequency for every local observer. The archive's charges sort the neutrino's mass operators under three symmetries, and the masslessness-first pure limit is the Standard Model with massless neutrinos; the six-direction flavor matrix makes the two charges a mirror parity; the flavor plane folds two to one onto a 4-sphere that forgets the electron–muon difference and puts the tau and the electron–muon point at antipodes; and a closing over a response field can turn the Higgs mass term negative, exactly for the vacuum. §XXXVII.15 explains Opened Kerr in plain terms, §XXXVII.17 is the standing (R560) and §XXXVII.18 the register. Nothing is fitted. v40.0 freezes Part XXXVII at v39.0, with `pg_v39_numerics.py`; its frozen-results record is the v39.0 current manuscript, and v40.0 delivers the complete output of its final run, `pg_v39_0_regression_output.txt`; Part XXXVII receives two pointer notes and no correction (R563). v40.0 opens Part XXXVIII, the leaf between the horizons — the C-metric beside Kerr, Law I on the leaf, the galaxy as a rendering and the two Hopf structures — after Part XXXVII, with its own register (§XXXVIII.18) and suite (§XXXVIII.19, `pg_v40_numerics.py`), on Entries 489–521 of 18–20 November, the responses to them and the assessments of the replies (R562–R579). A reference at a point of Kerr–Newman's line changes character at the stationary limit, its free directions boosted into each other outside and rotated freely inside; the far reference reads the tilt toward the throat as Harrison's boost, so the throat is at infinite rapidity, and every isolated body shares that far reference; a tilt that varies with distance is not a solution, a boost that keeps the far reference re-renders every mass of an uncharged seed at once and on a charged seed adds a NUT charge unless its phase matches the seed's charge phase modulo $\pi$, and two such boosts in different orders give NUT charges of opposite sign. The C-metric's two horizons are rods of one cubic exchanged by a swap of time and angle, the string's tension their temperature ratio, the region between them a rectangle; a conformal Killing–Yano form carries spin and acceleration together, and stripping the conformal factor leaves Bertotti–Robinson geometry without mass. The two-sided hole's slice is a 3-sphere with a pole at each antipode, its quotient one hole on the projective leaf, charge the poles' mismatch; on a closed leaf the slice runs throat to throat, and acceleration is a held reference's, odd under the antipodal map. Along the sphere of references the throat is the cold, low-entropy end. The sine-exponential galaxy renders as an exponential disk on the frozen leaf with a heavy faint tail, and the leaves that make it exponential turn the flat rotation curve into a bump above a lower plateau *[v40.1, R583]*; the leaf's left and right Hopf fields have an integrable difference whose surfaces carry light without relative phase, and the leaf's rays are pairs of Hopf labels, a sky the graph of a rotation. §XXXVIII.15 explains the round in plain terms, §XXXVIII.16 takes every response point by point, §XXXVIII.17 is the standing (R578) and §XXXVIII.18 the register. Nothing is fitted; no frozen Part changes but by the two pointer notes. v40.1 adds the follow-up of 20–21 November on the galaxy (R580–R586). Entry 326's source is already the one Law I's symmetry asks for, and its falloff $k = \ell/h$ — $\ell$ already in the exponent — sets the curve's class: a monotonic rise below $k = 5.9890$, a bump above the plateau from $k = 6.5029$, earlier and higher on a fixed leaf as the falloff quickens (§XXXVIII.21). Read the Newtonian way, the leaf's curve is its image's own disk and a remainder with a depressed center; every halo family follows the whole curve once the disk's mass is free, and none the remainder alone with errors on its own speed; a leaf per galaxy gives the Milky Way's speed and local slope at the Sun but not its decline beyond, and misses the dwarfs with their baryons (§XXXVIII.22). Six passages of v40.0 are corrected in place, tagged *[v40.1, R583]*; §XXXVIII.23 corrects the follow-up's replies and lists what the archive already had, §XXXVIII.24 is the standing after v40.1 (R585) and §XXXVIII.25 its register. v40.1 fits halo families to the leaf's own curves and leaves to observed curves, typed as fits, those to data negative; no frozen Part changes. v40.2 adds the second follow-up of 22 November (R587–R590). The third message's "1/0.01" meant a quick falloff, $k = 100$, the top of v40.1's scan, which v40.1 had read as a slow one; six passages are corrected in place, tagged *[v40.2, R588]*. At the quick end the curve's early, high bump is the visible disk's own Freeman peak, as §XXXVIII.22(b) found; a point mass on the leaf, read as Newton and a halo, carries an apparent halo in closed form, a $1/R$ cusp for $R\ll\ell$ falling as $1/R^2$ beyond; on the Milky Way's leaf the image is exponential to four scale lengths, a part that holds $83.1\%$ of the mass, and the $1.46\%$ beyond $36$ kpc moves the curve inside $24$ kpc by under $2$ km/s, about the data's errors at most, its mass bounded instead by the stellar halo's, while for a slow falloff removing or doubling it moves the curve by tens of km/s (§XXXVIII.27, with thirteen figures); §XXXVIII.28 is the register. v40.2 fits nothing; no frozen Part changes. v40.3 adds the third follow-up of 22 November (R591–R597): the author's third freedom, a rescaling $\mathcal B$ that makes the GM of $v^2$ an apparent mass, $\mathcal B$ times the light's, tested with the leaf and the falloff length on the Milky Way and, with each galaxy's own baryons, on the eight SPARC galaxies of the v36 pilot, against Newton, the radial acceleration relation and NFW halos. At the adopted masses the fitted leaves fall near Part XII's arena law and carry most of the Tully–Fisher square root; at the arena leaf the rescaling the curves want is, identically, the source's geometry, $3/C$, times the plateau's Tully–Fisher offset, which follows each galaxy's own; with no per-galaxy freedom and one or two universal constants the leaf's rules do about as well as the radial acceleration relation on the eight in sample, and behind it at its published constant out of sample (§§XXXVIII.29–35, with ten figures); §XXXVIII.36 is the register. The fits are typed as fits; no frozen Part changes.
 
 > **v34.0 governing ontology correction (11 October 2026).** **Matter and its stress-energy content live fundamentally in the five-dimensional middle space** $\mathcal M=E/U(1)_H$, not solely on the representational bisection. The four-dimensional gravity base $B_{\rm grav}=\mathcal M/U_{\rm mer}$ is the quotient where the effective Einstein equation is expressed. The source $T^{(g)}$ must be obtained from the **entire** one-dimensional meridian fiber, including both arcs and possible pole/core contributions, by a covariant, action-compatible fiber reduction with a geometrically justified measure and tensor projection. A sum of contributions at the two points of $B_{\rm rep}$ is **not Law I**: it is only a distributionally leaf-supported special case. Einstein equations on the base impose constraints on the admissible middle-space configurations; equivalently their pullback imposes a horizontal constraint on $\mathcal M$, **not** independent five-dimensional Einstein equations. The full measure, singular-fiber rule, conservation identity and parent variational principle are **open**. Previously frozen text about source localization and two-point sourcing is superseded by this paragraph, the corrected Law I in Part III, and §XXIX.8; historical derivations remain conditional benchmarks where their premises apply. The observation that $\ell/G$ has a numerically suggestive relation to a galactic mass was an exploratory coincidence, **not** a premise that the closure mass is the Galaxy's baryonic mass. The author also prefers a *macroscopic middle-space* origin of $G$ (with the closure ratio as a target) and a separate Boltzmannian-compatibility origin of the effective quantum/Planck-area scale; the induced-gravity calculation remains a benchmark, not the preferred ontological explanation of $G$.
 
@@ -89702,11 +89708,11 @@ if __name__ == "__main__":
 
 ---
 
-# PART XXXVIII — THE LEAF BETWEEN THE HORIZONS: THE C-METRIC BESIDE KERR, LAW I ON THE LEAF, THE GALAXY AS A RENDERING AND THE TWO HOPF STRUCTURES (v40.0, opened 20 November 2026; Entries 489–521, the responses and the assessments of 18–20 November; v40.1, 21 November 2026, the follow-up of 20–21 November on the galaxy; v40.2, 22 November 2026, the second follow-up on the galaxy) [T/V/D/L/S/O]
+# PART XXXVIII — THE LEAF BETWEEN THE HORIZONS: THE C-METRIC BESIDE KERR, LAW I ON THE LEAF, THE GALAXY AS A RENDERING AND THE TWO HOPF STRUCTURES (v40.0, opened 20 November 2026; Entries 489–521, the responses and the assessments of 18–20 November; v40.1, 21 November 2026, the follow-up of 20–21 November on the galaxy; v40.2, 22 November 2026, the second follow-up on the galaxy; v40.3, 22 November 2026, the third follow-up: the third freedom) [T/V/D/L/S/O]
 
 *v40.0 freezes Part XXXVII at v39.0, with its suite `pg_v39_numerics.py` (§XXXVIII.2), and opens this Part at the author's request to "write all the new developments in full up as v40". The content came in three parts. On 18 November by the entries' clock — 19 November, UTC, from Entry 490 — Entry 489 asked how the sphere of references extends to a reference "up close", and Entries 490–493 put the C-metric beside Kerr, asked for the leaf between its two horizons, a richer history behind a test particle, and the throat's entropy and the Higgs. On 20 November, two assessments and a response on where the program stood took the replies' results further; Entries 495 and 497 added charge and Law I on the leaf; Entries 498–501 made the galaxy a rendering on the leaf; Entries 502–510 the two structures, the flashlight and a richer visible space; and Entries 512–515, with two questions, the accelerating hole on a closed leaf. While this version was being built, a second assessment of Entry 510, a summary at Entry 516, Entries 518–519 on the order of choices and on references conditioned on bodies, a message on a "mode multiverse" and a response titled Entry 521 arrived and are included.*
 
-*The head table at the top of the archive governs this Part, through its own table, "Claim status of Part XXXVIII (v40.1)". The computations are in a new suite, `pg_v40_numerics.py` (§XXXVIII.19), modes `v40_0`, `v40_1` and `v40_2`, which compute every number in plain arithmetic, its derivatives exact by truncated Taylor series where it takes them, and the register starts at R562.*
+*The head table at the top of the archive governs this Part, through its own table, "Claim status of Part XXXVIII (v40.1)". The computations are in a new suite, `pg_v40_numerics.py` (§XXXVIII.19), modes `v40_0`, `v40_1`, `v40_2` and `v40_3`, which compute every number in plain arithmetic, its derivatives exact by truncated Taylor series where it takes them, and the register starts at R562.*
 
 *The Part follows the inputs in order, after the record and the freeze:*
 - *the record (§XXXVIII.1) and the freeze (§XXXVIII.2);*
@@ -89724,6 +89730,8 @@ if __name__ == "__main__":
 
 *v40.2 adds the second follow-up of 22 November (§XXXVIII.26): the third message's falloff read as meant, the quick end, the point source's apparent halo, the image against the exponential, the density near the equator and thirteen figures (§XXXVIII.27). §XXXVIII.28 is the standing after v40.2 and its register; the suite's mode is `v40_2`.*
 
+*v40.3 adds the third follow-up of 22 November (§XXXVIII.29): the archive's MOND program read again (§XXXVIII.30), the third freedom on the Milky Way (§XXXVIII.31) and on the eight galaxies with their own baryons (§XXXVIII.32), the rescaling across galaxies (§XXXVIII.33), no per-galaxy freedom (§XXXVIII.34), and the response titled Entry 526 point by point (§XXXVIII.35). §XXXVIII.36 is the standing after v40.3 and its register; the suite's mode is `v40_3`.*
+
 *In brief.* A reference at a point of Kerr–Newman's line changes character exactly at the stationary limit: outside, what it leaves free has signature $(1,1)$ and its symmetry group is $U(1,1)$; inside, $(2,0)$ and $U(2)$, which mixes the two positive channels freely. The far reference reads the tilt toward the throat as Harrison's boost, $\sin p = \tanh b$, so the throat is at infinite rapidity, and every asymptotically flat body's reference tends far out to the same line, the shared far reference, from which a located reference is a hyperbolic angle $d$, $\sinh d = b/\sqrt{\langle z,z\rangle}$, that diverges at the stationary limit. A tilt is a symmetry only as a constant; one that varies with distance breaks the Ernst equations. Under the premise that a body's reference leaves its complement open, two bodies' complements share one line and together see all three channels. A boost that keeps the far reference re-renders every mass of an uncharged seed at once, and on a charged seed adds a NUT charge unless its phase matches the seed's charge phase modulo $\pi$; two boosts in different orders give NUT charges of opposite sign, mirror images of each other, neither asymptotically flat.
 
 The C-metric's two horizons are rods of one cubic, related by a swap of time and angle that keeps the class, and the string's tension is the ratio of their temperatures, $T_R/T_{\rm hole} = 4\mu$; the region between them is a rectangle whose shape is the string, with flat $\mathbb C^2$ turned inside out at its corner at infinity, and with spin the four roots of the angular polynomial give the deficit $4MA/(1+2MA+a^2A^2)$. A conformal Killing–Yano form carries spin and acceleration in one complex scalar, and stripping the conformal factor leaves Bertotti–Robinson geometry without mass and, with it, the known constraint of one shared polynomial; the charge is the area form of a sector, and an offset between the sectors is a cosmological constant. The two-sided hole's slice is a 3-sphere with a pole at each antipode — the far regions — and its quotient one hole on $\mathbb{RP}^3$; charge is the poles' mismatch, $e^b$ with $\tanh b = Q/M$; Law I's own closed-leaf potential is $\cos2\chi/\sin\chi$; and for a charged hole the acceleration $A = c/q^2$ makes the stripped geometry symmetric about a sphere between the horizons, while with spin $A = c/(a^2+q^2)$ makes only the polynomial symmetric. Along the sphere of references the throat is the cold, low-entropy end.
@@ -89733,6 +89741,8 @@ The sine-exponential source renders on the frozen $16$ kpc leaf as an exponentia
 *v40.1 in brief.* The follow-up asked whether the galaxy comes out favorable under Law I's antipodal symmetry, how the falloff changes it, and how its curve and driven density compare with the dark matter halo families when the falloff and the leaf are set per galaxy. v40.0's source $e^{-k\sin\chi}$ is already the symmetric one, and $k = \ell/h$ already puts the leaf in the exponent: the curve is $GM/\ell$ times a shape that $k$ alone fixes. Below $k = 5.9890$ the curve rises monotonically to its plateau; from $k = 6.5029$ it rises to a bump, near Freeman's $2.15h$ for the faster falloffs, and falls past the plateau to a shallow dip near $R = \ell$; for a slow falloff the leaf is nearly uniform and its plateau $v_\infty^2\to0.7295\,GM/h$. Read as its image's own disk and a remainder, the curve is followed by every halo family once the disk's mass is free; the remainder itself never peaks, its density is depressed at the center, and no family follows it alone with errors on its own speed. On a leaf set per galaxy by the speed at the Sun, the Milky Way's local slope there comes out at a scale length of $2.021$ kpc, with a tail below the stellar halo's mass, but the curve flattens where the Milky Way's keeps falling; the two dwarfs are missed with their baryons on any leaf, and followed with a free amplitude, best on leaves where they are Newtonian, carrying several times their baryons. The eight galaxies of v36.1 sort into the classes no better than the base rate. Six passages of v40.0 are corrected: the leaves that make the image exponential do not lose the plateau; they keep a lower one beyond a bump.
 
 *v40.2 in brief.* The author's "1/0.01" meant a quick falloff, $k = 100$, which v40.1 had computed as the top of its scan but read as a slow one; six passages are corrected. At the quick end the early, high bump is the visible disk's own, as §XXXVIII.22(b) found: Freeman's peak at $2.15h$, standing $\sqrt{0.38705k/C}$ times the plateau's speed, while the leaf's halo-like remainder never peaks. Read as Newton and a halo, a point mass on the leaf carries an apparent halo in closed form: a $1/R$ cusp for $R\ll\ell$, as NFW's, turning to the isothermal $1/R^2$, its mass inside $R = \ell$ being $2\sqrt2-1$ times the point's. The image of the sine-exponential source is exponential while $R\ll\ell$ and then falls as $\cos^3\chi$: on the Milky Way's leaf it is exponential to four scale lengths, a part that holds $83.1\%$ of the mass, and the $1.46\%$ beyond $36$ kpc moves the curve inside $24$ kpc by under $2$ km/s, about the measured curve's statistical errors at most and far below the leaf's own misfit: the curve leaves the density near the equator to theory, though the stellar halo's mass bounds it. For a slow falloff, removing or doubling it moves the curve by tens of km/s. Thirteen figures show these in the gnomonic view.
+
+*v40.3 in brief.* The author's third freedom rescales the whole galaxy, so that the GM in $v^2$ is an apparent mass, $\mathcal B$ times the absolute one the light and gas give: $v^2 = \mathcal B(GM/\ell)\,u(R/\ell;\ell/h)$. On the Milky Way the three freedoms fit at $\chi^2/(N-3) = 3.73$, with $h$ the light's and the leaf, $23.77$ kpc, $0.949$ of the arena law's $25.04$ for the benchmark mass, the arena leaf inside the curve's interval; $\mathcal B = 1.388$. On the eight galaxies of the v36 pilot, with the leaf's remainder added to each galaxy's own baryonic curve, $\ell$ and $\mathcal B$ per galaxy follow the curves better in total than an NFW halo with its two numbers, though not than the halo given the baryons' scale too, and on leaves of at least $2.7R_{\rm disk}$ the rescaling acts on the whole curve, as proposed. Across the galaxies, at the adopted mass-to-light ratios, the leaf carries most of the Tully–Fisher square root, and at the arena leaf the rescaling each curve wants is, identically, $3/C$ — the geometry of its sources on the leaf, for one disk a function of surface density, large for the diffuse, gas-rich dwarfs — times the plateau's offset from $v^4 = GMa_0$, which follows the galaxy's own. With no per-galaxy freedom the arena rule has an acceleration relation of its own, a fifth below the radial acceleration relation, and more than twice its $\chi^2$ on the eight; its one- and two-constant variants fit them about as well as the relation, and predict each left out about as well as the relation refitted without it, though not as well as the relation at its published constant. $\mathcal B = 3/C$ is read off the relation it restores; deriving it is the open piece.
 
 ## XXXVIII.1 The round's inputs — the pedagogical take, Entries 489–521, the responses and the assessments — as formulated (18–20 November 2026) [record; R562]
 
@@ -104400,15 +104410,17 @@ At $n = 0$ it is the frozen operator of §IV.3, $\Delta+3$; at $n = 6$ the plain
 - **R578 (standing).** What v40.0 establishes, what it does not claim, and the next pieces (§XXXVIII.17). [S/O]
 - **R579 (the suite and the toy).** `pg_v40_numerics.py`, embedded (§XXXVIII.19), with v39's library copied and renamed, v36's thin-disk solver ported to plain arithmetic, and the toy's modes `v40` and `v40_0`; the toy's `all` runs the frozen suites and Part XXXVIII together. [V]
 
-## XXXVIII.19 Executable appendix: `pg_v40_numerics.py`, embedded [reproducibility; v40.0–v40.2, R564–R575, R579, R581–R582, R586, R588–R590]
+## XXXVIII.19 Executable appendix: `pg_v40_numerics.py`, embedded [reproducibility; v40.0–v40.3, R564–R575, R579, R581–R582, R586, R588–R590, R593–R597]
 
-*The standalone suite that prints every computed number of Part XXXVIII. Save the block as `pg_v40_numerics.py` and run `python3 -I pg_v40_numerics.py` (the regression suite of Part XXXVIII, v40.0–v40.2: 17 checks; exit status 1 if any fails, in every mode; about a minute and a quarter on the build machine), or one round's sections with `python3 -I pg_v40_numerics.py v40_0`, `v40_1` or `v40_2`; an unknown mode prints the usage line and exits with status 2. It imports NumPy only for the header it shares with the toy, and computes every number in plain Python arithmetic: its derivatives exact, by truncated Taylor series in four variables for the metrics and in one for the complex jets of v40.0-1(h) and (l), its few finite differences — the conformal Killing–Yano form's covariant derivatives in v40.0-5(a) and the Gauss curvature of v40.0-12(c)–(d) — stated where they are printed, its quadratures by Simpson's rule and, in the ported thin-disk solver, by the midpoint rule and $32$-node Gauss–Legendre pieces whose nodes Newton's iteration finds, its roots by bisection, the shooting of v40.0-9(b) by a secant iteration, the ring's least energy in v40.0-10(g) by power iteration, the harmonic counts of v40.0-12(g) by exact rational ranks, its elliptic integrals by the arithmetic-geometric mean, and its random samples drawn from seeded generators — and, in v40.1, the ported solver evaluated through kernel rows computed once per point with $256$ azimuths in its ring kernel's bounded remainder, four-point interpolation and an eight-point polynomial in $\ln R$, golden-section searches, bisection and the false position, and in v40.2 closed forms, Freeman's peak by a golden-section search and the image's mass beyond a radius by graded panels — so that its output does not depend on a linear-algebra library. It embeds data attributed where they are printed: CODATA 2022's constants (Mohr et al. 2025), the IAU's nominal solar $GM$ and parsec, the electroweak crossover temperature (D'Onofrio and Rummukainen 2016), the Milky Way's stellar halo (Deason, Belokurov and Sanders 2019), the circumgalactic gas of $L^*$ galaxies (Werk et al. 2014), the thin disk's scale length and height (Bland-Hawthorn and Gerhard 2016) and the circular speed at the Sun (Eilers et al. 2019); and, for v40.1, Eilers et al.'s circular velocity curve and adopted solar radius, SPARC's curves of DDO 154 and IC 2574 and the pilot's disk scale lengths and measured radii (Lelli, McGaugh and Schombert 2016, as the frozen `pg_v36_numerics.py` embeds them) with v36's baryonic masses, arena leaves and source breadths, and the thin disk's scale length with its uncertainty. Its library — the residual and decimal printers, the jets and the curvature of a metric of jets — is copied from the frozen `pg_v39_numerics.py` and renamed, and v36's thin-disk solver is ported from the frozen `pg_v36_numerics.py` to plain arithmetic, reproducing its plateau coefficient. The frozen suites remain `pg_v39_numerics.py` (Part XXXVII, §XXXVII.19), `pg_v38_numerics.py` (Part XXXVI, §XXXVI.15), `pg_v37_numerics.py` (Part XXXV, §XXXV.14), `pg_v36_numerics.py` (Parts XXXIII–XXXIV, §XXXIII.13), `pg_v35_numerics.py` (Parts XXX–XXXII, §XXX.10) and `pg_v34_numerics.py` (Part XXIX, §XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v40`, `v40_0`, `v40_1` and `v40_2` run it and whose `all` runs the frozen v34.10, v35.8, v36.16, v37.9, v38.2 and v39.0 suites and Part XXXVIII together (367 checks). The figures of §XXXVIII.27(e) are drawn by `galaxy_sims/pg_v40_figures.py`, delivered in a subdirectory beside this suite and not embedded, which imports it and matplotlib. SHA-256 of the file: `0d7a93b775485d626efbfeecb0462ad50f34af6c579dd70ced14e3e48c8c882c`.*
+*The standalone suite that prints every computed number of Part XXXVIII. Save the block as `pg_v40_numerics.py` and run `python3 -I pg_v40_numerics.py` (the regression suite of Part XXXVIII, v40.0–v40.3: 21 checks; exit status 1 if any fails, in every mode; about two and a half minutes on the build machine), or one round's sections with `python3 -I pg_v40_numerics.py v40_0`, `v40_1`, `v40_2` or `v40_3`; an unknown mode prints the usage line and exits with status 2. It imports NumPy only for the header it shares with the toy, and computes every number in plain Python arithmetic: its derivatives exact, by truncated Taylor series in four variables for the metrics and in one for the complex jets of v40.0-1(h) and (l), its few finite differences — the conformal Killing–Yano form's covariant derivatives in v40.0-5(a) and the Gauss curvature of v40.0-12(c)–(d) — stated where they are printed, its quadratures by Simpson's rule and, in the ported thin-disk solver, by the midpoint rule and $32$-node Gauss–Legendre pieces whose nodes Newton's iteration finds, its roots by bisection, the shooting of v40.0-9(b) by a secant iteration, the ring's least energy in v40.0-10(g) by power iteration, the harmonic counts of v40.0-12(g) by exact rational ranks, its elliptic integrals by the arithmetic-geometric mean, and its random samples drawn from seeded generators — and, in v40.1, the ported solver evaluated through kernel rows computed once per point with $256$ azimuths in its ring kernel's bounded remainder, four-point interpolation and an eight-point polynomial in $\ln R$, golden-section searches, bisection and the false position, and in v40.2 closed forms, Freeman's peak by a golden-section search and the image's mass beyond a radius by graded panels, and in v40.3 a table of the leaf's curves in $k$, Abramowitz and Stegun's polynomial approximations to the Bessel functions, a Nelder–Mead simplex and the rescaling in closed form — so that its output does not depend on a linear-algebra library. It embeds data attributed where they are printed: CODATA 2022's constants (Mohr et al. 2025), the IAU's nominal solar $GM$ and parsec, the electroweak crossover temperature (D'Onofrio and Rummukainen 2016), the Milky Way's stellar halo (Deason, Belokurov and Sanders 2019), the circumgalactic gas of $L^*$ galaxies (Werk et al. 2014), the thin disk's scale length and height (Bland-Hawthorn and Gerhard 2016) and the circular speed at the Sun (Eilers et al. 2019); and, for v40.1, Eilers et al.'s circular velocity curve and adopted solar radius, SPARC's curves of DDO 154 and IC 2574 and the pilot's disk scale lengths and measured radii (Lelli, McGaugh and Schombert 2016, as the frozen `pg_v36_numerics.py` embeds them) with v36's baryonic masses, arena leaves and source breadths, and the thin disk's scale length with its uncertainty; and, for v40.3, SPARC's Table 1 rows and mass models of the eight galaxies of the v36 pilot (the same source, as the same frozen suite embeds them), v36's labels, two-label $\chi^2/(N-2)$ and radial acceleration column (§§XXXIII.5, XXXIII.10, XXXIII.17), and the radial acceleration relation's form and $g^\dagger$ (McGaugh, Lelli and Schombert 2016). Its library — the residual and decimal printers, the jets and the curvature of a metric of jets — is copied from the frozen `pg_v39_numerics.py` and renamed, and v36's thin-disk solver is ported from the frozen `pg_v36_numerics.py` to plain arithmetic, reproducing its plateau coefficient. The frozen suites remain `pg_v39_numerics.py` (Part XXXVII, §XXXVII.19), `pg_v38_numerics.py` (Part XXXVI, §XXXVI.15), `pg_v37_numerics.py` (Part XXXV, §XXXV.14), `pg_v36_numerics.py` (Parts XXXIII–XXXIV, §XXXIII.13), `pg_v35_numerics.py` (Parts XXX–XXXII, §XXX.10) and `pg_v34_numerics.py` (Part XXIX, §XXIX.21). The same body is appended to `v32_toy_three_ends.py`, whose modes `v40`, `v40_0`, `v40_1`, `v40_2` and `v40_3` run it and whose `all` runs the frozen v34.10, v35.8, v36.16, v37.9, v38.2 and v39.0 suites and Part XXXVIII together (371 checks). The figures of §XXXVIII.27(e) are drawn by `galaxy_sims/pg_v40_figures.py`, delivered in a subdirectory beside this suite and not embedded, which imports it and matplotlib; those of §§XXXVIII.31–34 by `galaxy_sims/pg_v403_figures.py`, beside it, from the suite's fits. SHA-256 of the file: `661e79e804a62239b1ad5806f65fc4de39ba27551f296f157f7c238c7450cde6`.*
 
 ```python
 """Projective Gravity v40 -- standalone numerical suite for Part XXXVIII: the leaf between the horizons -- the C-metric beside Kerr, Law I on the
 leaf, the galaxy as a rendering and the two Hopf structures -- Entries 489-521 with the responses to them, of 18-20 November 2026 (v40.0); the
 follow-up of 20-21 November on the galaxy's falloff, its Newtonian reading and a leaf per galaxy (v40.1); the quick falloff, the point source's
-apparent halo, the image's density against the exponential and the density near the equator, of 22 November (v40.2) (NumPy imported for the shared header only;
+apparent halo, the image's density against the exponential and the density near the equator, of 22 November (v40.2); the third freedom, a
+rescaling B of the gravitating mass, on the Milky Way and the eight SPARC galaxies of the v36 pilot, of 22 November (v40.3) (NumPy imported for
+the shared header only;
 every number is computed in plain Python arithmetic, the curvature exactly by truncated Taylor series where it is taken by jets, a few derivatives
 by stated finite differences; Python 3.11-3.13 tested).
 Part XXXVII is frozen at v39.0 with its suite pg_v39_numerics.py; Part XXXVI at v38.2 with pg_v38_numerics.py; Part XXXV at v37.9 with
@@ -104416,10 +104428,11 @@ pg_v37_numerics.py; Parts XXXIII-XXXIV at v36.16 with pg_v36_numerics.py; Parts 
 is pg_v34_numerics.py (v34.10).
 
 Run (from the directory holding this file):
-    python3 -I pg_v40_numerics.py              # the regression suite of Part XXXVIII, v40.0-v40.2 (check summary; about a minute and a quarter)
+    python3 -I pg_v40_numerics.py              # the regression suite of Part XXXVIII, v40.0-v40.3 (check summary; about two and a half minutes)
     python3 -I pg_v40_numerics.py v40_0        # the v40.0 sections only (a few seconds)
     python3 -I pg_v40_numerics.py v40_1        # the v40.1 sections only (about a minute)
     python3 -I pg_v40_numerics.py v40_2        # the v40.2 sections only (under a minute)
+    python3 -I pg_v40_numerics.py v40_3        # the v40.3 sections only (about a minute and a half)
 Every mode exits with status 1 if any check fails; an unknown mode prints the usage line and exits with status 2.
 
 v40_0_suite(): Entry 489, the sphere of references read again -- its center, a reference at a point of the line and its complement's signature,
@@ -104455,6 +104468,14 @@ length 2.6 +- 0.5 kpc (Bland-Hawthorn and Gerhard 2016).
 v40_2_suite(): the second follow-up of 22 November.  The quick falloff, k = 100, against Freeman's peak; the point source's apparent halo,
 its mass and density in closed form; the image's density against the exponential, the radius where it departs and the mass inside and
 beyond; and the density near the leaf's equator changed beyond 36 kpc, by v40.0's thin-disk solver, against Eilers et al.'s errors.
+
+v40_3_suite(): the third follow-up of 22 November.  The third freedom, v^2 = B (G M/ell) u(R/ell; ell/h): the Milky Way with ell, h and B free,
+with B = 1, on the arena leaf and with B = 3/C(k), against Newton, the radial acceleration relation and an NFW halo on the same disk; the eight
+galaxies of the v36 pilot with the leaf's remainder added to their own baryonic curves, the whole times B, against the same baselines; the
+labels f = ell/ell_arena and B across them, the label condition and B = 3/C_eff at the arena leaf; rules with no per-galaxy freedom and
+leave-one-out.  Data embedded for v40.3, attributed where printed: SPARC's Table 1 and mass models for the eight galaxies (Lelli, McGaugh and
+Schombert 2016), as the frozen pg_v36_numerics.py embeds them, with v36's labels and its RAR column (Sections XXXIII.5 and XXXIII.10); the
+radial acceleration relation (McGaugh, Lelli and Schombert 2016) with a0 = 1.2e-10 m/s^2; Abramowitz and Stegun's Bessel approximations.
 """
 import numpy as np
 PI = np.pi
@@ -107709,9 +107730,1133 @@ def v40_2_suite():
     """The v40.2 sections: v40.2-1 and v40.2-2 (R587-R590)."""
     v40_2_quick(); v40_2_equator()
 
+# ==================================================================================================== v40.3 (22 November 2026)
+# The third follow-up: the third freedom.  v^2 = B (G M/ell) u(R/ell; ell/h), B the factor by which the gravitating mass exceeds the measured
+# one -- the author's apparent mass over the absolute -- with ell and h the leaf and the falloff length; fitted to the Milky Way with all three
+# free; for the eight SPARC galaxies of the frozen v36 pilot, the leaf's remainder (its curve less its image's Newtonian curve) added to the
+# galaxy's own baryonic curve, the whole times B; the labels across the galaxies against Part XII's arena law and Section XXXIII.16's label
+# condition; rules with no per-galaxy freedom, with leave-one-out; against Newton, the radial acceleration relation and NFW halos on the same
+# data, errors and mass-to-light ratios (R593-R596).  The fits minimize chi^2 = sum((v_model - V)/sigma)^2 with the published errors; B is
+# eliminated in closed form, sqrt(B) = sum(w V/sigma^2)/sum(w^2/sigma^2) with w the curve at B = 1; the leaf and the falloff length by grids,
+# golden sections and a Nelder-Mead simplex.  After the referee's first reading: NFW's shape by its series where its difference loses digits;
+# the fits at the floor of the leaves' search flagged and repeated without the floor; NFW with the baryons' scale free beside it; the single
+# source from six starts; the leaves at the disk's ratios 0.3 and 0.7; Part XII's ceiling in its own definition; a control of the table between
+# the grid's radii; the spreads of the acceleration relations; and the ratios the texts quote, printed.
+
+_V43_A0 = 1.2e-10*3.0856775814913673e19/1e6             # a0 = 1.2e-10 m/s^2 in (km/s)^2/kpc, the frozen v36 suite's _V36_A0
+_V43_KT = tuple(0.01*10.0**(i/60) for i in range(301))  # the table's k = ell/h, 0.01 to 1000, sixty to a decade
+_V43_LKT = tuple(math.log(k) for k in _V43_KT)
+_V43_TAB = {}
+_V43_MAG = 2.5/math.log(10.0)
+
+def _v43_table():
+    """The leaf's curves u and the image's Newtonian curves un on the common grid of v40.1 (_v41_curves), and C(k), for each k of _V43_KT;
+    computed once (the grid's rows first, then about a tenth of a second for each k)."""
+    if 'u' in _V43_TAB: return _V43_TAB
+    U, UN, CK = [], [], []
+    for k in _V43_KT:
+        c = _v41_curves(k); U.append(c['u']); UN.append(c['un']); CK.append(c['C'])
+    _V43_TAB.update(u=U, un=UN, R=[[a - b for a, b in zip(x, y)] for x, y in zip(U, UN)], C=CK); return _V43_TAB
+
+def _v43_w4(t, n):
+    """The first node and the four Lagrange weights of a point at t, in node units, on n equally spaced nodes."""
+    j = min(max(int(math.floor(t)) - 1, 0), n - 4); s = t - j
+    return j, (-(s - 1)*(s - 2)*(s - 3)/6, s*(s - 2)*(s - 3)/2, -s*(s - 1)*(s - 3)/2, s*(s - 1)*(s - 2)/6)
+
+def _v43_leaf(which, k, X):
+    """v^2 ell/(G M) at R/ell = X for e^(-k sin chi): the leaf's ('u'), its image's Newtonian ('un') or the remainder u - un ('R'); four-point
+    Lagrange in ln k on the table and in ln X on the grid."""
+    T = _v43_table()[which]
+    jk, wk = _v43_w4((math.log(k) - _V43_LKT[0])/(_V43_LKT[1] - _V43_LKT[0]), len(_V43_KT))
+    jx, wx = _v43_w4((math.log(X) - _V41_LG[0])/(_V41_LG[1] - _V41_LG[0]), _V41_NJ)
+    return sum(a*sum(b*T[jk + i][jx + m] for m, b in enumerate(wx)) for i, a in enumerate(wk))
+
+def _v43_C(k):
+    """The plateau coefficient C(k), four-point Lagrange in ln k on the table."""
+    T = _v43_table()['C']; jk, wk = _v43_w4((math.log(k) - _V43_LKT[0])/(_V43_LKT[1] - _V43_LKT[0]), len(_V43_KT))
+    return sum(a*T[jk + i] for i, a in enumerate(wk))
+
+def _v43_direct(k, X):
+    """u and un at R/ell = X computed directly, by the rows and differences with which v40.1 computes its grid's points (_v41_grid,
+    _v41_curves): the control of the table's interpolation in ln R, at points between the grid's."""
+    pts, eq, nrm = _v41_grid(); nk = _v41_ndot(nrm, k); x = math.atan(X); dh = min(1e-4, 0.02*x)
+    key = ('direct', X)
+    if key not in _V43_TAB:
+        R1, R2 = math.tan(x - dh), math.tan(x + dh)
+        _V43_TAB[key] = (_v41_at_nphi(_V41_NPHI, lambda: _v41_row(x - dh)), _v41_at_nphi(_V41_NPHI, lambda: _v41_row(x + dh)),
+                         _v41_image_row(_v41_nrow(R1)), _v41_image_row(_v41_nrow(R2)), R1, R2)
+    rm, rp, nm, np_, R1, R2 = _V43_TAB[key]
+    return (-2*math.tan(x)*(_v41_dot(rp, k) - _v41_dot(rm, k))/(2*dh)/nk, math.tan(x)*(_v41_ndot(np_, k) - _v41_ndot(nm, k))/(R2 - R1)/nk)
+
+def _v43_upt(t):
+    """The point source on the leaf, v^2 ell/(G M) at R/ell = t (Section XXXI.38(a))."""
+    return (1 + 3*t*t)/(t*math.sqrt(1 + t*t))
+
+def _v43_rpt(t):
+    """Its remainder over Newton's 1/t."""
+    return ((1 + 3*t*t) - math.sqrt(1 + t*t))/(t*math.sqrt(1 + t*t))
+
+def _v43_bessel(x):
+    """e^-x I0, e^-x I1, e^x K0, e^x K1 by the polynomial approximations of Abramowitz and Stegun 9.8.1-9.8.8."""
+    if x <= 3.75:
+        t = (x/3.75)**2
+        i0 = 1 + t*(3.5156229 + t*(3.0899424 + t*(1.2067492 + t*(0.2659732 + t*(0.0360768 + t*0.0045813)))))
+        i1 = x*(0.5 + t*(0.87890594 + t*(0.51498869 + t*(0.15084934 + t*(0.02658733 + t*(0.00301532 + t*0.00032411))))))
+        i0s, i1s = i0*math.exp(-x), i1*math.exp(-x)
+    else:
+        t = 3.75/x; s = math.sqrt(x)
+        i0s = (0.39894228 + t*(0.01328592 + t*(0.00225319 + t*(-0.00157565 + t*(0.00916281 + t*(-0.02057706 + t*(0.02635537
+               + t*(-0.01647633 + t*0.00392377))))))))/s
+        i1s = (0.39894228 + t*(-0.03988024 + t*(-0.00362018 + t*(0.00163801 + t*(-0.01031555 + t*(0.02282967 + t*(-0.02895312
+               + t*(0.01787654 - t*0.00420059))))))))/s
+    if x <= 2.0:
+        y = x*x/4; I0, I1 = i0s*math.exp(x), i1s*math.exp(x)
+        k0 = -math.log(x/2)*I0 + (-0.57721566 + y*(0.42278420 + y*(0.23069756 + y*(0.03488590 + y*(0.00262698 + y*(0.00010750
+             + y*0.00000740))))))
+        k1 = (x*math.log(x/2)*I1 + (1 + y*(0.15443144 + y*(-0.67278579 + y*(-0.18156897 + y*(-0.01919402 + y*(-0.00110404
+              - y*0.00004686)))))))/x
+        k0s, k1s = k0*math.exp(x), k1*math.exp(x)
+    else:
+        y = 2/x; s = math.sqrt(x)
+        k0s = (1.25331414 + y*(-0.07832358 + y*(0.02189568 + y*(-0.01062446 + y*(0.00587872 + y*(-0.00251540 + y*0.00053208))))))/s
+        k1s = (1.25331414 + y*(0.23498619 + y*(-0.03655620 + y*(0.01504268 + y*(-0.00780353 + y*(0.00325614 - y*0.00068245))))))/s
+    return i0s, i1s, k0s, k1s
+
+def _v43_freeman(R, M, h):
+    """Freeman's thin exponential disk of mass M and scale length h: v^2 = 2 (G M/h) y^2 [I0 K0 - I1 K1](y), y = R/(2h); beyond y = 10 its
+    multipole series in the plane, (G M/R) sum (2n+1) P_2n(0)^2 (2n+1)! (h/R)^(2n), to n = 6."""
+    y = R/(2*h)
+    if y > 10:
+        s = 1.0
+        for n in range(1, 7):
+            p = math.comb(2*n, n)/4**n; s += p*p*math.factorial(2*n + 1)*(2*n + 1)/(4**n*y**(2*n))
+        return _V40_GK*M/R*s
+    a, b, c, d = _v43_bessel(y); return 2*_V40_GK*M/h*y*y*(a*c - b*d)
+
+def _v43_rar(gbar, g0=_V43_A0):
+    """The radial acceleration relation of McGaugh, Lelli and Schombert (2016), g = g_bar/(1 - exp(-sqrt(g_bar/g0))); 0 where g_bar <= 0."""
+    return gbar/(1 - math.exp(-math.sqrt(gbar/g0))) if gbar > 0 else 0.0
+
+def _v43_nfw(y):
+    """NFW's v^2 shape, (ln(1 + y) - y/(1 + y))/y, y = R/r_s; below y = 1e-3, where the difference of two numbers of order y loses its
+    digits, by its series y/2 - 2y^2/3 + 3y^3/4 - 4y^4/5 (v40.3's first reading)."""
+    if y < 1e-3: return y*(0.5 + y*(-2/3 + y*(0.75 - 0.8*y)))
+    return (math.log(1 + y) - y/(1 + y))/y
+
+def _v43_kneed(X, tol):
+    """The smallest k = ell/h for which the image of e^(-k sin chi) stays within tol magnitudes of the exponential out to X scale lengths --
+    v40.0-7's search, by bisection in ln k on 600 points."""
+    worst = lambda k: max(abs(_V43_MAG*_v40_lnratio(X*i/600.0, k)) for i in range(1, 601)); lo, hi = 0.5, 4000.0
+    for _ in range(70):
+        mid = math.sqrt(lo*hi)
+        if worst(mid) > tol: lo = mid
+        else: hi = mid
+    return hi
+
+def _v43_nelder(f, x0, step, it=600, tol=1e-12):
+    """The minimum of f by the Nelder-Mead simplex (reflection 1, expansion 2, contraction and shrink 1/2): (f, x)."""
+    n = len(x0); pts = [list(x0)] + [[x0[j] + (step[j] if j == i else 0.0) for j in range(n)] for i in range(n)]; fv = [f(p) for p in pts]
+    for _ in range(it):
+        o = sorted(range(n + 1), key=lambda i: fv[i]); pts = [pts[i] for i in o]; fv = [fv[i] for i in o]
+        if abs(fv[-1] - fv[0]) <= tol*(abs(fv[0]) + 1e-30): break
+        c = [sum(p[j] for p in pts[:-1])/n for j in range(n)]
+        xr = [c[j] + (c[j] - pts[-1][j]) for j in range(n)]; fr = f(xr)
+        if fr < fv[0]:
+            xe = [c[j] + 2*(c[j] - pts[-1][j]) for j in range(n)]; fe = f(xe)
+            pts[-1], fv[-1] = (xe, fe) if fe < fr else (xr, fr)
+        elif fr < fv[-2]: pts[-1], fv[-1] = xr, fr
+        else:
+            xc = [c[j] + 0.5*(pts[-1][j] - c[j]) for j in range(n)]; fc = f(xc)
+            if fc < fv[-1]: pts[-1], fv[-1] = xc, fc
+            else:
+                pts = [pts[0]] + [[pts[0][j] + 0.5*(p[j] - pts[0][j]) for j in range(n)] for p in pts[1:]]
+                fv = [fv[0]] + [f(p) for p in pts[1:]]
+    i = min(range(n + 1), key=lambda i: fv[i]); return fv[i], pts[i]
+
+def _v43_amp(w, V, E, B=None):
+    """chi^2 of v_model = sqrt(B) w against V with errors E: B >= 0 in closed form, or fixed: (chi^2, B, the model speeds)."""
+    if B is None:
+        den = sum((a/e)**2 for a, e in zip(w, E)); s = max(sum(a*v/e**2 for a, v, e in zip(w, V, E))/den, 0.0) if den > 0 else 0.0
+    else: s = math.sqrt(B)
+    m = [s*a for a in w]; return sum(((a - v)/e)**2 for a, v, e in zip(m, V, E)), s*s, m
+
+def _v43_stats(m, V, E, p):
+    """chi^2, N, p, chi^2/(N - p), the rms and largest |v_model - V| of model speeds m."""
+    N = len(V); c2 = sum(((a - v)/e)**2 for a, v, e in zip(m, V, E)); d = [a - v for a, v in zip(m, V)]
+    return dict(chi2=c2, N=N, p=p, red=c2/(N - p), rms=math.sqrt(sum(x*x for x in d)/N), dmax=max(abs(x) for x in d))
+
+def _v43_sq(v2): return [math.sqrt(max(x, 0.0)) for x in v2]
+
+# SPARC (Lelli, McGaugh & Schombert 2016, AJ 152, 157): the eight galaxies of the frozen v36 pilot, Table 1 and the Rotmod_LTG mass models, as
+# the frozen pg_v36_numerics.py embeds them -- its _V36_SPARC_T1 and _V36_SPARC_ROT copied byte for byte and renamed.
+_V43_SPARC_T1 = {
+    "DDO154": (4.04, 64.0, 0.053, 0.37, 0.275, 47.0, 1.0, 2),
+    "IC2574": (3.91, 75.0, 1.016, 2.78, 1.036, 66.4, 2.0, 2),
+    "NGC2403": (3.16, 63.0, 10.041, 1.39, 3.199, 131.2, 4.9, 1),
+    "NGC3198": (13.80, 73.0, 38.279, 3.14, 10.869, 150.1, 3.9, 1),
+    "NGC6503": (6.26, 74.0, 12.845, 2.16, 1.744, 116.3, 2.4, 1),
+    "NGC2841": (14.10, 76.0, 188.121, 3.64, 9.775, 284.8, 8.6, 1),
+    "UGC02885": (80.60, 64.0, 403.525, 11.40, 40.075, 289.5, 12.0, 1),
+    "NGC7814": (14.40, 90.0, 74.529, 2.54, 1.070, 218.9, 7.0, 1),
+}
+# Rotmod rows: R [kpc], Vobs, errV, Vgas, Vdisk, Vbul [km/s] (disk and bulge for mass-to-light 1), SBdisk, SBbul [Lsun/pc^2]
+_V43_SPARC_ROT = {
+    "DDO154": """
+        0.49 13.80 1.60 3.74 12.31 0.00 15.93 0.00
+        0.99 21.60 0.80 7.46 14.55 0.00 5.52 0.00
+        1.48 28.90 0.70 10.87 12.95 0.00 1.26 0.00
+        1.97 34.30 0.50 13.32 11.54 0.00 0.29 0.00
+        2.47 38.20 0.40 14.77 10.18 0.00 0.08 0.00
+        2.96 42.00 0.20 16.20 9.16 0.00 0.02 0.00
+        3.46 44.60 0.20 17.60 8.37 0.00 0.01 0.00
+        3.95 46.30 0.20 17.91 7.77 0.00 0.00 0.00
+        4.44 47.40 0.30 17.48 7.29 0.00 0.00 0.00
+        4.94 48.20 0.60 16.93 6.89 0.00 0.00 0.00
+        5.43 47.40 0.70 16.28 6.55 0.00 0.00 0.00
+        5.92 45.50 1.30 15.64 6.26 0.00 0.00 0.00
+        """,
+    "IC2574": """
+        0.85 10.30 0.20 0.00 9.59 0.00 16.75 0.00
+        1.14 12.90 2.70 0.00 11.99 0.00 14.92 0.00
+        1.42 16.40 1.80 0.94 13.83 0.00 13.07 0.00
+        1.71 18.60 2.10 3.44 15.27 0.00 11.58 0.00
+        1.99 19.80 2.00 5.14 16.76 0.00 10.80 0.00
+        2.28 26.10 0.60 5.82 17.77 0.00 9.24 0.00
+        2.55 27.70 2.70 6.87 18.70 0.00 8.42 0.00
+        2.84 29.70 2.60 7.58 19.36 0.00 7.37 0.00
+        3.13 33.00 3.40 8.21 19.89 0.00 6.93 0.00
+        3.41 34.80 1.20 8.78 20.19 0.00 5.88 0.00
+        3.70 35.00 0.90 8.64 20.15 0.00 5.69 0.00
+        3.98 39.00 10.20 7.98 20.39 0.00 5.87 0.00
+        4.26 35.90 5.40 7.97 21.28 0.00 6.08 0.00
+        4.55 40.00 4.10 10.01 22.72 0.00 6.50 0.00
+        4.84 38.70 1.40 11.42 24.60 0.00 5.76 0.00
+        5.12 41.80 0.50 12.67 25.34 0.00 4.60 0.00
+        5.41 42.90 0.40 13.13 25.74 0.00 4.30 0.00
+        5.68 44.40 1.70 13.93 26.48 0.00 4.03 0.00
+        5.97 46.10 1.30 14.50 27.15 0.00 3.42 0.00
+        6.26 49.00 0.90 15.98 27.39 0.00 2.76 0.00
+        6.54 51.90 0.60 17.58 27.31 0.00 2.14 0.00
+        6.83 53.10 2.10 18.38 26.75 0.00 1.67 0.00
+        7.10 54.00 0.50 19.29 26.25 0.00 1.55 0.00
+        7.39 55.90 1.10 19.86 26.04 0.00 1.54 0.00
+        7.68 58.80 3.60 21.01 25.86 0.00 1.40 0.00
+        7.96 57.30 4.60 21.81 25.77 0.00 1.25 0.00
+        8.25 54.00 9.00 22.49 25.57 0.00 1.12 0.00
+        8.52 63.80 12.00 22.38 25.47 0.00 1.02 0.00
+        8.81 60.50 6.20 22.60 25.41 0.00 0.92 0.00
+        9.10 61.00 5.70 22.95 25.38 0.00 0.83 0.00
+        9.38 66.00 1.30 23.63 25.51 0.00 0.75 0.00
+        9.67 65.20 3.40 24.89 25.74 0.00 0.67 0.00
+        9.96 67.10 4.70 25.80 24.84 0.00 0.00 0.00
+        10.23 67.50 9.30 27.17 23.97 0.00 0.00 0.00
+        """,
+    "NGC2403": """
+        0.16 24.50 2.83 0.00 23.21 0.00 1105.79 0.00
+        0.26 35.30 2.46 0.00 35.33 0.00 1006.36 0.00
+        0.36 43.20 1.12 1.92 46.97 0.00 938.26 0.00
+        0.46 52.00 1.25 2.29 56.68 0.00 789.78 0.00
+        0.56 60.90 2.93 2.64 63.77 0.00 624.65 0.00
+        0.66 65.80 1.25 3.00 67.56 0.00 511.64 0.00
+        0.76 71.70 1.25 3.34 70.83 0.00 469.31 0.00
+        0.86 74.60 1.60 3.68 72.80 0.00 402.53 0.00
+        0.96 74.60 1.03 4.02 74.87 0.00 381.19 0.00
+        1.06 76.60 1.12 4.37 77.12 0.00 359.63 0.00
+        1.16 78.50 1.60 4.75 79.47 0.00 345.41 0.00
+        1.27 83.40 1.80 5.15 82.18 0.00 332.26 0.00
+        1.36 86.40 1.60 5.51 85.19 0.00 317.57 0.00
+        1.47 87.40 1.41 5.76 87.94 0.00 297.25 0.00
+        1.57 90.30 1.41 5.98 90.77 0.00 286.72 0.00
+        1.67 93.30 1.60 6.21 93.98 0.00 271.01 0.00
+        1.77 93.30 1.41 6.42 96.86 0.00 252.38 0.00
+        1.87 95.20 1.25 6.61 99.21 0.00 231.06 0.00
+        1.97 97.20 1.60 6.81 101.42 0.00 214.50 0.00
+        2.08 99.10 2.02 7.01 103.79 0.00 203.15 0.00
+        2.18 98.20 2.02 7.27 106.07 0.00 177.77 0.00
+        2.28 98.20 1.60 7.54 106.73 0.00 143.26 0.00
+        2.37 98.20 1.00 7.81 106.19 0.00 125.45 0.00
+        2.47 97.20 1.12 8.25 105.57 0.00 115.50 0.00
+        2.57 98.20 1.41 8.77 105.08 0.00 108.64 0.00
+        2.68 98.20 1.12 9.31 104.39 0.00 99.02 0.00
+        2.78 98.20 1.60 9.95 103.80 0.00 91.66 0.00
+        2.88 99.10 2.69 10.97 103.16 0.00 86.76 0.00
+        2.98 100.00 2.69 11.96 102.68 0.00 83.79 0.00
+        3.08 102.00 3.16 13.06 102.46 0.00 81.80 0.00
+        3.19 101.00 3.40 14.06 102.29 0.00 78.36 0.00
+        3.29 101.00 3.40 15.05 102.51 0.00 75.36 0.00
+        3.39 103.00 2.93 16.15 102.82 0.00 71.99 0.00
+        3.49 107.00 2.46 17.15 103.06 0.00 67.49 0.00
+        3.59 110.00 2.46 18.14 102.95 0.00 62.39 0.00
+        3.69 112.00 3.40 19.24 103.12 0.00 56.77 0.00
+        3.79 114.00 5.10 20.24 102.93 0.00 52.43 0.00
+        3.90 118.00 5.10 21.03 102.50 0.00 47.97 0.00
+        3.99 118.00 4.85 21.83 101.99 0.00 44.58 0.00
+        4.47 118.00 5.36 25.72 99.49 0.00 31.94 0.00
+        4.97 121.00 2.57 27.81 97.06 0.00 24.17 0.00
+        5.47 124.00 0.22 29.41 94.40 0.00 15.97 0.00
+        5.96 125.00 0.88 30.70 91.13 0.00 11.31 0.00
+        6.46 126.00 0.45 31.70 87.90 0.00 7.90 0.00
+        6.96 126.00 0.55 33.29 84.95 0.00 5.51 0.00
+        7.45 126.00 0.45 34.99 81.98 0.00 3.88 0.00
+        7.95 126.00 0.24 36.58 79.11 0.00 2.71 0.00
+        8.45 127.00 1.45 38.38 76.42 0.00 1.90 0.00
+        8.94 128.00 1.12 39.97 74.09 0.00 1.34 0.00
+        9.44 128.00 1.68 41.47 71.75 0.00 0.93 0.00
+        9.94 127.00 2.56 42.57 69.58 0.00 0.65 0.00
+        10.43 127.00 1.24 43.96 67.61 0.00 0.46 0.00
+        10.93 128.00 0.21 45.06 65.75 0.00 0.32 0.00
+        11.43 130.00 1.13 45.76 64.12 0.00 0.22 0.00
+        11.92 130.00 2.23 46.15 62.55 0.00 0.16 0.00
+        12.42 132.00 2.68 46.65 61.06 0.00 0.11 0.00
+        12.92 133.00 2.68 46.95 59.67 0.00 0.08 0.00
+        13.42 133.00 3.37 46.75 58.37 0.00 0.05 0.00
+        13.91 133.00 3.81 46.25 57.26 0.00 0.04 0.00
+        14.41 133.00 2.56 45.95 56.12 0.00 0.03 0.00
+        14.91 134.00 0.56 45.66 55.05 0.00 0.02 0.00
+        15.40 134.00 0.79 45.26 54.06 0.00 0.01 0.00
+        15.90 133.00 0.67 44.76 53.11 0.00 0.01 0.00
+        16.40 134.00 2.35 44.16 52.26 0.00 0.01 0.00
+        16.89 134.00 4.13 43.36 51.43 0.00 0.00 0.00
+        17.39 136.00 3.91 42.67 50.61 0.00 0.00 0.00
+        17.89 136.00 6.38 41.87 49.84 0.00 0.00 0.00
+        18.38 135.00 8.39 41.07 49.16 0.00 0.00 0.00
+        18.88 133.00 7.83 40.27 48.46 0.00 0.00 0.00
+        19.38 134.00 6.26 39.87 47.78 0.00 0.00 0.00
+        19.87 136.00 5.60 39.87 47.15 0.00 0.00 0.00
+        20.37 135.00 5.24 39.87 46.52 0.00 0.00 0.00
+        20.87 134.00 3.12 39.87 45.97 0.00 0.00 0.00
+        """,
+    "NGC3198": """
+        0.32 24.40 35.90 0.00 63.28 0.00 1084.92 0.00
+        0.64 43.30 16.30 0.00 73.66 0.00 590.57 0.00
+        0.96 45.50 16.10 0.00 78.98 0.00 410.97 0.00
+        1.28 58.50 15.40 0.35 82.70 0.00 329.34 0.00
+        1.61 68.80 7.61 0.15 84.22 0.00 268.62 0.00
+        1.93 76.90 10.30 -0.05 83.17 0.00 247.67 0.00
+        2.24 82.00 8.09 -0.47 87.04 0.00 227.56 0.00
+        2.57 86.90 7.60 -0.95 88.91 0.00 205.02 0.00
+        2.89 97.60 3.03 -1.43 88.98 0.00 200.20 0.00
+        3.21 100.00 5.31 -1.14 93.81 0.00 208.58 0.00
+        3.54 107.00 7.51 -0.39 101.22 0.00 208.47 0.00
+        3.85 113.00 7.32 0.36 108.53 0.00 196.07 0.00
+        4.17 117.00 5.21 1.52 115.51 0.00 179.96 0.00
+        4.50 119.00 5.67 3.07 120.51 0.00 164.19 0.00
+        4.82 127.00 5.39 4.63 125.42 0.00 150.99 0.00
+        5.15 132.00 4.34 6.02 129.40 0.00 138.08 0.00
+        5.46 134.00 2.36 7.16 133.15 0.00 126.00 0.00
+        5.78 137.00 0.89 8.31 136.45 0.00 113.63 0.00
+        6.10 140.00 2.84 9.46 139.41 0.00 101.19 0.00
+        6.43 142.00 0.88 10.61 141.85 0.00 86.52 0.00
+        6.74 144.00 1.23 11.77 142.32 0.00 70.23 0.00
+        7.06 146.00 1.57 12.87 140.94 0.00 57.67 0.00
+        8.04 147.00 3.00 16.39 135.68 0.00 40.74 0.00
+        9.04 148.00 3.00 20.03 130.79 0.00 31.83 0.00
+        10.04 152.00 2.00 23.68 128.10 0.00 26.64 0.00
+        11.04 155.00 2.00 27.08 126.67 0.00 21.02 0.00
+        12.05 156.00 2.00 30.11 124.98 0.00 15.42 0.00
+        14.05 157.00 2.00 34.48 118.12 0.00 6.42 0.00
+        16.07 153.00 2.00 36.43 108.22 0.00 2.95 0.00
+        18.13 153.00 2.00 37.76 101.10 0.00 2.39 0.00
+        20.05 154.00 2.00 39.83 96.40 0.00 1.44 0.00
+        22.12 153.00 2.00 40.92 91.56 0.00 0.72 0.00
+        24.03 150.00 2.00 41.77 87.03 0.00 0.28 0.00
+        26.10 149.00 2.00 43.71 82.67 0.00 0.16 0.00
+        28.16 148.00 2.00 45.41 79.06 0.00 0.08 0.00
+        30.08 146.00 2.00 45.29 76.07 0.00 0.04 0.00
+        32.14 147.00 2.00 44.56 73.27 0.00 0.02 0.00
+        34.06 148.00 2.00 44.81 70.91 0.00 0.01 0.00
+        36.12 148.00 2.00 45.90 68.62 0.00 0.01 0.00
+        38.19 149.00 2.00 46.75 66.59 0.00 0.00 0.00
+        40.10 150.00 2.00 47.48 64.84 0.00 0.00 0.00
+        42.17 150.00 3.00 48.93 63.10 0.00 0.00 0.00
+        44.08 149.00 3.00 47.84 61.63 0.00 0.00 0.00
+        """,
+    "NGC6503": """
+        0.76 77.00 10.00 4.04 70.72 0.00 834.73 0.00
+        1.52 100.00 5.00 7.62 123.17 0.00 563.29 0.00
+        2.28 110.00 2.00 9.72 142.64 0.00 225.60 0.00
+        3.04 118.00 2.00 12.42 134.42 0.00 66.48 0.00
+        3.79 121.00 2.00 13.35 121.97 0.00 28.63 0.00
+        4.55 121.00 2.00 14.78 111.53 0.00 14.64 0.00
+        5.31 117.00 2.00 17.55 103.23 0.00 8.92 0.00
+        6.07 116.00 2.00 19.20 96.65 0.00 6.87 0.00
+        6.83 116.00 2.00 20.33 91.96 0.00 5.31 0.00
+        7.59 116.00 2.00 21.66 87.62 0.00 2.98 0.00
+        8.35 115.00 1.00 22.79 83.25 0.00 1.95 0.00
+        9.11 115.00 1.00 23.92 79.58 0.00 1.74 0.00
+        9.86 116.00 1.00 24.84 76.81 0.00 1.53 0.00
+        10.64 117.00 1.00 25.46 74.18 0.00 0.83 0.00
+        11.38 117.00 1.00 26.38 71.50 0.00 0.58 0.00
+        12.12 118.00 1.00 27.20 69.18 0.00 0.42 0.00
+        12.86 117.00 1.00 28.13 67.04 0.00 0.30 0.00
+        13.70 116.00 1.00 28.74 64.84 0.00 0.20 0.00
+        14.44 115.00 1.00 28.64 63.05 0.00 0.14 0.00
+        15.18 117.00 1.00 28.33 61.39 0.00 0.10 0.00
+        15.91 116.00 1.00 28.13 59.88 0.00 0.07 0.00
+        16.65 115.00 2.00 28.33 58.45 0.00 0.05 0.00
+        17.49 115.00 2.00 28.23 56.93 0.00 0.03 0.00
+        18.23 115.00 2.00 27.82 55.71 0.00 0.02 0.00
+        18.97 114.00 2.00 27.20 54.55 0.00 0.02 0.00
+        19.71 115.00 2.00 26.90 53.46 0.00 0.01 0.00
+        20.45 114.00 2.00 26.69 52.44 0.00 0.01 0.00
+        21.29 116.00 2.00 26.49 51.35 0.00 0.01 0.00
+        22.03 115.00 3.00 26.18 50.44 0.00 0.00 0.00
+        22.76 118.00 4.00 25.87 49.61 0.00 0.00 0.00
+        23.50 115.00 10.00 25.46 48.79 0.00 0.00 0.00
+        """,
+    "NGC2841": """
+        3.44 285.00 14.40 -0.57 163.40 239.50 560.42 13.23
+        3.77 297.00 13.60 -0.57 171.13 229.25 537.66 5.28
+        4.13 303.00 8.47 -0.43 180.88 219.24 507.23 1.94
+        4.47 306.00 5.93 -0.10 188.37 210.91 465.98 0.76
+        4.80 307.00 5.93 -0.19 194.64 203.54 438.69 0.30
+        5.13 304.00 8.47 -0.28 200.57 196.88 413.05 0.12
+        5.48 308.00 8.47 -0.38 206.64 190.44 383.91 0.05
+        5.83 313.00 12.70 -0.48 211.29 184.57 352.60 0.02
+        6.16 314.00 9.32 -0.53 215.14 179.57 340.73 0.01
+        6.51 315.00 6.78 3.83 221.84 174.68 329.32 0.00
+        6.86 317.00 8.47 8.02 227.72 170.15 300.88 0.00
+        7.18 320.00 7.63 12.15 231.73 166.32 276.70 0.00
+        7.51 316.00 20.50 16.24 235.48 162.63 259.76 0.00
+        7.85 318.00 23.40 20.27 239.96 159.08 241.28 0.00
+        8.21 321.00 8.48 24.66 243.42 155.54 214.54 0.00
+        8.57 323.00 8.66 27.10 245.15 152.23 187.05 0.00
+        8.90 321.00 12.70 29.42 245.80 149.38 167.67 0.00
+        9.24 323.00 11.00 31.74 245.24 146.61 150.42 0.00
+        9.60 323.00 10.40 34.31 244.14 143.83 136.11 0.00
+        9.93 322.00 13.60 36.63 243.64 141.42 126.37 0.00
+        10.27 321.00 13.60 38.95 243.60 139.06 118.70 0.00
+        10.60 323.00 9.32 41.02 243.38 136.88 108.16 0.00
+        10.93 322.00 11.90 43.22 243.08 134.80 97.33 0.00
+        11.27 321.00 11.00 45.42 242.44 132.75 86.07 0.00
+        12.31 323.00 4.24 52.25 237.30 127.02 60.76 0.00
+        14.35 319.00 4.24 56.77 222.06 117.64 30.36 0.00
+        16.40 308.00 4.24 51.89 207.98 110.04 19.68 0.00
+        18.48 299.00 5.66 48.35 196.87 103.67 11.59 0.00
+        20.57 299.00 5.66 54.45 185.72 98.26 7.00 0.00
+        22.51 298.00 5.66 63.61 176.98 93.93 4.66 0.00
+        24.59 296.00 5.66 66.17 168.93 89.87 3.04 0.00
+        26.68 293.00 4.24 61.90 161.21 86.28 1.15 0.00
+        28.77 289.00 4.24 58.85 153.59 83.08 0.69 0.00
+        30.70 289.00 4.24 57.01 147.56 80.43 0.41 0.00
+        32.79 288.00 4.24 57.38 141.95 77.82 0.23 0.00
+        34.88 285.00 4.24 60.43 136.82 75.46 0.13 0.00
+        36.96 283.00 2.83 64.09 132.38 73.30 0.07 0.00
+        38.90 275.00 2.83 66.90 128.66 71.45 0.04 0.00
+        40.99 272.00 2.83 68.61 124.87 69.61 0.02 0.00
+        43.08 271.00 2.83 68.98 121.52 67.90 0.01 0.00
+        45.16 274.00 4.24 67.76 118.47 66.31 0.01 0.00
+        47.10 277.00 4.24 65.19 115.75 64.93 0.00 0.00
+        49.19 281.00 4.24 62.26 113.11 63.54 0.00 0.00
+        51.27 286.00 4.24 60.55 110.59 62.24 0.00 0.00
+        53.36 282.00 4.24 60.55 108.30 61.01 0.00 0.00
+        55.30 283.00 4.24 62.39 106.31 59.93 0.00 0.00
+        57.38 288.00 5.66 64.95 104.23 58.83 0.00 0.00
+        59.47 287.00 5.66 67.27 102.32 57.79 0.00 0.00
+        61.56 289.00 7.07 68.49 100.51 56.80 0.00 0.00
+        63.64 294.00 7.07 68.73 98.76 55.86 0.00 0.00
+        """,
+    "UGC02885": """
+        1.70 305.00 10.00 0.00 92.31 265.84 879.93 1173.44
+        3.41 257.00 10.00 0.00 152.76 236.42 657.78 159.82
+        6.82 256.00 10.00 0.00 220.93 175.44 363.12 0.01
+        13.67 271.00 10.00 0.00 244.90 123.90 125.25 0.00
+        19.49 282.00 10.00 0.00 240.52 103.77 61.48 0.00
+        23.36 287.00 10.00 28.79 238.85 94.78 47.36 0.00
+        27.24 283.00 10.00 40.20 232.97 87.77 30.75 0.00
+        31.22 280.00 10.00 45.05 223.71 81.99 18.49 0.00
+        35.10 280.00 10.00 50.30 214.74 77.32 13.99 0.00
+        38.97 281.00 10.00 59.70 206.96 73.38 9.86 0.00
+        42.85 282.00 10.00 67.17 198.69 69.98 6.64 0.00
+        46.73 287.00 10.00 65.05 189.07 67.02 5.23 0.00
+        50.71 292.00 10.00 71.21 184.25 64.33 4.79 0.00
+        54.58 298.00 10.00 79.19 180.41 62.01 3.46 0.00
+        58.46 298.00 10.00 83.33 174.83 59.92 1.94 0.00
+        62.34 298.00 10.00 83.33 168.07 58.02 1.38 0.00
+        66.21 298.00 10.00 82.83 162.78 56.30 1.00 0.00
+        70.19 298.00 10.00 85.86 158.17 54.68 0.71 0.00
+        74.07 298.00 10.00 86.26 152.97 53.23 0.00 0.00
+        """,
+    "NGC7814": """
+        0.63 265.00 15.00 -0.69 39.69 345.22 482.94 6648.99
+        1.72 250.00 15.00 -2.33 81.63 298.99 314.38 709.44
+        2.79 233.00 7.29 -3.94 104.82 255.24 206.27 199.44
+        3.91 230.00 6.45 -5.06 118.95 225.30 132.93 74.66
+        5.03 228.00 5.37 -3.48 122.96 203.41 76.78 26.96
+        6.14 228.00 5.16 1.40 120.03 186.27 47.70 9.82
+        7.26 227.00 5.94 -1.38 115.88 172.25 31.38 3.55
+        8.37 226.00 3.00 5.96 113.50 160.83 22.99 1.29
+        9.50 223.00 3.92 11.22 109.97 151.12 14.94 0.47
+        10.65 219.00 2.90 16.09 105.99 142.79 9.90 0.16
+        11.74 216.00 2.55 18.57 102.02 136.04 6.36 0.06
+        12.82 214.00 2.55 19.07 97.84 130.19 4.05 0.02
+        14.01 214.00 3.07 17.78 93.27 124.54 2.46 0.01
+        15.09 214.00 3.61 20.16 89.43 120.01 1.62 0.00
+        16.18 214.00 4.46 23.24 85.93 115.89 1.06 0.00
+        17.36 214.00 5.07 23.44 82.48 111.88 0.66 0.00
+        18.44 214.00 4.78 23.34 79.67 108.55 0.43 0.00
+        19.53 214.00 4.87 22.64 77.35 105.49 0.00 0.00
+        """,
+}
+_V43_ORDER = ("DDO154", "IC2574", "NGC6503", "NGC2403", "NGC3198", "NGC7814", "NGC2841", "UGC02885")   # by baryonic mass, as Section XXXIII.10
+_V43_V36_LABELS = {"DDO154": (3.30, 4.30), "IC2574": (2.59, 2.61), "NGC6503": (1.14, 1.48), "NGC2403": (1.14, 1.80), "NGC3198": (1.59, 1.78),
+                   "NGC7814": (0.59, 1.06), "NGC2841": (1.04, 1.99), "UGC02885": (1.07, 1.48)}   # Section XXXIII.10(c): ell_eff/ell_arena, zeta/lambda
+_V43_V36_RED = {"DDO154": 6.83, "IC2574": 6.81, "NGC6503": 22.24, "NGC2403": 53.02, "NGC3198": 14.33, "NGC7814": 2.16, "NGC2841": 1.36,
+                "UGC02885": 1.21}                                                    # Section XXXIII.17(b): v36's two labels, chi^2/(N - 2)
+_V43_V36_RAR = {"DDO154": 89.1, "IC2574": 238.4, "NGC6503": 2.8, "NGC2403": 75.6, "NGC3198": 13.4, "NGC7814": 27.3, "NGC2841": 86.3,
+                "UGC02885": 2.8}                                                     # Section XXXIII.5(c): the empirical relation's chi^2/N
+_V43_GAL = {}
+
+def _v43_galaxy(name, Y=0.5):
+    """A SPARC galaxy: its curve (R, V, errV), SPARC's baryonic curve V_bar^2 = Vgas|Vgas| + Y Vdisk|Vdisk| + 0.7 Vbul|Vbul| (v36's ratios at
+    Y = 0.5), and its components on the leaf: the stellar disk, mass Y (L[3.6] - L_bul) and scale length Rdisk; the gas, 1.33 M_HI, its scale
+    length Freeman's curve fitted to Vgas|Vgas| at that mass (least squares, a grid and a golden section over 0.05-5 R_last); the bulge, 0.7 L_bul
+    with L_bul = max R Vbul^2/G, as a point on the leaf.  The arena leaf ell_arena = 3 sqrt(G M_b/a0) and v_arena = (G M_b a0)^(1/4)."""
+    key = (name, Y)
+    if key in _V43_GAL: return _V43_GAL[key]
+    D, Inc, L36, Rd, MHI, Vf, eVf, Q = _V43_SPARC_T1[name]
+    rows = [[float(x) for x in l.split()] for l in _V43_SPARC_ROT[name].strip().splitlines()]
+    R, V, E = [r[0] for r in rows], [r[1] for r in rows], [r[2] for r in rows]
+    Vg, Vd, Vb = [r[3] for r in rows], [r[4] for r in rows], [r[5] for r in rows]
+    Lb = max(x*b*b for x, b in zip(R, Vb))/_V40_GK; Mst, Mbul, Mgas = Y*(L36*1e9 - Lb), 0.7*Lb, 1.33*MHI*1e9
+    if (name, 'hg') not in _V43_GAL:
+        tg = [g*abs(g) for g in Vg]
+        f = lambda lh: sum((_v43_freeman(x, Mgas, math.exp(lh)) - t)**2 for x, t in zip(R, tg))
+        _V43_GAL[(name, 'hg')] = _v41_scan(f, math.log(0.05*R[-1]), math.log(5*R[-1]), 41, 50)
+    hg = math.exp(_V43_GAL[(name, 'hg')][1]); Mb = Mst + Mbul + Mgas
+    g = dict(name=name, D=D, L36=L36, Rd=Rd, MHI=MHI, Vflat=Vf, R=R, V=V, E=E, Vg=Vg, Vd=Vd, Vb=Vb, N=len(R),
+             vb2=[a*abs(a) + Y*b*abs(b) + 0.7*c*abs(c) for a, b, c in zip(Vg, Vd, Vb)], Mst=Mst, Mbul=Mbul, Mgas=Mgas, Mb=Mb, hg=hg,
+             hg_edge=_V43_GAL[(name, 'hg')][2], comps=[(M, h) for M, h in ((Mst, Rd), (Mgas, hg)) if M > 0],
+             la=3*math.sqrt(_V40_GK*Mb/_V43_A0), va=(_V40_GK*Mb*_V43_A0)**0.25, Y=Y)
+    _V43_GAL[key] = g; return g
+
+def _v43_rem(g, ell):
+    """The leaf's remainder at the galaxy's radii, sum over the components of (G M/ell) [u - un](R/ell; ell/h), the bulge's as a point's."""
+    return [sum(_V40_GK*M/ell*_v43_leaf('R', ell/h, x/ell) for M, h in g['comps']) + _V40_GK*g['Mbul']/ell*_v43_rpt(x/ell) for x in g['R']]
+
+def _v43_ceff(g, ell):
+    """C_eff = sum M_c C(ell/h_c)/M_b, the bulge's C = 3: the leaf's plateau, v_inf^2 = B C_eff G M_b/ell."""
+    return (sum(M*_v43_C(ell/h) for M, h in g['comps']) + 3*g['Mbul'])/g['Mb']
+
+def _v43_hyb(g, ell, B=None, where='all'):
+    """The leaf with the galaxy's baryons: v^2 = B [V_bar^2 + the remainder] (where = 'all') or V_bar^2 + B times the remainder ('rem'), B
+    in closed form for 'all' (or fixed): (chi^2, B, model speeds)."""
+    rm = _v43_rem(g, ell)
+    if where == 'all': return _v43_amp(_v43_sq([a + b for a, b in zip(g['vb2'], rm)]), g['V'], g['E'], B)
+    m = _v43_sq([a + B*b for a, b in zip(g['vb2'], rm)]); return sum(((a - v)/e)**2 for a, v, e in zip(m, g['V'], g['E'])), B, m
+
+def _v43_range(g, kmin=2.7):
+    """The leaves searched for a galaxy, in ln ell: from max(R_last/150, kmin Rdisk) -- the stellar image within 0.3 mag of the exponential out
+    to four scale lengths -- to min(900 h_min, 4500 R_first), inside the table's k and the grid's R/ell."""
+    hmin = min(h for M, h in g['comps'])
+    return math.log(max(g['R'][-1]/150, kmin*g['Rd'])), math.log(min(900*hmin, 4500*g['R'][0]))
+
+# ---------------------------------------------------------------------------------------------------- v40.3-1 the Milky Way
+_V43_MW = {}
+
+def _v43_mw_data():
+    """Eilers et al. 2019 (their Table 1, as v40.1 embeds it): R, v_c and the mean of the two errors."""
+    return [e[0] for e in _V41_EILERS], [e[1] for e in _V41_EILERS], [0.5*(e[2] + e[3]) for e in _V41_EILERS]
+
+def _v43_mw_curve(kind, p, R, M=6e10):
+    """Model speeds for the Milky Way at radii R: 'leaf' (ell, h, B), the single source; 'hyb' (ell, h, B), Freeman's disk plus the leaf's
+    remainder, times B; 'hybR' (ell, h, B), Freeman's disk plus B times the remainder; 'newton' (h, B); 'rar' (h,); 'nfw' (h, V2, r_s)."""
+    GM = _V40_GK*M
+    if kind == 'leaf': ell, h, B = p; return _v43_sq([B*GM/ell*_v43_leaf('u', ell/h, x/ell) for x in R])
+    if kind == 'hyb': ell, h, B = p; return _v43_sq([B*(_v43_freeman(x, M, h) + GM/ell*_v43_leaf('R', ell/h, x/ell)) for x in R])
+    if kind == 'hybR': ell, h, B = p; return _v43_sq([_v43_freeman(x, M, h) + B*GM/ell*_v43_leaf('R', ell/h, x/ell) for x in R])
+    if kind == 'newton': h, B = p; return _v43_sq([B*_v43_freeman(x, M, h) for x in R])
+    if kind == 'rar': h, = p; return [math.sqrt(_v43_rar(_v43_freeman(x, M, h)/x)*x) for x in R]
+    if kind == 'nfw': h, V2, rs = p; return _v43_sq([_v43_freeman(x, M, h) + V2*_v43_nfw(x/rs) for x in R])
+    raise ValueError(kind)
+
+def _v43_mw():
+    """The Milky Way's fits, computed once: the three freedoms and their reductions, the arena rule, the baselines on the same disk, the
+    profile of chi^2 in ell, and the disk mass the arena rule with B = 3/C would need."""
+    if _V43_MW: return _V43_MW
+    R, V, S = _v43_mw_data(); M = 6e10; GM = _V40_GK*M; la = 3*math.sqrt(GM/_V43_A0); va = (GM*_V43_A0)**0.25
+    out = dict(la=la, va=va, N=len(R))
+    def unit(kind, ell, h): return _v43_mw_curve(kind, (ell, h, 1.0), R)
+    def fit_lh(kind, B=None, h=None):
+        """(ell, h) or ell alone at fixed h, with B in closed form (or fixed): a grid, 25 x 21 in ln ell over 3-400 kpc and ln h over 1-6 kpc,
+        then the simplex."""
+        def f(x):
+            ell, hh = math.exp(x[0]), (h if h is not None else math.exp(x[1]))
+            if not (0.0105 < ell/hh < 990) or hh < 0.3: return 1e15
+            return _v43_amp(unit(kind, ell, hh), V, S, B)[0]
+        grid = [(math.log(3) + math.log(400/3)*i/24, math.log(6)*j/20) for i in range(25) for j in range(21 if h is None else 1)]
+        x0 = min(grid, key=lambda x: f(x)); c2, x = _v43_nelder(f, list(x0) if h is None else [x0[0]], [0.05, 0.05] if h is None else [0.05])
+        ell, hh = math.exp(x[0]), (h if h is not None else math.exp(x[1])); c2, BB, m = _v43_amp(unit(kind, ell, hh), V, S, B)
+        return dict(ell=ell, h=hh, B=BB, k=ell/hh, vinf=math.sqrt(BB*_v43_C(ell/hh)*GM/ell), **_v43_stats(m, V, S, (2 if h is None else 1) + (B is None)))
+    out['leaf'] = fit_lh('leaf'); out['leaf_B1'] = fit_lh('leaf', B=1.0); out['leaf_h26'] = fit_lh('leaf', h=2.6)
+    out['hyb'] = fit_lh('hyb')
+    # the arena leaf: B free, and B = 3/C(k) (the label condition), h free or 2.6
+    def arena(h, B=None):
+        w = unit('leaf', la, h); return _v43_amp(w, V, S, B if B is not None else None)
+    c2, lh, e_ = _v41_scan(lambda lh: arena(math.exp(lh))[0], math.log(1.0), math.log(6.0), 51, 60); h = math.exp(lh); c2, B, m = arena(h)
+    out['arena'] = dict(ell=la, h=h, B=B, k=la/h, vinf=math.sqrt(B*_v43_C(la/h)*GM/la), **_v43_stats(m, V, S, 2))
+    cm = lambda h: arena(h, 3/_v43_C(la/h))
+    c2, lh, e_ = _v41_scan(lambda lh: cm(math.exp(lh))[0], math.log(1.0), math.log(6.0), 51, 60); h = math.exp(lh); c2, B, m = cm(h)
+    out['mond'] = dict(ell=la, h=h, B=B, k=la/h, vinf=math.sqrt(3*GM/la), **_v43_stats(m, V, S, 1))
+    c2, B, m = cm(2.6); out['mond_h26'] = dict(ell=la, h=2.6, B=B, k=la/2.6, **_v43_stats(m, V, S, 0))
+    # the rescaling on the remainder only: (ell, h, B) by the simplex from the hybrid's optimum
+    def fR(x):
+        ell, h, B = math.exp(x[0]), math.exp(x[1]), math.exp(x[2])
+        if not (0.0105 < ell/h < 990): return 1e15
+        m = _v43_mw_curve('hybR', (ell, h, B), R); return sum(((a - v)/e)**2 for a, v, e in zip(m, V, S))
+    c2, x = _v43_nelder(fR, [math.log(out['hyb']['ell']), math.log(out['hyb']['h']), 0.0], [0.1, 0.1, 0.2], 1500)
+    p = [math.exp(v) for v in x]; m = _v43_mw_curve('hybR', p, R); out['hybR'] = dict(ell=p[0], h=p[1], B=p[2], k=p[0]/p[1], **_v43_stats(m, V, S, 3))
+    # the baselines on the same disk: Newton (B = 1 and B free), the radial acceleration relation, NFW; h free and h = 2.6
+    for key, kind, Bf in (('newton', 'newton', 1.0), ('newtonB', 'newton', None)):
+        f = lambda lh: _v43_amp(_v43_mw_curve('newton', (math.exp(lh), 1.0), R), V, S, Bf)[0]
+        c2, lh, e_ = _v41_scan(f, math.log(0.5), math.log(12.0), 51, 60); h = math.exp(lh)
+        c2, B, m = _v43_amp(_v43_mw_curve('newton', (h, 1.0), R), V, S, Bf); out[key] = dict(h=h, B=B, edge=e_, **_v43_stats(m, V, S, 1 + (Bf is None)))
+    c2, B, m = _v43_amp(_v43_mw_curve('newton', (2.6, 1.0), R), V, S, 1.0); out['newton_h26'] = dict(h=2.6, **_v43_stats(m, V, S, 0))
+    f = lambda lh: sum(((a - v)/e)**2 for a, v, e in zip(_v43_mw_curve('rar', (math.exp(lh),), R), V, S))
+    c2, lh, e_ = _v41_scan(f, math.log(0.5), math.log(8.0), 51, 60); h = math.exp(lh)
+    out['rar'] = dict(h=h, **_v43_stats(_v43_mw_curve('rar', (h,), R), V, S, 1))
+    out['rar_h26'] = dict(h=2.6, **_v43_stats(_v43_mw_curve('rar', (2.6,), R), V, S, 0))
+    def fn(x, h=None):
+        p = (math.exp(x[0]) if h is None else h, math.exp(x[-2]), math.exp(x[-1]))
+        return sum(((a - v)/e)**2 for a, v, e in zip(_v43_mw_curve('nfw', p, R), V, S))
+    g3 = [(math.log(1.0) + math.log(6.0)*i/10, math.log(1e3) + math.log(1e3)*j/12, math.log(300.0)*l/12) for i in range(11) for j in range(13)
+          for l in range(13)]
+    c2, x = _v43_nelder(fn, list(min(g3, key=fn)), [0.1, 0.2, 0.2], 2000, 1e-13); p = [math.exp(v) for v in x]
+    out['nfw'] = dict(h=p[0], V2=p[1], rs=p[2], **_v43_stats(_v43_mw_curve('nfw', p, R), V, S, 3))
+    g2 = [(math.log(1e3) + math.log(1e3)*j/16, math.log(300.0)*l/16) for j in range(17) for l in range(17)]
+    fn2 = lambda x: fn(x, 2.6); c2, x = _v43_nelder(fn2, list(min(g2, key=fn2)), [0.2, 0.2], 2000, 1e-13)
+    out['nfw_h26'] = dict(h=2.6, V2=math.exp(x[0]), rs=math.exp(x[1]), **_v43_stats(_v43_mw_curve('nfw', (2.6, math.exp(x[0]), math.exp(x[1])), R), V, S, 2))
+    # the profile of chi^2 in ell, h and B re-fitted at each ell (h by a grid and a golden section over 1-6 kpc)
+    def prof(ell):
+        c2, lh, e_ = _v41_scan(lambda lh: _v43_amp(unit('leaf', ell, math.exp(lh)), V, S)[0], math.log(1.0), math.log(6.0), 31, 50)
+        h = math.exp(lh); c2, B, m = _v43_amp(unit('leaf', ell, h), V, S); return c2, h, B
+    out['prof'] = [(ell,) + prof(ell) for ell in (10.0, 15.0, 20.0, 22.5, 25.0, 27.5, 30.0, 35.0, 40.0, 60.0, 100.0)]
+    c0, n0 = out['leaf']['chi2'], out['leaf']['red']; lb = math.log(out['leaf']['ell'])
+    def edge(a, b):                  # the ell where the profile rises by the reduced chi^2 (Delta chi^2 = 1 with the errors scaled to it)
+        fa = prof(math.exp(a))[0] - c0 - n0
+        for _ in range(40):
+            mid = 0.5*(a + b); fm = prof(math.exp(mid))[0] - c0 - n0
+            if (fm > 0) == (fa > 0): a, fa = mid, fm
+            else: b = mid
+        return math.exp(0.5*(a + b))
+    out['ell_int'] = (edge(math.log(8.0), lb), edge(math.log(80.0), lb))
+    # the disk mass the arena rule with B = 3/C(k) would need: (M, h) free
+    def fM(x):
+        Mx, h = math.exp(x[0]), math.exp(x[1]); lx = 3*math.sqrt(_V40_GK*Mx/_V43_A0)
+        if not (0.0105 < lx/h < 990): return 1e15
+        return _v43_amp(_v43_mw_curve('leaf', (lx, h, 1.0), R, Mx), V, S, 3/_v43_C(lx/h))[0]
+    c2, x = _v43_nelder(fM, [math.log(1.2e11), math.log(2.6)], [0.1, 0.1], 1000)
+    Mx, h = math.exp(x[0]), math.exp(x[1]); lx = 3*math.sqrt(_V40_GK*Mx/_V43_A0)
+    m = _v43_mw_curve('leaf', (lx, h, 3/_v43_C(lx/h)), R, Mx)
+    out['mond_M'] = dict(M=Mx, M10=Mx/1e10, h=h, ell=lx, k=lx/h, B=3/_v43_C(lx/h), **_v43_stats(m, V, S, 2))
+    _V43_MW.update(out); return _V43_MW
+
+def v40_3_milky_way():
+    """v40.3-1: the three freedoms on the Milky Way (R593)."""
+    print("\n== v40.3-1. The third freedom: v^2 = B (G M/ell) u(R/ell; ell/h) on the Milky Way (R593) ==")
+    T = _v43_table()
+    # controls: the table against v40.1's curves at k off the table, the Bessel approximations against v40.0's integrals, B in closed form
+    dk = 0.0
+    for k in (0.0137, 0.33, 2.71, 7.77, 13.3, 47.5, 123.4, 555.0):
+        c = _v41_curves(k)
+        for X in (0.003, 0.03, 0.3, 1.0, 3.0, 30.0):
+            for w_ in ('u', 'un'): dk = max(dk, abs(_v43_leaf(w_, k, X)/_v41_interp(c[w_], math.log(X)) - 1))
+        dk = max(dk, abs(_v43_C(k)/c['C'] - 1))
+    dkr = 0.0                        # in ln R too: at points midway between the grid's, against the curves computed there directly
+    for j in (30, 55, 80, 92, 104, 129):
+        X = math.exp(0.5*(_V41_LG[j] + _V41_LG[j + 1]))
+        for k in (0.0137, 0.33, 2.71, 7.77, 13.3, 47.5, 123.4, 555.0):
+            u_, un_ = _v43_direct(k, X); dkr = max(dkr, abs(_v43_leaf('u', k, X)/u_ - 1), abs(_v43_leaf('un', k, X)/un_ - 1))
+    db = 0.0; dfr = 0.0
+    for y in (0.05, 0.3, 1.0, 1.9, 2.1, 3.0, 3.7, 3.8, 5.0, 8.0, 10.0):
+        a, b, c, d = _v43_bessel(y); ex = [_v40_bessel(0, y, 'I'), _v40_bessel(1, y, 'I'), _v40_bessel(0, y, 'K'), _v40_bessel(1, y, 'K')]
+        db = max(db, abs(a*math.exp(y)/ex[0] - 1), abs(b*math.exp(y)/ex[1] - 1), abs(c*math.exp(-y)/ex[2] - 1), abs(d*math.exp(-y)/ex[3] - 1))
+        dfr = max(dfr, abs((a*c - b*d)/(ex[0]*ex[2] - ex[1]*ex[3]) - 1))
+    y = 10.0 + 1e-9; ex = [_v40_bessel(0, y, 'I'), _v40_bessel(1, y, 'I'), _v40_bessel(0, y, 'K'), _v40_bessel(1, y, 'K')]
+    dser = abs(_v43_freeman(2*y, 1/_V40_GK, 1.0)/(2*y*y*(ex[0]*ex[2] - ex[1]*ex[3])) - 1)
+    R, V, S = _v43_mw_data(); w = _v43_mw_curve('leaf', (23.0, 2.8, 1.0), R)
+    gB = _v41_golden(lambda B: _v43_amp(w, V, S, B)[0], 0.5, 3.0, 80)[1]; dB = abs(gB/_v43_amp(w, V, S)[1] - 1)
+    kn = [_v43_kneed(4, 0.3), _v43_kneed(4, 0.1)]
+    r = _v43_mw()
+    _v40_wrap(f"The leaf's curves on a table of {len(_V43_KT)} falloffs, k = ell/h from 0.01 to 1000 at sixty to a decade, each by v40.1's "
+              f"rows (_v41_curves); four-point Lagrange in ln k and ln R.  Controls: the table against the curves computed at "
+              f"eight k off it, at six radii each on the grid in R, u, its image's Newtonian curve and C: {_v40_r(dk)}, and at six radii "
+              f"midway between the grid's, from {_v40_f(math.exp(0.5*(_V41_LG[30] + _V41_LG[31])), 4)} to "
+              f"{_v40_f(math.exp(0.5*(_V41_LG[129] + _V41_LG[130])), 2)}, against u and un computed there directly by the same rows: {_v40_r(dkr)}; "
+              f"Abramowitz and Stegun's I0, I1, K0 and K1 "
+              f"against v40.0's integrals over y = 0.05-10: {_v40_r(db)}, Freeman's bracket I0 K0 - I1 K1 {_v40_r(dfr)}; the multipole series "
+              f"of Freeman's curve against the integrals at y = 10: {_v40_r(dser)}; B in closed form against a golden section: "
+              f"{'<1e-7' if dB < 1e-7 else _v40_r(dB)}.  "
+              f"The image within 0.3 mag and 0.1 mag of the exponential out to four scale lengths needs k >= {_v40_f(kn[0], 1)} and "
+              f"{_v40_f(kn[1], 1)} (v40.0's search, Section XXXVIII.10).", "   ")
+    _v40_wrap(f"The data: Eilers et al. 2019, {r['N']} points from {_v40_f(R[0], 2)} to {_v40_f(R[-1], 2)} kpc, each error the mean of their "
+              f"two; the baryons one exponential disk of 6e10 Msun, the archive's benchmark, for every model alike; its arena leaf 3 sqrt(G M/a0) "
+              f"= {_v40_f(r['la'], 2)} kpc and v_arena = (G M a0)^(1/4) = {_v40_f(r['va'], 1)} km/s (a0 = 1.2e-10 m/s^2).  The fits:", "   ")
+    def row(lab, d, keys):
+        _v40_wrap(f"{lab}: chi^2 = {_v40_f(d['chi2'], 1)}, chi^2/(N - {d['p']}) = {_v40_f(d['red'], 2)}, rms {_v40_f(d['rms'], 2)} km/s, largest "
+                  f"{_v40_f(d['dmax'], 1)} km/s; " + ", ".join(f"{a} = {_v40_f(d[k_], n_)}" for a, k_, n_ in keys), "     ", "       ")
+    row("the three freedoms (ell, h, B)", r['leaf'], (("ell", 'ell', 2), ("h", 'h', 3), ("B", 'B', 3), ("k", 'k', 2), ("v_inf", 'vinf', 1)))
+    row("B = 1 (ell, h)", r['leaf_B1'], (("ell", 'ell', 2), ("h", 'h', 3), ("k", 'k', 2), ("v_inf", 'vinf', 1)))
+    row("h = 2.6 kpc (ell, B)", r['leaf_h26'], (("ell", 'ell', 2), ("B", 'B', 3), ("k", 'k', 2), ("v_inf", 'vinf', 1)))
+    row("the arena leaf (h, B)", r['arena'], (("h", 'h', 3), ("B", 'B', 3), ("k", 'k', 2), ("v_inf", 'vinf', 1)))
+    row("the arena leaf with B = 3/C(k) (h)", r['mond'], (("h", 'h', 3), ("B", 'B', 4), ("k", 'k', 2), ("v_inf", 'vinf', 1)))
+    row("the arena leaf with B = 3/C(k), h = 2.6 kpc (nothing)", r['mond_h26'], (("B", 'B', 4), ("k", 'k', 2)))
+    row("the disk mass the arena rule with B = 3/C(k) needs (M, h)", r['mond_M'], (("M/1e10 Msun", 'M10', 2), ("h", 'h', 3), ("ell", 'ell', 2),
+                                                                                    ("B", 'B', 4)))
+    _v40_wrap(f"(that disk's mass: {r['mond_M']['M']:.3g} Msun, {_v40_f(r['mond_M']['M']/6e10, 3)} times the benchmark)", "       ")
+    row("Freeman's disk plus the leaf's remainder, times B (ell, h, B)", r['hyb'], (("ell", 'ell', 2), ("h", 'h', 3), ("B", 'B', 3), ("k", 'k', 2)))
+    row("Freeman's disk plus B times the remainder (ell, h, B)", r['hybR'], (("ell", 'ell', 2), ("h", 'h', 3), ("B", 'B', 3), ("k", 'k', 2)))
+    row("Newton, the disk alone (h)", r['newton'], (("h", 'h', 3),)); row("Newton at h = 2.6 kpc", r['newton_h26'], ())
+    row("Newton times B (h, B)", r['newtonB'], (("h", 'h', 3), ("B", 'B', 3)))
+    row("the radial acceleration relation on the disk (h)", r['rar'], (("h", 'h', 3),)); row("the relation at h = 2.6 kpc", r['rar_h26'], ())
+    row("the disk with an NFW halo (h, V2, r_s)", r['nfw'], (("h", 'h', 3), ("V2", 'V2', 0), ("r_s", 'rs', 2)))
+    row("the disk with an NFW halo at h = 2.6 kpc (V2, r_s)", r['nfw_h26'], (("V2", 'V2', 0), ("r_s", 'rs', 2)))
+    _v40_wrap("The profile in ell (h and B re-fitted; ell, chi^2, h, B): " + "; ".join(f"{_v40_f(a, 1)}: {_v40_f(c, 1)}, {_v40_f(h_, 3)}, "
+              f"{_v40_f(B_, 3)}" for a, c, h_, B_ in r['prof']) + f".  The profile rises by the reduced chi^2 at ell = {_v40_f(r['ell_int'][0], 2)} "
+              f"and {_v40_f(r['ell_int'][1], 2)} kpc (Delta chi^2 = 1 with the errors scaled to chi^2/(N - 3) = 1); the arena leaf, "
+              f"{_v40_f(r['la'], 2)} kpc, is {'inside' if r['ell_int'][0] < r['la'] < r['ell_int'][1] else 'outside'}.", "   ")
+    d = r['leaf']; fl = d['ell']/r['la']
+    _v40_wrap(f"The fitted leaf is {_v40_f(fl, 3)} of the arena leaf.  B absorbs the disk's mass, so that the fitted leaf does not depend on it, "
+              f"while the arena leaf grows as sqrt(M): the fitted leaf is the arena leaf of {6e10*fl*fl:.3g} Msun, and the arena leaf of 0.8 and "
+              f"1.2 times the benchmark is {_v40_f(r['la']*math.sqrt(0.8), 2)} and {_v40_f(r['la']*math.sqrt(1.2), 2)} kpc.  The profile's "
+              f"interval is {_v40_f(r['ell_int'][0]/d['ell'], 3)}-{_v40_f(r['ell_int'][1]/d['ell'], 3)} of the fitted leaf and "
+              f"{_v40_f(r['ell_int'][0]/r['la'], 3)}-{_v40_f(r['ell_int'][1]/r['la'], 3)} of the arena leaf.  chi^2 over the three freedoms': "
+              f"B = 1, {_v40_f(r['leaf_B1']['chi2']/d['chi2'], 2)}; the arena leaf with B free, {_v40_f(r['arena']['chi2']/d['chi2'], 3)}; the "
+              f"arena leaf with B = 3/C(k), {_v40_f(r['mond']['chi2']/d['chi2'], 0)}.", "   ")
+    RO = (30.0, 40.0, 50.0, 75.0, 100.0, 150.0, 300.0)
+    mo = {'leaf': _v43_mw_curve('leaf', (d['ell'], d['h'], d['B']), RO), 'arena': _v43_mw_curve('leaf', (r['la'], r['arena']['h'], r['arena']['B']), RO),
+          'nfw': _v43_mw_curve('nfw', (2.6, r['nfw_h26']['V2'], r['nfw_h26']['rs']), RO), 'rar': _v43_mw_curve('rar', (r['rar']['h'],), RO)}
+    vmin, lmin = _v41_golden(lambda lr: _v43_mw_curve('leaf', (d['ell'], d['h'], d['B']), [math.exp(lr)])[0], math.log(25.0), math.log(400.0), 80)
+    _v40_wrap("Beyond the data (R = " + ", ".join(f"{x:g}" for x in RO) + " kpc): the three freedoms " + ", ".join(_v40_f(v, 1) for v in mo['leaf'])
+              + "; the arena leaf with B free " + ", ".join(_v40_f(v, 1) for v in mo['arena']) + "; NFW at h = 2.6 kpc " + ", ".join(
+              _v40_f(v, 1) for v in mo['nfw']) + "; the RAR " + ", ".join(_v40_f(v, 1) for v in mo['rar']) + f" km/s.  The three freedoms' "
+              f"curve reaches its least speed, {_v40_f(vmin, 1)} km/s, at {_v40_f(math.exp(lmin), 1)} kpc and climbs back to v_inf = "
+              f"{_v40_f(d['vinf'], 1)} km/s: a leaf with k = {_v40_f(d['k'], 2)} is of v40.1's bump class, and the dip is its own.", "   ")
+    ok = (dk < 1e-5 and dkr < 1e-4 and db < 1e-6 and dfr < 2e-5 and dser < 2e-6 and dB < 1e-7 and abs(kn[0] - 2.7) < 0.05 and abs(kn[1] - 7.7) < 0.05
+          and d['red'] < 4.0 and 0.9 < d['ell']/r['la'] < 1.0 and d['k'] > kn[1] and 1.3 < d['B'] < 1.5 and r['arena']['chi2'] - d['chi2'] < 5
+          and r['leaf_B1']['chi2'] > 2*d['chi2'] and r['mond']['chi2'] > 100*d['chi2'] and r['rar']['chi2'] > 4*d['chi2']
+          and r['nfw_h26']['chi2'] > r['leaf_h26']['chi2'] and abs(r['hybR']['chi2'] - d['chi2']) < 3 and r['hybR']['B'] < 1
+          and r['ell_int'][0] < r['la'] < r['ell_int'][1] and 1.5 < r['mond_M']['M']/6e10 < 2.5 and 30 < math.exp(lmin) < 200
+          and vmin < d['vinf'] - 1 and mo['nfw'][-1] < mo['leaf'][-1])
+    check(ok, "v40.3-1: the Milky Way with ell, h and B free: chi^2/(N - 3) under 4 on the arena leaf to within 10% (h near 2.8 kpc, B near 1.4), "
+              "inside the profile's interval; B = 1 doubles chi^2, B = 3/C(k) multiplies it more than a hundredfold (the disk would need 1.5-2.5 "
+              "times its mass); B on the remainder alone fits as well with B < 1; NFW at h = 2.6 kpc worse; controls to 1e-5 on the grid in R and "
+              "1e-4 between its points")
+
+# ---------------------------------------------------------------------------------------------------- v40.3-2 the eight galaxies
+_V43_FIT = {}
+
+def _v43_fits(name):
+    """A SPARC galaxy's fits, computed once, all on its published curve and errors at v36's mass-to-light ratios: Newton (SPARC's V_bar^2);
+    the radial acceleration relation, with Y = 0.5 and with the disk's Y free; NFW (V2, r_s); the leaf with the galaxy's baryons -- (ell, B),
+    B = 1, the arena leaf with B free, the arena leaf with B = 3/C_eff (nothing free), the same with the disk's Y free -- the rescaling on the
+    remainder alone (ell, B); and the single source of the author's formula, M_b with one falloff length, (ell, h, B) free and at h = Rdisk.
+    Leaves from max(R_last/150, 2.7 Rdisk) (_v43_range); a grid of 61 in ln ell and a golden section."""
+    if name in _V43_FIT: return _V43_FIT[name]
+    g = _v43_galaxy(name); R, V, E = g['R'], g['V'], g['E']; la = g['la']; res = {}
+    st = lambda m, p: _v43_stats(m, V, E, p)
+    res['newton'] = st(_v43_sq(g['vb2']), 0)
+    res['rar'] = st([math.sqrt(_v43_rar(b/x)*x) for x, b in zip(R, g['vb2'])], 0)
+    rY = lambda Y: [math.sqrt(_v43_rar((a*abs(a) + Y*b*abs(b) + 0.7*c*abs(c))/x)*x) for x, a, b, c in zip(R, g['Vg'], g['Vd'], g['Vb'])]
+    c2, Y = _v41_golden(lambda Y: st(rY(Y), 1)['chi2'], 0.0, 2.5, 60); res['rarY'] = dict(Y=Y, **st(rY(Y), 1))
+    nfw = lambda V2, rs: _v43_sq([b + V2*_v43_nfw(x/rs) for x, b in zip(R, g['vb2'])])
+    fn = lambda x: st(nfw(math.exp(x[0]), math.exp(x[1])), 2)['chi2']
+    grid = [(math.log(10.0) + math.log(1e5)*i/24, math.log(R[0]/3) + math.log(3000*R[-1]/R[0])*j/24) for i in range(25) for j in range(25)]
+    c2, x = _v43_nelder(fn, list(min(grid, key=fn)), [0.2, 0.2], 2000, 1e-13)
+    def limit(beta=None):            # r_s beyond the data: the halo's inner part alone, its limit V^2 = a R, fitted (with beta free or 1)
+        mod = lambda a, b_: _v43_sq([b_*b + a*x_ for x_, b in zip(R, g['vb2'])])
+        if beta is None:
+            c2a, la_ = _v41_golden(lambda la_: st(mod(math.exp(la_), 1.0), 2)['chi2'], math.log(1.0), math.log(1e5), 80); return math.exp(la_), 1.0
+        c2a, y = _v43_nelder(lambda y: st(mod(math.exp(y[0]), math.exp(y[1])), 3)['chi2'], [math.log(200.0), 0.0], [0.2, 0.2], 2000, 1e-13)
+        return math.exp(y[0]), math.exp(y[1])
+    if math.exp(x[1]) > 100*R[-1]:
+        a, b_ = limit(); res['nfw'] = dict(V2=None, rs=None, a=a, unb=True, **st(_v43_sq([b + a*x_ for x_, b in zip(R, g['vb2'])]), 2))
+    else: res['nfw'] = dict(V2=math.exp(x[0]), rs=math.exp(x[1]), a=None, unb=False, **st(nfw(math.exp(x[0]), math.exp(x[1])), 2))
+    # NFW with the baryons' scale free as well, V^2 = beta V_bar^2 + V2 nfw(R/r_s): the freedom B gives the leaf, added to the halo's two
+    nfwB = lambda bt, V2, rs: _v43_sq([bt*b + V2*_v43_nfw(x_/rs) for x_, b in zip(R, g['vb2'])])
+    fB = lambda y: st(nfwB(math.exp(y[0]), math.exp(y[1]), math.exp(y[2])), 3)['chi2']
+    best = min((_v43_nelder(fB, [math.log(bt), x[0], x[1]], [0.2, 0.2, 0.2], 3000, 1e-13) for bt in (0.3, 1.0, 3.0)), key=lambda t_: t_[0])
+    y = best[1]
+    if math.exp(y[2]) > 100*R[-1]:
+        a, bt = limit(True); res['nfwB'] = dict(beta=bt, V2=None, rs=None, a=a, unb=True,
+                                                **st(_v43_sq([bt*b + a*x_ for x_, b in zip(R, g['vb2'])]), 3))
+    else: res['nfwB'] = dict(beta=math.exp(y[0]), V2=math.exp(y[1]), rs=math.exp(y[2]), a=None, unb=False,
+                             **st(nfwB(math.exp(y[0]), math.exp(y[1]), math.exp(y[2])), 3))
+    lo, hi = _v43_range(g)
+    def leafrow(key, ell, B, p, **kw):
+        c2, BB, m = _v43_hyb(g, ell, B); Ce = _v43_ceff(g, ell)
+        res[key] = dict(ell=ell, f=ell/la, B=BB, Ceff=Ce, kst=ell/g['Rd'], vinf=math.sqrt(BB*Ce*_V40_GK*g['Mb']/ell), **kw, **st(m, p))
+    c2, le, e_ = _v41_scan(lambda le: _v43_hyb(g, math.exp(le))[0], lo, hi, 61, 60); leafrow('hyb', math.exp(le), None, 2, edge=e_)
+    c2, le, e_ = _v41_scan(lambda le: _v43_hyb(g, math.exp(le), 1.0)[0], lo, hi, 61, 60); leafrow('hyb_B1', math.exp(le), 1.0, 1, edge=e_)
+    leafrow('arena', la, None, 1); leafrow('mond', la, 3/_v43_ceff(g, la), 0)
+    def mondY(Y):
+        gY = _v43_galaxy(name, Y); lY = gY['la']; return _v43_hyb(gY, lY, 3/_v43_ceff(gY, lY)), lY
+    c2, Y = _v41_golden(lambda Y: mondY(Y)[0][0], 0.02, 2.5, 50); (c2, BB, m), lY = mondY(Y)
+    res['mondY'] = dict(Y=Y, ell=lY, B=BB, **st(m, 1))
+    def bestR(ell):
+        rm = _v43_rem(g, ell)
+        f = lambda lb: sum(((a - v)/e)**2 for a, v, e in zip(_v43_sq([b + math.exp(lb)*r for b, r in zip(g['vb2'], rm)]), V, E))
+        return _v41_golden(f, math.log(1e-3), math.log(300.0), 60)
+    c2, le, e_ = _v41_scan(lambda le: bestR(math.exp(le))[0], lo, hi, 41, 40); ell = math.exp(le); B = math.exp(bestR(ell)[1])
+    c2, B, m = _v43_hyb(g, ell, B, 'rem'); res['hybR'] = dict(ell=ell, f=ell/la, B=B, edge=e_, bnd=B > 299.0, **st(m, 2))
+    # the same three without the floor of 2.7 Rdisk: leaves down to the table's least k for every component (v40.3's first reading)
+    lo0 = math.log(max(R[-1]/150, 0.0106*max(h for M, h in g['comps'])))
+    c2, le, e_ = _v41_scan(lambda le: _v43_hyb(g, math.exp(le))[0], lo0, hi, 81, 60); leafrow('hyb0', math.exp(le), None, 2, edge=e_)
+    c2, le, e_ = _v41_scan(lambda le: _v43_hyb(g, math.exp(le), 1.0)[0], lo0, hi, 81, 60); leafrow('hyb_B10', math.exp(le), 1.0, 1, edge=e_)
+    c2, le, e_ = _v41_scan(lambda le: bestR(math.exp(le))[0], lo0, hi, 61, 40); ell = math.exp(le); B = math.exp(bestR(ell)[1])
+    c2, B, m = _v43_hyb(g, ell, B, 'rem'); res['hybR0'] = dict(ell=ell, f=ell/la, B=B, edge=e_, bnd=B > 299.0, **st(m, 2))
+    res['lo'], res['lo0'] = lo, lo0
+    # the leaf with the galaxy's baryons at the disk's ratios 0.3 and 0.7: f and B move with the masses
+    for Y in (0.3, 0.7):             # on the leaves from 2.7 Rdisk, the floor flagged, and without the floor (v40.3's second reading)
+        gY = _v43_galaxy(name, Y); loY, hiY = _v43_range(gY); lo0Y = math.log(max(R[-1]/150, 0.0106*max(h for M, h in gY['comps'])))
+        c2, le, e_ = _v41_scan(lambda le: _v43_hyb(gY, math.exp(le))[0], loY, hiY, 61, 60); c2, BY, m = _v43_hyb(gY, math.exp(le))
+        res[('hybY', Y)] = dict(ell=math.exp(le), f=math.exp(le)/gY['la'], B=BY, low=e_ and abs(le - loY) < 1e-3, **st(m, 2))
+        c2, le, e_ = _v41_scan(lambda le: _v43_hyb(gY, math.exp(le))[0], lo0Y, hiY, 81, 60); c2, BY, m = _v43_hyb(gY, math.exp(le))
+        res[('hybY0', Y)] = dict(ell=math.exp(le), f=math.exp(le)/gY['la'], B=BY, low=e_ and abs(le - lo0Y) < 1e-3, **st(m, 2))
+    one = lambda ell, h: _v43_sq([_V40_GK*g['Mb']/ell*_v43_leaf('u', ell/h, x/ell) for x in R])
+    def f3(x):
+        ell, h = math.exp(x[0]), math.exp(x[1])
+        if not (0.0105 < ell/h < 990) or ell < R[-1]/170 or ell > 4800*R[0]: return 1e15
+        return _v43_amp(one(ell, h), V, E)[0]
+    # a grid in (ln ell, ln k) over the table's k, then the simplex from the grid's best point in each of six bands of ell (v40.3's first reading:
+    # one start missed interior minima)
+    l0, h0 = math.log(R[-1]/150), math.log(min(900*g['Rd'], 4500*R[0]))
+    grid = [(l0 + (h0 - l0)*i/30, l0 + (h0 - l0)*i/30 - (math.log(0.012) + math.log(980/0.012)*j/24)) for i in range(31) for j in range(25)]
+    fg = {x0: f3(x0) for x0 in grid}
+    starts = [min(grid[25*i0:25*(i0 + 6)], key=lambda x0: fg[x0]) for i0 in range(0, 31, 6)]
+    c2, x = min((_v43_nelder(f3, list(x0), [0.1, 0.1], 2000, 1e-13) for x0 in starts), key=lambda t_: t_[0]); ell, h = math.exp(x[0]), math.exp(x[1])
+    c2, B, m = _v43_amp(one(ell, h), V, E)
+    note = ('idle' if ell > 100*R[-1] else 'kbound' if ell/h < 0.011 else 'kupper' if ell/h > 980 else 'lbound' if ell < 1.01*R[-1]/170 else '')
+    res['one'] = dict(ell=ell, h=h, k=ell/h, B=B, vinf=math.sqrt(B*_v43_C(ell/h)*_V40_GK*g['Mb']/ell), note=note, **st(m, 3))
+    h = g['Rd']; c2, le, e_ = _v41_scan(lambda le: _v43_amp(one(math.exp(le), h), V, E)[0], lo, min(hi, math.log(990*h)), 61, 60)
+    ell = math.exp(le); c2, B, m = _v43_amp(one(ell, h), V, E); res['one_Rd'] = dict(ell=ell, k=ell/h, B=B, edge=e_, **st(m, 2))
+    _V43_FIT[name] = res; return res
+
+def v40_3_sparc():
+    """v40.3-2: the three freedoms across the eight galaxies, against Newton, the radial acceleration relation and NFW (R594)."""
+    print("\n== v40.3-2. The eight galaxies of the v36 pilot: the leaf with each galaxy's baryons, against Newton, the RAR and NFW (R594) ==")
+    _v40_wrap("SPARC's curves and errors, its baryonic curves at v36's ratios (disk 0.5, bulge 0.7, gas 1.33 M_HI), the same for every model; no "
+              "distance, inclination or ratio marginalized.  The leaf with the galaxy's baryons: v^2 = B [V_bar^2 + sum (G M_c/ell) r_c(R/ell; "
+              "ell/h_c)], r = u - un the leaf's remainder for each component -- the stellar disk at Rdisk, the gas at its fitted scale length, the "
+              "bulge as a point -- the leaves from 2.7 Rdisk, the stellar image within 0.3 mag of the exponential out to four scale lengths.  Per "
+              "galaxy: M_b = stars + gas + bulge [1e9 Msun]; Rdisk and h_gas [kpc]; ell_arena; v_arena; Table 1's V_flat; N:", "   ")
+    dw = all(len(_V43_SPARC_ROT[nm].strip().splitlines()) == len(rows) and all(abs(float(a) - b) < 1e-9 for l, row in
+             zip(_V43_SPARC_ROT[nm].strip().splitlines(), rows) for a, b in zip(l.split()[:3], row))
+             for nm, (lab, M_, l_, rows) in zip(("DDO154", "IC2574"), _V41_DWARFS))
+    F = {}
+    for nm in _V43_ORDER:
+        g = _v43_galaxy(nm); F[nm] = _v43_fits(nm)
+        _v40_wrap(f"{nm}: {_v40_f(g['Mb']/1e9, 3)} = {_v40_f(g['Mst']/1e9, 3)} + {_v40_f(g['Mgas']/1e9, 3)} + {_v40_f(g['Mbul']/1e9, 3)}; "
+                  f"{_v40_f(g['Rd'], 2)}, {_v40_f(g['hg'], 2)}{' (at an end of the grid)' if g['hg_edge'] else ''}; "
+                  f"{_v40_f(g['la'], 2)} kpc; {_v40_f(g['va'], 1)} km/s; "
+                  f"{_v40_f(g['Vflat'], 1)} km/s; {g['N']}", "     ", "       ")
+    cols = (('newton', 'Newton'), ('rar', 'RAR'), ('rarY', 'RAR, Y'), ('nfw', 'NFW'), ('hyb', 'leaf'), ('hyb_B1', 'B = 1'), ('arena', 'arena, B'),
+            ('mond', 'arena, 3/C'), ('mondY', '3/C, Y'), ('hybR', 'B on r'), ('one', 'one (ell,h,B)'), ('one_Rd', 'one, h = Rd'))
+    _v40_wrap("chi^2/(N - p), p the parameters fitted (0: Newton, RAR, arena with 3/C; 1: RAR with Y, B = 1, arena with B, 3/C with Y; 2: NFW, "
+              "leaf, B on r, one at h = Rd; 3: one with ell, h and B).  Columns: " + "; ".join(lab for k_, lab in cols) + ":", "   ")
+    for nm in _V43_ORDER:
+        _v40_wrap(f"{nm}: " + "; ".join(_v40_f(F[nm][k_]['red'], 2) for k_, lab in cols), "     ", "       ")
+    tot = {k_: sum(F[nm][k_]['chi2'] for nm in _V43_ORDER) for k_, lab in cols}
+    _v40_wrap("Total chi^2 over the eight (" + str(sum(F[nm]['rar']['N'] for nm in _V43_ORDER)) + " points): " + "; ".join(
+              f"{lab} {_v40_f(tot[k_], 0)}" for k_, lab in cols) + ".", "   ")
+    _v40_wrap("The parameters.  The leaf with the galaxy's baryons (ell [kpc], f = ell/ell_arena, B, C_eff, k* = ell/Rdisk, v_inf [km/s]; then "
+              "at the arena leaf, B fitted and 3/C_eff): " + "; ".join(
+              f"{nm} {_v40_f(F[nm]['hyb']['ell'], 2)}, {_v40_f(F[nm]['hyb']['f'], 3)}, {_v40_f(F[nm]['hyb']['B'], 3)}, "
+              f"{_v40_f(F[nm]['hyb']['Ceff'], 3)}, {_v40_f(F[nm]['hyb']['kst'], 2)}, {_v40_f(F[nm]['hyb']['vinf'], 1)}"
+              f"{' (at the lower end)' if F[nm]['hyb']['edge'] and abs(F[nm]['hyb']['ell'] - math.exp(_v43_range(_v43_galaxy(nm))[0])) < 1e-6 else ''}"
+              f"; {_v40_f(F[nm]['arena']['B'], 3)}, {_v40_f(3/F[nm]['arena']['Ceff'], 3)}" for nm in _V43_ORDER) + ".", "   ")
+    low = lambda nm, key: F[nm][key]['edge'] and abs(math.log(F[nm][key]['ell']) - F[nm]['lo']) < 1e-3
+    _v40_wrap("v_inf/V_flat: " + "; ".join(f"{nm} {_v40_f(F[nm]['hyb']['vinf']/_v43_galaxy(nm)['Vflat'], 3)}" for nm in _V43_ORDER) + ".", "   ")
+    _v40_wrap("B = 1 (ell, f): " + "; ".join(f"{nm} {_v40_f(F[nm]['hyb_B1']['ell'], 2)}, {_v40_f(F[nm]['hyb_B1']['f'], 3)}"
+              f"{' (at the lower end)' if low(nm, 'hyb_B1') else ''}" for nm in _V43_ORDER)
+              + ".  The arena rule with the disk's Y free (Y, B = 3/C_eff): " + "; ".join(
+              f"{nm} {_v40_f(F[nm]['mondY']['Y'], 3)}, {_v40_f(F[nm]['mondY']['B'], 3)}" for nm in _V43_ORDER) + ".  The RAR with the disk's Y "
+              "free (Y): " + "; ".join(f"{nm} {_v40_f(F[nm]['rarY']['Y'], 3)}" for nm in _V43_ORDER) + ".  NFW (V2 [km^2/s^2], r_s [kpc]): "
+              + "; ".join(f"{nm} {_v40_f(F[nm]['nfw']['V2'], 0)}, {_v40_f(F[nm]['nfw']['rs'], 2)}" if not F[nm]['nfw']['unb'] else
+                          f"{nm} r_s beyond 100 R_last, the halo's inner part alone: its limit V^2 = a R, fitted, a = "
+                          f"{_v40_f(F[nm]['nfw']['a'], 1)} km^2/s^2/kpc" for nm in _V43_ORDER)
+              + ".", "   ")
+    _v40_wrap("NFW with the baryons' scale free as well, V^2 = beta V_bar^2 + V2 nfw(R/r_s), three parameters (chi^2/(N - 3); beta): " + "; ".join(
+              f"{nm} {_v40_f(F[nm]['nfwB']['red'], 2)}; {_v40_f(F[nm]['nfwB']['beta'], 3)}" + ((" (r_s beyond 100 R_last, V^2 = beta V_bar^2 + a R: "
+              + (f"a = {_v40_f(F[nm]['nfwB']['a'], 1)} km^2/s^2/kpc)" if F[nm]['nfwB']['a'] > 1e-3 else "a = 0, no halo, the baryons times beta alone)"))
+              if F[nm]['nfwB']['unb'] else "") for nm in _V43_ORDER) + f"; total chi^2 {_v40_f(sum(F[nm]['nfwB']['chi2'] for nm in _V43_ORDER), 0)}.",
+              "   ")
+    _v40_wrap("The rescaling on the remainder alone, v^2 = V_bar^2 + B r (ell, f, B): " + "; ".join(
+              f"{nm} {_v40_f(F[nm]['hybR']['ell'], 2)}, {_v40_f(F[nm]['hybR']['f'], 3)}, {_v40_f(F[nm]['hybR']['B'], 3)}"
+              f"{' (B at the bound of its search)' if F[nm]['hybR']['bnd'] else ''}{' (at the lower end)' if low(nm, 'hybR') else ''}"
+              for nm in _V43_ORDER)
+              + ".  The single source (ell, h, k, B, v_inf): " + "; ".join(
+              f"{nm} " + (f"{_v40_f(F[nm]['one']['ell'], 2)}, {_v40_f(F[nm]['one']['h'], 3)}, {_v40_f(F[nm]['one']['k'], 2)}, "
+              f"{_v40_f(F[nm]['one']['B'], 3)}, {_v40_f(F[nm]['one']['vinf'], 1)}" if not F[nm]['one']['note'] else
+              {'idle': f"ell beyond 100 R_last, the leaf idle over the data: B Freeman's curve, h = {_v40_f(F[nm]['one']['h'], 2)}, "
+                       f"B = {_v40_f(F[nm]['one']['B'], 2)}",
+               'kbound': "k at the table's lower end, ell = 0.0105 h: the leaf far smaller than the source",
+               'kupper': f"k at the table's upper end, h = ell/990, a point on the leaf: ell = {_v40_f(F[nm]['one']['ell'], 2)}, "
+                         f"B = {_v40_f(F[nm]['one']['B'], 3)}, v_inf = {_v40_f(F[nm]['one']['vinf'], 1)}",
+               'lbound': "ell at R_last/170, the data far out on the leaf's image"}[F[nm]['one']['note']]) for nm in _V43_ORDER)
+              + "; at h = Rdisk (ell, k, B): " + "; ".join(
+              f"{nm} {_v40_f(F[nm]['one_Rd']['ell'], 2)}, {_v40_f(F[nm]['one_Rd']['k'], 2)}, {_v40_f(F[nm]['one_Rd']['B'], 3)}"
+              f"{' (at an end)' if F[nm]['one_Rd']['edge'] else ''}" for nm in _V43_ORDER) + ".", "   ")
+    low0 = lambda nm, key: F[nm][key]['edge'] and abs(math.log(F[nm][key]['ell']) - F[nm]['lo0']) < 1e-3
+    _v40_wrap("Without the floor of 2.7 Rdisk, the leaves searched down to the table's least k for every component: the leaf (ell, B), "
+              "chi^2/(N - 2) and ell; B = 1, chi^2/(N - 1) and ell; B on the remainder alone, chi^2/(N - 2), ell and B: " + "; ".join(
+              f"{nm} {_v40_f(F[nm]['hyb0']['red'], 2)}, {_v40_f(F[nm]['hyb0']['ell'], 2)}; {_v40_f(F[nm]['hyb_B10']['red'], 2)}, "
+              f"{_v40_f(F[nm]['hyb_B10']['ell'], 2)}; {_v40_f(F[nm]['hybR0']['red'], 2)}, {_v40_f(F[nm]['hybR0']['ell'], 2)}, "
+              f"{_v40_f(F[nm]['hybR0']['B'], 3)}" + "".join(f" ({lab_} at the lower end)" for key, lab_ in (('hyb0', 'the leaf'),
+              ('hyb_B10', 'B = 1'), ('hybR0', 'B on r')) if low0(nm, key)) for nm in _V43_ORDER) + ".", "   ")
+    _v40_wrap("chi^2/(N - 2) with B on the remainder alone over B on the whole curve, on the leaves from 2.7 Rdisk and without the floor: " + "; ".join(
+              f"{nm} {_v40_f(F[nm]['hybR']['red']/F[nm]['hyb']['red'], 2)}, {_v40_f(F[nm]['hybR0']['red']/F[nm]['hyb0']['red'], 2)}"
+              for nm in _V43_ORDER) + ".", "   ")
+    fl_ = lambda d: ' (at the floor)' if d['low'] else ''
+    _v40_wrap("The leaf with the galaxy's baryons at the disk's ratios 0.3, 0.5 and 0.7, on the leaves from 2.7 Rdisk (f; B), the fits at that "
+              "floor marked: " + "; ".join(
+              f"{nm} {_v40_f(F[nm][('hybY', 0.3)]['f'], 3)}{fl_(F[nm][('hybY', 0.3)])}, {_v40_f(F[nm]['hyb']['f'], 3)}"
+              f"{' (at the floor)' if low(nm, 'hyb') else ''}, {_v40_f(F[nm][('hybY', 0.7)]['f'], 3)}{fl_(F[nm][('hybY', 0.7)])}; "
+              f"{_v40_f(F[nm][('hybY', 0.3)]['B'], 3)}, {_v40_f(F[nm]['hyb']['B'], 3)}, {_v40_f(F[nm][('hybY', 0.7)]['B'], 3)}"
+              for nm in _V43_ORDER) + ".  The same without the floor (f; B): " + "; ".join(
+              f"{nm} {_v40_f(F[nm][('hybY0', 0.3)]['f'], 3)}, {_v40_f(F[nm]['hyb0']['f'], 3)}, {_v40_f(F[nm][('hybY0', 0.7)]['f'], 3)}; "
+              f"{_v40_f(F[nm][('hybY0', 0.3)]['B'], 3)}, {_v40_f(F[nm]['hyb0']['B'], 3)}, {_v40_f(F[nm][('hybY0', 0.7)]['B'], 3)}"
+              for nm in _V43_ORDER) + ".", "   ")
+    pts = []                         # the arena rule's own acceleration relation: g = v^2/R against the RAR's at the same g_bar
+    for nm in _V43_ORDER:
+        g = _v43_galaxy(nm); c2, B, mm = _v43_hyb(g, g['la'], F[nm]['mond']['B'])
+        pts += [(b/x, m*m/x/_v43_rar(b/x), v*v/x/_v43_rar(b/x))
+                for x, b, m, v in zip(g['R'], g['vb2'], mm, g['V']) if b > 0]
+    bins = []
+    for lo_, hi_ in ((1e-12, 1e-11), (1e-11, 3e-11), (3e-11, 1e-10), (1e-10, 3e-10), (3e-10, 1e-9), (1e-9, 1e-8)):
+        sel = sorted((r1, r2) for gb, r1, r2 in pts if lo_ <= gb/_V43_A0*1.2e-10 < hi_); u0 = sorted(r1 for r1, r2 in sel)
+        dd = sorted(r2 for r1, r2 in sel)
+        sd = lambda v: math.sqrt(sum((math.log10(max(a, 1e-9)) - sum(math.log10(max(b, 1e-9)) for b in v)/len(v))**2 for a in v)/len(v))
+        bins.append((lo_, hi_, len(sel), u0[len(u0)//2], u0[0], u0[-1], dd[len(dd)//2], sd(u0), sd(dd)))
+    _v40_wrap("The arena rule's own acceleration relation: g = v^2/R over the RAR's at the same g_bar, in bins of g_bar [m/s^2] (points; the "
+              "rule's median, least and greatest; the data's median; the scatter of the rule's and of the data's, the standard deviation of "
+              "their logarithms in dex): " + "; ".join(f"{lo_:.0e}-{hi_:.0e}: {n_}; {_v40_f(md, 3)}, {_v40_f(a_, 3)}, {_v40_f(b_, 3)}; "
+              f"{_v40_f(dm, 3)}; {_v40_f(s1, 3)}, {_v40_f(s2, 3)}" for lo_, hi_, n_, md, a_, b_, dm, s1, s2 in bins) + ".", "   ")
+    win = sum(1 for nm in _V43_ORDER if F[nm]['hyb']['red'] < F[nm]['nfw']['red'])
+    winB = sum(1 for nm in _V43_ORDER if F[nm]['hyb']['red'] < F[nm]['nfwB']['red'])
+    winR = sum(1 for nm in _V43_ORDER if F[nm]['hyb']['red'] < F[nm]['hybR']['red'])
+    winR0 = [nm for nm in _V43_ORDER if F[nm]['hyb0']['red'] < F[nm]['hybR0']['red']]
+    m0 = sum(1 for nm in _V43_ORDER if F[nm]['mond']['red'] < F[nm]['rar']['red'])
+    fl1, flR = [nm for nm in _V43_ORDER if low(nm, 'hyb_B1')], [nm for nm in _V43_ORDER if low(nm, 'hybR')]
+    _v40_wrap(f"The leaf (ell, B) below NFW (V2, r_s) in chi^2/(N - 2) for {win} of the 8, and below NFW with the baryons' scale free too, in "
+              f"chi^2/(N - 3), for {winB}; B on the whole curve below B on the remainder alone for {winR} of the 8 on the leaves from 2.7 Rdisk, "
+              f"for {len(winR0)} without the floor" + (" (all but " + ", ".join(nm for nm in _V43_ORDER if nm not in winR0) + ")" if len(winR0) < 8
+              else "") + f"; at the floor, B = 1 for {len(fl1)} ({', '.join(fl1)}) and B on the remainder alone for {len(flR)} ({', '.join(flR)}); "
+              f"the arena rule with 3/C_eff below the RAR, both with nothing free, for {m0} of the 8.", "   ")
+    rar36 = max(abs(F[nm]['rar']['red'] - _V43_V36_RAR[nm]) for nm in _V43_ORDER)
+    ok = (dw and rar36 < 0.051 and all(F[nm]['hyb']['red'] < 15 for nm in _V43_ORDER) and win == 4 and winR >= 7 and m0 == 2
+          and all(0.75 < md < 0.9 for lo_, hi_, n_, md, a_, b_, dm, s1, s2 in bins[1:4]) and 0.9 < bins[4][3] < 1.1
+          and sum(b_[2] for b_ in bins) == len(pts) and all(b_[7] < b_[8] for b_ in bins[1:3]) and bins[0][7] > bins[0][8]
+          and F['DDO154']['mond']['red'] < 0.2*F['DDO154']['rar']['red'] and tot['mond'] > 2*tot['rar'] and tot['hyb'] < tot['nfw']
+          and F['IC2574']['nfw']['unb'] and 30 < F['IC2574']['nfw']['red'] < 36 and not any(F[nm]['nfw']['unb'] for nm in _V43_ORDER[2:])
+          and all(F[nm]['hyb']['chi2'] < F[nm]['hyb_B1']['chi2'] for nm in _V43_ORDER) and not any(g_['hg_edge'] for g_ in
+          (_v43_galaxy(nm) for nm in _V43_ORDER)))
+    check(ok, f"v40.3-2: the RAR column reproduces v36's to {_v40_f(rar36, 3)}; the leaf with each galaxy's baryons and (ell, B) fits all eight "
+              "below chi^2/(N - 2) = 15, below NFW for four, its total below NFW's (IC 2574's halo at its limit V^2 = a R, evaluated stably); "
+              "B on the whole curve beats B on the remainder for seven on leaves from 2.7 Rdisk; with nothing free the arena rule beats the RAR "
+              "on the two gas-rich dwarfs and loses overall, its own acceleration relation's medians 10-25% below the RAR's between 1e-11 and "
+              "3e-10 m/s^2, tighter than the data's from 1e-11 to 1e-10 and looser below, and within 10% above")
+
+# ---------------------------------------------------------------------------------------------------- v40.3-3 the labels across the galaxies
+def _v43_corr(x, y):
+    n = len(x); mx, my = sum(x)/n, sum(y)/n
+    return sum((a - mx)*(b - my) for a, b in zip(x, y))/math.sqrt(sum((a - mx)**2 for a in x)*sum((b - my)**2 for b in y))
+
+def _v43_slope(x, y):
+    n = len(x); mx, my = sum(x)/n, sum(y)/n; return sum((a - mx)*(b - my) for a, b in zip(x, y))/sum((a - mx)**2 for a in x)
+
+def _v43_fint(nm):
+    """The leaves within the reduced chi^2 of the best (Delta chi^2 = 1 with the errors scaled to chi^2/(N - 2) = 1), as f = ell/ell_arena,
+    on the leaf with the galaxy's baryons and B in closed form; an end of the searched range where the profile stays below."""
+    g = _v43_galaxy(nm); d = _v43_fits(nm)['hyb']; c0, n0 = d['chi2'], d['red']; lo, hi = _v43_range(g); lb = math.log(d['ell'])
+    f = lambda le: _v43_hyb(g, math.exp(le))[0] - c0 - n0
+    ends = []
+    for a in (lo, hi):
+        if f(a) <= 0: ends.append(math.exp(a)/g['la']); continue
+        ends.append(math.exp(_v41_bisect(f, a, lb, 50))/g['la'])
+    return tuple(ends)
+
+def _v43_ceilings():
+    """The surface densities below which B = 1 puts one disk of Entry 326's source on v^4 = G M a0 for no leaf, in two definitions (v40.3's
+    first reading).  In Part XII's (Section XII.2), Sigma_c, the source's central surface density on the leaf, M = 2 pi Sigma_c ell^2 I(k) with
+    I(k) = int_0^(pi/2) e^(-k sin t) sin t dt (_v41_mass): the condition C(k)^2 I(k) = Sigma_dagger/Sigma_c.  In the exponential's nominal
+    Sigma_0 = M/(2 pi h^2) = Sigma_c k^2 I(k): C(k)/k = sqrt(Sigma_dagger/Sigma_0).  Over the table's k, and over k >= 2.7 and k >= 7.7."""
+    if 'ceil' in _V43_TAB: return _V43_TAB['ceil']
+    Sd = _V43_A0/(2*math.pi*_V40_GK)/1e6; T = _v43_table()['C']
+    q = [(T[i]**2*_v41_mass(k, math.pi/2), k) for i, k in enumerate(_V43_KT)]
+    i0 = max(range(len(q)), key=lambda i: q[i][0]); kx, cx = _V43_KT[i0], q[i0][0]
+    if 0 < i0 < len(q) - 1:          # the maximum between the table's points, by a golden section on the interpolated C
+        cx, lk = _v41_golden(lambda lk: -_v43_C(math.exp(lk))**2*_v41_mass(math.exp(lk), math.pi/2), _V43_LKT[i0 - 1], _V43_LKT[i0 + 1], 60)
+        cx, kx = -cx, math.exp(lk)
+    c27 = max(_v43_C(2.7)**2*_v41_mass(2.7, math.pi/2), max(c for c, k in q if k >= 2.7))
+    c77 = max(_v43_C(7.7)**2*_v41_mass(7.7, math.pi/2), max(c for c, k in q if k >= 7.7))
+    cn = max((T[i]/k, k) for i, k in enumerate(_V43_KT))
+    out = dict(Sd=Sd, xii=Sd/cx, kxii=kx, cxii=cx, x27=Sd/c27, x77=Sd/c77, nom=Sd/cn[0]**2, cnom=cn[0], knom=cn[1],
+               n27=Sd/(_v43_C(2.7)/2.7)**2, n77=Sd/(_v43_C(7.7)/7.7)**2)
+    _V43_TAB['ceil'] = out; return out
+
+def v40_3_labels():
+    """v40.3-3: the labels (f, B) across the galaxies, the label condition and the arena rule's B = 3/C_eff (R595)."""
+    print("\n== v40.3-3. The labels across the galaxies: f = ell/ell_arena and B, the label condition B C/(3f) = 1 and B = 3/C at the arena leaf (R595) ==")
+    rows = []
+    for nm in _V43_ORDER:
+        g = _v43_galaxy(nm); F = _v43_fits(nm); h, a = F['hyb'], F['arena']
+        rows.append(dict(nm=nm, M=g['Mb'], f=h['f'], B=h['B'], C=h['Ceff'], lab=h['B']*h['Ceff']/(3*h['f']), vv=(h['vinf']/g['va'])**2,
+                         vf=(g['Vflat']/g['va'])**2, Ba=a['B'], Bc=3/a['Ceff'], ka=g['la']/g['Rd'], v36=_V43_V36_LABELS[nm], fi=_v43_fint(nm)))
+    mw = _v43_mw(); d = mw['leaf']; Cm = _v43_C(d['k'])
+    mwr = dict(f=d['ell']/mw['la'], B=d['B'], C=Cm, lab=d['B']*Cm/(3*d['ell']/mw['la']), vv=(d['vinf']/mw['va'])**2, Ba=mw['arena']['B'],
+               Bc=3/_v43_C(mw['arena']['k']), ka=mw['arena']['k'])
+    _v40_wrap("Per galaxy, from the leaf with its baryons: f, B, C_eff; B C_eff/(3f), equal to (v_inf/v_arena)^2; (V_flat/v_arena)^2 from "
+              "Table 1's V_flat; the leaves within the reduced chi^2 of the best, as f; at the arena leaf B fitted, 3/C_eff and their ratio, "
+              "and ell_arena/Rdisk; v36's labels (ell_eff/ell_arena, zeta/lambda; Section XXXIII.10):", "   ")
+    for r in rows:
+        _v40_wrap(f"{r['nm']}: {_v40_f(r['f'], 3)}, {_v40_f(r['B'], 3)}, {_v40_f(r['C'], 3)}; {_v40_f(r['lab'], 3)} = {_v40_f(r['vv'], 3)}; "
+                  f"{_v40_f(r['vf'], 3)}; {_v40_f(r['fi'][0], 3)}-{_v40_f(r['fi'][1], 3)}; {_v40_f(r['Ba'], 3)}, {_v40_f(r['Bc'], 3)}, "
+                  f"{_v40_f(r['Ba']/r['Bc'], 3)}, {_v40_f(r['ka'], 2)}; {r['v36'][0]:.2f}, {r['v36'][1]:.2f}", "     ", "       ")
+    _v40_wrap(f"The Milky Way (the single source, v40.3-1): {_v40_f(mwr['f'], 3)}, {_v40_f(mwr['B'], 3)}, {_v40_f(mwr['C'], 3)}; "
+              f"{_v40_f(mwr['lab'], 3)} = {_v40_f(mwr['vv'], 3)}; at the arena leaf {_v40_f(mwr['Ba'], 3)}, {_v40_f(mwr['Bc'], 3)}, "
+              f"{_v40_f(mwr['Ba']/mwr['Bc'], 3)}, k = {_v40_f(mwr['ka'], 2)}.", "     ", "       ")
+    L = lambda key: [math.log(r[key]) for r in rows]; lM = [math.log10(r['M']) for r in rows]
+    c1 = _v43_corr(L('lab'), L('vf')); c2 = _v43_corr([math.log(r['Ba']/r['Bc']) for r in rows], L('vf')); c3 = _v43_corr(L('Ba'), L('Bc'))
+    sB, cB = _v43_slope(lM, [math.log10(r['B']) for r in rows]), _v43_corr(lM, [math.log10(r['B']) for r in rows])
+    ell = [math.log10(r['f']*_v43_galaxy(r['nm'])['la']) for r in rows]; sl, cl = _v43_slope(lM, ell), _v43_corr(lM, ell)
+    sc = _v43_slope(lM, [math.log10(r['Bc']) for r in rows]); cc = _v43_corr(lM, [math.log10(r['Bc']) for r in rows])
+    sBl = _v43_slope(lM, [math.log10(r['B']*r['C']/(r['f']*_v43_galaxy(r['nm'])['la'])) for r in rows])
+    sBa = _v43_slope(lM, [math.log10(r['Ba']) for r in rows]); sV = _v43_slope(lM, [math.log10(r['vf']) for r in rows])
+    sY = {}                          # the leaves at the disk's ratios 0.3 and 0.7 (v40.3-2): their slope against log M_b and the range of f,
+    for Y in (0.3, 0.7):             # on the leaves from 2.7 Rdisk (the fits at that floor counted) and without the floor
+        lMY = [math.log10(_v43_galaxy(nm, Y)['Mb']) for nm in _V43_ORDER]
+        for key in ('hybY', 'hybY0'):
+            lY = [math.log10(_v43_fits(nm)[(key, Y)]['ell']) for nm in _V43_ORDER]; fY = [_v43_fits(nm)[(key, Y)]['f'] for nm in _V43_ORDER]
+            sY[(key, Y)] = (_v43_slope(lMY, lY), _v43_corr(lMY, lY), min(fY), max(fY), sum(1 for nm in _V43_ORDER if _v43_fits(nm)[(key, Y)]['low']))
+    l0_ = [math.log10(_v43_fits(nm)['hyb0']['ell']) for nm in _V43_ORDER]; sl0, cl0 = _v43_slope(lM, l0_), _v43_corr(lM, l0_)
+    v1 = _v43_corr([math.log(r['v36'][0]) for r in rows], L('f')); v2 = _v43_corr([math.log(r['v36'][1]) for r in rows], L('B'))
+    inside = [r['nm'] for r in rows if r['fi'][0] <= 1.0 <= r['fi'][1]]
+    better = [nm for nm in _V43_ORDER if _v43_fits(nm)['hyb']['red'] < _V43_V36_RED[nm]]
+    _v40_wrap(f"Correlations of the logarithms: B C_eff/(3f) with (V_flat/v_arena)^2, {_v40_f(c1, 3)}; at the arena leaf, B/(3/C_eff) with "
+              f"(V_flat/v_arena)^2, {_v40_f(c2, 3)}; B with 3/C_eff, {_v40_f(c3, 3)}.  Against log M_b: log B slope {_v40_f(sB, 3)} (correlation "
+              f"{_v40_f(cB, 3)}), log ell slope {_v40_f(sl, 3)} ({_v40_f(cl, 3)}; the arena law's 0.5), log(3/C_eff) at the arena leaf "
+              f"{_v40_f(sc, 3)} ({_v40_f(cc, 3)}), log B at the arena leaf {_v40_f(sBa, 3)}, log (V_flat/v_arena)^2 {_v40_f(sV, 3)}, "
+              f"log(B C_eff/ell) {_v40_f(sBl, 3)} (v^4 proportional to M needs -0.5).  At the disk's ratios 0.3 and 0.7 (v40.3-2), on the leaves "
+              f"from 2.7 Rdisk, the log ell slope is {_v40_f(sY[('hybY', 0.3)][0], 3)} ({_v40_f(sY[('hybY', 0.3)][1], 3)}) and "
+              f"{_v40_f(sY[('hybY', 0.7)][0], 3)} ({_v40_f(sY[('hybY', 0.7)][1], 3)}), f from {_v40_f(sY[('hybY', 0.3)][2], 3)} to "
+              f"{_v40_f(sY[('hybY', 0.3)][3], 3)} and from {_v40_f(sY[('hybY', 0.7)][2], 3)} to {_v40_f(sY[('hybY', 0.7)][3], 3)}, "
+              f"{sY[('hybY', 0.3)][4]} and {sY[('hybY', 0.7)][4]} of the fits at that floor; without the floor, {_v40_f(sY[('hybY0', 0.3)][0], 3)} "
+              f"({_v40_f(sY[('hybY0', 0.3)][1], 3)}) and {_v40_f(sY[('hybY0', 0.7)][0], 3)} ({_v40_f(sY[('hybY0', 0.7)][1], 3)}), f from "
+              f"{_v40_f(sY[('hybY0', 0.3)][2], 3)} to {_v40_f(sY[('hybY0', 0.3)][3], 3)} and from {_v40_f(sY[('hybY0', 0.7)][2], 3)} to "
+              f"{_v40_f(sY[('hybY0', 0.7)][3], 3)}, and at 0.5 {_v40_f(sl0, 3)} ({_v40_f(cl0, 3)}).  With v36's labels: "
+              f"f {_v40_f(v1, 3)}, B {_v40_f(v2, 3)}.  f = 1 within the reduced chi^2 of the best for {len(inside)} of the 8"
+              + (": " + ", ".join(inside) if inside else "") + "; the intervals' ends over the best leaf: " + "; ".join(
+              f"{r['nm']} {_v40_f(r['fi'][0]/r['f'], 3)}, {_v40_f(r['fi'][1]/r['f'], 3)}" for r in rows) + ".  v36's two labels on its "
+              "pushforward of the observed light gave chi^2/(N - 2) = "
+              + ", ".join(f"{_V43_V36_RED[nm]:.2f}" for nm in _V43_ORDER) + " (Section XXXIII.17(b)); the leaf with the galaxies' baryons, "
+              + ", ".join(_v40_f(_v43_fits(nm)['hyb']['red'], 2) for nm in _V43_ORDER) + f": lower for {len(better)} of the 8.", "   ")
+    # B = 3/C at the arena leaf as a function of the central surface density: k = ell_arena/h = 3 sqrt(Sigma_0/Sigma_dagger) for one disk
+    cl_ = _v43_ceilings(); Sd = cl_['Sd']
+    tab = [(S0, 3*math.sqrt(S0/Sd)) for S0 in (20, 50, 100, 137, 300, 1000, 3000)]
+    _v40_wrap(f"One exponential disk on its arena leaf has k = ell_arena/h = 3 sqrt(Sigma_0/Sigma_dagger), Sigma_0 = M/(2 pi h^2) the nominal "
+              f"central surface density of the exponential of its mass and Sigma_dagger = a0/(2 pi G) = {_v40_f(Sd, 1)} Msun/pc^2, so B = 3/C(k) "
+              f"is a function of the surface density alone; the source's own central surface density on the leaf, Part XII's Sigma_c, is "
+              f"Sigma_0/(k^2 I(k)), I(k) = int_0^(pi/2) e^(-k sin t) sin t dt (Sigma_0, k, B, Sigma_c): " + "; ".join(
+              f"{S0}, {_v40_f(k, 2)}, {_v40_f(3/_v43_C(k), 3)}, {_v40_f(S0/(k*k*_v41_mass(k, math.pi/2)), 1)}" for S0, k in tab) + ".  With "
+              f"B = 1, v^4 = G M a0 needs C(k)^2 I(k) = Sigma_dagger/Sigma_c for some leaf -- Part XII's condition, whose ceiling for its thin disk "
+              f"was 190 Msun/pc^2 (Section XII.2): for Entry 326's source C^2 I is largest, {_v40_f(cl_['cxii'], 4)}, at k = "
+              f"{_v40_f(cl_['kxii'], 2)}, so Sigma_c >= {_v40_f(cl_['xii'], 0)} Msun/pc^2; with the image within 0.3 mag or 0.1 mag of the "
+              f"exponential out to four scale lengths, k >= 2.7 or 7.7, Sigma_c >= {_v40_f(cl_['x27'], 0)} or {_v40_f(cl_['x77'], 0)}.  In the "
+              f"nominal Sigma_0 the condition is C(k)/k = sqrt(Sigma_dagger/Sigma_0); C(k)/k is largest, {_v40_f(cl_['cnom'], 4)}, at the table's "
+              f"smallest k, {_v40_f(cl_['knom'], 2)}, where Sigma_c/Sigma_0 grows without bound, so Sigma_0 >= {_v40_f(cl_['nom'], 0)} Msun/pc^2, "
+              f"and for k >= 2.7 or 7.7, Sigma_0 >= {_v40_f(cl_['n27'], 0)} or {_v40_f(cl_['n77'], 0)}.", "   ")
+    ok = (all(abs(r['lab'] - r['vv']) < 1e-9 for r in rows) and c1 > 0.95 and c2 > 0.95 and c3 > 0.9 and -0.2 < sB < -0.1 and 0.35 < sl < 0.5
+          and sc < 0 and sV > 0 and -0.45 < sBl < -0.35 and v2 > 0.95 and not inside and 0.95 < rows[6]['fi'][0] < 1.05 and len(better) == 7
+          and 'NGC2841' not in better
+          and 0.9 < mwr['f'] < 1.0 and abs(mwr['lab'] - mwr['vv']) < 1e-9 and 250 < cl_['nom'] < 265 and cl_['n77'] > 900
+          and 295 < cl_['xii'] < 310 and 2 < cl_['kxii'] < 3.2 and cl_['x27'] < 1.01*cl_['n27'])
+    check(ok, "v40.3-3: B C_eff/(3f) is (v_inf/v_arena)^2 to 1e-9 and tracks each galaxy's (V_flat/v_arena)^2 (log correlation above 0.95); at the "
+              "arena leaf B is identically 3/C_eff times (v_inf/v_arena)^2, so the B the curves want is 3/C_eff times the offset; the leaves scale "
+              "as M^0.35-0.5, B as M^-0.1 to -0.2; v36's amplitudes recovered (correlation above 0.95); f = 1 outside every galaxy's interval, "
+              "NGC 2841's within 5%; B = 1 needs the source's central surface density on the leaf above 295 Msun/pc^2 (Part XII's definition), "
+              "the nominal one above 250, above 900 for an exponential image")
+
+# ---------------------------------------------------------------------------------------------------- v40.3-4 no per-galaxy freedom
+def _v43_rule(rule, p):
+    """A rule for every galaxy: (f, B(g, ell, f)).  U0: f = 1, B = 3/C_eff (the arena law and the label condition, nothing free); U1: f = f0,
+    B = 3 f0/C_eff (v_inf = v_arena kept, one constant); U2: f = f0, B = b 3 f0/C_eff (v_inf^4 = b^2 G M a0, two); U3: f = f0, B = b (two)."""
+    if rule == 'U0': return 1.0, lambda g, ell, f: 3/_v43_ceff(g, ell)
+    f0 = math.exp(p[0])
+    if rule == 'U1': return f0, lambda g, ell, f: 3*f/_v43_ceff(g, ell)
+    b = math.exp(p[1])
+    if rule == 'U2': return f0, lambda g, ell, f: b*3*f/_v43_ceff(g, ell)
+    return f0, lambda g, ell, f: b
+
+def _v43_rule_chi2(rule, p, names):
+    f, Bf = _v43_rule(rule, p); tot = 0.0
+    for nm in names:
+        g = _v43_galaxy(nm); ell = f*g['la']; tot += _v43_hyb(g, ell, Bf(g, ell, f))[0]
+    return tot
+
+def _v43_rule_fit(rule, names):
+    """The rule's constants fitted to the galaxies named: a grid and a golden section in ln f0 (U1), a 13 x 13 grid in (ln f0, ln b) over
+    f0 = 0.2-5 and b = 0.3-9 and the simplex (U2, U3)."""
+    if rule == 'U0': return [], _v43_rule_chi2(rule, [], names)
+    if rule == 'U1':
+        c, x, e_ = _v41_scan(lambda x: _v43_rule_chi2(rule, [x], names), math.log(0.2), math.log(5.0), 31, 40); return [x], c
+    grid = [(math.log(0.2) + math.log(25.0)*i/12, math.log(0.3) + math.log(30.0)*j/12) for i in range(13) for j in range(13)]
+    f = lambda x: _v43_rule_chi2(rule, x, names); c, x = _v43_nelder(f, list(min(grid, key=f)), [0.1, 0.1], 400, 1e-12); return x, c
+
+def _v43_rar_chi2(g, g0):
+    return sum(((math.sqrt(_v43_rar(b/x, g0)*x) - v)/e)**2 for x, b, v, e in zip(g['R'], g['vb2'], g['V'], g['E']))
+
+def v40_3_rules():
+    """v40.3-4: rules with no per-galaxy freedom, fitted to the eight and left out one at a time, against the RAR (R596)."""
+    print("\n== v40.3-4. No per-galaxy freedom: the arena rule and its variants with one or two constants, leave-one-out, against the RAR (R596) ==")
+    N = {nm: _v43_galaxy(nm)['N'] for nm in _V43_ORDER}; out = {}
+    for rule in ('U0', 'U1', 'U2', 'U3'):
+        p, c = _v43_rule_fit(rule, _V43_ORDER); f, Bf = _v43_rule(rule, p)
+        per = {nm: _v43_rule_chi2(rule, p, [nm]) for nm in _V43_ORDER}; loo = {}
+        if rule != 'U0':
+            for nm in _V43_ORDER:
+                q, c_ = _v43_rule_fit(rule, [o for o in _V43_ORDER if o != nm]); loo[nm] = (_v43_rule_chi2(rule, q, [nm]), [math.exp(v) for v in q])
+        out[rule] = (p, c, per, loo)
+    gl = lambda names: _v41_scan(lambda x: sum(_v43_rar_chi2(_v43_galaxy(o), math.exp(x)) for o in names), math.log(0.2*_V43_A0),
+                                 math.log(5*_V43_A0), 41, 50)
+    cR, x, e_ = gl(_V43_ORDER); perR = {nm: _v43_rar_chi2(_v43_galaxy(nm), math.exp(x)) for nm in _V43_ORDER}; looR = {}
+    for nm in _V43_ORDER:
+        c_, y, e_ = gl([o for o in _V43_ORDER if o != nm]); looR[nm] = (_v43_rar_chi2(_v43_galaxy(nm), math.exp(y)), math.exp(y)/_V43_A0*1.2)
+    per0 = {nm: _v43_rar_chi2(_v43_galaxy(nm), _V43_A0) for nm in _V43_ORDER}
+    lab = {'U0': "U0, f = 1 and B = 3/C_eff (nothing free)", 'U1': "U1, f = f0 and B = 3 f0/C_eff (one constant)",
+           'U2': "U2, f = f0 and B = b 3 f0/C_eff (two)", 'U3': "U3, f = f0 and B = b (two)"}
+    for rule in ('U0', 'U1', 'U2', 'U3'):
+        p, c, per, loo = out[rule]
+        _v40_wrap(f"{lab[rule]}: " + (", ".join(f"{a} = {_v40_f(math.exp(v), 3)}" for a, v in zip(("f0", "b"), p)) + "; " if p else "")
+                  + f"total chi^2 {_v40_f(c, 0)}; chi^2/N " + ", ".join(f"{nm} {_v40_f(per[nm]/N[nm], 2)}" for nm in _V43_ORDER)
+                  + (("; left out in turn, chi^2/N " + ", ".join(f"{nm} {_v40_f(loo[nm][0]/N[nm], 2)}" for nm in _V43_ORDER)
+                      + f", total {_v40_f(sum(v[0] for v in loo.values()), 0)}; f0 from {_v40_f(min(v[1][0] for v in loo.values()), 3)} to "
+                      f"{_v40_f(max(v[1][0] for v in loo.values()), 3)}") if loo else "") + ".", "     ", "       ")
+    _v40_wrap(f"The RAR with g_dagger fitted to the eight: {_v40_f(math.exp(x)/_V43_A0*1.2, 3)}e-10 m/s^2, total chi^2 {_v40_f(cR, 0)}; chi^2/N "
+              + ", ".join(f"{nm} {_v40_f(perR[nm]/N[nm], 2)}" for nm in _V43_ORDER) + "; left out in turn, chi^2/N " + ", ".join(
+              f"{nm} {_v40_f(looR[nm][0]/N[nm], 2)}" for nm in _V43_ORDER) + f", total {_v40_f(sum(v[0] for v in looR.values()), 0)}.  At "
+              f"1.2e-10 m/s^2 (nothing free), total {_v40_f(sum(per0.values()), 0)}.", "     ", "       ")
+    t = {r_: out[r_][1] for r_ in out}; tl = {r_: sum(v[0] for v in out[r_][3].values()) for r_ in ('U1', 'U2', 'U3')}
+    tR, tRl, t0 = cR, sum(v[0] for v in looR.values()), sum(per0.values())
+    _v40_wrap("Totals over the RAR's, with g_dagger fitted and at 1.2e-10 m/s^2: " + "; ".join(f"{r_} {_v40_f(t[r_]/tR, 3)}, {_v40_f(t[r_]/t0, 3)}"
+              for r_ in ('U0', 'U1', 'U2', 'U3')) + ".  Left out in turn, over the RAR's refitted without each galaxy and over the RAR at "
+              "1.2e-10 m/s^2, the published constant, which SPARC's whole sample fixed and no galaxy is left out of: " + "; ".join(
+              f"{r_} {_v40_f(tl[r_]/tRl, 3)}, {_v40_f(tl[r_]/t0, 3)}" for r_ in ('U1', 'U2', 'U3')) + ".", "     ", "       ")
+    ok = (t['U0'] > 2*t0 and t['U1'] < 1.2*tR and t['U2'] < tR and t['U3'] < 1.05*tR and tl['U1'] < tRl and tl['U3'] < tRl and tl['U2'] < 1.05*tRl
+          and 1.0 < math.exp(out['U2'][0][1]) < 1.5 and math.exp(out['U1'][0][0]) > 1.5
+          and min(min(out[r_][2][nm]/N[nm] for nm in _V43_ORDER) for r_ in out) > 2 and min(perR[nm]/N[nm] for nm in _V43_ORDER) > 2
+          and min(per0[nm]/N[nm] for nm in _V43_ORDER) > 2 and t0 < min(tl.values()))
+    check(ok, "v40.3-4: with nothing free the arena rule's chi^2 is over twice the RAR's; with one or two constants the leaf's rules come within "
+              "20% of the RAR with g_dagger fitted, and predict the galaxies left out about as well as the RAR refitted without them or better, "
+              "though not as well as the RAR at its published constant; no rule, the leaf's or the RAR's, fits any of the eight to chi^2/N below 2")
+
+def v40_3_suite():
+    """The v40.3 sections: v40.3-1 to v40.3-4 (R593-R596)."""
+    v40_3_milky_way(); v40_3_sparc(); v40_3_labels(); v40_3_rules()
+
 def current_suite_v40():
-    """The regression suite of Part XXXVIII (v40.0, v40.1 and v40.2), followed by the check summary."""
-    v40_0_suite(); v40_1_suite(); v40_2_suite()
+    """The regression suite of Part XXXVIII (v40.0-v40.3), followed by the check summary."""
+    v40_0_suite(); v40_1_suite(); v40_2_suite(); v40_3_suite()
     npass = sum(1 for ok, _ in _CHECKS if ok); nfail = len(_CHECKS)-npass
     print(f"\n== check summary (Part XXXVIII): {npass} passed, {nfail} failed ==")
     for ok, msg in _CHECKS:
@@ -107722,7 +108867,7 @@ def current_suite_v40():
 if __name__ == "__main__":
     import sys
     arg = sys.argv[1] if len(sys.argv) > 1 else "current"
-    suites = {"current": current_suite_v40, "v40_0": v40_0_suite, "v40_1": v40_1_suite, "v40_2": v40_2_suite}
+    suites = {"current": current_suite_v40, "v40_0": v40_0_suite, "v40_1": v40_1_suite, "v40_2": v40_2_suite, "v40_3": v40_3_suite}
     if arg not in suites:
         print("usage: python3 -I pg_v40_numerics.py [" + " | ".join(suites) + "]"); sys.exit(2)
     suites[arg]()
@@ -108178,11 +109323,621 @@ Mass near the equator pulls the inner disk outward, as the outer rings of any th
 - **R589 (the apparent halo, the image against the exponential, the equator, the figures).** The point source's apparent mass and density in closed form; the image's ratio to the exponential, its first $10\%$ departure, and its mass inside and beyond; the source beyond $36$ kpc removed, doubled and held, for the Milky Way's falloff and a slow one; thirteen figures (§XXXVIII.27(b)–(e)). [T/V/S/O]
 - **R590 (the suite, the figures' script and the toy).** `pg_v40_numerics.py` with its v40.2 sections and mode `v40_2`, its v40.0 and v40.1 sections printing v40.1's final run byte for byte; `pg_v40_figures.py`, which draws the thirteen figures from the suite's functions; the toy's mode `v40_2`, its `all` running the frozen suites and Part XXXVIII together (§XXXVIII.19). [V]
 
+## XXXVIII.29 The third follow-up of 22 November and the request for v40.3, as formulated [record; R591]
+
+**The inputs.** Four messages of 22 November, after v40.2 was delivered: a request for a status report on where the model fits the data and where not yet; the author's reading of the report's "total rescaling" as his own MOND idea, a rescaling of the whole galaxy that makes the GM of $v^2$ an apparent mass, proposed as the third major degree of freedom, with an excerpt of the report attached; the request for this version — the tests worked out, then made v40.3, the three degrees of freedom sculpted to build up to the data, with a thorough look back at the archive's MOND program, above all at its cross-galaxy rescaling factors; and a response from another assistant, titled Entry 526, sent as an attachment.
+
+**How the messages were kept.** The session was compacted at 20:28 UTC and its transcript rewritten; the first three messages had not been saved before. They are given here as the summary written at the compaction quotes them. The summary's quotations of the eight messages of v40.2's record that it also quotes, saved before (§XXXVIII.26), agree with the saved files byte for byte, and the third message's first $200$ characters agree byte for byte with the transcript's record of the last prompt, which keeps no more; the rest cannot be checked against the rows, which are gone. The second message opened, as such messages do, with a reference to its attached file, which the summary does not keep; it is not reconstructed here. The fourth message is saved from the record of the queue that held it, at 20:21:18 UTC, and the two attachments from their files, the first saved at 20:13:49 UTC, which dates the second message. The third was sent before 20:18 UTC, when this version's work began. The build's `inputs/index.json` records each one's size and SHA-256.
+
+**The request for a status report, sent after the reply that delivered v40.2.** In the author's words:
+
+> Amazing, thanks! Ok by the way now, please give me the status report on where the model is fitting the empiricism, and where not quite yet (which still might come down to it being an idealization, hence why I think we're still in the green and all). Thanks!
+
+**The third freedom (about 20:13 UTC), with an attachment.** In the author's words, after the reference to the attached file:
+
+> Ah right, this is what I meant by the "total rescaling" at the end, for which my idea is basically that we're physically rescaling the whole said alternate galaxy and so its "GM" parameter picks up a scale factor---if you look back to it, this was my MOND idea itself for why the sqrt(M) appears to come out. It's that we have two different concepts of M being conflated by not taking this rescaling into account, but the idea basically is that the rescaling might do work of its own, so as to boost the bottom v^2. So yeah if we incorporate that as the third major degree of freedom, to total ell, h, and this extra scale atop the "absolute mass" to give the "GM" used in v^2 as merely the "apparent" mass, then how does it look??? Anyways thanks!
+
+The attached file is one paragraph of the status report:
+
+> Shape and speed pull ℓ in opposite directions. On the leaf that gives the right speed, the light is exponential only to about four scale lengths. A leaf big enough to stay exponential out to 18 kpc drops the flat speed to 88 km/s. With mass and scale length fixed, one leaf can't do both.
+
+**The request for this version (before 20:18 UTC).** In the author's words:
+
+> Ok, amazing to hear! Please work out those tests to the best of you ability, and then move to incorporate them in as v40.3. The whole idea is now basically to sculpt how the three major degrees of freedom can go together to build up to the empiricism, is the idea. Please also throughly look back at the full MOND program I have in there, for reference, especially pertaining to cross-galaxy relative rescaling factors, which is basically the root of the idea. Thanks!
+
+**The response titled Entry 526 (20:21:18 UTC).** In the author's words, the message that sent it:
+
+> @"/mnt/user-data/attachments/2a25caa1-f693-5ef6-91c8-31d0e41e3918/0e562c15-attachment.txt" This was a response from ChatGPT by the way. Thanks!
+
+The attached response, whole:
+
+> ## **Entry 526 — The third degree of freedom: real progress, but the MOND test is more specific than Claude suggests**
+>
+> I think this is an important update, particularly because your new rescaling parameter connects directly to the **original cross-galaxy MOND argument** rather than simply adding another adjustment to v40.2.
+>
+> **My assessment:** the Milky Way fit has improved substantially, and the new parameter lets us isolate a genuine physical question about the difference between absolute mass and rendered gravitational mass. But we have not yet demonstrated that the additional parameter *explains* that difference.
+>
+> The most promising next calculation is to connect the rescaling to the old arena-radius law and the shape-dependent plateau coefficient. That produces a sharper test than merely looking for larger rescalings in smaller galaxies.
+>
+> ### **1. What the three-parameter model is now doing**
+>
+> I'd rename Claude's new amplitude \\(A\\) to \\(\mathcal B\\), to avoid confusing it with the C-metric acceleration parameter \\(A\\) we've been discussing.
+>
+> The proposed galaxy law becomes
+>
+> \\[ \boxed{ v^2(R)= \mathcal B\\,\frac{GM\_{\rm abs}}{\ell}\\, u\left(\frac R\ell;\frac\ell h\right). } \\]
+>
+> Here the three adjustable quantities have distinct jobs:
+>
+> | Parameter        | Role                                                           |
+> | ---------------- | -------------------------------------------------------------- |
+> | \\(\ell\\)       | Sets the leaf's radial scale and influences the curve's shape  |
+> | \\(h\\)          | Sets the source falloff and the disk-to-plateau shape          |
+> | \\(\mathcal B\\) | Rescales the gravitational response or apparent dynamical mass |
+>
+> This is much more flexible than the original frozen-leaf comparison.
+>
+> But Claude correctly identifies a limitation:
+>
+> \\[ \boxed{ M\_{\rm dyn}=\mathcal B M\_{\rm abs} } \\]
+>
+> as far as the overall velocity normalization is concerned.
+>
+> If \\(\ell\\) and \\(h\\) are independent, rotation curves measure the product \\(\mathcal B M\_{\rm abs}\\), not its individual factors.
+>
+> That does **not** invalidate the hypothesis. It tells us exactly what has to be specified independently: the mass scale, the optical size transformation, or a dynamical law for \\(\mathcal B\\).
+>
+> And one technical distinction matters: a **global rescaling of lengths** does not automatically multiply gravitational mass by an independent factor. The transformation of masses, densities, clocks and \\(G\\) must be specified to determine the transformation of \\(GM/\ell\\).
+>
+> So your envisioned total rescaling needs to be a physical rule, not simply a choice of units.
+>
+> ## **2. The Milky Way improvement is substantial**
+>
+> Using the figures Claude reports:
+>
+> Previous χ²
+>
+> # **568**
+>
+> No new amplitude
+>
+> New χ²
+>
+> # **150**
+>
+> Three parameters
+>
+> RMS speed error
+>
+> # **8.0**
+>
+> km/s, down from 14.3
+>
+> The fit has reduced χ² by roughly 74%, and the RMS error by about 44%.
+>
+> That's a real improvement in descriptive performance.
+>
+> The favored region,
+>
+> \\[ \ell\approx27\ {\rm kpc},\quad h\approx3.0\ {\rm kpc},\quad \mathcal B\approx1.5, \\]
+>
+> also looks more encouraging than the previous leaf with \\(\ell\approx15\\) kpc.
+>
+> The larger leaf allows the apparent disk to remain roughly exponential over a greater physical distance, while the amplitude compensates for the weaker gravitational normalization.
+>
+> However, **χ² = 150 for 38 observations and three fitted parameters corresponds to a reduced χ² of approximately 4.3**. Under the stated statistical-error model, that's still not an acceptable fit.
+>
+> And the reported outer decline should be understood over the measured radial interval. The underlying v40.2 family can fall from an inner hump, pass through a minimum, and rise again toward a plateau. Matching part of the Milky Way's decline does not establish the complete outer rotation curve.
+>
+> One useful detail: Claude's “lowest scatter” solution has a smaller unweighted RMS but a worse χ². That is possible because the two objectives weight the observed points differently. The final fit must use one explicitly defined likelihood.
+>
+> ## **3. The connection to your original MOND program is more interesting**
+>
+> I went back to Part XII of v40.2.
+>
+> The earlier argument proposed an arena-radius scaling of approximately
+>
+> \\[ \boxed{ \ell\simeq3\sqrt{\frac{GM}{a_0}}, } \\]
+>
+> where \\(a_0\\) is the MOND acceleration scale.
+>
+> The point of that proposal was that the square-root mass dependence came from the arena law, rather than being inserted into the flat velocity afterward.
+>
+> That matters enormously for interpreting the new amplitude.
+>
+> Let \\(C(k)\\) be the plateau coefficient in the current normalization, with
+>
+> \\[ k=\frac{\ell}{h}. \\]
+>
+> Then
+>
+> \\[ v\_\infty^2 = C(k)\mathcal B\frac{GM}{\ell}. \\]
+>
+> To obtain the MOND-like baryonic Tully–Fisher scaling,
+>
+> \\[ v\_\infty^4=GMa_0, \\]
+>
+> we require
+>
+> \\[ \boxed{ \frac{C(k)\mathcal B}{\ell} = \sqrt{\frac{a_0}{GM}}. } \\]
+>
+> Now substitute the manuscript's old radius law:
+>
+> \\[ \ell\simeq3\sqrt{\frac{GM}{a_0}}. \\]
+>
+> The necessary condition becomes
+>
+> \\[ \boxed{ C(k)\mathcal B\simeq3. } \\]
+>
+> **That's the particularly interesting result.**
+>
+> For a very concentrated source, v40.2 finds \\(C(k)\to3\\). Then the old arena law already gives the MOND normalization with approximately
+>
+> \\[ \mathcal B\simeq1. \\]
+>
+> For a diffuse source, \\(C(k)\\) is smaller. The corresponding normalization would require
+>
+> \\[ \boxed{ \mathcal B(k)\simeq\frac3{C(k)}. } \\]
+>
+> So your extra rescaling might have a precise job:
+>
+> **Compensate for the loss of plateau strength associated with diffuse source geometry, while preserving the square-root mass scaling supplied by the original arena law.**
+>
+> That's more specific than saying that smaller galaxies need larger \\(\mathcal B\\).
+>
+> It potentially links the new freedom to the longstanding low-surface-brightness difficulty in Part XII.
+>
+> But there's a catch. If we define \\(\mathcal B=3/C(k)\\) solely because that's what the baryonic Tully–Fisher relation requires, we've simply encoded MOND into the rescaling.
+>
+> To become an explanation, the parent reference/optical theory must derive approximately that relationship **independently**.
+>
+> External empirical context: the baryonic Tully–Fisher relation is exceptionally tight and has a slope near four. Its small scatter makes a universal, independently determined normalization a stringent test.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://arxiv.org\&sz=32)
+>
+> arxiv.org+1
+>
+>
+>
+> ## **4. Are the dwarf rescalings evidence for your idea?**
+>
+> They are suggestive, but not yet decisive.
+>
+> Claude reports:
+>
+> | Galaxy group       | Approximate fitted \\(\mathcal B\\) |
+> | ------------------ | ----------------------------------- |
+> | Milky Way          | 1.5                                 |
+> | Two dwarf galaxies | 4–7                                 |
+>
+> Larger boosts in dwarfs are qualitatively in the direction expected from their mass discrepancies.
+>
+> But the MOND condition doesn't simply say that \\(\mathcal B\\) increases as \\(M\\) decreases.
+>
+> It says
+>
+> \\[ \boxed{ \frac{C(k)\mathcal B}{\ell}\sqrt M \approx \text{universal constant}. } \\]
+>
+> If \\(\ell\\) is also free, the mass dependence can be carried by \\(\ell\\), \\(\mathcal B\\), or both.
+>
+> Therefore, a fitted trend of \\(\mathcal B\\) against mass can be misleading.
+>
+> The decisive cross-galaxy test is whether that **whole combination** is constant without individually tuning it to each galaxy's measured rotation speed.
+>
+> There's another relevant empirical constraint beyond the flat velocity: the radial acceleration relation. At low accelerations, observed galaxy rotation curves closely follow an approximately square-root relationship between total and baryonic accelerations.&#x20;
+>
+> [image](https://www.google.com/s2/favicons?domain=https://doi.org\&sz=32)
+>
+> doi.org+1
+>
+>
+>
+> A model that fits the asymptotic speed but raises the inner disk hump too much may fail that test.
+>
+> This is why I agree with Claude that the amplitude cannot solve everything alone. It amplifies the inner and outer curve together.
+>
+> ## **5. The mass distinction needs to be made operational**
+>
+> Your proposed two meanings of \\(M\\) could be important, but I would specify them carefully.
+>
+> There's the physical source mass in the parent or canonical representation.
+>
+> There's the mass inferred from a particular visible rendering, including electromagnetic emission, distances, stellar populations and gas measurements.
+>
+> And there's the mass inferred dynamically from the rotation curve.
+>
+> These need not be identical *in a proposed new theory*.
+>
+> However, the observed baryonic mass isn't merely an arbitrary number inferred from \\(v^2\\). Gas measurements, stellar photometry, mass-to-light ratios and distance estimates constrain it independently.
+>
+> So I would write the central hypothesis as
+>
+> \\[ \boxed{ M\_{\rm dyn}^{(\mu)} = \mathcal B\_\mu\\, M\_{\rm source}, } \\]
+>
+> but also demand a separate prediction for
+>
+> \\[ M\_{\rm baryon,obs}^{(\mu)}. \\]
+>
+> If the same physical rescaling changes how an observer infers a galaxy's radius, mass and velocity, it must give all three transformations consistently.
+>
+> That is the connection to your broader *mode multiverse* ontology: a rendering could change an object's visible spatial scale and gravitational response together.
+>
+> But it must not change a measured mass without specifying the accompanying changes in matter fields, clocks and detectors.
+>
+> And for the original Law I proposal, the source reduction must remain consistent with the gravitational constraint.
+>
+> ## **6. What I'd put into v40.3**
+>
+> I would make the next round a disciplined three-parameter empirical experiment, rather than immediately declaring a new law.
+>
+> The model is simple enough to fit efficiently. In fact, the amplitude can be eliminated analytically for each trial pair \\((\ell,h)\\).
+>
+> Let the predicted unit-amplitude velocities at the measured radii be
+>
+> \\[ w_i(\ell,h) = \sqrt{\frac{GM}{\ell} u\left(\frac{R_i}{\ell};\frac{\ell}{h}\right)}. \\]
+>
+> Because \\(v_i^{\rm model}=\sqrt{\mathcal B}\\,w_i\\), the weighted least-squares optimum is
+>
+> \\[ \boxed{ \sqrt{\widehat{\mathcal B}} = \frac{\displaystyle\sum_i w_i v_i/\sigma_i^2} {\displaystyle\sum_i w_i^2/\sigma_i^2}. } \\]
+>
+> This formula applies when fitting measured velocities with independent Gaussian errors and the model velocities are real and nonnegative.
+>
+> That means **we only need to numerically scan or optimize two shape parameters**, not all three at once.
+>
+> It also gives a clean way to examine the degeneracies among \\(\ell\\), \\(h\\) and \\(\mathcal B\\).
+>
+> I would then run three distinct comparisons:
+>
+> 1. **Descriptive fit:** freely fit \\(\ell,h,\mathcal B\\) to see what the existing leaf model can represent.
+> 2. **MOND-constrained fit:** impose the old \\(\ell(M)\\) law and test whether a universal \\(\mathcal B(k)\\) can fit the curves.
+> 3. **Independent-prediction fit:** constrain the optical rescaling from observed morphology or some separately derived reference law, then predict the rotation curve without freely adjusting its amplitude.
+>
+> The third is the physical test. The first two tell us whether it's even plausible.
+>
+> I would also compare against the baseline baryon-only Newtonian curve, an established MOND interpolation and a standard dark-halo fit, using the same observations and nuisance-parameter treatment.
+>
+> The manuscript's older Part XII explicitly set an ambitious acceptance condition: a common optical map, a common arena rule, very few universal parameters, and no arbitrary per-galaxy rescalings. I would preserve that as the target, while allowing the unrestricted three-parameter fits as a diagnostic stage.
+>
+> ## **7. How this affects the larger ontology**
+>
+> I think your update is actually more interesting ontologically than the numerical Milky Way improvement alone.
+>
+> Previously, the mode multiverse was mostly about different accessible sets of matter modes and different reference-conditioned geometries.
+>
+> Now you're proposing that **the same reference-conditioned closing also determines the effective gravitational normalization attached to those modes**.
+>
+> That is a stronger hypothesis.
+>
+> It might explain why a galaxy's dynamical mass differs from the mass assigned by a particular ordinary rendering, without requiring them to be two unrelated sources.
+>
+> But precisely because it is stronger, it must satisfy more constraints: the local equivalence principle, lensing, stellar and gas dynamics, baryonic mass measurement, and the shared projective source law.
+>
+> I would be especially reluctant to call \\(\mathcal B\\) a simple mass rescaling until we know whether it acts on gravitational mass, inertial mass, the source-to-detector optical map, or all three.
+>
+> Those possibilities are physically different.
+>
+> ## **Current verdict**
+>
+> | **Question**                                                    | **Status**                                                            |
+> | --------------------------------------------------------------- | --------------------------------------------------------------------- |
+> | Does the third freedom substantially improve the Milky Way fit? | Yes, according to Claude's scratch result                             |
+> | Does it resolve the remaining observational discrepancy?        | No; reduced χ² is still about 4.3                                     |
+> | Does it connect to the manuscript's original MOND idea?         | Yes, directly through the old \\(\ell\propto\sqrt M\\) law            |
+> | Is the resulting MOND normalization predicted?                  | Not yet                                                               |
+> | Could a physical rendering rescaling explain it?                | Possible hypothesis; needs a transformation law and independent tests |
+>
+> I haven't run Claude's new scratch three-parameter optimization, so I regard its fit values as reported results rather than independently verified optima.
+>
+> **The new insight I would retain is the condition**
+>
+> \\[ \boxed{\mathcal B(k)C(k)\simeq3} \\]
+>
+> **when the original arena law&#x20;**\\(\ell\simeq3\sqrt{GM/a_0}\\)**&#x20;is imposed.**
+>
+> That gives your proposed rescaling a very specific physical task: compensating the plateau's dependence on source concentration while preserving the cross-galaxy MOND normalization.
+>
+> If the parent rendering theory independently produces that compensation—or a close empirical variant with the right scatter—that would be meaningful progress beyond adding another free amplitude.
+>
+> For now, **v40.3 looks like a worthwhile empirical direction, with a better Milky Way fit and a sharper cross-galaxy question, but not yet a derived MOND mechanism**.
+
+*The markup.* The four messages are plain text in ASCII, one line each, none ending with a line break, without mathematics. The first holds one straight apostrophe and a parenthesis; the second ten straight double quotation marks, around five phrases, two straight apostrophes, three hyphens in a row, which CommonMark reads as text and some renderers turn into a dash, the carets of "v^2" twice, read as text, a parenthesis and a run of three question marks; the third nothing to note; the fourth the reference to its attached file, an at sign and a path in straight double quotation marks. "you ability" and "throughly", as he wrote them. The attachment of the second is one line of $290$ bytes, $288$ characters, without a line break at the end; its one character outside ASCII is the script ℓ, and it holds one straight apostrophe. The response is $288$ lines, without a final line break, in markdown of its own: eight level-two headings, its title among them, one level-three heading and three level-one headings, every one in bold; three pipe tables of two columns, $16$ rows with their rules, each row with its header's number of cells; three numbered items. Its mathematics is LaTeX between `\\(` and `\\)`, $39$ pairs, and `\\[` and `\\]`, $18$ pairs, each backslash of the delimiters doubled, and $10$ underscores escaped as `\_`; ten formulas boxed; $380$ backslashes in all. Its lines 45–61 are a results card reduced to its text: three labels, each with its value set as a level-one heading in bold, and their notes. Two lines are links to site icons, `[image](https://www.google.com/s2/favicons?domain=…\&sz=32)`, each followed after an empty line by the name of a source — "arxiv.org+1" at line 145, "doi.org+1" at line 178: the remains of exported citation chips. Four numeric character references `&#x20;`, which CommonMark renders as spaces. $34$ straight apostrophes, one pair of curly double quotation marks, four en dashes, three em dashes, seven chi and seven superscript twos, and $138$ empty lines. No tab and no control character in any of the six.
+
+**The replies between them.** Neither is kept; §XXXVIII.35(a) corrects them in indirect speech. The status report, the reply to the first message, set out where v40.2's leaf meets the data and where it does not; its paragraph on shape and speed is the attachment above. The reply to the second message fitted the Milky Way with $\ell$, $h$ and the rescaling, then called $A$, on a grid of $k$ and $h$, and proposed the tests this version runs: the three per galaxy on SPARC's curves, and whether the rescaling over the leaf, with the plateau coefficient, falls as $1/\sqrt M$, as the baryonic Tully–Fisher relation needs.
+
+## XXXVIII.30 The archive's MOND program read again: the arena law, the apparent scale, the zoom labels and the label condition [D; R592]
+
+*The third message asks for a thorough look back at the MOND program, above all at its cross-galaxy rescaling factors, the root of the idea. The program runs through four places, each frozen; v40.3 changes none of them and reads its new freedom in their terms.*
+
+**(a) The arena law and its ceiling (Part XII, detached).** The author's lemma has three parts: an arena law $GM = A\ell^2$, the invariant $M/\ell^2$, and an apparent-scale parameter. With the plateau $v_\infty^2 = CGM/\ell$ the arena law gives $v^4\propto M$, slope exactly $4$, the square root coming from the law and not from the velocities; normalized to $v^4 = GMa_0$ in the compact limit it is $\ell = 3\sqrt{GM/a_0}$, three MOND radii (§XII.1, restated in §XXIX.42(e) at $C = 3$). Part XII also found its limit: with no rescaling, a thin disk sits on $v^4 = GMa_0$ for some leaf only if its central surface density is at least about $190\,M_\odot$ pc$^{-2}$, because a disk spread too widely over the sphere loses its plateau — the low-surface-brightness galaxies, the most dark-matter-dominated, fall below (§XII.2). Its reading (i), adopted there, lets an apparent scale inflate a galaxy's size without its mass, and a six-disk check found the relaxed form compatible; its reading (ii) inflates mass and area together (§XII.3). Its acceptance test, if the wing is ever attached: one optical map, one arena rule, at most one or two universal parameters, no per-galaxy freedom, all of SPARC's curves predicted.
+
+**(b) Entries 287–288 (§XXIX.42(e), (g)).** Entry 287 motivates the square root by planar galaxies: a universal central surface density makes $M\propto\ell^2$ at fixed $h/\ell$. Entry 288's apparent scale renders one physical galaxy at scale $s$, $\ell_{\rm app} = s\ell_0$ and $M_{\rm app} = s^2M_0$, which satisfies the arena law's form automatically; but with velocities untouched every image shows the same speed, so the slope-$4$ relation needs rendered speeds $v_{\rm app} = s^{1/2}v_0$, a velocity-rendering law, which the premise of Entry 278 excludes unless a transport is derived to do it. The author's present idea — two concepts of $M$, the one the light gives and the one the dynamics sees, conflated across galaxies — appeared first as §XII.1's reading (ii), perceived mass growing as the square of the scale factor; Entry 288 is that reading (§XXIX.42(g)).
+
+**(c) The zoom labels and the dictionary (§§XXXIII.9–10).** The author's note of v36 made the idea a dictionary: a galaxy seen at zoom label $\lambda$ has $R_{\rm vis} = \lambda R_{\rm phys}$, $M_{\rm app} = \lambda^2M_{\rm inst}$ and $M_{\rm grav} = \zeta M_{\rm inst}$, and its curve is $v^2 = (\zeta/\lambda)\,v^2_{\rm free}(R;\ \ell_{\rm eff} = \lambda\ell)$, the free curve computed with the apparent mass on the scaled leaf. Two labels per galaxy, a mapping scale $f = \ell_{\rm eff}/\ell_{\rm arena}$ and an amplitude $\zeta/\lambda$, were fitted to the eight galaxies of the pilot, on v36's kernel with the observed light pushed onto the leaf; the pairs and their fits are in §§XXXIII.10(c) and XXXIII.17(b) (v40.3-3 prints them).
+
+**(d) The label condition (§XXXIII.16).** With those labels the asymptote is $v_\infty^2 = (\zeta/\lambda)\,C(f)\,GM_{\rm app}/(f\ell_{\rm arena})$, so that $v_\infty^4/(GM_{\rm app}a_0) = [(\zeta/\lambda)C(f)/(3f)]^2$: the Tully–Fisher form holds exactly when $(\zeta/\lambda)C(f)/(3f) = 1$. On v36's fitted pairs the left side tracked $(V_{\rm flat}/v_{\rm arena})^2$ for the six disks, which miss the condition by their own offsets from $v^4 = GM_ba_0$ at the adopted mass-to-light ratios, but not for the two dwarfs, whose fitted curves' asymptotes lay well above $V_{\rm flat}$ (§XXXIII.16(b)).
+
+**(e) The third freedom in these terms [D].** The author's new freedom is this amplitude. Writing $v^2 = \mathcal B\,(GM/\ell)\,u(R/\ell;\ \ell/h)$ with $M$ the mass the light and the gas give — the absolute mass of the second message, $M_{\rm app}$ of the dictionary — the rescaling is $\mathcal B = \zeta/\lambda$, the gravitating mass $\mathcal BM$ is the apparent GM of $v^2$, and the leaf is $\ell = f\ell_{\rm arena}$. The response titled Entry 526 renames the amplitude $\mathcal B$, to keep $A$ for the C-metric's acceleration, and v40.3 adopts the name. Its central condition, $\mathcal BC(k)\simeq3$ on the arena leaf, is §XXXIII.16's condition at $f = 1$: with $\ell = 3\sqrt{GM/a_0}$, $v_\infty^4 = GMa_0$ holds when $\mathcal B = 3/C(k)$. What is new in v40.3 is the source — Entry 326's $e^{-k\sin\chi}$ (§XXXVIII.21), whose image is exponential while $R\ll\ell$, in place of v36's pushforward of the observed light — the falloff length $h$ beside the two labels, the Milky Way beside the eight, and an NFW halo beside v36's Newton and radial acceleration relation, all on the same data, errors and mass-to-light ratios.
+
+**(f) The cross-galaxy content [D].** Across galaxies $v_\infty^2 = \mathcal BC\,GM/\ell$. Were $\mathcal B$ and $\ell$ the same for all, $v^2$ would grow as $M$, Newton's slope $2$; the observed slope $4$ needs $\mathcal BC/\ell\propto M^{-1/2}$. Part XII puts the whole square root in the leaf, $\ell\propto\sqrt M$, with $\mathcal BC$ fixed; the dictionary allows it to be shared, $\ell\propto M^\alpha$ and $\mathcal BC\propto M^{\alpha-1/2}$; and Entry 288 put it in the rendering instead. Because the curve's shape fixes $\ell$ through the radius where it turns over, while its height fixes $\mathcal BC/\ell$, the data can tell these apart. §XXXVIII.33 measures the split.
+
+## XXXVIII.31 The third freedom on the Milky Way [V/S/D; R593] *(`v40_3_milky_way()`)*
+
+*The model of the second message, $v^2 = \mathcal B\,(GM/\ell)\,u(R/\ell;\ \ell/h)$, fitted with its three freedoms free and with each reduced, against Newton, the radial acceleration relation and an NFW halo on the same disk (v40.3-1). This replaces the reply's grid fit (§XXXVIII.29).*
+
+**(a) The model and the fit [S/V].** $u$ is the leaf's curve for Entry 326's source $e^{-k\sin\chi}$, $k = \ell/h$ (§XXXVIII.21), evaluated from a table of $301$ falloffs, $k$ from $0.01$ to $1000$, each computed by v40.1's kernel rows, with four-point interpolation in $\ln k$ and $\ln R$; against the curves computed directly at eight $k$ off the table it agrees to $2.8\times10^{-6}$ at radii on v40.1's grid, and to $2.7\times10^{-5}$ at radii between the grid's points, where $u$ and $u_N$ are computed directly by the same rows. The likelihood is one, stated: $\chi^2 = \sum_i[(v_i^{\rm model}-V_i)/\sigma_i]^2$ with the published errors, Eilers et al.'s $38$ points from $5.27$ to $24.82$ kpc, each $\sigma_i$ the mean of their two. As the response titled Entry 526 proposed, $\mathcal B$ is eliminated in closed form: with $w_i$ the model speeds at $\mathcal B = 1$, $\sqrt{\mathcal B} = \sum_iw_iV_i/\sigma_i^2\big/\sum_iw_i^2/\sigma_i^2$, which a golden-section search confirms; $\ell$ and $h$ are then found by a grid and a Nelder–Mead simplex. The baryons are one exponential disk of $6\times10^{10}M_\odot$, the archive's benchmark, the same for every model: Freeman's curve for Newton, for the radial acceleration relation of McGaugh, Lelli and Schombert (2016) with $g^\dagger = 1.2\times10^{-10}$ m s$^{-2}$ and for the disk under an NFW halo, its Bessel functions from Abramowitz and Stegun's approximations, checked against v40.0's integrals. Its arena leaf is $3\sqrt{GM/a_0} = 25.04$ kpc and $v_{\rm arena} = (GMa_0)^{1/4} = 175.8$ km/s.
+
+**(b) The fits [V].**
+
+| model | fitted | $\chi^2$ | $\chi^2/(N-p)$ | rms (km/s) | the fit |
+|---|---|---|---|---|---|
+| the three freedoms | $\ell$, $h$, $\mathcal B$ | $130.6$ | $3.73$ | $9.10$ | $\ell = 23.77$ kpc, $h = 2.787$ kpc, $\mathcal B = 1.388$; $k = 8.53$, $v_\infty = 209.9$ km/s |
+| $\mathcal B = 1$ | $\ell$, $h$ | $340.1$ | $9.45$ | $12.61$ | $\ell = 15.55$ kpc, $h = 1.953$ kpc; $v_\infty = 219.5$ km/s |
+| the light's scale length | $\ell$, $\mathcal B$ | $141.9$ | $3.94$ | $9.82$ | $h = 2.6$ kpc; $\ell = 21.66$ kpc, $\mathcal B = 1.299$ |
+| the arena leaf | $h$, $\mathcal B$ | $133.9$ | $3.72$ | $8.67$ | $\ell = 25.04$ kpc; $h = 2.882$ kpc, $\mathcal B = 1.435$; $v_\infty = 208.1$ km/s |
+| the arena leaf, $\mathcal B = 3/C(k)$ | $h$ | $51{,}999.1$ | $1{,}405.38$ | $26.79$ | $h = 2.054$ kpc, $\mathcal B = 1.0101$; $v_\infty = 175.8$ km/s |
+| the same at $h = 2.6$ kpc | none | $62{,}113.3$ | $1{,}634.56$ | $29.12$ | $\mathcal B = 1.0180$ |
+| the arena rule with the disk's mass free | $M$, $h$ | $222.1$ | $6.17$ | $7.09$ | $M/10^{10}M_\odot = 9.67$, $h = 3.276$ kpc; $\ell = 31.80$ kpc |
+| Freeman's disk and the remainder, times $\mathcal B$ | $\ell$, $h$, $\mathcal B$ | $140.8$ | $4.02$ | $9.35$ | $\ell = 19.79$ kpc, $h = 2.650$ kpc, $\mathcal B = 1.188$ |
+| Freeman's disk and $\mathcal B$ times the remainder | $\ell$, $h$, $\mathcal B$ | $130.3$ | $3.72$ | $9.05$ | $\ell = 9.17$ kpc, $h = 2.415$ kpc, $\mathcal B = 0.638$ |
+| Newton, the disk alone | $h$ | $228{,}622.8$ | $6{,}178.99$ | $68.48$ | $h = 2.450$ kpc |
+| Newton times $\mathcal B$ | $h$, $\mathcal B$ | $1{,}191.8$ | $33.11$ | $11.31$ | $h = 4.468$ kpc, $\mathcal B = 2.333$ |
+| the radial acceleration relation | $h$ | $629.7$ | $17.02$ | $6.66$ | $h = 2.674$ kpc |
+| the disk and an NFW halo | $h$, $V^2$, $r_s$ | $62.1$ | $1.78$ | $6.09$ | $h = 7.271$ kpc, $r_s = 1.60$ kpc |
+| the same at $h = 2.6$ kpc | $V^2$, $r_s$ | $154.1$ | $4.28$ | $9.75$ | $r_s = 29.34$ kpc |
+
+The third freedom cuts $\chi^2$ from $340.1$ to $130.6$, and the leaf it chooses is $0.949$ of the arena leaf, $\ell = 23.77$ kpc against $25.04$, with $h = 2.787$ kpc, within the light's $2.6\pm0.5$ kpc (Bland-Hawthorn and Gerhard 2016), and the source compact enough, $k = 8.53$, for the image to stay within $0.1$ mag of the exponential out to four scale lengths, which needs $k\geq7.7$ (§XXXVIII.10). Fixing $\ell$ at the arena value raises $\chi^2$ only from $130.6$ to $133.9$, and fixing $h$ at $2.6$ kpc to $141.9$. Under its statistical errors no model here is an acceptable fit, as the response says. Compared like for like, at the light's scale length, $h = 2.6$ kpc, the leaf does as well as an NFW halo ($141.9$ against $154.1$, two parameters each) and far better than the radial acceleration relation, $657.5$, whose rms there is nonetheless the smallest of the three, $6.66$ km/s, because it misses the many precise points between $11$ and $19$ kpc by several errors while staying close to the scattered outer ones (Figure 1). With $h$ free the NFW fit beats all, $62.1$, with the smallest rms, $6.09$ km/s, but on a disk of $h = 7.271$ kpc, which the light excludes; the leaf with $h$ free gives $130.6$ and the relation $629.7$. One disk of $6\times10^{10}M_\odot$ for every model makes this a comparison of models on the same idealized baryons, not a test of any of them against the Milky Way's true ones.
+
+**(c) The landscape [V].** With $\mathcal B$ eliminated, $\chi^2$ in the plane of $\ell$ and $h$ has one valley, along which $\mathcal B$ and $h$ grow with $\ell$ (Figure 2). Profiled in $\ell$, $h$ and $\mathcal B$ re-fitted at each leaf, $\chi^2$ is $834.9$ at $10$ kpc, $133.7$ at $25$ kpc and $981.1$ at $100$ kpc, with $\mathcal B = 0.667$, $1.434$ and $2.220$; it rises by the reduced $\chi^2$ — $\Delta\chi^2 = 1$ with the errors scaled to $\chi^2/(N-3) = 1$ — at $22.48$ and $25.14$ kpc, $0.946$ and $1.058$ times the fitted leaf. The arena leaf, $25.04$ kpc, lies inside: the interval is $0.898$–$1.004$ of it. But the agreement is conditional on the benchmark mass: $\mathcal B$ absorbs the disk's mass, so that the fitted leaf does not depend on it, while the arena leaf grows as $\sqrt M$. The fitted leaf is the arena leaf of $5.4\times10^{10}M_\odot$, and for $0.8$ or $1.2$ times the benchmark the arena leaf would be $22.40$ or $27.43$ kpc, outside the interval. The curve fixes the leaf; the arena law assigns it only given the mass.
+
+**(d) What the label condition would need [V/D].** On that leaf the condition $\mathcal B = 3/C(k)$ gives $\mathcal B = 1.0101$ and $v_\infty = v_{\rm arena} = 175.8$ km/s, far below the curve, and $\chi^2$ $398$ times the three freedoms': with $h$ free on that leaf the fit wants $\mathcal B = 1.435$, $1.401$ times $3/C(k) = 1.025$ at its own $k = 8.69$. The Milky Way at $6\times10^{10}M_\odot$ sits above $v^4 = GMa_0$ by $(v_\infty/v_{\rm arena})^2 = 1.425$, and the arena rule with $\mathcal B = 3/C(k)$ can follow its curve only with a disk of $9.67\times10^{10}M_\odot$, the light's mass free ($\chi^2 = 222.1$). Either the Milky Way's baryons are heavier than the benchmark, or its rescaling exceeds the source-geometry factor $3/C$ by about $1.4$ — the factor that, in §XXXVIII.33, each galaxy's Tully–Fisher offset supplies.
+
+**(e) Where the rescaling acts, and beyond the data [V].** Read as Freeman's disk plus the leaf's remainder (§XXXVIII.22), the curve can take $\mathcal B$ on the whole, $\chi^2 = 140.8$ with $\mathcal B = 1.188$, or on the remainder alone, $130.3$ with $\mathcal B = 0.638$ on a leaf of $9.17$ kpc: the Milky Way's curve does not say where the rescaling acts. Beyond the data the three freedoms' curve keeps its height: $207.7$, $208.1$, $209.2$ and $209.8$ km/s at $30$, $50$, $100$ and $300$ kpc, reaching its least speed, $207.5$ km/s, at $34.4$ kpc and climbing back to $v_\infty = 209.9$ km/s — a leaf with $k = 8.53$ is of v40.1's bump class, and the dip is its own. The NFW halo on the light's disk falls to $201.4$ and $166.5$ km/s at $100$ and $300$ kpc, the radial acceleration relation to $179.7$ and $177.1$. The halo's tracers beyond $50$ kpc can tell these apart; the response's caution stands that matching part of the decline does not establish the outer curve.
+
+**What it means [D].** On the Milky Way the three freedoms do separate jobs: $h$ is the light's, $\ell$ comes out at the arena law's value for the benchmark mass, and $\mathcal B$ carries the rest of the height, $1.388$–$1.435$. The second message's reading — the GM of $v^2$ an apparent mass, $\mathcal B$ times the light's — holds here with $\mathcal B\approx1.4$; it is not $3/C$, which the condition of §XXXIII.16 would need at this mass.
+
+![Figure 1: the Milky Way with the three freedoms, with B = 1, on the arena leaf with B = 3/C, under the radial acceleration relation and with an NFW halo, and the residuals in units of the errors at the light's scale length](galaxy_sims/v403_fig1.png)
+
+*Figure 1. The Milky Way (Eilers et al. 2019) with the leaf's three freedoms and the baselines on one disk of $6\times10^{10}M_\odot$, the relation and the halo at $h = 2.6$ kpc; below, (model − data)/error for the leaf, the relation and the halo, all at $h = 2.6$ kpc, the leaf's $\ell$ and $\mathcal B$ fitted there.*
+
+![Figure 2: chi-square over the leaf radius and the falloff length with B eliminated, with contours of B, the arena leaf and the light's scale length](galaxy_sims/v403_fig2.png)
+
+*Figure 2. The landscape in $\ell$ and $h$, $\mathcal B$ at its closed-form best at each point (dashed contours): one valley, through the arena leaf (green) and the light's scale length (band).*
+
+## XXXVIII.32 The eight galaxies with their own baryons, against Newton, the radial acceleration relation and NFW [V/S/D; R594] *(`v40_3_sparc()`)*
+
+*The tests of the second reply, run on the eight SPARC galaxies of the v36 pilot (§XXXIII.5), whose Table 1 rows and mass models the frozen v36 suite embeds and v40.3's copies byte for byte. The full sample of $175$ was not reachable from the workspace that built this version; the eight span baryonic masses from $0.392$ to $264.824$ in units of $10^9M_\odot$, two gas-rich dwarfs, three bulgeless disks and three galaxies with bulges.*
+
+**(a) The leaf with the galaxy's own baryons [S].** A real galaxy's light is not one exponential: its gas is broader than its stars, its bulge compact, its inner curve shaped by both. The leaf's curve is linear in its source, and v40.1 split it into the image's own Newtonian curve and the remainder the leaf adds (§XXXVIII.22). v40.3 keeps the galaxy's measured Newtonian curve — SPARC's $V_{\rm bar}^2 = V_{\rm gas}\lvert V_{\rm gas}\rvert+0.5\,V_{\rm disk}\lvert V_{\rm disk}\rvert+0.7\,V_{\rm bul}\lvert V_{\rm bul}\rvert$, v36's mass-to-light ratios — and adds the leaf's remainder for each component, the whole rescaled:
+
+$$v^2(R) = \mathcal B\Big[V_{\rm bar}^2(R)+\sum_c\frac{GM_c}{\ell}\,r_c\Big(\frac R\ell;\ \frac{\ell}{h_c}\Big)\Big],\qquad r = u-u_N,$$
+
+with the stellar disk at its photometric scale length $R_{\rm disk}$ and mass $0.5(L_{[3.6]}-L_{\rm bul})$, $L_{\rm bul}$ being the bulge's light inside the last radius, the largest $RV_{\rm bul}^2/G$ of SPARC's bulge curve at unit ratio; the gas at $1.33M_{\rm HI}$ with the scale length of the Freeman disk that best matches its own curve at that mass; and the bulge, $0.7L_{\rm bul}$, as a point, its remainder in closed form. Its plateau is $v_\infty^2 = \mathcal BC_{\rm eff}GM_b/\ell$ with $C_{\rm eff} = \sum_cM_cC(\ell/h_c)/M_b$, the bulge's $C$ being $3$. The leaves start at $2.7R_{\rm disk}$, so that the stellar image stays within $0.3$ mag of the exponential out to four scale lengths — the author's constraint of §XXXVIII.26 in its loosest form; fits that end at that floor are flagged, and each leaf fit is repeated without it, down to the table's least $k$. The baselines take the same curves, errors and ratios: Newton, $V_{\rm bar}^2$ alone; the radial acceleration relation at $g^\dagger = 1.2\times10^{-10}$ m s$^{-2}$, with the ratios fixed and with the disk's ratio free; $V_{\rm bar}^2$ with an NFW halo of two parameters; and, since $\mathcal B$ scales the baryons as well, the same halo with $V_{\rm bar}^2$ times a free factor $\beta$, three parameters. NFW's shape is evaluated by its series where $R/r_s$ is small, since its closed form loses its digits there. Nothing else — distance, inclination — is marginalized for any model; the relation's column reproduces v36's (§XXXIII.5(c)) to $0.038$.
+
+| galaxy | $M_b$ = stars + gas + bulge ($10^9M_\odot$) | $R_{\rm disk}$, $h_{\rm gas}$ (kpc) | $\ell_{\rm arena}$ (kpc) | $v_{\rm arena}$ (km/s) | $V_{\rm flat}$ (km/s) | $N$ |
+|---|---|---|---|---|---|---|
+| DDO 154 | $0.392 = 0.026+0.366$ | $0.37$, $2.13$ | $2.02$ | $50.0$ | $47.0$ | $12$ |
+| IC 2574 | $1.886 = 0.508+1.378$ | $2.78$, $5.52$ | $4.44$ | $74.0$ | $66.4$ | $34$ |
+| NGC 6503 | $8.742 = 6.423+2.320$ | $2.16$, $5.84$ | $9.56$ | $108.6$ | $116.3$ | $31$ |
+| NGC 2403 | $9.275 = 5.021+4.255$ | $1.39$, $5.12$ | $9.85$ | $110.2$ | $131.2$ | $73$ |
+| NGC 3198 | $33.595 = 19.140+14.456$ | $3.14$, $14.33$ | $18.74$ | $152.1$ | $150.1$ | $43$ |
+| NGC 7814 | $48.794 = 11.999+1.423+35.372$ | $2.54$, $7.84$ | $22.58$ | $167.0$ | $218.9$ | $18$ |
+| NGC 2841 | $116.308 = 70.943+13.001+32.365$ | $3.64$, $10.12$ | $34.87$ | $207.5$ | $284.8$ | $50$ |
+| UGC 2885 | $264.824 = 177.359+53.300+34.165$ | $11.40$, $22.67$ | $52.62$ | $254.8$ | $289.5$ | $19$ |
+
+**(b) The fits [V].** $\chi^2/(N-p)$, $p$ the parameters fitted to each curve (v40.3-2):
+
+| galaxy | Newton (0) | RAR (0) | RAR, disk's ratio free (1) | NFW (2) | NFW, the baryons' scale free (3) | the leaf, $\ell$ and $\mathcal B$ (2) | the leaf, $\mathcal B = 1$ (1) | $\mathcal B$ on the remainder alone (2) |
+|---|---|---|---|---|---|---|---|---|
+| DDO 154 | $5{,}866.33$ | $89.09$ | $22.54$ | $11.77$ | $11.81$ | $5.11$ | $3{,}939.74$ | $117.13$ |
+| IC 2574 | $406.76$ | $238.41$ | $7.06$ | $33.17$ | $10.35$ | $3.08$ | $321.18$ | $15.62$ |
+| NGC 6503 | $1{,}663.85$ | $2.81$ | $2.76$ | $1.94$ | $1.40$ | $6.25$ | $218.49$ | $22.88$ |
+| NGC 2403 | $4{,}374.21$ | $75.64$ | $16.56$ | $10.01$ | $8.30$ | $14.05$ | $471.82$ | $92.31$ |
+| NGC 3198 | $759.05$ | $13.41$ | $9.91$ | $1.39$ | $1.39$ | $4.38$ | $114.15$ | $78.16$ |
+| NGC 7814 | $404.64$ | $27.27$ | $2.58$ | $1.22$ | $0.44$ | $1.89$ | $1.79$ | $0.99$ |
+| NGC 2841 | $746.29$ | $86.27$ | $2.31$ | $3.34$ | $1.90$ | $2.38$ | $25.64$ | $18.33$ |
+| UGC 2885 | $131.85$ | $2.83$ | $2.67$ | $2.60$ | $0.94$ | $1.03$ | $19.51$ | $7.03$ |
+| total $\chi^2$, $280$ points | $534{,}865$ | $20{,}219$ | $2{,}378$ | $2{,}227$ | $1{,}213$ | $1{,}670$ | $100{,}894$ | $13{,}108$ |
+
+| galaxy | the arena leaf, $\mathcal B$ free (1) | the arena rule, $\mathcal B = 3/C_{\rm eff}$ (0) | the same, the disk's ratio free (1) | the single source, $\ell$, $h$, $\mathcal B$ (3) | the single source at $h = R_{\rm disk}$ (2) |
+|---|---|---|---|---|---|
+| DDO 154 | $6.01$ | $9.53$ | $10.12$ | $2.27$ | $184.05$ |
+| IC 2574 | $76.60$ | $105.49$ | $85.11$ | $2.23$ | $63.40$ |
+| NGC 6503 | $9.42$ | $52.32$ | $13.37$ | $0.83$ | $5.01$ |
+| NGC 2403 | $15.28$ | $430.37$ | $60.33$ | $11.68$ | $11.58$ |
+| NGC 3198 | $8.90$ | $14.50$ | $5.59$ | $0.46$ | $3.22$ |
+| NGC 7814 | $12.71$ | $118.77$ | $8.72$ | $2.46$ | $14.24$ |
+| NGC 2841 | $2.62$ | $199.46$ | $11.26$ | $1.41$ | $1.44$ |
+| UGC 2885 | $1.22$ | $13.11$ | $1.94$ | $1.41$ | $46.33$ |
+| total $\chi^2$ | $4{,}717$ | $49{,}723$ | $8{,}634$ | $1{,}075$ | $6{,}054$ |
+
+With two numbers per galaxy, $\ell$ and $\mathcal B$, the leaf with the galaxy's own baryons follows all eight curves below $\chi^2/(N-2) = 15$: below NFW, two numbers as well, for four of the eight — the two dwarfs, NGC 2841 and UGC 2885 — and above it for four; its total, $1{,}670$, is below NFW's $2{,}227$, whose best fit to IC 2574 is the halo's inner part alone, its limit $V^2 = aR$ with $a = 240.3$ km$^2$ s$^{-2}$ kpc$^{-1}$. But $\mathcal B$ scales the baryons as well as the leaf's remainder, a freedom NFW's two numbers lack: given the baryons' scale too, NFW's three numbers fit six of the eight better than the leaf's two, all but the dwarfs, with a total of $1{,}213$; IC 2574's best then has no halo at all, its baryons times $3.750$. On the same curves v36's two labels, with its kernel and the observed light pushed onto the leaf, gave $6.83$, $6.81$, $22.24$, $53.02$, $14.33$, $2.16$, $1.36$ and $1.21$ (§XXXIII.17(b)); the leaf with its baryons is lower for seven, all but NGC 2841. With $\mathcal B = 1$ the leaf fits only NGC 7814 well, at $1.79$; four of these fits end at the floor of $2.7R_{\rm disk}$, and without it NGC 6503's, NGC 2403's, NGC 3198's and UGC 2885's reach $126.23$, $384.68$, $109.94$ and $4.13$. The third freedom is what lets the leaf follow the curves.
+
+**(c) The fitted leaves and rescalings [V].** For the leaf with its baryons, then $\mathcal B$ at the arena leaf, fitted and as the label condition gives it:
+
+| galaxy | $\ell$ (kpc) | $f = \ell/\ell_{\rm arena}$ | $\mathcal B$ | $C_{\rm eff}$ | $\ell/R_{\rm disk}$ | $v_\infty$ (km/s) | at the arena leaf: $\mathcal B$ | $3/C_{\rm eff}$ |
+|---|---|---|---|---|---|---|---|---|
+| DDO 154 | $2.50$ | $1.232$ | $3.717$ | $0.959$ | $6.74$ | $49.1$ | $3.595$ | $3.708$ |
+| IC 2574 | $8.10$ | $1.824$ | $3.031$ | $1.240$ | $2.91$ | $61.4$ | $3.237$ | $4.193$ |
+| NGC 6503 | $5.83$ | $0.610$ | $1.479$ | $1.464$ | $2.70$ | $118.1$ | $1.707$ | $1.440$ |
+| NGC 2403 | $8.52$ | $0.865$ | $1.773$ | $2.021$ | $6.13$ | $129.6$ | $1.900$ | $1.400$ |
+| NGC 3198 | $25.29$ | $1.350$ | $1.857$ | $2.175$ | $8.05$ | $151.9$ | $1.650$ | $1.533$ |
+| NGC 7814 | $12.21$ | $0.541$ | $1.012$ | $2.828$ | $4.81$ | $221.8$ | $1.551$ | $1.017$ |
+| NGC 2841 | $37.37$ | $1.072$ | $1.981$ | $2.881$ | $10.27$ | $276.4$ | $1.891$ | $1.047$ |
+| UGC 2885 | $42.33$ | $0.804$ | $1.525$ | $2.110$ | $3.71$ | $294.3$ | $1.647$ | $1.272$ |
+
+The fitted plateaus follow Table 1's $V_{\rm flat}$: $v_\infty/V_{\rm flat}$ lies between $0.971$ and $1.016$ for six of the eight, at $1.045$ for DDO 154 and $0.924$ for IC 2574. NGC 6503's leaf sits at the lower end of the search, $2.7R_{\rm disk}$; without the floor it moves to $3.10$ kpc, at $\chi^2/(N-2) = 4.85$. Only NGC 3198 and NGC 2841 have leaves large enough for their stellar images to stay within $0.1$ mag of the exponential out to four scale lengths ($\ell\geq7.7R_{\rm disk}$). The leaves and rescalings belong to the adopted ratios: with the disk's ratio at $0.3$ or $0.7$ instead of $0.5$, $f$ runs from $0.515$ to $4.117$ or from $0.536$ to $1.606$ on the leaves from $2.7R_{\rm disk}$, two fits in each ending at that floor, and from $0.473$ to $4.117$ or from $0.235$ to $1.371$ without it — DDO 154's is $2.631$ or $0.853$ against $1.232$ either way — and $\mathcal B$ moves with it (v40.3-2).
+
+**(d) Where the rescaling acts [V].** The second message rescales the whole galaxy, so that its GM is an apparent mass: $\mathcal B$ multiplies the visible matter's Newtonian curve as well as the leaf's remainder. Applied to the remainder alone, $v^2 = V_{\rm bar}^2+\mathcal B\sum_c(GM_c/\ell)r_c$, the rescaling would act like a halo's amplitude and leave the inner, Newtonian part as the light gives it. On the leaves from $2.7R_{\rm disk}$ the curves prefer the whole: for seven of the eight, all but NGC 7814, $\chi^2/(N-2)$ is lower with $\mathcal B$ on the whole curve, by factors from $3.66$ to $22.92$ (Figure 10); the remainder is small near the center — for gas broad on its leaf, negative — and cannot supply the inner rise the data show above $V_{\rm bar}$. Three of the remainder-only fits end at that floor, and without it NGC 2841's falls to $1.57$ on a leaf of $1.40$ kpc with $\mathcal B = 0.183$, below the whole curve's $2.38$: without the floor the preference holds for six of the eight. At these mass-to-light ratios the visible matter's own gravity is rescaled — which, inside the disk, is the same as heavier stars: $\mathcal B$ and the stellar ratio are degenerate there, and only the gas, whose mass is measured, separates them.
+
+**(e) The author's formula as written [V].** The single source — $M_b$ with one falloff length $h$, $v^2 = \mathcal B(GM_b/\ell)u$ — fits the eight with its three freedoms at $\chi^2/(N-3) = 0.46$ to $11.68$, below the leaf with the baryons for six; its search starts from six points of a grid over the table's $k$. But the curve alone does not fix $h$. Two fits run to the ends of the search: DDO 154 to a leaf beyond $100$ times its last radius, where the leaf idles and the curve is $\mathcal B$ times Freeman's at $h = 2.91$ kpc, and UGC 2885 to the table's largest $k$, a point on a leaf of $4.20$ kpc with $\mathcal B = 0.101$. IC 2574 fits at $h = 16.565$ kpc, its stellar disk's scale length being $2.78$, with a plateau of $127.3$ km/s against its $V_{\rm flat}$ of $66.4$, and NGC 6503 at $h = 1.300$ kpc against its stellar disk's $2.16$. Three fit with $h$ of the light's order: NGC 2403 at $1.418$ kpc against $1.39$, with $\mathcal B = 0.983$ but $\chi^2/(N-3) = 11.68$; NGC 3198 at $4.503$ kpc against $3.14$, with $\ell = 33.72$ kpc and $\mathcal B = 1.801$; and NGC 2841 at $3.482$ kpc against $3.64$, with $\ell = 34.08$ kpc, near its arena leaf of $34.87$, and $\mathcal B = 1.861$. NGC 7814, mostly bulge, fits at $h = 0.489$ kpc. With $h$ held at the stellar disk's scale length the single source fits one of the eight below $\chi^2/(N-2) = 2$, NGC 2841 at $1.44$; NGC 3198 and NGC 6503 come next, at $3.22$ and $5.01$. The falloff length belongs to the light, and with the stars' $h$ one exponential does not stand for a galaxy whose gas is broader than its stars.
+
+**(f) The arena rule's own acceleration relation [V].** With nothing free — $\ell = \ell_{\rm arena}$, $\mathcal B = 3/C_{\rm eff}$ — the leaf predicts every curve from its baryons, and so an acceleration relation of its own. Against the radial acceleration relation at the same $g_{\rm bar}$, the medians of the predicted $g = v^2/R$ over the relation's are $0.829$ below $10^{-11}$ m s$^{-2}$, $0.794$, $0.825$ and $0.852$ in the bins $1$–$3\times10^{-11}$, $3\times10^{-11}$–$10^{-10}$ and $1$–$3\times10^{-10}$ m s$^{-2}$, $0.923$ and $1.020$ above: about a fifth below the RAR across the transition, joining it at high accelerations (Figure 7). From $10^{-11}$ to $10^{-10}$ m s$^{-2}$ the rule's relation is tighter than the data's, its logarithmic scatter $0.014$ and $0.021$ dex in the two bins against the data's $0.057$ and $0.067$, the $80$ points between $3\times10^{-11}$ and $10^{-10}$ m s$^{-2}$ falling between $0.688$ and $0.910$; below $10^{-11}$ it is looser, $0.344$ dex against $0.160$, its least ratio $0.012$. v36 found the point source's relation below the RAR in the same range (§XXXIII.5). It beats the RAR on the two gas-rich dwarfs — DDO 154 at $9.53$ against $89.09$ in $\chi^2/N$ — and loses on the other six; with nothing free its total is more than twice the RAR's, $49{,}723$ against $20{,}219$.
+
+**What it means [D].** The three freedoms build up in order. $h$ is the light's. $\ell$, free, lands near the arena law for most galaxies at the adopted ratios — §XXXVIII.33 measures how near. $\mathcal B$ is the freedom the curves need most, and on leaves of at least $2.7R_{\rm disk}$ it acts on the whole curve, as the second message proposed. With $\ell$ and $\mathcal B$ per galaxy the leaf fits these curves better in total than an NFW halo with its two numbers, though not better than the halo given the baryons' scale as well; with neither free it has an acceleration relation of its own, a fifth below the empirical one.
+
+![Figure 3: the eight galaxies' curves with Newton, the radial acceleration relation, an NFW halo, the leaf with its baryons and the arena rule](galaxy_sims/v403_fig3.png)
+
+*Figure 3. The eight galaxies (SPARC), each with Newton's curve from its own baryons, the radial acceleration relation, an NFW halo, the leaf with $\ell$ and $\mathcal B$ fitted, and the arena rule with nothing free; $\chi^2/(N-p)$ in each corner.*
+
+![Figure 7: the data on the radial acceleration plane, and the arena rule's own relation](galaxy_sims/v403_fig7.png)
+
+*Figure 7. Left, the eight galaxies' points on the plane of $g_{\rm bar}$ and $g$; right, the arena rule's predictions at the same points. The solid curve is the radial acceleration relation, the dashed line Newton's.*
+
+![Figure 10: the rescaling on the whole curve against the rescaling on the leaf's remainder alone, for DDO 154, NGC 2403 and NGC 2841](galaxy_sims/v403_fig10.png)
+
+*Figure 10. Where the rescaling acts, on the leaves from $2.7R_{\rm disk}$: $\mathcal B$ on the whole curve, with its two parts as signed roots, against $\mathcal B$ on the leaf's remainder alone.*
+
+## XXXVIII.33 The rescaling across galaxies: the labels, the label condition, and $\mathcal B = 3/C$ as a function of surface density [V/D; R595] *(`v40_3_labels()`)*
+
+*The third message's root: the cross-galaxy rescaling factors. With each galaxy's $\ell$ and $\mathcal B$ fitted (§XXXVIII.32), this section asks how they vary from galaxy to galaxy, and which combination the baryonic Tully–Fisher relation fixes (v40.3-3).*
+
+**(a) The labels [V].** In the dictionary's terms (§XXXVIII.30(e)) each galaxy's fit is a pair of labels, $f = \ell/\ell_{\rm arena}$ and $\mathcal B = \zeta/\lambda$:
+
+| galaxy | $f$ | the leaves within the reduced $\chi^2$ of the best | $\mathcal B$ | v36's $\ell_{\rm eff}/\ell_{\rm arena}$, $\zeta/\lambda$ | $\mathcal BC_{\rm eff}/(3f)$ | $(V_{\rm flat}/v_{\rm arena})^2$ |
+|---|---|---|---|---|---|---|
+| DDO 154 | $1.232$ | $1.080$–$1.466$ | $3.717$ | $3.30$, $4.30$ | $0.965$ | $0.884$ |
+| IC 2574 | $1.824$ | $1.691$–$2.010$ | $3.031$ | $2.59$, $2.61$ | $0.687$ | $0.805$ |
+| NGC 6503 | $0.610$ | $0.610$–$0.641$ | $1.479$ | $1.14$, $1.48$ | $1.183$ | $1.146$ |
+| NGC 2403 | $0.865$ | $0.813$–$0.915$ | $1.773$ | $1.14$, $1.80$ | $1.381$ | $1.416$ |
+| NGC 3198 | $1.350$ | $1.296$–$1.404$ | $1.857$ | $1.59$, $1.78$ | $0.998$ | $0.974$ |
+| NGC 7814 | $0.541$ | $0.498$–$0.583$ | $1.012$ | $0.59$, $1.06$ | $1.764$ | $1.719$ |
+| NGC 2841 | $1.072$ | $1.042$–$1.102$ | $1.981$ | $1.04$, $1.99$ | $1.775$ | $1.885$ |
+| UGC 2885 | $0.804$ | $0.711$–$0.899$ | $1.525$ | $1.07$, $1.48$ | $1.333$ | $1.291$ |
+| the Milky Way | $0.949$ | | $1.388$ | | $1.425$ | |
+
+The leaves land near the arena law at the adopted ratios: $f$ from $0.541$ to $1.824$, between $0.804$ and $1.232$ for four of the eight and $0.949$ for the Milky Way. Each curve fixes its own leaf, its interval's ends from $0.972$ and $1.028$ times the best leaf for NGC 2841 to $0.876$ and $1.190$ for DDO 154 (Figure 9), and $f = 1$ lies outside each of the eight intervals, NGC 2841's lower end, $1.042$, coming nearest; the Milky Way's interval holds it (§XXXVIII.31(c)). The rescalings repeat v36's amplitudes, with a logarithmic correlation of $0.980$, on a different kernel and source; the leaves follow v36's less closely ($0.810$), the dwarfs' leaves now nearer the arena law than v36's tails put them. NGC 6503's interval ends at the search's lower end. All of this holds at the disk's ratio of $0.5$: at $0.3$ or $0.7$, $f$ runs from $0.515$ to $4.117$ or from $0.536$ to $1.606$ on the leaves from $2.7R_{\rm disk}$, and from $0.473$ to $4.117$ or from $0.235$ to $1.371$ without that floor (§XXXVIII.32(c)), and the Milky Way's leaf agrees with the arena law only for the benchmark mass (§XXXVIII.31(c)).
+
+**(b) The label condition is the Tully–Fisher offset [T/V].** §XXXIII.16's identity holds here: $\mathcal BC_{\rm eff}/(3f) = (v_\infty/v_{\rm arena})^2$, to $10^{-9}$. Its left side is the plateau's own offset from $v^4 = GM_ba_0$, $1$ on the relation; since the fitted plateaus follow Table 1's $V_{\rm flat}$ ($v_\infty/V_{\rm flat}$ from $0.924$ to $1.045$), it tracks each galaxy's $(V_{\rm flat}/v_{\rm arena})^2$ — from $0.687$ to $1.775$ against $0.805$ to $1.885$, a logarithmic correlation of $0.972$ (Figure 5). The labels carry the galaxy's own offset from the relation at the adopted mass-to-light ratios, which SPARC's Table 1 fixes without any leaf; v36's did so for the six disks, not for the two dwarfs (§XXXIII.16(b)). The response's combination, $C(k)\mathcal B\sqrt M/\ell$, is this left side times $\sqrt{a_0/G}$, the constant the response names: it is constant across the galaxies only as far as they lie on one Tully–Fisher line at fixed ratios, which these eight do not, NGC 7814 and NGC 2841 lying above it by factors of $1.719$ and $1.885$ in $v^2$, IC 2574 below it by $0.805$.
+
+**(c) $\mathcal B$ at the arena leaf: the source's geometry times the offset [T/V].** On the arena leaf, $f = 1$, the same identity reads $\mathcal B = (3/C_{\rm eff})(v_\infty/v_{\rm arena})^2$: the rescaling each curve wants there is the geometric factor $3/C_{\rm eff}$ — the response's $\mathcal B(k) = 3/C(k)$ — times the plateau's offset, and so, the plateaus following $V_{\rm flat}$, times each galaxy's Tully–Fisher offset (a logarithmic correlation of $0.976$). This is an identity with a fitted plateau, not a further measurement. What the leaf supplies is the geometric factor, computed from each galaxy's sources on its arena leaf: $3.708$ and $4.193$ for the gas-rich dwarfs, whose broad gas loses most of the plateau, and $1.017$ and $1.047$ for NGC 7814 and NGC 2841, whose bulges and disks sit compact on large leaves. The dwarfs lie near the relation, with offsets of $0.884$ and $0.805$, and owe their large rescalings to the geometry: DDO 154's curve wants $3.595$ against $3.708$ (a ratio of $0.970$), IC 2574's $3.237$ against $4.193$ ($0.772$). For NGC 7814 and NGC 2841 the offset dominates — $1.551$ against $1.017$ ($1.525$) and $1.891$ against $1.047$ ($1.806$) — and for the Milky Way, $1.435$ against $1.025$ ($1.401$); for the other spirals the two factors are comparable, or the geometry is the larger, NGC 2403's curve wanting $1.900$ against $1.400$ ($1.358$) and NGC 3198's $1.650$ against $1.533$ ($1.077$). The offset is the galaxy's position on the Tully–Fisher plane at the adopted ratios, which no factor of geometry can supply.
+
+**(d) Where the square root goes [V/D].** Across the eight, against $\log M_b$: the fitted leaves grow with slope $0.419$ (correlation $0.925$), against the arena law's $0.5$; the rescalings fall with slope $-0.140$ ($-0.733$); at the arena leaf $\mathcal B$ falls with slope $-0.128$, the geometric factor $3/C_{\rm eff}$ with $-0.216$ ($-0.855$) and the offsets $(V_{\rm flat}/v_{\rm arena})^2$ rise with $0.101$; $\mathcal BC_{\rm eff}/\ell$ falls with slope $-0.399$, where $v^4\propto M$ would need $-0.5$ — these eight at these ratios lie on a shallower relation. The leaf carries most of the square root, as Part XII put it, and the rescaling's fall with mass is the geometric factor's, partly undone by the offsets' rise: §XXXVIII.30(f)'s question answered on this sample, the split close to Part XII's, not to a mass-dependent rendering in the manner of Entry 288. The split depends on the adopted ratios: the leaves' slope is $0.261$ at a disk ratio of $0.3$ and $0.479$ at $0.7$ on the leaves from $2.7R_{\rm disk}$, two fits in each at that floor, and $0.232$ and $0.501$ without it — at $0.5$, $0.419$ with the floor and $0.430$ without (v40.3-3) — so that the leaf carries about half of the square root at a disk ratio of $0.3$ and nearly all of it at $0.7$.
+
+**(e) $\mathcal B = 3/C$ is a function of surface density [T/V].** For one exponential disk the arena leaf in units of its scale length is $k = \ell_{\rm arena}/h = 3\sqrt{GM/a_0}/h = 3\sqrt{\Sigma_0/\Sigma^\dagger}$, with $\Sigma_0 = M/2\pi h^2$, the nominal central surface density of an exponential of that mass, and $\Sigma^\dagger = a_0/2\pi G = 137.0\,M_\odot$ pc$^{-2}$. So the rescaling the arena rule needs depends on the surface density alone. The source's own central surface density on the leaf, Part XII's $\Sigma_c$, with $M = 2\pi\Sigma_c\ell^2I(k)$ and $I(k) = \int_0^{\pi/2}e^{-k\sin t}\sin t\,dt$, is $\Sigma_0/(k^2I(k))$, above $\Sigma_0$ for the broad sources of the table and slightly below it for the compact ones:
+
+| $\Sigma_0$ ($M_\odot$ pc$^{-2}$) | $20$ | $50$ | $100$ | $137$ | $300$ | $1000$ | $3000$ |
+|---|---|---|---|---|---|---|---|
+| $k$ | $1.15$ | $1.81$ | $2.56$ | $3.00$ | $4.44$ | $8.10$ | $14.04$ |
+| $\mathcal B = 3/C(k)$ | $3.719$ | $2.428$ | $1.801$ | $1.591$ | $1.233$ | $1.031$ | $1.008$ |
+| $\Sigma_c$ ($M_\odot$ pc$^{-2}$) | $36.1$ | $57.5$ | $93.4$ | $121.3$ | $258.3$ | $942.3$ | $2{,}950.7$ |
+
+This is Part XII's ceiling turned around (Figure 6). With $\mathcal B = 1$, $v^4 = GMa_0$ needs $C(k)^2I(k) = \Sigma^\dagger/\Sigma_c$ for some leaf — Part XII's own condition, whose ceiling for its thin disk was $190\,M_\odot$ pc$^{-2}$ (§XII.2). For Entry 326's source $C^2I$ is largest, $0.4529$, at $k = 2.64$: no leaf puts a disk below $\Sigma_c = 303\,M_\odot$ pc$^{-2}$ on the relation, and with the image within $0.1$ mag of the exponential out to four scale lengths, none below $909$. In the nominal $\Sigma_0$ the condition is $C(k)/k = \sqrt{\Sigma^\dagger/\Sigma_0}$, and $C(k)/k$ is largest at the table's smallest $k$, $0.01$, where it is $0.7293$: the bound is $258$, approached as $k\to0$, where the image is no exponential of scale $h$ and $\Sigma_c/\Sigma_0$ grows without bound; with the image within $0.3$ or $0.1$ mag of the exponential, $331$ or $971$. The rescaling lifts the ceiling, as it must; the low-surface-brightness galaxies, the ceiling's casualties, are exactly those that need the largest $\mathcal B$. A cross-galaxy rescaling factor of the author's kind would be explained if the rendering that sets $\mathcal B$ gave it as this function of the surface density, or of the source's breadth on its leaf, without reference to the speeds.
+
+**What it means [D].** The author's root idea — that galaxies are seen at different scales, and that conflating their apparent and absolute masses makes the square root — meets the data in two parts. The square root itself is carried mostly by the leaf, close to Part XII's arena law, at the adopted ratios. The rescaling across galaxies, at the arena leaf, is identically the source's geometry on that leaf, $3/C$ — for one disk a function of surface density, which makes the diffuse galaxies' gravitating mass several times their light's — times the plateau's offset from the Tully–Fisher relation, which follows each galaxy's own at the adopted ratios and belongs to the data and their mass-to-light ratios rather than to any rescaling law. The computed content is the geometric factor; the measured, the plateaus' agreement with $V_{\rm flat}$. Whether $3/C$ can be derived, rather than read off the relation it restores, is the open question the response puts.
+
+![Figure 4: the fitted leaves and rescalings against baryonic mass, with v36's labels and the Milky Way](galaxy_sims/v403_fig4.png)
+
+*Figure 4. Left, $f = \ell/\ell_{\rm arena}$ with the leaves within the reduced $\chi^2$ of the best; right, $\mathcal B$ at the best leaf and at the arena leaf, $3/C_{\rm eff}$, and v36's amplitudes.*
+
+![Figure 5: the label condition's left side against the Tully-Fisher offset, and B at the arena leaf against 3/C](galaxy_sims/v403_fig5.png)
+
+*Figure 5. Left, $\mathcal BC_{\rm eff}/(3f)$ against $(V_{\rm flat}/v_{\rm arena})^2$; right, the $\mathcal B$ each curve wants at the arena leaf against $3/C_{\rm eff}$, with each galaxy's multiplier.*
+
+![Figure 6: B = 3/C as a function of central surface density, with the eight galaxies and Part XII's ceiling for this source](galaxy_sims/v403_fig6.png)
+
+*Figure 6. The rescaling the arena rule needs for one disk, against its central surface density; the galaxies placed where $3/C$ equals their $3/C_{\rm eff}$, open, with the $\mathcal B$ their curves want, filled. The dashed lines are the ceilings with $\mathcal B = 1$.*
+
+![Figure 9: chi-square against the leaf in units of the arena leaf, for the eight galaxies and the Milky Way](galaxy_sims/v403_fig9.png)
+
+*Figure 9. How sharply each curve fixes its leaf: $\Delta\chi^2$ over the reduced $\chi^2$ against $f$, $\mathcal B$ in closed form at each leaf.*
+
+## XXXVIII.34 No per-galaxy freedom: Part XII's target on eight galaxies [V/S; R596] *(`v40_3_rules()`)*
+
+*Part XII set the target the response asks v40.3 to keep: one optical map, one arena rule, at most one or two universal parameters, no per-galaxy freedom. The labels of §XXXVIII.33 are per-galaxy freedoms; here every galaxy gets the same rule, and each rule is also fitted to seven galaxies and asked to predict the eighth (v40.3-4).*
+
+**(a) The rules [S].** On the leaf with the galaxy's baryons (§XXXVIII.32(a)), at the adopted mass-to-light ratios: **U0**, $f = 1$ and $\mathcal B = 3/C_{\rm eff}$, the arena law with the label condition, nothing free — the source's geometry setting the rescaling from the photometry alone, free of any fit to the curves though not independent of the relation, which sets its normalization; **U1**, $f = f_0$ and $\mathcal B = 3f_0/C_{\rm eff}$, one constant, every plateau kept at $v_{\rm arena}$ and the turnover radius universal in arena units; **U2**, $f = f_0$ and $\mathcal B = b\cdot3f_0/C_{\rm eff}$, two, the plateau's normalization free, $v_\infty^4 = b^2GM_ba_0$; **U3**, $f = f_0$ and $\mathcal B = b$ for every galaxy, two, without the geometry. Against them, the radial acceleration relation at $g^\dagger = 1.2\times10^{-10}$ m s$^{-2}$, nothing free, and with $g^\dagger$ fitted to the eight, one constant.
+
+**(b) The results [V].**
+
+| rule | constants | total $\chi^2$ | each left out, total | $\chi^2/N$: DDO 154 | IC 2574 | NGC 6503 | NGC 2403 | NGC 3198 | NGC 7814 | NGC 2841 | UGC 2885 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| U0 | none | $49{,}723$ | — | $9.53$ | $105.49$ | $52.32$ | $430.37$ | $14.50$ | $118.77$ | $199.46$ | $13.11$ |
+| U1 | $f_0 = 2.228$ | $22{,}238$ | $27{,}818$ | $11.94$ | $85.95$ | $47.74$ | $134.53$ | $68.55$ | $54.66$ | $75.01$ | $9.99$ |
+| U2 | $f_0 = 1.305$, $b = 1.208$ | $18{,}400$ | $31{,}429$ | $243.56$ | $148.32$ | $16.23$ | $52.61$ | $43.60$ | $31.14$ | $72.23$ | $2.32$ |
+| U3 | $f_0 = 1.423$, $\mathcal B = 2.267$ | $19{,}625$ | $25{,}350$ | $890.55$ | $37.95$ | $43.32$ | $36.12$ | $42.60$ | $66.18$ | $8.55$ | $11.50$ |
+| RAR | none | $20{,}219$ | — | $89.09$ | $238.41$ | $2.81$ | $75.64$ | $13.41$ | $27.27$ | $86.27$ | $2.83$ |
+| RAR | $g^\dagger = 1.314\times10^{-10}$ m s$^{-2}$ | $19{,}416$ | $31{,}158$ | $150.03$ | $274.75$ | $6.11$ | $42.10$ | $22.27$ | $19.93$ | $72.92$ | $2.56$ |
+
+Refitted without each galaxy in turn, the constants move: $f_0$ runs from $1.831$ to $2.377$ for U1 ($2.228$ on all eight), from $1.141$ to $1.787$ for U2 ($1.305$) and from $1.214$ to $1.700$ for U3 ($1.423$); the galaxies left out are predicted with the $\chi^2/N$ printed beside the in-sample values in v40.3-4.
+
+**What it shows [S/D].** With nothing free the arena rule's $\chi^2$ is more than twice the relation's, $2.459$ times: it wins on the two dwarfs, whose large rescalings come mostly from its geometry, and loses where the galaxy's own Tully–Fisher offset is large (§XXXVIII.33(b)). With one constant, U1's leaf at $2.228$ arena radii, the total is $1.100$ times the relation's at its published constant and $1.145$ times the relation's with $g^\dagger$ fitted; with two, U2 falls below the relation with its constant fitted, $18{,}400$ against $19{,}416$, and U3, at $19{,}625$, lies between the relation's two totals. Left out in turn, the leaf's rules predict the eighth galaxy about as well as the relation refitted without it, or better — U3's total $25{,}350$ and U1's $27{,}818$ against its $31{,}158$ — but the relation at its published constant, which SPARC's whole sample fixed, does better than any of them, at $20{,}219$. The leaf's rules and the empirical relation are on a par on these eight in sample; out of sample the relation at its published constant leads; neither fits any galaxy to $\chi^2/N$ below $2$ at fixed mass-to-light ratios and the published errors, which omit the inclination systematics (§XXXIII.17(a)). Freeing the disk's ratio per galaxy, the standard nuisance, helps the relation more ($2{,}378$ in all) than the arena rule ($8{,}634$), and asks implausible ratios of both: the rule $2.045$ and $1.717$ for NGC 7814 and NGC 2841, the relation $0.000$ and $0.027$ for the dwarfs (v40.3-2). Part XII's target is met in form on eight galaxies — one map, one rule, two constants at most — and not yet in substance: the test it names is all of SPARC's curves, with the nuisances treated alike for every model.
+
+![Figure 8: chi-square per point for each galaxy under the leaf's rules and the radial acceleration relation](galaxy_sims/v403_fig8.png)
+
+*Figure 8. No per-galaxy freedom: $\chi^2/N$ for each galaxy under the arena rule (U0), U1 and U3, and the radial acceleration relation at $g^\dagger = 1.2\times10^{-10}$ m s$^{-2}$ and fitted.*
+
+## XXXVIII.35 The response titled Entry 526 point by point, the replies corrected, and what the three freedoms build [D/L/O; R592]
+
+**(a) The replies corrected [D].** The reply to the second message fitted the Milky Way's three freedoms on a grid of $k$ and $h$; its best point is superseded by v40.3-1's optimum, $\chi^2 = 130.6$ at $\ell = 23.77$ kpc, $h = 2.787$ kpc and $\mathcal B = 1.388$ (§XXXVIII.31), and the response's reduced $\chi^2$ of about $4.3$, computed from the reply's numbers, becomes $3.73$. The reply proposed as a new test whether the rescaling over the leaf, with $C$, falls as $1/\sqrt M$; that is Part XII's arena law with §XXXIII.16's label condition, which the reply should have cited (§XXXVIII.30). The response's table gives the two dwarfs' fitted rescaling as $4$–$7$: the archive's numbers in that range are v40.1's ratios of the dwarfs' dynamical masses to their baryons inside the last radius, $4.08$–$6.92$ (§XXXVIII.22), not rescalings; with their own baryons the dwarfs' $\mathcal B$ is $3.717$ and $3.031$ at their best leaves, $3.595$ and $3.237$ at their arena leaves (§XXXVIII.32(c)).
+
+**(b) The response, point by point [D].**
+- *The name.* $\mathcal B$ for the amplitude, keeping $A$ for the C-metric's acceleration: adopted.
+- *Only the product is measured.* At fixed $\ell$ and $h$ a curve measures $\mathcal BM$, not its factors: so it is here, and inside a disk $\mathcal B$ is also degenerate with the stellar mass-to-light ratio (§XXXVIII.32(d)); only the gas, its mass measured, separates them, and the dwarfs, nearly all gas, are where $\mathcal B$ is largest. On the Milky Way the arena rule with $\mathcal B = 3/C$ would need $1.612$ times the benchmark disk (§XXXVIII.31(d)); and since $\mathcal B$ absorbs the mass, the leaf's agreement with the arena law is itself an agreement at the adopted mass (§§XXXVIII.31(c), XXXVIII.33(a)).
+- *A rescaling of lengths is not a rescaling of GM.* Agreed; Entry 288's apparent scale showed it in the archive: inflating size and mass leaves every speed as it was unless a velocity-rendering law is derived (§XXIX.42(g)). The dictionary's $\mathcal B = \zeta/\lambda$ (§XXXVIII.30(e)) names the transformation; deriving it is open.
+- *The Milky Way's fit is not acceptable under its statistical errors.* Agreed: $\chi^2/(N-3) = 3.73$. At the light's scale length the leaf gives $3.94$, an NFW halo $4.28$ and the radial acceleration relation $17.30$; with $h$ free, $3.73$, $1.78$ on a disk the light excludes, and $17.02$ (§XXXVIII.31(b)). The errors omit the systematic ones that the reduced values suggest.
+- *The outer curve is not established.* Agreed. The fitted leaf, $k = 8.53$, is of the bump class: its curve dips to $207.5$ km/s at $34.4$ kpc and climbs to $209.9$, while the NFW halo falls to $166.5$ km/s at $300$ kpc (§XXXVIII.31(e)); tracers beyond the disk can decide.
+- *One likelihood.* Adopted: $\chi^2$ with the published errors throughout, $\mathcal B$ in the closed form the response gives.
+- *The condition $\mathcal B(k)C(k)\simeq3$.* The response's key insight is §XXXIII.16's label condition at $f = 1$ (§XXXVIII.30(e)). At the arena leaf $\mathcal B = (3/C_{\rm eff})(v_\infty/v_{\rm arena})^2$ identically, so whether the condition holds is whether the galaxy lies on $v^4 = GM_ba_0$ at the adopted ratios, which SPARC's Table 1 decides without any leaf. What v40.3 adds is the geometric factor the condition requires, $3/C_{\rm eff}$ from $1.017$ to $4.193$: it accounts for DDO 154's rescaling, whose curve wants $0.970$ of it at the arena leaf, and exceeds IC 2574's, $0.772$ of it, while the spirals' offsets multiply it by up to $1.806$ (§XXXVIII.33(c)). As the response warns, $\mathcal B = 3/C(k)$ read off the relation it restores encodes MOND; for one disk it is a function of the surface density alone (§XXXVIII.33(e)), which states what a derivation would have to give.
+- *The whole combination, not $\mathcal B$'s trend.* Agreed and measured: $\mathcal BC_{\rm eff}/(3f)$ equals each galaxy's $(v_\infty/v_{\rm arena})^2$ identically and tracks its $(V_{\rm flat}/v_{\rm arena})^2$ (§XXXVIII.33(b)); the leaf carries most of the square root at a disk ratio of $0.5$, slope $0.419$ against $0.5$; at $0.3$ and $0.7$, $0.261$ and $0.479$, or $0.232$ and $0.501$ without the floor of the leaves — about half of it and nearly all (§XXXVIII.33(d)).
+- *The radial acceleration relation, and the inner hump.* Measured: with nothing free the arena rule has its own acceleration relation, a fifth below the empirical one in the transition (§XXXVIII.32(f)). The rescaling does amplify the inner and outer curve together, and the curves prefer that (§XXXVIII.32(d)); where the rule fails, it is mostly too low, by the galaxy's offset, not too high inside.
+- *Three meanings of mass.* The dictionary has them: $M_{\rm inst}$, the light's $M_{\rm app} = \lambda^2M_{\rm inst}$ and the gravitating $M_{\rm grav} = \zeta M_{\rm inst}$ (§XXXIII.9). v40.3's fits measure only $\mathcal B = \zeta/\lambda$; the response's demand — a separate prediction for the baryonic mass an observer infers, with the radius, mass and velocity transformed consistently — stands.
+- *Three comparisons and the baselines.* Run: descriptive (§§XXXVIII.31–32), constrained by the arena law (§§XXXVIII.32–33) and with nothing free (§XXXVIII.34), against Newton, the radial acceleration relation and NFW — with and without the baryons' scale free — on the same data, errors and ratios. U0, its rescaling set by the photometry's geometry, is free of any fit to the curves but not independent of the relation, which fixes its normalization; the response's third kind, a prediction independent of the relation, needs a rendering law that gives $\mathcal B$, and that is not yet in hand.
+- *The ontology.* Whether $\mathcal B$ acts on gravitational mass, inertial mass or the optical map, rotation curves cannot say, since they measure the ratio; that it acts on the whole curve rather than on the leaf's remainder alone, they can — for seven of the eight on leaves of at least $2.7R_{\rm disk}$, six without that floor (§XXXVIII.32(d)).
+
+**(c) What the three freedoms build [D/O].** In the order the data fix them:
+1. $h$ is the light's. With the light's scale lengths the leaf follows the curves; freed, in the single source, it runs to the ends of the search for two galaxies and to values unlike the light's for two more (§XXXVIII.32(e)).
+2. $\ell$, fitted, lands near Part XII's arena law, $\ell\approx3\sqrt{GM/a_0}$, at the adopted masses: on the Milky Way at $0.949$ of it, the arena leaf inside the profile's interval, and across the eight within a factor of two, scaling as $M^{0.419}$ at a disk ratio of $0.5$. The leaf carries most of the Tully–Fisher square root.
+3. $\mathcal B$ is the freedom the curves need most, on the whole curve. At the arena leaf it is identically the source's geometry, $3/C$ — for one disk a function of surface density, which makes the diffuse galaxies' gravitating mass several times their light's — times the plateau's Tully–Fisher offset, which follows the galaxy's own at the adopted ratios.
+
+Built so, with nothing free per galaxy and one or two universal constants, the leaf fits the eight curves about as well as the radial acceleration relation and predicts each, left out, about as well as the relation refitted without it, though not as well as the relation at its published constant; with no constant at all it has an acceleration relation of its own, a fifth below the empirical one. Open: the derivation of $\mathcal B = 3/C$ from a rendering law, with the observer's inferred baryonic mass predicted alongside; the mass-to-light ratios, distances and inclinations treated as nuisances for every model; all of SPARC's $175$ galaxies, whose files were not reachable here; and the Milky Way's curve beyond $25$ kpc, where the leaf and the halo part.
+
+## XXXVIII.36 Standing after v40.3, and register R591–R597 [S/D/O; v40.3]
+
+*Standing.* v40.3 adds to §§XXXVIII.24 and XXXVIII.28 the third freedom, a rescaling $\mathcal B$ of the gravitating mass, fitted with the leaf and the falloff length to the Milky Way and, with the leaf's remainder added to their own baryonic curves, to the eight galaxies of the v36 pilot; the labels across them read against Part XII's arena law and §XXXIII.16's label condition; and rules with no per-galaxy freedom, against Newton, the radial acceleration relation and NFW halos — with and without the baryons' scale free — on the same data, errors and mass-to-light ratios, with ten figures.
+
+**Established in v40.3:**
+- *The Milky Way* (§XXXVIII.31): with $\ell$, $h$ and $\mathcal B$ free, $\chi^2/(N-3) = 3.73$ at $\ell = 23.77$ kpc, $h = 2.787$ kpc and $\mathcal B = 1.388$ — the arena leaf, $25.04$ kpc, inside the profile's interval for the benchmark mass, and $h$ the light's; $\mathcal B = 1$ more than doubles $\chi^2$, $\mathcal B = 3/C(k)$ on the arena leaf multiplies it $398$-fold unless the disk is $1.612$ times the benchmark; on one idealized disk, at the light's scale length, the leaf does as well as an NFW halo and far better than the radial acceleration relation in $\chi^2$.
+- *The eight galaxies* (§XXXVIII.32): with each galaxy's baryons and $\ell$ and $\mathcal B$ free, $\chi^2/(N-2)$ from $1.03$ to $14.05$, below NFW's for four and in total, $1{,}670$ against $2{,}227$, though not below NFW given the baryons' scale as well, $1{,}213$; lower than v36's two labels for seven; the rescaling acts on the whole curve, as the second message proposed, for seven of the eight on leaves of at least $2.7R_{\rm disk}$, six without that floor; with nothing free the arena rule has an acceleration relation of its own, a fifth below the empirical one in the transition.
+- *The rescaling across galaxies* (§XXXVIII.33): at the adopted ratios the leaves near the arena law, scaling as $M^{0.419}$, and carrying most of the Tully–Fisher square root — about half of it at a disk ratio of $0.3$ and nearly all at $0.7$, with slopes of $0.261$ and $0.479$, or $0.232$ and $0.501$ without the floor of the leaves; the label condition's left side identically the plateau's Tully–Fisher offset, which tracks each galaxy's; at the arena leaf $\mathcal B$ identically $3/C_{\rm eff}$, the source's geometry, times that offset, and $3/C$, for one disk, a function of the surface density; Part XII's ceiling for this source, in its own definition, $303\,M_\odot$ pc$^{-2}$ with $\mathcal B = 1$.
+- *No per-galaxy freedom* (§XXXVIII.34): the arena rule, nothing free, more than twice the radial acceleration relation's $\chi^2$; with one or two universal constants on a par with it in sample, and left out in turn as good as the relation refitted without each galaxy or better, though behind the relation at its published constant; neither fits any galaxy to $\chi^2/N$ below $2$ at fixed ratios.
+
+**Not claimed.** That $\mathcal B$ is derived, or that $\mathcal B = 3/C$ is more than the relation it restores, read off it; that any model here is an acceptable fit under the published errors; that eight galaxies test Part XII's acceptance condition, which names all of SPARC's; that the leaves' agreement with the arena law holds at other masses or mass-to-light ratios; that the Milky Way's baryons are one exponential disk, or that its curve beyond $25$ kpc is known; that the comparison treats distances, inclinations and mass-to-light ratios as a full analysis would. Everything here is again of the first kind, derived inside an illustrative model; the fits are typed as fits.
+
+**The next pieces.** §XXXVIII.24's stand, the seventh extended:
+
+7. *The galaxy's gravitating source, and its rescaling.* A rendering law that gives $\mathcal B$ — and the observer's inferred baryonic mass with it — from the source's breadth on its leaf without the speeds, to be tested against $3/C$ as a function of surface density (§XXXVIII.33(e)); all $175$ SPARC galaxies with the rules of §XXXVIII.34, the mass-to-light ratios, distances and inclinations treated alike for every model; the Milky Way with its bulge and gas, and its curve beyond $25$ kpc, where the leaf stays near $208$–$210$ km/s and an NFW halo falls (§XXXVIII.31(e)).
+
+**The register.**
+- **R591 (record).** The four messages of 22 November after v40.2 was delivered — the request for a status report, the third freedom with an excerpt of the report attached, the request for this version, and the response titled Entry 526 with the message that sent it — the first three as the compaction's summary quotes them, the fourth and the attachments from the queue's record and their files, with their markup; the two replies between them not kept (§XXXVIII.29). [D]
+- **R592 (the program read again; the response point by point).** Part XII's arena law and ceiling, Entries 287–288, the zoom labels and the dictionary, and §XXXIII.16's label condition, with the rescaling read as $\mathcal B = \zeta/\lambda$ and the response's $\mathcal BC\simeq3$ as that condition at $f = 1$ (§XXXVIII.30); the response point by point, the two replies corrected in indirect speech, and what the three freedoms build (§XXXVIII.35). [D/L/O]
+- **R593 (the Milky Way).** The three freedoms, their reductions, the arena rule and the baselines on one disk; the landscape and the profile in $\ell$; the curve beyond the data (§XXXVIII.31). [V/S/D]
+- **R594 (the eight galaxies).** The leaf with each galaxy's baryons, against Newton, the radial acceleration relation and NFW, with and without the baryons' scale free; the fits with and without the floor of the leaves; the leaves at other mass-to-light ratios; where the rescaling acts; the author's formula as written; the arena rule's own acceleration relation (§XXXVIII.32). [V/S/D]
+- **R595 (the rescaling across galaxies).** The labels and their intervals; the label condition as the Tully–Fisher offset; $\mathcal B$ at the arena leaf as $3/C_{\rm eff}$ times it; the split of the square root; $3/C$ as a function of surface density and Part XII's ceiling for Entry 326's source, in its own definition and in the nominal one (§XXXVIII.33). [T/V/D]
+- **R596 (no per-galaxy freedom).** The rules U0–U3 against the radial acceleration relation, fitted to the eight and left out in turn (§XXXVIII.34). [V/S]
+- **R597 (the suite, the figures' script and the toy).** `pg_v40_numerics.py` with its v40.3 sections and mode `v40_3`, its earlier sections printing v40.2's final run byte for byte; `galaxy_sims/pg_v403_figures.py`, which draws the ten figures from the suite's fits; the toy's mode `v40_3`, its `all` running the frozen suites and Part XXXVIII together (§XXXVIII.19). [V]
+
 ---
 
-## Round record: the version summaries, v16 to v40.2 (moved from the head of the archive in v34.9, R190)
+## Round record: the version summaries, v16 to v40.3 (moved from the head of the archive in v34.9, R190)
 
-*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v40.2, v40.1, v40.0, v39.0, v38.2, v38.1, v38.0, v37.9, v37.8, v37.7, v37.6, v37.5, v37.4, v37.3, v37.2, v37.1, v37.0, v36.16, v36.15, v36.14, v36.13, v36.12, v36.11, v36.10, v36.9, v36.8, v36.7, v36.6, v36.5, v36.4, v36.3, v36.2, v36.1, v36.0, v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+*These paragraphs record what each round did. They are historical: the claim-status tables at the head of the archive govern, and operative claims replaced since v34.8 carry their tags here as in the body. The v40.3, v40.2, v40.1, v40.0, v39.0, v38.2, v38.1, v38.0, v37.9, v37.8, v37.7, v37.6, v37.5, v37.4, v37.3, v37.2, v37.1, v37.0, v36.16, v36.15, v36.14, v36.13, v36.12, v36.11, v36.10, v36.9, v36.8, v36.7, v36.6, v36.5, v36.4, v36.3, v36.2, v36.1, v36.0, v35.8, v35.7, v35.6, v35.5, v35.4, v35.3, v35.2, v35.1, v35.0, v34.10 and v34.9 paragraphs are first; the rest follow in the order they stood at the head of v34.8 — the v30 opening status and the v32 freeze status, the v34.0–v34.8 round paragraphs, the v30 change list and archive note, and the version-29 to version-16 summaries. The v34.0 governing ontology correction, which states the ontology rather than a round, stays at the head.*
+
+> **v40.3 — the third follow-up of 22 November 2026: the third freedom, a rescaling of the gravitating mass, on the Milky Way and eight SPARC galaxies, against Newton, the radial acceleration relation and NFW; the archive's MOND program read again.**
+>
+> *What was asked.* After v40.2 was delivered the author asks for a status report on where the model fits the data and where not yet; reads its "total rescaling" as his own MOND idea — a physical rescaling of the whole galaxy, so that its GM picks up a scale factor and the GM of $v^2$ is an apparent mass, two concepts of $M$ conflated — and proposes it as the third major degree of freedom beside $\ell$ and $h$; then asks for the tests to be worked out and made v40.3, "to sculpt how the three major degrees of freedom can go together to build up to the empiricism", with a thorough look back at his MOND program, "especially pertaining to cross-galaxy relative rescaling factors"; and sends a response from another assistant, titled Entry 526.
+>
+> **What v40.3 does (R591–R597; Part XXXVIII).**
+> - *The record.* The four messages, the first three as the compaction's summary quotes them, the attachments from their files.
+> - *The program read again.* Part XII's arena law and ceiling, Entries 287–288, the zoom labels and §XXXIII.16's condition: the rescaling is the dictionary's $\zeta/\lambda$, and the response's $\mathcal BC\simeq3$ that condition at $f = 1$.
+> - *The Milky Way.* The three freedoms at $\chi^2/(N-3) = 3.73$, the leaf at $0.949$ of the arena law's value for the benchmark mass, $h$ the light's, $\mathcal B = 1.388$.
+> - *The eight galaxies.* With their own baryons, $\ell$ and $\mathcal B$ per galaxy follow the curves better in total than an NFW halo's two numbers, not than the halo given the baryons' scale; on leaves of at least $2.7R_{\rm disk}$ the rescaling acts on the whole curve; with nothing free, an acceleration relation a fifth below the empirical one.
+> - *Across the galaxies.* At the adopted ratios the leaf carries most of the Tully–Fisher square root; at the arena leaf $\mathcal B$ is identically $3/C$, the source's geometry, times the plateau's Tully–Fisher offset.
+> - *No per-galaxy freedom.* With one or two universal constants the leaf's rules on a par with the radial acceleration relation on the eight in sample, behind it at its published constant out of sample; with none, more than twice its $\chi^2$.
+> - *Figures.* Ten, drawn by `pg_v403_figures.py` from the suite's fits.
+> - *The suite.* `pg_v40_numerics.py` with its v40.3 sections, mode `v40_3`, $21$ checks, its earlier sections printing v40.2's final run byte for byte; the toy's `all` runs the frozen suites and Part XXXVIII together.
+> - *Review.* One independent referee, on the physics and numerics and on the record and text together, read the round before delivery, again after the repairs and a third time to confirm the last of them; its twenty-seven findings, six of them important, the eight points of its second reading and the two of its third, all applied, are in the ledger's §HK.
+>
+> **Next.** §XXXVIII.36's pieces.
 
 > **v40.2 — the second follow-up of 22 November 2026: the quick falloff read as meant, the point source's apparent halo, the image against the exponential, the density near the equator, and thirteen figures; corrections in place.**
 >
