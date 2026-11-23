@@ -207,7 +207,10 @@ function strengths(sd, c, k) {
   const per = (t, team) => duel ? base + c.g * logDuel(t, c, facing[team], facingG[team]) : logScore(t, c);
   // what a hit on this fighter is set against: his whole strength, except behind a bow or a gun, where it is the man (or crew) without the weapon
   const dur = (t, ls) => t.human && (t.ref.rng || t.ref.frail) ? Math.min(ls, duel ? base + c.g * t.ref.ddur : t.ref.dur) : ls;
-  const logS = sd.map((s, i) => teamLog(s, t => per(t, i), k)), sc = duel ? c.g : 1, m = Math.max(...logS), w = logS.map(v => Math.exp((v - m) / sc)), tot = w.reduce((a, b) => a + b, 0);
+  // Against a side that cannot be surrounded (every fighter on it elusive), numbers do not pile up: the many meet him one at a time, and the
+  // chance of winning a string of n duels falls as n, not as n to the power k / gamma. On this scale that is a group exponent of gamma.
+  const elus = sd.map(s => s.length > 0 && s.every(e => e.t.ref.elusive)), kOn = i => elus.some((v, j) => v && j !== i) ? Math.min(k, c.g) : k;
+  const logS = sd.map((s, i) => teamLog(s, t => per(t, i), kOn(i))), sc = duel ? c.g : 1, m = Math.max(...logS), w = logS.map(v => Math.exp((v - m) / sc)), tot = w.reduce((a, b) => a + b, 0);
   return { duel, per, dur, logS, p: w.map(v => v / tot), k, g: c.g, sc, base };
 }
 
@@ -326,6 +329,14 @@ function shadow(B, dt, alive, inPlay) {
       const [gx, gy] = GATES[u.team], R = (gx ? B.AX : B.AY) - 1.5, s = { x: gx ? gx * R : u.x * 0.6, y: gx ? u.y * 0.6 : gy * R }; inside(B, s, u.rad + 0.3); goTo(u, s, dt, u.walk * (u.hp < 1 ? 0.7 : 1.2)); turnTo(u, Math.atan2(s.y - u.y, s.x - u.x), dt, 1); continue;
     }
     const v = u.tgt; if (B.over || !v || v.hp <= 1e-9 || B.out[v.team]) continue;
+    if (u.swift) {                  // the swift never stand: between blows they are somewhere else on the sand, and then somewhere else again
+      if (!u.wp || (u.wpt -= dt) <= 0 || Math.hypot(u.wp.x - u.x, u.wp.y - u.y) < 0.5) { const a = Math.random() * TAU, r = 3 + Math.random() * 6; u.wp = { x: v.x + r * Math.cos(a), y: v.y + r * Math.sin(a) }; inside(B, u.wp, u.rad + 0.3); u.wpt = 0.25 + Math.random() * 0.4; }
+      goTo(u, u.wp, dt, 5 * u.swift); u.h = Math.atan2(v.y - u.y, v.x - u.x); continue;
+    }
+    if (v.swift) {                  // and nobody can follow them: each looks to where he last thought he saw something, late and wrong
+      if (!u.ghost || (u.gt -= dt) <= 0) { u.ghost = { x: v.x + (Math.random() - 0.5) * 7, y: v.y + (Math.random() - 0.5) * 7 }; u.gt = 0.5 + Math.random() * 0.9; }
+      const gd = Math.hypot(u.ghost.x - u.x, u.ghost.y - u.y); if (gd > 2.5) goTo(u, u.ghost, dt, u.walk * 0.35); turnTo(u, Math.atan2(u.ghost.y - u.y, u.ghost.x - u.x), dt, 0.45); continue;
+    }
     if (!groups.has(v)) groups.set(v, []); groups.get(v).push(u);
   }
   for (const [v, list] of groups) {  // those shadowing the same enemy spread around it
@@ -370,7 +381,7 @@ function land(B, e) {
   const E = e.E, mx = (e.a.x + e.b.x) / 2, my = (e.a.y + e.b.y) / 2;
   if (!E) { if (!e.a.rng) { B.texts.push({ x: mx, y: my - 0.8, s: 'parried', team: -1, age: 0 }); e.a.lunge = 1; } return; }
   const hit = E.aHits ? e.a : e.b, v = E.aHits ? e.b : e.a, d = Math.hypot(v.x - hit.x, v.y - hit.y) || 1, ux = (v.x - hit.x) / d, uy = (v.y - hit.y) / d, kick = 8 / (1 + v.len * 1.3) * Math.min(1, 0.4 + E.dmg);
-  v.hp = E.hpv; v.kx += ux * kick; v.ky += uy * kick;
+  v.hp = E.hpv; if (hit.swift && v.hp <= 1e-9 && v.hum) v.cut = true; else { v.kx += ux * kick; v.ky += uy * kick; }   // cut through where he stood
   if (hit.rng) fire(B, hit, v, true, E.dmg); else { hit.lunge = 1; B.strikes.push({ x1: hit.x, y1: hit.y, x2: v.x, y2: v.y, age: 0 }); }
   B.decals.push({ x: v.x + (Math.random() - 0.5) * v.rad, y: v.y + (Math.random() - 0.5) * v.rad, r: (0.08 + 0.2 * Math.min(1, E.dmg)) * (v.hum ? 1 : 1.3) });
   const down = v.hp <= 1e-9; B.texts.push({ x: v.x, y: v.y - v.rad - 0.5, s: down ? (v.mach ? 'knocked out' : 'down') : '−' + Math.max(1, Math.round(E.dmg * 100)) + '%', team: v.team, age: 0 });
@@ -384,10 +395,15 @@ function startGo(B, e) {          // who moves, who shoots: the one who lands th
   const v = hit === a ? b : a; if (v.rng) fire(B, v, hit, false, 0);                          // the shot that fails to stop the charge
   e.m = hit === b && !a.rng ? a : hit;
 }
+function dart(B, u) {              // the swift do not stay where enemies are gathering: after a blow they are gone, to come in again from elsewhere
+  let n = 0, cx = 0, cy = 0; for (const v of B.units) if (v.team !== u.team && v.hp > 1e-9 && Math.hypot(v.x - u.x, v.y - u.y) < 7) { n++; cx += v.x; cy += v.y; }
+  if (n < 2) return; const dx = u.x - cx / n, dy = u.y - cy / n, d = Math.hypot(dx, dy) || 1, w = (Math.random() - 0.5) * 1.6, c = Math.cos(w), s = Math.sin(w), far = Math.hypot(u.x, u.y) > B.AX * 0.6 ? -1 : 1;
+  u.kx = far * (dx * c - dy * s) / d * 28; u.ky = far * (dx * s + dy * c) / d * 28;
+}
 function runEx(B, e, dt) {
   const a = e.a, b = e.b;
   if (e.ph === 'wind') {
-    const dx = b.x - a.x, dy = b.y - a.y, d = Math.hypot(dx, dy) || 1e-6, ang = Math.atan2(dy, dx); turnTo(a, ang, dt, 1.5); turnTo(b, ang + Math.PI, dt, 1);
+    const dx = b.x - a.x, dy = b.y - a.y, d = Math.hypot(dx, dy) || 1e-6, ang = Math.atan2(dy, dx); turnTo(a, ang, dt, 1.5); if (!a.swift) turnTo(b, ang + Math.PI, dt, 1);   // nobody turns to face what he has not seen
     if (!a.rng) { a.x += dx / d * a.walk * 0.25 * dt; a.y += dy / d * a.walk * 0.25 * dt; }
     if ((e.t -= dt * (a.swift || b.swift ? 4 : 1)) <= 0) startGo(B, e);        // nobody gets long to square up to one who moves like that
   } else if (e.ph === 'go') {
@@ -403,7 +419,8 @@ function runEx(B, e, dt) {
       const contact = d < ext(o, ang + Math.PI) + (m.hum ? m.reach : m.len * 0.42); done = e.shot ? contact || d < Math.max(5, 0.55 * e.d0) || e.t > 1.2 : contact || e.t > 5;
     } else done = e.t >= e.at;
     if (done) { land(B, e); e.ph = 'clash'; e.t = (a.swift || b.swift ? 0.15 : 0.45) / B.tempo; }
-  } else if ((e.t -= dt) <= 0) { a.busy = b.busy = null; B.ex.splice(B.ex.indexOf(e), 1); }
+  } else if ((e.t -= dt) <= 0) { for (const u of [a, b]) if (u.swift && u.hp > 1e-9) dart(B, u);
+    a.busy = b.busy = null; B.ex.splice(B.ex.indexOf(e), 1); }
 }
 function step(B, dt) {
   B.t += dt; const kd = Math.pow(0.02, dt);
@@ -763,6 +780,10 @@ if (typeof document !== 'undefined' && DATA) (function () {
     const f = u.t.ref, wp = f.show || f.weapon, g = GEAR[u.team], look = LOOKS[f.look] || {}, skin = f.skin, bk = f.bulk || 1;
     if (look.shade && shade(u)) return;
     ctx.save(); ctx.translate(X(u.x), Y(u.y)); ctx.rotate(u.h); ctx.scale(PX * u.sc, PX * u.sc);
+    if (u.hp <= 1e-9 && u.cut) {    // cut in two: he stands a moment, then the upper half slides off the lower
+      const now = performance.now(), sl = clamp((now - (u.cutAt || (u.cutAt = now)) - 350) / 700, 0, 1), c = look.down || g.down; ctx.globalAlpha = 0.75 + 0.25 * (1 - sl);
+      if (sl <= 0) { E(0, 0, 0.2 * bk, 0.34 * bk, look.body || g.tunic); E(0.02, 0, 0.14, 0.14, skin || '#3a2c20'); ctx.strokeStyle = '#7a0d0a'; ctx.lineWidth = 0.035; ctx.beginPath(); ctx.moveTo(-0.22, -0.36); ctx.lineTo(0.22, 0.36); ctx.stroke(); ctx.restore(); return; }
+      ctx.rotate(1.2); E(-0.42, 0, 0.4, 0.26 * bk, c); E(0.12 + 0.7 * sl, 0.45 * sl, 0.36, 0.26 * bk, c); E(0.6 + 0.7 * sl, 0.45 * sl, 0.14, 0.14, skin || c); E(-0.02 + 0.2 * sl, 0.12 * sl, 0.1 + 0.12 * sl, 0.12 + 0.1 * sl, '#7a0d0a'); ctx.restore(); return; }
     if (u.hp <= 1e-9) { ctx.globalAlpha = 0.75; ctx.rotate(1.2); E(0, 0, 0.8, 0.26 * bk, look.down || g.down); E(0.85, 0, 0.14, 0.14, skin || g.down); ctx.restore(); return; }
     const th = u.lunge * 0.5, modern = /body armour/.test(f.armour); ctx.lineCap = 'round';
     if (look.cape) { ctx.fillStyle = look.cape; ctx.beginPath(); ctx.moveTo(0, -0.31 * bk); ctx.quadraticCurveTo(-0.75, 0, 0, 0.31 * bk); ctx.fill(); }
