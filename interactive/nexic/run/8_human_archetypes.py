@@ -422,8 +422,8 @@ def main():
                              for o, (lab, pl, kg, L, shp, coat, bc, dark, acc) in beasts.items()])
         page = open(ARENA, encoding='utf-8').read(); a, b = page.find('/*DATA*/'), page.find('/*END DATA*/')
         if 0 <= a < b: open(ARENA, 'w', encoding='utf-8').write(page[:a] + '/*DATA*/const DATA = ' + json.dumps(data, separators=(',', ':')) + ';' + page[b:]); print('refreshed ../arena.html')
-        if os.path.exists('10_rotg_arena.py') and os.path.exists('rotg_characters.json'):   # a private, themed copy of the page, if this checkout has one
-            import subprocess, sys; subprocess.run([sys.executable, '10_rotg_arena.py'], check=False)
+        if os.path.exists('10_characters.py'):   # the page's named characters (and, in a checkout that has one, its private themed copy)
+            import subprocess, sys; sys.stdout.flush(); subprocess.run([sys.executable, '10_characters.py'], check=False)
     print(TT[['cls', 'authors_rescaled', 'score', 'score_p05', 'score_p95', 'duel_elo']].to_string(index=False, float_format=lambda v: f'{v:,.1f}'))
     print(f"measured on the scale: spear x{np.exp(spear[0]):.2f} (log {spear[0]:.2f} ± {spear[1]:.2f}), club x{np.exp(club[0]):.2f}, female x{np.exp(female[0]):.2f}, "
           f"group exponent {k_hat:.2f} ± {k_se:.2f} over {len(G)} group entries, mass exponent {b_scale:.2f}")

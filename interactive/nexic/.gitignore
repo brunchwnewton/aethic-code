@@ -71,3 +71,6 @@
 !/run/outputs/humans_vs_raptors.csv
 !/run/outputs/human_model.json
 !/arena.html
+!/run/outputs/titan_classes.csv
+!/run/10_characters.py
+!/run/characters.json

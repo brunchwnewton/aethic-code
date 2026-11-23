@@ -1,0 +1,84 @@
+{
+ "_about": "The named characters on the arena page, built into it by 10_characters.py; who they are is left to the story. figure: the author's strength on the scale of his first Titan table (Titan Warrior 0.3885, Alaarn Warrior 4.03, Ascendent 14.76); read, as the school ladder is, as odds in a duel against a plain Titan Warrior. carry: how much of that carries over against animals (a school's swordsmanship: 0.5; all of it: 1). body: the row of titan_classes.csv a blow on him is set against, since his power is not toughness. strike: how many times harder his blows land in the staging. swift: how many times a man's speed. look: how he is drawn. elusive: he cannot be surrounded, so a group meets him one at a time and its numbers count far less. nimble: against him an animal's score is multiplied by (80 kg / its mass) to this power, because a big animal cannot catch what it cannot track (1.0 was set so that he beats a T. rex about nineteen times in twenty). tactics: real log-odds added to every engagement for always striking from where they are not looking (3.2 is about 25 to 1; it was set so that ten Alaarn Warriors kill him less than once in a thousand).",
+ "characters": [
+  {
+   "name": "Dark Flames",
+   "figure": 515,
+   "carry": 1.0,
+   "body": "Human Warrior, elite (1.75 m, 75 kg)",
+   "mass": 81.2,
+   "weapon": "sword",
+   "strike": 4,
+   "swift": 5,
+   "look": "shade",
+   "elusive": true,
+   "nimble": 1.0,
+   "tactics": 3.2,
+   "note": "who he is is left to the story"
+  }
+ ],
+ "setups": [
+  [
+   "Dark Flames against ten Alaarn Warriors, spread out",
+   "a-1fdz4z-v-10tun74-s"
+  ],
+  [
+   "Dark Flames with a hundred Romans and ten Alaarn Warriors against twenty Wolfpacks",
+   "w-1fdz4z-100r8lbz-10fun74-v-20rb5gz-d45"
+  ],
+  [
+   "Dark Flames against four Alaarn Warriors",
+   [
+    [
+     [
+      "Dark Flames",
+      1
+     ]
+    ],
+    [
+     [
+      "Alaarn Warrior",
+      4,
+      "l"
+     ]
+    ]
+   ]
+  ],
+  [
+   "Dark Flames against an Ascendent",
+   [
+    [
+     [
+      "Dark Flames",
+      1
+     ]
+    ],
+    [
+     [
+      "Ascendent",
+      1,
+      "t"
+     ]
+    ]
+   ]
+  ],
+  [
+   "Dark Flames against twelve Veteran Wolfpacks",
+   [
+    [
+     [
+      "Dark Flames",
+      1
+     ]
+    ],
+    [
+     [
+      "Veteran Wolfpacks",
+      12,
+      "t"
+     ]
+    ]
+   ]
+  ]
+ ]
+}
