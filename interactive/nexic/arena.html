@@ -233,16 +233,22 @@ function mkFight(sd, st) {
     const P = 1 / (1 + Math.exp(-(kinds[i].ls - kinds[j].ls) / st.sc)), q = clamp(solveQ(clamp(P, 1e-9, 1 - 1e-9), hits[i][j], hits[j][i]), 1e-7, 1 - 1e-7);
     lq[i][j] = Math.log(q / (1 - q)); lq[j][i] = -lq[i][j];
   }
-  return { T, kinds, units, tot, f, lq, hits, k: st.k };
+  const sw = kinds.map(kd => (kd.t.human && kd.t.ref.swift) || 0); return { T, kinds, units, tot, f, lq, hits, k: st.k, sw, hasSwift: sw.some(v => v) };
 }
 // One fight. A random fighter of a random side goes for a random enemy; one of the two is hit; a side is out when its last fighter is down.
 function simulate(F, lam, rec) {
   const U = F.units, n = U.length, T = F.T, hp = new Float64Array(n).fill(1), alive = [], downW = new Float64Array(T), downs = new Array(T).fill(0), ev = rec ? [] : null, teams = []; let n2 = 0;
   for (let t = 0; t < T; t++) { alive.push([]); teams.push(t); }
   for (let i = 0; i < n; i++) alive[U[i].team].push(i);
+  // The swift are in far more of a side's exchanges than one fighter among many would be (fifteen times), and they choose their man: of four
+  // enemies taken at random, the strongest. (Which of those stands nearest is settled on the sand.)
+  const pick = L => { if (!F.hasSwift) return (Math.random() * L.length) | 0; for (;;) { const q = (Math.random() * L.length) | 0; if (F.sw[U[L[q]].kind] || Math.random() < 1 / 15) return q; } };
+  const best = L => { let q = (Math.random() * L.length) | 0; for (let i = 0; i < 3; i++) { const r = (Math.random() * L.length) | 0; if (U[L[r]].wt > U[L[q]].wt) q = r; } return q; };
   while (teams.length > 1) {
     const ia = (Math.random() * teams.length) | 0; let ib = (Math.random() * (teams.length - 1)) | 0; if (ib >= ia) ib++;
-    const ta = teams[ia], tb = teams[ib], A = alive[ta], Bv = alive[tb], pa = (Math.random() * A.length) | 0, pb = (Math.random() * Bv.length) | 0, a = A[pa], b = Bv[pb], ka = U[a].kind, kb = U[b].kind;
+    const ta = teams[ia], tb = teams[ib], A = alive[ta], Bv = alive[tb]; let pa = pick(A), pb = pick(Bv);
+    if (F.hasSwift) { const sa = F.sw[U[A[pa]].kind], sb = F.sw[U[Bv[pb]].kind]; if (sa && !sb) pb = best(Bv); else if (sb && !sa) pa = best(A); }
+    const a = A[pa], b = Bv[pb], ka = U[a].kind, kb = U[b].kind;
     const aHits = Math.random() < 1 / (1 + Math.exp(-(F.lq[ka][kb] + lam[ta] - lam[tb]))), v = aHits ? b : a, tv = aHits ? tb : ta, dmg = aHits ? F.f[ka][kb] : F.f[kb][ka], hpa = hp[a], hpb = hp[b];
     hp[v] -= dmg; let broke = -1;
     if (hp[v] <= 1e-9) {
