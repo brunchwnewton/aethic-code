@@ -200,7 +200,7 @@ HEIGHT = {k: TALL[(v[7], v[0])] for k, v in TITANS.items()}; HEIGHT['Human Warri
 # On the arena page a fighter is a training, arms and armour, and the body under them is a human's, a Titan's or an Alaarn's. Step 8 gives every
 # archetype its numbers on each body (race_delta in main), so "Titan Warrior" there is the plain warrior below on a Titan's body, and a Titan
 # legionary or a Titan gun crew come the same way. CLASSES exist only on that page, at the human reference body:
-ROTG_GROUP = 'ROTG Titan schools (fantasy)'
+ROTG_GROUP = 'ROTG titles and schools (fantasy)'
 CLASSES = {
     'Untrained woman with a spear': ('f', 58, 'spear', 'novice', 'beast', 'none', ''),
     'Roman veles, light spear and parma': ('m', 66, 'spear + small shield', 'competent', 'duellist', 'none', 'the skirmishers of the manipular legion; their javelins are not modelled'),
@@ -208,12 +208,13 @@ CLASSES = {
     'Roman triarius, hasta and scutum': ('m', 68, 'spear + shield', 'elite (armed)', 'duellist', 'mail or plates with helmet', 'the third line: the veterans. (The second line, the principes, is the legionary above.)'),
     'Warrior, spear or sword with shield': ('m', 70, KIT[0], 'professional (armed)', 'duellist', KIT[1], "the story's plain warrior"),
     'Woman warrior, spear or sword with shield': ('f', 58, KIT[0], 'professional (armed)', 'duellist', KIT[1], ''),
+    'class: Alaarn Warrior': ('m', 70, KIT[0], 'professional (armed)', 'duellist', KIT[1], 'a title: the plain warrior, at home on an Alaarn'),
     **{'class: ' + s: ('m', 70, KIT[0], s, 'duellist', KIT[1], 'a Titan training school') for s in LADDER}}     # (the Titans of each school are in TITANS under the plain name)
 # how they are listed and drawn there: group, native race (the page's letter), the weapon as drawn, a look. The looks are for the eye only:
 # the Wolfpacks in black like assassins (the author's), the Adamantine Guard in bright steel behind large shields and the rest are guesses.
 LOOK = lambda s: (dict(show='twin swords', look='wolf') if 'Wolfpacks' in s else dict(show='spear + large shield', look='adamant') if 'Adamantine' in s else dict(show='spear + shield', look='gold'))
 PAGE = {'Warrior, spear or sword with shield': dict(show='spear + shield'), 'Woman warrior, spear or sword with shield': dict(show='spear + shield'),
-        **{'class: ' + s: dict(group=ROTG_GROUP, native='t', **LOOK(s)) for s in LADDER}}
+        'class: Alaarn Warrior': dict(group=ROTG_GROUP, native='l', show='spear + shield'), **{'class: ' + s: dict(group=ROTG_GROUP, native='t', **LOOK(s)) for s in LADDER}}
 RACES = {'t': 'Titan', 'l': 'Alaarn'}                                  # the page's letter for each race (a human is 'f')
 SKIN = {'Titan': '#ab81e4', 'Alaarn': '#3e3748'}                       # the author's
 STOP = {'Titan': 0.7, 'Alaarn': 0.8}                                   # D. page's gun fights: the energy that stops one, as a share of an animal's of its weight (a human: 0.4)
