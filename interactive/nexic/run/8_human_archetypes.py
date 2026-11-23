@@ -207,6 +207,10 @@ CLASSES = {
     'Roman veles, light spear and parma': ('m', 66, 'spear + small shield', 'competent', 'duellist', 'none', 'the skirmishers of the manipular legion; their javelins are not modelled'),
     'Roman hastatus, gladius and scutum': ('m', 68, 'sword + large shield', 'competent', 'duellist', 'mail or plates with helmet', 'the first line: the younger men'),
     'Roman triarius, hasta and scutum': ('m', 68, 'spear + shield', 'elite (armed)', 'duellist', 'mail or plates with helmet', 'the third line: the veterans. (The second line, the principes, is the legionary above.)'),
+    'Greek peltast, light spear and pelte': ('m', 66, 'spear + small shield', 'competent', 'duellist', 'none', 'the light troops beside a phalanx; their javelins are not modelled'),
+    'Spartiate, dory and aspis': ('m', 72, 'spear + shield', 'elite (armed)', 'duellist', 'mail or plates with helmet', 'the picked men of a phalanx'),
+    'Viking bondi, spear and shield': ('m', 74, 'spear + shield', 'competent', 'duellist', 'helmet and guards', 'the farmers of the levy, most of a warband'),
+    'Viking berserker, Dane axe': ('m', 85, 'pike or polearm', 'elite (armed)', 'duellist', 'none', 'a two-handed axe and no armour'),
     'Warrior, spear or sword with shield': ('m', 70, KIT[0], 'professional (armed)', 'duellist', KIT[1], "the story's plain warrior"),
     'Woman warrior, spear or sword with shield': ('f', 58, KIT[0], 'professional (armed)', 'duellist', KIT[1], ''),
     'class: Alaarn Warrior': ('m', 70, ALAARN_ARMS, 'professional (armed)', 'duellist', ALAARN_ARMOUR, 'a title: the plain warrior, at home on an Alaarn'),
@@ -243,7 +247,29 @@ ANIMALS = {     # for the arena page: (label, plural, kg, body length m, shape, 
     'Ceratosaurus nasicornis': ('Ceratosaurus', 'Ceratosaurus', 700, 6.0, 'rex', 'horn', '#7a4a34', '#4f2f22', '#d8c9a8'),
     'Carnotaurus sastrei': ('Carnotaurus', 'Carnotaurus', 1500, 8.0, 'rex', 'horns', '#7d4b3a', '#52302a', '#d8c9a8'),
     'Allosaurus fragilis': ('Allosaurus', 'Allosaurus', 1700, 8.5, 'rex', 'crest', '#5e5a44', '#3e3b2c', '#a8452c'),
-    'Tyrannosaurus rex': ('T. rex', 'T. rexes', 8000, 12.3, 'rex', '', '#55603f', '#3c452c', '#e8c14a')}
+    'Tyrannosaurus rex': ('T. rex', 'T. rexes', 8000, 12.3, 'rex', '', '#55603f', '#3c452c', '#e8c14a'),
+    'Giganotosaurus carolinii': ('Giganotosaurus', 'Giganotosaurus', 7500, 12.5, 'rex', '', '#6a5a40', '#43382a', '#b8552e'),
+    'Spinosaurus aegyptiacus': ('Spinosaurus', 'Spinosaurus', 7000, 14.0, 'rex', 'crest', '#4f6068', '#333f45', '#c9772e'),
+    'Therizinosaurus cheloniformis': ('Therizinosaurus', 'Therizinosaurus', 5000, 9.0, 'rex', '', '#6b6248', '#443e2e', '#d8c9a8'),
+    'Stegosaurus stenops': ('Stegosaurus', 'Stegosaurus', 3500, 6.5, 'hoof', '', '#5f6a46', '#3e452e', '#b8552e'),
+    'Triceratops horridus': ('Triceratops', 'Triceratops', 9000, 8.5, 'hoof', '', '#6f6450', '#474034', '#e8dcc0'),
+    'Ankylosaurus magniventris': ('Ankylosaurus', 'Ankylosaurus', 6000, 7.0, 'hoof', '', '#6a5d48', '#3f372b', '#a08a66'),
+    'Apatosaurus ajax': ('Apatosaurus', 'Apatosaurus', 22000, 21.0, 'hoof', '', '#7a7466', '#4e4a40', '#a39c8a'),
+    'Hatzegopteryx thambema': ('Hatzegopteryx', 'Hatzegopteryx', 250, 5.0, 'bird', '', '#8a7a62', '#4a4034', '#d9b44a')}
+EXTINCT = {     # a few from before and after the dinosaurs, for the intrigue; same fields, then the era and whether it is a sauropsid. Masses and lengths are round figures.
+    'Dimetrodon grandis': ('Dimetrodon', 'Dimetrodons', 250, 3.2, 'dog', '', '#6b5a3c', '#3f3524', '#b5532e', 'Permian', False),
+    'Inostrancevia alexandri': ('Inostrancevia', 'Inostrancevias', 300, 3.5, 'cat', '', '#7a6a55', '#4a3f32', '#d8c9a8', 'Permian', False),
+    'Estemmenosuchus uralensis': ('Estemmenosuchus', 'Estemmenosuchus', 450, 3.0, 'hoof', '', '#6f6a5a', '#47443a', '#c9b98a', 'Permian', False),
+    'Anteosaurus magnificus': ('Anteosaurus', 'Anteosaurus', 600, 5.0, 'bear', '', '#5c5142', '#3a332a', '#a88f6a', 'Permian', False),
+    'Smilodon populator': ('Smilodon', 'Smilodons', 350, 2.6, 'cat', '', '#b08a55', '#5e4426', '#e8dcc0', 'Cenozoic', False),
+    'Arctodus simus': ('Short-faced Bear', 'Short-faced Bears', 800, 3.0, 'bear', '', '#5a4632', '#3a2c20', '#6e5840', 'Cenozoic', False),
+    'Andrewsarchus mongoliensis': ('Andrewsarchus', 'Andrewsarchus', 800, 3.4, 'dog', '', '#8a7558', '#52452f', '#c9b48a', 'Cenozoic', False),
+    'Daeodon shoshonensis': ('Daeodon', 'Daeodons', 600, 3.2, 'hoof', '', '#5f4a3a', '#3b2e24', '#bfa98a', 'Cenozoic', False),
+    'Megatherium americanum': ('Megatherium', 'Megatheriums', 3800, 6.0, 'bear', '', '#7a6448', '#4c3e2c', '#a08a66', 'Cenozoic', False),
+    'Woolly Mammoth': ('Woolly Mammoth', 'Woolly Mammoths', 5000, 5.5, 'elephant', '', '#5e4632', '#3a2a1e', '#efe6cf', 'Cenozoic', False),
+    'Paraceratherium spp.': ('Paraceratherium', 'Paraceratheriums', 15000, 7.4, 'hoof', '', '#8a8274', '#5a544a', '#b5ad9c', 'Cenozoic', False),
+    'Megalania prisca': ('Megalania', 'Megalanias', 600, 5.5, 'dog', '', '#5d5a3e', '#3a3826', '#8f8a5a', 'Cenozoic', True),
+    'Kelenken guillermoi': ('Kelenken (terror bird)', 'Kelenkens', 230, 2.2, 'raptor', '', '#6a5a48', '#3c332a', '#d9b44a', 'Cenozoic', True)}
 COMPANIONS = {  # animals that fight beside people; same fields
     'German Shepherd': ('German Shepherd', 'German Shepherds', 35, 1.1, 'dog', '', '#9a7440', '#2e2620', '#c9a56a'),
     'Belgian Malinois': ('Belgian Malinois', 'Belgian Malinois', 28, 1.0, 'dog', '', '#b78a4a', '#2a211a', '#d4ad72'),
@@ -413,11 +439,12 @@ def main():
         races = {letter: dict(name=r, skin=SKIN[r], scale=DRAWN[r][0], bulk=DRAWN[r][1], stop=STOP[r], haul=round(float(force(r)), 2),   # haul: how much faster a crew swings its gun round
                               bow=round(float(force(r) * RACE_BODY[r]['m'][1] / REF_HEIGHT['m']), 2)) for letter, r in RACES.items()}             # bow: an arrow's energy, draw weight x draw length
         on_page = sorted(names + list(CLASSES), key=lambda a: (2, list(CLASSES).index(a)) if PAGE.get(a, {}).get('group') else (int(ALL[a][2] in RANGED), -float(np.median(logs[a]))))
-        beasts = {**ANIMALS, **COMPANIONS}
+        beasts = {**ANIMALS, **COMPANIONS, **{k: v[:9] for k, v in EXTINCT.items()}}
         data = dict(k=k_hat, k_sd=K_SD, gamma=GAMMA[0], gamma_sd=GAMMA[1], cross=CROSS[0], arm_vs_guns=ARMOUR_VS_GUNS, races=races,
                     fighters=[fighter(a) for a in on_page],
-                    animals=[dict(name=o, label=lab, plural=pl, kg=kg, length=L, shape=shp, coat=coat, body=bc, dark=dark, accent=acc, comp=o in COMPANIONS, mu=float(np.log(B.score[o])), sd=float(B.se_log[o]),
-                                  dino=bool(B['class'][o] == 'dinosaur'), dmu=float(np.log(B.full_p50[o] / B.score[o])),
+                    animals=[dict(name=o, label=lab, plural=pl, kg=kg, length=L, shape=shp, coat=coat, body=bc, dark=dark, accent=acc, comp=o in COMPANIONS, era=EXTINCT[o][9] if o in EXTINCT else None, saur=bool(o in EXTINCT and EXTINCT[o][10]), mu=float(np.log(B.score[o])), sd=float(B.se_log[o]),
+                                  dino=bool(B.full_p50[o] / B.score[o] > 1.01),   # whatever the anatomy factor of step 6 applies to: the dinosaurs, and the one pterosaur
+                                  dmu=float(np.log(B.full_p50[o] / B.score[o])),
                                   dsd=float(np.sqrt(max((np.log(B.full_p95[o] / B.full_p05[o]) / 3.29)**2 - B.se_log[o]**2, 0.0))))
                              for o, (lab, pl, kg, L, shp, coat, bc, dark, acc) in beasts.items()])
         page = open(ARENA, encoding='utf-8').read(); a, b = page.find('/*DATA*/'), page.find('/*END DATA*/')
