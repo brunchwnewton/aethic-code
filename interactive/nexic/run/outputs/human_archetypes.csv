@@ -17,6 +17,7 @@ Soldier with a rocket launcher (RPG-7),m,80,rocket launcher,professional (armed)
 "Greek hoplite, dory and aspis",m,68,spear + shield,professional (armed),mail or plates with helmet,128.7,47.23,362.1,1.287,2726,2212,3434,,1,0,D,
 "Police officer, 9 mm pistol",m,85,9 mm pistol,competent,body armour and helmet,118.5,65.01,212.4,1.185,2783,2329,3481,150,1,0,D,
 English longbowman,m,72,longbow,professional (armed),helmet and guards,116.6,52.55,283.9,1.166,2622,2111,3340,36,1,0,D,
+Gun crewman with a pistol,m,75,9 mm pistol,competent,none,103,57.79,180.1,1.03,2585,2155,3266,150,1,0,D,what a gun crew becomes on the arena page when it leaves its gun
 "Musketeer, flintlock and bayonet",m,68,flintlock musket,professional (armed),none,101.8,48.95,233.3,1.018,2594,2100,3300,43,1,0,D,
 "Knight on foot, longsword, full plate",m,78,two-handed sword,professional (armed),full plate,98.58,31.58,326.6,0.9858,2909,2340,3663,,1,0,D,
 "Gladiator, hoplomachus",m,76,spear + small shield,professional (armed),helmet and guards,96.91,38.3,261.4,0.9691,2561,2074,3265,,1,0,D,

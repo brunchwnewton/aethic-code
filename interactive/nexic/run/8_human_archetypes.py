@@ -2,7 +2,8 @@
 """Step 8 — human archetypes on the scale, and n fighters against a raptor (new; exploratory, not part of the paper).
 
 Usage:  python3 8_human_archetypes.py      reads ../final_scores.csv (and outputs/graph/summary.json for the mass exponent)
-        -> outputs/human_archetypes.csv, outputs/human_duel_matrix.csv, outputs/humans_vs_raptors.csv, outputs/human_model.json
+        -> outputs/human_archetypes.csv, outputs/human_duel_matrix.csv, outputs/humans_vs_raptors.csv, outputs/human_model.json,
+           outputs/titan_classes.csv (a fantasy race, placed by the same rules; see TITANS)
            and, when ../arena.html exists, the data block of that page (fighters, animals, group exponent)
 
 Each archetype gets two numbers, because one cannot do both jobs.
@@ -84,6 +85,15 @@ RANGED = {                  # weapon: (lethality index, listed by Dupuy, duel lo
     'field gun': (386530, True, (7.0, 1.2), 'shell', 30, 6, 3.6), 'howitzer': (657215, True, (7.2, 1.2), 'shell', 30, 7, 4.2),
     'tank gun': (575000, True, (12.0, 1.5), 'shell', 30, 5, 6.0)}   # WWII medium tank as one reprint of Dupuy's table has it; another gives 935,458
 GUNS = set(RANGED) - {'longbow'}
+# For the arena page only, which simulates fights with bows and guns outright instead of scoring them. Stated assumptions:
+# weapon: (rounds a second, muzzle energy J (None: explosive), chance to hit a man-sized target inside the next range for a practised
+#          user under stress, that range m, reach m, how fast a crewed piece can be swung round rad/s, rounds before reloading, seconds to reload)
+SIM = {'longbow': (0.17, 400, 0.35, 30, 150, None, 0, 0), 'flintlock musket': (0.05, 3000, 0.30, 40, 100, None, 0, 0), '9 mm pistol': (2.0, 500, 0.30, 12, 50, None, 15, 2.5),
+       '.44 Magnum revolver': (1.0, 1400, 0.35, 15, 60, None, 6, 5), '12-gauge shotgun': (0.8, 3500, 0.55, 30, 100, None, 6, 7), 'bolt-action rifle': (0.4, 3800, 0.60, 80, 400, None, 5, 5),
+       'double rifle': (1.5, 6900, 0.60, 50, 150, None, 2, 4), 'assault rifle': (3.0, 1750, 0.40, 60, 400, None, 30, 3), '.50 rifle': (0.3, 18000, 0.60, 150, 1000, None, 10, 6),
+       'rocket launcher': (0.1, None, 0.50, 60, 300, None, 0, 0), 'machine gun': (10.0, 3400, 0.12, 80, 800, None, 200, 8), 'heavy machine gun': (8.0, 18000, 0.12, 100, 1500, 0.8, 100, 8),
+       'field gun': (0.25, None, 0.75, 150, 2000, 0.12, 0, 0), 'howitzer': (0.12, None, 0.70, 150, 2000, 0.10, 0, 0), 'tank gun': (0.2, None, 0.75, 150, 2000, 0.42, 0, 0)}
+SIM_SKILL = {'novice': 0.5, 'competent': 1.0, 'professional (armed)': 1.3, 'elite (armed)': 1.6}   # multiplies the chance to hit
 SPEAR_PAIRS = [('Neanderthal (armed with a spear)', 'Neanderthal'), ('Neanderthal (with spear)', 'Neanderthal'), ('Homo erectus (armed with spear)', 'Homo erectus'),
                ('Archaic Human (armed with spear)', 'Archaic Human'), ('Homo floresiensis (armed with a spear)', 'Homo floresiensis')]
 CLUB_PAIRS = [('Homo floresiensis (Armed with club)', 'Homo floresiensis')]
@@ -140,7 +150,55 @@ ARCHETYPES = {
     'Field gun crew, 75 mm (6 men)': ('m', 75, 'field gun', 'professional (armed)', 'ranged', 'none', 'the French 75'),
     'Howitzer crew, 105 mm (7 men)': ('m', 75, 'howitzer', 'professional (armed)', 'ranged', 'none', ''),
     'Medium tank, 75 mm gun (crew of 5)': ('m', 75, 'tank gun', 'professional (armed)', 'ranged', 'tank armour', 'a Second World War medium'),
+    'Gun crewman with a pistol': ('m', 75, '9 mm pistol', 'competent', 'ranged', 'none', 'what a gun crew becomes on the arena page when it leaves its gun'),
 }
+# ---- a fantasy race, for the author's story ROTG: Titans, about twice a human's mass and built for it. Placed by the rules above. ----
+BUILD = {'Titan': (1.54, 0.25), 'Alaarn': (1.54 * 1.25, 0.25)}   # D. strength over a human of the same mass: between a Neanderthal's on this scale (1.25) and a gorilla's (1.9).
+#   Alaarn are "the Neanderthals of the Titans": the Titan's build times the premium the Neanderthal has over a human of its mass on this scale.
+#   It is a body made for its size, so it counts in full with a weapon in hand (unlike mass, which a weapon halves).
+REACH = {'unarmed': (3.0, 1.5), 'armed': (4.0, 2.0)}       # real log-odds per log of height. Unarmed: UFC fighters giving away 7 inches of reach or more win 37% (about
+#   3 per log of reach; another study of 2,229 bouts finds almost nothing). Armed: D, set above the unarmed value. Among fighters of like size it is small; a Titan has a third more.
+REF_HEIGHT = {'m': 1.70, 'f': 1.60}                        # the height that goes with the reference masses
+LADDER = {'New Adamantine Guard': 1.605, 'Mid Adamantine Guard': 6.956, 'Veteran Adamantine Guard': 16.05, 'New Wolfpacks': 17.58, 'Veteran Wolfpacks': 30.86, 'Ascendent': 37.99}
+#   the author's ladder of training schools, as ratios to a Titan Warrior; read here as odds in a duel between two Titans (skill belongs there; little of it carries to animals)
+SCHOOL = {s: (2.3 + np.log(r), 1.0) for s, r in LADDER.items()}        # real log-odds over a habitual user; the plain warrior is 'professional (armed)', 2.3
+KIT = ("warrior's arms", "warrior's armour")                           # a generic warrior: midway between spear and sword with a shield; between helmet and mail
+T_M, T_F, H_M, H_F = 132.1, 117.7, 65.6, 56.2                          # kg: the author's Titans and humans
+THICK, SHORT = 1.21, 0.96                                              # an Alaarn against a Titan, as a Neanderthal against a human. Heavier at equal height: Neanderthal men, 78-83 kg
+A_M, A_F = T_M * THICK * SHORT**2.5, T_F * THICK * SHORT**2.5          #   at 164-168 cm, against this story's humans (65.6 kg at 1.651 m), mass going as height^2.5. And a little shorter.
+#   (The one Alaarn with a known weight, Bear of the Woods, 335 kg at 2.855 m, is their greatest warrior and far out on the tail; his build index is 1.30 times the average Titan's.)
+TALL = {('Titan', 'm'): 2.184, ('Titan', 'f'): 2.081, ('Alaarn', 'm'): 2.184 * SHORT, ('Alaarn', 'f'): 2.081 * SHORT, (None, 'm'): 1.651, (None, 'f'): 1.55}   # m
+TITANS = {  # name: (sex, mass, weapon, skill, carry-over, armour, note, race or None, the author's own figure or None: it has no scale, only its ratios mean anything)
+    'Unarmed Male Human': ('m', H_M, None, 'untrained', 'unarmed', 'none', '', None, 0.003608),
+    'Unarmed Female Human': ('f', H_F, None, 'untrained', 'unarmed', 'none', '', None, 0.00056),
+    'Male Human': ('m', H_M, 'spear', 'novice', 'beast', 'none', 'armed, untrained', None, 0.0472),
+    'Female Human': ('f', H_F, 'spear', 'novice', 'beast', 'none', 'armed, untrained', None, 0.001985014338),
+    'Human Warrior': ('m', H_M, KIT[0], 'professional (armed)', 'duellist', KIT[1], '', None, 0.1816651865),
+    'Female Human Warrior': ('f', H_F, KIT[0], 'professional (armed)', 'duellist', KIT[1], '', None, 0.02940512765),
+    'Human Warrior, elite (1.75 m, 75 kg)': ('m', 75, KIT[0], 'elite (armed)', 'duellist', KIT[1], 'for comparison: a veteran soldier', None, None),
+    'Human Warrior, a giant (2.18 m, 132 kg)': ('m', T_M, KIT[0], 'professional (armed)', 'duellist', KIT[1], 'for comparison: a human at a Titan\'s size, without the Titan\'s build', None, None),
+    'Unarmed Male Titan': ('m', T_M, None, 'untrained', 'unarmed', 'none', '', 'Titan', 0.011448),
+    'Unarmed Female Titan': ('f', T_F, None, 'untrained', 'unarmed', 'none', '', 'Titan', 0.001888),
+    'Male Titan': ('m', T_M, 'spear', 'novice', 'beast', 'none', 'armed, untrained', 'Titan', 0.3032),
+    'Female Titan': ('f', T_F, 'spear', 'novice', 'beast', 'none', 'armed, untrained', 'Titan', 0.056184),
+    'Titan Warrior': ('m', T_M, KIT[0], 'professional (armed)', 'duellist', KIT[1], '', 'Titan', 0.3884808165),
+    'Female Titan Warrior': ('f', T_F, KIT[0], 'professional (armed)', 'duellist', KIT[1], '', 'Titan', 0.07198682782),
+    'New Adamantine Guard': ('m', T_M, KIT[0], 'New Adamantine Guard', 'duellist', KIT[1], 'a training school', 'Titan', 0.6235647135),
+    'Mid Adamantine Guard': ('m', T_M, KIT[0], 'Mid Adamantine Guard', 'duellist', KIT[1], 'a training school', 'Titan', 2.702113759),
+    'Veteran Adamantine Guard': ('m', T_M, KIT[0], 'Veteran Adamantine Guard', 'duellist', KIT[1], 'a training school', 'Titan', 6.235647135),
+    'New Wolfpacks': ('m', T_M, KIT[0], 'New Wolfpacks', 'duellist', KIT[1], 'a training school', 'Titan', 6.830112162),
+    'Veteran Wolfpacks': ('m', T_M, KIT[0], 'Veteran Wolfpacks', 'duellist', KIT[1], 'a training school', 'Titan', 11.98907089),
+    'Ascendent': ('m', T_M, KIT[0], 'Ascendent', 'duellist', KIT[1], 'a training school', 'Titan', 14.75769822),
+    'Unarmed Male Alaarn': ('m', A_M, None, 'untrained', 'unarmed', 'none', 'not in the author\'s table', 'Alaarn', None),
+    'Male Alaarn': ('m', A_M, 'spear', 'novice', 'beast', 'none', 'armed, untrained', 'Alaarn', 1.344128382),
+    'Female Alaarn': ('f', A_F, 'spear', 'novice', 'beast', 'none', 'armed, untrained', 'Alaarn', 0.2490715997),
+    'Alaarn Warrior': ('m', A_M, KIT[0], 'professional (armed)', 'duellist', KIT[1], '', 'Alaarn', 4.032385147),
+    'Female Alaarn Warrior': ('f', A_F, KIT[0], 'professional (armed)', 'duellist', KIT[1], '', 'Alaarn', 0.7472147992)}
+MEANS = {'Unarmed Human': ('Unarmed Male Human', 'Unarmed Female Human', 0.001392), 'Unarmed Titan': ('Unarmed Male Titan', 'Unarmed Female Titan', 0.0038),
+         'Alaarn': ('Male Alaarn', 'Female Alaarn', 0.5786053979)}     # the rows without a sex: the geometric mean of the two
+HEIGHT = {k: TALL[(v[7], v[0])] for k, v in TITANS.items()}; HEIGHT['Human Warrior, elite (1.75 m, 75 kg)'] = 1.75; HEIGHT['Human Warrior, a giant (2.18 m, 132 kg)'] = TALL[('Titan', 'm')]
+ON_PAGE = [k for k, v in TITANS.items() if v[7]]                       # the Titan and Alaarn rows go on the arena page, last in its lists
+DRAWN = {'Titan': (1.33, 1.0), 'Alaarn': (1.33 * SHORT, 1.25)}                 # height over a human's, and breadth over a Titan's, for the page
 VERSUS = ['Venator (arena hunter), hunting spear', 'Gladiator, murmillo', 'Gladiator, hoplomachus', 'Gladiator, retiarius', 'Hunter with a spear', 'Untrained man',
           'Hunter, bolt-action .30-06 rifle', 'Soldier, assault rifle', 'Machine gunner, belt-fed 7.62 mm']
 RAPTORS = ['Dakotaraptor steini', 'Utahraptor ostrommaysorum']
@@ -219,35 +277,55 @@ def main():
     try: b_scale = json.load(open('outputs/graph/summary.json'))['variants']['coupled']['weight_score']['fits']['mammals'][1]
     except (OSError, KeyError): b_scale = json.load(open('outputs/weight_score.json'))['fits']['mammals'][1]
     draw = lambda ms: rng.normal(ms[0], ms[1], n) if ms[1] > 0 else np.full(n, float(ms[0]))
-    rng2 = np.random.default_rng(SEED + 1); later = {'ranged', 'body armour and helmet', 'tank armour'}   # everything added with the firearms draws from its own
+    SKILL.update(SCHOOL); WEAPON[KIT[0]] = ((0.05, 0.3), (0.65, 0.5)); ARMOUR[KIT[1]] = ((0.3, 0.2), (1.0, 0.5)); OLD_ARMOUR.add(KIT[1])
+    rng2 = np.random.default_rng(SEED + 1); later = {'ranged', 'body armour and helmet', 'tank armour'}; rng3 = np.random.default_rng(SEED + 2); titan = {*SCHOOL, *KIT}   # everything added with the firearms draws from its own
     draw2 = lambda ms: rng2.normal(ms[0], ms[1], n) if ms[1] > 0 else np.full(n, float(ms[0]))            # stream, so that the earlier fighters keep their numbers
-    pick = lambda key: draw2 if key in later else draw
+    draw3 = lambda ms: rng3.normal(ms[0], ms[1], n) if ms[1] > 0 else np.full(n, float(ms[0]))            # (and the Titans a third)
+    pick = lambda key: draw3 if key in titan else draw2 if key in later else draw
     gamma = np.clip(draw(GAMMA), 0.15, 0.8); m_real = np.clip(draw(MASS_REAL), 0.5, 9); m_scale = draw((b_scale, MASS_SCALE_SD)); novice = np.clip(draw(NOVICE), 0.2, 1)
     human = draw((np.log(B.score['Human']), B.se_log['Human'])); fem = draw(female); sp = draw(spear[:2]); cl = draw((club[0], max(club[1], 0.4)))
-    skill = {s: draw(v) for s, v in SKILL.items()}; transfer = {t: np.clip(pick(t)(v), 0, 1) for t, v in TRANSFER.items()}
-    weapon = {w: draw(v[0]) for w, v in WEAPON.items()}; wpn_d = {w: draw(v[1]) for w, v in WEAPON.items()}; cross = np.clip(draw(CROSS), 0, 1); arm_b = {a: pick(a)(v[0]) for a, v in ARMOUR.items()}; arm_d = {a: pick(a)(v[1]) for a, v in ARMOUR.items()}
+    skill = {s: pick(s)(v) for s, v in SKILL.items()}; transfer = {t: np.clip(pick(t)(v), 0, 1) for t, v in TRANSFER.items()}
+    weapon = {w: pick(w)(v[0]) for w, v in WEAPON.items()}; wpn_d = {w: pick(w)(v[1]) for w, v in WEAPON.items()}; cross = np.clip(draw(CROSS), 0, 1); arm_b = {a: pick(a)(v[0]) for a, v in ARMOUR.items()}; arm_d = {a: pick(a)(v[1]) for a, v in ARMOUR.items()}
     # bows and firearms: the bear incidents fix how fast a weapon's premium grows with Dupuy's index
     tot = sum(BEAR['incidents'].values()); bear = sum(w / tot * rng2.normal(np.log(B.score[b]), B.se_log[b], n) for b, w in BEAR['incidents'].items())
     real = rng2.normal(np.log(BEAR['success'] / (1 - BEAR['success'])), np.hypot(BEAR['logit_sd'], BEAR['context_sd']), n)
     rifle = bear + gamma * real - human; beta = np.clip((rifle - sp) / np.log(TLI_RIFLE / TLI_HAND), 0.1, 1.2)   # rifle: log premium of the hunting rifle over the unarmed man
     rwl = {w: sp + beta * (np.log(v[0] / TLI_HAND) + (0.0 if w == 'bolt-action rifle' else rng2.normal(0, TLI_SD[v[1]], n))) for w, v in RANGED.items()}
     rwd = {w: draw2(v[2]) for w, v in RANGED.items()}; novice_gun = np.clip(draw2(NOVICE_GUN), 0.2, 1)
-    rows, logs, duel, usk, ask, arm, body, dbody = [], {}, {}, {}, {}, {}, {}, {}
-    for name, (sex, mass, wpn, sk, tr, armour, note) in ARCHETYPES.items():
+    rows, trows, logs, duel, usk, ask, arm, body, dbody = [], [], {}, {}, {}, {}, {}, {}, {}
+    bld = {r: rng3.normal(np.log(v[0]), v[1], n) for r, v in BUILD.items()}; reach = {r: np.clip(rng3.normal(v[0], v[1], n), 0, None) for r, v in REACH.items()}; ALL = {**{k: v + (None, None) for k, v in ARCHETYPES.items()}, **TITANS}
+    for name, (sex, mass, wpn, sk, tr, armour, note, race, authors) in ALL.items():
+        bl = bld[race] if race else 0.0                                                                # a Titan's build
+        rc = reach['armed' if wpn else 'unarmed'] * np.log(HEIGHT[name] / REF_HEIGHT[sex]) if name in HEIGHT and wpn not in RANGED else 0.0   # and reach, in real log-odds
         rg = wpn in RANGED; nov = (novice_gun if wpn in GUNS else novice) if sk == 'novice' else 1.0; sx = fem if sex == 'f' else 0.0; crew = RANGED[wpn][5] if rg else 1
         lm = np.log(mass / REF_MASS[sex]) * (RANGED_MASS if rg else ARMED_MASS if wpn else 1.0)
         wl = 0.0 if wpn is None else (cl if wpn == 'club' else rwl[wpn] if rg else sp + weapon[wpn]) * nov
-        bd = human + sx + m_scale * lm + arm_b[armour] + gamma * transfer[tr] * skill[sk]; ls = bd + wl          # bd: the fighter without the weapon
+        bd = human + sx + m_scale * lm + bl + gamma * rc + arm_b[armour] + gamma * transfer[tr] * skill[sk]; ls = bd + wl     # bd: the fighter without the weapon
         wd = 0.0 if wpn is None else (cl / gamma if wpn == 'club' else sp / gamma + (rwd[wpn] if rg else wpn_d[wpn])) * nov
-        db = sx / gamma + m_real * lm + arm_d[armour] + skill[sk]; dl = db + wd
+        db = sx / gamma + m_real * lm + bl * m_real / m_scale + rc + arm_d[armour] + skill[sk]; dl = db + wd
         logs[name], duel[name], usk[name] = ls, dl, (skill[sk] if wpn is None else None); p = np.exp(np.percentile(ls, [5, 50, 95])); e = 1000 + 400 / np.log(10) * np.percentile(dl, [5, 50, 95])
         ask[name] = skill[sk] if wpn is not None and wpn not in GUNS else None; arm[name] = arm_d[armour] if armour in OLD_ARMOUR else None
         body[name], dbody[name] = (ls, dl) if armour == 'tank armour' else (bd + np.log(crew), db + np.log(crew))   # what a hit has to get through (the page's staging)
+        if name in TITANS:
+            trows.append(dict(cls=name, race=race or 'Human', sex=sex, mass_kg=mass, weapon=wpn or 'none', skill=sk, armour=armour, authors_figure=authors if authors else np.nan,
+                              score=p[1], score_p05=p[0], score_p95=p[2], lions=p[1] / 100, duel_elo=e[1], note=note)); continue
         rows.append(dict(archetype=name, sex=sex, mass_kg=mass, weapon=wpn or 'none', skill=sk, armour=armour, score=p[1], score_p05=p[0], score_p95=p[2], lions=p[1] / 100,
                          duel_elo=e[1], duel_elo_p05=e[0], duel_elo_p95=e[2], lethality_index=RANGED[wpn][0] if rg else '', crew=crew,
                          unarmed_skill_elo=400 / np.log(10) * SKILL[sk][0] if wpn is None else 0.0, evidence=grade(wpn, sk, armour, mass, sex), note=note))
     T = pd.DataFrame(rows).sort_values('score', ascending=False); os.makedirs('outputs', exist_ok=True)
     T.to_csv('outputs/human_archetypes.csv', index=False, float_format='%.4g')
+    for g, (a, b, authors) in MEANS.items():   # the rows without a sex
+        ls = (logs[a] + logs[b]) / 2; p = np.exp(np.percentile(ls, [5, 50, 95])); r = next(t for t in trows if t['cls'] == a)
+        trows.append(dict(cls=g, race=r['race'], sex='both', mass_kg=np.nan, weapon=r['weapon'], skill=r['skill'], armour=r['armour'], authors_figure=authors, score=p[1], score_p05=p[0],
+                          score_p95=p[2], lions=p[1] / 100, duel_elo=1000 + 400 / np.log(10) * float(np.median((duel[a] + duel[b]) / 2)), note='geometric mean of man and woman'))
+    TT = pd.DataFrame(trows); anchor = TT.set_index('cls').loc['Male Human']   # the author's figures have no scale: set it where the armed, untrained man agrees
+    TT.insert(TT.columns.get_loc('authors_figure') + 1, 'authors_rescaled', TT.authors_figure * anchor.score / anchor.authors_figure)
+    TT.to_csv('outputs/titan_classes.csv', index=False, float_format='%.4g')
+    odds = lambda a, b: float(np.median(1 / (1 + np.exp(duel[b] - duel[a]))))   # a duel between two of the story's classes
+    for a, b in (('Titan Warrior', 'Human Warrior'), ('Titan Warrior', 'Human Warrior, elite (1.75 m, 75 kg)'), ('Titan Warrior', 'Human Warrior, a giant (2.18 m, 132 kg)'),
+                 ('Human Warrior, a giant (2.18 m, 132 kg)', 'Human Warrior, elite (1.75 m, 75 kg)'), ('Human Warrior, a giant (2.18 m, 132 kg)', 'Human Warrior'),
+                 ('Unarmed Male Titan', 'Unarmed Male Human'), ('Alaarn Warrior', 'Titan Warrior'), ('Ascendent', 'Titan Warrior')):
+        print(f'duel: {a} beats {b} {odds(a, b):.1%}')
     names = list(T.archetype)   # P(row beats column), real odds, median over the draws
     def beats(a, b):
         da, db = duel[a], duel[b]
@@ -285,21 +363,24 @@ def main():
     if os.path.exists(ARENA):   # refresh the data block of the arena page
         # a dinosaur's corrected log-score is its crowd log-score plus dmu, with the factor's own spread dsd (one draw shared by all dinosaurs)
         def fighter(a):
-            sex, mass, wpn, sk, tr, armour, note = ARCHETYPES[a]; rg = wpn in RANGED
-            d = dict(name=a, group='Bows and firearms' if rg else 'Fighters', mu=float(np.median(logs[a])), sd=sd(logs[a]), duel=float(np.median(duel[a])), duel_sd=sd(duel[a]),
+            sex, mass, wpn, sk, tr, armour, note, race, _ = ALL[a]; rg = wpn in RANGED
+            d = dict(name=a, group='ROTG Titans (fantasy)' if race else 'Bows and firearms' if rg else 'Fighters', mu=float(np.median(logs[a])), sd=sd(logs[a]), duel=float(np.median(duel[a])), duel_sd=sd(duel[a]),
                      usk=float(SKILL[sk][0]) if wpn is None else 0.0, ask=float(SKILL[sk][0]) if wpn is not None and wpn not in GUNS else 0.0,
                      arm=float(ARMOUR[armour][1][0]) if armour in OLD_ARMOUR else 0.0, gun=wpn in GUNS, weapon=wpn or 'none', armour=armour, mass=mass)
-            if rg: d.update(rng=RANGED[wpn][4], shot=RANGED[wpn][3], crew=RANGED[wpn][5], size=RANGED[wpn][6], dur=float(np.median(body[a])), ddur=float(np.median(dbody[a])))
+            if rg: d.update(rng=RANGED[wpn][4], shot=RANGED[wpn][3], crew=RANGED[wpn][5], size=RANGED[wpn][6], dur=float(np.median(body[a])), ddur=float(np.median(dbody[a])),
+                            sim=dict(rof=SIM[wpn][0], E=SIM[wpn][1], acc=min(0.95, SIM[wpn][2] * SIM_SKILL[sk]), r0=SIM[wpn][3], reach=SIM[wpn][4], trav=SIM[wpn][5], mag=SIM[wpn][6], reload=SIM[wpn][7]))
+            if race: d.update(scale=DRAWN[race][0], bulk=DRAWN[race][1])
             return d
         beasts = {**ANIMALS, **COMPANIONS}
         data = dict(k=k_hat, k_sd=K_SD, gamma=GAMMA[0], gamma_sd=GAMMA[1], cross=CROSS[0], arm_vs_guns=ARMOUR_VS_GUNS,
-                    fighters=[fighter(a) for a in sorted(names, key=lambda a: ARCHETYPES[a][2] in RANGED)],
+                    fighters=[fighter(a) for a in sorted(names, key=lambda a: ARCHETYPES[a][2] in RANGED) + ON_PAGE],
                     animals=[dict(name=o, label=lab, plural=pl, kg=kg, length=L, shape=shp, coat=coat, body=bc, dark=dark, accent=acc, comp=o in COMPANIONS, mu=float(np.log(B.score[o])), sd=float(B.se_log[o]),
                                   dino=bool(B['class'][o] == 'dinosaur'), dmu=float(np.log(B.full_p50[o] / B.score[o])),
                                   dsd=float(np.sqrt(max((np.log(B.full_p95[o] / B.full_p05[o]) / 3.29)**2 - B.se_log[o]**2, 0.0))))
                              for o, (lab, pl, kg, L, shp, coat, bc, dark, acc) in beasts.items()])
         page = open(ARENA, encoding='utf-8').read(); a, b = page.find('/*DATA*/'), page.find('/*END DATA*/')
         if 0 <= a < b: open(ARENA, 'w', encoding='utf-8').write(page[:a] + '/*DATA*/const DATA = ' + json.dumps(data, separators=(',', ':')) + ';' + page[b:]); print('refreshed ../arena.html')
+    print(TT[['cls', 'authors_rescaled', 'score', 'score_p05', 'score_p95', 'duel_elo']].to_string(index=False, float_format=lambda v: f'{v:,.1f}'))
     print(f"measured on the scale: spear x{np.exp(spear[0]):.2f} (log {spear[0]:.2f} ± {spear[1]:.2f}), club x{np.exp(club[0]):.2f}, female x{np.exp(female[0]):.2f}, "
           f"group exponent {k_hat:.2f} ± {k_se:.2f} over {len(G)} group entries, mass exponent {b_scale:.2f}")
     print(f"firearms: bears of the Alaska sample {np.exp(np.median(bear)):.0f}, hunting rifle {np.exp(np.median(rifle + human)):.0f} "
@@ -307,7 +388,7 @@ def main():
     print(T[['archetype', 'score', 'score_p05', 'score_p95', 'duel_elo', 'evidence']].to_string(index=False, float_format=lambda v: f'{v:,.1f}'))
     q = Vs[Vs.fighters.isin(VERSUS[1:2] + VERSUS[-2:]) & (Vs.group_exponent != '0.7 (step 3 rule)')]
     print(q[['raptor', 'fighters', 'raptor_score', 'group_exponent', 'n_even', 'n_even_p05', 'n_even_p95', 'share_n5', 'share_n10']].to_string(index=False, float_format=lambda v: f'{v:.2f}'))
-    print('wrote outputs/human_archetypes.csv, outputs/human_duel_matrix.csv, outputs/humans_vs_raptors.csv, outputs/human_model.json')
+    print('wrote outputs/human_archetypes.csv, outputs/human_duel_matrix.csv, outputs/humans_vs_raptors.csv, outputs/human_model.json, outputs/titan_classes.csv')
 
 
 if __name__ == '__main__':
