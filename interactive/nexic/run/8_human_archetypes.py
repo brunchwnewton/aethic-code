@@ -197,7 +197,25 @@ TITANS = {  # name: (sex, mass, weapon, skill, carry-over, armour, note, race or
 MEANS = {'Unarmed Human': ('Unarmed Male Human', 'Unarmed Female Human', 0.001392), 'Unarmed Titan': ('Unarmed Male Titan', 'Unarmed Female Titan', 0.0038),
          'Alaarn': ('Male Alaarn', 'Female Alaarn', 0.5786053979)}     # the rows without a sex: the geometric mean of the two
 HEIGHT = {k: TALL[(v[7], v[0])] for k, v in TITANS.items()}; HEIGHT['Human Warrior, elite (1.75 m, 75 kg)'] = 1.75; HEIGHT['Human Warrior, a giant (2.18 m, 132 kg)'] = TALL[('Titan', 'm')]
-ON_PAGE = [k for k, v in TITANS.items() if v[7]]                       # the Titan and Alaarn rows go on the arena page, last in its lists
+# On the arena page a fighter is a training, arms and armour, and the body under them is a human's, a Titan's or an Alaarn's. Step 8 gives every
+# archetype its numbers on each body (race_delta in main), so "Titan Warrior" there is the plain warrior below on a Titan's body, and a Titan
+# legionary or a Titan gun crew come the same way. CLASSES exist only on that page, at the human reference body:
+ROTG_GROUP = 'ROTG Titan schools (fantasy)'
+CLASSES = {
+    'Untrained woman with a spear': ('f', 58, 'spear', 'novice', 'beast', 'none', ''),
+    'Warrior, spear or sword with shield': ('m', 70, KIT[0], 'professional (armed)', 'duellist', KIT[1], "the story's plain warrior"),
+    'Woman warrior, spear or sword with shield': ('f', 58, KIT[0], 'professional (armed)', 'duellist', KIT[1], ''),
+    **{'class: ' + s: ('m', 70, KIT[0], s, 'duellist', KIT[1], 'a Titan training school') for s in LADDER}}     # (the Titans of each school are in TITANS under the plain name)
+# how they are listed and drawn there: group, native race (the page's letter), the weapon as drawn, a look. The looks are for the eye only:
+# the Wolfpacks in black like assassins (the author's), the Adamantine Guard in bright steel behind large shields and the rest are guesses.
+LOOK = lambda s: (dict(show='twin swords', look='wolf') if 'Wolfpacks' in s else dict(show='spear + large shield', look='adamant') if 'Adamantine' in s else dict(show='spear + shield', look='gold'))
+PAGE = {'Warrior, spear or sword with shield': dict(show='spear + shield'), 'Woman warrior, spear or sword with shield': dict(show='spear + shield'),
+        **{'class: ' + s: dict(group=ROTG_GROUP, native='t', **LOOK(s)) for s in LADDER}}
+RACES = {'t': 'Titan', 'l': 'Alaarn'}                                  # the page's letter for each race (a human is 'f')
+SKIN = {'Titan': '#ab81e4', 'Alaarn': '#3e3748'}                       # the author's
+STOP = {'Titan': 0.7, 'Alaarn': 0.8}                                   # D. page's gun fights: the energy that stops one, as a share of an animal's of its weight (a human: 0.4)
+RACE_BODY = {'Titan': {'m': (T_M, TALL[('Titan', 'm')]), 'f': (T_F, TALL[('Titan', 'f')])}, 'Alaarn': {'m': (A_M, TALL[('Alaarn', 'm')]), 'f': (A_F, TALL[('Alaarn', 'f')])}}
+#   A class keeps its own build on the new body: a 78 kg murmillo is 78/70 of the average man, and so of the average Titan (147 kg).
 DRAWN = {'Titan': (1.33, 1.0), 'Alaarn': (1.33 * SHORT, 1.25)}                 # height over a human's, and breadth over a Titan's, for the page
 VERSUS = ['Venator (arena hunter), hunting spear', 'Gladiator, murmillo', 'Gladiator, hoplomachus', 'Gladiator, retiarius', 'Hunter with a spear', 'Untrained man',
           'Hunter, bolt-action .30-06 rifle', 'Soldier, assault rifle', 'Machine gunner, belt-fed 7.62 mm']
@@ -293,7 +311,7 @@ def main():
     rwl = {w: sp + beta * (np.log(v[0] / TLI_HAND) + (0.0 if w == 'bolt-action rifle' else rng2.normal(0, TLI_SD[v[1]], n))) for w, v in RANGED.items()}
     rwd = {w: draw2(v[2]) for w, v in RANGED.items()}; novice_gun = np.clip(draw2(NOVICE_GUN), 0.2, 1)
     rows, trows, logs, duel, usk, ask, arm, body, dbody = [], [], {}, {}, {}, {}, {}, {}, {}
-    bld = {r: rng3.normal(np.log(v[0]), v[1], n) for r, v in BUILD.items()}; reach = {r: np.clip(rng3.normal(v[0], v[1], n), 0, None) for r, v in REACH.items()}; ALL = {**{k: v + (None, None) for k, v in ARCHETYPES.items()}, **TITANS}
+    bld = {r: rng3.normal(np.log(v[0]), v[1], n) for r, v in BUILD.items()}; reach = {r: np.clip(rng3.normal(v[0], v[1], n), 0, None) for r, v in REACH.items()}; ALL = {**{k: v + (None, None) for k, v in {**ARCHETYPES, **CLASSES}.items()}, **TITANS}
     for name, (sex, mass, wpn, sk, tr, armour, note, race, authors) in ALL.items():
         bl = bld[race] if race else 0.0                                                                # a Titan's build
         rc = reach['armed' if wpn else 'unarmed'] * np.log(HEIGHT[name] / REF_HEIGHT[sex]) if name in HEIGHT and wpn not in RANGED else 0.0   # and reach, in real log-odds
@@ -309,9 +327,18 @@ def main():
         if name in TITANS:
             trows.append(dict(cls=name, race=race or 'Human', sex=sex, mass_kg=mass, weapon=wpn or 'none', skill=sk, armour=armour, authors_figure=authors if authors else np.nan,
                               score=p[1], score_p05=p[0], score_p95=p[2], lions=p[1] / 100, duel_elo=e[1], note=note)); continue
+        if name in CLASSES: continue
         rows.append(dict(archetype=name, sex=sex, mass_kg=mass, weapon=wpn or 'none', skill=sk, armour=armour, score=p[1], score_p05=p[0], score_p95=p[2], lions=p[1] / 100,
                          duel_elo=e[1], duel_elo_p05=e[0], duel_elo_p95=e[2], lethality_index=RANGED[wpn][0] if rg else '', crew=crew,
                          unarmed_skill_elo=400 / np.log(10) * SKILL[sk][0] if wpn is None else 0.0, evidence=grade(wpn, sk, armour, mass, sex), note=note))
+    def race_delta(a, race, bare=False):   # what a Titan's or an Alaarn's body adds to a class: to its log score, to its real log-odds; and the mass it then has
+        sex, mass, wpn = ALL[a][:3]; wpn = None if bare else wpn; rg = wpn in RANGED; w = RANGED_MASS if rg else ARMED_MASS if wpn else 1.0; M, H = RACE_BODY[race][sex]   # bare: the body itself, weapon aside
+        lm = np.log(M / REF_MASS[sex]) * w; bl = bld[race] * (RANGED_MASS if rg else 1.0)        # behind a bow or a gun the build counts as little as the mass does
+        rc = 0.0 if rg else reach['armed' if wpn else 'unarmed'] * np.log(H / REF_HEIGHT[sex])
+        return m_scale * lm + bl + gamma * rc, m_real * lm + bl * m_real / m_scale + rc, mass * M / REF_MASS[sex]
+    for letter, race in RACES.items():   # the page's bodies agree with the story's table
+        for a, b in (('Untrained man', f'Unarmed Male {race}'), ('Warrior, spear or sword with shield', f'{race} Warrior'), ('Untrained woman with a spear', f'Female {race}')) + ((('class: Ascendent', 'Ascendent'),) if race == 'Titan' else ()):
+            d = race_delta(a, race); assert abs(np.median(logs[a] + d[0]) - np.median(logs[b])) < 1e-9 and abs(np.median(duel[a] + d[1]) - np.median(duel[b])) < 1e-9, (a, b)
     T = pd.DataFrame(rows).sort_values('score', ascending=False); os.makedirs('outputs', exist_ok=True)
     T.to_csv('outputs/human_archetypes.csv', index=False, float_format='%.4g')
     for g, (a, b, authors) in MEANS.items():   # the rows without a sex
@@ -359,21 +386,31 @@ def main():
                                beta=float(np.median(beta)), beta_p05=float(np.percentile(beta, 5)), beta_p95=float(np.percentile(beta, 95)), index_hand=TLI_HAND, index_rifle=TLI_RIFLE,
                                weapons={w: dict(lethality_index=v[0], dupuy=v[1], premium_factor=float(np.exp(np.median(rwl[w]))), duel_log_odds_over_spear=v[2]) for w, v in RANGED.items()}),
                  raptors={r: dict(crowd=float(B.score[r]), corrected=float(B.full_p50[r]), corrected_p05=float(B.full_p05[r]), corrected_p95=float(B.full_p95[r])) for r in RAPTORS})
+    kinds = {'unarmed': 'Untrained man', 'armed': 'Untrained man with a spear', 'behind a bow or a gun': 'Hunter, bolt-action .30-06 rifle', 'unarmed woman': 'Untrained woman'}
+    model['race_body'] = {race: {kd: dict(score_factor=float(np.exp(np.median(race_delta(a, race)[0]))), rating_points=float(400 / np.log(10) * np.median(race_delta(a, race)[1]))) for kd, a in kinds.items()}
+                          for race in RACES.values()}
     json.dump(model, open('outputs/human_model.json', 'w'), indent=1)
     if os.path.exists(ARENA):   # refresh the data block of the arena page
         # a dinosaur's corrected log-score is its crowd log-score plus dmu, with the factor's own spread dsd (one draw shared by all dinosaurs)
         def fighter(a):
-            sex, mass, wpn, sk, tr, armour, note, race, _ = ALL[a]; rg = wpn in RANGED
-            d = dict(name=a, group='ROTG Titans (fantasy)' if race else 'Bows and firearms' if rg else 'Fighters', mu=float(np.median(logs[a])), sd=sd(logs[a]), duel=float(np.median(duel[a])), duel_sd=sd(duel[a]),
+            sex, mass, wpn, sk, tr, armour, note, race, _ = ALL[a]; rg = wpn in RANGED; med = lambda v: float(np.median(v))
+            d = dict(name=a.replace('class: ', ''), group='Bows and firearms' if rg else 'Fighters', mu=float(np.median(logs[a])), sd=sd(logs[a]), duel=float(np.median(duel[a])), duel_sd=sd(duel[a]),
                      usk=float(SKILL[sk][0]) if wpn is None else 0.0, ask=float(SKILL[sk][0]) if wpn is not None and wpn not in GUNS else 0.0,
                      arm=float(ARMOUR[armour][1][0]) if armour in OLD_ARMOUR else 0.0, gun=wpn in GUNS, weapon=wpn or 'none', armour=armour, mass=mass)
             if rg: d.update(rng=RANGED[wpn][4], shot=RANGED[wpn][3], crew=RANGED[wpn][5], size=RANGED[wpn][6], dur=float(np.median(body[a])), ddur=float(np.median(dbody[a])),
                             sim=dict(rof=SIM[wpn][0], E=SIM[wpn][1], acc=min(0.95, SIM[wpn][2] * SIM_SKILL[sk]), r0=SIM[wpn][3], reach=SIM[wpn][4], trav=SIM[wpn][5], mag=SIM[wpn][6], reload=SIM[wpn][7]))
-            if race: d.update(scale=DRAWN[race][0], bulk=DRAWN[race][1])
-            return d
+            if armour != 'tank armour':   # the same class on a Titan's and on an Alaarn's body: score, its spread, duel log-odds, its spread, mass; and for a gun what a hit is set against
+                d['r'] = {}
+                for letter, rc_ in RACES.items():
+                    dl_, dd_, m2 = race_delta(a, rc_); d['r'][letter] = [med(logs[a] + dl_), sd(logs[a] + dl_), med(duel[a] + dd_), sd(duel[a] + dd_), round(float(m2), 1)] + ([med(body[a] + race_delta(a, rc_, True)[0]), med(dbody[a] + race_delta(a, rc_, True)[1])] if rg else [])   # a hit lands on the body, not on the gun
+            d.update(PAGE.get(a, {})); return d
+        force = lambda r: (RACE_BODY[r]['m'][0] / RACE_BODY[r]['m'][1]) / (REF_MASS['m'] / REF_HEIGHT['m']) * BUILD[r][0] ** ((2 / 3) / b_scale)   # muscular force over the reference man's
+        races = {letter: dict(name=r, skin=SKIN[r], scale=DRAWN[r][0], bulk=DRAWN[r][1], stop=STOP[r], haul=round(float(force(r)), 2),   # haul: how much faster a crew swings its gun round
+                              bow=round(float(force(r) * RACE_BODY[r]['m'][1] / REF_HEIGHT['m']), 2)) for letter, r in RACES.items()}             # bow: an arrow's energy, draw weight x draw length
+        on_page = sorted(names + list(CLASSES), key=lambda a: (2, list(CLASSES).index(a)) if PAGE.get(a, {}).get('group') else (int(ALL[a][2] in RANGED), -float(np.median(logs[a]))))
         beasts = {**ANIMALS, **COMPANIONS}
-        data = dict(k=k_hat, k_sd=K_SD, gamma=GAMMA[0], gamma_sd=GAMMA[1], cross=CROSS[0], arm_vs_guns=ARMOUR_VS_GUNS,
-                    fighters=[fighter(a) for a in sorted(names, key=lambda a: ARCHETYPES[a][2] in RANGED) + ON_PAGE],
+        data = dict(k=k_hat, k_sd=K_SD, gamma=GAMMA[0], gamma_sd=GAMMA[1], cross=CROSS[0], arm_vs_guns=ARMOUR_VS_GUNS, races=races,
+                    fighters=[fighter(a) for a in on_page],
                     animals=[dict(name=o, label=lab, plural=pl, kg=kg, length=L, shape=shp, coat=coat, body=bc, dark=dark, accent=acc, comp=o in COMPANIONS, mu=float(np.log(B.score[o])), sd=float(B.se_log[o]),
                                   dino=bool(B['class'][o] == 'dinosaur'), dmu=float(np.log(B.full_p50[o] / B.score[o])),
                                   dsd=float(np.sqrt(max((np.log(B.full_p95[o] / B.full_p05[o]) / 3.29)**2 - B.se_log[o]**2, 0.0))))

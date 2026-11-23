@@ -506,5 +506,43 @@
    "corrected_p05": 396.519,
    "corrected_p95": 2779.25
   }
+ },
+ "race_body": {
+  "Titan": {
+   "unarmed": {
+    "score_factor": 4.537397648404555,
+    "rating_points": 864.0358091231625
+   },
+   "armed": {
+    "score_factor": 3.2832087330425708,
+    "rating_points": 656.628544126109
+   },
+   "behind a bow or a gun": {
+    "score_factor": 1.3665400496239815,
+    "rating_points": 182.89964518679093
+   },
+   "unarmed woman": {
+    "score_factor": 5.044614675698727,
+    "rating_points": 928.5733061353274
+   }
+  },
+  "Alaarn": {
+   "unarmed": {
+    "score_factor": 6.126273007629958,
+    "rating_points": 1057.0962839671424
+   },
+   "armed": {
+    "score_factor": 4.117042146956347,
+    "rating_points": 805.5124378733524
+   },
+   "behind a bow or a gun": {
+    "score_factor": 1.4886386644038776,
+    "rating_points": 236.48072016676377
+   },
+   "unarmed woman": {
+    "score_factor": 6.81914603286915,
+    "rating_points": 1121.678714678929
+   }
+  }
  }
 }
