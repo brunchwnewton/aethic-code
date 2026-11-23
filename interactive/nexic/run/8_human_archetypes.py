@@ -168,6 +168,7 @@ THICK, SHORT = 1.21, 0.96                                              # an Alaa
 A_M, A_F = T_M * THICK * SHORT**2.5, T_F * THICK * SHORT**2.5          #   at 164-168 cm, against this story's humans (65.6 kg at 1.651 m), mass going as height^2.5. And a little shorter.
 #   (The one Alaarn with a known weight, Bear of the Woods, 335 kg at 2.855 m, is their greatest warrior and far out on the tail; his build index is 1.30 times the average Titan's.)
 TALL = {('Titan', 'm'): 2.184, ('Titan', 'f'): 2.081, ('Alaarn', 'm'): 2.184 * SHORT, ('Alaarn', 'f'): 2.081 * SHORT, (None, 'm'): 1.651, (None, 'f'): 1.55}   # m
+ALAARN_ARMS = 'axe + shield'                                           # the author's: an Alaarn warrior is modelled on a Viking, without the mail
 TITANS = {  # name: (sex, mass, weapon, skill, carry-over, armour, note, race or None, the author's own figure or None: it has no scale, only its ratios mean anything)
     'Unarmed Male Human': ('m', H_M, None, 'untrained', 'unarmed', 'none', '', None, 0.003608),
     'Unarmed Female Human': ('f', H_F, None, 'untrained', 'unarmed', 'none', '', None, 0.00056),
@@ -192,8 +193,8 @@ TITANS = {  # name: (sex, mass, weapon, skill, carry-over, armour, note, race or
     'Unarmed Male Alaarn': ('m', A_M, None, 'untrained', 'unarmed', 'none', 'not in the author\'s table', 'Alaarn', None),
     'Male Alaarn': ('m', A_M, 'spear', 'novice', 'beast', 'none', 'armed, untrained', 'Alaarn', 1.344128382),
     'Female Alaarn': ('f', A_F, 'spear', 'novice', 'beast', 'none', 'armed, untrained', 'Alaarn', 0.2490715997),
-    'Alaarn Warrior': ('m', A_M, KIT[0], 'professional (armed)', 'duellist', KIT[1], '', 'Alaarn', 4.032385147),
-    'Female Alaarn Warrior': ('f', A_F, KIT[0], 'professional (armed)', 'duellist', KIT[1], '', 'Alaarn', 0.7472147992)}
+    'Alaarn Warrior': ('m', A_M, ALAARN_ARMS, 'professional (armed)', 'duellist', KIT[1], 'modelled on a Viking: axe and shield, no mail', 'Alaarn', 4.032385147),
+    'Female Alaarn Warrior': ('f', A_F, ALAARN_ARMS, 'professional (armed)', 'duellist', KIT[1], '', 'Alaarn', 0.7472147992)}
 MEANS = {'Unarmed Human': ('Unarmed Male Human', 'Unarmed Female Human', 0.001392), 'Unarmed Titan': ('Unarmed Male Titan', 'Unarmed Female Titan', 0.0038),
          'Alaarn': ('Male Alaarn', 'Female Alaarn', 0.5786053979)}     # the rows without a sex: the geometric mean of the two
 HEIGHT = {k: TALL[(v[7], v[0])] for k, v in TITANS.items()}; HEIGHT['Human Warrior, elite (1.75 m, 75 kg)'] = 1.75; HEIGHT['Human Warrior, a giant (2.18 m, 132 kg)'] = TALL[('Titan', 'm')]
@@ -208,13 +209,13 @@ CLASSES = {
     'Roman triarius, hasta and scutum': ('m', 68, 'spear + shield', 'elite (armed)', 'duellist', 'mail or plates with helmet', 'the third line: the veterans. (The second line, the principes, is the legionary above.)'),
     'Warrior, spear or sword with shield': ('m', 70, KIT[0], 'professional (armed)', 'duellist', KIT[1], "the story's plain warrior"),
     'Woman warrior, spear or sword with shield': ('f', 58, KIT[0], 'professional (armed)', 'duellist', KIT[1], ''),
-    'class: Alaarn Warrior': ('m', 70, KIT[0], 'professional (armed)', 'duellist', KIT[1], 'a title: the plain warrior, at home on an Alaarn'),
+    'class: Alaarn Warrior': ('m', 70, ALAARN_ARMS, 'professional (armed)', 'duellist', KIT[1], 'a title: the plain warrior, at home on an Alaarn'),
     **{'class: ' + s: ('m', 70, KIT[0], s, 'duellist', KIT[1], 'a Titan training school') for s in LADDER}}     # (the Titans of each school are in TITANS under the plain name)
 # how they are listed and drawn there: group, native race (the page's letter), the weapon as drawn, a look. The looks are for the eye only:
 # the Wolfpacks in black like assassins (the author's), the Adamantine Guard in bright steel behind large shields and the rest are guesses.
 LOOK = lambda s: (dict(show='twin swords', look='wolf') if 'Wolfpacks' in s else dict(show='spear + large shield', look='adamant') if 'Adamantine' in s else dict(show='spear + shield', look='gold'))
 PAGE = {'Warrior, spear or sword with shield': dict(show='spear + shield'), 'Woman warrior, spear or sword with shield': dict(show='spear + shield'),
-        'class: Alaarn Warrior': dict(group=ROTG_GROUP, native='l', show='spear + shield'), **{'class: ' + s: dict(group=ROTG_GROUP, native='t', **LOOK(s)) for s in LADDER}}
+        'class: Alaarn Warrior': dict(group=ROTG_GROUP, native='l'), **{'class: ' + s: dict(group=ROTG_GROUP, native='t', **LOOK(s)) for s in LADDER}}
 RACES = {'t': 'Titan', 'l': 'Alaarn'}                                  # the page's letter for each race (a human is 'f')
 SKIN = {'Titan': '#ab81e4', 'Alaarn': '#3e3748'}                       # the author's
 STOP = {'Titan': 0.7, 'Alaarn': 0.8}                                   # D. page's gun fights: the energy that stops one, as a share of an animal's of its weight (a human: 0.4)
@@ -341,7 +342,7 @@ def main():
         rc = 0.0 if rg else reach['armed' if wpn else 'unarmed'] * np.log(H / REF_HEIGHT[sex])
         return m_scale * lm + bl + gamma * rc, m_real * lm + bl * m_real / m_scale + rc, mass * M / REF_MASS[sex]
     for letter, race in RACES.items():   # the page's bodies agree with the story's table
-        for a, b in (('Untrained man', f'Unarmed Male {race}'), ('Warrior, spear or sword with shield', f'{race} Warrior'), ('Untrained woman with a spear', f'Female {race}')) + ((('class: Ascendent', 'Ascendent'),) if race == 'Titan' else ()):
+        for a, b in (('Untrained man', f'Unarmed Male {race}'), ('Warrior, spear or sword with shield' if race == 'Titan' else 'class: Alaarn Warrior', f'{race} Warrior'), ('Untrained woman with a spear', f'Female {race}')) + ((('class: Ascendent', 'Ascendent'),) if race == 'Titan' else ()):
             d = race_delta(a, race); assert abs(np.median(logs[a] + d[0]) - np.median(logs[b])) < 1e-9 and abs(np.median(duel[a] + d[1]) - np.median(duel[b])) < 1e-9, (a, b)
     T = pd.DataFrame(rows).sort_values('score', ascending=False); os.makedirs('outputs', exist_ok=True)
     T.to_csv('outputs/human_archetypes.csv', index=False, float_format='%.4g')
