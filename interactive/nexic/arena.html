@@ -140,6 +140,7 @@
         <div class="field" id="distf" hidden><label for="dist">How far apart they start: <b id="distv">40 m</b></label><input type="range" id="dist" min="10" max="200" step="5" value="40"></div>
         <div class="field" id="kf"><label for="kmode">How numbers add up</label><select id="kmode"></select></div>
         <label class="row note" id="uncf"><input type="checkbox" id="unc"> Draw each bout's odds from the uncertainty bands</label>
+        <label class="row note" id="sprf"><input type="checkbox" id="spr"> Start with each side spread out over the sand</label>
         <div class="row"><button type="button" class="small" id="link">Copy a link to this setup</button><span class="note" id="linkmsg" style="overflow-wrap:anywhere"></span></div>
       </div>
       <div class="card">
@@ -153,7 +154,7 @@
   </div>
   <div class="notes">
     <div class="card"><h2>What is measured</h2><p>The scores are Bradley–Terry strengths fitted to public votes on animal matchups, <b>African Lion = 100</b>. A bout's odds are the vote share S<sub>one side</sub> / (S<sub>one side</sub> + S<sub>the other</sub>). The untrained man, the spear's premium and the way groups add up are read from those votes. A dinosaur's <b>conventional belief</b> score is the one the crowd voted; its <b>accurate</b> score is that one multiplied by the paper's anatomy factor.</p></div>
-    <div class="card"><h2>What is judgment</h2><p>Skill, armour, the weapons other than spear and club, and how much of a duellist's skill carries over against an animal are estimates with wide bands, set in step 8 of the pipeline. Tick the uncertainty box and each bout draws its odds from those bands.</p><p><b>Bows and guns</b> do not fit one number, because range changes everything. Those fights are simulated shot by shot from stated rates of fire, hit chances and stopping energies, starting as far apart as you set, and their odds are counted from the simulation. Step 8 still gives each firearm a rough place on the scale; the simulation does not use it.</p><p><b>ROTG Titans and Alaarn</b> are a fantasy race from the story ROTG (nothing to do with Attack on Titan). Every fighter here is a training, arms and armour, and the race beside it is the body underneath: a human's, a Titan's (about twice the mass, a third taller, and built for it) or an Alaarn's (the Neanderthals of the Titans, a little shorter and much thicker). So a Titan legionary, or a Titan gun crew, is the same class on another body: more mass, more reach and one guessed premium for build, and behind a gun far less of each. The Adamantine Guard, the Wolfpacks and the Ascendent, last in the lists, are Titan training schools.</p></div>
+    <div class="card"><h2>What is judgment</h2><p>Skill, armour, the weapons other than spear and club, and how much of a duellist's skill carries over against an animal are estimates with wide bands, set in step 8 of the pipeline. Tick the uncertainty box and each bout draws its odds from those bands.</p><p><b>Bows and guns</b> do not fit one number, because range changes everything. Those fights are simulated shot by shot from stated rates of fire, hit chances and stopping energies, starting as far apart as you set, and their odds are counted from the simulation. Step 8 still gives each firearm a rough place on the scale; the simulation does not use it.</p><p><b>ROTG Titans and Alaarn</b> are a fantasy race from the story ROTG (nothing to do with Attack on Titan). Every fighter here is a training, arms and armour, and the race beside it is the body underneath: a human's, a Titan's (about twice the mass, a third taller, and built for it) or an Alaarn's (the Neanderthals of the Titans, a little shorter and much thicker). So a Titan legionary, or a Titan gun crew, is the same class on another body: more mass, more reach and one guessed premium for build, and behind a gun far less of each. The Adamantine Guard, the Wolfpacks and the Ascendent, last in the lists, are Titan training schools.</p><p><b>Dinosaur and Mammal</b>, in the first box of a row, are shorthand. "Dinosaur" holds every sauropsid on the page, which here means the dinosaurs and the one bird (a dinosaur too, as it happens); "Mammal" holds every synapsid, which here are all mammals. Pedants may read them so.</p></div>
     <div class="card"><h2>How a bout is fought</h2><p>The winner is drawn first, with <b>exactly the model's share</b>, so the long-run tally is the Bradley–Terry share by construction. The fight you watch is then drawn from a fight model until it ends that way. In that model a hit takes (attacker's strength ÷ victim's strength)<sup>0.4</sup> of the victim's staying power, a third between equals, so a T. rex downs a man in one bite and a man needs dozens of thrusts. None of this applies once a bow or a gun is on the sand: those fights are simulated outright. Who lands each exchange is solved so that one against one reproduces the share, and one tilt per side does the same for groups. A side is beaten when its last fighter is down. The 0.4 and the third are staging choices; they shape the fight and not the odds.</p></div>
     <div class="card"><h2>Mixed sides, three sides</h2><p>Different kinds on one side add as (Σ s<sup>1/k</sup>)<sup>k</sup>, which gives n<sup>k</sup> for n alike. With three sides each wins in proportion to its strength, the multi-way form of Bradley–Terry; the votes are all one against one, so that is an extension. When everyone on the sand is human, the odds are real odds from step 8's duel ratings and no longer vote shares.</p></div>
   </div>
@@ -204,9 +205,12 @@ function strengths(sd, c, k) {
   const duel = sd.every(s => s.every(e => e.t.human)), armed = sd.map(s => s.some(e => e.t.human && e.t.ref.weapon !== 'none'));
   const facing = sd.map((_, i) => armed.some((a, j) => a && j !== i)), base = DATA.fighters.find(f => f.name === 'Untrained man').mu;
   const guns = sd.map(s => s.some(e => e.t.human && e.t.ref.gun)), facingG = sd.map((_, i) => guns.some((a, j) => a && j !== i));
-  const per = (t, team) => duel ? base + c.g * logDuel(t, c, facing[team], facingG[team]) : logScore(t, c);
+  // An animal cannot bring its bulk to bear on what it cannot catch: against a side of the elusive it counts for less the heavier it is,
+  // its score times (80 kg / its mass)^nimble, nimble being the elusive fighter's own (0 for anyone else).
+  const nim = sd.map(s => s.length > 0 && s.every(e => e.t.ref.elusive) ? Math.min(...s.map(e => e.t.ref.nimble || 0)) : 0), nimOn = i => Math.max(0, ...nim.filter((_, j) => j !== i));
+  const per = (t, team) => duel ? base + c.g * logDuel(t, c, facing[team], facingG[team]) : logScore(t, c) - (t.human ? 0 : nimOn(team) * Math.log(Math.max(1, (t.ref.kg || 80) / 80)));
   // what a hit on this fighter is set against: his whole strength, except behind a bow or a gun, where it is the man (or crew) without the weapon
-  const dur = (t, ls) => t.human && (t.ref.rng || t.ref.frail) ? Math.min(ls, duel ? base + c.g * t.ref.ddur : t.ref.dur) : ls;
+  const dur = (t, ls, team) => t.human ? ((t.ref.rng || t.ref.frail) ? Math.min(ls, duel ? base + c.g * t.ref.ddur : t.ref.dur) : ls) : logScore(t, c);   // (an animal that cannot catch him is no easier to kill for it)
   // Against a side that cannot be surrounded (every fighter on it elusive), numbers do not pile up: the many meet him one at a time, and the
   // chance of winning a string of n duels falls as n, not as n to the power k / gamma. On this scale that is a group exponent of gamma.
   const elus = sd.map(s => s.length > 0 && s.every(e => e.t.ref.elusive)), kOn = i => elus.some((v, j) => v && j !== i) ? Math.min(k, c.g) : k;
@@ -220,7 +224,7 @@ function boutChance(q, H, F) { let term = Math.pow(q, H), sum = 0; for (let j = 
 function solveQ(P, H, F) { let lo = 1e-9, hi = 1 - 1e-9; for (let i = 0; i < 60; i++) { const m = (lo + hi) / 2; if (boutChance(m, H, F) < P) lo = m; else hi = m; } return (lo + hi) / 2; }
 function mkFight(sd, st) {
   const kinds = [], units = [], T = sd.length, tot = new Array(T).fill(0);
-  sd.forEach((side, team) => side.forEach(e => { const ls = st.per(e.t, team); kinds.push({ t: e.t, team, n: e.n, ls, ld: st.dur(e.t, ls), wt: Math.exp(ls / st.k) }); }));
+  sd.forEach((side, team) => side.forEach(e => { const ls = st.per(e.t, team); kinds.push({ t: e.t, team, n: e.n, ls, ld: st.dur(e.t, ls, team), wt: Math.exp(ls / st.k) }); }));
   kinds.forEach((kd, ki) => { for (let i = 0; i < kd.n; i++) { units.push({ kind: ki, team: kd.team, wt: kd.wt }); tot[kd.team] += kd.wt; } });
   const n = kinds.length, f = [], lq = [], hits = [];
   for (let i = 0; i < n; i++) { f.push(new Float64Array(n)); lq.push(new Float64Array(n)); hits.push(new Array(n).fill(0)); }
@@ -302,13 +306,16 @@ function mkUnits(F) {             // the bodies on the sand. hum: one person on 
       stand: rng ? rng * 0.75 : hum ? (reachOf(a.show || a.weapon) + 0.7) * sc : len * 0.5 + 0.9 };
   });
 }
-function mkBout(F, res) {
+function scatter(B, team) {       // a side that starts spread over the sand, each man on his own and facing as he pleases (a lone fighter keeps his gate)
+  const us = B.units.filter(u => u.team === team); if (us.length < 2) return; for (const u of us) { const a = Math.random() * TAU, r = Math.sqrt(Math.random()) * 0.85; u.x = r * B.AX * Math.cos(a); u.y = r * B.AY * Math.sin(a); u.h = Math.random() * TAU; inside(B, u, u.half + 0.3); }
+}
+function mkBout(F, res, spread) {
   const units = mkUnits(F), Lmax = Math.max(...units.map(u => u.len)), fp = units.reduce((s, u) => s + (u.hum ? 0.6 : u.len), 0), maxRng = Math.max(...units.map(u => u.rng));
   const room = units.reduce((s, u) => s + (2 * u.rad + 0.5) * (2 * u.half + 0.5), 0);   // the ground the formations need: a battle gets a larger arena
   const AX = clamp(Math.max(8 + 0.9 * Lmax + 0.8 * Math.sqrt(fp), Math.sqrt(room / 0.55), maxRng ? 14 + 0.45 * maxRng : 0), 12, 60);
   const B = { F, ev: res.events, win: res.win, ei: 0, units, T: F.T, AX, AY: AX * 2 / 3, maxRng, t: 0, phase: 'enter', ex: [], cool: 0.3, re: 0, near: 1e9, decals: [], texts: [], strikes: [], shots: [], booms: [],
     out: new Array(F.T).fill(false), downW: new Array(F.T).fill(0), over: false, done: 0, tempo: clamp(res.events.length / 25, 1, 6) };   // long fights are played faster
-  for (let t = 0; t < F.T; t++) place(B, t);
+  for (let t = 0; t < F.T; t++) { place(B, t); if (spread) scatter(B, t); }
   return B;
 }
 function assign(B, inPlay) {      // everyone not in an exchange shadows a near enemy, spread over the enemies there are
@@ -338,8 +345,7 @@ function shadow(B, dt, alive, inPlay) {
     }
     if (v.swift) {                  // and nobody can follow them: each looks to where he last thought he saw something, late and wrong
       if (!u.ghost || (u.gt -= dt) <= 0) { u.ghost = { x: v.x + (Math.random() - 0.5) * 7, y: v.y + (Math.random() - 0.5) * 7 }; u.gt = 0.9 + Math.random() * 1.2; }
-      const gd = Math.hypot(u.ghost.x - u.x, u.ghost.y - u.y), lost = B.units.reduce((n, w) => n + (w.team === u.team && w.hp <= 1e-9), 0);
-      if (lost >= 6) { const d = Math.hypot(u.x, u.y) || 1, s = { x: u.x / d * B.AX * 2, y: u.y / d * B.AY * 2 }; inside(B, s, u.rad + 0.3); goTo(u, s, dt, u.walk * 1.5); turnTo(u, Math.atan2(s.y - u.y, s.x - u.x), dt, 1); continue; }   // six of theirs dead of nothing they can see: the rest run for the wall
+      const gd = Math.hypot(u.ghost.x - u.x, u.ghost.y - u.y);
       if ((u.frz = (u.frz || 0) - dt) < -1.2) u.frz = 0.8 + Math.random();                       // frozen, looking; now and then a step or two
       if (u.frz < 0 && gd > 2.5) goTo(u, u.ghost, dt, u.walk * 0.25); turnTo(u, Math.atan2(u.ghost.y - u.y, u.ghost.x - u.x), dt, 0.35); continue;
     }
@@ -625,7 +631,6 @@ if (typeof document !== 'undefined' && DATA) (function () {
     ['Three human legionaries against one Titan legionary', [[[fId('Roman legionary, gladius and scutum'), 3]], [[tId('Roman legionary, gladius and scutum'), 1]]]],
     ['A Titan warrior against an Alaarn warrior', [[[tId(WAR), 1]], [[lId(WAR), 1]]]],
     ['A Titan 75 mm gun crew against four Dakotaraptors', [[[tId('Field gun crew, 75 mm (6 men)'), 1]], [[aId('Dakotaraptor'), 4]]]]];
-  (DATA.setups || []).slice().reverse().forEach(p => ADV.unshift([p[0], p[1].map(side => side.map(([n, c, r]) => [(r || 'f') + fIdx(n), c]))]));   // a themed copy's own setups, first
   const BAT = [
     ['Sixty gladiators against twelve Dakotaraptors', [[[fId('Gladiator, murmillo'), 60]], [[aId('Dakotaraptor'), 12]]]],
     ['Sixty gladiators against the twelve Dakotaraptors of conventional belief', [[[fId('Gladiator, murmillo'), 60]], [[aId('Dakotaraptor', 'crowd'), 12]]]],
@@ -638,7 +643,9 @@ if (typeof document !== 'undefined' && DATA) (function () {
     ['Thirty Titan legionaries against twelve Dakotaraptors', [[[tId('Roman legionary, gladius and scutum'), 30]], [[aId('Dakotaraptor'), 12]]]],
     ['Titan gunners: two 75 mm guns and twenty rifles against six T. rexes', [[[tId('Field gun crew, 75 mm (6 men)'), 2], [tId('Soldier, assault rifle'), 20]], [[aId('T. rex'), 6]]]]];
   const preset = (list, i) => list[i][1].map(side => side.map(([id, n]) => ({ id, n })));
-  const S = { mode: 'basic', f: fId('Gladiator, murmillo'), nf: 6, a: Math.max(0, aIdx('Dakotaraptor')), na: 2, basis: 'corr', kmode: 'crowd', unc: false, dist: 40, adv: [[], []], bat: preset(BAT, 0), pre: { adv: 'e', bat: '0' } };
+  BAT.push(['A hundred Romans and ten Alaarn Warriors against twenty Wolfpacks, 45 m apart', 'w-100r8lbz-10fun74-v-20rb5gz-d45']);
+  (DATA.setups || []).slice().reverse().forEach(p => { const L = typeof p[1] === 'string' && p[1][0] === 'w' ? BAT : ADV; L.unshift([p[0], typeof p[1] === 'string' ? p[1] : p[1].map(side => side.map(([n, c, r]) => [(r || 'f') + fIdx(n), c]))]); });   // a themed copy's own setups, first
+  const S = { mode: 'basic', f: fId('Gladiator, murmillo'), nf: 6, a: Math.max(0, aIdx('Dakotaraptor')), na: 2, basis: 'corr', kmode: 'crowd', unc: false, dist: 40, adv: [[], []], bat: preset(BAT, BAT.findIndex(p => typeof p[1] !== 'string')), pre: { adv: 'e', bat: String(BAT.findIndex(p => typeof p[1] !== 'string')) } };
   const T = { n: 0, w: [0, 0, 0], d: [0, 0, 0] };
   let M = null, B = null, last = 0, timer = 0, PX = 1;
   const cur = () => S.mode === 'bat' ? S.bat : S.adv, cap1 = () => S.mode === 'bat' ? 300 : 40;
@@ -677,7 +684,7 @@ if (typeof document !== 'undefined' && DATA) (function () {
   }
   const boutShares = () => S.unc ? strengths(M.sd, drawCtx(true), kOf(S.kmode, true)).p : M.st.p;
   function showControls() {
-    const ff = !!(M && M.ff); $('distf').hidden = !ff; $('kf').hidden = ff; $('uncf').hidden = ff; $('even_btn').hidden = ff; $('batch').textContent = ff ? 'Run 100 fights' : 'Run 1,000 bouts';
+    const ff = !!(M && M.ff); $('distf').hidden = !ff; $('kf').hidden = ff; $('uncf').hidden = ff; $('sprf').hidden = ff || S.mode === 'basic'; $('even_btn').hidden = ff; $('batch').textContent = ff ? 'Run 100 fights' : 'Run 1,000 bouts';
     $('b_crowd').disabled = $('b_corr').disabled = !DATA.animals[S.a].dino;
   }
   function renderEmpty() {
@@ -748,7 +755,7 @@ if (typeof document !== 'undefined' && DATA) (function () {
   function newBout() {
     if (!M) return;
     if (M.ff) { B = ffInit(M.F, S.dist, false); B.names = M.sd.map(desc); PX = cv.width / (B.AX * 2.4); $('status').textContent = B.names.join(' against ') + ', starting ' + S.dist + ' m apart'; return; }
-    const p = boutShares(); B = mkBout(M.F, drawBout(M.F, p, M.lam, true)); B.names = M.sd.map(desc); PX = cv.width / (B.AX * 2.4);
+    const p = boutShares(); B = mkBout(M.F, drawBout(M.F, p, M.lam, true), S.spread); B.names = M.sd.map(desc); PX = cv.width / (B.AX * 2.4);
     $('status').textContent = B.names.join(' against ') + ': ' + (M.sd.length === 3 ? p.map((v, i) => NAMES[i] + ' ' + pct(v)).join(', ') : pct(p[0]) + ' for ' + sideName(0)) + (S.unc ? ' this bout' : '');
   }
   const downOf = (W, t) => W.units.filter(u => u.team === t && u.kind >= 0 && (u.hp <= 1e-9 || u.aband)).length;
@@ -925,35 +932,43 @@ if (typeof document !== 'undefined' && DATA) (function () {
   function encode() {
     const side = s => s.length ? s.map(e => e.n + byId[e.id].code).join('-') : 'e'; let body;
     if (S.mode === 'basic') { const a = DATA.animals[S.a]; body = S.nf + byId[S.f].code + '-v-' + S.na + byId[(a.dino ? (S.basis === 'corr' ? 'x' : 'c') : 'a') + S.a].code; } else body = cur().map(side).join('-v-');
-    return ({ basic: 'b', adv: 'a', bat: 'w' })[S.mode] + '-' + body + (S.kmode !== 'crowd' ? '-k' + (S.kmode === '1' ? 1 : 7) : '') + (S.dist !== 40 ? '-d' + S.dist : '') + (S.unc ? '-u' : '');
+    return ({ basic: 'b', adv: 'a', bat: 'w' })[S.mode] + '-' + body + (S.kmode !== 'crowd' ? '-k' + (S.kmode === '1' ? 1 : 7) : '') + (S.dist !== 40 ? '-d' + S.dist : '') + (S.unc ? '-u' : '') + (S.spread && S.mode !== 'basic' ? '-s' : '');
   }
   function decode(h) {
     const tok = String(h || '').replace(/^#/, '').toLowerCase().split('-'), mode = { b: 'basic', a: 'adv', w: 'bat' }[tok[0]]; if (!mode) return false;
-    const got = [[]]; let kmode = 'crowd', dist = 40, unc = false;
+    const got = [[]]; let kmode = 'crowd', dist = 40, unc = false, spread = false;
     for (const t of tok.slice(1)) {
       const m = /^(\d{1,3})([facxtlhr][0-9a-z]{4})$/.exec(t);
       if (m) { const ty = byCode[m[2]]; if (ty) got[got.length - 1].push({ id: ty.id, n: clamp(+m[1], 1, 300) }); }
-      else if (t === 'v') got.push([]); else if (t === 'k1') kmode = '1'; else if (t === 'k7') kmode = '0.7'; else if (/^d\d{1,3}$/.test(t)) dist = clamp(+t.slice(1), 10, 200); else if (t === 'u') unc = true;
+      else if (t === 'v') got.push([]); else if (t === 'k1') kmode = '1'; else if (t === 'k7') kmode = '0.7'; else if (/^d\d{1,3}$/.test(t)) dist = clamp(+t.slice(1), 10, 200); else if (t === 'u') unc = true; else if (t === 's') spread = true;
     }
     if (mode === 'basic') {
       const f = got[0] && got[0][0], a = got[1] && got[1][0]; if (!f || !a || !byId[f.id].human || byId[a.id].human) return false;
       S.f = f.id; S.nf = clamp(f.n, 1, 100); S.a = +a.id.slice(1); S.na = clamp(a.n, 1, 12); S.basis = a.id[0] === 'c' ? 'crowd' : 'corr';
     } else { const L = got.slice(0, 3).map(s => s.slice(0, 4)); while (L.length < 2) L.push([]); if (mode === 'adv') L.forEach(s => s.forEach(e => { e.n = Math.min(e.n, 40); })); S[mode] = L; S.pre[mode] = ''; }
-    S.mode = mode; S.kmode = kmode; S.dist = dist; S.unc = unc; return true;
+    S.mode = mode; S.kmode = kmode; S.dist = dist; S.unc = unc; S.spread = spread; return true;
   }
   function saveHash() { const h = encode(); try { if (location.hash.slice(1) !== h) history.replaceState(null, '', '#' + h); } catch (e) { try { location.hash = h; } catch (e2) { /* a frame that allows neither: the link button still works */ } } }
 
   // ---------- controls ----------
   const change = () => { clearTimeout(timer); timer = setTimeout(rebuild, 60); };
   const grouped = (list, sel) => { let h = '', g = null; for (const o of list) { if (o.g !== g) { h += (g === null ? '' : '</optgroup>') + `<optgroup label="${esc(o.g)}">`; g = o.g; } h += `<option value="${o.v}"${String(o.v) === String(sel) ? ' selected' : ''}>${esc(o.l)}</option>`; } return h + '</optgroup>'; };
-  const options = sel => grouped(TYPES.filter(t => t.pick !== false).sort((a, b) => !!b.army - !!a.army).map(t => ({ v: t.id, l: t.army ? t.army.name : t.human ? t.ref.name : t.label, g: t.group })), sel);
-  const races = (id, cur, f) => `<select id="${id}" class="race" aria-label="Race" title="The body under the training and the arms: a human's, or a Titan's or an Alaarn's. Titans and Alaarn are a fantasy race from the story ROTG; see the notes."><option value="f"${cur === 'f' ? ' selected' : ''}>Human</option>` + `<optgroup label="ROTG (fantasy)">${['t', 'l'].map(r => `<option value="${r}"${cur === r ? ' selected' : ''}${f.v[r] ? '' : ' disabled'}>${RNAME[r]}</option>`).join('')}</optgroup></select>`;
+  // The first choice in a row is what kind of thing it is: a race (the body under a class), a named character of a themed copy, or an animal;
+  // the second lists only what belongs there. "Dinosaur" is every sauropsid here (the eagle included) and "Mammal" every synapsid.
+  const isChar = f => f.group === 'ROTG characters', hasChars = DATA.fighters.some(isChar), saur = a => !!a.dino || a.shape === 'bird';
+  const catOf = id => army(id) ? id[1] : person(id) ? (isChar(fOf(id)) ? 'k' : id[0]) : saur(byId[id].ref) ? 'd' : 'm';
+  const inCat = (t, c) => 'ftl'.includes(c) ? !!t.army || (!!t.human && !isChar(t.ref)) : c === 'k' ? !!t.human && isChar(t.ref) : !t.human && !t.army && saur(t.ref) === (c === 'd');
+  const toCat = (id, c) => 'ftl'.includes(c) ? onRace(raced(id) && catOf(id) !== 'k' ? id : fId('Gladiator, murmillo'), c) : c === 'k' ? 'f' + DATA.fighters.findIndex(isChar) : c === 'd' ? aId('Dakotaraptor') : aId('Lion');
+  const options = (sel, cat) => grouped(TYPES.filter(t => t.pick !== false && (!cat || inCat(t, cat))).sort((a, b) => !!b.army - !!a.army).map(t => ({ v: t.id, l: t.army ? t.army.name : t.human ? t.ref.name : t.label, g: t.group })), sel);
+  const races = (id, cur, f, basic) => { const o = (v, l, off) => `<option value="${v}"${cur === v ? ' selected' : ''}${off ? ' disabled' : ''}>${l}</option>`, lim = 'ftl'.includes(cur);
+    return `<select id="${id}" class="race" aria-label="Race or kind" title="What it is. For a fighter, the body under the training and the arms: a human's, or a Titan's or an Alaarn's (a fantasy race from the story ROTG; see the notes). Dinosaur stands for every reptile and bird here, Mammal for the rest.">` + o('f', 'Human') +
+      `<optgroup label="ROTG (fantasy)">${o('t', 'Titan', lim && !f.v.t)}${o('l', 'Alaarn', lim && !f.v.l)}${hasChars ? o('k', 'Character') : ''}</optgroup>` + (basic ? '' : o('d', 'Dinosaur') + o('m', 'Mammal')) + '</select>'; };
   const agroup = a => a.dino ? 'Dinosaurs' : a.comp ? 'Dogs and other companions' : 'Wild animals', aorder = ['Dinosaurs', 'Wild animals', 'Dogs and other companions'];
   [['crowd', 'as the crowd\'s own groups do (n^' + DATA.k.toFixed(2) + ')'], ['1', 'in proportion (n^1)'], ['0.7', 'as step 3 of the pipeline assumes (n^0.7)']].forEach(([v, t]) => $('kmode').add(new Option(t, v)));
   function renderSides() {
     const L = cur();
     $('sides').innerHTML = L.map((side, t) => `<div class="side" style="--c:${COL[t]}"><div class="side-h"><span>${NAMES[t]} side</span>${t === 2 ? '<button type="button" class="small" data-drop="1">Remove this side</button>' : ''}</div>` +
-      side.map((e, r) => `<div class="trow${raced(e.id) ? ' p' : ''}"><input type="number" id="c${t}_${r}" min="1" max="${cap1()}" value="${e.n}" aria-label="How many">${raced(e.id) ? races(`r${t}_${r}`, raceOf(e.id), fOf(e.id)) : ''}<select id="t${t}_${r}" aria-label="Kind of fighter or animal">${options(pickId(e.id))}</select><button type="button" data-rm="${t}_${r}" aria-label="Remove this kind">×</button></div>`).join('') +
+      side.map((e, r) => `<div class="trow p"><input type="number" id="c${t}_${r}" min="1" max="${cap1()}" value="${e.n}" aria-label="How many">${races(`r${t}_${r}`, catOf(e.id), raced(e.id) ? fOf(e.id) : ANY)}<select id="t${t}_${r}" aria-label="Kind of fighter or animal">${options(pickId(e.id), catOf(e.id))}</select><button type="button" data-rm="${t}_${r}" aria-label="Remove this kind">×</button></div>`).join('') +
       (side.length < 4 ? `<select class="grab" id="g${t}" aria-label="Place a fighter or an animal on the ${NAMES[t]} side"><option value="">${side.length ? 'Add another kind…' : 'Place someone here…'}</option>${options('')}</select>` : '') + '</div>').join('');
     $('third').hidden = L.length > 2;
   }
@@ -963,17 +978,17 @@ if (typeof document !== 'undefined' && DATA) (function () {
   }
   function syncUI() {
     $('m_basic').checked = S.mode === 'basic'; $('m_adv').checked = S.mode === 'adv'; $('m_bat').checked = S.mode === 'bat'; $('basic').hidden = S.mode !== 'basic'; $('adv').hidden = S.mode === 'basic';
-    $('who').innerHTML = grouped(DATA.fighters.map((f, i) => ({ v: 'f' + i, l: f.name + '  ·  ' + fmt(Math.exp((f.v[S.f[0]] || f).mu)), g: f.group })), pickId(S.f)); $('racebox').innerHTML = races('race', S.f[0], fOf(S.f));
+    $('who').innerHTML = grouped(DATA.fighters.map((f, i) => ({ v: 'f' + i, l: f.name + '  ·  ' + fmt(Math.exp((f.v[S.f[0]] || f).mu)), g: f.group, k: isChar(f) })).filter(o => o.k === (catOf(S.f) === 'k')), pickId(S.f)); $('racebox').innerHTML = races('race', catOf(S.f), fOf(S.f), true);
     $('opp').innerHTML = grouped(DATA.animals.map((a, i) => ({ v: i, l: a.label + '  ·  ' + a.kg.toLocaleString('en-US') + ' kg', g: agroup(a) })).sort((x, y) => aorder.indexOf(x.g) - aorder.indexOf(y.g)), S.a);
     $('n').value = $('nr').value = S.nf; $('na').value = $('nar').value = S.na; $('b_corr').checked = S.basis === 'corr'; $('b_crowd').checked = S.basis !== 'corr';
-    $('kmode').value = S.kmode; $('unc').checked = S.unc; $('dist').value = S.dist; $('distv').textContent = S.dist + ' m';
+    $('kmode').value = S.kmode; $('unc').checked = S.unc; $('spr').checked = !!S.spread; $('dist').value = S.dist; $('distv').textContent = S.dist + ' m';
     if (S.mode !== 'basic') { renderPresets(); renderSides(); }
   }
   $('sides').addEventListener('change', ev => {
     const m = /^([ctgr])(\d)(?:_(\d))?$/.exec(ev.target.id); if (!m) return; const L = cur();
     if (m[1] === 'g') { if (!ev.target.value) return; L[+m[2]].push({ id: placed(ev.target.value), n: army(ev.target.value) ? (S.mode === 'bat' ? 50 : 10) : 1 }); S.pre[S.mode] = ''; renderPresets(); renderSides(); change(); return; }   // one of the kind, to start with
     const e = L[+m[2]][+m[3]]; if (m[1] === 'c') { e.n = clamp(Math.round(+ev.target.value) || 1, 1, cap1()); ev.target.value = e.n; }
-    else { e.id = m[1] === 'r' ? onRace(e.id, ev.target.value) : placed(ev.target.value, e.id); const id = ev.target.id; renderSides(); const el = $(id); if (el) el.focus(); }   // the row may have gained or lost its race
+    else { e.id = m[1] === 'r' ? toCat(e.id, ev.target.value) : placed(ev.target.value, e.id); const id = ev.target.id; renderSides(); const el = $(id); if (el) el.focus(); }   // the row may have gained or lost its race
     S.pre[S.mode] = ''; $('preset').value = ''; change();
   });
   $('sides').addEventListener('click', ev => {
@@ -982,16 +997,18 @@ if (typeof document !== 'undefined' && DATA) (function () {
     S.pre[S.mode] = ''; renderPresets(); renderSides(); change();
   });
   $('third').onclick = () => { cur().push([]); S.pre[S.mode] = ''; renderPresets(); renderSides(); change(); };
-  $('preset').onchange = e => { const v = e.target.value; if (v === '') return; S.pre[S.mode] = v; if (v === 'e') S[S.mode] = [[], []]; else S[S.mode] = preset(S.mode === 'bat' ? BAT : ADV, +v); renderSides(); change(); };
+  $('preset').onchange = e => { const v = e.target.value; if (v === '') return; S.pre[S.mode] = v; const pr = v === 'e' ? null : (S.mode === 'bat' ? BAT : ADV)[+v];
+    if (v === 'e') S[S.mode] = [[], []]; else if (typeof pr[1] === 'string') { decode(pr[1]); S.pre[S.mode] = v; syncUI(); } else S[S.mode] = preset(S.mode === 'bat' ? BAT : ADV, +v);   // a setup is its sides, or a saved link
+    renderSides(); change(); };
   $('m_basic').onchange = $('m_adv').onchange = $('m_bat').onchange = e => { S.mode = e.target.value; syncUI(); change(); };
   $('who').onchange = e => { S.f = placed(e.target.value, S.f); syncUI(); change(); };
-  $('racebox').addEventListener('change', e => { S.f = onRace(S.f, e.target.value); syncUI(); change(); }); $('opp').onchange = e => { S.a = +e.target.value; change(); };
+  $('racebox').addEventListener('change', e => { S.f = toCat(S.f, e.target.value); syncUI(); change(); }); $('opp').onchange = e => { S.a = +e.target.value; change(); };
   const num = (key, a, b, max) => { const set = v => { S[key] = clamp(Math.round(+v) || 1, 1, max); $(a).value = $(b).value = S[key]; change(); }; $(a).onchange = e => set(e.target.value); $(b).oninput = e => set(e.target.value); return set; };
   const setNf = num('nf', 'n', 'nr', 100); num('na', 'na', 'nar', 12);
   $('even_btn').onclick = () => { const f = byId[S.f].ref, a = DATA.animals[S.a], k = kOf(S.kmode, false); setNf(Math.exp((k * Math.log(S.na) + a.mu + (a.dino && S.basis === 'corr' ? a.dmu : 0) - f.mu) / k)); };
   $('b_crowd').onchange = $('b_corr').onchange = e => { S.basis = e.target.value; change(); }; $('kmode').onchange = e => { S.kmode = e.target.value; change(); };
   $('dist').oninput = e => { S.dist = +e.target.value; $('distv').textContent = S.dist + ' m'; change(); };
-  $('unc').onchange = e => { S.unc = e.target.checked; change(); }; $('fight').onclick = newBout; $('reset').onclick = () => { T.n = 0; T.w = [0, 0, 0]; T.d = [0, 0, 0]; renderTally(); };
+  $('unc').onchange = e => { S.unc = e.target.checked; change(); }; $('spr').onchange = e => { S.spread = e.target.checked; change(); }; $('fight').onclick = newBout; $('reset').onclick = () => { T.n = 0; T.w = [0, 0, 0]; T.d = [0, 0, 0]; renderTally(); };
   $('batch').onclick = () => {
     if (!M) return;
     if (M.ff) { for (let i = 0; i < 100; i++) { const W = ffRun(M.F, S.dist); T.n++; T.w[W.win]++; for (let t = 0; t < W.T; t++) T.d[t] += downOf(W, t); } }
