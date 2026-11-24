@@ -544,5 +544,33 @@
     "rating_points": 1121.678714678929
    }
   }
+ },
+ "mount": {
+  "duel": 1.5,
+  "k": 1.4419766991887197,
+  "horses": {
+   "Wild Horse": {
+    "score": 29.3194,
+    "label": "Horse",
+    "kg": 400,
+    "length": 2.2,
+    "shape": "hoof",
+    "coat": "horse",
+    "body": "#7a5536",
+    "dark": "#2b1d12",
+    "accent": "#a0764f"
+   },
+   "Shire Horse": {
+    "score": 107.406,
+    "label": "Shire Horse",
+    "kg": 900,
+    "length": 2.6,
+    "shape": "hoof",
+    "coat": "horse",
+    "body": "#3d2e24",
+    "dark": "#17110d",
+    "accent": "#e9e4da"
+   }
+  }
  }
 }
