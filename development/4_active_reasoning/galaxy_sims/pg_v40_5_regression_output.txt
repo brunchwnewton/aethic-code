@@ -1,0 +1,971 @@
+
+== v40.0-1. Entry 489: the sphere of references read again -- its center, a reference at a point of the line, the tilt as Harrison's boost, the null basis, the clock factors, the entropy over the sphere; Entries 518-519: the Hopf circle of references, a tilt that varies, two bodies' references, the shared far reference, a move that keeps it, and two moves in either order (R564) ==
+     (a) The center [T/V].  On Kerr-Newman's line z(s) = (s - M, q, M), s = r - ia cos theta, Kinnersley's form is <z, z> = |s - M|^2 - b^2 with b^2 = M^2 -
+     |q|^2, and equals Delta - a^2 sin^2 theta (400 random points with spin and both charges, <1e-12): the line's null set |s - M| = b is the stationary
+     limit, where -g_tt = 0.  The sheet swap s -> 2M - s keeps the form (<1e-12) and fixes s = M, which is the circle r = M in the equatorial plane -- a
+     point of the line, not an invariant midpoint of the spacetime.  For q = 0 the line there is (0, 0, M), the negative channel, whose complement is the two
+     positive channels: the round 3-sphere of unit references of v39.0-5, on which U(2) acts.
+     (b) A reference at a point of the line [T/V].  The complement of z (two vectors with <x, z> = 0, <1e-12) carries the form with determinant -<z,
+     z>/|z_w|^2 (<1e-12).  Outside the stationary limit, <z, z> > 0, its signature is (1, 1) at 317 of 317 points; inside, (2, 0) at 83 of 83.  So the
+     reference's stabilizer is U(1, 1) outside -- boosts, which at the far end are Harrison's charging (v39.0-4(c)) -- and U(2) inside, which mixes the two
+     positive channels freely: a rule that reads only an inside reference's own position cannot prefer one positive channel to the other.  The counts check
+     the code: the form has signature (2, 1), so by Sylvester's law of inertia they cannot come out otherwise.
+     (c) The far reference [T/V].  The tilt by p of v39.0-5 -- the reference (cos p, e^(i d) sin p, 0) applied to Kerr's line, M = 1, a = 0.7 -- is, read
+     from the far end, a gauge shift Phi -> Phi - k with k = e^(i d) tan p, a clock scale cos p, and Harrison's boost of rapidity b with sin p = tanh b,
+     which takes Kerr to Kerr-Newman with M cosh b and |q| = M sinh b (v39.0-4(c)); the Ernst potentials agree at 300 random points (<1e-12).  The
+     rapidities: b = 0.5493 at 30 degrees, b = 1.3170 at 60 degrees, b = 3.1313 at 85 degrees, b = 4.7413 at 89 degrees, b = 7.0440 at 89.9 degrees.  The
+     right angle, the throat, is at infinite rapidity: the far reference has v39's sphere minus its circle of throats.
+     (d) The null basis [D/V].  With n+ = (1, 0, 1) and n- = (1, 0, -1), both null, z = (s - M)(n+ + n-)/2 + M(n+ - n-)/2 + q e2 (<1e-12): the background
+     rides the sum of the two null directions, the mass their difference, the charge the third direction -- the sum and difference of v38.2's lanes S and D
+     in form, nothing yet making the two null directions lanes.  (e) The clock factors [T/V]: two references read the same line with -g_tt in the ratio Omega
+     = |<z, n1>/<z, n2>|^2, and three such factors compose, Omega_12 Omega_23 = Omega_13, an identity of ratios, checked as such (<1e-12, 200 random
+     triples).
+     (f) The entropy over the sphere [T/V].  The tilted closing Kerr-Newman(M, M sin p, a cos p) has r+ = M + c0 cos p, c0 = sqrt(M^2 - a^2), so S(p) = pi[(M
+     + c0 cos p)^2 + a^2 cos^2 p] (200 random holes, <1e-12).  For M = 1, a = 0.7: S(0) = 10.770277, S(90 degrees) = 3.141593 = pi M^2, and S''(0) =
+     -10.770277 = -2 pi M r+ = -10.770277, by a jet.  For Schwarzschild, S(0) - S(90 degrees) = 3 pi M^2 = 9.424778 M^2.  Under the weight e^S that v38.2
+     assumed (an assumption, not a measure on references), the untilted reference is the peak, and the tilt's spread is (-S''(0))^(-1/2) = (2 pi M r+)^(-1/2)
+     in Planck units: 0.304710 for M = 1, a = 0.7, against Schwarzschild's (4 pi M^2)^(-1/2) = 0.282095 at M = 1 -- for Schwarzschild, 3.088e-39 rad at a
+     solar mass (GM/c^2 = 1476.625 m from the IAU's nominal GM, the Planck length CODATA 2022's) -- and, for Schwarzschild, the charge's spread, M times it,
+     is 1/(2 sqrt(pi alpha)) = 3.3023 electron charges at any mass (alpha from CODATA 2022); the throat is suppressed by e^(-3 pi M^2).
+     (g) The Hopf circle of references [T/V].  Entry 518 asks where the ordinary/ortho choice sits relative to the sphere of references.  The sphere of
+     v39.0-5 is the unit 3-sphere |e1|^2 + |e2|^2 = 1 of the two positive channels, and its Hopf circle, the overall phase e -> e^(i alpha) e, is the NUT
+     phase: the line with e^(i alpha) e has the Ernst potentials of the line with e and mass M e^(-i alpha) an identity of the projective line, the two lines
+     differing by the overall factor e^(i alpha) (checked at 200 random references and phases, <1e-12), and the half-turn alpha = pi gives mass -M, the other
+     sheet.  So on the sphere of references, as on the canonical space, the Hopf half-turn is the antipodal map.  The tori |e1| = cos p close down on two
+     linked circles, the Kerr-NUT circle e2 = 0 and the throat circle e1 = 0.  That a map from the canonical Hopf and meridian data sends the ordinary
+     reading to the first and the ortho reading to the second is a conjecture; nothing here tests it, and v37.8's two obstructions to a global exchange
+     stand.
+     (h) A tilt that varies [T/V].  The tilt is a symmetry only as a constant: on Kerr's three-metric (M = 1, a = 0.7), the tilted line keeps the Ernst
+     equations at 300 random points and references (<1e-12, exact derivatives by jets), while a tilt that falls off with r breaks them -- relative residual
+     p0 (2M/r): 2.28e-02 to 1.64e-01; p0 (2M/r)^2: 3.66e-02 to 2.76e-01 (100 random points each, p0 from 0.2 to 0.8).  The charge such a tilt would read, M
+     sin p(r), is 0.445326 at r = 2.6, 0.149438 at r = 8, 0.023998 at r = 50 for p = 0.6 (2M/r): it would need charge spread through space.  So a reference
+     that turns toward the throat near the hole is not a member of the family read at each radius; it needs a field of its own with its own equation, which
+     the archive does not have (the response's caution).
+     (i) Two bodies' references [T/V; premise].  Entry 519 proposes that tilting into ortho about one body reveals other degrees of freedom than about
+     another.  Premise: what a body's located reference z leaves open is its complement, the plane <x, z> = 0, with the form-orthogonal projector P = 1 - z
+     <., z>/<z, z>.  For 400 random pairs of Kerr-Newman lines at random points, masses 1 and 0.3 to 3: the two planes span the three channels in 400 of 400,
+     and share one line, orthogonal to both references and kept by both projectors (<1e-12) -- positive in 345 pairs and negative in 55: two bodies together
+     miss nothing, since each misses only its own reference line.  The projectors commute only when the references are form-orthogonal (commutator <1e-12 for
+     such a pair; at least 1.76e-02 over the random pairs), and Tr(P_A P_B) = 1 + |<zA, zB>|^2/(<zA, zA><zB, zB>) (the same 400 pairs).  When both references
+     lie inside their stationary limits -- two holes, M = 1 with a = 0.7, q = 0.3 and a = 0.6, q = 0.2, at random points inside, 2000 pairs -- the ratio is
+     at least 1 in 2000 (smallest 1.012410): two negative vectors obey the reversed Cauchy-Schwarz inequality, so the count checks the code, and the ratio is
+     cosh^2(rho/2), rho their distance in the complex hyperbolic plane with the Bergman metric of curvature between -1 and -1/4 (Goldman's normalization).
+     This is the response's three-mode example in Kinnersley's channels; the premise, and a parent mode space larger than three channels, are not derived.
+     (j) The shared far reference [T/V].  Far out every asymptotically flat body's line tends to e1 = (1, 0, 0), the far reference.  A located reference z
+     with <z, z> > 0 and e1 span a plane of signature (1, 1), and |<z, e1>|^2/<z, z> = cosh^2 d with sinh d = b/sqrt(<z, z>), b^2 = M^2 - |q|^2 (300 random
+     points, <1e-12).  For M = 1, a = 0.7, Q = 0.5 on the equator: d = 3.0397 at r = 1.87, d = 1.3170 at r = 2, d = 0.4636 at r = 3, d = 0.0965 at r = 10, d
+     = 0.0087 at r = 100 (b/r = 0.00866 at r = 100), infinite at the stationary limit, r = 1.866025.  So every body's reference is the same where space is
+     nearly flat and peels away from it toward the stationary limit; the shared mode is fixed by the condition at infinity, which is global, not by local
+     flatness.
+     (k) A move that keeps the far reference [T/V].  The mid-build message after Entry 519 proposes that a tilt about one mass, followed by moving the
+     reference back out, locks in a new Minkowski mode.  A tilt with the clock and gauge reset at infinity is a Harrison boost, which lies in the far
+     reference's stabilizer (it fixes e1, <1e-12); applied to an uncharged seed, or with its phase equal to the seed's charge phase modulo pi, it maps one
+     asymptotically flat solution to another.  With any other phase it gives the mass channel a phase, a NUT charge: B(0, 0.5) leaves Kerr's w = 1.127626
+     real, and B(1.2, 0.7) after it gives w = 1.558599 - 0.368430 i; the stabilizer's phase diag(1, 1, e^(i gamma)) likewise turns Schwarzschild into
+     Taub-NUT.  Fixing the far reference does not by itself keep asymptotic flatness.  On a static seed of two Curzon bodies, uncharged, masses 1 and 0.5 at
+     z = 3 and -3, a boost of rapidity 0.8: far out the mass is M cosh b and the charge M sinh b, the relative departures falling as 1/r (1.6e-04 at r = 1e4,
+     1.6e-07 at r = 1e7, two directions); and Gauss's law about each body, the flux of f^-1 grad Phi through a sphere of radius 2 about it with exact
+     derivatives, gives charges 0.888106, 0.444053 = m_i sinh b = 0.888106, 0.444053 (<1e-12 relative), and 1.332159 about both.  So on this seed a boost
+     that keeps the far reference and asymptotic flatness re-renders every mass at once, each charged in proportion to its own mass; it cannot act on one
+     body alone.  Bringing bodies in and out, as the message pictures, needs transformations beyond SU(2,1), such as the dressing maps of the stationary
+     axisymmetric equations (Belinski and Zakharov; Geroch's group), not computed here.
+     (l) Two moves in either order [T/V].  The response titled Entry 521 asks whether excursions about two bodies commute, U_A U_B against U_B U_A.  In the
+     far reference's stabilizer, two Harrison boosts with charge phases d1, d2 and rapidities b1, b2 -- each keeping e1 -- applied to Kerr's line (M = 1, a =
+     0.7) in the two orders give the same charge v, the same |w| and opposite phases of w, arg(1 + tanh b1 tanh b2 e^(i(d2 - d1))), each a solution (Ernst
+     equations at 20 random points each; <1e-12 over all): d = 0, 1.2000, b = 0.5, 0.7: |v| = 1.250988, |w| = 1.601553, phases +0.232124 and -0.232124; d =
+     0.3, 2.0000, b = 1, 1: |v| = 2.393667, |w| = 2.594155, phases +0.556186 and -0.556186; d = 0, 1.5708, b = 0.2, 0.2: |v| = 0.290446, |w| = 1.041325,
+     phases +0.038937 and -0.038937.  A phase of the mass channel against the reference is a NUT charge (v39.0-5(a)), so both composites carry one, each with
+     its Misner string, and neither is asymptotically flat; the two orders give NUT charges of opposite sign at the same charge.  The two are mirror images:
+     the second line is the complex conjugate of the first at theta -> pi - theta with the charge's phase rotated, and a NUT charge is a pseudoscalar, so the
+     sign is physical relative to an orientation fixed beforehand, the seed's, and not otherwise.  This is a holonomy of the kind the response proposes,
+     within SU(2,1), with that proviso on its test that source data change; whether the archive's excursions are these moves is not derived.
+   [PASS] v40.0-1: <z, z> = |s - M|^2 - b^2 is the stationary limit, the sheet swap fixes s = M; a reference's complement is (1, 1) outside and (2, 0) inside; the far reference reads the tilt as Harrison's boost, sin p = tanh b; S''(0) = -2 pi M r+; the Hopf half-turn of a reference is the other sheet; a tilt that varies with r breaks the Ernst equations; two bodies' complements share one line and span the channels; sinh d = b/sqrt(<z, z>) from the far reference; a Harrison boost charges every body, m_i sinh b; two boosts in either order differ by opposite NUT phases
+
+== v40.0-2. Entries 489-490: the C-metric beside Kerr -- rods, one polynomial's three roots, the swap of time and angle, two holes, the foci, and Kerr's rods (R565) ==
+     (a) Rods [T/V].  In Hong and Teo's form, m = 1, A = 0.12, the coordinates (rho, z) are isothermal for the two-metric dx^2/G(x) - dy^2/G(y), G = (1 -
+     xi^2)(1 + 2mA xi) (200 random points, the derivatives exact by jets, <1e-12); the clock factor f is a constant times Schwarzschild's rod [-m/A, m/A] =
+     [-8.333333, 8.333333] times the semi-infinite rod from 1/(2A^2) = 34.722222, the Rindler horizon's (relative spread of the ratio at 400 points <1e-12).
+     The inertial background is the limit in which the Rindler rod recedes to infinity.
+     (b) One polynomial, three roots [T/V].  The hole's horizon y = -1/(2mA), the Rindler horizon y = -1 -- the root it shares with the outer axis x = -1 --
+     and the inner axis x = 1: surface gravities kappa_hole = 0.235600 and kappa_R = 0.091200 (v38.2's 0.235600 and 0.091200), the inner axis's factor
+     0.148800.  The reciprocals of G' at the three roots sum to zero (<1e-12; 300 random (m, A), <1e-12), which is 1/kappa_R = 1/kappa_hole + 1/kappa_inner:
+     the periods 2 pi/kappa_R = 68.894576 and 2 pi/kappa_hole + 2 pi/kappa_inner = 68.894576.  In Weyl's z the outer axis is the half-axis z < -m/A that runs
+     to infinity (100 of 100 random points below -m/A, the point next to the corner at -5.28e+07) and the inner axis the segment between the hole's rod and
+     the Rindler rod (100 of 100 between m/A and 1/(2A^2)).  With the inner axis regular, the outer axis carries the deficit, as a fraction of the circle, 1
+     - kappa_R/kappa_inner = 0.387097 = kappa_R/kappa_hole = T_R/T_hole = 0.387097 = 4 mu, mu = mA/(1 + 2mA) = 0.096774: v38.2's string, on the half-axis
+     that reaches infinity.  With the outer axis regular instead, the inner axis carries an excess, kappa_inner/kappa_R - 1 = 0.631579, the strut.  No string
+     means a Rindler horizon infinitely colder than the hole; equal temperatures need the whole circle as deficit, at 2mA = 1.
+     (c) The swap of time and angle [T/V].  f -> rho^2/f, which turns horizons into axes and axes into horizons, maps the C-metric to a C-metric, the hole's
+     rod and the gap to the Rindler rod exchanged: 2mA = 0.240000 -> (1 - 2mA)/(1 + 6mA) = 0.441860, m' = 1.707352, A' = 0.129399 (the ratio's relative
+     spread at 400 points <1e-12); the map is an involution (back to 0.240000), the tensions mu = 0.096774 and mu' = 0.153226 add to 0.250000, and 2mA = 1/3
+     is self-dual.  The C-metric, not Kerr, is the self-dual object of this swap.
+     (d) Two holes [T/V].  Bach and Weyl's two Schwarzschild holes on the axis, the first's rod [-1, 1] in units of its half-length and the second's starting
+     at 1/(2mA): as the second grows, the clock factor tends to the C-metric's, 1.73e-02 at a mass ratio of 1e+02 (strut force 0.153919); 1.75e-04 at a mass
+     ratio of 1e+04 (strut force 0.157854); 1.75e-06 at a mass ratio of 1e+06 (strut force 0.157894), against the C-metric's strut mA/(1 - 2mA) = 0.157895,
+     its defect placed between the horizons instead of outside them.  The rods' cross-ratio is (1 + 2mA)/(1 - 2mA) = 1.631579, the string (1 - 1/chi)/4 =
+     0.096774 and the strut (chi - 1)/4 = 0.157895.  So the C-metric is a Schwarzschild hole near the horizon of a huge companion, Astorino's reading
+     (arXiv:2312.00865).
+     (e) Without mass [T/V]: the C-metric's slice is flat, (z, rho) = (sqrt(y^2 - 1), sqrt(1 - x^2))/(A(x - y)) its bispherical coordinates (exact by jets,
+     <1e-12), with the foci at z = +-1/A = +-8.333333: the hole and its mirror partner, a real pair, where Kerr's massless limit has the imaginary pair +-ia
+     (v38.2).  (f) Kerr's rods [T/V]: Kerr's rod is [-c, c], c = sqrt(M^2 - a^2) = 0.714143 at M = 1, a = 0.7, and s - M = (M/2c)(e^(-i lam) R+ + e^(i lam)
+     R-), R+- the distances to the rod's ends, sin lam = a/M (<1e-12, 200 points): spin gives the two ends opposite phases, while acceleration adds a rod and
+     leaves the line alone.  [D] The rotation's plane x-y and the boost's plane t-z are Hodge duals; every static Killing horizon has Ernst potential E = 0,
+     so the two horizons share their image in the target space, a finite rod and a semi-infinite one mapping onto it.
+   [PASS] v40.0-2: the C-metric's clock is Schwarzschild's rod times Rindler's; sum 1/G' = 0 makes the deficit fraction T_R/T_hole = 4 mu; the time-angle swap maps it to a C-metric with mu + mu' = 1/4; two holes tend to it, the strut to mA/(1 - 2mA)
+
+== v40.0-3. Entries 491-492 and the follow-up of 20 November: the region between the two horizons -- the rectangle, its corners, the accelerating Kerr hole and the sum rule with four roots, and a light ring that a reference does not carry (R566) ==
+     (a) The rectangle [T/V].  With time periodic, the static C-metric's two-metric between the horizons, m = 1, A = 0.12, is conformal to a rectangle whose
+     sides are the hole's horizon, the inner axis, the Rindler horizon and the outer axis: width (axis to axis) 3.176635 and height (horizon to horizon)
+     3.527014 by quadrature, aspect 1.110299 = K(k')/K(k) = 1.110299, the complete elliptic integrals by the arithmetic-geometric mean, with k^2 = 2u/(1 + u)
+     = 0.387097, u = 2mA, which is 4 mu and T_R/T_hole (v40.0-2(b)), and k'^2 = 0.612903 = the axes' conical factors' ratio 0.612903.  The swap of time and
+     angle (v40.0-2(c)) turns the rectangle a quarter turn: the dual's aspect is 0.900658 = 1/1.110299, and 2mA = 1/3 is the square (1.000000).  The
+     conformal midline between the horizons is y = -2.214550, r = -1/(Ay) = 3.762991, between the hole at 2 and the Rindler horizon at 8.333333 (the integral
+     to it over the whole: 0.500000) -- a conformal midpoint, not a proper-distance one.  The string determines the shape.
+     (b) The corners [T/V].  Regular periods, in Hong and Teo's t and phi: the Rindler horizon 8.267349, the same as the outer axis's (one root); the hole's
+     horizon 3.200264; the inner axis 5.067085; the last two add to 8.267349, their shares of the period at infinity 0.387097 = k^2 and 0.612903 = k'^2.
+     Each corner is locally flat C^2 with its two complex lines a horizon and an axis, and the Hopf rotation is boost and rotation turning together: at the
+     corner at infinity the metric is flat C^2 turned inside out, 4|dz|^2/(A^2 (1 - u)^2 |z|^4), with equal periods (exact over model within 1.4e-03,
+     1.4e-05, 1.4e-07 at |z|^2 = 3e-2, 3e-4, 3e-6), so the quarter turn is the leaf's own swap there; at the finite corner of the hole and the inner axis the
+     weights are unequal (within 2.0e-02, 2.0e-04, 2.0e-06).  The string (defect outside) is k^2/4 = 0.096774 and the strut (defect between) k^2/(4 k'^2) =
+     0.157895.
+     (c) With spin [T/V].  The accelerating Kerr hole in Griffiths and Podolsky's form, M = 1, A = 0.12, a = 0.7, is vacuum (Ricci at four points, exact by
+     jets, <1e-12).  Each horizon turns at Omega = a/(r^2 + a^2) at its own radius: the hole at 0.204184, the Rindler horizon r = 1/A at 0.010009, their
+     difference 0.194174 the part independent of the rotating frame.  Their surface gravities, from the metric (the limit by two offsets): hole 0.199495,
+     0.199495 against (r+ - r-)(1 - A^2 r+^2)/(2(r+^2 + a^2)) = 0.199495; Rindler 0.091402, 0.091402 against A(1 - 2MA + a^2 A^2)/(1 + a^2 A^2) = 0.091402.
+     The angular polynomial has four roots, -1/(r- A), -1/(r+ A), -1 and 1, and the reciprocals of its derivative there sum to zero (<1e-12); with the inner
+     horizon's minus sign the sum rule reads deficit/2 pi = [kappa_R/(1 - a Omega_R)] [(1 - a Omega+)/kappa+ - (1 - a Omega-)/kappa-] = 0.384907 = 1 - (axes'
+     factors) = 0.384907 = 4MA/(1 + 2MA + a^2 A^2) = 0.384907, where the two horizons alone give 0.458165.  Charge without spin, q = 0.5: deficit/2 pi =
+     0.385976 = T_R/T_outer - T_R/T_inner = 0.385976.  With spin the rectangle's modulus and the string separate: k^2 = 0.294406 (aspect 1.218083 =
+     K(k')/K(k) = 1.218083) against the deficit 0.384907; at a = 0 both are 0.387097.
+     (d) A light ring that the reference does not carry [T/V].  Tilt Schwarzschild's reference by p: the tilted closing's clock is f = -g_tt = Delta/|(r - M)
+     cos p + M|^2 in the line's own coordinate r, the closing keeping Weyl's rho^2 = Delta sin^2 theta, so its light ring, where g_phiphi/(-g_tt) = rho^2/f^2
+     is extremal in the equatorial plane, d ln(Delta/f^2)/dr = 0, sits at r = 3.000000 at 0 degrees, 3.010302 at 10 degrees, 3.104876 at 30 degrees, 3.732051
+     at 60 degrees (the charged hole's formula moved back to r: 3.000000, 3.010302, 3.104876, 3.732051), where Schwarzschild's is at r = 3: a change of
+     reference relocates points of the line exactly, but a probe's orbit has to be recomputed in each closing.  The round's first numbers, 3.154701 and
+     3.259576 at 30 degrees, were in the tilted hole's own coordinate.
+   [PASS] v40.0-3: the region between the horizons is a rectangle of modulus k^2 = 4 mu = T_R/T_hole, turned a quarter turn by the swap, square at 2mA = 1/3; accelerating Kerr is vacuum and its four roots give the sum rule 4MA/(1 + 2MA + a^2 A^2); a tilt moves the light ring
+
+== v40.0-4. Entry 493 and the follow-up of 20 November: the throat, the entropy along the sphere, the electroweak temperature, and the Higgs condition as a reversed Cauchy-Schwarz inequality (R567) ==
+     (a) The throat's end [T/V].  Without spin, the tilted hole of mass M has charge M sin p, r+ = M(1 + cos p), S/S_Schw = (1 + cos p)^2/4 and T/T_Schw = 4
+     cos p/(1 + cos p)^2 (200 random holes, <1e-12): 0 degrees: S 1.000000, T 1.000000; 30 degrees: S 0.870513, T 0.994845; 60 degrees: S 0.562500, T
+     0.888889; 89 degrees: S 0.258802, T 0.067435; 90 degrees: S 0.250000, T 0.000000.  The entropy falls from 4 pi M^2 to pi M^2 and the temperature to
+     zero: the throat is the cold, low-entropy end, and by the only entropy the archive computes the ordinary reference is the maximum.
+     (b) The electroweak temperature [V].  A hole is hotter than the electroweak crossover, 159.5 GeV (D'Onofrio and Rummukainen 2016), only below M = hbar
+     c^3/(8 pi G k_B T) = 6.629e+07 kg (CODATA 2022's constants); a solar-mass hole is at 6.17e-08 K.  So the lever does nothing in practice.
+     (c) The Higgs condition [T/V/S].  v39.0-11's closing turns the mass term negative when |kappa|^2 > m0^2 M_perp^2.  Premise: the Higgs h and its response
+     field x are two positive-norm directions in the complement of a located reference z (v40.0-1(b)), with m0^2 = mu^2 <h, h>, M_perp^2 = mu^2 <x, x> and
+     kappa = mu^2 <h, x>.  Then m_eff^2 = mu^2 (<h, h> - |<h, x>|^2/<x, x>).  At three references outside the stationary limit (<z, z> = 24.3930, 3.6657,
+     0.6925), m_eff^2 < 0 in 6000 of 6000 random pairs, equal to -mu^2 <h, h> sinh^2 d, d their hyperbolic angle (<1e-12): the reversed Cauchy-Schwarz
+     inequality of a form of signature (1, 1), so that this count and the next check the code, not the claim.  At three inside (-0.1170, -0.7500, -0.5957),
+     m_eff^2 > 0 in 6000 of 6000, equal to +mu^2 <h, h> sin^2 theta (<1e-12): no breaking.  Given the premise, v39's inequality among three parameters
+     becomes one statement about signature; the premise, and where the positive kinetic form comes from, are not derived, and the reading is indexed by where
+     the reference sits, not by a place in spacetime.
+   [PASS] v40.0-4: along the sphere S/S_Schw = (1 + cos p)^2/4 and T/T_Schw = 4 cos p/(1 + cos p)^2; the crossover hole is 6.6e7 kg; with the premise, m_eff^2 < 0 outside the stationary limit and > 0 inside, 6000 of 6000 each
+
+== v40.0-5. The follow-up of 20 November: the type D structure -- a conformal Killing-Yano form, Psi2 and the Killing vector it gives -- and strip, constrain, restore (R568) ==
+     (a) The conformal Killing-Yano form [T/V].  On the principal coframe of the accelerating Kerr family, Y = s_g (e0^e1 - i e2^e3) with s_g = (r - i a cos
+     theta)/(1 - A r cos theta), the orientation fixed on Kerr by the smallest residual of the four choices (<1e-10, 1.6e+00, 1.6e+00, <1e-10); covariant
+     derivatives by fourth-order central differences of exact first derivatives (a complex step), so the residuals measure the differences, at four points
+     each:
+       Schwarzschild: CKY residual <1e-10; Psi2 conj(s_g)^3/M = -1.000000+0.000000i (spread <1e-10); xi = (1.000000+0.000000i) d_t + (0.000000+0.000000i) d_phi (spread <1e-12)
+       Kerr: CKY residual <1e-10; Psi2 conj(s_g)^3/M = -1.000000+0.000000i (spread <1e-10); xi = (1.000000+0.000000i) d_t + (0.000000+0.000000i) d_phi (spread <1e-12)
+       the C-metric: CKY residual <1e-08; Psi2 conj(s_g)^3/M = -1.000000+0.000000i (spread <1e-10); xi = (1.000000+0.000000i) d_t + (0.000000-0.120000i) d_phi (spread <1e-10)
+       accelerating Kerr: CKY residual <1e-08; Psi2 conj(s_g)^3/M = -1.000000+0.084000i (spread <1e-10); xi = (1.000000-0.084000i) d_t + (0.000000-0.120000i) d_phi (spread <1e-10)
+          So Psi2 = -M/conj(s_g)^3 for Kerr and the C-metric, and -M(1 - i a A)/conj(s_g)^3 with spin and acceleration together (a A = 0.084000); the Killing
+     vector xi is the time translation for Kerr, d_t - iA d_phi for the C-metric and (1 - i a A) d_t - iA d_phi for accelerating Kerr.  One complex scalar
+     s_g, whose real and imaginary parts are the radius and Kerr's a cos theta divided by the acceleration's conformal factor, carries both deformations.
+     This is the Plebanski-Demianski family's Killing-Yano structure (Kubiznak and Krtous 2007).
+     (b) Strip, constrain, restore [T/V].  Write the static accelerated family as g = s^2 g_hat with s = 1/(A(x - y)) -- the real part of s_g above -- and
+     g_hat = [G(y) dt^2 - dy^2/G(y)] + [dx^2/H(x) + H(x) dphi^2], a product of two two-dimensional spaces (A = 0.12, Ricci by jets, four points).  With m = 0
+     and G = H = 1 - xi^2 the stripped metric's mixed Ricci tensor is diag(-1, -1, +1, +1) (<1e-12): Bertotti-Robinson geometry, AdS2 x S^2 of equal radii,
+     without its field; restored, it is flat (<1e-12).  With m = 1, one cubic G = H = (1 - xi^2)(1 + 2mA xi) in both sectors restores to vacuum (|Ricci| s^2
+     <1e-12) while the stripped Ricci scalar is 12m/s (<1e-12; for example 3.393969 against 3.393969).  At x = 0.3, y = -2.2, restored: the same quartic term
+     in both sectors, -0.01 xi^4: |Ricci| s^2 = 6.25e-02, trace s^2 = <1e-12; the same quintic term, 0.002 xi^5: |Ricci| s^2 = 7.50e-02, trace s^2 =
+     -6.25e-02; different functions in the two sectors, H = G + 0.01: |Ricci| s^2 = 4.80e-03, trace s^2 = -1.92e-02.  So the constraint on the stripped data
+     is a low-degree polynomial shared by the two sectors: a common quartic term keeps the trace zero (the charge's term, v40.0-6), a quintic fails, and a
+     constant offset between the sectors is a cosmological constant (v40.0-6).  With spin s is complex and the sectors twist.
+   [PASS] v40.0-5: Y = s_g (e0^e1 - i e2^e3) is a conformal Killing-Yano form across the accelerating Kerr family, Psi2 conj(s_g)^3/M = -1 (-(1 - iaA) with both); stripping the conformal factor leaves Bertotti-Robinson at m = 0 and a product constrained to one cubic
+
+== v40.0-6. Entry 495: the charged C-metric -- the field as a sector's area form, Gauss's charge, the offset as a cosmological constant, and the isotropic member (R569) ==
+     (a) Charge [T/V].  The charged C-metric's polynomial is G = (1 - xi^2)(1 + r+ A xi)(1 + r- A xi), r+- = M +- sqrt(M^2 - q^2 - g^2), the same in both
+     sectors (m = 1, A = 0.12).  Einstein-Maxwell holds, R^a_b = (q^2 + g^2)/s^4 diag(-1, -1, +1, +1), with the field the area form of a sector of the
+     stripped metric (Ricci by jets at four points each, relative residual): electric, F = q dt^dy, <1e-12; magnetic, F = g dx^dphi, <1e-12; a dyon, both,
+     <1e-12.  The field itself: R^a_b equals the stress tensor 2(F_ac F_b^c - g_ab F^2/4) of each F, electric <1e-12; magnetic <1e-12; a dyon <1e-12, while
+     with F scaled by 1.2 the residual is at least 0.44 -- and Maxwell's equations hold, sqrt|g| F^ty = -q and sqrt|g| F^xphi = g being constants -- an
+     identity of the metric's form, for any G, H and s, checked as such (<1e-12, <1e-12, <1e-12 at the same points) -- with dF = 0 since F's components are
+     constants.  The polynomial sees only q^2 + g^2 (and a^2 + q^2 + g^2 with spin).  The Hodge dual of a 2-form is conformally invariant in four dimensions:
+     from the metric, (*F)_x phi = sqrt|g| F^ty = -q at y = -2, -5 and -3.3 (<1e-12 for q = 0.5), so the flux of *F through an angular sphere y = const is 2q
+     Delta_phi = 8.228373, 8.228373, 8.228373, the same at every y, with Delta_phi = 8.228373 regular at the outer axis: Gauss's charge needs one sphere, and
+     a second horizon adds only a second closed surface.  The accelerating charge radiates: its Bondi news and electromagnetic radiation field are not zero
+     (Ashtekar and Dray 1981).
+     (b) The offset [T/V].  Add a constant to the time-radial sector's polynomial only, Gt = G + delta: the restored metric has Ricci = Lambda g with Lambda
+     = 3 A^2 delta (jets, four points).  delta = 0: Lambda = 0.000000 (<1e-12), horizons at y = -4.166667 and -1.000000, regular periods hole 3.200264, far
+     horizon 8.267349, outer axis 8.267349, inner axis 5.067085, gap between the far horizon and the outer axis 0.000000; delta = 0.2: Lambda = 0.008640
+     (<1e-12), horizons at y = -4.114347 and -1.128858, regular periods hole 3.378637, far horizon 7.952366, outer axis 8.267349, inner axis 5.067085, gap
+     between the far horizon and the outer axis 0.128858.  With an offset the far horizon leaves the outer axis, so the corner at infinity is cut off: a
+     positive cosmological constant closes the region.  For Lambda to stay finite as A -> 0 the offset must grow as 1/A^2.
+     (c) The isotropic member [T/V/L].  Letting A -> 0 at fixed Lambda gives Schwarzschild- and Reissner-Nordstrom-de Sitter (the limit Podolsky and
+     Griffiths's, quoted, not computed here), f = 1 - 2M/r + Q^2/r^2 - r^2/L^2; for M = 1 and L = 10: Q = 0: the hole's horizon r = 2.091488, the equatorial
+     horizon r = 8.788851, surface gravities 0.207692 and 0.074942 (ratio 0.360835); Q = 0.6: the hole's horizon r = 1.873634, the equatorial horizon r =
+     8.819646, surface gravities 0.211390 and 0.075865 (ratio 0.358888); Q = 1: the hole's horizon r = 1.127017, the equatorial horizon r = 8.872983, surface
+     gravities 0.077460 and 0.077460 (ratio 1.000000).  At |Q| = M the two temperatures are equal, the lukewarm solution (Romans 1992); the two antipodal
+     appearances of one source then carry the same mass and opposite charges (v40.0-7), so identifying them needs charge conjugation.
+   [PASS] v40.0-6: the charged C-metric solves Einstein-Maxwell with the field a sector's area form (electric, magnetic, dyon), its Gauss charge the same through every angular sphere; an offset between the sectors is Lambda = 3 A^2 offset; RN-de Sitter is lukewarm at |Q| = M
+
+== v40.0-7. Entry 497: Law I on the leaf -- the two-sided hole as two antipodal poles, charge as their mismatch, the closed leaf -- and the mirror acceleration (R570) ==
+     (a) Schwarzschild as two antipodal poles [T/V].  The time-symmetric slice of the two-sided hole is the round unit 3-sphere times psi^4 with psi =
+     (sqrt(M)/2)[1/sin(chi/2) + 1/cos(chi/2)], which solves (Laplacian - 3/4) psi = 0 away from the poles (exact by jets, <1e-12): a linear equation on the
+     sphere, one pole at each antipode.  Its areal radius psi^2 sin chi is M(1 + 1/sin chi) (<1e-12), 2.000000 = 2M at the equator, 4.383863 at chi = 0.3 and
+     4.383863 at pi - 0.3: the horizon is the equator, the two poles are the two far regions.  The mass is 4 times the product of the poles' weights, here 4
+     (sqrt(M)/2)^2 = 1.000000.  The antipodal quotient is the RP^3 geon, Schwarzschild with one exterior.  In this exact picture the poles are the far
+     regions and the hole is the equator -- the reverse of v34's mass at a pole, whose closed-leaf form is (c).
+     (b) Charge as the poles' mismatch [T/V].  For Reissner-Nordstrom (M = 1, Q = 0.6) the factor splits, psi^2 = psi+ psi-, each factor solving the same
+     equation (<1e-12), the areal radius psi+ psi- sin chi = M + c/sin chi, c = sqrt(M^2 - Q^2) (<1e-12).  One factor's weights at its two poles are in the
+     ratio 2.000000 = e^b with tanh b = Q/M (e^(atanh 0.6) = 2.000000), the rapidity of the tilt (v40.0-1(c)); the antipodal map turns one factor into the
+     other (<1e-12): mass is the symmetric part of the two appearances, charge the antisymmetric part, and the map is charge conjugation.  The quotient
+     exists with a twisted bundle for the field; a rotating geon in four dimensions, if one exists, cannot be deformed to zero spin (Louko, Mann and Marolf
+     2005).
+     (c) The closed leaf [T/V].  Law I's linearized potential on the leaf obeys (Laplacian + 3) dphi = -2 pi drho (IV.3), and its even point source, a mass
+     at a pole with its twin at the antipode, is F = cos 2chi/sin chi = csc chi - 2 sin chi (XXV.2; <1e-12): (Laplacian + 3) F = 0 away from the poles
+     (<1e-12, exact by jets), while (Laplacian + 3) csc chi = 4 csc chi (<1e-12).  The profile csc chi alone, -M/r with r = l sin chi, solves (Laplacian - 1)
+     f = 0 (<1e-12), the weight-8 linearization of v40.0-9(b), not Law I's.  With f = y/sin chi, (Laplacian + 3) f = (y'' + 4y)/sin chi: Law I's operator is
+     not screened, its radial solutions oscillating.
+     (d) The mirror acceleration [T/V].  The polynomial G = (1 - xi^2)(1 + r+ A xi)(1 + r- A xi) is symmetric about the midpoint of the roots of the hole's
+     horizon and the Rindler horizon when A = c/(a^2 + q^2), c = sqrt(M^2 - a^2 - q^2), which needs charge or spin.  Charge alone, q = 0.95: A = 0.345983, r+
+     A = 0.454017, root gaps 2.000000 and 2.000000, symmetry <1e-12, surface gravities 0.143952 (hole) and 0.143952 (Rindler), deficit/2 pi 0.768852, the
+     roots' midpoint at r = 1.805000 between 1.312250 and 2.890313; Spin 0.7 with q = 0.6: A = 0.455645, r+ A = 0.632116, root gaps 2.000000 and 2.000000,
+     symmetry <1e-12, surface gravities 0.096308 (hole) and 0.109671 (Rindler), deficit/2 pi 0.872983, the roots' midpoint at r = 1.700000 between 1.387298
+     and 2.194691.  It exists only if r+ A < 1, a^2 + q^2 > 3M^2/4 (at 3/4 exactly, r+ A = 1.000000).  With charge alone the temperatures are equal, because
+     kappa+ - kappa_A = (1 - A r+)^2 (c - A q^2)/r+^2 exactly (300 random charged holes, <1e-12; the factorization of the response titled Entry 515), whose
+     root A = c/q^2 is the mirror; with spin they differ.  For charge alone the stripped metric is a product and the symmetry of G is a reflection of it, the
+     horizon-swapping mirror, with the sphere at the roots' midpoint as its fixed set; with spin the stripped metric is not a product (the sectors twist,
+     v40.0-5(b)) and the reflection is not an isometry of it.  Its scalar curvature at a mirror pair, 0.1163 on either side of the roots' midpoint in y, x =
+     0.35 (x = -cos theta), with the factor Omega^2/r^2 and then Omega^2/rho^2, is 4.918504 and 4.918504, and 4.918504 and 4.918504, for charge alone (y =
+     -1.7176 and -1.4850), but 5.537228 and 5.577970, and 6.930939 and 6.613142, with spin (y = -1.4073 and -1.1747).  With spin only the polynomial's roots
+     are symmetric.  Mirror and square together, for charge alone: q^2 = 7M^2/8, MA = 2 sqrt(2)/7 = 0.404061, k^2 = 0.500000, surface gravities 0.135253 and
+     0.135253.  The mirror is a symmetry of the stripped geometry, not of the restored metric, and the string remains -- 0.768852 of the circle in the first
+     example.
+     (e) The isotropic counterpart [T/V].  The lukewarm Reissner-Nordstrom-de Sitter hole, |Q| = M, has f = (1 - M/r)^2 - r^2/L^2; its stripped metric r^-2 g
+     = -H(u) dt^2 + du^2/H(u) + dOmega^2, u = 1/r, H = u^2 (1 - Mu)^2 - 1/L^2, is symmetric under u -> 1/M - u (<1e-12), which exchanges the horizons r =
+     1.127017 and 8.872983 (1/r_b + 1/r_c = 1.000000 = 1/M) and fixes r = 2M.
+   [PASS] v40.0-7: Schwarzschild's slice is the round 3-sphere with two antipodal poles, charge their mismatch e^b, tanh b = Q/M; the mirror A = c/(a^2 + q^2) makes the polynomial symmetric, the temperatures equal with charge alone; lukewarm RN-dS mirrors 1/r -> 1/M - 1/r
+
+== v40.0-8. Entries 498-499: the galaxy's image on a leaf -- how close the sine-exponential source renders to an exponential disk, where it leaves it, its tail, and the trade-off with the rotation curve (R571) ==
+     (a) The image [T/V].  Entry 326's leaf profile e^(-k sin chi), k = ell/h, finite and smooth across the equator, renders with mass conserved as Sigma_vis
+     = Sigma_leaf cos^3 chi at R = ell tan chi.  Its ratio to e^(-R/h) on ell = 16, h = 3 kpc at R = 1, 3, 5, 8, 16, 32 kpc: 0.995, 0.966, 0.938, 0.948,
+     1.686, 32.532 (v36.3's 0.995, 0.966, 0.938, 0.948, 1.686, 32.532).  The response's table, ratios at 12, 15, 18 kpc for h = 3: ell = 16: 1.14, 1.50,
+     2.20; ell = 32: 1.06, 1.19, 1.43; ell = 48: 1.03, 1.09, 1.20; ell = 64: 1.02, 1.05, 1.12.  Its mass beyond 15 and 100 kpc: ell = 16: 16.93%, 1.953911%;
+     ell = 32: 7.05%, 0.093733%; ell = 48: 5.23%, 0.002317%; ell = 64: 4.68%, 0.000068% (a pure exponential holds 4.04% beyond 15 kpc); on ell = 16 the image
+     holds 5.8% beyond 36 kpc and 2.16% within 10 degrees of the equator (v36.3's 5.8% and 2.16%).  The leading law: ln(Sigma_vis/e^(-R/h)) = x^2 (x - 3)/(2
+     k^2) + ..., x = R/h -- k = 5.333: x = 1: -0.0347 against -0.0352, x = 2: -0.0700 against -0.0703, x = 3: -0.0271 against +0.0000, x = 4: +0.1306 against
+     +0.2812, x = 6: +0.7870 against +1.8984; k = 16.000: x = 1: -0.0039 against -0.0039, x = 2: -0.0078 against -0.0078, x = 3: -0.0004 against +0.0000, x =
+     4: +0.0285 against +0.0312, x = 6: +0.1847 against +0.2109 -- the cos^3 chi and the tan-sine corrections cancel near three scale lengths (for a volume
+     density the Jacobian is cos^4 chi and the law x^2 (x - 4)/(2k^2)).
+     (b) Where the image leaves the exponential [V].  Deepest dip below the central exponential; radius, in scale lengths, where the image is 0.1, 0.3 and
+     1.0 mag above it; the image's surface brightness there below the center: ell = 16, h = 3 (k = 5.333): dip -0.076 mag at 2.1 h, 3.81, 4.58 and 6.30 h,
+     4.67 mag below the center at the 0.3 mag point; ell = 16, h = 2.6 (k = 6.154): dip -0.057 mag at 2.0 h, 3.86, 4.70 and 6.53 h, 4.81 mag below the center
+     at the 0.3 mag point; ell = 32, h = 3 (k = 10.667): dip -0.019 mag at 2.0 h, 4.36, 5.60 and 7.97 h, 5.78 mag below the center at the 0.3 mag point; ell
+     = 48, h = 3 (k = 16.000): dip -0.008 mag at 2.0 h, 5.05, 6.69 and 9.65 h, 6.96 mag below the center at the 0.3 mag point; ell = 64, h = 3 (k = 21.333):
+     dip -0.005 mag at 2.0 h, 5.74, 7.72 and 11.21 h, 8.08 mag below the center at the 0.3 mag point; k = 40 (k = 40.000): dip -0.001 mag at 2.0 h, 7.89,
+     10.90 and 16.00 h, 11.54 mag below the center at the 0.3 mag point; k = 64 (k = 64.000): dip -0.001 mag at 2.0 h, 10.29, 14.39 and 21.21 h, 15.32 mag
+     below the center at the 0.3 mag point.  A straight line through the image's magnitudes over 1-5, 1-8 and 0.5-10 scale lengths (fitted scale length over
+     h; rms and largest residual, mag): ell = 16, h = 3: 1.117 (0.070, 0.162), 1.360 (0.208, 0.454), 1.491 (0.341, 0.760); ell = 32, h = 3: 1.043 (0.028,
+     0.071), 1.146 (0.117, 0.276), 1.215 (0.221, 0.508); ell = 48, h = 3: 1.021 (0.014, 0.036), 1.073 (0.066, 0.164), 1.111 (0.134, 0.330); ell = 64, h = 3:
+     1.012 (0.008, 0.021), 1.043 (0.041, 0.104), 1.066 (0.086, 0.219).  The leaf needed, k = ell/h, for the image to stay within a tolerance of the
+     exponential out to X scale lengths: 0.1 mag: X = 4: k >= 7.7, X = 5: k >= 15.6, X = 6: k >= 23.5, X = 8: k >= 41.0, X = 10: k >= 60.9; 0.3 mag: X = 4: k
+     >= 2.7, X = 5: k >= 7.8, X = 6: k >= 12.6, X = 8: k >= 22.8, X = 10: k >= 34.4.  Under the frozen arena law h/ell is fixed by the central surface
+     density (Part XII's table): ratios to the exponential at 2, 3, 4, 5 scale lengths, and the local scale length -1/(d ln Sigma_vis/dR) = h/(cos^3 chi + 3
+     sin chi cos chi/k) at 1, 3, 5: Sigma_0 = 1000 Msun/pc^2 (k = 8.33): 0.97, 0.99, 1.09, 1.29; 0.98, 1.06, 1.27 h; Sigma_0 = 300 Msun/pc^2 (k = 4.35):
+     0.90, 0.95, 1.15, 1.58; 0.93, 1.14, 1.60 h; Sigma_0 = 100 Msun/pc^2 (k = 2.38): 0.72, 0.75, 0.94, 1.37; 0.81, 1.17, 1.76 h; Sigma_0 = 50 Msun/pc^2 (k =
+     1.52): 0.49, 0.48, 0.59, 0.85; 0.67, 1.13, 1.74 h; Sigma_0 = 30 Msun/pc^2 (k = 1.02): 0.28, 0.26, 0.31, 0.44; 0.55, 1.08, 1.71 h.
+     (c) The tail [V].  For the benchmark disk, 6e10 Msun, h = 3 kpc, ell = 16 kpc: Sigma_0 = 934 Msun/pc^2 (the flat exponential's M/(2 pi h^2) is 1061; 1
+     Msun/pc^2 = 1.248e+20 hydrogen atoms per cm^2, the solar mass the IAU's nominal GM over CODATA 2022's G, the parsec the IAU's, and the atom's mass m_p +
+     m_e from CODATA 2022, its binding energy below the printed digits).  The image against the exponential, Msun/pc^2: R = 8 kpc: 61.56 against 64.92; R =
+     16 kpc: 7.605 against 4.511; R = 25 kpc: 1.639 against 0.2246; R = 36 kpc: 0.4785 against 0.00574; R = 50 kpc: 0.1646 against 5.398e-05; R = 100 kpc:
+     0.01902 against 3.119e-12; R = 250 kpc: 0.001188 against 6.016e-34.  Beyond 36 kpc the image holds 5.76% = 3.46e+09 Msun, beyond 100 kpc 1.95% =
+     1.17e+09 Msun.  Against the Milky Way's whole stellar halo, 1.4 +- 0.4 e9 Msun (Deason, Belokurov and Sanders 2019), the tail beyond 36 kpc is 2.5 times
+     larger and lies in the disk's plane; against the cool circumgalactic gas of L* galaxies, more than 6.5e10 Msun within the virial radius (Werk et al.
+     2014), spread over a disk of 300 kpc (an assumed radius) -- a mean column of 0.23 Msun/pc^2 -- the tail falls below that column beyond R = 45 kpc.  As
+     surface density the tail disappears into the circumgalactic medium; as mass it does not.
+     (d) The trade-off [V].  The same source as the whole gravitating disk, 6e10 Msun, h = 3 kpc, on leaves of growing radius, by v36's thin-disk solver
+     ported to plain arithmetic (plateau coefficient C, v_inf = sqrt(C G M/ell), and the circular speed in km/s at R = 5, 8, 16, 24, 36, 60 kpc): ell = 16
+     kpc (a = 5.333): C = 2.6434, v_inf = 206.5, v = 178.7, 194.1, 201.1, 203.0, 204.5, 205.7; ell = 24 kpc (a = 8.000): C = 2.9051, v_inf = 176.7, v =
+     179.5, 188.9, 180.5, 175.9, 174.9, 175.6; ell = 32 kpc (a = 10.667): C = 2.9593, v_inf = 154.5, v = 179.7, 186.0, 166.9, 156.2, 152.4, 152.6; ell = 48
+     kpc (a = 16.000): C = 2.9825, v_inf = 126.6, v = 179.4, 182.8, 153.0, 134.7, 125.8, 123.8; ell = 64 kpc (a = 21.333): C = 2.9901, v_inf = 109.8, v =
+     179.2, 181.5, 147.1, 124.6, 111.9, 107.1; ell = 96 kpc (a = 32.000): C = 2.9956, v_inf = 89.7, v = 179.0, 180.5, 142.5, 116.3, 99.3, 89.4; Freeman's
+     flat exponential disk, the large-leaf limit: 178.8, 179.6, 138.5, 108.7, 86.2, 66.0.  The archive's Milky Way reference is 229 km/s at the Sun, falling
+     1.7 km/s per kpc (Eilers et al. 2019, v36.0-1): the leaves that make the image exponential lose the flat curve.
+   [PASS] v40.0-8: Entry 326's sine-exponential renders as exponential to 0.3 mag out to 4.6 h on ell = 16 kpc and 6.7 h on 48; its tail holds 5.8% beyond 36 kpc; v36's solver ported reproduces C = 2.6434, and the leaves that fix the image lose the flat curve
+
+== v40.0-9. Entries 500-501: the conformal factor that the constraint fixes -- the curvature, the linearized operator and its weight, the size for a galaxy -- the one conformal rendering of constant curvature with the equator at infinity, and the projective readouts (R572) ==
+     (a) The curvature [T/V].  The scalar curvature of psi^4 x (the round unit 3-sphere), by psi^-5 (6 psi - 8 Lap psi) and from the warped form dr^2 + S^2
+     dOmega^2 (exact by jets), at chi = 0.4, 0.9, 1.3: psi = 1, the round leaf: 6.000000 / 6.000000, 6.000000 / 6.000000, 6.000000 / 6.000000; psi^2 = 1/cos
+     chi, the hemisphere made hyperbolic: -6.000000 / -6.000000, -6.000000 / -6.000000, -6.000000 / -6.000000; v40.0-7's psi, Schwarzschild: 0.000000 /
+     0.000000, 0.000000 / 0.000000, 0.000000 / 0.000000; psi = 1 + 0.1 cos^2 chi, a control: 6.880774 / 6.880774, 5.877957 / 5.877957, 4.729248 / 4.729248.
+     (b) The constraint and its weight [T/V].  The time-symmetric Hamiltonian constraint -8 Lap psi + 6 psi = (16 pi G rho + 2 Lambda) psi^5 holds with psi =
+     1 when 16 pi G rho_b + 2 Lambda = 6/ell^2 (the Einstein-static split, 4 and 2 in units of 1/ell^2).  With psi = 1 + u and a density prescribed at
+     conformal weight n -- rho = psi^-n rho_n with rho_n given: n = 0 the physical density, n = 6 the mass in each leaf cell (the volume element is psi^6
+     dV), n = 8 York's scaling -- the linear equation is (Lap + 3 - n/2) u = -2 pi G d rho_n: n = 0 is the frozen operator of IV.3, Delta + 3, and n = 6 the
+     plain Laplacian, Poisson's equation on the 3-sphere in the literal sense, with the constant solutions' double root psi^6 - 3 psi^2 + 2 = (psi^2 - 1)^2
+     (psi^2 + 2) at 1.  Lap + c has a kernel on the 3-sphere exactly when c = k(k + 2), its spectrum being -k(k + 2): at n = 0, c = 3, the k = 1 harmonics,
+     odd under the antipodal map, so on the leaf, the even sector, every density has its u; at n = 6, c = 0, the constants, so a source needs total d rho_6
+     zero, and a single mass has no linear solution; at n = 8, c = -1, the operator is invertible, and York's scaling gives every density a unique u.  The
+     nonlinear solution, shooting from the pole, against the linear one, for the source eps e^(-k sin chi), k = 16/3, (psi - 1)/u at the pole and at the
+     equator: n = 0, eps = 0.1: 1.00396, 1.00217; n = 0, eps = 0.01: 1.00039, 1.00022; n = 8, eps = 0.1: 0.99888, 1.00254; n = 8, eps = 0.01: 0.99989,
+     1.00025.  For a compact source (k = 400) the n = 0 solution's shape is the frozen F = cos 2chi/sin chi, u/F normalized at chi = 0.3, 0.6, 1.0, 1.4:
+     1.000000, 1.000000, 1.000000, 1.000000.
+     (c) Its size for a galaxy [V].  psi = 1 - Phi/(2c^2): for 6e10 Msun and h = 3 kpc, GM/(h c^2) = 9.57e-07 and (206 km/s)^2/c^2 = 4.72e-07, so psi - 1 is
+     of order 5e-07: the conformal factor that the visible density fixes through the constraint cannot reshape a profile, and with conserved matter its area
+     factors cancel in the image (the response's point).
+     (d) The hyperbolic rendering [T/V].  Of flat, conformal and equator at infinity, a rendering of the leaf can have any two: stereographic projection is
+     flat and conformal, with the antipode at infinity; gnomonic projection is flat with the equator at infinity and keeps straight lines, not angles;
+     dividing the leaf's metric by cos^2 chi is conformal with the equator at infinity, and gives hyperbolic space of the leaf's radius (curvature -6.000000,
+     -6 for the unit radius) -- the one such rendering of constant curvature, the complete conformal metric of constant negative curvature on the hemisphere
+     being unique (Loewner and Nirenberg 1974).  Others exist: sec^4 chi times the leaf is conformal with the equator at infinite distance, its curvature
+     -16.27 at chi = 0.3, -8.24 at chi = 0.8, -1.16 at chi = 1.3.  The hyperbolic rendering's proper radius is r = ell asinh(tan chi), so tanh(r/ell) = sin
+     chi, sinh(r/ell) = tan chi and cosh(r/ell) = sec chi: R/ell = 0.25 (14.04 degrees): r/ell = 0.2475, tanh 0.242536 = sin 0.242536, cosh 1.030776 = sec
+     1.030776; R/ell = 1 (45.00 degrees): r/ell = 0.8814, tanh 0.707107 = sin 0.707107, cosh 1.414214 = sec 1.414214; R/ell = 5 (78.69 degrees): r/ell =
+     2.3124, tanh 0.980581 = sin 0.980581, cosh 5.099020 = sec 5.099020; R/ell = 20 (87.14 degrees): r/ell = 3.6895, tanh 0.998752 = sin 0.998752, cosh
+     20.024984 = sec 20.024984.  The tilt's law again: asinh(tan 89 degrees) = 4.7413 = atanh(sin 89 degrees) = 4.7413, the equator in the right angle's
+     place.  The disk's image there, mass conserved, is Sigma_0 e^(-k tanh(r/ell)) sech^2(r/ell): a hyperbolic secant, exponential only asymptotically, its
+     local scale length in proper radius (ell = 16, h = 3 kpc) 2.97 kpc at r = 0.5, 2.90 kpc at r = 3, 3.13 kpc at r = 8, 4.25 kpc at r = 16, 6.94 kpc at r =
+     32, 8.00 kpc at r = 80, tending to ell/2 = 8 kpc.  Read as positions this space is curved at 16 kpc, which positions do not show; read as velocities,
+     with sin chi = v/c, it is the velocity hyperboloid the frozen core already has.  Neither reading is derived.
+     (e) The readouts [T/V].  Every chart X -> gnomonic(A X), A an invertible 4 x 4 matrix, sends great circles to straight lines (6 random A, 6 random great
+     circles each, <1e-12) and gives X and -X the same point (<1e-12): RP^3's projective group, 15 parameters, of which the rotations are 6, the stretches
+     and shears 6, and the choice of the great sphere at infinity 3.  The only conformal maps of RP^3 are its rotations (v36.3), so a conformal step happens
+     on the leaf, before the readout.  After a conformal adjustment no chart straightens the geodesics exactly unless the curvature stays constant
+     (Beltrami); for the on-shell factor of (c) the failure is the galaxy's own light bending, 2 pi v^2/c^2 = 2.97e-06 rad = 0.61 arcsec for a flat 206 km/s
+     curve.  A stretch in the readout is a choice of chart, not a flattening.
+   [PASS] v40.0-9: the constraint's linearization is (Lap + 3 - n/2) u = -2 pi G d rho, the frozen Delta + 3 at weight 0; its factor for a galaxy is 5e-7; sec^2 chi times the leaf is hyperbolic space with tanh(r/ell) = sin chi; RP^3's projective charts are the readouts
+
+== v40.0-10. Entries 502-506: the two Hopf fields as the two structures -- their difference integrable, the admissible planes, the conserved relative phase, the flashlight, the lanes as carried rays, the response's ring, and the reservoir's mass (R573) ==
+     (a) The round leaf alone [T/V].  Two rays leaving one point in directions w1, w2 are |sin t| |w1 - w2| apart after an arc t (200 random pairs, <1e-12):
+     they meet again only at t = pi, the antipode -- on RP^3 the starting point itself -- whatever the directions.  With one round geometry for both lanes
+     there is no closing elsewhere and nothing that depends on direction; on a 16 kpc leaf pi ell = 50.3 kpc.
+     (b) The two fields [T/V].  The leaf's left and right Hopf fields, X_L(z1, z2) = (iz1, iz2) and X_R = (iz1, -iz2) -- the archive's two so(4) sectors
+     (XXXIII.41) -- are unit and tangent (<1e-12), odd under x -> -x as tangent vectors must be, so they descend to RP^3 (<1e-12), with <X_L, X_R> = cos 2
+     eta (<1e-12), |X_L - X_R| = 2 sin eta and |X_L + X_R| = 2 cos eta (<1e-12): they agree on the great circle eta = 0, the hinge, and are opposite on the
+     dual circle eta = pi/2.  theta ^ d theta on a tangent frame: X_L alone 2.000000, 2.000000, 2.000000, 2.000000, 2.000000 at five points (a contact
+     structure, XXXIII.41's result); X_L - X_R <1e-12; X_L + X_R <1e-12.  So neither field has a surface everywhere perpendicular to it, and their difference
+     does: a ray that starts perpendicular to X_L - X_R stays so (<1e-12) and stays on the great 2-sphere through its starting point and the hinge (<1e-12),
+     on which the relative transport vanishes.  These are the admissible spheres.
+     (c) The relative phase [T/V].  Along a light ray, a great circle, p1 = <v, X_L + X_R>/2 and p2 = <v, X_L - X_R>/2 are conserved, and the two transports
+     around the whole circle are 2 pi (p1 + p2) and 2 pi (p1 - p2) (30 random rays, <1e-12): their difference, 4 pi p2, is the relative phase, 2 pi p2 on
+     RP^3, whose circuit is half as long; zero for rays in an admissible sphere.  (d) The flashlight [T/V].  From a point at angular distance eta0 from the
+     hinge, a ray at angle a from the admissible sphere's normal has p2 = cos a sin eta0 -- relative phase per RP^3 circuit, in turns: eta0 = 10 degrees: a =
+     0: 0.174, a = 30: 0.150, a = 60: 0.087, a = 85: 0.015, a = 90: 0.000 (the two lanes on the normal ray +0.087 and -0.087); eta0 = 30 degrees: a = 0:
+     0.500, a = 30: 0.433, a = 60: 0.250, a = 85: 0.044, a = 90: 0.000 (the two lanes on the normal ray +0.250 and -0.250); eta0 = 60 degrees: a = 0: 0.866,
+     a = 30: 0.750, a = 60: 0.433, a = 85: 0.075, a = 90: 0.000 (the two lanes on the normal ray +0.433 and -0.433); eta0 = 90 degrees: a = 0: 1.000, a = 30:
+     0.866, a = 60: 0.500, a = 85: 0.087, a = 90: 0.000 (the two lanes on the normal ray +0.500 and -0.500).  Rays launched toward the hinge from eta0 = 0.7
+     rad reach it only in the admissible sphere (closest approach, degrees: a = 90: p2 = 0.000, 0.00, a = 60: p2 = 0.322, 18.79, a = 30: p2 = 0.558, 33.91, a
+     = 0: p2 = 0.644, 40.11), the others' closest approach asin|p2|.
+     (e) The lanes as carried rays [T/V; premise].  Take each lane to be the ray carried along by its field at a rate w: they are 2 sin eta(t) |sin wt| apart
+     (<1e-12), so they meet where the ray crosses the hinge, or everywhere after one whole relative turn, t = pi/w; with unequal rates w1 and w2 the relative
+     motion turns two planes, by (w1 - w2)t and (w1 + w2)t, and has no fixed circle at all unless one angle is a whole turn (an algebraic fact of SO(4), not
+     computed) -- the response's torus, whose dense winding makes never meeting exactly different from never meeting observably.  (f) Seen from a galaxy on
+     the dual circle, gnomonic coordinates (X, Y, Z) = ell (x1, x2, x4)/x3 [T/V]: the admissible spheres are the planes Z = const (<1e-12) and X_L + X_R is
+     the rotation about the Z axis (<1e-12), so X_L and X_R are the two screw motions about the axis, of opposite hand.  A ray sent along the normal from
+     radius R in the central plane returns, on RP^3, with the lanes 1 - cos chi of a turn apart (tan chi = R/ell; ell = 16 kpc): 0.0005 at R = 0.5 kpc,
+     0.0171 at R = 3 kpc, 0.1056 at R = 8 kpc, 0.2929 at R = 16 kpc, 0.5528 at R = 32 kpc.  The relative phase to the point a height z above, radians, at R =
+     0, 8, 16 kpc: z = 0.3 kpc: 0.0375, 0.0300, 0.0187 (2 atan(z/ell) = 0.0375); z = 1 kpc: 0.1248, 0.0999, 0.0625 (2 atan(z/ell) = 0.1248); z = 8 kpc:
+     0.9273, 0.7523, 0.4806 (2 atan(z/ell) = 0.9273): 2 atan(z/ell) at the center, about 2z/ell for z small against ell (0.9273 rad, not one radian, at z =
+     ell/2), falling outward as cos^2 chi for z small; two points of one plane Z = const have none.
+     (g) The response's ring [T/V].  E = kappa sum |C_j - U_ij C_i|^2 on a ring with total phase Phi: on three sites its least value, by power iteration,
+     against 4 sin^2(Phi/6): Phi = 0.00: 0.000000 / 0.000000, Phi = 0.50: 0.027714 / 0.027714, Phi = 1.50: 0.244835 / 0.244835, Phi = 2.50: 0.655176 /
+     0.655176, Phi = 3.14: 1.000000 / 1.000000; on N sites 4 sin^2(Phi/2N), with spacing L/N and kappa = (N/L)^2 tending to (Phi/L)^2: N = 3: 0.097624, N =
+     12: 0.101087, N = 48: 0.101307 at Phi = 2, L = 2 pi (limit 0.101321).  On a light ray the relative connection is the constant 2 p2.  Around the closed
+     ray on the 3-sphere, length 2 pi and phase 4 pi p2, the least alignment energy is the squared distance of 2 p2 from an integer; around the leaf's
+     circuit, length pi and phase 2 pi p2, it is four times the squared distance of p2 from an integer.  The two differ at half-integer p2 -- the normal ray
+     at eta0 = 30 degrees, p2 = 0.500: 0 on the 3-sphere, 1 on the leaf -- and agree at zero in the admissible spheres, p2 = 0.  (h) The reservoir [V].  If
+     the disk we see were the admissible slice of an isotropic distribution with the same radial profile, rho = rho_0 e^(-r/h), the whole would weigh 4h/t
+     times the slice of full effective thickness t: 17.3 for h = 2.6 kpc and t = 2 x 0.3 kpc, the thin disk's scale length and height (Bland-Hawthorn and
+     Gerhard 2016), and 34.7 if t were the scale height alone -- 1.04e+12 Msun for 6e10 Msun seen, 6.18e+11 of it inside 8 kpc, a Newtonian circular speed of
+     576 km/s there against the archive's 229; 229 km/s allows 9.75e+10 Msun inside 8 kpc, 0.16 of it.  Unseen matter must be far lighter or far more spread
+     out than the disk.
+   [PASS] v40.0-10: the difference of the left and right Hopf fields is integrable, its surfaces the great spheres through a hinge; along a ray the relative phase 4 pi p2 is conserved, zero in those spheres; the normal ray returns 1 - cos chi of a turn apart
+
+== v40.0-11. Entries 507-510: the leaf's rays as pairs, their incidence, Kepler's hidden symmetry, Kustaanheimo-Stiefel, Gibbons-Hawking and the fiber modes, the five-dimensional throat, and the leaf's local corrections (R574) ==
+     (a) Rays as pairs [T/V].  A great circle of the leaf through q with unit tangent w has the labels u = q^-1 w and v = w q^-1, unit imaginary quaternions
+     (<1e-12), constant along the ray (<1e-12): its tangent is at once the left field q u and the right field v q, so each ray is the shared fiber of exactly
+     one left and one right Hopf structure, and oriented rays are S^2 x S^2.  The rays through q are the pairs (u, R_q u), R_q the rotation of q (<1e-12): an
+     observer's sky is the graph of a rotation, the leaf RP^3 = SO(3) the set of such rotations, and q and -q give the same one.  For any ray (u, v) and any
+     point q, (R_q u).v = cos 2 eta, eta the angular distance from q to the ray (<1e-12).
+     (b) Incidence [T/V].  Two rays' closest approach on the leaf is |d_L - d_R|/2, half the difference of their separations on the two spheres (300 random
+     pairs, <1e-12); they meet exactly when u.u' = v.v' (two rays through one point, <1e-12), and then at one point of RP^3: in the metric g_L - g_R of
+     signature (2, 2) on S^2 x S^2, meeting rays are null-separated.  The rays inside a great 2-sphere with pole m are the graph of -R_m (<1e-12): points and
+     planes of the leaf are the two families of null spheres, and reversing one label's orientation exchanges them -- a sky becomes a disk.  Against a
+     structure pair (U, V), a ray's relative transport <tangent, X_L - X_R> is u.U - v.V (<1e-12), so v40.0-10's closing, zero relative phase, is incidence
+     with the hinge, and the relative phase is cos d_L - cos d_R.  Every direction of a sky is a ray, so no direction is geometrically empty (the second
+     assessment's point): an obstruction has to come after incidence.
+     (c) Kepler's hidden symmetry [T/V/L].  Bound orbits (mu = 1, E = -1/2): velocities sent to the 3-sphere by Fock's map xi = (v^2 - 1, 2v)/(v^2 + 1) trace
+     great circles (departure from a plane, then the ray's labels against the unit vectors along L + A and L - A, L and A the angular momentum and Runge-Lenz
+     vectors at unit energy): e = 0: <1e-12, u.(L+A) = -1.000000, v.(L-A) = 1.000000, u.v = -1.000000, (L+A).(L-A) = 1.000000; e = 0.3: <1e-12, u.(L+A) =
+     -1.000000, v.(L-A) = 1.000000, u.v = -0.820000, (L+A).(L-A) = 0.820000; e = 0.6: <1e-12, u.(L+A) = -1.000000, v.(L-A) = 1.000000, u.v = -0.280000,
+     (L+A).(L-A) = 0.280000; e = 0.9: <1e-12, u.(L+A) = -1.000000, v.(L-A) = 1.000000, u.v = 0.620000, (L+A).(L-A) = -0.620000.  So the labels lie along -(L
+     + A) and L - A: with the labels taken along L + A and L - A themselves the dot product is 1 - 2e^2, as the response and the assessment say, and the
+     quaternion convention's 2e^2 - 1 is one sphere's orientation reversed -- the reversal that exchanges a sky and a disk in (b).  Their sum gives the orbit
+     plane's normal, their difference the axis toward periapsis.  Unbound orbits (E = +1/2): xi = (v^2 + 1, 2v)/(v^2 - 1) lies on the hyperboloid and in a
+     plane through the origin, a geodesic of hyperbolic 3-space (on it, then planar), and the two labels are the incoming and outgoing directions: e = 1.2:
+     <1e-12, <1e-12, n_in.n_out = -0.388889 against 1 - 2/e^2 = -0.388889; e = 2: <1e-12, <1e-12, n_in.n_out = 0.500000 against 1 - 2/e^2 = 0.500000; e = 5:
+     <1e-12, <1e-12, n_in.n_out = 0.920000 against 1 - 2/e^2 = 0.920000 -- Rutherford's deflection.  The sign of the energy chooses the real form: the sphere
+     for bound orbits, hyperbolic space for unbound ones.  The symmetry is exact for the inverse-square law only, not for a galaxy's potential.
+     (d) Kustaanheimo-Stiefel [T/V/L].  X = q i qbar, |X| = |q|^2, time dt = |q|^2 ds: a free oscillation q(s) of the four-dimensional space, horizontal (<q
+     i, q'> = 0), read through the Hopf quotient and the time change, is an exact Kepler orbit with mu = 2(|q'|^2 + omega^2 |q|^2) -- omega = 0.4: horizontal
+     <1e-12, |X| = |q|^2 <1e-12, mu = 2.1729, the angular momentum and the Runge-Lenz vector constant (<1e-12, <1e-12), the energy -0.320000 at every point
+     (spread <1e-12) against -2 omega^2, eccentricity 0.9572; omega = 0.7: horizontal <1e-12, |X| = |q|^2 <1e-12, mu = 6.3980, the angular momentum and the
+     Runge-Lenz vector constant (<1e-12, <1e-12), the energy -0.980000 at every point (spread <1e-12) against -2 omega^2, eccentricity 0.7946; omega = 1:
+     horizontal <1e-12, |X| = |q|^2 <1e-12, mu = 22.0972, the angular momentum and the Runge-Lenz vector constant (<1e-12, <1e-12), the energy -2.000000 at
+     every point (spread <1e-12) against -2 omega^2, eccentricity 0.7507.
+     (e) Gibbons-Hawking [T/V/L].  g = V (dr^2 + r^2 dOmega^2) + (dpsi + A dphi)^2/V, the base flat space times V and the fiber's length 1/sqrt(V): largest
+     Ricci component at four points, exact by jets -- V = m/r, A = m cos theta dphi (flat four-space in Hopf form): <1e-12; V = 1 + m/r, the same A (one
+     source): <1e-12; V = 1 + m/r1 + 0.6 m/r2, A the sum (two sources): <1e-12; V = 1 + m/r, A halved (the twist not matched): 7.1e-02; V = 1 + m/r^2, not
+     harmonic: 2.2e-01.  The four-dimensional vacuum equation holds exactly when V is harmonic on the flat visible space and the fiber's twist is its dual,
+     dA = *dV; solutions add.  It is Riemannian, its V the twist potential, and its fiber shrinks near a source (length 1/sqrt V).  A mode exp(i n psi) phi
+     on it has Lap = exp(i n psi)[(grad - i n A)^2 phi/V - n^2 V phi]: against the flat visible metric it carries n^2 V^2, with V = 1 + m/r 121.00 at r = 0.1
+     m, 18.78 at r = 0.3 m, 4.00 at r = 1 m, 1.78 at r = 3 m, 1.21 at r = 10 m, 1.02 at r = 100 m (n = 1): fiber-dependence costs most near sources.
+     (f) A family that scales base and fiber together [T/V/L].  -dt^2/U^2 + U x (flat C^2), U uniform along the Hopf fibers and harmonic on the quotient
+     three-space, is the five-dimensional Majumdar-Papapetrou form: every spatial length, base and fiber alike, is the background's times sqrt(U), the clock
+     runs at 1/U.  Largest component of Ricci - 2(F F - g F^2/6), A = (sqrt(3)/2) dt/U, at three points, exact by jets, and the relative residual of
+     Maxwell's equation d_i(sqrt|g| F^it) = 0: one source, U = 1 + a/r: <1e-12 and <1e-12; a second source uniform along one Hopf circle, U = 1 + a/r + b/|x
+     - x0|: <1e-12 and <1e-12; U = 1 + a/r^2, not harmonic: 6.7e-01 and 5.9e-01 (F wedge F = 0 for this static field, so the Chern-Simons term of
+     five-dimensional supergravity does not enter).  Its throat, U = a/r (a = 0.8), is a dr^2/r^2 - r^2 dt^2/a^2 + a[dOmega^2 + (dpsi + cos theta dphi)^2]: a
+     round 3-sphere of radius ell = 2 sqrt(a) with its Hopf fibers times AdS2 of radius ell/2 (mixed Ricci -1.250000, -1.250000, 0.625000, 0.625000,
+     0.625000; <1e-12).  Its Hopf quotient, a dr^2/r^2 - r^2 dt^2/a^2 + a dOmega^2, is AdS2 x S^2 with both radii ell/2, the Bertotti-Robinson geometry
+     (mixed Ricci -1.250000, -1.250000, 1.250000, 1.250000; <1e-12) -- its metric; the reduced fields, a Kaluza-Klein vector from the Hopf twist with the
+     reduced Maxwell field, are not computed.  To first order in a source m: the frozen law L_H = 2 pi ell phi^2, phi = 1 + m/2r, gives a fiber 1 + m/r;
+     sqrt(U) with U = 1 + 2m/r gives 1 + m/r; Gibbons-Hawking's V^(-1/2), V = 1 + 2m/r, gives 1 - m/r.  The family is charged and extremal, and
+     five-dimensional; it is not Law I.
+     (g) The leaf's local corrections [T/V].  The frozen point-source potential F = cos 2chi/sin chi against 1/x: the relative correction (F x - 1)/x^2 at
+     chi = 0.01 and 0.001 -- arc length, x = chi: -1.833298, -1.833333 (limit -1.833333); gnomonic, x = tan chi: -1.499913, -1.499999 (limit -1.500000);
+     stereographic, x = 2 tan(chi/2): -1.749950, -1.749999 (limit -1.750000) -- so there is no first-order correction, and on a 16 kpc leaf the gnomonic one,
+     (3/2)(R/ell)^2, is 1.4e-19 at 1 AU, 5.9e-09 at 1 pc, 5.9e-03 at 1 kpc, 3.8e-01 at 8 kpc.  At 8 kpc the leading estimate is not the answer: the exact
+     potential differs from ell/R by -0.329180 against the leading -0.375, and the radial force from the inverse square by +0.252198 against the leading
+     +0.375 -- the force stronger, the potential shallower (the second assessment's caution).  The visible Einstein condition is met by nineteen orders in
+     the solar system; at galactic radii the correction is the effect itself.
+   [PASS] v40.0-11: rays are pairs (u, v), a sky the graph of R_q, meeting when u.u' = v.v'; Kepler's labels L + A and L - A, 1 - 2e^2; KS and Gibbons-Hawking exact; the 5D throat's Hopf quotient is Bertotti-Robinson; the leaf's corrections start at (R/ell)^2
+
+== v40.0-12. Entries 512-513, the two questions after them and the responses: the closed-leaf hole with acceleration -- three horizons, the two-pole leaf and its antipodal map, the axis mismatch, acceleration as a held reference, the deck test, and the convention's offset (R575) ==
+     (a) The non-accelerating member on a closed leaf [T/V].  f = 1 - 2M/r + Q^2/r^2 - r^2/L^2, M = 1, L = 10: Q = 0: the hole's horizon r = 2.091488
+     (surface gravity 0.207692), the equatorial horizon r = 8.788851 (0.074942), proper distance between them 17.499; Q = 1: the hole's horizon r = 1.127017
+     (surface gravity 0.077460), the equatorial horizon r = 8.872983 (0.077460), proper distance between them 19.838 (a quarter circle of the leaf, pi L/2,
+     is 15.708).  The time-symmetric slice between two neighboring hole horizons is S^2 x [-D, D], D = 17.4986 for Q = 0: the hole's throat, a smallest
+     sphere, at one end, the equatorial horizon, a largest sphere, in the middle, the twin's throat at the other end -- pole to pole 2D = 34.9971 against pi
+     L = 31.4159.  The slice runs throat to throat, so no singularity lies on the leaf; the rings and the central singularities are inside, off the slice.
+     The antipodal map (y, n) -> (-y, -n) is an isometry, because r(-y) = r(y), and free; the quotient is RP^3 with one ball removed -- one hole, Law I's one
+     source -- with the equatorial sphere folded to RP^2.  It extends to the spacetime as the reflection U <-> V of the equatorial horizon's Kruskal
+     coordinates (the metric depends on UV only) with the sphere's antipode; it keeps the direction of time and reverses the static Killing field, so the
+     quotient is static locally but not globally, and it reverses an electric charge (v40.0-7(b)).  The frozen arena is static throughout with no equatorial
+     horizon: there the comparison still differs.  Matching only the cosmological constants, Lambda = 1/ell^2 for the Einstein-static leaf against 3/L^2,
+     would need L = sqrt(3) ell (the response's point); the matter differs too.
+     (b) Accelerating Kerr-de Sitter [T/V/L].  The family in Podolsky and Griffiths's form, with Omega = 1 - A r cos theta, P = 1 - 2AM cos theta + (A^2 a^2
+     + Lambda a^2/3) cos^2 theta and Q = (r^2 - 2Mr + a^2)(1 - A^2 r^2) - (Lambda/3)(a^2 + r^2) r^2, is a solution, mixed Ricci = Lambda (M = 1, a = 0.7, L =
+     10; jets at three points): A = 0: <1e-12; A = 0.05: <1e-12.  From one pole to the other the roots of Q are the inner horizon, the outer horizon and the
+     horizon between the poles, then their mirror copies: A = 0: 0.285531, 1.793192, 8.798382 (1/sqrt(A^2 + 1/L^2) = 10.000000); A = 0.05: 0.285531,
+     1.793915, 7.948624 (1/sqrt(A^2 + 1/L^2) = 8.944272); A = 0.12: 0.285531, 1.797565, 5.819985 (1/sqrt(A^2 + 1/L^2) = 6.401844).  The rings, r = 0 on each
+     pole's equatorial plane, where rho^2 = 0 and Omega = 1, are kept: the C-metric built before is this family, consistent with a ring at each pole.  The
+     inner and outer horizons barely move -- with Lambda = 0 they would not move at all, Q being then (r^2 - 2Mr + a^2)(1 - A^2 r^2) -- while the middle
+     horizon moves inward, from 8.798382 to 5.819985.  Without mass, Q = (r^2 + a^2)(1 - (A^2 + Lambda/3) r^2) and P = 1 + (A^2 + Lambda/3) a^2 cos^2 theta
+     (<1e-12): only A^2 + Lambda/3 appears -- in the horizon's coordinate size, not in the curvature, which stays 4 Lambda.  The two halves of the axis need
+     the periods 2 pi/P(0) and 2 pi/P(pi): A = 0: P(0) = 1.004900, P(pi) = 1.004900, difference 0.000000; A = 0.05: P(0) = 0.906125, P(pi) = 1.106125,
+     difference 0.200000; A = 0.12: P(0) = 0.771956, P(pi) = 1.251956, difference 0.480000 -- 4AM whatever the spin and the curvature: no string exactly when
+     MA = 0.  4AM is a difference of the polynomial's values; the deficit itself, one axis regular, is 1 - P(0)/P(pi), 4AM/(1 + 2AM) = 0.387097 at A = 0.12
+     without spin, v40.0-2(b)'s 0.387097.
+     (c) Acceleration as a held reference [T/V].  Without mass the middle horizon r = 1/sqrt(A^2 + 1/L^2) carries the metric E(theta)^2 (dtheta^2 + sin^2
+     theta dphi^2), E = r/(1 - A r cos theta); its Gauss curvature (fourth-order differences) is 1/L^2 at every latitude: A = 0.05: r = 8.944272, 0.010000,
+     0.010000, 0.010000; p = atan(AL) = 26.57 degrees, L cos p = 8.944272, A r = 0.447214 = sin p 0.447214; A = 0.12: r = 6.401844, 0.010000, 0.010000,
+     0.010000; p = atan(AL) = 50.19 degrees, L cos p = 6.401844, A r = 0.768221 = sin p 0.768221; A = 0.3: r = 3.162278, 0.010000, 0.010000, 0.010000; p =
+     atan(AL) = 71.57 degrees, L cos p = 3.162278, A r = 0.948683 = sin p 0.948683.  It is the round sphere of radius L in coordinates shifted by the boost
+     with tanh s = A r (v36.3's Moebius factor): A = tan(p)/L is the acceleration of a reference held at the angle p from the leaf's pole.  So without mass a
+     reference offset is an acceleration, and the horizon is the leaf's equator seen from the offset; this is an acceleration of a held reference, not a
+     recession of the static leaf's poles.  With mass, holding the hole at that offset costs, to first order in MA, a force MA; the string's exact tension is
+     the deficit over four, MA/P(pi) = MA/(1 + 2MA) without spin, 0.096774 at A = 0.12 against MA = 0.12.
+     (d) The deck test [T/V].  On the middle horizon, the leaf's antipodal map must exchange the two points where the axis pierces it and reverse the
+     sphere's profile (circumference radius against proper distance from one axis point; the asymmetry is relative): M = 0, A = 0.12: horizon r = 6.401844,
+     cone factors 1.0000 and 1.0000, deficit 0.000000, profile asymmetry 2.9e-05; M = 1, A = 0: horizon r = 8.788851, cone factors 1.0000 and 1.0000, deficit
+     0.000000, profile asymmetry <1e-12; M = 1, A = 0.05: horizon r = 7.938552, cone factors 0.9000 and 1.1000, deficit 0.181818, profile asymmetry 9.5e-02;
+     M = 1, A = 0.12: horizon r = 5.807160, cone factors 0.7600 and 1.2400, deficit 0.387097, profile asymmetry 2.0e-01.  It can when MA = 0 (the M = 0 value
+     is the profile's discretization).  With mass and acceleration the cone factors differ and the profile is lopsided: the antipodal map takes the solution
+     with A to the one with -A, so acceleration is odd under it, as charge is -- it belongs to the chosen representative on the covering sphere, not to the
+     gravity base; the even effects, like the A^2 shift of the middle horizon, are compatible with one source.  The reflection y -> -y alone, across the
+     middle horizon (U <-> V in its Kruskal coordinates), fixes that horizon pointwise and is a symmetry for every A, as for any static bifurcate Killing
+     horizon -- the case here, a = 0 -- while with spin it is one only together with phi -> -phi (a standard property, not computed here); it is a different
+     map from v40.0-7(d)'s mirror, which exchanges the hole's horizon with the Rindler horizon and exists, as an isometry, only for charge alone, at A =
+     c/q^2.
+     (e) An offset of convention [T/V].  The rotations R_p and R_q that match the two spheres of rays at two positions, as 3 x 3 matrices, differ by R_p^T
+     R_q, a rotation through twice the leaf distance between p and q (300 random pairs, the angle from the matrix against 2 d(p, q), <1e-12): a convention
+     read from a position displaced by eta mismatches every sky direction's pair of labels by a turn of 2 eta about the displacement, while rotating the sky
+     in place changes nothing.  Whether such a mismatch is felt as an A is not derived: it must change an invariant, and with mass the C-metric needs its
+     string.  (f) A collective selection [T/V; premise].  If the joint weight of N constituents is the product of their two-lane weights cos^2(phase/2) (a
+     toy model), a tilt eps of the reference plane gives the weight exp(-N gamma eps^2) with gamma = <R^2 cos^4 chi>/(2 ell^2) = 0.0498 for the exponential
+     disk, h = 3 kpc, ell = 16 kpc, from v40.0-10's lane phase; the width 1/sqrt(N gamma) is 4.48e+00 rad at N = 1e+00, 4.48e-03 rad at N = 1e+06, 1.42e-05
+     rad at N = 1e+11 (0.257 degrees at 1e6, 2.92 arcsec at 1e11): one constituent selects nothing, many select sharply, a continuous classical family
+     notwithstanding.  The width is in the reference's tilt, not the disk's thickness, and N_eff and gamma are not derived.  (g) Uniform along the fiber
+     [T/V].  The Hopf rotation by pi is the antipodal map (an identity, e^(i pi) = -1; <1e-12), so a mode uniform along a Hopf direction is even under it,
+     which is Law I's one-source condition.  The harmonics of degree n on the 3-sphere, the kernel of the Laplacian on the homogeneous polynomials of degree
+     n in four variables, and among them those killed by the generator of the left Hopf rotation, and by both the left and the right (exact rational ranks):
+     n = 0: 1 in all, 1 uniform along one Hopf direction, 1 along both; n = 1: 4 in all, 0 uniform along one Hopf direction, 0 along both; n = 2: 9 in all, 3
+     uniform along one Hopf direction, 1 along both; n = 3: 16 in all, 0 uniform along one Hopf direction, 0 along both; n = 4: 25 in all, 5 uniform along
+     one Hopf direction, 1 along both; n = 5: 36 in all, 0 uniform along one Hopf direction, 0 along both; n = 6: 49 in all, 7 uniform along one Hopf
+     direction, 1 along both -- the uniform ones have even degree, (n + 1) of (n + 1)^2, by bidegree (p, q) with p = q.
+   [PASS] v40.0-12: on the closed leaf one period of the slice runs throat - equatorial horizon - throat, the antipodal map a free isometry; acceleration keeps the rings, moves the middle horizon, costs 4AM on the axis, and is odd under the deck map; A = tan(p)/L without mass
+
+== v40.1-1. The follow-up of 20-21 November: Entry 326's falloff on a leaf -- one shape for each k = ell/h, the scan from k = 0.01 to 100, the shape classes and their boundaries, the small-k limit, and Entry 322's classes for the eight galaxies (R581) ==
+     (a) The scaling [T/V].  Entry 326's profile e^(-k sin chi), k = ell/h, is the exponential e^(-rho/h) in the leaf's areal radius rho = ell sin chi -- in
+     gnomonic radius rho = R/sqrt(1 + R^2/ell^2) -- so ell already stands in the exponent; the source depends on chi through k alone, and v^2(R) = (G M/ell)
+     u(R/ell; k): k sets the shape, the leaf the radial unit and the amplitude G M/ell [T].  The computation: v40.0's solver through kernel rows computed
+     once, at the two points chi -/+ dh of v40.0's centered difference around each of 150 grid points tan chi = 10^(-3.7 + j/25), to R = 182 ell, with the
+     panel breaks 0.0025 x 2^m (m = 0-9) for every source, 256 azimuths in the ring kernel's bounded remainder (v40.0's solver takes 64), and the source less
+     its equatorial value e^(-k) -- a uniform density on the leaf's great sphere, invariant under its rotations, has a constant potential there and exerts no
+     force in the plane [T].  Against v40.0's solver itself with the same azimuths, at R/ell = 0.05, 0.3, 1, 3 (the eight-point polynomial between grid
+     points), the relative differences in v^2 are at most 2.4e-08 for k = 5.333 and 1.9e-08 for k = 100.000.  v40.0's own error, its 64-point azimuthal
+     rule's, shows for a uniform leaf, which exerts no force: its v^2 ell/(G M) is 3.47e-06 at R/ell = 0.5, 1.37e-05 at R/ell = 1, 3.30e-05 at R/ell = 3,
+     3.85e-05 at R/ell = 30, and at R/ell = 3 4.13e-06 with 128 azimuths and 5.16e-07 with 256, falling as the inverse cube; for broad sources v40.0's
+     solver, which keeps the uniform part, differs from the rows at R/ell = 3, relatively, by -1.6e-03 at k = 0.03, -7.6e-05 at k = 0.5 with its 64 azimuths
+     and by -2.5e-05, -1.1e-06 with 256 -- that part's error, which the subtraction removes.  With that part taken from the solver's own result too, the rows
+     and the solver differ relatively on the rest of the source by +1.3e-05 with 64 azimuths and +1.4e-06 with 128 at k = 0.03, +1.2e-05 with 64 azimuths and
+     +1.3e-06 with 128 at k = 0.5 -- the solver's rule's error there less the rows' own, which the inverse cube puts at 1/64 and 1/8 of it, so that the rows'
+     own is a seventh of the difference at 128, 2.0e-07 and 1.9e-07 -- and by less than 1e-09 with 256 in both.  The interpolation against rows at the point
+     itself: at most 4.3e-06 (four points), 2.2e-09 (the eight-point polynomial).  On ell = 16 kpc with h = 3 kpc and 6e10 Msun, v40.0-8(d)'s plateau
+     coefficient C = 2.6434 and curve 178.7, 194.1, 201.1, 203.0, 204.5, 205.7 km/s at 5, 8, 16, 24, 36, 60 kpc: C = 2.643445, 178.69, 194.06, 201.15,
+     203.04, 204.55, 205.68 km/s.
+     (b) The scan [V].  For each k: the plateau coefficient C = v_inf^2 ell/(G M) and C/k; the far field v^2 = v_inf^2 [1 + A (ell/R)^2 + ...], A =
+     psi''''/(6 psi'') - 1/3 at the equator; the image's half-mass radius R_half/ell and its scale h_eff = R_half/1.678 over h (h for an exponential disk);
+     the curve's interior maxima and minima (R/h_eff, R/ell, v/v_inf); the radius where v first reaches 0.9 v_inf; Section XXXIII.23's overshoot B over
+     0.03-12 h_eff against v(12 h_eff); v(40 h_eff)/v_inf:
+       k = 0.010: C = 0.007293, C/k = 0.72932, A = -0.7378; R_half = 1.7281 ell, h_eff = 0.0103 h; extrema: none; v = 0.9 v_inf at 1.695 h_eff = 1.7455 ell;
+         B = +0.0000; v(40 h_eff)/v_inf = 0.9998
+       k = 0.030: C = 0.021870, C/k = 0.72899, A = -0.7336; R_half = 1.7202 ell, h_eff = 0.0307 h; extrema: none; v = 0.9 v_inf at 1.698 h_eff = 1.7402 ell;
+         B = +0.0000; v(40 h_eff)/v_inf = 0.9998
+       k = 0.100: C = 0.072782, C/k = 0.72782, A = -0.7191; R_half = 1.6925 ell, h_eff = 0.1008 h; extrema: none; v = 0.9 v_inf at 1.707 h_eff = 1.7215 ell;
+         B = +0.0000; v(40 h_eff)/v_inf = 0.9998
+       k = 0.300: C = 0.217257, C/k = 0.72419, A = -0.6782; R_half = 1.6138 ell, h_eff = 0.2885 h; extrema: none; v = 0.9 v_inf at 1.735 h_eff = 1.6679 ell;
+         B = +0.0000; v(40 h_eff)/v_inf = 0.9998
+       k = 0.500: C = 0.360067, C/k = 0.72013, A = -0.6385; R_half = 1.5356 ell, h_eff = 0.4575 h; extrema: none; v = 0.9 v_inf at 1.764 h_eff = 1.6142 ell;
+         B = +0.0000; v(40 h_eff)/v_inf = 0.9998
+       k = 1.000: C = 0.707996, C/k = 0.70800, A = -0.5448; R_half = 1.3445 ell, h_eff = 0.8011 h; extrema: none; v = 0.9 v_inf at 1.847 h_eff = 1.4795 ell;
+         B = +0.0000; v(40 h_eff)/v_inf = 0.9997
+       k = 2.000: C = 1.348861, C/k = 0.67443, A = -0.3836; R_half = 0.9969 ell, h_eff = 1.1879 h; extrema: none; v = 0.9 v_inf at 2.037 h_eff = 1.2098 ell;
+         B = +0.0000; v(40 h_eff)/v_inf = 0.9997
+       k = 3.200: C = 1.978332, C/k = 0.61823, A = -0.2410; R_half = 0.6774 ell, h_eff = 1.2915 h; extrema: none; v = 0.9 v_inf at 2.201 h_eff = 0.8881 ell;
+         B = +0.0000; v(40 h_eff)/v_inf = 0.9995
+       k = 5.333: C = 2.643445, C/k = 0.49565, A = -0.1193; R_half = 0.3720 ell, h_eff = 1.1821 h; extrema: none; v = 0.9 v_inf at 1.680 h_eff = 0.3725 ell;
+         B = +0.0000; v(40 h_eff)/v_inf = 0.9993
+       k = 6.000: C = 2.749480, C/k = 0.45825, A = -0.1078; R_half = 0.3208 ell, h_eff = 1.1470 h; extrema: max at 4.10 h_eff = 0.7841 ell, v/v_inf = 0.9838;
+         min at 4.66 h_eff = 0.8914 ell, v/v_inf = 0.9838; v = 0.9 v_inf at 1.450 h_eff = 0.2772 ell; B = +0.0000; v(40 h_eff)/v_inf = 0.9991
+       k = 7.000: C = 2.849913, C/k = 0.40713, A = -0.1043; R_half = 0.2652 ell, h_eff = 1.1063 h; extrema: max at 2.80 h_eff = 0.4433 ell, v/v_inf = 1.0209;
+         min at 8.59 h_eff = 1.3583 ell, v/v_inf = 0.9892; v = 0.9 v_inf at 1.200 h_eff = 0.1897 ell; B = +0.0301; v(40 h_eff)/v_inf = 0.9988
+       k = 8.000: C = 2.905097, C/k = 0.36314, A = -0.1099; R_half = 0.2262 ell, h_eff = 1.0780 h; extrema: max at 2.56 h_eff = 0.3453 ell, v/v_inf = 1.0693;
+         min at 10.74 h_eff = 1.4472 ell, v/v_inf = 0.9894; v = 0.9 v_inf at 1.031 h_eff = 0.1389 ell; B = +0.0804; v(40 h_eff)/v_inf = 0.9982
+       k = 12.000: C = 2.968882, C/k = 0.24741, A = -0.1419; R_half = 0.1440 ell, h_eff = 1.0296 h; extrema: max at 2.30 h_eff = 0.1973 ell, v/v_inf =
+         1.2722; min at 14.89 h_eff = 1.2775 ell, v/v_inf = 0.9827; v = 0.9 v_inf at 0.690 h_eff = 0.0592 ell; B = +0.2910; v(40 h_eff)/v_inf = 0.9947
+       k = 16.000: C = 2.982538, C/k = 0.18641, A = -0.1549; R_half = 0.1065 ell, h_eff = 1.0156 h; extrema: max at 2.23 h_eff = 0.1415 ell, v/v_inf =
+         1.4553; min at 17.99 h_eff = 1.1420 ell, v/v_inf = 0.9774; v = 0.9 v_inf at 0.538 h_eff = 0.0342 ell; B = +0.4674; v(40 h_eff)/v_inf = 0.9902
+       k = 32.000: C = 2.995604, C/k = 0.09361, A = -0.1641; R_half = 0.0526 ell, h_eff = 1.0037 h; extrema: max at 2.17 h_eff = 0.0680 ell, v/v_inf =
+         2.0385; min at 32.77 h_eff = 1.0280 ell, v/v_inf = 0.9724; v = 0.9 v_inf at 0.317 h_eff = 0.0100 ell; B = +0.8450; v(40 h_eff)/v_inf = 0.9743
+       k = 64.000: C = 2.998901, C/k = 0.04686, A = -0.1661; R_half = 0.0262 ell, h_eff = 1.0009 h; extrema: max at 2.15 h_eff = 0.0337 ell, v/v_inf =
+         2.8758; min at 64.37 h_eff = 1.0067 ell, v/v_inf = 0.9713; v = 0.9 v_inf at 0.197 h_eff = 0.0031 ell; B = +1.0337; v(40 h_eff)/v_inf = 0.9921
+       k = 100.000: C = 2.999550, C/k = 0.03000, A = -0.1664; R_half = 0.0168 ell, h_eff = 1.0004 h; extrema: max at 2.15 h_eff = 0.0215 ell, v/v_inf =
+         3.5931; min at 100.23 h_eff = 1.0027 ell, v/v_inf = 0.9711; v = 0.9 v_inf at 0.147 h_eff = 0.0015 ell; B = +1.0808; v(40 h_eff)/v_inf = 1.0713
+     (c) The classes [V].  Below k_w = 5.9890 the curve rises to its plateau without an interior extremum; at k_w a stationary inflection appears below the
+     plateau (at R = 0.8365 ell, v/v_inf = 0.9836) and for larger k a maximum and a minimum, and from k_b = 6.5029 the maximum stands above the plateau (it
+     crosses v_inf at R = 0.5314 ell) -- k_w where the least slope of v^2 in 0.5-1.5 ell vanishes and k_b where the maximum reaches v_inf, both by the false
+     position on the eight-point polynomial: a monotonic rise, a wiggle below the plateau and a bump above it, the three regimes Section XXXIII.23(b) found
+     for Part XXV's spheres; the benchmark's k = 16/3 lies in the first.  A is negative for every k: at most -0.1043 among the scan's k and -0.1040 over all,
+     near k = 6.77, tending to -0.7399 at k = 1e-4 and to -1/6, the point source's (Section XXXI.38(a)), as k grows.  So the plateau is approached from below
+     at large R in every class, and the equator, the plateau's endpoint, is a maximum of the far curve, not a low point; above k_w the curve falls from its
+     maximum -- past the plateau from k_b -- to a minimum near R = ell, at 1.0027-1.4472 ell (chi = 45.1-55.4 degrees) for k = 7-100, and rises to the
+     plateau again.  On a fixed leaf a quicker falloff -- a larger k -- puts the bump earlier and higher: k = 7: 0.4433 ell (2.80 h_eff), 1.0209 v_inf, k =
+     8: 0.3453 ell (2.56 h_eff), 1.0693 v_inf, k = 12: 0.1973 ell (2.30 h_eff), 1.2722 v_inf, k = 16: 0.1415 ell (2.23 h_eff), 1.4553 v_inf, k = 32: 0.0680
+     ell (2.17 h_eff), 2.0385 v_inf, k = 64: 0.0337 ell (2.15 h_eff), 2.8758 v_inf, k = 100: 0.0215 ell (2.15 h_eff), 3.5931 v_inf.  v40.0-8(d)'s statement
+     that the leaves that make the image exponential lose the flat curve is corrected here: those leaves, ell = 32, 48 and 96 kpc with h = 3 kpc, have k =
+     10.67, 16 and 32, in the bump class, with a plateau below the frozen leaf's.
+     (d) The small-k limit [V].  C/k = 0.7294635 at k = 0.001, 0.7294474 at k = 0.002, 0.7293990 at k = 0.005, linear in k (the line through the first two
+     gives 0.7293990 at k = 0.005), toward 0.72948: for a slow falloff v_inf^2 -> 0.7295 G M/h, set by the falloff length and not by the leaf; the source
+     tends to the uniform leaf, whose image (1 + R^2/ell^2)^(-3/2) has R_half = sqrt(3) ell = 1.7321 ell (1.7320 ell at k = 1e-4), so that the light too
+     takes the leaf's scale.  The falloff length 1/0.01 = 100 ell: R_half = 1.7281 ell, v reaches 0.9 v_inf at 1.7455 ell, and v_inf = 0.0493 of the point
+     source's plateau speed sqrt(3 G M/ell).
+     (e) Entry 322's classes for the eight galaxies [V/O].  Section XXXIII.23 sorted the pilot's eight curves by shape and found no monotonic member in the
+     gnomonic disk family; here the whole source is Entry 326's profile on each galaxy's arena leaf (Section XXXIII.5's ell), with no free parameter, its k
+     from either of two indices -- (i) the stellar disk, k = ell/R_disk (SPARC's R_disk), (ii) the whole source's breadth, the k whose image has Section
+     XXXIII.23(d)'s R_half/ell -- and the curve read over the galaxy's own measured radii against v(R_last), with Section XXXIII.23(a)'s and (d)'s rules for
+     model curves (no overshoot for B <= 2%, a maximum at the first radius a declining curve; extrema at 0.5% prominence): DDO 154: (i) k = 5.46, B = +0.000,
+     0 extrema, no overshoot; (ii) k = 0.132, B = +0.000, 0 extrema, no overshoot; observed no overshoot; IC 2574: (i) k = 1.62, B = +0.000, 0 extrema, no
+     overshoot; (ii) k = 0.386, B = +0.000, 0 extrema, no overshoot; observed no overshoot; NGC 2403: (i) k = 7.09, B = +0.033, 1 extremum, bump; (ii) k =
+     4.841, B = +0.000, 0 extrema, no overshoot; observed no overshoot; NGC 3198: (i) k = 5.95, B = +0.000, 0 extrema, no overshoot; (ii) k = 4.130, B =
+     +0.000, 0 extrema, no overshoot; observed no overshoot; NGC 6503: (i) k = 4.37, B = +0.000, 0 extrema, no overshoot; (ii) k = 7.607, B = +0.057, 1
+     extremum, bump; observed no overshoot; NGC 2841: (i) k = 9.44, B = +0.156, 1 extremum, bump; (ii) k = 10.880, B = +0.232, 1 extremum, bump; observed
+     bump; UGC 2885: (i) k = 4.64, B = +0.000, 0 extrema, no overshoot; (ii) k = 6.508, B = +0.012, 1 extremum, no overshoot; observed no overshoot; NGC
+     7814: (i) k = 8.91, B = +0.113, 1 extremum, bump; (ii) k = 24.135, B = +0.817, 1 extremum, bump; observed declining.  Agreement: 6 of 8 under (i), 6 of
+     8 under (ii) -- and 6 of 8 for a rule that calls every curve 'no overshoot': with this sample the indices do not yet carry information beyond the base
+     rate; the bump of NGC 2841 is the one feature both reproduce, and both make NGC 7814's maximum a bump inside its range where the data decline from the
+     first radius.
+   [PASS] v40.1-1: e^(-k sin chi) with k = ell/h gives v^2 = (G M/ell) u(R/ell; k); the rows reproduce v40.0's solver and C = 2.6434; the classes: monotonic below k_w = 5.989, a wiggle, a bump above v_inf from k_b = 6.503; A < 0 for every k; C/k -> 0.7295 for slow falloffs
+
+== v40.1-2. The Newtonian reading: the image's own thin disk, the driven remainder and its density, and the halo families (R582) ==
+     (a) The image's own Newtonian curve [V].  The image Sigma_vis = Sigma_leaf cos^3 chi at R' = ell tan chi in a flat plane, its potential -4 G int
+     Sigma(R') R' K(m)/(R + R') dR' with m = 4 R R'/(R + R')^2 (K by the arithmetic-geometric mean) over R' = ell tan t on the rows' panels, and v_N^2 = R
+     dPhi/dR by the same centered difference in chi.  Against Freeman's exponential disk, v^2 = 2 (G M/h) y^2 [I0 K0 - I1 K1](y), y = R/2h, at R = 0.3, 1,
+     2.2, 5, 12 h: -7.5e-09, -7.6e-09, -5.1e-08, -2.9e-07, -1.4e-06.
+     (b) The driven remainder [V].  The leaf's curve less the image's own Newtonian curve, v_d^2 = v^2 - v_N^2 with the image's whole mass (Ups = 1), as the
+     share v_d^2/v^2 at R = 0.5, 1, 2, 5, 10 h_eff; where v_d^2 < 0; the image's Newtonian maximum (R/h_eff, v_N/v_inf): k = 0.010: -83.764, -80.115,
+     -55.770, -24.898, -12.222, negative inside 133.1 h_eff, v_N peaking at 1.37 h_eff with 7.273 v_inf; k = 0.100: -7.836, -7.345, -4.815, -1.650, -0.353,
+     negative inside 13.57 h_eff, v_N peaking at 1.37 h_eff with 2.326 v_inf; k = 0.500: -1.123, -0.907, -0.303, +0.409, +0.699, negative inside 2.795 h_eff,
+     v_N peaking at 1.35 h_eff with 1.097 v_inf; k = 1.000: -0.329, -0.143, +0.235, +0.656, +0.825, negative inside 1.329 h_eff, v_N peaking at 1.34 h_eff
+     with 0.835 v_inf; k = 2.000: -0.009, +0.151, +0.440, +0.754, +0.876, negative inside 0.5364 h_eff, v_N peaking at 1.34 h_eff with 0.701 v_inf; k =
+     3.200: +0.039, +0.159, +0.415, +0.746, +0.874, negative inside 0.2002 h_eff, v_N peaking at 1.44 h_eff with 0.699 v_inf; k = 5.333: +0.026, +0.082,
+     +0.249, +0.631, +0.823, positive throughout, v_N peaking at 1.71 h_eff with 0.809 v_inf; k = 8.000: +0.013, +0.038, +0.124, +0.453, +0.726, positive
+     throughout, v_N peaking at 1.94 h_eff with 0.989 v_inf; k = 16.000: +0.003, +0.009, +0.033, +0.176, +0.453, positive throughout, v_N peaking at 2.10
+     h_eff with 1.427 v_inf; k = 32.000: +0.001, +0.002, +0.008, +0.051, +0.185, positive throughout, v_N peaking at 2.14 h_eff with 2.029 v_inf; k =
+     100.000: +0.000, +0.000, +0.001, +0.006, +0.023, positive throughout, v_N peaking at 2.15 h_eff with 3.591 v_inf.  The remainder has no interior maximum
+     for any of these k: it rises to v_inf^2 without a bump of its own, so that the bump of the larger k is the image's own disk, whose Newtonian curve peaks
+     near Freeman's 2.15 h; for k <= 3.2 the leaf pulls less than the image's own Newtonian gravity inside a radius that grows as k falls, and for a slow
+     falloff nearly everywhere -- at k = 0.01 the image's Newtonian v^2 is 84.8 times the leaf's at 0.5 h_eff.
+     (c) The driven density [V].  Its spherical equivalent rho_d = (1/(4 pi G R^2)) d(R v_d^2)/dR, from the eight-point polynomial through R v_d^2: its
+     logarithmic slope at R = 0.5, 1, 2, 5, 10, 30 h_eff (n/a where rho_d <= 0), where it is negative, and the radius of its maximum: k = 0.010: n/a, n/a,
+     n/a, n/a, -0.33, -1.96, negative inside 7.071 h_eff, largest at 9.63 h_eff; k = 0.100: n/a, n/a, n/a, -1.00, -1.90, -2.00, negative inside 3.059 h_eff,
+     largest at 4.23 h_eff; k = 0.500: n/a, n/a, +0.53, -1.86, -1.99, -2.00, negative inside 1.441 h_eff, largest at 2.13 h_eff; k = 1.000: n/a, +5.73,
+     -1.09, -1.95, -2.00, -2.00, negative inside 0.8675 h_eff, largest at 1.46 h_eff; k = 2.000: +4.19, +0.13, -1.38, -1.98, -2.01, -2.00, negative inside
+     0.3944 h_eff, largest at 1.05 h_eff; k = 3.200: +1.10, +0.03, -1.22, -1.98, -2.02, -2.00, negative inside 0.1518 h_eff, largest at 1.02 h_eff; k =
+     5.333: +0.73, +0.22, -0.78, -1.86, -2.01, -2.01, positive, largest at 1.20 h_eff; k = 8.000: +0.65, +0.32, -0.51, -1.65, -1.92, -2.01, positive, largest
+     at 1.37 h_eff; k = 16.000: +0.61, +0.37, -0.36, -1.40, -1.49, -1.98, positive, largest at 1.51 h_eff; k = 32.000: +0.60, +0.38, -0.32, -1.32, -1.15,
+     -1.71, positive, largest at 1.54 h_eff; k = 100.000: +0.60, +0.38, -0.31, -1.29, -1.01, -1.15, positive, largest at 1.55 h_eff.  Its value against its
+     maximum at R = 0.01, 0.03, 0.1, 0.3, 0.5 h_eff: k = 5.333: 0.162, 0.169, 0.222, 0.456, 0.683; k = 8.000: 0.247, 0.252, 0.291, 0.472, 0.658; k = 16.000:
+     0.282, 0.286, 0.319, 0.474, 0.639.  The halo families' slopes are NFW's -1 inside and -3 outside, Burkert's 0 and -3, the pseudo-isothermal sphere's 0
+     and -2.  The driven density is depressed at the center for every k -- negative inside for k <= 3.2, and for k = 16/3, 8, 16 a core at 0.16-0.28 of its
+     maximum, which lies at 1.20-1.51 h_eff -- and falls toward -2 beyond R = ell, the slope of any flat curve; for the larger k it falls about as 1/R
+     between a few h_eff and ell, the point source's cusp (e) seen from outside the disk.  Inside, it is unlike each family.
+     (d) Decompositions [V].  The leaf's curve at the grid's radii in 0.5-10 h_eff (32 or 33 of them) fitted as Ups v_N^2 + v_h^2, the halo NFW's V^2 [ln(1 +
+     y) - y/(1 + y)]/y, Burkert's V^2 [ln(1 + y) + ln(1 + y^2)/2 - arctan y]/y or the pseudo-isothermal V^2 [1 - arctan(y)/y], y = R/r_s, by least squares in
+     v with errors of 3% of v -- Ups >= 0 free, then Ups = 1: the rms and the largest deviation of the fit from the leaf's curve, Ups, r_s/h_eff (* at the
+     end of r_s's range, 1/30 of the first radius to 300 times the last): k = 0.010: NFW 1.56% (4.37%), Ups 0.004, r_s 4.04 / Ups = 1: 629.40% (828.15%), r_s
+     0.02*, Burkert 0.77% (1.88%), Ups 0.010, r_s 2.60 / Ups = 1: 629.40% (828.15%), r_s 0.02*, pseudo-isothermal 0.40% (0.82%), Ups 0.003, r_s 0.53 / Ups =
+     1: 629.40% (828.15%), r_s 0.02*; k = 0.100: NFW 1.56% (4.43%), Ups 0.038, r_s 3.93 / Ups = 1: 137.57% (198.80%), r_s 0.02*, Burkert 0.79% (2.06%), Ups
+     0.094, r_s 2.58 / Ups = 1: 137.57% (198.80%), r_s 0.02*, pseudo-isothermal 0.40% (0.82%), Ups 0.034, r_s 0.54 / Ups = 1: 137.57% (198.80%), r_s 0.02*; k
+     = 0.500: NFW 1.73% (4.99%), Ups 0.135, r_s 3.68 / Ups = 1: 27.45% (48.28%), r_s 2855.72*, Burkert 0.86% (2.40%), Ups 0.397, r_s 2.47 / Ups = 1: 25.38%
+     (45.90%), r_s 2855.72*, pseudo-isothermal 0.43% (0.90%), Ups 0.158, r_s 0.57 / Ups = 1: 25.37% (45.94%), r_s 17.47; k = 1.000: NFW 1.97% (5.71%), Ups
+     0.176, r_s 3.56 / Ups = 1: 11.07% (22.06%), r_s 2974.63*, Burkert 1.03% (2.85%), Ups 0.637, r_s 2.40 / Ups = 1: 8.26% (17.28%), r_s 4.83,
+     pseudo-isothermal 0.50% (1.10%), Ups 0.262, r_s 0.58 / Ups = 1: 8.27% (17.10%), r_s 3.06; k = 2.000: NFW 1.80% (5.22%), Ups 0.141, r_s 3.36 / Ups = 1:
+     6.49% (13.07%), r_s 26.96, Burkert 0.90% (2.53%), Ups 0.830, r_s 2.36 / Ups = 1: 2.58% (5.84%), r_s 3.01, pseudo-isothermal 0.54% (1.09%), Ups 0.656,
+     r_s 0.94 / Ups = 1: 2.93% (5.90%), r_s 1.75; k = 3.200: NFW 1.41% (4.18%), Ups 0.240, r_s 3.82 / Ups = 1: 5.60% (10.68%), r_s 27.54, Burkert 0.65%
+     (1.95%), Ups 0.899, r_s 2.65 / Ups = 1: 1.61% (3.34%), r_s 3.09, pseudo-isothermal 0.44% (0.97%), Ups 0.137, r_s 0.49 / Ups = 1: 2.00% (3.46%), r_s
+     1.78; k = 5.333: NFW 0.98% (2.98%), Ups 0.558, r_s 5.74 / Ups = 1: 4.35% (7.39%), r_s 69.03, Burkert 0.33% (1.05%), Ups 0.949, r_s 3.49 / Ups = 1: 1.02%
+     (1.74%), r_s 3.93, pseudo-isothermal 0.22% (0.67%), Ups 0.276, r_s 0.49 / Ups = 1: 1.23% (1.91%), r_s 2.32; k = 8.000: NFW 0.52% (1.57%), Ups 0.782, r_s
+     8.33 / Ups = 1: 2.65% (4.34%), r_s 2802.75*, Burkert 0.19% (0.57%), Ups 0.976, r_s 4.31 / Ups = 1: 0.57% (0.90%), r_s 4.78, pseudo-isothermal 0.13%
+     (0.28%), Ups 0.969, r_s 2.46 / Ups = 1: 0.61% (0.85%), r_s 2.91; k = 16.000: NFW 0.16% (0.40%), Ups 0.952, r_s 16.13 / Ups = 1: 0.86% (1.43%), r_s
+     2847.86*, Burkert 0.14% (0.39%), Ups 0.996, r_s 5.60 / Ups = 1: 0.17% (0.27%), r_s 5.87, pseudo-isothermal 0.08% (0.24%), Ups 0.995, r_s 3.34 / Ups = 1:
+     0.14% (0.20%), r_s 3.61; k = 32.000: NFW 0.05% (0.11%), Ups 0.989, r_s 23.55 / Ups = 1: 0.24% (0.40%), r_s 2758.43*, Burkert 0.05% (0.14%), Ups 0.999,
+     r_s 6.22 / Ups = 1: 0.05% (0.11%), r_s 6.39, pseudo-isothermal 0.04% (0.11%), Ups 0.999, r_s 3.80 / Ups = 1: 0.04% (0.09%), r_s 3.96; k = 100.000: NFW
+     0.01% (0.01%), Ups 0.999, r_s 31.27 / Ups = 1: 0.03% (0.04%), r_s 2863.90*, Burkert 0.01% (0.02%), Ups 1.000, r_s 6.75 / Ups = 1: 0.01% (0.02%), r_s
+     6.80, pseudo-isothermal 0.01% (0.02%), Ups 1.000, r_s 4.14 / Ups = 1: 0.01% (0.02%), r_s 4.21.
+     So with Ups free every family follows the leaf's curve for every k, to rms 1.97% at worst -- the disk-halo degeneracy at work -- but for a slow falloff
+     only with a nearly massless disk (Ups <= 0.094 at k <= 0.1); with the image's whole mass, Ups = 1, Burkert's and the pseudo-isothermal halos follow it
+     to better than 3% rms for k = 2, 3.2, 5.333, 8, 16, 32, 100, NFW less well, under 3% only for k = 8, 16, 32, 100, its scale radius there at the end of
+     its range; for k <= 1 no halo can, the leaf's curve lying below the image's own.  Fitted to the remainder alone where it is positive throughout -- v_h^2
+     against v_d^2 over the same radii, with errors of 3% of v_d -- no family follows it: k = 5.333: NFW 33.0% (78.6% at 0.52 h_eff), Burkert 10.3% (25.9% at
+     0.52 h_eff), pseudo-isothermal 9.5% (23.5% at 0.52 h_eff); k = 8.000: NFW 35.9% (77.6% at 0.54 h_eff), Burkert 10.1% (23.7% at 0.54 h_eff),
+     pseudo-isothermal 9.0% (21.5% at 0.54 h_eff); k = 16.000: NFW 38.1% (77.8% at 0.55 h_eff), Burkert 9.9% (22.8% at 0.55 h_eff), pseudo-isothermal 8.8%
+     (20.9% at 0.55 h_eff); k = 32.000: NFW 39.4% (78.2% at 0.53 h_eff), Burkert 10.1% (22.8% at 0.53 h_eff), pseudo-isothermal 9.0% (21.1% at 0.53 h_eff); k
+     = 100.000: NFW 41.0% (80.3% at 0.50 h_eff), Burkert 10.5% (23.6% at 0.50 h_eff), pseudo-isothermal 9.4% (22.0% at 0.50 h_eff), the rms and the largest
+     deviation and its radius: the largest at the inner radii, where the remainder rises faster than any family's curve.
+     (e) The point source [T/V].  v^2/(G M/ell) = (1 + 3t^2)/(t sqrt(1 + t^2)), t = R/ell (Section XXXI.38(a)), against Newton's 1/t: the remainder (5/2) t +
+     O(t^3) -- at t = 1e-3, 2.499999 t -- of which t comes from the readout's factor 1 + R^2/ell^2 and (3/2) t from Law I's term: without the factor,
+     1.499997 t.  The remainder is a uniform pull, (5/2) G M/ell^2 toward the source, whose driven density g/(2 pi G R) is a cusp falling as 1/R [T]; for the
+     disks of (c) the remainder vanishes faster at the center, as R^2, and the driven density has no cusp there [V].
+   [PASS] v40.1-2: the Newtonian reading -- Freeman reproduced; the driven remainder rises without a bump for each k computed, negative inside for k <= 3.2; its density depressed at the center, -2 outside; every halo family follows the leaf's curve with Ups free, to under 2% rms, and none the remainder alone
+
+== v40.1-3. A leaf per galaxy: the frozen leaf with other scale lengths, the Milky Way with its leaf set by the speed at the Sun, and the two dwarfs with the leaf free (R582) ==
+     (f) The frozen leaf with other scale lengths [V].  ell = 16 kpc, 6e10 Msun: the circular speed at R = 5, 8, 16, 24, 36, 60 kpc, the maximum, the plateau
+     and the image's mass beyond 36 kpc against the stellar halo's 1.4e9 Msun (Deason, Belokurov and Sanders 2019): h = 2 kpc (k = 8.000): 231.0, 227.1,
+     215.4, 214.2, 214.8, 215.7 km/s, a maximum of 231.5 km/s at 5.5 kpc, +6.93% on the plateau, v_inf = 216.5; beyond 36 kpc 1.05% = 6.30e+08 Msun, 0.45
+     times the halo; h = 2.6 kpc (k = 6.154): 198.0, 207.9, 208.3, 208.7, 209.7, 210.6 km/s, a maximum of 208.8 km/s at 10.4 kpc, -1.21% on the plateau,
+     v_inf = 211.3; beyond 36 kpc 3.55% = 2.13e+09 Msun, 1.52 times the halo; h = 3 kpc (k = 5.333): 178.7, 194.1, 201.1, 203.0, 204.5, 205.7 km/s, no
+     maximum, v_inf = 206.5; beyond 36 kpc 5.76% = 3.46e+09 Msun, 2.47 times the halo.  Below the stellar halo's mass only for h near 2 kpc; at 2.6 kpc 1.5
+     times it.  The shorter scale length gives the higher, peaked curve: at h = 2 kpc it rises 6.93% above its plateau at 5.5 kpc, dips 1.06% below it at
+     23.2 kpc, and so varies by 7.99% of it.
+     (g) The Milky Way with a leaf per scale length [V/S].  For each h the benchmark's 6e10 Msun as e^(-k sin chi) on the leaf where it turns at 229 km/s at
+     R_sun = 8.122 kpc (Eilers et al. 2019's v_c and adopted R_sun; v40.0-8(d)'s reading, the leaf's speeds in gnomonic radius taken as the published ones,
+     without Section XXXIII.19's corrections for the leaf's optics): the leaf (every root between 3 and 30 kpc), k; the speed at 5, R_sun, 16, 24, 36, 60
+     kpc; the local slope at the Sun, v(R_sun + 0.5) - v(R_sun - 0.5) (km/s per kpc); the gradient of the straight line through the leaf's speeds at their 38
+     radii, weighted by their errors as their points give their line's -1.7; the deviation from their line 229.0 - 1.7 (R - R_sun) at 5, 16, 24 kpc; the rms
+     deviation from their 38 points at 5.27-24.82 kpc and chi^2 with their mean errors; v_inf; the tail beyond 36 kpc; the image's fitted scale length
+     (against the thin disk's 2.6 +- 0.5 kpc, Bland-Hawthorn and Gerhard 2016): h = 1.6: ell = 17.64 kpc, k = 11.03, v = 250.8, 229.0, 206.9, 204.9, 205.8,
+     207.1, slope -6.13, gradient -2.83, line +16.5, -8.7, +2.9, rms 10.7 km/s, chi^2 = 4661, v_inf = 208.2, tail 7.77e+07 Msun, scale 1.67 kpc; h = 1.7: ell
+     = 17.31 kpc, k = 10.18, v = 246.3, 229.0, 208.9, 207.0, 207.7, 208.9, slope -5.29, gradient -2.55, line +12.0, -6.7, +5.0, rms 10.2 km/s, chi^2 = 3126,
+     v_inf = 209.9, tail 1.44e+08 Msun, scale 1.78 kpc; h = 1.8: ell = 16.79 kpc, k = 9.33, v = 241.5, 229.0, 211.8, 210.0, 210.7, 211.8, slope -4.31,
+     gradient -2.16, line +7.2, -3.8, +8.0, rms 10.2 km/s, chi^2 = 1626, v_inf = 212.7, tail 2.59e+08 Msun, scale 1.90 kpc; h = 1.9: ell = 16.08 kpc, k =
+     8.46, v = 236.6, 229.0, 215.5, 214.2, 214.8, 215.8, slope -3.20, gradient -1.67, line +2.3, -0.1, +12.2, rms 11.3 km/s, chi^2 = 566, v_inf = 216.5, tail
+     4.58e+08 Msun, scale 2.02 kpc; h = 2: ell = 15.17 kpc, k = 7.58, v = 231.6, 229.0, 220.0, 219.4, 220.1, 220.9, slope -1.97, gradient -1.08, line -2.7,
+     +4.4, +17.3, rms 13.7 km/s, chi^2 = 431, v_inf = 221.6, tail 7.86e+08 Msun, scale 2.15 kpc; h = 2.1: ell = 14.05 kpc, k = 6.69, v = 226.4, 229.0, 225.2,
+     225.5, 226.4, 227.2, slope -0.65, gradient -0.41, line -7.9, +9.6, +23.5, rms 17.2 km/s, chi^2 = 1723, v_inf = 227.8, tail 1.30e+09 Msun, scale 2.29
+     kpc; h = 2.2: ell = 12.76 kpc, k = 5.80, v = 221.3, 229.0, 230.8, 232.1, 233.2, 234.1, slope +0.71, gradient +0.30, line -13.0, +15.2, +30.1, rms 21.4
+     km/s, chi^2 = 4748, v_inf = 234.6, tail 2.04e+09 Msun, scale 2.43 kpc; h = 2.4: ell = 9.97 kpc, k = 4.15, v = 212.4, 229.0, 240.1, 243.3, 244.9, 245.9,
+     slope +3.04, gradient +1.49, line -21.9, +24.5, +41.3, rms 29.0 km/s, chi^2 = 13680, v_inf = 246.4, tail 3.92e+09 Msun, scale 2.75 kpc; h = 2.6: ell =
+     7.64 kpc, k = 2.94, v = 208.1, 229.0, 243.6, 247.2, 248.9, 249.9, slope +4.05, gradient +1.95, line -26.2, +28.0, +45.2, rms 31.9 km/s, chi^2 = 18424,
+     v_inf = 250.4, tail 5.18e+09 Msun, scale 3.01 kpc; h = 2.8: ell = 5.91 kpc, k = 2.11, v = 208.2, 229.0, 242.6, 245.8, 247.3, 248.0, slope +3.94,
+     gradient +1.83, line -26.1, +27.0, +43.8, rms 31.0 km/s, chi^2 = 17320, v_inf = 248.5, tail 5.47e+09 Msun, scale 3.18 kpc; h = 3: ell = 4.53 kpc, k =
+     1.51, v = 211.1, 229.0, 239.7, 242.1, 243.2, 243.7, slope +3.24, gradient +1.46, line -23.2, +24.1, +40.1, rms 28.5 km/s, chi^2 = 13642, v_inf = 244.1,
+     tail 5.10e+09 Msun, scale 3.24 kpc; h = 3.1: ell = 3.91 kpc, k = 1.26, v = 213.3, 229.0, 238.0, 239.9, 240.8, 241.2, slope +2.76, gradient +1.23, line
+     -21.0, +22.4, +37.9, rms 27.0 km/s, chi^2 = 11558, v_inf = 241.5, tail 4.74e+09 Msun, scale 3.25 kpc.
+     One leaf for each h, and it shrinks as h grows.  The data themselves: the weighted line through their 38 points is 229.02 -1.737 (R - R_sun) km/s, their
+     published line; lines through their points within 6.5-10 and 7-9.5 kpc, the data's own local slope, have slopes -1.65 and -2.17 weighted, -1.55 and
+     -2.01 unweighted.  The leaf's local slope at the Sun is their line's -1.7 km/s per kpc at h = 2.021 kpc, on ell = 14.95 kpc (k = 7.394), with a tail of
+     8.78e+08 Msun, 0.63 of the stellar halo, and an image of scale length 2.18 kpc -- but its own line through their radii falls at only -0.95 km/s per kpc,
+     and the curve flattens, +5.5 km/s off their line at 16 kpc and +18.6 at 24 kpc, rms 14.3 km/s over their points.  The leaf's line has their gradient at
+     h = 1.887 kpc, where the local slope at the Sun is -3.35 and the rms 11.1 km/s.  The smallest rms, 10.1 km/s, is at h = 1.75 kpc (ell = 17.07 kpc), with
+     a slope of -4.82 at the Sun and an image of scale length 1.84 kpc; for h above 2.148 kpc the curve rises at the Sun.  No scale length gives the Sun's
+     speed, the slope there and the decline to 25 kpc together: the leaf's curve peaks and flattens where the Milky Way's keeps falling.
+     (h) DDO 154 [V/S]: Section XXXIII.37's arena leaf, ell = 2.02 kpc with k = 4 and M_b = 3.90e+08 Msun, gives chi^2/N = 142.2 with SPARC's errors and 48.8
+     with them floored at 1 km/s (v36.3's 142/49), v = 29.0, 36.9, 39.8, 41.1, 41.8, 42.3, 42.6, 42.8, 43.0, 43.1, 43.2, 43.2 km/s against 13.8, 21.6, 28.9,
+     34.3, 38.2, 42, 44.6, 46.3, 47.4, 48.2, 47.4, 45.5 (Lelli, McGaugh and Schombert 2016).  With M_b and the leaf free for each k, the best leaf and
+     chi^2/N (published / floored): k = 0.25: ell = 0.200* kpc, 376.4/80.0, k = 0.5: ell = 0.320 kpc, 194.8/85.5, k = 1: ell = 0.621 kpc, 164.1/66.8, k = 2:
+     ell = 1.151 kpc, 128.3/48.7, k = 3: ell = 1.591 kpc, 122.5/46.7, k = 4: ell = 1.947 kpc, 135.6/53.5, k = 8: ell = 2.553 kpc, 253.7/119.6, k = 16: ell =
+     2.529 kpc, 325.1/188.3; the best over k, k = 2.742 on ell = 1.486 kpc, 121.8/46.2, v = 28.2, 36.7, 40.0, 41.7, 42.6, 43.1, 43.5, 43.7, 43.9, 44.0, 44.1,
+     44.2.  With a free factor f on v^2 as well (f M_b the gravitating mass): k = 1: ell = 3.7 kpc (R_last/ell = 1.584), f = 9.62, chi^2/N = 3.08, mass
+     inside R_last 5.37 M_b, k = 3: ell = 7.0 kpc (R_last/ell = 0.846), f = 7.29, chi^2/N = 4.01, mass inside R_last 4.08 M_b, k = 8: ell = 21.7 kpc
+     (R_last/ell = 0.272), f = 9.82, chi^2/N = 2.32, mass inside R_last 5.81 M_b, k = 32: ell = 92.6 kpc (R_last/ell = 0.064), f = 10.72, chi^2/N = 1.74,
+     mass inside R_last 6.48 M_b, k = 100: ell = 290.5 kpc (R_last/ell = 0.020), f = 10.80, chi^2/N = 1.70, mass inside R_last 6.52 M_b; the Newtonian
+     dynamical mass V^2 R/G at R_last is 7.31 M_b.
+     (h) IC 2574 [V/S]: Section XXXIII.37's arena leaf, ell = 4.51 kpc with k = 1.5 and M_b = 1.95e+09 Msun, gives chi^2/N = 86.8 with SPARC's errors and
+     37.2 with them floored at 1 km/s (v36.3's 87/37), v = 15.8, 19.3, 22.2, 24.8, 26.9, 28.8, 30.3, 31.8, 33.0, 34.1, 35.0, 35.8, 36.5, 37.2, 37.8, 38.2,
+     38.7, 39.1, 39.5, 39.8, 40.1, 40.3, 40.6, 40.8, 41.0, 41.2, 41.3, 41.5, 41.6, 41.8, 41.9, 42.0, 42.1, 42.2 km/s against 10.3, 12.9, 16.4, 18.6, 19.8,
+     26.1, 27.7, 29.7, 33, 34.8, 35, 39, 35.9, 40, 38.7, 41.8, 42.9, 44.4, 46.1, 49, 51.9, 53.1, 54, 55.9, 58.8, 57.3, 54, 63.8, 60.5, 61, 66, 65.2, 67.1,
+     67.5 (Lelli, McGaugh and Schombert 2016).  With M_b and the leaf free for each k, the best leaf and chi^2/N (published / floored): k = 0.25: ell = 1.399
+     kpc, 258.3/95.0, k = 0.5: ell = 2.128 kpc, 166.3/62.5, k = 1: ell = 3.268 kpc, 103.9/39.8, k = 2: ell = 5.238 kpc, 77.6/29.2, k = 3: ell = 7.195 kpc,
+     80.0/29.6, k = 4: ell = 9.298 kpc, 89.7/33.5, k = 8: ell = 19.098 kpc, 125.0/52.2, k = 16: ell = 39.624 kpc, 148.1/66.3; the best over k, k = 2.284 on
+     ell = 5.784 kpc, 76.9/28.8, v = 16.8, 20.4, 23.4, 26.0, 28.2, 30.2, 31.7, 33.2, 34.5, 35.6, 36.6, 37.5, 38.2, 38.9, 39.6, 40.1, 40.6, 41.0, 41.4, 41.8,
+     42.1, 42.4, 42.7, 43.0, 43.2, 43.4, 43.6, 43.8, 43.9, 44.1, 44.2, 44.4, 44.5, 44.6.  With a free factor f on v^2 as well (f M_b the gravitating mass): k
+     = 1: ell = 21.1 kpc (R_last/ell = 0.484), f = 43.30, chi^2/N = 2.17, mass inside R_last 6.92 M_b, k = 3: ell = 49.1 kpc (R_last/ell = 0.209), f = 51.85,
+     chi^2/N = 2.04, mass inside R_last 5.84 M_b, k = 8: ell = 138.3 kpc (R_last/ell = 0.074), f = 57.78, chi^2/N = 2.04, mass inside R_last 6.46 M_b, k =
+     32: ell = 566.5 kpc (R_last/ell = 0.018), f = 58.40, chi^2/N = 2.04, mass inside R_last 6.68 M_b, k = 100: ell = 1000.0* kpc (R_last/ell = 0.010), f =
+     15.89, chi^2/N = 4.58, mass inside R_last 4.33 M_b; the Newtonian dynamical mass V^2 R/G at R_last is 5.56 M_b.
+     Freeing the leaf does little for the dwarfs with their baryons alone: the best chi^2/N fall from Section XXXIII.37's arena values by 1.17 and 1.13
+     times, to 122 and 77, because the leaf small enough to reach the outer speed with M_b brings the curve to its plateau too soon.  With the amplitude free
+     the curves are followed, chi^2/N from 1.70 to 4.58, the best of them on leaves many times larger than the data's radii, where the leaf's gravity is
+     Newtonian to (R/ell)^2 -- though DDO 154's fit at k = 1 lies on a leaf smaller than its last radius (R_last/ell = 1.584, chi^2/N = 3.08) -- and with
+     4.08-6.92 times the baryons inside the last radius, near the Newtonian dynamical mass there: unseen matter by another name.
+   [PASS] v40.1-3: a leaf per galaxy -- on the frozen leaf the tail is below the stellar halo only for h near 2 kpc; for the Milky Way one leaf per h, the local slope at the Sun right at h = 2.021 kpc but the curve flat beyond; the dwarfs need several times their baryons
+
+== v40.2-1. The quick falloff, the point source's apparent halo, and the image's density against the exponential
+     (a) The quick falloff [V].  The third message of 20 November, as the author's correction of 22 November reads it, asks to check falloff lengths as short
+     as 0.01 ell, k = 100, the quick end of v40.1-1's scan, where the curve's bump comes earliest and highest.  Freeman's exponential disk peaks at R =
+     2.1501 h with v^2 = 0.38705 G M/h; over the leaf's plateau C G M/ell that peak is sqrt(0.38705 k/C) times v_inf.  The bump, its radius in h_eff and its
+     height; that estimate; the image's own Newtonian peak; the remainder's largest share v_d^2/v^2 at 0.5, 1, 2, 5 and 10 h_eff: k = 16: 2.23 h_eff, 1.4553
+     v_inf; 1.4409; 1.4275; +0.453; k = 32: 2.17 h_eff, 2.0385 v_inf; 2.0334; 2.0287; +0.185; k = 64: 2.15 h_eff, 2.8758 v_inf; 2.8740; 2.8724; +0.055; k =
+     100: 2.15 h_eff, 3.5931 v_inf; 3.5921; 3.5913; +0.023.  So for a quick falloff the bump is the image's own disk at Freeman's peak, as v40.1-2(b) found,
+     its height over the plateau growing as sqrt(k), and the leaf's remainder at those radii falls as k grows, to a few percent of v^2 at k = 64 and 100.
+     (b) The point source's apparent halo [T].  A point mass M on the leaf gives v^2 = (G M/ell)(1 + 3t^2)/(t sqrt(1 + t^2)), t = R/ell; read as Newton's G
+     M/R plus a halo, the halo's mass inside R is M_d = M[(1 + 3t^2)/sqrt(1 + t^2) - 1] and its density, the spherical equivalent, rho_d = (M/ell^3)(5 +
+     3t^2)/(4 pi t (1 + t^2)^(3/2)), in closed form (the numerical derivative agrees to 3.2e-08).  M_d/M at t = 0.01: 0.0002, 0.1: 0.0249, 0.3: 0.2164, 1:
+     1.8284, 3: 7.8544, 10: 28.9506, 100: 298.9950 -- 1.8284, 2 sqrt 2 - 1, inside R = ell -- and the density's logarithmic slope -1.000, -1.018, -1.145,
+     -1.750, -2.012, -2.003, -2.000: a cusp falling as 1/R for R << ell, NFW's inner slope, turning near R = ell to 1/R^2, the isothermal sphere's, with no
+     free parameter; its mass grows as 3 M R/ell without bound.
+     (c) The image's density against the exponential [T/V].  With h = 2.021 kpc and 6e10 Msun, the Milky Way's leaf of Section XXXVIII.22(g), with ell and h
+     as printed there, and two larger leaves: the image's surface density against Sigma_0 e^(-R/h) at R = 5, 10, 15, 25, 50 kpc; the radius where it first
+     departs from the exponential by 10%, and the fraction of the mass inside it; the fraction beyond 36 kpc; the plateau speed sqrt(C G M/ell): ell = 14.95
+     kpc (k = 7.397): 0.969, 1.32, 3.12, 55.7, 1.09e+06; 10% at 8.06 kpc, inside it 83.1%; beyond 36 kpc 1.46%; v_inf = 222.8 km/s; ell = 50 kpc (k =
+     24.740): 0.997, 1.04, 1.2, 2.64, 496; 10% at 12.55 kpc, inside it 98.2%; beyond 36 kpc 0.00105%; v_inf = 124.3 km/s; ell = 100 kpc (k = 49.480): 0.999,
+     1.01, 1.05, 1.32, 9.75; 10% at 18.13 kpc, inside it 99.9%; beyond 36 kpc 0.0001%; v_inf = 88.0 km/s.  The image is exponential while R << ell, the areal
+     radius ell sin chi being R there; beyond R = ell it falls as cos^3 chi, as (ell/R)^3 for R >> ell, its exponent saturating toward e^(-k) once R^2 >> k
+     ell^2.  The leaf that gives the Milky Way's speed at the Sun keeps the exponential only to four scale lengths, though that part holds most of the mass;
+     a leaf large enough to keep it to nine gives a plateau far below the Milky Way's speed.
+   [PASS] v40.2-1: the quick falloff's bump is the image's own Freeman peak, growing as sqrt(k); the point source's apparent halo in closed form, 1/R for R << ell and 1/R^2 for R >> ell; the image exponential only while R << ell
+
+== v40.2-2. The density near the equator and the curve
+     (a) The equator's density [V].  The density near the leaf's equator, R >> ell in the gnomonic plane, changed beyond R = 36 kpc (chi = 67.45 degrees)
+     with the density inside it fixed; the mass against the source's own, the speed at 5, 8, 16, 24, 60 kpc (none where v^2 < 0) and the plateau, and the
+     changes from the source as it is: h = 2.021 kpc (k = 7.397): as it is: mass 1.0000, v = 230.5, 229.2, 221.1, 220.6, 222.2, v_inf = 222.8; removed: mass
+     0.9854, v = 230.6, 229.4, 221.9, 222.3, 224.0, v_inf = 223.9 (+0.09, +0.21, +0.78, +1.70, +1.81; +1.09); doubled: mass 1.0146, v = 230.4, 229.0, 220.3,
+     218.9, 220.3, v_inf = 221.7 (-0.09, -0.21, -0.78, -1.71, -1.82; -1.10); held at its value at 36 kpc: mass 1.0064, v = 230.5, 229.1, 220.7, 219.9, 219.4,
+     v_inf = 219.8 (-0.04, -0.09, -0.34, -0.70, -2.78; -3.02); h = 14.95 kpc (k = 1.000): as it is: mass 1.0000, v = 53.4, 70.2, 92.4, 100.9, 108.7, v_inf =
+     110.5; removed: mass 0.6911, v = 60.8, 83.6, 125.7, 160.5, 199.9, v_inf = 191.3 (+7.38, +13.41, +33.29, +59.61, +91.18; +80.71); doubled: mass 1.3089, v
+     = 44.9, 53.5, 35.8, none, none, v_inf = none (-8.58, -16.67, -56.64, -, -; -); held at its value at 36 kpc: mass 1.0162, v = 53.0, 69.4, 90.4, 97.0,
+     92.7, v_inf = 91.9 (-0.42, -0.78, -2.05, -3.88, -16.03; -18.64).  Mass near the equator pulls the inner disk outward, as the outer rings of any thin
+     disk do: removing it raises the curve, doubling it lowers it.
+     (b) Against the data and the census [V].  For the Milky Way's falloff, at the 38 radii of Eilers et al. (2019), against their mean errors: the largest
+     change removed, doubled and held is 1.13, 1.14, 0.50 times the error, at 13.23, 13.23, 13.23 kpc; the sum of (change/error)^2 is 14.7, 14.8, 2.8,
+     against the leaf's own misfit to the same points, 567.7 (rms 14.3 km/s).  The tail beyond 36 kpc, 8.77e+08 Msun, is 0.63 of the Milky Way's stellar
+     halo, 1.4e9 Msun (Deason, Belokurov and Sanders 2019); held at its value at 36 kpc it would be 0.90 of it, doubled 1.25.  For the slow falloff the
+     doubled tail's v^2 is +1282 and -5402 (km/s)^2 at 16 and 24 kpc, zero at 18.14 kpc, and negative at 18.5, 20, 30, 50, 100, 300 and 1000 kpc (-250,
+     -1398, -15419, -19016, -13435, -12273, -12149), its plateau coefficient C = -0.537: no circular orbit beyond.  So for the Milky Way's falloff the region
+     beyond 36 kpc, 1.46% of the mass, moves the curve inside 24 kpc by under 2 km/s, about the statistical errors of the measured curve at 11-15 kpc and far
+     below the leaf's own misfit, and the plateau by about 1 km/s, or 3 if held; the curve constrains it only weakly, the stellar census more.  For the slow
+     falloff the same region holds 31% of the mass, and removing or doubling it moves the curve by more than 10 km/s from 8 kpc out and by tens of km/s from
+     16 kpc, holding it by under 4 km/s inside 24 kpc.
+   [PASS] v40.2-2: the density beyond 36 kpc moves the Milky Way leaf's curve inside 24 kpc by under 2 km/s, about the data's errors and far below the leaf's own misfit, its tail 0.63 of the stellar halo; a slow falloff's by tens of km/s, the doubled tail leaving no orbit
+
+== v40.3-1. The third freedom: v^2 = B (G M/ell) u(R/ell; ell/h) on the Milky Way (R593) ==
+   The leaf's curves on a table of 301 falloffs, k = ell/h from 0.01 to 1000 at sixty to a decade, each by v40.1's rows (_v41_curves); four-point Lagrange in
+     ln k and ln R.  Controls: the table against the curves computed at eight k off it, at six radii each on the grid in R, u, its image's Newtonian curve
+     and C: 2.8e-06, and at six radii midway between the grid's, from 0.0033 to 30.20, against u and un computed there directly by the same rows: 2.7e-05;
+     Abramowitz and Stegun's I0, I1, K0 and K1 against v40.0's integrals over y = 0.05-10: 8.0e-08, Freeman's bracket I0 K0 - I1 K1 8.2e-06; the multipole
+     series of Freeman's curve against the integrals at y = 10: 1.1e-06; B in closed form against a golden section: <1e-7.  The image within 0.3 mag and 0.1
+     mag of the exponential out to four scale lengths needs k >= 2.7 and 7.7 (v40.0's search, Section XXXVIII.10).
+   The data: Eilers et al. 2019, 38 points from 5.27 to 24.82 kpc, each error the mean of their two; the baryons one exponential disk of 6e10 Msun, the
+     archive's benchmark, for every model alike; its arena leaf 3 sqrt(G M/a0) = 25.04 kpc and v_arena = (G M a0)^(1/4) = 175.8 km/s (a0 = 1.2e-10 m/s^2).
+     The fits:
+     the three freedoms (ell, h, B): chi^2 = 130.6, chi^2/(N - 3) = 3.73, rms 9.10 km/s, largest 32.5 km/s; ell = 23.77, h = 2.787, B = 1.388, k = 8.53,
+       v_inf = 209.9
+     B = 1 (ell, h): chi^2 = 340.1, chi^2/(N - 2) = 9.45, rms 12.61 km/s, largest 40.6 km/s; ell = 15.55, h = 1.953, k = 7.96, v_inf = 219.5
+     h = 2.6 kpc (ell, B): chi^2 = 141.9, chi^2/(N - 2) = 3.94, rms 9.82 km/s, largest 34.4 km/s; ell = 21.66, B = 1.299, k = 8.33, v_inf = 212.5
+     the arena leaf (h, B): chi^2 = 133.9, chi^2/(N - 2) = 3.72, rms 8.67 km/s, largest 31.3 km/s; h = 2.882, B = 1.435, k = 8.69, v_inf = 208.1
+     the arena leaf with B = 3/C(k) (h): chi^2 = 51999.1, chi^2/(N - 1) = 1405.38, rms 26.79 km/s, largest 39.1 km/s; h = 2.054, B = 1.0101, k = 12.19, v_inf
+       = 175.8
+     the arena leaf with B = 3/C(k), h = 2.6 kpc (nothing): chi^2 = 62113.3, chi^2/(N - 0) = 1634.56, rms 29.12 km/s, largest 37.7 km/s; B = 1.0180, k = 9.63
+     the disk mass the arena rule with B = 3/C(k) needs (M, h): chi^2 = 222.1, chi^2/(N - 2) = 6.17, rms 7.09 km/s, largest 25.6 km/s; M/1e10 Msun = 9.67, h
+       = 3.276, ell = 31.80, B = 1.0177
+       (that disk's mass: 9.67e+10 Msun, 1.612 times the benchmark)
+     Freeman's disk plus the leaf's remainder, times B (ell, h, B): chi^2 = 140.8, chi^2/(N - 3) = 4.02, rms 9.35 km/s, largest 33.1 km/s; ell = 19.79, h =
+       2.650, B = 1.188, k = 7.47
+     Freeman's disk plus B times the remainder (ell, h, B): chi^2 = 130.3, chi^2/(N - 3) = 3.72, rms 9.05 km/s, largest 32.4 km/s; ell = 9.17, h = 2.415, B =
+       0.638, k = 3.80
+     Newton, the disk alone (h): chi^2 = 228622.8, chi^2/(N - 1) = 6178.99, rms 68.48 km/s, largest 100.7 km/s; h = 2.450
+     Newton at h = 2.6 kpc: chi^2 = 229637.6, chi^2/(N - 0) = 6043.09, rms 68.48 km/s, largest 100.1 km/s;
+     Newton times B (h, B): chi^2 = 1191.8, chi^2/(N - 2) = 33.11, rms 11.31 km/s, largest 31.7 km/s; h = 4.468, B = 2.333
+     the radial acceleration relation on the disk (h): chi^2 = 629.7, chi^2/(N - 1) = 17.02, rms 6.66 km/s, largest 20.7 km/s; h = 2.674
+     the relation at h = 2.6 kpc: chi^2 = 657.5, chi^2/(N - 0) = 17.30, rms 6.66 km/s, largest 20.4 km/s;
+     the disk with an NFW halo (h, V2, r_s): chi^2 = 62.1, chi^2/(N - 3) = 1.78, rms 6.09 km/s, largest 23.9 km/s; h = 7.271, V2 = 217453, r_s = 1.60
+     the disk with an NFW halo at h = 2.6 kpc (V2, r_s): chi^2 = 154.1, chi^2/(N - 2) = 4.28, rms 9.75 km/s, largest 34.2 km/s; V2 = 182200, r_s = 29.34
+   The profile in ell (h and B re-fitted; ell, chi^2, h, B): 10.0: 834.9, 1.180, 0.667; 15.0: 371.9, 1.902, 0.972; 20.0: 166.7, 2.463, 1.229; 22.5: 134.3,
+     2.686, 1.337; 25.0: 133.7, 2.879, 1.434; 27.5: 155.0, 3.046, 1.519; 30.0: 190.7, 3.191, 1.594; 35.0: 283.4, 3.428, 1.720; 40.0: 383.8, 3.609, 1.819;
+     60.0: 703.6, 4.020, 2.055; 100.0: 981.1, 4.290, 2.220.  The profile rises by the reduced chi^2 at ell = 22.48 and 25.14 kpc (Delta chi^2 = 1 with the
+     errors scaled to chi^2/(N - 3) = 1); the arena leaf, 25.04 kpc, is inside.
+   The fitted leaf is 0.949 of the arena leaf.  B absorbs the disk's mass, so that the fitted leaf does not depend on it, while the arena leaf grows as
+     sqrt(M): the fitted leaf is the arena leaf of 5.4e+10 Msun, and the arena leaf of 0.8 and 1.2 times the benchmark is 22.40 and 27.43 kpc.  The profile's
+     interval is 0.946-1.058 of the fitted leaf and 0.898-1.004 of the arena leaf.  chi^2 over the three freedoms': B = 1, 2.60; the arena leaf with B free,
+     1.025; the arena leaf with B = 3/C(k), 398.
+   Beyond the data (R = 30, 40, 50, 75, 100, 150, 300 kpc): the three freedoms 207.7, 207.6, 208.1, 208.9, 209.2, 209.6, 209.8; the arena leaf with B free
+     206.0, 205.8, 206.1, 207.0, 207.4, 207.7, 208.0; NFW at h = 2.6 kpc 210.7, 210.8, 210.3, 206.5, 201.4, 190.9, 166.5; the RAR 190.5, 186.2, 183.9, 181.0,
+     179.7, 178.3, 177.1 km/s.  The three freedoms' curve reaches its least speed, 207.5 km/s, at 34.4 kpc and climbs back to v_inf = 209.9 km/s: a leaf with
+     k = 8.53 is of v40.1's bump class, and the dip is its own.
+   [PASS] v40.3-1: the Milky Way with ell, h and B free: chi^2/(N - 3) under 4 on the arena leaf to within 10% (h near 2.8 kpc, B near 1.4), inside the profile's interval; B = 1 doubles chi^2, B = 3/C(k) multiplies it more than a hundredfold (the disk would need 1.5-2.5 times its mass); B on the remainder alone fits as well with B < 1; NFW at h = 2.6 kpc worse; controls to 1e-5 on the grid in R and 1e-4 between its points
+
+== v40.3-2. The eight galaxies of the v36 pilot: the leaf with each galaxy's baryons, against Newton, the RAR and NFW (R594) ==
+   SPARC's curves and errors, its baryonic curves at v36's ratios (disk 0.5, bulge 0.7, gas 1.33 M_HI), the same for every model; no distance, inclination or
+     ratio marginalized.  The leaf with the galaxy's baryons: v^2 = B [V_bar^2 + sum (G M_c/ell) r_c(R/ell; ell/h_c)], r = u - un the leaf's remainder for
+     each component -- the stellar disk at Rdisk, the gas at its fitted scale length, the bulge as a point -- the leaves from 2.7 Rdisk, the stellar image
+     within 0.3 mag of the exponential out to four scale lengths.  Per galaxy: M_b = stars + gas + bulge [1e9 Msun]; Rdisk and h_gas [kpc]; ell_arena;
+     v_arena; Table 1's V_flat; N:
+     DDO154: 0.392 = 0.026 + 0.366 + 0.000; 0.37, 2.13; 2.02 kpc; 50.0 km/s; 47.0 km/s; 12
+     IC2574: 1.886 = 0.508 + 1.378 + 0.000; 2.78, 5.52; 4.44 kpc; 74.0 km/s; 66.4 km/s; 34
+     NGC6503: 8.742 = 6.423 + 2.320 + 0.000; 2.16, 5.84; 9.56 kpc; 108.6 km/s; 116.3 km/s; 31
+     NGC2403: 9.275 = 5.021 + 4.255 + 0.000; 1.39, 5.12; 9.85 kpc; 110.2 km/s; 131.2 km/s; 73
+     NGC3198: 33.595 = 19.140 + 14.456 + 0.000; 3.14, 14.33; 18.74 kpc; 152.1 km/s; 150.1 km/s; 43
+     NGC7814: 48.794 = 11.999 + 1.423 + 35.372; 2.54, 7.84; 22.58 kpc; 167.0 km/s; 218.9 km/s; 18
+     NGC2841: 116.308 = 70.943 + 13.001 + 32.365; 3.64, 10.12; 34.87 kpc; 207.5 km/s; 284.8 km/s; 50
+     UGC02885: 264.824 = 177.359 + 53.300 + 34.165; 11.40, 22.67; 52.62 kpc; 254.8 km/s; 289.5 km/s; 19
+   chi^2/(N - p), p the parameters fitted (0: Newton, RAR, arena with 3/C; 1: RAR with Y, B = 1, arena with B, 3/C with Y; 2: NFW, leaf, B on r, one at h =
+     Rd; 3: one with ell, h and B).  Columns: Newton; RAR; RAR, Y; NFW; leaf; B = 1; arena, B; arena, 3/C; 3/C, Y; B on r; one (ell,h,B); one, h = Rd:
+     DDO154: 5866.33; 89.09; 22.54; 11.77; 5.11; 3939.74; 6.01; 9.53; 10.12; 117.13; 2.27; 184.05
+     IC2574: 406.76; 238.41; 7.06; 33.17; 3.08; 321.18; 76.60; 105.49; 85.11; 15.62; 2.23; 63.40
+     NGC6503: 1663.85; 2.81; 2.76; 1.94; 6.25; 218.49; 9.42; 52.32; 13.37; 22.88; 0.83; 5.01
+     NGC2403: 4374.21; 75.64; 16.56; 10.01; 14.05; 471.82; 15.28; 430.37; 60.33; 92.31; 11.68; 11.58
+     NGC3198: 759.05; 13.41; 9.91; 1.39; 4.38; 114.15; 8.90; 14.50; 5.59; 78.16; 0.46; 3.22
+     NGC7814: 404.64; 27.27; 2.58; 1.22; 1.89; 1.79; 12.71; 118.77; 8.72; 0.99; 2.46; 14.24
+     NGC2841: 746.29; 86.27; 2.31; 3.34; 2.38; 25.64; 2.62; 199.46; 11.26; 18.33; 1.41; 1.44
+     UGC02885: 131.85; 2.83; 2.67; 2.60; 1.03; 19.51; 1.22; 13.11; 1.94; 7.03; 1.41; 46.33
+   Total chi^2 over the eight (280 points): Newton 534865; RAR 20219; RAR, Y 2378; NFW 2227; leaf 1670; B = 1 100894; arena, B 4717; arena, 3/C 49723; 3/C, Y
+     8634; B on r 13108; one (ell,h,B) 1075; one, h = Rd 6054.
+   The parameters.  The leaf with the galaxy's baryons (ell [kpc], f = ell/ell_arena, B, C_eff, k* = ell/Rdisk, v_inf [km/s]; then at the arena leaf, B
+     fitted and 3/C_eff): DDO154 2.50, 1.232, 3.717, 0.959, 6.74, 49.1; 3.595, 3.708; IC2574 8.10, 1.824, 3.031, 1.240, 2.91, 61.4; 3.237, 4.193; NGC6503
+     5.83, 0.610, 1.479, 1.464, 2.70, 118.1 (at the lower end); 1.707, 1.440; NGC2403 8.52, 0.865, 1.773, 2.021, 6.13, 129.6; 1.900, 1.400; NGC3198 25.29,
+     1.350, 1.857, 2.175, 8.05, 151.9; 1.650, 1.533; NGC7814 12.21, 0.541, 1.012, 2.828, 4.81, 221.8; 1.551, 1.017; NGC2841 37.37, 1.072, 1.981, 2.881,
+     10.27, 276.4; 1.891, 1.047; UGC02885 42.33, 0.804, 1.525, 2.110, 3.71, 294.3; 1.647, 1.272.
+   v_inf/V_flat: DDO154 1.045; IC2574 0.924; NGC6503 1.016; NGC2403 0.987; NGC3198 1.012; NGC7814 1.013; NGC2841 0.971; UGC02885 1.016.
+   B = 1 (ell, f): DDO154 1.32, 0.651; IC2574 7.91, 1.780; NGC6503 5.83, 0.610 (at the lower end); NGC2403 3.75, 0.381 (at the lower end); NGC3198 8.48,
+     0.452 (at the lower end); NGC7814 12.04, 0.533; NGC2841 13.44, 0.385; UGC02885 30.78, 0.585 (at the lower end).  The arena rule with the disk's Y free
+     (Y, B = 3/C_eff): DDO154 0.471, 3.748; IC2574 0.575, 4.030; NGC6503 0.731, 1.282; NGC2403 0.961, 1.197; NGC3198 0.604, 1.439; NGC7814 2.045, 1.011;
+     NGC2841 1.717, 1.011; UGC02885 0.913, 1.143.  The RAR with the disk's Y free (Y): DDO154 0.000; IC2574 0.027; NGC6503 0.490; NGC2403 0.641; NGC3198
+     0.448; NGC7814 1.137; NGC2841 1.203; UGC02885 0.550.  NFW (V2 [km^2/s^2], r_s [kpc]): DDO154 20505, 17.34; IC2574 r_s beyond 100 R_last, the halo's
+     inner part alone: its limit V^2 = a R, fitted, a = 240.3 km^2/s^2/kpc; NGC6503 51486, 10.05; NGC2403 66331, 11.06; NGC3198 82093, 16.31; NGC7814 171595,
+     17.52; NGC2841 309740, 11.47; UGC02885 299968, 43.36.
+   NFW with the baryons' scale free as well, V^2 = beta V_bar^2 + V2 nfw(R/r_s), three parameters (chi^2/(N - 3); beta): DDO154 11.81; 2.305; IC2574 10.35;
+     3.750 (r_s beyond 100 R_last, V^2 = beta V_bar^2 + a R: a = 0, no halo, the baryons times beta alone); NGC6503 1.40; 0.765; NGC2403 8.30; 0.289; NGC3198
+     1.39; 0.897; NGC7814 0.44; 0.758; NGC2841 1.90; 1.686; UGC02885 0.94; 1.405; total chi^2 1213.
+   The rescaling on the remainder alone, v^2 = V_bar^2 + B r (ell, f, B): DDO154 3.26, 1.611, 9.403; IC2574 94.29, 21.235, 300.000 (B at the bound of its
+     search); NGC6503 5.83, 0.610, 1.730 (at the lower end); NGC2403 4.34, 0.440, 1.644; NGC3198 9.30, 0.496, 1.451; NGC7814 7.76, 0.344, 0.566; NGC2841
+     9.83, 0.282, 0.777 (at the lower end); UGC02885 30.78, 0.585, 1.602 (at the lower end).  The single source (ell, h, k, B, v_inf): DDO154 ell beyond 100
+     R_last, the leaf idle over the data: B Freeman's curve, h = 2.91, B = 10.74; IC2574 66.32, 16.565, 4.00, 57.740, 127.3; NGC6503 8.86, 1.300, 6.82,
+     1.142, 117.2; NGC2403 4.42, 1.418, 3.12, 0.983, 131.2; NGC3198 33.72, 4.503, 7.49, 1.801, 149.1; NGC7814 5.63, 0.489, 11.51, 0.439, 220.3; NGC2841
+     34.08, 3.482, 9.79, 1.861, 283.9; UGC02885 k at the table's upper end, h = ell/990, a point on the leaf: ell = 4.20, B = 0.101, v_inf = 285.9; at h =
+     Rdisk (ell, k, B): DDO154 1.22, 3.29, 0.697; IC2574 8.22, 2.96, 1.452; NGC6503 16.21, 7.50, 1.993; NGC2403 4.31, 3.10, 0.959; NGC3198 18.10, 5.76,
+     1.076; NGC7814 23.93, 9.42, 1.617; NGC2841 35.95, 9.88, 1.955; UGC02885 110.46, 9.69, 2.432.
+   Without the floor of 2.7 Rdisk, the leaves searched down to the table's least k for every component: the leaf (ell, B), chi^2/(N - 2) and ell; B = 1,
+     chi^2/(N - 1) and ell; B on the remainder alone, chi^2/(N - 2), ell and B: DDO154 5.11, 2.50; 3939.74, 1.32; 117.13, 3.26, 9.403; IC2574 3.08, 8.10;
+     321.18, 7.91; 15.62, 94.29, 300.000; NGC6503 4.85, 3.10; 126.23, 1.72; 19.07, 3.53, 1.546; NGC2403 14.05, 8.52; 384.68, 2.45; 92.31, 4.34, 1.644;
+     NGC3198 4.38, 25.29; 109.94, 6.96; 78.16, 9.30, 1.451; NGC7814 1.89, 12.21; 1.79, 12.04; 0.99, 7.76, 0.566; NGC2841 2.38, 37.37; 25.64, 13.44; 1.57,
+     1.40, 0.183; UGC02885 1.03, 42.33; 4.13, 13.61; 3.56, 6.46, 0.600.
+   chi^2/(N - 2) with B on the remainder alone over B on the whole curve, on the leaves from 2.7 Rdisk and without the floor: DDO154 22.92, 22.92; IC2574
+     5.07, 5.07; NGC6503 3.66, 3.93; NGC2403 6.57, 6.57; NGC3198 17.84, 17.84; NGC7814 0.52, 0.52; NGC2841 7.71, 0.66; UGC02885 6.80, 3.45.
+   The leaf with the galaxy's baryons at the disk's ratios 0.3, 0.5 and 0.7, on the leaves from 2.7 Rdisk (f; B), the fits at that floor marked: DDO154
+     2.631, 1.232, 0.853; 4.707, 3.717, 3.158; IC2574 4.117, 1.824, 1.606 (at the floor); 4.361, 3.031, 2.393; NGC6503 0.726 (at the floor), 0.610 (at the
+     floor), 0.536 (at the floor); 2.292, 1.479, 1.091; NGC2403 1.608, 0.865, 0.623; 3.238, 1.773, 1.211; NGC3198 2.089, 1.350, 1.071; 3.222, 1.857, 1.298;
+     NGC7814 0.515, 0.541, 0.561; 1.019, 1.012, 0.992; NGC2841 1.166, 1.072, 0.987; 2.496, 1.981, 1.633; UGC02885 0.684 (at the floor), 0.804, 0.929; 1.817,
+     1.525, 1.333.  The same without the floor (f; B): DDO154 2.631, 1.232, 0.853; 4.707, 3.717, 3.158; IC2574 4.117, 1.824, 1.371; 4.361, 3.031, 2.401;
+     NGC6503 0.600, 0.324, 0.235; 2.221, 1.362, 0.990; NGC2403 1.608, 0.865, 0.623; 3.238, 1.773, 1.211; NGC3198 2.089, 1.350, 1.071; 3.222, 1.857, 1.298;
+     NGC7814 0.515, 0.541, 0.561; 1.019, 1.012, 0.992; NGC2841 1.166, 1.072, 0.987; 2.496, 1.981, 1.633; UGC02885 0.473, 0.804, 0.929; 1.578, 1.525, 1.333.
+   The arena rule's own acceleration relation: g = v^2/R over the RAR's at the same g_bar, in bins of g_bar [m/s^2] (points; the rule's median, least and
+     greatest; the data's median; the scatter of the rule's and of the data's, the standard deviation of their logarithms in dex): 1e-12-1e-11: 102; 0.829,
+     0.012, 0.960; 0.877; 0.344, 0.160; 1e-11-3e-11: 52; 0.794, 0.766, 0.865; 1.085; 0.014, 0.057; 3e-11-1e-10: 80; 0.825, 0.688, 0.910; 1.036; 0.021, 0.067;
+     1e-10-3e-10: 35; 0.852, 0.802, 1.115; 1.525; 0.032, 0.192; 3e-10-1e-09: 8; 0.923, 0.888, 1.112; 1.464; 0.029, 0.084; 1e-09-1e-08: 3; 1.020, 0.996,
+     1.209; 0.910; 0.037, 0.130.
+   The leaf (ell, B) below NFW (V2, r_s) in chi^2/(N - 2) for 4 of the 8, and below NFW with the baryons' scale free too, in chi^2/(N - 3), for 2; B on the
+     whole curve below B on the remainder alone for 7 of the 8 on the leaves from 2.7 Rdisk, for 6 without the floor (all but NGC7814, NGC2841); at the
+     floor, B = 1 for 4 (NGC6503, NGC2403, NGC3198, UGC02885) and B on the remainder alone for 3 (NGC6503, NGC2841, UGC02885); the arena rule with 3/C_eff
+     below the RAR, both with nothing free, for 2 of the 8.
+   [PASS] v40.3-2: the RAR column reproduces v36's to 0.038; the leaf with each galaxy's baryons and (ell, B) fits all eight below chi^2/(N - 2) = 15, below NFW for four, its total below NFW's (IC 2574's halo at its limit V^2 = a R, evaluated stably); B on the whole curve beats B on the remainder for seven on leaves from 2.7 Rdisk; with nothing free the arena rule beats the RAR on the two gas-rich dwarfs and loses overall, its own acceleration relation's medians 10-25% below the RAR's between 1e-11 and 3e-10 m/s^2, tighter than the data's from 1e-11 to 1e-10 and looser below, and within 10% above
+
+== v40.3-3. The labels across the galaxies: f = ell/ell_arena and B, the label condition B C/(3f) = 1 and B = 3/C at the arena leaf (R595) ==
+   Per galaxy, from the leaf with its baryons: f, B, C_eff; B C_eff/(3f), equal to (v_inf/v_arena)^2; (V_flat/v_arena)^2 from Table 1's V_flat; the leaves
+     within the reduced chi^2 of the best, as f; at the arena leaf B fitted, 3/C_eff and their ratio, and ell_arena/Rdisk; v36's labels (ell_eff/ell_arena,
+     zeta/lambda; Section XXXIII.10):
+     DDO154: 1.232, 3.717, 0.959; 0.965 = 0.965; 0.884; 1.080-1.466; 3.595, 3.708, 0.970, 5.47; 3.30, 4.30
+     IC2574: 1.824, 3.031, 1.240; 0.687 = 0.687; 0.805; 1.691-2.010; 3.237, 4.193, 0.772, 1.60; 2.59, 2.61
+     NGC6503: 0.610, 1.479, 1.464; 1.183 = 1.183; 1.146; 0.610-0.641; 1.707, 1.440, 1.185, 4.43; 1.14, 1.48
+     NGC2403: 0.865, 1.773, 2.021; 1.381 = 1.381; 1.416; 0.813-0.915; 1.900, 1.400, 1.358, 7.08; 1.14, 1.80
+     NGC3198: 1.350, 1.857, 2.175; 0.998 = 0.998; 0.974; 1.296-1.404; 1.650, 1.533, 1.077, 5.97; 1.59, 1.78
+     NGC7814: 0.541, 1.012, 2.828; 1.764 = 1.764; 1.719; 0.498-0.583; 1.551, 1.017, 1.525, 8.89; 0.59, 1.06
+     NGC2841: 1.072, 1.981, 2.881; 1.775 = 1.775; 1.885; 1.042-1.102; 1.891, 1.047, 1.806, 9.58; 1.04, 1.99
+     UGC02885: 0.804, 1.525, 2.110; 1.333 = 1.333; 1.291; 0.711-0.899; 1.647, 1.272, 1.294, 4.62; 1.07, 1.48
+     The Milky Way (the single source, v40.3-1): 0.949, 1.388, 2.923; 1.425 = 1.425; at the arena leaf 1.435, 1.025, 1.401, k = 8.69.
+   Correlations of the logarithms: B C_eff/(3f) with (V_flat/v_arena)^2, 0.972; at the arena leaf, B/(3/C_eff) with (V_flat/v_arena)^2, 0.976; B with
+     3/C_eff, 0.936.  Against log M_b: log B slope -0.140 (correlation -0.733), log ell slope 0.419 (0.925; the arena law's 0.5), log(3/C_eff) at the arena
+     leaf -0.216 (-0.855), log B at the arena leaf -0.128, log (V_flat/v_arena)^2 0.101, log(B C_eff/ell) -0.399 (v^4 proportional to M needs -0.5).  At the
+     disk's ratios 0.3 and 0.7 (v40.3-2), on the leaves from 2.7 Rdisk, the log ell slope is 0.261 (0.716) and 0.479 (0.944), f from 0.515 to 4.117 and from
+     0.536 to 1.606, 2 and 2 of the fits at that floor; without the floor, 0.232 (0.638) and 0.501 (0.897), f from 0.473 to 4.117 and from 0.235 to 1.371,
+     and at 0.5 0.430 (0.869).  With v36's labels: f 0.810, B 0.980.  f = 1 within the reduced chi^2 of the best for 0 of the 8; the intervals' ends over the
+     best leaf: DDO154 0.876, 1.190; IC2574 0.927, 1.102; NGC6503 1.000, 1.051; NGC2403 0.941, 1.058; NGC3198 0.960, 1.040; NGC7814 0.921, 1.078; NGC2841
+     0.972, 1.028; UGC02885 0.884, 1.118.  v36's two labels on its pushforward of the observed light gave chi^2/(N - 2) = 6.83, 6.81, 22.24, 53.02, 14.33,
+     2.16, 1.36, 1.21 (Section XXXIII.17(b)); the leaf with the galaxies' baryons, 5.11, 3.08, 6.25, 14.05, 4.38, 1.89, 2.38, 1.03: lower for 7 of the 8.
+   One exponential disk on its arena leaf has k = ell_arena/h = 3 sqrt(Sigma_0/Sigma_dagger), Sigma_0 = M/(2 pi h^2) the nominal central surface density of
+     the exponential of its mass and Sigma_dagger = a0/(2 pi G) = 137.0 Msun/pc^2, so B = 3/C(k) is a function of the surface density alone; the source's own
+     central surface density on the leaf, Part XII's Sigma_c, is Sigma_0/(k^2 I(k)), I(k) = int_0^(pi/2) e^(-k sin t) sin t dt (Sigma_0, k, B, Sigma_c): 20,
+     1.15, 3.719, 36.1; 50, 1.81, 2.428, 57.5; 100, 2.56, 1.801, 93.4; 137, 3.00, 1.591, 121.3; 300, 4.44, 1.233, 258.3; 1000, 8.10, 1.031, 942.3; 3000,
+     14.04, 1.008, 2950.7.  With B = 1, v^4 = G M a0 needs C(k)^2 I(k) = Sigma_dagger/Sigma_c for some leaf -- Part XII's condition, whose ceiling for its
+     thin disk was 190 Msun/pc^2 (Section XII.2): for Entry 326's source C^2 I is largest, 0.4529, at k = 2.64, so Sigma_c >= 303 Msun/pc^2; with the image
+     within 0.3 mag or 0.1 mag of the exponential out to four scale lengths, k >= 2.7 or 7.7, Sigma_c >= 303 or 909.  In the nominal Sigma_0 the condition is
+     C(k)/k = sqrt(Sigma_dagger/Sigma_0); C(k)/k is largest, 0.7293, at the table's smallest k, 0.01, where Sigma_c/Sigma_0 grows without bound, so Sigma_0
+     >= 258 Msun/pc^2, and for k >= 2.7 or 7.7, Sigma_0 >= 331 or 971.
+   [PASS] v40.3-3: B C_eff/(3f) is (v_inf/v_arena)^2 to 1e-9 and tracks each galaxy's (V_flat/v_arena)^2 (log correlation above 0.95); at the arena leaf B is identically 3/C_eff times (v_inf/v_arena)^2, so the B the curves want is 3/C_eff times the offset; the leaves scale as M^0.35-0.5, B as M^-0.1 to -0.2; v36's amplitudes recovered (correlation above 0.95); f = 1 outside every galaxy's interval, NGC 2841's within 5%; B = 1 needs the source's central surface density on the leaf above 295 Msun/pc^2 (Part XII's definition), the nominal one above 250, above 900 for an exponential image
+
+== v40.3-4. No per-galaxy freedom: the arena rule and its variants with one or two constants, leave-one-out, against the RAR (R596) ==
+     U0, f = 1 and B = 3/C_eff (nothing free): total chi^2 49723; chi^2/N DDO154 9.53, IC2574 105.49, NGC6503 52.32, NGC2403 430.37, NGC3198 14.50, NGC7814
+       118.77, NGC2841 199.46, UGC02885 13.11.
+     U1, f = f0 and B = 3 f0/C_eff (one constant): f0 = 2.228; total chi^2 22238; chi^2/N DDO154 11.94, IC2574 85.95, NGC6503 47.74, NGC2403 134.53, NGC3198
+       68.55, NGC7814 54.66, NGC2841 75.01, UGC02885 9.99; left out in turn, chi^2/N DDO154 11.95, IC2574 86.40, NGC6503 48.29, NGC2403 194.49, NGC3198
+       90.21, NGC7814 56.61, NGC2841 79.03, UGC02885 10.12, total 27818; f0 from 1.831 to 2.377.
+     U2, f = f0 and B = b 3 f0/C_eff (two): f0 = 1.305, b = 1.208; total chi^2 18400; chi^2/N DDO154 243.56, IC2574 148.32, NGC6503 16.23, NGC2403 52.61,
+       NGC3198 43.60, NGC7814 31.14, NGC2841 72.23, UGC02885 2.32; left out in turn, chi^2/N DDO154 374.63, IC2574 160.79, NGC6503 17.00, NGC2403 187.46,
+       NGC3198 59.88, NGC7814 31.45, NGC2841 81.38, UGC02885 2.36, total 31429; f0 from 1.141 to 1.787.
+     U3, f = f0 and B = b (two): f0 = 1.423, b = 2.267; total chi^2 19625; chi^2/N DDO154 890.55, IC2574 37.95, NGC6503 43.32, NGC2403 36.12, NGC3198 42.60,
+       NGC7814 66.18, NGC2841 8.55, UGC02885 11.50; left out in turn, chi^2/N DDO154 1120.61, IC2574 55.48, NGC6503 49.34, NGC2403 58.01, NGC3198 52.03,
+       NGC7814 70.25, NGC2841 10.54, UGC02885 11.73, total 25350; f0 from 1.214 to 1.700.
+     The RAR with g_dagger fitted to the eight: 1.314e-10 m/s^2, total chi^2 19416; chi^2/N DDO154 150.03, IC2574 274.75, NGC6503 6.11, NGC2403 42.10,
+       NGC3198 22.27, NGC7814 19.93, NGC2841 72.92, UGC02885 2.56; left out in turn, chi^2/N DDO154 194.13, IC2574 307.57, NGC6503 6.88, NGC2403 174.30,
+       NGC3198 25.64, NGC7814 20.45, NGC2841 78.27, UGC02885 2.56, total 31158.  At 1.2e-10 m/s^2 (nothing free), total 20219.
+     Totals over the RAR's, with g_dagger fitted and at 1.2e-10 m/s^2: U0 2.561, 2.459; U1 1.145, 1.100; U2 0.948, 0.910; U3 1.011, 0.971.  Left out in turn,
+       over the RAR's refitted without each galaxy and over the RAR at 1.2e-10 m/s^2, the published constant, which SPARC's whole sample fixed and no galaxy
+       is left out of: U1 0.893, 1.376; U2 1.009, 1.554; U3 0.814, 1.254.
+   [PASS] v40.3-4: with nothing free the arena rule's chi^2 is over twice the RAR's; with one or two constants the leaf's rules come within 20% of the RAR with g_dagger fitted, and predict the galaxies left out about as well as the RAR refitted without them or better, though not as well as the RAR at its published constant; no rule, the leaf's or the RAR's, fits any of the eight to chi^2/N below 2
+
+== check summary (Part XXXVIII): 21 passed, 0 failed ==

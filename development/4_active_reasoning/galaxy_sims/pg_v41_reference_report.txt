@@ -1,0 +1,27 @@
+Projective Gravity v41.0: the idle galaxies on the root law, and tilts against the fitted stretches; SPARC (Lelli, McGaugh and Schombert 2016), 175 galaxies; v40.4's and v40.5's saved results, read, not refitted
+
+== v41.0-S1. The idle galaxies (v40.4-3: the hybrid's leaf beyond 10 R_last with no floor) on the root law (Section XXXIX.3)
+-- 36 idle, 139 others; points per idle galaxy, median 11
+   NFW with the nuisances: chi2 885, AIC-like 1267
+   B times Newton at SPARC's ratios (v40.4-3), B in closed form: chi2 46878, AIC-like (chi2 + 2) 46950, better than NFW (AIC-like) for 20; B median 4.27 (16-84% 1.51-7.76)
+   the same: median chi2/(N - 1) 1.489; UGC09133 alone carries chi2 45134, the other 35 1744
+   one exponential in sin chi set by the light, no push, B = 1 (the root of v40.4's form): chi2 1724, AIC-like 3826, better than NFW (AIC-like) for 6, in chi2 for 8; median chi2/N 1.12; ell over R_last median 0.77; ell beyond 10 R_last for 5, beyond 100 R_d for 4; the light beyond the tolerance for 0
+   the mixture in tan chi set by the light, no push, B = 1 (the root law): chi2 1343, AIC-like 2657, better than NFW (AIC-like) for 9, in chi2 for 7; median chi2/N 1.06; ell over R_last median 0.51; ell beyond 10 R_last for 5, beyond 100 R_d for 4; the light beyond the tolerance for 0
+   the root law, no push, B free: chi2 972, AIC-like 1325, better than NFW (AIC-like) for 25, in chi2 for 21; median chi2/N 0.42; ell over R_last median 1.44; ell beyond 10 R_last for 8, beyond 100 R_d for 7; the light beyond the tolerance for 0; B median 3.09 (16-84% 1.19-5.29)
+   the root law, three numbers of push, B = 1: chi2 581, AIC-like 1072, better than NFW (AIC-like) for 17, in chi2 for 32; median chi2/N 0.13; ell over R_last median 0.55; ell beyond 10 R_last for 11, beyond 100 R_d for 8; the light beyond the tolerance for 0
+   the root law, three numbers: the stretch at mid radius, median 3.54 on the idle (16-84% 1.28-6.50), 1.47 on the other 139
+   the hybrid (Section XXXVIII.38's model) with the root law, held to the light: chi2 1129 against v40.4's 1133; the leaf beyond 10 R_last for 31, beyond 100 R_d for 31; B median 3.38
+   the same, any leaf: chi2 770; the leaf inside the first measured radius for 29, its B there median 0.0074; beyond 10 R_last for 7
+
+== v41.0-S2. Tilts against the stretches fitted in v40.5 (v40.5-11), nine radii per galaxy along each fitted push (Section XXXIX.8(g))
+-- 164 galaxies with measured light; the fitted points' leaf angle, arctan(r/ell) at the pre-push radius r: median 16.5 deg at mid radius, 58.6 deg at the last
+   the averaged quotient of a squashed shell, ln s = (1/2) ln(1 + (1/2) sin^2 beta (1/(4 sin^2 chi) - 1)), stretches inside chi = 30 deg and squeezes outside: the fits stretch 724 of 926 points inside 30 deg and 313 of 550 outside
+   it falls outward for every galaxy; the lane mismatch made a stretch, ln s = kappa 2 pi (1 - cos chi), rises for every kappa > 0; the fitted stretch rises from the first radius to the last for 84 of 164
+   rms misfit in ln(stretch), median over galaxies: no stretch 0.762; one constant per galaxy 0.159; one tilt beta per galaxy on the squashed shells 0.635; one factor kappa per galaxy on the lane mismatch 0.430; kappa = 1 1.480
+   better than one constant per galaxy: the squashed shell's tilt for 12 of 164, the lane mismatch for 26; the tilts fitted, median 9.9 deg, at the 90 deg bound for 33; the factors fitted, median 0.18
+   a tilt p of the reference at fixed Ernst data scales every length by 1/cos p (Section XXXVII.7(a)): the fitted mid-radius stretches read so would be tilts of median 62.9 deg, for the 121 of 164 that exceed 1
+   against Hubble type, rank correlation (P by 3000 permutations), the same at fixed baryonic mass, and the medians with and without a bulge:
+   leaf radius over R_d             -0.33 (P 0.000), +0.02; with a bulge 6.30 (32), without 2.13 (132)
+   lanes' cosine at mid radius      +0.13 (P 0.112), -0.02; with a bulge -0.91 (32), without -0.82 (132)
+   lanes' cosine at the last radius +0.14 (P 0.076), -0.12; with a bulge 0.21 (32), without 0.48 (132)
+   stretch at mid radius            +0.22 (P 0.003), +0.07; with a bulge 1.05 (32), without 1.83 (132)
