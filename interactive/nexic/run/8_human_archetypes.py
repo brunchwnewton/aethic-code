@@ -64,6 +64,12 @@ WEAPON = {                  # C. relative to the spear, whose own premium is mea
     'trident + net': ((-0.1, 0.4), (0.9, 0.6)), 'pike or polearm': ((0.2, 0.4), (0.5, 0.6)), 'sword + large shield': ((-0.2, 0.3), (0.5, 0.5)),
     'sword + small shield': ((-0.35, 0.3), (0.5, 0.5)), 'two-handed sword': ((-0.4, 0.4), (0.0, 0.6)), 'axe + shield': ((-0.25, 0.35), (0.3, 0.5)),
     'short stabbing spear + shield': ((0.1, 0.35), (0.5, 0.5)), 'staff': ((-0.9, 0.4), (-1.2, 0.6)), 'knife': ((-1.2, 0.4), (-2.5, 0.7))}
+# D. A weapon found on the sand (the page: a man with empty hands takes up what the fallen leave). Its premium is the armed pair's less a
+# shield's, a shield being worth what the two spear shields add on average; the short sword stands midway between the sword and the knife.
+# Whoever takes it up is a novice with it and keeps the CROSS share of his unarmed skill, and his mass counts as an armed man's.
+SHIELD = (0.25, 0.65)
+FOUND = {'spear': ('spear', 0), 'pike': ('pike or polearm', 0), 'two-handed sword': ('two-handed sword', 0), 'knife': ('knife', 0), 'staff': ('staff', 0),
+         'sword': ('sword + small shield', 1), 'axe': ('axe + shield', 1), 'short spear': ('short stabbing spear + shield', 1)}   # the pair it comes from, and whether a shield is taken off it
 ARMOUR = {                  # D. (against animals, crowd log units), (against humans, real log-odds)
     'none': ((0, 0), (0, 0)), 'arm and shoulder guard': ((0.05, 0.1), (0.2, 0.3)), 'helmet and guards': ((0.2, 0.15), (0.6, 0.4)),
     'mail or plates with helmet': ((0.45, 0.25), (1.5, 0.6)), 'full plate': ((0.8, 0.35), (3.0, 1.0)),
@@ -214,6 +220,7 @@ CAVALRY = {
     'Knight with a lance, full plate': ('m', 78, 'pike or polearm', 'professional (armed)', 'duellist', 'full plate', 'on a heavy warhorse', 'Shire Horse'),
     'Roman cavalryman, spear and shield': ('m', 68, 'spear + shield', 'professional (armed)', 'duellist', 'mail or plates with helmet', 'an eques of the legion', 'Wild Horse'),
     'Steppe lancer, lance and lamellar': ('m', 65, 'pike or polearm', 'professional (armed)', 'duellist', 'mail or plates with helmet', 'the bow he also carried is not modelled', 'Wild Horse'),
+    'Greek horseman, spear': ('m', 68, 'spear', 'competent', 'duellist', 'helmet and guards', 'the citizen cavalry on the wings of a phalanx; their javelins are not modelled', 'Wild Horse'),
     'Light cavalryman, sabre': ('m', 70, 'sword + small shield', 'professional (armed)', 'duellist', 'helmet and guards', '', 'Wild Horse')}
 CLASSES = {
     'Untrained woman with a spear': ('f', 58, 'spear', 'novice', 'beast', 'none', ''),
@@ -376,8 +383,15 @@ def main():
         rows.append(dict(archetype=name, sex=sex, mass_kg=mass, weapon=wpn or 'none', skill=sk, armour=armour, score=p[1], score_p05=p[0], score_p95=p[2], lions=p[1] / 100,
                          duel_elo=e[1], duel_elo_p05=e[0], duel_elo_p95=e[2], lethality_index=RANGED[wpn][0] if rg else '', crew=crew,
                          unarmed_skill_elo=400 / np.log(10) * SKILL[sk][0] if wpn is None else 0.0, evidence=grade(wpn, sk, armour, mass, sex), note=note))
-    def race_delta(a, race, bare=False):   # what a Titan's or an Alaarn's body adds to a class: to its log score, to its real log-odds; and the mass it then has
-        sex, mass, wpn = ALL[a][:3]; wpn = None if bare else wpn; rg = wpn in RANGED; w = RANGED_MASS if rg else ARMED_MASS if wpn else 1.0; M, H = RACE_BODY[race][sex]   # bare: the body itself, weapon aside
+    fw = {t: (sp + weapon[src] - SHIELD[0] * sh, sp / gamma + wpn_d[src] - SHIELD[1] * sh) for t, (src, sh) in FOUND.items()}   # a found weapon's premium over empty hands: on the scale, and in real log-odds
+    fw['club'] = (cl, cl / gamma); fw['short sword'] = ((fw['sword'][0] + fw['knife'][0]) / 2, (fw['sword'][1] + fw['knife'][1]) / 2)
+    def found(a):   # an unarmed class with a weapon taken up from the sand: its log score and its duel log-odds, by what the weapon is in his hands
+        sex, mass, wpn, sk, tr = ALL[a][:5]; lm = np.log(mass / REF_MASS[sex]) * (1 - ARMED_MASS)
+        return {t: (logs[a] - m_scale * lm - gamma * transfer[tr] * skill[sk] * (1 - cross) + v[0] * novice, duel[a] - m_real * lm - skill[sk] * (1 - cross) + v[1] * novice) for t, v in fw.items()}
+    assert abs(np.median(found('Untrained man')['spear'][0]) - np.median(logs['Untrained man with a spear'])) < 1e-9 and abs(np.median(found('Untrained man')['spear'][1]) - np.median(duel['Untrained man with a spear'])) < 1e-9
+    def race_delta(a, race, bare=False, armed=False):   # what a Titan's or an Alaarn's body adds to a class: to its log score, to its real log-odds; and the mass it then has
+        sex, mass, wpn = ALL[a][:3]; wpn = None if bare else 'spear' if armed else wpn;      # armed: the same class once it has taken up a weapon
+        rg = wpn in RANGED; w = RANGED_MASS if rg else ARMED_MASS if wpn else 1.0; M, H = RACE_BODY[race][sex]   # bare: the body itself, weapon aside
         lm = np.log(M / REF_MASS[sex]) * w; bl = bld[race] * (RANGED_MASS if rg else 1.0)        # behind a bow or a gun the build counts as little as the mass does
         rc = 0.0 if rg else reach['armed' if wpn else 'unarmed'] * np.log(H / REF_HEIGHT[sex])
         return m_scale * lm + bl + gamma * rc, m_real * lm + bl * m_real / m_scale + rc, mass * M / REF_MASS[sex]
@@ -444,12 +458,14 @@ def main():
             d = dict(name=a.replace('class: ', ''), group='Bows and firearms' if rg else 'Fighters', mu=float(np.median(logs[a])), sd=sd(logs[a]), duel=float(np.median(duel[a])), duel_sd=sd(duel[a]),
                      usk=float(SKILL[sk][0]) if wpn is None else 0.0, ask=float(SKILL[sk][0]) if wpn is not None and wpn not in GUNS else 0.0,
                      arm=float(ARMOUR[armour][1][0]) if armour in OLD_ARMOUR else 0.0, gun=wpn in GUNS, weapon=wpn or 'none', armour=armour, mass=mass)
+            if wpn is None: d['w'] = {t: [med(v[0]), sd(v[0]), med(v[1]), sd(v[1])] for t, v in found(a).items()}   # with a weapon taken up from the sand: score, its spread, duel log-odds, its spread
             if rg: d.update(rng=RANGED[wpn][4], shot=RANGED[wpn][3], crew=RANGED[wpn][5], size=RANGED[wpn][6], dur=float(np.median(body[a])), ddur=float(np.median(dbody[a])),
                             sim=dict(rof=SIM[wpn][0], E=SIM[wpn][1], acc=min(0.95, SIM[wpn][2] * SIM_SKILL[sk]), r0=SIM[wpn][3], reach=SIM[wpn][4], trav=SIM[wpn][5], mag=SIM[wpn][6], reload=SIM[wpn][7]))
             if armour != 'tank armour':   # the same class on a Titan's and on an Alaarn's body: score, its spread, duel log-odds, its spread, mass; and for a gun what a hit is set against
                 d['r'] = {}
                 for letter, rc_ in RACES.items():
                     dl_, dd_, m2 = race_delta(a, rc_); d['r'][letter] = [med(logs[a] + dl_), sd(logs[a] + dl_), med(duel[a] + dd_), sd(duel[a] + dd_), round(float(m2), 1)] + ([med(body[a] + race_delta(a, rc_, True)[0]), med(dbody[a] + race_delta(a, rc_, True)[1])] if rg else [])   # a hit lands on the body, not on the gun
+                    if wpn is None: al, ad, _ = race_delta(a, rc_, armed=True); d.setdefault('wr', {})[letter] = {t: [med(v[0] + al), sd(v[0] + al), med(v[1] + ad), sd(v[1] + ad)] for t, v in found(a).items()}   # and that body with a found weapon
             if wpn is not None and not rg and armour != 'tank armour':   # the same class in the saddle (a human's only): score, its spread, duel log-odds, its spread, mass, the horse
                 h = CAVALRY[a][7] if a in CAVALRY else HORSE(armour); both = k_hat * np.logaddexp(logs[a] / k_hat, np.log(B.score[h]) / k_hat); dm = duel[a] + np.random.default_rng(SEED + 5).normal(MOUNT[0], MOUNT[1], len(duel[a]))
                 d['m'] = [med(both), sd(both), med(dm), sd(dm), round(float(mass + beasts[h][2]), 1), h]
