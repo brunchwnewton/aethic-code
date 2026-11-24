@@ -396,8 +396,26 @@ function separate(B, alive) {
     inside(B, u, Math.min(u.half, 2));
   }
 }
+// The swift take the nearest man first. The fight as drawn says which kind falls to him next; if one of his later kills is of a man standing
+// nearer, the two kills change places in the order. That changes nothing in who dies or who wins, only the order he reaches them in, and it is
+// done only when both kinds have men to spare for every exchange in between.
+function nearestFirst(B, inPlay, fits) {
+  const ev = B.ev, i0 = B.ei, F = B.F, E0 = ev[i0]; if (!F.hasSwift) return;
+  const kill = E => E.hpv <= 1e-9 && E.broke < 0 && F.sw[E.aHits ? E.ka : E.kb], hk = E => E.aHits ? E.ka : E.kb, hh = E => E.aHits ? E.hpa : E.hpb, vk = E => E.aHits ? E.kb : E.ka, vh = E => E.aHits ? E.hpb : E.hpa;
+  if (!kill(E0)) return; const me = inPlay.find(u => !u.busy && fits(u, hk(E0), hh(E0))); if (!me) return;
+  const near = (k, hp) => { let d = 1e9, n = 0; for (const u of inPlay) if (fits(u, k, hp)) { n++; if (!u.busy) d = Math.min(d, Math.hypot(u.x - me.x, u.y - me.y)); } return [d, n]; };
+  const [d0, n0] = near(vk(E0), vh(E0)); let best = 0, bd = d0, used0 = 0; const usedJ = {};
+  for (let j = 1; j < 80 && i0 + j < ev.length; j++) { const E = ev[i0 + j], key = vk(E) + ':' + vh(E);
+    if (kill(E) && hk(E) === hk(E0) && Math.abs(hh(E) - hh(E0)) < 1e-9 && (vk(E) !== vk(E0) || Math.abs(vh(E) - vh(E0)) > 1e-9)) { const [d, n] = near(vk(E), vh(E));
+      if (d < bd - 0.5 && n >= 2 + (usedJ[key] || 0) && n0 >= 1 + used0) { bd = d; best = j; } }
+    if (vk(E) === vk(E0) && Math.abs(vh(E) - vh(E0)) < 1e-9) used0++; usedJ[key] = (usedJ[key] || 0) + 1;
+    if (hk(E) !== hk(E0) && F.sw[vk(E)]) break;          // he is hit here: nothing is moved across it
+  }
+  if (best) { ev[i0] = ev[i0 + best]; ev[i0 + best] = E0; }
+}
 function launch(B, inPlay) {      // the next exchange of the fight, played by whoever on the sand fits it and stands nearest
-  const E = B.ev[B.ei], fits = (u, k, hp) => u.kind === k && Math.abs(u.hp - hp) < 1e-9; let A = [], Bs = [];
+  const fits = (u, k, hp) => u.kind === k && Math.abs(u.hp - hp) < 1e-9; nearestFirst(B, inPlay, fits);
+  const E = B.ev[B.ei]; let A = [], Bs = [];
   for (const u of inPlay) if (!u.busy) { if (fits(u, E.ka, E.hpa)) A.push(u); if (fits(u, E.kb, E.hpb)) Bs.push(u); }
   if (!A.length || !Bs.length) return false;           // its fighters are still in an earlier exchange
   // of those who fit, the two that stand nearest each other (a dozen tried for the first), so that nobody has to cross the sand to land a blow
@@ -444,8 +462,8 @@ function runEx(B, e, dt) {
     e.t += dt; let done = false;
     if (e.m) {
       const m = e.m, o = m === a ? b : a;
-      if (m.swift && e.bx === undefined) { const q = Math.hypot(o.x - m.x, o.y - m.y) || 1e-6, w = (Math.random() < 0.5 ? -1 : 1) * 0.9, c = Math.cos(w), s2 = Math.sin(w), ux = (o.x - m.x) / q, uy = (o.y - m.y) / q, r = o.half + m.reach * 0.7;
-        e.bx = o.x + (ux * c - uy * s2) * r; e.by = o.y + (ux * s2 + uy * c) * r; }                     // the swift go round and come in from behind
+      if (m.swift && e.bx === undefined) { const q = Math.hypot(o.x - m.x, o.y - m.y) || 1e-6, w = m.spin * 0.5, c = Math.cos(w), s2 = Math.sin(w), ux = (o.x - m.x) / q, uy = (o.y - m.y) / q, r = o.half + m.reach * 0.7;
+        e.bx = o.x + (ux * c - uy * s2) * r; e.by = o.y + (ux * s2 + uy * c) * r; }                     // the swift go past their man on the side they are already circling, and cut from behind as they pass
       if (m.swift) { const bx = e.bx - m.x, by = e.by - m.y, bd = Math.hypot(bx, by) || 1e-6, sp = Math.min(8 * m.swift * dt, bd); m.x += bx / bd * sp; m.y += by / bd * sp; m.h = Math.atan2(o.y - m.y, o.x - m.x);
         if (bd - sp < 0.05 || e.t > 2) { land(B, e); e.ph = 'clash'; e.t = 0.12 / B.tempo; } return; }
       const dx = o.x - m.x, dy = o.y - m.y, d = Math.hypot(dx, dy) || 1e-6, ang = Math.atan2(dy, dx), top = m.hum ? 8 * Math.sqrt(m.sc) : m.mach ? m.charge : m.charge * 1.3, sp = Math.min(Math.min(m.charge * (0.75 + 0.25 * B.tempo) * (1 + e.t), top) * dt, d);   // nobody outruns a sprint: 8 m/s for a man, more for longer legs
@@ -834,11 +852,12 @@ if (typeof document !== 'undefined' && DATA) (function () {
   const LOOKS = { shade: { shade: true, blade: '#06050a', glow: '#b6a4ff', body: '#15131c', head: '#0d0b14', cape: '#0d0b14', down: '#1c1a24' }, wolf: { body: '#17161b', head: '#0b0b0e', cape: '#0b0b0e', hood: true, down: '#1f1e24' }, adamant: { body: '#e3e9f0', head: '#f6f8fb', crest: '#d9b44a', down: '#8a929b' }, gold: { head: '#d9b44a' } };
   // One who moves faster than the eye follows: a dark, milky smear along where he has just been, and no figure at all while he is at speed.
   function shade(u) {
-    const tr = u.tr || (u.tr = []), now = performance.now(), last = tr[tr.length - 1]; if (!last || last.x !== u.x || last.y !== u.y) tr.push({ x: u.x, y: u.y, t: now }); while (tr.length && now - tr[0].t > 420) tr.shift();
+    // (the smear is kept by the fight's own clock, a fifth of a second of it, so that a fight played fast does not draw a web across the sand)
+    const tr = u.tr || (u.tr = []), now = B ? B.t * 1000 : performance.now(), LIFE = 200, last = tr[tr.length - 1]; if (last && now < last.t) tr.length = 0; if (!last || last.x !== u.x || last.y !== u.y) tr.push({ x: u.x, y: u.y, t: now }); while (tr.length && now - tr[0].t > LIFE) tr.shift();
     if (u.hp <= 1e-9) return false; let span = 0; for (let i = 1; i < tr.length; i++) span += Math.hypot(tr[i].x - tr[i - 1].x, tr[i].y - tr[i - 1].y);
     const blob = (x, y, r, al) => { const cx = X(x), cy = Y(y), R = r * PX, gr = ctx.createRadialGradient(cx, cy, 0, cx, cy, R); gr.addColorStop(0, `rgba(14,10,24,${al})`); gr.addColorStop(0.5, `rgba(46,40,66,${al * 0.6})`); gr.addColorStop(1, 'rgba(205,200,225,0)'); ctx.fillStyle = gr; ctx.beginPath(); ctx.arc(cx, cy, R, 0, TAU); ctx.fill(); };
-    for (let i = 1; i < tr.length; i++) { const a = tr[i - 1], b = tr[i], d = Math.hypot(b.x - a.x, b.y - a.y), n = Math.max(1, Math.ceil(d / 0.35)), age = Math.max(0, 1 - (now - b.t) / 420); for (let j = 0; j < n; j++) blob(a.x + (b.x - a.x) * j / n, a.y + (b.y - a.y) * j / n, 0.55 + 0.35 * (1 - age), 0.34 * age); }
-    blob(u.x, u.y, 0.95, 0.5); if (now > (u.glimpse || 0) + 90) { if (Math.random() < 0.012) u.glimpse = now; } else return false;   // now and then, for a tenth of a second, they see him
+    for (let i = 1; i < tr.length; i++) { const a = tr[i - 1], b = tr[i], d = Math.hypot(b.x - a.x, b.y - a.y), n = Math.max(1, Math.ceil(d / 0.35)), age = Math.max(0, 1 - (now - b.t) / LIFE); for (let j = 0; j < n; j++) blob(a.x + (b.x - a.x) * j / n, a.y + (b.y - a.y) * j / n, 0.55 + 0.35 * (1 - age), 0.34 * age); }
+    blob(u.x, u.y, 0.95, 0.5); const real = performance.now(); if (real > (u.glimpse || 0) + 90) { if (Math.random() < 0.012) u.glimpse = real; } else return false;   // now and then, for a tenth of a second, they see him
     return span > 1.2;      // at speed there is only the smear
   }
   function man(u) {
