@@ -360,10 +360,10 @@ function shadow(B, dt, alive, inPlay) {
     }
     const v = u.tgt; if (B.over || !v || v.hp <= 1e-9 || B.out[v.team]) continue;
     if (u.swift) {                  // the swift never stand: between blows they are somewhere else on the sand, and then somewhere else again
-      if (!u.wp || (u.wpt -= dt) <= 0 || Math.hypot(u.wp.x - u.x, u.wp.y - u.y) < 0.5) {     // he circles them, close: a little outside the knot they stand in, never far
-        let n = 0, cx = 0, cy = 0, R = 0; for (const w of alive) if (w.team !== u.team && Math.hypot(w.x - v.x, w.y - v.y) < 8) { n++; cx += w.x; cy += w.y; } cx /= n || 1; cy /= n || 1; for (const w of alive) if (w.team !== u.team && Math.hypot(w.x - v.x, w.y - v.y) < 8) R = Math.max(R, Math.hypot(w.x - cx, w.y - cy));
-        if (Math.random() < 0.12) u.spin = -u.spin; const a = Math.atan2(u.y - cy, u.x - cx) + u.spin * (0.7 + Math.random() * 1.1), r = R + 1.6 + Math.random() * 1.2; u.wp = { x: cx + r * Math.cos(a), y: cy + r * Math.sin(a) }; inside(B, u.wp, u.rad + 0.3); u.wpt = 0.25 + Math.random() * 0.3; }
-      goTo(u, u.wp, dt, 4 * u.swift); u.h = Math.atan2(v.y - u.y, v.x - u.x); continue;
+      if (!u.wp || (u.wpt -= dt) <= 0 || Math.hypot(u.wp.x - u.x, u.wp.y - u.y) < 0.4) {     // he works his way along them: a short arc round the nearest man, the same way round, and on to the next
+        let nb = v, nd = 1e9; for (const w of alive) if (w.team !== u.team) { const d = Math.hypot(w.x - u.x, w.y - u.y); if (d < nd) { nd = d; nb = w; } }
+        if (Math.random() < 0.04) u.spin = -u.spin; const a = Math.atan2(u.y - nb.y, u.x - nb.x) + u.spin * (0.5 + Math.random() * 0.5), r = nb.half + 1.6 + Math.random() * 0.8; u.wp = { x: nb.x + r * Math.cos(a), y: nb.y + r * Math.sin(a) }; inside(B, u.wp, u.rad + 0.3); u.wpt = 0.35 + Math.random() * 0.3; }
+      goTo(u, u.wp, dt, 2.2 * u.swift); u.h = Math.atan2(v.y - u.y, v.x - u.x); continue;
     }
     if (v.swift) {                  // and nobody can follow them: each looks to where he last thought he saw something, late and wrong
       if (!u.ghost || (u.gt -= dt) <= 0) { u.ghost = { x: v.x + (Math.random() - 0.5) * 7, y: v.y + (Math.random() - 0.5) * 7 }; u.gt = 0.9 + Math.random() * 1.2; }
