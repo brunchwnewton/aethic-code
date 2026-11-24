@@ -1,5 +1,5 @@
 {
- "_about": "The named characters on the arena page, built into it by 10_characters.py; who they are is left to the story. figure: the author's strength on the scale of his first Titan table (Titan Warrior 0.3885, Alaarn Warrior 4.03, Ascendent 14.76); read, as the school ladder is, as odds in a duel against a plain Titan Warrior. carry: how much of that carries over against animals (a school's swordsmanship: 0.5; all of it: 1). body: the row of titan_classes.csv a blow on him is set against, since his power is not toughness. strike: how many times harder his blows land in the staging. swift: how many times a man's speed. look: how he is drawn. elusive: he cannot be surrounded, so a group meets him one at a time and its numbers count far less. nimble: against him an animal's score is multiplied by (80 kg / its mass) to this power, because a big animal cannot catch what it cannot track (1.0 was set so that he beats a T. rex about nineteen times in twenty). tactics: real log-odds added to every engagement for always striking from where they are not looking (3.2 is about 25 to 1; it was set so that ten Alaarn Warriors kill him less than once in a thousand). race: his own body where it is not a human's ('Titan' or 'Alaarn'); he is drawn as one, to his own height if `height` (in metres) is given, and is as hard to stop as one. body may also be given as [score, duel rating] where no row fits. swift is in multiples of a man's speed whatever his own height; only one drawn as a shade darts about and cannot be followed or closed with, and anyone else who is swift runs straight and stands his ground between blows. versus: instead of tactics, the name of another character whom the figure was judged against; the two then carry the same premium, so that figure to figure is exactly the odds between them, and the one named is not changed. elusive can also be a number under 1, for one who is elusive only in part: a group's numbers then count against him that share of the way from the ordinary rule to one at a time. push {range, every, hold}: from up to range metres, every so many seconds, he throws one enemy down or knocks the weapon out of his hand, and that one is out of it for hold seconds (less for the heavy). He also keeps a guard (`keep` metres; by default his reach and a little more): whoever comes inside it and is not at blows with him is blown back, all of them at once when three or more are inside. slow {range, by}: enemies within range do everything at the share `by` of their speed. wave {range, arc, every, p, god}: kills made from where he stands, on what is alive in a sector arc degrees wide out to range metres: as a rule a share p of it, and a share god of the time all of it, in a sector twice as long and half as wide again. sweep: how many ordinary men one swing of his weapon takes; tougher bodies cost more of it by the page's staging rule. Without bows or guns a character's figure already counts everything he does, so there these three are only seen; in a fight with bows or guns they are fought out, with the numbers given (every: how often the wave can be used; p: the chance that it drops what it catches). mount: the horse he can be put on with the tick in his row (a name from the model file's horses); in the saddle he has the horse's speed and strength and the saddle's premium, and none of what he does on foot (swift, elusive, nimble), because a horse cannot turn as he can. dismounts: he rides only where he is better off for it; where his side's odds are better with him on foot, or the enemy has bows or guns, he rides in, gets down and leaves the horse. In a setup a third field after the number is the race ('t', 'l') or 'm' for mounted.",
+ "_about": "The named characters on the arena page, built into it by 10_characters.py; who they are is left to the story. figure: the author's strength on the scale of his first Titan table (Titan Warrior 0.3885, Alaarn Warrior 4.03, Ascendent 14.76); read, as the school ladder is, as odds in a duel against a plain Titan Warrior. carry: how much of that carries over against animals (a school's swordsmanship: 0.5; all of it: 1). body: the row of titan_classes.csv a blow on him is set against, since his power is not toughness. strike: how many times harder his blows land in the staging. swift: how many times a man's speed. look: how he is drawn. elusive: he cannot be surrounded, so a group meets him one at a time and its numbers count far less. nimble: against him an animal's score is multiplied by (80 kg / its mass) to this power, because a big animal cannot catch what it cannot track (1.0 was set so that he beats a T. rex about nineteen times in twenty). tactics: real log-odds added to every engagement for always striking from where they are not looking (3.2 is about 25 to 1; it was set so that ten Alaarn Warriors kill him less than once in a thousand). race: his own body where it is not a human's ('Titan' or 'Alaarn'); he is drawn as one, to his own height if `height` (in metres) is given, and is as hard to stop as one. body may also be given as [score, duel rating] where no row fits. swift is in multiples of a man's speed whatever his own height; only one drawn as a shade darts about and cannot be followed or closed with, and anyone else who is swift runs straight and stands his ground between blows. versus: instead of tactics, the name of another character whom the figure was judged against; the two then carry the same premium, so that figure to figure is exactly the odds between them, and the one named is not changed. elusive can also be a number under 1, for one who is elusive only in part: a group's numbers then count against him that share of the way from the ordinary rule to one at a time. push {range, every, hold}: from up to range metres, every so many seconds, he throws one enemy down or knocks the weapon out of his hand, and that one is out of it for hold seconds (less for the heavy). He also keeps a guard (`keep` metres; by default his reach and a little more): whoever comes inside it and is not at blows with him is blown back, all of them at once when three or more are inside. slow {range, by}: enemies within range do everything at the share `by` of their speed. wave {range, arc, every, p, god}: kills made from where he stands, on what is alive in a sector arc degrees wide out to range metres: as a rule a share p of it, and a share god of the time all of it, in a sector twice as long and half as wide again. sweep: how many ordinary men one swing of his weapon takes; tougher bodies cost more of it by the page's staging rule. Without bows or guns a character's figure already counts everything he does, so there these three are only seen; in a fight with bows or guns they are fought out, with the numbers given (every: how often the wave can be used; p: the chance that it drops what it catches). mount: the horse he can be put on with the tick in his row (a name from the model file's horses); in the saddle he has the horse's speed and strength and the saddle's premium, and none of what he does on foot (swift, elusive, nimble), because a horse cannot turn as he can. dismounts: he rides only where he is better off for it; where his side's odds are better with him on foot, or the enemy has bows or guns, he rides in, gets down and leaves the horse. In a setup a third field after the number is the race ('t', 'l') or 'm' for mounted. ward {blow, arrow, bullet, rate, say}: he turns that share of the blows, arrows and bullets that would have landed on him (where a rate is given, no more shots than that a second); in a fight without bows or guns it only makes him take more hits to put down, the odds being his figure's, and in a fight with them it is thrown for at every shot. Dark Flames turns nine arrows in ten (he is quick enough to dodge them or strike them aside) and far fewer bullets or blows; Kronos turns nearly every shot of either kind, up to twenty-five a second, and was set so as to stay ahead of Dark Flames against shooters as he is in a duel. Kronos is a Titan, 2.745 m and 210 kg, who fights with a war scythe. His figure, 800, was judged against Dark Flames proper (versus), so he beats him 800 times in 1,315 and Dark Flames's numbers are as they were. He is a little slower than Dark Flames and strikes as fast and as hard; he does not dart about, but nobody surrounds him. Guesses, to be changed freely: elusive, what a sweep takes of the tougher, and every number inside push, slow and wave.",
  "characters": [
   {
    "name": "Dark Flames",
@@ -16,10 +16,125 @@
    "tactics": 3.2,
    "note": "who he is is left to the story",
    "mount": "Wild Horse",
-   "dismounts": true
+   "dismounts": true,
+   "ward": {
+    "blow": 0.2,
+    "arrow": 0.9,
+    "bullet": 0.3,
+    "rate": 12,
+    "say": "blocked"
+   }
+  },
+  {
+   "name": "Kronos",
+   "race": "Titan",
+   "height": 2.745,
+   "mass": 210,
+   "figure": 800,
+   "versus": "Dark Flames",
+   "carry": 1.0,
+   "body": [
+    654.2,
+    3826
+   ],
+   "weapon": "war scythe",
+   "strike": 4,
+   "swift": 3.0,
+   "elusive": 1,
+   "nimble": 1.0,
+   "push": {
+    "range": 25,
+    "every": 1.5,
+    "hold": 3
+   },
+   "slow": {
+    "range": 10,
+    "by": 0.5
+   },
+   "wave": {
+    "range": 15,
+    "arc": 60,
+    "every": 6,
+    "p": 0.6,
+    "god": 0.04
+   },
+   "sweep": 6,
+   "note": "who he is is left to the story",
+   "ward": {
+    "blow": 0.3,
+    "arrow": 0.97,
+    "bullet": 0.93,
+    "rate": 25,
+    "say": "swatted"
+   }
   }
  ],
  "setups": [
+  [
+   "Kronos against Dark Flames",
+   [
+    [
+     [
+      "Kronos",
+      1
+     ]
+    ],
+    [
+     [
+      "Dark Flames",
+      1
+     ]
+    ]
+   ]
+  ],
+  [
+   "Kronos against ten Alaarn Warriors",
+   [
+    [
+     [
+      "Kronos",
+      1
+     ]
+    ],
+    [
+     [
+      "Alaarn Warrior",
+      10,
+      "l"
+     ]
+    ]
+   ]
+  ],
+  [
+   "Kronos against twelve Veteran Wolfpacks",
+   [
+    [
+     [
+      "Kronos",
+      1
+     ]
+    ],
+    [
+     [
+      "Veteran Wolfpacks",
+      12,
+      "t"
+     ]
+    ]
+   ]
+  ],
+  [
+   "Kronos against a T. rex",
+   "a-1fvemp-v-1xthxe"
+  ],
+  [
+   "Kronos against six riflemen, 40 m apart",
+   "a-1fvemp-v-6faq52-d40"
+  ],
+  [
+   "Kronos against fifty Alaarn Warriors",
+   "w-1fvemp-v-50fun74"
+  ],
   [
    "Dark Flames against three hundred of the Adamantine Guard, spread out",
    "w-1fdz4z-v-300r7qm8-s"
