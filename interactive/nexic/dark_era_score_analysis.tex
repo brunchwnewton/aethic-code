@@ -32,7 +32,7 @@
 \large A Lognormal Anatomy-Paradigm Sensitivity Model for Crowd-Sourced Bradley--Terry Combat Scores}
 \author{Ajax Benander\thanks{Email: akbenander@gmail.com. Interactive essay and visualization: \url{https://aethus.org/aethic-code/interactive/nexic/dino-correct.html}. Code archive: \url{https://github.com/brunchwnewton/aethic-code/tree/main/nexic}.}}
 % R891 (Fable 5.1, Oct 30 2026), at the author's direction: aethus.org link updated to the file's new location. Previous: https://aethus.org/aethic-code/nexic/dino-correct.html
-\date{March 2026; revised October 2026 (Bradley--Terry refit) and November 2026 (category pooling and error bars)}
+\date{March 2026; revised October 2026 (Bradley--Terry refit) and November 2026 (category pooling, error bars, and group fights)}
 
 \begin{document}
 \maketitle
@@ -42,7 +42,7 @@ This note fits Bradley--Terry (BT) power ratings to the 4,494 crowd-sourced anim
 \[
 \log F_{\rm anat}\sim\mathcal N(1.23581,\,0.20706^2),
 \]
-whose median is $3.441\times$ and whose two-log-SD band is $2.27$--$5.21\times$. At the median correction, a crowd Velociraptor score of about 2.14 becomes about 7.38, Deinonychus about 117, Dakotaraptor about 710, Utahraptor about 984, and Tyrannosaurus about 36,100; the 90\% bands are wide, 279--2,080 for Dakotaraptor and 13,200--111,000 for Tyrannosaurus, most of the width coming from the ladder. Two further analyses use the raw votes. Generic names are not inflated over their own populations in general, but culturally iconic ones are, by $+0.22$ in log score across 13 icons, and composing the icons' one-sided inflation with the anatomy model gives a log-skew-normal ``felt strength'' with a felt median of $3.98\times$. At equal body mass the crowd rates carnivorous theropods below mammals ($0.53\times$ at 30 kg, $0.92\times$ at 300 kg), the weight-paradigm signature the hypothesis posits. The exercise remains a transparent sensitivity analysis, not an empirical estimate of dinosaur combat performance, but the probabilistic formulation makes the anatomical hypothesis explicit, graded, and falsifiable in principle.
+whose median is $3.441\times$ and whose two-log-SD band is $2.27$--$5.21\times$. At the median correction, a crowd Velociraptor score of about 2.14 becomes about 7.38, Deinonychus about 117, Dakotaraptor about 710, Utahraptor about 984, and Tyrannosaurus about 36,100; the 90\% bands are wide, 279--2,080 for Dakotaraptor and 13,200--111,000 for Tyrannosaurus, most of the width coming from the ladder. Two further analyses use the raw votes. Generic names are not inflated over their own populations in general, but culturally iconic ones are, by $+0.22$ in log score across 13 icons, and composing the icons' one-sided inflation with the anatomy model gives a log-skew-normal ``felt strength'' with a felt median of $3.98\times$. At equal body mass the crowd rates carnivorous theropods below mammals ($0.53\times$ at 30 kg, $0.92\times$ at 300 kg), the weight-paradigm signature the hypothesis posits. A closing section states what the anatomy factor stands for, the conjunction of a cutting jaw and a bipedal lunge, reports the crowd's own exponent for numbers ($N$ animals rated as $N^{1.44}$ of one), and uses the exchange model of a companion arena to ask how numbers accumulate against a theropod once those two components are staged. The exercise remains a transparent sensitivity analysis, not an empirical estimate of dinosaur combat performance, but the probabilistic formulation makes the anatomical hypothesis explicit, graded, and falsifiable in principle.
 \end{abstract}
 
 \tableofcontents
@@ -61,6 +61,8 @@ If the crowd ranking is the baseline and the proposed anatomy correction is unce
 The central change from the earlier version of this note is accordingly methodological. Instead of multiplying all dinosaurs by a single deterministic factor, the anatomy multiplier is modeled as a lognormal random variable. Its median and dispersion are elicited from two conservative calibration constructions. Once those parameters are fixed, all downstream tables use the median correction and standard-deviation bands; the original elicitation interval drops out of the substantive analysis.
 
 The October 2026 revision refit the BT model from the original scraped matchups, the earlier fitted export having been lost, renormalized the scale to the African Lion, and added analyses of the cultural inflation of iconic generic entries and of the crowd's own equal-mass ratio. This November revision changes two things. It pools the entries that name one animal, so that a broad name such as ``Tiger'' and its subspecies inform one another instead of being fitted apart (Sections~\ref{sec:catgraph} and~\ref{sec:pooling}), and it gives every score error bars, which for dinosaurs combine the crowd score's uncertainty with the anatomy factor's (Section~\ref{sec:errors}). The pooled scores with their error bars are the paper's results from Section~\ref{sec:classify} on; the October fit is kept as the baseline they refine, and Section~\ref{sec:inflation} still measures its raw gaps.
+
+Two further additions leave the scores untouched. Section~\ref{sec:ontology} says what the anatomy factor is a factor \emph{of}: not a general credit for being a dinosaur, but the conjunction of a particular jaw and a particular way of delivering it. Section~\ref{sec:groups} then takes up fights of several animals, first with the crowd's own exponent for numbers and then with the fight model of a companion arena, in which that conjunction is staged and its consequences for groups can be run out.
 
 The paper remains an exploratory technical companion to the public visualization, not a zoological measurement paper. Its purpose is to make a provocative intuition inspectable rather than to disguise it as a result of the crowd data.
 
@@ -182,6 +184,14 @@ The first category is intentionally called baseline rather than ``non-Mesozoic''
 
 \section{The Probabilistic Anatomy Paradigm}
 \label{sec:rescale}
+
+\subsection{What the factor stands for}
+\label{sec:ontology}
+The anatomy factor is one number, but the hypothesis it parameterizes is specific, and it helps to say what it is before calibrating it. It is not a credit for being a dinosaur. It names two things and their conjunction. The first is the \emph{jaw}: a long skull whose tooth rows are blades, laterally compressed and serrated, which cut what they close on instead of merely holding it \cite{torices2018puncture}. The second is the \emph{bipedal lunge}: a body balanced over its hips, half of it a counterweight of tail, that carries the head high and drives it forward and down on the neck, so that the jaws arrive first, from above, with the animal's mass behind them. The reading of the skull of \textit{Allosaurus} as built to be driven down onto prey by the neck is the best-known statement of that second element for a large theropod \cite{rayfield2001cranial}, and it has been contested \cite{frazzetta2002prey}. A quadrupedal mammalian predator of the same mass brings a shorter jaw to the fight at the height of its own shoulders, and must close with what it bites. On the hypothesis, the difference in formidability between a theropod and a mammal of equal mass simply \emph{is} these two together, the weapon and its delivery, and $F_{\rm anat}$ is the size of that difference on the crowd's scale.
+
+The same reading says where the underestimate would come from. The large toothed reptile that people know is the crocodile, and a crocodilian has neither element. It has no lunge of this kind, its head working at the height of the ground or the water with the body behind it, and its jaws are a clamp, their teeth cones for seizing and holding. An intuition calibrated on crocodiles, a theropod imagined as ``that, on two legs,'' therefore credits the theropod with the one thing a crocodile's jaw does and with neither half of what the hypothesis says made the difference; familiarity with the nearest living look-alike would then mislead in a definite direction.
+
+This is a statement of the hypothesis and of a possible source of bias, not a finding. The crowd data cannot test it, and the functional literature does not settle it: for the dromaeosaurids in particular the best-supported account gives the feet as large a part as the jaws, the claws pinning prey of the predator's own size while the jaws dismember it \cite{fowler2011predatory}. Its use here is to fix what the elicited factor is about. Section~\ref{sec:groups} describes how the interactive arena stages the two elements, the lunge as blows that land first and the jaw as wounds that bleed, and what that staging implies when one theropod meets several mammals.
 
 \subsection{Calibration ladder}
 All scores use African Lion $=100$, the African Lion's row being its pooled category, and the pooled Human score is $6.45$. The strong calibration places Dakotaraptor above the African Lion by the same multiplicative ratio by which the African Lion lies above Human:
@@ -488,6 +498,112 @@ At the median calibration, a 100 g mammal receives a fitted mammal score of abou
 
 The qualitative background is compatible with evidence for a long nocturnal phase in mammalian evolution and with strong ecological restructuring around the K--Pg boundary \cite{maor2017nocturnal,wilson2012multituberculates}. At the same time, Mesozoic mammals were ecologically more diverse than the old picture of uniformly tiny nocturnal insectivores suggests \cite{hu2005repenomamus}. The present score model therefore does not establish the stronger claim that theropod predation caused the mammalian limbic system, sensory architecture, or later human cognition. Those belong to a separate historical hypothesis requiring independent comparative and fossil evidence.
 
+\section{Many Against One}
+\label{sec:groups}
+
+The scores are fitted to one-on-one votes, and the preceding sections use them one animal at a time. This section asks what they say about several animals at once, first from the votes and then from a fight model. The second part is an exercise in consequences, not evidence: it shows what one fully stated way of fighting implies, and how much of that depends on the two elements of Section~\ref{sec:ontology}.
+
+\subsection{The crowd's exponent for numbers}
+\label{sec:groupk}
+The directory holds entries for groups, such as ``Grey Wolf (pack of 5).'' The preprocessing ties each to its solo entry only weakly, by a pseudo-matchup at $N^{0.7}$ and weight 3 (Section~\ref{sec:preprocess}), and the votes move the groups well away from it. Over the 259 group entries of the pooled fit that have a solo counterpart, a weighted least-squares line through the origin for $\log(s_{\rm group}/s_{\rm solo})$ against $\log N$ gives
+\begin{equation}
+s(N\text{ animals})=N^{k}\,s(\text{one}),\qquad k=1.44\pm0.03 .
+\label{eq:groupk}
+\end{equation}
+The crowd thus rates a group above the sum of its members ($k=1$, the linear law of Lanchester's attrition models) and below their square law ($k=2$) \cite{lanchester1916,adams2003lanchester}; since the pseudo-matchups pull towards $0.7$, the estimate is if anything low. Mixed sides add in the same way, a side's strength being $\bigl(\sum_i n_i s_i^{1/k}\bigr)^{k}$, and two sides then meet at Bradley--Terry odds. On this rule a Dakotaraptor at its median corrected score of 710 is an even match for $7.1^{1/1.44}=3.9$ lions, where adding the lions' scores would say 7.1.
+
+\subsection{The arena and its fight model}
+The interactive arena \cite{benanderArena2026} lets a reader put any of the scale's animals on the sand, alone or in groups, each dinosaur either at its crowd score (``conventional belief'') or at its corrected one (``accurate''), and watch the fight. It also carries human fighters, placed on the scale by a separate exploratory analysis that is not part of this paper. Its odds are the scale's: Bradley--Terry one on one, Eq.~\eqref{eq:groupk} for groups. To show a fight it needs more than odds, and it uses an exchange model. A fight is a sequence of exchanges. In each, one fighter of either side, taken at random, meets one of the other, and one of the two lands a blow that takes a fixed share of the other's staying power; a side is beaten when its last fighter is down. For every pair of kinds the chance $q$ that the first lands is solved, exactly, so that the two alone meet at their Bradley--Terry odds. Each bout shown draws its winner with the scale's odds first and then a fight from the model that ends that way, so that nothing in the staging changes how often anyone wins.
+
+What the model leaves free is how a pair's odds are divided between who lands a blow and what a landed blow takes. The arena divides them as the hypothesis of Section~\ref{sec:ontology} would.
+\begin{itemize}
+\item \emph{Size by weight.} A blow takes $\tfrac13\,(m_{\rm attacker}/m_{\rm victim})^{1/3}$ of the victim, a weapon's length and the depth of the body it must reach into both scaling as the cube root of mass. With sizes fixed by weight, whatever a fighter has beyond its size can appear only as blows landed.
+\item \emph{The lunge.} A blow landed on a lunging biped by an animal with no lunge of its own counts double: it has had to get inside the reach, and what it has there is a hold. The odds being fixed, it lands correspondingly less often.
+\item \emph{The bite.} A theropod's bite takes a third of its blow at once and leaves a wound that takes as much again with every exchange that follows, until the fight is over, so that an animal can fall to it between blows. The clock counts as many simultaneous exchanges as the smaller side has fighters.
+\end{itemize}
+Staged this way, the anatomy factor becomes the strike that arrives first. Against a lion of 185~kg a Dakotaraptor of 250~kg lands 71\% of the blows exchanged at its crowd score and 84\% at its corrected one; its bite takes 12\% of the lion and then 12\% an exchange, the lion's hold 60\% of the Dakotaraptor, and a beaten lion falls to the wound between blows, not to a last bite. Table~\ref{tab:staging} gives the same quantities for the other pairings used below.
+
+\begin{table}[H]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llrrrrr}
+\toprule
+Theropod (kg) & Mammal (kg) & One on one & Theropod lands & Bite & Hold (needed) & Exponent \\
+\midrule
+\textit{Dakotaraptor} (250) & lion (185) & 87.7\% & 71 $\to$ 84\% & 12\%, 12\% & 60\% (2) & 1.44--1.57 \\
+\textit{Deinonychus} (73) & wolf (40) & 94.9\% & 82 $\to$ 90\% & 14\%, 14\% & 55\% (2) & 1.34--1.44 \\
+\textit{Tyrannosaurus} (8,000) & elephant (6,000) & 96.9\% & 86 $\to$ 92\% & 12\%, 12\% & 61\% (2) & 1.42--1.46 \\
+\textit{Utahraptor} (500) & lion (185) & 90.8\% & 58 $\to$ 72\% & 15\%, 15\% & 48\% (3) & 1.85--2.04 \\
+\textit{Allosaurus} (1,700) & polar bear (450) & 94.8\% & 64 $\to$ 76\% & 17\%, 17\% & 43\% (3) & 1.84--1.93 \\
+\textit{Tyrannosaurus} (8,000) & lion (185) & 99.7\% & 57 $\to$ 66\% & 39\%, 39\% & 19\% (6) & 2.60--3.15 \\
+\bottomrule
+\end{tabular}
+\caption{The arena's staging of six pairings. One on one: the theropod's Bradley--Terry odds at its median corrected score. Theropod lands: its share of the blows exchanged, at its crowd score and at its corrected one. Bite: what it takes at once and then with every exchange. Hold: what the mammal's landed blow takes, and how many down the theropod. Exponent: the $k$ at which Eq.~\eqref{eq:groupk} would give what the staged model gives for one theropod against the numbers of Table~\ref{tab:groups}; the crowd's is 1.44.}
+\label{tab:staging}
+\end{table}
+
+\subsection{What the model implies for groups}
+One on one the model returns the scores' odds by construction. For one animal against several it is fitted to nothing: what it returns follows from the staging alone, and can be set beside what the scores give. Table~\ref{tab:groups} does so, building the staging up one element at a time and adding a limiting case in which the mammal's single landed blow decides the fight (``one hold''). Each cell is the theropods' share of 300,000 simulated fights (\texttt{11\_group\_mechanics.py}), with the theropods at their median corrected scores.
+
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{lrrrrrr}
+\toprule
+& \multicolumn{2}{c}{From the scores} & \multicolumn{4}{c}{From the fight model} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-7}
+& Eq.~\eqref{eq:groupk} & Adding scores & By weight & + lunge & + bite & One hold \\
+\midrule
+\multicolumn{7}{l}{\textit{One Dakotaraptor against lions}} \\
+2 & 72 & 78 & 59 & 69 & 72 & 78 \\
+3 & 59 & 70 & 33 & 51 & 59 & 71 \\
+4 & 49 & 64 & 16 & 36 & 48 & 65 \\
+6 & 35 & 54 & 3 & 17 & 32 & 56 \\
+8 & 26 & 47 & $<$1 & 7 & 21 & 48 \\
+\multicolumn{7}{l}{\textit{One Deinonychus against wolves}} \\
+2 & 87 & 90 & 79 & 85 & 88 & 91 \\
+4 & 71 & 82 & 38 & 63 & 73 & 85 \\
+8 & 48 & 70 & 4 & 28 & 50 & 76 \\
+\multicolumn{7}{l}{\textit{One Tyrannosaurus against elephants}} \\
+2 & 92 & 94 & 86 & 91 & 92 & 94 \\
+4 & 81 & 88 & 51 & 74 & 81 & 90 \\
+8 & 61 & 79 & 9 & 42 & 62 & 84 \\
+\multicolumn{7}{l}{\textit{One Utahraptor against lions}} \\
+2 & 78 & 83 & 64 & 71 & 73 & 85 \\
+4 & 57 & 71 & 17 & 31 & 43 & 75 \\
+8 & 33 & 55 & $<$1 & 3 & 12 & 62 \\
+\multicolumn{7}{l}{\textit{One Allosaurus against polar bears}} \\
+2 & 87 & 90 & 79 & 83 & 83 & 92 \\
+4 & 71 & 82 & 38 & 52 & 59 & 86 \\
+8 & 48 & 70 & 3 & 13 & 25 & 78 \\
+\multicolumn{7}{l}{\textit{One Tyrannosaurus against lions}} \\
+4 & 98 & 99 & 90 & 93 & 91 & 99 \\
+8 & 95 & 98 & 49 & 65 & 60 & 99 \\
+16 & 87 & 96 & 3 & 14 & 13 & 97 \\
+\multicolumn{7}{l}{\textit{Dakotaraptors against lions, pack against pride}} \\
+3 v 6 & 72 & 78 & 68 & 85 & 92 & 97 \\
+5 v 12 & 67 & 75 & 50 & 82 & 94 & 99 \\
+5 v 20 & 49 & 64 & 2 & 31 & 73 & 96 \\
+\bottomrule
+\end{tabular}
+\caption{The theropods' chance of winning, in per cent, against the number of mammals in the first column. From the scores: by the crowd's group rule, and by simply adding the mammals' scores ($k=1$). From the fight model, with nothing fitted beyond the one-on-one odds: blows sized by weight alone; with the lunge; with the lunge and the bleeding bite, which is the arena's staging; and with the bite and a mammal whose one landed blow decides. Sampling error is about 0.1 point.}
+\label{tab:groups}
+\end{table}
+
+Four things can be read from the table.
+
+\emph{Each element lowers what numbers are worth against the theropod.} With blows sized by weight and nothing else, four lions leave a Dakotaraptor 16\%; the lunge raises that to 36\% and the bleeding bite to 48\%. The reason is the same in both cases. A lone animal's injuries accumulate across its attackers, which is what makes numbers tell; the lunge leaves the attackers fewer, heavier landed blows to accumulate, and a wound that bleeds goes on working on every animal already bitten while the theropod turns to the next. (Where one bite would have killed outright, as a Tyrannosaurus's does a lion, turning two thirds of it into a wound costs a little instead.)
+
+\emph{With both elements, and animals of similar weight, the model's rule for numbers is the crowd's.} In the three pairings in which the mammal needs two holds, the staged model and Eq.~\eqref{eq:groupk} agree to within two points up to four opponents and within five up to eight, and the model's exponent is 1.34--1.57 against the crowd's 1.44. Nothing in the staging was fitted to that exponent; its constants were set on one-on-one grounds. The agreement is still better read as a consistency than as a confirmation: it says that the crowd's exponent is what fights decided by a couple of holds against a bleeding bite would produce, not that fights go that way.
+
+\emph{The exponent is set by how many holds the weaker side needs, which the scores do not fix.} Where the theropod is much the heavier, so that the mammal needs three holds or six, numbers count for more than the crowd's rule allows, with exponents near 1.9 and between 2.6 and 3.2. Where a single hold decides, the opposite limit, the exponent is 0.7--1.0 and the model returns what adding the scores would, or a little more for the theropod. One-on-one odds are compatible with all of these, so the scores alone cannot say how numbers accumulate; the crowd's 1.44 sits between ``one hold'' and ``three.'' The intuition that a predator of this kind is not worn down by numbers in proportion to them is therefore right in the one-hold limit and wrong outside it, and which regime a real encounter belonged to is a question about anatomy and behaviour that no vote answers.
+
+\emph{Packs are another matter.} Five Dakotaraptors hold 94\% against twelve lions where the rule gives 67\%. Bites that bleed lose nothing by being spread over many victims, while holds that must accumulate on one body are wasted when scattered over five. The model pairs fighters at random and does not let the lions concentrate on one animal at a time; a pride that did would recover part of that difference.
+
+These are properties of one stylized model. Its exchanges are sequential and its pairings random; its blows are of fixed size; its constants (the cube root, the factor of two for the lunge, the bite's thirds) are conventions; and its lunging, bleeding theropod is the hypothesis's animal, staged, not a reconstruction. The arena accordingly keeps the scale's odds for every fight it shows, groups included, and uses the model only for what happens on the way.
+
 \section{Discussion}
 
 The probabilistic formulation is an improvement over a single deterministic multiplier in one specific sense: it makes the uncertainty judgment explicit. The model no longer says ``dinosaurs are $10.14\times$ stronger than the crowd thinks,'' as the first version did. It says: conditional on the anatomy-paradigm hypothesis and the chosen elicitation, the correction factor has median $3.44\times$ and log-space SD $0.20706$. Readers can therefore see how much of the ranking is stable under moderate movement in the calibration.
@@ -500,15 +616,22 @@ The paper's broader ``paradigm'' thesis is likewise interpretive. Modern observe
 
 The cultural-inflation analysis adds a second explicit parameter of the same kind and a caution about the first. The crowd's scale is not culture-free: its icons are inflated relative to their own populations, and an anatomy model anchored on an icon's own entry would inherit that inflation squared, which is why the ladder runs on the African Lion and why pooling, which draws an icon's entry back toward its populations, steadies it. Equation~\eqref{eq:felt} states the remaining asymmetry, between uninflated, unfamiliar dinosaurs and inflated, familiar icons, as a single skew-normal whose location is the actual and whose skew is the culture.
 
+The group exercise of Section~\ref{sec:groups} sharpens the same point from another side. Stating the hypothesis as a jaw and a lunge makes it possible to stage, and the staging has consequences that one-on-one odds do not determine: the same scores are compatible with numbers counting for less than their sum or for the square of it, according to how many landed blows the weaker animal needs. That the crowd's own exponent falls where a two-hold contest against a bleeding bite would put it is suggestive and no more; what it does show is that claims about how a pack would fare against a large theropod depend on mechanics the votes never recorded.
+
 What survives these caveats is a useful exploratory object. The BT refit yields a reproducible crowd baseline; pooling and error bars say what the votes do and do not pin down; the lognormal correction defines a graded family of anatomy paradigms; and the ranking can be recomputed under any quantile of that distribution. The model therefore converts ``dinosaurs may be systematically underrated'' from an all-or-nothing rhetorical claim into an explicit parameter whose consequences can be inspected and eventually tested.
 
 \section{Code and Data Availability}
 \label{sec:code}
-The results are reproducible from the scraped matchup file with the accompanying pipeline. The original scrapers (steps 1--2), the Bradley--Terry fit (step 3), the classification (step 4), the anatomy rescaling (step 5), the weight--score analysis (step 6) and the cultural-inflation analysis (step 7) give the October baseline; \texttt{category\_graph.py} builds the category graph, and \texttt{coupled\_fit.py} fits the pooled model, computes the error bars and reruns the anatomy and weight--score analyses on it. The main output, \texttt{final\_scores.csv}, lists every row of the pooled results, entries and category stand-ins alike, with its crowd score, standard error and percentiles, scaling class, Permian flag, median anatomy factor and corrected score, the joint and full percentiles of the corrected score, the percentiles of its rank, and the entries behind each stand-in. The baseline's \texttt{bt\_scores\_african\_lion\_100.csv} is kept beside it. The pipeline, source data, and interactive visualizations are available at
+The results are reproducible from the scraped matchup file with the accompanying pipeline. The original scrapers (steps 1--2), the Bradley--Terry fit (step 3), the classification (step 4), the anatomy rescaling (step 5), the weight--score analysis (step 6) and the cultural-inflation analysis (step 7) give the October baseline; \texttt{category\_graph.py} builds the category graph, and \texttt{coupled\_fit.py} fits the pooled model, computes the error bars and reruns the anatomy and weight--score analyses on it. Step 8 (\texttt{8\_human\_archetypes.py}), which prepares the arena's data, measures the group exponent of Section~\ref{sec:groupk}, and step 11 (\texttt{11\_group\_mechanics.py}) runs the arena's exchange model for Tables~\ref{tab:staging} and~\ref{tab:groups}. The main output, \texttt{final\_scores.csv}, lists every row of the pooled results, entries and category stand-ins alike, with its crowd score, standard error and percentiles, scaling class, Permian flag, median anatomy factor and corrected score, the joint and full percentiles of the corrected score, the percentiles of its rank, and the entries behind each stand-in. The baseline's \texttt{bt\_scores\_african\_lion\_100.csv} is kept beside it. The pipeline, source data, and interactive visualizations are available at
 \begin{center}
 \url{https://github.com/brunchwnewton/aethic-code/tree/main/nexic}
 \end{center}
-and the public interactive essay is at \url{https://aethus.org/aethic-code/interactive/nexic/dino-correct.html}. The public visualizations show the October baseline on the African Lion $=100$ scale: they omit the generic Lion and Tiger, display the Permian control class of Section~\ref{sec:permian}, and do not yet carry the pooled scores or the error bars.
+and the public pages, the interactive essay and the arena, at
+\begin{center}
+\url{https://aethus.org/aethic-code/interactive/nexic/dino-correct.html}\\
+\url{https://aethus.org/aethic-code/interactive/nexic/arena.html}
+\end{center}
+The essay and its equal-mass companion chart show the October baseline on the African Lion $=100$ scale: they omit the generic Lion and Tiger, display the Permian control class of Section~\ref{sec:permian}, and do not yet carry the pooled scores or the error bars. The arena runs on the pooled scores; for each dinosaur's accurate score it takes the median of the full percentiles of Section~\ref{sec:errors}, a few per cent below the median corrected score used in this paper's tables (681 against 710 for Dakotaraptor).
 % R891 (Fable 5.1, Oct 30 2026), at the author's direction: aethus.org link updated to the file's new location. Previous: https://aethus.org/aethic-code/nexic/dino-correct.html
 
 \appendix
@@ -690,7 +813,7 @@ Table~\ref{tab:interleaved} re-ranks 119 animals of the earlier 123-animal selec
 \end{longtable}
 \normalsize
 
-\begin{thebibliography}{12}
+\begin{thebibliography}{18}
 \bibitem{benanderDino2026}
 A.~Benander,
 ``How Much Do We Underestimate Dinosaurs?,'' interactive essay and visualization, Aethus.org (accessed September 2026).
@@ -752,6 +875,46 @@ M.~G.~Haselton and D.~Nettle,
 Carnivora.net,
 ``Interspecific Conflict Directory,'' community-maintained database of pairwise animal combat matchups.
 \url{https://carnivora.net/interspecific-conflict-directory-t37.html}
+
+\bibitem{benanderArena2026}
+A.~Benander,
+``Gladiators against a Raptor,'' interactive arena, Aethus.org (2026).
+\url{https://aethus.org/aethic-code/interactive/nexic/arena.html}
+
+\bibitem{torices2018puncture}
+A.~Torices, R.~Wilkinson, V.~M.~Arbour, J.~I.~Ruiz-Ome\~naca, and P.~J.~Currie,
+``Puncture-and-pull biomechanics in the teeth of predatory coelurosaurian dinosaurs,''
+\textit{Current Biology} \textbf{28}(9), 1467--1474 (2018).
+\url{https://doi.org/10.1016/j.cub.2018.03.042}
+
+\bibitem{rayfield2001cranial}
+E.~J.~Rayfield, D.~B.~Norman, C.~C.~Horner, J.~R.~Horner, P.~M.~Smith, J.~J.~Thomason, and P.~Upchurch,
+``Cranial design and function in a large theropod dinosaur,''
+\textit{Nature} \textbf{409}, 1033--1037 (2001).
+\url{https://doi.org/10.1038/35059070}
+
+\bibitem{frazzetta2002prey}
+T.~H.~Frazzetta and K.~V.~Kardong,
+``Prey attack by a large theropod dinosaur,''
+\textit{Nature} \textbf{416}, 387--388 (2002).
+\url{https://doi.org/10.1038/416387a}
+
+\bibitem{fowler2011predatory}
+D.~W.~Fowler, E.~A.~Freedman, J.~B.~Scannella, and R.~E.~Kambic,
+``The predatory ecology of \textit{Deinonychus} and the origin of flapping in birds,''
+\textit{PLoS ONE} \textbf{6}(12), e28964 (2011).
+\url{https://doi.org/10.1371/journal.pone.0028964}
+
+\bibitem{lanchester1916}
+F.~W.~Lanchester,
+\textit{Aircraft in Warfare: The Dawn of the Fourth Arm},
+Constable, London (1916).
+
+\bibitem{adams2003lanchester}
+E.~S.~Adams and M.~Mesterton-Gibbons,
+``Lanchester's attrition models and fights among social animals,''
+\textit{Behavioral Ecology} \textbf{14}(5), 719--723 (2003).
+\url{https://doi.org/10.1093/beheco/arg061}
 \end{thebibliography}
 
 \end{document}

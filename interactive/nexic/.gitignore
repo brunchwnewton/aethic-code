@@ -74,3 +74,8 @@
 !/run/outputs/titan_classes.csv
 !/run/10_characters.py
 !/run/characters.json
+
+# step 11: what the arena's fight model implies for groups (the paper's section on many against one)
+!/run/11_group_mechanics.py
+!/run/outputs/group_mechanics.json
+!/run/outputs/group_mechanics.csv

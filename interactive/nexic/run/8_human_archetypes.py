@@ -344,8 +344,8 @@ def main():
     B = pd.read_csv(os.path.join('..', 'final_scores.csv')).set_index('animal'); rng = np.random.default_rng(SEED); n = N_DRAWS
     spear, club = pooled(SPEAR_PAIRS, B), pooled(CLUB_PAIRS, B); k_hat, k_se, G = group_exponent(B)
     female = (float(np.log(B.score['Human (female)'] / B.score['Human'])), float(np.hypot(B.se_log['Human (female)'], B.se_log['Human'])))
-    try: b_scale = json.load(open('outputs/graph/summary.json'))['variants']['coupled']['weight_score']['fits']['mammals'][1]
-    except (OSError, KeyError): b_scale = json.load(open('outputs/weight_score.json'))['fits']['mammals'][1]
+    try: c_scale, b_scale = json.load(open('outputs/graph/summary.json'))['variants']['coupled']['weight_score']['fits']['mammals']
+    except (OSError, KeyError): c_scale, b_scale = json.load(open('outputs/weight_score.json'))['fits']['mammals']
     draw = lambda ms: rng.normal(ms[0], ms[1], n) if ms[1] > 0 else np.full(n, float(ms[0]))
     SKILL.update(SCHOOL); WEAPON[KIT[0]] = ((0.05, 0.3), (0.65, 0.5)); ARMOUR[KIT[1]] = ((0.3, 0.2), (1.0, 0.5)); OLD_ARMOUR.add(KIT[1])
     rng2 = np.random.default_rng(SEED + 1); later = {'ranged', 'body armour and helmet', 'tank armour'}; rng3 = np.random.default_rng(SEED + 2); titan = {*SCHOOL, *KIT}   # everything added with the firearms draws from its own
@@ -477,6 +477,7 @@ def main():
         on_page = sorted(names + list(CLASSES), key=lambda a: (3, list(CLASSES).index(a)) if PAGE.get(a, {}).get('group') else (2 if a in CAVALRY else int(ALL[a][2] in RANGED), -float(np.median(logs[a]))))
 
         data = dict(k=k_hat, k_sd=K_SD, gamma=GAMMA[0], gamma_sd=GAMMA[1], cross=CROSS[0], arm_vs_guns=ARMOUR_VS_GUNS, races=races,
+                    mass_fit=[float(c_scale), float(b_scale)],   # the mammals' score against weight, s = c w^b: the arena reads a person's score back as a weight with it
                     fighters=[fighter(a) for a in on_page],
                     animals=[dict(name=o, label=lab, plural=pl, kg=kg, length=L, shape=shp, coat=coat, body=bc, dark=dark, accent=acc, comp=o in COMPANIONS, era=EXTINCT[o][9] if o in EXTINCT else None, saur=bool(o in EXTINCT and EXTINCT[o][10]), mu=float(np.log(B.score[o])), sd=float(B.se_log[o]),
                                   dino=bool(B.median_factor[o] > 1.2),   # whatever the anatomy factor of step 6 applies to: the dinosaurs, and the one pterosaur
