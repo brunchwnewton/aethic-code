@@ -204,14 +204,17 @@ HEIGHT = {k: TALL[(v[7], v[0])] for k, v in TITANS.items()}; HEIGHT['Human Warri
 ROTG_GROUP = 'ROTG titles and schools (fantasy)'
 # Riders (humans only: no horse carries a Titan). Nothing on the scale is mounted, so this is judgment throughout (grade D). Against animals a
 # rider and his horse count as two that fight together, by the group rule; against people the saddle is worth MOUNT in real log-odds (about
-# 4.5 to 1 over the same man on foot: height, the horse's weight in the charge, and leaving when he likes). Fields as an archetype's, then the horse.
+# 4.5 to 1 over the same man on foot: height, the horse's weight in the charge, and leaving when he likes). On the page anyone armed for
+# hand-to-hand can be put in the saddle (a tick in his row), on the heavy horse under full plate and on the lighter one under anything else;
+# the horse is a body of its own there, which can be killed under him and fights on without him.
 MOUNT = (1.5, 0.7)
-MOUNTED = {
-    'Knight, mounted, lance and full plate': ('m', 78, 'pike or polearm', 'professional (armed)', 'duellist', 'full plate', 'on a heavy warhorse', 'Shire Horse'),
+HORSE = lambda armour: 'Shire Horse' if armour == 'full plate' else 'Wild Horse'
+# The cavalry: classes that come mounted (unticked, the same man on foot with the same arms). Fields as an archetype's, then the horse.
+CAVALRY = {
+    'Knight with a lance, full plate': ('m', 78, 'pike or polearm', 'professional (armed)', 'duellist', 'full plate', 'on a heavy warhorse', 'Shire Horse'),
     'Roman cavalryman, spear and shield': ('m', 68, 'spear + shield', 'professional (armed)', 'duellist', 'mail or plates with helmet', 'an eques of the legion', 'Wild Horse'),
     'Steppe lancer, lance and lamellar': ('m', 65, 'pike or polearm', 'professional (armed)', 'duellist', 'mail or plates with helmet', 'the bow he also carried is not modelled', 'Wild Horse'),
-    'Light cavalryman, sabre': ('m', 70, 'sword + small shield', 'professional (armed)', 'duellist', 'helmet and guards', '', 'Wild Horse'),
-    'Untrained rider with a spear': ('m', 70, 'spear', 'novice', 'beast', 'none', '', 'Wild Horse')}
+    'Light cavalryman, sabre': ('m', 70, 'sword + small shield', 'professional (armed)', 'duellist', 'helmet and guards', '', 'Wild Horse')}
 CLASSES = {
     'Untrained woman with a spear': ('f', 58, 'spear', 'novice', 'beast', 'none', ''),
     'Roman veles, light spear and parma': ('m', 66, 'spear + small shield', 'competent', 'duellist', 'none', 'the skirmishers of the manipular legion; their javelins are not modelled'),
@@ -221,7 +224,7 @@ CLASSES = {
     'Spartiate, dory and aspis': ('m', 72, 'spear + shield', 'elite (armed)', 'duellist', 'mail or plates with helmet', 'the picked men of a phalanx'),
     'Viking bondi, spear and shield': ('m', 74, 'spear + shield', 'competent', 'duellist', 'helmet and guards', 'the farmers of the levy, most of a warband'),
     'Viking berserker, Dane axe': ('m', 85, 'pike or polearm', 'elite (armed)', 'duellist', 'none', 'a two-handed axe and no armour'),
-    **{k: v[:7] for k, v in MOUNTED.items()},
+    **{k: v[:7] for k, v in CAVALRY.items()},
     'Warrior, spear or sword with shield': ('m', 70, KIT[0], 'professional (armed)', 'duellist', KIT[1], "the story's plain warrior"),
     'Woman warrior, spear or sword with shield': ('f', 58, KIT[0], 'professional (armed)', 'duellist', KIT[1], ''),
     'class: Alaarn Warrior': ('m', 70, ALAARN_ARMS, 'professional (armed)', 'duellist', ALAARN_ARMOUR, 'a title: the plain warrior, at home on an Alaarn'),
@@ -447,14 +450,15 @@ def main():
                 d['r'] = {}
                 for letter, rc_ in RACES.items():
                     dl_, dd_, m2 = race_delta(a, rc_); d['r'][letter] = [med(logs[a] + dl_), sd(logs[a] + dl_), med(duel[a] + dd_), sd(duel[a] + dd_), round(float(m2), 1)] + ([med(body[a] + race_delta(a, rc_, True)[0]), med(dbody[a] + race_delta(a, rc_, True)[1])] if rg else [])   # a hit lands on the body, not on the gun
-            if a in MOUNTED:   # the rider and the horse as one fighter; a human's only
-                h = MOUNTED[a][7]; hb = beasts[h]; both = k_hat * np.logaddexp(logs[a] / k_hat, np.log(B.score[h]) / k_hat); dm = duel[a] + np.random.default_rng(SEED + 5).normal(MOUNT[0], MOUNT[1], len(duel[a]))
-                d.update(group='Mounted', mu=med(both), sd=sd(both), duel=med(dm), duel_sd=sd(dm), mass=mass + hb[2], mount=dict(name=hb[0], kg=hb[2], length=hb[3], shape=hb[4], coat=hb[5], body=hb[6], dark=hb[7], accent=hb[8])); d.pop('r', None)
+            if wpn is not None and not rg and armour != 'tank armour':   # the same class in the saddle (a human's only): score, its spread, duel log-odds, its spread, mass, the horse
+                h = CAVALRY[a][7] if a in CAVALRY else HORSE(armour); both = k_hat * np.logaddexp(logs[a] / k_hat, np.log(B.score[h]) / k_hat); dm = duel[a] + np.random.default_rng(SEED + 5).normal(MOUNT[0], MOUNT[1], len(duel[a]))
+                d['m'] = [med(both), sd(both), med(dm), sd(dm), round(float(mass + beasts[h][2]), 1), h]
+            if a in CAVALRY: d.update(group='Cavalry', rides=True)
             d.update(PAGE.get(a, {})); return d
         force = lambda r: (RACE_BODY[r]['m'][0] / RACE_BODY[r]['m'][1]) / (REF_MASS['m'] / REF_HEIGHT['m']) * BUILD[r][0] ** ((2 / 3) / b_scale)   # muscular force over the reference man's
         races = {letter: dict(name=r, skin=SKIN[r], scale=DRAWN[r][0], bulk=DRAWN[r][1], stop=STOP[r], haul=round(float(force(r)), 2),   # haul: how much faster a crew swings its gun round
                               bow=round(float(force(r) * RACE_BODY[r]['m'][1] / REF_HEIGHT['m']), 2)) for letter, r in RACES.items()}             # bow: an arrow's energy, draw weight x draw length
-        on_page = sorted(names + list(CLASSES), key=lambda a: (3, list(CLASSES).index(a)) if PAGE.get(a, {}).get('group') else (2 if a in MOUNTED else int(ALL[a][2] in RANGED), -float(np.median(logs[a]))))
+        on_page = sorted(names + list(CLASSES), key=lambda a: (3, list(CLASSES).index(a)) if PAGE.get(a, {}).get('group') else (2 if a in CAVALRY else int(ALL[a][2] in RANGED), -float(np.median(logs[a]))))
 
         data = dict(k=k_hat, k_sd=K_SD, gamma=GAMMA[0], gamma_sd=GAMMA[1], cross=CROSS[0], arm_vs_guns=ARMOUR_VS_GUNS, races=races,
                     fighters=[fighter(a) for a in on_page],

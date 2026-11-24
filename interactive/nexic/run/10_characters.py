@@ -23,9 +23,10 @@ def block(cfg, T, g, themed, M=None):
         r = math.log(c['figure'] / TITAN_WARRIOR) + c.get('tactics', 0.0); b = T.loc[c['body']]; mu = math.log(tw.score) + g * c.get('carry', 1.0) * r; duel = lo(tw.duel_elo) + r
         out.append(dict(name=c['name'], group='ROTG characters', mu=mu, sd=SD[0], duel=duel, duel_sd=SD[1], usk=0, ask=0, arm=0, gun=False, weapon=c.get('weapon', 'none'), armour='none', mass=c.get('mass', 75),
                         frail=True, dur=math.log(b.score), ddur=lo(b.duel_elo), strike=c.get('strike', 1), swift=c.get('swift', 0), look=c.get('look'), elusive=bool(c.get('elusive')), nimble=c.get('nimble', 0)))
-        if c.get('mount'):   # in the saddle: he and the horse by the group rule, the saddle's premium in a duel, and none of what he does on foot
-            h = M['horses'][c['mount']]; k = M['k']; e = out[-1]; e.update(mu=k * math.log(math.exp(e['mu'] / k) + h['score'] ** (1 / k)), duel=e['duel'] + M['duel'], mass=e['mass'] + h['kg'], swift=0, elusive=False, nimble=0,
-                                                                  mount=dict(name=h['label'], kg=h['kg'], length=h['length'], shape=h['shape'], coat=h['coat'], body=h['body'], dark=h['dark'], accent=h['accent']))
+        if c.get('mount'):   # the same man in the saddle (a tick in his row on the page): he and the horse by the group rule, and the saddle's premium in a duel.
+            # The horse cannot turn as he can, so in the saddle the page takes away what he does on foot (swift, elusive, nimble). dismounts: he gets down wherever he is better off on foot.
+            h = M['horses'][c['mount']]; k = M['k']; e = out[-1]
+            e['m'] = [k * math.log(math.exp(mu / k) + h['score'] ** (1 / k)), SD[0], duel + M['duel'], SD[1], round(c.get('mass', 75) + h['kg'], 1), c['mount']]; e['dismounts'] = bool(c.get('dismounts'))
         print(f"{'themed' if themed else 'public'}: {c['name']}: {math.exp(r):,.0f} to 1 against a Titan Warrior (his figure alone: {c['figure'] / TITAN_WARRIOR:,.0f} to 1); score {math.exp(mu):,.0f} (lion = 100), duel rating {1000 + 400 / math.log(10) * duel:,.0f}")
     return (('DATA.themed = true; ' if themed else '') + 'DATA.fighters.push(...' + json.dumps(out, separators=(',', ':')) + '); ' + (ORDER + ' ' if themed else '') + 'DATA.setups = ' + json.dumps(cfg.get('setups', []), separators=(',', ':')) + ';'
             + ("\nif (typeof document !== 'undefined') document.title = 'ROTG arena';" if themed else ''))
