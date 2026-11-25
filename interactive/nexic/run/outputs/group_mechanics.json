@@ -1,0 +1,1902 @@
+{
+ "k": 1.4419766991887197,
+ "fights": 300000,
+ "seed": 20261124,
+ "scores": "paper (median anatomy factor)",
+ "constants": {
+  "F0": 0.3333333333333333,
+  "RHO": 0.4,
+  "ETA": 0.3333333333333333,
+  "LUNGE": 2.0,
+  "BITE_NOW": 0.3333333333333333,
+  "BITE_RATE": 0.3333333333333333
+ },
+ "cases": [
+  {
+   "theropod": "Dakotaraptor steini",
+   "mammal": "African Lion",
+   "theropod_score": 710.006,
+   "mammal_score": 100.0,
+   "theropod_kg": 250,
+   "mammal_kg": 185,
+   "one_on_one": 0.8765441243645109,
+   "even_by_score_rule": 3.893532553843533,
+   "even_linear": 7.10006,
+   "stagings": {
+    "scores": {
+     "lands": 0.38456985204185445,
+     "theropod_now": 0.7301020246710821,
+     "theropod_bleeds": 0.0,
+     "mammal_now": 0.15218573207103175,
+     "mammal_blows_needed": 7,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.8764133333333334,
+       "to_blood": 0.0,
+       "exchanges": 4.7911,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.5777166666666667,
+       "to_blood": 0.0,
+       "exchanges": 8.216153333333333,
+       "k_eff": 2.37568040848693
+      },
+      {
+       "theropods": 1,
+       "mammals": 3,
+       "share": 0.29473333333333335,
+       "to_blood": 0.0,
+       "exchanges": 10.085793333333333,
+       "k_eff": 2.5783511190380004
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.12367333333333333,
+       "to_blood": 0.0,
+       "exchanges": 10.916513333333333,
+       "k_eff": 2.826382759925504
+      },
+      {
+       "theropods": 1,
+       "mammals": 6,
+       "share": 0.01395,
+       "to_blood": 0.0,
+       "exchanges": 11.331416666666666,
+       "k_eff": 3.470516493144886
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.0012433333333333333,
+       "to_blood": 0.0,
+       "exchanges": 11.368273333333333,
+       "k_eff": 4.159202501461057
+      }
+     ]
+    },
+    "weights": {
+     "lands": 0.6445323526364302,
+     "theropod_now": 0.36852603284508767,
+     "theropod_bleeds": 0.0,
+     "mammal_now": 0.3015013898836758,
+     "mammal_blows_needed": 4,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.87706,
+       "to_blood": 0.0,
+       "exchanges": 4.348183333333333,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.59479,
+       "to_blood": 0.0,
+       "exchanges": 7.578753333333333,
+       "k_eff": 2.2741206025139196
+      },
+      {
+       "theropods": 1,
+       "mammals": 3,
+       "share": 0.33342333333333335,
+       "to_blood": 0.0,
+       "exchanges": 9.50695,
+       "k_eff": 2.4147239840380825
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.16223666666666667,
+       "to_blood": 0.0,
+       "exchanges": 10.4951,
+       "k_eff": 2.5981370215239616
+      },
+      {
+       "theropods": 1,
+       "mammals": 6,
+       "share": 0.02896666666666667,
+       "to_blood": 0.0,
+       "exchanges": 11.12641,
+       "k_eff": 3.054158988227855
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.00432,
+       "to_blood": 0.0,
+       "exchanges": 11.24298,
+       "k_eff": 3.5587794150262635
+      }
+     ]
+    },
+    "lunge": {
+     "lands": 0.8395149078079887,
+     "theropod_now": 0.36852603284508767,
+     "theropod_bleeds": 0.0,
+     "mammal_now": 0.6030027797673516,
+     "mammal_blows_needed": 2,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.8761666666666666,
+       "to_blood": 0.0,
+       "exchanges": 3.3149366666666666,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.68639,
+       "to_blood": 0.0,
+       "exchanges": 5.995093333333333,
+       "k_eff": 1.697774244980728
+      },
+      {
+       "theropods": 1,
+       "mammals": 3,
+       "share": 0.5058033333333334,
+       "to_blood": 0.0,
+       "exchanges": 8.01561,
+       "k_eff": 1.7630322169924555
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.35834333333333335,
+       "to_blood": 0.0,
+       "exchanges": 9.460903333333333,
+       "k_eff": 1.8341451289591149
+      },
+      {
+       "theropods": 1,
+       "mammals": 6,
+       "share": 0.16637333333333335,
+       "to_blood": 0.0,
+       "exchanges": 11.151293333333333,
+       "k_eff": 1.993378406628911
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.07351666666666666,
+       "to_blood": 0.0,
+       "exchanges": 11.924656666666667,
+       "k_eff": 2.1611509934149287
+      }
+     ]
+    },
+    "bite": {
+     "lands": 0.8395149078079887,
+     "theropod_now": 0.12284201094836256,
+     "theropod_bleeds": 0.12284201094836256,
+     "mammal_now": 0.6030027797673516,
+     "mammal_blows_needed": 2,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.8758266666666666,
+       "to_blood": 1.0,
+       "exchanges": 3.31245,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.7228666666666667,
+       "to_blood": 0.8808621465777797,
+       "exchanges": 5.645736666666667,
+       "k_eff": 1.4446818981320835
+      },
+      {
+       "theropods": 1,
+       "mammals": 3,
+       "share": 0.5886233333333334,
+       "to_blood": 0.8792242129899592,
+       "exchanges": 7.216443333333333,
+       "k_eff": 1.4580448742879821
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.47823333333333334,
+       "to_blood": 0.8779997737902769,
+       "exchanges": 8.351753333333333,
+       "k_eff": 1.4767606526595194
+      },
+      {
+       "theropods": 1,
+       "mammals": 6,
+       "share": 0.31793,
+       "to_blood": 0.888503192223843,
+       "exchanges": 9.874836666666667,
+       "k_eff": 1.519960876779368
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.21188,
+       "to_blood": 0.9006710223432863,
+       "exchanges": 10.79935,
+       "k_eff": 1.5743330384381031
+      }
+     ]
+    },
+    "hold": {
+     "lands": 0.9570278900165623,
+     "theropod_now": 0.12284201094836256,
+     "theropod_bleeds": 0.12284201094836256,
+     "mammal_now": 1.0,
+     "mammal_blows_needed": 1,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.87707,
+       "to_blood": 1.0,
+       "exchanges": 2.873073333333333,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.77911,
+       "to_blood": 0.8795874157266351,
+       "exchanges": 5.14094,
+       "k_eff": 1.0093322916239869
+      },
+      {
+       "theropods": 1,
+       "mammals": 3,
+       "share": 0.7077066666666667,
+       "to_blood": 0.8776766431463071,
+       "exchanges": 6.786696666666667,
+       "k_eff": 0.979263944912347
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.6493933333333334,
+       "to_blood": 0.872150401836969,
+       "exchanges": 8.150293333333334,
+       "k_eff": 0.9692960355323881
+      },
+      {
+       "theropods": 1,
+       "mammals": 6,
+       "share": 0.55634,
+       "to_blood": 0.8786829088002697,
+       "exchanges": 10.306796666666667,
+       "k_eff": 0.9676422252342993
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.48182,
+       "to_blood": 0.8883307446162862,
+       "exchanges": 12.0176,
+       "k_eff": 0.9775967565792416
+      }
+     ]
+    }
+   }
+  },
+  {
+   "theropod": "Utahraptor ostrommaysorum",
+   "mammal": "African Lion",
+   "theropod_score": 983.614,
+   "mammal_score": 100.0,
+   "theropod_kg": 500,
+   "mammal_kg": 185,
+   "one_on_one": 0.9077162162910409,
+   "even_by_score_rule": 4.881086076478553,
+   "even_linear": 9.83614,
+   "stagings": {
+    "scores": {
+     "lands": 0.3758466104777517,
+     "theropod_now": 0.8317802916288046,
+     "theropod_bleeds": 0.0,
+     "mammal_now": 0.13358228396291005,
+     "mammal_blows_needed": 8,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.9077666666666667,
+       "to_blood": 0.0,
+       "exchanges": 5.0123066666666665,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.6454866666666667,
+       "to_blood": 0.0,
+       "exchanges": 8.830093333333334,
+       "k_eff": 2.433544862711144
+      },
+      {
+       "theropods": 1,
+       "mammals": 3,
+       "share": 0.35535333333333335,
+       "to_blood": 0.0,
+       "exchanges": 11.086383333333334,
+       "k_eff": 2.6229937083640578
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.16085666666666668,
+       "to_blood": 0.0,
+       "exchanges": 12.16272,
+       "k_eff": 2.840616898540134
+      },
+      {
+       "theropods": 1,
+       "mammals": 6,
+       "share": 0.021266666666666666,
+       "to_blood": 0.0,
+       "exchanges": 12.74757,
+       "k_eff": 3.4129478759055196
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.00171,
+       "to_blood": 0.0,
+       "exchanges": 12.815396666666667,
+       "k_eff": 4.162470369538401
+      }
+     ]
+    },
+    "weights": {
+     "lands": 0.6041624705505688,
+     "theropod_now": 0.4643137062157754,
+     "theropod_bleeds": 0.0,
+     "mammal_now": 0.23930181173561063,
+     "mammal_blows_needed": 5,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.9071933333333333,
+       "to_blood": 0.0,
+       "exchanges": 4.73269,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.6441233333333334,
+       "to_blood": 0.0,
+       "exchanges": 8.40334,
+       "k_eff": 2.442132659383324
+      },
+      {
+       "theropods": 1,
+       "mammals": 3,
+       "share": 0.36482333333333333,
+       "to_blood": 0.0,
+       "exchanges": 10.66009,
+       "k_eff": 2.5855830526005663
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.17498333333333332,
+       "to_blood": 0.0,
+       "exchanges": 11.79993,
+       "k_eff": 2.7676490088579713
+      },
+      {
+       "theropods": 1,
+       "mammals": 6,
+       "share": 0.028786666666666665,
+       "to_blood": 0.0,
+       "exchanges": 12.519176666666667,
+       "k_eff": 3.2396631854468163
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.003606666666666667,
+       "to_blood": 0.0,
+       "exchanges": 12.614703333333333,
+       "k_eff": 3.8026659115192336
+      }
+     ]
+    },
+    "lunge": {
+     "lands": 0.7609719331783462,
+     "theropod_now": 0.4643137062157754,
+     "theropod_bleeds": 0.0,
+     "mammal_now": 0.47860362347122126,
+     "mammal_blows_needed": 3,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.90838,
+       "to_blood": 0.0,
+       "exchanges": 3.74308,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.70544,
+       "to_blood": 0.0,
+       "exchanges": 6.809313333333334,
+       "k_eff": 2.03813041901833
+      },
+      {
+       "theropods": 1,
+       "mammals": 3,
+       "share": 0.4892433333333333,
+       "to_blood": 0.0,
+       "exchanges": 9.013946666666667,
+       "k_eff": 2.120035146277821
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.31451666666666667,
+       "to_blood": 0.0,
+       "exchanges": 10.467013333333334,
+       "k_eff": 2.211038694445199
+      },
+      {
+       "theropods": 1,
+       "mammals": 6,
+       "share": 0.11032666666666667,
+       "to_blood": 0.0,
+       "exchanges": 11.90836,
+       "k_eff": 2.4408812259795054
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.03415,
+       "to_blood": 0.0,
+       "exchanges": 12.368936666666666,
+       "k_eff": 2.7066446454511337
+      }
+     ]
+    },
+    "bite": {
+     "lands": 0.7198186987085544,
+     "theropod_now": 0.15477123540525844,
+     "theropod_bleeds": 0.15477123540525844,
+     "mammal_now": 0.47860362347122126,
+     "mammal_blows_needed": 3,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.90787,
+       "to_blood": 0.8532205418543771,
+       "exchanges": 3.5408866666666667,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.7291633333333334,
+       "to_blood": 0.844725446906973,
+       "exchanges": 5.71035,
+       "k_eff": 1.8692733218100899
+      },
+      {
+       "theropods": 1,
+       "mammals": 3,
+       "share": 0.56239,
+       "to_blood": 0.8427740345525253,
+       "exchanges": 7.198576666666667,
+       "k_eff": 1.8525151430036475
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.42528,
+       "to_blood": 0.8536365935133553,
+       "exchanges": 8.23079,
+       "k_eff": 1.8662692573745718
+      },
+      {
+       "theropods": 1,
+       "mammals": 6,
+       "share": 0.23239,
+       "to_blood": 0.8786879561459402,
+       "exchanges": 9.465543333333333,
+       "k_eff": 1.9427429933191473
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.12416333333333333,
+       "to_blood": 0.8984827821343334,
+       "exchanges": 10.077563333333334,
+       "k_eff": 2.038838308037883
+      }
+     ]
+    },
+    "hold": {
+     "lands": 0.9682407679115239,
+     "theropod_now": 0.15477123540525844,
+     "theropod_bleeds": 0.15477123540525844,
+     "mammal_now": 1.0,
+     "mammal_blows_needed": 1,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.9079766666666667,
+       "to_blood": 1.0,
+       "exchanges": 2.9064733333333335,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.84785,
+       "to_blood": 0.8751670348772652,
+       "exchanges": 4.796093333333333,
+       "k_eff": 0.8197775546193352
+      },
+      {
+       "theropods": 1,
+       "mammals": 3,
+       "share": 0.79582,
+       "to_blood": 0.8307614476723243,
+       "exchanges": 6.408853333333333,
+       "k_eff": 0.8426014303228592
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.75124,
+       "to_blood": 0.8346306893934732,
+       "exchanges": 7.788836666666667,
+       "k_eff": 0.8517864548983084
+      },
+      {
+       "theropods": 1,
+       "mammals": 6,
+       "share": 0.6782633333333333,
+       "to_blood": 0.8497905467411293,
+       "exchanges": 10.13138,
+       "k_eff": 0.8596361174193135
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.6167833333333334,
+       "to_blood": 0.8649185331142214,
+       "exchanges": 12.074396666666667,
+       "k_eff": 0.8704962650977206
+      }
+     ]
+    }
+   }
+  },
+  {
+   "theropod": "Tyrannosaurus rex",
+   "mammal": "African Bush Elephant",
+   "theropod_score": 36093.4,
+   "mammal_score": 1173.71,
+   "theropod_kg": 8000,
+   "mammal_kg": 6000,
+   "one_on_one": 0.968505473056537,
+   "even_by_score_rule": 10.760304751221724,
+   "even_linear": 30.75154850857537,
+   "stagings": {
+    "scores": {
+     "lands": 0.2503597028806971,
+     "theropod_now": 1.0,
+     "theropod_bleeds": 0.0,
+     "mammal_now": 0.08467046587806083,
+     "mammal_blows_needed": 12,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.9688933333333334,
+       "to_blood": 0.0,
+       "exchanges": 3.8676166666666667,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.8732066666666667,
+       "to_blood": 0.0,
+       "exchanges": 7.36131,
+       "k_eff": 2.158742901851873
+      },
+      {
+       "theropods": 1,
+       "mammals": 3,
+       "share": 0.72091,
+       "to_blood": 0.0,
+       "exchanges": 10.226796666666667,
+       "k_eff": 2.254626481171781
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.5399266666666667,
+       "to_blood": 0.0,
+       "exchanges": 12.3841,
+       "k_eff": 2.355843760013932
+      },
+      {
+       "theropods": 1,
+       "mammals": 6,
+       "share": 0.23580666666666666,
+       "to_blood": 0.0,
+       "exchanges": 14.81735,
+       "k_eff": 2.568284962921736
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.07787,
+       "to_blood": 0.0,
+       "exchanges": 15.68977,
+       "k_eff": 2.8361392588521874
+      }
+     ]
+    },
+    "weights": {
+     "lands": 0.7622640759099057,
+     "theropod_now": 0.36688080543273627,
+     "theropod_bleeds": 0.0,
+     "mammal_now": 0.3028534321386899,
+     "mammal_blows_needed": 4,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.9685233333333333,
+       "to_blood": 0.0,
+       "exchanges": 3.8722833333333333,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.85652,
+       "to_blood": 0.0,
+       "exchanges": 7.4145666666666665,
+       "k_eff": 2.3649498710921404
+      },
+      {
+       "theropods": 1,
+       "mammals": 3,
+       "share": 0.6879633333333334,
+       "to_blood": 0.0,
+       "exchanges": 10.351916666666666,
+       "k_eff": 2.3987766553334104
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.5059833333333333,
+       "to_blood": 0.0,
+       "exchanges": 12.572963333333334,
+       "k_eff": 2.4540285025618007
+      },
+      {
+       "theropods": 1,
+       "mammals": 6,
+       "share": 0.22744333333333333,
+       "to_blood": 0.0,
+       "exchanges": 15.176386666666666,
+       "k_eff": 2.5945137551662882
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.08731333333333334,
+       "to_blood": 0.0,
+       "exchanges": 16.26457,
+       "k_eff": 2.776144308359023
+      }
+     ]
+    },
+    "lunge": {
+     "lands": 0.9236791753210474,
+     "theropod_now": 0.36688080543273627,
+     "theropod_bleeds": 0.0,
+     "mammal_now": 0.6057068642773799,
+     "mammal_blows_needed": 2,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.9690466666666666,
+       "to_blood": 0.0,
+       "exchanges": 3.1898766666666667,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.90587,
+       "to_blood": 0.0,
+       "exchanges": 6.20182,
+       "k_eff": 1.676009628602717
+      },
+      {
+       "theropods": 1,
+       "mammals": 3,
+       "share": 0.8249866666666666,
+       "to_blood": 0.0,
+       "exchanges": 8.972286666666667,
+       "k_eff": 1.7070947660435862
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.7391933333333334,
+       "to_blood": 0.0,
+       "exchanges": 11.470253333333334,
+       "k_eff": 1.7198080785896348
+      },
+      {
+       "theropods": 1,
+       "mammals": 6,
+       "share": 0.5696533333333333,
+       "to_blood": 0.0,
+       "exchanges": 15.625096666666666,
+       "k_eff": 1.755538900040555
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.42236666666666667,
+       "to_blood": 0.0,
+       "exchanges": 18.74469,
+       "k_eff": 1.7980817238112459
+      }
+     ]
+    },
+    "bite": {
+     "lands": 0.9236791753210474,
+     "theropod_now": 0.12229360181091209,
+     "theropod_bleeds": 0.12229360181091209,
+     "mammal_now": 0.6057068642773799,
+     "mammal_blows_needed": 2,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.96921,
+       "to_blood": 1.0,
+       "exchanges": 3.189513333333333,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.9180633333333333,
+       "to_blood": 0.8775685998127721,
+       "exchanges": 5.82363,
+       "k_eff": 1.4565745798609426
+      },
+      {
+       "theropods": 1,
+       "mammals": 3,
+       "share": 0.8634233333333333,
+       "to_blood": 0.8735169231524433,
+       "exchanges": 7.861946666666666,
+       "k_eff": 1.4399268760437134
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.8105766666666666,
+       "to_blood": 0.8698392772230148,
+       "exchanges": 9.579893333333333,
+       "k_eff": 1.4226262812593464
+      },
+      {
+       "theropods": 1,
+       "mammals": 6,
+       "share": 0.7066,
+       "to_blood": 0.8785043756049028,
+       "exchanges": 12.380153333333332,
+       "k_eff": 1.4215147320350006
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.6158566666666667,
+       "to_blood": 0.8881356881598174,
+       "exchanges": 14.62645,
+       "k_eff": 1.4205457504499195
+      }
+     ]
+    },
+    "hold": {
+     "lands": 0.9893896428434137,
+     "theropod_now": 0.12229360181091209,
+     "theropod_bleeds": 0.12229360181091209,
+     "mammal_now": 1.0,
+     "mammal_blows_needed": 1,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.9682866666666666,
+       "to_blood": 1.0,
+       "exchanges": 2.96807,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.9417433333333334,
+       "to_blood": 0.8770975295324791,
+       "exchanges": 5.548163333333333,
+       "k_eff": 0.9277483002241886
+      },
+      {
+       "theropods": 1,
+       "mammals": 3,
+       "share": 0.9195466666666666,
+       "to_blood": 0.8738145597580574,
+       "exchanges": 7.581996666666667,
+       "k_eff": 0.9008973160064636
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.90035,
+       "to_blood": 0.86784466632108,
+       "exchanges": 9.380903333333332,
+       "k_eff": 0.8835214622390147
+      },
+      {
+       "theropods": 1,
+       "mammals": 6,
+       "share": 0.8683333333333333,
+       "to_blood": 0.8739011531680528,
+       "exchanges": 12.527526666666667,
+       "k_eff": 0.8592884190889948
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.83893,
+       "to_blood": 0.8827004318272879,
+       "exchanges": 15.30301,
+       "k_eff": 0.8539081759069973
+      }
+     ]
+    }
+   }
+  },
+  {
+   "theropod": "Tyrannosaurus rex",
+   "mammal": "African Lion",
+   "theropod_score": 36093.4,
+   "mammal_score": 100.0,
+   "theropod_kg": 8000,
+   "mammal_kg": 185,
+   "one_on_one": 0.9972370653213016,
+   "even_by_score_rule": 59.36861925455483,
+   "even_linear": 360.934,
+   "stagings": {
+    "scores": {
+     "lands": 0.1681541931039468,
+     "theropod_now": 1.0,
+     "theropod_bleeds": 0.0,
+     "mammal_now": 0.03161605129052569,
+     "mammal_blows_needed": 32,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.9972166666666666,
+       "to_blood": 0.0,
+       "exchanges": 5.931603333333333,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.8628333333333333,
+       "to_blood": 0.0,
+       "exchanges": 22.497,
+       "k_eff": 2.921219629456767
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.3281233333333333,
+       "to_blood": 0.0,
+       "exchanges": 35.25533,
+       "k_eff": 3.1765164933478514
+      },
+      {
+       "theropods": 1,
+       "mammals": 12,
+       "share": 0.04633,
+       "to_blood": 0.0,
+       "exchanges": 38.16092666666667,
+       "k_eff": 3.5869448524847485
+      },
+      {
+       "theropods": 1,
+       "mammals": 16,
+       "share": 0.00312,
+       "to_blood": 0.0,
+       "exchanges": 38.45442666666667,
+       "k_eff": 4.203830312968685
+      },
+      {
+       "theropods": 1,
+       "mammals": 24,
+       "share": 3.3333333333333333e-06,
+       "to_blood": 0.0,
+       "exchanges": 38.47326,
+       "k_eff": 5.821244863686735
+      }
+     ]
+    },
+    "weights": {
+     "lands": 0.414674656239448,
+     "theropod_now": 1.0,
+     "theropod_bleeds": 0.0,
+     "mammal_now": 0.0949669869217511,
+     "mammal_blows_needed": 11,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.9971766666666667,
+       "to_blood": 0.0,
+       "exchanges": 2.40208,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.8980766666666666,
+       "to_blood": 0.0,
+       "exchanges": 9.230203333333334,
+       "k_eff": 2.67811849876386
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.48861333333333334,
+       "to_blood": 0.0,
+       "exchanges": 15.552473333333333,
+       "k_eff": 2.853770851539764
+      },
+      {
+       "theropods": 1,
+       "mammals": 12,
+       "share": 0.15268333333333334,
+       "to_blood": 0.0,
+       "exchanges": 18.048003333333334,
+       "k_eff": 3.059432252847519
+      },
+      {
+       "theropods": 1,
+       "mammals": 16,
+       "share": 0.03128333333333334,
+       "to_blood": 0.0,
+       "exchanges": 18.660433333333334,
+       "k_eff": 3.362049963801424
+      },
+      {
+       "theropods": 1,
+       "mammals": 24,
+       "share": 0.0006766666666666667,
+       "to_blood": 0.0,
+       "exchanges": 18.792466666666666,
+       "k_eff": 4.149190258862751
+      }
+     ]
+    },
+    "lunge": {
+     "lands": 0.6254051782428405,
+     "theropod_now": 1.0,
+     "theropod_bleeds": 0.0,
+     "mammal_now": 0.1899339738435022,
+     "mammal_blows_needed": 6,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.9971,
+       "to_blood": 0.0,
+       "exchanges": 1.5940766666666666,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.92641,
+       "to_blood": 0.0,
+       "exchanges": 6.195333333333333,
+       "k_eff": 2.420761027353025
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.6480666666666667,
+       "to_blood": 0.0,
+       "exchanges": 11.078166666666666,
+       "k_eff": 2.5382503919163737
+      },
+      {
+       "theropods": 1,
+       "mammals": 12,
+       "share": 0.33893666666666666,
+       "to_blood": 0.0,
+       "exchanges": 13.95709,
+       "k_eff": 2.6386228635360207
+      },
+      {
+       "theropods": 1,
+       "mammals": 16,
+       "share": 0.14217,
+       "to_blood": 0.0,
+       "exchanges": 15.264676666666666,
+       "k_eff": 2.7721664863208733
+      },
+      {
+       "theropods": 1,
+       "mammals": 24,
+       "share": 0.016533333333333334,
+       "to_blood": 0.0,
+       "exchanges": 15.93264,
+       "k_eff": 3.1385246594998173
+      }
+     ]
+    },
+    "bite": {
+     "lands": 0.6555950240469874,
+     "theropod_now": 0.38999907481063956,
+     "theropod_bleeds": 0.38999907481063956,
+     "mammal_now": 0.1899339738435022,
+     "mammal_blows_needed": 6,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.99721,
+       "to_blood": 0.3431941784244709,
+       "exchanges": 2.5225666666666666,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.9075633333333334,
+       "to_blood": 0.6599960338181947,
+       "exchanges": 7.9247266666666665,
+       "k_eff": 2.600065029515695
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.60016,
+       "to_blood": 0.7943142539849211,
+       "exchanges": 12.861756666666667,
+       "k_eff": 2.63655562659269
+      },
+      {
+       "theropods": 1,
+       "mammals": 12,
+       "share": 0.3033033333333333,
+       "to_blood": 0.8660557603047079,
+       "exchanges": 15.531576666666666,
+       "k_eff": 2.7044524306048006
+      },
+      {
+       "theropods": 1,
+       "mammals": 16,
+       "share": 0.12781,
+       "to_blood": 0.910826354653702,
+       "exchanges": 16.711066666666667,
+       "k_eff": 2.816558242999728
+      },
+      {
+       "theropods": 1,
+       "mammals": 24,
+       "share": 0.01581,
+       "to_blood": 0.9541547212984902,
+       "exchanges": 17.3475,
+       "k_eff": 3.152832509340747
+      }
+     ]
+    },
+    "hold": {
+     "lands": 0.9986175771141437,
+     "theropod_now": 0.38999907481063956,
+     "theropod_bleeds": 0.38999907481063956,
+     "mammal_now": 1.0,
+     "mammal_blows_needed": 1,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.99734,
+       "to_blood": 0.0,
+       "exchanges": 1.9987033333333333,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.9918266666666666,
+       "to_blood": 0.47970494234144423,
+       "exchanges": 6.062686666666667,
+       "k_eff": 0.7862858049988963
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.9854,
+       "to_blood": 0.6612006427452484,
+       "exchanges": 10.645566666666667,
+       "k_eff": 0.8063073479735547
+      },
+      {
+       "theropods": 1,
+       "mammals": 12,
+       "share": 0.9789766666666667,
+       "to_blood": 0.742480641545518,
+       "exchanges": 14.955346666666667,
+       "k_eff": 0.8241034889231031
+      },
+      {
+       "theropods": 1,
+       "mammals": 16,
+       "share": 0.9742633333333334,
+       "to_blood": 0.7900431053239279,
+       "exchanges": 19.1401,
+       "k_eff": 0.8132941470302738
+      },
+      {
+       "theropods": 1,
+       "mammals": 24,
+       "share": 0.96253,
+       "to_blood": 0.8441578105938031,
+       "exchanges": 27.270893333333333,
+       "k_eff": 0.8315373607571588
+      }
+     ]
+    }
+   }
+  },
+  {
+   "theropod": "Deinonychus antirrhopus",
+   "mammal": "Grey Wolf",
+   "theropod_score": 116.738,
+   "mammal_score": 6.30873,
+   "theropod_kg": 73,
+   "mammal_kg": 40,
+   "one_on_one": 0.9487289910101634,
+   "even_by_score_rule": 7.5655835352726735,
+   "even_linear": 18.504199735921492,
+   "stagings": {
+    "scores": {
+     "lands": 0.25700278407596233,
+     "theropod_now": 1.0,
+     "theropod_bleeds": 0.0,
+     "mammal_now": 0.10374582347985868,
+     "mammal_blows_needed": 10,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.9491366666666666,
+       "to_blood": 0.0,
+       "exchanges": 3.68438,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.81778,
+       "to_blood": 0.0,
+       "exchanges": 6.87004,
+       "k_eff": 2.0437493728825484
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.43929,
+       "to_blood": 0.0,
+       "exchanges": 11.03225,
+       "k_eff": 2.2809309900846104
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.046933333333333334,
+       "to_blood": 0.0,
+       "exchanges": 13.296083333333334,
+       "k_eff": 2.8512243796788486
+      },
+      {
+       "theropods": 1,
+       "mammals": 12,
+       "share": 0.0020566666666666667,
+       "to_blood": 0.0,
+       "exchanges": 13.451133333333333,
+       "k_eff": 3.6631588011859453
+      }
+     ]
+    },
+    "weights": {
+     "lands": 0.7266808092032238,
+     "theropod_now": 0.40734873147423417,
+     "theropod_bleeds": 0.0,
+     "mammal_now": 0.2727665573156183,
+     "mammal_blows_needed": 4,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.94861,
+       "to_blood": 0.0,
+       "exchanges": 4.0198133333333335,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.7888766666666667,
+       "to_blood": 0.0,
+       "exchanges": 7.523363333333333,
+       "k_eff": 2.308067106389729
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.38034,
+       "to_blood": 0.0,
+       "exchanges": 12.020143333333333,
+       "k_eff": 2.456984003975013
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.03911333333333333,
+       "to_blood": 0.0,
+       "exchanges": 14.426256666666667,
+       "k_eff": 2.9428049074209435
+      },
+      {
+       "theropods": 1,
+       "mammals": 12,
+       "share": 0.0023766666666666667,
+       "to_blood": 0.0,
+       "exchanges": 14.619646666666666,
+       "k_eff": 3.6048334281047456
+      }
+     ]
+    },
+    "lunge": {
+     "lands": 0.9010630357539271,
+     "theropod_now": 0.40734873147423417,
+     "theropod_bleeds": 0.0,
+     "mammal_now": 0.5455331146312365,
+     "mammal_blows_needed": 2,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.9482,
+       "to_blood": 0.0,
+       "exchanges": 3.2296366666666665,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.8521833333333333,
+       "to_blood": 0.0,
+       "exchanges": 6.182083333333333,
+       "k_eff": 1.68242594831801
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.62523,
+       "to_blood": 0.0,
+       "exchanges": 10.98891,
+       "k_eff": 1.735699652965291
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.27743,
+       "to_blood": 0.0,
+       "exchanges": 16.591926666666666,
+       "k_eff": 1.8635981312252137
+      },
+      {
+       "theropods": 1,
+       "mammals": 12,
+       "share": 0.10679666666666666,
+       "to_blood": 0.0,
+       "exchanges": 18.873663333333333,
+       "k_eff": 2.02900388886239
+      }
+     ]
+    },
+    "bite": {
+     "lands": 0.9010630357539271,
+     "theropod_now": 0.1357829104914114,
+     "theropod_bleeds": 0.1357829104914114,
+     "mammal_now": 0.5455331146312365,
+     "mammal_blows_needed": 2,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.9486333333333333,
+       "to_blood": 0.9245335394778453,
+       "exchanges": 3.2292533333333333,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.8794033333333333,
+       "to_blood": 0.805963728617257,
+       "exchanges": 5.619883333333333,
+       "k_eff": 1.3434458688117965
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.7349466666666666,
+       "to_blood": 0.8192219402555863,
+       "exchanges": 8.981846666666666,
+       "k_eff": 1.369211981008388
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.5007533333333334,
+       "to_blood": 0.8653736060996525,
+       "exchanges": 13.21443,
+       "k_eff": 1.4018111714287549
+      },
+      {
+       "theropods": 1,
+       "mammals": 12,
+       "share": 0.33815666666666666,
+       "to_blood": 0.8942915114149974,
+       "exchanges": 15.733186666666667,
+       "k_eff": 1.444528023525393
+      }
+     ]
+    },
+    "hold": {
+     "lands": 0.982608969004912,
+     "theropod_now": 0.1357829104914114,
+     "theropod_bleeds": 0.1357829104914114,
+     "mammal_now": 1.0,
+     "mammal_blows_needed": 1,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.9483166666666667,
+       "to_blood": 1.0,
+       "exchanges": 2.9476166666666668,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.90819,
+       "to_blood": 0.8138771360815306,
+       "exchanges": 5.28748,
+       "k_eff": 0.9035098936856841
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.8477,
+       "to_blood": 0.8149389407988151,
+       "exchanges": 8.76316,
+       "k_eff": 0.8665714966838556
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.7568833333333334,
+       "to_blood": 0.8546471684169156,
+       "exchanges": 14.009706666666666,
+       "k_eff": 0.857119566374741
+      },
+      {
+       "theropods": 1,
+       "mammals": 12,
+       "share": 0.68522,
+       "to_blood": 0.8803344279158787,
+       "exchanges": 18.155256666666666,
+       "k_eff": 0.8612523721151714
+      }
+     ]
+    }
+   }
+  },
+  {
+   "theropod": "Allosaurus fragilis",
+   "mammal": "Polar Bear",
+   "theropod_score": 5838.77,
+   "mammal_score": 319.65,
+   "theropod_kg": 1700,
+   "mammal_kg": 450,
+   "one_on_one": 0.9480954530545173,
+   "even_by_score_rule": 7.497948842608561,
+   "even_linear": 18.26613483497576,
+   "stagings": {
+    "scores": {
+     "lands": 0.2560897538272302,
+     "theropod_now": 1.0,
+     "theropod_bleeds": 0.0,
+     "mammal_now": 0.10428457645463873,
+     "mammal_blows_needed": 10,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.94755,
+       "to_blood": 0.0,
+       "exchanges": 3.70792,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.8156966666666666,
+       "to_blood": 0.0,
+       "exchanges": 6.879603333333334,
+       "k_eff": 2.045148890283638
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.4349266666666667,
+       "to_blood": 0.0,
+       "exchanges": 11.04306,
+       "k_eff": 2.2843827115930004
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.0461,
+       "to_blood": 0.0,
+       "exchanges": 13.276543333333333,
+       "k_eff": 2.8540329531662034
+      }
+     ]
+    },
+    "weights": {
+     "lands": 0.5782846740856997,
+     "theropod_now": 0.5191476364839177,
+     "theropod_bleeds": 0.0,
+     "mammal_now": 0.2140260367236655,
+     "mammal_blows_needed": 5,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.94798,
+       "to_blood": 0.0,
+       "exchanges": 3.3474033333333333,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.79131,
+       "to_blood": 0.0,
+       "exchanges": 6.2361466666666665,
+       "k_eff": 2.268217964931656
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.37864,
+       "to_blood": 0.0,
+       "exchanges": 9.90171,
+       "k_eff": 2.4528510133698442
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.03369333333333333,
+       "to_blood": 0.0,
+       "exchanges": 11.726166666666666,
+       "k_eff": 3.0110151763288537
+      }
+     ]
+    },
+    "lunge": {
+     "lands": 0.7480161601848299,
+     "theropod_now": 0.5191476364839177,
+     "theropod_bleeds": 0.0,
+     "mammal_now": 0.428052073447331,
+     "mammal_blows_needed": 3,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.94799,
+       "to_blood": 0.0,
+       "exchanges": 2.5844233333333335,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.82717,
+       "to_blood": 0.0,
+       "exchanges": 4.88167,
+       "k_eff": 1.9322692839158953
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.51905,
+       "to_blood": 0.0,
+       "exchanges": 8.27749,
+       "k_eff": 2.0405564404536674
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.13034333333333334,
+       "to_blood": 0.0,
+       "exchanges": 11.143013333333334,
+       "k_eff": 2.3097428789153662
+      }
+     ]
+    },
+    "bite": {
+     "lands": 0.7623741347568416,
+     "theropod_now": 0.1730492121613059,
+     "theropod_bleeds": 0.1730492121613059,
+     "mammal_now": 0.428052073447331,
+     "mammal_blows_needed": 3,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.947,
+       "to_blood": 0.394839845124956,
+       "exchanges": 3.3005933333333335,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.83389,
+       "to_blood": 0.6502683770014556,
+       "exchanges": 5.394783333333334,
+       "k_eff": 1.8633813229573064
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.5883533333333333,
+       "to_blood": 0.7608276653372389,
+       "exchanges": 8.26557,
+       "k_eff": 1.8379116031981972
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.24973666666666666,
+       "to_blood": 0.8550592207036412,
+       "exchanges": 11.011406666666666,
+       "k_eff": 1.9260296268708323
+      }
+     ]
+    },
+    "hold": {
+     "lands": 0.9823901995766793,
+     "theropod_now": 0.1730492121613059,
+     "theropod_bleeds": 0.1730492121613059,
+     "mammal_now": 1.0,
+     "mammal_blows_needed": 1,
+     "by_n": [
+      {
+       "theropods": 1,
+       "mammals": 1,
+       "share": 0.9489566666666667,
+       "to_blood": 0.0,
+       "exchanges": 2.9483866666666665,
+       "k_eff": null
+      },
+      {
+       "theropods": 1,
+       "mammals": 2,
+       "share": 0.91699,
+       "to_blood": 0.5057884281591849,
+       "exchanges": 4.70576,
+       "k_eff": 0.7255505316742482
+      },
+      {
+       "theropods": 1,
+       "mammals": 4,
+       "share": 0.8645333333333334,
+       "to_blood": 0.6833293229185947,
+       "exchanges": 7.77437,
+       "k_eff": 0.7585578970557039
+      },
+      {
+       "theropods": 1,
+       "mammals": 8,
+       "share": 0.7785033333333333,
+       "to_blood": 0.7871276449325937,
+       "exchanges": 12.599053333333334,
+       "k_eff": 0.7925604179845236
+      }
+     ]
+    }
+   }
+  },
+  {
+   "theropod": "Dakotaraptor steini",
+   "mammal": "African Lion",
+   "theropod_score": 710.006,
+   "mammal_score": 100.0,
+   "theropod_kg": 250,
+   "mammal_kg": 185,
+   "one_on_one": 0.8765441243645109,
+   "even_by_score_rule": 3.893532553843533,
+   "even_linear": 7.10006,
+   "stagings": {
+    "scores": {
+     "lands": 0.38456985204185445,
+     "theropod_now": 0.7301020246710821,
+     "theropod_bleeds": 0.0,
+     "mammal_now": 0.15218573207103175,
+     "mammal_blows_needed": 7,
+     "by_n": [
+      {
+       "theropods": 3,
+       "mammals": 6,
+       "share": 0.6098866666666667,
+       "to_blood": 0.0,
+       "exchanges": 27.86306,
+       "k_eff": null
+      },
+      {
+       "theropods": 3,
+       "mammals": 9,
+       "share": 0.16980666666666666,
+       "to_blood": 0.0,
+       "exchanges": 33.02437333333334,
+       "k_eff": null
+      },
+      {
+       "theropods": 5,
+       "mammals": 12,
+       "share": 0.36923666666666666,
+       "to_blood": 0.0,
+       "exchanges": 52.95433666666667,
+       "k_eff": null
+      },
+      {
+       "theropods": 5,
+       "mammals": 20,
+       "share": 0.004826666666666667,
+       "to_blood": 0.0,
+       "exchanges": 56.83084,
+       "k_eff": null
+      }
+     ]
+    },
+    "weights": {
+     "lands": 0.6445323526364302,
+     "theropod_now": 0.36852603284508767,
+     "theropod_bleeds": 0.0,
+     "mammal_now": 0.3015013898836758,
+     "mammal_blows_needed": 4,
+     "by_n": [
+      {
+       "theropods": 3,
+       "mammals": 6,
+       "share": 0.6829066666666667,
+       "to_blood": 0.0,
+       "exchanges": 25.70126,
+       "k_eff": null
+      },
+      {
+       "theropods": 3,
+       "mammals": 9,
+       "share": 0.25028,
+       "to_blood": 0.0,
+       "exchanges": 31.703006666666667,
+       "k_eff": null
+      },
+      {
+       "theropods": 5,
+       "mammals": 12,
+       "share": 0.4994766666666667,
+       "to_blood": 0.0,
+       "exchanges": 49.84717,
+       "k_eff": null
+      },
+      {
+       "theropods": 5,
+       "mammals": 20,
+       "share": 0.019093333333333334,
+       "to_blood": 0.0,
+       "exchanges": 56.13756333333333,
+       "k_eff": null
+      }
+     ]
+    },
+    "lunge": {
+     "lands": 0.8395149078079887,
+     "theropod_now": 0.36852603284508767,
+     "theropod_bleeds": 0.0,
+     "mammal_now": 0.6030027797673516,
+     "mammal_blows_needed": 2,
+     "by_n": [
+      {
+       "theropods": 3,
+       "mammals": 6,
+       "share": 0.8485866666666667,
+       "to_blood": 0.0,
+       "exchanges": 20.55404,
+       "k_eff": null
+      },
+      {
+       "theropods": 3,
+       "mammals": 9,
+       "share": 0.5902,
+       "to_blood": 0.0,
+       "exchanges": 28.161576666666665,
+       "k_eff": null
+      },
+      {
+       "theropods": 5,
+       "mammals": 12,
+       "share": 0.82432,
+       "to_blood": 0.0,
+       "exchanges": 41.34790666666667,
+       "k_eff": null
+      },
+      {
+       "theropods": 5,
+       "mammals": 20,
+       "share": 0.3124266666666667,
+       "to_blood": 0.0,
+       "exchanges": 57.26468666666667,
+       "k_eff": null
+      }
+     ]
+    },
+    "bite": {
+     "lands": 0.8395149078079887,
+     "theropod_now": 0.12284201094836256,
+     "theropod_bleeds": 0.12284201094836256,
+     "mammal_now": 0.6030027797673516,
+     "mammal_blows_needed": 2,
+     "by_n": [
+      {
+       "theropods": 3,
+       "mammals": 6,
+       "share": 0.91941,
+       "to_blood": 0.8141917138115367,
+       "exchanges": 19.20027,
+       "k_eff": null
+      },
+      {
+       "theropods": 3,
+       "mammals": 9,
+       "share": 0.79138,
+       "to_blood": 0.8421042951016057,
+       "exchanges": 24.58105,
+       "k_eff": null
+      },
+      {
+       "theropods": 5,
+       "mammals": 12,
+       "share": 0.9424133333333333,
+       "to_blood": 0.8173267303053605,
+       "exchanges": 37.05469,
+       "k_eff": null
+      },
+      {
+       "theropods": 5,
+       "mammals": 20,
+       "share": 0.7267133333333333,
+       "to_blood": 0.8628775516400112,
+       "exchanges": 49.18902,
+       "k_eff": null
+      }
+     ]
+    },
+    "hold": {
+     "lands": 0.9570278900165623,
+     "theropod_now": 0.12284201094836256,
+     "theropod_bleeds": 0.12284201094836256,
+     "mammal_now": 1.0,
+     "mammal_blows_needed": 1,
+     "by_n": [
+      {
+       "theropods": 3,
+       "mammals": 6,
+       "share": 0.9666,
+       "to_blood": 0.7992568098942969,
+       "exchanges": 17.716656666666665,
+       "k_eff": null
+      },
+      {
+       "theropods": 3,
+       "mammals": 9,
+       "share": 0.9314533333333334,
+       "to_blood": 0.8227724703415271,
+       "exchanges": 23.441463333333335,
+       "k_eff": null
+      },
+      {
+       "theropods": 5,
+       "mammals": 12,
+       "share": 0.98988,
+       "to_blood": 0.7991693246235915,
+       "exchanges": 34.40929666666667,
+       "k_eff": null
+      },
+      {
+       "theropods": 5,
+       "mammals": 20,
+       "share": 0.95942,
+       "to_blood": 0.8348708949949102,
+       "exchanges": 48.546973333333334,
+       "k_eff": null
+      }
+     ]
+    }
+   }
+  }
+ ]
+}
