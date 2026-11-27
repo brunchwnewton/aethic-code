@@ -666,6 +666,104 @@ is proved.
 \end{theorem}
 % R1074 (Fable 5.2, Nov 27 2026), at the author's direction: his request of Nov 27 for an analytic proof of the outcome the simulation of R1073 showed (the pace of technoanatomy against strength as an output of the filtering). The survivorship companion's theorem on the pace of survivors (R1074 there) imported.
 
+\begin{theorem}[Domains; \textbf{[P]} in \cite{GoldenSurvivorship}]\label{imp:domains}
+Let each of $m$ domains carry a credit $x_j$ with a rate of its own, a
+strength $x_j^+$ and a scalar $\tau_j$, with total strength
+$X=\sum_jx_j^+$ and hazard
+$h=B_t\operatorname{sech}^2X+\sum_j\Gamma_j\sinh^2(x_j^+/\tau_j)$; a domain
+is developed at strength one or more and idle at or below zero, and
+Definition~\ref{imp:model} is the case of fixed shares $x_j=s_jx$. (i)
+$\operatorname{sech}^2(\sum_jx_j)=\prod_j\operatorname{sech}^2x_j/E^2$ with
+$E=\tfrac12[\prod_j(1+\tanh x_j)+\prod_j(1-\tanh x_j)]$; at nonnegative
+strengths $1\le E\le2^{m-1}$, $E=1$ while at most one domain is developed
+and $E\to2^{m-1}$ when all are, and the product without the divisor
+weakens as a decomposition is refined, $\operatorname{sech}^{2m}(x/m)\to1$.
+(ii) A domain whose credit tends to $-\infty$ is idle and its scalar bears
+on nothing; a domain whose credit grows must have its technoanatomy keep
+ahead, as in Theorem~\ref{imp:twocond}. With independent rates, each
+transient or recurrent with nonzero mean,
+\[
+\PP(\Lambda_\infty<\infty)=\prod_j\bigl(1-V_j+V_jA_j\bigr)-\prod_j\bigl(1-V_j\bigr),
+\]
+$V_j$ and $A_j$ being the viability functionals of the strength rate and
+the anatomy rate of domain $j$: each domain is left idle or is developed
+with its technoanatomy ahead, and one at least is developed. (iii) With
+every strength rate driftless Brownian, $\Lambda_\infty=\infty$ almost
+surely.
+\end{theorem}
+
+\begin{theorem}[The pace, domain by domain; \textbf{[P]} in \cite{GoldenSurvivorship}]\label{imp:pacedomains}
+With every rate driftless Brownian and independent, the statements of
+Theorem~\ref{imp:pace} hold for each domain, with its own strength in
+place of the common one and the histories that survive with that domain
+developed in place of $H_t$. The filtering raises the technoanatomies
+jointly, the domination holding for functionals nondecreasing in the
+paths of all the anatomy rates. For a domain idle throughout, the anatomy
+rate keeps its unconditioned law given survival. At frozen background the
+total strength is below one with probability at most $C't^{-1}\log^3t$
+times the ratio $\PP(T>t/2)/\PP(T>t)$.
+\end{theorem}
+
+\begin{proposition}[The weights of a redundant decomposition; \textbf{[P]} in \cite{GoldenSurvivorship}]\label{imp:weights}
+Let the content of the system be a space of finite mass and the
+institutions labels, parts $A_j$ of it of mass $m_j$, with $\rho_{jk}$ the
+share of $j$'s content that $k$ also reads. (i) If every total overlap
+$\sum_{k\neq j}\rho_{jk}$ is below one, the equations
+$w_j=1-\sum_{k\neq j}\rho_{jk}w_k$ have a unique solution, in $(0,1]^m$,
+the limit at a geometric rate of the iterates from $w=1$. (ii) The
+weights minimize the distance in mean square from $\sum_jw_j\one_{A_j}$ to
+one, the minimum being the resolution $\varepsilon_{\mathcal S}$ of the
+labels; for a density $f$ with readings $F_j=\int_{A_j}f$,
+$|\sum_jw_jF_j-\int f|\le\varepsilon_{\mathcal S}\operatorname{dist}(f,\mathcal S)$,
+$\mathcal S$ the span of the labels' indicators, so that a density the
+labels resolve is integrated exactly. (iii) Two families of labels with
+the same span give the same weighted sum of readings for every density.
+(iv) The internal hazard, an integral $\int\gamma\sinh^2u$ over the
+content, is thereby approximated by $\sum_j\Gamma_j\sinh^2u_j$ with
+$\Gamma_j=w_j\hat\Gamma_j$, where $\hat\Gamma_j$ is the amplitude and $u_j$
+the load that $j$ reads in the sense of Definition~\ref{gr:def:reading},
+and the total strength by $\sum_jw_jx_j^+$. A label that is the common
+part of two others has weight $-1$; a negative weight is no amplitude,
+and such a label is dropped.
+\end{proposition}
+
+\begin{proposition}[Listening, and one tendency read in parts; \textbf{[P]} in \cite{GoldenSurvivorship}]\label{imp:listening}
+(i) Let $\log\tau_j=(1-\kappa)b_j+\kappa\sum_kP_{jk}\log\tau_k$ with
+$0\le\kappa<1$ and $P$ a matrix of shares. Then $\log\tau=Kb$ with
+$K=(1-\kappa)(I-\kappa P)^{-1}$, whose entries are nonnegative, whose rows
+sum to one and for which $K_{jj}\ge1-\kappa$: each scalar is a weighted
+geometric mean of the contents $e^{b_k}$, between the least and the
+greatest of them, and falls only as the power $K_{jj}$ of its own;
+$K_{jk}/(1-\kappa)$ is the expected number of visits to $k$ of the walk
+with transitions $P$ from $j$, stopped with probability $1-\kappa$ at each
+step. With the contents moved by independent driftless Brownian rates,
+Theorem~\ref{imp:pacedomains} holds, the constant of its lead bound
+divided by $K_{jj}$. (ii) Let the institutions' rates be the averages over
+their contents of one Brownian motion over the content. Each is a
+driftless Brownian rate; two of them have correlation
+$r_{jk}=\sqrt{\rho_{jk}\rho_{kj}}$; and given a movement $\delta$ of the
+rate of $j$, that of $k$ is Gaussian with mean $\rho_{kj}\delta$ and the
+share $1-r_{jk}^2$ of its variance.
+\end{proposition}
+
+\begin{proposition}[Which channel carries the hazard; \textbf{[P]} in \cite{GoldenSurvivorship}]\label{imp:carry}
+At a strength $x>0$ with leads $\ell_j\ge0$, external hazard
+$h^{\mathrm{ext}}$ and units $h_j$ of loads $u_j$: (i) the hazard lies
+within the factor $4(1+m)$ of the greatest of $Be^{-2x}$ and the
+$\Gamma_je^{-2\ell_j}$: it is set by the least margin among the strength
+and the leads. (ii) A unit carries more hazard than the external channel
+if $\ell_j\le x+\tfrac12\log(\Gamma_j/4B)$ and less if
+$\ell_j\ge x+\tfrac12\log(2\Gamma_j/B)$. (iii)
+$\partial h/\partial\log\tau_j=-2u_j\coth(u_j)h_j<0$ and
+$\partial h/\partial x=-2\tanh(x)h^{\mathrm{ext}}+x^{-1}\sum_j2u_j\coth(u_j)h_j$:
+a longer technoanatomy always lowers the hazard, and strength lowers it,
+the scalars held, exactly when
+$x\tanh(x)\,h^{\mathrm{ext}}>\sum_ju_j\coth(u_j)\,h_j$, at small loads when
+the internal hazard is below $x\tanh x$ times the external one; with the
+leads held, strength always lowers it.
+\end{proposition}
+% R1077 (Fable 5.2, Nov 27 2026), at the author's direction: his messages of Nov 27 (the external hazard as a product over the units' indices; the redundancy of the factors; the amplitudes as a correction reached by a fixed point; the units listening to one another; institutions as probing labels) and his verdict of Nov 27 to take the recommendations of the working note exactly and to finish the proofs and load them into the papers. Five results of the survivorship companion imported (R1077 there): domains, the pace domain by domain, the weights of a redundant decomposition, listening with the one tendency read in parts, and which channel carries the hazard.
+
 \begin{theorem}[The ceiling; \textbf{[P]} in \cite{GoldenSurvivorship}]\label{imp:ceiling}
 In the critical regime the survivorship-conditioned law converges, in the
 hard-wall model, to the Doob transform by the persistence-harmonic
@@ -1167,6 +1265,78 @@ open \textbf{[O]}.
 % was: \textbf{[O]}.
 % R997 (Fable 5.2, Nov 14 2026), at the author's direction: new subsection. His proposal of Nov 14: that the sum of hazards be read so that the zero mark of technoanatomy shifts with the scale of technostrength, an anatomy good enough at a low strength reading adverse at a higher one, as the square-cube analogy directly. Stated for a bare sum of modes, with the lane-tree numbers of the Golden master (its Table ln:tab:zeromark) quoted for the cutoff. His sign (negative favorable) is that of alpha - beta. The asteroid sentence is a reading of his two-channels paragraph in the sum's terms. Whether the Golden Point is met at a finite strength is not asserted either way.
 
+
+\subsection{Institutions: the decomposition nobody chooses}\label{gr:sub:institutions}
+
+The units of \eqref{gr:eq:modes} were taken as given. They are not given:
+the techno-system is one Aethus, and nothing in it marks where one unit
+ends and the next begins. An \emph{institution} is here a probing label,
+an index attached to a concrete thing through which a part of the system
+is read; a scalar $\tau_j$, a strength $x_j$ and an amplitude $\Gamma_j$
+are what the label $j$ reads. The idealized case is that of labels that
+are not redundant with one another, in which the system factors into
+Aethae $j$, each advantage $x_j$ balanced by its own technoanatomy and
+each sweeping away its part of the external hazard: the model with
+domains (Theorem~\ref{imp:domains}), whose internal channel is the sum of the domains'
+units and whose external channel is the product of their mufflings up to
+one symmetric factor (Theorem~\ref{imp:domains}(i)). Labels attached to concrete things
+are never free of redundancy. What one reads another reads in part, and
+no choice of labels removes this: it is a limit on the resolution of
+labels, and it has a measure, the distance $\varepsilon_{\mathcal S}$ of
+Proposition~\ref{imp:weights}.
+
+\emph{The amplitudes are weights.} Which split of the internal hazard
+into units is the natural one has no answer and needs none. Read the
+hazard as an integral over the content of the system. A decomposition
+into institutions is then a quadrature rule for it, and the amplitudes
+$\Gamma_j$ are its weights (Proposition~\ref{imp:weights}). They carry the dependence on the
+split, so that the hazard does not: two families of labels that resolve
+the same content give the same hazard. With redundant labels the weights
+are reached from the idealized case by the fixed point
+$w_j=1-\sum_{k\neq j}\rho_{jk}w_k$, each amplitude damped by its overlaps
+and the damping corrected in turn, which converges when every label's
+total overlap is below one, and the faster the nearer the labels are to
+non-redundant. The amplitude shares of Definition~\ref{gr:def:reading}
+are these weights, normalized.
+
+\emph{Listening.} The scalar an institution reads is not its own content
+alone. It listens: its scalar is a mixture of its own content and of what
+the others read, in the shares $1-\kappa$ and $\kappa$, and since the
+others listen as well the readings are a fixed point, each a weighted
+geometric mean of all the contents (Proposition~\ref{imp:listening}). The two halves of the
+phenomenology of a unit that has become very good follow. Its reading no
+longer follows its own content, the weight of that content in the mean
+being below one and the rest being what it hears from the adjacent
+layers. And what it hears is a buffer, which keeps a scalar above zero
+when its own content fails and cannot raise it above the greatest content
+among those it listens to: the buffer is there only while the rest of the
+system holds it up. The weights of the mean are the Green's function of a
+walk on the graph of institutions, stopped at each step with probability
+$1-\kappa$, and the reading at $j$ is the potential at $j$ of the
+contents taken as sources.
+
+\emph{A perturbation is felt, and determines nothing.} Let the
+tendencies of the institutions be readings of one tendency of the whole
+system (Proposition~\ref{imp:listening}(ii)). Two institutions' tendencies are then correlated by
+exactly their overlap $r$, and a push $\delta$ on one moves the other by
+$r\delta$ in the mean, each measured in its own spread, leaving the share
+$1-r^2$ of its variance where it was. No institution is in a vacuum,
+however far apart two of them appear, and none determines another. What
+reaches the second institution is not a cause in the sense of exact
+determination. It is a re-weighting of its superposition, a filtering
+artifact of size $r$, small where the overlap is small and never zero.
+
+\emph{Adversivity.} The broader Golden program carries a model, there called
+adversivity, of institutions as the nodes of a graph with signed weights
+$w_{ij}$ between them and a finite budget of attention for each,
+$\sum_{j\neq i}|w_{ij}|=\beta$. With $P=|W|/\beta$ the budget is exactly
+what makes $P$ a matrix of shares, and so exactly what bounds the
+feedback of the listening. This is a candidate for the step between that
+model and technoanatomy, the balance fixing who listens to whom and the
+listening fixing each institution's scalar. It is a proposal, and is not
+derived.
+% R1077 (Fable 5.2, Nov 27 2026), at the author's direction: his messages of Nov 27 (the external hazard as a product over the units' indices; the redundancy of the factors; the amplitudes as a correction reached by a fixed point; the units listening to one another; institutions as probing labels) and his verdict of Nov 27 to take the recommendations of the working note exactly and to finish the proofs and load them into the papers. New subsection after the anatomy read at a strength: institutions as probing labels, the non-redundant idealization and the model with domains, the amplitudes as quadrature weights with their fixed point, the listening law with its buffer and its bound, a perturbation as a re-weighting and not a determination, and the adversivity budget as what bounds the listening (a proposal).
+
 \subsection{What conditioning does to each coordinate}
 \label{gr:subsub:measured}
 
@@ -1439,6 +1609,155 @@ questions rather than two aspects of a single ``advancement'' --- which
 is exactly what a one-dimensional scale cannot represent.
 
 
+
+
+\subsection{The Golden biosphere under the filter}\label{gr:subsub:exhibit}
+
+What the survival conditioning does to each quantity is stated across the
+results imported above and in the two subsections before this one. It is
+gathered here, quantity by quantity, for generic rates: the strength's
+rate and every anatomy rate driftless Brownian and independent, the
+background frozen. Each entry gives the law as posed and the law given
+survival to $t$, with its status and, where a run measures it, the
+figures.
+The figures are from two runs at frozen background $B=3$, with
+$\Gamma=3e^{-6}$ for each unit, unit volatilities and every coordinate
+started at zero, a million paths each, conditioned by survival weights:
+the single-strength model with one unit, in which the probability of
+departing by the external channel is accumulated along each path between
+horizons, and the model with two domains. Effective survivors at $T=16$
+number $2.9\times10^{4}$ and $3.5\times10^{4}$. Hazards are compared in logarithms.
+
+\begin{description}
+\item[Survival.] The probability of surviving to $t$ falls as a power:
+$t^{-1/4}$ in the bare model ([A], \cite{GoldenSurvivorship}) and $t^{-(1+m)/4}$ with $m$
+units, at scaling level (\cite{GoldenSurvivorship}). It loses at most a bounded factor
+over each doubling of the horizon in the bare model ([P], \cite{GoldenSurvivorship}),
+and the histories holding strength keep at least $ct^{-(1+m)/2}$ of it
+([P], Theorem~\ref{imp:pace}). In the run with one unit the local exponent is $0.49$
+between $T=4$ and $T=8$ and $0.47$ between $T=8$ and $T=16$, against
+$\tfrac12$.
+\item[The hazard of survivors.] The rate at which survivors depart,
+$-\frac{d}{dt}\log\PP(T>t)=\E[h_t\mid T>t]$, is the exponent over $t$. It
+falls for ever and is never zero, and a survivor's median further life
+is a fixed multiple of its age, $2^{1/\kappa}-1$ for the exponent $\kappa$.
+It is $O(1/t)$ on average over each doubling
+in the bare model ([P], \cite{GoldenSurvivorship}). Each wall takes its quarter: of the
+departures between $T=4$ and $T=8$ in the run $0.41$ were by the
+external channel, and between $T=8$ and $T=16$, $0.47$, the rest by
+the unit, the scaling expectation being one half.
+\item[The hazard of a survivor.] It is not the hazard of survivors. The
+hazard of a history is set by its least margin, to within a bounded
+factor the greatest of $Be^{-2x}$ and the $\Gamma_je^{-2\ell_j}$
+(Proposition~\ref{imp:carry}), and the margins of a survivor are of order $t^{3/2}$: its
+hazard is smaller than any power of $1/t$ ([P] for the leads, Theorem~\ref{imp:pace};
+[P] for the strength in the bare model, \cite{GoldenSurvivorship}). In the run the
+median survivor's hazard is $10^{-2.7}$, $10^{-7.3}$ and $10^{-19.6}$
+at $T=4,8,16$, where the median with no filtering is the bare background,
+$10^{0.48}$. The departures come from the few that stand at a wall: the
+survivors whose hazard exceeds $10^{-3}$ are $0.56$, $0.16$ and
+$0.05$ of all at those horizons.
+\item[The strength.] Unfiltered, the credit is recurrent, of order
+$t^{3/2}$ with either sign, and below its start for half of logarithmic
+time ([P], Theorem~\ref{imp:half}). Filtered, it is positive and of order $t^{3/2}$ to
+within any power of $t$, nonpositive with probability
+$O(t^{-3/2}\log t)$, in the bare model ([P], \cite{GoldenSurvivorship}); under the
+limit law it is transient and tends to infinity ([P] on [C] inputs, \cite{GoldenSurvivorship}). In the
+run survivors hold strength with probability $0.987$, $0.993$, $0.996$
+at $T=4,8,16$, their median strength $0.73$, $0.65$, $0.59$ times
+$T^{3/2}$.
+\item[The strength's rate.] Unfiltered it is symmetric, of order
+$t^{1/2}$. The filter tilts it upward, and the drift it adds is confined
+to the neighbourhood of the wall, $\sigma^2/2\mu$ there and vanishing as
+the strength clears it ([P] on [C] inputs, \cite{GoldenSurvivorship}). A survivor clear of its wall is
+not pressed on. Its strength keeps rising because the rate it was left
+with holds its direction (Proposition~\ref{imp:trend}). In the run the rate is positive for
+$0.87$, $0.84$, $0.82$ of survivors.
+\item[The scalars and their rates.] Unfiltered, $\log\tau_j$ is of order
+$t^{3/2}$ with either sign. Filtered, the law of the path of each anatomy
+rate dominates the unfiltered one at every horizon ([P], Theorem~\ref{imp:pace}): the
+filter raises a technoanatomy and never lowers one. In the run the
+anatomy rate is positive for $0.84$, $0.84$, $0.83$ of
+survivors, and their median $\log\tau$ is $0.49$, $0.54$, $0.55$
+times $T^{3/2}$.
+\item[The leads and the loads.] Unfiltered, a history holding strength
+has its scalar at or below its strength with probability tending to one
+half. Filtered, the lead is at most $w$ with probability at most
+$C(w+\log\log t)\,t^{-3/2}$ and is of order $t^{3/2}$ to within any power,
+the load being at most $\exp(-t^{3/2-\varepsilon})$; and the time spent
+with a lead no longer than $(\tfrac12-\delta)\log t$ is at most
+$t^{1-\delta}$ ([P], Theorem~\ref{imp:pace}). In the run the median lead of survivors is
+$2.2$, $9.7$, $31.4$.
+\item[Which channel carries the hazard.] Neither is selected. A unit
+carries more than the external channel according to the sign of
+$\ell_j-x$, up to a bounded offset (Proposition~\ref{imp:carry}), and both are of order
+$t^{3/2}$ among survivors: in the run the internal hazard exceeds the
+external one for $0.50$, $0.54$, $0.52$ of survivors. With
+the scalars held, further strength lowers the hazard only where the
+internal hazard is below about $x$ times the external one (Proposition~\ref{imp:carry}),
+which is so for $0.58$, $0.50$, $0.49$ of the survivors holding
+strength; a longer technoanatomy lowers it always. The filter does not
+keep the internal hazard within the order of the external one, and does
+not need to: it requires each to be integrable, and removes the histories
+at either wall.
+\item[The two rates together.] Independent as posed. Among survivors
+they are positively correlated while a lead is near its wall, $0.21$,
+$0.06$, $0.03$, $0.03$ at $T=2,4,6,8$ in the run of \cite{GoldenSurvivorship}, the correlation fading
+as the lead runs ahead.
+\item[With domains.] The filter develops few of them. In the run with
+two domains survivors hold strength in exactly one for $0.69$,
+$0.70$, $0.70$ and in both for $0.30$, $0.30$, $0.29$ at
+$T=4,8,16$, where the unfiltered shares tend to one half and one quarter.
+A developed domain carries the pace of Theorem~\ref{imp:pacedomains}, its median lead
+$2.2$, $9.5$, $30.8$. An undeveloped one lies well below zero,
+median credit $-2.3$, $-8.1$, $-25.1$, with its anatomy rate close
+to unselected, positive for $0.55$, $0.56$, $0.56$ against one
+half; for a domain idle throughout, the anatomy rate keeps its unfiltered
+law exactly ([P], Theorem~\ref{imp:pacedomains}). The local exponent of survival is $0.65$
+and $0.57$ over the last two doublings, below the $\tfrac34$ of the
+count by walls.
+\item[The measure class.] At every finite horizon the survivor's law and
+the unfiltered one are equivalent on the survivors and they are singular
+only in the limit; no record of bounded length separates them with
+certainty, and the filter has no clock ([P] and [C], \cite{GoldenSurvivorship}).
+\end{description}
+
+\emph{The other regimes.} The exhibit is for generic rates, the
+transformation regime of \cite{GoldenSurvivorship}. Where the rates are favorable,
+transient upward or recurrent with positive mean, viability has positive
+probability, the product of Theorem~\ref{imp:twocond} or that of Theorem~\ref{imp:domains} with domains, and
+the filter saturates: the conditioned laws converge in total variation to
+the law given viability, every bias bounded by the reciprocal of its
+probability ([P], \cite{GoldenSurvivorship}). The survivors are then the viable histories.
+Their strength grows at least linearly, the external hazard is at most
+$4B_te^{-2ct}$, the lead of every developed domain grows at least
+linearly, and the hazard that remains is integrable, so that the hazard
+of survivors falls faster than $1/t$ and survival tends to a positive
+limit. Where the rates are adverse the tail is exponential,
+$\PP(T>t)\le e^{-h_\ast t}$ for fixed scalars at frozen background ([P],
+\cite{GoldenSurvivorship}), and the filter concentrates, with a clock, at scaling level
+(\cite{GoldenSurvivorship}).
+
+\emph{The Golden biosphere at age $t$.} Read together, for generic rates.
+It holds strength, of order $t^{3/2}$, and for some four in five of them
+the strength is still rising: not because the filter presses it on, which
+it does only at the wall, but because the tendency it was left with
+holds. Each technoanatomy it carries in a developed domain stands above
+the strength it balances by a factor that is itself of the order of
+$e^{t^{3/2}}$, has stood ahead for all but a vanishing share of its past,
+and was only ever raised by the filtering. Where its strength could lie
+in several domains it is developed in few of them, the others idle with
+their technoanatomies unselected. Its hazard at this moment is smaller
+than any power of $1/t$, set by whichever of its margins is least; the
+filtering has not chosen which, nor kept the internal hazard within the
+order of the external one. Biospheres of its age nevertheless depart, at
+the rate of the exponent over $t$, each wall taking its quarter. Those
+that depart are the few standing with a strength or a lead of order one,
+and since the filter adds nothing to a survivor's dynamics away from the
+walls, any survivor may come to stand there. Its median further life is a
+fixed multiple of its age. No record of bounded length certifies to it
+that it lives under the filtered law and not the unfiltered one.
+% R1077 (Fable 5.2, Nov 27 2026), at the author's direction: his questions of Nov 27: whether what the survival conditioning does to each quantity is stated anywhere with emphasis, as an exhaustive exhibit with the phenomenology it paints; and whether the internal hazard must stay within the order of the external one, as a theorem. New subsection: the exhibit of what the filter does to each quantity, with the other regimes and the phenomenology it gives of a Golden biosphere at age t.
 
 \section{The third channel: the schedule}\label{sec:schedule}
 
