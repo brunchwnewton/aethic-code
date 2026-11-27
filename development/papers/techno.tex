@@ -764,6 +764,56 @@ leads held, strength always lowers it.
 \end{proposition}
 % R1077 (Fable 5.2, Nov 27 2026), at the author's direction: his messages of Nov 27 (the external hazard as a product over the units' indices; the redundancy of the factors; the amplitudes as a correction reached by a fixed point; the units listening to one another; institutions as probing labels) and his verdict of Nov 27 to take the recommendations of the working note exactly and to finish the proofs and load them into the papers. Five results of the survivorship companion imported (R1077 there): domains, the pace domain by domain, the weights of a redundant decomposition, listening with the one tendency read in parts, and which channel carries the hazard.
 
+\begin{proposition}[Shared loads; \textbf{[P]} in \cite{GoldenSurvivorship}]\label{imp:sharing}
+Let the content of the system bear at each point a blend
+$\sum_j\pi_ju_j$ of the loads $u_j=x_j^+/\tau_j$, with shares $\pi_j\ge0$
+summing to one, and let the \emph{sharing measure} $\mu$ say how much
+amplitude bears each blend. The internal hazard is
+$h_\mu(u)=\int\sinh^2\langle\pi,u\rangle\,\mu(d\pi)$, with total amplitude
+$\Gamma=\mu(\Delta)$, amplitudes $\Gamma_j=\int\pi_j\,d\mu$ and pooled load
+$\bar u=\sum_j\Gamma_ju_j/\Gamma$. (i) \emph{Forms.} Mass on the vertices
+gives the separate units $\sum_j\Gamma_j\sinh^2u_j$; mass at one blend the
+merged unit $\Gamma\sinh^2\bar u$; both together the mixture
+$\varphi\sum_j\Gamma_j\sinh^2u_j+(1-\varphi)\Gamma\sinh^2\bar u$; mass at
+the rows of a matrix of shares $S$ the pooled units
+$\sum_ia_i\sinh^2(Su)_i$; and mass $\nu_Q$ at the barycenter of each face
+the powerset form $\sum_Q\nu_Q\sinh^2\bar u_Q$, one term for every set
+$Q$ of institutions at the mean load of the set, $\nu_Q$ being the
+amplitude of the content read by exactly the labels in $Q$ and
+proportional to $p^{|Q|}(1-p)^{m-|Q|}$ where the labels read the content
+independently with probability $p$. Split each institution into parts
+that carry its load: the powerset forms of such refinements approximate
+every $h_\mu$ uniformly on bounded sets of loads. (ii) \emph{Bounds.}
+$\Gamma\sinh^2\bar u\le h_\mu\le\sum_j\Gamma_j\sinh^2u_j$, and $h_\mu$ is
+nondecreasing in every load. (iii) \emph{One law along the common
+direction.} With $D=\sum_j\partial/\partial u_j$,
+$D^2h_\mu=4h_\mu+2\Gamma$. (iv) \emph{Sameness.}
+$\partial^2h_\mu/\partial u_i\partial u_j=2\int\pi_i\pi_j\cosh(2\langle\pi,u\rangle)\,d\mu\ge0$,
+zero exactly when no content bears both loads, and the matrix of these is
+nonnegative definite. The \emph{distinctness} of a pair, the second
+derivative of $h_\mu$ along the difference of the two loads over that
+along their sum, lies in $[0,1]$, is one exactly when the pair shares no
+content and zero exactly when the two bear the same share everywhere; in
+the mixture of two equal units its odds are
+$\frac{\varphi}{1-\varphi}\cosh(u_2-u_1)$. (v) \emph{Limits.} At small
+loads $h_\mu=u^{\!\top}Gu+O(|u|^4)$, $G_{ij}=\int\pi_i\pi_j\,d\mu$; at
+large loads $\frac1{2t}\log h_\mu(tv)$ tends to the greatest
+$\langle\pi,v\rangle$ over the support of $\mu$. (vi) \emph{A rule on the
+derivative along a difference.} For two units of amplitude $a$, the
+hazard that is the merged unit at equal loads and whose derivative in the
+difference $\delta$ of the loads is that of the separate units taken at
+the imbalance $f(\delta)$, $0\le f(\delta)\le\delta$, is
+$2a\sinh^2\bar u+a\cosh(2\bar u)\int_0^\delta\sinh f$, and it lies between
+the merged unit and the separate units; $\sinh f=\varphi\sinh\delta$ is
+the mixture. For three or more units linked by pairs, such a rule on
+every pair, each from that pair's loads alone, holds only for the
+mixture, with one $\varphi$ for all the pairs. (vii) The filtering raises
+the technoanatomies jointly under any sharing measure, as in
+Theorem~\ref{imp:pacedomains}; the bounds on the leads are not
+established under sharing.
+\end{proposition}
+% R1083 (Fable 5.2, Nov 27 2026), at the author's direction: his notes of Nov 27 (the internal hazard of two indices fixed by its derivative in the difference of their loads, with a function between zero, same, and the identity, different; the Aethic reading by which products of proper children are valid; whether the rule holds water or the thing should be rethought; a decomposition with one entry for every member of the powerset, and whether it converges on something more organic; whether partial derivatives are still used; and to carry these into the papers). One result of the survivorship companion imported (R1083 there): shared loads, with the forms, the bounds, the law along the common direction, the second derivatives and the distinctness, the limits, the rule on the derivative along a difference, and what holds under the filtering.
+
 \begin{theorem}[The ceiling; \textbf{[P]} in \cite{GoldenSurvivorship}]\label{imp:ceiling}
 In the critical regime the survivorship-conditioned law converges, in the
 hard-wall model, to the Doob transform by the persistence-harmonic
@@ -1325,6 +1375,78 @@ however far apart two of them appear, and none determines another. What
 reaches the second institution is not a cause in the sense of exact
 determination. It is a re-weighting of its superposition, a filtering
 artifact of size $r$, small where the overlap is small and never zero.
+
+
+\emph{Same and different.} Two institutions may be nearly one thing or
+quite distinct, and the internal hazard has to say which. If they are
+distinct, each bears its own load, and an imbalance between them costs
+what it costs two separate units. If they are the same, only their pooled
+load counts, and an imbalance between them costs nothing. The ground
+between is that of an Aethus whose factors are not independent. Take two
+factors $A_i$ and $A_j$ of the techno-system, each a superposition over
+its proper children. The product $A_iA_j$ distributes over the children,
+and each product of a child of one with a child of the other is valid or
+invalid. Where every such product is valid the two factors are different.
+Where a product is valid only for matching children they are the same.
+Between the two a child of $A_i$ excludes some children of $A_j$ and
+leaves the rest, which is implication without parenthood: neither factor
+is a parent of the other, and a child of one still prunes the children of
+the other. In the content of Proposition~\ref{imp:weights}, with a factor read as the
+fillings of the content its label covers, a product of two children is
+valid exactly when the two agree on the content both labels read, and the
+overlap of the labels is the logarithm of the number of such products
+over the number that are valid. The structure is defined for any two
+factors of the system. No list of indices is presupposed by it.
+
+\emph{One form for the ground between.} Let each part of the content
+bear a blend of the institutions' loads, in shares that sum to one. The
+internal hazard is the integral of $\sinh^2$ of the blended load against
+the measure that says how much of the content bears each blend, the
+\emph{sharing measure} (Proposition~\ref{imp:sharing}). Separate units are the case in which
+every part bears one institution's load, and a single merged unit the
+case in which every part bears the same blend. A share $\varphi$ of every
+unit standing apart and the rest standing as one,
+$\varphi\sum_j\Gamma_j\sinh^2u_j+(1-\varphi)\,\Gamma\sinh^2\bar u$, is a
+third member. A fourth is the expansion with one term for every set of
+institutions, each at the mean load of the set. That expansion is the
+powerset of the labels written out: its coefficients are the amplitudes
+of the content read by exactly each set, they are binomial where the
+labels read the content independently, and under refinement of the labels
+it reaches every sharing measure (Proposition~\ref{imp:sharing}(i)). The expansion is therefore
+not a correction laid over a description by parts. It is the measure
+itself at a finite resolution, as an agreeing state is the sum, over the
+powerset of its pins, of the irreducible agreeing superpositions
+\cite{Aethus}. Whatever the measure, the hazard lies between that of the
+merged unit and that of the separate units, and falls as any scalar
+rises, so that the filtering raises the technoanatomies jointly as before
+(Proposition~\ref{imp:sharing}(ii), (vii)).
+
+\emph{What the derivatives say.} Every member of the family obeys one
+law and differs from the others in one place. Along the common
+direction, all the loads raised together, the hazard moves exactly as a
+single unit's does: its second derivative there is four times itself
+plus twice the total amplitude (Proposition~\ref{imp:sharing}). Across that direction lies
+what distinguishes one system from another. The matrix of second
+derivatives of the hazard in the loads has no negative entry, and its
+entry for two institutions vanishes exactly when they share nothing. For
+a pair, the curvature along the difference of the two loads over the
+curvature along their sum is a number between zero and one, zero when the
+two are the same and one when they are different: the \emph{distinctness}
+of the pair. It is not a constant of the pair. In the mixture its odds
+are $\varphi/(1-\varphi)$ times the hyperbolic cosine of the imbalance,
+so that two institutions that are nearly one while evenly loaded come
+apart as one is loaded beyond the other, and at great loads the hazard is
+carried by whatever content is least shared and most loaded. At small
+loads the hazard is a quadratic form, and a matrix of pairs is the whole
+of it. A rule that fixes the first derivative along a pair's difference
+from that pair's loads alone, the separate units' derivative taken at a
+reduced imbalance, is exact for two institutions and gives the whole
+family between one unit and two. For three or more it leaves one number
+free for the system, the share $\varphi$ of the mixture (Proposition~\ref{imp:sharing}(vi)):
+the response of a pair to its own imbalance depends on the loads of every
+institution that shares with either. Which measure the system has is a
+proposal about the system, and none has been run against survival.
+% R1083 (Fable 5.2, Nov 27 2026), at the author's direction: his notes of Nov 27 (the internal hazard of two indices fixed by its derivative in the difference of their loads, with a function between zero, same, and the identity, different; the Aethic reading by which products of proper children are valid; whether the rule holds water or the thing should be rethought; a decomposition with one entry for every member of the powerset, and whether it converges on something more organic; whether partial derivatives are still used; and to carry these into the papers). Three paragraphs in the subsection on institutions, before the one on adversivity: same and different as the validity of the products of two factors' children, implication without parenthood, the overlap as the logarithm of all products over valid ones; the sharing measure as one form for the ground between, with the powerset expansion as the measure at a finite resolution; and what the derivatives say, the law along the common direction, the distinctness of a pair, and the rule on the first derivative, exact for two institutions and leaving one number free for three or more.
 
 \emph{Adversivity.} The broader Golden program carries a model, there called
 adversivity, of institutions as the nodes of a graph with signed weights
