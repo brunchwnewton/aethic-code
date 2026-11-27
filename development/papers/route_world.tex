@@ -108,11 +108,13 @@
   title        = {Survivorship Conditioning for Hazard Rates Driven at the Log-Derivative Level},
   year         = {2026},
   howpublished = {Working draft},
-  note         = {The Golden branch's root extraction; the two-condition viability
+  note         = {The Golden branch's root extraction; the two-driver viability
                   theorem with its piecewise driver-viability functional, the
                   hard-wall and soft-wall conditioned laws, the certification
                   ceiling, and the half-time theorem.}
 }
+% R1065 (Opus 5.5, Nov 27 2026), at the author's direction: the note of the survivorship companion's entry names its theorem as the companion now does (R1063).
+% was (first line of that note): The Golden branch's root extraction; the two-condition viability
 @misc{GoldenTargeted,
   author       = {Benander, Ajax},
   title        = {Conditioning a Record on Its Own Future: Targeted Accordance and Survivorship-Conditioned Path Measures},
@@ -530,20 +532,44 @@ attributes; it fixes the class of nameable variations of ourselves.
 
 \begin{definition}[The model, and the Golden Point in it; from \cite{GoldenSurvivorship}]
 \label{imp:goldenpoint}
-The total hazard is $h_t=B_t\varsigma_b(x_t)+\Gamma e^{-\rho x_t}$, an
-external background muffled by accumulated capacity plus an internal term
-the same capacity feeds or starves by the sign of $\rho$; Departure is the
-killing time, viability the event that the total hazard ever accrued stays
-finite, and the Golden Point the state past which the external channel is
-driven to zero and viability obtains.
+The total hazard is
+\[
+h_t=B_t\operatorname{sech}^2x_t^++\sum_j\Gamma_j\sinh^2(x_t^+/\tau_{j,t}),
+\]
+an external background muffled by the technostrength $x^+$, the positive
+part of accumulated capacity, plus an internal channel of units, each
+loaded by the strength in proportion to $x^+/\tau_j$, where the
+technoanatomy scalar $\tau_j$ is carried by a rate of its own; Departure
+is the killing time, viability the event that the total hazard ever
+accrued stays finite, and the Golden Point the state past which the
+external channel is driven to zero and viability obtains.
+% R1065 (Opus 5.5, Nov 27 2026), at the author's direction: the imported model in the companion's unit form (his direction of Nov 26, R1063).
+% was: The total hazard is $h_t=B_t\varsigma_b(x_t)+\Gamma e^{-\rho x_t}$, an
+% was: external background muffled by accumulated capacity plus an internal term
+% was: the same capacity feeds or starves by the sign of $\rho$; Departure is the
+% was: killing time, viability the event that the total hazard ever accrued stays
+% was: finite, and the Golden Point the state past which the external channel is
+% was: driven to zero and viability obtains.
 \end{definition}
 
-\begin{theorem}[Two conditions for viability; \textbf{[P]} in \cite{GoldenSurvivorship}]
+\begin{theorem}[Two drivers; \textbf{[P]} in \cite{GoldenSurvivorship}]
 \label{imp:twocond}
-Viability is the indicator of $\rho>0$ times a piecewise driver-viability
-functional; the two factors are logically distinct necessary conditions,
-the first a sign and the second silent on it.
+Technoanatomy that does not keep growing makes viability null for every
+driver. For anatomy rates independent of a driver of bounded drift,
+viability is a piecewise driver-viability functional of the strength's
+rate times the same functional of each anatomy rate, and for a
+technoanatomy coupled to the strength, its scalar leading the strength,
+the same functional of each lead's rate. The factors are logically
+distinct necessary conditions: the strength outrunning the background,
+and the technoanatomy outrunning the strength.
 \end{theorem}
+% R1065 (Opus 5.5, Nov 27 2026), at the author's direction: the imported viability theorem as the companion now states it (R1063).
+% was: \begin{theorem}[Two conditions for viability; \textbf{[P]} in \cite{GoldenSurvivorship}]
+% was: \label{imp:twocond}
+% was: Viability is the indicator of $\rho>0$ times a piecewise driver-viability
+% was: functional; the two factors are logically distinct necessary conditions,
+% was: the first a sign and the second silent on it.
+% was: \end{theorem}
 
 \begin{theorem}[The ceiling; \textbf{[P]} in \cite{GoldenSurvivorship,GoldenTargeted}]
 \label{imp:ceiling}
@@ -634,19 +660,32 @@ $S_N\le e^{K-\Delta t}S_G$, and Bayes gives the odds.
 \end{theorem}
 
 \noindent In the model of Definition~\ref{imp:goldenpoint} both
-hypotheses are supplied. The floor is the technoanatomy companion's
+hypotheses are supplied, with the background frozen at $B$. The floor is the technoanatomy companion's
 gating result: an incomplete schedule leaves the biosphere at bare
-background with the internal channel at its full coefficient, so the
-non-Golden hazard is at least $\Gamma$; without a floor the non-Golden
+background, its internal channel silent at zero strength, so the
+non-Golden hazard is at least $B$; without a floor the non-Golden
 class could itself be viable and a fractional drop would leave the odds
 at a positive limit. The coupling is the model's multiplicative
-fluctuation: a completed biosphere holding credit $x\ge x_\ast>0$ has
-$h^{\mathrm{tot}}\le(1-\delta)(B_t+\Gamma)$ along the same background
-path, with $1-\delta=\max\{\varsigma_b(x_\ast),e^{-\rho x_\ast}\}$, and
+fluctuation: with the scalars fixed, a completed biosphere holding its strength in $[x_\ast,X]$ has
+$h^{\mathrm{tot}}\le B\operatorname{sech}^2x_\ast+\sum_j\Gamma_j\sinh^2(X/\tau_j)=(1-\delta)B$,
+a positive drop whenever its technoanatomy keeps the loads cheaper than the muffling gains, and
 the schedule channel, which completion closes, only widens the drop. A
+% R1065 (Opus 5.5, Nov 27 2026), at the author's direction: the emergence hypotheses in unit form, as the companions state them (R1063, R1064).
+% was: hypotheses are supplied. The floor is the technoanatomy companion's
+% was: gating result: an incomplete schedule leaves the biosphere at bare
+% was: background with the internal channel at its full coefficient, so the
+% was: non-Golden hazard is at least $\Gamma$; without a floor the non-Golden
+% was: class could itself be viable and a fractional drop would leave the odds
+% was: at a positive limit. The coupling is the model's multiplicative
+% was: fluctuation: a completed biosphere holding credit $x\ge x_\ast>0$ has
+% was: $h^{\mathrm{tot}}\le(1-\delta)(B_t+\Gamma)$ along the same background
+% was: path, with $1-\delta=\max\{\varsigma_b(x_\ast),e^{-\rho x_\ast}\}$, and
+% was: the schedule channel, which completion closes, only widens the drop. A
 drop in the mean alone would not do, since a hazard that fluctuates more
 widely can outsurvive a lower and steadier one. The companion's
-survival-time threshold, $T_\ast\approx\log(1/p)/(B+\Gamma)$ for a climb
+survival-time threshold, $T_\ast\approx\log(1/p)/B$ for a climb
+% R1065 (Opus 5.5, Nov 27 2026), at the author's direction: the standing hazard is the bare background (R1064).
+% was: survival-time threshold, $T_\ast\approx\log(1/p)/(B+\Gamma)$ for a climb
 of probability $p$ whose class thereafter decays only polynomially, is
 to leading order the case of a drop in the whole exponential rate
 \cite{GoldenTechnoanatomy}.
@@ -738,9 +777,13 @@ $\PP(\Lambda_\infty<\infty)=0$ is the measure shadow; the two come
 apart exactly where the broader Golden program, set aside here separates
 them, since the critical regime carries the shadow while advancing
 continuations survive at measure zero. This is why the
-trapped regime of the survivorship companion \cite{GoldenSurvivorship}(iii) has
+trapped regime of the survivorship companion \cite{GoldenSurvivorship} has
 departed: not because a biosphere halting at $x_\ast$ has stopped, but
-because with $\rho<0$ the viability probability is identically zero, so
+because with its technoanatomy held the viability probability is identically zero, so
+% R1065 (Opus 5.5, Nov 27 2026), at the author's direction: the trapped regime in unit form (R1063).
+% was: trapped regime of the survivorship companion \cite{GoldenSurvivorship}(iii) has
+% was: departed: not because a biosphere halting at $x_\ast$ has stopped, but
+% was: because with $\rho<0$ the viability probability is identically zero, so
 no continuation available to it advances. Halting is not the departure;
 having nowhere left to go is.
 
@@ -1124,7 +1167,9 @@ so $\PP(\Lambda_\infty<\infty)=0$. By
 Definition~\ref{gc:def:departure} that is the analytic form of the
 modal claim, no continuation advances, and the state therefore
 lies in $\mu G$. One such channel suffices, and no property of the
-other channel, of $\rho$, or of the driver is used anywhere in the
+other channel, of the technoanatomy, or of the driver is used anywhere in the
+% R1065 (Opus 5.5, Nov 27 2026), at the author's direction: technoanatomy in place of the exponent (R1063).
+% was: other channel, of $\rho$, or of the driver is used anywhere in the
 step: a single floor anywhere in the total hazard is enough, whatever
 the rest of the model is doing.
 
@@ -1290,8 +1335,11 @@ everywhere.
 
 \emph{The model's verdicts remain strict.} Within Section~\ref{sec:imports}, the
 configuration $x\equiv0$ gives $\PP(\Lambda_\infty<\infty)=0$
-\emph{exactly}, and adverse anatomy gives it exactly for every
-$\rho\le0$: these are identities, not small numbers. The $\varepsilon$
+\emph{exactly}, and a technoanatomy that does not keep growing gives it
+exactly: these are identities, not small numbers. The $\varepsilon$
+% R1065 (Opus 5.5, Nov 27 2026), at the author's direction: the strict verdicts in unit form (R1063).
+% was: \emph{exactly}, and adverse anatomy gives it exactly for every
+% was: $\rho\le0$: these are identities, not small numbers. The $\varepsilon$
 of Definition~\ref{gc:def:epsdep} does not live inside the model at
 all. It lives at the Aethic level, where the weighting distributes over
 \emph{which configuration obtains} --- and the recovery branch is
@@ -1444,9 +1492,13 @@ post-onset internal hazard is representable the same way --- that the
 trough channel of the survivorship companion \cite{GoldenSurvivorship} should decompose into gates, its
 smoothness being a coarse-graining rather than a fact.
 the technoanatomy companion \cite{GoldenTechnoanatomy} carries out the decomposition and
-finds two things the prediction did not have to deliver: the exponential
-form falls out of geometric compounding rather than being assumed, and
-the anatomy trichotomy turns out to be the schedule's own criticality
+finds two things the prediction did not have to deliver: a unit's exponential
+regime falls out of geometric compounding rather than being assumed, and
+the race of technoanatomy against strength turns out to be the schedule's own criticality
+% R1065 (Opus 5.5, Nov 27 2026), at the author's direction: the companion's decomposition as it now reads (R1064).
+% was: finds two things the prediction did not have to deliver: the exponential
+% was: form falls out of geometric compounding rather than being assumed, and
+% was: the anatomy trichotomy turns out to be the schedule's own criticality
 test with capacity substituted for gate count. The construction also
 agrees with the boundary-scaling derivation of
 the technoanatomy companion \cite{GoldenTechnoanatomy}, which was arrived at independently.
@@ -2288,7 +2340,9 @@ proofs, and the author's provenance are the Golden companion's
 \cite{GoldenReasoning}.
 
 \emph{The attribute.} Let the internal hazard $h$ carried by the nuclear
-mode switch its anatomy between a favorable value $\rho_+$ while the mode
+mode switch its anatomy, read as the gain of a technoanatomy locked to its strength, between a favorable value $\rho_+$ while the mode
+% R1072 (Fable 5.2, Nov 27 2026), at the author's direction: the nuclear mode's two anatomies named as gains of the locked case, the hazard reduction per unit of strength held constant in each state, as the Golden master names them (R1071); the attribute's two-value model is otherwise unchanged and remains for his verdict.
+% was: mode switch its anatomy between a favorable value $\rho_+$ while the mode
 is governed deliberately and an adverse value $\rho_-$ while it is not,
 with crisis feedback raising the rate at which governance is lost
 linearly in $h$, as $b_0+b_1h$, against a rate of return $a$. The mean
@@ -3292,9 +3346,13 @@ background. At short horizons the second class dominates, the climb
 being a minute-probability route; but its survival weight decays
 exponentially while the climbing class's does not, and past the
 technoanatomy companion's survival-time threshold,
-$T_\ast\approx\log(1/p)/(B+\Gamma)$, the conditioned law favors the
+$T_\ast\approx\log(1/p)/B$, the conditioned law favors the
+% R1065 (Opus 5.5, Nov 27 2026), at the author's direction: the standing hazard is the bare background (R1064).
+% was: $T_\ast\approx\log(1/p)/(B+\Gamma)$, the conditioned law favors the
 climb, rarity entering only through $\log(1/p)$, so that a
-one-in-a-trillion climb moves the threshold by about $28/(B+\Gamma)$ and
+one-in-a-trillion climb moves the threshold by about $28/B$ and
+% R1065 (Opus 5.5, Nov 27 2026), at the author's direction: the standing hazard is the bare background (R1064).
+% was: one-in-a-trillion climb moves the threshold by about $28/(B+\Gamma)$ and
 no more \cite{GoldenTechnoanatomy}. Nor does the account need the
 climb's tail to be polynomial: the theorem behind it,
 % R962 (Opus 5.5, Nov 11 2026), at the author's direction: author-attribution metacommentary set impersonal.
@@ -3320,8 +3378,11 @@ as the record of a climb: Past-Alignment
 
 The class that does not reach the Golden Point is not a residue of
 near-misses. Exotic structure short of the Golden Point buys no
-survival: an incomplete schedule leaves the biosphere at bare background
-with the internal channel at its full coefficient
+survival: an incomplete schedule leaves the biosphere at bare background,
+its internal channel silent at zero strength
+% R1065 (Opus 5.5, Nov 27 2026), at the author's direction: the incomplete schedule in unit form (R1064).
+% was: survival: an incomplete schedule leaves the biosphere at bare background
+% was: with the internal channel at its full coefficient
 \cite{GoldenTechnoanatomy}, so that such histories survive only by luck,
 at the rate of histories with no structure at all, and the class's
 conditioned weight is held overwhelmingly by histories of high

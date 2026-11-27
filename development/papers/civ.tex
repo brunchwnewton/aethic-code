@@ -41,11 +41,13 @@
   title        = {Survivorship Conditioning for Hazard Rates Driven at the Log-Derivative Level},
   year         = {2026},
   howpublished = {Working draft},
-  note         = {The Golden branch's root extraction; the two-condition viability
+  note         = {The Golden branch's root extraction; the two-driver viability
                   theorem with its piecewise driver-viability functional, the
                   hard-wall and soft-wall conditioned laws, the certification
                   ceiling, and the half-time theorem.}
 }
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the note of the survivorship companion's entry names its theorem as the companion now does (R1063).
+% was (first line of that note): The Golden branch's root extraction; the two-condition viability
 @misc{GoldenTechnoanatomy,
   author       = {Benander, Ajax},
   title        = {Technoanatomy: Civilizational Survival as a Sign, Not a Size},
@@ -241,15 +243,25 @@ the extinctionist's own: that greater long-run persistence of the
 biosphere, considered as a temporally extended living system, is
 environmentally preferable. The model is a survivorship model proved in
 a companion, in which a biosphere carries a hazard with two channels, an
-external one that accumulated capability muffles and an internal one the
-same capability feeds or starves by the sign of a response exponent. Two
-results of that model, both simple, do the paper's work. If capability
-is pinned at zero, the external channel is unshielded and the internal
-channel sits at its bare coefficient, so the total hazard has a
-permanent floor and the cumulative hazard diverges: viability is
+external one that accumulated capability muffles and an internal one
+loaded by that capability relative to a technoanatomy that has to keep
+pace with it. Two results of that model, both simple, do the paper's
+work. If capability is pinned at zero, the external channel is
+unshielded and the internal channel silent, so the total hazard is the
+bare background and the cumulative hazard diverges: viability is
 exactly zero, for every parameter value. And if capability accumulates,
-viability is the indicator of a favorable sign times a driver-viability
-functional: it can be positive, and it is never positive at an adverse
+viability is a driver-viability functional times the factors of a
+technoanatomy that must outrun the capability: it can be positive, and it is never positive at an adverse
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the two results in unit form, the adverse sign being the sign of the race (the companions' unit form (his direction of Nov 26, R1063 and R1064)).
+% was: external one that accumulated capability muffles and an internal one the
+% was: same capability feeds or starves by the sign of a response exponent. Two
+% was: results of that model, both simple, do the paper's work. If capability
+% was: is pinned at zero, the external channel is unshielded and the internal
+% was: channel sits at its bare coefficient, so the total hazard has a
+% was: permanent floor and the cumulative hazard diverges: viability is
+% was: exactly zero, for every parameter value. And if capability accumulates,
+% was: viability is the indicator of a favorable sign times a driver-viability
+% was: functional: it can be positive, and it is never positive at an adverse
 sign however large the capability. The first result is the argument
 against environmental extinctionism, on its own valuation. The second
 is the argument against capability-first techno-optimism. Together they give a two-by-two picture in which eliminating capability forfeits a positive persistence option and maximizing it is insufficient without favorable anatomy, the live region being accumulating capability with favorable anatomy; that maximization is suboptimal is not established, and ``persistence'' in the normative argument means indefinite-survival probability unless a passage names another criterion, expected duration, finite-horizon survival, welfare or ecological preservation, which are distinct measures, two policies with zero probability of surviving forever differing enormously in expected duration, finite-horizon survival, welfare and ecological preservation. The comparison is strict exactly where maintaining capability preserves a positive continuation prospect that elimination removes; where both the maintained and the eliminated cases have zero indefinite-survival probability in a regime, this criterion alone does not rank them.
@@ -331,9 +343,14 @@ already cleared; and the Golden Point supplies a viability constraint on
 alignment, not an objective.
 
 \emph{What is imported.} The survivorship companion \cite{GoldenSurvivorship}
-supplies the model, the two-condition theorem with its piecewise
-driver-viability functional, the corollary that adverse anatomy
-overlapping positive strength is fatal, and the ceiling. The
+supplies the model, the two-driver theorem with its piecewise
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the companion's theorem renamed (R1063).
+% was: supplies the model, the two-condition theorem with its piecewise
+driver-viability functional, the corollary that overload on a set of
+infinite measure is fatal, and the ceiling. The
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the companion's corollary as it now stands (R1063).
+% was: driver-viability functional, the corollary that adverse anatomy
+% was: overlapping positive strength is fatal, and the ceiling. The
 technoanatomy companion \cite{GoldenTechnoanatomy} supplies the gating proposition
 in the pinned schedule model, the completion-weight fixed point, the
 survival-time threshold, and the emergence theorem that
@@ -383,8 +400,12 @@ commitment stated as such; [O] open, with its specification.
 hazard is driven to zero and viability obtains; the target.
 \item \textbf{Departure Point.} Its complement: the irreversible loss of a
 biosphere's future.
-\item \textbf{Technoanatomy.} The sign of what added capacity does to the
-internal hazard; the decisive variable.
+\item \textbf{Technoanatomy.} The structure that carries added capacity,
+read through scalars that must keep pace with it; the sign of that race
+is the decisive variable.
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: technoanatomy in unit form (R1064).
+% was: \item \textbf{Technoanatomy.} The sign of what added capacity does to the
+% was: internal hazard; the decisive variable.
 \item \textbf{Muffling agent.} The lineage whose capacity muffles the
 external channel; in the record, civilization.
 \item \textbf{Imperfection Magnitude Drop.} An alternative history whose
@@ -439,9 +460,18 @@ broader program is not part of its machinery.
 
 \begin{definition}[The model, the target, and its complement; from
 \cite{GoldenSurvivorship,GoldenRouteWorld}]\label{imp:model}
-The total hazard is $h_t=B_t\varsigma_b(x_t)+\Gamma e^{-\rho x_t}$, an
-external background muffled by accumulated capacity $x$ plus an
-internal term the same capacity feeds or starves by the sign of $\rho$;
+The total hazard is
+\[
+h_t=B_t\operatorname{sech}^2x_t^++\sum_j\Gamma_j\sinh^2(x_t^+/\tau_{j,t}),
+\]
+an external background muffled by the technostrength $x^+$, the positive
+part of accumulated capacity $x$, plus an internal channel of units, each
+loaded by the strength over a technoanatomy scalar carried by a rate of
+its own;
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the imported model in unit form (the companions' unit form (his direction of Nov 26, R1063 and R1064)).
+% was: The total hazard is $h_t=B_t\varsigma_b(x_t)+\Gamma e^{-\rho x_t}$, an
+% was: external background muffled by accumulated capacity $x$ plus an
+% was: internal term the same capacity feeds or starves by the sign of $\rho$;
 Departure is the killing time, viability the event that the total
 hazard ever accrued stays finite, and the Golden Point the state past
 which the external channel is driven to zero and viability obtains. The
@@ -450,37 +480,68 @@ side as the least fixed point of an implication cascade and shows the
 two constructions agree.
 \end{definition}
 
-\begin{theorem}[Two conditions for viability; \textbf{[P]} in \cite{GoldenSurvivorship}]
+\begin{theorem}[Two drivers; \textbf{[P]} in \cite{GoldenSurvivorship}]
 \label{imp:twocond}
-For $\rho\le0$ viability is null for every parameter value and every
-driver. For $\rho>0$, $\PP(\Lambda_\infty<\infty)=\one\{\rho>0\}\,V_{\mathrm{drv}}(\mu_0)$
-with $V_{\mathrm{drv}}$ the piecewise driver-viability functional; the
-two factors are logically distinct necessary conditions, the first a
-sign and the second silent on it. No index of accumulated capacity
-distinguishes the ascent that arrives from the ascent that is a fall.
+Technoanatomy that does not keep growing, its scalars bounded or its
+anatomy rates critical, makes viability null for every driver. For
+anatomy rates independent of a driver of bounded drift,
+$\PP(\Lambda_\infty<\infty)=V_{\mathrm{drv}}(\mu_0)\prod_jV_{\mathrm{anat}}(\eta_{j,0})$,
+with $V_{\mathrm{drv}}$ the piecewise driver-viability functional and
+$V_{\mathrm{anat}}$ the same functional of an anatomy rate, the indicator
+$\one\{\eta>0\}$ for a constant rate; a technoanatomy coupled to the
+strength through its lead takes the same functional of the lead's rate.
+The factors are logically distinct necessary conditions, the strength
+outrunning the background and the technoanatomy outrunning the strength.
+No index of accumulated capacity distinguishes the ascent that arrives
+from the ascent that is a fall.
 \end{theorem}
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the imported viability theorem as the companion now states it (R1063).
+% was: \begin{theorem}[Two conditions for viability; \textbf{[P]} in \cite{GoldenSurvivorship}]
+% was: \label{imp:twocond}
+% was: For $\rho\le0$ viability is null for every parameter value and every
+% was: driver. For $\rho>0$, $\PP(\Lambda_\infty<\infty)=\one\{\rho>0\}\,V_{\mathrm{drv}}(\mu_0)$
+% was: with $V_{\mathrm{drv}}$ the piecewise driver-viability functional; the
+% was: two factors are logically distinct necessary conditions, the first a
+% was: sign and the second silent on it. No index of accumulated capacity
+% was: distinguishes the ascent that arrives from the ascent that is a fall.
+% was: \end{theorem}
 
-\begin{corollary}[Adverse anatomy overlapping positive strength is
-fatal; \textbf{[P]} in \cite{GoldenSurvivorship}]\label{imp:overlap}
-If for some $a,b>0$ the set $\{t:\rho_t\le-a,\ x_t\ge b\}$ has infinite
-Lebesgue measure almost surely, then $\Lambda_\infty=\infty$ almost
-surely.
+\begin{corollary}[Overload on a set of infinite measure is fatal;
+\textbf{[P]} in \cite{GoldenSurvivorship}]\label{imp:overlap}
+If for some $a>0$ and some unit the set $\{t:x_t^+/\tau_{j,t}\ge a\}$ has
+infinite Lebesgue measure almost surely, then $\Lambda_\infty=\infty$
+almost surely.
 \end{corollary}
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the imported corollary as the companion now states it (R1063).
+% was: \begin{corollary}[Adverse anatomy overlapping positive strength is
+% was: fatal; \textbf{[P]} in \cite{GoldenSurvivorship}]\label{imp:overlap}
+% was: If for some $a,b>0$ the set $\{t:\rho_t\le-a,\ x_t\ge b\}$ has infinite
+% was: Lebesgue measure almost surely, then $\Lambda_\infty=\infty$ almost
+% was: surely.
+% was: \end{corollary}
 
 \begin{proposition}[An unheld $x$ leaves the crest at bare background;
 \textbf{[P]} in \cite{GoldenTechnoanatomy}]\label{imp:gating}
 In the pinned schedule model a biosphere that cannot hold $x$ faces the
-external background unshielded and pays the internal channel's full
-coefficient, at total hazard $B_t+\Gamma$, and $\PP(\Lambda_\infty<\infty)=0$
-identically, for every parameter value, every anatomy, and every
+external background unshielded, its internal channel silent at zero
+strength, at total hazard $B_t$, and $\PP(\Lambda_\infty<\infty)=0$
+identically, for every parameter value, every technoanatomy, and every
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the gating proposition as the technoanatomy companion now states it (R1064).
+% was: external background unshielded and pays the internal channel's full
+% was: coefficient, at total hazard $B_t+\Gamma$, and $\PP(\Lambda_\infty<\infty)=0$
+% was: identically, for every parameter value, every anatomy, and every
 driver.
 \end{proposition}
 
 \begin{proposition}[Completion weight as a least fixed point; \textbf{[P]}
 in the pinned schedule model, in \cite{GoldenTechnoanatomy}]\label{imp:fixedpoint}
-With $s=\lambda/(\lambda+B+\Gamma)$ the per-gate survival factor, the
+With $s=\lambda/(\lambda+B)$ the per-gate survival factor, the
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the pinned hazard is the bare background (R1064, R1065).
+% was: With $s=\lambda/(\lambda+B+\Gamma)$ the per-gate survival factor, the
 expected completion weight from one owed gate is the least root
-$u\in[0,1]$ of $u=s(\pi+(1-\pi)u^{r})$, and from $n$ gates it is $u^{n}$; $u<1$ whenever $B+\Gamma>0$. Three probabilities are kept distinct here and named: $V = \PP(\Lambda_\infty < \infty)$, that the underlying continuation has finite cumulative hazard; the probability of reaching such a continuation alive, which is what $u^{n}$ scales; and $S = \PP(T = \infty) = \mathbb{E}[e^{-\Lambda_\infty}]$, survival forever. A finite pre-completion hazard changes the second and not the first, so a product $u^{n}V_\infty$ is the probability of reaching a viable continuation alive and does not inherit $V$'s name. The floor $\Gamma > 0$ on the internal channel after capability is gone is a model assumption needing an interpretation independent of the maintaining civilization, taken here as external hazard that persists when the maintainer does not; where that interpretation is declined, the long-run result must be grounded in an explicit external-hazard assumption.
+$u\in[0,1]$ of $u=s(\pi+(1-\pi)u^{r})$, and from $n$ gates it is $u^{n}$; $u<1$ whenever $B>0$. Three probabilities are kept distinct here and named: $V = \PP(\Lambda_\infty < \infty)$, that the underlying continuation has finite cumulative hazard; the probability of reaching such a continuation alive, which is what $u^{n}$ scales; and $S = \PP(T = \infty) = \mathbb{E}[e^{-\Lambda_\infty}]$, survival forever. A finite pre-completion hazard changes the second and not the first, so a product $u^{n}V_\infty$ is the probability of reaching a viable continuation alive and does not inherit $V$'s name. The floor $\Gamma > 0$ on the internal channel after capability is gone is a model assumption needing an interpretation independent of the maintaining civilization, taken here as external hazard that persists when the maintainer does not; where that interpretation is declined, the long-run result must be grounded in an explicit external-hazard assumption.
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the pinned hazard is the bare background (R1064, R1065).
+% was: $u\in[0,1]$ of $u=s(\pi+(1-\pi)u^{r})$, and from $n$ gates it is $u^{n}$; $u<1$ whenever $B+\Gamma>0$. Three probabilities are kept distinct here and named: $V = \PP(\Lambda_\infty < \infty)$, that the underlying continuation has finite cumulative hazard; the probability of reaching such a continuation alive, which is what $u^{n}$ scales; and $S = \PP(T = \infty) = \mathbb{E}[e^{-\Lambda_\infty}]$, survival forever. A finite pre-completion hazard changes the second and not the first, so a product $u^{n}V_\infty$ is the probability of reaching a viable continuation alive and does not inherit $V$'s name. The floor $\Gamma > 0$ on the internal channel after capability is gone is a model assumption needing an interpretation independent of the maintaining civilization, taken here as external hazard that persists when the maintainer does not; where that interpretation is declined, the long-run result must be grounded in an explicit external-hazard assumption.
 \end{proposition}
 
 \begin{proposition}[The survival-time threshold; \textbf{[P]} given the
@@ -562,14 +623,24 @@ the speculative machinery this paper's companions develop, and it is
 stated first in the form that needs none. Remove every available
 muffling capacity and the biosphere is the pinned case of
 Proposition~\ref{imp:gating}: $x\equiv0$, the external channel
-unshielded at $B_t$, the internal channel at its bare coefficient
-$\Gamma$, so that
+unshielded at $B_t$, the internal channel silent at zero strength, so that
 \[
-h_t\ \ge\ \Gamma\quad\Longrightarrow\quad\Lambda_\infty=\infty
+h_t\ =\ B_t\quad\Longrightarrow\quad\Lambda_\infty=\int_0^\infty B_t\,dt=\infty
 \quad\Longrightarrow\quad\PP(T=\infty)=0,
 \]
-for every parameter value, every anatomy, and every driver, with no
-assumption on the background's long-run behavior. That is the whole of
+for every parameter value, every technoanatomy, and every driver, the
+background's integral diverging almost surely by the survivorship
+companion's lemma on infinite sets, as it does for any background with a
+positive long-run mean. That is the whole of
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the core in unit form: with the units silent at zero strength the divergence is the background's own (the companions' unit form (his direction of Nov 26, R1063 and R1064)).
+% was: unshielded at $B_t$, the internal channel at its bare coefficient
+% was: $\Gamma$, so that
+% was: \[
+% was: h_t\ \ge\ \Gamma\quad\Longrightarrow\quad\Lambda_\infty=\infty
+% was: \quad\Longrightarrow\quad\PP(T=\infty)=0,
+% was: \]
+% was: for every parameter value, every anatomy, and every driver, with no
+% was: assumption on the background's long-run behavior. That is the whole of
 the core. A reader who rejects everything downstream of the survivorship
 model can accept it.
 
@@ -577,7 +648,9 @@ The obvious objection is that another muffling agent might later
 appear, and the objection is met on its own ground rather than argued
 away. A successor route arriving at instantaneous rate $\alpha_t$ and
 completing the schedule with probability $q_t$ on arrival competes
-against the pinned hazard $h^{(0)}=B+\Gamma$ that runs while it waits.
+against the pinned hazard $h^{(0)}=B$ that runs while it waits.
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the pinned hazard is the bare background (R1064, R1065).
+% was: against the pinned hazard $h^{(0)}=B+\Gamma$ that runs while it waits.
 With $r_t=\alpha_tq_t$ the probability that the first successful
 recovery beats the Departure clock is the competing-risks residual
 \begin{equation}\label{eq:epssucc}
@@ -589,7 +662,9 @@ time does not enter as a mechanism that alters a fixed perturbation
 weight; it enters through the competing-risks functional, a ratio of
 rates in the homogeneous case, and the claim that a post-extinction
 biosphere does not recover its route is the claim that $r$ is small
-against $B+\Gamma$ along the path, for which the bound
+against $B$ along the path, for which the bound
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the pinned hazard is the bare background (R1064, R1065).
+% was: against $B+\Gamma$ along the path, for which the bound
 $r_t\le\eta h^{(0)}_t\Rightarrow\varepsilon_{\mathrm{succ}}\le\eta/(1+\eta)$
 gives the time-varying form. The inputs $\alpha$ and $q$ are
 unestimated, and the claim is entered at that grade. The Route World
@@ -615,9 +690,13 @@ reproducible once lost.
 
 \section{Alignment: a viability constraint, not an objective}\label{sec:alignment}
 
-Artificial intelligence is a perturbation of the state $(x,\rho)$, and
-on the technoanatomy companion's design the largest perturbation of
-$\rho$ in the record, delivered during the window in which the
+Artificial intelligence is a perturbation of the state of strength and
+technoanatomy, and on the technoanatomy companion's design the largest
+perturbation of the anatomy rates in the record, delivered during the window in which the
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the alignment section's state in unit form (R1064).
+% was: Artificial intelligence is a perturbation of the state $(x,\rho)$, and
+% was: on the technoanatomy companion's design the largest perturbation of
+% was: $\rho$ in the record, delivered during the window in which the
 anatomy is being settled. That is the whole of what this paper says
 about it, and it says it as a constraint. The viability boundary of the two-by-two picture of
 Section~\ref{sec:table} is preference-independent: it is a property of
@@ -685,7 +764,9 @@ existence is on that accounting not an accident at odds with the living
 world but structurally implicated in its only presently realized route
 to positive viability
 (\S\ref{hr:sub:environment}). The threat is not thereby diminished ---
-$\rho<0$ remains the live danger, and this section is as much an
+a technoanatomy falling behind remains the live danger, and this section is as much an
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the live danger in unit form (R1064).
+% was: $\rho<0$ remains the live danger, and this section is as much an
 argument for urgency about anatomy as against despair about presence.
 \end{quote}
 
@@ -745,10 +826,15 @@ to a premise the framework shares.
 \textbf{[P]} given the model]\label{hr:prop:extinction}
 In the model of Definition~\ref{imp:model}, a biosphere with no hazard-lowering
 agent is the pinned case $x\equiv0$: no muffling is accumulated, the
-external channel is unshielded at $B_t$, and the internal channel sits
-at its bare coefficient $\Gamma$, so by Proposition~\ref{imp:gating}
-$h_t=B_t+\Gamma$. Then $\Lambda_t=\int_0^t(B_u+\Gamma)\,du\ge\Gamma t\to\infty$,
-with no assumption on the background's long-run behavior needed, so
+external channel is unshielded at $B_t$, and the internal channel is
+silent at zero strength, so by Proposition~\ref{imp:gating}
+$h_t=B_t$. Then $\Lambda_t=\int_0^tB_u\,du\to\infty$ almost surely, by the
+survivorship companion's lemma on infinite sets, so
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the extinction proposition in unit form (R1064).
+% was: external channel is unshielded at $B_t$, and the internal channel sits
+% was: at its bare coefficient $\Gamma$, so by Proposition~\ref{imp:gating}
+% was: $h_t=B_t+\Gamma$. Then $\Lambda_t=\int_0^t(B_u+\Gamma)\,du\ge\Gamma t\to\infty$,
+% was: with no assumption on the background's long-run behavior needed, so
 \[
 \PP(\Lambda_\infty<\infty)=0
 \]
@@ -763,9 +849,14 @@ capacity, $x_t\to0$, and that suffices.
 
 \begin{lemma}[Capability decay; \textbf{[P]} given the model]
 \label{hr:lem:decay}
-If $x_t\to0$, then $\Gamma e^{-\rho x_t}\to\Gamma>0$, so there is $t_0$
-with $h_t\ge\Gamma/2$ for all $t\ge t_0$, whence
-$\Lambda_\infty\ge\int_{t_0}^\infty\Gamma/2\,dt=\infty$ and $\PP(T=\infty)=0$.
+If $x_t\to0$, then $\operatorname{sech}^2x_t^+\to1$, so there is $t_0$
+with $h_t\ge B_t/2$ for all $t\ge t_0$, whence
+$\Lambda_\infty\ge\tfrac12\int_{t_0}^\infty B_t\,dt=\infty$ almost surely, by
+the survivorship companion's lemma on infinite sets, and $\PP(T=\infty)=0$.
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the capability-decay lemma in unit form (R1064).
+% was: If $x_t\to0$, then $\Gamma e^{-\rho x_t}\to\Gamma>0$, so there is $t_0$
+% was: with $h_t\ge\Gamma/2$ for all $t\ge t_0$, whence
+% was: $\Lambda_\infty\ge\int_{t_0}^\infty\Gamma/2\,dt=\infty$ and $\PP(T=\infty)=0$.
 \end{lemma}
 
 \noindent The premise the extinctionist position must therefore
@@ -775,8 +866,12 @@ must price the replacement.
 
 Compare the alternative. By Theorem~\ref{imp:twocond}, a biosphere
 that does accumulate muffling has
-$\PP(\Lambda_\infty<\infty)=\one\{\rho>0\}\,V_{\mathrm{drv}}(\mu_0)$,
-which is positive whenever anatomy is positive and the driver-viability
+$\PP(\Lambda_\infty<\infty)=V_{\mathrm{drv}}(\mu_0)\prod_jV_{\mathrm{anat}}(\eta_{j,0})$
+for anatomy rates independent of a driver of bounded drift, which is
+positive whenever every anatomy factor is positive and the driver-viability
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the comparison in unit form (R1063).
+% was: $\PP(\Lambda_\infty<\infty)=\one\{\rho>0\}\,V_{\mathrm{drv}}(\mu_0)$,
+% was: which is positive whenever anatomy is positive and the driver-viability
 functional is: for a transient driver escaping toward $+\infty$, or a
 positive recurrent one with positive stationary mean, which
 \emph{widens} the class of muffling dynamics this comparison can
@@ -797,11 +892,15 @@ the probability, from the present state $S_{\mathrm{now}}$, that the
 retained civilizational route enters the live region of
 Theorem~\ref{imp:twocond}, the technoanatomy schedule's
 surviving-completion kernel integrated against
-$\one\{\rho>0\}V_{\mathrm{drv}}$ supplying its exact form. The premise
+$V_{\mathrm{anat}}V_{\mathrm{drv}}$ supplying its exact form. The premise
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the composite's anatomy factor (R1064).
+% was: $\one\{\rho>0\}V_{\mathrm{drv}}$ supplying its exact form. The premise
 is $V_{\mathrm{current}}>0$: the anatomy is movable.
 \end{premise}
 \noindent Without it the comparison is $0$ against $0$, and an
-extinctionist convinced that $\rho$ is irreversibly adverse retains a
+extinctionist convinced that the technoanatomy is irreversibly behind retains a
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: irreversibly behind (R1064).
+% was: extinctionist convinced that $\rho$ is irreversibly adverse retains a
 coherent objection, which the section takes up rather than dismisses.
 
 Two scopings keep the zero honest at the site. The \textbf{[P]} is
@@ -881,53 +980,95 @@ The argument has a real limit, and stating it is what keeps it honest.
 
 \begin{remark}[Adverse anatomy does not vindicate the position]
 \label{hr:rem:concession}
-The natural concession at this point is that under $\rho<0$ the
+The natural concession at this point is that under adverse anatomy the
 extinctionist is closer to right, since $x\equiv0$ leaves hazard merely
-at background while adverse anatomy drives it upward. The concession
+at background while a technoanatomy left behind drives it upward. The concession
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the concession in unit form (R1064).
+% was: The natural concession at this point is that under $\rho<0$ the
+% was: extinctionist is closer to right, since $x\equiv0$ leaves hazard merely
+% was: at background while adverse anatomy drives it upward. The concession
 should not be made, and seeing why changes which options the argument is
 really between.
 
 \emph{First, the local comparison goes the other way.} A biosphere with
-adverse anatomy that \emph{halts} at the optimum $x_\ast$ of
-the survivorship companion \cite{GoldenSurvivorship}(iii) sits at hazard $h_\ast$, and
-$h_\ast\le h(0)$ for every $\rho<0$, strictly except at the tuned
-parameter values at which $x=0$ is itself the minimum. Numerically, at
-$B=1$, $b=3$, $\Gamma=e^{-6}$:
+technoanatomy held fixed that \emph{halts} at the optimum $x_\ast$ of its
+hazard sits at $h_\ast$, and $h_\ast\le h(0)=B$ for every such
+technoanatomy, strictly exactly when $\sum_j\Gamma_j\tau_j^{-2}<B$, the
+internal channel's curvature at the wall below the background's: if it
+is not, then $\Gamma\sinh^2(x/\tau)\ge\Gamma x^2/\tau^2$ and
+$B\tanh^2x\le Bx^2$ give $h(x)\ge B$ at every strength. Numerically, at
+$B=1$ and one unit of amplitude $\Gamma=e^{-6}$:
 \begin{center}\small
 \begin{tabular}{@{}rrrrr@{}}
 \toprule
-$\rho$ & $h(0)$ & $x_\ast$ & $h(x_\ast)$ & expectancy gain\\
+$\tau$ & $h(0)$ & $x_\ast$ & $h(x_\ast)$ & expectancy gain\\
 \midrule
-$-0.05$ & $1.00$ & $11.47$ & $0.0046$ & $217\times$\\
-$-0.20$ & $1.00$ & $8.88$ & $0.0176$ & $57\times$\\
-$-1.00$ & $1.00$ & $4.28$ & $0.407$ & $2.5\times$\\
-$-2.00$ & $1.00$ & $1.82$ & $0.898$ & $1.1\times$\\
+$40$ & $1.00$ & $6.44$ & $7.5\times10^{-5}$ & $13{,}300\times$\\
+$10$ & $1.00$ & $5.10$ & $8.5\times10^{-4}$ & $1{,}170\times$\\
+$2$ & $1.00$ & $3.15$ & $0.0206$ & $48.6\times$\\
+$1$ & $1.00$ & $2.18$ & $0.0971$ & $10.3\times$\\
 \bottomrule
 \end{tabular}
 \end{center}
-Even at $\rho=-2$ --- anatomy adverse enough that capability doubles
-internal hazard twice over --- halting still beats having no muffling at
-all. So $x\equiv0$ is weakly dominated for every $\rho<0$, and strictly
-dominated generically. Adverse
+Even at $\tau=1$ --- a scalar small enough that each unit of strength
+multiplies the unit's hazard by about $e^{2}$ once the load is large ---
+halting still beats having no muffling at all. So $x\equiv0$ is weakly
+dominated for every technoanatomy held fixed, and strictly dominated
+wherever the internal curvature at the wall is below the background, as
+in every row of the table. Adverse
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the local comparison recomputed for a unit at fixed scalar, with the exact condition for strict dominance (the companions' unit form (his direction of Nov 26, R1063 and R1064)); the rows' scalars give the large-load exponential rates 0.05, 0.2, 1 and 2 of the earlier rows.
+% was: adverse anatomy that \emph{halts} at the optimum $x_\ast$ of
+% was: the survivorship companion \cite{GoldenSurvivorship}(iii) sits at hazard $h_\ast$, and
+% was: $h_\ast\le h(0)$ for every $\rho<0$, strictly except at the tuned
+% was: parameter values at which $x=0$ is itself the minimum. Numerically, at
+% was: $B=1$, $b=3$, $\Gamma=e^{-6}$:
+% was: \begin{center}\small
+% was: \begin{tabular}{@{}rrrrr@{}}
+% was: \toprule
+% was: $\rho$ & $h(0)$ & $x_\ast$ & $h(x_\ast)$ & expectancy gain\\
+% was: \midrule
+% was: $-0.05$ & $1.00$ & $11.47$ & $0.0046$ & $217\times$\\
+% was: $-0.20$ & $1.00$ & $8.88$ & $0.0176$ & $57\times$\\
+% was: $-1.00$ & $1.00$ & $4.28$ & $0.407$ & $2.5\times$\\
+% was: $-2.00$ & $1.00$ & $1.82$ & $0.898$ & $1.1\times$\\
+% was: \bottomrule
+% was: \end{tabular}
+% was: \end{center}
+% was: Even at $\rho=-2$ --- anatomy adverse enough that capability doubles
+% was: internal hazard twice over --- halting still beats having no muffling at
+% was: all. So $x\equiv0$ is weakly dominated for every $\rho<0$, and strictly
+% was: dominated generically. Adverse
 anatomy is worse than absence only if the biosphere \emph{fails to
 halt}, which is a failure to stop rather than a property of the anatomy.
 
 \emph{Second, and this is the point the local comparison obscures, both
-options forfeit.} By Theorem~\ref{imp:twocond},
-$\PP(\text{viable})=\one\{\rho>0\}\,V_{\mathrm{drv}}(\mu_0)$. At
+options forfeit.} By Theorem~\ref{imp:twocond}, a technoanatomy held
+fixed makes viability null. At
 $x\equiv0$ there is no muffling agent, hazard sits at background, and
-$\Lambda_\infty=\infty$. At $\rho<0$ halted at $x_\ast$, hazard sits at
+$\Lambda_\infty=\infty$. Held at $x_\ast$ with its scalars fixed, hazard sits at
 $h_\ast>0$, and $\Lambda_\infty=\infty$. \emph{Both are zero.} The
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: both options forfeit, in unit form (R1064).
+% was: options forfeit.} By Theorem~\ref{imp:twocond},
+% was: $\PP(\text{viable})=\one\{\rho>0\}\,V_{\mathrm{drv}}(\mu_0)$. At
+% was: $x\equiv0$ there is no muffling agent, hazard sits at background, and
+% was: $\Lambda_\infty=\infty$. At $\rho<0$ halted at $x_\ast$, hazard sits at
+% was: $h_\ast>0$, and $\Lambda_\infty=\infty$. \emph{Both are zero.} The
 extinctionist and the biosphere that settles at $x_\ast$ are not
 choosing between a worse and a better outcome; they are choosing between
 two ways of dying, and the model does not distinguish them in the only
 respect that admits an answer other than death.
 
 The response to adverse anatomy is therefore not to select among the
-zeros. It is to move $\rho$, which is the one intervention that changes
-the indicator rather than the multiplicand --- and which
+zeros. It is to move the technoanatomy, raising its scalars faster than
+the strength, which is the one intervention that changes
+the technoanatomy factor rather than the multiplicand --- and which
 the broader Golden program exists to model. A reader persuaded of the danger and
-unpersuaded that $\rho$ can be moved still has a coherent position, and
+unpersuaded that the technoanatomy can be moved still has a coherent position, and
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the response to adverse anatomy in unit form (R1064).
+% was: zeros. It is to move $\rho$, which is the one intervention that changes
+% was: the indicator rather than the multiplicand --- and which
+% was: the broader Golden program exists to model. A reader persuaded of the danger and
+% was: unpersuaded that $\rho$ can be moved still has a coherent position, and
 it remains the strongest form of the view opposed here; but it is a
 claim about the tractability of anatomy, not a defense of extinction.
 
@@ -939,7 +1080,9 @@ successor muffling agent arriving at a small instantaneous rate has,
 over long enough intervals, a cumulative probability that is not small.
 Let $\alpha_t$ be the arrival intensity of a candidate successor and
 $q_t$ its probability of completing the schedule on arrival, and let
-$h^{(0)}$ be the pinned hazard $B+\Gamma$ of the interval before
+$h^{(0)}$ be the pinned hazard $B$ of the interval before
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the pinned hazard is the bare background (R1064, R1065).
+% was: $h^{(0)}$ be the pinned hazard $B+\Gamma$ of the interval before
 recovery. In the competing-risks form the residual of
 Definition~\ref{gc:def:epsdep} is
 \begin{equation}\label{hr:eq:epssucc}
@@ -1048,9 +1191,13 @@ completion state]\label{hr:rem:monotone}
 Let the schedule be homogeneous and pinned, with completion weight
 $u<1$ per gate (the technoanatomy companion \cite{GoldenTechnoanatomy}), and suppose
 every completing branch enters a common deterministic completion state
-of viability $V_\infty=\one\{\rho>0\}V_{\mathrm{drv}}$; without that
+of viability $V_\infty=V_{\mathrm{anat}}V_{\mathrm{drv}}$; without that
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the completion state's viability (R1064).
+% was: of viability $V_\infty=\one\{\rho>0\}V_{\mathrm{drv}}$; without that
 idealization $u^{\,n-k}V_\infty$ is replaced by the integral of
-$V_{\mathrm{drv}}$ against the surviving-completion kernel from stage
+$V_{\mathrm{anat}}V_{\mathrm{drv}}$ against the surviving-completion kernel from stage
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the kernel's integrand (R1064).
+% was: $V_{\mathrm{drv}}$ against the surviving-completion kernel from stage
 $k$, and the monotonicity below is the kernel's. For a lineage that has
 cleared $k$ gates, the viability forfeited by abandoning the schedule
 is
@@ -1134,18 +1281,30 @@ The opposite error requires less new argument, since the result it
 founders on is already proved. Techno-optimism holds that continued growth in capability is the answer
 to the risks capability creates. In the model's terms it supplies the
 driver-viability factor of Theorem~\ref{imp:twocond} and is silent on
-the anatomy factor --- $\rho$ does not appear in any accounting of energy
-capture, capability, or rate of progress, and cannot be inferred from
-them.
+the anatomy factors --- the anatomy rates do not appear in any accounting
+of energy capture, capability, or rate of progress, and cannot be inferred
+from them.
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the anatomy factors off every capability index (R1064).
+% was: the anatomy factor --- $\rho$ does not appear in any accounting of energy
+% was: capture, capability, or rate of progress, and cannot be inferred from
+% was: them.
 
 The verdict is not that this leaves the conclusion unsupported but that
-it inverts it. With $\rho<0$, feedback does not fail to secure survival;
+it inverts it. With a technoanatomy that falls behind, feedback does not fail to secure survival;
 it \emph{accelerates the failure}, since $\mu_t\to+\infty$ drives
 $x_t\to+\infty$ and hence, by
-the survivorship companion \cite{GoldenSurvivorship}(iii), $h\to\infty$
+the survivorship companion \cite{GoldenSurvivorship}, the hazard up
 superexponentially. Capability alone cannot deliver positive viability
-under adverse anatomy, and beyond the adverse-anatomy hazard minimum
-$x_\ast$ continued growth becomes actively self-defeating: a
+while technoanatomy lags, and beyond the hazard minimum $x_\ast$ of a
+technoanatomy held fixed continued growth becomes actively self-defeating: a
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: feedback with a lagging technoanatomy (R1063).
+% was: it inverts it. With $\rho<0$, feedback does not fail to secure survival;
+% was: it \emph{accelerates the failure}, since $\mu_t\to+\infty$ drives
+% was: $x_t\to+\infty$ and hence, by
+% was: the survivorship companion \cite{GoldenSurvivorship}(iii), $h\to\infty$
+% was: superexponentially. Capability alone cannot deliver positive viability
+% was: under adverse anatomy, and beyond the adverse-anatomy hazard minimum
+% was: $x_\ast$ continued growth becomes actively self-defeating: a
 poorly-constituted biosphere that halts sits at its hazard floor
 $h_\ast\le h(0)$, while one that accelerates past $x_\ast$ runs at its
 own cliff. Both have viability zero; what separates them is the
@@ -1154,8 +1313,8 @@ instantaneous hazard along the way.
 \begin{remark}[The cascade forces anatomy to be a process]
 \label{hr:rem:forcesprocess}
 Both arguments of this section, taken with
-the Route World companion \cite{GoldenRouteWorld}, deliver a verdict on the fixed-$\rho$ model
-that is worth confronting rather than absorbing. If $\rho<0$ and $\rho$ is a \emph{constant}, then
+the Route World companion \cite{GoldenRouteWorld}, deliver a verdict on a model with technoanatomy held
+that is worth confronting rather than absorbing. If the technoanatomy is held, its scalars fixed or its rates constant and not positive, then
 Theorem~\ref{imp:twocond} gives
 $\PP(\Lambda_\infty<\infty)=0$ identically --- at every time, including
 $t=0$. By the modal definition the biosphere is then in $\mu G$ from the
@@ -1166,24 +1325,55 @@ asked, which is not a claim about biospheres but a symptom of the
 model.
 
 The degeneracy has exactly one exit, and it is not a matter of taste.
-It is avoided if and only if $\rho$ can change --- if adverse anatomy
-now leaves open a continuation in which anatomy is not adverse later.
-That is the fluctuating-anatomy setting of
-the survivorship companion \cite{GoldenSurvivorship}, where
-Corollary~\ref{imp:overlap} and
-the survivorship companion \cite{GoldenSurvivorship} take over, and where the question
-becomes whether the escape is completed in time rather than whether it
-was ever available.
+It is avoided if and only if the technoanatomy can change --- if a
+technoanatomy behind now leaves open a continuation in which it catches
+up later. That is the setting of the survivorship companion's two-driver
+theorem \cite{GoldenSurvivorship}, where each anatomy rate carries noise of
+its own, so that a rate behind now has a positive probability of
+escaping ahead, the self-reinforcing rate's second Gaussian sigmoid, and
+where, with Corollary~\ref{imp:overlap}, the question becomes whether the
+escape is completed in time rather than whether it was ever available.
 
 So the cascade converts emergent anatomy from a desirable extension
-into a \emph{requirement of coherence}. A framework that treats
-technoanatomy as a parameter and departure as modal closure will
-pronounce every adverse-anatomy biosphere already lost; only a
-framework in which anatomy has its own dynamics can say the thing this
-section is trying to say, which is that the matter is open and the
-window is closing. The arguments above should be read as holding under
-the fluctuating reading, and the fixed-$\rho$ statements as the
-limiting case in which the window has already shut.
+into a \emph{requirement of coherence}, and the unit form meets it. A
+framework that treats technoanatomy as a parameter and departure as
+modal closure will pronounce every adverse-anatomy biosphere already
+lost; only a framework in which anatomy has its own dynamics can say the
+thing this section is trying to say, which is that the matter is open and
+the window is closing. The arguments above hold under the anatomy rates
+of the companion, and a technoanatomy held fixed is the limiting case in
+which the window has already shut.
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: his cascade remark, which required anatomy to be a process, now met by the anatomy rate of the unit form (the companions' unit form (his direction of Nov 26, R1063 and R1064)).
+% was: the Route World companion \cite{GoldenRouteWorld}, deliver a verdict on the fixed-$\rho$ model
+% was: that is worth confronting rather than absorbing. If $\rho<0$ and $\rho$ is a \emph{constant}, then
+% was: Theorem~\ref{imp:twocond} gives
+% was: $\PP(\Lambda_\infty<\infty)=0$ identically --- at every time, including
+% was: $t=0$. By the modal definition the biosphere is then in $\mu G$ from the
+% was: outset: no continuation available to it ever advances, and it departed
+% was: before anything happened. That is a degenerate verdict. It says the
+% was: question of what such a biosphere should do was settled before it was
+% was: asked, which is not a claim about biospheres but a symptom of the
+% was: model.
+% was:
+% was: The degeneracy has exactly one exit, and it is not a matter of taste.
+% was: It is avoided if and only if $\rho$ can change --- if adverse anatomy
+% was: now leaves open a continuation in which anatomy is not adverse later.
+% was: That is the fluctuating-anatomy setting of
+% was: the survivorship companion \cite{GoldenSurvivorship}, where
+% was: Corollary~\ref{imp:overlap} and
+% was: the survivorship companion \cite{GoldenSurvivorship} take over, and where the question
+% was: becomes whether the escape is completed in time rather than whether it
+% was: was ever available.
+% was:
+% was: So the cascade converts emergent anatomy from a desirable extension
+% was: into a \emph{requirement of coherence}. A framework that treats
+% was: technoanatomy as a parameter and departure as modal closure will
+% was: pronounce every adverse-anatomy biosphere already lost; only a
+% was: framework in which anatomy has its own dynamics can say the thing this
+% was: section is trying to say, which is that the matter is open and the
+% was: window is closing. The arguments above should be read as holding under
+% was: the fluctuating reading, and the fixed-$\rho$ statements as the
+% was: limiting case in which the window has already shut.
 \end{remark}
 
 \paragraph{The two errors are the same error.}\label{hr:rem:sameerror}
@@ -1191,9 +1381,13 @@ Placed side by side, the positions are not opposites but a single
 mistake taken in two directions. Both treat capability as the only
 variable. The techno-optimist maximizes it; the extinctionist minimizes
 it; neither carries a parameter for whether capability, once acquired,
-is turned inward. Once $\rho$ is in the model the spectrum they occupy
+is turned inward. Once technoanatomy is in the model the spectrum they occupy
 is revealed as one axis of a two-dimensional space, and the interesting
-region, positive anatomy with accumulating capability, lies on
+region, technoanatomy outrunning accumulating capability, lies on
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the two errors in unit form (R1064).
+% was: is turned inward. Once $\rho$ is in the model the spectrum they occupy
+% was: is revealed as one axis of a two-dimensional space, and the interesting
+% was: region, positive anatomy with accumulating capability, lies on
 neither end of it. That is why the disagreement between them has proved
 unresolvable by argument along their shared axis: the quantity that
 settles it is not on that axis.
@@ -1214,7 +1408,9 @@ escalator-myth checklist this framework was run against
 (the broader Golden program) matches capability-first techno-optimism
 at several points, guaranteed ascent, salvation through capability,
 the future as reward, the structure Midgley named \cite{Midgley85};
-the two-condition theorem is the specific fact that structure does not
+the two-driver theorem is the specific fact that structure does not
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the companion's theorem renamed (R1063).
+% was: the two-condition theorem is the specific fact that structure does not
 check. The observation adds nothing to the theorem and is entered as
 interpretation.
 
@@ -1226,9 +1422,15 @@ class whose total hazard is lowered, by any fraction and however rare
 the structure that buys it, over every class that keeps a floor: past a
 horizon logarithmic in the rarity, the odds of the unlowered class fall
 below any bound. The extinctionist's world is the pinned case, keeping
-its floor $B+\Gamma$ exactly (Proposition~\ref{imp:gating}), and so it
-is the class this conditioning excludes. Capability under adverse
-anatomy keeps a floor of its own, its hazard falling at most to the
+its floor $B$ exactly (Proposition~\ref{imp:gating}), and so it
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the pinned floor is the bare background (R1064).
+% was: its floor $B+\Gamma$ exactly (Proposition~\ref{imp:gating}), and so it
+is the class this conditioning excludes. Capability under a technoanatomy held
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: a technoanatomy held fixed (R1064).
+% was: is the class this conditioning excludes. Capability under adverse
+fixed keeps a floor of its own, its hazard falling at most to the
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: a technoanatomy held fixed (R1064).
+% was: anatomy keeps a floor of its own, its hazard falling at most to the
 minimum $h_\ast$ at $x_\ast$ and rising past it, so it is outweighed in
 turn by any class whose total hazard keeps falling, and outright by a
 viable class wherever one has positive weight. What the
@@ -1281,8 +1483,12 @@ the requirement that a conditioning target apply across the whole record
 \emph{Positive viability requires the Golden conjunction.} In the model,
 everything outside the live region is nonviable. A biosphere without a
 hazard-lowering agent is the pinned case, with the hazard floor
-$B+\Gamma$; a biosphere with adverse anatomy is fatal with certainty by
-Theorem~\ref{imp:twocond}. Only the conjunction of positive anatomy,
+$B$; a biosphere with adverse anatomy is fatal with certainty by
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the pinned floor is the bare background (R1064).
+% was: $B+\Gamma$; a biosphere with adverse anatomy is fatal with certainty by
+Theorem~\ref{imp:twocond}. Only the conjunction of technoanatomy outrunning the strength,
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the live conjunction in unit form (R1064).
+% was: Theorem~\ref{imp:twocond}. Only the conjunction of positive anatomy,
 favorable driver dynamics, and accumulating capability yields
 $\PP(\Lambda_\infty<\infty)>0$, and many trajectories could in
 principle instantiate that region; what the Route World companion adds
@@ -1318,7 +1524,9 @@ then read as produced under a conditioning that the passage occur.
 
 \emph{Not established:} that the harm is small, that any particular
 human activity is vindicated, or that the present trajectory is good.
-The threat is real, $\rho<0$ is the live danger, and
+The threat is real, a technoanatomy falling behind is the live danger, and
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the live danger (R1064).
+% was: The threat is real, $\rho<0$ is the live danger, and
 Remark~\ref{hr:rem:concession} declines the concession that a biosphere
 with adverse anatomy is worse than none, and the refusal is an argument
 rather than an optimism. The claim concerns humanity's
@@ -1375,7 +1583,7 @@ the reason neither end of the spectrum is the model's optimum.
 \begin{center}
 \begin{tabular}{@{}l|cc@{}}
 \toprule
- & $\rho\le0$ & $\rho>0$\\
+ & anatomy behind & anatomy ahead\\
 \midrule
 capability unavailable ($x\equiv0$) & nonviable & nonviable\\
 capability accumulating & nonviable & potentially viable\\
@@ -1383,14 +1591,31 @@ capability accumulating & nonviable & potentially viable\\
 \end{tabular}
 \end{center}
 The first row is Proposition~\ref{imp:gating}: with capability pinned,
-the hazard floor $B_t+\Gamma$ makes viability zero at either sign, which
+the bare background makes viability zero either way, which
 is the result against environmental extinctionism. The second row's
-first cell is Theorem~\ref{imp:twocond} at $\rho\le0$, viability null
+first cell is Theorem~\ref{imp:twocond} for a technoanatomy that does not keep growing, viability null
 for every driver, which is the result against capability-first
 techno-optimism. The remaining cell is the only one with positive
 viability, and it is positive only when the driver-viability functional
 is: the model's live region is accumulating capability with favorable
 anatomy, and the two errors are the two ways of leaving it.
+% R1066 (Opus 5.5, Nov 27 2026), at the author's direction: the core table read by the race (R1064).
+% was:  & $\rho\le0$ & $\rho>0$\\
+% was: \midrule
+% was: capability unavailable ($x\equiv0$) & nonviable & nonviable\\
+% was: capability accumulating & nonviable & potentially viable\\
+% was: \bottomrule
+% was: \end{tabular}
+% was: \end{center}
+% was: The first row is Proposition~\ref{imp:gating}: with capability pinned,
+% was: the hazard floor $B_t+\Gamma$ makes viability zero at either sign, which
+% was: is the result against environmental extinctionism. The second row's
+% was: first cell is Theorem~\ref{imp:twocond} at $\rho\le0$, viability null
+% was: for every driver, which is the result against capability-first
+% was: techno-optimism. The remaining cell is the only one with positive
+% was: viability, and it is positive only when the driver-viability functional
+% was: is: the model's live region is accumulating capability with favorable
+% was: anatomy, and the two errors are the two ways of leaving it.
 
 \section{What is not claimed}\label{sec:fences}
 

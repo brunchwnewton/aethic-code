@@ -84,6 +84,15 @@
   publisher = {Cambridge University Press},
   year      = {2019}
 }
+@article{EPW67,
+  author  = {Esary, J. D. and Proschan, F. and Walkup, D. W.},
+  title   = {Association of random variables, with applications},
+  journal = {Annals of Mathematical Statistics},
+  volume  = {38},
+  year    = {1967},
+  pages   = {1466--1474}
+}
+% R1074 (Fable 5.2, Nov 27 2026), at the author's direction: reference for the association of independent variables, cited in the lemma that carries the theorem on the pace of survivors. Bibliographic data checked against an index page; the article itself was not opened, and the property used is proved in the lemma.
 @article{GG01,
   author  = {Gavrilov, Leonid A. and Gavrilova, Natalia S.},
   title   = {The reliability theory of aging and longevity},
@@ -285,7 +294,17 @@ Fable~5), under the author's direction.}}
 \maketitle
 
 \begin{abstract}
-We study the survival theory of a hazard rate whose noise is placed one integration further out than is standard: rather than diffusing $h$ or $\log h$, we diffuse the negative logarithmic derivative $\mu=-\frac{d}{dt}\log h$, so that the integrated driver is a Kolmogorov diffusion and the governing persistence exponent moves from $\tfrac12$ to $\tfrac14$. The hazard carries two channels: an external background, muffled by the accumulated exponent, and an internal term $\Gamma e^{-\rho x}$ that the same exponent feeds or starves according to the sign of the response exponent $\rho$. The total hazard stays finite exactly when $\rho$ is positive and the driver's long-run behavior is favorable, so that no magnitude of accumulated capacity substitutes for the sign, and no event of bounded duration perfectly separates the survivorship-conditioned law from the unconditioned one. First, a trichotomy in $\rho$: for $\rho\le0$ the viability event $\{\Lambda_\infty<\infty\}$ is null for every parameter value and every driver, while for $\rho>0$ viability factors as an indicator in $\rho$ times a driver-viability functional, two logically distinct necessary conditions. Second, a conjectural transfer: the two-channel model's survival asymptotics are conjectured to coincide with those of the bare integrated-driver model up to a shift of initial data and bounded constants, conditional on a soft-wall reduction stated as an explicit Ansatz, supported numerically and not proved. Third, the survivorship interpolation $\PP(\cdot\mid T>t)$ is a monotone flow of upward tilts whose limit, in the critical regime, is the Doob $\hm$-transform: locally absolutely continuous with respect to the unconditioned law on survivors and globally singular. Monte Carlo experiments support the $t^{-1/4}$ exponent and the finite-window kinematic factor. One candidate empirical signature follows, a survivor hazard decaying as $1/(4t)$ under criticality, which does not by itself distinguish the model from static frailty.
+We study the survival theory of a hazard rate whose noise is placed one integration further out than is standard: rather than diffusing $h$ or $\log h$, we diffuse the negative logarithmic derivative $\mu=-\frac{d}{dt}\log h$, so that the integrated driver is a Kolmogorov diffusion and the governing persistence exponent moves from $\tfrac12$ to $\tfrac14$. The hazard carries two channels, both read at the technostrength $x^+$, the positive part of the accumulated exponent: an external background muffled by the factor $\operatorname{sech}^2x^+$, and an internal channel that is a sum of units $\Gamma_j\sinh^2(x^+/\tau_j)$, each carrying a technoanatomy scalar $\tau_j>0$ whose logarithm is driven in turn, with the noise on its rate. The total hazard stays finite exactly when the strength's driver outruns the background and every unit's technoanatomy outruns the strength, so that no magnitude of accumulated capacity substitutes for technoanatomy, and no event of bounded duration perfectly separates the survivorship-conditioned law from the unconditioned one. First, a two-driver theorem: technoanatomy that stays bounded, or whose rate is critical, makes the viability event $\{\Lambda_\infty<\infty\}$ null for every driver; for strength drivers of bounded drift and anatomy rates independent of them, viability factors as the strength's driver-viability functional times the same functional of each unit's anatomy rate; a technoanatomy coupled to the strength, its scalar leading the strength and still improving, needs no bound on the driver, its factor being the same functional of the lead's rate; and in the solvable case the factors are two Gaussian sigmoids. Second, a conjectural transfer: where the internal channel is eventually dominated by the external one, the two-channel model's survival asymptotics are conjectured to coincide with those of the bare integrated-driver model with the credit doubled, up to a shift of initial data and bounded constants, conditional on a soft-wall reduction stated as an explicit Ansatz, supported numerically and not proved. Third, the survivorship interpolation $\PP(\cdot\mid T>t)$ is a monotone flow of upward tilts whose limit, in the critical regime, is the Doob $\hm$-transform: locally absolutely continuous with respect to the unconditioned law on survivors and globally singular. Fourth, the driver itself: continuous paths, stationary independent increments and the absence of a timescale leave the driftless Brownian rate, and a stretch of travel in one direction then obeys a Lindy law whose exponent is derived and not assumed, lasting a further $s$ at age $a$ with probability $(a/(a+s))^{1/2}$. Fifth, the pace of technoanatomy against strength is an output of the filtering and not a premise: with generic rates, independent and with nothing to hold a lead up, the conditioned law of every anatomy rate dominates the unconditioned one at every horizon, and among the histories that survive holding strength the lead of every unit is of order $t^{3/2}$, the scalar standing below the strength with probability $O(t^{-3/2}\log\log t)$ against one half unfiltered. Monte Carlo experiments support the $t^{-1/4}$ exponent and the finite-window kinematic factor, and indicate that a unit whose technoanatomy is held at criticality adds one quarter to the exponent. One candidate empirical signature follows, a survivor hazard decaying as $1/(4t)$ under criticality, which does not by itself distinguish the model from static frailty.
+% R1074 (Fable 5.2, Nov 27 2026), at the author's direction: his request of Nov 27 for an analytic proof of the outcome the simulation of R1073 showed (the pace of technoanatomy against strength as an output of the filtering). The abstract states the pace as the paper's fifth result, proved (Theorem on the pace of survivors), in place of the clause that had it indicated by simulation.
+% was: We study the survival theory of a hazard rate whose noise is placed one integration further out than is standard: rather than diffusing $h$ or $\log h$, we diffuse the negative logarithmic derivative $\mu=-\frac{d}{dt}\log h$, so that the integrated driver is a Kolmogorov diffusion and the governing persistence exponent moves from $\tfrac12$ to $\tfrac14$. The hazard carries two channels, both read at the technostrength $x^+$, the positive part of the accumulated exponent: an external background muffled by the factor $\operatorname{sech}^2x^+$, and an internal channel that is a sum of units $\Gamma_j\sinh^2(x^+/\tau_j)$, each carrying a technoanatomy scalar $\tau_j>0$ whose logarithm is driven in turn, with the noise on its rate. The total hazard stays finite exactly when the strength's driver outruns the background and every unit's technoanatomy outruns the strength, so that no magnitude of accumulated capacity substitutes for technoanatomy, and no event of bounded duration perfectly separates the survivorship-conditioned law from the unconditioned one. First, a two-driver theorem: technoanatomy that stays bounded, or whose rate is critical, makes the viability event $\{\Lambda_\infty<\infty\}$ null for every driver; for strength drivers of bounded drift and anatomy rates independent of them, viability factors as the strength's driver-viability functional times the same functional of each unit's anatomy rate; a technoanatomy coupled to the strength, its scalar leading the strength and still improving, needs no bound on the driver, its factor being the same functional of the lead's rate; and in the solvable case the factors are two Gaussian sigmoids. Second, a conjectural transfer: where the internal channel is eventually dominated by the external one, the two-channel model's survival asymptotics are conjectured to coincide with those of the bare integrated-driver model with the credit doubled, up to a shift of initial data and bounded constants, conditional on a soft-wall reduction stated as an explicit Ansatz, supported numerically and not proved. Third, the survivorship interpolation $\PP(\cdot\mid T>t)$ is a monotone flow of upward tilts whose limit, in the critical regime, is the Doob $\hm$-transform: locally absolutely continuous with respect to the unconditioned law on survivors and globally singular. Fourth, the driver itself: continuous paths, stationary independent increments and the absence of a timescale leave the driftless Brownian rate, and a stretch of travel in one direction then obeys a Lindy law whose exponent is derived and not assumed, lasting a further $s$ at age $a$ with probability $(a/(a+s))^{1/2}$. Monte Carlo experiments support the $t^{-1/4}$ exponent and the finite-window kinematic factor, and indicate that a unit whose technoanatomy is held at criticality adds one quarter to the exponent, and that with generic, uncoupled rates the pace of technoanatomy against strength is produced by the conditioning itself. One candidate empirical signature follows, a survivor hazard decaying as $1/(4t)$ under criticality, which does not by itself distinguish the model from static frailty.
+% R1073 (Fable 5.2, Nov 27 2026), at the author's direction: the abstract names the pace as an output of conditioning.
+% was: We study the survival theory of a hazard rate whose noise is placed one integration further out than is standard: rather than diffusing $h$ or $\log h$, we diffuse the negative logarithmic derivative $\mu=-\frac{d}{dt}\log h$, so that the integrated driver is a Kolmogorov diffusion and the governing persistence exponent moves from $\tfrac12$ to $\tfrac14$. The hazard carries two channels, both read at the technostrength $x^+$, the positive part of the accumulated exponent: an external background muffled by the factor $\operatorname{sech}^2x^+$, and an internal channel that is a sum of units $\Gamma_j\sinh^2(x^+/\tau_j)$, each carrying a technoanatomy scalar $\tau_j>0$ whose logarithm is driven in turn, with the noise on its rate. The total hazard stays finite exactly when the strength's driver outruns the background and every unit's technoanatomy outruns the strength, so that no magnitude of accumulated capacity substitutes for technoanatomy, and no event of bounded duration perfectly separates the survivorship-conditioned law from the unconditioned one. First, a two-driver theorem: technoanatomy that stays bounded, or whose rate is critical, makes the viability event $\{\Lambda_\infty<\infty\}$ null for every driver; for strength drivers of bounded drift and anatomy rates independent of them, viability factors as the strength's driver-viability functional times the same functional of each unit's anatomy rate; a technoanatomy coupled to the strength, its scalar leading the strength and still improving, needs no bound on the driver, its factor being the same functional of the lead's rate; and in the solvable case the factors are two Gaussian sigmoids. Second, a conjectural transfer: where the internal channel is eventually dominated by the external one, the two-channel model's survival asymptotics are conjectured to coincide with those of the bare integrated-driver model with the credit doubled, up to a shift of initial data and bounded constants, conditional on a soft-wall reduction stated as an explicit Ansatz, supported numerically and not proved. Third, the survivorship interpolation $\PP(\cdot\mid T>t)$ is a monotone flow of upward tilts whose limit, in the critical regime, is the Doob $\hm$-transform: locally absolutely continuous with respect to the unconditioned law on survivors and globally singular. Fourth, the driver itself: continuous paths, stationary independent increments and the absence of a timescale leave the driftless Brownian rate, and a stretch of travel in one direction then obeys a Lindy law whose exponent is derived and not assumed, lasting a further $s$ at age $a$ with probability $(a/(a+s))^{1/2}$. Monte Carlo experiments support the $t^{-1/4}$ exponent and the finite-window kinematic factor, and indicate that a unit whose technoanatomy is held at criticality adds one quarter to the exponent. One candidate empirical signature follows, a survivor hazard decaying as $1/(4t)$ under criticality, which does not by itself distinguish the model from static frailty.
+% R1068 (Fable 5.2, Nov 27 2026), at the author's direction: the abstract names trend survivorship and the exponent at critical technoanatomy (his direction of Nov 27: the rate's noise is there so that the travel holds, and whether that holding is itself a Lindy output).
+% was: We study the survival theory of a hazard rate whose noise is placed one integration further out than is standard: rather than diffusing $h$ or $\log h$, we diffuse the negative logarithmic derivative $\mu=-\frac{d}{dt}\log h$, so that the integrated driver is a Kolmogorov diffusion and the governing persistence exponent moves from $\tfrac12$ to $\tfrac14$. The hazard carries two channels, both read at the technostrength $x^+$, the positive part of the accumulated exponent: an external background muffled by the factor $\operatorname{sech}^2x^+$, and an internal channel that is a sum of units $\Gamma_j\sinh^2(x^+/\tau_j)$, each carrying a technoanatomy scalar $\tau_j>0$ whose logarithm is driven in turn, with the noise on its rate. The total hazard stays finite exactly when the strength's driver outruns the background and every unit's technoanatomy outruns the strength, so that no magnitude of accumulated capacity substitutes for technoanatomy, and no event of bounded duration perfectly separates the survivorship-conditioned law from the unconditioned one. First, a two-driver theorem: technoanatomy that stays bounded, or whose rate is critical, makes the viability event $\{\Lambda_\infty<\infty\}$ null for every driver; for strength drivers of bounded drift and anatomy rates independent of them, viability factors as the strength's driver-viability functional times the same functional of each unit's anatomy rate; a technoanatomy coupled to the strength, its scalar leading the strength and still improving, needs no bound on the driver, its factor being the same functional of the lead's rate; and in the solvable case the factors are two Gaussian sigmoids. Second, a conjectural transfer: where the internal channel is eventually dominated by the external one, the two-channel model's survival asymptotics are conjectured to coincide with those of the bare integrated-driver model with the credit doubled, up to a shift of initial data and bounded constants, conditional on a soft-wall reduction stated as an explicit Ansatz, supported numerically and not proved. Third, the survivorship interpolation $\PP(\cdot\mid T>t)$ is a monotone flow of upward tilts whose limit, in the critical regime, is the Doob $\hm$-transform: locally absolutely continuous with respect to the unconditioned law on survivors and globally singular. Monte Carlo experiments support the $t^{-1/4}$ exponent and the finite-window kinematic factor. One candidate empirical signature follows, a survivor hazard decaying as $1/(4t)$ under criticality, which does not by itself distinguish the model from static frailty.
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: the transfer's scope and the doubled credit of the sech^2 tail (R1063).
+% was: We study the survival theory of a hazard rate whose noise is placed one integration further out than is standard: rather than diffusing $h$ or $\log h$, we diffuse the negative logarithmic derivative $\mu=-\frac{d}{dt}\log h$, so that the integrated driver is a Kolmogorov diffusion and the governing persistence exponent moves from $\tfrac12$ to $\tfrac14$. The hazard carries two channels, both read at the technostrength $x^+$, the positive part of the accumulated exponent: an external background muffled by the factor $\operatorname{sech}^2x^+$, and an internal channel that is a sum of units $\Gamma_j\sinh^2(x^+/\tau_j)$, each carrying a technoanatomy scalar $\tau_j>0$ whose logarithm is driven in turn, with the noise on its rate. The total hazard stays finite exactly when the strength's driver outruns the background and every unit's technoanatomy outruns the strength, so that no magnitude of accumulated capacity substitutes for technoanatomy, and no event of bounded duration perfectly separates the survivorship-conditioned law from the unconditioned one. First, a two-driver theorem: technoanatomy that stays bounded, or whose rate is critical, makes the viability event $\{\Lambda_\infty<\infty\}$ null for every driver; for strength drivers of bounded drift and anatomy rates independent of them, viability factors as the strength's driver-viability functional times the same functional of each unit's anatomy rate; a technoanatomy coupled to the strength, its scalar leading the strength and still improving, needs no bound on the driver, its factor being the same functional of the lead's rate; and in the solvable case the factors are two Gaussian sigmoids. Second, a conjectural transfer: the two-channel model's survival asymptotics are conjectured to coincide with those of the bare integrated-driver model up to a shift of initial data and bounded constants, conditional on a soft-wall reduction stated as an explicit Ansatz, supported numerically and not proved. Third, the survivorship interpolation $\PP(\cdot\mid T>t)$ is a monotone flow of upward tilts whose limit, in the critical regime, is the Doob $\hm$-transform: locally absolutely continuous with respect to the unconditioned law on survivors and globally singular. Monte Carlo experiments support the $t^{-1/4}$ exponent and the finite-window kinematic factor. One candidate empirical signature follows, a survivor hazard decaying as $1/(4t)$ under criticality, which does not by itself distinguish the model from static frailty.
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: the abstract restated for the unit form (his direction of Nov 26: the internal term e^{-rho x} replaced by a sum of unit terms sinh^2(technostrength/technoanatomy scalar), so that good technoanatomy is simply more of it rather than a sign, the weakest unit washing out the others; the scalar an extraction from technoanatomy, a holistic whole whose tendency to change belongs to it, with the noise on that tendency by the Lindy argument (an improving technoanatomy keeps improving at its pace, the hazard being that of breaking from trend); the external channel muffled by sech^2 of technostrength, zero strength being the wall rather than a point some way into a logistic; technostrength and the scalar both positive, technostrength the positive part of the credit (his choice among the options put to him); and, at his further direction of Nov 27, a very good technoanatomy taken to couple to the strength, its scalar far ahead of the technostrength and still improving, which the lead form treats).
+% was: We study the survival theory of a hazard rate whose noise is placed one integration further out than is standard: rather than diffusing $h$ or $\log h$, we diffuse the negative logarithmic derivative $\mu=-\frac{d}{dt}\log h$, so that the integrated driver is a Kolmogorov diffusion and the governing persistence exponent moves from $\tfrac12$ to $\tfrac14$. The hazard carries two channels: an external background, muffled by the accumulated exponent, and an internal term $\Gamma e^{-\rho x}$ that the same exponent feeds or starves according to the sign of the response exponent $\rho$. The total hazard stays finite exactly when $\rho$ is positive and the driver's long-run behavior is favorable, so that no magnitude of accumulated capacity substitutes for the sign, and no event of bounded duration perfectly separates the survivorship-conditioned law from the unconditioned one. First, a trichotomy in $\rho$: for $\rho\le0$ the viability event $\{\Lambda_\infty<\infty\}$ is null for every parameter value and every driver, while for $\rho>0$ viability factors as an indicator in $\rho$ times a driver-viability functional, two logically distinct necessary conditions. Second, a conjectural transfer: the two-channel model's survival asymptotics are conjectured to coincide with those of the bare integrated-driver model up to a shift of initial data and bounded constants, conditional on a soft-wall reduction stated as an explicit Ansatz, supported numerically and not proved. Third, the survivorship interpolation $\PP(\cdot\mid T>t)$ is a monotone flow of upward tilts whose limit, in the critical regime, is the Doob $\hm$-transform: locally absolutely continuous with respect to the unconditioned law on survivors and globally singular. Monte Carlo experiments support the $t^{-1/4}$ exponent and the finite-window kinematic factor. One candidate empirical signature follows, a survivor hazard decaying as $1/(4t)$ under criticality, which does not by itself distinguish the model from static frailty.
 % R985 (Fable 5.2, Nov 13 2026), at the author's direction: abstract shortened from about 495 words to 296; no claim added, the detail removed remains in the body.
 % was: We study the survival theory of a hazard rate whose noise is placed one
 % was: integration further out than is standard: rather than diffusing $h$ or
@@ -345,15 +364,31 @@ governing persistence exponent moves from $\tfrac12$ to $\tfrac14$.
 
 \subsection{The model in three lines}
 \emph{The hazard.}
-$h^{\mathrm{tot}}_t=B_t\varsigma_b(x_t)+\Gamma e^{-\rho x_t}$: an
-external background $B_t$ attenuated by a bounded logistic muffling
-factor $\varsigma_b$ that the accumulated exponent $x$ improves, plus
-an internal term that $x$ feeds or starves according to the sign of
-$\rho$.
+$h^{\mathrm{tot}}_t=B_t\operatorname{sech}^2x_t^++\sum_j\Gamma_j\sinh^2(x_t^+/\tau_{j,t})$:
+an external background $B_t$ muffled by the technostrength $x^+$, the
+positive part of the accumulated exponent, from its full value at zero
+strength toward zero, plus an internal channel of units, each loaded by
+the strength in proportion to $x^+/\tau_j$, where the technoanatomy
+scalar $\tau_j$ is driven in turn, its logarithm the integral of a rate
+that carries the noise.
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: the model's first line in unit form (R1063).
+% was: \emph{The hazard.}
+% was: $h^{\mathrm{tot}}_t=B_t\varsigma_b(x_t)+\Gamma e^{-\rho x_t}$: an
+% was: external background $B_t$ attenuated by a bounded logistic muffling
+% was: factor $\varsigma_b$ that the accumulated exponent $x$ improves, plus
+% was: an internal term that $x$ feeds or starves according to the sign of
+% was: $\rho$.
 
 \emph{The driver.} $x_t=\int_0^t\mu_s\,ds$ with $\mu$ Brownian: the
 noise sits on $\mu=-\frac{d}{dt}\log h$. This placement is the paper's
-principal modeling claim.
+principal modeling claim. Under it a direction of travel that has held
+for an age $a$ holds for a time of order $a$ more
+(Proposition~\ref{prop:trend}), and the driftless Brownian rate is the one
+random rate with continuous paths, stationary independent increments and
+no timescale (Remark~\ref{rem:genericrate}).
+% R1068 (Fable 5.2, Nov 27 2026), at the author's direction: the introduction's statement of the driver points to trend survivorship.
+% was: noise sits on $\mu=-\frac{d}{dt}\log h$. This placement is the paper's
+% was: principal modeling claim.
 
 \emph{Departure.} $T$ is the first time the cumulative hazard exhausts
 an independent unit exponential (a Cox construction), and viability is
@@ -371,9 +406,15 @@ proved here and the soft law $Q^{\mathrm{soft}}$ is conditional on
 Ansatz~\ref{ans:ratio}, and every downstream use says which it consumes.
 
 \emph{The claim.} The total hazard ever accrued stays finite exactly when
-the response exponent is positive and the driver's long-run behavior is
-favorable, so that no magnitude of accumulated capacity substitutes for
-the sign (Theorem~\ref{thm:twocond}), and no event of bounded duration on a
+the strength's driver outruns the background and every unit's
+technoanatomy outruns the strength, so that no magnitude of accumulated
+capacity substitutes for technoanatomy (Theorem~\ref{thm:twocond}), and no
+event of bounded duration on a
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: the claim restated (R1063).
+% was: \emph{The claim.} The total hazard ever accrued stays finite exactly when
+% was: the response exponent is positive and the driver's long-run behavior is
+% was: favorable, so that no magnitude of accumulated capacity substitutes for
+% was: the sign (Theorem~\ref{thm:twocond}), and no event of bounded duration on a
 surviving path perfectly separates the survivorship-conditioned law
 from the unconditioned one (Theorem~\ref{thm:singular}). The rest of the
 paper establishes those two statements and the transfer that connects
@@ -393,8 +434,15 @@ Denisov--Wachtel \cite{DW15}, surveyed in \cite{AS15} and, as the
 \emph{random acceleration process}, possessing an extensive physics
 literature reviewed in \cite{BMS13}. The conditioned (never-hitting)
 process, our limit object in Section~\ref{sec:cond}, is constructed by
-Groeneboom, Jongbloed and Wellner \cite{GJW99}. None of this is ours;
-we import it.
+Groeneboom, Jongbloed and Wellner \cite{GJW99}. The law of the zeros of a
+Brownian rate, L\'evy's arcsine law and It\^o's measure of excursion
+lengths \cite{RY99}, is what Proposition~\ref{prop:trend} reads; the association of independent variables, which carries Theorem~\ref{thm:pace}, is Esary, Proschan and Walkup's \cite{EPW67}. None of
+% R1074 (Fable 5.2, Nov 27 2026), at the author's direction: his request of Nov 27 for an analytic proof of the outcome the simulation of R1073 showed (the pace of technoanatomy against strength as an output of the filtering). The classical input of the proof named in the classical layer.
+% was: lengths \cite{RY99}, is what Proposition~\ref{prop:trend} reads. None of
+this is ours; we import it.
+% R1068 (Fable 5.2, Nov 27 2026), at the author's direction: the classical layer names the classical inputs of the trend-survivorship proposition.
+% was: Groeneboom, Jongbloed and Wellner \cite{GJW99}. None of this is ours;
+% was: we import it.
 
 \emph{The adjacent frameworks.} Our survivorship interpolation belongs
 to two established genres. First, Theorem~\ref{thm:Q} is a
@@ -427,9 +475,19 @@ measures singular with respect to the unbiased law
 \emph{What is claimed as new.} To our knowledge, the following are new
 at least in assembly: the log-derivative placement of the noise, with
 its gauge analysis and the two-sided soft-wall analysis whose
-remaining gap is located exactly (Ansatz~\ref{ans:soft}); the response
-trichotomy and the two-condition viability theorem
-(Theorem~\ref{thm:twocond}); and the survivorship interpolation read
+remaining gap is located exactly (Ansatz~\ref{ans:soft}); the unit form
+of the internal channel, with its technoanatomy driver, and the two-driver
+viability theorem (Theorem~\ref{thm:twocond}), with its lead form for a
+technoanatomy coupled to the strength (Corollary~\ref{cor:lead}); the reading of the rate's excursion law as a Lindy law with its weight derived (Proposition~\ref{prop:trend}); the pace of technoanatomy against strength as an output of the filtering, proved for the histories that survive holding strength (Theorem~\ref{thm:pace}); and the
+% R1074 (Fable 5.2, Nov 27 2026), at the author's direction: his request of Nov 27 for an analytic proof of the outcome the simulation of R1073 showed (the pace of technoanatomy against strength as an output of the filtering). The theorem entered among what is claimed as new.
+% was: technoanatomy coupled to the strength (Corollary~\ref{cor:lead}); the reading of the rate's excursion law as a Lindy law with its weight derived (Proposition~\ref{prop:trend}); and the
+% R1068 (Fable 5.2, Nov 27 2026), at the author's direction: the list of what is new at least in assembly names the Lindy reading of the rate.
+% was: technoanatomy coupled to the strength (Corollary~\ref{cor:lead}); and the
+survivorship interpolation read
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: what is new, restated (R1063).
+% was: remaining gap is located exactly (Ansatz~\ref{ans:soft}); the response
+% was: trichotomy and the two-condition viability theorem
+% was: (Theorem~\ref{thm:twocond}); and the survivorship interpolation read
 as a monotone flow with the tail index as its linear-response
 coefficient, classified into saturation, transformation and
 concentration (Theorem~\ref{thm:modes}). Section~\ref{sec:numerics}
@@ -443,24 +501,53 @@ one-dimensional Brownian motion. Claims are tagged: [P] proved here,
 [C] classical or cited, [A] conditional on Ansatz~\ref{ans:soft},
 [S] scaling-level, [O] open.
 
-\emph{Vocabulary.} Ten terms are the paper's own and are fixed here.
+\emph{Vocabulary.} Fifteen terms are the paper's own and are fixed here.
+% R1068 (Fable 5.2, Nov 27 2026), at the author's direction: two terms added to the vocabulary (gain, trend survivorship).
+% was: \emph{Vocabulary.} Thirteen terms are the paper's own and are fixed here.
 \emph{Departure}: the killing time $T$. \emph{Viability}: the event
 $\{\Lambda_\infty<\infty\}$. \emph{Credit}: the accumulated exponent
-$x_t=\int_0^t\mu$. \emph{Response exponent}: $\rho$, the sign of
-which decides viability. \emph{Muffling factor}: the bounded logistic
-$\varsigma_b(x)$ attenuating the background. \emph{Driver-viability factor}:
-$V_{\mathrm{drv}}$, the second factor of Theorem~\ref{thm:twocond},
-the driver's escape probability when it is transient and the indicator
-of a positive stationary mean when it is positive recurrent. \emph{Hard wall / soft wall}: killing at
+$x_t=\int_0^t\mu$. \emph{Technostrength}: its positive part $x^+$.
+\emph{Technoanatomy scalar}: $\tau_j>0$, the scale of technostrength a
+unit of the internal channel carries. \emph{Anatomy rate}: $\eta_j$, the
+rate of $\log\tau_j$. \emph{Lead}: $\ell_j=\log(\tau_j/x^+)$, how far a
+unit's scalar stands ahead of the technostrength. \emph{Gain}: minus the derivative of the logarithm of a channel's hazard in the strength, taken along the history, the hazard reduction per unit of strength gained; a unit's gain is written $\rho_j$ and its sign is the sign of the race between technoanatomy and strength. \emph{Trend survivorship}: the law by which a stretch of travel in one direction outlasts its age (Proposition~\ref{prop:trend}). \emph{Muffling factor}:
+% R1068 (Fable 5.2, Nov 27 2026), at the author's direction: the vocabulary entries for the gain and for trend survivorship.
+% was: unit's scalar stands ahead of the technostrength. \emph{Muffling factor}:
+$\operatorname{sech}^2x^+$, attenuating the background.
+\emph{Driver-viability factor}: $V_{\mathrm{drv}}$, the strength's factor
+in Theorem~\ref{thm:twocond}, the driver's escape probability when it is
+transient and the indicator of a positive stationary mean when it is
+positive recurrent; the same functional of an anatomy rate is
+$V_{\mathrm{anat}}$, and of the rate of a lead $V_{\mathrm{lead}}$.
+\emph{Hard wall / soft wall}: killing at
 first hitting of a level, against killing by accrued hazard.
 \emph{Survivorship interpolation}: the family
 $\PP(\cdot\mid T>t)$. \emph{Bias field}: the drift the interpolation
 manufactures. \emph{Modes}: saturation, transformation, concentration,
 the three limits of Theorem~\ref{thm:modes}.
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: the vocabulary for the unit form (R1063).
+% was: \emph{Vocabulary.} Ten terms are the paper's own and are fixed here.
+% was: \emph{Departure}: the killing time $T$. \emph{Viability}: the event
+% was: $\{\Lambda_\infty<\infty\}$. \emph{Credit}: the accumulated exponent
+% was: $x_t=\int_0^t\mu$. \emph{Response exponent}: $\rho$, the sign of
+% was: which decides viability. \emph{Muffling factor}: the bounded logistic
+% was: $\varsigma_b(x)$ attenuating the background. \emph{Driver-viability factor}:
+% was: $V_{\mathrm{drv}}$, the second factor of Theorem~\ref{thm:twocond},
+% was: the driver's escape probability when it is transient and the indicator
+% was: of a positive stationary mean when it is positive recurrent. \emph{Hard wall / soft wall}: killing at
+% was: first hitting of a level, against killing by accrued hazard.
+% was: \emph{Survivorship interpolation}: the family
+% was: $\PP(\cdot\mid T>t)$. \emph{Bias field}: the drift the interpolation
+% was: manufactures. \emph{Modes}: saturation, transformation, concentration,
+% was: the three limits of Theorem~\ref{thm:modes}.
 
 \section{The model}\label{sec:model}
 
-\noindent\textit{Why two channels.} The model's split of the hazard into an external channel and an internal one, with the internal channel's response to capacity carrying its own sign, records one observation that motivated it, the internal/external decomposition itself going back to \cite{GoldenScience2022}: once a civilization can destroy or redirect an asteroid on course to wipe out its planet, it has muffled an external hazard with a power that can equally be turned back on the biosphere as a weapon, so the same growth of capacity that answers the external channel opens the internal one, and maintaining the biosphere with stability, an internal rate low and robustly low, becomes a requirement that grows with capacity rather than one it discharges. The single exponent $\rho$ that carries that sign below is an idealization of a structural property the companion paper on technoanatomy decomposes further; the results here are stated for the scalar.
+\noindent\textit{Why two channels.} The model's split of the hazard into an external channel and an internal one, with the internal channel loaded by capacity relative to a technoanatomy that has to keep pace with it, records one observation that motivated it, the internal/external decomposition itself going back to \cite{GoldenScience2022}: once a civilization can destroy or redirect an asteroid on course to wipe out its planet, it has muffled an external hazard with a power that can equally be turned back on the biosphere as a weapon, so the same growth of capacity that answers the external channel opens the internal one, and maintaining the biosphere with stability, an internal rate low and robustly low, becomes a requirement that grows with capacity rather than one it discharges. The technoanatomy scalar below is one extraction from a structural property that the companion paper on technoanatomy treats whole, as a structure with tendencies of its own; the results here are stated for the scalar and its rate.
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: the scalar as an extraction from technoanatomy taken whole (R1063).
+% was: \noindent\textit{Why two channels.} The model's split of the hazard into an external channel and an internal one, with the internal channel loaded by capacity relative to a technoanatomy that has to keep pace with it, records one observation that motivated it, the internal/external decomposition itself going back to \cite{GoldenScience2022}: once a civilization can destroy or redirect an asteroid on course to wipe out its planet, it has muffled an external hazard with a power that can equally be turned back on the biosphere as a weapon, so the same growth of capacity that answers the external channel opens the internal one, and maintaining the biosphere with stability, an internal rate low and robustly low, becomes a requirement that grows with capacity rather than one it discharges. The single exponent $\rho$ that carries that sign below is an idealization of a structural property the companion paper on technoanatomy decomposes further; the results here are stated for the scalar.
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: the motivation restated for the unit form (R1063).
+% was: \noindent\textit{Why two channels.} The model's split of the hazard into an external channel and an internal one, with the internal channel's response to capacity carrying its own sign, records one observation that motivated it, the internal/external decomposition itself going back to \cite{GoldenScience2022}: once a civilization can destroy or redirect an asteroid on course to wipe out its planet, it has muffled an external hazard with a power that can equally be turned back on the biosphere as a weapon, so the same growth of capacity that answers the external channel opens the internal one, and maintaining the biosphere with stability, an internal rate low and robustly low, becomes a requirement that grows with capacity rather than one it discharges. The single exponent $\rho$ that carries that sign below is an idealization of a structural property the companion paper on technoanatomy decomposes further; the results here are stated for the scalar.
 
 
 \begin{definition}[Driftless model]\label{def:model}\footnote{The explicit reason I chose to use the logarithmic derivative of the
@@ -540,98 +627,302 @@ exponent is open \cite{AS15,AD13}. Level two is the last rung that is
 both nontrivial and solvable.
 \end{remark}
 
+\begin{proposition}[Trend survivorship: the Lindy law of the rate; {[P]}]\label{prop:trend}
+In the driftless model call a \emph{stretch} a maximal interval of time on
+which the rate $\mu$ keeps one sign, so that the credit rises throughout
+it or falls throughout it. Let a stretch in progress at time $t$ have
+begun at the rate's last zero $g_t=\sup\{s\le t:\mu_s=0\}$, and call
+$a=t-g_t>0$ its \emph{age}.
+\begin{enumerate}[label=\emph{(\roman*)},itemsep=1pt]
+\item Given its age, the stretch lasts a further time $s$ with probability
+\begin{equation}\label{eq:trend}
+\PP\bigl(\mu\text{ has no zero in }(t,t+s]\bigm|g_t=t-a\bigr)
+=\Bigl(\frac{a}{a+s}\Bigr)^{1/2},
+\end{equation}
+exactly, for every $\sigma>0$, every $\mu_0$, and every $t$ and $s$.
+\item The law \eqref{eq:trend} is that of a memoryless lifetime whose
+rate $\lambda$ is unknown, weighted by $\lambda^{-1/2}d\lambda$ and
+conditioned on the age attained:
+\begin{equation}\label{eq:trendmix}
+\Bigl(\frac{a}{a+s}\Bigr)^{1/2}=\int_0^\infty e^{-\lambda s}\,\gamma_a(\lambda)\,d\lambda,
+\qquad
+\gamma_a(\lambda)=\Bigl(\frac{a}{\pi}\Bigr)^{1/2}\lambda^{-1/2}e^{-\lambda a}.
+\end{equation}
+The hazard of the travel reversing is $1/(2a)$, falling as the stretch
+ages; the median further duration is $3a$; the mean further duration is
+infinite.
+\item The stretches are scale free as a population, before any
+conditioning: under It\^o's excursion measure the length $\ell$ of a
+stretch has density proportional to
+\[
+\ell^{-3/2}=\Gamma(\tfrac32)^{-1}\int_0^\infty\lambda^{-1/2}\,\lambda e^{-\lambda\ell}\,d\lambda,
+\]
+the same weight $\lambda^{-1/2}d\lambda$ over memoryless lifetimes.
+\end{enumerate}
+A stretch still in its first travel from $\mu_0\neq0$, with no zero yet at
+time $t$, lasts a further $s$ with probability
+$\operatorname{erf}\bigl(|\mu_0|/\sigma\sqrt{2(t+s)}\bigr)/\operatorname{erf}\bigl(|\mu_0|/\sigma\sqrt{2t}\bigr)$,
+which tends to $(t/(t+s))^{1/2}$ once $t\gg\mu_0^2/\sigma^2$. The same
+statements hold, with the same proof, of an anatomy rate and of a lead
+rate when they are driftless Brownian: an improving technoanatomy keeps
+improving, and a lead keeps widening, by the same law.
+\end{proposition}
+
+\begin{proof}
+Dividing $\mu$ by $\sigma$ leaves its zeros in place, so take $\sigma=1$.
+(i) Let $\mu_0=0$. By L\'evy's arcsine law the rate has no zero in an
+interval $(u,v)$, $0<u<v$, with probability $(2/\pi)\arcsin\sqrt{u/v}$
+\cite{RY99}. For $u<t<v$ the event $\{g_t\le u\}\cap\{\mu$ has no zero in
+$(t,v]\}$ is the event that $\mu$ has no zero in $(u,v]$, so that,
+differentiating in $u$,
+\[
+\PP\bigl(g_t\in du,\ \text{no zero in }(t,v]\bigr)=\frac{du}{\pi\sqrt{u(v-u)}},
+\qquad
+\PP(g_t\in du)=\frac{du}{\pi\sqrt{u(t-u)}},
+\]
+the second being the first at $v=t$. The ratio is $((t-u)/(v-u))^{1/2}$,
+which is \eqref{eq:trend} with $a=t-u$ and $s=v-t$. If $\mu_0\neq0$, the
+strong Markov property at the rate's first zero $r\le g_t$ restarts it
+from zero, and the ratio, which depends on $u$, $t$ and $v$ only through
+$t-u$ and $v-u$, is unchanged. (ii)
+$\int_0^\infty\lambda^{-1/2}e^{-\lambda(a+s)}\,d\lambda=\Gamma(\tfrac12)(a+s)^{-1/2}$
+with $\Gamma(\tfrac12)=\sqrt\pi$; $\gamma_a$ is the Gamma density of shape
+$\tfrac12$ and rate $a$, of mean $1/(2a)$, which is also minus the
+logarithmic derivative of \eqref{eq:trend} in $s$ at $s=0$;
+$(a/(a+s))^{1/2}=\tfrac12$ at $s=3a$; and
+$\int_0^\infty(a/(a+s))^{1/2}ds=\infty$. (iii) The excursion measure of
+lengths is proportional to $\ell^{-3/2}d\ell$ \cite[Ch.~XII]{RY99}, and
+$\int_0^\infty\lambda^{1/2}e^{-\lambda\ell}\,d\lambda=\Gamma(\tfrac32)\ell^{-3/2}$.
+For the first travel, a Brownian motion from $m>0$ has no zero before $t$
+with probability $\PP(|W_t|<m)=\operatorname{erf}(m/\sqrt{2t})$, by
+reflection, and $\operatorname{erf}z\sim2z/\sqrt\pi$ as $z\to0$.
+\end{proof}
+
+\begin{remark}[The rate that holds its travel is the generic one]\label{rem:genericrate}
+The footnote to Definition~\ref{def:model} places the noise on the rate so
+that the system holds its tendency for a time.
+Proposition~\ref{prop:trend} is that holding made exact, and the weight
+$\lambda^{-1/2}d\lambda$ of its item (ii) is derived, where a Lindy law
+ordinarily takes its weight as a premise. The driftless Brownian rate is
+in turn the only random rate meeting three requirements: continuous
+paths; increments stationary and independent of the past, so that nothing
+but the rate's present value bears on its future; and a law that carries
+no timescale. The first two leave $\mu_0+ct+\sigma W_t$, a continuous
+process with stationary independent increments being a Brownian motion
+with drift, and $c$ and $\sigma$ both nonzero define the time
+$\sigma^2/c^2$; so $c=0$, the rate of Definition~\ref{def:model}, or
+$\sigma=0$ and no randomness. The event the law waits on is a change of
+tendency, the credit beginning to fall where it rose, and the waiting is
+the Lindy effect: a tendency that has held for an age $a$ has a median
+further duration $3a$. One integration out, the same holding is read on
+the level and not on the direction: the credit keeps above its starting
+value through $t$ with probability of order $t^{-1/4}$
+(Theorem~\ref{thm:persist}), and the exponents $\tfrac12$ and $\tfrac14$
+are those of Brownian motion and of its integral.
+\end{remark}
+% R1068 (Fable 5.2, Nov 27 2026), at the author's direction: Proposition (trend survivorship) and Remark (the generic rate) added: his question of Nov 27, whether the tendency to hold the current travel is itself an emergent Lindy output, answered in the affirmative with the exponent derived; the perishing event is the change of tendency, as he put it.
+
+\begin{corollary}[Trend survivorship with a linear drift; {[P]}]\label{cor:trenddrift}
+Let the rate obey $d\mu_t=-\vartheta\mu_t\,dt+\sigma\,dW_t$ for a real
+$\vartheta$. A stretch of age $a$, begun at a zero of the rate, lasts a
+further $s$ with probability
+\begin{equation}\label{eq:trenddrift}
+\Bigl(\frac{1-e^{-2\vartheta a}}{e^{2\vartheta s}-e^{-2\vartheta a}}\Bigr)^{1/2},
+\end{equation}
+which at $\vartheta=0$ is \eqref{eq:trend}.
+\begin{enumerate}[label=\emph{(\roman*)},itemsep=1pt]
+\item For a damped rate, $\vartheta>0$, the law is \eqref{eq:trend} for
+ages and durations short against $1/\vartheta$ and memoryless beyond, its
+tail being $e^{-\vartheta s}(1-e^{-2\vartheta a})^{1/2}$: the rate has a
+timescale, and the travel is held in proportion to its age only up to it.
+\item For a self-reinforcing rate, $\vartheta<0$, the driver of
+Corollary~\ref{cor:solvable}, the limit as $s\to\infty$ is
+$(1-e^{-2|\vartheta|a})^{1/2}>0$: a tendency of age $a$ never reverses
+with that probability, which tends to one as the stretch ages.
+\end{enumerate}
+The Lindy law is the boundary between the two, the case with no
+timescale.
+\end{corollary}
+
+\begin{proof}
+By the strong Markov property take the rate to start at a zero. Then
+$\mu_r=e^{-\vartheta r}\beta(c(r))$ for a Brownian motion $\beta$ and the
+clock $c(r)=\sigma^2(e^{2\vartheta r}-1)/(2\vartheta)$, so the zeros of
+the rate are those of $\beta$ read on the clock, and \eqref{eq:trend}
+holds in clock time: with $g$ the last zero before $t$, the stretch lasts
+through $t+s$ with probability
+$\bigl((c(t)-c(g))/(c(t+s)-c(g))\bigr)^{1/2}$, which is
+\eqref{eq:trenddrift} with $a=t-g$. The two limits are read from it.
+\end{proof}
+% R1069 (Fable 5.2, Nov 27 2026), at the author's direction: Corollary (trend survivorship with a linear drift) added, at his message of Nov 27 recalling the staged leak: before completion the schedule damps the rate, and the Lindy law of the tendency then holds only up to the damping's timescale; checked by simulation (r1068/trend_with_drift_check.py).
+
 \begin{definition}[Two-channel model]\label{def:twochannel}\footnote{The
 two-channel form and the viability criterion $\Lambda_\infty<\infty$
 have a dated germ in the author's document of August 2022
 \cite{GoldenScience2022}, where the criterion appears as $e^{a/b}<\infty$
 under a two-channel ``Outlook''; the present formulation replaces the
 germ and is cited for priority only.}
-Fix $\sigma,\epsilon>0$, $n\in\mathbb N$, $\Gamma>0$, $\rho\in\R$, and
-offset $b>0$. With $\mu$, $x$ as in \eqref{eq:model} (writing $x$ for
-the integrated driver), let
+Fix $\sigma,\epsilon>0$ and $n,m\in\mathbb N$. With $\mu$, $x$ as in
+\eqref{eq:model} (writing $x$ for the integrated driver), write
+$x^+=\max(x,0)$ for the \emph{technostrength}, and let
 $B_t=\sum_{i=1}^n e^{\epsilon W^{(i)}_t}$ for Brownian motions
-$W^{(i)}$ independent of one another and of the driver $W$, an
-assumption the infinite-set lemma below requires when the set is
-generated by the driver, for independent Brownian
-motions $W^{(i)}$, and
+$W^{(i)}$ independent of one another, of the driver $W$ and of the
+anatomy rates below, an assumption the infinite-set lemma below requires
+when the set is generated by the driver and the rates. The internal
+channel carries $m$ units, the $j$th of amplitude $\Gamma_j>0$ and
+\emph{technoanatomy scalar}
+\begin{equation}\label{eq:scalar}
+\tau_{j,t}=e^{y_{j,t}},\qquad y_{j,t}=y_{j,0}+\int_0^t\eta_{j,s}\,ds,
+\end{equation}
+its \emph{anatomy rate} $\eta_j$ a regular diffusion. Then
 \begin{equation}\label{eq:hazard}
 h^{\mathrm{tot}}_t
-=\underbrace{B_t\,\varsigma_b(x_t)}_{\text{external}}
-+\underbrace{\Gamma\,e^{-\rho x_t}}_{\text{internal}},
-\qquad
-\varsigma_b(x):=\frac{1+e^{-b}}{1+e^{x-b}},
+=\underbrace{B_t\operatorname{sech}^2x_t^+}_{\text{external}}
++\underbrace{\sum_{j=1}^m\Gamma_j\sinh^2\!\Big(\frac{x_t^+}{\tau_{j,t}}\Big)}_{\text{internal}},
 \end{equation}
-normalized so that $\varsigma_b(0)=1$ exactly. Survival, $T$, and
+and the unit's \emph{load} is $u_j=x^+/\tau_j$. Survival, $T$, and
 $\Imm$ are as before with $h^{\mathrm{tot}}$ in place of $h$.
 \end{definition}
 
-\begin{proposition}[Channel dominance; boundedness; {[P]}]
+\begin{proposition}[Channel shapes; {[P]}]
 \label{prop:dominance}
-(i) For every $\rho>0$,
-$\Gamma e^{-\rho x}/(B\varsigma_b(x))\to\infty$ as $x\to-\infty$, so
-the background drops out of the total at large negative $x$ for every
-positive $\rho$. (ii) As $x\to+\infty$ the external channel dominates
-for all large $x$ if and only if $\rho>1$; for $\rho<1$ the two cross
-at $x_\times=(k+b)/(1-\rho)$, $k:=\log(B/\Gamma)$. (iii)
-$0<\varsigma_b(x)<1+e^{-b}$ for all $x$: the external channel can be
-reduced without bound but amplified by at most $1+e^{-b}\to1$. The
-internal channel is unbounded above.
+(i) The muffling factor is one at and below zero strength and falls
+strictly above it, $\operatorname{sech}^2x^+=4e^{-2x}(1+O(e^{-2x}))$ as
+$x\to\infty$: the external channel can be reduced without bound and is
+never amplified. (ii) A unit vanishes at and below zero strength and
+grows above it, as the square of its load while the load is small and as
+$\tfrac14e^{2u}$ once it is large; at fixed scalars the internal channel
+is unbounded above. (iii) Both channels are flat at the wall: with the
+scalars fixed and the background frozen at $B$, $h(x)=B$ for $x\le0$,
+$h'(0)=0$, and $h''(0^+)=2\big(\sum_j\Gamma_j\tau_j^{-2}-B\big)$, so that
+acquiring strength lowers the hazard near the wall exactly when
+$\sum_j\Gamma_j\tau_j^{-2}<B$. (iv) At fixed scalars and frozen
+background, $h(x)\to\infty$ as $x\to\infty$ and $h_\ast=\inf_xh(x)>0$.
 \end{proposition}
 
-\begin{remark}[The causal asymmetry]
-Item (iii) enforces structurally a constraint a multiplicative form
+\begin{remark}[The causal asymmetry, the gains, and the anatomy rate]
+\label{rem:gains}
+Item (i) enforces structurally a constraint a multiplicative form
 $Be^{-x}$ would violate: a failure of the system's own muffling cannot
-amplify the external world, while nothing bounds self-inflicted
-hazard. In operator terms, at fixed background,
-$\mathcal D[h^{\mathrm{int}}]=\rho\,\mu$ exactly, while
-$\mathcal D[h^{\mathrm{ext}}]=\varsigma(x-b)\,\mu$ with logistic
-weight: the internal channel preserves the defining operator relation
-with constant gain $\rho$, and the external channel must be deformed
-because boundedness is being purchased. This identifies $\rho$
-intrinsically as the internal channel's operator gain,
-$\rho=-\partial_x\log h^{\mathrm{int}}$: the rate at which accumulated
-exponent converts into change in self-inflicted hazard. The companion
-program names $x$ and $\rho$ \emph{technostrength} and
-\emph{technoanatomy}, in the downstream mechanism companion; here they
-are the muffling
-exponent and the response exponent.
+amplify the external world, while nothing bounds self-inflicted hazard;
+and the muffling starts at the wall, the zero of strength, and not at an
+offset some way into a logistic. In operator terms, at fixed background
+and on $x>0$, $\mathcal D[h^{\mathrm{ext}}]=2\tanh(x)\,\mu$: the external
+gain is zero at the wall and rises to $2$, so that at large strength the
+external channel is the bare model's hazard with the credit doubled. A
+unit has $\mathcal D[h^{\mathrm{unit}}]=2u\coth(u)\,(\eta-\mu/x)$ on
+$x>0$: its hazard falls exactly when the anatomy rate exceeds the
+strength's relative rate, which is the race between technoanatomy and
+technostrength read at an instant. The noise is placed on $\eta$ as on
+$\mu$, for the reason the footnote to Definition~\ref{def:model} gives for
+$\mu$: an improving technoanatomy keeps improving at the pace it has, and
+the hazard it meets is that of breaking from that trend, whose law is Proposition~\ref{prop:trend}. A technoanatomy
+% R1068 (Fable 5.2, Nov 27 2026), at the author's direction: the remark on the anatomy rate points to the law of the trend.
+% was: the hazard it meets is that of breaking from that trend. A technoanatomy
+that is very good can be expected to couple to the strength it carries,
+so that a scalar standing far ahead of the technostrength, and still
+improving, is the natural case rather than a demanding one;
+Corollary~\ref{cor:lead} treats that coupled form, and the independence
+of the anatomy rates from the driver enters only the product of
+Theorem~\ref{thm:twocond}(ii). The companion paper on technoanatomy
+treats technoanatomy whole, a structure whose tendency to change belongs
+to it, of which $\tau_j$ is one scalar extraction and $\eta_j$ the
+tendency of that scalar.
 \end{remark}
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: the two-channel model in unit form, with its shapes and gains (his direction of Nov 26: the internal term e^{-rho x} replaced by a sum of unit terms sinh^2(technostrength/technoanatomy scalar), so that good technoanatomy is simply more of it rather than a sign, the weakest unit washing out the others; the scalar an extraction from technoanatomy, a holistic whole whose tendency to change belongs to it, with the noise on that tendency by the Lindy argument (an improving technoanatomy keeps improving at its pace, the hazard being that of breaking from trend); the external channel muffled by sech^2 of technostrength, zero strength being the wall rather than a point some way into a logistic; technostrength and the scalar both positive, technostrength the positive part of the credit (his choice among the options put to him); and, at his further direction of Nov 27, a very good technoanatomy taken to couple to the strength, its scalar far ahead of the technostrength and still improving, which the lead form treats).
+% was: Fix $\sigma,\epsilon>0$, $n\in\mathbb N$, $\Gamma>0$, $\rho\in\R$, and
+% was: offset $b>0$. With $\mu$, $x$ as in \eqref{eq:model} (writing $x$ for
+% was: the integrated driver), let
+% was: $B_t=\sum_{i=1}^n e^{\epsilon W^{(i)}_t}$ for Brownian motions
+% was: $W^{(i)}$ independent of one another and of the driver $W$, an
+% was: assumption the infinite-set lemma below requires when the set is
+% was: generated by the driver, for independent Brownian
+% was: motions $W^{(i)}$, and
+% was: \begin{equation}\label{eq:hazard}
+% was: h^{\mathrm{tot}}_t
+% was: =\underbrace{B_t\,\varsigma_b(x_t)}_{\text{external}}
+% was: +\underbrace{\Gamma\,e^{-\rho x_t}}_{\text{internal}},
+% was: \qquad
+% was: \varsigma_b(x):=\frac{1+e^{-b}}{1+e^{x-b}},
+% was: \end{equation}
+% was: normalized so that $\varsigma_b(0)=1$ exactly. Survival, $T$, and
+% was: $\Imm$ are as before with $h^{\mathrm{tot}}$ in place of $h$.
+% was: \end{definition}
+% was:
+% was: \begin{proposition}[Channel dominance; boundedness; {[P]}]
+% was: \label{prop:dominance}
+% was: (i) For every $\rho>0$,
+% was: $\Gamma e^{-\rho x}/(B\varsigma_b(x))\to\infty$ as $x\to-\infty$, so
+% was: the background drops out of the total at large negative $x$ for every
+% was: positive $\rho$. (ii) As $x\to+\infty$ the external channel dominates
+% was: for all large $x$ if and only if $\rho>1$; for $\rho<1$ the two cross
+% was: at $x_\times=(k+b)/(1-\rho)$, $k:=\log(B/\Gamma)$. (iii)
+% was: $0<\varsigma_b(x)<1+e^{-b}$ for all $x$: the external channel can be
+% was: reduced without bound but amplified by at most $1+e^{-b}\to1$. The
+% was: internal channel is unbounded above.
+% was: \end{proposition}
+% was:
+% was: \begin{remark}[The causal asymmetry]
+% was: Item (iii) enforces structurally a constraint a multiplicative form
+% was: $Be^{-x}$ would violate: a failure of the system's own muffling cannot
+% was: amplify the external world, while nothing bounds self-inflicted
+% was: hazard. In operator terms, at fixed background,
+% was: $\mathcal D[h^{\mathrm{int}}]=\rho\,\mu$ exactly, while
+% was: $\mathcal D[h^{\mathrm{ext}}]=\varsigma(x-b)\,\mu$ with logistic
+% was: weight: the internal channel preserves the defining operator relation
+% was: with constant gain $\rho$, and the external channel must be deformed
+% was: because boundedness is being purchased. This identifies $\rho$
+% was: intrinsically as the internal channel's operator gain,
+% was: $\rho=-\partial_x\log h^{\mathrm{int}}$: the rate at which accumulated
+% was: exponent converts into change in self-inflicted hazard. The companion
+% was: program names $x$ and $\rho$ \emph{technostrength} and
+% was: \emph{technoanatomy}, in the downstream mechanism companion; here they
+% was: are the muffling
+% was: exponent and the response exponent.
+% was: \end{remark}
 
-\section{The response trichotomy and the two-condition theorem}
+\section{Bounded technoanatomy and the two-driver theorem}
 \label{sec:trichotomy}
 
-We now let $\rho$ range over $\R$.
-
-\begin{proposition}[Trichotomy; {[P]}]\label{prop:trichotomy}
-Write $h(x)=B\varsigma_b(x)+\Gamma e^{-\rho x}$ with $B,\Gamma>0$.
-\begin{enumerate}[label=\emph{(\roman*)},itemsep=1pt]
-\item If $\rho>0$, $h$ is strictly decreasing with $h(x)\to0$ as
-$x\to+\infty$.
-\item If $\rho=0$, $h$ is strictly decreasing with $h(x)\to\Gamma>0$:
-protective against a floor.
-\item If $\rho<0$, $h\to B(1+e^{-b})$ as $x\to-\infty$ and
-$h\to\infty$ as $x\to+\infty$, so that $\inf_xh(x)>0$ for frozen
-$B>0$, which is all the fatality theorem consumes. In the regime
-$|\rho|>1$ there is a unique interior critical point, a minimum, whose location
-is the large-$x$ asymptote of the exact critical-point equation
-$Ky^{r-1}(1+y)^2=1$ below, obtained from $\varsigma_b(x)\sim
-\mathrm{const}\cdot e^{-x}$ (writing $A:=Be^{b}$, $|\rho|=-\rho$):
-\begin{equation}\label{eq:xstar}
-x_\ast\;\sim\;\frac{\log\bigl(A/(|\rho|\Gamma)\bigr)}{1+|\rho|}
-\qquad(x_\ast-b\to+\infty),
-\qquad
-h_\ast\;\sim\;A^{\frac{|\rho|}{1+|\rho|}}\,\Gamma^{\frac{1}{1+|\rho|}}
-\Bigl(|\rho|^{\frac{1}{1+|\rho|}}+|\rho|^{-\frac{|\rho|}{1+|\rho|}}\Bigr).
-\end{equation}
-For $|\rho|\le1$ the number of interior critical points depends on the
-parameters and may be zero: with $y=e^{x-b}$ and $r=|\rho|$ they solve
-$Ky^{r-1}(1+y)^2=1$ for a positive constant $K$, whose left side has
-logarithmic derivative $r-1+2y/(1+y)$, increasing throughout when
-$r\ge1$ and decreasing then increasing when $r<1$, so that for $r<1$
-there are zero, one tangential, or two solutions, and for $r=1$ none
-when $K\ge1$. Nothing below depends on the count.
-\end{enumerate}
-\end{proposition}
+With the scalars fixed, Proposition~\ref{prop:dominance}(iv) gives the
+hazard a positive floor once the background is frozen. The results below
+let the scalars move.
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: the trichotomy in rho withdrawn, its content now Proposition prop:dominance and the theorems below (R1063).
+% was: \section{The response trichotomy and the two-condition theorem}
+% was: \label{sec:trichotomy}
+% was:
+% was: We now let $\rho$ range over $\R$.
+% was:
+% was: \begin{proposition}[Trichotomy; {[P]}]\label{prop:trichotomy}
+% was: Write $h(x)=B\varsigma_b(x)+\Gamma e^{-\rho x}$ with $B,\Gamma>0$.
+% was: \begin{enumerate}[label=\emph{(\roman*)},itemsep=1pt]
+% was: \item If $\rho>0$, $h$ is strictly decreasing with $h(x)\to0$ as
+% was: $x\to+\infty$.
+% was: \item If $\rho=0$, $h$ is strictly decreasing with $h(x)\to\Gamma>0$:
+% was: protective against a floor.
+% was: \item If $\rho<0$, $h\to B(1+e^{-b})$ as $x\to-\infty$ and
+% was: $h\to\infty$ as $x\to+\infty$, so that $\inf_xh(x)>0$ for frozen
+% was: $B>0$, which is all the fatality theorem consumes. In the regime
+% was: $|\rho|>1$ there is a unique interior critical point, a minimum, whose location
+% was: is the large-$x$ asymptote of the exact critical-point equation
+% was: $Ky^{r-1}(1+y)^2=1$ below, obtained from $\varsigma_b(x)\sim
+% was: \mathrm{const}\cdot e^{-x}$ (writing $A:=Be^{b}$, $|\rho|=-\rho$):
+% was: \begin{equation}\label{eq:xstar}
+% was: x_\ast\;\sim\;\frac{\log\bigl(A/(|\rho|\Gamma)\bigr)}{1+|\rho|}
+% was: \qquad(x_\ast-b\to+\infty),
+% was: \qquad
+% was: h_\ast\;\sim\;A^{\frac{|\rho|}{1+|\rho|}}\,\Gamma^{\frac{1}{1+|\rho|}}
+% was: \Bigl(|\rho|^{\frac{1}{1+|\rho|}}+|\rho|^{-\frac{|\rho|}{1+|\rho|}}\Bigr).
+% was: \end{equation}
+% was: For $|\rho|\le1$ the number of interior critical points depends on the
+% was: parameters and may be zero: with $y=e^{x-b}$ and $r=|\rho|$ they solve
+% was: $Ky^{r-1}(1+y)^2=1$ for a positive constant $K$, whose left side has
+% was: logarithmic derivative $r-1+2y/(1+y)$, increasing throughout when
+% was: $r\ge1$ and decreasing then increasing when $r<1$, so that for $r<1$
+% was: there are zero, one tangential, or two solutions, and for $r=1$ none
+% was: when $K\ge1$. Nothing below depends on the count.
+% was: \end{enumerate}
+% was: \end{proposition}
 
 \begin{lemma}[Infinite sets defeat the driftless background; {[P]}]
 \label{lem:infbackground}
@@ -721,43 +1012,49 @@ and these windows are disjoint. Summing over infinitely many of them,
 $\Lambda_\infty=\infty$ a.s.
 \end{proof}
 
-\begin{theorem}[Non-positive response is fatal, and fast; {[P]}]
+\begin{theorem}[Technoanatomy that does not keep growing is fatal; {[P]}]
 \label{thm:trapped}
-Let $\rho\le0$. Then: (i) $\Lambda_\infty=\infty$ almost surely, for
-the random background and regardless of the driver --- pathwise in the
-driver, almost surely in the background. (ii) If the background is
-frozen, $B_t\equiv B>0$, then $h_\ast=\inf_xh(x)>0$ and
-$\PP(T>t)\le e^{-h_\ast t}$, whence $\E[T]<\infty$. For the random
-background no positive floor exists ($\inf_tB_t=0$ a.s.), so the
+(i) If some unit's scalar is bounded, $\sup_t\tau_{j,t}<\infty$, then
+$\Lambda_\infty=\infty$ almost surely, for the random background and
+regardless of the driver --- pathwise in the driver and the anatomy
+rates, almost surely in the background. (ii) The same holds if some
+unit's anatomy rate is the driftless Brownian rate, or a nondegenerate
+positive recurrent rate with nonpositive stationary mean. (iii) If the
+scalars are fixed and the background is frozen, $B_t\equiv B>0$, then
+$\PP(T>t)\le e^{-h_\ast t}$ with $h_\ast>0$ the floor of
+Proposition~\ref{prop:dominance}(iv), whence $\E[T]<\infty$. For the
+random background no positive floor exists ($\inf_tB_t=0$ a.s.), so the
 exponential rate is frozen-background (annealed) only, and whether an
-unconditional rate holds is open [O]. (iii) Whether any power-law structure survives in the random-background case is open [O]: almost-sure death does not exclude polynomial survival tails, and the exclusion is proved only in the frozen-background setting of (ii).
+unconditional rate holds is open [O]; whether any power-law structure
+survives in the random-background case is open [O], since almost-sure
+death does not exclude polynomial survival tails and the exclusion is
+proved only in the frozen-background setting of (iii).
 \end{theorem}
 
-% CORRECTION RECORD (external referee flow-through, Aug 22 2026):
-% (i) was stated "along every continuation" and its proof asserted
-% background divergence "along every continuous path", which is false
-% path-by-path; the claim is a.s.\ and now routes through
-% Lemma~lem:infbackground.  (ii)'s old random-background clause
-% conditioned on the null event {inf B >= B0 > 0} and was vacuous;
-% withdrawn, with the annealed scoping made explicit.
-
 \begin{proof}
-(i) If $x_t\to+\infty$ the internal term diverges pointwise (for
-$\rho<0$; for $\rho=0$ it is the constant $\Gamma$). If
-$x_t\to-\infty$ the external term tends to $B_t(1+e^{-b})$ and
-$\int_0^\infty B_t\,dt=\infty$ a.s.\ by
-Lemma~\ref{lem:infbackground} with $S=[0,\infty)$. On any other
-driver path, either $\mathrm{Leb}\{t:x_t\ge0\}=\infty$, where the
-trough floors the hazard at $\Gamma e^{-\rho x_t}\ge\Gamma$
-deterministically, or $\mathrm{Leb}\{t:x_t\le0\}=\infty$, where the
-crest with $S=\{t:x_t\le0\}$ routes through
-Lemma~\ref{lem:infbackground}. (ii) $\Lambda_t\ge h_\ast t$ and
+On any driver path with $\Leb\{t:x_t\le M\}=\infty$ for some integer
+$M\ge0$, the external term is at least $B_t\operatorname{sech}^2M$ on
+that set, and Lemma~\ref{lem:infbackground} gives $\Lambda_\infty=\infty$
+almost surely; on the remaining paths $\Leb\{t:x_t\le M\}<\infty$ for
+every $M$. (i) If $\tau_{j,t}\le\bar\tau$, then on $\{t:x_t>1\}$, of
+infinite measure, the unit's hazard is at least
+$\Gamma_j\sinh^2(1/\bar\tau)$. (ii) A driftless rate makes
+$\{t:y_{j,t}<y_{j,0}\}$ of logarithmic density one half, by
+Theorem~\ref{thm:half} applied to $y_j$, hence of infinite measure, and so
+is its intersection with $\{t:x_t\ge e^{y_{j,0}}\}$, on which the load is
+at least one and the unit's hazard at least $\Gamma_j\sinh^21$. A
+positive recurrent rate with negative mean sends $y_j$ to $-\infty$, which
+is case (i); with zero mean, the cycle argument in the proof of
+Proposition~\ref{prop:recurrent}(c), applied to $y_j$ in place of the
+credit, gives infinitely many disjoint windows of a fixed length on which
+$y_j$ is bounded above by a constant $M'$, and the load there is at least
+one once $x_t\ge e^{M'}$. (iii) $\Lambda_t\ge h_\ast t$ and
 $\PP(T>t)=\E[e^{-\Lambda_t}]\le e^{-h_\ast t}$.
 \end{proof}
 
-\begin{theorem}[Two conditions for viability; {[P]}]\label{thm:twocond}
-Let the driver be a regular diffusion on $\R$ with scale function $s$,
-and $\rho\in\R$. Define the \emph{driver-viability functional}
+\begin{theorem}[Two drivers; {[P]}]\label{thm:twocond}
+Let the driver be a regular diffusion on $\R$ with scale function $s$.
+Define the \emph{driver-viability functional}
 \begin{equation}\label{eq:vdrv}
 V_{\mathrm{drv}}(\mu_0)=
 \begin{cases}
@@ -772,20 +1069,348 @@ V_{\mathrm{drv}}(\mu_0)=
 with $\bar m=\int\mu\,d\pi$ the stationary mean where it exists, the
 transient formula read with its boundary conventions ($s(+\infty)=\infty$
 and $s(-\infty)$ finite giving $0$; $s$ bounded above with
-$s(-\infty)=-\infty$ giving $1$). Then
+$s(-\infty)=-\infty$ giving $1$).
+Write $V_{\mathrm{anat}}$ for the same functional of an anatomy rate.
+(i) On the event that the credit grows at least linearly,
+$\liminf_tx_t/t>0$, which carries the driver's escape and its positive
+recurrence with positive mean, $\Lambda_\infty<\infty$ exactly when
+$\int_0^\infty\sinh^2(x_t^+/\tau_{j,t})\,dt<\infty$ for every unit, and,
+where the loads stay bounded, exactly when every unit's load is
+square-integrable in time: the weakest unit decides. Off that event
+$\Lambda_\infty=\infty$, within the scope clause of \eqref{eq:vdrv}. (ii)
+If the anatomy rates are moreover independent of the driver and of one
+another, and the driver has bounded drift and bounded noise coefficient,
+then
 \begin{equation}\label{eq:twocond}
 \PP\bigl(\Lambda_\infty<\infty\bigr)
-=\underbrace{\one\{\rho>0\}}_{\text{response}}
+=\underbrace{V_{\mathrm{drv}}(\mu_0)}_{\text{strength}}
 \cdot
-\underbrace{V_{\mathrm{drv}}(\mu_0)}_{\text{driver}}.
+\underbrace{\prod_{j=1}^mV_{\mathrm{anat}}(\eta_{j,0})}_{\text{technoanatomy}}.
 \end{equation}
-The two factors are logically distinct necessary conditions, not
-independent events: the first is a sign, the second is silent on it.
-In the positive recurrent case the driver does not escape; its time
-integral acquires positive linear drift, which is why the functional
-is stated piecewise rather than as a single scale-function ratio.
+The factors are logically distinct necessary conditions, carried by
+independent drivers: the first is the strength outrunning the background,
+the others are each unit's technoanatomy outrunning the strength, and no
+magnitude of accumulated capacity substitutes for them. In the positive
+recurrent case a driver does not escape; its time integral acquires
+positive linear drift, which is why the functional is stated piecewise
+rather than as a single scale-function ratio.
 \end{theorem}
 
+\begin{proof}
+(i) Where $x_t\ge ct$ eventually, $c>0$, the external term is at most
+$4B_te^{-2ct}$ eventually, which the background's subexponential growth
+leaves integrable; viability is then the integrability of the internal
+channel, unit by unit, and where a load stays below $U$,
+$u^2\le\sinh^2u\le(\sinh U/U)^2u^2$. Off that event: on
+$\{\mu_t\to-\infty\}$ the technostrength is eventually zero, the hazard is
+$B_t$, and $\Lambda_\infty=\infty$ by Lemma~\ref{lem:infbackground}; a
+positive recurrent driver with $\bar m<0$ sends the credit to $-\infty$ in
+the same way, and one with $\bar m=0$ (nondegenerate) has the windows of
+the proof of Proposition~\ref{prop:recurrent}(c), of infinite total
+measure, on which the technostrength stays bounded, so that
+Lemma~\ref{lem:infbackground} applies; and the Brownian driver puts the
+credit below its initial value on a set of logarithmic density one half
+(Theorem~\ref{thm:half}), with the same conclusion. General null
+recurrence is left open, which is the statement's scope clause. (ii) A
+driver of bounded drift $K$ and noise coefficient at most $\bar\sigma$ has
+$|\mu_t|\le|\mu_0|+Kt+|M_t|$, with $M$ a continuous martingale of quadratic
+variation at most $\bar\sigma^2t$, so $|M_t|=O(\sqrt{t\log\log t})$ and
+$|x_t|=O(t^2)$ almost surely. On a unit's escape event
+$\eta_{j,t}\to\infty$, so $y_{j,t}/t\to\infty$; with a positive stationary
+mean $\bar\eta_j$, $y_{j,t}\ge\tfrac12\bar\eta_jt$ eventually. Either way
+$x_t^2e^{-2y_{j,t}}$ is integrable and the load tends to zero, so the unit
+is integrable; on each unit's complementary events
+Theorem~\ref{thm:trapped} applies, and independence of the drivers gives
+the product. The hitting probabilities are the classical scale-function
+formula \cite{KT81,RY99}. Throughout, the background $B$ is random and is
+never fixed.
+\end{proof}
+
+\begin{corollary}[Technoanatomy that leads the strength; {[P]}]\label{cor:lead}
+Let a unit's scalar be coupled to the strength in place of
+\eqref{eq:scalar}: on $\{x_t>0\}$, $\tau_{j,t}=x_t\,e^{\ell_{j,t}}$, with
+\emph{lead} $\ell_{j,t}=\ell_{j,0}+\int_0^t\zeta_{j,s}\,ds$ and lead rate
+$\zeta_j$ a regular diffusion, so that the unit's load is $e^{-\ell_j}$
+wherever the strength is positive and its gain is
+$\mathcal D[h^{\mathrm{unit}}]=2u\coth(u)\,\zeta_j$. On the event that the
+credit grows at least linearly the unit is integrable exactly when
+$\int_0^\infty\sinh^2(e^{-\ell_{j,t}})\,dt<\infty$, which, where the lead is
+bounded below, is the integrability of $e^{-2\ell_j}$; no bound on the
+driver's growth enters. If every unit is coupled in this way, with lead
+rates independent of the background, of the driver and of one another,
+then
+\begin{equation}\label{eq:lead}
+\PP\bigl(\Lambda_\infty<\infty\bigr)
+=V_{\mathrm{drv}}(\mu_0)\prod_{j=1}^mV_{\mathrm{lead}}(\zeta_{j,0}),
+\end{equation}
+with $V_{\mathrm{lead}}$ the functional \eqref{eq:vdrv} of a lead rate,
+under the scope clause of Theorem~\ref{thm:twocond}. A scalar standing at
+least this far ahead does at least as well, the hazard being
+nonincreasing in each scalar; and where the lead outgrows the strength by
+more than the background's fluctuations,
+$\ell_{j,t}-x_t+\tfrac12\log B_t\to\infty$, the unit is eventually
+dominated by the external channel. The coupled unit does not vanish as
+the strength falls to zero from above, its load being $e^{-\ell_j}$ at
+every positive strength: the coupled form describes a strength clear of
+the wall.
+% R1069 (Fable 5.2, Nov 27 2026), at the author's direction: the coupled form's behavior at the wall stated (found in the review of Nov 27: the coupled unit's hazard jumps at zero strength).
+% was: $\ell_{j,t}-x_t+\tfrac12\log B_t\to\infty$, the unit is eventually
+% was: dominated by the external channel.
+\end{corollary}
+
+\begin{proof}
+On $\{\liminf_tx_t/t>0\}$ the strength is eventually positive, the
+external term is integrable as in the proof of
+Theorem~\ref{thm:twocond}(i), and the unit's hazard is eventually
+$\Gamma_j\sinh^2(e^{-\ell_{j,t}})$. A lead rate that escapes to
+$+\infty$, or is positive recurrent with positive mean, gives
+$\ell_{j,t}\ge ct$ eventually for some $c>0$ and an integrable unit. One
+that escapes to $-\infty$ sends the load to infinity; a Brownian lead rate
+leaves the lead below its initial value on a set of logarithmic density
+one half (Theorem~\ref{thm:half}), and a positive recurrent lead rate of
+nonpositive mean leaves it bounded above on a set of infinite measure (the
+proof of Proposition~\ref{prop:recurrent}); on such a set the load is
+bounded below and the unit is not integrable. Off the event that the
+credit grows at least linearly, Theorem~\ref{thm:twocond}(i) gives
+$\Lambda_\infty=\infty$, and independence gives the product. The last
+claim is the ratio
+$\Gamma_j\sinh^2(e^{-\ell})/(B\operatorname{sech}^2x)\sim
+\tfrac14\Gamma_j\,e^{-2(\ell-x+\frac12\log B)}$.
+\end{proof}
+
+\begin{corollary}[A technoanatomy locked to its strength: the three signs; {[P]}]\label{cor:locked}
+Write $\rho_j$ for a unit's \emph{gain}, its hazard reduction per unit of
+strength gained along the history,
+\begin{equation}\label{eq:gain}
+\rho_j:=-\frac{d\log h^{\mathrm{unit}}_j}{dx}
+=\frac{\mathcal D[h^{\mathrm{unit}}_j]}{\mu}
+=2u_j\coth(u_j)\,\Bigl(\frac{\eta_j}{\mu}-\frac1x\Bigr)
+\end{equation}
+on $\{x>0,\ \mu\neq0\}$, which in the lead form of
+Corollary~\ref{cor:lead} is $2u_j\coth(u_j)\,\zeta_j/\mu$. Let the lead be
+\emph{locked}, a function $\ell(x)$ of the strength alone, so that the
+gain is $2u\coth(u)\,\ell'(x)$, at small load twice the lead gained per
+unit of strength.
+\begin{enumerate}[label=\emph{(\roman*)},itemsep=1pt]
+\item If $\ell=\ell_0+\tfrac12\rho x$ with a constant $\rho>0$, the unit's
+hazard on $\{x>0\}$ is
+\[
+\Gamma\sinh^2\!\bigl(e^{-\ell_0-\rho x/2}\bigr)
+=\Gamma e^{-2\ell_0}\,e^{-\rho x}\bigl(1+O(e^{-2\ell})\bigr),
+\]
+an exponential in the strength whose gain tends to $\rho$, and the unit
+is integrable wherever the credit grows at least linearly.
+\item If the lead is held, $\ell\equiv\ell_0$, so that the scalar grows in
+proportion to the strength, the unit's hazard is the constant
+$\Gamma\sinh^2(e^{-\ell_0})$ wherever the strength is positive, its gain
+is zero, and viability is null.
+\item If the scalar is held, $\tau\equiv\bar\tau$, the unit's hazard is
+$\Gamma\sinh^2(x/\bar\tau)\sim\tfrac14\Gamma e^{2x/\bar\tau}$, its gain
+tends to $-2/\bar\tau$, and viability is null
+(Theorem~\ref{thm:trapped}); a lead that falls as the strength grows,
+$\rho<0$ in (i), is fatal in the same way.
+\end{enumerate}
+Hence, for a technoanatomy locked to its strength at a constant gain
+$\rho$,
+\begin{equation}\label{eq:locked}
+\PP\bigl(\Lambda_\infty<\infty\bigr)=\one\{\rho>0\}\,V_{\mathrm{drv}}(\mu_0)
+\end{equation}
+under the scope clause of Theorem~\ref{thm:twocond}: the lead having no
+rate of its own, the technoanatomy factor of \eqref{eq:lead} degenerates
+to the sign of the gain. The correspondence is exact as well as
+asymptotic: on $\{x>0\}$ an internal hazard $\Gamma'e^{-\rho x}$, for any
+real $\rho$, is the unit of amplitude $\Gamma$ carrying the load
+$u=\operatorname{arsinh}\bigl((\Gamma'/\Gamma)^{1/2}e^{-\rho x/2}\bigr)$.
+\end{corollary}
+
+\begin{proof}
+The identity \eqref{eq:gain} is the unit's gain of
+Remark~\ref{rem:gains} divided by $dx/dt=\mu$; in the lead form
+$u=e^{-\ell}$ and $\zeta=\ell'(x)\mu$, and $u\coth u\to1$ as $u\to0$. (i)
+$\sinh^2v=v^2(1+O(v^2))$, and where $x_t\ge ct$ the unit's hazard is at
+most a multiple of $e^{-\rho ct}$. (ii), (iii): on
+$\{\liminf_tx_t/t>0\}$ the strength is eventually positive and the unit's
+hazard is bounded below, by a constant in (ii) and as in
+Theorem~\ref{thm:trapped}(i) in (iii), the load of a falling lead being
+unbounded; off that event Theorem~\ref{thm:twocond}(i) gives
+$\Lambda_\infty=\infty$. With (i) and the external term's integrability
+on that event, this is \eqref{eq:locked}. The last claim solves
+$\Gamma\sinh^2u=\Gamma'e^{-\rho x}$ for $u$.
+\end{proof}
+% R1068 (Fable 5.2, Nov 27 2026), at the author's direction: Corollary (the locked technoanatomy) added: the exponential internal channel with a constant exponent is the unit form's case of a lead locked to the strength at constant gain, and the technoanatomy factor is then the sign of that gain; found in the review he asked for on Nov 27 of how the unit form holds up with the rest of the framework.
+
+\begin{proposition}[The lead is the trough's coordinate: low hazard, and the pace; {[P]}]\label{prop:leadcoord}
+For any scalars, coupled to the strength or not, write
+$\ell_j=\log(\tau_j/x)$ for a unit's lead on $\{x>0\}$.
+\begin{enumerate}[label=\emph{(\roman*)},itemsep=1pt]
+\item The unit's hazard is a function of its lead alone,
+$h^{\mathrm{unit}}_j=\Gamma_j\sinh^2(e^{-\ell_j})$, and decreasing in it:
+$\Gamma_je^{-2\ell_j}(1+O(e^{-2\ell_j}))$ for a long lead, and
+$\tfrac14\Gamma_j\exp(2e^{-\ell_j})(1+o(1))$ as the lead falls.
+\item A low internal hazard is a long lead: $h^{\mathrm{unit}}_j\le\varepsilon$
+exactly when $\ell_j\ge-\log\operatorname{arsinh}\sqrt{\varepsilon/\Gamma_j}$,
+which for $\varepsilon\ll\Gamma_j$ is
+$\tau_j/x\ge\sqrt{\Gamma_j/\varepsilon}\,(1+o(1))$. The scalar stands above
+the strength by the square root of the factor by which the hazard stands
+below the amplitude.
+\item The unit's hazard falls exactly while its lead grows,
+$\mathcal D[h^{\mathrm{unit}}_j]=2u_j\coth(u_j)\,\dot\ell_j$ with
+$\dot\ell_j=\eta_j-\mu/x$. On the event that the credit grows at least
+linearly, if $\Lambda_\infty<\infty$ and the lead is eventually
+nondecreasing, then $\ell_{j,t}-\tfrac12\log t\to\infty$: a technoanatomy
+that is viable is not only ahead of its strength but keeps gaining on it,
+in proportion, without end.
+\end{enumerate}
+\end{proposition}
+
+\begin{proof}
+(i) The load is $u_j=x/\tau_j=e^{-\ell_j}$. (ii) $\sinh^2$ is increasing on
+$[0,\infty)$, and $\operatorname{arsinh}z\sim z$ as $z\to0$. (iii) The
+first claim is Remark~\ref{rem:gains}. For the second, on that event the
+strength is eventually positive and the unit's hazard is $\Gamma_jf(t)$
+with $f=\sinh^2(e^{-\ell_j})$ eventually nonincreasing and integrable, so
+that $\tfrac t2f(t)\le\int_{t/2}^tf\to0$, and
+$e^{-2\ell_{j,t}}\le f(t)=o(1/t)$.
+\end{proof}
+% R1073 (Fable 5.2, Nov 27 2026), at the author's direction: his message of Nov 27: a very low internal hazard is a technoanatomy far larger than the technostrength, and the pace itself should come out of the filtering of the joint system of strength and technoanatomy from a generic distribution. Proposition (the lead as the trough's coordinate) added: the first half of the message is exact in the unit form.
+
+\begin{corollary}[The solvable case: two sigmoids; {[P]}]\label{cor:solvable}
+For the self-reinforcing driver $d\mu_t=\nu\mu_t\,dt+\sigma\,dW_t$,
+$\nu>0$ --- the member of the driver family whose drift is
+proportional to its state ---
+$s'(v)=e^{-\nu v^2/\sigma^2}$ is integrable at both ends, and for a single
+unit whose anatomy rate is self-reinforcing as well,
+$d\eta_t=\lambda\eta_t\,dt+s_a\,dW^{a}_t$ with $\lambda>0$ and $W^a$
+independent of $W$ and of the background,
+\begin{equation}\label{eq:sigmoid}
+\PP\bigl(\Lambda_\infty<\infty\bigr)
+=\Phi\!\Bigl(\frac{\mu_0\sqrt{2\nu}}{\sigma}\Bigr)\cdot\Phi\!\Bigl(\frac{\eta_0\sqrt{2\lambda}}{s_a}\Bigr):
+\end{equation}
+a smooth Gaussian sigmoid of width $\sigma/\sqrt{2\nu}$ in the strength's
+initial rate, multiplied by another of width $s_a/\sqrt{2\lambda}$ in the
+initial rate of technoanatomy. Each factor is an escape probability. On
+the joint escape event $|x_t|=O(e^{\nu t})$ while $y_t$ grows as a positive
+multiple of $e^{\lambda t}$, so the load decays faster than any
+exponential; off it, Theorem~\ref{thm:trapped} or the external channel
+applies. The same two sigmoids hold in the lead form of
+Corollary~\ref{cor:lead} with a self-reinforcing lead rate, the second
+factor then read in the lead rate's parameters. With a technoanatomy that
+falls behind, feedback accelerates failure: $\mu_t\to+\infty$ drives the
+unit's hazard up superexponentially, so a system whose technoanatomy lags
+is strictly worse off with feedback than without.
+\end{corollary}
+
+\begin{remark}[Overload, and the open directions; {[S]}]\label{rem:fluct}
+An overload of duration $\delta$ at load $u$ contributes
+$\asymp\delta\,\Gamma\sinh^2u$ to $\Lambda$, so survivability requires
+$\delta\lesssim\Gamma^{-1}\operatorname{csch}^2u$: the affordable duration
+of overload decays exponentially in the load. Overload recurring
+arbitrarily late need not be fatal: load $n$ on the intervals
+$[n,n+e^{-3n}]$ costs $\Gamma\sum_ne^{-3n}\sinh^2n<\infty$. What is fatal is
+a load bounded below on a set of infinite measure, which is
+Corollary~\ref{cor:overlap}. Theorem~\ref{thm:twocond} gives viability as
+a two-transience condition, one transience for the strength and one for
+each unit's technoanatomy, and the lead form of Corollary~\ref{cor:lead}
+covers a technoanatomy coupled to the strength. Correlation between the
+driver and an anatomy rate in general, and general null recurrence of a
+rate, are open [O].
+\end{remark}
+
+\begin{corollary}[Overload on a set of infinite measure is fatal;
+{[P]}]\label{cor:overlap}
+If there exist $a>0$ and a unit $j$ with
+$\Leb\{t:x_t^+/\tau_{j,t}\ge a\}=\infty$ almost surely, then
+$\Lambda_\infty=\infty$ almost surely, since on that set the unit's
+hazard is at least $\Gamma_j\sinh^2a$. What probability of viability a
+general coupling of the scalar to the strength yields is open [O].
+\end{corollary}
+
+\begin{proposition}[Perturbation in the amplitudes, and the threshold;
+fixed-time expansion {[P]}, long-time threshold {[O]}]\label{prop:perturb}
+Writing $Q_{\mathrm{ext}}$ for the external-only survivorship measure and
+$\Gamma=\max_j\Gamma_j$,
+\begin{equation}\label{eq:perturb}
+\PP(T>t)=\PP_{\mathrm{ext}}(T>t)\Bigl[1-\sum_j\Gamma_j\,
+\E_{Q_{\mathrm{ext}}}\!\Bigl[\int_0^t\sinh^2\!\Big(\frac{x_s^+}{\tau_{j,s}}\Big)ds\Bigr]
++O(\Gamma^{2})\Bigr],
+\end{equation}
+the fixed-$t$ expansion being a Taylor--Feynman--Kac identity. Under
+$Q_{\mathrm{ext}}$ the credit grows as $x_s\asymp\sigma s^{3/2}$ on the
+scaling picture, which suggests that, for scalars growing
+deterministically, the first-order coefficient converges as $t\to\infty$
+exactly when $\int^\infty s^3e^{-2y_{j,s}}\,ds<\infty$ for every unit; the
+suggestion is not a proof, since the coefficient is controlled by the mass
+the conditioned process keeps near low credit as well as by its typical
+scale, and the long-time threshold is entered as open. Were it
+established, the expansion's radius would collapse at that threshold, the
+signature of a genuine transition.
+\end{proposition}
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: the fatal theorem, the viability theorem and their corollaries restated with two drivers, and the lead form added (his direction of Nov 26: the internal term e^{-rho x} replaced by a sum of unit terms sinh^2(technostrength/technoanatomy scalar), so that good technoanatomy is simply more of it rather than a sign, the weakest unit washing out the others; the scalar an extraction from technoanatomy, a holistic whole whose tendency to change belongs to it, with the noise on that tendency by the Lindy argument (an improving technoanatomy keeps improving at its pace, the hazard being that of breaking from trend); the external channel muffled by sech^2 of technostrength, zero strength being the wall rather than a point some way into a logistic; technostrength and the scalar both positive, technostrength the positive part of the credit (his choice among the options put to him); and, at his further direction of Nov 27, a very good technoanatomy taken to couple to the strength, its scalar far ahead of the technostrength and still improving, which the lead form treats).
+% was: \begin{theorem}[Non-positive response is fatal, and fast; {[P]}]
+% was: \label{thm:trapped}
+% was: Let $\rho\le0$. Then: (i) $\Lambda_\infty=\infty$ almost surely, for
+% was: the random background and regardless of the driver --- pathwise in the
+% was: driver, almost surely in the background. (ii) If the background is
+% was: frozen, $B_t\equiv B>0$, then $h_\ast=\inf_xh(x)>0$ and
+% was: $\PP(T>t)\le e^{-h_\ast t}$, whence $\E[T]<\infty$. For the random
+% was: background no positive floor exists ($\inf_tB_t=0$ a.s.), so the
+% was: exponential rate is frozen-background (annealed) only, and whether an
+% was: unconditional rate holds is open [O]. (iii) Whether any power-law structure survives in the random-background case is open [O]: almost-sure death does not exclude polynomial survival tails, and the exclusion is proved only in the frozen-background setting of (ii).
+% was: \end{theorem}
+% was:
+% CORRECTION RECORD (external referee flow-through, Aug 22 2026):
+% (i) was stated "along every continuation" and its proof asserted
+% background divergence "along every continuous path", which is false
+% path-by-path; the claim is a.s.\ and now routes through
+% Lemma~lem:infbackground.  (ii)'s old random-background clause
+% conditioned on the null event {inf B >= B0 > 0} and was vacuous;
+% withdrawn, with the annealed scoping made explicit.
+% was:
+% was: \begin{proof}
+% was: (i) If $x_t\to+\infty$ the internal term diverges pointwise (for
+% was: $\rho<0$; for $\rho=0$ it is the constant $\Gamma$). If
+% was: $x_t\to-\infty$ the external term tends to $B_t(1+e^{-b})$ and
+% was: $\int_0^\infty B_t\,dt=\infty$ a.s.\ by
+% was: Lemma~\ref{lem:infbackground} with $S=[0,\infty)$. On any other
+% was: driver path, either $\mathrm{Leb}\{t:x_t\ge0\}=\infty$, where the
+% was: trough floors the hazard at $\Gamma e^{-\rho x_t}\ge\Gamma$
+% was: deterministically, or $\mathrm{Leb}\{t:x_t\le0\}=\infty$, where the
+% was: crest with $S=\{t:x_t\le0\}$ routes through
+% was: Lemma~\ref{lem:infbackground}. (ii) $\Lambda_t\ge h_\ast t$ and
+% was: $\PP(T>t)=\E[e^{-\Lambda_t}]\le e^{-h_\ast t}$.
+% was: \end{proof}
+% was:
+% was: \begin{theorem}[Two conditions for viability; {[P]}]\label{thm:twocond}
+% was: Let the driver be a regular diffusion on $\R$ with scale function $s$,
+% was: and $\rho\in\R$. Define the \emph{driver-viability functional}
+% was: \begin{equation}\label{eq:vdrv}
+% was: V_{\mathrm{drv}}(\mu_0)=
+% was: \begin{cases}
+% was: \PP_{\mu_0}(\mu_t\to+\infty)=\dfrac{s(\mu_0)-s(-\infty)}{s(+\infty)-s(-\infty)},
+% was: & \text{transient driver,}\\[8pt]
+% was: 1, & \text{positive recurrent, }\bar m>0,\\[2pt]
+% was: 0, & \text{positive recurrent, }\bar m\le0,\\[2pt]
+% was: 0, & \text{Brownian driver,}\\[2pt]
+% was: \text{open [O]}, & \text{general null recurrence,}
+% was: \end{cases}
+% was: \end{equation}
+% was: with $\bar m=\int\mu\,d\pi$ the stationary mean where it exists, the
+% was: transient formula read with its boundary conventions ($s(+\infty)=\infty$
+% was: and $s(-\infty)$ finite giving $0$; $s$ bounded above with
+% was: $s(-\infty)=-\infty$ giving $1$). Then
+% was: \begin{equation}\label{eq:twocond}
+% was: \PP\bigl(\Lambda_\infty<\infty\bigr)
+% was: =\underbrace{\one\{\rho>0\}}_{\text{response}}
+% was: \cdot
+% was: \underbrace{V_{\mathrm{drv}}(\mu_0)}_{\text{driver}}.
+% was: \end{equation}
+% was: The two factors are logically distinct necessary conditions, not
+% was: independent events: the first is a sign, the second is silent on it.
+% was: In the positive recurrent case the driver does not escape; its time
+% was: integral acquires positive linear drift, which is why the functional
+% was: is stated piecewise rather than as a single scale-function ratio.
+% was: \end{theorem}
+% was:
 % CORRECTION RECORD (external referee flow-through, Aug 22 2026):
 % the previous clause read the second factor as 0 whenever
 % s(+inf)=inf; an Ornstein--Uhlenbeck driver mean-reverting to a
@@ -793,83 +1418,83 @@ is stated piecewise rather than as a single scale-function ratio.
 % gives viability 1 by the ergodic theorem.  The counterexample is
 % the referee's; the restatement routes the doubly-infinite case
 % through Proposition~prop:recurrent.
-
-\begin{proof}
-On $\{\mu_t\to+\infty\}$: eventually $\mu_t\ge1$, so
-$x_t\ge x_{t_0}+(t-t_0)$ and, for $\rho>0$,
-$h(x_t)\lesssim e^{-\min(1,\rho)(t-t_0)}$, whence
-$\Lambda_\infty<\infty$. For $\rho\le0$,
-Theorem~\ref{thm:trapped}(i) makes the first factor necessary. On
-$\{\mu_t\to-\infty\}$, $x_t\to-\infty$ and
-$h\to B(1+e^{-b})>0$, so $\Lambda_\infty=\infty$; on the recurrent
-event the outcome is Proposition~\ref{prop:recurrent} ---
-$\bar m>0$ gives $D_t/t\to\bar m$ and $\Lambda_\infty<\infty$,
-$\bar m\le0$ (nondegenerate) gives $\Lambda_\infty=\infty$ --- with
-the Brownian driver settled by the driftless analysis and general
-null recurrence left open, which is the statement's scope clause.
-The hitting probabilities are the classical scale-function formula
-\cite{KT81,RY99}.
- Throughout, the background $B$ is random and is never fixed: for positive linear growth the argument uses the subexponential growth of the Brownian background, and for adverse growth it uses the infinite-set lemma above. \end{proof}
-
-\begin{corollary}[The solvable case; {[P]}]\label{cor:solvable}
-For the self-reinforcing driver $d\mu_t=\nu\mu_t\,dt+\sigma\,dW_t$,
-$\nu>0$ --- the member of the driver family whose drift is
-proportional to its state ---
-$s'(v)=e^{-\nu v^2/\sigma^2}$ is integrable at both ends and
-\begin{equation}\label{eq:sigmoid}
-\PP\bigl(\Lambda_\infty<\infty\bigr)
-=\one\{\rho>0\}\cdot\Phi\!\Bigl(\frac{\mu_0\sqrt{2\nu}}{\sigma}\Bigr):
-\end{equation}
-a sharp threshold in the response exponent multiplied by a smooth
-Gaussian sigmoid of width $\sigma/\sqrt{2\nu}$ in the initial rate.
-With $\rho<0$, feedback accelerates failure:
-$\mu_t\to+\infty$ drives $h\to\infty$ superexponentially, so a system
-with adverse response and feedback is strictly worse off than one with
-adverse response and none.
-\end{corollary}
-
-\begin{remark}[Fluctuating response; {[S]}]\label{rem:fluct}
-Theorem~\ref{thm:twocond} is stated for constant $\rho$. It applies to a process $\rho_t$ exactly when $\rho_t$ is eventually constant, its response factor then reading $\one\{\rho_\infty>0\}$ for the eventual value $\rho_\infty$, which is the form in which the technoanatomy companion consumes it; it says nothing about a response that keeps fluctuating, and the rest of this remark says what can be said in that case. If $\rho=\rho_t$ is a process, an adverse excursion of duration $\delta$ at exponent level $x$ contributes
-$\asymp\delta\,\Gamma e^{|\rho|x}$ to $\Lambda$, so survivability
-requires $\delta\lesssim\Gamma^{-1}e^{-|\rho|x}$: the affordable
-duration of adverse response decays exponentially in the accumulated
-exponent. Recurrence of $\rho_t$ alone does not force
-$\Lambda_\infty=\infty$: the internal term explodes only where adverse
-anatomy coincides with positive credit, which is the overlap condition
-of Corollary~\ref{cor:overlap}. Viability does not, however, require $\rho_t$ eventually positive: a viable driver with $x_t/t \to 1$ and anatomy negative only on intervals $[n, n + e^{-3n}]$ has negative anatomy recurring arbitrarily late with summable hazard contributions, and the general question is the integrability of $e^{-\rho_t x_t}$; whether \eqref{eq:twocond} admits a product decomposition over anatomy and driver is a separate conjecture, not asserted here. Supplying dynamics for
-$\rho_t$ is the model's principal open direction [O].
-\end{remark}
-
-\begin{corollary}[Adverse anatomy overlapping positive credit is fatal;
-{[P]}]\label{cor:overlap}
-If there exist $a,b>0$ with
-$\Leb\{t:\rho_t\le-a,\ x_t\ge b\}=\infty$ almost surely, then
-$\Lambda_\infty=\infty$ almost surely, since on that set the internal
-term satisfies $\Gamma e^{-\rho_tx_t}\ge\Gamma e^{ab}$. A negative
-excursion of $\rho$ that systematically coincides with $x_t\le0$ costs
-nothing, so recurrence of $\rho$ is not by itself fatal; what
-fluctuating anatomy implies in general, when the excursions of $\rho$
-and of $x$ are not coupled by hypothesis, is open [O].
-\end{corollary}
-
-\begin{proposition}[Perturbation in $\Gamma$, and the threshold;
-fixed-time expansion {[P]}, long-time threshold {[O]}]\label{prop:perturb}
-Writing $Q_{\mathrm{ext}}$ for the external-only survivorship measure,
-\begin{equation}\label{eq:perturb}
-\PP(T>t)=\PP_{\mathrm{ext}}(T>t)\Bigl[1-\Gamma\,
-\E_{Q_{\mathrm{ext}}}\!\Bigl[\int_0^te^{-\rho x_s}ds\Bigr]
-+O(\Gamma^{2})\Bigr],
-\end{equation}
-the fixed-$t$ expansion being a Taylor--Feynman--Kac identity. Under
-$Q_{\mathrm{ext}}$ the credit grows as $x_s\asymp\sigma s^{3/2}$ on
-the scaling picture, which suggests that the first-order coefficient
-converges as $t\to\infty$ if and only if $\rho>0$; the suggestion is
-not a proof, since $\E_Q[e^{-\rho x_s}]$ is controlled by the mass the
-conditioned process keeps near low credit and not by its typical
-scale, and the long-time threshold is entered as open. Were it
-established, the expansion's radius would collapse exactly at the
-trichotomy's boundary, the signature of a genuine transition.
-\end{proposition}
+% was:
+% was: \begin{proof}
+% was: On $\{\mu_t\to+\infty\}$: eventually $\mu_t\ge1$, so
+% was: $x_t\ge x_{t_0}+(t-t_0)$ and, for $\rho>0$,
+% was: $h(x_t)\lesssim e^{-\min(1,\rho)(t-t_0)}$, whence
+% was: $\Lambda_\infty<\infty$. For $\rho\le0$,
+% was: Theorem~\ref{thm:trapped}(i) makes the first factor necessary. On
+% was: $\{\mu_t\to-\infty\}$, $x_t\to-\infty$ and
+% was: $h\to B(1+e^{-b})>0$, so $\Lambda_\infty=\infty$; on the recurrent
+% was: event the outcome is Proposition~\ref{prop:recurrent} ---
+% was: $\bar m>0$ gives $D_t/t\to\bar m$ and $\Lambda_\infty<\infty$,
+% was: $\bar m\le0$ (nondegenerate) gives $\Lambda_\infty=\infty$ --- with
+% was: the Brownian driver settled by the driftless analysis and general
+% was: null recurrence left open, which is the statement's scope clause.
+% was: The hitting probabilities are the classical scale-function formula
+% was: \cite{KT81,RY99}.
+% was:  Throughout, the background $B$ is random and is never fixed: for positive linear growth the argument uses the subexponential growth of the Brownian background, and for adverse growth it uses the infinite-set lemma above. \end{proof}
+% was:
+% was: \begin{corollary}[The solvable case; {[P]}]\label{cor:solvable}
+% was: For the self-reinforcing driver $d\mu_t=\nu\mu_t\,dt+\sigma\,dW_t$,
+% was: $\nu>0$ --- the member of the driver family whose drift is
+% was: proportional to its state ---
+% was: $s'(v)=e^{-\nu v^2/\sigma^2}$ is integrable at both ends and
+% was: \begin{equation}\label{eq:sigmoid}
+% was: \PP\bigl(\Lambda_\infty<\infty\bigr)
+% was: =\one\{\rho>0\}\cdot\Phi\!\Bigl(\frac{\mu_0\sqrt{2\nu}}{\sigma}\Bigr):
+% was: \end{equation}
+% was: a sharp threshold in the response exponent multiplied by a smooth
+% was: Gaussian sigmoid of width $\sigma/\sqrt{2\nu}$ in the initial rate.
+% was: With $\rho<0$, feedback accelerates failure:
+% was: $\mu_t\to+\infty$ drives $h\to\infty$ superexponentially, so a system
+% was: with adverse response and feedback is strictly worse off than one with
+% was: adverse response and none.
+% was: \end{corollary}
+% was:
+% was: \begin{remark}[Fluctuating response; {[S]}]\label{rem:fluct}
+% was: Theorem~\ref{thm:twocond} is stated for constant $\rho$. It applies to a process $\rho_t$ exactly when $\rho_t$ is eventually constant, its response factor then reading $\one\{\rho_\infty>0\}$ for the eventual value $\rho_\infty$, which is the form in which the technoanatomy companion consumes it; it says nothing about a response that keeps fluctuating, and the rest of this remark says what can be said in that case. If $\rho=\rho_t$ is a process, an adverse excursion of duration $\delta$ at exponent level $x$ contributes
+% was: $\asymp\delta\,\Gamma e^{|\rho|x}$ to $\Lambda$, so survivability
+% was: requires $\delta\lesssim\Gamma^{-1}e^{-|\rho|x}$: the affordable
+% was: duration of adverse response decays exponentially in the accumulated
+% was: exponent. Recurrence of $\rho_t$ alone does not force
+% was: $\Lambda_\infty=\infty$: the internal term explodes only where adverse
+% was: anatomy coincides with positive credit, which is the overlap condition
+% was: of Corollary~\ref{cor:overlap}. Viability does not, however, require $\rho_t$ eventually positive: a viable driver with $x_t/t \to 1$ and anatomy negative only on intervals $[n, n + e^{-3n}]$ has negative anatomy recurring arbitrarily late with summable hazard contributions, and the general question is the integrability of $e^{-\rho_t x_t}$; whether \eqref{eq:twocond} admits a product decomposition over anatomy and driver is a separate conjecture, not asserted here. Supplying dynamics for
+% was: $\rho_t$ is the model's principal open direction [O].
+% was: \end{remark}
+% was:
+% was: \begin{corollary}[Adverse anatomy overlapping positive credit is fatal;
+% was: {[P]}]\label{cor:overlap}
+% was: If there exist $a,b>0$ with
+% was: $\Leb\{t:\rho_t\le-a,\ x_t\ge b\}=\infty$ almost surely, then
+% was: $\Lambda_\infty=\infty$ almost surely, since on that set the internal
+% was: term satisfies $\Gamma e^{-\rho_tx_t}\ge\Gamma e^{ab}$. A negative
+% was: excursion of $\rho$ that systematically coincides with $x_t\le0$ costs
+% was: nothing, so recurrence of $\rho$ is not by itself fatal; what
+% was: fluctuating anatomy implies in general, when the excursions of $\rho$
+% was: and of $x$ are not coupled by hypothesis, is open [O].
+% was: \end{corollary}
+% was:
+% was: \begin{proposition}[Perturbation in $\Gamma$, and the threshold;
+% was: fixed-time expansion {[P]}, long-time threshold {[O]}]\label{prop:perturb}
+% was: Writing $Q_{\mathrm{ext}}$ for the external-only survivorship measure,
+% was: \begin{equation}\label{eq:perturb}
+% was: \PP(T>t)=\PP_{\mathrm{ext}}(T>t)\Bigl[1-\Gamma\,
+% was: \E_{Q_{\mathrm{ext}}}\!\Bigl[\int_0^te^{-\rho x_s}ds\Bigr]
+% was: +O(\Gamma^{2})\Bigr],
+% was: \end{equation}
+% was: the fixed-$t$ expansion being a Taylor--Feynman--Kac identity. Under
+% was: $Q_{\mathrm{ext}}$ the credit grows as $x_s\asymp\sigma s^{3/2}$ on
+% was: the scaling picture, which suggests that the first-order coefficient
+% was: converges as $t\to\infty$ if and only if $\rho>0$; the suggestion is
+% was: not a proof, since $\E_Q[e^{-\rho x_s}]$ is controlled by the mass the
+% was: conditioned process keeps near low credit and not by its typical
+% was: scale, and the long-time threshold is entered as open. Were it
+% was: established, the expansion's radius would collapse exactly at the
+% was: trichotomy's boundary, the signature of a genuine transition.
+% was: \end{proposition}
 
 \begin{theorem}[Adverse credit occupies half of logarithmic time in the
 critical regime; {[P]}]\label{thm:half}
@@ -892,7 +1517,9 @@ theorem gives logarithmic density $\PP(Z_0<0)=\tfrac12$ by symmetry.
 
 \noindent The theorem is exported for the technoanatomy companion, which
 reads it as the statement that adverse strength is a generic condition
-in the critical regime and not evidence of adverse anatomy.
+in the critical regime and not evidence of a technoanatomy falling behind.
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: the export note read for the unit form (R1063).
+% was: in the critical regime and not evidence of adverse anatomy.
 
 \section{Persistence and the transfer}\label{sec:persist}
 
@@ -970,11 +1597,15 @@ moving-boundary results delimit from the rigorous side.
 
 \begin{proposition}[Transfer; scaling statement {[S]}, prefactor
 conjectural]\label{thm:transfer}
-In the two-channel model with $\rho>1$ the persistence exponent
+In the two-channel model, where the internal channel is eventually dominated by the external one (for the unit form, every scalar outgrowing $x\,e^{x}$ by more than the background's fluctuations, as a lead that outgrows the strength provides by Corollary~\ref{cor:lead}), the external channel's tail $4B_te^{-2x}$ is the bare model's hazard with the credit doubled, and the persistence exponent
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: the transfer's scope in the unit form (R1063).
+% was: In the two-channel model with $\rho>1$ the persistence exponent
 $1/4$ is expected to survive the two-channel perturbation, because
 the $t^{3/2}$ scale of the integrated driver dominates the $t^{1/2}$
 scale of the background's fluctuations, so that under
-Ansatz~\ref{ans:soft} $\log\PP(T>t)=-\tfrac14\log t+O(1)$. A heuristic derivation, not reproduced here and not relied on, suggests
+Ansatz~\ref{ans:soft} $\log\PP(T>t)=-\tfrac14\log t+O(1)$. A heuristic derivation for the logistic muffling factor $(1+e^{-b})/(1+e^{x-b})$ with offset $b$, not reproduced here and not relied on, suggests
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: the heuristic form placed with the factor it was derived for (R1063).
+% was: Ansatz~\ref{ans:soft} $\log\PP(T>t)=-\tfrac14\log t+O(1)$. A heuristic derivation, not reproduced here and not relied on, suggests
 the more specific form
 \begin{equation}\label{eq:transfer}
 \PP(T>t)\;\asymp\;
@@ -984,12 +1615,400 @@ e^{-\Theta(n(b/\sigma)^{2/3})}\cdot t^{-1/4},
 every difference between the two-channel model and the driftless one
 appearing as a shift of initial data or a bounded multiplicative
 constant; that form is entered here as a conjecture, its shifts and
-prefactor not established by the hypotheses stated in this paper, and
+prefactor not established by the hypotheses stated in this paper; for the factor $\operatorname{sech}^2$ there is no offset to traverse and the credit enters doubled, so its shifts are to be recomputed; and
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: what the sech^2 factor changes in the heuristic form (R1063).
+% was: prefactor not established by the hypotheses stated in this paper, and
 the numerics below test the bare soft wall rather than the full
 two-channel process. Where the exponent holds, $\E[T]=\infty$ while
 $T<\infty$ a.s., residual life is asymptotically Pareto$(\tfrac14)$,
 and quantiles grow as the fourth power of rarity.
 \end{proposition}
+
+\begin{remark}[The exponent with critical technoanatomy; {[S]}, proof {[O]}]\label{rem:addexp}
+Proposition~\ref{thm:transfer} concerns a technoanatomy that has escaped
+ahead. A unit whose anatomy rate, or whose lead rate, is itself the
+driftless Brownian rate is never dominated: by
+Theorem~\ref{thm:trapped}(ii) and Corollary~\ref{cor:lead} it makes
+Departure certain, and it changes the exponent. Survival to $t$ then asks
+two things of two independent integrated Brownian motions: of the credit,
+that it keep above the wall; and of $\log\tau$, that it keep ahead of
+$\log x^+$, a level that moves only logarithmically in $t$, or of the
+lead, that it keep above a fixed level. Each has persistence exponent
+$\tfrac14$, a logarithmic moving boundary not changing it
+\cite{AS15,DW15}, and the scaling expectation at frozen background is
+\begin{equation}\label{eq:addexp}
+\PP(T>t)\asymp t^{-(1+m)/4}
+\end{equation}
+for $m$ units with independent critical rates: one quarter for the
+strength and one for each technoanatomy held at criticality, the hazard
+of survivors being $(1+m)/(4t)$ in place of $1/(4t)$.
+Section~\ref{sec:numerics} finds slopes $-0.51$ and $-0.50$ for one unit
+in the two forms, against $-0.25$ for the external channel alone; larger
+$m$ is untested, and a proof, with the case of correlated rates, is open
+[O].
+\end{remark}
+% R1068 (Fable 5.2, Nov 27 2026), at the author's direction: Remark (the exponent with critical technoanatomy) added: a consequence of the unit form found in the same review and supported by the simulation recorded in r1067/tail_exponents.py.
+
+\begin{remark}[Two walls: the pace as an output of conditioning; {[S]}]\label{rem:pace}
+In the coordinates of strength and lead the hazard on $\{x>0\}$ is
+$B_t\operatorname{sech}^2x+\sum_j\Gamma_j\sinh^2(e^{-\ell_j})$
+(Proposition~\ref{prop:leadcoord}): the external channel is a soft wall
+for the strength, at zero, and each unit is a soft wall for its own lead,
+at the level $-\log\operatorname{arsinh}\Gamma_j^{-1/2}$ where its hazard
+is of order one. Survival is the joint persistence of the strength above
+the first wall and of every lead above its own, which is the content of
+Remark~\ref{rem:addexp}. Let the rates be the generic ones of
+Remark~\ref{rem:genericrate}, driftless and independent, so that nothing
+in the unconditioned law holds a lead up: $\log\tau_j$ is symmetric about
+its start while $\log x^+$ grows, and the typical lead falls.
+Conditioning on survival then acts on each lead as it acts on the
+strength. On the scaling picture the conditioned law is that of two
+integrated Brownian motions each kept above its wall: the leads of
+survivors grow as $t^{3/2}$, as their strength does; an anatomy rate whose
+lead is near its wall receives the upward drift of
+Section~\ref{sec:cond}, as the driver does near its own; and the loads of
+survivors tend to zero. The pace of technoanatomy against strength, its
+standing far ahead and still gaining, is thus what the generic law looks
+like after the filtering, and not a premise laid on it. While a lead is
+near its wall the two rates of survivors are moreover positively
+correlated, strength gained being survivable only with technoanatomy
+gained, and the coupling relaxes once the lead has run ahead.
+Section~\ref{sec:numerics} reports the experiment.
+Theorem~\ref{thm:pace} proves this of the leads, for the histories that
+survive holding strength: their leads are of order $t^{3/2}$ at the
+horizon, their scalars stand below their strength with probability
+$O(t^{-3/2}\log\log t)$ against one half unfiltered, and the conditioned
+law of every anatomy rate dominates the generic one. At scaling level
+there remain the exponent \eqref{eq:addexp}, the drift and the
+correlation of the rates near a wall, and, short of the doubling of
+Theorem~\ref{thm:pace}(v), that survivors hold strength at all. On the
+last the background matters. With the driftless background of
+Definition~\ref{def:twochannel} a history can also survive holding no
+strength, its units unloaded, while the background stays quiet, with
+probability of order $t^{-1/4-n/2}$ on the same picture, against
+$t^{-(1+m)/4}$ for the route through strength and leads: the second route
+outweighs the first when $m<2n$, and the conditioning on $H_t$ sets the
+first aside.
+\end{remark}
+% R1074 (Fable 5.2, Nov 27 2026), at the author's direction: his request of Nov 27 for an analytic proof of the outcome the simulation of R1073 showed (the pace of technoanatomy against strength as an output of the filtering). The remark's closing sentences restated: what the theorem proves (the leads of the histories that survive holding strength), what stays at scaling level, and the second route to survival that the driftless background opens (no strength held, the background quiet), which the theorem's conditioning sets aside. POSITION-TOUCHING, reported to him: on the scaling picture that second route outweighs the route through strength and leads when m > 2n.
+% was: Section~\ref{sec:numerics} reports the experiment. The statement is at
+% was: scaling level, the factorization of the conditioned law being exact only
+% was: in the limit in which $\log x^+$ is constant against the lead, and its
+% was: proof belongs with that of \eqref{eq:addexp}.
+% was: \end{remark}
+% R1073 (Fable 5.2, Nov 27 2026), at the author's direction: his message of Nov 27: a very low internal hazard is a technoanatomy far larger than the technostrength, and the pace itself should come out of the filtering of the joint system of strength and technoanatomy from a generic distribution. Remark (the pace as an output of conditioning) added, at scaling level, with the run of r1073/joint_conditioning.py behind it.
+
+\begin{lemma}[A Brownian path is associated; {[P]}]\label{lem:assoc}
+Let $\beta$ be a Brownian motion on $[0,t]$, of any volatility and from a
+fixed start, and let $F$ and $G$ be bounded measurable functionals of its
+path, each nondecreasing: $F(\omega)\le F(\omega')$ whenever
+$\omega_s\le\omega'_s$ for every $s\le t$. Then
+$\E[F(\beta)G(\beta)]\ge\E[F(\beta)]\,\E[G(\beta)]$.
+\end{lemma}
+
+\begin{proof}
+For independent real variables $X_1,\dots,X_k$ and bounded functions $f$
+and $g$ nondecreasing in each argument, $\E[fg]\ge\E[f]\,\E[g]$, which is
+the association of independent variables \cite{EPW67}. For $k=1$,
+$(f(X)-f(X'))(g(X)-g(X'))\ge0$ for an independent copy $X'$ of $X$, and
+the expectation of the product is $2\E[fg]-2\E[f]\E[g]$. For the step,
+conditioning on $X_k$ gives $\E[fg\mid X_k]\ge\varphi(X_k)\psi(X_k)$ with
+$\varphi(z)=\E f(X_1,\dots,X_{k-1},z)$ and $\psi$ likewise, both
+nondecreasing, to which the case $k=1$ applies. The values of $\beta$ at
+the points $it2^{-N}$, $i\le2^N$, are sums of independent increments, and
+given those values $\beta$ is their linear interpolation plus Brownian
+bridges independent of them. Hence
+$F_N:=\E[F(\beta)\mid\beta_{it2^{-N}},\,i\le2^N]$ is a nondecreasing
+function of the increments, as is $G_N$, and
+$\E[F_NG_N]\ge\E[F_N]\,\E[G_N]=\E[F]\,\E[G]$. The path being continuous,
+those values generate its $\sigma$-field as $N\to\infty$, so that
+$F_N\to F$ and $G_N\to G$ in $L^2$ by martingale convergence, and
+$\E[F_NG_N]\to\E[FG]$.
+\end{proof}
+
+\begin{theorem}[The pace of survivors; {[P]}]\label{thm:pace}
+In the two-channel model let the rates be the generic ones,
+$\mu=\mu_0+\sigma W$ and $\eta_j=\eta_{j,0}+s_jW^j$ with $s_j>0$, the
+Brownian motions $W,W^1,\dots,W^m$ independent of one another and of the
+background, which is that of Definition~\ref{def:twochannel} or is frozen
+at a constant $B>0$. Write $\ell_j=\log(\tau_j/x)$ for a unit's lead on
+$\{x>0\}$, and
+\[
+H_t:=\{T>t,\ x_t\ge1\}
+\]
+for the histories that survive to $t$ and hold strength there. Fix a
+unit $j$.
+\begin{enumerate}[label=\emph{(\roman*)},itemsep=1pt]
+\item \emph{The filtering only raises a technoanatomy.} For every $t$,
+every bounded nondecreasing functional $F$ of the path of $\eta_j$ on a
+bounded interval, and every event $A$ determined by the driver, the
+background and the other units' rates with $\PP(T>t,\,A)>0$,
+\[
+\E\bigl[F\bigm|T>t,\ A\bigr]\;\ge\;\E[F].
+\]
+Given survival to $t$, or given $H_t$, the law of the path of the anatomy
+rate, and with it that of $\log\tau_j$, dominates its unconditioned law
+stochastically, at every horizon.
+\item \emph{What holding strength costs, and where the time goes.} There
+is $c>0$ with $\PP(H_t)\ge c\,t^{-(1+m)/2}$ for $t\ge1$. Consequently, for
+$0<\delta<\tfrac12$, the time spent holding strength with a lead no
+longer than $(\tfrac12-\delta)\log t$,
+\[
+O_t:=\Leb\bigl\{s\le t:\ x_s>0,\ \ell_{j,s}\le(\tfrac12-\delta)\log t\bigr\},
+\]
+satisfies
+\[
+\PP\bigl(O_t>t^{1-\delta}\bigm|T>t\bigr)\;\le\;
+c^{-1}\,t^{(1+m)/2}\exp\bigl(-\Gamma_jt^{\delta}\bigr)\;\longrightarrow\;0,
+\]
+and the same given $H_t$.
+\item \emph{The lead at the horizon.} There are $C<\infty$ and $t_0$ such
+that, for $t\ge t_0$ and every $w\ge0$,
+\begin{equation}\label{eq:pace}
+\PP\bigl(\ell_{j,t}\le w\bigm|H_t\bigr)\;\le\;C\,(w+\log\log t)\,t^{-3/2}.
+\end{equation}
+The scalar stands at or below the strength with conditional probability
+$O(t^{-3/2}\log\log t)$, and for every $\varepsilon>0$
+\[
+\PP\bigl(t^{3/2-\varepsilon}\le\ell_{j,t}\le t^{3/2+\varepsilon}\bigm|H_t\bigr)\;\longrightarrow\;1:
+\]
+the lead of a survivor holding strength is of order $t^{3/2}$ to within
+any power of $t$, and its load is then at most
+$\exp(-t^{3/2-\varepsilon})$.
+\item \emph{Without the filtering.} For any $w_t=o(t^{3/2})$,
+$\PP(\ell_{j,t}\le w_t\mid x_t\ge1)\to\tfrac12$, and
+$\E[O_t]/t\to\tfrac14$.
+\item \emph{The strength of survivors, at frozen background.} If
+$B_t\equiv B$, there are $C'<\infty$ and $t_0'$ with
+\begin{equation}\label{eq:pacestrength}
+\PP\bigl(x_t<1\bigm|T>t\bigr)\;\le\;C'\,t^{-1}\log^3t\;
+\frac{\PP(T>t/2)}{\PP(T>t)},\qquad t\ge t_0'.
+\end{equation}
+By (ii) the ratio on the right is at most $4^{1+m}$ at more than half of
+the horizons $t=2^k$, $k\le K$, once $K$ is large, and it is bounded at
+every horizon if \eqref{eq:addexp} holds. Where it is bounded, survivors
+hold strength with probability $1-O(t^{-1}\log^3t)$, and \eqref{eq:pace}
+holds given survival alone, with a further term of that order.
+\end{enumerate}
+The statements hold with the same proof in the lead form of
+Corollary~\ref{cor:lead} with driftless Brownian lead rates, the lead
+rate in place of the anatomy rate.
+\end{theorem}
+
+\begin{proof}
+Let $\mathcal G$ be the $\sigma$-field of the driver, the background and
+the rates of the units other than $j$; the path of $\eta_j$ is
+independent of it. Given all the paths, survival to $t$ has probability
+$e^{-\Lambda_t}=R_t\,U_{0,t}$, with
+\begin{gather*}
+R_t:=\exp\Bigl(-\int_0^t\Bigl[B_s\operatorname{sech}^2x_s^+
++\sum_{i\neq j}\Gamma_i\sinh^2\frac{x_s^+}{\tau_{i,s}}\Bigr]ds\Bigr),\\
+U_{a,b}:=\exp\Bigl(-\Gamma_j\int_a^b\sinh^2\bigl(x_s^+e^{-y_{j,s}}\bigr)\,ds\Bigr),
+\end{gather*}
+and $R_t$ is $\mathcal G$-measurable. For a fixed path of $x$ each
+$U_{a,b}$ is a nondecreasing functional of the path of $\eta_j$: raising
+$\eta_j$ raises $y_j$ and lowers the load.
+
+(i) By Lemma~\ref{lem:assoc} applied given $\mathcal G$,
+$\E[F\,U_{0,t}\mid\mathcal G]\ge\E[F]\,\E[U_{0,t}\mid\mathcal G]$.
+Multiplying by $R_t\one_A$ and taking expectations,
+$\E[F;\,T>t,\,A]\ge\E[F]\,\PP(T>t,\,A)$.
+
+(ii) Let $E$ be the event that, for constants $X$, $A$, $Y$, $Y'$ chosen
+below, (a) $\sup_{s\le1}|x_s|\le X$, $x_1\ge1$, $\mu_1\in[2,3]$, and for
+every unit $i$, $\inf_{s\le1}y_{i,s}\ge-Y$, $y_{i,1}\ge Y'$ and
+$\eta_{i,1}\ge4$; (b) $1\le\mu_u\le A+u$ for $1\le u\le t$; (c)
+$\eta_{i,u}\ge3$ for $1\le u\le t$ and every unit $i$; (d)
+$W^{(i)}_u\le1+u/\epsilon$ for every $u\ge0$ and $i\le n$. On $E$, for
+$1\le s\le t$,
+\[
+s\;\le\;x_s\;\le\;X+As+\tfrac12s^2,\qquad y_{i,s}\;\ge\;Y'+3(s-1).
+\]
+By (d), $B_s\le ne^{\epsilon+s}$, so that the external term is at most
+$ne^{\epsilon+1}$ before time one and, as
+$\operatorname{sech}^2x\le4e^{-2x}$, at most $4ne^{\epsilon-s}$ after it;
+for a frozen background (d) is void and $B$ stands in place of
+$ne^{\epsilon+s}$. With
+$Y':=\log\sup_{s\ge1}(X+As+\tfrac12s^2)e^{-(s-1)}$ every load is at most
+$e^{-2(s-1)}$ after time one, and at most $Xe^{Y}$ before it. As
+$\sinh^2u\le2u^2$ for $u\le1$, on $E$
+\[
+\Lambda_t\;\le\;C_\Lambda:=ne^{\epsilon+1}+4ne^{\epsilon}
++\sum_i\Gamma_i\bigl(\sinh^2(Xe^{Y})+\tfrac12\bigr)
+\]
+and $x_t\ge1$, so that $\PP(H_t)\ge e^{-C_\Lambda}\,\PP(E)$. The event (d)
+has probability $(1-e^{-2/\epsilon})^n$, $\sup_u(W_u-u/\epsilon)$ being
+exponential of rate $2/\epsilon$, and is independent of the rest. Given
+$\Fc_1$, the event (b) and the $m$ events of (c) are independent. By
+reflection each of the latter has probability at least
+$\operatorname{erf}(1/s_i\sqrt{2t})$, and $\mu$ stays above one through
+$t$ with probability at least $\operatorname{erf}(1/\sigma\sqrt{2t})$.
+Let $\varrho$ be the first time after one at which $\mu_u=A+u$. From
+$\mu_1\in[2,3]$ the line starts $a\in[A-2,A-1]$ above the rate, so that
+$\PP(\varrho<\infty\mid\Fc_1)=e^{-2a/\sigma^2}$ and
+$\E[\varrho-1;\,\varrho<\infty\mid\Fc_1]=a\,e^{-2a/\sigma^2}$; and by the
+strong Markov property at $\varrho$ and reflection again, the rate stays
+above one from $\varrho$ through $t$ with probability at most
+$(2/\pi)^{1/2}(A+\varrho-1)/\sigma\sqrt{t-\varrho}$. Splitting at
+$\varrho=t/2$,
+\[
+\PP\bigl(\text{(b)}\bigm|\Fc_1\bigr)\;\ge\;
+\operatorname{erf}\Bigl(\frac{1}{\sigma\sqrt{2t}}\Bigr)
+-\frac{4A}{\sigma\sqrt{\pi t}}\,e^{-2(A-2)/\sigma^2}
+-e^{-(t-2)/4\sigma^2},
+\]
+the last term bounding $\PP(t/2<\varrho<\infty\mid\Fc_1)$. Since
+$\operatorname{erf}z\ge\operatorname{erf}(1)\,z$ on $[0,1]$, a choice of
+$A$ with $(4A/\sqrt\pi)\,e^{-2(A-2)/\sigma^2}\le\tfrac14$ leaves (b) a
+conditional probability at least $c_1t^{-1/2}$ for $t\ge t_1$, and for
+$t<t_1$ at least its value at $t_1$, the event decreasing in $t$.
+Finally (a) contains a neighbourhood, in the supremum norm, of a path of
+$(W,W^1,\dots,W^m)$ on $[0,1]$, the constants being chosen in this order:
+a path of $W$ carrying $\mu$ into $(2,3)$ and $x$ above one at time one,
+which fixes $X$; then $A$, which depends on $\sigma$ alone; then $Y'$;
+then paths of the $W^i$ carrying $\eta_i$ above $4$ and $y_i$ above $Y'$
+at time one, which fixes $Y$. Wiener measure charges every such
+neighbourhood. Hence $\PP(E)\ge c'\,t^{-(1+m)/2}$ with $c'>0$, and the
+bound holds with $c=c'e^{-C_\Lambda}$. For the occupation time, where
+$x_s>0$ and $\ell_{j,s}\le L$ the unit's hazard is at least
+$\Gamma_j\sinh^2(e^{-L})\ge\Gamma_je^{-2L}$; with
+$L=(\tfrac12-\delta)\log t$ this gives
+$\Lambda_t\ge\Gamma_jt^{-1+2\delta}O_t$ and
+$\PP(T>t,\,O_t>t^{1-\delta})\le\exp(-\Gamma_jt^{\delta})$, to be divided
+by $\PP(T>t)\ge\PP(H_t)$.
+
+(iii) Put $M_t:=\log(6\sqrt e\,\log t)$, and let $Q_t$ be the event that
+$|\mu|$ and $|\eta_j|$ stay below $t$ on $[0,t]$, so that
+$\PP(Q_t^c)\le8e^{-t/4\bar\sigma^2}$ for large $t$, with
+$\bar\sigma=\max(\sigma,s_j)$. \emph{Deep leads.} On
+$Q_t\cap\{x_t\ge1,\ \ell_{j,t}<-M_t\}$, for $t-\tfrac1{2t}\le s\le t$ the
+credit and $y_j$ have each moved by at most $\tfrac12$, so that
+$x_s\ge\tfrac12x_t$ and the load $x_se^{-y_{j,s}}$ exceeds
+$e^{M_t}/2\sqrt e=3\log t$. As $\sinh^2z\ge\tfrac18e^{2z}$ for $z\ge1$,
+$\Lambda_t\ge\Gamma_jt^5/16$ there, and
+\[
+\PP\bigl(T>t,\ x_t\ge1,\ \ell_{j,t}<-M_t\bigr)\;\le\;e^{-\Gamma_jt^5/16}+\PP(Q_t^c).
+\]
+\emph{The band.} Given $\mathcal G$ and the path of $\eta_j$ on
+$[0,t/2]$, $y_{j,t}$ is Gaussian of variance $v_t=s_j^2t^3/24$, and on
+$\{x_t\ge1\}$ the event $\{-M_t\le\ell_{j,t}\le w\}$ asks it to fall in an
+interval of length $w+M_t$ whose ends are $\mathcal G$-measurable, which
+has conditional probability at most $(w+M_t)(2\pi v_t)^{-1/2}$. Since
+$U_{0,t}\le U_{0,t/2}$,
+\[
+\PP\bigl(T>t,\ x_t\ge1,\ -M_t\le\ell_{j,t}\le w\bigr)\;\le\;
+\frac{w+M_t}{\sqrt{2\pi v_t}}\,K_t,\qquad
+K_t:=\E\bigl[R_t\one_{\{x_t\ge1\}}\,\E[U_{0,t/2}\mid\mathcal G]\bigr].
+\]
+\emph{The doubling.} By Lemma~\ref{lem:assoc} applied given $\mathcal G$,
+$\E[U_{0,t}\mid\mathcal G]\ge\E[U_{0,t/2}\mid\mathcal G]\,
+\E[U_{t/2,t}\mid\mathcal G]$. Where $|\mu|\le t$ on $[0,t]$,
+$\sup_{s\le t}x_s\le|x_0|+t^2\le e^t$ for large $t$; if moreover
+$y_{j,s}\ge2t$ on $[t/2,t]$, the load there is at most $e^{-t}$ and
+$U_{t/2,t}\ge e^{-\Gamma_j}$. By Brownian scaling,
+$y_{j,rt}=y_{j,0}+\eta_{j,0}rt+s_jt^{3/2}\int_0^r\widetilde W_u\,du$ for a
+standard Brownian motion $\widetilde W$, and
+$\PP(\inf_{t/2\le s\le t}y_{j,s}\ge2t)$ has limit inferior at least
+\[
+p_*:=\PP\Bigl(\inf_{1/2\le r\le1}\int_0^r\widetilde W_u\,du>0\Bigr)>0.
+\]
+Hence, for large $t$,
+\[
+\PP(H_t)=\E\bigl[R_t\one_{\{x_t\ge1\}}\,\E[U_{0,t}\mid\mathcal G]\bigr]
+\;\ge\;\tfrac12p_*e^{-\Gamma_j}\Bigl(K_t-\PP\bigl(\sup_{s\le t}|\mu_s|>t\bigr)\Bigr),
+\]
+and as $K_t\ge\PP(H_t)\ge ct^{-(1+m)/2}$ while the probability subtracted
+is exponentially small, $\PP(H_t)\ge\tfrac14p_*e^{-\Gamma_j}K_t$. Adding
+the deep leads to the band and dividing by $\PP(H_t)$ gives
+\eqref{eq:pace}, $M_t$ being at most $2\log\log t$ and the deep term, over
+$\PP(H_t)$, smaller than any power of $t$. For the upper side, on
+$\{x_t\ge1\}$ the lead is at most $y_{j,t}$, a Gaussian of variance
+$s_j^2t^3/3$, so that
+$\PP(\ell_{j,t}\ge t^{3/2+\varepsilon},\ x_t\ge1)\le e^{-c''t^{2\varepsilon}}$
+for a $c''>0$, which is negligible against $\PP(H_t)$.
+
+(iv) Unconditioned, $t^{-3/2}y_{j,t}$ is Gaussian with mean $O(t^{-1/2})$
+and variance $s_j^2/3$, independent of $x$, while $t^{-3/2}\log x_t\to0$
+in probability on $\{x_t\ge1\}$, an event of probability tending to
+$\tfrac12$; so $\PP(y_{j,t}\le\log x_t+w_t\mid x_t\ge1)\to\tfrac12$. In the
+same way, for each $r\in(0,1]$,
+$\PP(x_{rt}>0,\ \ell_{j,rt}\le(\tfrac12-\delta)\log t)\to\tfrac12\cdot\tfrac12$,
+and $\E[O_t]/t$ is the integral of this probability over $r$.
+
+(v) Let $B_t\equiv B$ and $M'_t:=B^{-1}\sqrt t\,\log^3t$. Where $|\mu|$
+stays below $\sqrt t\log t$ on $[0,t]$, an event whose complement has
+probability at most $4e^{-\log^2t/4\sigma^2}$ for large $t$, a credit
+below $-M'_t$ at $t$ has been negative for a time $M'_t/\sqrt t\log t$,
+during which the hazard is $B$; so
+$\PP(T>t,\ x_t<-M'_t)\le e^{-\log^2t}+4e^{-\log^2t/4\sigma^2}$. Given
+$\Fc_{t/2}$, $x_t$ is Gaussian of variance $\sigma^2t^3/24$, so that
+$\PP(-M'_t\le x_t<1\mid\Fc_{t/2})\le(1+M'_t)(12/\pi\sigma^2t^3)^{1/2}$, and
+as $e^{-\Lambda_t}\le e^{-\Lambda_{t/2}}$,
+\[
+\PP\bigl(T>t,\ -M'_t\le x_t<1\bigr)\;\le\;
+(1+M'_t)\Bigl(\frac{12}{\pi\sigma^2t^3}\Bigr)^{1/2}\PP(T>t/2).
+\]
+Dividing by $\PP(T>t)\ge ct^{-(1+m)/2}$ gives \eqref{eq:pacestrength}.
+Were the ratio $\PP(T>2^{k-1})/\PP(T>2^k)$, which is at least one, to
+exceed $4^{1+m}$ at half of the $k\le K$, the product of the ratios over
+$k\le K$, which is $\PP(T>1)/\PP(T>2^K)$, would exceed $2^{(1+m)K}$,
+against (ii) once $K$ is large.
+\end{proof}
+
+\begin{corollary}[The credit of survivors, with no Ansatz; {[P]}]\label{cor:strengthscale}
+Consider the driftless model of Definition~\ref{def:model}, with credit
+$D$, or the two-channel model with the external channel alone at frozen
+background, $m=0$ and $B_t\equiv B$, with credit $x$.
+\begin{enumerate}[label=\emph{(\roman*)},itemsep=1pt]
+\item Survival doubles at bounded cost: there are $c_0>0$ and $t_0$ with
+$\PP(T>2t)\ge c_0\,\PP(T>t)$ for $t\ge t_0$. Hence
+$\PP(T>t)\ge c\,t^{-\kappa}$ with $\kappa=\log_2(1/c_0)$, and the hazard of
+survivors, $-\frac{d}{dt}\log\PP(T>t)$, integrates to at most
+$\log(1/c_0)$ over every interval $[t,2t]$.
+\item There are $C<\infty$ and $t_0$ with, for $t\ge t_0$ and $w\ge0$,
+\[
+\PP\bigl(D_t\le w\bigm|T>t\bigr)\;\le\;C\,(w+\log t)\,t^{-3/2}
+\]
+in the driftless model, and the same for $x_t$ with $\sqrt t\log^3t$ in
+place of $\log t$ in the other. The credit of a survivor is nonpositive
+with probability $O(t^{-3/2}\log t)$, respectively $O(t^{-1}\log^3t)$, and
+for every $\varepsilon>0$ it lies between $t^{3/2-\varepsilon}$ and
+$t^{3/2+\varepsilon}$ with conditional probability tending to one.
+\end{enumerate}
+Neither item uses Ansatz~\ref{ans:soft} or Ansatz~\ref{ans:ratio}. The
+scale $t^{3/2}$ of a survivor's credit, and a hazard of survivors of order
+at most $1/t$ on average over each doubling of the horizon, are thereby
+proved; the exponent $\tfrac14$ and the limit law of
+Section~\ref{sec:cond} remain under their hypotheses.
+\end{corollary}
+
+\begin{proof}
+For the driftless model take the hazard to be $e^{-D}$, a constant factor
+being a shift of the credit. In both models the hazard is nonincreasing in
+the credit, so that $U_{a,b}:=\exp(-\int_a^bh_s\,ds)$ is a nondecreasing
+functional of the path of $\mu$, and $e^{-\Lambda_t}=U_{0,t}$. (i) By
+Lemma~\ref{lem:assoc},
+$\PP(T>2t)=\E[U_{0,t}U_{t,2t}]\ge\PP(T>t)\,\E[U_{t,2t}]$. Where the credit
+stays above $\log t$ on $[t,2t]$, $\int_t^{2t}e^{-D_s}ds\le1$ and
+$\int_t^{2t}B\operatorname{sech}^2x_s\,ds\le4B/t$; and by the scaling of
+the proof of Theorem~\ref{thm:pace}(iii) that event has probability with
+limit inferior at least $p_*$. Iterating the doubling from $t_0$ gives the
+polynomial bound, and $\log(\PP(T>t)/\PP(T>2t))$ is the integral over
+$[t,2t]$ of the hazard of survivors. (ii) In the driftless model, where
+$|\mu|$ stays below $t$ on $[0,t]$ a credit below $-1-2\log t$ at $t$ has
+stood below $-2\log t$ since $t-1/t$, the hazard there exceeding $t^2$; so
+$\PP(T>t,\ D_t<-1-2\log t)\le e^{-t}+4e^{-t/4\sigma^2}$ for large $t$.
+Given $\Fc_{t/2}$, $D_t$ is Gaussian of variance $\sigma^2t^3/24$, whence
+\[
+\PP\bigl(T>t,\ -1-2\log t\le D_t\le w\bigr)\;\le\;
+(w+1+2\log t)\Bigl(\frac{12}{\pi\sigma^2t^3}\Bigr)^{1/2}\PP(T>t/2),
+\]
+and $\PP(T>t/2)\le c_0^{-1}\PP(T>t)$ by (i). For the external channel the
+deep estimate is that of the proof of Theorem~\ref{thm:pace}(v). The upper
+side is the Gaussian tail of the credit at $t$ against the polynomial
+bound of (i).
+\end{proof}
+% R1074 (Fable 5.2, Nov 27 2026), at the author's direction: his request of Nov 27 for an analytic proof of the outcome the simulation of R1073 showed (the pace of technoanatomy against strength as an output of the filtering). Lemma (a Brownian path is associated), Theorem (the pace of survivors) with its proof, and Corollary (the credit of survivors, with no Ansatz) added. Proved: the conditioned law of each anatomy rate dominates the unconditioned one at every horizon; P(H_t) >= c t^(-(1+m)/2); the occupation bound; the lead at the horizon of a survivor holding strength; the bound on survivors without strength in terms of the survival ratio, at frozen background; for the bare model and the external channel alone, the doubling of survival and the scale of the survivors' credit. Not proved: the exponent, the correlation and drift of the rates, and that survivors hold strength at every horizon.
 
 \section{Conditioning on survival}\label{sec:cond}
 
@@ -1180,18 +2199,32 @@ fluctuations, and not merely in mean: a hazard that fluctuates more
 widely can outsurvive a lower and steadier one, since
 $\E[e^{-\Lambda}]\ge e^{-\E[\Lambda]}$ with the gap in the survivor's
 favor, so a lower mean hazard alone selects nothing. In the two-channel
-model of Definition~\ref{def:twochannel} with $\rho>0$ the hypothesis has
-a direct instance. Along a common background path, credit held at or
-above $x_\ast>0$ gives $h^{\mathrm{tot}}\le(1-\delta)(B_t+\Gamma)$ with
-$1-\delta=\max\{\varsigma_b(x_\ast),e^{-\rho x_\ast}\}$, while credit at
-or below zero leaves $h^{\mathrm{tot}}\ge B_t+\Gamma\ge\Gamma$, since
-$\varsigma_b\ge1$ and $e^{-\rho x}\ge1$ there. A class that holds the
-one and a class confined to the other therefore satisfy the fractional
-hypothesis with floor $\Gamma$, the background's independence of the
-driver supplying the coupling, and any positive held credit is a
-positive drop. Holding credit indefinitely carries positive weight only
-where the driver's long-run behavior is favorable, the second factor of
-Theorem~\ref{thm:twocond}.
+model of Definition~\ref{def:twochannel} the hypothesis has a direct
+instance with the background frozen, $B_t\equiv B$, and the scalars fixed.
+Credit at or below zero leaves $h^{\mathrm{tot}}=B$, a floor; technostrength
+held in $[x_\ast,X]$ gives
+$h^{\mathrm{tot}}\le B\operatorname{sech}^2x_\ast+\sum_j\Gamma_j\sinh^2(X/\tau_j)=(1-\delta)B$
+with $\delta=\tanh^2x_\ast-B^{-1}\sum_j\Gamma_j\sinh^2(X/\tau_j)$. A class
+holding its strength in $[x_\ast,X]$, as $C_1$, and a class confined to
+credit at or below zero, as $C_0$, therefore satisfy the fractional
+hypothesis with $K=0$ and floor $B$ whenever $\delta>0$, that is, whenever
+the loads cost less than the muffling gains: held strength is a positive
+drop when its technoanatomy keeps the loads small. Holding strength
+indefinitely carries positive weight only where the drivers' long-run
+behavior is favorable, the factors of Theorem~\ref{thm:twocond}.
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: the two-channel instance of the selection hypothesis in unit form (R1063).
+% was: model of Definition~\ref{def:twochannel} with $\rho>0$ the hypothesis has
+% was: a direct instance. Along a common background path, credit held at or
+% was: above $x_\ast>0$ gives $h^{\mathrm{tot}}\le(1-\delta)(B_t+\Gamma)$ with
+% was: $1-\delta=\max\{\varsigma_b(x_\ast),e^{-\rho x_\ast}\}$, while credit at
+% was: or below zero leaves $h^{\mathrm{tot}}\ge B_t+\Gamma\ge\Gamma$, since
+% was: $\varsigma_b\ge1$ and $e^{-\rho x}\ge1$ there. A class that holds the
+% was: one and a class confined to the other therefore satisfy the fractional
+% was: hypothesis with floor $\Gamma$, the background's independence of the
+% was: driver supplying the coupling, and any positive held credit is a
+% was: positive drop. Holding credit indefinitely carries positive weight only
+% was: where the driver's long-run behavior is favorable, the second factor of
+% was: Theorem~\ref{thm:twocond}.
 \end{remark}
 
 \begin{remark}[The conditioned law read as stated content]
@@ -1330,6 +2363,73 @@ $-1/4$, no dependence of the slope on $h_0$ appears among the resolved
 values, and the conditioned rescaled credit is stable.
 % R877 (Opus 5.5, Oct 27 2026), at the author's direction, on the referee's check of the numerics: "no dependence of the slope on h0 appears" qualified "among the resolved values".
 
+\paragraph{The unit form at criticality.} A separate run estimates the
+survival tail of the unit form with one unit, at frozen background
+$B\equiv1$ and amplitude $\Gamma=1$, by survival weights $e^{-\Lambda_t}$
+on $N=2\times10^5$ paths, forward Euler at step $0.02$ to $t=2048$,
+$\sigma=1$, $x_0=\mu_0=0$. Four hazards are accrued on the same paths:
+the bare soft wall $e^{-x}$; the external channel alone,
+$\operatorname{sech}^2x^+$; the external channel with a unit whose
+anatomy rate is an independent driftless Brownian motion of unit
+volatility, $\tau_0=1$; and the external channel with a unit in the lead
+form whose lead rate is an independent driftless Brownian motion of unit
+volatility, $\ell_0=2$. Least-squares slopes of $\log\PP(T>t)$ against
+$\log t$ over the octave marks $t=64,\dots,2048$ are $-0.250$, $-0.251$,
+$-0.511$ and $-0.503$; the octave-to-octave slopes over that window lie
+between $-0.26$ and $-0.25$ for the first two, between $-0.52$ and
+$-0.50$ for the third, and between $-0.51$ and $-0.49$ for the fourth.
+The survival weights of the two unit runs sum to about $140$ and $390$
+paths at the last mark, so their second decimal is not resolved; the
+separation from $-\tfrac14$ is. This is the support for
+\eqref{eq:addexp} at $m=1$.
+% R1068 (Fable 5.2, Nov 27 2026), at the author's direction: the simulation behind the remark on the exponent at critical technoanatomy, reported with its sample sizes (r1067/tail_exponents.py, seed 1067).
+
+\paragraph{The pace under conditioning.} A further run conditions the
+joint system on survival with both rates generic. The model is the unit
+form with one unit, $\sigma=1$, $\epsilon=0.05$, $n=3$, $\Gamma=ne^{-6}$,
+$x_0=\mu_0=0$, the scalar started at $\tau_0=1$ and its anatomy rate a
+driftless Brownian motion of unit volatility started at zero, independent
+of the driver and of the background; $N=10^6$ paths, forward Euler at
+step $10^{-3}$, survival weights. Nothing couples the two coordinates but
+the hazard. Then at $T=2,4,6,8$ the median lead on $\{x>0\}$ falls
+unconditioned, $0.07$, $-0.91$, $-1.53$, $-1.94$, and rises
+among survivors, $0.14$, $2.24$, $5.58$, $9.70$, with
+$5\%$ quantile $-1.23$, $-0.78$, $-0.25$, $0.37$; the fraction
+of survivors whose scalar stands above their strength is $0.546$,
+$0.846$, $0.935$, $0.963$; their median load is $0.87$, $0.11$,
+$3.8\times10^{-3}$, $6.1\times10^{-5}$; their median anatomy rate is $0.52$, $1.41$,
+$1.77$, $2.03$, against zero unconditioned; and the correlation of their two rates is
+$0.21$ at $T=2$, where the median lead is still near its wall, and
+$0.06$, $0.03$, $0.03$ thereafter, against zero unconditioned. Effective
+survivors number $2.3\times10^{5}$, $6.0\times10^{4}$, $4.7\times10^{4}$ and $4.1\times10^{4}$. This is
+the experiment behind Remark~\ref{rem:pace}, whose outcome Theorem~\ref{thm:pace} proves for the leads of survivors holding strength; the growth of the conditioned lead
+% R1074 (Fable 5.2, Nov 27 2026), at the author's direction: his request of Nov 27 for an analytic proof of the outcome the simulation of R1073 showed (the pace of technoanatomy against strength as an output of the filtering). The run of R1073 pointed at the theorem.
+% was: the support for Remark~\ref{rem:pace}; the growth of the conditioned lead
+as $t^{3/2}$ is read from the conditioned median of $\log\tau$, which
+stands at $0.50$, $0.53$ and $0.54$ times $T^{3/2}$ at
+$T=4,6,8$.
+% R1073 (Fable 5.2, Nov 27 2026), at the author's direction: the run behind the remark on the pace, with its sample sizes (r1073/joint_conditioning.py, seed 107301).
+
+A second run of the same model, to $T=16$ with $N=10^6$ paths, measures
+what Theorem~\ref{thm:pace} bounds. Among the survivors with $x_T\ge1$ the
+scalar stands at or below the strength with probability $0.493$,
+$0.154$, $0.036$, $0.010$ at $T=2,4,8,16$, where $T^{-3/2}$ is
+$0.354$, $0.125$, $0.044$, $0.016$; among all histories with $x_T\ge1$ the
+probability is $0.644$, $0.609$, $0.565$, $0.533$, its limit
+being one half. The fraction of the time up to $T$ spent holding strength
+with the scalar at or below it is $0.094$, $0.185$, $0.235$,
+$0.254$ unconditioned, its limit being one quarter, and $0.154$,
+$0.176$, $0.090$, $0.044$ among survivors. The $5\%$ quantile of the
+anatomy rate at $T$ is $-1.46$, $-0.83$, $-1.16$, $-1.77$ among
+survivors against $-2.33$, $-3.29$, $-4.65$, $-6.58$
+unconditioned, on the side the domination of item (i) requires. Effective
+survivors holding strength number $1.1\times10^{5}$, $5.9\times10^{4}$, $4.0\times10^{4}$ and
+$2.9\times10^{4}$. On the same driver the survivors of the bare model have a
+nonpositive credit with probability $0.165$, $0.021$, $0.0065$,
+$0.0035$, where $t^{-3/2}\log t$, the rate of
+Corollary~\ref{cor:strengthscale}, is $0.245$, $0.173$, $0.092$, $0.043$.
+% R1074 (Fable 5.2, Nov 27 2026), at the author's direction: his request of Nov 27 for an analytic proof of the outcome the simulation of R1073 showed (the pace of technoanatomy against strength as an output of the filtering). A second run measuring the theorem's quantities to T = 16 (r1074/pace_theorem_check.py, seed 107401, a million paths by survival weights).
+
 \begin{figure}[h]\centering
 \includegraphics[width=0.95\textwidth]{fig_ansatz.pdf}
 \caption{\small (a) Hard-wall survival and soft-wall survival at
@@ -1347,9 +2447,13 @@ $h_0=30$ curve, not resolved at this sample size, is not drawn.}
 \section{Discussion}\label{sec:discussion}
 
 The claim stated at the outset stands as proved: viability holds
-exactly when the response exponent is positive and the driver's
-long-run behavior is favorable, no magnitude of accumulated capacity
-substituting for the sign, and no event of bounded duration on a surviving
+exactly when the strength's driver outruns the background and every
+unit's technoanatomy outruns the strength, no magnitude of accumulated
+capacity substituting for technoanatomy, and no event of bounded duration on a surviving
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: the claim as proved, restated (R1063).
+% was: exactly when the response exponent is positive and the driver's
+% was: long-run behavior is favorable, no magnitude of accumulated capacity
+% was: substituting for the sign, and no event of bounded duration on a surviving
 path perfectly separates the conditioned law from the unconditioned
 one. One
 empirical signature follows. Under criticality the
@@ -1361,7 +2465,13 @@ reliability-theory literature on late-life mortality deceleration
 selection; a hazard decaying as $c/t$ with $c$ universal would be the
 corresponding fingerprint of the dynamical mechanism, and
 distinguishing the two in longevity data is a concrete empirical
-question this model makes precise.
+question this model makes precise. With technoanatomy held at criticality
+as well, the scaling expectation \eqref{eq:addexp} puts the coefficient at
+$(1+m)/4$ [S], so that the coefficient would count the tendencies held at
+criticality.
+% R1068 (Fable 5.2, Nov 27 2026), at the author's direction: the discussion's empirical signature carries the exponent at critical technoanatomy.
+% was: distinguishing the two in longevity data is a concrete empirical
+% was: question this model makes precise.
 What the model does not supply is a date. Where the exponent holds, the
 expected lifetime is infinite and residual life is Pareto$(\tfrac14)$ in
 units of attained age, so the model answers how long a surviving system
@@ -1376,30 +2486,59 @@ observed hazard curve bends when a static susceptibility is selected
 on, the present interpolation identifies the limiting law of the
 survivor's entire trajectory, together with the drift conditioning
 manufactures, and locates the observed-versus-unbiased divergence in
-the measure class itself. The two-condition theorem gives the model's
+the measure class itself. The two-driver theorem gives the model's
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: renamed theorem (R1063).
+% was: the measure class itself. The two-condition theorem gives the model's
 structural moral in one line: an index of accumulated capacity tracks
-the driver-viability factor and is silent on the sign that multiplies it, so
+the strength's factor and is silent on the technoanatomy factors that multiply it, so
 no such index can distinguish the ascent that arrives from the ascent
-that is a fall --- and with $\rho<0$, feedback strictly accelerates
-the fall. The interpretation of these results within a larger program, where $x$ and $\rho$ are read as a biosphere's capability and its
-disposition to turn capability on itself, and the conditioning as
+that is a fall --- and with technoanatomy falling behind, feedback strictly accelerates
+the fall. The interpretation of these results within a larger program, where $x^+$ is read as a biosphere's capability and $\tau$ as a scalar extraction of the
+technoanatomy that carries it, and the conditioning as
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: the structural moral restated (R1063).
+% was: the driver-viability factor and is silent on the sign that multiplies it, so
+% was: no such index can distinguish the ascent that arrives from the ascent
+% was: that is a fall --- and with $\rho<0$, feedback strictly accelerates
+% was: the fall. The interpretation of these results within a larger program, where $x$ and $\rho$ are read as a biosphere's capability and its
+% was: disposition to turn capability on itself, and the conditioning as
 survivorship over deep time, is developed in the downstream companions of this branch, on which
 nothing above depends and none of which is cited here.
 
-Five problems are open, and they are the paper's every [O] tag
-gathered in one place. Supplying dynamics for $\rho_t$
-(Remark~\ref{rem:fluct}) would convert the trichotomy's sign test into
-a two-transience condition and is the model's principal open
-direction. Closing Ansatz~\ref{ans:soft}, persistence with bounded occupation tolerance, would discharge the [A] tags that depend on it alone; the soft conditioned-law limit depends on the stronger Ansatz~B and its tags remain until that is closed; the numerics
+Six problems are open, and they are the paper's every [O] tag
+% R1068 (Fable 5.2, Nov 27 2026), at the author's direction: the count of open problems, with the exponent at critical technoanatomy.
+% was: Five problems are open, and they are the paper's every [O] tag
+gathered in one place. Theorem~\ref{thm:twocond} gives viability as a
+two-transience condition, and the lead form of Corollary~\ref{cor:lead}
+covers a technoanatomy coupled to the strength it carries; correlation
+between the drivers in general remains the model's principal open
+direction (Remark~\ref{rem:fluct}).
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: the principal open direction, now supplied in part (R1063).
+% was: gathered in one place. Supplying dynamics for $\rho_t$
+% was: (Remark~\ref{rem:fluct}) would convert the trichotomy's sign test into
+% was: a two-transience condition and is the model's principal open
+Closing Ansatz~\ref{ans:soft}, persistence with bounded occupation tolerance, would discharge the [A] tags that depend on it alone; the soft conditioned-law limit depends on the stronger Ansatz~B and its tags remain until that is closed; the numerics
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: continuation of the open-problems paragraph (R1063).
+% was: direction. Closing Ansatz~\ref{ans:soft}, persistence with bounded occupation tolerance, would discharge the [A] tags that depend on it alone; the soft conditioned-law limit depends on the stronger Ansatz~B and its tags remain until that is closed; the numerics
 above make the outcome unsurprising without making it a theorem. The
 deep-tail computation with harmonic-function importance sampling
 would supply the one constant this paper leaves unevaluated. The
-non-positive-response theorem's exponential rate is established at
+bounded-technoanatomy theorem's exponential rate is established at
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: renamed theorem (R1063).
+% was: non-positive-response theorem's exponential rate is established at
 frozen background only, and whether an unconditional rate holds is
-open. And the recurrent-driver proposition and the two-condition
-theorem are settled for the Brownian driver, the fundamental
-null-recurrent case, and open for null-recurrent drivers in
+open. The exponent $(1+m)/4$ at critical technoanatomy is a scaling expectation supported by simulation at one unit and unproved (Remark~\ref{rem:addexp}); Theorem~\ref{thm:pace} bounds the survival of histories holding strength below by $t^{-(1+m)/2}$ and proves the pace of their leads, and leaves to the doubling of its last item that survivors hold strength. And the recurrent-driver proposition and the two-driver
+% R1074 (Fable 5.2, Nov 27 2026), at the author's direction: his request of Nov 27 for an analytic proof of the outcome the simulation of R1073 showed (the pace of technoanatomy against strength as an output of the filtering). The open-problems paragraph states what the theorem settles of the exponent's problem and what it leaves.
+% was: open. The exponent $(1+m)/4$ at critical technoanatomy is a scaling expectation supported by simulation at one unit and unproved (Remark~\ref{rem:addexp}). And the recurrent-driver proposition and the two-driver
+% R1068 (Fable 5.2, Nov 27 2026), at the author's direction: the open problem of the exponent at critical technoanatomy.
+% was: open. And the recurrent-driver proposition and the two-driver
+theorem are settled for Brownian rates, the fundamental
+null-recurrent case, and open for null-recurrent rates in
 general.
+% R1063 (Opus 5.5, Nov 27 2026), at the author's direction: renamed theorem, its scope read for every rate (R1063).
+% was: open. And the recurrent-driver proposition and the two-condition
+% was: theorem are settled for the Brownian driver, the fundamental
+% was: null-recurrent case, and open for null-recurrent drivers in
+% was: general.
 
 
 \section*{Provenance}
