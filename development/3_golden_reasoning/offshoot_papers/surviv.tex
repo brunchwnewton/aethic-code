@@ -2795,6 +2795,84 @@ statistically, so this is a statement about certification and not
 about discrimination.
 \end{theorem}
 
+\begin{proposition}[The limit law at a fixed age; {[P]} given {[C]} inputs]\label{prop:limitage}
+In the driftless model with the hard wall, under the asymptotics of
+Theorem~\ref{thm:persist}, let $Q$ be the limit law of
+Theorem~\ref{thm:Q}.
+\begin{enumerate}[label=\emph{(\roman*)},itemsep=1pt]
+\item \emph{The survivors to $s$, reweighted.} On $\Fc_s$,
+\begin{equation}\label{eq:limitage}
+\frac{dQ}{d\PP^{(s)}_\tau}=\frac{\hm(X_s)}{\E[\hm(X_s)\mid\tau>s]},
+\qquad
+\E[\hm(X_s)\mid\tau>s]=\frac{\hm(X_0)}{\PP(\tau>s)}:
+\end{equation}
+the limit law at age $s$ is the law of the survivors to $s$, each
+weighted by $\hm$ at its state, a weight nondecreasing in the rate and in
+the credit (Lemma~\ref{lem:monotone}).
+\item \emph{Scaling.} For $\lambda>0$,
+$\hm(\lambda\mu,\lambda^3D)=\lambda^{1/2}\hm(\mu,D)$, and under $Q$
+started at $(\mu_0,D_0)$ the process
+$(\lambda^{-1}\mu_{\lambda^2s},\lambda^{-3}D_{\lambda^2s})_{s\ge0}$ has the
+law $Q$ started at $(\mu_0/\lambda,D_0/\lambda^3)$. Hence
+$(\mu_s/s^{1/2},D_s/s^{3/2})$ has the law of $(\mu_1,D_1)$ under $Q$
+started at $(\mu_0/s^{1/2},D_0/s^{3/2})$, and for the process started at
+the origin its law does not depend on $s$ \cite{GJW99}: under the limit
+law the rate is of order $\sigma s^{1/2}$ and the credit of order
+$\sigma s^{3/2}$.
+\item \emph{The added drift.} For $\mu>0$ the drift of
+Theorem~\ref{thm:drift} is $\sigma^2\mu^{-1}\psi(\sigma^2D/\mu^3)$, with
+$\psi$ continuous and bounded, $\psi(0^+)=\tfrac12$ and
+$\psi(\kappa)\to0$ as $\kappa\to\infty$. For the process started at the
+origin the drift at age $s$ is $\sigma s^{-1/2}$ times a variable whose
+law does not depend on $s$. Under $Q$, $\mu_t=\mu_0+\sigma W^Q_t+A_t$ with
+$A$ nondecreasing: from a rate $m>0$ at any time, the rate keeps its sign
+for a further time $u$ with probability at least
+$\operatorname{erf}\bigl(m/\sigma\sqrt{2u}\bigr)$, its value for the
+unconditioned rate.
+\item \emph{Near the wall.} For the process started at the origin with
+$\sigma=1$, and $k>0$, $0<\alpha<\tfrac32$,
+\begin{equation}\label{eq:nearwall}
+Q\bigl(D_s<ks^{\alpha}\bigr)\sim c_0\,k^{5/3}\,s^{5\alpha/3-5/2}
+\qquad(s\to\infty)
+\end{equation}
+with a constant $c_0>0$, and the expected time the credit spends below
+the curve $ks^{\alpha}$ is finite for $\alpha<\tfrac9{10}$ and infinite
+for $\alpha\ge\tfrac9{10}$ \cite{GJW99}. With (ii),
+$Q(D_s<\varepsilon s^{3/2})\sim c_0\varepsilon^{5/3}$ as
+$\varepsilon\to0$, at every age.
+\end{enumerate}
+\end{proposition}
+
+\begin{proof}
+(i) On $\Fc_s$, $dQ/d\PP=\one_{\{\tau>s\}}\hm(X_s)/\hm(X_0)$ by
+\eqref{eq:Qdensity} and
+$d\PP^{(s)}_\tau/d\PP=\one_{\{\tau>s\}}/\PP(\tau>s)$; the quotient has
+$\PP^{(s)}_\tau$-expectation one. (ii) By Brownian scaling
+$\PP_{(\lambda\mu,\lambda^3D)}(\tau>\lambda^2t)=\PP_{(\mu,D)}(\tau>t)$,
+and Theorem~\ref{thm:persist} on each side gives
+$\hm(\lambda\mu,\lambda^3D)\,\lambda^{-1/2}=\hm(\mu,D)$. The killed
+transition kernel is covariant under the same scaling and the ratio
+$\hm(X_s)/\hm(X_0)$ of \eqref{eq:Qdensity} is invariant under it, which
+is the scaling of $Q$; take $\lambda=s^{1/2}$. (iii) By (ii),
+$\mu\,\partial_\mu\log\hm$ is invariant under
+$(\mu,D)\mapsto(\lambda\mu,\lambda^3D)$. It is also invariant under
+$(\mu,D,\sigma)\mapsto(c\mu,cD,c\sigma)$, which carries the model of
+volatility $\sigma$ to that of volatility $c\sigma$ with the same
+survival. For $\mu>0$ it is therefore a function $\psi$ of
+$\sigma^2D/\mu^3$, continuous, with the limits stated in
+Theorem~\ref{thm:drift}, hence bounded; and
+$\partial_\mu\log\hm(\mu,D)=s^{-1/2}\,\partial_\mu\log\hm(\mu/s^{1/2},D/s^{3/2})$,
+which with (ii) gives the drift at age $s$. The drift being nonnegative,
+$A_t=\int_0^t\sigma^2\partial_\mu\log\hm(X_r)\,dr$ is nondecreasing, so
+that $\mu_{t+r}\ge m+\sigma(W^Q_{t+r}-W^Q_t)$ for $r\ge0$, and a Brownian
+motion started at $m$ stays positive to time $u$ with probability
+$\operatorname{erf}(m/\sigma\sqrt{2u})$. (iv) The two statements are
+those of \cite{GJW99}; by (ii) the law of $D_s/s^{3/2}$ is that of $D_1$,
+and \eqref{eq:nearwall} with $\varepsilon=ks^{\alpha-3/2}\to0$ is the
+last.
+\end{proof}
+% R1085 (Fable 5.2, Nov 27 2026), at the author's direction: new proposition, the limit law at a fixed age: the law of the survivors to that age weighted by the harmonic function; the homogeneity of that function and the scaling of the limit law; the added drift in scaling form and the comparison of the rate with the unconditioned one; the mass near the wall and the critical curve of exponent 9/10 (Groeneboom, Jongbloed and Wellner, read on Nov 27 2026 in the text posted by the first author).
+
 \begin{theorem}[Three canonical survivorship regimes; {[P/C/S]}]
 \label{thm:modes}
 Three tail classes of the driver produce three regimes of the
@@ -2934,7 +3012,9 @@ another's takes all of the weight.
 The results on the conditioned law are gathered here, quantity by
 quantity, for generic rates: the driver and every anatomy rate driftless
 Brownian and independent, the background frozen. Each entry gives the law
-as posed and the law given survival to $t$, with its status and, where a
+as posed and the law at $t$ of the histories that survive to $t$, with its status and, where a
+% R1084 (Opus 5.5, Nov 27 2026), at the author's direction: the entries named as read at the horizon, the state at t of the histories that survive to t.
+% was: as posed and the law given survival to $t$, with its status and, where a
 run measures it, the figures.
 The figures are from two runs at frozen background $B=3$, with
 $\Gamma=3e^{-6}$ for each unit, unit volatilities and every coordinate
@@ -3002,7 +3082,11 @@ units, at scaling level (Remark~\ref{rem:addexp}). It loses at most a bounded fa
 over each doubling of the horizon in the bare model ([P], Corollary~\ref{cor:strengthscale}),
 and the histories holding strength keep at least $ct^{-(1+m)/2}$ of it
 ([P], Theorem~\ref{thm:pace}). In the run with one unit the local exponent is $0.49$
-between $T=4$ and $T=8$ and $0.47$ between $T=8$ and $T=16$, against
+between $T=4$ and $T=8$, $0.47$ between $T=8$ and $T=16$, and $0.48$ and $0.49$ over the two doublings from $T=16$ to $T=64$, against
+% R1085 (Fable 5.2, Nov 27 2026), at the author's direction: the two exponents added in R1084 set in mathematics like the others, and the sentence run as one list.
+% was: between $T=4$ and $T=8$ and $0.47$ between $T=8$ and $T=16$, and, carried on to $T=64$, 0.48 and 0.49 over the next two doublings, against
+% R1084 (Opus 5.5, Nov 27 2026), at the author's direction: the local exponents of survival over the two doublings to 64 added, from the run carried on to that horizon (r1084/single_conditioning_long.py).
+% was: between $T=4$ and $T=8$ and $0.47$ between $T=8$ and $T=16$, against
 $\tfrac12$.
 \item[The hazard of survivors.] The rate at which survivors depart,
 $-\frac{d}{dt}\log\PP(T>t)=\E[h_t\mid T>t]$, is the exponent over $t$. It
@@ -3034,11 +3118,25 @@ run survivors hold strength with probability $0.987$, $0.993$, $0.996$
 at $T=4,8,16$, their median strength $0.73$, $0.65$, $0.59$ times
 $T^{3/2}$.
 \item[The strength's rate.] Unfiltered it is symmetric, of order
-$t^{1/2}$. The filter tilts it upward, and the drift it adds is confined
-to the neighbourhood of the wall, $\sigma^2/2\mu$ there and vanishing as
-the strength clears it ([P] on [C] inputs, Theorem~\ref{thm:drift}). A survivor clear of its wall is
-not pressed on. Its strength keeps rising because the rate it was left
-with holds its direction (Proposition~\ref{prop:trend}). In the run the rate is positive for
+$t^{1/2}$. The filter tilts it upward. Under the limit law of the bare
+model the drift added to a positive rate is
+$\sigma^2\mu^{-1}\psi(\sigma^2x/\mu^3)$ with $\psi$ bounded: it is
+$\sigma^2/2\mu$ at the wall and tends to zero as the strength grows
+against the cube of the rate ([P] on [C] inputs, Theorem~\ref{thm:drift} and
+Proposition~\ref{prop:limitage}). At age $s$ it is of order $\sigma s^{-1/2}$, so that over a
+span $u$ it moves the rate by a part $(u/s)^{1/2}$ of what the noise
+does: a negligible part over spans short against the age, and a part of
+order one over the age itself. Over the short spans the strength rises
+because the rate holds its direction (Proposition~\ref{prop:trend}), and under the limit law
+the rate holds it at least as long as an unconditioned rate would. In the
+run the rate is positive for
+% R1085 (Fable 5.2, Nov 27 2026), at the author's direction: the entry on the strength's rate made exact. It said that the added drift is confined to the neighbourhood of the wall and that a survivor clear of its wall is not pressed on. By the homogeneity of the harmonic function the drift for a positive rate is sigma^2/mu times a bounded function of sigma^2 x/mu^3, half at the wall and zero in the limit of large argument, and at age s it is of order sigma s^(-1/2): negligible against the noise over spans short against the age, of order one over the age. The trend explanation is kept for the short spans, with the comparison that under the limit law the rate holds its sign at least as long as an unconditioned rate (the drift being nonnegative).
+% was: \item[The strength's rate.] Unfiltered it is symmetric, of order
+% was: $t^{1/2}$. The filter tilts it upward, and the drift it adds is confined
+% was: to the neighbourhood of the wall, $\sigma^2/2\mu$ there and vanishing as
+% was: the strength clears it ([P] on [C] inputs, Theorem~\ref{thm:drift}). A survivor clear of its wall is
+% was: not pressed on. Its strength keeps rising because the rate it was left
+% was: with holds its direction (Proposition~\ref{prop:trend}). In the run the rate is positive for
 $0.87$, $0.84$, $0.82$ of survivors.
 \item[The scalars and their rates.] Unfiltered, $\log\tau_j$ is of order
 $t^{3/2}$ with either sign. Filtered, the law of the path of each anatomy
@@ -3089,13 +3187,201 @@ only in the limit; no record of bounded length separates them with
 certainty, and the filter has no clock ([P] and [C], Theorem~\ref{thm:singular}).
 \end{description}
 
+\emph{Conditioned on a later horizon.} Each entry gives the state at $t$
+of the histories that survive to $t$. The limit law of Theorem~\ref{thm:Q} is a different object, the
+state at a fixed age $s$ as the horizon recedes, and the two are related
+exactly. With the background frozen the state $X_s$, which comprises the
+rates, the credits and the scalars, is Markov, so that, as in \eqref{eq:bias}, on $\Fc_s$
+and for $t'>s$,
+\begin{equation}\label{eq:forward}
+\frac{d\PP^{(t')}}{d\PP^{(s)}}=\frac{\PP_{X_s}(T>t'-s)}{\PP(T>t')/\PP(T>s)}:
+\end{equation}
+the law given survival to $t'$ is that of the survivors to $s$, each
+weighted by its chance of lasting from its own state to $t'$ [P]. The
+weight is small on the survivors that stand at a wall: in the run, of
+the survivors to age $8$ whose hazard exceeds $10^{-3}$ a share
+$0.10$ survives to $64$, against $0.42$ of the others. At
+every horizon $t'>s$ no history departs before $t'$, so that the
+departures in the entry on the hazard of survivors belong to the
+survivors to date and to no law conditioned on a later horizon; the path
+of each anatomy rate up to $s$ dominates its unconditioned law ([P],
+Theorem~\ref{thm:pace}(i) at the horizon $t'$); and the density \eqref{eq:forward} is positive
+on the survivors to $s$, so that on them the law conditioned on $t'$ is
+equivalent to the posed one.
+
+\emph{The limit law at age $s$.} In the bare model with the hard wall, as
+$t'\to\infty$, the weight in \eqref{eq:forward} tends to $\hm(X_s)$,
+normalized, and the conditioned law to the limit law $Q$ ([C], Theorem~\ref{thm:Q}; for
+the soft wall the limit is the corresponding transform, conditional on
+the ratio hypothesis [A]). Under $Q$ the history is never killed
+(Theorem~\ref{thm:singular}), and Proposition~\ref{prop:limitage} gives its state. With $x$ for the credit and
+the start at the wall,
+\begin{equation}\label{eq:limitstate}
+\begin{gathered}
+\mu_s=\sigma s^{1/2}\,v_s,\qquad x_s=\sigma s^{3/2}\,\xi_s,\\
+d\mu_s=\sigma^2\,\partial_\mu\log\hm(\mu_s,x_s)\,ds+\sigma\,dW^Q_s,\qquad dx_s=\mu_s\,ds,
+\end{gathered}
+\end{equation}
+where the law of $(v_s,\xi_s)$ does not depend on $s$. The drift is
+nonnegative; for a positive rate it is
+$\sigma^2\mu^{-1}\psi(\sigma^2x/\mu^3)$, and at age $s$ it is
+$\sigma s^{-1/2}$ times a variable whose law does not depend on $s$.
+Near the wall,
+$Q(\xi_s<\varepsilon)\sim c_0\varepsilon^{5/3}$ as $\varepsilon\to0$,
+where for the survivors to date the share is at most of order
+$\varepsilon$ (Corollary~\ref{cor:strengthscale}(ii)), and of that order in the run below. The two
+laws have the same scales and differ in the mass they leave at the wall. With a unit the existence of
+the limit is open [O]. At scaling level $y_j=\log\tau_j$ is a second
+integrated Brownian motion, required to keep above $\log x^+$, a level
+that moves logarithmically (Remark~\ref{rem:addexp}): under the conditioning it is of
+order $s^{3/2}$, with the law of the credit to leading order when the
+volatilities are equal [S]. The lead is $\ell_j=y_j-\log x_s$ and the
+load $u_j=e^{-\ell_j}$, and wherever the strength is positive and the
+leads are nonnegative, by Proposition~\ref{prop:carry}(i),
+\begin{equation}\label{eq:limithazard}
+-\tfrac12\log h_s=\min\bigl\{x_s-\tfrac12\log B,\ \ell_1-\tfrac12\log\Gamma_1,\ \dots,\ \ell_m-\tfrac12\log\Gamma_m\bigr\}-\theta_s
+\end{equation}
+with $0\le\theta_s<\tfrac12\log4(1+m)$: the logarithm of the hazard is
+minus twice the least margin, to within a constant [P], and the margins
+are of order $s^{3/2}$. The conditioning does not select which margin is
+least: with equal volatilities the margins are exchangeable at scaling
+level, and each is the least with probability $1/(1+m)$ [S].
+
+\emph{The runs.} Table~\ref{tab:bare} is the bare model with the hard
+wall: $4\times10^6$ paths from $\mu_0=0$, $D_0=0.1$ with $\sigma=1$, on a
+grid of $1/256$, to the horizon $64$, the local exponent of survival
+$0.255$, $0.254$, $0.251$ over the last three doublings
+against $\tfrac14$. At a fixed ratio of horizon to age the scaled state
+is the same at ages $4$ to $32$ to within $0.004$ in the share
+with the rate positive and $0.03$ in the medians, as
+\eqref{eq:limitstate} requires. The rate is positive with probability
+$0.82$ for the survivors to date and $0.94$ once the horizon is
+eight times the age. The share with credit below $\varepsilon s^{3/2}$
+has logarithmic slope between $1.09$ and $1.15$ in
+$\varepsilon$ for the survivors to date and between $1.64$ and
+$1.78$ at the later horizons, against $1$ and $\tfrac53$.
+Table~\ref{tab:forward} is the run of this section with one unit, carried on to
+the horizon $64$, so that the ratio of horizon to age falls from $32$ at
+age $2$ to $4$ at age $16$. That run starts at the wall,
+where the hazard is $B$, and the histories that last are those whose rate
+was large early. The entries at ages $2$ and $4$ under the later horizon
+carry that selection, the rate of strength positive with probability
+$0.991$ and $0.972$; at age $16$ the share, $0.821$ to date
+and $0.938$ at four times the age, is within $0.01$ of the bare
+model's. At each age, under the later horizon, strength is held more
+often, both rates are positive more often, the leads are longer, and the hazard
+and the share standing near a wall are lower; the share whose internal
+hazard exceeds the external one moves by at most two hundredths. The
+first doubling of the horizon makes most of the difference: at age $8$
+the median lead is $9.7$, $11.3$, $12.0$, $12.3$ at
+the horizons $8$, $16$, $32$, $64$. That these quantities are monotone
+in the horizon is not proved; in the run they are, to within sampling
+error, at every age and every horizon.
+
+\begin{table}[ht]
+\centering\small
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+survival to & $8$ & $16$ & $32$ & $64$\\
+\midrule
+rate positive & 0.815 & 0.918 & 0.935 & 0.939\\
+median rate, over $s^{1/2}$ & 0.66 & 0.82 & 0.92 & 0.96\\
+median credit, over $s^{3/2}$ & 0.50 & 0.58 & 0.62 & 0.63\\
+credit below $0.01\,s^{3/2}$ & 0.0057 & 0.0005 & 0.0004 & 0.0004\\
+credit below $0.04\,s^{3/2}$ & 0.0258 & 0.0051 & 0.0046 & 0.0044\\
+credit below $0.16\,s^{3/2}$ & 0.131 & 0.060 & 0.053 & 0.051\\
+logarithmic slope, $0.02$ to $0.16$ & 1.15 & 1.74 & 1.72 & 1.73\\
+paths ($10^3$) & 1173 & 983 & 825 & 693\\
+\bottomrule
+\end{tabular}
+\caption{\small The bare model with the hard wall: the state at age
+$s=8$ of the histories that survive to $8$, $16$, $32$ and $64$
+($4\times10^6$ paths from $\mu_0=0$, $D_0=0.1$ with $\sigma=1$, the wall
+monitored on a grid of $1/256$). The first column is the law of the
+survivors to date; the columns to its right approach the limit law, under
+which the share with credit below $\varepsilon s^{3/2}$ is of order
+$\varepsilon^{5/3}$.}
+\label{tab:bare}
+\end{table}
+% R1085 (Fable 5.2, Nov 27 2026), at the author's direction: the paragraph of R1084 rewritten as three. (1) Conditioned on a later horizon: the reweighting identity and what holds at every later horizon, stated without the count of statements. (2) The limit law at a fixed age: the weight's limit, the state equations (scales, the stochastic equation of the rate, the drift's order, the mass near the wall with exponent 5/3 against at most 1 for survivors to date), and with units, at scaling level, the leads and the hazard as minus twice the least margin. (3) The runs: a bare hard-wall run (r1085/bare_limit_law.py, seeds 108501 and 108502) read against those equations, and the run with one unit, with a new table of the bare model at age 8 given survival to 8, 16, 32 and 64 set before the table of R1084. Removed: the sentence on a kinematic part of order kappa s/64 (a constant factor cancels on normalizing; the measured dependence on the horizon replaces it) and 'every quantity but the last' (the last row of the table is the count of effective paths).
+% was: \emph{Conditioned on a later horizon.} The entries are read at the horizon:
+% was: the state at $t$ of the histories that survive to $t$. The limit law of Theorem~\ref{thm:Q} is read
+% was: instead at a fixed age $s$ as the horizon recedes, and it is a different
+% was: object. The two are related exactly. With the background frozen the state
+% was: $X_s$, the rates, the credits and the scalars together, is Markov, so that
+% was: on $\Fc_s$, for $t'>s$,
+% was: \begin{equation}\label{eq:forward}
+% was: \frac{d\PP^{(t')}}{d\PP^{(s)}}=\frac{\PP_{X_s}(T>t'-s)}{\PP(T>t')/\PP(T>s)}:
+% was: \end{equation}
+% was: the survivors to $s$ reweighted by the chance that each lasts from its own
+% was: state to $t'$ [P]. The reweighting discounts the survivors that stand at a
+% was: wall. In the run, of the survivors to age $8$ whose hazard exceeds
+% was: $10^{-3}$ a share 0.10 survives to $64$, against 0.42 of the
+% was: others. Three statements hold at every later horizon. No history departs
+% was: before it, so that the departures in the entry on the hazard of survivors
+% was: belong to the reading at the horizon and to no later one. The path of each
+% was: anatomy rate up to $s$ dominates its unconditioned law, Theorem~\ref{thm:pace}(i) concerning
+% was: the whole path to $t'$ [P]. And the density in \eqref{eq:forward} is positive,
+% was: so that at every finite age the law conditioned on the later horizon stays
+% was: equivalent to the posed law on the survivors. As $t'\to\infty$, in the bare model, the conditioned law tends to
+% was: the Doob transform, under which the history is never killed and its credit
+% was: tends to infinity (Theorems~\ref{thm:Q} and~\ref{thm:singular}; [C] for the hard wall, [A] for the soft); where survival for ever has positive
+% was: probability the limit is the law given survival for ever, carried by the
+% was: viable histories (Theorem~\ref{thm:modes}). With a unit the existence of the limit is
+% was: open [O]. Table~\ref{tab:forward} gives the state at ages $2$ to $16$
+% was: conditioned on survival to the age and to $64$, from the run of this
+% was: section carried on to that horizon. The kinematic part of the
+% was: difference from the limit is of order $\kappa s/64$, $\kappa$ the
+% was: exponent, at most about an eighth at the oldest age; the state-dependent
+% was: part is not controlled. Between the two columns at each age every quantity but the last moves the same way: the strength is held, both rates point upward more often, the leads lengthen, and the hazard and the share standing near a wall fall. The share whose internal hazard exceeds the external one moves by less than two hundredths. That the quantities move monotonically as the horizon recedes is not proved.
+
+\begin{table}[ht]
+\centering\small
+\begin{tabular}{@{}lcccccccc@{}}
+\toprule
+age $s$ & \multicolumn{2}{c}{$2$} & \multicolumn{2}{c}{$4$} & \multicolumn{2}{c}{$8$} & \multicolumn{2}{c}{$16$}\\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(l){8-9}
+survival to & $s$ & $64$ & $s$ & $64$ & $s$ & $64$ & $s$ & $64$\\
+\midrule
+holds strength, $x_s\ge1$ & 0.679 & 0.979 & 0.987 & 1.000 & 0.993 & 1.000 & 0.996 & 1.000\\
+rate of strength positive & 0.759 & 0.991 & 0.872 & 0.972 & 0.835 & 0.951 & 0.821 & 0.938\\
+anatomy rate positive & 0.670 & 0.965 & 0.842 & 0.966 & 0.839 & 0.956 & 0.829 & 0.942\\
+median lead & 0.0 & 0.6 & 2.2 & 3.2 & 9.7 & 12.3 & 31.3 & 38.4\\
+lead at most zero & 0.492 & 0.274 & 0.157 & 0.058 & 0.038 & 0.006 & 0.011 & 0.001\\
+median $\log_{10}h$ & $-0.2$ & $-1.1$ & $-2.7$ & $-3.6$ & $-7.3$ & $-9.8$ & $-19.5$ & $-26.4$\\
+hazard above $10^{-3}$ & 0.999 & 0.997 & 0.562 & 0.351 & 0.159 & 0.041 & 0.053 & 0.007\\
+internal above external & 0.19 & 0.19 & 0.49 & 0.51 & 0.54 & 0.56 & 0.52 & 0.54\\
+effective paths ($10^3$) & 227 & 15 & 60 & 15 & 41 & 15 & 29 & 15\\
+\bottomrule
+\end{tabular}
+\caption{\small The state at age $s$ of the histories that survive to
+$s$ and of those that survive to $64$, in the single-strength model with
+one unit at frozen background $B=3$ (the run of this section, carried on to
+the horizon $64$; $10^6$ paths, conditioned by survival weights). The
+ratio of horizon to age falls from $32$ at age $2$ to $4$ at age $16$.
+Leads are those of the histories holding strength.}
+% R1085 (Fable 5.2, Nov 27 2026), at the author's direction: caption: the sentence that survival to 64 approaches the conditioning on the asymptotic future replaced by the ratio of horizon to age, which is what the columns differ by.
+% was: \caption{\small The state at age $s$ of the histories that survive to
+% was: $s$ and of those that survive to $64$, in the single-strength model with
+% was: one unit at frozen background $B=3$ (the run of Section~\ref{sec:exhibit}, carried on to
+% was: the horizon $64$; $10^6$ paths, conditioned by survival weights). Survival
+% was: to $64$ approaches the conditioning on the asymptotic future. Leads are
+% was: those of the histories holding strength.}
+\label{tab:forward}
+\end{table}
+% R1084 (Opus 5.5, Nov 27 2026), at the author's direction: new paragraph after the entries, with a table: the state at a fixed age conditioned on survival to a later horizon, the exact reweighting of the survivors to that age by their chance of lasting, the statements that hold at every later horizon, the limit where it is established, and the run carried on to 64 (seeds 107703 and 107704).
+
 \emph{The other regimes.} The exhibit is for generic rates, the
 transformation regime of Theorem~\ref{thm:modes}. Where the rates are favorable,
 transient upward or recurrent with positive mean, viability has positive
 probability, the product of Theorem~\ref{thm:twocond} or \eqref{eq:domainsprod} with domains, and
 the filter saturates: the conditioned laws converge in total variation to
-the law given viability, every bias bounded by the reciprocal of its
-probability ([P], Theorem~\ref{thm:modes}). The survivors are then the viable histories.
+the law given survival for ever, every bias bounded by the reciprocal of its
+% R1084 (Opus 5.5, Nov 27 2026), at the author's direction: 'the law given viability' set as 'the law given survival for ever', which Theorem modes states, carried by the viable histories each weighted by its chance of never being killed (a correction of R1077's wording).
+% was: the law given viability, every bias bounded by the reciprocal of its
+probability ([P], Theorem~\ref{thm:modes}). That law is carried by the viable histories, each weighted by its chance $e^{-\Lambda_\infty}$ of never being killed.
+% R1084 (Opus 5.5, Nov 27 2026), at the author's direction: 'the law given viability' set as 'the law given survival for ever', which Theorem modes states, carried by the viable histories each weighted by its chance of never being killed (a correction of R1077's wording).
+% was: probability ([P], Theorem~\ref{thm:modes}). The survivors are then the viable histories.
 Their strength grows at least linearly, the external hazard is at most
 $4B_te^{-2ct}$, the lead of every developed domain grows at least
 linearly, and the hazard that remains is integrable, so that the hazard
