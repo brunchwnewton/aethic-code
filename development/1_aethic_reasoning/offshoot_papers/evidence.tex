@@ -1,0 +1,306 @@
+% R1087 (Opus 5.5, Nov 27 2026), at the author's direction: new extraction paper. On a single attribute the weight algebra of Aethae, read at its three tiers of
+% identity, gives the conjunctive rule of the transferable belief model with the provenance of each conflict, the same rule with the conflict removed, and
+% Dempster's rule; the irreducible states are the idempotents of the Moebius algebra; belief functions form a proper subcone; the classical part is the
+% plausibility transformation. Checks: r1087/evidence_checks.py (seed 108701). See the ledger, R1087.
+\begin{filecontents}[overwrite]{evid_refs.bib}
+% Verified on Nov 27 2026 through the fetch tool: couso2014 (journal, volume, issue, pages, year, authors); cobb2006 (journal, volume, issue, pages, year,
+% Theorem 5.1); voorbraak1989 (journal, volume, pages, year, as cited in cobb2006); smets1994 (journal, volume, issue, pages, year); solomon1967 and
+% greene1973 (journal, volume, year); zadeh1984 (journal, year, the example). From recall, to be checked against the publications: the pages of
+% solomon1967 and greene1973, the volume and pages of zadeh1984, dempster1967, yager1987 and dubois1988.
+@article{dempster1967, author={Dempster, Arthur P.}, title={Upper and lower probabilities induced by a multivalued mapping}, journal={The Annals of Mathematical Statistics}, volume={38}, number={2}, pages={325--339}, year={1967}}
+@book{shafer1976, author={Shafer, Glenn}, title={A Mathematical Theory of Evidence}, publisher={Princeton University Press}, address={Princeton}, year={1976}}
+@article{smets1994, author={Smets, Philippe and Kennes, Robert}, title={The transferable belief model}, journal={Artificial Intelligence}, volume={66}, number={2}, pages={191--234}, year={1994}}
+@article{yager1987, author={Yager, Ronald R.}, title={On the {Dempster--Shafer} framework and new combination rules}, journal={Information Sciences}, volume={41}, number={2}, pages={93--137}, year={1987}}
+@article{dubois1988, author={Dubois, Didier and Prade, Henri}, title={Representation and combination of uncertainty with belief functions and possibility measures}, journal={Computational Intelligence}, volume={4}, number={3}, pages={244--264}, year={1988}}
+@article{zadeh1984, author={Zadeh, Lotfi A.}, title={Review of {A Mathematical Theory of Evidence}, by {Glenn Shafer}}, journal={AI Magazine}, volume={5}, number={3}, pages={81--83}, year={1984}}
+@article{solomon1967, author={Solomon, Louis}, title={The {Burnside} algebra of a finite group}, journal={Journal of Combinatorial Theory}, volume={2}, pages={603--615}, year={1967}}
+@article{greene1973, author={Greene, Curtis}, title={On the {M}{\"o}bius algebra of a partially ordered set}, journal={Advances in Mathematics}, volume={10}, pages={177--187}, year={1973}}
+@article{couso2014, author={Couso, In{\'e}s and Dubois, Didier}, title={Statistical reasoning with set-valued information: Ontic vs.\ epistemic views}, journal={International Journal of Approximate Reasoning}, volume={55}, number={7}, pages={1502--1518}, year={2014}}
+@article{voorbraak1989, author={Voorbraak, Frans}, title={A computationally efficient approximation of {Dempster--Shafer} theory}, journal={International Journal of Man-Machine Studies}, volume={30}, number={5}, pages={525--536}, year={1989}}
+@article{cobb2006, author={Cobb, Barry R. and Shenoy, Prakash P.}, title={On the plausibility transformation method for translating belief function models to probability models}, journal={International Journal of Approximate Reasoning}, volume={41}, number={3}, pages={314--330}, year={2006}}
+@misc{Aethus, howpublished={Manuscript}, author={Benander, Ajax}, title={Aethic Reasoning: A Comprehensive Solution to the Quantum Measurement Problem}, year={2024}, month = {11}, url={https://philpapers.org/rec/BENARA-5}, eprint={https://philsci-archive.pitt.edu/id/eprint/25713}, eprinttype={Alternative URL}, note={Manuscript; the complete development of the framework, successive deposits November 2024--2026}}
+@misc{AethusTree, author={Benander, Ajax}, title={The Weight Algebra of Aethae: A Two-Layer Commutative Semiring for Superposition and Pruning}, year={2026}, howpublished={Preprint}, url={https://philpapers.org/rec/BENTWA-5}}
+@misc{AethusBrief, author={Benander, Ajax}, title={Aethic Reasoning in Brief: From a Counterfactual Semantics to the Quantum Measurement Problem}, year={2026}, howpublished={Preprint}, url={https://philpapers.org/rec/BENARI-3}, eprint={https://philsci-archive.pitt.edu/id/eprint/30439}, eprinttype={Alternative URL}}
+@misc{AethusUnion, author={Benander, Ajax}, title={Exclusivity as Achievement: Relocating Mutual Exclusion to the Interior, and the Composition Regime That Falls Out}, year={2026}, howpublished={Preprint}, url={https://philpapers.org/rec/BENEAA-9}}
+\end{filecontents}
+\documentclass[11pt]{article}
+\usepackage[margin=1.05in]{geometry}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\IfFileExists{lmodern.sty}{\usepackage{lmodern}}{\microtypesetup{expansion=false}}
+\usepackage{booktabs}
+\usepackage[style=numeric, sorting=none]{biblatex}
+\addbibresource{refs.bib}
+\addbibresource{evid_refs.bib}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
+\newtheorem{example}{Example}
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+\newcommand{\V}{\mathcal{V}}
+\newcommand{\eqV}{\equiv_{\mathbf{V}}}
+\newcommand{\eqP}{\equiv_{\mathbf{P}}}
+\newcommand{\pl}{\mathrm{pl}}
+
+\title{Dempster's Rule as a Quotient:\\ \large Evidence Combination in a Semiring That Keeps Its Contradictions}
+\author{Ajax Benander\thanks{Email: \href{mailto:akb9408@rit.edu}{akb9408@rit.edu}, Website: \url{https://aethus.org}. This paper extracts, for readers in the theory of evidence, what the weight algebra of the framework of Aethic reasoning \cite{Aethus, AethusTree} is on a single attribute. The exposition was drafted in collaboration with an AI system (Claude, Anthropic) under the corpus's standing provenance conventions; the Provenance note records which parts were proposed in that collaboration.}}
+\date{First drafted November 2026\\ {\small This version: November 2026 --- working draft}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent Dempster's rule of combination discards the mass that two sources place on incompatible sets and rescales what remains; the transferable belief model keeps that mass on the empty set; the rules of Yager and of Dubois and Prade reassign it. These are readings of one product in one algebra: the weight algebra of the partial information states of Aethic reasoning, restricted to a single attribute. The states of an attribute are the subsets of its values, joint assertion intersects them, a contradiction is kept as an element that holds the states which produced it, and weighted states are identified at three tiers, as formal sums, up to contradictions, and up to a positive scale. A body of evidence is the sum of the states of its focal sets, weighted by their masses. The product of two bodies, read at the three tiers, is the conjunctive combination with every conflicting product carried by an element that records its two focal sets, the same combination with the conflict removed, and Dempster's rule; the rules that reassign conflict are functions of the first tier. The states that admit no narrower filling are orthogonal idempotents, the coefficients of a body of evidence on them are its commonality function, and joint assertion multiplies them coefficientwise: the algebra is the M\"obius algebra of the lattice of subsets, with its idempotents present at non-negative weights. A non-negative sum of these states that is not a body of evidence represents an ontic set, a value made of several alternatives, which evidence excluding one of them contradicts rather than narrows. On an attribute that takes single values only, the algebra keeps of a body of evidence its contour function, and total ignorance over a set is identified with the uniform distribution on it; the distinction between the two is kept exactly by the states over two or more values.
+\end{abstract}
+
+\section{Introduction}\label{sec:intro}
+
+Two sources report on a quantity whose possible values form a finite set $\Omega$. Each report is a mass function, an assignment of non-negative weights summing to one to the nonempty subsets of $\Omega$, its focal sets being the subsets of positive mass \cite{dempster1967, shafer1976}. The conjunctive combination of two reports assigns to every set $T$ the total product of the masses of the pairs of focal sets whose intersection is $T$. The pairs whose intersection is empty carry the conflict $K$, and the rules of evidence theory differ in what they do with it. Dempster's rule discards it and divides the remainder by $1 - K$ \cite{dempster1967, shafer1976}. The transferable belief model keeps it as mass on the empty set \cite{smets1994}. Yager's rule assigns it to $\Omega$ \cite{yager1987}, and the rule of Dubois and Prade assigns the product of each conflicting pair to the union of the pair \cite{dubois1988}. Zadeh's example shows what turns on the choice \cite{zadeh1984}. One physician gives meningitis $0.99$ and a brain tumor $0.01$, a second gives concussion $0.99$ and the tumor $0.01$, the conflict is $0.9999$, and Dempster's rule makes the tumor certain.
+
+These rules are readings of one product in one algebra, and the algebra fixes how they are related without a rule being chosen. The algebra is the weight algebra of the partial information states of Aethic reasoning \cite{Aethus}, which \cite{AethusTree} develops as an algebra in its own right. Weighted states form a commutative semiring under addition and joint assertion. A state that holds a contradiction is kept as an element, with its content, and such states span an ideal. Weighted states are identified at three tiers: as formal sums, up to the ideal, and up to a positive scale. Evidence theory on a frame uses only the part of this algebra that concerns a single attribute, and that part can be stated in full (Section~\ref{sec:fragment}). On it the framework's identification of a broad state with the sum of its irreducible refinements is a homomorphism onto the non-negative functions on the valid fillings (Theorem~\ref{thm:realization}).
+
+A body of evidence is the weighted sum of the states named by its focal sets, with the masses as weights. The product of two bodies, read at the three tiers, is the conjunctive combination with every conflicting product carried by an element that records its pair of focal sets, the same combination with the conflict removed, and Dempster's rule, Bayes' rule being the case of single values (Theorem~\ref{thm:tiers}); the rules of Yager and of Dubois and Prade are read off the first tier, where the pairs are kept (Remark~\ref{rem:reassign}). The states that admit no narrower filling, which the framework calls irreducible, are orthogonal idempotents. The coefficients of a body of evidence on them form its commonality function, joint assertion multiplies them coefficientwise, which is Shafer's product formula for commonalities, and the algebra is the M\"obius algebra of the lattice of subsets of $\Omega$ \cite{solomon1967, greene1973}, with the difference that its idempotents, which there are signed combinations of states, are here elements at non-negative weights (Theorem~\ref{thm:moebius}). Belief functions form a proper subcone of the algebra; an irreducible state over two or more values lies outside it, and such a state is an ontic set in the sense of Couso and Dubois \cite{couso2014}, a value composed of several alternatives, which evidence excluding one of them contradicts instead of narrowing (Propositions~\ref{prop:cone} and~\ref{prop:ontic}). On an attribute that takes single values only, the algebra keeps of a body of evidence its contour function, its third tier is the plausibility transformation \cite{voorbraak1989, cobb2006}, and total ignorance over a set is identified with the uniform distribution on it. Shafer's distinction between the two \cite{shafer1976} is kept, in this algebra, exactly by the states over two or more values (Proposition~\ref{prop:classical}).
+
+The combination rules, the product formula for commonalities, the M\"obius algebra and the commuting of the plausibility transformation with Dempster's rule are known, and no new rule of combination is proposed. What is shown is that they are readings of one object whose identifications are fixed by the framework's treatment of contradiction and of scale, and not by evidence theory; that the first tier keeps the information about conflict that Dempster's rule and the transferable belief model discard; that the irreducible states extend the algebra beyond belief functions; and where in it the identification of ignorance with indifference is made.
+
+\section{The algebra on one attribute}\label{sec:fragment}
+
+The definitions are those of \cite{Aethus}, restricted to one attribute, finite sums and non-negative real weights.
+
+\paragraph{States and closure.} An attribute $X$ has a finite set $\Omega$ of at least two values, which the framework calls pins and takes to be pairwise exclusive. For $S \subseteq \Omega$ the state $[X:S]$ asserts that $X$ is filled by the values of $S$ and by no others. It is determinate when $S$ is a single value, an agreeing superposition of the values of $S$, in the framework's term, when $S$ holds two or more, and invalid when $S$ is empty. An Aethus on $X$ is the deductive closure of a set of states, two sets with the same closure being one Aethus \cite{Aethus}. On one attribute closure has four rules. Narrowing gives two states the state on the intersection of their fillings, an attribute carrying one filling. A determinate state excludes every other value, and the exclusion of a value removes it from every state. Elimination gives the determinate state at a value when every other value is excluded and that value is not. And a state with the empty filling makes the Aethus invalid, the state standing in it as a tag: an invalid Aethus keeps the content it was asserted with, and two contradictions asserted from different states are different Aethae \cite{Aethus}. Joint assertion $A \cdot B$ is the Aethus of the union of the two sets of states. It is commutative, associative and idempotent, and its unit is $[X:\Omega]$, which asserts nothing about $X$. The Aethus $[X:S] \cdot [X:S']$ holds the filling $S \cap S'$ and is invalid exactly when $S \cap S' = \varnothing$.
+
+\begin{lemma}\label{lem:pair}
+Let $S$ and $S'$ be nonempty and disjoint. Every state held by $[X:S]\cdot[X:S']$ has its filling inside $S$ or inside $S'$, and its maximal states are $[X:S]$ and $[X:S']$. Consequently $[X:S]\cdot[X:S'] = [X:R]\cdot[X:R']$, for $R$ and $R'$ nonempty and disjoint, only if $\{R, R'\} = \{S, S'\}$.
+\end{lemma}
+
+\begin{proof}
+By induction on derivations. Narrowing intersects two fillings that lie inside $S$ or inside $S'$, and removing an excluded value shrinks one. Exclusions come only from held determinate states, which by the induction lie in $S$ or in $S'$. If two different determinate states are held, every value is excluded and elimination does not apply; if one is held, at $q$, every value but $q$ is excluded and elimination gives $[X:\{q\}]$ again; if none is held, nothing is excluded and elimination does not apply, $\Omega$ having two values or more. So every state held lies inside $S$ or inside $S'$, the two being disjoint, and the maximal ones are the two asserted.
+\end{proof}
+
+\paragraph{Irreducible states.} A state $[X:S]$ over two or more values is broad: the Aethae $[X:S]\cdot[X:T]$ with $\varnothing \neq T \subsetneq S$, which narrow $X$ below $S$, are valid. For $Q \subseteq \Omega$ with two or more values, the irreducible state over $Q$ is $I_Q = [X:Q] \cdot e_Q$, where $e_Q$ is a pin whose joint assertion with every state $[X:T]$, $\varnothing \neq T \subsetneq Q$, is declared invalid \cite{Aethus}. It asserts that $X$ is filled by exactly the values of $Q$ and admits no narrower filling. For a single value $a$, $I_{\{a\}}$ is the determinate state $[X:\{a\}]$. In the framework's semantics the irreducible state over $Q$ is the filling of $X$ by alternatives that no record separates \cite{Aethus}; nothing below depends on that reading.
+
+\begin{lemma}\label{lem:orth}
+$I_Q \cdot I_Q = I_Q$, and $I_Q \cdot I_{Q'}$ is invalid for $Q \neq Q'$.
+\end{lemma}
+
+\begin{proof}
+Joint assertion is idempotent. Let $Q \neq Q'$. The product holds the filling $Q \cap Q'$. If $Q \cap Q'$ is empty the product is invalid. Otherwise it is a proper subset of $Q$ or of $Q'$, say of $Q$, and the product holds $e_Q$ together with a state over a nonempty filling strictly inside $Q$, whose joint assertion is declared invalid.
+\end{proof}
+
+\paragraph{Weighted Aethae and three tiers.} A weighted Aethus is a finite formal sum $x = \sum_i w_i A_i$ of Aethae with weights $w_i \geq 0$, in which terms on one Aethus combine and terms of weight zero are deleted. Joint assertion extends bilinearly,
+\[
+\Big(\sum_i w_i A_i\Big)\cdot\Big(\sum_j v_j B_j\Big) = \sum_{i,j} w_i v_j \, A_i \cdot B_j ,
+\]
+and the weighted Aethae form a commutative semiring, the monoid semiring of the Aethae under joint assertion \cite{AethusTree}. Here they are the weighted sums of joint assertions of states and irreducible states on $X$. A joint assertion with an invalid Aethus is invalid, so the weighted Aethae supported on invalid Aethae form an ideal, the invalidity ideal. Three identifications are used.
+\begin{enumerate}
+\item[(T1)] Equality of formal sums. Every term stands, the invalid terms with their weights.
+\item[(T2)] Validity equivalence, $x \eqV y$: $x$ and $y$ agree up to the invalidity ideal and up to the identification~\eqref{eq:expansion} below. The quotient is the algebra of realizable Aethae, in which every invalid Aethus is zero.
+\item[(T3)] Projective validity equivalence, $x \eqP y$: $\lambda x \eqV \lambda' y$ for some $\lambda, \lambda' > 0$.
+\end{enumerate}
+Joint assertion passes to both quotients, and addition passes to the second and not to the third: $[X:\{a\}] \eqP 2\,[X:\{a\}]$, while $[X:\{a\}] + [X:\{b\}]$ and $2\,[X:\{a\}] + [X:\{b\}]$ are not projectively equivalent. The third tier gives up one common factor and keeps every ratio of weights, which is the framework's Relational Weight Principle \cite{Aethus}.
+
+\paragraph{The powerset expansion.} The framework identifies a broad state with the sum of the irreducible states below it, one for every way the filling could stand \cite{Aethus}:
+\begin{equation}\label{eq:expansion}
+[X:S] \eqV \sum_{\varnothing \neq Q \subseteq S} I_Q .
+\end{equation}
+It makes the same identification for a valid Aethus on $X$ that holds no irreducibility pin, through the filling the Aethus holds, as it does for the joint assertion of a state with a record \cite{Aethus}; and a valid Aethus that holds $e_Q$ holds the filling $Q$ and is identified with $I_Q$. The identification is a declared decomposition and not a consequence of closure \cite{AethusTree}. Where the relation structure declares some irreducible states invalid, as for an attribute that cannot be filled by certain sets of its values together, those terms are zero in~\eqref{eq:expansion}. The valid irreducible states are indexed by a family $\V$ of nonempty subsets of $\Omega$ that contains every single value, and for $F \subseteq \Omega$ write
+\[
+\zeta(F) = \sum_{Q \in \V,\; Q \subseteq F} I_Q , \qquad \zeta(\varnothing) = 0 .
+\]
+
+\begin{definition}\label{def:realization}
+The \emph{realization} of an Aethus $A$ on $X$ is the function $\Phi(A)$ on $\V$ given by $\Phi(A) = 0$ if $A$ is invalid, $\Phi(A) = \delta_Q$ if $A$ is valid and holds $e_Q$, and $\Phi(A) = \mathbf{1}_{\{Q \in \V \,:\, Q \subseteq F\}}$ if $A$ is valid, holds no irreducibility pin and holds the filling $F$. It extends to weighted Aethae by linearity.
+\end{definition}
+
+\begin{theorem}[The identification is a homomorphism]\label{thm:realization}
+$\Phi$ is a homomorphism of semirings from the weighted Aethae on $X$ onto the non-negative functions on $\V$ under pointwise addition and multiplication. It vanishes on the invalidity ideal, and it identifies each state with its expansion: $\Phi([X:S]) = \Phi(\zeta(S))$. Consequently the identification~\eqref{eq:expansion} is a congruence, validity equivalence is the relation $\Phi(x) = \Phi(y)$, and the realizable Aethae on $X$ are the non-negative functions on $\V$. In particular $\zeta(F)\cdot\zeta(F') \eqV \zeta(F \cap F')$.
+\end{theorem}
+
+\begin{proof}
+An Aethus on $X$ is invalid exactly when it holds the empty filling or holds $e_Q$ with a filling other than $Q$, or with $Q \notin \V$; an Aethus that holds $e_Q$ also holds $[X:Q]$, so its filling lies inside $Q$. Let $A$ and $B$ be Aethae on $X$. If neither holds an irreducibility pin, with fillings $F$ and $G$, then $A \cdot B$ holds $F \cap G$ and is valid exactly when $F \cap G \neq \varnothing$, and $\Phi(A\cdot B) = \mathbf{1}_{\{Q \subseteq F \cap G\}} = \Phi(A)\,\Phi(B)$. If $A$ holds $e_Q$ and $B$ holds none, $A \cdot B$ holds $e_Q$ and the filling $Q \cap G$, and is valid exactly when $Q \subseteq G$, so that $\Phi(A \cdot B) = \delta_Q \, \mathbf{1}_{\{Q \subseteq G\}} = \Phi(A)\,\Phi(B)$. If $A$ holds $e_Q$ and $B$ holds $e_{Q'}$, $A \cdot B$ is valid exactly when $Q = Q'$, by Lemma~\ref{lem:orth}, and $\Phi(A\cdot B) = \delta_Q\,\delta_{Q'}$. An invalid factor makes the product invalid and $\Phi$ zero on both sides. Additivity holds by construction, and $\Phi$ is onto the non-negative functions since $\Phi(I_Q) = \delta_Q$. The expansion has $\Phi(\zeta(S)) = \sum_{Q \in \V, Q \subseteq S} \delta_Q = \Phi([X:S])$, and the last statement is multiplicativity applied to $\zeta(F)$ and $\zeta(F')$.
+\end{proof}
+
+\section{One product, three readings}\label{sec:tiers}
+
+A mass function on $\Omega$ is a function $m$ on the nonempty subsets of $\Omega$, with values in $[0, 1]$ and total $1$; its focal sets are those of positive mass. The body of evidence it names is the weighted Aethus
+\[
+A_m = \sum_{S} m(S)\,[X:S] .
+\]
+The vacuous mass function, $m(\Omega) = 1$, names the unit $[X:\Omega]$; the categorical mass function on $R$ names the state $[X:R]$; and a Bayesian mass function, whose focal sets are single values, names a weighted sum of determinate states. For mass functions $m_1$ and $m_2$ the conjunctive combination is
+\[
+(m_1 \cap m_2)(T) = \sum_{S \cap S' = T} m_1(S)\, m_2(S'), \qquad T \subseteq \Omega,
+\]
+the empty set included, $K = (m_1 \cap m_2)(\varnothing)$ is the conflict, and for $K < 1$ Dempster's combination is $(m_1 \oplus m_2)(T) = (m_1 \cap m_2)(T)/(1 - K)$ for nonempty $T$ \cite{dempster1967, shafer1976}. The transferable belief model combines by $m_1 \cap m_2$ and keeps $K$ on the empty set \cite{smets1994}. In this section and the next, $\V$ consists of every nonempty subset of $\Omega$.
+
+\begin{theorem}[One product at three tiers]\label{thm:tiers}
+Let $m_1$ and $m_2$ be mass functions on $\Omega$.
+\begin{enumerate}
+\item[(i)] At the first tier,
+\[
+A_{m_1} \cdot A_{m_2} = \sum_{S, S'} m_1(S)\, m_2(S') \; [X:S]\cdot[X:S'] .
+\]
+The terms that hold the filling $T$ carry the total weight $(m_1 \cap m_2)(T)$. The terms with $S \cap S' = \varnothing$ are invalid and carry the conflict $K$; each is an Aethus of its own, whose maximal states are the two that produced it.
+\item[(ii)] At the second tier,
+\[
+A_{m_1} \cdot A_{m_2} \eqV \sum_{T \neq \varnothing} (m_1 \cap m_2)(T)\, [X:T] ,
+\]
+the conjunctive combination with the conflict removed and not redistributed.
+\item[(iii)] At the third tier, if $K < 1$, then $A_{m_1} \cdot A_{m_2} \eqP A_{m_1 \oplus m_2}$, and $A_{m_1 \oplus m_2}$ is the element of the class whose weights on the states sum to one. If $K = 1$, then $A_{m_1}\cdot A_{m_2} \eqV 0$.
+\item[(iv)] If $m_1$ and $m_2$ are Bayesian, (iii) is Bayes' rule: $(m_1 \oplus m_2)(\{a\})$ is proportional to $m_1(\{a\})\, m_2(\{a\})$.
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+(i) The display is bilinearity. The Aethus $[X:S]\cdot[X:S']$ holds the filling $S \cap S'$, so the terms that hold $T$ are those with $S \cap S' = T$, and their weights sum to $(m_1 \cap m_2)(T)$. A term with $S \cap S' = \varnothing$ is invalid, and Lemma~\ref{lem:pair} gives its maximal states. (ii) The invalid terms lie in the invalidity ideal, and a valid term $[X:S]\cdot[X:S']$ has the realization of $[X:S \cap S']$ (Theorem~\ref{thm:realization}); collecting the terms on each $[X:T]$ gives the display. (iii) Multiply (ii) by $(1 - K)^{-1}$. The weights of an element on the states are determined by its realization, by Theorem~\ref{thm:moebius}(iii), so the element of the class whose weights sum to one is unique. If $K = 1$ every term is invalid. (iv) Two single values meet in that value or not at all.
+\end{proof}
+
+\begin{corollary}\label{cor:cond}
+For nonempty $R \subseteq \Omega$ and a mass function $m$ with a focal set that meets $R$, $A_m \cdot [X:R] \eqP A_{m \oplus m_R}$, where $m_R$ is the categorical mass function on $R$: Dempster's conditioning on $R$ is joint assertion with the state $[X:R]$. The vacuous body of evidence is the unit.
+\end{corollary}
+
+\begin{proof}
+Theorem~\ref{thm:tiers}(iii) with $m_2 = m_R$, whose conflict with $m$ is less than one; $[X:\Omega]$ is the unit of joint assertion.
+\end{proof}
+
+\begin{remark}[Rules that reassign the conflict]\label{rem:reassign}
+The rules that reassign conflict are maps on the first tier that fix its valid terms and send each invalid term to a valid state, followed by the second tier. Yager's rule sends every invalid term to $[X:\Omega]$ \cite{yager1987}. The rule of Dubois and Prade sends the invalid term whose maximal states are $[X:S]$ and $[X:S']$ to $[X:S \cup S']$ \cite{dubois1988}. The transferable belief model collects the invalid terms on one element that stands for the empty set \cite{smets1994}, and Dempster's rule sends them to zero and rescales. Dempster's rule, the transferable belief model and Yager's rule use only the total weight of the invalid terms. The rule of Dubois and Prade uses the pair behind each, and of the three tiers only the first holds the pairs, by Lemma~\ref{lem:pair}.
+\end{remark}
+
+\section{The M\"obius algebra}\label{sec:moebius}
+
+For a function $m \geq 0$ on the nonempty subsets of $\Omega$, its commonality function is $q_m(Q) = \sum_{S \supseteq Q} m(S)$ \cite{shafer1976}.
+
+\begin{theorem}\label{thm:moebius}
+Let $\V$ consist of every nonempty subset of $\Omega$.
+\begin{enumerate}
+\item[(i)] For every $m \geq 0$, $\sum_S m(S)\,[X:S] \eqV \sum_Q q_m(Q)\, I_Q$: the coefficients of a body of evidence on the irreducible states are its commonality function.
+\item[(ii)] Joint assertion is coefficientwise on the irreducible states: $\big(\sum_Q c(Q)\, I_Q\big)\cdot\big(\sum_Q c'(Q)\, I_Q\big) \eqV \sum_Q c(Q)\,c'(Q)\, I_Q$. With (i) this is Shafer's formula $q_{m_1 \cap m_2} = q_{m_1}\, q_{m_2}$ \cite{shafer1976}.
+\item[(iii)] The passage from states to irreducible states, $[X:S] \mapsto \zeta(S)$, is the zeta transform of the lattice of subsets of $\Omega$, and M\"obius inversion inverts it: computed with real coefficients, $I_Q = \sum_{\varnothing \neq S \subseteq Q} (-1)^{|Q \setminus S|}\, \zeta(S)$. The states are therefore linearly independent at the second tier, and the weights of an element on the states are determined by its realization. With real coefficients, the states span the M\"obius algebra of the lattice of subsets of $\Omega$ under intersection, with its bottom element $\varnothing$ sent to zero, and the irreducible states are its primitive orthogonal idempotents \cite{solomon1967, greene1973}.
+\item[(iv)] At non-negative weights, which are the only weights of the framework, an irreducible state over two or more values is validity equivalent to no weighted sum of states. It belongs to the algebra as an Aethus of its own, through its irreducibility pin.
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+(i) Substitute~\eqref{eq:expansion} and exchange the sums. (ii) Theorem~\ref{thm:realization}; the realization of $I_Q$ is $\delta_Q$. (iii) The M\"obius function of the lattice of subsets is $\mu(S, Q) = (-1)^{|Q \setminus S|}$ for $S \subseteq Q$; substituting $\zeta(S) = \sum_{Q' \subseteq S} I_{Q'}$ and summing over $S$ leaves $I_Q$. Over the reals the semigroup algebra of a finite lattice under its meet has the primitive orthogonal idempotents $\sum_{S \subseteq Q} \mu(S, Q)\, S$, one for each element $Q$ \cite{solomon1967, greene1973}. The idempotent of the bottom element is $\varnothing$ itself, which is invalid and zero at the second tier, and the others are the $I_Q$. (iv) By (iii) the weights of an element on the states are unique, and those of $I_Q$ are $(-1)^{|Q \setminus S|}$ on the nonempty $S \subseteq Q$, which is $-1$ on every $S$ with $|Q \setminus S| = 1$.
+\end{proof}
+
+\begin{example}\label{ex:moebius}
+Let $\Omega = \{a, b, c\}$, $m_1(\{a,b\}) = 0.6$, $m_1(\Omega) = 0.4$, $m_2(\{b,c\}) = 0.7$ and $m_2(\{a\}) = 0.3$. Table~\ref{tab:moebius} gives the coefficients of the two bodies of evidence on the irreducible states, their products, and the masses recovered from the products by M\"obius inversion. These are the conjunctive combination, $0.3$ on $\{a\}$, $0.42$ on $\{b\}$ and $0.28$ on $\{b, c\}$, with no conflict.
+\end{example}
+
+\begin{table}[ht]
+\centering\small
+\begin{tabular}{@{}lccccccc@{}}
+\toprule
+$Q$ & $\{a\}$ & $\{b\}$ & $\{c\}$ & $\{a,b\}$ & $\{a,c\}$ & $\{b,c\}$ & $\Omega$\\
+\midrule
+$q_{m_1}(Q)$ & $1$ & $1$ & $0.4$ & $1$ & $0.4$ & $0.4$ & $0.4$\\
+$q_{m_2}(Q)$ & $0.3$ & $0.7$ & $0.7$ & $0$ & $0$ & $0.7$ & $0$\\
+$q_{m_1}(Q)\,q_{m_2}(Q)$ & $0.3$ & $0.7$ & $0.28$ & $0$ & $0$ & $0.28$ & $0$\\
+mass, by M\"obius inversion & $0.3$ & $0.42$ & $0$ & $0$ & $0$ & $0.28$ & $0$\\
+\bottomrule
+\end{tabular}
+\caption{\small Example~\ref{ex:moebius}: the coefficients of two bodies of evidence on the irreducible states, joint assertion as their product, and the masses of the product.}
+\label{tab:moebius}
+\end{table}
+
+\section{Beyond belief functions: ontic sets}\label{sec:ontic}
+
+\begin{proposition}\label{prop:cone}
+Let $\V$ consist of every nonempty subset of $\Omega$, and let $x \eqV \sum_Q c(Q)\, I_Q$ with $c \geq 0$ and $c \neq 0$. Then $x$ is validity equivalent to a weighted sum of states if and only if
+\[
+m_c(S) = \sum_{Q \supseteq S} (-1)^{|Q \setminus S|}\, c(Q) \;\geq\; 0
+\]
+for every nonempty $S$, and the sum is then $\sum_S m_c(S)\,[X:S]$, a body of evidence up to the scale of its total mass. The bodies of evidence thus form a proper subcone of the non-negative weighted sums of irreducible states, and $I_Q$ with two or more values lies outside it.
+\end{proposition}
+
+\begin{proof}
+By Theorem~\ref{thm:moebius}(iii) the only weights on the states that can realize $c$ are the $m_c(S)$, and by (i) of that theorem they realize it. Their total is positive, since $c = q_{m_c}$ and $c \neq 0$. The last statement is Theorem~\ref{thm:moebius}(iv).
+\end{proof}
+
+\begin{proposition}\label{prop:ontic}
+For nonempty $R$ and $S$, and $Q \in \V$,
+\[
+[X:R]\cdot[X:S] \eqV \zeta(R \cap S), \qquad
+[X:R]\cdot I_Q \eqV
+\begin{cases}
+I_Q & \text{if } Q \subseteq R,\\
+0 & \text{otherwise.}
+\end{cases}
+\]
+Evidence that the filling of $X$ lies within $R$ narrows a broad state to its part within $R$, and either leaves an irreducible state standing or contradicts it.
+\end{proposition}
+
+\begin{proof}
+The first is Theorem~\ref{thm:realization}. For the second, expand $[X:R]$ by~\eqref{eq:expansion} and apply Lemma~\ref{lem:orth}.
+\end{proof}
+
+Couso and Dubois distinguish two readings of a set-valued datum \cite{couso2014}. An epistemic set contains the ill-known value of a quantity that takes one value; an ontic set is the value of a quantity that takes sets as values, a composite object. Proposition~\ref{prop:ontic} separates the two inside one algebra by their behavior under evidence. The broad state $[X:S]$ behaves epistemically: evidence narrows it, as Dempster's conditioning narrows a focal set (Corollary~\ref{cor:cond}). The irreducible state $I_Q$ behaves ontically: evidence that excludes one of its values does not leave the others standing, since the value is the whole of $Q$, and the joint assertion is invalid. Thus $[X:\{a,b\}]\cdot[X:\{a,c\}] \eqV [X:\{a\}]$, while $I_{\{a,b\}}\cdot[X:\{a,c\}] \eqV 0$. By~\eqref{eq:expansion} a broad state is the sum of the ontic values within it, an epistemic set over ontic values, and a body of evidence is a weighting of broad states. A non-negative weighting of irreducible states outside the cone of Proposition~\ref{prop:cone} is a distribution over ontic values that no assignment of non-negative masses to epistemic sets reproduces. In the framework the irreducible states are the agreeing superpositions in the strict sense \cite{Aethus, AethusUnion}, and the broad states are its blanks: an attribute left open among the values of $S$, read as a superposition of those values rather than as ignorance of a hidden one \cite{AethusTree}.
+
+\section{The classical part: ignorance and indifference}\label{sec:classical}
+
+An attribute is classical when it can be filled by single values only, so that $\V$ is the set of single values and~\eqref{eq:expansion} reads $[X:S] \eqV \sum_{a \in S} [X:\{a\}]$, the disagreeing superposition of the values of $S$ in the framework's term \cite{Aethus}. The contour function of a mass function is $\pl_m(a) = \sum_{S \ni a} m(S)$, the plausibility of each single value, and its normalization is the plausibility transformation, Voorbraak's Bayesian approximation \cite{voorbraak1989, cobb2006}.
+
+\begin{proposition}\label{prop:classical}
+\begin{enumerate}
+\item[(i)] For every $\V$, $A_m \eqV \sum_{Q \in \V} q_m(Q)\, I_Q$, joint assertion multiplies these coefficients, and Theorem~\ref{thm:tiers}(ii)--(iii) hold as equivalences; the weights of an element on the states are determined by its realization only when $\V$ consists of every nonempty subset of $\Omega$.
+\item[(ii)] On a classical attribute $A_m \eqV \sum_{a} \pl_m(a)\, [X:\{a\}]$. The class of $A_m$ at the third tier is the plausibility transformation of $m$, and Theorem~\ref{thm:tiers}(iii) becomes the statement that the plausibility transformation of $m_1 \oplus m_2$ is the normalized product of those of $m_1$ and $m_2$ \cite[Theorem~5.1]{cobb2006}.
+\item[(iii)] On a classical attribute two bodies of evidence are projectively validity equivalent exactly when their contour functions are proportional; in particular total ignorance over $R$, the categorical $m_R$, and the uniform distribution on $R$ are identified. If every nonempty subset of $R$ is in $\V$ and $R$ has two or more values, $A_{m_R}$ is projectively equivalent to no Bayesian body of evidence.
+\item[(iv)] Joint assertion with $E = \sum_{a \in \Omega} [X:\{a\}]$ is a homomorphism of the realizable Aethae onto those of the classical attribute. It keeps the coefficients on the single values and sends every irreducible state over two or more values to zero.
+\end{enumerate}
+\end{proposition}
+
+\begin{proof}
+(i) Theorem~\ref{thm:realization} and the computation of Theorem~\ref{thm:moebius}(i), the terms outside $\V$ being zero. When $\V$ is smaller the states are no longer independent: on a classical attribute $[X:\{a,b\}] \eqV [X:\{a\}] + [X:\{b\}]$. (ii) $q_m(\{a\}) = \pl_m(a)$; the class at the third tier is the normalized realization, and the product is (i). (iii) The realizations on a classical attribute are the contour functions. The contour function of $m_R$ is the indicator of $R$, and that of the uniform distribution on $R$ is $|R|^{-1}$ times it. If the irreducible states within $R$ are valid, the realization of $A_{m_R}$ has the value $q_{m_R}(R) = 1$ at $R$, where every Bayesian body has commonality zero. (iv) $E \eqV \sum_a I_{\{a\}}$ is idempotent, and joint assertion with an idempotent in a commutative semiring preserves sums and products; by Lemma~\ref{lem:orth} it fixes $I_{\{a\}}$ and sends $I_Q$ with two or more values to zero.
+\end{proof}
+
+Shafer's objection to the Bayesian representation of ignorance is that it cannot tell total ignorance over a set from the uniform distribution on it \cite{shafer1976}. Proposition~\ref{prop:classical} locates that identification in the algebra: a classical attribute makes it, and the states over two or more values are what keep the two apart. In the framework's terms, reading an attribute left open as a hidden single value makes ignorance and indifference one, and reading it as a superposition of the values left open keeps them two \cite{AethusTree, AethusBrief}. Within the algebra, $E$ is the carving of $X$ into single values, and the plausibility transformation commutes with Dempster's rule because joint assertion with an idempotent is a homomorphism.
+
+\section{Zadeh's example at the three tiers}\label{sec:zadeh}
+
+Let $\Omega = \{M, C, T\}$, for meningitis, concussion and a brain tumor, and let $m_1(\{M\}) = 0.99$, $m_1(\{T\}) = 0.01$, $m_2(\{C\}) = 0.99$ and $m_2(\{T\}) = 0.01$ \cite{zadeh1984}. Every focal set is a single value, so the identification~\eqref{eq:expansion} plays no part. Table~\ref{tab:zadeh} gives the product at the first tier and what four rules make of each of its terms.
+
+\begin{table}[ht]
+\centering\small
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+term at the first tier & weight & & Dempster & TBM & Yager & Dubois--Prade\\
+\midrule
+$[X:\{M\}]\cdot[X:\{C\}]$ & $0.9801$ & invalid & dropped & $\varnothing$ & $\Omega$ & $\{M, C\}$\\
+$[X:\{M\}]\cdot[X:\{T\}]$ & $0.0099$ & invalid & dropped & $\varnothing$ & $\Omega$ & $\{M, T\}$\\
+$[X:\{T\}]\cdot[X:\{C\}]$ & $0.0099$ & invalid & dropped & $\varnothing$ & $\Omega$ & $\{C, T\}$\\
+$[X:\{T\}]$ & $0.0001$ & valid & $\{T\}$ & $\{T\}$ & $\{T\}$ & $\{T\}$\\
+\midrule
+result & & & $\{T\}$: $1$ & $\varnothing$: $0.9999$ & $\Omega$: $0.9999$ & $\{M,C\}$: $0.9801$\\
+ & & & & $\{T\}$: $0.0001$ & $\{T\}$: $0.0001$ & $\{M,T\}$, $\{C,T\}$: $0.0099$\\
+ & & & & & & $\{T\}$: $0.0001$\\
+\bottomrule
+\end{tabular}
+\caption{\small Zadeh's example. The product of the two bodies of evidence at the first tier, and the assignment that each rule makes of its terms; TBM is the transferable belief model.}
+\label{tab:zadeh}
+\end{table}
+
+At the second tier the product is $0.0001\,[X:\{T\}]$, and at the third it is $[X:\{T\}]$, Dempster's verdict. The first tier holds $0.9999$ of the weight on three invalid Aethae, each holding the two diagnoses that produced it (Lemma~\ref{lem:pair}), and every rule in the table is a function of it. In the framework the realizable content and its probabilities are read at the second and third tiers \cite{Aethus}. Read there, the joint assertion of the two reports has the realizable content $[X:\{T\}]$ alone, and the first tier records that $0.9999$ of the weight of the joint assertion is not realizable.
+
+\section{Scope}\label{sec:scope}
+
+\emph{Several attributes.} A composite attribute is an attribute whose values are the joint values of its components, the relations between attributes removing the joint values they declare invalid \cite{Aethus}. Every statement above applies to it with $\Omega$ its valid joint values, fillings that are not products, which hold correlations between components, included. Declarations that make states of a composite invalid, other than by irreducibility, restrict $\V$ as in Proposition~\ref{prop:classical}(i). Relation structures that declare states of different attributes jointly invalid otherwise are not treated.
+
+\emph{Weights.} The weights are non-negative reals, the framework's base case. The framework admits other measure types \cite{AethusTree}; on them the third tier needs a scalar that is not a zero divisor, and Dempster's normalization needs division.
+
+\emph{The identification.} Equation~\eqref{eq:expansion} is a declared decomposition. Theorem~\ref{thm:realization} shows it to be a congruence on one attribute, and so constructs, for one attribute, the algebra in which declared splittings are identities; whether the framework's declared decompositions are compatible in general is open \cite{Aethus, AethusTree}.
+
+\emph{What is settled.} The algebra fixes the relations among the rules of combination: Dempster's rule is its third tier, the conjunctive rule is its second with the conflict's weight added back, and the rules that reassign conflict are functions of its first. It does not select a rule.
+
+\section*{Provenance}
+\addcontentsline{toc}{section}{Provenance}
+
+\noindent The weight algebra, its invalidity ideal and its second tier are developed in \cite{Aethus, AethusTree}. The identification~\eqref{eq:expansion} of a broad state with its powerset expansion is the author's, of November 7, 2026, and the third tier, validity equivalence up to a positive scale, is the author's, of November 27, 2026 \cite{Aethus}. The reading of the three tiers as the combination rules of evidence theory, and the results of Sections~\ref{sec:fragment}--\ref{sec:zadeh}, were proposed on November 27, 2026, in the AI-assisted development of the framework. The side condition on elimination, that the eliminated value not be excluded itself, was added to the framework's definition of closure the same day, its statement that an invalid representation keeps exactly the content it has requiring it. Every statement of Sections~\ref{sec:fragment}--\ref{sec:zadeh} was checked by exhaustive and randomized computation, in exact rational arithmetic, on attributes of two to four values.
+
+\printbibliography
+\end{document}
