@@ -3,7 +3,8 @@ layout: null
 ---
 {% comment %}
   Index of development/papers/: zips the folder's .pdf and/or .tex files in the browser,
-  filtered by series (Aethic / Nexic / Golden) and kind (Main / Extraction).
+  filtered by series (Aethic / Nexic / Golden) and kind (Main / Extraction), with a
+  separate Misc group for the papers that belong to none of the three series.
 
   Local files: Jekyll writes the folder's file list into the "paper-data" block at
   build time. Without Jekyll it falls back to a manifest.json in this folder.
@@ -49,6 +50,7 @@ layout: null
                  padding:7px 4px; cursor:pointer; }
   .grid .hd { border-style:dashed; color:var(--muted); font-size:.8rem; }
   .grid .rowhd { text-align:left; padding-left:10px; padding-right:10px; }
+  .grid .wide { grid-column:span 2; }
   .grid .cell[aria-pressed="true"] { border-color:var(--accent); background:var(--wash); color:var(--accent); font-weight:600; }
   .grid .cell:disabled { opacity:.4; cursor:default; }
   .grid button:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
@@ -128,6 +130,10 @@ layout: null
     Golden: ["2_Golden_Reasoning", "3_Golden_Reasoning", "Golden_Reasoning"],
   };
   const GOLDEN_EXTRACTIONS = ["accord_gold", "civ", "miracleism", "route_world", "surviv", "techno"];
+  // Papers outside the three series: neither a main paper nor an extraction of one.
+  // Same stems as MISC_PAPER_STEMS in build_commit.py, which publishes them to development/5_misc.
+  const MISC = "Misc";
+  const MISC_PAPERS = ["phil_sci_extra", "howlong", "norm_cost", "phil_sci_positions", "unconveyable"];
 
   const MANIFEST = "manifest.json";
   const CONCURRENCY = 4;
@@ -138,6 +144,11 @@ layout: null
   const setStatus = (msg, err) => { statusEl.textContent = msg; statusEl.classList.toggle("err", !!err); };
   const fileType = () => document.querySelector('input[name="kind"]:checked').value;
   const key = (s, k) => s + "/" + k;
+  const MISC_KEY = key(MISC, MISC);
+  const SERIES_KEYS = SERIES.flatMap(s => KINDS.map(k => key(s, k)));
+  const ALL_KEYS = [...SERIES_KEYS, MISC_KEY];
+  // Every group the page lists, in display order
+  const GROUPS = [...SERIES.flatMap(s => KINDS.map(k => [s, k, s + " · " + k])), [MISC, MISC, MISC]];
   const lc = (s) => String(s).toLowerCase();
   // Name matching ignores case and separators: "Nexic_Reasoning_long" = "nexic-reasoning-long"
   const norm = (s) => lc(s).replace(/[^a-z0-9]/g, "");
@@ -171,11 +182,15 @@ layout: null
     return null;
   }
 
-  // ---- Classification: main-paper names first, then the site data, then filename rules ----
+  // ---- Classification: main-paper names first, then the Misc list, then the site data, then filename rules ----
   function classify(stem, paper) {
     const n = norm(stem);
     for (const series of SERIES) {
       if (MAIN_PAPERS[series].some(x => norm(x) === n) || n === norm(series) + "reasoning") return { series, kind: "Main" };
+    }
+    // Misc wins over the site data: a paper listed here is published to 5_misc whatever wing it is shown under
+    if (MISC_PAPERS.some(m => norm(m) === n) || (paper && (lc(paper.wing || "") === "misc" || lc(paper.kind || "") === "misc"))) {
+      return { series: MISC, kind: MISC };
     }
     if (paper) {
       const wing = paper.wing ? paper.wing[0].toUpperCase() + lc(paper.wing).slice(1) : "Aethic";
@@ -225,7 +240,7 @@ layout: null
   const prettyStem = (stem) => stem.replace(/^\d+_/, "").replace(/[_-]+/g, " ").replace(/\b\w/g, c => c.toUpperCase());
 
   let all = [];                               // [{path, stem, series, kind, paper}]
-  const selected = new Set(SERIES.flatMap(s => KINDS.map(k => key(s, k))));
+  const selected = new Set(ALL_KEYS);
   const ofType = () => all.filter(f => EXT[fileType()].some(e => lc(f.path).endsWith(e)));
   const chosen = () => ofType().filter(f => selected.has(key(f.series, f.kind)));
 
@@ -263,7 +278,7 @@ layout: null
       grid.appendChild(b);
       return b;
     };
-    mk("All", "hd", () => toggleGroup(SERIES.flatMap(s => KINDS.map(k => key(s, k)))));
+    mk("All", "hd", () => toggleGroup(ALL_KEYS));
     for (const k of KINDS) mk(k, "hd", () => toggleGroup(SERIES.map(s => key(s, k))));
     for (const s of SERIES) {
       mk(s, "hd rowhd", () => toggleGroup(KINDS.map(k => key(s, k))));
@@ -272,6 +287,10 @@ layout: null
         b.dataset.key = key(s, k);
       }
     }
+    // Misc: one row, one cell across both kind columns
+    const toggleMisc = () => { selected.has(MISC_KEY) ? selected.delete(MISC_KEY) : selected.add(MISC_KEY); refresh(); };
+    mk(MISC, "hd rowhd", () => toggleGroup([MISC_KEY]));
+    mk("", "cell wide", toggleMisc).dataset.key = MISC_KEY;
   }
 
   // ---- Render ----
@@ -282,7 +301,8 @@ layout: null
       b.textContent = n;
       b.disabled = n === 0;
       b.setAttribute("aria-pressed", String(n > 0 && selected.has(b.dataset.key)));
-      b.setAttribute("aria-label", `${b.dataset.key.replace("/", " ")}: ${n} file${n === 1 ? "" : "s"}`);
+      const what = b.dataset.key === MISC_KEY ? MISC : b.dataset.key.replace("/", " ");
+      b.setAttribute("aria-label", `${what}: ${n} file${n === 1 ? "" : "s"}`);
     }
 
     const files = chosen();
@@ -294,7 +314,7 @@ layout: null
       const p = document.createElement("p"); p.className = "none"; p.textContent = "No files in the current selection.";
       list.appendChild(p); return;
     }
-    for (const s of SERIES) for (const k of KINDS) {
+    for (const [s, k, label] of GROUPS) {
       const group = files.filter(f => f.series === s && f.kind === k);
       if (!group.length) continue;
 
@@ -306,7 +326,7 @@ layout: null
         byStem.get(id).push(f);
       }
       const h = document.createElement("h3");
-      h.textContent = `${s} · ${k} (${byStem.size} paper${byStem.size === 1 ? "" : "s"})`;
+      h.textContent = `${label} (${byStem.size} paper${byStem.size === 1 ? "" : "s"})`;
       const ul = document.createElement("ul");
       for (const fs of byStem.values()) {
         const f0 = fs[0], li = document.createElement("li");
@@ -341,8 +361,11 @@ layout: null
     let part = "";
     if (on.length !== live.length) {
       const series = SERIES.filter(s => on.some(k => k.startsWith(s + "/")));
-      const kinds = KINDS.filter(k => on.some(x => x.endsWith("/" + k)));
-      part = "-" + [...(series.length < SERIES.length ? series : []), ...(kinds.length < KINDS.length ? kinds : [])]
+      const kinds = KINDS.filter(k => on.some(x => x !== MISC_KEY && x.endsWith("/" + k)));
+      const miscOn = on.includes(MISC_KEY), miscOnlyOff = live.includes(MISC_KEY) && !miscOn && kinds.length === KINDS.length;
+      // The series are named when some are missing, or when Misc is the only thing left out
+      part = "-" + [...(series.length < SERIES.length || miscOnlyOff ? series : []),
+                    ...(kinds.length < KINDS.length && series.length ? kinds : []), ...(miscOn ? [MISC] : [])]
         .join("-").toLowerCase();
       if (part === "-") part = "-selection";
     }
@@ -366,7 +389,8 @@ layout: null
           try {
             const r = await fetch(urlFor(f.path));
             if (!r.ok) throw new Error(r.status);
-            zip.file(`${f.series}/${f.kind}/${f.path}`, await r.blob());   // e.g. Nexic/Extraction/…
+            const dir = f.series === MISC ? MISC : `${f.series}/${f.kind}`;       // e.g. Nexic/Extraction/… or Misc/…
+            zip.file(`${dir}/${f.path}`, await r.blob());
           } catch { failed.push(f.path); }
           done++;
           bar.value = (done / files.length) * 80;
@@ -413,7 +437,7 @@ layout: null
       return { path, stem, paper, ...classify(stem, paper) };
     });
     $("source").textContent = siteData
-      ? `Titles and wings from ${siteData.from}/papers.json; unlisted files are sorted by filename.`
+      ? `Titles and wings from ${siteData.from}/papers.json; unlisted files are sorted by filename, and the Misc papers by the list in this page.`
       : "Main-site paper data unavailable; files are sorted by filename.";
     if (!all.length) setStatus("No files found in this folder.", true);
     $("kind").addEventListener("change", () => { setStatus(""); bar.hidden = true; refresh(); });
